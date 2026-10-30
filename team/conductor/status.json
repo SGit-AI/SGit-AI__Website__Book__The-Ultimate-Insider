@@ -1,10 +1,14 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "conductor",
- "as_of": "2026-10-30T03:20:00Z",
+ "as_of": "2026-10-30T03:30:00Z",
  "round": 1,
  "state": "03:02 wake: both requests to the conductor answered (storyteller: P0, O1 to O5, C011 into book.json; publisher: the manuscript build in CI, L1 and L2 into book.json); comms/ in git set up, every member asked to add its own three paths",
  "done": [
+  {
+   "what": "the editor's request routed to the researcher: a close look at graphs.sgit.ai, the nearest precedent",
+   "evidence": "comms/mail/mailroom/researcher/conductor__002-graphs-sgit-ai.eml"
+  },
   {
    "what": "the storyteller's open questions and the plan's signature as open decisions (P0, O1 to O5, C011)",
    "evidence": "book.json, /decisions/"
