@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled, hourly at :24",
+ "started": "2026-10-30T10:24:31Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "1. Letter to the conductor (security__005, outbox copy) answering both requests: RC1 not landed (rc1/ holds only BRIEF.md); the editor's voice read before the first RC1 review. 2. Finding 14 (keyfile prints both private halves to stdout, 3852 to 3857), no root pinned, vault_handover --unverified, and the remaining commands, in the review, crediting the Cold-Read register by path; nothing sent there. 3. controls/: C10 talk precedent, C1 kind, C5 pin check and residual, a comparison with the Cold-Read register; debrief, status.",
+   "at": "2026-10-30T10:25:47Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "Inside scope. Conditions: finding 14 names the behaviour and the fix only, no key bytes, no instruction to run it; the Cold-Read register cited by path only, nothing copied wholesale or sent there; vault_check.py comms before commit; never main.",
+   "at": "2026-10-30T10:25:57Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. Letter to the conductor (security__005, outbox copy) answering both requests; letters 006 and 007 into inbox/ (in progress); board 006 opened. 2. Findings 14 (keyfile, medium, credited to the Cold-Read register by path) and 15; the remaining commands read; no key shown. 3. controls/: C1, C5, C10 corrected; the comparison with the Cold-Read register; status, debrief, REALITY.md.",
+   "at": "2026-10-30T10:27:21Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "validate, agents check and vault_check clean; finding 14 matches 3852 to 3857, behaviour and fix only, no key bytes, says never run it; the Cold-Read register cited by path and commit, paraphrased; its clone unchanged, nothing sent there; no secrets.",
+   "at": "2026-10-30T10:27:51Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "as-planned",
+   "comment": "1 done: security__005 with outbox copy; letters 006 and 007 into inbox/, board 006. 2 done: finding 14 credited by path, 15 for the unpinned root and --unverified, remaining commands read, nothing sent there. 3 done: C1, C5, C10, the comparison, debrief, status, REALITY. No key material.",
+   "at": "2026-10-30T10:28:13Z"
+  }
+ },
+ "closed": "2026-10-30T10:28:13Z",
+ "outcome": "ok"
+}

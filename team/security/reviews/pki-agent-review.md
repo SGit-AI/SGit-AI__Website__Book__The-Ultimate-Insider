@@ -18,11 +18,14 @@ Defensive notes only: what each finding is, why it matters, and a fix. No key ma
 | unzip module (`assets/people/unzip.js`) | 3434 to 3500 | yes (ninth wake) |
 | key store, argument parser, register, pinned root | 3505 to 3600 | yes |
 | self-spawn, commands `submit` to `trust` | 3660 to 3800 | yes |
-| remaining commands | 3800 to the end | no |
+| remaining commands: `keygen` to `keyfile` and `sign` | 3704 to the end | yes (tenth wake) |
 
 The file says it is generated from the site's own code by `admin/build/gen_agent_tool.mjs`; that generator is not in this repository, so the review is of the output.
 
 ## Findings so far
+
+**Most important first: finding 14** (tenth wake): the one finding above low. The others below are in the order they were found.
+
 
 1. **`submit` does not check the operator against the pinned root** (lines 3735 to 3750). `send` and `seal` call `vouched()`; `submit` takes the operator's record, and its inbox endpoint, from the register as it stands. What travels is the agent's own signed public submission, so no secret is exposed. **Narrowed in the seventh wake:** the register files each record under the fingerprint of the key inside it and checks every statement against that key (`readRecord`, lines 2693 to 2741), and an inbox endpoint must be a bare https host (`shapeProblems`, inbox). So a changed register can withhold or drop the operator's record, not quietly put another inbox in its place without a key matching the operator's fingerprint (see finding 6). Fix, if wanted: run `vouched()` on the operator, as `send` does. Severity: information (was low).
 2. **Private halves are written unencrypted when `SG_SEND_PASSPHRASE` is not set** (`saveKey`, line 3529). They are mode 0600 in a 0700 folder, as the header says. In this team's sessions the passphrase is not set, so anything else running in the session's container can read them; the container is the session's own and is reclaimed after it. Documented behaviour, recorded for the register: the control here is the container boundary, not the tool. Severity: information.
@@ -43,6 +46,9 @@ The file says it is generated from the site's own code by `admin/build/gen_agent
 
 13. **The PNG reader decompresses with no size cap** (`decodePng`, line 3268; called with `zlib.inflateSync` and no `maxOutputLength` at lines 3633 and 3651). The image's declared size is bounded (40 million pixels, line 3263), but the decompressed image data is not checked against it until after it has all been inflated in memory. An image file a session is handed can therefore make the tool use far more memory than its size suggests, and stop. It is a fault that ends the command, not a disclosure. The zip reader beside it is bounded exactly this way already (line 3637). Fix: pass `maxOutputLength: (w * channels + 1) * h` to the inflate, as `unzip` does. Severity: low.
 
+14. **`keyfile` prints both private halves to standard output, in the clear when no passphrase is set** (`keyfile`, lines 3852 to 3857). Its purpose is to carry a key between machines (`PKI_AGENT_KEY`, header lines 17 to 19); with `SG_SEND_PASSPHRASE` unset, as in every session on this team, it warns on standard error and prints the keys unencrypted anyway. In an agent session, standard output is the session's transcript: one run puts the member's private key there, and from there into anything that quotes the transcript. If the output were committed, the gate's tripwire would catch the PEM header (C6), but the transcript is already outside the repository. No member has a reason to run it (session keys never travel: `pki-agent.README.md`), and none has, as far as the record shows. Fix, for the editor: refuse to run without a passphrase, or write only to a file given with `--out` at mode 0600, never to standard output; and one line in `pki-agent.README.md`: never run `keyfile` in a session. Severity: **medium**. Credit: the Cold-Read team's security member found it first (its `team/security/controls-and-threats.md`, finding K2, rated "high if ever run"); this review had not yet reached the command and confirms it.
+15. **Sealing here always skips the trust chain** (`admin/tools/vault_handover.py` lines 20 and 127; `vouched`, line 3598). This team pins no root, so the tool's own protection for `seal` and `send` (finding 4, What held) is bypassed by design with `--unverified`: a vault key is sealed to whatever key a `team/<id>/key.json` names. The check that stands in its place is the conductor reading the member's session folder before sealing (C4). No vault exists now (decision of 30 October: no vaults), so nothing is sealed today. Fix, if vaults return: pin the editor's root and drop `--unverified`. Severity: information. Also from the Cold-Read team's register (K3), confirmed here.
+
 ## What held
 
 - The algorithms are standard and in the platform's own WebCrypto, with no hand-made primitives: RSA-OAEP 4096 with SHA-256 for sealing, ECDSA P-256 for signing, AES-256-GCM with a fresh random 96-bit IV per message, PBKDF2-HMAC-SHA256 at 210,000 iterations for a passphrase (lines 2341 to 2343, 2428, 2530). Randomness comes only from `crypto.getRandomValues` (line 2305).
@@ -55,6 +61,8 @@ The file says it is generated from the site's own code by `admin/build/gen_agent
 - An evidence check that cannot run says so (`null`, "could not be checked from here"), never "false" (the module's own rule, line 3161); a gist proves nothing unless its owner is the account named (line 3197).
 - The zip reader is built for someone else's file: at most 200 entries, 10 MB an entry and 60 MB in all, an entry that inflates past its declared size refused, and names kept as labels, never used as paths (lines 3434 to 3483). One bad entry is that entry's error, not the whole archive's.
 - The QR reader corrects no errors, and says why that is safe here: a misread gives text that fails to parse or a signature that fails to check, never a wrong secret, because everything it carries is sealed and signed (lines 3225 to 3229).
+- `open --save` writes each attached file at mode 0600 with its name stripped of any path part (line 3850), and a vault key found in a message's text is saved as a file, never printed (line 3847).
+- `keygen` says where the private halves are and whether they are encrypted, and keeps them there (lines 3704 to 3712).
 - `parseQrText` treats a QR code as data carried by hand: exact keys, exact shapes, a length limit, refusal of anything else before a byte is used (lines 3088 to 3129). The rule the team's own CLAUDE.md states for material is written into the parser here.
 
 - `seal --from-vault` reads the vault key from `sgit vault show-key` into memory and never prints it or writes it to a file (line 3768 on); `send` turns a vault key found in `--text` into an attached file rather than message text.
@@ -63,4 +71,4 @@ The file says it is generated from the site's own code by `admin/build/gen_agent
 
 ## Next
 
-The remaining commands (line 3800 to the end), then the DER helpers (2394 to 2495) line by line; the vendored QR generator (MIT, 35 to 2277) is third-party code and is checked for network calls and file writes only. One part per wake.
+The DER helpers (2394 to 2495) line by line; the vendored QR generator (MIT, 35 to 2277) is third-party code and is checked for network calls and file writes only. Then the review is complete.

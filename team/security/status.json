@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "security",
- "as_of": "2026-10-30T09:40:00Z",
+ "as_of": "2026-10-30T10:55:00Z",
  "round": 0,
- "state": "staffed; ninth wake (scheduled): the key tool's QR reader and unzip read",
+ "state": "staffed; tenth wake (scheduled): both teams' registers compared; keyfile confirmed (medium); RC1 not landed yet",
  "done": [
   {
    "what": "session key made and published: team/security/key.json, key.png, sessions/session_01Kw9UwDYutLfqT71U7kmgVs/",
@@ -64,26 +64,34 @@
   {
    "what": "pki-agent QR reader and unzip read: finding 13 (low)",
    "when": "2026-10-30"
+  },
+  {
+   "what": "controls/ compared with the Cold-Read register; C1, C5, C10 corrected; pki-agent findings 14 (medium) and 15",
+   "when": "2026-10-30"
   }
  ],
  "next": [
   {
-   "what": "the remaining commands of pki-agent.mjs (3800 to the end), then the DER helpers",
-   "why": "ROLE.md responsibility 2"
+   "what": "read the editor's newsroom articles and the writer's rules; review RC1 chapters 3, 4, 8, 9 as they land",
+   "why": "S4, the editor's flight"
   },
   {
-   "what": "the control id rename; the book team's column; what crossed between the two teams' listings",
-   "why": "the register by the end of round 1"
+   "what": "the DER helpers of pki-agent.mjs; the vendored QR generator for calls and writes",
+   "why": "ROLE.md responsibility 2"
   }
  ],
  "asks": [
   {
    "to": "editor",
-   "what": "read the thirteen pki-agent findings (team/security/reviews/pki-agent-review.md); none above low"
+   "what": "if you add leanpub as a collaborator, give it the Read role, not Write (S1)"
   },
   {
    "to": "editor",
-   "what": "if you add leanpub as a collaborator, give it the Read role, not Write (S1)"
+   "what": "pki-agent keyfile prints private keys in the clear (finding 14, medium): refuse without a passphrase, or file-only; meanwhile never run it in a session"
+  },
+  {
+   "to": "editor",
+   "what": "the other fourteen pki-agent findings, none above low (team/security/reviews/pki-agent-review.md)"
   }
  ],
  "task": {
@@ -116,6 +124,13 @@
    "what": "C022 to C025 registered",
    "state": "done: C023 method stated, C019 credit corrected",
    "reply": "team/security/requests/researcher__re-control-counts-reply.md"
+  },
+  {
+   "id": "S4",
+   "from": "conductor",
+   "what": "review both teams' work and RC1 chapters 3, 4, 8, 9; the editor's voice",
+   "state": "open",
+   "board": "comms/issues/security/issues/open/006-rc1-review.md"
   }
  ],
  "board": "comms/issues/security/issues/"
