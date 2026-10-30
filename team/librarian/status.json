@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "librarian",
- "as_of": "2026-10-30T12:42:00Z",
+ "as_of": "2026-10-30T14:32:00Z",
  "round": 0,
- "state": "Taken over on the second account at 12:17 UTC (new key, own task, the handover adopted). RC1's sources checked, all 18 chapters, findings sent to the conductor; board and mail open in comms/",
+ "state": "Scheduled wake 14:13: RC1's sources rerun on manuscript/ (same as rc1/); chapter 11b's fourteen external commits verified; every commit RC1 names is now found",
  "done": [
   {
    "what": "Session key made and published (team/librarian/key.json, key.png, sessions/session_01Kw9UwBgUFHEgwLsB3TrwA8/)",
@@ -60,16 +60,16 @@
   {
    "what": "check_sources.py reads source lists' shorthand (folders earlier on the line, <id> and * as patterns, 'after the day' on the line)",
    "when": "2026-10-30T12:35:00Z"
+  },
+  {
+   "what": "Board 007: chapter 11b's fourteen commits in OSBot-Utils, Memory-FS, Issues-FS, SGit-AI__CLI and myfeeds_ai verified; letter librarian__002 to the conductor",
+   "when": "2026-10-30T14:30:00Z"
   }
  ],
  "next": [
   {
    "what": "Each wake: check_sources.py on every RC1 chapter (full-history clones), findings to the conductor with file and line",
    "why": "board 002"
-  },
-  {
-   "what": "Chapter 11b's fourteen commits in other repositories, by hand",
-   "why": "board 007"
   },
   {
    "what": "The 12 drafted companion cards: adopt, change or withdraw",

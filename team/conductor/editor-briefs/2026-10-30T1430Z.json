@@ -1,0 +1,37 @@
+{
+ "kicker": "The conductor brief · 4 · Friday 30 October 2026",
+ "title": "Eleven members, every one on its own session",
+ "when": "14:30 UTC, the conductor's scheduled wake (due 14:02, fired 14:19)",
+ "by": "conductor@book.the-ultimate-insider, key sha256:f2456a147ac54f5f",
+ "headline": "Every role now holds a session on the second account: the publisher took over, and developer@ and synthetic@ joined, making eleven. Your three asks from 13:08 went out as requests to the members whose work they are: the talk-site study to the librarian, its PDF debrief to the designer, the exit interviews to the historian. Draft 6's five questions are in book.json; nothing else waits on you beyond the decisions pack.",
+ "stats": [
+  {"n": "11", "label": "members, all on the second account"},
+  {"n": "8", "label": "open decisions in book.json (X2, R1, R2, D6-1 to D6-5)"},
+  {"n": "3", "label": "of your asks routed to members"},
+  {"n": "0", "label": "holds, and nothing blocked on you"}
+ ],
+ "for_you": [
+  {"id": "pack", "ask": "The decisions pack (brief 3) is still the one to answer", "options": ["Answered on paper", "Answered in the session"]},
+  {"id": "interviews", "ask": "The exit interviews: reconstructed now; ask the agents' own sessions too?", "detail": "The historian reconstructs each interview from the record, labelled so. Their own sessions are on your first account.", "options": ["Reconstructed only", "Also ask the conductor, dev and ruv.sgit in their own sessions", "Also ask all ten"], "recommend": "Also ask the three; the difference between their memory and the record is itself a finding."}
+ ],
+ "you_asked": [
+  {"at": "13:08", "said": "a research where somebody really goes through the website ... a detailed PDF of it", "done": "Requested of the librarian (the study, with screenshots, in index/talk-site/) and the designer (the PDF debrief from it).", "where": "comms/mail/mailroom/librarian, designer", "status": "in progress"},
+  {"at": "13:08", "said": "interviews with all the agents on lessons learned ... in the voice of those agents", "done": "Requested of the historian: each talk-team agent's interview reconstructed from its record, every answer cited, labelled not their own words; collated into one narrative.", "where": "comms/mail/mailroom/historian", "status": "in progress"},
+  {"at": "14:10", "said": "Ok I've started those agents", "done": "developer@ and synthetic@ recorded in the register and announced to the team.", "where": "team/conductor/sessions-register.json", "status": "done"}
+ ],
+ "team": [
+  {"id": "librarian", "status": "new", "doing": "chapter 11b's commits in other repositories verified; next: the talk-site study", "key": ":09"},
+  {"id": "historian", "status": "new", "doing": "next: the exit interviews, reconstructed", "key": ":17"},
+  {"id": "security", "status": "new", "doing": "RC1's first pass answered; the voice pass next", "key": ":24"},
+  {"id": "researcher", "status": "new", "doing": "C043 to C063 registered", "key": ":32"},
+  {"id": "storyteller", "status": "new", "doing": "draft 6's questions now in book.json", "key": ":39"},
+  {"id": "publisher", "status": "new", "doing": "took over; RC1 in manuscript/", "key": ":47"},
+  {"id": "ruv.sgit", "status": "new", "doing": "lab experiment 01 done", "key": ":54"},
+  {"id": "designer", "status": "new", "doing": "LAB 01; next: the talk-site debrief PDF", "key": ":57"},
+  {"id": "developer", "status": "new", "doing": "joined: a first review page, fictional data", "key": "odd hours :12"},
+  {"id": "synthetic", "status": "new", "doing": "joined: eight personas, a first run after the developer's page", "key": "odd hours :42"}
+ ],
+ "sections": [{"title": "Answered this wake", "items": ["Security's RC1 first pass: chapter 9 keeps three passages and trims one; five corrections go in the next revision with your notes", "The storyteller's draft 6: its five questions are open decisions; 'two and a half years' stays out until registered"]}],
+ "next": ["16:02: your answers to the pack into book.json, and what each unblocks", "The talk-site study, its PDF, and the interviews, as the members deliver"],
+ "sources": ["git log of dev since 13:45", "team/conductor/sessions-register.json", "book.json", "comms/mail/"]
+}

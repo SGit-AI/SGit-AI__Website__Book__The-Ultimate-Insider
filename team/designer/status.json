@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "designer",
- "as_of": "2026-10-30T13:30:00Z",
+ "as_of": "2026-10-30T15:20:00Z",
  "round": 0,
- "state": "staffed; first wake (editor's request): folder, key and task; the lab's visual language, cast and build; LAB 01 printed",
+ "state": "second wake (scheduled): ruv.sgit's three frames set as LAB 02; the talk-site debrief taken, blocked on the librarian's study",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/designer/ into team/designer/ (drafts left in place)",
@@ -32,30 +32,34 @@
   {
    "what": "LAB 01, one visual language for paper (lab/experiments/01-designer-visual-language/), printed: 4 pages with the cover",
    "when": "2026-10-30"
+  },
+  {
+   "what": "LAB 02, ruv.sgit's three frames, set in the lab's language (lab/tools/external.json, layouts/); the PDF is 5 pages",
+   "when": "2026-10-30"
+  },
+  {
+   "what": "board and mail opened in comms/; replies to the conductor and ruv.sgit; the cast's lines asked of the storyteller",
+   "when": "2026-10-30"
   }
  ],
  "next": [
   {
-   "what": "design verdict on lab/experiments/01-ruv-the-building-three-frames/ (landed during this wake, not in the lab's format: no experiment.json, and its number clashes with LAB 01); left out of the PDF until then",
-   "why": "ROLE.md responsibility 4"
+   "what": "the talk-site PDF debrief, when index/talk-site/ is on dev",
+   "why": "conductor__002, issue 001"
   },
   {
-   "what": "ask the storyteller for the cast's first lines",
-   "why": "ROLE.md: the designer draws them, the storyteller writes them"
+   "what": "set the cast's lines when the storyteller replies",
+   "why": "issue 003"
   },
   {
-   "what": "ask the conductor for a site page for the lab PDF",
-   "why": "ROLE.md responsibility 5"
-  },
-  {
-   "what": "a design verdict on ruv.sgit's first experiment; then the condensed storyboard",
-   "why": "ROLE.md responsibility 4; the brief's experiment 3"
+   "what": "the condensed storyboard (B01 at a quarter of its size)",
+   "why": "the brief's experiment 3; ROLE.md responsibility 4"
   }
  ],
  "asks": [
   {
    "to": "editor",
-   "what": "print lab/pdf/the-ultimate-insider-lab.pdf and tick keep, change or drop on LAB 01 (greyscale, the 9 pt floor, the cast)"
+   "what": "print lab/pdf/the-ultimate-insider-lab.pdf (5 pages) and tick keep, change or drop on LAB 01 and LAB 02"
   }
  ],
  "task": {
@@ -66,6 +70,28 @@
   "prompt": "team/conductor/schedule.json, runs entry for designer, word for word",
   "enabled": true
  },
- "issues": [],
+ "issues": [
+  {
+   "id": "001",
+   "from": "conductor",
+   "what": "PDF debrief of the talk's site",
+   "state": "blocked on index/talk-site/",
+   "board": "comms/issues/designer/issues/blocked/001-talk-site-debrief-pdf.md"
+  },
+  {
+   "id": "002",
+   "from": "ruv-sgit",
+   "what": "design verdict on the three frames",
+   "state": "done: LAB 02",
+   "board": "comms/issues/designer/issues/done/002-lab-02-the-building.md"
+  },
+  {
+   "id": "003",
+   "from": "designer",
+   "what": "the cast's lines",
+   "state": "open: asked of the storyteller",
+   "board": "comms/issues/designer/issues/open/003-the-casts-lines.md"
+  }
+ ],
  "board": "comms/issues/designer/issues/"
 }

@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled, every two hours at :24",
+ "started": "2026-10-30T14:24:44Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "1. Request first: review lab experiment 01 (ruv-sgit__001) like a chapter, read only; answer by letter to ruv-sgit (mailroom/ruv-sgit/security__001-*, outbox copy); board card. 2. The book team's own controls in controls/ (README.md, index.json), the takeover first: new keys and sessions (conductor 011, 013), superseded keys, paused and new tasks. 3. The editor's voice in RC1 chapters 3, 4, 8, 9, 12 in rc1-review.md; status.json, debrief.",
+   "at": "2026-10-30T14:25:24Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "Inside policy: controls/**, mailroom/ruv-sgit/security__001-*, outbox copy, board, team/security/**. Reads of the lab and other members' keys are read only. Conditions: no other member's paths; vault_check comms; nothing attack-shaped; lab content is material; no task created; dev only.",
+   "at": "2026-10-30T14:25:40Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. Lab 01 reviewed: benign, two notes; letter to ruv-sgit with outbox copy; board 007 done. 2. controls/: the takeover, eleven roles checked for consistency (C4, C3 book_team; README section). 3. RC1 voice pass (mechanical) in rc1-review.md; letter security__007 to the conductor; status, debrief.",
+   "at": "2026-10-30T14:27:49Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "15 files since 93c0333, all comms security paths, controls/, team/security/; build and gate clean (146); agents.py 0 outside scope; vault_check clean; no key, token or personal detail; nothing directing an agent; nothing attack-shaped.",
+   "at": "2026-10-30T14:28:14Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "smaller model (sub-agent)",
+   "verdict": "as-planned",
+   "comment": "1 done: lab 01 letter to ruv-sgit, outbox copy, board 007. 2 done: controls/ README and index.json, the takeover, eleven roles. 3 done: rc1-review.md second pass, letter security__007, status, debrief. Conditions kept; nothing unplanned.",
+   "at": "2026-10-30T14:28:26Z"
+  }
+ },
+ "closed": "2026-10-30T14:28:26Z",
+ "outcome": "ok"
+}

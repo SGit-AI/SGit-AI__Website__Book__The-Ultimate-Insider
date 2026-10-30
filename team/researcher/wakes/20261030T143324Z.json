@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled, every two hours at :32",
+ "started": "2026-10-30T14:33:24Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1) Letter 006 part 2 (requests first): register the Cold-Read counts (ch 9, 11), derived figures (ch 5, 7, 10), '356 by 18:46' and the wrong ids as claims C064+, or reject each with a reason; the evidence vault's history (aa7a3eb); files: claims/**, comms/mail/mailroom/conductor/researcher__NNN-*.eml with outbox copy, board issue 002. 2) 11b's quotation and month tags, the infographics maker's list (part 4), Appendix A regenerated, in claims/**. 3) Leanpub (issue 003) if time remains; debrief, status.json; REALITY.md append. All inside policy.json. Letter 012 a notice only. No HOLD.",
+   "at": "2026-10-30T14:34:11Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Plan inside policy.json: claims/**, mailroom/conductor/researcher__NNN with outbox copy, board 002, team/researcher/**, the permitted REALITY.md append. No HOLD, no secrets, no other member's paths, no rule changes. Conditions: Cold-Read material read one way only, nothing copied into the blind repository; vault_check on comms; no brief edits; no scheduled tasks.",
+   "at": "2026-10-30T14:34:22Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "partial",
+   "comment": "Letter 006 part 2 and the handover's item 4: Cold-Read counts rerun (510 reproduced in C042; 405 traced to the mini deck, definition not reproduced, C064 open; 82 s C065; 99 and 105 C066); the 12 cards decided (9 adopted, 3 withdrawn) in researcher__003 with outbox copy; C067, C068 (aa7a3eb, no values), C008's 356; Appendix A regenerated (68); board, debrief, status, REALITY.md. Not done: 11b's quotation tags, part 4, chapter 5 and 7 derived figures, the talk's length, Leanpub.",
+   "at": "2026-10-30T14:37:00Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "partial",
+   "comment": "Item 1 done: researcher__003 with outbox copy, C064 to C068, C042 and C008 extended, board 002, aa7a3eb registered as C068 with no values. Item 2 partly: Appendix A regenerated (68); 11b's quotation tags and part 4 not done. Item 3: debrief, status, REALITY.md done; Leanpub not done. Letter 012 filed. Nothing unplanned; the unfinished disclosed.",
+   "at": "2026-10-30T14:37:20Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "All writes inside researcher scope (team/researcher, claims, its comms paths, mailroom/conductor/researcher__), REALITY.md an append. No brief edited; vault_check comms clean; nothing toward Cold-Read. C068 states only that values reached a pushed history and when: no values, vault commits or access path. No secrets, contact details or em-dashes.",
+   "at": "2026-10-30T14:37:35Z"
+  }
+ },
+ "closed": "2026-10-30T14:37:35Z",
+ "outcome": "partial"
+}

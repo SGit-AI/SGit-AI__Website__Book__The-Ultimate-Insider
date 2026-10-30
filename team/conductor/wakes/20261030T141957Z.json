@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled, every two hours at :02",
+ "started": "2026-10-30T14:19:57Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "1. Requests first: answer security__006 and storyteller__004 if unanswered; route the editor's asks as requests (.eml, X-Kind request): the talk-site study to the librarian, its PDF debrief to the designer, the exit interviews to the historian (reconstructed from the record, labelled so, until the editor chooses). 2. The publisher's, developer's and synthetic's keys into sessions-register.json and announced; schedule.json's runs brought up to date (conductor amends); D6-1 to D6-5 into book.json as open decisions. 3. status.json, a debrief, the editor's brief on /updates/.",
+   "at": "2026-10-30T14:20:47Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "In scope; no hold. Conditions: requests only to the right roles (librarian the study, designer the PDF debrief, historian the interviews); interviews labelled reconstructed from the record, never the agents' own words; public keys only in the register; D6-1 to D6-5 open and unsigned; talk repo read-only, nothing to the blind repo; vault_check on comms; no em-dashes.",
+   "at": "2026-10-30T14:21:15Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "1. Replies to security 006 and storyteller 004; requests to the librarian (talk-site study), designer (its PDF debrief), historian (exit interviews, reconstructed and labelled). 2. Publisher, developer and synthetic in the register; notices to ten members; schedule.json current; D6-1 to D6-5 open in book.json. 3. Brief 4 (2 pages), debrief, status.json. vault_check and gate clean.",
+   "at": "2026-10-30T14:22:38Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "Gate clean (145 pages); 0 outside scope; vault_check clean; no em-dashes; requests in role, the interviews labelled reconstructed; register holds fingerprints only; D6 open; brief 4 shows no key, token or contact.",
+   "at": "2026-10-30T14:23:28Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "as-planned",
+   "comment": "1 replies and three requests. 2 register, schedule, notices to ten, D6 open. 3 brief 4, debrief, status. Nothing unplanned.",
+   "at": "2026-10-30T14:23:28Z"
+  }
+ },
+ "closed": "2026-10-30T14:23:28Z",
+ "outcome": "ok"
+}

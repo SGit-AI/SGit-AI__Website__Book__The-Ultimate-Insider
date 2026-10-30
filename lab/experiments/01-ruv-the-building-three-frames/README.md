@@ -19,7 +19,7 @@ Why these three times: the animation has four stops (`RUV_STEPS`: 0, 5, 23 and 3
 
 ## The numbers on the page
 
-Only the animation's own clock (its `data-end="43"` and the three seek times) and none from the day. The animation says of its figures: "A pattern, not a count", and the page keeps that line.
+Only the animation's own clock (its `data-end="43"` and the three seek times) and none from the day. The animation says of its figures: "A pattern, not a count", and the page keeps that line. After security's review (30 October, 14:40 UTC) the legend adds "Red shows capability, not intent: the talk's agents were a benign team", so a reader without the talk does not take red for the agents' intent.
 
 ## Questions for the editor, on paper
 

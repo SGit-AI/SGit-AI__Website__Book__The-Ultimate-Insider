@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled, every two hours at :47 London",
+ "started": "2026-10-30T14:52:04Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. Requests first: letters 008/009 answered in publishing/LEANPUB.md (do $0 readers get each new version; membership setting, Pro for GitHub mode, Markua 0.31), Leanpub help pages cited; reply .eml to the conductor plus outbox copy; 010-012 filed. 2. Markua pre-pandoc step in publishing/build_book.py (asides, blurbs, attributes, page breaks, matter markers), CALLOUT_CSS into publishing/book.css; build and gate. 3. Debrief, status.json, board 004, REALITY.md. All inside policy.json.",
+   "at": "2026-10-30T14:53:12Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "All paths in scope.writes; REALITY.md an allowed append under own heading. Conditions: reply only to mailroom/*/publisher__*; nothing in briefs/ or the blind repo; no keys; vault_check comms; gate before dev; no em-dashes; no number in the subject.",
+   "at": "2026-10-30T14:53:32Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Letters 008/009 answered in LEANPUB.md (sources cited) and by reply 005; publishing/markua.py wired into build_book.py, CALLOUT_CSS in book.css, tested PDF and EPUB, 18 chapters unchanged; board 004, debrief, status, REALITY.md.",
+   "at": "2026-10-30T14:56:24Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "1 done: LEANPUB.md answers 008/009, reply plus outbox copy, 012 filed. 2 done: markua.py wired into build_book.py, CALLOUT_CSS in book.css, tested. 3 done: debrief, status, board 004, REALITY.md. All in own paths.",
+   "at": "2026-10-30T14:56:57Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "0 files outside scope; vault_check comms clean; gate clean (148); no em-dashes, keys or tokens; markua.py and build_book.py read manuscript files and write only into a temp dir, no eval, exec or subprocess of input; no harm to other members.",
+   "at": "2026-10-30T14:57:15Z"
+  }
+ },
+ "closed": "2026-10-30T14:57:15Z",
+ "outcome": "ok"
+}
