@@ -31,8 +31,15 @@
    "verdict": "as-planned",
    "comment": "(1) move to review/synthetic/: done, dca7241, README, status, issue, REALITY.md updated. (2) developer's tools run unchanged, CISO run 20261030T1750Z committed, run.mjs the only tool file changed, no review/pages, review/anchors or src/** in the diff. (3) developer's reply taken, reply sent, issue 001 done, 002 opened, status, debrief: done. Conditions kept. Nothing unplanned.",
    "at": "2026-10-30T17:47:25Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Build and gate pass; agents check 0 outside scope; vault_check comms clean. No key, token or personal detail (the 'token' hits are the fictional fragment note). No src/pages/review or src/static/review committed; review/synthetic/ within policy. run.mjs serves 127.0.0.1, blocks outside requests, sends nothing. Review and README labelled SYNTHETIC READER. Nothing directs an agent.",
+   "at": "2026-10-30T17:47:43Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T17:47:43Z",
+ "outcome": "ok"
 }
