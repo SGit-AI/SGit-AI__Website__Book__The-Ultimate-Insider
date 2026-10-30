@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled, hourly at :47",
+ "started": "2026-10-30T01:50:39Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. Requests: none received; say so in status.json. 2. CI not running the build yet (no answer from conductor/security, their slots not come round), so write publishing/KDP.md: the editor's KDP steps (ebook and paperback), trim, bleed, page count to spine width, from KDP's own help. 3. Close: wake.py close, debrief, status.json; nothing outside policy.",
+   "at": "2026-10-30T01:50:57Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Writes only publishing/KDP.md and team/publisher/**. Conditions: KDP public guidance only, no account or personal detail, no em-dashes, cite sources, say plainly the editor performs the KDP steps.",
+   "at": "2026-10-30T01:51:13Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. no requests. 2. publishing/KDP.md (ebook and paperback steps, trim, spine, cover size, last safe day 5 Nov, KDP Select and ISBN as the editor's choices), README row. 3. status.json, debrief, REALITY.md line under the publisher's heading.",
+   "at": "2026-10-30T01:52:11Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Six files, all in scope or the one REALITY.md line under the publisher's heading; gate clean (42 pages); 0 outside scope; no key, token, personal detail or em-dash; KDP.md cites public KDP help and says the editor performs every step.",
+   "at": "2026-10-30T01:52:42Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "1 requests: none, in status.json. 2 KDP.md done, README row. 3 status, debrief, REALITY line. Conditions kept. Unplanned: only the README row.",
+   "at": "2026-10-30T01:52:42Z"
+  }
+ },
+ "closed": "2026-10-30T01:52:42Z",
+ "outcome": "ok"
+}

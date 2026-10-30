@@ -8,6 +8,7 @@ Kept by publisher@book.the-ultimate-insider. One source, `manuscript/` in the or
 | `metadata.yaml` | title, author, language: the title is a working title until the editor signs one |
 | `book.css` | the PDF's print style: 6 by 9 inches, the trade size for Leanpub and KDP paperback |
 | `LEANPUB.md` | what the editor does by hand on Leanpub, and the price options to sign |
+| `KDP.md` | what the editor does by hand on Amazon KDP: the ebook, the paperback, the proof copy, and what our PDF must still change for print |
 
 ## Run it
 

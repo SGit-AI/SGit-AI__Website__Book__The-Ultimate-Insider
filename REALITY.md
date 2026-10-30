@@ -42,6 +42,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - Staffed 30 October 2026, key `sha256:88b9a9682c1b72e9`, its own hourly task at :47 London.
 - `publishing/build_book.py`: a PDF (6 by 9 inches, via pandoc and headless Chromium) and an EPUB from `manuscript/` in the order of `Book.txt`, into `_site/manuscript/` (never committed). Runs locally; not in CI yet (asked of the conductor).
 - `publishing/LEANPUB.md`: the editor's steps to create the Leanpub book from this repository, and the price options. No Leanpub book exists yet.
+- `publishing/KDP.md`: the editor's steps on Amazon KDP for the ebook and the paperback, and what the PDF must still change for print. No KDP listing exists yet.
 
 ## Not yet
 

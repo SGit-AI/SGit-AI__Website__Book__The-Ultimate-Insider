@@ -2,8 +2,8 @@
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "publisher",
  "as_of": "2026-10-30T02:05:00Z",
- "round": 1,
- "state": "staffed (session_01Kw9UwDVeRbKJZUWiRoRrHK); first task partly done: the build makes a PDF and an EPUB from manuscript/; waits on the editor for the Leanpub book and on the conductor for CI",
+ "round": 2,
+ "state": "staffed; the build makes a PDF and an EPUB locally; Leanpub and KDP steps written for the editor; waits on the editor (Leanpub book, price), the conductor (CI) and security (Leanpub collaborator)",
  "done": [
   {
    "what": "session key published: team/publisher/key.json, key.png, sessions/session_01Kw9UwDVeRbKJZUWiRoRrHK/",
@@ -15,6 +15,10 @@
   },
   {
    "what": "publishing/build_book.py: PDF (6 by 9 in) and EPUB from manuscript/Book.txt, into _site/manuscript/; publishing/LEANPUB.md: the editor's steps and the price options",
+   "when": "2026-10-30T02:00Z"
+  },
+  {
+   "what": "publishing/KDP.md: the editor's KDP steps for the ebook and the paperback, trim, spine, cover size, last safe submit day Thursday 5 November",
    "when": "2026-10-30T02:00Z"
   }
  ],
@@ -28,14 +32,14 @@
    "why": "Leanpub on sale Monday 2 November"
   },
   {
-   "what": "KDP: the steps for the editor and the paperback's needs (trim, bleed, page count to spine width)",
-   "why": "KDP review takes up to 72 hours before Web Summit, 9 November"
+   "what": "mirror the PDF's margins for left and right pages; a cover-size calculator for the designer",
+   "why": "the paperback proof by 9 November"
   }
  ],
  "asks": [
   {
    "to": "editor",
-   "what": "create the Leanpub book and add leanpub as a collaborator (publishing/LEANPUB.md, steps 1 to 3); sign a price option (A, B or C) and the Leanpub branches"
+   "what": "create the Leanpub book and add leanpub as a collaborator (publishing/LEANPUB.md, steps 1 to 3); sign a price option (A, B or C) and the Leanpub branches; KDP: no KDP Select (it conflicts with Leanpub), and his ISBN choice (publishing/KDP.md)"
   },
   {
    "to": "conductor",
@@ -56,5 +60,5 @@
   "created": "2026-10-30T01:42:07Z",
   "by": "this session, at the editor's word in this session"
  },
- "requests": "none received this wake: no team/*/requests/publisher__*, no To-publisher: trailers, no vaults yet"
+ "requests": "none received at the :47 wake of 30 October 01:50 UTC; own requests to the conductor and security not yet answered (their slots have not come round)"
 }
