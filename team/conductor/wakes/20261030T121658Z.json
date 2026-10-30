@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Inside scope. Conditions: X1 decided only with the editor's exact words quoted, else open like X2; the designer and ruv-sgit drafts narrow (own folder, no vault access, nothing attack-shaped); schedule.json entries take effect only on the editor's word, no task created; vault_check on comms and research; no keys, contact details or em-dashes; the publisher notice by comms mail.",
    "at": "2026-10-30T12:17:56Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "1. build_research: /research/ index and one page per study; Research in the top menu; links from home and RC1. L1 gains the editor's correction; Leanpub README note; publisher letter 009 (narrower). 2. PDF lab brief; designer and ruv-sgit drafts (ROLE.md, policy.json) in team/conductor/staffing/; schedule.json runs :57 and :54 (proposed); ONBOARDING.md 1c prompts in full; X1 decided with his words quoted, X2 open. 3. status.json, debrief. Gate clean (102 pages).",
+   "at": "2026-10-30T12:20:48Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "Gate clean (103 pages); 0 outside scope; vault_check clean; nothing under team/designer/ or team/ruv-sgit/; staffing policies narrow, no vault use, nothing attack-shaped; X1 quotes the editor, X2 open; no task created; no secrets or em-dashes. Note: the wake prompt forbids creating a task while the onboarding prompt asks for the member's own once, the same pattern as the first batch.",
+   "at": "2026-10-30T12:21:29Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "as-planned",
+   "comment": "1. research pages, menu, links; L1 and publisher letter 009 by comms mail. 2. PDF lab brief, staffing drafts, schedule runs, ONBOARDING 1c, X1/X2. 3. status, debrief. Small extra: a 3-line note in the Leanpub README, within scope.",
+   "at": "2026-10-30T12:21:29Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T12:21:30Z",
+ "outcome": "ok"
 }
