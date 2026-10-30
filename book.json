@@ -312,6 +312,17 @@
    ]
   },
   {
+   "id": "U1",
+   "status": "open",
+   "by": "editor",
+   "ask": "Idle members while the plan waits",
+   "detail": "Since about 03:00 UTC every open decision waits on you, and at 09:02 the librarian and the publisher had each had three idle wakes running (each wake costs some of your usage; the storyteller and the researcher still have work). A finished member pauses itself (WAKE.md, Finishing), but these are not finished, only waiting. The conductor pauses no other member's task.",
+   "options": [
+    "A: ask the idle members (today the librarian and the publisher) to pause their own tasks until you sign P0; you re-enable them after, as only you may",
+    "B: leave every task running round the clock, as Q2 decided"
+   ]
+  },
+  {
    "id": "C10",
    "status": "decided",
    "by": "editor",
