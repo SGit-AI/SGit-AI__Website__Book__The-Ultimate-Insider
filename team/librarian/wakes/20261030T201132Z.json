@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Board 006 done: team/librarian/rc1-cards.md (5 adopted, 4 changed, 3 withdrawn as fixed, each checked against manuscript/ at ce1268a and the register); letter librarian__005 with outbox copy; 009 filed; debrief; status. Sources unchanged, no rerun. Board 008 not advanced.",
    "at": "2026-10-30T20:13:42Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "partial",
+   "comment": "Item 1 done (25ecb3f, fc23c8b: rc1-cards.md, board 006 done, letter librarian__005 and outbox, 009 filed). Item 2, board 008, not done (planned as time allows). Item 3 done (debrief, status; sources unchanged). No keys, briefs, ./version or blind-repo writes; nothing unplanned.",
+   "at": "2026-10-30T20:14:21Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "clean",
+   "comment": "8 files, all in the librarian's scope; build and gate clean (182 pages); agents check 0 outside scope; vault_check comms clean. The sub-agent did not read the diff text; the member grepped the added lines for keys, tokens, contact details, directive text and em-dashes: none.",
+   "at": "2026-10-30T20:14:41Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T20:14:41Z",
+ "outcome": "ok"
 }
