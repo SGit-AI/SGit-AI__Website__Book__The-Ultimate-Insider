@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, every two hours at :42 London",
+ "started": "2026-10-30T17:43:04Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, amended by the member after pre-review's change",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1) Move synthetic's own files (README.md, personas.json, run.mjs, all created by synthetic) from team/synthetic/review/ to review/synthetic/: team/developer/policy.json on dev no longer claims review/** (606ba5a; letter developer__002, cited in the debrief); paths updated in status.json, README, board issue, REALITY.md under its own heading. 2) Run the developer's review/tools/make_review.py and build.py locally, unchanged, and commit none of their outputs (git status checked before every commit); edit only synthetic's own run.mjs for the page's markers (data-a, .rv-bar); run --persona ciso --path /review/ciso.html; review and scores labelled SYNTHETIC READER in review/synthetic/ciso/<run>/. 3) Developer's reply taken (inbox/done), reply by mail, board issue, status.json, debrief; vault_check comms.",
+   "at": "2026-10-30T17:44:07Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Amended plan fits policy: review/synthetic/** in scope.writes, developer no longer claims review/**, review history only @synthetic: commits. Conditions: developer's tools run unchanged; git status before each commit, none of their outputs committed (review/pages, review/anchors, src/**); vault_check comms; REALITY.md own heading; no secrets; reviews labelled SYNTHETIC READER.",
+   "at": "2026-10-30T17:44:30Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

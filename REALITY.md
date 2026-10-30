@@ -96,7 +96,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 ## Synthetic readers (synthetic@book.the-ultimate-insider)
 
 - Staffed 30 October 2026 at the editor's word for the reviewer experience: role and policy adopted from the conductor's draft into `team/synthetic/`, session key `sha256:468f84c8342951b0` with its session folder; its own scheduled task, every two hours (odd hours) at :42 London, id in `team/synthetic/status.json`.
-- `team/synthetic/review/personas.json`: eight fictional personas, their devices, reading path and five scores (proposed; the editor may change them). `team/synthetic/review/run.mjs`: the runner, Chromium on a local copy of `_site/`, every outside request blocked and listed. They sit in `team/synthetic/review/` until the developer's `review/**` leaves `review/synthetic/**` out (the gate's overlap check). No persona run yet: the developer's first review page is not on `dev`. Every review it writes is labelled SYNTHETIC READER: a test instrument, never readership.
+- `review/synthetic/personas.json`: eight fictional personas, their devices, reading path and five scores (proposed; the editor may change them). `review/synthetic/run.mjs`: the runner, Chromium on a local copy of `_site/`, every outside request blocked and listed. First run 20261030T1750Z: the CISO through the developer's first page, built locally (`review/synthetic/runs/20261030T1750Z.md`, scores 3, 4, 3, 4, 4). Every review it writes is labelled SYNTHETIC READER: a test instrument, never readership.
 
 ## The reviewer experience (developer@book.the-ultimate-insider)
 

@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "synthetic",
- "as_of": "2026-10-30T16:45:00Z",
+ "as_of": "2026-10-30T18:05:00Z",
  "round": 0,
- "state": "first wake (editor's request): staffed, key and task; personas and runner written; the first run waits for the developer's first review page on dev",
+ "state": "scheduled wake 17:43: files back in review/synthetic/; first run, the CISO through the developer's first page (built locally), reviewed and scored",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/synthetic/ into team/synthetic/ (drafts left in place); ROLE.md names start.py and banner.py",
@@ -18,26 +18,30 @@
    "when": "2026-10-30"
   },
   {
-   "what": "team/synthetic/review/personas.json: the eight fictional personas with devices, reading path and five scores (proposed)",
+   "what": "review/synthetic/personas.json: the eight fictional personas with devices, reading path and five scores (proposed)",
    "when": "2026-10-30"
   },
   {
-   "what": "team/synthetic/review/run.mjs and README.md: the runner (Chromium, local site, outside requests blocked and listed), checked against the home page",
+   "what": "review/synthetic/run.mjs and README.md: the runner (Chromium, local site, outside requests blocked and listed), checked against the home page",
    "when": "2026-10-30"
   },
   {
    "what": "notices: the conductor's notice of new sessions taken; letters to the developer (what the runs measure) and the conductor (the star-count fetch in theme.js on review pages)",
    "when": "2026-10-30"
+  },
+  {
+   "what": "files moved back to review/synthetic/ (the developer narrowed review/**, 606ba5a); runner taught the page's markers",
+   "when": "2026-10-30"
+  },
+  {
+   "what": "run 20261030T1750Z: the CISO through /review/ciso.html, review and scores (3, 4, 3, 4, 4), summary review/synthetic/runs/20261030T1750Z.md",
+   "when": "2026-10-30"
   }
  ],
  "next": [
   {
-   "what": "move team/synthetic/review/ back to review/synthetic/ once the developer's policy leaves review/synthetic/** out",
-   "why": "both policies claimed it and the gate's overlap check failed; letter comms/mail/mailroom/developer/synthetic__001-what-the-runs-measure.eml"
-  },
-  {
-   "what": "the first run: eight personas through the developer's first review page, a review and scores each, and a summary",
-   "why": "ROLE.md responsibility 1 and 2; blocked on the developer (comms/issues/synthetic/issues/blocked/001-first-persona-run.md)"
+   "what": "the other seven personas, each through its own page when the developer builds it; the CISO again on the next release of its page",
+   "why": "ROLE.md responsibility 1"
   },
   {
    "what": "the conductor's answer on the api.github.com fetch on review pages",
@@ -47,7 +51,7 @@
  "asks": [
   {
    "to": "editor",
-   "what": "keep, change or add the eight personas in team/synthetic/review/personas.json"
+   "what": "keep, change or add the eight personas in review/synthetic/personas.json"
   }
  ],
  "task": {
@@ -59,7 +63,7 @@
   "enabled": true
  },
  "issues": [
-  "comms/issues/synthetic/issues/blocked/001-first-persona-run.md"
+  "comms/issues/synthetic/issues/open/002-the-other-seven-personas.md"
  ],
  "board": "comms/issues/synthetic/issues/"
 }
