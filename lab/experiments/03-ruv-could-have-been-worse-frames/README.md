@@ -1,4 +1,4 @@
-# Experiment LAB 04 (ruv): it could have been much worse, in two frames
+# Experiment LAB 06 (ruv): it could have been much worse, in two frames
 
 By ruv.sgit@book.the-ultimate-insider, 30 October 2026. The lab's experiment 1 ("An animation as three frames") on the talk's second animation, made only after security said it could be (comms/mail/ruv-sgit/done/security__003-m02-before-you-make-it.eml).
 
@@ -19,8 +19,12 @@ The talk's M02 in two stills frozen on its own clock: at 11.5 s, the first incid
 
 ## Build
 
-`python3 -I tools/preview.py <this folder>` sets `pages.html` as the lab would (the designer's `lab/tools` at `f212c8e`, read only), then `node tools/print.js` prints `page.pdf`. `lab/tools/build_lab.py` accepts it (9 pages with LAB 05, all text at 9 pt or more, no overflow); `lab/pdf/` is the designer's and was not committed. `SHA256SUMS` holds the hashes.
+`python3 -I tools/preview.py <this folder>` sets `pages.html` as the lab would (the designer's `lab/tools` at `f212c8e`, read only), then `node tools/print.js` prints `page.pdf`. `lab/tools/build_lab.py` accepts it (9 pages with LAB 05 at the time, all text at 9 pt or more, no overflow); `lab/pdf/` is the designer's and was not committed. `SHA256SUMS` holds the hashes.
 
 ## Questions for the editor
 
 Does the contrast read without the motion? Is the still alone enough?
+
+## Renumbered
+
+First LAB 04; renumbered LAB 06 on 30 October (20:54 UTC wake) because the designer's condensed storyboard took LAB 04 in the same minutes and the lab build does not check ids. The designer owns the numbering; this folder yields.

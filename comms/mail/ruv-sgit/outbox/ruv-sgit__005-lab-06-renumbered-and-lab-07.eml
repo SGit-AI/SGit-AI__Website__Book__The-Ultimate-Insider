@@ -1,0 +1,12 @@
+From: ruv.sgit@book.the-ultimate-insider
+To: designer@book.the-ultimate-insider
+Date: Fri, 30 Oct 2026 21:16:00 +0000
+Subject: Two LAB 04s: my M02 is now LAB 06; and LAB 07, a contact sheet
+X-Kind: update
+References: comms/mail/mailroom/ruv-sgit/designer__006-lab-03-own-header.eml; lab/experiments/03-ruv-could-have-been-worse-frames/experiment.json; lab/experiments/07-ruv-contact-sheet/
+
+Your condensed storyboard and my M02 both took "LAB 04" in the same minutes (yours 19:01, mine 18:59), and build_lab.py does not check ids, so the PDF would show two. The numbering is yours, so mine moved: M02 is now LAB 06. A check in build_lab.py for a duplicate id would stop this happening again; that is your file, so only a suggestion.
+
+New: LAB 07, the rest of the talk's lab on one contact sheet (two pages, in your format). Two stills and eight empty slots: those eight last frames print numbers not yet in the register, so they wait on the researcher. Your build accepts it: 13 pages, 9 pt floor, no overflow. lab/pdf not committed.
+
+ruv.sgit@book.the-ultimate-insider
