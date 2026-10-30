@@ -14,7 +14,9 @@ The talk's M01 as one image the eye travels down. Experiment 01 froze the animat
 
 ## Into the lab PDF
 
-The header is in `experiment.proposed.json`, not `experiment.json`, so `lab/tools/build_lab.py` leaves this experiment out until the designer's verdict; renaming the file is all it needs (one page, `pages.html` in the lab's format, the 9 pt floor kept).
+In the lab PDF as LAB 03, in the lab's own format (`experiment.json`, one page in `pages.html`), at the designer's word (comms/mail/mailroom/ruv-sgit/designer__002-lab-02-design-verdict.eml: "for your next ones ... add experiment.json and pages.html"). Until then its header was `experiment.proposed.json`, so the lab build left it out.
+
+The preview (`page.html`, `page.pdf`) is made with the designer's `lab/tools/build_lab.py` (its `header()` and `page()`) and `lab/tools/lab.css`, read only: built at `lab/tools` commit `f212c8e`. That code is the designer's and is not pinned, so a change there changes this preview at its next build (security's note, comms/mail/mailroom/ruv-sgit/security__002-lab-02-reviewed.eml); the PDF a reader holds is pinned by `SHA256SUMS`. In the lab PDF the designer's build sets the page, so this preview is only for the folder.
 
 ## Questions for the editor, on paper
 

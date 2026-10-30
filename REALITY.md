@@ -53,7 +53,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - `publishing/cover_size.py`: the paperback's full cover size and spine for the designer, from the PDF's page count.
 - The build prints the words per manuscript file, the total and the PDF's page count (196 words, 3 pages on 30 October).
 - The PDF embeds the manuscript's images (`manuscript/resources/images/`) and prints each figure on one page; the book targets Markua 0.30 (M1). Leanpub price decided (L1: $0 minimum, $19.99 suggested; L2: main). RC1 is in `manuscript/` on dev since 13:20 UTC: 18 files, 58 images with the 16 maps, 259 pages, 69,358 words.
-- `publishing/markua.py`: the build translates Markua's asides and blurbs (`A>`, `W>`, `T>`, `X>` and the rest, and `{aside}`/`{blurb}` blocks), attribute lines, `{pagebreak}` and the matter markers for pandoc; asides print in the call-out look of the conductor's RC1 build. No chapter uses Markua-only syntax yet.
+- `publishing/markua.py`: the build translates Markua's asides and blurbs (`A>`, `W>`, `T>`, `X>` and the rest, and `{aside}`/`{blurb}` blocks), attribute lines, `{pagebreak}` and the matter markers for pandoc; asides print in the call-out look of the conductor's RC1 build. Since 17:30 UTC the chapters hold RC1's 28 infographics, maps 6 to 16 and 50 call-outs as Markua (`publishing/place_rc1.py`): 293 pages, as the editor's RC1 PDF; the site's chapter pages show the blurb markers until the conductor's build renders them.
 - `publishing/LEANPUB.md` now says: GitHub mode needs a Standard or Pro plan; untick the membership box for a $0 book; $0 readers get every new version (whether the new-version email reaches them is not settled by Leanpub's pages).
 
 ## Not yet
@@ -90,7 +90,8 @@ What exists in this repository and on its site, kept current by whoever ships. A
 
 - Staffed 30 October 2026 at the editor's word (`book.json` X1): role and policy adopted from the conductor's draft into `team/ruv-sgit/`, session key `sha256:301885fb2fd5a83e` with its session folder; its own scheduled task, every two hours at :54 London, id in `team/ruv-sgit/status.json`.
 - `lab/experiments/01-ruv-the-building-three-frames/`: the talk's M01 (at `5d13d72`) frozen on its own clock at three times, one A4 page (`page.pdf`), rebuilt by its `tools/make.sh`; run recorded in `lab/runs/20261030T1303Z-ruv-01-the-building.*`, no vault, no Ruflo hive (not available in the session). Security judged it benign (its clause "capability, not intent" added); with the designer for the lab PDF; the editor's paper verdict to come.
-- `lab/experiments/02-ruv-the-building-one-long-image/`: the same M01 as one long image, every walk sampled on its own clock and drawn as a line, one A4 page in the lab's format; header in `experiment.proposed.json` until the designer's verdict; run `lab/runs/20261030T1459Z-ruv-02-the-building-long.*`.
+- `lab/experiments/02-ruv-the-building-one-long-image/`: the same M01 as one long image, every walk sampled on its own clock and drawn as a line, one A4 page in the lab's format; run `lab/runs/20261030T1459Z-ruv-02-the-building-long.*`. Security judged it benign; in the lab's format as LAB 03 (`experiment.json`), accepted by the lab build, in the PDF at the designer's next build. Lab 01 is in the lab PDF as LAB 02, in the designer's layout.
+- M02 and M03 wait on questions: M02 (two real public incidents) on security, M03 (the talk team's counts) on the researcher.
 
 ## Synthetic readers (synthetic@book.the-ultimate-insider)
 

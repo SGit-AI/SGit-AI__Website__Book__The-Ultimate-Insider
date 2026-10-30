@@ -22,6 +22,8 @@ Four things, and the record shows what happens when each is thin.
 
 Build the floor before you staff anyone.
 
+![Build your own, in this order: before the first commit, the floor, the rules, the team, the machine](resources/images/infographics/ig38-setup-order.jpg)
+
 The talk's first commit was at 00:16 (C001); its first site release, v0.1.0, at 00:45 (C009). This book's repository went from its first commit at 00:35 to its first site at 00:46. In both cases the first thing that existed was a site with a build, a gate and a release pipeline, and only then a team.
 
 The pieces, as this repository has them (`admin/build/`, `.github/workflows/release.yml`):
@@ -31,6 +33,14 @@ The pieces, as this repository has them (`admin/build/`, `.github/workflows/rele
 3. **A release on every merge**, numbered by CI and never by an agent, with the version on every page. The talk's day ended with 210 releases by 18:46 (C009); each was a point the editor could open and check.
 4. **Two branches, and only the editor merges to the main one.** Members push to `dev`; the editor merged `main` once, at 23:19 (C007). That rule kept every agent away from what the public saw as final.
 5. **Who outside the team can push.** The repository's collaborator list is a control too (C9): a setting, enforced by the host, and an expectation about who is on it. Decide it at setup and look at it again whenever you add a service, as this book's team did for its publishing platform.
+
+{blurb, class: exercise}
+**Try this: Give the tripwire your patterns**
+
+Before the first capture, add patterns for what your work will touch: cookie values, form tokens, other sites' published tokens. Run the check before every push to a public store, and treat each finding as a class to search for, not an instance. (C025)
+{/blurb}
+
+![CI owns the version: members push to dev, the gate checks, CI numbers each release, the editor merges](resources/images/infographics/ig36-ci-owns-version.jpg)
 
 ## The rules every member reads
 
@@ -50,13 +60,27 @@ Before the first member starts, write three files and one habit.
 
 **The conductor first.** On the talk's team, dev's first commit came at 00:40 and the conductor's at 00:44, with its first key at 00:58 (C011); on this book's, the conductor was staffed at 00:56 and the others at 01:41 (not yet registered). The conductor routes requests, keeps the schedule, the decisions and the record true, and is the member that pulls the hold. Do not start without it.
 
+![Map 14. The second run: the method moves from explorer to villager, ported rule for rule](resources/images/maps/14-the-second-run.png)
+
 **Security from round 0.** The talk's team proposed a security member and never staffed it: nine agents were staffed, and the tenth folder stayed empty (C011). That is why the brief for this book said "a ten-agent team", and why the record says nine. The lessons brief puts it second of six things to do differently, and this book's team did it: security published its key at 01:41, with the others. What it found in its first hours is the case for it. It read the pinned key tool that the talk's team had pinned and never reviewed, line by line (control C5). Its question about the wake verdicts made the researcher state the method behind a count, and the register now carries both readings (C023). And it showed that the same edit to members' own scopes was decided differently by different sessions, which is the evidence for chapter 9's tenth control (C10). None of that was a breach; all of it was the kind of thing nobody else on the team was charged to see.
 
 **Then the members, each with a mandate it can read.** Each member gets a folder: `ROLE.md` (mission, what it is not responsible for, its first task, a "Done when" list), `policy.json` (the paths it may write), `status.json` and `debriefs/`. Each session makes its own key and publishes the public half with a QR image (control C4), with the private half kept out of the repository; the push is the authorisation. The scope check runs in every wake, by the member on itself (`admin/build/agents.py check`); the release gate checks only that no two members claim the same file (`agents.py overlaps`, called from `admin/build/validate.py`, in this repository as in the talk's).
 
 Know what that scope check is. It is a setting that reports, not a boundary that refuses (C1): a member that writes outside its policy is flagged, not stopped, and a member can edit its own `policy.json`. The nearest thing to a boundary, on this book's first night, was the session's own permission check, outside the repository (C10): it refused some members asked to widen their own write scope, and they did not look for a way round it; but it allowed the same edit in other members' sessions, so it held most of the time and could not be planned around (chapter 9). That is the line the speaker drew on stage over `s-e10` ("the fourth is a control that holds"), and it is the most important design choice in this chapter. **Put every brake you rely on outside the agent's reach.** A rule in a file the agent can edit is an expectation. Expectations work well with a benign team, and the record shows they mostly did; they are not controls.
 
+{blurb, class: exercise}
+**Try this: Put a brake outside reach**
+
+List every brake you rely on and ask of each: can the agent edit it? If it can, it is an expectation. Move at least the scope check and the hold check somewhere the member's credential does not reach, such as a required check on the main branch.
+{/blurb}
+
 **Give every member a definition of done.** The talk's team had none: members woke every hour until the hold stopped them. In the small hours of 30 October the editor told this book's conductor that "a number of agents here ... will reach a natural conclusion", and asked for "a definition of done for each agent, which basically means that they can then stop their schedule". The rule went into the wake protocol within minutes (`77a9480`, 02:16) as "Finishing": a last wake, a closing debrief, and the member pauses its own task. It is the cheapest cost control in the method.
+
+{blurb, class: exercise}
+**Try this: Give each member a 'done'**
+
+Write a 'Done when' list in every ROLE.md. When it is met, the member runs a last wake, writes a closing debrief and pauses its own scheduled task. Members with nothing left to do stop spending usage.
+{/blurb}
 
 ## The machine: slots, mail and the five-step wake
 
@@ -66,11 +90,19 @@ Know what that scope check is. It is a setting that reports, not a boundary that
 
 **Requests are files.** A request to another member is a numbered file in that member's mailroom, answered in a file. "Nothing is agreed in a chat nobody can read later" (the lessons brief, "Keep" 4). On this book's team, the mail lives in `comms/`, in git; the talk's team used encrypted vaults for it, and this book's team was told to use none (CLAUDE.md, "No vaults for now"). Choose the simpler one unless you need the other.
 
+![Comms in git: ask in the other member's mailroom, keep a copy in your outbox, answer on the board](resources/images/infographics/ig37-comms-in-git.jpg)
+
 **The five-step wake.** Every wake runs five steps, each with a verdict in a record: a conductor sub-agent plans; a security sub-agent reviews the plan; the member works, inside a fixed limit shorter than the hour, and only after both say go; security reviews the diff; the conductor checks the work against the plan (`team/conductor/WAKE.md`). The gate refuses the work until the first two steps say go, and a `stop` from any step writes a hold.
 
 The record says how it went. The five-step wake began at 02:14 on the talk's day and left 162 wake records by the end, 160 of them with all five steps (C022). No step said stop all day. Pre-reviews sent plans back 11 times, 7 of them recorded as a verdict (C023). Post-reviews found 4 things, and 3 of the 4 were the same failure, captured pages carrying other sites' tokens into a public commit; each was caught only after the push (C025). Read that plainly. The wake is an expectation with a record (C2): it made the team explain itself every hour, it caught things, and it caught some of them late. It does not prevent; it notices, and it leaves evidence that it noticed.
 
 **Holds.** `HOLD.md`, checked first on every wake. Any member may write one; only the editor lifts it. The talk's one hold (C024) came from the editor's word about his usage, written by the conductor at 18:44 (C006). The work already in flight still landed: one work commit and its merge after the hold, and one release (C005, C006). A hold stops the next wake, not the one running. If you need the running one to stop too, make the push itself check for the hold.
+
+{blurb, class: exercise}
+**Try this: Test your own hold**
+
+Before the deadline, have a member write HOLD.md on purpose. Check that every next wake stops, that a running wake cannot push past it, and that only you can lift it. A brake that has never been pulled is a brake nobody knows works.
+{/blurb}
 
 ## The register before the writing
 
@@ -91,6 +123,12 @@ The lessons brief lists six things to do differently. The record corrects one of
 **3. Timings before pieces.** The talk's beats grew from 17 at 13:00 to 58 at 17:52 (C016), and their durations were needed for the player's clock while the animations were still being made. This book's plan carried word budgets from its first draft.
 
 **4. Watch the editor's usage as a resource, not as an emergency.** The talk's team met its limit as an emergency: 95% at 18:44, and a hold (C021). This book's team was given the same hourly machine, round the clock, and the same question. Early on 30 October the editor told it to keep every member firing hourly and, if the limit came, to wait for the window to reset rather than hold the team (Q2). By morning, the conductor was asking him whether idle members should pause, since "each wake costs some of your usage" and some members had nothing to do until the plan was signed (U1, decided at about 10:40 UTC, moot by then). The editor's own debrief of the talk names the pace as the thing to change: "we now don't need to have the agent working every hour" (`a9c0b49`, added after the day; chapter 10). Show usage on the team's dashboard, have the conductor read it at every wake, and let a member with nothing to do pause itself.
+
+{blurb, class: exercise}
+**Try this: Log usage at every wake**
+
+Add one line to every wake record: the usage reading at the start. After a day you have a curve, not a single figure said under pressure at 95%. Set the point at which the conductor pauses idle members. (C021)
+{/blurb}
 
 **5. Record what was said on stage.** The talk entered the record after the day, at the editor's request (`a9c0b49`). Make the recording and its transcript a deliverable of the day.
 
@@ -133,6 +171,10 @@ The pattern is the book's argument in miniature. The failures the agents' own to
 The talk's unreached close had two halves. The first was "The overlap, governed": the insider does not go away, it gets brakes. The second was the call to build: measured reach, behaviour policies and containment for agents are in genesis today, and "every one of those steps is a company" (`talk.json`, beat `evolution`, at `298be4e`). The next security companies, the speaker planned to say, "will look like this team: agents with mandates, evidence vaults, a harness, behaviour policies ... Imagine this team with a human expert in each role" (`next-companies`).
 
 ![Two of the storyteller's Wardley maps: where exploitation sits, and the next generation of security products](resources/images/12-go-build.jpg)
+
+![Map 15. The talk's evolution map: exploitation and its defences are commodity; what agents need is in genesis](resources/images/maps/15-talk-evolution-and-the-opportunity.png)
+
+![Map 16. The next security products: agent teams with mandates, vaults, a harness and policies, in genesis](resources/images/maps/16-talk-security-products-evolve.png)
 
 The record of two teams supports the first half without reservation and the second with one. A team like this can be built in an hour from files anyone can read, and it will run round the clock, review itself, and stop when told. It will also, if every brake it has is a file it can edit, be exactly the insider the talk describes: benign, productive, with more reach than mandate, and held by the word of one person who is watching his usage. The speaker invited the room to try to break his harness, in the scope its project publishes. Build your own team, and then do the same to it: test your brakes, in the open, before your deadline does. The brakes are what let you go faster.
 

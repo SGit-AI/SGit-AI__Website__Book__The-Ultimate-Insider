@@ -12,6 +12,12 @@ The researcher joined at 01:52 (C011), with a role, a policy for the evidence va
 
 That second verdict is the method's best idea. A grade answers "is there evidence for this?"; a hold answers "does the sentence we are about to say match the evidence?". Most errors in public talks are of the second kind. The figure is real; it is from the wrong year, or the wrong survey, or it says "privileged" where the source said "privileged or sensitive". The researcher's register asked both questions of every claim.
 
+{blurb, class: information}
+**Concept: Grade and hold**
+
+Two verdicts per claim. The grade, from A0 (no capture carries it) to A6 (the primary record does), asks whether there is evidence. The hold asks whether the sentence about to be said matches that evidence. A claim can be well sourced and still not hold.
+{/blurb}
+
 Its first evidence round landed at 02:10 (`75ddb3e`) with a list called "before tonight": what the evidence says about the talk, beat by beat, sorted into what must change (a number or a statement the evidence contradicts), what should change (true, but out of date or worded beyond its source), and what holds and is stronger than the slide says (`evidence/BEFORE-TONIGHT.md`). It changed nothing on the site itself. The slides were deck's and the argument was the editor's, and the list said so in its first paragraph. The researcher's job was to say what was true; it was not to make the talk say it.
 
 ![The researcher's evidence vault opened in the browser: claims, sources, proposals and the method (29 October 2026)](resources/images/05-evidence-vault.jpg)
@@ -36,7 +42,7 @@ The storyteller's challenge file (`team/storyteller/story/challenge.md`) is the 
 
 The researcher's answer to R5, one of the storyteller's requests, came back against him. Breach data showed exploitation of internet-facing systems, edge devices above all, rising as a way in, not falling. The register entry for the editor's sentence, "the internet-facing surface is smaller and more mature than it was", was graded A0 and marked as not holding: no source found for "smaller" (C030). The storyteller folded it in at its 15:00 wake and did not soften it. Its commit subject says "'the outside is in balance' contradicted by R5, put to the editor" (`b208a16`); its debrief calls it the strongest objection to part one and proposes a way through, that the outside is contested, not mature, which is why nobody has turned inside yet.
 
-![The storyteller's first map: the outside is mature, the inside is not (a Wardley map, committed at 14:19)](resources/images/05-map-outside-inside.jpg)
+![The storyteller's first map: the outside is mature, the inside is not (a Wardley map, committed at 14:19)](resources/images/maps/09-talk-outside-and-inside.png)
 
 The researcher's answers had reached the editor too. In his decisions of about 15:00, committed and routed by the conductor at 15:16 (`78d517d`), he kept the claim, as a trend and not a flood: exploitation at the edge is rising, but slowly, and the slide would show it against the curves of the worm era to make the point (`team/conductor/briefs/2026-10-29__editor/1-editor-decisions-1500.md`). At its next wake the storyteller recorded the decision in the challenge file ("settled by the editor at 15:00") and in bold in the tree ("The editor keeps the claim"), under the point it governs (`2afe0d7`, 16:04). At the end of the day the talk's `inside` beat says, in the editor's words, "So the outside is in balance. Exploitation at the edge is rising, but it is a trend, not a flood" (`src/static/talk/talk.json` at `298be4e`). And the register, built at 18:20, still grades the original sentence A0, not holding.
 
@@ -48,6 +54,8 @@ The same thing happened, more quietly, to the integrity beat itself. The storyte
 
 By 18:20, 40 minutes before the talk, the talk's register held 320 claims (C029). By grade: 13 at A0, 23 at A1, 182 at A2, 31 at A3, 11 at A4, 12 at A5, 48 at A6. By whether they held as worded: 210 held, 55 held in part, 52 had not been checked, and 3 did not hold. Two in three held whole. By kind, the largest groups were measured claims and claims about the team's own sites, then events, positions, observations and a handful of guesses.
 
+![The talk's own claims register at 18:20: 320 claims by whether each held as worded](resources/images/infographics/ig19-talk-register.jpg)
+
 These are the talk researcher's verdicts, not this book's. This book inherits them and has not re-graded them (`claims/talk-claims-triage.md`). What the numbers show is a register that was honest about itself. It did not round up. Its own README printed how many of its claims had not been checked at all, and it kept every "holds in part" with a note saying exactly which words went beyond the source and a suggested wording that would not.
 
 The three claims that did not hold are the method's clearest success (C030). One was a sentence in the article the talk was drawn from, not in the talk. One was the storyteller's own sentence about the outside, in the tree, which the editor reworded. The third was a pair of figures from a public reporting programme, stale against the programme's own briefing, whose beat is not in the talk at the end of the day; deck had already put the programme's current figures on that slide at 02:20, from the researcher's first list (`79b6709`). None of the three reached a slide. Where the register said "this is wrong", the team listened.
@@ -55,6 +63,12 @@ The three claims that did not hold are the method's clearest success (C030). One
 ## The figure that went on stage
 
 The definition slide, one of the first arguments the audience met, gave the average annual cost of insider risk as $17.4M, in the present tense (C031). The figure was right for the 2025 edition of its source, a survey by the Ponemon Institute for DTEX. By the day of the talk it was out of date: the 2026 edition gives US$19.5M. This book's researcher checked both at source on 30 October; the 2026 figure is the present one, and $17.4M is what the slide said. Both come from a survey commissioned by a vendor, which the talk's register noted at the time.
+
+{blurb, class: discussion}
+**The number: $17.4M or $19.5M**
+
+The slide said $17.4M a year, right for the 2025 edition of its source. The 2026 edition gives US$19.5M. The exact fix was proposed at 02:52, five minutes after the freeze, and never reached the slide. (C031)
+{/blurb}
 
 ![The definition slide as released, its insider-risk figure written at 00:40 and never changed (still shot after the day from v0.2.0, whose content is the 18:46 release)](resources/images/05-definition.jpg)
 
@@ -66,11 +80,19 @@ At 02:47 the editor, in deck's session, froze the talk: do not touch the deck; `
 
 The freeze held all night and all morning, which is what it was for. It kept the talk stable while the editor slept and the team worked on the studio. At 14:07 it was lifted, for the framing only, in the hand-over of the editor's feedback round (`c9ced4e`). From then until the end of the day `talk.json` had 8 commits, and none touched the $17.4M cue; the slide file had none at all (C031). The talk grew from 17 beats to 58 in that time. Nobody went back to the line.
 
+![The $17.4M figure: written at 00:40, fix proposed at 02:52 after the freeze, on screen unchanged at 19:00](resources/images/infographics/ig21-the-figure-on-stage.jpg)
+
 The historian and this book's researcher read the cause the same way, and the plan for this book adopts it (`timeline/turning-points.md`, TP-3; C031). This was not a careless member. Deck did the right things in the right order and was stopped by its editor's word. The researcher found the problem, graded it, wrote the exact fix and routed it to the member who owned the slide. The editor froze the talk for a good reason and lifted the freeze, deliberately narrowly, for the work he had come back to do. Each of them acted correctly. The correction fell into the space between them: it was routed just after a freeze, waited behind it, and when the freeze was lifted for one purpose, there was no one whose job it was to ask what else had been waiting.
 
 Two things made that space. The first is that a brake stops everything behind it, and does not keep a list. The freeze stopped deck acting on the researcher's remaining items, and deck recorded that it had, but the lift did not come with a question about what was now unblocked. The second is the triage. The researcher's own list placed the figure under "should change", behind the contradictions, which was correct by its method: the figure was not false for the year it named. But "should change" items were the ones deck had scheduled for later wakes, and later was after the freeze. A correction can be right, routed, recorded, and still lose to the ordering of the work around it.
 
 The lesson for a reader building their own is specific. Every brake needs an owner for what waits behind it. When the brake is lifted, someone has to walk the queue. It is cheap to do and easy to forget, and the record shows exactly what forgetting it costs: a figure the team had already corrected, said on stage in the present tense.
+
+{blurb, class: tip}
+**Take away: Walk the queue at every lift**
+
+A brake stops everything behind it and keeps no list. When a freeze is lifted, even for one purpose, ask what was waiting behind it, and give every open correction an owner. (C031)
+{/blurb}
 
 ## A record, not a gate
 
@@ -78,9 +100,17 @@ The $17.4M is the sharpest case, but not the only one, and the wider count is mo
 
 Of the talk register's 320 claims, 80 had a place on stage, a beat or a slide (C038). Of those 80, 33 held, 18 held in part, 28 had not been checked, and 1 did not hold. So 46 of the 80 had not been confirmed whole by 18:20, 40 minutes before the talk. The one that did not hold was the stale reporting figure, whose beat had gone. This book's researcher then matched each of the 80 to the talk as it stood at the end of the day (C039). 55 were in a beat of the final talk: 26 held, 13 held in part, 16 had not been checked. So 29 of the 55 claims in the talk's own source at the end of the day had not been confirmed whole. The other 25 named beats or slides that were cut, merged or never added. "In a beat" means in the talk's source, not certainly spoken; whether each was said is for chapter 10 and the transcript the editor added after the day.
 
+![From the talk's register to its stage: 320 claims, 80 placed, 55 in a beat, 29 not confirmed whole](resources/images/infographics/ig20-claims-to-stage.jpg)
+
 None of this is a scandal, and the chapter should not be read as one. Many of the unchecked claims are positions, the editor's own argument, which no capture can confirm and which the register marked as positions. Many of the "holds in part" are small: a word dropped, a date that was the disclosure rather than the event. The register said all of this itself, in public, at the time. That is the point.
 
 The point is also the limit. Nothing in the team's process stopped an unconfirmed claim from reaching a slide. The register recorded each claim's state; the storyteller cited it; deck could read it; the editor could ask. But no tool compared the beats in `talk.json` with the register's verdicts and refused a release while a claim on stage was "not checked" or "holds in part", the way the build gate refused an em-dash or a token-shaped string. The register was a record, not a gate.
+
+{blurb, class: information}
+**Concept: A record is not a gate**
+
+A record says what is true; a gate refuses what is not. The talk's register found what was wrong, and nothing compared it with the slides before a release. A gate on claims would need an override the editor can sign.
+{/blurb}
 
 That is the same distinction chapter 3 found in the members' scopes, and chapter 9 will make the spine of the book's argument: a control that records is not a control that refuses. The scope check reported a write outside a member's policy; it did not prevent it. The register reported a claim that did not hold; it did not keep it off the stage. In both cases the record was excellent and the people reading it were careful, and in both cases the outcome depended on someone reading it at the right moment. On the day, for the claims the register said were false, someone always did. For the claim it said was out of date, at the moment it mattered, no one was looking, because a brake had told them not to.
 

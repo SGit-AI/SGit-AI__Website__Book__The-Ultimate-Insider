@@ -10,9 +10,23 @@ Start with reach, because the talk does. Each member of the talk's team was a se
 
 So any member could, in principle, write in another member's folder, change a shared rule, or publish a key in another member's name, and push it to `dev`, where within minutes it became a public release. None did, except once, openly and for a benign reason, which this chapter comes to. That is the insider: not a villain, but an entity with reach well beyond its mandate, working round the clock, whose good behaviour rests on what it was told and on the brakes around it.
 
+{blurb, class: discussion}
+**The number: One account, one key**
+
+All 603 of the agents' commits share one author name and, the cold reader found, one signing key. The member is named only in a subject prefix and a trailer the session writes itself. (C003)
+{/blurb}
+
 ![Studio experiment E06, 'Hard outside, soft inside', and the map behind the `inside` beat (stills shot after the day from v0.2.0, whose content is the 18:46 release)](resources/images/09-soft-inside.jpg)
 
 The talk's own vocabulary for those brakes is the slide the studio called E10, "only a boundary is a control". A ladder of barriers: none at all; a rule written in prose for the agent to follow; a hook that enforces the rule from inside the agent's environment; and a boundary outside the agent that it cannot talk its way past. The book's control register, kept by this book's security member, sorts the team's controls into two kinds that map onto that ladder. A **setting** is enforced by a tool. An **expectation** is a rule an agent is trusted to follow. The distinction is the whole chapter.
+
+{blurb, class: information}
+**Concept: Setting, expectation, boundary**
+
+A setting is enforced by a tool: the gate refuses a release. An expectation is a rule an agent is trusted to follow: the never list, the reviews. A boundary is a setting the agent cannot reach or edit. Only a boundary is a control.
+{/blurb}
+
+![The talk's ladder of barriers: nothing, a rule in prose, a hook inside, a boundary outside](resources/images/infographics/ig32-barrier-ladder.jpg)
 
 ## The register
 
@@ -30,6 +44,8 @@ The talk's own vocabulary for those brakes is the slide the studio called E10, "
 | C10 the session's own check | setting, outside the repository | this book's first night | self-widening, outside code | inconsistent between sessions |
 
 The register lives in `controls/index.json`, with a readable copy in `controls/README.md`. Its ids collide with this book's decisions and the researcher's claim ids, and are to be renamed; this chapter writes "control C1" where the collision could mislead. The rest of the chapter takes the settings first, then the expectations, and ends on the one control that sits outside the repository altogether.
+
+![Map 12. The controls on one map: settings and expectations, inside the repository and outside it](resources/images/maps/12-the-controls-on-one-map.png)
 
 ## The settings
 
@@ -120,6 +136,12 @@ It was not only this book's team. The talk's team met it too, and wrote it down:
 Read across, the misses have one shape. Each control either reported without refusing (C1, C6's place after the push), or rested on the member running it (C5, C8, the five steps' sub-agents), or depended on a role nobody held (C4's check of each key, the security member never staffed). The one brake that stopped the team was pulled by a person for a reason outside the work (C3). The one control that refused an agent on its own authority sat outside the repository, in the harness, and was written by nobody on either team (C10).
 
 None of this means the controls failed. The team ran for a day in public, with nine agents and 210 releases by 18:46 (C009), and the record holds no incident inside the team beyond the tokens the reviews caught and the slips the members wrote up themselves. The reviews sent plans back. The scope check made members name their crossings. The hold, when it came, held the next wake. But the talk claims that controls are what let you go faster, and the record shows which controls a fast team actually leaned on: the ones it could not edit.
+
+{blurb, class: tip}
+**Take away: Lean on what it cannot edit**
+
+Read across the register, each miss has one shape: it reported without refusing, rested on the member running it, or waited on a role nobody held. The controls that held were the ones outside the agent's reach.
+{/blurb}
 
 That is the argument in full, made with a team that meant no harm. The insider is not the agent that turns. It is the agent with reach, working through the night on rules written in files it can change, while the person who signs for it sleeps. What makes it safe is not that it is good, though this one was. It is the few boundaries outside its reach, and the person who can pull the brake.
 

@@ -15,7 +15,8 @@ What it translates (Markua 0.30, markua.com):
 
 Each aside or blurb becomes `::: {.callout .<kind>}`, styled by publishing/book.css. The kinds match the call-outs
 the conductor's RC1 build placed (concept, number, takeaway, warning, try): `I>` and `A>` are concept, `T>` is
-takeaway, `W>` and `E>` warning, `X>` try, `{blurb, class: number}` number.
+takeaway, `W>` and `E>` warning, `X>` try, `D>` and `{blurb, class: discussion}` number (publishing/place_rc1.py
+writes RC1's call-outs this way).
 
     python3 publishing/markua.py FILE   # prints the translation, to check one chapter by eye
 """
@@ -23,9 +24,9 @@ import re
 import sys
 
 BLURB = {"A": "concept", "B": "concept", "I": "concept", "T": "takeaway", "W": "warning", "E": "warning",
-         "X": "try", "Q": "concept", "D": "concept", "C": "centred"}
+         "X": "try", "Q": "concept", "D": "number", "C": "centred"}
 CLASS = {"information": "concept", "tip": "takeaway", "warning": "warning", "error": "warning", "exercise": "try",
-         "question": "concept", "discussion": "concept", "center": "centred", "centered": "centred"}
+         "question": "concept", "discussion": "number", "center": "centred", "centered": "centred"}
 LINE = re.compile(r"^([ABCDEIQTWX])>(?: (.*)|$)")
 ATTRS = re.compile(r"^\{\s*([a-z][a-z-]*\s*:.*)\}\s*$", re.I)
 BLOCK_OPEN = re.compile(r"^\{(aside|blurb)\s*(?:,\s*(.*))?\}\s*$", re.I)

@@ -2,6 +2,12 @@
 
 There is a tempting picture of an agent team in which the agents are clever about each other: they negotiate, they notice what a colleague needs, they hand work across in conversation. The talk's team did not work like that, and the record suggests it would have done worse if it had. What it had instead was a clock and a record. Every member woke on its own minute of the hour. Work was asked for in files and answered at the recipient's next minute. The team talked through public stores whose every word anyone could read. And from 02:14, every piece of work was wrapped in five steps (a plan, a review of the plan, the work, a review of the work, a check against the plan), each leaving a verdict in a file.
 
+{blurb, class: information}
+**Concept: The five-step wake**
+
+Plan (a conductor sub-agent), pre-review (a security sub-agent), work (only after both say go), post-review (security reads the diff), post-check (did it go to plan). Each step writes a verdict to the wake record; a stop from any step holds the team.
+{/blurb}
+
 None of this is clever. It is the kind of thing a shift supervisor in a hospital or a control room would recognise at once: a rota, a handover sheet, a log that the next person reads before touching anything. The chapter's argument is that this plainness is the point. A team of agents that never sleeps needs a rhythm a person can read in the morning, and a record that shows the review happened, not a promise that it did.
 
 The talk's beat for this chapter is the one about time. The insider the talk describes has none of the limits that used to slow an insider down: it does not tire, it does not go home, it does not stop when the office empties. If that is the risk, the brakes have to keep the same hours. A control that only works while a person is watching is a daytime control on a night-time risk. The hourly machine is this team's answer to that, and the night of 29 October is the test of it.
@@ -38,13 +44,27 @@ Making the team's correspondence public is the most counter-intuitive choice in 
 
 The price is written in `WAKE.md` in bold: every file in both vaults is public, forever, and a later commit does not unpublish an earlier one. So a check runs before every vault commit (`admin/tools/vault_check.py`), looking for keys, tokens and personal details, and the post-review records that it ran. The control register (`controls/`) lists this as C8, a setting with an expectation behind it: the tool refuses what it knows, and the member is trusted to run it. Reviews found patterns the check did not know. At 14:03 the conductor's pre-review made adding one more key pattern a condition of the plan, and `vault_check` was taught it in the next commit (`c9ced4e`). Another gap was found only after a push, and it belongs to the night.
 
+{blurb, class: warning}
+**Watch for: Public, forever**
+
+Redaction fixes the file, not the history. Values removed from the files stayed in history that had already been pushed. Check before the push, with patterns you add as you learn. (C025)
+{/blurb}
+
 ## Five steps around every piece of work
 
 At 02:14 the conductor opened a wake at the editor's request whose purpose was to build the five-step wake itself (`team/conductor/wakes/20261029T021416Z.json`). By 02:18 it existed: `wake.py`, which writes the record and refuses the work until both the plan and its review say go (`8c66751`, 02:16); the section in `WAKE.md`; the briefs for the review steps in `team/conductor/reviews/`; and `start.py` opening the record at the start of every wake (`5700bab`).
 
 The design is worth reading closely, because its choices are the ones a reader building their own would have to make. The plan is drafted by a sub-agent briefed as the conductor: a few items, requests first. The pre-review is a second sub-agent, briefed as security, on a smaller model and with a limit of a few minutes. It checks the plan against the member's written policy, the stop conditions, secrets and harm to other members, and it sees the plan and the rules only, "deliberately not the messages the plan came from" (`reviews/pre_review.md`). That last choice is easy to miss and important: a reviewer that never reads the material cannot be talked round by it. Only after both say go does `wake.py gate` let the member work. Then a post-review reads the diff, the gate, the vault check and any write outside the member's policy, and a post-check asks, item by item, whether the work went to plan. A `change` sends a plan back to be amended and reviewed again. A `stop` from any step writes the member's `HOLD.md`, and the whole team stops.
 
+![The five-step wake: plan, pre-review, the gate, work, post-review and post-check, and what a stop does](resources/images/infographics/ig14-five-step-wake.jpg)
+
 Two things about it should be said plainly. The first is that the reviewer called "security" was a sub-agent, not a member. The team's security member was proposed and never staffed: the record has nine staffed agents (C011), and every security review of the day was a brief handed to a sub-agent inside the reviewed member's own session. The second follows from it, and `WAKE.md` says it itself: the five steps are "defence in depth in one session, not a second identity". The reviewer had the member's own reach. It could not have stopped a member that chose to ignore it, only recorded that it had said so. The control register files the five-step wake as C2, an expectation with a record, not a setting.
+
+{blurb, class: warning}
+**Watch for: Defence in one session**
+
+The reviewers were sub-agents in the reviewed member's own session, with the same reach. They could send a plan back and write it down; they could not stop a member that chose to ignore them.
+{/blurb}
 
 What turned the expectation into something stronger was the gate. The very first five-step wake did not pass cleanly. The conductor, building the protocol at the editor's word, had added a line to `CLAUDE.md`, the file every member follows, outside its own scope. The editor had allowed it, and the pre-review had made a condition of naming it in the commit. The commit did not name it. The post-review found the omission, the post-check agreed, and the wake closed partial; the closing commit named the edit (`c8f6f8f`, 02:19). The first run of the review caught its own author. By 02:51, dev's first scheduled wake put `wake.py check` into the build gate (`99aaf05`, 02:51), so that a wake record with a skipped step failed the build for every member. A rule one member wrote at 02:16 was, by 02:51, a check the gate enforced on all of them. That is the shape the book keeps returning to: an expectation becomes a control when a tool refuses to proceed without it.
 
@@ -56,9 +76,17 @@ Because every wake wrote its record, the day can be counted, and the counts are 
 
 The verdicts show the steps working, and they also show where they did not (C023). Every plan said go: 162 of 162. The pre-review's final verdict was go in 161 records. But that final verdict hides the work it did: 11 times a pre-review said change and the plan was amended, of which 7 carry the verdict in a field of the record and 4 only in the conductor's free text. The work step was done in 151 wakes, partial in 4, nothing in 5. The post-review was clean in 157 and returned a finding in 4. The post-check found 148 wakes as planned and 12 partial, none off-plan. No step, in any wake, said stop.
 
+![Every verdict in the 162 wake records of the day, step by step; no step said stop](resources/images/infographics/ig15-wake-verdicts.jpg)
+
 That last fact is the one to sit with. The machine was built with a stop at every step and a hold any member could pull, and across the whole day nothing in it stopped anything. The one hold of the day (C024) came from the editor's word about his usage, relayed by the conductor at 18:44, not from a review. One reading is that the day was benign and there was nothing to stop, which is true. The other is that the reviews were tuned to send back and fix rather than to halt, and that a reviewer inside the member's own session is likelier to say change than stop. Both readings fit the record. A reader building their own should expect the same: a review that has never said stop has not been shown to be able to.
 
 The sent-back plans are the steps' best evidence. At 04:10 the researcher's plan, for a wake that would capture web pages about prompt injection, was sent back with conditions: redact tokens and email addresses before any commit, store injected text only defanged and labelled, quote no payload to deck. One condition was wrong: the reviewer thought a file the researcher planned to touch was outside its policy, and the researcher disputed it from the policy's own text. The second pass withdrew the objection and said go (`team/researcher/wakes/20261029T041003Z.json`, history). A review that can be argued with from a written policy, and that changes its mind when shown the policy, is doing what a review should. At 14:03, with the editor just back and the conductor carrying his fresh words, the pre-review sent back a plan to write in other members' mailrooms, outside the conductor's scope, and asked for requests instead (`team/conductor/wakes/20261029T140334Z.json`, history). That is the control holding at the moment of most pressure, against the member closest to the editor.
+
+{blurb, class: discussion}
+**The number: Sent back eleven times**
+
+Pre-reviews said change 11 times across the 162 wake records of the day, and each plan was amended before the work. Only 7 of the 11 carry the verdict in a field; 4 are in free text, where a first count missed them. (C022, C023)
+{/blurb}
 
 The post-check caught smaller things, and one of them became a rule. Closing its 03:02 wake, the conductor's post-check noticed that a correction in the brief and the pace file carried the time 03:08, typed by hand, for a commit made at 03:05. The conductor closed the wake with a lesson about itself: from the next wake, times come from the clock (`cabcd57`, 03:07). It is a tiny failure, and an exemplary one. A record is only as good as its timestamps, and an agent typing times from what it believes rather than reading them from the machine will drift. The team found it in its own record before the wake closed, and fixed the cause rather than the instance.
 
@@ -82,6 +110,12 @@ A machine built for an unattended night met a deadline in the afternoon, and it 
 
 At 15:21, at the editor's word, the work step's limit was raised from a few minutes to most of an hour (`545a473`, C041). His reason, recorded in `WAKE.md`, is itself a description of the machine: "if the next agent doesn't pick it up in the run in the same hour, it will pick it up on the next one". The short limit had suited a team running alone, where the danger was one wake doing too much unseen. The long one suited a team racing a deadline with the person in the room. The cost was written into the same paragraph: wakes of different members now overlapped in time, so every member had to pull `dev` again before every push. The stale copy that the pull-first rule had been written against at 01:27 became a live risk at 15:21. The historian folds this into the afternoon's three changes (TP-6), with the decisions of 15:00 and the arrival of motion and studio at 15:31 (C011).
 
+{blurb, class: discussion}
+**The number: From 8 minutes to 45**
+
+The work step's limit went from 8 minutes to 45 at 15:21:31, at the editor's word. Wakes of different members began to overlap in time, so every member had to pull again before every push. (C041)
+{/blurb}
+
 The commit history after that hour shows a different team. 358 commits came after 15:00 (C008), the publishing merge and its release at 23:19 among them. At about 17:00 the editor loosened the rhythm further, letting members follow their own wakes with one-off follow-ups until 20:00 (TP-7). That belongs to chapter 8, which asks what held and what bent. For this chapter it is enough to note what did not bend: every follow-up was still a full wake, with `start.py`, the five steps and the gate, and the pre-review was still sending the conductor's plans back as late as 18:19 (C023).
 
 ## What the machine is for
@@ -89,6 +123,12 @@ The commit history after that hour shows a different team. 358 commits came afte
 It would be easy to read the hourly machine as process for its own sake, and some of it was: the banners, the commit forms, the night log regenerated every round. But the parts that mattered have a common shape, and it is worth naming because it is what a reader would build.
 
 Each of them replaces attention with a record. The schedule replaces a person deciding who works next with a file that says so. Requests as files replace a person remembering who asked for what with a folder that holds it. Public vaults replace a person asking members to report on their conversations with a store anyone can read. The five steps replace a person watching each piece of work with a record that says what was planned, what a reviewer thought of the plan, what was done, what a second reviewer found and whether it matched. None of these needs the person to be awake. All of them leave something the person can read when they are.
+
+{blurb, class: tip}
+**Take away: Replace attention with a record**
+
+A schedule instead of someone deciding who works next; request files instead of memory; public stores instead of reports; five verdicts instead of a watcher. None needs the person awake, and all of it can be read in the morning.
+{/blurb}
 
 That is the answer the machine gives to the talk's beat about time. An insider with no limits works round the clock, and the brakes have to keep the same hours. Through the night of 29 October they did: plans were sent back, a leak was caught three times, each time after the values had already reached a pushed, public history, and a document was waiting for the editor in the morning that told him what only he could decide. The record does not show the reviews preventing every failure; it shows them finding failures that no one was awake to find, and writing them down.
 

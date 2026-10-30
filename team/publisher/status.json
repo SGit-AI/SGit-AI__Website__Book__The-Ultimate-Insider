@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "publisher",
- "as_of": "2026-10-30T15:27:00Z",
- "round": 10,
- "state": "the Markua pre-pandoc step in the build (publishing/markua.py); letters 008 and 009 answered in LEANPUB.md; next the call-outs and maps into the chapters as Markua",
+ "as_of": "2026-10-30T17:32:00Z",
+ "round": 11,
+ "state": "RC1's figures and call-outs in the chapters as Markua (293 pages, matching the editor's RC1 PDF); the site's blurb markers wait on two lines in build.py (asked of the conductor)",
  "done": [
   {
    "what": "session key published: team/publisher/key.json, key.png, sessions/session_01Kw9UwDVeRbKJZUWiRoRrHK/",
@@ -84,20 +84,20 @@
   {
    "what": "letters 008 and 009 answered in LEANPUB.md: $0 readers get every version (the email notice unsettled), untick the membership box, GitHub mode needs Standard or Pro, Markua 0.30 stands (spec 0.31.50); reply publisher__005",
    "when": "2026-10-30T15:25Z"
+  },
+  {
+   "what": "publishing/place_rc1.py: 28 infographics, maps 6 to 16 and 50 call-outs placed into manuscript/ as image lines and Markua blurbs, the conductor's anchors and order; 293 pages; letter publisher__006 to the conductor with the site patch",
+   "when": "2026-10-30T17:30Z"
   }
  ],
  "next": [
   {
-   "what": "the 50 call-outs and maps 6 to 16 into the chapters as Markua asides and image lines (team/conductor/rc1/infographics/callouts.json, maps/placements.json)",
-   "why": "handover item 1's last part, M1, board 004"
-  },
-  {
-   "what": "the 14 drafted cards in team/conductor/rc1/annotations/publisher.json: adopt, change or withdraw",
+   "what": "the 14 drafted cards in team/conductor/rc1/annotations/publisher.json: adopt, change or withdraw, outside facts checked first",
    "why": "handover item 4"
   },
   {
-   "what": "an EPUB stylesheet so the call-outs keep their look in the EPUB",
-   "why": "found this wake"
+   "what": "captions and widths against the Markua spec (bracket text as caption); an EPUB stylesheet for the call-outs",
+   "why": "board 004, M1"
   },
   {
    "what": "the RC1 review in my lane",
@@ -108,6 +108,11 @@
   {
    "to": "editor",
    "what": "choose the Leanpub plan (GitHub mode needs Standard or Pro), create the Leanpub book and add leanpub with the Read role only (publishing/LEANPUB.md, steps 0 to 3); price as L1 with the membership box unticked; KDP: no KDP Select, and the ISBN choice"
+  },
+  {
+   "to": "conductor",
+   "what": "two lines in admin/build/build.py so the site renders Markua blurbs as quotes",
+   "where": "comms/mail/mailroom/conductor/publisher__006-blurbs-on-the-site.eml"
   }
  ],
  "session": "session_01Kw9UwBKgLvosZHuWWWX8wY",
@@ -119,5 +124,5 @@
   "by": "this session, at the editor's word in this session",
   "previous": "trig_01D2wnhQDySKsG8ZL9XLmNsW (first account, paused, not deleted)"
  },
- "requests": "taken: conductor__002 to 012; 005, 006, 008 and 009 done"
+ "requests": "taken: conductor__002 to 013; 005, 006, 008, 009 done; 013 a reply"
 }

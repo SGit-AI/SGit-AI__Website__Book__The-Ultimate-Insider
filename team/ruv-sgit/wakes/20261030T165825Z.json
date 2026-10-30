@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled, every two hours at :54 London",
+ "started": "2026-10-30T16:58:25Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. Requests: designer__002 and security__002 copied to done, board updated, lab 02 README records the lab/tools commit (f212c8e) its preview was built with. 2. Lab 02 into the lab PDF: experiment.proposed.json renamed experiment.json, id LAB 03; build_lab.py checks it; lab/pdf restored, not committed; letter to the designer. 3. Request letters to security (M02) and the researcher (M03); neither made yet. Close: debrief, status.json, REALITY.md.",
+   "at": "2026-10-30T16:59:23Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Inside policy. Conditions: lab/pdf is outside scope, restore it and never stage it; vault_check on comms before committing; letters within the recipients' roles, no secrets.",
+   "at": "2026-10-30T16:59:45Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "designer__002 and security__002 filed; lab 02 README records lab/tools f212c8e; lab 02 into the lab's format as LAB 03 (experiment.json, {{dir}} image path, plans narrowed after a 29 px overflow), accepted by build_lab.py, lab/pdf restored and not staged; letters: designer (update), security (M02, request), researcher (M03, request); board, REALITY, debrief, status",
+   "at": "2026-10-30T17:02:06Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Build and gate clean; 0 outside scope since f0077e1; vault_check clean; lab/pdf and lab/tools absent from diff and status; no key, token or personal detail; the M02 letter asks for judgment and builds nothing; no directive text.",
+   "at": "2026-10-30T17:02:31Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "1 requests done (done/, board 001 and 004, README records f212c8e); 2 lab 02 as LAB 03 done, designer letter 003, lab/pdf not in diff; 3 letters to security (M02) and researcher (M03), blocked 006 and 007; close done. Conditions kept. Minor extra: the run's evidence.json gained a revisions entry.",
+   "at": "2026-10-30T17:02:45Z"
+  }
+ },
+ "closed": "2026-10-30T17:02:45Z",
+ "outcome": "ok"
+}

@@ -8,13 +8,27 @@ In the hour before that note the editor's own hand is everywhere in the record. 
 
 Then, at 18:44, the conductor wrote something else. It was not about the talk at all. The editor, in the conductor's session, had said: "actually we are at 95% so it is better to pause all actions". The 95% was the editor's five-hour usage limit, the allowance of his subscription that every agent on the team was spending, and it would not reset until 20:20, after the talk had begun (C037). The conductor did what the team's rules told any member to do when carrying on would do harm. It wrote a file called `HOLD.md` in its own folder, committed it as `@conductor: hold: the editor's usage limit is at 95%, pause all actions`, and pushed it at 18:44:13 (`867f8c2`; C006). At 18:44:49 the site's release pipeline published it as v0.1.208 (`7968c99`).
 
+{blurb, class: information}
+**Concept: A hold**
+
+A file, team/<id>/HOLD.md, that any member may write and push. Every wake's start script looks for one first and stops if it finds it. Only the editor lifts it, by deleting the file and re-enabling the paused tasks.
+{/blurb}
+
 The file is short, and it is worth reading what it does not say. It does not say what went wrong in the work, because nothing had. It records who wrote it and at whose word, when, the editor's own sentence, and the state of the talk at that moment: part 1 final since 18:30 but not locked, parts 2 and 3 still in progress, the gate clean. It says what lifts it: the editor deletes the file and re-enables the paused tasks, and no member lifts it. And it tells every member what to do on its next wake: do no work, print the end banner with the outcome "hold", pause your own scheduled task, and schedule no follow-up.
 
 That was the last decision of the day. Nobody on the team wrote another plan, opened another review or started another wake. The hold was the only one written that day, and it was never lifted before the day was over (C024).
 
+{blurb, class: discussion}
+**The number: Public within a minute**
+
+36 seconds from the hold's commit at 18:44:13 to its release as v0.1.208 at 18:44:49. The brake was on the public site within a minute of being pulled. (C006, C041)
+{/blurb}
+
 ## What the 95% is
 
 The figure needs care, and the book gives it the care here so it need not repeat it. The 95% is not a reading from any meter in the record. It is the conductor's report of what the editor told it (C021). No usage page, no token count, no bill for the day exists in the repository. What the record holds is a human telling his agent that he was close to being cut off, and the agent turning that sentence into a stop for the whole team within the same minute.
+
+![The day's only usage figure: the editor's word, 95% of a 5-hour limit at 18:44, relayed](resources/images/infographics/ig04-usage-95.jpg)
 
 That is already the first lesson of the chapter. The brake was not triggered by a measurement the team took of itself. It was triggered by the one person who could see the limit, saying so in plain words to the one member whose job was to act on them.
 
@@ -26,6 +40,8 @@ The hold rule was not written for this evening. It arrived at 01:39, in the same
 
 The asymmetry is the point. Stopping was cheap and open to anyone; starting again belonged to one person. That inverts the usual shape of an automated system, where carrying on is the default and stopping needs authority. Here one agent could halt the whole team with one file, and no agent, including the one that wrote it, could undo that. It also kept a clean line on who decides. The conductor did not judge that usage mattered more than the locks. It relayed a decision the editor had made, recorded his words beside it, and named him as the only one who could reverse it. Nobody spoke for the editor; one member spoke on his instruction, and said so in the file.
 
+![The hold: any member can write and push it, every next wake stops, only the editor lifts it](resources/images/infographics/ig02-hold-asymmetry.jpg)
+
 ## What the hold did, and what it did not
 
 A hold in this team was a file, and a file stops nothing by being written. It works because every member's wake begins with the same start script, and from 01:39 that script refused to go on if any member's `HOLD.md` existed (`09f13d5`). So a hold stops the next wake. It cannot reach into a wake already running.
@@ -35,6 +51,12 @@ The record shows exactly that. The designer's wake had started at 18:40:16, befo
 ![Part 2 slides as the designer checked them on a projector, in the wake that landed at 18:45, after the hold](resources/images/01-designer-part-two.jpg)
 
 None of this was a breach. The designer did what its wake was for, and the work it landed was a check that touched nothing in the talk. But a book about controls should say plainly what the record shows: the stop was not clean. A hold stops the next wake, not the current one, and the work in flight still landed. Anyone building a brake of this kind should know where its edge is.
+
+{blurb, class: warning}
+**Watch for: A hold stops the next wake**
+
+The hold is read at the start of a wake, not during one. The designer's wake, already running, committed at 18:45:35 and was released at 18:46:22, after the hold. If running work must stop too, make the push itself check for the hold. (C005, C006)
+{/blurb}
 
 After 18:48 the repository is silent. No member committed in the evening, on any branch. The talk was given at 19:00. The editor's usage reset at 20:20, as the hold had said it would. At 23:19 the editor merged the day's work to the main branch himself, an act of publication rather than work, and the hold was still in its folder when he did.
 
@@ -49,6 +71,12 @@ Dev never ran it. The hold came first. No part of the talk was ever locked (C027
 So the evening had two brakes, built for different reasons. The locks were the team's own, built to stop the work from changing. The hold was the editor's, pulled to stop the work from running at all. They did not conflict in principle; in practice the stronger one, applied for a reason outside the work, stopped the weaker one from ever closing. The talk went on stage unlocked. The safeguard the team had spent its last hour racing to apply was overtaken by a limit nobody on the team controlled.
 
 There is no villain here, and no single fix. The locks were late because the afternoon had turned a team built for quiet nights into a team racing a deadline; chapter 8 tells that story. The hold was right: the editor was about to be cut off, and a team that runs on its owner's sessions has to stop before he is. The cost was real all the same. When the brake you control and the brake you built meet, the one you control wins, and you had better know in advance what it will leave undone.
+
+{blurb, class: tip}
+**Take away: Decide which brake wins**
+
+Decide before the day which brake outranks which. Here the owner's hold overtook the team's own locks, and the talk went on stage unlocked. It was the right outcome, but nobody had designed it. (C027)
+{/blurb}
 
 ## Why the book opens here
 
@@ -65,6 +93,8 @@ That is the book's thesis in one scene. An insider with no limits of its own, he
 ## The day in one view
 
 Pull back from 18:44 and the day has a shape. The book's historian reads it as eight turning points, moments after which the team worked differently (`timeline/turning-points.md`). They are the spine of the chapters that follow, so here they are in order.
+
+![The day from the first commit at 00:16 to the talk at 19:00, in registered times only](resources/images/infographics/ig01-the-day.jpg)
 
 **One session becomes a team (00:40 to 00:51).** The first pass of the whole site and talk arrived in a single commit at 00:40 (`1f7c633`). At 00:44 a conductor joined and proposed a team (`97b98d9`); deck joined at 00:51, and the first shared rule, at 00:53, was about reading each other's sessions: every report opens and closes with a banner (`a3a4807`). Nothing was scheduled yet. The editor still drove each session by hand. Chapter 2.
 

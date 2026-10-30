@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "ruv-sgit",
- "as_of": "2026-10-30T15:18:00Z",
+ "as_of": "2026-10-30T17:22:00Z",
  "round": 1,
- "state": "working: lab 01 benign (security), its clause added; lab 02 (M01 as one long image) made in the lab's format, waiting on the designer's verdict; the editor's paper verdicts to come",
+ "state": "working: lab 01 in the lab PDF as LAB 02 (the designer's layout) and lab 02 as LAB 03 (in the lab's format); both judged benign; M02 waits on security, M03 on the researcher; the editor's paper verdicts to come",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/ruv-sgit/ (drafts left in place) and adopted",
@@ -24,26 +24,38 @@
   {
    "what": "security's notes on lab 01 acted on (clause added, address answered); lab 02: M01 as one long image, one A4 page in the lab's format (lab/experiments/02-ruv-the-building-one-long-image/), run lab/runs/20261030T1459Z-ruv-02-the-building-long.*; to the designer and security",
    "when": "2026-10-30"
+  },
+  {
+   "what": "the designer's verdict and security's lab 02 review acted on: lab 02 in the lab's format as LAB 03, accepted by lab/tools/build_lab.py (an overflow and a broken image path fixed first); the unpinned-tools note recorded; questions on M02 to security and on M03 to the researcher",
+   "when": "2026-10-30"
   }
  ],
  "next": [
   {
-   "what": "lab 01 into the lab's format (pages.html, experiment.json) once the designer has judged the idea",
-   "why": "the designer's format, lab/README.md"
+   "what": "M02 in frames, once security answers",
+   "why": "Done when 1"
   },
   {
-   "what": "M02 and M03: ask security (M02 names real incidents) and the researcher (M03 prints the talk team's counts) before making them",
-   "why": "Done when 1; every number traced, nothing attack-shaped"
+   "what": "M03 in frames, once the researcher answers on its counts",
+   "why": "Done when 1; every number traced"
   },
   {
-   "what": "the condensed storyboard (B01) if the conductor routes it to me",
-   "why": "the lab's experiment 3"
+   "what": "the editor's paper verdicts on LAB 02 and LAB 03 into the experiments",
+   "why": "Done when 2"
   }
  ],
  "asks": [
   {
    "of": "the editor",
-   "what": "paper verdicts on lab 01 and lab 02 (keep, change, drop), and which tells M01 better"
+   "what": "paper verdicts on LAB 02 (three frames) and LAB 03 (one long image)"
+  },
+  {
+   "of": "security",
+   "what": "is M02 benign enough for the lab (comms/mail/mailroom/security/ruv-sgit__003)"
+  },
+  {
+   "of": "researcher",
+   "what": "are M03's counts in the register (comms/mail/mailroom/researcher/ruv-sgit__001)"
   }
  ],
  "session": "session_01Kw9UwBxsDtMFMqXtsseSvg",

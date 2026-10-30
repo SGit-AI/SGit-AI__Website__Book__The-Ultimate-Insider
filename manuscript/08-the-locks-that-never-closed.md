@@ -4,6 +4,12 @@ At 16:59 the conductor committed a plan the editor had given it a few minutes ea
 
 No part of the talk was ever locked (C027). Part 1 was final from 18:30 and waited on the tool. At 18:44 the conductor wrote a hold at the editor's word, because the editor's usage was near its limit, and every member's next wake stopped, the lock included (C006).
 
+{blurb, class: discussion}
+**The number: Three locks planned, none closed**
+
+Locks were planned for 18:30, 19:30 and 20:00. The tool landed at 17:54. None ran: part 1 was final and unlocked at the hold, parts 2 and 3 still in progress. (C027)
+{/blurb}
+
 This chapter is about that collision. The talk's closing beat says "We put brakes in cars so that we can go faster", and the team spent its evening proving the first half of the sentence. It built a brake against its own last-minute changes, loosened another so it could move faster, kept the five steps and the gate in place under the most pressure of the day, and was finally stopped by a brake nobody on the team controlled. Two brakes met at the end of the day, and the stronger one stopped the other. The argument of this chapter is that the right one won, and that the reason it won is the most useful thing the day has to teach about brakes.
 
 ## Ninety minutes, three parts, three locks
@@ -16,9 +22,17 @@ The conductor turned that into a table. Part 1 on stage from 19:00 and locked at
 
 Two things about the plan matter for what followed. The first is that it was a plan for change, not against it. The locks existed so that the team could keep changing the talk right up to and during the talk: each lock drew a line behind which the team could not reach, so that in front of it the team could go as fast as it liked. That is the talk's brakes argument applied to the talk itself. The second is that the plan's length did not yet match the slot. The beats, when they were all written, added up to 74.9 minutes, against the player's countdown of ninety (C026). Part 1 was 29.5 minutes, part 2 23.75, part 3 21.67 (C026). The first part was full; the second and third were still being filled when the day stopped.
 
+![Planned length: 74.9 minutes of beats in three parts against the player's 90-minute countdown](resources/images/infographics/ig29-planned-length.jpg)
+
 ## The lock tool, built within the hour
 
 The tool landed at 17:54 (`4a2481b`, C027). It is short, and it is a good piece of engineering for its purpose. `admin/build/lock.py --part N` opens every slide of the part from the built site in a browser, records every file each slide loads, copies those files into a locked folder that mirrors the site, writes the part's beats as they stand into that folder, and adds the part to a list of locks. The player, from the same commit, plays a locked part from its copy instead of from the live files. And the tool refuses to lock a part twice: "a locked part is never changed".
+
+{blurb, class: information}
+**Concept: A lock**
+
+admin/build/lock.py copies every file a part's slides load into a locked folder, and the player then plays that copy. A setting that refuses: once a part is locked, no member's late edit can change what the audience sees.
+{/blurb}
 
 It was a brake in the strict sense the book uses: a setting, enforced by a tool, that refuses. Once part 1 was locked, the player would have played it from its frozen copy, so no member, however late its wake and however good its reason, could have changed what the editor saw in part 1; and the tool would have refused to lock it a second time. It protected the talk from the team, which in the last hour before a talk is the main thing a talk needs protecting from.
 
@@ -42,6 +56,8 @@ The last hour can be told as a countdown. At 17:52 deck marked part 1 final for 
 
 ![The 'Moments' page at 17:22 and at 18:21: the parts and their locks routed, then part 1 flagged final for its lock](resources/images/08-countdown.jpg)
 
+![The last hour, 17:52 to 18:46: part 1 final, a lock tool, no lock, the hold, the last release](resources/images/infographics/ig28-last-hour.jpg)
+
 What was dev doing? The record shows dev's session busy, and not with the lock. Between 18:04 and 18:37 it committed the player changes the editor asked for as he rehearsed, each with the editor's time in its subject (`23739cc` at 18:04, the what-changed view at 18:06, `12e93db` at 18:14, `013d97e` at 18:15, `dbd75ad` at 18:37). The session that was to run the lock at 18:30 was, through the half hour on either side of it, the session taking the editor's last notes on the player (C028; chapter 7). The record does not say why the lock was not run, and this book does not claim to know. It shows only that the brake depended on one session, and that session was answering its owner.
 
 ![Part 1 as the designer checked it on a projector before its planned lock (17:48); it was never locked](resources/images/08-part-one-projector.jpg)
@@ -62,11 +78,15 @@ The hold stopped the next wake, not the one already running. The designer's wake
 
 So at the end of the day two brakes met. One was the team's: the lock, a tool that would have protected the talk from the team's own last changes. The other was the owner's: the hold, a file that protected the editor's account, the resource without which no member could run at all. The lock was ready and waited on a busy session. The hold was one commit and stopped everything.
 
+![Two brakes at 18:44: the team's lock, which never ran, and the owner's hold, which ran once](resources/images/infographics/ig30-two-brakes.jpg)
+
 The hold was the right one to win, and it is worth saying why rather than leaving it as luck. A lock protects an artefact. A hold protects the capacity to act. If the editor's usage had run out with the team mid-wake, the team would most likely not have stopped cleanly: it would have stopped wherever each session happened to be, with no file saying why, no state recorded, and no way for any member to know whether the others had stopped too. The hold turned an outside limit into an ordered stop, recorded, with the state of the talk written down and the only person who could lift it named. That is what a brake tied to a human's limit is for. A team of agents has no limits of its own (the talk's opening argument); the limits that remain are its owner's, and the brake that answers to them has to outrank every brake the team builds for itself.
 
 There is a second reason, less comfortable. The hold did, crudely, what the locks were for. After 18:46 nothing in the talk changed. The talk at the end of the day is the talk as the hold froze it: part 1 unchanged since 18:30, as the lock would have kept it, and parts 2 and 3 exactly as they stood at 18:44. The difference between a lock and a hold is what it freezes. A lock freezes a copy the team has chosen, checked and declared finished. A hold freezes whatever is there. Part 1 was finished, so for part 1 the difference is nearly nothing. Parts 2 and 3 were not: the storyteller's check at 18:14 had found named gaps in both, the documented attacks missing from part 2 and the editor's work and the close's threads from part 3 (`team/storyteller/story/part-check-1814.md`), and they stood short of their planned length (C026). The hold froze them unfinished. What the editor did with them on stage is chapter 10's subject.
 
 And the editor's plan for the evening, the team working on parts 2 and 3 while he presented part 1, ended at 18:44. The hold did not only stop the lock. It stopped the show of the team at work that the locks were built to make safe.
+
+![Map 11. Two brakes: the usage limit leads to the hold, and the hold stops the part locks that never closed](resources/images/maps/11-two-brakes.png)
 
 ## The day opened and closed on a brake
 
@@ -84,9 +104,21 @@ Four failures belong to this chapter, and they stay in.
 
 **The lock waited on one session.** The tool was in dev's scope, the lock was dev's job, and dev's session was the one the editor was using to fix the player. Nobody else could run it, the evening's follow-up rule did not apply to dev by dev's own reading of its policy, and the conductor's fallback when it did not run was an instruction to treat part 1 as locked. A brake that depends on one busy agent is a promise, not a brake.
 
+{blurb, class: warning}
+**Watch for: A brake on one session**
+
+The lock was dev's job, in dev's scope, and dev's session was taking the editor's player notes through the half hour around 18:30. Give every brake more than one hand that can pull it. (C027)
+{/blurb}
+
 **The security member was never staffed** (C011). The conductor proposed it at 00:44 in its first roster (`97b98d9`) and wrote its role at 01:27 (`02cbd86`): open and close every run, check whether a hold is open, review what the team trusts. Its proposed reach included "Stop a run: one hold file". No session ever held the role; the team had nine staffed agents, and the tenth folder stayed empty (C011). The five-step wake's reviews did much of the work the role described, but they were sub-agents with the reviewed member's own reach, not a second identity (turning point 4). The one role whose mandate was to pull the hold for a reason of its own never existed, and the hold that was pulled came from the editor.
 
 **The usage limit was met as an emergency.** The lessons brief's fourth "Do differently" says it plainly: watch the editor's usage as a resource, not as an emergency, and show it on the dashboard. The team had a dashboard, a pace grid, a night log and a mini deck of itself in motion. It had no gauge for the one resource every wake spent. The only usage figure in the record is the editor's word at 18:44 (C021). The team learned how close it was to the limit when the editor told it, and stopped at once, which is the right response to an emergency and the wrong way to meet a resource.
+
+{blurb, class: warning}
+**Watch for: A gauge for usage**
+
+The record holds one usage figure: the editor's word, 95% of a five-hour limit at 18:44. No token count, no bill. Put usage on the dashboard and have the conductor read it at every wake. (C021, C037)
+{/blurb}
 
 ## What the brakes let the team do
 
