@@ -1,0 +1,26 @@
+{
+ "schema": "the-ultimate-insider/lab-run-spec/v1",
+ "run": "20261030T1854Z-ruv-05-meet-the-team",
+ "by": "ruv.sgit@book.the-ultimate-insider",
+ "request": {
+  "from": "the editor (Dinis Cruz), in this member's session, 30 October 2026, about 13:00 UTC, standing for every wake",
+  "words": "(3) begin your first task from your ROLE.md (the first static experiment from one of the talk's animations, recorded in lab/runs/, no vault), inside the five steps of WAKE.md."
+ },
+ "brief": "team/conductor/projects/pdf-lab/README.md, experiment 1: \"An animation as three frames.\"",
+ "cleared_by": "researcher, comms/mail/ruv-sgit/done/researcher__001-m03-counts-registered.eml: C073, two conditions",
+ "experiment": "lab/experiments/04-ruv-meet-the-team-frames/",
+ "source": {
+  "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider (read-only, scratchpad clone)",
+  "path": "src/static/motion/lab/meet-the-team/v1/index.html",
+  "last_changed": "f45028c",
+  "record_end": "298be4e",
+  "clone_head": "424b67a"
+ },
+ "method": "serve the clone on 127.0.0.1, freeze the animation on its own clock at 6.5, 11 and 40 s in headless Chromium, light theme; set the stills in the lab's format",
+ "executor": "the member's scheduled session directly, with its plan, pre-review, post-review and post-check sub-agents; Ruflo is not available in this session, so no hive was run",
+ "vault": "none (book.json X2: no vaults)",
+ "claims": [
+  "C073",
+  "C024"
+ ]
+}

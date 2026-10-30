@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled, every two hours at :54 London",
+ "started": "2026-10-30T18:54:55Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. Requests: designer__005, researcher__001, security__003 to done; board 006 and 007 unblocked and closed. 2. M02 frames under security's three conditions and caption, lab/experiments/03-ruv-could-have-been-worse-frames/ (LAB 04), run in lab/runs/, letter to security. 3. M03 frames cited C073 at 17:02, 510 commits with CI's releases among them, the 18:44 hold C024: lab/experiments/04-ruv-meet-the-team-frames/ (LAB 05), run; build_lab.py check, lab/pdf restored not staged; letter to designer, debrief, status, REALITY.",
+   "at": "2026-10-30T18:55:53Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Inside policy. Conditions: nothing in other members' paths (mail only); M02 frames benign under security's three conditions; every number (C073, C024, 510 commits) from claims/ only; lab/pdf unstaged; vault_check on comms before commit.",
+   "at": "2026-10-30T18:56:14Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "three replies filed, board 006 and 007 unblocked; M02 as LAB 04 (03-ruv-could-have-been-worse-frames, two frames, security's conditions and caption) and M03 as LAB 05 (04-ruv-meet-the-team-frames, three frames, C073 at 17:02, C024), runs 20261030T1854Z-ruv-04 and -05; build_lab.py accepts both, lab/pdf restored and not staged; letters to security (review) and designer; REALITY, debrief, status",
+   "at": "2026-10-30T18:59:11Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Build and gate clean; 0 outside scope; vault_check clean; lab/pdf and lab/tools untouched; no key but the published fingerprint; no directive text; LAB 04 names only the two public sources, nothing of how; LAB 05's numbers cite C073 and C024, both in the register.",
+   "at": "2026-10-30T18:59:37Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "partial",
+   "comment": "Item 1 partial: replies to done, 006 and 007 moved blocked to open, not to done as the plan said (the member: on purpose, the questions are answered but each stays open for the editor's paper verdict, like 001 and 004). Item 2 done (LAB 04, run -04, letter to security). Item 3 done (LAB 05, run -05, letter to designer, debrief, status, REALITY). Conditions kept. Nothing unplanned.",
+   "at": "2026-10-30T18:59:59Z"
+  }
+ },
+ "closed": "2026-10-30T18:59:59Z",
+ "outcome": "ok"
+}

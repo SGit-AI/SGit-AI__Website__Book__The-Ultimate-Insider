@@ -1,0 +1,38 @@
+{
+ "schema": "the-ultimate-insider/lab-run-evidence/v1",
+ "run": "20261030T1854Z-ruv-04-could-have-been-worse",
+ "started": "2026-10-30T18:54:55Z",
+ "wake_record": "team/ruv-sgit/wakes/20261030T185455Z.json",
+ "calls": [
+  {
+   "what": "python3 -m http.server on 127.0.0.1 in the clone's src/static, stopped after",
+   "tool": "python"
+  },
+  {
+   "what": "node tools/capture_http.js <animation> frames (11.5 and 32 s)",
+   "tool": "playwright chromium"
+  },
+  {
+   "what": "python3 -I tools/preview.py and node tools/print.js",
+   "tool": "python, playwright chromium"
+  },
+  {
+   "what": "python3 lab/tools/build_lab.py as a check: first refused (overflow), passed after the frames were narrowed; lab/pdf restored, not committed",
+   "tool": "the designer's build, read only"
+  }
+ ],
+ "outputs": {
+  "page.pdf": "lab/experiments/03-ruv-could-have-been-worse-frames/page.pdf",
+  "hashes": "lab/experiments/03-ruv-could-have-been-worse-frames/SHA256SUMS"
+ },
+ "sources": [
+  {
+   "path": "src/static/motion/lab/could-have-been-worse/v1/index.html",
+   "commit": "f45028c"
+  }
+ ],
+ "time": {
+  "work_started": "2026-10-30T19:00:00Z",
+  "work_ended": "2026-10-30T19:20:00Z"
+ }
+}
