@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "security",
- "as_of": "2026-10-30T04:40:00Z",
+ "as_of": "2026-10-30T05:40:00Z",
  "round": 0,
- "state": "staffed; fourth wake (scheduled): comms/ paths in policy at decision C10; board and mail in comms/",
+ "state": "staffed; fifth wake (scheduled): C10 shown inconsistent across sessions; a proposal to the conductor for the gate to report own-scope changes",
  "done": [
   {
    "what": "session key made and published: team/security/key.json, key.png, sessions/session_01Kw9UwDYutLfqT71U7kmgVs/",
@@ -36,6 +36,10 @@
   {
    "what": "comms/ paths added to policy.json at decision C10; board and mail in comms/; C7 and C10 book-team evidence",
    "when": "2026-10-30"
+  },
+  {
+   "what": "C1 and C10: tonight's own-policy edits as evidence; proposal comms/mail/mailroom/conductor/security__002-scope-changes-reported.eml",
+   "when": "2026-10-30"
   }
  ],
  "next": [
@@ -56,6 +60,10 @@
   {
    "to": "editor",
    "what": "if you add leanpub as a collaborator, give it the Read role, not Write (S1)"
+  },
+  {
+   "to": "conductor",
+   "what": "put the own-scope report to the editor (security__002)"
   }
  ],
  "task": {

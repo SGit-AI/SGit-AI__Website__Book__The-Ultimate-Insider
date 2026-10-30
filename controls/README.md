@@ -8,7 +8,7 @@ No number of our own here: every count is cited by the researcher's claim id in 
 
 | Id | Control | Kind | Evidence so far | Open question |
 |---|---|---|---|---|
-| C1 | policies and scopes (`agents.py check`) | setting | flagged CLAUDE.md outside the conductor's scope, talk wake `20261029T021416Z`; a pre-review sent back a plan writing in four other members' folders (`conductor/20261029T140334Z`) | it reports, it does not refuse |
+| C1 | policies and scopes (`agents.py check`) | setting | flagged CLAUDE.md outside the conductor's scope, talk wake `20261029T021416Z`; a pre-review sent back a plan writing in four other members' folders (`conductor/20261029T140334Z`) | it reports, it does not refuse; it cannot see a member widen its own scope (book team: four own-policy edits tonight, none reported) |
 | C2 | the five-step wake | expectation, with a record | post-review caught cookie values in captured headers; pre-reviews said change in several wakes, kept under each record's `history` | no step said stop all day (C023); a finding came after a push (C025) |
 | C3 | holds | setting | the conductor's hold at 18:44 UTC, talk `867f8c2` | the one hold (C024) came from the editor's word about usage |
 | C4 | session keys | expectation, with a published record | the conductor checked two new keys and sealed the vault keys to them, talk `4adc04a` | to find |
@@ -17,7 +17,7 @@ No number of our own here: every count is cited by the researcher's claim id in 
 | C7 | the editor's signed decisions | expectation | the editor's 15:00 decisions committed and routed, talk `78d517d`; book team: security's policy widening waited for decision C10 | to find |
 | C8 | public vaults and `vault_check` | setting, with an expectation | recorded clean in post-reviews; a pre-review added a missing pattern to it | a failure: page tokens in a 02:22 push, found after it; history keeps them (C025) |
 | C9 | outside accounts on the repository | setting (GitHub role), with an expectation | book team: the publisher asked before Leanpub was added; advice: Read only | the role the editor gives |
-| C10 | the session's own permission check | setting, outside the repository | refused security widening its own policy before the editor's word; allowed it after decision C10 | the editor's word reached it only as files other agents wrote |
+| C10 | the session's own permission check | setting, outside the repository | refused security widening its own policy before the editor's word, allowed it after decision C10; refused the researcher after C10 | not consistent: the same edit was allowed in two other sessions before any signature |
 
 **Correction (30 October 2026, 02:45 UTC):** round 0 said no pre-review in the talk's record said change or stop. That was wrong: the first scan read each record's steps and missed its top-level `history`, where a sent-back verdict is kept. Several pre-reviews said change.
 
