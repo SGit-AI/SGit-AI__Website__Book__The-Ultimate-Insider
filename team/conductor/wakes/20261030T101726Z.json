@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "editor's request, in the conductor's session",
+ "started": "2026-10-30T10:17:26Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "sub-agent",
+   "verdict": "go",
+   "comment": "1. The editor's answers recorded (O4 A, Q3, Q4, L1 minimum free, L2, C10b A, U1 A moot). 2. C10b: the three comms paths into four members' policies, named. 3. The voice brief to six members. 4. RC1 findings routed. 5. The gate checks admin/tools pins.",
+   "at": "2026-10-30T10:18:08Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "sub-agent",
+   "verdict": "go",
+   "comment": "In scope except the four named policy edits, covered by the editor's word: exactly three paths each, nothing else. Pins resolved from the root for admin/tools. vault_check comms; no keys in mail.",
+   "at": "2026-10-30T10:18:08Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "book.json: O4, Q3, Q4, L1 (minimum free at his word, suggested 19.99), L2, C10b, U1 decided, quoted; no decision left open. C10b: the three comms paths added to the librarian's, researcher's, historian's and publisher's policy.json, nothing else (named outside writes). The voice brief to all six, with the drafting's findings for the researcher, security, historian and librarian. validate.py checks admin/tools pins (tested: a changed key tool fails). RC1 drafts not in this commit (the illustrator is working on them).",
+   "at": "2026-10-30T10:19:16Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "sub-agent",
+   "verdict": "clean",
+   "comment": "Four policy diffs add exactly three comms paths each; the editor quoted, L1 minimum free; 19 new mail and request files, nothing overwritten, no key or contact detail; the pin check covers admin/tools; overlaps none; comms and gate clean.",
+   "at": "2026-10-30T10:19:47Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "sub-agent",
+   "verdict": "as-planned",
+   "comment": "All five items done, conditions kept, RC1 drafts left for the next wake.",
+   "at": "2026-10-30T10:19:47Z"
+  }
+ },
+ "closed": "2026-10-30T10:19:47Z",
+ "outcome": "ok"
+}

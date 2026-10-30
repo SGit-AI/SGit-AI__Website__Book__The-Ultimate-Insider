@@ -106,9 +106,9 @@ class Gate:
 
     def check_vendored(self):                                       # vendored files are unmodified copies, pinned by checksum
         import hashlib
-        for pin in sorted((ROOT / 'src' / 'static').rglob('*.sha256')):
+        for pin in sorted((ROOT / 'src' / 'static').rglob('*.sha256')) + sorted((ROOT / 'admin' / 'tools').glob('*.sha256')):   # the key tool's pin too (from the Cold-Read team's finding, 30 October)
             want, name = pin.read_text().split()[:2]
-            path = pin.parent / name
+            path = ROOT / name if '/' in name else pin.parent / name      # admin/tools pins name their file from the repository root
             if not path.exists() or hashlib.sha256(path.read_bytes()).hexdigest() != want:
                 self.fail('vendored', path.relative_to(ROOT), 'does not match its pinned sha256')
 
