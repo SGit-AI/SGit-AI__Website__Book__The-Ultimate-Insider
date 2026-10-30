@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "editor's request",
+ "started": "2026-10-30T11:24:38Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "1. Seen: the pushed PDFs in team/conductor/rc1/pdf/ match SHA256SUMS. 2. Rebuild both in the scratchpad (no repo files) with assemble_rc1.py and companion.py under python3 -I; judge by page counts (294/67), pdftotext text diff and per-page render diff, not bytes (timestamps). 3. If they match: a page for the first version (src/pages/rc1/ or similar) with an embedded viewer, download links and SHA256, linked from the home page (src/pages/index.html); the conductor amends: build.py (admin/**) copies team/conductor/rc1/pdf/ into the site rather than a second 19 MB copy in src/; REALITY.md; build, validate, gate.",
+   "at": "2026-10-30T11:25:12Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "Within conductor scope. Conditions: no edits to publishing/ (publisher's); rebuild only in scratchpad under python3 -I; confirm via pdftotext the leak account is the corrected one and no secret, key or contact detail in the PDFs or page; build+validate before push to dev; no version file; no em-dashes; nothing to the blind repo.",
+   "at": "2026-10-30T11:25:28Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

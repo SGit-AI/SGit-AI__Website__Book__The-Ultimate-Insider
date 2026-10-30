@@ -1,10 +1,14 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "conductor",
- "as_of": "2026-10-30T11:15:00Z",
+ "as_of": "2026-10-30T11:35:00Z",
  "round": 1,
- "state": "taken over by the second conductor session (new key); site build copies the chapters' images; letters answered; waiting on the editor's RC1 ticks; no scheduled task until he says so",
+ "state": "RC1 rebuilt here and identical page for page to the printed PDF; RC1 on the site at /rc1/, linked from the home page; waiting on the editor's RC1 ticks",
  "done": [
+  {
+   "what": "RC1 and the companion rebuilt and compared with the printed PDFs: same pages, same text, same rendering; RC1 on its own page, linked from the home page",
+   "evidence": "team/conductor/debriefs/2026-10-30__rc1-rebuilt-and-on-the-site.md, /rc1/"
+  },
   {
    "what": "takeover: new session key, the build copies manuscript/resources, the publisher told RC1 moved on, the storyteller's, researcher's and security's letters answered, issue 001 closed",
    "evidence": "team/conductor/debriefs/2026-10-30__takeover-from-the-first-account.md"
@@ -108,6 +112,10 @@
    "why": "storyteller's letter 003; the attack-shaped rule"
   },
   {
+   "what": "ask the editor whether the companion PDF and its annotations stay public in the repository (they say where the leaked values are)",
+   "why": "D12; security's card on aa7a3eb"
+  },
+  {
    "what": "turn the editor's paper ticks into open decisions in book.json",
    "why": "he decides by signing"
   },
@@ -144,5 +152,5 @@
    "C10b"
   ]
  },
- "updated": "2026-10-30T11:15:00Z"
+ "updated": "2026-10-30T11:35:00Z"
 }

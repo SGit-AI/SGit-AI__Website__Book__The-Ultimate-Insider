@@ -1161,6 +1161,11 @@ class Site_Build:
             toc.append((rel, title))
         if (ROOT / 'manuscript' / 'resources').is_dir():            # the chapters' images, at the paths Markua uses (publisher's letter 002)
             shutil.copytree(ROOT / 'manuscript' / 'resources', OUT / 'book' / 'resources', dirs_exist_ok=True)
+        rc1 = ROOT / 'team' / 'conductor' / 'rc1'                   # the book's first version, as the editor printed it (src/pages/rc1/)
+        if (rc1 / 'pdf' / 'the-ultimate-insider-RC1.pdf').exists():
+            (OUT / 'rc1').mkdir(parents=True, exist_ok=True)
+            for src in (rc1 / 'pdf' / 'the-ultimate-insider-RC1.pdf', rc1 / 'pdf' / 'SHA256SUMS', rc1 / 'cover' / 'cover-1-thumb.jpg'):
+                shutil.copy2(src, OUT / 'rc1' / src.name)
         cands = ''.join(f'<li><b>{esc(t["title"])}</b>' + (f': {esc(t["sub"])}' if t.get('sub') else '') + '</li>' for t in b['title']['candidates'])
         lis   = ''.join(f'<li><a href="{Path(r).name}">{esc(t)}</a></li>' for r, t in toc)
         body  = (f'<section class="wrap narrow"><p class="kicker">The book</p><h1>The manuscript</h1>'
