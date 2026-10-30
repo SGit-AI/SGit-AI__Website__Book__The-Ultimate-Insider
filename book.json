@@ -203,74 +203,52 @@
  "decisions": [
   {
    "id": "Q3",
-   "status": "open",
+   "status": "decided",
    "by": "editor",
    "ask": "The title",
-   "detail": "The editor, 30 October: an agent looks at it first. The market stream (synthetic readers and positioning) tests the candidates on [the book page](../book/index.html#title) and better ones against the readers, and proposes; the editor signs in round 1. RC1 carries the working title, The Ultimate Insider, marked as working."
+   "detail": "The editor, in the conductor's session, 30 October 2026 about 10:40 UTC: \"Ok, I reviewed the open questions and I agree with all the proposed answers, with the exception of the minimum Leanpub price which is going to be 0\". As proposed: the title is chosen after synthetic readers test the candidates; until then the working title, The Ultimate Insider."
   },
   {
    "id": "Q4",
-   "status": "open",
+   "status": "decided",
    "by": "editor",
    "ask": "The editor's voice memos and the claude.ai transcripts of 29 October",
-   "detail": "Not in the talk's repository; the editor holds them: his voice memos of 29 October (the morning's narrative memo, the 13:50 feedback round, the 15:00 decisions round), the claude.ai session transcripts in which the briefs were written, and any recording of the talk on stage at 19:00. Do any of them go into the book's source?"
+   "detail": "The editor, in the conductor's session, 30 October 2026 about 10:40 UTC: \"Ok, I reviewed the open questions and I agree with all the proposed answers, with the exception of the minimum Leanpub price which is going to be 0\". As proposed: yes, his voice memos, the claude.ai transcripts and any recording go into the book's source when he shares them."
   },
   {
    "id": "O4",
-   "status": "open",
+   "status": "decided",
    "by": "editor",
    "ask": "Your voice in the book",
-   "detail": "Your voice memos and claude.ai transcripts of 29 October are not in the record (the same ground as Q4). For RC1, at the editor's word above and his flight the same day: the record only. The interview stays open for the next edition.",
-   "options": [
-    "A: an interview with you feeds chapters 6 and 12",
-    "B: the book uses only what is in the record"
-   ]
+   "detail": "The editor, in the conductor's session, 30 October 2026 about 10:40 UTC: \"Ok, I reviewed the open questions and I agree with all the proposed answers, with the exception of the minimum Leanpub price which is going to be 0\". A, as proposed: a short interview with him feeds chapters 6 and 12, in a revision of RC1; RC1 as first printed uses the record only."
   },
   {
    "id": "L1",
-   "status": "open",
+   "status": "decided",
    "by": "editor",
    "ask": "The price on Leanpub, with a floor",
-   "detail": "From `publishing/LEANPUB.md`. The publisher recommends B: \"a floor\" was your word in the brief, and a minimum can be lowered later more easily than raised.",
-   "options": [
-    "A: free minimum, $15 suggested",
-    "B: $9.99 minimum, $19.99 suggested",
-    "C: $4.99 minimum, $14.99 suggested"
-   ]
+   "detail": "The editor, in the conductor's session, 30 October 2026 about 10:40 UTC: \"Ok, I reviewed the open questions and I agree with all the proposed answers, with the exception of the minimum Leanpub price which is going to be 0\". A free minimum price ($0), at his word, against the team's proposal of $9.99; the suggested price $19.99, as proposed."
   },
   {
    "id": "L2",
-   "status": "open",
+   "status": "decided",
    "by": "editor",
    "ask": "Which branch Leanpub builds from",
-   "detail": "The repository's default branch is `dev`; name it explicitly when you create the book. The publisher recommends `main` for both, so Leanpub builds only what you merged.",
-   "options": [
-    "main for previews and publishing",
-    "dev for previews, main for publishing"
-   ]
+   "detail": "The editor, in the conductor's session, 30 October 2026 about 10:40 UTC: \"Ok, I reviewed the open questions and I agree with all the proposed answers, with the exception of the minimum Leanpub price which is going to be 0\". As proposed: Leanpub builds from main, for previews and for publishing."
   },
   {
    "id": "C10b",
-   "status": "open",
+   "status": "decided",
    "by": "editor",
    "ask": "The comms/ paths of the four members still without them",
-   "detail": "After C10, only security and the storyteller hold their three `comms/` paths. The librarian's and the researcher's own sessions refused the edit even after C10 (it was given in the conductor's session, not theirs). The historian and the publisher had taken theirs before C10, at the conductor's request, and both removed them because C10 did not name them. Security showed the same edit was decided four different ways by four sessions (`comms/mail/mailroom/conductor/security__002-scope-changes-reported.eml`); `agents.py check` now reports every change to a member's own scope. One answer settles all four. Until then their requests stay files, routed at :02; no work is blocked.",
-   "options": [
-    "A: say once, in the conductor's session, that the conductor may add exactly the three paths to the policies of the librarian, the researcher, the historian and the publisher (it then edits those four files, named as outside its scope, at your word)",
-    "B: say it once in each of those four members' own sessions",
-    "C: leave them on files"
-   ]
+   "detail": "The editor, in the conductor's session, 30 October 2026 about 10:40 UTC: \"Ok, I reviewed the open questions and I agree with all the proposed answers, with the exception of the minimum Leanpub price which is going to be 0\". A, as proposed: the conductor added exactly the three comms paths to the policies of the librarian, the researcher, the historian and the publisher, 30 October about 10:45 UTC."
   },
   {
    "id": "U1",
-   "status": "open",
+   "status": "decided",
    "by": "editor",
    "ask": "Idle members while the plan waits",
-   "detail": "Since about 03:00 UTC every open decision waits on you, and at 09:02 the librarian and the publisher had each had three idle wakes running (each wake costs some of your usage; the storyteller and the researcher still have work). A finished member pauses itself (WAKE.md, Finishing), but these are not finished, only waiting. The conductor pauses no other member's task.",
-   "options": [
-    "A: ask the idle members (today the librarian and the publisher) to pause their own tasks until you sign P0; you re-enable them after, as only you may",
-    "B: leave every task running round the clock, as Q2 decided"
-   ]
+   "detail": "The editor, in the conductor's session, 30 October 2026 about 10:40 UTC: \"Ok, I reviewed the open questions and I agree with all the proposed answers, with the exception of the minimum Leanpub price which is going to be 0\". A, as proposed; moot since the plan was signed at about 10:00 UTC and every member has review work."
   },
   {
    "id": "P0",
