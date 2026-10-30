@@ -257,7 +257,7 @@ class Site_Build:
 <footer class="foot"><div class="wrap">
 <p><b>{name}</b> · <a href="{root}releases/index.html">site {self.version}</a> · version numbered by CI, never by hand</p>
 <p>The book of <a href="https://the-ultimate-insider.presentation.sgit.ai/">The ultimate insider</a> talk · part of the <a href="https://sgit.ai/">sgit.ai</a> network · <a href="{self.config['repo']}">source</a> · <a href="{md}">this page as markdown</a> · <a href="{root}llms.txt">llms.txt</a> · <a href="{root}about/index.html">about</a></p>
-<p>Text CC BY 4.0 (proposed, for the editor to sign), code Apache-2.0. © 2026 Dinis Cruz.</p>
+<p>Text CC BY 4.0, code Apache-2.0. © 2026 Dinis Cruz.</p>
 </div></footer>
 </body>
 </html>
@@ -359,11 +359,11 @@ class Site_Build:
         signed = [d for d in b['decisions'] if d['status'] != 'open']
         body = (f'<section class="wrap narrow"><p class="kicker">Decisions</p><h1>What the editor decides</h1>'
                 f'<p class="lead">The editor decides by signing. The team proposes options and never acts on an unsigned one. '
-                f'{len(opened)} open, {len(signed)} already decided in the brief. The conductor lists the open ones at every wake and asks for them once a day, not every hour.</p>'
+                f'{len(opened)} open, {len(signed)} decided, in the brief or signed since. The conductor lists the open ones at every wake and asks for them once a day, not every hour.</p>'
                 f'<h2 id="open">Open</h2><ul class="decs">{"".join(card(d) for d in opened)}</ul>'
-                f'<h2 id="signed">Decided in the brief</h2><ul class="decs">{"".join(card(d) for d in signed)}</ul></section>')
+                f'<h2 id="signed">Decided</h2><ul class="decs">{"".join(card(d) for d in signed)}</ul></section>')
         bmd = '\n\n'.join(f'## {d["id"]} ({d["status"]}): {d["ask"]}\n\n{d["detail"]}' + ''.join(f'\n- {o}' for o in d.get('options', [])) for d in b['decisions'])
-        self.page('decisions/index.html', 'Decisions', f'What the editor decides by signing: {len(opened)} open, {len(signed)} decided in the brief.', body, body_md=bmd)
+        self.page('decisions/index.html', 'Decisions', f'What the editor decides by signing: {len(opened)} open, {len(signed)} decided.', body, body_md=bmd)
 
     def build_briefs(self):                                         # every brief, published in full as given, never edited
         md, items = Markdown(), []

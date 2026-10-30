@@ -202,18 +202,11 @@
  ],
  "decisions": [
   {
-   "id": "Q1",
-   "status": "open",
-   "by": "editor",
-   "ask": "The repository names and addresses",
-   "detail": "The brief proposed `SGit-AI__Book__The-Ultimate-Insider` and `SGit-AI__Book__The-Ultimate-Insider__Blind`, sites under sgit.ai. This repository exists as `SGit-AI__Website__Book__The-Ultimate-Insider`, serving the-ultimate-insider.book.sgit.ai, and the blind repository as `SGit-AI__Website__Cold-Read__The-Ultimate-Insider` (see the corrections). Open: the editor confirms both names and the blind repository's address."
-  },
-  {
    "id": "Q2",
    "status": "open",
    "by": "editor",
    "ask": "The hours",
-   "detail": "Hourly wakes, as on the talk's team.",
+   "detail": "Hourly wakes, as on the talk's team: at which hours does the book's team wake? (Asked again: the 30 October answer, \"first commit to last commit before 7pm\", is recorded as S6, the span of the day the book covers.)",
    "options": [
     "round the clock",
     "08:00 to 22:00 London"
@@ -224,21 +217,28 @@
    "status": "open",
    "by": "editor",
    "ask": "The title",
-   "detail": "Pick or strike from the candidates on [the book page](../book/index.html#title), or give his own. Signed in round 1."
+   "detail": "The editor, 30 October: an agent looks at it first. The market stream (synthetic readers and positioning) tests the candidates on [the book page](../book/index.html#title) and better ones against the readers, and proposes; the editor signs in round 1."
   },
   {
    "id": "Q4",
    "status": "open",
    "by": "editor",
    "ask": "The editor's voice memos and the claude.ai transcripts of 29 October",
-   "detail": "They are not in the talk's repository; the editor holds them. Do they go into the source?"
+   "detail": "Not in the talk's repository; the editor holds them: his voice memos of 29 October (the morning's narrative memo, the 13:50 feedback round, the 15:00 decisions round), the claude.ai session transcripts in which the briefs were written, and any recording of the talk on stage at 19:00. Do any of them go into the book's source?"
+  },
+  {
+   "id": "Q1",
+   "status": "decided",
+   "by": "editor",
+   "ask": "The repositories and their sites",
+   "detail": "Signed by the editor, 30 October: SGit-AI__Website__Book__The-Ultimate-Insider at the-ultimate-insider.book.sgit.ai (this one, informed), and SGit-AI__Website__Cold-Read__The-Ultimate-Insider at the-ultimate-insider.cold-read.sgit.ai (the blind one)."
   },
   {
    "id": "Q5",
-   "status": "open",
+   "status": "decided",
    "by": "editor",
    "ask": "The licence of the text",
-   "detail": "Proposed: CC BY 4.0, as for the Gen ZX book. The site's footer says so, marked as proposed, until signed."
+   "detail": "Signed by the editor, 30 October: CC BY 4.0 for the text, as for the Gen ZX book. Code Apache-2.0."
   },
   {
    "id": "S1",
@@ -274,6 +274,13 @@
    "by": "editor",
    "ask": "The market-research and positioning stream starts at once",
    "detail": "Synthetic readers, three positioning statements tested against them, the comparison set, and the Web Summit plan, in parallel with the writing."
+  },
+  {
+   "id": "S6",
+   "status": "decided",
+   "by": "editor",
+   "ask": "The span of the day the book covers",
+   "detail": "Signed by the editor, 30 October: from the first commit (00:16) to the last commit before 19:00, the talk. In the record that is the last work commit at 18:45 and release v0.1.209 at 18:46; the merge to main at 23:19 only published the work as v0.2.0."
   }
  ]
 }
