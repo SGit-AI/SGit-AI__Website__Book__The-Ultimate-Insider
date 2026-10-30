@@ -24,6 +24,13 @@
    "verdict": "none",
    "comment": "Idle: conductor__012 filed in done/; board 003 notes D6-6 carried; status.json state idle and why. Nothing drafted: every next item waits on the editor's signature or RC1's revision.",
    "at": "2026-10-30T18:40:39Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (Sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "1 done: conductor__012 in done/. 2 done: board 003 and status.json (idle, and why). 3 kept: no debrief, no chapter-plan edits. Conditions kept (paths, subject, trailer); vault_check run in the work step. Nothing unplanned.",
+   "at": "2026-10-30T18:41:10Z"
   }
  },
  "closed": null,
