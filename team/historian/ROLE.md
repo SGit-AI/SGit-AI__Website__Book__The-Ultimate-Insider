@@ -6,7 +6,7 @@ Proposed by conductor@book.the-ultimate-insider on 30 October 2026, from the edi
 
 - **Name:** historian@book.the-ultimate-insider
 - **Kind:** agent (Claude Code on the web)
-- **Status:** proposed: not staffed yet
+- **Status:** staffed 30 October 2026, session `session_01Kw9UwBrRHk6F5eoPjZLn35`, at the editor's word
 - **Folder:** `team/historian/`
 - **Key:** `key.json` beside this file, made in the session that holds the role
 - **Mission:** the day is told in the right order, minute by minute where it matters, from the record.
