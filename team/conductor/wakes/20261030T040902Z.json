@@ -1,0 +1,55 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "editor's request, in the conductor's session",
+ "started": "2026-10-30T04:09:02Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "sub-agent",
+   "verdict": "go",
+   "comment": "1. C10 decided in book.json, the editor quoted verbatim. 2. A letter to each of the four (librarian, security, researcher, storyteller) with an outbox copy and a fallback request file: each may add exactly its three comms paths; the word was given in the conductor's session; a refusal in theirs means stop and say so. 3. status.json.",
+   "at": "2026-10-30T04:10:14Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "sub-agent",
+   "verdict": "go",
+   "comment": "Second pass on the amended plan: names checked free (librarian, security, storyteller 002; researcher 003, in mailrooms and outbox). Conditions: quote the editor verbatim, attributed to the conductor's session; only the three paths; no member policy edited; overwrite nothing; vault_check comms; a refusal in their session means stop and say so.",
+   "at": "2026-10-30T04:10:14Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "C10 decided in book.json, the editor quoted verbatim. Four notices (librarian, security, storyteller 002; researcher 003), outbox copies and fallback files; nothing overwritten. status.json. vault_check comms clean; 0 outside scope; gate clean.",
+   "at": "2026-10-30T04:10:16Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "sub-agent",
+   "verdict": "clean",
+   "comment": "Only book.json, status.json and the wake record modified; the researcher's 002 letter untouched, 003 new; the editor quoted verbatim, attributed to the conductor's session; three paths per member, stop if refused; no policy staged; vault_check comms clean; 0 outside scope; gate clean; no key, token or model identifier.",
+   "at": "2026-10-30T04:10:46Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "sub-agent",
+   "verdict": "as-planned",
+   "comment": "C10 decided; four notices with outbox copies and fallback files; status.json; every pre-review condition kept; nothing unplanned.",
+   "at": "2026-10-30T04:10:46Z"
+  }
+ },
+ "closed": "2026-10-30T04:10:46Z",
+ "outcome": "ok",
+ "history": [
+  {
+   "step": "pre_review",
+   "by": "security",
+   "model": "sub-agent",
+   "verdict": "change",
+   "comment": "The researcher's mailroom and the outbox already hold a conductor 002 letter (graphs.sgit.ai): number the researcher's letter 003, and check the others are free.",
+   "at": "2026-10-30T04:10:14Z"
+  }
+ ]
+}
