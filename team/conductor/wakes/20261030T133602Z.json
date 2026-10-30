@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "In scope; vaults (R1) and PKI (R2) stay open. Conditions: no real names, emails, contact details or private keys in the repository or site (public keys only); per-reader encrypted messages a design only, not built or sent; no vault built; no contact with real people before the editor signs; staffing policies narrow; journalist and founder personas fictional; synthetic readers labelled test instruments, never readership.",
    "at": "2026-10-30T13:36:55Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "1. projects/reviewer-experience/README.md; book.json R1 and R2 open. 2. staffing/developer and staffing/synthetic (ROLE.md, policy.json, narrow: fictional data, no contact, no vault); schedule.json runs on odd hours (:12, :42), proposed; ONBOARDING.md 1d. 3. Brief 2 (4 pages), status.json, debrief. Gate clean.",
+   "at": "2026-10-30T13:39:27Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "Gate clean (139 pages); 0 outside scope; nothing under team/developer/ or team/synthetic/; R1 and R2 open; staffing says no contact and no sealed note before the editor signs, fictional data only; personas labelled test instruments; brief 2 holds no key, token or real contact; no em-dashes.",
+   "at": "2026-10-30T13:40:21Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "as-planned",
+   "comment": "1 brief and R1, R2 open. 2 staffing drafts, odd-hour runs proposed, ONBOARDING 1d, no vault. 3 brief 2, status, debrief. Nothing unplanned.",
+   "at": "2026-10-30T13:40:21Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T13:40:21Z",
+ "outcome": "ok"
 }
