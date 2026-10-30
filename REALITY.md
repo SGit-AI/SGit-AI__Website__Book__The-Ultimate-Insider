@@ -27,6 +27,11 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - `timeline/README.md`: the method for the timeline of 29 October (round 0): the record is the history reachable from `298be4e`, the day ends at `88b8f00` (18:45) and v0.1.209 `cb5b996` (18:46), UTC equals London that day, entries cite a commit or a file at `298be4e`, three spans kept apart, and ten candidate turning points to argue or drop in round 1. No timeline entries yet.
 - `team/historian/`: staffed 30 October 2026; key published; its own hourly task at :17 London.
 
+## The claims register (researcher)
+
+- The researcher: staffed (session_01Kw9UwBta1dcP9qBJUURLPZ), key published (`sha256:4e0287f6640d61f0`), its own scheduled task hourly at :32 London.
+- `claims/register.json` and `claims/README.md`: the numbers in the briefs checked against the talk's log at `298be4e`, 21 claims (17 checked, 2 corrected, 2 open). The talk's own claims (`evidence/claims/`) and the comparison set are not yet registered.
+
 ## The storyteller's chapter plan (storyteller@book.the-ultimate-insider)
 
 - `chapter-plan/`: draft 1 of the chapter plan, **not signed**: thirteen chapters and the closing sources, 48,200 words, the workflow as the main thread with the talk's beats braided through it, the failures each chapter keeps, its evidence by path at `298be4e` or commit (index entries once the librarian's index exists), and word budgets and drafting timings (`budget.md`). Five open questions for the editor (`open-questions.md`, O1 to O5). No number in it is registered yet.
