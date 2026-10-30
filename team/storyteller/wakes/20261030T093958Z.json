@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "storyteller",
+ "kind": "scheduled, hourly at :39",
+ "started": "2026-10-30T09:39:58Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. chapter-plan/plan.md draft 5: C031 with its cause (the 02:47 freeze, the fix filed at 02:52, never carried across the 14:07 lift) in chapter 5, chapter 8 and the failures index. 2. Remap the candidate TP1 to TP10 to the historian's eight argued turning points (3 the freeze, new; the lock moving dropped) in plan.md and README.md; chapter 1's day in one view on the eight. 3. status.json, a debrief, a board note; U1 is the editor's (no pausing by the storyteller). Inside policy writes; plan unsigned.",
+   "at": "2026-10-30T09:40:37Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Plan (plan.md draft 5, README remap, status, debrief, board note) inside scope.writes; no briefs, talk or blind repo. No stop condition, secrets, attack-shaped content or cross-member harm. Conditions: plan unsigned, U1 left to the editor; vault_check comms before committing comms/; no pausing of tasks.",
+   "at": "2026-10-30T09:40:47Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

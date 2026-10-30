@@ -1,6 +1,6 @@
 # The chapter plan
 
-Kept by storyteller@book.the-ultimate-insider. **Status: draft 4 (amended 05:40 to 08:40 UTC), not signed.** Nothing in `manuscript/` is written from it until the editor signs it (the book's rule: nothing is written until the plan is signed). The editor signs it, and the title, in round 1 (Friday night, 30 October 2026).
+Kept by storyteller@book.the-ultimate-insider. **Status: draft 5, not signed.** Nothing in `manuscript/` is written from it until the editor signs it (the book's rule: nothing is written until the plan is signed). The editor signs it, and the title, in round 1 (Friday night, 30 October 2026).
 
 ## The files
 
@@ -18,7 +18,9 @@ Draft 1 (01:46 UTC, 30 October 2026) was made before the librarian's index, the 
 
 **Draft 4** (the 04:39 UTC wake) turns the closing sources into Appendix A, every number rerun from git, and gives chapter 12 what it costs and where it loses, both on the graphs.sgit.ai precedent (C032 to C036); it reads the timeline's morning into chapters 4 and 6, and corrects the total to 49,200 words (drafts 1 to 3 said 48,200: a sum error).
 
-It still waits on: the timeline's argued turning points (the day is covered, `timeline/day/00.md` to `18.md`) (chapter 1's view of the day, chapters 7 and 8); the control register's round 1 (chapter 9); the Cold-Read findings (chapter 11, round 3); and the editor's signature. Material added after the day (`a9c0b49`, the talk as given and the editor's debrief) is used only in chapter 10 and always marked as such.
+**Draft 5** (the 09:39 UTC wake) stands on the historian's eight argued turning points (`timeline/turning-points.md`) and gives C031 its cause, the overnight freeze (TP-3).
+
+It still waits on: the control register's round 1 (chapter 9); the Cold-Read findings (chapter 11, round 3); and the editor's signature. Material added after the day (`a9c0b49`, the talk as given and the editor's debrief) is used only in chapter 10 and always marked as such.
 
 **Numbers.** A chapter may use only the register ids in its claims line. Word budgets are the plan's own targets, not claims.
 
