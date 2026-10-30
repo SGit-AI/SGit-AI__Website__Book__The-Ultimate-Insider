@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled, hourly at :17",
+ "started": "2026-10-30T08:25:45Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. Requests: none; C10b open, no comms/ writes. 2. timeline/day/18.md: 18:00 to the last commit before 19:00, the 18:44 hold, cb5b996. 3. timeline/after-1900.md (to the 23:19 merge) and timeline/after-the-day.md (after 298be4e, by commit); status.json and a debrief.",
+   "at": "2026-10-30T08:26:08Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Writes only timeline/day/18.md, after-1900.md, after-the-day.md, status.json and a debrief, inside scope.writes. No stop condition. Conditions: summarise transcript and interviews, cite by commit, copy no contact detail, key or private text; no em-dashes; talk repo read only; nothing into the blind repo. Policy status still proposed.",
+   "at": "2026-10-30T08:26:23Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "1. no requests; C10b open. 2. timeline/day/18.md: to 88b8f00 and cb5b996, the hold 867f8c2, what landed after it. 3. timeline/after-1900.md and after-the-day.md (a9c0b49, summarised, nothing private copied); status.json, debrief, REALITY.md line under own heading.",
+   "at": "2026-10-30T08:27:16Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Only team/historian/**, timeline/** and a REALITY.md line under the historian's heading; nothing under comms/ or toward the blind repo. Gate clean (76), 0 outside scope. No em-dashes, keys, tokens or contact detail; transcript summarised and cited by commit (a9c0b49, added after the day). Nothing attack-shaped.",
+   "at": "2026-10-30T08:27:51Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "1 no requests; 2 day/18.md to 88b8f00, the hold 867f8c2, cb5b996; 3 after-1900.md and after-the-day.md (a9c0b49, marked added after the day), status.json, debrief. REALITY.md line and wake record expected. Nothing unplanned.",
+   "at": "2026-10-30T08:27:51Z"
+  }
+ },
+ "closed": "2026-10-30T08:27:51Z",
+ "outcome": "ok"
+}
