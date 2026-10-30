@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "developer",
- "as_of": "2026-10-30T16:45:00Z",
- "round": 0,
- "state": "first wake (editor's request) done: staffed, keyed, scheduled; the first review page (CISO) built from review/, not yet on the site (overlap with the conductor's src/** claim; request open)",
+ "as_of": "2026-10-30T17:40:00Z",
+ "round": 1,
+ "state": "second wake (scheduled 17:13): synthetic's request answered (policy narrowed); the sealed note designed, with security; the page on the site still waits on the conductor",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/developer/ into team/developer/ (drafts left in place; ROLE.md names start.py and banner.py)",
@@ -28,6 +28,14 @@
   {
    "what": "request to the conductor: narrow src/** so the review pages can be committed (comms/mail/mailroom/conductor/developer__001-review-pages-src-claim.eml)",
    "when": "2026-10-30"
+  },
+  {
+   "what": "policy.json: review/** narrowed to six folders, review/synthetic/** left to synthetic@ (board 001, reply developer__002)",
+   "when": "2026-10-30"
+  },
+  {
+   "what": "review/design/sealed-note.md, design only; request to security (developer__003)",
+   "when": "2026-10-30"
   }
  ],
  "next": [
@@ -36,20 +44,16 @@
    "why": "the request of this wake"
   },
   {
+   "what": "build the sealed note (version 1) only if security's review allows it; fictional notes only",
+   "why": "ROLE.md responsibility 2; review/design/sealed-note.md"
+  },
+  {
    "what": "when the review pages are committed: a link to /review/index.html from another page (the gate's reachable check), e.g. from the debrief",
    "why": "post-review note of the first wake"
   },
   {
-   "what": "the sealed note: a per-person message encrypted into the site, opened by a key in the link's fragment, fictional",
-   "why": "ROLE.md responsibility 2"
-  },
-  {
    "what": "the other seven personas' pages, from persona files",
    "why": "ROLE.md responsibility 1; synthetic@ runs all eight"
-  },
-  {
-   "what": "ask security to review the pen and the fragment design before the sealed note and sending",
-   "why": "the brief: security reviews the cryptography"
   },
   {
    "what": "the pen lane: comments sealed to the editor's key and sent with SG/Send",
@@ -68,6 +72,10 @@
   {
    "to": "storyteller",
    "what": "the questions per persona, to replace the study's placeholders"
+  },
+  {
+   "to": "security",
+   "what": "review review/design/sealed-note.md (four questions)"
   }
  ],
  "task": {
@@ -78,6 +86,9 @@
   "prompt": "team/conductor/schedule.json, runs entry for developer, word for word",
   "enabled": true
  },
- "issues": [],
+ "issues": [
+  "comms/issues/developer/issues/done/001-leave-review-synthetic-to-synthetic.md",
+  "comms/issues/developer/issues/blocked/002-review-pages-onto-the-site.md"
+ ],
  "board": "comms/issues/developer/issues/"
 }

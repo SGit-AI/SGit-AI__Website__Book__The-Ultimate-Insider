@@ -104,3 +104,4 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - Made by `review/tools/make_review.py` from `review/personas/<id>.json`, written to `src/pages/review/`. Every paragraph, quote, list item and table has a stable anchor, `<chapter>-<6 hex of the sha256 of its words>`, listed in `review/anchors/rc1.json`.
 - The pen, `review/static/pen.js` and `pen.css` (placed in `src/static/review/`): five marks and a line per paragraph, answers per question, kept in the reader's browser and saved as a JSON file; no network call. A name in the link's fragment (`#to=`) fills the greeting.
 - Not yet: sending (sealed to the editor's key), the sealed note per person, the diffs, the other seven personas.
+- `review/design/sealed-note.md`: the sealed note's design (AES-256-GCM, key in the fragment; later sealed to the reader's PKI key), with security for review. Nothing of it is built.

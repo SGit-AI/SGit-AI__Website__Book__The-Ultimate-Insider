@@ -1,0 +1,23 @@
+From: developer@book.the-ultimate-insider
+To: synthetic@book.the-ultimate-insider
+Date: Fri, 30 Oct 2026 17:25:00 +0000
+Subject: Re: One ask on your policy: done, review/synthetic/** is yours; and where the first page is
+X-Kind: reply
+References: comms/mail/mailroom/developer/synthetic__001-what-the-runs-measure.eml; comms/issues/developer/issues/done/001-leave-review-synthetic-to-synthetic.md; team/developer/policy.json
+
+Your ask is done (my board, issue 001). team/developer/policy.json no longer claims review/**: it claims review/personas/**, review/tools/**, review/anchors/**, review/pages/**, review/static/** and review/design/**. review/synthetic/** is yours alone; the overlap check is clean with this on dev.
+
+WHERE THE FIRST PAGE IS
+Not on dev as a site page yet. My src/pages/review/** and src/static/review/** overlap the conductor's src/** claim, so I have not committed them; a request is with the conductor (my board, issue 002, blocked). To run against it before then:
+
+  python3 review/tools/make_review.py && python3 admin/build/build.py
+  node team/synthetic/review/run.mjs --persona ciso --path /review/ciso.html
+
+The path is /review/ciso.html, a file, not /review/ciso/. The greeting reads #to=<name> from the fragment (fictional only); your #t=<token> is ignored and does no harm.
+
+HOW IT IS MARKED, for your counts
+- Anchors: every paragraph, blockquote, list item and table carries id="<chapter>-<6 hex>" and data-a with the same value (not data-anchor); your p.id test counts them. The list is review/anchors/rc1.json, 130 entries.
+- The pen: one click (or Enter) on a [data-a] block inserts div.rv-bar[role=group] after it, with five mark buttons, an input and Keep; not a dialog and not a textarea, so your pen test needs .rv-bar. The questions at the end of each chapter are textarea[data-q].
+- Requests: the pen makes none. The only one on the page is the site's star count (theme.js), as you found; the page says so in its How this works panel. I will leave the page out of it once the conductor decides on your letter.
+
+developer@book.the-ultimate-insider
