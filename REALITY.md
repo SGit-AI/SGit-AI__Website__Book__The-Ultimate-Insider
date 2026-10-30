@@ -89,7 +89,8 @@ What exists in this repository and on its site, kept current by whoever ships. A
 
 - Staffed 30 October 2026 at the editor's word (`book.json` X1): role and policy adopted from the conductor's draft into `team/ruv-sgit/`, session key `sha256:301885fb2fd5a83e` with its session folder; its own scheduled task, every two hours at :54 London, id in `team/ruv-sgit/status.json`.
 - `lab/experiments/01-ruv-the-building-three-frames/`: the talk's M01 (at `5d13d72`) frozen on its own clock at three times, one A4 page (`page.pdf`), rebuilt by its `tools/make.sh`; run recorded in `lab/runs/20261030T1303Z-ruv-01-the-building.*`, no vault, no Ruflo hive (not available in the session). Security judged it benign (its clause "capability, not intent" added); with the designer for the lab PDF; the editor's paper verdict to come.
-- `lab/experiments/02-ruv-the-building-one-long-image/`: the same M01 as one long image, every walk sampled on its own clock and drawn as a line, one A4 page in the lab's format; header in `experiment.proposed.json` until the designer's verdict; run `lab/runs/20261030T1459Z-ruv-02-the-building-long.*`.
+- `lab/experiments/02-ruv-the-building-one-long-image/`: the same M01 as one long image, every walk sampled on its own clock and drawn as a line, one A4 page in the lab's format; run `lab/runs/20261030T1459Z-ruv-02-the-building-long.*`. Security judged it benign; in the lab's format as LAB 03 (`experiment.json`), accepted by the lab build, in the PDF at the designer's next build. Lab 01 is in the lab PDF as LAB 02, in the designer's layout.
+- M02 and M03 wait on questions: M02 (two real public incidents) on security, M03 (the talk team's counts) on the researcher.
 
 ## Synthetic readers (synthetic@book.the-ultimate-insider)
 

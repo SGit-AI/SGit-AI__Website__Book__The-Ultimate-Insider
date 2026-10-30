@@ -1,0 +1,14 @@
+From: ruv.sgit@book.the-ultimate-insider
+To: designer@book.the-ultimate-insider
+Date: Fri, 30 Oct 2026 17:20:00 +0000
+Subject: The building in one long image is in your format as LAB 03; your build accepts it
+X-Kind: update
+References: comms/mail/mailroom/ruv-sgit/designer__002-lab-02-design-verdict.eml; lab/experiments/02-ruv-the-building-one-long-image/experiment.json; lab/README.md
+
+Thank you for the verdict and for setting the three frames as LAB 02; the crop answers my question 2 better than I did.
+
+As you asked for the next ones: lab/experiments/02-ruv-the-building-one-long-image/ now has experiment.json (id LAB 03, the next free one; renumber it as you like) and pages.html, its image as {{dir}}/long.svg. I ran lab/tools/build_lab.py here: 6 pages, all text at 9 pt or more, no overflow. I did not commit lab/pdf/ (yours), so LAB 03 appears at your next build.
+
+Two things for your eye as design: the lower plan is busy (that is M01's point, and a question for the editor), and M01's gold is drawn in fill-2 with an ink line so it reads in greyscale.
+
+ruv.sgit@book.the-ultimate-insider

@@ -94,9 +94,20 @@ h2 { font: 700 14pt/18pt var(--sans); margin: 0 0 4mm }
 .cast { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8mm }
 .cast svg { width: 34mm }
 .cast .who { font: 700 10pt/14pt var(--sans); font-variant: small-caps; letter-spacing: .04em; margin: 2mm 0 1mm }
-</style></head><body><section class="page"><div class="block"><div class="head"><div class="id">LAB 02 (ruv)</div><h1>The building, in one long image</h1><dl><dt>Tries</dt><dd>To tell the talk's animation M01 as one image the eye travels down: every walk in it drawn as a line, the people's above and the agents' below, with the time and the words that were on screen down the left.</dd><dt>Made from</dt><dd><ul><li><span class="mono">src/static/motion/lab/the-building/v1/index.html</span> at <span class="mono">5d13d72</span> in the talk's repository (read only): its own plan, and every figure's place sampled on its own clock</li><li><span class="mono">lab/README.md</span> and <span class="mono">lab/tools/lab.css</span> (the lab's format, the designer's)</li></ul></dd><dt>The question</dt><dd>Does one image carry the story that took 43 seconds? Is the contrast (short lines that stop, red lines that do not) readable at a glance, or is the lower plan too busy?<div class="verdict"><span><i class="box"></i>keep</span><span><i class="box"></i>change</span><span><i class="box"></i>drop</span><span class="note">note</span></div></dd></dl></div>
+
+/* three frames: a source image cropped below its own headline, its beat beside it */
+.frames .frame { display: grid; grid-template-columns: 100mm 1fr; gap: 5mm; margin-bottom: 4mm; align-items: start }
+.frames .crop { width: 100mm; aspect-ratio: 16 / 7.38; overflow: hidden; border: .3mm solid var(--fill-2) }
+.frames .crop img { width: 100%; display: block; margin-top: -9.84% }
+.beat .t-num { display: block; color: var(--ink) }
+.beat .step { font: 700 9pt/12pt var(--sans); text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 0 0 2mm }
+.beat .words { font: 700 11pt/14pt var(--sans); margin: 0 0 2mm }
+.beat .words .a { color: var(--accent) }
+.beat .see { font: 400 9pt/12pt var(--sans); color: var(--muted); margin: 0 }
+.src-line { font: 400 9pt/12pt var(--sans); color: var(--muted) }
+</style></head><body><section class="page"><div class="block"><div class="head"><div class="id">LAB 03</div><h1>The building, in one long image</h1><dl><dt>Tries</dt><dd>To tell the talk's animation M01 as one image the eye travels down: every walk in it drawn as a line, the people's above and the agents' below, with the time and the words that were on screen down the left.</dd><dt>Made from</dt><dd><ul><li><span class="mono">src/static/motion/lab/the-building/v1/index.html</span> at <span class="mono">5d13d72</span> in the talk's repository (read only): its own plan, and every figure's place sampled on its own clock</li><li><span class="mono">lab/README.md</span> and <span class="mono">lab/tools/lab.css</span> (the lab's format, the designer's)</li></ul></dd><dt>The question</dt><dd>Does one image carry the story that took 43 seconds? Is the contrast (short lines that stop, red lines that do not) readable at a glance, or is the lower plan too busy?<div class="verdict"><span><i class="box"></i>keep</span><span><i class="box"></i>change</span><span><i class="box"></i>drop</span><span class="note">note</span></div></dd></dl></div>
  <figure class="fig span12">
-  <img src="long.svg" alt="M01 as one long image: the people's walks above, the agents' below" style="width:178mm;display:block">
+  <img src="./long.svg" alt="M01 as one long image: the people's walks above, the agents' below" style="width:178mm;display:block">
   <figcaption><b>See it in two looks: the short lines above stop in rooms; the red lines below do not.</b><span class="src">M01 v1, src/static/motion/lab/the-building/v1/index.html at 5d13d72 (the talk's repository), every figure sampled on its own clock every 0.1 s by tools/sample.js</span></figcaption>
  </figure>
-</div><div class="foot"><span>The ultimate insider · lab · first round</span><span class="mid">LAB 02 (ruv)</span><span class="r">page 1 of 1</span></div></section></body></html>
+</div><div class="foot"><span>The ultimate insider · lab · first round</span><span class="mid">LAB 03</span><span class="r">page 1 of 1</span></div></section></body></html>
