@@ -1,15 +1,31 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-10-30T01:30:00Z",
+ "as_of": "2026-10-30T01:42:00Z",
  "round": 0,
- "state": "proposed: not staffed yet; the editor starts its session with the prompt in team/conductor/ONBOARDING.md",
- "done": [],
+ "state": "staffed: session_01Kw9UwBta1dcP9qBJUURLPZ; key published; scheduled task created at the editor's word; first task under way",
+ "done": [
+  {
+   "what": "session key made and published (sha256:4e0287f6640d61f0)",
+   "when": "2026-10-30T01:40:57Z"
+  },
+  {
+   "what": "scheduled task trig_0187JjB8uJUHxvgeCoAGXoKj created into this session, hourly at :32 London",
+   "when": "2026-10-30T01:41:21Z"
+  }
+ ],
  "next": [
   {
    "what": "The numbers in the briefs, checked and registered, by the end of round 1 (Friday night).",
    "why": "its first task, from the brief"
   }
  ],
- "asks": []
+ "asks": [],
+ "task": {
+  "id": "trig_0187JjB8uJUHxvgeCoAGXoKj",
+  "cron": "CRON_TZ=Europe/London 32 * * * *",
+  "session": "session_01Kw9UwBta1dcP9qBJUURLPZ",
+  "created": "2026-10-30T01:41:21Z",
+  "prompt": "team/conductor/schedule.json, runs entry for researcher, word for word"
+ }
 }
