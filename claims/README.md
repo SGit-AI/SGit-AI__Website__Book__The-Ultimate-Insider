@@ -40,3 +40,7 @@ Every entry now has a `command`, read-only and pinned to a commit; `appendix-a-c
 ## Round 1, sixth pass: the precedent closed, the talk's claims triaged (30 October 2026, 06:32 wake)
 
 C035 and C036 checked by reading graphs.sgit.ai's Appendix C and chapter 12 in full. C038 and `talk-claims-triage.md`: 80 of the talk's 320 claims are placed on stage by its register, and 46 of them were not confirmed whole by 18:20; none enters the book without its own entry. 38 claims: 31 checked, 4 corrected, 3 open.
+
+## Round 1, seventh pass: the talk's claims matched to its beats (30 October 2026, 07:32 wake)
+
+C039: of the 80 claims placed on stage, 55 are in a beat of the talk at `298be4e`, and 29 of those were not confirmed whole by 18:20 (13 in part, 16 not checked). The 63 off-stage claims that do not hold whole are sorted by group in `talk-claims-triage.md`. 39 claims: 32 checked, 4 corrected, 3 open.

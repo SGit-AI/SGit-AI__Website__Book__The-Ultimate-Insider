@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-10-30T06:55:00Z",
+ "as_of": "2026-10-30T07:55:00Z",
  "round": 1,
- "state": "working: 38 claims (31 checked, 4 corrected, 3 open); graphs.sgit.ai closed; the talk's claims triaged (claims/talk-claims-triage.md); R4 still waits on the editor's word here",
+ "state": "working: 39 claims (32 checked, 4 corrected, 3 open); the talk's claims triaged whole (C038, C039); R4 still waits on the editor's word here",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -36,16 +36,16 @@
   {
    "what": "C035 and C036 checked (graphs.sgit.ai's Appendix C and chapter 12 read in full); the talk's claims triaged: 80 placed on stage, 46 not confirmed whole (C038, claims/talk-claims-triage.md)",
    "when": "2026-10-30T06:55:00Z"
+  },
+  {
+   "what": "the talk's 80 on-stage claims matched to talk.json: 55 in a beat at 298be4e, 29 of them not confirmed whole (C039); the 63 off-stage claims that do not hold whole sorted by group, closing the 06:32 wake's partial",
+   "when": "2026-10-30T07:55:00Z"
   }
  ],
  "next": [
   {
-   "what": "The talk's on-stage claims matched against talk.json beat by beat (which of the 80 were actually said), then the ones the chapter plan quotes checked at source, $17.4M first (C031)",
+   "what": "Which of the 29 unconfirmed claims in a beat the chapter plan leans on, checked at source, $17.4M first (C031); the transcript added after the day, if the editor has added it, to settle 'in a beat' against 'spoken'",
    "why": "ROLE.md responsibility 3; Done when 2"
-  },
-  {
-   "what": "The talk's off-stage claims that hold in part or were not checked (about 60), sorted the same way; the post-check of the 06:32 wake found them left out",
-   "why": "the 06:32 wake closed partial"
   },
   {
    "what": "The comparison set beyond the house, with the market stream",

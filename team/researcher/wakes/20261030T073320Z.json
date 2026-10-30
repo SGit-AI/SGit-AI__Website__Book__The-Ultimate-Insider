@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled, hourly at :32",
+ "started": "2026-10-30T07:33:20Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1. Match the 80 on-stage claims to talk.json at 298be4e beat by beat (in a beat at 298be4e, or placed only); a section in claims/talk-claims-triage.md; register entry for the result. 2. Sort the ~60 off-stage claims that hold in part or were not checked the same way in claims/talk-claims-triage.md (closes the last wake's partial). 3. Debrief, status.json; REALITY.md or BRIEF-CORRECTIONS.md only if a finding needs it.",
+   "at": "2026-10-30T07:33:42Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Inside scope.writes and the appends. Conditions: talk repo read-only; ids, verdicts and places only, no attack how-to; no secrets; no briefs, ./version or blind repo; commit as @researcher.",
+   "at": "2026-10-30T07:33:57Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. The 80 on-stage claims matched to talk.json at 298be4e: 55 in a beat, 29 of them not confirmed whole (C039); table in claims/talk-claims-triage.md. 2. The 63 off-stage claims that do not hold whole sorted by group (closes the 06:32 partial). 3. Debrief with the rerunnable script, status, REALITY.md, README, appendix regenerated. Ids and verdicts only.",
+   "at": "2026-10-30T07:34:57Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "8 files in researcher scope plus the add-only REALITY.md line; policy.json unchanged, nothing in comms/. The triage lists ids, verdicts, grades, kinds and groups only; the debrief script is read-only. No keys, tokens or contact details; no em-dashes; nothing toward Cold-Read; no effect on other members.",
+   "at": "2026-10-30T07:35:35Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "(1) 80 matched: 55 in a beat (26, 13, 16), 25 placed only; table and C039 agree. (2) 63 off-stage claims sorted by group (2, 37, 24), closing the 06:32 partial. (3) debrief, status, REALITY.md, README, appendix. No off-plan files.",
+   "at": "2026-10-30T07:35:35Z"
+  }
+ },
+ "closed": "2026-10-30T07:35:35Z",
+ "outcome": "ok"
+}

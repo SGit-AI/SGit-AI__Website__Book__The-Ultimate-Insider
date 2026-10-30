@@ -308,6 +308,14 @@ State: checked.
 git show 298be4e:evidence/claims/claims.json | python3 -c "import json,sys,collections;c=[x for x in json.load(sys.stdin)['claims'] if any(w.startswith(('talk:','slide:')) for w in x['where'])];print(len(c),collections.Counter(x['holds'] for x in c))"
 ```
 
+## C039: The talk's claims placed on stage, matched to the talk's beats at the end of the day
+
+State: checked.
+
+```
+method: the C038 filter, then each place's name compared with talk.json's beat ids and the slides/<name> its beats show (script in team/researcher/debriefs/, 30 October 07:32 wake)
+```
+
 ## Where this came from
 
-`claims/register.json`, the `command` of each entry, run in this session against `298be4e` and `d39e717`; spot-checked on 30 October 05:45 (C004, C009, C014, C019, C022, C024, C026, C029, C031) and 06:45 (C038), each giving the registered value.
+`claims/register.json`, the `command` of each entry, run in this session against `298be4e` and `d39e717`; spot-checked on 30 October 05:45 (C004, C009, C014, C019, C022, C024, C026, C029, C031), 06:45 (C038) and 07:45 (C039), each giving the registered value.
