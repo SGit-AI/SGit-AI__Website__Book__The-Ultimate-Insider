@@ -91,10 +91,13 @@ def main():
             css = f.read()
         with tempfile.NamedTemporaryFile("w", suffix=".html", delete=False) as head:
             head.write(f"<style>\n{css}</style>\n")
-        try:
-            pandoc(["--to", "html5", "--standalone", "--toc", "--toc-depth=1", "--section-divs",
-                    "--include-in-header", head.name, "--variable", "document-css=false",
-                    "--output", html] + files)
+        args = ["--to", "html5", "--standalone", "--toc", "--toc-depth=1", "--section-divs",
+                "--include-in-header", head.name, "--variable", "document-css=false", "--output", html]
+        try:  # images inside the HTML: it is written to a temporary folder, where manuscript/'s relative paths break
+            try:
+                pandoc(args + ["--embed-resources"] + files)
+            except subprocess.CalledProcessError:  # pandoc before 2.19 has --self-contained instead
+                pandoc(args + ["--self-contained"] + files)
         finally:
             os.unlink(head.name)
         pdf = os.path.join(a.out, f"{NAME}.pdf")

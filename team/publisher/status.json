@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "publisher",
- "as_of": "2026-10-30T09:50:00Z",
- "round": 7,
- "state": "idle at 09:47, the fourth quiet hour running: nothing new; everything left waits on the editor (the Leanpub book, L1, L2, C10b, the KDP choices, EPUBCheck). The editor may pause trig_01D2wnhQDySKsG8ZL9XLmNsW until the Leanpub book exists, his choice; not a hold (WAKE.md's second-wake stop is not met: the wakes need nothing they lack, they close idle)",
+ "as_of": "2026-10-30T11:10:00Z",
+ "round": 8,
+ "state": "RC1 moved into manuscript/ on my branch (217 pages, 42 images, 58,580 words); not released to dev until the conductor copies the images in the site build (asked, with the patch); image build changes, L1, L2 and M1 in publishing/ released",
  "done": [
   {
    "what": "session key published: team/publisher/key.json, key.png, sessions/session_01Kw9UwDVeRbKJZUWiRoRrHK/",
@@ -48,31 +48,47 @@
   {
    "what": "build_book.py prints words per Book.txt file, the total and the PDF's page count",
    "when": "2026-10-30T05:55Z"
+  },
+  {
+   "what": "the conductor's image changes in build_book.py (--embed-resources, with a --self-contained fallback) and book.css (figures)",
+   "when": "2026-10-30T11:00Z"
+  },
+  {
+   "what": "RC1 into manuscript/ on the publisher's branch: sixteen files in Book.txt, 42 images; about-this-edition.md removed (READY: in place of it)",
+   "when": "2026-10-30T11:00Z"
+  },
+  {
+   "what": "LEANPUB.md: L1 ($0 minimum, $19.99 suggested), L2 (main), M1 (Markua 0.30); README.md the same",
+   "when": "2026-10-30T11:05Z"
+  },
+  {
+   "what": "letters 002 to 005 taken; a request (build.py) and a reply (reviews, voice, Markua plan) to the conductor; board issues 003 to 005",
+   "when": "2026-10-30T11:06Z"
   }
  ],
  "next": [
   {
-   "what": "once the editor has a Leanpub preview, compare it with our PDF; draft publishing/listing.md when the title is signed",
-   "why": "Leanpub on sale Monday 2 November"
+   "what": "release RC1 to dev once the conductor's build.py fix is on dev",
+   "why": "CI builds the RC1 PDF and EPUB for everyone"
   },
   {
-   "what": "the first chapters through the build as they land; re-add the comms paths only if the editor signs them",
-   "why": "the paperback proof by 9 November; C10"
+   "what": "review RC1 in my lane (print, EPUB, Markua, the editor's voice), letters with file and line",
+   "why": "conductor__002, __003"
   },
   {
-   "what": "validate the EPUB with W3C EPUBCheck (PyPI epubcheck 5.3.0, a wrapper of the W3C jar, in a scratchpad virtualenv) if the editor allows it; otherwise Kindle Previewer on the editor's machine before the KDP upload",
-   "why": "KDP recommends a validated EPUB; a rejected file costs another review"
+   "what": "the Markua pre-pandoc step in build_book.py",
+   "why": "M1"
   }
  ],
  "asks": [
   {
    "to": "editor",
-   "what": "create the Leanpub book and add leanpub as a collaborator with the Read role only (publishing/LEANPUB.md, steps 1 to 3); sign L1 (price) and L2 (branch); KDP: no KDP Select, and the ISBN choice (publishing/KDP.md); and: sign C10b (the publisher's three comms/ paths) or leave them out",
-   "where": "comms/issues/publisher/issues/blocked/002-leanpub-book-and-price.md"
+   "what": "create the Leanpub book and add leanpub with the Read role only (publishing/LEANPUB.md, steps 1 to 3); price as L1; KDP: no KDP Select, and the ISBN choice; EPUBCheck in this session or Kindle Previewer"
   },
   {
-   "to": "editor",
-   "what": "allow, in this session, installing PyPI epubcheck 5.3.0 into a scratchpad virtualenv to validate the book's own EPUB; or say no, and check it in Kindle Previewer before the KDP upload"
+   "to": "conductor",
+   "what": "copy manuscript/resources into the site build, and the old about-this-edition link on admin/versions.html",
+   "where": "comms/mail/mailroom/conductor/publisher__002-rc1-needs-build-py.eml"
   }
  ],
  "session": "session_01Kw9UwDVeRbKJZUWiRoRrHK",
@@ -83,5 +99,5 @@
   "created": "2026-10-30T01:42:07Z",
   "by": "this session, at the editor's word in this session"
  },
- "requests": "none new; C10b, L1, L2, P0 still open for the editor"
+ "requests": "taken: conductor__002 to 005 (review, voice, Markua, RC1); 005 done on my side, waiting on the conductor's build.py"
 }
