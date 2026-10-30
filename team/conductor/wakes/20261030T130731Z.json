@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Within scope. Conditions: WAKE.md gets only the signed Handing over section, saying the editor agreed; the brief PDF and /updates/ carry no key, token, contact detail or email, and do not reuse the companion's leak passage; vault_check before commit; studies public figures and firms only, no contact details, unverified marked; no other member's files.",
    "at": "2026-10-30T13:08:31Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "1. H1 decided A; WAKE.md Handing over section only; six new sessions in the register; notices to all eight members (vault_check clean). 2. editor_brief.py; the first brief (4 pages); /updates/ (menu, home), each brief a site page with its PDF; ROLE.md line; editor-briefs/README.md. 3. Publishers study README (on the site); reviewers study released without a README (off the site: names people not yet asked). Gate clean. The editor's mid-wake asks (talk-site study, exit interviews) noted for the next wake.",
+   "at": "2026-10-30T13:12:48Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "Gate clean (114 pages); 0 outside scope; vault_check clean; WAKE.md adds only the signed Handing over section; brief and studies hold no private key, token, contact detail or email, and do not reuse the companion's leak passage; no em-dashes; unreachable sources marked unverified; no other member's files.",
+   "at": "2026-10-30T13:13:49Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "partial",
+   "comment": "1 done (H1, WAKE.md, register, 8 notices). 2 done (tool, first brief, /updates/, ROLE.md, README). 3 partial: publishers README in; the reviewers study released without one, deliberately, as disclosed (it names people not yet asked).",
+   "at": "2026-10-30T13:13:49Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T13:13:49Z",
+ "outcome": "ok"
 }
