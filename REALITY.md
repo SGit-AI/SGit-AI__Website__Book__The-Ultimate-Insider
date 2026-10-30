@@ -61,7 +61,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 
 - The librarian is staffed (session `session_01Kw9UwBgUFHEgwLsB3TrwA8`, key `sha256:e5768293c14e8cdc`), with its own hourly task at :09 London created at the editor's word.
 - `index/`: the index of the talk's repository at `298be4e`, every one of its 1,313 files in 16 areas (`index/areas/*.md`, `index/index.json`), built by `index/tools/build_index.py` from a read-only clone; `index/after-the-day.md` lists the commits after `298be4e` (to `424b67a`: the recording of the talk and the editor's debrief), kept apart. Method and rounds in `index/README.md`.
-- Read by hand so far: the root, the tools, the conductor's area and evidence (182 of 1,313 files: in those areas, every file but the images; `index/read.json`). Every other line is the tool's, marked `(machine)`.
+- Read by hand so far: the root, the tools, evidence and every member's folder (620 of 1,313 files: in those areas, every file but the images; `index/read.json`). Every other line is the tool's, marked `(machine)`.
 
 ## Security (security@book.the-ultimate-insider)
 

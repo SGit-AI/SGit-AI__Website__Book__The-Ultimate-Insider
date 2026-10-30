@@ -15,7 +15,7 @@ after-the-day.md, kept apart.
 import argparse, collections, datetime, json, os, re, subprocess, sys
 
 PIN_DEFAULT = "298be4e"
-NOTE_KEYS = ("about", "title", "what", "summary", "description", "job", "state", "note", "kind")
+NOTE_KEYS = ("about", "title", "purpose", "what", "summary", "description", "job", "state", "note", "kind")
 TEXT_EXT = {".md", ".txt", ".json", ".py", ".mjs", ".js", ".sh", ".html", ".yml", ".yaml", ".css", ".eml", ".csv", ".toml", ""}
 IMG_FOLDERS = {  # the studio's capture folders, by prefix (read by the librarian)
     "wnews": " (screenshots of the editor's newsroom sites)", "wos": " (screenshots: the open source and investor pages)",
@@ -119,6 +119,12 @@ def note_of(clone, pin, p, kind):
         if not m:
             m = re.search(r'"title"\s*:\s*"([^"]+)"', text)
         return clean(re.sub(r"<[^>]+>", "", m.group(1))) if m else ""
+    hdr = re.match(r"From: *(\S+)\n(?:.*\n){0,8}?", text)   # a letter: its headers
+    if hdr or ext == ".eml":
+        h = dict(re.findall(r"^(From|To|Subject|X-Kind): *(.+)$", text.split("\n\n", 1)[0], re.M))
+        if h.get("Subject"):
+            who = lambda a: a.split("@")[0]
+            return clean(f"{h.get('X-Kind', 'letter')} {who(h.get('From', '?'))} to {who(h.get('To', '?'))}: {h['Subject']}")
     fm = re.match(r"---\n(.*?)\n---\n", text, re.S)   # front matter: its title, if any
     if fm:
         t = re.search(r"^title:\s*(.+)$", fm.group(1), re.M)

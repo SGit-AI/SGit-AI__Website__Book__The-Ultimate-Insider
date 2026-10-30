@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "librarian",
- "as_of": "2026-10-30T03:30:00Z",
+ "as_of": "2026-10-30T04:25:00Z",
  "round": 0,
- "state": "round 1 under way: root, tools, conductor and evidence read by hand (182 of 1,313 files checked); the comms/ paths request is blocked on the editor's word",
+ "state": "round 1 under way: every team folder, evidence, root and tools read by hand (620 of 1,313 files checked; the rest are images and three areas); the comms/ paths request still waits on the editor",
  "done": [
   {
    "what": "Session key made and published (team/librarian/key.json, key.png, sessions/session_01Kw9UwBgUFHEgwLsB3TrwA8/)",
@@ -28,16 +28,20 @@
   {
    "what": "index round 1: evidence/ read by hand (38 files, the 80 studio captures labelled by folder)",
    "when": "2026-10-30"
+  },
+  {
+   "what": "index round 1: the nine other member folders read by hand (all but images); the tool reads letters' headers and runs' purpose",
+   "when": "2026-10-30"
   }
  ],
  "next": [
   {
-   "what": "Read the other members' areas by hand (researcher, storyteller, deck, dev, designer, ruv-sgit, studio, motion, security), then articles, the talk and the site",
-   "why": "round 1: every area by hand by Friday night"
+   "what": "Read articles, the talk (src/static/talk) and the site (src/) by hand into index/read.json",
+   "why": "the last three areas of round 1"
   },
   {
-   "what": "Rerun build_index.py against the talk's latest commit each wake",
-   "why": "decision S7; the talk is still at 424b67a"
+   "what": "Then the index's other half: Done when items 2 and 3 (after-the-day material as it arrives; index entries per chapter once the plan is signed)",
+   "why": "ROLE.md, Done when"
   }
  ],
  "asks": [
