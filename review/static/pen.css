@@ -35,6 +35,8 @@
 .rv-jump{position:fixed;right:16px;bottom:16px;display:flex;gap:6px;z-index:5}
 .rv-jump a{font-size:var(--t-s);background:var(--panel);border:1px solid var(--line2);border-radius:999px;padding:6px 12px;box-shadow:var(--shadow);color:var(--text);text-decoration:none}
 .rv-jump a:hover{border-color:var(--accent)}
+.rv-pen-open .rv-jump{display:none}
+.rv-bar{scroll-margin-bottom:16px}
 .rv-send{border-top:1px solid var(--line);margin-top:40px;padding-top:24px}
 @media (max-width:900px){
   .rv-grid{grid-template-columns:1fr;gap:20px}

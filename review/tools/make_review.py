@@ -95,8 +95,10 @@ def page(p):
         parts.append(f'<article class="rv-ch" id="c{ch}" data-ch="{ch}"><h2>{esc}</h2>\n{body}\n{qhtml}</article>')
     gets = ''.join(f'<li>{html.escape(g)}</li>' for g in p['gets'])
     marks = ''.join(f'<li><b>{m}</b></li>' for m in MARKS)
+    n = ['no', 'one', 'two', 'three', 'four', 'five'][len(p['chapters'])] if len(p['chapters']) <= 5 else str(len(p['chapters']))
+    count = f'{n} chapter' + ('' if len(p['chapters']) == 1 else 's')
     meta = {'title': f'Review: {p["title"].lower()}',
-            'description': f'A first review page of {e["name"]} for one kind of reader, {p["reader"]}: three chapters with a pen on every paragraph. '
+            'description': f'A first review page of {e["name"]} for one kind of reader, {p["reader"]}: {count} with a pen on every paragraph. '
                            'A prototype with fictional data; nobody has been sent it.'}
     head = f'''<!--meta {json.dumps(meta)} -->
 <link rel="stylesheet" href="{{{{root}}}}review/pen.css">
@@ -106,11 +108,11 @@ def page(p):
 <div class="rv-main">
 <section class="rv-intro" id="intro">
 <p class="kicker">{html.escape(e['name'])} · a review copy {html.escape(p['title'].lower())}</p>
-<h1>Dear <span data-to>reader</span>, would you read three chapters?</h1>
+<h1>Dear <span data-to>reader</span>, would you read {count}?</h1>
 <p class="lead">From the editor of <em>The ultimate insider</em>, a book about one day in which one person and a team of AI agents built a talk, with the record to prove it.</p>
 <dl class="rv-facts">
 <dt>Why you</dt><dd>{html.escape(p['why_you'])}</dd>
-<dt>What we would like</dt><dd>Three chapters, about {total} minutes, by {html.escape(p['ask']['by'])} <span class="c-dim">({html.escape(p['ask']['by_note'])})</span>, and your answers to a few questions at the end of each.</dd>
+<dt>What we would like</dt><dd>{count[0].upper() + count[1:]}, about {total} minutes, by {html.escape(p['ask']['by'])} <span class="c-dim">({html.escape(p['ask']['by_note'])})</span>, and your answers to a few questions at the end of each.</dd>
 <dt>What you get back</dt><dd><ul>{gets}</ul></dd>
 </dl>
 <ol class="rv-toc">{''.join(toc)}</ol>

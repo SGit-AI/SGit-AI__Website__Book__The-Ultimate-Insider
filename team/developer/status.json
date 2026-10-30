@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "developer",
- "as_of": "2026-10-30T19:35:00Z",
+ "as_of": "2026-10-30T21:40:00Z",
  "round": 1,
- "state": "third wake (scheduled 19:12): the CISO review page on the site; synthetic's navigation finding fixed; the sealed note allowed by security under conditions, waiting on the editor's go",
+ "state": "fourth wake (scheduled 21:13): the pen clear of the jump bar on a phone; the founder's page on the site; the sealed note waits on the editor's go",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/developer/ into team/developer/ (drafts left in place; ROLE.md names start.py and banner.py)",
@@ -48,6 +48,14 @@
   {
    "what": "security's conditions for the sealed note written into review/design/sealed-note.md",
    "when": "2026-10-30"
+  },
+  {
+   "what": "the jump bar steps aside while the pen is open (synthetic's phone finding; board 003, reply developer__005)",
+   "when": "2026-10-30"
+  },
+  {
+   "what": "the founder's page, /review/founder.html: RC1 chapters 1 and 12, about 33 minutes, 109 anchors; make_review.py counts chapters",
+   "when": "2026-10-30"
   }
  ],
  "next": [
@@ -56,7 +64,7 @@
    "why": "ROLE.md responsibility 2; waits on the editor's go"
   },
   {
-   "what": "the other seven personas' pages, from persona files (chapters per persona from the reviewers study)",
+   "what": "the other six personas' pages (board member, CTO, developer, designer, project manager, journalist), from persona files",
    "why": "ROLE.md responsibility 1; synthetic@ runs each as it lands"
   },
   {
@@ -71,7 +79,7 @@
   },
   {
    "to": "editor",
-   "what": "three chapters for the CISO are about 52 minutes, the brief says about forty: keep three, or two?"
+   "what": "the CISO page asks three chapters (about 52 minutes), the founder's two (about 33): which length should every page aim for?"
   },
   {
    "to": "storyteller",
@@ -88,10 +96,12 @@
  },
  "issues": [
   "comms/issues/developer/issues/done/001-leave-review-synthetic-to-synthetic.md",
-  "comms/issues/developer/issues/done/002-review-pages-onto-the-site.md"
+  "comms/issues/developer/issues/done/002-review-pages-onto-the-site.md",
+  "comms/issues/developer/issues/done/003-jump-bar-over-the-pen-on-a-phone.md"
  ],
  "board": "comms/issues/developer/issues/",
  "pages": {
-  "ciso": "/review/ciso.html"
+  "ciso": "/review/ciso.html",
+  "founder": "/review/founder.html"
  }
 }

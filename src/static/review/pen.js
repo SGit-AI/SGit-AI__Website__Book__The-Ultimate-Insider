@@ -44,7 +44,7 @@
   }
 
   var bar = null;
-  function close() { if (bar) { bar.remove(); bar = null; } }
+  function close() { if (bar) { bar.remove(); bar = null; } document.body.classList.remove('rv-pen-open'); }
   function open(el) {
     close();
     var id = el.dataset.a, cur = state.marks[id] || {};
@@ -83,7 +83,9 @@
     bar.appendChild(x);
     bar.addEventListener('keydown', function (e) { if (e.key === 'Escape') { close(); el.focus(); } if (e.key === 'Enter' && e.target === input) ok.click(); });
     el.insertAdjacentElement('afterend', bar);
-    input.focus();
+    document.body.classList.add('rv-pen-open');                    // the jump bar steps aside while the pen is open (synthetic@'s phone check)
+    input.focus({ preventScroll: true });
+    bar.scrollIntoView({ block: 'nearest' });
   }
 
   function tally() {

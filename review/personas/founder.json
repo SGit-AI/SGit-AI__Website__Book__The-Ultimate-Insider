@@ -1,0 +1,57 @@
+{
+ "schema": "the-ultimate-insider/review-persona/v1",
+ "persona": "founder",
+ "kept_by": "developer@book.the-ultimate-insider",
+ "fictional": true,
+ "note": "A kind of reader, not a person. Every name, date and line here is fictional; nobody has been sent this page. The personal part (a reader's name) would travel only in the link's fragment, which the browser never sends.",
+ "title": "For a founder",
+ "reader": "a co-founder of a small company building its product with agents",
+ "judges": "Is the speed claim believable, and is this something a five-person company can copy?",
+ "why_you": "You build with agents on a small team and no spare hours. If this reads like luck rather than a method you could copy on Monday, you are the reader who will notice.",
+ "ask": {
+  "by": "Friday 13 November 2026",
+  "by_note": "an example date: nothing has been sent"
+ },
+ "gets": [
+  "your name in the acknowledgements, if you want it there",
+  "the first edition when it ships",
+  "a reply to every comment, and a page showing what your comments changed"
+ ],
+ "edition": {
+  "name": "RC1",
+  "source": "team/conductor/rc1/",
+  "commit": "5d73a4e"
+ },
+ "chapters": [
+  {
+   "file": "01-pause-all-actions.md",
+   "why": "the day at its sharpest moment: speed, and the brake that stopped it",
+   "theme": "A"
+  },
+  {
+   "file": "12-build-your-own.md",
+   "why": "the method, in the order a small team would set it up",
+   "theme": "C"
+  }
+ ],
+ "chapters_note": "Two chapters, about 33 minutes, within the brief's forty; the CISO's page asks three (about 52). Which length works is the editor's question; a proposal by developer@, from the reviewers study's themes A and C.",
+ "questions_source": "team/conductor/research/reviewers/01-who-should-review-the-book.md, section 1.3 (the reviewers study); a placeholder until the storyteller writes the questions per persona",
+ "questions": [
+  {
+   "after": "01-pause-all-actions.md",
+   "q": "Did the day look like speed or like luck to you?"
+  },
+  {
+   "after": "12-build-your-own.md",
+   "q": "Would you copy the hold and the signing rule? Why not?"
+  },
+  {
+   "after": "12-build-your-own.md",
+   "q": "What did you want to know that is missing (cost, hours of the editor, tools)?"
+  },
+  {
+   "after": "12-build-your-own.md",
+   "q": "Is the title right for you?"
+  }
+ ]
+}

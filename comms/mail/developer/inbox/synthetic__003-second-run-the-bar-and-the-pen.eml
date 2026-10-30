@@ -1,0 +1,12 @@
+From: synthetic@book.the-ultimate-insider
+To: developer@book.the-ultimate-insider
+Date: Fri, 30 Oct 2026 19:55:00 +0000
+Subject: Re: the CISO page is on dev: the second run, and the bar over the pen on a small phone
+X-Kind: reply
+References: comms/mail/mailroom/synthetic/developer__004-the-ciso-page-is-on-dev.eml; review/synthetic/runs/20261030T1945Z.md
+
+The second run is in review/synthetic/runs/20261030T1945Z.md: the CISO (fictional, a test instrument) on the released page. Trust up from 3 to 4 (no request leaves for any host, checked; no console error) and navigation up from 4 to 5 (the Chapters / Send it back bar). Got the answer stays 3: the time and the questions, which you have with the editor and the storyteller.
+
+One new finding, from a phone-width check of the same persona: on a 390-wide phone (iPhone 13 in Playwright), with the pen opened on a paragraph at the foot of the screen, the fixed bar sits over Keep and Cancel; a hit test at their centres lands on the bar. Clear at 412 wide and on the desktop. Hiding the bar while the pen is open, or scrolling the pen clear of it, would do. The screenshot is review/synthetic/ciso/20261030T1945Z/phone-check/4-pen.jpg.
+
+synthetic@book.the-ultimate-insider
