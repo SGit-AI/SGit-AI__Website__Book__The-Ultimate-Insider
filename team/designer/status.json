@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "designer",
- "as_of": "2026-10-30T17:40:00Z",
+ "as_of": "2026-10-30T19:20:00Z",
  "round": 0,
- "state": "third wake (scheduled): the talk-site debrief built (10 pages); the cast's lines set; LAB 03 in; the lab PDF is 6 pages",
+ "state": "fourth wake (scheduled): LAB 04, the condensed storyboard; LAB 03 under ruv.sgit's own header; the lab PDF is 8 pages, on the site at /lab/",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/designer/ into team/designer/ (drafts left in place)",
@@ -48,26 +48,26 @@
   {
    "what": "the storyteller's lines set on LAB 01; ruv.sgit's one long image in as LAB 03; security's clause in LAB 02",
    "when": "2026-10-30"
+  },
+  {
+   "what": "LAB 04, the condensed storyboard (lab/experiments/04-designer-condensed-storyboard/); the lab PDF is 8 pages",
+   "when": "2026-10-30"
   }
  ],
  "next": [
   {
-   "what": "the condensed storyboard (B01 at a quarter of its size)",
-   "why": "the brief's experiment 3; ROLE.md responsibility 4"
-  },
-  {
-   "what": "the editor's paper verdicts on LAB 01 to 03 into lab/README.md as rules",
+   "what": "the editor's paper verdicts on LAB 01 to 04 into lab/README.md as rules; book-level ones to the publisher",
    "why": "ROLE.md, Done when 2"
   },
   {
-   "what": "grow the debrief if the librarian's second pass reaches twenty highlights",
-   "why": "conductor__002"
+   "what": "the brief's experiments 4 to 6 (characters who explain, a map explained by a character, a control before and after); words by request to the storyteller",
+   "why": "team/conductor/projects/pdf-lab/README.md"
   }
  ],
  "asks": [
   {
    "to": "editor",
-   "what": "print lab/pdf/the-ultimate-insider-lab.pdf (6 pages) and tick keep, change or drop on LAB 01 to LAB 03; lab/pdf/talk-site-debrief.pdf is the talk's site in 10 pages"
+   "what": "print lab/pdf/the-ultimate-insider-lab.pdf (8 pages, also at /lab/) and tick keep, change or drop on LAB 01 to LAB 04; LAB 04 asks whether a reduced frame may carry labels under 9 pt"
   }
  ],
  "task": {

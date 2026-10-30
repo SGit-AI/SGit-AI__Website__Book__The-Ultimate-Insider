@@ -105,3 +105,16 @@ h2 { font: 700 14pt/18pt var(--sans); margin: 0 0 4mm }
 .beat .words .a { color: var(--accent) }
 .beat .see { font: 400 9pt/12pt var(--sans); color: var(--muted); margin: 0 }
 .src-line { font: 400 9pt/12pt var(--sans); color: var(--muted) }
+
+/* the condensed storyboard: a 4 x 2 strip, and one frame at full size */
+.sb { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4mm 4mm }
+.sbc img { width: 100%; display: block; border: .3mm solid var(--fill-2) }
+.sbh { font: 400 9pt/12pt var(--sans); margin: 1mm 0 0 }
+.sbh b { color: var(--accent); margin-right: 1mm }
+.sbt { font-size: 9pt; line-height: 12pt; color: var(--muted); margin: 0 }
+.sbq { font: italic 9pt/12pt var(--sans); margin: .5mm 0 0 }
+.sbcost { font: 400 9.5pt/13pt var(--sans); background: var(--fill); padding: 2mm 3mm; margin: 4mm 0 0 }
+.sbfull { display: grid; grid-template-columns: 96mm 1fr; gap: 5mm; align-items: start }
+.sbfull img { width: 96mm; display: block; border: .3mm solid var(--fill-2) }
+.sbm { font: 400 9pt/12pt var(--sans); margin: 1.5mm 0 0 }
+.sbm.muted { color: var(--muted) }

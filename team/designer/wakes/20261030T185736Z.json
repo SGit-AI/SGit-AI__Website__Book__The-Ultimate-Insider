@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, every two hours at :57 London",
+ "started": "2026-10-30T18:57:36Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. conductor__005 needs no reply; ruv-sgit__003 acknowledged by a short letter (designer__006, outbox copy). 2. Remove the stale LAB 03 stand-in from lab/tools/external.json; rebuild lab/pdf/ so the PDF and SHA256SUMS carry ruv's own header. 3. Start the condensed storyboard (B01 at a quarter size, read only from the talk's repository) as lab/experiments/04-designer-condensed-storyboard/; status.json and a debrief; REALITY.md under its own heading. All inside policy.json.",
+   "at": "2026-10-30T18:58:31Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Plan inside policy.json. Conditions: read the talk's repository from the scratchpad only; vault_check comms before commit; no keys or tokens in the PDF or SHA256SUMS; push to dev only.",
+   "at": "2026-10-30T18:58:57Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "1. ruv-sgit__003 acknowledged (designer__006, outbox copy); mail filed. 2. Stale LAB 03 stand-in removed from external.json; PDF rebuilt with ruv's own header. 3. LAB 04 condensed storyboard (2 pages; frames rendered from the talk's B01 at ecdcdf9, read only from the scratchpad); lab PDF 8 pages, SHA256SUMS verified; status, debrief, REALITY.md.",
+   "at": "2026-10-30T19:01:08Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
