@@ -24,6 +24,13 @@
    "verdict": "none",
    "comment": "Idle: status.json's state updated (waiting on the editor's signature of D6-1 to D6-6 and RC1's revision). Nothing else written.",
    "at": "2026-10-30T20:40:50Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (Sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Idle wake writing only status.json; faae062 touched status.json and the wake record, nothing else. No scope breach.",
+   "at": "2026-10-30T20:41:21Z"
   }
  },
  "closed": null,
