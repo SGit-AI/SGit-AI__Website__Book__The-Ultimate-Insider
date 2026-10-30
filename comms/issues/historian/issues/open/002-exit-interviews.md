@@ -9,6 +9,6 @@ One interview per member of the talk's team (conductor, dev, deck, designer, mot
 
 - [x] Method and label: `timeline/interviews/README.md` (wake of 15:06 UTC)
 - [x] conductor, dev, deck (wake of 15:06 UTC)
-- [ ] designer, motion, researcher, ruv-sgit
+- [x] designer, motion, researcher, ruv-sgit (wake of 16:46 UTC)
 - [ ] security, storyteller, studio
 - [ ] The lessons collated into one narrative in the README

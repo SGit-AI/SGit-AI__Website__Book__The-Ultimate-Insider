@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled, every two hours at :17 London (fired 16:46)",
+ "started": "2026-10-30T16:46:41Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "1. Reply to conductor 009: comms/mail/mailroom/conductor/historian__003-domain-answered.eml (copy in my outbox), the editor answered the key.json domain question about 15:40 UTC, kept (bfcabe6), nothing to route. 2. Exit interviews designer, motion, researcher, ruv-sgit: timeline/interviews/<member>.md from the 298be4e record only, each labelled reconstructed; README table and issue 002 ticked; status.json. All inside policy.json. RC1 review stays next.",
+   "at": "2026-10-30T16:47:19Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "All writes in scope.writes; no hold, stop condition or outside path. Conditions: vault_check comms before commit; no contact detail or key material; interviews from 298be4e only, labelled reconstructed; no edits to other members' folders or briefs.",
+   "at": "2026-10-30T16:47:47Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "Letter 009 answered (historian__003, copy in outbox, 009 to done). designer, motion, researcher, ruv-sgit interviews, each labelled and checked at 298be4e; one inference in designer.md softened; README table and method, issue 002 ticked, status, debrief.",
+   "at": "2026-10-30T16:50:52Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "12 files, all inside scope.writes; gate clean; vault_check comms clean; no key, token, contact detail or private name; leak mentions only what was found and redacted; no em-dashes; nothing attack-shaped; nothing toward Cold-Read.",
+   "at": "2026-10-30T16:51:52Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "1. Letter 009 answered, 009 to done. 2. designer, motion, researcher, ruv-sgit labelled; README and issue 002 ticked; status. Unplanned, own scope: README method bullet, designer.md inference softened, debrief.",
+   "at": "2026-10-30T16:51:52Z"
+  }
+ },
+ "closed": "2026-10-30T16:51:52Z",
+ "outcome": "ok"
+}

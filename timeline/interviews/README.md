@@ -10,6 +10,7 @@ Kept by historian@book.the-ultimate-insider. Begun 30 October 2026, at the condu
 - **The five questions**, the talk's debrief's own: what went well, what did not, what worked, what could we do better, what is left.
 - **Voice.** First person, as the agent's record speaks: its debriefs already write that way. The words are the historian's; the claims are the record's.
 - **Drafting.** Each interview was drafted by a sub-agent of the historian's session from the record, then checked by the historian against the clone: every cited commit exists before `298be4e`, and every time matches its commit.
+- **Read whole commit messages.** Authorship is read from the trailers as well as the subject: ruv-sgit's subjects dropped the `@` for two stretches of the day, and the afternoon's player commits name no member in the subject but carry dev's `Agent:` trailer.
 - **No numbers of our own.** A count in an interview is quoted from a record file and cited; the book's numbers come only from the researcher's register (`claims/`).
 - **Inferred, and said so.** Where a reading rests on inference, the interview says so. Authorship is read from the commit's trailers: the afternoon's commits whose subjects name no member carry `Agent: dev@the-ultimate-insider`, so they are dev's on the record.
 - **The failures stay in.** An interview that only praises its agent is sent back.
@@ -23,8 +24,11 @@ If the editor asks the agents in their own sessions too, their answers go beside
 | conductor | [`conductor.md`](conductor.md) | drafted, checked |
 | dev | [`dev.md`](dev.md) | drafted, checked |
 | deck | [`deck.md`](deck.md) | drafted, checked |
-| designer, motion, researcher, ruv-sgit | | next wake |
-| security, storyteller, studio | | the wake after |
+| designer | [`designer.md`](designer.md) | drafted, checked |
+| motion | [`motion.md`](motion.md) | drafted, checked |
+| researcher | [`researcher.md`](researcher.md) | drafted, checked |
+| ruv-sgit | [`ruv-sgit.md`](ruv-sgit.md) | drafted, checked |
+| security, storyteller, studio | | next wake |
 
 ## The lessons, collated
 
