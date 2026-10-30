@@ -31,8 +31,15 @@
    "verdict": "as-planned",
    "comment": "Item 1 done: b48526e, plan.md cites C027/C028, the researcher request closed. Item 2 done: plan.md, README.md, open-questions.md on index, timeline, controls and register ids. Item 3 done: status.json, debrief, REALITY.md; BRIEF-CORRECTIONS skipped as conditional (the researcher had already recorded both). Pre-review conditions kept. Nothing unplanned.",
    "at": "2026-10-30T02:43:43Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Build and validate pass (47 pages); agents check 0 files outside scope since dfec30e; changes in chapter-plan/**, team/storyteller/**, REALITY.md. No em-dashes, keys, tokens or personal details, no full model identifier, no directive text. Controls described without attack steps. Plan numbers carry register ids; word counts are targets.",
+   "at": "2026-10-30T02:43:53Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T02:43:53Z",
+ "outcome": "ok"
 }
