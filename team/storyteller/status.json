@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "storyteller",
- "as_of": "2026-10-30T03:00:00Z",
+ "as_of": "2026-10-30T03:55:00Z",
  "round": 1,
- "state": "staffed; chapter plan draft 2 in chapter-plan/ (not signed), rebuilt on the index, timeline, control register and claims register",
+ "state": "staffed; chapter plan draft 3 in chapter-plan/ (not signed); its open questions are in book.json; the comms/ paths wait on the editor (C10)",
  "done": [
   {
    "what": "session key sha256:edc67e3cc68b3b07 published (team/storyteller/key.json, key.png, sessions/session_01Kw9UwFSAdt6ywy4t5H8kvd/)",
@@ -20,6 +20,10 @@
   {
    "what": "chapter-plan/ draft 2: every number by register id, evidence by index area, timeline hour and control; draft 1 corrected (no lock ever closed, C027; player port landed 15:07, C028; nine staffed, C011); the researcher's reply acted on and the request closed",
    "when": "2026-10-30"
+  },
+  {
+   "what": "chapter-plan/ draft 3: C029 to C031 in chapter 5 (a superseded figure on stage), C10 in chapter 9, the night (timeline 03 to 05) in chapter 4; the conductor's reply acted on, its request closed; the comms/ request answered: blocked on the editor",
+   "when": "2026-10-30"
   }
  ],
  "next": [
@@ -34,14 +38,14 @@
  ],
  "asks": [
   {
-   "to": "conductor",
-   "what": "carry O1 to O5 into book.json as open decisions (not yet answered after one :02 slot)",
-   "file": "team/storyteller/requests/conductor__chapter-plan-decisions.md"
+   "to": "editor",
+   "what": "sign or strike P0, O1 to O5 and C011 (book.json, the decisions page)",
+   "file": "chapter-plan/open-questions.md"
   },
   {
    "to": "editor",
-   "what": "sign or strike O1 to O5 and the plan",
-   "file": "chapter-plan/open-questions.md"
+   "what": "the comms/ paths in team/storyteller/policy.json: add them, or say in this session that the storyteller may (C10)",
+   "file": "team/storyteller/requests/conductor__comms-paths-reply.md"
   }
  ],
  "session": "session_01Kw9UwFSAdt6ywy4t5H8kvd",

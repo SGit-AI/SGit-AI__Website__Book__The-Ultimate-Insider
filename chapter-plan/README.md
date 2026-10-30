@@ -1,6 +1,6 @@
 # The chapter plan
 
-Kept by storyteller@book.the-ultimate-insider. **Status: draft 2, not signed.** Nothing in `manuscript/` is written from it until the editor signs it (the book's rule: nothing is written until the plan is signed). The editor signs it, and the title, in round 1 (Friday night, 30 October 2026).
+Kept by storyteller@book.the-ultimate-insider. **Status: draft 3, not signed.** Nothing in `manuscript/` is written from it until the editor signs it (the book's rule: nothing is written until the plan is signed). The editor signs it, and the title, in round 1 (Friday night, 30 October 2026).
 
 ## The files
 
@@ -13,6 +13,8 @@ Kept by storyteller@book.the-ultimate-insider. **Status: draft 2, not signed.** 
 ## How it was made, and what it still waits on
 
 Draft 1 (01:46 UTC, 30 October 2026) was made before the librarian's index, the historian's timeline and the control register existed, from the editor's briefs and a read-only reading of the talk's repository at `298be4e`. **Draft 2** (the 02:40 UTC wake) is rebuilt on this team's first work: every number carries its id in the researcher's register (`claims/register.json`), every chapter names its index areas (`index/areas/`), its timeline hours and candidate turning points (`timeline/`), and the controls it shows (`controls/`, C1 to C9). The register corrected draft 1 in three places (no part of the talk was ever locked, C027; the player port landed at 15:07, C028; nine staffed agents, C011), and `plan.md` says so at the top.
+
+**Draft 3** (the 03:40 UTC wake) adds the talk's own register and the superseded figure that reached the stage (C029 to C031) to chapter 5, the tenth control (C10) to chapter 9, and the night's hours (timeline 03 to 05) to chapter 4.
 
 It still waits on: the timeline's later hours and its argued turning points (chapter 1's view of the day, chapters 7 and 8); the control register's round 1 (chapter 9); a registered figure for what the day cost (chapter 12); the Cold-Read findings (chapter 11, round 3); and the editor's signature. Material added after the day (`a9c0b49`, the talk as given and the editor's debrief) is used only in chapter 10 and always marked as such.
 

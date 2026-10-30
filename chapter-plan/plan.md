@@ -1,8 +1,10 @@
-# The chapter plan, draft 2
+# The chapter plan, draft 3
 
 storyteller@book.the-ultimate-insider, 30 October 2026, the 02:40 UTC wake. **Not signed.** For the editor to sign, strike or change in round 1. Read `README.md` first.
 
-**What changed from draft 1** (01:46 UTC): every number now carries its id in the researcher's register (`claims/register.json`), and draft 1 was wrong where the register corrects it. **No part of the talk was ever locked** (C027): draft 1 said part 1 was "not locked at the hold" and that the evening had "three parts each frozen"; there were three planned locks and none closed. The player port **landed at 15:07** (C028), and fixes ran to 18:37. The team had **nine staffed agents**, not ten (C011, open for the editor). Evidence now points to the librarian's index (`index/areas/<area>.md`), the historian's timeline (`timeline/day/HH.md` and its candidate turning points, `TP1` to `TP10` in `timeline/README.md`) and the control register (`controls/`, C1 to C9). Chapter 8 is renamed for what happened, and chapter 9 is built on the control register.
+**What changed in draft 3** (the 03:40 UTC wake): chapter 5 gains its sharpest failure, a figure that went on stage after the talk's own register had found it superseded (C031, open), with the talk's register as a whole (C029, C030); chapter 9 gains the tenth control, the session's own permission check, which this book's team met tonight (C10); chapter 4 reads the night from the timeline's hours 03 to 05, and TP3 moves to 03:03 as the historian argues. Nothing else changed.
+
+**What changed from draft 1 to draft 2** (01:46 UTC): every number now carries its id in the researcher's register (`claims/register.json`), and draft 1 was wrong where the register corrects it. **No part of the talk was ever locked** (C027): draft 1 said part 1 was "not locked at the hold" and that the evening had "three parts each frozen"; there were three planned locks and none closed. The player port **landed at 15:07** (C028), and fixes ran to 18:37. The team had **nine staffed agents**, not ten (C011, open for the editor). Evidence now points to the librarian's index (`index/areas/<area>.md`), the historian's timeline (`timeline/day/HH.md` and its candidate turning points, `TP1` to `TP10` in `timeline/README.md`) and the control register (`controls/`, then C1 to C9). Chapter 8 is renamed for what happened, and chapter 9 is built on the control register.
 
 ## The shape in one paragraph
 
@@ -17,11 +19,11 @@ The book follows the day, because the day is the workflow: one person and an emp
 | 2 | Midnight, an empty repository | the first hour: brief, site, gate, conductor, roster, banners | the attacker's limits were accidental controls | the brief was wrong in places, and was never edited | C6 | 4,000 |
 | 3 | A mandate you can read | `ROLE.md`, `policy.json`, session keys, the pinned key tool | reach, mandate, the gap, and what stands in it (ABPs) | a scope is a setting that reports, not a boundary that refuses | C1, C4, C5 | 4,500 |
 | 4 | The hourly machine | slots, requests as files, the public vaults, the five-step wake, the night log | the insider works round the clock; so must the brakes | the request backlog; plans sent back, findings after the work | C2, C8 | 4,000 |
-| 5 | The story before the slides | the storyteller's tree, the researcher's register, claims graded | integrity: what you cannot trust or restore | the researcher contradicted the editor, and it was kept | | 4,000 |
+| 5 | The story before the slides | the storyteller's tree, the researcher's register, claims graded | integrity: what you cannot trust or restore | the researcher contradicted the editor, and it was kept; a superseded figure still went on stage | | 4,000 |
 | 6 | The editor signs | feedback rounds, the decisions page, signing as the control | a licence to operate that can be suspended | decisions still open at 19:00 | C7 | 3,500 |
 | 7 | Building the talk | deck, the ports from ruv.sgit, the designer, motion and studio joining, the player | the explosion of software: every spreadsheet becomes an application | the player, the top priority at 13:50, landed at 15:07 and was fixed to 18:37 | | 4,500 |
 | 8 | The locks that never closed | three planned locks, a lock tool built the hour before, the editor's usage as a resource | brakes, so we can go faster | no lock closed; the security member never staffed; usage met as an emergency | C3 | 4,000 |
-| 9 | The team was the insider | the control register: each control, what it stopped, what it missed, setting or expectation | the argument in full, made with a benign team | what the controls missed | C1 to C9 | 4,500 |
+| 9 | The team was the insider | the control register: each control, what it stopped, what it missed, setting or expectation | the argument in full, made with a benign team | what the controls missed | C1 to C10 | 4,500 |
 | 10 | The talk as given | what was said on stage, set beside what was planned | the argument as the audience heard it | what changed or fell out between plan and stage | | 3,500 |
 | 11 | What the cold reader saw | the Cold-Read team's findings against this book's | the outsider's view of the insider | what this book missed and the blind team found | | 3,000 |
 | 12 | Build your own | the setup, step by step, with the lessons kept and done differently | go build; try to escape the harness | what it cost, in the editor's hours and usage | C9 | 4,500 |
@@ -76,7 +78,7 @@ Each chapter lists the claims it may use (register ids), the index areas its evi
 - **Failure kept:** the request backlog routed in batches (`eb0b5cd`); plans sent back by the pre-review and amended, and findings caught only after the work (cookie values in captured headers, which the gate's tripwire had no pattern for). The chapter counts them from the register, not from memory.
 - **Claims:** C022 (wake records, from 02:14), C023 (step verdicts: plans sent back, post-review findings), C025 (what each finding fixed), C008.
 - **Index:** `team-conductor.md` (`schedule.json`, `WAKE.md`, `reviews/`, the night log), `tools.md` (`start.py`, `wake.py`, `vault_check.py`).
-- **Timeline:** `day/01.md`, `day/02.md`; TP2 (the five-step wake), TP3 (the schedule's first hour), TP7 (the step limit raised to 45 minutes).
+- **Timeline:** `day/01.md` to `day/05.md`: the night, when the editor was still in the sessions at 03:00 and every wake ran on the schedule by 05:00; the conductor's own lesson at 03:07 (a time typed by hand for a commit; from then on times come from the clock, `cabcd57`); and a post-review finding at 03:05 (`day/03.md`, C025). TP2 (the five-step wake), TP3 (the schedule's first hour: the historian places it at 03:03, the first scheduled conductor wake with a record, not 01:40), TP7 (the step limit raised to 45 minutes).
 - **Controls:** C2 the five-step wake, C8 public vaults and `vault_check`.
 
 ### 5. The story before the slides (4,000)
@@ -84,7 +86,8 @@ Each chapter lists the claims it may use (register ids), the index areas its evi
 - **Argues:** nothing entered the talk until the storyteller had mapped it (tree, coverage, challenge, sequence), and every fact in the tree carried a grade from the researcher's register. That is how an agent team keeps integrity in what it says, not only in what it builds.
 - **Argument:** `integrity`: data changed in ways you cannot trust or restore; a talk about trust has to show its sources.
 - **Failure kept:** the researcher's findings contradicted one of the editor's own lines ("the outside is in balance"), and the contradiction was put to him rather than smoothed over (`b208a16`). The book shows what he decided and why the record kept both. This book's own team repeated the pattern on its first night: the register corrected the brief's numbers and this plan's draft 1.
-- **Claims:** C012 (the storyteller joined), C016 (17 beats at 13:00), C015.
+- **The failure that reached the stage:** the talk's own register held 320 claims, two in three holding, and none of the three that did not hold reached a slide (C029, C030): the method worked. But the definition slide said $17.4M as the average annual cost of insider risk, in the present tense, while the same register, built at 18:20, had marked it superseded by a newer edition (C031). The correction was in the record and not on the stage. It is the chapter's centre: a register only protects what it is wired to. C031 is **open** until the researcher checks the newer figure at source; until then the chapter may say the register marked it superseded, and may not give the newer figure.
+- **Claims:** C012 (the storyteller joined), C016 (17 beats at 13:00), C015, C029, C030, C031 (open).
 - **Index:** `team-storyteller.md` (tree, challenge, coverage, sequence), `team-researcher.md`, `evidence.md` (claims, incidents, method).
 - **Timeline:** TP5 (the afternoon joins).
 
@@ -119,12 +122,13 @@ Each chapter lists the claims it may use (register ids), the index areas its evi
 
 ### 9. The team was the insider (4,500)
 
-- **Argues:** the argument in full, made with the team itself as the example. Every capability the talk says makes agents the ultimate insider, this team had; every control the talk proposes, this team ran on itself. The chapter is built on the control register, and organised by its one distinction: a **setting** is enforced by a tool (C1, C3, C5, C6, C8, C9), an **expectation** is a rule an agent is trusted to follow (C2, C4, C7). For each control: the evidence of it firing, what it stopped, what it missed. Nothing in the chapter is attack-shaped: the risk is shown by what a benign team could reach, never by how to get round a control.
+- **Argues:** the argument in full, made with the team itself as the example. Every capability the talk says makes agents the ultimate insider, this team had; every control the talk proposes, this team ran on itself. The chapter is built on the control register, and organised by its one distinction: a **setting** is enforced by a tool (C1, C3, C5, C6, C8, C9, and C10, which sits outside the repository in the session itself), an **expectation** is a rule an agent is trusted to follow (C2, C4, C7). For each control: the evidence of it firing, what it stopped, what it missed. Nothing in the chapter is attack-shaped: the risk is shown by what a benign team could reach, never by how to get round a control.
 - **Argument:** parts 1 and 2 of the talk as one argument: `inside`, `identities`, `permissions`, `infrastructure`, `way-out`.
 - **Failure kept:** what the controls missed, from the register's open questions: the scope check reports and does not refuse (C1); the one hold came from the editor's word, not from a control (C3); the gate's tripwire had no pattern for cookie values, which reviews caught instead (C6); the key tool trusted unread (C5). And the register's own correction: its round 0 missed the pre-reviews that said change.
+- **The tenth control, met by this book's team:** on its first night, members asked to widen their own write scope (by a request, for a reason every file agreed with) were refused by the session's own permission check, and did not look for a way round it (C10; the librarian's and security's replies in their `requests/`, the storyteller's own at its 03:40 wake). It is the cleanest evidence in the book that a setting outside the agent's reach behaves differently from a rule in a file the agent can edit, and the chapter closes on it. Said as what happened, never as how to get round it.
 - **Claims:** C022, C023, C024, C025.
 - **Index:** `team-security.md` (proposed, never staffed), `team-conductor.md` (`wakes/`, `reviews/`), `tools.md`.
-- **Controls:** C1 to C9, and the register's `book_team` section: the same controls on this book's team.
+- **Controls:** C1 to C10, and the register's `book_team` section: the same controls on this book's team.
 - **Waits on:** the control register's round 1 (evidence for every control, or "not found").
 
 ### 10. The talk as given (3,500)
