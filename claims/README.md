@@ -32,3 +32,7 @@ C029 to C031, and C023's method stated at security's question: 31 claims, 26 che
 ## Round 1, fourth pass: graphs.sgit.ai (30 October 2026, 04:32 wake)
 
 At the editor's request, `graphs-sgit-ai.md`, the nearest precedent read closely, with C032 to C036: 36 claims, 29 checked, 3 corrected, 4 open. Its three books are the first entries of the comparison set.
+
+## Round 1, fifth pass: every number rerunnable (30 October 2026, 05:32 wake)
+
+Every entry now has a `command`, read-only and pinned to a commit; `appendix-a-commands.md` is the reading copy for the book's Appendix A. C014 corrected (ruv-sgit 84, conductor 107; 13 commits unattributed). C037, the editor's cost of the day: not in the record, open. 37 claims: 28 checked, 4 corrected, 5 open.

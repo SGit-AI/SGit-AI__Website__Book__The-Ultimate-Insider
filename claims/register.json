@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-10-30T05:05:00Z",
+ "as_of": "2026-10-30T05:50:00Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -27,7 +27,8 @@
     "at": "298be4e",
     "evidence": "2e4b1f4 (Dinis Cruz, Initial commit)"
    },
-   "method": "git log 298be4e --reverse | head -1"
+   "method": "git log 298be4e --reverse | head -1",
+   "command": "git log 298be4e --reverse --format='%h %ci %an %s' | head -1"
   },
   {
    "id": "C002",
@@ -45,7 +46,8 @@
     "evidence": "rev-list 298be4e"
    },
    "method": "git rev-list --count 298be4e",
-   "note": "816 counts to the 23:19 merge, which published the work; the work itself ended by 18:46 (C004). A book that says 816 for the day should say it counts the publishing merge and release."
+   "note": "816 counts to the 23:19 merge, which published the work; the work itself ended by 18:46 (C004). A book that says 816 for the day should say it counts the publishing merge and release.",
+   "command": "git rev-list --count 298be4e"
   },
   {
    "id": "C003",
@@ -66,7 +68,8 @@
     "evidence": "author names in the log"
    },
    "method": "git log 298be4e --format=%an | sort | uniq -c",
-   "note": "The editor's 2 are the Initial commit (00:16) and the merge of pull request #1 (b859ff0, 23:19). GitHub Actions' 211 are one per site release."
+   "note": "The editor's 2 are the Initial commit (00:16) and the merge of pull request #1 (b859ff0, 23:19). GitHub Actions' 211 are one per site release.",
+   "command": "git log 298be4e --format=%an | sort | uniq -c"
   },
   {
    "id": "C004",
@@ -87,7 +90,8 @@
     "evidence": "cb5b996 (v0.1.209, 18:46:22) is the last commit before 19:00"
    },
    "method": "git log 298be4e --until=2026-10-29T18:46:59Z, counted by author",
-   "note": "The conductor's count in BRIEF-CORRECTIONS.md, confirmed. Every Claude commit of the day is before 18:46; the two after 19:00 are b859ff0 (editor) and 298be4e (v0.2.0)."
+   "note": "The conductor's count in BRIEF-CORRECTIONS.md, confirmed. Every Claude commit of the day is before 18:46; the two after 19:00 are b859ff0 (editor) and 298be4e (v0.2.0).",
+   "command": "git log 298be4e --until=2026-10-29T18:46:59Z --format=%an | sort | uniq -c"
   },
   {
    "id": "C005",
@@ -102,7 +106,8 @@
     "at": "298be4e",
     "evidence": "88b8f00, 3f5d7fc, cb5b996"
    },
-   "method": "git log 298be4e --until=2026-10-29T19:00Z | head -3"
+   "method": "git log 298be4e --until=2026-10-29T19:00Z | head -3",
+   "command": "git log 298be4e --until=2026-10-29T19:00:00Z --format='%h %ci %an %s' | head -3"
   },
   {
    "id": "C006",
@@ -120,7 +125,8 @@
     "evidence": "867f8c2, 7968c99"
    },
    "method": "git log 298be4e --grep='95%'",
-   "note": "For the failures-stay-in rule: two Claude commits and one release came after the hold: 88b8f00 (@designer, 18:45:35, 'part 2 on a projector, checked before the 19:30 lock: ready'), its merge 3f5d7fc, and v0.1.209 (cb5b996, 18:46:22). Whether the designer's wake was already past its push when the hold landed is for the historian; the number is 3 commits after the hold, 1 of them work."
+   "note": "For the failures-stay-in rule: two Claude commits and one release came after the hold: 88b8f00 (@designer, 18:45:35, 'part 2 on a projector, checked before the 19:30 lock: ready'), its merge 3f5d7fc, and v0.1.209 (cb5b996, 18:46:22). Whether the designer's wake was already past its push when the hold landed is for the historian; the number is 3 commits after the hold, 1 of them work.",
+   "command": "git log 298be4e --since=2026-10-29T18:44:00Z --until=2026-10-29T19:00:00Z --format='%h %ci %an %s'"
   },
   {
    "id": "C007",
@@ -136,7 +142,8 @@
     "at": "298be4e",
     "evidence": "b859ff0, 298be4e"
    },
-   "method": "git log 298be4e --since=2026-10-29T19:00Z"
+   "method": "git log 298be4e --since=2026-10-29T19:00Z",
+   "command": "git log 298be4e --since=2026-10-29T19:00:00Z --format='%h %ci %an %s'"
   },
   {
    "id": "C008",
@@ -152,7 +159,8 @@
     "evidence": "rev-list since 15:00 UTC"
    },
    "method": "git rev-list --count --since=2026-10-29T15:00:00Z 298be4e",
-   "note": "Includes the 2 commits at 23:19; 356 by 18:46."
+   "note": "Includes the 2 commits at 23:19; 356 by 18:46.",
+   "command": "git rev-list --count --since=2026-10-29T15:00:00Z 298be4e"
   },
   {
    "id": "C009",
@@ -173,7 +181,8 @@
     "evidence": "GitHub Actions commit subjects 'site vX.Y.Z'"
    },
    "method": "git log 298be4e --author='GitHub Actions' --format=%s, distinct versions, gaps checked (none)",
-   "note": "The repository's tags today also include v0.2.1, made after the day: count releases from the commit subjects up to 298be4e, not from the tag list."
+   "note": "The repository's tags today also include v0.2.1, made after the day: count releases from the commit subjects up to 298be4e, not from the tag list.",
+   "command": "git log 298be4e --author='GitHub Actions' --format=%s | grep -oE 'site v[0-9]+\\.[0-9]+\\.[0-9]+' | sort -uV | sed -n '1p;$p;' ; git log 298be4e --author='GitHub Actions' --format=%s | grep -c '^site v'"
   },
   {
    "id": "C010",
@@ -190,7 +199,8 @@
     "evidence": "C001, C005, C007"
    },
    "method": "arithmetic on the checked times",
-   "note": "'Nineteen hours' is a rounding of 00:16 to 19:00 (18 h 44 min), the span decision S6 sets. It is fair as 'nineteen hours' in prose; the brief's sentence pairs it with the 23:19 merge, which makes 23 hours."
+   "note": "'Nineteen hours' is a rounding of 00:16 to 19:00 (18 h 44 min), the span decision S6 sets. It is fair as 'nineteen hours' in prose; the brief's sentence pairs it with the 23:19 merge, which makes 23 hours.",
+   "command": "arithmetic on C001, C005 and C007"
   },
   {
    "id": "C011",
@@ -223,7 +233,8 @@
     "evidence": "first commit adding team/<id>/key.json (dev: its first commit, 1f7c633); team/security has no key.json at 298be4e"
    },
    "method": "git log --reverse -- team/<id>/key.json, per member",
-   "note": "The brief says 'a ten-agent team'. The record has ten member folders but nine staffed agents; security was proposed and never staffed (as 3-source-map.md and 5-lessons-to-carry.md themselves say). Ten is true only counting the editor or the unstaffed folder. Open for the editor: 'nine agents and the editor' is what the record supports."
+   "note": "The brief says 'a ten-agent team'. The record has ten member folders but nine staffed agents; security was proposed and never staffed (as 3-source-map.md and 5-lessons-to-carry.md themselves say). Ten is true only counting the editor or the unstaffed folder. Open for the editor: 'nine agents and the editor' is what the record supports.",
+   "command": "for m in $(git ls-tree -d --name-only 298be4e team/ | xargs -n1 basename); do echo $m $(git log 298be4e --reverse --format='%ci %h' -- team/$m/key.json | head -1); done"
   },
   {
    "id": "C012",
@@ -238,7 +249,8 @@
     "at": "298be4e",
     "evidence": "team/storyteller/wakes/20261029T141252Z.json, 7d0244d"
    },
-   "method": "git log; the wake record at 298be4e"
+   "method": "git log; the wake record at 298be4e",
+   "command": "git show 298be4e:team/storyteller/wakes/20261029T141252Z.json | head -6; git log 298be4e --reverse --format='%ci %h %s' -- team/storyteller/key.json | head -1"
   },
   {
    "id": "C013",
@@ -253,32 +265,35 @@
     "at": "298be4e",
     "evidence": "f1cbca0, 8d208d3"
    },
-   "method": "first @motion: and @studio: commits"
+   "method": "first @motion: and @studio: commits",
+   "command": "git log 298be4e --reverse --format='%ci %h %s' -- team/motion/key.json team/studio/key.json | head -2"
   },
   {
    "id": "C014",
-   "claim": "Commits by member (Claude commits whose subject starts @<id>:)",
+   "claim": "Commits by member (Claude commits whose subject names a member, with or without @)",
    "cited_in": [],
    "value": {
-    "conductor": 99,
+    "conductor": 107,
+    "ruv-sgit": 84,
     "deck": 59,
     "researcher": 57,
-    "ruv-sgit": 54,
     "dev": 52,
     "studio": 26,
     "designer": 19,
     "storyteller": 15,
     "motion": 9,
-    "unprefixed": 213
+    "merges": 162,
+    "unattributed": 13
    },
-   "state": "checked",
+   "state": "corrected",
    "source": {
     "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
     "at": "298be4e",
     "evidence": "commit subjects"
    },
    "method": "git log 298be4e --author=Claude --format=%s | grep -oE '^@[a-z-]+'",
-   "note": "Not in the briefs; registered because the book will want it. 213 Claude commits carry no @member prefix (merges and 'Player:' commits among them), so this is a lower bound per member."
+   "note": "Corrected 30 October 05:40 at the historian's note: 30 of ruv-sgit's commits (08:43 15707dc to 18:40 fc724df) and 8 of the conductor's open '<id>:' without the @, which the first count missed. With them: conductor 107, ruv-sgit 84 (not 54). Of 603 Claude commits, 428 name a member, 162 are merges, and 13 name none and carry no Agent: trailer (8 'Player:' commits, the lock tool, the showcase template, E08, a Linux link slide, 'Conductor joins'). Those 13 are unattributed, not assigned by guess.",
+   "command": "git log 298be4e --author=Claude --format=%s | grep -oE '^@?[a-z][a-z.-]*:' | sed 's/^@//' | sort | uniq -c | sort -rn"
   },
   {
    "id": "C015",
@@ -298,7 +313,8 @@
     "at": "298be4e",
     "evidence": "src/static/talk/talk.json at 298be4e"
    },
-   "method": "count of beats, grouped by 'part'"
+   "method": "count of beats, grouped by 'part'",
+   "command": "git show 298be4e:src/static/talk/talk.json | python3 -c \"import json,sys,collections;b=json.load(sys.stdin)['beats'];print(len(b),collections.Counter(x['part'] for x in b))\""
   },
   {
    "id": "C016",
@@ -314,7 +330,8 @@
     "evidence": "talk.json history"
    },
    "method": "beats counted at each commit touching the file",
-   "note": "The growth from 17 to 58 happened between 16:36 and 17:52."
+   "note": "The growth from 17 to 58 happened between 16:36 and 17:52.",
+   "command": "for h in $(git log 298be4e --reverse --format=%h -- src/static/talk/talk.json); do echo $h $(git log -1 --format=%ci $h) $(git show $h:src/static/talk/talk.json | python3 -c \"import json,sys;print(len(json.load(sys.stdin)['beats']))\"); done"
   },
   {
    "id": "C017",
@@ -334,7 +351,8 @@
     "at": "298be4e",
     "evidence": "src/static/talk/player.html history"
    },
-   "method": "wc -l at each commit touching the file"
+   "method": "wc -l at each commit touching the file",
+   "command": "for h in $(git log 298be4e --reverse --format=%h -- src/static/talk/player.html); do echo $h $(git log -1 --format=%ci $h) $(git show $h:src/static/talk/player.html | wc -l); done"
   },
   {
    "id": "C018",
@@ -350,7 +368,8 @@
     "evidence": "dbd75ad, 2ed6427, b3f208f, 88b8f00"
    },
    "method": "git log --grep=lock",
-   "note": "18:37 is checked. 'Twenty minutes before the lock' depends on which lock: there were several (part 1 around 18:30 to 18:40, parts 2 and 3 later, a 19:30 lock named by the designer). Twenty minutes before 19:00 would be 18:40. For the historian to fix the lock times; until then, write 'at 18:37, 23 minutes before the talk'. Update 30 October, 02:55: the landing is 15:07 (C028); the locks were never applied (C027), so 'before the lock' has no event to measure from; 18:37 is 23 minutes before the talk."
+   "note": "18:37 is checked. 'Twenty minutes before the lock' depends on which lock: there were several (part 1 around 18:30 to 18:40, parts 2 and 3 later, a 19:30 lock named by the designer). Twenty minutes before 19:00 would be 18:40. For the historian to fix the lock times; until then, write 'at 18:37, 23 minutes before the talk'. Update 30 October, 02:55: the landing is 15:07 (C028); the locks were never applied (C027), so 'before the lock' has no event to measure from; 18:37 is 23 minutes before the talk.",
+   "command": "git log 298be4e -1 --format='%h %ci %s' -- src/static/talk/player.html; git log 298be4e --format='%h %ci %s' -i --grep=lock"
   },
   {
    "id": "C019",
@@ -369,7 +388,8 @@
     "evidence": "git ls-tree -r 298be4e"
    },
    "method": "git ls-tree -r --name-only 298be4e | grep -v ^src/ | wc -l",
-   "note": "1,083 files outside src/, not about 1,260 (1,313 in all). First found by librarian@book.the-ultimate-insider (trailer note on its commit to dev, 30 October), re-checked here."
+   "note": "1,083 files outside src/, not about 1,260 (1,313 in all). First found by librarian@book.the-ultimate-insider (trailer note on its commit to dev, 30 October), re-checked here.",
+   "command": "git ls-tree -r --name-only 298be4e | wc -l; git ls-tree -r --name-only 298be4e | grep -vc '^src/'"
   },
   {
    "id": "C020",
@@ -388,7 +408,8 @@
     "evidence": "git ls-tree -r -l 298be4e (blob sizes)"
    },
    "method": "sum of blob sizes, 10^6 bytes per MB",
-   "note": "team/ 61.7 MB agrees. evidence/ is 13.2 MB by blob size (12.5 MiB); '14 MB' is close enough only as 'about 13 MB'."
+   "note": "team/ 61.7 MB agrees. evidence/ is 13.2 MB by blob size (12.5 MiB); '14 MB' is close enough only as 'about 13 MB'.",
+   "command": "for d in team evidence; do git ls-tree -r -l 298be4e $d | awk -v d=$d '{s+=$4} END {print d, s/1e6, \"MB\"}'; done"
   },
   {
    "id": "C021",
@@ -405,7 +426,8 @@
     "evidence": "867f8c2"
    },
    "method": "commit subject",
-   "note": "The record holds the conductor's report of the figure, not a usage reading. Cite it as what the editor told the team."
+   "note": "The record holds the conductor's report of the figure, not a usage reading. Cite it as what the editor told the team.",
+   "command": "git log 298be4e -1 --format='%h %ci %s' --grep='95%'"
   },
   {
    "id": "C022",
@@ -438,7 +460,8 @@
     "evidence": "team/*/wakes/*.json"
    },
    "method": "git ls-tree -r 298be4e, every team/*/wakes/*.json parsed with git show 298be4e:<path>; verdicts counted from steps.<step>.verdict, earlier verdicts from history",
-   "note": "The five-step wake began at 02:14 (the conductor's own record, team/conductor/wakes/20261029T021416Z.json), so wakes before it have no record. The 2 incomplete: deck's 18:20 wake (plan only, team/deck/wakes/20261029T182009Z.json) and dev's 17:48 wake (plan, pre-review and post-review; no work or post-check step, team/dev/wakes/20261029T174850Z.json); neither was closed."
+   "note": "The five-step wake began at 02:14 (the conductor's own record, team/conductor/wakes/20261029T021416Z.json), so wakes before it have no record. The 2 incomplete: deck's 18:20 wake (plan only, team/deck/wakes/20261029T182009Z.json) and dev's 17:48 wake (plan, pre-review and post-review; no work or post-check step, team/dev/wakes/20261029T174850Z.json); neither was closed.",
+   "command": "python3 -c \"import json,subprocess as s;R='298be4e';fs=[f for f in s.run(['git','ls-tree','-r','--name-only',R],capture_output=True,text=True).stdout.split() if f.startswith('team/') and '/wakes/' in f and f.endswith('.json')];import collections;print(len(fs),collections.Counter(f.split('/')[1] for f in fs))\""
   },
   {
    "id": "C023",
@@ -491,7 +514,8 @@
     "evidence": "team/*/wakes/*.json, steps and history"
    },
    "method": "git ls-tree -r 298be4e, every team/*/wakes/*.json parsed with git show 298be4e:<path>; verdicts counted from steps.<step>.verdict, earlier verdicts from history; a change counted when a history entry has verdict 'change' (directly, or under a pre_review key), or, for entries with no verdict field, when its text says 'pre-review said change'",
-   "note": "11 pre-reviews said change and the plan was amended. 7 carry the verdict in a field: 2 shaped history[].pre_review.verdict (conductor 02:14, 02:52), 5 shaped history[].verdict with step pre_review (conductor 14:03, 14:09, 16:30; researcher 04:10; studio 18:30). 4 more are the conductor's free-text history entries 'pre-review said change: adopted' (17:21, 17:30, 17:45, 18:19), with no verdict field. A parse of verdict fields alone finds 7 (security's count, 30 October 03:25); both are right for their method. Cite '11, of which 7 recorded as a verdict'. The conductor's 17:37 entry is the editor changing course mid-work, not a review, and is not counted. No step said stop all day: the one hold (C024) came from the editor's word, not from a review. Corrected 30 October 03:40 at security's question (team/security/requests/researcher__re-control-counts-reply.md): the method was not stated."
+   "note": "11 pre-reviews said change and the plan was amended. 7 carry the verdict in a field: 2 shaped history[].pre_review.verdict (conductor 02:14, 02:52), 5 shaped history[].verdict with step pre_review (conductor 14:03, 14:09, 16:30; researcher 04:10; studio 18:30). 4 more are the conductor's free-text history entries 'pre-review said change: adopted' (17:21, 17:30, 17:45, 18:19), with no verdict field. A parse of verdict fields alone finds 7 (security's count, 30 October 03:25); both are right for their method. Cite '11, of which 7 recorded as a verdict'. The conductor's 17:37 entry is the editor changing course mid-work, not a review, and is not counted. No step said stop all day: the one hold (C024) came from the editor's word, not from a review. Corrected 30 October 03:40 at security's question (team/security/requests/researcher__re-control-counts-reply.md): the method was not stated.",
+   "command": "method, not one command: parse every team/*/wakes/*.json at 298be4e; count steps.<step>.verdict; count history entries with verdict 'change' (directly or under pre_review), and free-text entries saying 'pre-review said change' (the script in team/researcher/debriefs/ of 30 October, 02:32 wake, rerun the same way)"
   },
   {
    "id": "C024",
@@ -513,7 +537,8 @@
     "evidence": "git log --diff-filter=A and --diff-filter=D on team/*/HOLD.md"
    },
    "method": "files added and deleted under team/*/HOLD.md up to 298be4e",
-   "note": "One hold, never deleted on the day. Its reason is usage, not a finding: the editor's 5-hour limit at 95%, resetting at 20:20 London (HOLD.md)."
+   "note": "One hold, never deleted on the day. Its reason is usage, not a finding: the editor's 5-hour limit at 95%, resetting at 20:20 London (HOLD.md).",
+   "command": "git log 298be4e --diff-filter=A --format='%h %ci %s' -- 'team/*/HOLD.md'; git log 298be4e --diff-filter=D --format='%h %ci %s' -- 'team/*/HOLD.md'"
   },
   {
    "id": "C025",
@@ -550,7 +575,8 @@
     "evidence": "team/conductor/wakes/20261029T021416Z.json; team/researcher/wakes/20261029T030550Z.json, 20261029T041003Z.json, 20261029T061456Z.json"
    },
    "method": "steps.post_review where verdict is finding, read with the same wake's post_check",
-   "note": "3 of the 4 findings are the same failure: captured web pages carried other sites' tokens into a public repository, and redaction does not reach a commit already pushed. For the failures chapter, a story of the controls catching a leak late, not preventing it."
+   "note": "3 of the 4 findings are the same failure: captured web pages carried other sites' tokens into a public repository, and redaction does not reach a commit already pushed. For the failures chapter, a story of the controls catching a leak late, not preventing it.",
+   "command": "method: the C023 parse, selecting steps.post_review.verdict == 'finding', read with the same record's post_check comment"
   },
   {
    "id": "C026",
@@ -574,7 +600,8 @@
     "evidence": "src/static/talk/talk.json (dur, seconds, per beat); 23739cc (player, 18:05, '90 minutes')"
    },
    "method": "sum of dur over the 58 beats, grouped by part",
-   "note": "The beats add up to 74 min 55 s; the player counted down 90 minutes (the editor's slot). Part 1's 29:30 matches deck's 3260997 (17:25). How long the talk ran on stage is not in the record at 298be4e."
+   "note": "The beats add up to 74 min 55 s; the player counted down 90 minutes (the editor's slot). Part 1's 29:30 matches deck's 3260997 (17:25). How long the talk ran on stage is not in the record at 298be4e.",
+   "command": "git show 298be4e:src/static/talk/talk.json | python3 -c \"import json,sys,collections;b=json.load(sys.stdin)['beats'];t=collections.Counter();[t.update({x['part']:x['dur']}) for x in b];print(sum(t.values())/60,{k:v/60 for k,v in t.items()})\""
   },
   {
    "id": "C027",
@@ -599,7 +626,8 @@
     "evidence": "team/conductor/HOLD.md at 298be4e; 2ed6427 (18:39, 'part 1 not yet locked'); 4a2481b; no locked copy in the tree at 298be4e"
    },
    "method": "HOLD.md read; git ls-tree -r 298be4e searched for a locked copy (none: only lock.py and a brief)",
-   "note": "No part of the talk was ever locked: the lock tool shipped at 17:54, part 1 waited on dev from 18:30, and the hold at 18:44 stopped dev before it ran. The storyteller's '18:30, 19:30, 20:00' are the planned locks, not events."
+   "note": "No part of the talk was ever locked: the lock tool shipped at 17:54, part 1 waited on dev from 18:30, and the hold at 18:44 stopped dev before it ran. The storyteller's '18:30, 19:30, 20:00' are the planned locks, not events.",
+   "command": "git show 298be4e:team/conductor/HOLD.md; git ls-tree -r --name-only 298be4e | grep -i lock"
   },
   {
    "id": "C028",
@@ -620,7 +648,8 @@
     "evidence": "3314ffe, dbd75ad"
    },
    "method": "git log -- src/static/talk/player.html",
-   "note": "Both times are true and say different things: the port landed at 15:07, 2 h 17 min after the 13:50 priority the lessons brief names (that priority is the brief's word, not yet found in the log); fixes went on to 18:37 at the editor's notes. 'Landed with fixes at 18:37' (the lessons brief) is the end of the fixes, not the landing. Use 15:07 for the landing. Supersedes the open part of C018."
+   "note": "Both times are true and say different things: the port landed at 15:07, 2 h 17 min after the 13:50 priority the lessons brief names (that priority is the brief's word, not yet found in the log); fixes went on to 18:37 at the editor's notes. 'Landed with fixes at 18:37' (the lessons brief) is the end of the fixes, not the landing. Use 15:07 for the landing. Supersedes the open part of C018.",
+   "command": "git log 298be4e --format='%h %ci %s' -- src/static/talk/player.html | sed -n '1p;$p'; git log 298be4e --format=%h --since=2026-10-29T15:07:00Z --until=2026-10-29T18:37:03Z -- src/static/talk/player.html | wc -l"
   },
   {
    "id": "C029",
@@ -662,7 +691,8 @@
     "evidence": "evidence/claims/claims.json at 298be4e"
    },
    "method": "claims.json parsed and counted by grade, holds and kind; ids unique (320)",
-   "note": "The README's tables agree with the file. Two in three claims hold (210 of 320); 55 hold only in part. Grades are the talk's researcher's (evidence/METHOD.md), not re-graded here. The register was built at 18:20, 40 minutes before the talk; its last commit is d7df71a (18:23)."
+   "note": "The README's tables agree with the file. Two in three claims hold (210 of 320); 55 hold only in part. Grades are the talk's researcher's (evidence/METHOD.md), not re-graded here. The register was built at 18:20, 40 minutes before the talk; its last commit is d7df71a (18:23).",
+   "command": "git show 298be4e:evidence/claims/claims.json | python3 -c \"import json,sys,collections;c=json.load(sys.stdin)['claims'];print(len(c),collections.Counter(x['grade'] for x in c),collections.Counter(x['holds'] for x in c))\""
   },
   {
    "id": "C030",
@@ -695,7 +725,8 @@
     "evidence": "evidence/claims/claims.json at 298be4e; src/static/talk/talk.json"
    },
    "method": "the three entries with holds 'does not hold', and a search of talk.json and src/ at 298be4e for each figure",
-   "note": "None of the three reached the stage: one is in the article, one in the story tree, and the NASA figure's beat is not in the talk at 298be4e. Whether the beat was cut because of the finding is for the historian. External figures (NASA, BleepingComputer) are the talk's researcher's captures, not re-checked here."
+   "note": "None of the three reached the stage: one is in the article, one in the story tree, and the NASA figure's beat is not in the talk at 298be4e. Whether the beat was cut because of the finding is for the historian. External figures (NASA, BleepingComputer) are the talk's researcher's captures, not re-checked here.",
+   "command": "git show 298be4e:evidence/claims/claims.json | python3 -c \"import json,sys;[print(x['id'],x['where']) for x in json.load(sys.stdin)['claims'] if x['holds']=='does not hold']\""
   },
   {
    "id": "C031",
@@ -715,7 +746,8 @@
     "evidence": "evidence/claims/claims.json at 298be4e; src/static/talk/slides/definition/index.html; talk.json"
    },
    "method": "the claim's register entry read; grep of src/ at 298be4e for 17.4 and 19.5",
-   "note": "A failure for the book: the talk's own register, built at 18:20, suggested $19.5M, and the slide and cue at 298be4e still say $17.4M in the present tense. The correction never reached the stage. Open: the $19.5M figure is the talk's researcher's capture, not yet re-checked against the source; the book must not use either number until it is."
+   "note": "A failure for the book: the talk's own register, built at 18:20, suggested $19.5M, and the slide and cue at 298be4e still say $17.4M in the present tense. The correction never reached the stage. Open: the $19.5M figure is the talk's researcher's capture, not yet re-checked against the source; the book must not use either number until it is.",
+   "command": "git grep -n '17\\.4' 298be4e -- src; git grep -c '19\\.5M' 298be4e -- src/static/talk"
   },
   {
    "id": "C032",
@@ -737,7 +769,8 @@
     "evidence": "git tags, tagged commit times"
    },
    "method": "git for-each-ref refs/tags, filtered v0.1.0 to v0.5.11, median of consecutive gaps",
-   "note": "The book's '31 minutes' rounds 30.5; its 88 and 6 days agree."
+   "note": "The book's '31 minutes' rounds 30.5; its 88 and 6 days agree.",
+   "command": "in SGit-AI__Website__Graphs: git for-each-ref refs/tags --format='%(refname:short) %(creatordate:iso-strict)' | sort -V, then v0.1.0 to v0.5.11 and the median gap"
   },
   {
    "id": "C033",
@@ -775,7 +808,8 @@
     "evidence": "v2/books/<slug>/book.json at d39e717"
    },
    "method": "read from each book.json (the site's own build output; word and page counts not recounted)",
-   "note": "The site's llms.txt says 38,000 and 31,000 words and fifteen and twelve chapters, counting front and back matter differently; book.json is the build's own figure. The repository's 'the Leanpub pair' label for two of them is a plan; no Leanpub listing was checked."
+   "note": "The site's llms.txt says 38,000 and 31,000 words and fifteen and twelve chapters, counting front and back matter differently; book.json is the build's own figure. The repository's 'the Leanpub pair' label for two of them is a plan; no Leanpub listing was checked.",
+   "command": "in SGit-AI__Website__Graphs at d39e717: for b in fsg fsg-universe making-a-book; do git show d39e717:v2/books/$b/book.json | head -12; done"
   },
   {
    "id": "C034",
@@ -801,7 +835,8 @@
     "evidence": "v2/team/ at d39e717"
    },
    "method": "git ls-tree -d v2/team/",
-   "note": "Each folder: role.md, actions/, briefs/, debriefs/, issues/{open,blocked}. The book's team has a librarian, researcher and publisher in common; it has no editor role (the human is the editor) and adds security, historian, storyteller and conductor."
+   "note": "Each folder: role.md, actions/, briefs/, debriefs/, issues/{open,blocked}. The book's team has a librarian, researcher and publisher in common; it has no editor role (the human is the editor) and adds security, historian, storyteller and conductor.",
+   "command": "in SGit-AI__Website__Graphs: git ls-tree -d --name-only d39e717 v2/team/"
   },
   {
    "id": "C035",
@@ -820,7 +855,8 @@
     "evidence": "graphs.sgit.ai /llms.txt and /v2/books/making-a-book/index.html at v0.6.22"
    },
    "method": "read from the site's description; the appendix itself not yet read",
-   "note": "The method is the precedent for this register; the claim is the site's, not yet checked against Appendix C."
+   "note": "The method is the precedent for this register; the claim is the site's, not yet checked against Appendix C.",
+   "command": "read: v2/books/making-a-book/content/15__appendix-c-the-harness.md at d39e717"
   },
   {
    "id": "C036",
@@ -838,7 +874,29 @@
     "evidence": "graphs.sgit.ai /llms.txt at v0.6.22; content/12__what-it-costs.md headings"
    },
    "method": "read; chapter 12's text not yet read in full",
-   "note": "Cite only after reading chapter 12 itself."
+   "note": "Cite only after reading chapter 12 itself.",
+   "command": "read: v2/books/making-a-book/content/12__what-it-costs.md at d39e717"
+  },
+  {
+   "id": "C037",
+   "claim": "What the day cost the editor, in hours and usage",
+   "cited_in": [
+    "chapter-plan/plan.md (chapter 12)"
+   ],
+   "value": {
+    "span": "00:16 to 19:00, 18 h 44 min (C010)",
+    "usage": "95% of the editor's 5-hour usage limit at 18:44, resetting at 20:20 London (HOLD.md, the editor's words reported by the conductor)",
+    "tokens_or_money": "not in the record"
+   },
+   "state": "open",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "298be4e",
+    "evidence": "team/conductor/HOLD.md; 867f8c2"
+   },
+   "method": "git grep for usage figures across team/ at 298be4e: the hold is the only one",
+   "command": "git grep -n -iE 'usage[^\"]{0,80}[0-9]+ ?%' 298be4e -- team ':!*.png'",
+   "note": "The record holds one usage reading, 95% of a 5-hour window, and no total for the day, no weekly figure, and no cost in money. The editor's hours at the keyboard are not recorded either: the span is the agents' day, not the editor's. A cost figure for chapter 12 has to come from the editor (their usage page, or the transcripts of decision Q4), added after the day and cited as such."
   }
  ]
 }

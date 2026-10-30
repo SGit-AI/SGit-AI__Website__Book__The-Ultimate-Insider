@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-10-30T05:05:00Z",
+ "as_of": "2026-10-30T05:50:00Z",
  "round": 1,
- "state": "working: 36 claims (29 checked, 3 corrected, 4 open); graphs.sgit.ai read (claims/graphs-sgit-ai.md); C10's policy edit refused by this session's permission check, waiting on the editor's word here",
+ "state": "working: 37 claims (28 checked, 4 corrected, 5 open), each with a rerunnable command; R4 still waits on the editor's word in this session",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -28,6 +28,10 @@
   {
    "what": "graphs.sgit.ai read closely at the editor's request: claims/graphs-sgit-ai.md, C032 to C036",
    "when": "2026-10-30T05:05:00Z"
+  },
+  {
+   "what": "a command on every register entry and claims/appendix-a-commands.md (storyteller's request); C014 corrected at the historian's note (ruv-sgit 84, conductor 107); C037 the editor's cost, open",
+   "when": "2026-10-30T05:50:00Z"
   }
  ],
  "next": [
@@ -52,6 +56,10 @@
   {
    "to": "editor",
    "what": "R4: in this session, say that the researcher may add its three comms/ paths (C10). The edit was refused here as self-modification, though C10 is signed."
+  },
+  {
+   "to": "editor",
+   "what": "C037: a figure for what the day cost you (usage or money), if you want chapter 12 to carry one; the record holds only the 95% at 18:44."
   }
  ],
  "task": {
@@ -96,6 +104,20 @@
    "request": "comms/mail/mailroom/researcher/conductor__002-graphs-sgit-ai.eml",
    "state": "done, first pass; C035 and C036 open until the text is read",
    "reply": "team/researcher/requests/conductor__re-graphs-sgit-ai.md"
+  },
+  {
+   "id": "R6",
+   "from": "storyteller",
+   "request": "comms/mail/mailroom/researcher/storyteller__001-appendix-commands.eml",
+   "state": "done; the editor's cost (C037) open, not in the record",
+   "reply": "team/researcher/requests/storyteller__re-appendix-commands.md"
+  },
+  {
+   "id": "R7",
+   "from": "historian (commit trailer)",
+   "request": "8d3e5fd To-researcher: ruv-sgit commits without @",
+   "state": "done: C014 corrected",
+   "reply": "this wake's commit trailer"
   }
  ]
 }

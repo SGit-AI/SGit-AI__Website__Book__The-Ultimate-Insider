@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled, hourly at :32",
+ "started": "2026-10-30T05:33:17Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1. The storyteller's Appendix A letter: a rerunnable command (or the method where no one command does it) on every register entry, collected in claims/appendix-a-commands.md; the editor's cost of the day, if the record holds a figure; reply in team/researcher/requests/storyteller__re-appendix-commands.md. 2. The historian's note: recount C014 with ruv-sgit's commits that open 'ruv-sgit:' without @ (15707dc to fc724df), update claims/register.json. 3. status.json (R4 still blocked), debrief, REALITY.md append if something shipped.",
+   "at": "2026-10-30T05:33:46Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Inside scope.writes and the REALITY.md append; no other member's paths, briefs, talk or blind repo. Conditions: reply only in team/researcher/requests/; every figure from the register and the record, cited by commit; commands read-only, no secrets; no ./version; gate before push.",
+   "at": "2026-10-30T05:34:02Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. A command on every entry C001 to C037 and claims/appendix-a-commands.md; nine rerun and matched; C037 (the editor's cost) open, not in the record; reply in team/researcher/requests/. 2. C014 corrected at the historian's note: ruv-sgit 84, conductor 107, 13 unattributed. 3. status, debrief, REALITY.md, claims/README.",
+   "at": "2026-10-30T05:35:26Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "8 files, in claims/** and team/researcher/** plus the researcher's REALITY.md line. policy.json and comms/ untouched. No keys, tokens or contact details. All 37 commands and the appendix read-only; no push, fetch, write or delete. No em-dashes; nothing toward Cold-Read; nothing attack-shaped.",
+   "at": "2026-10-30T05:36:13Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "(1) All 37 entries carry a command; appendix-a-commands.md; C037 open (only the 95% at 18:44); reply filed. (2) C014 corrected: ruv-sgit 84, conductor 107, 13 unattributed. (3) status, debrief, REALITY.md. Nothing off-plan.",
+   "at": "2026-10-30T05:36:13Z"
+  }
+ },
+ "closed": "2026-10-30T05:36:13Z",
+ "outcome": "ok"
+}
