@@ -10,9 +10,11 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - **`briefs/2026-10-30/`**: the editor's six brief files, as given.
 - **`manuscript/`**: `Book.txt` (the order Leanpub builds in) and one file, `about-this-edition.md`. No chapter is written: the plan is not signed.
 
+- The conductor is staffed (`team/conductor/ROLE.md`): this session, conductor@book.the-ultimate-insider, at the editor's word on 30 October 2026.
+
 ## Not yet
 
-- No team member is staffed: no `team/` folders, no schedule, no keys, no wakes, no `start.py` or `banner.py`. The roles on the team page are proposals.
+- No other member is staffed: no schedule, no keys, no wakes, no `start.py` or `banner.py`. The other roles on the team page are proposals.
 - No Leanpub book, no PDF or EPUB build, no cover.
 - The blind repository is not set up from here, and never written into from here.
 - Every number on the site is the brief's, not yet re-checked by a researcher.

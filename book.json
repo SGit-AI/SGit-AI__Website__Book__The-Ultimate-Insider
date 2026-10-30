@@ -6,59 +6,274 @@
  "title": {
   "status": "Open: the editor signs the title in round 1. The candidates from the positioning starter, for the market stream to test, not to adopt:",
   "candidates": [
-   {"title": "The Ultimate Insider", "sub": "one day, ten agents, one talk"},
-   {"title": "Nineteen Hours", "sub": "how an agent team built a talk, and what kept it in check"},
-   {"title": "Brakes So We Can Go Faster", "sub": "running an agent team for real"},
-   {"title": "Built in a Day", "sub": "the record of an agentic team"},
-   {"title": "The Conductor's Day"},
-   {"title": "Agents Are the Ultimate Insider", "sub": "the book of the talk"}
+   {
+    "title": "The Ultimate Insider",
+    "sub": "one day, ten agents, one talk"
+   },
+   {
+    "title": "Nineteen Hours",
+    "sub": "how an agent team built a talk, and what kept it in check"
+   },
+   {
+    "title": "Brakes So We Can Go Faster",
+    "sub": "running an agent team for real"
+   },
+   {
+    "title": "Built in a Day",
+    "sub": "the record of an agentic team"
+   },
+   {
+    "title": "The Conductor's Day"
+   },
+   {
+    "title": "Agents Are the Ultimate Insider",
+    "sub": "the book of the talk"
+   }
   ]
  },
  "plan_lead": "The talk was given at 19:00 on Thursday 29 October 2026 and merged to main as site v0.2.0 at 23:19. The book is analysis written with hindsight, not a dump of the record: what was achieved, in what order, why it worked, what it cost, what went wrong, and what it means. Every chapter ends with where it came from.",
  "milestones": [
-  {"date": "2026-10-30T09:00:00Z", "when": "Friday 30 October", "what": "Round 0: the team stands up", "detail": "Repositories up, keys published, the schedule running, the Leanpub book created and the build producing a PDF. The blind repository's agents fired."},
-  {"date": "2026-11-02T09:00:00Z", "when": "Monday 2 November", "what": "First edition on sale on Leanpub", "detail": "The release candidate, the editor's sign-off, on sale. KDP submitted the same day."},
-  {"date": "2026-11-09T09:00:00Z", "when": "Monday 9 November", "what": "Web Summit opens", "detail": "Web Summit runs 9 to 12 November. By then: on Amazon too (KDP review takes up to 72 hours) and a paperback proof ordered. The paperback is the stretch goal."}
+  {
+   "date": "2026-10-30T09:00:00Z",
+   "when": "Friday 30 October",
+   "what": "Round 0: the team stands up",
+   "detail": "Repositories up, keys published, the schedule running, the Leanpub book created and the build producing a PDF. The blind repository's agents fired."
+  },
+  {
+   "date": "2026-11-02T09:00:00Z",
+   "when": "Monday 2 November",
+   "what": "First edition on sale on Leanpub",
+   "detail": "The release candidate, the editor's sign-off, on sale. KDP submitted the same day."
+  },
+  {
+   "date": "2026-11-09T09:00:00Z",
+   "when": "Monday 9 November",
+   "what": "Web Summit opens",
+   "detail": "Web Summit runs 9 to 12 November. By then: on Amazon too (KDP review takes up to 72 hours) and a paperback proof ordered. The paperback is the stretch goal."
+  }
  ],
  "rounds": [
-  {"id": "Round 0", "when": "Friday 30 October, daytime", "title": "Stand up", "deliver": ["Both repositories up, keys published, the schedule running", "The Leanpub book created and the build producing an empty PDF", "The librarian's index started", "The blind repository's agents fired"]},
-  {"id": "Round 1", "when": "Friday night", "title": "Index, timeline, controls, plan", "deliver": ["The librarian's index of the source", "The historian's timeline of 29 October, with the turning points marked", "The security member's control register", "The storyteller's chapter plan, with word budgets", "The editor signs the plan and the title"]},
-  {"id": "Round 2", "when": "Saturday 31 October", "title": "Draft", "deliver": ["Chapters drafted from the plan, each from the record, analysis first", "The market stream reports: readers and positioning"]},
-  {"id": "Round 3", "when": "Sunday 1 November", "title": "Read and correct", "deliver": ["The editor reads on paper; synthetic readers read the draft", "Corrections; the cover chosen", "The blind repository's findings compared with the book's own, the differences written up as a chapter"]},
-  {"id": "Round 4", "when": "Monday 2 November", "title": "Release", "deliver": ["Release candidate and the editor's sign-off", "On sale on Leanpub; KDP submitted"]},
-  {"id": "The week", "when": "To Monday 9 November", "title": "Amazon and paper", "deliver": ["Amazon live", "The paperback proof", "The town-planner list started: what a publisher's edit would change"]}
+  {
+   "id": "Round 0",
+   "when": "Friday 30 October, daytime",
+   "title": "Stand up",
+   "deliver": [
+    "Both repositories up, keys published, the schedule running",
+    "The Leanpub book created and the build producing an empty PDF",
+    "The librarian's index started",
+    "The blind repository's agents fired"
+   ]
+  },
+  {
+   "id": "Round 1",
+   "when": "Friday night",
+   "title": "Index, timeline, controls, plan",
+   "deliver": [
+    "The librarian's index of the source",
+    "The historian's timeline of 29 October, with the turning points marked",
+    "The security member's control register",
+    "The storyteller's chapter plan, with word budgets",
+    "The editor signs the plan and the title"
+   ]
+  },
+  {
+   "id": "Round 2",
+   "when": "Saturday 31 October",
+   "title": "Draft",
+   "deliver": [
+    "Chapters drafted from the plan, each from the record, analysis first",
+    "The market stream reports: readers and positioning"
+   ]
+  },
+  {
+   "id": "Round 3",
+   "when": "Sunday 1 November",
+   "title": "Read and correct",
+   "deliver": [
+    "The editor reads on paper; synthetic readers read the draft",
+    "Corrections; the cover chosen",
+    "The blind repository's findings compared with the book's own, the differences written up as a chapter"
+   ]
+  },
+  {
+   "id": "Round 4",
+   "when": "Monday 2 November",
+   "title": "Release",
+   "deliver": [
+    "Release candidate and the editor's sign-off",
+    "On sale on Leanpub; KDP submitted"
+   ]
+  },
+  {
+   "id": "The week",
+   "when": "To Monday 9 November",
+   "title": "Amazon and paper",
+   "deliver": [
+    "Amazon live",
+    "The paperback proof",
+    "The town-planner list started: what a publisher's edit would change"
+   ]
+  }
  ],
  "phases": [
-  {"name": "Explorer", "what": "the night of the talk: the team that built it, in nineteen hours"},
-  {"name": "Villager", "what": "this edition: the book of the record, written with hindsight in four days"},
-  {"name": "Town planner", "what": "a publisher's edit, later"}
+  {
+   "name": "Explorer",
+   "what": "the night of the talk: the team that built it, in nineteen hours"
+  },
+  {
+   "name": "Villager",
+   "what": "this edition: the book of the record, written with hindsight in four days"
+  },
+  {
+   "name": "Town planner",
+   "what": "a publisher's edit, later"
+  }
  ],
- "team_lead": "The roles proposed in the conductor's brief, reusing the setup of the talk's team as it stands: a written mandate per member (`ROLE.md`, `policy.json`), the five-step wake, hourly slots fifteen minutes apart, the mailroom, session keys, holds, and a release on every merge. No member is staffed until the conductor stands it up in round 0.",
+ "team_lead": "The roles proposed in the conductor's brief, reusing the setup of the talk's team as it stands: a written mandate per member (`ROLE.md`, `policy.json`), the five-step wake, hourly slots fifteen minutes apart, the mailroom, session keys, holds, and a release on every merge. The conductor is staffed (its mandate is `team/conductor/ROLE.md`); every other member is staffed by the conductor in round 0, at the editor's word.",
  "editor": "Dinis Cruz is the editor: he decides, signs decisions, reads on paper, and is interviewed. Nobody else speaks for him.",
  "blind": "A second repository whose agents arrive knowing nothing but the talk's repository at commit `298be4e` (site v0.2.0) and write what they find. The one-way valve: the book repository reads the blind one; nothing flows the other way, or the blind repository stops being blind. No brief, chapter, decision or chat from here is ever copied into it.",
  "roles": [
-  {"role": "conductor", "owns": "the schedule, routing, pace, the editor's decisions page, the two-repository valve", "first": "stand up both repositories; fix the chapter plan with the editor by Friday night", "status": "proposed"},
-  {"role": "librarian", "owns": "the inventory of the source: every file, wake, debrief, decision, memo and chat, indexed", "first": "the index, before any chapter is written; the source map is the seed", "status": "proposed"},
-  {"role": "historian", "owns": "the timeline: the day minute by minute, from the git log and the wake records", "first": "the timeline of 29 October, with the ten or so turning points marked", "status": "proposed"},
-  {"role": "technologist", "owns": "how the setup works: tools, schedules, keys, vaults, builds, the player", "first": "the architecture of the team, as diagrams and prose, enough to rebuild it", "status": "proposed"},
-  {"role": "security (GRC)", "owns": "the controls: policies, holds, keys, reviews, what each one stopped, what it missed", "first": "the control register: every control in the record, with evidence of it firing", "status": "proposed"},
-  {"role": "storyteller", "owns": "the arc: chapter plan, voice, the two threads braided", "first": "the chapter plan, from the librarian's index and the historian's timeline", "status": "proposed"},
-  {"role": "writer", "owns": "the chapters themselves (the talk's deck member's successor)", "first": "chapter 1 as soon as the plan is signed", "status": "proposed"},
-  {"role": "researcher", "owns": "the claims register: every number in the book traced to the record or a source", "first": "the numbers in the brief, checked; then the talk's claims", "status": "proposed"},
-  {"role": "designer / illustrator", "owns": "covers, the book's infographics, the talk's visuals re-drawn for print", "first": "the cover in three proposals; the list of talk visuals that survive on paper", "status": "proposed"},
-  {"role": "publisher", "owns": "Leanpub and KDP listings, PDF and EPUB from one source, the paperback proof", "first": "the Leanpub book created and the build producing a PDF on day one", "status": "proposed"},
-  {"role": "readers (synthetic)", "owns": "the market research: who buys this, what they call the problem, where they put it down", "first": "five to eight readers from real buyer types read the brief and the chapter plan", "status": "proposed"}
+  {
+   "role": "conductor",
+   "owns": "the schedule, routing, pace, the editor's decisions page, the two-repository valve",
+   "first": "stand up both repositories; fix the chapter plan with the editor by Friday night",
+   "status": "staffed: conductor@book.the-ultimate-insider, at the editor's word, 30 October"
+  },
+  {
+   "role": "librarian",
+   "owns": "the inventory of the source: every file, wake, debrief, decision, memo and chat, indexed",
+   "first": "the index, before any chapter is written; the source map is the seed",
+   "status": "proposed"
+  },
+  {
+   "role": "historian",
+   "owns": "the timeline: the day minute by minute, from the git log and the wake records",
+   "first": "the timeline of 29 October, with the ten or so turning points marked",
+   "status": "proposed"
+  },
+  {
+   "role": "technologist",
+   "owns": "how the setup works: tools, schedules, keys, vaults, builds, the player",
+   "first": "the architecture of the team, as diagrams and prose, enough to rebuild it",
+   "status": "proposed"
+  },
+  {
+   "role": "security (GRC)",
+   "owns": "the controls: policies, holds, keys, reviews, what each one stopped, what it missed",
+   "first": "the control register: every control in the record, with evidence of it firing",
+   "status": "proposed"
+  },
+  {
+   "role": "storyteller",
+   "owns": "the arc: chapter plan, voice, the two threads braided",
+   "first": "the chapter plan, from the librarian's index and the historian's timeline",
+   "status": "proposed"
+  },
+  {
+   "role": "writer",
+   "owns": "the chapters themselves (the talk's deck member's successor)",
+   "first": "chapter 1 as soon as the plan is signed",
+   "status": "proposed"
+  },
+  {
+   "role": "researcher",
+   "owns": "the claims register: every number in the book traced to the record or a source",
+   "first": "the numbers in the brief, checked; then the talk's claims",
+   "status": "proposed"
+  },
+  {
+   "role": "designer / illustrator",
+   "owns": "covers, the book's infographics, the talk's visuals re-drawn for print",
+   "first": "the cover in three proposals; the list of talk visuals that survive on paper",
+   "status": "proposed"
+  },
+  {
+   "role": "publisher",
+   "owns": "Leanpub and KDP listings, PDF and EPUB from one source, the paperback proof",
+   "first": "the Leanpub book created and the build producing a PDF on day one",
+   "status": "proposed"
+  },
+  {
+   "role": "readers (synthetic)",
+   "owns": "the market research: who buys this, what they call the problem, where they put it down",
+   "first": "five to eight readers from real buyer types read the brief and the chapter plan",
+   "status": "proposed"
+  }
  ],
  "decisions": [
-  {"id": "Q1", "status": "open", "by": "editor", "ask": "The repository names and addresses", "detail": "The brief proposed `SGit-AI__Book__The-Ultimate-Insider` and `SGit-AI__Book__The-Ultimate-Insider__Blind`, sites under sgit.ai. This repository exists as `SGit-AI__Website__Book__The-Ultimate-Insider`, serving the-ultimate-insider.book.sgit.ai (see the corrections). Open: the blind repository's name and address."},
-  {"id": "Q2", "status": "open", "by": "editor", "ask": "The hours", "detail": "Hourly wakes, as on the talk's team.", "options": ["round the clock", "08:00 to 22:00 London"]},
-  {"id": "Q3", "status": "open", "by": "editor", "ask": "The title", "detail": "Pick or strike from the candidates on [the book page](../book/index.html#title), or give his own. Signed in round 1."},
-  {"id": "Q4", "status": "open", "by": "editor", "ask": "The editor's voice memos and the claude.ai transcripts of 29 October", "detail": "They are not in the talk's repository; the editor holds them. Do they go into the source?"},
-  {"id": "Q5", "status": "open", "by": "editor", "ask": "The licence of the text", "detail": "Proposed: CC BY 4.0, as for the Gen ZX book. The site's footer says so, marked as proposed, until signed."},
-  {"id": "S1", "status": "decided", "by": "editor", "ask": "The centre of gravity", "detail": "The third of three candidates: not the argument alone, not the method alone, but the two as one story. The team that built the talk is itself the ultimate insider, and the book shows the controls working on itself."},
-  {"id": "S2", "status": "decided", "by": "editor", "ask": "Analysis with hindsight, not raw content", "detail": "The record is quoted as evidence; the writing explains it. A chapter that is mostly quoted record is sent back. Every chapter ends with where it came from."},
-  {"id": "S3", "status": "decided", "by": "editor", "ask": "The dates", "detail": "Leanpub on Monday 2 November 2026; Amazon and a paperback proof by Web Summit, Monday 9 November."},
-  {"id": "S4", "status": "decided", "by": "editor", "ask": "Two repositories and the one-way valve", "detail": "The informed book repository and the blind repository run in parallel, from the talk's repository pinned at `298be4e`, read-only. Nothing flows from here to the blind one."},
-  {"id": "S5", "status": "decided", "by": "editor", "ask": "The market-research and positioning stream starts at once", "detail": "Synthetic readers, three positioning statements tested against them, the comparison set, and the Web Summit plan, in parallel with the writing."}
+  {
+   "id": "Q1",
+   "status": "open",
+   "by": "editor",
+   "ask": "The repository names and addresses",
+   "detail": "The brief proposed `SGit-AI__Book__The-Ultimate-Insider` and `SGit-AI__Book__The-Ultimate-Insider__Blind`, sites under sgit.ai. This repository exists as `SGit-AI__Website__Book__The-Ultimate-Insider`, serving the-ultimate-insider.book.sgit.ai, and the blind repository as `SGit-AI__Website__Cold-Read__The-Ultimate-Insider` (see the corrections). Open: the editor confirms both names and the blind repository's address."
+  },
+  {
+   "id": "Q2",
+   "status": "open",
+   "by": "editor",
+   "ask": "The hours",
+   "detail": "Hourly wakes, as on the talk's team.",
+   "options": [
+    "round the clock",
+    "08:00 to 22:00 London"
+   ]
+  },
+  {
+   "id": "Q3",
+   "status": "open",
+   "by": "editor",
+   "ask": "The title",
+   "detail": "Pick or strike from the candidates on [the book page](../book/index.html#title), or give his own. Signed in round 1."
+  },
+  {
+   "id": "Q4",
+   "status": "open",
+   "by": "editor",
+   "ask": "The editor's voice memos and the claude.ai transcripts of 29 October",
+   "detail": "They are not in the talk's repository; the editor holds them. Do they go into the source?"
+  },
+  {
+   "id": "Q5",
+   "status": "open",
+   "by": "editor",
+   "ask": "The licence of the text",
+   "detail": "Proposed: CC BY 4.0, as for the Gen ZX book. The site's footer says so, marked as proposed, until signed."
+  },
+  {
+   "id": "S1",
+   "status": "decided",
+   "by": "editor",
+   "ask": "The centre of gravity",
+   "detail": "The third of three candidates: not the argument alone, not the method alone, but the two as one story. The team that built the talk is itself the ultimate insider, and the book shows the controls working on itself."
+  },
+  {
+   "id": "S2",
+   "status": "decided",
+   "by": "editor",
+   "ask": "Analysis with hindsight, not raw content",
+   "detail": "The record is quoted as evidence; the writing explains it. A chapter that is mostly quoted record is sent back. Every chapter ends with where it came from."
+  },
+  {
+   "id": "S3",
+   "status": "decided",
+   "by": "editor",
+   "ask": "The dates",
+   "detail": "Leanpub on Monday 2 November 2026; Amazon and a paperback proof by Web Summit, Monday 9 November."
+  },
+  {
+   "id": "S4",
+   "status": "decided",
+   "by": "editor",
+   "ask": "Two repositories and the one-way valve",
+   "detail": "The informed book repository and the blind repository run in parallel, from the talk's repository pinned at `298be4e`, read-only. Nothing flows from here to the blind one."
+  },
+  {
+   "id": "S5",
+   "status": "decided",
+   "by": "editor",
+   "ask": "The market-research and positioning stream starts at once",
+   "detail": "Synthetic readers, three positioning statements tested against them, the comparison set, and the Web Summit plan, in parallel with the writing."
+  }
  ]
 }
