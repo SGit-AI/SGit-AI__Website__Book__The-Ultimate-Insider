@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "storyteller",
- "as_of": "2026-10-30T09:50:00Z",
+ "as_of": "2026-10-30T10:55:00Z",
  "round": 1,
- "state": "staffed; chapter plan draft 5 in chapter-plan/, not signed; waiting on the editor (P0, O1 to O5, C011); U1 (idle members) is the editor's",
+ "state": "staffed; the plan (draft 5) signed by the editor; RC1 reviewed against it, findings with the conductor (comms/mail/mailroom/conductor/storyteller__003-rc1-review.eml)",
  "done": [
   {
    "what": "session key sha256:edc67e3cc68b3b07 published (team/storyteller/key.json, key.png, sessions/session_01Kw9UwFSAdt6ywy4t5H8kvd/)",
@@ -52,25 +52,23 @@
   {
    "what": "draft 5: the historian's eight argued turning points in place of the candidates; C031's cause (the 02:47 freeze, the fix not carried across its lift) in chapters 5 and 8",
    "when": "2026-10-30"
+  },
+  {
+   "what": "RC1 reviewed against the signed plan, the register and the editor's voice, with the Cold-Read team's critique and readers read in place: 21 findings and small fixes, by file and line, in one letter to the conductor; two corrections to the plan",
+   "when": "2026-10-30"
   }
  ],
  "next": [
   {
-   "what": "draft 3 when the timeline's turning points are argued and the control register's round 1 lands: chapter 1's view of the day, chapters 7 to 9",
-   "why": "the plan waits on them"
+   "what": "review RC1's revision as it lands, chapter by chapter against the plan and the voice",
+   "why": "the editor reads RC1 on paper on his flight; Done when 3 (the writer has no open question)"
   },
   {
-   "what": "the plan and the title signed by the editor in round 1",
-   "why": "nothing is written until the plan is signed"
+   "what": "chapter 11 mapped from the Cold-Read team's findings, as the comparison",
+   "why": "Done when 2"
   }
  ],
- "asks": [
-  {
-   "to": "editor",
-   "what": "sign or strike P0, O1 to O5 and C011 (book.json, the decisions page)",
-   "file": "chapter-plan/open-questions.md"
-  }
- ],
+ "asks": [],
  "session": "session_01Kw9UwFSAdt6ywy4t5H8kvd",
  "task": {
   "id": "trig_017wCRMAnPCSZsLndXPkbLcD",

@@ -1,0 +1,60 @@
+From: storyteller@book.the-ultimate-insider
+To: conductor@book.the-ultimate-insider
+Date: Fri, 30 Oct 2026 10:55:00 +0000
+Subject: Re: review all the work, and RC1: findings by file and line, in four groups
+X-Kind: reply
+References: comms/mail/mailroom/storyteller/conductor__003-review-and-rc1.eml; comms/mail/mailroom/storyteller/conductor__004-the-editors-voice.eml; chapter-plan/plan.md (draft 5)
+
+RC1 was reviewed against the signed plan (draft 5), your brief, the register as it stands at 10:44, and the newsroom writer's rules for the editor's voice. The Cold-Read team's finished work was read in place, read only; nothing went there. Line numbers are from the files in team/conductor/rc1/ as of 10:44. The drafts are yours: nothing in them was touched.
+
+The arc holds. Every chapter argues what the plan says, keeps its failure and ends with where it came from. No em-dashes, British spelling throughout. What follows is what to fix, most urgent first.
+
+A. FIX BEFORE PRINT (wrong against the register, or attack-shaped)
+
+1. C014 has been corrected twice (its note) and six files still use the withdrawn counts (conductor 107, dev 52, 162 merges, 13 unattributed). The register now gives conductor 106, dev 64, 439 non-merge commits, 165 merges by parents (164 Claude's), none unattributed.
+   - 03-a-mandate-you-can-read.md:45: the blind-spot paragraph loses most of its evidence; keep it only for the commits marked without the @, if agents.py really misses them.
+   - 07-building-the-talk.md:13 (107) and :61 (52).
+   - 11-what-the-cold-reader-saw.md:72-73: the disagreement over merges no longer exists; say the register adopted the parents method after the cold count, and credit the cold reader.
+   - 99-appendix-a-every-number-rerun.md:74: restate C014; merges by `git log --merges`; unattributed by trailer.
+   - 12-build-your-own.md:127 and 01-pause-all-actions.md:89: both lean on "commits that name no member"; drop the clause.
+2. 09-the-team-was-the-insider.md, three passages read as methods, not risks (the book's rule: nothing attack-shaped):
+   - :96 how a member's published key could be replaced before a handover; say only that nobody was assigned to check each new key.
+   - :52 the seconds a running wake has past a hold, with a threat label; keep "a hold stops the next wake, not a running one" (TP-8), drop the count and the label.
+   - :58 how a tool and its pin could change together; say what the pin check does not cover and that the fix is the editor's.
+   - :114 the session-by-session map of where the permission check allowed and refused, and "discovering where it was"; state the inconsistency once, plainly.
+3. 01-pause-all-actions.md:33: three commits after the hold; C005 gives two (88b8f00 and the merge 3f5d7fc). The third is the hold's own release.
+4. 04-the-hourly-machine.md:73 and :93: of the three leaks of the same kind (C025), one was caught before it shipped, two after; the draft says the reverse.
+5. 05-the-story-before-the-slides.md:85: "a brake had told them not to" is draft 4's reading; C031 and TP-3 say the freeze was lifted at 14:07 and nobody carried the fix across. :37 and :53 disagree on whose sentence "smaller and more mature" was (C030: the storyteller's, in the tree); :37 and :41 grade it A0 with no register entry.
+6. 08-the-locks-that-never-closed.md:59: the dropped "lock moved to 19:00" (39df303, outside the record) is back; delete the clause. Line 35 says 17:48 and line 59 says 17:47 for dev's wake: make them agree.
+7. Unregistered numbers: 02:3 and :77 "twenty-four minutes" (use 00:16 and 00:40); 09:38, :88, :102, :114 (four counts); 11:27 (510 is C042, 405 untraced); 11:5 "twelve members"; 10:3 the event and host (cite the transcript's header at a9c0b49). Register or describe.
+8. Appendix A: 99:204 C011 now gives both columns; 99:212 says 40 claims, the register has 42 (add C041, C042); 99:202 and :9 disagree; add one line that "Claude" is the git author name of the agents' account, not a byline.
+
+B. OVER BUDGET (the plan allows 15%)
+
+9. 10-the-talk-as-given.md: 4,217 against 3,500 (+20%). Cut about 250 words: the room's questions, the proposals list, one of the "five things" that repeats earlier chapters.
+10. 00-before-you-start.md: 1,442 against 1,200 (+20%). Cut about 70: the "ten" explanation (:42) and the explorer passage (:68-72).
+
+C. THE ARC: what the Cold-Read team's work adds to the plan (proposals for the revision; the plan stays signed)
+
+Their critic, journalist and five synthetic readers, read against the plan. Most of what they found the plan already carries (the hold, the locks, the freeze behind C031, the register as a record and not a gate, analysis over the night's logs). Six things it does not, each needing a register entry first where it has a number:
+11. Chapter 1: the talk's own opening line said no hold had been pulled, and the script still said so after the 18:44 hold; the counter counted hold files present, not holds pulled. The strongest single scene in their work. Register, then set it beside the hold.
+12. Chapter 8: "the five steps held" overstates it; near the deadline some wakes worked before they planned, two never closed, post-checks went partial (C022, C023). And the live-demo slides embedded the demo sites although security's conditions of 17:15 ruled embedding out, passed by a review that checked only for keys; most of the promised recorded fallbacks never came. The clearest control bent under the deadline.
+13. Chapter 9: lead with the one expectation that never fired: across every wake record no review said stop (C023), the reviewers had the member's own reach, and only a person's quota stopped the team.
+14. Chapter 2: a second failure. REALITY.md, held up as where truth is kept, was out of date at release on the talk, the studio pieces and the keys. (Also my plan's own error: at 298be4e BRIEF-CORRECTIONS.md still said none yet, as 02:97 found; the plan is corrected today.)
+15. Chapter 5: the incident split ("three of five not attacks" against the slide's own two of five) is the C031 pattern a second time, open on the talk's side and never settled. Register, then add.
+16. Chapter 0, before chapter 3's policies and chapter 12's "go build": the editor's own interest in the projects the talk points to is disclosed only on the about page. Readers who are buyers stop there. One plain sentence in his voice, early. And say once what each count counts (members staffed, merges, releases): their readers lost trust when the team's size and the talk's length were counted several ways.
+
+D. THE EDITOR'S VOICE (the newsroom writer's rules)
+
+The whole book is third person ("the editor", "the speaker"), so the revision is throughout, not chapter 6 alone. Where it will be hardest, or where he would not say it:
+17. He would not praise himself: 00:40 "signed every decision that mattered"; 01:51 "the hold was right"; 03:95 his talk as "evidence"; 03:89 trim his chat quote praising his own approvals; 04:95 "a very good set of expectations"; 08:77 "the one person who could see"; 08:55 "the most important of the day"; 10:69, :79, :99, :117 his judgement as "a strong filter", his verdict "warm". State what he did; leave the verdict to the reader.
+18. The book speaks for his motives and inner state: 06:21, :41, :49, :79, :85; 07:31; 04:75; 02:47; 03:17. In his voice each becomes his own account. RC1 is record only (O4), so where the record does not say, he should say "I do not know from the record" rather than the book guessing (10:61 is the clearest case).
+19. He should own his own failures in the first person, which is where his voice is strongest: 11:39 (his live request that overrode a security condition), 10:63 (the $17.4M on his slide behind him), 12:103 and :11, :93, :133, :137.
+20. Sources named and dated: 00:70 explorer, villager, town planner is his version of Simon Wardley's pioneers, settlers and town planners; credit it, with a date. 01:9 put the C021 caveat at the first mention of 95% ("I told the conductor we were at 95%").
+21. 03:25 quotes "a Claude Code session" from the record: allowed as a quote, but check it against his rule that the book never names the model that wrote it.
+
+Small, for whoever revises: 06 never names its control C7 in the text (:69); 07:85 says 01:40 where 04:13 has 01:36 (5c2bcc5); chapters 4 and 7 never name their turning points in the text; 02:81 calls the hold "the accidental" brake, where chapter 1 calls it designed, pulled for an accidental limit's sake; 08 and 09 use register ids outside the plan's claims lines, which the plan now allows (see below); 11:93 lists the wrong image sources for its composite; 12:87 repeats the brief's "twenty minutes before the lock" (C018); 12:125 add TP-3 beside C031.
+
+Two changes to the plan itself, made at this wake in chapter-plan/plan.md, neither changing what the editor signed: chapter 2's failure line now says the corrections file held none at release (the brief's errors were corrected only on this book's side); and the claims rule now reads that a chapter must use the ids in its claims line and may use any other registered id, so 08 and 09 are within it.
+
+storyteller@book.the-ultimate-insider

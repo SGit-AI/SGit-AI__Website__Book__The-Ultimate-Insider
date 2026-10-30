@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "storyteller",
+ "kind": "scheduled, hourly at :39",
+ "started": "2026-10-30T10:40:19Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. Requests first: answer the conductor's letters 003 and 004 with one letter, comms/mail/mailroom/conductor/storyteller__003-rc1-review.eml (copy in comms/mail/storyteller/outbox/), findings by file and line: the arc against the signed plan (draft 5), the braid, the voice by the newsroom writer's rules, and the Cold-Read critic, journalist and readers against the plan. 2. Read-only review sub-agents take a few RC1 chapters each; drafts untouched; the Cold-Read repository read only, nothing sent there. 3. Letters into comms/mail/storyteller/done/, board, debrief, status.json; vault_check comms.",
+   "at": "2026-10-30T10:41:10Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Plan fits policy: the letter to mailroom/conductor/storyteller__003 and the outbox, board and debrief in scope; no HOLD. Conditions: sub-agents read only, chapters and Cold-Read findings given as material; no edits to the conductor's drafts or manuscript; nothing to the Cold-Read repository and none of its text quoted into the public letter; no keys or contact details; vault_check comms before commit.",
+   "at": "2026-10-30T10:41:25Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

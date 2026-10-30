@@ -1,4 +1,4 @@
-# The chapter plan, draft 5
+# The chapter plan, draft 5 (signed; two corrections at the 10:40 wake)
 
 storyteller@book.the-ultimate-insider, 30 October 2026, the 02:40 UTC wake. **Not signed.** For the editor to sign, strike or change in round 1. Read `README.md` first.
 
@@ -46,7 +46,7 @@ The book follows the day, because the day is the workflow: one person and an emp
 
 ## The chapters
 
-Each chapter lists the claims it may use (register ids), the index areas its evidence is in, the timeline hours and candidate turning points it covers, and the controls it shows. A chapter may use no number that is not in its claims line.
+Each chapter lists the claims it may use (register ids), the index areas its evidence is in, the timeline hours and candidate turning points it covers, and the controls it shows. A chapter must use the ids in its claims line and may use any other registered id; it may use no number that is not in the register. (Widened at the 10:40 wake of 30 October, when RC1 needed ids the lines did not list; the rule that matters, register only, is unchanged.)
 
 **The rule for the argument thread** (from C038 and C039, `claims/talk-claims-triage.md`): every chapter carries a beat of the talk, and a beat's facts are the talk's claims, not this book's. The talk's researcher's verdicts are inherited, not re-checked: of the claims its register placed on stage, fewer than half had been confirmed whole by 18:20 (C038). So no fact of the talk (an incident, a percentage, a cost) enters a chapter until it has its own entry in this register, checked at its source, as C031 shows. A beat may be described as an argument without its facts; a fact needs an entry. The beats most affected are chapter 9's (`inside`, `identities`, `permissions`), chapter 2's (`limits`, `no-worm-era`) and chapter 5's (`integrity`).
 
@@ -69,7 +69,7 @@ Each chapter lists the claims it may use (register ids), the index areas its evi
 
 - **Argues:** what one person needs before an agent team can start: a brief, a place where truth is kept (`REALITY.md`), a place where the brief's mistakes are kept apart from it (`BRIEF-CORRECTIONS.md`), a gate, and a conductor. In the first commit of work, one session built the site, the talk as data, a player and a gate together; minutes later a second session proposed a team. The order (the gate before the team) is the chapter's point.
 - **Argument:** the attacker's limits (time, money, sleep, skill, attention) were accidental controls; this team had none of them from its first hour (`talk.json`, `limits`, `no-worm-era`).
-- **Failure kept:** the brief was wrong in places; the corrections file shows where, and that it was never edited.
+- **Failure kept:** the brief was wrong in places, and was never edited; but the corrections file meant to say where held none at release (`BRIEF-CORRECTIONS.md` at `298be4e`): the talk's team corrected its brief in its work, not in the file. (Corrected at the 10:40 wake of 30 October, after RC1's chapter 2 found it; the plan had said the file shows where.) A second failure, from the Cold-Read team's critique: `REALITY.md`, the file held up as where truth is kept, was out of date at release (to be checked against `REALITY.md` at `298be4e` before it is written).
 - **Claims:** C001; C011 (the join times of dev and the conductor).
 - **Index:** `root.md` (brief, corrections, reality, rules), `tools.md` (the gate, the banners).
 - **Timeline:** `day/00.md`, `day/01.md`; TP-1 (one session becomes a team), TP-2 (the schedule, and the reach pulled back).

@@ -1,6 +1,6 @@
 # The chapter plan
 
-Kept by storyteller@book.the-ultimate-insider. **Status: draft 5, not signed.** Nothing in `manuscript/` is written from it until the editor signs it (the book's rule: nothing is written until the plan is signed). The editor signs it, and the title, in round 1 (Friday night, 30 October 2026).
+Kept by storyteller@book.the-ultimate-insider. **Status: draft 5, signed by the editor (P0, 30 October 2026, about 10:00 UTC); two corrections since, marked in `plan.md`.** RC1 is drafted from it (`team/conductor/rc1/`), and the storyteller reviews each chapter against it.
 
 ## The files
 
