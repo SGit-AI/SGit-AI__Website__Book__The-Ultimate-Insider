@@ -1,0 +1,186 @@
+{
+ "schema": "the-ultimate-insider/rc1-annotations/v1",
+ "role": "historian",
+ "drafted_by": "a conductor sub-agent reading as the historian (not the member's own words)",
+ "summary": "RC1 tells the day in the right order and its times check against the talk's git log almost everywhere. Where it slips, it slips towards kindness: the leaks reached public history, the lock may have been rescheduled by the editor rather than forgotten, and two orderings rest on an agent's reading of the editor's words. Four questions only the editor can answer would settle most of it.",
+ "items": [
+  {
+   "id": "historian-01",
+   "chapter": "08-the-locks-that-never-closed.md",
+   "anchor": "The record does not say why the lock was not run, and this book does not claim to know.",
+   "kind": "question",
+   "title": "Did you move part 1's lock to 19:00?",
+   "body": "Chapters 1 and 8 treat dev's subject '17:47 wake closed (partial: the lock moved to 19:00)' as what dev believed, not what happened. Its wake record on dev's branch (39df303, 18:48, outside 298be4e) is more specific: the post-check says 'The lock itself moved to 19:00 by the editor', so it would run in the next wake. If you did move it in dev's session, the lock did not fail for want of a free session: you rescheduled it and the hold overtook it, and chapter 8's 'a brake that depends on one busy agent' is unfair to dev. Did you, and roughly when?",
+   "options": [],
+   "recommendation": "",
+   "answer_space": "lines",
+   "claim_ids": []
+  },
+  {
+   "id": "historian-02",
+   "chapter": "04-the-hourly-machine.md",
+   "anchor": "The first is encouraging: the second and third were caught before their commits, in wakes no person was watching.",
+   "kind": "comment",
+   "title": "The leaks reached public history; RC1 says otherwise",
+   "body": "Chapter 4 says the second and third findings were caught before their commits and the leak 'closed twice before it shipped'; chapter 9 says the 04:10 cookie values were stopped from reaching the public record. The researcher's own check (aa7a3eb, 07:18, evidence/updates/2026-10-29__the-vault-history-checked.md) says the 02:22 commits already carried the cookie values, and a push at 05:23, after the 04:10 finding, carried form tokens. The 06:14 post-review itself says 'also in the 02:22 push'. All three kinds reached public history; the reviews redacted, they did not prevent (C025). The book is kinder to the controls than the record is.",
+   "options": [],
+   "recommendation": "Correct chapters 4, 9 and 12 in the revision: the failures stay in, at their true size.",
+   "answer_space": "none",
+   "claim_ids": [
+    "C025"
+   ]
+  },
+  {
+   "id": "historian-03",
+   "chapter": "12-build-your-own.md",
+   "anchor": "On the talk's team, dev's first commit came at 00:40 and the conductor joined at 00:58 (C011); on this book's, the conductor was staffed at 00:56 and the others at 01:41.",
+   "kind": "decision",
+   "title": "One meaning of 'joined' for the whole book",
+   "body": "Chapters 1, 2 and 7 date the conductor from 00:44 and deck from 00:51, their join commits (97b98d9, 20ab1a3). Chapter 12 says the conductor joined at 00:58, and the register lists deck at 02:20 (C011). Appendix A shows why: C011 mixes methods, first commits for dev and ruv-sgit, first published keys for the rest. A reader will meet three times for the same event.",
+   "options": [
+    "A: Joined means the member's join commit (dev 00:40, conductor 00:44, deck 00:51, ruv-sgit 01:08); key times appear only in chapter 3",
+    "B: Joined means the first published key, as C011's command prints, for every member",
+    "C: Give both wherever they differ"
+   ],
+   "recommendation": "A: the join commit is the act the timeline and turning points use. Chapter 3's argument that membership is a published key keeps the key times, stated as such. The researcher restates C011 on one method.",
+   "answer_space": "none",
+   "claim_ids": [
+    "C011"
+   ]
+  },
+  {
+   "id": "historian-04",
+   "chapter": "07-building-the-talk.md",
+   "anchor": "The register corrects the reading, not the facts (C040).",
+   "kind": "comment",
+   "title": "The 13:50 time is in the record after all",
+   "body": "C040 says no 13:50 time is attached to the player priority. One is: team/conductor/briefs/2026-10-29__editor/feedback-briefs.md opens 'From the editor ... about 13:50 London, dictated in a ... chat', and its first item calls the player 'the main priority', ahead of the append lane, 'which becomes second'. The folder's README is headed about 14:00. So the lessons brief's 13:50 holds; what changed is the order, in the conductor's notes of 14:05 (conductor-notes.md). Chapters 7 and 12 cite the README and miss the brief you dictated.",
+   "options": [],
+   "recommendation": "The researcher re-corrects C040; chapters 7 and 12 cite feedback-briefs.md as your words and conductor-notes.md as the reordering.",
+   "answer_space": "none",
+   "claim_ids": [
+    "C040"
+   ]
+  },
+  {
+   "id": "historian-05",
+   "chapter": "07-building-the-talk.md",
+   "anchor": "On the order of work, it supports the editor's.",
+   "kind": "question",
+   "title": "Did you mean the lane before the player?",
+   "body": "Chapters 7 and 12 say you reordered your own priorities, lane first and player second, and call the lessons brief unfair for leaving that out. Your dictated brief of about 13:50 put the player first and the lane second in so many words. The reversal rests on the conductor's notes of 14:05, which quote you calling the lane 'quite a priority' and offering to wake dev for it; the words 'first' and 'second' are the conductor's. Did you mean the lane to go ahead of the player, or alongside it? Chapter 7's lesson, and the fairness of chapter 12's table, turn on your answer.",
+   "options": [],
+   "recommendation": "",
+   "answer_space": "lines",
+   "claim_ids": []
+  },
+  {
+   "id": "historian-06",
+   "chapter": "08-the-locks-that-never-closed.md",
+   "anchor": "There is no commit at 18:30, and no locked copy in the tree at the end of the day (C027).",
+   "kind": "comment",
+   "title": "There was a commit at 18:30",
+   "body": "Motion committed at 18:30:25 (5fd7877, closing its 18:25 wake) and merged at 18:30:27 (3e14cd4). What did not happen at 18:30 is the lock: no run of lock.py, no locked/ folder, no part in the lock list (C027). The point stands, but the sentence is checkable and false, in the chapter about checking.",
+   "options": [],
+   "recommendation": "Rewrite as: 'At 18:30, the time the plan set, no lock ran.'",
+   "answer_space": "none",
+   "claim_ids": [
+    "C027"
+   ]
+  },
+  {
+   "id": "historian-07",
+   "chapter": "10-the-talk-as-given.md",
+   "anchor": "How long the talk ran on stage is not in the day's record (C026).",
+   "kind": "decision",
+   "title": "State how long the talk ran, from the transcript?",
+   "body": "Chapter 10 declines to give the talk's length because the register has no entry. The transcript article added after the day (a9c0b49) states a running time in its header, timestamps every passage and counts the passages from the room. They are the strongest evidence for the chapter's claim that the questions consumed the close, and without them the claim is an impression. The planned length is registered (C026); the actual one is not.",
+   "options": [
+    "A: The researcher registers the running time and the room's share from a9c0b49, marked added after the day, and chapter 10 states them",
+    "B: Leave them unstated until the passage timestamps are checked against the recording",
+    "C: You give the recording's own length, and that is registered"
+   ],
+   "recommendation": "A, after the researcher checks the header against the passage timestamps; C only if the two disagree.",
+   "answer_space": "none",
+   "claim_ids": [
+    "C026"
+   ]
+  },
+  {
+   "id": "historian-08",
+   "chapter": "06-the-editor-signs.md",
+   "anchor": "The record of what he decided lives in many files, each quoted by the agent that heard it, and a decision is only as authentic as that agent's quotation.",
+   "kind": "decision",
+   "title": "Your own transcripts behind the key quotations",
+   "body": "Several turning points rest on an agent's quotation of you: the 18:44 'pause all actions', the 17:40 'So I agree with all those policies', the lane-versus-player order, the lock moved to 19:00. Chapter 6 says plainly that each is only as good as the quoting agent. Decision Q4 says your voice memos and chat transcripts enter the source when you share them; O4 keeps RC1 to the record.",
+   "options": [
+    "A: Share the chat transcripts of 29 October for those moments, cited as added after the day, before the revision",
+    "B: Keep the record only, and add one line in chapter 0 that your words are as your agents recorded them",
+    "C: B in this revision, A for the first edition"
+   ],
+   "recommendation": "C: the caveat costs a sentence now; the transcripts can then confirm or correct the four moments the argument leans on.",
+   "answer_space": "none",
+   "claim_ids": []
+  },
+  {
+   "id": "historian-09",
+   "chapter": "12-build-your-own.md",
+   "anchor": "So this chapter cannot say what it cost, and it should not pretend to.",
+   "kind": "question",
+   "title": "Can you supply the day's usage and your hours?",
+   "body": "The register holds one usage reading for the day, your 95% of a five-hour window at 18:44, and nothing else: no daily total, no weekly figure, no money, no hours at the keyboard (C021, C037). Only you can supply them. Could you add your usage page for 29 October, or a note of it, to the talk's repository, to be cited as added after the day? Without it chapter 12's cost section stays 'not recorded', which is honest but is also the section a sceptical reader turns to first.",
+   "options": [],
+   "recommendation": "",
+   "answer_space": "lines",
+   "claim_ids": [
+    "C021",
+    "C037"
+   ]
+  },
+  {
+   "id": "historian-10",
+   "chapter": "10-the-talk-as-given.md",
+   "anchor": "The gap closed after the day.",
+   "kind": "comment",
+   "title": "The stills come from a build made after the talk",
+   "body": "The transcript article and its tool say the slides are 'the talk as released in v0.2.0', shot from that build. v0.2.0 is the merge at 23:19 (C007), after the talk; on stage the site was the 18:46 release, v0.1.209 (C005). The stills are still faithful: decision S7 records that 298be4e and cb5b996 differ only in ./version. But a reader who checks will find the book illustrating the talk with a post-talk build.",
+   "options": [],
+   "recommendation": "Say once, in chapter 0's 'How to read the record', that the stills were shot after the day from v0.2.0, whose content is the 18:46 release.",
+   "answer_space": "none",
+   "claim_ids": [
+    "C005",
+    "C007"
+   ]
+  },
+  {
+   "id": "historian-11",
+   "chapter": "02-midnight-an-empty-repository.md",
+   "anchor": "It had the skill: one session built a site and a talk engine in twenty-four minutes.",
+   "kind": "comment",
+   "title": "The record does not show dev's session start",
+   "body": "'Twenty-four minutes' measures from your empty repository at 00:16:23 (C001) to dev's first commit at 00:40:50. The record does not hold when dev's session started: it may have been working from the brief before the repository existed, or for only a few minutes. The chapter's argument does not need the duration, and the same claim appears in chapter 2's opening ('Nothing else happened in it for twenty-four minutes', which is accurate).",
+   "options": [],
+   "recommendation": "Rewrite as: 'one session had a site and a talk engine committed by 00:40, twenty-four minutes after the repository was created.'",
+   "answer_space": "none",
+   "claim_ids": [
+    "C001"
+   ]
+  },
+  {
+   "id": "historian-12",
+   "chapter": "01-pause-all-actions.md",
+   "anchor": "Pull back from 18:44 and the day has a shape.",
+   "kind": "decision",
+   "title": "Turning points in the day's order",
+   "body": "Chapter 1's 'day in one view' lists the freeze (02:47) before the five-step wake (02:14 to 02:51), and point 6, '15:00 to 15:47', includes the storyteller at 14:15. The list follows the numbering in timeline/turning-points.md, where the freeze was found later and inserted as point 3. Chapter 0 tells the reader to use this list as the map of the book, so it will be read as a sequence.",
+   "options": [
+    "A: Renumber in time order everywhere (the five-step wake third, the freeze fourth) and widen point 6 to start at 14:12",
+    "B: Keep the numbering and say once that the points are numbered as they were found",
+    "C: Reorder chapter 1's list only and keep the timeline's ids"
+   ],
+   "recommendation": "A: one order, the day's own; the historian renumbers the timeline and the chapters' TP references follow.",
+   "answer_space": "none",
+   "claim_ids": []
+  }
+ ]
+}

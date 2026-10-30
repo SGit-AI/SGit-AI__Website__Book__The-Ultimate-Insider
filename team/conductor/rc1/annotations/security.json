@@ -1,0 +1,178 @@
+{
+ "schema": "the-ultimate-insider/rc1-annotations/v1",
+ "role": "security",
+ "drafted_by": "a conductor sub-agent reading as the security (not the member's own words)",
+ "summary": "RC1 makes the insider argument fairly and, read as security, describes no method: reach is shown as what a benign member could do and why it mattered. Its weak points are security facts that went stale during the morning (the key tool's medium finding, the gate already widened, leaks said to be caught before they were public) and two live exposures the book now points at, the key tool's keyfile command and the evidence vault's history (D12), which want your decision before publication. The one-way valve needs a signed close.",
+ "items": [
+  {
+   "id": "security-01",
+   "chapter": "03-a-mandate-you-can-read.md",
+   "anchor": "What it found, in summary: the cryptography is standard and comes from the platform's own library, with no home-made primitives; no finding is rated above low.",
+   "kind": "comment",
+   "title": "Key tool review: one finding is medium, not low",
+   "body": "Chapter 3 says no finding in this book's review of the pinned key tool is above low, and chapter 9 says the review had not reached the last commands. Both were true early on 30 October and are not now. Security's tenth wake read the remaining commands and confirmed finding 14, rated medium: the keyfile command prints a session's private halves to standard output, in the clear when no passphrase is set. The Cold-Read team found it first, as chapter 11 says. Evidence: team/security/reviews/pki-agent-review.md and team/security/status.json. Proposed: 'one finding is medium, the rest low or information', credit the Cold-Read team, and drop 'had not yet reached' in chapter 9.",
+   "options": [],
+   "recommendation": "",
+   "answer_space": "none",
+   "claim_ids": []
+  },
+  {
+   "id": "security-02",
+   "chapter": "11-what-the-cold-reader-saw.md",
+   "anchor": "Nobody on either team ran it, and the remedy it names is a warning in the tool's README.",
+   "kind": "decision",
+   "title": "Fix the key tool before the book describes it",
+   "body": "Chapters 3 and 11 describe weaknesses in your own key tool, which is live at pki.sgit.ai and pinned by other teams: keyfile prints private halves, private halves are stored unencrypted without a passphrase, and a link may name any end date. The text stays at what and why, but a public book is a disclosure. Security's advice to you stands: make keyfile refuse without a passphrase, or write to a file only, and meanwhile no session runs it. Only you can change the tool and decide when the book may say so.",
+   "options": [
+    "A: fix the tool first; the book says what was found, that it was fixed, and in which version",
+    "B: publish as written; the findings are described without detail and the tool stays as it is",
+    "C: cut the specifics from chapters 3 and 11 until a fix ships"
+   ],
+   "recommendation": "A: the book argues that a pinned tool needs a reader and a fix; showing the fix closes that loop and ends the exposure.",
+   "answer_space": "none",
+   "claim_ids": []
+  },
+  {
+   "id": "security-03",
+   "chapter": "11-what-the-cold-reader-saw.md",
+   "anchor": "This book's gate has the same gap (`admin/build/validate.py`, line 109) and has not been widened.",
+   "kind": "comment",
+   "title": "This book's gate already checks the key tool's pin",
+   "body": "Chapters 9 and 11 say this book's gate does not check the key tool's pin and has not been widened. It has: check_vendored in admin/build/validate.py now reads admin/tools/*.sha256 as well as src/static, with a comment crediting the Cold-Read finding (e7d3d3d, 30 October, 10:19 UTC). The line cited has moved too. Proposed text: the Cold-Read team found the gap, and this book's gate was widened the same morning. The residual stays true and should stay at its present level of detail: a tool and its pin changed together in one commit still pass, which is why the review of admin/tools/ in item security-11 matters.",
+   "options": [],
+   "recommendation": "",
+   "answer_space": "none",
+   "claim_ids": []
+  },
+  {
+   "id": "security-04",
+   "chapter": "04-the-hourly-machine.md",
+   "anchor": "The first is encouraging: the second and third were caught before their commits, in wakes no person was watching.",
+   "kind": "comment",
+   "title": "The token leaks were all public before review",
+   "body": "Chapter 4 says the cookie values (04:10) and form tokens (06:14) were caught before their commits, and that a leak was 'closed twice before it shipped'; chapter 9 says the 04:10 review kept the cookie values out of the public record. The record says otherwise. C025's own 06:14 entry has the form tokens 'also in the 02:22 push'. The researcher's answer at 07:18 (aa7a3eb, with its counts file) says the evidence vault's commits of 02:22 and 05:23, readable with its published read key, hold cookie values and form tokens. The reviews cleaned the repository files; none of the three findings came before the values were public. Proposed: 'caught three times, each after it was public'.",
+   "options": [],
+   "recommendation": "",
+   "answer_space": "none",
+   "claim_ids": [
+    "C025"
+   ]
+  },
+  {
+   "id": "security-05",
+   "chapter": "06-the-editor-signs.md",
+   "anchor": "D12 was whether to do anything about other sites' tokens left in the public vault's history by a push the night before.",
+   "kind": "decision",
+   "title": "Settle D12 before the book points at the vault",
+   "body": "The evidence vault's history still holds anonymous cookie values and form tokens that other sites issued to the researcher's fetcher, readable by anyone with the published read key (aa7a3eb). D12, whether to act, was open at 19:00, and the record shows no answer since. RC1 now tells every reader that the history holds them, names the commits, and prints a screenshot of the vault. The values are of little use to anyone, but they are other parties' material in a public store, and only you can change the talk's repository and its vaults.",
+   "options": [
+    "A: move the evidence vault to a fresh one without the history (the researcher's own option in aa7a3eb) before publication, and the book says so",
+    "B: keep the vault; the book describes the failure without commit ranges or the vault screenshot",
+    "C: leave both as they are: the failure stays in, fully visible"
+   ],
+   "recommendation": "A: the failure stays in the book while the exposure ends; B is the fallback if a move would break links the talk's site depends on.",
+   "answer_space": "none",
+   "claim_ids": []
+  },
+  {
+   "id": "security-06",
+   "chapter": "09-the-team-was-the-insider.md",
+   "anchor": "If the push is the authorisation, any session that can push can publish or replace any member's `key.json`, and the handover seals to whatever that file says.",
+   "kind": "decision",
+   "title": "One sentence on keys reads as a route",
+   "body": "Chapter 3 states this risk at the right level: identity rested on write access, so a key's standing was only as strong as the push. This sentence goes a step further and joins the capability to its consequence, the vault-key handover sealing to whatever key file it finds. Joined, the two halves read as a route rather than a risk, and the book's rule is risks, never methods. Nothing of the kind happened on either team; the point is only the shape of the sentence.",
+   "options": [
+    "A: keep the sentence as written",
+    "B: soften it to what and why: nothing checked a published key against the session that made it, and that check was the unstaffed security member's job",
+    "C: cut it and point to chapter 3"
+   ],
+   "recommendation": "B: the argument loses nothing, and the book stays on the right side of its own rule.",
+   "answer_space": "none",
+   "claim_ids": []
+  },
+  {
+   "id": "security-07",
+   "chapter": "12-build-your-own.md",
+   "anchor": "The scope check runs on every release (`admin/build/agents.py check`).",
+   "kind": "comment",
+   "title": "Chapter 12 overstates two controls a builder will copy",
+   "body": "Two sentences in the how-to chapter will be copied, and both say more than the record. 'The scope check runs on every release': this repository's gate calls agents.py only to find two members claiming one file (overlaps); each member runs check on itself, as chapter 3 says of the talk's team. And the session's own permission check is offered as the boundary that did refuse; chapter 9 shows it allowed the same self-widening in the historian's and the publisher's sessions before any signature, then refused the researcher after one. Proposed: say the check is self-run, and present the harness check as a refusal that held most of the time and could not be planned around.",
+   "options": [],
+   "recommendation": "",
+   "answer_space": "none",
+   "claim_ids": []
+  },
+  {
+   "id": "security-08",
+   "chapter": "11-what-the-cold-reader-saw.md",
+   "anchor": "The editor's word in one session quietly overrode a security condition recorded in another, and no review noticed.",
+   "kind": "question",
+   "title": "Did you know of the 17:16 condition on the demo?",
+   "body": "Chapter 11 builds a strong point on one case. At 17:16 your answers, with security's conditions, had the Linux demo as a link, with no frame or script from the demo site. Minutes later, in deck's session, you asked for it embedded; deck built it with the plan written after the work, and no review compared the two. The chapter calls it the insider argument with the roles reversed. The record cannot say whether you knew of the condition and overrode it on purpose, or never saw it. Your answer turns a control gap into a decision, or confirms the gap, and only you can give it.",
+   "options": [],
+   "recommendation": "",
+   "answer_space": "lines",
+   "claim_ids": []
+  },
+  {
+   "id": "security-09",
+   "chapter": "11-what-the-cold-reader-saw.md",
+   "anchor": "Here it was a promise, and it was kept.",
+   "kind": "decision",
+   "title": "Is the Cold-Read team closed for good?",
+   "body": "Chapter 11 quotes the Cold-Read team's findings and sets out this team's work in detail, and RC1 is public within minutes of reaching the site. The valve holds only while nothing from here reaches that team. The record says it has finished, but its brief set deliverables to Sunday 1 November, and the book's plan has synthetic readers reading the draft. Its conductor has already seen this team's names in the account's session list. If any Cold-Read session may still work, a public RC1 is a crossing.",
+   "options": [
+    "A: closed for good: publish RC1 when ready; the valve becomes history, and chapter 11 says when it closed",
+    "B: it may reopen: keep RC1 off the public site until you close it",
+    "C: publish now and accept that any later Cold-Read work is no longer blind"
+   ],
+   "recommendation": "A, signed in book.json, with one rule either way: the synthetic readers of the draft are new sessions on this side, never Cold-Read's. The experiment's worth is that it stayed blind, and a signed close keeps that claim true.",
+   "answer_space": "none",
+   "claim_ids": []
+  },
+  {
+   "id": "security-10",
+   "chapter": "09-the-team-was-the-insider.md",
+   "anchor": "Nothing here is attack-shaped.",
+   "kind": "rationale",
+   "title": "Why the insider argument here is fair and safe",
+   "body": "You may ask whether calling your own benign team the insider is unfair to it, or whether the book teaches anything a reader could misuse. Read as security, RC1 keeps to the line: every passage on reach says what a member could do and why it mattered, never how a control could be got round, and every control is shown with what it stopped and what it missed. The argument is the talk's own (beat team) and your words on stage about benign agents going rogue. No key, contact detail or internal host appears in any chapter. Two places come close to the line and have their own items: security-06 and security-02.",
+   "options": [],
+   "recommendation": "",
+   "answer_space": "none",
+   "claim_ids": []
+  },
+  {
+   "id": "security-11",
+   "chapter": "09-the-team-was-the-insider.md",
+   "anchor": "The fix it named, a required review for `admin/tools/` or a comparison with the upstream tool in CI, is the editor's to decide.",
+   "kind": "decision",
+   "title": "Who reviews changes to admin/tools/?",
+   "body": "The pin on the key tool stops an unnoticed changed copy, but a tool and its pin changed in the same commit pass together, in the talk's repository and in this one. Chapter 9 leaves the fix to you. The book can describe the residual, or describe its fix; the second makes a stronger chapter and a safer repository. A comparison needs the upstream tool reachable from CI; a review needs your hand on each such change, which is rare.",
+   "options": [
+    "A: a required review by you of any change under admin/tools/, set on the host",
+    "B: CI compares the pinned copy with the tool at pki.sgit.ai and fails on a difference",
+    "C: accept the residual and say so in chapter 9"
+   ],
+   "recommendation": "A: it is a setting outside every agent's reach, the very kind chapter 9 argues for, and it costs you only the occasional tool refresh.",
+   "answer_space": "none",
+   "claim_ids": []
+  },
+  {
+   "id": "security-12",
+   "chapter": "09-the-team-was-the-insider.md",
+   "anchor": "Its ids collide with this book's decisions and the researcher's claim ids, and are to be renamed; this chapter writes \"control C1\" where the collision could mislead.",
+   "kind": "decision",
+   "title": "Rename the control ids before the revision",
+   "body": "In print, the controls (C1 to C10), the decisions (C10, C10b, C011) and the claims (C001 to C040) sit side by side, and chapters 9 and 12 use all three. A reader with a pen cannot tell control C10 from decision C10 from claim C010. Security's own board already plans the rename. It touches controls/, every chapter that cites a control and the debriefs that do, with notice to each member.",
+   "options": [
+    "A: rename the controls to CTL1 to CTL10 now, before RC1 is revised",
+    "B: keep the ids and write 'control C1' everywhere",
+    "C: leave RC1 as it is and rename for the first edition"
+   ],
+   "recommendation": "A: one rename now costs less than a reader's confusion in every chapter; claims keep C0nn and decisions keep theirs.",
+   "answer_space": "none",
+   "claim_ids": []
+  }
+ ]
+}

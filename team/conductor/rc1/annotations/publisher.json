@@ -1,0 +1,216 @@
+{
+  "schema": "the-ultimate-insider/rc1-annotations/v1",
+  "role": "publisher",
+  "drafted_by": "a conductor sub-agent reading as the publisher (not the member's own words)",
+  "summary": "RC1 is close to a buildable book: plain Markdown that is valid Markua, images where Markua expects them, and two build fixes waiting. What stands between it and Leanpub day is mostly yours to decide: front and back matter, chapter numbering that will survive the new chapters, how colour images print in black ink, the cover, the ISBN and the Kindle price beside L1's free floor.",
+  "items": [
+    {
+      "id": "publisher-01",
+      "chapter": "0-about-this-release-candidate.md",
+      "anchor": "There will not be a long series of candidates: RC1 is revised in place, from the editor's notes and the team's reviews, until it is the first edition.",
+      "kind": "decision",
+      "title": "Moving RC1 into manuscript, and your merge to main",
+      "body": "The publisher moves RC1 into manuscript/ and Book.txt in file order, at the conductor's request. Two build fixes go in first (embedded resources, and a figure rule in book.css), or every image prints as a broken icon. Leanpub builds from main (L2), so a Leanpub preview of RC1 waits on your merge of dev.",
+      "options": [
+        "A: fixes, move, gate, release to dev; you merge to main when it lands, for a first Leanpub preview",
+        "B: the same, but you hold main until the first-person revision and the map chapters land",
+        "C: reopen L2 so Leanpub previews build from dev"
+      ],
+      "recommendation": "A. Leanpub's own Markua build becomes the official PDF and EPUB (M1), and only a preview tests it. Nothing goes on sale until you press publish, and RC1 is revised in place anyway.",
+      "answer_space": "lines",
+      "claim_ids": []
+    },
+    {
+      "id": "publisher-02",
+      "chapter": "0-about-this-release-candidate.md",
+      "anchor": "It is a draft, and it says so on every count.",
+      "kind": "decision",
+      "title": "Three front notes, one book",
+      "body": "The book would open with three notes: manuscript/about-this-edition.md (which still says the book has no chapters), this release note, and chapter 0. Markua marks front, main and back matter (M1), so the front notes can be unnumbered and set apart from the chapters.",
+      "options": [
+        "A: drop about-this-edition; this note as front matter; chapter 0 as the first chapter",
+        "B: merge this note and about-this-edition into one 'About this edition' in the front matter; chapter 0 unnumbered after it",
+        "C: keep all three"
+      ],
+      "recommendation": "B. One note says what edition the reader holds and how it was made; the release-candidate wording goes when the first edition does.",
+      "answer_space": "lines",
+      "claim_ids": []
+    },
+    {
+      "id": "publisher-03",
+      "chapter": "03-a-mandate-you-can-read.md",
+      "anchor": "What would turn the setting into a boundary (a check the member cannot edit, run where the member's credential does not reach) is the work chapter 9 and chapter 12 take up.",
+      "kind": "decision",
+      "title": "Chapter numbers will move; the prose should not break",
+      "body": "Every heading carries a hand-set number, chapter 0 included, and the prose says 'chapter 9' or 'chapters 3 and 4' in nearly every chapter. The map, plumbing and principles chapters will renumber the book, and every one of those references would then be wrong in print.",
+      "options": [
+        "A: strip numbers from headings, let Leanpub number the chapters, and turn prose references into Markua crosslinks to chapter ids",
+        "B: keep hand numbers and renumber by hand at each change",
+        "C: refer to chapters by title in the prose, never by number"
+      ],
+      "recommendation": "A, with C where a crosslink reads badly. The publisher checks the crosslink syntax against Markua 0.30 before converting.",
+      "answer_space": "lines",
+      "claim_ids": []
+    },
+    {
+      "id": "publisher-04",
+      "chapter": "10-the-talk-as-given.md",
+      "anchor": "At 19:00 on 29 October the editor stood up at hack::soho, hosted by IOActive in London, and gave the talk.",
+      "kind": "decision",
+      "title": "Colour images in a black-ink paperback",
+      "body": "Almost every image in RC1 is colour: slide stills, screenshots, maps. KDP.md proposes black ink on cream paper, the usual for prose. In grey, coloured slide text on coloured grounds loses contrast and some of it will vanish; the slide montages of the talk as given in this chapter are the most at risk.",
+      "options": [
+        "A: black ink; every image converted to greyscale and checked on the proof; maps drawn for grey from the start",
+        "B: a colour interior, at a higher print cost and so a higher list price",
+        "C: black ink with fewer images, each with a QR code to its colour original"
+      ],
+      "recommendation": "A for the Web Summit proof: it is the fastest and the PDF and EPUB keep colour. C is the better book later, for the town planner's edit.",
+      "answer_space": "lines",
+      "claim_ids": []
+    },
+    {
+      "id": "publisher-05",
+      "chapter": "05-the-story-before-the-slides.md",
+      "anchor": "So the chapter's title is literal.",
+      "kind": "comment",
+      "title": "Images that will not read on the page",
+      "body": "Many images are strips of three slides side by side (00-the-talk, 03-mandate-and-boundary, 06-licence, 06-policies-agreed, 07-design-pass, 09-soft-inside, 11-two-counts and others). At the print text width they come out short, and the slide text is too small to read. A few files are narrow and will print soft: 05-map-outside-inside (the first map, a page after this sentence), 09-wakes, 12-dashboard, 99-commits. Proposal: re-make the strips as one slide or two rows each, and draw the maps from a text source at print resolution, so the first map a reader meets is sharp.",
+      "options": [],
+      "recommendation": "",
+      "answer_space": "none",
+      "claim_ids": []
+    },
+    {
+      "id": "publisher-06",
+      "chapter": "04-the-hourly-machine.md",
+      "anchor": "And from 02:14, every piece of work was wrapped in five steps (a plan, a review of the plan, the work, a review of the work, a check against the plan), each leaving a verdict in a file.",
+      "kind": "decision",
+      "title": "What Markua asides are for",
+      "body": "M1 suggests asides for what a control missed and for the failures. Your new principle asks for concepts explained where they are introduced: the wake, the gate, the hold, the register, the Agent Behaviour Policy, a Wardley map. This sentence is one such place.",
+      "options": [
+        "A: concept boxes (asides) where a concept first appears; failures stay in running prose",
+        "B: asides for concepts and for what each control missed",
+        "C: no asides in this edition"
+      ],
+      "recommendation": "A. A boxed failure reads as optional and skippable, which is the opposite of 'the failures stay in'. A boxed concept is exactly what a reader wants to find again, and the boxes can feed a glossary.",
+      "answer_space": "lines",
+      "claim_ids": []
+    },
+    {
+      "id": "publisher-07",
+      "chapter": "01-pause-all-actions.md",
+      "anchor": "Pull back from 18:44 and the day has a shape.",
+      "kind": "decision",
+      "title": "Infographics, and who draws them",
+      "body": "Three places would carry more as a drawing than as prose: the day in one view (the turning points on one timeline, here), the five-step wake (chapter 4), and the ladder of barriers with settings and expectations (chapter 9). No designer is staffed. The conductor's map pipeline already renders figures from text.",
+      "options": [
+        "A: the same pipeline draws them for the next print, alongside the maps",
+        "B: wait for the designer role to be staffed",
+        "C: Markua tables instead of drawings"
+      ],
+      "recommendation": "A. One pipeline, one style for maps and figures, text sources kept in the repository so every figure can be rebuilt and checked like the numbers.",
+      "answer_space": "lines",
+      "claim_ids": []
+    },
+    {
+      "id": "publisher-08",
+      "chapter": "0-about-this-release-candidate.md",
+      "anchor": "The title is a working title.",
+      "kind": "decision",
+      "title": "A cover before the title is signed",
+      "body": "Leanpub shows its default cover until one is uploaded, and the designer is not staffed. The paperback's wrap needs the spine width, which comes from the final page count (publishing/cover_size.py); the new chapters will change that count.",
+      "options": [
+        "A: a plain typographic cover now (title, subtitle, your name) for Leanpub and Kindle; the paperback wrap last",
+        "B: a cover built on one image from the day (the brakes slide, or a map)",
+        "C: Leanpub's default until a designer is staffed"
+      ],
+      "recommendation": "A. It can be made quickly, changed when the title is signed, and it does not commit the book to an image before the maps are drawn.",
+      "answer_space": "lines",
+      "claim_ids": []
+    },
+    {
+      "id": "publisher-09",
+      "chapter": "12-build-your-own.md",
+      "anchor": "So this chapter cannot say what it cost, and it should not pretend to.",
+      "kind": "decision",
+      "title": "The Kindle price beside a free Leanpub floor",
+      "body": "L1 is signed: a free minimum on Leanpub and the suggested price as proposed. Kindle comes next. KDP's pricing rules include a condition on the Kindle price against the book's price elsewhere, and Amazon can match a lower price it finds. The publisher has not yet read how KDP treats a Leanpub book whose minimum is free, and must, with the page cited, before submission.",
+      "options": [
+        "A: keep L1 as signed; Kindle at the suggested price, once KDP's terms are read and cited",
+        "B: keep the free floor on Leanpub only until Web Summit, then a paid floor",
+        "C: Kindle below the suggested price"
+      ],
+      "recommendation": "A, pending the check. Your free floor was a deliberate choice; it should change only if KDP's own terms say it must.",
+      "answer_space": "lines",
+      "claim_ids": []
+    },
+    {
+      "id": "publisher-10",
+      "chapter": "0-about-this-release-candidate.md",
+      "anchor": "Mark anything that is wrong, unclear, missing, or not how you would say it.",
+      "kind": "decision",
+      "title": "The ISBN, and who the publisher is",
+      "body": "KDP.md leaves this to you. KDP's free ISBN is quick but names KDP as the publisher, and it covers that edition on Amazon only. Your own ISBN names you, or an imprint you choose, and travels with the book to a later publisher's edit.",
+      "options": [
+        "A: KDP's free ISBN, for speed",
+        "B: your own ISBN, under your name or an imprint",
+        "C: no ISBN for the ebook; decide for the paperback only"
+      ],
+      "recommendation": "B if you expect a town planner's edition elsewhere; otherwise A. Only you know which.",
+      "answer_space": "lines",
+      "claim_ids": []
+    },
+    {
+      "id": "publisher-11",
+      "chapter": "00-before-you-start.md",
+      "anchor": "A short hash in backticks, such as `867f8c2`, names one commit in that history; anyone with the repository can open it and see what this book saw.",
+      "kind": "question",
+      "title": "What the paperback's QR codes point at",
+      "body": "book.json promises QR codes to the record in the paperback. A hash on paper is only useful if a reader can open it. Will the talk's repository stay public, with its history to 298be4e unchanged? Should the codes point at GitHub commit pages, or at the book's own site, which can survive a move? One code per chapter (beside 'Where this came from') or one per image?",
+      "options": [],
+      "recommendation": "",
+      "answer_space": "lines",
+      "claim_ids": []
+    },
+    {
+      "id": "publisher-12",
+      "chapter": "00-before-you-start.md",
+      "anchor": "Appendix A lists every one with the command that recomputes it from the repository's history, so you can check the book rather than trust it.",
+      "kind": "rationale",
+      "title": "Why the sources stay at each chapter's end",
+      "body": "In print, 'Where this came from' is a block of paths and hashes, and the usual move is to endnotes. The publisher keeps it at the end of each chapter, set smaller, because the book's own rule says every chapter ends with where it came from, and because checking the book rather than trusting it only works if the source is on the page the claim is on. A QR code beside it (see the QR item) gives the paper reader a way in.",
+      "options": [],
+      "recommendation": "",
+      "answer_space": "none",
+      "claim_ids": []
+    },
+    {
+      "id": "publisher-13",
+      "chapter": "00-before-you-start.md",
+      "anchor": "The editor is Dinis Cruz.",
+      "kind": "decision",
+      "title": "Back matter for the first edition",
+      "body": "Today the back matter is Appendix A alone. A first edition usually adds: about the author, in your voice and approved by you; the licence (CC BY, signed in Q5); a colophon on how the book was made (agents, Markua, the build); and a glossary, which the concept boxes can feed.",
+      "options": [
+        "A: all four for Leanpub day",
+        "B: about the author and the licence for Leanpub day; colophon and glossary by Web Summit",
+        "C: the licence only"
+      ],
+      "recommendation": "B. The bio and licence are needed on sale; the colophon and glossary are better once the plumbing chapter and concept boxes exist.",
+      "answer_space": "lines",
+      "claim_ids": []
+    },
+    {
+      "id": "publisher-14",
+      "chapter": "99-appendix-a-every-number-rerun.md",
+      "anchor": "This appendix prints those commands with what they return, so that a reader can check the book without trusting it.",
+      "kind": "comment",
+      "title": "The EPUB: commands, tables and alt text",
+      "body": "KDP takes the EPUB, so it must pass EPUBCheck, which is not yet run. Three things to fix on the way: Appendix A's long commands and chapter 10's table will overflow a phone screen and need wrapping or a smaller code style; in Markua the bracket text of an image is read as its caption, so each image needs a separate alt text for readers who cannot see it (to be confirmed against the Markua 0.30 spec); and the captions are long sentences, better shortened for the small screen.",
+      "options": [],
+      "recommendation": "",
+      "answer_space": "none",
+      "claim_ids": []
+    }
+  ]
+}

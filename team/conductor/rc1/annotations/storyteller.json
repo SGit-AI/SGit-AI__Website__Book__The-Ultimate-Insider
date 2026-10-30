@@ -1,0 +1,209 @@
+{
+  "schema": "the-ultimate-insider/rc1-annotations/v1",
+  "role": "storyteller",
+  "drafted_by": "a conductor sub-agent reading as the storyteller (not the member's own words)",
+  "summary": "RC1 has the arc the signed plan asked for: it opens on the hold, follows the day, braids each control with its beat, and keeps its failures. What it lacks is what your newest principles ask for: maps introduced early and built up, the years of work under the day, and principles gathered near the end. It also tells the hold twice, opens slowly, and says two things about safety that a careful reader will set against each other.",
+  "items": [
+    {
+      "id": "storyteller-01",
+      "chapter": "05-the-story-before-the-slides.md",
+      "anchor": "Its mandate was a story tree (premise, parts, points, facts, punchlines), Wardley maps where a map earned its place, a check of the story against the talk's beats, a challenge to the editor's narrative from the team's own material, and proposals of a sequence to deck.",
+      "kind": "decision",
+      "title": "Where the reader first learns to read a map",
+      "body": "Here is the first mention of Wardley maps in RC1, and the first map follows a page later with no word on what its axes mean. Maps then reappear in chapters 9, 10 and 12 as stills from the talk. Your principle is that maps come early, simple first and more complex later, because they underpin the rest. A reader who has never seen one cannot do that work from a caption. The conductor's map series (team/conductor/rc1/maps/) already starts from a need and two axes and builds up to the day as a value chain.",
+      "options": [
+        "A: a short new chapter straight after chapter 1: how to read a map, from one need to the day as a value chain",
+        "B: a two-page primer inside chapter 0, Before you start",
+        "C: explain the map where it first appears, in chapter 5, and add maps from there"
+      ],
+      "recommendation": "A. Chapter 1 ends on the day in one view; a map of the same day is the natural next page, and each later chapter can then add one map that builds on the last, so the series grows with the story.",
+      "answer_space": "lines",
+      "claim_ids": []
+    },
+    {
+      "id": "storyteller-02",
+      "chapter": "00-before-you-start.md",
+      "anchor": "The editor names the stages of work the way he names the stages of any new thing.",
+      "kind": "question",
+      "title": "Credit Wardley for explorer, villager, town planner?",
+      "body": "Chapter 0 presents the three stages as yours and does not say where they come from. They sit in the same body of work as the maps: Simon Wardley's pioneers, settlers and town planners, of which explorer and villager read as your own variant. Your articles name public sources and date them. If the book credits the source here, once, and says why you use your words, the maps chapter has a hook already planted on its first pages. Which source do you want named, and is the wording yours by choice?",
+      "options": [],
+      "recommendation": "",
+      "answer_space": "lines",
+      "claim_ids": []
+    },
+    {
+      "id": "storyteller-03",
+      "chapter": "02-midnight-an-empty-repository.md",
+      "anchor": "At 00:16:23 on 29 October 2026 the editor created a repository (C001).",
+      "kind": "decision",
+      "title": "Where the two and a half years go",
+      "body": "RC1 tells midnight as an empty start. Chapter 7 shows the player was ported and chapter 10 names SHarness, but the book never says the empty repository stood on years of tools, rules and habits. Your new principle asks for that, and for the plumbing (CI, the gate, releases, the non-functional requirements). Note: two and a half years is your phrase and has no register entry yet; the researcher must register it, with a start date and public sources, before it is printed.",
+      "options": [
+        "A: one new chapter before Midnight, covering the prior work and the plumbing together",
+        "B: split: the prior work as a new chapter before Midnight; the plumbing as a new chapter after The hourly machine",
+        "C: one new chapter after The hourly machine, looking back at both"
+      ],
+      "recommendation": "B. The prior work explains why midnight was not really empty, so it belongs before it. The plumbing lands best once the reader has watched the gate and the releases fire in chapters 2 to 4.",
+      "answer_space": "lines",
+      "claim_ids": [
+        "C001"
+      ]
+    },
+    {
+      "id": "storyteller-04",
+      "chapter": "12-build-your-own.md",
+      "anchor": "The brakes are what let you go faster.",
+      "kind": "decision",
+      "title": "The principles section, and the last page",
+      "body": "You asked for a section of principles, probably near the end. RC1 has none as such: the lessons are spread through each chapter's closing pages and the list in chapter 12. Chapter 12 also has the strongest ending in the book, this line, which is the talk's own close. Where the principles go decides whether it stays the last line.",
+      "options": [
+        "A: a principles chapter after Build your own",
+        "B: a principles chapter just before Build your own, so the book still ends on go build",
+        "C: a one-page list of principles in the back matter"
+      ],
+      "recommendation": "B. The principles gather what the chapters taught; Build your own then puts them to work and ends on the brakes. A reader finishes on an instruction, not a summary.",
+      "answer_space": "lines",
+      "claim_ids": []
+    },
+    {
+      "id": "storyteller-05",
+      "chapter": "06-the-editor-signs.md",
+      "anchor": "The editor's own name is on almost none of the day's commits: the empty repository at 00:16, and the merge that published the work at 23:19.",
+      "kind": "decision",
+      "title": "How far into your first person the book goes",
+      "body": "RC1 is about you, in the third person; the conductor's letter says it is revised into your voice. The difficulty is method: most chapters read a record, and O4 kept your interview for the next revision. A first-person account of what you thought at 18:44 would be invented until you say it. A first person that only describes the record (I signed, I asked) reads oddly beside commits written by agents.",
+      "options": [
+        "A: the whole book in your first person",
+        "B: your first person in the frame (front note, chapter 1's opening, chapter 6, the principles, Build your own); the record chapters keep 'the editor'",
+        "C: third person throughout; your voice only in quotes and, later, the interview"
+      ],
+      "recommendation": "B. It is honest about where you stand (you were there, but the record is the evidence), and the interview can widen it in the next revision.",
+      "answer_space": "lines",
+      "claim_ids": []
+    },
+    {
+      "id": "storyteller-06",
+      "chapter": "12-build-your-own.md",
+      "anchor": "A team like this can be built in an hour from files anyone can read, and it will run round the clock, review itself, and stop when told.",
+      "kind": "question",
+      "title": "Would you say these sentences?",
+      "body": "Your writer's rules rule out superlatives and self-praise. A few sentences claim more than the record shows or praise the work: this one (an hour, for a team that had years of tools behind it); chapter 5's 'That is unusual. Most talks are written slide first' (an unsourced claim about other people's talks); chapter 8's 'the most useful thing the day has to teach about brakes'; chapter 9's 'though this one was'. Strike, soften or keep each?",
+      "options": [],
+      "recommendation": "",
+      "answer_space": "lines",
+      "claim_ids": []
+    },
+    {
+      "id": "storyteller-07",
+      "chapter": "01-pause-all-actions.md",
+      "anchor": "What made it safe to run was never that the agents chose to stop.",
+      "kind": "decision",
+      "title": "Chapters 1 and 11 disagree on what kept it safe",
+      "body": "Chapter 1 ends saying safety never came from the agents choosing; chapter 9 says much the same. Chapter 11 ends on the opposite finding: the blind experiment stayed honest because an agent saw what it should not, chose not to open it, and wrote that down (a promise, and it was kept). Both are true to the record. The book has to say which is its position, or a careful reader will say it for us.",
+      "options": [
+        "A: soften chapter 1: the brakes did the work where there were brakes; where there were none, the agents' own conduct carried it, and that is the risk",
+        "B: keep chapter 1 absolute and name chapter 11 as the exception",
+        "C: cut the closing line of chapter 11"
+      ],
+      "recommendation": "A. It is the more honest reading and it sharpens the talk's argument: good behaviour is exactly what controls cannot enforce, so the book should not claim the controls did it all.",
+      "answer_space": "lines",
+      "claim_ids": []
+    },
+    {
+      "id": "storyteller-08",
+      "chapter": "08-the-locks-that-never-closed.md",
+      "anchor": "Two brakes met at the end of the day, and the stronger one stopped the other.",
+      "kind": "decision",
+      "title": "The hold is told twice, in chapters 1 and 8",
+      "body": "Chapter 1 has a section titled 'Two brakes, and the stronger one stopped the other'; chapter 8 makes the same argument with the same words and the same commits, the 95% included. Each chapter was drafted alone, and it shows: a reader meets the analysis on the first pages and again near the end.",
+      "options": [
+        "A: chapter 1 keeps the scene and the turning points; chapter 8 owns the analysis of the two brakes",
+        "B: keep both as they are",
+        "C: fold chapter 8 into chapter 1"
+      ],
+      "recommendation": "A. Chapter 1 should make the reader want the answer; chapter 8 should give it, when the reader has seen the lock built and the schedule loosened.",
+      "answer_space": "lines",
+      "claim_ids": [
+        "C021"
+      ]
+    },
+    {
+      "id": "storyteller-09",
+      "chapter": "09-the-team-was-the-insider.md",
+      "anchor": "The book's control register, kept by this book's security member, sorts the team's controls into two kinds that map onto that ladder.",
+      "kind": "decision",
+      "title": "Chapter 9 reads like the register it cites",
+      "body": "Chapter 9 walks the controls one by one under their register ids, settings then expectations. Little of it is quoted, so the send-back rule does not bite, but it has the shape of a report: every control gets the same paragraph, and the argument (only a boundary is a control) is buried between them. The chapter is where the two halves of the talk meet; it should read as the turn of the book.",
+      "options": [
+        "A: keep it as it is",
+        "B: argue with three or four controls (the hold, the gate, the scope check, the setting nobody wrote); the full register moves to a new Appendix B as a table",
+        "C: replace the walk with one infographic of the ladder and prose around it"
+      ],
+      "recommendation": "B. The argument gets room, and nothing is lost: a reader who wants every control finds it in the appendix, beside every number.",
+      "answer_space": "lines",
+      "claim_ids": []
+    },
+    {
+      "id": "storyteller-10",
+      "chapter": "10-the-talk-as-given.md",
+      "anchor": "Two cautions about the evidence before using it.",
+      "kind": "rationale",
+      "title": "Why no chapter is sent back for quoting",
+      "body": "The rule says a chapter that is mostly quoted record goes back. Counting the quoted words in each chapter, chapter 10 quotes most, because it reads the transcript, as O3 allowed; even there the quotes are a small share, and the chapter spends its words on what fell out, what moved and what that says about planning a talk. Every other chapter quotes less. So nothing is sent back; the item to watch is chapter 10 when the first-person revision adds your own memory of the evening.",
+      "options": [],
+      "recommendation": "",
+      "answer_space": "none",
+      "claim_ids": []
+    },
+    {
+      "id": "storyteller-11",
+      "chapter": "00-before-you-start.md",
+      "anchor": "This book is an answer to that sentence, but not an argument against it.",
+      "kind": "decision",
+      "title": "The book opens three times before the hold",
+      "body": "O2 signed the opening on the 18:44 hold. A reader now meets the release note, then chapter 0 (the claim, the talk, who was there, how to read the record, what it is not, the stages, the order) before chapter 1. Chapter 0 also opens on a sentence from unnamed people ('you will have heard'). The rules of reading (times, commits, numbers, why nine agents) are needed; the rest delays the scene.",
+      "options": [
+        "A: keep chapter 0 as it is",
+        "B: cut it to a short 'How to read this book' in the front matter; move 'The claim this book answers' to the end of chapter 1",
+        "C: put chapter 0 after chapter 1"
+      ],
+      "recommendation": "B. The hold becomes the first page, as signed, and the claim lands after the reader has seen the evidence for it.",
+      "answer_space": "lines",
+      "claim_ids": [
+        "C011"
+      ]
+    },
+    {
+      "id": "storyteller-12",
+      "chapter": "00-before-you-start.md",
+      "anchor": "On 29 October 2026, one person and a team of AI agents took a conference talk, The Ultimate Insider, from an empty repository at midnight to a stage in London at seven in the evening.",
+      "kind": "decision",
+      "title": "Which titles go to the readers",
+      "body": "Q3: the title is chosen after synthetic readers test the candidates, and no reader is staffed yet. Two candidates in book.json now contradict the register: 'one day, ten agents, one talk' (nine staffed, C011) and 'Nineteen Hours' (a rounding of 18 h 44 min, C010). The build's metadata still carries the internal name 'the informed one', which means nothing to a buyer and will print on the title page.",
+      "options": [
+        "A: drop the two contradicted candidates and test the rest as they are",
+        "B: as A, and add 'The Ultimate Insider: how a team of agents built a talk in a day, and the brakes that kept it in check'",
+        "C: sign now: 'The Ultimate Insider: brakes so we can go faster', and skip the test"
+      ],
+      "recommendation": "B. It keeps your Q3 process and gives the readers a subtitle that says what the book is. Until then the title page should read The Ultimate Insider, with no internal name.",
+      "answer_space": "lines",
+      "claim_ids": [
+        "C010",
+        "C011"
+      ]
+    },
+    {
+      "id": "storyteller-13",
+      "chapter": "07-building-the-talk.md",
+      "anchor": "The editor called the two-stops idea \"quite an important concept\", and it came from his own note of 15 October, already built into the player he was porting.",
+      "kind": "question",
+      "title": "Which of your earlier work may the book cite?",
+      "body": "This is the one place RC1 shows work from before the day reaching into it. The plumbing chapter needs more: which of the pieces you named (The Cyber Boardroom, Issues-FS, Memory-FS, Type_Safe, the newsroom and publishing flow, sgit, SHarness, your first experiments) have public, dated sources the book may cite? When did the two and a half years start, for the register? And which of your comments on the Gen ZX Founders book should carry over here?",
+      "options": [],
+      "recommendation": "",
+      "answer_space": "lines",
+      "claim_ids": []
+    }
+  ]
+}

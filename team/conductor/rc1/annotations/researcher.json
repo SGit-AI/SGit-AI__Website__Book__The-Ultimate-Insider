@@ -1,0 +1,204 @@
+{
+ "schema": "the-ultimate-insider/rc1-annotations/v1",
+ "role": "researcher",
+ "drafted_by": "a conductor sub-agent reading as the researcher (not the member's own words)",
+ "summary": "RC1 keeps to the register far better than the briefs did: nearly every number carries its id and the failures are told with checked figures. The gaps are the Cold-Read team's counts, printed without entries; a few mis-cited ids; two entries to correct before print (C011's mixed join times, C014's note and merge method); a missing entry for the evidence vault's history; and a handful of small unregistered or derived figures.",
+ "items": [
+  {
+   "id": "researcher-01",
+   "chapter": "11-what-the-cold-reader-saw.md",
+   "anchor": "The same critic found that two consecutive beats would have shown the room two commit counts that go backwards: 510 commits by 17:02, then 405 by 18:21 (finding 2).",
+   "kind": "decision",
+   "title": "The Cold-Read team's numbers need register entries",
+   "body": "Chapters 9 and 11 print counts that are the Cold-Read team's own, not this register's: the two commit counts in this sentence, its members running by 02:00, the seconds between the hold and the designer's commit, the policies with no record but the conductor's, the wakes worked before review, its pre-review and merge counts, and the conductor's commits by prefix. The brief's rule is that every number comes from the register. Most can be rerun from the talk's repository at 298be4e and entered with the Cold-Read file as first source.",
+   "options": [
+    "A: register those the book argues from (the two commit counts, the merges, the hold gap) and describe or cut the rest",
+    "B: keep them all, marked as the Cold-Read team's own, without ids",
+    "C: register every one"
+   ],
+   "recommendation": "A: the rule holds where the argument rests, and a stranger's count stays visibly a stranger's where it is only colour.",
+   "answer_space": "none",
+   "claim_ids": []
+  },
+  {
+   "id": "researcher-02",
+   "chapter": "07-building-the-talk.md",
+   "anchor": "Read in full, these commits are not anonymous: each carries an `Agent: dev@the-ultimate-insider` trailer and dev's session link.",
+   "kind": "comment",
+   "title": "C014's note is wrong about the Agent trailers",
+   "body": "This sentence is right, and the register is not. A rerun at 298be4e finds an Agent trailer naming dev on dbd75ad, 013d97e, 12e93db, 23739cc, 4a2481b, 8289d50, bd32d97 and c33e86a, yet C014's note says the unattributed commits carry none. The counts stand, since C014 reads subjects; the note needs correcting. Chapter 3 should follow: it says the scope check was silent by construction for such commits, but agents.py reads the Agent line as well as the subject, so it could attribute these. The claim about ruv-sgit's commits without the @ holds: they carry no Agent line.",
+   "options": [],
+   "recommendation": "",
+   "answer_space": "none",
+   "claim_ids": [
+    "C014"
+   ]
+  },
+  {
+   "id": "researcher-03",
+   "chapter": "11-what-the-cold-reader-saw.md",
+   "anchor": "The parents are the better method.",
+   "kind": "decision",
+   "title": "Count merges by their parents, not their subjects",
+   "body": "C014 gives 162 merges, counted by subject (C014). A rerun by parents at 298be4e agrees with the Cold-Read analyst's higher count in the sentence before this one, including your merge to main; some of the agents' merges have subjects that name a member and so sit inside the member counts. Chapter 11 already calls the parents the better method, so C014 and Appendix A should say which the book uses. The conductor's count also differs from a count of the @ form alone; the method printed beside it settles that.",
+   "options": [
+    "A: C014 counts merges by parents and members over non-merge commits; Appendix A prints the command",
+    "B: keep counts by subject and state the method beside each number",
+    "C: print only the totals by author (C003, C004)"
+   ],
+   "recommendation": "A: it is the reproducible definition, and it removes the one place where two careful counts of the same record disagree.",
+   "answer_space": "none",
+   "claim_ids": [
+    "C014",
+    "C003",
+    "C004"
+   ]
+  },
+  {
+   "id": "researcher-04",
+   "chapter": "03-a-mandate-you-can-read.md",
+   "anchor": "The register dates each member's start from the first commit of its key, which is why its list (dev 00:40, the conductor 00:58, ruv-sgit 01:08, the researcher 01:52, deck 02:20, the designer 03:41, the storyteller 14:15, motion and studio 15:31) differs in places from the join times in the timeline: deck joined at 00:51 (`20ab1a3`) but its key came later (C011).",
+   "kind": "decision",
+   "title": "C011's join times mix two methods",
+   "body": "This sentence says the register dates every member by its first key commit. For seven members it does. For dev it gives the first commit of the day, and for ruv-sgit its join commit, both earlier than their first key, as Appendix A's own rerun shows (C011). The register's command prints keys, so a reader rerunning it gets other times for those two, and the chapter's explanation, which treats deck as the exception, is wrong in the other direction.",
+   "options": [
+    "A: date every member by its join commit; change C011's method and command, and this sentence",
+    "B: date every member by its first key commit, as the command does, and move dev and ruv-sgit later",
+    "C: print both columns in Appendix A"
+   ],
+   "recommendation": "A: to a reader 'joined' means the first commit as a member; the key is the test of being staffed, not of when.",
+   "answer_space": "none",
+   "claim_ids": [
+    "C011"
+   ]
+  },
+  {
+   "id": "researcher-05",
+   "chapter": "09-the-team-was-the-insider.md",
+   "anchor": "At 04:10 the next finding, anonymous cookie values in captured headers, was caught before its commit and redacted in the same wake, and at 06:14 form tokens, also present in the 02:22 push, were found and redacted (C025).",
+   "kind": "comment",
+   "title": "A claim is needed for the evidence vault's history",
+   "body": "C025 records the repository side of the three token findings. What reached the evidence vault, a separate public store, is in the researcher's answer at 07:18 (aa7a3eb) and its counts file, and has no entry. Chapters 4, 6 and 9 need one: it shows cookie values went out at 02:22 and form tokens again at 05:23, which contradicts 'caught before its commit' here (security raises the wording). Claim needed: per vault commit, the time pushed and the counts by kind, from evidence/updates/2026-10-29__the-vault-history-checked.md at 298be4e, with its command.",
+   "options": [],
+   "recommendation": "",
+   "answer_space": "none",
+   "claim_ids": [
+    "C025"
+   ]
+  },
+  {
+   "id": "researcher-06",
+   "chapter": "08-the-locks-that-never-closed.md",
+   "anchor": "The figure is the editor's own report, relayed by the conductor, not a reading the record holds (C021): his usage limit over a 5-hour window, resetting at 20:20 London (C024).",
+   "kind": "comment",
+   "title": "Three numbers carry the wrong claim id",
+   "body": "Here the 5-hour window and the 20:20 reset are cited to C024, which holds the hold itself; they are in C037. In chapter 1, the three commits after the hold, one of them work, are cited to C006, which holds only the hold; the three commits are in C005. And in chapter 8 the pre-review times (17:21, 17:30, 17:45, 18:19) are cited to C023, which holds counts, not times: cite the conductor's wake records instead. Each is a one-word fix, and a reader of Appendix A will look the id up.",
+   "options": [],
+   "recommendation": "",
+   "answer_space": "none",
+   "claim_ids": [
+    "C024",
+    "C037",
+    "C006",
+    "C005",
+    "C023"
+   ]
+  },
+  {
+   "id": "researcher-07",
+   "chapter": "12-build-your-own.md",
+   "anchor": "So this chapter cannot say what it cost, and it should not pretend to.",
+   "kind": "decision",
+   "title": "Chapter 12's cost: your figure, or its absence",
+   "body": "The record holds one usage reading for the day, 95% of a 5-hour window at the hold, and no total and no money (C037, still open). Chapter 12 makes the absence its finding. Only you hold the usage page and the bill; a figure added now is material from after the day and would be cited so. Separately, your reading for this book's team on 30 October is in book.json as decision Q2, not in the register; if chapter 12 uses it, it needs an entry.",
+   "options": [
+    "A: you supply the day's usage or cost, and the researcher registers it as added after the day",
+    "B: keep 'not in the record' as the finding for this edition",
+    "C: both: keep the finding, and add your figure beside it as a later note"
+   ],
+   "recommendation": "C: the finding is the lesson and should stay; a figure beside it, marked as later, answers the reader's first question.",
+   "answer_space": "none",
+   "claim_ids": [
+    "C037",
+    "C021"
+   ]
+  },
+  {
+   "id": "researcher-08",
+   "chapter": "02-midnight-an-empty-repository.md",
+   "anchor": "It had the skill: one session built a site and a talk engine in twenty-four minutes.",
+   "kind": "comment",
+   "title": "This is a gap between commits, not a build time",
+   "body": "The figure here is the gap between the empty repository (C001) and dev's first commit (1f7c633), not the time a session took to build the site: the record does not say when that session started, and it may have worked before the repository existed. It is also unregistered. Proposed: 'by the first commit after the empty repository, one session had built a site and a talk engine', or register the gap with that definition. Two derived figures need the same choice: chapter 5's share of claims held whole (from C029) and chapter 7's multiple of the player's size (from C017). Register the arithmetic or drop it.",
+   "options": [],
+   "recommendation": "",
+   "answer_space": "none",
+   "claim_ids": [
+    "C001",
+    "C029",
+    "C017"
+   ]
+  },
+  {
+   "id": "researcher-09",
+   "chapter": "05-the-story-before-the-slides.md",
+   "anchor": "One was the storyteller's own sentence about the outside, in the tree, which the editor reworded.",
+   "kind": "question",
+   "title": "Whose sentence was 'the outside is in balance'?",
+   "body": "Chapter 5 first calls the line your own, from your draft, and says you kept the claim; this sentence then calls it the storyteller's own, in the tree, which you reworded. The talk's register places the failed claim in the story tree only (C030). Both cannot stand as written. Did 'the internet-facing surface is smaller and more mature than it was' come from you (a draft, a voice note, the September article), or is it the storyteller's paraphrase of your argument? Your answer decides which reading the chapter keeps, and who was contradicted.",
+   "options": [],
+   "recommendation": "",
+   "answer_space": "lines",
+   "claim_ids": [
+    "C030"
+   ]
+  },
+  {
+   "id": "researcher-10",
+   "chapter": "10-the-talk-as-given.md",
+   "anchor": "The transcript's header gives a running time, and its passages carry timestamps, but the register has not yet checked them, so this edition does not state the length.",
+   "kind": "decision",
+   "title": "Register the talk's length and the spoken claims",
+   "body": "Chapter 10 leaves the length unstated because no entry checks it, and C039 names the transcript as the only way to know which claims in a beat were spoken. Both are now material in the talk's repository, added after the day (a9c0b49). The length is a short check of the header against the timestamps; the claim-by-claim match is longer work. Without the match, chapter 10's strongest point, that the speaker's habit filtered unchecked claims, rests on a handful of examples.",
+   "options": [
+    "A: register the running time now, and the spoken-claims match before the first edition",
+    "B: register both before RC1 is revised",
+    "C: leave both open and keep the chapter's present wording"
+   ],
+   "recommendation": "A: the length is cheap and every reader will ask for it; the match is worth doing well rather than fast.",
+   "answer_space": "none",
+   "claim_ids": [
+    "C026",
+    "C039"
+   ]
+  },
+  {
+   "id": "researcher-11",
+   "chapter": "05-the-story-before-the-slides.md",
+   "anchor": "Both come from a survey commissioned by a vendor, which the talk's register noted at the time.",
+   "kind": "rationale",
+   "title": "Why the book never states insider-risk cost as fact",
+   "body": "You may ask why the book does not simply give the current cost of insider risk. The register checked both editions at source (C031): $17.4M is right for 2025, US$19.5M for 2026. Both come from a survey a vendor commissioned, and the full 2026 report sits behind a form the researcher did not fill in, so its method is unchecked. The book therefore uses the figures only as evidence about the talk (what the slide said, what the team knew and when), never as its own claim about the world, and names the commissioning each time. If you want the figure as a fact, its method needs checking first.",
+   "options": [],
+   "recommendation": "",
+   "answer_space": "none",
+   "claim_ids": [
+    "C031"
+   ]
+  },
+  {
+   "id": "researcher-12",
+   "chapter": "99-appendix-a-every-number-rerun.md",
+   "anchor": "**C008, commits after 15:00** (checked): 358, of which 356 by 18:46.",
+   "kind": "comment",
+   "title": "Appendix A prints a sub-count C008 does not hold",
+   "body": "The second figure in this line is not in C008, whose value is the total only (C008). A rerun at 298be4e ending at 18:46:59 agrees with the appendix, so the number is right; the register needs it, with that command, before the appendix can say every value matched. The same appendix says every value matched and then lists the places that did not quite; worth rewording to 'every value matched, with the notes below'.",
+   "options": [],
+   "recommendation": "",
+   "answer_space": "none",
+   "claim_ids": [
+    "C008"
+   ]
+  }
+ ]
+}
