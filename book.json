@@ -407,6 +407,20 @@
    "by": "editor",
    "ask": "Vaults for ruv.sgit's runs?",
    "detail": "The talk team's ruv.sgit recorded every run in an sgit vault on dev.send.sgraph.ai. This team works under the editor's rule of 30 October: no vaults for now. Options: A, ruv.sgit records its runs in git (lab/runs/), no vault (the default until signed); B, lift the rule for ruv.sgit only, each run's vault handed over sealed to the vaults manager as the talk did; C, lift it for the team."
+  },
+  {
+   "id": "R1",
+   "status": "open",
+   "by": "editor",
+   "ask": "A vault per reviewer, for their pen lane?",
+   "detail": "The editor, 30 October 2026 about 13:30 UTC: \"we can basically almost create a vault per person ... a pen lane for feedback\". The team's rule is no vaults for now. Options: A, lift the rule for reviewers' vaults only (one per reviewer, shared by reader and editor, each key handed over sealed as the talk did); B, start without vaults (comments encrypted to the editor's key and sent with SG/Send), and decide vaults after the simulation; C, keep the rule. See team/conductor/projects/reviewer-experience/README.md."
+  },
+  {
+   "id": "R2",
+   "status": "open",
+   "by": "editor",
+   "ask": "Onboard every reviewer with their own PKI key?",
+   "detail": "The editor, about 13:30 UTC: \"onboard every person that collaborates with us with its own PKI ... so we can authenticate them\". Options: A, every reviewer makes a key at pki.sgit.ai as the first step, and every comment is signed; B, offer it, not require it (a reviewer without a key can still comment); C, later, after the first wave."
   }
  ]
 }

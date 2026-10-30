@@ -1,0 +1,51 @@
+{
+ "kicker": "The conductor brief · 2 · Friday 30 October 2026",
+ "title": "The reviewer experience, and the team's first hour on its own",
+ "when": "13:45 UTC, the delta since brief 1 (13:10)",
+ "by": "conductor@book.the-ultimate-insider, key sha256:f2456a147ac54f5f",
+ "headline": "All nine members now run on their own, every two hours, after you approved five scheduled tasks; nothing waits on you to keep working. In their first hour: RC1 is in the manuscript (259 pages), the PDF lab printed LAB 01 and its first experiment, 21 more numbers are registered, and the storyteller proposed plan draft 6. Your new project, the reviewer experience, has a brief, two new members drafted (developer@, synthetic@) and two decisions for you (R1, R2).",
+ "stats": [
+  {"n": "9 of 9", "label": "members with a scheduled task, every two hours"},
+  {"n": "259", "label": "pages of RC1, now in manuscript/ (the publisher)"},
+  {"n": "C063", "label": "the register, now 63 claims (C043 to C063 today)"},
+  {"n": "8", "label": "fictional personas to test the review first"}
+ ],
+ "for_you": [
+  {"id": "R1", "ask": "A vault per reviewer, for their pen lane?", "detail": "Your rule is no vaults for now.", "options": ["A. Lift it for reviewers' vaults only", "B. Start without vaults (comments encrypted to your key, sent with SG/Send); decide after the simulation", "C. Keep the rule"]},
+  {"id": "R2", "ask": "Onboard every reviewer with their own PKI key?", "options": ["A. Required: the key is the first step, every comment signed", "B. Offered, not required", "C. Later, after the first wave"]},
+  {"id": "new", "ask": "Start the two new members (developer@, synthetic@)", "detail": "Prompts in ONBOARDING.md 1d; they run on odd hours (:12, :42) to spread the load.", "options": ["Start both now", "Start the developer first", "Not yet"]},
+  {"id": "personas", "ask": "The eight personas", "detail": "Board member, CISO, CTO, developer, designer, project manager, journalist, founder: fictional, test instruments only.", "options": ["Keep", "Change (note below)"]},
+  {"id": "P1", "ask": "The storyteller's plan draft 6 (RC1 brought into the plan)", "detail": "Proposed, not yet an open decision; the conductor puts it to you at 14:02.", "options": ["Read at 14:02"]},
+  {"id": "X2", "ask": "Vaults for ruv.sgit's runs (still open from brief 1)", "options": ["A. Runs in git", "B. Lift for ruv.sgit only", "C. Lift for the team"]}
+ ],
+ "you_asked": [
+  {"at": "13:15", "said": "check that all agents are now fully working and there is no dependency on me", "done": "Found five members waiting on your approval to create their tasks; after you approved, all nine tasks exist, each into its own session, every two hours.", "status": "done"},
+  {"at": "13:30", "said": "we can basically almost create a vault per person ... a pen lane for feedback ... onboard every person ... with its own PKI", "done": "R1 and R2 for you; the brief designs a first version without vaults and the step to vaults once you sign.", "where": "book.json R1, R2", "status": "waiting"},
+  {"at": "13:30", "said": "How can we make that person super productive ... visibly impressed with what we do", "done": "The reviewer's first ten minutes, designed step by step: a link that is theirs, thirty seconds to decide, a pen on every paragraph, the questions, the loop closed with what they changed, and 'how this works' beside each piece.", "where": "team/conductor/projects/reviewer-experience/README.md", "status": "done"},
+  {"at": "13:30", "said": "get the developer involved ... you need to start to have readers that do this ... the executive, the security, the journalist", "done": "developer@ and synthetic@ drafted, with eight fictional personas in the newsroom's shape; prompts ready.", "where": "team/conductor/staffing/", "status": "done"},
+  {"at": "13:30", "said": "the website feels ridiculously personalized, but it's all deterministic ... encode it to somebody's key ... a message ... embedded in encrypted data", "done": "Designed: pages pre-computed per persona; a sealed note per person in the site, opened by the key in the link's fragment (later sealed to the reader's PKI key); nothing private in clear.", "status": "done"},
+  {"at": "13:30", "said": "think really about that initial experience, which is also me ... diffs and all that stuff is important", "done": "Phase 1 is you: your paper notes as pen notes on the same anchors, and per revision a diff of every paragraph and every comment's fate.", "status": "in progress"}
+ ],
+ "team": [
+  {"id": "conductor", "status": "new", "doing": "this brief; the reviewer experience", "key": ":02"},
+  {"id": "librarian", "status": "new", "doing": "RC1's sources checked", "key": ":09"},
+  {"id": "historian", "status": "new", "doing": "six timeline corrections from the Cold-Read comparison applied", "key": ":17"},
+  {"id": "security", "status": "new", "doing": "RC1's first security pass, to the conductor", "key": ":24"},
+  {"id": "researcher", "status": "new", "doing": "chapter 11b's dates registered at source (C043 to C063)", "key": ":32"},
+  {"id": "storyteller", "status": "new", "doing": "plan draft 6 proposed, RC1 brought into the plan", "key": ":39"},
+  {"id": "publisher", "status": "new", "doing": "the current RC1 released into manuscript/ (18 files, 58 images, 259 pages)", "key": ":47"},
+  {"id": "ruv.sgit", "status": "new", "doing": "lab experiment 01: the talk's M01 'the building' in three frames", "key": ":54"},
+  {"id": "designer", "status": "new", "doing": "the lab's visual language, a cast of characters, LAB 01 printed", "key": ":57"}
+ ],
+ "sections": [
+  {"title": "The reviewer experience in one paragraph", "text": "One link per reviewer, theirs alone: the personal part travels in the URL's fragment, which never reaches a server. It opens a page that knows why we asked them, what to read (three chapters, about forty minutes) and the questions. Every paragraph takes a pen mark; comments go to you encrypted. When a revision ships, they see what their comments changed. Beside each step, one line on how the technology works, which is the showcase. First built with fictional data and tested by eight synthetic readers; then you; then one friendly reviewer; then the first wave."},
+  {"title": "For the 14:02 wake", "items": ["Record the publisher's handover (its new key is on dev) and announce it", "Put plan draft 6 to you as an open decision", "Fix schedule.json's old entries", "The talk-site study and the exit interviews"]}
+ ],
+ "images": [
+  {"path": "lab/characters/conductor.svg", "caption": "The lab's cast: the conductor (designer@, LAB 01)"},
+  {"path": "lab/characters/the-hold.svg", "caption": "The hold, as a character"},
+  {"path": "lab/experiments/01-ruv-the-building-three-frames/frames/m01-light-t22_5.png", "caption": "Experiment 01: an animation told in frames (ruv.sgit)"}
+ ],
+ "next": ["14:02: the publisher's handover, draft 6 as a decision, the schedule fixed, the talk-site study and the interviews started", "When you start them: developer@ builds a first review page; synthetic@ runs the personas through it"],
+ "sources": ["git log of dev since 13:10", "list of scheduled tasks on the account", "team/*/status.json", "team/conductor/projects/reviewer-experience/README.md", "the editor's words in the conductor's session"]
+}

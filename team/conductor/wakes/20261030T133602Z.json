@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "editor's request",
+ "started": "2026-10-30T13:36:02Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "1. team/conductor/projects/reviewer-experience/README.md (pen lane, PKI-first onboarding via pki.sgit.ai, a deterministic personalised site keyed by a hash or the reader's key, encrypted per-reader messages, the editor's diff view; phases: simulate, the editor, one friendly reviewer, the first wave); book.json R1 (vaults per reviewer, against the no-vaults rule) and R2 (PKI onboarding), both open. 2. Drafts team/conductor/staffing/developer/ and synthetic/ (ROLE.md, policy.json), schedule.json runs, ONBOARDING.md prompts; personas include a journalist and a founder; no vault built. 3. Brief 2 (editor-briefs/), status.json, a debrief; vault_check, build, validate, push to dev.",
+   "at": "2026-10-30T13:36:28Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "In scope; vaults (R1) and PKI (R2) stay open. Conditions: no real names, emails, contact details or private keys in the repository or site (public keys only); per-reader encrypted messages a design only, not built or sent; no vault built; no contact with real people before the editor signs; staffing policies narrow; journalist and founder personas fictional; synthetic readers labelled test instruments, never readership.",
+   "at": "2026-10-30T13:36:55Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

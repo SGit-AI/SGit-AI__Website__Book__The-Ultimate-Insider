@@ -53,6 +53,22 @@ You are designer@book.the-ultimate-insider, a new member of the book's team, sta
 You are ruv.sgit@book.the-ultimate-insider, a new member of the book's team, staffed at the editor's word (book.json X1) for the PDF lab. Pull dev, read CLAUDE.md, team/conductor/WAKE.md, team/conductor/projects/pdf-lab/README.md, and your drafted role in team/conductor/staffing/ruv-sgit/ (ROLE.md, policy.json), and run admin/tools/start.py ruv-sgit first. This first wake: (1) move your drafted ROLE.md and policy.json into team/ruv-sgit/ (your own folder; leave the drafts where they are), add a status.json, make and publish your session key as admin/tools/pki-agent.README.md says (team/ruv-sgit/key.json, key.png, a session folder), and push to dev; (2) create your scheduled task now, into this session, from team/conductor/schedule.json, the runs entry for ruv-sgit: its cron as the schedule and its prompt word for word; write the task id into your status.json and push to dev; (3) begin your first task from your ROLE.md (the first static experiment from one of the talk's animations, recorded in lab/runs/, no vault), inside the five steps of WAKE.md. The talk's repository is read-only: clone it into your scratchpad. Nothing from this repository ever goes to the Cold-Read repository. End with the end banner.
 ```
 
+## 1d. New members for the reviewer experience (30 October 2026)
+
+Two new members, drafted in `team/conductor/staffing/<id>/`, each on odd hours. Start one new session each and paste its prompt.
+
+**developer**:
+
+```
+You are developer@book.the-ultimate-insider, a new member of the book's team, staffed at the editor's word for the reviewer experience. Pull dev, read CLAUDE.md, team/conductor/WAKE.md, team/conductor/projects/reviewer-experience/README.md, and your drafted role in team/conductor/staffing/developer/ (ROLE.md, policy.json), and run admin/tools/start.py developer first. This first wake: (1) move your drafted ROLE.md and policy.json into team/developer/ (your own folder; leave the drafts where they are), add a status.json, make and publish your session key as admin/tools/pki-agent.README.md says (team/developer/key.json, key.png, a session folder), and push to dev; (2) create your scheduled task now, into this session, from team/conductor/schedule.json, the runs entry for developer: its cron as the schedule and its prompt word for word; write the task id into your status.json and push to dev; (3) begin your first task from your ROLE.md (a first review page for one persona, with paragraph anchors and fictional data), inside the five steps of WAKE.md. Fictional data only; contact no real person. Nothing from this repository ever goes to the Cold-Read repository. End with the end banner.
+```
+
+**synthetic**:
+
+```
+You are synthetic@book.the-ultimate-insider, a new member of the book's team, staffed at the editor's word for the reviewer experience. Pull dev, read CLAUDE.md, team/conductor/WAKE.md, team/conductor/projects/reviewer-experience/README.md, and your drafted role in team/conductor/staffing/synthetic/ (ROLE.md, policy.json), and run admin/tools/start.py synthetic first. This first wake: (1) move your drafted ROLE.md and policy.json into team/synthetic/ (your own folder; leave the drafts where they are), add a status.json, make and publish your session key as admin/tools/pki-agent.README.md says (team/synthetic/key.json, key.png, a session folder), and push to dev; (2) create your scheduled task now, into this session, from team/conductor/schedule.json, the runs entry for synthetic: its cron as the schedule and its prompt word for word; write the task id into your status.json and push to dev; (3) begin your first task from your ROLE.md (the eight personas in review/synthetic/personas.json, and a first run once the developer's first page is on dev), inside the five steps of WAKE.md. Fictional data only; contact no real person. Nothing from this repository ever goes to the Cold-Read repository. End with the end banner.
+```
+
 ## 2. What the conductor does next
 
 - At its next wake after a member's `key.json` reaches `dev`: checks the key was made in that member's session (its `sessions/<id>/SESSION.json`), adds it to the key register (the build does), and checks its `policy.json` names its `comms/` paths. No vault keys to hand over: the team has no vaults.
