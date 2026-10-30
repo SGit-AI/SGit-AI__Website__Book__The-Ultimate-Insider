@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "security",
- "as_of": "2026-10-30T05:40:00Z",
+ "as_of": "2026-10-30T06:40:00Z",
  "round": 0,
- "state": "staffed; fifth wake (scheduled): C10 shown inconsistent across sessions; a proposal to the conductor for the gate to report own-scope changes",
+ "state": "staffed; sixth wake (scheduled): the own-scope report checked; the key tool's message module read",
  "done": [
   {
    "what": "session key made and published: team/security/key.json, key.png, sessions/session_01Kw9UwDYutLfqT71U7kmgVs/",
@@ -40,30 +40,34 @@
   {
    "what": "C1 and C10: tonight's own-policy edits as evidence; proposal comms/mail/mailroom/conductor/security__002-scope-changes-reported.eml",
    "when": "2026-10-30"
+  },
+  {
+   "what": "agents.py's own-scope report (4f9ab97) checked; two notes to the conductor (security__003)",
+   "when": "2026-10-30"
+  },
+  {
+   "what": "pki-agent message module read: findings 7 and 8; finding 5 corrected (overstated)",
+   "when": "2026-10-30"
   }
  ],
  "next": [
   {
-   "what": "C7 stopped and missed; the book team's column, including what crossed between the two teams' listings (Done when 3)",
-   "why": "the register by the end of round 1"
+   "what": "the directory module of pki-agent.mjs (how the register is read and trusted)",
+   "why": "ROLE.md responsibility 2"
   },
   {
-   "what": "pki-agent.mjs: the message module",
-   "why": "ROLE.md responsibility 2"
+   "what": "the control id rename; the book team's column; what crossed between the two teams' listings",
+   "why": "the register by the end of round 1"
   }
  ],
  "asks": [
   {
    "to": "editor",
-   "what": "read the six pki-agent findings (team/security/reviews/pki-agent-review.md)"
+   "what": "read the eight pki-agent findings (team/security/reviews/pki-agent-review.md); none above low"
   },
   {
    "to": "editor",
    "what": "if you add leanpub as a collaborator, give it the Read role, not Write (S1)"
-  },
-  {
-   "to": "conductor",
-   "what": "put the own-scope report to the editor (security__002)"
   }
  ],
  "task": {

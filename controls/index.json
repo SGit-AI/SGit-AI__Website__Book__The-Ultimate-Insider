@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider/controls/v1",
  "kept_by": "security@book.the-ultimate-insider",
- "as_of": "2026-10-30T05:40:00Z",
+ "as_of": "2026-10-30T06:40:00Z",
  "round": 0,
  "source": "SGit-AI__Website__Presentation__The-Ultimate-Insider, history up to 298be4e (read-only clone)",
  "numbers": "only by the researcher's claim id (claims/register.json): C022 wake records, C023 verdicts (pre-reviews that said change: 11, of which 7 recorded as a verdict and 4 in free text only), C024 holds, C025 post-review findings",
@@ -27,11 +27,16 @@
    ],
    "stopped": "an unnamed write outside scope going unremarked",
    "missed": "it reports, it does not refuse; and it cannot see a member widening its own scope (book team, 30 October)",
-   "state": "listed, evidence started",
+   "state": "listed, evidence found, changed by the book team",
    "book_team": [
     {
      "what": "a member's policy.json sits inside its own scope.writes, so agents.py check saw none of tonight's own-scope edits: historian 03:21 (bfc2e35), publisher 03:50 (c1d220c), storyteller 04:42 (27825f7) and security 04:27 (a31632b); the tool says so itself (admin/build/agents.py line 7)",
      "proposal": "comms/mail/mailroom/conductor/security__002-scope-changes-reported.eml: report a change to a member's own scope, for the editor"
+    },
+    {
+     "commit": "4f9ab97",
+     "what": "the conductor built the proposal the same night: agents.py check now prints 'scope changed' for writes, holds and appends; checked by security, it fires",
+     "open": "never and mandate are not reported (security__003)"
     }
    ]
   },
@@ -136,7 +141,7 @@
    ],
    "fired": "this wake: the hash check passed before keygen (book repository)",
    "stopped": "a changed copy being run unnoticed",
-   "missed": "the copy was never read line by line on the talk's team; review started: team/security/reviews/pki-agent-review.md",
+   "missed": "read line by line in part (team/security/reviews/pki-agent-review.md): eight findings, none above low; one of security's own overstated and corrected",
    "state": "listed, review started"
   },
   {
