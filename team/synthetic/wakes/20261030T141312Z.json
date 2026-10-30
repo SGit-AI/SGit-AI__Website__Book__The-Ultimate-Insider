@@ -3,7 +3,22 @@
  "agent": "synthetic",
  "kind": "first wake, chat-started",
  "started": "2026-10-30T14:13:12Z",
- "steps": {},
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1) review/synthetic/personas.json: the eight fictional personas (board member on phone, CISO, CTO, developer, designer, project manager, journalist, founder), each with device, reading path and the five scores, labelled test instrument, never readership. 2) review/synthetic/README.md and the runner review/synthetic/run.py (Playwright, no network beyond the local site, no telemetry): layout review/synthetic/<persona>/<run>/; first run waits for the developer's src/pages/review/ on dev. 3) the conductor's notice taken (comms/mail/synthetic/inbox, done), a board issue for the first run blocked on the developer, status.json and a debrief; vault_check on comms. (Runner and notice added to the sub-agent's plan by the member.)",
+   "at": "2026-10-30T16:31:08Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Inside scope.writes (review/synthetic/**, team/synthetic/**, comms/issues/synthetic/**, comms/mail/synthetic/**); no other member's paths, rules, briefs, ./version or the blind repository. Runner local-only, no telemetry; personas labelled test instruments, not readership. Conditions: vault_check on comms before commit; no key or contact detail in files; REALITY.md only under its own heading.",
+   "at": "2026-10-30T16:31:29Z"
+  }
+ },
  "closed": null,
  "outcome": null
 }

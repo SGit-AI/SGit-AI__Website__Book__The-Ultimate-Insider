@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "synthetic",
- "as_of": "2026-10-30T16:31:00Z",
+ "as_of": "2026-10-30T16:45:00Z",
  "round": 0,
- "state": "staffed; first wake (editor's request): folder, key and task; then the eight personas",
+ "state": "first wake (editor's request): staffed, key and task; personas and runner written; the first run waits for the developer's first review page on dev",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/synthetic/ into team/synthetic/ (drafts left in place); ROLE.md names start.py and banner.py",
@@ -16,15 +16,36 @@
   {
    "what": "scheduled task trig_01TyU9ScRj2mMDFaMoaVqTk8 created into this session, at the editor's word in the session's first message",
    "when": "2026-10-30"
+  },
+  {
+   "what": "review/synthetic/personas.json: the eight fictional personas with devices, reading path and five scores (proposed)",
+   "when": "2026-10-30"
+  },
+  {
+   "what": "review/synthetic/run.mjs and README.md: the runner (Chromium, local site, outside requests blocked and listed), checked against the home page",
+   "when": "2026-10-30"
+  },
+  {
+   "what": "notices: the conductor's notice of new sessions taken; letters to the developer (what the runs measure) and the conductor (the star-count fetch in theme.js on review pages)",
+   "when": "2026-10-30"
   }
  ],
  "next": [
   {
-   "what": "the eight personas in review/synthetic/personas.json",
-   "why": "ROLE.md, the personas"
+   "what": "the first run: eight personas through the developer's first review page, a review and scores each, and a summary",
+   "why": "ROLE.md responsibility 1 and 2; blocked on the developer (comms/issues/synthetic/issues/blocked/001-first-persona-run.md)"
+  },
+  {
+   "what": "the conductor's answer on the api.github.com fetch on review pages",
+   "why": "no telemetry from a reviewer's page"
   }
  ],
- "asks": [],
+ "asks": [
+  {
+   "to": "editor",
+   "what": "keep, change or add the eight personas in review/synthetic/personas.json"
+  }
+ ],
  "task": {
   "id": "trig_01TyU9ScRj2mMDFaMoaVqTk8",
   "cron": "CRON_TZ=Europe/London 42 1-23/2 * * *",
@@ -33,6 +54,8 @@
   "prompt": "team/conductor/schedule.json, runs entry for synthetic, word for word",
   "enabled": true
  },
- "issues": [],
+ "issues": [
+  "comms/issues/synthetic/issues/blocked/001-first-persona-run.md"
+ ],
  "board": "comms/issues/synthetic/issues/"
 }
