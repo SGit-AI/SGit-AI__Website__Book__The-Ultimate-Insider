@@ -300,6 +300,18 @@
    ]
   },
   {
+   "id": "C10",
+   "status": "open",
+   "by": "editor",
+   "ask": "Four members' comms/ paths",
+   "detail": "The librarian, security, the researcher and the storyteller were asked to add their three `comms/` paths to their own `policy.json`. The session's own permission check refused, or they did not try: a member widening its own write scope. Security records it as control C10, a setting no file here can change. They did not work around it; it waits on you. Until then their requests stay files in `team/<id>/requests/`, which the conductor routes at :02, so no work is blocked.",
+   "options": [
+    "say in each of the four sessions that the member may add its three paths (comms/issues/<id>/**, comms/mail/<id>/**, comms/mail/mailroom/*/<id>__*)",
+    "add them yourself to the four policy.json files",
+    "leave them on files: nothing else depends on it"
+   ]
+  },
+  {
    "id": "Q2",
    "status": "decided",
    "by": "editor",

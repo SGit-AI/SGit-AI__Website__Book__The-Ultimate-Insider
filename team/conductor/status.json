@@ -1,10 +1,18 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "conductor",
- "as_of": "2026-10-30T03:30:00Z",
+ "as_of": "2026-10-30T04:15:00Z",
  "round": 1,
- "state": "03:02 wake: both requests to the conductor answered (storyteller: P0, O1 to O5, C011 into book.json; publisher: the manuscript build in CI, L1 and L2 into book.json); comms/ in git set up, every member asked to add its own three paths",
+ "state": "04:02 wake: historian and publisher on comms/; librarian, security, researcher and storyteller held by the session's own permission check (C10), on files until the editor decides; the board and mail pages built from comms/",
  "done": [
+  {
+   "what": "the board and the mail pages, built from comms/ in git",
+   "evidence": "/team/board.html, /admin/mail.html"
+  },
+  {
+   "what": "historian's and publisher's letters taken; their requests closed",
+   "evidence": "comms/mail/conductor/done/"
+  },
   {
    "what": "the editor's request routed to the researcher: a close look at graphs.sgit.ai, the nearest precedent",
    "evidence": "comms/mail/mailroom/researcher/conductor__002-graphs-sgit-ai.eml"
@@ -56,15 +64,19 @@
  ],
  "next": [
   {
-   "what": "build the board and mail pages from comms/ once every member's policy names its paths",
-   "why": "the admin section, as on the talk team"
+   "what": "route the four members' request files at each :02 until C10 is decided",
+   "why": "C10"
   },
   {
-   "what": "the daily ask to the editor: P0, O1 to O5, C011, L1, L2, Q3, Q4",
+   "what": "the daily ask to the editor: P0, O1 to O5, C011, C10, L1, L2, Q3, Q4",
    "why": "once a day, not every hour"
   }
  ],
  "asks": [
+  {
+   "what": "C10: the four members' comms/ paths: your word in each session, or add them yourself, or leave them on files",
+   "from": "the editor"
+  },
   {
    "what": "sign the chapter plan (P0) and its open questions O1 to O5",
    "from": "the editor"
