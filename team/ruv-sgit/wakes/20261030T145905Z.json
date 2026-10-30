@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled, every two hours at :54 London",
+ "started": "2026-10-30T14:59:05Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. Requests: reply to security__001 (mailroom/security/ruv-sgit__002, outbox copy): capability-not-intent clause in lab 01 page and README, page.pdf and SHA256SUMS rebuilt; the address stays ruv.sgit@ (id ruv-sgit); conductor__002 notice to done. 2. Experiment 02: M01 as one long image in lab/experiments/02-ruv-the-building-one-long-image/ (experiment.proposed.json so the lab build skips it), run in lab/runs/; M02, M03 deferred. 3. Close: debrief, status.json, board, REALITY.md, letter to the designer.",
+   "at": "2026-10-30T15:00:23Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Every path inside scope.writes or the REALITY.md append. Conditions: leave 01-designer-visual-language alone; no brief; no key, token or contact detail in comms; vault_check on comms; the clause benign, nothing attack-shaped; dev only, after the gate.",
+   "at": "2026-10-30T15:00:43Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "security's notes on lab 01 taken (clause in page and README, PDF and hashes rebuilt; address answered by reply); notices filed; lab 02: M01 as one long image, lab/experiments/02-ruv-the-building-one-long-image/ in the lab's format, header as experiment.proposed.json; run lab/runs/20261030T1459Z-ruv-02-the-building-long.*; letters to security and designer; REALITY, debrief, status",
+   "at": "2026-10-30T15:05:17Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
