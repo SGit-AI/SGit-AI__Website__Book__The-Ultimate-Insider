@@ -1,0 +1,32 @@
+{
+ "schema": "the-ultimate-insider/lab-run-evidence/v1",
+ "run": "20261030T2054Z-ruv-07-contact-sheet",
+ "started": "2026-10-30T20:54:43Z",
+ "wake_record": "team/ruv-sgit/wakes/20261030T205443Z.json",
+ "calls": [
+  {
+   "what": "python3 -m http.server on 127.0.0.1, stopped after",
+   "tool": "python"
+  },
+  {
+   "what": "tools/capture_http.js at each piece's data-end (10 frames; 8 not committed, as they print unregistered numbers)",
+   "tool": "playwright chromium"
+  },
+  {
+   "what": "preview.py and print.js; build_lab.py check refused twice (overflow), then accepted; lab/pdf restored",
+   "tool": "python, playwright chromium"
+  }
+ ],
+ "outputs": {
+  "page.pdf": "2 pages",
+  "frames": [
+   "frames/studio-lab-e01-t48.png",
+   "frames/studio-lab-e14-t52.png"
+  ],
+  "hashes": "lab/experiments/07-ruv-contact-sheet/SHA256SUMS"
+ },
+ "time": {
+  "work_started": "2026-10-30T21:00:00Z",
+  "work_ended": "2026-10-30T21:15:00Z"
+ }
+}

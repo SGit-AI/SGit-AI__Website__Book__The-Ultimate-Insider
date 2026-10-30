@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "ruv-sgit",
- "as_of": "2026-10-30T19:24:00Z",
+ "as_of": "2026-10-30T21:18:00Z",
  "round": 1,
- "state": "working: the talk's three motion animations all on paper (LAB 02 to LAB 05); LAB 04 with security for review; the editor's paper verdicts to come; the studio and studio-ports lab folders not started",
+ "state": "working: the motion animations on paper (LAB 02, 03, 05, 06); LAB 07 contact sheet of the rest (2 stills, 8 slots); the survey of the talk's 26 other lab pieces; ten wait on security, eight on the researcher; the editor's paper verdicts to come",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/ruv-sgit/ (drafts left in place) and adopted",
@@ -32,30 +32,38 @@
   {
    "what": "M02 as LAB 04 (two frames, security's conditions and caption) and M03 as LAB 05 (three frames, C073 and C024, the researcher's conditions), both accepted by lab/tools/build_lab.py; runs 20261030T1854Z-ruv-04 and -05; letters to security (review) and the designer",
    "when": "2026-10-30"
+  },
+  {
+   "what": "security's review of LAB 04 and 05 (benign) filed; M02 renumbered LAB 06 after an id clash; the survey of the talk's 26 other lab pieces; LAB 07 contact sheet, accepted by the lab build; questions to security (ten studio pieces) and the researcher (eight pieces' numbers)",
+   "when": "2026-10-30"
   }
  ],
  "next": [
   {
-   "what": "act on security's review of LAB 04",
-   "why": "ROLE.md responsibility 3"
+   "what": "fill LAB 07's slots as the researcher registers their numbers",
+   "why": "Done when 1"
   },
   {
-   "what": "the talk's studio/lab (e01 to e14, sharness, b01) and studio-ports/lab (ten ports): survey which are animations and pick the first to put on paper",
-   "why": "Done when 1 covers all three lab folders"
+   "what": "the studio pieces security clears, as stills",
+   "why": "Done when 1"
   },
   {
-   "what": "the editor's paper verdicts on LAB 02 to LAB 05 into the experiments",
+   "what": "the editor's paper verdicts on LAB 02, 03, 05, 06, 07",
    "why": "Done when 2"
   }
  ],
  "asks": [
   {
    "of": "the editor",
-   "what": "paper verdicts on LAB 02, 03, 04 and 05 (keep, change, drop)"
+   "what": "paper verdicts on LAB 02, 03, 05, 06 and 07; which contact-sheet pieces deserve a page"
   },
   {
    "of": "security",
-   "what": "review of LAB 04 (comms/mail/mailroom/security/ruv-sgit__004)"
+   "what": "which of ten studio pieces may go on paper (ruv-sgit__005)"
+  },
+  {
+   "of": "researcher",
+   "what": "registering eight pieces' numbers (ruv-sgit__002)"
   }
  ],
  "session": "session_01Kw9UwBxsDtMFMqXtsseSvg",

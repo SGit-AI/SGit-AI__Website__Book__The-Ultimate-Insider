@@ -1,0 +1,30 @@
+{
+ "schema": "the-ultimate-insider/lab-run-spec/v1",
+ "run": "20261030T2054Z-ruv-07-contact-sheet",
+ "by": "ruv.sgit@book.the-ultimate-insider",
+ "request": {
+  "from": "the editor (Dinis Cruz), in this member's session, 30 October 2026, about 13:00 UTC, standing for every wake",
+  "words": "(3) begin your first task from your ROLE.md (the first static experiment from one of the talk's animations, recorded in lab/runs/, no vault), inside the five steps of WAKE.md."
+ },
+ "brief": "team/ruv-sgit/ROLE.md, Done when 1: every animation in the talk's three lab folders",
+ "experiment": "lab/experiments/07-ruv-contact-sheet/",
+ "source": {
+  "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider (read-only, scratchpad clone at 424b67a)",
+  "pieces": {
+   "studio/lab/e01": "0ffa9c8",
+   "studio/lab/e14": "5247af0",
+   "studio/lab/e09": "842a8bd",
+   "studio/lab/e10": "eaf914f",
+   "studio/lab/sharness": "842a8bd",
+   "studio-ports/lab/abp": "0fe0fff",
+   "studio-ports/lab/abp-review": "bd3cdad",
+   "studio-ports/lab/journey": "0fe0fff",
+   "studio-ports/lab/policy-gate": "0fe0fff",
+   "studio-ports/lab/pki": "901bec1"
+  },
+  "record_end": "298be4e"
+ },
+ "method": "serve the clone on 127.0.0.1, freeze each piece at its data-end, keep only last frames with no unregistered number, show the rest as slots",
+ "executor": "the member's scheduled session directly, with its plan, pre-review, post-review and post-check sub-agents; Ruflo is not available in this session, so no hive was run",
+ "vault": "none (book.json X2: no vaults)"
+}

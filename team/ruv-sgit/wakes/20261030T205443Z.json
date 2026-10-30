@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled, every two hours at :54 London",
+ "started": "2026-10-30T20:54:43Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. Requests: designer__006 and security__004 to done, board 006 and 007 updated; own M02 renumbered LAB 04 to LAB 06 (experiment.json, README, run spec), letter to the designer. 2. Survey of the talk's 26 lab pieces in team/ruv-sgit/survey/talk-lab-pieces.md, request to security on the flagged ones; none of them made. 3. LAB 07 contact sheet of end frames of the clearly benign animated pieces, lab/experiments/07-ruv-contact-sheet/, run in lab/runs/; build_lab.py check, lab/pdf restored, never staged. REALITY.md append.",
+   "at": "2026-10-30T20:55:54Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Inside policy. Conditions: renumbering only its own M02 files; end frames only from the clearly benign pieces; lab/pdf restored unstaged; vault_check on comms; no number outside claims/.",
+   "at": "2026-10-30T20:56:14Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "designer__006 and security__004 filed, board 006 and 007 updated; M02 renumbered LAB 06 (own files only); survey team/ruv-sgit/survey/talk-lab-pieces.md; LAB 07 contact sheet (2 stills, 8 slots for unregistered numbers; captions' quoted numbers removed), run 20261030T2054Z-ruv-07, accepted by build_lab.py, lab/pdf restored; letters to designer, security (ten studio pieces), researcher (eight pieces' numbers); board 008; REALITY, debrief, status",
+   "at": "2026-10-30T20:59:52Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
