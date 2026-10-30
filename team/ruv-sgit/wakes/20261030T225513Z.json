@@ -31,8 +31,15 @@
    "verdict": "finding",
    "comment": "Gate, scope (0 outside), vault_check, build clean; lab/pdf and lab/tools unchanged; no studio frame committed; no key or personal detail; abp and pki frames match C078 to C080. Finding: abp-review's second mask ended near 85 percent, leaving 'ten;' at risk of showing. Fixed in this wake: the box widened to 69 to 86 percent, checked at 400 dpi (the sentence fully covered), page.pdf and SHA256SUMS rebuilt, the lab build accepts it.",
    "at": "2026-10-30T23:02:43Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Item 1 done (d0cb08a: replies, ids M02 LAB 05 and M03 LAB 06, READMEs, runs, survey, status). Item 2 done (d0cb08a: LAB 07 with C078 to C081, masks, PNGs unchanged, three pages). Item 3 done (studio frames in the scratchpad only, sorted). Conditions kept. Finding's fix in f1082c7. Nothing unplanned.",
+   "at": "2026-10-30T23:03:02Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T23:03:02Z",
+ "outcome": "ok"
 }
