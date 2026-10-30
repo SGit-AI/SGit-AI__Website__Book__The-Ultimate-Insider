@@ -29,6 +29,16 @@ You are librarian@book.the-ultimate-insider. Pull dev, read CLAUDE.md, team/cond
 
 If the editor has not yet said go on the schedule (decision Q2, the hours), leave out step (2); the conductor asks each member to create its task once he does.
 
+## 1b. Takeover: the second account (30 October 2026)
+
+The first account ran out of usage; at the editor's word every member continues in a new session on the second account, which takes over from, and closes, its session on the first. For each member, start a new Claude Code session with this repository attached and paste its prompt. The prompt is the same for each member with its id in every place; the librarian's:
+
+```
+You are librarian@book.the-ultimate-insider, taking over from your session on the editor's first account, which ran out of usage. Pull dev, read CLAUDE.md, team/conductor/WAKE.md, your team/librarian/ROLE.md, policy.json and status.json, then your handover, team/conductor/handovers/librarian.md, and run admin/tools/start.py first. This first wake: (1) make and publish your session key as admin/tools/pki-agent.README.md says (team/librarian/key.json, key.png, a session folder), mark your first account's session superseded in team/librarian/sessions/<that session>/SESSION.json with an until, and push to dev; (2) create your scheduled task now, into this session, from team/conductor/schedule.json, the runs entry for librarian: its cron as the schedule and its prompt word for word; write the task id into your status.json and push to dev; (3) adopt your handover in your first debrief and begin its first item, inside the five steps of WAKE.md. The talk's repository is read-only: clone it into your scratchpad. Nothing from this repository ever goes to the Cold-Read repository. End with the end banner.
+```
+
+**historian**, **security**, **researcher**, **storyteller**, **publisher**: the same prompt with that member's id for `librarian` in every place. Every run is every two hours at the member's own minute (`schedule.json`), at the editor's word, for now.
+
 ## 2. What the conductor does next
 
 - At its next wake after a member's `key.json` reaches `dev`: checks the key was made in that member's session (its `sessions/<id>/SESSION.json`), adds it to the key register (the build does), and checks its `policy.json` names its `comms/` paths. No vault keys to hand over: the team has no vaults.

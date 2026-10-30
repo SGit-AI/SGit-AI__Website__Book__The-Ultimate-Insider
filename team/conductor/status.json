@@ -1,10 +1,14 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "conductor",
- "as_of": "2026-10-30T11:35:00Z",
+ "as_of": "2026-10-30T11:50:00Z",
  "round": 1,
- "state": "RC1 rebuilt here and identical page for page to the printed PDF; RC1 on the site at /rc1/, linked from the home page; waiting on the editor's RC1 ticks",
+ "state": "scheduled every two hours at :02; members' takeover prompts ready for the editor; RC1 on the site; waiting on the editor's RC1 ticks",
  "done": [
+  {
+   "what": "the conductor's task on the second account, every two hours at :02; members' runs every two hours; a takeover prompt per member; H1 proposed (how a session is closed)",
+   "evidence": "team/conductor/schedule.json, team/conductor/ONBOARDING.md, book.json H1"
+  },
   {
    "what": "RC1 and the companion rebuilt and compared with the printed PDFs: same pages, same text, same rendering; RC1 on its own page, linked from the home page",
    "evidence": "team/conductor/debriefs/2026-10-30__rc1-rebuilt-and-on-the-site.md, /rc1/"
@@ -131,9 +135,12 @@
   }
  ],
  "task": {
-  "id": null,
-  "note": "the first account's task trig_01K8zShjjXTz4VGLCTcKFVUe is paused there; no task on this account until the editor says so",
-  "session": "session_01Kw9UwD2NrD3Mh35Wg7DK1n"
+  "id": "trig_01BmE8oGh2UyxmLwR4vrMexU",
+  "cron": "CRON_TZ=Europe/London 2 */2 * * *",
+  "session": "session_01Kw9UwD2NrD3Mh35Wg7DK1n",
+  "created": "2026-10-30T11:44:04Z",
+  "by": "conductor, at the editor's word in its session",
+  "replaces": "trig_01K8zShjjXTz4VGLCTcKFVUe (first account, paused)"
  },
  "daily_ask": {
   "at": "2026-10-30T08:10:00Z",
@@ -152,5 +159,5 @@
    "C10b"
   ]
  },
- "updated": "2026-10-30T11:35:00Z"
+ "updated": "2026-10-30T11:50:00Z"
 }

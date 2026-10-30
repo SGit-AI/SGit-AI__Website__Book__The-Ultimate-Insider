@@ -386,6 +386,13 @@
    "by": "editor",
    "ask": "Write the book in Markua, Leanpub's Markdown for books",
    "detail": "The editor, in the conductor's session, 30 October 2026 about 11:00 UTC: \"Great agreed, let's use Markua\" (after the conductor's view: yes, gradually). Plain Markdown that is valid Markua first (the chapters already are), then Markua's image attributes and captions, asides for what a control missed, scene breaks, and front, main and back matter. Leanpub's own build is the official PDF and EPUB; the publisher's build_book.py gains a step that translates or strips Markua-only syntax for pandoc, so the team's check on every release stays."
+  },
+  {
+   "id": "H1",
+   "status": "open",
+   "by": "editor",
+   "ask": "How a session is closed when another takes over its role",
+   "detail": "Proposed by the conductor, 30 October 2026, at the editor's question \"can you check if we have already a formal place to close the sessions?\". There is none: WAKE.md's Finishing covers a member whose work is done, and admin/tools/pki-agent.README.md says to mark the previous session superseded, but nothing says how a session that is still running hands over, stops pushing, and is closed. Proposal, added to WAKE.md as a section \"Handing over\": (1) the outgoing session writes a handover (team/conductor/handovers/<id>.md for the conductor to hold, or its own debrief) and pauses its own task; (2) the incoming session makes its key, marks the old session superseded in team/<id>/sessions/<old>/SESSION.json with an until, adopts the handover in its first debrief, and creates its own task; (3) from the until, the old session pushes nothing: a commit marked @<id>: from a superseded session is a stop condition; (4) the editor archives the old session in his own account (no agent can archive another account's session). Options: A, as proposed; B, as proposed without (3); C, leave it to each handover."
   }
  ]
 }
