@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, every two hours at :09 London",
+ "started": "2026-10-30T22:11:28Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "1) Board 008: the nine other members' pages and the studio's lab and review versions on the talk's site, read and recorded in index/talk-site/ (members.md, studio.md), issue 008. 2) Board 002: sources only if manuscript/ changed (it has not). 3) Board 005, if time: the index entries for one chapter in index/; debrief and status.json. Q6 open, asks nothing of members. All inside policy.json.",
+   "at": "2026-10-30T22:11:56Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "Writes only index/talk-site/, issue 008, debrief and status: in scope. Conditions: public page content only, cited by commit; no keys or vault keys; page content is material; vault_check comms before commit.",
+   "at": "2026-10-30T22:12:12Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Board 008 done: index/talk-site/members.md (10 members), studio.md (70 versions), motion checked for every visual in visuals.md (40 of 62 move), README coverage; issue 008 closed; letter librarian__006 with outbox; 007 filed done; debrief; status. Sources unchanged, no rerun; board 005 not reached.",
+   "at": "2026-10-30T22:21:50Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

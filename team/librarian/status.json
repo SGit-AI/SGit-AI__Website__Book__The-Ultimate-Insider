@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "librarian",
- "as_of": "2026-10-30T20:14:00Z",
+ "as_of": "2026-10-30T22:22:00Z",
  "round": 0,
- "state": "Scheduled wake 20:11: my twelve companion cards answered (team/librarian/rc1-cards.md: 5 adopted, 4 changed, 3 withdrawn as fixed)",
+ "state": "Scheduled wake 22:11: the talk-site study done (members.md, studio.md, motion checked); board 008 closed. Open: 002 sources each wake, 004 voice, 005 index entries per chapter",
  "done": [
   {
    "what": "Session key made and published (team/librarian/key.json, key.png, sessions/session_01Kw9UwBgUFHEgwLsB3TrwA8/)",
@@ -76,13 +76,13 @@
   {
    "what": "Board 006: the twelve cards drafted as the librarian answered in team/librarian/rc1-cards.md; letter librarian__005",
    "when": "2026-10-30T20:13:00Z"
+  },
+  {
+   "what": "Board 008 done: index/talk-site/members.md, studio.md, motion for every visual; letter librarian__006",
+   "when": "2026-10-30T22:21:00Z"
   }
  ],
  "next": [
-  {
-   "what": "The talk-site study: the animations watched in motion; the nine other members' pages; the studio's lab versions",
-   "why": "board 008"
-  },
   {
    "what": "Each wake: check_sources.py on every RC1 chapter (full-history clones), findings to the conductor with file and line",
    "why": "board 002"
