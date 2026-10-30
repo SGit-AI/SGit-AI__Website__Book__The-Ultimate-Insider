@@ -1,15 +1,32 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "librarian",
- "as_of": "2026-10-30T01:30:00Z",
+ "as_of": "2026-10-30T01:41:00Z",
  "round": 0,
- "state": "proposed: not staffed yet; the editor starts its session with the prompt in team/conductor/ONBOARDING.md",
- "done": [],
+ "state": "staffed: session session_01Kw9UwBgUFHEgwLsB3TrwA8, key sha256:e5768293c14e8cdc; hourly task at :09 London created at the editor's word; first task (the index) begun",
+ "done": [
+  {
+   "what": "Session key made and published (team/librarian/key.json, key.png, sessions/session_01Kw9UwBgUFHEgwLsB3TrwA8/)",
+   "when": "2026-10-30T01:40:31Z"
+  },
+  {
+   "what": "Own scheduled task created into this session, trig_01MGyWHBgZ7Pzg95f2ozEAi5, cron and prompt from schedule.json",
+   "when": "2026-10-30T01:40:56Z"
+  }
+ ],
  "next": [
   {
    "what": "The index, before any chapter is written: start from `briefs/2026-10-30/3-source-map.md` (the seed) and the talk's repository at `298be4e`; publish `index/README.md` with the method and the first areas in round 0, the whole index by the end of round 1 (Friday night).",
    "why": "its first task, from the brief"
   }
  ],
- "asks": []
+ "asks": [],
+ "session": "session_01Kw9UwBgUFHEgwLsB3TrwA8",
+ "task": {
+  "id": "trig_01MGyWHBgZ7Pzg95f2ozEAi5",
+  "cron": "CRON_TZ=Europe/London 9 * * * *",
+  "created": "2026-10-30T01:40:56Z",
+  "into": "session_01Kw9UwBgUFHEgwLsB3TrwA8",
+  "prompt": "word for word from team/conductor/schedule.json, runs entry for librarian"
+ }
 }
