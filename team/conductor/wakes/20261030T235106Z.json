@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "In scope: 02-the-centre-of-gravity.md is a new brief beside 01, none edited. Requests within roles; nothing decided; no candidates invented. Conditions: the memo holds no key, contact or private person; vault_check before commit; brief 10 is a new file in team/conductor/editor-briefs/, not briefs/.",
    "at": "2026-10-30T23:51:58Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "1. briefs/2026-10-30__in-session/02-the-centre-of-gravity.md (new, the memo verbatim, the conductor's reading apart). 2. Requests to the storyteller (lead), synthetic, researcher, publisher; vault_check clean; no candidates or decision of the conductor's. 3. Brief 10, status.json. Gate clean.",
+   "at": "2026-10-30T23:52:55Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "Build and validate exit 0; 0 outside scope; vault_check clean; one new brief, none edited, no key, contact or private person; four requests in role; no decision; no em-dashes.",
+   "at": "2026-10-30T23:53:30Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "as-planned",
+   "comment": "1 the new brief. 2 four requests, no decision or candidates. 3 brief 10 (team/conductor/editor-briefs/2026-10-31T0005Z), status. Nothing unplanned.",
+   "at": "2026-10-30T23:53:30Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T23:53:30Z",
+ "outcome": "ok"
 }
