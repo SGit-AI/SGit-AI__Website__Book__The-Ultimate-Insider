@@ -1,10 +1,10 @@
 {
  "schema": "the-ultimate-insider/controls/v1",
  "kept_by": "security@book.the-ultimate-insider",
- "as_of": "2026-10-30T02:45:00Z",
+ "as_of": "2026-10-30T03:40:00Z",
  "round": 0,
  "source": "SGit-AI__Website__Presentation__The-Ultimate-Insider, history up to 298be4e (read-only clone)",
- "numbers": "none in this file: every count goes through the researcher's register (claims/); asked in team/security/requests/researcher__control-counts.md",
+ "numbers": "only by the researcher's claim id (claims/register.json): C022 wake records, C023 verdicts (its pre-review change count is under check: team/security/requests/researcher__re-control-counts-reply.md), C024 holds, C025 post-review findings",
  "controls": [
   {
    "id": "C1",
@@ -60,9 +60,14 @@
     }
    ],
    "stopped": "captured cookie values reaching the public record",
-   "missed": "to research: the pre-review did say change, in several wakes (kept under each record's history); whether a post-review finding ever stopped a release is still open",
+   "missed": "no step said stop all day (C023); pre-reviews did send plans back (C023, the count under check); a post-review finding came after a push, not before it (C025, researcher 03:05)",
    "state": "listed, evidence started",
-   "correction": "round 0 said no pre-review said change or stop: wrong, the scan read only steps, not each record's top-level history (corrected 30 October 2026, 02:45 UTC)"
+   "correction": "round 0 said no pre-review said change or stop: wrong, the scan read only steps, not each record's top-level history (corrected 30 October 2026, 02:45 UTC)",
+   "claims": [
+    "C022",
+    "C023",
+    "C025"
+   ]
   },
   {
    "id": "C3",
@@ -87,8 +92,11 @@
     }
    ],
    "stopped": "the team running the editor out of usage",
-   "missed": "to research: the one hold in the record came from the editor's word, not from a member's own stop",
-   "state": "listed, evidence started"
+   "missed": "the one hold (C024) came from the editor's word about his usage, not from a finding; it was never lifted on the day",
+   "state": "listed, evidence started",
+   "claims": [
+    "C024"
+   ]
   },
   {
    "id": "C4",
@@ -135,7 +143,7 @@
    ],
    "fired": "not found yet: no gate failure for a leak in the talk's history so far",
    "stopped": "to find",
-   "missed": "cookie values and anti-forgery tokens in captured pages have no pattern in it; the reviews caught them instead (talk af0010b at 04:24, f30b73f at 06:23)",
+   "missed": "cookie values, form tokens and other sites' page tokens had no pattern in it; the reviews caught them, one only after the push (C025)",
    "state": "listed",
    "introduced": [
     {
@@ -192,11 +200,15 @@
     {
      "commit": "talk team/conductor/wakes/20261029T140334Z.json (history)",
      "what": "the first pre-review's conditions added an sk-or- pattern to vault_check.py: a gap found by a review, not by the check"
+    },
+    {
+     "claim": "C025",
+     "what": "researcher 03:05: other sites' public page tokens went out in a 02:22 push inside captured pages, and a check printed several to the session log; redacted after, the 02:22 commit stays in history, the editor told"
     }
    ],
-   "stopped": "to find: a vault_check failure",
-   "missed": "to research",
-   "state": "listed, evidence started"
+   "stopped": "later pushes of the same kind of value (C025: the 04:10 and 06:14 findings were caught before their commits)",
+   "missed": "the first one: neither vault_check nor the gate had a pattern for it, and public history keeps it",
+   "state": "listed, a failure found"
   },
   {
    "id": "C9",
@@ -211,6 +223,24 @@
    "stopped": "to see: the role the editor gives",
    "missed": "to find",
    "state": "book team only: the talk's record has no outside collaborator found yet"
+  },
+  {
+   "id": "C10",
+   "name": "the session's own permission check",
+   "kind": "setting, in the harness, outside the repository",
+   "what": "the session refuses an action it judges self-modification, whatever the repository's files say",
+   "where": [
+    "the Claude Code session, not this repository"
+   ],
+   "fired": [
+    {
+     "wake": "team/security/wakes/20261030T032513Z.json",
+     "what": "refused security's edit adding the comms/ paths to its own policy.json, though the conductor asked, CLAUDE.md names the paths and the pre-review said go"
+    }
+   ],
+   "stopped": "an agent widening its own policy without the editor",
+   "missed": "to find",
+   "state": "book team only so far"
   }
  ],
  "book_team": {
@@ -240,6 +270,11 @@
     "control": "C2",
     "what": "security's own round 0 claim corrected in the open after this wake's evidence search",
     "wake": "team/security/wakes/20261030T022443Z.json"
+   },
+   {
+    "control": "C10",
+    "what": "security's own policy widening refused by the session; left to the editor",
+    "wake": "team/security/wakes/20261030T032513Z.json"
    }
   ]
  }

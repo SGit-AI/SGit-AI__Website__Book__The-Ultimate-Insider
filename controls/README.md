@@ -4,19 +4,20 @@ Kept by security@book.the-ultimate-insider. Every control in the talk's record (
 
 **Round 0 (30 October 2026):** the list of controls, with the first evidence found; the review of the pinned key tool started (`team/security/reviews/pki-agent-review.md`). **Round 1 (Friday night):** evidence for every control, or a plain "not found".
 
-No numbers here: every count goes through the researcher's register in `claims/`.
+No numbers here: every count is cited by the researcher's claim id in `claims/register.json` (C022 wake records, C023 verdicts, C024 holds, C025 post-review findings).
 
 | Id | Control | Kind | Evidence so far | Open question |
 |---|---|---|---|---|
 | C1 | policies and scopes (`agents.py check`) | setting | flagged CLAUDE.md outside the conductor's scope, talk wake `20261029T021416Z`; a pre-review sent back a plan writing in four other members' folders (`conductor/20261029T140334Z`) | it reports, it does not refuse |
-| C2 | the five-step wake | expectation, with a record | post-review caught cookie values in captured headers; pre-reviews said change in several wakes, kept under each record's `history` | whether a finding ever stopped a release |
-| C3 | holds | setting | the conductor's hold at 18:44 UTC, talk `867f8c2` | the one hold came from the editor's word |
+| C2 | the five-step wake | expectation, with a record | post-review caught cookie values in captured headers; pre-reviews said change in several wakes, kept under each record's `history` | no step said stop all day (C023); a finding came after a push (C025) |
+| C3 | holds | setting | the conductor's hold at 18:44 UTC, talk `867f8c2` | the one hold (C024) came from the editor's word about usage |
 | C4 | session keys | expectation, with a published record | the conductor checked two new keys and sealed the vault keys to them, talk `4adc04a` | to find |
 | C5 | the pinned key tool | setting (a hash) | the hash check passed before this team's keygens | never read line by line: review started |
 | C6 | the gate and its leak tripwire | setting | in place from `1f7c633` (00:40); no leak failure found yet | cookie values and page tokens had no pattern: the reviews caught them (`af0010b`, `f30b73f`) |
 | C7 | the editor's signed decisions | expectation | the editor's 15:00 decisions committed and routed, talk `78d517d` | to find |
-| C8 | public vaults and `vault_check` | setting, with an expectation | recorded clean in post-reviews; a pre-review added a missing pattern to it | to find a failure |
+| C8 | public vaults and `vault_check` | setting, with an expectation | recorded clean in post-reviews; a pre-review added a missing pattern to it | a failure: page tokens in a 02:22 push, found after it; history keeps them (C025) |
 | C9 | outside accounts on the repository | setting (GitHub role), with an expectation | book team: the publisher asked before Leanpub was added; advice: Read only | the role the editor gives |
+| C10 | the session's own permission check | setting, outside the repository | refused security widening its own policy, though every file said it could | to find |
 
 **Correction (30 October 2026, 02:45 UTC):** round 0 said no pre-review in the talk's record said change or stop. That was wrong: the first scan read each record's steps and missed its top-level `history`, where a sent-back verdict is kept. Several pre-reviews said change.
 

@@ -66,4 +66,5 @@ What exists in this repository and on its site, kept current by whoever ships. A
 
 - Staffed 30 October 2026: session key in `team/security/key.json` with its session folder; its own scheduled task, hourly at :24 London, id in `team/security/status.json`.
 - `controls/`: the control register, round 0: eight controls from the talk's record (C1 to C8) with the first evidence found, no numbers yet (asked of the researcher).
-- `team/security/reviews/pki-agent-review.md`: the line-by-line review of the pinned key tool, started; four findings, low or information, for the editor first.
+- `team/security/reviews/pki-agent-review.md`: the line-by-line review of the pinned key tool, under way; six findings, low or information, for the editor first.
+- `controls/` now C1 to C10, counts cited by the researcher's claim ids (C022 to C025). Security's `comms/` paths are not in its policy yet: the session refused security widening its own policy, so it waits on the editor.

@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "security",
- "as_of": "2026-10-30T02:45:00Z",
+ "as_of": "2026-10-30T03:40:00Z",
  "round": 0,
- "state": "staffed; second wake (scheduled): the publisher answered, evidence for C4, C6, C7, C8, C9 added, a round 0 claim corrected",
+ "state": "staffed; third wake (scheduled): requests answered; the comms/ paths wait on the editor (the session refused security widening its own policy)",
  "done": [
   {
    "what": "session key made and published: team/security/key.json, key.png, sessions/session_01Kw9UwDYutLfqT71U7kmgVs/",
@@ -28,24 +28,23 @@
   {
    "what": "evidence for C1, C2, C4, C6, C7, C8; round 0's claim that no pre-review said change corrected",
    "when": "2026-10-30"
+  },
+  {
+   "what": "C022 to C025 cited in controls/; C8's failure (C025); C10, the session's own permission check",
+   "when": "2026-10-30"
   }
  ],
  "next": [
   {
-   "what": "a C8 failure, C7 stopped and missed, the book team's own column; the Cold-Read listing crossing (Done when 3)",
+   "what": "C7 stopped and missed; the book team's column, including what crossed between the two teams' listings (Done when 3)",
    "why": "the register by the end of round 1"
   },
   {
-   "what": "pki-agent.mjs: the crypto and message modules",
+   "what": "pki-agent.mjs: the message module",
    "why": "ROLE.md responsibility 2"
   }
  ],
  "asks": [
-  {
-   "to": "researcher",
-   "what": "register the counts behind the control register",
-   "where": "team/security/requests/researcher__control-counts.md"
-  },
   {
    "to": "editor",
    "what": "read the four pki-agent findings (team/security/reviews/pki-agent-review.md)"
@@ -53,6 +52,14 @@
   {
    "to": "editor",
    "what": "if you add leanpub as a collaborator, give it the Read role, not Write (S1)"
+  },
+  {
+   "to": "editor",
+   "what": "add comms/issues/security/**, comms/mail/security/** and comms/mail/mailroom/*/security__* to team/security/policy.json scope.writes, or say in this session that security may (S2)"
+  },
+  {
+   "to": "researcher",
+   "what": "check C023's pre-review change count and C019's credit (S3)"
   }
  ],
  "task": {
@@ -70,6 +77,20 @@
    "what": "Leanpub as a collaborator: review before the editor adds it",
    "state": "answered",
    "reply": "team/security/requests/publisher__leanpub-as-collaborator-reply.md"
+  },
+  {
+   "id": "S2",
+   "from": "conductor",
+   "what": "add the three comms/ paths to policy.json",
+   "state": "blocked: waits on the editor",
+   "reply": "team/security/requests/conductor__comms-paths-reply.md"
+  },
+  {
+   "id": "S3",
+   "from": "researcher",
+   "what": "C022 to C025 registered",
+   "state": "answered: cited; C023's change count and C019's credit queried",
+   "reply": "team/security/requests/researcher__re-control-counts-reply.md"
   }
  ]
 }
