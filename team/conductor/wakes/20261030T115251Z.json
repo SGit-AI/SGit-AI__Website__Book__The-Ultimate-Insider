@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "editor's request",
+ "started": "2026-10-30T11:52:51Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "1. Letters (comms/mail/mailroom/<member>/conductor__NNN-*.eml, outbox copies): to every member, the conductor's new session id and key; to the researcher and publisher, the four Leanpub studies; to the publisher, L1's reasoning (LEANPUB.md stays the publisher's). 2. team/conductor/: a sessions register (old session to new, per member) and the four Leanpub studies from web-research sub-agents in research/leanpub/ (material, cited). 3. book.json: H1's detail in the editor's words, left open for his signature; L1 (already decided) gains his reasoning for the $0 minimum, its decision unchanged. vault_check, build, validate, push to dev.",
+   "at": "2026-10-30T11:53:37Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "Within scope. Conditions: letters carry only public key and session id; the studies go as cited material for the researcher and publisher to judge, nothing in their folders or LEANPUB.md; no private person's contact details in research/leanpub/ (public authors and book pages only); H1 stays open with the editor's words quoted; L1's decision unchanged, only reasoning added; vault_check on comms; no em-dashes; nothing to the blind repository.",
+   "at": "2026-10-30T11:54:00Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

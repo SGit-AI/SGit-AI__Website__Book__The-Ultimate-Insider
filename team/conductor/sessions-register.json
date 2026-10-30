@@ -1,0 +1,108 @@
+{
+ "schema": "the-ultimate-insider/sessions-register/v1",
+ "about": "Every handover of a role from one session to the next, so that a member checking a signed message knows which session and key hold each role now, and so the handovers can be mapped over time. Kept by the conductor. At the editor's word (30 October 2026, about 11:50 UTC): the conductor may write the handover and the closing on behalf of a session that can no longer do it (out of usage, or not worth its tokens), and signs it as itself; a handover is the closing of the old session and the announcement of the new one. How a session is closed is open decision H1.",
+ "handovers": [
+  {
+   "role": "conductor",
+   "from": {
+    "session": "session_01Kw9UwDcSTJ2nZLAFJMat9U",
+    "key": "sha256:15762445fb34548e",
+    "task": "trig_01K8zShjjXTz4VGLCTcKFVUe (paused, first account)"
+   },
+   "to": {
+    "session": "session_01Kw9UwD2NrD3Mh35Wg7DK1n",
+    "key": "sha256:f2456a147ac54f5f",
+    "task": "trig_01BmE8oGh2UyxmLwR4vrMexU"
+   },
+   "at": "2026-10-30T11:08:31Z",
+   "why": "the first account was nearly out of usage (the editor, 30 October 2026)",
+   "handover": "team/conductor/debriefs/2026-10-30__handover-to-the-next-account.md",
+   "closed_by": "the outgoing session wrote its own handover; the incoming session marked it superseded",
+   "note": "the outgoing session pushed once more after the until (427f821, the printed PDFs, at the editor's request there); see H1"
+  },
+  {
+   "role": "librarian",
+   "from": {
+    "session": "session_01Kw9UwBgUFHEgwLsB3TrwA8",
+    "key": "sha256:e5768293c14e8cdc",
+    "task": "trig_01MGyWHBgZ7Pzg95f2ozEAi5 (paused, first account)"
+   },
+   "to": null,
+   "at": null,
+   "why": "the first account was nearly out of usage (the editor, 30 October 2026)",
+   "handover": "team/conductor/handovers/librarian.md",
+   "closed_by": "the conductor, on the outgoing session's behalf (its handover written by the first account's conductor at about 11:45 UTC)",
+   "note": "waiting for the member's new session on the second account; it fills in 'to' by publishing its key, and the conductor records it here"
+  },
+  {
+   "role": "historian",
+   "from": {
+    "session": "session_01Kw9UwBrRHk6F5eoPjZLn35",
+    "key": "sha256:85ffd0907275f5eb",
+    "task": "trig_016Shar3cqBT4mwmFwuQHhCD (paused, first account)"
+   },
+   "to": null,
+   "at": null,
+   "why": "the first account was nearly out of usage (the editor, 30 October 2026)",
+   "handover": "team/conductor/handovers/historian.md",
+   "closed_by": "the conductor, on the outgoing session's behalf (its handover written by the first account's conductor at about 11:45 UTC)",
+   "note": "waiting for the member's new session on the second account; it fills in 'to' by publishing its key, and the conductor records it here"
+  },
+  {
+   "role": "security",
+   "from": {
+    "session": "session_01Kw9UwDYutLfqT71U7kmgVs",
+    "key": "sha256:94919aabb7eddf3d",
+    "task": "trig_01VpMoh9UJ4sJgUnKVCQufZG (paused, first account)"
+   },
+   "to": null,
+   "at": null,
+   "why": "the first account was nearly out of usage (the editor, 30 October 2026)",
+   "handover": "team/conductor/handovers/security.md",
+   "closed_by": "the conductor, on the outgoing session's behalf (its handover written by the first account's conductor at about 11:45 UTC)",
+   "note": "waiting for the member's new session on the second account; it fills in 'to' by publishing its key, and the conductor records it here"
+  },
+  {
+   "role": "researcher",
+   "from": {
+    "session": "session_01Kw9UwBta1dcP9qBJUURLPZ",
+    "key": "sha256:4e0287f6640d61f0",
+    "task": "trig_0187JjB8uJUHxvgeCoAGXoKj (paused, first account)"
+   },
+   "to": null,
+   "at": null,
+   "why": "the first account was nearly out of usage (the editor, 30 October 2026)",
+   "handover": "team/conductor/handovers/researcher.md",
+   "closed_by": "the conductor, on the outgoing session's behalf (its handover written by the first account's conductor at about 11:45 UTC)",
+   "note": "waiting for the member's new session on the second account; it fills in 'to' by publishing its key, and the conductor records it here"
+  },
+  {
+   "role": "storyteller",
+   "from": {
+    "session": "session_01Kw9UwFSAdt6ywy4t5H8kvd",
+    "key": "sha256:edc67e3cc68b3b07",
+    "task": "trig_017wCRMAnPCSZsLndXPkbLcD (paused, first account)"
+   },
+   "to": null,
+   "at": null,
+   "why": "the first account was nearly out of usage (the editor, 30 October 2026)",
+   "handover": "team/conductor/handovers/storyteller.md",
+   "closed_by": "the conductor, on the outgoing session's behalf (its handover written by the first account's conductor at about 11:45 UTC)",
+   "note": "waiting for the member's new session on the second account; it fills in 'to' by publishing its key, and the conductor records it here"
+  },
+  {
+   "role": "publisher",
+   "from": {
+    "session": "session_01Kw9UwDVeRbKJZUWiRoRrHK",
+    "key": "sha256:88b9a9682c1b72e9",
+    "task": "trig_01D2wnhQDySKsG8ZL9XLmNsW (paused, first account)"
+   },
+   "to": null,
+   "at": null,
+   "why": "the first account was nearly out of usage (the editor, 30 October 2026)",
+   "handover": "team/conductor/handovers/publisher.md",
+   "closed_by": "the conductor, on the outgoing session's behalf (its handover written by the first account's conductor at about 11:45 UTC)",
+   "note": "waiting for the member's new session on the second account; it fills in 'to' by publishing its key, and the conductor records it here"
+  }
+ ]
+}
