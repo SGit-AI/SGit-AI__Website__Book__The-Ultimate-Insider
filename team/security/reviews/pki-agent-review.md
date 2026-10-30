@@ -1,4 +1,4 @@
-# Review of admin/tools/pki-agent.mjs (started)
+# Review of admin/tools/pki-agent.mjs (complete, 30 October 2026, 20:40 UTC)
 
 By security@book.the-ultimate-insider, first wake, 30 October 2026. **For the editor first**: the tool is the editor's own (pki.sgit.ai); any fix is the editor's to make there, and the pinned copy here is refreshed only as `pki-agent.README.md` says. Read only: the copy was not changed. Its hash matched `pki-agent.mjs.sha256` before reading.
 
@@ -9,8 +9,8 @@ Defensive notes only: what each finding is, why it matters, and a fix. No key ma
 | Part | Lines | Read |
 |---|---|---|
 | header, imports | 1 to 34 | yes |
-| vendored QR generator (MIT) | from 35 | no |
-| keys module (`assets/people/keys.js`): algorithms, identity, PBES2, signatures, the envelope | 2278 to 2568 | yes (second wake), but not the DER helpers line by line |
+| vendored QR generator (MIT) | 35 to 2277 | for network calls, file writes, process access and dynamic code only (fourteenth wake, second session): none found; the only URLs are in comments and the SVG namespace |
+| keys module (`assets/people/keys.js`): algorithms, identity, PBES2, signatures, the envelope | 2278 to 2568 | yes (second wake); the DER helpers line by line (2394 to 2495) in the second session's 20:24 wake |
 | message module (`assets/people/message.js`): the inner message, links, invitations, agent QR codes, vault keys in text | 2927 to 3147 | yes (sixth wake) |
 | directory module (`assets/people/directory.js`): records, statements, the graph, trust from a pinned root | 2569 to 2926 | yes (seventh wake) |
 | evidence module (`assets/people/evidence.js`): checking a website, gist or DNS record by machine | 3148 to 3214 | yes (eighth wake) |
@@ -49,6 +49,11 @@ The file says it is generated from the site's own code by `admin/build/gen_agent
 14. **`keyfile` prints both private halves to standard output, in the clear when no passphrase is set** (`keyfile`, lines 3852 to 3857). Its purpose is to carry a key between machines (`PKI_AGENT_KEY`, header lines 17 to 19); with `SG_SEND_PASSPHRASE` unset, as in every session on this team, it warns on standard error and prints the keys unencrypted anyway. In an agent session, standard output is the session's transcript: one run puts the member's private key there, and from there into anything that quotes the transcript. If the output were committed, the gate's tripwire would catch the PEM header (C6), but the transcript is already outside the repository. No member has a reason to run it (session keys never travel: `pki-agent.README.md`), and none has, as far as the record shows. Fix, for the editor: refuse to run without a passphrase, or write only to a file given with `--out` at mode 0600, never to standard output; and one line in `pki-agent.README.md`: never run `keyfile` in a session. Severity: **medium**. Credit: the Cold-Read team's security member found it first (its `team/security/controls-and-threats.md`, finding K2, rated "high if ever run"); this review had not yet reached the command and confirms it.
 15. **Sealing here always skips the trust chain** (`admin/tools/vault_handover.py` lines 20 and 127; `vouched`, line 3598). This team pins no root, so the tool's own protection for `seal` and `send` (finding 4, What held) is bypassed by design with `--unverified`: a vault key is sealed to whatever key a `team/<id>/key.json` names. The check that stands in its place is the conductor reading the member's session folder before sealing (C4). No vault exists now (decision of 30 October: no vaults), so nothing is sealed today. Fix, if vaults return: pin the editor's root and drop `--unverified`. Severity: information. Also from the Cold-Read team's register (K3), confirmed here.
 
+16. **The DER reader trusts the lengths it reads** (`read`, lines 2408 to 2414). It does not check that a declared length fits the buffer, so a malformed file gives a truncated value and a confusing error later rather than a clear refusal. It reads only the user's own key files, and WebCrypto rejects a bad key afterwards, so nothing wrong is ever accepted. **Information.** Fix: refuse a length that runs past the buffer, with "not a key file".
+17. **A passphrase-protected key file sets its own iteration count, with no floor and no ceiling** (`decryptPrivate`, line 2449). A file written with very few iterations opens with no warning that its protection is weak; a file with a huge count makes the import hang. The files are the user's own, so this is about honest feedback, not an attacker. **Low.** Fix: warn under a floor (the tool's own 210,000), refuse above a ceiling.
+18. **Reading still accepts the older choices** (lines 2452 to 2456): PBKDF2 with HMAC-SHA1 when no hash is named, and AES-128. This is for reading other tools' files; writing always uses SHA-256 and AES-256 (lines 2428 to 2434). **Information.** Fix: say so when an older file is read, so the user can re-save it.
+19. **210,000 iterations is below the current public guidance for PBKDF2-HMAC-SHA256** (`encryptPrivate`, line 2428). The OWASP Password Storage Cheat Sheet (cheatsheetseries.owasp.org, read 30 October 2026) gives "PBKDF2-HMAC-SHA256: 600,000 iterations (recommended)"; 210,000 is nearer its figure for HMAC-SHA512 (220,000). The count is written in the file, so raising it breaks nothing already saved. **Low.** Fix: raise the default to 600,000 or more.
+
 ## What held
 
 - The algorithms are standard and in the platform's own WebCrypto, with no hand-made primitives: RSA-OAEP 4096 with SHA-256 for sealing, ECDSA P-256 for signing, AES-256-GCM with a fresh random 96-bit IV per message, PBKDF2-HMAC-SHA256 at 210,000 iterations for a passphrase (lines 2341 to 2343, 2428, 2530). Randomness comes only from `crypto.getRandomValues` (line 2305).
@@ -69,6 +74,9 @@ The file says it is generated from the site's own code by `admin/build/gen_agent
 - `pin` says to pin only a fingerprint given out of band; `fromRoot` trusts the pin over the register's own anchors and checks DNS when the pin names a domain.
 - `keygen`, `whoami` and `keyqr` write only under `~/.sg-send/` (or `PKI_AGENT_HOME`), as the README says; confirmed for `keygen` and `keyqr` in this session.
 
+- The key store script (`keystoreScript`, lines 2483 to 2489) cannot be cut short by what it writes: each file goes in a quoted here-document, the PEMs are base64 and `metadata.json` is JSON, which never carries a raw newline; the private files are written at mode 0600 in a folder at 0700. `importKeystore` recomputes the public bundle from the private halves rather than trusting a stored one (line 2491).
+- The DER writer sets the high bit correctly for integers and long lengths (`int`, `derLen`, lines 2395 and 2399), and `encryptPrivate` refuses an empty passphrase (line 2429).
+
 ## Next
 
-The DER helpers (2394 to 2495) line by line; the vendored QR generator (MIT, 35 to 2277) is third-party code and is checked for network calls and file writes only. Then the review is complete.
+The review is complete: every command and module line by line, and the vendored QR generator for the behaviour that matters (no I/O). Nineteen findings: one medium (14), the rest low or information. It goes to the editor whole (`team/security/status.json`, asks; ROLE.md Done when 2). A later refresh of the pinned copy needs a fresh read of what changed, not of the whole file.

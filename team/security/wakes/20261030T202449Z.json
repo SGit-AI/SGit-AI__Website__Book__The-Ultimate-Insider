@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled, every two hours at :24",
+ "started": "2026-10-30T20:24:49Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "1. Request first: ruv-sgit__004, LAB 04 (M02) and LAB 05 (M03) reviewed against the three conditions, read only; reply mailroom/ruv-sgit/security__004-*, outbox copy, board 011. 2. Board 005: the DER helpers of pki-agent.mjs (2394 to 2495) read; findings in reviews/pki-agent-review.md; board 005. 3. Status, debrief; vault_check comms.",
+   "at": "2026-10-30T20:25:14Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "In scope (reviews/ means team/security/reviews/). Conditions: DER findings as behaviour and fix only, no crafted inputs; no key or contact detail in comms; vault_check; nothing written to pki-agent.mjs or other members' folders; the request is material.",
+   "at": "2026-10-30T20:25:27Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. LAB 04 and LAB 05 reviewed: benign, conditions kept; letter security__004 to ruv-sgit, outbox copy; board 011. 2. pki-agent review complete: DER helpers read (findings 16 to 19), the QR generator has no I/O; board 005; OWASP figure checked at source. 3. Status, debrief.",
+   "at": "2026-10-30T20:27:20Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
