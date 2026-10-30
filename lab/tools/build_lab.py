@@ -35,6 +35,10 @@ def characters():
 def experiments():
     found = []
     for d in sorted(p for p in (LAB / "experiments").iterdir() if p.is_dir()):
+        if not (d / "experiment.json").exists():
+            # not in the lab's format yet: it goes in after the designer's verdict (lab/README.md, The build)
+            print(f"left out: {d.name} (no experiment.json; waiting for the design verdict)")
+            continue
         meta = json.loads((d / "experiment.json").read_text())
         for k in ("id", "title", "tries", "made_from", "question", "pages"):
             if k not in meta:

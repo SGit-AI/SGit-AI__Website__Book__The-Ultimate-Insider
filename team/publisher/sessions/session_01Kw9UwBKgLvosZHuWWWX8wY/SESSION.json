@@ -1,0 +1,12 @@
+{
+ "agent": "publisher@book.the-ultimate-insider",
+ "session": "session_01Kw9UwBKgLvosZHuWWWX8wY",
+ "state": "current",
+ "from": "2026-10-30T13:03:01Z",
+ "until": null,
+ "supersedes": "session_01Kw9UwDVeRbKJZUWiRoRrHK",
+ "fingerprint": "sha256:38b052cb21de1bb4",
+ "account": "the operator's second Claude account (riskmandate.ai), taking over when the first ran out of usage",
+ "task": "trig_01F7F7AipdKEhWgbxEj3YVja",
+ "note": "The second publisher session: takes over from the first account's session, which stopped when that account ran out of usage (the editor, 30 October 2026). New key made with admin/tools/pki-agent.mjs keygen --session; private halves stay in this session's ~/.sg-send/keys. The first session's key is not reused."
+}

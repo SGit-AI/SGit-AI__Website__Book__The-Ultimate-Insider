@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "takeover from the first account, editor's request",
+ "started": "2026-10-30T13:02:50Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. RC1 (current, team/conductor/rc1/ numbered .md files, 0-about replaces about-this-edition.md) and resources/images/ incl. maps/ into manuscript/, Book.txt in name order; build, validate, release to dev. 2. Board 005 to done, 003/004 open; reply letter to the conductor (vault_check first). 3. Adopt the handover in the first debrief and status.json. All inside policy.json.",
+   "at": "2026-10-30T13:18:27Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Every write inside policy (manuscript/**, team/publisher/**, comms/issues/publisher/**, comms/mail/publisher/**, mailroom/conductor/publisher__*). Conditions: read team/conductor/rc1/ only, copy not edit; vault_check on comms; no em-dashes; gate before release to dev.",
+   "at": "2026-10-30T13:18:58Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "RC1 (18 files, 59 images) into manuscript/, gate clean, 259 pages; board 005 done; reply 004 to the conductor; handover adopted in the debrief; status.json updated.",
+   "at": "2026-10-30T13:20:28Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "1. RC1 chapters, images incl. maps, Book.txt 18 files in name order: done. 2. Board 005 to done, 003/004 untouched, reply to the conductor: done. 3. Debrief and status adopt the handover: done. Extras in scope: inbox copies, a one-line LEANPUB.md fix.",
+   "at": "2026-10-30T13:21:03Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "0 files outside scope; vault_check comms clean; gate clean (133); images identical to rc1; no key or token in the diff or e250166; no new em-dashes; no harm to other members.",
+   "at": "2026-10-30T13:21:21Z"
+  }
+ },
+ "closed": "2026-10-30T13:21:21Z",
+ "outcome": "ok"
+}

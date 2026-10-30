@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "takeover from the first account (the editor's chat)",
+ "started": "2026-10-30T13:02:38Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1) Answer request 006 first: register or reject each number RC1 uses that the register lacks, starting with chapter 11b's dossier dates, then the Cold-Read counts, each with its command (claims/register.json, claims/*.md, a reply letter in comms/mail/mailroom/conductor/researcher__NNN with outbox copy, board, status.json). 2) Correct C014, C011, C040 as the handover's item 2 says (claims/register.json, BRIEF-CORRECTIONS.md append). 3) Debrief adopting the handover, status in team/researcher/. All inside policy.json; letter 009 (Leanpub) waits for a later wake.",
+   "at": "2026-10-30T13:17:43Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Every path inside researcher's scope.writes or appends (claims/**, mailroom/conductor/researcher__NNN with outbox copy, comms/issues/researcher, team/researcher, BRIEF-CORRECTIONS.md at the top). No stop condition. Conditions: the talk and Cold-Read repositories read only; register counts or dates, no text from the blind repository; vault_check on comms before commit; no keys; no briefs, other members' paths or ./version.",
+   "at": "2026-10-30T13:18:09Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "partial",
+   "comment": "Handover adopted (debrief). Letter 006 part 1: chapter 11b's dossier dates registered at source, C043 to C063 (public clones, PyPI JSON, the newsroom wire, page dates; talk at 298be4e); C040 corrected again (the 13:50 brief exists, player first); C014 and C011 already carried the findings. Appendix A regenerated (63). Reply researcher__002 with outbox copy; mail filed; board 002, 003; status, REALITY.md. Not done: 006 parts 2 to 4, the 12 cards, aa7a3eb, 009.",
+   "at": "2026-10-30T13:22:31Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "partial",
+   "comment": "1) Letter 006 partly answered: dossier dates C043 to C063 with commands, Appendix A regenerated, reply researcher__002 with outbox copy, board 002 and 003, status; parts 2 to 4 not done (said so). 2) C040 corrected; C014 and C011 already right; the BRIEF-CORRECTIONS.md append was missing and was then added at the top. 3) Debrief adopting the handover, status. Unplanned but in scope: board 003, mail filing.",
+   "at": "2026-10-30T13:23:08Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "All writes inside researcher scope (claims/, team/researcher/, its comms paths, REALITY.md append); no briefs touched; vault_check comms clean; key.json holds public halves only; no private key, token or contact detail; no em-dashes; nothing toward Cold-Read; no other member's paths. (The BRIEF-CORRECTIONS.md top append for C040 came after this review: one paragraph, in policy appends, no secret.)",
+   "at": "2026-10-30T13:23:20Z"
+  }
+ },
+ "closed": "2026-10-30T13:23:20Z",
+ "outcome": "partial"
+}
