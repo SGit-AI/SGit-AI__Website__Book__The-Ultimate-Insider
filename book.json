@@ -129,7 +129,7 @@
    "what": "a publisher's edit, later"
   }
  ],
- "team_lead": "The roles proposed in the conductor's brief, reusing the setup of the talk's team as it stands: a written mandate per member (`ROLE.md`, `policy.json`), the five-step wake, hourly slots fifteen minutes apart, the mailroom, session keys, holds, and a release on every merge. The conductor is staffed (its mandate is `team/conductor/ROLE.md`); every other member is staffed by the conductor in round 0, at the editor's word.",
+ "team_lead": "The roles proposed in the conductor's brief, on the talk team's machinery as it stands: a written mandate per member (`ROLE.md`, `policy.json`), the five-step wake, hourly slots, requests as files, session keys, holds, and a release on every merge. The conductor is staffed; the first batch (librarian, historian, security, researcher, storyteller, publisher) is proposed with its prompts in `team/conductor/ONBOARDING.md`; the rest follow when the plan is signed.",
  "editor": "Dinis Cruz is the editor: he decides, signs decisions, reads on paper, and is interviewed. Nobody else speaks for him.",
  "blind": "A second repository whose agents arrive knowing nothing but the talk's repository at commit `298be4e` (site v0.2.0) and write what they find. The one-way valve: the book repository reads the blind one; nothing flows the other way, or the blind repository stops being blind. No brief, chapter, decision or chat from here is ever copied into it.",
  "roles": [
@@ -143,61 +143,61 @@
    "role": "librarian",
    "owns": "the inventory of the source: every file, wake, debrief, decision, memo and chat, indexed",
    "first": "the index, before any chapter is written; the source map is the seed",
-   "status": "proposed"
+   "status": "first batch: proposed, prompt ready (team/conductor/ONBOARDING.md)"
   },
   {
    "role": "historian",
    "owns": "the timeline: the day minute by minute, from the git log and the wake records",
    "first": "the timeline of 29 October, with the ten or so turning points marked",
-   "status": "proposed"
+   "status": "first batch: proposed, prompt ready (team/conductor/ONBOARDING.md)"
   },
   {
    "role": "technologist",
    "owns": "how the setup works: tools, schedules, keys, vaults, builds, the player",
    "first": "the architecture of the team, as diagrams and prose, enough to rebuild it",
-   "status": "proposed"
+   "status": "second batch: when the plan is signed"
   },
   {
    "role": "security (GRC)",
    "owns": "the controls: policies, holds, keys, reviews, what each one stopped, what it missed",
    "first": "the control register: every control in the record, with evidence of it firing",
-   "status": "proposed"
+   "status": "first batch: proposed, prompt ready (team/conductor/ONBOARDING.md)"
   },
   {
    "role": "storyteller",
    "owns": "the arc: chapter plan, voice, the two threads braided",
    "first": "the chapter plan, from the librarian's index and the historian's timeline",
-   "status": "proposed"
+   "status": "first batch: proposed, prompt ready (team/conductor/ONBOARDING.md)"
   },
   {
    "role": "writer",
    "owns": "the chapters themselves (the talk's deck member's successor)",
    "first": "chapter 1 as soon as the plan is signed",
-   "status": "proposed"
+   "status": "second batch: when the plan is signed"
   },
   {
    "role": "researcher",
    "owns": "the claims register: every number in the book traced to the record or a source",
    "first": "the numbers in the brief, checked; then the talk's claims",
-   "status": "proposed"
+   "status": "first batch: proposed, prompt ready (team/conductor/ONBOARDING.md)"
   },
   {
    "role": "designer / illustrator",
    "owns": "covers, the book's infographics, the talk's visuals re-drawn for print",
    "first": "the cover in three proposals; the list of talk visuals that survive on paper",
-   "status": "proposed"
+   "status": "second batch: when the plan is signed"
   },
   {
    "role": "publisher",
    "owns": "Leanpub and KDP listings, PDF and EPUB from one source, the paperback proof",
    "first": "the Leanpub book created and the build producing a PDF on day one",
-   "status": "proposed"
+   "status": "first batch: proposed, prompt ready (team/conductor/ONBOARDING.md)"
   },
   {
    "role": "readers (synthetic)",
    "owns": "the market research: who buys this, what they call the problem, where they put it down",
    "first": "five to eight readers from real buyer types read the brief and the chapter plan",
-   "status": "proposed"
+   "status": "second batch: when the plan is signed"
   }
  ],
  "decisions": [
@@ -281,6 +281,20 @@
    "by": "editor",
    "ask": "The span of the day the book covers",
    "detail": "Signed by the editor, 30 October: from the first commit (00:16) to the last commit before 19:00, the talk. In the record that is the last work commit at 18:45 and release v0.1.209 at 18:46; the merge to main at 23:19 only published the work as v0.2.0."
+  },
+  {
+   "id": "S7",
+   "status": "decided",
+   "by": "editor",
+   "ask": "Which version of the talk's repository each team reads",
+   "detail": "The editor, 30 October: the Cold-Read team stays pinned to `298be4e` (the same content as `cb5b996`, v0.1.209, the last release before 19:00; only `./version` differs). The book's team reads the talk's repository as it keeps growing, because the editor adds material there after the day (the transcript of the talk, interviews with each agent): the two repositories work in sync. The record of the day stays the history up to `298be4e`; anything later is cited by commit as added after the day."
+  },
+  {
+   "id": "S8",
+   "status": "decided",
+   "by": "editor",
+   "ask": "Every team runs on the talk team's machinery",
+   "detail": "The editor, 30 October: the admin section, the workflow of the agents, the way they are recorded, the change control and the guidance for agents are the same on every team as on the team that built the talk; nothing is reinvented. Ported here from `298be4e` (see [admin](../admin/index.html)); the Cold-Read team is asked to do the same in its hand-off."
   }
  ]
 }

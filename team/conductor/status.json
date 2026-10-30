@@ -1,0 +1,69 @@
+{
+ "schema": "the-ultimate-insider/agent-status/v1",
+ "agent": "conductor",
+ "as_of": "2026-10-30T01:40:00Z",
+ "round": 0,
+ "state": "round 0: the talk team's machinery ported (tools, build, gate, admin section, wake protocol, review briefs), the conductor's key published, the first batch of six members proposed with their prompts in ONBOARDING.md",
+ "done": [
+  {
+   "what": "the first wake on the ported machinery, all five steps recorded (pre-review change, then go; post-review finding; post-check partial)",
+   "evidence": "team/conductor/wakes/20261030T011522Z.json, team/conductor/debriefs/2026-10-30__porting-the-machinery.md"
+  },
+  {
+   "what": "the site, first version, released as v0.1.0 on dev and live",
+   "evidence": "/admin/versions.html"
+  },
+  {
+   "what": "the talk team's machinery ported: admin/tools/, admin/build/ (build, gate, agents.py), WAKE.md, reviews/, the admin section",
+   "evidence": "/admin/index.html"
+  },
+  {
+   "what": "the conductor's session key, made with the pinned pki-agent.mjs in this session",
+   "evidence": "team/conductor/key.json"
+  },
+  {
+   "what": "the hand-off to the Cold-Read team: one prompt, one brief, nothing else",
+   "evidence": "team/conductor/handoffs/2026-10-30__cold-read/"
+  },
+  {
+   "what": "the first batch proposed: librarian, historian, security, researcher, storyteller, publisher, each with ROLE.md, policy.json and a slot",
+   "evidence": "team/conductor/ONBOARDING.md"
+  }
+ ],
+ "next": [
+  {
+   "what": "route the first batch: each member's key, its own scheduled task, its first wake",
+   "why": "round 0"
+  },
+  {
+   "what": "the chapter plan with the editor by Friday night",
+   "why": "round 1"
+  },
+  {
+   "what": "the team's two public vaults, and the editor's lane, once the editor creates them",
+   "why": "the talk's team talked through them"
+  }
+ ],
+ "asks": [
+  {
+   "what": "Q2: the hours (round the clock, or 08:00 to 22:00 London), then say go on the schedule",
+   "from": "the editor"
+  },
+  {
+   "what": "Q4: your voice memos, the transcripts and any recording: do they go into the source?",
+   "from": "the editor"
+  },
+  {
+   "what": "start the first batch: a new session per member, with its prompt from ONBOARDING.md",
+   "from": "the editor"
+  },
+  {
+   "what": "the team's vaults: two public vaults (board and mail) like the talk's, and confirm the DC Vault Registry key carried over",
+   "from": "the editor"
+  },
+  {
+   "what": "read CLAUDE.md and WAKE.md once: they are now the talk team's rules for every member here (the pre-review's condition)",
+   "from": "the editor"
+  }
+ ]
+}

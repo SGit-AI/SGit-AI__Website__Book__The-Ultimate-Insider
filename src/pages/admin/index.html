@@ -1,0 +1,58 @@
+<!--meta {"title": "Admin and engineering", "description": "How this site is built, gated, released and versioned, how the team is run, and where everything lives: the same machinery as the talk's team."} -->
+<section class="wrap narrow">
+<p class="kicker">Admin</p>
+<h1>Admin and engineering</h1>
+<p class="lead">How this site is built, checked and shipped, and how the book's team is run. Kept by <a href="{{root}}team/conductor/index.html">conductor@book.the-ultimate-insider</a>. This build is <a href="versions.html#{{version}}">{{version}}</a>.</p>
+
+<h2>The same machinery as the talk's team</h2>
+<p>The editor's word, 30 October 2026: every team behaves exactly like the team that built the talk. So this repository runs on that team's own machinery, ported from <a href="https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/tree/298be4e">its repository at <code>298be4e</code></a> rather than redesigned:</p>
+<ul>
+<li><b>The tools</b>, in <code>admin/tools/</code>: <code>start.py</code> (pull first, then the start banner; a hold stops the wake), <code>banner.py</code>, <code>wake.py</code> (the five-step wake record), <code>vault_check.py</code>, <code>vault_handover.py</code>, and the pinned key tool <code>pki-agent.mjs</code> with its sha256.</li>
+<li><b>The build and the gate</b>, in <code>admin/build/</code>: the talk's <code>build.py</code> without the talk itself, its <code>validate.py</code>, and <code>agents.py</code> for scopes and overlaps; <code>.github/workflows/release.yml</code> unchanged.</li>
+<li><b>The rules and the records</b>: <code>CLAUDE.md</code>, <a href="docs/wake-protocol.html">the wake protocol</a>, <a href="docs/onboarding.html">onboarding</a>, the review briefs for the four sub-agent steps, and each member's <code>ROLE.md</code>, <code>policy.json</code>, <code>status.json</code>, key, sessions, wakes and debriefs.</li>
+<li><b>These pages</b>: the <a href="dashboard.html">dashboard</a>, <a href="wakes.html">wakes</a>, <a href="commits.html">commits and messages</a>, <a href="versions.html">releases</a>, <a href="{{root}}team/index.html">the team</a>, <a href="{{root}}team/schedule.html">the schedule</a> and <a href="keys.html">the key register</a>. The board, the mail and the public vaults appear when the team's vaults exist.</li>
+</ul>
+
+<h2>Architecture</h2>
+<pre><code>briefs/&lt;date&gt;/ · BRIEF-CORRECTIONS.md · REALITY.md · CLAUDE.md   the briefs, their corrections, what exists, the rules for agents
+book.json                      the book's dates, rounds, roles and decisions
+manuscript/                    the book, in the order of manuscript/Book.txt (Leanpub's)
+site.json                      the site's name, address and top-bar navigation
+src/pages/**.html              page bodies: a &lt;!--meta {...} --&gt; line, then the &lt;main&gt; content, nothing else
+src/static/                    copied as is: assets/, the offline cache
+team/&lt;id&gt;/                    each member: ROLE.md, policy.json, status.json, key.json, sessions/, wakes/, debriefs/
+admin/tools/                   start, banner, wake, vault check and handover, the pinned key tool
+admin/build/build.py           the build: _site/ from all of the above
+admin/build/validate.py        the gate
+admin/build/agents.py          the team checks: scope, overlaps, unowned files
+.github/workflows/release.yml  gate every push; number, tag, build and deploy dev and main
+version                        written only by CI</code></pre>
+
+<h2>Adding a page</h2>
+<p>A page is one file. Write the body only, with no head, navigation or footer, starting with its meta line; use <code>{{root}}</code> for links to the site root:</p>
+<pre><code>&lt;!--meta {"title": "...", "description": "..."} --&gt;
+&lt;section class="wrap narrow"&gt; ... &lt;/section&gt;</code></pre>
+<p>The build then produces, for free: the page with the top bar (and the version in it), the footer, canonical, Open Graph and JSON-LD tags, its <code>.md</code> twin, its line in <code>llms.txt</code> and its entry in <code>sitemap.xml</code>. A chapter is one markdown file in <code>manuscript/</code>, listed in <code>manuscript/Book.txt</code>.</p>
+
+<h2>The gate</h2>
+<p><code>admin/build/validate.py</code> fails the build on any finding, on every push and again on the release commit:</p>
+<ul>
+<li>every internal link and image resolves against the built files, and every page is reachable from another;</li>
+<li>every page has its <code>.md</code> twin, is listed in <code>llms.txt</code>, and carries structured data (JSON-LD) and this build's version in its top bar;</li>
+<li>no version placeholder survives the build; no page loads a script or stylesheet from another host; every script parses (Node);</li>
+<li>every member's <code>ROLE.md</code> names <code>admin/tools/start.py</code> and <code>admin/tools/banner.py</code>; no two members claim the same file; every closed wake ran its five steps;</li>
+<li>every size in the stylesheet is a token from <code>tokens.css</code>; every vendored file matches its pinned sha256;</li>
+<li><code>book.json</code> has what the pages need, and <code>manuscript/Book.txt</code> and its files agree;</li>
+<li>no em-dashes in prose; the leak tripwire: private keys, cloud and API key shapes and sgit vault key shapes, in every tracked and every built file.</li>
+</ul>
+
+<h2>Releasing</h2>
+<ol>
+<li><code>python3 admin/tools/start.py &lt;you&gt; ...</code>: merges <code>dev</code> into your branch, then the start banner.</li>
+<li><code>./run-website-locally.sh</code>: build, gate, serve on port 8000. The version reads <code>pending</code>: only CI numbers releases.</li>
+<li>Commit as <code>@&lt;you&gt;: &lt;what changed and why&gt;</code> with the trailer <code>Agent: &lt;you&gt;@book.the-ultimate-insider</code>, no number in it, and push to your branch, then to <code>dev</code>.</li>
+<li>CI runs the gate, then one release job at a time picks the next number (<code>dev</code> the last, <code>main</code> the middle), commits it to <code>./version</code> as GitHub Actions, tags it, builds that commit, gates it again and deploys it.</li>
+<li>The deploy polls the live <code>version.txt</code> until it serves the new number. A release is not done until it does.</li>
+</ol>
+<p>Every release is listed in the <a href="versions.html">release history</a>, read from git, and as data in <a href="versions/index.json">versions/index.json</a>.</p>
+</section>

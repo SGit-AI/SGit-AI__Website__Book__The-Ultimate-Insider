@@ -1,12 +1,13 @@
-# The gate. Fails the build (exit 1) on any finding; CI runs it before every release and on the built tree.
-# The talk's gate (admin/build/validate.py at 298be4e), without the checks for its team, wakes and slides.
+# The gate. Fails the build (exit 1) on any finding; CI runs it before every release and on the built tree. It is the
+# talk's gate (admin/build/validate.py at 298be4e), ported at the editor's word on 30 October 2026, with the talk's own
+# checks (every beat has a slide; lab documents) replaced by the book's (book.json and the manuscript hold together).
 #
 #   python3 admin/build/validate.py            # checks the sources and _site/ (build first)
 #
-# Checks, each one listed on /about/: links resolve, every page is reachable, has its .md twin and is in llms.txt,
-# carries structured data and the version, no placeholder survives the build, no script or stylesheet loads from
-# another host, every script parses, book.json and the manuscript hold together, no em-dashes in prose, and the
-# leak tripwire over every tracked file. Apache-2.0.
+# Checks, each one listed on /about/: links resolve, every page has its .md twin and is in llms.txt, no
+# placeholder survives the build, no script or stylesheet loads from another host, every script parses,
+# book.json and manuscript/Book.txt hold together, no em-dashes in prose, and the leak tripwire over every tracked file.
+# Apache-2.0.
 
 import json
 import re
@@ -26,9 +27,10 @@ class Gate:
              ('GitHub token',      re.compile(r'\b(ghp|gho|ghs|ghu)_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{40,}')),
              ('Anthropic key',     re.compile(r'\bsk-ant-[A-Za-z0-9_-]{20,}')),
              ('OpenAI-style key',  re.compile(r'\bsk-[A-Za-z0-9]{40,}')),
-             ('OpenRouter key',    re.compile(r'\bsk-or-v1-[0-9a-f]{32,}')),
+             ('OpenRouter key',    re.compile(r'\bsk-or-v1-[0-9a-f]{32,}')),        # the editor's voice key lives in his browser only
              ('Slack token',       re.compile(r'\bxox[abpr]-[A-Za-z0-9-]{20,}')),
              ('sgit vault key',    re.compile(r'\b[a-z0-9]{24}:[a-z0-9]{8}\b'))]
+    STANDALONE = ('404.html',)                                      # pages with no chrome and no twin, by design
 
     def __init__(self):
         self.findings = []
@@ -39,27 +41,17 @@ class Gate:
     def html_files(self):
         return sorted(p for p in OUT.rglob('*.html'))
 
-    def target(self, page, url):
-        return ((OUT if url.startswith('/') else page.parent) / url.split('#')[0].split('?')[0].lstrip('/')).resolve()
-
     def check_links(self):
         attr = re.compile(r'(?:href|src)="([^"]+)"')
         for page in self.html_files():
-            for url in attr.findall(page.read_text()):
-                if re.match(r'(https?:|mailto:|data:|javascript:|#|\{)', url):
+            text = page.read_text()
+            for url in attr.findall(text):
+                if re.match(r'(https?:|mailto:|data:|javascript:|#|\{)', url) or '${' in url:
                     continue
-                if url.split('#')[0].split('?')[0] and not self.target(page, url).exists():
+                base   = OUT if url.startswith('/') else page.parent
+                target = (base / url.split('#')[0].split('?')[0].lstrip('/')).resolve()
+                if url.split('#')[0].split('?')[0] and not target.exists():
                     self.fail('links', page.relative_to(OUT), f'{url} does not resolve')
-
-    def check_reachable(self):                                      # a page nobody links to fails
-        linked = set()
-        for page in self.html_files():
-            for url in re.findall(r'href="([^"#?]+)', page.read_text()):
-                if not re.match(r'(https?:|mailto:|data:|javascript:)', url) and self.target(page, url) != page.resolve():
-                    linked.add(self.target(page, url))
-        for page in self.html_files():
-            if page.resolve() not in linked and page.relative_to(OUT) != Path('index.html'):
-                self.fail('reachable', page.relative_to(OUT), 'no other page links to it')
 
     def check_twins_and_index(self):
         llms = (OUT / 'llms.txt').read_text() if (OUT / 'llms.txt').exists() else ''
@@ -67,14 +59,19 @@ class Gate:
             self.fail('llms.txt', 'llms.txt', 'missing')
         for page in self.html_files():
             rel = str(page.relative_to(OUT))
+            if rel.startswith(self.STANDALONE):
+                continue
             if not page.with_suffix('.md').exists():
                 self.fail('twins', rel, 'has no .md twin')
             if f'({Path(rel).with_suffix(".md")})' not in llms:
                 self.fail('llms.txt', rel, 'is not listed in llms.txt')
 
+    def chrome_pages(self):                                         # every page with the site's chrome, including documents in standalone areas
+        return [p for p in self.html_files() if not str(p.relative_to(OUT)).startswith(self.STANDALONE) or '<header class="top"' in p.read_text()]
+
     def check_chrome(self):                                         # structured data, and the version in the top bar
         version = (OUT / 'version.txt').read_text().strip() if (OUT / 'version.txt').exists() else None
-        for page in self.html_files():
+        for page in self.chrome_pages():
             text = page.read_text()
             rel  = page.relative_to(OUT)
             if '<script type="application/ld+json">' not in text:
@@ -84,6 +81,57 @@ class Gate:
                 self.fail('version', rel, 'no version in the top bar')
             elif m.group(2) != version:
                 self.fail('version', rel, f'top bar says {m.group(2)}, the build is {version}')
+
+    def check_reachable(self):                                      # a page nobody links to fails
+        attr, linked = re.compile(r'href="([^"#?]+)'), set()
+        for page in self.html_files():
+            for url in attr.findall(page.read_text()):
+                if not re.match(r'(https?:|mailto:|data:|javascript:)', url):
+                    target = ((OUT if url.startswith('/') else page.parent) / url.lstrip('/')).resolve()
+                    if target != page.resolve():
+                        linked.add(target)
+        for page in self.chrome_pages():
+            if page.resolve() not in linked and page.relative_to(OUT) != Path('index.html'):
+                self.fail('reachable', page.relative_to(OUT), 'no other page links to it')
+
+    def check_banners(self):                                        # every member opens and closes its session report with a banner
+        for role in sorted((ROOT / 'team').glob('*/ROLE.md')):
+            text = role.read_text()
+            if 'admin/tools/banner.py' not in text:
+                self.fail('banners', role.relative_to(ROOT), 'does not tell its agent to open and close each session with admin/tools/banner.py')
+            if 'admin/tools/start.py' not in text:
+                self.fail('banners', role.relative_to(ROOT), 'does not tell its agent to start each session with admin/tools/start.py (pull first)')
+
+    def check_vendored(self):                                       # vendored files are unmodified copies, pinned by checksum
+        import hashlib
+        for pin in sorted((ROOT / 'src' / 'static').rglob('*.sha256')):
+            want, name = pin.read_text().split()[:2]
+            path = pin.parent / name
+            if not path.exists() or hashlib.sha256(path.read_bytes()).hexdigest() != want:
+                self.fail('vendored', path.relative_to(ROOT), 'does not match its pinned sha256')
+
+    def check_wakes(self):                                          # every closed wake ran its five steps (conductor's request, 29 October)
+        r = subprocess.run([sys.executable, str(ROOT / 'admin/tools/wake.py'), 'check'], capture_output=True, text=True)
+        if r.returncode or 'closed without' in r.stdout or 'no valid verdict' in r.stdout or 'without two go' in r.stdout:
+            for line in r.stdout.splitlines():
+                if ': ' in line and not line.startswith('wake: every'):
+                    self.fail('wakes', line.split(': ', 1)[0], line.split(': ', 1)[1])
+
+
+    def check_type_scale(self):                                     # every size in site.css is a token from tokens.css (designer@, design note 3); site.css only: other members own their own styles
+        for css in (ROOT / 'src' / 'static' / 'assets' / f for f in ('site.css', 'pane.css')):     # the site's sheet and the pane's (moved out of it)
+          for n, line in enumerate(css.read_text().splitlines(), 1) if css.exists() else []:
+            for m in re.finditer(r'font(?:-size)?:[^;}]*?(\d+(?:\.\d+)?px)', line):
+                self.fail('type scale', f'src/static/assets/{css.name}:{n}', f'{m.group(1)} is not on the scale: use a --t-* token from tokens.css')
+          for rule in re.findall(r'[^{}]+\{[^}]*var\(--t-xs\)[^}]*\}', css.read_text() if css.exists() else ''):     # T2: 12px only for uppercase labels, or monospace figures
+            if 'uppercase' not in rule and 'monospace' not in rule:
+                self.fail('type scale', f'src/static/assets/{css.name}', f'{rule.split("{")[0].strip()[-60:]} sets --t-xs without text-transform:uppercase (T2: lowercase text is 14px or more)')
+
+    def check_team(self):
+        r = subprocess.run([sys.executable, str(ROOT / 'admin/build/agents.py'), 'overlaps'], capture_output=True, text=True)
+        if r.returncode:
+            for line in r.stdout.splitlines():
+                self.fail('team', line.split(':')[0], 'claimed by more than one member: ' + line.split(':', 1)[-1].strip())
 
     def check_stamps(self):
         for path in OUT.rglob('*'):
@@ -111,11 +159,12 @@ class Gate:
                 for n, code in enumerate(block.findall(page.read_text())):
                     jobs.append((Path(f'{page}#script{n}'), code))
             for n, (where, code) in enumerate(jobs):
-                f = Path(tmp) / f's{n}.js'
+                f = Path(tmp) / f's{n}.mjs' if 'import ' in code or 'export ' in code else Path(tmp) / f's{n}.js'
                 f.write_text(code)
                 r = subprocess.run([node, '--check', str(f)], capture_output=True, text=True)
                 if r.returncode:
                     self.fail('scripts', str(where).replace(str(OUT) + '/', ''), r.stderr.strip().splitlines()[-1] if r.stderr.strip() else 'does not parse')
+
 
     def check_book(self):                                           # book.json has what the pages need; the manuscript list and its files agree
         book = json.loads((ROOT / 'book.json').read_text())
@@ -145,7 +194,7 @@ class Gate:
 
     def check_prose(self):
         for path in self.tracked_files():
-            if path.suffix not in ('.md', '.html', '.json', '.js', '.css', '.py', '.txt') or 'LICENSE' in path.name:
+            if path.suffix not in ('.md', '.html', '.json', '.js', '.css', '.py', '.txt') or 'LICENSE' in path.name or '/vendor/' in str(path):
                 continue
             for n, line in enumerate(path.read_text(errors='ignore').splitlines(), 1):
                 if '\u2014' in line:
@@ -164,8 +213,8 @@ class Gate:
     def run(self):
         if not OUT.exists():
             sys.exit('build first: python3 admin/build/build.py')
-        for check in (self.check_links, self.check_reachable, self.check_twins_and_index, self.check_chrome, self.check_stamps,
-                      self.check_no_remote_code, self.check_scripts_parse, self.check_book, self.check_prose, self.check_leaks):
+        for check in (self.check_links, self.check_reachable, self.check_twins_and_index, self.check_chrome, self.check_team, self.check_type_scale, self.check_wakes, self.check_banners, self.check_vendored, self.check_stamps, self.check_no_remote_code,
+                      self.check_scripts_parse, self.check_book, self.check_prose, self.check_leaks):
             check()
         if self.findings:
             print('\n'.join(self.findings))
