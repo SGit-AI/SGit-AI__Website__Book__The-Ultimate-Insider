@@ -548,6 +548,38 @@ State: checked.
 git show 298be4e:evidence/updates/2026-10-29__the-vault-history-checked.md | sed -n 7,16p; git log -1 --format='%h %ci %s' aa7a3eb
 ```
 
+## C069: How long the talk ran, from the transcript
+
+State: checked.
+
+```
+git show a9c0b49:team/conductor/talk-record/transcript.json | python3 -c "import json,sys,collections;P=json.load(sys.stdin);print(len(P),P[0]['t'],P[-1]['t'],collections.Counter(p['who'] for p in P),sum(len(p['text'].split()) for p in P))"; git show a9c0b49:content/articles/the-talk-as-given.md | grep -o 'over about [0-9]* minutes'
+```
+
+## C070: Which beats reached the room: 46 of 58, and 8 of part 3's 20
+
+State: checked.
+
+```
+git show 298be4e:src/static/talk/talk.json > /tmp/t.json; git show a9c0b49:team/conductor/talk-record/transcript.json > /tmp/tr.json; python3 -c "import json;b=json.load(open('/tmp/t.json'))['beats'];s={p['beat'] for p in json.load(open('/tmp/tr.json'))};[print(k,sum(1 for x in b if x['part']==k),sum(1 for x in b if x['part']==k and x['id'] in s)) for k in (1,2,3)]"
+```
+
+## C071: The hourly slots: each member's minute past the hour
+
+State: checked.
+
+```
+git show 298be4e:team/conductor/schedule.json | python3 -c "import json,sys;[print(r['agent'],r['cron']) for r in json.load(sys.stdin)['runs']]"
+```
+
+## C072: Policies agreed against still in draft, at the end of the day
+
+State: checked.
+
+```
+for f in $(git ls-tree -r --name-only 298be4e team | grep '/policy.json$'); do echo $f $(git show 298be4e:$f | python3 -c 'import json,sys;print(json.load(sys.stdin).get("status"))'); done
+```
+
 ## Where this came from
 
-`claims/register.json`, the `command` of each entry, run against `298be4e` (a full clone: `git rev-list --count 298be4e` gives 816) and `d39e717`; spot-checked on 30 October 05:45, 06:45, 07:45, 08:45, 09:40 and 10:50 (C011, C014, C021, C041, C042), each giving the registered value. C031's 2026 figure is read from a web page, fetched 30 October 2026. C043 to C062 were checked at source on 30 October about 13:20 UTC by the researcher's second session (public clones of OSBot-Utils, Memory-FS, Issues-FS, SGit-AI__CLI and myfeeds_ai; PyPI's JSON; the newsroom's wire; four LinkedIn pages' datePublished). C064 to C068, and the additions to C008 and C042, rerun on 30 October about 14:40 UTC.
+`claims/register.json`, the `command` of each entry, run against `298be4e` (a full clone: `git rev-list --count 298be4e` gives 816) and `d39e717`; spot-checked on 30 October 05:45, 06:45, 07:45, 08:45, 09:40 and 10:50 (C011, C014, C021, C041, C042), each giving the registered value. C031's 2026 figure is read from a web page, fetched 30 October 2026. C043 to C062 were checked at source on 30 October about 13:20 UTC by the researcher's second session (public clones of OSBot-Utils, Memory-FS, Issues-FS, SGit-AI__CLI and myfeeds_ai; PyPI's JSON; the newsroom's wire; four LinkedIn pages' datePublished). C064 to C068, and the additions to C008 and C042, rerun on 30 October about 14:40 UTC. C069 to C072 rerun on 30 October about 16:45 UTC; C069 and C070 run at a9c0b49, material added after the day.
