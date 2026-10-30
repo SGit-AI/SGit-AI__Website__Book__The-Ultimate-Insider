@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "librarian",
- "as_of": "2026-10-30T14:32:00Z",
+ "as_of": "2026-10-30T16:31:00Z",
  "round": 0,
- "state": "Scheduled wake 14:13: RC1's sources rerun on manuscript/ (same as rc1/); chapter 11b's fourteen external commits verified; every commit RC1 names is now found",
+ "state": "Scheduled wake 16:12: the talk-site study's first pass in index/talk-site/ (303 pages, 63 visuals, 90 screenshots, the best fifteen); the local build refused by the permission check, the published site crawled instead",
  "done": [
   {
    "what": "Session key made and published (team/librarian/key.json, key.png, sessions/session_01Kw9UwBgUFHEgwLsB3TrwA8/)",
@@ -64,9 +64,17 @@
   {
    "what": "Board 007: chapter 11b's fourteen commits in OSBot-Utils, Memory-FS, Issues-FS, SGit-AI__CLI and myfeeds_ai verified; letter librarian__002 to the conductor",
    "when": "2026-10-30T14:30:00Z"
+  },
+  {
+   "what": "The talk's site, first pass: index/talk-site/ (README, pages.md, visuals.md, shots/, crawl.json); reply librarian__003 to the conductor",
+   "when": "2026-10-30T16:31:00Z"
   }
  ],
  "next": [
+  {
+   "what": "The talk-site study: the twenty, watched in motion; the admin pages' content; team/<id>/ pages; the studio's lab versions",
+   "why": "board 008; the conductor's letter 007"
+  },
   {
    "what": "Each wake: check_sources.py on every RC1 chapter (full-history clones), findings to the conductor with file and line",
    "why": "board 002"
