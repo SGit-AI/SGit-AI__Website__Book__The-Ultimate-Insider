@@ -2,7 +2,7 @@
 // (Chromium, with the persona's device) and the runner records what it measured. It writes
 // observations.json and three screenshots (a fourth when the pen opens); the review in the persona's voice is written from them.
 //
-//   node review/synthetic/run.mjs --persona ciso|all [--path /review/<persona>/] [--run <id>] [--out <dir>]
+//   node review/synthetic/run.mjs --persona ciso|all [--path /review/<persona>/] [--device '<playwright device>'] [--run <id>] [--out <dir>]
 //
 // Reads the built site (_site/) from its own local server. Every request to another host is
 // blocked and listed: a run sends nothing anywhere (no telemetry). A synthetic reader is a test
@@ -43,8 +43,8 @@ function serve() {
 }
 
 async function runOne(browser, base, persona, runId) {
-  const device = { ...devices[persona.device.playwright] };
-  if (persona.device.viewport) device.viewport = persona.device.viewport;
+  const device = { ...devices[args.device || persona.device.playwright] };   // --device: the same persona on another device, a check
+  if (persona.device.viewport && !args.device) device.viewport = persona.device.viewport;
   delete device.defaultBrowserType;
   const context = await browser.newContext(device);
   const page = await context.newPage();
@@ -97,6 +97,7 @@ async function runOne(browser, base, persona, runId) {
       links: links.length,
       external_links: links.filter(h => /^https?:/.test(h)).length,
       forms: document.querySelectorAll('form, textarea, [contenteditable]').length,
+      jump_bar: (() => { const n = document.querySelector('nav.rv-jump'); if (!n) return null; const r = n.getBoundingClientRect(); return { position: getComputedStyle(n).position, visible: r.width > 0 && r.height > 0, links: [...n.querySelectorAll('a')].map(a => a.innerText.trim() + ' -> ' + a.getAttribute('href')) }; })(),
       fragment_seen_by_page: location.hash.length > 1,
       first_screen_text: firstScreen,
     };
@@ -126,7 +127,7 @@ async function runOne(browser, base, persona, runId) {
     schema: 'the-ultimate-insider/synthetic-observations/v1',
     label: 'SYNTHETIC READER: a test instrument, never a reader',
     persona: persona.id, run: runId, at: new Date().toISOString(),
-    device: persona.device.playwright, viewport: device.viewport,
+    device: args.device || persona.device.playwright, device_override: Boolean(args.device), viewport: device.viewport,
     url_path: path, fragment: 'fictional token, never sent to the server',
     http_status: status, load_ms: loadMs, error: resp.error || null,
     ...m, pen_click: pen, pen_click_error: penError,

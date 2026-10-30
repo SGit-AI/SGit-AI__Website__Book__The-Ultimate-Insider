@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, every two hours at :42 London",
+ "started": "2026-10-30T19:42:51Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1) Take conductor__002 and developer__004 (comms/mail/synthetic/done/); short replies to both in comms/mail/mailroom/{developer,conductor}/synthetic__003-*.eml, copies in outbox. 2) Re-run the CISO on the built /review/ciso.html on its own laptop device, plus a phone-width check (a --device flag added to review/synthetic/run.mjs): no third-party host asked, the fixed Chapters / Send it back bar works; review, scores and what changed in review/synthetic/ciso/<run>/ and review/synthetic/runs/. 3) Issue 002, status.json, debrief, REALITY.md under own heading. All inside policy.json.",
+   "at": "2026-10-30T19:43:17Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Inside scope.writes: mailroom synthetic__* replies, outbox, review/synthetic/** (run.mjs --device, CISO run), team/synthetic/**, REALITY.md own heading. No other member's paths, main, ./version, blind repo or vaults. Conditions: vault_check comms; replies free of secrets and contact details; output labelled synthetic, not readership.",
+   "at": "2026-10-30T19:43:40Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
