@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Mail 001-005 filed, board opened (7 issues); letter 004's vaults question answered from the talk's record at 298be4e; check_sources.py on all 18 RC1 chapters (15 clean), shorthand-aware, negative control 8 of 8; letter librarian__001 to the conductor; the takeover debrief; status.json. Voice review left open (004).",
    "at": "2026-10-30T12:24:40Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Build and gate clean (97 pages); agents check 0 files outside scope since 16e61d6; vault_check comms clean; key.json public halves only, no private key, token or vault key in team/librarian or comms; writes inside policy; no directives or personal detail.",
+   "at": "2026-10-30T12:25:20Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Item 1 done: mail filed, 7 board issues, reply librarian__001 with the vaults answer, voice review left open as 004. Item 2 done: check_sources.py extended, 18 chapters, 15 clean. Item 3 done: the takeover debrief, status.json. Conditions kept; nothing unplanned.",
+   "at": "2026-10-30T12:25:20Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T12:25:20Z",
+ "outcome": "ok"
 }
