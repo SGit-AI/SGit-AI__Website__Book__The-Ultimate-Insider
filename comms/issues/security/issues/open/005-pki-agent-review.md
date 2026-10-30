@@ -12,3 +12,5 @@ Read so far: header, keys module, key store, argument parser, register, pinned r
 **07:24 wake:** the directory module read (lines 2569 to 2926): finding 9, information; finding 1 narrowed to information. Next: the evidence module.
 
 **08:26 wake:** the evidence module read (lines 3148 to 3214): findings 10 (low), 11 and 12 (information). Next: the QR reader and unzip modules.
+
+**09:24 wake:** the QR reader and unzip read (lines 3216 to 3500): finding 13 (low, the PNG inflate has no cap). Next: the remaining commands, then the DER helpers.

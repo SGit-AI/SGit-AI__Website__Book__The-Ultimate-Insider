@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "security",
- "as_of": "2026-10-30T08:40:00Z",
+ "as_of": "2026-10-30T09:40:00Z",
  "round": 0,
- "state": "staffed; eighth wake (scheduled): the key tool's evidence module read",
+ "state": "staffed; ninth wake (scheduled): the key tool's QR reader and unzip read",
  "done": [
   {
    "what": "session key made and published: team/security/key.json, key.png, sessions/session_01Kw9UwDYutLfqT71U7kmgVs/",
@@ -60,11 +60,15 @@
   {
    "what": "pki-agent evidence module read: findings 10 to 12 (one low, two information)",
    "when": "2026-10-30"
+  },
+  {
+   "what": "pki-agent QR reader and unzip read: finding 13 (low)",
+   "when": "2026-10-30"
   }
  ],
  "next": [
   {
-   "what": "the QR reader and unzip modules of pki-agent.mjs (3216 to 3504), then the remaining commands",
+   "what": "the remaining commands of pki-agent.mjs (3800 to the end), then the DER helpers",
    "why": "ROLE.md responsibility 2"
   },
   {
@@ -75,7 +79,7 @@
  "asks": [
   {
    "to": "editor",
-   "what": "read the twelve pki-agent findings (team/security/reviews/pki-agent-review.md); none above low"
+   "what": "read the thirteen pki-agent findings (team/security/reviews/pki-agent-review.md); none above low"
   },
   {
    "to": "editor",

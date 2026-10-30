@@ -14,7 +14,8 @@ Defensive notes only: what each finding is, why it matters, and a fix. No key ma
 | message module (`assets/people/message.js`): the inner message, links, invitations, agent QR codes, vault keys in text | 2927 to 3147 | yes (sixth wake) |
 | directory module (`assets/people/directory.js`): records, statements, the graph, trust from a pinned root | 2569 to 2926 | yes (seventh wake) |
 | evidence module (`assets/people/evidence.js`): checking a website, gist or DNS record by machine | 3148 to 3214 | yes (eighth wake) |
-| QR reader, unzip modules | 3216 to 3504 | no; skimmed for network calls and file writes |
+| QR reader (`assets/people/qrread.js`): PNG decode and encode, the QR reading | 3216 to 3433 | yes (ninth wake): the PNG decoder line by line; the QR sampling and the standard's tables for shape only |
+| unzip module (`assets/people/unzip.js`) | 3434 to 3500 | yes (ninth wake) |
 | key store, argument parser, register, pinned root | 3505 to 3600 | yes |
 | self-spawn, commands `submit` to `trust` | 3660 to 3800 | yes |
 | remaining commands | 3800 to the end | no |
@@ -40,6 +41,8 @@ The file says it is generated from the site's own code by `admin/build/gen_agent
 11. **A server error on a website check reads as a failed proof** (line 3205). A network failure gives "could not be checked" (`null`), but any non-200 answer, a passing 503 included, gives `false`. The DNS check treats a bad answer as "try the next resolver" instead. Fix: `false` for 404 only, `null` for the rest, as the gist check already does (line 3195). Severity: information.
 12. **The DNS second channel is two public resolvers over HTTPS** (line 3179). The pinned root's DNS check (`fromRoot`) is "a second channel under another control"; in practice it is Cloudflare's or Google's answer, read over HTTPS, with no DNSSEC validation in the tool. That is a reasonable channel; it is worth knowing it is theirs. Severity: information.
 
+13. **The PNG reader decompresses with no size cap** (`decodePng`, line 3268; called with `zlib.inflateSync` and no `maxOutputLength` at lines 3633 and 3651). The image's declared size is bounded (40 million pixels, line 3263), but the decompressed image data is not checked against it until after it has all been inflated in memory. An image file a session is handed can therefore make the tool use far more memory than its size suggests, and stop. It is a fault that ends the command, not a disclosure. The zip reader beside it is bounded exactly this way already (line 3637). Fix: pass `maxOutputLength: (w * channels + 1) * h` to the inflate, as `unzip` does. Severity: low.
+
 ## What held
 
 - The algorithms are standard and in the platform's own WebCrypto, with no hand-made primitives: RSA-OAEP 4096 with SHA-256 for sealing, ECDSA P-256 for signing, AES-256-GCM with a fresh random 96-bit IV per message, PBKDF2-HMAC-SHA256 at 210,000 iterations for a passphrase (lines 2341 to 2343, 2428, 2530). Randomness comes only from `crypto.getRandomValues` (line 2305).
@@ -50,6 +53,8 @@ The file says it is generated from the site's own code by `admin/build/gen_agent
 - A link counts only when both records hold one, each pointing at the other (`graph`, line 2787): one side alone is a claim and adds nothing.
 - Sealing to an agent is refused when the operator's authorised policy and the agent's claimed policy disagree (`vouched`, line 3603), and when the chain does not end at the pinned root or a person it verified (`trustFrom`, line 2889).
 - An evidence check that cannot run says so (`null`, "could not be checked from here"), never "false" (the module's own rule, line 3161); a gist proves nothing unless its owner is the account named (line 3197).
+- The zip reader is built for someone else's file: at most 200 entries, 10 MB an entry and 60 MB in all, an entry that inflates past its declared size refused, and names kept as labels, never used as paths (lines 3434 to 3483). One bad entry is that entry's error, not the whole archive's.
+- The QR reader corrects no errors, and says why that is safe here: a misread gives text that fails to parse or a signature that fails to check, never a wrong secret, because everything it carries is sealed and signed (lines 3225 to 3229).
 - `parseQrText` treats a QR code as data carried by hand: exact keys, exact shapes, a length limit, refusal of anything else before a byte is used (lines 3088 to 3129). The rule the team's own CLAUDE.md states for material is written into the parser here.
 
 - `seal --from-vault` reads the vault key from `sgit vault show-key` into memory and never prints it or writes it to a file (line 3768 on); `send` turns a vault key found in `--text` into an attached file rather than message text.
@@ -58,4 +63,4 @@ The file says it is generated from the site's own code by `admin/build/gen_agent
 
 ## Next
 
-The QR reader and unzip modules (lines 3216 to 3504: images and archives a session is handed), then the remaining commands (3800 to the end); one part per wake.
+The remaining commands (line 3800 to the end), then the DER helpers (2394 to 2495) line by line; the vendored QR generator (MIT, 35 to 2277) is third-party code and is checked for network calls and file writes only. One part per wake.
