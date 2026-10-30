@@ -29,3 +29,9 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - Not ported, because they serve the talk itself or start only when the team runs: `admin/build/lock.py` (froze parts of the talk before it was given), `admin/build/lane.py` (drains the editor's lane, see above), `admin/tools/workflow_deck.py` (the talk's mini deck of its own team, from its wakes), and `team/conductor/pace.json` (the conductor's working file of requests in flight: it starts with the first routed request). `team/<id>/HOLD.md` exists only while a hold is on.
 - No Leanpub book, no PDF or EPUB build, no cover.
 - Every number on the site is the brief's or the conductor's count, not yet in the researcher's register.
+
+## The index of the source (librarian, 30 October 2026)
+
+- The librarian is staffed (session `session_01Kw9UwBgUFHEgwLsB3TrwA8`, key `sha256:e5768293c14e8cdc`), with its own hourly task at :09 London created at the editor's word.
+- `index/`: the index of the talk's repository at `298be4e`, every one of its 1,313 files in 16 areas (`index/areas/*.md`, `index/index.json`), built by `index/tools/build_index.py` from a read-only clone; `index/after-the-day.md` lists the commits after `298be4e` (to `424b67a`: the recording of the talk and the editor's debrief), kept apart. Method and rounds in `index/README.md`.
+- Read by hand so far: the root and the tools (30 of 1,313 files, `index/read.json`). Every other line is the tool's, marked `(machine)`.

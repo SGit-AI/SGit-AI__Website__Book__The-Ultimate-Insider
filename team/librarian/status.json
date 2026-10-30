@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "librarian",
- "as_of": "2026-10-30T01:41:00Z",
+ "as_of": "2026-10-30T02:05:00Z",
  "round": 0,
- "state": "staffed: session session_01Kw9UwBgUFHEgwLsB3TrwA8, key sha256:e5768293c14e8cdc; hourly task at :09 London created at the editor's word; first task (the index) begun",
+ "state": "staffed: round 0 of the index shipped (machine index of all 1,313 files at 298be4e, root and tools read by hand); next wake reads the conductor's area by hand",
  "done": [
   {
    "what": "Session key made and published (team/librarian/key.json, key.png, sessions/session_01Kw9UwBgUFHEgwLsB3TrwA8/)",
@@ -12,12 +12,28 @@
   {
    "what": "Own scheduled task created into this session, trig_01MGyWHBgZ7Pzg95f2ozEAi5, cron and prompt from schedule.json",
    "when": "2026-10-30T01:40:56Z"
+  },
+  {
+   "what": "index/ round 0: build_index.py, index.json, areas/*.md (16 areas), after-the-day.md (298be4e..424b67a), README.md with the method; root and tools read by hand",
+   "when": "2026-10-30"
+  },
+  {
+   "what": "BRIEF-CORRECTIONS.md: the source map's file count (1,260 outside src/) does not match the index (1,083 at 298be4e)",
+   "when": "2026-10-30"
   }
  ],
  "next": [
   {
-   "what": "The index, before any chapter is written: start from `briefs/2026-10-30/3-source-map.md` (the seed) and the talk's repository at `298be4e`; publish `index/README.md` with the method and the first areas in round 0, the whole index by the end of round 1 (Friday night).",
-   "why": "its first task, from the brief"
+   "what": "Round 1: read team-conductor by hand (wakes, night log, briefs sent, reviews, HOLD.md) into index/read.json, then evidence",
+   "why": "the historian and the researcher work from them first"
+  },
+  {
+   "what": "Rerun build_index.py against the talk's latest commit each wake and extend after-the-day.md",
+   "why": "the editor keeps adding to the talk's repository (decision S7)"
+  },
+  {
+   "what": "Round 1 deadline: every area read by hand by Friday night",
+   "why": "its first task, from ROLE.md"
   }
  ],
  "asks": [],
