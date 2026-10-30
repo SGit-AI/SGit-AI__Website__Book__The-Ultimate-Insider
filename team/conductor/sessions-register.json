@@ -27,12 +27,16 @@
     "key": "sha256:e5768293c14e8cdc",
     "task": "trig_01MGyWHBgZ7Pzg95f2ozEAi5 (paused, first account)"
    },
-   "to": null,
-   "at": null,
+   "to": {
+    "session": "session_01Kw9UwEJGqU63vtsX81uGNm",
+    "key": "sha256:7c3cf6b4d63370b0",
+    "task": "trig_01FSNcFLFBHSd9sEGYn86ndy"
+   },
+   "at": "2026-10-30T12:17:38Z",
    "why": "the first account was nearly out of usage (the editor, 30 October 2026)",
    "handover": "team/conductor/handovers/librarian.md",
    "closed_by": "the conductor, on the outgoing session's behalf (its handover written by the first account's conductor at about 11:45 UTC)",
-   "note": "waiting for the member's new session on the second account; it fills in 'to' by publishing its key, and the conductor records it here"
+   "note": "the new session made its key, marked the old session superseded, created its task (every two hours at :09) and adopted the handover (14389cd); recorded and announced by the conductor"
   },
   {
    "role": "historian",

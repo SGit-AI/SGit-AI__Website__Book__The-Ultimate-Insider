@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "editor's request",
+ "started": "2026-10-30T12:31:14Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "1. Record the librarian's new session (session_01Kw9UwEJGqU63vtsX81uGNm, key sha256:7c3cf6b4d63370b0) in team/conductor/sessions-register.json and announce it, as H1. 2. Two background studies, public people and firms only, no private contact details, into team/conductor/research/reviewers/ and team/conductor/research/publishers/, held for review before release; nobody contacted without the editor's go. 3. src/pages/publishers/index.html (For publishers, the editor's words, contact via the repository's issues) linked from the home page, and team/conductor/projects/review-programme/README.md.",
+   "at": "2026-10-30T12:31:48Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "In scope. Conditions: studies of public figures and firms only, public work cited, no emails, phones or private individuals; nobody contacted without the editor's go; the publishers page quotes the editor verbatim and says he has yet to check it; its only contact route the repository's issues; only public fingerprints in the register; research held for review; no send.message.world.",
+   "at": "2026-10-30T12:32:07Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

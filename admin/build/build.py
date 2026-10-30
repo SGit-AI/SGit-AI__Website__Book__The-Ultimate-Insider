@@ -1148,7 +1148,7 @@ class Site_Build:
         if not root.is_dir():
             return
         md, sections = Markdown(), []
-        for folder in sorted(p for p in root.iterdir() if p.is_dir()):
+        for folder in sorted(p for p in root.iterdir() if p.is_dir() and (p / 'README.md').exists()):   # a study is listed once its README.md is in
             items = []
             for p in sorted(folder.glob('*.md')):
                 text  = p.read_text()
