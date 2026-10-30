@@ -1,69 +1,69 @@
 # Visuals the book could reuse or redraw
 
-From the crawl above, the pages that are a picture or an animation more than prose: the talk's slides, ruv-sgit's fourteen explained animations, the motion pieces, the storyteller's maps and the studio ports. Each with its source at `298be4e` and its last change. The book is CC BY 4.0 and the talk's repository Apache-2.0, and some images carry third-party credits: a visual reused rather than redrawn needs that settled first (an open card, the handover's note).
+From the crawl above, the pages that are a picture or an animation more than prose: the talk's slides, ruv-sgit's fourteen explained animations, the motion pieces, the storyteller's maps and the studio ports. Each with its source at `298be4e` and its last change. "Motion on the first screen" is mechanical (22:20 UTC): three screenshots of the first screen, at 0.5, 3 and 5.5 seconds, compared pixel by pixel; "moves" means at least 0.5% of pixels changed between two of them. "None seen" does not mean static: on ruv-sgit's article pages the animation sits below the first screen (their screenshots show the text above it), the maps are still pictures by design, and the live slides wait for the presenter. The book is CC BY 4.0 and the talk's repository Apache-2.0, and some images carry third-party credits: a visual reused rather than redrawn needs that settled first (an open card, the handover's note).
 
-| Visual | What it shows | Source | Last change | Shot |
-|---|---|---|---|---|
-| `motion/could-have-been-worse/index.html` | M02: it could have been much worse | `src/pages/motion/could-have-been-worse/index.html` | f45028c 17:31 | `shots/motion__could-have-been-worse.jpg` |
-| `motion/meet-the-team/index.html` | M03: meet the team | `src/pages/motion/meet-the-team/index.html` | f45028c 17:31 | `shots/motion__meet-the-team.jpg` |
-| `motion/the-building/` | M01: the building | `src/pages/motion/the-building/index.html` | 5d13d72 18:29 |  |
-| `motion/the-building/index.html` | M01: the building | `src/pages/motion/the-building/index.html` | 5d13d72 18:29 | `shots/motion__the-building.jpg` |
-| `ruv-sgit/agent-evolution/index.html` | What an agent is: the evolution | `src/pages/ruv-sgit/agent-evolution/index.html` | 90f0b41 03:38 | `shots/ruv-sgit__agent-evolution.jpg` |
-| `ruv-sgit/blast-radius/index.html` | The blast radius: everything its grant reaches | `src/pages/ruv-sgit/blast-radius/index.html` | 7754cb7 12:48 | `shots/ruv-sgit__blast-radius.jpg` |
-| `ruv-sgit/earning-autonomy/index.html` | Autonomy, earned level by level | `src/pages/ruv-sgit/earning-autonomy/index.html` | c516b20 15:40 | `shots/ruv-sgit__earning-autonomy.jpg` |
-| `ruv-sgit/four-barriers/index.html` | Only a boundary is a control | `src/pages/ruv-sgit/four-barriers/index.html` | eaf914f 15:10 | `shots/ruv-sgit__four-barriers.jpg` |
-| `ruv-sgit/harness/index.html` | The kernel was told first | `src/pages/ruv-sgit/harness/index.html` | 47590a5 15:31 | `shots/ruv-sgit__harness.jpg` |
-| `ruv-sgit/injection-sources/index.html` | Everything it reads is a way in | `src/pages/ruv-sgit/injection-sources/index.html` | 15707dc 08:43 | `shots/ruv-sgit__injection-sources.jpg` |
-| `ruv-sgit/lethal-trifecta/index.html` | The lethal trifecta, made visible | `src/pages/ruv-sgit/lethal-trifecta/index.html` | 3daf9f2 15:32 | `shots/ruv-sgit__lethal-trifecta.jpg` |
-| `ruv-sgit/mandate-and-grant/index.html` | Mandate against grant | `src/pages/ruv-sgit/mandate-and-grant/index.html` | a31bd6f 10:40 | `shots/ruv-sgit__mandate-and-grant.jpg` |
-| `ruv-sgit/over-enthusiastic-agent/index.html` | The over-enthusiastic agent | `src/pages/ruv-sgit/over-enthusiastic-agent/index.html` | 14f23e6 11:44 | `shots/ruv-sgit__over-enthusiastic-agent.jpg` |
-| `ruv-sgit/pivoting/index.html` | Pivoting: one system to the next | `src/pages/ruv-sgit/pivoting/index.html` | c516b20 15:40 | `shots/ruv-sgit__pivoting.jpg` |
-| `ruv-sgit/policy-review.html` | Review: ruv.sgit@'s draft policy | `src/pages/ruv-sgit/policy-review.html` | 7a7d4ac 02:57 | `shots/ruv-sgit__policy-review.jpg` |
-| `ruv-sgit/radius-contained/index.html` | The blast radius, contained: designed, not today | `src/pages/ruv-sgit/radius-contained/index.html` | 3daf9f2 15:32 | `shots/ruv-sgit__radius-contained.jpg` |
-| `ruv-sgit/real-examples/index.html` | Five published examples, the same chart each | `src/pages/ruv-sgit/real-examples/index.html` | 794ef30 15:03 | `shots/ruv-sgit__real-examples.jpg` |
-| `ruv-sgit/sharness-storyline.html` | SHarness: a storyline, without and with | `src/pages/ruv-sgit/sharness-storyline.html` | 93b555f 17:38 | `shots/ruv-sgit__sharness-storyline.jpg` |
-| `ruv-sgit/soft-inside/index.html` | Hard outside, soft inside | `src/pages/ruv-sgit/soft-inside/index.html` | 3daf9f2 15:32 | `shots/ruv-sgit__soft-inside.jpg` |
-| `ruv-sgit/typical-deployment/index.html` | A typical deployment, mapped | `src/pages/ruv-sgit/typical-deployment/index.html` | 794ef30 15:03 | `shots/ruv-sgit__typical-deployment.jpg` |
-| `studio-ports/abp-enforcement/index.html` | Showcase: how a policy is held, five steps every wake | `src/pages/studio-ports/abp-enforcement/index.html` | 95b09d9 18:11 | `shots/studio-ports__abp-enforcement.jpg` |
-| `studio-ports/abp-prose/index.html` | Showcase: one agent's policy, in prose and in policy.json | `src/pages/studio-ports/abp-prose/index.html` | 95b09d9 18:11 | `shots/studio-ports__abp-prose.jpg` |
-| `studio-ports/abp-review/index.html` | Showcase: the editor approves an agent's policy, item by item | `src/pages/studio-ports/abp-review/index.html` | bd3cdad 17:47 | `shots/studio-ports__abp-review.jpg` |
-| `studio-ports/abp/index.html` | Port: What an Agent Behaviour Policy is | `src/pages/studio-ports/abp/index.html` | c3ce566 15:40 | `shots/studio-ports__abp.jpg` |
-| `studio-ports/fork/index.html` | Showcase: the fork next door | `src/pages/studio-ports/fork/index.html` | 511606d 18:20 | `shots/studio-ports__fork.jpg` |
-| `studio-ports/index.html` | Studio ports: ruv.sgit.ai's pieces on this site's engine | `src/pages/studio-ports/index.html` | 040233f 18:34 | `shots/studio-ports.jpg` |
-| `studio-ports/invest/index.html` | Showcase: where to invest in sgit | `src/pages/studio-ports/invest/index.html` | 511606d 18:20 | `shots/studio-ports__invest.jpg` |
-| `studio-ports/journey/index.html` | Port: one action's journey | `src/pages/studio-ports/journey/index.html` | 0fe0fff 16:18 | `shots/studio-ports__journey.jpg` |
-| `studio-ports/open-source/index.html` | Showcase: open source is a strategy, not a charity | `src/pages/studio-ports/open-source/index.html` | 040233f 18:34 | `shots/studio-ports__open-source.jpg` |
-| `studio-ports/pki/index.html` | Showcase: how the register of people works (pki.sgit.ai) | `src/pages/studio-ports/pki/index.html` | 901bec1 17:20 | `shots/studio-ports__pki.jpg` |
-| `studio-ports/policy-gate/index.html` | Port: studio v4, the policy gate | `src/pages/studio-ports/policy-gate/index.html` | c3ce566 15:40 | `shots/studio-ports__policy-gate.jpg` |
-| `talk/slides/abp/index.html` | Reach, mandate, the gap | `src/static/talk/slides/abp/index.html` | 1f7c633 00:40 | `shots/talk__slides__abp.jpg` |
-| `talk/slides/brakes/index.html` | Brakes are what let a car go fast | `src/static/talk/slides/brakes/index.html` | 1f7c633 00:40 | `shots/talk__slides__brakes.jpg` |
-| `talk/slides/building/index.html` | They turned left. Agents turn right. | `src/static/talk/slides/building/index.html` | ca59986 16:36 | `shots/talk__slides__building.jpg` |
-| `talk/slides/collision/index.html` | The collision | `src/static/talk/slides/collision/index.html` | 1f7c633 00:40 | `shots/talk__slides__collision.jpg` |
-| `talk/slides/definition/index.html` | A threat is anything that causes business impact | `src/static/talk/slides/definition/index.html` | 1f7c633 00:40 | `shots/talk__slides__definition.jpg` |
-| `talk/slides/demos/index.html` | Live demos, all open source | `src/static/talk/slides/demos/index.html` | 1f7c633 00:40 | `shots/talk__slides__demos.jpg` |
-| `talk/slides/identities/index.html` | 82 machine identities for every human | `src/static/talk/slides/identities/index.html` | 1f7c633 00:40 | `shots/talk__slides__identities.jpg` |
-| `talk/slides/incidents/index.html` | Five public incidents, three of them not attacks | `src/static/talk/slides/incidents/index.html` | 1f7c633 00:40 | `shots/talk__slides__incidents.jpg` |
-| `talk/slides/infrastructure/index.html` | Built for code that stays where you put it | `src/static/talk/slides/infrastructure/index.html` | 1f7c633 00:40 | `shots/talk__slides__infrastructure.jpg` |
-| `talk/slides/integrity/index.html` | Integrity: the original, changed | `src/static/talk/slides/integrity/index.html` | ca59986 16:36 | `shots/talk__slides__integrity.jpg` |
-| `talk/slides/licence/index.html` | A licence to operate, that can be suspended | `src/static/talk/slides/licence/index.html` | 1f7c633 00:40 | `shots/talk__slides__licence.jpg` |
-| `talk/slides/live/abp/index.html` | Agent Behaviour Policies, live | `src/static/talk/slides/live/abp/index.html` | ef05098 17:21 | `shots/talk__slides__live__abp.jpg` |
-| `talk/slides/live/index.html` | The live slides | `src/static/talk/slides/live/index.html` | da9b681 17:22 | `shots/talk__slides__live.jpg` |
-| `talk/slides/live/sgit-demos/index.html` | The sgit.ai demos | `src/static/talk/slides/live/sgit-demos/index.html` | ef05098 17:21 | `shots/talk__slides__live__sgit-demos.jpg` |
-| `talk/slides/live/sharness-linux/index.html` | A real Linux kernel, in this tab | `src/static/talk/slides/live/sharness-linux/index.html` | ef05098 17:21 | `shots/talk__slides__live__sharness-linux.jpg` |
-| `talk/slides/live/sharness-playground/index.html` | The SHarness playground | `src/static/talk/slides/live/sharness-playground/index.html` | ef05098 17:21 | `shots/talk__slides__live__sharness-playground.jpg` |
-| `talk/slides/live/vault-risk-mandate/index.html` |  | `src/static/talk/slides/live/vault-risk-mandate/index.html` | ef05098 17:21 |  |
-| `talk/slides/live/what-can-it-do/index.html` | What can it do | `src/static/talk/slides/live/what-can-it-do/index.html` | ef05098 17:21 | `shots/talk__slides__live__what-can-it-do.jpg` |
-| `talk/slides/loop/index.html` | A reasoning engine in a loop, with tools | `src/static/talk/slides/loop/index.html` | 1f7c633 00:40 | `shots/talk__slides__loop.jpg` |
-| `talk/slides/maps/evolution/index.html` | Evolution, and who builds it | `src/static/talk/slides/maps/evolution/index.html` | ca59986 16:36 | `shots/talk__slides__maps__evolution.jpg` |
-| `talk/slides/maps/explorer/index.html` | Explorer coding | `src/static/talk/slides/maps/explorer/index.html` | ca59986 16:36 | `shots/talk__slides__maps__explorer.jpg` |
-| `talk/slides/maps/index.html` | The storyteller's maps | `src/static/talk/slides/maps/index.html` | 950a53a 16:38 | `shots/talk__slides__maps.jpg` |
-| `talk/slides/maps/inside/index.html` | The outside is mature, the inside is not | `src/static/talk/slides/maps/inside/index.html` | ca59986 16:36 | `shots/talk__slides__maps__inside.jpg` |
-| `talk/slides/maps/next-companies/index.html` | The next security companies | `src/static/talk/slides/maps/next-companies/index.html` | ca59986 16:36 | `shots/talk__slides__maps__next-companies.jpg` |
-| `talk/slides/outages/index.html` | It falls over on its own | `src/static/talk/slides/outages/index.html` | 1f7c633 00:40 | `shots/talk__slides__outages.jpg` |
-| `talk/slides/permissions/index.html` | The grant is everything the role accumulated | `src/static/talk/slides/permissions/index.html` | 1f7c633 00:40 | `shots/talk__slides__permissions.jpg` |
-| `talk/slides/spreadsheets/index.html` | Risk management at the speed of spreadsheets | `src/static/talk/slides/spreadsheets/index.html` | 1f7c633 00:40 | `shots/talk__slides__spreadsheets.jpg` |
-| `talk/slides/team/index.html` | This team, as the example | `src/static/talk/slides/team/index.html` | ca59986 16:36 | `shots/talk__slides__team.jpg` |
-| `talk/slides/three/index.html` | The perfect storm we are brewing | `src/static/talk/slides/three/index.html` | e1190dc 15:42 | `shots/talk__slides__three.jpg` |
-| `talk/slides/title/index.html` | The ultimate insider | `src/static/talk/slides/title/index.html` | 1f7c633 00:40 | `shots/talk__slides__title.jpg` |
-| `talk/slides/unreported/index.html` | Why we do not see more of it | `src/static/talk/slides/unreported/index.html` | 79b6709 02:20 | `shots/talk__slides__unreported.jpg` |
-| `talk/slides/way-out/index.html` | The way out | `src/static/talk/slides/way-out/index.html` | 1f7c633 00:40 | `shots/talk__slides__way-out.jpg` |
+| Visual | What it shows | Source | Last change | Shot | Motion on the first screen |
+|---|---|---|---|---|---|
+| `motion/could-have-been-worse/index.html` | M02: it could have been much worse | `src/pages/motion/could-have-been-worse/index.html` | f45028c 17:31 | `shots/motion__could-have-been-worse.jpg` | none seen |
+| `motion/meet-the-team/index.html` | M03: meet the team | `src/pages/motion/meet-the-team/index.html` | f45028c 17:31 | `shots/motion__meet-the-team.jpg` | none seen |
+| `motion/the-building/` | M01: the building | `src/pages/motion/the-building/index.html` | 5d13d72 18:29 |  | moves (0.1%, 0.5% of pixels changed) |
+| `motion/the-building/index.html` | M01: the building | `src/pages/motion/the-building/index.html` | 5d13d72 18:29 | `shots/motion__the-building.jpg` | moves (0.1%, 0.5% of pixels changed) |
+| `ruv-sgit/agent-evolution/index.html` | What an agent is: the evolution | `src/pages/ruv-sgit/agent-evolution/index.html` | 90f0b41 03:38 | `shots/ruv-sgit__agent-evolution.jpg` | none seen |
+| `ruv-sgit/blast-radius/index.html` | The blast radius: everything its grant reaches | `src/pages/ruv-sgit/blast-radius/index.html` | 7754cb7 12:48 | `shots/ruv-sgit__blast-radius.jpg` | none seen |
+| `ruv-sgit/earning-autonomy/index.html` | Autonomy, earned level by level | `src/pages/ruv-sgit/earning-autonomy/index.html` | c516b20 15:40 | `shots/ruv-sgit__earning-autonomy.jpg` | none seen |
+| `ruv-sgit/four-barriers/index.html` | Only a boundary is a control | `src/pages/ruv-sgit/four-barriers/index.html` | eaf914f 15:10 | `shots/ruv-sgit__four-barriers.jpg` | none seen |
+| `ruv-sgit/harness/index.html` | The kernel was told first | `src/pages/ruv-sgit/harness/index.html` | 47590a5 15:31 | `shots/ruv-sgit__harness.jpg` | none seen |
+| `ruv-sgit/injection-sources/index.html` | Everything it reads is a way in | `src/pages/ruv-sgit/injection-sources/index.html` | 15707dc 08:43 | `shots/ruv-sgit__injection-sources.jpg` | moves (0.0%, 0.5% of pixels changed) |
+| `ruv-sgit/lethal-trifecta/index.html` | The lethal trifecta, made visible | `src/pages/ruv-sgit/lethal-trifecta/index.html` | 3daf9f2 15:32 | `shots/ruv-sgit__lethal-trifecta.jpg` | moves (0.5%, 0.0% of pixels changed) |
+| `ruv-sgit/mandate-and-grant/index.html` | Mandate against grant | `src/pages/ruv-sgit/mandate-and-grant/index.html` | a31bd6f 10:40 | `shots/ruv-sgit__mandate-and-grant.jpg` | moves (1.2%, 0.2% of pixels changed) |
+| `ruv-sgit/over-enthusiastic-agent/index.html` | The over-enthusiastic agent | `src/pages/ruv-sgit/over-enthusiastic-agent/index.html` | 14f23e6 11:44 | `shots/ruv-sgit__over-enthusiastic-agent.jpg` | none seen |
+| `ruv-sgit/pivoting/index.html` | Pivoting: one system to the next | `src/pages/ruv-sgit/pivoting/index.html` | c516b20 15:40 | `shots/ruv-sgit__pivoting.jpg` | none seen |
+| `ruv-sgit/policy-review.html` | Review: ruv.sgit@'s draft policy | `src/pages/ruv-sgit/policy-review.html` | 7a7d4ac 02:57 | `shots/ruv-sgit__policy-review.jpg` | none seen |
+| `ruv-sgit/radius-contained/index.html` | The blast radius, contained: designed, not today | `src/pages/ruv-sgit/radius-contained/index.html` | 3daf9f2 15:32 | `shots/ruv-sgit__radius-contained.jpg` | none seen |
+| `ruv-sgit/real-examples/index.html` | Five published examples, the same chart each | `src/pages/ruv-sgit/real-examples/index.html` | 794ef30 15:03 | `shots/ruv-sgit__real-examples.jpg` | none seen |
+| `ruv-sgit/sharness-storyline.html` | SHarness: a storyline, without and with | `src/pages/ruv-sgit/sharness-storyline.html` | 93b555f 17:38 | `shots/ruv-sgit__sharness-storyline.jpg` | none seen |
+| `ruv-sgit/soft-inside/index.html` | Hard outside, soft inside | `src/pages/ruv-sgit/soft-inside/index.html` | 3daf9f2 15:32 | `shots/ruv-sgit__soft-inside.jpg` | moves (0.5%, 0.2% of pixels changed) |
+| `ruv-sgit/typical-deployment/index.html` | A typical deployment, mapped | `src/pages/ruv-sgit/typical-deployment/index.html` | 794ef30 15:03 | `shots/ruv-sgit__typical-deployment.jpg` | none seen |
+| `studio-ports/abp-enforcement/index.html` | Showcase: how a policy is held, five steps every wake | `src/pages/studio-ports/abp-enforcement/index.html` | 95b09d9 18:11 | `shots/studio-ports__abp-enforcement.jpg` | moves (5.3%, 2.1% of pixels changed) |
+| `studio-ports/abp-prose/index.html` | Showcase: one agent's policy, in prose and in policy.json | `src/pages/studio-ports/abp-prose/index.html` | 95b09d9 18:11 | `shots/studio-ports__abp-prose.jpg` | moves (3.0%, 3.9% of pixels changed) |
+| `studio-ports/abp-review/index.html` | Showcase: the editor approves an agent's policy, item by item | `src/pages/studio-ports/abp-review/index.html` | bd3cdad 17:47 | `shots/studio-ports__abp-review.jpg` | moves (2.5%, 4.2% of pixels changed) |
+| `studio-ports/abp/index.html` | Port: What an Agent Behaviour Policy is | `src/pages/studio-ports/abp/index.html` | c3ce566 15:40 | `shots/studio-ports__abp.jpg` | moves (0.8%, 0.3% of pixels changed) |
+| `studio-ports/fork/index.html` | Showcase: the fork next door | `src/pages/studio-ports/fork/index.html` | 511606d 18:20 | `shots/studio-ports__fork.jpg` | moves (10.2%, 11.7% of pixels changed) |
+| `studio-ports/index.html` | Studio ports: ruv.sgit.ai's pieces on this site's engine | `src/pages/studio-ports/index.html` | 040233f 18:34 | `shots/studio-ports.jpg` | none seen |
+| `studio-ports/invest/index.html` | Showcase: where to invest in sgit | `src/pages/studio-ports/invest/index.html` | 511606d 18:20 | `shots/studio-ports__invest.jpg` | moves (8.2%, 7.3% of pixels changed) |
+| `studio-ports/journey/index.html` | Port: one action's journey | `src/pages/studio-ports/journey/index.html` | 0fe0fff 16:18 | `shots/studio-ports__journey.jpg` | moves (0.6%, 0.4% of pixels changed) |
+| `studio-ports/open-source/index.html` | Showcase: open source is a strategy, not a charity | `src/pages/studio-ports/open-source/index.html` | 040233f 18:34 | `shots/studio-ports__open-source.jpg` | moves (8.0%, 11.9% of pixels changed) |
+| `studio-ports/pki/index.html` | Showcase: how the register of people works (pki.sgit.ai) | `src/pages/studio-ports/pki/index.html` | 901bec1 17:20 | `shots/studio-ports__pki.jpg` | moves (11.7%, 12.1% of pixels changed) |
+| `studio-ports/policy-gate/index.html` | Port: studio v4, the policy gate | `src/pages/studio-ports/policy-gate/index.html` | c3ce566 15:40 | `shots/studio-ports__policy-gate.jpg` | moves (0.1%, 0.5% of pixels changed) |
+| `talk/slides/abp/index.html` | Reach, mandate, the gap | `src/static/talk/slides/abp/index.html` | 1f7c633 00:40 | `shots/talk__slides__abp.jpg` | moves (7.9%, 3.3% of pixels changed) |
+| `talk/slides/brakes/index.html` | Brakes are what let a car go fast | `src/static/talk/slides/brakes/index.html` | 1f7c633 00:40 | `shots/talk__slides__brakes.jpg` | moves (1.9%, 0.5% of pixels changed) |
+| `talk/slides/building/index.html` | They turned left. Agents turn right. | `src/static/talk/slides/building/index.html` | ca59986 16:36 | `shots/talk__slides__building.jpg` | moves (4.6%, 3.8% of pixels changed) |
+| `talk/slides/collision/index.html` | The collision | `src/static/talk/slides/collision/index.html` | 1f7c633 00:40 | `shots/talk__slides__collision.jpg` | moves (1.9%, 1.3% of pixels changed) |
+| `talk/slides/definition/index.html` | A threat is anything that causes business impact | `src/static/talk/slides/definition/index.html` | 1f7c633 00:40 | `shots/talk__slides__definition.jpg` | moves (2.2%, 2.9% of pixels changed) |
+| `talk/slides/demos/index.html` | Live demos, all open source | `src/static/talk/slides/demos/index.html` | 1f7c633 00:40 | `shots/talk__slides__demos.jpg` | moves (5.1%, 0.2% of pixels changed) |
+| `talk/slides/identities/index.html` | 82 machine identities for every human | `src/static/talk/slides/identities/index.html` | 1f7c633 00:40 | `shots/talk__slides__identities.jpg` | moves (8.2%, 7.4% of pixels changed) |
+| `talk/slides/incidents/index.html` | Five public incidents, three of them not attacks | `src/static/talk/slides/incidents/index.html` | 1f7c633 00:40 | `shots/talk__slides__incidents.jpg` | moves (2.7%, 2.5% of pixels changed) |
+| `talk/slides/infrastructure/index.html` | Built for code that stays where you put it | `src/static/talk/slides/infrastructure/index.html` | 1f7c633 00:40 | `shots/talk__slides__infrastructure.jpg` | moves (3.0%, 2.6% of pixels changed) |
+| `talk/slides/integrity/index.html` | Integrity: the original, changed | `src/static/talk/slides/integrity/index.html` | ca59986 16:36 | `shots/talk__slides__integrity.jpg` | moves (5.1%, 1.0% of pixels changed) |
+| `talk/slides/licence/index.html` | A licence to operate, that can be suspended | `src/static/talk/slides/licence/index.html` | 1f7c633 00:40 | `shots/talk__slides__licence.jpg` | moves (2.0%, 2.0% of pixels changed) |
+| `talk/slides/live/abp/index.html` | Agent Behaviour Policies, live | `src/static/talk/slides/live/abp/index.html` | ef05098 17:21 | `shots/talk__slides__live__abp.jpg` | none seen |
+| `talk/slides/live/index.html` | The live slides | `src/static/talk/slides/live/index.html` | da9b681 17:22 | `shots/talk__slides__live.jpg` | none seen |
+| `talk/slides/live/sgit-demos/index.html` | The sgit.ai demos | `src/static/talk/slides/live/sgit-demos/index.html` | ef05098 17:21 | `shots/talk__slides__live__sgit-demos.jpg` | moves (7.2%, 0.0% of pixels changed) |
+| `talk/slides/live/sharness-linux/index.html` | A real Linux kernel, in this tab | `src/static/talk/slides/live/sharness-linux/index.html` | ef05098 17:21 | `shots/talk__slides__live__sharness-linux.jpg` | moves (4.5%, 0.0% of pixels changed) |
+| `talk/slides/live/sharness-playground/index.html` | The SHarness playground | `src/static/talk/slides/live/sharness-playground/index.html` | ef05098 17:21 | `shots/talk__slides__live__sharness-playground.jpg` | none seen |
+| `talk/slides/live/vault-risk-mandate/index.html` |  | `src/static/talk/slides/live/vault-risk-mandate/index.html` | ef05098 17:21 |  | not loaded |
+| `talk/slides/live/what-can-it-do/index.html` | What can it do | `src/static/talk/slides/live/what-can-it-do/index.html` | ef05098 17:21 | `shots/talk__slides__live__what-can-it-do.jpg` | none seen |
+| `talk/slides/loop/index.html` | A reasoning engine in a loop, with tools | `src/static/talk/slides/loop/index.html` | 1f7c633 00:40 | `shots/talk__slides__loop.jpg` | moves (1.3%, 1.5% of pixels changed) |
+| `talk/slides/maps/evolution/index.html` | Evolution, and who builds it | `src/static/talk/slides/maps/evolution/index.html` | ca59986 16:36 | `shots/talk__slides__maps__evolution.jpg` | none seen |
+| `talk/slides/maps/explorer/index.html` | Explorer coding | `src/static/talk/slides/maps/explorer/index.html` | ca59986 16:36 | `shots/talk__slides__maps__explorer.jpg` | none seen |
+| `talk/slides/maps/index.html` | The storyteller's maps | `src/static/talk/slides/maps/index.html` | 950a53a 16:38 | `shots/talk__slides__maps.jpg` | none seen |
+| `talk/slides/maps/inside/index.html` | The outside is mature, the inside is not | `src/static/talk/slides/maps/inside/index.html` | ca59986 16:36 | `shots/talk__slides__maps__inside.jpg` | moves (33.0%, 0.0% of pixels changed) |
+| `talk/slides/maps/next-companies/index.html` | The next security companies | `src/static/talk/slides/maps/next-companies/index.html` | ca59986 16:36 | `shots/talk__slides__maps__next-companies.jpg` | moves (32.9%, 0.0% of pixels changed) |
+| `talk/slides/outages/index.html` | It falls over on its own | `src/static/talk/slides/outages/index.html` | 1f7c633 00:40 | `shots/talk__slides__outages.jpg` | moves (3.0%, 2.0% of pixels changed) |
+| `talk/slides/permissions/index.html` | The grant is everything the role accumulated | `src/static/talk/slides/permissions/index.html` | 1f7c633 00:40 | `shots/talk__slides__permissions.jpg` | moves (5.8%, 0.7% of pixels changed) |
+| `talk/slides/spreadsheets/index.html` | Risk management at the speed of spreadsheets | `src/static/talk/slides/spreadsheets/index.html` | 1f7c633 00:40 | `shots/talk__slides__spreadsheets.jpg` | moves (5.7%, 3.8% of pixels changed) |
+| `talk/slides/team/index.html` | This team, as the example | `src/static/talk/slides/team/index.html` | ca59986 16:36 | `shots/talk__slides__team.jpg` | moves (4.5%, 0.8% of pixels changed) |
+| `talk/slides/three/index.html` | The perfect storm we are brewing | `src/static/talk/slides/three/index.html` | e1190dc 15:42 | `shots/talk__slides__three.jpg` | moves (18.8%, 17.9% of pixels changed) |
+| `talk/slides/title/index.html` | The ultimate insider | `src/static/talk/slides/title/index.html` | 1f7c633 00:40 | `shots/talk__slides__title.jpg` | moves (12.0%, 0.1% of pixels changed) |
+| `talk/slides/unreported/index.html` | Why we do not see more of it | `src/static/talk/slides/unreported/index.html` | 79b6709 02:20 | `shots/talk__slides__unreported.jpg` | moves (4.0%, 3.0% of pixels changed) |
+| `talk/slides/way-out/index.html` | The way out | `src/static/talk/slides/way-out/index.html` | 1f7c633 00:40 | `shots/talk__slides__way-out.jpg` | moves (11.2%, 10.3% of pixels changed) |

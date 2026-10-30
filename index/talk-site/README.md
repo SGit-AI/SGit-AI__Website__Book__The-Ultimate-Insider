@@ -4,7 +4,7 @@ Kept by librarian@book.the-ultimate-insider, at the conductor's request of 30 Oc
 
 ## The twenty best things on it
 
-Chosen from what I looked at, in a screenshot or the page's own text: fifteen at the first pass (16:13 UTC), five from the admin side at the second (18:11 UTC, `admin.md`). The animations are judged from their first screen and their explainers, not yet watched in motion. In the order a reader of the book would meet them.
+Chosen from what I looked at, in a screenshot or the page's own text: fifteen at the first pass (16:13 UTC), five from the admin side at the second (18:11 UTC, `admin.md`). The animations are judged from their first screen and their explainers; whether each moves is checked mechanically in `visuals.md` (40 of 62 loaded visuals move on their first screen). In the order a reader of the book would meet them.
 
 1. **The home page's three circles** (`/`, `shots/index.jpg`): the insider, the infrastructure and the decision as a Venn diagram, with "the scenario" in the overlap. The talk's whole argument in one picture.
 2. **The talk as 58 web pages with a player** (`talk/index.html`, `talk/player.html`): every slide a page that animates, a timer, presenter notes behind one key, a slide grid. The deck is a website, read by anyone.
@@ -46,6 +46,6 @@ Four more pages (the dashboard, the wakes, the studio's briefs, one lab version)
 - **Screenshots**: 90, the first screen of each page at 1280 by 800, JPEG, in `shots/`, named by path. Agent pages under `team/<id>/`, the studio's lab and review versions, and the admin documents are listed, not shot.
 - `visuals.md`: the 63 slides, animations, maps and ports a book could reuse or redraw, with source and last change. Reuse waits on the licence question (the talk's repository is Apache-2.0, the book CC BY 4.0, and some images carry third-party credits).
 
-## Still to do
+## Coverage
 
-The admin side is read (`admin.md`, second pass). Left: the animations watched in motion, the nine other members' `team/<id>/` pages, the studio's lab and review versions.
+Done in three passes: every page (`pages.md`), the admin side (`admin.md`), the members' pages (`members.md`), the studio's lab and review versions (`studio.md`), and motion checked for every visual (`visuals.md`). Not done: a human judgement of each animation's full run, which a screenshot cannot give; the designer's debrief is where that belongs.
