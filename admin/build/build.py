@@ -1169,6 +1169,31 @@ class Site_Build:
                 f'They are studies, not the register: a number from them reaches the book only through <a href="../plan/index.html">the researcher\'s register</a>.</p>{"".join(sections)}</section>')
         self.page('research/index.html', 'Research for the editor', 'Studies the editor asked for: Leanpub, the market, and what the best books do.', body)
 
+    def build_updates(self):                                        # the conductor's briefs for the editor (team/conductor/editor-briefs/), newest first
+        folder = ROOT / 'team' / 'conductor' / 'editor-briefs'
+        briefs = sorted(folder.glob('*.json'), reverse=True) if folder.is_dir() else []
+        cards  = []
+        for p in briefs:
+            if not (p.with_suffix('.pdf').exists() and p.with_suffix('.html').exists()):
+                continue
+            b = json.loads(p.read_text())
+            (OUT / 'updates').mkdir(parents=True, exist_ok=True)
+            shutil.copy2(p.with_suffix('.pdf'), OUT / 'updates' / (p.stem + '.pdf'))
+            asks = ''.join(f'<li><b>{html.escape(d.get("id", ""))}</b> {html.escape(d["ask"])}</li>' for d in b.get('for_you', []))
+            self.page(f'updates/{p.stem}.html', b['title'], b.get('headline', b['title'])[:300],
+                      f'<article class="prose wrap narrow"><nav class="crumbs" aria-label="Breadcrumb"><a href="../index.html">Home</a> / <a href="index.html">Updates</a></nav>'
+                      f'<p class="kicker">{html.escape(b.get("kicker", ""))}</p><h1>{html.escape(b["title"])}</h1><p class="lead">{html.escape(b.get("headline", ""))}</p>'
+                      + (f'<h2>For the editor to decide</h2><ul>{asks}</ul>' if asks else '')
+                      + f'<p class="btns"><a class="btn p" href="{p.stem}.pdf">Download the PDF</a></p>'
+                      f'<object class="pdf" data="{p.stem}.pdf#view=FitH" type="application/pdf" width="100%" height="900" aria-label="{html.escape(b["title"])}, as a PDF">'
+                      f'<p>Your browser does not show PDFs inside the page: <a href="{p.stem}.pdf">open the PDF</a>.</p></object></article>', kind='article')
+            cards.append(f'<li class="card"><p class="kicker">{html.escape(b.get("kicker", ""))}</p><h2><a href="{p.stem}.html">{html.escape(b["title"])}</a></h2>'
+                         f'<p>{html.escape(b.get("headline", ""))}</p><p class="btns"><a class="btn p" href="{p.stem}.pdf">The PDF</a> <a class="btn" href="{p.stem}.html">Read it here</a></p></li>')
+        body = (f'<section class="wrap"><p class="kicker">Updates</p><h1>The conductor\'s briefs</h1>'
+                f'<p class="lead">After every run, the conductor writes the editor a short brief: what was asked and what was done, who is working, and what waits on him. '
+                f'Made from <code>team/conductor/editor-briefs/</code> by <code>team/conductor/tools/editor_brief.py</code>.</p><ul class="cards">{"".join(cards)}</ul></section>')
+        self.page('updates/index.html', 'Updates', 'The conductor\'s briefs for the editor, newest first: what happened, who is working, what waits on him.', body)
+
     def build_book(self):                                           # the manuscript, in the order Leanpub reads it (manuscript/Book.txt)
         md, b, esc = Markdown(), self.book, html.escape
         order = [l.strip() for l in (ROOT / 'manuscript' / 'Book.txt').read_text().splitlines() if l.strip() and not l.startswith('#')]
@@ -1232,6 +1257,7 @@ class Site_Build:
         self.build_decisions()
         self.build_briefs()
         self.build_research()
+        self.build_updates()
         self.build_book()
         self.build_team()
         self.build_roles()
