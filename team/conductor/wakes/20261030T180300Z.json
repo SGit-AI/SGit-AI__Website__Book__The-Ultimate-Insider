@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Narrowing src/** to the conductor's own folders is safe; nothing in other members' folders; no briefs/ edits. Conditions: grep the lab and debrief PDFs for key, vault-key or token material before publishing; theme.js only removes third-party requests; vault_check before commit; no em-dashes.",
    "at": "2026-10-30T18:04:00Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "1. policy.json: src/** narrowed to the conductor's own src/ folders (agents.py labels two patterns as widenings by text; both inside src/**); build.py renders blurbs; theme.js skips the star fetch under /review/ or with data-no-third-party. 2. /lab/ with both PDFs (scanned: no key material), linked from home; D6-6 open; seven replies; vault_check clean. 3. Brief 6, status, debrief. Gate clean (166 pages).",
+   "at": "2026-10-30T18:05:26Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "Gate clean (168 pages); 0 outside scope (the widening flag is textual; every new pattern inside the old src/**); vault_check clean; theme.js only skips a third-party call; no new external fetch; both lab PDFs and the brief hold no key, token or contact; no em-dashes.",
+   "at": "2026-10-30T18:06:12Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "as-planned",
+   "comment": "1 policy narrowed with scope_changes, blurbs, star-fetch skip. 2 /lab/, home link, D6-6, seven replies filed. 3 brief 6, status, debrief. Nothing unplanned.",
+   "at": "2026-10-30T18:06:12Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T18:06:12Z",
+ "outcome": "ok"
 }
