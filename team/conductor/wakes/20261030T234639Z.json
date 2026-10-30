@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "In scope. Conditions: only the conductor's own task changed, members asked by letter; WAKE.md's Cadence section quotes the editor and marks the 08:00 to 22:00 window and the two-hour interval as the conductor's proposal, nothing else in WAKE.md changes; Q6 with his quote, K1 deferred; nothing in briefs/; no keys, contacts or Leanpub credentials; vault_check.",
    "at": "2026-10-30T23:47:43Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "1. editor_brief.py: number and date at the foot of every page (checked on all three pages of brief 9), tables; brief 9, D6 explained. 2. Q6 decided with his words; WAKE.md Cadence section only; schedule.json active and idle crons; the conductor's own task to 2 8-22/2 London (update_trigger on trig_01BmE8oGh2UyxmLwR4vrMexU only); ten letters (vault_check clean). 3. K1 deferred; editor-tasks.json (E1 to E6); the lifetime Pro plan told to the publisher; status, debrief. Gate clean.",
+   "at": "2026-10-30T23:49:48Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "Gate exit 0 (204 pages); 0 outside scope; vault_check clean; nothing in briefs/; WAKE.md only the Cadence section, quoting the editor; Q6 with his words; K1 open, deferred in its text; letters ask each member to change its own task; no credential; no em-dashes.",
+   "at": "2026-10-30T23:50:48Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "as-planned",
+   "comment": "1 footer and tables, brief 9. 2 Q6, Cadence, schedule, own task, ten letters. 3 K1 deferred (open), editor-tasks.json, the Pro plan told, status, debrief. Nothing unplanned.",
+   "at": "2026-10-30T23:50:48Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T23:50:48Z",
+ "outcome": "ok"
 }
