@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Within scope. Conditions: letters carry only public key and session id; the studies go as cited material for the researcher and publisher to judge, nothing in their folders or LEANPUB.md; no private person's contact details in research/leanpub/ (public authors and book pages only); H1 stays open with the editor's words quoted; L1's decision unchanged, only reasoning added; vault_check on comms; no em-dashes; nothing to the blind repository.",
    "at": "2026-10-30T11:54:00Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "the session's model",
+   "verdict": "partial",
+   "comment": "1. Six letters (X-Kind notice) announcing the conductor's new session and key, the member's handover and the takeover prompt; vault_check clean. 2. team/conductor/sessions-register.json (every handover, old to new); the four Leanpub studies are running in background sub-agents and come at the next wake (12:02). 3. H1's detail in the editor's words, still open; L1 gains his reasons, decision unchanged. Gate clean. Letters to the researcher and publisher with the studies wait for the studies.",
+   "at": "2026-10-30T11:55:43Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "Gate clean (95 pages); 0 outside scope; vault_check clean. H1 open with the editor's words quoted; L1 still decided, only his reasons added; six notices with outbox copies; sessions register; only public fingerprints and session ids; no em-dashes; nothing in members' folders.",
+   "at": "2026-10-30T11:56:36Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "partial",
+   "comment": "1. Six notices done; the researcher and publisher letters with the studies not yet sent. 2. Sessions register done; the four studies not in the diff. 3. H1 and L1 as planned. Partial is accurate; the studies and their two letters at the next wake. Nothing unplanned.",
+   "at": "2026-10-30T11:56:36Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T11:56:36Z",
+ "outcome": "partial"
 }
