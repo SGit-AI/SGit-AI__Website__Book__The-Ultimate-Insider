@@ -50,6 +50,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - `publishing/KDP.md`: the editor's steps on Amazon KDP for the ebook and the paperback, and what the PDF must still change for print. No KDP listing exists yet.
 - `publishing/cover_size.py`: the paperback's full cover size and spine for the designer, from the PDF's page count.
 - The build prints the words per manuscript file, the total and the PDF's page count (196 words, 3 pages on 30 October).
+- The PDF embeds the manuscript's images (`manuscript/resources/images/`) and prints each figure on one page; the book targets Markua 0.30 (M1). Leanpub price decided (L1: $0 minimum, $19.99 suggested; L2: main). RC1 (sixteen files, 42 images, 217 pages) is on the publisher's branch, released once the site build copies the images.
 
 ## Not yet
 

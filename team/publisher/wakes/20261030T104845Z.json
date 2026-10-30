@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled, hourly at :47",
+ "started": "2026-10-30T10:48:45Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1) Requests first: team/conductor/rc1 numbered .md and resources/images/ into manuscript/; Book.txt = 0-about-this-release-candidate.md then the rest in name order (about-this-edition.md kept, not listed); --embed-resources in publishing/build_book.py, figure CSS in publishing/book.css; build, check the PDF, release to dev. 2) Letters 002-005 into comms/mail/publisher/inbox (005 to done); reply with the Markua plan (0.30, steps); board issues for the reviews and M1. 3) publishing/LEANPUB.md and KDP.md for L1, L2; status.json, debrief, REALITY.md line.",
+   "at": "2026-10-30T10:49:34Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; no stop condition; spot-check of the rc1 chapters found no keys, tokens, emails or private people; 42 jpg, 4.9 MB. Conditions: copy only the numbered .md and resources/images (not research, annotations, reviews, tools, BRIEF.md); vault_check comms and the gate; build_book.py must work with and without --embed-resources.",
+   "at": "2026-10-30T10:49:57Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "partial",
+   "comment": "1. RC1 copied into manuscript/ (16 files in Book.txt, 42 images, about-this-edition.md removed), image changes in build_book.py (with a --self-contained fallback) and book.css: 217 pages, images checked. NOT released to dev: the site gate fails 42 times without a copy of manuscript/resources in admin/build/build.py (the conductor's); fix tested locally, reverted, requested; the move is committed to the publisher's branch only. 2. Letters 002-005 taken; request 002 and reply 003 to the conductor; board 003-005. 3. LEANPUB.md, README.md (L1, L2, M1); KDP.md needed no change; status, debrief, REALITY.",
+   "at": "2026-10-30T10:52:34Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Commit 1 (20 files) only team/publisher, publishing, comms, REALITY.md; admin unchanged (build.py reverted); vault_check comms clean; 0 outside scope; no key, token or email in the diff or the 16 chapters; RC1 held to the branch.",
+   "at": "2026-10-30T10:53:14Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "partial",
+   "comment": "Items 2 and 3 done. Item 1 half: RC1 moved and the image changes made, not released to dev (the site gate needs the conductor's build.py change, requested). Conditions kept; nothing unplanned.",
+   "at": "2026-10-30T10:53:14Z"
+  }
+ },
+ "closed": "2026-10-30T10:53:14Z",
+ "outcome": "partial"
+}
