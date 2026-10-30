@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Board 008 done: index/talk-site/members.md (10 members), studio.md (70 versions), motion checked for every visual in visuals.md (40 of 62 move), README coverage; issue 008 closed; letter librarian__006 with outbox; 007 filed done; debrief; status. Sources unchanged, no rerun; board 005 not reached.",
    "at": "2026-10-30T22:21:50Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Item 1 done: members.md, studio.md, issue 008 to done, README. Item 2 rightly skipped (manuscript unchanged). Item 3 not reached, as allowed. Extras in scope: the motion check in visuals.md, letter librarian__006 and outbox, 007 filed.",
+   "at": "2026-10-30T22:22:26Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "clean",
+   "comment": "11 files, all in the librarian's scope; build and gate clean (194 pages); vault_check comms clean; added text grepped: no keys, tokens, vault keys, contact details or directive text; only the team's role addresses.",
+   "at": "2026-10-30T22:22:44Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T22:22:44Z",
+ "outcome": "ok"
 }
