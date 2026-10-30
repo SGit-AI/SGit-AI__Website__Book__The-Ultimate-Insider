@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "three replies filed, board 006 and 007 unblocked; M02 as LAB 04 (03-ruv-could-have-been-worse-frames, two frames, security's conditions and caption) and M03 as LAB 05 (04-ruv-meet-the-team-frames, three frames, C073 at 17:02, C024), runs 20261030T1854Z-ruv-04 and -05; build_lab.py accepts both, lab/pdf restored and not staged; letters to security (review) and designer; REALITY, debrief, status",
    "at": "2026-10-30T18:59:11Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Build and gate clean; 0 outside scope; vault_check clean; lab/pdf and lab/tools untouched; no key but the published fingerprint; no directive text; LAB 04 names only the two public sources, nothing of how; LAB 05's numbers cite C073 and C024, both in the register.",
+   "at": "2026-10-30T18:59:37Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "partial",
+   "comment": "Item 1 partial: replies to done, 006 and 007 moved blocked to open, not to done as the plan said (the member: on purpose, the questions are answered but each stays open for the editor's paper verdict, like 001 and 004). Item 2 done (LAB 04, run -04, letter to security). Item 3 done (LAB 05, run -05, letter to designer, debrief, status, REALITY). Conditions kept. Nothing unplanned.",
+   "at": "2026-10-30T18:59:59Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T18:59:59Z",
+ "outcome": "ok"
 }
