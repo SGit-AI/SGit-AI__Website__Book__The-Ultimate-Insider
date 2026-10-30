@@ -1143,6 +1143,32 @@ class Site_Build:
                 f'<div class="prose measure">{intro}</div><ul class="cards">{lis}</ul></section>')
         self.page('brief/index.html', 'The briefs', 'The editor\'s briefs for the book, published in full as given and never edited.', body)
 
+    def build_research(self):                                       # the conductor's studies for the editor (team/conductor/research/), one page each
+        root = ROOT / 'team' / 'conductor' / 'research'
+        if not root.is_dir():
+            return
+        md, sections = Markdown(), []
+        for folder in sorted(p for p in root.iterdir() if p.is_dir()):
+            items = []
+            for p in sorted(folder.glob('*.md')):
+                text  = p.read_text()
+                title = text.split('\n', 1)[0].lstrip('# ').strip()
+                body  = text.split('\n', 1)[1] if '\n' in text else ''
+                rel   = f'research/{folder.name}/{"index" if p.name == "README.md" else p.stem}.html'
+                nav   = (f'<nav class="crumbs" aria-label="Breadcrumb"><a href="../../index.html">Home</a> / <a href="../index.html">Research</a>'
+                         + ('' if p.name == 'README.md' else f' / <a href="index.html">{html.escape(folder.name)}</a>') + '</nav>')
+                self.page(rel, title, f'{title}: a study for the editor, from team/conductor/research/{folder.name}/.',
+                          f'<article class="prose wrap narrow">{nav}<p class="kicker">Research · {html.escape(folder.name)} · <code>team/conductor/research/{folder.name}/{p.name}</code></p>'
+                          f'<h1>{html.escape(title)}</h1>{md.to_html(body)}</article>', kind='article', body_md=body)
+                if p.name != 'README.md':
+                    items.append((rel, title))
+            lis = ''.join(f'<li><a href="{folder.name}/{Path(r).name}">{html.escape(t)}</a></li>' for r, t in items)
+            sections.append(f'<section class="card"><h2><a href="{folder.name}/index.html">{html.escape(folder.name.title())}</a></h2><ol>{lis}</ol></section>')
+        body = (f'<section class="wrap narrow"><p class="kicker">Research</p><h1>Research for the editor</h1>'
+                f'<p class="lead">Studies the editor asked for, written by the team from public sources, each fact with its source and the date it was read. '
+                f'They are studies, not the register: a number from them reaches the book only through <a href="../plan/index.html">the researcher\'s register</a>.</p>{"".join(sections)}</section>')
+        self.page('research/index.html', 'Research for the editor', 'Studies the editor asked for: Leanpub, the market, and what the best books do.', body)
+
     def build_book(self):                                           # the manuscript, in the order Leanpub reads it (manuscript/Book.txt)
         md, b, esc = Markdown(), self.book, html.escape
         order = [l.strip() for l in (ROOT / 'manuscript' / 'Book.txt').read_text().splitlines() if l.strip() and not l.startswith('#')]
@@ -1205,6 +1231,7 @@ class Site_Build:
         self.build_plan()
         self.build_decisions()
         self.build_briefs()
+        self.build_research()
         self.build_book()
         self.build_team()
         self.build_roles()
