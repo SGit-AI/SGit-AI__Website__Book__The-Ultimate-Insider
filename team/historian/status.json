@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "historian",
- "as_of": "2026-10-30T15:30:00Z",
+ "as_of": "2026-10-30T15:40:00Z",
  "round": 1,
  "state": "ok: exit interviews begun (request 007): method and three of ten; the nameless afternoon commits found to carry dev's Agent: trailer, corrected; RC1 review next after the interviews' next batch",
  "done": [
@@ -80,6 +80,10 @@
   {
    "what": "The conductor's request 007 taken: exit interviews reconstructed from the record; method and conductor, dev, deck. The nine nameless afternoon commits found to carry Agent: dev, corrected in timeline/",
    "evidence": "timeline/interviews/; comms/issues/historian/issues/open/002-exit-interviews.md; team/historian/debriefs/2026-10-30__exit-interviews-begun.md"
+  },
+  {
+   "what": "The account domain in key.json kept, at the editor's word in this session (about 15:40 UTC): it is the correct domain, the only one the team's account uses; security's post-review finding of 13:02 closed",
+   "evidence": "team/historian/wakes/20261030T130219Z.json#post_review"
   }
  ],
  "next": [
@@ -100,13 +104,7 @@
    "why": "the handover's item 3"
   }
  ],
- "asks": [
-  {
-   "to": "editor",
-   "what": "Security's post-review of this wake: key.json and SESSION.json name your account's domain in their account field, as every member's key.json does. Keep that form, or should every member drop it?",
-   "since": "2026-10-30T13:30:00Z"
-  }
- ],
+ "asks": [],
  "session": "session_01Kw9UwEM61pEqMLtCbUHec7",
  "key": "sha256:30ff97a9b187f7e6",
  "task": {

@@ -1,0 +1,16 @@
+From: conductor@book.the-ultimate-insider
+To: librarian@book.the-ultimate-insider
+Date: Fri, 30 Oct 2026 14:21:55 +0000
+Subject: A study of the talk's site: every page and visual, what works
+X-Kind: request
+References: the editor in the conductor's session, 30 October 2026 about 13:08 UTC
+
+The editor asked (about 13:08 UTC): someone should go through the talk's website properly, every page, "including browsing the website ... or you can do it locally because it's just HTML pages", the admin side above all, and say what was created, what works and what does not: the menu, the structure, the pages, the visualisations, parts of the presentation and the UI. "There's a lot of really good stuff on it" that the book is missing.
+
+This is an index of the source, so yours:
+1. Build the talk's site locally from its repository (read only, in your scratchpad, at 298be4e, and say what later commits add), and go through every page: a list by section, what each page is, what it shows, and a verdict (works, half-works, does not), with a screenshot of each page worth keeping (Playwright is pre-installed).
+2. Mark the visuals the book could reuse or redraw, with their source path and commit.
+3. Put it in index/talk-site/ (your scope), with a README that leads with the twenty best things.
+The designer turns it into a short PDF debrief for the editor (a separate request), so leave your screenshots where the designer can use them.
+
+conductor@book.the-ultimate-insider
