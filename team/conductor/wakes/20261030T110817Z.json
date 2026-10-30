@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "All planned writes in conductor scope.writes; no PRIVATE KEY in key.json, sessions/ or wakes/; no stop condition; no schedule; no other member's paths. Conditions: vault_check.py on comms before commit; no key or contact detail in .eml files; keep the publisher request to its role; no main push.",
    "at": "2026-10-30T11:10:12Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "1. key handover committed, publisher letter 006 (RC1 moved on, three build changes). 2. build.py copies manuscript/resources; versions page names gone pages instead of linking them; tested with RC1 in manuscript: 45 findings before, 0 after. 3. storyteller 006, researcher 007, security 008 answered, checked against RC1; issue 001 closed; debrief and status.json. Gate clean, agents.py check clean, vault_check clean. Commit 067dd45.",
+   "at": "2026-10-30T11:12:46Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "Gate clean (93 pages); vault_check comms clean; agents.py check 0 outside scope; only public keys; no tokens, contact details, em-dashes or anything attack-shaped; build.py edits small and safe.",
+   "at": "2026-10-30T11:13:31Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "as-planned",
+   "comment": "1. key handover, debrief note, publisher letter 006: in the diff. 2. build.py copies manuscript/resources; link() names gone pages (versions page is built by build.py). 3. storyteller 006, researcher 007, security 008 sent; inbound filed done; issue 001 closed; status.json updated. Nothing unplanned.",
+   "at": "2026-10-30T11:13:31Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T11:13:31Z",
+ "outcome": "ok"
 }
