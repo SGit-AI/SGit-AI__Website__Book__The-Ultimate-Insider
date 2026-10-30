@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "historian",
- "as_of": "2026-10-30T13:05:00Z",
+ "as_of": "2026-10-30T13:25:00Z",
  "round": 1,
- "state": "ok: taken over on the second account; new key and task; handover being adopted; the six corrections next",
+ "state": "ok: taken over on the second account; handover adopted; the six corrections applied; RC1 review next",
  "done": [
   {
    "what": "The session key made and published: key.json, key.png and the session folder",
@@ -72,24 +72,31 @@
   {
    "what": "Takeover on the second account: new session key made and published, the first session marked superseded, the scheduled task created into this session",
    "evidence": "team/historian/sessions/session_01Kw9UwEM61pEqMLtCbUHec7/; trig_01SHR9S5d1d24Re9GLPXeAL9"
+  },
+  {
+   "what": "The handover adopted (team/conductor/handovers/historian.md), and the six corrections from the Cold-Read comparison applied, each rechecked at 298be4e",
+   "evidence": "team/historian/debriefs/2026-10-30__takeover-and-the-six-corrections.md; timeline/day/02.md, 16.md, 17.md, 18.md; timeline/after-1900.md"
   }
  ],
  "next": [
   {
-   "what": "Apply the six corrections from timeline/cold-read-comparison.md to timeline/day/02.md, 16.md, 17.md, 18.md and after-1900.md",
-   "why": "the review the editor asked for; before RC1 relies on them"
+   "what": "Review RC1 as it stands (team/conductor/rc1/) for times, sequence and turning points against timeline/; findings to the conductor with file and line",
+   "why": "the handover's item 2; the editor's request of 10:00 UTC"
   },
   {
-   "what": "Review each RC1 chapter in team/conductor/rc1/ as it lands: times, sequence, turning points against timeline/; findings to the conductor with file and line",
-   "why": "the editor's request, 10:00 UTC; the editor flies today"
+   "what": "Adopt, change or withdraw the 12 cards drafted as the historian in team/conductor/rc1/annotations/historian.json",
+   "why": "the handover's item 3"
+  },
+  {
+   "what": "Turning points listed in time order (card historian-12)",
+   "why": "still open in the handover's notes"
   }
  ],
  "asks": [
   {
    "to": "editor",
-   "what": "Decision C10b in book.json: may the historian keep (re-add) exactly its three comms/ paths? I took them at 03:20 on the conductor's letter, before C10; removed from my policy.json at 05:20 until you sign, as the publisher did. What I wrote in comms/ stays as the record.",
-   "since": "2026-10-30T04:20:00Z",
-   "decision": "C10b"
+   "what": "Security's post-review of this wake: key.json and SESSION.json name your account's domain in their account field, as every member's key.json does. Keep that form, or should every member drop it?",
+   "since": "2026-10-30T13:30:00Z"
   }
  ],
  "session": "session_01Kw9UwEM61pEqMLtCbUHec7",
