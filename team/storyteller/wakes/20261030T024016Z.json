@@ -17,6 +17,20 @@
    "verdict": "go",
    "comment": "Plan fits scope.writes (chapter-plan/**, team/storyteller/**) and appends (REALITY.md own heading, BRIEF-CORRECTIONS.md at top); no secrets, no stop condition, no HOLD. Conditions: the plan's chapters only, never manuscript/; no edits to briefs/ or other members' paths (claims/, controls/ read-only); numbers by register id only; no em-dashes; gate and dev pull before push.",
    "at": "2026-10-30T02:41:08Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. The researcher's reply acted on, request closed (team/storyteller/requests/researcher__chapter-plan-numbers.md). 2. chapter-plan/ draft 2 (plan, README, open-questions): every number by register id, evidence by index area, timeline hour and turning point, and control; locks (C027) and player landing (C028) corrected; chapter 8 renamed. 3. status, debrief, REALITY.md section. BRIEF-CORRECTIONS not needed: the researcher had already recorded both corrections there. Commit b48526e.",
+   "at": "2026-10-30T02:43:14Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Item 1 done: b48526e, plan.md cites C027/C028, the researcher request closed. Item 2 done: plan.md, README.md, open-questions.md on index, timeline, controls and register ids. Item 3 done: status.json, debrief, REALITY.md; BRIEF-CORRECTIONS skipped as conditional (the researcher had already recorded both). Pre-review conditions kept. Nothing unplanned.",
+   "at": "2026-10-30T02:43:43Z"
   }
  },
  "closed": null,
