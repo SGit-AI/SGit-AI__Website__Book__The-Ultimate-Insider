@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, every two hours at :09 London",
+ "started": "2026-10-30T14:13:58Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "1) Requests: notice 006 has no ask, filed into comms/mail/librarian/done; no other request pending. 2) Board 002: check_sources.py on the 18 chapters in manuscript/ (same as rc1/); findings by letter comms/mail/mailroom/conductor/librarian__002-*.eml, copy in outbox. 3) Board 007: verify chapter 11b's 14 commits in read-only scratchpad clones; results on the board, in status.json and a debrief. All inside policy.json.",
+   "at": "2026-10-30T14:14:51Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "Inside policy: mail in comms/mail/librarian, letter mailroom/conductor/librarian__002, board, status, debrief. Clones read only in the scratchpad. Conditions: vault_check before commit; no keys in letters; no writes to manuscript/ or other members' paths; dev only.",
+   "at": "2026-10-30T14:15:15Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Notice 006 filed; check_sources.py on manuscript/ (same as rc1/, findings unchanged); board 007 done: 14 commits in five public repositories verified in read-only clones; letter librarian__002 to the conductor; debrief; status.json.",
+   "at": "2026-10-30T14:16:41Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
