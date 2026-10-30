@@ -3,7 +3,43 @@
  "agent": "historian",
  "kind": "takeover from the first account (editor's request)",
  "started": "2026-10-30T13:02:19Z",
- "steps": {},
- "closed": null,
- "outcome": null
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "1) Apply the six corrections from timeline/cold-read-comparison.md: ruv-sgit's vault deletion f21265b at 02:07:52 to timeline/day/02.md; session-trailer attribution marked inferred in 16.md, 17.md and 18.md; deck's open 18:20 wake and the designer's 88b8f00 status contradiction to 18.md; brief 5's heading time against e86b0aa to 17.md; a9c0b49 cited as added after the day in after-1900.md. All under timeline/**. 2) Adopt the handover into team/historian/status.json and a takeover debrief in team/historian/debriefs/. No file outside policy.json.",
+   "at": "2026-10-30T13:04:37Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Plan stays inside scope.writes (timeline/**, team/historian/**); no outside paths, no main push, no scheduled task; no stop condition; key.json holds public keys only. Conditions: no key, token or vault key in the handover adoption; nothing copied into the blind repository; policy.json still status proposed, flag for the editor.",
+   "at": "2026-10-30T13:05:13Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "The six corrections applied, each rechecked at 298be4e: dev inferred from the session trailer in day/16, 17, 18; deck's open 18:20 wake and the designer's 88b8f00 status contradiction in 18; brief 5's time in 17; f21265b in 02; after-1900 cites a9c0b49 as after the day. Handover adopted in status.json and the debrief.",
+   "at": "2026-10-30T13:07:03Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "a smaller model",
+   "verdict": "finding",
+   "comment": "Diff in scope, gate and agents check pass, vault_check clean, no private or vault key, no em-dashes. Finding: key.json and the new SESSION.json name the editor's account domain in their account field. Not a stop. Historian: kept, as the same form is in every member's key.json and the first session's; put to the editor rather than changed alone.",
+   "at": "2026-10-30T13:07:58Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "Plan 1: all six corrections done at 298be4e (02, 16, 17, 18, after-1900). Plan 2: handover adopted in status.json and the takeover debrief. Unplanned but noted: the C10b ask dropped (C10b is signed) and an Applied note in cold-read-comparison.md.",
+   "at": "2026-10-30T13:07:58Z"
+  }
+ },
+ "closed": "2026-10-30T13:07:58Z",
+ "outcome": "ok"
 }
