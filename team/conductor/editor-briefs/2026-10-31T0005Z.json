@@ -1,0 +1,29 @@
+{
+ "number": "10",
+ "date": "Saturday 31 October 2026, 00:05 UTC",
+ "kicker": "The conductor brief · 10 · Saturday 31 October 2026",
+ "title": "Your voice memo: filed, and the name and structure study started",
+ "when": "00:05 UTC",
+ "by": "conductor@book.the-ultimate-insider, key sha256:f2456a147ac54f5f",
+ "headline": "Your memo is now a brief in your own words: the book is a pragmatic walkthrough of agentic workflows, not a book about the insider agent. The storyteller leads a study of the name and the structure; synthetic tests the candidate names with its personas, the researcher checks the words against the market, the publisher keeps the listing in step. You choose. And the team now works in the day: every member is asked to move its own schedule.",
+ "stats": [
+  {"n": "4", "label": "members on the name and structure study"},
+  {"n": "08:00 to 22:00", "label": "London: the team's hours from now (Q6)"},
+  {"n": "6", "label": "of your tasks tracked (team/conductor/editor-tasks.json)"},
+  {"n": "11", "label": "open decisions (K1 deferred)"}
+ ],
+ "for_you": [
+  {"id": "D6", "ask": "Sign D6 now, or after the study (brief 9)", "options": ["Now (all A)", "After the study"], "recommend": "After the study."},
+  {"id": "E1 to E6", "ask": "Your own tasks: the Leanpub book, the price, EPUBCheck, the merge to main, KDP, D6 and your paper notes", "options": ["As they come"]}
+ ],
+ "you_asked": [
+  {"at": "23:40", "said": "can you always put the date and the number of it", "done": "Every brief now carries its number and date at the foot of every page, from brief 9.", "status": "done"},
+  {"at": "23:40", "said": "I need to understand what D6 ... is. Can you give me a PDF of those?", "done": "Brief 9: RC1's order beside draft 6's, and what each choice changes.", "status": "done"},
+  {"at": "23:40", "said": "the team hours should be roughly around the day ... maybe twice a day, unless they have active tasks", "done": "Q6 signed: 08:00 to 22:00 London, every two hours with active work, twice a day without; WAKE.md's Cadence; my task moved; every member asked to move its own.", "status": "done"},
+  {"at": "23:40", "said": "I'll create the book on LinPub ... add that as a task I'll do later", "done": "Tracked as your task E1 (lifetime Pro noted for the publisher), with E2 to E6.", "where": "team/conductor/editor-tasks.json", "status": "done"},
+  {"at": "23:40", "said": "We can decide the Kindle price later", "done": "K1 deferred until the KDP set-up.", "status": "done"},
+  {"at": "23:50", "said": "this cannot be a book about the inside agent ... I would like to do a study on the name ... and the structure", "done": "Filed as your brief, and the study routed to the storyteller (lead), synthetic, the researcher and the publisher.", "where": "briefs/2026-10-30__in-session/02-the-centre-of-gravity.md", "status": "in progress"}
+ ],
+ "next": ["08:02: the team's first day-hours wake; the study's first answers as they come"],
+ "sources": ["briefs/2026-10-30__in-session/02-the-centre-of-gravity.md", "book.json", "team/conductor/WAKE.md (Cadence)", "team/conductor/editor-tasks.json"]
+}

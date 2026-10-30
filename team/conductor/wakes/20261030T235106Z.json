@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "editor's request",
+ "started": "2026-10-30T23:51:06Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "1. briefs/2026-10-30__in-session/02-the-centre-of-gravity.md: the editor's voice memo verbatim (otter.ai, about 23:50 UTC), 'How the conductor reads it' kept apart; no brief edited. 2. Requests: the storyteller leads the name and structure study, synthetic tests the candidates with its personas (Q3), the researcher the market words, the publisher the listing (conductor amends: no new decision and no candidates of its own; the title is already open in book.json). 3. Brief 10 and status.json.",
+   "at": "2026-10-30T23:51:40Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "In scope: 02-the-centre-of-gravity.md is a new brief beside 01, none edited. Requests within roles; nothing decided; no candidates invented. Conditions: the memo holds no key, contact or private person; vault_check before commit; brief 10 is a new file in team/conductor/editor-briefs/, not briefs/.",
+   "at": "2026-10-30T23:51:58Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
