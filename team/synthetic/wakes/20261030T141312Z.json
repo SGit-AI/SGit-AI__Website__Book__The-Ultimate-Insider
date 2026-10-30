@@ -31,8 +31,15 @@
    "verdict": "partial",
    "comment": "Item 1 done (personas.json, 8 fictional). Item 2 partial: README done; runner is run.mjs (Node Playwright, the pre-installed one), not the planned run.py. Item 3 done (notice to done/, board issue 001 blocked, status, debrief, vault_check clean). Conditions kept: vault_check, inside scope, REALITY.md under its own heading. Unplanned: letters to the conductor (api.github.com star-count fetch) and the developer (what the runs measure).",
    "at": "2026-10-30T16:34:49Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "finding",
+   "comment": "Gate failed with 3 findings: review/synthetic/{README.md,personas.json,run.mjs} claimed by both developer (review/**) and synthetic. Writes within synthetic's policy; no key, token, personal detail or directive text; run.mjs serves _site on 127.0.0.1, blocks outside requests, sends nothing off the machine; personas plainly fictional; vault_check clean. Fixed by the member before release: files moved to team/synthetic/review/, gate clean, developer asked by letter to narrow review/**.",
+   "at": "2026-10-30T16:35:49Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T16:35:49Z",
+ "outcome": "partial"
 }
