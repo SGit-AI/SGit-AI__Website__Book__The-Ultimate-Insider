@@ -48,6 +48,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - `publishing/LEANPUB.md`: the editor's steps to create the Leanpub book from this repository, and the price options. No Leanpub book exists yet.
 - `publishing/KDP.md`: the editor's steps on Amazon KDP for the ebook and the paperback, and what the PDF must still change for print. No KDP listing exists yet.
 - `publishing/cover_size.py`: the paperback's full cover size and spine for the designer, from the PDF's page count.
+- The build prints the words per manuscript file, the total and the PDF's page count (196 words, 3 pages on 30 October).
 
 ## Not yet
 

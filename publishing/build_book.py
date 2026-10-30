@@ -14,6 +14,7 @@ after admin/build/build.py).
 import argparse
 import glob
 import os
+import re
 import shutil
 import subprocess
 import sys
@@ -37,6 +38,16 @@ def chapters():
     if not names:
         sys.exit("build_book: Book.txt lists no files")
     return [os.path.join(MANUSCRIPT, n) for n in names]
+
+
+def words(path):
+    """Words a reader sees: prose, not markup, code fences, links' targets or HTML comments."""
+    with open(path, encoding="utf-8") as f:
+        text = f.read()
+    text = re.sub(r"<!--.*?-->", " ", text, flags=re.S)
+    text = re.sub(r"```.*?```", " ", text, flags=re.S)
+    text = re.sub(r"\]\([^)]*\)", "]", text)
+    return len(re.findall(r"[A-Za-z0-9][A-Za-z0-9'\u2019.,:-]*", text))
 
 
 def find_chrome(given):
@@ -103,6 +114,15 @@ def main():
 
     for m in made:
         print(f"build_book: {os.path.relpath(m, ROOT)} ({os.path.getsize(m)} bytes) from {len(files)} file(s) in Book.txt")
+    counts = [(os.path.basename(f), words(f)) for f in files]
+    for name, n in counts:
+        print(f"build_book:   {n:>7,} words  {name}")
+    total = sum(n for _, n in counts)
+    pages = ""
+    if not a.no_pdf:
+        with open(pdf, "rb") as f:
+            pages = f", {len(re.findall(rb'/Type\s*/Page(?!s)', f.read()))} PDF pages at 6 x 9 in"
+    print(f"build_book:   {total:>7,} words in all{pages}")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled, hourly at :47",
+ "started": "2026-10-30T05:48:48Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. Requests: none new (the trailer is C10b, open for the editor; no comms writes, comms/ not in policy). 2. publishing/build_book.py: words per Book.txt file and the total, and a rough paperback page estimate; build, gate, agents check. 3. status.json, debrief, a REALITY.md line; L1/L2 and KDP wait on the editor.",
+   "at": "2026-10-30T05:49:22Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope (publishing/**, team/publisher/**, REALITY.md append); the release step is continue-on-error. Conditions: word counts only, no new hard dependency, non-fatal; gate and agents check; no em-dashes; REALITY.md only under its own heading; briefs and ./version untouched.",
+   "at": "2026-10-30T05:49:39Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. no new requests; C10b noted in status. 2. build_book.py: words per file, total, PDF pages (196 words, 3 pages), non-fatal, no new dependency; README line. 3. status.json, debrief, REALITY.md line under the publisher's heading.",
+   "at": "2026-10-30T05:50:05Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Six files in scope; build, validate, agents check pass; word and page counts only, stdlib, after the output is written; no key, token, personal detail, em-dash or directing text; briefs and ./version untouched.",
+   "at": "2026-10-30T05:50:38Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "1 no new requests, C10b noted. 2 word counts in build_book.py, README line. 3 status, debrief, REALITY line. Conditions kept; nothing unplanned.",
+   "at": "2026-10-30T05:50:39Z"
+  }
+ },
+ "closed": "2026-10-30T05:50:39Z",
+ "outcome": "ok"
+}

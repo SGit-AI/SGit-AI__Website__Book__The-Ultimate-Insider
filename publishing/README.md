@@ -20,4 +20,6 @@ python3 publishing/build_book.py --no-pdf   # EPUB only (no browser needed)
 
 It needs `pandoc` and a Chromium or Chrome (headless, for the PDF; no LaTeX). It looks for `chrome-headless-shell`, the Playwright browsers in `/opt/pw-browsers/`, then `chromium` and `google-chrome`; `--chrome PATH` names another. The output goes to `_site/manuscript/`, which is gitignored: built files are never committed. Run after `admin/build/build.py`, it is published with the site at `/manuscript/the-ultimate-insider.pdf` by CI: the conductor added it to the release job on 30 October (a failure warns and never stops a release).
 
+It ends by printing the words in each file `Book.txt` lists, the total, and the PDF's page count: a measure for the writer against the plan's word budgets, and the page count `cover_size.py` needs.
+
 It fails, with a message, when `Book.txt` names a file that is not in `manuscript/` or names none.
