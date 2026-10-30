@@ -1,6 +1,6 @@
 # The team, read from the folders under team/<id>/. Standard library only. Apache-2.0.
 #
-#   python3 admin/build/agents.py check --agent dev [--base origin/dev]   files changed since base, against dev's scope
+#   python3 admin/build/agents.py check --agent dev [--base origin/dev]   files changed since base, against dev's scope; and any change to its own scope
 #   python3 admin/build/agents.py overlaps                                two members claiming the same file (the gate fails)
 #   python3 admin/build/agents.py unowned                                 tracked files no member writes or holds
 #
@@ -52,9 +52,22 @@ class Team:
         files |= {line[3:].split(' -> ')[-1] for line in local.splitlines()}
         return sorted(f for f in files if f and f != 'version')
 
+    def scope_changes(self, agent, base):                            # security's proposal (30 October 2026): a member's own scope, changed since the base, is reported
+        path   = f'team/{agent}/policy.json'
+        before = subprocess.run(['git', 'show', f'{base}:{path}'], cwd=ROOT, capture_output=True, text=True)
+        old    = json.loads(before.stdout).get('scope', {}) if before.returncode == 0 and before.stdout.strip() else {}
+        new    = self.members[agent].get('scope', {})
+        lines  = []
+        for kind in ('writes', 'holds', 'appends'):
+            a, b = set(old.get(kind, [])), set(new.get(kind, []))
+            lines += [f'scope changed: +{kind} {x}' for x in sorted(b - a)] + [f'scope changed: -{kind} {x}' for x in sorted(a - b)]
+        return lines
+
     def check(self, agent, base):
         if agent not in self.members:
             sys.exit(f'no member "{agent}": its folder is team/{agent}/ with a policy.json')
+        for line in self.scope_changes(agent, base):                  # a report, not a refusal: the post-review and the post-check see it
+            print(line)
         outside = [f for f in self.changed(agent, base) if not self.owns(agent, f) and not self.appends(agent, f)]
         for f in outside:
             print(f'outside scope: {f}')

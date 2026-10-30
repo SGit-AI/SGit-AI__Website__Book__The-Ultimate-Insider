@@ -1,10 +1,14 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "conductor",
- "as_of": "2026-10-30T05:10:00Z",
+ "as_of": "2026-10-30T06:15:00Z",
  "round": 1,
- "state": "05:02 wake: security and the storyteller took their comms paths at C10; the researcher's session refused (needs the editor's word there); the librarian's first wake since C10 is 05:09; the publisher removed its own paths and asks for C10b",
+ "state": "06:02 wake: only security and the storyteller hold comms paths; C10b reworded as one question for the four others; agents.py check reports scope changes (security's proposal)",
  "done": [
+  {
+   "what": "agents.py check reports every change to a member's own scope, at security's proposal (report only)",
+   "evidence": "admin/build/agents.py"
+  },
   {
    "what": "the researcher's study of graphs.sgit.ai, the editor's request: reuse a making-of with numbers computed from git, the failures chapter, what it costs and where it loses, book versions apart from site versions; avoid six days building the machine and none of the book",
    "evidence": "claims/graphs-sgit-ai.md, C032 to C036"
@@ -90,11 +94,7 @@
  ],
  "asks": [
   {
-   "what": "say once in the researcher's session (session_01Kw9UwBta1dcP9qBJUURLPZ) that it may add its three comms paths: its own permission check refused after C10",
-   "from": "the editor"
-  },
-  {
-   "what": "C10b: may the historian and the publisher keep or re-add their three comms paths (taken before C10)?",
+   "what": "C10b: one answer for the four members without comms paths (librarian, researcher, historian, publisher). Simplest: say in this session that the conductor may add them",
    "from": "the editor"
   },
   {
