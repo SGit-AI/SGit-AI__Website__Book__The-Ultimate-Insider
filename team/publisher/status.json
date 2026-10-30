@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "publisher",
- "as_of": "2026-10-30T21:22:00Z",
- "round": 13,
- "state": "the EPUB fitted to small screens (publishing/epub.css); EPUBCheck refused by the session's permissions, put to the editor",
+ "as_of": "2026-10-30T23:00:00Z",
+ "round": 14,
+ "state": "KDP.md current for 293 pages: price matching (K1), US $0.15 per MB delivery cost at 70% (about $2.02 a sale today), 300 DPI, fonts embedded, spine 0.735 in on cream",
  "done": [
   {
    "what": "session key published: team/publisher/key.json, key.png, sessions/session_01Kw9UwDVeRbKJZUWiRoRrHK/",
@@ -96,12 +96,16 @@
   {
    "what": "publishing/epub.css joined after pandoc's EPUB styles: commands wrap, tables fit, call-outs in colour; checked at 360 px on the five chapters with code or tables",
    "when": "2026-10-30T21:15Z"
+  },
+  {
+   "what": "publishing/KDP.md: price matching (K1), delivery cost $0.15/MB (about $2.02 a sale at 13.5 MB), 300 DPI against our ~200, fonts embedded, 650 MB limit, spine and full cover at 293 pages, sources dated",
+   "when": "2026-10-30T22:58Z"
   }
  ],
  "next": [
   {
-   "what": "KDP.md: the price-matching terms (K1) and KDP's image resolution page, cited",
-   "why": "before the editor submits to KDP"
+   "what": "a smaller ebook: images resized for the EPUB only, to cut the delivery cost and the download",
+   "why": "KDP's $0.15 per MB at 70%"
   },
   {
    "what": "EPUBCheck, once the editor allows it or runs it",

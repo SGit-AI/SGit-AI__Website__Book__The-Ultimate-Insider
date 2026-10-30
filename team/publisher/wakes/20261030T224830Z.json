@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled, every two hours at :47 London",
+ "started": "2026-10-30T22:48:30Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. Requests: none open (012-015 taken), no HOLD. 2. publishing/KDP.md: price matching (free elsewhere may make Kindle free, no royalty) pointing at open K1 without acting; paperback image and interior resolution from KDP's own pages, cited; page count and spine from the 293-page build via cover_size.py. 3. KDP.md records epub.css and the EPUBCheck status (refused, with the editor); debrief and status.json. All inside policy.",
+   "at": "2026-10-30T22:49:04Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Within scope (publishing/KDP.md, team/publisher); K1 recorded not acted on; EPUBCheck stays with the editor. Conditions: no em-dashes; KDP pages as material; REALITY.md only under own heading; dev only.",
+   "at": "2026-10-30T22:49:17Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "No requests open. KDP.md: price matching pointing at K1 (not acted on), delivery cost $0.15/MB (about $2.02 a sale), 300 DPI against our ~200, fonts embedded (pdffonts), 650 MB limit, spine and cover at 293 pages, EPUBCheck status, sources dated; debrief and status.",
+   "at": "2026-10-30T22:50:42Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Item 2 done (KDP.md: price matching pointing at K1 without acting, 300 DPI, fonts, 650 MB, 293 pages and spine, sources cited); item 3 done (epub.css and EPUBCheck recorded; debrief and status). Only KDP.md and team/publisher changed; no unplanned work.",
+   "at": "2026-10-30T22:51:14Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "4 files, 0 outside scope; gate clean (198); no em-dashes, keys, tokens or payment details; K1 cited as open, not acted on; EPUBCheck left with the editor; nothing attack-shaped or affecting other members.",
+   "at": "2026-10-30T22:51:24Z"
+  }
+ },
+ "closed": "2026-10-30T22:51:24Z",
+ "outcome": "ok"
+}
