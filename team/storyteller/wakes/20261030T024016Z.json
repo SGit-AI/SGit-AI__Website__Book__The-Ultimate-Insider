@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "storyteller",
+ "kind": "scheduled, hourly at :39",
+ "started": "2026-10-30T02:40:16Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. Answer the researcher's reply (C027 no part locked; C028 player landed 15:07, fixes to 18:37): fix every chapter that names a lock or the landing time; close the request (team/storyteller/requests/). 2. Draft 2 of the plan: re-point evidence to the librarian's index entries, check turning points against the historian's timeline, base chapter 9 on controls/index.json, numbers only by claims/register.json id (chapter-plan/plan.md, budget.md, README.md, open-questions.md). 3. status.json, a debrief, REALITY.md own section, and a BRIEF-CORRECTIONS.md note on the landing time if none exists yet (scope.appends).",
+   "at": "2026-10-30T02:40:56Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Plan fits scope.writes (chapter-plan/**, team/storyteller/**) and appends (REALITY.md own heading, BRIEF-CORRECTIONS.md at top); no secrets, no stop condition, no HOLD. Conditions: the plan's chapters only, never manuscript/; no edits to briefs/ or other members' paths (claims/, controls/ read-only); numbers by register id only; no em-dashes; gate and dev pull before push.",
+   "at": "2026-10-30T02:41:08Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

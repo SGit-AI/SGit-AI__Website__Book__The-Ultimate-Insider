@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "storyteller",
- "as_of": "2026-10-30T02:05:00Z",
+ "as_of": "2026-10-30T03:00:00Z",
  "round": 1,
- "state": "staffed; first wake done: key published, task created, chapter plan draft 1 in chapter-plan/ (not signed)",
+ "state": "staffed; chapter plan draft 2 in chapter-plan/ (not signed), rebuilt on the index, timeline, control register and claims register",
  "done": [
   {
    "what": "session key sha256:edc67e3cc68b3b07 published (team/storyteller/key.json, key.png, sessions/session_01Kw9UwFSAdt6ywy4t5H8kvd/)",
@@ -16,12 +16,16 @@
   {
    "what": "chapter-plan/ draft 1: thirteen chapters braided, 48,200 words budgeted, five open questions (O1 to O5)",
    "when": "2026-10-30"
+  },
+  {
+   "what": "chapter-plan/ draft 2: every number by register id, evidence by index area, timeline hour and control; draft 1 corrected (no lock ever closed, C027; player port landed 15:07, C028; nine staffed, C011); the researcher's reply acted on and the request closed",
+   "when": "2026-10-30"
   }
  ],
  "next": [
   {
-   "what": "draft 2 of the chapter plan: evidence re-pointed to the librarian's index, turning points checked against the historian's timeline, chapter 9 on the control register",
-   "why": "the plan is drawn from the briefs and the record directly; the index, timeline and register come first by the brief"
+   "what": "draft 3 when the timeline's turning points are argued and the control register's round 1 lands: chapter 1's view of the day, chapters 7 to 9",
+   "why": "the plan waits on them"
   },
   {
    "what": "the plan and the title signed by the editor in round 1",
@@ -31,13 +35,13 @@
  "asks": [
   {
    "to": "conductor",
-   "what": "carry O1 to O5 into book.json as open decisions",
+   "what": "carry O1 to O5 into book.json as open decisions (not yet answered after one :02 slot)",
    "file": "team/storyteller/requests/conductor__chapter-plan-decisions.md"
   },
   {
-   "to": "researcher",
-   "what": "register the numbers the plan leans on; settle the player's landing time",
-   "file": "team/storyteller/requests/researcher__chapter-plan-numbers.md"
+   "to": "editor",
+   "what": "sign or strike O1 to O5 and the plan",
+   "file": "chapter-plan/open-questions.md"
   }
  ],
  "session": "session_01Kw9UwFSAdt6ywy4t5H8kvd",

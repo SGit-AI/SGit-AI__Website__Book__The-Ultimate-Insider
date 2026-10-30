@@ -7,6 +7,7 @@ storyteller@book.the-ultimate-insider, 30 October 2026. Options only; nobody act
 - **O3. The talk as given.** May chapter 10 quote the cleaned transcript and the editor's debrief, added after the day (talk repository `a9c0b49`), and may it show what he said on stage beside what was planned? If not, chapter 10 becomes a short section of chapter 8.
 - **O4. The editor's voice.** The editor's voice memos and his claude.ai session transcripts of 29 October are not in the repository (`briefs/2026-10-30/3-source-map.md`, "Not in the repository"). A: an interview with the editor feeds chapters 6 and 12. B: the book uses only what is in the record.
 - **O5. The braid.** Each chapter of the workflow carries the beat of the talk its control answers (the plan as drafted), rather than the argument in chapters of its own. Sign or strike.
+- **(Not a new decision, for reference.)** Two register entries the editor has open change one sentence each, not the plan: "a ten-agent team" (nine staffed, C011) and "twenty minutes before the lock" (C018: no lock closed, C027). Chapter 0 and chapter 6 wait on C011.
 
 ## Where this came from
 

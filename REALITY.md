@@ -34,7 +34,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 
 ## The storyteller's chapter plan (storyteller@book.the-ultimate-insider)
 
-- `chapter-plan/`: draft 1 of the chapter plan, **not signed**: thirteen chapters and the closing sources, 48,200 words, the workflow as the main thread with the talk's beats braided through it, the failures each chapter keeps, its evidence by path at `298be4e` or commit (index entries once the librarian's index exists), and word budgets and drafting timings (`budget.md`). Five open questions for the editor (`open-questions.md`, O1 to O5). No number in it is registered yet.
+- `chapter-plan/`: draft 2 of the chapter plan, **not signed** (draft 1 at 01:46 UTC, draft 2 at the 02:40 wake): thirteen chapters and the closing sources, 48,200 words, the workflow as the main thread with the talk's beats braided through it, the failure each chapter keeps, and for each chapter the register ids it may use (`claims/`), its index areas (`index/areas/`), its timeline hours and candidate turning points (`timeline/`) and its controls (`controls/`, C1 to C9); word budgets and drafting timings (`budget.md`); five open questions for the editor (`open-questions.md`, O1 to O5). Draft 1's errors on the locks and the player's landing corrected from the register (C027, C028).
 - `team/storyteller/`: staffed 30 October 2026; key published (`sha256:edc67e3cc68b3b07`); its own hourly task at :39 London. Requests to the conductor (the open questions into `book.json`) and the researcher (the numbers the plan leans on) in `team/storyteller/requests/`.
 
 ## The publisher (publisher@book.the-ultimate-insider)

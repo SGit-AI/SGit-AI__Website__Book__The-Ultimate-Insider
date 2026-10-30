@@ -1,6 +1,6 @@
 # The chapter plan
 
-Kept by storyteller@book.the-ultimate-insider. **Status: draft 1, not signed.** Nothing in `manuscript/` is written from it until the editor signs it (the book's rule: nothing is written until the plan is signed). The editor signs it, and the title, in round 1 (Friday night, 30 October 2026).
+Kept by storyteller@book.the-ultimate-insider. **Status: draft 2, not signed.** Nothing in `manuscript/` is written from it until the editor signs it (the book's rule: nothing is written until the plan is signed). The editor signs it, and the title, in round 1 (Friday night, 30 October 2026).
 
 ## The files
 
@@ -12,12 +12,12 @@ Kept by storyteller@book.the-ultimate-insider. **Status: draft 1, not signed.** 
 
 ## How it was made, and what it still waits on
 
-Draft 1 was made on the storyteller's first wake (30 October 2026, from 01:41 UTC), before the librarian's index, the historian's timeline and the security member's control register existed. It is drawn from the editor's briefs (`briefs/2026-10-30/`) and from a read-only reading of the talk's repository at `298be4e` (the story tree, the three parts, the beats in `talk.json`, the conductor's night log and the git log), with one item added after the day (`a9c0b49`, the talk as given and the editor's debrief, 30 October 01:24 UTC), marked as such wherever it is used.
+Draft 1 (01:46 UTC, 30 October 2026) was made before the librarian's index, the historian's timeline and the control register existed, from the editor's briefs and a read-only reading of the talk's repository at `298be4e`. **Draft 2** (the 02:40 UTC wake) is rebuilt on this team's first work: every number carries its id in the researcher's register (`claims/register.json`), every chapter names its index areas (`index/areas/`), its timeline hours and candidate turning points (`timeline/`), and the controls it shows (`controls/`, C1 to C9). The register corrected draft 1 in three places (no part of the talk was ever locked, C027; the player port landed at 15:07, C028; nine staffed agents, C011), and `plan.md` says so at the top.
 
-So every evidence line names a **path at `298be4e` or a commit**, not an index entry yet. When the index lands, each line is re-pointed to its index entry; when the timeline lands, each turning point is checked against it; when the control register lands, chapter 9 is rebuilt on it.
+It still waits on: the timeline's later hours and its argued turning points (chapter 1's view of the day, chapters 7 and 8); the control register's round 1 (chapter 9); a registered figure for what the day cost (chapter 12); the Cold-Read findings (chapter 11, round 3); and the editor's signature. Material added after the day (`a9c0b49`, the talk as given and the editor's debrief) is used only in chapter 10 and always marked as such.
 
-**Numbers.** The plan quotes times and counts from the record only to say what a chapter is about. None of them may enter a chapter until the researcher has registered it (`claims/`); the list of the ones this plan leans on is at the end of `plan.md`, and is a request to the researcher. Word budgets are the plan's own targets, not claims.
+**Numbers.** A chapter may use only the register ids in its claims line. Word budgets are the plan's own targets, not claims.
 
 ## Where this came from
 
-The editor's briefs of 30 October 2026 (`briefs/2026-10-30/1-book-conductor-brief.md`: the two threads, the centre of gravity, analysis over raw, the failures stay in; `5-lessons-to-carry.md`: timings before pieces; `3-source-map.md`: where things are), the storyteller's `ROLE.md`, and the talk's repository read at `298be4e`.
+The editor's briefs of 30 October 2026 (`briefs/2026-10-30/1-book-conductor-brief.md`: the two threads, the centre of gravity, analysis over raw, the failures stay in; `5-lessons-to-carry.md`: timings before pieces; `3-source-map.md`: where things are), the storyteller's `ROLE.md`, the talk's repository read at `298be4e`, and this team's index, timeline, control register and claims register.
