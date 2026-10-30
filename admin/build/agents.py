@@ -61,15 +61,16 @@ class Team:
         lines  = []
         for kind in ('writes', 'holds', 'appends'):
             a, b = set(old.get(kind, [])), set(new.get(kind, []))
-            lines += [f'scope changed: +{kind} {x}' for x in sorted(b - a)] + [f'scope changed: -{kind} {x}' for x in sorted(a - b)]
+            lines += [f'scope changed: +{kind} {x} (a widening)' for x in sorted(b - a)] + [f'scope changed: -{kind} {x}' for x in sorted(a - b)]
         was = json.loads(before.stdout) if before.returncode == 0 and before.stdout.strip() else {}
-        now = self.members[agent]                                   # security's note: a line removed from never, or a capability added, widens too
+        now = self.members[agent]                                   # security's notes: every line that widens a member is marked (a widening); the rest narrow
         a, b = set(was.get('never', [])), set(now.get('never', []))
         lines += [f'scope changed: +never {x}' for x in sorted(b - a)] + [f'scope changed: -never {x} (a widening)' for x in sorted(a - b)]
         for kind in ('wanted', 'not_wanted'):
             cap = lambda pol: {c.get('capability', str(c)) if isinstance(c, dict) else str(c) for c in pol.get('mandate', {}).get(kind, [])}
             a, b = cap(was), cap(now)
-            lines += [f'scope changed: +mandate.{kind} {x}' for x in sorted(b - a)] + [f'scope changed: -mandate.{kind} {x}' for x in sorted(a - b)]
+            widen = lambda sign: (sign == '+') == (kind == 'wanted')         # a capability wanted, or one no longer refused, widens
+            lines += [f'scope changed: +mandate.{kind} {x}' + (' (a widening)' if widen('+') else '') for x in sorted(b - a)] + [f'scope changed: -mandate.{kind} {x}' + (' (a widening)' if widen('-') else '') for x in sorted(a - b)]
         return lines
 
     def check(self, agent, base):

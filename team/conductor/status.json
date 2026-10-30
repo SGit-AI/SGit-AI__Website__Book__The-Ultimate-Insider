@@ -1,10 +1,14 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "conductor",
- "as_of": "2026-10-30T07:10:00Z",
+ "as_of": "2026-10-30T08:10:00Z",
  "round": 1,
- "state": "07:02 wake: the own-scope report extended to the never list and the mandate (security's notes); every member working or idle on the editor; C10b and the plan's decisions wait on the editor",
+ "state": "08:02 wake: the daily ask to the editor; every member working or idle, waiting on the editor's decisions; the scope report labels every widening",
  "done": [
+  {
+   "what": "the own-scope report marks every widening (security's note)",
+   "evidence": "admin/build/agents.py"
+  },
   {
    "what": "the own-scope report covers the never list and the mandate too (security's note); the working-tree caveat documented",
    "evidence": "admin/build/agents.py"
@@ -98,23 +102,51 @@
  ],
  "asks": [
   {
-   "what": "C10b: one answer for the four members without comms paths (librarian, researcher, historian, publisher). Simplest: say in this session that the conductor may add them",
+   "what": "Q3: The title",
    "from": "the editor"
   },
   {
-   "what": "sign the chapter plan (P0) and its open questions O1 to O5",
+   "what": "Q4: The editor's voice memos and the claude.ai transcripts of 29 October",
    "from": "the editor"
   },
   {
-   "what": "C011: \"a ten-agent team\" or nine staffed",
+   "what": "P0: Sign the chapter plan",
    "from": "the editor"
   },
   {
-   "what": "L1 the Leanpub price (the publisher recommends B), L2 its branch; then create the Leanpub book",
+   "what": "O1: The length",
    "from": "the editor"
   },
   {
-   "what": "Q4: your voice memos, transcripts and any recording: into the source?",
+   "what": "O2: The opening",
+   "from": "the editor"
+  },
+  {
+   "what": "O3: The talk as given",
+   "from": "the editor"
+  },
+  {
+   "what": "O4: Your voice in the book",
+   "from": "the editor"
+  },
+  {
+   "what": "O5: The braid",
+   "from": "the editor"
+  },
+  {
+   "what": "C011: \"A ten-agent team\"",
+   "from": "the editor"
+  },
+  {
+   "what": "L1: The price on Leanpub, with a floor",
+   "from": "the editor"
+  },
+  {
+   "what": "L2: Which branch Leanpub builds from",
+   "from": "the editor"
+  },
+  {
+   "what": "C10b: The comms/ paths of the four members still without them",
    "from": "the editor"
   }
  ],
@@ -124,5 +156,22 @@
   "session": "session_01Kw9UwDcSTJ2nZLAFJMat9U",
   "created": "2026-10-30T02:12:58Z",
   "by": "conductor, at the editor's word in its session"
+ },
+ "daily_ask": {
+  "at": "2026-10-30T08:10:00Z",
+  "open": [
+   "Q3",
+   "Q4",
+   "P0",
+   "O1",
+   "O2",
+   "O3",
+   "O4",
+   "O5",
+   "C011",
+   "L1",
+   "L2",
+   "C10b"
+  ]
  }
 }
