@@ -31,8 +31,15 @@
    "verdict": "as-planned",
    "comment": "Idle as planned: add2db6 touched only status.json and the wake record; the task left running, Q6 unsigned, no unsigned decision acted on.",
    "at": "2026-10-30T22:41:02Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (Sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "add2db6 touches only status.json and the wake record, in policy; agents check 0 outside scope; no key, token, personal detail, directing text or em-dash.",
+   "at": "2026-10-30T22:41:12Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T22:41:12Z",
+ "outcome": "idle"
 }
