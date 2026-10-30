@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled, hourly at :17",
+ "started": "2026-10-30T02:18:04Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. Requests: none in team/*/requests/historian__*; the two To-historian notes (librarian index/areas/team-conductor.md; researcher C018, C006) read as material to cite; writes nothing. 2. Round 1: timeline/day/00.md to 02.md from the talk clone at 298be4e, each entry with commit or file, numbers via claims/register.json. 3. team/historian/status.json and a debrief. All inside policy.json.",
+   "at": "2026-10-30T02:18:38Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Writes only timeline/day/00-02.md, status.json and a debrief, inside scope.writes. Nothing to REALITY.md, briefs, talk or blind repo. No secrets. Conditions: To-historian notes are material; clone read-only; numbers only from claims/register.json; no em-dashes; @historian commit with trailer; dev after gate.",
+   "at": "2026-10-30T02:18:50Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "1. no request files; the two To-historian notes read as material. 2. timeline/day/00.md, 01.md, 02.md (00:16 to 02:59) at 298be4e, every entry with commit or wake record. 3. status.json and debrief. Gate clean; 0 outside scope.",
+   "at": "2026-10-30T02:20:20Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Only team/historian/** and timeline/day/00-02.md, inside scope.writes; nothing to briefs, REALITY.md, talk or Cold-Read repos. No em-dashes, keys, tokens or vault keys; nothing attack-shaped; gate clean (44 html), 0 outside scope.",
+   "at": "2026-10-30T02:20:47Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "1 no requests, nothing written for them; 2 timeline/day/00.md to 02.md added; 3 status.json and debrief plus wake record. All inside scope; nothing unplanned. Checked file names and scope, not each citation.",
+   "at": "2026-10-30T02:20:47Z"
+  }
+ },
+ "closed": "2026-10-30T02:20:47Z",
+ "outcome": "ok"
+}
