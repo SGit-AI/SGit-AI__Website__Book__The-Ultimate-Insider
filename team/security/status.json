@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "security",
- "as_of": "2026-10-30T06:40:00Z",
+ "as_of": "2026-10-30T07:45:00Z",
  "round": 0,
- "state": "staffed; sixth wake (scheduled): the own-scope report checked; the key tool's message module read",
+ "state": "staffed; seventh wake (scheduled): the never and mandate report checked; the key tool's directory module read",
  "done": [
   {
    "what": "session key made and published: team/security/key.json, key.png, sessions/session_01Kw9UwDYutLfqT71U7kmgVs/",
@@ -48,11 +48,19 @@
   {
    "what": "pki-agent message module read: findings 7 and 8; finding 5 corrected (overstated)",
    "when": "2026-10-30"
+  },
+  {
+   "what": "agents.py's never and mandate report (085df5c) checked; one label asked (security__004)",
+   "when": "2026-10-30"
+  },
+  {
+   "what": "pki-agent directory module read: finding 9; finding 1 narrowed to information",
+   "when": "2026-10-30"
   }
  ],
  "next": [
   {
-   "what": "the directory module of pki-agent.mjs (how the register is read and trusted)",
+   "what": "the evidence module of pki-agent.mjs (from line 3148), then the QR reader, unzip and the remaining commands",
    "why": "ROLE.md responsibility 2"
   },
   {
@@ -63,7 +71,7 @@
  "asks": [
   {
    "to": "editor",
-   "what": "read the eight pki-agent findings (team/security/reviews/pki-agent-review.md); none above low"
+   "what": "read the nine pki-agent findings (team/security/reviews/pki-agent-review.md); none above low"
   },
   {
    "to": "editor",
