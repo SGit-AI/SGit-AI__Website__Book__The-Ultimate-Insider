@@ -31,8 +31,15 @@
    "verdict": "as-planned",
    "comment": "Idle wake writing only status.json; faae062 touched status.json and the wake record, nothing else. No scope breach.",
    "at": "2026-10-30T20:41:21Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (Sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "faae062 touches only status.json and the wake record, in scope; agents check 0 outside scope; no key, token, personal detail, directing text or em-dash.",
+   "at": "2026-10-30T20:41:30Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T20:41:30Z",
+ "outcome": "idle"
 }
