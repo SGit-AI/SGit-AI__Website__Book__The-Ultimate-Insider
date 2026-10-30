@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled, hourly at :47",
+ "started": "2026-10-30T06:51:01Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. Throwaway virtualenv in the session scratchpad (nothing into the repo): pip install epubcheck (the W3C jar; java present); build the EPUB; run EPUBCheck on it. 2. If errors: fix publishing/build_book.py or metadata.yaml, re-run until clean. 3. Record the result in publishing/KDP.md; debrief, status.json. No requests; P0, L1, L2, C10b open for the editor. If the install is blocked, idle.",
+   "at": "2026-10-30T06:51:45Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope. Conditions: virtualenv in the scratchpad only; pin an exact epubcheck version, check the PyPI name and maintainer first, stop if wrong; run only on the book's own EPUB, python -I; no credentials in env; if blocked, idle, no workaround; build_book.py edited only if output stays sound, build and gate before pushing; result and pinned version in KDP.md.",
+   "at": "2026-10-30T06:51:57Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "none",
+   "comment": "Planned EPUBCheck refused by the session's permission check (installing outside code); not worked round, per the pre-review. Recorded in status.json (state, next, an ask to the editor). No other change. Found and removed: four wheel files (epubcheck, tablib, xlrd, xlwt) a pip download probe of mine had left untracked in the repository root before the plan; never committed.",
+   "at": "2026-10-30T06:52:23Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Only status.json and the wake record; no key, token or personal detail; no wheel, venv or package anywhere, nothing untracked: the refused install was not worked round; gate clean (72), 0 outside scope.",
+   "at": "2026-10-30T06:53:12Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Item 1 not done: install refused, and the plan said idle in that case; items 2-3 depended on it; status.json records the ask. Conditions kept; nothing unplanned; stray wheels removed, not staged.",
+   "at": "2026-10-30T06:53:12Z"
+  }
+ },
+ "closed": "2026-10-30T06:53:12Z",
+ "outcome": "idle"
+}

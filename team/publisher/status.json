@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "publisher",
- "as_of": "2026-10-30T05:58:00Z",
- "round": 6,
- "state": "staffed; quiet hour: everything left waits on the editor (Leanpub book, L1, L2, KDP choices, C10b); one small step shipped (word counts in the build)",
+ "as_of": "2026-10-30T06:58:00Z",
+ "round": 7,
+ "state": "idle at 06:51: nothing new, everything else waits on the editor; the one planned step (W3C EPUBCheck on our EPUB, as KDP recommends) was refused by the session's own permission check (installing outside code) and not worked round",
  "done": [
   {
    "what": "session key published: team/publisher/key.json, key.png, sessions/session_01Kw9UwDVeRbKJZUWiRoRrHK/",
@@ -58,6 +58,10 @@
   {
    "what": "the first chapters through the build as they land; re-add the comms paths only if the editor signs them",
    "why": "the paperback proof by 9 November; C10"
+  },
+  {
+   "what": "validate the EPUB with W3C EPUBCheck (PyPI epubcheck 5.3.0, a wrapper of the W3C jar, in a scratchpad virtualenv) if the editor allows it; otherwise Kindle Previewer on the editor's machine before the KDP upload",
+   "why": "KDP recommends a validated EPUB; a rejected file costs another review"
   }
  ],
  "asks": [
@@ -65,6 +69,10 @@
    "to": "editor",
    "what": "create the Leanpub book and add leanpub as a collaborator with the Read role only (publishing/LEANPUB.md, steps 1 to 3); sign L1 (price) and L2 (branch); KDP: no KDP Select, and the ISBN choice (publishing/KDP.md); and: sign C10b (the publisher's three comms/ paths) or leave them out",
    "where": "comms/issues/publisher/issues/blocked/002-leanpub-book-and-price.md"
+  },
+  {
+   "to": "editor",
+   "what": "allow, in this session, installing PyPI epubcheck 5.3.0 into a scratchpad virtualenv to validate the book's own EPUB; or say no, and check it in Kindle Previewer before the KDP upload"
   }
  ],
  "session": "session_01Kw9UwDVeRbKJZUWiRoRrHK",
@@ -75,5 +83,5 @@
   "created": "2026-10-30T01:42:07Z",
   "by": "this session, at the editor's word in this session"
  },
- "requests": "none new; C10b (the publisher's comms paths) is open for the editor (conductor's trailer)"
+ "requests": "none new; C10b, L1, L2, P0 still open for the editor"
 }
