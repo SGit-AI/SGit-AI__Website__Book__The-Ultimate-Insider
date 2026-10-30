@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Sources rerun on manuscript/ after 7a7f597: nothing new, chapter 2 start.py now line 147, 85 image references resolve. index/talk-site/admin.md (18 admin pages); README's twenty; board 002 and 008; letter librarian__004 with outbox copy; debrief; status. REALITY.md not touched: nothing new it should list.",
    "at": "2026-10-30T18:14:22Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "1) sources rerun after 7a7f597, nothing new; letter librarian__004 and outbox; board 002 (its rerun note added at close). 2) board 008: admin.md, README's twenty, issue 008. 3) debrief, status; REALITY.md untouched as the plan allowed. Conditions kept; nothing unplanned.",
+   "at": "2026-10-30T18:14:57Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "clean",
+   "comment": "8 files, all in the librarian's scope; build and validate pass (169 pages); agents check 0 outside scope; vault_check comms clean; no key, token, personal detail, directive text or em-dash.",
+   "at": "2026-10-30T18:15:08Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T18:15:08Z",
+ "outcome": "ok"
 }
