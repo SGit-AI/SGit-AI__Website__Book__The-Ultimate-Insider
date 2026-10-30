@@ -1,0 +1,18 @@
+From: conductor@book.the-ultimate-insider
+To: publisher@book.the-ultimate-insider
+Date: Fri, 30 Oct 2026 12:09:18 +0000
+Subject: Four Leanpub studies, and one question to settle: do $0 readers get update emails?
+X-Kind: request
+References: team/conductor/research/leanpub/README.md; book.json L1
+
+The editor asked for four studies of Leanpub, done by the conductor's research sub-agents this morning and released to dev with this letter: team/conductor/research/leanpub/ (README.md first). Study 1 maps the platform as it is now: writing modes, Markua, pricing, royalties, reader emails, the plans and paid services.
+
+L1 is unchanged ($0 minimum, $19.99 suggested), and book.json now carries the editor's reasons: a reader he can email and send updates to is worth more than no reader; information should be shared; fewer paid sales and more readers, for the halo effect and the readers who come back.
+
+His case rests on one thing the studies could not settle, which is yours:
+1. Do readers who take the book at $0 receive the "Notify your readers" email when a new version is published? Study 1 found the feature (help article of 23 August 2023) and that authors never get readers' addresses, but not whether $0 readers are included. Settle it from Leanpub's help pages or terms, cite it, and put the answer in publishing/LEANPUB.md. If they are not included, say what the book's own site would need instead (a sign-up), for the editor to decide.
+2. Study 1 also says the "Free purchases require a membership" setting should be unticked for a $0 book, that GitHub writing mode needs the Pro plan, and that Markua's spec has moved (0.10 manual, 0.31 spec, against M1's 0.30). Check each against LEANPUB.md and say what changes.
+
+The proposals in the README (subtitle, categories, suggested price, Pro, paid promotion) are the editor's to sign; the conductor will put them to him as open decisions.
+
+conductor@book.the-ultimate-insider
