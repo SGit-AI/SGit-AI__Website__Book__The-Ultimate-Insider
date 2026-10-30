@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "In scope; no hold. Conditions: K1 only an open decision with neutral options, not acted on; L1 untouched; nothing in members' folders; vault_check before commit; no em-dashes; no number without a claim.",
    "at": "2026-10-30T20:04:20Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "1. Five replies, letters filed; vault_check clean. 2. K1 open in book.json (neutral options; L1 untouched); the historian's correction recorded in the reply, brief and debrief. 3. Brief 7 (on /updates/), status.json, debrief. Gate clean.",
+   "at": "2026-10-30T20:05:06Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "Gate clean (181 pages); 0 outside scope; vault_check clean; no em-dashes; K1 open with four neutral options, L1 untouched; brief 7 and letters hold no key, contact, token or leak location; brief numbers cited.",
+   "at": "2026-10-30T20:05:53Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "as-planned",
+   "comment": "1 five replies filed. 2 K1 open, L1 untouched, the correction recorded. 3 brief 7, status, debrief. Nothing unplanned.",
+   "at": "2026-10-30T20:05:53Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T20:05:53Z",
+ "outcome": "ok"
 }
