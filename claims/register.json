@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-10-30T14:45:00Z",
+ "as_of": "2026-10-30T16:45:00Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -711,7 +711,7 @@
     "evidence": "evidence/claims/claims.json at 298be4e"
    },
    "method": "claims.json parsed and counted by grade, holds and kind; ids unique (320)",
-   "note": "The README's tables agree with the file. Two in three claims hold (210 of 320); 55 hold only in part. Grades are the talk's researcher's (evidence/METHOD.md), not re-graded here. The register was built at 18:20, 40 minutes before the talk; its last commit is d7df71a (18:23).",
+   "note": "The README's tables agree with the file. Two in three claims hold (210 of 320); 55 hold only in part. Grades are the talk's researcher's (evidence/METHOD.md), not re-graded here. The register was built at 18:20, 40 minutes before the talk; its last commit is d7df71a (18:23). Derived, 30 October 16:40: 210 of 320 held whole, 65.6%, so chapter 5's 'two in three' holds as a rounding (two in three is 66.7%).",
    "command": "git show 298be4e:evidence/claims/claims.json | python3 -c \"import json,sys,collections;c=json.load(sys.stdin)['claims'];print(len(c),collections.Counter(x['grade'] for x in c),collections.Counter(x['holds'] for x in c))\""
   },
   {
@@ -1606,6 +1606,123 @@
    "method": "the talk researcher's per-commit count, read; this register does not reopen the vault",
    "command": "git show 298be4e:evidence/updates/2026-10-29__the-vault-history-checked.md | sed -n 7,16p; git log -1 --format='%h %ci %s' aa7a3eb",
    "note": "At the level the book uses it, as the handover asks: that values reached a pushed, public history and when, never the values, the vault's commits or how to reach them. Contradicts 'caught before its commit' where a chapter says so (form tokens went out again at 05:23). Whether the history was replaced was the editor's decision D12; its state at 19:00 is not checked here. Registered at the conductor's letter 006 part 2 (card researcher-05), 30 October 2026, the researcher's 14:32 wake."
+  },
+  {
+   "id": "C069",
+   "claim": "How long the talk ran, from the transcript",
+   "cited_in": [
+    "comms/mail/mailroom/researcher/conductor__006-numbers-to-register-rc1.eml"
+   ],
+   "value": {
+    "header": "'over about 87 minutes' (content/articles/the-talk-as-given.md at a9c0b49)",
+    "passages": 102,
+    "by": {
+     "editor": 83,
+     "room": 18,
+     "host": 1
+    },
+    "words": 12367,
+    "first_passage": "0:05 (the host)",
+    "editor_from": "1:21",
+    "last_passage_starts": "1:27:10",
+    "room_from": "35:23, then from 1:05:54; questions came during the talk as well as after"
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "a9c0b49",
+    "evidence": "team/conductor/talk-record/transcript.json; content/articles/the-talk-as-given.md"
+   },
+   "method": "timestamps read from the transcript; passages and words counted",
+   "command": "git show a9c0b49:team/conductor/talk-record/transcript.json | python3 -c \"import json,sys,collections;P=json.load(sys.stdin);print(len(P),P[0]['t'],P[-1]['t'],collections.Counter(p['who'] for p in P),sum(len(p['text'].split()) for p in P))\"; git show a9c0b49:content/articles/the-talk-as-given.md | grep -o 'over about [0-9]* minutes'",
+   "note": "Material added after the day (a9c0b49, 30 October 01:24, the conductor of the talk's team, generated from the recording by admin/tools/talk_record.py): cite it so. The last passage starts at 1:27:10 and its end is not stamped, so 'about 87 minutes, with questions' is what the record supports; there is no clean split between talk and questions. Against C026: 74 min 55 s of planned beats and a 90-minute countdown. The front matter's 'minutes: 54' is a reading time, not the talk's. Registered at the conductor's letter 006 part 4, 30 October 2026, the researcher's 16:32 wake."
+  },
+  {
+   "id": "C070",
+   "claim": "Which beats reached the room: 46 of 58, and 8 of part 3's 20",
+   "cited_in": [
+    "comms/mail/mailroom/researcher/conductor__006-numbers-to-register-rc1.eml"
+   ],
+   "value": {
+    "beats_with_a_passage": 46,
+    "of": 58,
+    "by_part": {
+     "1": "22 of 22",
+     "2": "16 of 16",
+     "3": "8 of 20"
+    }
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "a9c0b49 and 298be4e",
+    "evidence": "transcript.json's beat on each passage; talk.json's part on each beat"
+   },
+   "method": "each transcript passage's beat matched to talk.json at 298be4e (every passage beat is a 298be4e id); beats counted by part",
+   "command": "git show 298be4e:src/static/talk/talk.json > /tmp/t.json; git show a9c0b49:team/conductor/talk-record/transcript.json > /tmp/tr.json; python3 -c \"import json;b=json.load(open('/tmp/t.json'))['beats'];s={p['beat'] for p in json.load(open('/tmp/tr.json'))};[print(k,sum(1 for x in b if x['part']==k),sum(1 for x in b if x['part']==k and x['id'] in s)) for k in (1,2,3)]\"",
+   "note": "Material added after the day (a9c0b49, 30 October 01:24, the conductor of the talk's team, generated from the recording by admin/tools/talk_record.py): cite it so. A beat 'reached the room' here means the transcript tool placed a passage on it: a placement from the recording, not a record of what was on screen. The article itself says 46 of the 58 slides. Registered at the conductor's letter 006 part 4, 30 October 2026, the researcher's 16:32 wake."
+  },
+  {
+   "id": "C071",
+   "claim": "The hourly slots: each member's minute past the hour",
+   "cited_in": [
+    "comms/mail/mailroom/researcher/conductor__006-numbers-to-register-rc1.eml"
+   ],
+   "value": {
+    "conductor": ":02",
+    "researcher": ":09",
+    "studio": ":12",
+    "deck": ":17",
+    "motion": ":24",
+    "ruv-sgit": ":32",
+    "designer": ":39",
+    "dev": ":47",
+    "storyteller": ":54"
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "298be4e",
+    "evidence": "team/conductor/schedule.json"
+   },
+   "method": "the runs read",
+   "command": "git show 298be4e:team/conductor/schedule.json | python3 -c \"import json,sys;[print(r['agent'],r['cron']) for r in json.load(sys.stdin)['runs']]\"",
+   "note": "Europe/London, every hour. When each slot began is in the wake records (C022), not here. Registered at the conductor's letter 006 part 4, 30 October 2026, the researcher's 16:32 wake."
+  },
+  {
+   "id": "C072",
+   "claim": "Policies agreed against still in draft, at the end of the day",
+   "cited_in": [
+    "comms/mail/mailroom/researcher/conductor__006-numbers-to-register-rc1.eml"
+   ],
+   "value": {
+    "agreed": 8,
+    "members_agreed": [
+     "conductor",
+     "deck",
+     "designer",
+     "dev",
+     "motion",
+     "researcher",
+     "ruv-sgit",
+     "storyteller"
+    ],
+    "draft": [
+     "studio"
+    ],
+    "proposed": [
+     "security (never staffed, C011)"
+    ]
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "298be4e",
+    "evidence": "team/*/policy.json, status field"
+   },
+   "method": "each policy.json's status read",
+   "command": "for f in $(git ls-tree -r --name-only 298be4e team | grep '/policy.json$'); do echo $f $(git show 298be4e:$f | python3 -c 'import json,sys;print(json.load(sys.stdin).get(\"status\"))'); done",
+   "note": "Eight of ten policies agreed; studio's still in draft, security's proposed and never staffed. Registered at the conductor's letter 006 part 4, 30 October 2026, the researcher's 16:32 wake."
   }
  ]
 }
