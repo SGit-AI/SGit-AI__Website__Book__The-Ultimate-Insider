@@ -3,7 +3,7 @@
 Reads paths.json (written by sample.js from the animation itself) and writes:
   long.svg     the strip: the plan as M01 draws it, twice, with every walk drawn as a trail and the time down the left
   pages.html   the experiment's one page, in the lab's format (lab/README.md), the strip spanning all twelve columns
-  page.html    a preview: lab.css, the header from experiment.proposed.json, then pages.html (printed to page.pdf)
+  page.html    a preview: lab.css, the header from experiment.json, then pages.html (printed to page.pdf)
 
 Usage: python3 -I tools/build.py   (from anywhere; paths are relative to this file)
 """
@@ -15,7 +15,7 @@ LAB  = HERE.parents[1]
 INK, MUTED, FILL, FILL2, ACCENT, PAPER = '#1f2933', '#5b6670', '#eef2f6', '#d5dce4', '#b0481a', '#ffffff'
 VARS = {'var(--bg2)': FILL, 'var(--bg)': PAPER, 'var(--panel)': PAPER, 'var(--line2)': MUTED, 'var(--gold)': FILL2}
 
-W, LEFT = 178, 74                                   # mm: the strip spans the twelve columns; the left 70 mm carry time and words
+W, LEFT = 178, 86                                   # mm: the strip spans the twelve columns; the left 82 mm carry time and words
 CROP = (70, 140, 1140, 572)                         # M01's canvas pixels: the building, its labels and the way in
 K = (W - LEFT) / CROP[2]                            # mm per canvas pixel
 PH = CROP[3] * K                                    # one plan's height in mm
@@ -104,14 +104,14 @@ def main():
     (HERE / 'long.svg').write_text(strip(d) + '\n')
     (HERE / 'pages.html').write_text(
         '<section class="page" data-claims="">\n <figure class="fig span12">\n'
-        '  <img src="long.svg" alt="M01 as one long image: the people\'s walks above, the agents\' below" style="width:178mm;display:block">\n'
+        '  <img src="{{dir}}/long.svg" alt="M01 as one long image: the people\'s walks above, the agents\' below" style="width:178mm;display:block">\n'
         '  <figcaption><b>See it in two looks: the short lines above stop in rooms; the red lines below do not.</b>'
         '<span class="src">M01 v1, src/static/motion/lab/the-building/v1/index.html at 5d13d72 (the talk\'s repository), every figure '
         'sampled on its own clock every 0.1 s by tools/sample.js</span></figcaption>\n </figure>\n</section>\n')
     spec = importlib.util.spec_from_file_location('build_lab', LAB / 'tools' / 'build_lab.py')
     bl = importlib.util.module_from_spec(spec); spec.loader.exec_module(bl)       # the designer's header and page, read only
-    meta = json.loads((HERE / 'experiment.proposed.json').read_text())
-    inner = re.search(r'<section class="page"[^>]*>(.*)</section>', (HERE / 'pages.html').read_text(), re.S).group(1)
+    meta = json.loads((HERE / 'experiment.json').read_text())
+    inner = re.search(r'<section class="page"[^>]*>(.*)</section>', (HERE / 'pages.html').read_text(), re.S).group(1).replace('{{dir}}', '.')   # the lab build sets {{dir}}
     css = (LAB / 'tools' / 'lab.css').read_text()
     (HERE / 'page.html').write_text(f'<!doctype html><html lang="en-GB"><head><meta charset="utf-8"><title>{html.escape(meta["title"])}</title>'
                                     f'<style>{css}</style></head><body>{bl.page(bl.header(meta) + inner, meta["id"])}</body></html>\n')

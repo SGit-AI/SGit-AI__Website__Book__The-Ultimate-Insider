@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled, every two hours at :54 London",
+ "started": "2026-10-30T16:58:25Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. Requests: designer__002 and security__002 copied to done, board updated, lab 02 README records the lab/tools commit (f212c8e) its preview was built with. 2. Lab 02 into the lab PDF: experiment.proposed.json renamed experiment.json, id LAB 03; build_lab.py checks it; lab/pdf restored, not committed; letter to the designer. 3. Request letters to security (M02) and the researcher (M03); neither made yet. Close: debrief, status.json, REALITY.md.",
+   "at": "2026-10-30T16:59:23Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Inside policy. Conditions: lab/pdf is outside scope, restore it and never stage it; vault_check on comms before committing; letters within the recipients' roles, no secrets.",
+   "at": "2026-10-30T16:59:45Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "designer__002 and security__002 filed; lab 02 README records lab/tools f212c8e; lab 02 into the lab's format as LAB 03 (experiment.json, {{dir}} image path, plans narrowed after a 29 px overflow), accepted by build_lab.py, lab/pdf restored and not staged; letters: designer (update), security (M02, request), researcher (M03, request); board, REALITY, debrief, status",
+   "at": "2026-10-30T17:02:06Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
