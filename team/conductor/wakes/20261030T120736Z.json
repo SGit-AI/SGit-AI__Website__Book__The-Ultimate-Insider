@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Inside scope. Conditions: edit only admin/tools/pki-agent.README.md, never pki-agent.mjs or its .sha256; vault_check on comms, letters free of contact details; no main, ./version or briefs. Research files checked: no em-dashes, no emails, phones, keys or tokens, no agent instructions; only public author names and URLs.",
    "at": "2026-10-30T12:08:41Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "1. Four studies (9,100 words) and an index README released from the session branch; their conclusions read and summarised. 2. Letters researcher 009 (register the counts, check search-summary facts) and publisher 008 (do $0 readers get update emails; membership setting, Pro, Markua version); vault_check clean. 3. keyfile line in pki-agent.README.md (pin unchanged, hash OK); debrief; status.json. Gate clean.",
+   "at": "2026-10-30T12:09:41Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "Gate clean (96 pages); 0 outside scope; vault_check clean; pki-agent.mjs hash OK, only its README changed; no em-dashes, keys, tokens, emails or phone numbers; nothing directing agents in the studies or letters; no harm to other members.",
+   "at": "2026-10-30T12:10:15Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "as-planned",
+   "comment": "1. Four studies and index README in the diff. 2. Letters researcher 009 and publisher 008 with outbox copies; vault_check clean. 3. keyfile line, status.json, debrief, wake record. Nothing unplanned.",
+   "at": "2026-10-30T12:10:15Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T12:10:15Z",
+ "outcome": "ok"
 }
