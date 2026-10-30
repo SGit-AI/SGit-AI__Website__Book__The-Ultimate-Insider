@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "publisher",
- "as_of": "2026-10-30T11:10:00Z",
- "round": 8,
- "state": "RC1 moved into manuscript/ on my branch (217 pages, 42 images, 58,580 words); not released to dev until the conductor copies the images in the site build (asked, with the patch); image build changes, L1, L2 and M1 in publishing/ released",
+ "as_of": "2026-10-30T13:38:00Z",
+ "round": 9,
+ "state": "handover adopted; the current RC1 (18 files, 58 images) released into manuscript/ on dev, 259 pages; next the Markua pre-pandoc step",
  "done": [
   {
    "what": "session key published: team/publisher/key.json, key.png, sessions/session_01Kw9UwDVeRbKJZUWiRoRrHK/",
@@ -64,20 +64,36 @@
   {
    "what": "letters 002 to 005 taken; a request (build.py) and a reply (reviews, voice, Markua plan) to the conductor; board issues 003 to 005",
    "when": "2026-10-30T11:06Z"
+  },
+  {
+   "what": "second account: session key sha256:38b052cb21de1bb4 published (team/publisher/key.json, key.png, sessions/session_01Kw9UwBKgLvosZHuWWWX8wY/); the first session marked superseded until 2026-10-30T13:03:01Z",
+   "when": "2026-10-30T13:03Z"
+  },
+  {
+   "what": "own scheduled task trig_01F7F7AipdKEhWgbxEj3YVja, CRON_TZ=Europe/London 47 */2 * * *, into this session, prompt word for word from schedule.json; the first account's trig_01D2wnhQDySKsG8ZL9XLmNsW stays paused there",
+   "when": "2026-10-30T13:16Z"
+  },
+  {
+   "what": "the current RC1 into manuscript/ and released to dev: 18 numbered files in Book.txt, about-this-edition.md removed, resources/images/ with the 16 maps; gate clean, 259 pages, 69,358 words; board 005 done; reply publisher__004 to the conductor",
+   "when": "2026-10-30T13:35Z"
   }
  ],
  "next": [
   {
-   "what": "release RC1 to dev once the conductor's build.py fix is on dev",
-   "why": "CI builds the RC1 PDF and EPUB for everyone"
+   "what": "the Markua pre-pandoc step in publishing/build_book.py, the call-outs as asides",
+   "why": "handover item 3, M1, board 004"
   },
   {
-   "what": "review RC1 in my lane (print, EPUB, Markua, the editor's voice), letters with file and line",
-   "why": "conductor__002, __003"
+   "what": "the 14 drafted cards in team/conductor/rc1/annotations/publisher.json: adopt, change or withdraw, outside facts checked first",
+   "why": "handover item 4"
   },
   {
-   "what": "the Markua pre-pandoc step in build_book.py",
-   "why": "M1"
+   "what": "letters 008 and 009: do $0 readers receive each new version; membership setting, Pro for GitHub mode, Markua 0.31; build size against Leanpub and KDP limits",
+   "why": "the conductor's letters, LEANPUB.md"
+  },
+  {
+   "what": "the RC1 review in my lane",
+   "why": "board 003"
   }
  ],
  "asks": [
@@ -87,17 +103,18 @@
   },
   {
    "to": "conductor",
-   "what": "copy manuscript/resources into the site build, and the old about-this-edition link on admin/versions.html",
-   "where": "comms/mail/mailroom/conductor/publisher__002-rc1-needs-build-py.eml"
+   "what": "record the publisher's new session and key in sessions-register.json",
+   "where": "comms/mail/mailroom/conductor/publisher__004-rc1-released-and-takeover.eml"
   }
  ],
- "session": "session_01Kw9UwDVeRbKJZUWiRoRrHK",
+ "session": "session_01Kw9UwBKgLvosZHuWWWX8wY",
  "task": {
-  "id": "trig_01D2wnhQDySKsG8ZL9XLmNsW",
-  "cron": "CRON_TZ=Europe/London 47 * * * *",
+  "id": "trig_01F7F7AipdKEhWgbxEj3YVja",
+  "cron": "CRON_TZ=Europe/London 47 */2 * * *",
   "prompt": "word for word from team/conductor/schedule.json, runs, publisher",
-  "created": "2026-10-30T01:42:07Z",
-  "by": "this session, at the editor's word in this session"
+  "created": "2026-10-30T13:16:38Z",
+  "by": "this session, at the editor's word in this session",
+  "previous": "trig_01D2wnhQDySKsG8ZL9XLmNsW (first account, paused, not deleted)"
  },
- "requests": "taken: conductor__002 to 005 (review, voice, Markua, RC1); 005 done on my side, waiting on the conductor's build.py"
+ "requests": "taken: conductor__002 to 011; 005 and 006 done (RC1 released); 008 and 009 next"
 }

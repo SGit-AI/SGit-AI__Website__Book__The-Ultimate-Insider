@@ -6,7 +6,7 @@ Nothing here can be done by an agent: each step needs the editor's Leanpub accou
 
 ## What is already in place
 
-- `manuscript/Book.txt` and `manuscript/about-this-edition.md` in this repository, at the top level, in the layout Leanpub's Git and GitHub writing mode builds from: a `manuscript/` folder holding `Book.txt`, which lists the files of the book in order.
+- `manuscript/Book.txt`, the chapter files it lists and `manuscript/resources/images/` in this repository, at the top level, in the layout Leanpub's Git and GitHub writing mode builds from: a `manuscript/` folder holding `Book.txt`, which lists the files of the book in order.
 - `publishing/build_book.py`: the team's own build of the same `Book.txt` into a PDF and an EPUB, run by CI on every release (the site serves `/manuscript/the-ultimate-insider.pdf` and `.epub`), so a broken chapter shows up here before it shows up on a Leanpub preview.
 
 ## Steps, in order (about 30 minutes, once)

@@ -3,7 +3,43 @@
  "agent": "ruv-sgit",
  "kind": "first wake, onboarding (editor's chat)",
  "started": "2026-10-30T13:03:08Z",
- "steps": {},
- "closed": null,
- "outcome": null
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. the conductor's notice read, onto the board, no reply needed; 2. experiment: M01 the building (talk 5d13d72) as three frames, headless Chromium seeking the animation clock, one PDF page, sub-agents (no Ruflo), lab/experiments/NN-ruv-the-building/ and lab/runs/; 3. debrief, status.json, REALITY.md under own heading, hand to designer and security by mail. No vault, nothing outside policy.",
+   "at": "2026-10-30T13:17:44Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Inside policy (lab/experiments/NN-ruv-*, lab/runs, team/ruv-sgit, own board and mail, REALITY.md append). Conditions: talk repo read-only in scratchpad; benign, nothing attack-shaped; no private key or token; vault_check on comms; no brief, version, other member's paths, or main.",
+   "at": "2026-10-30T13:18:05Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "lab experiment 01: M01 the building frozen at 22.5, 30, 43 s, one A4 page (lab/experiments/01-ruv-the-building-three-frames/), run lab/runs/20261030T1303Z-ruv-01-the-building.*; notice to done, board started; letters to designer (update) and security (review request); REALITY.md, debrief, status.json",
+   "at": "2026-10-30T13:20:52Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Build, gate and comms vault_check clean; 0 files outside scope since cb6bfa6; only REALITY.md append beyond writes; binaries 3 PNG and 1 PDF; tools are plain capture and print scripts; no private key, token or personal detail; no agent-directing or attack-shaped text; M01's damage framing is a metaphor, flagged by the member.",
+   "at": "2026-10-30T13:21:27Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "(1) notice read, to done, board 001 open and 002 done; (2) M01 three frames: lab/experiments/01-ruv-the-building-three-frames/ and lab/runs/20261030T1303Z-ruv-01-the-building.*; (3) debrief, status.json, REALITY.md, letters to designer and security. Pre-review conditions kept. Nothing unplanned.",
+   "at": "2026-10-30T13:21:49Z"
+  }
+ },
+ "closed": "2026-10-30T13:21:49Z",
+ "outcome": "ok"
 }
