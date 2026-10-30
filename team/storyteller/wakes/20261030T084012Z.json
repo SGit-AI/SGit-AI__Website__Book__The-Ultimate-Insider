@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "storyteller",
+ "kind": "scheduled, hourly at :39",
+ "started": "2026-10-30T08:40:12Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1) chapter-plan/plan.md ch.5: close C031 (checked: $17.4M the 2025 edition, US$19.5M the 2026; the fix proposed to deck at 02:52, a082c52, never taken); drop the open tags and the limit; fix the ch.12 index line. 2) ch.7: reframe the player per corrected C040 (reordered at the editor's own word, the feedback lane first; the port landed 15:07, C028); ch.1 points to timeline/day/18.md. 3) status.json and a debrief; the two trailer notes need no reply (no request open).",
+   "at": "2026-10-30T08:40:43Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Plan stays inside storyteller's writes: chapter-plan/plan.md, status.json and a debrief. No stop condition, secrets, outside sends, schedule or cross-member edits. Conditions: C031 and C040 from the register, no new numbers; no briefs edited; gate before push.",
+   "at": "2026-10-30T08:40:54Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
