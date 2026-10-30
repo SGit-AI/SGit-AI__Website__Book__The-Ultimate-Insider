@@ -1,22 +1,45 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "historian",
- "as_of": "2026-10-30T01:45:00Z",
+ "as_of": "2026-10-30T02:05:00Z",
  "round": 0,
- "state": "staffed: first wake (editor's request), session session_01Kw9UwBrRHk6F5eoPjZLn35; key published",
+ "state": "ok: first wake done; method written (timeline/README.md); timeline entries start at the next wake",
  "done": [
   {
    "what": "The session key made and published: key.json, key.png and the session folder",
    "evidence": "team/historian/sessions/session_01Kw9UwBrRHk6F5eoPjZLn35/"
+  },
+  {
+   "what": "The hourly scheduled task created into this session, cron and prompt from team/conductor/schedule.json",
+   "evidence": "trig_016Shar3cqBT4mwmFwuQHhCD"
+  },
+  {
+   "what": "The timeline's method, round 0: sources, clock, entry format, three spans, turning-point test and ten candidates",
+   "evidence": "timeline/README.md"
   }
  ],
  "next": [
   {
-   "what": "The timeline of 29 October with the turning points marked, by the end of round 1 (Friday night): `timeline/README.md` with the method in round 0.",
-   "why": "its first task, from the brief"
+   "what": "Round 1: the day from 00:16, three hours of the record per wake, in timeline/day/HH.md, read at 298be4e",
+   "why": "the first task, from ROLE.md"
+  },
+  {
+   "what": "timeline/unmerged.md: 39df303 and 93f4706 (18:48, branch claude/dreamy-mayer-dwprr2), before 19:00 but outside the history of 298be4e",
+   "why": "found in round 0; does not move S6's end of the day"
+  },
+  {
+   "what": "A request to the researcher for the counts the timeline will cite (commits per hour, wakes per member)",
+   "why": "every number through the register"
   }
  ],
  "asks": [],
  "session": "session_01Kw9UwBrRHk6F5eoPjZLn35",
- "key": "sha256:85ffd0907275f5eb"
+ "key": "sha256:85ffd0907275f5eb",
+ "task": {
+  "id": "trig_016Shar3cqBT4mwmFwuQHhCD",
+  "cron": "CRON_TZ=Europe/London 17 * * * *",
+  "session": "session_01Kw9UwBrRHk6F5eoPjZLn35",
+  "created": "2026-10-30T01:41:17Z",
+  "by": "historian, at the editor's word in this session; prompt word for word from team/conductor/schedule.json"
+ }
 }

@@ -1,15 +1,48 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-10-30T01:30:00Z",
- "round": 0,
- "state": "proposed: not staffed yet; the editor starts its session with the prompt in team/conductor/ONBOARDING.md",
- "done": [],
- "next": [
+ "as_of": "2026-10-30T02:10:00Z",
+ "round": 1,
+ "state": "working: the numbers in the briefs registered (21 claims: 17 checked, 2 corrected, 2 open); next the talk's own claims",
+ "done": [
   {
-   "what": "The numbers in the briefs, checked and registered, by the end of round 1 (Friday night).",
-   "why": "its first task, from the brief"
+   "what": "session key made and published (sha256:4e0287f6640d61f0)",
+   "when": "2026-10-30T01:40:57Z"
+  },
+  {
+   "what": "scheduled task trig_0187JjB8uJUHxvgeCoAGXoKj created into this session, hourly at :32 London",
+   "when": "2026-10-30T01:41:21Z"
+  },
+  {
+   "what": "claims/register.json: the numbers in the briefs checked against the talk's log at 298be4e; corrections in BRIEF-CORRECTIONS.md",
+   "when": "2026-10-30T02:10:00Z"
   }
  ],
- "asks": []
+ "next": [
+  {
+   "what": "The talk's own claims as its researcher left them (evidence/claims/ at 298be4e), checked and registered",
+   "why": "ROLE.md responsibility 3"
+  },
+  {
+   "what": "The comparison set, with the market stream",
+   "why": "ROLE.md responsibility 5, once the market stream is staffed"
+  }
+ ],
+ "asks": [
+  {
+   "to": "editor",
+   "what": "C011: 'a ten-agent team' in the brief; the record has nine staffed agents (security never staffed). Keep ten, or 'nine agents and the editor'?"
+  },
+  {
+   "to": "historian",
+   "what": "C018: the lock times of 29 October (part 1, parts 2 and 3, 19:30), so 'twenty minutes before the lock' can be settled; and C006: the designer's commit 81 s after the hold, in the timeline"
+  }
+ ],
+ "task": {
+  "id": "trig_0187JjB8uJUHxvgeCoAGXoKj",
+  "cron": "CRON_TZ=Europe/London 32 * * * *",
+  "session": "session_01Kw9UwBta1dcP9qBJUURLPZ",
+  "created": "2026-10-30T01:41:21Z",
+  "prompt": "team/conductor/schedule.json, runs entry for researcher, word for word"
+ }
 }
