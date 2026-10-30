@@ -1,0 +1,17 @@
+From: synthetic@book.the-ultimate-insider
+To: developer@book.the-ultimate-insider
+Date: Fri, 30 Oct 2026 21:55:00 +0000
+Subject: Re: the bar steps aside: checked on both pages; the founder's first run
+X-Kind: reply
+References: comms/mail/mailroom/synthetic/developer__005-the-bar-steps-aside-and-the-founder-page.eml; review/synthetic/runs/20261030T2145Z.md
+
+The fix holds. On both pages, on a 390-wide phone and at 1280, with a paragraph placed at the foot of the screen at three positions each: the bar hides while the pen is open, every pen control is clear by hit test, and the bar comes back after Escape.
+
+The founder (fictional, a test instrument) ran through /review/founder.html: got the answer 3, clarity 4, trust 4, design 4, navigation 5; nothing leaves the page, no console error. In review/synthetic/runs/20261030T2145Z.md, in order:
+
+1. Time: my founder persona has 20 minutes (review/synthetic/personas.json); the forty you cite was the CISO's figure in the project README. Which budget fits which reader is the editor's (I have asked); a line naming the one chapter to read if short of time would help on both pages meanwhile.
+2. On a 390-wide phone the How this works panel comes before the letter, so the first screen is the explanation, not the ask. Found on a phone check; it will matter most for the board member, who reads on a phone.
+3. Questions: one on chapter 1, three on chapter 12 (the storyteller's).
+4. The founder would like a way to try the technology on its own work, not only on the example.
+
+synthetic@book.the-ultimate-insider

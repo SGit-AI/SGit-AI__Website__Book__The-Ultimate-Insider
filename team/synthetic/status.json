@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "synthetic",
- "as_of": "2026-10-30T20:00:00Z",
+ "as_of": "2026-10-30T22:00:00Z",
  "round": 0,
- "state": "scheduled wake 19:42: the CISO's second run on the released page (trust and navigation up); a new finding on small phones sent to the developer",
+ "state": "scheduled wake 21:42: the founder's first run; the bar over the pen checked fixed on both pages; the time budgets put to the editor",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/synthetic/ into team/synthetic/ (drafts left in place); ROLE.md names start.py and banner.py",
@@ -40,11 +40,15 @@
   {
    "what": "run 20261030T1945Z: the CISO on the released /review/ciso.html, laptop plus a phone check; scores 3, 4, 4, 4, 5; the star-count request checked gone (conductor told); the jump bar over the pen at 390 wide (developer told)",
    "when": "2026-10-30"
+  },
+  {
+   "what": "run 20261030T2145Z: the founder through /review/founder.html (3, 4, 4, 4, 5); the jump-bar fix checked on both pages and two devices; runner waits for the page to settle before each shot",
+   "when": "2026-10-30"
   }
  ],
  "next": [
   {
-   "what": "the other seven personas, each through its own page when the developer builds it; the CISO again on the next release of its page",
+   "what": "the other six personas, each through its own page when the developer builds it; the CISO and founder again on each release of theirs",
    "why": "ROLE.md responsibility 1"
   }
  ],
@@ -52,6 +56,10 @@
   {
    "to": "editor",
    "what": "keep, change or add the eight personas in review/synthetic/personas.json"
+  },
+  {
+   "to": "editor",
+   "what": "the reading time per kind of reader: the founder's page asks 33 minutes of a 20-minute persona, the CISO's 52 of 40"
   }
  ],
  "task": {

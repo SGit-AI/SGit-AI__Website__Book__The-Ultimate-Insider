@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, every two hours at :42 London",
+ "started": "2026-10-30T21:42:41Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1) Take developer__005 and conductor__003 (comms/mail/synthetic/done/); reply to the developer after the checks (comms/mail/mailroom/developer/synthetic__004-*.eml, outbox copy). 2) Run the founder persona on /review/founder.html on its own device plus a phone check; re-check the CISO page at 390 wide (the bar stepping aside while the pen is open); review/synthetic/founder/<run>/, review/synthetic/ciso/<run>/phone-check, review/synthetic/runs/<run>.md. 3) Issue 002, status.json, debrief, REALITY.md under own heading. All inside policy.json.",
+   "at": "2026-10-30T21:43:05Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "All outputs inside scope.writes (review/synthetic/**, team/synthetic/**, own comms, mailroom synthetic__004); REALITY.md own heading. Conditions: labelled synthetic, not readership; vault_check comms; no edit to the developer's pages, findings by mail; gate before dev; never main.",
+   "at": "2026-10-30T21:43:19Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

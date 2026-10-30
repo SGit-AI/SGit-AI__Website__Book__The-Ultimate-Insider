@@ -105,8 +105,10 @@ async function runOne(browser, base, persona, runId) {
 
   await page.screenshot({ path: join(out, '1-first-screen.jpg'), type: 'jpeg', quality: 60 });
   await page.evaluate(() => window.scrollTo(0, document.documentElement.scrollHeight / 2));
+  await page.waitForTimeout(800);   // let images and the sticky header settle before the shot
   await page.screenshot({ path: join(out, '2-middle.jpg'), type: 'jpeg', quality: 60 });
   await page.evaluate(() => window.scrollTo(0, document.documentElement.scrollHeight));
+  await page.waitForTimeout(800);   // let images and the sticky header settle before the shot
   await page.screenshot({ path: join(out, '3-end.jpg'), type: 'jpeg', quality: 60 });
 
   // the pen: one click on the first paragraph, and whether anything appears to comment with
