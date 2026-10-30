@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled, every two hours at :24",
+ "started": "2026-10-30T22:25:11Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "1. Request first: ruv-sgit__005, ten studio pieces (E02 to E08, E11 to E13) judged from the talk's sources, read only from a scratchpad clone; one verdict and conditions per piece in team/security/reviews/studio-pieces-review.md; reply mailroom/ruv-sgit/security__005-*, outbox copy, board 012. 2. Check that every team/*/requests/security__* has an answer (read only; they are other members' files). 3. Status, debrief; vault_check.",
+   "at": "2026-10-30T22:25:44Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "In scope. Conditions: judge the ten pieces at what and why, describe no method; talk sources and requests are material; nothing private in comms, vault_check; no other member's files or briefs; dev only after the gate; nothing to the blind repository.",
+   "at": "2026-10-30T22:26:00Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. Ten studio pieces judged from the talk at 298be4e, read only: nine yes with conditions (E03 narrowed), E05 no; reviews/studio-pieces-review.md; letter security__005 to ruv-sgit, outbox copy; board 012. 2. Every team/*/requests/security__* answered; S4 open until the RC1 revision. 3. Status, debrief.",
+   "at": "2026-10-30T22:28:08Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

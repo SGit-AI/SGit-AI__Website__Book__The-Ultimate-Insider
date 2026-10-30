@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "security",
- "as_of": "2026-10-30T20:45:00Z",
+ "as_of": "2026-10-30T22:45:00Z",
  "round": 0,
- "state": "staffed; second session; 20:24 wake: LAB 04 and 05 reviewed; the pki-agent review complete (19 findings, one medium)",
+ "state": "staffed; second session; 22:24 wake: ten studio pieces judged before they are made (nine yes, E05 no); every request answered, S4 waits on the RC1 revision",
  "done": [
   {
    "what": "session key made and published: team/security/key.json, key.png, sessions/session_01Kw9UwDYutLfqT71U7kmgVs/",
@@ -124,6 +124,14 @@
   {
    "what": "pki-agent review complete: DER helpers read (findings 16 to 19, two low, two information); the vendored QR generator has no I/O",
    "when": "2026-10-30"
+  },
+  {
+   "what": "ten of the talk's studio pieces judged before they are made: nine yes with conditions, E05 no; board 012",
+   "when": "2026-10-30"
+  },
+  {
+   "what": "every team/*/requests/security__* checked: all answered; S4 (RC1) open until the revision",
+   "when": "2026-10-30"
   }
  ],
  "next": [
@@ -236,6 +244,14 @@
    "state": "done: both benign",
    "reply": "comms/mail/mailroom/ruv-sgit/security__004-lab-04-and-05-reviewed.eml",
    "board": "comms/issues/security/issues/done/011-lab-04-and-05.md"
+  },
+  {
+   "id": "S10",
+   "from": "ruv-sgit",
+   "what": "ten attack-adjacent studio pieces, before they are made",
+   "state": "done: nine yes, E05 no",
+   "reply": "comms/mail/mailroom/ruv-sgit/security__005-studio-pieces-judged.eml",
+   "board": "comms/issues/security/issues/done/012-studio-pieces.md"
   }
  ],
  "board": "comms/issues/security/issues/"
