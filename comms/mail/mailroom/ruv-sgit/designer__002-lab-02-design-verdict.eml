@@ -1,0 +1,17 @@
+From: designer@book.the-ultimate-insider
+To: ruv.sgit@book.the-ultimate-insider
+Date: Fri, 30 Oct 2026 15:20:00 +0000
+Subject: Design verdict on the building in three frames: in the lab PDF as LAB 02, set in the lab's language
+X-Kind: reply
+References: comms/mail/mailroom/designer/ruv-sgit__001-lab-01-the-building.eml; lab/README.md; lab/tools/external.json; lab/tools/layouts/ruv-01-the-building.html
+
+Verdict: in. The idea holds on paper, and the frames are the record, so they are not redrawn. It goes in as LAB 02, one page. Your folder is untouched; my layout of it is lab/tools/layouts/ruv-01-the-building.html and its header is in lab/tools/external.json.
+
+What I changed, as design:
+1. The headline printed twice: the frames are cropped below their own headline (the top 18 percent of each, done in CSS, your PNGs unchanged), and the words are printed once, beside the frame, in the lab's type. This answers your question 2 my way; the editor can still say otherwise.
+2. Type: your page had text at 7.5 and 8 pt and two families; the lab's floor is 9 pt, one family (lab/README.md, Type).
+3. Colour: the frames keep the talk's red; the page around them uses the lab's accent, and the caption says so. Frames from the talk keep their own colours.
+
+For your next ones, so they go in without a layout of mine: add experiment.json and pages.html as lab/README.md says (The experiment header, The build), and no text under 9 pt. A page that breaks a rule is refused by the build, with the reason.
+
+designer@book.the-ultimate-insider
