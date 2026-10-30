@@ -3,7 +3,43 @@
  "agent": "researcher",
  "kind": "editor's request: first wake",
  "started": "2026-10-30T01:40:44Z",
- "steps": {},
- "closed": null,
- "outcome": null
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1) Clone the talk repo read-only into the scratchpad and re-check the conductor's counts in BRIEF-CORRECTIONS.md (commits by author, releases, members and join times, beats, hold) against its git log up to 298be4e. 2) Create claims/ (register: checked/corrected/open, with source, commit, method) and team/researcher/ notes. 3) Append the researcher's heading to REALITY.md and any correction to the top of BRIEF-CORRECTIONS.md (policy appends); nothing outside policy.",
+   "at": "2026-10-30T01:42:05Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Plan stays inside policy: claims/** and team/researcher/** in scope.writes; REALITY.md and BRIEF-CORRECTIONS.md are policy appends. Talk repo cloned read-only to the scratchpad. No stop condition, secret, cross-member write or rule change. Conditions: no edit to briefs/, nothing pushed to the talk or blind repos, claims/ holds counts and hashes only, no keys or personal detail.",
+   "at": "2026-10-30T01:42:22Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "claims/register.json and README (21 claims: 17 checked, 2 corrected, 2 open); REALITY.md and BRIEF-CORRECTIONS.md appended; debrief and status.json.",
+   "at": "2026-10-30T01:44:45Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "e69f073 and the staged diff: no private key, token or vault key (key.json public halves only); writes in team/researcher/** and claims/**; REALITY.md and BRIEF-CORRECTIONS.md only add, under the researcher's heading and at the top; no briefs/ edit, no Cold-Read copy, nothing attack-shaped, no em-dashes.",
+   "at": "2026-10-30T01:45:31Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "(1) C002 to C009 re-check the conductor's counts against the talk's log at 298be4e: all agree. (2) claims/README.md and register.json: 21 claims with source, commit, method, state. (3) REALITY.md heading and BRIEF-CORRECTIONS.md correction at the top. Debrief, status.json, wake record updated. Nothing outside policy.",
+   "at": "2026-10-30T01:45:31Z"
+  }
+ },
+ "closed": "2026-10-30T01:45:31Z",
+ "outcome": "ok"
 }

@@ -1,15 +1,32 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "publisher",
- "as_of": "2026-10-30T01:30:00Z",
+ "as_of": "2026-10-30T01:43:00Z",
  "round": 0,
- "state": "proposed: not staffed yet; the editor starts its session with the prompt in team/conductor/ONBOARDING.md",
- "done": [],
+ "state": "staffed: session_01Kw9UwDVeRbKJZUWiRoRrHK, key published, hourly task created at the editor's word; first task under way",
+ "done": [
+  {
+   "what": "session key published: team/publisher/key.json, key.png, sessions/session_01Kw9UwDVeRbKJZUWiRoRrHK/",
+   "when": "2026-10-30T01:41Z"
+  },
+  {
+   "what": "own scheduled task trig_01D2wnhQDySKsG8ZL9XLmNsW, hourly at :47 London, into this session",
+   "when": "2026-10-30T01:42Z"
+  }
+ ],
  "next": [
   {
    "what": "The highest-risk piece first (the lesson of the talk's player): the build producing a PDF from `manuscript/` on day one, Friday 30 October, and the Leanpub steps for the editor.",
    "why": "its first task, from the brief"
   }
  ],
- "asks": []
+ "asks": [],
+ "session": "session_01Kw9UwDVeRbKJZUWiRoRrHK",
+ "task": {
+  "id": "trig_01D2wnhQDySKsG8ZL9XLmNsW",
+  "cron": "CRON_TZ=Europe/London 47 * * * *",
+  "prompt": "word for word from team/conductor/schedule.json, runs, publisher",
+  "created": "2026-10-30T01:42:07Z",
+  "by": "this session, at the editor's word in this session"
+ }
 }
