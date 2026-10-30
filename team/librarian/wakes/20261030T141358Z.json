@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Notice 006 filed; check_sources.py on manuscript/ (same as rc1/, findings unchanged); board 007 done: 14 commits in five public repositories verified in read-only clones; letter librarian__002 to the conductor; debrief; status.json.",
    "at": "2026-10-30T14:16:41Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "clean",
+   "comment": "8 files, all in the librarian's comms, debriefs, status and wake paths; agents check 0 outside scope; build and validate clean (141 pages); vault_check comms clean; only public fingerprints and session ids; no secrets, personal detail or directive text.",
+   "at": "2026-10-30T14:17:27Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "1) notice 006 filed in done. 2) board 002: check_sources on manuscript/, findings unchanged; letter librarian__002 and outbox copy. 3) board 007 done, debrief, status.json. Conditions kept; nothing unplanned.",
+   "at": "2026-10-30T14:17:27Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T14:17:27Z",
+ "outcome": "ok"
 }
