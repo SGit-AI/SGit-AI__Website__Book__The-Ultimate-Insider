@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1) comms/ request answered, blocked on the editor (C10), policy.json untouched: team/storyteller/requests/conductor__comms-paths-reply.md. 2) The conductor's reply acted on, request closed; chapter-plan/ draft 3 (plan, README): C029 to C031 in chapter 5, C10 in chapter 9, timeline 03 to 05 in chapter 4. 3) status.json, debrief, REALITY.md own section. Commit cb4fa5b.",
    "at": "2026-10-30T03:41:54Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Build, validate and agents check pass (53 pages, 0 outside scope since 47e7764). Only team/storyteller/**, chapter-plan/** and REALITY.md touched; policy.json unchanged. No em-dashes, secrets, personal details, full model identifiers or directing text. C10 described only as what happened. Plan figures cite register ids.",
+   "at": "2026-10-30T03:42:17Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Item 1 done: comms/ paths not self-granted, reply filed (blocked on the editor, C10), policy.json not in cb4fa5b. Item 2 done: the conductor's reply acted on, request closed; plan.md and README.md draft 3 (C029 to C031 in ch5, C10 in ch9, timeline in ch4). Item 3 done: status.json, debrief, REALITY.md. Nothing unplanned.",
+   "at": "2026-10-30T03:42:17Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T03:42:17Z",
+ "outcome": "ok"
 }
