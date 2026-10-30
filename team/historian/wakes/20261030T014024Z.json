@@ -3,7 +3,43 @@
  "agent": "historian",
  "kind": "editor's request (first wake)",
  "started": "2026-10-30T01:40:24Z",
- "steps": {},
- "closed": null,
- "outcome": null
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. Requests: none (no requests/historian__*.md, no To-historian: trailers; vaults not yet created). 2. Clone the talk repo read-only into the scratchpad; write timeline/README.md with the method (sources to 298be4e, S6 day bounds 00:16 to before 19:00, after-19:00 apart). 3. Record in team/historian/ (status.json, debrief, wake record) and an append to REALITY.md under its own heading; all inside policy.json.",
+   "at": "2026-10-30T01:41:56Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside policy: timeline/**, team/historian/**, REALITY.md append under own heading. Talk clone in scratchpad only. No secrets, no other members' paths, briefs, blind repo or ./version. Conditions: no keys in output; REALITY.md only under own heading; no em-dashes; dev only, never main.",
+   "at": "2026-10-30T01:42:13Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "1. no requests. 2. talk repo cloned read-only to scratchpad; timeline/README.md written (method, round 0); found 39df303/93f4706 outside 298be4e's history. 3. status.json, debrief, REALITY.md append under own heading. Gate clean; agents.py check 0 outside scope.",
+   "at": "2026-10-30T01:44:03Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Only team/historian/**, timeline/README.md and a REALITY.md append under its own heading; public keys only, no PRIVATE block; no tokens, no em-dashes; Cold-Read named only as a rule; nothing attack-shaped; no other member's files; gate clean, 0 outside scope.",
+   "at": "2026-10-30T01:44:43Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "1 no requests; 2 talk repo cloned read-only, timeline/README.md with the method, S6 bounds, after-19:00 apart; 3 status.json, debrief, wake record, REALITY.md under own heading. Extra but harmless: round-1 next items and the unmerged-commits note.",
+   "at": "2026-10-30T01:44:43Z"
+  }
+ },
+ "closed": "2026-10-30T01:44:43Z",
+ "outcome": "ok"
 }
