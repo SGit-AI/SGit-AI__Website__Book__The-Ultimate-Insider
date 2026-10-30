@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "lab/README.md rules; lab/characters/ three drawings and rules; lab/tools/ build with 9 pt, overflow and page-count checks; LAB 01 (3 pages) printed to lab/pdf/ with SHA256SUMS, 4 pages with cover; status, debrief, REALITY.md under own heading.",
    "at": "2026-10-30T13:22:57Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "18 files in scope.writes plus the REALITY.md append; no comms/; build and validate clean; agents check 0 outside scope; no keys, tokens, personal details or em-dashes; build runs a local render only; the cast are team figures, not real people; nothing attack-shaped or directive.",
+   "at": "2026-10-30T13:23:48Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Items 1 to 3 done (c7a5ab4); pre-review conditions kept; unplanned but in scope: lab/characters/ (the cast, three SVGs and rules), noted in the debrief.",
+   "at": "2026-10-30T13:24:05Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T13:24:05Z",
+ "outcome": "ok"
 }
