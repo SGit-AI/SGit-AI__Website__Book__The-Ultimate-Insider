@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-10-30T13:30:00Z",
+ "as_of": "2026-10-30T14:45:00Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -151,7 +151,10 @@
    "cited_in": [
     "briefs/2026-10-30/3-source-map.md"
    ],
-   "value": 358,
+   "value": {
+    "total": 358,
+    "by_18:46:59": 356
+   },
    "state": "checked",
    "source": {
     "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
@@ -159,8 +162,8 @@
     "evidence": "rev-list since 15:00 UTC"
    },
    "method": "git rev-list --count --since=2026-10-29T15:00:00Z 298be4e",
-   "note": "Includes the 2 commits at 23:19; 356 by 18:46.",
-   "command": "git rev-list --count --since=2026-10-29T15:00:00Z 298be4e"
+   "note": "Includes the 2 commits at 23:19; 356 by 18:46. 30 October 14:40: the sub-count Appendix A prints, 356 by 18:46:59, rerun and added (card researcher-12).",
+   "command": "git rev-list --count --since=2026-10-29T15:00:00Z 298be4e; git rev-list --count --since=2026-10-29T15:00:00Z --until=2026-10-29T18:46:59Z 298be4e"
   },
   {
    "id": "C009",
@@ -1022,7 +1025,8 @@
    ],
    "value": {
     "talk_said": "510 commits and 164 releases by five this afternoon (talk.json at 298be4e)",
-    "rev_list_by_17:02": 625
+    "rev_list_by_17:02": 625,
+    "510_reproduced": "510 non-merge commits by 17:02:26 (CI's release commits included), 164 of them by GitHub Actions: the beat's two figures, the releases counted twice"
    },
    "state": "checked",
    "source": {
@@ -1031,8 +1035,8 @@
     "evidence": "src/static/talk/talk.json"
    },
    "method": "the talk's words read from talk.json; the full repository count by 17:02 from rev-list",
-   "command": "git show 298be4e:src/static/talk/talk.json | grep -oE '.{40}510 commits.{40}'; git rev-list --count --until=2026-10-29T17:02:59Z 298be4e",
-   "note": "The 510 and the 405 the Cold-Read critic quotes are the talk's own figures, counted differently from this register (git rev-list gives 625 commits by 17:02); quote them as what the talk said, never as the day's count. The 405 is not yet traced to its beat."
+   "command": "git show 298be4e:src/static/talk/talk.json | grep -oE '.{40}510 commits.{40}'; git rev-list --count --until=2026-10-29T17:02:59Z 298be4e; git rev-list --count --no-merges --until=2026-10-29T17:02:26Z 298be4e; git rev-list --count --author='GitHub Actions' --until=2026-10-29T17:02:26Z 298be4e",
+   "note": "The 510 and the 405 the Cold-Read critic quotes are the talk's own figures, counted differently from this register (git rev-list gives 625 commits by 17:02); quote them as what the talk said, never as the day's count. The 405 is traced in C064. 30 October 14:40: the 510 reproduced exactly as non-merge commits by 17:02:26, which include the 164 release commits the same line counts as releases."
   },
   {
    "id": "C043",
@@ -1489,6 +1493,119 @@
    "method": "git grep at 298be4e, case-insensitive for Memory-FS and memory_fs",
    "command": "git grep -l 'Type_Safe' 298be4e -- '*.py' | wc -l; git grep -il 'memory-fs\\|memory_fs' 298be4e | wc -l; git grep -n 'OSBot-Utils' 298be4e -- content/articles/introducing-this-site.md",
    "note": "Supports 11b:118, 132 and 140 ('two layers down, not in it'). Registered at the conductor's letter 006, read 30 October 2026, about 13:21 UTC, by the researcher's second session."
+  },
+  {
+   "id": "C064",
+   "claim": "The talk's second count: 405 commits as of 18:21, in the mini deck the prelude beat showed",
+   "cited_in": [
+    "team/conductor/rc1/annotations/researcher.json"
+   ],
+   "value": {
+    "talk_said": "'154 wakes, 405 commits, 267 letters and 15 studio pieces, as of 18:21 UTC' (content/articles/how-this-talk-was-built.md:8, last changed 0ecddca at 18:21:58)",
+    "beat": "talk.json beats[2], 'prelude', embeds that article; beats[1], 'Meet the team', says 510",
+    "not_reproduced_by": {
+     "@-prefix, non-merge, by 18:21": 375,
+     "@-prefix or Agent: trailer, by 18:21:58": 388,
+     "any prefix, non-merge, by 18:21:58": 410,
+     "Claude non-merge, by 18:21:58": 422
+    }
+   },
+   "state": "open",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "298be4e",
+    "evidence": "content/articles/how-this-talk-was-built.md; src/static/talk/talk.json"
+   },
+   "method": "the figure read where the beat shows it; four definitions tried against the log",
+   "command": "git show 298be4e:content/articles/how-this-talk-was-built.md | sed -n 8p; git show 298be4e:src/static/talk/talk.json | python3 -c \"import json,sys;b=json.load(sys.stdin)['beats'];print(b[1]['id'],b[2]['id'],b[2]['src'])\"",
+   "note": "Quote 405 as the talk's own figure with its time. Chapter 11:27 says it 'counted the commits each member marked as its own'; no definition tried gives 405 (the nearest, the house way of agents.py, gives 388), so that explanation is not yet supported: say the two counts used different, unstated definitions. Registered at the conductor's letter 006 part 2 (card researcher-01), 30 October 2026, the researcher's 14:32 wake."
+  },
+  {
+   "id": "C065",
+   "claim": "The hold's gap: the designer's work commit 82 seconds after the hold",
+   "cited_in": [
+    "team/conductor/rc1/annotations/researcher.json"
+   ],
+   "value": {
+    "hold": "867f8c2 18:44:13",
+    "designer": "88b8f00 18:45:35",
+    "gap_seconds": 82
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "298be4e",
+    "evidence": "867f8c2, 88b8f00"
+   },
+   "method": "the two commit times subtracted",
+   "command": "git log -1 --format='%h %ci' 867f8c2; git log -1 --format='%h %ci' 88b8f00",
+   "note": "The Cold-Read security member's count agrees; it was a wake opened before the hold, not a wake that ignored it (C005). Registered at the conductor's letter 006 part 2 (card researcher-01), 30 October 2026, the researcher's 14:32 wake."
+  },
+  {
+   "id": "C066",
+   "claim": "The conductor's commits by prefix: 99 with '@conductor:', 105 with or without the @, merges excluded",
+   "cited_in": [
+    "team/conductor/rc1/annotations/researcher.json"
+   ],
+   "value": {
+    "@conductor:": 99,
+    "@?conductor:": 105,
+    "register_C014": 106
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "298be4e",
+    "evidence": "commit subjects"
+   },
+   "method": "non-merge subjects matched by prefix",
+   "command": "git log 298be4e --no-merges --format=%s | grep -c '^@conductor:'; git log 298be4e --no-merges --format=%s | grep -cE '^@?conductor:'",
+   "note": "The Cold-Read analyst's two counts reproduce; C014's 106 adds 97b98d9 ('Conductor joins'). Chapter 11:72 is right. Registered at the conductor's letter 006 part 2 (card researcher-01), 30 October 2026, the researcher's 14:32 wake."
+  },
+  {
+   "id": "C067",
+   "claim": "Twenty-four minutes from the empty repository to the first site commit",
+   "cited_in": [
+    "team/conductor/rc1/annotations/researcher.json"
+   ],
+   "value": {
+    "empty_repository": "2e4b1f4 00:16:23",
+    "first_site_commit": "1f7c633 00:40:50 (@dev: first pass of the site and the talk)",
+    "gap": "24 min 27 s"
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "298be4e",
+    "evidence": "2e4b1f4, 1f7c633"
+   },
+   "method": "two commit times subtracted",
+   "command": "git log 298be4e --reverse --format='%h %ci %s' | head -2",
+   "note": "A gap between commits, not a build time: the record does not say when dev's session started, and it may have worked before the repository existed. Chapter 2 should say 'by the first commit after the empty repository'. Registered at the conductor's letter 006 part 2 (card researcher-08), 30 October 2026, the researcher's 14:32 wake."
+  },
+  {
+   "id": "C068",
+   "claim": "Values reached the evidence vault's pushed history before they were redacted",
+   "cited_in": [
+    "team/conductor/rc1/annotations/researcher.json"
+   ],
+   "value": {
+    "what": "cookie values (anonymous, set on the researcher's fetcher), hex-shaped page tokens, anti-forgery form tokens: none a key, an account credential, a vault key or a personal detail",
+    "first_pushed": "02:22",
+    "cookie_values_until": "redacted in the 04:25 push",
+    "hex_tokens_until": "redacted in the 03:18 push",
+    "form_tokens_until": "redacted in the 06:23 push; still present in the 05:23 push",
+    "history": "every earlier commit stays readable with the published read key"
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "298be4e",
+    "evidence": "evidence/updates/2026-10-29__the-vault-history-checked.md, added aa7a3eb at 07:18:05"
+   },
+   "method": "the talk researcher's per-commit count, read; this register does not reopen the vault",
+   "command": "git show 298be4e:evidence/updates/2026-10-29__the-vault-history-checked.md | sed -n 7,16p; git log -1 --format='%h %ci %s' aa7a3eb",
+   "note": "At the level the book uses it, as the handover asks: that values reached a pushed, public history and when, never the values, the vault's commits or how to reach them. Contradicts 'caught before its commit' where a chapter says so (form tokens went out again at 05:23). Whether the history was replaced was the editor's decision D12; its state at 19:00 is not checked here. Registered at the conductor's letter 006 part 2 (card researcher-05), 30 October 2026, the researcher's 14:32 wake."
   }
  ]
 }
