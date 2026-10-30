@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled, hourly at :47",
+ "started": "2026-10-30T07:50:16Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. Idle: status.json as_of and state only (nothing new; mailroom holds only the answered conductor__001). 2. No EPUBCheck install; wait for the editor. 3. Gate, commit, pull, push to dev.",
+   "at": "2026-10-30T07:50:37Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Idle plan within team/publisher/**; no secrets, no main, no schedule, no harm, no stop condition.",
+   "at": "2026-10-30T07:50:47Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "none",
+   "comment": "Idle: status.json as_of and state only.",
+   "at": "2026-10-30T07:50:47Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Only status.json and the wake record, in scope; no key, token, personal detail or directing text; 0 outside scope.",
+   "at": "2026-10-30T07:51:12Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Idle as planned: status.json and the wake record only; nothing unplanned.",
+   "at": "2026-10-30T07:51:12Z"
+  }
+ },
+ "closed": "2026-10-30T07:51:12Z",
+ "outcome": "idle"
+}
