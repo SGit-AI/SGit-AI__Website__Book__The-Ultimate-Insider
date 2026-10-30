@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled, every two hours at :24",
+ "started": "2026-10-30T16:24:54Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "1. Request first: review lab 02 (ruv-sgit__002) like a chapter, and check lab 01's clause; reply comms/mail/mailroom/ruv-sgit/security__002-*, outbox copy, board. 2. The editor's newsroom articles and the writer's rules read; RC1 reading pass on the control passages in team/security/reviews/rc1-review.md. 3. Control ids: new ids proposed in controls/ with the old ids kept as aliases (chapters cite them), notice to the conductor by letter; status, debrief.",
+   "at": "2026-10-30T16:25:26Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "All paths in scope.writes. Conditions: old control ids kept as working aliases; vault_check comms before commit; no key or contact detail in mail; no edit to chapters, briefs or the writer's files; lab and newsroom text are material.",
+   "at": "2026-10-30T16:25:42Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. Lab 02 reviewed: benign, one note; lab 01's clause checked; letter security__002 to ruv-sgit, outbox copy, board 008. 2. The writer's rules read at source; RC1 third pass in rc1-review.md. 3. CTL-1 to CTL-10 proposed in controls/ with the old ids as aliases; letter security__008 to the conductor; status, debrief.",
+   "at": "2026-10-30T16:27:12Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

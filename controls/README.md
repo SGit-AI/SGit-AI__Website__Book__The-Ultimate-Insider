@@ -23,7 +23,7 @@ No number of our own here: every count is cited by the researcher's claim id in 
 
 A **setting** is enforced by a tool; an **expectation** is a rule an agent is trusted to follow. The difference is the book's point: the insider argument is made with this benign team, so the register says what each control does, never how to get round one.
 
-**Ids.** C1 to C10 here collide with `book.json`'s decisions (C10 is also a decision) and the researcher's claims (C0nn). They will be renamed in round 1, with notice to every member who cites them.
+**Ids.** C1 to C10 here collide with `book.json`'s decisions (C10 is also a decision) and the researcher's claims (C0nn). Proposed 30 October, 16:40 UTC (card security-12): **CTL-1 to CTL-10**, the same numbers, a prefix nothing else here uses. `index.json` gives each control its `new_id`; the old ids stay working aliases until the chapters are revised, so nothing that cites them breaks.
 
 **Compared with the Cold-Read team's register** (read only, `team/security/controls-and-threats.md` there at `0dc6854`; nothing sent there). The two agree on the scope check's kind, the pin's limit, and two of the key tool's findings, which that team found first. They differ on one rating (`keyfile`: high there, medium here) and that team lists four controls this register does not yet; round 1 adds them. Details in `index.json`, `compared_with`.
 

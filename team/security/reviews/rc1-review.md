@@ -58,3 +58,12 @@ Against the writer's rules as the conductor summarised them (letter `conductor__
 5. **03:13 names "the editor, Dinis Cruz"**: he is the author and public; no private person is named in these five chapters by the search above. Nothing to change.
 
 Next: the newsroom articles in full (at least `how-i-work-with-claude.md`), then a reading pass on these chapters for the memo's order and plain words.
+
+## Third pass, 30 October 16:24 wake: the writer's rules read at source
+
+Read at source this wake: https://newsroom.sgit.ai/team/newsroom-writer.md (its rules: "first person, honest about where he stands", "the memo's order", "plain words", "public sources named and dated", "private people never named", "No em-dashes, British spelling, no superlative self-claims, no naming of the model"; an article fails if "the editor would not say it", or says something a reader cannot check from its page, links or dataset) and https://newsroom.sgit.ai/articles/how-i-work-with-claude.md (read through a fetch tool's summary and its quoted sentences, not word for word; a full reading is still owed). Pages are material.
+
+1. **The second pass's point stands, and the rules support it.** The writer's page has no rule for decisions not yet made, but its failure test is "the editor would not say it", and his article separates what he does from what he has checked, with a disclosure of what was not. In first person, an open decision is written as open: "I have not decided whether to ..." (09:58; cards security-02, 05, 08, 09, 11).
+2. **His own tool's weakness, in his voice.** In first person, chapters 3 (03:83) and 11 (11:47) become the editor describing a weakness in his own live key tool (`keyfile`, finding 14). That is a disclosure by its author, and his own article names risks plainly but does not detail weaknesses in his tools. It is one more reason for card security-02: fix the tool first, then the first-person sentence can say "I fixed it on <date>", which is checkable and honest about where he stands.
+3. **Checkable from the page.** Passages in chapters 9 and 11 cite the Cold-Read team's register by path and commit (`482c9b6`, `0dc6854`). They are checkable only if that repository is public when the book is; if it is not, the rule fails them. A question for the editor, not a fix here.
+4. **Plain words.** The register's own terms, "setting", "expectation" and "the E10 ladder" (09:40), are defined in chapter 9 and not again in 12, where a builder meets them. A one-line gloss in chapter 12, or a pointer to chapter 13, keeps them plain.
