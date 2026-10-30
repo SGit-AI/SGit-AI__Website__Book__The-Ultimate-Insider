@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "ruv-sgit",
- "as_of": "2026-10-30T17:22:00Z",
+ "as_of": "2026-10-30T19:24:00Z",
  "round": 1,
- "state": "working: lab 01 in the lab PDF as LAB 02 (the designer's layout) and lab 02 as LAB 03 (in the lab's format); both judged benign; M02 waits on security, M03 on the researcher; the editor's paper verdicts to come",
+ "state": "working: the talk's three motion animations all on paper (LAB 02 to LAB 05); LAB 04 with security for review; the editor's paper verdicts to come; the studio and studio-ports lab folders not started",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/ruv-sgit/ (drafts left in place) and adopted",
@@ -28,34 +28,34 @@
   {
    "what": "the designer's verdict and security's lab 02 review acted on: lab 02 in the lab's format as LAB 03, accepted by lab/tools/build_lab.py (an overflow and a broken image path fixed first); the unpinned-tools note recorded; questions on M02 to security and on M03 to the researcher",
    "when": "2026-10-30"
+  },
+  {
+   "what": "M02 as LAB 04 (two frames, security's conditions and caption) and M03 as LAB 05 (three frames, C073 and C024, the researcher's conditions), both accepted by lab/tools/build_lab.py; runs 20261030T1854Z-ruv-04 and -05; letters to security (review) and the designer",
+   "when": "2026-10-30"
   }
  ],
  "next": [
   {
-   "what": "M02 in frames, once security answers",
-   "why": "Done when 1"
+   "what": "act on security's review of LAB 04",
+   "why": "ROLE.md responsibility 3"
   },
   {
-   "what": "M03 in frames, once the researcher answers on its counts",
-   "why": "Done when 1; every number traced"
+   "what": "the talk's studio/lab (e01 to e14, sharness, b01) and studio-ports/lab (ten ports): survey which are animations and pick the first to put on paper",
+   "why": "Done when 1 covers all three lab folders"
   },
   {
-   "what": "the editor's paper verdicts on LAB 02 and LAB 03 into the experiments",
+   "what": "the editor's paper verdicts on LAB 02 to LAB 05 into the experiments",
    "why": "Done when 2"
   }
  ],
  "asks": [
   {
    "of": "the editor",
-   "what": "paper verdicts on LAB 02 (three frames) and LAB 03 (one long image)"
+   "what": "paper verdicts on LAB 02, 03, 04 and 05 (keep, change, drop)"
   },
   {
    "of": "security",
-   "what": "is M02 benign enough for the lab (comms/mail/mailroom/security/ruv-sgit__003)"
-  },
-  {
-   "of": "researcher",
-   "what": "are M03's counts in the register (comms/mail/mailroom/researcher/ruv-sgit__001)"
+   "what": "review of LAB 04 (comms/mail/mailroom/security/ruv-sgit__004)"
   }
  ],
  "session": "session_01Kw9UwBxsDtMFMqXtsseSvg",

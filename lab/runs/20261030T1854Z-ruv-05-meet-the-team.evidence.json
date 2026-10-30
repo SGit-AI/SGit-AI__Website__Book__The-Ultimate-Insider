@@ -1,0 +1,38 @@
+{
+ "schema": "the-ultimate-insider/lab-run-evidence/v1",
+ "run": "20261030T1854Z-ruv-05-meet-the-team",
+ "started": "2026-10-30T18:54:55Z",
+ "wake_record": "team/ruv-sgit/wakes/20261030T185455Z.json",
+ "calls": [
+  {
+   "what": "python3 -m http.server on 127.0.0.1 in the clone's src/static, stopped after",
+   "tool": "python"
+  },
+  {
+   "what": "node tools/capture_http.js <animation> frames (6.5, 11 and 40 s)",
+   "tool": "playwright chromium"
+  },
+  {
+   "what": "python3 -I tools/preview.py and node tools/print.js",
+   "tool": "python, playwright chromium"
+  },
+  {
+   "what": "python3 lab/tools/build_lab.py as a check: first refused (overflow), passed after the frames were narrowed; lab/pdf restored, not committed",
+   "tool": "the designer's build, read only"
+  }
+ ],
+ "outputs": {
+  "page.pdf": "lab/experiments/04-ruv-meet-the-team-frames/page.pdf",
+  "hashes": "lab/experiments/04-ruv-meet-the-team-frames/SHA256SUMS"
+ },
+ "sources": [
+  {
+   "path": "src/static/motion/lab/meet-the-team/v1/index.html",
+   "commit": "f45028c"
+  }
+ ],
+ "time": {
+  "work_started": "2026-10-30T19:00:00Z",
+  "work_ended": "2026-10-30T19:20:00Z"
+ }
+}
