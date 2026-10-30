@@ -55,3 +55,7 @@ C039: of the 80 claims placed on stage, 55 are in a beat of the talk at `298be4e
 ## Round 1, ninth pass: the freeze (30 October 2026, 09:32 wake)
 
 The historian's timeline, verified against `298be4e`, settles both: the $17.4M fix (C031) arrived five minutes after the editor froze the slides at 02:47 and was never carried across the 14:07 lift; the player (C040) was not started by 14:53, because the editor's lane went first. 40 claims: 33 checked, 5 corrected, 2 open.
+
+## Round 1, tenth pass: RC1 (30 October 2026, 10:32 wake)
+
+RC1's 13 chapters checked against the register, line by line. Corrected at the RC1 drafting's findings: C011 (two methods, now both given), C014 (merges by parents, trailers read: conductor 106, dev 64, none unattributed), C018, C021, C023. New: C041 (the 45-minute limit; the hold's 36 seconds), C042 (the talk's own 510). 42 claims: 35 checked, 5 corrected, 2 open. Rule from now: a count with a known limit stays open until the limit is removed.

@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-10-30T09:50:00Z",
+ "as_of": "2026-10-30T11:00:00Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -211,20 +211,31 @@
    ],
    "value": {
     "staffed": 9,
-    "members": [
-     "dev 00:40",
-     "conductor 00:58",
-     "ruv-sgit 01:08",
-     "researcher 01:52",
-     "deck 02:20",
-     "designer 03:41",
-     "storyteller 14:15",
-     "motion 15:31",
-     "studio 15:31"
-    ],
     "proposed_never_staffed": [
      "security"
-    ]
+    ],
+    "first_commit": {
+     "dev": "00:40 1f7c633",
+     "conductor": "00:44 97b98d9",
+     "deck": "00:51 20ab1a3",
+     "ruv-sgit": "01:08 defe526",
+     "researcher": "01:52 01e9ed3",
+     "designer": "03:41 c6dcf89",
+     "storyteller": "14:15 7d0244d",
+     "motion": "15:31 f1cbca0",
+     "studio": "15:31 8d208d3"
+    },
+    "first_key": {
+     "conductor": "00:58 41d38ba",
+     "researcher": "01:52 01e9ed3",
+     "dev": "01:53 56cbe55",
+     "deck": "02:20 79b6709",
+     "ruv-sgit": "02:36 1c7d22c",
+     "designer": "03:41 c6dcf89",
+     "storyteller": "14:15 7d0244d",
+     "motion": "15:31 f1cbca0",
+     "studio": "15:31 8d208d3"
+    }
    },
    "state": "open",
    "source": {
@@ -232,9 +243,9 @@
     "at": "298be4e",
     "evidence": "first commit adding team/<id>/key.json (dev: its first commit, 1f7c633); team/security has no key.json at 298be4e"
    },
-   "method": "git log --reverse -- team/<id>/key.json, per member",
-   "note": "The brief says 'a ten-agent team'. The record has ten member folders but nine staffed agents; security was proposed and never staffed (as 3-source-map.md and 5-lessons-to-carry.md themselves say). Ten is true only counting the editor or the unstaffed folder. Open for the editor: 'nine agents and the editor' is what the record supports.",
-   "command": "for m in $(git ls-tree -d --name-only 298be4e team/ | xargs -n1 basename); do echo $m $(git log 298be4e --reverse --format='%ci %h' -- team/$m/key.json | head -1); done"
+   "method": "two columns, kept apart: a member's first commit naming it (subject or Agent: trailer), and the first commit adding team/<id>/key.json",
+   "note": "Corrected 30 October 10:50 at the RC1 drafting's finding (comms/mail/mailroom/researcher/conductor__005-the-editors-voice.eml): the first version mixed the two methods (first commit for dev and ruv-sgit, first key for the others). Now both are given. Nine staffed holds either way; security was proposed and never staffed. The brief's 'ten-agent team' stays open for the editor: 'nine agents and the editor' is what the record supports.",
+   "command": "for m in dev conductor ruv-sgit researcher deck designer storyteller motion studio; do echo $m $(git log 298be4e --reverse --format='%h %ci' -- team/$m/key.json | head -1); done; git log 298be4e --reverse --author=Claude --format='%h %ci %s' | grep -iE ' (@?(dev|conductor|deck|ruv-sgit|researcher|designer|storyteller|motion|studio):|Conductor joins)' | awk '!s[$4]++'"
   },
   {
    "id": "C012",
@@ -273,17 +284,23 @@
    "claim": "Commits by member (Claude commits whose subject names a member, with or without @)",
    "cited_in": [],
    "value": {
-    "conductor": 107,
-    "ruv-sgit": 84,
-    "deck": 59,
-    "researcher": 57,
-    "dev": 52,
-    "studio": 26,
-    "designer": 19,
-    "storyteller": 15,
-    "motion": 9,
-    "merges": 162,
-    "unattributed": 13
+    "non_merge_claude_commits": 439,
+    "by_member": {
+     "conductor": 106,
+     "ruv-sgit": 84,
+     "dev": 64,
+     "deck": 59,
+     "researcher": 57,
+     "studio": 26,
+     "designer": 19,
+     "storyteller": 15,
+     "motion": 9
+    },
+    "merges": {
+     "all": 165,
+     "by_claude": 164
+    },
+    "unattributed": 0
    },
    "state": "corrected",
    "source": {
@@ -291,9 +308,9 @@
     "at": "298be4e",
     "evidence": "commit subjects"
    },
-   "method": "git log 298be4e --author=Claude --format=%s | grep -oE '^@[a-z-]+'",
-   "note": "Corrected 30 October 05:40 at the historian's note: 30 of ruv-sgit's commits (08:43 15707dc to 18:40 fc724df) and 8 of the conductor's open '<id>:' without the @, which the first count missed. With them: conductor 107, ruv-sgit 84 (not 54). Of 603 Claude commits, 428 name a member, 162 are merges, and 13 name none and carry no Agent: trailer (8 'Player:' commits, the lock tool, the showcase template, E08, a Linux link slide, 'Conductor joins'). Those 13 are unattributed, not assigned by guess.",
-   "command": "git log 298be4e --author=Claude --format=%s | grep -oE '^@?[a-z][a-z.-]*:' | sed 's/^@//' | sort | uniq -c | sort -rn"
+   "method": "merges counted by parents (git log --merges); every non-merge Claude commit attributed by its subject's '<id>:' or '@<id>:' prefix, else by its 'Agent: <id>@' trailer, else by its subject naming the member",
+   "note": "Corrected twice. 05:40, at the historian's note: subjects opening '<id>:' without the @ were missed (ruv-sgit 84, not 54). 10:50, at the RC1 drafting's finding: merges were counted by subject (162) where parents give 165, 164 of them Claude's; and the 13 'unattributed' commits all carry an Agent: dev@the-ultimate-insider trailer except one, 'Conductor joins' (97b98d9, 00:44), which names the conductor in its subject. With merges excluded and trailers read: conductor 106, ruv-sgit 84, dev 64 (52 by prefix, 12 by trailer), deck 59, researcher 57, studio 26, designer 19, storyteller 15, motion 9; 439 in all, none unattributed. The Cold-Read analyst's 99 (the @ prefix only) and 105 (any prefix, merges excluded) are both right for their methods; this register's 106 adds the one commit whose subject names the conductor without a prefix. The earlier '107 and 162' and '13 unattributed' are withdrawn.",
+   "command": "git rev-list --merges --count 298be4e; git log 298be4e --merges --author=Claude --format=%h | wc -l; then the attribution script in team/researcher/debriefs/2026-10-30__rc1-numbers-review.md"
   },
   {
    "id": "C015",
@@ -360,7 +377,7 @@
    "cited_in": [
     "briefs/2026-10-30/5-lessons-to-carry.md"
    ],
-   "value": "last player commit dbd75ad at 18:37:02; locks in the record: part 1 'ready for its lock' 18:20, 'not yet locked' 18:36 (2ed6427), deck's '18:30 lock', designer's '19:30 lock'",
+   "value": "last player commit dbd75ad at 18:37:02; locks in the record: part 1 'ready for its lock' 18:20, 'not yet locked' committed 18:39:16 (2ed6427, its subject citing the conductor's 18:36 check), deck's '18:30 lock', designer's '19:30 lock'",
    "state": "corrected",
    "source": {
     "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
@@ -368,7 +385,7 @@
     "evidence": "dbd75ad, 2ed6427, b3f208f, 88b8f00"
    },
    "method": "git log --grep=lock",
-   "note": "18:37 is checked. 'Twenty minutes before the lock' depends on which lock: there were several (part 1 around 18:30 to 18:40, parts 2 and 3 later, a 19:30 lock named by the designer). Twenty minutes before 19:00 would be 18:40. For the historian to fix the lock times; until then, write 'at 18:37, 23 minutes before the talk'. Update 30 October, 02:55: the landing is 15:07 (C028); the locks were never applied (C027), so 'before the lock' has no event to measure from; 18:37 is 23 minutes before the talk.",
+   "note": "18:37 is checked. 'Twenty minutes before the lock' depends on which lock: there were several (part 1 around 18:30 to 18:40, parts 2 and 3 later, a 19:30 lock named by the designer). Twenty minutes before 19:00 would be 18:40. For the historian to fix the lock times; until then, write 'at 18:37, 23 minutes before the talk'. Update 30 October, 02:55: the landing is 15:07 (C028); the locks were never applied (C027), so 'before the lock' has no event to measure from; 18:37 is 23 minutes before the talk. Corrected 30 October 10:50: 2ed6427 is committed at 18:39:16; '18:36' is the time its subject gives for the conductor's check.",
    "command": "git log 298be4e -1 --format='%h %ci %s' -- src/static/talk/player.html; git log 298be4e --format='%h %ci %s' -i --grep=lock"
   },
   {
@@ -426,8 +443,8 @@
     "evidence": "867f8c2"
    },
    "method": "commit subject",
-   "note": "The record holds the conductor's report of the figure, not a usage reading. Cite it as what the editor told the team.",
-   "command": "git log 298be4e -1 --format='%h %ci %s' --grep='95%'"
+   "note": "The record holds the conductor's report of the figure, not a usage reading. Cite it as what the editor told the team. Command corrected 30 October 10:50: without --author it printed the release, not the hold.",
+   "command": "git log 298be4e -1 --author=Claude --format='%h %ci %s' --grep='95%'   # 867f8c2, 18:44:13; without --author the release 7968c99 (18:44:49) prints first"
   },
   {
    "id": "C022",
@@ -514,8 +531,8 @@
     "evidence": "team/*/wakes/*.json, steps and history"
    },
    "method": "git ls-tree -r 298be4e, every team/*/wakes/*.json parsed with git show 298be4e:<path>; verdicts counted from steps.<step>.verdict, earlier verdicts from history; a change counted when a history entry has verdict 'change' (directly, or under a pre_review key), or, for entries with no verdict field, when its text says 'pre-review said change'",
-   "note": "11 pre-reviews said change and the plan was amended. 7 carry the verdict in a field: 2 shaped history[].pre_review.verdict (conductor 02:14, 02:52), 5 shaped history[].verdict with step pre_review (conductor 14:03, 14:09, 16:30; researcher 04:10; studio 18:30). 4 more are the conductor's free-text history entries 'pre-review said change: adopted' (17:21, 17:30, 17:45, 18:19), with no verdict field. A parse of verdict fields alone finds 7 (security's count, 30 October 03:25); both are right for their method. Cite '11, of which 7 recorded as a verdict'. The conductor's 17:37 entry is the editor changing course mid-work, not a review, and is not counted. No step said stop all day: the one hold (C024) came from the editor's word, not from a review. Corrected 30 October 03:40 at security's question (team/security/requests/researcher__re-control-counts-reply.md): the method was not stated.",
-   "command": "method, not one command: parse every team/*/wakes/*.json at 298be4e; count steps.<step>.verdict; count history entries with verdict 'change' (directly or under pre_review), and free-text entries saying 'pre-review said change' (the script in team/researcher/debriefs/ of 30 October, 02:32 wake, rerun the same way)"
+   "note": "11 pre-reviews said change and the plan was amended. 7 carry the verdict in a field: 2 shaped history[].pre_review.verdict (conductor 02:14, 02:52), 5 shaped history[].verdict with step pre_review (conductor 14:03, 14:09, 16:30; researcher 04:10; studio 18:30). 4 more are the conductor's free-text history entries 'pre-review said change: adopted' (17:21, 17:30, 17:45, 18:19), with no verdict field. A parse of verdict fields alone finds 7 (security's count, 30 October 03:25); both are right for their method. Cite '11, of which 7 recorded as a verdict'. The conductor's 17:37 entry is the editor changing course mid-work, not a review, and is not counted. No step said stop all day: the one hold (C024) came from the editor's word, not from a review. Corrected 30 October 03:40 at security's question (team/security/requests/researcher__re-control-counts-reply.md): the method was not stated. The Cold-Read team counts 12 plan changes, here 11: the difference is not yet traced.",
+   "command": "method: the script in team/researcher/debriefs/2026-10-30__rc1-numbers-review.md (parses every team/*/wakes/*.json at 298be4e; counts steps.<step>.verdict and history entries)"
   },
   {
    "id": "C024",
@@ -973,6 +990,49 @@
    "method": "git grep for 13:50 and for priority near player at 298be4e; the commit that carried the editor's briefs read",
    "command": "git show c9ced4e --format=%b | head -12; git show 298be4e:team/conductor/briefs/2026-10-29__editor/conductor-notes.md | sed -n '5,14p'; git log 298be4e --format='%h %ci %s' --since=2026-10-29T14:07Z --until=2026-10-29T15:07:09Z -- team/dev src/static/talk/player.html",
    "note": "The record has the player as 'the main priority' in the editor's briefs of about 14:00 (no 13:50 time is attached to it; 13:50 appears only as a time the editor spoke about the player's build mode, in team/dev/debriefs/2026-10-29__the-build-mode.md). In the same hand-over the conductor's notes put the editor's feedback lane first and the player second, quoting the editor's chat on the lane key. So the lesson 'start the highest-risk port first' is not that the team ignored a priority: the order changed at the editor's own word within minutes. 'Still not started at 14:53' holds: verified at 09:40 from the historian's reply against dev's commits (9f17ce7, 9a51c28, c28749e, 3314ffe); 14:53 itself is not a time the record attaches to the player."
+  },
+  {
+   "id": "C041",
+   "claim": "The work step's limit and the hold's release",
+   "cited_in": [
+    "team/conductor/rc1/04-the-hourly-machine.md",
+    "team/conductor/rc1/01-pause-all-actions.md"
+   ],
+   "value": {
+    "work_step_limit": "8 minutes, then 45 at the editor's word, 15:21:31 (545a473)",
+    "hold_to_release_seconds": 36,
+    "hold": "867f8c2 18:44:13",
+    "release": "7968c99 18:44:49"
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "298be4e",
+    "evidence": "545a473; 867f8c2; 7968c99"
+   },
+   "method": "commit times",
+   "command": "git log -1 --format='%h %ci %s' 545a473; git log -1 --format='%ci' 867f8c2; git log -1 --format='%ci' 7968c99",
+   "note": "From the RC1 drafting's list of numbers the chapters wanted. The other numbers on that list (the 16:44 backlog, the talk's running time and the transcript's counts in a9c0b49, the editor's 26% usage reading of 30 October) are not yet registered."
+  },
+  {
+   "id": "C042",
+   "claim": "The talk's own count on stage: 510 commits and 164 releases by five in the afternoon",
+   "cited_in": [
+    "team/conductor/rc1/11-what-the-cold-reader-saw.md"
+   ],
+   "value": {
+    "talk_said": "510 commits and 164 releases by five this afternoon (talk.json at 298be4e)",
+    "rev_list_by_17:02": 625
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "298be4e",
+    "evidence": "src/static/talk/talk.json"
+   },
+   "method": "the talk's words read from talk.json; the full repository count by 17:02 from rev-list",
+   "command": "git show 298be4e:src/static/talk/talk.json | grep -oE '.{40}510 commits.{40}'; git rev-list --count --until=2026-10-29T17:02:59Z 298be4e",
+   "note": "The 510 and the 405 the Cold-Read critic quotes are the talk's own figures, counted differently from this register (git rev-list gives 625 commits by 17:02); quote them as what the talk said, never as the day's count. The 405 is not yet traced to its beat."
   }
  ]
 }

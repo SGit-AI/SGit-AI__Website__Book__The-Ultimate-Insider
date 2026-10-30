@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled, hourly at :32",
+ "started": "2026-10-30T10:33:03Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1) The editor's requests (conductor 004, 005) by mail: the numbers review of RC1 first (each number matched to a register id; findings by file and line in a letter in comms/mail/mailroom/conductor/researcher__NNN-*.eml, copy in comms/mail/researcher/outbox/; drafts never edited). 2) The drafting findings into claims/register.json: C011, C014, C018, C021, C023 corrected; new numbers registered where they hold; counts in a full clone. 3) If time: the Cold-Read analyst's numbers and the voice rules; status, debrief, REALITY.md. Letters 001 to 005 taken into comms/mail/researcher/inbox/ or done/; vault_check.py comms before the commit.",
+   "at": "2026-10-30T10:33:54Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Policy: e7d3d3d (conductor, the editor's C10b) added exactly the three comms paths; holds, never and appends unchanged; no HOLD.md. Plan in scope. Conditions: letters only as researcher__NNN-* in mailroom/conductor with an outbox copy; RC1 drafts and briefs never edited; Cold-Read read only, nothing sent; vault_check.py comms before commit; no contact detail or key in comms/.",
+   "at": "2026-10-30T10:34:12Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "partial",
+   "comment": "1. RC1's numbers checked line by line against the register; letter comms/mail/mailroom/conductor/researcher__001-rc1-numbers.eml (six places), outbox copy; letters filed; board 001. 2. C011, C014, C018, C021, C023 corrected in a full clone; C041, C042 new; scripts in the debrief, rerun. 3. Not done: the voice review, the Cold-Read analyst's other numbers, Appendix A, the rest of the drafting's list. vault_check comms clean.",
+   "at": "2026-10-30T10:36:59Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "16 files inside researcher scope (team/researcher, claims, its comms paths) plus an add-only REALITY.md line; one mailroom letter named researcher__001. No secrets, keys, tokens or contact details; no RC1 draft or brief edited; nothing to Cold-Read; debrief scripts read-only; no em-dashes.",
+   "at": "2026-10-30T10:37:44Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "partial",
+   "comment": "(1) Done: the RC1 numbers letter with outbox copy, drafts untouched, letters filed, board 001. (2) Done: C011, C014, C018, C021, C023 corrected; C041, C042 new; appendix regenerated. (3) Not done: the voice review and the Cold-Read analyst's numbers; status, debrief, REALITY.md updated.",
+   "at": "2026-10-30T10:37:44Z"
+  }
+ },
+ "closed": "2026-10-30T10:37:44Z",
+ "outcome": "partial"
+}

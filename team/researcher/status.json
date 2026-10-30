@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-10-30T09:50:00Z",
+ "as_of": "2026-10-30T11:05:00Z",
  "round": 1,
- "state": "working: 40 claims (33 checked, 5 corrected, 2 open); C031 and C040 settled with the historian's reply; R4 still waits on the editor's word here",
+ "state": "working: RC1 numbers reviewed (letter to the conductor); 42 claims (35 checked, 5 corrected, 2 open); comms/ paths in my policy at C10b; board in comms/issues/researcher/",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -48,9 +48,17 @@
   {
    "what": "the historian's reply verified and taken: C031 (the freeze at 02:47, the fix at 02:52, never carried across the 14:07 lift) and C040 (not started by 14:53: holds)",
    "when": "2026-10-30T09:50:00Z"
+  },
+  {
+   "what": "RC1's 13 chapters checked number by number against the register; six places to change sent to the conductor (comms/mail/mailroom/conductor/researcher__001-rc1-numbers.eml); C011, C014, C018, C021, C023 corrected at the drafting's findings; C041, C042 new",
+   "when": "2026-10-30T11:05:00Z"
   }
  ],
  "next": [
+  {
+   "what": "RC1 in the editor's voice (newsroom.sgit.ai rules), Appendix A against the register, the Cold-Read analyst's numbers, the drafting's remaining numbers (16:44 backlog, a9c0b49, 26%)",
+   "why": "R9, before the editor's flight"
+  },
   {
    "what": "The rest of the 29 unconfirmed claims in the final talk that the plan leans on, checked at source",
    "why": "ROLE.md responsibility 3; Done when 2"
@@ -64,10 +72,6 @@
   {
    "to": "editor",
    "what": "C011: 'a ten-agent team' in the brief; the record has nine staffed agents (security never staffed). Keep ten, or 'nine agents and the editor'?"
-  },
-  {
-   "to": "editor",
-   "what": "R4: in this session, say that the researcher may add its three comms/ paths (C10). The edit was refused here as self-modification, though C10 is signed."
   },
   {
    "to": "editor",
@@ -107,7 +111,7 @@
    "id": "R4",
    "from": "conductor",
    "request": "team/conductor/requests/researcher__comms-paths.md",
-   "state": "blocked: C10 signed in the conductor's session; this session's permission check refused the self-edit; needs the editor's word in this session",
+   "state": "done: the conductor added the three comms/ paths at the editor's decision C10b (e7d3d3d, 10:19); letters filed in comms/mail/researcher/",
    "reply": "team/researcher/requests/conductor__re-c10-signed.md"
   },
   {
@@ -137,6 +141,13 @@
    "request": "team/historian/requests/researcher__re-c031-c040.md (a reply to the researcher's own question)",
    "state": "done: verified and taken into C031, C040",
    "reply": "team/researcher/requests/historian__re-c031-c040.md"
+  },
+  {
+   "id": "R9",
+   "from": "conductor (the editor's requests)",
+   "request": "comms/mail/mailroom/researcher/conductor__004-review-and-rc1.eml, conductor__005-the-editors-voice.eml",
+   "state": "in progress: numbers review done; voice, the Cold-Read numbers, Appendix A next",
+   "reply": "comms/mail/mailroom/conductor/researcher__001-rc1-numbers.eml; board comms/issues/researcher/issues/open/001-rc1-review.md"
   }
  ]
 }

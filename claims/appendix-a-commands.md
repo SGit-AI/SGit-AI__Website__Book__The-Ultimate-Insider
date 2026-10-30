@@ -89,7 +89,7 @@ arithmetic on C001, C005 and C007
 State: open.
 
 ```
-for m in $(git ls-tree -d --name-only 298be4e team/ | xargs -n1 basename); do echo $m $(git log 298be4e --reverse --format='%ci %h' -- team/$m/key.json | head -1); done
+for m in dev conductor ruv-sgit researcher deck designer storyteller motion studio; do echo $m $(git log 298be4e --reverse --format='%h %ci' -- team/$m/key.json | head -1); done; git log 298be4e --reverse --author=Claude --format='%h %ci %s' | grep -iE ' (@?(dev|conductor|deck|ruv-sgit|researcher|designer|storyteller|motion|studio):|Conductor joins)' | awk '!s[$4]++'
 ```
 
 ## C012: The storyteller joined about 14:12 UTC
@@ -113,7 +113,7 @@ git log 298be4e --reverse --format='%ci %h %s' -- team/motion/key.json team/stud
 State: corrected.
 
 ```
-git log 298be4e --author=Claude --format=%s | grep -oE '^@?[a-z][a-z.-]*:' | sed 's/^@//' | sort | uniq -c | sort -rn
+git rev-list --merges --count 298be4e; git log 298be4e --merges --author=Claude --format=%h | wc -l; then the attribution script in team/researcher/debriefs/2026-10-30__rc1-numbers-review.md
 ```
 
 ## C015: 58 beats in three parts
@@ -169,7 +169,7 @@ for d in team evidence; do git ls-tree -r -l 298be4e $d | awk -v d=$d '{s+=$4} E
 State: checked.
 
 ```
-git log 298be4e -1 --format='%h %ci %s' --grep='95%'
+git log 298be4e -1 --author=Claude --format='%h %ci %s' --grep='95%'   # 867f8c2, 18:44:13; without --author the release 7968c99 (18:44:49) prints first
 ```
 
 ## C022: Wake records on the day
@@ -185,7 +185,7 @@ python3 -c "import json,subprocess as s;R='298be4e';fs=[f for f in s.run(['git',
 State: checked.
 
 ```
-method, not one command: parse every team/*/wakes/*.json at 298be4e; count steps.<step>.verdict; count history entries with verdict 'change' (directly or under pre_review), and free-text entries saying 'pre-review said change' (the script in team/researcher/debriefs/ of 30 October, 02:32 wake, rerun the same way)
+method: the script in team/researcher/debriefs/2026-10-30__rc1-numbers-review.md (parses every team/*/wakes/*.json at 298be4e; counts steps.<step>.verdict and history entries)
 ```
 
 ## C024: Holds written on the day
@@ -324,6 +324,22 @@ State: corrected.
 git show c9ced4e --format=%b | head -12; git show 298be4e:team/conductor/briefs/2026-10-29__editor/conductor-notes.md | sed -n '5,14p'; git log 298be4e --format='%h %ci %s' --since=2026-10-29T14:07Z --until=2026-10-29T15:07:09Z -- team/dev src/static/talk/player.html
 ```
 
+## C041: The work step's limit and the hold's release
+
+State: checked.
+
+```
+git log -1 --format='%h %ci %s' 545a473; git log -1 --format='%ci' 867f8c2; git log -1 --format='%ci' 7968c99
+```
+
+## C042: The talk's own count on stage: 510 commits and 164 releases by five in the afternoon
+
+State: checked.
+
+```
+git show 298be4e:src/static/talk/talk.json | grep -oE '.{40}510 commits.{40}'; git rev-list --count --until=2026-10-29T17:02:59Z 298be4e
+```
+
 ## Where this came from
 
-`claims/register.json`, the `command` of each entry, run in this session against `298be4e` and `d39e717`; spot-checked on 30 October 05:45 (C004, C009, C014, C019, C022, C024, C026, C029, C031), 06:45 (C038), 07:45 (C039), 08:45 (C031, C040) and 09:40 (C031, C040), each giving the registered value. C031's 2026 figure is read from a web page, fetched 30 October 2026.
+`claims/register.json`, the `command` of each entry, run against `298be4e` (a full clone: `git rev-list --count 298be4e` gives 816) and `d39e717`; spot-checked on 30 October 05:45, 06:45, 07:45, 08:45, 09:40 and 10:50 (C011, C014, C021, C041, C042), each giving the registered value. C031's 2026 figure is read from a web page, fetched 30 October 2026.
