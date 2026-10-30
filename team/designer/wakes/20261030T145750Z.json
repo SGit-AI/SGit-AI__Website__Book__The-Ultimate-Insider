@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Reply designer__001 to the conductor (issue 001 blocked: no index/talk-site/); LAB 02 set from ruv's folder (read only) via lab/tools/external.json and layouts/, PDF 5 pages; verdict designer__002 to ruv.sgit; designer__003 to the storyteller; board and mail opened; status, debrief, REALITY.md.",
    "at": "2026-10-30T15:01:03Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Build and gate clean; agents check 0 outside scope; vault_check comms clean; 24 files within policy, nothing under ruv's folder; no em-dashes, keys, tokens, personal details or directing text; nothing attack-shaped.",
+   "at": "2026-10-30T15:01:53Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "1 reply and blocked issue done; 2 LAB 02 via external.json and layout, nothing under ruv's folder; 3 storyteller letter, board, inbox, status, debrief, REALITY.md done (f212c8e). Conditions kept. lab.css, build_lab.py, README edits in support of item 2.",
+   "at": "2026-10-30T15:02:13Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T15:02:13Z",
+ "outcome": "ok"
 }
