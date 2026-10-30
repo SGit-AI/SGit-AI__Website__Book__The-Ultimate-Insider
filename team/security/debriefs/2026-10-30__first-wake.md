@@ -23,3 +23,5 @@ outside_scope: none (REALITY.md appended under its own heading, as policy.json a
 ## Next
 
 Evidence for C4, C6, C7 and a C8 failure; the crypto and message modules of the key tool.
+
+**Correction (second wake, 02:45 UTC):** the first point under What I learned was wrong. Pre-reviews in the talk's record did say change, in several wakes; the scan missed each record's top-level `history`. Corrected in `controls/`.

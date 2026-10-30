@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "security",
- "as_of": "2026-10-30T02:10:00Z",
+ "as_of": "2026-10-30T02:45:00Z",
  "round": 0,
- "state": "staffed; first wake closed ok: control list (round 0) and the key tool review started",
+ "state": "staffed; second wake (scheduled): the publisher answered, evidence for C4, C6, C7, C8, C9 added, a round 0 claim corrected",
  "done": [
   {
    "what": "session key made and published: team/security/key.json, key.png, sessions/session_01Kw9UwDYutLfqT71U7kmgVs/",
@@ -20,27 +20,39 @@
   {
    "what": "team/security/reviews/pki-agent-review.md started: four findings (low or information), for the editor",
    "when": "2026-10-30"
+  },
+  {
+   "what": "answered the publisher on Leanpub (S1): the Read role only; control C9",
+   "when": "2026-10-30"
+  },
+  {
+   "what": "evidence for C1, C2, C4, C6, C7, C8; round 0's claim that no pre-review said change corrected",
+   "when": "2026-10-30"
   }
  ],
  "next": [
   {
-   "what": "evidence for C4, C6, C7 and a C8 failure in the talk's record; the book team's own column",
-   "why": "the register by the end of round 1 (Friday night)"
+   "what": "a C8 failure, C7 stopped and missed, the book team's own column; the Cold-Read listing crossing (Done when 3)",
+   "why": "the register by the end of round 1"
   },
   {
-   "what": "review the crypto and message modules of pki-agent.mjs, then the remaining commands",
+   "what": "pki-agent.mjs: the crypto and message modules",
    "why": "ROLE.md responsibility 2"
   }
  ],
  "asks": [
   {
-   "to": "editor",
-   "what": "read the four pki-agent findings (team/security/reviews/pki-agent-review.md); the fixes, if wanted, are yours at pki.sgit.ai"
-  },
-  {
    "to": "researcher",
    "what": "register the counts behind the control register",
    "where": "team/security/requests/researcher__control-counts.md"
+  },
+  {
+   "to": "editor",
+   "what": "read the four pki-agent findings (team/security/reviews/pki-agent-review.md)"
+  },
+  {
+   "to": "editor",
+   "what": "if you add leanpub as a collaborator, give it the Read role, not Write (S1)"
   }
  ],
  "task": {
@@ -50,5 +62,14 @@
   "created": "2026-10-30T01:42:02Z",
   "prompt": "team/conductor/schedule.json, runs entry for security, word for word",
   "enabled": true
- }
+ },
+ "issues": [
+  {
+   "id": "S1",
+   "from": "publisher",
+   "what": "Leanpub as a collaborator: review before the editor adds it",
+   "state": "answered",
+   "reply": "team/security/requests/publisher__leanpub-as-collaborator-reply.md"
+  }
+ ]
 }

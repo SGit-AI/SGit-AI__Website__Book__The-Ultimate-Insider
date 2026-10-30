@@ -1,89 +1,246 @@
 {
  "schema": "the-ultimate-insider/controls/v1",
  "kept_by": "security@book.the-ultimate-insider",
- "as_of": "2026-10-30T02:05:00Z",
+ "as_of": "2026-10-30T02:45:00Z",
  "round": 0,
  "source": "SGit-AI__Website__Presentation__The-Ultimate-Insider, history up to 298be4e (read-only clone)",
  "numbers": "none in this file: every count goes through the researcher's register (claims/); asked in team/security/requests/researcher__control-counts.md",
  "controls": [
   {
-   "id": "C1", "name": "policies and scopes", "kind": "setting",
+   "id": "C1",
+   "name": "policies and scopes",
+   "kind": "setting",
    "what": "each member's policy.json names the paths it may write; admin/build/agents.py check lists every file a member changed outside them",
-   "where": ["admin/build/agents.py", "team/<id>/policy.json"],
-   "fired": [{"commit": "talk team/conductor/wakes/20261029T021416Z.json", "what": "agents.py flagged CLAUDE.md as outside the conductor's scope; the post-review asked for it to be named"}],
+   "where": [
+    "admin/build/agents.py",
+    "team/<id>/policy.json"
+   ],
+   "fired": [
+    {
+     "commit": "talk team/conductor/wakes/20261029T021416Z.json",
+     "what": "agents.py flagged CLAUDE.md as outside the conductor's scope; the post-review asked for it to be named"
+    },
+    {
+     "commit": "talk team/conductor/wakes/20261029T140334Z.json (history)",
+     "what": "the pre-review sent a conductor plan back because it wrote in four other members' folders; the amended plan sent each its own request"
+    }
+   ],
    "stopped": "an unnamed write outside scope going unremarked",
    "missed": "to research: it reports, it does not refuse; the write was allowed by the editor and still landed before it was named",
    "state": "listed, evidence started"
   },
   {
-   "id": "C2", "name": "the five-step wake", "kind": "expectation, with a record",
+   "id": "C2",
+   "name": "the five-step wake",
+   "kind": "expectation, with a record",
    "what": "plan, pre-review, work, post-review, post-check, each a verdict in team/<id>/wakes/; wake.py gate refuses the work until plan and pre-review say go",
-   "where": ["admin/tools/wake.py", "team/conductor/reviews/", "team/conductor/WAKE.md"],
-   "introduced": [{"commit": "talk 8c66751", "at": "02:16"}, {"commit": "talk 5700bab", "at": "02:18"}],
-   "fired": [{"commit": "talk team/researcher/wakes/20261029T041003Z.json", "what": "post-review finding: anonymous cookie values in captured headers, redacted in the same wake"}],
+   "where": [
+    "admin/tools/wake.py",
+    "team/conductor/reviews/",
+    "team/conductor/WAKE.md"
+   ],
+   "introduced": [
+    {
+     "commit": "talk 8c66751",
+     "at": "02:16"
+    },
+    {
+     "commit": "talk 5700bab",
+     "at": "02:18"
+    }
+   ],
+   "fired": [
+    {
+     "commit": "talk team/researcher/wakes/20261029T041003Z.json",
+     "what": "post-review finding: anonymous cookie values in captured headers, redacted in the same wake"
+    },
+    {
+     "commit": "talk team/researcher/wakes/20261029T041003Z.json (history)",
+     "what": "the pre-review said change: tokens and email addresses redacted before any commit, injection payloads stored only defanged; the researcher disputed one condition and the second pass withdrew it"
+    }
+   ],
    "stopped": "captured cookie values reaching the public record",
-   "missed": "to research: the record shows no pre-review that said change or stop; whether the step ever changed a plan is the open question",
-   "state": "listed, evidence started"
+   "missed": "to research: the pre-review did say change, in several wakes (kept under each record's history); whether a post-review finding ever stopped a release is still open",
+   "state": "listed, evidence started",
+   "correction": "round 0 said no pre-review said change or stop: wrong, the scan read only steps, not each record's top-level history (corrected 30 October 2026, 02:45 UTC)"
   },
   {
-   "id": "C3", "name": "holds", "kind": "setting",
+   "id": "C3",
+   "name": "holds",
+   "kind": "setting",
    "what": "any member writes team/<id>/HOLD.md and pushes it; every start.py then stops; only the editor lifts it",
-   "where": ["admin/tools/start.py", "team/conductor/WAKE.md (Stopping)"],
-   "introduced": [{"commit": "talk 09f13d5", "what": "the schedule starts tonight, with a hold any member can pull"}],
-   "fired": [{"commit": "talk 867f8c2", "at": "18:44 UTC", "what": "the conductor's hold at the editor's word: his usage limit"}],
+   "where": [
+    "admin/tools/start.py",
+    "team/conductor/WAKE.md (Stopping)"
+   ],
+   "introduced": [
+    {
+     "commit": "talk 09f13d5",
+     "what": "the schedule starts tonight, with a hold any member can pull"
+    }
+   ],
+   "fired": [
+    {
+     "commit": "talk 867f8c2",
+     "at": "18:44 UTC",
+     "what": "the conductor's hold at the editor's word: his usage limit"
+    }
+   ],
    "stopped": "the team running the editor out of usage",
    "missed": "to research: the one hold in the record came from the editor's word, not from a member's own stop",
    "state": "listed, evidence started"
   },
   {
-   "id": "C4", "name": "session keys", "kind": "expectation, with a published record",
+   "id": "C4",
+   "name": "session keys",
+   "kind": "expectation, with a published record",
    "what": "every session makes its own key with the pinned tool and publishes the public halves in team/<id>/key.json; the push is the authorisation",
-   "where": ["admin/tools/pki-agent.README.md", "team/<id>/key.json", "team/<id>/sessions/"],
-   "fired": "to find: a key checked against its session folder by the conductor",
-   "stopped": "to find", "missed": "to find",
-   "state": "listed"
+   "where": [
+    "admin/tools/pki-agent.README.md",
+    "team/<id>/key.json",
+    "team/<id>/sessions/"
+   ],
+   "fired": [
+    {
+     "commit": "talk 4adc04a",
+     "at": "15:47",
+     "what": "the conductor checked two new members' keys and sealed both vault keys to them; the editor uploads the zip"
+    }
+   ],
+   "stopped": "a vault key reaching a session by any route but a seal to its own published key",
+   "missed": "to find",
+   "state": "listed, evidence started"
   },
   {
-   "id": "C5", "name": "the pinned key tool", "kind": "setting (a hash)",
+   "id": "C5",
+   "name": "the pinned key tool",
+   "kind": "setting (a hash)",
    "what": "agents run a pinned copy of pki-agent.mjs, checked with sha256sum -c, instead of downloading it",
-   "where": ["admin/tools/pki-agent.mjs", "admin/tools/pki-agent.mjs.sha256"],
+   "where": [
+    "admin/tools/pki-agent.mjs",
+    "admin/tools/pki-agent.mjs.sha256"
+   ],
    "fired": "this wake: the hash check passed before keygen (book repository)",
    "stopped": "a changed copy being run unnoticed",
    "missed": "the copy was never read line by line on the talk's team; review started: team/security/reviews/pki-agent-review.md",
    "state": "listed, review started"
   },
   {
-   "id": "C6", "name": "the gate and its leak tripwire", "kind": "setting",
+   "id": "C6",
+   "name": "the gate and its leak tripwire",
+   "kind": "setting",
    "what": "admin/build/validate.py fails the build on a private key, token-shaped value or em-dash in any tracked file",
-   "where": ["admin/build/validate.py"],
-   "fired": "to find: a gate failure in the talk's history, and what it caught",
-   "stopped": "to find", "missed": "to research: patterns only; a secret without a known shape passes",
-   "state": "listed"
+   "where": [
+    "admin/build/validate.py"
+   ],
+   "fired": "not found yet: no gate failure for a leak in the talk's history so far",
+   "stopped": "to find",
+   "missed": "cookie values and anti-forgery tokens in captured pages have no pattern in it; the reviews caught them instead (talk af0010b at 04:24, f30b73f at 06:23)",
+   "state": "listed",
+   "introduced": [
+    {
+     "commit": "talk 1f7c633",
+     "at": "00:40",
+     "what": "the tripwire is in the site's first pass"
+    }
+   ]
   },
   {
-   "id": "C7", "name": "the editor's signed decisions", "kind": "expectation",
+   "id": "C7",
+   "name": "the editor's signed decisions",
+   "kind": "expectation",
    "what": "options go in as open decisions; nobody acts on an unsigned one; nobody speaks for the editor",
-   "where": ["book.json (here)", "the talk's decisions pages"],
-   "fired": "to find", "stopped": "to find", "missed": "to find",
-   "state": "listed"
+   "where": [
+    "book.json (here)",
+    "the talk's decisions pages"
+   ],
+   "fired": [
+    {
+     "commit": "talk 78d517d",
+     "at": "15:16",
+     "what": "the editor's decisions of 15:00 committed and routed by the conductor"
+    }
+   ],
+   "stopped": "to find",
+   "missed": "to find",
+   "state": "listed, evidence started"
   },
   {
-   "id": "C8", "name": "public vaults and vault_check", "kind": "setting, with an expectation",
+   "id": "C8",
+   "name": "public vaults and vault_check",
+   "kind": "setting, with an expectation",
    "what": "the team talks through two public vaults; vault_check.py runs before every vault commit; vault keys are sealed to members, never printed",
-   "where": ["admin/tools/vault_check.py", "admin/tools/vault_handover.py"],
-   "introduced": [{"commit": "talk b620234", "at": "01:43"}, {"commit": "talk 47f529b", "at": "01:44"}],
-   "fired": [{"commit": "talk team/researcher/wakes/20261029T030550Z.json", "what": "vault_check clean on all three vaults, recorded in the post-review"}],
+   "where": [
+    "admin/tools/vault_check.py",
+    "admin/tools/vault_handover.py"
+   ],
+   "introduced": [
+    {
+     "commit": "talk b620234",
+     "at": "01:43"
+    },
+    {
+     "commit": "talk 47f529b",
+     "at": "01:44"
+    }
+   ],
+   "fired": [
+    {
+     "commit": "talk team/researcher/wakes/20261029T030550Z.json",
+     "what": "vault_check clean on all three vaults, recorded in the post-review"
+    },
+    {
+     "commit": "talk team/conductor/wakes/20261029T140334Z.json (history)",
+     "what": "the first pre-review's conditions added an sk-or- pattern to vault_check.py: a gap found by a review, not by the check"
+    }
+   ],
    "stopped": "to find: a vault_check failure",
    "missed": "to research",
    "state": "listed, evidence started"
+  },
+  {
+   "id": "C9",
+   "name": "outside accounts on the repository",
+   "kind": "setting (GitHub's collaborator role), with an expectation",
+   "what": "the one outside account, Leanpub, proposed as a collaborator for the Git and GitHub writing mode; security advises the Read role only",
+   "where": [
+    "publishing/LEANPUB.md step 2",
+    "team/security/requests/publisher__leanpub-as-collaborator-reply.md"
+   ],
+   "fired": "book team: the publisher asked security before the editor acted (team/publisher/requests/security__leanpub-as-collaborator.md)",
+   "stopped": "to see: the role the editor gives",
+   "missed": "to find",
+   "state": "book team only: the talk's record has no outside collaborator found yet"
   }
  ],
  "book_team": {
   "about": "the same register applied to this repository's own team, from round 0",
   "evidence": [
-   {"control": "C5", "what": "sha256sum -c passed before security's keygen", "wake": "team/security/wakes/20261030T014038Z.json"},
-   {"control": "C2", "what": "security's first wake: plan go, pre-review go with conditions (defensive findings only, no key material)", "wake": "team/security/wakes/20261030T014038Z.json"},
-   {"control": "C1", "what": "agents.py check: no file outside security's scope", "wake": "team/security/wakes/20261030T014038Z.json"}
+   {
+    "control": "C5",
+    "what": "sha256sum -c passed before security's keygen",
+    "wake": "team/security/wakes/20261030T014038Z.json"
+   },
+   {
+    "control": "C2",
+    "what": "security's first wake: plan go, pre-review go with conditions (defensive findings only, no key material)",
+    "wake": "team/security/wakes/20261030T014038Z.json"
+   },
+   {
+    "control": "C1",
+    "what": "agents.py check: no file outside security's scope",
+    "wake": "team/security/wakes/20261030T014038Z.json"
+   },
+   {
+    "control": "C9",
+    "what": "the publisher's request to security before an outside account was added; answered with the Read-role condition",
+    "wake": "team/security/wakes/20261030T022443Z.json"
+   },
+   {
+    "control": "C2",
+    "what": "security's own round 0 claim corrected in the open after this wake's evidence search",
+    "wake": "team/security/wakes/20261030T022443Z.json"
+   }
   ]
  }
 }
