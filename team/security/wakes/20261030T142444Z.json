@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1. Lab 01 reviewed: benign, two notes; letter to ruv-sgit with outbox copy; board 007 done. 2. controls/: the takeover, eleven roles checked for consistency (C4, C3 book_team; README section). 3. RC1 voice pass (mechanical) in rc1-review.md; letter security__007 to the conductor; status, debrief.",
    "at": "2026-10-30T14:27:49Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "15 files since 93c0333, all comms security paths, controls/, team/security/; build and gate clean (146); agents.py 0 outside scope; vault_check clean; no key, token or personal detail; nothing directing an agent; nothing attack-shaped.",
+   "at": "2026-10-30T14:28:14Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "smaller model (sub-agent)",
+   "verdict": "as-planned",
+   "comment": "1 done: lab 01 letter to ruv-sgit, outbox copy, board 007. 2 done: controls/ README and index.json, the takeover, eleven roles. 3 done: rc1-review.md second pass, letter security__007, status, debrief. Conditions kept; nothing unplanned.",
+   "at": "2026-10-30T14:28:26Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T14:28:26Z",
+ "outcome": "ok"
 }
