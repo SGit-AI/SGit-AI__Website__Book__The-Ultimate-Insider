@@ -1,0 +1,204 @@
+{
+ "title": "Map 7. Before the day: the editor's own pieces, and how they met on 29 October",
+ "height": 840,
+ "zones": [
+  {
+   "label": "Built by the editor before the day",
+   "vis": [
+    0.04,
+    0.86
+   ],
+   "evo": [
+    0.02,
+    0.52
+   ],
+   "fill": "#fbf3ea",
+   "stroke": "#c98b5a",
+   "lpos": "bottom",
+   "w": 40,
+   "hatch": true
+  }
+ ],
+ "components": [
+  {
+   "id": "day",
+   "label": "29 October: a team that works for one person",
+   "vis": 0.98,
+   "evo": 0.5,
+   "anchor": true,
+   "w": 24
+  },
+  {
+   "id": "cb",
+   "label": "The Cyber Boardroom: where this work began",
+   "vis": 0.8,
+   "evo": 0.14,
+   "inside": true,
+   "w": 16
+  },
+  {
+   "id": "newsroom",
+   "label": "The newsroom flow: writing and publishing",
+   "vis": 0.7,
+   "evo": 0.42,
+   "was": 0.2,
+   "inside": true,
+   "w": 16
+  },
+  {
+   "id": "issuesfs",
+   "label": "Issues-FS, and tagging",
+   "vis": 0.55,
+   "evo": 0.38,
+   "was": 0.2,
+   "inside": true,
+   "w": 18
+  },
+  {
+   "id": "agentexp",
+   "label": "First experiments with AI coding agents",
+   "vis": 0.64,
+   "evo": 0.05,
+   "inside": true,
+   "w": 14
+  },
+  {
+   "id": "sgit",
+   "label": "sgit",
+   "vis": 0.44,
+   "evo": 0.2,
+   "inside": true
+  },
+  {
+   "id": "sharness",
+   "label": "SHarness: far faster to build than sgit",
+   "vis": 0.26,
+   "evo": 0.07,
+   "inside": true,
+   "w": 15
+  },
+  {
+   "id": "memfs",
+   "label": "Memory-FS",
+   "vis": 0.38,
+   "evo": 0.42,
+   "inside": true
+  },
+  {
+   "id": "typesafe",
+   "label": "Type_Safe",
+   "vis": 0.28,
+   "evo": 0.44,
+   "inside": true
+  },
+  {
+   "id": "gate",
+   "label": "The gate; CI owns the version",
+   "vis": 0.2,
+   "evo": 0.4,
+   "was": 0.2,
+   "inside": true,
+   "w": 16
+  },
+  {
+   "id": "sessions",
+   "label": "AI coding agents",
+   "vis": 0.62,
+   "evo": 0.64,
+   "move": 0.82
+  },
+  {
+   "id": "actions",
+   "label": "Hosted CI",
+   "vis": 0.14,
+   "evo": 0.82,
+   "w": 9
+  },
+  {
+   "id": "git",
+   "label": "git",
+   "vis": 0.03,
+   "evo": 0.96
+  }
+ ],
+ "links": [
+  [
+   "day",
+   "newsroom"
+  ],
+  [
+   "day",
+   "issuesfs"
+  ],
+  [
+   "day",
+   "sgit"
+  ],
+  [
+   "day",
+   "sessions"
+  ],
+  [
+   "day",
+   "gate"
+  ],
+  [
+   "gate",
+   "actions"
+  ],
+  [
+   "actions",
+   "git"
+  ],
+  [
+   "sgit",
+   "git"
+  ]
+ ],
+ "flows": [
+  {
+   "from": "agentexp",
+   "to": "sgit",
+   "label": "led to",
+   "lpos": 0.5,
+   "dx": 10,
+   "w": 8
+  },
+  {
+   "from": "sgit",
+   "to": "sharness",
+   "label": "led to",
+   "lpos": 0.5,
+   "dx": 12,
+   "w": 8
+  }
+ ],
+ "notes": [
+  {
+   "text": "Positions are a reading of the editor's brief of 30 October, not measurements; the years before the day are outside the record. Memory-FS and Type_Safe do not appear in the day's record: they reached it as learnings.",
+   "vis": 0.48,
+   "evo": 0.6,
+   "w": 26,
+   "color": "#5a5a5a",
+   "size": 19
+  }
+ ],
+ "legend": [
+  {
+   "kind": "inside",
+   "text": "the editor's own"
+  },
+  {
+   "kind": "flow",
+   "text": "one led to the next (his words)"
+  },
+  {
+   "kind": "was",
+   "text": "an earlier position"
+  },
+  {
+   "kind": "move",
+   "text": "how it has moved, or is moving"
+  }
+ ]
+}

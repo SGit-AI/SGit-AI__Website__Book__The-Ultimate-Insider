@@ -1,0 +1,202 @@
+{
+ "title": "Map 5. 29 October as a value chain: the editor's need, the team, its controls and its platform",
+ "height": 880,
+ "components": [
+  {
+   "id": "editor",
+   "label": "The editor",
+   "vis": 0.99,
+   "evo": 0.45,
+   "anchor": true
+  },
+  {
+   "id": "talk",
+   "label": "The talk, on stage at 19:00",
+   "vis": 0.88,
+   "evo": 0.06,
+   "w": 16
+  },
+  {
+   "id": "site",
+   "label": "The site and the player",
+   "vis": 0.84,
+   "evo": 0.4,
+   "w": 14
+  },
+  {
+   "id": "team",
+   "label": "Nine staffed agents, one role each",
+   "vis": 0.68,
+   "evo": 0.07,
+   "w": 17
+  },
+  {
+   "id": "security",
+   "label": "Security member: proposed, never staffed",
+   "vis": 0.76,
+   "evo": 0.22,
+   "ghost": true,
+   "w": 20
+  },
+  {
+   "id": "rules",
+   "label": "Rules and record: brief, reality, corrections, wake records",
+   "vis": 0.5,
+   "evo": 0.16,
+   "w": 20
+  },
+  {
+   "id": "controls",
+   "label": "Five-step wake, holds, signed decisions",
+   "vis": 0.36,
+   "evo": 0.04,
+   "w": 15
+  },
+  {
+   "id": "tools",
+   "label": "Tools written on the day",
+   "vis": 0.36,
+   "evo": 0.22,
+   "w": 14
+  },
+  {
+   "id": "gate",
+   "label": "Gate and release pipeline",
+   "vis": 0.62,
+   "evo": 0.48,
+   "w": 14
+  },
+  {
+   "id": "vaults",
+   "label": "Public vaults: board and mailroom",
+   "vis": 0.2,
+   "evo": 0.3,
+   "w": 16
+  },
+  {
+   "id": "keys",
+   "label": "Session keys (pinned tool)",
+   "vis": 0.28,
+   "evo": 0.46,
+   "w": 13
+  },
+  {
+   "id": "sched",
+   "label": "Scheduled tasks, hourly",
+   "vis": 0.42,
+   "evo": 0.76,
+   "w": 12
+  },
+  {
+   "id": "sessions",
+   "label": "Agent sessions",
+   "vis": 0.5,
+   "evo": 0.66,
+   "w": 12
+  },
+  {
+   "id": "usage",
+   "label": "The editor's usage",
+   "vis": 0.1,
+   "evo": 0.7,
+   "w": 12
+  },
+  {
+   "id": "codehost",
+   "label": "Code host: repository, CI, hosting",
+   "vis": 0.2,
+   "evo": 0.86,
+   "w": 11
+  },
+  {
+   "id": "git",
+   "label": "git",
+   "vis": 0.02,
+   "evo": 0.96
+  }
+ ],
+ "links": [
+  [
+   "editor",
+   "talk"
+  ],
+  [
+   "talk",
+   "site"
+  ],
+  [
+   "talk",
+   "team"
+  ],
+  [
+   "team",
+   "security"
+  ],
+  [
+   "team",
+   "rules"
+  ],
+  [
+   "team",
+   "controls"
+  ],
+  [
+   "team",
+   "tools"
+  ],
+  [
+   "site",
+   "gate"
+  ],
+  [
+   "tools",
+   "vaults"
+  ],
+  [
+   "tools",
+   "keys"
+  ],
+  [
+   "team",
+   "sessions"
+  ],
+  [
+   "sessions",
+   "sched"
+  ],
+  [
+   "sessions",
+   "usage"
+  ],
+  [
+   "gate",
+   "codehost"
+  ],
+  [
+   "codehost",
+   "git"
+  ],
+  [
+   "rules",
+   "gate"
+  ]
+ ],
+ "notes": [
+  {
+   "text": "What the editor saw was new on the day; what it all stood on was rented.",
+   "vis": 0.97,
+   "evo": 0.68,
+   "w": 18
+  }
+ ],
+ "legend": [
+  {
+   "kind": "anchor",
+   "text": "the user"
+  },
+  {
+   "kind": "ghost",
+   "text": "proposed, never staffed"
+  }
+ ]
+}

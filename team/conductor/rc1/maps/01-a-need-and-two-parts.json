@@ -1,0 +1,67 @@
+{
+ "title": "Map 1. A user, a need, and two parts that meet it",
+ "axes": "chain",
+ "height": 520,
+ "components": [
+  {
+   "id": "editor",
+   "label": "The editor (the user)",
+   "vis": 0.98,
+   "evo": 0.5,
+   "anchor": true,
+   "pos": "right"
+  },
+  {
+   "id": "talk",
+   "label": "A talk on stage at 19:00, London (the need)",
+   "vis": 0.68,
+   "evo": 0.5,
+   "w": 26,
+   "bold": true
+  },
+  {
+   "id": "slides",
+   "label": "Slides",
+   "vis": 0.22,
+   "evo": 0.28,
+   "pos": "left"
+  },
+  {
+   "id": "player",
+   "label": "A player to show them",
+   "vis": 0.22,
+   "evo": 0.72,
+   "w": 14
+  }
+ ],
+ "links": [
+  [
+   "editor",
+   "talk"
+  ],
+  [
+   "talk",
+   "slides"
+  ],
+  [
+   "talk",
+   "player"
+  ]
+ ],
+ "notes": [
+  {
+   "text": "Read down: each line means 'needs'. The talk needs slides, and a player to show them.",
+   "vis": 0.97,
+   "evo": 0.02,
+   "w": 22,
+   "color": "#5a5a5a"
+  },
+  {
+   "text": "Higher on the page: the editor sees and cares about it. Lower: he relies on it without looking.",
+   "vis": 0.5,
+   "evo": 0.74,
+   "w": 24,
+   "color": "#5a5a5a"
+  }
+ ]
+}

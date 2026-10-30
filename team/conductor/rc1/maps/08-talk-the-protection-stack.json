@@ -1,0 +1,138 @@
+{
+ "title": "Map 8. The talk's map: the protection stack, from primitive permissions to a licence to operate",
+ "components": [
+  {
+   "id": "trust",
+   "label": "Trust to give an agent autonomy",
+   "vis": 0.97,
+   "evo": 0.3,
+   "w": 18
+  },
+  {
+   "id": "lic",
+   "label": "Licence to operate (suspendable)",
+   "vis": 0.8,
+   "evo": 0.08,
+   "move": 0.35,
+   "w": 18
+  },
+  {
+   "id": "dec",
+   "label": "Decision behaviour policies",
+   "vis": 0.66,
+   "evo": 0.05,
+   "w": 18
+  },
+  {
+   "id": "proc",
+   "label": "Process behaviour policies",
+   "vis": 0.6,
+   "evo": 0.1,
+   "w": 18
+  },
+  {
+   "id": "abp",
+   "label": "Agent Behaviour Policy: reach, mandate, gap",
+   "vis": 0.52,
+   "evo": 0.2,
+   "move": 0.45,
+   "w": 18
+  },
+  {
+   "id": "reach",
+   "label": "Measured reach",
+   "vis": 0.36,
+   "evo": 0.22,
+   "w": 18
+  },
+  {
+   "id": "sandbox",
+   "label": "Sandboxes, harness (Sharness.ai)",
+   "vis": 0.28,
+   "evo": 0.35,
+   "w": 18
+  },
+  {
+   "id": "nhi",
+   "label": "Agent identity, short-lived keys",
+   "vis": 0.2,
+   "evo": 0.3,
+   "w": 18
+  },
+  {
+   "id": "rbac",
+   "label": "Roles and permissions (RBAC)",
+   "vis": 0.12,
+   "evo": 0.88,
+   "w": 18
+  }
+ ],
+ "links": [
+  [
+   "trust",
+   "lic"
+  ],
+  [
+   "lic",
+   "dec"
+  ],
+  [
+   "lic",
+   "proc"
+  ],
+  [
+   "lic",
+   "abp"
+  ],
+  [
+   "abp",
+   "reach"
+  ],
+  [
+   "abp",
+   "sandbox"
+  ],
+  [
+   "reach",
+   "rbac"
+  ],
+  [
+   "sandbox",
+   "nhi"
+  ],
+  [
+   "nhi",
+   "rbac"
+  ],
+  [
+   "proc",
+   "abp"
+  ],
+  [
+   "dec",
+   "abp"
+  ]
+ ],
+ "notes": [
+  {
+   "text": "today: a commodity built for limited insiders",
+   "vis": 0.05,
+   "evo": 0.62,
+   "w": 28
+  },
+  {
+   "text": "what agents need: still in genesis",
+   "vis": 0.9,
+   "evo": 0.02,
+   "w": 28
+  }
+ ],
+ "source": "The talk's storyteller, team/storyteller/maps/3-protection-stack.json at 298be4e; labels and positions unchanged, re-rendered for print",
+ "height": 760,
+ "legend": [
+  {
+   "kind": "move",
+   "text": "evolving: where it is heading"
+  }
+ ]
+}

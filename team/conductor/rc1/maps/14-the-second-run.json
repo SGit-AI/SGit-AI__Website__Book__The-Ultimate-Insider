@@ -1,0 +1,174 @@
+{
+ "title": "Map 14. The second run: the method moves from explorer to villager",
+ "height": 860,
+ "bands": [
+  {
+   "label": "Explorer",
+   "from": 0.0,
+   "to": 0.3,
+   "fill": "#f2f2f2"
+  },
+  {
+   "label": "Villager",
+   "from": 0.3,
+   "to": 0.65,
+   "fill": "#ffffff"
+  },
+  {
+   "label": "Town planner",
+   "from": 0.65,
+   "to": 1.0,
+   "fill": "#e2e2e2"
+  }
+ ],
+ "components": [
+  {
+   "id": "editor",
+   "label": "The editor: a project run by a team he can trust",
+   "vis": 0.93,
+   "evo": 0.48,
+   "anchor": true,
+   "w": 22
+  },
+  {
+   "id": "talk",
+   "label": "The talk: day one of the method (29 October)",
+   "vis": 0.84,
+   "evo": 0.07,
+   "w": 16
+  },
+  {
+   "id": "book",
+   "label": "This book, RC1: the villager's edition",
+   "vis": 0.78,
+   "evo": 0.34,
+   "move": 0.66,
+   "w": 16
+  },
+  {
+   "id": "mach",
+   "label": "The machinery, ported rule for rule (30 October)",
+   "vis": 0.62,
+   "evo": 0.36,
+   "was": 0.08,
+   "w": 17
+  },
+  {
+   "id": "sec",
+   "label": "Security staffed from round 0",
+   "vis": 0.48,
+   "evo": 0.07,
+   "w": 13
+  },
+  {
+   "id": "done",
+   "label": "A definition of done for every member",
+   "vis": 0.38,
+   "evo": 0.12,
+   "w": 14
+  },
+  {
+   "id": "scope",
+   "label": "Scope changes reported",
+   "vis": 0.28,
+   "evo": 0.06,
+   "w": 12
+  },
+  {
+   "id": "pub",
+   "label": "PDF and EPUB build (pandoc, a headless browser)",
+   "vis": 0.48,
+   "evo": 0.78,
+   "w": 16
+  },
+  {
+   "id": "shelf",
+   "label": "Publishing platforms",
+   "vis": 0.62,
+   "evo": 0.7,
+   "w": 10
+  },
+  {
+   "id": "sessions",
+   "label": "Agent sessions",
+   "vis": 0.24,
+   "evo": 0.7,
+   "w": 12
+  },
+  {
+   "id": "codehost",
+   "label": "git, hosted CI",
+   "vis": 0.08,
+   "evo": 0.9,
+   "w": 20
+  }
+ ],
+ "links": [
+  [
+   "editor",
+   "talk"
+  ],
+  [
+   "editor",
+   "book"
+  ],
+  [
+   "book",
+   "mach"
+  ],
+  [
+   "talk",
+   "mach"
+  ],
+  [
+   "book",
+   "shelf"
+  ],
+  [
+   "shelf",
+   "pub"
+  ],
+  [
+   "mach",
+   "sec"
+  ],
+  [
+   "mach",
+   "done"
+  ],
+  [
+   "mach",
+   "scope"
+  ],
+  [
+   "mach",
+   "sessions"
+  ],
+  [
+   "mach",
+   "codehost"
+  ],
+  [
+   "pub",
+   "codehost"
+  ]
+ ],
+ "notes": [
+  {
+   "text": "A publisher's edit, later, is the town planner's.",
+   "vis": 0.86,
+   "evo": 0.68,
+   "w": 18
+  }
+ ],
+ "legend": [
+  {
+   "kind": "was",
+   "text": "where it stood on 29 October"
+  },
+  {
+   "kind": "move",
+   "text": "where it is heading"
+  }
+ ]
+}

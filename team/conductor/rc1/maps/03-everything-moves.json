@@ -1,0 +1,114 @@
+{
+ "title": "Map 3. Movement: everything drifts right as it is used, copied and competed over",
+ "height": 680,
+ "components": [
+  {
+   "id": "editor",
+   "label": "The editor",
+   "vis": 0.98,
+   "evo": 0.42,
+   "anchor": true
+  },
+  {
+   "id": "talk",
+   "label": "The talk",
+   "vis": 0.88,
+   "evo": 0.07
+  },
+  {
+   "id": "team",
+   "label": "An agent team with mandates",
+   "vis": 0.62,
+   "evo": 0.07,
+   "move": 0.33,
+   "w": 16
+  },
+  {
+   "id": "slides",
+   "label": "Slides",
+   "vis": 0.77,
+   "evo": 0.24
+  },
+  {
+   "id": "gate",
+   "label": "Gate and release pipeline",
+   "vis": 0.34,
+   "evo": 0.3,
+   "move": 0.48,
+   "w": 16
+  },
+  {
+   "id": "agents",
+   "label": "AI coding agents",
+   "vis": 0.5,
+   "evo": 0.56,
+   "move": 0.8,
+   "w": 14
+  },
+  {
+   "id": "ci",
+   "label": "CI (a hosted pipeline)",
+   "vis": 0.24,
+   "evo": 0.76,
+   "w": 22
+  },
+  {
+   "id": "git",
+   "label": "git",
+   "vis": 0.08,
+   "evo": 0.95
+  }
+ ],
+ "links": [
+  [
+   "editor",
+   "talk"
+  ],
+  [
+   "talk",
+   "slides"
+  ],
+  [
+   "talk",
+   "team"
+  ],
+  [
+   "team",
+   "agents"
+  ],
+  [
+   "team",
+   "gate"
+  ],
+  [
+   "slides",
+   "gate"
+  ],
+  [
+   "gate",
+   "ci"
+  ],
+  [
+   "ci",
+   "git"
+  ],
+  [
+   "agents",
+   "git"
+  ]
+ ],
+ "notes": [
+  {
+   "text": "A dashed arrow is where a part is heading, not where it is. The team's machinery was ported, rule for rule, to two more teams after the day.",
+   "vis": 0.97,
+   "evo": 0.6,
+   "w": 26
+  }
+ ],
+ "legend": [
+  {
+   "kind": "move",
+   "text": "evolving: where it is heading"
+  }
+ ]
+}

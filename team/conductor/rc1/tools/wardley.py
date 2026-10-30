@@ -2,7 +2,7 @@
 """Render a Wardley map from a small JSON file to SVG, sized for print (a 6 x 9 inch page).
 
 Ported from the talk's storyteller (team/storyteller/tools/wardley.py at 298be4e) and reworked for
-the book by its illustrator: larger type, wrapped labels, clean lines, notes, red evolution arrows,
+the book by its illustrator: larger type, wrapped labels, clean lines, notes, dark dashed evolution arrows and hatched shading that survive a black-and-white print,
 inertia bars, directed flows, zones and a legend. The talk's map files still render unchanged.
 
 The viewBox is 1000 units wide; printed at the text width (about 4.7 inches) a unit is about a
@@ -14,15 +14,15 @@ A map file:
   "axes"        "full" (default) or "chain" (the value chain only: no evolution stages)
   "components"  [{"id", "label", "vis", "evo",
                   "pos": "right"|"left"|"above"|"below" (label side; omitted, the renderer picks the clearest), "dx", "dy", "w" (wrap, chars),
-                  "anchor": true (the user, drawn solid), "inside": true (shaded), "fill",
+                  "anchor": true (the user, drawn solid), "inside": true (hatched), "fill",
                   "shape": "circle"|"square", "ghost": true (dashed: proposed, absent or never used),
-                  "move": evo it is heading to (red dashed arrow), "was": evo it came from (grey ring),
+                  "move": evo it is heading to (dark dashed arrow), "was": evo it came from (grey ring),
                   "inertia": evo where a bar holds the move back, "bold": true}]
                 vis is 0 (invisible) to 1 (the user); evo is 0 (genesis) to 1 (commodity)
   "links"       [[from, to]]  plain dependency lines
   "flows"       [{"from", "to", "label", "color", "dash": true, "bend": -1..1, "lpos": 0..1}]  directed arrows
   "bands"       [{"label", "from", "to", "fill"}]  vertical bands across evolution
-  "zones"       [{"label", "vis": [lo, hi], "evo": [lo, hi], "fill", "stroke", "lpos": "top"|"bottom"}]
+  "zones"       [{"label", "vis": [lo, hi], "evo": [lo, hi], "fill", "stroke", "hatch": true, "lpos": "top"|"bottom"}]
   "notes"       [{"text", "vis", "evo", "w", "align": "start"|"middle"|"end", "color", "size"}]
   "stage_notes" four short lines, one under each stage name (what the stage means)
   "legend"      [{"kind": "circle"|"square"|"inside"|"anchor"|"ghost"|"move"|"inertia"|"flow"|"was", "text", "fill"?}]
@@ -34,6 +34,8 @@ from pathlib import Path
 W, L, R, T0 = 1000, 64, 26, 20
 FONT = "Inter, 'DejaVu Sans', Arial, sans-serif"
 INK, GREY, LINE, RED, BLUE = '#1a1a1a', '#5a5a5a', '#9a9a9a', '#c0392b', '#1f5f99'
+MOVE = '#7a1f14'  # very dark red: reads as a red arrow in colour and as a near-black dashed arrow in grey
+HATCH = 'url(#hatch)'
 LABEL, NOTE, AXIS, TITLE = 23, 21, 20, 28
 CHAR = 0.53  # average glyph width, as a share of the font size
 
@@ -83,7 +85,9 @@ def render(m):
     o = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H:.0f}" font-family="{FONT}" fill="{INK}">',
          f'<rect width="{W}" height="{H:.0f}" fill="#fff"/>',
          '<defs>'
-         f'<marker id="red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="{RED}"/></marker>'
+         f'<marker id="red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="{MOVE}"/></marker>'
+         '<pattern id="hatch" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="7" height="7" fill="#e9d2b8"/><line x1="0" y1="0" x2="0" y2="7" stroke="#5a4030" stroke-width="2.2"/></pattern>'
+         '<pattern id="zhatch" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="16" height="16" fill="#f7efe6"/><line x1="0" y1="0" x2="0" y2="16" stroke="#d8c3ad" stroke-width="2"/></pattern>'
          f'<marker id="ax" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="{INK}"/></marker>'
          '</defs>']
     o.append(text_block(L - 40, T0 + TITLE * 0.4, title_lines, TITLE, extra=' font-weight="700"', valign='top', lh=1.2))
@@ -96,7 +100,7 @@ def render(m):
     for z in m.get('zones', []):
         zx0, zy1 = xy(z['vis'][0], z['evo'][0]); zx1, zy0 = xy(z['vis'][1], z['evo'][1])
         o.append(f'<rect x="{zx0:.1f}" y="{zy0:.1f}" width="{zx1 - zx0:.1f}" height="{zy1 - zy0:.1f}" rx="14" '
-                 f'fill="{z.get("fill", "#f3f3f3")}" stroke="{z.get("stroke", "#8a8a8a")}" stroke-width="1.6" stroke-dasharray="7 5"/>')
+                 f'fill="{"url(#zhatch)" if z.get("hatch") else z.get("fill", "#f3f3f3")}" stroke="{z.get("stroke", "#8a8a8a")}" stroke-width="1.6" stroke-dasharray="7 5"/>')
         lines = wrap(z['label'], z.get('w', 40))
         if z.get('lpos', 'top') == 'top':
             o.append(text_block(zx0 + 14, zy0 + 8, lines, AXIS, 'start', f' font-weight="600" fill="{GREY}"', 'top'))
@@ -129,6 +133,7 @@ def render(m):
         (ax, ay), (bx, by) = at(lk[0]), at(lk[1])
         o.append(f'<line x1="{ax:.1f}" y1="{ay:.1f}" x2="{bx:.1f}" y2="{by:.1f}" stroke="{LINE}" stroke-width="1.6"/>')
 
+    late, flow_boxes = [], []
     # flows: directed arrows, optionally curved, stopping short of the circles
     for i, f in enumerate(m.get('flows', [])):
         (ax, ay), (bx, by) = at(f['from']), at(f['to'])
@@ -147,8 +152,11 @@ def render(m):
             lx = (1 - t) ** 2 * sx + 2 * (1 - t) * t * cx + t ** 2 * ex
             ly = (1 - t) ** 2 * sy + 2 * (1 - t) * t * cy + t ** 2 * ey
             lines = wrap(f['label'], f.get('w', 22))
-            o.append(text_block(lx + f.get('dx', 8), ly + f.get('dy', 0), lines, NOTE, f.get('align', 'start'),
-                                f' fill="{col}" font-style="italic" font-weight="600"'))
+            fx, fy = lx + f.get('dx', 8), ly + f.get('dy', 0)
+            fw, fh = max(map(len, lines)) * NOTE * CHAR, len(lines) * NOTE * 1.18
+            al = f.get('align', 'start')
+            flow_boxes.append((fx - (fw / 2 if al == 'middle' else fw if al == 'end' else 0), fy - fh / 2, fw, fh))
+            late.append(text_block(fx, fy, lines, NOTE, al, f' fill="{col}" font-style="italic" font-weight="600"'))
 
     # movement: previous positions, inertia, arrows
     for x in m['components']:
@@ -156,10 +164,10 @@ def render(m):
         if 'was' in x:
             wx, _ = xy(x['vis'], x['was'])
             o.append(f'<circle cx="{wx:.1f}" cy="{py:.1f}" r="8" fill="#fff" stroke="#9a9a9a" stroke-width="1.8" stroke-dasharray="3 3"/>')
-            o.append(f'<line x1="{wx + 11:.1f}" y1="{py:.1f}" x2="{px - 13:.1f}" y2="{py:.1f}" stroke="{RED}" stroke-width="2.6" stroke-dasharray="8 5" marker-end="url(#red)"/>')
+            o.append(f'<line x1="{wx + 11:.1f}" y1="{py:.1f}" x2="{px - 13:.1f}" y2="{py:.1f}" stroke="{MOVE}" stroke-width="3" stroke-dasharray="10 6" marker-end="url(#red)"/>')
         if 'move' in x:
             mx, _ = xy(x['vis'], x['move'])
-            o.append(f'<line x1="{px + 12:.1f}" y1="{py:.1f}" x2="{mx:.1f}" y2="{py:.1f}" stroke="{RED}" stroke-width="2.6" stroke-dasharray="8 5" marker-end="url(#red)"/>')
+            o.append(f'<line x1="{px + 12:.1f}" y1="{py:.1f}" x2="{mx:.1f}" y2="{py:.1f}" stroke="{MOVE}" stroke-width="3" stroke-dasharray="10 6" marker-end="url(#red)"/>')
         if 'inertia' in x:
             ix, _ = xy(x['vis'], x['inertia'])
             o.append(f'<rect x="{ix - 4:.1f}" y="{py - 20:.1f}" width="8" height="40" fill="{INK}"/>')
@@ -178,13 +186,22 @@ def render(m):
     pts = {x['id']: at(x['id']) for x in m['components']}
     for x in m['components']:
         if 'was' in x: pts[x['id'] + '~was'] = (xy(x['vis'], x['was'])[0], at(x['id'])[1])
-    boxes = []
+    boxes = list(flow_boxes)
+    for z in m.get('zones', []):
+        zx0, zy1 = xy(z['vis'][0], z['evo'][0]); zx1, zy0 = xy(z['vis'][1], z['evo'][1])
+        zl = wrap(z['label'], z.get('w', 40)); zh = len(zl) * AXIS * 1.18
+        zw = max(map(len, zl)) * AXIS * CHAR
+        boxes.append((zx0 + 14, zy0 + 8 if z.get('lpos', 'top') == 'top' else zy1 - 10 - zh, zw, zh))
+    for b in m.get('bands', []):
+        bx0, _ = xy(0, b['from']); bx1, _ = xy(0, b['to'])
+        bw = len(b['label']) * AXIS * CHAR
+        boxes.append(((bx0 + bx1 - bw) / 2, y0 + 8, bw, AXIS * 1.2))
     for n in m.get('notes', []):
         nx, ny = xy(n['vis'], n['evo'])
         nl = wrap(n['text'], n.get('w', 30)); sz = n.get('size', NOTE)
         bw, bh = max(map(len, nl)) * sz * CHAR, len(nl) * sz * 1.18
         bx = nx - (bw / 2 if n.get('align') == 'middle' else bw if n.get('align') == 'end' else 0)
-        boxes.append((bx, ny if n.get('valign', 'top') == 'top' else ny - bh, bw, bh))
+        boxes.append((bx, ny if n.get('valign', 'bottom' if n['vis'] < 0.25 else 'top') == 'top' else ny - bh, bw, bh))
 
     def hits(seg, b):
         (ax, ay), (bx, by) = seg
@@ -230,7 +247,7 @@ def render(m):
           lines = wrap(x['label'], wi)
           bw, bh = max(map(len, lines)) * LABEL * CHAR, len(lines) * LABEL * 1.18
           for name, dx, dy, cost, b in candidates(px, py, bw, bh, x):
-            sc = cost + (0 if wi == x.get('w', 22) else 3)
+            sc = cost + (0 if wi == x.get('w', 22) else 3) + 3 * len(lines)
             if b[0] < x0 + 6 or b[0] + b[2] > W - 2 or b[1] < T - 14 or b[1] + b[3] > y1 + (40 if chain_only else -2):
                 sc += 5000
             sc += 1000 * sum(overlap(b, o2) for o2 in placed + boxes)
@@ -244,7 +261,7 @@ def render(m):
     for x in m['components']:
         px, py = at(x['id'])
         r = 10 if x.get('anchor') else 8.5
-        fill = x.get('fill') or (INK if x.get('anchor') else '#f2c48d' if x.get('inside') else '#fff')
+        fill = x.get('fill') or (INK if x.get('anchor') else HATCH if x.get('inside') else '#fff')
         dash = ' stroke-dasharray="4 3"' if x.get('ghost') else ''
         if x.get('shape') == 'square':
             o.append(f'<rect x="{px - r:.1f}" y="{py - r:.1f}" width="{2 * r}" height="{2 * r}" fill="{fill}" stroke="{INK}" stroke-width="2.2"{dash}/>')
@@ -262,11 +279,12 @@ def render(m):
         else:
             o.append(text_block(px + dx, py + 16 + dy, lines, LABEL, 'middle', style, 'top'))
 
+    o.extend(late)
     for n in m.get('notes', []):
         px, py = xy(n['vis'], n['evo'])
         lines = wrap(n['text'], n.get('w', 30))
         o.append(text_block(px, py, lines, n.get('size', NOTE), n.get('align', 'start'),
-                            f' fill="{n.get("color", RED)}" font-style="italic"', n.get('valign', 'top')))
+                            f' fill="{n.get("color", RED)}" font-style="italic"', n.get('valign', 'bottom' if n['vis'] < 0.25 else 'top')))
 
     if legend:
         ly = y1 + B + 4
@@ -277,14 +295,14 @@ def render(m):
             gy = ly + 26 + (i // 2) * 36
             k = it['kind']
             if k in ('circle', 'inside', 'anchor', 'ghost'):
-                f = it.get('fill') or (INK if k == 'anchor' else '#f2c48d' if k == 'inside' else '#fff')
+                f = it.get('fill') or (INK if k == 'anchor' else HATCH if k == 'inside' else '#fff')
                 dash = ' stroke-dasharray="4 3"' if k == 'ghost' else ''
                 o.append(f'<circle cx="{gx}" cy="{gy}" r="8.5" fill="{f}" stroke="{INK}" stroke-width="2.2"{dash}/>')
             elif k == 'square':
                 sf = it.get('fill', '#fff')
                 o.append(f'<rect x="{gx - 8.5}" y="{gy - 8.5}" width="17" height="17" fill="{sf}" stroke="{INK}" stroke-width="2.2"/>')
             elif k == 'move':
-                o.append(f'<line x1="{gx - 12}" y1="{gy}" x2="{gx + 14}" y2="{gy}" stroke="{RED}" stroke-width="2.6" stroke-dasharray="8 5" marker-end="url(#red)"/>')
+                o.append(f'<line x1="{gx - 12}" y1="{gy}" x2="{gx + 14}" y2="{gy}" stroke="{MOVE}" stroke-width="3" stroke-dasharray="10 6" marker-end="url(#red)"/>')
             elif k == 'was':
                 o.append(f'<circle cx="{gx}" cy="{gy}" r="8" fill="#fff" stroke="#9a9a9a" stroke-width="1.8" stroke-dasharray="3 3"/>')
             elif k == 'inertia':

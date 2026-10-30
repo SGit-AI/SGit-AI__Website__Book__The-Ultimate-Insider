@@ -1,0 +1,154 @@
+{
+ "title": "Map 15. The talk's map: where exploitation sits, what will evolve, and who builds it",
+ "bands": [
+  {
+   "label": "Pioneers",
+   "from": 0.0,
+   "to": 0.25,
+   "fill": "#f2f2f2"
+  },
+  {
+   "label": "Settlers",
+   "from": 0.25,
+   "to": 0.62,
+   "fill": "#ffffff"
+  },
+  {
+   "label": "Town planners",
+   "from": 0.62,
+   "to": 1.0,
+   "fill": "#e2e2e2"
+  }
+ ],
+ "components": [
+  {
+   "id": "biz",
+   "label": "A business that trusts its agents",
+   "vis": 0.9,
+   "evo": 0.47,
+   "w": 18
+  },
+  {
+   "id": "agent",
+   "label": "Agents at work",
+   "vis": 0.8,
+   "evo": 0.35,
+   "move": 0.6,
+   "w": 18
+  },
+  {
+   "id": "expl",
+   "label": "Exploitation at the edge",
+   "vis": 0.66,
+   "evo": 0.8,
+   "w": 18
+  },
+  {
+   "id": "agentic-attack",
+   "label": "Autonomous attack pipelines",
+   "vis": 0.62,
+   "evo": 0.06,
+   "move": 0.3,
+   "w": 18
+  },
+  {
+   "id": "policy",
+   "label": "Behaviour policies, licences",
+   "vis": 0.48,
+   "evo": 0.1,
+   "inside": true,
+   "move": 0.4,
+   "w": 18
+  },
+  {
+   "id": "contain",
+   "label": "Containment (Sharness.ai, sandboxes)",
+   "vis": 0.36,
+   "evo": 0.24,
+   "inside": true,
+   "move": 0.55,
+   "w": 18
+  },
+  {
+   "id": "reach",
+   "label": "Measured reach",
+   "vis": 0.26,
+   "evo": 0.18,
+   "inside": true,
+   "move": 0.5,
+   "w": 18
+  },
+  {
+   "id": "patch",
+   "label": "Scanning, patching, WAF",
+   "vis": 0.2,
+   "evo": 0.85,
+   "w": 18
+  },
+  {
+   "id": "iam",
+   "label": "Identity and roles",
+   "vis": 0.08,
+   "evo": 0.82,
+   "w": 18
+  }
+ ],
+ "links": [
+  [
+   "biz",
+   "agent"
+  ],
+  [
+   "biz",
+   "expl"
+  ],
+  [
+   "agent",
+   "policy"
+  ],
+  [
+   "agent",
+   "contain"
+  ],
+  [
+   "policy",
+   "reach"
+  ],
+  [
+   "contain",
+   "iam"
+  ],
+  [
+   "reach",
+   "iam"
+  ],
+  [
+   "expl",
+   "patch"
+  ],
+  [
+   "expl",
+   "agentic-attack"
+  ]
+ ],
+ "notes": [
+  {
+   "text": "the opportunity: settler and town-planner services for agent security",
+   "vis": 0.02,
+   "evo": 0.27,
+   "w": 28
+  }
+ ],
+ "source": "The talk's storyteller, team/storyteller/maps/4-evolution-and-the-opportunity.json at 298be4e; labels and positions unchanged, re-rendered for print",
+ "height": 760,
+ "legend": [
+  {
+   "kind": "inside",
+   "text": "shaded: inside (the storyteller's mark)"
+  },
+  {
+   "kind": "move",
+   "text": "evolving: where it is heading"
+  }
+ ]
+}
