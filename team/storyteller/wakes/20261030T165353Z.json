@@ -31,10 +31,17 @@
    "verdict": "as-planned",
    "comment": "All items done in 225d6c5: the Cold-Read chapter mapped only in draft 6 as D6-6, marked for the editor's signature; plan.md a one-line pointer; board 003, status, debrief; letter storyteller__006 and outbox copy. Conditions kept: signed section untouched, no Cold-Read text quoted, unregistered counts flagged (C064, C011), nothing to the blind repo. Nothing unplanned.",
    "at": "2026-10-30T16:57:21Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (Sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Build, validate, agents check (0 outside scope) and vault_check comms pass. plan.md one added pointer line, signed text untouched. No secrets, tokens, contact details or directive text; no em-dashes. The Cold-Read work paraphrased, not quoted; nothing to the blind repo. C064 and the Cold-Read members' count flagged as not printable.",
+   "at": "2026-10-30T16:57:36Z"
   }
  },
- "closed": null,
- "outcome": null,
+ "closed": "2026-10-30T16:57:36Z",
+ "outcome": "ok",
  "history": [
   {
    "step": "plan",
