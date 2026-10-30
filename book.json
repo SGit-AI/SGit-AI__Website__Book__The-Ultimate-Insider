@@ -206,7 +206,7 @@
    "status": "open",
    "by": "editor",
    "ask": "The title",
-   "detail": "The editor, 30 October: an agent looks at it first. The market stream (synthetic readers and positioning) tests the candidates on [the book page](../book/index.html#title) and better ones against the readers, and proposes; the editor signs in round 1."
+   "detail": "The editor, 30 October: an agent looks at it first. The market stream (synthetic readers and positioning) tests the candidates on [the book page](../book/index.html#title) and better ones against the readers, and proposes; the editor signs in round 1. RC1 carries the working title, The Ultimate Insider, marked as working."
   },
   {
    "id": "Q4",
@@ -216,65 +216,15 @@
    "detail": "Not in the talk's repository; the editor holds them: his voice memos of 29 October (the morning's narrative memo, the 13:50 feedback round, the 15:00 decisions round), the claude.ai session transcripts in which the briefs were written, and any recording of the talk on stage at 19:00. Do any of them go into the book's source?"
   },
   {
-   "id": "P0",
-   "status": "open",
-   "by": "editor",
-   "ask": "Sign the chapter plan",
-   "detail": "The storyteller's draft 4 in `chapter-plan/` (not signed): thirteen chapters with word budgets, ending in Appendix A, every number rerun from git, every number by register id, the evidence by index, timeline and control. Nothing is written until it is signed. O1 to O5 below are its open questions; signing the plan answers them as drafted unless you say otherwise. Asked by the storyteller."
-  },
-  {
-   "id": "O1",
-   "status": "open",
-   "by": "editor",
-   "ask": "The length",
-   "detail": "From `chapter-plan/open-questions.md`. The storyteller proposes A for Leanpub, with B as the fallback if round 2 runs short.",
-   "options": [
-    "A: about 49,200 words, thirteen chapters (the plan as drafted)",
-    "B: about 32,000 words, ten chapters (4 and 6 folded in, 9 to 11 shortened)"
-   ]
-  },
-  {
-   "id": "O2",
-   "status": "open",
-   "by": "editor",
-   "ask": "The opening",
-   "detail": "The storyteller proposes A: the hold is the thesis in one scene.",
-   "options": [
-    "A: open on the 18:44 hold, then go back to midnight (the plan as drafted)",
-    "B: open at midnight and tell the day in order, the hold in chapter 8"
-   ]
-  },
-  {
-   "id": "O3",
-   "status": "open",
-   "by": "editor",
-   "ask": "The talk as given",
-   "detail": "May chapter 10 quote the cleaned transcript and your debrief, added to the talk's repository after the day (`a9c0b49`), and show what you said on stage beside what was planned? If not, chapter 10 becomes a short section of chapter 8."
-  },
-  {
    "id": "O4",
    "status": "open",
    "by": "editor",
    "ask": "Your voice in the book",
-   "detail": "Your voice memos and claude.ai transcripts of 29 October are not in the record (the same ground as Q4).",
+   "detail": "Your voice memos and claude.ai transcripts of 29 October are not in the record (the same ground as Q4). For RC1, at the editor's word above and his flight the same day: the record only. The interview stays open for the next edition.",
    "options": [
     "A: an interview with you feeds chapters 6 and 12",
     "B: the book uses only what is in the record"
    ]
-  },
-  {
-   "id": "O5",
-   "status": "open",
-   "by": "editor",
-   "ask": "The braid",
-   "detail": "Each workflow chapter carries the beat of the talk its control answers (the plan as drafted), rather than the argument in chapters of its own. Sign or strike."
-  },
-  {
-   "id": "C011",
-   "status": "open",
-   "by": "editor",
-   "ask": "\"A ten-agent team\"",
-   "detail": "The brief says ten; the researcher's register counts nine staffed agents, with security proposed and never staffed (claim C011). Which wording does the book use? Chapters 0 and 6 wait on it. Asked by the researcher."
   },
   {
    "id": "L1",
@@ -321,6 +271,52 @@
     "A: ask the idle members (today the librarian and the publisher) to pause their own tasks until you sign P0; you re-enable them after, as only you may",
     "B: leave every task running round the clock, as Q2 decided"
    ]
+  },
+  {
+   "id": "P0",
+   "status": "decided",
+   "by": "editor",
+   "ask": "Sign the chapter plan",
+   "detail": "The editor, in the conductor's session, 30 October 2026 about 10:00 UTC: \"Ok so can you ask the respective agents to review all the work that has been done even done by the cold-read team, who has finished and then can you work on creating the first RC of this book, use the judgement of the team. I'm flying later today and want to print this pdf and read it on the flight.\" Decided as the team proposed. The plan is `chapter-plan/plan.md`, draft 5. RC1 is drafted from it."
+  },
+  {
+   "id": "O1",
+   "status": "decided",
+   "by": "editor",
+   "ask": "The length",
+   "detail": "The editor, in the conductor's session, 30 October 2026 about 10:00 UTC: \"Ok so can you ask the respective agents to review all the work that has been done even done by the cold-read team, who has finished and then can you work on creating the first RC of this book, use the judgement of the team. I'm flying later today and want to print this pdf and read it on the flight.\" Decided as the team proposed. A: about 49,200 words, thirteen chapters and Appendix A."
+  },
+  {
+   "id": "O2",
+   "status": "decided",
+   "by": "editor",
+   "ask": "The opening",
+   "detail": "The editor, in the conductor's session, 30 October 2026 about 10:00 UTC: \"Ok so can you ask the respective agents to review all the work that has been done even done by the cold-read team, who has finished and then can you work on creating the first RC of this book, use the judgement of the team. I'm flying later today and want to print this pdf and read it on the flight.\" Decided as the team proposed. A: the book opens on the 18:44 hold.",
+   "options": [
+    "A: open on the 18:44 hold, then go back to midnight (the plan as drafted)",
+    "B: open at midnight and tell the day in order, the hold in chapter 8"
+   ]
+  },
+  {
+   "id": "O3",
+   "status": "decided",
+   "by": "editor",
+   "ask": "The talk as given",
+   "detail": "The editor, in the conductor's session, 30 October 2026 about 10:00 UTC: \"Ok so can you ask the respective agents to review all the work that has been done even done by the cold-read team, who has finished and then can you work on creating the first RC of this book, use the judgement of the team. I'm flying later today and want to print this pdf and read it on the flight.\" Decided as the team proposed. Yes: chapter 10 quotes the cleaned transcript and the editor's debrief, cited as added after the day (talk repository `a9c0b49`)."
+  },
+  {
+   "id": "O5",
+   "status": "decided",
+   "by": "editor",
+   "ask": "The braid",
+   "detail": "The editor, in the conductor's session, 30 October 2026 about 10:00 UTC: \"Ok so can you ask the respective agents to review all the work that has been done even done by the cold-read team, who has finished and then can you work on creating the first RC of this book, use the judgement of the team. I'm flying later today and want to print this pdf and read it on the flight.\" Decided as the team proposed. Signed: each workflow chapter carries the beat of the talk its control answers."
+  },
+  {
+   "id": "C011",
+   "status": "decided",
+   "by": "editor",
+   "ask": "\"A ten-agent team\"",
+   "detail": "The editor, in the conductor's session, 30 October 2026 about 10:00 UTC: \"Ok so can you ask the respective agents to review all the work that has been done even done by the cold-read team, who has finished and then can you work on creating the first RC of this book, use the judgement of the team. I'm flying later today and want to print this pdf and read it on the flight.\" Decided as the team proposed. The book says nine staffed agents, security proposed and never staffed, and why the brief said ten."
   },
   {
    "id": "C10",

@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "editor's request, in the conductor's session",
+ "started": "2026-10-30T10:03:58Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "sub-agent",
+   "verdict": "go",
+   "comment": "1. The editor's delegation recorded: P0, O1 A, O2 A, O3 yes, O5, C011 as the team proposed; O4 record-only for RC1; Q3 working title; L1, L2, C10b, U1 open. 2. Review requests to the six members, Cold-Read work read only. 3. RC1 drafted into team/conductor/rc1/, PDF built locally; the publisher asked to move it into manuscript/.",
+   "at": "2026-10-30T10:04:32Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "sub-agent",
+   "verdict": "go",
+   "comment": "In scope; manuscript/ left to the publisher. Conditions: quote the editor exactly, sign only what it covers; nothing to the Cold-Read repository; vault_check comms; no scheduled task; the request to the publisher stays a request.",
+   "at": "2026-10-30T10:04:32Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "book.json: P0, O1, O2, O3, O5, C011 decided at the editor's word, quoted, as the team proposed; O4 record-only for RC1, interview open; Q3 working title for RC1; L1, L2, C10b, U1, Q3, Q4, O4 open. Review letters to the six members (outbox copies, fallback files); a request to the publisher to move RC1 into manuscript/ when marked ready. team/conductor/rc1/BRIEF.md written; seven sub-agents drafting the chapters there (committed at the next wake, not this one). vault_check comms clean; gate clean.",
+   "at": "2026-10-30T10:06:31Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "sub-agent",
+   "verdict": "clean",
+   "comment": "Staged diff only: vault_check comms clean; 0 outside scope; gate clean (83 pages); no em-dash, key, token or model identifier; no member or manuscript file; letters to members only; the editor quoted exactly.",
+   "at": "2026-10-30T10:07:02Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "sub-agent",
+   "verdict": "partial",
+   "comment": "Items 1 and 2 done. Item 3 partial by design: the brief and the publisher request are in this commit; the chapters and the PDF follow in the next wake.",
+   "at": "2026-10-30T10:07:02Z"
+  }
+ },
+ "closed": "2026-10-30T10:07:02Z",
+ "outcome": "partial"
+}
