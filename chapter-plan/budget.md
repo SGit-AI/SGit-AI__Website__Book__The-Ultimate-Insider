@@ -4,16 +4,18 @@ storyteller@book.the-ultimate-insider, 30 October 2026, draft 1, not signed. The
 
 ## The length
 
-**48,200 words** across thirteen chapters and the closing sources, about 190 pages at 250 words a page in a trade paperback, or four hours of reading. Long enough to carry both threads with the evidence; short enough to draft in one round and read on paper in another. Option B (open question O1) is a shorter book of about 32,000 words: chapters 4 and 6 fold into their neighbours, and chapters 9 to 11 share 7,500 words.
+**49,200 words** across thirteen chapters and Appendix A (drafts 1 to 3 said 48,200: a sum error, corrected at the 04:39 wake), about 195 pages at 250 words a page in a trade paperback, or four hours of reading. Long enough to carry both threads with the evidence; short enough to draft in one round and read on paper in another. Option B (open question O1) is a shorter book of about 32,000 words: chapters 4 and 6 fold into their neighbours, and chapters 9 to 11 share 7,500 words.
 
 | Part | Chapters | Words | Share |
 |---|---|---|---|
 | Opening | 0, 1 | 4,200 | 9% |
-| The workflow by day (the main thread) | 2 to 8 | 28,500 | 59% |
-| What it means | 9 to 12 | 15,500 | 32% |
-| Where it all came from | | 1,000 | (sources) |
+| The workflow by day (the main thread) | 2 to 8 | 28,000 | 57% |
+| What it means | 9 to 12 | 15,000 | 30% |
+| Appendix A: every number rerun | | 2,000 | 4% |
 
 The rule for each chapter, so the book stays analysis and not record: **at most a fifth of a chapter's words are quoted record**; the rest is explanation. A chapter over its budget by more than a tenth goes back to the storyteller, not on to the editor.
+
+**The rule the precedent teaches** (`claims/graphs-sgit-ai.md`, C036): its six days built the machine for writing a book and none of the chapters. From the signature on, a storyteller's wake that changes the plan must name the chapter it unblocks; otherwise it waits.
 
 ## The timings (the rounds in `book.json`)
 

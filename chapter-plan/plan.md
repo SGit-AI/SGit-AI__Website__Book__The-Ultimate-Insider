@@ -1,6 +1,8 @@
-# The chapter plan, draft 3
+# The chapter plan, draft 4
 
 storyteller@book.the-ultimate-insider, 30 October 2026, the 02:40 UTC wake. **Not signed.** For the editor to sign, strike or change in round 1. Read `README.md` first.
+
+**What changed in draft 4** (the 04:39 UTC wake): the closing sources become **Appendix A, every number rerun**, on the precedent of the graphs.sgit.ai making-of (`claims/graphs-sgit-ai.md`, C035): the register's counts with the commands that compute them from git, so a reader can check the book. Chapter 12 gains **what it costs, and where it loses**, the same precedent's strongest chapter, and the failures of the book grouped by who could have found them. Chapter 4 reads the timeline's morning (`day/06.md` to `day/08.md`) and chapter 6 gains the morning review, the first document written to hand the team back to a human. The budget holds: chapters 7 and 9 give 500 words each to the appendix. **A correction to drafts 1 to 3:** they gave the total as 48,200 words; the chapters always added up to 49,200. The storyteller's own arithmetic, found by summing the table this wake. The control the plan calls C10 (the session's own permission check) shares its id with `book.json`'s decision C10; security will rename it, and the plan follows the new id when it lands.
 
 **What changed in draft 3** (the 03:40 UTC wake): chapter 5 gains its sharpest failure, a figure that went on stage after the talk's own register had found it superseded (C031, open), with the talk's register as a whole (C029, C030); chapter 9 gains the tenth control, the session's own permission check, which this book's team met tonight (C10); chapter 4 reads the night from the timeline's hours 03 to 05, and TP3 moves to 03:03 as the historian argues. Nothing else changed.
 
@@ -21,14 +23,14 @@ The book follows the day, because the day is the workflow: one person and an emp
 | 4 | The hourly machine | slots, requests as files, the public vaults, the five-step wake, the night log | the insider works round the clock; so must the brakes | the request backlog; plans sent back, findings after the work | C2, C8 | 4,000 |
 | 5 | The story before the slides | the storyteller's tree, the researcher's register, claims graded | integrity: what you cannot trust or restore | the researcher contradicted the editor, and it was kept; a superseded figure still went on stage | | 4,000 |
 | 6 | The editor signs | feedback rounds, the decisions page, signing as the control | a licence to operate that can be suspended | decisions still open at 19:00 | C7 | 3,500 |
-| 7 | Building the talk | deck, the ports from ruv.sgit, the designer, motion and studio joining, the player | the explosion of software: every spreadsheet becomes an application | the player, the top priority at 13:50, landed at 15:07 and was fixed to 18:37 | | 4,500 |
+| 7 | Building the talk | deck, the ports from ruv.sgit, the designer, motion and studio joining, the player | the explosion of software: every spreadsheet becomes an application | the player, the top priority at 13:50, landed at 15:07 and was fixed to 18:37 | | 4,000 |
 | 8 | The locks that never closed | three planned locks, a lock tool built the hour before, the editor's usage as a resource | brakes, so we can go faster | no lock closed; the security member never staffed; usage met as an emergency | C3 | 4,000 |
-| 9 | The team was the insider | the control register: each control, what it stopped, what it missed, setting or expectation | the argument in full, made with a benign team | what the controls missed | C1 to C10 | 4,500 |
+| 9 | The team was the insider | the control register: each control, what it stopped, what it missed, setting or expectation | the argument in full, made with a benign team | what the controls missed | C1 to C10 | 4,000 |
 | 10 | The talk as given | what was said on stage, set beside what was planned | the argument as the audience heard it | what changed or fell out between plan and stage | | 3,500 |
 | 11 | What the cold reader saw | the Cold-Read team's findings against this book's | the outsider's view of the insider | what this book missed and the blind team found | | 3,000 |
 | 12 | Build your own | the setup, step by step, with the lessons kept and done differently | go build; try to escape the harness | what it cost, in the editor's hours and usage | C9 | 4,500 |
-| | Where it all came from | the record, its commits, the QR codes for paper | | | | 1,000 |
-| | **Total** | | | | | **48,200** |
+| A | Every number rerun | the register's counts, the commands that compute them from git, the record and its QR codes | | | | 2,000 |
+| | **Total** | | | | | **49,200** |
 
 `about-this-edition.md` stays first in `Book.txt` as the front matter it already is (not counted). The order of `Book.txt` follows this table once signed.
 
@@ -78,7 +80,7 @@ Each chapter lists the claims it may use (register ids), the index areas its evi
 - **Failure kept:** the request backlog routed in batches (`eb0b5cd`); plans sent back by the pre-review and amended, and findings caught only after the work (cookie values in captured headers, which the gate's tripwire had no pattern for). The chapter counts them from the register, not from memory.
 - **Claims:** C022 (wake records, from 02:14), C023 (step verdicts: plans sent back, post-review findings), C025 (what each finding fixed), C008.
 - **Index:** `team-conductor.md` (`schedule.json`, `WAKE.md`, `reviews/`, the night log), `tools.md` (`start.py`, `wake.py`, `vault_check.py`).
-- **Timeline:** `day/01.md` to `day/05.md`: the night, when the editor was still in the sessions at 03:00 and every wake ran on the schedule by 05:00; the conductor's own lesson at 03:07 (a time typed by hand for a commit; from then on times come from the clock, `cabcd57`); and a post-review finding at 03:05 (`day/03.md`, C025). TP2 (the five-step wake), TP3 (the schedule's first hour: the historian places it at 03:03, the first scheduled conductor wake with a record, not 01:40), TP7 (the step limit raised to 45 minutes).
+- **Timeline:** `day/01.md` to `day/05.md`: the night, when the editor was still in the sessions at 03:00 and every wake ran on the schedule by 05:00; the conductor's own lesson at 03:07 (a time typed by hand for a commit; from then on times come from the clock, `cabcd57`); and a post-review finding at 03:05 (`day/03.md`, C025). and the morning, `day/06.md` to `day/08.md`: a third post-review finding of the same kind as the first two (other sites' tokens in captured pages, C025), the sign that a review catches an instance and not a class; and the first loop of design note, build and check closed by three members in three slots with no request from the editor. TP2 (the five-step wake), TP3 (the schedule's first hour: the historian places it at 03:03, the first scheduled conductor wake with a record, not 01:40), TP7 (the step limit raised to 45 minutes).
 - **Controls:** C2 the five-step wake, C8 public vaults and `vault_check`.
 
 ### 5. The story before the slides (4,000)
@@ -95,13 +97,14 @@ Each chapter lists the claims it may use (register ids), the index areas its evi
 
 - **Argues:** one person ran a team of agents by deciding, not by doing: feedback in rounds, a page of decisions open and signed, and a rule that nobody speaks for him. Signing is the control that turns a team's proposals into a mandate.
 - **Argument:** `licence`: a licence to operate, that can be suspended; `s-e14`, earning autonomy.
+- **The morning review:** after a night with the editor gone, the conductor's scheduled wake wrote a review for him: what was done, what was ordered next, and what only he could decide; then the team kept its rhythm, waiting for him (`timeline/day/07.md`, `day/08.md`). The chapter treats it as the hand-back: how an agent team returns control to a person who was asleep.
 - **Failure kept:** several decisions were still open at 19:00 (`briefs/2026-10-30/5-lessons-to-carry.md`, "Do differently" 6).
 - **Claims:** C011 (how many agents he ran: nine staffed, or ten as the brief says; the editor decides).
 - **Index:** `team-conductor.md` (the editor's briefs of 29 October), `evidence.md` (`proposals/editor-decisions-deck.md`, `editor-decisions.json`).
 - **Timeline:** TP4 (the 13:50 feedback round), TP6 (the 15:00 decisions round).
 - **Control:** C7, the editor's signed decisions.
 
-### 7. Building the talk (4,500)
+### 7. Building the talk (4,000)
 
 - **Argues:** the making, told by what it shows about the method: work ported rather than rebuilt (the ruv.sgit pieces and player), members joining mid-day with a role, a policy and a key in one wake (motion and studio), and the talk growing from 17 beats to 58 in three parts.
 - **Argument:** `spreadsheets`, `team`: the explosion of software, as everyone becomes a builder; the capability is the orchestration, not the model.
@@ -120,7 +123,7 @@ Each chapter lists the claims it may use (register ids), the index areas its evi
 - **Timeline:** TP8 (the lock moving to 19:00, if the historian finds it in the merged record), TP9.
 - **Control:** C3, holds.
 
-### 9. The team was the insider (4,500)
+### 9. The team was the insider (4,000)
 
 - **Argues:** the argument in full, made with the team itself as the example. Every capability the talk says makes agents the ultimate insider, this team had; every control the talk proposes, this team ran on itself. The chapter is built on the control register, and organised by its one distinction: a **setting** is enforced by a tool (C1, C3, C5, C6, C8, C9, and C10, which sits outside the repository in the session itself), an **expectation** is a rule an agent is trusted to follow (C2, C4, C7). For each control: the evidence of it firing, what it stopped, what it missed. Nothing in the chapter is attack-shaped: the risk is shown by what a benign team could reach, never by how to get round a control.
 - **Argument:** parts 1 and 2 of the talk as one argument: `inside`, `identities`, `permissions`, `infrastructure`, `way-out`.
@@ -148,13 +151,16 @@ Each chapter lists the claims it may use (register ids), the index areas its evi
 
 - **Argues:** how to replicate it: the setup in the order it should be done, with the lessons kept and the ones to do differently (start the highest-risk piece first, staff security from the start, timings before pieces, watch usage as a resource, record what is said on stage, close open decisions), and what the day cost. This book's own team is the second run of the method, and its record is evidence too: the same machinery, ported from the talk's, with security staffed and a definition of done for every member.
 - **Argument:** `evolution`, `next-companies`, `brakes`: go build.
-- **Failure kept:** the cost, in the editor's hours and usage (from the register only; not yet registered).
+- **What it costs, and where it loses:** on the precedent of the graphs.sgit.ai making-of's chapter of the same name (`claims/graphs-sgit-ai.md`): the cost in the editor's hours and usage, and the situations where a reader should not build this. Its sharpest warning applies to this book too: six days that built the machine for writing a book and none of its chapters (C036). This book's team ported its machinery in an hour; the chapter says whether the writing then came.
+- **The failures, by who could have found them:** an index of every failure the book keeps, grouped as the precedent grouped its own (only a person; the agent's own tools; the claims register; nobody in time), each pointing to its chapter: the hold and the commits after it (C005, C006), the locks that never closed (C027), the figure that reached the stage (C031), the tokens in pushed captures (C025), the player still changing in the last hour (C028).
+- **Claims:** C032 to C036 (the precedent), and a figure for the day's cost when the researcher registers one.
 - **Index:** `tools.md`, `team-conductor.md`; this repository's own `team/`.
 - **Control:** C9, outside accounts on the repository (this book's team, Leanpub).
 
-### Where it all came from (1,000)
+### Appendix A. Every number rerun (2,000)
 
-The record: the talk's repository and the commit it is pinned at, this repository, the Cold-Read repository, the material added after the day, and how each QR on paper resolves.
+- **Argues:** a book that claims a timestamped record should let the reader check it. Every number in the book, by its register id, with the command that computes it from the talk's git history at `298be4e`, on the precedent of the graphs.sgit.ai making-of's Appendix C (C035). Then the record itself: the talk's repository and its pin, this repository, the Cold-Read repository, the material added after the day, and how each QR on paper resolves.
+- **Draws on:** `claims/register.json` and its method (`claims/README.md`); the researcher writes the commands, the writer only lays them out.
 
 ## Numbers: only by register id
 

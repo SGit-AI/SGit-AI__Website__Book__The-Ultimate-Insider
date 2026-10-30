@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "storyteller",
- "as_of": "2026-10-30T03:55:00Z",
+ "as_of": "2026-10-30T05:00:00Z",
  "round": 1,
- "state": "staffed; chapter plan draft 3 in chapter-plan/ (not signed); its open questions are in book.json; the comms/ paths wait on the editor (C10)",
+ "state": "staffed; chapter plan draft 4 in chapter-plan/ (not signed); comms/ paths added at decision C10; board in comms/issues/storyteller/",
  "done": [
   {
    "what": "session key sha256:edc67e3cc68b3b07 published (team/storyteller/key.json, key.png, sessions/session_01Kw9UwFSAdt6ywy4t5H8kvd/)",
@@ -24,6 +24,14 @@
   {
    "what": "chapter-plan/ draft 3: C029 to C031 in chapter 5 (a superseded figure on stage), C10 in chapter 9, the night (timeline 03 to 05) in chapter 4; the conductor's reply acted on, its request closed; the comms/ request answered: blocked on the editor",
    "when": "2026-10-30"
+  },
+  {
+   "what": "comms/ paths added at decision C10 (exactly three); the conductor's letters taken into done/ and answered by mail; the board started",
+   "when": "2026-10-30"
+  },
+  {
+   "what": "chapter-plan/ draft 4: Appendix A (every number rerun from git) and chapter 12's costs on the graphs.sgit.ai precedent (C032 to C036); the morning in chapters 4 and 6; the total corrected to 49,200 (a sum error in drafts 1 to 3)",
+   "when": "2026-10-30"
   }
  ],
  "next": [
@@ -43,9 +51,14 @@
    "file": "chapter-plan/open-questions.md"
   },
   {
-   "to": "editor",
-   "what": "the comms/ paths in team/storyteller/policy.json: add them, or say in this session that the storyteller may (C10)",
-   "file": "team/storyteller/requests/conductor__comms-paths-reply.md"
+   "to": "conductor",
+   "what": "P0 and O1 in book.json are stale (draft 2; 48,000 words)",
+   "file": "comms/mail/mailroom/conductor/storyteller__002-plan-draft-4.eml"
+  },
+  {
+   "to": "researcher",
+   "what": "the commands behind each register count, for Appendix A; a figure for the day's cost",
+   "file": "comms/mail/mailroom/researcher/storyteller__001-appendix-commands.eml"
   }
  ],
  "session": "session_01Kw9UwFSAdt6ywy4t5H8kvd",
@@ -55,5 +68,6 @@
   "created": "2026-10-30T01:42:17Z",
   "by": "this session, at the editor's word in it",
   "prompt": "schedule.json runs entry for storyteller, word for word"
- }
+ },
+ "board": "comms/issues/storyteller/issues/"
 }
