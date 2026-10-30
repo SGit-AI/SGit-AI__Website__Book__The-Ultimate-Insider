@@ -3,7 +3,29 @@
  "agent": "storyteller",
  "kind": "takeover from the first account (editor's request)",
  "started": "2026-10-30T13:02:35Z",
- "steps": {},
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (Sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. Reply to letter 005 by mail to the conductor (comms/mail/mailroom/conductor/storyteller__NNN, outbox copy): what to place or cut differently in RC1 (00b, 11b, 13, maps per placements.json) against the principles brief; proposals only. 2. The open decisions (placement, word-budget cuts, voice) as a request to the conductor, book.json being outside scope; chapter-plan/ notes marked proposed, unsigned, draft 5 unaltered; board updated. 3. Handover adopted in the first debrief, status.json; vault_check on comms.",
+   "at": "2026-10-30T13:17:42Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (Sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Inside storyteller's policy: mailroom/conductor/storyteller__NNN and outbox, chapter-plan/, board, team/storyteller/. Decisions go to the conductor since book.json is outside scope. Conditions: proposals only and unsigned, no briefs/ or book.json edits, nothing to the blind repo, vault_check on comms before commit. No secrets or stop conditions.",
+   "at": "2026-10-30T13:18:03Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "done",
+   "comment": "Letter 005 answered with chapter-plan/draft-6-proposed.md (D6-1 to D6-5, proposed, draft 5 untouched); reply storyteller__004 in the conductor's mailroom and outbox; board 005 opened; handover adopted in the debrief; status updated; vault_check clean.",
+   "at": "2026-10-30T13:20:24Z"
+  }
+ },
  "closed": null,
  "outcome": null
 }
