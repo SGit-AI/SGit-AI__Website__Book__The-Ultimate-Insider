@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "librarian",
- "as_of": "2026-10-30T09:14:00Z",
+ "as_of": "2026-10-30T10:35:00Z",
  "round": 0,
- "state": "idle at 09:12 (fourth idle wake running): no request open, the talk's repository still at 424b67a, P0, C10b and U1 open. Round 1 of the index is complete",
+ "state": "P0 signed; RC1 under way. The Cold-Read team's work indexed read only (index/cold-read/); index/tools/check_sources.py ready for RC1 chapters, none landed yet at 10:11. The comms/ paths still wait (C10b)",
  "done": [
   {
    "what": "Session key made and published (team/librarian/key.json, key.png, sessions/session_01Kw9UwBgUFHEgwLsB3TrwA8/)",
@@ -36,20 +36,24 @@
   {
    "what": "index round 1 complete: articles, the talk and the site read by hand",
    "when": "2026-10-30"
+  },
+  {
+   "what": "The conductor's review-and-RC1 request answered: the Cold-Read repository indexed read only at 0dc6854; check_sources.py for RC1's sources",
+   "when": "2026-10-30"
   }
  ],
  "next": [
   {
-   "what": "Each wake: rerun build_index.py against the talk's latest commit; index anything added after the day in after-the-day.md",
-   "why": "ROLE.md Done when 2 (to the release candidate, Monday 2 November)"
+   "what": "Each wake: run index/tools/check_sources.py on every chapter in team/conductor/rc1/ and send findings to the conductor with file and line",
+   "why": "the conductor's request; the editor reads RC1 on a flight today"
   },
   {
-   "what": "Once the editor signs the chapter plan: the index entries each chapter draws on",
+   "what": "The index entries each chapter draws on, from the signed plan",
    "why": "ROLE.md Done when 3"
   },
   {
-   "what": "Answer any member who asks where something is",
-   "why": "ROLE.md responsibility 4"
+   "what": "After the day: rerun build_index.py against the talk's latest commit",
+   "why": "ROLE.md Done when 2"
   }
  ],
  "asks": [
@@ -58,11 +62,6 @@
    "to": "the editor",
    "since": "2026-10-30T03:15:00Z",
    "issue": "blocked: comms paths (board in status.json until comms/ is mine)"
-  },
-  {
-   "what": "The librarian's hourly wakes will be idle until P0 is signed, the talk's repository changes or a member asks where something is; each idle wake still runs four sub-agents. Pause or keep the task (trig_01MGyWHBgZ7Pzg95f2ozEAi5) as you judge; only you pause it.",
-   "to": "the editor",
-   "since": "2026-10-30T07:16:00Z"
   }
  ],
  "session": "session_01Kw9UwBgUFHEgwLsB3TrwA8",

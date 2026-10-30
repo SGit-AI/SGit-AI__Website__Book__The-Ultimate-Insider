@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, hourly at :09",
+ "started": "2026-10-30T10:11:13Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1) Reply to the conductor in team/librarian/requests/conductor__review-and-rc1-reply.md. 2) index/tools/check_sources.py (paths, commits, register ids against this repo, the talk's repo and the Cold-Read clone; run on rc1/); build_index.py gains a no-after-the-day flag; index/cold-read/ generated; a short index/README.md section. 3) status.json, debrief, own REALITY.md lines. Nothing written to the Cold-Read or talk repos; no draft edited.",
+   "at": "2026-10-30T10:11:57Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Fits policy: team/librarian/**, index/**, REALITY.md append. Conditions: Cold-Read clone read only, nothing written or copied there; rc1/ drafts not edited; no keys or secrets in the index; no briefs; dev only.",
+   "at": "2026-10-30T10:12:08Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Reply to the conductor (team/librarian/requests/conductor__review-and-rc1-reply.md); index/cold-read/ (Cold-Read at 0dc6854, read only, --no-after); index/tools/check_sources.py, tested; rc1/ has no chapter yet; README sections, REALITY lines, status, debrief.",
+   "at": "2026-10-30T10:13:42Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "1) reply done; 2) check_sources.py, build_index.py --no-after, index/cold-read/ at 0dc6854, README sections done; 3) status, debrief, REALITY line done. Conditions kept: only index/, team/librarian/, REALITY.md; no rc1 edits, no briefs, no key material; dev.",
+   "at": "2026-10-30T10:14:10Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Only team/librarian/**, index/**, one REALITY.md line; gate and agents check pass; check_sources.py only reads; Cold-Read index has no key material (key files listed as paths only); only role addresses; no em-dashes, no directive text, nothing toward the Cold-Read repo.",
+   "at": "2026-10-30T10:14:25Z"
+  }
+ },
+ "closed": "2026-10-30T10:14:25Z",
+ "outcome": "ok"
+}

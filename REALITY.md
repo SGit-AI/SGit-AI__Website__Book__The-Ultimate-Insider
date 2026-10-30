@@ -71,3 +71,4 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - `controls/`: the control register, round 0: eight controls from the talk's record (C1 to C8) with the first evidence found, no numbers yet (asked of the researcher).
 - `team/security/reviews/pki-agent-review.md`: the line-by-line review of the pinned key tool, under way; thirteen findings, none above low, for the editor first.
 - `controls/` now C1 to C10, counts cited by the researcher's claim ids (C022 to C025). Security's `comms/` paths are in its policy since decision C10 (the session refused the same edit before it); its board is `comms/issues/security/`.
+- `index/cold-read/`: the Cold-Read repository indexed read only at `0dc6854` (30 October, 10:05 UTC), every file, lines the tool's. `index/tools/check_sources.py`: checks the paths, commits and register ids a chapter's sources name; run on RC1 as it lands.

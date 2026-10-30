@@ -53,3 +53,11 @@ The index says where things are and what they are. It is not a source of numbers
 - **Round 1, second and third wakes (03:10, 04:09):** evidence, then every other member's folder, read by hand (all but the images); the tool now reads a letter's headers and a run's purpose.
 - **Round 1, complete (30 October, 05:09):** the articles, the talk and the site read by hand. Every file at `298be4e` that is not an image (842 of 1,313) has a line the librarian checked; the 471 images are listed by folder in each area table and one by one in `index.json`.
 - **Next:** what the editor adds after the day, indexed apart as it arrives (to the release candidate, Monday 2 November); and, once the plan is signed, the index entries each chapter draws on; the editor's material (decision Q4) when it arrives, in its own area.
+
+## The Cold-Read team's work, read only (`cold-read/`)
+
+The Cold-Read repository (SGit-AI/SGit-AI__Website__Cold-Read__The-Ultimate-Insider), indexed at `0dc6854` (30 October, 10:05 UTC), when the team had finished, for RC1's chapter 11 and the review the editor asked for. `cold-read/index.json` and `cold-read/areas/*.md`, by the same tool with `--no-after`; every line is the tool's, marked `(machine)`. Its deliverables, all present at `0dc6854`: `team/historian/timeline.md`, `team/technologist/architecture.md`, `team/security/controls-and-threats.md`, `team/grc/governance.md`, `team/journalist/pitches.md`, `team/analyst/numbers.md`, `team/critic/critique.md`, `team/reader-1/synthesis.md` and `team/reader-2/` to `reader-5/review.md`. **The valve is one-way**: this index reads that repository; nothing from here goes there.
+
+## Checking a chapter's sources (`tools/check_sources.py`)
+
+`python3 index/tools/check_sources.py --talk <talk clone> --cold-read <cold-read clone> <chapter.md> ...` reads a chapter's `## Where this came from` and checks that every path, commit and register id it names exists: in this repository, in the talk's repository at `298be4e` (or after it, which the chapter must say), or in the Cold-Read repository; register ids anywhere in the chapter against `claims/register.json`. It writes nothing. The librarian runs it on `team/conductor/rc1/` each wake and sends findings, with file and line, to the conductor.
