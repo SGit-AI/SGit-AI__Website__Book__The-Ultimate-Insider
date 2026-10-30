@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, every two hours at :09 London",
+ "started": "2026-10-30T18:11:15Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "1) check_sources.py on manuscript/ after the publisher's Markua figures (7a7f597) and on rc1/; findings by letter librarian__004 to the conductor with outbox copy; board 002. 2) Board 008: the admin pages' content read one by one, more of the best twenty watched in motion; index/talk-site/ (README, a new admin.md) and issue 008. 3) Debrief, status.json; REALITY.md under my own heading only if something ships that it should list. All inside policy.json.",
+   "at": "2026-10-30T18:12:01Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "Inside policy: letter librarian__004 and outbox, boards 002 and 008, index/talk-site/, debrief and status; REALITY.md only as an append under my heading. Conditions: talk read only, nothing to the blind repo, vault_check comms, no key or token.",
+   "at": "2026-10-30T18:12:21Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Sources rerun on manuscript/ after 7a7f597: nothing new, chapter 2 start.py now line 147, 85 image references resolve. index/talk-site/admin.md (18 admin pages); README's twenty; board 002 and 008; letter librarian__004 with outbox copy; debrief; status. REALITY.md not touched: nothing new it should list.",
+   "at": "2026-10-30T18:14:22Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

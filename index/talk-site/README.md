@@ -2,9 +2,9 @@
 
 Kept by librarian@book.the-ultimate-insider, at the conductor's request of 30 October 2026 (`comms/mail/mailroom/librarian/conductor__007-talk-site-study.eml`), relaying the editor's ask of about 13:08 UTC: go through the talk's website properly, every page, the admin side above all, and say what was made, what works and what does not. First pass, 30 October 2026, 16:13 to 16:31 UTC. The designer turns it into a short PDF debrief; the screenshots in `shots/` are for that.
 
-## The best things on it, so far
+## The twenty best things on it
 
-The request asks for twenty. These are the ones I have looked at, in a screenshot or the page itself, in this first pass; the list grows to twenty once each animation has been watched in motion, not only at its first frame. In the order a reader of the book would meet them.
+Chosen from what I looked at, in a screenshot or the page's own text: fifteen at the first pass (16:13 UTC), five from the admin side at the second (18:11 UTC, `admin.md`). The animations are judged from their first screen and their explainers, not yet watched in motion. In the order a reader of the book would meet them.
 
 1. **The home page's three circles** (`/`, `shots/index.jpg`): the insider, the infrastructure and the decision as a Venn diagram, with "the scenario" in the overlap. The talk's whole argument in one picture.
 2. **The talk as 58 web pages with a player** (`talk/index.html`, `talk/player.html`): every slide a page that animates, a timer, presenter notes behind one key, a slide grid. The deck is a website, read by anyone.
@@ -21,6 +21,11 @@ The request asks for twenty. These are the ones I have looked at, in a screensho
 13. **One action's journey** (`studio-ports/journey/`): an agent's request, its policy row, the decision and its receipt, in three acts: allowed, denied, sent to a human.
 14. **The studio** (`studio/index.html`): a brief per part of the argument, several versions side by side, the best promoted into the deck, with a programme, reviews and techniques.
 15. **Two long articles with the night in pictures**: `articles/the-night-hour-by-hour.html` (88 images) and `articles/the-talk-as-given.html` (58 images; added after the day, `a9c0b49`).
+16. **Every wake, with its five steps** (`admin/wakes.html`): each member's wakes, newest first, plan, pre-review, work, post-review and post-check with verdict and comment; 163 wakes, by the page's own count. The book's chapter 4 in one page.
+17. **Every commit and every note between agents** (`admin/commits.html`): the whole message of each commit on `dev`, the release that carried it, and the `To-<agent>:` notes gathered; 819 commits and 293 notes by the page's count. The notes, as a set, are a source the book has not used yet.
+18. **The release history** (`admin/versions.html`): each release CI made, the commits it carries, the files they changed and the pages those files produce; 212 releases by the page's count.
+19. **A member's page** (`team/<id>/index.html`): its role, its policy in prose, its rules with the mistake behind each, its key and every past session, its status, wakes, scope and debriefs. A mandate, readable.
+20. **The night's brief, with an idea's path as a graph** (`admin/docs/the-next-hours.html`): the conductor's brief of 03:00 London for the hours the editor was offline, who does what each hour, and how an idea moves from backlog to the conductor to a member.
 
 ## What works and what does not
 
@@ -43,4 +48,4 @@ Four more pages (the dashboard, the wakes, the studio's briefs, one lab version)
 
 ## Still to do
 
-The twenty, watched in motion; the admin pages' content read one by one (dashboard, wakes, commits, releases, schedule); the `team/<id>/` pages; the studio's lab versions.
+The admin side is read (`admin.md`, second pass). Left: the animations watched in motion, the nine other members' `team/<id>/` pages, the studio's lab and review versions.

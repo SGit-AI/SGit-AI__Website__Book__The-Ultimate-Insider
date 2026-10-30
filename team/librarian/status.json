@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "librarian",
- "as_of": "2026-10-30T16:31:00Z",
+ "as_of": "2026-10-30T18:15:00Z",
  "round": 0,
- "state": "Scheduled wake 16:12: the talk-site study's first pass in index/talk-site/ (303 pages, 63 visuals, 90 screenshots, the best fifteen); the local build refused by the permission check, the published site crawled instead",
+ "state": "Scheduled wake 18:11: RC1's sources unchanged after the Markua figures; the talk site's admin side read (index/talk-site/admin.md) and the twenty completed",
  "done": [
   {
    "what": "Session key made and published (team/librarian/key.json, key.png, sessions/session_01Kw9UwBgUFHEgwLsB3TrwA8/)",
@@ -68,12 +68,16 @@
   {
    "what": "The talk's site, first pass: index/talk-site/ (README, pages.md, visuals.md, shots/, crawl.json); reply librarian__003 to the conductor",
    "when": "2026-10-30T16:31:00Z"
+  },
+  {
+   "what": "The talk site, second pass: index/talk-site/admin.md (18 admin pages), the README's twenty; sources rerun after the Markua figures; letter librarian__004",
+   "when": "2026-10-30T18:15:00Z"
   }
  ],
  "next": [
   {
-   "what": "The talk-site study: the twenty, watched in motion; the admin pages' content; team/<id>/ pages; the studio's lab versions",
-   "why": "board 008; the conductor's letter 007"
+   "what": "The talk-site study: the animations watched in motion; the nine other members' pages; the studio's lab versions",
+   "why": "board 008"
   },
   {
    "what": "Each wake: check_sources.py on every RC1 chapter (full-history clones), findings to the conductor with file and line",
