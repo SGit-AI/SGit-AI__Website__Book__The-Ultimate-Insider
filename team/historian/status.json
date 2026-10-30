@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "historian",
- "as_of": "2026-10-30T09:40:00Z",
+ "as_of": "2026-10-30T10:40:00Z",
  "round": 1,
- "state": "ok: round 1 delivered: the day end to end (timeline/day/), the evening and after the day apart, and the turning points argued (timeline/turning-points.md)",
+ "state": "ok: the review request taken; my timeline compared with the Cold-Read historian's; six corrections to apply; RC1 drafts not landed yet",
  "done": [
   {
    "what": "The session key made and published: key.json, key.png and the session folder",
@@ -60,16 +60,24 @@
   {
    "what": "The turning points: eight argued (two new: the 02:47 freeze, the 16:59 relaxed schedule), two candidates dropped",
    "evidence": "timeline/turning-points.md"
+  },
+  {
+   "what": "The conductor's review-and-RC1 request taken and answered",
+   "evidence": "team/historian/requests/conductor__re-review-and-rc1.md"
+  },
+  {
+   "what": "This timeline against the Cold-Read historian's: agreement on every shared time, six corrections for this team",
+   "evidence": "timeline/cold-read-comparison.md"
   }
  ],
  "next": [
   {
-   "what": "Answer requests as they come; keep the timeline true as the researcher's register and the storyteller's plan change; add after-the-day material as the editor adds it",
-   "why": "Done when 2 needs the storyteller to use the turning points in the signed plan; Done when 4 needs nothing open"
+   "what": "Apply the six corrections from timeline/cold-read-comparison.md to timeline/day/02.md, 16.md, 17.md, 18.md and after-1900.md",
+   "why": "the review the editor asked for; before RC1 relies on them"
   },
   {
-   "what": "When the plan is signed and nothing is open: the closing debrief and finish (WAKE.md, Finishing)",
-   "why": "ROLE.md, Done when"
+   "what": "Review each RC1 chapter in team/conductor/rc1/ as it lands: times, sequence, turning points against timeline/; findings to the conductor with file and line",
+   "why": "the editor's request, 10:00 UTC; the editor flies today"
   }
  ],
  "asks": [

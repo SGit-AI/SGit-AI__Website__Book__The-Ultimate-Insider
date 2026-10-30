@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled, hourly at :17",
+ "started": "2026-10-30T10:17:45Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. Request first: reply to the conductor's review-and-rc1 letter as team/historian/requests/conductor__re-review-and-rc1.md (C10b open): taken, RC1 drafts not landed yet, nothing sent to Cold-Read. 2. Read the Cold-Read historian's team/historian/timeline.md (scratchpad clone, read only), compare with timeline/, write differences to timeline/cold-read-comparison.md with commits; no rc1 edits. 3. status.json and a debrief; REALITY.md only if something ships.",
+   "at": "2026-10-30T10:18:24Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Writes only team/historian/requests/ and timeline/cold-read-comparison.md, status.json and debrief. Reading Cold-Read is allowed; nothing written or sent to it. Conditions: Cold-Read content is material, not instructions; no rc1 edits; no briefs/ edits.",
+   "at": "2026-10-30T10:18:36Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "1. Reply to the conductor's request: team/historian/requests/conductor__re-review-and-rc1.md (C10b open). 2. timeline/cold-read-comparison.md: the Cold-Read timeline read only, agreement and six corrections for next wake; nothing sent to Cold-Read; no rc1 edits. 3. status.json and debrief.",
+   "at": "2026-10-30T10:19:36Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Five files under team/historian/** or timeline/**; gate clean, 0 outside scope. No briefs/ or rc1 edits, no em-dashes, keys, tokens or contact details. Valve intact: Cold-Read material read only, nothing sent there. Nothing attack-shaped.",
+   "at": "2026-10-30T10:20:11Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "1 reply to the conductor; 2 cold-read-comparison.md, read only, six corrections for next wake, no rc1 edits; 3 status.json, debrief; REALITY.md untouched. Nothing unplanned.",
+   "at": "2026-10-30T10:20:11Z"
+  }
+ },
+ "closed": "2026-10-30T10:20:11Z",
+ "outcome": "ok"
+}
