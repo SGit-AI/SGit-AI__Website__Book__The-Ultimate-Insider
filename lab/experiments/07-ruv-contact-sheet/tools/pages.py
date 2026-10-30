@@ -25,7 +25,7 @@ STILLS_2 = [
   'pki.sgit.ai\'s register of people and keys (C080).', []),
  ('The editor approves each policy, item by item', 'studio-ports/lab/abp-review', 'bd3cdad', 'studio-ports-lab-abp-review-t16.png',
   'Masked: a sentence the files contradict (C081), and the form\'s own counters (not registered). Its 1, 2, 3 are steps, not counts.',
-  [(80.4, 21.0, 15.2, 3.6), (69.3, 24.4, 15.4, 4.1), (10.0, 73.4, 23.5, 15.0)]),
+  [(80.4, 21.0, 15.2, 3.6), (69.0, 24.4, 17.0, 4.1), (10.0, 73.4, 23.5, 15.0)]),
 ]
 SLOTS = [
  ('E09: mandate against grant', 'studio/lab/e09/v1', '842a8bd', 'Counts of a policy\'s rows (mandate, grant, excess).'),
