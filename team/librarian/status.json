@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "librarian",
- "as_of": "2026-10-30T10:35:00Z",
+ "as_of": "2026-10-30T12:19:00Z",
  "round": 0,
  "state": "P0 signed; RC1 under way. The Cold-Read team's work indexed read only (index/cold-read/); index/tools/check_sources.py ready for RC1 chapters, none landed yet at 10:11. The comms/ paths still wait (C10b)",
  "done": [
@@ -40,6 +40,14 @@
   {
    "what": "The conductor's review-and-RC1 request answered: the Cold-Read repository indexed read only at 0dc6854; check_sources.py for RC1's sources",
    "when": "2026-10-30"
+  },
+  {
+   "what": "Second account: new session key made and published (team/librarian/key.json, key.png, sessions/session_01Kw9UwEJGqU63vtsX81uGNm/); the first session marked superseded until 12:17:38Z",
+   "when": "2026-10-30T12:17:38Z"
+  },
+  {
+   "what": "Own scheduled task created into this session at the editor's word here, trig_01FSNcFLFBHSd9sEGYn86ndy, cron and prompt from schedule.json",
+   "when": "2026-10-30T12:18:23Z"
   }
  ],
  "next": [
@@ -64,12 +72,17 @@
    "issue": "blocked: comms paths (board in status.json until comms/ is mine)"
   }
  ],
- "session": "session_01Kw9UwBgUFHEgwLsB3TrwA8",
+ "session": "session_01Kw9UwEJGqU63vtsX81uGNm",
  "task": {
-  "id": "trig_01MGyWHBgZ7Pzg95f2ozEAi5",
-  "cron": "CRON_TZ=Europe/London 9 * * * *",
-  "created": "2026-10-30T01:40:56Z",
-  "into": "session_01Kw9UwBgUFHEgwLsB3TrwA8",
-  "prompt": "word for word from team/conductor/schedule.json, runs entry for librarian"
+  "id": "trig_01FSNcFLFBHSd9sEGYn86ndy",
+  "cron": "CRON_TZ=Europe/London 9 */2 * * *",
+  "created": "2026-10-30T12:18:23Z",
+  "into": "session_01Kw9UwEJGqU63vtsX81uGNm",
+  "prompt": "word for word from team/conductor/schedule.json, runs entry for librarian",
+  "previous": {
+   "id": "trig_01MGyWHBgZ7Pzg95f2ozEAi5",
+   "into": "session_01Kw9UwBgUFHEgwLsB3TrwA8",
+   "state": "paused at the editor's word, about 10:50 UTC; not deleted"
+  }
  }
 }
