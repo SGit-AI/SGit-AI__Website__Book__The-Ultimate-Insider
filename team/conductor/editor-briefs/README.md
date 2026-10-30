@@ -6,7 +6,7 @@ After every run, the conductor writes the editor a brief, at his word (30 Octobe
 
 - `kicker`, `title`, `when`, `by`, `headline`: the top of the first page.
 - `stats`: up to four tiles, `{"n": ..., "label": ...}`.
-- `for_you`: what waits on the editor, each `{"id", "ask", "detail", "options": [...]}`, printed with tick boxes. Nothing in it is decided until he signs it in `book.json`.
+- `for_you`: what waits on the editor, each `{"id", "ask", "detail", "options": [...]}`, printed with tick boxes; an optional `"recommend"` prints as the conductor's recommendation, and an entry with only `"group"` starts a group heading. Nothing in it is decided until he signs it in `book.json`.
 - `you_asked`: the replay, each `{"at", "said" (his words, quoted), "done", "where", "status": done | in progress | waiting}`, so he can check his briefing was understood.
 - `team`: each `{"id", "status": new | old | ..., "doing", "key"}`.
 - `sections`: `{"title", "text" or "items": [...]}`.

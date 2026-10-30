@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "editor's request",
+ "started": "2026-10-30T13:54:24Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "1. editor_brief.py gains an optional recommend line per decision; team/conductor/editor-briefs/2026-10-30T1400Z.json: every decision waiting on the editor (X2, R1, R2, D6-1 to D6-5, the licence, publishers and reviewers, Leanpub, D12 and aa7a3eb, the publishers contact route, developer@ and synthetic@, the personas, the exit interviews) with options, a recommendation and tick boxes, and what to read; PDF and HTML built. 2. Published on /updates/ and sent to him in the session (conductor amends: no mail; he is not a member with a mailroom). 3. status.json and the wake record; nothing decided for him.",
+   "at": "2026-10-30T13:55:04Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "In scope. Conditions: the public PDF says nothing about where a leaked value is (refer to D12 by id only); no reviewer candidates listed (point to the study kept off the site); every recommendation labelled the conductor's, options neutral, boxes blank; nothing recorded as decided; vault_check and the gate; no em-dashes.",
+   "at": "2026-10-30T13:55:29Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "1. editor_brief.py: recommend line and group headings; the pack (4 pages): 18 choices in four groups with options, the conductor's recommendation and blank boxes, and seven things to read. 2. On /updates/ (sent to him in the session). 3. status.json; nothing decided. No leaked value located, no reviewer named. Gate clean.",
+   "at": "2026-10-30T13:56:21Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

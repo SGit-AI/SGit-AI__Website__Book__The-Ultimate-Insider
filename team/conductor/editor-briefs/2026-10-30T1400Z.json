@@ -1,0 +1,50 @@
+{
+ "kicker": "The conductor brief · 3 · the decisions pack · Friday 30 October 2026",
+ "title": "Everything waiting on you, in one place",
+ "when": "14:00 UTC",
+ "by": "conductor@book.the-ultimate-insider, key sha256:f2456a147ac54f5f",
+ "headline": "Eighteen choices, grouped by what they unblock, each with its options, the conductor's recommendation and a box to tick. Nothing here is decided until you sign it: tick on paper, or say it in the session, and the conductor records it in book.json. Then, last, what is worth reading and in what order.",
+ "stats": [
+  {"n": "3", "label": "open decisions in book.json (X2, R1, R2)"},
+  {"n": "5", "label": "questions in the storyteller's plan draft 6"},
+  {"n": "10", "label": "more proposals from today's studies and projects"},
+  {"n": "7", "label": "things to read, in order"}
+ ],
+ "for_you": [
+  {"group": "1. The book's shape: plan draft 6 (the storyteller; draft 5 stays signed until you sign this)"},
+  {"id": "D6-1", "ask": "Where the map-reading chapter (00b) goes", "detail": "RC1 puts 3,000 words on maps before the 18:44 hold that opens the book.", "options": ["A. After chapter 1", "B. Before chapter 1, as in RC1", "C. Inside chapter 0"], "recommend": "A, with the storyteller: the book opens on the hold, as you signed (O2 A)."},
+  {"id": "D6-2", "ask": "Where 'what was already there' (11b) goes", "options": ["A. Split: the years before 'Midnight', the plumbing after 'The hourly machine'", "B. One chapter after chapter 11, as in RC1", "C. One chapter before 'Midnight'"], "recommend": "A: each part arrives when the reader needs it."},
+  {"id": "D6-3", "ask": "Where the principles go", "options": ["A. A chapter before 'Build your own', the concepts as a glossary at the back", "B. After 'Build your own', as in RC1"], "recommend": "A: the book ends on 'The brakes are what let you go faster'."},
+  {"id": "D6-4", "ask": "Chapter 0", "options": ["A. A short 'How to read this book' in the front matter", "B. As in RC1"], "recommend": "A."},
+  {"id": "D6-5", "ask": "The length", "detail": "Signed: 49,200 words. RC1 is about 69,300, of which 17,200 are the parts you added this morning.", "options": ["A. About 59,000: the new parts kept, paid for in part by cuts", "B. About 70,000: RC1's shape kept", "C. Hold 49,200: the new parts compressed"], "recommend": "A."},
+  {"group": "2. Vaults and keys (they unblock the PDF lab and the reviewer experience)"},
+  {"id": "X2", "ask": "Vaults for ruv.sgit's runs?", "options": ["A. Runs recorded in git, no vault", "B. Lift the rule for ruv.sgit only, each vault handed over sealed", "C. Lift it for the team"], "recommend": "A for now: experiment 01 worked in git; revisit with R1."},
+  {"id": "R1", "ask": "A vault per reviewer, for their pen lane?", "options": ["A. Lift the rule for reviewers' vaults only", "B. Start without vaults (comments encrypted to your key, sent with SG/Send); decide after the simulation", "C. Keep the rule"], "recommend": "B: simulate first, then A for the friendly reviewer, so the vault is tried on someone who will forgive a rough edge."},
+  {"id": "R2", "ask": "Onboard every reviewer with their own PKI key?", "options": ["A. Required: the key is the first step, every comment signed", "B. Offered, not required", "C. Later, after the first wave"], "recommend": "B: a time-poor reviewer should never be blocked; the ones who make a key are the showcase."},
+  {"id": "start", "ask": "Start developer@ and synthetic@ (the reviewer experience)", "detail": "Prompts in team/conductor/ONBOARDING.md, section 1d; odd hours, :12 and :42.", "options": ["Start both now", "The developer first", "Not yet"], "recommend": "Start both: the simulation needs no decision above to begin."},
+  {"id": "personas", "ask": "The eight fictional personas", "detail": "Board member, CISO, CTO, developer, designer, project manager, journalist, founder.", "options": ["Keep", "Change (note below)"], "recommend": "Keep."},
+  {"group": "3. Reaching out (nothing is sent without your go)"},
+  {"id": "pub", "ask": "Which publishers first", "detail": "The publishers study ranks twelve.", "options": ["The Pragmatic Bookshelf, No Starch Press and IT Revolution, at once", "A different first three (note below)", "Not yet: after the Leanpub launch"], "recommend": "The first option, the proposal built once and trimmed for each; IT Revolution through the public work, not its form."},
+  {"id": "licence", "ask": "The licence a publisher would get", "options": ["Keep CC BY for every edition", "CC BY now; a non-commercial licence offered for the publisher's edition", "Decide with the first publisher"], "recommend": "Decide with the first publisher, saying CC BY up front."},
+  {"id": "reviewers", "ask": "The first reviewers", "detail": "The reviewers study (kept off the site) proposes reader types and a first wave; some names need checking by hand.", "options": ["Approve phase 2: one friendly reviewer of your choosing", "Approve the first wave after the names are checked", "Not yet"], "recommend": "The friendly reviewer first, once the simulation has run."},
+  {"id": "contact", "ask": "How a publisher reaches you (the /publishers/ page)", "options": ["Keep the repository's issues", "A public address of yours (say which)"], "recommend": "A public address you already use; issues are public and a publisher may not want that."},
+  {"id": "interviews", "ask": "The exit interviews with the talk team's agents", "options": ["(a) You paste a prompt into their own sessions on the first account", "(b) Sub-agents here, in each agent's voice from its record, labelled reconstructed", "Both: (b) for most, (a) for two or three"], "recommend": "Both, (a) for the conductor, dev and ruv.sgit, whose memory matters most."},
+  {"group": "4. Leanpub, and the record"},
+  {"id": "leanpub", "ask": "The five Leanpub proposals", "detail": "A subtitle with the search words; categories (AI, Computer Security, AI Governance, Agentic Engineering); suggested price $19.99 or $29; Leanpub Pro for GitHub mode (about $19 a month); paid promotion only after a first signal.", "options": ["Agree all five", "Agree some (mark them)", "Discuss"], "recommend": "Agree all five, keeping $19.99: it matches the accessibility you set in L1."},
+  {"id": "D12", "ask": "The companion PDF's leak passage", "detail": "The book no longer says it; the companion's cards still do, in the repository.", "options": ["Leave it", "Remove the passage from the cards and rebuild the companion", "Remove the companion from the repository"], "recommend": "Remove the passage and rebuild; the history keeps what was."},
+  {"id": "aa7a3eb", "ask": "The citation of aa7a3eb in chapters 4 and 6 (security's card)", "options": ["Keep it", "Drop it, cite the register instead"], "recommend": "Drop it, with security."}
+ ],
+ "sections": [
+  {"title": "What to read, in this order", "items": [
+   "1. RC1 on paper (you have it), with the companion's tick boxes: the main input for the next revision.",
+   "2. Plan draft 6, chapter-plan/draft-6-proposed.md: one page of changes and the new order (group 1 above).",
+   "3. The reviewer experience, team/conductor/projects/reviewer-experience/README.md: the first ten minutes (group 2).",
+   "4. LAB 01, lab/pdf/the-ultimate-insider-lab.pdf: the designer's visual language and ruv.sgit's first experiment.",
+   "5. The publishers study (/research/publishers/) and the /publishers/ page's wording (group 3).",
+   "6. The Leanpub studies' index (/research/leanpub/) (group 4).",
+   "7. Briefs 1 and 2 on /updates/: the day so far and your asks replayed."]},
+  {"title": "How to answer", "text": "Tick on paper and send a photo, or say it in the conductor's session (\"D6 all A\", \"R1 B\"). The conductor records each one in book.json with your words, and the next brief shows what it unblocked."}
+ ],
+ "next": ["16:02: your signatures into book.json, and each member told what its decision unblocks", "The publisher's handover recorded; the talk-site study and the exit interviews started"],
+ "sources": ["book.json", "chapter-plan/draft-6-proposed.md", "team/security/reviews/rc1-review.md", "team/conductor/research/", "team/conductor/projects/", "briefs 1 and 2"]
+}

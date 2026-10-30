@@ -31,6 +31,7 @@ h2 { font-size: 15pt; margin: 16pt 0 6pt; break-after: avoid; border-bottom: 1.5
 .card { border: 1pt solid #d6d6d6; border-radius: 4pt; padding: 7pt 9pt; margin: 0 0 6pt; break-inside: avoid; }
 .card .id { font-family: Inter, sans-serif; font-size: 8pt; color: #666; }
 .card .ask { font-weight: bold; }
+.rec { font-family: Inter, 'DejaVu Sans', sans-serif; font-size: 8.5pt; color: #0f766e; margin-top: 4pt; }
 .tick { font-size: 9pt; margin: 3pt 0 0 0; }
 .tick div { margin: 2pt 0; }
 .tick div::before { content: ''; display: inline-block; width: 9pt; height: 9pt; border: 1pt solid #333; margin-right: 6pt; vertical-align: -1pt; }
@@ -83,9 +84,13 @@ def render(b):
     if b.get("for_you"):
         out.append("<h2>For you to decide</h2>")
         for d in b["for_you"]:
+            if d.get("group"):
+                out.append(f"<h3 class='sans' style='margin:12pt 0 4pt;font-size:11pt'>{e(d['group'])}</h3>")
+                continue
             opts = "".join(f"<div>{e(o)}</div>" for o in d.get("options", []))
             out.append(f"<div class='card'><span class='id'>{e(d.get('id', ''))}</span> <span class='ask'>{e(d['ask'])}</span>"
-                       + (f"<div>{e(d['detail'])}</div>" if d.get("detail") else "") + (f"<div class='tick'>{opts}</div>" if opts else "") + "</div>")
+                       + (f"<div>{e(d['detail'])}</div>" if d.get("detail") else "") + (f"<div class='tick'>{opts}</div>" if opts else "")
+                       + (f"<div class='rec'>Conductor's recommendation: {e(d['recommend'])}</div>" if d.get("recommend") else "") + "</div>")
     if b.get("you_asked"):
         out.append("<h2>What you asked, and what was done</h2><table><tr><th>When</th><th>You said</th><th>What was done</th><th></th></tr>")
         for a in b["you_asked"]:

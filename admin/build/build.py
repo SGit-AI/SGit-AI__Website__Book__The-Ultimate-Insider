@@ -1179,7 +1179,7 @@ class Site_Build:
             b = json.loads(p.read_text())
             (OUT / 'updates').mkdir(parents=True, exist_ok=True)
             shutil.copy2(p.with_suffix('.pdf'), OUT / 'updates' / (p.stem + '.pdf'))
-            asks = ''.join(f'<li><b>{html.escape(d.get("id", ""))}</b> {html.escape(d["ask"])}</li>' for d in b.get('for_you', []))
+            asks = ''.join(f'<li><b>{html.escape(d.get("id", ""))}</b> {html.escape(d["ask"])}</li>' for d in b.get('for_you', []) if 'ask' in d)
             self.page(f'updates/{p.stem}.html', b['title'], b.get('headline', b['title'])[:300],
                       f'<article class="prose wrap narrow"><nav class="crumbs" aria-label="Breadcrumb"><a href="../index.html">Home</a> / <a href="index.html">Updates</a></nav>'
                       f'<p class="kicker">{html.escape(b.get("kicker", ""))}</p><h1>{html.escape(b["title"])}</h1><p class="lead">{html.escape(b.get("headline", ""))}</p>'
