@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled, hourly at :47",
+ "started": "2026-10-30T08:48:17Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Stop condition not met: the wakes need nothing they lack to run; they close idle. 1. Nothing new (rechecked). 2. Idle: status.json as_of and state only. 3. Tell the editor he may pause trig_01D2wnhQDySKsG8ZL9XLmNsW until the Leanpub book exists. 4. Gate, push dev.",
+   "at": "2026-10-30T08:48:59Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "status.json only, in scope; no secrets, no harm; the second-wake stop is not met (an idle wake needs no key, permission or decision); telling the editor he may pause is sound.",
+   "at": "2026-10-30T08:49:12Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "none",
+   "comment": "Idle: status.json as_of and state, with the offer to pause the task.",
+   "at": "2026-10-30T08:49:12Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "status.json and the wake record only, in scope; 0 outside scope; no key, token or personal detail; no directive text.",
+   "at": "2026-10-30T08:49:41Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Idle as planned: status.json (with the pause offer in state) and the wake record; nothing unplanned.",
+   "at": "2026-10-30T08:49:41Z"
+  }
+ },
+ "closed": "2026-10-30T08:49:41Z",
+ "outcome": "idle"
+}
