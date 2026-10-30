@@ -8,7 +8,7 @@ The talk's lab has 26 more pieces than the three motion animations already on pa
 
 ## The rule that shaped it
 
-Only registered numbers may be printed. Of the ten last frames, two print none beyond their own step order (E01, and E14, which labels itself illustrative). The other eight print counts, times or dates not yet in `claims/`, so they appear as empty slots with their title and source until the researcher registers them (asked: `comms/mail/mailroom/researcher/ruv-sgit__002-*`). My own captions name what kind of number waits, never the number.
+Only registered numbers may be printed. Of the ten last frames, two print none beyond their own step order (E01, and E14, which labels itself illustrative). The other eight print counts, times or dates not yet in `claims/`, so they appear as empty slots with their title and source until the researcher registers them (asked: `comms/mail/mailroom/researcher/ruv-sgit__002-*`). My own captions name what kind of number waits, never the number, and print no count of my own (security's post-review at the 20:54 wake took out the steps' count, the showcases' count and the pieces' lengths).
 
 ## Made from
 

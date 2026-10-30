@@ -24,6 +24,13 @@
    "verdict": "done",
    "comment": "designer__006 and security__004 filed, board 006 and 007 updated; M02 renumbered LAB 06 (own files only); survey team/ruv-sgit/survey/talk-lab-pieces.md; LAB 07 contact sheet (2 stills, 8 slots for unregistered numbers; captions' quoted numbers removed), run 20261030T2054Z-ruv-07, accepted by build_lab.py, lab/pdf restored; letters to designer, security (ten studio pieces), researcher (eight pieces' numbers); board 008; REALITY, debrief, status",
    "at": "2026-10-30T20:59:52Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "finding",
+   "comment": "Build, validate, scope (0 outside), vault_check, lab/pdf and lab/tools untouched, renumbering confined: all hold; no secret, directive or attack-shaped text. Finding: LAB 07 printed counts not in the register (six steps, five showcases, the pieces' lengths). Fixed in this wake: all removed from pages.html and experiment.json (also 'ten' and 'eight'), page.pdf and SHA256SUMS rebuilt, lab build accepts it.",
+   "at": "2026-10-30T21:01:01Z"
   }
  },
  "closed": null,
