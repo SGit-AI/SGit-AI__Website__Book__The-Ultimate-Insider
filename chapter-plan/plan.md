@@ -1,6 +1,8 @@
-# The chapter plan, draft 4 (amended at the 05:40 wake)
+# The chapter plan, draft 4 (amended at the 05:40 and 06:40 wakes)
 
 storyteller@book.the-ultimate-insider, 30 October 2026, the 02:40 UTC wake. **Not signed.** For the editor to sign, strike or change in round 1. Read `README.md` first.
+
+**Amended at the 06:40 UTC wake:** the rule for the argument thread (below, under "The chapters"), from the researcher's triage of the talk's on-stage claims (C038); chapter 5 takes the triage as evidence; chapters 6 and 7 read the timeline's midday hours (`day/12.md` to `day/14.md`).
 
 **Amended at the 05:40 UTC wake:** Appendix A's commands exist (`claims/appendix-a-commands.md`; every register entry carries one); C014 is corrected by the researcher (commits by member); the day's cost is C037, and it is **not in the record**, so chapter 12 says that instead of a figure.
 
@@ -39,6 +41,8 @@ The book follows the day, because the day is the workflow: one person and an emp
 ## The chapters
 
 Each chapter lists the claims it may use (register ids), the index areas its evidence is in, the timeline hours and candidate turning points it covers, and the controls it shows. A chapter may use no number that is not in its claims line.
+
+**The rule for the argument thread** (from C038, `claims/talk-claims-triage.md`): every chapter carries a beat of the talk, and a beat's facts are the talk's claims, not this book's. The talk's researcher's verdicts are inherited, not re-checked: of the claims its register placed on stage, fewer than half had been confirmed whole by 18:20 (C038). So no fact of the talk (an incident, a percentage, a cost) enters a chapter until it has its own entry in this register, checked at its source, as C031 shows. A beat may be described as an argument without its facts; a fact needs an entry. The beats most affected are chapter 9's (`inside`, `identities`, `permissions`), chapter 2's (`limits`, `no-worm-era`) and chapter 5's (`integrity`).
 
 ### 0. Before you start (1,200)
 
@@ -91,7 +95,8 @@ Each chapter lists the claims it may use (register ids), the index areas its evi
 - **Argument:** `integrity`: data changed in ways you cannot trust or restore; a talk about trust has to show its sources.
 - **Failure kept:** the researcher's findings contradicted one of the editor's own lines ("the outside is in balance"), and the contradiction was put to him rather than smoothed over (`b208a16`). The book shows what he decided and why the record kept both. This book's own team repeated the pattern on its first night: the register corrected the brief's numbers and this plan's draft 1.
 - **The failure that reached the stage:** the talk's own register held 320 claims, two in three holding, and none of the three that did not hold reached a slide (C029, C030): the method worked. But the definition slide said $17.4M as the average annual cost of insider risk, in the present tense, while the same register, built at 18:20, had marked it superseded by a newer edition (C031). The correction was in the record and not on the stage. It is the chapter's centre: a register only protects what it is wired to. C031 is **open** until the researcher checks the newer figure at source; until then the chapter may say the register marked it superseded, and may not give the newer figure.
-- **Claims:** C012 (the storyteller joined), C016 (17 beats at 13:00), C015, C029, C030, C031 (open).
+- **The triage, as evidence:** the talk's register placed 80 claims on stage, and 46 of them had not been confirmed whole 40 minutes before the talk (C038). Not a scandal: the register said so itself, which is the point. A register that grades its own claims makes the gap visible; it does not close it.
+- **Claims:** C012 (the storyteller joined), C016 (17 beats at 13:00), C015, C029, C030, C031 (open), C038.
 - **Index:** `team-storyteller.md` (tree, challenge, coverage, sequence), `team-researcher.md`, `evidence.md` (claims, incidents, method).
 - **Timeline:** TP5 (the afternoon joins).
 
@@ -103,7 +108,7 @@ Each chapter lists the claims it may use (register ids), the index areas its evi
 - **Failure kept:** several decisions were still open at 19:00 (`briefs/2026-10-30/5-lessons-to-carry.md`, "Do differently" 6).
 - **Claims:** C011 (how many agents he ran: nine staffed, or ten as the brief says; the editor decides).
 - **Index:** `team-conductor.md` (the editor's briefs of 29 October), `evidence.md` (`proposals/editor-decisions-deck.md`, `editor-decisions.json`).
-- **Timeline:** TP4 (the 13:50 feedback round), TP6 (the 15:00 decisions round).
+- **Timeline:** `day/12.md` (the team ready for the editor), `day/13.md` (the feedback round, dictated), `day/14.md` (the editor returns, and the team widens); TP4 (the 13:50 feedback round), TP6 (the 15:00 decisions round).
 - **Control:** C7, the editor's signed decisions.
 
 ### 7. Building the talk (4,000)
@@ -113,7 +118,7 @@ Each chapter lists the claims it may use (register ids), the index areas its evi
 - **Failure kept:** the player for the iPad was the editor's top priority at 13:50; the port landed at 15:07, and twelve commits of fixes ran to 18:37, minutes before the hold (C028). The lesson is not "it landed late" but "the highest-risk piece was still changing in the last hour". Also: deck set part 1 before the storyteller's split, which was late (`team/storyteller/story/three-parts.md`).
 - **Claims:** C013, C015, C016, C017, C028.
 - **Index:** `talk.md` (`talk.json`, slides, engine, `player.html`), `team-dev.md`, `team-deck.md`, `team-ruv-sgit.md`, `team-designer.md`, `team-motion.md`, `team-studio.md`.
-- **Timeline:** TP5; the afternoon hours.
+- **Timeline:** `day/14.md` (the team widens: the afternoon joins), TP5; the afternoon hours.
 
 ### 8. The locks that never closed (4,000)
 

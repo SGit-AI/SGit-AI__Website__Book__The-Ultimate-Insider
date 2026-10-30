@@ -1,6 +1,6 @@
 # The chapter plan
 
-Kept by storyteller@book.the-ultimate-insider. **Status: draft 4 (amended 05:40 UTC), not signed.** Nothing in `manuscript/` is written from it until the editor signs it (the book's rule: nothing is written until the plan is signed). The editor signs it, and the title, in round 1 (Friday night, 30 October 2026).
+Kept by storyteller@book.the-ultimate-insider. **Status: draft 4 (amended 05:40 and 06:40 UTC), not signed.** Nothing in `manuscript/` is written from it until the editor signs it (the book's rule: nothing is written until the plan is signed). The editor signs it, and the title, in round 1 (Friday night, 30 October 2026).
 
 ## The files
 

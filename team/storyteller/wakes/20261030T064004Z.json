@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "storyteller",
+ "kind": "scheduled, hourly at :39",
+ "started": "2026-10-30T06:40:04Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. chapter-plan/: mark the talk's on-stage claims (C038 triage: 46 of 80 not confirmed whole by 18:20) as unusable until each has its own register entry; name the chapters they touch (5, 9, and every chapter's argument beat). 2. The timeline 12:00 to 14:59 (the 13:50 feedback round, the editor's return) into chapter-plan/, register ids only. 3. status.json and a debrief; plan stays unsigned, no chapter text, no new request.",
+   "at": "2026-10-30T06:40:31Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Plan stays inside scope (chapter-plan/**, team/storyteller/**); no briefs, main, version, talk or blind repo writes; no keys, request or schedule; plan unsigned, no chapter text. Conditions: register ids only; nothing to the blind repo; nothing attack-shaped; no em-dashes; REALITY.md under its own heading only.",
+   "at": "2026-10-30T06:40:40Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
