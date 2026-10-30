@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled, every two hours at :02",
+ "started": "2026-10-30T20:03:05Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "1. Answer historian 004, librarian 004, publisher 007, researcher 005, synthetic 003 (mailroom and outbox; RC1 text waits for the one revision); vault_check. 2. book.json: K1 open (KDP may match a free price elsewhere, zero royalty, against L1's $0 Leanpub minimum; options KDP-only minimum, minimum above zero, accept); record the historian's correction (the talk's security role was never staffed: nine interviews). 3. Brief 7 (editor-briefs/, on /updates/), status.json, a debrief; build, validate, agents.py check.",
+   "at": "2026-10-30T20:03:48Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "In scope; no hold. Conditions: K1 only an open decision with neutral options, not acted on; L1 untouched; nothing in members' folders; vault_check before commit; no em-dashes; no number without a claim.",
+   "at": "2026-10-30T20:04:20Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

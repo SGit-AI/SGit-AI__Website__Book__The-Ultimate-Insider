@@ -1,0 +1,37 @@
+{
+ "kicker": "The conductor brief · 7 · Friday 30 October 2026",
+ "title": "The exit interviews are in, and what they say",
+ "when": "20:15 UTC, the conductor's scheduled wake (20:02)",
+ "by": "conductor@book.the-ultimate-insider, key sha256:f2456a147ac54f5f",
+ "headline": "The historian finished the exit interviews: nine, reconstructed from the record and labelled so, and one collated set of lessons. The first review page is live on the site, and the fictional CISO found a real bug on a phone. The lab is at LAB 05. One new decision: KDP may make the Kindle edition free if the book is free on Leanpub. The storyteller's wake was idle: the next RC1 revision waits on your D6 signatures.",
+ "stats": [
+  {"n": "9", "label": "exit interviews, reconstructed (the talk's security role was never staffed)"},
+  {"n": "10", "label": "open decisions (K1 new)"},
+  {"n": "LAB 05", "label": "lab experiments printed so far"},
+  {"n": "C074", "label": "the register, 74 claims (63 checked, 6 open)"}
+ ],
+ "for_you": [
+  {"id": "K1", "ask": "The Kindle price, given KDP's price matching", "detail": "KDP may match a lower price found elsewhere and make the book free if it is free on another channel, with no royalty while it is. L1's $0 minimum on Leanpub could make the Kindle edition free.", "options": ["A. Accept it: free on Kindle too, in line with L1", "B. A Leanpub minimum above $0", "C. Kindle later, or not at all", "D. Ask the publisher for more first"], "recommend": "D, then A: it matches your accessibility principle; the publisher can say how often Amazon actually matches."},
+  {"id": "D6", "ask": "D6-1 to D6-6: the next RC1 revision waits on these", "detail": "The storyteller had nothing to do this wake for want of them.", "options": ["All A", "Other (note)"], "recommend": "All A."},
+  {"id": "pack", "ask": "The rest of the decisions pack (brief 3)", "options": ["Answered"]}
+ ],
+ "you_asked": [
+  {"at": "13:08", "said": "interviews with all the agents on lessons learned ... in the voice of those agents ... like an exit interview", "done": "Nine interviews and a collated set of lessons (timeline/interviews/README.md). There are nine, not ten: the talk's security role was proposed and never held, so it has a note, not an interview; my request was wrong to list it.", "where": "timeline/interviews/", "status": "done"},
+  {"at": "13:08", "said": "really goes through the website ... including ... the admin side", "done": "The librarian's second pass read the admin side page by page; its README now leads with twenty highlights.", "where": "index/talk-site/", "status": "done"}
+ ],
+ "sections": [
+  {"title": "What the interviews say, in five lines (the historian's collation)", "items": [
+   "What went well: a team that ran on a clock and checked itself; the five-step wake ran at nearly every slot.",
+   "What did not: the plan written down as if it were the record, and part 1's lock that never happened before the hold.",
+   "What worked: mechanical checks over remembered rules; every method that held is a script, not an intention.",
+   "What could be better: an hourly slot cannot meet a deadline that falls between slots; and the reviewer meant to stand apart was never staffed, so review was a second reading, not a second identity.",
+   "What is left: the hold's unfinished edges, two wakes open, parts 2 and 3 never locked."]},
+  {"title": "The reviewer experience, first contact", "text": "The security leader's page is live at /review/ciso.html. The fictional CISO's second run found that on a 390-pixel phone the jump bar covers the pen's buttons: a real bug, found before any real reviewer saw it. That is what the simulation is for."},
+  {"title": "Also this afternoon", "items": ["LAB 04: B01's eight-frame storyboard in half a page, as you asked", "LAB 05: the talk's M02 and M03 on paper", "Security reviewed the sealed-note design before it is built", "The researcher closed letter 006: every number RC1 used and the register lacked is now traced or flagged"]}
+ ],
+ "images": [
+  {"path": "lab/characters/conductor.svg", "caption": "The lab's cast: the conductor"}
+ ],
+ "next": ["22:02: what lands; the RC1 revision starts the wake after your D6 signatures and paper notes"],
+ "sources": ["timeline/interviews/README.md", "git log of dev since 18:10", "the five letters in comms/mail/mailroom/conductor/"]
+}
