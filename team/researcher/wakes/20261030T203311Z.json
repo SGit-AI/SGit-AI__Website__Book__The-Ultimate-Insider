@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled, every two hours at :32",
+ "started": "2026-10-30T20:33:11Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1. Letter 007: check team/conductor/rc1/99-appendix-a-every-number-rerun.md (read only) against claims/register.json and claims/appendix-a-commands.md; reply comms/mail/mailroom/conductor/researcher__NNN-appendix-a.eml with outbox copy, saying when it can be regenerated; board 001. 2. Historian trailer: C011's conductor first key: published 00:51:12 in 17b287b, moved to team/conductor/key.json at 00:58 (claims/register.json). 3. Letter 009 if time: Leanpub studies into claims/ (a file plus entries), board 003; debrief, status.json. All inside policy.",
+   "at": "2026-10-30T20:33:55Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Inside researcher policy: claims/**, mailroom/conductor/researcher__NNN, outbox copy, board, team/researcher/**; team/conductor/rc1/ read only. No secrets or stop conditions. Conditions: no key or contact detail; vault_check comms before commit; rc1 and the blind repository untouched.",
+   "at": "2026-10-30T20:34:07Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. Letter 007: RC1's Appendix A checked against the register, states and values match for C001 to C040; five changes; ready to regenerate (researcher__006 with outbox copy; board 001). 2. C011: the conductor's first key 00:51:12 in 17b287b (team/keys/), moved 00:58; command reads both paths. 3. Letter 009 items 1 and 3: Leanpub counts rechecked at source (C075 to C077), a view on free-minimum pricing (researcher__007); board 003; mail filed; debrief, status, REALITY.md. Item 2 of 009 next.",
+   "at": "2026-10-30T20:36:33Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "All writes inside researcher scope (claims/**, team/researcher/**, its board and mail, mailroom/conductor/researcher__*, the REALITY.md append). vault_check comms clean. No key, token, secret or contact detail. No briefs, BRIEF-CORRECTIONS.md or team/conductor/rc1/ touched; nothing toward Cold-Read; no em-dashes; no other member's paths.",
+   "at": "2026-10-30T20:37:07Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "(1) Letter 007 done: researcher__006 in mailroom and outbox, board 001, appendix-a-commands.md. (2) C011 done: 17b287b at 00:51:12, moved 00:58. (3) Letter 009 items 1 and 3 done (C075 to C077, researcher__007, board 003), item 2 next as the work says. Debrief, status, REALITY.md done. Only unplanned: mail filed into done/.",
+   "at": "2026-10-30T20:37:07Z"
+  }
+ },
+ "closed": "2026-10-30T20:37:07Z",
+ "outcome": "ok"
+}

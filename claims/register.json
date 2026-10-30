@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-10-30T18:50:00Z",
+ "as_of": "2026-10-30T20:50:00Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -229,7 +229,7 @@
      "studio": "15:31 8d208d3"
     },
     "first_key": {
-     "conductor": "00:58 41d38ba",
+     "conductor": "00:51 17b287b (published at team/keys/conductor.json; moved to team/conductor/key.json at 00:58, 41d38ba)",
      "researcher": "01:52 01e9ed3",
      "dev": "01:53 56cbe55",
      "deck": "02:20 79b6709",
@@ -247,8 +247,8 @@
     "evidence": "first commit adding team/<id>/key.json (dev: its first commit, 1f7c633); team/security has no key.json at 298be4e"
    },
    "method": "two columns, kept apart: a member's first commit naming it (subject or Agent: trailer), and the first commit adding team/<id>/key.json",
-   "note": "Corrected 30 October 10:50 at the RC1 drafting's finding (comms/mail/mailroom/researcher/conductor__005-the-editors-voice.eml): the first version mixed the two methods (first commit for dev and ruv-sgit, first key for the others). Now both are given. Nine staffed holds either way; security was proposed and never staffed. The brief's 'ten-agent team' stays open for the editor: 'nine agents and the editor' is what the record supports.",
-   "command": "for m in dev conductor ruv-sgit researcher deck designer storyteller motion studio; do echo $m $(git log 298be4e --reverse --format='%h %ci' -- team/$m/key.json | head -1); done; git log 298be4e --reverse --author=Claude --format='%h %ci %s' | grep -iE ' (@?(dev|conductor|deck|ruv-sgit|researcher|designer|storyteller|motion|studio):|Conductor joins)' | awk '!s[$4]++'"
+   "note": "Corrected 30 October 10:50 at the RC1 drafting's finding (comms/mail/mailroom/researcher/conductor__005-the-editors-voice.eml): the first version mixed the two methods (first commit for dev and ruv-sgit, first key for the others). Now both are given. Nine staffed holds either way; security was proposed and never staffed. The brief's 'ten-agent team' stays open for the editor: 'nine agents and the editor' is what the record supports. Corrected 30 October about 20:40 (the second session), at the historian's note (trailer on eb96b15): the conductor's key was first published at 00:51:12 in 17b287b, at team/keys/conductor.json, and moved to team/conductor/key.json at 00:58:19 (41d38ba); 00:58 was the move. Only the conductor is affected: every other member's first key was at team/<id>/key.json.",
+   "command": "for m in dev conductor ruv-sgit researcher deck designer storyteller motion studio; do echo $m $(git log 298be4e --reverse --format='%h %ci' -- team/$m/key.json team/keys/$m.json | head -1); done; git log 298be4e --reverse --author=Claude --format='%h %ci %s' | grep -iE ' (@?(dev|conductor|deck|ruv-sgit|researcher|designer|storyteller|motion|studio):|Conductor joins)' | awk '!s[$4]++'"
   },
   {
    "id": "C012",
@@ -1782,6 +1782,94 @@
    "method": "each page fetched and grepped for the quoted words",
    "command": "curl -s <page> | grep -ic '<quoted words>'",
    "note": "Nine of ten found word for word; open until the tenth is found at its page. These are his own words on his own sites, his account, not independent sources: quote them as his. The other 11b tags that are months or descriptions rather than numbers (the recipe of early October, the five-step wake and holds, the August 2026 vault keys incident, Wardley maps, tagging, 'the day') are not numbers and are left to the chapter's own citation. Registered at the conductor's letter 006, the researcher's 18:32 wake."
+  },
+  {
+   "id": "C075",
+   "claim": "Leanpub's biggest books by readers shown: four lifetime bestsellers",
+   "cited_in": [
+    "team/conductor/research/leanpub/04-what-the-best-leanpub-books-do.md",
+    "team/conductor/research/leanpub/README.md"
+   ],
+   "value": {
+    "study": {
+     "os (OpenIntro Statistics)": 544007,
+     "datasciencebook": 195514,
+     "datastyle": 136067,
+     "ansible-for-devops": 115385
+    },
+    "30_October_20:40": {
+     "os": 544054,
+     "datasciencebook": 195521,
+     "datastyle": 136067,
+     "ansible-for-devops": 115389
+    },
+    "prices_per_the_study": "the first three free minimum; Ansible $9.99 minimum and suggested"
+   },
+   "state": "checked",
+   "source": {
+    "url": "https://leanpub.com/<slug>",
+    "read": "2026-10-30",
+    "evidence": "the 'Readers' figure on each book page"
+   },
+   "method": "each page fetched and its readers figure read",
+   "command": "curl -sL -A 'Mozilla/5.0' https://leanpub.com/<slug> | grep -oE '[0-9][0-9,]* *(</[^>]+> *)*(<[^>]+> *)*[Rr]eaders' | head -1 | sed -E 's/<[^>]+>//g'",
+   "note": "The study's counts were read hours earlier and agree within the growth since. Readers on Leanpub include free downloads: a reader count is not a sales count, and the page does not show the cause of a count. The prices are the study's reading; not rechecked here. Read 30 October 2026 about 20:40 UTC; a live count that grows, so cite it with its date. Registered at the conductor's letter 009, the researcher's 20:32 wake."
+  },
+  {
+   "id": "C076",
+   "claim": "Pwning OWASP Juice Shop: the one free-minimum security book on Leanpub with a large readers count shown",
+   "cited_in": [
+    "team/conductor/research/leanpub/03-the-market-on-leanpub.md"
+   ],
+   "value": {
+    "study": 18411,
+    "30_October_20:40": 18416
+   },
+   "state": "checked",
+   "source": {
+    "url": "https://leanpub.com/juice-shop",
+    "read": "2026-10-30",
+    "evidence": "the page's readers figure"
+   },
+   "method": "the page fetched and its readers figure read",
+   "command": "curl -sL -A 'Mozilla/5.0' https://leanpub.com/juice-shop | grep -oE '[0-9][0-9,]* *(</[^>]+> *)*(<[^>]+> *)*[Rr]eaders' | head -1 | sed -E 's/<[^>]+>//g'",
+   "note": "'The one' is the study's finding among about 40 pages it read, not a survey of Leanpub. Read 30 October 2026 about 20:40 UTC; a live count that grows, so cite it with its date. Registered at the conductor's letter 009, the researcher's 20:32 wake."
+  },
+  {
+   "id": "C077",
+   "claim": "The editor's own Leanpub books: 13,255 readers shown across eight",
+   "cited_in": [
+    "team/conductor/research/leanpub/02-the-editors-leanpub-books.md"
+   ],
+   "value": {
+    "total_shown": 13255,
+    "books_with_a_count": 8,
+    "books_read": 11,
+    "by_book": {
+     "Practical_AngularJS": 8001,
+     "Practical_Git": 2676,
+     "secdevops": 803,
+     "generation-z": 465,
+     "Practical_Eclipse": 463,
+     "Exploiting_MVC": 379,
+     "Thoughts_OWASP": 238,
+     "Practical_Jni4Net": 230
+    },
+    "no_count_shown": [
+     "Practical_O2Platform",
+     "hacking-portugal",
+     "Software_Quality"
+    ]
+   },
+   "state": "checked",
+   "source": {
+    "url": "https://leanpub.com/<slug>, eleven books",
+    "read": "2026-10-30",
+    "evidence": "each page's readers figure"
+   },
+   "method": "each of the eleven pages fetched; the shown figures summed",
+   "command": "for s in Exploiting_MVC Thoughts_OWASP Practical_O2Platform Practical_Jni4Net Practical_AngularJS Practical_Git Practical_Eclipse hacking-portugal secdevops generation-z Software_Quality; do echo $s $(curl -sL -A 'Mozilla/5.0' https://leanpub.com/$s | grep -oE '[0-9][0-9,]* *(</[^>]+> *)*(<[^>]+> *)*[Rr]eaders' | head -1 | sed -E 's/<[^>]+>//g'); done",
+   "note": "Unchanged since the study. The study lists more slugs (b, u) that are not books. Readers include free copies; this is reach, not sales. Read 30 October 2026 about 20:40 UTC; a live count that grows, so cite it with its date. Registered at the conductor's letter 009, the researcher's 20:32 wake."
   }
  ]
 }

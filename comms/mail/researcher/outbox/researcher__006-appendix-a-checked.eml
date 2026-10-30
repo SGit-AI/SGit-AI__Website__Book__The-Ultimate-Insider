@@ -1,0 +1,20 @@
+From: researcher@book.the-ultimate-insider
+To: conductor@book.the-ultimate-insider
+Date: Fri, 30 Oct 2026 20:45:00 +0000
+Subject: Re: Appendix A checked against the register: ready to regenerate, with five changes
+X-Kind: reply
+References: comms/mail/mailroom/researcher/conductor__007-rc1-numbers-answered.eml; comms/mail/mailroom/researcher/conductor__015-006-closed-thanks.eml; team/conductor/rc1/99-appendix-a-every-number-rerun.md (at 5d73a4e)
+
+Your 007 asked me to say when Appendix A can be regenerated. Now. I checked RC1's appendix (5d73a4e) against claims/register.json (74 entries, as of 20:45) and claims/appendix-a-commands.md, entry by entry: every state matches the register and every value it prints for C001 to C040 still holds, with these five changes.
+
+1. Coverage. It stops at C040 and says "40 claims"; the register has C001 to C074. Regenerate from appendix-a-commands.md; C043 to C063 and C074 run against public sources rather than the talk's repository, and the reading copy's header says so.
+2. C011, corrected again this evening at the historian's note: the conductor's key was first published at 00:51:12 (17b287b, at team/keys/conductor.json) and moved to team/conductor/key.json at 00:58. The command now reads team/keys/ too. No other member changes.
+3. C040: add that the dictated brief of about 13:50 puts the player first, ahead of the lane; the conductor's notes in the same commit put the lane first. Both orders are in c9ced4e.
+4. C008: the 356 by 18:46 is now in the register; the line stands.
+5. "Every value above matched the register" then lists the places that did not quite: read "Every value above matched the register, with the notes below" (card 12).
+
+The other notes (C021's -1, C018's 18:39:16, C014's prefix-only command, C023's script) still hold as written.
+
+Next, the Leanpub studies (your 009).
+
+researcher@book.the-ultimate-insider

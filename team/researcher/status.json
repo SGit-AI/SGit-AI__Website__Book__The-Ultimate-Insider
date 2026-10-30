@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-10-30T18:52:00Z",
+ "as_of": "2026-10-30T20:55:00Z",
  "round": 1,
- "state": "working: 18:32 wake; 74 claims (63 checked, 5 corrected, 6 open); letter 006 closed; M03 counts registered",
+ "state": "working: 20:32 wake; 77 claims (66 checked, 5 corrected, 6 open); Appendix A ready to regenerate; Leanpub counts registered",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -76,20 +76,24 @@
   {
    "what": "ruv-sgit's M03 counts registered, all six reproduce at 17:02:26 (C073, reply ruv-sgit/researcher__001); 11b's quotations, nine of ten found (C074); letter 006 closed (researcher__005)",
    "when": "2026-10-30T18:52:00Z"
+  },
+  {
+   "what": "Appendix A checked against the register, ready to regenerate (researcher__006); C011's conductor first key corrected to 00:51:12 (historian's trailer); the Leanpub reader counts registered (C075 to C077) and a view on free-minimum pricing (researcher__007)",
+   "when": "2026-10-30T20:55:00Z"
   }
  ],
  "next": [
   {
-   "what": "Appendix A checked against the register, so the conductor can regenerate it",
-   "why": "letter 007"
+   "what": "The Leanpub studies' search-summary items marked; the comparison set's titles as a list in claims/",
+   "why": "letter 009 item 2; ROLE.md responsibility 5; Done when 3"
   },
   {
-   "what": "The Leanpub studies into the comparison set, and a view on free-minimum pricing",
-   "why": "letter 009; ROLE.md responsibility 5; Done when 3"
-  },
-  {
-   "what": "RC1 in the editor's voice; the rest of the talk's unconfirmed claims",
+   "what": "RC1 in the editor's voice (board 001); the tenth 11b quotation (C074)",
    "why": "R9; Done when 2"
+  },
+  {
+   "what": "The rest of the talk's unconfirmed claims in the final talk",
+   "why": "ROLE.md responsibility 3"
   }
  ],
  "asks": [
@@ -175,7 +179,7 @@
    "id": "R9",
    "from": "conductor (the editor's requests)",
    "request": "comms/mail/mailroom/researcher/conductor__004-review-and-rc1.eml, conductor__005-the-editors-voice.eml",
-   "state": "in progress: numbers review done; voice, the Cold-Read numbers, Appendix A next",
+   "state": "in progress: numbers, the Cold-Read numbers, Appendix A done; the voice review left",
    "reply": "comms/mail/mailroom/conductor/researcher__001-rc1-numbers.eml; board comms/issues/researcher/issues/open/001-rc1-review.md"
   },
   {
@@ -189,8 +193,8 @@
    "id": "R11",
    "from": "conductor (the editor's request)",
    "request": "comms/mail/mailroom/researcher/conductor__009-leanpub-studies.eml",
-   "state": "open",
-   "reply": "board 003"
+   "state": "in progress: items 1 and 3 done (C075 to C077, the view); item 2 next",
+   "reply": "comms/mail/mailroom/conductor/researcher__007-leanpub-counts-and-free-minimum.eml; board 003"
   },
   {
    "id": "R12",
@@ -198,6 +202,20 @@
    "request": "comms/mail/mailroom/researcher/ruv-sgit__001-m03-counts.eml",
    "state": "done: C073",
    "reply": "comms/mail/mailroom/ruv-sgit/researcher__001-m03-counts-registered.eml"
+  },
+  {
+   "id": "R13",
+   "from": "historian (commit trailer)",
+   "request": "eb96b15 To-researcher: C011's conductor first key",
+   "state": "done: C011 corrected",
+   "reply": "this wake's commit trailer"
+  },
+  {
+   "id": "R14",
+   "from": "conductor",
+   "request": "comms/mail/mailroom/researcher/conductor__007-rc1-numbers-answered.eml (Appendix A)",
+   "state": "done",
+   "reply": "comms/mail/mailroom/conductor/researcher__006-appendix-a-checked.eml"
   }
  ]
 }

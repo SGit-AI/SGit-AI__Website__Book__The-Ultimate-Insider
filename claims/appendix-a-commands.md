@@ -89,7 +89,7 @@ arithmetic on C001, C005 and C007
 State: open.
 
 ```
-for m in dev conductor ruv-sgit researcher deck designer storyteller motion studio; do echo $m $(git log 298be4e --reverse --format='%h %ci' -- team/$m/key.json | head -1); done; git log 298be4e --reverse --author=Claude --format='%h %ci %s' | grep -iE ' (@?(dev|conductor|deck|ruv-sgit|researcher|designer|storyteller|motion|studio):|Conductor joins)' | awk '!s[$4]++'
+for m in dev conductor ruv-sgit researcher deck designer storyteller motion studio; do echo $m $(git log 298be4e --reverse --format='%h %ci' -- team/$m/key.json team/keys/$m.json | head -1); done; git log 298be4e --reverse --author=Claude --format='%h %ci %s' | grep -iE ' (@?(dev|conductor|deck|ruv-sgit|researcher|designer|storyteller|motion|studio):|Conductor joins)' | awk '!s[$4]++'
 ```
 
 ## C012: The storyteller joined about 14:12 UTC
@@ -596,6 +596,30 @@ State: open.
 curl -s <page> | grep -ic '<quoted words>'
 ```
 
+## C075: Leanpub's biggest books by readers shown: four lifetime bestsellers
+
+State: checked.
+
+```
+curl -sL -A 'Mozilla/5.0' https://leanpub.com/<slug> | grep -oE '[0-9][0-9,]* *(</[^>]+> *)*(<[^>]+> *)*[Rr]eaders' | head -1 | sed -E 's/<[^>]+>//g'
+```
+
+## C076: Pwning OWASP Juice Shop: the one free-minimum security book on Leanpub with a large readers count shown
+
+State: checked.
+
+```
+curl -sL -A 'Mozilla/5.0' https://leanpub.com/juice-shop | grep -oE '[0-9][0-9,]* *(</[^>]+> *)*(<[^>]+> *)*[Rr]eaders' | head -1 | sed -E 's/<[^>]+>//g'
+```
+
+## C077: The editor's own Leanpub books: 13,255 readers shown across eight
+
+State: checked.
+
+```
+for s in Exploiting_MVC Thoughts_OWASP Practical_O2Platform Practical_Jni4Net Practical_AngularJS Practical_Git Practical_Eclipse hacking-portugal secdevops generation-z Software_Quality; do echo $s $(curl -sL -A 'Mozilla/5.0' https://leanpub.com/$s | grep -oE '[0-9][0-9,]* *(</[^>]+> *)*(<[^>]+> *)*[Rr]eaders' | head -1 | sed -E 's/<[^>]+>//g'); done
+```
+
 ## Where this came from
 
-`claims/register.json`, the `command` of each entry, run against `298be4e` (a full clone: `git rev-list --count 298be4e` gives 816) and `d39e717`; spot-checked on 30 October 05:45, 06:45, 07:45, 08:45, 09:40 and 10:50 (C011, C014, C021, C041, C042), each giving the registered value. C031's 2026 figure is read from a web page, fetched 30 October 2026. C043 to C062 were checked at source on 30 October about 13:20 UTC by the researcher's second session (public clones of OSBot-Utils, Memory-FS, Issues-FS, SGit-AI__CLI and myfeeds_ai; PyPI's JSON; the newsroom's wire; four LinkedIn pages' datePublished). C064 to C068, and the additions to C008 and C042, rerun on 30 October about 14:40 UTC. C069 to C072 rerun on 30 October about 16:45 UTC; C069 and C070 run at a9c0b49, material added after the day. C073 rerun on 30 October about 18:40 UTC. C074 checked on 30 October about 18:35 UTC.
+`claims/register.json`, the `command` of each entry, run against `298be4e` (a full clone: `git rev-list --count 298be4e` gives 816) and `d39e717`; spot-checked on 30 October 05:45, 06:45, 07:45, 08:45, 09:40 and 10:50 (C011, C014, C021, C041, C042), each giving the registered value. C031's 2026 figure is read from a web page, fetched 30 October 2026. C043 to C062 were checked at source on 30 October about 13:20 UTC by the researcher's second session (public clones of OSBot-Utils, Memory-FS, Issues-FS, SGit-AI__CLI and myfeeds_ai; PyPI's JSON; the newsroom's wire; four LinkedIn pages' datePublished). C064 to C068, and the additions to C008 and C042, rerun on 30 October about 14:40 UTC. C069 to C072 rerun on 30 October about 16:45 UTC; C069 and C070 run at a9c0b49, material added after the day. C073 rerun on 30 October about 18:40 UTC. C074 checked on 30 October about 18:35 UTC. C011's command reads team/keys/ too since 30 October 20:40. C075 to C077 read from leanpub.com on 30 October about 20:40 UTC.
