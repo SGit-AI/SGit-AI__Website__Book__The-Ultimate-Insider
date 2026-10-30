@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-10-30T05:50:00Z",
+ "as_of": "2026-10-30T06:55:00Z",
  "round": 1,
- "state": "working: 37 claims (28 checked, 4 corrected, 5 open), each with a rerunnable command; R4 still waits on the editor's word in this session",
+ "state": "working: 38 claims (31 checked, 4 corrected, 3 open); graphs.sgit.ai closed; the talk's claims triaged (claims/talk-claims-triage.md); R4 still waits on the editor's word here",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -32,20 +32,24 @@
   {
    "what": "a command on every register entry and claims/appendix-a-commands.md (storyteller's request); C014 corrected at the historian's note (ruv-sgit 84, conductor 107); C037 the editor's cost, open",
    "when": "2026-10-30T05:50:00Z"
+  },
+  {
+   "what": "C035 and C036 checked (graphs.sgit.ai's Appendix C and chapter 12 read in full); the talk's claims triaged: 80 placed on stage, 46 not confirmed whole (C038, claims/talk-claims-triage.md)",
+   "when": "2026-10-30T06:55:00Z"
   }
  ],
  "next": [
   {
-   "what": "graphs.sgit.ai's making-of Appendix C and chapter 12 read in full (C035, C036)",
-   "why": "R5, second pass"
+   "what": "The talk's on-stage claims matched against talk.json beat by beat (which of the 80 were actually said), then the ones the chapter plan quotes checked at source, $17.4M first (C031)",
+   "why": "ROLE.md responsibility 3; Done when 2"
   },
   {
-   "what": "The talk's own claims, continued: the 55 that hold in part and the 52 not checked, sorted by whether the book will use them; external figures re-checked at source before any reaches the book (C031 first)",
-   "why": "ROLE.md responsibility 3"
+   "what": "The talk's off-stage claims that hold in part or were not checked (about 60), sorted the same way; the post-check of the 06:32 wake found them left out",
+   "why": "the 06:32 wake closed partial"
   },
   {
-   "what": "The comparison set, with the market stream",
-   "why": "ROLE.md responsibility 5"
+   "what": "The comparison set beyond the house, with the market stream",
+   "why": "ROLE.md responsibility 5; Done when 3"
   }
  ],
  "asks": [
@@ -102,7 +106,7 @@
    "id": "R5",
    "from": "conductor (the editor's request)",
    "request": "comms/mail/mailroom/researcher/conductor__002-graphs-sgit-ai.eml",
-   "state": "done, first pass; C035 and C036 open until the text is read",
+   "state": "done: C035 and C036 checked on the second pass",
    "reply": "team/researcher/requests/conductor__re-graphs-sgit-ai.md"
   },
   {

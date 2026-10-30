@@ -35,6 +35,11 @@ Book B and the making-of are marked "the Leanpub pair". Nothing found shows they
 2. **Breadth that overwhelms the book.** Their site holds 292 pages in its sitemap, a deterministic transformer experiment, a lexicon and an artefact catalogue. Their review r003 turned to "decouple the book from the website" for exactly this reason. Our site should stay the record, and the book the distilled argument, from the start.
 3. **A held third volume.** The Universe volume was written and then held. Four days are too few to write a book that does not ship.
 
+## Second pass: chapter 12 and Appendix C, read in full (06:32 wake)
+
+- **Chapter 12 says it plainly** (C036): "In six days and eighty-eight releases, this project did not write any of the second book. Not one chapter." The founder asked for that (reference material first), and the chapter still names it the cost to weigh first: "If your deadline is Friday and what you need is chapters, this method will hand you a very good machine and no chapters." Of 21 source documents, one had been extracted. Our deadline is Monday. The lesson for this team: the plan gets signed and chapter 1 starts while the register and the index are still growing, not after.
+- **Appendix C is what our Appendix A should be** (C035): a script that photographs a page at its git tag in a throwaway worktree, a check that no figure is blank, and the command behind each count. `claims/appendix-a-commands.md` follows it for numbers. The book's figures, if it has any from the talk's site, should be taken the same way, at `298be4e`.
+
 ## For the comparison set
 
 The three graphs.sgit.ai books are the first entries, as the nearest precedent: same house, same agent-team method, same planned channel (Leanpub). The making-of is the direct comparison. It is the story of a book made by agents over six days, where ours is a talk made by agents in one day, told by the team that made it. Market comparisons beyond the house wait for the market stream.

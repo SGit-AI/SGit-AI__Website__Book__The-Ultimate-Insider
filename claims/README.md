@@ -36,3 +36,7 @@ At the editor's request, `graphs-sgit-ai.md`, the nearest precedent read closely
 ## Round 1, fifth pass: every number rerunnable (30 October 2026, 05:32 wake)
 
 Every entry now has a `command`, read-only and pinned to a commit; `appendix-a-commands.md` is the reading copy for the book's Appendix A. C014 corrected (ruv-sgit 84, conductor 107; 13 commits unattributed). C037, the editor's cost of the day: not in the record, open. 37 claims: 28 checked, 4 corrected, 5 open.
+
+## Round 1, sixth pass: the precedent closed, the talk's claims triaged (30 October 2026, 06:32 wake)
+
+C035 and C036 checked by reading graphs.sgit.ai's Appendix C and chapter 12 in full. C038 and `talk-claims-triage.md`: 80 of the talk's 320 claims are placed on stage by its register, and 46 of them were not confirmed whole by 18:20; none enters the book without its own entry. 38 claims: 31 checked, 4 corrected, 3 open.

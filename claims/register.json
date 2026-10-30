@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-10-30T05:50:00Z",
+ "as_of": "2026-10-30T06:50:00Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -848,14 +848,14 @@
     "figures": 20,
     "appendix_c": "the harness and the commands"
    },
-   "state": "open",
+   "state": "checked",
    "source": {
     "repository": "SGit-AI/SGit-AI__Website__Graphs",
     "at": "d39e717",
-    "evidence": "graphs.sgit.ai /llms.txt and /v2/books/making-a-book/index.html at v0.6.22"
+    "evidence": "v2/books/making-a-book/content/15__appendix-c-the-harness.md at d39e717"
    },
    "method": "read from the site's description; the appendix itself not yet read",
-   "note": "The method is the precedent for this register; the claim is the site's, not yet checked against Appendix C.",
+   "note": "Read in full: Appendix C carries the script that photographs a page at its git tag in a worktree (travel.sh), the screenshot and blank-figure checks, and the commands behind every count (release cadence, median gap, commits and merges, tests and gates over time, refactor sizes, component growth). Its opening line: every number and figure was produced by one of these scripts. The precedent for claims/appendix-a-commands.md.",
    "command": "read: v2/books/making-a-book/content/15__appendix-c-the-harness.md at d39e717"
   },
   {
@@ -867,14 +867,14 @@
    "value": {
     "quote_source": "/llms.txt (summary of chapter 12)"
    },
-   "state": "open",
+   "state": "checked",
    "source": {
     "repository": "SGit-AI/SGit-AI__Website__Graphs",
     "at": "d39e717",
-    "evidence": "graphs.sgit.ai /llms.txt at v0.6.22; content/12__what-it-costs.md headings"
+    "evidence": "v2/books/making-a-book/content/12__what-it-costs.md at d39e717"
    },
    "method": "read; chapter 12's text not yet read in full",
-   "note": "Cite only after reading chapter 12 itself.",
+   "note": "Read in full. Chapter 12 opens: 'In six days and eighty-eight releases, this project did not write any of the second book. Not one chapter.' It was what the founder asked for (brief 20: reference material first), and the chapter still calls it the cost to weigh first: 'If your deadline is Friday and what you need is chapters, this method will hand you a very good machine and no chapters.' Also: of 21 source documents, one was extracted. Our deadline is Monday 2 November.",
    "command": "read: v2/books/making-a-book/content/12__what-it-costs.md at d39e717"
   },
   {
@@ -897,6 +897,29 @@
    "method": "git grep for usage figures across team/ at 298be4e: the hold is the only one",
    "command": "git grep -n -iE 'usage[^\"]{0,80}[0-9]+ ?%' 298be4e -- team ':!*.png'",
    "note": "The record holds one usage reading, 95% of a 5-hour window, and no total for the day, no weekly figure, and no cost in money. The editor's hours at the keyboard are not recorded either: the span is the agents' day, not the editor's. A cost figure for chapter 12 has to come from the editor (their usage page, or the transcripts of decision Q4), added after the day and cited as such."
+  },
+  {
+   "id": "C038",
+   "claim": "The talk's claims its register places on stage",
+   "cited_in": [
+    "claims/talk-claims-triage.md"
+   ],
+   "value": {
+    "on_stage": 80,
+    "not checked": 28,
+    "holds in part": 18,
+    "holds": 33,
+    "does not hold": 1
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "298be4e",
+    "evidence": "evidence/claims/claims.json"
+   },
+   "method": "claims whose where list has a talk: or slide: place, counted by holds",
+   "command": "git show 298be4e:evidence/claims/claims.json | python3 -c \"import json,sys,collections;c=[x for x in json.load(sys.stdin)['claims'] if any(w.startswith(('talk:','slide:')) for w in x['where'])];print(len(c),collections.Counter(x['holds'] for x in c))\"",
+   "note": "80 of the talk's 320 claims carry a talk: or slide: place in its register: 33 held, 18 held in part, 28 were not checked, 1 did not hold. So 46 of the 80 had not been confirmed whole by 18:20, 40 minutes before the talk. The places are the register's at 18:20 and may name beats later cut: the one that does not hold is the NASA figure, whose beat is not in talk.json at 298be4e (C030). Which of the 80 were actually said on stage needs talk.json matched claim by claim, or the transcript the editor added after the day. Verdicts are the talk researcher's, not re-checked here."
   }
  ]
 }

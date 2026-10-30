@@ -278,7 +278,7 @@ in SGit-AI__Website__Graphs: git ls-tree -d --name-only d39e717 v2/team/
 
 ## C035: The making-of computed its numbers from git and re-took its figures at their tags
 
-State: open.
+State: checked.
 
 ```
 read: v2/books/making-a-book/content/15__appendix-c-the-harness.md at d39e717
@@ -286,7 +286,7 @@ read: v2/books/making-a-book/content/15__appendix-c-the-harness.md at d39e717
 
 ## C036: The making-of's stated largest cost: six days built the machine and none of the second book's chapters
 
-State: open.
+State: checked.
 
 ```
 read: v2/books/making-a-book/content/12__what-it-costs.md at d39e717
@@ -300,6 +300,14 @@ State: open.
 git grep -n -iE 'usage[^"]{0,80}[0-9]+ ?%' 298be4e -- team ':!*.png'
 ```
 
+## C038: The talk's claims its register places on stage
+
+State: checked.
+
+```
+git show 298be4e:evidence/claims/claims.json | python3 -c "import json,sys,collections;c=[x for x in json.load(sys.stdin)['claims'] if any(w.startswith(('talk:','slide:')) for w in x['where'])];print(len(c),collections.Counter(x['holds'] for x in c))"
+```
+
 ## Where this came from
 
-`claims/register.json`, the `command` of each entry, run in this session against `298be4e` and `d39e717`; spot-checked on 30 October 05:45 (C004, C009, C014, C019, C022, C024, C026, C029, C031 gave the registered values).
+`claims/register.json`, the `command` of each entry, run in this session against `298be4e` and `d39e717`; spot-checked on 30 October 05:45 (C004, C009, C014, C019, C022, C024, C026, C029, C031) and 06:45 (C038), each giving the registered value.

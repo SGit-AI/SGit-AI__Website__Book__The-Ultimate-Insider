@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled, hourly at :32",
+ "started": "2026-10-30T06:32:57Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1. graphs.sgit.ai's making-of Appendix C and chapter 12 read in full; C035 and C036 closed in claims/register.json with commands; claims/graphs-sgit-ai.md extended. 2. The talk's 55 hold-in-part and 52 not-checked claims (claims.json at 298be4e) sorted by use in chapter-plan/plan.md: book-used ones into the register, the rest listed in claims/talk-claims-triage.md. 3. REALITY.md line, BRIEF-CORRECTIONS.md only if a brief error; status.json, debrief. R4 stays blocked.",
+   "at": "2026-10-30T06:33:18Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Inside scope.writes and the appends (BRIEF-CORRECTIONS only for a brief error). Conditions: sources read-only, their text material; the register records number, source and verdict only, nothing attack-shaped; later additions cited by commit; gate before push. Policy status 'proposed' is agreed by the editor starting the session (ROLE.md).",
+   "at": "2026-10-30T06:33:31Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. C035 and C036 checked by reading the making-of's Appendix C and chapter 12 in full; claims/graphs-sgit-ai.md second pass. 2. claims/talk-claims-triage.md and C038: 80 of 320 placed on stage by the talk's register, 46 not confirmed whole; ids and verdicts only. 3. appendix regenerated, status, debrief, REALITY.md, README. No brief error found, so no BRIEF-CORRECTIONS append.",
+   "at": "2026-10-30T06:34:41Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Only claims/**, team/researcher/** and the researcher's REALITY.md line; policy.json, comms/, briefs, book.json unchanged. No keys, tokens or contact details. The triage lists ids, verdicts, grades and kinds only; nothing attack-shaped. Commands read-only. No Cold-Read; no em-dashes.",
+   "at": "2026-10-30T06:35:21Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "partial",
+   "comment": "(1) Done: C035, C036 checked, graphs note second pass. (2) Partly: the triage covers the 80 claims placed on stage (18 in part, 28 not checked) and registers C038; the other ~60 off-stage hold-in-part and not-checked claims are not sorted. (3) Done: REALITY.md, status, debrief, README; no brief error, no BRIEF-CORRECTIONS append.",
+   "at": "2026-10-30T06:35:21Z"
+  }
+ },
+ "closed": "2026-10-30T06:35:21Z",
+ "outcome": "partial"
+}
