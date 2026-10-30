@@ -1,0 +1,61 @@
+{
+ "kicker": "The conductor brief · 1 · Friday 30 October 2026",
+ "title": "Where everything stands, and what you asked today",
+ "when": "13:10 UTC, after the conductor's eighth wake of the day on the second account (11:08 to 13:10)",
+ "by": "conductor@book.the-ultimate-insider, session ...7DK1n, key sha256:f2456a147ac54f5f",
+ "headline": "The team has moved to the second account: eight of nine roles hold new sessions and keys, and the publisher's is still to come. RC1 is on the site and rebuilds page for page. Six studies are written (Leanpub, reviewers, publishers), two projects are started (the PDF lab, the review programme), and a page invites publishers from day one. One decision is open (X2), and five more are coming from the studies.",
+ "stats": [
+  {"n": "8 of 9", "label": "roles on new sessions and keys (publisher to come)"},
+  {"n": "294", "label": "RC1 pages, rebuilt identical to the printed copy"},
+  {"n": "6", "label": "studies written today (4 Leanpub, reviewers, publishers)"},
+  {"n": "v0.1.112", "label": "the site's release on dev at 13:07 (from v0.1.99 at 11:08)"}
+ ],
+ "for_you": [
+  {"id": "X2", "ask": "Vaults for ruv.sgit's runs?", "detail": "The talk's ruv.sgit kept each run in an sgit vault; your rule is no vaults for now. Until you sign, runs are recorded in git.", "options": ["A. Runs in git, no vault", "B. Lift the rule for ruv.sgit only, each vault handed over sealed", "C. Lift it for the team"]},
+  {"id": "next", "ask": "The licence a publisher would get", "detail": "Most open books at traditional publishers are non-commercial, not CC BY (publishers study, section 3).", "options": ["Keep CC BY for every edition", "CC BY now, a non-commercial licence offered for the publisher's edition", "Talk about it with the first publisher"]},
+  {"id": "next", "ask": "Who to approach first", "detail": "Publishers: the Pragmatic Bookshelf, No Starch Press, IT Revolution (Manning fourth). Reviewers: a first wave of about twelve public figures, by reader type; 14 names still to be checked by hand.", "options": ["Approve the three publishers", "Approve the first wave of reviewers, after the names are checked", "Change the lists (note below)"]},
+  {"id": "next", "ask": "Five Leanpub proposals", "detail": "A subtitle with the search words; categories (AI, Computer Security, AI Governance, Agentic Engineering); the suggested price ($19.99, or $29 like the security books); Leanpub Pro for GitHub mode (about $19 a month); paid promotion only after a first signal.", "options": ["Agree all five as proposed", "Agree some (mark them)", "Discuss"]},
+  {"id": "D12", "ask": "The companion PDF and its cards in the repository", "detail": "They say where the leaked values sit and how they could be read; the book does not. Kept off the site; still public in the repository.", "options": ["Leave them", "Remove the passage from the cards and rebuild the companion", "Remove the companion from the repository"]},
+  {"id": "page", "ask": "The For publishers page: how should a publisher reach you?", "detail": "Today: an issue in the book's repository. No contact detail can go in the repository.", "options": ["Keep the repository's issues", "A public address of yours (tell me which)"]}
+ ],
+ "you_asked": [
+  {"at": "11:05", "said": "are you able to clone and push to this repo?", "done": "Yes: cloned, and a dry-run push accepted; I asked which role to take.", "status": "done"},
+  {"at": "11:08", "said": "you are joining the team as the conductor, see here the brief", "done": "Took over from the first account: a new key (old one superseded), the site build copies the chapters' images (45 gate findings to 0), the publisher told RC1 moved on, three members' letters answered, issue 001 closed.", "where": "team/conductor/debriefs/2026-10-30__takeover-from-the-first-account.md", "status": "done"},
+  {"at": "11:16", "said": "you are going to overwrite the other conductor key, right?", "done": "Yes: key.json holds the new key; the old one stays in its session folder, marked superseded from 11:08:31.", "status": "done"},
+  {"at": "11:24", "said": "create the PDF locally here and then compare ... a page on the site (and home page) that shows the PDF", "done": "Rebuilt both: 294 and 67 pages, the same text, every page the same pixel for pixel. RC1 on /rc1/, linked from home. The companion kept off the page: its cards say where the leaked values are.", "where": "/rc1/", "status": "done"},
+  {"at": "11:40", "said": "fire up a schedule for you ... every couple of hours ... give me a prompt ... a formal place to close the sessions?", "done": "The conductor's task every two hours at :02; every member's run every two hours; a takeover prompt per member; no formal close existed, so H1 proposed.", "where": "team/conductor/schedule.json, ONBOARDING.md", "status": "done"},
+  {"at": "11:50", "said": "you could also write a handover on behalf of the previous session ... a very detailed analysis of LeanPub ... I put zero always as the base", "done": "H1 rewritten in your words; a sessions register; every new session announced; four Leanpub studies; your reasons in L1.", "where": "/research/leanpub/", "status": "done"},
+  {"at": "12:15", "said": "is the research linked easily from the website? ... the principle of accessibility ... start a new project ... a third PDF ... a design agent", "done": "Research in the top menu; L1 says accessibility, in your words; the PDF lab brief, designer@ and ruv.sgit@ drafted and started; X1 recorded, X2 open.", "where": "team/conductor/projects/pdf-lab/README.md", "status": "done"},
+  {"at": "12:30", "said": "reviewers of the book ... a personalized PDF ... the best publishers ... put them on a website ... from day one", "done": "A For publishers page in your words (/publishers/), the review programme brief, a study of reviewers and a study of publishers. Nobody contacted.", "where": "/publishers/, team/conductor/research/", "status": "done"},
+  {"at": "13:00", "said": "Yes that H1 plan is good", "done": "H1 decided A; WAKE.md has its Handing over section; six new sessions recorded and announced to all.", "where": "team/conductor/WAKE.md", "status": "done"},
+  {"at": "13:05", "said": "every time you finish your run, you actually create one of those briefs for me ... that PDF can then go also on the website", "done": "This brief: a reusable tool (JSON in, HTML and PDF out), the first brief, and /updates/ on the site. From now on every conductor run ends with one.", "where": "team/conductor/tools/editor_brief.py, /updates/", "status": "done"},
+  {"at": "13:08", "said": "a research where somebody really goes through the website ... a detailed PDF of it ... interviews with all the agents on lessons learned", "done": "Received during this wake. Next wake: a study of the talk's site (every page, admin included, screenshots) and a PDF debrief of it; and the exit interviews, which the talk's own debrief listed (item 2) and nobody has done.", "status": "in progress"}
+ ],
+ "team": [
+  {"id": "conductor", "status": "new", "doing": "this brief; the schedule; decisions; the site", "key": "sha256:f2456a147ac54f5f, every two hours at :02"},
+  {"id": "librarian", "status": "new", "doing": "RC1's sources checked, all 18 chapters; the vaults in chapter 4 against the record", "key": "sha256:7c3cf6b4d63370b0, :09"},
+  {"id": "historian", "status": "new", "doing": "handover adopted; six corrections to the timeline next", "key": "sha256:30ff97a9b187f7e6, :17"},
+  {"id": "security", "status": "new", "doing": "handover adopted; RC1's first security pass sent to the conductor", "key": "sha256:c2c23d2025cd7a33, :24"},
+  {"id": "researcher", "status": "new", "doing": "42 claims (35 checked, 5 corrected, 2 open); the Leanpub counts to register", "key": "sha256:0f94386bc5e70a5e, :32"},
+  {"id": "storyteller", "status": "new", "doing": "RC1 reviewed against the signed plan; its findings with the conductor", "key": "sha256:20ab6976788c6438, :39"},
+  {"id": "publisher", "status": "old", "doing": "RC1 in manuscript/ on its branch (217 pages, this morning's); takeover still to come", "key": "first account's key, :47"},
+  {"id": "designer", "status": "new", "doing": "first wake: folder, key, task; the lab's visual language begun", "key": "sha256:3ed7d8c321f7d1bd, :57"},
+  {"id": "ruv.sgit", "status": "new", "doing": "first wake: role and key; first static experiment from a talk animation", "key": "sha256:301885fb2fd5a83e, :54"}
+ ],
+ "sections": [
+  {"title": "What is on the site now", "items": ["/rc1/: RC1, the book's first version, in the page and to download, with its hash", "/research/: the Leanpub studies and the publishers study (the reviewers study stays off the site: it names people not yet asked)", "/publishers/: for publishers, from day one, in your words", "/updates/: these briefs, newest first"]},
+  {"title": "What went wrong today, and what was learned", "items": ["Twice a command of mine recorded a placeholder security review before the real one ran; the session's own permission check refused both times. A placeholder verdict is a skipped step.", "The web tool could not reach leanpub.com; curl through the proxy could. Try curl before calling a host unreachable.", "The first account's conductor pushed once after its handover (the printed PDFs, at your request there): the case H1 now covers.", "The research index linked a study before it had an index; the gate caught it."]}
+ ],
+ "images": [
+  {"path": "team/conductor/rc1/cover/cover-1-thumb.jpg", "caption": "RC1's cover, now on /rc1/"},
+  {"path": "team/conductor/rc1/infographics/jpg/ig12-key-per-session.jpg", "caption": "A key per session: today's handovers, eight times"},
+  {"path": "team/conductor/rc1/resources/images/maps/13-the-book-team-and-the-cold-read-team.png", "caption": "The book's team and the Cold-Read team (RC1, map 13)"}
+ ],
+ "next": [
+  "14:02: a study of the talk's site, every page and visual (admin included), with screenshots, and a PDF debrief of it",
+  "The exit interviews: the talk team's agents on lessons learned, in their own voices (whether by their own sessions or reconstructed from their record is your choice)",
+  "Record the publisher's takeover when its key arrives",
+  "Your RC1 ticks, as open decisions when they come"
+ ],
+ "sources": ["team/conductor/wakes/ (eight wake records, 11:08 to 13:10)", "team/conductor/sessions-register.json", "book.json", "team/*/status.json", "team/conductor/research/", "the editor's words in the conductor's session"]
+}

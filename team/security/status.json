@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "security",
- "as_of": "2026-10-30T13:04:00Z",
+ "as_of": "2026-10-30T13:25:00Z",
  "round": 0,
- "state": "staffed; second session on the second account (takeover): key published, task created, handover adopted; RC1 review begun",
+ "state": "staffed; second session (takeover): key, task, handover adopted; RC1 first security pass sent to the conductor",
  "done": [
   {
    "what": "session key made and published: team/security/key.json, key.png, sessions/session_01Kw9UwDYutLfqT71U7kmgVs/",
@@ -76,16 +76,24 @@
   {
    "what": "scheduled task trig_01Ej7kyzaD9q9CW7si5Ap3nW created into this session, at the editor's word in the session's first message, from team/conductor/schedule.json word for word",
    "when": "2026-10-30"
+  },
+  {
+   "what": "RC1 first pass: team/security/reviews/rc1-review.md; chapter 9's flagged passages, six corrections, twelve cards adopted; letter security__006",
+   "when": "2026-10-30"
   }
  ],
  "next": [
   {
-   "what": "read the editor's newsroom articles and the writer's rules; review RC1 chapters 3, 4, 8, 9 as they land",
-   "why": "S4, the editor's flight"
+   "what": "the editor's voice in RC1 chapters 3, 4, 8, 9 and 12, by the newsroom writer's rules",
+   "why": "conductor's letter 007; board 006"
   },
   {
-   "what": "the DER helpers of pki-agent.mjs; the vendored QR generator for calls and writes",
-   "why": "ROLE.md responsibility 2"
+   "what": "the book team's own controls in controls/, the takeover first (new keys, superseded sessions, paused and new tasks)",
+   "why": "ROLE.md Done when 3; the handover"
+  },
+  {
+   "what": "rename the control ids (card security-12); then the DER helpers of pki-agent.mjs",
+   "why": "board 004, 005"
   }
  ],
  "asks": [

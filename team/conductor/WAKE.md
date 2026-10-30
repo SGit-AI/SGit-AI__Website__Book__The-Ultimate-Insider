@@ -42,6 +42,16 @@ A finished member can be woken again: a request addressed to it after it finishe
 
 The same rule as the Cold-Read team's, read there; nothing was sent there.
 
+## Handing over: when another session takes a role (H1, signed 30 October 2026)
+
+The editor agreed this in the conductor's session, about 13:00 UTC ("Yes that H1 plan is good"; `book.json` H1, option A). A handover closes one session and opens the next; it gives a natural cadence of shorter sessions, and it is done often until it runs smoothly.
+
+1. **The handover.** The outgoing session writes it when it can (its own debrief, or `team/conductor/handovers/<id>.md`). When it cannot (out of usage, or not worth its tokens), the conductor writes it on its behalf and signs it as itself.
+2. **The new session** makes its key, marks the old session `superseded` with an `until` in `team/<id>/sessions/<old>/SESSION.json`, adopts the handover in its first debrief, and creates its own task.
+3. **The conductor** records every handover in `team/conductor/sessions-register.json` (old session and key to new) and announces the new session id and key to every member by letter, so a member checking a signed message knows which key holds the role now.
+4. **From the `until`**, the old session pushes nothing as that role. A commit marked `@<id>:` from a superseded session is flagged to the editor.
+5. **The editor** archives the old session in his own account; no agent can archive another account's session.
+
 ## Stopping: when something is not right
 
 Any member may stop the schedule; nobody needs permission to stop, and only the editor restarts. Stop when:
