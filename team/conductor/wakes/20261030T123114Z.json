@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "In scope. Conditions: studies of public figures and firms only, public work cited, no emails, phones or private individuals; nobody contacted without the editor's go; the publishers page quotes the editor verbatim and says he has yet to check it; its only contact route the repository's issues; only public fingerprints in the register; research held for review; no send.message.world.",
    "at": "2026-10-30T12:32:07Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "the session's model",
+   "verdict": "partial",
+   "comment": "1. Librarian's new session (session_01Kw9UwEJGqU63vtsX81uGNm, sha256:7c3cf6b4d63370b0, task trig_01FSNcFLFBHSd9sEGYn86ndy) in sessions-register.json; five notices. 2. Two studies running in the background, held out of this commit for review at the next wake. 3. src/pages/publishers/index.html (his words, repository issues as the route, marked unchecked by him), linked from home; review-programme README; build_research lists only folders with a README (gate finding fixed). Gate clean.",
+   "at": "2026-10-30T12:33:38Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "Gate clean (106 pages); 0 outside scope; vault_check clean; no em-dashes. Publishers page quotes the editor, says he has yet to check it, only the repository's issues as contact; register holds only public fingerprints; no outreach. The quote could not be checked against his words from here.",
+   "at": "2026-10-30T12:34:16Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "partial",
+   "comment": "1. Register and five notices done. 2. Studies running, held out by design. 3. Publishers page, home link, review-programme README done. Disclosed extra: build_research README filter for a gate finding.",
+   "at": "2026-10-30T12:34:16Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T12:34:17Z",
+ "outcome": "partial"
 }
