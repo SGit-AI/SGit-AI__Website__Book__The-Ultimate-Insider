@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "editor's request, in the conductor's session",
+ "started": "2026-10-30T10:27:15Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "sub-agent",
+   "verdict": "go",
+   "comment": "1. Commit team/conductor/rc1/ (drafts, BRIEF, 42 images). 2. READY for the publisher. 3. A letter to the publisher with the two build changes images need, as a diff. 4. status.json.",
+   "at": "2026-10-30T10:27:50Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "sub-agent",
+   "verdict": "go",
+   "comment": "In scope; publishing/ only described as a diff. Checked: no em-dash in the chapters, no key or token, sampled images show no secret or private person. Conditions: vault_check comms; the diff stays text in the letter.",
+   "at": "2026-10-30T10:27:50Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "team/conductor/rc1/ staged: front note, 13 chapters, Appendix A, 42 images (4.9 MB), BRIEF, READY. Letter 005 to the publisher with the two build changes as a diff, outbox copy, fallback file. status.json. vault_check comms clean; 0 outside scope; gate clean.",
+   "at": "2026-10-30T10:27:54Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "sub-agent",
+   "verdict": "clean",
+   "comment": "63 staged files under team/conductor/ and the conductor's comms paths; nothing in manuscript/ or publishing/; no em-dash; no key, token or vault key; sampled images show no secret or private person; comms and gate clean.",
+   "at": "2026-10-30T10:28:30Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "sub-agent",
+   "verdict": "as-planned",
+   "comment": "RC1 staged, READY, letter 005 with the diff as text, status.json; conditions kept; nothing unplanned.",
+   "at": "2026-10-30T10:28:30Z"
+  }
+ },
+ "closed": "2026-10-30T10:28:30Z",
+ "outcome": "ok"
+}

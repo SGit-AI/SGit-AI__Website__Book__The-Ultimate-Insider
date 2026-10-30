@@ -1,10 +1,14 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "conductor",
- "as_of": "2026-10-30T11:05:00Z",
+ "as_of": "2026-10-30T10:35:00Z",
  "round": 1,
- "state": "RC1 drafted (13 chapters and Appendix A, about 50,000 words), the text PDF sent to the editor; the illustrator placing images; RC1 is revised in place; the editor's answers recorded; the voice brief and the drafting's findings routed",
+ "state": "RC1 committed (13 chapters, Appendix A, 42 images) and marked ready; the illustrated PDF, 197 pages, sent to the editor for his flight; the publisher asked to move it into manuscript/ and to make the two build changes images need",
  "done": [
+  {
+   "what": "RC1: 13 chapters, Appendix A and 42 images, drafted at the editor's word; the illustrated PDF sent to him",
+   "evidence": "team/conductor/rc1/"
+  },
   {
    "what": "M1: the book in Markua, at the editor's word; the request to the publisher",
    "evidence": "book.json M1"
