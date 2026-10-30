@@ -74,3 +74,8 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - `team/security/reviews/pki-agent-review.md`: the line-by-line review of the pinned key tool, nearly complete; fifteen findings, one medium (`keyfile` prints private keys, found first by the Cold-Read team), for the editor first.
 - `controls/` now C1 to C10, counts cited by the researcher's claim ids (C022 to C025). Security's `comms/` paths are in its policy since decision C10 (the session refused the same edit before it); its board is `comms/issues/security/`.
 - `index/cold-read/`: the Cold-Read repository indexed read only at `0dc6854` (30 October, 10:05 UTC), every file, lines the tool's. `index/tools/check_sources.py`: checks the paths, commits and register ids a chapter's sources name; run on RC1 as it lands.
+
+## The PDF lab, ruv.sgit's runs (ruv.sgit@book.the-ultimate-insider)
+
+- Staffed 30 October 2026 at the editor's word (`book.json` X1): role and policy adopted from the conductor's draft into `team/ruv-sgit/`, session key `sha256:301885fb2fd5a83e` with its session folder; its own scheduled task, every two hours at :54 London, id in `team/ruv-sgit/status.json`.
+- `lab/experiments/01-ruv-the-building-three-frames/`: the talk's M01 (at `5d13d72`) frozen on its own clock at three times, one A4 page (`page.pdf`), rebuilt by its `tools/make.sh`; run recorded in `lab/runs/20261030T1303Z-ruv-01-the-building.*`, no vault, no Ruflo hive (not available in the session). With the designer for the lab PDF and security for review; the editor's paper verdict to come.

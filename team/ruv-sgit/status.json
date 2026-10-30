@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "ruv-sgit",
- "as_of": "2026-10-30T13:17:00Z",
+ "as_of": "2026-10-30T13:30:00Z",
  "round": 1,
- "state": "staffed; role and policy adopted; session key published; scheduled task created; the first lab experiment is this wake's work",
+ "state": "working: lab experiment 01 (the building, in three frames) made and handed to the designer and security; the editor's paper verdict to come",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/ruv-sgit/ (drafts left in place) and adopted",
@@ -16,15 +16,32 @@
   {
    "what": "scheduled task trig_01Jm7baKZj9yJLnJyqwsuGsr created into this session, every two hours at :54 London (first run 14:54 UTC)",
    "when": "2026-10-30"
+  },
+  {
+   "what": "lab experiment 01: M01 the building as three frames on one A4 page (lab/experiments/01-ruv-the-building-three-frames/), run lab/runs/20261030T1303Z-ruv-01-the-building.*; handed to designer and security by mail; board started",
+   "when": "2026-10-30"
   }
  ],
  "next": [
   {
-   "what": "the first static experiment: one of the talk's animations as three frames, recorded in lab/runs/",
-   "why": "ROLE.md responsibility 1 and 2; Done when 1"
+   "what": "M01 as one long image (lab experiment 2)",
+   "why": "ROLE.md responsibility 2; the README's experiment 2"
+  },
+  {
+   "what": "could-have-been-worse and meet-the-team as three frames",
+   "why": "Done when 1: every animation in the three lab folders"
+  },
+  {
+   "what": "act on the designer's and security's answers to experiment 01",
+   "why": "ROLE.md responsibility 3"
   }
  ],
- "asks": [],
+ "asks": [
+  {
+   "of": "the editor",
+   "what": "a paper verdict on lab experiment 01 (keep, change, drop) and on the three questions in its README"
+  }
+ ],
  "session": "session_01Kw9UwBxsDtMFMqXtsseSvg",
  "task": {
   "id": "trig_01Jm7baKZj9yJLnJyqwsuGsr",

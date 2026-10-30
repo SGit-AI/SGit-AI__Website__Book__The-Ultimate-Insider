@@ -1,0 +1,56 @@
+{
+ "schema": "the-ultimate-insider/lab-run-evidence/v1",
+ "run": "20261030T1303Z-ruv-01-the-building",
+ "started": "2026-10-30T13:03:08Z",
+ "wake_record": "team/ruv-sgit/wakes/20261030T130308Z.json",
+ "calls": [
+  {
+   "what": "git clone of the talk's repository into the scratchpad (read only)",
+   "tool": "git"
+  },
+  {
+   "what": "node tools/capture.js <M01> frames light '22.5 30 43' (and dark, for comparison only, not committed)",
+   "tool": "playwright chromium"
+  },
+  {
+   "what": "node tools/print.js page.html page.pdf",
+   "tool": "playwright chromium"
+  },
+  {
+   "what": "sub-agents: plan (go), pre-review (go); post-review and post-check after the diff",
+   "tool": "Agent, smaller model"
+  }
+ ],
+ "outputs": {
+  "page.pdf": "1 page, A4",
+  "frames": [
+   "frames/m01-light-t22_5.png",
+   "frames/m01-light-t30.png",
+   "frames/m01-light-t43.png"
+  ],
+  "hashes": "lab/experiments/01-ruv-the-building-three-frames/SHA256SUMS"
+ },
+ "sources": [
+  {
+   "path": "src/static/motion/lab/the-building/v1/index.html",
+   "commit": "5d13d72",
+   "sha256": "37c608ee44adba5cb50bbc915bed83ec26e7d47ce2bd9f7babc02cbfc296c247"
+  },
+  {
+   "path": "src/static/talk/engine/slide.js",
+   "commit": "23739cc"
+  },
+  {
+   "path": "src/static/talk/engine/slide.css",
+   "commit": "5a91607"
+  }
+ ],
+ "time": {
+  "work_started": "2026-10-30T13:15:00Z",
+  "work_ended": "2026-10-30T13:25:00Z"
+ },
+ "handed_to": [
+  "designer (comms/mail/mailroom/designer/ruv-sgit__001-lab-01-the-building.eml)",
+  "security (comms/mail/mailroom/security/ruv-sgit__001-lab-01-review.eml)"
+ ]
+}
