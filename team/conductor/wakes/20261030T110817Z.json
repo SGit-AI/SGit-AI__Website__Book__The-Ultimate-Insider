@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "takeover from the first account, editor's request",
+ "started": "2026-10-30T11:08:17Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "1. Commit the key handover (team/conductor/key.json, key.png, sessions/*, wakes/20261030T110817Z.json) with a debrief note that the key changed hands, and send the publisher a request (comms/mail/mailroom/publisher/conductor__NNN-rc1-moved-on.eml + outbox copy) naming the current rc1 folder, --embed-resources and CALLOUT_CSS. 2. Patch admin/build/build.py to copy manuscript/resources into OUT/book/resources and fix admin/versions.html's dead link; gate, push dev. 3. Answer storyteller 003, researcher 001, security 005 in comms/mail/mailroom/<them>/conductor__*.eml; close issue 001 with evidence; update status.json. All inside policy; no schedule created.",
+   "at": "2026-10-30T11:09:50Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "All planned writes in conductor scope.writes; no PRIVATE KEY in key.json, sessions/ or wakes/; no stop condition; no schedule; no other member's paths. Conditions: vault_check.py on comms before commit; no key or contact detail in .eml files; keep the publisher request to its role; no main push.",
+   "at": "2026-10-30T11:10:12Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

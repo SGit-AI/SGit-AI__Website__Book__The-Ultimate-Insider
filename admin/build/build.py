@@ -738,7 +738,9 @@ class Site_Build:
         self.write('admin/versions/index.json', json.dumps({'current': self.version, 'versions': [
             {k: r[k] for k in ('version', 'date', 'commit', 'title')} for r in rels]}, indent=1) + '\n')
 
-        def link(pg):
+        def link(pg):                                               # a page an earlier release made may be gone: name it, do not link it
+            if pg not in self.titles and not (OUT / pg).exists():
+                return f'{html.escape(pg)} <span class="c-dim">(no longer on the site)</span>'
             return f'<a href="../{pg}">{html.escape(self.titles.get(pg, pg))}</a>'
         sections, mds = [], []
         for r in rels:
@@ -1157,6 +1159,8 @@ class Site_Build:
                       f'{md.to_html(text.split(chr(10), 1)[1] if chr(10) in text else "")}<p class="pn">{prev} {nxt}</p></article>', kind='article',
                       body_md=text.split('\n', 1)[1] if '\n' in text else '')
             toc.append((rel, title))
+        if (ROOT / 'manuscript' / 'resources').is_dir():            # the chapters' images, at the paths Markua uses (publisher's letter 002)
+            shutil.copytree(ROOT / 'manuscript' / 'resources', OUT / 'book' / 'resources', dirs_exist_ok=True)
         cands = ''.join(f'<li><b>{esc(t["title"])}</b>' + (f': {esc(t["sub"])}' if t.get('sub') else '') + '</li>' for t in b['title']['candidates'])
         lis   = ''.join(f'<li><a href="{Path(r).name}">{esc(t)}</a></li>' for r, t in toc)
         body  = (f'<section class="wrap narrow"><p class="kicker">The book</p><h1>The manuscript</h1>'

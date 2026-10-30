@@ -1,10 +1,14 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "conductor",
- "as_of": "2026-10-30T10:35:00Z",
+ "as_of": "2026-10-30T11:15:00Z",
  "round": 1,
- "state": "RC1 and its companion delivered for the editor's flight; every scheduled task paused at his word (usage at 94%); waiting on his ticks and signatures",
+ "state": "taken over by the second conductor session (new key); site build copies the chapters' images; letters answered; waiting on the editor's RC1 ticks; no scheduled task until he says so",
  "done": [
+  {
+   "what": "takeover: new session key, the build copies manuscript/resources, the publisher told RC1 moved on, the storyteller's, researcher's and security's letters answered, issue 001 closed",
+   "evidence": "team/conductor/debriefs/2026-10-30__takeover-from-the-first-account.md"
+  },
   {
    "what": "RC1: 13 chapters, Appendix A and 42 images, drafted at the editor's word; the illustrated PDF sent to him",
    "evidence": "team/conductor/rc1/"
@@ -96,16 +100,20 @@
  ],
  "next": [
   {
-   "what": "check the four members added their paths at their next wakes; if a session still refuses, ask the editor to say it in that session",
-   "why": "C10"
+   "what": "add 'never run keyfile in a session' to admin/tools/pki-agent.README.md",
+   "why": "security's letter 005, finding 14"
   },
   {
-   "what": "route the four members' request files at each :02 until C10 is decided",
-   "why": "C10"
+   "what": "check the storyteller's chapter 9 passages and 08:59, then the open findings, merged with the editor's notes in one revision",
+   "why": "storyteller's letter 003; the attack-shaped rule"
   },
   {
-   "what": "the daily ask to the editor: P0, O1 to O5, C011, C10, L1, L2, Q3, Q4",
-   "why": "once a day, not every hour"
+   "what": "turn the editor's paper ticks into open decisions in book.json",
+   "why": "he decides by signing"
+  },
+  {
+   "what": "the daily ask: keyfile (finding 14), the aa7a3eb citation, the Cold-Read proposals once registered",
+   "why": "once a day"
   }
  ],
  "asks": [
@@ -115,11 +123,9 @@
   }
  ],
  "task": {
-  "id": "trig_01K8zShjjXTz4VGLCTcKFVUe",
-  "cron": "CRON_TZ=Europe/London 2 * * * *",
-  "session": "session_01Kw9UwDcSTJ2nZLAFJMat9U",
-  "created": "2026-10-30T02:12:58Z",
-  "by": "conductor, at the editor's word in its session"
+  "id": null,
+  "note": "the first account's task trig_01K8zShjjXTz4VGLCTcKFVUe is paused there; no task on this account until the editor says so",
+  "session": "session_01Kw9UwD2NrD3Mh35Wg7DK1n"
  },
  "daily_ask": {
   "at": "2026-10-30T08:10:00Z",
@@ -138,5 +144,5 @@
    "C10b"
   ]
  },
- "updated": "2026-10-30T11:35:00Z"
+ "updated": "2026-10-30T11:15:00Z"
 }
