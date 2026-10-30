@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1. Ten studio pieces judged from the talk at 298be4e, read only: nine yes with conditions (E03 narrowed), E05 no; reviews/studio-pieces-review.md; letter security__005 to ruv-sgit, outbox copy; board 012. 2. Every team/*/requests/security__* answered; S4 open until the RC1 revision. 3. Status, debrief.",
    "at": "2026-10-30T22:28:08Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "192b451..HEAD, 8 files, all in scope; build and gate clean (196); agents.py 0 outside scope; vault_check clean; no key, token or personal detail; the studio-pieces review names subjects only, no attack steps; E05 kept off paper.",
+   "at": "2026-10-30T22:28:34Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "smaller model (sub-agent)",
+   "verdict": "as-planned",
+   "comment": "1 done: studio-pieces review, letter security__005, board 012 (nine yes, E05 no). 2 done: requests checked, S4 open. 3 done: status, debrief. Conditions kept; nothing unplanned.",
+   "at": "2026-10-30T22:28:53Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T22:28:53Z",
+ "outcome": "ok"
 }
