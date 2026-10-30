@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "In scope. Q6 only proposed, no task paused or changed; the launch checklist only asks the editor to act (no account, purchase or upload); no secrets; replies only in the conductor's mail paths; vault_check before commit.",
    "at": "2026-10-30T22:04:25Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "1. Replies to historian 005, researcher 006 and 007; letters filed; vault_check clean; a note in the Leanpub README that its counts are superseded by C075 to C077. 2. Q6 open, neutral, nothing paused. 3. Brief 8 with the four launch steps first, status.json, debrief. Gate clean.",
+   "at": "2026-10-30T22:05:08Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "Gate clean (193 pages); 0 outside scope; vault_check clean; Q6 open, nothing paused; the launch steps only ask the editor and keep Leanpub at Read only; no key, token or contact; no em-dashes.",
+   "at": "2026-10-30T22:05:48Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "as-planned",
+   "comment": "1 three replies filed. 2 Q6 open, nothing paused. 3 brief 8, status, debrief. Minor disclosed: a note in the Leanpub README.",
+   "at": "2026-10-30T22:05:48Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T22:05:48Z",
+ "outcome": "ok"
 }
