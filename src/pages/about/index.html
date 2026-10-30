@@ -1,0 +1,31 @@
+<!--meta {"title": "About this site", "description": "Who publishes this site, how it is built and released, what its gate checks, and what it does not claim."} -->
+<section class="wrap narrow">
+<p class="kicker">About</p>
+<h1>About this site</h1>
+<p class="lead">The working site of the book of <b>The ultimate insider</b>, a talk by Dinis Cruz at hack::soho, IOActive London, on 29 October 2026. The book is written in public: the plan, the team, the decisions and the manuscript are published here as they change.</p>
+
+<h2 id="disclosure">A disclosure</h2>
+<p>This site is published by the editor of the book, who also gave the talk, and the projects the talk points to (<a href="https://sgit.ai/">sgit.ai</a> among them) are ones he founded or works on. Most of the writing is done by AI agents working for him, under the rules in <a href="{{root}}docs/rules-for-agents.html">the rules for agents</a>.</p>
+
+<h2 id="build">How it is built</h2>
+<p>The same way as <a href="https://the-ultimate-insider.presentation.sgit.ai/about/index.html">the talk's site</a>, cut to what the book needs on day one: a Python build with the standard library only (<code>admin/build/build.py</code>), pages written as fragments in <code>src/pages/</code>, the book's plan as data in <code>book.json</code>, the briefs in <code>briefs/</code>, and the manuscript in <code>manuscript/</code>, in the order Leanpub reads it from <code>manuscript/Book.txt</code>. Every page has a markdown twin at the same path, and <a href="{{root}}llms.txt">llms.txt</a> lists them all.</p>
+
+<h2 id="release">How it is released</h2>
+<p>CI owns the version. Every push is built with the version "pending" and gated. A push to <code>dev</code> or <code>main</code> then gets one release: CI reads the newest tag, picks the next number (dev bumps the last number, main the middle one), commits it to <code>./version</code>, tags that commit, builds it, gates it again, deploys it to GitHub Pages and checks the live site serves it. Nobody else writes the version. Every release is in <a href="{{root}}releases/index.html">the release history</a>.</p>
+
+<h2 id="gate">What the gate checks</h2>
+<ul>
+<li>every link inside the site resolves, and every page is linked from another;</li>
+<li>every page has its markdown twin and is listed in llms.txt;</li>
+<li>every page carries structured data and the build's version in its top bar;</li>
+<li>no <code>{{</code> placeholder survives the build;</li>
+<li>no script or stylesheet loads from another host;</li>
+<li>every script parses;</li>
+<li><code>book.json</code> has what the pages need, and every file in <code>manuscript/Book.txt</code> exists;</li>
+<li>no em-dashes in prose;</li>
+<li>the leak tripwire: nothing that looks like a key or a token, in any tracked file or in the built site.</li>
+</ul>
+
+<h2 id="claims">What it does not claim</h2>
+<p>The numbers on this site come from the editor's brief and have not yet been re-checked by the book's researcher. Until a number is in the researcher's register, it is the brief's, not the book's.</p>
+</section>

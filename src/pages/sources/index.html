@@ -1,0 +1,38 @@
+<!--meta {"title": "Sources", "description": "Where the book comes from: the talk's repository pinned at commit 298be4e (site v0.2.0), what the editor holds outside it, and the earlier work the book reuses."} -->
+<section class="wrap narrow">
+<p class="kicker">Sources</p>
+<h1>Where the book comes from</h1>
+<p class="lead">The book is written from a record, and the record is public. The main source is pinned, so every quotation and every number can be checked against the same commit.</p>
+
+<h2 id="the-talk">The talk's repository, pinned</h2>
+<p><a href="https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/tree/298be4e">SGit-AI__Website__Presentation__The-Ultimate-Insider at <code>298be4e</code></a>: main, site v0.2.0, merged from dev at 23:19 on 29 October 2026 (pull request 1, the repository's first). Read-only: nobody on the book's team pushes to it. Published at <a href="https://the-ultimate-insider.presentation.sgit.ai/">the-ultimate-insider.presentation.sgit.ai</a>.</p>
+<p>Where things are in it, from the source map in the brief:</p>
+<div class="tbl"><table><thead><tr><th>What</th><th>Where</th></tr></thead><tbody>
+<tr><td>The original brief, never edited; corrections kept apart</td><td><code>BRIEF.md</code>, <code>BRIEF-CORRECTIONS.md</code></td></tr>
+<tr><td>What actually exists, kept by whoever ships</td><td><code>REALITY.md</code></td></tr>
+<tr><td>How an agent starts a wake, the banner, the checks</td><td><code>admin/tools/start.py</code>, <code>banner.py</code>, <code>wake.py</code>, <code>vault_check.py</code></td></tr>
+<tr><td>The pinned key tool and its hash</td><td><code>admin/tools/pki-agent.mjs</code>, <code>.sha256</code></td></tr>
+<tr><td>Each member: role, policy, status, key, sessions</td><td><code>team/&lt;member&gt;/</code></td></tr>
+<tr><td>The conductor's schedule, pace, hold, onboarding, wake procedure</td><td><code>team/conductor/</code></td></tr>
+<tr><td>The editor's decisions, claims, sources, incidents</td><td><code>evidence/</code></td></tr>
+<tr><td>The story work: tree, coverage, sequence, Wardley maps</td><td><code>team/storyteller/</code>, <code>evidence/story/</code></td></tr>
+<tr><td>The talk: beats, slides, engine, player</td><td><code>src/static/talk/</code></td></tr>
+<tr><td>The site build and its release pipeline</td><td><code>admin/build/build.py</code>, <code>.github/workflows/release.yml</code></td></tr>
+</tbody></table></div>
+<p>The full map is <a href="{{root}}brief/3-source-map.html">the source map</a>.</p>
+
+<h2 id="held">Not in the repository</h2>
+<p>The editor holds these; whether they go into the source is <a href="{{root}}decisions/index.html#Q4">an open decision</a>:</p>
+<ul>
+<li>the editor's voice memos of 29 October (the morning's narrative memo, the 13:50 feedback round, the 15:00 decisions round);</li>
+<li>the claude.ai session transcripts in which the briefs were written;</li>
+<li>whatever was said on stage: if the talk was recorded, the recording is the primary source for its live demos.</li>
+</ul>
+
+<h2 id="earlier">Earlier work the book reuses</h2>
+<ul>
+<li><a href="https://gen-z-developers.sgit.ai/">The Gen ZX Founders book</a>: its roles, its "every chapter ends with where it came from" rule, its synthetic readers, its paper-review loop, its covers drawn by code, and its Leanpub and Amazon listing work.</li>
+<li><a href="https://ruv.sgit.ai/">ruv.sgit.ai</a>, the 15 October 2026 talk, whose player and pieces the talk's team ported.</li>
+<li><a href="https://newsroom.sgit.ai/">The SGit Newsroom</a>, the editor's article workflow, and <a href="https://newsroom.sgit.ai/articles/ci-owns-the-version.html">CI owns the version</a>, the release scheme this site uses.</li>
+</ul>
+</section>
