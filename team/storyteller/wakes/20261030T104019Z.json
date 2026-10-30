@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1. The conductor's letters 003 and 004 answered with one letter (comms/mail/mailroom/conductor/storyteller__003-rc1-review.eml, copy in outbox): 21 findings and small fixes by file and line, in four groups. 2. Five read-only review sub-agents (RC1 in four parts, the Cold-Read critique and readers against the plan); drafts untouched; nothing sent to the Cold-Read repository. 3. Letters into done/, board (002 done, 004 open), debrief, status, REALITY.md; two plan corrections (chapter 2's failure, the claims rule). Commit 9be7b66.",
    "at": "2026-10-30T10:45:43Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Build and validate pass (89 pages); 0 outside scope since 1b1b0b8; vault_check comms clean. No team/conductor/rc1/ or manuscript/ file touched. Letter: no keys, tokens, personal details, em-dashes, model id, long Cold-Read quotes or directives; the chapter 9 passages are named, the methods not restated.",
+   "at": "2026-10-30T10:46:20Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "1 The letter answering 003 and 004, 21 findings, outbox copy: done. 2 Read-only review sub-agents; no draft or manuscript touched; the Cold-Read repository untouched: done. 3 Letters in done/, board, debrief, status: done. Unplanned, minor: two plan corrections and REALITY.md (the plan signed).",
+   "at": "2026-10-30T10:46:20Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T10:46:20Z",
+ "outcome": "ok"
 }
