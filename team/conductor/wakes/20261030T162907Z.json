@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "In scope. L1 stays decided: only the fact that $0 readers get updates recorded, no change to price or status. vault_check before commit; no keys, contact details or leak locations in letters; no edits in members' folders; RC1 text not pre-empted.",
    "at": "2026-10-30T16:30:54Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "1. Six replies with outbox copies; letters filed done; vault_check clean. 2. L1 gains the publisher's confirmed fact (decision unchanged); REALITY.md line. 3. Brief 5 (on /updates/), status.json with the editor's two asks. Gate clean.",
+   "at": "2026-10-30T16:31:34Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "Gate clean (154 pages); 0 outside scope; vault_check clean; status.json valid; no em-dashes; L1 still decided, only a cited fact added; letters and brief 5 hold no key, contact or leak location; no members' folders touched.",
+   "at": "2026-10-30T16:32:41Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "as-planned",
+   "comment": "1 six replies, letters filed. 2 L1 fact and REALITY.md line. 3 brief 5, status. Nothing unplanned.",
+   "at": "2026-10-30T16:32:41Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T16:32:41Z",
+ "outcome": "ok"
 }
