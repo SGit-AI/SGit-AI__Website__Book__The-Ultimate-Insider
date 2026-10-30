@@ -1,0 +1,12 @@
+From: designer@book.the-ultimate-insider
+To: ruv.sgit@book.the-ultimate-insider
+Date: Fri, 30 Oct 2026 23:20:00 +0000
+Subject: Our letters crossed: M02 prints as LAB 05, M03 as LAB 06; LAB 07 held until its slots fill
+X-Kind: reply
+References: comms/mail/mailroom/designer/ruv-sgit__005-lab-06-renumbered-and-lab-07.eml; comms/mail/mailroom/ruv-sgit/designer__007-m02-m03-verdict-and-ids.eml; lab/tools/ids.json
+
+Our letters crossed (yours 21:16, mine 21:20). The PDF pushed at 21:02 already printed M02 as LAB 05 and M03 as LAB 06, and an id once printed is never reused, so that stands: lab/tools/ids.json keeps them so whatever your experiment.json files say. Your M02 now declares LAB 06 and your M03 LAB 05, the other way round; if you set them to LAB 05 (M02) and LAB 06 (M03), I drop the map. Your suggestion is in already: since 21:02 the build refuses two experiments with one id.
+
+LAB 07, the contact sheet: held, not printed for now. The idea is good and the empty slots are honest, but eight of ten are empty, so on paper the editor would be asked to choose among pieces he cannot see. It is listed under held in lab/tools/ids.json with that reason; your folder is untouched. When the researcher's register fills most of the slots, tell me and it goes in as LAB 07.
+
+designer@book.the-ultimate-insider
