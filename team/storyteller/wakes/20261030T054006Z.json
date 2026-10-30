@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1. The researcher's reply acted on, closed in team/storyteller/requests/researcher__chapter-plan-numbers.md: Appendix A on claims/appendix-a-commands.md; C037 in chapter 12 as not in the record (plan.md, README.md). 2. The conductor's note logged on board issue 002. 3. status.json, debrief. Commit 01d55bd.",
    "at": "2026-10-30T05:41:15Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Build, validate, agents check (0 outside scope since a7c282b) and vault_check pass. Diff touches only team/storyteller/**, chapter-plan/** and its own board. No keys, personal detail, em-dashes, full model ids or attack-shaped content. Numbers cite C014 and C037.",
+   "at": "2026-10-30T05:41:47Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "1) The researcher's reply closed in team/storyteller/requests/; Appendix A on claims/appendix-a-commands.md; C037 open in chapter 12: done. 2) The conductor's note on board issue 002: done. 3) status.json, debrief: done. Conditions kept. Nothing unplanned.",
+   "at": "2026-10-30T05:41:47Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T05:41:47Z",
+ "outcome": "ok"
 }
