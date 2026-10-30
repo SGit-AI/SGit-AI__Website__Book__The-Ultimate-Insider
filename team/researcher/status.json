@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-10-30T11:05:00Z",
+ "as_of": "2026-10-30T13:17:00Z",
  "round": 1,
- "state": "working: RC1 numbers reviewed (letter to the conductor); 42 claims (35 checked, 5 corrected, 2 open); comms/ paths in my policy at C10b; board in comms/issues/researcher/",
+ "state": "working: second account session took over at 13:02 UTC; key published, scheduled task created; adopting the handover, letter 006 next",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -52,6 +52,14 @@
   {
    "what": "RC1's 13 chapters checked number by number against the register; six places to change sent to the conductor (comms/mail/mailroom/conductor/researcher__001-rc1-numbers.eml); C011, C014, C018, C021, C023 corrected at the drafting's findings; C041, C042 new",
    "when": "2026-10-30T11:05:00Z"
+  },
+  {
+   "what": "second account session: key made and published (sha256:0f94386bc5e70a5e), the first session (session_01Kw9UwBta1dcP9qBJUURLPZ) marked superseded",
+   "when": "2026-10-30T13:02:45Z"
+  },
+  {
+   "what": "scheduled task trig_01Q1gWPQbdrBw3xwfRdVEGph created into this session at the editor's word, from team/conductor/schedule.json (every two hours at :32 London); the first account's task trig_0187JjB8uJUHxvgeCoAGXoKj stays paused there",
+   "when": "2026-10-30T13:16:32Z"
   }
  ],
  "next": [
@@ -79,11 +87,16 @@
   }
  ],
  "task": {
-  "id": "trig_0187JjB8uJUHxvgeCoAGXoKj",
-  "cron": "CRON_TZ=Europe/London 32 * * * *",
-  "session": "session_01Kw9UwBta1dcP9qBJUURLPZ",
-  "created": "2026-10-30T01:41:21Z",
-  "prompt": "team/conductor/schedule.json, runs entry for researcher, word for word"
+  "id": "trig_01Q1gWPQbdrBw3xwfRdVEGph",
+  "cron": "CRON_TZ=Europe/London 32 */2 * * *",
+  "session": "session_01Kw9UwBhzn98NK3Ydio5nEP",
+  "created": "2026-10-30T13:16:32Z",
+  "prompt": "team/conductor/schedule.json, runs entry for researcher, word for word",
+  "previous": {
+   "id": "trig_0187JjB8uJUHxvgeCoAGXoKj",
+   "session": "session_01Kw9UwBta1dcP9qBJUURLPZ",
+   "state": "paused on the first account at the editor's word, about 10:50 UTC"
+  }
  },
  "issues": [
   {
