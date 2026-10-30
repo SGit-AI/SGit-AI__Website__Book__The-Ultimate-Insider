@@ -13,7 +13,8 @@ Defensive notes only: what each finding is, why it matters, and a fix. No key ma
 | keys module (`assets/people/keys.js`): algorithms, identity, PBES2, signatures, the envelope | 2278 to 2568 | yes (second wake), but not the DER helpers line by line |
 | message module (`assets/people/message.js`): the inner message, links, invitations, agent QR codes, vault keys in text | 2927 to 3147 | yes (sixth wake) |
 | directory module (`assets/people/directory.js`): records, statements, the graph, trust from a pinned root | 2569 to 2926 | yes (seventh wake) |
-| evidence, QR reader, unzip modules | 3148 to 3504 | no; skimmed for network calls and file writes |
+| evidence module (`assets/people/evidence.js`): checking a website, gist or DNS record by machine | 3148 to 3214 | yes (eighth wake) |
+| QR reader, unzip modules | 3216 to 3504 | no; skimmed for network calls and file writes |
 | key store, argument parser, register, pinned root | 3505 to 3600 | yes |
 | self-spawn, commands `submit` to `trust` | 3660 to 3800 | yes |
 | remaining commands | 3800 to the end | no |
@@ -35,6 +36,10 @@ The file says it is generated from the site's own code by `admin/build/gen_agent
 
 9. **An operator's link can name any end date** (`validUntil`, line 2649; `shapeProblems`, link). An agent is operated for 30 days when the operator's link names no `until` (`AGENT_DAYS`, line 2643); a link that names one is taken as written, a year or ten. The short life of an agent's standing is a default, not a limit. For this team the point is moot (no member is enrolled: every `key.json` says `enrolled: false`); it matters the day the editor confirms the team's keys. Fix, if wanted: cap `until` for `operates` at a few weeks in `shapeProblems`. Severity: information.
 
+10. **A claimed domain is not checked to be a bare host name** (`domainOf`, line 3167; the evidence shape in `shapeProblems` limits only its length). The value is lower-cased and loses a scheme and a path, nothing more, so a value carrying other URL parts can name a different host from the one a person reading the record sees. The machine check then reads the host the URL really names, and says so in its detail; the risk is a person trusting the value as written. Fix: accept only a host name (letters, digits, dots, hyphens) for `website` and `dns` evidence, in `shapeProblems`. Severity: low.
+11. **A server error on a website check reads as a failed proof** (line 3205). A network failure gives "could not be checked" (`null`), but any non-200 answer, a passing 503 included, gives `false`. The DNS check treats a bad answer as "try the next resolver" instead. Fix: `false` for 404 only, `null` for the rest, as the gist check already does (line 3195). Severity: information.
+12. **The DNS second channel is two public resolvers over HTTPS** (line 3179). The pinned root's DNS check (`fromRoot`) is "a second channel under another control"; in practice it is Cloudflare's or Google's answer, read over HTTPS, with no DNSSEC validation in the tool. That is a reasonable channel; it is worth knowing it is theirs. Severity: information.
+
 ## What held
 
 - The algorithms are standard and in the platform's own WebCrypto, with no hand-made primitives: RSA-OAEP 4096 with SHA-256 for sealing, ECDSA P-256 for signing, AES-256-GCM with a fresh random 96-bit IV per message, PBKDF2-HMAC-SHA256 at 210,000 iterations for a passphrase (lines 2341 to 2343, 2428, 2530). Randomness comes only from `crypto.getRandomValues` (line 2305).
@@ -44,6 +49,7 @@ The file says it is generated from the site's own code by `admin/build/gen_agent
 - A record is one key's own: every statement must be signed by the key in the record's first, identity, statement, and written for that record (rule 1, line 2711); a revocation can withdraw only the owner's own statements, and a revoked identity loses its links and inbox (line 2739).
 - A link counts only when both records hold one, each pointing at the other (`graph`, line 2787): one side alone is a claim and adds nothing.
 - Sealing to an agent is refused when the operator's authorised policy and the agent's claimed policy disagree (`vouched`, line 3603), and when the chain does not end at the pinned root or a person it verified (`trustFrom`, line 2889).
+- An evidence check that cannot run says so (`null`, "could not be checked from here"), never "false" (the module's own rule, line 3161); a gist proves nothing unless its owner is the account named (line 3197).
 - `parseQrText` treats a QR code as data carried by hand: exact keys, exact shapes, a length limit, refusal of anything else before a byte is used (lines 3088 to 3129). The rule the team's own CLAUDE.md states for material is written into the parser here.
 
 - `seal --from-vault` reads the vault key from `sgit vault show-key` into memory and never prints it or writes it to a file (line 3768 on); `send` turns a vault key found in `--text` into an attached file rather than message text.
@@ -52,4 +58,4 @@ The file says it is generated from the site's own code by `admin/build/gen_agent
 
 ## Next
 
-The evidence module (from line 3148: how a claimed website, gist or DNS record is checked), then the QR reader, unzip and the remaining commands; one part per wake.
+The QR reader and unzip modules (lines 3216 to 3504: images and archives a session is handed), then the remaining commands (3800 to the end); one part per wake.

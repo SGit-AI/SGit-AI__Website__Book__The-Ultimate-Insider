@@ -10,3 +10,5 @@ Read so far: header, keys module, key store, argument parser, register, pinned r
 **06:28 wake:** the message module read (lines 2927 to 3147): findings 7 and 8, both information; finding 5 corrected, the inner message already signs its recipient. Next: the directory module.
 
 **07:24 wake:** the directory module read (lines 2569 to 2926): finding 9, information; finding 1 narrowed to information. Next: the evidence module.
+
+**08:26 wake:** the evidence module read (lines 3148 to 3214): findings 10 (low), 11 and 12 (information). Next: the QR reader and unzip modules.
