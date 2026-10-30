@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, hourly at :09",
+ "started": "2026-10-30T03:10:03Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. Conductor's request (comms paths): add comms/issues/librarian/**, comms/mail/librarian/**, comms/mail/mailroom/*/librarian__* to team/librarian/policy.json scope.writes; an issue on comms/issues/librarian/ and a reply (X-Kind: reply) in comms/mail/mailroom/conductor/librarian__001-*.eml with an outbox copy; letter into comms/mail/librarian/inbox/ then done/; vault_check.py comms. 2. evidence/ read by hand into index/read.json, regenerate index/**, after-the-day.md. 3. status.json, debrief, REALITY.md own heading; agents.py check. (Board issue and reply added by the librarian per WAKE.md step 3.)",
+   "at": "2026-10-30T03:10:43Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Matches comms/README.md: exactly the three comms globs keyed to the librarian, no overlap. Conditions: only those three in scope.writes, holds untouched; vault_check.py comms and agents.py check/overlaps before the push; no secrets or contact details; never edit a letter already in a mailroom; REALITY and BRIEF-CORRECTIONS append only.",
+   "at": "2026-10-30T03:10:54Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "partial",
+   "comment": "Request blocked: the session's permission check refused widening team/librarian/policy.json on the conductor's request; reply in team/librarian/requests/conductor__comms-paths-reply.md, ask to the editor in status.json, nothing in comms/. evidence/ read by hand (38 non-image files) into index/read.json; studio capture folders labelled; index regenerated; README, REALITY own line, debrief, status.",
+   "at": "2026-10-30T03:12:18Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "partial",
+   "comment": "Item 1 (comms paths) not done: policy.json untouched, nothing in comms/; blocked by the permission check, reply in team/librarian/requests/conductor__comms-paths-reply.md and ask in status.json, an honest outcome. Item 2 done: evidence/ in read.json, index regenerated, README; after-the-day unchanged (talk at 424b67a). Item 3 done. Conditions kept. Nothing unplanned.",
+   "at": "2026-10-30T03:12:42Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Staged: REALITY.md one line under own heading, index/*, team/librarian/{debriefs,requests,status.json,wakes}; nothing in comms/, policy.json unchanged; no keys, tokens, personal details or directive text; 0 em-dashes added; gate clean (49 pages); agents.py check 0 outside scope.",
+   "at": "2026-10-30T03:12:51Z"
+  }
+ },
+ "closed": "2026-10-30T03:12:51Z",
+ "outcome": "partial"
+}

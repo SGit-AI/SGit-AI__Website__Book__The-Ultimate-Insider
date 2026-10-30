@@ -29,7 +29,7 @@ The index says where things are and what they are. It is not a source of numbers
 | motion | `areas/team-motion.md` | 44 | round 1 |
 | researcher | `areas/team-researcher.md` | 42 | round 1 |
 | security (proposed, never staffed) | `areas/team-security.md` | 2 | round 1 |
-| evidence: claims, sources, incidents, ideas, proposals, story, studio, method | `areas/evidence.md` | 118 | round 1 |
+| evidence: claims, sources, incidents, ideas, proposals, story, studio, method | `areas/evidence.md` | 118 | all 38 that are not images; the 80 studio captures labelled by folder (03:10 wake) |
 | articles (`content/articles/`) | `areas/articles.md` | 6 | round 1 |
 | the talk: beats, slides, engine, player (`src/static/talk/`) | `areas/talk.md` | 49 | round 1 |
 | the rest of the site (`src/`: pages, studio, assets) | `areas/site.md` | 181 | round 1 |

@@ -17,6 +17,10 @@ import argparse, collections, datetime, json, os, re, subprocess, sys
 PIN_DEFAULT = "298be4e"
 NOTE_KEYS = ("about", "title", "what", "summary", "description", "job", "state", "note", "kind")
 TEXT_EXT = {".md", ".txt", ".json", ".py", ".mjs", ".js", ".sh", ".html", ".yml", ".yaml", ".css", ".eml", ".csv", ".toml", ""}
+IMG_FOLDERS = {  # the studio's capture folders, by prefix (read by the librarian)
+    "wnews": " (screenshots of the editor's newsroom sites)", "wos": " (screenshots: the open source and investor pages)",
+    "wpki": " (screenshots of pki.sgit.ai and its storyboards)", "wsgit": " (screenshots of sgit.ai and sharness.ai)",
+}
 DASHES = {"\u2014": ", ", "\u2013": "-"}
 
 
@@ -219,7 +223,7 @@ def main():
                 dirs = collections.Counter(os.path.dirname(r["path"]) for r in imgs)
                 fh.write(f"\n{len(imgs)} images, listed by folder (each is in `index.json`):\n\n")
                 for d, n in sorted(dirs.items()):
-                    fh.write(f"- `{d}/`: {n}\n")
+                    fh.write(f"- `{d}/`: {n}{IMG_FOLDERS.get(os.path.basename(d).split('-')[0], '')}\n")
     # after the day: commits after the pin, kept apart
     after = git(a.clone, "log", "--reverse", f"{pin}..HEAD", "--format=@@%h|%ct|%s", "--name-status", "--no-renames")
     head = git(a.clone, "rev-parse", "--short=7", "HEAD").strip()

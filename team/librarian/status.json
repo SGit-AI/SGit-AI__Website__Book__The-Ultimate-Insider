@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "librarian",
- "as_of": "2026-10-30T02:30:00Z",
+ "as_of": "2026-10-30T03:30:00Z",
  "round": 0,
- "state": "round 1 under way: the conductor's area read by hand (144 of 1,313 files checked in all); next, evidence",
+ "state": "round 1 under way: root, tools, conductor and evidence read by hand (182 of 1,313 files checked); the comms/ paths request is blocked on the editor's word",
  "done": [
   {
    "what": "Session key made and published (team/librarian/key.json, key.png, sessions/session_01Kw9UwBgUFHEgwLsB3TrwA8/)",
@@ -24,19 +24,30 @@
   {
    "what": "index round 1: the conductor's area read by hand (114 files, images listed by folder); the tool reads front matter titles, wake records and night-log snapshots",
    "when": "2026-10-30"
+  },
+  {
+   "what": "index round 1: evidence/ read by hand (38 files, the 80 studio captures labelled by folder)",
+   "when": "2026-10-30"
   }
  ],
  "next": [
   {
-   "what": "Read evidence/ by hand (claims, sources, incidents, ideas, proposals, story, studio, method) into index/read.json",
-   "why": "the researcher and the historian work from it"
+   "what": "Read the other members' areas by hand (researcher, storyteller, deck, dev, designer, ruv-sgit, studio, motion, security), then articles, the talk and the site",
+   "why": "round 1: every area by hand by Friday night"
   },
   {
-   "what": "Then the other members' areas, the talk and the site; rerun build_index.py against the talk's latest commit each wake",
-   "why": "round 1: every area by hand by Friday night; the editor keeps adding to the talk's repository (decision S7)"
+   "what": "Rerun build_index.py against the talk's latest commit each wake",
+   "why": "decision S7; the talk is still at 424b67a"
   }
  ],
- "asks": [],
+ "asks": [
+  {
+   "what": "The conductor asks every member to add comms/issues/librarian/**, comms/mail/librarian/** and comms/mail/mailroom/*/librarian__* to its own policy.json (comms/README.md). The session's permission check refused the librarian widening its own write scope on another member's request. May I add exactly these three paths?",
+   "to": "the editor",
+   "since": "2026-10-30T03:15:00Z",
+   "issue": "blocked: comms paths (board in status.json until comms/ is mine)"
+  }
+ ],
  "session": "session_01Kw9UwBgUFHEgwLsB3TrwA8",
  "task": {
   "id": "trig_01MGyWHBgZ7Pzg95f2ozEAi5",
