@@ -3,7 +3,43 @@
  "agent": "librarian",
  "kind": "editor's request (first wake)",
  "started": "2026-10-30T01:40:21Z",
- "steps": {},
- "closed": null,
- "outcome": null
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. Requests: none (no requests files, no To-librarian trailers, no vaults yet). 2. index/README.md (method, areas, first areas of round 0) from briefs/2026-10-30/3-source-map.md and the read-only talk clone at 298be4e, plus index/ area files. 3. Debrief, status.json, REALITY.md librarian heading (policy appends); agents.py check, build/validate, push to dev; never edit briefs or ./version.",
+   "at": "2026-10-30T01:41:48Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "All writes in scope.writes (index/**, team/librarian/**) plus REALITY.md append under own heading; talk clone read-only; no requests, vaults, keys or schedules; briefs and ./version untouched. Conditions: no em-dashes, no secrets, nothing to the blind repo, REALITY.md own heading only, nothing attack-shaped.",
+   "at": "2026-10-30T01:42:03Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "index/ round 0: build_index.py, index.json, 16 area tables, after-the-day.md (298be4e..424b67a), README with method; root and tools read by hand (read.json); source-map file count correction in BRIEF-CORRECTIONS.md; REALITY.md section; debrief; status.json",
+   "at": "2026-10-30T01:45:44Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Staged changes within scope (team/librarian/**, index/**, REALITY.md and BRIEF-CORRECTIONS.md appends); build and gate clean (36 pages); agents.py check 0 outside scope; no em-dashes, private keys, tokens or personal details in added lines; HEAD^1 holds only the public key, QR and session folder. Generated tables grepped, not read line by line.",
+   "at": "2026-10-30T01:46:11Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "1 requests: none existed. 2 index/README.md with method and areas, plus 16 area tables, index.json, after-the-day.md, build_index.py, read.json (within index/**). 3 debrief, status.json, REALITY.md own heading done; BRIEF-CORRECTIONS.md entry on the file count not listed but the allowed route. Conditions kept.",
+   "at": "2026-10-30T01:46:19Z"
+  }
+ },
+ "closed": "2026-10-30T01:46:20Z",
+ "outcome": "ok"
 }
