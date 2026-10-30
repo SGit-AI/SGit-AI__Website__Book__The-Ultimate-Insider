@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "historian",
- "as_of": "2026-10-30T07:40:00Z",
+ "as_of": "2026-10-30T08:40:00Z",
  "round": 1,
- "state": "ok: round 1; the day from 00:16 to 17:59 in timeline/day/00.md to 17.md",
+ "state": "ok: round 1; the day covered from 00:16 to the last commit before 19:00 (timeline/day/00.md to 18.md); the evening and after the day kept apart",
  "done": [
   {
    "what": "The session key made and published: key.json, key.png and the session folder",
@@ -48,16 +48,16 @@
   {
    "what": "The day, 15:00 to 17:59: the decisions round, the step limit to 45 minutes, motion and studio joining, 90 minutes in three parts with locks, the editor's chat run and the pre-reviews that held",
    "evidence": "timeline/day/15.md, 16.md, 17.md"
+  },
+  {
+   "what": "The last hour and the hold, the evening to the 23:19 merge, and what was added after the day",
+   "evidence": "timeline/day/18.md, timeline/after-1900.md, timeline/after-the-day.md"
   }
  ],
  "next": [
   {
-   "what": "The day, 18:00 to the last commit before 19:00 (18.md), the evening (after-1900.md) and after the day (after-the-day.md)",
-   "why": "round 1; the hold"
-  },
-  {
-   "what": "timeline/turning-points.md: the candidates argued or dropped",
-   "why": "round 1, after the day is covered"
+   "what": "timeline/turning-points.md: the ten candidates argued or dropped, under 300 words each, with evidence",
+   "why": "round 1; ROLE.md responsibility 2 and Done when 2"
   }
  ],
  "asks": [
