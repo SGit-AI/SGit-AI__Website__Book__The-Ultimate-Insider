@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/agent-status/v1",
+ "agent": "designer",
+ "as_of": "2026-10-30T13:05:00Z",
+ "round": 0,
+ "state": "staffed; first wake (editor's request): folder, key and task; the lab's visual language begun",
+ "done": [
+  {
+   "what": "ROLE.md and policy.json moved from team/conductor/staffing/designer/ into team/designer/ (drafts left in place)",
+   "when": "2026-10-30"
+  },
+  {
+   "what": "session key made and published: team/designer/key.json, key.png, sessions/session_01Kw9UwBewU3HcqCUwmQ57Na/",
+   "when": "2026-10-30"
+  }
+ ],
+ "next": [
+  {
+   "what": "create the scheduled task from team/conductor/schedule.json, runs entry for designer",
+   "why": "the editor's word in the session's first message"
+  },
+  {
+   "what": "the lab's visual language in lab/README.md, and the first experiment",
+   "why": "ROLE.md responsibilities 1 and 4"
+  }
+ ],
+ "asks": [],
+ "task": null,
+ "issues": [],
+ "board": "comms/issues/designer/issues/"
+}
