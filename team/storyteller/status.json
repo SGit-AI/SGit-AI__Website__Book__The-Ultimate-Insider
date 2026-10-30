@@ -1,15 +1,32 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "storyteller",
- "as_of": "2026-10-30T01:30:00Z",
- "round": 0,
- "state": "proposed: not staffed yet; the editor starts its session with the prompt in team/conductor/ONBOARDING.md",
- "done": [],
+ "as_of": "2026-10-30T01:43:00Z",
+ "round": 1,
+ "state": "staffed: first wake, at the editor's word; key published, task created; the chapter plan's first draft under way",
+ "done": [
+  {
+   "what": "session key sha256:edc67e3cc68b3b07 published (team/storyteller/key.json, key.png, sessions/session_01Kw9UwFSAdt6ywy4t5H8kvd/)",
+   "when": "2026-10-30"
+  },
+  {
+   "what": "scheduled task trig_017wCRMAnPCSZsLndXPkbLcD created into this session, hourly at :39 London",
+   "when": "2026-10-30"
+  }
+ ],
  "next": [
   {
    "what": "The chapter plan, with word budgets, for the editor to sign on Friday night (round 1).",
    "why": "its first task, from the brief"
   }
  ],
- "asks": []
+ "asks": [],
+ "session": "session_01Kw9UwFSAdt6ywy4t5H8kvd",
+ "task": {
+  "id": "trig_017wCRMAnPCSZsLndXPkbLcD",
+  "cron": "CRON_TZ=Europe/London 39 * * * *",
+  "created": "2026-10-30T01:42:17Z",
+  "by": "this session, at the editor's word in it",
+  "prompt": "schedule.json runs entry for storyteller, word for word"
+ }
 }
