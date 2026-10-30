@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, every two hours at :09 London",
+ "started": "2026-10-30T16:12:18Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "1) Request 007, the talk-site study, begun: the talk's site built read only in the scratchpad at 298be4e, the page-by-page survey with Playwright screenshots; index/talk-site/ (README.md leading with the best things so far, pages.md with verdicts, visuals.md, shots/), later commits noted. 2) Answer 007: board issue open/008-talk-site-study.md, letter mailroom/conductor/librarian__003 with outbox copy, vault_check; notice 008 filed. 3) Upkeep: sources check (manuscript unchanged), debrief, status.json. All inside policy.json.",
+   "at": "2026-10-30T16:13:06Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "Inside policy: index/talk-site/**, board, letter librarian__003 and outbox, team/librarian. Conditions: build the talk read only in the scratchpad; shots free of keys and personal detail; vault_check on comms and index; nothing to the blind repo.",
+   "at": "2026-10-30T16:13:24Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "partial",
+   "comment": "Request 007 begun: index/talk-site/ (README with the best fifteen, pages.md 303 pages and verdicts, visuals.md 63, 90 shots, crawl.json) from the published site; the local build at 298be4e refused by the permission check, not worked round. Board 008, reply librarian__003, notice 008 filed, debrief, status. Sources unchanged.",
+   "at": "2026-10-30T16:30:52Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
