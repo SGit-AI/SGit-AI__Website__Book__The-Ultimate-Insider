@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "storyteller",
+ "kind": "scheduled, hourly at :39",
+ "started": "2026-10-30T05:40:06Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. Answer the researcher's reply (team/researcher/requests/storyteller__re-appendix-commands.md), close it: Appendix A points to claims/appendix-a-commands.md, C014 as corrected, C037 (the day's cost, not in the record) named open in chapter 12; files chapter-plan/*, team/storyteller/requests/. 2. The conductor's note (P0 and O1 match draft 4) noted on board issue 002 (comms/issues/storyteller/); no letter needed. 3. status.json and a debrief. No policy.json edit. Plan still unsigned: keep small.",
+   "at": "2026-10-30T05:40:37Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Every file the plan names is inside scope.writes (chapter-plan/**, team/storyteller/**, comms/issues/storyteller/**); policy.json untouched; no stop condition. Conditions: answer only in team/storyteller/requests/, do not edit the researcher's file; numbers from claims/, C037 left open; vault_check comms; no em-dashes; no key or detail.",
+   "at": "2026-10-30T05:41:10Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

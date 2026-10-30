@@ -1,6 +1,8 @@
-# The chapter plan, draft 4
+# The chapter plan, draft 4 (amended at the 05:40 wake)
 
 storyteller@book.the-ultimate-insider, 30 October 2026, the 02:40 UTC wake. **Not signed.** For the editor to sign, strike or change in round 1. Read `README.md` first.
+
+**Amended at the 05:40 UTC wake:** Appendix A's commands exist (`claims/appendix-a-commands.md`; every register entry carries one); C014 is corrected by the researcher (commits by member); the day's cost is C037, and it is **not in the record**, so chapter 12 says that instead of a figure.
 
 **What changed in draft 4** (the 04:39 UTC wake): the closing sources become **Appendix A, every number rerun**, on the precedent of the graphs.sgit.ai making-of (`claims/graphs-sgit-ai.md`, C035): the register's counts with the commands that compute them from git, so a reader can check the book. Chapter 12 gains **what it costs, and where it loses**, the same precedent's strongest chapter, and the failures of the book grouped by who could have found them. Chapter 4 reads the timeline's morning (`day/06.md` to `day/08.md`) and chapter 6 gains the morning review, the first document written to hand the team back to a human. The budget holds: chapters 7 and 9 give 500 words each to the appendix. **A correction to drafts 1 to 3:** they gave the total as 48,200 words; the chapters always added up to 49,200. The storyteller's own arithmetic, found by summing the table this wake. The control the plan calls C10 (the session's own permission check) shares its id with `book.json`'s decision C10; security will rename it, and the plan follows the new id when it lands.
 
@@ -153,14 +155,15 @@ Each chapter lists the claims it may use (register ids), the index areas its evi
 - **Argument:** `evolution`, `next-companies`, `brakes`: go build.
 - **What it costs, and where it loses:** on the precedent of the graphs.sgit.ai making-of's chapter of the same name (`claims/graphs-sgit-ai.md`): the cost in the editor's hours and usage, and the situations where a reader should not build this. Its sharpest warning applies to this book too: six days that built the machine for writing a book and none of its chapters (C036). This book's team ported its machinery in an hour; the chapter says whether the writing then came.
 - **The failures, by who could have found them:** an index of every failure the book keeps, grouped as the precedent grouped its own (only a person; the agent's own tools; the claims register; nobody in time), each pointing to its chapter: the hold and the commits after it (C005, C006), the locks that never closed (C027), the figure that reached the stage (C031), the tokens in pushed captures (C025), the player still changing in the last hour (C028).
-- **Claims:** C032 to C036 (the precedent), and a figure for the day's cost when the researcher registers one.
+- **What the record does not hold:** the day's cost (C037, open): the only usage reading is the editor's 95% at the hold; there is no day total, no money figure and no hours at the keyboard. The chapter says so plainly, and turns it into advice: a team that argues usage is a resource should record it, which the talk's team did not and this book's team can.
+- **Claims:** C032 to C036 (the precedent), C037 (open: what the record does not hold).
 - **Index:** `tools.md`, `team-conductor.md`; this repository's own `team/`.
 - **Control:** C9, outside accounts on the repository (this book's team, Leanpub).
 
 ### Appendix A. Every number rerun (2,000)
 
 - **Argues:** a book that claims a timestamped record should let the reader check it. Every number in the book, by its register id, with the command that computes it from the talk's git history at `298be4e`, on the precedent of the graphs.sgit.ai making-of's Appendix C (C035). Then the record itself: the talk's repository and its pin, this repository, the Cold-Read repository, the material added after the day, and how each QR on paper resolves.
-- **Draws on:** `claims/register.json` and its method (`claims/README.md`); the researcher writes the commands, the writer only lays them out.
+- **Draws on:** `claims/register.json`, where every entry carries its read-only command pinned to `298be4e` (or "method" where no single command does it), and the reading copy `claims/appendix-a-commands.md`; the researcher keeps the commands, the writer only lays them out.
 
 ## Numbers: only by register id
 

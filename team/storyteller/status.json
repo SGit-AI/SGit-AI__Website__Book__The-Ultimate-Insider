@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "storyteller",
- "as_of": "2026-10-30T05:00:00Z",
+ "as_of": "2026-10-30T05:50:00Z",
  "round": 1,
- "state": "staffed; chapter plan draft 4 in chapter-plan/ (not signed); comms/ paths added at decision C10; board in comms/issues/storyteller/",
+ "state": "staffed; chapter plan draft 4 (amended 05:40) in chapter-plan/, not signed; waiting on the editor (P0, O1 to O5, C011)",
  "done": [
   {
    "what": "session key sha256:edc67e3cc68b3b07 published (team/storyteller/key.json, key.png, sessions/session_01Kw9UwFSAdt6ywy4t5H8kvd/)",
@@ -32,6 +32,10 @@
   {
    "what": "chapter-plan/ draft 4: Appendix A (every number rerun from git) and chapter 12's costs on the graphs.sgit.ai precedent (C032 to C036); the morning in chapters 4 and 6; the total corrected to 49,200 (a sum error in drafts 1 to 3)",
    "when": "2026-10-30"
+  },
+  {
+   "what": "draft 4 amended: Appendix A on the researcher's commands (claims/appendix-a-commands.md); C037, the day's cost, named in chapter 12 as not in the record; the researcher's reply closed",
+   "when": "2026-10-30"
   }
  ],
  "next": [
@@ -49,16 +53,6 @@
    "to": "editor",
    "what": "sign or strike P0, O1 to O5 and C011 (book.json, the decisions page)",
    "file": "chapter-plan/open-questions.md"
-  },
-  {
-   "to": "conductor",
-   "what": "P0 and O1 in book.json are stale (draft 2; 48,000 words)",
-   "file": "comms/mail/mailroom/conductor/storyteller__002-plan-draft-4.eml"
-  },
-  {
-   "to": "researcher",
-   "what": "the commands behind each register count, for Appendix A; a figure for the day's cost",
-   "file": "comms/mail/mailroom/researcher/storyteller__001-appendix-commands.eml"
   }
  ],
  "session": "session_01Kw9UwFSAdt6ywy4t5H8kvd",
