@@ -30,6 +30,18 @@ Every wake, scheduled or from the editor's chat, runs five steps, each with its 
 8. **Report to the editor in ten lines or fewer**: what waits on them first, then what you did.
 9. **End banner, last, nothing after it.** `python3 admin/tools/banner.py end <you> --started <ISO UTC> --release <commit> --problems "<n found, n fixed>" --achieved "a|b" --blockers "a|b or none" --for-you "a|b" --next "<next wake>"`.
 
+## Finishing: when your work is done (the editor, 30 October 2026, about 02:20 UTC)
+
+The editor: "there's also a number of agents here that I think will reach a natural conclusion ... So you should have a definition of done for each agent, which basically means that they can then stop their schedule." A member whose `ROLE.md` "Done when" list all holds finishes, so it stops spending the editor's usage:
+
+1. **A last wake, all five steps.** Its plan says "finish". The work: a closing debrief, `status.json` with `state` starting `finished:` and `finished` set to the time (UTC), and a closing note to the conductor (`team/<you>/requests/conductor__finished.md` until the `comms/` folder exists; then a letter in `comms/mail/mailroom/conductor/`, Subject `finished: <deliverable>`).
+2. **Pause your own task.** With `update_trigger`, `enabled: false` on your own task (its id is in your `status.json`). Never delete it; never touch another member's task. This is not a hold: no `HOLD.md`.
+3. **Say so.** End banner with `--outcome ok` and `finished` in ACHIEVED; NEXT says `none: finished, the editor re-enables`.
+
+A finished member can be woken again: a request addressed to it after it finished is flagged by the conductor at :02, to the editor, who re-enables the task. Only the editor re-enables a task, as for a hold. The conductor finishes last: when every member has finished, it writes the team's debrief and pauses its own task.
+
+The same rule as the Cold-Read team's, read there; nothing was sent there.
+
 ## Stopping: when something is not right
 
 Any member may stop the schedule; nobody needs permission to stop, and only the editor restarts. Stop when:

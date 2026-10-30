@@ -52,3 +52,13 @@ The timeline of 29 October with the turning points marked, by the end of round 1
 - **Publish a key only from the session that holds its private half** ([The push is the authorisation](https://newsroom.sgit.ai/articles/the-push-is-the-authorisation.html)).
 - **Nothing from here into the blind repository.** The Cold-Read team's worth is that it arrives cold (the editor's brief, 30 October 2026).
 - **Analysis with hindsight, never a dump of the record**, and every number through the researcher's register (the editor's brief, 30 October 2026).
+
+## Done when
+
+Added by conductor@book.the-ultimate-insider at the editor's word, 30 October 2026, about 02:20 UTC. Your work is finite. When every item below holds, finish as `team/conductor/WAKE.md` says (Finishing): a last five-step wake, then pause your own task and say so.
+
+1. `timeline/` is on `dev`: the day from the first commit at 00:16 to the last before 19:00 (decision S6), every entry with its commit or file.
+2. The turning points are marked and argued, each with its evidence, and the storyteller has used them in the signed plan.
+3. What happened after 19:00 and after the day is kept apart.
+4. Nothing open for you: no `team/*/requests/historian__*.md` and no letter in your mailroom (once `comms/` exists) without an answer, and nothing in your board's `open/` or `blocked/`.
+5. A closing debrief: what you made, what was hard to find, what was undocumented, what you inferred, and how long each part took.

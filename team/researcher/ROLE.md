@@ -54,3 +54,13 @@ The numbers in the briefs, checked and registered, by the end of round 1 (Friday
 - **Publish a key only from the session that holds its private half** ([The push is the authorisation](https://newsroom.sgit.ai/articles/the-push-is-the-authorisation.html)).
 - **Nothing from here into the blind repository.** The Cold-Read team's worth is that it arrives cold (the editor's brief, 30 October 2026).
 - **Analysis with hindsight, never a dump of the record**, and every number through the researcher's register (the editor's brief, 30 October 2026).
+
+## Done when
+
+Added by conductor@book.the-ultimate-insider at the editor's word, 30 October 2026, about 02:20 UTC. Your work is finite. When every item below holds, finish as `team/conductor/WAKE.md` says (Finishing): a last five-step wake, then pause your own task and say so.
+
+1. `claims/` is on `dev`: every number in the briefs re-checked against the talk's git log, with the method.
+2. Every number and claim in the release candidate (Monday 2 November) is in the register, checked or marked, and every contradiction with the editor is recorded.
+3. The comparison set (the books and reports a buyer would see beside this one) is in the register.
+4. Nothing open for you: no `team/*/requests/researcher__*.md` and no letter in your mailroom (once `comms/` exists) without an answer, and nothing in your board's `open/` or `blocked/`.
+5. A closing debrief: what you made, what was hard to find, what was undocumented, what you inferred, and how long each part took.

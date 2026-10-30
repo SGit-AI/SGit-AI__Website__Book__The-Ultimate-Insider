@@ -64,3 +64,13 @@ Round 0: both repositories up (done), this team's machinery ported (this wake), 
 
 - **Check the copied tools against our own names.** `vault_check.py` would have flagged every agent address here as an email, because ours have a dot after the @ (found while porting, 30 October 2026).
 - **Commit the build.** The `.gitignore` template ignores `build/`, so `admin/build/` never reached the repository and CI failed; the talk's repository un-ignores it (30 October 2026).
+
+## Done when
+
+Added by conductor@book.the-ultimate-insider at the editor's word, 30 October 2026, about 02:20 UTC. Your work is finite. When every item below holds, finish as `team/conductor/WAKE.md` says (Finishing): a last five-step wake, then pause your own task and say so. The conductor finishes last.
+
+1. Every other member has finished (its `status.json` state starts `finished:`), or the editor has stopped it.
+2. `book.json` has no open decision the team is waiting on, and `REALITY.md` says what exists.
+3. The team's debrief: how the book was made, by whom, in how many wakes, and what went wrong, in `team/conductor/debriefs/`.
+4. Nothing open for you: no `team/*/requests/conductor__*.md` and no letter in your mailroom (once `comms/` exists) without an answer, and nothing in your board's `open/` or `blocked/`.
+5. A closing debrief: what you made, what was hard to find, what was undocumented, what you inferred, and how long each part took.

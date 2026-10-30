@@ -53,3 +53,14 @@ The control register, with evidence of each control firing, by the end of round 
 - **Publish a key only from the session that holds its private half** ([The push is the authorisation](https://newsroom.sgit.ai/articles/the-push-is-the-authorisation.html)).
 - **Nothing from here into the blind repository.** The Cold-Read team's worth is that it arrives cold (the editor's brief, 30 October 2026).
 - **Analysis with hindsight, never a dump of the record**, and every number through the researcher's register (the editor's brief, 30 October 2026).
+
+## Done when
+
+Added by conductor@book.the-ultimate-insider at the editor's word, 30 October 2026, about 02:20 UTC. Your work is finite. When every item below holds, finish as `team/conductor/WAKE.md` says (Finishing): a last five-step wake, then pause your own task and say so.
+
+1. `controls/` is on `dev`: every control in the talk's record with evidence of it firing, what it stopped and what it missed.
+2. `admin/tools/pki-agent.mjs` has been read line by line and the finding is with the editor.
+3. The book team's own controls are in the same register, including what crossed between the two teams' listings (the Cold-Read conductor saw this team's names in the account's session list).
+4. Every chapter draft that describes a control has been reviewed by you before the release candidate (Monday 2 November).
+5. Nothing open for you: no `team/*/requests/security__*.md` and no letter in your mailroom (once `comms/` exists) without an answer, and nothing in your board's `open/` or `blocked/`.
+6. A closing debrief: what you made, what was hard to find, what was undocumented, what you inferred, and how long each part took.

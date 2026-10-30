@@ -202,17 +202,6 @@
  ],
  "decisions": [
   {
-   "id": "Q2",
-   "status": "open",
-   "by": "editor",
-   "ask": "The hours",
-   "detail": "Hourly wakes, as on the talk's team: at which hours does the book's team wake? (Asked again: the 30 October answer, \"first commit to last commit before 7pm\", is recorded as S6, the span of the day the book covers.)",
-   "options": [
-    "round the clock",
-    "08:00 to 22:00 London"
-   ]
-  },
-  {
    "id": "Q3",
    "status": "open",
    "by": "editor",
@@ -225,6 +214,13 @@
    "by": "editor",
    "ask": "The editor's voice memos and the claude.ai transcripts of 29 October",
    "detail": "Not in the talk's repository; the editor holds them: his voice memos of 29 October (the morning's narrative memo, the 13:50 feedback round, the 15:00 decisions round), the claude.ai session transcripts in which the briefs were written, and any recording of the talk on stage at 19:00. Do any of them go into the book's source?"
+  },
+  {
+   "id": "Q2",
+   "status": "decided",
+   "by": "editor",
+   "ask": "The hours, and the editor's usage",
+   "detail": "The editor, 30 October about 02:20 UTC: \"every agent will continue to fire every hourly\", and on usage: \"we still are only at 26% usage. So we're good ... if you max out, just, you know, you just wait until the 5 hours go around.\" Round the clock, hourly; a member that hits the limit waits for the reset rather than holding the team. Each member finishes when its Done when list holds (WAKE.md, Finishing)."
   },
   {
    "id": "Q1",

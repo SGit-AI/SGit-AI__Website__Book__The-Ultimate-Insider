@@ -1,10 +1,14 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "conductor",
- "as_of": "2026-10-30T02:14:00Z",
+ "as_of": "2026-10-30T02:25:00Z",
  "round": 0,
  "state": "the first batch is running: six members onboarded (each key made in its own session, each task matching schedule.json); the conductor's own task created; nothing blocks the night",
  "done": [
+  {
+   "what": "a Done when list in every member's ROLE.md and a Finishing section in WAKE.md: each member pauses its own task when its work is done; Q2 decided (round the clock; at the limit, wait for the reset)",
+   "evidence": "team/conductor/WAKE.md, team/*/ROLE.md, book.json"
+  },
   {
    "what": "first batch onboarded and checked: six keys, six tasks; the conductor's own task at :02",
    "evidence": "admin/keys.html, team/schedule.html"
@@ -49,10 +53,6 @@
   }
  ],
  "asks": [
-  {
-   "what": "your usage overnight: about 22 sessions wake hourly across both teams; check it before sleeping, or narrow the hours (Q2)",
-   "from": "the editor"
-  },
   {
    "what": "in the morning: the book team's two public vaults (its own, not the talk's: the Cold-Read team may read the talk's)",
    "from": "the editor"
