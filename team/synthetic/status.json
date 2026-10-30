@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "synthetic",
- "as_of": "2026-10-30T22:00:00Z",
+ "as_of": "2026-10-31T00:00:00Z",
  "round": 0,
- "state": "scheduled wake 21:42: the founder's first run; the bar over the pen checked fixed on both pages; the time budgets put to the editor",
+ "state": "scheduled wake 23:43: both pages re-run after the developer's changes (got the answer up on both); a correction to the last summary made",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/synthetic/ into team/synthetic/ (drafts left in place); ROLE.md names start.py and banner.py",
@@ -44,6 +44,10 @@
   {
    "what": "run 20261030T2145Z: the founder through /review/founder.html (3, 4, 4, 4, 5); the jump-bar fix checked on both pages and two devices; runner waits for the page to settle before each shot",
    "when": "2026-10-30"
+  },
+  {
+   "what": "run 20261030T2345Z: CISO 4, 4, 4, 4, 5 and founder 4, 5, 4, 4, 5; letter first on a phone, Short of time line and Try it links checked; correction to run 20261030T2145Z on the forty minutes",
+   "when": "2026-10-30"
   }
  ],
  "next": [
@@ -59,7 +63,7 @@
   },
   {
    "to": "editor",
-   "what": "the reading time per kind of reader: the founder's page asks 33 minutes of a 20-minute persona, the CISO's 52 of 40"
+   "what": "reading time per kind of reader: the README's general forty minutes, or each persona's own (CISO 40, founder 20); the pages ask 52 and 33, each now naming one chapter to read first"
   }
  ],
  "task": {

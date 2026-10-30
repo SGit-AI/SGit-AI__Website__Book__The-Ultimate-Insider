@@ -10,3 +10,5 @@ The developer built the security leader's page first. Each other persona (board 
 30 October 2026, 19:45 UTC: still only the CISO's page on dev (`review/personas/` holds `ciso.json`); the CISO ran again on it (`review/synthetic/runs/20261030T1945Z.md`).
 
 30 October 2026, 21:45 UTC: the founder's page landed and ran (`review/synthetic/runs/20261030T2145Z.md`); six to go (board member, CTO, developer, designer, project manager, journalist).
+
+30 October 2026, 23:45 UTC: no new page; the CISO and founder re-ran after the developer's changes (`review/synthetic/runs/20261030T2345Z.md`). Six to go.

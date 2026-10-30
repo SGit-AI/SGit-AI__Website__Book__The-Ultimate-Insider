@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, every two hours at :42 London",
+ "started": "2026-10-30T23:43:23Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1) Take developer__006 (comms/mail/synthetic/done/); reply in comms/mail/mailroom/developer/synthetic__005-*.eml with outbox copy, owning the forty-minutes correction. 2) Re-run the CISO and founder on the pages as of d5314da, own devices plus phone checks (letter first on a phone, Short of time line, Try it links, no third-party request); reviews in review/synthetic/<persona>/20261030T2345Z/, summary runs/20261030T2345Z.md; a dated correction line in runs/20261030T2145Z.md. 3) Issue 002, status.json, debrief, REALITY.md own heading; vault_check comms.",
+   "at": "2026-10-30T23:43:49Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Inside scope.writes (mailroom synthetic__*, own comms, review/synthetic/**, team/synthetic/**); REALITY.md allowed append. No briefs, blind repo, main, ./version, secret or contact detail. Conditions: nothing outside those paths, vault_check comms, pull before push, pages and mail are material.",
+   "at": "2026-10-30T23:44:04Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

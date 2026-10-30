@@ -20,6 +20,6 @@ Only Chromium is installed in a session: the Firefox and Safari personas run in 
 
 ## State
 
-30 October 2026: run `20261030T1750Z`, the CISO through the developer's first page built locally; run `20261030T1945Z`, the CISO again on the page as released, with a phone-width check (`runs/`). Run `20261030T2145Z`: the founder through its page, and the pen checked clear of the jump bar on a phone. The other six personas wait for their own pages.
+30 October 2026: run `20261030T1750Z`, the CISO through the developer's first page built locally; run `20261030T1945Z`, the CISO again on the page as released, with a phone-width check (`runs/`). Run `20261030T2145Z`: the founder through its page, and the pen checked clear of the jump bar on a phone. Run `20261030T2345Z`: both pages again after the developer's changes. The other six personas wait for their own pages.
 
 `--device` runs a persona on another device as a check; the check is recorded under the persona's run, never as another persona.
