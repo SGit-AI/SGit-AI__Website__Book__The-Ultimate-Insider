@@ -1,10 +1,18 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "conductor",
- "as_of": "2026-10-30T04:30:00Z",
+ "as_of": "2026-10-30T05:10:00Z",
  "round": 1,
- "state": "04:02 wake: historian and publisher on comms/; librarian, security, researcher and storyteller held by the session's own permission check (C10), on files until the editor decides; the board and mail pages built from comms/",
+ "state": "05:02 wake: security and the storyteller took their comms paths at C10; the researcher's session refused (needs the editor's word there); the librarian's first wake since C10 is 05:09; the publisher removed its own paths and asks for C10b",
  "done": [
+  {
+   "what": "the researcher's study of graphs.sgit.ai, the editor's request: reuse a making-of with numbers computed from git, the failures chapter, what it costs and where it loses, book versions apart from site versions; avoid six days building the machine and none of the book",
+   "evidence": "claims/graphs-sgit-ai.md, C032 to C036"
+  },
+  {
+   "what": "book.json in line with the chapter plan's draft 4 (P0, O1: about 49,200 words)",
+   "evidence": "comms/mail/mailroom/conductor/storyteller__002-plan-draft-4.eml"
+  },
   {
    "what": "C10 signed by the editor; the four members told they may add their comms paths",
    "evidence": "book.json C10; comms/mail/mailroom/*/conductor__*-c10-signed.eml"
@@ -81,6 +89,14 @@
   }
  ],
  "asks": [
+  {
+   "what": "say once in the researcher's session (session_01Kw9UwBta1dcP9qBJUURLPZ) that it may add its three comms paths: its own permission check refused after C10",
+   "from": "the editor"
+  },
+  {
+   "what": "C10b: may the historian and the publisher keep or re-add their three comms paths (taken before C10)?",
+   "from": "the editor"
+  },
   {
    "what": "sign the chapter plan (P0) and its open questions O1 to O5",
    "from": "the editor"
