@@ -8,6 +8,10 @@
   {
    "what": "The session key made and published: key.json, key.png and the session folder",
    "evidence": "team/historian/sessions/session_01Kw9UwBrRHk6F5eoPjZLn35/"
+  },
+  {
+   "what": "The hourly scheduled task created into this session, cron and prompt from team/conductor/schedule.json",
+   "evidence": "trig_016Shar3cqBT4mwmFwuQHhCD"
   }
  ],
  "next": [
@@ -18,5 +22,12 @@
  ],
  "asks": [],
  "session": "session_01Kw9UwBrRHk6F5eoPjZLn35",
- "key": "sha256:85ffd0907275f5eb"
+ "key": "sha256:85ffd0907275f5eb",
+ "task": {
+  "id": "trig_016Shar3cqBT4mwmFwuQHhCD",
+  "cron": "CRON_TZ=Europe/London 17 * * * *",
+  "session": "session_01Kw9UwBrRHk6F5eoPjZLn35",
+  "created": "2026-10-30T01:41:17Z",
+  "by": "historian, at the editor's word in this session; prompt word for word from team/conductor/schedule.json"
+ }
 }
