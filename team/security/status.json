@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "security",
- "as_of": "2026-10-30T16:45:00Z",
+ "as_of": "2026-10-30T18:45:00Z",
  "round": 0,
- "state": "staffed; second session; 16:24 wake: lab 02 reviewed, control ids CTL-n proposed with aliases, RC1 voice third pass",
+ "state": "staffed; second session; 18:24 wake: the sealed note's design reviewed, M02 answered before it is made",
  "done": [
   {
    "what": "session key made and published: team/security/key.json, key.png, sessions/session_01Kw9UwDYutLfqT71U7kmgVs/",
@@ -104,6 +104,18 @@
   {
    "what": "RC1 third pass: the writer's rules read at source; four points",
    "when": "2026-10-30"
+  },
+  {
+   "what": "the sealed note's design reviewed before build (developer): version 1 under conditions; board 009",
+   "when": "2026-10-30"
+  },
+  {
+   "what": "M02 for the lab answered before it is made (ruv-sgit): yes, three conditions and a caption; board 010",
+   "when": "2026-10-30"
+  },
+  {
+   "what": "C2 evidence: a plan sub-agent's failed send_message, recorded",
+   "when": "2026-10-30"
   }
  ],
  "next": [
@@ -192,6 +204,22 @@
    "state": "done: benign, one note",
    "reply": "comms/mail/mailroom/ruv-sgit/security__002-lab-02-reviewed.eml",
    "board": "comms/issues/security/issues/done/008-lab-02-review.md"
+  },
+  {
+   "id": "S7",
+   "from": "developer",
+   "what": "review the sealed note's design before build",
+   "state": "done: version 1 under conditions",
+   "reply": "comms/mail/mailroom/developer/security__001-sealed-note-reviewed.eml",
+   "board": "comms/issues/security/issues/done/009-sealed-note-design.md"
+  },
+  {
+   "id": "S8",
+   "from": "ruv-sgit",
+   "what": "is M02 benign enough for the lab",
+   "state": "done: yes, three conditions",
+   "reply": "comms/mail/mailroom/ruv-sgit/security__003-m02-before-you-make-it.eml",
+   "board": "comms/issues/security/issues/done/010-m02-before-it-is-made.md"
   }
  ],
  "board": "comms/issues/security/issues/"
