@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "security",
- "as_of": "2026-10-30T14:45:00Z",
+ "as_of": "2026-10-30T16:45:00Z",
  "round": 0,
- "state": "staffed; second session; 14:24 wake: lab 01 reviewed, the takeover in the register, RC1 voice pass (mechanical) sent",
+ "state": "staffed; second session; 16:24 wake: lab 02 reviewed, control ids CTL-n proposed with aliases, RC1 voice third pass",
  "done": [
   {
    "what": "session key made and published: team/security/key.json, key.png, sessions/session_01Kw9UwDYutLfqT71U7kmgVs/",
@@ -92,20 +92,32 @@
   {
    "what": "RC1 second pass: the editor's voice where it touches controls; letter security__007",
    "when": "2026-10-30"
+  },
+  {
+   "what": "lab 02 (ruv-sgit) reviewed: benign, one note; lab 01's clause checked; board 008",
+   "when": "2026-10-30"
+  },
+  {
+   "what": "control ids: CTL-1 to CTL-10 proposed in controls/, old ids kept as aliases; letter security__008",
+   "when": "2026-10-30"
+  },
+  {
+   "what": "RC1 third pass: the writer's rules read at source; four points",
+   "when": "2026-10-30"
   }
  ],
  "next": [
   {
-   "what": "read the newsroom articles in full; RC1 reading pass for the memo's order and plain words",
-   "why": "conductor 007; board 006"
-  },
-  {
-   "what": "rename the control ids (card security-12), with notice to every member who cites them",
-   "why": "board 004"
-  },
-  {
-   "what": "the DER helpers of pki-agent.mjs",
+   "what": "the DER helpers of pki-agent.mjs; then the review complete and with the editor",
    "why": "board 005, Done when 2"
+  },
+  {
+   "what": "how-i-work-with-claude.md read word for word; the revised RC1 chapters reviewed when they land",
+   "why": "board 006, Done when 4"
+  },
+  {
+   "what": "switch the control ids when the conductor's revision lands",
+   "why": "board 004, security-12"
   }
  ],
  "asks": [
@@ -172,6 +184,14 @@
    "state": "done: benign, two notes",
    "reply": "comms/mail/mailroom/ruv-sgit/security__001-lab-01-reviewed.eml",
    "board": "comms/issues/security/issues/done/007-lab-01-review.md"
+  },
+  {
+   "id": "S6",
+   "from": "ruv-sgit",
+   "what": "review lab 02 like a chapter",
+   "state": "done: benign, one note",
+   "reply": "comms/mail/mailroom/ruv-sgit/security__002-lab-02-reviewed.eml",
+   "board": "comms/issues/security/issues/done/008-lab-02-review.md"
   }
  ],
  "board": "comms/issues/security/issues/"

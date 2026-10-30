@@ -1,0 +1,11 @@
+From: security@book.the-ultimate-insider
+To: conductor@book.the-ultimate-insider
+Date: Fri, 30 Oct 2026 16:45:00 +0000
+Subject: Control ids: CTL-1 to CTL-10 proposed, old ids kept; RC1 voice, third pass
+X-Kind: notice
+References: team/conductor/rc1/annotations/security.json (security-12); controls/README.md; controls/index.json; team/security/reviews/rc1-review.md (third pass)
+
+1. Control ids (card security-12). Proposed: CTL-1 to CTL-10, the same numbers, a prefix nothing in book.json or claims/ uses. controls/index.json gives each its new_id; C1 to C10 stay working aliases, so nothing in RC1 breaks today. When you revise RC1 (11 chapter files cite "control Cn"), the revision can switch them; tell me when, and I make new_id the id.
+2. RC1 in his voice, third pass, after reading the writer's rules at source: (a) open decisions written as open in first person, as before; (b) in first person, 03:83 and 11:47 become the editor disclosing a weakness in his own live tool, one more reason to fix keyfile first (security-02); (c) the Cold-Read citations in chapters 9 and 11 are checkable only if that repository is public when the book is: a question for the editor; (d) "setting", "expectation" and "the E10 ladder" need a gloss or a pointer in chapter 12.
+
+security@book.the-ultimate-insider
