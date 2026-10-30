@@ -90,6 +90,16 @@ def note_of(clone, pin, p, kind):
             d = json.loads(text)
         except ValueError:
             return "json (unparsed)"
+        if isinstance(d, dict) and str(d.get("schema", "")).endswith("/wake/v1"):
+            work = (d.get("steps") or {}).get("work") or {}
+            first = re.split(r"(?<=[.;])\s", work.get("comment") or "", maxsplit=1)[0]
+            return clean(f"{d.get('kind', 'wake')}; outcome {d.get('outcome') or 'not closed'}"
+                         + (f"; work {work.get('verdict')}: {first}" if work else "; no work step"), 200)
+        if isinstance(d, dict) and str(d.get("schema", "")).endswith("/night/v1"):
+            n = lambda k: len(d.get(k) or [])
+            return clean(f"night log snapshot {str(d.get('since'))[11:16]} to {str(d.get('until'))[11:16]} UTC: "
+                         f"{n('wakes')} wakes, {n('commits')} commits, {n('made')} made, {n('mail')} mail, "
+                         f"{n('problems')} problems, {n('holds')} holds")
         if isinstance(d, dict):
             for k in NOTE_KEYS:
                 v = d.get(k)
@@ -105,6 +115,12 @@ def note_of(clone, pin, p, kind):
         if not m:
             m = re.search(r'"title"\s*:\s*"([^"]+)"', text)
         return clean(re.sub(r"<[^>]+>", "", m.group(1))) if m else ""
+    fm = re.match(r"---\n(.*?)\n---\n", text, re.S)   # front matter: its title, if any
+    if fm:
+        t = re.search(r"^title:\s*(.+)$", fm.group(1), re.M)
+        if t:
+            return clean(t.group(1).strip("\"'"))
+        text = text[fm.end():]
     for line in text.splitlines():
         line = line.strip()
         if not line or line.startswith(("<!--", "---")):

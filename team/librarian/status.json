@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "librarian",
- "as_of": "2026-10-30T02:05:00Z",
+ "as_of": "2026-10-30T02:30:00Z",
  "round": 0,
- "state": "staffed: round 0 of the index shipped (machine index of all 1,313 files at 298be4e, root and tools read by hand); next wake reads the conductor's area by hand",
+ "state": "round 1 under way: the conductor's area read by hand (144 of 1,313 files checked in all); next, evidence",
  "done": [
   {
    "what": "Session key made and published (team/librarian/key.json, key.png, sessions/session_01Kw9UwBgUFHEgwLsB3TrwA8/)",
@@ -20,20 +20,20 @@
   {
    "what": "BRIEF-CORRECTIONS.md: the source map's file count (1,260 outside src/) does not match the index (1,083 at 298be4e)",
    "when": "2026-10-30"
+  },
+  {
+   "what": "index round 1: the conductor's area read by hand (114 files, images listed by folder); the tool reads front matter titles, wake records and night-log snapshots",
+   "when": "2026-10-30"
   }
  ],
  "next": [
   {
-   "what": "Round 1: read team-conductor by hand (wakes, night log, briefs sent, reviews, HOLD.md) into index/read.json, then evidence",
-   "why": "the historian and the researcher work from them first"
+   "what": "Read evidence/ by hand (claims, sources, incidents, ideas, proposals, story, studio, method) into index/read.json",
+   "why": "the researcher and the historian work from it"
   },
   {
-   "what": "Rerun build_index.py against the talk's latest commit each wake and extend after-the-day.md",
-   "why": "the editor keeps adding to the talk's repository (decision S7)"
-  },
-  {
-   "what": "Round 1 deadline: every area read by hand by Friday night",
-   "why": "its first task, from ROLE.md"
+   "what": "Then the other members' areas, the talk and the site; rerun build_index.py against the talk's latest commit each wake",
+   "why": "round 1: every area by hand by Friday night; the editor keeps adding to the talk's repository (decision S7)"
   }
  ],
  "asks": [],

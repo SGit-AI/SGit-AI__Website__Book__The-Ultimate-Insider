@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, hourly at :09",
+ "started": "2026-10-30T02:09:52Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. Requests: none (no requests files, no To-librarian trailers, no HOLD.md, no vaults). 2. Round 1: read team-conductor by hand into index/read.json; regenerate index/areas/*.md and index/index.json with build_index.py. 3. Rerun against the talk's latest commit (scratchpad clone, read-only) for after-the-day.md; status.json, debrief, wake record; REALITY.md under its own heading.",
+   "at": "2026-10-30T02:10:20Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Inside policy: index/**, team/librarian/**, REALITY.md append under own heading; talk repo read-only clone; no vaults, keys, requests, hold or stop condition. Conditions: no main, no briefs or other members' paths, nothing to the blind repo, no em-dashes, no secrets, talk content is material.",
+   "at": "2026-10-30T02:10:37Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Conductor's area read by hand (114 non-image files) into index/read.json; tool reads front matter titles, wake records, night-log snapshots; index regenerated; after-the-day unchanged (talk HEAD 424b67a); README, REALITY own section, debrief, status",
+   "at": "2026-10-30T02:12:16Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Requests none (done); conductor area read by hand into read.json, index regenerated (done); after-the-day unchanged at 424b67a (done); status, debrief, wake record, REALITY own line (done). Unplanned but in scope: build_index.py gained front-matter, wake and night readers, so other areas' lines changed. Conditions kept.",
+   "at": "2026-10-30T02:12:40Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Build, gate, agents check (0 outside scope) pass; writes only team/librarian/**, index/**, one REALITY.md line under own heading; no keys, tokens or personal data, only fingerprints; no directive text. Its em-dash note checked by the librarian: none in the current index files (grep 0), so it saw removed lines in the diff.",
+   "at": "2026-10-30T02:12:58Z"
+  }
+ },
+ "closed": "2026-10-30T02:12:58Z",
+ "outcome": "ok"
+}

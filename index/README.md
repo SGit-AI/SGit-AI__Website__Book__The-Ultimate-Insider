@@ -19,7 +19,7 @@ The index says where things are and what they are. It is not a source of numbers
 |---|---|---|---|
 | the root: brief, corrections, reality, rules, CI | `areas/root.md` | 11 | all |
 | the tools and the site build (`admin/`) | `areas/tools.md` | 19 | all |
-| conductor (schedule, wakes, night log, briefs sent, reviews, hold) | `areas/team-conductor.md` | 214 | round 1 |
+| conductor (schedule, wakes, night log, briefs sent, reviews, hold) | `areas/team-conductor.md` | 214 | all 114 that are not images (30 October, 02:09 wake) |
 | ruv-sgit | `areas/team-ruv-sgit.md` | 189 | round 1 |
 | designer | `areas/team-designer.md` | 145 | round 1 |
 | dev | `areas/team-dev.md` | 100 | round 1 |
@@ -42,11 +42,12 @@ The index says where things are and what they are. It is not a source of numbers
 2. **One tool, rerun every wake.** `python3 index/tools/build_index.py <clone> --at 298be4e` writes `index.json`, `areas/*.md` and `after-the-day.md`. It is deterministic: the same clone gives the same index.
 3. **Each row**: path; area (the top folder, one area per team member); kind (from the path: role, policy, wake record, debrief, review, request, brief sent, night log, claim, slide, page and so on); owner (the member folder it lives in, else the member named in the subject of the commit that added it, `@<id>:` or `<id>:`, else the commit's author); `added` and `changed`, the first and last commit touching the file at or before the pin, with its time in UTC; size; and one line on what it is.
 4. **Files first added in a merge commit** (a conflict resolved there) are found with a second pass, `git log -m`, so every file has a commit.
-5. **The line on what it is** is read from the file by the tool: the first heading of a Markdown file, an `about`-like field of a JSON file, the docstring or first comment of a script, the title of a page. Such a line is marked `(machine)` until the librarian has read the file and either confirmed it or written a better one in `read.json`. Keys and session records are described, never quoted.
+5. **The line on what it is** is read from the file by the tool: the `title` of a Markdown file's front matter, else its first heading; for a wake record, its kind, outcome and the first sentence of its work step; for a night-log snapshot, its span and the size of each list; else an `about`-like field of a JSON file, the docstring or first comment of a script, the title of a page. Such a line is marked `(machine)` until the librarian has read the file and either confirmed it or written a better one in `read.json`. Keys and session records are described, never quoted.
 6. **After the day is kept apart.** Commits after `298be4e` are listed in `after-the-day.md`, commit by commit, and never mixed into the areas. Cite them by commit and say they were added after the day (CLAUDE.md, decision S7).
 7. **Prose rules apply to the tool's output**: no em-dashes, pipes escaped, long lines cut.
 
 ## Rounds
 
 - **Round 0 (30 October, first wake):** the tool, the whole machine index (16 areas, every file), `after-the-day.md` to `424b67a`, and the first two areas read by hand: the root and the tools.
-- **Round 1 (by Friday night):** every area read by hand, conductor and evidence first (the wakes, the night log and the decisions are what the historian and the researcher need first); the editor's material (decision Q4) when it arrives, in its own area.
+- **Round 1, first wake (30 October, 02:09):** the conductor's area read by hand (every file but its images); the tool now reads front matter, wake records and night-log snapshots, which improves every member's area.
+- **Round 1 (by Friday night):** every area read by hand, evidence next (the wakes, the night log and the decisions are what the historian and the researcher need first); the editor's material (decision Q4) when it arrives, in its own area.
