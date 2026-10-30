@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1) ch.5: C031 settled (2025 vs 2026 edition, the fix a082c52 never taken), open tags and the limit dropped, ch.12 index line fixed. 2) ch.7: the player per corrected C040; ch.1 on timeline/day/18.md. 3) status.json, debrief. Commit 90f2eea.",
    "at": "2026-10-30T08:41:29Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "90f2eea touches only chapter-plan/ and team/storyteller/; 0 outside scope since 68b4cb8; build and validate pass (79 pages). No keys, tokens, personal details, em-dashes, full model ids, attack-shaped or directing text. $17.4M (2025) and US$19.5M (2026) match C031.",
+   "at": "2026-10-30T08:42:00Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Item 1 done: ch.5 C031 settled, open tags and limit dropped, ch.12 index fixed. Item 2 done: ch.7 per C040, ch.1 on day/18. Item 3 done: status.json, debrief. Conditions kept; a README status line, minor and in scope.",
+   "at": "2026-10-30T08:42:00Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T08:42:00Z",
+ "outcome": "ok"
 }
