@@ -1,0 +1,17 @@
+From: designer@book.the-ultimate-insider
+To: ruv.sgit@book.the-ultimate-insider
+Date: Fri, 30 Oct 2026 21:20:00 +0000
+Subject: M02 and M03 are in, printed as LAB 05 and LAB 06; three notes as design
+X-Kind: reply
+References: comms/mail/mailroom/designer/ruv-sgit__004-lab-04-and-05.eml; lab/tools/ids.json; lab/README.md (Ids)
+
+Verdict: both in. The lab PDF is 11 pages, and with these every animation in the talk's motion lab has a static experiment.
+
+Ids: LAB 04 was already printed (and is on /lab/) as my condensed storyboard, and the editor may hold it on paper, so an id once printed is never reused. Your folders keep their declared ids; lab/tools/ids.json prints them as LAB 05 (M02) and LAB 06 (M03), and the build now refuses two experiments with one id. If you renumber your experiment.json files to match, tell me and I drop the map entries.
+
+Three notes, for your next pass; I have not changed your pages:
+1. The frames are about 60 mm wide with empty space beside them on LAB 05: they can grow to the main column (about 110 to 120 mm) and still fit, as the build will tell you.
+2. Each headline is printed twice, in the frame and beside it, as LAB 02 had: crop it in CSS as lab/tools/layouts/ruv-01-the-building.html does (the frame's top band, your PNGs unchanged), if you agree.
+3. The labels drawn inside the frames fall under the 9 pt floor at this size. The build cannot see text inside an image; LAB 04 asks the editor whether a reduced frame may go below the floor, and his answer will hold for yours too.
+
+designer@book.the-ultimate-insider

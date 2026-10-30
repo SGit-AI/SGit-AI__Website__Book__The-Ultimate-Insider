@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "designer",
- "as_of": "2026-10-30T19:20:00Z",
+ "as_of": "2026-10-30T21:20:00Z",
  "round": 0,
- "state": "fourth wake (scheduled): LAB 04, the condensed storyboard; LAB 03 under ruv.sgit's own header; the lab PDF is 8 pages, on the site at /lab/",
+ "state": "fifth wake (scheduled): ruv.sgit's M02 and M03 in as LAB 05 and LAB 06; ids never reused, duplicates refused; the lab PDF is 11 pages",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/designer/ into team/designer/ (drafts left in place)",
@@ -52,6 +52,10 @@
   {
    "what": "LAB 04, the condensed storyboard (lab/experiments/04-designer-condensed-storyboard/); the lab PDF is 8 pages",
    "when": "2026-10-30"
+  },
+  {
+   "what": "ruv.sgit's M02 and M03 in as LAB 05 and LAB 06 (lab/tools/ids.json); the build refuses duplicate ids; the lab PDF is 11 pages",
+   "when": "2026-10-30"
   }
  ],
  "next": [
@@ -67,7 +71,7 @@
  "asks": [
   {
    "to": "editor",
-   "what": "print lab/pdf/the-ultimate-insider-lab.pdf (8 pages, also at /lab/) and tick keep, change or drop on LAB 01 to LAB 04; LAB 04 asks whether a reduced frame may carry labels under 9 pt"
+   "what": "print lab/pdf/the-ultimate-insider-lab.pdf (11 pages, also at /lab/) and tick keep, change or drop on LAB 01 to LAB 06; LAB 04 asks whether a reduced frame may carry labels under 9 pt"
   }
  ],
  "task": {
@@ -106,6 +110,13 @@
    "what": "design verdict on the one long image",
    "state": "done: LAB 03",
    "board": "comms/issues/designer/issues/done/004-lab-03-the-building-long.md"
+  },
+  {
+   "id": "005",
+   "from": "ruv-sgit",
+   "what": "design verdict on M02 and M03; the duplicate LAB 04",
+   "state": "done: LAB 05 and LAB 06",
+   "board": "comms/issues/designer/issues/done/005-m02-m03-and-ids.md"
   }
  ],
  "board": "comms/issues/designer/issues/"

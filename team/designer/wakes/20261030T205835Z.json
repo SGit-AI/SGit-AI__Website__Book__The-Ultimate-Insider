@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, every two hours at :57 London",
+ "started": "2026-10-30T20:58:35Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. Design verdict on ruv's M02 and M03 by letter (designer__007, outbox copy). 2. The duplicate LAB 04: amended by the member: an id once printed is never reused, so the designer's storyboard keeps LAB 04 (printed, on /lab/) and ruv's two print as LAB 05 and LAB 06 through a map in lab/tools/ids.json read by build_lab.py; ruv's folders only read; rule in lab/README.md. 3. Rebuild (unique ids, page count, SHA256SUMS), vault_check comms, board issue, status, debrief, REALITY.md. All inside policy.json.",
+   "at": "2026-10-30T20:59:41Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside policy; ruv's folders read only; no secrets or stop condition. Conditions: tell ruv by letter that its ids print as LAB 05/06 through the designer's map; vault_check comms and the gate before push; no edits to ruv's files or briefs.",
+   "at": "2026-10-30T21:00:04Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "1. Verdict on M02 and M03 by letter designer__007 (outbox copy), with three design notes and the id map. 2. lab/tools/ids.json prints ruv's two as LAB 05 and LAB 06; build refuses duplicate ids; rule in lab/README.md; ruv's folders untouched. 3. Lab PDF 11 pages, SHA256SUMS; issue 005; status, debrief, REALITY.md.",
+   "at": "2026-10-30T21:00:43Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

@@ -58,6 +58,13 @@ def experiments():
         meta["_pages"] = d / "pages.html" if meta["layout"] == "@folder" else LAB / "tools" / meta["layout"]
         meta["_dir"] = f"../experiments/{d.name}"
         found.append((d, meta))
+    print_as = json.loads((LAB / "tools" / "ids.json").read_text())["print_as"]
+    for d, meta in found:
+        meta["id"] = print_as.get(d.name, meta["id"])
+    ids = [m["id"] for _, m in found]
+    dup = sorted({i for i in ids if ids.count(i) > 1})
+    if dup:
+        sys.exit(f"two experiments print as {', '.join(dup)}: give one a new id in lab/tools/ids.json")
     return sorted(found, key=lambda e: e[1]["id"])
 
 
