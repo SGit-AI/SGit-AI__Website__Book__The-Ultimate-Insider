@@ -379,6 +379,13 @@
    "by": "editor",
    "ask": "Every team runs on the talk team's machinery",
    "detail": "The editor, 30 October: the admin section, the workflow of the agents, the way they are recorded, the change control and the guidance for agents are the same on every team as on the team that built the talk; nothing is reinvented. Ported here from `298be4e` (see [admin](../admin/index.html)); the Cold-Read team is asked to do the same in its hand-off."
+  },
+  {
+   "id": "M1",
+   "status": "decided",
+   "by": "editor",
+   "ask": "Write the book in Markua, Leanpub's Markdown for books",
+   "detail": "The editor, in the conductor's session, 30 October 2026 about 11:00 UTC: \"Great agreed, let's use Markua\" (after the conductor's view: yes, gradually). Plain Markdown that is valid Markua first (the chapters already are), then Markua's image attributes and captions, asides for what a control missed, scene breaks, and front, main and back matter. Leanpub's own build is the official PDF and EPUB; the publisher's build_book.py gains a step that translates or strips Markua-only syntax for pandoc, so the team's check on every release stays."
   }
  ]
 }

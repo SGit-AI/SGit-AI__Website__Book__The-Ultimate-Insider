@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "editor's request, in the conductor's session",
+ "started": "2026-10-30T10:24:04Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "sub-agent",
+   "verdict": "go",
+   "comment": "1. M1 decided in book.json, the editor quoted. 2. A request to the publisher: adopt Markua in manuscript/ and publishing/, with a Markua step in build_book.py. 3. status.json.",
+   "at": "2026-10-30T10:24:29Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "sub-agent",
+   "verdict": "go",
+   "comment": "In scope; manuscript/ and publishing/ left to the publisher. Conditions: vault_check comms; quote verbatim; the letter asks, not directs.",
+   "at": "2026-10-30T10:24:29Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "M1 in book.json, quoted; the request letter 004 to the publisher with an outbox copy and a fallback file; status.json. vault_check comms clean; gate clean.",
+   "at": "2026-10-30T10:24:32Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "sub-agent",
+   "verdict": "clean",
+   "comment": "Six conductor-owned files; M1 quoted verbatim; the letter asks, overwrites nothing, no key or contact detail; manuscript/ and publishing/ untouched; comms, gate and scope clean.",
+   "at": "2026-10-30T10:25:01Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "sub-agent",
+   "verdict": "as-planned",
+   "comment": "All three items done, conditions kept, nothing unplanned.",
+   "at": "2026-10-30T10:25:01Z"
+  }
+ },
+ "closed": "2026-10-30T10:25:01Z",
+ "outcome": "ok"
+}
