@@ -1,0 +1,61 @@
+{
+ "schema": "the-ultimate-insider/review-persona/v1",
+ "persona": "ciso",
+ "kept_by": "developer@book.the-ultimate-insider",
+ "fictional": true,
+ "note": "A kind of reader, not a person. Every name, date and line here is fictional; nobody has been sent this page. The personal part (a reader's name) would travel only in the link's fragment, which the browser never sends.",
+ "title": "For a security leader",
+ "reader": "a CISO or security leader at a large company",
+ "judges": "Can I take this to my board; does it map to policy, audit and accountability; would I trust this team?",
+ "why_you": "You carry the risk this book is about. If the controls in these chapters would not survive your audit committee, we would rather hear it from you now than from a reader later.",
+ "ask": {
+  "by": "Friday 13 November 2026",
+  "by_note": "an example date: nothing has been sent"
+ },
+ "gets": [
+  "your name in the acknowledgements, if you want it there",
+  "the first edition when it ships",
+  "a reply to every comment, and a page showing what your comments changed"
+ ],
+ "edition": {
+  "name": "RC1",
+  "source": "team/conductor/rc1/",
+  "commit": "5d73a4e"
+ },
+ "chapters": [
+  {
+   "file": "03-a-mandate-you-can-read.md",
+   "why": "the controls, as policy you can read",
+   "theme": "B"
+  },
+  {
+   "file": "06-the-editor-signs.md",
+   "why": "accountability: who signs, and what a signature holds",
+   "theme": "B"
+  },
+  {
+   "file": "09-the-team-was-the-insider.md",
+   "why": "the argument: the team as the insider, and which controls it leaned on",
+   "theme": "C"
+  }
+ ],
+ "questions_source": "team/conductor/research/reviewers/01-who-should-review-the-book.md, section 1.2 (the reviewers study); a placeholder until the storyteller writes the questions per persona",
+ "questions": [
+  {
+   "after": "03-a-mandate-you-can-read.md",
+   "q": "Which controls could you adopt on Monday, and which need budget?"
+  },
+  {
+   "after": "06-the-editor-signs.md",
+   "q": "Does the book's idea of accountability (who signs) survive contact with a regulated firm?"
+  },
+  {
+   "after": "09-the-team-was-the-insider.md",
+   "q": "Which page would you show your board, and which would you remove?"
+  },
+  {
+   "after": "09-the-team-was-the-insider.md",
+   "q": "What evidence would you want that the brakes did not slow the team?"
+  }
+ ]
+}

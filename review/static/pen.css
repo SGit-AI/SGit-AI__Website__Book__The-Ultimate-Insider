@@ -1,0 +1,40 @@
+/* The review pages (developer@book.the-ultimate-insider): a reading column, the "How this works" panel beside it, and the pen.
+   Colours and sizes are the site's tokens (src/static/assets/tokens.css); the look is designer@'s to change. */
+.rv{padding-block:24px 64px}
+.rv-proto{border:1px dashed var(--infra);background:var(--infra-t);color:var(--text);padding:8px 12px;border-radius:6px;font-size:var(--t-s)}
+.rv-grid{display:grid;grid-template-columns:minmax(0,var(--measure)) minmax(220px,300px);gap:40px;align-items:start}
+.rv-main{min-width:0}
+.rv-side{position:sticky;top:72px;font-size:var(--t-s);color:var(--text)}
+.rv-side details{border:1px solid var(--line);background:var(--panel);border-radius:8px;padding:12px 14px}
+.rv-side summary{font-weight:600;cursor:pointer;color:var(--head)}
+.rv-side ol{padding-left:18px;margin:10px 0 0}
+.rv-side li{margin-bottom:8px}
+.rv-marks{display:flex;flex-wrap:wrap;gap:4px;padding:0;margin:4px 0 0;list-style:none}
+.rv-marks li{margin:0}
+.rv-marks b{font-weight:500;border:1px solid var(--line2);border-radius:999px;padding:1px 8px}
+.rv-facts{display:grid;grid-template-columns:max-content 1fr;gap:6px 16px;margin:20px 0}
+.rv-facts dt{font-weight:600;color:var(--head)}
+.rv-facts dd{margin:0}
+.rv-facts ul{margin:0;padding-left:18px}
+.rv-toc li{margin-bottom:4px}
+.rv-how1{border-left:3px solid var(--accent);padding-left:12px}
+.rv-ch{border-top:1px solid var(--line);margin-top:40px;padding-top:24px}
+.rv-ch img{max-width:100%;height:auto}
+[data-a]{position:relative;cursor:pointer;border-radius:4px;transition:background .15s}
+[data-a]:hover{background:var(--accent-t)}
+[data-a]:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+[data-a].rv-has{box-shadow:inset 3px 0 0 var(--risk);padding-left:10px}
+.rv-badge{display:block;margin-top:4px;font-size:var(--t-s);color:var(--risk);font-style:normal}
+.rv-bar{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:-4px 0 16px;padding:8px;border:1px solid var(--line2);background:var(--panel2);border-radius:8px}
+.rv-bar button{font:inherit;font-size:var(--t-s);border:1px solid var(--line2);background:var(--card);color:var(--text);border-radius:999px;padding:4px 10px;cursor:pointer}
+.rv-bar button[aria-pressed="true"]{background:var(--risk);border-color:var(--risk);color:var(--on-accent)}
+.rv-bar .rv-ok{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.rv-bar input{flex:1 1 200px;min-width:0;font:inherit;font-size:var(--t-s);padding:5px 8px;border:1px solid var(--line2);border-radius:6px;background:var(--card);color:var(--text)}
+.rv-qs{margin-top:28px;padding:16px;border:1px solid var(--line);background:var(--panel);border-radius:8px}
+.rv-qs textarea{width:100%;box-sizing:border-box;font:inherit;font-size:var(--t-s);padding:8px;border:1px solid var(--line2);border-radius:6px;background:var(--card);color:var(--text)}
+.rv-send{border-top:1px solid var(--line);margin-top:40px;padding-top:24px}
+@media (max-width:900px){
+  .rv-grid{grid-template-columns:1fr;gap:20px}
+  .rv-side{position:static;order:-1}
+  .rv-facts{grid-template-columns:1fr}
+}
