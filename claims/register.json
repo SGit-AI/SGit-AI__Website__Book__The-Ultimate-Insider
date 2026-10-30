@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-10-30T11:00:00Z",
+ "as_of": "2026-10-30T13:30:00Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -976,7 +976,7 @@
     "chapter-plan/plan.md"
    ],
    "value": {
-    "editor_brief": "about 14:00 London: 'The player ... This is the main priority, because the talk is at 19:00' (team/conductor/briefs/2026-10-29__editor/README.md, committed c9ced4e at 14:07)",
+    "editor_brief": "about 13:50 London, dictated: '1. The player, from ruv.sgit.ai, working on an iPad. This is the main priority. It goes ahead of the append lane in conductor-brief.md, which becomes second.' (team/conductor/briefs/2026-10-29__editor/feedback-briefs.md, line 3 for the time, line 7 for the order; committed c9ced4e at 14:07)",
     "order_routed": "the conductor's notes in the same commit: '1. dev: the editor's feedback pane and lane, with voice. The editor wakes dev for it now ... 2. dev: the player', after the editor's chat words on the lane key",
     "port_landed": "15:07 (C028)",
     "player_by_14_53": "not started: between 14:07 and 14:58 dev's wakes were a design fix (9f17ce7, 14:08) and the editor's 14:17 wake that built the lane (9a51c28, 14:28); the port's first trace is the editor's wake opened at 14:58:10, landing at 15:07:08 (3314ffe)"
@@ -988,8 +988,8 @@
     "evidence": "c9ced4e; team/conductor/briefs/2026-10-29__editor/README.md, conductor-notes.md"
    },
    "method": "git grep for 13:50 and for priority near player at 298be4e; the commit that carried the editor's briefs read",
-   "command": "git show c9ced4e --format=%b | head -12; git show 298be4e:team/conductor/briefs/2026-10-29__editor/conductor-notes.md | sed -n '5,14p'; git log 298be4e --format='%h %ci %s' --since=2026-10-29T14:07Z --until=2026-10-29T15:07:09Z -- team/dev src/static/talk/player.html",
-   "note": "The record has the player as 'the main priority' in the editor's briefs of about 14:00 (no 13:50 time is attached to it; 13:50 appears only as a time the editor spoke about the player's build mode, in team/dev/debriefs/2026-10-29__the-build-mode.md). In the same hand-over the conductor's notes put the editor's feedback lane first and the player second, quoting the editor's chat on the lane key. So the lesson 'start the highest-risk port first' is not that the team ignored a priority: the order changed at the editor's own word within minutes. 'Still not started at 14:53' holds: verified at 09:40 from the historian's reply against dev's commits (9f17ce7, 9a51c28, c28749e, 3314ffe); 14:53 itself is not a time the record attaches to the player."
+   "command": "git show c9ced4e --format=%b | head -12; git show 298be4e:team/conductor/briefs/2026-10-29__editor/conductor-notes.md | sed -n '5,14p'; git log 298be4e --format='%h %ci %s' --since=2026-10-29T14:07Z --until=2026-10-29T15:07:09Z -- team/dev src/static/talk/player.html; git show 298be4e:team/conductor/briefs/2026-10-29__editor/feedback-briefs.md | sed -n '3p;7p'",
+   "note": "The record has the player as 'the main priority' in the editor's briefs of about 14:00 (no 13:50 time is attached to it; 13:50 appears only as a time the editor spoke about the player's build mode, in team/dev/debriefs/2026-10-29__the-build-mode.md). In the same hand-over the conductor's notes put the editor's feedback lane first and the player second, quoting the editor's chat on the lane key. So the lesson 'start the highest-risk port first' is not that the team ignored a priority: the order changed at the editor's own word within minutes. 'Still not started at 14:53' holds: verified at 09:40 from the historian's reply against dev's commits (9f17ce7, 9a51c28, c28749e, 3314ffe); 14:53 itself is not a time the record attaches to the player. Corrected again 30 October about 13:25 (the second session), at the RC1 drafting's finding: a 13:50 time does exist, in the dictated brief's own header ('about 13:50 London'), and that brief puts the player first, ahead of the lane. The 13:50 in the lessons brief stands; the earlier 'no 13:50 time is attached to it' is withdrawn. The conductor's notes in the same commit still route the lane first, so both orders are in c9ced4e."
   },
   {
    "id": "C041",
@@ -1033,6 +1033,462 @@
    "method": "the talk's words read from talk.json; the full repository count by 17:02 from rev-list",
    "command": "git show 298be4e:src/static/talk/talk.json | grep -oE '.{40}510 commits.{40}'; git rev-list --count --until=2026-10-29T17:02:59Z 298be4e",
    "note": "The 510 and the 405 the Cold-Read critic quotes are the talk's own figures, counted differently from this register (git rev-list gives 625 commits by 17:02); quote them as what the talk said, never as the day's count. The 405 is not yet traced to its beat."
+  },
+  {
+   "id": "C043",
+   "claim": "OSBot-Utils began on 22 February 2020",
+   "cited_in": [
+    "team/conductor/rc1/11b-what-was-already-there.md",
+    "team/conductor/rc1/research/the-two-and-a-half-years.md"
+   ],
+   "value": {
+    "first_commit": "885128d 2020-02-22 08:28:53 +0000"
+   },
+   "state": "checked",
+   "source": {
+    "repository": "owasp-sbot/OSBot-Utils",
+    "at": "HEAD as cloned 30 October 2026",
+    "evidence": "the first commit"
+   },
+   "method": "the repository's first commit",
+   "command": "git log --reverse --format='%h %ai %an %s' | head -1   # in a clone of github.com/owasp-sbot/OSBot-Utils",
+   "note": "Registered at the conductor's letter 006 (the dossier's dates in chapter 11b), read 30 October 2026, about 13:20 UTC, by the researcher's second session."
+  },
+  {
+   "id": "C044",
+   "claim": "CI owns the version, first in OSBot-Utils, October 2023: the workflow commit, and the first release tagged by CI",
+   "cited_in": [
+    "team/conductor/rc1/11b-what-was-already-there.md",
+    "team/conductor/rc1/research/the-two-and-a-half-years.md"
+   ],
+   "value": {
+    "workflow": "e53d055 2023-10-27 00:52:27 +0100, Dinis Cruz, 'Added new version of .github workflows and actions (namely around the autotagging)'",
+    "first_ci_release": "753ef2c 2023-10-27 02:02:53 +0000, author GitHub Actions",
+    "tags_in_repository": 1129
+   },
+   "state": "checked",
+   "source": {
+    "repository": "owasp-sbot/OSBot-Utils",
+    "at": "HEAD as cloned 30 October 2026",
+    "evidence": "e53d055, 753ef2c"
+   },
+   "method": "the two commits read; tags counted",
+   "command": "git show -s --format='%h %ai %an %s' e53d055 753ef2c; git tag | wc -l   # in OSBot-Utils",
+   "note": "The tag count grows with every release; 1,129 is the count on 30 October 2026, not on the day. The dossier's 'a first attempt on 30 July 2021' is not checked here and the chapter does not use it. Registered at the conductor's letter 006 (the dossier's dates in chapter 11b), read 30 October 2026, about 13:20 UTC, by the researcher's second session."
+  },
+  {
+   "id": "C045",
+   "claim": "Kwargs_To_Self (January 2024) became Type_Safe (June 2024)",
+   "cited_in": [
+    "team/conductor/rc1/11b-what-was-already-there.md",
+    "team/conductor/rc1/research/the-two-and-a-half-years.md"
+   ],
+   "value": {
+    "Kwargs_To_Self": "0df0830 2024-01-03",
+    "Type_Safe_named": "4edb92e 2024-06-01 ('Major change: added the Type_Safe class ...')",
+    "file_renamed": "d52dc70 2024-07-01",
+    "type_safe_folder": "be1aaba 2025-01-03"
+   },
+   "state": "checked",
+   "source": {
+    "repository": "owasp-sbot/OSBot-Utils",
+    "at": "HEAD as cloned 30 October 2026",
+    "evidence": "0df0830, 4edb92e, d52dc70, be1aaba"
+   },
+   "method": "the four commits read",
+   "command": "git show -s --format='%h %ai %s' 0df0830 4edb92e d52dc70 be1aaba   # in OSBot-Utils",
+   "note": "Registered at the conductor's letter 006 (the dossier's dates in chapter 11b), read 30 October 2026, about 13:20 UTC, by the researcher's second session."
+  },
+  {
+   "id": "C046",
+   "claim": "Athena's MVP post, 17 September 2023",
+   "cited_in": [
+    "team/conductor/rc1/11b-what-was-already-there.md",
+    "team/conductor/rc1/research/the-two-and-a-half-years.md"
+   ],
+   "value": {
+    "datePublished": "2023-09-17"
+   },
+   "state": "checked",
+   "source": {
+    "url": "https://www.linkedin.com/pulse/mvp-athena-bot-built-aws-serverless-python-flask-huggingface-cruz/",
+    "read": "2026-10-30",
+    "evidence": "the page's datePublished"
+   },
+   "method": "the page fetched and its datePublished read",
+   "command": "curl -sL -A 'Mozilla/5.0' <url> | grep -oE '\"datePublished\":\"[^\"]{10}'",
+   "note": "Registered at the conductor's letter 006 (the dossier's dates in chapter 11b), read 30 October 2026, about 13:20 UTC, by the researcher's second session."
+  },
+  {
+   "id": "C047",
+   "claim": "The public writing on generative AI starts in February 2024 (OWASP London)",
+   "cited_in": [
+    "team/conductor/rc1/11b-what-was-already-there.md",
+    "team/conductor/rc1/research/the-two-and-a-half-years.md"
+   ],
+   "value": {
+    "date": "2024-02-22"
+   },
+   "state": "checked",
+   "source": {
+    "url": "https://diniscruz.ai/2024/02/22/its-2024-and-with-genai-we-can-finally-make-appsec-work.html",
+    "read": "2026-10-30",
+    "evidence": "the dated URL, served"
+   },
+   "method": "the page fetched (200); the date is in its path",
+   "command": "curl -s -o /dev/null -w '%{http_code}' <url>",
+   "note": "'Starts' rests on diniscruz.ai's own about page ('from February 2024 onwards'), his account; an earlier post elsewhere would not be caught by this check. Registered at the conductor's letter 006 (the dossier's dates in chapter 11b), read 30 October 2026, about 13:20 UTC, by the researcher's second session."
+  },
+  {
+   "id": "C048",
+   "claim": "The Cyber Boardroom Ltd incorporated, announced 8 April 2024",
+   "cited_in": [
+    "team/conductor/rc1/11b-what-was-already-there.md",
+    "team/conductor/rc1/research/the-two-and-a-half-years.md"
+   ],
+   "value": {
+    "datePublished": "2024-04-08",
+    "words": "'nearly all of my spare time'"
+   },
+   "state": "checked",
+   "source": {
+    "url": "https://www.linkedin.com/pulse/cyber-boardroom-ltd-has-been-created-its-official-now-dinis-cruz-oaj8e",
+    "read": "2026-10-30",
+    "evidence": "the page's datePublished"
+   },
+   "method": "the page fetched and its datePublished read",
+   "command": "curl -sL -A 'Mozilla/5.0' <url> | grep -oE '\"datePublished\":\"[^\"]{10}'",
+   "note": "The date is the announcement's; the incorporation date itself is not checked against Companies House here. Registered at the conductor's letter 006 (the dossier's dates in chapter 11b), read 30 October 2026, about 13:20 UTC, by the researcher's second session."
+  },
+  {
+   "id": "C049",
+   "claim": "The Cyber Boardroom on PyPI: the website and Athena released many hundreds of times",
+   "cited_in": [
+    "team/conductor/rc1/11b-what-was-already-there.md",
+    "team/conductor/rc1/research/the-two-and-a-half-years.md"
+   ],
+   "value": {
+    "cbr-website-beta": "431 releases, 2024-06-07 to 2024-12-13",
+    "cbr-athena": "109 releases, 2024-06-13 to 2025-01-29"
+   },
+   "state": "checked",
+   "source": {
+    "url": "https://pypi.org/pypi/cbr-website-beta/json, https://pypi.org/pypi/cbr-athena/json",
+    "read": "2026-10-30",
+    "evidence": "releases and upload times"
+   },
+   "method": "releases counted from PyPI's JSON, first and last upload dates",
+   "command": "for p in cbr-website-beta cbr-athena; do curl -s https://pypi.org/pypi/$p/json | python3 -c \"import json,sys;r=json.load(sys.stdin)['releases'];t=sorted(f['upload_time'][:10] for v in r.values() for f in v[:1]);print(len(r),t[0],t[-1])\"; done",
+   "note": "540 together: 'many hundreds' holds. Registered at the conductor's letter 006 (the dossier's dates in chapter 11b), read 30 October 2026, about 13:20 UTC, by the researcher's second session."
+  },
+  {
+   "id": "C050",
+   "claim": "Provenance as a talk: OWASP Global AppSec, Lisbon, 28 June 2024",
+   "cited_in": [
+    "team/conductor/rc1/11b-what-was-already-there.md",
+    "team/conductor/rc1/research/the-two-and-a-half-years.md"
+   ],
+   "value": {
+    "date": "2024-06-28"
+   },
+   "state": "checked",
+   "source": {
+    "url": "https://diniscruz.ai/2024/06/28/deterministic-genai-outputs-with-provenance__owasp-appsec-lisbon__gslides.html",
+    "read": "2026-10-30",
+    "evidence": "the dated URL, served"
+   },
+   "method": "the page fetched (200); the date is in its path",
+   "command": "curl -s -o /dev/null -w '%{http_code}' <url>",
+   "note": "'The earliest public statement found' is the dossier's finding, a negative that this check does not prove. Registered at the conductor's letter 006 (the dossier's dates in chapter 11b), read 30 October 2026, about 13:20 UTC, by the researcher's second session."
+  },
+  {
+   "id": "C051",
+   "claim": "The first MVP (15 July 2024) and the Community Edition (30 July 2024)",
+   "cited_in": [
+    "team/conductor/rc1/11b-what-was-already-there.md",
+    "team/conductor/rc1/research/the-two-and-a-half-years.md"
+   ],
+   "value": {
+    "first_mvp": "2024-07-15",
+    "community_edition": "2024-07-30"
+   },
+   "state": "checked",
+   "source": {
+    "url": "linkedin.com/pulse/cyber-boardroom-why-how-what-v04-first-mvp-dinis-cruz-pbfge/, linkedin.com/pulse/introducing-community-edition-cyber-boardroom-dinis-cruz-xsope/",
+    "read": "2026-10-30",
+    "evidence": "each page's datePublished"
+   },
+   "method": "the pages fetched and their datePublished read",
+   "command": "curl -sL -A 'Mozilla/5.0' <url> | grep -oE '\"datePublished\":\"[^\"]{10}'",
+   "note": "Registered at the conductor's letter 006 (the dossier's dates in chapter 11b), read 30 October 2026, about 13:20 UTC, by the researcher's second session."
+  },
+  {
+   "id": "C052",
+   "claim": "MyFeeds began on 4 December 2024",
+   "cited_in": [
+    "team/conductor/rc1/11b-what-was-already-there.md",
+    "team/conductor/rc1/research/the-two-and-a-half-years.md"
+   ],
+   "value": {
+    "first_commit": "02c6dbb 2024-12-04",
+    "myfeeds-ai_on_PyPI": "91 releases, 2024-12-21 to 2025-05-15"
+   },
+   "state": "checked",
+   "source": {
+    "repository": "the-cyber-boardroom/myfeeds_ai",
+    "at": "HEAD as cloned 30 October 2026",
+    "evidence": "the first commit; PyPI's JSON"
+   },
+   "method": "the first commit read; releases counted",
+   "command": "git log --reverse --format='%h %ai' | head -1   # in myfeeds_ai",
+   "note": "Registered at the conductor's letter 006 (the dossier's dates in chapter 11b), read 30 October 2026, about 13:20 UTC, by the researcher's second session."
+  },
+  {
+   "id": "C053",
+   "claim": "The January 2025 deck on CI pipelines and auto-tagging",
+   "cited_in": [
+    "team/conductor/rc1/11b-what-was-already-there.md",
+    "team/conductor/rc1/research/the-two-and-a-half-years.md"
+   ],
+   "value": {
+    "date": "2025-01-29"
+   },
+   "state": "checked",
+   "source": {
+    "url": "https://diniscruz.ai/2025/01/29/my-journey-building_a_genai_startup__the-power-of-mvps-and-ci-pipelines__part-1.html",
+    "read": "2026-10-30",
+    "evidence": "the dated URL, served"
+   },
+   "method": "the page fetched (200); the date is in its path",
+   "command": "curl -s -o /dev/null -w '%{http_code}' <url>",
+   "note": "The slide quotations are the dossier's reading of the PDF; not re-read here. Registered at the conductor's letter 006 (the dossier's dates in chapter 11b), read 30 October 2026, about 13:20 UTC, by the researcher's second session."
+  },
+  {
+   "id": "C054",
+   "claim": "MGraph-DB from February 2025, and the fact-provenance essay of 5 February 2025",
+   "cited_in": [
+    "team/conductor/rc1/11b-what-was-already-there.md",
+    "team/conductor/rc1/research/the-two-and-a-half-years.md"
+   ],
+   "value": {
+    "mgraph-db": "74 releases, 2025-02-02 to 2026-01-10",
+    "essay": "2025-02-05"
+   },
+   "state": "checked",
+   "source": {
+    "url": "https://pypi.org/pypi/mgraph-db/json; https://diniscruz.ai/2025/02/05/the-future-of-news-building-trust-through-fact-provenance.html",
+    "read": "2026-10-30",
+    "evidence": "PyPI's JSON; the dated URL, served"
+   },
+   "method": "releases counted; the page fetched (200)",
+   "command": "curl -s https://pypi.org/pypi/mgraph-db/json | python3 -c \"import json,sys;print(len(json.load(sys.stdin)['releases']))\"",
+   "note": "Registered at the conductor's letter 006 (the dossier's dates in chapter 11b), read 30 October 2026, about 13:20 UTC, by the researcher's second session."
+  },
+  {
+   "id": "C055",
+   "claim": "Memory-FS began on 26 May 2025",
+   "cited_in": [
+    "team/conductor/rc1/11b-what-was-already-there.md",
+    "team/conductor/rc1/research/the-two-and-a-half-years.md"
+   ],
+   "value": {
+    "first_commit": "de32536 2025-05-26",
+    "memory-fs_on_PyPI": "39 releases, 2025-05-26 to 2026-01-31"
+   },
+   "state": "checked",
+   "source": {
+    "repository": "owasp-sbot/Memory-FS",
+    "at": "HEAD as cloned 30 October 2026",
+    "evidence": "the first commit; PyPI's JSON"
+   },
+   "method": "the first commit read; releases counted",
+   "command": "git log --reverse --format='%h %ai' | head -1   # in Memory-FS",
+   "note": "Registered at the conductor's letter 006 (the dossier's dates in chapter 11b), read 30 October 2026, about 13:20 UTC, by the researcher's second session."
+  },
+  {
+   "id": "C056",
+   "claim": "The first public trace of the AI coding assistant in his commits: June 2025, then July 2025",
+   "cited_in": [
+    "team/conductor/rc1/11b-what-was-already-there.md",
+    "team/conductor/rc1/research/the-two-and-a-half-years.md"
+   ],
+   "value": {
+    "Memory-FS": "34d99ce 2025-06-16 '(using Claude to help with test creation)'",
+    "OSBot-Utils": "9c8503d 2025-07-09 '(created by Claude based on the source code)'"
+   },
+   "state": "checked",
+   "source": {
+    "repository": "owasp-sbot/Memory-FS and owasp-sbot/OSBot-Utils",
+    "at": "HEAD as cloned 30 October 2026",
+    "evidence": "34d99ce, 9c8503d"
+   },
+   "method": "the two commits read",
+   "command": "git show -s --format='%h %ai %s' 34d99ce   # in Memory-FS; git show -s --format='%h %ai %s' 9c8503d   # in OSBot-Utils",
+   "note": "'First' is within the repositories the dossier read; an earlier trace elsewhere is not excluded. The chapter says 'the earliest mention found', which is right. Registered at the conductor's letter 006 (the dossier's dates in chapter 11b), read 30 October 2026, about 13:20 UTC, by the researcher's second session."
+  },
+  {
+   "id": "C057",
+   "claim": "Issues-FS began on 4 February 2026",
+   "cited_in": [
+    "team/conductor/rc1/11b-what-was-already-there.md",
+    "team/conductor/rc1/research/the-two-and-a-half-years.md"
+   ],
+   "value": {
+    "first_commit": "21e1f27 2026-02-04",
+    "first_commit_by_Claude": "de7a043 2026-02-09",
+    "issues-fs_on_PyPI": "5 releases, 2026-02-04 to 2026-02-15"
+   },
+   "state": "checked",
+   "source": {
+    "repository": "owasp-sbot/Issues-FS",
+    "at": "HEAD as cloned 30 October 2026",
+    "evidence": "the first commit"
+   },
+   "method": "the first commit, and the first by the author name Claude",
+   "command": "git log --reverse --format='%h %ai' | head -1; git log --reverse --author=Claude --format='%h %ai' | head -1   # in Issues-FS",
+   "note": "Registered at the conductor's letter 006 (the dossier's dates in chapter 11b), read 30 October 2026, about 13:20 UTC, by the researcher's second session."
+  },
+  {
+   "id": "C058",
+   "claim": "sgit: the command line began on 3 March 2026, bootstrapped on Safe_* types; most commits by the assistant; on PyPI from 20 March",
+   "cited_in": [
+    "team/conductor/rc1/11b-what-was-already-there.md",
+    "team/conductor/rc1/research/the-two-and-a-half-years.md"
+   ],
+   "value": {
+    "first_commit": "1b01902 2026-03-03 17:45",
+    "bootstrap": "ae9f85e 2026-03-03 18:05, author Claude, 'Session 1: Bootstrap repo with Safe_* types, ...'",
+    "commits": 1779,
+    "author_Claude": 1077,
+    "author_Claude_Architect_Session": 10,
+    "sgit-ai_on_PyPI": "109 releases, 2026-03-20 to 2026-10-28"
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI/SGit-AI__CLI",
+    "at": "HEAD as cloned 30 October 2026 (last commit 2026-10-28 21:49)",
+    "evidence": "the two commits; authors counted; PyPI's JSON"
+   },
+   "method": "the first two commits read; authors counted exactly",
+   "command": "git show -s --format='%h %ai %an %s' 1b01902 ae9f85e; git log --format=%an | sort | uniq -c   # in SGit-AI__CLI",
+   "note": "'Most' holds: 1,077 of 1,779 (61%), or 1,087 counting a second author name, 'Claude (Architect Session)'. The counts grow with the repository; these are 30 October's. Registered at the conductor's letter 006 (the dossier's dates in chapter 11b), read 30 October 2026, about 13:20 UTC, by the researcher's second session."
+  },
+  {
+   "id": "C059",
+   "claim": "SG/Send began on 8 February 2026",
+   "cited_in": [
+    "team/conductor/rc1/11b-what-was-already-there.md",
+    "team/conductor/rc1/research/the-two-and-a-half-years.md"
+   ],
+   "value": {
+    "first_commit": "2026-02-08 (his account, checked by an agent against the repositories)"
+   },
+   "state": "open",
+   "source": {
+    "url": "https://newsroom.sgit.ai/articles/from-send-to-sgit.html",
+    "read": "2026-10-30",
+    "evidence": "the article, 2026-10-15"
+   },
+   "method": "taken from the article; the SG/Send repository not read here",
+   "command": "none: read the article; the repository's first commit would settle it",
+   "note": "Usable as 'by his account'. The brief and debrief counts the dossier quotes (1,389 and 268) are not registered and should not be used until counted. Registered at the conductor's letter 006 (the dossier's dates in chapter 11b), read 30 October 2026, about 13:20 UTC, by the researcher's second session."
+  },
+  {
+   "id": "C060",
+   "claim": "The newsroom's articles that dossier and chapter cite, by their dates in the wire",
+   "cited_in": [
+    "team/conductor/rc1/11b-what-was-already-there.md",
+    "team/conductor/rc1/research/the-two-and-a-half-years.md"
+   ],
+   "value": {
+    "earliest_article": "2026-08-17 green-does-not-mean-live",
+    "what-sgit-is": "2026-08-25",
+    "nineteen-sites": "2026-08-26",
+    "introducing-fractal-semantic-graphs": "2026-09-20",
+    "six-agents-one-inbox": "2026-09-29",
+    "ultimate-insider-three-collisions": "2026-09-30",
+    "every-mistake-added-a-rule": "2026-10-08",
+    "how-i-work-with-claude": "2026-10-09",
+    "not-a-straight-line": "2026-10-12",
+    "from-send-to-sgit": "2026-10-15",
+    "generation-z-developers-again": "2026-10-18",
+    "ci-owns-the-version": "2026-10-27",
+    "what-sgit-does-that-git-does-not": "2026-10-27",
+    "the-push-is-the-authorisation": "2026-10-28",
+    "articles_in_wire": 325
+   },
+   "state": "checked",
+   "source": {
+    "url": "https://newsroom.sgit.ai/newsroom/wire.json",
+    "read": "2026-10-30",
+    "evidence": "the articles' date field, wire generated 2026-10-30, site v0.7.87"
+   },
+   "method": "the wire fetched; each slug's date read; the earliest by date",
+   "command": "curl -s https://newsroom.sgit.ai/newsroom/wire.json | python3 -c \"import json,sys;a=sorted(json.load(sys.stdin)['articles'],key=lambda i:i['date']);print(a[0]['date'],a[0]['slug'],len(a))\"",
+   "note": "Dates are the wire's, not proof of when a page first went live. The chapter's 'two days before the talk' (11b:81, 11b:176) is about the PHP newsroom's runbook sentence, not this article; that runbook's date is not checked here (open in letter 012). Registered at the conductor's letter 006 (the dossier's dates in chapter 11b), read 30 October 2026, about 13:20 UTC, by the researcher's second session."
+  },
+  {
+   "id": "C061",
+   "claim": "SHarness: began 24 October 2026, sharness-ai on PyPI",
+   "cited_in": [
+    "team/conductor/rc1/11b-what-was-already-there.md",
+    "team/conductor/rc1/research/the-two-and-a-half-years.md"
+   ],
+   "value": {
+    "sharness-ai_on_PyPI": "2 releases, 2026-10-24 and 2026-10-29"
+   },
+   "state": "checked",
+   "source": {
+    "url": "https://pypi.org/pypi/sharness-ai/json",
+    "read": "2026-10-30",
+    "evidence": "releases and upload times"
+   },
+   "method": "releases counted from PyPI's JSON",
+   "command": "curl -s https://pypi.org/pypi/sharness-ai/json | python3 -c \"import json,sys;r=json.load(sys.stdin)['releases'];print(sorted((k,v[0]['upload_time']) for k,v in r.items() if v))\"",
+   "note": "'A published package the same day' holds (24 October). 'SHarness faster than sgit' is the editor's comparison: no public source makes it (the dossier). It stays a question for the editor, never a number. Registered at the conductor's letter 006 (the dossier's dates in chapter 11b), read 30 October 2026, about 13:20 UTC, by the researcher's second session."
+  },
+  {
+   "id": "C062",
+   "claim": "When the editor went full time on The Cyber Boardroom",
+   "cited_in": [
+    "team/conductor/rc1/11b-what-was-already-there.md",
+    "team/conductor/rc1/research/the-two-and-a-half-years.md"
+   ],
+   "value": {
+    "found": null,
+    "anchors": "C046, C048 ('spare time'), C049 (first PyPI release 7 June 2024), C053 ('Last 10 months of my life', January 2025)"
+   },
+   "state": "open",
+   "source": {
+    "url": "team/conductor/rc1/research/the-two-and-a-half-years.md",
+    "read": "2026-10-30",
+    "evidence": "the dossier's section 'Two things the brief asked for'"
+   },
+   "method": "public sources searched by the dossier; none names the date",
+   "command": "none",
+   "note": "Not in public sources. A question for the editor, never a number: the chapter says so (11b:192). Registered at the conductor's letter 006 (the dossier's dates in chapter 11b), read 30 October 2026, about 13:20 UTC, by the researcher's second session."
+  },
+  {
+   "id": "C063",
+   "claim": "The talk's repository does not use Type_Safe or name Memory-FS; it names OSBot-Utils as the source of CI-owned versions",
+   "cited_in": [
+    "team/conductor/rc1/11b-what-was-already-there.md",
+    "team/conductor/rc1/research/the-two-and-a-half-years.md"
+   ],
+   "value": {
+    "python_files_with_Type_Safe": 0,
+    "files_naming_Memory-FS": 0,
+    "OSBot-Utils_line": "content/articles/introducing-this-site.md:49, 'This is the scheme I wrote for OSBot-Utils in 2023'"
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "298be4e",
+    "evidence": "git grep"
+   },
+   "method": "git grep at 298be4e, case-insensitive for Memory-FS and memory_fs",
+   "command": "git grep -l 'Type_Safe' 298be4e -- '*.py' | wc -l; git grep -il 'memory-fs\\|memory_fs' 298be4e | wc -l; git grep -n 'OSBot-Utils' 298be4e -- content/articles/introducing-this-site.md",
+   "note": "Supports 11b:118, 132 and 140 ('two layers down, not in it'). Registered at the conductor's letter 006, read 30 October 2026, about 13:21 UTC, by the researcher's second session."
   }
  ]
 }

@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-10-30T13:17:00Z",
+ "as_of": "2026-10-30T13:35:00Z",
  "round": 1,
- "state": "working: second account session took over at 13:02 UTC; key published, scheduled task created; adopting the handover, letter 006 next",
+ "state": "working: the second session's first wake; handover adopted; 63 claims (54 checked, 5 corrected, 4 open); letter 006 part 1 answered",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -60,20 +60,28 @@
   {
    "what": "scheduled task trig_01Q1gWPQbdrBw3xwfRdVEGph created into this session at the editor's word, from team/conductor/schedule.json (every two hours at :32 London); the first account's task trig_0187JjB8uJUHxvgeCoAGXoKj stays paused there",
    "when": "2026-10-30T13:16:32Z"
+  },
+  {
+   "what": "handover adopted (debrief 2026-10-30__the-handover-adopted-and-the-dossier-dates.md); chapter 11b's dossier dates registered at source, C043 to C063; C040 corrected again (the 13:50 brief exists and puts the player first); Appendix A regenerated; reply researcher__002 to the conductor",
+   "when": "2026-10-30T13:35:00Z"
   }
  ],
  "next": [
   {
-   "what": "RC1 in the editor's voice (newsroom.sgit.ai rules), Appendix A against the register, the Cold-Read analyst's numbers, the drafting's remaining numbers (16:44 backlog, a9c0b49, 26%)",
-   "why": "R9, before the editor's flight"
+   "what": "Letter 006, the rest: 11b's quotation and month tags; the Cold-Read counts in chapters 9 and 11 and derived figures; the infographics maker's list; the 12 drafted cards; aa7a3eb",
+   "why": "the conductor's letter 006 and the handover; Done when 2"
   },
   {
-   "what": "The rest of the 29 unconfirmed claims in the final talk that the plan leans on, checked at source",
-   "why": "ROLE.md responsibility 3; Done when 2"
+   "what": "Appendix A checked against the register, so the conductor can regenerate it",
+   "why": "letter 007"
   },
   {
-   "what": "The comparison set beyond the house, with the market stream",
-   "why": "ROLE.md responsibility 5; Done when 3"
+   "what": "The Leanpub studies into the comparison set, and a view on free-minimum pricing",
+   "why": "letter 009; ROLE.md responsibility 5; Done when 3"
+  },
+  {
+   "what": "RC1 in the editor's voice; the rest of the talk's unconfirmed claims",
+   "why": "R9; Done when 2"
   }
  ],
  "asks": [
@@ -161,6 +169,20 @@
    "request": "comms/mail/mailroom/researcher/conductor__004-review-and-rc1.eml, conductor__005-the-editors-voice.eml",
    "state": "in progress: numbers review done; voice, the Cold-Read numbers, Appendix A next",
    "reply": "comms/mail/mailroom/conductor/researcher__001-rc1-numbers.eml; board comms/issues/researcher/issues/open/001-rc1-review.md"
+  },
+  {
+   "id": "R10",
+   "from": "conductor",
+   "request": "comms/mail/mailroom/researcher/conductor__006-numbers-to-register-rc1.eml (and 007)",
+   "state": "in progress: part 1 (11b's dossier dates) done",
+   "reply": "comms/mail/mailroom/conductor/researcher__002-rc1-dossier-dates-registered.eml; board 002"
+  },
+  {
+   "id": "R11",
+   "from": "conductor (the editor's request)",
+   "request": "comms/mail/mailroom/researcher/conductor__009-leanpub-studies.eml",
+   "state": "open",
+   "reply": "board 003"
   }
  ]
 }

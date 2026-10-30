@@ -2,7 +2,7 @@
 
 researcher@book.the-ultimate-insider, 30 October 2026, at the storyteller's request (`comms/mail/mailroom/researcher/storyteller__001-appendix-commands.eml`). Generated from `register.json`, where each entry's `command` field is the source; this file is a reading copy for the writer, rebuilt whenever the register changes.
 
-**How to rerun.** Clone the talk's repository (SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider), stand in it, and run each command. Every one is read-only and names `298be4e`, so it gives the same answer whatever was added after the day. C032 to C036 run in SGit-AI/SGit-AI__Website__Graphs at `d39e717`. Where no single command does it, the entry says "method" and describes the steps. Times are UTC, which was London time on 29 October 2026.
+**How to rerun.** Clone the talk's repository (SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider), stand in it, and run each command. Every one is read-only and names `298be4e`, so it gives the same answer whatever was added after the day. C032 to C036 run in SGit-AI/SGit-AI__Website__Graphs at `d39e717`. C043 to C062 (chapter 11b's dates) run in the public repository or against the web page each names, as read on 30 October 2026; counts there grow with time. Where no single command does it, the entry says "method" and describes the steps. Times are UTC, which was London time on 29 October 2026.
 
 ## C001: First commit of the day
 
@@ -321,7 +321,7 @@ method: the C038 filter, then each place's name compared with talk.json's beat i
 State: corrected.
 
 ```
-git show c9ced4e --format=%b | head -12; git show 298be4e:team/conductor/briefs/2026-10-29__editor/conductor-notes.md | sed -n '5,14p'; git log 298be4e --format='%h %ci %s' --since=2026-10-29T14:07Z --until=2026-10-29T15:07:09Z -- team/dev src/static/talk/player.html
+git show c9ced4e --format=%b | head -12; git show 298be4e:team/conductor/briefs/2026-10-29__editor/conductor-notes.md | sed -n '5,14p'; git log 298be4e --format='%h %ci %s' --since=2026-10-29T14:07Z --until=2026-10-29T15:07:09Z -- team/dev src/static/talk/player.html; git show 298be4e:team/conductor/briefs/2026-10-29__editor/feedback-briefs.md | sed -n '3p;7p'
 ```
 
 ## C041: The work step's limit and the hold's release
@@ -340,6 +340,174 @@ State: checked.
 git show 298be4e:src/static/talk/talk.json | grep -oE '.{40}510 commits.{40}'; git rev-list --count --until=2026-10-29T17:02:59Z 298be4e
 ```
 
+## C043: OSBot-Utils began on 22 February 2020
+
+State: checked.
+
+```
+git log --reverse --format='%h %ai %an %s' | head -1   # in a clone of github.com/owasp-sbot/OSBot-Utils
+```
+
+## C044: CI owns the version, first in OSBot-Utils, October 2023: the workflow commit, and the first release tagged by CI
+
+State: checked.
+
+```
+git show -s --format='%h %ai %an %s' e53d055 753ef2c; git tag | wc -l   # in OSBot-Utils
+```
+
+## C045: Kwargs_To_Self (January 2024) became Type_Safe (June 2024)
+
+State: checked.
+
+```
+git show -s --format='%h %ai %s' 0df0830 4edb92e d52dc70 be1aaba   # in OSBot-Utils
+```
+
+## C046: Athena's MVP post, 17 September 2023
+
+State: checked.
+
+```
+curl -sL -A 'Mozilla/5.0' <url> | grep -oE '"datePublished":"[^"]{10}'
+```
+
+## C047: The public writing on generative AI starts in February 2024 (OWASP London)
+
+State: checked.
+
+```
+curl -s -o /dev/null -w '%{http_code}' <url>
+```
+
+## C048: The Cyber Boardroom Ltd incorporated, announced 8 April 2024
+
+State: checked.
+
+```
+curl -sL -A 'Mozilla/5.0' <url> | grep -oE '"datePublished":"[^"]{10}'
+```
+
+## C049: The Cyber Boardroom on PyPI: the website and Athena released many hundreds of times
+
+State: checked.
+
+```
+for p in cbr-website-beta cbr-athena; do curl -s https://pypi.org/pypi/$p/json | python3 -c "import json,sys;r=json.load(sys.stdin)['releases'];t=sorted(f['upload_time'][:10] for v in r.values() for f in v[:1]);print(len(r),t[0],t[-1])"; done
+```
+
+## C050: Provenance as a talk: OWASP Global AppSec, Lisbon, 28 June 2024
+
+State: checked.
+
+```
+curl -s -o /dev/null -w '%{http_code}' <url>
+```
+
+## C051: The first MVP (15 July 2024) and the Community Edition (30 July 2024)
+
+State: checked.
+
+```
+curl -sL -A 'Mozilla/5.0' <url> | grep -oE '"datePublished":"[^"]{10}'
+```
+
+## C052: MyFeeds began on 4 December 2024
+
+State: checked.
+
+```
+git log --reverse --format='%h %ai' | head -1   # in myfeeds_ai
+```
+
+## C053: The January 2025 deck on CI pipelines and auto-tagging
+
+State: checked.
+
+```
+curl -s -o /dev/null -w '%{http_code}' <url>
+```
+
+## C054: MGraph-DB from February 2025, and the fact-provenance essay of 5 February 2025
+
+State: checked.
+
+```
+curl -s https://pypi.org/pypi/mgraph-db/json | python3 -c "import json,sys;print(len(json.load(sys.stdin)['releases']))"
+```
+
+## C055: Memory-FS began on 26 May 2025
+
+State: checked.
+
+```
+git log --reverse --format='%h %ai' | head -1   # in Memory-FS
+```
+
+## C056: The first public trace of the AI coding assistant in his commits: June 2025, then July 2025
+
+State: checked.
+
+```
+git show -s --format='%h %ai %s' 34d99ce   # in Memory-FS; git show -s --format='%h %ai %s' 9c8503d   # in OSBot-Utils
+```
+
+## C057: Issues-FS began on 4 February 2026
+
+State: checked.
+
+```
+git log --reverse --format='%h %ai' | head -1; git log --reverse --author=Claude --format='%h %ai' | head -1   # in Issues-FS
+```
+
+## C058: sgit: the command line began on 3 March 2026, bootstrapped on Safe_* types; most commits by the assistant; on PyPI from 20 March
+
+State: checked.
+
+```
+git show -s --format='%h %ai %an %s' 1b01902 ae9f85e; git log --format=%an | sort | uniq -c   # in SGit-AI__CLI
+```
+
+## C059: SG/Send began on 8 February 2026
+
+State: open.
+
+```
+none: read the article; the repository's first commit would settle it
+```
+
+## C060: The newsroom's articles that dossier and chapter cite, by their dates in the wire
+
+State: checked.
+
+```
+curl -s https://newsroom.sgit.ai/newsroom/wire.json | python3 -c "import json,sys;a=sorted(json.load(sys.stdin)['articles'],key=lambda i:i['date']);print(a[0]['date'],a[0]['slug'],len(a))"
+```
+
+## C061: SHarness: began 24 October 2026, sharness-ai on PyPI
+
+State: checked.
+
+```
+curl -s https://pypi.org/pypi/sharness-ai/json | python3 -c "import json,sys;r=json.load(sys.stdin)['releases'];print(sorted((k,v[0]['upload_time']) for k,v in r.items() if v))"
+```
+
+## C062: When the editor went full time on The Cyber Boardroom
+
+State: open.
+
+```
+none
+```
+
+## C063: The talk's repository does not use Type_Safe or name Memory-FS; it names OSBot-Utils as the source of CI-owned versions
+
+State: checked.
+
+```
+git grep -l 'Type_Safe' 298be4e -- '*.py' | wc -l; git grep -il 'memory-fs\|memory_fs' 298be4e | wc -l; git grep -n 'OSBot-Utils' 298be4e -- content/articles/introducing-this-site.md
+```
+
 ## Where this came from
 
-`claims/register.json`, the `command` of each entry, run against `298be4e` (a full clone: `git rev-list --count 298be4e` gives 816) and `d39e717`; spot-checked on 30 October 05:45, 06:45, 07:45, 08:45, 09:40 and 10:50 (C011, C014, C021, C041, C042), each giving the registered value. C031's 2026 figure is read from a web page, fetched 30 October 2026.
+`claims/register.json`, the `command` of each entry, run against `298be4e` (a full clone: `git rev-list --count 298be4e` gives 816) and `d39e717`; spot-checked on 30 October 05:45, 06:45, 07:45, 08:45, 09:40 and 10:50 (C011, C014, C021, C041, C042), each giving the registered value. C031's 2026 figure is read from a web page, fetched 30 October 2026. C043 to C062 were checked at source on 30 October about 13:20 UTC by the researcher's second session (public clones of OSBot-Utils, Memory-FS, Issues-FS, SGit-AI__CLI and myfeeds_ai; PyPI's JSON; the newsroom's wire; four LinkedIn pages' datePublished).
