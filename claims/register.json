@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-10-30T03:45:00Z",
+ "as_of": "2026-10-30T05:05:00Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -716,6 +716,129 @@
    },
    "method": "the claim's register entry read; grep of src/ at 298be4e for 17.4 and 19.5",
    "note": "A failure for the book: the talk's own register, built at 18:20, suggested $19.5M, and the slide and cue at 298be4e still say $17.4M in the present tense. The correction never reached the stage. Open: the $19.5M figure is the talk's researcher's capture, not yet re-checked against the source; the book must not use either number until it is."
+  },
+  {
+   "id": "C032",
+   "claim": "graphs.sgit.ai's making-of: 88 releases in 6 days, a median of 31 minutes apart",
+   "cited_in": [
+    "claims/graphs-sgit-ai.md"
+   ],
+   "value": {
+    "tags_v0.1.0_to_v0.5.11": 88,
+    "first": "2026-08-21T14:47:10Z",
+    "last": "2026-08-26T21:09:52Z",
+    "median_gap_min": 30.5,
+    "all_tags_to_d39e717": 123
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI/SGit-AI__Website__Graphs",
+    "at": "d39e717",
+    "evidence": "git tags, tagged commit times"
+   },
+   "method": "git for-each-ref refs/tags, filtered v0.1.0 to v0.5.11, median of consecutive gaps",
+   "note": "The book's '31 minutes' rounds 30.5; its 88 and 6 days agree."
+  },
+  {
+   "id": "C033",
+   "claim": "graphs.sgit.ai's three books",
+   "cited_in": [
+    "claims/graphs-sgit-ai.md"
+   ],
+   "value": {
+    "fsg": {
+     "version": "v0.3.0",
+     "status": "under review",
+     "chapters": 18,
+     "words": 38824,
+     "pdf_pages": 119
+    },
+    "making-a-book": {
+     "version": "v0.2.0",
+     "status": "under review",
+     "chapters": 17,
+     "words": 31435,
+     "pdf_pages": 92
+    },
+    "fsg-universe": {
+     "version": "v0.1.0",
+     "status": "held",
+     "chapters": 12,
+     "words": 30696,
+     "pdf_pages": 91
+    }
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI/SGit-AI__Website__Graphs",
+    "at": "d39e717",
+    "evidence": "v2/books/<slug>/book.json at d39e717"
+   },
+   "method": "read from each book.json (the site's own build output; word and page counts not recounted)",
+   "note": "The site's llms.txt says 38,000 and 31,000 words and fifteen and twelve chapters, counting front and back matter differently; book.json is the build's own figure. The repository's 'the Leanpub pair' label for two of them is a plan; no Leanpub listing was checked."
+  },
+  {
+   "id": "C034",
+   "claim": "graphs.sgit.ai's agent team: seven roles, one folder each",
+   "cited_in": [
+    "claims/graphs-sgit-ai.md"
+   ],
+   "value": {
+    "roles": [
+     "librarian",
+     "researcher",
+     "writer",
+     "editor",
+     "developer",
+     "qa",
+     "publisher"
+    ]
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI/SGit-AI__Website__Graphs",
+    "at": "d39e717",
+    "evidence": "v2/team/ at d39e717"
+   },
+   "method": "git ls-tree -d v2/team/",
+   "note": "Each folder: role.md, actions/, briefs/, debriefs/, issues/{open,blocked}. The book's team has a librarian, researcher and publisher in common; it has no editor role (the human is the editor) and adds security, historian, storyteller and conductor."
+  },
+  {
+   "id": "C035",
+   "claim": "The making-of computed its numbers from git and re-took its figures at their tags",
+   "cited_in": [
+    "claims/graphs-sgit-ai.md"
+   ],
+   "value": {
+    "figures": 20,
+    "appendix_c": "the harness and the commands"
+   },
+   "state": "open",
+   "source": {
+    "repository": "SGit-AI/SGit-AI__Website__Graphs",
+    "at": "d39e717",
+    "evidence": "graphs.sgit.ai /llms.txt and /v2/books/making-a-book/index.html at v0.6.22"
+   },
+   "method": "read from the site's description; the appendix itself not yet read",
+   "note": "The method is the precedent for this register; the claim is the site's, not yet checked against Appendix C."
+  },
+  {
+   "id": "C036",
+   "claim": "The making-of's stated largest cost: six days built the machine and none of the second book's chapters",
+   "cited_in": [
+    "claims/graphs-sgit-ai.md"
+   ],
+   "value": {
+    "quote_source": "/llms.txt (summary of chapter 12)"
+   },
+   "state": "open",
+   "source": {
+    "repository": "SGit-AI/SGit-AI__Website__Graphs",
+    "at": "d39e717",
+    "evidence": "graphs.sgit.ai /llms.txt at v0.6.22; content/12__what-it-costs.md headings"
+   },
+   "method": "read; chapter 12's text not yet read in full",
+   "note": "Cite only after reading chapter 12 itself."
   }
  ]
 }

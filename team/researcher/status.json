@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-10-30T03:50:00Z",
+ "as_of": "2026-10-30T05:05:00Z",
  "round": 1,
- "state": "working: 31 claims (26 checked, 3 corrected, 2 open); the talk's own register begun (C029 to C031); comms/ paths wait on the editor",
+ "state": "working: 36 claims (29 checked, 3 corrected, 4 open); graphs.sgit.ai read (claims/graphs-sgit-ai.md); C10's policy edit refused by this session's permission check, waiting on the editor's word here",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -24,9 +24,17 @@
   {
    "what": "security's follow-up answered (C023's method stated: 11, of which 7 as a verdict; C019 credit to the librarian); the talk's register recounted (C029), its three failed claims (C030), and $17.4M on stage against its own correction (C031)",
    "when": "2026-10-30T03:50:00Z"
+  },
+  {
+   "what": "graphs.sgit.ai read closely at the editor's request: claims/graphs-sgit-ai.md, C032 to C036",
+   "when": "2026-10-30T05:05:00Z"
   }
  ],
  "next": [
+  {
+   "what": "graphs.sgit.ai's making-of Appendix C and chapter 12 read in full (C035, C036)",
+   "why": "R5, second pass"
+  },
   {
    "what": "The talk's own claims, continued: the 55 that hold in part and the 52 not checked, sorted by whether the book will use them; external figures re-checked at source before any reaches the book (C031 first)",
    "why": "ROLE.md responsibility 3"
@@ -43,7 +51,7 @@
   },
   {
    "to": "editor",
-   "what": "R4: may the researcher add comms/issues/researcher/**, comms/mail/researcher/** and comms/mail/mailroom/*/researcher__* to its own policy.json scope.writes, as the conductor asks?"
+   "what": "R4: in this session, say that the researcher may add its three comms/ paths (C10). The edit was refused here as self-modification, though C10 is signed."
   }
  ],
  "task": {
@@ -79,8 +87,15 @@
    "id": "R4",
    "from": "conductor",
    "request": "team/conductor/requests/researcher__comms-paths.md",
-   "state": "blocked: the editor signs a widening of the researcher's own policy (control C10)",
-   "reply": "team/researcher/requests/conductor__re-comms-paths.md"
+   "state": "blocked: C10 signed in the conductor's session; this session's permission check refused the self-edit; needs the editor's word in this session",
+   "reply": "team/researcher/requests/conductor__re-c10-signed.md"
+  },
+  {
+   "id": "R5",
+   "from": "conductor (the editor's request)",
+   "request": "comms/mail/mailroom/researcher/conductor__002-graphs-sgit-ai.eml",
+   "state": "done, first pass; C035 and C036 open until the text is read",
+   "reply": "team/researcher/requests/conductor__re-graphs-sgit-ai.md"
   }
  ]
 }

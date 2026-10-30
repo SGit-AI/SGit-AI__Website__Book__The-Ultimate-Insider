@@ -28,3 +28,7 @@ C029 to C031, and C023's method stated at security's question: 31 claims, 26 che
 
 - **The talk's register** holds 320 claims, built at 18:20: 210 hold, 55 in part, 52 not checked, 3 do not (C029). None of the three that fail reached the stage (C030).
 - **A correction that never reached the stage:** the definition slide said $17.4M a year, while the talk's own register had found it superseded by the 2026 edition's $19.5M (C031, open until the figure is checked at source).
+
+## Round 1, fourth pass: graphs.sgit.ai (30 October 2026, 04:32 wake)
+
+At the editor's request, `graphs-sgit-ai.md`, the nearest precedent read closely, with C032 to C036: 36 claims, 29 checked, 3 corrected, 4 open. Its three books are the first entries of the comparison set.
