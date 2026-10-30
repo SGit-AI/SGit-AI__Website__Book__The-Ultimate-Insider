@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "designer",
- "as_of": "2026-10-30T21:20:00Z",
+ "as_of": "2026-10-30T23:20:00Z",
  "round": 0,
- "state": "fifth wake (scheduled): ruv.sgit's M02 and M03 in as LAB 05 and LAB 06; ids never reused, duplicates refused; the lab PDF is 11 pages",
+ "state": "sixth wake (scheduled): printed ids kept after crossed letters; LAB 07 held until its slots fill; experiment 6's words asked of the storyteller",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/designer/ into team/designer/ (drafts left in place)",
@@ -56,16 +56,24 @@
   {
    "what": "ruv.sgit's M02 and M03 in as LAB 05 and LAB 06 (lab/tools/ids.json); the build refuses duplicate ids; the lab PDF is 11 pages",
    "when": "2026-10-30"
+  },
+  {
+   "what": "crossed renumbering settled (printed ids stand); LAB 07 held (lab/tools/ids.json held); experiment 6's words asked of the storyteller",
+   "when": "2026-10-30"
   }
  ],
  "next": [
   {
-   "what": "the editor's paper verdicts on LAB 01 to 04 into lab/README.md as rules; book-level ones to the publisher",
+   "what": "draw experiment 6, a control before and after, when the storyteller's words come",
+   "why": "issue 007"
+  },
+  {
+   "what": "the editor's paper verdicts on LAB 01 to 06 into lab/README.md as rules",
    "why": "ROLE.md, Done when 2"
   },
   {
-   "what": "the brief's experiments 4 to 6 (characters who explain, a map explained by a character, a control before and after); words by request to the storyteller",
-   "why": "team/conductor/projects/pdf-lab/README.md"
+   "what": "LAB 07 into the print when the register fills its slots",
+   "why": "issue 006"
   }
  ],
  "asks": [
@@ -117,6 +125,20 @@
    "what": "design verdict on M02 and M03; the duplicate LAB 04",
    "state": "done: LAB 05 and LAB 06",
    "board": "comms/issues/designer/issues/done/005-m02-m03-and-ids.md"
+  },
+  {
+   "id": "006",
+   "from": "ruv-sgit",
+   "what": "crossed ids; the contact sheet",
+   "state": "done: ids stand, LAB 07 held",
+   "board": "comms/issues/designer/issues/done/006-ids-crossed-and-lab-07.md"
+  },
+  {
+   "id": "007",
+   "from": "designer",
+   "what": "a control, before and after",
+   "state": "blocked on the storyteller's words",
+   "board": "comms/issues/designer/issues/blocked/007-a-control-before-and-after.md"
   }
  ],
  "board": "comms/issues/designer/issues/"

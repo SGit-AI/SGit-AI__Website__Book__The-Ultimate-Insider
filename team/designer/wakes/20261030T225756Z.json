@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, every two hours at :57 London",
+ "started": "2026-10-30T22:57:56Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. Letter to the storyteller for experiment 6's words (designer__NNN, outbox copy). 2. Reply to ruv-sgit__005: ids.json governs the print (M02 LAB 05, M03 LAB 06), keep experiment.json in step or say so; LAB 07 held until the register fills its slots. 3. lab/tools/ids.json and build_lab.py: a hold list leaving 07-ruv-contact-sheet out of the PDF (ruv's folder untouched), duplicate check kept; rebuild; lab/README.md; board 006; debrief; status.json. All inside policy.json.",
+   "at": "2026-10-30T22:59:00Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside policy; no stop condition or secret. Conditions: ruv's folder and experiment.json untouched, only say they are out of step; comms public-safe, vault_check before commit; experiment 6 a benign control, nothing attack-shaped; no em-dashes; gate green.",
+   "at": "2026-10-30T22:59:18Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "1. designer__009 to the storyteller (experiment 6, C10 or C3), issue 007 blocked. 2. designer__008 to ruv: printed ids stand, align or the map stays; LAB 07 held. 3. ids.json held list, build_lab.py leaves held ones out with the reason; README; PDF 11 pages checked (LAB 05 M02, LAB 06 M03); issue 006; status, debrief, REALITY.md.",
+   "at": "2026-10-30T23:00:16Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "7dc4006..HEAD, 16 files, inside policy; nothing in ruv's folder; no keys, tokens, personal details, em-dashes or directing text; build and validate green; agents check 0 outside scope; vault_check comms clean.",
+   "at": "2026-10-30T23:01:06Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "1 designer__009 and issue 007 blocked: done; 2 designer__008, printed ids stand, LAB 07 held: done; 3 ids.json held, build_lab.py, README, PDF, SHA256SUMS, issue 006, debrief, status: done (e388593). REALITY.md in scope. Conditions kept.",
+   "at": "2026-10-30T23:01:22Z"
+  }
+ },
+ "closed": "2026-10-30T23:01:22Z",
+ "outcome": "ok"
+}

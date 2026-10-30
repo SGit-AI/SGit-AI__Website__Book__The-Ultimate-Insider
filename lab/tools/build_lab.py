@@ -58,7 +58,11 @@ def experiments():
         meta["_pages"] = d / "pages.html" if meta["layout"] == "@folder" else LAB / "tools" / meta["layout"]
         meta["_dir"] = f"../experiments/{d.name}"
         found.append((d, meta))
-    print_as = json.loads((LAB / "tools" / "ids.json").read_text())["print_as"]
+    ids_file = json.loads((LAB / "tools" / "ids.json").read_text())
+    print_as, held = ids_file["print_as"], ids_file.get("held", {})
+    for d, meta in [e for e in found if e[0].name in held]:
+        print(f"held: {d.name} ({held[d.name]})")
+    found = [e for e in found if e[0].name not in held]
     for d, meta in found:
         meta["id"] = print_as.get(d.name, meta["id"])
     ids = [m["id"] for _, m in found]

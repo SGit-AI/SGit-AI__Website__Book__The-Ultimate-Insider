@@ -1,7 +1,10 @@
 {
- "about": "The id each experiment prints under, when it differs from the one its folder declares. An id once printed is never reused (lab/README.md, The build): the lab PDF printed LAB 04 as the designer's condensed storyboard first, so ruv.sgit's next two print as LAB 05 and LAB 06.",
+ "about": "The id each experiment prints under, when it differs from the one its folder declares. An id once printed is never reused (lab/README.md, The build): the lab PDF printed LAB 04 as the designer's condensed storyboard first, so ruv.sgit's next two print as LAB 05 and LAB 06. Experiments under held are left out of the print, with the reason, until the designer's verdict changes.",
  "print_as": {
   "03-ruv-could-have-been-worse-frames": "LAB 05",
   "04-ruv-meet-the-team-frames": "LAB 06"
+ },
+ "held": {
+  "07-ruv-contact-sheet": "eight of its ten slots wait on the researcher's register; printed now, the editor would choose among pieces he cannot see (designer, 30 October 2026)"
  }
 }
