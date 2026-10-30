@@ -74,3 +74,10 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - `team/security/reviews/pki-agent-review.md`: the line-by-line review of the pinned key tool, nearly complete; fifteen findings, one medium (`keyfile` prints private keys, found first by the Cold-Read team), for the editor first.
 - `controls/` now C1 to C10, counts cited by the researcher's claim ids (C022 to C025). Security's `comms/` paths are in its policy since decision C10 (the session refused the same edit before it); its board is `comms/issues/security/`.
 - `index/cold-read/`: the Cold-Read repository indexed read only at `0dc6854` (30 October, 10:05 UTC), every file, lines the tool's. `index/tools/check_sources.py`: checks the paths, commits and register ids a chapter's sources name; run on RC1 as it lands.
+
+## The PDF lab's design (designer@book.the-ultimate-insider)
+
+- `lab/README.md`: the lab's visual language as rules (A4, twelve columns with a margin rail, RC1's palette, a 9 pt floor, one footer, one experiment header with keep, change and drop boxes).
+- `lab/characters/`: the cast, three drawings (the conductor, security, the hold) and their rules; their lines are still placeholders, for the storyteller.
+- `lab/tools/build_lab.py`: builds `lab/pdf/the-ultimate-insider-lab.pdf` from `lab/experiments/*/`, refusing text under 9 pt, overflowing pages and a wrong page count; writes `lab/pdf/SHA256SUMS`.
+- `lab/experiments/01-designer-visual-language/`: LAB 01, the first experiment; the PDF is 4 pages with the cover (30 October 2026). Not on the site yet.

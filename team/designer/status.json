@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "designer",
- "as_of": "2026-10-30T13:17:00Z",
+ "as_of": "2026-10-30T13:30:00Z",
  "round": 0,
- "state": "staffed; first wake (editor's request): folder, key and task; the lab's visual language begun",
+ "state": "staffed; first wake (editor's request): folder, key and task; the lab's visual language, cast and build; LAB 01 printed",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/designer/ into team/designer/ (drafts left in place)",
@@ -16,15 +16,44 @@
   {
    "what": "scheduled task trig_014x1ynLjnntBf5zrk7uYrML created into this session, at the editor's word in the session's first message",
    "when": "2026-10-30"
+  },
+  {
+   "what": "lab/README.md: the lab's visual language as rules (grid, colour, type, figures, header, build)",
+   "when": "2026-10-30"
+  },
+  {
+   "what": "lab/characters/: the cast drawn (the conductor, security, the hold), with its rules",
+   "when": "2026-10-30"
+  },
+  {
+   "what": "lab/tools/: the build, which refuses text under 9 pt, overflowing pages and a wrong page count; lab/pdf/ with SHA256SUMS",
+   "when": "2026-10-30"
+  },
+  {
+   "what": "LAB 01, one visual language for paper (lab/experiments/01-designer-visual-language/), printed: 4 pages with the cover",
+   "when": "2026-10-30"
   }
  ],
  "next": [
   {
-   "what": "the lab's visual language in lab/README.md, and the first experiment",
-   "why": "ROLE.md responsibilities 1 and 4"
+   "what": "ask the storyteller for the cast's first lines",
+   "why": "ROLE.md: the designer draws them, the storyteller writes them"
+  },
+  {
+   "what": "ask the conductor for a site page for the lab PDF",
+   "why": "ROLE.md responsibility 5"
+  },
+  {
+   "what": "a design verdict on ruv.sgit's first experiment; then the condensed storyboard",
+   "why": "ROLE.md responsibility 4; the brief's experiment 3"
   }
  ],
- "asks": [],
+ "asks": [
+  {
+   "to": "editor",
+   "what": "print lab/pdf/the-ultimate-insider-lab.pdf and tick keep, change or drop on LAB 01 (greyscale, the 9 pt floor, the cast)"
+  }
+ ],
  "task": {
   "id": "trig_014x1ynLjnntBf5zrk7uYrML",
   "cron": "CRON_TZ=Europe/London 57 */2 * * *",

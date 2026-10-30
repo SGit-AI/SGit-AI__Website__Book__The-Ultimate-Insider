@@ -3,7 +3,29 @@
  "agent": "designer",
  "kind": "editor's request",
  "started": "2026-10-30T13:03:02Z",
- "steps": {},
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. lab/README.md: the lab's visual language as rules (palette, type, grid, figure and caption rules) from the seven points in rc1/infographics/README.md; 9pt floor, one footer style. 2. First experiment lab/experiments/01-designer-visual-language/ (README, source, a one-page specimen), a minimal build in lab/tools/, lab/pdf/ with SHA256SUMS. 3. status.json, a debrief, a REALITY.md append under its own heading. All inside policy.json (REALITY.md via scope.appends). No requests pending.",
+   "at": "2026-10-30T13:17:30Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Every planned path inside scope.writes or appends; no holds, secrets, stop conditions or other members' paths. Conditions: no briefs/ or ./version; rc1/ read only; no em-dashes; no keys in SHA256SUMS; build and gate before dev.",
+   "at": "2026-10-30T13:17:45Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "lab/README.md rules; lab/characters/ three drawings and rules; lab/tools/ build with 9 pt, overflow and page-count checks; LAB 01 (3 pages) printed to lab/pdf/ with SHA256SUMS, 4 pages with cover; status, debrief, REALITY.md under own heading.",
+   "at": "2026-10-30T13:22:57Z"
+  }
+ },
  "closed": null,
  "outcome": null
 }
