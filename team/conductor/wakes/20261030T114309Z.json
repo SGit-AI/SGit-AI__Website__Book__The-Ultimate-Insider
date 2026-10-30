@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Within policy given the editor's word in this session. Conditions: only the conductor's own task, into this session, nothing for any other member; members' tasks stay paused; no key or secret in prompts, schedule.json or ONBOARDING.md; no writes in members' folders; do not edit WAKE.md or CLAUDE.md (propose to the editor); record the editor's words; run the gate.",
    "at": "2026-10-30T11:43:57Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "1. Task trig_01BmE8oGh2UyxmLwR4vrMexU created into this session, CRON_TZ=Europe/London 2 */2 * * *, prompt from schedule.json (hourly changed to every two hours); first fire 12:02 UTC; id in status.json and schedule.json. 2. schedule.json: members every two hours at their minutes, waiting on their new sessions; ONBOARDING.md 1b: takeover prompt per member pointing at handovers/<id>.md. 3. No formal closing procedure: H1 open in book.json; WAKE.md untouched. Gate clean.",
+   "at": "2026-10-30T11:45:12Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "Gate clean (95 pages); 0 files outside scope; WAKE.md and CLAUDE.md untouched; no keys, tokens or secrets; only the conductor's own task recorded as created, members waiting; H1 open, acts on nothing; no em-dashes; no members' folders touched.",
+   "at": "2026-10-30T11:45:49Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "as-planned",
+   "comment": "1. task created, id in status.json and schedule.json. 2. members every two hours, waiting; ONBOARDING.md takeover prompt per member. 3. no closing procedure reported; H1 open in book.json; WAKE.md untouched. Only planned files changed.",
+   "at": "2026-10-30T11:45:50Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T11:45:50Z",
+ "outcome": "ok"
 }
