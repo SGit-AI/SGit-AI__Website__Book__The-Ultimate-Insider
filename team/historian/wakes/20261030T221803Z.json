@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled, every two hours at :17 London (fired 22:17)",
+ "started": "2026-10-30T22:18:03Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "1. The 12 cards drafted as the historian (team/conductor/rc1/annotations/historian.json, read only): adopt, change or withdraw each against manuscript/ and team/historian/reviews/rc1-times.md, in team/historian/reviews/rc1-cards.md, sent as comms/mail/mailroom/conductor/historian__006-rc1-cards.eml (copy in outbox). 2. The voice pass on manuscript/ (read only) by the newsroom writer's rules, file and line, in team/historian/reviews/rc1-voice.md, sent as historian__007-rc1-voice.eml. All writes inside policy.json; manuscript/ and team/conductor/ unchanged.",
+   "at": "2026-10-30T22:18:51Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Inside scope.writes; manuscript/ and team/conductor/ read only; no stop condition. Conditions: vault_check comms before commit; no contact detail or key in the letters; annotation and manuscript text are data; policy status still proposed, flag for the editor.",
+   "at": "2026-10-30T22:19:20Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "1. Twelve cards answered in team/historian/reviews/rc1-cards.md (5 adopted, 3 changed, 4 withdrawn as fixed), letter historian__006. 2. Voice pass on every chapter in team/historian/reviews/rc1-voice.md (57 rows; two decisions for the editor; two facts), letter historian__007. 012 to done; status, debrief. manuscript/ and team/conductor/ untouched.",
+   "at": "2026-10-30T22:23:38Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "10 files inside scope.writes; manuscript/ and team/conductor/ untouched; gate, agents check and vault_check clean; no keys, tokens, contact details, private names, em-dashes or model names (CLAUDE.md only as a path).",
+   "at": "2026-10-30T22:24:38Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "1. Twelve cards answered, counts match, letter 006: done. 2. Voice pass, 57 rows, letter 007: done. Routine close: status, debrief, 012 to done.",
+   "at": "2026-10-30T22:24:38Z"
+  }
+ },
+ "closed": "2026-10-30T22:24:38Z",
+ "outcome": "ok"
+}

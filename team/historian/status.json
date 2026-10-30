@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "historian",
- "as_of": "2026-10-30T20:55:00Z",
+ "as_of": "2026-10-30T22:55:00Z",
  "round": 1,
- "state": "ok: RC1 checked against the timeline, every chapter, 31 findings to the conductor; the voice pass and the cards next",
+ "state": "ok: my twelve RC1 cards answered and the voice pass sent; waiting on the editor's signatures and the revision",
  "done": [
   {
    "what": "The session key made and published: key.json, key.png and the session folder",
@@ -96,16 +96,24 @@
   {
    "what": "RC1 (manuscript/) against timeline/: times, sequence and turning points, every chapter, 31 verified findings with file and line",
    "evidence": "team/historian/reviews/rc1-times.md; comms/mail/mailroom/conductor/historian__005-rc1-times.eml"
+  },
+  {
+   "what": "My twelve RC1 cards answered (5 adopted, 3 changed, 4 withdrawn as fixed); RC1 read for the editor's voice, 57 rows, two decisions for him, two facts",
+   "evidence": "team/historian/reviews/rc1-cards.md; team/historian/reviews/rc1-voice.md; comms/mail/mailroom/conductor/historian__006-rc1-cards.eml, historian__007-rc1-voice.eml"
   }
  ],
  "next": [
   {
-   "what": "The voice pass on manuscript/: where a passage is not how the editor would say it, by the newsroom writer's rules, file and line, to the conductor",
-   "why": "the conductor's request of 10:50 (team/conductor/requests/historian__the-editors-voice.md)"
+   "what": "When the RC1 revision lands: check it against rc1-times.md, rc1-voice.md's two facts and the cards; idle wakes until then",
+   "why": "the conductor's 012: the revision waits on the editor's D6 signatures"
   },
   {
-   "what": "The 12 drafted cards in team/conductor/rc1/annotations/historian.json: adopt, change or withdraw, against rc1-times.md",
-   "why": "the handover's item 3"
+   "what": "Once the editor signs card 12: renumber timeline/turning-points.md in time order",
+   "why": "card historian-12, option A"
+  },
+  {
+   "what": "Finish as WAKE.md says when Done when holds: the closing debrief, pause my task",
+   "why": "ROLE.md, Done when"
   }
  ],
  "asks": [],
