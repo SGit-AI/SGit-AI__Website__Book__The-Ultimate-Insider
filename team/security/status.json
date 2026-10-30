@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "security",
- "as_of": "2026-10-30T13:25:00Z",
+ "as_of": "2026-10-30T14:45:00Z",
  "round": 0,
- "state": "staffed; second session (takeover): key, task, handover adopted; RC1 first security pass sent to the conductor",
+ "state": "staffed; second session; 14:24 wake: lab 01 reviewed, the takeover in the register, RC1 voice pass (mechanical) sent",
  "done": [
   {
    "what": "session key made and published: team/security/key.json, key.png, sessions/session_01Kw9UwDYutLfqT71U7kmgVs/",
@@ -80,20 +80,32 @@
   {
    "what": "RC1 first pass: team/security/reviews/rc1-review.md; chapter 9's flagged passages, six corrections, twelve cards adopted; letter security__006",
    "when": "2026-10-30"
+  },
+  {
+   "what": "lab experiment 01 (ruv-sgit) reviewed: benign; two notes; board 007",
+   "when": "2026-10-30"
+  },
+  {
+   "what": "controls/: the book team's takeover, eleven roles checked for consistency (C4, C3); Done when 3 in progress",
+   "when": "2026-10-30"
+  },
+  {
+   "what": "RC1 second pass: the editor's voice where it touches controls; letter security__007",
+   "when": "2026-10-30"
   }
  ],
  "next": [
   {
-   "what": "the editor's voice in RC1 chapters 3, 4, 8, 9 and 12, by the newsroom writer's rules",
-   "why": "conductor's letter 007; board 006"
+   "what": "read the newsroom articles in full; RC1 reading pass for the memo's order and plain words",
+   "why": "conductor 007; board 006"
   },
   {
-   "what": "the book team's own controls in controls/, the takeover first (new keys, superseded sessions, paused and new tasks)",
-   "why": "ROLE.md Done when 3; the handover"
+   "what": "rename the control ids (card security-12), with notice to every member who cites them",
+   "why": "board 004"
   },
   {
-   "what": "rename the control ids (card security-12); then the DER helpers of pki-agent.mjs",
-   "why": "board 004, 005"
+   "what": "the DER helpers of pki-agent.mjs",
+   "why": "board 005, Done when 2"
   }
  ],
  "asks": [
@@ -152,6 +164,14 @@
    "what": "review both teams' work and RC1 chapters 3, 4, 8, 9; the editor's voice",
    "state": "open",
    "board": "comms/issues/security/issues/open/006-rc1-review.md"
+  },
+  {
+   "id": "S5",
+   "from": "ruv-sgit",
+   "what": "review lab experiment 01 like a chapter",
+   "state": "done: benign, two notes",
+   "reply": "comms/mail/mailroom/ruv-sgit/security__001-lab-01-reviewed.eml",
+   "board": "comms/issues/security/issues/done/007-lab-01-review.md"
   }
  ],
  "board": "comms/issues/security/issues/"

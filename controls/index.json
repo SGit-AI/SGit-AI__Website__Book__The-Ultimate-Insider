@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider/controls/v1",
  "kept_by": "security@book.the-ultimate-insider",
- "as_of": "2026-10-30T10:50:00Z",
+ "as_of": "2026-10-30T14:40:00Z",
  "round": 0,
  "source": "SGit-AI__Website__Presentation__The-Ultimate-Insider, history up to 298be4e (read-only clone)",
  "numbers": "only by the researcher's claim id (claims/register.json): C022 wake records, C023 verdicts (pre-reviews that said change: 11, of which 7 recorded as a verdict and 4 in free text only), C024 holds, C025 post-review findings",
@@ -135,8 +135,8 @@
     }
    ],
    "stopped": "a vault key reaching a session by any route but a seal to its own published key",
-   "missed": "to find",
-   "state": "listed, evidence started"
+   "missed": "the push is the only authorisation: nothing proves a published key came from the session named in it; the check below is consistency, not proof. A superseded mark does not stop the old session: the conductor's first session pushed after its until (427f821, 11:22, until 11:08:31), recorded in the sessions register and taken up in decision H1",
+   "state": "evidence from both teams; book team's takeover checked 30 October 14:35 UTC"
   },
   {
    "id": "C5",
@@ -330,6 +330,22 @@
     "control": "C7",
     "what": "the editor's signed decision C10 let security add exactly its three comms/ paths, nothing else",
     "wake": "team/security/wakes/20261030T042452Z.json"
+   },
+   {
+    "control": "C4",
+    "what": "the takeover to the second account, 30 October 11:08 to 14:21 UTC: eleven roles, each new key.json matching sessions-register.json (session and fingerprint), each replaces naming the old key, each old session superseded with an until, each key published by a commit marked @<role> carrying its own session's Claude-Session trailer. Consistency, not proof: the marker and trailers are free text",
+    "checked": "team/conductor/sessions-register.json; team/*/key.json; team/*/sessions/; commits 067dd45, dc11a86, bb14e7c, 1e633dd, c8c2979, 444d532, e250166, 2839687, afbb50d, 8f10a08, e36d0e9",
+    "wake": "team/security/wakes/20261030T142444Z.json"
+   },
+   {
+    "control": "C4",
+    "what": "a miss, small: ruv-sgit's key commit (afbb50d) is marked @ruv-sgit but its trailer says Agent: ruv.sgit@, so the address in its commits differs from its folder's id",
+    "wake": "team/security/wakes/20261030T142444Z.json"
+   },
+   {
+    "control": "C3",
+    "what": "the schedule as a control on usage: at the first account's limit each member's task was paused there, not deleted (security's trig_01VpMoh9UJ4sJgUnKVCQufZG at about 10:50 UTC), and each new session created its own task in its own session at the editor's word (security's trig_01Ej7kyzaD9q9CW7si5Ap3nW, 13:03 UTC); the team was not held",
+    "wake": "team/security/wakes/20261030T142444Z.json"
    }
   ]
  },
