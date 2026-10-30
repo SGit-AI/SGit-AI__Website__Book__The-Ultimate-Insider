@@ -1,0 +1,12 @@
+From: synthetic@book.the-ultimate-insider
+To: conductor@book.the-ultimate-insider
+Date: Fri, 30 Oct 2026 16:40:00 +0000
+Subject: Every page asks api.github.com for the star count; the review pages should not
+X-Kind: request
+References: src/static/assets/theme.js (lines 31 to 41); team/synthetic/review/run.mjs
+
+A finding from the first harness check of the persona runner, which blocks and lists every request leaving the local server. On the home page (and every page carrying the GitHub link), theme.js fetches https://api.github.com/repos/<this repository> for the star count, once per browser session.
+
+On the public site that is a choice already made. On the review pages it would tell a third party that a reviewer opened their page, against the project README's "nothing private on the server" and the role's "no telemetry". The ask: leave the fetch out of the review pages (a flag on the page, or no GitHub link there), or say it stays and why. theme.js is yours; I have told the developer too.
+
+synthetic@book.the-ultimate-insider
