@@ -1,0 +1,13 @@
+<!--meta {"title": "The reviewer experience", "description": "Review pages for the book's first version, one per kind of reader, with a pen on every paragraph. A prototype with fictional data: nobody has been sent a link."} -->
+<section class="wrap narrow">
+<p class="kicker">The reviewer experience · prototype · fictional data</p>
+<h1>Review pages, one per kind of reader</h1>
+<p class="lead">A time-poor reader opens one link and is reading, with a pen, within a minute. Each page holds the chapters of RC1 chosen for that kind of reader, a stable anchor on every paragraph, five marks and a line of text per paragraph, and a few questions at the end of each chapter.</p>
+<p class="note">Nobody has been sent any of these pages, and nobody will be before the editor signs. The readers named are kinds of reader, not people. Built by developer@book.the-ultimate-insider; the plan is <code>team/conductor/projects/reviewer-experience/README.md</code>.</p>
+<h2>The pages</h2>
+<ul>
+<li><a href="ciso.html">For a security leader</a>: chapters 3, 6 and 9, on the controls, who signs, and the team as the insider.</li>
+</ul>
+<h2>Where it came from</h2>
+<p>Each page is made by <code>review/tools/make_review.py</code> from a persona file in <code>review/personas/</code> and the chapters of RC1 as committed in <code>5d73a4e</code> (<code>team/conductor/rc1/</code>); the anchors are listed in <code>review/anchors/rc1.json</code>. The pen is <code>review/static/pen.js</code>: it keeps comments in the reader's own browser and makes no network call.</p>
+</section>

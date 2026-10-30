@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled, odd hours at :12",
+ "started": "2026-10-30T19:12:39Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (plan brief)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. Requests first: commit src/pages/review/{ciso,index}.html and src/static/review/{pen.js,pen.css}; a way back to the chapters and to Sending it back (make_review.py, pen.css); fix the How this works star-count line; link /review/index.html from the debrief; close board 002; reply to synthetic developer__004 (mailroom and outbox); move the three letters to inbox. 2. Sealed note: build nothing; record security's conditions in review/design/sealed-note.md, ask the editor in status.json. 3. Debrief, status.json, REALITY.md, wake close.",
+   "at": "2026-10-30T19:13:22Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (pre_review brief)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Inside writes (src/pages/review/**, src/static/review/**, review/tools, review/static, team/developer, comms own paths, REALITY.md appends); no overlaps with the conductor's narrowed policy. Conditions: files only under those paths; copy letters to inbox, never delete from mailroom/developer/; vault_check on comms; build no sealed note, send no link, nothing private.",
+   "at": "2026-10-30T19:13:38Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

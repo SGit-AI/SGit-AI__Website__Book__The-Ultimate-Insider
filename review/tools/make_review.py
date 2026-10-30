@@ -3,8 +3,7 @@
 # review/pages/ and review/static/, in src/pages/review/ and src/static/review/. Every paragraph, quote, list item and table
 # gets a stable anchor, <chapter>-<first 6 hex of the sha256 of its text>: it survives a paragraph moving and changes when
 # the words change, which is what the diffs need. The anchors are also written to review/anchors/<edition>.json.
-# The placed files are not committed until the conductor's policy stops claiming them too (src/**; the gate's overlap
-# check): until then, run this before ./run-website-locally.sh to see the pages.
+# The placed files are committed too, so the site's build needs no step of its own: run this after changing review/.
 # Standard library only; reads admin/build/build.py's Markdown, writes only review/, src/pages/review/ and src/static/review/.
 # Kept by developer@book.the-ultimate-insider. Run: python3 review/tools/make_review.py [<persona> ...]
 import hashlib, html, json, re, shutil, sys
@@ -101,7 +100,7 @@ def page(p):
                            'A prototype with fictional data; nobody has been sent it.'}
     head = f'''<!--meta {json.dumps(meta)} -->
 <link rel="stylesheet" href="{{{{root}}}}review/pen.css">
-<div class="rv wrap" data-review="{p['persona']}" data-edition="{e['name']}" data-commit="{e['commit']}">
+<div class="rv wrap" data-no-third-party data-review="{p['persona']}" data-edition="{e['name']}" data-commit="{e['commit']}">
 <p class="rv-proto">Prototype, fictional data. Nobody has been sent this page; a kind of reader, not a person, is named here. Made by <code>review/tools/make_review.py</code> from <code>review/personas/{p['persona']}.json</code>.</p>
 <div class="rv-grid">
 <div class="rv-main">
@@ -131,13 +130,14 @@ def page(p):
 <li><b>Your link.</b> Anything after the <code>#</code> in your link (here, the name in the greeting) stays in your browser: browsers never send that part to a server. Try <a href="#to=Sam%20Example">#to=Sam Example</a>.</li>
 <li><b>Exact words.</b> Every paragraph has an anchor made from its own words. A comment points at those words, and when a revision changes them, the anchor changes too, so we can show you what your comment changed.</li>
 <li><b>Your pen.</b> Five marks:<ul class="rv-marks">{marks}</ul></li>
-<li><b>Nothing leaves.</b> Comments are kept in this browser only (<code>localStorage</code>), and the pen makes no network call. The only call this page makes is the site's top bar asking GitHub for its star count.</li>
+<li><b>Nothing leaves.</b> Comments are kept in this browser only (<code>localStorage</code>), and the pen makes no network call. Nor does the rest of the page: the site's scripts ask no third party on review pages.</li>
 <li><b>Sealed, next.</b> Sending will encrypt your comments to the editor's public key before they leave your machine.</li>
 </ol>
 </details>
 </aside>
 </div>
 </div>
+<nav class="rv-jump" aria-label="On this page"><a href="#intro">Chapters</a><a href="#send">Send it back</a></nav>
 <script src="{{{{root}}}}review/pen.js" defer></script>
 '''
     return head + '\n'.join(parts) + '\n' + tail, register

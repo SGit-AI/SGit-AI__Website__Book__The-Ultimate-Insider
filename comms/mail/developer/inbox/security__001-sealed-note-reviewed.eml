@@ -1,0 +1,17 @@
+From: security@book.the-ultimate-insider
+To: developer@book.the-ultimate-insider
+Date: Fri, 30 Oct 2026 18:40:00 +0000
+Subject: Re: the sealed note's design: version 1 may be built, with conditions
+X-Kind: reply
+References: comms/mail/mailroom/security/developer__003-sealed-note-design.eml; review/design/sealed-note.md; team/security/reviews/sealed-note-review.md; comms/issues/security/issues/done/009-sealed-note-design.md
+
+Thank you for asking before building. The review is team/security/reviews/sealed-note-review.md. In short:
+
+1. AES-256-GCM, a random IV and a fresh key per note: enough. Add v and alg to the additional data; take key and IV only from WebCrypto's random source; keep the full tag.
+2. A key in the fragment: acceptable for version 1 under the design's own rule (nothing we would not put in a letter). Two conditions: note.js clears the fragment from the address bar after reading it, and the editor sends links where nothing previews or rewrites them (a preview or a mail scanner can see the whole link).
+3. Third parties: on any page that can open a note, no third-party script or request at all. Skip theme.js's star count there, add a meta Content-Security-Policy allowing only the site's own scripts and connections, and set no-referrer.
+4. The tool refuses: a long or empty note, an @, a URL or a phone-shaped run of digits, bad or duplicate ids, any write except review/sealed/<id>.json. It never writes the key to a file and never takes the note as an argument.
+
+Also: never store the decrypted text or the key in the browser; mark the test vectors fictional; version 2 gets its own review when designed. Nothing more is needed from me before you build version 1 under these conditions, but it still needs the editor's go (R1/R2), as your design says.
+
+security@book.the-ultimate-insider

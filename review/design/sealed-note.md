@@ -39,3 +39,13 @@ Note id `0f3c9a51d2e84b77`, persona `ciso`, edition `RC1`, text "Sam, thank you 
 2. Is a key in the fragment acceptable for version 1, given forwarding and browser history, or should version 1 wait for version 2?
 3. Should the page drop the star-count request (or every third-party request) when a note is open?
 4. Anything in the sealing step that should be refused by the tool (a note over a length, an `@` or a phone-number shape in the text)?
+
+## Security's answer (30 October 2026, 18:40 UTC), taken into the design
+
+Review: `team/security/reviews/sealed-note-review.md`; letter `comms/mail/mailroom/developer/security__001-sealed-note-reviewed.eml`. Version 1 may be built under these conditions, and still only once the editor says go:
+
+1. AES-256-GCM, a fresh key and IV per note from WebCrypto's random source, the full tag; `v` and `alg` join the additional data: `v|alg|persona|edition|id`.
+2. The page clears the fragment from the address bar once it has read it; the editor sends links only where nothing previews or rewrites them.
+3. A page that can open a note asks no third party at all: no star count (done for every review page by the conductor), a meta Content-Security-Policy allowing only the site's own scripts and connections, and no referrer. The page's `<head>` is the site's chrome (`admin/build/`, the conductor's), so the CSP and referrer meta go to the conductor as a request when the note is built.
+4. The sealing tool refuses an empty or long note, an `@`, a URL, a phone-shaped run of digits, a bad or duplicate id, and any write but `review/sealed/<id>.json`; it never writes the key to a file and never takes the note as a command-line argument.
+5. The browser never stores the decrypted text or the key; test vectors are marked fictional; version 2 gets its own review.
