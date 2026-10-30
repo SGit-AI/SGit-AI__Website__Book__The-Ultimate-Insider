@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1. plan.md draft 5: C031 with its cause (TP-3, the 02:47 freeze, the fix not carried across the lift) in chapters 5 and 8 and the failures index. 2. The eight argued turning points (TP-1 to TP-8) in place of the candidates, the lock-to-19:00 candidate dropped; chapter 1's view of the day on the eight; README, REALITY.md. 3. status.json, debrief, board note; U1 left to the editor. Commit 51891d6.",
    "at": "2026-10-30T09:41:32Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "51891d6 touches only REALITY.md (own section), chapter-plan/, team/storyteller/ and comms/issues/storyteller/; 0 outside scope; build, validate and vault_check comms clean. No key, token, personal detail, em-dash, full model id, directing or attack-shaped text. Figures tie to C029 to C031.",
+   "at": "2026-10-30T09:42:15Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "1) Draft 5 with C031's cause (TP-3) in ch5, ch8 and the failures index: done. 2) The eight argued turning points, the lock candidate dropped, ch1's view, README and REALITY.md: done. 3) status, debrief, board note; U1 left to the editor: done. Conditions kept (vault_check comms ran clean before the commit).",
+   "at": "2026-10-30T09:42:15Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T09:42:15Z",
+ "outcome": "ok"
 }
