@@ -44,16 +44,17 @@ What exists in this repository and on its site, kept current by whoever ships. A
 ## The publisher (publisher@book.the-ultimate-insider)
 
 - Staffed 30 October 2026, key `sha256:88b9a9682c1b72e9`, its own hourly task at :47 London.
-- `publishing/build_book.py`: a PDF (6 by 9 inches, via pandoc and headless Chromium) and an EPUB from `manuscript/` in the order of `Book.txt`, into `_site/manuscript/` (never committed). Runs locally; not in CI yet (asked of the conductor).
+- `publishing/build_book.py`: a PDF (6 by 9 inches, via pandoc and headless Chromium) and an EPUB from `manuscript/` in the order of `Book.txt`, into `_site/manuscript/` (never committed). Run by CI in the release job since 30 October; the site serves `/manuscript/the-ultimate-insider.pdf` and `.epub`.
 - `publishing/LEANPUB.md`: the editor's steps to create the Leanpub book from this repository, and the price options. No Leanpub book exists yet.
 - `publishing/KDP.md`: the editor's steps on Amazon KDP for the ebook and the paperback, and what the PDF must still change for print. No KDP listing exists yet.
+- `publishing/cover_size.py`: the paperback's full cover size and spine for the designer, from the PDF's page count.
 
 ## Not yet
 
 - No member but the conductor is staffed; no scheduled task exists (the editor says go and sets the hours, Q2).
 - No vaults, at the editor's word (30 October 2026): the board and the mail are `comms/` in git, the talk team's two layouts as folders (`comms/README.md`); the board and mail pages from those folders are not built yet. Not ported: the editor's voice lane (`pane.js`, `lane.py`, its own vault), and the talk's night log, moments and team-numbers tools (they write the talk's articles; they come back when the book's team has wakes to log).
 - Not ported, because they serve the talk itself or start only when the team runs: `admin/build/lock.py` (froze parts of the talk before it was given), `admin/build/lane.py` (drains the editor's lane, see above), `admin/tools/workflow_deck.py` (the talk's mini deck of its own team, from its wakes), and `team/conductor/pace.json` (the conductor's working file of requests in flight: it starts with the first routed request). `team/<id>/HOLD.md` exists only while a hold is on.
-- No Leanpub book, no cover; the PDF and EPUB build runs locally, not yet in CI.
+- No Leanpub book, no KDP listing, no cover.
 - Every number on the site is the brief's or the conductor's count, not yet in the researcher's register.
 
 ## The index of the source (librarian, 30 October 2026)

@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled, hourly at :47",
+ "started": "2026-10-30T03:47:44Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. The conductor's comms request: add comms/issues/publisher/**, comms/mail/publisher/**, comms/mail/mailroom/*/publisher__* to team/publisher/policy.json scope.writes (a widening of the member's own policy, at the editor's word via CLAUDE.md 7fac0e1); letter to comms/mail/publisher/inbox then done; a reply in comms/mail/mailroom/conductor/publisher__001-*.eml, copy in outbox; an issue on the publisher's board; vault_check.py comms. 2. The CI answer: live PDF checked (200), L1/L2 noted in status.json and LEANPUB.md. 3. publishing/cover_size.py and a line in KDP.md; status.json, debrief.",
+   "at": "2026-10-30T03:48:26Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Item 1 adds exactly the three own comms paths CLAUDE.md (7fac0e1) and comms/README.md provide for, no wider. Conditions: nothing else in policy.json; only own files; vault_check.py comms before committing; no key, token or contact detail in comms/.",
+   "at": "2026-10-30T03:48:38Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. comms request: three paths in policy.json, letter to done/, reply eml + outbox copy, board (001 done, 002 blocked on the editor); vault_check comms run. 2. live PDF 200 at v0.1.30; LEANPUB.md, README.md, REALITY.md updated, L1/L2 cited. 3. publishing/cover_size.py, tested; KDP.md line; status.json, debrief.",
+   "at": "2026-10-30T03:50:03Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "build, validate, agents check (0 outside scope), vault_check comms all pass; policy.json gained only the three own comms paths; 14 files all the publisher's own plus one true REALITY.md edit; no key, token or contact detail; nothing directs an agent.",
+   "at": "2026-10-30T03:50:38Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "1 comms: policy, letter, reply, board done. 2 live PDF, docs, L1/L2 done. 3 cover_size.py, KDP.md, status, debrief done. Conditions kept. Nothing unplanned.",
+   "at": "2026-10-30T03:50:38Z"
+  }
+ },
+ "closed": "2026-10-30T03:50:38Z",
+ "outcome": "ok"
+}

@@ -34,7 +34,7 @@ Steps for the editor, once the interior PDF and the cover PDF exist:
 ## What the publisher does next for this
 
 - Check the gutter against KDP's margins table once it is read (mirrored margins done 30 October).
-- A cover-size calculator for the designer: trim, page count, paper, giving the full cover's width and height.
+- Done 30 October: `publishing/cover_size.py` gives the designer the full cover's size and the spine from the interior PDF (`--pdf`) or a page count (`--pages`), white or cream paper; an odd page count is rounded up to even, as printed.
 - The QR codes on the page pointing to the record (the positioning brief's "paper that talks both ways"): proposed with the designer, not before the plan is signed.
 
 ## Sources (read 30 October 2026)

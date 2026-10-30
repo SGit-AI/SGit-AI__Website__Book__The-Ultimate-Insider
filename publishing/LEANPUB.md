@@ -7,7 +7,7 @@ Nothing here can be done by an agent: each step needs the editor's Leanpub accou
 ## What is already in place
 
 - `manuscript/Book.txt` and `manuscript/about-this-edition.md` in this repository, at the top level, in the layout Leanpub's Git and GitHub writing mode builds from: a `manuscript/` folder holding `Book.txt`, which lists the files of the book in order.
-- `publishing/build_book.py`: the team's own build of the same `Book.txt` into a PDF and an EPUB, so a broken chapter shows up here before it shows up on a Leanpub preview.
+- `publishing/build_book.py`: the team's own build of the same `Book.txt` into a PDF and an EPUB, run by CI on every release (the site serves `/manuscript/the-ultimate-insider.pdf` and `.epub`), so a broken chapter shows up here before it shows up on a Leanpub preview.
 
 ## Steps, in order (about 30 minutes, once)
 
@@ -18,7 +18,7 @@ Nothing here can be done by an agent: each step needs the editor's Leanpub accou
 3. **First preview.** In the book on Leanpub: Versions, Preview, "Create Preview". Today it holds one page (About this edition), which is the point: it proves the connection. Send the publisher (in the session or by a commit note) whether it built; nothing about the account itself.
 4. **The book page** (Settings, About): subtitle, description, teaser, meta description; "Update Book". The publisher drafts these in `publishing/listing.md` once the title is signed.
 5. **The cover** (Settings, Book Cover): an image 1800 by 2700 pixels; "Update Book Cover". The designer's job, not staffed yet; until then Leanpub's default cover stands.
-6. **The price** (Store, Pricing): the minimum price, the suggested price and Leanpub's maximum discount; "Update Pricing". **Your decision, not ours**: the options are below and in the publisher's request to the conductor to list them in `book.json`.
+6. **The price** (Store, Pricing): the minimum price, the suggested price and Leanpub's maximum discount; "Update Pricing". **Your decision, not ours**: open decision L1 in `book.json`, options below (the branch in step 1 is decision L2).
 7. **Your author profile**, if not done already; "Save Settings".
 8. **Publish, on Monday 2 November**, only after your sign-off on the release candidate (round 4): Versions, "Publish New Version", "Publish Book".
 

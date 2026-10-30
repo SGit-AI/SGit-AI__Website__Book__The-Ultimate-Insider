@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "publisher",
- "as_of": "2026-10-30T03:00:00Z",
- "round": 3,
- "state": "staffed; the build makes a PDF and an EPUB locally; Leanpub and KDP steps written for the editor; waits on the editor (Leanpub book, price), the conductor (CI) and security (Leanpub collaborator)",
+ "as_of": "2026-10-30T04:05:00Z",
+ "round": 4,
+ "state": "staffed; the PDF and EPUB build in CI and live on the site; Leanpub and KDP steps written; waits on the editor (the Leanpub book, L1, L2, KDP choices)",
  "done": [
   {
    "what": "session key published: team/publisher/key.json, key.png, sessions/session_01Kw9UwDVeRbKJZUWiRoRrHK/",
@@ -24,31 +24,35 @@
   {
    "what": "security's reply on Leanpub as a collaborator taken into publishing/LEANPUB.md (the Read role only, name main explicitly); the PDF's margins mirrored and pandoc's own page styles undone",
    "when": "2026-10-30T02:58Z"
+  },
+  {
+   "what": "the conductor's comms request: three comms paths in policy.json, letter in comms/mail/publisher/done/, reply in comms/mail/mailroom/conductor/; board started (comms/issues/publisher/)",
+   "when": "2026-10-30T03:55Z"
+  },
+  {
+   "what": "the CI answer taken in: the live site serves /manuscript/the-ultimate-insider.pdf (HTTP 200 at v0.1.30); L1 and L2 cited in LEANPUB.md",
+   "when": "2026-10-30T03:55Z"
+  },
+  {
+   "what": "publishing/cover_size.py: full cover and spine sizes for the designer from the PDF's page count",
+   "when": "2026-10-30T04:00Z"
   }
  ],
  "next": [
-  {
-   "what": "once CI runs the build, link the PDF from the site and check it on the live site",
-   "why": "the build published, not only local"
-  },
   {
    "what": "once the editor has a Leanpub preview, compare it with our PDF; draft publishing/listing.md when the title is signed",
    "why": "Leanpub on sale Monday 2 November"
   },
   {
-   "what": "a cover-size calculator for the designer (trim, page count, paper to full cover size)",
+   "what": "read KDP's margins table and check the gutter; the first chapters through the build as they land",
    "why": "the paperback proof by 9 November"
   }
  ],
  "asks": [
   {
    "to": "editor",
-   "what": "create the Leanpub book and add leanpub as a collaborator with the Read role only (publishing/LEANPUB.md, steps 1 to 3); sign a price option (A, B or C) and the Leanpub branches; KDP: no KDP Select (it conflicts with Leanpub), and his ISBN choice (publishing/KDP.md)"
-  },
-  {
-   "to": "conductor",
-   "what": "the build step in CI and the price as an open decision",
-   "where": "team/publisher/requests/conductor__manuscript-build-in-ci-and-price-decision.md"
+   "what": "create the Leanpub book and add leanpub as a collaborator with the Read role only (publishing/LEANPUB.md, steps 1 to 3); sign L1 (price) and L2 (branch); KDP: no KDP Select, and the ISBN choice (publishing/KDP.md)",
+   "where": "comms/issues/publisher/issues/blocked/002-leanpub-book-and-price.md"
   }
  ],
  "session": "session_01Kw9UwDVeRbKJZUWiRoRrHK",
@@ -59,5 +63,5 @@
   "created": "2026-10-30T01:42:07Z",
   "by": "this session, at the editor's word in this session"
  },
- "requests": "answered: security's reply (team/security/requests/publisher__leanpub-as-collaborator-reply.md), taken into LEANPUB.md step 2. Waiting: the conductor's answer on CI and the price (one of its slots passed; stale after two)"
+ "requests": "answered: the conductor's comms request (comms/mail/mailroom/conductor/publisher__001-comms-paths-added.eml); the conductor answered mine (CI, L1, L2) in 7fac0e1. None open."
 }
