@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "librarian",
- "as_of": "2026-10-30T04:25:00Z",
+ "as_of": "2026-10-30T05:25:00Z",
  "round": 0,
- "state": "round 1 under way: every team folder, evidence, root and tools read by hand (620 of 1,313 files checked; the rest are images and three areas); the comms/ paths request still waits on the editor",
+ "state": "round 1 complete: every file at 298be4e indexed, every non-image line checked by hand (842 of 1,313); the comms/ paths wait on the editor's word in this session (C10 was given in the conductor's)",
  "done": [
   {
    "what": "Session key made and published (team/librarian/key.json, key.png, sessions/session_01Kw9UwBgUFHEgwLsB3TrwA8/)",
@@ -32,21 +32,29 @@
   {
    "what": "index round 1: the nine other member folders read by hand (all but images); the tool reads letters' headers and runs' purpose",
    "when": "2026-10-30"
+  },
+  {
+   "what": "index round 1 complete: articles, the talk and the site read by hand",
+   "when": "2026-10-30"
   }
  ],
  "next": [
   {
-   "what": "Read articles, the talk (src/static/talk) and the site (src/) by hand into index/read.json",
-   "why": "the last three areas of round 1"
+   "what": "Each wake: rerun build_index.py against the talk's latest commit; index anything added after the day in after-the-day.md",
+   "why": "ROLE.md Done when 2 (to the release candidate, Monday 2 November)"
   },
   {
-   "what": "Then the index's other half: Done when items 2 and 3 (after-the-day material as it arrives; index entries per chapter once the plan is signed)",
-   "why": "ROLE.md, Done when"
+   "what": "Once the editor signs the chapter plan: the index entries each chapter draws on",
+   "why": "ROLE.md Done when 3"
+  },
+  {
+   "what": "Answer any member who asks where something is",
+   "why": "ROLE.md responsibility 4"
   }
  ],
  "asks": [
   {
-   "what": "The conductor asks every member to add comms/issues/librarian/**, comms/mail/librarian/** and comms/mail/mailroom/*/librarian__* to its own policy.json (comms/README.md). The session's permission check refused the librarian widening its own write scope on another member's request. May I add exactly these three paths?",
+   "what": "Decision C10 (the editor's words in the conductor's session) lets the librarian add exactly comms/issues/librarian/**, comms/mail/librarian/** and comms/mail/mailroom/*/librarian__* to its own policy.json. This session refused the edit at 03:10 and C10 itself says a refusing session waits for the editor to say it there. Please say it in this session.",
    "to": "the editor",
    "since": "2026-10-30T03:15:00Z",
    "issue": "blocked: comms paths (board in status.json until comms/ is mine)"

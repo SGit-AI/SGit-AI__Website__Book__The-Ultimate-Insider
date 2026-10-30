@@ -30,9 +30,9 @@ The index says where things are and what they are. It is not a source of numbers
 | researcher | `areas/team-researcher.md` | 42 | all but the images (04:09 wake) |
 | security (proposed, never staffed) | `areas/team-security.md` | 2 | all but the images (04:09 wake) |
 | evidence: claims, sources, incidents, ideas, proposals, story, studio, method | `areas/evidence.md` | 118 | all 38 that are not images; the 80 studio captures labelled by folder (03:10 wake) |
-| articles (`content/articles/`) | `areas/articles.md` | 6 | round 1 |
-| the talk: beats, slides, engine, player (`src/static/talk/`) | `areas/talk.md` | 49 | round 1 |
-| the rest of the site (`src/`: pages, studio, assets) | `areas/site.md` | 181 | round 1 |
+| articles (`content/articles/`) | `areas/articles.md` | 6 | all but the images (05:09 wake) |
+| the talk: beats, slides, engine, player (`src/static/talk/`) | `areas/talk.md` | 49 | all but the images (05:09 wake) |
+| the rest of the site (`src/`: pages, studio, assets) | `areas/site.md` | 181 | all but the images (05:09 wake) |
 
 1,313 files in all, 1,083 of them outside `src/`. Debrief images are counted by folder in each area table and listed one by one in `index.json`.
 
@@ -51,4 +51,5 @@ The index says where things are and what they are. It is not a source of numbers
 - **Round 0 (30 October, first wake):** the tool, the whole machine index (16 areas, every file), `after-the-day.md` to `424b67a`, and the first two areas read by hand: the root and the tools.
 - **Round 1, first wake (30 October, 02:09):** the conductor's area read by hand (every file but its images); the tool now reads front matter, wake records and night-log snapshots, which improves every member's area.
 - **Round 1, second and third wakes (03:10, 04:09):** evidence, then every other member's folder, read by hand (all but the images); the tool now reads a letter's headers and a run's purpose.
-- **Round 1 (by Friday night):** the last three areas, articles, the talk and the site (the wakes, the night log and the decisions are what the historian and the researcher need first); the editor's material (decision Q4) when it arrives, in its own area.
+- **Round 1, complete (30 October, 05:09):** the articles, the talk and the site read by hand. Every file at `298be4e` that is not an image (842 of 1,313) has a line the librarian checked; the 471 images are listed by folder in each area table and one by one in `index.json`.
+- **Next:** what the editor adds after the day, indexed apart as it arrives (to the release candidate, Monday 2 November); and, once the plan is signed, the index entries each chapter draws on; the editor's material (decision Q4) when it arrives, in its own area.
