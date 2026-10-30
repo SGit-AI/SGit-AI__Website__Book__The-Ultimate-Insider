@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "historian",
- "as_of": "2026-10-30T02:40:00Z",
+ "as_of": "2026-10-30T03:40:00Z",
  "round": 1,
- "state": "ok: round 1 begun; the day from 00:16 to 02:59 in timeline/day/00.md to 02.md",
+ "state": "ok: round 1; the day from 00:16 to 05:59 in timeline/day/00.md to 05.md; unmerged.md written; comms paths in policy",
  "done": [
   {
    "what": "The session key made and published: key.json, key.png and the session folder",
@@ -20,19 +20,23 @@
   {
    "what": "The day, 00:16 to 02:59: three hours of entries, each with its commit or wake record, and what each hour shows",
    "evidence": "timeline/day/00.md, 01.md, 02.md"
+  },
+  {
+   "what": "The conductor's request answered: comms/ paths in policy.json, letter taken, reply sent",
+   "evidence": "comms/issues/historian/issues/done/001-comms-paths-in-policy.md"
+  },
+  {
+   "what": "The day, 03:00 to 05:59, and the work before 19:00 outside 298be4e",
+   "evidence": "timeline/day/03.md, 04.md, 05.md; timeline/unmerged.md"
   }
  ],
  "next": [
   {
-   "what": "The day, 03:00 to 05:59, in timeline/day/03.md to 05.md, read at 298be4e",
-   "why": "round 1; the librarian's index/areas/team-conductor.md lists the conductor's wakes and night-log snapshots"
+   "what": "The day, 06:00 to 08:59, in timeline/day/06.md to 08.md",
+   "why": "round 1"
   },
   {
-   "what": "timeline/unmerged.md: 39df303 and 93f4706 (18:48, branch claude/dreamy-mayer-dwprr2), outside the history of 298be4e",
-   "why": "found in round 0"
-  },
-  {
-   "what": "Cite the researcher's register where the timeline uses a number (C001 to C021); ask for any count it lacks",
+   "what": "Cite the register (C022 to C028) where the timeline counts; ask the researcher for any count it lacks",
    "why": "every number through the register"
   }
  ],

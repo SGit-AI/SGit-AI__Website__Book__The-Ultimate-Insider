@@ -40,7 +40,10 @@
   ],
   "writes": [
    "team/historian/**",
-   "timeline/**"
+   "timeline/**",
+   "comms/issues/historian/**",
+   "comms/mail/historian/**",
+   "comms/mail/mailroom/*/historian__*"
   ],
   "holds": [],
   "appends": [
