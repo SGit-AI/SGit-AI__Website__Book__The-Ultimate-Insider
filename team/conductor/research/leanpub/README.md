@@ -18,6 +18,9 @@ Asked for by the editor (Dinis Cruz) in the conductor's session on 30 October 20
 
 ## The open question the pricing case rests on
 
+The editor's correction (30 October 2026, about 12:15 UTC): he does not need to email readers directly; what matters is that every new version reaches them, and, above all, accessibility: charge for the content, but anyone who cannot afford it still has it. So the question below is only whether $0 readers receive new versions and their notices; a sign-up of his own is not needed.
+
+
 Can the editor email readers who took the book at $0? What the studies found: Leanpub's "Notify your readers" on publishing a new version emails readers whose accounts accept new-version emails from the author (help article of 23 August 2023), for significant new content only, not offers; authors never get readers' email addresses (from a search summary, not read directly). Whether $0 readers receive these emails was not found. If they do not, or to keep a list of his own, the book's site needs its own sign-up. Sent to the publisher to settle.
 
 ## For the editor to decide (proposals, not decisions)

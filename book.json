@@ -227,7 +227,7 @@
    "status": "decided",
    "by": "editor",
    "ask": "The price on Leanpub, with a floor",
-   "detail": "The editor, in the conductor's session, 30 October 2026 about 10:40 UTC: \"Ok, I reviewed the open questions and I agree with all the proposed answers, with the exception of the minimum Leanpub price which is going to be 0\". A free minimum price ($0), at his word, against the team's proposal of $9.99; the suggested price $19.99, as proposed. His reasons, 30 October 2026, about 11:50 UTC: a reader he can email and send updates to is worth more than no reader; information should be shared, and someone who cannot afford the book should still have it; he prefers fewer paid sales and many more unpaid ones, for the halo effect, and because some readers come back to pay more or buy the next version."
+   "detail": "The editor, in the conductor's session, 30 October 2026 about 10:40 UTC: \"Ok, I reviewed the open questions and I agree with all the proposed answers, with the exception of the minimum Leanpub price which is going to be 0\". A free minimum price ($0), at his word, against the team's proposal of $9.99; the suggested price $19.99, as proposed. His reasons, 30 October 2026, about 11:50 UTC: a reader he can email and send updates to is worth more than no reader; information should be shared, and someone who cannot afford the book should still have it; he prefers fewer paid sales and many more unpaid ones, for the halo effect, and because some readers come back to pay more or buy the next version. His correction, about 12:15 UTC: he does not need to email readers directly; he meant they are reachable, because every new version reaches them. And his main principle is accessibility: \"I think you should be charged for content, but for people who can't afford it, they should still have access to it.\""
   },
   {
    "id": "L2",
@@ -393,6 +393,20 @@
    "by": "editor",
    "ask": "How a session is closed when another takes over its role",
    "detail": "Proposed by the conductor, 30 October 2026, at the editor's question \"can you check if we have already a formal place to close the sessions?\". There was none: WAKE.md's Finishing covers a member whose work is done, and admin/tools/pki-agent.README.md says to mark the previous session superseded. The editor's view, about 11:50 UTC: the conductor can write a handover on behalf of the previous session and sign it as itself, because often the old session cannot (\"I'm running out of tokens on the other side and I want to keep a little bit\"); it is \"fundamentally a closing down of that session and then saying, okay, this is now the new one\", and it must be announced, because agents that sign and send messages to one another \"need to know that there's a new session ID\"; the handovers should be mapped over time; it gives \"a natural cadence for not having sessions with too long a context\"; and \"we need to just keep doing a lot of these until we get it right\". Proposal, as a section \"Handing over\" in WAKE.md: (1) a handover closes the old session and opens the new one; the outgoing session writes it when it can, otherwise the conductor writes it on its behalf and signs it as itself (team/conductor/handovers/<id>.md); (2) the incoming session makes its key, marks the old session superseded with an until, adopts the handover in its first debrief and creates its own task; (3) the conductor records every handover in team/conductor/sessions-register.json and announces the new session id and key to every member by letter; (4) from the until, the old session pushes nothing as that role (a commit marked @<id>: from a superseded session is flagged to the editor); (5) the editor archives the old session in his own account. Options: A, as proposed; B, as proposed without (4); C, leave it to each handover."
+  },
+  {
+   "id": "X1",
+   "status": "decided",
+   "by": "editor",
+   "ask": "Start the PDF lab, with a designer and ruv.sgit",
+   "detail": "The editor, in the conductor's session, 30 October 2026 about 12:15 UTC: \"can you start a new project on this\"; \"I think we should now start a session with ruv.sgit and a couple of other agents\"; \"there should be a design agent here that start thinking of this from a design point of view\"; \"let me know if I need to start more agents here\". The project: team/conductor/projects/pdf-lab/README.md. Two new members, drafted in team/conductor/staffing/: designer@ and ruv.sgit@, each starting from its prompt in team/conductor/ONBOARDING.md (1c), every two hours (:57 and :54). Their policies are proposed until the editor agrees them, as the first batch's were."
+  },
+  {
+   "id": "X2",
+   "status": "open",
+   "by": "editor",
+   "ask": "Vaults for ruv.sgit's runs?",
+   "detail": "The talk team's ruv.sgit recorded every run in an sgit vault on dev.send.sgraph.ai. This team works under the editor's rule of 30 October: no vaults for now. Options: A, ruv.sgit records its runs in git (lab/runs/), no vault (the default until signed); B, lift the rule for ruv.sgit only, each run's vault handed over sealed to the vaults manager as the talk did; C, lift it for the team."
   }
  ]
 }
