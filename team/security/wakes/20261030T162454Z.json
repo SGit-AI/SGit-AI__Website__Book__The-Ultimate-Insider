@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1. Lab 02 reviewed: benign, one note; lab 01's clause checked; letter security__002 to ruv-sgit, outbox copy, board 008. 2. The writer's rules read at source; RC1 third pass in rc1-review.md. 3. CTL-1 to CTL-10 proposed in controls/ with the old ids as aliases; letter security__008 to the conductor; status, debrief.",
    "at": "2026-10-30T16:27:12Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "36dbf5b..69468bc, 12 files, all in policy; build and gate clean (153); agents.py 0 outside scope; vault_check clean; no key, token or personal detail; old control ids kept beside new_id, no reference broken; nothing directing an agent or attack-shaped.",
+   "at": "2026-10-30T16:27:33Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "smaller model (sub-agent)",
+   "verdict": "as-planned",
+   "comment": "1 done: lab 02 letter to ruv-sgit, outbox copy, board 008. 2 done: rc1-review.md third pass. 3 done: CTL ids with old ids as aliases, letter security__008, status, debrief. Conditions kept; nothing unplanned.",
+   "at": "2026-10-30T16:27:45Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T16:27:45Z",
+ "outcome": "ok"
 }
