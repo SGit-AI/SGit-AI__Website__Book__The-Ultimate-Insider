@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, hourly at :09",
+ "started": "2026-10-30T06:11:08Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. Requests: none open (both letters answered; nothing new since 592598e). 2. Idle wake: C10b unsigned, talk still at 424b67a, chapter plan unsigned; record it in team/librarian/status.json and the wake record, nothing else.",
+   "at": "2026-10-30T06:11:32Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Idle wake: status.json and wake record only; in scope, no secrets, no cross-member or blind-repo effects, no stop condition.",
+   "at": "2026-10-30T06:11:41Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "none",
+   "comment": "Idle: nothing open, talk at 424b67a, plan unsigned; status.json state updated.",
+   "at": "2026-10-30T06:11:41Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Only status.json and the wake record, in scope; no key, token, personal detail, directive text or em-dash.",
+   "at": "2026-10-30T06:12:03Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Idle wake recorded in status.json and the wake record only, with its reasons.",
+   "at": "2026-10-30T06:12:03Z"
+  }
+ },
+ "closed": "2026-10-30T06:12:03Z",
+ "outcome": "idle"
+}
