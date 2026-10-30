@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/agent-status/v1",
+ "agent": "ruv-sgit",
+ "as_of": "2026-10-30T13:10:00Z",
+ "round": 1,
+ "state": "staffed; role and policy adopted from the conductor's draft; session key published; the scheduled task and the first lab experiment come next",
+ "done": [
+  {
+   "what": "ROLE.md and policy.json moved from team/conductor/staffing/ruv-sgit/ (drafts left in place) and adopted",
+   "when": "2026-10-30"
+  },
+  {
+   "what": "session key sha256:301885fb2fd5a83e published (team/ruv-sgit/key.json, key.png, sessions/session_01Kw9UwBxsDtMFMqXtsseSvg/)",
+   "when": "2026-10-30"
+  }
+ ],
+ "next": [
+  {
+   "what": "create the scheduled task from schedule.json, every two hours at :54 London",
+   "why": "the editor's word in this session"
+  },
+  {
+   "what": "the first static experiment: one of the talk's animations as three frames, recorded in lab/runs/",
+   "why": "ROLE.md responsibility 1 and 2; Done when 1"
+  }
+ ],
+ "asks": [],
+ "session": "session_01Kw9UwBxsDtMFMqXtsseSvg",
+ "task": null,
+ "board": "comms/issues/ruv-sgit/issues/"
+}
