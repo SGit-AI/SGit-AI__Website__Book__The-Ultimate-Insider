@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled, hourly at :17",
+ "started": "2026-10-30T07:19:52Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. Requests: none (mailroom holds only the answered conductor__001; no requests files; no To-historian:; no HOLD). 2. timeline/day/15.md to 17.md (15:00 decisions round, studio and motion joining, step limit to 45 min at 15:20), cited by commit at 298be4e; unmerged.md only if needed. 3. Debrief, status.json, REALITY.md line under own heading. C10b open: no comms/, no book.json.",
+   "at": "2026-10-30T07:20:15Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Fits policy: timeline/day/15-17.md, debrief, status.json, one REALITY.md line under its own heading. No stop condition, secrets or cross-member writes. Conditions: only those paths; talk repo read-only at 298be4e; post-day material labelled; no em-dashes; no keys; nothing to the blind repo.",
+   "at": "2026-10-30T07:20:28Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "1. no requests. 2. timeline/day/15.md to 17.md at 298be4e, cited by commit and wake record; two readings corrected before commit (17:37 was a mid-work change, not a pre-review change; dev 16:24 partial was its post-check). 3. debrief, status.json, REALITY.md line under own heading. No comms/, no book.json.",
+   "at": "2026-10-30T07:21:59Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Only team/historian/**, timeline/day/15-17.md and one REALITY.md line under the historian's heading. No book.json, comms/, briefs/ or other members' files. Gate clean, 0 outside scope. No em-dashes, keys or key-like strings; nothing attack-shaped; nothing to the blind repo.",
+   "at": "2026-10-30T07:22:33Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "1 no requests, C10b respected; 2 day/15-17.md, read at 298be4e, cited by commit; unmerged.md untouched; 3 debrief, status.json, REALITY.md line. Nothing unplanned.",
+   "at": "2026-10-30T07:22:33Z"
+  }
+ },
+ "closed": "2026-10-30T07:22:33Z",
+ "outcome": "ok"
+}
