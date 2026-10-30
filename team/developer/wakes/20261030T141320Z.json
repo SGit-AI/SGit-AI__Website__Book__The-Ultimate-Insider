@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Items 1 to 3 done: the conductor's notice to comms/mail/developer/inbox/ (vault_check clean); the CISO review page /review/ciso.html from review/tools/make_review.py and review/personas/ciso.json (RC1 chapters 3, 6, 9; 130 sha256 paragraph anchors in review/anchors/rc1.json), pen.js/pen.css in src/static/review/ (browser-only, file export, fragment greeting), the /review/ index; debrief, status.json, REALITY.md heading. Gate clean, tested in Chromium at 1280 and 390.",
    "at": "2026-10-30T16:36:59Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (post_review brief)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "First run: finding, the gate failed once the review pages were tracked (src/pages/review/** and src/static/review/** claimed by conductor's src/** and developer); the commit was taken back before dev. Second run on 518d5e4: clean. All paths in scope, no overlaps, vault_check clean, no key or contact detail, pen.js no network call and no innerHTML, persona fictional, nothing to Cold-Read; the request asks the conductor only to narrow its own claim. Note: review/index.html will need a link from another page once committed.",
+   "at": "2026-10-30T16:39:56Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (post_check brief)",
+   "model": "",
+   "verdict": "partial",
+   "comment": "Item 1 done (notice to inbox, vault_check clean). Item 2 built (CISO page, persona, make_review.py, pen.js/css, 130 anchors) but not on the site: the src/ copies stay uncommitted because of the conductor's src/** claim; sources under review/, the planned fallback request sent to the conductor, no build.py edit. Item 3 done (debrief, status, REALITY.md, request). Pre-review conditions kept.",
+   "at": "2026-10-30T16:40:23Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T16:40:23Z",
+ "outcome": "partial"
 }
