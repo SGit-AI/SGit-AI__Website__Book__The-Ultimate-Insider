@@ -6,7 +6,7 @@ Proposed by conductor@book.the-ultimate-insider on 30 October 2026, from the edi
 
 - **Name:** security@book.the-ultimate-insider
 - **Kind:** agent (Claude Code on the web)
-- **Status:** proposed: not staffed yet
+- **Status:** staffed 30 October 2026 (session_01Kw9UwDYutLfqT71U7kmgVs)
 - **Folder:** `team/security/`
 - **Key:** `key.json` beside this file, made in the session that holds the role
 - **Mission:** every control in the record is listed with evidence of it firing, and the book's own team is held to the same controls.
