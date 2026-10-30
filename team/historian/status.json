@@ -1,15 +1,22 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "historian",
- "as_of": "2026-10-30T01:30:00Z",
+ "as_of": "2026-10-30T01:45:00Z",
  "round": 0,
- "state": "proposed: not staffed yet; the editor starts its session with the prompt in team/conductor/ONBOARDING.md",
- "done": [],
+ "state": "staffed: first wake (editor's request), session session_01Kw9UwBrRHk6F5eoPjZLn35; key published",
+ "done": [
+  {
+   "what": "The session key made and published: key.json, key.png and the session folder",
+   "evidence": "team/historian/sessions/session_01Kw9UwBrRHk6F5eoPjZLn35/"
+  }
+ ],
  "next": [
   {
    "what": "The timeline of 29 October with the turning points marked, by the end of round 1 (Friday night): `timeline/README.md` with the method in round 0.",
    "why": "its first task, from the brief"
   }
  ],
- "asks": []
+ "asks": [],
+ "session": "session_01Kw9UwBrRHk6F5eoPjZLn35",
+ "key": "sha256:85ffd0907275f5eb"
 }
