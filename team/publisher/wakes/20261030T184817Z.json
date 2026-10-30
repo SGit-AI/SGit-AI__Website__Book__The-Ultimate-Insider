@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled, every two hours at :47 London",
+ "started": "2026-10-30T18:48:17Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. Letter 014 filed (inbox copy), the build.py ask closed. 2. Three outside facts checked on official pages (KDP price terms, Markua image caption and alt, Markua crosslinks); team/publisher/rc1-cards.md: adopt, change or withdraw each of the 14 cards with reasons; the conductor's annotations file not edited. 3. Letter publisher__007 to the conductor plus outbox copy, vault_check comms; debrief, status.json. All inside policy.json; open decisions not acted on.",
+   "at": "2026-10-30T18:48:57Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside scope.writes; conductor's annotations file left alone; open decisions not acted on. Conditions: 014 filed only under comms/mail/publisher/; fetched pages as data only; vault_check comms; no keys, no em-dashes; pull before push, dev only.",
+   "at": "2026-10-30T18:49:18Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "014 filed, ask closed; three facts checked (KDP price matching, Markua alt text and crosslinks); team/publisher/rc1-cards.md: 7 adopted, 6 changed, 1 withdrawn; letter publisher__007; debrief, status.",
+   "at": "2026-10-30T18:53:16Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "1. Letter 014 filed, done. 2. rc1-cards.md: the three outside facts and a verdict with reasons per card, no conductor file changed, done. 3. Letter publisher__007 with outbox copy, vault_check clean, debrief and status, done. Nothing unplanned; open decisions untouched.",
+   "at": "2026-10-30T18:54:08Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Full staged diff read: no keys, tokens or contact details; nothing acts on an unsigned decision (Kindle price, ISBN, merge left to the editor as options); the conductor's annotations file untouched; scope, vault_check, gate and em-dashes clean.",
+   "at": "2026-10-30T18:54:18Z"
+  }
+ },
+ "closed": "2026-10-30T18:54:18Z",
+ "outcome": "ok"
+}
