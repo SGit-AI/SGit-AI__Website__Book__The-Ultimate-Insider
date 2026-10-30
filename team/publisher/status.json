@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "publisher",
- "as_of": "2026-10-30T13:38:00Z",
- "round": 9,
- "state": "handover adopted; the current RC1 (18 files, 58 images) released into manuscript/ on dev, 259 pages; next the Markua pre-pandoc step",
+ "as_of": "2026-10-30T15:27:00Z",
+ "round": 10,
+ "state": "the Markua pre-pandoc step in the build (publishing/markua.py); letters 008 and 009 answered in LEANPUB.md; next the call-outs and maps into the chapters as Markua",
  "done": [
   {
    "what": "session key published: team/publisher/key.json, key.png, sessions/session_01Kw9UwDVeRbKJZUWiRoRrHK/",
@@ -76,20 +76,28 @@
   {
    "what": "the current RC1 into manuscript/ and released to dev: 18 numbered files in Book.txt, about-this-edition.md removed, resources/images/ with the 16 maps; gate clean, 259 pages, 69,358 words; board 005 done; reply publisher__004 to the conductor",
    "when": "2026-10-30T13:35Z"
+  },
+  {
+   "what": "publishing/markua.py: Markua asides, blurbs, attribute lines, page breaks and matter markers translated for pandoc in build_book.py; the RC1 call-out look in book.css",
+   "when": "2026-10-30T15:20Z"
+  },
+  {
+   "what": "letters 008 and 009 answered in LEANPUB.md: $0 readers get every version (the email notice unsettled), untick the membership box, GitHub mode needs Standard or Pro, Markua 0.30 stands (spec 0.31.50); reply publisher__005",
+   "when": "2026-10-30T15:25Z"
   }
  ],
  "next": [
   {
-   "what": "the Markua pre-pandoc step in publishing/build_book.py, the call-outs as asides",
-   "why": "handover item 3, M1, board 004"
+   "what": "the 50 call-outs and maps 6 to 16 into the chapters as Markua asides and image lines (team/conductor/rc1/infographics/callouts.json, maps/placements.json)",
+   "why": "handover item 1's last part, M1, board 004"
   },
   {
-   "what": "the 14 drafted cards in team/conductor/rc1/annotations/publisher.json: adopt, change or withdraw, outside facts checked first",
+   "what": "the 14 drafted cards in team/conductor/rc1/annotations/publisher.json: adopt, change or withdraw",
    "why": "handover item 4"
   },
   {
-   "what": "letters 008 and 009: do $0 readers receive each new version; membership setting, Pro for GitHub mode, Markua 0.31; build size against Leanpub and KDP limits",
-   "why": "the conductor's letters, LEANPUB.md"
+   "what": "an EPUB stylesheet so the call-outs keep their look in the EPUB",
+   "why": "found this wake"
   },
   {
    "what": "the RC1 review in my lane",
@@ -99,12 +107,7 @@
  "asks": [
   {
    "to": "editor",
-   "what": "create the Leanpub book and add leanpub with the Read role only (publishing/LEANPUB.md, steps 1 to 3); price as L1; KDP: no KDP Select, and the ISBN choice; EPUBCheck in this session or Kindle Previewer"
-  },
-  {
-   "to": "conductor",
-   "what": "record the publisher's new session and key in sessions-register.json",
-   "where": "comms/mail/mailroom/conductor/publisher__004-rc1-released-and-takeover.eml"
+   "what": "choose the Leanpub plan (GitHub mode needs Standard or Pro), create the Leanpub book and add leanpub with the Read role only (publishing/LEANPUB.md, steps 0 to 3); price as L1 with the membership box unticked; KDP: no KDP Select, and the ISBN choice"
   }
  ],
  "session": "session_01Kw9UwBKgLvosZHuWWWX8wY",
@@ -116,5 +119,5 @@
   "by": "this session, at the editor's word in this session",
   "previous": "trig_01D2wnhQDySKsG8ZL9XLmNsW (first account, paused, not deleted)"
  },
- "requests": "taken: conductor__002 to 011; 005 and 006 done (RC1 released); 008 and 009 next"
+ "requests": "taken: conductor__002 to 012; 005, 006, 008 and 009 done"
 }

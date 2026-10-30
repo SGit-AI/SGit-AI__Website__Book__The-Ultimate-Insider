@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled, every two hours at :17 London (fired 15:05)",
+ "started": "2026-10-30T15:06:15Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, narrowed by historian",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "1. Request first: conductor letter 007 (exit interviews) taken: issue comms/issues/historian/issues/open/002-exit-interviews.md, letter copied to comms/mail/historian/inbox/, reply comms/mail/mailroom/conductor/historian__002-exit-interviews-taken.eml (copy in my outbox). 2. timeline/interviews/README.md (method, label, the five questions) and the first interviews (conductor, dev, deck), each labelled reconstructed, from a read-only talk clone at 298be4e. Narrowed from the sub-agent's plan: 002 and 003 were already answered by the first session; the RC1 review moves to the next wake (45-minute limit). All writes in policy.json.",
+   "at": "2026-10-30T15:07:15Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "All writes inside scope.writes; no stop condition, no secret, no other member's path. Conditions: vault_check comms before commit; interviews carry no contact details or private data and cite talk commits; the talk clone read only; the reply only to the mailroom path named.",
+   "at": "2026-10-30T15:07:39Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "Request 007 taken (issue 002, reply, letter to inbox); timeline/interviews/README.md and conductor, dev, deck, each labelled and checked at 298be4e. Unplanned, own scope: the nine nameless afternoon commits carry Agent: dev, so day/16, 17, 18, cold-read-comparison.md and the interviews corrected from inferred to on the record.",
+   "at": "2026-10-30T15:11:15Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "15 files, all inside scope.writes; validate, agents check and vault_check comms pass; no key, token, vault key value, contact detail or private name; no em-dashes; interviews labelled; nothing toward Cold-Read; no directive text.",
+   "at": "2026-10-30T15:12:15Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "Plan 1 done: issue 002, letter 007 to inbox, reply in mailroom and outbox. Plan 2 done: README and conductor, dev, deck at 298be4e. Narrowing kept. Unplanned, own scope: nine commits re-attributed to Agent: dev in day/16, 17, 18 and the comparison; debrief, status, wake record.",
+   "at": "2026-10-30T15:12:15Z"
+  }
+ },
+ "closed": "2026-10-30T15:12:15Z",
+ "outcome": "ok"
+}

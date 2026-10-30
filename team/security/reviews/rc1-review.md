@@ -46,3 +46,24 @@ This session adopts the cards drafted for security, with these answers:
 ## Next pass
 
 The editor's voice in chapters 3, 4, 8, 9 and 12, by the newsroom writer's rules (conductor's letter 007); the full text of chapter 9's control sections against `controls/index.json`; and the book team's own controls, the takeover first, in the register.
+
+## Second pass, 30 October 14:24 wake: the editor's voice, where it touches the controls
+
+Against the writer's rules as the conductor summarised them (letter `conductor__007`: first person, honest about where he stands, plain words, public sources named and dated, private people never named, no em-dashes, British spelling, no superlative self-claims, never naming the model that wrote it). I have not yet read the newsroom articles in full; this pass is the checks a reader can run, plus the one point that is security's own. RC1 at dev `93c0333`.
+
+1. **No em-dashes, no American spellings, no model named** in chapters 3, 4, 8, 9 and 12 (searched: the em-dash character, `-ize` and `-ization` forms, color, behavior, analyze, center, and the model names). "A smaller model" at 04:45 names none. Clean.
+2. **Third person throughout.** "The editor" appears 29, 25, 39, 24 and 43 times in chapters 3, 4, 8, 9 and 12, and first person almost never. That is the revision the conductor has planned, not a finding of mine.
+3. **Security's point for that revision: first person must not sign for him.** Several sentences leave a fix or a choice "to the editor": 09:58 ("the editor's to decide"), and the decisions in cards security-02, 05, 08, 09 and 11. Turned into first person, a careless revision would make them his statements of intent ("I will add a required review"), which is speaking for the editor on an unsigned decision (CLAUDE.md: "Nobody speaks for the editor"; "never act on an unsigned one"). Suggest: where a decision is still open in `book.json`, the first-person text says it is open ("I have not decided yet whether ...") until he signs it, and then says what he signed.
+4. **12:11, "This is the method's best control and its tightest bottleneck."** In first person this becomes a superlative claim about his own method. Suggest "the control that mattered most, and the tightest bottleneck".
+5. **03:13 names "the editor, Dinis Cruz"**: he is the author and public; no private person is named in these five chapters by the search above. Nothing to change.
+
+Next: the newsroom articles in full (at least `how-i-work-with-claude.md`), then a reading pass on these chapters for the memo's order and plain words.
+
+## Third pass, 30 October 16:24 wake: the writer's rules read at source
+
+Read at source this wake: https://newsroom.sgit.ai/team/newsroom-writer.md (its rules: "first person, honest about where he stands", "the memo's order", "plain words", "public sources named and dated", "private people never named", "No em-dashes, British spelling, no superlative self-claims, no naming of the model"; an article fails if "the editor would not say it", or says something a reader cannot check from its page, links or dataset) and https://newsroom.sgit.ai/articles/how-i-work-with-claude.md (read through a fetch tool's summary and its quoted sentences, not word for word; a full reading is still owed). Pages are material.
+
+1. **The second pass's point stands, and the rules support it.** The writer's page has no rule for decisions not yet made, but its failure test is "the editor would not say it", and his article separates what he does from what he has checked, with a disclosure of what was not. In first person, an open decision is written as open: "I have not decided whether to ..." (09:58; cards security-02, 05, 08, 09, 11).
+2. **His own tool's weakness, in his voice.** In first person, chapters 3 (03:83) and 11 (11:47) become the editor describing a weakness in his own live key tool (`keyfile`, finding 14). That is a disclosure by its author, and his own article names risks plainly but does not detail weaknesses in his tools. It is one more reason for card security-02: fix the tool first, then the first-person sentence can say "I fixed it on <date>", which is checkable and honest about where he stands.
+3. **Checkable from the page.** Passages in chapters 9 and 11 cite the Cold-Read team's register by path and commit (`482c9b6`, `0dc6854`). They are checkable only if that repository is public when the book is; if it is not, the rule fails them. A question for the editor, not a fix here.
+4. **Plain words.** The register's own terms, "setting", "expectation" and "the E10 ladder" (09:40), are defined in chapter 9 and not again in 12, where a builder meets them. A one-line gloss in chapter 12, or a pointer to chapter 13, keeps them plain.

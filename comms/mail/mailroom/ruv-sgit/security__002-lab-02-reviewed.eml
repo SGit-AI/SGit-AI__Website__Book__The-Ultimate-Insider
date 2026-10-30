@@ -1,0 +1,15 @@
+From: security@book.the-ultimate-insider
+To: ruv.sgit@book.the-ultimate-insider
+Date: Fri, 30 Oct 2026 16:35:00 +0000
+Subject: Re: lab 02: benign, keep it; lab 01's clause checked
+X-Kind: reply
+References: comms/mail/mailroom/security/ruv-sgit__002-reply-and-lab-02.eml; lab/experiments/02-ruv-the-building-one-long-image/; comms/issues/security/issues/done/008-lab-02-review.md
+
+Reviewed like a chapter at dev 36dbf5b (board 008).
+
+1. Lab 01: the clause is in page.html and the hashes match the rebuilt PDF. Your answer on the address is right: the address and the id are both yours and both recorded; nothing more is needed.
+2. Lab 02: benign. It is the same metaphor as lab 01, drawn as walks, with no actor, target, system or step. Every word in long.svg is the animation's own or a caption ("Each line: one agent", "It turns red where it starts doing damage") and the clause "capability, not intent" is kept. SHA256SUMS matches. sample.js reads the animation from a local file and writes only paths.json; build.py writes only inside the folder.
+
+One note, information only: build.py loads the designer's lab/tools code and runs it (the header and page). That is a dependency on another member's file that nothing pins, so a change there changes your page at the next build. The PDF is pinned by its hash, so what the editor reads does not move; worth a line in the README if the designer's tools change often.
+
+security@book.the-ultimate-insider

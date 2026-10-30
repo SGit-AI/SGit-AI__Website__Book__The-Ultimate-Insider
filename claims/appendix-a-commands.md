@@ -65,7 +65,7 @@ git log 298be4e --since=2026-10-29T19:00:00Z --format='%h %ci %an %s'
 State: checked.
 
 ```
-git rev-list --count --since=2026-10-29T15:00:00Z 298be4e
+git rev-list --count --since=2026-10-29T15:00:00Z 298be4e; git rev-list --count --since=2026-10-29T15:00:00Z --until=2026-10-29T18:46:59Z 298be4e
 ```
 
 ## C009: Site releases
@@ -337,7 +337,7 @@ git log -1 --format='%h %ci %s' 545a473; git log -1 --format='%ci' 867f8c2; git 
 State: checked.
 
 ```
-git show 298be4e:src/static/talk/talk.json | grep -oE '.{40}510 commits.{40}'; git rev-list --count --until=2026-10-29T17:02:59Z 298be4e
+git show 298be4e:src/static/talk/talk.json | grep -oE '.{40}510 commits.{40}'; git rev-list --count --until=2026-10-29T17:02:59Z 298be4e; git rev-list --count --no-merges --until=2026-10-29T17:02:26Z 298be4e; git rev-list --count --author='GitHub Actions' --until=2026-10-29T17:02:26Z 298be4e
 ```
 
 ## C043: OSBot-Utils began on 22 February 2020
@@ -508,6 +508,46 @@ State: checked.
 git grep -l 'Type_Safe' 298be4e -- '*.py' | wc -l; git grep -il 'memory-fs\|memory_fs' 298be4e | wc -l; git grep -n 'OSBot-Utils' 298be4e -- content/articles/introducing-this-site.md
 ```
 
+## C064: The talk's second count: 405 commits as of 18:21, in the mini deck the prelude beat showed
+
+State: open.
+
+```
+git show 298be4e:content/articles/how-this-talk-was-built.md | sed -n 8p; git show 298be4e:src/static/talk/talk.json | python3 -c "import json,sys;b=json.load(sys.stdin)['beats'];print(b[1]['id'],b[2]['id'],b[2]['src'])"
+```
+
+## C065: The hold's gap: the designer's work commit 82 seconds after the hold
+
+State: checked.
+
+```
+git log -1 --format='%h %ci' 867f8c2; git log -1 --format='%h %ci' 88b8f00
+```
+
+## C066: The conductor's commits by prefix: 99 with '@conductor:', 105 with or without the @, merges excluded
+
+State: checked.
+
+```
+git log 298be4e --no-merges --format=%s | grep -c '^@conductor:'; git log 298be4e --no-merges --format=%s | grep -cE '^@?conductor:'
+```
+
+## C067: Twenty-four minutes from the empty repository to the first site commit
+
+State: checked.
+
+```
+git log 298be4e --reverse --format='%h %ci %s' | head -2
+```
+
+## C068: Values reached the evidence vault's pushed history before they were redacted
+
+State: checked.
+
+```
+git show 298be4e:evidence/updates/2026-10-29__the-vault-history-checked.md | sed -n 7,16p; git log -1 --format='%h %ci %s' aa7a3eb
+```
+
 ## Where this came from
 
-`claims/register.json`, the `command` of each entry, run against `298be4e` (a full clone: `git rev-list --count 298be4e` gives 816) and `d39e717`; spot-checked on 30 October 05:45, 06:45, 07:45, 08:45, 09:40 and 10:50 (C011, C014, C021, C041, C042), each giving the registered value. C031's 2026 figure is read from a web page, fetched 30 October 2026. C043 to C062 were checked at source on 30 October about 13:20 UTC by the researcher's second session (public clones of OSBot-Utils, Memory-FS, Issues-FS, SGit-AI__CLI and myfeeds_ai; PyPI's JSON; the newsroom's wire; four LinkedIn pages' datePublished).
+`claims/register.json`, the `command` of each entry, run against `298be4e` (a full clone: `git rev-list --count 298be4e` gives 816) and `d39e717`; spot-checked on 30 October 05:45, 06:45, 07:45, 08:45, 09:40 and 10:50 (C011, C014, C021, C041, C042), each giving the registered value. C031's 2026 figure is read from a web page, fetched 30 October 2026. C043 to C062 were checked at source on 30 October about 13:20 UTC by the researcher's second session (public clones of OSBot-Utils, Memory-FS, Issues-FS, SGit-AI__CLI and myfeeds_ai; PyPI's JSON; the newsroom's wire; four LinkedIn pages' datePublished). C064 to C068, and the additions to C008 and C042, rerun on 30 October about 14:40 UTC.
