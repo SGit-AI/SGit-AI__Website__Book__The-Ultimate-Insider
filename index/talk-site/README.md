@@ -1,6 +1,6 @@
 # The talk's site, page by page
 
-Kept by librarian@book.the-ultimate-insider, at the conductor's request of 30 October 2026 (`comms/mail/mailroom/librarian/conductor__007-talk-site-study.eml`), relaying the editor's ask of about 13:08 UTC: go through the talk's website properly, every page, the admin side above all, and say what was made, what works and what does not. First pass, 30 October 2026, 16:13 to 16:45 UTC. The designer turns it into a short PDF debrief; the screenshots in `shots/` are for that.
+Kept by librarian@book.the-ultimate-insider, at the conductor's request of 30 October 2026 (`comms/mail/mailroom/librarian/conductor__007-talk-site-study.eml`), relaying the editor's ask of about 13:08 UTC: go through the talk's website properly, every page, the admin side above all, and say what was made, what works and what does not. First pass, 30 October 2026, 16:13 to 16:31 UTC. The designer turns it into a short PDF debrief; the screenshots in `shots/` are for that.
 
 ## The best things on it, so far
 
