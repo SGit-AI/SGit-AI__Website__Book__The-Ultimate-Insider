@@ -17,7 +17,7 @@ The target (the editor's brief): on Amazon by Web Summit, Monday 9 November 2026
 | Trim size | 6 by 9 inches is KDP's most common US trim size | the PDF is 6 by 9 (`publishing/book.css`) |
 | Page count | at least 24 pages (black ink, white or cream paper) | 4 today; the plan's 48,200 words should give well over 150 |
 | Bleed | only if something reaches the page edge; 0.125 inch | none: no full-bleed images planned |
-| Inside (gutter) margin | grows with page count (KDP's margins table) | 0.7 inch on every page, not yet mirrored for left and right pages: **to fix before the proof** |
+| Inside (gutter) margin | grows with page count (KDP's margins table) | mirrored since 30 October: 0.75 inch on the binding side, 0.55 inch outside (`publishing/book.css`); to check against KDP's margins table once read |
 | Spine width | page count x 0.002252 inch (white paper) or x 0.0025 inch (cream) | computed once the page count is known |
 | Spine text | only from about 79 pages up | will apply |
 | Cover | one PDF: back, spine and front, plus 0.125 inch bleed all round; width = bleed + back + spine + front + bleed | the designer's job (not staffed); the publisher computes the size |
@@ -33,7 +33,7 @@ Steps for the editor, once the interior PDF and the cover PDF exist:
 
 ## What the publisher does next for this
 
-- Mirror the margins for left and right pages, and set the gutter from KDP's margins table once the page count is known.
+- Check the gutter against KDP's margins table once it is read (mirrored margins done 30 October).
 - A cover-size calculator for the designer: trim, page count, paper, giving the full cover's width and height.
 - The QR codes on the page pointing to the record (the positioning brief's "paper that talks both ways"): proposed with the designer, not before the plan is signed.
 

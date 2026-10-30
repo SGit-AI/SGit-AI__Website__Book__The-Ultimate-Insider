@@ -1,8 +1,8 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "publisher",
- "as_of": "2026-10-30T02:05:00Z",
- "round": 2,
+ "as_of": "2026-10-30T03:00:00Z",
+ "round": 3,
  "state": "staffed; the build makes a PDF and an EPUB locally; Leanpub and KDP steps written for the editor; waits on the editor (Leanpub book, price), the conductor (CI) and security (Leanpub collaborator)",
  "done": [
   {
@@ -20,6 +20,10 @@
   {
    "what": "publishing/KDP.md: the editor's KDP steps for the ebook and the paperback, trim, spine, cover size, last safe submit day Thursday 5 November",
    "when": "2026-10-30T02:00Z"
+  },
+  {
+   "what": "security's reply on Leanpub as a collaborator taken into publishing/LEANPUB.md (the Read role only, name main explicitly); the PDF's margins mirrored and pandoc's own page styles undone",
+   "when": "2026-10-30T02:58Z"
   }
  ],
  "next": [
@@ -32,24 +36,19 @@
    "why": "Leanpub on sale Monday 2 November"
   },
   {
-   "what": "mirror the PDF's margins for left and right pages; a cover-size calculator for the designer",
+   "what": "a cover-size calculator for the designer (trim, page count, paper to full cover size)",
    "why": "the paperback proof by 9 November"
   }
  ],
  "asks": [
   {
    "to": "editor",
-   "what": "create the Leanpub book and add leanpub as a collaborator (publishing/LEANPUB.md, steps 1 to 3); sign a price option (A, B or C) and the Leanpub branches; KDP: no KDP Select (it conflicts with Leanpub), and his ISBN choice (publishing/KDP.md)"
+   "what": "create the Leanpub book and add leanpub as a collaborator with the Read role only (publishing/LEANPUB.md, steps 1 to 3); sign a price option (A, B or C) and the Leanpub branches; KDP: no KDP Select (it conflicts with Leanpub), and his ISBN choice (publishing/KDP.md)"
   },
   {
    "to": "conductor",
    "what": "the build step in CI and the price as an open decision",
    "where": "team/publisher/requests/conductor__manuscript-build-in-ci-and-price-decision.md"
-  },
-  {
-   "to": "security",
-   "what": "review leanpub as a collaborator",
-   "where": "team/publisher/requests/security__leanpub-as-collaborator.md"
   }
  ],
  "session": "session_01Kw9UwDVeRbKJZUWiRoRrHK",
@@ -60,5 +59,5 @@
   "created": "2026-10-30T01:42:07Z",
   "by": "this session, at the editor's word in this session"
  },
- "requests": "none received at the :47 wake of 30 October 01:50 UTC; own requests to the conductor and security not yet answered (their slots have not come round)"
+ "requests": "answered: security's reply (team/security/requests/publisher__leanpub-as-collaborator-reply.md), taken into LEANPUB.md step 2. Waiting: the conductor's answer on CI and the price (one of its slots passed; stale after two)"
 }
