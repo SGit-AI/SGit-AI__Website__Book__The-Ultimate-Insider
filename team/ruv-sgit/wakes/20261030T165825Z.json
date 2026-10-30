@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "designer__002 and security__002 filed; lab 02 README records lab/tools f212c8e; lab 02 into the lab's format as LAB 03 (experiment.json, {{dir}} image path, plans narrowed after a 29 px overflow), accepted by build_lab.py, lab/pdf restored and not staged; letters: designer (update), security (M02, request), researcher (M03, request); board, REALITY, debrief, status",
    "at": "2026-10-30T17:02:06Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Build and gate clean; 0 outside scope since f0077e1; vault_check clean; lab/pdf and lab/tools absent from diff and status; no key, token or personal detail; the M02 letter asks for judgment and builds nothing; no directive text.",
+   "at": "2026-10-30T17:02:31Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "1 requests done (done/, board 001 and 004, README records f212c8e); 2 lab 02 as LAB 03 done, designer letter 003, lab/pdf not in diff; 3 letters to security (M02) and researcher (M03), blocked 006 and 007; close done. Conditions kept. Minor extra: the run's evidence.json gained a revisions entry.",
+   "at": "2026-10-30T17:02:45Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T17:02:45Z",
+ "outcome": "ok"
 }
