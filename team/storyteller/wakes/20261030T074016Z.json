@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1. C039 in chapter 5 and the argument-thread rule (the register was a record, not a gate). 2. The timeline 15:00 to 17:59 into chapters 6 and 8, with the brake loosened at 16:59. 3. status.json. chapter-plan/README.md status line. Commit 3cede8d.",
    "at": "2026-10-30T07:41:14Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "3cede8d touches only chapter-plan/** and team/storyteller/**; gate clean, 0 outside scope. No key, token, personal detail, em-dash, full model id, attack-shaped or directing text. Numbers tied to C038, C039, C016.",
+   "at": "2026-10-30T07:41:45Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "1 done: C039 in chapter 5 and the rule. 2 done, slightly narrower: the afternoon timeline into chapters 6 and 8 (planned 6 to 8), with the brake loosened at 16:59. 3 done: status.json, no chapter. Conditions kept; a README status line not planned, harmless.",
+   "at": "2026-10-30T07:41:45Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T07:41:45Z",
+ "outcome": "ok"
 }
