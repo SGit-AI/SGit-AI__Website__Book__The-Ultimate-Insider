@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "storyteller",
+ "kind": "scheduled, every two hours at :39",
+ "started": "2026-10-30T20:40:11Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (Sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Idle wake: no mail newer than conductor__012, no To-storyteller notes since 1bf0c70, requests all old, no HOLD, D6-1 to D6-6 open. Write only team/storyteller/status.json (as_of, state idle, waiting on the editor's signature and RC1's revision).",
+   "at": "2026-10-30T20:40:31Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (Sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Idle wake; the only write is team/storyteller/status.json, in scope.writes. No secrets, no harm to other members, no stop condition.",
+   "at": "2026-10-30T20:40:50Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "none",
+   "comment": "Idle: status.json's state updated (waiting on the editor's signature of D6-1 to D6-6 and RC1's revision). Nothing else written.",
+   "at": "2026-10-30T20:40:50Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
