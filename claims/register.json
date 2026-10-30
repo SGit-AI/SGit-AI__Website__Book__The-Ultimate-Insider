@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-10-30T02:55:00Z",
+ "as_of": "2026-10-30T03:45:00Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -369,7 +369,7 @@
     "evidence": "git ls-tree -r 298be4e"
    },
    "method": "git ls-tree -r --name-only 298be4e | grep -v ^src/ | wc -l",
-   "note": "1,083 files outside src/, not about 1,260 (1,313 in all)."
+   "note": "1,083 files outside src/, not about 1,260 (1,313 in all). First found by librarian@book.the-ultimate-insider (trailer note on its commit to dev, 30 October), re-checked here."
   },
   {
    "id": "C020",
@@ -456,7 +456,11 @@
      "change": 0,
      "stop": 0
     },
-    "pre_review_change_then_amended": 11,
+    "pre_review_change_then_amended": {
+     "total": 11,
+     "with_a_verdict_field": 7,
+     "in_free_text_only": 4
+    },
     "work": {
      "done": 151,
      "partial": 4,
@@ -486,8 +490,8 @@
     "at": "298be4e",
     "evidence": "team/*/wakes/*.json, steps and history"
    },
-   "method": "git ls-tree -r 298be4e, every team/*/wakes/*.json parsed with git show 298be4e:<path>; verdicts counted from steps.<step>.verdict, earlier verdicts from history",
-   "note": "No step said stop all day: the one hold (C024) came from the editor's word, not from a review. 11 pre-reviews said change and the plan was amended: 9 in the conductor's wakes (02:14, 02:52, 14:03, 14:09, 16:30, 17:21, 17:30, 17:45, 18:19), 1 the researcher's (04:10), 1 studio's (18:30). The conductor's 17:37 history entry is a change by the editor mid-work, not a review verdict, and is not counted."
+   "method": "git ls-tree -r 298be4e, every team/*/wakes/*.json parsed with git show 298be4e:<path>; verdicts counted from steps.<step>.verdict, earlier verdicts from history; a change counted when a history entry has verdict 'change' (directly, or under a pre_review key), or, for entries with no verdict field, when its text says 'pre-review said change'",
+   "note": "11 pre-reviews said change and the plan was amended. 7 carry the verdict in a field: 2 shaped history[].pre_review.verdict (conductor 02:14, 02:52), 5 shaped history[].verdict with step pre_review (conductor 14:03, 14:09, 16:30; researcher 04:10; studio 18:30). 4 more are the conductor's free-text history entries 'pre-review said change: adopted' (17:21, 17:30, 17:45, 18:19), with no verdict field. A parse of verdict fields alone finds 7 (security's count, 30 October 03:25); both are right for their method. Cite '11, of which 7 recorded as a verdict'. The conductor's 17:37 entry is the editor changing course mid-work, not a review, and is not counted. No step said stop all day: the one hold (C024) came from the editor's word, not from a review. Corrected 30 October 03:40 at security's question (team/security/requests/researcher__re-control-counts-reply.md): the method was not stated."
   },
   {
    "id": "C024",
@@ -617,6 +621,101 @@
    },
    "method": "git log -- src/static/talk/player.html",
    "note": "Both times are true and say different things: the port landed at 15:07, 2 h 17 min after the 13:50 priority the lessons brief names (that priority is the brief's word, not yet found in the log); fixes went on to 18:37 at the editor's notes. 'Landed with fixes at 18:37' (the lessons brief) is the end of the fixes, not the landing. Use 15:07 for the landing. Supersedes the open part of C018."
+  },
+  {
+   "id": "C029",
+   "claim": "The talk's own claims register",
+   "cited_in": [
+    "evidence/claims/README.md at 298be4e"
+   ],
+   "value": {
+    "claims": 320,
+    "built": "2026-10-29T18:20Z",
+    "grades": {
+     "A0": 13,
+     "A1": 23,
+     "A2": 182,
+     "A3": 31,
+     "A4": 11,
+     "A5": 12,
+     "A6": 48
+    },
+    "holds": {
+     "holds": 210,
+     "holds in part": 55,
+     "not checked": 52,
+     "does not hold": 3
+    },
+    "kinds": {
+     "measured": 105,
+     "own-site": 100,
+     "event": 67,
+     "position": 26,
+     "observation": 18,
+     "guess": 4
+    }
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "298be4e",
+    "evidence": "evidence/claims/claims.json at 298be4e"
+   },
+   "method": "claims.json parsed and counted by grade, holds and kind; ids unique (320)",
+   "note": "The README's tables agree with the file. Two in three claims hold (210 of 320); 55 hold only in part. Grades are the talk's researcher's (evidence/METHOD.md), not re-graded here. The register was built at 18:20, 40 minutes before the talk; its last commit is d7df71a (18:23)."
+  },
+  {
+   "id": "C030",
+   "claim": "The talk's three claims that do not hold",
+   "cited_in": [
+    "evidence/claims/claims.json"
+   ],
+   "value": [
+    {
+     "id": "amazon-q-two-days-live",
+     "where": "the article only",
+     "finding": "no capture says two days; reports date release to clean version about a week"
+    },
+    {
+     "id": "asrs-100k-a-year-1-8-million",
+     "where": "talk:unreported, slide:unreported, the article",
+     "finding": "NASA's own briefing: 121,128 reports in 2025, over 2.3 million since 1981; 1.8 million is stale",
+     "on_stage": "no: no beat or slide at 298be4e carries it (talk.json has no 'unreported' beat)"
+    },
+    {
+     "id": "story-r5-surface-smaller-more-mature",
+     "where": "the story tree only",
+     "finding": "no source for 'smaller'"
+    }
+   ],
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "298be4e",
+    "evidence": "evidence/claims/claims.json at 298be4e; src/static/talk/talk.json"
+   },
+   "method": "the three entries with holds 'does not hold', and a search of talk.json and src/ at 298be4e for each figure",
+   "note": "None of the three reached the stage: one is in the article, one in the story tree, and the NASA figure's beat is not in the talk at 298be4e. Whether the beat was cut because of the finding is for the historian. External figures (NASA, BleepingComputer) are the talk's researcher's captures, not re-checked here."
+  },
+  {
+   "id": "C031",
+   "claim": "$17.4M, the average annual cost of insider risk, on the talk's definition slide",
+   "cited_in": [
+    "src/static/talk/slides/definition/index.html at 298be4e",
+    "talk.json beat 'definition' cue"
+   ],
+   "value": {
+    "on_stage": "$17.4M (Ponemon and DTEX, 2025 edition)",
+    "talk_register": "holds in part (insider-cost-17-4m): superseded by the 2026 edition, $19.5M (24 February 2026), as captured by the talk's researcher"
+   },
+   "state": "open",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "298be4e",
+    "evidence": "evidence/claims/claims.json at 298be4e; src/static/talk/slides/definition/index.html; talk.json"
+   },
+   "method": "the claim's register entry read; grep of src/ at 298be4e for 17.4 and 19.5",
+   "note": "A failure for the book: the talk's own register, built at 18:20, suggested $19.5M, and the slide and cue at 298be4e still say $17.4M in the present tense. The correction never reached the stage. Open: the $19.5M figure is the talk's researcher's capture, not yet re-checked against the source; the book must not use either number until it is."
   }
  ]
 }

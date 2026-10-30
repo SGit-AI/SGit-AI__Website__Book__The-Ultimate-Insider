@@ -21,3 +21,10 @@ C022 to C028, and C018 settled: 28 claims, 24 checked, 3 corrected, 1 open (C011
 
 - **The controls in numbers:** 162 wake records; no step said stop all day; 11 pre-reviews sent a plan back; 4 post-review findings, 3 of them other sites' tokens in captured pages already pushed (C022 to C025). One hold (C024).
 - **The talk:** 74 min 55 s of beats against a 90-minute countdown (C026). No part was ever locked (C027). The player port landed at 15:07, not 18:37 (C028).
+
+## Round 1, third pass: the talk's own register (30 October 2026, 03:32 wake)
+
+C029 to C031, and C023's method stated at security's question: 31 claims, 26 checked, 3 corrected, 2 open.
+
+- **The talk's register** holds 320 claims, built at 18:20: 210 hold, 55 in part, 52 not checked, 3 do not (C029). None of the three that fail reached the stage (C030).
+- **A correction that never reached the stage:** the definition slide said $17.4M a year, while the talk's own register had found it superseded by the 2026 edition's $19.5M (C031, open until the figure is checked at source).
