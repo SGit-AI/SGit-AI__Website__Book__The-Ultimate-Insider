@@ -66,7 +66,7 @@ From RC1 as it stands, about 10,200 words:
 - **D6-4** Chapter 0. A: a "How to read this book" page in the front matter (recommended). B: as in RC1.
 - **D6-5** The length. A: about 59,000 words, as above (recommended: the new parts the editor asked for, paid for in part by cuts). B: about 70,000, RC1's shape and sizes kept and signed. C: hold 49,200, every new part compressed and chapters 9 and 10 folded into their neighbours.
 
-**What must happen before any of it prints.** "Two and a half years" is the editor's phrase and has no register entry yet (the register runs to C042). Chapter 3 above may not state it, or any date in it, until the researcher registers it from his public articles.
+**What must happen before any of it prints.** "Two and a half years" is the editor's phrase. Since this draft was first written, the researcher has registered the dated steps of those years from public sources (C043 to C061, with C063 on what the talk's repository uses), so the years chapter can date each piece. But the start of the span, when the editor went full time on The Cyber Boardroom, is open (C062: no public source names it). Until he answers C062, the chapter names the pieces and their registered dates, and does not state "two and a half years", or any span, as a number. (Updated at the 15:37 UTC wake.)
 
 ## Where this came from
 
