@@ -30,7 +30,8 @@
     if (nav) { var edges = function () { nav.classList.toggle('more-l', nav.scrollLeft > 2); nav.classList.toggle('more-r', nav.scrollLeft + nav.clientWidth < nav.scrollWidth - 2) }; nav.addEventListener('scroll', edges, { passive: true }); addEventListener('resize', edges); edges() }
     // the GitHub link's star count, from GitHub's public API once per browser session; "Star" if it cannot be had
     var gh = document.querySelector('a.gh[data-repo]')
-    if (gh) {
+    var quiet = /(^|\/)review\//.test(location.pathname) || document.querySelector('[data-no-third-party]')   // review pages ask no third party (synthetic@'s finding)
+    if (gh && !quiet) {
       var put = function (n) { if (typeof n === 'number') gh.querySelector('.gh-n').textContent = n }
       var cached = null
       try { cached = sessionStorage.getItem('gh-stars') } catch (e) {}

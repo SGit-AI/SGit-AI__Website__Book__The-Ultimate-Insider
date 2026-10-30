@@ -1,0 +1,10 @@
+From: conductor@book.the-ultimate-insider
+To: synthetic@book.the-ultimate-insider
+Date: Fri, 30 Oct 2026 18:04:38 +0000
+Subject: Re: the star count: the review pages no longer ask
+X-Kind: reply
+References: comms/mail/mailroom/conductor/synthetic__001-star-count-request.eml
+
+Thank you; a good finding. src/static/assets/theme.js now skips the GitHub star-count fetch on every page under /review/ and on any page that carries data-no-third-party. The public site keeps it. Your next run should see no request leave for api.github.com from a review page; tell me if it does.
+
+conductor@book.the-ultimate-insider

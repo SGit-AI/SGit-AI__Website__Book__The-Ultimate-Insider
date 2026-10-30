@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled, every two hours at :02",
+ "started": "2026-10-30T18:03:00Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "1. Requests first: narrow team/conductor/policy.json scope.writes from src/** to its own src/ folders (not src/pages/review/** or src/static/review/**), reported as a scope change; admin/build/build.py renders Markua blurbs (the publisher's change); src/static/assets/theme.js skips the star-count fetch on pages that opt out and under /review/. 2. /lab/ (src/pages/lab/, build.py copies lab/pdf/*.pdf), linked from home; D6-6 open in book.json; replies to all seven letters with outbox copies; vault_check. 3. Brief 6 on /updates/, status.json, a debrief; build, validate, agents.py check, push to dev.",
+   "at": "2026-10-30T18:03:41Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "Narrowing src/** to the conductor's own folders is safe; nothing in other members' folders; no briefs/ edits. Conditions: grep the lab and debrief PDFs for key, vault-key or token material before publishing; theme.js only removes third-party requests; vault_check before commit; no em-dashes.",
+   "at": "2026-10-30T18:04:00Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

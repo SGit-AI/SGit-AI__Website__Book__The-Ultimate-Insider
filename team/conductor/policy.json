@@ -42,7 +42,15 @@
   "writes": [
    "team/conductor/**",
    "admin/**",
-   "src/**",
+   "src/pages/*.html",
+   "src/pages/about/**",
+   "src/pages/admin/**",
+   "src/pages/sources/**",
+   "src/pages/rc1/**",
+   "src/pages/publishers/**",
+   "src/pages/lab/**",
+   "src/static/*",
+   "src/static/assets/**",
    ".github/**",
    "briefs/**",
    "book.json",
@@ -78,5 +86,12 @@
   "publish a key it did not make in its own session",
   "create a scheduled task without the editor's word in the session",
   "build or describe anything attack-shaped"
+ ],
+ "scope_changes": [
+  {
+   "at": "2026-10-30T18:10:00Z",
+   "what": "narrowed src/** to the conductor's own src/ folders, so src/pages/review/** and src/static/review/** are developer@'s",
+   "why": "developer@'s letter 001 (its option 1)"
+  }
  ]
 }

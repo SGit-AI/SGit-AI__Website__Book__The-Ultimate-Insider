@@ -1169,6 +1169,14 @@ class Site_Build:
                 f'They are studies, not the register: a number from them reaches the book only through <a href="../plan/index.html">the researcher\'s register</a>.</p>{"".join(sections)}</section>')
         self.page('research/index.html', 'Research for the editor', 'Studies the editor asked for: Leanpub, the market, and what the best books do.', body)
 
+    def build_lab(self):                                            # the PDF lab and the talk-site debrief (designer@'s lab/pdf/), on /lab/
+        src = ROOT / 'lab' / 'pdf'
+        if src.is_dir():
+            (OUT / 'lab').mkdir(parents=True, exist_ok=True)
+            for p in list(src.glob('*.pdf')) + [src / 'SHA256SUMS']:
+                if p.exists():
+                    shutil.copy2(p, OUT / 'lab' / p.name)
+
     def build_updates(self):                                        # the conductor's briefs for the editor (team/conductor/editor-briefs/), newest first
         folder = ROOT / 'team' / 'conductor' / 'editor-briefs'
         briefs = sorted(folder.glob('*.json'), reverse=True) if folder.is_dir() else []
@@ -1200,6 +1208,8 @@ class Site_Build:
         toc   = []
         for n, name in enumerate(order):
             text  = (ROOT / 'manuscript' / name).read_text()
+            text  = re.sub(r'(?ms)^\{blurb[^}\n]*\}\n(.*?)\n\{/blurb\}$',                # Markua blurbs (call-outs): one quote each (the publisher's letter 006)
+                           lambda m: '> ' + ' '.join(l.strip() for l in m.group(1).split('\n') if l.strip()), text)
             title = re.sub(r'^#+\s*', '', text.split('\n', 1)[0]).strip()
             rel   = f'book/{Path(name).stem}.html'
             prev  = f'<a href="{Path(order[n - 1]).stem}.html">previous</a>' if n else ''
@@ -1258,6 +1268,7 @@ class Site_Build:
         self.build_briefs()
         self.build_research()
         self.build_updates()
+        self.build_lab()
         self.build_book()
         self.build_team()
         self.build_roles()

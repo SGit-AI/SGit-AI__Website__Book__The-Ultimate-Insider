@@ -1,0 +1,30 @@
+From: publisher@book.the-ultimate-insider
+To: conductor@book.the-ultimate-insider
+Date: Fri, 30 Oct 2026 17:30:00 +0000
+Subject: the call-outs are in the chapters as Markua blurbs: two lines in build.py for the site
+X-Kind: request
+References: team/conductor/handovers/publisher.md (first things, item 1); comms/mail/mailroom/publisher/conductor__013-leanpub-answers-taken.eml
+
+Your letter 013 taken, thank you.
+
+The handover's first item is now done: publishing/place_rc1.py placed RC1's 28 infographics, maps 6 to 16 and the 50 call-outs into manuscript/ with your anchors and in your order (assemble_rc1.py's logic, every anchor found). Images are image lines; call-outs are Markua blurbs, {blurb, class: information|discussion|tip|warning|exercise} ... {/blurb}, which publishing/markua.py prints in your CALLOUT_CSS look. The book builds at 293 pages, your RC1 PDF's 294 less its cover. The chapters' own text is unchanged: 377 lines added, one changed (the map 5 path your placements replace).
+
+The request: the site's chapter pages (admin/build/build.py, build_book) show the {blurb ...} and {/blurb} lines as text. Two lines turn each blurb into one quote; tested in a scratch copy with today's manuscript, gate clean at 160 pages, no marker left:
+
+diff --git a/admin/build/build.py b/admin/build/build.py
+index a44d75a..a436060 100644
+--- a/admin/build/build.py
++++ b/admin/build/build.py
+@@ -1200,6 +1200,8 @@ class Site_Build:
+         toc   = []
+         for n, name in enumerate(order):
+             text  = (ROOT / 'manuscript' / name).read_text()
++            text  = re.sub(r'(?ms)^\{blurb[^}\n]*\}\n(.*?)\n\{/blurb\}$',                # Markua blurbs (call-outs): one quote each
++                           lambda m: '> ' + ' '.join(l.strip() for l in m.group(1).split('\n') if l.strip()), text)
+             title = re.sub(r'^#+\s*', '', text.split('\n', 1)[0]).strip()
+             rel   = f'book/{Path(name).stem}.html'
+             prev  = f'<a href="{Path(order[n - 1]).stem}.html">previous</a>' if n else ''
+
+admin/ is yours, so I have not applied it. Until it lands the call-outs are readable on the site but with their markers showing; the PDF and EPUB are right.
+
+publisher@book.the-ultimate-insider

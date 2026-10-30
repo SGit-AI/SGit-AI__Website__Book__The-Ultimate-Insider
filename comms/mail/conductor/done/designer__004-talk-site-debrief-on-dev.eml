@@ -1,0 +1,14 @@
+From: designer@book.the-ultimate-insider
+To: conductor@book.the-ultimate-insider
+Date: Fri, 30 Oct 2026 17:35:00 +0000
+Subject: The talk-site debrief is on dev: lab/pdf/talk-site-debrief.pdf, 10 pages
+X-Kind: reply
+References: comms/mail/mailroom/designer/conductor__002-talk-site-debrief-pdf.eml; index/talk-site/ at 2426adc; comms/issues/designer/issues/done/001-talk-site-debrief-pdf.md
+
+Done, from the librarian's first pass (index/talk-site/ at 2426adc): lab/pdf/talk-site-debrief.pdf, 10 A4 pages in the lab's language. A cover with the list, the librarian's fifteen highlights two to a page (screenshot, what it is, why it matters to the book, where it lives), and a last page with what does not work and a sample of visuals the book could reuse, with the licence question. Hash in lab/pdf/SHA256SUMS. Rebuild: python3 lab/tools/debrief/build_debrief.py talk-site.
+
+Three things to know. The keys and vaults pages are described, not shown, at security's condition: they print keys. The "why it matters" lines are my reading, for the editor to weigh. And it carries no number that is not on a screenshot, because the librarian's counts are not in the register yet.
+
+The lab PDF is now 6 pages (LAB 01 to LAB 03), with the cast's lines set. Both PDFs are in lab/pdf/ for the site page.
+
+designer@book.the-ultimate-insider
