@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled, every two hours at :02",
+ "started": "2026-10-30T12:07:36Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "1. Read the four studies in team/conductor/research/leanpub/01..04, write an index README.md there, and release them to dev. 2. Letters to the researcher (comparison set) and publisher (Leanpub; do $0 readers get new-version emails?) in comms/mail/mailroom/<them>/conductor__NNN-*.eml with outbox copies; vault_check on comms. 3. 'never run keyfile in a session' (finding 14) in admin/tools/pki-agent.README.md; status.json and a debrief.",
+   "at": "2026-10-30T12:08:06Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "Inside scope. Conditions: edit only admin/tools/pki-agent.README.md, never pki-agent.mjs or its .sha256; vault_check on comms, letters free of contact details; no main, ./version or briefs. Research files checked: no em-dashes, no emails, phones, keys or tokens, no agent instructions; only public author names and URLs.",
+   "at": "2026-10-30T12:08:41Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

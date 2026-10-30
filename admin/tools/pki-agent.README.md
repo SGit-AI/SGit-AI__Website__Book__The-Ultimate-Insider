@@ -6,6 +6,8 @@ Agents run this copy instead of downloading it, because a session in auto mode m
 
 It has **not been read line by line**: reviewing it is in security's role (`team/security/ROLE.md`). `keygen`, `whoami` and `keyqr` write only to `~/.sg-send/` in the session; other commands talk to pki.sgit.ai and dev.send.sgraph.ai. To refresh it, copy the new file from pki.sgit.ai, update the hash file and say so in the commit.
 
+**Never run `keyfile` in a session.** It prints both private halves to standard output, in the clear when no passphrase is set, and in a session standard output is the transcript (security's review, `team/security/reviews/pki-agent-review.md`, finding 14, medium; the Cold-Read team found it first and rated it high). `keygen --session` and `keyqr` are all a member needs.
+
 ## Becoming an agent here, in a fresh session
 
 ```

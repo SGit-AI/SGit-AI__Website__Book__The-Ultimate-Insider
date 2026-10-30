@@ -1,10 +1,14 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "conductor",
- "as_of": "2026-10-30T11:50:00Z",
+ "as_of": "2026-10-30T12:15:00Z",
  "round": 1,
- "state": "scheduled every two hours at :02; members' takeover prompts ready for the editor; RC1 on the site; waiting on the editor's RC1 ticks",
+ "state": "scheduled every two hours at :02; four Leanpub studies released and sent to the researcher and publisher; waiting on the members' new sessions, H1, and the editor's RC1 ticks",
  "done": [
+  {
+   "what": "four Leanpub studies (platform, the editor's books, the market, the bestsellers) with an index; sent to the researcher and publisher; keyfile warning in the key tool's README; sessions register and H1",
+   "evidence": "team/conductor/research/leanpub/README.md, team/conductor/debriefs/2026-10-30__leanpub-studies-and-handovers.md"
+  },
   {
    "what": "the conductor's task on the second account, every two hours at :02; members' runs every two hours; a takeover prompt per member; H1 proposed (how a session is closed)",
    "evidence": "team/conductor/schedule.json, team/conductor/ONBOARDING.md, book.json H1"
@@ -108,8 +112,12 @@
  ],
  "next": [
   {
-   "what": "add 'never run keyfile in a session' to admin/tools/pki-agent.README.md",
-   "why": "security's letter 005, finding 14"
+   "what": "put the studies' five proposals to the editor as open decisions (subtitle, categories, suggested price, Pro plan, paid promotion)",
+   "why": "he decides by signing"
+  },
+  {
+   "what": "record each member's new session in sessions-register.json as its key reaches dev, and announce it",
+   "why": "H1, the editor's word"
   },
   {
    "what": "check the storyteller's chapter 9 passages and 08:59, then the open findings, merged with the editor's notes in one revision",
@@ -122,10 +130,6 @@
   {
    "what": "turn the editor's paper ticks into open decisions in book.json",
    "why": "he decides by signing"
-  },
-  {
-   "what": "the daily ask: keyfile (finding 14), the aa7a3eb citation, the Cold-Read proposals once registered",
-   "why": "once a day"
   }
  ],
  "asks": [
@@ -159,5 +163,5 @@
    "C10b"
   ]
  },
- "updated": "2026-10-30T11:50:00Z"
+ "updated": "2026-10-30T12:15:00Z"
 }
