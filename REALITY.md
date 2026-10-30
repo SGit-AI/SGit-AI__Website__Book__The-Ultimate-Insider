@@ -22,6 +22,11 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - `briefs/2026-10-30/`: the editor's six brief files, as given.
 - `manuscript/`: `Book.txt` and `about-this-edition.md`. No chapter: the plan is not signed.
 
+## The claims register (researcher)
+
+- The researcher: staffed (session_01Kw9UwBta1dcP9qBJUURLPZ), key published (`sha256:4e0287f6640d61f0`), its own scheduled task hourly at :32 London.
+- `claims/register.json` and `claims/README.md`: the numbers in the briefs checked against the talk's log at `298be4e`, 21 claims (17 checked, 2 corrected, 2 open). The talk's own claims (`evidence/claims/`) and the comparison set are not yet registered.
+
 ## Not yet
 
 - No member but the conductor is staffed; no scheduled task exists (the editor says go and sets the hours, Q2).
