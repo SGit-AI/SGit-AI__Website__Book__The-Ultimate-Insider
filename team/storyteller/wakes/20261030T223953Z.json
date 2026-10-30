@@ -24,6 +24,13 @@
    "verdict": "none",
    "comment": "Idle: status.json's state updated (D6 and Q6 open, RC1's revision not landed). Nothing else written; the task left running, Q6 unsigned.",
    "at": "2026-10-30T22:40:33Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (Sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Idle as planned: add2db6 touched only status.json and the wake record; the task left running, Q6 unsigned, no unsigned decision acted on.",
+   "at": "2026-10-30T22:41:02Z"
   }
  },
  "closed": null,
