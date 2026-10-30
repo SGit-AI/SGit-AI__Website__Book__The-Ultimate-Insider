@@ -1,10 +1,10 @@
 {
  "schema": "the-ultimate-insider/controls/v1",
  "kept_by": "security@book.the-ultimate-insider",
- "as_of": "2026-10-30T03:40:00Z",
+ "as_of": "2026-10-30T04:40:00Z",
  "round": 0,
  "source": "SGit-AI__Website__Presentation__The-Ultimate-Insider, history up to 298be4e (read-only clone)",
- "numbers": "only by the researcher's claim id (claims/register.json): C022 wake records, C023 verdicts (its pre-review change count is under check: team/security/requests/researcher__re-control-counts-reply.md), C024 holds, C025 post-review findings",
+ "numbers": "only by the researcher's claim id (claims/register.json): C022 wake records, C023 verdicts (pre-reviews that said change: 11, of which 7 recorded as a verdict and 4 in free text only), C024 holds, C025 post-review findings",
  "controls": [
   {
    "id": "C1",
@@ -60,7 +60,7 @@
     }
    ],
    "stopped": "captured cookie values reaching the public record",
-   "missed": "no step said stop all day (C023); pre-reviews did send plans back (C023, the count under check); a post-review finding came after a push, not before it (C025, researcher 03:05)",
+   "missed": "no step said stop all day (C023); pre-reviews did send plans back, 11 times, of which 7 recorded as a verdict (C023); a post-review finding came after a push, not before it (C025, researcher 03:05)",
    "state": "listed, evidence started",
    "correction": "round 0 said no pre-review said change or stop: wrong, the scan read only steps, not each record's top-level history (corrected 30 October 2026, 02:45 UTC)",
    "claims": [
@@ -169,9 +169,16 @@
      "what": "the editor's decisions of 15:00 committed and routed by the conductor"
     }
    ],
-   "stopped": "to find",
+   "stopped": "book team: a member widening its own policy on a request alone (C10)",
    "missed": "to find",
-   "state": "listed, evidence started"
+   "state": "listed, evidence started",
+   "book_team": [
+    {
+     "decision": "book.json C10",
+     "what": "security's own policy widening waited for the editor's signed word; refused by the session before it, allowed after it",
+     "wake": "team/security/wakes/20261030T042452Z.json"
+    }
+   ]
   },
   {
    "id": "C8",
@@ -236,10 +243,14 @@
     {
      "wake": "team/security/wakes/20261030T032513Z.json",
      "what": "refused security's edit adding the comms/ paths to its own policy.json, though the conductor asked, CLAUDE.md names the paths and the pre-review said go"
+    },
+    {
+     "wake": "team/security/wakes/20261030T042452Z.json",
+     "what": "the same edit allowed after the editor signed book.json C10, relayed through the conductor"
     }
    ],
    "stopped": "an agent widening its own policy without the editor",
-   "missed": "to find",
+   "missed": "it judged by context the repository supplies: the editor's word reached it only as a file another agent wrote (book.json, the conductor's letter); whether it checks more than that is not known from here",
    "state": "book team only so far"
   }
  ],
@@ -275,7 +286,13 @@
     "control": "C10",
     "what": "security's own policy widening refused by the session; left to the editor",
     "wake": "team/security/wakes/20261030T032513Z.json"
+   },
+   {
+    "control": "C7",
+    "what": "the editor's signed decision C10 let security add exactly its three comms/ paths, nothing else",
+    "wake": "team/security/wakes/20261030T042452Z.json"
    }
   ]
- }
+ },
+ "id_note": "these control ids (C1 to C10) collide with book.json's decisions and the researcher's claims (C0nn); to be renamed in round 1, with notice to every member citing them"
 }

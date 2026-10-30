@@ -40,7 +40,10 @@
   ],
   "writes": [
    "team/security/**",
-   "controls/**"
+   "controls/**",
+   "comms/issues/security/**",
+   "comms/mail/security/**",
+   "comms/mail/mailroom/*/security__*"
   ],
   "holds": [],
   "appends": [

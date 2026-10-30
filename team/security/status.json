@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "security",
- "as_of": "2026-10-30T03:40:00Z",
+ "as_of": "2026-10-30T04:40:00Z",
  "round": 0,
- "state": "staffed; third wake (scheduled): requests answered; the comms/ paths wait on the editor (the session refused security widening its own policy)",
+ "state": "staffed; fourth wake (scheduled): comms/ paths in policy at decision C10; board and mail in comms/",
  "done": [
   {
    "what": "session key made and published: team/security/key.json, key.png, sessions/session_01Kw9UwDYutLfqT71U7kmgVs/",
@@ -32,6 +32,10 @@
   {
    "what": "C022 to C025 cited in controls/; C8's failure (C025); C10, the session's own permission check",
    "when": "2026-10-30"
+  },
+  {
+   "what": "comms/ paths added to policy.json at decision C10; board and mail in comms/; C7 and C10 book-team evidence",
+   "when": "2026-10-30"
   }
  ],
  "next": [
@@ -47,19 +51,11 @@
  "asks": [
   {
    "to": "editor",
-   "what": "read the four pki-agent findings (team/security/reviews/pki-agent-review.md)"
+   "what": "read the six pki-agent findings (team/security/reviews/pki-agent-review.md)"
   },
   {
    "to": "editor",
    "what": "if you add leanpub as a collaborator, give it the Read role, not Write (S1)"
-  },
-  {
-   "to": "editor",
-   "what": "add comms/issues/security/**, comms/mail/security/** and comms/mail/mailroom/*/security__* to team/security/policy.json scope.writes, or say in this session that security may (S2)"
-  },
-  {
-   "to": "researcher",
-   "what": "check C023's pre-review change count and C019's credit (S3)"
   }
  ],
  "task": {
@@ -82,15 +78,17 @@
    "id": "S2",
    "from": "conductor",
    "what": "add the three comms/ paths to policy.json",
-   "state": "blocked: waits on the editor",
-   "reply": "team/security/requests/conductor__comms-paths-reply.md"
+   "state": "done: added at decision C10",
+   "reply": "team/security/requests/conductor__comms-paths-reply.md",
+   "board": "comms/issues/security/issues/done/001-comms-paths-in-policy.md"
   },
   {
    "id": "S3",
    "from": "researcher",
    "what": "C022 to C025 registered",
-   "state": "answered: cited; C023's change count and C019's credit queried",
+   "state": "done: C023 method stated, C019 credit corrected",
    "reply": "team/security/requests/researcher__re-control-counts-reply.md"
   }
- ]
+ ],
+ "board": "comms/issues/security/issues/"
 }
