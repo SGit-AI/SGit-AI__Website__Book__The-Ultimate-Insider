@@ -1,0 +1,179 @@
+{
+ "title": "Map 11. Two brakes on one evening: the hold that fired and the locks that never closed",
+ "height": 800,
+ "components": [
+  {
+   "id": "editor",
+   "label": "The editor",
+   "vis": 0.99,
+   "evo": 0.45,
+   "anchor": true
+  },
+  {
+   "id": "talk",
+   "label": "The talk in three parts: part 1 final, parts 2 and 3 in progress",
+   "vis": 0.85,
+   "evo": 0.07,
+   "w": 20
+  },
+  {
+   "id": "usage",
+   "label": "His usage limit",
+   "vis": 0.84,
+   "evo": 0.66,
+   "w": 12
+  },
+  {
+   "id": "freeze",
+   "label": "The overnight freeze (02:47): held, and cost a correction",
+   "vis": 0.68,
+   "evo": 0.05,
+   "w": 18
+  },
+  {
+   "id": "lock",
+   "label": "Part locks: lock.py built 17:54, never closed",
+   "vis": 0.62,
+   "evo": 0.2,
+   "shape": "square",
+   "ghost": true,
+   "w": 16
+  },
+  {
+   "id": "hold",
+   "label": "The hold: HOLD.md, 18:44",
+   "vis": 0.6,
+   "evo": 0.42,
+   "shape": "square",
+   "w": 12
+  },
+  {
+   "id": "rhythm",
+   "label": "Hourly rhythm: relaxed for the night",
+   "vis": 0.4,
+   "evo": 0.24,
+   "w": 16
+  },
+  {
+   "id": "steps",
+   "label": "Five steps and the gate: held",
+   "vis": 0.26,
+   "evo": 0.12,
+   "w": 14
+  },
+  {
+   "id": "start",
+   "label": "start.py: stops the next wake, not a running one",
+   "vis": 0.4,
+   "evo": 0.44,
+   "shape": "square",
+   "w": 16
+  },
+  {
+   "id": "sched",
+   "label": "Scheduled tasks",
+   "vis": 0.24,
+   "evo": 0.62,
+   "w": 10
+  },
+  {
+   "id": "sessions",
+   "label": "Agent sessions",
+   "vis": 0.14,
+   "evo": 0.7,
+   "w": 12
+  },
+  {
+   "id": "git",
+   "label": "git, the code host",
+   "vis": 0.04,
+   "evo": 0.92
+  }
+ ],
+ "links": [
+  [
+   "editor",
+   "talk"
+  ],
+  [
+   "editor",
+   "usage"
+  ],
+  [
+   "talk",
+   "freeze"
+  ],
+  [
+   "talk",
+   "lock"
+  ],
+  [
+   "talk",
+   "rhythm"
+  ],
+  [
+   "talk",
+   "steps"
+  ],
+  [
+   "usage",
+   "hold"
+  ],
+  [
+   "hold",
+   "start"
+  ],
+  [
+   "start",
+   "sched"
+  ],
+  [
+   "rhythm",
+   "sched"
+  ],
+  [
+   "sched",
+   "sessions"
+  ],
+  [
+   "sessions",
+   "usage"
+  ]
+ ],
+ "flows": [
+  {
+   "from": "hold",
+   "to": "lock",
+   "label": "stopped the lock too",
+   "color": "#c0392b",
+   "dash": true,
+   "bend": 0.25,
+   "lpos": 0.5,
+   "dy": -26,
+   "dx": -60,
+   "w": 12
+  }
+ ],
+ "notes": [
+  {
+   "text": "The brake that fired was the one tied to the human's limit.",
+   "vis": 0.99,
+   "evo": 0.66,
+   "w": 20
+  }
+ ],
+ "legend": [
+  {
+   "kind": "square",
+   "text": "a setting: enforced by a tool"
+  },
+  {
+   "kind": "circle",
+   "text": "an expectation, or the editor's word"
+  },
+  {
+   "kind": "ghost",
+   "text": "built, never used"
+  }
+ ]
+}

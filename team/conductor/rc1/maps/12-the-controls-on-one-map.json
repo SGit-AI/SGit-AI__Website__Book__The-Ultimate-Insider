@@ -1,0 +1,225 @@
+{
+ "title": "Map 12. The ten controls on one map: settings and expectations, inside the repository and outside it",
+ "height": 920,
+ "zones": [
+  {
+   "label": "Inside the repository: a member's commit can change it",
+   "vis": [
+    0.14,
+    0.79
+   ],
+   "evo": [
+    0.01,
+    0.54
+   ],
+   "fill": "#fbf3ea",
+   "stroke": "#c98b5a",
+   "lpos": "bottom",
+   "w": 34,
+   "hatch": true
+  },
+  {
+   "label": "Outside the repository",
+   "vis": [
+    0.02,
+    0.42
+   ],
+   "evo": [
+    0.57,
+    0.99
+   ],
+   "fill": "#ececec",
+   "stroke": "#5a86b0",
+   "lpos": "top",
+   "w": 26
+  }
+ ],
+ "components": [
+  {
+   "id": "editor",
+   "label": "The editor: trust to let the team run",
+   "vis": 0.99,
+   "evo": 0.42,
+   "anchor": true,
+   "w": 20
+  },
+  {
+   "id": "reach",
+   "label": "The team's reach: any file, a push to dev, a key in any name",
+   "vis": 0.88,
+   "evo": 0.1,
+   "inside": true,
+   "w": 22
+  },
+  {
+   "id": "c7",
+   "label": "C7 signed decisions",
+   "vis": 0.72,
+   "evo": 0.08,
+   "w": 11
+  },
+  {
+   "id": "c3",
+   "label": "C3 holds",
+   "vis": 0.72,
+   "evo": 0.3,
+   "shape": "square"
+  },
+  {
+   "id": "c2",
+   "label": "C2 five-step wake",
+   "vis": 0.6,
+   "evo": 0.06,
+   "move": 0.2,
+   "w": 10
+  },
+  {
+   "id": "c1",
+   "label": "C1 scopes: report, never refuse",
+   "vis": 0.6,
+   "evo": 0.36,
+   "shape": "square",
+   "w": 14
+  },
+  {
+   "id": "c4",
+   "label": "C4 session keys",
+   "vis": 0.47,
+   "evo": 0.12,
+   "w": 10
+  },
+  {
+   "id": "c8",
+   "label": "C8 vault_check",
+   "vis": 0.48,
+   "evo": 0.32,
+   "shape": "square",
+   "w": 10
+  },
+  {
+   "id": "c6",
+   "label": "C6 the gate and its tripwire",
+   "vis": 0.36,
+   "evo": 0.4,
+   "shape": "square",
+   "w": 14
+  },
+  {
+   "id": "c5",
+   "label": "C5 the pinned key tool",
+   "vis": 0.27,
+   "evo": 0.2,
+   "shape": "square",
+   "w": 11
+  },
+  {
+   "id": "c10",
+   "label": "C10 the session's own permission check",
+   "vis": 0.3,
+   "evo": 0.66,
+   "shape": "square",
+   "w": 16
+  },
+  {
+   "id": "c9",
+   "label": "C9 who else can push (the code host's role)",
+   "vis": 0.18,
+   "evo": 0.84,
+   "shape": "square",
+   "w": 14
+  },
+  {
+   "id": "harness",
+   "label": "The agent harness",
+   "vis": 0.08,
+   "evo": 0.68,
+   "w": 10
+  },
+  {
+   "id": "codehost",
+   "label": "The code host",
+   "vis": 0.06,
+   "evo": 0.94
+  }
+ ],
+ "links": [
+  [
+   "editor",
+   "reach"
+  ],
+  [
+   "reach",
+   "c7"
+  ],
+  [
+   "reach",
+   "c3"
+  ],
+  [
+   "reach",
+   "c2"
+  ],
+  [
+   "reach",
+   "c1"
+  ],
+  [
+   "reach",
+   "c4"
+  ],
+  [
+   "c2",
+   "c8"
+  ],
+  [
+   "c1",
+   "c6"
+  ],
+  [
+   "c4",
+   "c5"
+  ],
+  [
+   "c6",
+   "codehost"
+  ],
+  [
+   "reach",
+   "c10"
+  ],
+  [
+   "c10",
+   "harness"
+  ],
+  [
+   "c9",
+   "codehost"
+  ]
+ ],
+ "notes": [
+  {
+   "text": "Only a boundary is a control. Two of the ten sit outside the repository, where no member's commit can change them.",
+   "vis": 0.97,
+   "evo": 0.66,
+   "w": 22
+  }
+ ],
+ "legend": [
+  {
+   "kind": "square",
+   "text": "a setting: enforced by a tool"
+  },
+  {
+   "kind": "circle",
+   "text": "an expectation: trusted to be followed"
+  },
+  {
+   "kind": "inside",
+   "text": "the insider: what the team could reach"
+  },
+  {
+   "kind": "move",
+   "text": "ported to two more teams"
+  }
+ ]
+}

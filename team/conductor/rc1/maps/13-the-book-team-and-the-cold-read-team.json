@@ -1,0 +1,204 @@
+{
+ "title": "Map 13. Two teams, one record: the book's team, the Cold-Read team and the one-way valve",
+ "height": 900,
+ "components": [
+  {
+   "id": "ea",
+   "label": "The editor: the day told from inside",
+   "vis": 0.99,
+   "evo": 0.14,
+   "anchor": true,
+   "w": 18
+  },
+  {
+   "id": "eb",
+   "label": "The editor: the day read cold",
+   "vis": 0.99,
+   "evo": 0.62,
+   "anchor": true,
+   "w": 16
+  },
+  {
+   "id": "book",
+   "label": "This book (RC1)",
+   "vis": 0.85,
+   "evo": 0.1,
+   "inside": true
+  },
+  {
+   "id": "findings",
+   "label": "Cold-Read findings",
+   "vis": 0.85,
+   "evo": 0.5,
+   "w": 10,
+   "fill": "#9fb4c8"
+  },
+  {
+   "id": "bteam",
+   "label": "The book's team, with the editor's briefs and word",
+   "vis": 0.68,
+   "evo": 0.08,
+   "inside": true,
+   "w": 18
+  },
+  {
+   "id": "cteam",
+   "label": "The Cold-Read team: the record and nothing else",
+   "vis": 0.68,
+   "evo": 0.42,
+   "w": 16,
+   "fill": "#9fb4c8"
+  },
+  {
+   "id": "after",
+   "label": "Added after the day: the talk as given (a9c0b49)",
+   "vis": 0.52,
+   "evo": 0.06,
+   "inside": true,
+   "w": 16
+  },
+  {
+   "id": "reg",
+   "label": "Register, timeline, controls",
+   "vis": 0.5,
+   "evo": 0.24,
+   "inside": true,
+   "w": 12
+  },
+  {
+   "id": "record",
+   "label": "The talk's repository at 298be4e: the record",
+   "vis": 0.4,
+   "evo": 0.38,
+   "w": 16
+  },
+  {
+   "id": "mach",
+   "label": "The talk team's machinery, ported: wake, gate, keys, banners",
+   "vis": 0.26,
+   "evo": 0.34,
+   "move": 0.5,
+   "w": 18
+  },
+  {
+   "id": "sessions",
+   "label": "Agent sessions",
+   "vis": 0.16,
+   "evo": 0.7,
+   "w": 12
+  },
+  {
+   "id": "codehost",
+   "label": "The code host",
+   "vis": 0.05,
+   "evo": 0.9
+  }
+ ],
+ "links": [
+  [
+   "ea",
+   "book"
+  ],
+  [
+   "eb",
+   "findings"
+  ],
+  [
+   "book",
+   "bteam"
+  ],
+  [
+   "findings",
+   "cteam"
+  ],
+  [
+   "bteam",
+   "after"
+  ],
+  [
+   "bteam",
+   "reg"
+  ],
+  [
+   "reg",
+   "record"
+  ],
+  [
+   "cteam",
+   "record"
+  ],
+  [
+   "bteam",
+   "mach"
+  ],
+  [
+   "cteam",
+   "mach"
+  ],
+  [
+   "mach",
+   "sessions"
+  ],
+  [
+   "mach",
+   "codehost"
+  ],
+  [
+   "record",
+   "codehost"
+  ]
+ ],
+ "flows": [
+  {
+   "from": "findings",
+   "to": "book",
+   "label": "read, one way",
+   "bend": -0.12,
+   "lpos": 0.5,
+   "dy": -26,
+   "dx": 0,
+   "w": 14,
+   "align": "middle"
+  },
+  {
+   "from": "bteam",
+   "to": "cteam",
+   "label": "the hand-off, once",
+   "dash": true,
+   "color": "#5a5a5a",
+   "bend": 0.0,
+   "lpos": 0.5,
+   "dy": 24,
+   "dx": 0,
+   "w": 18,
+   "align": "middle"
+  }
+ ],
+ "notes": [
+  {
+   "text": "Nothing else crosses from the book to the Cold-Read team: no brief, chapter, decision or finding.",
+   "vis": 0.6,
+   "evo": 0.64,
+   "w": 22
+  }
+ ],
+ "legend": [
+  {
+   "kind": "inside",
+   "text": "the book's team and its material"
+  },
+  {
+   "kind": "circle",
+   "fill": "#9fb4c8",
+   "text": "the Cold-Read team and its findings"
+  },
+  {
+   "kind": "flow",
+   "text": "what crosses between them"
+  },
+  {
+   "kind": "move",
+   "text": "the machinery, run a second and third time"
+  }
+ ]
+}

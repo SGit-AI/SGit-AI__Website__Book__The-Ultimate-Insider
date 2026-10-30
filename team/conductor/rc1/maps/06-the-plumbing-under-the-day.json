@@ -1,0 +1,189 @@
+{
+ "title": "Map 6. The plumbing under the day: what the editor brought, what the team built, what was rented",
+ "height": 860,
+ "components": [
+  {
+   "id": "editor",
+   "label": "The editor",
+   "vis": 0.99,
+   "evo": 0.45,
+   "anchor": true
+  },
+  {
+   "id": "team",
+   "label": "The agent team at work",
+   "vis": 0.88,
+   "evo": 0.06,
+   "w": 14
+  },
+  {
+   "id": "newsroom",
+   "label": "The newsroom's way of working: brief, write, review, publish",
+   "vis": 0.78,
+   "evo": 0.4,
+   "inside": true,
+   "w": 20
+  },
+  {
+   "id": "wake",
+   "label": "Five-step wake",
+   "vis": 0.7,
+   "evo": 0.05,
+   "w": 10
+  },
+  {
+   "id": "tools",
+   "label": "start.py, wake.py, agents.py, lock.py",
+   "vis": 0.62,
+   "evo": 0.17,
+   "w": 15
+  },
+  {
+   "id": "banners",
+   "label": "Start and end banners",
+   "vis": 0.6,
+   "evo": 0.42,
+   "inside": true,
+   "w": 12
+  },
+  {
+   "id": "gate",
+   "label": "The gate (validate.py)",
+   "vis": 0.47,
+   "evo": 0.16,
+   "w": 12
+  },
+  {
+   "id": "version",
+   "label": "CI owns the version",
+   "vis": 0.42,
+   "evo": 0.4,
+   "inside": true,
+   "w": 12
+  },
+  {
+   "id": "board",
+   "label": "Board and mail (Issues-FS, Email-FS)",
+   "vis": 0.32,
+   "evo": 0.3,
+   "inside": true,
+   "w": 14
+  },
+  {
+   "id": "vault",
+   "label": "Encrypted vaults (sgit)",
+   "vis": 0.2,
+   "evo": 0.34,
+   "inside": true,
+   "w": 12
+  },
+  {
+   "id": "keys",
+   "label": "Session keys (pki-agent)",
+   "vis": 0.3,
+   "evo": 0.45,
+   "inside": true,
+   "w": 12
+  },
+  {
+   "id": "sessions",
+   "label": "Agent sessions, scheduled tasks",
+   "vis": 0.24,
+   "evo": 0.67,
+   "w": 14
+  },
+  {
+   "id": "actions",
+   "label": "Hosted CI and pages",
+   "vis": 0.14,
+   "evo": 0.84,
+   "w": 10
+  },
+  {
+   "id": "git",
+   "label": "git",
+   "vis": 0.03,
+   "evo": 0.96
+  }
+ ],
+ "links": [
+  [
+   "editor",
+   "team"
+  ],
+  [
+   "team",
+   "newsroom"
+  ],
+  [
+   "team",
+   "wake"
+  ],
+  [
+   "team",
+   "tools"
+  ],
+  [
+   "team",
+   "sessions"
+  ],
+  [
+   "tools",
+   "banners"
+  ],
+  [
+   "tools",
+   "gate"
+  ],
+  [
+   "tools",
+   "board"
+  ],
+  [
+   "tools",
+   "keys"
+  ],
+  [
+   "gate",
+   "version"
+  ],
+  [
+   "board",
+   "vault"
+  ],
+  [
+   "version",
+   "actions"
+  ],
+  [
+   "actions",
+   "git"
+  ],
+  [
+   "sessions",
+   "git"
+  ],
+  [
+   "newsroom",
+   "banners"
+  ]
+ ],
+ "notes": [
+  {
+   "text": "Shaded: the editor's, made before the day and brought to it. White, on the left: written on the day.",
+   "vis": 0.97,
+   "evo": 0.64,
+   "w": 22
+  }
+ ],
+ "legend": [
+  {
+   "kind": "inside",
+   "text": "the editor's, made before the day"
+  },
+  {
+   "kind": "circle",
+   "text": "made on the day, or rented"
+  }
+ ]
+}

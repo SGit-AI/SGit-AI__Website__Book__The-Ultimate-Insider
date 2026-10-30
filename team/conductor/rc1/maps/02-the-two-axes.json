@@ -1,0 +1,105 @@
+{
+ "title": "Map 2. The two axes: what the editor sees, and how evolved each part is",
+ "height": 680,
+ "components": [
+  {
+   "id": "editor",
+   "label": "The editor",
+   "vis": 0.98,
+   "evo": 0.42,
+   "anchor": true
+  },
+  {
+   "id": "talk",
+   "label": "The talk: new, never given before",
+   "vis": 0.84,
+   "evo": 0.07,
+   "w": 18
+  },
+  {
+   "id": "slides",
+   "label": "Slides, made from the talk as data",
+   "vis": 0.64,
+   "evo": 0.18,
+   "w": 16
+  },
+  {
+   "id": "player",
+   "label": "Player, ported from ruv.sgit.ai",
+   "vis": 0.7,
+   "evo": 0.42,
+   "w": 16
+  },
+  {
+   "id": "site",
+   "label": "The site: built, gated, released",
+   "vis": 0.4,
+   "evo": 0.32,
+   "w": 16
+  },
+  {
+   "id": "ci",
+   "label": "CI (a hosted pipeline)",
+   "vis": 0.32,
+   "evo": 0.72,
+   "w": 22
+  },
+  {
+   "id": "host",
+   "label": "Hosting (static pages)",
+   "vis": 0.24,
+   "evo": 0.88,
+   "w": 14
+  },
+  {
+   "id": "git",
+   "label": "git",
+   "vis": 0.1,
+   "evo": 0.95
+  }
+ ],
+ "links": [
+  [
+   "editor",
+   "talk"
+  ],
+  [
+   "talk",
+   "slides"
+  ],
+  [
+   "talk",
+   "player"
+  ],
+  [
+   "slides",
+   "site"
+  ],
+  [
+   "player",
+   "site"
+  ],
+  [
+   "site",
+   "ci"
+  ],
+  [
+   "site",
+   "git"
+  ],
+  [
+   "ci",
+   "git"
+  ],
+  [
+   "ci",
+   "host"
+  ]
+ ],
+ "stage_notes": [
+  "new, rare, uncertain, made by hand",
+  "made for this need, better understood",
+  "bought or rented, many on offer",
+  "standard, cheap, taken for granted"
+ ]
+}

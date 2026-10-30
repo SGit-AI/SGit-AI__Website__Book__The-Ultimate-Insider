@@ -1,0 +1,112 @@
+{
+ "title": "Map 10. The talk's map: explorer coding swaps a commodity spreadsheet for a genesis app, many times over",
+ "components": [
+  {
+   "id": "user",
+   "label": "A person with a business problem",
+   "vis": 0.97,
+   "evo": 0.5,
+   "w": 18
+  },
+  {
+   "id": "sheet",
+   "label": "Spreadsheet as infrastructure",
+   "vis": 0.78,
+   "evo": 0.8,
+   "w": 18
+  },
+  {
+   "id": "app",
+   "label": "Explorer-coded application",
+   "vis": 0.78,
+   "evo": 0.12,
+   "move": 0.45,
+   "w": 18
+  },
+  {
+   "id": "agentdev",
+   "label": "Coding agents",
+   "vis": 0.58,
+   "evo": 0.45,
+   "move": 0.75,
+   "w": 18
+  },
+  {
+   "id": "data",
+   "label": "Business data, connectors",
+   "vis": 0.4,
+   "evo": 0.55,
+   "w": 18
+  },
+  {
+   "id": "sec",
+   "label": "Security for each new app",
+   "vis": 0.22,
+   "evo": 0.1,
+   "inside": true,
+   "move": 0.5,
+   "w": 18
+  },
+  {
+   "id": "cloud",
+   "label": "Hosting, compute",
+   "vis": 0.08,
+   "evo": 0.92,
+   "w": 18
+  }
+ ],
+ "links": [
+  [
+   "user",
+   "sheet"
+  ],
+  [
+   "user",
+   "app"
+  ],
+  [
+   "app",
+   "agentdev"
+  ],
+  [
+   "app",
+   "data"
+  ],
+  [
+   "sheet",
+   "data"
+  ],
+  [
+   "app",
+   "sec"
+  ],
+  [
+   "agentdev",
+   "cloud"
+  ],
+  [
+   "data",
+   "cloud"
+  ]
+ ],
+ "notes": [
+  {
+   "text": "the opportunity: security at the scale of the software",
+   "vis": 0.3,
+   "evo": 0.16,
+   "w": 28
+  }
+ ],
+ "source": "The talk's storyteller, team/storyteller/maps/2-spreadsheets-to-applications.json at 298be4e; labels and positions unchanged, re-rendered for print",
+ "height": 760,
+ "legend": [
+  {
+   "kind": "inside",
+   "text": "shaded: inside (the storyteller's mark)"
+  },
+  {
+   "kind": "move",
+   "text": "evolving: where it is heading"
+  }
+ ]
+}

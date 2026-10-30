@@ -1,0 +1,337 @@
+[
+  {
+    "file": "infographics/jpg/ig05-nine-staffed-agents.jpg",
+    "svg": "infographics/svg/ig05-nine-staffed-agents.svg",
+    "chapter": "00-before-you-start.md",
+    "anchor": "This book says nine, because nine is what worked, and it treats the missing security member as one of the day's findings rather than as a rounding.",
+    "orientation": "tile",
+    "caption": "Nine staffed agents, and a tenth folder for security, proposed and never staffed",
+    "claim_ids": [
+      "C011"
+    ]
+  },
+  {
+    "file": "infographics/jpg/ig01-the-day.jpg",
+    "svg": "infographics/svg/ig01-the-day.svg",
+    "chapter": "01-pause-all-actions.md",
+    "anchor": "They are the spine of the chapters that follow, so here they are in order.",
+    "orientation": "vertical",
+    "caption": "The day from the first commit at 00:16 to the talk at 19:00, in registered times only",
+    "claim_ids": [
+      "C001",
+      "C005",
+      "C006",
+      "C009",
+      "C010",
+      "C011",
+      "C013",
+      "C016",
+      "C022",
+      "C027",
+      "C028",
+      "C031"
+    ]
+  },
+  {
+    "file": "infographics/jpg/ig02-hold-asymmetry.jpg",
+    "svg": "infographics/svg/ig02-hold-asymmetry.svg",
+    "chapter": "01-pause-all-actions.md",
+    "anchor": "Nobody spoke for the editor; one member spoke on his instruction, and said so in the file.",
+    "orientation": "horizontal",
+    "caption": "The hold: any member can write and push it, every next wake stops, only the editor lifts it",
+    "claim_ids": [
+      "C006",
+      "C024"
+    ]
+  },
+  {
+    "file": "infographics/jpg/ig04-usage-95.jpg",
+    "svg": "infographics/svg/ig04-usage-95.svg",
+    "chapter": "01-pause-all-actions.md",
+    "anchor": "What the record holds is a human telling his agent that he was close to being cut off, and the agent turning that sentence into a stop for the whole team within the same minute.",
+    "orientation": "tile",
+    "caption": "The day's only usage figure: the editor's word, 95% of a 5-hour limit at 18:44, relayed",
+    "claim_ids": [
+      "C021",
+      "C037"
+    ]
+  },
+  {
+    "file": "infographics/jpg/ig07-first-hours-order.jpg",
+    "svg": "infographics/svg/ig07-first-hours-order.svg",
+    "chapter": "02-midnight-an-empty-repository.md",
+    "anchor": "Then the start of every session pulling first, a checklist every wake follows, a hold any member can pull, and, last, the schedule that turned the team from something the editor drove by hand into something that ran without him.",
+    "orientation": "vertical",
+    "caption": "What went into the empty repository, in order: brief, reality, corrections, gate, team, rules, schedule",
+    "claim_ids": []
+  },
+  {
+    "file": "infographics/jpg/ig08-accidental-designed.jpg",
+    "svg": "infographics/svg/ig08-accidental-designed.svg",
+    "chapter": "02-midnight-an-empty-repository.md",
+    "anchor": "Each is a designed control standing where an accidental one used to be.",
+    "orientation": "horizontal",
+    "caption": "The old insider's accidental limits, and the designed controls the team had in their place",
+    "claim_ids": []
+  },
+  {
+    "file": "infographics/jpg/ig09-mandate-twice.jpg",
+    "svg": "infographics/svg/ig09-mandate-twice.svg",
+    "chapter": "03-a-mandate-you-can-read.md",
+    "anchor": "`policy.json` is the same mandate for the tools: a list of capabilities wanted and not wanted, the paths the member may write, the things it holds, the files it may only append to, and a list of things it must never do.",
+    "orientation": "horizontal",
+    "caption": "One mandate written twice: ROLE.md in prose for the editor, policy.json as data for the tools",
+    "claim_ids": []
+  },
+  {
+    "file": "infographics/jpg/ig10-reach-mandate-gap.jpg",
+    "svg": "infographics/svg/ig10-reach-mandate-gap.svg",
+    "chapter": "03-a-mandate-you-can-read.md",
+    "anchor": "So for every member the gap was, near enough, the whole repository less its own folder.",
+    "orientation": "horizontal",
+    "caption": "Reach, mandate and the gap between them, with the four things that can stand in the gap",
+    "claim_ids": []
+  },
+  {
+    "file": "infographics/jpg/ig11-commits-by-member.jpg",
+    "svg": "infographics/svg/ig11-commits-by-member.svg",
+    "chapter": "03-a-mandate-you-can-read.md",
+    "anchor": "The scope check rested on attribution, and attribution was itself an expectation: a convention for writing commit messages that an agent could forget, and did.",
+    "orientation": "horizontal",
+    "caption": "Commits naming each member at the end of the day, read from commit subjects",
+    "claim_ids": [
+      "C014"
+    ]
+  },
+  {
+    "file": "infographics/jpg/ig12-key-per-session.jpg",
+    "svg": "infographics/svg/ig12-key-per-session.svg",
+    "chapter": "03-a-mandate-you-can-read.md",
+    "anchor": "The push is the authorisation: a key is the member's because the member pushed it.",
+    "orientation": "tile",
+    "caption": "A key per session: made in it, public half in key.json, the push authorises it, private half kept out",
+    "claim_ids": []
+  },
+  {
+    "file": "infographics/jpg/ig14-five-step-wake.jpg",
+    "svg": "infographics/svg/ig14-five-step-wake.svg",
+    "chapter": "04-the-hourly-machine.md",
+    "anchor": "A `stop` from any step writes the member's `HOLD.md`, and the whole team stops.",
+    "orientation": "horizontal",
+    "caption": "The five-step wake: plan, pre-review, the gate, work, post-review and post-check, and what a stop does",
+    "claim_ids": []
+  },
+  {
+    "file": "infographics/jpg/ig15-wake-verdicts.jpg",
+    "svg": "infographics/svg/ig15-wake-verdicts.svg",
+    "chapter": "04-the-hourly-machine.md",
+    "anchor": "No step, in any wake, said stop.",
+    "orientation": "vertical",
+    "caption": "Every verdict in the 162 wake records of the day, step by step; no step said stop",
+    "claim_ids": [
+      "C022",
+      "C023"
+    ]
+  },
+  {
+    "file": "infographics/jpg/ig18-night-findings.jpg",
+    "svg": "infographics/svg/ig18-night-findings.svg",
+    "chapter": "04-the-hourly-machine.md",
+    "anchor": "It does not make the next thing of the same kind impossible, and in a public store, what was pushed before the review stays pushed.",
+    "orientation": "horizontal",
+    "caption": "The day's four post-review findings; three are other sites' tokens in captured pages",
+    "claim_ids": [
+      "C025"
+    ]
+  },
+  {
+    "file": "infographics/jpg/ig19-talk-register.jpg",
+    "svg": "infographics/svg/ig19-talk-register.svg",
+    "chapter": "05-the-story-before-the-slides.md",
+    "anchor": "By kind, the largest groups were measured claims and claims about the team's own sites, then events, positions, observations and a handful of guesses.",
+    "orientation": "horizontal",
+    "caption": "The talk's own claims register at 18:20: 320 claims by whether each held as worded",
+    "claim_ids": [
+      "C029",
+      "C030"
+    ]
+  },
+  {
+    "file": "infographics/jpg/ig20-claims-to-stage.jpg",
+    "svg": "infographics/svg/ig20-claims-to-stage.svg",
+    "chapter": "05-the-story-before-the-slides.md",
+    "anchor": "\"In a beat\" means in the talk's source, not certainly spoken; whether each was said is for chapter 10 and the transcript the editor added after the day.",
+    "orientation": "vertical",
+    "caption": "From the talk's register to its stage: 320 claims, 80 placed, 55 in a beat, 29 not confirmed whole",
+    "claim_ids": [
+      "C029",
+      "C038",
+      "C039"
+    ]
+  },
+  {
+    "file": "infographics/jpg/ig21-the-figure-on-stage.jpg",
+    "svg": "infographics/svg/ig21-the-figure-on-stage.svg",
+    "chapter": "05-the-story-before-the-slides.md",
+    "anchor": "Nobody went back to the line.",
+    "orientation": "horizontal",
+    "caption": "The $17.4M figure: written at 00:40, fix proposed at 02:52 after the freeze, on screen unchanged at 19:00",
+    "claim_ids": [
+      "C010",
+      "C031"
+    ]
+  },
+  {
+    "file": "infographics/jpg/ig24-commits-by-author.jpg",
+    "svg": "infographics/svg/ig24-commits-by-author.svg",
+    "chapter": "06-the-editor-signs.md",
+    "anchor": "He ran a team of nine staffed agents (C011) for a day, and almost all of what he did was decide.",
+    "orientation": "tile",
+    "caption": "The 814 commits by 18:46, by author: 603 by the agents, 210 by CI, 1 by the editor",
+    "claim_ids": [
+      "C004"
+    ]
+  },
+  {
+    "file": "infographics/jpg/ig25-signing.jpg",
+    "svg": "infographics/svg/ig25-signing.svg",
+    "chapter": "06-the-editor-signs.md",
+    "anchor": "It is the boundary between a team that takes direction and a team in which any member can direct the others by claiming to quote him.",
+    "orientation": "vertical",
+    "caption": "The editor decides by signing: from a member's options to his words in its own session",
+    "claim_ids": []
+  },
+  {
+    "file": "infographics/jpg/ig26-beats-growth.jpg",
+    "svg": "infographics/svg/ig26-beats-growth.svg",
+    "chapter": "07-building-the-talk.md",
+    "anchor": "The talk that had stood at seventeen beats since the first hour more than tripled between 16:36 and 17:52.",
+    "orientation": "horizontal",
+    "caption": "How the talk grew: 17 beats from 00:40 to 16:36, then 22, 38 and 58 by 17:52, in three parts",
+    "claim_ids": [
+      "C015",
+      "C016"
+    ]
+  },
+  {
+    "file": "infographics/jpg/ig27-player-lines.jpg",
+    "svg": "infographics/svg/ig27-player-lines.svg",
+    "chapter": "07-building-the-talk.md",
+    "anchor": "At the end of the day the player was 977 lines (C017), more than four times the size it had been at lunchtime, and its last change, at 18:37, came twenty-three minutes before the talk was due to start (C018).",
+    "orientation": "tile",
+    "caption": "The player in lines: 234 at 00:40, 236 from 00:54, 635 at the port at 15:07, 977 at the end",
+    "claim_ids": [
+      "C017",
+      "C028"
+    ]
+  },
+  {
+    "file": "infographics/jpg/ig28-last-hour.jpg",
+    "svg": "infographics/svg/ig28-last-hour.svg",
+    "chapter": "08-the-locks-that-never-closed.md",
+    "anchor": "There is no commit at 18:30, and no locked copy in the tree at the end of the day (C027).",
+    "orientation": "horizontal",
+    "caption": "The last hour, 17:52 to 18:46: part 1 final, a lock tool, no lock, the hold, the last release",
+    "claim_ids": [
+      "C005",
+      "C006",
+      "C016",
+      "C027",
+      "C028"
+    ]
+  },
+  {
+    "file": "infographics/jpg/ig29-planned-length.jpg",
+    "svg": "infographics/svg/ig29-planned-length.svg",
+    "chapter": "08-the-locks-that-never-closed.md",
+    "anchor": "The first part was full; the second and third were still being filled when the day stopped.",
+    "orientation": "horizontal",
+    "caption": "Planned length: 74.9 minutes of beats in three parts against the player's 90-minute countdown",
+    "claim_ids": [
+      "C026"
+    ]
+  },
+  {
+    "file": "infographics/jpg/ig30-two-brakes.jpg",
+    "svg": "infographics/svg/ig30-two-brakes.svg",
+    "chapter": "08-the-locks-that-never-closed.md",
+    "anchor": "The hold was one commit and stopped everything.",
+    "orientation": "horizontal",
+    "caption": "Two brakes at 18:44: the team's lock, which never ran, and the owner's hold, which ran once",
+    "claim_ids": [
+      "C006",
+      "C024",
+      "C027"
+    ]
+  },
+  {
+    "file": "infographics/jpg/ig32-barrier-ladder.jpg",
+    "svg": "infographics/svg/ig32-barrier-ladder.svg",
+    "chapter": "09-the-team-was-the-insider.md",
+    "anchor": "The distinction is the whole chapter.",
+    "orientation": "vertical",
+    "caption": "The talk's ladder of barriers: nothing, a rule in prose, a hook inside, a boundary outside",
+    "claim_ids": []
+  },
+  {
+    "file": "infographics/jpg/ig34-reached-screen.jpg",
+    "svg": "infographics/svg/ig34-reached-screen.svg",
+    "chapter": "10-the-talk-as-given.md",
+    "anchor": "On the screen, it ended on a vault.",
+    "orientation": "horizontal",
+    "caption": "What reached the screen: every beat of parts 1 and 2; part 3 stopped at the vault, its close unshown",
+    "claim_ids": [
+      "C015"
+    ]
+  },
+  {
+    "file": "infographics/jpg/ig35-one-way-valve.jpg",
+    "svg": "infographics/svg/ig35-one-way-valve.svg",
+    "chapter": "11-what-the-cold-reader-saw.md",
+    "anchor": "The one-way valve that keeps the Cold-Read team blind is a rule: this repository may read that one, nothing flows the other way, and the only thing that crossed is the hand-off (`team/conductor/handoffs/2026-10-30__cold-read/`).",
+    "orientation": "horizontal",
+    "caption": "The one-way valve: the book reads the blind repository and nothing flows back; only the hand-off crossed",
+    "claim_ids": []
+  },
+  {
+    "file": "infographics/jpg/ig36-ci-owns-version.jpg",
+    "svg": "infographics/svg/ig36-ci-owns-version.svg",
+    "chapter": "12-build-your-own.md",
+    "anchor": "That rule kept every agent away from what the public saw as final.",
+    "orientation": "horizontal",
+    "caption": "CI owns the version: members push to dev, the gate checks, CI numbers each release, the editor merges",
+    "claim_ids": [
+      "C007",
+      "C009"
+    ]
+  },
+  {
+    "file": "infographics/jpg/ig37-comms-in-git.jpg",
+    "svg": "infographics/svg/ig37-comms-in-git.svg",
+    "chapter": "12-build-your-own.md",
+    "anchor": "Choose the simpler one unless you need the other.",
+    "orientation": "horizontal",
+    "caption": "Comms in git: ask in the other member's mailroom, keep a copy in your outbox, answer on the board",
+    "claim_ids": []
+  },
+  {
+    "file": "infographics/jpg/ig38-setup-order.jpg",
+    "svg": "infographics/svg/ig38-setup-order.svg",
+    "chapter": "12-build-your-own.md",
+    "anchor": "Build the floor before you staff anyone.",
+    "orientation": "vertical",
+    "caption": "Build your own, in this order: before the first commit, the floor, the rules, the team, the machine",
+    "claim_ids": []
+  },
+  {
+    "file": "infographics/jpg/ig39-every-number-rerun.jpg",
+    "svg": "infographics/svg/ig39-every-number-rerun.svg",
+    "chapter": "99-appendix-a-every-number-rerun.md",
+    "anchor": "This appendix prints those commands with what they return, so that a reader can check the book without trusting it.",
+    "orientation": "tile",
+    "caption": "One register entry: an id, a value, a state and a read-only command pinned to the last commit",
+    "claim_ids": [
+      "C006"
+    ]
+  }
+]

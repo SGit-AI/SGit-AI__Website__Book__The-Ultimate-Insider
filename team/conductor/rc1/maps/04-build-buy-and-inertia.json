@@ -1,0 +1,150 @@
+{
+ "title": "Map 4. Where to build, where to buy, and what holds a part back",
+ "height": 700,
+ "zones": [
+  {
+   "label": "Build: new, and yours to get right",
+   "vis": [
+    0.02,
+    0.95
+   ],
+   "evo": [
+    0.01,
+    0.49
+   ],
+   "fill": "#fbeee6",
+   "stroke": "#c98b5a",
+   "lpos": "bottom",
+   "w": 22,
+   "hatch": true
+  },
+  {
+   "label": "Buy or rent: someone else's job",
+   "vis": [
+    0.02,
+    0.95
+   ],
+   "evo": [
+    0.51,
+    0.99
+   ],
+   "fill": "#ececec",
+   "stroke": "#5a86b0",
+   "lpos": "bottom",
+   "w": 22
+  }
+ ],
+ "components": [
+  {
+   "id": "editor",
+   "label": "The editor",
+   "vis": 0.99,
+   "evo": 0.42,
+   "anchor": true
+  },
+  {
+   "id": "talk",
+   "label": "The talk",
+   "vis": 0.85,
+   "evo": 0.07
+  },
+  {
+   "id": "policy",
+   "label": "Behaviour policies (the team's mandates)",
+   "vis": 0.66,
+   "evo": 0.1,
+   "move": 0.42,
+   "inertia": 0.25,
+   "w": 18
+  },
+  {
+   "id": "gate",
+   "label": "The gate",
+   "vis": 0.5,
+   "evo": 0.3
+  },
+  {
+   "id": "player",
+   "label": "Player (ported, not rebuilt)",
+   "vis": 0.78,
+   "evo": 0.4,
+   "w": 16
+  },
+  {
+   "id": "sessions",
+   "label": "Agent sessions",
+   "vis": 0.5,
+   "evo": 0.66,
+   "w": 14
+  },
+  {
+   "id": "gh",
+   "label": "Code host, CI, hosting",
+   "vis": 0.32,
+   "evo": 0.84,
+   "w": 9
+  },
+  {
+   "id": "git",
+   "label": "git",
+   "vis": 0.16,
+   "evo": 0.95
+  }
+ ],
+ "links": [
+  [
+   "editor",
+   "talk"
+  ],
+  [
+   "talk",
+   "policy"
+  ],
+  [
+   "talk",
+   "player"
+  ],
+  [
+   "policy",
+   "sessions"
+  ],
+  [
+   "policy",
+   "gate"
+  ],
+  [
+   "gate",
+   "gh"
+  ],
+  [
+   "sessions",
+   "gh"
+  ],
+  [
+   "gh",
+   "git"
+  ],
+  [
+   "player",
+   "gate"
+  ]
+ ],
+ "notes": [
+  {
+   "text": "inertia (the editor's 'attrition'): changing how people work is hard",
+   "vis": 0.36,
+   "evo": 0.02,
+   "w": 22
+  }
+ ],
+ "legend": [
+  {
+   "kind": "move",
+   "text": "evolving"
+  },
+  {
+   "kind": "inertia",
+   "text": "inertia: what holds the move back"
+  }
+ ]
+}

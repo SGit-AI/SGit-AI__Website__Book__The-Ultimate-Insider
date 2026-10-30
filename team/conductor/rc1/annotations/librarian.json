@@ -1,0 +1,174 @@
+{
+ "schema": "the-ultimate-insider/rc1-annotations/v1",
+ "role": "librarian",
+ "drafted_by": "a conductor sub-agent reading as the librarian (not the member's own words)",
+ "summary": "RC1 is well sourced: every file ends with where it came from, and no commit or register id in those lists fails to resolve. The gaps are at the edges: numbers and citations taken from the Cold-Read team without a pin or a register id, images and room quotations with no stated licence or consent, and a few statements left stale or contradicted between chapters.",
+ "items": [
+  {
+   "id": "librarian-01",
+   "chapter": "11-what-the-cold-reader-saw.md",
+   "anchor": "Numbers given as the Cold-Read team's own are named as theirs.",
+   "kind": "decision",
+   "title": "Cold-Read numbers have no register ids",
+   "body": "Chapter 11 states counts from the Cold-Read team with no register id: its member count, the critic's two commit counts from the talk's slides, the analyst's conductor and merge counts, the security member's records with an earlier change, the governance member's out-of-order wakes. Chapter 9 adds the seconds between the hold and the designer's commit. The book's rules make the register the only place a number may come from, and Appendix A promises every number can be rerun.",
+   "options": [
+    "A: The researcher registers each, sourced to the Cold-Read repository at a pinned commit and rerun from the talk's history",
+    "B: Remove the numbers and describe the disagreements in words",
+    "C: Allow attributed numbers, by an exception stated in chapter 0"
+   ],
+   "recommendation": "A: the disagreements of definition are chapter 11's best material, and the appendix promise should cover every number in print.",
+   "answer_space": "none",
+   "claim_ids": []
+  },
+  {
+   "id": "librarian-02",
+   "chapter": "11-what-the-cold-reader-saw.md",
+   "anchor": "This chapter reads its finished work against this book's.",
+   "kind": "decision",
+   "title": "Pin and label every Cold-Read citation",
+   "body": "Chapters 9 and 11 cite Cold-Read files by path with no commit, except 7e13725 and 482c9b6. The librarian indexed that repository at 0dc6854, which is not in the conductor's read-only clone (latest 9e6a7a1, 09:54); the Cold-Read team kept working after both. And its paths read as this repository's own: team/security/controls-and-threats.md or team/historian/timeline.md could be ours. A reader cannot tell which team said what, or at which state.",
+   "options": [
+    "A: One stated pin for the Cold-Read repository in chapter 11's sources, and every path prefixed by its repository (Cold-Read, talk, book) in every chapter",
+    "B: A commit beside every Cold-Read citation",
+    "C: Leave as drafted"
+   ],
+   "recommendation": "A: one pin the librarian confirms against the repository itself, and one prefix convention for all three repositories; it also settles the ambiguity check_sources.py reports.",
+   "answer_space": "none",
+   "claim_ids": []
+  },
+  {
+   "id": "librarian-03",
+   "chapter": "10-the-talk-as-given.md",
+   "anchor": "For the first two parts, the plan held exactly.",
+   "kind": "decision",
+   "title": "Under what licence do the images print?",
+   "body": "Every chapter prints images copied from the talk's repository, which is Apache-2.0; the book's text is CC BY 4.0 (decision Q5). Several stills carry third-party material: the definition slide credits a vendor-commissioned survey, slide footers cite outside authors' work, the title slide names the host. Nothing in RC1 says under what licence the pictures may be reused, and a CC BY reader will assume CC BY.",
+   "options": [
+    "A: You, as owner of the talk's repository, release the reproduced images under CC BY 4.0, with a credits page listing each image's source path, commit and licence",
+    "B: Keep them Apache-2.0 and add a notice page saying the images are not CC BY",
+    "C: Replace the stills that carry third-party credits with descriptions"
+   ],
+   "recommendation": "A, with the credits page built from each chapter's image list (every one already names its source path); the third-party credits stay visible as attribution, not as licensed content.",
+   "answer_space": "none",
+   "claim_ids": []
+  },
+  {
+   "id": "librarian-04",
+   "chapter": "10-the-talk-as-given.md",
+   "anchor": "They asked whose responsibility it is to limit an agent's capability, whether the bottleneck is education, how the harness compares with existing policy engines and credential services, how it would inspect a database payload, and what it was written in.",
+   "kind": "decision",
+   "title": "Quoting the room and the host",
+   "body": "Chapter 10 quotes and paraphrases questions from the room and the host's introduction, from a transcript the talk's conductor cleaned and anonymised (a9c0b49, added after the day). Under CC BY 4.0 anyone may reuse those words. Only you know how the recording was made, and whether the host and the room knew it might be published.",
+   "options": [
+    "A: Paraphrase the room, quote only the speaker verbatim, and add one sentence on how the recording was made",
+    "B: Quote the room verbatim as now, anonymised",
+    "C: Ask the host before print"
+   ],
+   "recommendation": "A: the argument needs what was asked, not the exact words, and a sentence on the recording answers a careful reader's first question.",
+   "answer_space": "none",
+   "claim_ids": []
+  },
+  {
+   "id": "librarian-05",
+   "chapter": "11-what-the-cold-reader-saw.md",
+   "anchor": "Neither is wrong; they count different things.",
+   "kind": "comment",
+   "title": "Pictures carry numbers the register never saw",
+   "body": "The rule that every number is traced covers the text, not the images. The 'Meet the team' still, printed in chapters 10 and 11, shows the talk's own counter at 17:02: hours, commits, releases, wakes, overnight commits and holds. Chapter 11's argument rests on those figures, yet none has an entry. The definition still shows the survey figure, which does (C031).",
+   "options": [],
+   "recommendation": "Each caption that shows a number names its register id or says 'the talk's own figures, as shown on the night'; the researcher registers the 17:02 counter, since chapter 11 argues from it.",
+   "answer_space": "none",
+   "claim_ids": [
+    "C031"
+   ]
+  },
+  {
+   "id": "librarian-06",
+   "chapter": "12-build-your-own.md",
+   "anchor": "The scope check runs on every release (`admin/build/agents.py check`).",
+   "kind": "comment",
+   "title": "Chapter 12 contradicts chapter 3 on the scope check",
+   "body": "Chapter 3 is right: 'Nothing in the release pipeline runs it.' admin/build/validate.py calls agents.py only with 'overlaps' (check_team), in the talk's repository and in this one; the member runs 'check' on itself in its wake. Chapter 12 says the opposite, in the chapter a builder will copy, and a reader who trusts it will believe the setting refuses releases when it only reports.",
+   "options": [],
+   "recommendation": "Rewrite as: 'The scope check runs in every wake, by the member on itself; the gate checks only that no two members claim the same file.'",
+   "answer_space": "none",
+   "claim_ids": []
+  },
+  {
+   "id": "librarian-07",
+   "chapter": "12-build-your-own.md",
+   "anchor": "By morning, the conductor was asking him whether idle members should pause, since \"each wake costs some of your usage\" and some members had nothing to do until the plan was signed (U1, open).",
+   "kind": "comment",
+   "title": "Two decisions printed as open are signed",
+   "body": "book.json records U1 and C10b as decided by your word of about 10:40 UTC, with Q3, Q4, O4, L1 and L2. Chapter 12 still marks U1 open, and chapter 9 says book.json 'holds the open decision C10b'. Both chapters were drafted from the state before your 10:40 word.",
+   "options": [],
+   "recommendation": "Update both, and have the publisher check every decision id a chapter names against book.json before each print.",
+   "answer_space": "none",
+   "claim_ids": []
+  },
+  {
+   "id": "librarian-08",
+   "chapter": "12-build-your-own.md",
+   "anchor": "The precedent for this section is the graphs.sgit.ai making-of, a book about making books with an agent team, from the same house: 88 releases in six days, a median of about half an hour apart (C032), three books on its shelf (C033), a team of seven roles (C034), and every number computed from git (C035).",
+   "kind": "comment",
+   "title": "Cite the making-of itself, not our note on it",
+   "body": "Chapter 12 quotes the graphs.sgit.ai making-of verbatim twice and cites it only through claims/graphs-sgit-ai.md, the researcher's note. Quoted text from another book needs its own attribution: its title, where it is published, and the commit read. Appendix A already names SGit-AI__Website__Graphs at d39e717; the chapter does not.",
+   "options": [],
+   "recommendation": "Add a source line naming the making-of, its site and d39e717, with the claims note as the check behind the numbers.",
+   "answer_space": "none",
+   "claim_ids": []
+  },
+  {
+   "id": "librarian-09",
+   "chapter": "00-before-you-start.md",
+   "anchor": "A short hash in backticks, such as `867f8c2`, names one commit in that history; anyone with the repository can open it and see what this book saw.",
+   "kind": "rationale",
+   "title": "Why the source lists use shorthand in RC1",
+   "body": "Every RC1 file, from the about page to Appendix A, ends with 'Where this came from'. The librarian's index/tools/check_sources.py finds no missing commit or register id in any of them; Appendix A's d39e717 is in a fourth repository the tool does not read. What it flags is shorthand (day/14.md, story/tree.md, a bare policy.json) and the slide stills added after the day, which every source list already says. The shorthand was kept so each list stays readable on paper.",
+   "options": [],
+   "recommendation": "Expand to full paths in the revision: a reader holding only the book cannot resolve 'day/14.md'.",
+   "answer_space": "none",
+   "claim_ids": []
+  },
+  {
+   "id": "librarian-10",
+   "chapter": "04-the-hourly-machine.md",
+   "anchor": "Making the team's correspondence public is the most counter-intuitive choice in the machine, and on reflection one of the soundest.",
+   "kind": "decision",
+   "title": "The talk team's vaults: inside or outside the record?",
+   "body": "The talk team's board and mail lived in two public vaults outside git, and the researcher's evidence in a third. RC1 reaches them only through git files that mirrored them (requests folders, routing commits, the 07:18 vault-history note), and the index covers git only. The evidence vault's history still holds other sites' tokens (D12 was never decided), so the book must never print its read key or link into it.",
+   "options": [
+    "A: Say in chapter 0 that vault contents are outside the record, cited only through git",
+    "B: The librarian indexes the public vaults read-only, by their published read keys, cited by vault commit",
+    "C: Leave it to the first edition"
+   ],
+   "recommendation": "A for this revision: your 'no vaults for now' and the unsettled D12 argue against reaching into them; B only at your word.",
+   "answer_space": "none",
+   "claim_ids": []
+  },
+  {
+   "id": "librarian-11",
+   "chapter": "11-what-the-cold-reader-saw.md",
+   "anchor": "The brief that crossed was this book's own, byte for byte, and was addressed to \"conductor@the-blind-repo\"; the Cold-Read conductor recorded the mismatch in its corrections, and recorded that the brief named the live site, which the editor's prompt forbade (its `BRIEF-CORRECTIONS.md`).",
+   "kind": "comment",
+   "title": "The brief that crossed was the editor's, not ours",
+   "body": "'This book's own' reads as if this team's material crossed the valve. The file that crossed is the editor's brief for the blind repository, briefs/2026-10-30/2-blind-repo-brief.md, identical to team/conductor/handoffs/2026-10-30__cold-read/BRIEF.md (checked). Its address and the live-site link were in that brief from the start, and the hand-off README lists what was deliberately left out. The valve held; the mismatch was in the brief's wording.",
+   "options": [],
+   "recommendation": "Name the file and say the hand-off was the only thing that crossed, as its README records.",
+   "answer_space": "none",
+   "claim_ids": []
+  },
+  {
+   "id": "librarian-12",
+   "chapter": "10-the-talk-as-given.md",
+   "anchor": "First, it is an edited record.",
+   "kind": "question",
+   "title": "Will you add the raw transcript of the talk?",
+   "body": "Every quotation in chapter 10 comes from team/conductor/talk-record/transcript.json, the record the talk's conductor cleaned with sub-agents: swearing, filler and some remarks removed or made neutral, names corrected, the room anonymised. The cleaning is described honestly but cannot be checked, because neither the recording nor the automatic transcript is in the source. Decision Q4 says they enter it when you share them. Will you add the automatic transcript (it need not be printed) so each quotation can be traced to what was said?",
+   "options": [],
+   "recommendation": "",
+   "answer_space": "lines",
+   "claim_ids": []
+  }
+ ]
+}
