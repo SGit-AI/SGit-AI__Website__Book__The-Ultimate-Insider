@@ -249,7 +249,7 @@ git show 298be4e:evidence/claims/claims.json | python3 -c "import json,sys;[prin
 State: checked.
 
 ```
-git log 298be4e -S'data-count="17.4"' --format='%h %ci %s' -- src/static/talk/slides/definition/index.html; git show 298be4e:evidence/proposals/deck-talk-changes.md | grep -n '19.5'; then read https://ponemon.dtex.ai/ (the public landing page; the full report is behind a form, not filled in)
+git log 298be4e -S'data-count="17.4"' --format='%h %ci %s' -- src/static/talk/slides/definition/index.html; git show 298be4e:evidence/proposals/deck-talk-changes.md | grep -n '19.5'; then read https://ponemon.dtex.ai/ (the public landing page; the full report is behind a form, not filled in); git show 298be4e:team/deck/requests/researcher__before-tonight.md | grep -n 'frozen'; git log 298be4e --no-merges --format='%h %ci' -- src/static/talk/slides/definition/index.html
 ```
 
 ## C032: graphs.sgit.ai's making-of: 88 releases in 6 days, a median of 31 minutes apart
@@ -321,9 +321,9 @@ method: the C038 filter, then each place's name compared with talk.json's beat i
 State: corrected.
 
 ```
-git show c9ced4e --format=%b | head -12; git show 298be4e:team/conductor/briefs/2026-10-29__editor/conductor-notes.md | sed -n '5,14p'
+git show c9ced4e --format=%b | head -12; git show 298be4e:team/conductor/briefs/2026-10-29__editor/conductor-notes.md | sed -n '5,14p'; git log 298be4e --format='%h %ci %s' --since=2026-10-29T14:07Z --until=2026-10-29T15:07:09Z -- team/dev src/static/talk/player.html
 ```
 
 ## Where this came from
 
-`claims/register.json`, the `command` of each entry, run in this session against `298be4e` and `d39e717`; spot-checked on 30 October 05:45 (C004, C009, C014, C019, C022, C024, C026, C029, C031), 06:45 (C038), 07:45 (C039) and 08:45 (C031, C040), each giving the registered value. C031's 2026 figure is read from a web page, fetched 30 October 2026.
+`claims/register.json`, the `command` of each entry, run in this session against `298be4e` and `d39e717`; spot-checked on 30 October 05:45 (C004, C009, C014, C019, C022, C024, C026, C029, C031), 06:45 (C038), 07:45 (C039), 08:45 (C031, C040) and 09:40 (C031, C040), each giving the registered value. C031's 2026 figure is read from a web page, fetched 30 October 2026.

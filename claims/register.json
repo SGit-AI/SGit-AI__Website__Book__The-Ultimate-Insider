@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-10-30T09:00:00Z",
+ "as_of": "2026-10-30T09:50:00Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -739,17 +739,20 @@
     "on_stage": "$17.4M (Ponemon for DTEX, 2025 edition), written at 00:40 (1f7c633) and never changed",
     "at_source_2025": "$17.4M, 'up from $16.2M in 2023' (dtex.ai blog, 2025 report)",
     "at_source_2026": "US$19.5M, the 2026 Cost of Insider Risks Global Report (ponemon.dtex.ai landing page)",
-    "correction_proposed": "a082c52, 02:52: the talk's researcher proposed the exact replacement text to deck (evidence/proposals/deck-talk-changes.md)"
+    "correction_proposed": "a082c52, 02:52: the talk's researcher proposed the exact replacement text to deck (evidence/proposals/deck-talk-changes.md)",
+    "freeze": "02:47: the editor, in deck's session: 'do not touch the deck. talk.json and the slides are frozen from now on' (team/deck/requests/researcher__before-tonight.md, deck's 03:00 update); D01 in the editor's register from 04:12 (91772e6)",
+    "freeze_lifted": "14:07, for the framing only (c9ced4e, conductor-notes.md)",
+    "after_the_lift": "the definition slide file has no commit after 00:40; talk.json had 8 commits after 14:07, none touching the $17.4M cue"
    },
    "state": "checked",
    "source": {
     "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
     "at": "298be4e",
-    "evidence": "1f7c633; a082c52; evidence/proposals/deck-talk-changes.md; https://www.dtex.ai/blog/2025-cost-insider-risks-takeaways/ and https://ponemon.dtex.ai/, fetched 30 October 2026"
+    "evidence": "1f7c633; a082c52; evidence/proposals/deck-talk-changes.md; https://www.dtex.ai/blog/2025-cost-insider-risks-takeaways/ and https://ponemon.dtex.ai/, fetched 30 October 2026; team/deck/requests/researcher__before-tonight.md; 91772e6; c9ced4e"
    },
    "method": "the claim's register entry read; grep of src/ at 298be4e for 17.4 and 19.5",
-   "note": "Checked at source on 30 October: the 2025 edition gives $17.4M and the 2026 edition gives US$19.5M, so the slide was right about 2025 and out of date in the present tense. The failure is the timeline, not the research: the line was written at 00:40 and never touched again (git log -S finds only 1f7c633), and the talk's researcher proposed the exact replacement to deck at 02:52, about 16 hours before the talk. The proposal stayed in evidence/proposals/; nothing in team/deck/ mentions it. Whether deck received it (the talk's mail was in a public vault, not the repository) is for the historian. The book may cite $19.5M (2026 edition) for the present, and $17.4M only as the figure the talk used. Both are a sponsor-commissioned survey (Ponemon for DTEX), and the book should say so.",
-   "command": "git log 298be4e -S'data-count=\"17.4\"' --format='%h %ci %s' -- src/static/talk/slides/definition/index.html; git show 298be4e:evidence/proposals/deck-talk-changes.md | grep -n '19.5'; then read https://ponemon.dtex.ai/ (the public landing page; the full report is behind a form, not filled in)"
+   "note": "Checked at source on 30 October: the 2025 edition gives $17.4M and the 2026 edition US$19.5M. The timeline, verified at 09:40 from the historian's reply (team/historian/requests/researcher__re-c031-c040.md): the line was written at 00:40; the editor froze talk.json and the slides at 02:47; the talk's researcher committed the exact replacement five minutes later, at 02:52 (a082c52), after deck had already released the earlier items of the same list at 02:20. Deck recorded the rest as not acted on because of the freeze. The freeze was lifted at 14:07 for the framing only, and nobody returned to the line: the slide file has no commit after 00:40. So the correction was not lost by a careless member; it arrived just after a freeze the editor set, and no one owned carrying it across the lift. The book may cite $19.5M (2026 edition) for the present and $17.4M only as the figure the talk used; both are a sponsor-commissioned survey (Ponemon for DTEX).",
+   "command": "git log 298be4e -S'data-count=\"17.4\"' --format='%h %ci %s' -- src/static/talk/slides/definition/index.html; git show 298be4e:evidence/proposals/deck-talk-changes.md | grep -n '19.5'; then read https://ponemon.dtex.ai/ (the public landing page; the full report is behind a form, not filled in); git show 298be4e:team/deck/requests/researcher__before-tonight.md | grep -n 'frozen'; git log 298be4e --no-merges --format='%h %ci' -- src/static/talk/slides/definition/index.html"
   },
   {
    "id": "C032",
@@ -958,7 +961,8 @@
    "value": {
     "editor_brief": "about 14:00 London: 'The player ... This is the main priority, because the talk is at 19:00' (team/conductor/briefs/2026-10-29__editor/README.md, committed c9ced4e at 14:07)",
     "order_routed": "the conductor's notes in the same commit: '1. dev: the editor's feedback pane and lane, with voice. The editor wakes dev for it now ... 2. dev: the player', after the editor's chat words on the lane key",
-    "port_landed": "15:07 (C028)"
+    "port_landed": "15:07 (C028)",
+    "player_by_14_53": "not started: between 14:07 and 14:58 dev's wakes were a design fix (9f17ce7, 14:08) and the editor's 14:17 wake that built the lane (9a51c28, 14:28); the port's first trace is the editor's wake opened at 14:58:10, landing at 15:07:08 (3314ffe)"
    },
    "state": "corrected",
    "source": {
@@ -967,8 +971,8 @@
     "evidence": "c9ced4e; team/conductor/briefs/2026-10-29__editor/README.md, conductor-notes.md"
    },
    "method": "git grep for 13:50 and for priority near player at 298be4e; the commit that carried the editor's briefs read",
-   "command": "git show c9ced4e --format=%b | head -12; git show 298be4e:team/conductor/briefs/2026-10-29__editor/conductor-notes.md | sed -n '5,14p'",
-   "note": "The record has the player as 'the main priority' in the editor's briefs of about 14:00 (no 13:50 time is attached to it; 13:50 appears only as a time the editor spoke about the player's build mode, in team/dev/debriefs/2026-10-29__the-build-mode.md). In the same hand-over the conductor's notes put the editor's feedback lane first and the player second, quoting the editor's chat on the lane key. So the lesson 'start the highest-risk port first' is not that the team ignored a priority: the order changed at the editor's own word within minutes. 'Still not started at 14:53' is not yet checked."
+   "command": "git show c9ced4e --format=%b | head -12; git show 298be4e:team/conductor/briefs/2026-10-29__editor/conductor-notes.md | sed -n '5,14p'; git log 298be4e --format='%h %ci %s' --since=2026-10-29T14:07Z --until=2026-10-29T15:07:09Z -- team/dev src/static/talk/player.html",
+   "note": "The record has the player as 'the main priority' in the editor's briefs of about 14:00 (no 13:50 time is attached to it; 13:50 appears only as a time the editor spoke about the player's build mode, in team/dev/debriefs/2026-10-29__the-build-mode.md). In the same hand-over the conductor's notes put the editor's feedback lane first and the player second, quoting the editor's chat on the lane key. So the lesson 'start the highest-risk port first' is not that the team ignored a priority: the order changed at the editor's own word within minutes. 'Still not started at 14:53' holds: verified at 09:40 from the historian's reply against dev's commits (9f17ce7, 9a51c28, c28749e, 3314ffe); 14:53 itself is not a time the record attaches to the player."
   }
  ]
 }

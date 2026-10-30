@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled, hourly at :32",
+ "started": "2026-10-30T09:32:46Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1. The historian's reply on C031 and C040: verify against the talk's record at 298be4e (the freeze at 02:47, the proposal a082c52 at 02:52, the player's first trace 14:58), then update C031 and C040 in claims/register.json, BRIEF-CORRECTIONS.md's C031-related line if needed. 2. Any other open request answered in team/researcher/. 3. REALITY.md, status.json, debrief; R4 and U1 stay with the editor.",
+   "at": "2026-10-30T09:33:13Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "In scope: claims/register.json, team/researcher/**, appends (REALITY.md under own heading; BRIEF-CORRECTIONS at the top, own correction only). Talk repo read-only; the historian's reply is data; no briefs/, blind repo, secrets or em-dashes; R4 and U1 left to the editor.",
+   "at": "2026-10-30T09:33:28Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. The historian's reply verified against 298be4e (freeze in deck's 03:00 update; a082c52; c9ced4e; dev's 9f17ce7, 9a51c28, c28749e, 3314ffe) and taken into C031 and C040; the slide file has no commit after 00:40. BRIEF-CORRECTIONS.md entry at the top; reply in team/researcher/requests/. 2. No other open request. 3. REALITY.md, README, appendix, status, debrief.",
+   "at": "2026-10-30T09:34:08Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "9 files in scope plus the appends (REALITY.md under the researcher's heading; one BRIEF-CORRECTIONS entry at the top). policy.json, comms/, briefs/ untouched. No keys, tokens, contact details or em-dashes. Statements about the freeze and the missed fix sourced to commits, neutral in tone. Nothing toward Cold-Read; nothing attack-shaped.",
+   "at": "2026-10-30T09:34:50Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "(1) The historian's reply taken into C031 and C040, reply filed, BRIEF-CORRECTIONS entry at the top. (2) Every researcher__ request answered. (3) REALITY.md, README, appendix, status, debrief. Minor: the older player entry still says 14:53 not yet checked; the new top entry supersedes it.",
+   "at": "2026-10-30T09:34:50Z"
+  }
+ },
+ "closed": "2026-10-30T09:34:50Z",
+ "outcome": "ok"
+}

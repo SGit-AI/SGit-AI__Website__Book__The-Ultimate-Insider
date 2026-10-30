@@ -51,3 +51,7 @@ C039: of the 80 claims placed on stage, 55 are in a beat of the talk at `298be4e
 - **C040, the player priority.** The editor's briefs of about 14:00 make the player the main priority, but the same hand-over put the editor's own feedback lane first, at his word. The lessons brief is corrected in `BRIEF-CORRECTIONS.md`.
 
 40 claims: 33 checked, 5 corrected, 2 open.
+
+## Round 1, ninth pass: the freeze (30 October 2026, 09:32 wake)
+
+The historian's timeline, verified against `298be4e`, settles both: the $17.4M fix (C031) arrived five minutes after the editor froze the slides at 02:47 and was never carried across the 14:07 lift; the player (C040) was not started by 14:53, because the editor's lane went first. 40 claims: 33 checked, 5 corrected, 2 open.
