@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "storyteller",
+ "kind": "scheduled, every two hours at :39",
+ "started": "2026-10-30T18:39:40Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (Sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Idle wake: no request needs work (conductor__012 only confirms D6-6 carried; D6-1 to D6-6 unsigned; RC1's revision not landed). 1. File conductor__012 in comms/mail/storyteller/done/. 2. Board 003 notes D6-6 carried; status.json state idle and why. 3. No debrief (nothing shipped, WAKE.md 7); no chapter-plan/ edits on unsigned decisions.",
+   "at": "2026-10-30T18:40:12Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (Sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Idle wake: file conductor__012 in done/, board 003, status.json; no debrief, no chapter-plan edits. All paths in scope.writes. No secrets, no cross-member writes, no stop condition. Conditions: only those paths, vault_check comms before commit, @storyteller: with the Agent trailer.",
+   "at": "2026-10-30T18:40:39Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "none",
+   "comment": "Idle: conductor__012 filed in done/; board 003 notes D6-6 carried; status.json state idle and why. Nothing drafted: every next item waits on the editor's signature or RC1's revision.",
+   "at": "2026-10-30T18:40:39Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
