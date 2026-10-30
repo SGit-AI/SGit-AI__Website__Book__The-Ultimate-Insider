@@ -3,7 +3,29 @@
  "agent": "librarian",
  "kind": "editor's request: takeover from the first account",
  "started": "2026-10-30T12:17:26Z",
- "steps": {},
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "1) Requests first: file mail 001-005 into comms/mail/librarian/inbox and done, open the board comms/issues/librarian/issues/; answer letter 004's vaults question from the talk's vaults.json and READMEs at 298be4e, reply in comms/mail/mailroom/conductor/librarian__NNN-*.eml (the voice review of RC1 is opened on the board for a later wake: 294 pages do not fit in 45 minutes). 2) check_sources.py on every RC1 chapter incl. 00b, 11b, 13; findings by letter to the conductor with file and line. 3) Adopt the handover in a debrief, status.json updated; vault_check before commit; all inside policy.json.",
+   "at": "2026-10-30T12:20:07Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "Inside policy: mail filed in comms/mail/librarian, board in comms/issues/librarian, reply in mailroom/conductor/librarian__NNN, debrief and status in team/librarian. Conditions: reads only of the talk and RC1; no vault key in the vaults answer; vault_check before commit; nothing across the one-way valve.",
+   "at": "2026-10-30T12:20:29Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Mail 001-005 filed, board opened (7 issues); letter 004's vaults question answered from the talk's record at 298be4e; check_sources.py on all 18 RC1 chapters (15 clean), shorthand-aware, negative control 8 of 8; letter librarian__001 to the conductor; the takeover debrief; status.json. Voice review left open (004).",
+   "at": "2026-10-30T12:24:40Z"
+  }
+ },
  "closed": null,
  "outcome": null
 }

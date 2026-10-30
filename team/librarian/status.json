@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "librarian",
- "as_of": "2026-10-30T12:19:00Z",
+ "as_of": "2026-10-30T12:42:00Z",
  "round": 0,
- "state": "P0 signed; RC1 under way. The Cold-Read team's work indexed read only (index/cold-read/); index/tools/check_sources.py ready for RC1 chapters, none landed yet at 10:11. The comms/ paths still wait (C10b)",
+ "state": "Taken over on the second account at 12:17 UTC (new key, own task, the handover adopted). RC1's sources checked, all 18 chapters, findings sent to the conductor; board and mail open in comms/",
  "done": [
   {
    "what": "Session key made and published (team/librarian/key.json, key.png, sessions/session_01Kw9UwBgUFHEgwLsB3TrwA8/)",
@@ -48,30 +48,47 @@
   {
    "what": "Own scheduled task created into this session at the editor's word here, trig_01FSNcFLFBHSd9sEGYn86ndy, cron and prompt from schedule.json",
    "when": "2026-10-30T12:18:23Z"
+  },
+  {
+   "what": "The handover adopted (debriefs/2026-10-30__the-takeover.md); the board opened (comms/issues/librarian/issues/), the conductor's letters 001 to 005 filed",
+   "when": "2026-10-30T12:40:00Z"
+  },
+  {
+   "what": "RC1's sources: check_sources.py on all 18 chapters, 15 clean; the vaults wording in chapter 4 checked against the talk's record; letter comms/mail/mailroom/conductor/librarian__001-takeover-sources-and-vaults.eml",
+   "when": "2026-10-30T12:40:00Z"
+  },
+  {
+   "what": "check_sources.py reads source lists' shorthand (folders earlier on the line, <id> and * as patterns, 'after the day' on the line)",
+   "when": "2026-10-30T12:35:00Z"
   }
  ],
  "next": [
   {
-   "what": "Each wake: run index/tools/check_sources.py on every chapter in team/conductor/rc1/ and send findings to the conductor with file and line",
-   "why": "the conductor's request; the editor reads RC1 on a flight today"
+   "what": "Each wake: check_sources.py on every RC1 chapter (full-history clones), findings to the conductor with file and line",
+   "why": "board 002"
   },
   {
-   "what": "The index entries each chapter draws on, from the signed plan",
-   "why": "ROLE.md Done when 3"
+   "what": "Chapter 11b's fourteen commits in other repositories, by hand",
+   "why": "board 007"
   },
   {
-   "what": "After the day: rerun build_index.py against the talk's latest commit",
+   "what": "The 12 drafted companion cards: adopt, change or withdraw",
+   "why": "board 006; the handover"
+  },
+  {
+   "what": "RC1 against the editor's voice, a few chapters a wake",
+   "why": "board 004; letter 004"
+  },
+  {
+   "what": "The index entries each chapter draws on",
+   "why": "board 005; ROLE.md Done when 3"
+  },
+  {
+   "what": "After the day: rerun build_index.py when the talk's dev moves past 424b67a",
    "why": "ROLE.md Done when 2"
   }
  ],
- "asks": [
-  {
-   "what": "Decision C10 (the editor's words in the conductor's session) lets the librarian add exactly comms/issues/librarian/**, comms/mail/librarian/** and comms/mail/mailroom/*/librarian__* to its own policy.json. This session refused the edit at 03:10 and C10 itself says a refusing session waits for the editor to say it there. Please say it in this session.",
-   "to": "the editor",
-   "since": "2026-10-30T03:15:00Z",
-   "issue": "blocked: comms paths (board in status.json until comms/ is mine)"
-  }
- ],
+ "asks": [],
  "session": "session_01Kw9UwEJGqU63vtsX81uGNm",
  "task": {
   "id": "trig_01FSNcFLFBHSd9sEGYn86ndy",
@@ -84,5 +101,6 @@
    "into": "session_01Kw9UwBgUFHEgwLsB3TrwA8",
    "state": "paused at the editor's word, about 10:50 UTC; not deleted"
   }
- }
+ },
+ "board": "comms/issues/librarian/issues/"
 }

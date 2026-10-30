@@ -11,13 +11,19 @@ A path is found if it exists in this repository, in the talk's repository at 298
 its latest commit (said so: added after the day), or in the Cold-Read clone; a bare file name
 is found if exactly one file anywhere has that name. A commit is found in any of the three.
 A register id is found in claims/register.json.
+
+Source lists abbreviate, so before a path is reported it is also tried under the folders of
+the paths found earlier on the same line (`timeline/day/01.md` to `day/08.md`), a bare name
+among the files in those folders, and `<id>` or `*` as a pattern. A path added after the day
+is not reported when its line says "after the day".
 """
-import argparse, json, os, re, subprocess, sys
+import argparse, fnmatch, json, os, re, subprocess, sys
 
 PIN = "298be4e"
 TICK = re.compile(r"`([^`\n]+)`")
 HEX = re.compile(r"^[0-9a-f]{7,40}$")
 REG = re.compile(r"\bC\d{3}\b")
+CODE = re.compile(r"^[A-Z][A-Za-z_]*\.[a-z_]+\(?\)?$")   # Class.method: code, not a path
 
 
 def git(clone, *args):
@@ -63,25 +69,40 @@ def main():
                     report.append((i + 1, f"register id {cid} is not in claims/register.json"))
             if start is None or i < start:
                 continue
+            ctx = []   # folders of the paths found earlier on this line, nearest first
             for tok in TICK.findall(line):
                 t = tok.strip().rstrip("/").split(":")[-1] if tok.count(":") == 1 and "/" in tok.split(":")[-1] else tok.strip().rstrip("/")
                 if HEX.match(t):
                     if not any(git(c, "cat-file", "-e", f"{t}^{{commit}}") is not None for c in clones):
                         report.append((i + 1, f"commit {t} not found in this repository, the talk's or the Cold-Read's"))
                     continue
-                if " " in t or ("/" not in t and "." not in t):
+                if " " in t or ("/" not in t and "." not in t) or CODE.match(t):
                     continue   # prose in backticks, a command, an id: not a path
                 where = [k for k in sources if t in sources[k] or t in dirs[k]]
+                found = t
+                if not where and ("<" in t or "*" in t):
+                    pat = re.sub(r"<[^>]+>", "*", t)
+                    where = [k for k in sources if any(fnmatch.fnmatchcase(x, pat) or fnmatch.fnmatchcase(x, "*/" + pat) for x in sources[k])]
+                    found = None
+                for d in ctx if not where else []:
+                    where = [k for k in sources if d + "/" + t in sources[k] or d + "/" + t in dirs[k]]
+                    if where:
+                        found = d + "/" + t
+                        break
                 if not where and "/" not in t:
-                    hits = names.get(t, set())
+                    near = {h for h in names.get(t, set()) if os.path.dirname(h[1]) in ctx}
+                    hits = near if len(near) == 1 else names.get(t, set())
                     if len(hits) == 1:
                         where = [f"{next(iter(hits))[0]} as {next(iter(hits))[1]}"]
                     elif len(hits) > 1:
                         report.append((i + 1, f"`{t}` is ambiguous: {len(hits)} files have that name; give the path"))
                         continue
+                if where and found:
+                    full = found if "/" in found else next(iter(hits))[1] if not [k for k in sources if t in sources[k]] and len(hits) == 1 else found
+                    ctx = [x for x in (full.rsplit("/", j)[0] for j in range(1, full.count("/") + 1))] + ctx
                 if not where:
                     report.append((i + 1, f"path `{t}` not found in this repository, the talk's or the Cold-Read's"))
-                elif where == ["talk, added after the day"]:
+                elif where == ["talk, added after the day"] and "after the day" not in line.lower():
                     report.append((i + 1, f"`{t}` was added after the day: check the chapter says so"))
         problems += len(report)
         print(f"{ch}: {'clean' if not report else str(len(report)) + ' finding(s)'}")
