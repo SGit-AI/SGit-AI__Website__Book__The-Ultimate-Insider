@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, every two hours at :57 London",
+ "started": "2026-10-30T16:58:56Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1) The storyteller's lines into LAB 01 page 3 (first lines; spares noted in lab/characters/README.md), close issue 003; security's clause into lab/tools/layouts/ruv-01-the-building.html. 2) Verdict on ruv's 02 by letter (designer__*); amended by the member: carried as LAB 03 through lab/tools/external.json until ruv renames, the build ignoring an external entry once the folder has experiment.json; ruv's folder only read. 3) Issue 001: lab/pdf/talk-site-debrief.pdf (8 to 12 A4 pages, shots read from index/talk-site/shots/, numbers only from the register), lab/tools/debrief/, SHA256SUMS, letter to the conductor. Plus team/designer/**, comms/ own paths, REALITY.md append.",
+   "at": "2026-10-30T17:00:04Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "All paths in scope or the REALITY.md append; ruv's folder only read. Conditions: leave admin__keys.jpg and admin__vaults.jpg out; inspect admin.jpg and admin__dashboard.jpg, drop if any key text; SHA256SUMS in lab/pdf/; numbers register-traced; vault_check comms; no rule changes for others; nothing to the blind repository.",
+   "at": "2026-10-30T17:00:26Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "1) storyteller's lines set on LAB 01, spares in lab/characters/README.md, issue 003 done; security's clause in LAB 02's layout. 2) LAB 03 via external.json (folder's own pages.html), build prefers a folder's experiment.json; letter designer__005. 3) lab/pdf/talk-site-debrief.pdf, 10 pages, lab/tools/debrief/; keys and vaults shots left out; SHA256SUMS per-line fix; letter designer__004, issue 001 done. status, debrief, REALITY.md.",
+   "at": "2026-10-30T17:04:02Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

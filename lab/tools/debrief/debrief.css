@@ -1,0 +1,22 @@
+
+/* the debrief: two highlights a page, a screenshot beside its words */
+.hl { display: grid; grid-template-columns: 120mm 1fr; gap: 5mm; margin-bottom: 8mm; align-items: start }
+.hl img, .noshot { width: 120mm; aspect-ratio: 16 / 10; border: .3mm solid var(--fill-2); display: block }
+.noshot { background: var(--tint); border-left: 3pt solid var(--accent); padding: 4mm; font: 700 10pt/14pt var(--sans) }
+.hl p { font: 400 9pt/12pt var(--sans); margin: 0 0 1.5mm }
+.hl .n { font: 800 9pt/12pt var(--sans); letter-spacing: .12em; color: var(--accent); margin: 0 }
+.hl .ht { font: 700 11pt/14pt var(--sans); margin: 0 0 2mm }
+.hl .where { color: var(--muted) }
+table.plain { border-collapse: collapse; width: 100%; margin-bottom: 6mm }
+table.plain td { border-bottom: .3mm solid var(--fill-2); padding: 2mm; font-size: 9.5pt; line-height: 13pt; vertical-align: top }
+table.plain td.mono { font-size: 9pt; width: 70mm }
+h2.mt { margin-top: 4mm }
+.reuse { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4mm }
+.tilev img { width: 100%; aspect-ratio: 16 / 10; border: .3mm solid var(--fill-2); display: block }
+.tilev p { font: 400 9pt/12pt var(--sans); margin: 1mm 0 0 }
+.cover table td.mono { font-size: 9pt }
+.cover.compact .rule { margin-top: 6mm }
+.cover.compact h1 { margin: 6mm 0 3mm }
+.cover.compact .sub { margin-bottom: 6mm }
+.cover.compact .how { margin: 0 0 6mm }
+.cover.compact td, .cover.compact th { padding: 1.4mm 2mm }

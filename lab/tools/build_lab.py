@@ -53,7 +53,9 @@ def experiments():
         d = LAB / "experiments" / meta["folder"]
         if not d.is_dir():
             sys.exit(f'external.json: {meta["folder"]} is not in lab/experiments/')
-        meta["_pages"] = LAB / "tools" / meta["layout"]
+        if (d / "experiment.json").exists():
+            continue                     # its member moved it into the lab's format: its own header wins
+        meta["_pages"] = d / "pages.html" if meta["layout"] == "@folder" else LAB / "tools" / meta["layout"]
         meta["_dir"] = f"../experiments/{d.name}"
         found.append((d, meta))
     return sorted(found, key=lambda e: e[1]["id"])
@@ -90,6 +92,8 @@ def assemble():
     pages = [cover]
     for d, meta in exps:
         src = meta["_pages"].read_text().replace("{{dir}}", meta["_dir"])
+        if meta["_pages"].parent == d:   # a page in its own folder: its relative images are found there
+            src = re.sub(r'src="(?!data:|https?:|/|\.\./|\{\{)([^"]+)"', lambda m: f'src="{meta["_dir"]}/{m.group(1)}"', src)
         src = re.sub(r"\{\{char:([\w-]+)\}\}", lambda m: chars[m.group(1)], src)
         secs = re.findall(r'<section class="page"(?: data-claims="([^"]*)")?>(.*?)</section>', src, re.S)
         if len(secs) != meta["pages"]:
@@ -113,8 +117,10 @@ def main():
     r = subprocess.run(["node", str(LAB / "tools" / "render.mjs"), str(STAGE), str(OUT), str(expected)], env=env)
     if r.returncode:
         sys.exit("lab build refused (see above)")
-    sums = f"{hashlib.sha256(OUT.read_bytes()).hexdigest()}  {OUT.name}\n"
-    (LAB / "pdf" / "SHA256SUMS").write_text(sums)
+    sums = LAB / "pdf" / "SHA256SUMS"         # one line per PDF in lab/pdf/; keep the others' lines
+    lines = [l for l in (sums.read_text().splitlines() if sums.exists() else []) if not l.endswith("  " + OUT.name)]
+    lines.append(f"{hashlib.sha256(OUT.read_bytes()).hexdigest()}  {OUT.name}")
+    sums.write_text("\n".join(sorted(lines, key=lambda l: l.split("  ")[1])) + "\n")
     STAGE.unlink()
     print(f"built {OUT.relative_to(LAB.parent)}: {expected} pages; SHA256SUMS written")
 

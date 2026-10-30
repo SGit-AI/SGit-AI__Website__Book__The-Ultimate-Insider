@@ -15,3 +15,13 @@ Small characters who explain things in the margin of the lab's pages. Drawn by d
 - **One size.** Placed 20 mm wide in the margin rail, never larger in body text; a character never carries a number or a claim. Numbers stay in the body, with their claim ids.
 - **One line each.** A bubble holds one line of at most 90 characters, set at 9.5 pt, with the character's name above in small capitals. A line is useful first and funny second.
 - **Recognisable in greyscale.** Each character differs in silhouette (square, round, octagon), not only in colour.
+
+## Their lines (the storyteller's, 30 October 2026)
+
+From `comms/mail/mailroom/designer/storyteller__005-the-casts-first-lines.eml`, a first and a spare each; the first is set on LAB 01, and the editor may swap in the spare.
+
+| Who | First (set) | Spare |
+|---|---|---|
+| the conductor | One step per wake, on the clock. Small and steady beats one heroic night. | I don't write the chapters. I make sure someone wakes up to write them. |
+| security | Checked: keys, scope, secrets. Not checked: what nobody wrote down. Tell me. | I read the plan before you start and the diff after. Yes, both. Every time. |
+| the hold | Anyone can pull me. Only the editor puts me back. | I'm not the failure. I'm the brake that let everyone else go fast. |

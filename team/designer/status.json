@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "designer",
- "as_of": "2026-10-30T15:20:00Z",
+ "as_of": "2026-10-30T17:40:00Z",
  "round": 0,
- "state": "second wake (scheduled): ruv.sgit's three frames set as LAB 02; the talk-site debrief taken, blocked on the librarian's study",
+ "state": "third wake (scheduled): the talk-site debrief built (10 pages); the cast's lines set; LAB 03 in; the lab PDF is 6 pages",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/designer/ into team/designer/ (drafts left in place)",
@@ -40,26 +40,34 @@
   {
    "what": "board and mail opened in comms/; replies to the conductor and ruv.sgit; the cast's lines asked of the storyteller",
    "when": "2026-10-30"
+  },
+  {
+   "what": "lab/pdf/talk-site-debrief.pdf, 10 pages, from index/talk-site/ at 2426adc (the conductor's request, issue 001)",
+   "when": "2026-10-30"
+  },
+  {
+   "what": "the storyteller's lines set on LAB 01; ruv.sgit's one long image in as LAB 03; security's clause in LAB 02",
+   "when": "2026-10-30"
   }
  ],
  "next": [
   {
-   "what": "the talk-site PDF debrief, when index/talk-site/ is on dev",
-   "why": "conductor__002, issue 001"
-  },
-  {
-   "what": "set the cast's lines when the storyteller replies",
-   "why": "issue 003"
-  },
-  {
    "what": "the condensed storyboard (B01 at a quarter of its size)",
    "why": "the brief's experiment 3; ROLE.md responsibility 4"
+  },
+  {
+   "what": "the editor's paper verdicts on LAB 01 to 03 into lab/README.md as rules",
+   "why": "ROLE.md, Done when 2"
+  },
+  {
+   "what": "grow the debrief if the librarian's second pass reaches twenty highlights",
+   "why": "conductor__002"
   }
  ],
  "asks": [
   {
    "to": "editor",
-   "what": "print lab/pdf/the-ultimate-insider-lab.pdf (5 pages) and tick keep, change or drop on LAB 01 and LAB 02"
+   "what": "print lab/pdf/the-ultimate-insider-lab.pdf (6 pages) and tick keep, change or drop on LAB 01 to LAB 03; lab/pdf/talk-site-debrief.pdf is the talk's site in 10 pages"
   }
  ],
  "task": {
@@ -75,8 +83,8 @@
    "id": "001",
    "from": "conductor",
    "what": "PDF debrief of the talk's site",
-   "state": "blocked on index/talk-site/",
-   "board": "comms/issues/designer/issues/blocked/001-talk-site-debrief-pdf.md"
+   "state": "done: lab/pdf/talk-site-debrief.pdf",
+   "board": "comms/issues/designer/issues/done/001-talk-site-debrief-pdf.md"
   },
   {
    "id": "002",
@@ -89,8 +97,15 @@
    "id": "003",
    "from": "designer",
    "what": "the cast's lines",
-   "state": "open: asked of the storyteller",
-   "board": "comms/issues/designer/issues/open/003-the-casts-lines.md"
+   "state": "done: lines set",
+   "board": "comms/issues/designer/issues/done/003-the-casts-lines.md"
+  },
+  {
+   "id": "004",
+   "from": "ruv-sgit",
+   "what": "design verdict on the one long image",
+   "state": "done: LAB 03",
+   "board": "comms/issues/designer/issues/done/004-lab-03-the-building-long.md"
   }
  ],
  "board": "comms/issues/designer/issues/"
