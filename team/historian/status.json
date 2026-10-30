@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "historian",
- "as_of": "2026-10-30T10:40:00Z",
+ "as_of": "2026-10-30T13:05:00Z",
  "round": 1,
- "state": "ok: the review request taken; my timeline compared with the Cold-Read historian's; six corrections to apply; RC1 drafts not landed yet",
+ "state": "ok: taken over on the second account; new key and task; handover being adopted; the six corrections next",
  "done": [
   {
    "what": "The session key made and published: key.json, key.png and the session folder",
@@ -68,6 +68,10 @@
   {
    "what": "This timeline against the Cold-Read historian's: agreement on every shared time, six corrections for this team",
    "evidence": "timeline/cold-read-comparison.md"
+  },
+  {
+   "what": "Takeover on the second account: new session key made and published, the first session marked superseded, the scheduled task created into this session",
+   "evidence": "team/historian/sessions/session_01Kw9UwEM61pEqMLtCbUHec7/; trig_01SHR9S5d1d24Re9GLPXeAL9"
   }
  ],
  "next": [
@@ -88,13 +92,20 @@
    "decision": "C10b"
   }
  ],
- "session": "session_01Kw9UwBrRHk6F5eoPjZLn35",
- "key": "sha256:85ffd0907275f5eb",
+ "session": "session_01Kw9UwEM61pEqMLtCbUHec7",
+ "key": "sha256:30ff97a9b187f7e6",
  "task": {
-  "id": "trig_016Shar3cqBT4mwmFwuQHhCD",
-  "cron": "CRON_TZ=Europe/London 17 * * * *",
+  "id": "trig_01SHR9S5d1d24Re9GLPXeAL9",
+  "cron": "CRON_TZ=Europe/London 17 */2 * * *",
+  "session": "session_01Kw9UwEM61pEqMLtCbUHec7",
+  "created": "2026-10-30T13:03:14Z",
+  "by": "historian, at the editor's word in this session; cron and prompt word for word from team/conductor/schedule.json (runs, historian)"
+ },
+ "previous_session": {
   "session": "session_01Kw9UwBrRHk6F5eoPjZLn35",
-  "created": "2026-10-30T01:41:17Z",
-  "by": "historian, at the editor's word in this session; prompt word for word from team/conductor/schedule.json"
+  "key": "sha256:85ffd0907275f5eb",
+  "task": "trig_016Shar3cqBT4mwmFwuQHhCD",
+  "task_state": "paused at the editor's word, about 10:50 UTC; not deleted",
+  "until": "2026-10-30T13:02:34Z"
  }
 }
