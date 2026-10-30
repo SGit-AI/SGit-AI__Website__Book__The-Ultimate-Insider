@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Inside policy; the writes narrowing is the member's own file and only reduces scope; board, mail with outbox copies, status, debrief and REALITY.md append permitted. No secrets, no stop condition, no cross-member writes. Conditions: sealed-note.md fictional and design only, nothing attack-shaped; vault_check on comms before commit; nothing to real people; tell synthetic the path and the anchor and pen marking only.",
    "at": "2026-10-30T17:13:52Z"
+  },
+  "work": {
+   "by": "developer",
+   "model": "",
+   "verdict": "done",
+   "comment": "1) policy.json review/** narrowed to six folders; board 001 done; reply developer__002 to synthetic with path, anchors, pen marking. 2) review/design/sealed-note.md (design only, fictional); request developer__003 to security. 3) debrief, status.json, REALITY.md line; board 002 (blocked on the conductor). Gate clean, no overlaps, vault_check clean.",
+   "at": "2026-10-30T17:15:47Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (post_review brief)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "All 13 paths in scope; REALITY.md one appended line; the policy change a narrowing (agents.py 'widening' lines are line-by-line artefacts). No key, token or contact detail. sealed-note.md design only, fictional, nothing attack-shaped. Mail stays within roles. Nothing to Cold-Read. Gate clean (164), no overlaps, vault_check clean.",
+   "at": "2026-10-30T17:15:47Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (post_check brief)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "(1) policy narrowed, board 001 done, reply developer__002 with outbox copy. (2) sealed-note.md design only and fictional, request developer__003 with outbox copy. (3) status, debrief, REALITY.md line. Conditions kept. Extra, in scope: board 002 (blocked) and an inbox copy.",
+   "at": "2026-10-30T17:16:04Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T17:16:04Z",
+ "outcome": "ok"
 }
