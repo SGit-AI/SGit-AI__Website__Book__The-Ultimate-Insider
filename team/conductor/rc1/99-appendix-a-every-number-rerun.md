@@ -24,7 +24,7 @@ git log 298be4e --reverse --format='%h %ci %an %s' | head -1
 git rev-list --count 298be4e
 ```
 
-**C003 and C004, commits by author** (checked). At `298be4e`: Claude 603, GitHub Actions 211, the editor 2. By 18:46, the end of the day's work: 814, of which Claude 603, GitHub Actions 210, the editor 1.
+**C003 and C004, commits by author** (checked). At `298be4e`: the agents 603, GitHub Actions 211, the editor 2. By 18:46, the end of the day's work: 814, of which the agents 603, GitHub Actions 210, the editor 1.
 
 ```
 git log 298be4e --format=%an | sort | uniq -c
@@ -71,12 +71,12 @@ for m in $(git ls-tree -d --name-only 298be4e team/ | xargs -n1 basename); do ec
 git log 298be4e --reverse --format='%ci %h %s' -- team/storyteller/key.json team/motion/key.json team/studio/key.json | head -3
 ```
 
-**C014, commits by member** (corrected): conductor 107, ruv-sgit 84, deck 59, researcher 57, dev 52, studio 26, designer 19, storyteller 15, motion 9; merges 162; 13 unattributed. The first command gives the members; the second and third give the merges and the commits that name nobody.
+**C014, commits by member** (corrected): conductor 106, ruv-sgit 84, dev 64, deck 59, researcher 57, studio 26, designer 19, storyteller 15, motion 9; 439 in all, merges excluded, none unattributed. Merges, counted by their parents: 165, 164 of them the agents'. The first command gives the members by subject prefix (conductor 105, dev 52); the register adds dev's 12 commits named only in their `Agent:` trailer and the one commit whose subject names the conductor without a prefix. The second and third give the merges.
 
 ```
 git log 298be4e --author=Claude --format=%s | grep -oE '^@?[a-z][a-z.-]*:' | sed 's/^@//' | sort | uniq -c | sort -rn
-git log 298be4e --author=Claude --format=%s | grep -ic '^merge'
-git log 298be4e --author=Claude --format=%s | grep -vE '^@?[a-z][a-z.-]*:' | grep -vic '^merge'
+git rev-list --merges --count 298be4e
+git log 298be4e --merges --author=Claude --format=%h | wc -l
 ```
 
 ## The talk
@@ -201,10 +201,10 @@ C032 to C036 run in SGit-AI/SGit-AI__Website__Graphs at `d39e717`. Rerun for thi
 
 Every value above matched the register. Four commands print something a reader could misread, and one entry mixes methods:
 
-- **C011.** The register's join times are partly first commits and partly first keys. The command prints first keys, which agree for the conductor (00:58), researcher, deck, designer, storyteller, motion and studio, but give dev at 01:53 (`56cbe55`) where the register says 00:40 (its first commit, `1f7c633`), and ruv-sgit at 02:36 (`1c7d22c`) where it says 01:08 (its join commit, `defe526`). Nine staffed agents holds either way.
+- **C011.** The register's join times were at first partly first commits and partly first keys; it now gives both (corrected 30 October, 10:50). The command prints first keys: dev at 01:53 (`56cbe55`), whose first commit is 00:40 (`1f7c633`), and ruv-sgit at 02:36 (`1c7d22c`), whose join commit is 01:08 (`defe526`). Nine staffed agents holds either way.
 - **C021.** The register's command, `git log 298be4e -1 --grep='95%'`, prints the release `7968c99` at 18:44:49, whose subject repeats the hold's. The hold itself is `867f8c2` at 18:44:13; drop `-1` to see both.
 - **C018.** Its command lists `2ed6427`, "part 1 not yet locked", whose subject says 18:36; the commit is at 18:39:16.
-- **C014.** The register's command prints the members only. The merges and unattributed commits need the second and third commands above.
+- **C014.** The first command reads subject prefixes only, so it gives the conductor 105 and dev 52; the register's 106 and 64 come from its attribution script, which reads the `Agent:` trailers too.
 - **C023.** The method names a script in the researcher's debriefs; the debrief describes the method but holds no script. The one above reproduces every count.
 
 ## Where this came from

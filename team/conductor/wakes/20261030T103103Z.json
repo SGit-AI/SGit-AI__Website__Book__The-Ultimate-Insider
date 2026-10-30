@@ -17,10 +17,31 @@
    "verdict": "go",
    "comment": "Amendment within policy. Conditions: role annotations labelled as drafted by conductor sub-agents, never a member's own voice; no keys or private details in images or annotations, vault_check.py on them; no numbers outside claims/register.json; nothing to the blind repo or off-session; no schedule; call-out styling scratch-only with a request to the publisher; the editor's sign-off decides.",
    "at": "2026-10-30T10:36:37Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "sub-agent",
+   "verdict": "clean",
+   "comment": "Writes inside the conductor's paths; no key, value, contact or private person; no vendor named in prose; the leak account gives no values and no way to find them; annotations labelled as drafted by conductor sub-agents; no schedule created (paused only); nothing to the blind repo; build scripts local only.",
+   "at": "2026-10-30T10:59:43Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "sub-agent",
+   "verdict": "as-planned",
+   "comment": "To plan, as amended: cover concepts, infographics and call-outs, annotations from six roles, Gen ZX and the conductor rendered as the companion; plus 16 maps, chapters 00b, 11b and 13, the dossier and a corrections pass. RC1 (294 pp) and the companion (67 pp) delivered to the editor. Open: his sign-off; the researcher registers the new numbers (letter 006).",
+   "at": "2026-10-30T10:59:47Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "sub-agent",
+   "verdict": "done",
+   "comment": "Roles run in the conductor's session: Gen ZX review, dossier, 16 maps, cover, infographics and call-outs, seven annotation sets, chapters 00b, 11b and 13, a corrections pass; RC1 and the companion built and sent; all scheduled tasks paused at the editor's word.",
+   "at": "2026-10-30T10:59:52Z"
   }
  },
- "closed": null,
- "outcome": null,
+ "closed": "2026-10-30T11:00:04Z",
+ "outcome": "ok",
  "history": [
   {
    "step": "pre_review",

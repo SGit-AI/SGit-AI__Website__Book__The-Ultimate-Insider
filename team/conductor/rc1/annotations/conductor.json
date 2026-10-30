@@ -11,7 +11,11 @@
       "kind": "decision",
       "title": "Move the whole book into your first-person voice",
       "body": "RC1 was drafted in the third person because no writer could speak for you and the rule is that nobody does. Your newsroom articles are first person, and your brief asks for your voice. Moving it is a full pass over every chapter; it changes what the book can claim, since your voice may say what you thought and the record cannot.",
-      "options": ["A: First person throughout, drafted from your articles and the talk's transcript, every passage of thought marked for you to confirm", "B: First person for the opening, the close and the principles; the record chapters stay third person", "C: Keep third person; add a foreword in your voice"],
+      "options": [
+        "A: First person throughout, drafted from your articles and the talk's transcript, every passage of thought marked for you to confirm",
+        "B: First person for the opening, the close and the principles; the record chapters stay third person",
+        "C: Keep third person; add a foreword in your voice"
+      ],
       "recommendation": "B for the next revision, then A once you have read it: the record chapters gain authority from not being anyone's memory.",
       "answer_space": "lines",
       "claim_ids": []
@@ -23,7 +27,11 @@
       "kind": "decision",
       "title": "Title and subtitle",
       "body": "The talk's title carries the argument and readers who saw the talk will look for it. A subtitle can say what the book adds: the day as a case, and the team as the insider. The cover concepts in the cover folder all use the working title.",
-      "options": ["A: The Ultimate Insider: how a team of AI agents built a talk in a day, and why the team was the insider", "B: The Ultimate Insider: agents, mandates and the day the controls were tested", "C: The Informed One (the brief's second line) as the title, The Ultimate Insider as the subtitle"],
+      "options": [
+        "A: The Ultimate Insider: how a team of AI agents built a talk in a day, and why the team was the insider",
+        "B: The Ultimate Insider: agents, mandates and the day the controls were tested",
+        "C: The Informed One (the brief's second line) as the title, The Ultimate Insider as the subtitle"
+      ],
       "recommendation": "A, shortened after your read; the question is yours alone.",
       "answer_space": "lines",
       "claim_ids": []
@@ -35,22 +43,32 @@
       "kind": "decision",
       "title": "Where the Wardley maps come in",
       "body": "Your principles say the maps underpin the rest and must come early, simple to complex. The illustrator is drawing a series now. The question is whether they get their own chapter or are threaded through the existing ones.",
-      "options": ["A: A short chapter 1, 'How to read a map', with the simplest maps, then one map per later chapter, each a step more complex", "B: No new chapter; a map opens each chapter with a call-out explaining its new element", "C: Maps only in a principles section at the end"],
+      "options": [
+        "A: A short chapter 1, 'How to read a map', with the simplest maps, then one map per later chapter, each a step more complex",
+        "B: No new chapter; a map opens each chapter with a call-out explaining its new element",
+        "C: Maps only in a principles section at the end"
+      ],
       "recommendation": "A: a reader who has never seen a Wardley map needs one page of grammar before the maps can carry argument.",
       "answer_space": "lines",
-      "claim_ids": []
+      "claim_ids": [],
+      "status": "drafted as option A: chapter 00b, How to read a map, with maps 1 to 5; maps 6 to 16 placed in later chapters"
     },
     {
       "id": "conductor-04",
-      "chapter": "04-the-hourly-machine.md",
-      "anchor": "",
+      "chapter": "11b-what-was-already-there.md",
+      "anchor": "The chapters before this one tell a day.",
       "kind": "decision",
       "title": "The plumbing and the two and a half years",
       "body": "You asked for a section on the CI, the non-functional requirements, quality and workflows, and on the work that met on the day: The Cyber Boardroom, Issues-FS, Memory-FS, tagging, the newsroom, Type_Safe, the first experiments, sgit and SHarness. A dossier on that history is being researched from public sources only. Placement changes the book's argument: early, the day looks like the product of years; late, it reads as a surprise that is then explained.",
-      "options": ["A: A chapter just before the day begins ('What was already there'), so the day is read as the meeting of that work", "B: A chapter after the day's account, before the principles ('Why it worked')", "C: An appendix, with short pointers in the chapters"],
+      "options": [
+        "A: A chapter just before the day begins ('What was already there'), so the day is read as the meeting of that work",
+        "B: A chapter after the day's account, before the principles ('Why it worked')",
+        "C: An appendix, with short pointers in the chapters"
+      ],
       "recommendation": "B: the day is the story and should come first; the years explain it, and the principles then follow from both.",
       "answer_space": "lines",
-      "claim_ids": []
+      "claim_ids": [],
+      "status": "drafted as option B: chapter 11b, after the cold read and before chapter 12; move it if you tick A or C"
     },
     {
       "id": "conductor-05",
@@ -107,7 +125,11 @@
       "kind": "decision",
       "title": "When RC1 goes on Leanpub",
       "body": "Leanpub can publish an early version and update it in place, which fits 'RC1 revised in place'. Publishing early gathers readers' notes; waiting keeps the first impression clean. The price is signed: minimum $0, suggested $19.99.",
-      "options": ["A: Publish after your notes from the flight are applied, marked as in progress", "B: Publish only when the voice pass and the maps are in", "C: Keep it private until the first edition"],
+      "options": [
+        "A: Publish after your notes from the flight are applied, marked as in progress",
+        "B: Publish only when the voice pass and the maps are in",
+        "C: Keep it private until the first edition"
+      ],
       "recommendation": "B: the voice pass changes almost every page, and the first readers should meet your voice.",
       "answer_space": "lines",
       "claim_ids": []

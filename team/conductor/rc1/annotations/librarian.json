@@ -85,26 +85,28 @@
   {
    "id": "librarian-06",
    "chapter": "12-build-your-own.md",
-   "anchor": "The scope check runs on every release (`admin/build/agents.py check`).",
+   "anchor": "The scope check runs in every wake, by the member on itself (`admin/build/agents.py check`); the release gate checks only that no two members claim the same file (`agents.py overlaps`, called from `admin/build/validate.py`, in this repository as in the talk's).",
    "kind": "comment",
    "title": "Chapter 12 contradicts chapter 3 on the scope check",
    "body": "Chapter 3 is right: 'Nothing in the release pipeline runs it.' admin/build/validate.py calls agents.py only with 'overlaps' (check_team), in the talk's repository and in this one; the member runs 'check' on itself in its wake. Chapter 12 says the opposite, in the chapter a builder will copy, and a reader who trusts it will believe the setting refuses releases when it only reports.",
    "options": [],
    "recommendation": "Rewrite as: 'The scope check runs in every wake, by the member on itself; the gate checks only that no two members claim the same file.'",
    "answer_space": "none",
-   "claim_ids": []
+   "claim_ids": [],
+   "status": "Ch12 now agrees with ch3: self-run check in every wake, gate runs overlaps only."
   },
   {
    "id": "librarian-07",
    "chapter": "12-build-your-own.md",
-   "anchor": "By morning, the conductor was asking him whether idle members should pause, since \"each wake costs some of your usage\" and some members had nothing to do until the plan was signed (U1, open).",
+   "anchor": "By morning, the conductor was asking him whether idle members should pause, since \"each wake costs some of your usage\" and some members had nothing to do until the plan was signed (U1, decided at about 10:40 UTC, moot by then).",
    "kind": "comment",
    "title": "Two decisions printed as open are signed",
    "body": "book.json records U1 and C10b as decided by your word of about 10:40 UTC, with Q3, Q4, O4, L1 and L2. Chapter 12 still marks U1 open, and chapter 9 says book.json 'holds the open decision C10b'. Both chapters were drafted from the state before your 10:40 word.",
    "options": [],
    "recommendation": "Update both, and have the publisher check every decision id a chapter names against book.json before each print.",
    "answer_space": "none",
-   "claim_ids": []
+   "claim_ids": [],
+   "status": "Ch12: U1 marked decided (about 10:40 UTC); ch9: C10b now said settled by the editor at about 10:40 UTC."
   },
   {
    "id": "librarian-08",
@@ -149,14 +151,15 @@
   {
    "id": "librarian-11",
    "chapter": "11-what-the-cold-reader-saw.md",
-   "anchor": "The brief that crossed was this book's own, byte for byte, and was addressed to \"conductor@the-blind-repo\"; the Cold-Read conductor recorded the mismatch in its corrections, and recorded that the brief named the live site, which the editor's prompt forbade (its `BRIEF-CORRECTIONS.md`).",
+   "anchor": "The brief that crossed was the editor's brief for the blind repository (`briefs/2026-10-30/2-blind-repo-brief.md`), byte for byte, and was addressed to \"conductor@the-blind-repo\"; the Cold-Read conductor recorded the mismatch in its corrections, and recorded that the brief named the live site, which the editor's prompt forbade (its `BRIEF-CORRECTIONS.md`).",
    "kind": "comment",
    "title": "The brief that crossed was the editor's, not ours",
    "body": "'This book's own' reads as if this team's material crossed the valve. The file that crossed is the editor's brief for the blind repository, briefs/2026-10-30/2-blind-repo-brief.md, identical to team/conductor/handoffs/2026-10-30__cold-read/BRIEF.md (checked). Its address and the live-site link were in that brief from the start, and the hand-off README lists what was deliberately left out. The valve held; the mismatch was in the brief's wording.",
    "options": [],
    "recommendation": "Name the file and say the hand-off was the only thing that crossed, as its README records.",
    "answer_space": "none",
-   "claim_ids": []
+   "claim_ids": [],
+   "status": "Ch11: names the editor's blind-repo brief as what crossed (checked identical to the hand-off BRIEF.md)."
   },
   {
    "id": "librarian-12",

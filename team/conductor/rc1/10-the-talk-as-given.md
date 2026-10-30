@@ -18,13 +18,13 @@ There was a plan for that, too. At about 16:55 the editor had asked for the talk
 
 The speaker knew some of this. Early in part one he told the room: "Some of these slides I've barely seen, because they were still working on them, so this is going to be fun."
 
-![Part one as it reached the screen, some of its slides in order (stills of the released build, added after the day)](resources/images/10-part-one.jpg)
+![Part one as it reached the screen, some of its slides in order (stills shot after the day from v0.2.0, whose content is the 18:46 release)](resources/images/10-part-one.jpg)
 
 ## What reached the screen
 
 For the first two parts, the plan held exactly. Every one of part one's 22 beats and part two's 16 reached the screen, in the order `talk.json` gave them (C015), from the title through the definition, the incidents, the identities and the blast radius, to integrity, explorer coding, the Agent Behaviour Policies, the licence to operate and the PKI. Nothing was skipped, nothing reordered.
 
-![Part two as it reached the screen: a port, explorer coding, the ABP, the licence, the PKI (stills added after the day)](resources/images/10-part-two.jpg)
+![Part two as it reached the screen: a port, explorer coding, the ABP, the licence, the PKI (stills shot after the day from v0.2.0, whose content is the 18:46 release)](resources/images/10-part-two.jpg)
 
 Part three did not hold. It opened as planned with the live demos and the first two SHarness slides, then went to the live Linux kernel in the browser before the slide on what exists and what is coming, which the plan had put earlier. It reached the SHarness playground, the "without and with" comparison and the encrypted vault opened live, and there it stopped. The transcript's last section is headed "The slides the talk did not reach", with the explanation "The questions from the room took the time of these". They were:
 
@@ -36,13 +36,13 @@ Part three did not hold. It opened as planned with the live demos and the first 
 | `evolution`, `next-companies` | the opportunity: evolution on a Wardley map, the next security companies |
 | `s-b01-brakes`, `brakes` | the close: "The overlap, governed" and "Brakes, and go build" |
 
-![Part three as far as it went: demos, SHarness, the kernel in a browser, the vault where it stopped (added after the day)](resources/images/10-part-three-reached.jpg)
+![Part three as far as it went: demos, SHarness, the kernel in a browser, the vault where it stopped (stills shot after the day from v0.2.0, whose content is the 18:46 release)](resources/images/10-part-three-reached.jpg)
 
 So the larger part of part three never appeared, including both closing beats. The talk planned to end on its thesis and its call to action. On the screen, it ended on a vault.
 
 The beats added up to about a quarter of an hour less than the slot (C026), and in the afternoon that margin read as a talk running short. The transcript shows where it went: into the room. Questions came at what the speaker called the end of part one (after `integrity` and "The overlap fills", which close the first act of the argument though `talk.json` numbers them in part two), and then all through parts two and three. The plan had no beat for them, and a planned close at the very end of a talk is the first thing a room's questions consume.
 
-![Planned for part three and never on the screen, down to 'The overlap, governed' (stills added after the day)](resources/images/10-never-reached.jpg)
+![Planned for part three and never on the screen, down to 'The overlap, governed' (stills shot after the day from v0.2.0, whose content is the 18:46 release)](resources/images/10-never-reached.jpg)
 
 How long the talk ran on stage is not in the day's record (C026). The transcript's header gives a running time, and its passages carry timestamps, but the register has not yet checked them, so this edition does not state the length. The next one should.
 

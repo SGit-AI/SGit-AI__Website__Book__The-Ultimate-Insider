@@ -19,7 +19,7 @@
   {
    "id": "historian-02",
    "chapter": "04-the-hourly-machine.md",
-   "anchor": "The first is encouraging: the second and third were caught before their commits, in wakes no person was watching.",
+   "anchor": "The first is sobering: none of the three was caught before the values were public.",
    "kind": "comment",
    "title": "The leaks reached public history; RC1 says otherwise",
    "body": "Chapter 4 says the second and third findings were caught before their commits and the leak 'closed twice before it shipped'; chapter 9 says the 04:10 cookie values were stopped from reaching the public record. The researcher's own check (aa7a3eb, 07:18, evidence/updates/2026-10-29__the-vault-history-checked.md) says the 02:22 commits already carried the cookie values, and a push at 05:23, after the 04:10 finding, carried form tokens. The 06:14 post-review itself says 'also in the 02:22 push'. All three kinds reached public history; the reviews redacted, they did not prevent (C025). The book is kinder to the controls than the record is.",
@@ -28,12 +28,13 @@
    "answer_space": "none",
    "claim_ids": [
     "C025"
-   ]
+   ],
+   "status": "Chs 4, 9, 12 and 2 corrected: every leak finding came after the values were in pushed, public history; D12 open at 19:00."
   },
   {
    "id": "historian-03",
    "chapter": "12-build-your-own.md",
-   "anchor": "On the talk's team, dev's first commit came at 00:40 and the conductor joined at 00:58 (C011); on this book's, the conductor was staffed at 00:56 and the others at 01:41.",
+   "anchor": "On the talk's team, dev's first commit came at 00:40 and the conductor's at 00:44, with its first key at 00:58 (C011); on this book's, the conductor was staffed at 00:56 and the others at 01:41 (not yet registered).",
    "kind": "decision",
    "title": "One meaning of 'joined' for the whole book",
    "body": "Chapters 1, 2 and 7 date the conductor from 00:44 and deck from 00:51, their join commits (97b98d9, 20ab1a3). Chapter 12 says the conductor joined at 00:58, and the register lists deck at 02:20 (C011). Appendix A shows why: C011 mixes methods, first commits for dev and ruv-sgit, first published keys for the rest. A reader will meet three times for the same event.",
@@ -46,7 +47,8 @@
    "answer_space": "none",
    "claim_ids": [
     "C011"
-   ]
+   ],
+   "status": "Partly: ch12 and ch3 now give the conductor's first commit (00:44) and first key (00:58) as C011 does; the one-meaning decision is still the editor's."
   },
   {
    "id": "historian-04",
@@ -60,7 +62,8 @@
    "answer_space": "none",
    "claim_ids": [
     "C040"
-   ]
+   ],
+   "status": "Ch7 now cites the brief dictated at about 13:50 (feedback-briefs.md), player first and lane 'second'; ch12 names the 13:50 brief. C040's note is for the researcher to re-correct."
   },
   {
    "id": "historian-05",
@@ -77,7 +80,7 @@
   {
    "id": "historian-06",
    "chapter": "08-the-locks-that-never-closed.md",
-   "anchor": "There is no commit at 18:30, and no locked copy in the tree at the end of the day (C027).",
+   "anchor": "Motion closed a wake at 18:30:25 (`5fd7877`), but nothing ran `lock.py`, and there is no locked copy in the tree at the end of the day (C027).",
    "kind": "comment",
    "title": "There was a commit at 18:30",
    "body": "Motion committed at 18:30:25 (5fd7877, closing its 18:25 wake) and merged at 18:30:27 (3e14cd4). What did not happen at 18:30 is the lock: no run of lock.py, no locked/ folder, no part in the lock list (C027). The point stands, but the sentence is checkable and false, in the chapter about checking.",
@@ -86,7 +89,8 @@
    "answer_space": "none",
    "claim_ids": [
     "C027"
-   ]
+   ],
+   "status": "Ch8: 'no commit at 18:30' replaced with 'no lock ran', naming motion's 18:30:25 commit."
   },
   {
    "id": "historian-07",
@@ -150,12 +154,13 @@
    "claim_ids": [
     "C005",
     "C007"
-   ]
+   ],
+   "status": "Ch0 'What came later' and every slide-still caption (chs 0, 1, 3, 5 to 11) now say the stills were shot after the day from v0.2.0, whose content is the 18:46 release (C005, C007)."
   },
   {
    "id": "historian-11",
    "chapter": "02-midnight-an-empty-repository.md",
-   "anchor": "It had the skill: one session built a site and a talk engine in twenty-four minutes.",
+   "anchor": "It had the skill: one session had a site and a talk engine committed by 00:40, twenty-four minutes after the repository was created (derived from C001).",
    "kind": "comment",
    "title": "The record does not show dev's session start",
    "body": "'Twenty-four minutes' measures from your empty repository at 00:16:23 (C001) to dev's first commit at 00:40:50. The record does not hold when dev's session started: it may have been working from the brief before the repository existed, or for only a few minutes. The chapter's argument does not need the duration, and the same claim appears in chapter 2's opening ('Nothing else happened in it for twenty-four minutes', which is accurate).",
@@ -164,7 +169,8 @@
    "answer_space": "none",
    "claim_ids": [
     "C001"
-   ]
+   ],
+   "status": "Ch2: rewritten as proposed, a commit gap, not a build time."
   },
   {
    "id": "historian-12",

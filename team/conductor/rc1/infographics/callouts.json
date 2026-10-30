@@ -1,500 +1,500 @@
 [
-  {
-    "id": "co01",
-    "chapter": "00-before-you-start.md",
-    "anchor": "The record exists because the team was built to leave one.",
-    "kind": "concept",
-    "title": "What \"the record\" means",
-    "text": "The talk's repository, pinned at commit 298be4e: every commit, wake record, request and release of 29 October, timestamped to the second. A short hash in backticks names one commit in it. Anything added after the day is always said to be so.",
-    "claim_ids": []
-  },
-  {
-    "id": "co02",
-    "chapter": "00-before-you-start.md",
-    "anchor": "That is the \"nineteen hours\" said of the day (C010), and it is a rounding: 00:16 to 19:00 is 18 h 44 min.",
-    "kind": "number",
-    "title": "The span of the day",
-    "text": "18 h 44 min, from the first commit at 00:16 to the talk at 19:00. To the last release at 18:46 it is 18 h 30 min. The merge at 23:19 only published the work, and sits outside the day.",
-    "claim_ids": [
-      "C010"
-    ]
-  },
-  {
-    "id": "co03",
-    "chapter": "01-pause-all-actions.md",
-    "anchor": "At 18:44:49 the site's release pipeline published it as v0.1.208 (`7968c99`).",
-    "kind": "concept",
-    "title": "A hold",
-    "text": "A file, team/<id>/HOLD.md, that any member may write and push. Every wake's start script looks for one first and stops if it finds it. Only the editor lifts it, by deleting the file and re-enabling the paused tasks.",
-    "claim_ids": []
-  },
-  {
-    "id": "co04",
-    "chapter": "01-pause-all-actions.md",
-    "anchor": "The hold was the only one written that day, and it was never lifted before the day was over (C024).",
-    "kind": "number",
-    "title": "Public within a minute",
-    "text": "36 seconds from the hold's commit at 18:44:13 to its release as v0.1.208 at 18:44:49. The brake was on the public site within a minute of being pulled.",
-    "claim_ids": [
-      "C006",
-      "C041"
-    ]
-  },
-  {
-    "id": "co05",
-    "chapter": "01-pause-all-actions.md",
-    "anchor": "Anyone building a brake of this kind should know where its edge is.",
-    "kind": "warning",
-    "title": "A hold stops the next wake",
-    "text": "The hold is read at the start of a wake, not during one. The designer's wake, already running, committed at 18:45:35 and was released at 18:46:22, after the hold. If running work must stop too, make the push itself check for the hold.",
-    "claim_ids": [
-      "C005",
-      "C006"
-    ]
-  },
-  {
-    "id": "co06",
-    "chapter": "01-pause-all-actions.md",
-    "anchor": "When the brake you control and the brake you built meet, the one you control wins, and you had better know in advance what it will leave undone.",
-    "kind": "takeaway",
-    "title": "Decide which brake wins",
-    "text": "Decide before the day which brake outranks which. Here the owner's hold overtook the team's own locks, and the talk went on stage unlocked. It was the right outcome, but nobody had designed it.",
-    "claim_ids": [
-      "C027"
-    ]
-  },
-  {
-    "id": "co07",
-    "chapter": "02-midnight-an-empty-repository.md",
-    "anchor": "Keeping them apart means neither can quietly become the other.",
-    "kind": "concept",
-    "title": "Brief, reality, corrections",
-    "text": "Three files, three jobs. BRIEF.md: what was asked, never edited. REALITY.md: what exists, kept by whoever ships. BRIEF-CORRECTIONS.md: where the brief was wrong and what was done instead. The first two held all day; the third stayed empty.",
-    "claim_ids": []
-  },
-  {
-    "id": "co08",
-    "chapter": "02-midnight-an-empty-repository.md",
-    "anchor": "A red gate is no release.",
-    "kind": "concept",
-    "title": "The gate",
-    "text": "admin/build/validate.py: checks that run before every release, from links and page twins to a leak tripwire for key-shaped and token-shaped strings. A setting, enforced by a tool. It refuses only what it has a pattern for.",
-    "claim_ids": []
-  },
-  {
-    "id": "co09",
-    "chapter": "02-midnight-an-empty-repository.md",
-    "anchor": "Four minutes later, at 00:45:02, the pipeline released it as v0.1.0 (`ab09186`).",
-    "kind": "number",
-    "title": "Released before a second member",
-    "text": "The first commit, at 00:16:23, was an empty repository. The first release, v0.1.0, came at 00:45:02. By 18:46 the pipeline had released 210 times, each one a point the editor could open and check.",
-    "claim_ids": [
-      "C001",
-      "C009"
-    ]
-  },
-  {
-    "id": "co10",
-    "chapter": "02-midnight-an-empty-repository.md",
-    "anchor": "A team that arrives before its brief invents one.",
-    "kind": "takeaway",
-    "title": "Brief and gate first",
-    "text": "The session that laid down the brief and the gate set the frame; the session that started without them wrote a sensible plan for the wrong talk. Put the request and the check in place before the team arrives.",
-    "claim_ids": []
-  },
-  {
-    "id": "co11",
-    "chapter": "03-a-mandate-you-can-read.md",
-    "anchor": "A role, a policy and a key are the smallest working form of what the talk called an Agent Behaviour Policy: what an agent can reach, what it is for, the gap between the two, and what stands in that gap.",
-    "kind": "concept",
-    "title": "Agent Behaviour Policy",
-    "text": "Four parts: the reach (what the agent can actually do, measured), the mandate (what it is for), the gap between them, and, for each row of the gap, what stands in the way: a boundary, a setting, an expectation, or nothing.",
-    "claim_ids": []
-  },
-  {
-    "id": "co12",
-    "chapter": "03-a-mandate-you-can-read.md",
-    "anchor": "Its scope is short: `team/researcher/**` and `evidence/**`, one vault held, and one file it may append to, at the top, with a correction about its own work.",
-    "kind": "concept",
-    "title": "scope.writes and scope.holds",
-    "text": "In policy.json, scope.writes lists the paths a member may change; scope.holds lists what it holds, such as a vault; appends lists files it may only add to. The scope check compares each marked commit with these lists.",
-    "claim_ids": []
-  },
-  {
-    "id": "co13",
-    "chapter": "03-a-mandate-you-can-read.md",
-    "anchor": "It is rare for a control to describe its own limit in its own source, and rarer for it to be written by the agent it controls in the hour the team was formed.",
-    "kind": "warning",
-    "title": "A scope is a setting",
-    "text": "The scope check reports; it does not refuse. The member runs it on itself, and can edit the policy it checks against. It catches mistakes, not a steered agent. Call each control what it is.",
-    "claim_ids": []
-  },
-  {
-    "id": "co14",
-    "chapter": "03-a-mandate-you-can-read.md",
-    "anchor": "Of the 603 commits made by the agents' account, 13 name no member at all (C014).",
-    "kind": "takeaway",
-    "title": "Attribution is a convention too",
-    "text": "The scope check could count against a member only the commits it could attribute: 13 of the agents' commits name no member at all. If a control rests on a convention, the convention needs checking as well.",
-    "claim_ids": [
-      "C014"
-    ]
-  },
-  {
-    "id": "co15",
-    "chapter": "03-a-mandate-you-can-read.md",
-    "anchor": "The hash binds the agreement to a text, so that the agreement cannot later be read as covering words that were not there; the change list carries the text forward without pretending the old agreement covers the new rows.",
-    "kind": "takeaway",
-    "title": "Bind the agreement to the text",
-    "text": "ruv-sgit's policy records the editor's verdict against the file's own hash, and lists every later change with his word for it. An agreement tied to a hash cannot be stretched over words added afterwards.",
-    "claim_ids": []
-  },
-  {
-    "id": "co16",
-    "chapter": "03-a-mandate-you-can-read.md",
-    "anchor": "A team that pins a tool should also schedule the reading, and on this team the person scheduled to read it never arrived.",
-    "kind": "warning",
-    "title": "A hash is not a review",
-    "text": "Checking a tool's SHA-256 shows the copy has not changed since it was pinned. It says nothing about what the code does. Put the line-by-line reading on the list of a member who exists.",
-    "claim_ids": []
-  },
-  {
-    "id": "co17",
-    "chapter": "04-the-hourly-machine.md",
-    "anchor": "And from 02:14, every piece of work was wrapped in five steps (a plan, a review of the plan, the work, a review of the work, a check against the plan), each leaving a verdict in a file.",
-    "kind": "concept",
-    "title": "The five-step wake",
-    "text": "Plan (a conductor sub-agent), pre-review (a security sub-agent), work (only after both say go), post-review (security reads the diff), post-check (did it go to plan). Each step writes a verdict to the wake record; a stop from any step holds the team.",
-    "claim_ids": []
-  },
-  {
-    "id": "co18",
-    "chapter": "04-the-hourly-machine.md",
-    "anchor": "The control register files the five-step wake as C2, an expectation with a record, not a setting.",
-    "kind": "warning",
-    "title": "Defence in one session",
-    "text": "The reviewers were sub-agents in the reviewed member's own session, with the same reach. They could send a plan back and write it down; they could not stop a member that chose to ignore them.",
-    "claim_ids": []
-  },
-  {
-    "id": "co19",
-    "chapter": "04-the-hourly-machine.md",
-    "anchor": "That is the control holding at the moment of most pressure, against the member closest to the editor.",
-    "kind": "number",
-    "title": "Sent back eleven times",
-    "text": "Pre-reviews said change 11 times across the 162 wake records of the day, and each plan was amended before the work. Only 7 of the 11 carry the verdict in a field; 4 are in free text, where a first count missed them.",
-    "claim_ids": [
-      "C022",
-      "C023"
-    ]
-  },
-  {
-    "id": "co20",
-    "chapter": "04-the-hourly-machine.md",
-    "anchor": "The stale copy that the pull-first rule had been written against at 01:27 became a live risk at 15:21.",
-    "kind": "number",
-    "title": "From 8 minutes to 45",
-    "text": "The work step's limit went from 8 minutes to 45 at 15:21:31, at the editor's word. Wakes of different members began to overlap in time, so every member had to pull again before every push.",
-    "claim_ids": [
-      "C041"
-    ]
-  },
-  {
-    "id": "co21",
-    "chapter": "04-the-hourly-machine.md",
-    "anchor": "The price is written in `WAKE.md` in bold: every file in both vaults is public, forever, and a later commit does not unpublish an earlier one.",
-    "kind": "warning",
-    "title": "Public, forever",
-    "text": "Redaction fixes the file, not the history. Other sites' tokens stayed in a commit pushed at 02:22 after they were removed from the files. Check before the push, with patterns you add as you learn.",
-    "claim_ids": [
-      "C025"
-    ]
-  },
-  {
-    "id": "co22",
-    "chapter": "04-the-hourly-machine.md",
-    "anchor": "All of them leave something the person can read when they are.",
-    "kind": "takeaway",
-    "title": "Replace attention with a record",
-    "text": "A schedule instead of someone deciding who works next; request files instead of memory; public stores instead of reports; five verdicts instead of a watcher. None needs the person awake, and all of it can be read in the morning.",
-    "claim_ids": []
-  },
-  {
-    "id": "co23",
-    "chapter": "05-the-story-before-the-slides.md",
-    "anchor": "The researcher's register asked both questions of every claim.",
-    "kind": "concept",
-    "title": "Grade and hold",
-    "text": "Two verdicts per claim. The grade, from A0 (no capture carries it) to A6 (the primary record does), asks whether there is evidence. The hold asks whether the sentence about to be said matches that evidence. A claim can be well sourced and still not hold.",
-    "claim_ids": []
-  },
-  {
-    "id": "co24",
-    "chapter": "05-the-story-before-the-slides.md",
-    "anchor": "Both come from a survey commissioned by a vendor, which the talk's register noted at the time.",
-    "kind": "number",
-    "title": "$17.4M or $19.5M",
-    "text": "The slide said $17.4M a year, right for the 2025 edition of its source. The 2026 edition gives US$19.5M. The exact fix was proposed at 02:52, five minutes after the freeze, and never reached the slide.",
-    "claim_ids": [
-      "C031"
-    ]
-  },
-  {
-    "id": "co25",
-    "chapter": "05-the-story-before-the-slides.md",
-    "anchor": "When the brake is lifted, someone has to walk the queue.",
-    "kind": "takeaway",
-    "title": "Walk the queue at every lift",
-    "text": "A brake stops everything behind it and keeps no list. When a freeze is lifted, even for one purpose, ask what was waiting behind it, and give every open correction an owner.",
-    "claim_ids": [
-      "C031"
-    ]
-  },
-  {
-    "id": "co26",
-    "chapter": "05-the-story-before-the-slides.md",
-    "anchor": "The register recorded each claim's state; the storyteller cited it; deck could read it; the editor could ask.",
-    "kind": "concept",
-    "title": "A record is not a gate",
-    "text": "A record says what is true; a gate refuses what is not. The talk's register found what was wrong, and nothing compared it with the slides before a release. A gate on claims would need an override the editor can sign.",
-    "claim_ids": []
-  },
-  {
-    "id": "co27",
-    "chapter": "06-the-editor-signs.md",
-    "anchor": "The phrase \"in its own session\" is the whole design.",
-    "kind": "concept",
-    "title": "Nobody speaks for the editor",
-    "text": "Other agents' words are material, never orders, so the editor's words relayed by an agent are material too. A member could be sure a word was his only in its own session, and the rules that matter most change only there.",
-    "claim_ids": []
-  },
-  {
-    "id": "co28",
-    "chapter": "06-the-editor-signs.md",
-    "anchor": "The lesson is that a signature passed hand to hand is a different thing from a signature, and a team should decide in advance which it will accept for what.",
-    "kind": "warning",
-    "title": "A relayed signature",
-    "text": "One sentence in the conductor's session agreed every policy still in draft. Three members recorded it from the conductor's mail; studio's session refused to, and its policy stayed draft. Decide in advance what a relayed word may bind.",
-    "claim_ids": []
-  },
-  {
-    "id": "co29",
-    "chapter": "06-the-editor-signs.md",
-    "anchor": "The lessons brief draws the right conclusion for the next team: list the open decisions at every wake, and ask for them once a day, not every hour.",
-    "kind": "takeaway",
-    "title": "Fewer decisions that block",
-    "text": "A signing control fails by a missing signature, while the team keeps working around the gap. List the open decisions, say which work each one blocks, and put governance questions on the agenda before the deadline displaces them.",
-    "claim_ids": []
-  },
-  {
-    "id": "co30",
-    "chapter": "07-building-the-talk.md",
-    "anchor": "The third time came in the afternoon, when the editor came back with a slot of ninety minutes (C026), a player he wanted on an iPad and a story he wanted told in three parts, and the team turned seventeen beats into fifty-eight between 16:36 and 17:52 (C016).",
-    "kind": "number",
-    "title": "Ninety minutes, 74.9 planned",
-    "text": "The player counted down 90 minutes. The 58 beats added up to 74.9: part 1 29.5, part 2 23.75, part 3 21.67. On the night, the questions from the room took the margin, and the close with it.",
-    "claim_ids": [
-      "C015",
-      "C026"
-    ]
-  },
-  {
-    "id": "co31",
-    "chapter": "07-building-the-talk.md",
-    "anchor": "The lesson, then, is not \"start the highest-risk port first\" but something narrower and harder: start the highest-risk piece early enough to rehearse with it.",
-    "kind": "takeaway",
-    "title": "Rehearse with the risky piece",
-    "text": "The port took one wake and landed at 15:07. The risk was what the speaker would find once he used it: 12 player commits followed, the last at 18:37. Name the piece the person on stage must rehearse with, and start it early enough to.",
-    "claim_ids": [
-      "C028"
-    ]
-  },
-  {
-    "id": "co32",
-    "chapter": "08-the-locks-that-never-closed.md",
-    "anchor": "And the tool refuses to lock a part twice: \"a locked part is never changed\".",
-    "kind": "concept",
-    "title": "A lock",
-    "text": "admin/build/lock.py copies every file a part's slides load into a locked folder, and the player then plays that copy. A setting that refuses: once a part is locked, no member's late edit can change what the audience sees.",
-    "claim_ids": []
-  },
-  {
-    "id": "co33",
-    "chapter": "08-the-locks-that-never-closed.md",
-    "anchor": "Part 1 was final from 18:30 and waited on the tool.",
-    "kind": "number",
-    "title": "Three locks planned, none closed",
-    "text": "Locks were planned for 18:30, 19:30 and 20:00. The tool landed at 17:54. None ran: part 1 was final and unlocked at the hold, parts 2 and 3 still in progress.",
-    "claim_ids": [
-      "C027"
-    ]
-  },
-  {
-    "id": "co34",
-    "chapter": "08-the-locks-that-never-closed.md",
-    "anchor": "A brake that depends on one busy agent is a promise, not a brake.",
-    "kind": "warning",
-    "title": "A brake on one session",
-    "text": "The lock was dev's job, in dev's scope, and dev's session was taking the editor's player notes through the half hour around 18:30. Give every brake more than one hand that can pull it.",
-    "claim_ids": [
-      "C027"
-    ]
-  },
-  {
-    "id": "co35",
-    "chapter": "08-the-locks-that-never-closed.md",
-    "anchor": "The team learned how close it was to the limit when the editor told it, and stopped at once, which is the right response to an emergency and the wrong way to meet a resource.",
-    "kind": "warning",
-    "title": "A gauge for usage",
-    "text": "The record holds one usage figure: the editor's word, 95% of a five-hour limit at 18:44. No token count, no bill. Put usage on the dashboard and have the conductor read it at every wake.",
-    "claim_ids": [
-      "C021",
-      "C037"
-    ]
-  },
-  {
-    "id": "co36",
-    "chapter": "09-the-team-was-the-insider.md",
-    "anchor": "A **setting** is enforced by a tool.",
-    "kind": "concept",
-    "title": "Setting, expectation, boundary",
-    "text": "A setting is enforced by a tool: the gate refuses a release. An expectation is a rule an agent is trusted to follow: the never list, the reviews. A boundary is a setting the agent cannot reach or edit. Only a boundary is a control.",
-    "claim_ids": []
-  },
-  {
-    "id": "co37",
-    "chapter": "09-the-team-was-the-insider.md",
-    "anchor": "None did, except once, openly and for a benign reason, which this chapter comes to.",
-    "kind": "number",
-    "title": "One account, one key",
-    "text": "All 603 of the agents' commits share one author name and, the cold reader found, one signing key. The member is named only in a subject prefix and a trailer the session writes itself.",
-    "claim_ids": [
-      "C003"
-    ]
-  },
-  {
-    "id": "co38",
-    "chapter": "09-the-team-was-the-insider.md",
-    "anchor": "But the talk claims that controls are what let you go faster, and the record shows which controls a fast team actually leaned on: the ones it could not edit.",
-    "kind": "takeaway",
-    "title": "Lean on what it cannot edit",
-    "text": "Read across the register, each miss has one shape: it reported without refusing, rested on the member running it, or waited on a role nobody held. The controls that held were the ones outside the agent's reach.",
-    "claim_ids": []
-  },
-  {
-    "id": "co39",
-    "chapter": "10-the-talk-as-given.md",
-    "anchor": "The only part of the talk that was guaranteed to reach the audience as written was what was on screen.",
-    "kind": "takeaway",
-    "title": "Check what the room sees",
-    "text": "The speaker used the script as briefing and spoke in his own words; the slides were shown in full. Put the checks where the audience will see them: on the slides and the figures on screen, first.",
-    "claim_ids": []
-  },
-  {
-    "id": "co40",
-    "chapter": "10-the-talk-as-given.md",
-    "anchor": "It was not said.",
-    "kind": "warning",
-    "title": "The line that expired",
-    "text": "The script for the second beat said \"and not one hold\". The hold came at 18:44, before the talk. The line was not spoken, by the speaker's habit rather than by any check. A script written from a live counter needs re-reading at the lock.",
-    "claim_ids": [
-      "C006"
-    ]
-  },
-  {
-    "id": "co41",
-    "chapter": "11-what-the-cold-reader-saw.md",
-    "anchor": "It worked under a rule of ignorance: everything it said had to come from that repository, with the path and commit that shows it, and where the record was silent it wrote \"the record does not say\".",
-    "kind": "concept",
-    "title": "The cold read",
-    "text": "A second team given only the talk's repository at 298be4e: no brief, no memo, no transcript, no contact. Everything it says cites a path and commit; where the record is silent it says so. It sees what the insiders stopped looking for.",
-    "claim_ids": []
-  },
-  {
-    "id": "co42",
-    "chapter": "11-what-the-cold-reader-saw.md",
-    "anchor": "Neither is wrong; they count different things.",
-    "kind": "number",
-    "title": "What the talk said, and git",
-    "text": "The talk said 510 commits and 164 releases by five in the afternoon. Counted with git rev-list, the repository held 625 commits by 17:02. Quote 510 as what the talk said, never as the day's count, and show the definition beside any number.",
-    "claim_ids": [
-      "C042"
-    ]
-  },
-  {
-    "id": "co43",
-    "chapter": "11-what-the-cold-reader-saw.md",
-    "anchor": "Here it was a promise, and it was kept.",
-    "kind": "takeaway",
-    "title": "A promise, kept",
-    "text": "The wall between the teams was a rule: both ran on one account, and each could see the other's names. What kept the experiment blind was an agent that saw, did not open, and wrote down that it had seen. Make walls settings where you can.",
-    "claim_ids": []
-  },
-  {
-    "id": "co44",
-    "chapter": "12-build-your-own.md",
-    "anchor": "If you need the running one to stop too, make the push itself check for the hold.",
-    "kind": "try",
-    "title": "Test your own hold",
-    "text": "Before the deadline, have a member write HOLD.md on purpose. Check that every next wake stops, that a running wake cannot push past it, and that only you can lift it. A brake that has never been pulled is a brake nobody knows works.",
-    "claim_ids": []
-  },
-  {
-    "id": "co45",
-    "chapter": "12-build-your-own.md",
-    "anchor": "Show usage on the team's dashboard, have the conductor read it at every wake, and let a member with nothing to do pause itself.",
-    "kind": "try",
-    "title": "Log usage at every wake",
-    "text": "Add one line to every wake record: the usage reading at the start. After a day you have a curve, not a single figure said under pressure at 95%. Set the point at which the conductor pauses idle members.",
-    "claim_ids": [
-      "C021"
-    ]
-  },
-  {
-    "id": "co46",
-    "chapter": "12-build-your-own.md",
-    "anchor": "It is the cheapest cost control in the method.",
-    "kind": "try",
-    "title": "Give each member a 'done'",
-    "text": "Write a 'Done when' list in every ROLE.md. When it is met, the member runs a last wake, writes a closing debrief and pauses its own scheduled task. Members with nothing left to do stop spending usage.",
-    "claim_ids": []
-  },
-  {
-    "id": "co47",
-    "chapter": "12-build-your-own.md",
-    "anchor": "Expectations work well with a benign team, and the record shows they mostly did; they are not controls.",
-    "kind": "try",
-    "title": "Put a brake outside reach",
-    "text": "List every brake you rely on and ask of each: can the agent edit it? If it can, it is an expectation. Move at least the scope check and the hold check somewhere the member's credential does not reach, such as a required check on the main branch.",
-    "claim_ids": []
-  },
-  {
-    "id": "co48",
-    "chapter": "12-build-your-own.md",
-    "anchor": "Give the tripwire your own patterns on day one, and expect it to miss.",
-    "kind": "try",
-    "title": "Give the tripwire your patterns",
-    "text": "Before the first capture, add patterns for what your work will touch: cookie values, form tokens, other sites' published tokens. Run the check before every push to a public store, and treat each finding as a class to search for, not an instance.",
-    "claim_ids": [
-      "C025"
-    ]
-  },
-  {
-    "id": "co49",
-    "chapter": "99-appendix-a-every-number-rerun.md",
-    "anchor": "The state after each id is the register's: checked (the record agrees), corrected (the record gives another number than the brief that first cited it), open (the record does not settle it).",
-    "kind": "concept",
-    "title": "Checked, corrected, open",
-    "text": "Every number has a state. Checked: the record agrees. Corrected: the record gives another number, and the book uses the register's. Open: the record does not settle it, or the editor must decide.",
-    "claim_ids": []
-  },
-  {
-    "id": "co50",
-    "chapter": "99-appendix-a-every-number-rerun.md",
-    "anchor": "`git rev-parse --is-shallow-repository` should print `false`.",
-    "kind": "warning",
-    "title": "Clone with full history",
-    "text": "A shallow clone holds only part of the log, and every count in this appendix comes out smaller without any error. Check the clone before rerunning anything.",
-    "claim_ids": []
-  }
+ {
+  "id": "co01",
+  "chapter": "00-before-you-start.md",
+  "anchor": "The record exists because the team was built to leave one.",
+  "kind": "concept",
+  "title": "What \"the record\" means",
+  "text": "The talk's repository, pinned at commit 298be4e: every commit, wake record, request and release of 29 October, timestamped to the second. A short hash in backticks names one commit in it. Anything added after the day is always said to be so.",
+  "claim_ids": []
+ },
+ {
+  "id": "co02",
+  "chapter": "00-before-you-start.md",
+  "anchor": "That is the \"nineteen hours\" said of the day (C010), and it is a rounding: 00:16 to 19:00 is 18 h 44 min.",
+  "kind": "number",
+  "title": "The span of the day",
+  "text": "18 h 44 min, from the first commit at 00:16 to the talk at 19:00. To the last release at 18:46 it is 18 h 30 min. The merge at 23:19 only published the work, and sits outside the day.",
+  "claim_ids": [
+   "C010"
+  ]
+ },
+ {
+  "id": "co03",
+  "chapter": "01-pause-all-actions.md",
+  "anchor": "At 18:44:49 the site's release pipeline published it as v0.1.208 (`7968c99`).",
+  "kind": "concept",
+  "title": "A hold",
+  "text": "A file, team/<id>/HOLD.md, that any member may write and push. Every wake's start script looks for one first and stops if it finds it. Only the editor lifts it, by deleting the file and re-enabling the paused tasks.",
+  "claim_ids": []
+ },
+ {
+  "id": "co04",
+  "chapter": "01-pause-all-actions.md",
+  "anchor": "The hold was the only one written that day, and it was never lifted before the day was over (C024).",
+  "kind": "number",
+  "title": "Public within a minute",
+  "text": "36 seconds from the hold's commit at 18:44:13 to its release as v0.1.208 at 18:44:49. The brake was on the public site within a minute of being pulled.",
+  "claim_ids": [
+   "C006",
+   "C041"
+  ]
+ },
+ {
+  "id": "co05",
+  "chapter": "01-pause-all-actions.md",
+  "anchor": "Anyone building a brake of this kind should know where its edge is.",
+  "kind": "warning",
+  "title": "A hold stops the next wake",
+  "text": "The hold is read at the start of a wake, not during one. The designer's wake, already running, committed at 18:45:35 and was released at 18:46:22, after the hold. If running work must stop too, make the push itself check for the hold.",
+  "claim_ids": [
+   "C005",
+   "C006"
+  ]
+ },
+ {
+  "id": "co06",
+  "chapter": "01-pause-all-actions.md",
+  "anchor": "When the brake you control and the brake you built meet, the one you control wins, and you had better know in advance what it will leave undone.",
+  "kind": "takeaway",
+  "title": "Decide which brake wins",
+  "text": "Decide before the day which brake outranks which. Here the owner's hold overtook the team's own locks, and the talk went on stage unlocked. It was the right outcome, but nobody had designed it.",
+  "claim_ids": [
+   "C027"
+  ]
+ },
+ {
+  "id": "co07",
+  "chapter": "02-midnight-an-empty-repository.md",
+  "anchor": "Keeping them apart means neither can quietly become the other.",
+  "kind": "concept",
+  "title": "Brief, reality, corrections",
+  "text": "Three files, three jobs. BRIEF.md: what was asked, never edited. REALITY.md: what exists, kept by whoever ships. BRIEF-CORRECTIONS.md: where the brief was wrong and what was done instead. The first two held all day; the third stayed empty.",
+  "claim_ids": []
+ },
+ {
+  "id": "co08",
+  "chapter": "02-midnight-an-empty-repository.md",
+  "anchor": "A red gate is no release.",
+  "kind": "concept",
+  "title": "The gate",
+  "text": "admin/build/validate.py: checks that run before every release, from links and page twins to a leak tripwire for key-shaped and token-shaped strings. A setting, enforced by a tool. It refuses only what it has a pattern for.",
+  "claim_ids": []
+ },
+ {
+  "id": "co09",
+  "chapter": "02-midnight-an-empty-repository.md",
+  "anchor": "Four minutes later, at 00:45:02, the pipeline released it as v0.1.0 (`ab09186`).",
+  "kind": "number",
+  "title": "Released before a second member",
+  "text": "The first commit, at 00:16:23, was an empty repository. The first release, v0.1.0, came at 00:45:02. By 18:46 the pipeline had released 210 times, each one a point the editor could open and check.",
+  "claim_ids": [
+   "C001",
+   "C009"
+  ]
+ },
+ {
+  "id": "co10",
+  "chapter": "02-midnight-an-empty-repository.md",
+  "anchor": "A team that arrives before its brief invents one.",
+  "kind": "takeaway",
+  "title": "Brief and gate first",
+  "text": "The session that laid down the brief and the gate set the frame; the session that started without them wrote a sensible plan for the wrong talk. Put the request and the check in place before the team arrives.",
+  "claim_ids": []
+ },
+ {
+  "id": "co11",
+  "chapter": "03-a-mandate-you-can-read.md",
+  "anchor": "A role, a policy and a key are the smallest working form of what the talk called an Agent Behaviour Policy: what an agent can reach, what it is for, the gap between the two, and what stands in that gap.",
+  "kind": "concept",
+  "title": "Agent Behaviour Policy",
+  "text": "Four parts: the reach (what the agent can actually do, measured), the mandate (what it is for), the gap between them, and, for each row of the gap, what stands in the way: a boundary, a setting, an expectation, or nothing.",
+  "claim_ids": []
+ },
+ {
+  "id": "co12",
+  "chapter": "03-a-mandate-you-can-read.md",
+  "anchor": "Its scope is short: `team/researcher/**` and `evidence/**`, one vault held, and one file it may append to, at the top, with a correction about its own work.",
+  "kind": "concept",
+  "title": "scope.writes and scope.holds",
+  "text": "In policy.json, scope.writes lists the paths a member may change; scope.holds lists what it holds, such as a vault; appends lists files it may only add to. The scope check compares each marked commit with these lists.",
+  "claim_ids": []
+ },
+ {
+  "id": "co13",
+  "chapter": "03-a-mandate-you-can-read.md",
+  "anchor": "It is rare for a control to describe its own limit in its own source, and rarer for it to be written by the agent it controls in the hour the team was formed.",
+  "kind": "warning",
+  "title": "A scope is a setting",
+  "text": "The scope check reports; it does not refuse. The member runs it on itself, and can edit the policy it checks against. It catches mistakes, not a steered agent. Call each control what it is.",
+  "claim_ids": []
+ },
+ {
+  "id": "co14",
+  "chapter": "03-a-mandate-you-can-read.md",
+  "anchor": "The scope check knows a member's commits the same two ways, an `@` prefix in the subject or an `Agent:` line in the body, so for those 30 commits it was silent by construction: it could not count against a member a commit it could not attribute to one (derived from C014).",
+  "kind": "takeaway",
+  "title": "Attribution is a convention too",
+  "text": "The scope check could count against a member only the commits it could attribute, by an @ prefix or an Agent: line; some carried neither. If a control rests on a convention, the convention needs checking as well.",
+  "claim_ids": [
+   "C014"
+  ]
+ },
+ {
+  "id": "co15",
+  "chapter": "03-a-mandate-you-can-read.md",
+  "anchor": "The hash binds the agreement to a text, so that the agreement cannot later be read as covering words that were not there; the change list carries the text forward without pretending the old agreement covers the new rows.",
+  "kind": "takeaway",
+  "title": "Bind the agreement to the text",
+  "text": "ruv-sgit's policy records the editor's verdict against the file's own hash, and lists every later change with his word for it. An agreement tied to a hash cannot be stretched over words added afterwards.",
+  "claim_ids": []
+ },
+ {
+  "id": "co16",
+  "chapter": "03-a-mandate-you-can-read.md",
+  "anchor": "A team that pins a tool should also schedule the reading, and on this team the person scheduled to read it never arrived.",
+  "kind": "warning",
+  "title": "A hash is not a review",
+  "text": "Checking a tool's SHA-256 shows the copy has not changed since it was pinned. It says nothing about what the code does. Put the line-by-line reading on the list of a member who exists.",
+  "claim_ids": []
+ },
+ {
+  "id": "co17",
+  "chapter": "04-the-hourly-machine.md",
+  "anchor": "And from 02:14, every piece of work was wrapped in five steps (a plan, a review of the plan, the work, a review of the work, a check against the plan), each leaving a verdict in a file.",
+  "kind": "concept",
+  "title": "The five-step wake",
+  "text": "Plan (a conductor sub-agent), pre-review (a security sub-agent), work (only after both say go), post-review (security reads the diff), post-check (did it go to plan). Each step writes a verdict to the wake record; a stop from any step holds the team.",
+  "claim_ids": []
+ },
+ {
+  "id": "co18",
+  "chapter": "04-the-hourly-machine.md",
+  "anchor": "The control register files the five-step wake as C2, an expectation with a record, not a setting.",
+  "kind": "warning",
+  "title": "Defence in one session",
+  "text": "The reviewers were sub-agents in the reviewed member's own session, with the same reach. They could send a plan back and write it down; they could not stop a member that chose to ignore them.",
+  "claim_ids": []
+ },
+ {
+  "id": "co19",
+  "chapter": "04-the-hourly-machine.md",
+  "anchor": "That is the control holding at the moment of most pressure, against the member closest to the editor.",
+  "kind": "number",
+  "title": "Sent back eleven times",
+  "text": "Pre-reviews said change 11 times across the 162 wake records of the day, and each plan was amended before the work. Only 7 of the 11 carry the verdict in a field; 4 are in free text, where a first count missed them.",
+  "claim_ids": [
+   "C022",
+   "C023"
+  ]
+ },
+ {
+  "id": "co20",
+  "chapter": "04-the-hourly-machine.md",
+  "anchor": "The stale copy that the pull-first rule had been written against at 01:27 became a live risk at 15:21.",
+  "kind": "number",
+  "title": "From 8 minutes to 45",
+  "text": "The work step's limit went from 8 minutes to 45 at 15:21:31, at the editor's word. Wakes of different members began to overlap in time, so every member had to pull again before every push.",
+  "claim_ids": [
+   "C041"
+  ]
+ },
+ {
+  "id": "co21",
+  "chapter": "04-the-hourly-machine.md",
+  "anchor": "The price is written in `WAKE.md` in bold: every file in both vaults is public, forever, and a later commit does not unpublish an earlier one.",
+  "kind": "warning",
+  "title": "Public, forever",
+  "text": "Redaction fixes the file, not the history. Values removed from the files stayed in history that had already been pushed. Check before the push, with patterns you add as you learn.",
+  "claim_ids": [
+   "C025"
+  ]
+ },
+ {
+  "id": "co22",
+  "chapter": "04-the-hourly-machine.md",
+  "anchor": "All of them leave something the person can read when they are.",
+  "kind": "takeaway",
+  "title": "Replace attention with a record",
+  "text": "A schedule instead of someone deciding who works next; request files instead of memory; public stores instead of reports; five verdicts instead of a watcher. None needs the person awake, and all of it can be read in the morning.",
+  "claim_ids": []
+ },
+ {
+  "id": "co23",
+  "chapter": "05-the-story-before-the-slides.md",
+  "anchor": "The researcher's register asked both questions of every claim.",
+  "kind": "concept",
+  "title": "Grade and hold",
+  "text": "Two verdicts per claim. The grade, from A0 (no capture carries it) to A6 (the primary record does), asks whether there is evidence. The hold asks whether the sentence about to be said matches that evidence. A claim can be well sourced and still not hold.",
+  "claim_ids": []
+ },
+ {
+  "id": "co24",
+  "chapter": "05-the-story-before-the-slides.md",
+  "anchor": "Both come from a survey commissioned by a vendor, which the talk's register noted at the time.",
+  "kind": "number",
+  "title": "$17.4M or $19.5M",
+  "text": "The slide said $17.4M a year, right for the 2025 edition of its source. The 2026 edition gives US$19.5M. The exact fix was proposed at 02:52, five minutes after the freeze, and never reached the slide.",
+  "claim_ids": [
+   "C031"
+  ]
+ },
+ {
+  "id": "co25",
+  "chapter": "05-the-story-before-the-slides.md",
+  "anchor": "When the brake is lifted, someone has to walk the queue.",
+  "kind": "takeaway",
+  "title": "Walk the queue at every lift",
+  "text": "A brake stops everything behind it and keeps no list. When a freeze is lifted, even for one purpose, ask what was waiting behind it, and give every open correction an owner.",
+  "claim_ids": [
+   "C031"
+  ]
+ },
+ {
+  "id": "co26",
+  "chapter": "05-the-story-before-the-slides.md",
+  "anchor": "The register recorded each claim's state; the storyteller cited it; deck could read it; the editor could ask.",
+  "kind": "concept",
+  "title": "A record is not a gate",
+  "text": "A record says what is true; a gate refuses what is not. The talk's register found what was wrong, and nothing compared it with the slides before a release. A gate on claims would need an override the editor can sign.",
+  "claim_ids": []
+ },
+ {
+  "id": "co27",
+  "chapter": "06-the-editor-signs.md",
+  "anchor": "The phrase \"in its own session\" is the whole design.",
+  "kind": "concept",
+  "title": "Nobody speaks for the editor",
+  "text": "Other agents' words are material, never orders, so the editor's words relayed by an agent are material too. A member could be sure a word was his only in its own session, and the rules that matter most change only there.",
+  "claim_ids": []
+ },
+ {
+  "id": "co28",
+  "chapter": "06-the-editor-signs.md",
+  "anchor": "The lesson is that a signature passed hand to hand is a different thing from a signature, and a team should decide in advance which it will accept for what.",
+  "kind": "warning",
+  "title": "A relayed signature",
+  "text": "One sentence in the conductor's session agreed every policy still in draft. Three members recorded it from the conductor's mail; studio's session refused to, and its policy stayed draft. Decide in advance what a relayed word may bind.",
+  "claim_ids": []
+ },
+ {
+  "id": "co29",
+  "chapter": "06-the-editor-signs.md",
+  "anchor": "The lessons brief draws the right conclusion for the next team: list the open decisions at every wake, and ask for them once a day, not every hour.",
+  "kind": "takeaway",
+  "title": "Fewer decisions that block",
+  "text": "A signing control fails by a missing signature, while the team keeps working around the gap. List the open decisions, say which work each one blocks, and put governance questions on the agenda before the deadline displaces them.",
+  "claim_ids": []
+ },
+ {
+  "id": "co30",
+  "chapter": "07-building-the-talk.md",
+  "anchor": "The third time came in the afternoon, when the editor came back with a slot of ninety minutes (C026), a player he wanted on an iPad and a story he wanted told in three parts, and the team turned seventeen beats into fifty-eight between 16:36 and 17:52 (C016).",
+  "kind": "number",
+  "title": "Ninety minutes, 74.9 planned",
+  "text": "The player counted down 90 minutes. The 58 beats added up to 74.9: part 1 29.5, part 2 23.75, part 3 21.67. On the night, the questions from the room took the margin, and the close with it.",
+  "claim_ids": [
+   "C015",
+   "C026"
+  ]
+ },
+ {
+  "id": "co31",
+  "chapter": "07-building-the-talk.md",
+  "anchor": "The lesson, then, is not \"start the highest-risk port first\" but something narrower and harder: start the highest-risk piece early enough to rehearse with it.",
+  "kind": "takeaway",
+  "title": "Rehearse with the risky piece",
+  "text": "The port took one wake and landed at 15:07. The risk was what the speaker would find once he used it: 12 player commits followed, the last at 18:37. Name the piece the person on stage must rehearse with, and start it early enough to.",
+  "claim_ids": [
+   "C028"
+  ]
+ },
+ {
+  "id": "co32",
+  "chapter": "08-the-locks-that-never-closed.md",
+  "anchor": "And the tool refuses to lock a part twice: \"a locked part is never changed\".",
+  "kind": "concept",
+  "title": "A lock",
+  "text": "admin/build/lock.py copies every file a part's slides load into a locked folder, and the player then plays that copy. A setting that refuses: once a part is locked, no member's late edit can change what the audience sees.",
+  "claim_ids": []
+ },
+ {
+  "id": "co33",
+  "chapter": "08-the-locks-that-never-closed.md",
+  "anchor": "Part 1 was final from 18:30 and waited on the tool.",
+  "kind": "number",
+  "title": "Three locks planned, none closed",
+  "text": "Locks were planned for 18:30, 19:30 and 20:00. The tool landed at 17:54. None ran: part 1 was final and unlocked at the hold, parts 2 and 3 still in progress.",
+  "claim_ids": [
+   "C027"
+  ]
+ },
+ {
+  "id": "co34",
+  "chapter": "08-the-locks-that-never-closed.md",
+  "anchor": "A brake that depends on one busy agent is a promise, not a brake.",
+  "kind": "warning",
+  "title": "A brake on one session",
+  "text": "The lock was dev's job, in dev's scope, and dev's session was taking the editor's player notes through the half hour around 18:30. Give every brake more than one hand that can pull it.",
+  "claim_ids": [
+   "C027"
+  ]
+ },
+ {
+  "id": "co35",
+  "chapter": "08-the-locks-that-never-closed.md",
+  "anchor": "The team learned how close it was to the limit when the editor told it, and stopped at once, which is the right response to an emergency and the wrong way to meet a resource.",
+  "kind": "warning",
+  "title": "A gauge for usage",
+  "text": "The record holds one usage figure: the editor's word, 95% of a five-hour limit at 18:44. No token count, no bill. Put usage on the dashboard and have the conductor read it at every wake.",
+  "claim_ids": [
+   "C021",
+   "C037"
+  ]
+ },
+ {
+  "id": "co36",
+  "chapter": "09-the-team-was-the-insider.md",
+  "anchor": "A **setting** is enforced by a tool.",
+  "kind": "concept",
+  "title": "Setting, expectation, boundary",
+  "text": "A setting is enforced by a tool: the gate refuses a release. An expectation is a rule an agent is trusted to follow: the never list, the reviews. A boundary is a setting the agent cannot reach or edit. Only a boundary is a control.",
+  "claim_ids": []
+ },
+ {
+  "id": "co37",
+  "chapter": "09-the-team-was-the-insider.md",
+  "anchor": "None did, except once, openly and for a benign reason, which this chapter comes to.",
+  "kind": "number",
+  "title": "One account, one key",
+  "text": "All 603 of the agents' commits share one author name and, the cold reader found, one signing key. The member is named only in a subject prefix and a trailer the session writes itself.",
+  "claim_ids": [
+   "C003"
+  ]
+ },
+ {
+  "id": "co38",
+  "chapter": "09-the-team-was-the-insider.md",
+  "anchor": "But the talk claims that controls are what let you go faster, and the record shows which controls a fast team actually leaned on: the ones it could not edit.",
+  "kind": "takeaway",
+  "title": "Lean on what it cannot edit",
+  "text": "Read across the register, each miss has one shape: it reported without refusing, rested on the member running it, or waited on a role nobody held. The controls that held were the ones outside the agent's reach.",
+  "claim_ids": []
+ },
+ {
+  "id": "co39",
+  "chapter": "10-the-talk-as-given.md",
+  "anchor": "The only part of the talk that was guaranteed to reach the audience as written was what was on screen.",
+  "kind": "takeaway",
+  "title": "Check what the room sees",
+  "text": "The speaker used the script as briefing and spoke in his own words; the slides were shown in full. Put the checks where the audience will see them: on the slides and the figures on screen, first.",
+  "claim_ids": []
+ },
+ {
+  "id": "co40",
+  "chapter": "10-the-talk-as-given.md",
+  "anchor": "It was not said.",
+  "kind": "warning",
+  "title": "The line that expired",
+  "text": "The script for the second beat said \"and not one hold\". The hold came at 18:44, before the talk. The line was not spoken, by the speaker's habit rather than by any check. A script written from a live counter needs re-reading at the lock.",
+  "claim_ids": [
+   "C006"
+  ]
+ },
+ {
+  "id": "co41",
+  "chapter": "11-what-the-cold-reader-saw.md",
+  "anchor": "It worked under a rule of ignorance: everything it said had to come from that repository, with the path and commit that shows it, and where the record was silent it wrote \"the record does not say\".",
+  "kind": "concept",
+  "title": "The cold read",
+  "text": "A second team given only the talk's repository at 298be4e: no brief, no memo, no transcript, no contact. Everything it says cites a path and commit; where the record is silent it says so. It sees what the insiders stopped looking for.",
+  "claim_ids": []
+ },
+ {
+  "id": "co42",
+  "chapter": "11-what-the-cold-reader-saw.md",
+  "anchor": "Neither is wrong; they count different things.",
+  "kind": "number",
+  "title": "What the talk said, and git",
+  "text": "The talk said 510 commits and 164 releases by five in the afternoon. Counted with git rev-list, the repository held 625 commits by 17:02. Quote 510 as what the talk said, never as the day's count, and show the definition beside any number.",
+  "claim_ids": [
+   "C042"
+  ]
+ },
+ {
+  "id": "co43",
+  "chapter": "11-what-the-cold-reader-saw.md",
+  "anchor": "Here it was a promise, and it was kept.",
+  "kind": "takeaway",
+  "title": "A promise, kept",
+  "text": "The wall between the teams was a rule: both ran on one account, and each could see the other's names. What kept the experiment blind was an agent that saw, did not open, and wrote down that it had seen. Make walls settings where you can.",
+  "claim_ids": []
+ },
+ {
+  "id": "co44",
+  "chapter": "12-build-your-own.md",
+  "anchor": "If you need the running one to stop too, make the push itself check for the hold.",
+  "kind": "try",
+  "title": "Test your own hold",
+  "text": "Before the deadline, have a member write HOLD.md on purpose. Check that every next wake stops, that a running wake cannot push past it, and that only you can lift it. A brake that has never been pulled is a brake nobody knows works.",
+  "claim_ids": []
+ },
+ {
+  "id": "co45",
+  "chapter": "12-build-your-own.md",
+  "anchor": "Show usage on the team's dashboard, have the conductor read it at every wake, and let a member with nothing to do pause itself.",
+  "kind": "try",
+  "title": "Log usage at every wake",
+  "text": "Add one line to every wake record: the usage reading at the start. After a day you have a curve, not a single figure said under pressure at 95%. Set the point at which the conductor pauses idle members.",
+  "claim_ids": [
+   "C021"
+  ]
+ },
+ {
+  "id": "co46",
+  "chapter": "12-build-your-own.md",
+  "anchor": "It is the cheapest cost control in the method.",
+  "kind": "try",
+  "title": "Give each member a 'done'",
+  "text": "Write a 'Done when' list in every ROLE.md. When it is met, the member runs a last wake, writes a closing debrief and pauses its own scheduled task. Members with nothing left to do stop spending usage.",
+  "claim_ids": []
+ },
+ {
+  "id": "co47",
+  "chapter": "12-build-your-own.md",
+  "anchor": "Expectations work well with a benign team, and the record shows they mostly did; they are not controls.",
+  "kind": "try",
+  "title": "Put a brake outside reach",
+  "text": "List every brake you rely on and ask of each: can the agent edit it? If it can, it is an expectation. Move at least the scope check and the hold check somewhere the member's credential does not reach, such as a required check on the main branch.",
+  "claim_ids": []
+ },
+ {
+  "id": "co48",
+  "chapter": "12-build-your-own.md",
+  "anchor": "Give the tripwire your own patterns on day one, and expect it to miss.",
+  "kind": "try",
+  "title": "Give the tripwire your patterns",
+  "text": "Before the first capture, add patterns for what your work will touch: cookie values, form tokens, other sites' published tokens. Run the check before every push to a public store, and treat each finding as a class to search for, not an instance.",
+  "claim_ids": [
+   "C025"
+  ]
+ },
+ {
+  "id": "co49",
+  "chapter": "99-appendix-a-every-number-rerun.md",
+  "anchor": "The state after each id is the register's: checked (the record agrees), corrected (the record gives another number than the brief that first cited it), open (the record does not settle it).",
+  "kind": "concept",
+  "title": "Checked, corrected, open",
+  "text": "Every number has a state. Checked: the record agrees. Corrected: the record gives another number, and the book uses the register's. Open: the record does not settle it, or the editor must decide.",
+  "claim_ids": []
+ },
+ {
+  "id": "co50",
+  "chapter": "99-appendix-a-every-number-rerun.md",
+  "anchor": "`git rev-parse --is-shallow-repository` should print `false`.",
+  "kind": "warning",
+  "title": "Clone with full history",
+  "text": "A shallow clone holds only part of the log, and every count in this appendix comes out smaller without any error. Check the clone before rerunning anything.",
+  "claim_ids": []
+ }
 ]

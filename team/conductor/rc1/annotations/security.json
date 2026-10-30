@@ -7,14 +7,15 @@
   {
    "id": "security-01",
    "chapter": "03-a-mandate-you-can-read.md",
-   "anchor": "What it found, in summary: the cryptography is standard and comes from the platform's own library, with no home-made primitives; no finding is rated above low.",
+   "anchor": "What it found, in summary: the cryptography is standard and comes from the platform's own library, with no home-made primitives; one finding is rated medium and the rest low or for information.",
    "kind": "comment",
    "title": "Key tool review: one finding is medium, not low",
    "body": "Chapter 3 says no finding in this book's review of the pinned key tool is above low, and chapter 9 says the review had not reached the last commands. Both were true early on 30 October and are not now. Security's tenth wake read the remaining commands and confirmed finding 14, rated medium: the keyfile command prints a session's private halves to standard output, in the clear when no passphrase is set. The Cold-Read team found it first, as chapter 11 says. Evidence: team/security/reviews/pki-agent-review.md and team/security/status.json. Proposed: 'one finding is medium, the rest low or information', credit the Cold-Read team, and drop 'had not yet reached' in chapter 9.",
    "options": [],
    "recommendation": "",
    "answer_space": "none",
-   "claim_ids": []
+   "claim_ids": [],
+   "status": "Ch3: the review now reads 'one finding is rated medium', names the keyfile weakness at what-and-why level, credits the Cold-Read team, and says every command was read; ch9 drops 'had not yet reached the last commands'."
   },
   {
    "id": "security-02",
@@ -35,19 +36,20 @@
   {
    "id": "security-03",
    "chapter": "11-what-the-cold-reader-saw.md",
-   "anchor": "This book's gate has the same gap (`admin/build/validate.py`, line 109) and has not been widened.",
+   "anchor": "This book's gate had the same gap, and was widened the same morning to read the key tool's pin too (`e7d3d3d`, 30 October); the residual, a tool and its pin changed in one commit, remains in both.",
    "kind": "comment",
    "title": "This book's gate already checks the key tool's pin",
    "body": "Chapters 9 and 11 say this book's gate does not check the key tool's pin and has not been widened. It has: check_vendored in admin/build/validate.py now reads admin/tools/*.sha256 as well as src/static, with a comment crediting the Cold-Read finding (e7d3d3d, 30 October, 10:19 UTC). The line cited has moved too. Proposed text: the Cold-Read team found the gap, and this book's gate was widened the same morning. The residual stays true and should stay at its present level of detail: a tool and its pin changed together in one commit still pass, which is why the review of admin/tools/ in item security-11 matters.",
    "options": [],
    "recommendation": "",
    "answer_space": "none",
-   "claim_ids": []
+   "claim_ids": [],
+   "status": "Ch11 and ch9: the gate is now said to have been widened on 30 October (e7d3d3d, check_vendored reads admin/tools/*.sha256), with the residual kept; e7d3d3d added to ch9's sources."
   },
   {
    "id": "security-04",
    "chapter": "04-the-hourly-machine.md",
-   "anchor": "The first is encouraging: the second and third were caught before their commits, in wakes no person was watching.",
+   "anchor": "The first is sobering: none of the three was caught before the values were public.",
    "kind": "comment",
    "title": "The token leaks were all public before review",
    "body": "Chapter 4 says the cookie values (04:10) and form tokens (06:14) were caught before their commits, and that a leak was 'closed twice before it shipped'; chapter 9 says the 04:10 review kept the cookie values out of the public record. The record says otherwise. C025's own 06:14 entry has the form tokens 'also in the 02:22 push'. The researcher's answer at 07:18 (aa7a3eb, with its counts file) says the evidence vault's commits of 02:22 and 05:23, readable with its published read key, hold cookie values and form tokens. The reviews cleaned the repository files; none of the three findings came before the values were public. Proposed: 'caught three times, each after it was public'.",
@@ -56,12 +58,13 @@
    "answer_space": "none",
    "claim_ids": [
     "C025"
-   ]
+   ],
+   "status": "Ch4: the three leak findings now each come after the values reached a pushed, public history; 'closed twice before it shipped' replaced; vault commit range and the 02:22 commit pointers removed from prose; D12 said open at 19:00. Same fix in ch9 (table, C8 section, verdicts), ch12 and ch2."
   },
   {
    "id": "security-05",
    "chapter": "06-the-editor-signs.md",
-   "anchor": "D12 was whether to do anything about other sites' tokens left in the public vault's history by a push the night before.",
+   "anchor": "D12 was whether to do anything about other sites' tokens left in a pushed, public history the night before.",
    "kind": "decision",
    "title": "Settle D12 before the book points at the vault",
    "body": "The evidence vault's history still holds anonymous cookie values and form tokens that other sites issued to the researcher's fetcher, readable by anyone with the published read key (aa7a3eb). D12, whether to act, was open at 19:00, and the record shows no answer since. RC1 now tells every reader that the history holds them, names the commits, and prints a screenshot of the vault. The values are of little use to anyone, but they are other parties' material in a public store, and only you can change the talk's repository and its vaults.",
@@ -72,12 +75,13 @@
    ],
    "recommendation": "A: the failure stays in the book while the exposure ends; B is the fallback if a move would break links the talk's site depends on.",
    "answer_space": "none",
-   "claim_ids": []
+   "claim_ids": [],
+   "status": "Partly: chs 4, 6 and 9 no longer name the vault's commits or call it the vault's history in prose; the decision itself, the aa7a3eb citations in source lists and the ch5 vault screenshot remain for the editor."
   },
   {
    "id": "security-06",
    "chapter": "09-the-team-was-the-insider.md",
-   "anchor": "If the push is the authorisation, any session that can push can publish or replace any member's `key.json`, and the handover seals to whatever that file says.",
+   "anchor": "If the push is the authorisation, a key's standing is only as strong as the push: nothing checked a published key against the session that made it.",
    "kind": "decision",
    "title": "One sentence on keys reads as a route",
    "body": "Chapter 3 states this risk at the right level: identity rested on write access, so a key's standing was only as strong as the push. This sentence goes a step further and joins the capability to its consequence, the vault-key handover sealing to whatever key file it finds. Joined, the two halves read as a route rather than a risk, and the book's rule is risks, never methods. Nothing of the kind happened on either team; the point is only the shape of the sentence.",
@@ -88,19 +92,21 @@
    ],
    "recommendation": "B: the argument loses nothing, and the book stays on the right side of its own rule.",
    "answer_space": "none",
-   "claim_ids": []
+   "claim_ids": [],
+   "status": "Ch9: option B applied; the sentence now states the risk (nothing checked a published key against its session) without the handover consequence."
   },
   {
    "id": "security-07",
    "chapter": "12-build-your-own.md",
-   "anchor": "The scope check runs on every release (`admin/build/agents.py check`).",
+   "anchor": "The scope check runs in every wake, by the member on itself (`admin/build/agents.py check`); the release gate checks only that no two members claim the same file (`agents.py overlaps`, called from `admin/build/validate.py`, in this repository as in the talk's).",
    "kind": "comment",
    "title": "Chapter 12 overstates two controls a builder will copy",
    "body": "Two sentences in the how-to chapter will be copied, and both say more than the record. 'The scope check runs on every release': this repository's gate calls agents.py only to find two members claiming one file (overlaps); each member runs check on itself, as chapter 3 says of the talk's team. And the session's own permission check is offered as the boundary that did refuse; chapter 9 shows it allowed the same self-widening in the historian's and the publisher's sessions before any signature, then refused the researcher after one. Proposed: say the check is self-run, and present the harness check as a refusal that held most of the time and could not be planned around.",
    "options": [],
    "recommendation": "",
    "answer_space": "none",
-   "claim_ids": []
+   "claim_ids": [],
+   "status": "Ch12: the scope check is now self-run in every wake, the gate only runs overlaps (verified in validate.py of both repositories and release.yml); the session check is a refusal that held most of the time, not consistently."
   },
   {
    "id": "security-08",

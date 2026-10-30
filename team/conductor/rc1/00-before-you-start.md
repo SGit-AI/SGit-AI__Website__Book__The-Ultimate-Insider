@@ -14,7 +14,7 @@ The talk's subject was the risk itself. Its argument is that agents are the ulti
 
 The team that built the talk was, by its own argument, exactly that kind of insider. It had commit access to the repository, the editor's sessions to run in, and the hours of the night to itself. So the book tells two stories as one. The main thread is the workflow: how the team was set up, briefed, scheduled, reviewed, held and released. Running through it is the talk's argument, because each control the team used answers a beat of the talk. You meet the risk and the brake in the same chapter.
 
-![The title slide and the opening argument, three known problems (stills of the released build, added after the day)](resources/images/00-the-talk.jpg)
+![The title slide and the opening argument, three known problems (stills shot after the day from v0.2.0, whose content is the 18:46 release)](resources/images/00-the-talk.jpg)
 
 ## Who was there
 
@@ -36,7 +36,7 @@ The agents are named the way the record names them: by role. Dev, conductor, ruv
 
 **Talk facts.** The talk made claims about the world: incidents, costs, percentages. This book does not repeat them on the talk's authority. A fact from the talk appears only when it has been checked at its source and given its own entry. Otherwise the book describes the argument without the fact.
 
-**What came later.** After the day, the editor added the transcript of the talk as given, and his own debrief, to the talk's repository. Chapter 10 uses them, and says each time that they were added after the day. Everything else is the record as it stood that night.
+**What came later.** After the day, the editor added the transcript of the talk as given, and his own debrief, to the talk's repository. Chapter 10 uses them, and says each time that they were added after the day. The stills of the talk's slides were shot after the day too, from v0.2.0, the build the 23:19 merge published (C007); its content is the last release of the day, v0.1.209 at 18:46 (C005), from which it differs only in its version number. Everything else is the record as it stood that night.
 
 ## What this book is not
 

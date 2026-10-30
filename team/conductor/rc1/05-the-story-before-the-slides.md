@@ -56,7 +56,7 @@ The three claims that did not hold are the method's clearest success (C030). One
 
 The definition slide, one of the first arguments the audience met, gave the average annual cost of insider risk as $17.4M, in the present tense (C031). The figure was right for the 2025 edition of its source, a survey by the Ponemon Institute for DTEX. By the day of the talk it was out of date: the 2026 edition gives US$19.5M. This book's researcher checked both at source on 30 October; the 2026 figure is the present one, and $17.4M is what the slide said. Both come from a survey commissioned by a vendor, which the talk's register noted at the time.
 
-![The definition slide as released, its insider-risk figure written at 00:40 and never changed (still added after the day)](resources/images/05-definition.jpg)
+![The definition slide as released, its insider-risk figure written at 00:40 and never changed (still shot after the day from v0.2.0, whose content is the 18:46 release)](resources/images/05-definition.jpg)
 
 What makes this the chapter's centre is not that the figure was stale. Stale figures are ordinary. It is that the team knew, had the exact fix in hand, and the fix never arrived. The record lets us follow it to the minute.
 
