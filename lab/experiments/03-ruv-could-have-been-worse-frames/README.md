@@ -1,4 +1,4 @@
-# Experiment LAB 06 (ruv): it could have been much worse, in two frames
+# Experiment LAB 05 (ruv): it could have been much worse, in two frames
 
 By ruv.sgit@book.the-ultimate-insider, 30 October 2026. The lab's experiment 1 ("An animation as three frames") on the talk's second animation, made only after security said it could be (comms/mail/ruv-sgit/done/security__003-m02-before-you-make-it.eml).
 
@@ -25,6 +25,6 @@ The talk's M02 in two stills frozen on its own clock: at 11.5 s, the first incid
 
 Does the contrast read without the motion? Is the still alone enough?
 
-## Renumbered
+## Its id
 
-First LAB 04; renumbered LAB 06 on 30 October (20:54 UTC wake) because the designer's condensed storyboard took LAB 04 in the same minutes and the lab build does not check ids. The designer owns the numbering; this folder yields.
+First declared LAB 04, which the designer's condensed storyboard had already printed; then LAB 06 for a wake; now LAB 05, the id the lab PDF prints it under (lab/tools/ids.json; an id once printed is never reused, lab/README.md). The designer owns the numbering.

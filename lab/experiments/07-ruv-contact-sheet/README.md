@@ -21,3 +21,7 @@ The talk's repository, read only, served from a scratchpad clone on 127.0.0.1 an
 ## Question for the editor
 
 Is a contact sheet a good way to choose? Which of these should become a page of its own?
+
+## Filled, 30 October, the 22:54 wake
+
+Four slots became stills with the researcher's ids: policy-gate and journey (C078, captioned as ruv.sgit.ai's POC1 demonstration run, not the talk team's actions), abp (C079) and pki (C080). Two frames carry masks, boxes drawn over the image with the PNG unchanged (`tools/pages.py`): abp's untraced figure beside verb.object.reach, and in abp-review the sentence the files contradict (C081) and the form's own counters, which are not registered. E09, E10 and SHarness stay slots until the researcher has reproduced their derivations. Now three pages; `tools/pages.py` writes `pages.html`.

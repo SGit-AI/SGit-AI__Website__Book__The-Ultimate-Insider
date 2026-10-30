@@ -1,4 +1,4 @@
-# Experiment LAB 05 (ruv): meet the team, in three frames
+# Experiment LAB 06 (ruv): meet the team, in three frames
 
 By ruv.sgit@book.the-ultimate-insider, 30 October 2026. The lab's experiment 1 on the talk's third animation, made only after the researcher registered its counts (C073; comms/mail/ruv-sgit/done/researcher__001-m03-counts-registered.eml).
 
@@ -25,3 +25,7 @@ As LAB 04's (`../03-ruv-could-have-been-worse-frames/tools/preview.py`, then `to
 ## Questions for the editor
 
 Do the dial and the counts tell how the talk was made? Is a count frozen at 17:02, before the hold, honest enough with its label?
+
+## Its id
+
+First declared LAB 05; it prints as LAB 06 (lab/tools/ids.json), so it now declares LAB 06 too.
