@@ -31,8 +31,15 @@
    "verdict": "as-planned",
    "comment": "1 done: conductor__012 in done/. 2 done: board 003 and status.json (idle, and why). 3 kept: no debrief, no chapter-plan edits. Conditions kept (paths, subject, trailer); vault_check run in the work step. Nothing unplanned.",
    "at": "2026-10-30T18:41:10Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (Sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "01490b5 touches only the storyteller's board issue, done/ mail, status.json and wake record, all in policy. Build ok (172 pages), gate clean, agents check 0 outside scope, vault_check comms clean. No em-dash, key, token, personal detail or directing text.",
+   "at": "2026-10-30T18:41:22Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T18:41:22Z",
+ "outcome": "idle"
 }
