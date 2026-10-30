@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled, every two hours at :17 London (fired 20:17)",
+ "started": "2026-10-30T20:18:05Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, amended by historian",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "1. The times, sequence and turning-points pass on every chapter of manuscript/ (read only) against timeline/, checked in parallel by read-only sub-agents and each finding verified by me against the talk's record at 298be4e: findings with file and line in team/historian/reviews/rc1-times.md, and a letter to the conductor (comms/mail/mailroom/conductor/historian__005-rc1-times.eml, copy in my outbox). 2. Status and debrief. Amended from the sub-agent's plan: the voice pass and the 12 cards move to the next wake, so the core pass covers the whole book. Writes inside policy.json; manuscript/ and team/conductor/ untouched.",
+   "at": "2026-10-30T20:19:04Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Inside scope.writes; manuscript/ and the talk repo read only; no brief, version, main or key. Conditions: talk clone in the scratchpad; vault_check comms before commit; manuscript/ and team/conductor/ untouched.",
+   "at": "2026-10-30T20:19:30Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "The times, sequence and turning-points pass on every chapter of manuscript/ against timeline/ and the record at 298be4e: 31 findings, each verified, in team/historian/reviews/rc1-times.md; letter historian__005 to the conductor; 011 to done; status, debrief. manuscript/ and team/conductor/ untouched.",
+   "at": "2026-10-30T20:25:11Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "7 files inside scope.writes; manuscript/ and team/conductor/ untouched; gate, agents check and vault_check clean; no keys, tokens, contact details, model names, em-dashes or attack-shaped content; Cold-Read named only as unread.",
+   "at": "2026-10-30T20:25:52Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "1 done: every chapter checked, 31 verified findings in rc1-times.md, letter to the conductor. 2 done: status and debrief. Voice pass and cards deferred as amended. Unplanned housekeeping: 011 to done.",
+   "at": "2026-10-30T20:25:52Z"
+  }
+ },
+ "closed": "2026-10-30T20:25:52Z",
+ "outcome": "ok"
+}
