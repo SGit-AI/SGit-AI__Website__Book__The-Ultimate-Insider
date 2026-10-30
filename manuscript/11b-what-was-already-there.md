@@ -22,6 +22,8 @@ The day leaned on five of them, and the rest of the chapter names them each time
 
 None of the pieces below is clever. Most are a file, a folder or a short script. Each turns something a person would otherwise have to remember, watch or ask about into a record a tool can check.
 
+![Map 6. The plumbing under the day: what the editor brought, what the team wrote on the day, what was rented](resources/images/maps/06-the-plumbing-under-the-day.png)
+
 <!-- figure: Map 6, the plumbing under the day (team/conductor/rc1/maps/06-the-plumbing-under-the-day.json): what the editor brought, what the team built on the day, what was rented, on a Wardley map -->
 
 ## The plumbing, piece by piece
@@ -110,6 +112,8 @@ Each replaces attention with a record. And almost every one encodes an incident.
 The editor's brief describes the day as the meeting point of "the work I've been doing for the last 2.5 years", and names what met there: The Cyber Boardroom, Issues-FS and Memory-FS, tagging, the newsroom and its publishing workflow, Type_Safe, his first experiments with an AI coding assistant, sgit, SHarness and Wardley maps. "It's all one leads to the other."
 
 What follows tells that line from public sources only: his articles, his public repositories and their histories, and the package index where his libraries are released. It is told as what each piece made possible on the day. Where his own article is the source, it is his account; where the record is silent, the chapter says so.
+
+![Map 7. The years before the day: one piece leads to the next (a reading of the editor's brief, to challenge)](resources/images/maps/07-one-piece-leads-to-the-next.png)
 
 <!-- figure: Map 7, before the day (team/conductor/rc1/maps/07-one-piece-leads-to-the-next.json): the editor's own pieces and how they met on 29 October; positions are the conductor's reading, for the editor to challenge -->
 

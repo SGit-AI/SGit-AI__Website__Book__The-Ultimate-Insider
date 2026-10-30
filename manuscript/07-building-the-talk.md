@@ -2,6 +2,12 @@
 
 The talk was built three times in one day. The first time took one commit: at 00:40 a single session wrote the site, the talk as data, its slides, a player and a gate together (`1f7c633`). The second time was not a rebuild at all but a long wait, during which the talk stood still and a team built everything around it. The third time came in the afternoon, when the editor came back with a slot of ninety minutes (C026), a player he wanted on an iPad and a story he wanted told in three parts, and the team turned seventeen beats into fifty-eight between 16:36 and 17:52 (C016).
 
+{blurb, class: discussion}
+**The number: Ninety minutes, 74.9 planned**
+
+The player counted down 90 minutes. The 58 beats added up to 74.9: part 1 29.5, part 2 23.75, part 3 21.67. On the night, the questions from the room took the margin, and the close with it. (C015, C026)
+{/blurb}
+
 This chapter is about the making, but not as a list of what was made. It reads the making for what it shows about the method: that most of the day's riskiest work was ported rather than written, that a new member could join with a role, a policy and a key inside one wake, and that the speed came from who owned what more than from how clever any one agent was. The talk's own argument runs alongside: the explosion of software, as everyone becomes a builder, and the line the team gave the editor to say about itself, that the capability is the orchestration, not the model. The failure this chapter keeps is the player. It was named the editor's main priority, it was put second at the editor's own word within minutes, it landed in the middle of the afternoon, and it was still being changed in the last hour.
 
 ## The first pass, and a talk that stood still
@@ -32,7 +38,15 @@ So which reading does the record support? On the order of work, it supports the 
 
 But the lessons brief's instinct survives in another form. The risk in the player was never the port. The port took one wake. The risk was what the editor would find when he started to use it, and he found it in the last hour. From 15:07 to 18:37 the player took twelve commits (C028), and those between 18:04 and 18:37 each carried the editor's own time in its subject: 18:05, 18:10, 18:15, 18:25 (`23739cc`, `12e93db`, `013d97e`, `dbd75ad`, with the what-changed view at 18:06, `13e1321`). The fixes were small and specific: going back across a slide boundary landed in the wrong place, a step stopped the play, the bar did not fit an iPad on its side, two back steps in a row while playing found the same step twice. They are the notes of a person rehearsing. At the end of the day the player was 977 lines (C017), more than four times the size it had been at lunchtime, and its last change, at 18:37, came twenty-three minutes before the talk was due to start (C018).
 
+![The player in lines: 234 at 00:40, 236 from 00:54, 635 at the port at 15:07, 977 at the end](resources/images/infographics/ig27-player-lines.jpg)
+
 The lesson, then, is not "start the highest-risk port first" but something narrower and harder: start the highest-risk piece early enough to rehearse with it. A port can land on time and still be the piece most likely to change in the last hour, because the person who will stand on stage with it has not yet used it. Chapter 8 shows what that last hour cost: the session taking the editor's player notes at 18:25 was the session that was meant to lock the first part of the talk at 18:30.
+
+{blurb, class: tip}
+**Take away: Rehearse with the risky piece**
+
+The port took one wake and landed at 15:07. The risk was what the speaker would find once he used it: 12 player commits followed, the last at 18:37. Name the piece the person on stage must rehearse with, and start it early enough to. (C028)
+{/blurb}
 
 ## Ported, not rebuilt
 
@@ -50,6 +64,8 @@ The studio member was the same idea given a role. Its mandate was ports and adap
 
 There is an argument here worth making plainly. The talk's own beat on explorer coding (`spreadsheets`) says that people who once built a spreadsheet now build an application with a coding agent in an afternoon, and that every one of those applications starts its security from nothing. This team is a case of the first half and a counter-example to the second. Its applications, the player, the lock tool, the lane, the build mode, were built in an afternoon. But none of them started from nothing: they started from a port with a known licence, inside a repository whose gate had run since the first commit, in a scope a pre-review read before any line was written. The explosion of software is real. What decides whether it is dangerous is what each new application inherits.
 
+![Map 10. Spreadsheets to applications: each new app built by an explorer starts its security in genesis](resources/images/maps/10-talk-spreadsheets-to-applications.png)
+
 ## Joining in one wake
 
 Three members joined in the afternoon (C011). The storyteller's first wake started at 14:12 and its join commit landed at 14:15 (C012). Motion and studio joined together at 15:31 (`f1cbca0`, `8d208d3`, C013), soon after the conductor wrote their briefs and first prompts at 15:25 (`f00734f`). Each arrived with a role, a policy, a session key and its own scheduled task, and each closed its first wake within minutes; studio ported its first pieces in that wake. At 15:47 the conductor checked both new keys and routed their first requests (`4adc04a`). Studio's third port landed at 16:18 (`0fe0fff`), and motion's first piece, the building, where attackers turn left towards small things and agents turn right towards the gold, was on the engine with its stops at 16:34 (`7639664`).
@@ -65,6 +81,8 @@ The cost of joining fast is in the commit counts. By the end of the day studio h
 At 16:32 the conductor routed the editor's word that the talk was ninety minutes long, with a section on the editor's own work (`62c6b99`). At 16:36 deck set the talk in the editor's order, and it had twenty-two beats (`ca59986`). At 17:09 deck interleaved the studio's pieces and the talk had thirty-eight (`7f522de`). At 17:52 deck marked part 1 final for its lock and the talk had fifty-eight (`b1c9bab`, C016). The talk that had stood at seventeen beats since the first hour more than tripled between 16:36 and 17:52.
 
 ![Deck's new slides as it set the talk in the editor's order (29 October 2026, 16:36)](resources/images/07-editors-order.jpg)
+
+![How the talk grew: 17 beats from 00:40 to 16:36, then 22, 38 and 58 by 17:52, in three parts](resources/images/infographics/ig26-beats-growth.jpg)
 
 The fifty-eight beats fell into three parts: twenty-two in the first, sixteen in the second, twenty in the third (C015). Most of the growth was not new writing. It was the night's and the afternoon's pieces, already built on the shared clock, being placed: experiments from the studio programme, ports from studio, motion's animations, and live slides that opened the team's own tools on stage. The pieces existed; the talk caught up with them.
 

@@ -40,6 +40,8 @@ Part three did not hold. It opened as planned with the live demos and the first 
 
 So the larger part of part three never appeared, including both closing beats. The talk planned to end on its thesis and its call to action. On the screen, it ended on a vault.
 
+![What reached the screen: every beat of parts 1 and 2; part 3 stopped at the vault, its close unshown](resources/images/infographics/ig34-reached-screen.jpg)
+
 The beats added up to about a quarter of an hour less than the slot (C026), and in the afternoon that margin read as a talk running short. The transcript shows where it went: into the room. Questions came at what the speaker called the end of part one (after `integrity` and "The overlap fills", which close the first act of the argument though `talk.json` numbers them in part two), and then all through parts two and three. The plan had no beat for them, and a planned close at the very end of a talk is the first thing a room's questions consume.
 
 ![Planned for part three and never on the screen, down to 'The overlap, governed' (stills shot after the day from v0.2.0, whose content is the 18:46 release)](resources/images/10-never-reached.jpg)
@@ -54,11 +56,23 @@ That is the pattern for the whole evening. The speaker used the slides, in order
 
 This matters for how the team should have prepared. The team spent its day writing words for a speaker who, on the night, used them as briefing rather than as script. But the team's checks were aimed at the words. The talk's researcher graded claims by where they sat in the script and on the slides (C029). On the night, the slides were shown in full and the script was not read. The only part of the talk that was guaranteed to reach the audience as written was what was on screen.
 
+{blurb, class: tip}
+**Take away: Check what the room sees**
+
+The speaker used the script as briefing and spoke in his own words; the slides were shown in full. Put the checks where the audience will see them: on the slides and the figures on screen, first.
+{/blurb}
+
 ## What fell out, and what it says about the register
 
 Four things the record worried about can now be checked against what was said.
 
 **"Not one hold."** The second beat, `m03` ("Meet the team"), planned the speaker to give the team's commit and release counts as of five in the afternoon and to say "and not one hold. Hold that picture. I will come back to it." At 18:44 the conductor wrote the hold at the editor's word (C006, C024), before the talk was due to begin at 19:00, which made the line untrue before it could be said. It was not said. Over that slide the speaker described the team, member by member, as "a session ... that has a prompt, a very good description, a lot of guidance and a lot of memory ... and you run it in a loop." Whether he left the line out because he knew of the hold, or because he was not reading the script at all, the record does not say. The second is the likelier reading of the whole transcript, and it is the less comforting one: the line fell out by the speaker's habit, not by anyone's check.
+
+{blurb, class: warning}
+**Watch for: The line that expired**
+
+The script for the second beat said "and not one hold". The hold came at 18:44, before the talk. The line was not spoken, by the speaker's habit rather than by any check. A script written from a live counter needs re-reading at the lock. (C006)
+{/blurb}
 
 **The $17.4M figure.** The definition slide carried the average annual cost of insider risk as $17.4M, the 2025 edition of a sponsor-commissioned survey, written at 00:40 and never changed, though the talk's researcher had proposed the exact replacement five minutes after the editor froze the slides at 02:47, and nobody carried the correction across when the freeze was lifted for the framing at 14:07 (C031). The transcript shows the slide was on screen: the definition passage sits with it. It also shows that the figure was never spoken. The cue told the speaker where the number came from; the speaker did not use it. So the superseded figure reached the stage in the form the audience could not miss and the speaker did not vouch for. That is not a reprieve. A number on a slide behind a speaker is a claim made to the room whether or not he reads it out.
 

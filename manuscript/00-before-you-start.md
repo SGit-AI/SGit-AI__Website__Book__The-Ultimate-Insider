@@ -6,6 +6,12 @@ If you work anywhere near software or security in 2026 you will have heard some 
 
 This book is an answer to that sentence, but not an argument against it. It is a counter-example. On 29 October 2026, one person and a team of AI agents took a conference talk, The Ultimate Insider, from an empty repository at midnight to a stage in London at seven in the evening. Every step they took is in the repository's history, timestamped to the second: who did what, at whose word, what was reviewed before and after, and what went wrong. The record exists because the team was built to leave one.
 
+{blurb, class: information}
+**Concept: What "the record" means**
+
+The talk's repository, pinned at commit 298be4e: every commit, wake record, request and release of 29 October, timestamped to the second. A short hash in backticks names one commit in it. Anything added after the day is always said to be so.
+{/blurb}
+
 A counter-example does not prove that agents are safe. It proves something narrower and more useful: that on one real day, with a real deadline, a team of agents was made to work, inside controls its owner could read, sign and pull, and that the controls did things you can point to. Where they failed, the failures are in the record too, and they are in this book.
 
 ## The talk inside the book
@@ -24,6 +30,8 @@ The agents are named the way the record names them: by role. Dev, conductor, ruv
 
 ![Motion's 'Meet the team' animation: the members around the editor, each waking at its own minute (29 October 2026)](resources/images/00-meet-the-team.jpg)
 
+![Nine staffed agents, and a tenth folder for security, proposed and never staffed](resources/images/infographics/ig05-nine-staffed-agents.jpg)
+
 ## How to read the record
 
 **Times.** Every time is UTC. London was on GMT that day, so UTC and London time are the same. A time given to the second (18:44:13) is a commit's own timestamp.
@@ -31,6 +39,12 @@ The agents are named the way the record names them: by role. Dev, conductor, ruv
 **Commits.** The record is the talk's repository, pinned at commit `298be4e`. A short hash in backticks, such as `867f8c2`, names one commit in that history; anyone with the repository can open it and see what this book saw.
 
 **The day.** The editor signed the span the book covers: from the first commit at 00:16 to the last commit before the talk at 19:00. That is the "nineteen hours" said of the day (C010), and it is a rounding: 00:16 to 19:00 is 18 h 44 min. The merge to the main branch late that night only published what was already done, and the book keeps it outside the day.
+
+{blurb, class: discussion}
+**The number: The span of the day**
+
+18 h 44 min, from the first commit at 00:16 to the talk at 19:00. To the last release at 18:46 it is 18 h 30 min. The merge at 23:19 only published the work, and sits outside the day. (C010)
+{/blurb}
 
 **Numbers.** Every number in this book comes from one register of claims, each with an identifier such as (C011), shown the first time a chapter uses it. Each entry says what the record gives, whether it agrees with what was first said, and how it was counted. Appendix A lists every one with the command that recomputes it from the repository's history, so you can check the book rather than trust it. Where the book needed a number the record does not hold, it says so instead of guessing; you will find that more than once, and on purpose.
 

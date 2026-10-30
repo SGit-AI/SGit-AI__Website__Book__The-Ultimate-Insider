@@ -2,11 +2,25 @@
 
 Every number in this book comes from one register, `claims/register.json`, and every entry in it carries a command that computes the number from the record. This appendix prints those commands with what they return, so that a reader can check the book without trusting it. The precedent is the making-of book on graphs.sgit.ai, whose own appendix carries the scripts behind every count in it (C035).
 
+![One register entry: an id, a value, a state and a read-only command pinned to the last commit](resources/images/infographics/ig39-every-number-rerun.jpg)
+
 ## How to rerun
 
 Clone the talk's repository, SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider, **with its full history**, and stand in it. A shallow clone, which some tools make by default, holds only part of the log and gives smaller counts for every entry below without any error. `git rev-parse --is-shallow-repository` should print `false`.
 
+{blurb, class: warning}
+**Watch for: Clone with full history**
+
+A shallow clone holds only part of the log, and every count in this appendix comes out smaller without any error. Check the clone before rerunning anything.
+{/blurb}
+
 Every command is read-only and names `298be4e`, the last commit of the day's record, so it gives the same answer whatever the editor adds afterwards. Times are UTC, which was London time on 29 October 2026. Each result below was rerun for this edition on 30 October 2026 against a full clone, and matched the register except where the last section says otherwise. The state after each id is the register's: checked (the record agrees), corrected (the record gives another number than the brief that first cited it), open (the record does not settle it).
+
+{blurb, class: information}
+**Concept: Checked, corrected, open**
+
+Every number has a state. Checked: the record agrees. Corrected: the record gives another number, and the book uses the register's. Open: the record does not settle it, or the editor must decide.
+{/blurb}
 
 ![The site's 'Commits and messages' page: the day's history as the team itself read it (first night)](resources/images/99-commits.jpg)
 

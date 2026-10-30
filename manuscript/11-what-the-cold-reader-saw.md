@@ -4,7 +4,15 @@ Every chapter so far was written from inside. This book's team read the talk's r
 
 So on the night of 30 October a second team was set to read the same record without any of that. The Cold-Read team (cold-read.the-ultimate-insider, in its own repository) was given one thing: the talk's repository, pinned at `298be4e`, "Nothing else: no briefing on what it is, no memo, no transcript, no contact with any other team" (its `BRIEF.md`). It worked under a rule of ignorance: everything it said had to come from that repository, with the path and commit that shows it, and where the record was silent it wrote "the record does not say". "Guessing is a finding against you." Its conductor counted twelve members running by about 02:00 UTC: a historian, a technologist, security, a governance member, a journalist, an analyst, a critic and five synthetic readers, each in its own session with its own key, working the same five-step wake the talk's team had built, ported from the source itself.
 
+{blurb, class: information}
+**Concept: The cold read**
+
+A second team given only the talk's repository at 298be4e: no brief, no memo, no transcript, no contact. Everything it says cites a path and commit; where the record is silent it says so. It sees what the insiders stopped looking for.
+{/blurb}
+
 This chapter reads its finished work against this book's. Where the two agree, the record is solid. Where the cold reader found what this team missed, the insider's view was blind. Where this team knows what the cold reader could not, the gap is the price of blindness. And the blind setup itself turned out to be evidence for the book's argument.
+
+![Map 13. Two teams and one record: findings flow from the Cold-Read team to the book's, one way only](resources/images/maps/13-the-book-team-and-the-cold-read-team.png)
 
 ## Where the two readings meet
 
@@ -25,6 +33,12 @@ Here this book can answer what the cold reader could not. Its record stops at `2
 ### Two counts that go the wrong way
 
 The same critic found that two consecutive beats would have shown the room two commit counts that go backwards: 510 commits by 17:02, then 405 by 18:21 (finding 2). Neither is wrong; they count different things. The first counted every non-merge commit, including the release commits CI makes, which the same slide then counted again as releases; the second counted the commits each member marked as its own. The critic's judgement is the one this book's researcher would make: a number is only as honest as the definition shown beside it, and the room sees the slide, not the script. This book's register (C002 to C004, C014) separates authors, merges and members carefully; it never set those definitions against what the talk put on screen.
+
+{blurb, class: discussion}
+**The number: What the talk said, and git**
+
+The talk said 510 commits and 164 releases by five in the afternoon. Counted with git rev-list, the repository held 625 commits by 17:02. Quote 510 as what the talk said, never as the day's count, and show the definition beside any number. (C042)
+{/blurb}
 
 !['Meet the team', counted at 17:02 with no hold, and the next beat, counted later, with fewer commits (stills shot after the day from v0.2.0, whose content is the 18:46 release)](resources/images/11-two-counts.jpg)
 
@@ -78,11 +92,19 @@ On counts, the two teams mostly agree to the unit, and the disagreements are of 
 
 The experiment had one more finding, and it was about the experiment. The one-way valve that keeps the Cold-Read team blind is a rule: this repository may read that one, nothing flows the other way, and the only thing that crossed is the hand-off (`team/conductor/handoffs/2026-10-30__cold-read/`). The brief that crossed was the editor's brief for the blind repository (`briefs/2026-10-30/2-blind-repo-brief.md`), byte for byte, and was addressed to "conductor@the-blind-repo"; the Cold-Read conductor recorded the mismatch in its corrections, and recorded that the brief named the live site, which the editor's prompt forbade (its `BRIEF-CORRECTIONS.md`).
 
+![The one-way valve: the book reads the blind repository and nothing flows back; only the hand-off crossed](resources/images/infographics/ig35-one-way-valve.jpg)
+
 Then, checking its members' onboarding at about 02:00 UTC, the Cold-Read conductor found the valve was not a wall. Both teams ran on the same account, and the account's own listings of scheduled tasks and sessions showed it "another team on this subject (`book.the-ultimate-insider`, its own repository and sessions)". It wrote that down in its debrief, under "Undocumented, found this round": "Its names were seen in the listing only; nothing of it was opened or read, as the rule of ignorance requires" (`team/conductor/debriefs/2026-10-30__the-mail-in-git-and-finishing.md`, committed `7e13725` at 02:05 UTC).
 
 That is the whole book in one paragraph of someone else's debrief. The blindness was an expectation, not a setting. Nothing in the platform kept one team from seeing the other; the account they shared made each visible to the other by default, exactly as the talk's team shared one account, one repository and one signing key. What kept the experiment honest was an agent that saw what it should not, did not open it, and recorded that it had seen it. That is the behaviour the talk asks of agents and the controls cannot enforce. It is also the reason a book about agents as the ultimate insider can be argued with a benign team: the evidence that it was benign is in the record, written by the agents themselves, at the moment it would have been easiest to look.
 
 The cold reader saw what the insider missed because it had no story to protect. It missed what the insider saw because it had no world beyond the repository. A team that wants to know what its own record says needs both, and the second only works if the wall between them is a setting, not a promise. Here it was a promise, and it was kept.
+
+{blurb, class: tip}
+**Take away: A promise, kept**
+
+The wall between the teams was a rule: both ran on one account, and each could see the other's names. What kept the experiment blind was an agent that saw, did not open, and wrote down that it had seen. Make walls settings where you can.
+{/blurb}
 
 ## Where this came from
 

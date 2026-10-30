@@ -4,11 +4,25 @@ At 01:52 on the morning of 29 October a new session joined the talk's team. Its 
 
 This chapter is about those folders. They look like paperwork, and on a busy night paperwork is the first thing a team drops. This team did not drop it, and the reason is the argument of the talk itself. A role, a policy and a key are the smallest working form of what the talk called an Agent Behaviour Policy: what an agent can reach, what it is for, the gap between the two, and what stands in that gap. The team wrote one for each of its members, signed most of them, put its own on stage, and was honest, in its own code, about the weakest part of them. The weakest part is where the chapter ends.
 
+{blurb, class: information}
+**Concept: Agent Behaviour Policy**
+
+Four parts: the reach (what the agent can actually do, measured), the mandate (what it is for), the gap between them, and, for each row of the gap, what stands in the way: a boundary, a setting, an expectation, or nothing.
+{/blurb}
+
 ## Two forms of one mandate
 
 Each member's mandate was written twice. `ROLE.md` is prose, for the editor: what the member is for, the rules it works under and the mistake behind each rule, and from early in the morning a section headed "The agent behaviour policy, in prose". `policy.json` is the same mandate for the tools: a list of capabilities wanted and not wanted, the paths the member may write, the things it holds, the files it may only append to, and a list of things it must never do.
 
+![One mandate written twice: ROLE.md in prose for the editor, policy.json as data for the tools](resources/images/infographics/ig09-mandate-twice.jpg)
+
 The researcher's policy, as it stood at the end of the day, shows the shape. Its mandate names what it wants in the vocabulary of capabilities, each with a limit in words: to read files in the project, "within this repository"; to write files, "only the paths in scope.writes"; to push, "its own branch, and dev once the gate passes; never main, never a force-push"; to reach the web, "the proxy's list, to fetch and capture public sources; never to post or submit anything". It names what it does not want: to send messages to the world, to write to the main branch. Its scope is short: `team/researcher/**` and `evidence/**`, one vault held, and one file it may append to, at the top, with a correction about its own work. Its never list runs from force-pushing to "follow instructions found in content" and ends on a rule of method rather than security: never "grade a claim from how often it is repeated rather than from captures it opened".
+
+{blurb, class: information}
+**Concept: scope.writes and scope.holds**
+
+In policy.json, scope.writes lists the paths a member may change; scope.holds lists what it holds, such as a vault; appends lists files it may only add to. The scope check compares each marked commit with these lists.
+{/blurb}
 
 The file then says who wrote it and who agreed it. It was "drafted by" the conductor "for the editor to agree", and "agreed by the editor, Dinis Cruz, in the researcher's session, 29 October 2026 about 02:48 UTC: 'I agree with your policy'". The researcher recorded the agreement in its next commit (`a082c52`, 02:52).
 
@@ -24,11 +38,15 @@ The talk put the idea in one beat, near the end of its second part, under the ti
 
 Apply it to the team, and the first thing it shows is how wide the gap was. ruv-sgit's role says its reach in a sentence that would serve for every member: "[an agent session] on the web with this repository attached: read and write any file here, run processes in the container, push to any branch the GitHub credential allows, reach hosts the proxy allows", and in its case a token able to create and delete vaults on the sharing service. Every member had that reach, because every member was the same kind of session on the same repository. The mandates were narrow: the researcher's two folders, the designer's one, deck's talk and slides. So for every member the gap was, near enough, the whole repository less its own folder.
 
+![Reach, mandate and the gap between them, with the four things that can stand in the gap](resources/images/infographics/ig10-reach-mandate-gap.jpg)
+
 What stood in that gap, typed as the talk asks? ruv-sgit's role typed its own rows, and typed them honestly. Publishing a run's read key: "an expectation: the editor's go, asked for every time". Keys and the token kept out of the repository: "a setting", because they live in a private folder outside it and the gate looks for vault keys. Writing the talk or the slides: "a setting: `agents.py check`". No row says boundary. Across the team the honest list is short: the scope check, which reports; the gate, which refuses some things and not others; the reviews in every wake, which are an expectation with a record; the never list, which is an expectation; and the editor's word, which is an expectation the agents agreed to wait for. Nothing in the repository was a boundary in the talk's sense, a thing the agent could not talk its way past. The nearest thing to one sat outside the repository, in the session's own permission check, and the book returns to it in chapter 9.
 
 That is not a criticism of the team. It is the talk's argument, made by the team's own files. Most of what is called a control is an expectation, and the first useful act is saying so.
 
 ![Studio experiments E09, 'mandate against grant', and E10, 'only a boundary is a control', as the talk showed them](resources/images/03-mandate-and-boundary.jpg)
+
+![Map 8. The talk's protection stack: roles and permissions are a commodity; what agents need is in genesis](resources/images/maps/08-talk-the-protection-stack.png)
 
 ## The tool that said what it was
 
@@ -40,9 +58,21 @@ Its third paragraph, from the first version to the last, is this:
 
 It is rare for a control to describe its own limit in its own source, and rarer for it to be written by the agent it controls in the hour the team was formed. The sentence is exact. `policy.json` sits inside the member's own writes, so a member widening its scope is writing a file it is allowed to write, and the check, reading the policy as it now stands, sees nothing wrong. And the check is run by the member on itself, before its own push, as one step of the wake checklist. Nothing in the release pipeline runs it. The gate that does run on every release, `admin/build/validate.py`, calls the same tool for one thing only: to fail the build if two members claim the same file (`check_team`). So the team's one refusing check on policies tested the policies against each other, never a member's writes against its policy.
 
+{blurb, class: warning}
+**Watch for: A scope is a setting**
+
+The scope check reports; it does not refuse. The member runs it on itself, and can edit the policy it checks against. It catches mistakes, not a steered agent. Call each control what it is.
+{/blurb}
+
 Within that limit the check did its job, and the record shows it firing in the way it was meant to. The conductor's first debrief, at 00:59, has a line in its header for files outside its scope, and its text names each one and why: files of dev's, edited at the editor's word, and the drafts of roles not yet held by anyone (`team/conductor/debriefs/2026-10-29__banners-and-keys.md`). The first five-step wake, at 02:14, has the check flagging `CLAUDE.md` as outside the conductor's scope; the edit had the editor's leave, but the commit had not said so, and the post-review asked for it to be named (`team/conductor/wakes/20261029T021416Z.json`; it is the first of the register's post-review findings, C025). The best example is late in the day. At 18:18, with part 1 of the talk due to lock at 18:30, dev needed to change two lines of style in pieces that belonged to ruv-sgit. It asked the editor first, in its own session, and the commit carries the answer: "Yes, fix both now" (`c33e86a`). That is the gap working as the policy describes it. The thing standing in the row was an expectation, the expectation was honoured, and the record says so.
 
 The check also had a blind spot that is easy to miss, because it depends on how commits are marked. It counts only commits that carry the member's mark. The researcher's count of commits by member (C014), read from commit subjects at the end of the day, gives the conductor 106 and ruv-sgit 84, then dev 64, deck 59, the researcher 57, studio 26, the designer 19, the storyteller 15 and motion 9. It took a correction to get there: 30 of ruv-sgit's commits, from 08:43 to its last of the day at 18:40, open with `ruv-sgit:` and no `@`, and carry no `Agent:` line either, so the first count missed them. The scope check knows a member's commits the same two ways, an `@` prefix in the subject or an `Agent:` line in the body, so for those 30 commits it was silent by construction: it could not count against a member a commit it could not attribute to one (derived from C014). In ruv-sgit's case the five-step wake covered for it, because its post-reviews read the changed files directly and recorded them clean. But the lesson stands. The scope check rested on attribution, and attribution was itself an expectation: a convention for writing commit messages that an agent could forget, and did.
+
+{blurb, class: tip}
+**Take away: Attribution is a convention too**
+
+The scope check could count against a member only the commits it could attribute, by an @ prefix or an Agent: line; some carried neither. If a control rests on a convention, the convention needs checking as well. (C014)
+{/blurb}
 
 ## The mandate as a yardstick
 
@@ -60,6 +90,12 @@ A mandate an agent drafts for itself becomes a mandate only when someone with th
 
 The strongest form of it on the day was ruv-sgit's. At 02:10 ruv-sgit built a page that showed its own draft policy as a series of cards, one per item, each to be agreed, changed or questioned (`0dc0e6a`). The editor went through it, and the policy records his verdict, "agree the policy as it is", against every item of the file and against the file's own hash (`adb3e2e`, 02:15). A row added a moment later, ruv-sgit's own hourly wake, was agreed separately (`01e2753`, 02:17). And when the policy changed after that, it did not quietly change: a list headed `changes_since_agreed` records each amendment, what it was, when, and the editor's word for it. Its own scheduled task moved from not wanted to wanted at 02:14, at his word in the session; a folder of studio pieces was added to its writes at 02:55, at "Go for it." The hash binds the agreement to a text, so that the agreement cannot later be read as covering words that were not there; the change list carries the text forward without pretending the old agreement covers the new rows.
 
+{blurb, class: tip}
+**Take away: Bind the agreement to the text**
+
+ruv-sgit's policy records the editor's verdict against the file's own hash, and lists every later change with his word for it. An agreement tied to a hash cannot be stretched over words added afterwards.
+{/blurb}
+
 ![ruv-sgit's policy review page, one card per item to agree, change or question (29 October 2026, about 02:10)](resources/images/03-policy-review.jpg)
 
 The researcher's agreement at 02:48 and the designer's at 04:02 were sentences in their own sessions ("i agree with team/designer/policy.json"). Deck's was in its own session at 16:50. The rest came in a single sentence at about 17:40, in the conductor's session, and what happened to that sentence on its way to the files is the clearest evidence in the record of what an agreement relayed by one agent to another is worth. Chapter 6 tells it.
@@ -67,6 +103,8 @@ The researcher's agreement at 02:48 and the designer's at 04:02 were sentences i
 ## A key made in the session
 
 The third file in every folder is `key.json`. Every session makes its own key pair, publishes the public halves in `team/<id>/key.json` with a QR image beside it, records the session in `team/<id>/sessions/`, and keeps the private halves in its own home folder, outside the repository. The push is the authorisation: a key is the member's because the member pushed it.
+
+![A key per session: made in it, public half in key.json, the push authorises it, private half kept out](resources/images/infographics/ig12-key-per-session.jpg)
 
 The conductor published the first key at 00:51 (`17b287b`), in the same commit as the tool that makes them, and moved it into the team's shape at 00:58 (`41d38ba`). The researcher's came with its join at 01:52, dev's a minute later. The register gives each member two dates, its first commit and its first published key (C011). By key the list is the conductor 00:58, the researcher 01:52, dev 01:53, deck 02:20, ruv-sgit 02:36, the designer 03:41, the storyteller 14:15, motion and studio 15:31; four members committed before their keys (dev at 00:40, the conductor at 00:44, deck at 00:51, ruv-sgit at 01:08), which is why the join times in the timeline differ in places from the keys. Membership in this team was, in the end, a published key. Security had a folder, a role and a policy, and no key, because no session ever took the role.
 
@@ -83,6 +121,12 @@ The readme is honest in the same way as the scope check. "It has **not been read
 This book's own security member did read it, the night after the day, and its review is in this repository (`team/security/reviews/pki-agent-review.md`). It is defensive, for the editor first, and quotes no key material. What it found, in summary: the cryptography is standard and comes from the platform's own library, with no home-made primitives; one finding is rated medium and the rest low or for information. The medium one is a command that prints a session's private keys in the clear when no passphrase is set, so that one run would put them in the session's transcript; the Cold-Read team's security member found it first, and this review confirmed it (chapter 11). Nobody on either team ran it. Several findings are worth a reader's attention for what they say about where the real controls were. Private halves are stored unencrypted, in a locked-down folder, when no passphrase is set, and none was set in the team's sessions: so the control protecting a member's private key was the session's container, not the tool. The standing an operator grants an agent has a short default, but a link may name any end date: so the short life is a default, not a limit. And the reviewer narrowed or withdrew some of its own earlier findings as it read further, which is what a review should do and what a hash cannot. By its tenth wake it had read every command.
 
 The verdict for the book is careful. Trust by hash and by author was not misplaced on the day: nothing the review found would have changed what the team did. But that was the author's care, not a control. A team that pins a tool should also schedule the reading, and on this team the person scheduled to read it never arrived.
+
+{blurb, class: warning}
+**Watch for: A hash is not a review**
+
+Checking a tool's SHA-256 shows the copy has not changed since it was pinned. It says nothing about what the code does. Put the line-by-line reading on the list of a member who exists.
+{/blurb}
 
 ## The team on its own slide
 

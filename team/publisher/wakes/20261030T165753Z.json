@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled, every two hours at :47 London",
+ "started": "2026-10-30T16:57:53Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, amended by publisher after pre-review change",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. Requests: conductor__013 a reply, filed; no new requests, no HOLD. 2. publishing/place_rc1.py (same anchors and order as assemble_rc1.py, dry run first) copies the 30 infographics into manuscript/resources/images/infographics/ (nowhere else) and writes them, maps 6-16 and the 50 call-outs into manuscript/*.md as image lines and Markua blurbs, the chapters' text otherwise unchanged; team/conductor/rc1/ read only; publishing/markua.py and book.css adjusted. 3. Build, compare with the RC1 PDF; board 004, status, debrief, REALITY.md; vault_check comms. All inside policy.json.",
+   "at": "2026-10-30T16:59:23Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Amended plan fits policy: infographics only in manuscript/resources/images/infographics/; rc1 read only; no stop condition, no secrets. Conditions: vault_check comms; REALITY.md an append under own heading.",
+   "at": "2026-10-30T16:59:45Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "place_rc1.py placed 39 images and 50 call-outs as Markua into manuscript/, text unchanged, 293 pages (RC1 PDF 294 with cover); markua.py class map; site's blurb markers asked of the conductor with a tested patch (publisher__006); board 004, debrief, status, REALITY.md.",
+   "at": "2026-10-30T17:02:39Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "0 files outside scope; vault_check comms clean; gate clean (161); team/conductor status empty (stray folder gone); infographics identical to rc1; only removed chapter line is the replaced map path; no em-dashes, keys or tokens; nothing attack-shaped; no harm to other members.",
+   "at": "2026-10-30T17:03:50Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "partial",
+   "comment": "Done: place_rc1.py, infographics only in manuscript/resources/images/infographics/, maps 6-16 and 50 call-outs placed, markua.py, board 004, status, debrief, REALITY.md; rc1 untouched. Deviations: 28 infographics not 30 (two withdrawn in the manifest, as the debrief says); book.css planned but not needed (the call-out CSS was already in). Build and vault_check not checked by this step (post-review did).",
+   "at": "2026-10-30T17:04:02Z"
+  }
+ },
+ "closed": "2026-10-30T17:04:02Z",
+ "outcome": "ok"
+}
