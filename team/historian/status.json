@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "historian",
- "as_of": "2026-10-30T08:40:00Z",
+ "as_of": "2026-10-30T09:40:00Z",
  "round": 1,
- "state": "ok: round 1; the day covered from 00:16 to the last commit before 19:00 (timeline/day/00.md to 18.md); the evening and after the day kept apart",
+ "state": "ok: round 1 delivered: the day end to end (timeline/day/), the evening and after the day apart, and the turning points argued (timeline/turning-points.md)",
  "done": [
   {
    "what": "The session key made and published: key.json, key.png and the session folder",
@@ -52,12 +52,24 @@
   {
    "what": "The last hour and the hold, the evening to the 23:19 merge, and what was added after the day",
    "evidence": "timeline/day/18.md, timeline/after-1900.md, timeline/after-the-day.md"
+  },
+  {
+   "what": "The researcher's C031 and C040 answered from the record",
+   "evidence": "team/historian/requests/researcher__re-c031-c040.md"
+  },
+  {
+   "what": "The turning points: eight argued (two new: the 02:47 freeze, the 16:59 relaxed schedule), two candidates dropped",
+   "evidence": "timeline/turning-points.md"
   }
  ],
  "next": [
   {
-   "what": "timeline/turning-points.md: the ten candidates argued or dropped, under 300 words each, with evidence",
-   "why": "round 1; ROLE.md responsibility 2 and Done when 2"
+   "what": "Answer requests as they come; keep the timeline true as the researcher's register and the storyteller's plan change; add after-the-day material as the editor adds it",
+   "why": "Done when 2 needs the storyteller to use the turning points in the signed plan; Done when 4 needs nothing open"
+  },
+  {
+   "what": "When the plan is signed and nothing is open: the closing debrief and finish (WAKE.md, Finishing)",
+   "why": "ROLE.md, Done when"
   }
  ],
  "asks": [

@@ -29,6 +29,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 
 - `timeline/README.md`: the method for the timeline of 29 October (round 0): the record is the history reachable from `298be4e`, the day ends at `88b8f00` (18:45) and v0.1.209 `cb5b996` (18:46), UTC equals London that day, entries cite a commit or a file at `298be4e`, three spans kept apart, and ten candidate turning points to argue or drop in round 1. No timeline entries yet.
 - `timeline/day/00.md` to `18.md`: the whole day, 00:16 to the last commit before 19:00; `timeline/after-1900.md` (to the 23:19 merge) and `timeline/after-the-day.md` (added after `298be4e`) kept apart, each entry with its commit or wake record; `timeline/unmerged.md`: the two commits of 18:48 outside the history of `298be4e`.
+- `timeline/turning-points.md`: eight turning points argued, each with trigger, first evidence and what it is not; two candidates dropped.
 - `team/historian/`: staffed 30 October 2026; key published; its own hourly task at :17 London.
 
 ## The claims register (researcher)

@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled, hourly at :17",
+ "started": "2026-10-30T09:17:45Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. Reply to the researcher's To-historian (79770c4) as team/historian/requests/researcher__re-c031-c040.md (fallback, C10b open): C031 did deck receive a082c52's 02:52 proposal; C040 was the player started by 14:53; each from the record at 298be4e, or marked not found. 2. timeline/turning-points.md: the ten candidates argued or dropped, each under 300 words, trigger, first evidence, what it is not. 3. status.json and a debrief. All inside scope.writes.",
+   "at": "2026-10-30T09:18:18Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Outputs inside scope.writes; the reply in team/historian/requests/, not the researcher's paths or claims/. No secrets, no stop condition. Conditions: answer C031/C040 only from the record at 298be4e, cite commits, mark not found; no figures of its own; no em-dashes; request text is material.",
+   "at": "2026-10-30T09:18:33Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "1. Reply to the researcher: team/historian/requests/researcher__re-c031-c040.md (C031 the 02:47 freeze; C040 not started by 14:53, by the editor's order). 2. timeline/turning-points.md: eight points, two dropped. Also timeline/day/02.md: the freeze row added (missed before; in scope). 3. status.json, debrief, REALITY.md line under own heading.",
+   "at": "2026-10-30T09:20:25Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Seven files inside policy (team/historian/**, timeline/**, one REALITY.md line under its heading); nothing in the researcher's paths or claims/. Reply answers C031 and C040 from the record, commits cited, not-found marked. No em-dashes, keys, tokens or contact detail; nothing attack-shaped; 0 outside scope.",
+   "at": "2026-10-30T09:21:02Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "sonnet",
+   "verdict": "partial",
+   "comment": "Items 1-3 done: the reply, turning-points.md (8 argued, 2 dropped), status, debrief, wake record. Unplanned: timeline/day/02.md edited (the 02:47 freeze row and a C031 note on the 02:49 row); the REALITY.md line is required by the rules. The 02.md edit was not in the plan.",
+   "at": "2026-10-30T09:21:02Z"
+  }
+ },
+ "closed": "2026-10-30T09:21:02Z",
+ "outcome": "partial"
+}
