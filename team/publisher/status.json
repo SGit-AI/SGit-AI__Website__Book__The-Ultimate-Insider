@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "publisher",
- "as_of": "2026-10-30T11:10:00Z",
- "round": 8,
- "state": "RC1 moved into manuscript/ on my branch (217 pages, 42 images, 58,580 words); not released to dev until the conductor copies the images in the site build (asked, with the patch); image build changes, L1, L2 and M1 in publishing/ released",
+ "as_of": "2026-10-30T13:17:00Z",
+ "round": 9,
+ "state": "taken over on the second account: new key, own task every two hours at :47 London; adopting the conductor's handover; first item the current RC1 (19 files) into manuscript/",
  "done": [
   {
    "what": "session key published: team/publisher/key.json, key.png, sessions/session_01Kw9UwDVeRbKJZUWiRoRrHK/",
@@ -64,6 +64,14 @@
   {
    "what": "letters 002 to 005 taken; a request (build.py) and a reply (reviews, voice, Markua plan) to the conductor; board issues 003 to 005",
    "when": "2026-10-30T11:06Z"
+  },
+  {
+   "what": "second account: session key sha256:38b052cb21de1bb4 published (team/publisher/key.json, key.png, sessions/session_01Kw9UwBKgLvosZHuWWWX8wY/); the first session marked superseded until 2026-10-30T13:03:01Z",
+   "when": "2026-10-30T13:03Z"
+  },
+  {
+   "what": "own scheduled task trig_01F7F7AipdKEhWgbxEj3YVja, CRON_TZ=Europe/London 47 */2 * * *, into this session, prompt word for word from schedule.json; the first account's trig_01D2wnhQDySKsG8ZL9XLmNsW stays paused there",
+   "when": "2026-10-30T13:16Z"
   }
  ],
  "next": [
@@ -91,13 +99,14 @@
    "where": "comms/mail/mailroom/conductor/publisher__002-rc1-needs-build-py.eml"
   }
  ],
- "session": "session_01Kw9UwDVeRbKJZUWiRoRrHK",
+ "session": "session_01Kw9UwBKgLvosZHuWWWX8wY",
  "task": {
-  "id": "trig_01D2wnhQDySKsG8ZL9XLmNsW",
-  "cron": "CRON_TZ=Europe/London 47 * * * *",
+  "id": "trig_01F7F7AipdKEhWgbxEj3YVja",
+  "cron": "CRON_TZ=Europe/London 47 */2 * * *",
   "prompt": "word for word from team/conductor/schedule.json, runs, publisher",
-  "created": "2026-10-30T01:42:07Z",
-  "by": "this session, at the editor's word in this session"
+  "created": "2026-10-30T13:16:38Z",
+  "by": "this session, at the editor's word in this session",
+  "previous": "trig_01D2wnhQDySKsG8ZL9XLmNsW (first account, paused, not deleted)"
  },
  "requests": "taken: conductor__002 to 005 (review, voice, Markua, RC1); 005 done on my side, waiting on the conductor's build.py"
 }
