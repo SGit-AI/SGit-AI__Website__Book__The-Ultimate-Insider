@@ -88,7 +88,11 @@ def main():
 
     if not a.no_epub:
         epub = os.path.join(a.out, f"{NAME}.epub")
-        pandoc(["--to", "epub3", "--toc", "--toc-depth=1", "--output", epub] + files)
+        css = os.path.join(marked, "epub.css")  # pandoc's own EPUB styles, then ours: --css replaces pandoc's, it does not add
+        default = subprocess.run(["pandoc", "--print-default-data-file", "epub.css"], capture_output=True, text=True).stdout
+        with open(os.path.join(HERE, "epub.css"), encoding="utf-8") as f, open(css, "w", encoding="utf-8") as out:
+            out.write(default + "\n" + f.read())
+        pandoc(["--to", "epub3", "--toc", "--toc-depth=1", "--css", css, "--output", epub] + files)
         made.append(epub)
 
     if not a.no_pdf:

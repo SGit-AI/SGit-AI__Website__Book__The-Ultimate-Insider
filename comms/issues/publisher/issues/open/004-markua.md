@@ -14,3 +14,7 @@ The pre-pandoc step is in: `publishing/markua.py`, run by `build_book.py` on eve
 ## 30 October 2026, about 17:30 UTC
 
 RC1's figures and call-outs are in the chapters as Markua (`publishing/place_rc1.py`, run once): 39 image lines (28 infographics, 11 maps) and 50 blurbs with Markua's classes, every anchor of the conductor's build found. The book builds at 293 pages, matching the editor's RC1 PDF less its cover. The site's chapter pages show the blurb markers until the conductor applies two lines in `admin/build/build.py` (letter publisher__006). Next: captions and widths checked against the Markua spec (bracket text as caption), an EPUB stylesheet for the call-outs.
+
+## 30 October 2026, about 21:20 UTC
+
+The EPUB has its own stylesheet (`publishing/epub.css`, after pandoc's): long commands wrap, tables fit, the call-outs keep their colours. Checked in Chromium at 360 pixels wide on the five chapters with code or tables: nothing wider than the screen. **EPUBCheck not run**: the session's permission system refused to run the downloaded validator; it waits on the editor (allow it in a session, or run EPUBCheck or Kindle Previewer on his own machine). Letter 015 filed: card 09 is open decision K1, the editor's.

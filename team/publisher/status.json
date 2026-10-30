@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "publisher",
- "as_of": "2026-10-30T19:16:00Z",
- "round": 12,
- "state": "the fourteen drafted cards answered (team/publisher/rc1-cards.md); found: KDP may match L1's free price on Kindle; next EPUBCheck and the small-screen fixes",
+ "as_of": "2026-10-30T21:22:00Z",
+ "round": 13,
+ "state": "the EPUB fitted to small screens (publishing/epub.css); EPUBCheck refused by the session's permissions, put to the editor",
  "done": [
   {
    "what": "session key published: team/publisher/key.json, key.png, sessions/session_01Kw9UwDVeRbKJZUWiRoRrHK/",
@@ -92,16 +92,20 @@
   {
    "what": "the 14 cards drafted as the publisher: 7 adopted, 6 changed, 1 withdrawn, in team/publisher/rc1-cards.md; KDP's price matching and Markua's alt text and crosslinks checked on official pages; letter publisher__007",
    "when": "2026-10-30T19:15Z"
+  },
+  {
+   "what": "publishing/epub.css joined after pandoc's EPUB styles: commands wrap, tables fit, call-outs in colour; checked at 360 px on the five chapters with code or tables",
+   "when": "2026-10-30T21:15Z"
   }
  ],
  "next": [
   {
-   "what": "EPUBCheck on the EPUB; Appendix A's commands and chapter 10's table wrapped for small screens; an EPUB stylesheet for the call-outs",
-   "why": "card 14, board 004, KDP takes the EPUB"
+   "what": "KDP.md: the price-matching terms (K1) and KDP's image resolution page, cited",
+   "why": "before the editor submits to KDP"
   },
   {
-   "what": "KDP.md: the price-matching terms (card 09) and the image resolution page, cited",
-   "why": "before the editor submits to KDP"
+   "what": "EPUBCheck, once the editor allows it or runs it",
+   "why": "KDP takes the EPUB"
   },
   {
    "what": "the RC1 review in my lane",
@@ -111,7 +115,7 @@
  "asks": [
   {
    "to": "editor",
-   "what": "choose the Leanpub plan (GitHub mode needs Standard or Pro), create the Leanpub book and add leanpub with the Read role only (publishing/LEANPUB.md, steps 0 to 3); price as L1 with the membership box unticked; KDP: no KDP Select, and the ISBN choice"
+   "what": "choose the Leanpub plan (GitHub mode needs Standard or Pro), create the Leanpub book and add leanpub with the Read role only (publishing/LEANPUB.md, steps 0 to 3); price as L1 with the membership box unticked; KDP: no KDP Select, and the ISBN choice; EPUBCheck: allow it in a session (it was refused as code from outside), or run EPUBCheck or Kindle Previewer on /manuscript/the-ultimate-insider.epub yourself"
   }
  ],
  "session": "session_01Kw9UwBKgLvosZHuWWWX8wY",
@@ -123,5 +127,5 @@
   "by": "this session, at the editor's word in this session",
   "previous": "trig_01D2wnhQDySKsG8ZL9XLmNsW (first account, paused, not deleted)"
  },
- "requests": "taken: conductor__002 to 014; all answered; 014 closed my build.py ask"
+ "requests": "taken: conductor__002 to 015; all answered; 015 a notice (K1 is the editor's)"
 }

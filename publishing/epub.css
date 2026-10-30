@@ -1,0 +1,19 @@
+/* The EPUB's own styles, after pandoc's: build_book.py passes this file with --css. Small screens first: nothing may
+   be wider than the screen, so long commands wrap and wide tables shrink (card 14, team/publisher/rc1-cards.md). */
+pre { white-space: pre-wrap; word-wrap: break-word; overflow-wrap: anywhere; font-size: 0.75em; line-height: 1.35; margin: 0.6em 0; }
+code { font-family: monospace; font-size: 0.88em; overflow-wrap: anywhere; }
+table { width: 100%; border-collapse: collapse; font-size: 0.8em; margin: 0.8em 0; table-layout: auto; }
+th, td { border-bottom: 1px solid #999; padding: 0.2em 0.3em; vertical-align: top; text-align: left; overflow-wrap: anywhere; }
+img { max-width: 100%; height: auto; }
+figure { margin: 0.9em 0; text-align: center; }
+figcaption { font-size: 0.8em; font-style: italic; text-align: left; margin-top: 0.3em; }
+/* Markua asides and blurbs (publishing/markua.py), in the RC1 call-out look, kept simple for e-readers */
+.callout { margin: 0.9em 0; padding: 0.5em 0.7em; border-left: 3px solid #1f3a5f; background: #eef2f7; font-size: 0.9em; }
+.callout p { text-align: left; margin: 0 0 0.35em; }
+.callout.number { border-left-color: #9a6a00; background: #faf4e6; }
+.callout.warning { border-left-color: #8c2a00; background: #f8ece6; }
+.callout.takeaway { border-left-color: #2f6b3a; background: #ecf4ee; }
+.callout.try { border-left-color: #444; background: #f1f1f1; }
+.callout.centred { border-left: none; background: none; text-align: center; }
+.pagebreak { page-break-after: always; }
+.frontmatter, .mainmatter, .backmatter { display: none; }

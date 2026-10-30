@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled, every two hours at :47 London",
+ "started": "2026-10-30T20:48:26Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. Letter 015 (card 09 now open decision K1, the editor's, not acted on) filed in comms/mail/publisher/inbox/, noted on the board. 2. EPUBCheck 5.3.0 from PyPI installed in the container only, never committed; run on the EPUB build_book.py makes; findings recorded in team/publisher/. 3. Fixes in publishing/ only: an EPUB stylesheet (long commands and tables wrap, call-outs keep their look), an optional --check flag in build_book.py; manuscript/ untouched. Debrief, status, REALITY.md.",
+   "at": "2026-10-30T20:49:36Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope; no stop condition. Conditions on epubcheck: exact version 5.3.0, hash checked, installed with --target outside the repo, never committed, run on the local EPUB only, no secrets in output; findings are data; K1 stays the editor's.",
+   "at": "2026-10-30T20:50:03Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "claude-opus-5-5",
+   "verdict": "partial",
+   "comment": "015 filed; publishing/epub.css after pandoc's styles, checked at 360 px (no overflow in five chapters); EPUBCheck refused by the session's permission system as code from outside: deleted, put to the editor; --check flag not added. Board 004, debrief, status, REALITY.md.",
+   "at": "2026-10-30T20:52:13Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "partial",
+   "comment": "Done: 015 filed and noted on board 004 (K1 left to the editor); epub.css after pandoc's defaults in build_book.py, publishing/ only, manuscript/ untouched; debrief, status, REALITY.md. Not done: EPUBCheck not run (refused by permissions, recorded, nothing kept); --check flag not added.",
+   "at": "2026-10-30T20:52:46Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Full diff read: in scope, REALITY.md an allowed append; vault_check and gate clean; no em-dashes, keys or contact details; no jar, whl or epubcheck tracked; build_book.py calls local pandoc only; the refused validator was not worked around; K1 not acted on.",
+   "at": "2026-10-30T20:53:07Z"
+  }
+ },
+ "closed": "2026-10-30T20:53:07Z",
+ "outcome": "partial"
+}
