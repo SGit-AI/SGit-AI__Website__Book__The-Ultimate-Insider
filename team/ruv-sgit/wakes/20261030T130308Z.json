@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "lab experiment 01: M01 the building frozen at 22.5, 30, 43 s, one A4 page (lab/experiments/01-ruv-the-building-three-frames/), run lab/runs/20261030T1303Z-ruv-01-the-building.*; notice to done, board started; letters to designer (update) and security (review request); REALITY.md, debrief, status.json",
    "at": "2026-10-30T13:20:52Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Build, gate and comms vault_check clean; 0 files outside scope since cb6bfa6; only REALITY.md append beyond writes; binaries 3 PNG and 1 PDF; tools are plain capture and print scripts; no private key, token or personal detail; no agent-directing or attack-shaped text; M01's damage framing is a metaphor, flagged by the member.",
+   "at": "2026-10-30T13:21:27Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "(1) notice read, to done, board 001 open and 002 done; (2) M01 three frames: lab/experiments/01-ruv-the-building-three-frames/ and lab/runs/20261030T1303Z-ruv-01-the-building.*; (3) debrief, status.json, REALITY.md, letters to designer and security. Pre-review conditions kept. Nothing unplanned.",
+   "at": "2026-10-30T13:21:49Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T13:21:49Z",
+ "outcome": "ok"
 }
