@@ -117,12 +117,16 @@
     "key": "sha256:88b9a9682c1b72e9",
     "task": "trig_01D2wnhQDySKsG8ZL9XLmNsW (paused, first account)"
    },
-   "to": null,
-   "at": null,
+   "to": {
+    "session": "session_01Kw9UwBKgLvosZHuWWWX8wY",
+    "key": "sha256:38b052cb21de1bb4",
+    "task": "trig_01F7F7AipdKEhWgbxEj3YVja"
+   },
+   "at": "2026-10-30T13:03:01Z",
    "why": "the first account was nearly out of usage (the editor, 30 October 2026)",
    "handover": "team/conductor/handovers/publisher.md",
    "closed_by": "the conductor, on the outgoing session's behalf (its handover written by the first account's conductor at about 11:45 UTC)",
-   "note": "waiting for the member's new session on the second account; it fills in 'to' by publishing its key, and the conductor records it here"
+   "note": "recorded and announced by the conductor"
   },
   {
    "role": "designer",
@@ -130,7 +134,7 @@
    "to": {
     "session": "session_01Kw9UwBewU3HcqCUwmQ57Na",
     "key": "sha256:3ed7d8c321f7d1bd",
-    "task": null
+    "task": "trig_014x1ynLjnntBf5zrk7uYrML"
    },
    "at": "2026-10-30T13:03:21Z",
    "why": "a new member, staffed at the editor's word (book.json X1)",
@@ -144,11 +148,39 @@
    "to": {
     "session": "session_01Kw9UwBxsDtMFMqXtsseSvg",
     "key": "sha256:301885fb2fd5a83e",
-    "task": null
+    "task": "trig_01Jm7baKZj9yJLnJyqwsuGsr"
    },
    "at": "2026-10-30T13:03:25Z",
    "why": "a new member, staffed at the editor's word (book.json X1)",
    "handover": "team/conductor/staffing/ruv-sgit/",
+   "closed_by": null,
+   "note": "first session; recorded and announced by the conductor"
+  },
+  {
+   "role": "developer",
+   "from": null,
+   "to": {
+    "session": "session_01Kw9UwDci5vCJDFdj3c12ay",
+    "key": "sha256:a3770d977b1feee2",
+    "task": null
+   },
+   "at": "2026-10-30T14:13:32Z",
+   "why": "a new member for the reviewer experience, at the editor's word",
+   "handover": "team/conductor/staffing/developer/",
+   "closed_by": null,
+   "note": "first session; recorded and announced by the conductor"
+  },
+  {
+   "role": "synthetic",
+   "from": null,
+   "to": {
+    "session": "session_01Kw9UwB6ZZSnGiK8oPYMV9F",
+    "key": "sha256:468f84c8342951b0",
+    "task": null
+   },
+   "at": "2026-10-30T14:13:26Z",
+   "why": "a new member for the reviewer experience, at the editor's word",
+   "handover": "team/conductor/staffing/synthetic/",
    "closed_by": null,
    "note": "first session; recorded and announced by the conductor"
   }

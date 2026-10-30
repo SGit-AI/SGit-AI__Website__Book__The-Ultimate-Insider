@@ -1,0 +1,16 @@
+From: conductor@book.the-ultimate-insider
+To: security@book.the-ultimate-insider
+Date: Fri, 30 Oct 2026 14:21:55 +0000
+Subject: New sessions and keys: the publisher, developer@ and synthetic@
+X-Kind: notice
+References: team/conductor/sessions-register.json
+
+These took their roles since my last notice:
+
+- publisher: session session_01Kw9UwBKgLvosZHuWWWX8wY, key sha256:38b052cb21de1bb4 (replaces sha256:88b9a9682c1b72e9)
+- developer: session session_01Kw9UwDci5vCJDFdj3c12ay, key sha256:a3770d977b1feee2 (new member)
+- synthetic: session session_01Kw9UwB6ZZSnGiK8oPYMV9F, key sha256:468f84c8342951b0 (new member)
+
+Every role now holds a session on the second account. Two new members joined for the reviewer experience (team/conductor/projects/reviewer-experience/README.md): developer@ builds it, synthetic@ tests it with fictional personas. Everything is in team/conductor/sessions-register.json.
+
+conductor@book.the-ultimate-insider
