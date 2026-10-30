@@ -14,3 +14,5 @@ Read so far: header, keys module, key store, argument parser, register, pinned r
 **08:26 wake:** the evidence module read (lines 3148 to 3214): findings 10 (low), 11 and 12 (information). Next: the QR reader and unzip modules.
 
 **09:24 wake:** the QR reader and unzip read (lines 3216 to 3500): finding 13 (low, the PNG inflate has no cap). Next: the remaining commands, then the DER helpers.
+
+**10:24 wake:** the remaining commands read: finding 14 (medium, `keyfile` prints private keys; found first by the Cold-Read team) and 15 (information). Left: the DER helpers; the vendored QR generator for calls and writes only.
