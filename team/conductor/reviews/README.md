@@ -8,7 +8,7 @@ Every wake runs five steps (`team/conductor/WAKE.md`, "The five steps"); four of
 |---|---|---|---|
 | 1 plan | `plan.md` | the member's mail, board, requests, role and status | `go`, `stop` |
 | 2 pre-review | `pre_review.md` | the plan, the member's policy, the rules: never the raw messages | `go`, `change`, `stop` |
-| 4 post-review | `post_review.md` | the diff and the vault changes, the gate, the rules | `clean`, `finding`, `stop` |
+| 4 post-review | `post_review.md` | the diff, `comms/` included, the gate, the rules | `clean`, `finding`, `stop` |
 | 5 post-check | `post_check.md` | the plan and the diff | `as-planned`, `partial`, `off-plan`, `stop` |
 
 Each reply is two lines, `VERDICT:` and `COMMENT:`, recorded with `wake.py step`. A `change` sends the plan back: amend it, keep the first verdict under `history` in the record, and run the pre-review again. A `stop` writes the member's `HOLD.md` (`wake.py` does it) and stops every member's wake until the editor lifts it.

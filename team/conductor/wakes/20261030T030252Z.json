@@ -1,0 +1,55 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled, hourly at :02",
+ "started": "2026-10-30T03:02:52Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "sub-agent",
+   "verdict": "go",
+   "comment": "Requests first. 1. Storyteller: O1 to O5, sign the plan, and C011 into book.json as open decisions; reply. 2. Publisher: the manuscript build in the release job (continue-on-error), a gate exception for manuscript pdf and epub links only, the book page links them; price and Leanpub branch as open decisions; reply. 3. The editor's word: comms/ in git instead of vaults.",
+   "at": "2026-10-30T03:04:42Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "sub-agent",
+   "verdict": "go",
+   "comment": "Amended item 3: comms/ paths added to the conductor's own policy only; no member file touched; each member asked by request to add its own three paths. Overlaps stay clean (the filename prefix differs). Conditions: vault_check on comms/, no secret or contact detail in notices, no number in the subject; items 1 and 2 only open decisions.",
+   "at": "2026-10-30T03:04:42Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. book.json: P0 (sign the plan), O1 to O5, C011, L1 (price), L2 (Leanpub branch) as open decisions; replies in team/conductor/replies/. 2. release.yml: the publisher's build step after the second gate, continue-on-error with a warning; validate.py exempts only manuscript pdf and epub links; the book page links both; tested locally, gate clean. 3. comms/ in git: READMEs, the conductor's board and outbox, a notice in every member's mailroom, a request per member; the conductor's own policy gained its comms paths; no member file touched; CLAUDE.md, WAKE.md, the review briefs, ONBOARDING.md, schedule.json and REALITY.md say comms/. vault_check comms clean; 0 files outside scope.",
+   "at": "2026-10-30T03:06:47Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "sub-agent",
+   "verdict": "clean",
+   "comment": "Only conductor-owned files, comms/ and shared build and docs files changed; no member file. vault_check comms clean; no overlaps; 0 outside scope; gate clean (48 pages). No key, token, model identifier or contact detail.",
+   "at": "2026-10-30T03:07:14Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "sub-agent",
+   "verdict": "as-planned",
+   "comment": "All three items present: nine new open decisions; the manuscript step continue-on-error with a warning; the gate exempts only manuscript pdf and epub; the book page links both; the conductor's policy gained only its comms paths, a request per member.",
+   "at": "2026-10-30T03:07:14Z"
+  }
+ },
+ "closed": "2026-10-30T03:07:14Z",
+ "outcome": "ok",
+ "history": [
+  {
+   "step": "pre_review",
+   "by": "security",
+   "model": "sub-agent",
+   "verdict": "change",
+   "comment": "Items 1 and 2 in scope. Item 3: comms/** is outside the conductor's scope and the six member policy.json files are outside it too; the editor's words agree to git, not to widening members' scopes.",
+   "at": "2026-10-30T03:04:42Z"
+  }
+ ]
+}

@@ -16,6 +16,9 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - The conductor: staffed (this session, conductor@book.the-ultimate-insider), with its key published (`sha256:15762445fb34548e`), `ROLE.md`, `policy.json`, `status.json`, `schedule.json` (proposed), `ONBOARDING.md`, and the Cold-Read hand-off in `handoffs/`.
 - The first batch, proposed with `ROLE.md`, `policy.json`, `status.json` and a slot: librarian, historian, security, researcher, storyteller, publisher. Their prompts are in `ONBOARDING.md`.
 
+- **`comms/`**: the board and the mail in git; the conductor's notice and request in every member's mailroom (each member adds its own three paths to its policy).
+- The manuscript build in the release job (`publishing/build_book.py`, the publisher's): every release publishes `/manuscript/the-ultimate-insider.pdf` and `.epub`; a failure warns and never stops the release.
+
 ## The book
 
 - `book.json`: dates, rounds, phases, roles and decisions (S1 to S8 decided, Q2 to Q4 open).
@@ -47,7 +50,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 ## Not yet
 
 - No member but the conductor is staffed; no scheduled task exists (the editor says go and sets the hours, Q2).
-- Not ported yet, because each needs something only the editor can create: the team's two public vaults (and so the board, the mail, the vaults page, vault handovers), the editor's voice lane (`pane.js`, `lane.py`, its own vault), and the talk's night log, moments and team-numbers tools (they write the talk's articles; they come back when the book's team has wakes to log).
+- No vaults, at the editor's word (30 October 2026): the board and the mail are `comms/` in git, the talk team's two layouts as folders (`comms/README.md`); the board and mail pages from those folders are not built yet. Not ported: the editor's voice lane (`pane.js`, `lane.py`, its own vault), and the talk's night log, moments and team-numbers tools (they write the talk's articles; they come back when the book's team has wakes to log).
 - Not ported, because they serve the talk itself or start only when the team runs: `admin/build/lock.py` (froze parts of the talk before it was given), `admin/build/lane.py` (drains the editor's lane, see above), `admin/tools/workflow_deck.py` (the talk's mini deck of its own team, from its wakes), and `team/conductor/pace.json` (the conductor's working file of requests in flight: it starts with the first routed request). `team/<id>/HOLD.md` exists only while a hold is on.
 - No Leanpub book, no cover; the PDF and EPUB build runs locally, not yet in CI.
 - Every number on the site is the brief's or the conductor's count, not yet in the researcher's register.

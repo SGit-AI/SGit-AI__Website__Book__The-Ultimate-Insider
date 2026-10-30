@@ -1117,6 +1117,8 @@ class Site_Build:
                  f'<p class="status"><b>Status:</b> {md.inline(b["status"])}</p>'
                  f'<h2 id="contents">Contents</h2><ol class="toc">{lis}</ol>'
                  f'<p class="note">The order is <code>manuscript/Book.txt</code>, the file Leanpub reads, so the site and the book cannot disagree on it.</p>'
+                 f'<p class="btns"><a class="btn p" href="../manuscript/the-ultimate-insider.pdf">The manuscript as PDF</a> <a class="btn" href="../manuscript/the-ultimate-insider.epub">as EPUB</a></p>'
+                 f'<p class="note">Built from <code>manuscript/</code> by CI on every release (<code>publishing/build_book.py</code>), so they are always this build\'s text, whatever state it is in.</p>'
                  f'<h2 id="title">The title</h2><p>{md.inline(b["title"]["status"])}</p><ul>{cands}</ul>'
                  f'<h2 id="formats">Formats</h2><p>{md.inline(b["formats"])}</p></section>')
         self.page('book/index.html', 'The book', 'The manuscript of the book of The ultimate insider, chapter by chapter, in the order Leanpub builds it.', body)

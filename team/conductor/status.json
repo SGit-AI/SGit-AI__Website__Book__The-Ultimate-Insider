@@ -1,10 +1,22 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "conductor",
- "as_of": "2026-10-30T02:25:00Z",
- "round": 0,
- "state": "the first batch is running: six members onboarded (each key made in its own session, each task matching schedule.json); the conductor's own task created; nothing blocks the night",
+ "as_of": "2026-10-30T03:20:00Z",
+ "round": 1,
+ "state": "03:02 wake: both requests to the conductor answered (storyteller: P0, O1 to O5, C011 into book.json; publisher: the manuscript build in CI, L1 and L2 into book.json); comms/ in git set up, every member asked to add its own three paths",
  "done": [
+  {
+   "what": "the storyteller's open questions and the plan's signature as open decisions (P0, O1 to O5, C011)",
+   "evidence": "book.json, /decisions/"
+  },
+  {
+   "what": "the publisher's manuscript build in the release job; the PDF and EPUB linked from the book page",
+   "evidence": ".github/workflows/release.yml, /book/"
+  },
+  {
+   "what": "comms/ in git: the board and the mail as folders, the notice and request in every mailroom",
+   "evidence": "comms/README.md"
+  },
   {
    "what": "a Done when list in every member's ROLE.md and a Finishing section in WAKE.md: each member pauses its own task when its work is done; Q2 decided (round the clock; at the limit, wait for the reset)",
    "evidence": "team/conductor/WAKE.md, team/*/ROLE.md, book.json"
@@ -40,29 +52,29 @@
  ],
  "next": [
   {
-   "what": "route the first batch: each member's key, its own scheduled task, its first wake",
-   "why": "round 0"
+   "what": "build the board and mail pages from comms/ once every member's policy names its paths",
+   "why": "the admin section, as on the talk team"
   },
   {
-   "what": "the chapter plan with the editor by Friday night",
-   "why": "round 1"
-  },
-  {
-   "what": "the team's two public vaults, and the editor's lane, once the editor creates them",
-   "why": "the talk's team talked through them"
+   "what": "the daily ask to the editor: P0, O1 to O5, C011, L1, L2, Q3, Q4",
+   "why": "once a day, not every hour"
   }
  ],
  "asks": [
   {
-   "what": "in the morning: the book team's two public vaults (its own, not the talk's: the Cold-Read team may read the talk's)",
+   "what": "sign the chapter plan (P0) and its open questions O1 to O5",
    "from": "the editor"
   },
   {
-   "what": "in the morning: the publisher's Leanpub and KDP steps, which need your accounts",
+   "what": "C011: \"a ten-agent team\" or nine staffed",
    "from": "the editor"
   },
   {
-   "what": "Q4: your voice memos, the transcripts and any recording: into the source?",
+   "what": "L1 the Leanpub price (the publisher recommends B), L2 its branch; then create the Leanpub book",
+   "from": "the editor"
+  },
+  {
+   "what": "Q4: your voice memos, transcripts and any recording: into the source?",
    "from": "the editor"
   }
  ],

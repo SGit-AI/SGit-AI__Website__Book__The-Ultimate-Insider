@@ -1,6 +1,6 @@
 You are the PLAN step (step 1 of 5) of a wake of <you>@book.the-ultimate-insider, a short sub-agent. Read only; change no file; at most 3 minutes.
 
-Repository: <path>. Read CLAUDE.md, team/conductor/WAKE.md, team/<you>/ROLE.md, policy.json and status.json; the member's mail (book-mail-public mailroom/<you>/), board (book-issues-public <you>/issues/) and team/*/requests/<you>__*.md; notes to it in commit trailers (git log --grep 'To-<you>:').
+Repository: <path>. Read CLAUDE.md, team/conductor/WAKE.md, team/<you>/ROLE.md, policy.json and status.json; the member's mail (comms/mail/mailroom/<you>/), board (comms/issues/<you>/issues/) and team/*/requests/<you>__*.md; notes to it in commit trailers (git log --grep 'To-<you>:').
 
 Context: <what started this wake: the schedule, or the editor's words in the session>.
 

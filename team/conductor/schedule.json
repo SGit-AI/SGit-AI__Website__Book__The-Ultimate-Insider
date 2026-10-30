@@ -7,9 +7,9 @@
  "step_limit_minutes": 45,
  "why_this_order": "The conductor routes requests first, so each member finds its mail at its own slot. The librarian indexes at :09 because every other member works from the index. The historian at :17 and security at :24 build the timeline and the control register from it. The researcher at :32 checks the numbers they cite in the same hour. The storyteller at :39 plans from all four. The publisher builds the manuscript last, at :47, as dev released last on the talk's team. A request written in one hour is answered by the next slot of its recipient.",
  "asking_for_work": {
-  "channel": "the team's public mail vault, once it exists (book-mail-public: a .eml with X-Kind: request in mailroom/<recipient>/)",
-  "fallback": "team/<you>/requests/<recipient>__<slug>.md in the repository, until the vaults exist and your session holds the mail vault's key; the conductor routes it at :02",
-  "answer": "the recipient, at its next slot: an issue on its own board (or in its status.json until the vaults exist), and a reply naming it; when done, an update",
+  "channel": "the team's mail in git: a .eml with X-Kind: request in comms/mail/mailroom/<recipient>/<you>__NNN-slug.eml (comms/README.md)",
+  "fallback": "team/<you>/requests/<recipient>__<slug>.md, until your policy.json names your comms/ paths; the conductor routes it at :02",
+  "answer": "the recipient, at its next slot: an issue on its own board (comms/issues/<id>/issues/), and a reply naming it; when done, an update",
   "stale": "unanswered after two of the recipient's slots: the conductor flags it on its board and to the editor"
  },
  "how_each_task_is_made": "A scheduled task fires into the session it belongs to, so each member creates its own, from its own session, at the editor's word: the cron and the prompt below, word for word, and writes the task id into its status.json (the talk team's rule, after the conductor first created all of them from its own session on 29 October).",

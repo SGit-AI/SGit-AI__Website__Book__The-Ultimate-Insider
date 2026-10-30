@@ -31,15 +31,9 @@ If the editor has not yet said go on the schedule (decision Q2, the hours), leav
 
 ## 2. What the conductor does next
 
-- At its next wake after a member's `key.json` reaches `dev`: checks the key was made in that member's session (its `sessions/<id>/SESSION.json`), adds it to the key register (the build does), and, once the team's vaults exist, seals both vault keys to it:
-
-```
-python3 admin/tools/vault_handover.py --agent conductor --out <scratchpad> --to-member <id> <book-issues-public clone> <book-mail-public clone>
-```
-
-  and hands the zip to the editor. Only that member's session can open it (`sgit pki decrypt ... --fingerprint <its encryption fingerprint>`).
+- At its next wake after a member's `key.json` reaches `dev`: checks the key was made in that member's session (its `sessions/<id>/SESSION.json`), adds it to the key register (the build does), and checks its `policy.json` names its `comms/` paths. No vault keys to hand over: the team has no vaults.
 - Checks each member's own task against `schedule.json`, and routes requests (`team/*/requests/<to>__*.md`) at :02.
 
-## 3. The vaults
+## 3. The board and the mail: comms/, in git
 
-The talk's team talked through two public vaults, an Issues-FS board and an Email-FS mailroom, with their read keys on the site. The book's team gets the same two once the editor creates them (`book-issues-public`, `book-mail-public`); until then, requests are files in `team/<you>/requests/` and each member's board is its `status.json`. Every file in a public vault is public, forever.
+The talk's team talked through two public vaults. The editor agreed on 30 October 2026 that this team needs none: the same two layouts are folders in this repository, `comms/` (`comms/README.md`). A new member adds three paths to its own `policy.json` (`comms/issues/<id>/**`, `comms/mail/<id>/**`, `comms/mail/mailroom/*/<id>__*`) at its first wake. Everything in `comms/` is public, forever.

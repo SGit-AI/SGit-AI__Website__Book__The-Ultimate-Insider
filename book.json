@@ -216,6 +216,90 @@
    "detail": "Not in the talk's repository; the editor holds them: his voice memos of 29 October (the morning's narrative memo, the 13:50 feedback round, the 15:00 decisions round), the claude.ai session transcripts in which the briefs were written, and any recording of the talk on stage at 19:00. Do any of them go into the book's source?"
   },
   {
+   "id": "P0",
+   "status": "open",
+   "by": "editor",
+   "ask": "Sign the chapter plan",
+   "detail": "The storyteller's draft 2 in `chapter-plan/` (not signed): thirteen chapters with word budgets, every number by register id, the evidence by index, timeline and control. Nothing is written until it is signed. O1 to O5 below are its open questions; signing the plan answers them as drafted unless you say otherwise. Asked by the storyteller."
+  },
+  {
+   "id": "O1",
+   "status": "open",
+   "by": "editor",
+   "ask": "The length",
+   "detail": "From `chapter-plan/open-questions.md`. The storyteller proposes A for Leanpub, with B as the fallback if round 2 runs short.",
+   "options": [
+    "A: about 48,000 words, thirteen chapters (the plan as drafted)",
+    "B: about 32,000 words, ten chapters (4 and 6 folded in, 9 to 11 shortened)"
+   ]
+  },
+  {
+   "id": "O2",
+   "status": "open",
+   "by": "editor",
+   "ask": "The opening",
+   "detail": "The storyteller proposes A: the hold is the thesis in one scene.",
+   "options": [
+    "A: open on the 18:44 hold, then go back to midnight (the plan as drafted)",
+    "B: open at midnight and tell the day in order, the hold in chapter 8"
+   ]
+  },
+  {
+   "id": "O3",
+   "status": "open",
+   "by": "editor",
+   "ask": "The talk as given",
+   "detail": "May chapter 10 quote the cleaned transcript and your debrief, added to the talk's repository after the day (`a9c0b49`), and show what you said on stage beside what was planned? If not, chapter 10 becomes a short section of chapter 8."
+  },
+  {
+   "id": "O4",
+   "status": "open",
+   "by": "editor",
+   "ask": "Your voice in the book",
+   "detail": "Your voice memos and claude.ai transcripts of 29 October are not in the record (the same ground as Q4).",
+   "options": [
+    "A: an interview with you feeds chapters 6 and 12",
+    "B: the book uses only what is in the record"
+   ]
+  },
+  {
+   "id": "O5",
+   "status": "open",
+   "by": "editor",
+   "ask": "The braid",
+   "detail": "Each workflow chapter carries the beat of the talk its control answers (the plan as drafted), rather than the argument in chapters of its own. Sign or strike."
+  },
+  {
+   "id": "C011",
+   "status": "open",
+   "by": "editor",
+   "ask": "\"A ten-agent team\"",
+   "detail": "The brief says ten; the researcher's register counts nine staffed agents, with security proposed and never staffed (claim C011). Which wording does the book use? Chapters 0 and 6 wait on it. Asked by the researcher."
+  },
+  {
+   "id": "L1",
+   "status": "open",
+   "by": "editor",
+   "ask": "The price on Leanpub, with a floor",
+   "detail": "From `publishing/LEANPUB.md`. The publisher recommends B: \"a floor\" was your word in the brief, and a minimum can be lowered later more easily than raised.",
+   "options": [
+    "A: free minimum, $15 suggested",
+    "B: $9.99 minimum, $19.99 suggested",
+    "C: $4.99 minimum, $14.99 suggested"
+   ]
+  },
+  {
+   "id": "L2",
+   "status": "open",
+   "by": "editor",
+   "ask": "Which branch Leanpub builds from",
+   "detail": "The repository's default branch is `dev`; name it explicitly when you create the book. The publisher recommends `main` for both, so Leanpub builds only what you merged.",
+   "options": [
+    "main for previews and publishing",
+    "dev for previews, main for publishing"
+   ]
+  },
+  {
    "id": "Q2",
    "status": "decided",
    "by": "editor",

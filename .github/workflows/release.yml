@@ -63,6 +63,11 @@ jobs:
           echo "version=$NEW" >> "$GITHUB_OUTPUT"
       - name: build the release commit and gate it again
         run: python3 admin/build/build.py && python3 admin/build/validate.py && grep -qx "${{ steps.number.outputs.version }}" _site/version.txt
+      - name: the manuscript, as PDF and EPUB (publisher's request; a failure warns and never stops the site's release)
+        continue-on-error: true
+        run: |
+          sudo apt-get install -y -q pandoc && python3 publishing/build_book.py \
+            || echo "::warning::the manuscript did not build: the site is released without the PDF and EPUB"
       - uses: actions/configure-pages@v5
         with: { enablement: true }
       - uses: actions/upload-pages-artifact@v3
