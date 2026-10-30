@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled, every two hours at :32",
+ "started": "2026-10-30T22:32:46Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1. Request first: ruv-sgit__002 (eight lab pieces): read each last frame in the talk's repository (read only) at the named commits, register the printed numbers that trace (claims/register.json, appendix-a-commands.md), mask any that cannot; reply comms/mail/mailroom/ruv-sgit/researcher__NNN with outbox copy; board issue. 2. The historian's C030 note on 13:107: check C030, wording in claims/, a letter to the conductor (manuscript/ is outside policy). 3. Letter 009 item 2 and the comparison set as a list in claims/ if time; status.json, debrief.",
+   "at": "2026-10-30T22:33:32Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Inside researcher scope (claims/**, its comms paths, mailroom/ruv-sgit/researcher__*, team/researcher/**); the talk's repository read only. Conditions: no manuscript/ write (the C030 point by letter only); printed counts only, nothing describing a way around a control; vault_check comms before commit; no keys or contact details; REALITY.md only under own heading.",
+   "at": "2026-10-30T22:33:44Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "partial",
+   "comment": "1. ruv-sgit__002: pieces rendered headless at their commits to data-end; policy-gate and journey (C078), abp (C079, the 23 masked), pki (C080) registered; abp-review's 'all ten by 17:40' contradicted (C081); e09, e10, SHarness next. Reply mailroom/ruv-sgit/researcher__002, board 004. 2. Historian's 13:107 note: C030 narrower than the chapter; wording to the conductor (researcher__008). 3. Not done: Leanpub item 2, comparison list. Debrief, status, REALITY.md, Appendix A copy (81).",
+   "at": "2026-10-30T22:38:23Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "All writes inside researcher scope (claims/, team/researcher/, own comms, mailroom researcher__*; REALITY.md appended under own heading). vault_check comms clean; no keys, tokens or contact details; no brief, manuscript or rc1 changes; no em-dashes; nothing toward Cold-Read; C078 to C081 register printed counts and a contradiction only, nothing attack-shaped.",
+   "at": "2026-10-30T22:39:00Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "partial",
+   "comment": "Item 1 partial: policy-gate, journey (C078), abp (C079, 23 masked), pki (C080), abp-review contradicted (C081); reply and board 004 in; e09, e10, SHarness next. Item 2 done: C030 checked, wording to the conductor (researcher__008). Item 3 (if time) not done. Debrief, status, REALITY.md, Appendix A copy done. Nothing unplanned.",
+   "at": "2026-10-30T22:39:00Z"
+  }
+ },
+ "closed": "2026-10-30T22:39:00Z",
+ "outcome": "partial"
+}

@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-10-30T20:55:00Z",
+ "as_of": "2026-10-30T22:50:00Z",
  "round": 1,
- "state": "working: 20:32 wake; 77 claims (66 checked, 5 corrected, 6 open); Appendix A ready to regenerate; Leanpub counts registered",
+ "state": "working: 22:32 wake; 81 claims (68 checked, 5 corrected, 8 open); five lab pieces registered, one contradicted",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -80,9 +80,17 @@
   {
    "what": "Appendix A checked against the register, ready to regenerate (researcher__006); C011's conductor first key corrected to 00:51:12 (historian's trailer); the Leanpub reader counts registered (C075 to C077) and a view on free-minimum pricing (researcher__007)",
    "when": "2026-10-30T20:55:00Z"
+  },
+  {
+   "what": "ruv-sgit's lab pieces: policy-gate, journey, abp, pki registered from their rendered last frames (C078 to C080); abp-review's 'all ten by 17:40' contradicted by the files (C081); chapter 13:107's claim on C030 narrowed (researcher__008)",
+   "when": "2026-10-30T22:50:00Z"
   }
  ],
  "next": [
+  {
+   "what": "e09, e10 and SHarness: the pieces' own derivations reproduced",
+   "why": "ruv-sgit__002"
+  },
   {
    "what": "The Leanpub studies' search-summary items marked; the comparison set's titles as a list in claims/",
    "why": "letter 009 item 2; ROLE.md responsibility 5; Done when 3"
@@ -216,6 +224,20 @@
    "request": "comms/mail/mailroom/researcher/conductor__007-rc1-numbers-answered.eml (Appendix A)",
    "state": "done",
    "reply": "comms/mail/mailroom/conductor/researcher__006-appendix-a-checked.eml"
+  },
+  {
+   "id": "R15",
+   "from": "ruv-sgit",
+   "request": "comms/mail/mailroom/researcher/ruv-sgit__002-eight-pieces-numbers.eml",
+   "state": "in progress: five registered, one contradicted, three next",
+   "reply": "comms/mail/mailroom/ruv-sgit/researcher__002-eight-pieces-numbers.eml; board 004"
+  },
+  {
+   "id": "R16",
+   "from": "historian (review, trailer on a9eeb1e)",
+   "request": "team/historian/reviews/rc1-voice.md, 13:107 on C030",
+   "state": "done",
+   "reply": "comms/mail/mailroom/conductor/researcher__008-c030-and-13-107.eml"
   }
  ]
 }

@@ -620,6 +620,38 @@ State: checked.
 for s in Exploiting_MVC Thoughts_OWASP Practical_O2Platform Practical_Jni4Net Practical_AngularJS Practical_Git Practical_Eclipse hacking-portugal secdevops generation-z Software_Quality; do echo $s $(curl -sL -A 'Mozilla/5.0' https://leanpub.com/$s | grep -oE '[0-9][0-9,]* *(</[^>]+> *)*(<[^>]+> *)*[Rr]eaders' | head -1 | sed -E 's/<[^>]+>//g'); done
 ```
 
+## C078: The talk's policy-gate and journey pieces: POC1's eleven actions, twice
+
+State: checked.
+
+```
+git show 0fe0fff:src/static/studio-ports/data/report.json | python3 -c "import json,sys,collections;r=json.load(sys.stdin);print(len(r['rows']),collections.Counter(x['legacy'].split()[0] for x in r['rows']),collections.Counter(x['abp'].split()[0] for x in r['rows']),r['ledger'])"
+```
+
+## C079: The talk's abp piece: the ABP's rules and roles
+
+State: open.
+
+```
+git show 0fe0fff:src/static/studio-ports/data/rules.json | python3 -c "import json,sys,collections;r=json.load(sys.stdin);print(len(r),collections.Counter(x['effect'] for x in r))"; git show 0fe0fff:src/static/studio-ports/data/abp.json | python3 -c "import json,sys;a=json.load(sys.stdin);print(len(a['roles']),a['valid_until'])"
+```
+
+## C080: The talk's pki piece: the register of people's bounds, and the 2019 failure
+
+State: checked.
+
+```
+curl -s https://pki.sgit.ai/people/how.html | grep -o '256 statements[^.]*'
+```
+
+## C081: The talk's abp-review piece: 'By 17:40 the editor had agreed all ten'
+
+State: open.
+
+```
+for c in bd3cdad 298be4e; do for f in $(git ls-tree -r --name-only $c team | grep '/policy.json$'); do git show $c:$f | python3 -c 'import json,sys;print(json.load(sys.stdin).get("status"))'; done | sort | uniq -c; done
+```
+
 ## Where this came from
 
-`claims/register.json`, the `command` of each entry, run against `298be4e` (a full clone: `git rev-list --count 298be4e` gives 816) and `d39e717`; spot-checked on 30 October 05:45, 06:45, 07:45, 08:45, 09:40 and 10:50 (C011, C014, C021, C041, C042), each giving the registered value. C031's 2026 figure is read from a web page, fetched 30 October 2026. C043 to C062 were checked at source on 30 October about 13:20 UTC by the researcher's second session (public clones of OSBot-Utils, Memory-FS, Issues-FS, SGit-AI__CLI and myfeeds_ai; PyPI's JSON; the newsroom's wire; four LinkedIn pages' datePublished). C064 to C068, and the additions to C008 and C042, rerun on 30 October about 14:40 UTC. C069 to C072 rerun on 30 October about 16:45 UTC; C069 and C070 run at a9c0b49, material added after the day. C073 rerun on 30 October about 18:40 UTC. C074 checked on 30 October about 18:35 UTC. C011's command reads team/keys/ too since 30 October 20:40. C075 to C077 read from leanpub.com on 30 October about 20:40 UTC.
+`claims/register.json`, the `command` of each entry, run against `298be4e` (a full clone: `git rev-list --count 298be4e` gives 816) and `d39e717`; spot-checked on 30 October 05:45, 06:45, 07:45, 08:45, 09:40 and 10:50 (C011, C014, C021, C041, C042), each giving the registered value. C031's 2026 figure is read from a web page, fetched 30 October 2026. C043 to C062 were checked at source on 30 October about 13:20 UTC by the researcher's second session (public clones of OSBot-Utils, Memory-FS, Issues-FS, SGit-AI__CLI and myfeeds_ai; PyPI's JSON; the newsroom's wire; four LinkedIn pages' datePublished). C064 to C068, and the additions to C008 and C042, rerun on 30 October about 14:40 UTC. C069 to C072 rerun on 30 October about 16:45 UTC; C069 and C070 run at a9c0b49, material added after the day. C073 rerun on 30 October about 18:40 UTC. C074 checked on 30 October about 18:35 UTC. C011's command reads team/keys/ too since 30 October 20:40. C075 to C077 read from leanpub.com on 30 October about 20:40 UTC. C078 to C081 checked on 30 October about 22:40 UTC.

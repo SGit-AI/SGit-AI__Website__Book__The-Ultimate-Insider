@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-10-30T20:50:00Z",
+ "as_of": "2026-10-30T22:45:00Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -1870,6 +1870,100 @@
    "method": "each of the eleven pages fetched; the shown figures summed",
    "command": "for s in Exploiting_MVC Thoughts_OWASP Practical_O2Platform Practical_Jni4Net Practical_AngularJS Practical_Git Practical_Eclipse hacking-portugal secdevops generation-z Software_Quality; do echo $s $(curl -sL -A 'Mozilla/5.0' https://leanpub.com/$s | grep -oE '[0-9][0-9,]* *(</[^>]+> *)*(<[^>]+> *)*[Rr]eaders' | head -1 | sed -E 's/<[^>]+>//g'); done",
    "note": "Unchanged since the study. The study lists more slugs (b, u) that are not books. Readers include free copies; this is reach, not sales. Read 30 October 2026 about 20:40 UTC; a live count that grows, so cite it with its date. Registered at the conductor's letter 009, the researcher's 20:32 wake."
+  },
+  {
+   "id": "C078",
+   "claim": "The talk's policy-gate and journey pieces: POC1's eleven actions, twice",
+   "cited_in": [
+    "comms/mail/mailroom/researcher/ruv-sgit__002-eight-pieces-numbers.eml"
+   ],
+   "value": {
+    "actions": 11,
+    "round_1_default": "allowed 11 of 11",
+    "round_2_with_the_ABP": {
+     "allowed": 5,
+     "denied": 4,
+     "held_for_approval": 2
+    },
+    "ledgers": "both valid, 11 receipts each"
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "0fe0fff",
+    "evidence": "src/static/studio-ports/data/report.json (copied unmodified from SGit-AI__Website__Ruv at 47b4475, per src/static/studio-ports/data/SOURCES.md)"
+   },
+   "method": "report.json's rows and ledgers counted; the pieces' last frames read",
+   "command": "git show 0fe0fff:src/static/studio-ports/data/report.json | python3 -c \"import json,sys,collections;r=json.load(sys.stdin);print(len(r['rows']),collections.Counter(x['legacy'].split()[0] for x in r['rows']),collections.Counter(x['abp'].split()[0] for x in r['rows']),r['ledger'])\"",
+   "note": "These are ruv.sgit.ai's POC1 figures, a demonstration run, not the talk team's own actions. The journey piece's hashes are identifiers, not numbers to register. Registered at ruv-sgit's request (ruv-sgit__002), the researcher's 22:32 wake, 30 October 2026; the last frame rendered headless at the piece's data-end and read."
+  },
+  {
+   "id": "C079",
+   "claim": "The talk's abp piece: the ABP's rules and roles",
+   "cited_in": [
+    "comms/mail/mailroom/researcher/ruv-sgit__002-eight-pieces-numbers.eml"
+   ],
+   "value": {
+    "rules": 36,
+    "allow": 15,
+    "deny": 14,
+    "require_approval": 7,
+    "roles": 6,
+    "valid_until": "2026-10-31",
+    "owner": "the editor",
+    "POC1": "11 of 11 actions reached the engine (C078)",
+    "not_traced": "the '23' printed near 'verb.object.reach'"
+   },
+   "state": "open",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "0fe0fff",
+    "evidence": "src/static/studio-ports/data/rules.json, abp.json"
+   },
+   "method": "rules counted by effect; roles counted; the last frame read",
+   "command": "git show 0fe0fff:src/static/studio-ports/data/rules.json | python3 -c \"import json,sys,collections;r=json.load(sys.stdin);print(len(r),collections.Counter(x['effect'] for x in r))\"; git show 0fe0fff:src/static/studio-ports/data/abp.json | python3 -c \"import json,sys;a=json.load(sys.stdin);print(len(a['roles']),a['valid_until'])\"",
+   "note": "Open only for the '23', which no count in the data gives at a glance: mask it. The rest checked. Registered at ruv-sgit's request (ruv-sgit__002), the researcher's 22:32 wake, 30 October 2026; the last frame rendered headless at the piece's data-end and read."
+  },
+  {
+   "id": "C080",
+   "claim": "The talk's pki piece: the register of people's bounds, and the 2019 failure",
+   "cited_in": [
+    "comms/mail/mailroom/researcher/ruv-sgit__002-eight-pieces-numbers.eml"
+   ],
+   "value": {
+    "per_record": "256 statements, 150 live links, 32 pieces of evidence, 16 KiB a statement",
+    "year": "2019 (the keyserver flood)"
+   },
+   "state": "checked",
+   "source": {
+    "url": "https://pki.sgit.ai/people/how.html",
+    "read": "2026-10-30, about 22:40 UTC",
+    "evidence": "the page's text; the piece (901bec1) is a screenshot of it"
+   },
+   "method": "the live page fetched and the figures matched",
+   "command": "curl -s https://pki.sgit.ai/people/how.html | grep -o '256 statements[^.]*'",
+   "note": "The editor's own site, his account of his design. The 2019 keyserver flood is a public event; this entry checks only that the page says so. Registered at ruv-sgit's request (ruv-sgit__002), the researcher's 22:32 wake, 30 October 2026; the last frame rendered headless at the piece's data-end and read."
+  },
+  {
+   "id": "C081",
+   "claim": "The talk's abp-review piece: 'By 17:40 the editor had agreed all ten'",
+   "cited_in": [
+    "comms/mail/mailroom/researcher/ruv-sgit__002-eight-pieces-numbers.eml"
+   ],
+   "value": {
+    "piece_says": "By 17:40 the editor had agreed all ten (bd3cdad, 17:47)",
+    "files_at_bd3cdad": "5 agreed, 4 draft, 1 proposed",
+    "files_at_298be4e": "8 agreed, 1 draft (studio), 1 proposed (security), C072"
+   },
+   "state": "open",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "bd3cdad and 298be4e",
+    "evidence": "src/static/studio-ports/lab/abp-review/index.html; team/*/policy.json status"
+   },
+   "method": "the piece's sentence read; every policy.json's status counted at the piece's commit and at the end",
+   "command": "for c in bd3cdad 298be4e; do for f in $(git ls-tree -r --name-only $c team | grep '/policy.json$'); do git show $c:$f | python3 -c 'import json,sys;print(json.load(sys.stdin).get(\"status\"))'; done | sort | uniq -c; done",
+   "note": "Contradicted by the files: at the piece's own commit five of ten policies were marked agreed, and at the end of the day eight. The editor may have agreed in his session before the files caught up; the record does not show it. Print the frame only with the sentence masked or corrected, never as fact. A contradiction recorded, as ROLE.md asks. Registered at ruv-sgit's request (ruv-sgit__002), the researcher's 22:32 wake, 30 October 2026; the last frame rendered headless at the piece's data-end and read."
   }
  ]
 }
