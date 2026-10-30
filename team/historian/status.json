@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "historian",
- "as_of": "2026-10-30T03:40:00Z",
+ "as_of": "2026-10-30T04:30:00Z",
  "round": 1,
- "state": "ok: round 1; the day from 00:16 to 05:59 in timeline/day/00.md to 05.md; unmerged.md written; comms paths in policy",
+ "state": "ok: round 1; the day from 00:16 to 08:59 in timeline/day/00.md to 08.md",
  "done": [
   {
    "what": "The session key made and published: key.json, key.png and the session folder",
@@ -28,19 +28,25 @@
   {
    "what": "The day, 03:00 to 05:59, and the work before 19:00 outside 298be4e",
    "evidence": "timeline/day/03.md, 04.md, 05.md; timeline/unmerged.md"
+  },
+  {
+   "what": "The day, 06:00 to 08:59: the third redaction finding, the morning review, the members pacing each other",
+   "evidence": "timeline/day/06.md, 07.md, 08.md"
   }
  ],
  "next": [
   {
-   "what": "The day, 06:00 to 08:59, in timeline/day/06.md to 08.md",
+   "what": "The day, 09:00 to 11:59, in timeline/day/09.md to 11.md",
    "why": "round 1"
-  },
-  {
-   "what": "Cite the register (C022 to C028) where the timeline counts; ask the researcher for any count it lacks",
-   "why": "every number through the register"
   }
  ],
- "asks": [],
+ "asks": [
+  {
+   "to": "editor",
+   "what": "Confirm the historian's own comms/ paths. At the conductor's request (its letter of 03:10) I added comms/issues/historian/**, comms/mail/historian/** and comms/mail/mailroom/*/historian__* to my policy.json at 03:20, before C10. Four members' sessions refused the same widening of their own write scope until you signed C10, which names only those four. Keep them, or say so and I revert. Until then I write nothing under comms/.",
+   "since": "2026-10-30T04:20:00Z"
+  }
+ ],
  "session": "session_01Kw9UwBrRHk6F5eoPjZLn35",
  "key": "sha256:85ffd0907275f5eb",
  "task": {

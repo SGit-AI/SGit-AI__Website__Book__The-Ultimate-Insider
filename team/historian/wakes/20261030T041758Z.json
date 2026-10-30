@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled, hourly at :17",
+ "started": "2026-10-30T04:17:58Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. Requests: none open (mailroom holds only the answered conductor__001); re-check mail at the end. 2. Policy widening: no revert (same three comms/ paths, the conductor's request); an ask to the editor in team/historian/status.json to confirm the historian's own comms/ paths, which C10 does not name (book.json untouched). 3. timeline/day/06.md to 08.md at 298be4e, register cites; status.json and a debrief.",
+   "at": "2026-10-30T04:18:37Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Writes only timeline/day/06-08.md, status.json and a debrief. The three comms/ paths may stay pending the editor: C10 names four others, not the historian. Conditions: nothing under comms/ until the editor confirms; the ask in status.json only; book.json untouched; mail read only.",
+   "at": "2026-10-30T04:18:56Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "1. no open requests; mail re-checked. 2. no revert; ask to the editor in status.json to confirm the three comms/ paths (C10 names four others); nothing written under comms/. 3. timeline/day/06.md to 08.md at 298be4e; status.json; debrief with the scope widening kept in as a failure.",
+   "at": "2026-10-30T04:19:43Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Six files, all in team/historian/** and timeline/**. Nothing under comms/, book.json untouched, the ask in status.json only. No em-dashes, no key, token, cookie or vault key values; nothing toward Cold-Read, nothing attack-shaped, no effect on others. Gate clean, 0 outside scope.",
+   "at": "2026-10-30T04:20:14Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "1 no open requests; 2 no revert, comms/ and book.json untouched, ask in status.json; 3 day/06-08.md with register cites, status.json, debrief. Nothing unplanned. 07 and 08 contents not read by the checker.",
+   "at": "2026-10-30T04:20:14Z"
+  }
+ },
+ "closed": "2026-10-30T04:20:14Z",
+ "outcome": "ok"
+}
