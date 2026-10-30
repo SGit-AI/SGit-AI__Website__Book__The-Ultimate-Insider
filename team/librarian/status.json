@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "librarian",
- "as_of": "2026-10-30T06:15:00Z",
+ "as_of": "2026-10-30T07:16:00Z",
  "round": 0,
- "state": "idle at 06:11: no request open, the talk's repository still at 424b67a (nothing after the day to index), the chapter plan unsigned; round 1 of the index is complete. The comms/ paths wait on C10b, the editor's",
+ "state": "idle at 07:13 (second idle wake running): no request open, the talk's repository still at 424b67a, P0 (the chapter plan) and C10b open. Round 1 of the index is complete",
  "done": [
   {
    "what": "Session key made and published (team/librarian/key.json, key.png, sessions/session_01Kw9UwBgUFHEgwLsB3TrwA8/)",
@@ -58,6 +58,11 @@
    "to": "the editor",
    "since": "2026-10-30T03:15:00Z",
    "issue": "blocked: comms paths (board in status.json until comms/ is mine)"
+  },
+  {
+   "what": "The librarian's hourly wakes will be idle until P0 is signed, the talk's repository changes or a member asks where something is; each idle wake still runs four sub-agents. Pause or keep the task (trig_01MGyWHBgZ7Pzg95f2ozEAi5) as you judge; only you pause it.",
+   "to": "the editor",
+   "since": "2026-10-30T07:16:00Z"
   }
  ],
  "session": "session_01Kw9UwBgUFHEgwLsB3TrwA8",

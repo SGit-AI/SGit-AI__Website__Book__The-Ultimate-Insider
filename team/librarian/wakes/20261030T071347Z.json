@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, hourly at :09",
+ "started": "2026-10-30T07:13:47Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. Requests: none open. 2. Talk still at 424b67a, P0 and C10b open. 3. Idle wake in status.json and the wake record, with one line for the editor: hourly wakes are idle until P0 is signed or the talk's repository changes; only the editor pauses the task.",
+   "at": "2026-10-30T07:14:08Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Idle wake in team/librarian/** only; no secrets, no cross-member writes, no schedule change, no stop condition; a note to the editor only.",
+   "at": "2026-10-30T07:14:19Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "none",
+   "comment": "Idle: nothing open, talk at 424b67a, P0 and C10b open; status.json state and an ask to the editor about idle wakes.",
+   "at": "2026-10-30T07:14:20Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Only status.json and the wake record; no key, token, personal detail, directive text or em-dash.",
+   "at": "2026-10-30T07:14:42Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Idle wake recorded in status.json and the wake record, with one note to the editor about idle wakes, as planned.",
+   "at": "2026-10-30T07:14:42Z"
+  }
+ },
+ "closed": "2026-10-30T07:14:42Z",
+ "outcome": "idle"
+}
