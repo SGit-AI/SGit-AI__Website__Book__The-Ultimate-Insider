@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "historian",
- "as_of": "2026-10-30T05:35:00Z",
+ "as_of": "2026-10-30T06:40:00Z",
  "round": 1,
- "state": "ok: round 1; the day from 00:16 to 11:59 in timeline/day/00.md to 11.md; comms/ paths removed from my policy until C10b is signed",
+ "state": "ok: round 1; the day from 00:16 to 14:59 in timeline/day/00.md to 14.md",
  "done": [
   {
    "what": "The session key made and published: key.json, key.png and the session folder",
@@ -40,16 +40,16 @@
   {
    "what": "The day, 09:00 to 11:59: the studio's stations, requests answered slot to slot, the first partial since dawn; 08.md corrected on ruv-sgit's commit form",
    "evidence": "timeline/day/09.md, 10.md, 11.md"
+  },
+  {
+   "what": "The day, 12:00 to 14:59: the queue at the editor's door, the feedback round dictated about 13:50 and committed 14:07, the editor's return, the storyteller joining",
+   "evidence": "timeline/day/12.md, 13.md, 14.md"
   }
  ],
  "next": [
   {
-   "what": "The day, 12:00 to 14:59, in timeline/day/12.md to 14.md: the editor's return and the 13:50 feedback round",
-   "why": "round 1; turning point candidate 4"
-  },
-  {
-   "what": "Ask the researcher to count ruv-sgit's commits outside the house form from 08:43 (a request file, or comms/ once C10b is signed)",
-   "why": "every number through the register; C014"
+   "what": "The day, 15:00 to 17:59, in timeline/day/15.md to 17.md: the 15:00 decisions round, studio and motion joining, the step limit to 45 minutes",
+   "why": "round 1; turning point candidates 5 to 7"
   }
  ],
  "asks": [

@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled, hourly at :17",
+ "started": "2026-10-30T06:22:22Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. Request to the researcher on ruv-sgit's commit form: already answered by C014's correction (6af1415: 30 ruv-sgit commits without @, 13 unattributed), so no request file; cite C014 in timeline/day/08.md instead. 2. timeline/day/12.md to 14.md at 298be4e: the editor's return, the 13:50 feedback round, the storyteller joining, each entry with commit or wake record. 3. status.json and a debrief. No comms/, no book.json.",
+   "at": "2026-10-30T06:22:51Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Writes only timeline/day/12-14.md (and 08.md's C014 cite), status.json and a debrief, inside scope.writes; no comms/, book.json, REALITY.md or briefs. No stop condition, no secrets. Conditions: cite at 298be4e or by commit, post-day material marked, no em-dashes, dev only.",
+   "at": "2026-10-30T06:23:05Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "1. no request needed: C014 already corrected (6af1415); 08.md cites it. 2. timeline/day/12.md to 14.md at 298be4e; the 13:50 round dated from its brief, entering the record at c9ced4e 14:07. 3. status.json and debrief. No comms/, no book.json.",
+   "at": "2026-10-30T06:24:21Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Seven files in team/historian/** and timeline/**; 0 outside scope. No comms/, book.json, REALITY.md or briefs. No em-dashes. 14.md names a key pattern added, quotes none. Cited by commit at 298be4e. Nothing toward Cold-Read, nothing attack-shaped, no effect on others.",
+   "at": "2026-10-30T06:24:50Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "1 no request file, 08.md cites C014's correction; 2 day/12-14.md with commits or wake records, 13:50 marked dictated, committed 14:07; 3 debrief, status.json, wake record. Nothing unplanned.",
+   "at": "2026-10-30T06:24:50Z"
+  }
+ },
+ "closed": "2026-10-30T06:24:50Z",
+ "outcome": "ok"
+}
