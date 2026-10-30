@@ -1,10 +1,14 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "conductor",
- "as_of": "2026-10-30T04:15:00Z",
+ "as_of": "2026-10-30T04:30:00Z",
  "round": 1,
  "state": "04:02 wake: historian and publisher on comms/; librarian, security, researcher and storyteller held by the session's own permission check (C10), on files until the editor decides; the board and mail pages built from comms/",
  "done": [
+  {
+   "what": "C10 signed by the editor; the four members told they may add their comms paths",
+   "evidence": "book.json C10; comms/mail/mailroom/*/conductor__*-c10-signed.eml"
+  },
   {
    "what": "the board and the mail pages, built from comms/ in git",
    "evidence": "/team/board.html, /admin/mail.html"
@@ -64,6 +68,10 @@
  ],
  "next": [
   {
+   "what": "check the four members added their paths at their next wakes; if a session still refuses, ask the editor to say it in that session",
+   "why": "C10"
+  },
+  {
    "what": "route the four members' request files at each :02 until C10 is decided",
    "why": "C10"
   },
@@ -73,10 +81,6 @@
   }
  ],
  "asks": [
-  {
-   "what": "C10: the four members' comms/ paths: your word in each session, or add them yourself, or leave them on files",
-   "from": "the editor"
-  },
   {
    "what": "sign the chapter plan (P0) and its open questions O1 to O5",
    "from": "the editor"
