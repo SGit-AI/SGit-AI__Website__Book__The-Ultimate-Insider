@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-10-30T07:55:00Z",
+ "as_of": "2026-10-30T09:00:00Z",
  "round": 1,
- "state": "working: 39 claims (32 checked, 4 corrected, 3 open); the talk's claims triaged whole (C038, C039); R4 still waits on the editor's word here",
+ "state": "working: 40 claims (33 checked, 5 corrected, 2 open); C031 settled at source; C040 corrects the lessons brief's player priority; R4 still waits on the editor's word here",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -40,11 +40,15 @@
   {
    "what": "the talk's 80 on-stage claims matched to talk.json: 55 in a beat at 298be4e, 29 of them not confirmed whole (C039); the 63 off-stage claims that do not hold whole sorted by group, closing the 06:32 wake's partial",
    "when": "2026-10-30T07:55:00Z"
+  },
+  {
+   "what": "C031 checked at source ($17.4M is the 2025 edition, $19.5M the 2026; the replacement was proposed to deck at 02:52 and the slide never changed); C040: the player priority, and the lane put first at the editor's word (BRIEF-CORRECTIONS.md)",
+   "when": "2026-10-30T09:00:00Z"
   }
  ],
  "next": [
   {
-   "what": "Which of the 29 unconfirmed claims in a beat the chapter plan leans on, checked at source, $17.4M first (C031); the transcript added after the day, if the editor has added it, to settle 'in a beat' against 'spoken'",
+   "what": "The rest of the 29 unconfirmed claims in the final talk that the plan leans on, checked at source; 'still not started at 14:53' (C040); whether deck received the 02:52 proposal (C031, with the historian)",
    "why": "ROLE.md responsibility 3; Done when 2"
   },
   {

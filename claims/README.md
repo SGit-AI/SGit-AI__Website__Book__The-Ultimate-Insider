@@ -44,3 +44,10 @@ C035 and C036 checked by reading graphs.sgit.ai's Appendix C and chapter 12 in f
 ## Round 1, seventh pass: the talk's claims matched to its beats (30 October 2026, 07:32 wake)
 
 C039: of the 80 claims placed on stage, 55 are in a beat of the talk at `298be4e`, and 29 of those were not confirmed whole by 18:20 (13 in part, 16 not checked). The 63 off-stage claims that do not hold whole are sorted by group in `talk-claims-triage.md`. 39 claims: 32 checked, 4 corrected, 3 open.
+
+## Round 1, eighth pass: two failures, read closer (30 October 2026, 08:32 wake)
+
+- **C031, checked at source.** $17.4M is right for the 2025 edition and $19.5M is the 2026 one. The slide line was written at 00:40 and never changed, though the talk's researcher proposed the exact replacement to deck at 02:52, about 16 hours before the talk.
+- **C040, the player priority.** The editor's briefs of about 14:00 make the player the main priority, but the same hand-over put the editor's own feedback lane first, at his word. The lessons brief is corrected in `BRIEF-CORRECTIONS.md`.
+
+40 claims: 33 checked, 5 corrected, 2 open.

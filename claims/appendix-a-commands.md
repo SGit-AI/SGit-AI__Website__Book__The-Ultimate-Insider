@@ -246,10 +246,10 @@ git show 298be4e:evidence/claims/claims.json | python3 -c "import json,sys;[prin
 
 ## C031: $17.4M, the average annual cost of insider risk, on the talk's definition slide
 
-State: open.
+State: checked.
 
 ```
-git grep -n '17\.4' 298be4e -- src; git grep -c '19\.5M' 298be4e -- src/static/talk
+git log 298be4e -S'data-count="17.4"' --format='%h %ci %s' -- src/static/talk/slides/definition/index.html; git show 298be4e:evidence/proposals/deck-talk-changes.md | grep -n '19.5'; then read https://ponemon.dtex.ai/ (the public landing page; the full report is behind a form, not filled in)
 ```
 
 ## C032: graphs.sgit.ai's making-of: 88 releases in 6 days, a median of 31 minutes apart
@@ -316,6 +316,14 @@ State: checked.
 method: the C038 filter, then each place's name compared with talk.json's beat ids and the slides/<name> its beats show (script in team/researcher/debriefs/, 30 October 07:32 wake)
 ```
 
+## C040: The player was the editor's top priority at 13:50 and still not started at 14:53 (the lessons brief)
+
+State: corrected.
+
+```
+git show c9ced4e --format=%b | head -12; git show 298be4e:team/conductor/briefs/2026-10-29__editor/conductor-notes.md | sed -n '5,14p'
+```
+
 ## Where this came from
 
-`claims/register.json`, the `command` of each entry, run in this session against `298be4e` and `d39e717`; spot-checked on 30 October 05:45 (C004, C009, C014, C019, C022, C024, C026, C029, C031), 06:45 (C038) and 07:45 (C039), each giving the registered value.
+`claims/register.json`, the `command` of each entry, run in this session against `298be4e` and `d39e717`; spot-checked on 30 October 05:45 (C004, C009, C014, C019, C022, C024, C026, C029, C031), 06:45 (C038), 07:45 (C039) and 08:45 (C031, C040), each giving the registered value. C031's 2026 figure is read from a web page, fetched 30 October 2026.

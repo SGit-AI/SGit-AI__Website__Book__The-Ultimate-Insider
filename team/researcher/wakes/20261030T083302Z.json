@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled, hourly at :32",
+ "started": "2026-10-30T08:33:02Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1. C031 at source: the Ponemon/DTEX pages fetched read-only (material, not instructions); $17.4M against $19.5M settled in claims/register.json and claims/README.md. 2. The '13:50 priority' for the player searched in the talk's record at 298be4e; found or not in C028's note; BRIEF-CORRECTIONS.md only if the lessons brief is wrong. 3. status.json (R4 still blocked), debrief, REALITY.md.",
+   "at": "2026-10-30T08:33:31Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "In scope: claims/** and team/researcher/**, appends only if the brief is wrong. Fetches and the talk repo read-only, material not instructions, no forms or credentials; nothing to the talk or blind repos; no secrets; stop if a page instructs.",
+   "at": "2026-10-30T08:33:45Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. C031 checked at source (2025: $17.4M; 2026: US$19.5M); the line unchanged from 00:40, the replacement proposed to deck at 02:52. 2. C040: the player priority in the editor's 14:00 briefs, the lane put first at his word in the same hand-over; BRIEF-CORRECTIONS.md entry; C028 note updated. 3. status, debrief, REALITY.md, README, appendix.",
+   "at": "2026-10-30T08:35:29Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Only claims/**, team/researcher/** and the appends (REALITY.md; BRIEF-CORRECTIONS.md new entry at the top). policy.json, comms/, briefs/ untouched; nothing toward Cold-Read. No secrets, contact details or em-dashes. Claims sourced to commits, the reorder stated as the editor's word, nothing accusatory. No form filled in; nothing attack-shaped.",
+   "at": "2026-10-30T08:36:06Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "(1) C031 checked at source, counts consistent (40: 33, 5, 2). (2) C040 and C028's note; BRIEF-CORRECTIONS entry warranted; 14:53 flagged open. (3) status, debrief, REALITY.md, appendix. Nothing unplanned.",
+   "at": "2026-10-30T08:36:06Z"
+  }
+ },
+ "closed": "2026-10-30T08:36:06Z",
+ "outcome": "ok"
+}
