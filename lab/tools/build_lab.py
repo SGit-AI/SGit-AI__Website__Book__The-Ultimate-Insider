@@ -36,6 +36,8 @@ def experiments():
     found = []
     for d in sorted(p for p in (LAB / "experiments").iterdir() if p.is_dir()):
         if not (d / "experiment.json").exists():
+            if any(e["folder"] == d.name for e in json.loads((LAB / "tools" / "external.json").read_text())["experiments"]):
+                continue
             # not in the lab's format yet: it goes in after the designer's verdict (lab/README.md, The build)
             print(f"left out: {d.name} (no experiment.json; waiting for the design verdict)")
             continue
@@ -43,8 +45,18 @@ def experiments():
         for k in ("id", "title", "tries", "made_from", "question", "pages"):
             if k not in meta:
                 sys.exit(f"{d.name}: experiment.json has no {k}")
+        meta["_pages"] = d / "pages.html"
+        meta["_dir"] = f"../experiments/{d.name}"
         found.append((d, meta))
-    return found
+    ext = json.loads((LAB / "tools" / "external.json").read_text())["experiments"]
+    for meta in ext:
+        d = LAB / "experiments" / meta["folder"]
+        if not d.is_dir():
+            sys.exit(f'external.json: {meta["folder"]} is not in lab/experiments/')
+        meta["_pages"] = LAB / "tools" / meta["layout"]
+        meta["_dir"] = f"../experiments/{d.name}"
+        found.append((d, meta))
+    return sorted(found, key=lambda e: e[1]["id"])
 
 
 def header(meta):
@@ -77,7 +89,7 @@ def assemble():
                  f'Built {when} by lab/tools/build_lab.py; the rules are in lab/README.md.</p></div>', "LAB")
     pages = [cover]
     for d, meta in exps:
-        src = (d / "pages.html").read_text()
+        src = meta["_pages"].read_text().replace("{{dir}}", meta["_dir"])
         src = re.sub(r"\{\{char:([\w-]+)\}\}", lambda m: chars[m.group(1)], src)
         secs = re.findall(r'<section class="page"(?: data-claims="([^"]*)")?>(.*?)</section>', src, re.S)
         if len(secs) != meta["pages"]:
