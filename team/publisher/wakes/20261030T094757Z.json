@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled, hourly at :47",
+ "started": "2026-10-30T09:47:57Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. Idle: team/publisher/status.json as_of and state only (fourth quiet hour). 2. Nothing new since 0179a48; no hold. 3. Check, commit, push dev.",
+   "at": "2026-10-30T09:48:18Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "status.json only, in scope; no secrets, no outside contact, no harm; no stop condition; dev not main.",
+   "at": "2026-10-30T09:48:28Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "none",
+   "comment": "Idle: status.json as_of and state only.",
+   "at": "2026-10-30T09:48:29Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "status.json and the wake record only, in scope; no key, token, personal detail or directing text; 0 outside scope.",
+   "at": "2026-10-30T09:48:53Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Idle as planned; nothing unplanned.",
+   "at": "2026-10-30T09:48:53Z"
+  }
+ },
+ "closed": "2026-10-30T09:48:53Z",
+ "outcome": "idle"
+}
