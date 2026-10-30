@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "In scope; no hold. Conditions: requests only to the right roles (librarian the study, designer the PDF debrief, historian the interviews); interviews labelled reconstructed from the record, never the agents' own words; public keys only in the register; D6-1 to D6-5 open and unsigned; talk repo read-only, nothing to the blind repo; vault_check on comms; no em-dashes.",
    "at": "2026-10-30T14:21:15Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "1. Replies to security 006 and storyteller 004; requests to the librarian (talk-site study), designer (its PDF debrief), historian (exit interviews, reconstructed and labelled). 2. Publisher, developer and synthetic in the register; notices to ten members; schedule.json current; D6-1 to D6-5 open in book.json. 3. Brief 4 (2 pages), debrief, status.json. vault_check and gate clean.",
+   "at": "2026-10-30T14:22:38Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "Gate clean (145 pages); 0 outside scope; vault_check clean; no em-dashes; requests in role, the interviews labelled reconstructed; register holds fingerprints only; D6 open; brief 4 shows no key, token or contact.",
+   "at": "2026-10-30T14:23:28Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "as-planned",
+   "comment": "1 replies and three requests. 2 register, schedule, notices to ten, D6 open. 3 brief 4, debrief, status. Nothing unplanned.",
+   "at": "2026-10-30T14:23:28Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T14:23:28Z",
+ "outcome": "ok"
 }
