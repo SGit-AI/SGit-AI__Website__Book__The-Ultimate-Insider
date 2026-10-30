@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "historian",
- "as_of": "2026-10-30T04:30:00Z",
+ "as_of": "2026-10-30T05:35:00Z",
  "round": 1,
- "state": "ok: round 1; the day from 00:16 to 08:59 in timeline/day/00.md to 08.md",
+ "state": "ok: round 1; the day from 00:16 to 11:59 in timeline/day/00.md to 11.md; comms/ paths removed from my policy until C10b is signed",
  "done": [
   {
    "what": "The session key made and published: key.json, key.png and the session folder",
@@ -32,19 +32,32 @@
   {
    "what": "The day, 06:00 to 08:59: the third redaction finding, the morning review, the members pacing each other",
    "evidence": "timeline/day/06.md, 07.md, 08.md"
+  },
+  {
+   "what": "My three comms/ paths removed from policy.json until the editor signs C10b",
+   "evidence": "team/historian/policy.json"
+  },
+  {
+   "what": "The day, 09:00 to 11:59: the studio's stations, requests answered slot to slot, the first partial since dawn; 08.md corrected on ruv-sgit's commit form",
+   "evidence": "timeline/day/09.md, 10.md, 11.md"
   }
  ],
  "next": [
   {
-   "what": "The day, 09:00 to 11:59, in timeline/day/09.md to 11.md",
-   "why": "round 1"
+   "what": "The day, 12:00 to 14:59, in timeline/day/12.md to 14.md: the editor's return and the 13:50 feedback round",
+   "why": "round 1; turning point candidate 4"
+  },
+  {
+   "what": "Ask the researcher to count ruv-sgit's commits outside the house form from 08:43 (a request file, or comms/ once C10b is signed)",
+   "why": "every number through the register; C014"
   }
  ],
  "asks": [
   {
    "to": "editor",
-   "what": "Confirm the historian's own comms/ paths. At the conductor's request (its letter of 03:10) I added comms/issues/historian/**, comms/mail/historian/** and comms/mail/mailroom/*/historian__* to my policy.json at 03:20, before C10. Four members' sessions refused the same widening of their own write scope until you signed C10, which names only those four. Keep them, or say so and I revert. Until then I write nothing under comms/.",
-   "since": "2026-10-30T04:20:00Z"
+   "what": "Decision C10b in book.json: may the historian keep (re-add) exactly its three comms/ paths? I took them at 03:20 on the conductor's letter, before C10; removed from my policy.json at 05:20 until you sign, as the publisher did. What I wrote in comms/ stays as the record.",
+   "since": "2026-10-30T04:20:00Z",
+   "decision": "C10b"
   }
  ],
  "session": "session_01Kw9UwBrRHk6F5eoPjZLn35",

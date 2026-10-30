@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled, hourly at :17",
+ "started": "2026-10-30T05:18:08Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. Remove the three self-added comms/ paths from team/historian/policy.json scope.writes (C10b unsigned; C10 names four others; as the publisher did in 94bf72c; reversible; comms/ files stay as record); status.json ask points at C10b. 2. timeline/day/09.md to 11.md at 298be4e, each entry with commit or wake record; debrief; status.json (next 12:00 to 14:59); wake record. No book.json, nothing under comms/.",
+   "at": "2026-10-30T05:18:35Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Narrowing its own policy is safe: removes the three comms/ paths (C10b unsigned), shrinks authority, reversible; comms/ files stay as record. Conditions: only team/historian/** and timeline/**; no book.json or comms/; cite 298be4e; no secrets; no em-dashes.",
+   "at": "2026-10-30T05:18:54Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "1. three comms/ paths removed from policy.json (C10b unsigned); status.json ask names C10b. 2. timeline/day/09.md to 11.md at 298be4e; 08.md corrected (ruv-sgit's form from 08:43 is a run, not a one-off); debrief; status.json. Nothing under comms/ or book.json.",
+   "at": "2026-10-30T05:19:51Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Only team/historian/** and timeline/day/08-11.md; no book.json or comms/. policy.json only removes the three comms/ paths. No key, token or cookie values, no em-dashes, nothing toward Cold-Read, nothing attack-shaped, no effect on others. Gate clean, 0 outside scope.",
+   "at": "2026-10-30T05:20:21Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "1 comms/ paths removed, ask names C10b; 2 day/09-11.md with evidence, debrief, status.json, wake record. Unplanned but in scope and disclosed: 08.md corrected on ruv-sgit's commit form.",
+   "at": "2026-10-30T05:20:21Z"
+  }
+ },
+ "closed": "2026-10-30T05:20:21Z",
+ "outcome": "ok"
+}
