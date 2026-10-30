@@ -9,6 +9,8 @@ Asked for by the editor (Dinis Cruz) in the conductor's session on 30 October 20
 | `03-the-market-on-leanpub.md` | About 36 relevant books: AI agents, AI security and governance, security leadership, making-of books; the gaps and price bands | 3,513 |
 | `04-what-the-best-leanpub-books-do.md` | Twelve lifetime bestsellers and four author case studies: why they work | 2,902 |
 
+Note, 30 October 2026, 22:10 UTC: the reader counts below are superseded by the researcher's register (C075 to C077, read again at about 20:40 UTC); the register is where the book takes them from.
+
 ## What they agree on
 
 - **The $0 minimum fits Leanpub and its biggest books.** The three largest reader counts the studies could read (544,007, 195,514 and 136,067) are all free-minimum books, each sitting on an audience of its own (a course, a university, a non-profit); the fourth, at 115,385, is paid. The editor's own older books were all free-minimum, $7.99 to $11.00 suggested. Reader counts are not sales, and the free price is not shown to be the cause.

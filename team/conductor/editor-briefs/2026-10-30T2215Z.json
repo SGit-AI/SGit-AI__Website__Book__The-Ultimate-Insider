@@ -1,0 +1,38 @@
+{
+ "kicker": "The conductor brief · 8 · Friday 30 October 2026",
+ "title": "Monday's launch needs you; the team waits on your signatures",
+ "when": "22:15 UTC, the conductor's scheduled wake (22:02)",
+ "by": "conductor@book.the-ultimate-insider, key sha256:f2456a147ac54f5f",
+ "headline": "The team kept working into the evening: a second review page (a founder), the phone bug fixed and checked, LAB 06 and 07, Appendix A ready to regenerate, and the historian's 31 timeline findings on RC1. But the book's next step is now yours alone: the RC1 revision waits on D6, and Monday's Leanpub launch needs four things only you can do. The storyteller has idled twice; Q6 asks whether the team should slow down while it waits.",
+ "stats": [
+  {"n": "4", "label": "launch steps only you can do (Leanpub, KDP)"},
+  {"n": "11", "label": "open decisions (Q6 new)"},
+  {"n": "2", "label": "review pages live (security leader, founder)"},
+  {"n": "31", "label": "timeline findings on RC1, queued for the revision"}
+ ],
+ "for_you": [
+  {"group": "For Monday's launch on Leanpub (publishing/LEANPUB.md, steps 0 to 3)"},
+  {"id": "1", "ask": "Choose the Leanpub plan", "detail": "GitHub writing mode needs Standard or Pro.", "options": ["Standard", "Pro", "The free plan, chapters pasted in"]},
+  {"id": "2", "ask": "Create the book on Leanpub and add leanpub to the repository with the Read role only", "options": ["Done"]},
+  {"id": "3", "ask": "Price it as L1, with the membership box unticked", "detail": "$0 minimum, $19.99 suggested; K1 is the Kindle side of the same question.", "options": ["Done"]},
+  {"id": "4", "ask": "Check the EPUB", "detail": "The publisher's session was refused EPUBCheck as code from outside. Allow it in that session, or run EPUBCheck or Kindle Previewer on /manuscript/the-ultimate-insider.epub yourself.", "options": ["Allowed in the publisher's session", "Ran it myself"]},
+  {"group": "Decisions"},
+  {"id": "D6", "ask": "D6-1 to D6-6: the RC1 revision starts when these are signed", "options": ["All A", "Other (note)"], "recommend": "All A."},
+  {"id": "Q6", "ask": "The team's hours while it waits on you", "options": ["A. Keep every schedule", "B. 08:00 to 22:00 London for everyone", "C. Members only waiting on you pause their own task; you re-enable them", "D. B and C"], "recommend": "C: the storyteller and, once its queue is empty, the historian pause; the others still have work."},
+  {"id": "K1", "ask": "The Kindle price (brief 7)", "options": ["A. Accept free matching", "B. Leanpub minimum above $0", "C. Kindle later", "D. Ask the publisher more first"], "recommend": "D, then A."},
+  {"id": "pack", "ask": "The rest of the decisions pack (brief 3)", "options": ["Answered"]}
+ ],
+ "sections": [
+  {"title": "Since brief 7", "items": [
+   "developer: the pen clear of the jump bar on a phone, and a second review page, for a founder (RC1 chapters 1 and 12, about 33 minutes)",
+   "synthetic: the founder's first run, and the fix checked on both pages",
+   "designer and ruv.sgit: LAB 05 to 07; an experiment id once printed is never reused",
+   "researcher: Appendix A checked and ready to regenerate; the Leanpub counts registered (C075 to C077); its view: free-minimum books show reach, not sales, and not cause",
+   "historian: RC1 against the timeline, 31 findings; the plan told as the event is the commonest",
+   "security: LAB 04 and 05 reviewed; the key tool's review complete",
+   "publisher: the EPUB fitted to small screens"]},
+  {"title": "The RC1 revision, queued", "text": "Waiting for your D6 signatures and your paper notes: the historian's 31 findings, the researcher's corrections and Appendix A, security's trims and CTL ids, the publisher's alt-text change, the storyteller's draft 6. Done as one revision, in your voice, with every open decision written as open."}
+ ],
+ "next": ["00:02 onward: the team keeps its schedule unless you sign Q6"],
+ "sources": ["publishing/LEANPUB.md", "team/publisher/status.json", "git log of dev since 20:20", "the three letters in comms/mail/mailroom/conductor/"]
+}

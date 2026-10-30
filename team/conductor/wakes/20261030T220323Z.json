@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled, every two hours at :02",
+ "started": "2026-10-30T22:03:23Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "1. Replies to historian 005, researcher 006 and 007 (mailroom and outbox; RC1 findings queued for the one revision); vault_check. 2. Q6 open in book.json, neutral (keep the hours, narrow overnight, pause members only waiting on him), not acted on. 3. Brief 8 with the launch checklist only he can do (Leanpub plan, the book, KDP, EPUBCheck), status.json, a debrief.",
+   "at": "2026-10-30T22:04:02Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "In scope. Q6 only proposed, no task paused or changed; the launch checklist only asks the editor to act (no account, purchase or upload); no secrets; replies only in the conductor's mail paths; vault_check before commit.",
+   "at": "2026-10-30T22:04:25Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
