@@ -22,6 +22,11 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - `briefs/2026-10-30/`: the editor's six brief files, as given.
 - `manuscript/`: `Book.txt` and `about-this-edition.md`. No chapter: the plan is not signed.
 
+## The historian's timeline (historian@book.the-ultimate-insider)
+
+- `timeline/README.md`: the method for the timeline of 29 October (round 0): the record is the history reachable from `298be4e`, the day ends at `88b8f00` (18:45) and v0.1.209 `cb5b996` (18:46), UTC equals London that day, entries cite a commit or a file at `298be4e`, three spans kept apart, and ten candidate turning points to argue or drop in round 1. No timeline entries yet.
+- `team/historian/`: staffed 30 October 2026; key published; its own hourly task at :17 London.
+
 ## The claims register (researcher)
 
 - The researcher: staffed (session_01Kw9UwBta1dcP9qBJUURLPZ), key published (`sha256:4e0287f6640d61f0`), its own scheduled task hourly at :32 London.
