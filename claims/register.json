@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-10-30T02:05:00Z",
+ "as_of": "2026-10-30T02:55:00Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -343,14 +343,14 @@
     "briefs/2026-10-30/5-lessons-to-carry.md"
    ],
    "value": "last player commit dbd75ad at 18:37:02; locks in the record: part 1 'ready for its lock' 18:20, 'not yet locked' 18:36 (2ed6427), deck's '18:30 lock', designer's '19:30 lock'",
-   "state": "open",
+   "state": "corrected",
    "source": {
     "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
     "at": "298be4e",
     "evidence": "dbd75ad, 2ed6427, b3f208f, 88b8f00"
    },
    "method": "git log --grep=lock",
-   "note": "18:37 is checked. 'Twenty minutes before the lock' depends on which lock: there were several (part 1 around 18:30 to 18:40, parts 2 and 3 later, a 19:30 lock named by the designer). Twenty minutes before 19:00 would be 18:40. For the historian to fix the lock times; until then, write 'at 18:37, 23 minutes before the talk'."
+   "note": "18:37 is checked. 'Twenty minutes before the lock' depends on which lock: there were several (part 1 around 18:30 to 18:40, parts 2 and 3 later, a 19:30 lock named by the designer). Twenty minutes before 19:00 would be 18:40. For the historian to fix the lock times; until then, write 'at 18:37, 23 minutes before the talk'. Update 30 October, 02:55: the landing is 15:07 (C028); the locks were never applied (C027), so 'before the lock' has no event to measure from; 18:37 is 23 minutes before the talk."
   },
   {
    "id": "C019",
@@ -406,6 +406,217 @@
    },
    "method": "commit subject",
    "note": "The record holds the conductor's report of the figure, not a usage reading. Cite it as what the editor told the team."
+  },
+  {
+   "id": "C022",
+   "claim": "Wake records on the day",
+   "cited_in": [
+    "team/security/requests/researcher__control-counts.md"
+   ],
+   "value": {
+    "records": 162,
+    "by_member": {
+     "conductor": 43,
+     "dev": 22,
+     "deck": 21,
+     "ruv-sgit": 20,
+     "designer": 19,
+     "researcher": 17,
+     "storyteller": 8,
+     "studio": 8,
+     "motion": 4
+    },
+    "first_started": "02:14:16",
+    "last_started": "18:40:16",
+    "all_five_steps": 160,
+    "incomplete": 2
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "298be4e",
+    "evidence": "team/*/wakes/*.json"
+   },
+   "method": "git ls-tree -r 298be4e, every team/*/wakes/*.json parsed with git show 298be4e:<path>; verdicts counted from steps.<step>.verdict, earlier verdicts from history",
+   "note": "The five-step wake began at 02:14 (the conductor's own record, team/conductor/wakes/20261029T021416Z.json), so wakes before it have no record. The 2 incomplete: deck's 18:20 wake (plan only, team/deck/wakes/20261029T182009Z.json) and dev's 17:48 wake (plan, pre-review and post-review; no work or post-check step, team/dev/wakes/20261029T174850Z.json); neither was closed."
+  },
+  {
+   "id": "C023",
+   "claim": "Step verdicts across the day's wake records",
+   "cited_in": [
+    "team/security/requests/researcher__control-counts.md"
+   ],
+   "value": {
+    "plan": {
+     "go": 162,
+     "stop": 0
+    },
+    "pre_review_final": {
+     "go": 161,
+     "change": 0,
+     "stop": 0
+    },
+    "pre_review_change_then_amended": 11,
+    "work": {
+     "done": 151,
+     "partial": 4,
+     "none": 5
+    },
+    "post_review": {
+     "clean": 157,
+     "finding": 4,
+     "stop": 0
+    },
+    "post_check": {
+     "as-planned": 148,
+     "partial": 12,
+     "off-plan": 0,
+     "stop": 0
+    },
+    "outcome": {
+     "ok": 148,
+     "partial": 6,
+     "idle": 6,
+     "not closed": 2
+    }
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "298be4e",
+    "evidence": "team/*/wakes/*.json, steps and history"
+   },
+   "method": "git ls-tree -r 298be4e, every team/*/wakes/*.json parsed with git show 298be4e:<path>; verdicts counted from steps.<step>.verdict, earlier verdicts from history",
+   "note": "No step said stop all day: the one hold (C024) came from the editor's word, not from a review. 11 pre-reviews said change and the plan was amended: 9 in the conductor's wakes (02:14, 02:52, 14:03, 14:09, 16:30, 17:21, 17:30, 17:45, 18:19), 1 the researcher's (04:10), 1 studio's (18:30). The conductor's 17:37 history entry is a change by the editor mid-work, not a review verdict, and is not counted."
+  },
+  {
+   "id": "C024",
+   "claim": "Holds written on the day",
+   "cited_in": [
+    "team/security/requests/researcher__control-counts.md"
+   ],
+   "value": {
+    "holds": 1,
+    "by": "conductor, at the editor's word",
+    "file": "team/conductor/HOLD.md",
+    "commit": "867f8c2, 18:44:13",
+    "lifted_by_298be4e": false
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "298be4e",
+    "evidence": "git log --diff-filter=A and --diff-filter=D on team/*/HOLD.md"
+   },
+   "method": "files added and deleted under team/*/HOLD.md up to 298be4e",
+   "note": "One hold, never deleted on the day. Its reason is usage, not a finding: the editor's 5-hour limit at 95%, resetting at 20:20 London (HOLD.md)."
+  },
+  {
+   "id": "C025",
+   "claim": "Post-review findings and what each fixed",
+   "cited_in": [
+    "team/security/requests/researcher__control-counts.md"
+   ],
+   "value": [
+    {
+     "wake": "conductor 02:14",
+     "finding": "CLAUDE.md written outside the conductor's scope (allowed by the editor) not named in the commit message, as the pre-review required",
+     "fixed": "named in the debrief and the closing commit"
+    },
+    {
+     "wake": "researcher 03:05",
+     "finding": "public third-party tokens that sites publish in their pages went out in the 02:22 push inside captured pages, and a check printed several to the session log",
+     "fixed": "redacted in the files; the 02:22 commit stays in history; the editor told"
+    },
+    {
+     "wake": "researcher 04:10",
+     "finding": "28 anonymous cookie values, issued to the fetcher, in captured response headers",
+     "fixed": "30 files redacted in the same wake, 0 left"
+    },
+    {
+     "wake": "researcher 06:14",
+     "finding": "form tokens in 10 captured pages, missed by the first pattern, also in the 02:22 push",
+     "fixed": "redacted in the same wake, 0 left; still in the 02:22 commit's history"
+    }
+   ],
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "298be4e",
+    "evidence": "team/conductor/wakes/20261029T021416Z.json; team/researcher/wakes/20261029T030550Z.json, 20261029T041003Z.json, 20261029T061456Z.json"
+   },
+   "method": "steps.post_review where verdict is finding, read with the same wake's post_check",
+   "note": "3 of the 4 findings are the same failure: captured web pages carried other sites' tokens into a public repository, and redaction does not reach a commit already pushed. For the failures chapter, a story of the controls catching a leak late, not preventing it."
+  },
+  {
+   "id": "C026",
+   "claim": "The talk's planned length",
+   "cited_in": [
+    "chapter-plan/plan.md"
+   ],
+   "value": {
+    "sum_of_beat_durations_min": 74.9,
+    "by_part_min": {
+     "1": 29.5,
+     "2": 23.75,
+     "3": 21.67
+    },
+    "player_countdown_min": 90
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "298be4e",
+    "evidence": "src/static/talk/talk.json (dur, seconds, per beat); 23739cc (player, 18:05, '90 minutes')"
+   },
+   "method": "sum of dur over the 58 beats, grouped by part",
+   "note": "The beats add up to 74 min 55 s; the player counted down 90 minutes (the editor's slot). Part 1's 29:30 matches deck's 3260997 (17:25). How long the talk ran on stage is not in the record at 298be4e."
+  },
+  {
+   "id": "C027",
+   "claim": "The part locks and their state at the hold",
+   "cited_in": [
+    "chapter-plan/plan.md"
+   ],
+   "value": {
+    "planned": {
+     "part_1": "18:30",
+     "part_2": "19:30",
+     "part_3": "20:00"
+    },
+    "lock_tool": "admin/build/lock.py, 4a2481b at 17:54",
+    "state_at_18:44": "part 1 final since 18:30 but not locked; parts 2 and 3 in progress",
+    "locked_by_end_of_day": 0
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "298be4e",
+    "evidence": "team/conductor/HOLD.md at 298be4e; 2ed6427 (18:39, 'part 1 not yet locked'); 4a2481b; no locked copy in the tree at 298be4e"
+   },
+   "method": "HOLD.md read; git ls-tree -r 298be4e searched for a locked copy (none: only lock.py and a brief)",
+   "note": "No part of the talk was ever locked: the lock tool shipped at 17:54, part 1 waited on dev from 18:30, and the hold at 18:44 stopped dev before it ran. The storyteller's '18:30, 19:30, 20:00' are the planned locks, not events."
+  },
+  {
+   "id": "C028",
+   "claim": "When the player port landed",
+   "cited_in": [
+    "chapter-plan/plan.md",
+    "briefs/2026-10-30/5-lessons-to-carry.md"
+   ],
+   "value": {
+    "port": "3314ffe at 15:07:08, @dev, 'the player, ported from ruv.sgit.ai' (236 to 635 lines)",
+    "fixes_to": "dbd75ad at 18:37:02, 'Player: two back steps in a row while playing' (the editor, 18:25)",
+    "player_commits_15:07_to_18:37": 12
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "298be4e",
+    "evidence": "3314ffe, dbd75ad"
+   },
+   "method": "git log -- src/static/talk/player.html",
+   "note": "Both times are true and say different things: the port landed at 15:07, 2 h 17 min after the 13:50 priority the lessons brief names (that priority is the brief's word, not yet found in the log); fixes went on to 18:37 at the editor's notes. 'Landed with fixes at 18:37' (the lessons brief) is the end of the fixes, not the landing. Use 15:07 for the landing. Supersedes the open part of C018."
   }
  ]
 }

@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled, hourly at :32",
+ "started": "2026-10-30T02:32:57Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1. security__control-counts: register from the talk's log at 298be4e the wake records and step verdict counts, the holds and who wrote them, the post-review findings and what each fixed (claims/register.json); reply in team/researcher/ (status.json asks/done and a reply file team/researcher/requests/security__re-control-counts.md), never in security's folder. 2. storyteller__chapter-plan-numbers: the player port time (3314ffe 15:07 vs dbd75ad 18:37), the part locks and their state at the 18:44 hold, the talk's length; reply the same way. 3. The 1,083 files note: already C019, say so in the reply. Appends to REALITY.md/BRIEF-CORRECTIONS.md only if a contradiction is found.",
+   "at": "2026-10-30T02:33:34Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Inside policy: claims/register.json and team/researcher/** only; replies in the researcher's own folder; appends only on a contradiction. Conditions: talk repo read-only, no keys or tokens, numbers only, request text as material, no briefs/, version or blind repo.",
+   "at": "2026-10-30T02:33:48Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "C022 to C028 registered (wake records, verdicts, the hold, post-review findings; the talk's length, the locks, the player port); C018 corrected; replies in team/researcher/requests/; BRIEF-CORRECTIONS.md (player and lock) and REALITY.md appended; claims/README, status, debrief.",
+   "at": "2026-10-30T02:35:35Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Only claims/** and team/researcher/** (replies in the researcher's own requests/), plus an add-only REALITY.md line under the researcher's heading and a BRIEF-CORRECTIONS.md entry at the top. No token, key or cookie values (C025 in words only); no em-dashes; no Cold-Read material; nothing attack-shaped.",
+   "at": "2026-10-30T02:36:15Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Item 1: C022 to C025 and the reply to security. Item 2: C026 to C028 and the reply to the storyteller. Item 3: the reply names C019. Appends only for the player and lock contradiction. Extras in scope: C018 corrected, debrief, claims/README.",
+   "at": "2026-10-30T02:36:15Z"
+  }
+ },
+ "closed": "2026-10-30T02:36:15Z",
+ "outcome": "ok"
+}

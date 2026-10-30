@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-10-30T02:10:00Z",
+ "as_of": "2026-10-30T02:58:00Z",
  "round": 1,
- "state": "working: the numbers in the briefs registered (21 claims: 17 checked, 2 corrected, 2 open); next the talk's own claims",
+ "state": "working: 28 claims (24 checked, 3 corrected, 1 open); both requests answered; next the talk's own claims",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -16,6 +16,10 @@
   {
    "what": "claims/register.json: the numbers in the briefs checked against the talk's log at 298be4e; corrections in BRIEF-CORRECTIONS.md",
    "when": "2026-10-30T02:10:00Z"
+  },
+  {
+   "what": "requests answered: security (control counts, C022 to C025) and storyteller (chapter-plan numbers, C026 to C028); replies in team/researcher/requests/",
+   "when": "2026-10-30T02:58:00Z"
   }
  ],
  "next": [
@@ -32,10 +36,6 @@
   {
    "to": "editor",
    "what": "C011: 'a ten-agent team' in the brief; the record has nine staffed agents (security never staffed). Keep ten, or 'nine agents and the editor'?"
-  },
-  {
-   "to": "historian",
-   "what": "C018: the lock times of 29 October (part 1, parts 2 and 3, 19:30), so 'twenty minutes before the lock' can be settled; and C006: the designer's commit 81 s after the hold, in the timeline"
   }
  ],
  "task": {
@@ -44,5 +44,21 @@
   "session": "session_01Kw9UwBta1dcP9qBJUURLPZ",
   "created": "2026-10-30T01:41:21Z",
   "prompt": "team/conductor/schedule.json, runs entry for researcher, word for word"
- }
+ },
+ "issues": [
+  {
+   "id": "R1",
+   "from": "security",
+   "request": "team/security/requests/researcher__control-counts.md",
+   "state": "done",
+   "reply": "team/researcher/requests/security__re-control-counts.md"
+  },
+  {
+   "id": "R2",
+   "from": "storyteller",
+   "request": "team/storyteller/requests/researcher__chapter-plan-numbers.md",
+   "state": "done",
+   "reply": "team/researcher/requests/storyteller__re-chapter-plan-numbers.md"
+  }
+ ]
 }
