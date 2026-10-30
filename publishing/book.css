@@ -33,3 +33,18 @@ nav#TOC ul { list-style: none; padding-left: 1em; }
 figure { margin: 0.9em 0 1.1em; text-align: center; break-inside: avoid; page-break-inside: avoid; }
 figure img { display: block; margin: 0 auto; max-width: 100%; max-height: 4.6in; width: auto; height: auto; }
 figcaption { font-size: 0.78em; line-height: 1.35; color: #444; margin-top: 0.45em; text-align: left; font-style: italic; }
+/* Markua asides and blurbs (publishing/markua.py): the call-out look of the conductor's RC1 build (CALLOUT_CSS in team/conductor/rc1/tools/assemble_rc1.py) */
+.callout { break-inside: avoid; page-break-inside: avoid; margin: 0.9em 0 1em; padding: 0.55em 0.8em 0.6em;
+  border-left: 3pt solid #1f3a5f; background: #eef2f7; font-family: Inter, "DejaVu Sans", sans-serif; font-size: 8.8pt; line-height: 1.4; }
+.callout p { text-align: left; margin: 0 0 0.35em; hyphens: none; }
+.callout .label { font-size: 7pt; letter-spacing: 0.08em; text-transform: uppercase; color: #1f3a5f; margin-bottom: 0.2em; }
+.callout .label strong { font-weight: 700; }
+.callout.number { border-left-color: #9a6a00; background: #faf4e6; } .callout.number .label { color: #7a5200; }
+.callout.warning { border-left-color: #8c2a00; background: #f8ece6; } .callout.warning .label { color: #8c2a00; }
+.callout.takeaway { border-left-color: #2f6b3a; background: #ecf4ee; } .callout.takeaway .label { color: #2f6b3a; }
+.callout.try { border-left-color: #444; background: #f1f1f1; } .callout.try .label { color: #333; }
+.callout.centred { border-left: none; background: none; text-align: center; font-family: inherit; font-size: 1em; }
+.callout.centred p { text-align: center; }
+/* Markua's {pagebreak}; {frontmatter}, {mainmatter} and {backmatter} leave empty markers */
+.pagebreak { page-break-after: always; break-after: page; }
+.frontmatter, .mainmatter, .backmatter { display: none; }

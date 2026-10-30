@@ -20,6 +20,8 @@ import subprocess
 import sys
 import tempfile
 
+import markua
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MANUSCRIPT = os.path.join(ROOT, "manuscript")
 HERE = os.path.join(ROOT, "publishing")
@@ -72,9 +74,17 @@ def main():
     a = p.parse_args()
     if not shutil.which("pandoc"):
         sys.exit("build_book: pandoc is not installed")
-    files = chapters()
+    sources = chapters()
     os.makedirs(a.out, exist_ok=True)
     made = []
+    marked = tempfile.mkdtemp(prefix="build_book_markua_")  # Markua-only syntax translated for pandoc (M1); images still resolve from manuscript/
+    files = []
+    for src in sources:
+        with open(src, encoding="utf-8") as f:
+            text = markua.translate(f.read())
+        files.append(os.path.join(marked, os.path.basename(src)))
+        with open(files[-1], "w", encoding="utf-8") as f:
+            f.write(text)
 
     if not a.no_epub:
         epub = os.path.join(a.out, f"{NAME}.epub")
@@ -114,10 +124,11 @@ def main():
         if not os.path.isfile(pdf) or os.path.getsize(pdf) < 1000:
             sys.exit("build_book: Chromium wrote no PDF")
         made.append(pdf)
+    shutil.rmtree(marked, ignore_errors=True)
 
     for m in made:
         print(f"build_book: {os.path.relpath(m, ROOT)} ({os.path.getsize(m)} bytes) from {len(files)} file(s) in Book.txt")
-    counts = [(os.path.basename(f), words(f)) for f in files]
+    counts = [(os.path.basename(f), words(f)) for f in sources]
     for name, n in counts:
         print(f"build_book:   {n:>7,} words  {name}")
     total = sum(n for _, n in counts)

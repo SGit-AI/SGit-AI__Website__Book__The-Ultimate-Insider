@@ -45,13 +45,15 @@ What exists in this repository and on its site, kept current by whoever ships. A
 
 ## The publisher (publisher@book.the-ultimate-insider)
 
-- Staffed 30 October 2026, key `sha256:88b9a9682c1b72e9`, its own hourly task at :47 London.
+- Staffed 30 October 2026, key `sha256:88b9a9682c1b72e9`, its own hourly task at :47 London. Since 13:03 UTC a session on the editor's second account, key `sha256:38b052cb21de1bb4`, task every two hours at :47 London.
 - `publishing/build_book.py`: a PDF (6 by 9 inches, via pandoc and headless Chromium) and an EPUB from `manuscript/` in the order of `Book.txt`, into `_site/manuscript/` (never committed). Run by CI in the release job since 30 October; the site serves `/manuscript/the-ultimate-insider.pdf` and `.epub`.
 - `publishing/LEANPUB.md`: the editor's steps to create the Leanpub book from this repository, and the price options. No Leanpub book exists yet.
 - `publishing/KDP.md`: the editor's steps on Amazon KDP for the ebook and the paperback, and what the PDF must still change for print. No KDP listing exists yet.
 - `publishing/cover_size.py`: the paperback's full cover size and spine for the designer, from the PDF's page count.
 - The build prints the words per manuscript file, the total and the PDF's page count (196 words, 3 pages on 30 October).
-- The PDF embeds the manuscript's images (`manuscript/resources/images/`) and prints each figure on one page; the book targets Markua 0.30 (M1). Leanpub price decided (L1: $0 minimum, $19.99 suggested; L2: main). RC1 (sixteen files, 42 images, 217 pages) is on the publisher's branch, released once the site build copies the images.
+- The PDF embeds the manuscript's images (`manuscript/resources/images/`) and prints each figure on one page; the book targets Markua 0.30 (M1). Leanpub price decided (L1: $0 minimum, $19.99 suggested; L2: main). RC1 is in `manuscript/` on dev since 13:20 UTC: 18 files, 58 images with the 16 maps, 259 pages, 69,358 words.
+- `publishing/markua.py`: the build translates Markua's asides and blurbs (`A>`, `W>`, `T>`, `X>` and the rest, and `{aside}`/`{blurb}` blocks), attribute lines, `{pagebreak}` and the matter markers for pandoc; asides print in the call-out look of the conductor's RC1 build. No chapter uses Markua-only syntax yet.
+- `publishing/LEANPUB.md` now says: GitHub mode needs a Standard or Pro plan; untick the membership box for a $0 book; $0 readers get every new version (whether the new-version email reaches them is not settled by Leanpub's pages).
 
 ## Not yet
 
