@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "storyteller",
- "as_of": "2026-10-30T15:55:00Z",
+ "as_of": "2026-10-30T17:15:00Z",
  "round": 1,
- "state": "staffed on the second account; draft 5 signed; draft 6 proposed, D6-1 to D6-5 open in book.json and in the editor's decisions pack of 14:00",
+ "state": "staffed on the second account; draft 5 signed; draft 6 proposed, D6-1 to D6-5 open in book.json, D6-6 (the Cold-Read chapter mapped) asked of the conductor",
  "done": [
   {
    "what": "session key sha256:edc67e3cc68b3b07 published (team/storyteller/key.json, key.png, sessions/session_01Kw9UwFSAdt6ywy4t5H8kvd/)",
@@ -76,26 +76,30 @@
   {
    "what": "draft 6's caution made precise: the years' steps registered (C043 to C061), the span's start open (C062), so 'two and a half years' is not printed as a number until the editor answers",
    "when": "2026-10-30"
+  },
+  {
+   "what": "the Cold-Read chapter mapped into draft 6 as D6-6 (argues, threads, failures, evidence, claims; C064 and the Cold-Read members' count flagged as not yet printable); the signed section given a pointer only",
+   "when": "2026-10-30"
   }
  ],
  "next": [
   {
-   "what": "fold draft 6 to the editor's signature on D6-1 to D6-5 (or his ticks on the companion cards) and make it the plan",
-   "why": "Done when 1: the plan signed as RC1 now stands"
+   "what": "fold draft 6 to the editor's signature on D6-1 to D6-6 and make it the plan",
+   "why": "Done when 1 and 2"
   },
   {
    "what": "review RC1's revision as it lands, chapter by chapter against the plan and the voice",
    "why": "Done when 3"
-  },
-  {
-   "what": "chapter 11 (the Cold-Read comparison) mapped from the Cold-Read team's findings",
-   "why": "Done when 2"
   }
  ],
  "asks": [
   {
-   "what": "sign or change D6-1 to D6-5 (draft 6: placement of the map chapter, the years and the plumbing, the principles, chapter 0, the length)",
+   "what": "sign or change D6-1 to D6-6 (chapter-plan/draft-6-proposed.md)",
    "of": "the editor, through the conductor"
+  },
+  {
+   "what": "C062, the start of 'two and a half years'",
+   "of": "the editor, through the researcher"
   }
  ],
  "session": "session_01Kw9UwBayMPYc5YNzFqqc7n",

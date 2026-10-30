@@ -160,6 +160,7 @@ Each chapter lists the claims it may use (register ids), the index areas its evi
 - **Argues:** a team that arrived knowing only the talk's repository read it cold; where its account differs from this book's is where an insider's view is blind. Written in round 3 from the Cold-Read repository's findings, read from here and never written to.
 - **Evidence:** the Cold-Read repository's published findings (read only; the one-way valve).
 - **Waits on:** round 3. The budget is held; if the findings are thin, the chapter shrinks and chapter 12 takes the words.
+- **Mapped, not yet signed:** see `draft-6-proposed.md`, "Chapter 14 (signed plan: chapter 11)", open decision D6-6.
 
 ### 12. Build your own (4,500)
 

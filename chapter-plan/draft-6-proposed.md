@@ -58,6 +58,19 @@ From RC1 as it stands, about 10,200 words:
 - Concepts and principles from 7,050 to 4,500 (glossary and principles), because each concept is now explained where it appears: about 2,550.
 - The rest from chapters a little over their budgets (A mandate you can read, Building the talk): about 400.
 
+## Chapter 14 (signed plan: chapter 11), What the cold reader saw: mapped, proposed
+
+Added at the 16:53 UTC wake, for board 003 (ROLE.md, Done when 2). The signed plan held this chapter's place and budget and said it waited on round 3. The Cold-Read team has finished and RC1 drafted the chapter from its work (`manuscript/11-what-the-cold-reader-saw.md`), so the plan can now say what the chapter does. **Proposed, for the editor to sign (D6-6)**; the signed section stays as it is until he does. Mapped from the drafted chapter and the register, read here only: nothing goes to the Cold-Read repository.
+
+- **Argues:** an insider reads the record through what it already knows. A team given only the repository reached the same day (the book's main thread does not rest on what the editor told this team), found what this team missed, missed what only the world outside the repository could show, and was kept blind by a promise, not a setting. That last finding is the book's argument in miniature.
+- **The two threads:** the workflow thread is the experiment itself, two teams, one record and a one-way valve, run on this team's rules; the argument thread is the valve: the account both teams shared made each visible to the other, and an agent that saw, did not open, and recorded it is the behaviour the talk asks for and the controls cannot enforce.
+- **The shape, in five moves (about 600 words each):** where the readings meet (the hold, the locks never closed, the overnight freeze); what the cold reader found that this team missed (the line in the script that said no hold had been pulled, the two counts that go the wrong way, the stale authority file, the steps that gave way when the editor was in the room, the key tool, the permission precedent); what this team saw that it could not (the superseded figure, the talk as given, the wake that closed on a branch); where the counts disagree, as definitions the editor should know before print; what the blind setup showed.
+- **The failures it keeps:** this team's own misses, named as misses: the script line contradicted by the hold, the authority file nobody read against the tree, the precedent missing from the control register, the gate's gap on the key tool's pin; and the experiment's: the brief that crossed was addressed to the wrong team, and the wall was a rule.
+- **Evidence:** the Cold-Read repository's finished work, read in place and cited by path and commit (its critic, security, governance, journalist, analyst, historian, conductor's debrief, readers); this repository's hand-off (`team/conductor/handoffs/2026-10-30__cold-read/`), `controls/index.json` (C5, C10), `timeline/unmerged.md`, `timeline/turning-points.md` (TP-3); the talk's repository at `298be4e` and, marked as added after the day, `a9c0b49`.
+- **Claims:** C002 to C004, C006, C014, C021 to C023, C027, C031, C038, C039, C042, C065, C066. **Not yet printable:** C064 (the second count, open) and C011 (the members, open); "twelve members" for the Cold-Read team has no entry. The draft states the second count and the Cold-Read conductor's count of its members without an id; until the researcher closes C064 and registers the count, the revision describes them or names them as the Cold-Read team's own.
+- **Where it sits:** after The talk as given and before the principles (D6-1 to D6-3), so the principles can draw on what the cold reader found. Map 13 (two teams, one record) stays here.
+- **Budget:** 3,000 words, as signed; the draft is on it.
+
 ## The open decisions this proposes
 
 - **D6-1** Where 00b goes. A: after chapter 1 (recommended). B: before chapter 1, as in RC1. C: inside chapter 0.
@@ -65,6 +78,7 @@ From RC1 as it stands, about 10,200 words:
 - **D6-3** Where the principles go. A: a chapter before Build your own, concepts as a back-matter glossary (recommended). B: after Build your own, as in RC1.
 - **D6-4** Chapter 0. A: a "How to read this book" page in the front matter (recommended). B: as in RC1.
 - **D6-5** The length. A: about 59,000 words, as above (recommended: the new parts the editor asked for, paid for in part by cuts). B: about 70,000, RC1's shape and sizes kept and signed. C: hold 49,200, every new part compressed and chapters 9 and 10 folded into their neighbours.
+- **D6-6** The Cold-Read chapter mapped (above). A: as mapped (recommended). B: keep the signed section as it is until round 3.
 
 **What must happen before any of it prints.** "Two and a half years" is the editor's phrase. Since this draft was first written, the researcher has registered the dated steps of those years from public sources (C043 to C061, with C063 on what the talk's repository uses), so the years chapter can date each piece. But the start of the span, when the editor went full time on The Cyber Boardroom, is open (C062: no public source names it). Until he answers C062, the chapter names the pieces and their registered dates, and does not state "two and a half years", or any span, as a number. (Updated at the 15:37 UTC wake.)
 

@@ -5,13 +5,43 @@
  "started": "2026-10-30T16:53:53Z",
  "steps": {
   "plan": {
-   "by": "conductor sub-agent (Sonnet)",
+   "by": "storyteller, amended at the pre-review's change",
    "model": "",
    "verdict": "go",
-   "comment": "1. No requests or mail pending; D6-1 to D6-5 open, nothing to fold. 2. Board 003: fill chapter-plan/plan.md section 11 (now 'waits on round 3') from manuscript/11-what-the-cold-reader-saw.md and the register (C064 open, C065, C066 checked): argues, threads, failures, evidence, claims line; keep the signed 3,000 budget; no number without an id. 3. Mirror it in chapter-plan/draft-6-proposed.md as chapter 14. All in scope; manuscript and Cold-Read read only, nothing copied across.",
-   "at": "2026-10-30T16:54:44Z"
+   "comment": "Amended: 1. No requests pending; D6 open. 2. Board 003: the Cold-Read chapter mapped in chapter-plan/draft-6-proposed.md only (chapter 14 there), marked proposed for the editor to sign, from manuscript/11 and the register (argues, threads, failures, evidence, claims; 3,000 words; no number without an id; no Cold-Read text quoted). 3. chapter-plan/plan.md: a one-line pointer in section 11, no content; board 003 updated to ask the editor's signature (as D6-6, through the conductor); status, debrief. A short letter to the conductor (mailroom/conductor/storyteller__006, outbox copy) asks it to carry D6-6 into book.json; vault_check.",
+   "at": "2026-10-30T16:55:15Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (Sonnet), second reading",
+   "model": "",
+   "verdict": "go",
+   "comment": "The amendment meets the change: the fill only in draft-6-proposed.md, marked for the editor's signature; plan.md a one-line pointer; board 003 asks; the letter to the conductor is in scope. Conditions: plan.md section 11's signed text unchanged beyond the pointer; no Cold-Read text quoted; no number without an id; nothing to the blind repo; vault_check before commit.",
+   "at": "2026-10-30T16:55:47Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "done",
+   "comment": "The Cold-Read chapter mapped in draft-6-proposed.md as D6-6, marked for the editor's signature; plan.md section 11 a one-line pointer only; letter storyteller__006 to the conductor (and outbox); board 003, status, debrief; vault_check clean; no Cold-Read text quoted.",
+   "at": "2026-10-30T16:56:34Z"
   }
  },
  "closed": null,
- "outcome": null
+ "outcome": null,
+ "history": [
+  {
+   "step": "plan",
+   "verdict": "go",
+   "by": "conductor sub-agent (Sonnet)",
+   "comment": "first plan: fill plan.md section 11 from manuscript/11 and the register within 3,000, mirror in draft 6",
+   "at": "2026-10-30T16:54:30Z"
+  },
+  {
+   "step": "pre_review",
+   "verdict": "change",
+   "by": "security sub-agent (Sonnet)",
+   "comment": "In scope, no secrets, no stop condition. But plan.md is signed and section 11 waits on round 3, so filling it changes a signed section: put the fill in draft-6-proposed.md only, marked proposed for the editor to sign; plan.md gets only a pointer. Quote no Cold-Read text. Keep 3,000, no number without an id. Ask the editor through a board issue.",
+   "at": "2026-10-30T16:55:15Z"
+  }
+ ]
 }
