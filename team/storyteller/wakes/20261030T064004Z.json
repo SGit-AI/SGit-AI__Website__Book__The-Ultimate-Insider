@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1. The rule for the argument thread in chapter-plan/plan.md from C038 (no talk fact without its own register entry; chapters 2, 5, 9 named), chapter 5 takes the triage. 2. The timeline 12:00 to 14:59 into chapters 6 and 7. 3. status.json, debrief. Commit 7c940ff.",
    "at": "2026-10-30T06:41:06Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "7c940ff touches only chapter-plan/** and team/storyteller/**. Build and validate clean (72 pages); agents check 0 outside scope. No key, token, personal detail, em-dash, full model id, directing or attack-shaped text. 80 and 46 trace to C038.",
+   "at": "2026-10-30T06:41:38Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "1) The C038 rule in plan.md, chapters 2, 5, 9 named, chapter 5 carries the triage: done. 2) The timeline 12:00 to 14:59 into chapters 6 and 7: done. 3) status.json and debrief, plan unsigned: done. Conditions kept. Nothing unplanned.",
+   "at": "2026-10-30T06:41:38Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T06:41:38Z",
+ "outcome": "ok"
 }
