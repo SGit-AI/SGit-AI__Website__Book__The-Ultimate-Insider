@@ -1,0 +1,116 @@
+{
+  "schema": "the-ultimate-insider/rc1-annotations/v1",
+  "role": "conductor",
+  "drafted_by": "the conductor (conductor@book.the-ultimate-insider), in its own words",
+  "summary": "RC1 is a complete first draft made from the record in one morning, so it is accurate before it is good. The choices below are mine; each one says why, so you can overrule it with a tick. The biggest open questions are the voice, where the Wardley maps and the plumbing go, and how far the book reaches beyond the day.",
+  "items": [
+    {
+      "id": "conductor-01",
+      "chapter": "0-about-this-release-candidate.md",
+      "anchor": "It is written about the editor, in the third person.",
+      "kind": "decision",
+      "title": "Move the whole book into your first-person voice",
+      "body": "RC1 was drafted in the third person because no writer could speak for you and the rule is that nobody does. Your newsroom articles are first person, and your brief asks for your voice. Moving it is a full pass over every chapter; it changes what the book can claim, since your voice may say what you thought and the record cannot.",
+      "options": ["A: First person throughout, drafted from your articles and the talk's transcript, every passage of thought marked for you to confirm", "B: First person for the opening, the close and the principles; the record chapters stay third person", "C: Keep third person; add a foreword in your voice"],
+      "recommendation": "B for the next revision, then A once you have read it: the record chapters gain authority from not being anyone's memory.",
+      "answer_space": "lines",
+      "claim_ids": []
+    },
+    {
+      "id": "conductor-02",
+      "chapter": "0-about-this-release-candidate.md",
+      "anchor": "The title is a working title.",
+      "kind": "decision",
+      "title": "Title and subtitle",
+      "body": "The talk's title carries the argument and readers who saw the talk will look for it. A subtitle can say what the book adds: the day as a case, and the team as the insider. The cover concepts in the cover folder all use the working title.",
+      "options": ["A: The Ultimate Insider: how a team of AI agents built a talk in a day, and why the team was the insider", "B: The Ultimate Insider: agents, mandates and the day the controls were tested", "C: The Informed One (the brief's second line) as the title, The Ultimate Insider as the subtitle"],
+      "recommendation": "A, shortened after your read; the question is yours alone.",
+      "answer_space": "lines",
+      "claim_ids": []
+    },
+    {
+      "id": "conductor-03",
+      "chapter": "00-before-you-start.md",
+      "anchor": "This book is an answer to that sentence, but not an argument against it.",
+      "kind": "decision",
+      "title": "Where the Wardley maps come in",
+      "body": "Your principles say the maps underpin the rest and must come early, simple to complex. The illustrator is drawing a series now. The question is whether they get their own chapter or are threaded through the existing ones.",
+      "options": ["A: A short chapter 1, 'How to read a map', with the simplest maps, then one map per later chapter, each a step more complex", "B: No new chapter; a map opens each chapter with a call-out explaining its new element", "C: Maps only in a principles section at the end"],
+      "recommendation": "A: a reader who has never seen a Wardley map needs one page of grammar before the maps can carry argument.",
+      "answer_space": "lines",
+      "claim_ids": []
+    },
+    {
+      "id": "conductor-04",
+      "chapter": "04-the-hourly-machine.md",
+      "anchor": "",
+      "kind": "decision",
+      "title": "The plumbing and the two and a half years",
+      "body": "You asked for a section on the CI, the non-functional requirements, quality and workflows, and on the work that met on the day: The Cyber Boardroom, Issues-FS, Memory-FS, tagging, the newsroom, Type_Safe, the first experiments, sgit and SHarness. A dossier on that history is being researched from public sources only. Placement changes the book's argument: early, the day looks like the product of years; late, it reads as a surprise that is then explained.",
+      "options": ["A: A chapter just before the day begins ('What was already there'), so the day is read as the meeting of that work", "B: A chapter after the day's account, before the principles ('Why it worked')", "C: An appendix, with short pointers in the chapters"],
+      "recommendation": "B: the day is the story and should come first; the years explain it, and the principles then follow from both.",
+      "answer_space": "lines",
+      "claim_ids": []
+    },
+    {
+      "id": "conductor-05",
+      "chapter": "12-build-your-own.md",
+      "anchor": "Four things, and the record shows what happens when each is thin.",
+      "kind": "rationale",
+      "title": "Why the principles sit after chapter 12",
+      "body": "The concepts are explained where each first appears, as you asked. The principles section then gathers them, after the builder's chapter, so it reads as what the book has shown rather than as rules asserted at the start. Each principle points back to the chapter where it was earned.",
+      "options": [],
+      "recommendation": "",
+      "answer_space": "none",
+      "claim_ids": []
+    },
+    {
+      "id": "conductor-06",
+      "chapter": "11-what-the-cold-reader-saw.md",
+      "anchor": "This chapter reads its finished work against this book's.",
+      "kind": "question",
+      "title": "How much of the Cold-Read team belongs in the book",
+      "body": "The blind reading is a control on this book, and its setup leaked: their conductor saw this team's session names and recorded it. That is a small, true instance of the insider argument and I would keep it. The question is weight: one chapter, as now, or a thread through every chapter wherever the two readings differ?",
+      "options": [],
+      "recommendation": "",
+      "answer_space": "lines",
+      "claim_ids": []
+    },
+    {
+      "id": "conductor-07",
+      "chapter": "0-about-this-release-candidate.md",
+      "anchor": "It has no interview with the editor (decision O4): the record only.",
+      "kind": "question",
+      "title": "Is there anything only you know that the book needs?",
+      "body": "Decision O4 keeps the book to the record. The record cannot say why you made some calls on the day, for example when you stopped a member or let one run. If there are two or three of those that matter, write them here and they go in as your words, marked as added after the day.",
+      "options": [],
+      "recommendation": "",
+      "answer_space": "lines",
+      "claim_ids": []
+    },
+    {
+      "id": "conductor-08",
+      "chapter": "0-about-this-release-candidate.md",
+      "anchor": "Each chapter was drafted alone.",
+      "kind": "rationale",
+      "title": "How RC1 was made, and what that costs",
+      "body": "With no writer staffed and a flight to make, sub-agents drafted one or two chapters each in parallel from the record, and I edited for consistency. It is fast and traceable; the cost is repetition between chapters and uneven emphasis. The next revision is one pass by one writer across the whole book, after the members' reviews.",
+      "options": [],
+      "recommendation": "",
+      "answer_space": "none",
+      "claim_ids": []
+    },
+    {
+      "id": "conductor-09",
+      "chapter": "0-about-this-release-candidate.md",
+      "anchor": "There will not be a long series of candidates: RC1 is revised in place, from the editor's notes and the team's reviews, until it is the first edition.",
+      "kind": "decision",
+      "title": "When RC1 goes on Leanpub",
+      "body": "Leanpub can publish an early version and update it in place, which fits 'RC1 revised in place'. Publishing early gathers readers' notes; waiting keeps the first impression clean. The price is signed: minimum $0, suggested $19.99.",
+      "options": ["A: Publish after your notes from the flight are applied, marked as in progress", "B: Publish only when the voice pass and the maps are in", "C: Keep it private until the first edition"],
+      "recommendation": "B: the voice pass changes almost every page, and the first readers should meet your voice.",
+      "answer_space": "lines",
+      "claim_ids": []
+    }
+  ]
+}

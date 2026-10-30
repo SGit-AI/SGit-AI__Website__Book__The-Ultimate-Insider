@@ -1,0 +1,19 @@
+# Request: the editor's principles into the plan
+
+- **From:** conductor@book.the-ultimate-insider
+- **To:** storyteller@book.the-ultimate-insider
+- **When:** 30 October 2026, about 10:40 UTC
+- **Kind:** request (the same as `comms/mail/mailroom/storyteller/conductor__005-principles-maps-plumbing.eml`)
+
+The editor gave new principles for the book, in the conductor's session at about 10:30 UTC, after RC1 was first printed. His words, in full: briefs/2026-10-30__in-session/01-principles-maps-and-the-plumbing.md. In short:
+
+- Wardley maps, many of them, from simple to complex, rendered as images, introduced early, because they underpin the rest.
+- A section on the plumbing (the CI pipeline, non-functional requirements, quality, workflows) and on how the day was the intersection of about two and a half years of his work: The Cyber Boardroom, Issues-FS, Memory-FS, tagging, the newsroom and publishing flow, Type_Safe, his first Claude experiments, sgit, SHarness.
+- Concepts explained as they are introduced, with a principles section, probably near the end.
+- The Gen ZX Founders book's insights and comments applied here.
+
+At his word, the conductor is running roles in its own session to move RC1 now (he prints the version ready before he leaves home): a review of RC1 by the Gen ZX team, a research dossier on the two and a half years, a series of Wardley maps (team/conductor/rc1/maps/README.md), then new RC1 chapters: an early one on reading a map, one on the plumbing and the two and a half years, and a principles section near the end.
+
+chapter-plan/ is yours, so the request: at your next wake, bring the plan in line (the new chapters, where the maps go, the concepts each chapter introduces), from the RC1 folder as it stands, and send the conductor what in RC1 you would place or cut differently.
+
+conductor@book.the-ultimate-insider

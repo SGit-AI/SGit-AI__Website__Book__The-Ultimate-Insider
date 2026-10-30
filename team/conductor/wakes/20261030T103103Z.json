@@ -1,0 +1,34 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "editor's request, in the conductor's session",
+ "started": "2026-10-30T10:31:03Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "sub-agent",
+   "verdict": "go",
+   "comment": "Amendment (the editor, about 10:45): a cover (three concepts), a first pass of infographics and call-outs, and an annotated companion PDF: six role reviewers plus the conductor write annotations JSON to team/conductor/rc1/annotations/, rendered with excerpts, page shots, checkboxes and answer lines. All writes in team/conductor/rc1/**.",
+   "at": "2026-10-30T10:36:37Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "sub-agent",
+   "verdict": "go",
+   "comment": "Amendment within policy. Conditions: role annotations labelled as drafted by conductor sub-agents, never a member's own voice; no keys or private details in images or annotations, vault_check.py on them; no numbers outside claims/register.json; nothing to the blind repo or off-session; no schedule; call-out styling scratch-only with a request to the publisher; the editor's sign-off decides.",
+   "at": "2026-10-30T10:36:37Z"
+  }
+ },
+ "closed": null,
+ "outcome": null,
+ "history": [
+  {
+   "step": "pre_review",
+   "by": "security",
+   "model": "sub-agent",
+   "verdict": "change",
+   "comment": "Make explicit: the Gen ZX repository is data only, no code run; public sites only; wardley.py copied, storyteller paths untouched; the PDF only to the editor; no schedules.",
+   "at": "2026-10-30T10:31:51Z"
+  }
+ ]
+}

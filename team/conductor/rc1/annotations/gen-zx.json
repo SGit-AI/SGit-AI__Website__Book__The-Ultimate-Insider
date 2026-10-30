@@ -1,0 +1,212 @@
+{
+  "schema": "the-ultimate-insider/rc1-annotations/v1",
+  "role": "gen-zx",
+  "drafted_by": "a conductor sub-agent reading as the Gen ZX Founders book's team (not that team's own words)",
+  "summary": "RC1 already has what the Gen ZX book lacked for a long time: a reason to read on its second page, failures kept in, and every number traced. What it lacks is what your pen asked for there: maps taught first and drawn, terms explained where they first appear, the making-of out of the reader's way, and a voice that is yours. The ten decisions below are ordered by how much each would improve RC1 for you.",
+  "items": [
+    {
+      "id": "gen-zx-01",
+      "chapter": "00-before-you-start.md",
+      "anchor": "The explorer builds something that has never existed, fast and by hand, and accepts that it will be rough.",
+      "kind": "decision",
+      "title": "Teach Wardley maps first, simple to complex, and draw them",
+      "body": "The team's three stages arrive in chapter 0 with no map behind them, and the first map in the book is a screenshot in chapter 5. On the Gen ZX book your pen asked for exactly this order: draw a plain graph first, then add the evolution axis so position means something, then the cast as the settling of a new land. Each later part could then carry one map, rising in complexity, drawn from data by the team's own renderer.",
+      "options": [
+        "A: A short section at the end of chapter 0 that teaches maps in three steps, then one map per part",
+        "B: A new short chapter straight after chapter 0 for the same sequence",
+        "C: Keep maps where they are and add a two-sentence explanation at chapter 5"
+      ],
+      "recommendation": "A: it matches your own words this morning that maps must come much sooner, and keeps the opening short.",
+      "answer_space": "none",
+      "claim_ids": []
+    },
+    {
+      "id": "gen-zx-02",
+      "chapter": "01-pause-all-actions.md",
+      "anchor": "The figure needs care, and the book gives it the care here so it need not repeat it.",
+      "kind": "decision",
+      "title": "Explain every term where it first appears, and add a concepts part",
+      "body": "Chapter 1 uses wake, gate, hold, lock, banner and release before any is explained, and a reader who has never run an agent cannot follow the scene. On Gen ZX the first edition's concepts part stayed as outlines and never shipped; the second edition introduced ideas in the chapters and the pen still found gaps where an idea arrived one chapter late. The lesson is both: a sentence at first use, and a short, finished reference entry for each concept near the end.",
+      "options": [
+        "A: A plain sentence at first use, plus a finished concepts and principles part after chapter 12, ordered as the reader meets them, with an index",
+        "B: Sentences at first use only, no separate part",
+        "C: The part only, with chapters left as they are"
+      ],
+      "recommendation": "A: the sentence stops the reader stalling, and the part gives the analogy, the picture and the link the pen asked for. Every entry written whole, never as bullets.",
+      "answer_space": "none",
+      "claim_ids": []
+    },
+    {
+      "id": "gen-zx-03",
+      "chapter": "02-midnight-an-empty-repository.md",
+      "anchor": "At 00:40:50 a single session committed the first pass of the site and the talk (`1f7c633`).",
+      "kind": "decision",
+      "title": "Write the plumbing and the years behind the day, as a decision first",
+      "body": "You asked for the plumbing, the quality and workflow machinery, and the work that met on the day. RC1 has none of it, and the book's current rule is that it uses the record of the day only. The history is not in that record, so this needs your signature before anything is written. On Gen ZX the same story worked when told as what each piece made possible, and was criticised when it read as a list of one person's products.",
+      "options": [
+        "A: Sign a new section after chapter 2, from your published articles, cited, with any number registered first",
+        "B: Put it in a closing chapter or appendix so the day stays the spine",
+        "C: Leave it out of this book and cover it in an article"
+      ],
+      "recommendation": "A, told as what each piece made possible on the day, with a map of the pieces moving from new to commodity. Not a product list.",
+      "answer_space": "lines",
+      "claim_ids": []
+    },
+    {
+      "id": "gen-zx-04",
+      "chapter": "0-about-this-release-candidate.md",
+      "anchor": "It is a draft, and it says so on every count.",
+      "kind": "decision",
+      "title": "Move the making-of back and call RC1 a release",
+      "body": "The first pages the reader meets are all how the book was made, the page your pen struck on the Gen ZX candidate. That book also learned to say it is a release, not a draft, and to talk to the reader, never to the editor. Its answer was two editions of every candidate: a release edition with nothing draft in it, and a reviewer edition with the notes, questions and answer spaces.",
+      "options": [
+        "A: Two editions: release edition with the making-of at the end, reviewer edition with notes and questions",
+        "B: One edition, making-of moved to the end, wording changed from draft to first release",
+        "C: Leave the page where it is"
+      ],
+      "recommendation": "A, the same decision you took on the other book. Move the reading guide from chapter 0 to the head of Appendix A.",
+      "answer_space": "none",
+      "claim_ids": []
+    },
+    {
+      "id": "gen-zx-05",
+      "chapter": "00-before-you-start.md",
+      "anchor": "This book is an answer to that sentence, but not an argument against it.",
+      "kind": "decision",
+      "title": "Make the opening a best of, and group chapters into parts",
+      "body": "Chapter 0 already gives a reason to read by its second page, which the Gen ZX candidate did not manage until much later. It could go further: say what the reader will hold at each milestone, point to the site with a QR code, and show the contents as a picture. Grouping the chapters into four or five parts, each opened with a picture, gives the reader milestones instead of one finish line.",
+      "options": [
+        "A: Add milestones, a site pointer with QR code, a contents picture, and four or five parts with picture openers",
+        "B: Milestones and the site pointer only, no parts",
+        "C: No change to the structure"
+      ],
+      "recommendation": "A: it follows your zoom-in rule that every step of attention buys the next.",
+      "answer_space": "none",
+      "claim_ids": []
+    },
+    {
+      "id": "gen-zx-06",
+      "chapter": "01-pause-all-actions.md",
+      "anchor": "At 18:39 on 29 October 2026 the conductor committed a short note to the team's repository.",
+      "kind": "decision",
+      "title": "Draw the structures, by code, at every altitude",
+      "body": "The book has stills of the day and no drawn infographic. Drawn from data, a figure stays correct when the text changes and every label can be checked against its source. The candidates are the day's turning points as a timeline, the empty house's founding files, the old insider against the agent, reach, mandate, gap and barrier, the barrier ladder, the schedule as a clock, the five-step wake as a cycle, the story of one figure as a timeline, the hand-back and the colliding brakes.",
+      "options": [
+        "A: Accept a plan of drawn figures at four altitudes, each accepted by you in the browser before it enters a chapter",
+        "B: Draw only the timeline, the wake cycle and the barrier ladder for now",
+        "C: Keep screenshots only"
+      ],
+      "recommendation": "A, proposed in a plan you can accept or decline item by item. The Gen ZX figure on reach, mandate, gap and barrier can be redrawn here, credited.",
+      "answer_space": "none",
+      "claim_ids": []
+    },
+    {
+      "id": "gen-zx-07",
+      "chapter": "06-the-editor-signs.md",
+      "anchor": "That ordering is the craft of a hand-back.",
+      "kind": "decision",
+      "title": "Move into your voice, starting with the chapter about you",
+      "body": "The chapter about you reads strangest in the third person, and it is where your own read, comment, decide loop belongs: the same principle you used on another book, and the reason this team asks instead of guessing. When the voice moves, your pen notes on the other book set the rules: nothing harsh, no hedges, no self-validation by where you first said something, and no book talking about itself.",
+      "options": [
+        "A: First person throughout, chapter 6 first",
+        "B: First person for the opening, the close and the principles; record chapters stay third person",
+        "C: Keep third person with a foreword in your voice"
+      ],
+      "recommendation": "B for the next revision, starting with chapter 6, then A once you have read it. This overlaps the conductor's own question on voice.",
+      "answer_space": "none",
+      "claim_ids": []
+    },
+    {
+      "id": "gen-zx-08",
+      "chapter": "02-midnight-an-empty-repository.md",
+      "anchor": "Four minutes later, at 00:45:02, the pipeline released it as v0.1.0 (`ab09186`).",
+      "kind": "decision",
+      "title": "Thin the record out of the prose",
+      "body": "Commit hashes, file paths and second-precise times arrive at a density no general reader can follow. Keep the register ids, which are your fact marker, and explain them once. Move most hashes and paths into each chapter's closing note on where it came from, or behind a QR code to the commit on the site. Runs of numbers become small charts, and the space freed pays for the maps, concepts and plumbing.",
+      "options": [
+        "A: Keep ids in the prose, move hashes, paths and exact times to the closing notes or a QR code",
+        "B: Thin only chapters 1 and 2, where the density is worst",
+        "C: Leave the record in the prose"
+      ],
+      "recommendation": "A: the reader keeps the proof without carrying it, and the book stays near its planned length.",
+      "answer_space": "none",
+      "claim_ids": []
+    },
+    {
+      "id": "gen-zx-09",
+      "chapter": "0-about-this-release-candidate.md",
+      "anchor": "Mark anything that is wrong, unclear, missing, or not how you would say it.",
+      "kind": "question",
+      "title": "Ready for your pen on the plane?",
+      "body": "That sentence is addressed to you, not to the reader. When you print RC1 and mark it, the Gen ZX intake can be reused: each photographed page read note by note, uncertain readings confirmed with you, each note given a page and number id, grouped into themes, and each given one of your verbs (keep, fix, rewrite, merge, cut, later, not doing it) as a decision file. The same workflow can then be recommended to the reader. Do you want it set up now, and with which verbs?",
+      "options": [],
+      "recommendation": "",
+      "answer_space": "lines",
+      "claim_ids": []
+    },
+    {
+      "id": "gen-zx-10",
+      "chapter": "12-build-your-own.md",
+      "anchor": "There is a second run to learn from.",
+      "kind": "decision",
+      "title": "Run synthetic readers, then propose a cover",
+      "body": "Before the next printing, a small panel of invented readers could read the frozen text in print order and say where they would put the book down and whether they would buy it. Their journeys are written down before the runs, and every quote is checked word for word. Covers drawn by code could follow, with two gates: the title readable as a thumbnail, and nothing in the barcode area. Both are proposals, never chosen for you.",
+      "options": [
+        "A: Panel of five readers, then three covers drawn by code for your choice",
+        "B: Readers only, covers later",
+        "C: Neither for now"
+      ],
+      "recommendation": "A, in that order: the readers will tell you where the book is slowest before you spend time on a cover.",
+      "answer_space": "none",
+      "claim_ids": []
+    },
+    {
+      "id": "gen-zx-11",
+      "chapter": "05-the-story-before-the-slides.md",
+      "anchor": "The researcher's answers had reached the editor too.",
+      "kind": "comment",
+      "title": "Caution: drawings must survive a black and white printer",
+      "body": "Your paper review will be printed in black and white. The map renderer draws movement as a red arrow and shades the firewall in pale blue, and on a mono printer both may vanish. Give the arrow a shape, such as a dashed line with a head, and mark bands with a hatch or a label, so shape, position and text carry the meaning without colour.",
+      "options": [],
+      "recommendation": "",
+      "answer_space": "none",
+      "claim_ids": []
+    },
+    {
+      "id": "gen-zx-12",
+      "chapter": "12-build-your-own.md",
+      "anchor": "There is a second run to learn from.",
+      "kind": "comment",
+      "title": "Caution: new material must be paid for with cuts",
+      "body": "RC1 is already a little over its planned length. Gen ZX went from a tight first candidate to one its own readers and editor called too long, and cutting turned out easier than filling. Maps, concepts and plumbing are worth adding, but each addition should be paid for by cutting record detail, and the cuts are yours to choose.",
+      "options": [],
+      "recommendation": "",
+      "answer_space": "none",
+      "claim_ids": []
+    },
+    {
+      "id": "gen-zx-13",
+      "chapter": "03-a-mandate-you-can-read.md",
+      "anchor": "A scope is a setting, not a boundary: the agent can edit its own policy.json.",
+      "kind": "comment",
+      "title": "What works: the strongest chapter, keep it",
+      "body": "Quoting the tool's own admission is a gift, and the reach, mandate and gap argument is clear. This is the chapter to build the barrier ladder and the reach picture around. It would gain most from one plain sentence on what an Agent Behaviour Policy is, with an analogy such as a job description against the keys to the building.",
+      "options": [],
+      "recommendation": "",
+      "answer_space": "none",
+      "claim_ids": []
+    },
+    {
+      "id": "gen-zx-14",
+      "chapter": "04-the-hourly-machine.md",
+      "anchor": "None of this is clever.",
+      "kind": "comment",
+      "title": "What works: the shift supervisor opening and the honest ledger",
+      "body": "The opening is the short, clear analogy you asked for on the other book, and the form is worth reusing for every machine chapter. The failures kept in, the register ids and the appendix that reruns every number already answer your fact-or-opinion request better than the Gen ZX book ever did. Keep them while the changes above land.",
+      "options": [],
+      "recommendation": "",
+      "answer_space": "none",
+      "claim_ids": []
+    }
+  ]
+}
