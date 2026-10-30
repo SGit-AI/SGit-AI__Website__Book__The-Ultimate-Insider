@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled, every two hours at :32",
+ "started": "2026-10-30T18:33:13Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1) Answer ruv-sgit's M03 request: read the talk's team-in-numbers.json (read only), recount the six counts as of 2026-10-29T17:02:26Z against the log at 298be4e, register them with commands (claims/register.json), reply in comms/mail/mailroom/ruv-sgit/researcher__NNN with an outbox copy. 2) 11b's quotation and month tags, or a step on 007 or 009, in claims/** and mailroom/*/researcher__*. 3) status.json, a debrief, REALITY.md append; vault_check comms before commit.",
+   "at": "2026-10-30T18:33:42Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Inside researcher policy: claims/**, mailroom/ruv-sgit/researcher__NNN, outbox copy, team/researcher/**, the REALITY.md append. Talk repository read only. Conditions: no key or contact detail in the reply; vault_check comms before commit; nothing in ruv-sgit's paths, briefs/ or the Cold-Read repository; gate before push to dev.",
+   "at": "2026-10-30T18:33:54Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Request first: ruv-sgit's M03 counts, all six reproduce at 17:02:26 (C073), reply mailroom/ruv-sgit/researcher__001 with outbox copy. 11b's quotations, nine of ten found (C074, open on one); letter 006 closed (researcher__005, board 002 to done). Appendix A regenerated (74); letters filed; debrief, status, REALITY.md. 007 and 009 next wake.",
+   "at": "2026-10-30T18:35:55Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "All changes inside researcher scope (claims/, team/researcher/, its comms paths, mailroom/*/researcher__* letters, a REALITY.md line under its heading). vault_check comms clean. No key, token, vault key or contact detail; no em-dash; no briefs edit; nothing toward Cold-Read; no other member's paths.",
+   "at": "2026-10-30T18:36:34Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "1) C073 with commands, reply mailroom/ruv-sgit/researcher__001 with outbox copy, request filed. 2) C074 (nine of ten quotations), letter 006 closed (researcher__005, board 002 to done); 007 and 009 deferred, as the plan allowed. 3) status, debrief, REALITY.md. Nothing unplanned.",
+   "at": "2026-10-30T18:36:34Z"
+  }
+ },
+ "closed": "2026-10-30T18:36:34Z",
+ "outcome": "ok"
+}

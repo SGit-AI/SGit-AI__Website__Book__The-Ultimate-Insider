@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-10-30T16:45:00Z",
+ "as_of": "2026-10-30T18:50:00Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -1723,6 +1723,65 @@
    "method": "each policy.json's status read",
    "command": "for f in $(git ls-tree -r --name-only 298be4e team | grep '/policy.json$'); do echo $f $(git show 298be4e:$f | python3 -c 'import json,sys;print(json.load(sys.stdin).get(\"status\"))'); done",
    "note": "Eight of ten policies agreed; studio's still in draft, security's proposed and never staffed. Registered at the conductor's letter 006 part 4, 30 October 2026, the researcher's 16:32 wake."
+  },
+  {
+   "id": "C073",
+   "claim": "The talk's M03, 'Meet the team': its six counts as of 17:02:26",
+   "cited_in": [
+    "comms/mail/mailroom/researcher/ruv-sgit__001-m03-counts.eml",
+    "src/static/motion/lab/meet-the-team/v1/team-in-numbers.json (the talk's repository, f45028c)"
+   ],
+   "value": {
+    "as_of": "2026-10-29T17:02:26Z",
+    "hours_since_first_commit": "16.8 (00:16:23 to 17:02:26 is 16 h 46 min)",
+    "commits": "510, non-merge, CI's release commits included (C042)",
+    "releases": "164 (v0.1.0 to v0.1.163)",
+    "wakes": "127: 126 records committed by 8fab35f (17:00:41), 119 ok, 4 partial, 3 idle, plus one open while the counter ran",
+    "commits_overnight": "182: the file's 22:00 to 06:00 window, which on the day is 00:16 to 05:59, since the repository began at 00:16",
+    "holds": "0: no HOLD.md at 17:02, and none had been written yet (the one hold is 18:44:13, C024)",
+    "members": "nine, with the slots of C071"
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "f45028c and 298be4e",
+    "evidence": "team-in-numbers.json at f45028c (17:31:49); the log and team/*/wakes/ at 8fab35f, the last commit before 17:02:26"
+   },
+   "method": "each count rerun against the log and the wake records at the last commit before 17:02:26",
+   "command": "git show f45028c:src/static/motion/lab/meet-the-team/v1/team-in-numbers.json | head -45; git rev-list --count --no-merges --until=2026-10-29T17:02:26Z 298be4e; git rev-list --count --author='GitHub Actions' --until=2026-10-29T17:02:26Z 298be4e; git rev-list --count --no-merges --until=2026-10-29T05:59:59Z 298be4e; C=$(git rev-list -1 --until=2026-10-29T17:02:26Z 298be4e); for f in $(git ls-tree -r --name-only $C team | grep -E '/wakes/[^/]+\\.json$'); do git show $C:$f | python3 -c 'import json,sys;print(json.load(sys.stdin).get(\"outcome\") or \"open\")'; done | sort | uniq -c",
+   "note": "All six reproduce. Print them as the talk's counts at 17:02, never as the day's: counting merges, the repository held 625 commits by 17:02 (C042), and by 18:44 the day had its one hold (C024). 'Not one hold' was true at 17:02 and false by 18:44 (chapter 11, the critic's first finding). The 510 counts CI's 164 release commits twice, once as commits and once as releases. Registered at ruv-sgit's request, 30 October 2026, the researcher's 18:32 wake."
+  },
+  {
+   "id": "C074",
+   "claim": "Chapter 11b's quotations of the editor's own sites, found at their sources",
+   "cited_in": [
+    "team/conductor/rc1/11b-what-was-already-there.md",
+    "team/conductor/rc1/research/the-two-and-a-half-years.md"
+   ],
+   "value": {
+    "found": {
+     "'the whole version control, reliability, resilience, ...' (11b:13)": "https://nfrs.sgit.ai/llms.txt",
+     "'provenance is the product' (11b:57)": "https://newsroom.sgit.ai/llms.txt",
+     "'what a session knows is what it reads' (11b:49)": "https://newsroom.sgit.ai/articles/how-i-work-with-claude.md; https://sgit.ai/llms.txt",
+     "'comes from about a year of doing this every day' (11b:144)": "the same two",
+     "'is what I eventually built as sgit' (11b:128)": "https://newsroom.sgit.ai/articles/not-a-straight-line.md",
+     "'the foundations the newsroom now stands on' (11b:136)": "the same",
+     "'the industry was silent' (11b:136)": "the same",
+     "'from then on the briefs turn towards risk acceptance and RiskMandate' (11b:156)": "https://newsroom.sgit.ai/articles/from-send-to-sgit.md",
+     "'nearly all of my spare time' (11b:126)": "the LinkedIn announcement of C048"
+    },
+    "not_found": {
+     "'has each caught a real defect' (11b:41)": "the dossier cites sgit.ai's 'Every sgit repository' guidance (6 October 2026), section 4; not located in the pages fetched"
+    }
+   },
+   "state": "open",
+   "source": {
+    "read": "2026-10-30, about 18:35 UTC",
+    "evidence": "each page fetched and the quotation matched case-insensitively"
+   },
+   "method": "each page fetched and grepped for the quoted words",
+   "command": "curl -s <page> | grep -ic '<quoted words>'",
+   "note": "Nine of ten found word for word; open until the tenth is found at its page. These are his own words on his own sites, his account, not independent sources: quote them as his. The other 11b tags that are months or descriptions rather than numbers (the recipe of early October, the five-step wake and holds, the August 2026 vault keys incident, Wardley maps, tagging, 'the day') are not numbers and are left to the chapter's own citation. Registered at the conductor's letter 006, the researcher's 18:32 wake."
   }
  ]
 }

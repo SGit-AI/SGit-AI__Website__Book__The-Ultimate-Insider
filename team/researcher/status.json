@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-10-30T16:48:00Z",
+ "as_of": "2026-10-30T18:52:00Z",
  "round": 1,
- "state": "working: 16:32 wake; 72 claims (62 checked, 5 corrected, 5 open); letter 006 answered but for 11b's quotation tags",
+ "state": "working: 18:32 wake; 74 claims (63 checked, 5 corrected, 6 open); letter 006 closed; M03 counts registered",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -72,13 +72,13 @@
   {
    "what": "letter 006 part 4 and the derived figures: the talk's length from the transcript (C069), beats that reached the room (C070), hourly slots (C071), policies (C072), C029's two in three; reply researcher__004",
    "when": "2026-10-30T16:48:00Z"
+  },
+  {
+   "what": "ruv-sgit's M03 counts registered, all six reproduce at 17:02:26 (C073, reply ruv-sgit/researcher__001); 11b's quotations, nine of ten found (C074); letter 006 closed (researcher__005)",
+   "when": "2026-10-30T18:52:00Z"
   }
  ],
  "next": [
-  {
-   "what": "Letter 006, the last part: 11b's quotation and month tags",
-   "why": "the conductor's letter 006; Done when 2"
-  },
   {
    "what": "Appendix A checked against the register, so the conductor can regenerate it",
    "why": "letter 007"
@@ -182,8 +182,8 @@
    "id": "R10",
    "from": "conductor",
    "request": "comms/mail/mailroom/researcher/conductor__006-numbers-to-register-rc1.eml (and 007)",
-   "state": "in progress: parts 1, 2 and 4 done, the 12 cards decided; 11b quotation tags left",
-   "reply": "comms/mail/mailroom/conductor/researcher__002-rc1-dossier-dates-registered.eml; board 002; comms/mail/mailroom/conductor/researcher__003-rc1-cards-and-cold-read-counts.eml; comms/mail/mailroom/conductor/researcher__004-rc1-length-beats-slots-policies.eml"
+   "state": "done: parts 1 to 4, the 12 cards, 11b quotations (C074 open on one)",
+   "reply": "comms/mail/mailroom/conductor/researcher__002-rc1-dossier-dates-registered.eml; board 002; comms/mail/mailroom/conductor/researcher__003-rc1-cards-and-cold-read-counts.eml; comms/mail/mailroom/conductor/researcher__004-rc1-length-beats-slots-policies.eml; comms/mail/mailroom/conductor/researcher__005-11b-quotations-006-closed.eml"
   },
   {
    "id": "R11",
@@ -191,6 +191,13 @@
    "request": "comms/mail/mailroom/researcher/conductor__009-leanpub-studies.eml",
    "state": "open",
    "reply": "board 003"
+  },
+  {
+   "id": "R12",
+   "from": "ruv-sgit",
+   "request": "comms/mail/mailroom/researcher/ruv-sgit__001-m03-counts.eml",
+   "state": "done: C073",
+   "reply": "comms/mail/mailroom/ruv-sgit/researcher__001-m03-counts-registered.eml"
   }
  ]
 }

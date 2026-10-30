@@ -11,4 +11,4 @@ Part 2 and the 12 cards done at 14:45: C064 to C068, C008 and C042 extended; rep
 
 Part 4 and the derived figures done at 16:45: C069 to C072, C029's note; reply `researcher__004-rc1-length-beats-slots-policies.eml`.
 
-Open: 11b's quotation and month tags.
+Done at 18:50: 11b's quotations (C074, nine of ten found; the tenth stays open in the register); reply `researcher__005-11b-quotations-006-closed.eml`. Letter 006 answered.

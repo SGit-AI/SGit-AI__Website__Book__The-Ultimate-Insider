@@ -580,6 +580,22 @@ State: checked.
 for f in $(git ls-tree -r --name-only 298be4e team | grep '/policy.json$'); do echo $f $(git show 298be4e:$f | python3 -c 'import json,sys;print(json.load(sys.stdin).get("status"))'); done
 ```
 
+## C073: The talk's M03, 'Meet the team': its six counts as of 17:02:26
+
+State: checked.
+
+```
+git show f45028c:src/static/motion/lab/meet-the-team/v1/team-in-numbers.json | head -45; git rev-list --count --no-merges --until=2026-10-29T17:02:26Z 298be4e; git rev-list --count --author='GitHub Actions' --until=2026-10-29T17:02:26Z 298be4e; git rev-list --count --no-merges --until=2026-10-29T05:59:59Z 298be4e; C=$(git rev-list -1 --until=2026-10-29T17:02:26Z 298be4e); for f in $(git ls-tree -r --name-only $C team | grep -E '/wakes/[^/]+\.json$'); do git show $C:$f | python3 -c 'import json,sys;print(json.load(sys.stdin).get("outcome") or "open")'; done | sort | uniq -c
+```
+
+## C074: Chapter 11b's quotations of the editor's own sites, found at their sources
+
+State: open.
+
+```
+curl -s <page> | grep -ic '<quoted words>'
+```
+
 ## Where this came from
 
-`claims/register.json`, the `command` of each entry, run against `298be4e` (a full clone: `git rev-list --count 298be4e` gives 816) and `d39e717`; spot-checked on 30 October 05:45, 06:45, 07:45, 08:45, 09:40 and 10:50 (C011, C014, C021, C041, C042), each giving the registered value. C031's 2026 figure is read from a web page, fetched 30 October 2026. C043 to C062 were checked at source on 30 October about 13:20 UTC by the researcher's second session (public clones of OSBot-Utils, Memory-FS, Issues-FS, SGit-AI__CLI and myfeeds_ai; PyPI's JSON; the newsroom's wire; four LinkedIn pages' datePublished). C064 to C068, and the additions to C008 and C042, rerun on 30 October about 14:40 UTC. C069 to C072 rerun on 30 October about 16:45 UTC; C069 and C070 run at a9c0b49, material added after the day.
+`claims/register.json`, the `command` of each entry, run against `298be4e` (a full clone: `git rev-list --count 298be4e` gives 816) and `d39e717`; spot-checked on 30 October 05:45, 06:45, 07:45, 08:45, 09:40 and 10:50 (C011, C014, C021, C041, C042), each giving the registered value. C031's 2026 figure is read from a web page, fetched 30 October 2026. C043 to C062 were checked at source on 30 October about 13:20 UTC by the researcher's second session (public clones of OSBot-Utils, Memory-FS, Issues-FS, SGit-AI__CLI and myfeeds_ai; PyPI's JSON; the newsroom's wire; four LinkedIn pages' datePublished). C064 to C068, and the additions to C008 and C042, rerun on 30 October about 14:40 UTC. C069 to C072 rerun on 30 October about 16:45 UTC; C069 and C070 run at a9c0b49, material added after the day. C073 rerun on 30 October about 18:40 UTC. C074 checked on 30 October about 18:35 UTC.
