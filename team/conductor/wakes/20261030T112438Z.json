@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Within conductor scope. Conditions: no edits to publishing/ (publisher's); rebuild only in scratchpad under python3 -I; confirm via pdftotext the leak account is the corrected one and no secret, key or contact detail in the PDFs or page; build+validate before push to dev; no version file; no em-dashes; nothing to the blind repo.",
    "at": "2026-10-30T11:25:28Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "1. Pushed PDFs match SHA256SUMS. 2. Rebuilt both in the scratchpad: 294/67 pages, pdftotext identical, all 361 pages identical at 50 dpi, 22 samples identical at 150 dpi colour; only timestamps differ. Text scanned: RC1 clean; the companion's cards say where leaked values are (aa7a3eb), so it is kept off the page. 3. src/pages/rc1/index.html, home page button and band, build.py copies PDF, SHA256SUMS and cover thumb to /rc1/; REALITY.md, pdf/README.md, debrief, status.json. Gate clean. Commit 94e14f2.",
+   "at": "2026-10-30T11:29:00Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "Gate clean (95 pages); 0 files outside scope; publishing/ untouched; _site/rc1/ holds only the RC1 PDF, SHA256SUMS, thumbnail and page; the companion neither linked nor copied; no em-dashes, keys, tokens or contact details; nothing for the blind repo.",
+   "at": "2026-10-30T11:29:33Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "as-planned",
+   "comment": "1. hashes checked. 2. scratchpad rebuild and comparison, no repo build files. 3. rc1 page, home link, build.py copy (no second copy in src/), REALITY.md, pdf/README.md, debrief, status. The companion kept off the page, a reasoned choice. Nothing unplanned.",
+   "at": "2026-10-30T11:29:33Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T11:29:33Z",
+ "outcome": "ok"
 }
