@@ -1,0 +1,45 @@
+{
+ "kicker": "The conductor brief · 5 · Friday 30 October 2026",
+ "title": "While you fly: the team's afternoon",
+ "when": "16:40 UTC, the conductor's scheduled wake (due 16:02, fired 16:29)",
+ "by": "conductor@book.the-ultimate-insider, key sha256:f2456a147ac54f5f",
+ "headline": "Nine of eleven members worked through the afternoon on their own. The lab printed LAB 02 (the talk's 'building' as one long image); the historian reconstructed the first three exit interviews; the publisher settled that $0 readers get every update; the researcher reached C068 and sorted its twelve cards; security proposed control ids and a rule for the first-person revision. Two members, developer@ and synthetic@, still wait for you to approve their scheduled task.",
+ "stats": [
+  {"n": "2", "label": "members waiting on your approval (developer, synthetic)"},
+  {"n": "C068", "label": "the register (C064 to C068 this afternoon)"},
+  {"n": "3 of 10", "label": "exit interviews, reconstructed (conductor, dev, deck)"},
+  {"n": "LAB 02", "label": "in the lab PDF (5 pages with the cover)"}
+ ],
+ "for_you": [
+  {"id": "now", "ask": "Approve 'Create Trigger' in the developer and synthetic sessions", "detail": "Stuck since 14:14; the reviewer experience cannot start without them.", "options": ["Done"], "recommend": "When you land."},
+  {"id": "pack", "ask": "The decisions pack (brief 3)", "detail": "Eight in book.json and ten more. One line is enough: 'D6 all A, R1 B, R2 B, X2 A'.", "options": ["Answered"]},
+  {"id": "cold-read", "ask": "Will the Cold-Read repository be public when the book ships?", "detail": "Security: chapters 9 and 11 cite it; a reader can check those citations only if it is.", "options": ["Yes, public", "No: cite it differently", "Decide later"]},
+  {"id": "cost", "ask": "The day's cost (the researcher's card 07, C037 open)", "detail": "Only you can give it; the book says nothing about it until you do.", "options": ["Give it", "Leave it out"]}
+ ],
+ "you_asked": [
+  {"at": "15:45", "said": "what is the link to download the latest version of the rc1 PDFs", "done": "Given: /rc1/ for the illustrated RC1 you printed (294 pages), /manuscript/ for the latest text (260 pages, no maps or call-outs yet), and the companion in the repository.", "status": "done"},
+  {"at": "16:25", "said": "I'm about to fly to portugal ... any decisions you need from me?", "done": "Two approvals before take-off; the pack, in order of what each unblocks, for the flight.", "status": "done"}
+ ],
+ "team": [
+  {"id": "librarian", "status": "new", "doing": "the talk-site study, in progress now", "key": ":09"},
+  {"id": "historian", "status": "new", "doing": "exit interviews: conductor, dev, deck reconstructed; nine nameless commits attributed to dev", "key": ":17"},
+  {"id": "security", "status": "new", "doing": "labs 01 and 02 reviewed; CTL-1 to CTL-10 proposed; RC1's voice pass", "key": ":24"},
+  {"id": "researcher", "status": "new", "doing": "C064 to C068: the Cold-Read counts traced; twelve cards adopted, changed or withdrawn", "key": ":32"},
+  {"id": "storyteller", "status": "new", "doing": "the lab's cast given its words; draft 6's caution made precise", "key": ":39"},
+  {"id": "publisher", "status": "new", "doing": "Markua step in the build; Leanpub's answers in LEANPUB.md", "key": ":47"},
+  {"id": "ruv.sgit", "status": "new", "doing": "lab 02: the talk's M01 as one long image", "key": ":54"},
+  {"id": "designer", "status": "new", "doing": "LAB 02 set in the lab PDF; the talk-site debrief waits on the study", "key": ":57"},
+  {"id": "developer", "status": "waiting", "doing": "waiting for your approval of its task", "key": ":12"},
+  {"id": "synthetic", "status": "waiting", "doing": "waiting for your approval of its task", "key": ":42"}
+ ],
+ "sections": [
+  {"title": "What the next RC1 revision will carry", "text": "One revision, not many: your paper notes first, then the members' findings now waiting (the researcher's count corrections and citations, security's chapter 9 trim and five corrections, CTL ids for C ids, the storyteller's draft 6 if you sign it), written in your voice with every open decision written as open. It starts when you have signed D6 and sent your notes."},
+  {"title": "Settled this afternoon", "items": ["$0 readers get every update (Leanpub: 'including free'); the notice email is to be confirmed by a $0 test purchase", "GitHub writing mode needs Leanpub's Standard or Pro plan", "Markua stays at 0.30 (M1); the spec's 0.31.50 is its numbering, not a book setting"]}
+ ],
+ "images": [
+  {"path": "lab/experiments/01-ruv-the-building-three-frames/frames/m01-light-t30.png", "caption": "From the lab: the talk's 'building', told on paper"},
+  {"path": "lab/characters/security.svg", "caption": "The lab's cast: security"}
+ ],
+ "next": ["18:02: the talk-site study and its PDF as they land; the rest of the interviews", "When you land: the two approvals, then the pack"],
+ "sources": ["git log of dev since 14:24", "the six letters in comms/mail/mailroom/conductor/", "the list of sessions"]
+}

@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled, every two hours at :02",
+ "started": "2026-10-30T16:29:07Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "1. Replies to the six letters (designer, historian, publisher, researcher, security 007 and 008) in comms/mail/mailroom/<role>/ with outbox copies; RC1 text changes wait for the one revision that merges the editor's notes. 2. Record that $0 readers get updates (L1's detail; the Leanpub README; REALITY.md). 3. Brief 5 on /updates/, status.json, a debrief.",
+   "at": "2026-10-30T16:30:20Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "In scope. L1 stays decided: only the fact that $0 readers get updates recorded, no change to price or status. vault_check before commit; no keys, contact details or leak locations in letters; no edits in members' folders; RC1 text not pre-empted.",
+   "at": "2026-10-30T16:30:54Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
