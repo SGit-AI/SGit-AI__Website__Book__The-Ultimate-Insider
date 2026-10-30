@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1. Sealed note's design reviewed (reviews/sealed-note-review.md): version 1 under conditions; letter security__001 to developer, outbox copy; board 009. 2. M02: yes with three conditions and a caption; letter security__003 to ruv-sgit, outbox copy; board 010. 3. C2 evidence (the plan sub-agent's failed send_message) in controls/index.json; status, debrief.",
    "at": "2026-10-30T18:27:37Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "89f8d55..HEAD, 15 files, all in scope; build and gate clean (171); agents.py and vault_check clean; no key, token or personal detail; nothing directing an agent; the sealed-note review is defensive (what to require, no method).",
+   "at": "2026-10-30T18:27:58Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "smaller model (sub-agent)",
+   "verdict": "as-planned",
+   "comment": "1 done: sealed-note review, letter security__001, board 009. 2 done: M02 letter security__003, board 010. 3 done: C2 evidence, status, debrief. Conditions kept; the noop send_message logged, not repeated; mail copied to done/ (routine).",
+   "at": "2026-10-30T18:28:11Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T18:28:11Z",
+ "outcome": "ok"
 }
