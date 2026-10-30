@@ -1,8 +1,8 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "publisher",
- "as_of": "2026-10-30T04:05:00Z",
- "round": 4,
+ "as_of": "2026-10-30T05:00:00Z",
+ "round": 5,
  "state": "staffed; the PDF and EPUB build in CI and live on the site; Leanpub and KDP steps written; waits on the editor (the Leanpub book, L1, L2, KDP choices)",
  "done": [
   {
@@ -36,6 +36,14 @@
   {
    "what": "publishing/cover_size.py: full cover and spine sizes for the designer from the PDF's page count",
    "when": "2026-10-30T04:00Z"
+  },
+  {
+   "what": "own finding: the three comms paths added at 03:47 were never signed (C10 names four others); removed from policy.json, put to the editor through team/publisher/requests/conductor__c10-publisher.md",
+   "when": "2026-10-30T04:55Z"
+  },
+  {
+   "what": "KDP's margins table read; the 0.75 inch gutter meets it up to 700 pages; KDP.md and book.css updated",
+   "when": "2026-10-30T04:58Z"
   }
  ],
  "next": [
@@ -44,14 +52,14 @@
    "why": "Leanpub on sale Monday 2 November"
   },
   {
-   "what": "read KDP's margins table and check the gutter; the first chapters through the build as they land",
-   "why": "the paperback proof by 9 November"
+   "what": "the first chapters through the build as they land; re-add the comms paths only if the editor signs them",
+   "why": "the paperback proof by 9 November; C10"
   }
  ],
  "asks": [
   {
    "to": "editor",
-   "what": "create the Leanpub book and add leanpub as a collaborator with the Read role only (publishing/LEANPUB.md, steps 1 to 3); sign L1 (price) and L2 (branch); KDP: no KDP Select, and the ISBN choice (publishing/KDP.md)",
+   "what": "create the Leanpub book and add leanpub as a collaborator with the Read role only (publishing/LEANPUB.md, steps 1 to 3); sign L1 (price) and L2 (branch); KDP: no KDP Select, and the ISBN choice (publishing/KDP.md); and: sign the publisher's three comms/ paths under C10, or leave them out (team/publisher/requests/conductor__c10-publisher.md)",
    "where": "comms/issues/publisher/issues/blocked/002-leanpub-book-and-price.md"
   }
  ],
@@ -63,5 +71,5 @@
   "created": "2026-10-30T01:42:07Z",
   "by": "this session, at the editor's word in this session"
  },
- "requests": "answered: the conductor's comms request (comms/mail/mailroom/conductor/publisher__001-comms-paths-added.eml); the conductor answered mine (CI, L1, L2) in 7fac0e1. None open."
+ "requests": "none received this wake; asked the conductor to put C10 for the publisher to the editor"
 }

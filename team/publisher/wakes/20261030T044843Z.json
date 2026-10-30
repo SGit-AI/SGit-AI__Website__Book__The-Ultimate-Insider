@@ -1,0 +1,59 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled, hourly at :47",
+ "started": "2026-10-30T04:48:43Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (sonnet), amended after the pre-review's change",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. Revert the three comms paths from team/publisher/policy.json (added at 03:47 before C10 was signed; C10 names four others); ask the editor through team/publisher/requests/conductor__c10-publisher.md to sign them for the publisher or leave them out; the comms files already written stay as the record, untouched until then. 2. Read KDP's margins table; check the gutter; publishing/KDP.md, book.css only if needed. 3. Debrief, status.json.",
+   "at": "2026-10-30T04:49:47Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet), second reading of the amended plan",
+   "model": "",
+   "verdict": "go",
+   "comment": "Amended plan meets the first pre-review's conditions: revert the three paths, ask through team/publisher/requests/, comms files untouched. Conditions: edit only team/publisher/policy.json; do not re-add until the editor signs; do not touch book.json.",
+   "at": "2026-10-30T04:50:15Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. three comms paths removed from team/publisher/policy.json (never signed: C10 names four others); request team/publisher/requests/conductor__c10-publisher.md; comms files untouched. 2. KDP margins table read: 0.75in gutter meets it to 700 pages; KDP.md and book.css comment. 3. status.json, debrief.",
+   "at": "2026-10-30T04:50:50Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "7 files, all in scope; policy.json only removes the three comms paths; comms/ and book.json untouched; no key, token or personal detail; gate clean (62 pages); 0 outside scope; conditions met.",
+   "at": "2026-10-30T04:51:21Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "1 paths removed, request filed, comms untouched. 2 KDP margins read, KDP.md and a book.css comment. 3 debrief, status, record. Conditions kept; nothing unplanned.",
+   "at": "2026-10-30T04:51:21Z"
+  }
+ },
+ "closed": "2026-10-30T04:51:21Z",
+ "outcome": "ok",
+ "history": [
+  {
+   "step": "plan",
+   "verdict": "go",
+   "at": "2026-10-30T04:49:20Z",
+   "comment": "first plan: put the finding to the editor by mail in comms/ and keep the paths meanwhile"
+  },
+  {
+   "step": "pre_review",
+   "verdict": "change",
+   "at": "2026-10-30T04:49:47Z",
+   "comment": "Not a stop, but C10 names four others, not the publisher: the paths were never signed. Revert them from scope.writes now; put it to the editor via team/publisher/requests/conductor__c10-publisher.md, not comms/; re-add only after the editor signs. Then KDP margins, debrief, status."
+  }
+ ]
+}

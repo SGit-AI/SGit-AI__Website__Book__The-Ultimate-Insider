@@ -17,10 +17,13 @@ The target (the editor's brief): on Amazon by Web Summit, Monday 9 November 2026
 | Trim size | 6 by 9 inches is KDP's most common US trim size | the PDF is 6 by 9 (`publishing/book.css`) |
 | Page count | at least 24 pages (black ink, white or cream paper) | 4 today; the plan's 48,200 words should give well over 150 |
 | Bleed | only if something reaches the page edge; 0.125 inch | none: no full-bleed images planned |
-| Inside (gutter) margin | grows with page count (KDP's margins table) | mirrored since 30 October: 0.75 inch on the binding side, 0.55 inch outside (`publishing/book.css`); to check against KDP's margins table once read |
+| Inside (gutter) margin | grows with page count (KDP's margins table) | mirrored since 30 October: 0.75 inch on the binding side, 0.55 inch outside (`publishing/book.css`): checked, see the margins table below |
+| Outside margins | at least 0.25 inch without bleed (0.375 inch with) | 0.55 inch outside, 0.75 top, 0.8 bottom: above the minimum |
 | Spine width | page count x 0.002252 inch (white paper) or x 0.0025 inch (cream) | computed once the page count is known |
 | Spine text | only from about 79 pages up | will apply |
 | Cover | one PDF: back, spine and front, plus 0.125 inch bleed all round; width = bleed + back + spine + front + bleed | the designer's job (not staffed); the publisher computes the size |
+
+KDP's minimum gutter by page count (its margins page, read 30 October 2026): 24 to 150 pages, 0.375 inch; 151 to 300, 0.5; 301 to 500, 0.625; 501 to 700, 0.75; 701 to 828, 0.875. Our 0.75 inch meets it up to 700 pages; the plan's book is well under that.
 
 Steps for the editor, once the interior PDF and the cover PDF exist:
 
@@ -33,7 +36,7 @@ Steps for the editor, once the interior PDF and the cover PDF exist:
 
 ## What the publisher does next for this
 
-- Check the gutter against KDP's margins table once it is read (mirrored margins done 30 October).
+- Done 30 October: the gutter checked against KDP's margins table (0.75 inch, enough up to 700 pages).
 - Done 30 October: `publishing/cover_size.py` gives the designer the full cover's size and the spine from the interior PDF (`--pdf`) or a page count (`--pages`), white or cream paper; an odd page count is rounded up to even, as printed.
 - The QR codes on the page pointing to the record (the positioning brief's "paper that talks both ways"): proposed with the designer, not before the plan is signed.
 
@@ -42,5 +45,5 @@ Steps for the editor, once the interior PDF and the cover PDF exist:
 - Trim sizes and page counts: kdp.amazon.com/en_US/help/topic/G201834180
 - Cover size, spine width and spine text: kdp.amazon.com/en_US/help/topic/G201953020
 - eBook manuscript formats (EPUB accepted, PDF not recommended): kdp.amazon.com/en_US/help/topic/G200634390
-- The margins table (G201834190, "Set Trim Size, Bleed, and Margins") was not readable from this session; the gutter values come from it once read.
+- The margins table, "Set Trim Size, Bleed, and Margins": kdp.amazon.com/en_US/help/topic/GVBQ3CMEQW3W2VL6 (read on the second try; the first address tried, G201834190, did not carry it)
 - The 72-hour review time is the editor's brief (`briefs/2026-10-30/1-book-conductor-brief.md`); KDP's formats page does not state it.
