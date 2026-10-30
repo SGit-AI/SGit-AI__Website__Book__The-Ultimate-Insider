@@ -45,12 +45,16 @@
     "key": "sha256:85ffd0907275f5eb",
     "task": "trig_016Shar3cqBT4mwmFwuQHhCD (paused, first account)"
    },
-   "to": null,
-   "at": null,
+   "to": {
+    "session": "session_01Kw9UwEM61pEqMLtCbUHec7",
+    "key": "sha256:30ff97a9b187f7e6",
+    "task": "trig_01SHR9S5d1d24Re9GLPXeAL9"
+   },
+   "at": "2026-10-30T13:02:34Z",
    "why": "the first account was nearly out of usage (the editor, 30 October 2026)",
    "handover": "team/conductor/handovers/historian.md",
    "closed_by": "the conductor, on the outgoing session's behalf (its handover written by the first account's conductor at about 11:45 UTC)",
-   "note": "waiting for the member's new session on the second account; it fills in 'to' by publishing its key, and the conductor records it here"
+   "note": "the new session made its key and took the role; recorded and announced by the conductor"
   },
   {
    "role": "security",
@@ -59,12 +63,16 @@
     "key": "sha256:94919aabb7eddf3d",
     "task": "trig_01VpMoh9UJ4sJgUnKVCQufZG (paused, first account)"
    },
-   "to": null,
-   "at": null,
+   "to": {
+    "session": "session_01Kw9UwFe8iX6rP7bn78h2m9",
+    "key": "sha256:c2c23d2025cd7a33",
+    "task": "trig_01Ej7kyzaD9q9CW7si5Ap3nW"
+   },
+   "at": "2026-10-30T13:02:38Z",
    "why": "the first account was nearly out of usage (the editor, 30 October 2026)",
    "handover": "team/conductor/handovers/security.md",
    "closed_by": "the conductor, on the outgoing session's behalf (its handover written by the first account's conductor at about 11:45 UTC)",
-   "note": "waiting for the member's new session on the second account; it fills in 'to' by publishing its key, and the conductor records it here"
+   "note": "the new session made its key and took the role; recorded and announced by the conductor"
   },
   {
    "role": "researcher",
@@ -73,12 +81,16 @@
     "key": "sha256:4e0287f6640d61f0",
     "task": "trig_0187JjB8uJUHxvgeCoAGXoKj (paused, first account)"
    },
-   "to": null,
-   "at": null,
+   "to": {
+    "session": "session_01Kw9UwBhzn98NK3Ydio5nEP",
+    "key": "sha256:0f94386bc5e70a5e",
+    "task": "trig_0187JjB8uJUHxvgeCoAGXoKj"
+   },
+   "at": "2026-10-30T13:02:45Z",
    "why": "the first account was nearly out of usage (the editor, 30 October 2026)",
    "handover": "team/conductor/handovers/researcher.md",
    "closed_by": "the conductor, on the outgoing session's behalf (its handover written by the first account's conductor at about 11:45 UTC)",
-   "note": "waiting for the member's new session on the second account; it fills in 'to' by publishing its key, and the conductor records it here"
+   "note": "the new session made its key and took the role; recorded and announced by the conductor"
   },
   {
    "role": "storyteller",
@@ -87,12 +99,16 @@
     "key": "sha256:edc67e3cc68b3b07",
     "task": "trig_017wCRMAnPCSZsLndXPkbLcD (paused, first account)"
    },
-   "to": null,
-   "at": null,
+   "to": {
+    "session": "session_01Kw9UwBayMPYc5YNzFqqc7n",
+    "key": "sha256:20ab6976788c6438",
+    "task": "trig_017wCRMAnPCSZsLndXPkbLcD"
+   },
+   "at": "2026-10-30T13:02:46Z",
    "why": "the first account was nearly out of usage (the editor, 30 October 2026)",
    "handover": "team/conductor/handovers/storyteller.md",
    "closed_by": "the conductor, on the outgoing session's behalf (its handover written by the first account's conductor at about 11:45 UTC)",
-   "note": "waiting for the member's new session on the second account; it fills in 'to' by publishing its key, and the conductor records it here"
+   "note": "the new session made its key and took the role; recorded and announced by the conductor"
   },
   {
    "role": "publisher",
@@ -107,6 +123,34 @@
    "handover": "team/conductor/handovers/publisher.md",
    "closed_by": "the conductor, on the outgoing session's behalf (its handover written by the first account's conductor at about 11:45 UTC)",
    "note": "waiting for the member's new session on the second account; it fills in 'to' by publishing its key, and the conductor records it here"
+  },
+  {
+   "role": "designer",
+   "from": null,
+   "to": {
+    "session": "session_01Kw9UwBewU3HcqCUwmQ57Na",
+    "key": "sha256:3ed7d8c321f7d1bd",
+    "task": null
+   },
+   "at": "2026-10-30T13:03:21Z",
+   "why": "a new member, staffed at the editor's word (book.json X1)",
+   "handover": "team/conductor/staffing/designer/",
+   "closed_by": null,
+   "note": "first session; recorded and announced by the conductor"
+  },
+  {
+   "role": "ruv-sgit",
+   "from": null,
+   "to": {
+    "session": "session_01Kw9UwBxsDtMFMqXtsseSvg",
+    "key": "sha256:301885fb2fd5a83e",
+    "task": null
+   },
+   "at": "2026-10-30T13:03:25Z",
+   "why": "a new member, staffed at the editor's word (book.json X1)",
+   "handover": "team/conductor/staffing/ruv-sgit/",
+   "closed_by": null,
+   "note": "first session; recorded and announced by the conductor"
   }
  ]
 }
