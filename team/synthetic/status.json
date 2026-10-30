@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/agent-status/v1",
+ "agent": "synthetic",
+ "as_of": "2026-10-30T14:20:00Z",
+ "round": 0,
+ "state": "staffed; first wake (editor's request): folder, key and task; then the eight personas",
+ "done": [
+  {
+   "what": "ROLE.md and policy.json moved from team/conductor/staffing/synthetic/ into team/synthetic/ (drafts left in place); ROLE.md names start.py and banner.py",
+   "when": "2026-10-30"
+  },
+  {
+   "what": "session key made and published: team/synthetic/key.json, key.png, sessions/session_01Kw9UwB6ZZSnGiK8oPYMV9F/",
+   "when": "2026-10-30"
+  }
+ ],
+ "next": [
+  {
+   "what": "create the scheduled task from team/conductor/schedule.json (runs entry for synthetic)",
+   "why": "the editor's word in the session's first message"
+  },
+  {
+   "what": "the eight personas in review/synthetic/personas.json",
+   "why": "ROLE.md, the personas"
+  }
+ ],
+ "asks": [],
+ "task": null,
+ "issues": [],
+ "board": "comms/issues/synthetic/issues/"
+}
