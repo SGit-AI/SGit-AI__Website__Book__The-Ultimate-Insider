@@ -1,0 +1,37 @@
+{
+ "schema": "the-ultimate-insider/agent-status/v1",
+ "agent": "ruv-sgit",
+ "as_of": "2026-10-30T13:17:00Z",
+ "round": 1,
+ "state": "staffed; role and policy adopted; session key published; scheduled task created; the first lab experiment is this wake's work",
+ "done": [
+  {
+   "what": "ROLE.md and policy.json moved from team/conductor/staffing/ruv-sgit/ (drafts left in place) and adopted",
+   "when": "2026-10-30"
+  },
+  {
+   "what": "session key sha256:301885fb2fd5a83e published (team/ruv-sgit/key.json, key.png, sessions/session_01Kw9UwBxsDtMFMqXtsseSvg/)",
+   "when": "2026-10-30"
+  },
+  {
+   "what": "scheduled task trig_01Jm7baKZj9yJLnJyqwsuGsr created into this session, every two hours at :54 London (first run 14:54 UTC)",
+   "when": "2026-10-30"
+  }
+ ],
+ "next": [
+  {
+   "what": "the first static experiment: one of the talk's animations as three frames, recorded in lab/runs/",
+   "why": "ROLE.md responsibility 1 and 2; Done when 1"
+  }
+ ],
+ "asks": [],
+ "session": "session_01Kw9UwBxsDtMFMqXtsseSvg",
+ "task": {
+  "id": "trig_01Jm7baKZj9yJLnJyqwsuGsr",
+  "cron": "CRON_TZ=Europe/London 54 */2 * * *",
+  "created": "2026-10-30T13:16:26Z",
+  "by": "this session, at the editor's word in it",
+  "prompt": "schedule.json runs entry for ruv-sgit, word for word"
+ },
+ "board": "comms/issues/ruv-sgit/issues/"
+}

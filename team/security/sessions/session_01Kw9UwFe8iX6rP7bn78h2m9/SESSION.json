@@ -7,6 +7,6 @@
  "supersedes": "session_01Kw9UwDYutLfqT71U7kmgVs",
  "fingerprint": "sha256:c2c23d2025cd7a33",
  "account": "the operator's second Claude account (riskmandate.ai), taking over when the first ran out of usage",
- "task": null,
+ "task": "trig_01Ej7kyzaD9q9CW7si5Ap3nW",
  "note": "The second security session: takes over from the first account's session, which stopped when that account was nearly out of usage (the editor, 30 October 2026). New key made with admin/tools/pki-agent.mjs keygen --session and keyqr only (keyfile not run); private halves stay in this session's ~/.sg-send/keys. The first session's key is not reused."
 }

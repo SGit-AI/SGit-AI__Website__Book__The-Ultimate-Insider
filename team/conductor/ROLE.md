@@ -52,7 +52,8 @@ Round 0: both repositories up (done), this team's machinery ported (this wake), 
 2. The five steps of `team/conductor/WAKE.md`: plan and pre-review (sub-agents, briefs in `team/conductor/reviews/`), `python3 admin/tools/wake.py gate conductor`, the work (at most 45 minutes, requests first), post-review and post-check.
 3. `./run-website-locally.sh` before every push; `python3 admin/build/agents.py check --agent conductor`; commit as `@conductor: <what and why>` with the trailer `Agent: conductor@book.the-ultimate-insider`.
 4. `wake.py close conductor --outcome ...`, a debrief in `debriefs/` when something shipped, `status.json` updated.
-5. The end banner, the very last thing in the report, nothing after it: `python3 admin/tools/banner.py end conductor --started <ISO UTC> ...`.
+5. **The editor's brief**, at the editor's word (30 October 2026, about 13:05 UTC: "every time you finish your run, you actually create one of those briefs for me"): a JSON file in `editor-briefs/<stamp>.json` (what he asked and what was done, the team, what waits on him, a few reused images), cut to HTML and PDF by `python3 -I team/conductor/tools/editor_brief.py`, and published on the site at `/updates/`. Nothing private, no key, no leaked value in it.
+6. The end banner, the very last thing in the report, nothing after it: `python3 admin/tools/banner.py end conductor --started <ISO UTC> ...`.
 
 ## Rules, and the mistake behind each
 
