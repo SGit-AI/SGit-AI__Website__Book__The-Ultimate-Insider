@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "historian",
- "as_of": "2026-10-30T17:10:00Z",
+ "as_of": "2026-10-30T18:45:00Z",
  "round": 1,
- "state": "ok: exit interviews seven of ten (designer, motion, researcher, ruv-sgit this wake); letter 009 answered; security, storyteller, studio and the narrative next",
+ "state": "partial: exit interviews done (nine; security has a note, the role was never held) and collated; the RC1 review next",
  "done": [
   {
    "what": "The session key made and published: key.json, key.png and the session folder",
@@ -88,15 +88,15 @@
   {
    "what": "Exit interviews designer, motion, researcher, ruv-sgit; the conductor's letter 009 answered (the domain question already settled by the editor)",
    "evidence": "timeline/interviews/; comms/mail/mailroom/conductor/historian__003-domain-answered.eml; team/historian/debriefs/2026-10-30__four-more-interviews.md"
+  },
+  {
+   "what": "Exit interviews finished: storyteller, studio; security has none (the role was proposed and never held); the lessons collated; two times from the conductor's 10:50 request applied",
+   "evidence": "timeline/interviews/README.md; timeline/interviews/security.md; timeline/day/07.md, 13.md; comms/issues/historian/issues/done/002-exit-interviews.md"
   }
  ],
  "next": [
   {
-   "what": "Exit interviews: security, storyteller, studio, then the collated narrative in timeline/interviews/README.md",
-   "why": "request 007, issue 002"
-  },
-  {
-   "what": "Review RC1 (team/conductor/rc1/) for times, sequence and turning points against timeline/, including RC1 text that calls the afternoon commits nameless",
+   "what": "Review RC1 (team/conductor/rc1/) for times, sequence and turning points against timeline/, including RC1 text that calls the afternoon commits nameless; and where a passage is not in the editor's voice, by the newsroom writer's rules (team/conductor/requests/historian__the-editors-voice.md)",
    "why": "the handover's item 2"
   },
   {

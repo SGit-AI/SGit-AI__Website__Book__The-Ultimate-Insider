@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled, every two hours at :17 London (fired 18:17)",
+ "started": "2026-10-30T18:18:11Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, amended by historian",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "1. Request first: the two times the conductor's request (historian__the-editors-voice.md, 10:50) flagged and the first session did not apply: aa7a3eb at 07:18:05 in timeline/day/07.md, 41d4757 at 13:41:29 in day/13.md; its voice guidance applies to the RC1 review, which stays next. 2. Exit interviews security, storyteller, studio: timeline/interviews/*.md from 298be4e, labelled; issue 002 ticked. 3. The collated narrative in timeline/interviews/README.md if time allows. All inside policy.json.",
+   "at": "2026-10-30T18:19:06Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Inside scope.writes; no stop condition, no main, brief, schedule or key. Conditions: talk repo read only at 298be4e; no keys, tokens or contact details in interviews; vault_check comms; security interview only what was checked and found; no other member's paths.",
+   "at": "2026-10-30T18:19:28Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "Two times applied (07.md, 13.md). storyteller.md, studio.md drafted and checked; security.md: no interview, the role was never held. Narrative collated in the README. Issue 002 done; reply 004 to the conductor; 010 to done; status, debrief.",
+   "at": "2026-10-30T18:22:43Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "13 files inside scope.writes; gate clean, agents check 0 outside, vault_check comms clean; no keys, tokens, contact details, model names or em-dashes; nothing toward Cold-Read or main.",
+   "at": "2026-10-30T18:23:28Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "a smaller model",
+   "verdict": "partial",
+   "comment": "1 done: 07.md and 13.md times. 2 partial: storyteller and studio written; security not interviewed, a no-interview note (role proposed, never held), disclosed. 3 done: narrative collated. Unplanned, routine: reply 004, 010 to done, debrief, status.",
+   "at": "2026-10-30T18:23:28Z"
+  }
+ },
+ "closed": "2026-10-30T18:23:28Z",
+ "outcome": "partial"
+}

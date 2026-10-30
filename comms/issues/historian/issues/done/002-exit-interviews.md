@@ -10,5 +10,7 @@ One interview per member of the talk's team (conductor, dev, deck, designer, mot
 - [x] Method and label: `timeline/interviews/README.md` (wake of 15:06 UTC)
 - [x] conductor, dev, deck (wake of 15:06 UTC)
 - [x] designer, motion, researcher, ruv-sgit (wake of 16:46 UTC)
-- [ ] security, storyteller, studio
-- [ ] The lessons collated into one narrative in the README
+- [x] storyteller, studio (wake of 18:18 UTC); security: no interview, the role was proposed and never held (`timeline/interviews/security.md`)
+- [x] The lessons collated into one narrative in the README (wake of 18:18 UTC)
+
+Done 30 October 2026, about 18:40 UTC.
