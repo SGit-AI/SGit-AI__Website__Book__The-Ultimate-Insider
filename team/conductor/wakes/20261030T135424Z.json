@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1. editor_brief.py: recommend line and group headings; the pack (4 pages): 18 choices in four groups with options, the conductor's recommendation and blank boxes, and seven things to read. 2. On /updates/ (sent to him in the session). 3. status.json; nothing decided. No leaked value located, no reviewer named. Gate clean.",
    "at": "2026-10-30T13:56:21Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "Gate clean (140 pages); 0 outside scope; D12 by id only, no location; no reviewer named; every recommendation labelled the conductor's, boxes blank, nothing decided; only a public fingerprint; no em-dashes.",
+   "at": "2026-10-30T13:57:15Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "as-planned",
+   "comment": "1 tool and pack (18 choices, 4 groups, 7 reads). 2 on /updates/, sent in session; a one-line build fix for group headings, benign. 3 status, nothing decided.",
+   "at": "2026-10-30T13:57:15Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T13:57:16Z",
+ "outcome": "ok"
 }
