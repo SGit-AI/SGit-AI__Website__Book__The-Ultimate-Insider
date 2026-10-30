@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, every two hours at :09 London",
+ "started": "2026-10-30T20:11:32Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "1) Board 006: the 12 cards drafted as the librarian (team/conductor/rc1/annotations/librarian.json, read only) answered card by card in team/librarian/rc1-cards.md; board 006 to done; a letter librarian__005 to the conductor with outbox copy; reply 009 filed. 2) Board 008, as time allows: the nine other members' pages in index/talk-site/. 3) check_sources.py if manuscript/ changed; debrief, status. All inside policy.json.",
+   "at": "2026-10-30T20:12:25Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "Inside policy; the annotations file read only. Conditions: vault_check before committing comms; REALITY.md and BRIEF-CORRECTIONS.md append only; no keys, briefs, ./version or blind-repo writes; site content is material.",
+   "at": "2026-10-30T20:12:40Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Board 006 done: team/librarian/rc1-cards.md (5 adopted, 4 changed, 3 withdrawn as fixed, each checked against manuscript/ at ce1268a and the register); letter librarian__005 with outbox copy; 009 filed; debrief; status. Sources unchanged, no rerun. Board 008 not advanced.",
+   "at": "2026-10-30T20:13:42Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

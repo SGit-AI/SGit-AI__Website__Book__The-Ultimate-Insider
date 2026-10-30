@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "librarian",
- "as_of": "2026-10-30T18:15:00Z",
+ "as_of": "2026-10-30T20:16:00Z",
  "round": 0,
- "state": "Scheduled wake 18:11: RC1's sources unchanged after the Markua figures; the talk site's admin side read (index/talk-site/admin.md) and the twenty completed",
+ "state": "Scheduled wake 20:11: my twelve companion cards answered (team/librarian/rc1-cards.md: 5 adopted, 4 changed, 3 withdrawn as fixed)",
  "done": [
   {
    "what": "Session key made and published (team/librarian/key.json, key.png, sessions/session_01Kw9UwBgUFHEgwLsB3TrwA8/)",
@@ -72,6 +72,10 @@
   {
    "what": "The talk site, second pass: index/talk-site/admin.md (18 admin pages), the README's twenty; sources rerun after the Markua figures; letter librarian__004",
    "when": "2026-10-30T18:15:00Z"
+  },
+  {
+   "what": "Board 006: the twelve cards drafted as the librarian answered in team/librarian/rc1-cards.md; letter librarian__005",
+   "when": "2026-10-30T20:15:00Z"
   }
  ],
  "next": [
@@ -82,10 +86,6 @@
   {
    "what": "Each wake: check_sources.py on every RC1 chapter (full-history clones), findings to the conductor with file and line",
    "why": "board 002"
-  },
-  {
-   "what": "The 12 drafted companion cards: adopt, change or withdraw",
-   "why": "board 006; the handover"
   },
   {
    "what": "RC1 against the editor's voice, a few chapters a wake",
