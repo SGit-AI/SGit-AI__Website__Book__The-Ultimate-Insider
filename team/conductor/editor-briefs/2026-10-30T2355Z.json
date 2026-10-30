@@ -1,0 +1,51 @@
+{
+ "number": "9",
+ "date": "Friday 30 October 2026, 23:55 UTC",
+ "kicker": "The conductor brief · 9 · D6 explained · Friday 30 October 2026",
+ "title": "D6: how the book is ordered, and what each choice changes",
+ "when": "23:55 UTC",
+ "by": "conductor@book.the-ultimate-insider, key sha256:f2456a147ac54f5f",
+ "headline": "D6 is the storyteller's plan draft 6: it brings the signed plan (draft 5) in line with RC1, which grew three new parts this morning at your word (a map chapter, 'what was already there', concepts and principles). Six choices: where each new part goes, chapter 0, the length, and the Cold-Read chapter. One caution first: your voice memo of tonight moves the book's centre of gravity to agentic workflows, as a walkthrough. That may reshape the structure itself, so you may prefer to sign D6 only after the name and structure study it asks for.",
+ "stats": [
+  {"n": "6", "label": "choices in D6"},
+  {"n": "69,300", "label": "words in RC1 today (signed: 49,200)"},
+  {"n": "59,000", "label": "words under D6-5 option A"},
+  {"n": "17,200", "label": "words in the three parts added this morning"}
+ ],
+ "sections": [
+  {"title": "The order: RC1 today, and draft 6 as proposed", "table": {"head": ["#", "RC1 today", "Draft 6 (all A)"], "rows": [
+   ["front", "About this release candidate", "How to read this book (was chapter 0, now one page)"],
+   ["0 / 1", "0 Before you start", "1 Pause all actions (the 18:44 hold opens the book)"],
+   ["", "00b How to read a map", "2 How to read a map (after the hold, not before)"],
+   ["1 / 3", "1 Pause all actions", "3 What was already there: the years (from 11b)"],
+   ["2 / 4", "2 Midnight, an empty repository", "4 Midnight, an empty repository"],
+   ["3 / 5", "3 A mandate you can read", "5 A mandate you can read"],
+   ["4 / 6", "4 The hourly machine", "6 The hourly machine"],
+   ["", "", "7 The plumbing (from 11b)"],
+   ["5 / 8", "5 The story before the slides", "8 The story before the slides"],
+   ["6 / 9", "6 The editor signs", "9 The editor signs"],
+   ["7 / 10", "7 Building the talk", "10 Building the talk"],
+   ["8 / 11", "8 The locks that never closed", "11 The locks that never closed"],
+   ["9 / 12", "9 The team was the insider", "12 The team was the insider"],
+   ["10 / 13", "10 The talk as given", "13 The talk as given"],
+   ["11 / 14", "11 What the cold reader saw", "14 What the cold reader saw"],
+   ["", "11b What was already there", "(split into 3 and 7)"],
+   ["", "", "15 Principles (from 13)"],
+   ["12 / 16", "12 Build your own", "16 Build your own (ends on 'the brakes are what let you go faster')"],
+   ["", "13 Concepts and principles", "(principles to 15; concepts to a glossary at the back)"],
+   ["back", "Appendix A", "Appendix A, and the glossary"]]}},
+  {"title": "What each choice changes", "table": {"head": ["", "The question", "A (recommended by the storyteller)", "The other options"], "rows": [
+   ["D6-1", "Where the map chapter goes", "After chapter 1: the book opens on the hold, as you signed (O2 A), and the map reads as the map of a moment just lived", "B before chapter 1, as in RC1 (3,000 words of maps before the hold); C inside chapter 0"],
+   ["D6-2", "Where 'what was already there' goes", "Split: the years before Midnight (why midnight was not empty), the plumbing after The hourly machine (once the reader has seen the gate fire)", "B one chapter after chapter 11, as in RC1; C one chapter before Midnight"],
+   ["D6-3", "Where the principles go", "A chapter before Build your own, so the book ends on its strongest line; the concepts become a glossary", "B after Build your own, as in RC1"],
+   ["D6-4", "Chapter 0", "A one-page 'How to read this book' in the front, so the hold is the first page", "B as in RC1"],
+   ["D6-5", "The length", "About 59,000 words: the new parts kept, paid for by about 10,200 words of cuts (the record thinned into sources, the map and 11b chapters tightened, concepts shortened)", "B about 70,000, RC1's shape kept; C hold 49,200, every new part compressed"],
+   ["D6-6", "The Cold-Read chapter", "As mapped: what it argues, its threads, the failures it keeps, its evidence, its claims", "B keep the signed placeholder until the revision"]]}},
+  {"title": "How your voice memo bears on this", "text": "D6 keeps the book's current spine: the insider argument, told through the day. Your memo says the book is not about the insider agent (that is a separate book, and the talk needed more rounds), but a pragmatic, example-driven walkthrough of agentic workflows in October 2026: collaboration, a multidisciplinary team kept aligned by shared protocols and open information, and the plumbing (the non-functional requirements) built while making the talk. That is a change of spine, not of order. Two ways to take it: sign D6 now (the order holds either way, and the revision can start), or hold D6 until the name and structure study reports, so the book is restructured once."}
+ ],
+ "for_you": [
+  {"id": "D6", "ask": "Sign D6 now, or after the name and structure study?", "options": ["Sign D6 now (all A)", "Sign D6 now with changes (note)", "Hold D6 until the study"], "recommend": "Hold D6 until the study: your memo changes what the book is for, and the order should follow from that, not come before it."}
+ ],
+ "next": ["The voice memo filed as your brief and the name and structure study routed (the next wake, in minutes)"],
+ "sources": ["chapter-plan/draft-6-proposed.md", "manuscript/Book.txt", "book.json D6-1 to D6-6", "the editor's voice memo, 30 October 2026, about 23:50 UTC"]
+}

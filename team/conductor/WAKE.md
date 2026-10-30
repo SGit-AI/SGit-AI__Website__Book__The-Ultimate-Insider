@@ -52,6 +52,16 @@ The editor agreed this in the conductor's session, about 13:00 UTC ("Yes that H1
 4. **From the `until`**, the old session pushes nothing as that role. A commit marked `@<id>:` from a superseded session is flagged to the editor.
 5. **The editor** archives the old session in his own account; no agent can archive another account's session.
 
+## Cadence: day hours, and a slower pace when idle (Q6, 30 October 2026)
+
+The editor, in the conductor's session, about 23:40 UTC: "the team hours should be roughly around the day, and then you don't have to do night"; members "run like two or three times, maybe twice a day, unless they have active tasks. And so once they have active tasks, can they run more often? And then when they don't have active tasks, they can just run at a slower pace." The window and intervals below are the conductor's reading of his words (`book.json` Q6).
+
+1. **Day hours only:** 08:00 to 22:00 London. No member wakes at night.
+2. **Active:** a member with active work (an unanswered request in its mailroom, an open issue on its board it can move, or a `next` it can do without waiting on someone) runs every two hours in the day, at its own minute (`schedule.json`, `active`).
+3. **Idle:** a member whose work all waits on someone else ends its wake by switching its own task to twice a day (`schedule.json`, `idle`: 09:MM and 17:MM London), with `update_trigger` on its own task only, and says so in `status.json` (`cadence: idle`).
+4. **Back to active:** a wake that finds new work switches its own task back to `active` before it starts the work. A request to an idle member is answered at its next idle wake, within eight hours; anything more urgent goes to the editor, who can fire the member's task himself.
+5. A member changes only its own task, as everywhere in this file.
+
 ## Stopping: when something is not right
 
 Any member may stop the schedule; nobody needs permission to stop, and only the editor restarts. Stop when:

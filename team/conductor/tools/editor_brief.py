@@ -15,7 +15,11 @@ REPO = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), 
 CHROMES = sorted(glob.glob("/opt/pw-browsers/chromium_headless_shell-*/*/chrome-headless-shell")) + ["chromium", "google-chrome"]
 
 CSS = """
-@page { size: A4; margin: 14mm 15mm 16mm 15mm; }
+@page { size: A4; margin: 14mm 15mm 12mm 15mm; }
+body { padding-bottom: 8mm; }
+.foot { position: fixed; bottom: 0; left: 0; right: 0; font-family: Inter, 'DejaVu Sans', sans-serif; font-size: 7.5pt; color: #666; border-top: .5pt solid #ccc; padding-top: 2pt; }
+@media screen { .foot { position: static; margin-top: 16pt; } }
+.tbl td, .tbl th { font-size: 8.5pt; }
 * { box-sizing: border-box; }
 body { font-family: Charter, 'Bitstream Charter', 'DejaVu Serif', serif; font-size: 10.5pt; line-height: 1.42; color: #1a1a1a; margin: 0; }
 .sans, .kicker, .stat, table, .chip, .tick, .meta, .src { font-family: Inter, 'DejaVu Sans', sans-serif; }
@@ -75,6 +79,8 @@ def img(path):
 def render(b):
     out = [f"<!doctype html><html lang='en-GB'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width, initial-scale=1'>"
            f"<title>{e(b['title'])}</title><style>{CSS}</style></head><body>"]
+    if b.get("number") or b.get("date"):                         # the editor's word (30 October 2026): every brief carries its number and date on every page
+        out.append(f"<div class='foot'>Conductor brief {e(b.get('number', ''))} · {e(b.get('date', ''))} · {e(b['title'])}</div>")
     out.append(f"<p class='kicker'>{e(b.get('kicker', 'The conductor brief'))}</p><h1>{e(b['title'])}</h1>")
     out.append(f"<p class='meta'>{e(b.get('when', ''))} · {e(b.get('by', ''))}</p>")
     if b.get("headline"):
@@ -108,6 +114,10 @@ def render(b):
         out.append(f"<h2>{e(sec['title'])}</h2>")
         if sec.get("text"):
             out.append(f"<p>{e(sec['text'])}</p>")
+        if sec.get("table"):
+            t = sec["table"]
+            out.append("<table class='tbl'><tr>" + "".join(f"<th>{e(h)}</th>" for h in t.get("head", [])) + "</tr>"
+                       + "".join("<tr>" + "".join(f"<td>{e(c)}</td>" for c in row) + "</tr>" for row in t.get("rows", [])) + "</table>")
         if sec.get("items"):
             out.append("<ul>" + "".join(f"<li>{e(i)}</li>" for i in sec["items"]) + "</ul>")
     if b.get("images"):

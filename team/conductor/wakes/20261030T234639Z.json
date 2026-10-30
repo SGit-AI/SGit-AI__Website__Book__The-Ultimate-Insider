@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "editor's request",
+ "started": "2026-10-30T23:46:39Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "1. team/conductor/tools/editor_brief.py prints the number and date on every page and gains a simple table; a D6 explainer brief in team/conductor/editor-briefs/ only (conductor amends: never briefs/, the editor's): RC1's order beside draft 6, what each D6 changes. 2. Q6 decided in his words in book.json; a Cadence section in WAKE.md (08:00 to 22:00 London; every two hours when active, twice a day when idle, back when work arrives); schedule.json with both crons per member; the conductor's own task to day hours; a letter to every member to change its own task. 3. K1 deferred in book.json; team/conductor/editor-tasks.json (his Leanpub steps, the voice memo) shown in the briefs; the lifetime Pro plan told to the publisher; status.json, a debrief.",
+   "at": "2026-10-30T23:47:16Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "In scope. Conditions: only the conductor's own task changed, members asked by letter; WAKE.md's Cadence section quotes the editor and marks the 08:00 to 22:00 window and the two-hour interval as the conductor's proposal, nothing else in WAKE.md changes; Q6 with his quote, K1 deferred; nothing in briefs/; no keys, contacts or Leanpub credentials; vault_check.",
+   "at": "2026-10-30T23:47:43Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
