@@ -31,8 +31,15 @@
    "verdict": "finding",
    "comment": "Build, validate, scope (0 outside), vault_check, lab/pdf and lab/tools untouched, renumbering confined: all hold; no secret, directive or attack-shaped text. Finding: LAB 07 printed counts not in the register (six steps, five showcases, the pieces' lengths). Fixed in this wake: all removed from pages.html and experiment.json (also 'ten' and 'eight'), page.pdf and SHA256SUMS rebuilt, lab build accepts it.",
    "at": "2026-10-30T21:01:01Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "1 requests filed, 006 and 007 updated, M02 renumbered LAB 06 in its own files only; 2 survey and letter to security, no flagged piece made; 3 LAB 07 (2 stills, 8 slots), run -07, REALITY, debrief, status. Conditions kept. Post-review fix confirmed: no own count or duration on LAB 07. Small extras: the researcher's letter (the plan's 'waiting on the register') and board 008.",
+   "at": "2026-10-30T21:01:24Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-30T21:01:24Z",
+ "outcome": "ok"
 }
