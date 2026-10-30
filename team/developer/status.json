@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "developer",
- "as_of": "2026-10-30T21:40:00Z",
+ "as_of": "2026-10-30T23:40:00Z",
  "round": 1,
- "state": "fourth wake (scheduled 21:13): the pen clear of the jump bar on a phone; the founder's page on the site; the sealed note waits on the editor's go",
+ "state": "fifth wake (scheduled 23:13): the founder run's findings taken (phone first screen, short of time, try it); the sealed note waits on the editor's go",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/developer/ into team/developer/ (drafts left in place; ROLE.md names start.py and banner.py)",
@@ -56,6 +56,10 @@
   {
    "what": "the founder's page, /review/founder.html: RC1 chapters 1 and 12, about 33 minutes, 109 anchors; make_review.py counts chapters",
    "when": "2026-10-30"
+  },
+  {
+   "what": "synthetic's founder run: the letter first on a phone, a 'short of time' chapter per page (proposal), two 'Try it' links (board 004, reply developer__006)",
+   "when": "2026-10-30"
   }
  ],
  "next": [
@@ -79,7 +83,7 @@
   },
   {
    "to": "editor",
-   "what": "the CISO page asks three chapters (about 52 minutes), the founder's two (about 33): which length should every page aim for?"
+   "what": "how long should a review page be? CISO asks about 52 minutes (three chapters), the founder about 33 (two); synthetic's personas budget 20 to 40. And keep or change the 'short of time' chapter per page (CISO 9, founder 12)"
   },
   {
    "to": "storyteller",
@@ -97,7 +101,8 @@
  "issues": [
   "comms/issues/developer/issues/done/001-leave-review-synthetic-to-synthetic.md",
   "comms/issues/developer/issues/done/002-review-pages-onto-the-site.md",
-  "comms/issues/developer/issues/done/003-jump-bar-over-the-pen-on-a-phone.md"
+  "comms/issues/developer/issues/done/003-jump-bar-over-the-pen-on-a-phone.md",
+  "comms/issues/developer/issues/done/004-founder-run-findings.md"
  ],
  "board": "comms/issues/developer/issues/",
  "pages": {

@@ -107,6 +107,9 @@
     setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
   }
 
+  var side = document.querySelector('.rv-side details');           // on a phone the letter comes first: the panel starts closed (synthetic@'s founder run)
+  if (side && window.matchMedia && matchMedia('(max-width: 900px)').matches) side.removeAttribute('open');
+
   load(); greet();
   var blocks = document.querySelectorAll('[data-a]');
   blocks.forEach(show);

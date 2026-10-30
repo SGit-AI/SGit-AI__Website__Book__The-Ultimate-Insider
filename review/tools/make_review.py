@@ -95,6 +95,11 @@ def page(p):
         parts.append(f'<article class="rv-ch" id="c{ch}" data-ch="{ch}"><h2>{esc}</h2>\n{body}\n{qhtml}</article>')
     gets = ''.join(f'<li>{html.escape(g)}</li>' for g in p['gets'])
     marks = ''.join(f'<li><b>{m}</b></li>' for m in MARKS)
+    short = ''
+    if p.get('short'):                                              # the one chapter to read when short of time (a proposal until the editor says)
+        c = next(c for c in p['chapters'] if c['file'] == p['short'])
+        ch = c['file'].split('-')[0]
+        short = f'<p class="rv-short"><b>Short of time?</b> Read <a href="#c{ch}">chapter {int(ch)}</a> first.</p>\n'
     n = ['no', 'one', 'two', 'three', 'four', 'five'][len(p['chapters'])] if len(p['chapters']) <= 5 else str(len(p['chapters']))
     count = f'{n} chapter' + ('' if len(p['chapters']) == 1 else 's')
     meta = {'title': f'Review: {p["title"].lower()}',
@@ -116,7 +121,7 @@ def page(p):
 <dt>What you get back</dt><dd><ul>{gets}</ul></dd>
 </dl>
 <ol class="rv-toc">{''.join(toc)}</ol>
-<p class="rv-how1"><b>To comment</b>, click any paragraph: pick a mark, add a line, or both. Your comments stay in this browser until you send them.</p>
+{short}<p class="rv-how1"><b>To comment</b>, click any paragraph: pick a mark, add a line, or both. Your comments stay in this browser until you send them.</p>
 </section>
 '''
     tail = f'''<section class="rv-send" id="send">
@@ -130,10 +135,10 @@ def page(p):
 <details open><summary>How this works</summary>
 <ol>
 <li><b>Your link.</b> Anything after the <code>#</code> in your link (here, the name in the greeting) stays in your browser: browsers never send that part to a server. Try <a href="#to=Sam%20Example">#to=Sam Example</a>.</li>
-<li><b>Exact words.</b> Every paragraph has an anchor made from its own words. A comment points at those words, and when a revision changes them, the anchor changes too, so we can show you what your comment changed.</li>
+<li><b>Exact words.</b> Every paragraph has an anchor made from its own words. A comment points at those words, and when a revision changes them, the anchor changes too, so we can show you what your comment changed. Try it: <a href="https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/review/tools/make_review.py" rel="noopener noreferrer">the tool that makes them</a> is one short Python file in this site's source, to read or copy.</li>
 <li><b>Your pen.</b> Five marks:<ul class="rv-marks">{marks}</ul></li>
 <li><b>Nothing leaves.</b> Comments are kept in this browser only (<code>localStorage</code>), and the pen makes no network call. Nor does the rest of the page: the site's scripts ask no third party on review pages.</li>
-<li><b>Sealed, next.</b> Sending will encrypt your comments to the editor's public key before they leave your machine.</li>
+<li><b>Sealed, next.</b> Sending will encrypt your comments to the editor's public key before they leave your machine. Try it: <a href="https://pki.sgit.ai/" rel="noopener noreferrer">make a key of your own</a> and send yourself a sealed message.</li>
 </ol>
 </details>
 </aside>
