@@ -2,7 +2,7 @@
 // (Chromium, with the persona's device) and the runner records what it measured. It writes
 // observations.json and three screenshots; the review in the persona's voice is written from them.
 //
-//   node review/synthetic/run.mjs --persona ciso|all [--path /review/<persona>/] [--run <id>] [--out <dir>]
+//   node team/synthetic/review/run.mjs --persona ciso|all [--path /review/<persona>/] [--run <id>] [--out <dir>]
 //
 // Reads the built site (_site/) from its own local server. Every request to another host is
 // blocked and listed: a run sends nothing anywhere (no telemetry). A synthetic reader is a test
@@ -18,7 +18,7 @@ const require = createRequire(import.meta.url);
 const { chromium, devices } = require('playwright');
 
 const here = dirname(fileURLToPath(import.meta.url));
-const root = join(here, '..', '..');
+const root = join(here, '..', '..', '..');
 const site = join(root, '_site');
 
 const args = Object.fromEntries(process.argv.slice(2).reduce((acc, a, i, all) =>

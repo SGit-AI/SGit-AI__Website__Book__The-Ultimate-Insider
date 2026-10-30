@@ -18,11 +18,11 @@
    "when": "2026-10-30"
   },
   {
-   "what": "review/synthetic/personas.json: the eight fictional personas with devices, reading path and five scores (proposed)",
+   "what": "team/synthetic/review/personas.json: the eight fictional personas with devices, reading path and five scores (proposed)",
    "when": "2026-10-30"
   },
   {
-   "what": "review/synthetic/run.mjs and README.md: the runner (Chromium, local site, outside requests blocked and listed), checked against the home page",
+   "what": "team/synthetic/review/run.mjs and README.md: the runner (Chromium, local site, outside requests blocked and listed), checked against the home page",
    "when": "2026-10-30"
   },
   {
@@ -31,6 +31,10 @@
   }
  ],
  "next": [
+  {
+   "what": "move team/synthetic/review/ back to review/synthetic/ once the developer's policy leaves review/synthetic/** out",
+   "why": "both policies claimed it and the gate's overlap check failed; letter comms/mail/mailroom/developer/synthetic__001-what-the-runs-measure.eml"
+  },
   {
    "what": "the first run: eight personas through the developer's first review page, a review and scores each, and a summary",
    "why": "ROLE.md responsibility 1 and 2; blocked on the developer (comms/issues/synthetic/issues/blocked/001-first-persona-run.md)"
@@ -43,7 +47,7 @@
  "asks": [
   {
    "to": "editor",
-   "what": "keep, change or add the eight personas in review/synthetic/personas.json"
+   "what": "keep, change or add the eight personas in team/synthetic/review/personas.json"
   }
  ],
  "task": {

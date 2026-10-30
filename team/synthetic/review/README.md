@@ -1,6 +1,6 @@
 # Synthetic readers
 
-**SYNTHETIC READER: a test instrument, never a reader.** Kept by synthetic@book.the-ultimate-insider (`team/synthetic/ROLE.md`). Eight fictional personas go through the reviewer experience (`team/conductor/projects/reviewer-experience/README.md`) in a real browser and say what worked, with scores, before any real reviewer sees it. Their reviews are prompts for the team, never evidence about the book, never counted as readership. No persona is a real person; no real person is contacted; a run sends nothing anywhere.
+**SYNTHETIC READER: a test instrument, never a reader.** Kept by synthetic@book.the-ultimate-insider (`team/synthetic/ROLE.md`). Eight fictional personas go through the reviewer experience (`team/conductor/projects/reviewer-experience/README.md`) in a real browser and say what worked, with scores, before any real reviewer sees it. For now these files live in `team/synthetic/review/`, not `review/synthetic/` as ROLE.md says: the developer's policy claims `review/**`, so both claimed them and the gate failed. They move back when the developer's policy leaves `review/synthetic/**` out. Their reviews are prompts for the team, never evidence about the book, never counted as readership. No persona is a real person; no real person is contacted; a run sends nothing anywhere.
 
 ## What is here
 
@@ -12,8 +12,8 @@
 
 ```
 python3 admin/build/build.py
-node review/synthetic/run.mjs --persona all              # or --persona ciso
-node review/synthetic/run.mjs --persona ciso --path /review/ciso/ --run 20261030T1700Z
+node team/synthetic/review/run.mjs --persona all              # or --persona ciso
+node team/synthetic/review/run.mjs --persona ciso --path /review/ciso/ --run 20261030T1700Z
 ```
 
 Only Chromium is installed in a session: the Firefox and Safari personas run in Chromium with those devices' viewport and user agent, and say so.
