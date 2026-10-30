@@ -1,10 +1,14 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "conductor",
- "as_of": "2026-10-30T06:15:00Z",
+ "as_of": "2026-10-30T07:10:00Z",
  "round": 1,
- "state": "06:02 wake: only security and the storyteller hold comms paths; C10b reworded as one question for the four others; agents.py check reports scope changes (security's proposal)",
+ "state": "07:02 wake: the own-scope report extended to the never list and the mandate (security's notes); every member working or idle on the editor; C10b and the plan's decisions wait on the editor",
  "done": [
+  {
+   "what": "the own-scope report covers the never list and the mandate too (security's note); the working-tree caveat documented",
+   "evidence": "admin/build/agents.py"
+  },
   {
    "what": "agents.py check reports every change to a member's own scope, at security's proposal (report only)",
    "evidence": "admin/build/agents.py"

@@ -48,6 +48,7 @@ class Team:
         files   = set()
         for sha in mine:
             files |= set(subprocess.run(['git', 'show', '--name-only', '--format=', sha], cwd=ROOT, capture_output=True, text=True).stdout.split())
+        # the working tree's uncommitted files count for whoever is checked: run for another member (a post-review may), read those lines with that in mind (security, 30 October 2026)
         local = subprocess.run(['git', 'status', '--porcelain'], cwd=ROOT, capture_output=True, text=True).stdout
         files |= {line[3:].split(' -> ')[-1] for line in local.splitlines()}
         return sorted(f for f in files if f and f != 'version')
@@ -61,6 +62,14 @@ class Team:
         for kind in ('writes', 'holds', 'appends'):
             a, b = set(old.get(kind, [])), set(new.get(kind, []))
             lines += [f'scope changed: +{kind} {x}' for x in sorted(b - a)] + [f'scope changed: -{kind} {x}' for x in sorted(a - b)]
+        was = json.loads(before.stdout) if before.returncode == 0 and before.stdout.strip() else {}
+        now = self.members[agent]                                   # security's note: a line removed from never, or a capability added, widens too
+        a, b = set(was.get('never', [])), set(now.get('never', []))
+        lines += [f'scope changed: +never {x}' for x in sorted(b - a)] + [f'scope changed: -never {x} (a widening)' for x in sorted(a - b)]
+        for kind in ('wanted', 'not_wanted'):
+            cap = lambda pol: {c.get('capability', str(c)) if isinstance(c, dict) else str(c) for c in pol.get('mandate', {}).get(kind, [])}
+            a, b = cap(was), cap(now)
+            lines += [f'scope changed: +mandate.{kind} {x}' for x in sorted(b - a)] + [f'scope changed: -mandate.{kind} {x}' for x in sorted(a - b)]
         return lines
 
     def check(self, agent, base):
