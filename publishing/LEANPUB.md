@@ -1,0 +1,41 @@
+# The Leanpub book: what the editor does by hand
+
+Kept by publisher@book.the-ultimate-insider. Written 30 October 2026 from Leanpub's own help pages, read that day (links at the end); Leanpub's screens change, so where a step below and the screen disagree, the screen wins, and tell the publisher so this file is corrected.
+
+Nothing here can be done by an agent: each step needs the editor's Leanpub account, his GitHub account or his money. The target is the first edition on sale on Monday 2 November 2026 (book.json, milestones).
+
+## What is already in place
+
+- `manuscript/Book.txt` and `manuscript/about-this-edition.md` in this repository, at the top level, in the layout Leanpub's Git and GitHub writing mode builds from: a `manuscript/` folder holding `Book.txt`, which lists the files of the book in order.
+- `publishing/build_book.py`: the team's own build of the same `Book.txt` into a PDF and an EPUB, so a broken chapter shows up here before it shows up on a Leanpub preview.
+
+## Steps, in order (about 30 minutes, once)
+
+1. **Create the book.** On Leanpub, create a new book. For the writing mode choose **Cloud**, then **Using Git and GitHub**. In the same form give the repository as `SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider` and the branch names for previews and for publishing.
+   - **Branch: an open choice for you.** Recommended: `main` for both, so Leanpub builds only what you merged, the same rule as the site. The alternative is `dev` for previews (the team's latest, every hour) and `main` for publishing.
+   - The book's URL slug is permanent-looking and public; it waits on the title (decision on the title, round 1). A neutral slug such as `the-ultimate-insider` keeps the options open.
+2. **Let Leanpub read the repository.** On GitHub, in the repository's Settings, "Collaborators" (Leanpub's help calls it "Manage Access"), "Invite a collaborator", search for `leanpub`, "Add leanpub to this repository". Leanpub accepts within a few minutes. This gives Leanpub's account access to this repository only; it is the one outside account added to it, and the security member should know (the publisher asks it in its next wake).
+3. **First preview.** In the book on Leanpub: Versions, Preview, "Create Preview". Today it holds one page (About this edition), which is the point: it proves the connection. Send the publisher (in the session or by a commit note) whether it built; nothing about the account itself.
+4. **The book page** (Settings, About): subtitle, description, teaser, meta description; "Update Book". The publisher drafts these in `publishing/listing.md` once the title is signed.
+5. **The cover** (Settings, Book Cover): an image 1800 by 2700 pixels; "Update Book Cover". The designer's job, not staffed yet; until then Leanpub's default cover stands.
+6. **The price** (Store, Pricing): the minimum price, the suggested price and Leanpub's maximum discount; "Update Pricing". **Your decision, not ours**: the options are below and in the publisher's request to the conductor to list them in `book.json`.
+7. **Your author profile**, if not done already; "Save Settings".
+8. **Publish, on Monday 2 November**, only after your sign-off on the release candidate (round 4): Versions, "Publish New Version", "Publish Book".
+
+## The price with a floor: the options to sign
+
+Leanpub pays an 80% royalty on most sales and does not restrict selling the same book elsewhere (Leanpub's help, read 30 October 2026); KDP comes next and is allowed. Its help also says a paid minimum price can be as low as 99 cents. The figures below are proposals for you to sign or strike, not decisions:
+
+| Option | Minimum (the floor) | Suggested | What it says |
+|---|---|---|---|
+| A | free | $15 | the record is public anyway; the book is the analysis, paid for by those who value it |
+| B | $9.99 | $19.99 | a real floor, a suggested price in line with practitioner books |
+| C | $4.99 | $14.99 | a floor that does not stop a student at Web Summit |
+
+The publisher recommends **B** for the first edition: "a floor" was your word in the brief, and a free minimum is not one. The minimum can be lowered later more easily than raised.
+
+## Sources (read 30 October 2026)
+
+- Getting started with the Git and GitHub writing mode (full and TL;DR): help.leanpub.com/en/articles/2916385 and /4868811
+- Royalty rate and where else the book may be sold: help.leanpub.com/en/articles/5468013
+- The 99-cent paid minimum is named in the title of a Leanpub announcement linked from help.leanpub.com/en/articles/3796821 (an article Leanpub marks outdated); the publisher did not read the announcement itself.

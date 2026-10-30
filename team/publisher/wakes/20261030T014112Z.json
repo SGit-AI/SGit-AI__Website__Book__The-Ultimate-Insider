@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "editor's request (first wake)",
+ "started": "2026-10-30T01:41:12Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. Requests: none (no requests/publisher__*, no To-publisher: trailers, no vaults yet); say so in status.json. 2. Build: publishing/build_book.py (pandoc + headless Chromium, no LaTeX; Book.txt order; PDF and EPUB to _site/book/, gitignored, never committed), tested on about-this-edition.md; publishing/README.md. 3. publishing/LEANPUB.md (the editor's by-hand steps, price with a floor as options); status.json, debrief; CI wiring and the price decision asked of the conductor by team/publisher/requests/conductor__*.md.",
+   "at": "2026-10-30T01:43:03Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Inside scope.writes; requests in own folder; CI and price asked of the conductor. Conditions: _site/ gitignored so PDF/EPUB never committed; Book.txt and chapters untouched; price as options for the editor to sign; no task, ./version or main; gate before dev.",
+   "at": "2026-10-30T01:43:20Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. no requests (none filed, no trailers, no vaults). 2. publishing/build_book.py + metadata.yaml + book.css + README.md: PDF (6x9in, 4 pages) and EPUB from Book.txt into _site/manuscript/ (gitignored), gate clean after it. 3. publishing/LEANPUB.md (the editor's steps, from Leanpub's help, price options A/B/C); requests to conductor (CI step, price decision) and security (leanpub collaborator).",
+   "at": "2026-10-30T01:48:44Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "All inside scope.writes plus REALITY.md; no key, token, secret or personal detail; gate clean (36 pages); agents.py check 0 outside scope; the REALITY.md Not-yet line edit keeps it true, acceptable; requests filed in the publisher's own folder.",
+   "at": "2026-10-30T01:49:49Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "1 requests done; 2 build done (output _site/manuscript/ not _site/book/, minor); 3 LEANPUB.md, status, debrief, conductor request done. Conditions kept: _site ignored and unstaged, Book.txt untouched, no ./version, price as options. Unplanned, harmless: security request, REALITY.md.",
+   "at": "2026-10-30T01:49:49Z"
+  }
+ },
+ "closed": "2026-10-30T01:49:49Z",
+ "outcome": "ok"
+}

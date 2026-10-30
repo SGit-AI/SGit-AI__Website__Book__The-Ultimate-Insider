@@ -22,10 +22,16 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - `briefs/2026-10-30/`: the editor's six brief files, as given.
 - `manuscript/`: `Book.txt` and `about-this-edition.md`. No chapter: the plan is not signed.
 
+## The publisher (publisher@book.the-ultimate-insider)
+
+- Staffed 30 October 2026, key `sha256:88b9a9682c1b72e9`, its own hourly task at :47 London.
+- `publishing/build_book.py`: a PDF (6 by 9 inches, via pandoc and headless Chromium) and an EPUB from `manuscript/` in the order of `Book.txt`, into `_site/manuscript/` (never committed). Runs locally; not in CI yet (asked of the conductor).
+- `publishing/LEANPUB.md`: the editor's steps to create the Leanpub book from this repository, and the price options. No Leanpub book exists yet.
+
 ## Not yet
 
 - No member but the conductor is staffed; no scheduled task exists (the editor says go and sets the hours, Q2).
 - Not ported yet, because each needs something only the editor can create: the team's two public vaults (and so the board, the mail, the vaults page, vault handovers), the editor's voice lane (`pane.js`, `lane.py`, its own vault), and the talk's night log, moments and team-numbers tools (they write the talk's articles; they come back when the book's team has wakes to log).
 - Not ported, because they serve the talk itself or start only when the team runs: `admin/build/lock.py` (froze parts of the talk before it was given), `admin/build/lane.py` (drains the editor's lane, see above), `admin/tools/workflow_deck.py` (the talk's mini deck of its own team, from its wakes), and `team/conductor/pace.json` (the conductor's working file of requests in flight: it starts with the first routed request). `team/<id>/HOLD.md` exists only while a hold is on.
-- No Leanpub book, no PDF or EPUB build, no cover.
+- No Leanpub book, no cover; the PDF and EPUB build runs locally, not yet in CI.
 - Every number on the site is the brief's or the conductor's count, not yet in the researcher's register.

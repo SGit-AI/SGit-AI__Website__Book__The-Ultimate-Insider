@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "publisher",
- "as_of": "2026-10-30T01:43:00Z",
- "round": 0,
- "state": "staffed: session_01Kw9UwDVeRbKJZUWiRoRrHK, key published, hourly task created at the editor's word; first task under way",
+ "as_of": "2026-10-30T02:05:00Z",
+ "round": 1,
+ "state": "staffed (session_01Kw9UwDVeRbKJZUWiRoRrHK); first task partly done: the build makes a PDF and an EPUB from manuscript/; waits on the editor for the Leanpub book and on the conductor for CI",
  "done": [
   {
    "what": "session key published: team/publisher/key.json, key.png, sessions/session_01Kw9UwDVeRbKJZUWiRoRrHK/",
@@ -12,15 +12,42 @@
   {
    "what": "own scheduled task trig_01D2wnhQDySKsG8ZL9XLmNsW, hourly at :47 London, into this session",
    "when": "2026-10-30T01:42Z"
+  },
+  {
+   "what": "publishing/build_book.py: PDF (6 by 9 in) and EPUB from manuscript/Book.txt, into _site/manuscript/; publishing/LEANPUB.md: the editor's steps and the price options",
+   "when": "2026-10-30T02:00Z"
   }
  ],
  "next": [
   {
-   "what": "The highest-risk piece first (the lesson of the talk's player): the build producing a PDF from `manuscript/` on day one, Friday 30 October, and the Leanpub steps for the editor.",
-   "why": "its first task, from the brief"
+   "what": "once CI runs the build, link the PDF from the site and check it on the live site",
+   "why": "the build published, not only local"
+  },
+  {
+   "what": "once the editor has a Leanpub preview, compare it with our PDF; draft publishing/listing.md when the title is signed",
+   "why": "Leanpub on sale Monday 2 November"
+  },
+  {
+   "what": "KDP: the steps for the editor and the paperback's needs (trim, bleed, page count to spine width)",
+   "why": "KDP review takes up to 72 hours before Web Summit, 9 November"
   }
  ],
- "asks": [],
+ "asks": [
+  {
+   "to": "editor",
+   "what": "create the Leanpub book and add leanpub as a collaborator (publishing/LEANPUB.md, steps 1 to 3); sign a price option (A, B or C) and the Leanpub branches"
+  },
+  {
+   "to": "conductor",
+   "what": "the build step in CI and the price as an open decision",
+   "where": "team/publisher/requests/conductor__manuscript-build-in-ci-and-price-decision.md"
+  },
+  {
+   "to": "security",
+   "what": "review leanpub as a collaborator",
+   "where": "team/publisher/requests/security__leanpub-as-collaborator.md"
+  }
+ ],
  "session": "session_01Kw9UwDVeRbKJZUWiRoRrHK",
  "task": {
   "id": "trig_01D2wnhQDySKsG8ZL9XLmNsW",
@@ -28,5 +55,6 @@
   "prompt": "word for word from team/conductor/schedule.json, runs, publisher",
   "created": "2026-10-30T01:42:07Z",
   "by": "this session, at the editor's word in this session"
- }
+ },
+ "requests": "none received this wake: no team/*/requests/publisher__*, no To-publisher: trailers, no vaults yet"
 }
