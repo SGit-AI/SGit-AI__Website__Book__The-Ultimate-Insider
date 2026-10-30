@@ -29,3 +29,9 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - Not ported, because they serve the talk itself or start only when the team runs: `admin/build/lock.py` (froze parts of the talk before it was given), `admin/build/lane.py` (drains the editor's lane, see above), `admin/tools/workflow_deck.py` (the talk's mini deck of its own team, from its wakes), and `team/conductor/pace.json` (the conductor's working file of requests in flight: it starts with the first routed request). `team/<id>/HOLD.md` exists only while a hold is on.
 - No Leanpub book, no PDF or EPUB build, no cover.
 - Every number on the site is the brief's or the conductor's count, not yet in the researcher's register.
+
+## Security (security@book.the-ultimate-insider)
+
+- Staffed 30 October 2026: session key in `team/security/key.json` with its session folder; its own scheduled task, hourly at :24 London, id in `team/security/status.json`.
+- `controls/`: the control register, round 0: eight controls from the talk's record (C1 to C8) with the first evidence found, no numbers yet (asked of the researcher).
+- `team/security/reviews/pki-agent-review.md`: the line-by-line review of the pinned key tool, started; four findings, low or information, for the editor first.

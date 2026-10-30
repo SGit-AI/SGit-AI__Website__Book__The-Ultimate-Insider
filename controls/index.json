@@ -1,0 +1,89 @@
+{
+ "schema": "the-ultimate-insider/controls/v1",
+ "kept_by": "security@book.the-ultimate-insider",
+ "as_of": "2026-10-30T02:05:00Z",
+ "round": 0,
+ "source": "SGit-AI__Website__Presentation__The-Ultimate-Insider, history up to 298be4e (read-only clone)",
+ "numbers": "none in this file: every count goes through the researcher's register (claims/); asked in team/security/requests/researcher__control-counts.md",
+ "controls": [
+  {
+   "id": "C1", "name": "policies and scopes", "kind": "setting",
+   "what": "each member's policy.json names the paths it may write; admin/build/agents.py check lists every file a member changed outside them",
+   "where": ["admin/build/agents.py", "team/<id>/policy.json"],
+   "fired": [{"commit": "talk team/conductor/wakes/20261029T021416Z.json", "what": "agents.py flagged CLAUDE.md as outside the conductor's scope; the post-review asked for it to be named"}],
+   "stopped": "an unnamed write outside scope going unremarked",
+   "missed": "to research: it reports, it does not refuse; the write was allowed by the editor and still landed before it was named",
+   "state": "listed, evidence started"
+  },
+  {
+   "id": "C2", "name": "the five-step wake", "kind": "expectation, with a record",
+   "what": "plan, pre-review, work, post-review, post-check, each a verdict in team/<id>/wakes/; wake.py gate refuses the work until plan and pre-review say go",
+   "where": ["admin/tools/wake.py", "team/conductor/reviews/", "team/conductor/WAKE.md"],
+   "introduced": [{"commit": "talk 8c66751", "at": "02:16"}, {"commit": "talk 5700bab", "at": "02:18"}],
+   "fired": [{"commit": "talk team/researcher/wakes/20261029T041003Z.json", "what": "post-review finding: anonymous cookie values in captured headers, redacted in the same wake"}],
+   "stopped": "captured cookie values reaching the public record",
+   "missed": "to research: the record shows no pre-review that said change or stop; whether the step ever changed a plan is the open question",
+   "state": "listed, evidence started"
+  },
+  {
+   "id": "C3", "name": "holds", "kind": "setting",
+   "what": "any member writes team/<id>/HOLD.md and pushes it; every start.py then stops; only the editor lifts it",
+   "where": ["admin/tools/start.py", "team/conductor/WAKE.md (Stopping)"],
+   "introduced": [{"commit": "talk 09f13d5", "what": "the schedule starts tonight, with a hold any member can pull"}],
+   "fired": [{"commit": "talk 867f8c2", "at": "18:44 UTC", "what": "the conductor's hold at the editor's word: his usage limit"}],
+   "stopped": "the team running the editor out of usage",
+   "missed": "to research: the one hold in the record came from the editor's word, not from a member's own stop",
+   "state": "listed, evidence started"
+  },
+  {
+   "id": "C4", "name": "session keys", "kind": "expectation, with a published record",
+   "what": "every session makes its own key with the pinned tool and publishes the public halves in team/<id>/key.json; the push is the authorisation",
+   "where": ["admin/tools/pki-agent.README.md", "team/<id>/key.json", "team/<id>/sessions/"],
+   "fired": "to find: a key checked against its session folder by the conductor",
+   "stopped": "to find", "missed": "to find",
+   "state": "listed"
+  },
+  {
+   "id": "C5", "name": "the pinned key tool", "kind": "setting (a hash)",
+   "what": "agents run a pinned copy of pki-agent.mjs, checked with sha256sum -c, instead of downloading it",
+   "where": ["admin/tools/pki-agent.mjs", "admin/tools/pki-agent.mjs.sha256"],
+   "fired": "this wake: the hash check passed before keygen (book repository)",
+   "stopped": "a changed copy being run unnoticed",
+   "missed": "the copy was never read line by line on the talk's team; review started: team/security/reviews/pki-agent-review.md",
+   "state": "listed, review started"
+  },
+  {
+   "id": "C6", "name": "the gate and its leak tripwire", "kind": "setting",
+   "what": "admin/build/validate.py fails the build on a private key, token-shaped value or em-dash in any tracked file",
+   "where": ["admin/build/validate.py"],
+   "fired": "to find: a gate failure in the talk's history, and what it caught",
+   "stopped": "to find", "missed": "to research: patterns only; a secret without a known shape passes",
+   "state": "listed"
+  },
+  {
+   "id": "C7", "name": "the editor's signed decisions", "kind": "expectation",
+   "what": "options go in as open decisions; nobody acts on an unsigned one; nobody speaks for the editor",
+   "where": ["book.json (here)", "the talk's decisions pages"],
+   "fired": "to find", "stopped": "to find", "missed": "to find",
+   "state": "listed"
+  },
+  {
+   "id": "C8", "name": "public vaults and vault_check", "kind": "setting, with an expectation",
+   "what": "the team talks through two public vaults; vault_check.py runs before every vault commit; vault keys are sealed to members, never printed",
+   "where": ["admin/tools/vault_check.py", "admin/tools/vault_handover.py"],
+   "introduced": [{"commit": "talk b620234", "at": "01:43"}, {"commit": "talk 47f529b", "at": "01:44"}],
+   "fired": [{"commit": "talk team/researcher/wakes/20261029T030550Z.json", "what": "vault_check clean on all three vaults, recorded in the post-review"}],
+   "stopped": "to find: a vault_check failure",
+   "missed": "to research",
+   "state": "listed, evidence started"
+  }
+ ],
+ "book_team": {
+  "about": "the same register applied to this repository's own team, from round 0",
+  "evidence": [
+   {"control": "C5", "what": "sha256sum -c passed before security's keygen", "wake": "team/security/wakes/20261030T014038Z.json"},
+   {"control": "C2", "what": "security's first wake: plan go, pre-review go with conditions (defensive findings only, no key material)", "wake": "team/security/wakes/20261030T014038Z.json"},
+   {"control": "C1", "what": "agents.py check: no file outside security's scope", "wake": "team/security/wakes/20261030T014038Z.json"}
+  ]
+ }
+}

@@ -3,7 +3,43 @@
  "agent": "security",
  "kind": "editor's request (first wake)",
  "started": "2026-10-30T01:40:38Z",
- "steps": {},
- "closed": null,
- "outcome": null
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "1. Control list (round 0): controls/README.md and controls/index.json, every control in the talk record, evidence/missed to fill; no numbers outside the register. 2. Start the line-by-line review of admin/tools/pki-agent.mjs (read only): team/security/reviews/pki-agent-review.md, findings to the editor first, no key material. 3. status.json, debrief, wake record. All inside team/security/** and controls/**.",
+   "at": "2026-10-30T01:42:46Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "Inside scope.writes; no stop condition, no cross-member writes. Conditions: numbers only from claims/, cited by id; pki-agent review read only, defensive findings (what, impact, fix), no exploit steps, no key material; fixes go to the owner as a request; no em-dashes; findings to the editor first.",
+   "at": "2026-10-30T01:43:06Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "",
+   "verdict": "done",
+   "comment": "controls/README.md and index.json: C1 to C8 listed with first evidence from the talk at 298be4e, no numbers (asked of the researcher); pki-agent review started: four findings, low or information, for the editor first; request to researcher for the counts.",
+   "at": "2026-10-30T01:45:09Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "Diff inside controls/** and team/security/**; gate clean; 0 outside scope; no numbers (asked of the researcher); key-tool review defensive, editor first, no key material or exploit steps; no em-dashes; key.json public halves only. Task creation recorded at the editor's word in the session's first message (not checkable by the reviewer).",
+   "at": "2026-10-30T01:45:35Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "as-planned",
+   "comment": "Item 1 done (controls/, no numbers; counts asked of the researcher). Item 2 done (review started, read only, no key material). Item 3 at close. One in-scope extra: the request to the researcher.",
+   "at": "2026-10-30T01:45:56Z"
+  }
+ },
+ "closed": "2026-10-30T01:46:10Z",
+ "outcome": "ok"
 }

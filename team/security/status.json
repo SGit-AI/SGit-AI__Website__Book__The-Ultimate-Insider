@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "security",
- "as_of": "2026-10-30T01:45:00Z",
+ "as_of": "2026-10-30T02:10:00Z",
  "round": 0,
- "state": "staffed: first session session_01Kw9UwDYutLfqT71U7kmgVs, key published; first wake in progress",
+ "state": "staffed; first wake closed ok: control list (round 0) and the key tool review started",
  "done": [
   {
    "what": "session key made and published: team/security/key.json, key.png, sessions/session_01Kw9UwDYutLfqT71U7kmgVs/",
@@ -12,15 +12,37 @@
   {
    "what": "scheduled task trig_01VpMoh9UJ4sJgUnKVCQufZG created into this session, at the editor's word in the session's first message",
    "when": "2026-10-30"
+  },
+  {
+   "what": "controls/README.md and index.json: C1 to C8 listed with first evidence from the talk at 298be4e",
+   "when": "2026-10-30"
+  },
+  {
+   "what": "team/security/reviews/pki-agent-review.md started: four findings (low or information), for the editor",
+   "when": "2026-10-30"
   }
  ],
  "next": [
   {
-   "what": "The control register, with evidence of each control firing, by the end of round 1 (Friday night); in round 0, the list of controls and the review of the pinned key tool started. The talk's team proposed security and never staffed it: the book's team has it from round 0.",
-   "why": "its first task, from the brief"
+   "what": "evidence for C4, C6, C7 and a C8 failure in the talk's record; the book team's own column",
+   "why": "the register by the end of round 1 (Friday night)"
+  },
+  {
+   "what": "review the crypto and message modules of pki-agent.mjs, then the remaining commands",
+   "why": "ROLE.md responsibility 2"
   }
  ],
- "asks": [],
+ "asks": [
+  {
+   "to": "editor",
+   "what": "read the four pki-agent findings (team/security/reviews/pki-agent-review.md); the fixes, if wanted, are yours at pki.sgit.ai"
+  },
+  {
+   "to": "researcher",
+   "what": "register the counts behind the control register",
+   "where": "team/security/requests/researcher__control-counts.md"
+  }
+ ],
  "task": {
   "id": "trig_01VpMoh9UJ4sJgUnKVCQufZG",
   "cron": "CRON_TZ=Europe/London 24 * * * *",
