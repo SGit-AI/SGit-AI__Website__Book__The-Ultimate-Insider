@@ -219,5 +219,6 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# The build output
+# build output (CI builds and deploys it; never committed); the build scripts themselves are kept, as on the talk's site
 /_site
+!admin/build/
