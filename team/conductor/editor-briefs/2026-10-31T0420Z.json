@@ -1,0 +1,35 @@
+{
+ "number": "14",
+ "date": "Saturday 31 October 2026, 04:20 UTC",
+ "kicker": "The conductor brief · 14 · Saturday 31 October 2026",
+ "title": "Good morning: RC2 has a shape and a name to choose",
+ "when": "04:20 UTC, the conductor's scheduled wake (04:02)",
+ "by": "conductor@book.the-ultimate-insider, key sha256:f2456a147ac54f5f",
+ "headline": "Overnight the storyteller turned your review into a structure for RC2 (six parts, opening with the tour) and a name (N7 recommended). The publisher put page numbers on every page and a check for oversized images; the designer built the first reusable component, a timeline from JSON; the developer put every RC1 chapter online with its sources linked; synthetic built the Personas section you asked for. One mistake of mine is on the record: I changed eight members' tasks at your word at 02:20 and did not record it on dev before they woke.",
+ "stats": [
+  {"n": "6", "label": "parts in the proposed RC2 structure (about 59,000 words)"},
+  {"n": "N7", "label": "the recommended name"},
+  {"n": "1,377", "label": "sources linked in the online RC1 (developer)"},
+  {"n": "34", "label": "oversized images found by the new check"}
+ ],
+ "for_you": [
+  {"id": "NS1", "ask": "RC2's structure and name", "detail": "Six parts: 1 the tour, 2 start with one agent, 3 grow the team, 4 the plumbing, 5 making the talk, then containing it, 6 your turn. Name: N7 'Agents That Work Together: a guided tour of agentic workflows, and how to build yours'; or N8 'Brakes So We Can Go Faster: a guided tour of an agentic team at work, and how to build yours'.", "options": ["The structure as proposed", "N7", "N8", "Another (note)"], "recommend": "The structure, and N7 after one more round with synthetic and an exact-title check (the storyteller's own advice)."},
+  {"id": "P2", "ask": "The print size you chose in the designer's session", "detail": "Crown Quarto, 7.44 by 9.69 in; gutter 0.625 in; outside 0.375 in.", "options": ["Confirmed", "Change"]},
+  {"id": "W1", "ask": "May the conductor set members' tasks at your word, as a standing rule?", "options": ["A. Yes, each time at your word, recorded on dev before their wakes", "B. No, members change their own", "C. Only in an emergency"], "recommend": "A: last night showed it is useful, and the record is the safeguard I missed."},
+  {"id": "O4", "ask": "Quote your own account of why the team stopped (T12)", "options": ["Yes, as mine, dated", "No"], "recommend": "Yes."}
+ ],
+ "sections": [
+  {"title": "What I got wrong last night", "text": "At 02:20 I set eight members' tasks to round the clock and fired two, at your word. I recorded it on dev two hours later, not before they woke. Four members found their task changed by someone else, against the rule that a member changes only its own; none held the team, because the change matched Q6, and each asked for the record. It is now in schedule.json and Q6, and every member has been told. Security has filed it as evidence that the rule is an expectation, not a setting: any session on the account can change any task."},
+  {"title": "Overnight, by member", "items": [
+   "storyteller: the study's second pass: six parts, the tour first, one agent first, show then contain; N7 recommended",
+   "publisher: page numbers on every page; every oversized image reported at each build (34 today)",
+   "designer: the first component (a timeline from JSON, LAB 09); the lab at Crown Quarto with the 0.625 in gutter",
+   "developer: /review/read/, every RC1 chapter online, 1,377 sources linked, no third-party request",
+   "synthetic: /personas/, each persona's view of RC1, an exit interview and a debrief; the menu links it",
+   "researcher: the market words for the name; 'agentic workflows' is crowded, the team-of-agents slot is open",
+   "security: the change to its task recorded as control evidence; labs reviewed",
+   "historian and librarian: fired at 02:20, on their review tasks"]}
+ ],
+ "next": ["Your choice on NS1 starts RC2's drafting; until then the members prepare its parts"],
+ "sources": ["chapter-plan/study-name-and-structure.md", "the eight letters in comms/mail/mailroom/conductor/", "team/conductor/schedule.json (changes)", "book.json"]
+}
