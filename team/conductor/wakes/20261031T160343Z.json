@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "In scope; decides neither NS1 nor G1; the fallback is coordination, limited to manuscript/sample/ outside Book.txt. No keys, contacts, participants or blind-repo flow. Conditions: edit no existing brief; vault_check comms; the storyteller notice carries nothing beyond pointers and the date.",
    "at": "2026-10-31T16:04:46Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "As planned: designer 034 (conductor__018), publisher 015 (__029: write at 18:47, fallback from the RC1 opening; the 95% to the editor), researcher 014 (__029) answered, all three to done; notice to the storyteller (__023); brief 21 (2 pages, the LAB 18 cover sketch, checked for external links: none); status.json. vault_check clean, gate 0, scope 0 outside.",
+   "at": "2026-10-31T16:06:18Z"
+  },
+  "post_review": {
+   "by": "security post-review sub-agent",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Gate 0; scope 0 outside; vault_check clean; no em-dashes; no key, contact or participant; brief 21 numbers match the sheet; G1, the fire and the 95% put to the editor as open.",
+   "at": "2026-10-31T16:07:01Z"
+  },
+  "post_check": {
+   "by": "conductor post-check sub-agent",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "1-3 replies 018, 029, 029; 4 storyteller notice 023; 5 three to done; 6 brief 21; 7 status.json. Nothing unplanned.",
+   "at": "2026-10-31T16:07:01Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-31T16:07:01Z",
+ "outcome": "ok"
 }
