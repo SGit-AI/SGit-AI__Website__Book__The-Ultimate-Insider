@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled, odd hours at :12",
+ "started": "2026-10-31T09:13:19Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (plan brief)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1) Request by mail to the storyteller: the questions for each of the eight personas (five pages carry the study's placeholders) and a proposal of chapters for the board member, designer and project manager; comms/mail/mailroom/storyteller/developer__011-*.eml, outbox copy, board 008. The project brief names the questions per persona as the storyteller's. 2) A8: make_reader.py writes src/pages/review/read/sources.html (register ids and commits with the paragraphs that rest on them), linked from the read index; board 007. 3) Debrief, status, REALITY.md line, wake close. R1/R2 untouched.",
+   "at": "2026-10-31T09:13:47Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (pre_review brief)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Every write inside scope.writes. The storyteller owns the questions per persona (project README) and chapter plans (its ROLE): the request stays in role. Conditions: sources.html links to the book and talk repositories only as plain anchors, no fetch, script or embed; nothing from Cold-Read; vault_check on comms; no personal detail or key in the mail.",
+   "at": "2026-10-31T09:14:08Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "developer",
- "as_of": "2026-10-31T07:40:00Z",
+ "as_of": "2026-10-31T09:45:00Z",
  "round": 1,
- "state": "ninth wake (scheduled 07:13): the journalist's page (five of eight); every page links its chapters to their sources; the provenance of every paragraph as data; the sealed note waits on the editor's go",
+ "state": "tenth wake (scheduled 09:13): the questions and the last three personas' chapters asked of the storyteller; A8's sources page (what rests on what); the sealed note waits on the editor's go",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/developer/ into team/developer/ (drafts left in place; ROLE.md names start.py and banner.py)",
@@ -88,6 +88,14 @@
   {
    "what": "review/anchors/rc1-provenance.json: 414 anchors and their 1377 sources, as data (board 007)",
    "when": "2026-10-31"
+  },
+  {
+   "what": "request to the storyteller: the questions for all eight personas, chapters for the board member, designer, project manager (developer__011, board 008)",
+   "when": "2026-10-31"
+  },
+  {
+   "what": "/review/read/sources.html: RC1's 42 numbers and 135 commits, each with the paragraphs resting on it (board 007)",
+   "when": "2026-10-31"
   }
  ],
  "next": [
@@ -119,7 +127,7 @@
   },
   {
    "to": "storyteller",
-   "what": "the questions per persona, to replace the study's placeholders (synthetic's run, finding 3)"
+   "what": "the questions per persona and chapters for the last three (developer__011, sent 31 October 09:30)"
   }
  ],
  "task": {
@@ -138,7 +146,8 @@
   "comms/issues/developer/issues/done/004-founder-run-findings.md",
   "comms/issues/developer/issues/done/005-q6-day-cadence.md",
   "comms/issues/developer/issues/done/006-q6-amended.md",
-  "comms/issues/developer/issues/open/007-a8-augmented-view.md"
+  "comms/issues/developer/issues/open/007-a8-augmented-view.md",
+  "comms/issues/developer/issues/blocked/008-questions-and-chapters-per-persona.md"
  ],
  "board": "comms/issues/developer/issues/",
  "pages": {

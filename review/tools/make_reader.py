@@ -191,7 +191,8 @@ def main(talk_path):
 <p class="lead">In print, a commit hash or a file path is dead text. Here each one is a link to the record, each number links to the register entry that checks it, and every paragraph keeps the same anchor as on the review pages.</p>
 <p class="note">{total} sources linked across {len(files)} chapters. Only what was found is linked: a hash or path looked up in this repository and in the talk's at <code>{TALK_AT}</code>; anything found in neither stays plain text. Nothing loads from GitHub until you click.</p>
 <ol>{"".join(toc)}</ol>
-<p class="note">Made by <code>review/tools/make_reader.py</code> from <code>team/conductor/rc1/</code> and <code>claims/register.json</code>. Not yet: the graph behind each page, QR targets, and a page-by-page view like the PDF.</p>
+<p><a href="sources.html">What rests on what</a>: every number and commit, with the paragraphs that rest on it.</p>
+<p class="note">Made by <code>review/tools/make_reader.py</code> from <code>team/conductor/rc1/</code> and <code>claims/register.json</code>. Not yet: the graph drawn, QR targets, and a page-by-page view like the PDF.</p>
 </section>
 '''
     (OUT / 'index.html').write_text(index)
@@ -200,7 +201,54 @@ def main(talk_path):
             'note': 'Every anchored paragraph of RC1 with what it rests on: commits and paths found in the book\'s or the talk\'s repository, and register ids (claims/register.json). Made by review/tools/make_reader.py; anchors as in review/anchors/rc1.json.',
             'anchors': dict(sorted(provenance.items()))}
     (ROOT / 'review' / 'anchors' / 'rc1-provenance.json').write_text(json.dumps(data, indent=1, ensure_ascii=False) + '\n')
+    (OUT / 'sources.html').write_text(sources_page(provenance, claims, files))
     print(f'reader: {total} sources in {len(files)} chapters')
+
+
+def sources_page(provenance, claims, files):                        # the provenance turned round: each source, and the paragraphs resting on it
+    titles = {f: re.match(r'# (.*)', (RC1 / f).read_text()).group(1) for f in files}
+    by_claim, by_commit = {}, {}
+    for aid, v in provenance.items():
+        for src in v['sources']:
+            if 'claim' in src:
+                by_claim.setdefault(src['claim'], []).append((v['chapter'], aid))
+            elif 'commit' in src:
+                by_commit.setdefault((src['repository'], src['commit']), []).append((v['chapter'], aid))
+
+    def places(refs):                                               # one label per chapter, then a number for each further paragraph
+        groups = {}
+        for f, aid in sorted(set(refs), key=lambda r: (files.index(r[0]), r[1])):
+            groups.setdefault(f, []).append(aid)
+        out = []
+        for f, aids in groups.items():
+            t = titles[f]
+            label = f"ch. {t.split('.')[0]}" if t[:1].isdigit() else t.split('.')[0] if t.startswith('Appendix') else t
+            more = ''.join(f' <a class="pv-more" href="{Path(f).stem}.html#{x}" title="paragraph {i} of those here">\u00b6{i}</a>' for i, x in enumerate(aids[1:], 2))
+            out.append(f'<span class="pv-at"><a href="{Path(f).stem}.html#{aids[0]}" title="{html.escape(t)}">{html.escape(label)}</a>{more}</span>')
+        return ' · '.join(out)
+
+    rows = ''.join(f'<li id="{cid}"><b>{cid}</b> {html.escape(claims[cid]["claim"])} '
+                   f'<span class="pv-state pv-{html.escape(claims[cid].get("state", ""))}">{html.escape(claims[cid].get("state", ""))}</span>'
+                   f'<br><span class="c-dim">in</span> {places(refs)}</li>' for cid, refs in sorted(by_claim.items()))
+    commits = []
+    for side, name, repo_url in (('talk', f"the talk's repository at {TALK_AT}", TALK), ('book', "this book's repository", BOOK)):
+        items = sorted((h, refs) for (s_, h), refs in by_commit.items() if s_ == side)
+        commits.append(f'<h2>Commits in {name} ({len(items)})</h2><ul class="pv-src">'
+                       + ''.join(f'<li>{link(f"{repo_url}/commit/{h}", f"<code>{h}</code>", f"commit {h}")} {places(refs)}</li>' for h, refs in items) + '</ul>')
+    meta = {'title': 'RC1, what rests on what', 'description': 'Every number and every commit RC1 cites, with each paragraph that rests on it: the provenance of the book turned round.'}
+    return f'''<!--meta {json.dumps(meta)} -->
+<link rel="stylesheet" href="{{{{root}}}}review/pen.css">
+<section class="wrap narrow pv-page" data-no-third-party>
+<nav class="pv-nav" aria-label="Chapters"><a href="index.html">All chapters</a></nav>
+<p class="kicker">RC1, augmented · A8</p>
+<h1>What rests on what</h1>
+<p class="lead">The same sources as the chapter pages, turned round: for each number in the register and each commit, the paragraphs of RC1 that rest on it. Change a number or doubt a commit, and this is the list of what to reread.</p>
+<p class="note">From <code>review/anchors/rc1-provenance.json</code>, made by <code>review/tools/make_reader.py</code>. A link names the chapter; it lands on the paragraph.</p>
+<h2>Numbers ({len(by_claim)})</h2>
+<ol class="pv-src">{rows}</ol>
+{''.join(commits)}
+</section>
+'''
 
 
 if __name__ == '__main__':
