@@ -24,6 +24,13 @@
    "verdict": "none",
    "comment": "Idle: own task to 39 9,17 London (update_trigger, own task only); status.json cadence idle and why. Nothing else written.",
    "at": "2026-10-31T10:41:07Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (Sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Idle as planned: c5a0338 touches only status.json and the wake record; own task at 39 9,17 London, status.json matches. No cross-member writes.",
+   "at": "2026-10-31T10:41:50Z"
   }
  },
  "closed": null,
