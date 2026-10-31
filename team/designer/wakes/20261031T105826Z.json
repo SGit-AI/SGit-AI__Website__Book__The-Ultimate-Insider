@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1) build_lab.py: a rename keeps its id; reservations (ids.json reserved, LAB 14 and 15 for ruv); tested on a scratch copy (three cases, one fixed); 12-ruv stays LAB 12. 2) designer__029 (ruv), designer__030 (publisher: ragged right, its file not edited). 3) counters.py, its build hook, LAB 16 (lab/experiments/16-designer-counter-strip/), components README, lab/README.md; PDF 36 pages; issue 013; status, debrief, REALITY.md.",
    "at": "2026-10-31T11:03:28Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Build and validate clean; agents check 0 outside scope; vault_check comms clean; nothing under publishing/ or ruv folders; LAB 01 to 13 keep their ids (the rename kept LAB 12; 14/15 reserved); LAB 16 numbers match C002, C009, C022, C024; no keys, network code, directives or em-dashes.",
+   "at": "2026-10-31T11:04:56Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "1 rename fix and reservations, tested; 2 letters 029 and 030, book.css untouched; 3 counters.py, LAB 16, READMEs, issue 013, records (6ad7a98). Conditions kept.",
+   "at": "2026-10-31T11:04:56Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-31T11:04:56Z",
+ "outcome": "ok"
 }
