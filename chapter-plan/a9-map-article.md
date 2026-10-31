@@ -1,6 +1,6 @@
-# A9: the map article, draft 1, for the editor
+# A9: the map article, draft 2, for the editor
 
-storyteller@book.the-ultimate-insider, 31 October 2026, the 04:40 UTC wake. **A draft for the editor to read, change or drop. It goes to the newsroom only at his word, through the conductor; nothing has been sent.** Written in his voice (first person), from RC1's map chapter (`team/conductor/rc1/00b-how-to-read-a-map.md`) reshaped by his own words on it (`briefs/2026-10-31__rc1-paper-review/batch-05-pages-10-to-13.md` and `batch-06-pages-14-to-19-wardley-maps.md`; themes T8 and T10 in `team/conductor/rc1/editor-review/notes.json`). Where a sentence is his idea in his words, it is his; the shape and the joins are mine, to be corrected. Figures are the team's existing maps (`team/conductor/rc1/maps/`), named where they would go. One reference is pending: his newsroom article on several kinds of evolution, asked of the researcher.
+storyteller@book.the-ultimate-insider, 31 October 2026, the 04:40 UTC wake. **A draft for the editor to read, change or drop. It goes to the newsroom only at his word, through the conductor; nothing has been sent.** Written in his voice (first person), from RC1's map chapter (`team/conductor/rc1/00b-how-to-read-a-map.md`) reshaped by his own words on it (`briefs/2026-10-31__rc1-paper-review/batch-05-pages-10-to-13.md` and `batch-06-pages-14-to-19-wardley-maps.md`; themes T8 and T10 in `team/conductor/rc1/editor-review/notes.json`). Where a sentence is his idea in his words, it is his; the shape and the joins are mine, to be corrected. Figures are the team's existing maps (`team/conductor/rc1/maps/`), named where they would go. References from the researcher (letter 003, read 31 October 2026, about 06:45 UTC): "Why I love Wardley maps" (12 October 2026) for the map inside a map and "the axis is a choice"; "Fractal Semantic Graphs" (20 September 2026) for the idea. **Draft 2** (the 06:39 UTC wake): those cited, the kinds-of-evolution passage cut to what the sources show, his seven-or-eight article left as his question.
 
 ---
 
@@ -36,6 +36,8 @@ Open any dot and there is a map inside it. The player, one dot on the map of the
 
 *Figure 3: one dot opening into its own map (to be drawn and animated: this is where visuals do what words cannot).*
 
+I showed one of these in October: the same business at three altitudes, where the vault is a dot on the business map and the anchor of the vault map below it ("Why I love Wardley maps", 12 October 2026). It is the same idea as fractal semantic graphs (20 September 2026): everything connects to everything, at whatever depth you need.
+
 This is where maps are most powerful, and where pictures and animation earn their place: you can travel through the system at the level of detail the question needs, and never lose where you are.
 
 ### Start from an anchor
@@ -44,7 +46,7 @@ Simon Wardley, who created these maps and has published the method openly, recom
 
 ### The axis is not always the same
 
-The four stages a first map usually uses (genesis, custom built, product, commodity) are one evolution axis among several. I have drawn maps whose left-to-right is how well a risk is understood, how settled a timing is, how mature a classification is: different kinds of evolution, each from one to four. *[Reference pending: the newsroom article where I show several kinds of evolution side by side; the researcher is finding it.]* What matters is that position has a meaning you can say out loud.
+The four stages a first map usually uses (genesis, custom built, product, commodity) are one evolution axis, and the axis is a choice. Risk, data and governance can each be an axis of their own. *[The editor remembers an article showing seven or eight kinds of evolution; the researcher found none in the newsroom (the nearest is "Why I love Wardley maps", 12 October 2026, which names these three). Which piece he means, or whether to write it, is his question.]* What matters is that position has a meaning you can say out loud.
 
 ### Explorers, villagers and town planners
 
@@ -68,7 +70,7 @@ Look back at what you have read. A graph of what needs what. The same graph with
 
 That is a Wardley map. You have been reading them since the second figure.
 
-*Further: Simon Wardley's own writing on mapping; my newsroom articles that think with a map, listed under "Thinking with a Wardley map" on newsroom.sgit.ai.*
+*Further: Simon Wardley's own writing on mapping; "Why I love Wardley maps: the best of ours, how I read one, and a map inside a map inside a map" (newsroom.sgit.ai, 12 October 2026); "Fractal Semantic Graphs" (20 September 2026); and the articles that think with a map, under "Thinking with a Wardley map" on newsroom.sgit.ai.*
 
 ---
 
