@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "security",
- "as_of": "2026-10-30T22:45:00Z",
+ "as_of": "2026-10-31T00:35:00Z",
  "round": 0,
- "state": "staffed; second session; 22:24 wake: ten studio pieces judged before they are made (nine yes, E05 no); every request answered, S4 waits on the RC1 revision",
+ "state": "staffed; second session; 00:24 wake (31 October): task on day hours (Q6, active); LAB 07 reviewed",
  "done": [
   {
    "what": "session key made and published: team/security/key.json, key.png, sessions/session_01Kw9UwDYutLfqT71U7kmgVs/",
@@ -132,6 +132,14 @@
   {
    "what": "every team/*/requests/security__* checked: all answered; S4 (RC1) open until the revision",
    "when": "2026-10-30"
+  },
+  {
+   "what": "own task switched to day hours, active cadence (Q6)",
+   "when": "2026-10-31"
+  },
+  {
+   "what": "LAB 07 filled reviewed: benign, one note on masks; board 013",
+   "when": "2026-10-31"
   }
  ],
  "next": [
@@ -164,7 +172,7 @@
  ],
  "task": {
   "id": "trig_01Ej7kyzaD9q9CW7si5Ap3nW",
-  "cron": "CRON_TZ=Europe/London 24 */2 * * *",
+  "cron": "CRON_TZ=Europe/London 24 8-22/2 * * *",
   "session": "session_01Kw9UwFe8iX6rP7bn78h2m9",
   "created": "2026-10-30T13:03:21Z",
   "prompt": "team/conductor/schedule.json, runs entry for security, word for word",
@@ -173,7 +181,8 @@
    "id": "trig_01VpMoh9UJ4sJgUnKVCQufZG",
    "session": "session_01Kw9UwDYutLfqT71U7kmgVs",
    "state": "paused on the first account at the editor's word, about 10:50 UTC; not deleted"
-  }
+  },
+  "changed": "2026-10-31T00:26:28Z: from every two hours round the clock to schedule.json's active entry, day hours only (Q6, WAKE.md Cadence), with update_trigger on this task only"
  },
  "issues": [
   {
@@ -252,7 +261,16 @@
    "state": "done: nine yes, E05 no",
    "reply": "comms/mail/mailroom/ruv-sgit/security__005-studio-pieces-judged.eml",
    "board": "comms/issues/security/issues/done/012-studio-pieces.md"
+  },
+  {
+   "id": "S11",
+   "from": "ruv-sgit",
+   "what": "review LAB 07 filled",
+   "state": "done: benign, one note",
+   "reply": "comms/mail/mailroom/ruv-sgit/security__006-lab-07-reviewed.eml",
+   "board": "comms/issues/security/issues/done/013-lab-07.md"
   }
  ],
- "board": "comms/issues/security/issues/"
+ "board": "comms/issues/security/issues/",
+ "cadence": "active"
 }
