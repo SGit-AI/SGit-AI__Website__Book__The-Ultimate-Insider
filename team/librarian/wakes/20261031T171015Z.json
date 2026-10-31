@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, idle at 09:09 and 17:09 London",
+ "started": "2026-10-31T17:10:15Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "Idle wake: no new mail, no manuscript change, no RC2 chapters (only a build list on the publisher's board); 002 and 005 wait. status.json and the wake record only; task kept on the idle schedule.",
+   "at": "2026-10-31T17:10:44Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "Only status.json and the wake record, in scope; no hold, no secrets, no cross-member writes, no schedule created; the idle cadence matches WAKE.md Cadence 3.",
+   "at": "2026-10-31T17:10:58Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "none",
+   "comment": "Idle: no request, no RC2 chapters. status.json says so; task kept on the idle schedule.",
+   "at": "2026-10-31T17:10:58Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
