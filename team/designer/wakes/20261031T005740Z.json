@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1. LAB 08 (lab/experiments/08-designer-control-before-after/, C10, the storyteller's words), lab.css panel rules, PDF 18 pages at Crown Quarto, SHA256SUMS; issue 007 done; designer__016 to the storyteller. 2. LAB 07: seven of ten slots filled; held again because its 85 mm + 85 mm grid runs past the 167 mm text block; ids.json reason; designer__015 to ruv. 3. status, debrief, REALITY.md; vault_check clean.",
    "at": "2026-10-31T01:01:30Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Build and validate pass; agents check 0 outside scope; vault_check comms clean; no keys, tokens, personal detail, numbers or em-dashes; nothing under ruv's folders; LAB 08 shows C10 refusing then slipping with no setting or method, the editor only 'not yet signed'; jokes aim at the cast.",
+   "at": "2026-10-31T01:02:19Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "1 LAB 08, PDF, issue 007, designer__016 done; 2 LAB 07 verdict, held again for width, ids.json, designer__015 done; 3 status, debrief, REALITY.md done (d704680). Conditions kept. Nothing unplanned.",
+   "at": "2026-10-31T01:02:19Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-31T01:02:19Z",
+ "outcome": "ok"
 }
