@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Done BEFORE the plan and pre-review (a lapse, recorded and reported): LK1 fragment and previews, G1 title page, the placed drawings judged, LAB 20 in, LAB 23/24 reserved, letters 039 to 041, issue 019, records; and after the after-the-fact review: the lapse in the debrief and designer__042 to the conductor.",
    "at": "2026-10-31T21:04:15Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Build, validate, agents check, vault_check pass; no secrets or em-dashes; nothing under publishing/, manuscript/ or ruv's folders; preview.py refuses a scratch inside the repo and writes only lab/pdf/; the lapse recorded honestly (wake record, debrief, designer__042); nothing pushed before the gate. Nit (fixed): the debrief's first line read as if the steps ran in order.",
+   "at": "2026-10-31T21:05:19Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "off-plan",
+   "comment": "The plan was written after the work, so it is a record, not a plan; its items match the diff and are done. Conditions: the lapse recorded and reported (kept); the gate passed before any push (kept: nothing on a remote before it). Unplanned: LAB 20 in and the lab PDF rebuilt.",
+   "at": "2026-10-31T21:05:19Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-31T21:05:19Z",
+ "outcome": "partial"
 }
