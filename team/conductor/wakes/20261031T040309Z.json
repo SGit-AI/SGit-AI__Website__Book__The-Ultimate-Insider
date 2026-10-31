@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Second pass, on the amended plan: all five conditions met. At the post-review: book.json marks nothing signed that he has not signed; no key or contact; vault_check on comms.",
    "at": "2026-10-31T04:04:26Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "1. The 02:20 record: schedule.json changes, Q6, a letter to all ten members; W1 open, WAKE.md unchanged; eight letters answered. 2. V2 (RC1 locked) decided in his words; P2 relayed through the designer's session, open; NS1 open; D6-1 to D6-4 marked overtaken, open; Personas in site.json. 3. Brief 14, debrief, status. vault_check and gate clean.",
+   "at": "2026-10-31T04:05:52Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "Gate exit 0 (270 pages); 0 outside scope; vault_check clean; no em-dashes, key or contact; WAKE.md unchanged; the 02:20 record complete and honest; W1, P2 (relayed), NS1 open; V2 with his direct words. Minor, fixed: a note on the researcher's and storyteller's first-account task ids.",
+   "at": "2026-10-31T04:06:39Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "as-planned",
+   "comment": "1 the 02:20 record, ten letters, eight answered. 2 V2, P2, NS1, D6 notes, Personas link. 3 brief 14, debrief, status. Nothing unplanned.",
+   "at": "2026-10-31T04:06:39Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-31T04:06:39Z",
+ "outcome": "ok"
 }
