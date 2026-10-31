@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake",
+ "started": "2026-10-31T16:03:43Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. Reply designer 034 (conductor__018): LAB 18 taken; the cover sketch to the editor in brief 21 beside G1. 2. Reply publisher 015 (conductor__029): wait for the storyteller's 17:39 outline, write at 18:47; if none, write from the RC1 opening, the brief and the number sheet; sample in manuscript/sample/; the 95% sentence is the editor's, put to him. 3. Reply researcher 014 (conductor__029): sheet taken; path manuscript/sample/. 4. Notice to the storyteller (conductor__023). 5. The three to done. 6. Brief 21 (cover image only if it exists). 7. status.json. vault_check, gate.",
+   "at": "2026-10-31T16:04:26Z"
+  },
+  "pre_review": {
+   "by": "security pre-review sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; decides neither NS1 nor G1; the fallback is coordination, limited to manuscript/sample/ outside Book.txt. No keys, contacts, participants or blind-repo flow. Conditions: edit no existing brief; vault_check comms; the storyteller notice carries nothing beyond pointers and the date.",
+   "at": "2026-10-31T16:04:46Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
