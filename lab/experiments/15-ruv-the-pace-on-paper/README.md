@@ -17,3 +17,7 @@ This book's team's own wake records (`team/*/wakes/*.json`, read only), up to th
 ## Questions for the editor
 
 Does the grid give the size and momentum at a glance on paper? Is boxing the chat-started wakes enough to show the two kinds of trigger?
+
+## The talk's day, added at the 14:54 wake
+
+The researcher registered T18's night-against-day counts as C092, for the talk's day (29 October). They belong beside a grid of that day, not of this book's team, so the experiment now opens with the talk's own day: its 162 wake records at `298be4e` (read with `git show`, the clone read only), classed as C087 classes them (scheduled; started by the editor, boxed; follow-up, dashed). My classing reproduces C087's and C092's wake splits exactly. Beside it, C092's commits, releases and wakes, night (00:16 to 05:59) against day (06:00 to 18:59), each cited; and the record's gap stated, as the researcher asked: tokens and network calls are not in the record (C021), so the page shows none rather than a blank. This book's team's grid is the second sheet, as before. `tools/build.py --talk <clone> --until <ISO UTC>` writes `pace-talk.svg`, `pace-team.svg` and `pages.html`. In the lab's build: three pages, the header on its own.
