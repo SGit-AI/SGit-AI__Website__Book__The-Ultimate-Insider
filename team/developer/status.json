@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "developer",
- "as_of": "2026-10-31T05:40:00Z",
+ "as_of": "2026-10-31T07:40:00Z",
  "round": 1,
- "state": "eighth wake (scheduled 05:12): register values readable in the reader; the CTO's and the developer's pages on the site (four of eight); the sealed note waits on the editor's go",
+ "state": "ninth wake (scheduled 07:13): the journalist's page (five of eight); every page links its chapters to their sources; the provenance of every paragraph as data; the sealed note waits on the editor's go",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/developer/ into team/developer/ (drafts left in place; ROLE.md names start.py and banner.py)",
@@ -80,11 +80,19 @@
   {
    "what": "/review/cto.html (RC1 ch 4, 8; about 37 min) and /review/developer.html (ch 9 and Appendix A; about 26 min), from the reviewers study 1.5 and 1.4; letter developer__009 to synthetic",
    "when": "2026-10-31"
+  },
+  {
+   "what": "/review/journalist.html (RC1 ch 1, 8; about 30 min; study 1.7); every review page links each chapter to its augmented view; letter developer__010",
+   "when": "2026-10-31"
+  },
+  {
+   "what": "review/anchors/rc1-provenance.json: 414 anchors and their 1377 sources, as data (board 007)",
+   "when": "2026-10-31"
   }
  ],
  "next": [
   {
-   "what": "A8 next: the graph behind each page, QR targets, a page-by-page view like the PDF; RC1's 'Where this came from' lists as structured data",
+   "what": "A8 next: the graph behind each page drawn from rc1-provenance.json, QR targets, a page-by-page view like the PDF",
    "why": "the conductor's letter conductor__005 (A8)"
   },
   {
@@ -92,7 +100,7 @@
    "why": "ROLE.md responsibility 2; waits on the editor's go"
   },
   {
-   "what": "the other four personas' pages (board member, designer, project manager, journalist); the study covers the journalist (1.7), the other three need their chapters and questions named",
+   "what": "the other three personas' pages (board member, designer, project manager): not in the reviewers study, so their chapters and questions need naming (asked of the editor)",
    "why": "ROLE.md responsibility 1; synthetic@ runs each as it lands"
   },
   {
@@ -138,7 +146,8 @@
   "founder": "/review/founder.html",
   "read": "/review/read/index.html",
   "cto": "/review/cto.html",
-  "developer": "/review/developer.html"
+  "developer": "/review/developer.html",
+  "journalist": "/review/journalist.html"
  },
  "cadence": "active"
 }

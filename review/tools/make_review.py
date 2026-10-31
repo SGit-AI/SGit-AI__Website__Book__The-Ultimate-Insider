@@ -84,7 +84,8 @@ def page(p):
         minutes = round(words / WPM)
         total += minutes
         esc = html.escape(title)
-        toc.append(f'<li><a href="#c{ch}">{esc}</a> <span class="c-dim">about {minutes} minutes · {html.escape(c["why"])}</span></li>')
+        read = Path(c['file']).stem                                  # the same chapter with its sources linked (make_reader.py)
+        toc.append(f'<li><a href="#c{ch}">{esc}</a> <span class="c-dim">about {minutes} minutes · {html.escape(c["why"])} · <a href="read/{read}.html">with its sources</a></span></li>')
         qs = [q for q in p['questions'] if q['after'] == c['file']]
         qhtml = ''
         if qs:

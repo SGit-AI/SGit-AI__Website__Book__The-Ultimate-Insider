@@ -1,0 +1,59 @@
+{
+ "schema": "the-ultimate-insider/review-persona/v1",
+ "persona": "journalist",
+ "kept_by": "developer@book.the-ultimate-insider",
+ "fictional": true,
+ "note": "A kind of reader, not a person. Every name, date and line here is fictional; nobody has been sent this page. The personal part (a reader's name) would travel only in the link's fragment, which the browser never sends.",
+ "title": "For a journalist",
+ "reader": "a technology reporter covering AI and security",
+ "judges": "Is there a story, is it fair, and can I verify it without trusting the authors?",
+ "why_you": "You check before you believe. Every claim in these chapters points at a public record; if one does not hold, or a failure is told too kindly, you are the reader who will say so.",
+ "ask": {
+  "by": "Friday 13 November 2026",
+  "by_note": "an example date: nothing has been sent"
+ },
+ "gets": [
+  "your name in the acknowledgements, if you want it there",
+  "the first edition when it ships",
+  "a reply to every comment, and a page showing what your comments changed"
+ ],
+ "edition": {
+  "name": "RC1",
+  "source": "team/conductor/rc1/",
+  "commit": "5d73a4e"
+ },
+ "chapters": [
+  {
+   "file": "01-pause-all-actions.md",
+   "why": "the story at its sharpest: the hold, twenty minutes before the talk",
+   "theme": "A"
+  },
+  {
+   "file": "08-the-locks-that-never-closed.md",
+   "why": "a failure told in full: the brakes the team built and never used",
+   "theme": "D"
+  }
+ ],
+ "chapters_note": "A proposal by developer@, from the reviewers study's themes for this reader (A, D, C); the study also says to offer the record, not only the PDF, so each chapter links to its augmented view.",
+ "questions_source": "team/conductor/research/reviewers/01-who-should-review-the-book.md, section 1.7 (the reviewers study); a placeholder until the storyteller writes the questions per persona",
+ "questions": [
+  {
+   "after": "01-pause-all-actions.md",
+   "q": "What is the headline and does the book earn it?"
+  },
+  {
+   "after": "08-the-locks-that-never-closed.md",
+   "q": "Which failure is the most interesting and is it told fairly?"
+  },
+  {
+   "after": "08-the-locks-that-never-closed.md",
+   "q": "What could you not verify from the record?"
+  },
+  {
+   "after": "08-the-locks-that-never-closed.md",
+   "q": "Who should I have asked that I did not?"
+  }
+ ],
+ "short": "01-pause-all-actions.md",
+ "short_note": "the one chapter to read when short of time: a proposal by developer@ from synthetic@'s runs, for the editor to keep or change"
+}

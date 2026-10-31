@@ -1,0 +1,7121 @@
+{
+ "schema": "the-ultimate-insider/provenance/v1",
+ "edition": "RC1",
+ "source": "team/conductor/rc1/",
+ "repositories": {
+  "book": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider",
+  "talk": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider at 298be4e"
+ },
+ "note": "Every anchored paragraph of RC1 with what it rests on: commits and paths found in the book's or the talk's repository, and register ids (claims/register.json). Made by review/tools/make_reader.py; anchors as in review/anchors/rc1.json.",
+ "anchors": {
+  "0-28ca98": {
+   "chapter": "0-about-this-release-candidate.md",
+   "sources": [
+    {
+     "path": "chapter-plan/plan.md",
+     "repository": "book"
+    },
+    {
+     "path": "team/conductor/rc1/BRIEF.md",
+     "repository": "book"
+    },
+    {
+     "claim": "C011"
+    }
+   ]
+  },
+  "0-b42041": {
+   "chapter": "0-about-this-release-candidate.md",
+   "sources": [
+    {
+     "claim": "C001"
+    },
+    {
+     "claim": "C042"
+    }
+   ]
+  },
+  "0-c39223": {
+   "chapter": "0-about-this-release-candidate.md",
+   "sources": [
+    {
+     "commit": "298be4e",
+     "repository": "talk"
+    },
+    {
+     "commit": "a9c0b49",
+     "repository": "talk"
+    }
+   ]
+  },
+  "00-1932a4": {
+   "chapter": "00-before-you-start.md",
+   "sources": [
+    {
+     "commit": "298be4e",
+     "repository": "talk"
+    },
+    {
+     "commit": "2e4b1f4",
+     "repository": "talk"
+    },
+    {
+     "path": "team/",
+     "repository": "talk"
+    }
+   ]
+  },
+  "00-21409c": {
+   "chapter": "00-before-you-start.md",
+   "sources": [
+    {
+     "commit": "298be4e",
+     "repository": "talk"
+    },
+    {
+     "commit": "867f8c2",
+     "repository": "talk"
+    }
+   ]
+  },
+  "00-2d0097": {
+   "chapter": "00-before-you-start.md",
+   "sources": [
+    {
+     "claim": "C011"
+    }
+   ]
+  },
+  "00-349cc1": {
+   "chapter": "00-before-you-start.md",
+   "sources": [
+    {
+     "path": "team/motion/debriefs/img/meet-the-team__1280__t11.png",
+     "repository": "talk"
+    },
+    {
+     "commit": "a9c0b49",
+     "repository": "talk"
+    }
+   ]
+  },
+  "00-b46f7e": {
+   "chapter": "00-before-you-start.md",
+   "sources": [
+    {
+     "claim": "C010"
+    }
+   ]
+  },
+  "00-cae101": {
+   "chapter": "00-before-you-start.md",
+   "sources": [
+    {
+     "claim": "C007"
+    },
+    {
+     "claim": "C005"
+    }
+   ]
+  },
+  "00-cba3e1": {
+   "chapter": "00-before-you-start.md",
+   "sources": [
+    {
+     "path": "chapter-plan/plan.md",
+     "repository": "book"
+    }
+   ]
+  },
+  "00-d74fb1": {
+   "chapter": "00-before-you-start.md",
+   "sources": [
+    {
+     "claim": "C011"
+    }
+   ]
+  },
+  "00-e2319d": {
+   "chapter": "00-before-you-start.md",
+   "sources": [
+    {
+     "claim": "C011"
+    }
+   ]
+  },
+  "00-e94ea2": {
+   "chapter": "00-before-you-start.md",
+   "sources": [
+    {
+     "claim": "C010"
+    },
+    {
+     "claim": "C011"
+    }
+   ]
+  },
+  "00-f460c7": {
+   "chapter": "00-before-you-start.md",
+   "sources": [
+    {
+     "path": "briefs/2026-10-30/1-book-conductor-brief.md",
+     "repository": "book"
+    }
+   ]
+  },
+  "00b-175b28": {
+   "chapter": "00b-how-to-read-a-map.md",
+   "sources": [
+    {
+     "path": "team/conductor/rc1/maps/README.md",
+     "repository": "book"
+    },
+    {
+     "path": "team/conductor/rc1/tools/wardley.py",
+     "repository": "book"
+    },
+    {
+     "path": "team/conductor/rc1/maps/placements.json",
+     "repository": "book"
+    }
+   ]
+  },
+  "00b-1e0684": {
+   "chapter": "00b-how-to-read-a-map.md",
+   "sources": [
+    {
+     "claim": "C011"
+    }
+   ]
+  },
+  "00b-33f5e1": {
+   "chapter": "00b-how-to-read-a-map.md",
+   "sources": [
+    {
+     "path": "team/conductor/rc1/research/the-two-and-a-half-years.md",
+     "repository": "book"
+    }
+   ]
+  },
+  "00b-5662cb": {
+   "chapter": "00b-how-to-read-a-map.md",
+   "sources": [
+    {
+     "commit": "298be4e",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/briefs/2026-10-29__editor/6-answers-1715.md",
+     "repository": "talk"
+    },
+    {
+     "commit": "8fee7e3",
+     "repository": "talk"
+    }
+   ]
+  },
+  "00b-81db09": {
+   "chapter": "00b-how-to-read-a-map.md",
+   "sources": [
+    {
+     "path": "team/conductor/rc1/resources/images/maps/01-a-need-and-two-parts.png",
+     "repository": "book"
+    },
+    {
+     "path": "team/conductor/rc1/tools/wardley_png.js",
+     "repository": "book"
+    }
+   ]
+  },
+  "00b-8543da": {
+   "chapter": "00b-how-to-read-a-map.md",
+   "sources": [
+    {
+     "commit": "8fee7e3",
+     "repository": "talk"
+    }
+   ]
+  },
+  "00b-b91ebe": {
+   "chapter": "00b-how-to-read-a-map.md",
+   "sources": [
+    {
+     "path": "briefs/2026-10-30__in-session/01-principles-maps-and-the-plumbing.md",
+     "repository": "book"
+    }
+   ]
+  },
+  "00b-bbb4b9": {
+   "chapter": "00b-how-to-read-a-map.md",
+   "sources": [
+    {
+     "claim": "C011"
+    }
+   ]
+  },
+  "00b-c9ba2e": {
+   "chapter": "00b-how-to-read-a-map.md",
+   "sources": [
+    {
+     "path": "team/conductor/rc1/reviews/gen-zx-team.md",
+     "repository": "book"
+    }
+   ]
+  },
+  "01-0383cf": {
+   "chapter": "01-pause-all-actions.md",
+   "sources": [
+    {
+     "commit": "09f13d5",
+     "repository": "talk"
+    },
+    {
+     "path": "index/areas/team-conductor.md",
+     "repository": "book"
+    }
+   ]
+  },
+  "01-044b6a": {
+   "chapter": "01-pause-all-actions.md",
+   "sources": [
+    {
+     "commit": "b1c9bab",
+     "repository": "talk"
+    }
+   ]
+  },
+  "01-1ee8e4": {
+   "chapter": "01-pause-all-actions.md",
+   "sources": [
+    {
+     "path": "timeline/turning-points.md",
+     "repository": "book"
+    }
+   ]
+  },
+  "01-2afecb": {
+   "chapter": "01-pause-all-actions.md",
+   "sources": [
+    {
+     "commit": "2ed6427",
+     "repository": "talk"
+    },
+    {
+     "commit": "4a2481b",
+     "repository": "talk"
+    },
+    {
+     "claim": "C027"
+    }
+   ]
+  },
+  "01-2f8815": {
+   "chapter": "01-pause-all-actions.md",
+   "sources": [
+    {
+     "commit": "41d4757",
+     "repository": "talk"
+    },
+    {
+     "commit": "c9ced4e",
+     "repository": "talk"
+    }
+   ]
+  },
+  "01-305984": {
+   "chapter": "01-pause-all-actions.md",
+   "sources": [
+    {
+     "commit": "60af587",
+     "repository": "talk"
+    },
+    {
+     "commit": "a082c52",
+     "repository": "talk"
+    }
+   ]
+  },
+  "01-39345e": {
+   "chapter": "01-pause-all-actions.md",
+   "sources": [
+    {
+     "path": "index/areas/team-conductor.md",
+     "repository": "book"
+    },
+    {
+     "path": "controls/index.json",
+     "repository": "book"
+    }
+   ]
+  },
+  "01-39ec03": {
+   "chapter": "01-pause-all-actions.md",
+   "sources": [
+    {
+     "commit": "78d517d",
+     "repository": "talk"
+    },
+    {
+     "commit": "545a473",
+     "repository": "talk"
+    },
+    {
+     "commit": "3314ffe",
+     "repository": "talk"
+    }
+   ]
+  },
+  "01-4e202c": {
+   "chapter": "01-pause-all-actions.md",
+   "sources": [
+    {
+     "commit": "3342cff",
+     "repository": "talk"
+    }
+   ]
+  },
+  "01-634663": {
+   "chapter": "01-pause-all-actions.md",
+   "sources": [
+    {
+     "path": "chapter-plan/plan.md",
+     "repository": "book"
+    }
+   ]
+  },
+  "01-6676a3": {
+   "chapter": "01-pause-all-actions.md",
+   "sources": [
+    {
+     "path": "timeline/day/18.md",
+     "repository": "book"
+    },
+    {
+     "path": "timeline/day/17.md",
+     "repository": "book"
+    },
+    {
+     "path": "timeline/turning-points.md",
+     "repository": "book"
+    },
+    {
+     "path": "timeline/after-1900.md",
+     "repository": "book"
+    },
+    {
+     "path": "timeline/unmerged.md",
+     "repository": "book"
+    },
+    {
+     "commit": "39df303",
+     "repository": "talk"
+    }
+   ]
+  },
+  "01-6b2a7f": {
+   "chapter": "01-pause-all-actions.md",
+   "sources": [
+    {
+     "commit": "88b8f00",
+     "repository": "talk"
+    },
+    {
+     "commit": "cb5b996",
+     "repository": "talk"
+    },
+    {
+     "path": "timeline/unmerged.md",
+     "repository": "book"
+    },
+    {
+     "claim": "C005"
+    },
+    {
+     "claim": "C005"
+    },
+    {
+     "claim": "C006"
+    }
+   ]
+  },
+  "01-799c0e": {
+   "chapter": "01-pause-all-actions.md",
+   "sources": [
+    {
+     "commit": "3260997",
+     "repository": "talk"
+    }
+   ]
+  },
+  "01-80b092": {
+   "chapter": "01-pause-all-actions.md",
+   "sources": [
+    {
+     "commit": "3342cff",
+     "repository": "talk"
+    }
+   ]
+  },
+  "01-813efd": {
+   "chapter": "01-pause-all-actions.md",
+   "sources": [
+    {
+     "claim": "C005"
+    },
+    {
+     "claim": "C006"
+    },
+    {
+     "claim": "C021"
+    },
+    {
+     "claim": "C024"
+    },
+    {
+     "claim": "C027"
+    },
+    {
+     "claim": "C037"
+    }
+   ]
+  },
+  "01-8614ab": {
+   "chapter": "01-pause-all-actions.md",
+   "sources": [
+    {
+     "commit": "09f13d5",
+     "repository": "talk"
+    }
+   ]
+  },
+  "01-8d2199": {
+   "chapter": "01-pause-all-actions.md",
+   "sources": [
+    {
+     "commit": "1f7c633",
+     "repository": "talk"
+    },
+    {
+     "commit": "97b98d9",
+     "repository": "talk"
+    },
+    {
+     "commit": "20ab1a3",
+     "repository": "talk"
+    },
+    {
+     "commit": "a3a4807",
+     "repository": "talk"
+    },
+    {
+     "commit": "d8f3300",
+     "repository": "talk"
+    },
+    {
+     "commit": "b620234",
+     "repository": "talk"
+    },
+    {
+     "commit": "60af587",
+     "repository": "talk"
+    },
+    {
+     "commit": "a082c52",
+     "repository": "talk"
+    },
+    {
+     "commit": "c8f6f8f",
+     "repository": "talk"
+    },
+    {
+     "commit": "99aaf05",
+     "repository": "talk"
+    },
+    {
+     "commit": "41d4757",
+     "repository": "talk"
+    },
+    {
+     "commit": "c9ced4e",
+     "repository": "talk"
+    },
+    {
+     "commit": "78d517d",
+     "repository": "talk"
+    },
+    {
+     "commit": "545a473",
+     "repository": "talk"
+    },
+    {
+     "commit": "7d0244d",
+     "repository": "talk"
+    },
+    {
+     "commit": "f1cbca0",
+     "repository": "talk"
+    },
+    {
+     "commit": "8d208d3",
+     "repository": "talk"
+    },
+    {
+     "commit": "3314ffe",
+     "repository": "talk"
+    }
+   ]
+  },
+  "01-924bc0": {
+   "chapter": "01-pause-all-actions.md",
+   "sources": [
+    {
+     "commit": "867f8c2",
+     "repository": "talk"
+    },
+    {
+     "commit": "7968c99",
+     "repository": "talk"
+    },
+    {
+     "claim": "C037"
+    },
+    {
+     "claim": "C006"
+    }
+   ]
+  },
+  "01-c0ecdd": {
+   "chapter": "01-pause-all-actions.md",
+   "sources": [
+    {
+     "commit": "c8f6f8f",
+     "repository": "talk"
+    },
+    {
+     "commit": "99aaf05",
+     "repository": "talk"
+    }
+   ]
+  },
+  "01-cdcfe0": {
+   "chapter": "01-pause-all-actions.md",
+   "sources": [
+    {
+     "commit": "09f13d5",
+     "repository": "talk"
+    },
+    {
+     "commit": "d8f3300",
+     "repository": "talk"
+    },
+    {
+     "commit": "b620234",
+     "repository": "talk"
+    }
+   ]
+  },
+  "01-ce96be": {
+   "chapter": "01-pause-all-actions.md",
+   "sources": [
+    {
+     "claim": "C021"
+    }
+   ]
+  },
+  "01-d82090": {
+   "chapter": "01-pause-all-actions.md",
+   "sources": [
+    {
+     "claim": "C024"
+    }
+   ]
+  },
+  "01-e57bb8": {
+   "chapter": "01-pause-all-actions.md",
+   "sources": [
+    {
+     "claim": "C027"
+    }
+   ]
+  },
+  "01-eaced1": {
+   "chapter": "01-pause-all-actions.md",
+   "sources": [
+    {
+     "commit": "298be4e",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/HOLD.md",
+     "repository": "talk"
+    },
+    {
+     "commit": "867f8c2",
+     "repository": "talk"
+    },
+    {
+     "commit": "7968c99",
+     "repository": "talk"
+    },
+    {
+     "commit": "2ed6427",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/night/20261029T1838.json",
+     "repository": "talk"
+    },
+    {
+     "commit": "dbd75ad",
+     "repository": "talk"
+    },
+    {
+     "commit": "b3f208f",
+     "repository": "talk"
+    },
+    {
+     "commit": "7323986",
+     "repository": "talk"
+    },
+    {
+     "commit": "e8c0fbb",
+     "repository": "talk"
+    },
+    {
+     "commit": "0ecddca",
+     "repository": "talk"
+    },
+    {
+     "commit": "4a2481b",
+     "repository": "talk"
+    },
+    {
+     "commit": "b1c9bab",
+     "repository": "talk"
+    },
+    {
+     "commit": "9d27703",
+     "repository": "talk"
+    },
+    {
+     "commit": "3260997",
+     "repository": "talk"
+    },
+    {
+     "commit": "88b8f00",
+     "repository": "talk"
+    },
+    {
+     "commit": "cb5b996",
+     "repository": "talk"
+    },
+    {
+     "commit": "3342cff",
+     "repository": "talk"
+    },
+    {
+     "commit": "09f13d5",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/WAKE.md",
+     "repository": "talk"
+    },
+    {
+     "path": "team/designer/wakes/20261029T184016Z.json",
+     "repository": "talk"
+    }
+   ]
+  },
+  "01-ec645d": {
+   "chapter": "01-pause-all-actions.md",
+   "sources": [
+    {
+     "path": "team/conductor/debriefs/img/night-20261029T1838-1.png",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/debriefs/img/night-20261029T1838-2.png",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/debriefs/img/night-20261029T1838-3.png",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/debriefs/img/night-20261029T1838-4.png",
+     "repository": "talk"
+    },
+    {
+     "path": "team/designer/debriefs/img/2026-10-29__part-2-projector-check__01-s-port-journey__1920.jpg",
+     "repository": "talk"
+    },
+    {
+     "path": "team/designer/debriefs/img/2026-10-29__part-2-projector-check__02-abp__1920.jpg",
+     "repository": "talk"
+    },
+    {
+     "commit": "a9c0b49",
+     "repository": "talk"
+    }
+   ]
+  },
+  "01-f5e132": {
+   "chapter": "01-pause-all-actions.md",
+   "sources": [
+    {
+     "commit": "dbd75ad",
+     "repository": "talk"
+    },
+    {
+     "commit": "b3f208f",
+     "repository": "talk"
+    },
+    {
+     "commit": "7323986",
+     "repository": "talk"
+    },
+    {
+     "commit": "e8c0fbb",
+     "repository": "talk"
+    },
+    {
+     "commit": "9d27703",
+     "repository": "talk"
+    },
+    {
+     "commit": "0ecddca",
+     "repository": "talk"
+    }
+   ]
+  },
+  "01-f64c7a": {
+   "chapter": "01-pause-all-actions.md",
+   "sources": [
+    {
+     "commit": "1f7c633",
+     "repository": "talk"
+    },
+    {
+     "commit": "97b98d9",
+     "repository": "talk"
+    },
+    {
+     "commit": "a3a4807",
+     "repository": "talk"
+    }
+   ]
+  },
+  "02-014bfc": {
+   "chapter": "02-midnight-an-empty-repository.md",
+   "sources": [
+    {
+     "claim": "C011"
+    }
+   ]
+  },
+  "02-107d50": {
+   "chapter": "02-midnight-an-empty-repository.md",
+   "sources": [
+    {
+     "path": "controls/README.md",
+     "repository": "book"
+    }
+   ]
+  },
+  "02-13aefb": {
+   "chapter": "02-midnight-an-empty-repository.md",
+   "sources": [
+    {
+     "commit": "97b98d9",
+     "repository": "talk"
+    },
+    {
+     "commit": "2e4b1f4",
+     "repository": "talk"
+    }
+   ]
+  },
+  "02-19d8e0": {
+   "chapter": "02-midnight-an-empty-repository.md",
+   "sources": [
+    {
+     "commit": "a3a4807",
+     "repository": "talk"
+    },
+    {
+     "commit": "7f9b9b5",
+     "repository": "talk"
+    },
+    {
+     "commit": "41d38ba",
+     "repository": "talk"
+    }
+   ]
+  },
+  "02-3d806e": {
+   "chapter": "02-midnight-an-empty-repository.md",
+   "sources": [
+    {
+     "commit": "20ab1a3",
+     "repository": "talk"
+    }
+   ]
+  },
+  "02-41cefb": {
+   "chapter": "02-midnight-an-empty-repository.md",
+   "sources": [
+    {
+     "path": "admin/build/validate.py",
+     "repository": "talk"
+    }
+   ]
+  },
+  "02-43fb84": {
+   "chapter": "02-midnight-an-empty-repository.md",
+   "sources": [
+    {
+     "claim": "C001"
+    }
+   ]
+  },
+  "02-50093c": {
+   "chapter": "02-midnight-an-empty-repository.md",
+   "sources": [
+    {
+     "path": "team/conductor/debriefs/img/2026-10-29__banners-and-keys__1-team.png",
+     "repository": "talk"
+    },
+    {
+     "path": "team/motion/debriefs/img/the-building__1280__t3.png",
+     "repository": "talk"
+    },
+    {
+     "path": "team/motion/debriefs/img/the-building__1280__t21.png",
+     "repository": "talk"
+    },
+    {
+     "path": "team/motion/debriefs/img/the-building__1280__t31.png",
+     "repository": "talk"
+    },
+    {
+     "path": "team/motion/debriefs/img/the-building__1280__t43.png",
+     "repository": "talk"
+    },
+    {
+     "commit": "298be4e",
+     "repository": "talk"
+    }
+   ]
+  },
+  "02-5f3061": {
+   "chapter": "02-midnight-an-empty-repository.md",
+   "sources": [
+    {
+     "commit": "298be4e",
+     "repository": "talk"
+    },
+    {
+     "commit": "2e4b1f4",
+     "repository": "talk"
+    },
+    {
+     "commit": "1f7c633",
+     "repository": "talk"
+    },
+    {
+     "path": "admin/build/validate.py",
+     "repository": "talk"
+    },
+    {
+     "path": "team/dev/ROLE.md",
+     "repository": "talk"
+    },
+    {
+     "commit": "ab09186",
+     "repository": "talk"
+    },
+    {
+     "commit": "97b98d9",
+     "repository": "talk"
+    },
+    {
+     "commit": "2e4b1f4",
+     "repository": "talk"
+    },
+    {
+     "path": "admin/notes/2026-10-29__first-agents-and-schedule.md",
+     "repository": "talk"
+    },
+    {
+     "commit": "298be4e",
+     "repository": "talk"
+    },
+    {
+     "commit": "17b287b",
+     "repository": "talk"
+    },
+    {
+     "commit": "20ab1a3",
+     "repository": "talk"
+    },
+    {
+     "commit": "a3a4807",
+     "repository": "talk"
+    },
+    {
+     "commit": "7f9b9b5",
+     "repository": "talk"
+    },
+    {
+     "commit": "41d38ba",
+     "repository": "talk"
+    },
+    {
+     "commit": "f00101e",
+     "repository": "talk"
+    },
+    {
+     "commit": "defe526",
+     "repository": "talk"
+    },
+    {
+     "commit": "31b0f86",
+     "repository": "talk"
+    },
+    {
+     "commit": "02cbd86",
+     "repository": "talk"
+    },
+    {
+     "commit": "ecc048e",
+     "repository": "talk"
+    },
+    {
+     "commit": "09f13d5",
+     "repository": "talk"
+    },
+    {
+     "commit": "d8f3300",
+     "repository": "talk"
+    },
+    {
+     "commit": "b620234",
+     "repository": "talk"
+    },
+    {
+     "commit": "01e9ed3",
+     "repository": "talk"
+    },
+    {
+     "commit": "5c5b23b",
+     "repository": "talk"
+    },
+    {
+     "commit": "ca59986",
+     "repository": "talk"
+    },
+    {
+     "commit": "298be4e",
+     "repository": "talk"
+    },
+    {
+     "path": "team/security/ROLE.md",
+     "repository": "talk"
+    },
+    {
+     "commit": "298be4e",
+     "repository": "talk"
+    }
+   ]
+  },
+  "02-70c140": {
+   "chapter": "02-midnight-an-empty-repository.md",
+   "sources": [
+    {
+     "commit": "1f7c633",
+     "repository": "talk"
+    },
+    {
+     "path": "team/dev/ROLE.md",
+     "repository": "talk"
+    },
+    {
+     "commit": "ab09186",
+     "repository": "talk"
+    },
+    {
+     "claim": "C011"
+    }
+   ]
+  },
+  "02-71b63f": {
+   "chapter": "02-midnight-an-empty-repository.md",
+   "sources": [
+    {
+     "path": "src/static/talk/talk.json",
+     "repository": "talk"
+    }
+   ]
+  },
+  "02-77f98c": {
+   "chapter": "02-midnight-an-empty-repository.md",
+   "sources": [
+    {
+     "claim": "C001"
+    },
+    {
+     "claim": "C011"
+    }
+   ]
+  },
+  "02-8784a3": {
+   "chapter": "02-midnight-an-empty-repository.md",
+   "sources": [
+    {
+     "commit": "ca59986",
+     "repository": "talk"
+    }
+   ]
+  },
+  "02-994974": {
+   "chapter": "02-midnight-an-empty-repository.md",
+   "sources": [
+    {
+     "path": "admin/notes/",
+     "repository": "talk"
+    }
+   ]
+  },
+  "02-9c4a9a": {
+   "chapter": "02-midnight-an-empty-repository.md",
+   "sources": [
+    {
+     "path": "timeline/day/01.md",
+     "repository": "book"
+    }
+   ]
+  },
+  "02-ac80d5": {
+   "chapter": "02-midnight-an-empty-repository.md",
+   "sources": [
+    {
+     "path": "team/conductor/WAKE.md",
+     "repository": "talk"
+    },
+    {
+     "commit": "ecc048e",
+     "repository": "talk"
+    },
+    {
+     "commit": "09f13d5",
+     "repository": "talk"
+    }
+   ]
+  },
+  "02-b4a0ad": {
+   "chapter": "02-midnight-an-empty-repository.md",
+   "sources": [
+    {
+     "claim": "C001"
+    }
+   ]
+  },
+  "02-c1164a": {
+   "chapter": "02-midnight-an-empty-repository.md",
+   "sources": [
+    {
+     "commit": "5c5b23b",
+     "repository": "talk"
+    },
+    {
+     "commit": "01e9ed3",
+     "repository": "talk"
+    },
+    {
+     "claim": "C011"
+    }
+   ]
+  },
+  "02-c28a27": {
+   "chapter": "02-midnight-an-empty-repository.md",
+   "sources": [
+    {
+     "path": "team/conductor/key.json",
+     "repository": "talk"
+    },
+    {
+     "path": "admin/build/agents.py",
+     "repository": "talk"
+    },
+    {
+     "commit": "f00101e",
+     "repository": "talk"
+    },
+    {
+     "claim": "C011"
+    }
+   ]
+  },
+  "02-c357bb": {
+   "chapter": "02-midnight-an-empty-repository.md",
+   "sources": [
+    {
+     "commit": "d8f3300",
+     "repository": "talk"
+    },
+    {
+     "commit": "b620234",
+     "repository": "talk"
+    }
+   ]
+  },
+  "02-c75732": {
+   "chapter": "02-midnight-an-empty-repository.md",
+   "sources": [
+    {
+     "path": "chapter-plan/plan.md",
+     "repository": "book"
+    },
+    {
+     "path": "timeline/day/00.md",
+     "repository": "book"
+    },
+    {
+     "path": "timeline/day/01.md",
+     "repository": "book"
+    },
+    {
+     "path": "timeline/turning-points.md",
+     "repository": "book"
+    },
+    {
+     "path": "index/areas/root.md",
+     "repository": "book"
+    },
+    {
+     "path": "index/areas/tools.md",
+     "repository": "book"
+    },
+    {
+     "path": "controls/README.md",
+     "repository": "book"
+    },
+    {
+     "path": "controls/index.json",
+     "repository": "book"
+    }
+   ]
+  },
+  "02-cf596e": {
+   "chapter": "02-midnight-an-empty-repository.md",
+   "sources": [
+    {
+     "commit": "defe526",
+     "repository": "talk"
+    },
+    {
+     "commit": "31b0f86",
+     "repository": "talk"
+    },
+    {
+     "commit": "02cbd86",
+     "repository": "talk"
+    },
+    {
+     "claim": "C011"
+    }
+   ]
+  },
+  "02-d5080e": {
+   "chapter": "02-midnight-an-empty-repository.md",
+   "sources": [
+    {
+     "commit": "298be4e",
+     "repository": "talk"
+    },
+    {
+     "path": "index/areas/root.md",
+     "repository": "book"
+    }
+   ]
+  },
+  "02-e362e5": {
+   "chapter": "02-midnight-an-empty-repository.md",
+   "sources": [
+    {
+     "path": "controls/README.md",
+     "repository": "book"
+    }
+   ]
+  },
+  "02-fad256": {
+   "chapter": "02-midnight-an-empty-repository.md",
+   "sources": [
+    {
+     "commit": "17b287b",
+     "repository": "talk"
+    }
+   ]
+  },
+  "03-110442": {
+   "chapter": "03-a-mandate-you-can-read.md",
+   "sources": [
+    {
+     "path": "team/conductor/debriefs/2026-10-29__banners-and-keys.md",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/wakes/20261029T021416Z.json",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/briefs/2026-10-29__editor/8-our-own-abps-1730.md",
+     "repository": "talk"
+    }
+   ]
+  },
+  "03-285460": {
+   "chapter": "03-a-mandate-you-can-read.md",
+   "sources": [
+    {
+     "path": "team/conductor/wakes/20261029T140915Z.json",
+     "repository": "talk"
+    },
+    {
+     "commit": "79a7fcb",
+     "repository": "talk"
+    },
+    {
+     "commit": "10ba28c",
+     "repository": "talk"
+    }
+   ]
+  },
+  "03-2d8ebf": {
+   "chapter": "03-a-mandate-you-can-read.md",
+   "sources": [
+    {
+     "path": "controls/",
+     "repository": "book"
+    }
+   ]
+  },
+  "03-2fb223": {
+   "chapter": "03-a-mandate-you-can-read.md",
+   "sources": [
+    {
+     "path": "team/conductor/wakes/20261029T140334Z.json",
+     "repository": "talk"
+    }
+   ]
+  },
+  "03-364a36": {
+   "chapter": "03-a-mandate-you-can-read.md",
+   "sources": [
+    {
+     "commit": "a082c52",
+     "repository": "talk"
+    }
+   ]
+  },
+  "03-7520d1": {
+   "chapter": "03-a-mandate-you-can-read.md",
+   "sources": [
+    {
+     "path": "team/security/reviews/pki-agent-review.md",
+     "repository": "book"
+    }
+   ]
+  },
+  "03-7aa71f": {
+   "chapter": "03-a-mandate-you-can-read.md",
+   "sources": [
+    {
+     "commit": "01e9ed3",
+     "repository": "talk"
+    },
+    {
+     "commit": "56cbe55",
+     "repository": "talk"
+    },
+    {
+     "claim": "C011"
+    }
+   ]
+  },
+  "03-804a93": {
+   "chapter": "03-a-mandate-you-can-read.md",
+   "sources": [
+    {
+     "path": "admin/build/agents.py",
+     "repository": "talk"
+    },
+    {
+     "commit": "f00101e",
+     "repository": "talk"
+    }
+   ]
+  },
+  "03-8eb751": {
+   "chapter": "03-a-mandate-you-can-read.md",
+   "sources": [
+    {
+     "claim": "C011"
+    }
+   ]
+  },
+  "03-8ecd1c": {
+   "chapter": "03-a-mandate-you-can-read.md",
+   "sources": [
+    {
+     "path": "claims/register.json",
+     "repository": "book"
+    },
+    {
+     "path": "controls/README.md",
+     "repository": "book"
+    },
+    {
+     "path": "controls/index.json",
+     "repository": "book"
+    },
+    {
+     "path": "timeline/day/00.md",
+     "repository": "book"
+    },
+    {
+     "path": "index/areas/team-conductor.md",
+     "repository": "book"
+    },
+    {
+     "path": "team/security/reviews/pki-agent-review.md",
+     "repository": "book"
+    },
+    {
+     "claim": "C011"
+    },
+    {
+     "claim": "C014"
+    },
+    {
+     "claim": "C025"
+    }
+   ]
+  },
+  "03-9310ce": {
+   "chapter": "03-a-mandate-you-can-read.md",
+   "sources": [
+    {
+     "commit": "298be4e",
+     "repository": "talk"
+    },
+    {
+     "path": "admin/build/agents.py",
+     "repository": "talk"
+    },
+    {
+     "path": "admin/build/validate.py",
+     "repository": "talk"
+    },
+    {
+     "path": "admin/tools/pki-agent.README.md",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/WAKE.md",
+     "repository": "talk"
+    }
+   ]
+  },
+  "03-9424f7": {
+   "chapter": "03-a-mandate-you-can-read.md",
+   "sources": [
+    {
+     "commit": "17b287b",
+     "repository": "talk"
+    },
+    {
+     "commit": "41d38ba",
+     "repository": "talk"
+    },
+    {
+     "claim": "C011"
+    }
+   ]
+  },
+  "03-99989d": {
+   "chapter": "03-a-mandate-you-can-read.md",
+   "sources": [
+    {
+     "path": "team/conductor/debriefs/2026-10-29__banners-and-keys.md",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/wakes/20261029T021416Z.json",
+     "repository": "talk"
+    },
+    {
+     "commit": "c33e86a",
+     "repository": "talk"
+    },
+    {
+     "claim": "C025"
+    }
+   ]
+  },
+  "03-9f89fd": {
+   "chapter": "03-a-mandate-you-can-read.md",
+   "sources": [
+    {
+     "commit": "0dc0e6a",
+     "repository": "talk"
+    },
+    {
+     "commit": "adb3e2e",
+     "repository": "talk"
+    },
+    {
+     "commit": "01e2753",
+     "repository": "talk"
+    }
+   ]
+  },
+  "03-a95817": {
+   "chapter": "03-a-mandate-you-can-read.md",
+   "sources": [
+    {
+     "path": "team/ruv-sgit/debriefs/img/2026-10-29__policy-review__5-review-desktop.png",
+     "repository": "talk"
+    },
+    {
+     "path": "team/studio/debriefs/img/2026-10-29__abp-prose-enforcement__1-prose-reach.png",
+     "repository": "talk"
+    },
+    {
+     "path": "team/studio/debriefs/img/2026-10-29__abp-prose-enforcement__3-enforcement-end.png",
+     "repository": "talk"
+    },
+    {
+     "commit": "a9c0b49",
+     "repository": "talk"
+    }
+   ]
+  },
+  "03-a963eb": {
+   "chapter": "03-a-mandate-you-can-read.md",
+   "sources": [
+    {
+     "commit": "01e9ed3",
+     "repository": "talk"
+    },
+    {
+     "commit": "56cbe55",
+     "repository": "talk"
+    },
+    {
+     "commit": "f00101e",
+     "repository": "talk"
+    },
+    {
+     "commit": "17b287b",
+     "repository": "talk"
+    },
+    {
+     "commit": "41d38ba",
+     "repository": "talk"
+    },
+    {
+     "commit": "20ab1a3",
+     "repository": "talk"
+    },
+    {
+     "commit": "0dc0e6a",
+     "repository": "talk"
+    },
+    {
+     "commit": "adb3e2e",
+     "repository": "talk"
+    },
+    {
+     "commit": "01e2753",
+     "repository": "talk"
+    },
+    {
+     "commit": "a082c52",
+     "repository": "talk"
+    },
+    {
+     "commit": "95d1f66",
+     "repository": "talk"
+    },
+    {
+     "commit": "df2fa22",
+     "repository": "talk"
+    },
+    {
+     "commit": "4adc04a",
+     "repository": "talk"
+    },
+    {
+     "commit": "7c91afc",
+     "repository": "talk"
+    },
+    {
+     "commit": "bd3cdad",
+     "repository": "talk"
+    },
+    {
+     "commit": "95b09d9",
+     "repository": "talk"
+    },
+    {
+     "commit": "79a7fcb",
+     "repository": "talk"
+    },
+    {
+     "commit": "10ba28c",
+     "repository": "talk"
+    },
+    {
+     "commit": "c33e86a",
+     "repository": "talk"
+    }
+   ]
+  },
+  "03-c1d6af": {
+   "chapter": "03-a-mandate-you-can-read.md",
+   "sources": [
+    {
+     "claim": "C014"
+    },
+    {
+     "claim": "C014"
+    }
+   ]
+  },
+  "03-c5f41a": {
+   "chapter": "03-a-mandate-you-can-read.md",
+   "sources": [
+    {
+     "commit": "95d1f66",
+     "repository": "talk"
+    },
+    {
+     "commit": "df2fa22",
+     "repository": "talk"
+    },
+    {
+     "commit": "4adc04a",
+     "repository": "talk"
+    }
+   ]
+  },
+  "03-cc7dd6": {
+   "chapter": "03-a-mandate-you-can-read.md",
+   "sources": [
+    {
+     "path": "admin/build/agents.py",
+     "repository": "talk"
+    },
+    {
+     "commit": "bd3cdad",
+     "repository": "talk"
+    },
+    {
+     "commit": "95b09d9",
+     "repository": "talk"
+    }
+   ]
+  },
+  "03-ea8c5f": {
+   "chapter": "03-a-mandate-you-can-read.md",
+   "sources": [
+    {
+     "path": "team/conductor/briefs/2026-10-29__editor/8-our-own-abps-1730.md",
+     "repository": "talk"
+    },
+    {
+     "commit": "7c91afc",
+     "repository": "talk"
+    }
+   ]
+  },
+  "04-09b609": {
+   "chapter": "04-the-hourly-machine.md",
+   "sources": [
+    {
+     "path": "team/conductor/wakes/20261029T021416Z.json",
+     "repository": "talk"
+    },
+    {
+     "commit": "8c66751",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/reviews/",
+     "repository": "talk"
+    },
+    {
+     "commit": "5700bab",
+     "repository": "talk"
+    }
+   ]
+  },
+  "04-29ec96": {
+   "chapter": "04-the-hourly-machine.md",
+   "sources": [
+    {
+     "claim": "C008"
+    },
+    {
+     "claim": "C011"
+    },
+    {
+     "claim": "C022"
+    },
+    {
+     "claim": "C023"
+    },
+    {
+     "claim": "C024"
+    },
+    {
+     "claim": "C025"
+    },
+    {
+     "claim": "C041"
+    }
+   ]
+  },
+  "04-2c6e30": {
+   "chapter": "04-the-hourly-machine.md",
+   "sources": [
+    {
+     "commit": "31b0f86",
+     "repository": "talk"
+    },
+    {
+     "commit": "b620234",
+     "repository": "talk"
+    },
+    {
+     "path": "admin/tools/vault_handover.py",
+     "repository": "talk"
+    },
+    {
+     "commit": "b5213de",
+     "repository": "talk"
+    },
+    {
+     "commit": "983782b",
+     "repository": "talk"
+    }
+   ]
+  },
+  "04-2d64c9": {
+   "chapter": "04-the-hourly-machine.md",
+   "sources": [
+    {
+     "commit": "545a473",
+     "repository": "talk"
+    },
+    {
+     "claim": "C041"
+    },
+    {
+     "claim": "C011"
+    }
+   ]
+  },
+  "04-3bee70": {
+   "chapter": "04-the-hourly-machine.md",
+   "sources": [
+    {
+     "commit": "298be4e",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/schedule.json",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/WAKE.md",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/reviews/pre_review.md",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/wakes/20261029T021416Z.json",
+     "repository": "talk"
+    },
+    {
+     "path": "team/researcher/wakes/20261029T030550Z.json",
+     "repository": "talk"
+    },
+    {
+     "path": "team/deck/wakes/20261029T144456Z.json",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/briefs/2026-10-29__editor/1-editor-decisions-1500.md",
+     "repository": "talk"
+    }
+   ]
+  },
+  "04-3c3d96": {
+   "chapter": "04-the-hourly-machine.md",
+   "sources": [
+    {
+     "commit": "02cbd86",
+     "repository": "talk"
+    },
+    {
+     "commit": "ecc048e",
+     "repository": "talk"
+    },
+    {
+     "commit": "5c2bcc5",
+     "repository": "talk"
+    },
+    {
+     "commit": "09f13d5",
+     "repository": "talk"
+    }
+   ]
+  },
+  "04-5ac163": {
+   "chapter": "04-the-hourly-machine.md",
+   "sources": [
+    {
+     "commit": "6a6be6d",
+     "repository": "talk"
+    },
+    {
+     "commit": "c6dcf89",
+     "repository": "talk"
+    },
+    {
+     "commit": "23fde17",
+     "repository": "talk"
+    },
+    {
+     "commit": "51b2497",
+     "repository": "talk"
+    }
+   ]
+  },
+  "04-5b53c2": {
+   "chapter": "04-the-hourly-machine.md",
+   "sources": [
+    {
+     "claim": "C022"
+    },
+    {
+     "claim": "C022"
+    }
+   ]
+  },
+  "04-5f6159": {
+   "chapter": "04-the-hourly-machine.md",
+   "sources": [
+    {
+     "path": "team/conductor/debriefs/img/2026-10-29__hourly-and-handover__1-schedule.png",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/debriefs/img/2026-10-29__two-public-vaults__tui-issues-public.png",
+     "repository": "talk"
+    },
+    {
+     "path": "team/dev/debriefs/img/2026-10-29__the-board__1-board.png",
+     "repository": "talk"
+    },
+    {
+     "path": "team/designer/debriefs/img/2026-10-29__note-6-checked-and-the-player__01-pace__1600.jpg",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/debriefs/img/night-20261029T0327-1.png",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/debriefs/img/night-20261029T0327-2.png",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/debriefs/img/night-20261029T0327-3.png",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/debriefs/img/night-20261029T0327-4.png",
+     "repository": "talk"
+    },
+    {
+     "commit": "298be4e",
+     "repository": "talk"
+    }
+   ]
+  },
+  "04-61d3e4": {
+   "chapter": "04-the-hourly-machine.md",
+   "sources": [
+    {
+     "commit": "c8f6f8f",
+     "repository": "talk"
+    },
+    {
+     "commit": "99aaf05",
+     "repository": "talk"
+    }
+   ]
+  },
+  "04-659cc5": {
+   "chapter": "04-the-hourly-machine.md",
+   "sources": [
+    {
+     "path": "team/researcher/wakes/20261029T041003Z.json",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/wakes/20261029T140334Z.json",
+     "repository": "talk"
+    }
+   ]
+  },
+  "04-689492": {
+   "chapter": "04-the-hourly-machine.md",
+   "sources": [
+    {
+     "path": "team/conductor/schedule.json",
+     "repository": "talk"
+    },
+    {
+     "commit": "298be4e",
+     "repository": "talk"
+    }
+   ]
+  },
+  "04-6cdb68": {
+   "chapter": "04-the-hourly-machine.md",
+   "sources": [
+    {
+     "commit": "aeffbf9",
+     "repository": "talk"
+    },
+    {
+     "commit": "eefc1d3",
+     "repository": "talk"
+    },
+    {
+     "commit": "648feee",
+     "repository": "talk"
+    }
+   ]
+  },
+  "04-7d05fc": {
+   "chapter": "04-the-hourly-machine.md",
+   "sources": [
+    {
+     "path": "team/deck/wakes/20261029T144456Z.json",
+     "repository": "talk"
+    }
+   ]
+  },
+  "04-7e4a57": {
+   "chapter": "04-the-hourly-machine.md",
+   "sources": [
+    {
+     "claim": "C011"
+    }
+   ]
+  },
+  "04-808c21": {
+   "chapter": "04-the-hourly-machine.md",
+   "sources": [
+    {
+     "commit": "56cbe55",
+     "repository": "talk"
+    },
+    {
+     "commit": "5c5b23b",
+     "repository": "talk"
+    },
+    {
+     "path": "team/ruv-sgit/wakes/",
+     "repository": "talk"
+    },
+    {
+     "commit": "0d13c43",
+     "repository": "talk"
+    }
+   ]
+  },
+  "04-8675c1": {
+   "chapter": "04-the-hourly-machine.md",
+   "sources": [
+    {
+     "path": "timeline/day/01.md",
+     "repository": "book"
+    },
+    {
+     "path": "timeline/turning-points.md",
+     "repository": "book"
+    },
+    {
+     "path": "controls/README.md",
+     "repository": "book"
+    },
+    {
+     "path": "controls/index.json",
+     "repository": "book"
+    },
+    {
+     "path": "index/areas/team-conductor.md",
+     "repository": "book"
+    },
+    {
+     "path": "index/areas/tools.md",
+     "repository": "book"
+    }
+   ]
+  },
+  "04-99205d": {
+   "chapter": "04-the-hourly-machine.md",
+   "sources": [
+    {
+     "claim": "C008"
+    },
+    {
+     "claim": "C023"
+    }
+   ]
+  },
+  "04-a038d8": {
+   "chapter": "04-the-hourly-machine.md",
+   "sources": [
+    {
+     "path": "timeline/day/03.md",
+     "repository": "book"
+    }
+   ]
+  },
+  "04-b867e1": {
+   "chapter": "04-the-hourly-machine.md",
+   "sources": [
+    {
+     "path": "timeline/day/10.md",
+     "repository": "book"
+    }
+   ]
+  },
+  "04-c3783c": {
+   "chapter": "04-the-hourly-machine.md",
+   "sources": [
+    {
+     "claim": "C023"
+    }
+   ]
+  },
+  "04-c608fd": {
+   "chapter": "04-the-hourly-machine.md",
+   "sources": [
+    {
+     "claim": "C024"
+    }
+   ]
+  },
+  "04-c9daf9": {
+   "chapter": "04-the-hourly-machine.md",
+   "sources": [
+    {
+     "path": "controls/",
+     "repository": "book"
+    }
+   ]
+  },
+  "04-d617c4": {
+   "chapter": "04-the-hourly-machine.md",
+   "sources": [
+    {
+     "commit": "3d94be9",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/briefs/2026-10-29__editor/1-editor-decisions-1500.md",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/status.json",
+     "repository": "talk"
+    },
+    {
+     "commit": "298be4e",
+     "repository": "talk"
+    }
+   ]
+  },
+  "04-d94f84": {
+   "chapter": "04-the-hourly-machine.md",
+   "sources": [
+    {
+     "path": "team/researcher/wakes/20261029T030550Z.json",
+     "repository": "talk"
+    },
+    {
+     "path": "team/researcher/wakes/20261029T061456Z.json",
+     "repository": "talk"
+    },
+    {
+     "claim": "C025"
+    },
+    {
+     "claim": "C025"
+    }
+   ]
+  },
+  "04-ddeb76": {
+   "chapter": "04-the-hourly-machine.md",
+   "sources": [
+    {
+     "commit": "02cbd86",
+     "repository": "talk"
+    },
+    {
+     "commit": "ecc048e",
+     "repository": "talk"
+    },
+    {
+     "commit": "5c2bcc5",
+     "repository": "talk"
+    },
+    {
+     "commit": "09f13d5",
+     "repository": "talk"
+    },
+    {
+     "commit": "d8f3300",
+     "repository": "talk"
+    },
+    {
+     "commit": "b620234",
+     "repository": "talk"
+    },
+    {
+     "commit": "56cbe55",
+     "repository": "talk"
+    },
+    {
+     "commit": "5c5b23b",
+     "repository": "talk"
+    },
+    {
+     "commit": "0d13c43",
+     "repository": "talk"
+    },
+    {
+     "commit": "31b0f86",
+     "repository": "talk"
+    },
+    {
+     "commit": "b5213de",
+     "repository": "talk"
+    },
+    {
+     "commit": "983782b",
+     "repository": "talk"
+    },
+    {
+     "commit": "8c66751",
+     "repository": "talk"
+    },
+    {
+     "commit": "5700bab",
+     "repository": "talk"
+    },
+    {
+     "commit": "c8f6f8f",
+     "repository": "talk"
+    },
+    {
+     "commit": "99aaf05",
+     "repository": "talk"
+    },
+    {
+     "commit": "cabcd57",
+     "repository": "talk"
+    },
+    {
+     "commit": "648feee",
+     "repository": "talk"
+    },
+    {
+     "commit": "6a6be6d",
+     "repository": "talk"
+    },
+    {
+     "commit": "aeffbf9",
+     "repository": "talk"
+    },
+    {
+     "commit": "eefc1d3",
+     "repository": "talk"
+    },
+    {
+     "commit": "c6dcf89",
+     "repository": "talk"
+    },
+    {
+     "commit": "23fde17",
+     "repository": "talk"
+    },
+    {
+     "commit": "51b2497",
+     "repository": "talk"
+    },
+    {
+     "commit": "3d94be9",
+     "repository": "talk"
+    },
+    {
+     "commit": "aa7a3eb",
+     "repository": "talk"
+    },
+    {
+     "commit": "c9ced4e",
+     "repository": "talk"
+    },
+    {
+     "commit": "545a473",
+     "repository": "talk"
+    },
+    {
+     "commit": "eb0b5cd",
+     "repository": "talk"
+    }
+   ]
+  },
+  "04-e93509": {
+   "chapter": "04-the-hourly-machine.md",
+   "sources": [
+    {
+     "commit": "eb0b5cd",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/wakes/20261029T164439Z.json",
+     "repository": "talk"
+    }
+   ]
+  },
+  "04-ece73c": {
+   "chapter": "04-the-hourly-machine.md",
+   "sources": [
+    {
+     "commit": "cabcd57",
+     "repository": "talk"
+    }
+   ]
+  },
+  "04-ed8339": {
+   "chapter": "04-the-hourly-machine.md",
+   "sources": [
+    {
+     "path": "admin/tools/vault_check.py",
+     "repository": "talk"
+    },
+    {
+     "path": "controls/",
+     "repository": "book"
+    },
+    {
+     "commit": "c9ced4e",
+     "repository": "talk"
+    }
+   ]
+  },
+  "04-f9ee97": {
+   "chapter": "04-the-hourly-machine.md",
+   "sources": [
+    {
+     "commit": "d8f3300",
+     "repository": "talk"
+    },
+    {
+     "commit": "b620234",
+     "repository": "talk"
+    },
+    {
+     "path": "timeline/turning-points.md",
+     "repository": "book"
+    }
+   ]
+  },
+  "05-007d87": {
+   "chapter": "05-the-story-before-the-slides.md",
+   "sources": [
+    {
+     "path": "claims/talk-claims-triage.md",
+     "repository": "book"
+    }
+   ]
+  },
+  "05-021636": {
+   "chapter": "05-the-story-before-the-slides.md",
+   "sources": [
+    {
+     "commit": "a082c52",
+     "repository": "talk"
+    },
+    {
+     "path": "evidence/proposals/deck-talk-changes.md",
+     "repository": "talk"
+    },
+    {
+     "commit": "91772e6",
+     "repository": "talk"
+    }
+   ]
+  },
+  "05-02c14a": {
+   "chapter": "05-the-story-before-the-slides.md",
+   "sources": [
+    {
+     "commit": "1f7c633",
+     "repository": "talk"
+    },
+    {
+     "commit": "01e9ed3",
+     "repository": "talk"
+    },
+    {
+     "commit": "75ddb3e",
+     "repository": "talk"
+    },
+    {
+     "commit": "79b6709",
+     "repository": "talk"
+    },
+    {
+     "commit": "a082c52",
+     "repository": "talk"
+    },
+    {
+     "commit": "91772e6",
+     "repository": "talk"
+    },
+    {
+     "commit": "c9ced4e",
+     "repository": "talk"
+    },
+    {
+     "commit": "7d0244d",
+     "repository": "talk"
+    },
+    {
+     "commit": "df37797",
+     "repository": "talk"
+    },
+    {
+     "commit": "8ba3104",
+     "repository": "talk"
+    },
+    {
+     "commit": "2726f0e",
+     "repository": "talk"
+    },
+    {
+     "commit": "b208a16",
+     "repository": "talk"
+    },
+    {
+     "commit": "78d517d",
+     "repository": "talk"
+    },
+    {
+     "commit": "2afe0d7",
+     "repository": "talk"
+    },
+    {
+     "commit": "ca59986",
+     "repository": "talk"
+    },
+    {
+     "commit": "b1c9bab",
+     "repository": "talk"
+    },
+    {
+     "commit": "e8c0fbb",
+     "repository": "talk"
+    }
+   ]
+  },
+  "05-031ed8": {
+   "chapter": "05-the-story-before-the-slides.md",
+   "sources": [
+    {
+     "commit": "b208a16",
+     "repository": "talk"
+    },
+    {
+     "claim": "C030"
+    }
+   ]
+  },
+  "05-052ea5": {
+   "chapter": "05-the-story-before-the-slides.md",
+   "sources": [
+    {
+     "commit": "2afe0d7",
+     "repository": "talk"
+    },
+    {
+     "commit": "ca59986",
+     "repository": "talk"
+    },
+    {
+     "path": "team/storyteller/story/coverage.md",
+     "repository": "talk"
+    },
+    {
+     "commit": "e8c0fbb",
+     "repository": "talk"
+    },
+    {
+     "claim": "C016"
+    },
+    {
+     "claim": "C015"
+    }
+   ]
+  },
+  "05-07d2cd": {
+   "chapter": "05-the-story-before-the-slides.md",
+   "sources": [
+    {
+     "commit": "79b6709",
+     "repository": "talk"
+    },
+    {
+     "claim": "C030"
+    }
+   ]
+  },
+  "05-0a104e": {
+   "chapter": "05-the-story-before-the-slides.md",
+   "sources": [
+    {
+     "path": "team/storyteller/ROLE.md",
+     "repository": "talk"
+    },
+    {
+     "claim": "C012"
+    }
+   ]
+  },
+  "05-1f1e94": {
+   "chapter": "05-the-story-before-the-slides.md",
+   "sources": [
+    {
+     "path": "claims/register.json",
+     "repository": "book"
+    },
+    {
+     "claim": "C010"
+    },
+    {
+     "claim": "C011"
+    },
+    {
+     "claim": "C027"
+    }
+   ]
+  },
+  "05-2045cb": {
+   "chapter": "05-the-story-before-the-slides.md",
+   "sources": [
+    {
+     "claim": "C029"
+    }
+   ]
+  },
+  "05-2e596e": {
+   "chapter": "05-the-story-before-the-slides.md",
+   "sources": [
+    {
+     "path": "claims/register.json",
+     "repository": "book"
+    },
+    {
+     "path": "claims/talk-claims-triage.md",
+     "repository": "book"
+    },
+    {
+     "path": "timeline/turning-points.md",
+     "repository": "book"
+    },
+    {
+     "path": "timeline/day/02.md",
+     "repository": "book"
+    },
+    {
+     "path": "index/areas/team-storyteller.md",
+     "repository": "book"
+    },
+    {
+     "path": "index/areas/team-researcher.md",
+     "repository": "book"
+    },
+    {
+     "path": "index/areas/evidence.md",
+     "repository": "book"
+    }
+   ]
+  },
+  "05-49b6e9": {
+   "chapter": "05-the-story-before-the-slides.md",
+   "sources": [
+    {
+     "claim": "C027"
+    }
+   ]
+  },
+  "05-4d5d9b": {
+   "chapter": "05-the-story-before-the-slides.md",
+   "sources": [
+    {
+     "claim": "C016"
+    }
+   ]
+  },
+  "05-5ce1af": {
+   "chapter": "05-the-story-before-the-slides.md",
+   "sources": [
+    {
+     "path": "timeline/turning-points.md",
+     "repository": "book"
+    },
+    {
+     "claim": "C031"
+    }
+   ]
+  },
+  "05-671246": {
+   "chapter": "05-the-story-before-the-slides.md",
+   "sources": [
+    {
+     "commit": "1f7c633",
+     "repository": "talk"
+    },
+    {
+     "commit": "75ddb3e",
+     "repository": "talk"
+    },
+    {
+     "path": "evidence/BEFORE-TONIGHT.md",
+     "repository": "talk"
+    },
+    {
+     "commit": "79b6709",
+     "repository": "talk"
+    },
+    {
+     "path": "team/deck/requests/researcher__before-tonight.md",
+     "repository": "talk"
+    }
+   ]
+  },
+  "05-6d0216": {
+   "chapter": "05-the-story-before-the-slides.md",
+   "sources": [
+    {
+     "path": "team/researcher/debriefs/img/2026-10-29__evidence-vault-opens-after-three-minutes.png",
+     "repository": "talk"
+    },
+    {
+     "path": "team/storyteller/debriefs/img/1-outside-and-inside.png",
+     "repository": "talk"
+    },
+    {
+     "commit": "a9c0b49",
+     "repository": "talk"
+    }
+   ]
+  },
+  "05-7b61f4": {
+   "chapter": "05-the-story-before-the-slides.md",
+   "sources": [
+    {
+     "claim": "C031"
+    }
+   ]
+  },
+  "05-919bb1": {
+   "chapter": "05-the-story-before-the-slides.md",
+   "sources": [
+    {
+     "claim": "C038"
+    },
+    {
+     "claim": "C039"
+    }
+   ]
+  },
+  "05-95fe1a": {
+   "chapter": "05-the-story-before-the-slides.md",
+   "sources": [
+    {
+     "commit": "298be4e",
+     "repository": "talk"
+    },
+    {
+     "path": "evidence/METHOD.md",
+     "repository": "talk"
+    },
+    {
+     "path": "evidence/claims/README.md",
+     "repository": "talk"
+    },
+    {
+     "path": "evidence/claims/claims.json",
+     "repository": "talk"
+    },
+    {
+     "path": "evidence/BEFORE-TONIGHT.md",
+     "repository": "talk"
+    },
+    {
+     "path": "evidence/proposals/deck-talk-changes.md",
+     "repository": "talk"
+    },
+    {
+     "path": "team/deck/requests/researcher__before-tonight.md",
+     "repository": "talk"
+    },
+    {
+     "path": "team/storyteller/ROLE.md",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/briefs/2026-10-29__editor/1-editor-decisions-1500.md",
+     "repository": "talk"
+    },
+    {
+     "path": "src/static/talk/talk.json",
+     "repository": "talk"
+    }
+   ]
+  },
+  "05-9af514": {
+   "chapter": "05-the-story-before-the-slides.md",
+   "sources": [
+    {
+     "commit": "78d517d",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/briefs/2026-10-29__editor/1-editor-decisions-1500.md",
+     "repository": "talk"
+    },
+    {
+     "commit": "2afe0d7",
+     "repository": "talk"
+    },
+    {
+     "path": "src/static/talk/talk.json",
+     "repository": "talk"
+    },
+    {
+     "commit": "298be4e",
+     "repository": "talk"
+    }
+   ]
+  },
+  "05-bb19d3": {
+   "chapter": "05-the-story-before-the-slides.md",
+   "sources": [
+    {
+     "commit": "df37797",
+     "repository": "talk"
+    },
+    {
+     "commit": "8ba3104",
+     "repository": "talk"
+    },
+    {
+     "commit": "2726f0e",
+     "repository": "talk"
+    },
+    {
+     "commit": "b208a16",
+     "repository": "talk"
+    },
+    {
+     "claim": "C016"
+    }
+   ]
+  },
+  "05-cd9532": {
+   "chapter": "05-the-story-before-the-slides.md",
+   "sources": [
+    {
+     "path": "team/storyteller/story/challenge.md",
+     "repository": "talk"
+    }
+   ]
+  },
+  "05-d548d5": {
+   "chapter": "05-the-story-before-the-slides.md",
+   "sources": [
+    {
+     "commit": "01e9ed3",
+     "repository": "talk"
+    },
+    {
+     "path": "evidence/METHOD.md",
+     "repository": "talk"
+    },
+    {
+     "claim": "C011"
+    }
+   ]
+  },
+  "05-d6a20e": {
+   "chapter": "05-the-story-before-the-slides.md",
+   "sources": [
+    {
+     "claim": "C010"
+    },
+    {
+     "claim": "C011"
+    },
+    {
+     "claim": "C012"
+    },
+    {
+     "claim": "C015"
+    },
+    {
+     "claim": "C016"
+    },
+    {
+     "claim": "C027"
+    },
+    {
+     "claim": "C029"
+    },
+    {
+     "claim": "C030"
+    },
+    {
+     "claim": "C031"
+    },
+    {
+     "claim": "C038"
+    },
+    {
+     "claim": "C039"
+    }
+   ]
+  },
+  "05-d8112b": {
+   "chapter": "05-the-story-before-the-slides.md",
+   "sources": [
+    {
+     "commit": "75ddb3e",
+     "repository": "talk"
+    },
+    {
+     "path": "evidence/BEFORE-TONIGHT.md",
+     "repository": "talk"
+    }
+   ]
+  },
+  "05-e7d0b8": {
+   "chapter": "05-the-story-before-the-slides.md",
+   "sources": [
+    {
+     "commit": "c9ced4e",
+     "repository": "talk"
+    },
+    {
+     "claim": "C031"
+    }
+   ]
+  },
+  "06-0308d8": {
+   "chapter": "06-the-editor-signs.md",
+   "sources": [
+    {
+     "path": "team/conductor/debriefs/img/night-20261029T1105-4.png",
+     "repository": "talk"
+    },
+    {
+     "path": "team/studio/debriefs/img/2026-10-29__abp-review__1-cards.png",
+     "repository": "talk"
+    },
+    {
+     "path": "team/studio/debriefs/img/2026-10-29__abp-review__2-end.png",
+     "repository": "talk"
+    },
+    {
+     "commit": "a9c0b49",
+     "repository": "talk"
+    }
+   ]
+  },
+  "06-044472": {
+   "chapter": "06-the-editor-signs.md",
+   "sources": [
+    {
+     "path": "claims/register.json",
+     "repository": "book"
+    },
+    {
+     "path": "timeline/day/07.md",
+     "repository": "book"
+    },
+    {
+     "path": "timeline/turning-points.md",
+     "repository": "book"
+    },
+    {
+     "path": "controls/README.md",
+     "repository": "book"
+    },
+    {
+     "path": "briefs/2026-10-30/5-lessons-to-carry.md",
+     "repository": "book"
+    },
+    {
+     "path": "index/areas/team-conductor.md",
+     "repository": "book"
+    },
+    {
+     "claim": "C011"
+    }
+   ]
+  },
+  "06-24fafc": {
+   "chapter": "06-the-editor-signs.md",
+   "sources": [
+    {
+     "path": "briefs/2026-10-30/5-lessons-to-carry.md",
+     "repository": "book"
+    }
+   ]
+  },
+  "06-4f4ed7": {
+   "chapter": "06-the-editor-signs.md",
+   "sources": [
+    {
+     "claim": "C011"
+    }
+   ]
+  },
+  "06-691d21": {
+   "chapter": "06-the-editor-signs.md",
+   "sources": [
+    {
+     "commit": "c9ced4e",
+     "repository": "talk"
+    },
+    {
+     "path": "timeline/day/14.md",
+     "repository": "book"
+    },
+    {
+     "commit": "78d517d",
+     "repository": "talk"
+    },
+    {
+     "commit": "545a473",
+     "repository": "talk"
+    }
+   ]
+  },
+  "06-71750b": {
+   "chapter": "06-the-editor-signs.md",
+   "sources": [
+    {
+     "commit": "41d4757",
+     "repository": "talk"
+    },
+    {
+     "path": "timeline/day/12.md",
+     "repository": "book"
+    }
+   ]
+  },
+  "06-7c02e4": {
+   "chapter": "06-the-editor-signs.md",
+   "sources": [
+    {
+     "commit": "3d94be9",
+     "repository": "talk"
+    },
+    {
+     "commit": "aa7a3eb",
+     "repository": "talk"
+    },
+    {
+     "commit": "94e313d",
+     "repository": "talk"
+    },
+    {
+     "commit": "41d4757",
+     "repository": "talk"
+    },
+    {
+     "commit": "c9ced4e",
+     "repository": "talk"
+    },
+    {
+     "commit": "9a51c28",
+     "repository": "talk"
+    },
+    {
+     "commit": "78d517d",
+     "repository": "talk"
+    },
+    {
+     "commit": "545a473",
+     "repository": "talk"
+    },
+    {
+     "commit": "c3f546e",
+     "repository": "talk"
+    },
+    {
+     "commit": "bd3cdad",
+     "repository": "talk"
+    },
+    {
+     "commit": "867f8c2",
+     "repository": "talk"
+    }
+   ]
+  },
+  "06-7f22a7": {
+   "chapter": "06-the-editor-signs.md",
+   "sources": [
+    {
+     "claim": "C011"
+    }
+   ]
+  },
+  "06-8841d5": {
+   "chapter": "06-the-editor-signs.md",
+   "sources": [
+    {
+     "path": "team/studio/debriefs/2026-10-29__abp-review.md",
+     "repository": "talk"
+    },
+    {
+     "commit": "298be4e",
+     "repository": "talk"
+    }
+   ]
+  },
+  "06-92bc4a": {
+   "chapter": "06-the-editor-signs.md",
+   "sources": [
+    {
+     "path": "team/conductor/briefs/2026-10-29__editor/README.md",
+     "repository": "talk"
+    }
+   ]
+  },
+  "06-a6e3c7": {
+   "chapter": "06-the-editor-signs.md",
+   "sources": [
+    {
+     "commit": "3d94be9",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/debriefs/2026-10-29__the-morning-review.md",
+     "repository": "talk"
+    }
+   ]
+  },
+  "06-badfe1": {
+   "chapter": "06-the-editor-signs.md",
+   "sources": [
+    {
+     "path": "team/conductor/briefs/2026-10-29__editor/README.md",
+     "repository": "talk"
+    }
+   ]
+  },
+  "06-bfd4bc": {
+   "chapter": "06-the-editor-signs.md",
+   "sources": [
+    {
+     "path": "team/conductor/briefs/2026-10-29__editor/6-answers-1715.md",
+     "repository": "talk"
+    },
+    {
+     "commit": "94e313d",
+     "repository": "talk"
+    }
+   ]
+  },
+  "06-c2183d": {
+   "chapter": "06-the-editor-signs.md",
+   "sources": [
+    {
+     "commit": "c3f546e",
+     "repository": "talk"
+    }
+   ]
+  },
+  "06-c5fd89": {
+   "chapter": "06-the-editor-signs.md",
+   "sources": [
+    {
+     "commit": "9a51c28",
+     "repository": "talk"
+    }
+   ]
+  },
+  "06-ca342e": {
+   "chapter": "06-the-editor-signs.md",
+   "sources": [
+    {
+     "path": "evidence/proposals/editor-decisions-deck.md",
+     "repository": "talk"
+    }
+   ]
+  },
+  "06-f66507": {
+   "chapter": "06-the-editor-signs.md",
+   "sources": [
+    {
+     "commit": "298be4e",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/WAKE.md",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/briefs/2026-10-29__the-next-hours.md",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/briefs/2026-10-29__editor/",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/debriefs/2026-10-29__the-morning-review.md",
+     "repository": "talk"
+    },
+    {
+     "path": "evidence/proposals/editor-decisions-deck.md",
+     "repository": "talk"
+    },
+    {
+     "path": "team/studio/debriefs/2026-10-29__abp-review.md",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/wakes/20261029T140334Z.json",
+     "repository": "talk"
+    }
+   ]
+  },
+  "07-027b1c": {
+   "chapter": "07-building-the-talk.md",
+   "sources": [
+    {
+     "path": "chapter-plan/plan.md",
+     "repository": "book"
+    },
+    {
+     "path": "timeline/day/02.md",
+     "repository": "book"
+    },
+    {
+     "path": "timeline/turning-points.md",
+     "repository": "book"
+    },
+    {
+     "path": "index/areas/talk.md",
+     "repository": "book"
+    },
+    {
+     "path": "briefs/2026-10-30/5-lessons-to-carry.md",
+     "repository": "book"
+    }
+   ]
+  },
+  "07-10d8a1": {
+   "chapter": "07-building-the-talk.md",
+   "sources": [
+    {
+     "commit": "20ab1a3",
+     "repository": "talk"
+    },
+    {
+     "commit": "79b6709",
+     "repository": "talk"
+    },
+    {
+     "claim": "C011"
+    },
+    {
+     "claim": "C016"
+    }
+   ]
+  },
+  "07-192449": {
+   "chapter": "07-building-the-talk.md",
+   "sources": [
+    {
+     "path": "team/dev/debriefs/2026-10-29__the-player.md",
+     "repository": "talk"
+    }
+   ]
+  },
+  "07-2822eb": {
+   "chapter": "07-building-the-talk.md",
+   "sources": [
+    {
+     "path": "team/studio/ROLE.md",
+     "repository": "talk"
+    }
+   ]
+  },
+  "07-2fcf7b": {
+   "chapter": "07-building-the-talk.md",
+   "sources": [
+    {
+     "commit": "9f17ce7",
+     "repository": "talk"
+    },
+    {
+     "commit": "9a51c28",
+     "repository": "talk"
+    },
+    {
+     "commit": "3314ffe",
+     "repository": "talk"
+    },
+    {
+     "commit": "f20cfa8",
+     "repository": "talk"
+    },
+    {
+     "claim": "C028"
+    },
+    {
+     "claim": "C017"
+    }
+   ]
+  },
+  "07-317f5d": {
+   "chapter": "07-building-the-talk.md",
+   "sources": [
+    {
+     "commit": "3260997",
+     "repository": "talk"
+    },
+    {
+     "path": "team/storyteller/story/three-parts.md",
+     "repository": "talk"
+    },
+    {
+     "commit": "14998b5",
+     "repository": "talk"
+    },
+    {
+     "path": "team/storyteller/story/part-check-1814.md",
+     "repository": "talk"
+    }
+   ]
+  },
+  "07-3c818d": {
+   "chapter": "07-building-the-talk.md",
+   "sources": [
+    {
+     "claim": "C014"
+    }
+   ]
+  },
+  "07-549273": {
+   "chapter": "07-building-the-talk.md",
+   "sources": [
+    {
+     "path": "team/conductor/briefs/2026-10-29__editor/",
+     "repository": "talk"
+    },
+    {
+     "commit": "ef05098",
+     "repository": "talk"
+    },
+    {
+     "commit": "da9b681",
+     "repository": "talk"
+    },
+    {
+     "commit": "7bda718",
+     "repository": "talk"
+    },
+    {
+     "commit": "a867f7f",
+     "repository": "talk"
+    },
+    {
+     "commit": "ec962a2",
+     "repository": "talk"
+    }
+   ]
+  },
+  "07-5b2908": {
+   "chapter": "07-building-the-talk.md",
+   "sources": [
+    {
+     "claim": "C011"
+    },
+    {
+     "claim": "C012"
+    },
+    {
+     "claim": "C013"
+    },
+    {
+     "claim": "C014"
+    },
+    {
+     "claim": "C015"
+    },
+    {
+     "claim": "C016"
+    },
+    {
+     "claim": "C017"
+    },
+    {
+     "claim": "C018"
+    },
+    {
+     "claim": "C026"
+    },
+    {
+     "claim": "C028"
+    },
+    {
+     "claim": "C040"
+    }
+   ]
+  },
+  "07-6da325": {
+   "chapter": "07-building-the-talk.md",
+   "sources": [
+    {
+     "commit": "f1cbca0",
+     "repository": "talk"
+    },
+    {
+     "commit": "8d208d3",
+     "repository": "talk"
+    },
+    {
+     "commit": "f00734f",
+     "repository": "talk"
+    },
+    {
+     "commit": "4adc04a",
+     "repository": "talk"
+    },
+    {
+     "commit": "0fe0fff",
+     "repository": "talk"
+    },
+    {
+     "commit": "7639664",
+     "repository": "talk"
+    },
+    {
+     "claim": "C011"
+    },
+    {
+     "claim": "C012"
+    },
+    {
+     "claim": "C013"
+    }
+   ]
+  },
+  "07-7567b2": {
+   "chapter": "07-building-the-talk.md",
+   "sources": [
+    {
+     "commit": "60af587",
+     "repository": "talk"
+    },
+    {
+     "commit": "defe526",
+     "repository": "talk"
+    },
+    {
+     "claim": "C014"
+    }
+   ]
+  },
+  "07-7db059": {
+   "chapter": "07-building-the-talk.md",
+   "sources": [
+    {
+     "claim": "C015"
+    }
+   ]
+  },
+  "07-8d8bcc": {
+   "chapter": "07-building-the-talk.md",
+   "sources": [
+    {
+     "commit": "c9ced4e",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/briefs/2026-10-29__editor/feedback-briefs.md",
+     "repository": "talk"
+    }
+   ]
+  },
+  "07-91ad7e": {
+   "chapter": "07-building-the-talk.md",
+   "sources": [
+    {
+     "commit": "1f7c633",
+     "repository": "talk"
+    },
+    {
+     "claim": "C016"
+    },
+    {
+     "claim": "C017"
+    },
+    {
+     "claim": "C017"
+    }
+   ]
+  },
+  "07-a77d78": {
+   "chapter": "07-building-the-talk.md",
+   "sources": [
+    {
+     "commit": "41d4757",
+     "repository": "talk"
+    }
+   ]
+  },
+  "07-ae03ba": {
+   "chapter": "07-building-the-talk.md",
+   "sources": [
+    {
+     "claim": "C014"
+    }
+   ]
+  },
+  "07-be8e11": {
+   "chapter": "07-building-the-talk.md",
+   "sources": [
+    {
+     "commit": "23739cc",
+     "repository": "talk"
+    },
+    {
+     "commit": "12e93db",
+     "repository": "talk"
+    },
+    {
+     "commit": "013d97e",
+     "repository": "talk"
+    },
+    {
+     "commit": "dbd75ad",
+     "repository": "talk"
+    },
+    {
+     "commit": "13e1321",
+     "repository": "talk"
+    },
+    {
+     "claim": "C028"
+    },
+    {
+     "claim": "C017"
+    },
+    {
+     "claim": "C018"
+    }
+   ]
+  },
+  "07-beb993": {
+   "chapter": "07-building-the-talk.md",
+   "sources": [
+    {
+     "commit": "c6dcf89",
+     "repository": "talk"
+    },
+    {
+     "claim": "C011"
+    }
+   ]
+  },
+  "07-c594cf": {
+   "chapter": "07-building-the-talk.md",
+   "sources": [
+    {
+     "commit": "1f7c633",
+     "repository": "talk"
+    },
+    {
+     "claim": "C026"
+    },
+    {
+     "claim": "C016"
+    }
+   ]
+  },
+  "07-d7bfe3": {
+   "chapter": "07-building-the-talk.md",
+   "sources": [
+    {
+     "path": "team/motion/ROLE.md",
+     "repository": "talk"
+    }
+   ]
+  },
+  "07-e6d80c": {
+   "chapter": "07-building-the-talk.md",
+   "sources": [
+    {
+     "commit": "298be4e",
+     "repository": "talk"
+    },
+    {
+     "commit": "1f7c633",
+     "repository": "talk"
+    },
+    {
+     "commit": "20ab1a3",
+     "repository": "talk"
+    },
+    {
+     "commit": "79b6709",
+     "repository": "talk"
+    },
+    {
+     "commit": "60af587",
+     "repository": "talk"
+    },
+    {
+     "commit": "defe526",
+     "repository": "talk"
+    },
+    {
+     "commit": "c6dcf89",
+     "repository": "talk"
+    },
+    {
+     "commit": "41d4757",
+     "repository": "talk"
+    },
+    {
+     "commit": "c9ced4e",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/briefs/2026-10-29__editor/README.md",
+     "repository": "talk"
+    },
+    {
+     "commit": "9f17ce7",
+     "repository": "talk"
+    },
+    {
+     "commit": "9a51c28",
+     "repository": "talk"
+    },
+    {
+     "commit": "3314ffe",
+     "repository": "talk"
+    },
+    {
+     "commit": "f20cfa8",
+     "repository": "talk"
+    },
+    {
+     "commit": "588b11a",
+     "repository": "talk"
+    },
+    {
+     "commit": "28fe01d",
+     "repository": "talk"
+    },
+    {
+     "commit": "23739cc",
+     "repository": "talk"
+    },
+    {
+     "commit": "13e1321",
+     "repository": "talk"
+    },
+    {
+     "commit": "12e93db",
+     "repository": "talk"
+    },
+    {
+     "commit": "013d97e",
+     "repository": "talk"
+    },
+    {
+     "commit": "dbd75ad",
+     "repository": "talk"
+    },
+    {
+     "commit": "4a2481b",
+     "repository": "talk"
+    },
+    {
+     "commit": "f00734f",
+     "repository": "talk"
+    },
+    {
+     "commit": "f1cbca0",
+     "repository": "talk"
+    },
+    {
+     "commit": "8d208d3",
+     "repository": "talk"
+    },
+    {
+     "commit": "4adc04a",
+     "repository": "talk"
+    },
+    {
+     "commit": "7639664",
+     "repository": "talk"
+    },
+    {
+     "commit": "0fe0fff",
+     "repository": "talk"
+    },
+    {
+     "commit": "62c6b99",
+     "repository": "talk"
+    },
+    {
+     "commit": "ef05098",
+     "repository": "talk"
+    },
+    {
+     "commit": "da9b681",
+     "repository": "talk"
+    },
+    {
+     "commit": "7bda718",
+     "repository": "talk"
+    },
+    {
+     "commit": "a867f7f",
+     "repository": "talk"
+    },
+    {
+     "commit": "ec962a2",
+     "repository": "talk"
+    },
+    {
+     "commit": "ca59986",
+     "repository": "talk"
+    },
+    {
+     "commit": "7f522de",
+     "repository": "talk"
+    },
+    {
+     "commit": "3260997",
+     "repository": "talk"
+    },
+    {
+     "commit": "14998b5",
+     "repository": "talk"
+    },
+    {
+     "commit": "b1c9bab",
+     "repository": "talk"
+    },
+    {
+     "path": "team/dev/briefs/2026-10-29__the-player.md",
+     "repository": "talk"
+    },
+    {
+     "path": "team/dev/debriefs/2026-10-29__the-player.md",
+     "repository": "talk"
+    },
+    {
+     "path": "team/studio/ROLE.md",
+     "repository": "talk"
+    },
+    {
+     "path": "team/motion/ROLE.md",
+     "repository": "talk"
+    },
+    {
+     "path": "team/storyteller/story/three-parts.md",
+     "repository": "talk"
+    },
+    {
+     "path": "team/storyteller/story/part-check-1814.md",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/briefs/2026-10-29__editor/",
+     "repository": "talk"
+    },
+    {
+     "path": "src/static/talk/talk.json",
+     "repository": "talk"
+    }
+   ]
+  },
+  "07-ed7387": {
+   "chapter": "07-building-the-talk.md",
+   "sources": [
+    {
+     "claim": "C040"
+    }
+   ]
+  },
+  "07-efa473": {
+   "chapter": "07-building-the-talk.md",
+   "sources": [
+    {
+     "commit": "588b11a",
+     "repository": "talk"
+    }
+   ]
+  },
+  "07-f45565": {
+   "chapter": "07-building-the-talk.md",
+   "sources": [
+    {
+     "commit": "62c6b99",
+     "repository": "talk"
+    },
+    {
+     "commit": "ca59986",
+     "repository": "talk"
+    },
+    {
+     "commit": "7f522de",
+     "repository": "talk"
+    },
+    {
+     "commit": "b1c9bab",
+     "repository": "talk"
+    },
+    {
+     "claim": "C016"
+    }
+   ]
+  },
+  "07-f70c16": {
+   "chapter": "07-building-the-talk.md",
+   "sources": [
+    {
+     "path": "team/deck/debriefs/img/2026-10-29__e01-review__1-v1.png",
+     "repository": "talk"
+    },
+    {
+     "path": "team/deck/debriefs/img/2026-10-29__e01-review__2-v2.png",
+     "repository": "talk"
+    },
+    {
+     "path": "team/designer/debriefs/img/2026-10-29__first-design-pass__01-talk__1600.jpg",
+     "repository": "talk"
+    },
+    {
+     "path": "team/designer/debriefs/img/2026-10-29__first-design-pass__02-talk__1600__after.jpg",
+     "repository": "talk"
+    },
+    {
+     "path": "team/dev/debriefs/img/2026-10-29__player-overview.jpg",
+     "repository": "talk"
+    },
+    {
+     "path": "team/dev/debriefs/img/2026-10-29__build-mode__presenting.png",
+     "repository": "talk"
+    },
+    {
+     "path": "team/dev/debriefs/img/2026-10-29__player__ipad-landscape.png",
+     "repository": "talk"
+    },
+    {
+     "path": "team/dev/debriefs/img/2026-10-29__player-feedback-pane.jpg",
+     "repository": "talk"
+    },
+    {
+     "path": "team/studio/debriefs/img/2026-10-29__first-ports__1-abp-end.png",
+     "repository": "talk"
+    },
+    {
+     "path": "team/studio/debriefs/img/2026-10-29__first-ports__6-gate-end.png",
+     "repository": "talk"
+    },
+    {
+     "path": "team/studio/debriefs/img/2026-10-29__journey__2-end.png",
+     "repository": "talk"
+    },
+    {
+     "path": "team/studio/debriefs/img/2026-10-29__first-ports__3-abp-player-ipad.png",
+     "repository": "talk"
+    },
+    {
+     "path": "team/deck/debriefs/img/2026-10-29__the-talk-in-the-editors-order__1-new-slides.png",
+     "repository": "talk"
+    },
+    {
+     "commit": "a9c0b49",
+     "repository": "talk"
+    }
+   ]
+  },
+  "08-085fcf": {
+   "chapter": "08-the-locks-that-never-closed.md",
+   "sources": [
+    {
+     "claim": "C022"
+    }
+   ]
+  },
+  "08-0a26b4": {
+   "chapter": "08-the-locks-that-never-closed.md",
+   "sources": [
+    {
+     "path": "team/conductor/briefs/2026-10-29__editor/3-three-parts-and-locks-1700.md",
+     "repository": "talk"
+    }
+   ]
+  },
+  "08-1305fc": {
+   "chapter": "08-the-locks-that-never-closed.md",
+   "sources": [
+    {
+     "commit": "867f8c2",
+     "repository": "talk"
+    },
+    {
+     "claim": "C006"
+    },
+    {
+     "claim": "C021"
+    },
+    {
+     "claim": "C037"
+    },
+    {
+     "claim": "C024"
+    }
+   ]
+  },
+  "08-302e4b": {
+   "chapter": "08-the-locks-that-never-closed.md",
+   "sources": [
+    {
+     "claim": "C027"
+    },
+    {
+     "claim": "C018"
+    }
+   ]
+  },
+  "08-41b929": {
+   "chapter": "08-the-locks-that-never-closed.md",
+   "sources": [
+    {
+     "commit": "b1c9bab",
+     "repository": "talk"
+    },
+    {
+     "commit": "9d27703",
+     "repository": "talk"
+    },
+    {
+     "commit": "b3f208f",
+     "repository": "talk"
+    },
+    {
+     "commit": "0ecddca",
+     "repository": "talk"
+    },
+    {
+     "commit": "5fd7877",
+     "repository": "talk"
+    },
+    {
+     "claim": "C027"
+    }
+   ]
+  },
+  "08-470627": {
+   "chapter": "08-the-locks-that-never-closed.md",
+   "sources": [
+    {
+     "commit": "09f13d5",
+     "repository": "talk"
+    }
+   ]
+  },
+  "08-47c786": {
+   "chapter": "08-the-locks-that-never-closed.md",
+   "sources": [
+    {
+     "commit": "97b98d9",
+     "repository": "talk"
+    },
+    {
+     "commit": "02cbd86",
+     "repository": "talk"
+    },
+    {
+     "claim": "C011"
+    },
+    {
+     "claim": "C011"
+    }
+   ]
+  },
+  "08-56824a": {
+   "chapter": "08-the-locks-that-never-closed.md",
+   "sources": [
+    {
+     "path": "timeline/turning-points.md",
+     "repository": "book"
+    },
+    {
+     "commit": "545a473",
+     "repository": "talk"
+    }
+   ]
+  },
+  "08-592d4f": {
+   "chapter": "08-the-locks-that-never-closed.md",
+   "sources": [
+    {
+     "commit": "4a2481b",
+     "repository": "talk"
+    },
+    {
+     "path": "admin/build/lock.py",
+     "repository": "talk"
+    },
+    {
+     "claim": "C027"
+    }
+   ]
+  },
+  "08-5fb013": {
+   "chapter": "08-the-locks-that-never-closed.md",
+   "sources": [
+    {
+     "path": "team/conductor/debriefs/img/night-20261029T1722-2.png",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/debriefs/img/night-20261029T1821-3.png",
+     "repository": "talk"
+    },
+    {
+     "path": "team/designer/debriefs/img/2026-10-29__part-1-projector-check__03-title__1920.jpg",
+     "repository": "talk"
+    },
+    {
+     "path": "team/designer/debriefs/img/2026-10-29__part-1-projector-check__02-s-e08__1920.jpg",
+     "repository": "talk"
+    },
+    {
+     "commit": "a9c0b49",
+     "repository": "talk"
+    }
+   ]
+  },
+  "08-62f935": {
+   "chapter": "08-the-locks-that-never-closed.md",
+   "sources": [
+    {
+     "claim": "C021"
+    }
+   ]
+  },
+  "08-6448a3": {
+   "chapter": "08-the-locks-that-never-closed.md",
+   "sources": [
+    {
+     "commit": "23739cc",
+     "repository": "talk"
+    },
+    {
+     "commit": "12e93db",
+     "repository": "talk"
+    },
+    {
+     "commit": "013d97e",
+     "repository": "talk"
+    },
+    {
+     "commit": "dbd75ad",
+     "repository": "talk"
+    },
+    {
+     "claim": "C028"
+    }
+   ]
+  },
+  "08-6b2806": {
+   "chapter": "08-the-locks-that-never-closed.md",
+   "sources": [
+    {
+     "path": "team/storyteller/story/part-check-1814.md",
+     "repository": "talk"
+    },
+    {
+     "claim": "C026"
+    }
+   ]
+  },
+  "08-6d2e20": {
+   "chapter": "08-the-locks-that-never-closed.md",
+   "sources": [
+    {
+     "claim": "C023"
+    },
+    {
+     "claim": "C023"
+    }
+   ]
+  },
+  "08-705909": {
+   "chapter": "08-the-locks-that-never-closed.md",
+   "sources": [
+    {
+     "commit": "3342cff",
+     "repository": "talk"
+    },
+    {
+     "claim": "C027"
+    }
+   ]
+  },
+  "08-85fa5b": {
+   "chapter": "08-the-locks-that-never-closed.md",
+   "sources": [
+    {
+     "commit": "09f13d5",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/WAKE.md",
+     "repository": "talk"
+    },
+    {
+     "commit": "3342cff",
+     "repository": "talk"
+    }
+   ]
+  },
+  "08-8a21e8": {
+   "chapter": "08-the-locks-that-never-closed.md",
+   "sources": [
+    {
+     "commit": "62c6b99",
+     "repository": "talk"
+    },
+    {
+     "claim": "C016"
+    }
+   ]
+  },
+  "08-8b2827": {
+   "chapter": "08-the-locks-that-never-closed.md",
+   "sources": [
+    {
+     "claim": "C026"
+    },
+    {
+     "claim": "C026"
+    }
+   ]
+  },
+  "08-932f98": {
+   "chapter": "08-the-locks-that-never-closed.md",
+   "sources": [
+    {
+     "claim": "C023"
+    },
+    {
+     "claim": "C024"
+    }
+   ]
+  },
+  "08-995e7a": {
+   "chapter": "08-the-locks-that-never-closed.md",
+   "sources": [
+    {
+     "claim": "C027"
+    },
+    {
+     "claim": "C006"
+    }
+   ]
+  },
+  "08-a2577f": {
+   "chapter": "08-the-locks-that-never-closed.md",
+   "sources": [
+    {
+     "claim": "C005"
+    },
+    {
+     "claim": "C006"
+    },
+    {
+     "claim": "C011"
+    },
+    {
+     "claim": "C014"
+    },
+    {
+     "claim": "C016"
+    },
+    {
+     "claim": "C018"
+    },
+    {
+     "claim": "C021"
+    },
+    {
+     "claim": "C022"
+    },
+    {
+     "claim": "C023"
+    },
+    {
+     "claim": "C024"
+    },
+    {
+     "claim": "C026"
+    },
+    {
+     "claim": "C027"
+    },
+    {
+     "claim": "C028"
+    },
+    {
+     "claim": "C031"
+    },
+    {
+     "claim": "C037"
+    }
+   ]
+  },
+  "08-bd131e": {
+   "chapter": "08-the-locks-that-never-closed.md",
+   "sources": [
+    {
+     "commit": "298be4e",
+     "repository": "talk"
+    },
+    {
+     "commit": "3342cff",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/briefs/2026-10-29__editor/3-three-parts-and-locks-1700.md",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/WAKE.md",
+     "repository": "talk"
+    },
+    {
+     "commit": "62c6b99",
+     "repository": "talk"
+    },
+    {
+     "commit": "545a473",
+     "repository": "talk"
+    },
+    {
+     "commit": "09f13d5",
+     "repository": "talk"
+    },
+    {
+     "commit": "4a2481b",
+     "repository": "talk"
+    },
+    {
+     "path": "admin/build/lock.py",
+     "repository": "talk"
+    },
+    {
+     "path": "team/dev/wakes/20261029T174850Z.json",
+     "repository": "talk"
+    },
+    {
+     "path": "team/dev/policy.json",
+     "repository": "talk"
+    },
+    {
+     "commit": "b1c9bab",
+     "repository": "talk"
+    },
+    {
+     "commit": "9d27703",
+     "repository": "talk"
+    },
+    {
+     "commit": "b3f208f",
+     "repository": "talk"
+    },
+    {
+     "commit": "0ecddca",
+     "repository": "talk"
+    },
+    {
+     "commit": "23739cc",
+     "repository": "talk"
+    },
+    {
+     "commit": "13e1321",
+     "repository": "talk"
+    },
+    {
+     "commit": "12e93db",
+     "repository": "talk"
+    },
+    {
+     "commit": "013d97e",
+     "repository": "talk"
+    },
+    {
+     "commit": "dbd75ad",
+     "repository": "talk"
+    },
+    {
+     "commit": "2ed6427",
+     "repository": "talk"
+    },
+    {
+     "commit": "867f8c2",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/HOLD.md",
+     "repository": "talk"
+    },
+    {
+     "commit": "7968c99",
+     "repository": "talk"
+    },
+    {
+     "commit": "88b8f00",
+     "repository": "talk"
+    },
+    {
+     "commit": "cb5b996",
+     "repository": "talk"
+    },
+    {
+     "commit": "97b98d9",
+     "repository": "talk"
+    },
+    {
+     "commit": "02cbd86",
+     "repository": "talk"
+    },
+    {
+     "path": "team/security/ROLE.md",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/WAKE.md",
+     "repository": "talk"
+    },
+    {
+     "path": "team/storyteller/story/part-check-1814.md",
+     "repository": "talk"
+    },
+    {
+     "path": "src/static/talk/talk.json",
+     "repository": "talk"
+    },
+    {
+     "path": "src/static/talk/slides/brakes/index.html",
+     "repository": "talk"
+    },
+    {
+     "commit": "1f7c633",
+     "repository": "talk"
+    }
+   ]
+  },
+  "08-d44209": {
+   "chapter": "08-the-locks-that-never-closed.md",
+   "sources": [
+    {
+     "claim": "C014"
+    }
+   ]
+  },
+  "08-dd9049": {
+   "chapter": "08-the-locks-that-never-closed.md",
+   "sources": [
+    {
+     "commit": "88b8f00",
+     "repository": "talk"
+    },
+    {
+     "commit": "cb5b996",
+     "repository": "talk"
+    },
+    {
+     "path": "timeline/unmerged.md",
+     "repository": "book"
+    },
+    {
+     "claim": "C005"
+    }
+   ]
+  },
+  "08-e03439": {
+   "chapter": "08-the-locks-that-never-closed.md",
+   "sources": [
+    {
+     "claim": "C031"
+    }
+   ]
+  },
+  "08-eb7767": {
+   "chapter": "08-the-locks-that-never-closed.md",
+   "sources": [
+    {
+     "path": "team/dev/wakes/20261029T174850Z.json",
+     "repository": "talk"
+    },
+    {
+     "path": "team/dev/policy.json",
+     "repository": "talk"
+    }
+   ]
+  },
+  "08-ebdd2a": {
+   "chapter": "08-the-locks-that-never-closed.md",
+   "sources": [
+    {
+     "path": "chapter-plan/plan.md",
+     "repository": "book"
+    },
+    {
+     "path": "timeline/day/16.md",
+     "repository": "book"
+    },
+    {
+     "path": "timeline/turning-points.md",
+     "repository": "book"
+    },
+    {
+     "path": "timeline/unmerged.md",
+     "repository": "book"
+    },
+    {
+     "commit": "39df303",
+     "repository": "talk"
+    },
+    {
+     "path": "controls/README.md",
+     "repository": "book"
+    },
+    {
+     "path": "index/areas/team-security.md",
+     "repository": "book"
+    },
+    {
+     "path": "briefs/2026-10-30/5-lessons-to-carry.md",
+     "repository": "book"
+    }
+   ]
+  },
+  "08-fe82f1": {
+   "chapter": "08-the-locks-that-never-closed.md",
+   "sources": [
+    {
+     "commit": "2ed6427",
+     "repository": "talk"
+    }
+   ]
+  },
+  "09-1241d5": {
+   "chapter": "09-the-team-was-the-insider.md",
+   "sources": [
+    {
+     "path": "controls/index.json",
+     "repository": "book"
+    },
+    {
+     "path": "controls/README.md",
+     "repository": "book"
+    },
+    {
+     "path": "team/security/wakes/20261030T014038Z.json",
+     "repository": "book"
+    },
+    {
+     "path": "team/security/reviews/pki-agent-review.md",
+     "repository": "book"
+    },
+    {
+     "path": "team/publisher/requests/security__leanpub-as-collaborator.md",
+     "repository": "book"
+    },
+    {
+     "path": "admin/build/validate.py",
+     "repository": "book"
+    },
+    {
+     "path": "timeline/turning-points.md",
+     "repository": "book"
+    },
+    {
+     "commit": "e7d3d3d",
+     "repository": "book"
+    },
+    {
+     "commit": "bfc2e35",
+     "repository": "book"
+    },
+    {
+     "commit": "c1d220c",
+     "repository": "book"
+    },
+    {
+     "commit": "a31632b",
+     "repository": "book"
+    },
+    {
+     "commit": "27825f7",
+     "repository": "book"
+    },
+    {
+     "commit": "4f9ab97",
+     "repository": "book"
+    },
+    {
+     "commit": "085df5c",
+     "repository": "book"
+    },
+    {
+     "commit": "ce8903f",
+     "repository": "book"
+    },
+    {
+     "commit": "4fe304f",
+     "repository": "book"
+    },
+    {
+     "commit": "cc04d0a",
+     "repository": "book"
+    },
+    {
+     "commit": "8d3e5fd",
+     "repository": "book"
+    },
+    {
+     "commit": "94bf72c",
+     "repository": "book"
+    }
+   ]
+  },
+  "09-19bb41": {
+   "chapter": "09-the-team-was-the-insider.md",
+   "sources": [
+    {
+     "commit": "88b8f00",
+     "repository": "talk"
+    },
+    {
+     "path": "timeline/turning-points.md",
+     "repository": "book"
+    },
+    {
+     "commit": "298be4e",
+     "repository": "talk"
+    },
+    {
+     "claim": "C005"
+    },
+    {
+     "claim": "C005"
+    },
+    {
+     "claim": "C006"
+    },
+    {
+     "claim": "C007"
+    }
+   ]
+  },
+  "09-2a9c96": {
+   "chapter": "09-the-team-was-the-insider.md",
+   "sources": [
+    {
+     "commit": "bfc2e35",
+     "repository": "book"
+    },
+    {
+     "commit": "c1d220c",
+     "repository": "book"
+    },
+    {
+     "commit": "a31632b",
+     "repository": "book"
+    },
+    {
+     "commit": "27825f7",
+     "repository": "book"
+    },
+    {
+     "commit": "4f9ab97",
+     "repository": "book"
+    },
+    {
+     "commit": "085df5c",
+     "repository": "book"
+    },
+    {
+     "commit": "ce8903f",
+     "repository": "book"
+    }
+   ]
+  },
+  "09-2ba34f": {
+   "chapter": "09-the-team-was-the-insider.md",
+   "sources": [
+    {
+     "path": "controls/index.json",
+     "repository": "book"
+    },
+    {
+     "path": "controls/README.md",
+     "repository": "book"
+    }
+   ]
+  },
+  "09-3230c8": {
+   "chapter": "09-the-team-was-the-insider.md",
+   "sources": [
+    {
+     "commit": "298be4e",
+     "repository": "talk"
+    },
+    {
+     "path": "src/static/talk/talk.json",
+     "repository": "talk"
+    },
+    {
+     "path": "admin/build/agents.py",
+     "repository": "talk"
+    },
+    {
+     "path": "admin/tools/wake.py",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/HOLD.md",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/wakes/20261029T021416Z.json",
+     "repository": "talk"
+    },
+    {
+     "path": "team/dev/debriefs/2026-10-29__the-board.md",
+     "repository": "talk"
+    },
+    {
+     "path": "content/articles/running-this-agent-team.md",
+     "repository": "talk"
+    },
+    {
+     "commit": "1f7c633",
+     "repository": "talk"
+    },
+    {
+     "commit": "09f13d5",
+     "repository": "talk"
+    },
+    {
+     "commit": "8c66751",
+     "repository": "talk"
+    },
+    {
+     "commit": "5700bab",
+     "repository": "talk"
+    },
+    {
+     "commit": "4adc04a",
+     "repository": "talk"
+    },
+    {
+     "commit": "78d517d",
+     "repository": "talk"
+    },
+    {
+     "commit": "867f8c2",
+     "repository": "talk"
+    },
+    {
+     "commit": "88b8f00",
+     "repository": "talk"
+    },
+    {
+     "commit": "b859ff0",
+     "repository": "talk"
+    }
+   ]
+  },
+  "09-3642f6": {
+   "chapter": "09-the-team-was-the-insider.md",
+   "sources": [
+    {
+     "claim": "C011"
+    }
+   ]
+  },
+  "09-3a07c4": {
+   "chapter": "09-the-team-was-the-insider.md",
+   "sources": [
+    {
+     "path": "team/security/reviews/pki-agent-review.md",
+     "repository": "book"
+    }
+   ]
+  },
+  "09-40096b": {
+   "chapter": "09-the-team-was-the-insider.md",
+   "sources": [
+    {
+     "path": "src/static/",
+     "repository": "talk"
+    },
+    {
+     "path": "admin/tools/",
+     "repository": "talk"
+    },
+    {
+     "commit": "298be4e",
+     "repository": "talk"
+    },
+    {
+     "path": "admin/tools/",
+     "repository": "talk"
+    },
+    {
+     "path": "admin/tools/",
+     "repository": "talk"
+    },
+    {
+     "path": "admin/build/validate.py",
+     "repository": "talk"
+    },
+    {
+     "commit": "e7d3d3d",
+     "repository": "book"
+    }
+   ]
+  },
+  "09-4a0945": {
+   "chapter": "09-the-team-was-the-insider.md",
+   "sources": [
+    {
+     "path": "team/security/wakes/20261030T014038Z.json",
+     "repository": "book"
+    }
+   ]
+  },
+  "09-4c5f54": {
+   "chapter": "09-the-team-was-the-insider.md",
+   "sources": [
+    {
+     "commit": "bfc2e35",
+     "repository": "book"
+    },
+    {
+     "commit": "c1d220c",
+     "repository": "book"
+    },
+    {
+     "commit": "8d3e5fd",
+     "repository": "book"
+    },
+    {
+     "commit": "94bf72c",
+     "repository": "book"
+    }
+   ]
+  },
+  "09-4e6788": {
+   "chapter": "09-the-team-was-the-insider.md",
+   "sources": [
+    {
+     "path": "comms/",
+     "repository": "book"
+    },
+    {
+     "path": "team/security/wakes/20261030T042452Z.json",
+     "repository": "book"
+    }
+   ]
+  },
+  "09-53db54": {
+   "chapter": "09-the-team-was-the-insider.md",
+   "sources": [
+    {
+     "claim": "C009"
+    }
+   ]
+  },
+  "09-558159": {
+   "chapter": "09-the-team-was-the-insider.md",
+   "sources": [
+    {
+     "path": "team/dev/debriefs/img/2026-10-29__the-five-step-wake__1-wakes.png",
+     "repository": "talk"
+    },
+    {
+     "commit": "a9c0b49",
+     "repository": "talk"
+    }
+   ]
+  },
+  "09-65c3c0": {
+   "chapter": "09-the-team-was-the-insider.md",
+   "sources": [
+    {
+     "claim": "C023"
+    },
+    {
+     "claim": "C023"
+    },
+    {
+     "claim": "C025"
+    }
+   ]
+  },
+  "09-670bf4": {
+   "chapter": "09-the-team-was-the-insider.md",
+   "sources": [
+    {
+     "path": "team/dev/debriefs/2026-10-29__the-board.md",
+     "repository": "talk"
+    }
+   ]
+  },
+  "09-7a5d9d": {
+   "chapter": "09-the-team-was-the-insider.md",
+   "sources": [
+    {
+     "claim": "C025"
+    }
+   ]
+  },
+  "09-81a117": {
+   "chapter": "09-the-team-was-the-insider.md",
+   "sources": [
+    {
+     "commit": "4adc04a",
+     "repository": "talk"
+    }
+   ]
+  },
+  "09-848c9a": {
+   "chapter": "09-the-team-was-the-insider.md",
+   "sources": [
+    {
+     "commit": "09f13d5",
+     "repository": "talk"
+    },
+    {
+     "claim": "C024"
+    },
+    {
+     "claim": "C006"
+    },
+    {
+     "claim": "C021"
+    },
+    {
+     "claim": "C027"
+    }
+   ]
+  },
+  "09-85b590": {
+   "chapter": "09-the-team-was-the-insider.md",
+   "sources": [
+    {
+     "claim": "C011"
+    }
+   ]
+  },
+  "09-85d367": {
+   "chapter": "09-the-team-was-the-insider.md",
+   "sources": [
+    {
+     "path": "team/conductor/wakes/20261029T140334Z.json",
+     "repository": "talk"
+    }
+   ]
+  },
+  "09-900d13": {
+   "chapter": "09-the-team-was-the-insider.md",
+   "sources": [
+    {
+     "path": "admin/build/validate.py",
+     "repository": "talk"
+    },
+    {
+     "commit": "1f7c633",
+     "repository": "talk"
+    }
+   ]
+  },
+  "09-9d093e": {
+   "chapter": "09-the-team-was-the-insider.md",
+   "sources": [
+    {
+     "commit": "78d517d",
+     "repository": "talk"
+    }
+   ]
+  },
+  "09-adabf8": {
+   "chapter": "09-the-team-was-the-insider.md",
+   "sources": [
+    {
+     "claim": "C003"
+    }
+   ]
+  },
+  "09-c04031": {
+   "chapter": "09-the-team-was-the-insider.md",
+   "sources": [
+    {
+     "claim": "C022"
+    }
+   ]
+  },
+  "09-cdb7da": {
+   "chapter": "09-the-team-was-the-insider.md",
+   "sources": [
+    {
+     "path": "controls/README.md",
+     "repository": "book"
+    }
+   ]
+  },
+  "09-ebc29d": {
+   "chapter": "09-the-team-was-the-insider.md",
+   "sources": [
+    {
+     "path": "content/articles/running-this-agent-team.md",
+     "repository": "talk"
+    },
+    {
+     "commit": "298be4e",
+     "repository": "talk"
+    }
+   ]
+  },
+  "09-ee8639": {
+   "chapter": "09-the-team-was-the-insider.md",
+   "sources": [
+    {
+     "commit": "8c66751",
+     "repository": "talk"
+    },
+    {
+     "commit": "5700bab",
+     "repository": "talk"
+    },
+    {
+     "claim": "C022"
+    },
+    {
+     "claim": "C022"
+    }
+   ]
+  },
+  "09-ee9c17": {
+   "chapter": "09-the-team-was-the-insider.md",
+   "sources": [
+    {
+     "claim": "C003"
+    },
+    {
+     "claim": "C005"
+    },
+    {
+     "claim": "C006"
+    },
+    {
+     "claim": "C007"
+    },
+    {
+     "claim": "C009"
+    },
+    {
+     "claim": "C011"
+    },
+    {
+     "claim": "C021"
+    },
+    {
+     "claim": "C022"
+    },
+    {
+     "claim": "C023"
+    },
+    {
+     "claim": "C024"
+    },
+    {
+     "claim": "C025"
+    },
+    {
+     "claim": "C027"
+    }
+   ]
+  },
+  "09-ef64ba": {
+   "chapter": "09-the-team-was-the-insider.md",
+   "sources": [
+    {
+     "path": "comms/",
+     "repository": "book"
+    },
+    {
+     "path": "team/security/wakes/20261030T032513Z.json",
+     "repository": "book"
+    },
+    {
+     "path": "team/security/wakes/20261030T042452Z.json",
+     "repository": "book"
+    },
+    {
+     "commit": "4fe304f",
+     "repository": "book"
+    },
+    {
+     "commit": "cc04d0a",
+     "repository": "book"
+    }
+   ]
+  },
+  "09-f4c5e8": {
+   "chapter": "09-the-team-was-the-insider.md",
+   "sources": [
+    {
+     "path": "team/publisher/requests/security__leanpub-as-collaborator.md",
+     "repository": "book"
+    }
+   ]
+  },
+  "09-f7d86f": {
+   "chapter": "09-the-team-was-the-insider.md",
+   "sources": [
+    {
+     "path": "team/conductor/wakes/20261029T021416Z.json",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/wakes/20261029T140334Z.json",
+     "repository": "talk"
+    }
+   ]
+  },
+  "10-0241f4": {
+   "chapter": "10-the-talk-as-given.md",
+   "sources": [
+    {
+     "claim": "C026"
+    }
+   ]
+  },
+  "10-0e8993": {
+   "chapter": "10-the-talk-as-given.md",
+   "sources": [
+    {
+     "path": "timeline/day/18.md",
+     "repository": "book"
+    },
+    {
+     "path": "timeline/after-1900.md",
+     "repository": "book"
+    },
+    {
+     "commit": "867f8c2",
+     "repository": "talk"
+    },
+    {
+     "commit": "cb5b996",
+     "repository": "talk"
+    }
+   ]
+  },
+  "10-129aa8": {
+   "chapter": "10-the-talk-as-given.md",
+   "sources": [
+    {
+     "claim": "C006"
+    },
+    {
+     "claim": "C007"
+    },
+    {
+     "claim": "C015"
+    },
+    {
+     "claim": "C021"
+    },
+    {
+     "claim": "C024"
+    },
+    {
+     "claim": "C026"
+    },
+    {
+     "claim": "C027"
+    },
+    {
+     "claim": "C028"
+    },
+    {
+     "claim": "C029"
+    },
+    {
+     "claim": "C030"
+    },
+    {
+     "claim": "C031"
+    },
+    {
+     "claim": "C037"
+    },
+    {
+     "claim": "C039"
+    }
+   ]
+  },
+  "10-194da8": {
+   "chapter": "10-the-talk-as-given.md",
+   "sources": [
+    {
+     "commit": "a9c0b49",
+     "repository": "talk"
+    }
+   ]
+  },
+  "10-1d424a": {
+   "chapter": "10-the-talk-as-given.md",
+   "sources": [
+    {
+     "claim": "C021"
+    },
+    {
+     "claim": "C037"
+    },
+    {
+     "claim": "C027"
+    },
+    {
+     "claim": "C028"
+    }
+   ]
+  },
+  "10-1da926": {
+   "chapter": "10-the-talk-as-given.md",
+   "sources": [
+    {
+     "path": "evidence/claims/claims.json",
+     "repository": "talk"
+    },
+    {
+     "commit": "298be4e",
+     "repository": "talk"
+    },
+    {
+     "claim": "C030"
+    }
+   ]
+  },
+  "10-594121": {
+   "chapter": "10-the-talk-as-given.md",
+   "sources": [
+    {
+     "claim": "C026"
+    }
+   ]
+  },
+  "10-5d5856": {
+   "chapter": "10-the-talk-as-given.md",
+   "sources": [
+    {
+     "claim": "C006"
+    },
+    {
+     "claim": "C024"
+    }
+   ]
+  },
+  "10-6ec870": {
+   "chapter": "10-the-talk-as-given.md",
+   "sources": [
+    {
+     "path": "briefs/2026-10-30/5-lessons-to-carry.md",
+     "repository": "book"
+    }
+   ]
+  },
+  "10-849704": {
+   "chapter": "10-the-talk-as-given.md",
+   "sources": [
+    {
+     "claim": "C031"
+    }
+   ]
+  },
+  "10-84dd3b": {
+   "chapter": "10-the-talk-as-given.md",
+   "sources": [
+    {
+     "path": "controls/index.json",
+     "repository": "book"
+    }
+   ]
+  },
+  "10-860311": {
+   "chapter": "10-the-talk-as-given.md",
+   "sources": [
+    {
+     "claim": "C015"
+    }
+   ]
+  },
+  "10-916719": {
+   "chapter": "10-the-talk-as-given.md",
+   "sources": [
+    {
+     "claim": "C029"
+    }
+   ]
+  },
+  "10-a1ca2b": {
+   "chapter": "10-the-talk-as-given.md",
+   "sources": [
+    {
+     "path": "team/conductor/briefs/2026-10-29__editor/3-three-parts-and-locks-1700.md",
+     "repository": "talk"
+    },
+    {
+     "path": "timeline/after-1900.md",
+     "repository": "book"
+    }
+   ]
+  },
+  "10-a5e980": {
+   "chapter": "10-the-talk-as-given.md",
+   "sources": [
+    {
+     "claim": "C007"
+    }
+   ]
+  },
+  "10-b2d223": {
+   "chapter": "10-the-talk-as-given.md",
+   "sources": [
+    {
+     "commit": "298be4e",
+     "repository": "talk"
+    },
+    {
+     "path": "src/static/talk/talk.json",
+     "repository": "talk"
+    },
+    {
+     "path": "evidence/claims/claims.json",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/briefs/2026-10-29__editor/3-three-parts-and-locks-1700.md",
+     "repository": "talk"
+    }
+   ]
+  },
+  "10-b34cbf": {
+   "chapter": "10-the-talk-as-given.md",
+   "sources": [
+    {
+     "claim": "C039"
+    },
+    {
+     "claim": "C039"
+    }
+   ]
+  },
+  "10-be9bf8": {
+   "chapter": "10-the-talk-as-given.md",
+   "sources": [
+    {
+     "commit": "a9c0b49",
+     "repository": "talk"
+    }
+   ]
+  },
+  "10-bf486e": {
+   "chapter": "10-the-talk-as-given.md",
+   "sources": [
+    {
+     "claim": "C028"
+    },
+    {
+     "claim": "C027"
+    },
+    {
+     "claim": "C006"
+    }
+   ]
+  },
+  "10-db7ee3": {
+   "chapter": "10-the-talk-as-given.md",
+   "sources": [
+    {
+     "path": "src/static/talk/talk.json",
+     "repository": "talk"
+    },
+    {
+     "commit": "298be4e",
+     "repository": "talk"
+    },
+    {
+     "claim": "C015"
+    },
+    {
+     "claim": "C026"
+    }
+   ]
+  },
+  "10-e17ae0": {
+   "chapter": "10-the-talk-as-given.md",
+   "sources": [
+    {
+     "claim": "C026"
+    }
+   ]
+  },
+  "10-e8dace": {
+   "chapter": "10-the-talk-as-given.md",
+   "sources": [
+    {
+     "commit": "a9c0b49",
+     "repository": "talk"
+    }
+   ]
+  },
+  "10-fb2056": {
+   "chapter": "10-the-talk-as-given.md",
+   "sources": [
+    {
+     "commit": "a9c0b49",
+     "repository": "talk"
+    },
+    {
+     "path": "index/after-the-day.md",
+     "repository": "book"
+    },
+    {
+     "path": "timeline/after-the-day.md",
+     "repository": "book"
+    }
+   ]
+  },
+  "11-0ab029": {
+   "chapter": "11-what-the-cold-reader-saw.md",
+   "sources": [
+    {
+     "claim": "C014"
+    }
+   ]
+  },
+  "11-14621e": {
+   "chapter": "11-what-the-cold-reader-saw.md",
+   "sources": [
+    {
+     "commit": "39df303",
+     "repository": "talk"
+    },
+    {
+     "path": "timeline/unmerged.md",
+     "repository": "book"
+    }
+   ]
+  },
+  "11-235fea": {
+   "chapter": "11-what-the-cold-reader-saw.md",
+   "sources": [
+    {
+     "commit": "a9c0b49",
+     "repository": "talk"
+    }
+   ]
+  },
+  "11-2600f8": {
+   "chapter": "11-what-the-cold-reader-saw.md",
+   "sources": [
+    {
+     "path": "team/deck/wakes/20261029T141943Z.json",
+     "repository": "talk"
+    }
+   ]
+  },
+  "11-2a6616": {
+   "chapter": "11-what-the-cold-reader-saw.md",
+   "sources": [
+    {
+     "claim": "C023"
+    }
+   ]
+  },
+  "11-4bfe7b": {
+   "chapter": "11-what-the-cold-reader-saw.md",
+   "sources": [
+    {
+     "commit": "a082c52",
+     "repository": "talk"
+    },
+    {
+     "claim": "C031"
+    }
+   ]
+  },
+  "11-6c58f2": {
+   "chapter": "11-what-the-cold-reader-saw.md",
+   "sources": [
+    {
+     "claim": "C038"
+    },
+    {
+     "claim": "C039"
+    }
+   ]
+  },
+  "11-737e37": {
+   "chapter": "11-what-the-cold-reader-saw.md",
+   "sources": [
+    {
+     "path": "team/conductor/handoffs/2026-10-30__cold-read/",
+     "repository": "book"
+    },
+    {
+     "path": "briefs/2026-10-30/2-blind-repo-brief.md",
+     "repository": "book"
+    }
+   ]
+  },
+  "11-791285": {
+   "chapter": "11-what-the-cold-reader-saw.md",
+   "sources": [
+    {
+     "commit": "ef05098",
+     "repository": "talk"
+    },
+    {
+     "path": "team/deck/wakes/20261029T172130Z.json",
+     "repository": "talk"
+    }
+   ]
+  },
+  "11-7b0f97": {
+   "chapter": "11-what-the-cold-reader-saw.md",
+   "sources": [
+    {
+     "commit": "09f13d5",
+     "repository": "talk"
+    },
+    {
+     "claim": "C022"
+    }
+   ]
+  },
+  "11-97896b": {
+   "chapter": "11-what-the-cold-reader-saw.md",
+   "sources": [
+    {
+     "commit": "298be4e",
+     "repository": "talk"
+    }
+   ]
+  },
+  "11-b6e2e1": {
+   "chapter": "11-what-the-cold-reader-saw.md",
+   "sources": [
+    {
+     "path": "content/articles/running-this-agent-team.md",
+     "repository": "talk"
+    }
+   ]
+  },
+  "11-b88231": {
+   "chapter": "11-what-the-cold-reader-saw.md",
+   "sources": [
+    {
+     "commit": "867f8c2",
+     "repository": "talk"
+    },
+    {
+     "claim": "C006"
+    },
+    {
+     "claim": "C021"
+    },
+    {
+     "claim": "C027"
+    },
+    {
+     "claim": "C011"
+    },
+    {
+     "claim": "C022"
+    },
+    {
+     "claim": "C023"
+    }
+   ]
+  },
+  "11-d637ca": {
+   "chapter": "11-what-the-cold-reader-saw.md",
+   "sources": [
+    {
+     "claim": "C014"
+    }
+   ]
+  },
+  "11-da829a": {
+   "chapter": "11-what-the-cold-reader-saw.md",
+   "sources": [
+    {
+     "commit": "298be4e",
+     "repository": "talk"
+    },
+    {
+     "commit": "a9c0b49",
+     "repository": "talk"
+    }
+   ]
+  },
+  "11-df7d7c": {
+   "chapter": "11-what-the-cold-reader-saw.md",
+   "sources": [
+    {
+     "commit": "298be4e",
+     "repository": "talk"
+    }
+   ]
+  },
+  "11-ec6a7d": {
+   "chapter": "11-what-the-cold-reader-saw.md",
+   "sources": [
+    {
+     "claim": "C002"
+    },
+    {
+     "claim": "C004"
+    },
+    {
+     "claim": "C014"
+    }
+   ]
+  },
+  "11-ec980d": {
+   "chapter": "11-what-the-cold-reader-saw.md",
+   "sources": [
+    {
+     "commit": "a9c0b49",
+     "repository": "talk"
+    }
+   ]
+  },
+  "11-eca943": {
+   "chapter": "11-what-the-cold-reader-saw.md",
+   "sources": [
+    {
+     "commit": "298be4e",
+     "repository": "talk"
+    },
+    {
+     "path": "src/static/talk/talk.json",
+     "repository": "talk"
+    },
+    {
+     "path": "content/articles/running-this-agent-team.md",
+     "repository": "talk"
+    },
+    {
+     "path": "team/deck/wakes/20261029T141943Z.json",
+     "repository": "talk"
+    },
+    {
+     "commit": "867f8c2",
+     "repository": "talk"
+    },
+    {
+     "commit": "ef05098",
+     "repository": "talk"
+    },
+    {
+     "commit": "a082c52",
+     "repository": "talk"
+    },
+    {
+     "commit": "09f13d5",
+     "repository": "talk"
+    },
+    {
+     "commit": "39df303",
+     "repository": "talk"
+    },
+    {
+     "commit": "298be4e",
+     "repository": "talk"
+    },
+    {
+     "commit": "a9c0b49",
+     "repository": "talk"
+    }
+   ]
+  },
+  "11-ef5966": {
+   "chapter": "11-what-the-cold-reader-saw.md",
+   "sources": [
+    {
+     "path": "team/conductor/handoffs/2026-10-30__cold-read/",
+     "repository": "book"
+    },
+    {
+     "path": "controls/index.json",
+     "repository": "book"
+    },
+    {
+     "path": "timeline/unmerged.md",
+     "repository": "book"
+    },
+    {
+     "path": "timeline/turning-points.md",
+     "repository": "book"
+    },
+    {
+     "path": "admin/build/validate.py",
+     "repository": "book"
+    }
+   ]
+  },
+  "11-f585a9": {
+   "chapter": "11-what-the-cold-reader-saw.md",
+   "sources": [
+    {
+     "commit": "e7d3d3d",
+     "repository": "book"
+    }
+   ]
+  },
+  "11-f731a3": {
+   "chapter": "11-what-the-cold-reader-saw.md",
+   "sources": [
+    {
+     "path": "src/static/talk/talk.json",
+     "repository": "talk"
+    },
+    {
+     "commit": "298be4e",
+     "repository": "talk"
+    }
+   ]
+  },
+  "11-ff1daf": {
+   "chapter": "11-what-the-cold-reader-saw.md",
+   "sources": [
+    {
+     "claim": "C002"
+    },
+    {
+     "claim": "C003"
+    },
+    {
+     "claim": "C004"
+    },
+    {
+     "claim": "C006"
+    },
+    {
+     "claim": "C011"
+    },
+    {
+     "claim": "C014"
+    },
+    {
+     "claim": "C021"
+    },
+    {
+     "claim": "C022"
+    },
+    {
+     "claim": "C023"
+    },
+    {
+     "claim": "C027"
+    },
+    {
+     "claim": "C031"
+    },
+    {
+     "claim": "C038"
+    },
+    {
+     "claim": "C039"
+    }
+   ]
+  },
+  "11b-090bf3": {
+   "chapter": "11b-what-was-already-there.md",
+   "sources": [
+    {
+     "path": "team/conductor/rc1/maps/06-the-plumbing-under-the-day.json",
+     "repository": "book"
+    }
+   ]
+  },
+  "11b-14c477": {
+   "chapter": "11b-what-was-already-there.md",
+   "sources": [
+    {
+     "claim": "C006"
+    },
+    {
+     "claim": "C009"
+    },
+    {
+     "claim": "C011"
+    },
+    {
+     "claim": "C021"
+    },
+    {
+     "claim": "C022"
+    },
+    {
+     "claim": "C023"
+    },
+    {
+     "claim": "C024"
+    },
+    {
+     "claim": "C025"
+    },
+    {
+     "claim": "C029"
+    },
+    {
+     "claim": "C030"
+    }
+   ]
+  },
+  "11b-1b79b2": {
+   "chapter": "11b-what-was-already-there.md",
+   "sources": [
+    {
+     "commit": "3b403fb",
+     "repository": "book"
+    }
+   ]
+  },
+  "11b-1f699d": {
+   "chapter": "11b-what-was-already-there.md",
+   "sources": [
+    {
+     "path": "admin/build/validate.py",
+     "repository": "talk"
+    }
+   ]
+  },
+  "11b-315872": {
+   "chapter": "11b-what-was-already-there.md",
+   "sources": [
+    {
+     "claim": "C025"
+    }
+   ]
+  },
+  "11b-4a5911": {
+   "chapter": "11b-what-was-already-there.md",
+   "sources": [
+    {
+     "claim": "C022"
+    },
+    {
+     "claim": "C023"
+    }
+   ]
+  },
+  "11b-504ed8": {
+   "chapter": "11b-what-was-already-there.md",
+   "sources": [
+    {
+     "path": "team/conductor/rc1/reviews/gen-zx-team.md",
+     "repository": "book"
+    }
+   ]
+  },
+  "11b-596e25": {
+   "chapter": "11b-what-was-already-there.md",
+   "sources": [
+    {
+     "path": ".github/workflows/release.yml",
+     "repository": "talk"
+    }
+   ]
+  },
+  "11b-5adf2a": {
+   "chapter": "11b-what-was-already-there.md",
+   "sources": [
+    {
+     "claim": "C025"
+    }
+   ]
+  },
+  "11b-6b4319": {
+   "chapter": "11b-what-was-already-there.md",
+   "sources": [
+    {
+     "path": "comms/",
+     "repository": "book"
+    }
+   ]
+  },
+  "11b-78afbe": {
+   "chapter": "11b-what-was-already-there.md",
+   "sources": [
+    {
+     "claim": "C009"
+    },
+    {
+     "claim": "C011"
+    },
+    {
+     "claim": "C006"
+    }
+   ]
+  },
+  "11b-7c8740": {
+   "chapter": "11b-what-was-already-there.md",
+   "sources": [
+    {
+     "path": "team/conductor/rc1/research/the-two-and-a-half-years.md",
+     "repository": "book"
+    }
+   ]
+  },
+  "11b-93d123": {
+   "chapter": "11b-what-was-already-there.md",
+   "sources": [
+    {
+     "claim": "C006"
+    },
+    {
+     "claim": "C021"
+    },
+    {
+     "claim": "C024"
+    }
+   ]
+  },
+  "11b-9fea14": {
+   "chapter": "11b-what-was-already-there.md",
+   "sources": [
+    {
+     "path": "claims/",
+     "repository": "book"
+    },
+    {
+     "claim": "C029"
+    },
+    {
+     "claim": "C030"
+    }
+   ]
+  },
+  "11b-a9737e": {
+   "chapter": "11b-what-was-already-there.md",
+   "sources": [
+    {
+     "path": "comms/issues/",
+     "repository": "book"
+    }
+   ]
+  },
+  "11b-b77ba8": {
+   "chapter": "11b-what-was-already-there.md",
+   "sources": [
+    {
+     "path": "briefs/2026-10-30__in-session/01-principles-maps-and-the-plumbing.md",
+     "repository": "book"
+    }
+   ]
+  },
+  "11b-ea2130": {
+   "chapter": "11b-what-was-already-there.md",
+   "sources": [
+    {
+     "commit": "298be4e",
+     "repository": "talk"
+    },
+    {
+     "path": ".github/workflows/release.yml",
+     "repository": "talk"
+    },
+    {
+     "path": "content/articles/introducing-this-site.md",
+     "repository": "talk"
+    },
+    {
+     "path": "admin/build/build.py",
+     "repository": "talk"
+    },
+    {
+     "path": "admin/tools/start.py",
+     "repository": "talk"
+    },
+    {
+     "path": "admin/notes/2026-10-29__first-agents-and-schedule.md",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/WAKE.md",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/HOLD.md",
+     "repository": "talk"
+    },
+    {
+     "commit": "867f8c2",
+     "repository": "talk"
+    },
+    {
+     "commit": "1f7c633",
+     "repository": "talk"
+    }
+   ]
+  },
+  "12-011a91": {
+   "chapter": "12-build-your-own.md",
+   "sources": [
+    {
+     "claim": "C021"
+    },
+    {
+     "claim": "C037"
+    }
+   ]
+  },
+  "12-0bb530": {
+   "chapter": "12-build-your-own.md",
+   "sources": [
+    {
+     "claim": "C025"
+    }
+   ]
+  },
+  "12-1681cc": {
+   "chapter": "12-build-your-own.md",
+   "sources": [
+    {
+     "claim": "C011"
+    }
+   ]
+  },
+  "12-22fd37": {
+   "chapter": "12-build-your-own.md",
+   "sources": [
+    {
+     "claim": "C001"
+    },
+    {
+     "claim": "C005"
+    },
+    {
+     "claim": "C006"
+    },
+    {
+     "claim": "C007"
+    },
+    {
+     "claim": "C009"
+    },
+    {
+     "claim": "C010"
+    },
+    {
+     "claim": "C011"
+    },
+    {
+     "claim": "C016"
+    },
+    {
+     "claim": "C021"
+    },
+    {
+     "claim": "C022"
+    },
+    {
+     "claim": "C023"
+    },
+    {
+     "claim": "C024"
+    },
+    {
+     "claim": "C025"
+    },
+    {
+     "claim": "C027"
+    },
+    {
+     "claim": "C028"
+    },
+    {
+     "claim": "C029"
+    },
+    {
+     "claim": "C030"
+    },
+    {
+     "claim": "C031"
+    },
+    {
+     "claim": "C032"
+    },
+    {
+     "claim": "C033"
+    },
+    {
+     "claim": "C034"
+    },
+    {
+     "claim": "C035"
+    },
+    {
+     "claim": "C036"
+    },
+    {
+     "claim": "C037"
+    },
+    {
+     "claim": "C040"
+    }
+   ]
+  },
+  "12-2b4d52": {
+   "chapter": "12-build-your-own.md",
+   "sources": [
+    {
+     "path": "claims/graphs-sgit-ai.md",
+     "repository": "book"
+    }
+   ]
+  },
+  "12-39e8ca": {
+   "chapter": "12-build-your-own.md",
+   "sources": [
+    {
+     "claim": "C021"
+    }
+   ]
+  },
+  "12-3cee55": {
+   "chapter": "12-build-your-own.md",
+   "sources": [
+    {
+     "commit": "a9c0b49",
+     "repository": "talk"
+    },
+    {
+     "claim": "C021"
+    }
+   ]
+  },
+  "12-44e766": {
+   "chapter": "12-build-your-own.md",
+   "sources": [
+    {
+     "commit": "ec39527",
+     "repository": "book"
+    },
+    {
+     "claim": "C040"
+    },
+    {
+     "claim": "C028"
+    },
+    {
+     "claim": "C027"
+    }
+   ]
+  },
+  "12-518056": {
+   "chapter": "12-build-your-own.md",
+   "sources": [
+    {
+     "path": "admin/build/agents.py",
+     "repository": "talk"
+    },
+    {
+     "path": "admin/build/validate.py",
+     "repository": "talk"
+    }
+   ]
+  },
+  "12-5703ac": {
+   "chapter": "12-build-your-own.md",
+   "sources": [
+    {
+     "claim": "C040"
+    }
+   ]
+  },
+  "12-5834b9": {
+   "chapter": "12-build-your-own.md",
+   "sources": [
+    {
+     "path": "team/dev/debriefs/img/2026-10-29__the-dashboard-part-1__1-dashboard.png",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/debriefs/img/2026-10-29__the-guide__1-top.png",
+     "repository": "talk"
+    },
+    {
+     "path": "team/storyteller/debriefs/img/4-evolution-and-the-opportunity.png",
+     "repository": "talk"
+    },
+    {
+     "path": "team/storyteller/debriefs/img/5-security-products-evolve.png",
+     "repository": "talk"
+    },
+    {
+     "commit": "298be4e",
+     "repository": "talk"
+    }
+   ]
+  },
+  "12-5ad780": {
+   "chapter": "12-build-your-own.md",
+   "sources": [
+    {
+     "commit": "298be4e",
+     "repository": "talk"
+    },
+    {
+     "path": "src/static/talk/talk.json",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/briefs/2026-10-29__editor/3-three-parts-and-locks-1700.md",
+     "repository": "talk"
+    },
+    {
+     "path": "team/conductor/HOLD.md",
+     "repository": "talk"
+    },
+    {
+     "commit": "a9c0b49",
+     "repository": "talk"
+    }
+   ]
+  },
+  "12-636a8b": {
+   "chapter": "12-build-your-own.md",
+   "sources": [
+    {
+     "commit": "a9c0b49",
+     "repository": "talk"
+    },
+    {
+     "claim": "C037"
+    },
+    {
+     "claim": "C010"
+    }
+   ]
+  },
+  "12-67f9a5": {
+   "chapter": "12-build-your-own.md",
+   "sources": [
+    {
+     "path": "team/conductor/schedule.json",
+     "repository": "talk"
+    }
+   ]
+  },
+  "12-6c5215": {
+   "chapter": "12-build-your-own.md",
+   "sources": [
+    {
+     "claim": "C032"
+    },
+    {
+     "claim": "C033"
+    },
+    {
+     "claim": "C034"
+    },
+    {
+     "claim": "C035"
+    },
+    {
+     "claim": "C036"
+    }
+   ]
+  },
+  "12-73e44e": {
+   "chapter": "12-build-your-own.md",
+   "sources": [
+    {
+     "claim": "C016"
+    }
+   ]
+  },
+  "12-771ee5": {
+   "chapter": "12-build-your-own.md",
+   "sources": [
+    {
+     "claim": "C009"
+    }
+   ]
+  },
+  "12-7a893d": {
+   "chapter": "12-build-your-own.md",
+   "sources": [
+    {
+     "commit": "a9c0b49",
+     "repository": "talk"
+    }
+   ]
+  },
+  "12-85420a": {
+   "chapter": "12-build-your-own.md",
+   "sources": [
+    {
+     "claim": "C031"
+    }
+   ]
+  },
+  "12-954f50": {
+   "chapter": "12-build-your-own.md",
+   "sources": [
+    {
+     "claim": "C022"
+    },
+    {
+     "claim": "C023"
+    },
+    {
+     "claim": "C025"
+    }
+   ]
+  },
+  "12-97893c": {
+   "chapter": "12-build-your-own.md",
+   "sources": [
+    {
+     "claim": "C025"
+    }
+   ]
+  },
+  "12-99c645": {
+   "chapter": "12-build-your-own.md",
+   "sources": [
+    {
+     "claim": "C007"
+    }
+   ]
+  },
+  "12-9b64cd": {
+   "chapter": "12-build-your-own.md",
+   "sources": [
+    {
+     "claim": "C021"
+    },
+    {
+     "claim": "C027"
+    },
+    {
+     "claim": "C040"
+    },
+    {
+     "claim": "C028"
+    },
+    {
+     "claim": "C025"
+    },
+    {
+     "claim": "C005"
+    },
+    {
+     "claim": "C006"
+    },
+    {
+     "claim": "C031"
+    },
+    {
+     "claim": "C027"
+    },
+    {
+     "claim": "C028"
+    },
+    {
+     "claim": "C040"
+    }
+   ]
+  },
+  "12-a694bc": {
+   "chapter": "12-build-your-own.md",
+   "sources": [
+    {
+     "claim": "C024"
+    },
+    {
+     "claim": "C006"
+    },
+    {
+     "claim": "C005"
+    },
+    {
+     "claim": "C006"
+    }
+   ]
+  },
+  "12-b14bf6": {
+   "chapter": "12-build-your-own.md",
+   "sources": [
+    {
+     "claim": "C029"
+    },
+    {
+     "claim": "C030"
+    },
+    {
+     "claim": "C035"
+    }
+   ]
+  },
+  "12-b769ab": {
+   "chapter": "12-build-your-own.md",
+   "sources": [
+    {
+     "path": "comms/",
+     "repository": "book"
+    }
+   ]
+  },
+  "12-c15d17": {
+   "chapter": "12-build-your-own.md",
+   "sources": [
+    {
+     "commit": "298be4e",
+     "repository": "talk"
+    }
+   ]
+  },
+  "12-c7fb5b": {
+   "chapter": "12-build-your-own.md",
+   "sources": [
+    {
+     "commit": "3b403fb",
+     "repository": "book"
+    }
+   ]
+  },
+  "12-c97ef2": {
+   "chapter": "12-build-your-own.md",
+   "sources": [
+    {
+     "path": "controls/index.json",
+     "repository": "book"
+    }
+   ]
+  },
+  "12-cb9c1d": {
+   "chapter": "12-build-your-own.md",
+   "sources": [
+    {
+     "path": "team/conductor/WAKE.md",
+     "repository": "book"
+    },
+    {
+     "path": "team/conductor/schedule.json",
+     "repository": "book"
+    },
+    {
+     "path": "team/security/ROLE.md",
+     "repository": "book"
+    },
+    {
+     "path": "admin/build/",
+     "repository": "book"
+    },
+    {
+     "path": "admin/tools/",
+     "repository": "book"
+    },
+    {
+     "path": "team/conductor/rc1/BRIEF.md",
+     "repository": "book"
+    },
+    {
+     "commit": "f3cea02",
+     "repository": "book"
+    },
+    {
+     "commit": "79f0eb8",
+     "repository": "book"
+    },
+    {
+     "commit": "3b403fb",
+     "repository": "book"
+    },
+    {
+     "commit": "81fd2ef",
+     "repository": "book"
+    },
+    {
+     "commit": "ec39527",
+     "repository": "book"
+    },
+    {
+     "commit": "77a9480",
+     "repository": "book"
+    },
+    {
+     "commit": "27a3031",
+     "repository": "book"
+    },
+    {
+     "commit": "90e1b52",
+     "repository": "book"
+    }
+   ]
+  },
+  "12-cce1e4": {
+   "chapter": "12-build-your-own.md",
+   "sources": [
+    {
+     "claim": "C001"
+    },
+    {
+     "claim": "C009"
+    }
+   ]
+  },
+  "12-d19203": {
+   "chapter": "12-build-your-own.md",
+   "sources": [
+    {
+     "path": "team/conductor/rc1/BRIEF.md",
+     "repository": "book"
+    }
+   ]
+  },
+  "12-d532e6": {
+   "chapter": "12-build-your-own.md",
+   "sources": [
+    {
+     "path": "briefs/2026-10-30/5-lessons-to-carry.md",
+     "repository": "book"
+    },
+    {
+     "claim": "C040"
+    }
+   ]
+  },
+  "12-d7286e": {
+   "chapter": "12-build-your-own.md",
+   "sources": [
+    {
+     "claim": "C011"
+    },
+    {
+     "claim": "C023"
+    }
+   ]
+  },
+  "12-f6656f": {
+   "chapter": "12-build-your-own.md",
+   "sources": [
+    {
+     "claim": "C025"
+    }
+   ]
+  },
+  "12-fc7760": {
+   "chapter": "12-build-your-own.md",
+   "sources": [
+    {
+     "commit": "77a9480",
+     "repository": "book"
+    }
+   ]
+  },
+  "13-017d3b": {
+   "chapter": "13-concepts-and-principles.md",
+   "sources": [
+    {
+     "path": "briefs/2026-10-30__in-session/01-principles-maps-and-the-plumbing.md",
+     "repository": "book"
+    }
+   ]
+  },
+  "13-2a9351": {
+   "chapter": "13-concepts-and-principles.md",
+   "sources": [
+    {
+     "claim": "C009"
+    },
+    {
+     "claim": "C037"
+    }
+   ]
+  },
+  "13-2bc531": {
+   "chapter": "13-concepts-and-principles.md",
+   "sources": [
+    {
+     "claim": "C031"
+    },
+    {
+     "claim": "C027"
+    }
+   ]
+  },
+  "13-339d5b": {
+   "chapter": "13-concepts-and-principles.md",
+   "sources": [
+    {
+     "claim": "C030"
+    },
+    {
+     "claim": "C011"
+    },
+    {
+     "claim": "C010"
+    },
+    {
+     "claim": "C037"
+    }
+   ]
+  },
+  "13-3562b4": {
+   "chapter": "13-concepts-and-principles.md",
+   "sources": [
+    {
+     "claim": "C009"
+    }
+   ]
+  },
+  "13-3d87a8": {
+   "chapter": "13-concepts-and-principles.md",
+   "sources": [
+    {
+     "claim": "C005"
+    },
+    {
+     "claim": "C006"
+    },
+    {
+     "claim": "C009"
+    },
+    {
+     "claim": "C010"
+    },
+    {
+     "claim": "C011"
+    },
+    {
+     "claim": "C021"
+    },
+    {
+     "claim": "C022"
+    },
+    {
+     "claim": "C023"
+    },
+    {
+     "claim": "C024"
+    },
+    {
+     "claim": "C025"
+    },
+    {
+     "claim": "C027"
+    },
+    {
+     "claim": "C030"
+    },
+    {
+     "claim": "C031"
+    },
+    {
+     "claim": "C036"
+    },
+    {
+     "claim": "C037"
+    }
+   ]
+  },
+  "13-424b64": {
+   "chapter": "13-concepts-and-principles.md",
+   "sources": [
+    {
+     "path": "team/conductor/rc1/",
+     "repository": "book"
+    }
+   ]
+  },
+  "13-4c4ba1": {
+   "chapter": "13-concepts-and-principles.md",
+   "sources": [
+    {
+     "claim": "C025"
+    }
+   ]
+  },
+  "13-613403": {
+   "chapter": "13-concepts-and-principles.md",
+   "sources": [
+    {
+     "claim": "C025"
+    }
+   ]
+  },
+  "13-76140b": {
+   "chapter": "13-concepts-and-principles.md",
+   "sources": [
+    {
+     "claim": "C006"
+    },
+    {
+     "claim": "C024"
+    },
+    {
+     "claim": "C005"
+    },
+    {
+     "claim": "C021"
+    },
+    {
+     "claim": "C027"
+    }
+   ]
+  },
+  "13-768ddf": {
+   "chapter": "13-concepts-and-principles.md",
+   "sources": [
+    {
+     "claim": "C031"
+    },
+    {
+     "claim": "C027"
+    }
+   ]
+  },
+  "13-79311c": {
+   "chapter": "13-concepts-and-principles.md",
+   "sources": [
+    {
+     "claim": "C021"
+    },
+    {
+     "claim": "C037"
+    }
+   ]
+  },
+  "13-7a90ea": {
+   "chapter": "13-concepts-and-principles.md",
+   "sources": [
+    {
+     "path": "team/conductor/rc1/reviews/gen-zx-team.md",
+     "repository": "book"
+    }
+   ]
+  },
+  "13-7b77b4": {
+   "chapter": "13-concepts-and-principles.md",
+   "sources": [
+    {
+     "claim": "C011"
+    },
+    {
+     "claim": "C006"
+    },
+    {
+     "claim": "C021"
+    }
+   ]
+  },
+  "13-7fb759": {
+   "chapter": "13-concepts-and-principles.md",
+   "sources": [
+    {
+     "claim": "C031"
+    },
+    {
+     "claim": "C027"
+    }
+   ]
+  },
+  "13-93d511": {
+   "chapter": "13-concepts-and-principles.md",
+   "sources": [
+    {
+     "path": "team/conductor/rc1/maps/",
+     "repository": "book"
+    },
+    {
+     "path": "team/conductor/rc1/tools/wardley.py",
+     "repository": "book"
+    }
+   ]
+  },
+  "13-9d28b1": {
+   "chapter": "13-concepts-and-principles.md",
+   "sources": [
+    {
+     "claim": "C025"
+    }
+   ]
+  },
+  "13-a21f2c": {
+   "chapter": "13-concepts-and-principles.md",
+   "sources": [
+    {
+     "claim": "C011"
+    },
+    {
+     "claim": "C031"
+    }
+   ]
+  },
+  "13-b8fcdc": {
+   "chapter": "13-concepts-and-principles.md",
+   "sources": [
+    {
+     "claim": "C011"
+    }
+   ]
+  },
+  "13-d4b50a": {
+   "chapter": "13-concepts-and-principles.md",
+   "sources": [
+    {
+     "claim": "C011"
+    }
+   ]
+  },
+  "13-ebff49": {
+   "chapter": "13-concepts-and-principles.md",
+   "sources": [
+    {
+     "claim": "C022"
+    },
+    {
+     "claim": "C023"
+    }
+   ]
+  },
+  "13-ef505d": {
+   "chapter": "13-concepts-and-principles.md",
+   "sources": [
+    {
+     "claim": "C036"
+    }
+   ]
+  },
+  "13-f29b6d": {
+   "chapter": "13-concepts-and-principles.md",
+   "sources": [
+    {
+     "path": "comms/",
+     "repository": "book"
+    }
+   ]
+  },
+  "13-f5a574": {
+   "chapter": "13-concepts-and-principles.md",
+   "sources": [
+    {
+     "claim": "C006"
+    },
+    {
+     "claim": "C005"
+    }
+   ]
+  },
+  "13-f9f79b": {
+   "chapter": "13-concepts-and-principles.md",
+   "sources": [
+    {
+     "claim": "C031"
+    }
+   ]
+  },
+  "13-fecbec": {
+   "chapter": "13-concepts-and-principles.md",
+   "sources": [
+    {
+     "path": "comms/",
+     "repository": "book"
+    },
+    {
+     "path": "comms/",
+     "repository": "book"
+    }
+   ]
+  },
+  "99-015980": {
+   "chapter": "99-appendix-a-every-number-rerun.md",
+   "sources": [
+    {
+     "commit": "56cbe55",
+     "repository": "talk"
+    },
+    {
+     "commit": "1f7c633",
+     "repository": "talk"
+    },
+    {
+     "commit": "1c7d22c",
+     "repository": "talk"
+    },
+    {
+     "commit": "defe526",
+     "repository": "talk"
+    },
+    {
+     "claim": "C011"
+    }
+   ]
+  },
+  "99-01e450": {
+   "chapter": "99-appendix-a-every-number-rerun.md",
+   "sources": [
+    {
+     "commit": "b1c9bab",
+     "repository": "talk"
+    },
+    {
+     "claim": "C016"
+    }
+   ]
+  },
+  "99-0540fe": {
+   "chapter": "99-appendix-a-every-number-rerun.md",
+   "sources": [
+    {
+     "claim": "C022"
+    },
+    {
+     "claim": "C023"
+    },
+    {
+     "claim": "C025"
+    }
+   ]
+  },
+  "99-1fff32": {
+   "chapter": "99-appendix-a-every-number-rerun.md",
+   "sources": [
+    {
+     "commit": "1f7c633",
+     "repository": "talk"
+    },
+    {
+     "commit": "a082c52",
+     "repository": "talk"
+    },
+    {
+     "claim": "C031"
+    }
+   ]
+  },
+  "99-217e9e": {
+   "chapter": "99-appendix-a-every-number-rerun.md",
+   "sources": [
+    {
+     "claim": "C034"
+    }
+   ]
+  },
+  "99-28477e": {
+   "chapter": "99-appendix-a-every-number-rerun.md",
+   "sources": [
+    {
+     "claim": "C002"
+    }
+   ]
+  },
+  "99-28c8a5": {
+   "chapter": "99-appendix-a-every-number-rerun.md",
+   "sources": [
+    {
+     "commit": "2ed6427",
+     "repository": "talk"
+    },
+    {
+     "claim": "C018"
+    }
+   ]
+  },
+  "99-2b1c78": {
+   "chapter": "99-appendix-a-every-number-rerun.md",
+   "sources": [
+    {
+     "claim": "C010"
+    },
+    {
+     "claim": "C001"
+    },
+    {
+     "claim": "C005"
+    },
+    {
+     "claim": "C007"
+    }
+   ]
+  },
+  "99-2b2c9d": {
+   "chapter": "99-appendix-a-every-number-rerun.md",
+   "sources": [
+    {
+     "claim": "C032"
+    }
+   ]
+  },
+  "99-3af60e": {
+   "chapter": "99-appendix-a-every-number-rerun.md",
+   "sources": [
+    {
+     "commit": "3314ffe",
+     "repository": "talk"
+    },
+    {
+     "commit": "dbd75ad",
+     "repository": "talk"
+    },
+    {
+     "claim": "C017"
+    },
+    {
+     "claim": "C018"
+    },
+    {
+     "claim": "C028"
+    },
+    {
+     "claim": "C018"
+    },
+    {
+     "claim": "C016"
+    }
+   ]
+  },
+  "99-3bc3e8": {
+   "chapter": "99-appendix-a-every-number-rerun.md",
+   "sources": [
+    {
+     "path": "claims/register.json",
+     "repository": "book"
+    },
+    {
+     "claim": "C035"
+    }
+   ]
+  },
+  "99-3cac0e": {
+   "chapter": "99-appendix-a-every-number-rerun.md",
+   "sources": [
+    {
+     "claim": "C014"
+    }
+   ]
+  },
+  "99-4c2e58": {
+   "chapter": "99-appendix-a-every-number-rerun.md",
+   "sources": [
+    {
+     "claim": "C033"
+    }
+   ]
+  },
+  "99-50f9d4": {
+   "chapter": "99-appendix-a-every-number-rerun.md",
+   "sources": [
+    {
+     "path": "team/conductor/HOLD.md",
+     "repository": "talk"
+    },
+    {
+     "claim": "C021"
+    },
+    {
+     "claim": "C024"
+    }
+   ]
+  },
+  "99-535ed8": {
+   "chapter": "99-appendix-a-every-number-rerun.md",
+   "sources": [
+    {
+     "commit": "298be4e",
+     "repository": "talk"
+    },
+    {
+     "claim": "C038"
+    },
+    {
+     "claim": "C039"
+    }
+   ]
+  },
+  "99-5e01b6": {
+   "chapter": "99-appendix-a-every-number-rerun.md",
+   "sources": [
+    {
+     "claim": "C011"
+    }
+   ]
+  },
+  "99-656475": {
+   "chapter": "99-appendix-a-every-number-rerun.md",
+   "sources": [
+    {
+     "claim": "C037"
+    }
+   ]
+  },
+  "99-695a5e": {
+   "chapter": "99-appendix-a-every-number-rerun.md",
+   "sources": [
+    {
+     "claim": "C014"
+    }
+   ]
+  },
+  "99-6b69bb": {
+   "chapter": "99-appendix-a-every-number-rerun.md",
+   "sources": [
+    {
+     "commit": "867f8c2",
+     "repository": "talk"
+    },
+    {
+     "commit": "7968c99",
+     "repository": "talk"
+    },
+    {
+     "commit": "88b8f00",
+     "repository": "talk"
+    },
+    {
+     "commit": "3f5d7fc",
+     "repository": "talk"
+    },
+    {
+     "commit": "cb5b996",
+     "repository": "talk"
+    },
+    {
+     "claim": "C005"
+    },
+    {
+     "claim": "C006"
+    }
+   ]
+  },
+  "99-6b8d13": {
+   "chapter": "99-appendix-a-every-number-rerun.md",
+   "sources": [
+    {
+     "claim": "C015"
+    },
+    {
+     "claim": "C026"
+    }
+   ]
+  },
+  "99-73043d": {
+   "chapter": "99-appendix-a-every-number-rerun.md",
+   "sources": [
+    {
+     "claim": "C035"
+    },
+    {
+     "claim": "C036"
+    }
+   ]
+  },
+  "99-73c65b": {
+   "chapter": "99-appendix-a-every-number-rerun.md",
+   "sources": [
+    {
+     "claim": "C008"
+    }
+   ]
+  },
+  "99-75b63b": {
+   "chapter": "99-appendix-a-every-number-rerun.md",
+   "sources": [
+    {
+     "commit": "7968c99",
+     "repository": "talk"
+    },
+    {
+     "commit": "867f8c2",
+     "repository": "talk"
+    },
+    {
+     "claim": "C021"
+    }
+   ]
+  },
+  "99-872ad8": {
+   "chapter": "99-appendix-a-every-number-rerun.md",
+   "sources": [
+    {
+     "commit": "2e4b1f4",
+     "repository": "talk"
+    },
+    {
+     "claim": "C001"
+    }
+   ]
+  },
+  "99-8781ed": {
+   "chapter": "99-appendix-a-every-number-rerun.md",
+   "sources": [
+    {
+     "path": "claims/register.json",
+     "repository": "book"
+    },
+    {
+     "path": "claims/appendix-a-commands.md",
+     "repository": "book"
+    },
+    {
+     "commit": "298be4e",
+     "repository": "talk"
+    },
+    {
+     "path": "team/researcher/debriefs/2026-10-30__the-talks-claims-matched-to-its-beats.md",
+     "repository": "book"
+    },
+    {
+     "claim": "C039"
+    },
+    {
+     "claim": "C001"
+    },
+    {
+     "claim": "C040"
+    }
+   ]
+  },
+  "99-8bf61c": {
+   "chapter": "99-appendix-a-every-number-rerun.md",
+   "sources": [
+    {
+     "commit": "298be4e",
+     "repository": "talk"
+    },
+    {
+     "claim": "C003"
+    },
+    {
+     "claim": "C004"
+    }
+   ]
+  },
+  "99-8e53bf": {
+   "chapter": "99-appendix-a-every-number-rerun.md",
+   "sources": [
+    {
+     "commit": "298be4e",
+     "repository": "talk"
+    }
+   ]
+  },
+  "99-90fe3b": {
+   "chapter": "99-appendix-a-every-number-rerun.md",
+   "sources": [
+    {
+     "claim": "C029"
+    },
+    {
+     "claim": "C030"
+    }
+   ]
+  },
+  "99-94531c": {
+   "chapter": "99-appendix-a-every-number-rerun.md",
+   "sources": [
+    {
+     "path": "evidence/",
+     "repository": "talk"
+    },
+    {
+     "claim": "C019"
+    },
+    {
+     "claim": "C020"
+    }
+   ]
+  },
+  "99-b1a374": {
+   "chapter": "99-appendix-a-every-number-rerun.md",
+   "sources": [
+    {
+     "path": "team/dev/debriefs/img/2026-10-29__the-admin-section__1-commits.png",
+     "repository": "talk"
+    },
+    {
+     "commit": "298be4e",
+     "repository": "talk"
+    }
+   ]
+  },
+  "99-ccd13a": {
+   "chapter": "99-appendix-a-every-number-rerun.md",
+   "sources": [
+    {
+     "claim": "C009"
+    }
+   ]
+  },
+  "99-cfc753": {
+   "chapter": "99-appendix-a-every-number-rerun.md",
+   "sources": [
+    {
+     "path": "admin/build/lock.py",
+     "repository": "talk"
+    },
+    {
+     "commit": "4a2481b",
+     "repository": "talk"
+    },
+    {
+     "claim": "C027"
+    }
+   ]
+  },
+  "99-deea0e": {
+   "chapter": "99-appendix-a-every-number-rerun.md",
+   "sources": [
+    {
+     "claim": "C023"
+    }
+   ]
+  },
+  "99-e951f8": {
+   "chapter": "99-appendix-a-every-number-rerun.md",
+   "sources": [
+    {
+     "claim": "C025"
+    }
+   ]
+  },
+  "99-eaae8e": {
+   "chapter": "99-appendix-a-every-number-rerun.md",
+   "sources": [
+    {
+     "commit": "b859ff0",
+     "repository": "talk"
+    },
+    {
+     "commit": "298be4e",
+     "repository": "talk"
+    },
+    {
+     "claim": "C007"
+    }
+   ]
+  },
+  "99-fbb984": {
+   "chapter": "99-appendix-a-every-number-rerun.md",
+   "sources": [
+    {
+     "claim": "C032"
+    },
+    {
+     "claim": "C036"
+    }
+   ]
+  },
+  "99-fea926": {
+   "chapter": "99-appendix-a-every-number-rerun.md",
+   "sources": [
+    {
+     "commit": "7d0244d",
+     "repository": "talk"
+    },
+    {
+     "commit": "f1cbca0",
+     "repository": "talk"
+    },
+    {
+     "commit": "8d208d3",
+     "repository": "talk"
+    },
+    {
+     "claim": "C012"
+    },
+    {
+     "claim": "C013"
+    }
+   ]
+  },
+  "99-febc62": {
+   "chapter": "99-appendix-a-every-number-rerun.md",
+   "sources": [
+    {
+     "commit": "c9ced4e",
+     "repository": "talk"
+    },
+    {
+     "claim": "C040"
+    }
+   ]
+  }
+ }
+}

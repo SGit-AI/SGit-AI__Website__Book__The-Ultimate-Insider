@@ -5,7 +5,7 @@
 # point at the same words. Only what is verified gets a link: a hash or path is looked up in this repository and in a
 # read-only clone of the talk's repository (pass its path); one found in neither, or a path found in both with nothing in
 # the paragraph to say which, stays plain text. The page makes no request to another host: links load nothing until clicked.
-# Writes only src/pages/review/read/. Kept by developer@book.the-ultimate-insider.
+# Writes only src/pages/review/read/ and review/anchors/rc1-provenance.json (every anchor's sources, as data). Kept by developer@book.the-ultimate-insider.
 # Run: python3 review/tools/make_reader.py <path to a clone of SGit-AI__Website__Presentation__The-Ultimate-Insider>
 
 import html, json, re, subprocess, sys
@@ -47,8 +47,9 @@ def link(url, text, title):
     return f'<a class="pv" href="{html.escape(url)}" title="{html.escape(title)}" rel="noopener noreferrer">{text}</a>'
 
 
-def augment(block, book, talk, claims, used, ch):
+def augment(block, book, talk, claims, used, ch, srcs=None):
     count = 0
+    srcs = [] if srcs is None else srcs                             # what this block rests on, for the provenance data
     commits = {}
     for h in re.findall(r'<code>([0-9a-f]{7,12})</code>', block):
         commits[h] = 'book' if book.has_commit(h) else 'talk' if talk.has_commit(h) else None
@@ -66,6 +67,7 @@ def augment(block, book, talk, claims, used, ch):
             if not side:
                 return m.group(0)
             count += 1
+            srcs.append({'commit': inner, 'repository': side})
             repo = book if side == 'book' else talk
             return link(repo.commit_url(inner), m.group(0), f'commit {inner} in the {"book" if side == "book" else "talk"}\'s repository')
         p = html.unescape(inner).split(' ')[0].rstrip('.,;:)')
@@ -76,6 +78,7 @@ def augment(block, book, talk, claims, used, ch):
         if not side:
             return m.group(0)
         count += 1
+        srcs.append({'path': p, 'repository': side})
         repo = book if side == 'book' else talk
         where = 'this book\'s repository' if side == 'book' else f'the talk\'s repository at {TALK_AT}'
         return link(repo.path_url(p), m.group(0), f'{p} in {where}')
@@ -88,6 +91,7 @@ def augment(block, book, talk, claims, used, ch):
         if cid not in claims:
             return cid
         count += 1
+        srcs.append({'claim': cid})
         used.setdefault(cid, None)
         return f'<a class="pv pv-claim" href="#claims-{ch}-{cid}" title="{html.escape(claims[cid]["claim"])}">{cid}</a>'
 
@@ -130,25 +134,34 @@ def main(talk_path):
     order = [l.strip() for l in (ROOT / 'manuscript' / 'Book.txt').read_text().splitlines() if l.strip() and not l.startswith('#')]
     files = [f for f in order if (RC1 / f).exists()]
     OUT.mkdir(parents=True, exist_ok=True)
-    toc, total = [], 0
+    toc, total, provenance = [], 0, {}
     for i, f in enumerate(files):
         text = (RC1 / f).read_text()
         title = re.match(r'# (.*)', text).group(1)
         ch = f.split('-')[0]
         body = re.sub(r'\]\(resources/', '](../../book/resources/', text.split('\n', 1)[1])
         out, used, n_ch = [], {}, 0
+
+        def keep(tag, srcs):                                        # the anchor's sources, as data
+            aid = re.search(r'data-a="([^"]+)"', tag)
+            if aid and srcs:
+                provenance[aid.group(1)] = {'chapter': f, 'sources': srcs}
         for line in anchored(Markdown().to_html(body), ch, {}, [], f).split('\n'):
             m = re.match(r'(<(p|blockquote|li|div)[^>]*data-a="[^"]+"[^>]*>)(.*)$', line)
             if m or line.startswith(('<ul>', '<ol>')):
                 if line.startswith(('<ul>', '<ol>')):              # list items one by one
                     def li(mm):
                         nonlocal n_ch
-                        inner, k = augment(mm.group(2), book, talk, claims, used, ch)
+                        srcs = []
+                        inner, k = augment(mm.group(2), book, talk, claims, used, ch, srcs)
+                        keep(mm.group(1), srcs)
                         n_ch += k
                         return f'<li{mm.group(1)}{f" data-pv={chr(34)}{k}{chr(34)}" if k else ""}>{inner}</li>'
                     line = re.sub(r'<li([^>]*)>(.*?)</li>', li, line)
                 else:
-                    inner, k = augment(m.group(3), book, talk, claims, used, ch)
+                    srcs = []
+                    inner, k = augment(m.group(3), book, talk, claims, used, ch, srcs)
+                    keep(m.group(1), srcs)
                     n_ch += k
                     line = m.group(1)[:-1] + (f' data-pv="{k}"' if k else '') + '>' + inner
             out.append(line)
@@ -182,6 +195,11 @@ def main(talk_path):
 </section>
 '''
     (OUT / 'index.html').write_text(index)
+    data = {'schema': 'the-ultimate-insider/provenance/v1', 'edition': 'RC1', 'source': 'team/conductor/rc1/',
+            'repositories': {'book': BOOK, 'talk': f'{TALK} at {TALK_AT}'},
+            'note': 'Every anchored paragraph of RC1 with what it rests on: commits and paths found in the book\'s or the talk\'s repository, and register ids (claims/register.json). Made by review/tools/make_reader.py; anchors as in review/anchors/rc1.json.',
+            'anchors': dict(sorted(provenance.items()))}
+    (ROOT / 'review' / 'anchors' / 'rc1-provenance.json').write_text(json.dumps(data, indent=1, ensure_ascii=False) + '\n')
     print(f'reader: {total} sources in {len(files)} chapters')
 
 
