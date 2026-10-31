@@ -13,7 +13,7 @@ line to reread, not a verdict. Reads only; prints to stdout. Usage:
 import re, sys
 
 RULES = [
-    (r"—", "em-dash"),
+    (chr(0x2014), "em-dash"),
     (r"\b(the )?(clearest|best|finest|strongest|most (complete|important|striking|powerful|elegant|honest))\b[^.;:\n]{0,60}\bI (have|'ve) (ever )?(seen|read|found|met|come across)", 'superlative + "I have seen"'),
     (r"\bI (can|could) think of\b", '"I can think of"'),
     (r"(?<!some of )\bthe (clearest|best|finest|strongest)\b[^.;:\n]{0,40}\b(ever|anyone will|anywhere|in the world|of all time)\b", 'superlative + "ever"'),
