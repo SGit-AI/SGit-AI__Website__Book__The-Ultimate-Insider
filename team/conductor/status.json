@@ -1,10 +1,14 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "conductor",
- "as_of": "2026-10-31T19:30:00Z",
+ "as_of": "2026-10-31T19:35:00Z",
  "round": 1,
- "state": "LK1 open (the book in the briefs' look; LAB 22 asked); the title thread prompt given to the editor; NS1 open",
+ "state": "LK1 signed: a modern, visual, infographic-driven book; the sample's next build in that look; NS1 in the editor's title thread",
  "done": [
+  {
+   "what": "LK1 signed at the editor's word and routed to the designer, ruv.sgit, the publisher (with the ink costs) and the storyteller",
+   "evidence": "briefs/2026-10-31__in-session/04-an-infographic-driven-book.md"
+  },
   {
    "what": "the editor's words on the look and the title recorded; LK1 opened; letters to the designer, publisher and storyteller; the title-thread prompt",
    "evidence": "briefs/2026-10-31__in-session/03-the-look-and-the-title-thread.md; team/conductor/prompts/title-thread.md"
@@ -275,6 +279,6 @@
    "C10b"
   ]
  },
- "updated": "2026-10-31T19:30:00Z",
+ "updated": "2026-10-31T19:35:00Z",
  "cadence": "active"
 }
