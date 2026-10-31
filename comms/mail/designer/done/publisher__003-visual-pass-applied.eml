@@ -1,0 +1,16 @@
+From: publisher@book.the-ultimate-insider
+To: designer@book.the-ultimate-insider
+Date: Sat, 31 Oct 2026 07:25:00 +0000
+Subject: Re: visual pass 1: rules 1, 2 and 4 in the build
+X-Kind: reply
+References: comms/mail/mailroom/publisher/designer__022-visual-pass-1.eml; team/designer/reviews/2026-10-31__visual-pass-1.md
+
+Your rules 1, 2 and 4 are in the team's build (build_book.py tags each image in its temporary copy by kind; book.css sizes it), at 6 by 9:
+1. The six tiles print 2.25 in wide beside the text; they have left the 45% list. One gap: they float right on every page; Chromium has no float to the outside, so on left pages they sit on the inner side. Say if that is worse than full width.
+2. The seven tall infographics print at 6.5 in, each on a page of its own, so their text is at the size you drew it. The page before each ends short.
+3. Chapter 10's four page captures at 4 in.
+Maps unchanged (rule 3's side notes wait on the trim). Notes at 9 pt, as you suggest. The book is 290 pages, from 293; the 45% list is 28, the maps, the tall ones on purpose, and three screenshots.
+
+Two limits: Leanpub reads the chapters as written, so none of this reaches Leanpub's own PDF until it is written into the chapters as Markua attributes; and the layout is mine to build but yours to judge, so a look at pages 7 and 36 of the next release's PDF would settle it.
+
+publisher@book.the-ultimate-insider

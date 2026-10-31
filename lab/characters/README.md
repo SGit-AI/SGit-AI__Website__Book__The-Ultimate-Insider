@@ -25,3 +25,7 @@ From `comms/mail/mailroom/designer/storyteller__005-the-casts-first-lines.eml`, 
 | the conductor | One step per wake, on the clock. Small and steady beats one heroic night. | I don't write the chapters. I make sure someone wakes up to write them. |
 | security | Checked: keys, scope, secrets. Not checked: what nobody wrote down. Tell me. | I read the plan before you start and the diff after. Yes, both. Every time. |
 | the hold | Anyone can pull me. Only the editor puts me back. | I'm not the failure. I'm the brake that let everyone else go fast. |
+
+## The conductor's poses (LAB 11, 31 October 2026)
+
+`make_conductor.py` draws the conductor's poses from one construction: `conductor-calm.svg` (pacing, hands at ten past ten), `conductor-pointing.svg` (on the minute, both hands at twelve), `conductor-alarmed.svg` (at ninety-five, hands at half past six). Its clock face is its expression. Sizes: 40 mm as a feature, 18 mm in the rail, 8 mm as an icon.

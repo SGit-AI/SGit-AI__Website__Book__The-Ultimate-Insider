@@ -136,3 +136,16 @@ h2 { font: 700 14pt/18pt var(--sans); margin: 0 0 4mm }
 .tl-spec pre { font-size: 9pt; line-height: 12pt; background: var(--fill); padding: 2mm 3mm; margin: 0 0 3mm; white-space: pre }
 .tl-spec p { font-size: 9.5pt; line-height: 13pt }
 .tl-spec .muted { color: var(--muted) }
+
+/* LAB 11: a character sheet */
+.sheetchar { display: grid; grid-template-columns: 52mm 1fr; gap: 6mm; align-items: start; margin-bottom: 5mm }
+.sheetchar .big svg { width: 52mm }
+.spec { border-collapse: collapse; width: 100%; font-size: 9.5pt; line-height: 13pt }
+.spec td { border-bottom: .3mm solid var(--fill-2); padding: 1mm 2mm; vertical-align: top }
+.spec td:first-child { font-weight: 700; width: 18mm }
+.poses { display: grid; grid-template-columns: repeat(3, 1fr); gap: 5mm; margin-bottom: 5mm }
+.poses svg { width: 30mm }
+.poses .who { font: 700 10pt/14pt var(--sans); font-variant: small-caps; margin: 1mm 0 }
+.sizes { display: grid; grid-template-columns: 50mm 40mm 1fr; gap: 5mm; align-items: end; margin-bottom: 4mm }
+.sizes svg { width: 100% }
+.poses, .sizes, .sheetchar { break-inside: avoid }

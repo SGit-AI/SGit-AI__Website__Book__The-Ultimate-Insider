@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, every two hours at :57 London",
+ "started": "2026-10-31T06:58:39Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. publisher__003: build read only to _site/, judge pages 7 and 36 and the inner-side tiles; reply designer__NNN (outbox copy). 2. lab/tools/ids.json: drop the stale 09-ruv entry (the folder declares LAB 10 now); rebuild with ruv's LAB 05 and 06; reply to ruv-sgit__009; issue 011. 3. Issue 014: the conductor's character sheet in lab/characters/ and lab/experiments/*-designer-*, words asked of the storyteller; status, debrief, REALITY.md.",
+   "at": "2026-10-31T06:59:17Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside scope. Conditions: build output in _site/, not committed; ruv's LAB 05/06 read only; the conductor character is an agent, no real person; vault_check comms; no em-dashes; no private keys.",
+   "at": "2026-10-31T06:59:38Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "1. Publisher's build run read only (_site/), pages 7 and 36 judged; designer__024. 2. ids.json map emptied (ruv's folder declares LAB 10); LAB 05/06 rebuilt in; designer__025; issue 011 updated. 3. LAB 11 (lab/experiments/11-designer-the-conductor/, lab/characters/make_conductor.py, three poses), CSS keeps poses and headings together; designer__026 to the storyteller; issue 014; PDF 29 pages; status, debrief, REALITY.md.",
+   "at": "2026-10-31T07:02:29Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
