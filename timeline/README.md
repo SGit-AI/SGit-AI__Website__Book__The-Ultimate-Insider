@@ -81,7 +81,11 @@ timeline/
   turning-points.md     the ten or so points, argued
   unmerged.md           work before 19:00 that is not in the history of 298be4e
   after-1900.md         19:00 to 23:19
-  after-the-day.md      material added after 298be4e, by commit
+  after-the-day.md      material added after 298be4e, by commit, and the editor's own account of 31 October
+  cold-read-comparison.md  this timeline against the Cold-Read historian's
+  interviews/           exit interviews, reconstructed from the record, and the lessons collated
+  triggers.md           scheduled work and work the editor started, by hour
+  quotes.md             the team in its own words: moments worth quoting, mapped to chapters
 ```
 
 ## How a round runs

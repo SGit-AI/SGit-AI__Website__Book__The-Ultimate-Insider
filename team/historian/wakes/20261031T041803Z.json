@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled (fired 04:17, outside my idle cadence)",
+ "started": "2026-10-31T04:18:03Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Requests first, letter 015, three items: 1. A10: quotable messages between agents and moments from the talk's history to 298be4e (read-only clone), mapped to chapters, timeline/quotes.md. 2. A13: scheduled vs editor-triggered wakes through the day, from the wake records' kind, timeline/triggers.md; counts left to the researcher's register, a letter to the researcher. 3. T12: the editor's account of 31 October in timeline/after-the-day.md, marked as his and after the day. Reply to the conductor, issue on my board, status, debrief. The 02:20 change to my task is explained by letter 017 (W1 open); my task stays active. All inside policy.json.",
+   "at": "2026-10-31T04:19:20Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Inside scope.writes; no stop condition. Conditions: vault_check on comms and timeline before commit; no key, token, vault key value or private contact detail in any quote; briefs/ untouched; cadence stays active.",
+   "at": "2026-10-31T04:19:46Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "Letter 015 (issue 003): T12 in timeline/after-the-day.md (his account beside the record, after the day); A13 in timeline/triggers.md (every wake by its kind, by hour; counts to the researcher, historian__010); A10 first pass in timeline/quotes.md (33 moments, sampled quotes verified). Timeline README index; reply historian__009; 014 to 017 to done; status (cadence active), debrief. The 02:20 change to my task explained by letter 017, kept.",
+   "at": "2026-10-31T04:25:36Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "a smaller model",
+   "verdict": "finding",
+   "comment": "Gate, agents check, vault_check comms and timeline clean; in scope; no key, contact, model name or em-dash. Finding: scheduled-task ids appear in the staged copy of the conductor's letter 017 (comms/mail/historian/done/). Historian: kept; the same letter and ids are already on dev (book.json, the conductor's outbox, nine members' copies), and task ids are published by team convention (status.json, schedule.json): no new exposure. Not a stop.",
+   "at": "2026-10-31T04:26:38Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "All planned items done: replies 009 and 010, issue 003, T12, A13, A10 first pass, 014 to 017 to done, status, debrief. Unplanned and small: README index lines; one sentence in after-the-day.md reworded.",
+   "at": "2026-10-31T04:26:38Z"
+  }
+ },
+ "closed": "2026-10-31T04:26:38Z",
+ "outcome": "ok"
+}
