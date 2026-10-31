@@ -31,8 +31,15 @@
    "verdict": "as-planned",
    "comment": "Idle as planned: c5a0338 touches only status.json and the wake record; own task at 39 9,17 London, status.json matches. No cross-member writes.",
    "at": "2026-10-31T10:41:50Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (Sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "c5a0338 touches only status.json and the wake record; agents check 0 outside scope; no key, token, personal detail, directing text or em-dash. The task is the member's own.",
+   "at": "2026-10-31T10:42:01Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-31T10:42:01Z",
+ "outcome": "idle"
 }
