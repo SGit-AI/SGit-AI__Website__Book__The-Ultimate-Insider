@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "designer",
- "as_of": "2026-10-31T01:30:00Z",
+ "as_of": "2026-10-31T02:45:00Z",
  "round": 0,
- "state": "ninth wake (scheduled): LAB 08, a control before and after; LAB 07 held until it fits Crown Quarto; the lab PDF is 18 pages",
+ "state": "tenth wake (editor's request): the gutter at 0.625 in in the lab PDF and the trim study, relayed for book.json and the publisher",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/designer/ into team/designer/ (drafts left in place)",
@@ -76,6 +76,10 @@
   {
    "what": "LAB 08, a control before and after (C10; the storyteller's words); LAB 07 verdict: in once it fits 167 mm",
    "when": "2026-10-31"
+  },
+  {
+   "what": "gutter 0.625 in (the editor's yes): lab PDF 18 pages, trim study, lab/README.md, LAB 01 grid; designer__017, designer__018",
+   "when": "2026-10-31"
   }
  ],
  "next": [
@@ -88,7 +92,7 @@
    "why": "ROLE.md, Done when 2"
   },
   {
-   "what": "figures for the book drawn for a 167 mm text block; a CSS fragment for the publisher if asked",
+   "what": "figures for the book drawn for a 164 mm text block; a CSS fragment for the publisher if asked",
    "why": "issue 009"
   }
  ],
@@ -99,7 +103,7 @@
   },
   {
    "to": "conductor",
-   "what": "record the editor's Crown Quarto in book.json (designer__012)"
+   "what": "record the editor's Crown Quarto (designer__012) and 0.625 in gutter (designer__017) in book.json"
   }
  ],
  "task": {
