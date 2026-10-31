@@ -11,4 +11,6 @@ A7 reported at 06:55 (`claims/json-book-study.md`; books.sgraph.ai unread, the p
 
 T12 registered at 08:50 as the editor's dated account beside the day's record (C089, open: the book chooses how to tell it).
 
-Open: A4's other sites, vaults, reading, placement and graph.
+A4's placement and graph at 10:55 (`claims/articles-catalogue.*`, 244 links; letter `researcher__013`).
+
+Open: A4's other sites and the public vaults; a full reading of each placed article.

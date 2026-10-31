@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-10-31T08:50:00Z",
+ "as_of": "2026-10-31T10:40:00Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -2221,7 +2221,8 @@
     "spot_checked_here": {
      "replit": "1,206 executives consistent across reports; companies 1,196+ is the agent's own count, reports vary (about 1,100 to 1,196)",
      "kiro": "13 hours, one mainland China region, per the Financial Times as reported by others; Amazon calls it user error"
-    }
+    },
+    "frame_count_not_traced": "'In 9 of the 11' (the frame's own count; no field in the data states it)"
    },
    "state": "open",
    "source": {
@@ -2231,7 +2232,7 @@
    },
    "method": "the piece's data read; two headline figures spot-checked against public reports by web search, 31 October 2026",
    "command": "git show c33e86a:src/static/studio/data/over-enthusiastic.json | python3 -c \"import json,sys;d=json.load(sys.stdin);[print(c['id'],c['grade'],c['checked_against_primary'],c['lost'][:90]) for c in d['cases']]\"",
-   "note": "Outside cases, graded by the talk's register (A1 to A5), not re-read here except the two spot checks. Print a figure only from a case the talk team checked against its primary source, attributed to its report ('per the FT', 'the agent's own count'); mask the figures of the five unchecked cases, or caption them 'as reported'. Label the three evaluation cases as evaluations, as the data's own caution says. Open until each printed figure is read at its primary source. Registered at ruv-sgit's request (ruv-sgit__003), the researcher's 08:32 wake, 31 October 2026."
+   "note": "Outside cases, graded by the talk's register (A1 to A5), not re-read here except the two spot checks. Print a figure only from a case the talk team checked against its primary source, attributed to its report ('per the FT', 'the agent's own count'); mask the figures of the five unchecked cases, or caption them 'as reported'. Label the three evaluation cases as evaluations, as the data's own caution says. Open until each printed figure is read at its primary source. Registered at ruv-sgit's request (ruv-sgit__003), the researcher's 08:32 wake, 31 October 2026. 31 October 10:40: LAB 07 printed the frame's own 'In 9 of the 11' (ruv-sgit__007); it is computed by the piece from the guardrail descriptions, which are prose, and no data field states it: not registered; mask it until traced."
   }
  ]
 }

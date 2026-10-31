@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-10-31T08:55:00Z",
+ "as_of": "2026-10-31T11:00:00Z",
  "round": 1,
- "state": "working: 08:32 wake; 90 claims (74 checked, 5 corrected, 11 open); T12 and E04 registered",
+ "state": "working: 10:32 wake; 90 claims (74 checked, 5 corrected, 11 open); A4 placement and graph proposed",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -104,11 +104,15 @@
   {
    "what": "T12 registered as the editor's dated account beside the day's record (C089); E04's outside cases sorted (C090): seven print attributed, five masked, three left out",
    "when": "2026-10-31T08:55:00Z"
+  },
+  {
+   "what": "A4: placement proposed for 42 of the editor's articles and the graph of their 244 links (claims/articles-catalogue.*); E04's frame count 'In 9 of the 11' found untraceable, mask advised",
+   "when": "2026-10-31T11:00:00Z"
   }
  ],
  "next": [
   {
-   "what": "A4: placement and the graph; the other sites and vaults",
+   "what": "A4: the other sgit.ai sites and the public vaults; a full reading of the placed articles",
    "why": "conductor__020"
   },
   {

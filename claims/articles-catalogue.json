@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider/articles-catalogue/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-10-31T06:50:00Z",
+ "as_of": "2026-10-31T10:55:00Z",
  "source": "https://newsroom.sgit.ai/newsroom/wire.json (generated 2026-10-30, site v0.7.87, 325 articles)",
  "selection": "first pass: every article in one of the newsroom's five curated collections, every article RC1 names by title, and every article chapter 11b uses through the dossier (C060). 'argues' is the wire's own summary: the editor's account, written from his memos by an agent. Not yet: the other sgit.ai sites, the public vaults, a reading of each article, and placement.",
  "collections": [
@@ -49,7 +49,11 @@
    "argues": "Two releases pushed cleanly, reported success, and never reached the site. Every check we had was green, because the failure happened in a place none of them could see. What we changed, and the general rule underneath it.",
    "topics": [
     "site-and-engineering"
-   ]
+   ],
+   "proposed_chapter": "11b",
+   "why_there": "the plumbing: a release is not done until it is live",
+   "links_in_from_catalogue": 1,
+   "link_form": "short name at the foot of the page"
   },
   {
    "slug": "seven-vaults-one-method",
@@ -63,7 +67,11 @@
    "argues": "Publishing seven encrypted vaults in a fortnight turned an ad-hoc process into a repeatable one. Every rule in it exists because something went wrong first, including three vault keys submitted for publication that would have handed the world write access.",
    "topics": [
     "vaults-and-method"
-   ]
+   ],
+   "proposed_chapter": "11b",
+   "why_there": "vaults as the method",
+   "links_in_from_catalogue": 2,
+   "link_form": "short name at the foot of the page"
   },
   {
    "slug": "what-sgit-is",
@@ -77,7 +85,11 @@
    "argues": "An introduction to sgit and sgit.ai, what an encrypted vault is, why version control had to be rebuilt to get one, and what nineteen published vaults look like when the server storing them cannot read a byte.",
    "topics": [
     "vaults-and-method"
-   ]
+   ],
+   "proposed_chapter": "11b",
+   "why_there": "sgit, under the vaults",
+   "links_in_from_catalogue": 5,
+   "link_form": "short name at the foot of the page"
   },
   {
    "slug": "nineteen-sites",
@@ -92,7 +104,11 @@
    "topics": [
     "site-and-engineering",
     "vaults-and-method"
-   ]
+   ],
+   "proposed_chapter": "11b",
+   "why_there": "the network of sites the talk site copied",
+   "links_in_from_catalogue": 2,
+   "link_form": "short name at the foot of the page"
   },
   {
    "slug": "introducing-fractal-semantic-graphs",
@@ -106,7 +122,11 @@
    "argues": "The introduction to the term. Four words and only one of them new; the test that decides whether something deserves the word, worked from a risk register to a TCP packet; why every file format is already a graph; the five-rule grammar; the evidence, eleven altitudes across seven live vaults; what is",
    "topics": [
     "graphs-and-knowledge"
-   ]
+   ],
+   "proposed_chapter": "00b",
+   "why_there": "maps nest as graphs do; also 13",
+   "links_in_from_catalogue": 13,
+   "link_form": "QR and short name at the foot of the page"
   },
   {
    "slug": "saas-apocalypse-decided-by-inertia-not-by-ai",
@@ -120,7 +140,11 @@
    "argues": "The SaaS apocalypse has not happened yet, and the market has already declared it cancelled once. It remains a very strong possibility, argued here with data rather than vibes. Most users were never happy, most features were never used, and most licences sit idle, because success bred inertia and ine",
    "topics": [
     "startups-and-strategy"
-   ]
+   ],
+   "proposed_chapter": "00b",
+   "why_there": "a map argued from evolution",
+   "links_in_from_catalogue": 2,
+   "link_form": "short name at the foot of the page"
   },
   {
    "slug": "future-of-news-story-vault-not-paywall",
@@ -135,7 +159,11 @@
    "topics": [
     "news-and-evidence",
     "graphs-and-knowledge"
-   ]
+   ],
+   "proposed_chapter": null,
+   "why_there": "local news: outside this book",
+   "links_in_from_catalogue": 6,
+   "link_form": null
   },
   {
    "slug": "connector-twin-before-you-deploy-an-agent",
@@ -150,7 +178,11 @@
    "topics": [
     "agents-and-policy",
     "vaults-and-method"
-   ]
+   ],
+   "proposed_chapter": "03",
+   "why_there": "a mandate before a connector",
+   "links_in_from_catalogue": 9,
+   "link_form": "QR and short name at the foot of the page"
   },
   {
    "slug": "six-agents-one-inbox",
@@ -166,7 +198,11 @@
    "argues": "For the past few weeks I have run agents on dedicated accounts, a Google Workspace seat, a Claude Team seat and a GitHub account per agent, and split the work across six roles: a scheduled reader of the inbox, a mailbox agent that drafts, an inbox agent that sends, a CRM agent, a dev team agent and ",
    "topics": [
     "agents-and-policy"
-   ]
+   ],
+   "proposed_chapter": "11b",
+   "why_there": "the team shape before the day; also 03",
+   "links_in_from_catalogue": 13,
+   "link_form": "QR and short name at the foot of the page"
   },
   {
    "slug": "how-news-got-here",
@@ -180,7 +216,11 @@
    "argues": "This started as a voice memo setting out my understanding of how the publishing and news industry got to where it is, in four eras, print, web, platforms and AI, and an instruction to check it and correct it. The research corrected it in four places, and the corrections are the article. The reader d",
    "topics": [
     "news-and-evidence"
-   ]
+   ],
+   "proposed_chapter": null,
+   "why_there": "local news: outside this book",
+   "links_in_from_catalogue": 5,
+   "link_form": null
   },
   {
    "slug": "ultimate-insider-three-collisions",
@@ -194,7 +234,11 @@
    "argues": "A first pass at an argument I intend to give as a conference talk, written down here so I can show it to the people I am talking to about speaking. Three things are arriving at once. Agents are the insider threat that never scaled before, because insiders were humans or static code, and an agent is ",
    "topics": [
     "agents-and-policy"
-   ]
+   ],
+   "proposed_chapter": "05",
+   "why_there": "the article the talk was cut from",
+   "links_in_from_catalogue": 9,
+   "link_form": "QR and short name at the foot of the page"
   },
   {
    "slug": "custom-uis-are-not-the-exception",
@@ -209,7 +253,11 @@
    "topics": [
     "graphs-and-knowledge",
     "agents-and-policy"
-   ]
+   ],
+   "proposed_chapter": "00b",
+   "why_there": "a map of build against buy",
+   "links_in_from_catalogue": 11,
+   "link_form": "QR and short name at the foot of the page"
   },
   {
    "slug": "footprint-and-blast-radius",
@@ -224,7 +272,11 @@
    "topics": [
     "agents-and-policy",
     "vaults-and-method"
-   ]
+   ],
+   "proposed_chapter": "09",
+   "why_there": "reach and blast radius: the insider argument",
+   "links_in_from_catalogue": 11,
+   "link_form": "QR and short name at the foot of the page"
   },
   {
    "slug": "the-wall-under-the-reply",
@@ -239,7 +291,11 @@
    "topics": [
     "agents-and-policy",
     "vaults-and-method"
-   ]
+   ],
+   "proposed_chapter": "12",
+   "why_there": "what the human brings",
+   "links_in_from_catalogue": 5,
+   "link_form": "short name at the foot of the page"
   },
   {
    "slug": "if-somebody-built-a-company-on-code-review",
@@ -254,7 +310,11 @@
    "topics": [
     "graphs-and-knowledge",
     "startups-and-strategy"
-   ]
+   ],
+   "proposed_chapter": "00b",
+   "why_there": "a map; secondary",
+   "links_in_from_catalogue": 7,
+   "link_form": "short name at the foot of the page"
   },
   {
    "slug": "how-much-of-this-did-i-write",
@@ -270,7 +330,11 @@
    "topics": [
     "graphs-and-knowledge",
     "site-and-engineering"
-   ]
+   ],
+   "proposed_chapter": "06",
+   "why_there": "what the editor writes and what agents write",
+   "links_in_from_catalogue": 8,
+   "link_form": "short name at the foot of the page"
   },
   {
    "slug": "the-deck-i-could-not-download",
@@ -285,7 +349,11 @@
    "topics": [
     "startups-and-strategy",
     "vaults-and-method"
-   ]
+   ],
+   "proposed_chapter": "00b",
+   "why_there": "a map; secondary",
+   "links_in_from_catalogue": 5,
+   "link_form": "short name at the foot of the page"
   },
   {
    "slug": "the-agent-team-as-it-runs",
@@ -301,7 +369,11 @@
    "topics": [
     "agents-and-policy",
     "vaults-and-method"
-   ]
+   ],
+   "proposed_chapter": "04",
+   "why_there": "the hourly machine, as it ran before the day",
+   "links_in_from_catalogue": 17,
+   "link_form": "QR and short name at the foot of the page"
   },
   {
    "slug": "a-personal-agent-that-keeps-your-secrets",
@@ -316,7 +388,11 @@
    "topics": [
     "agents-and-policy",
     "vaults-and-method"
-   ]
+   ],
+   "proposed_chapter": "09",
+   "why_there": "where keys live",
+   "links_in_from_catalogue": 10,
+   "link_form": "QR and short name at the foot of the page"
   },
   {
    "slug": "the-mandate-stack",
@@ -333,7 +409,11 @@
    "topics": [
     "agents-and-policy",
     "graphs-and-knowledge"
-   ]
+   ],
+   "proposed_chapter": "03",
+   "why_there": "mandate, grant and the gap",
+   "links_in_from_catalogue": 18,
+   "link_form": "QR and short name at the foot of the page"
   },
   {
    "slug": "why-my-agents-do-not-run-on-my-laptop",
@@ -348,7 +428,11 @@
    "topics": [
     "agents-and-policy",
     "vaults-and-method"
-   ]
+   ],
+   "proposed_chapter": "09",
+   "why_there": "reach of a session on your own machine",
+   "links_in_from_catalogue": 9,
+   "link_form": "QR and short name at the foot of the page"
   },
   {
    "slug": "ai-baseline-control-framework",
@@ -363,7 +447,11 @@
    "topics": [
     "graphs-and-knowledge",
     "agents-and-policy"
-   ]
+   ],
+   "proposed_chapter": "12",
+   "why_there": "an open control framework to start from",
+   "links_in_from_catalogue": 4,
+   "link_form": "short name at the foot of the page"
   },
   {
    "slug": "liquid-content-needs-water",
@@ -378,7 +466,11 @@
    "topics": [
     "news-and-evidence",
     "graphs-and-knowledge"
-   ]
+   ],
+   "proposed_chapter": null,
+   "why_there": "local news: outside this book",
+   "links_in_from_catalogue": 6,
+   "link_form": null
   },
   {
    "slug": "an-agent-desktop-by-the-minute",
@@ -393,7 +485,11 @@
    "topics": [
     "agents-and-policy",
     "startups-and-strategy"
-   ]
+   ],
+   "proposed_chapter": "04",
+   "why_there": "an agent day, minute by minute",
+   "links_in_from_catalogue": 3,
+   "link_form": "short name at the foot of the page"
   },
   {
    "slug": "the-behaviour-policy-is-the-business-logic",
@@ -407,7 +503,11 @@
    "argues": "The first rules anybody writes for an agent are mechanical. Do not send, only draft. Do not delete. Use your own account. Vendors are good at those, and should be. Zoom in on any real agent's behaviour policy, though, and within a few layers you are writing how this company does email, which steps a",
    "topics": [
     "agents-and-policy"
-   ]
+   ],
+   "proposed_chapter": "03",
+   "why_there": "policy.json as the business",
+   "links_in_from_catalogue": 4,
+   "link_form": "short name at the foot of the page"
   },
   {
    "slug": "story-vault-meets-reader-skills",
@@ -422,7 +522,11 @@
    "topics": [
     "news-and-evidence",
     "graphs-and-knowledge"
-   ]
+   ],
+   "proposed_chapter": null,
+   "why_there": "local news: outside this book",
+   "links_in_from_catalogue": 4,
+   "link_form": null
   },
   {
    "slug": "the-bridge-followed-to-the-end",
@@ -437,7 +541,11 @@
    "topics": [
     "news-and-evidence",
     "graphs-and-knowledge"
-   ]
+   ],
+   "proposed_chapter": null,
+   "why_there": "local news: outside this book",
+   "links_in_from_catalogue": 4,
+   "link_form": null
   },
   {
    "slug": "where-is-the-why",
@@ -451,7 +559,11 @@
    "argues": "An agent session asked, in the middle of a task, to add a repository. The prompt showed three fields, owner, repository and access, and two buttons, Decline and Allow once. It did not say which session was asking, why, what the session would be able to do afterwards that it could not do before, or w",
    "topics": [
     "agents-and-policy"
-   ]
+   ],
+   "proposed_chapter": "06",
+   "why_there": "decisions with their reasons: the editor signs",
+   "links_in_from_catalogue": 11,
+   "link_form": "QR and short name at the foot of the page"
   },
   {
    "slug": "knowing-when-to-stop",
@@ -466,7 +578,11 @@
    "topics": [
     "agents-and-policy",
     "startups-and-strategy"
-   ]
+   ],
+   "proposed_chapter": "01",
+   "why_there": "the hold",
+   "links_in_from_catalogue": 6,
+   "link_form": "short name at the foot of the page"
   },
   {
    "slug": "every-mistake-added-a-rule",
@@ -483,7 +599,11 @@
    "topics": [
     "agents-and-policy",
     "site-and-engineering"
-   ]
+   ],
+   "proposed_chapter": "11b",
+   "why_there": "every rule an incident; also 13",
+   "links_in_from_catalogue": 7,
+   "link_form": "short name at the foot of the page"
   },
   {
    "slug": "who-are-you-protecting-against",
@@ -498,7 +618,11 @@
    "topics": [
     "agents-and-policy",
     "startups-and-strategy"
-   ]
+   ],
+   "proposed_chapter": "09",
+   "why_there": "the threat model: the team as the insider",
+   "links_in_from_catalogue": 1,
+   "link_form": "short name at the foot of the page"
   },
   {
    "slug": "agency-is-not-a-yes",
@@ -513,7 +637,11 @@
    "topics": [
     "agents-and-policy",
     "graphs-and-knowledge"
-   ]
+   ],
+   "proposed_chapter": "06",
+   "why_there": "a decision is more than a yes",
+   "links_in_from_catalogue": 7,
+   "link_form": "short name at the foot of the page"
   },
   {
    "slug": "hope-or-enforcement",
@@ -529,7 +657,11 @@
    "topics": [
     "agents-and-policy",
     "vaults-and-method"
-   ]
+   ],
+   "proposed_chapter": "08",
+   "why_there": "locks built and never applied: hope against enforcement",
+   "links_in_from_catalogue": 5,
+   "link_form": "short name at the foot of the page"
   },
   {
    "slug": "the-waiting-room-knew-first",
@@ -544,7 +676,11 @@
    "topics": [
     "news-and-evidence",
     "vaults-and-method"
-   ]
+   ],
+   "proposed_chapter": null,
+   "why_there": "local news: outside this book",
+   "links_in_from_catalogue": 2,
+   "link_form": null
   },
   {
    "slug": "how-i-work-with-claude",
@@ -559,7 +695,11 @@
    "topics": [
     "agents-and-policy",
     "vaults-and-method"
-   ]
+   ],
+   "proposed_chapter": "11b",
+   "why_there": "the guide the team worked by",
+   "links_in_from_catalogue": 4,
+   "link_form": "short name at the foot of the page"
   },
   {
    "slug": "not-a-straight-line",
@@ -574,7 +714,11 @@
    "topics": [
     "startups-and-strategy",
     "site-and-engineering"
-   ]
+   ],
+   "proposed_chapter": "11b",
+   "why_there": "the two and a half years",
+   "links_in_from_catalogue": 2,
+   "link_form": "short name at the foot of the page"
   },
   {
    "slug": "why-i-love-wardley-maps",
@@ -587,7 +731,11 @@
    "topics": [
     "graphs-and-knowledge",
     "startups-and-strategy"
-   ]
+   ],
+   "proposed_chapter": "00b",
+   "why_there": "the fractal map and the axis as a choice (A9)",
+   "links_in_from_catalogue": 3,
+   "link_form": "QR and short name at the foot of the page"
   },
   {
    "slug": "from-send-to-sgit",
@@ -602,7 +750,11 @@
    "topics": [
     "vaults-and-method",
     "startups-and-strategy"
-   ]
+   ],
+   "proposed_chapter": "11b",
+   "why_there": "SG/Send to sgit",
+   "links_in_from_catalogue": 3,
+   "link_form": "short name at the foot of the page"
   },
   {
    "slug": "generation-z-developers-again",
@@ -617,7 +769,11 @@
    "topics": [
     "vaults-and-method",
     "startups-and-strategy"
-   ]
+   ],
+   "proposed_chapter": "11b",
+   "why_there": "pioneers, settlers, town planners",
+   "links_in_from_catalogue": 0,
+   "link_form": "short name at the foot of the page"
   },
   {
    "slug": "ci-owns-the-version",
@@ -632,7 +788,11 @@
    "topics": [
     "site-and-engineering",
     "agents-and-policy"
-   ]
+   ],
+   "proposed_chapter": "11b",
+   "why_there": "CI owns the version",
+   "links_in_from_catalogue": 0,
+   "link_form": "short name at the foot of the page"
   },
   {
    "slug": "what-sgit-does-that-git-does-not",
@@ -647,7 +807,11 @@
    "topics": [
     "vaults-and-method",
     "site-and-engineering"
-   ]
+   ],
+   "proposed_chapter": "11b",
+   "why_there": "sgit against git",
+   "links_in_from_catalogue": 0,
+   "link_form": "short name at the foot of the page"
   },
   {
    "slug": "the-push-is-the-authorisation",
@@ -662,7 +826,1140 @@
    "topics": [
     "agents-and-policy",
     "vaults-and-method"
-   ]
+   ],
+   "proposed_chapter": "03",
+   "why_there": "session keys: the push is the authorisation; also 11b",
+   "links_in_from_catalogue": 0,
+   "link_form": "short name at the foot of the page"
   }
- ]
+ ],
+ "graph": {
+  "nodes": "every article (slug) and every chapter (its RC1 file prefix)",
+  "edges_article_to_article": [
+   {
+    "from": "a-personal-agent-that-keeps-your-secrets",
+    "to": "connector-twin-before-you-deploy-an-agent"
+   },
+   {
+    "from": "a-personal-agent-that-keeps-your-secrets",
+    "to": "footprint-and-blast-radius"
+   },
+   {
+    "from": "a-personal-agent-that-keeps-your-secrets",
+    "to": "introducing-fractal-semantic-graphs"
+   },
+   {
+    "from": "a-personal-agent-that-keeps-your-secrets",
+    "to": "six-agents-one-inbox"
+   },
+   {
+    "from": "a-personal-agent-that-keeps-your-secrets",
+    "to": "the-agent-team-as-it-runs"
+   },
+   {
+    "from": "a-personal-agent-that-keeps-your-secrets",
+    "to": "the-deck-i-could-not-download"
+   },
+   {
+    "from": "a-personal-agent-that-keeps-your-secrets",
+    "to": "ultimate-insider-three-collisions"
+   },
+   {
+    "from": "a-personal-agent-that-keeps-your-secrets",
+    "to": "what-sgit-is"
+   },
+   {
+    "from": "a-personal-agent-that-keeps-your-secrets",
+    "to": "where-is-the-why"
+   },
+   {
+    "from": "a-personal-agent-that-keeps-your-secrets",
+    "to": "why-my-agents-do-not-run-on-my-laptop"
+   },
+   {
+    "from": "agency-is-not-a-yes",
+    "to": "hope-or-enforcement"
+   },
+   {
+    "from": "agency-is-not-a-yes",
+    "to": "how-i-work-with-claude"
+   },
+   {
+    "from": "agency-is-not-a-yes",
+    "to": "how-much-of-this-did-i-write"
+   },
+   {
+    "from": "agency-is-not-a-yes",
+    "to": "introducing-fractal-semantic-graphs"
+   },
+   {
+    "from": "agency-is-not-a-yes",
+    "to": "knowing-when-to-stop"
+   },
+   {
+    "from": "agency-is-not-a-yes",
+    "to": "the-agent-team-as-it-runs"
+   },
+   {
+    "from": "agency-is-not-a-yes",
+    "to": "where-is-the-why"
+   },
+   {
+    "from": "ai-baseline-control-framework",
+    "to": "introducing-fractal-semantic-graphs"
+   },
+   {
+    "from": "ai-baseline-control-framework",
+    "to": "six-agents-one-inbox"
+   },
+   {
+    "from": "ai-baseline-control-framework",
+    "to": "the-behaviour-policy-is-the-business-logic"
+   },
+   {
+    "from": "ai-baseline-control-framework",
+    "to": "where-is-the-why"
+   },
+   {
+    "from": "an-agent-desktop-by-the-minute",
+    "to": "the-mandate-stack"
+   },
+   {
+    "from": "an-agent-desktop-by-the-minute",
+    "to": "where-is-the-why"
+   },
+   {
+    "from": "an-agent-desktop-by-the-minute",
+    "to": "why-my-agents-do-not-run-on-my-laptop"
+   },
+   {
+    "from": "connector-twin-before-you-deploy-an-agent",
+    "to": "a-personal-agent-that-keeps-your-secrets"
+   },
+   {
+    "from": "connector-twin-before-you-deploy-an-agent",
+    "to": "custom-uis-are-not-the-exception"
+   },
+   {
+    "from": "connector-twin-before-you-deploy-an-agent",
+    "to": "footprint-and-blast-radius"
+   },
+   {
+    "from": "connector-twin-before-you-deploy-an-agent",
+    "to": "if-somebody-built-a-company-on-code-review"
+   },
+   {
+    "from": "connector-twin-before-you-deploy-an-agent",
+    "to": "six-agents-one-inbox"
+   },
+   {
+    "from": "connector-twin-before-you-deploy-an-agent",
+    "to": "the-agent-team-as-it-runs"
+   },
+   {
+    "from": "connector-twin-before-you-deploy-an-agent",
+    "to": "the-mandate-stack"
+   },
+   {
+    "from": "connector-twin-before-you-deploy-an-agent",
+    "to": "ultimate-insider-three-collisions"
+   },
+   {
+    "from": "connector-twin-before-you-deploy-an-agent",
+    "to": "where-is-the-why"
+   },
+   {
+    "from": "custom-uis-are-not-the-exception",
+    "to": "connector-twin-before-you-deploy-an-agent"
+   },
+   {
+    "from": "custom-uis-are-not-the-exception",
+    "to": "footprint-and-blast-radius"
+   },
+   {
+    "from": "custom-uis-are-not-the-exception",
+    "to": "future-of-news-story-vault-not-paywall"
+   },
+   {
+    "from": "custom-uis-are-not-the-exception",
+    "to": "introducing-fractal-semantic-graphs"
+   },
+   {
+    "from": "custom-uis-are-not-the-exception",
+    "to": "liquid-content-needs-water"
+   },
+   {
+    "from": "custom-uis-are-not-the-exception",
+    "to": "seven-vaults-one-method"
+   },
+   {
+    "from": "custom-uis-are-not-the-exception",
+    "to": "six-agents-one-inbox"
+   },
+   {
+    "from": "custom-uis-are-not-the-exception",
+    "to": "the-agent-team-as-it-runs"
+   },
+   {
+    "from": "custom-uis-are-not-the-exception",
+    "to": "the-mandate-stack"
+   },
+   {
+    "from": "custom-uis-are-not-the-exception",
+    "to": "the-wall-under-the-reply"
+   },
+   {
+    "from": "custom-uis-are-not-the-exception",
+    "to": "ultimate-insider-three-collisions"
+   },
+   {
+    "from": "every-mistake-added-a-rule",
+    "to": "footprint-and-blast-radius"
+   },
+   {
+    "from": "every-mistake-added-a-rule",
+    "to": "green-does-not-mean-live"
+   },
+   {
+    "from": "every-mistake-added-a-rule",
+    "to": "knowing-when-to-stop"
+   },
+   {
+    "from": "every-mistake-added-a-rule",
+    "to": "the-agent-team-as-it-runs"
+   },
+   {
+    "from": "every-mistake-added-a-rule",
+    "to": "the-bridge-followed-to-the-end"
+   },
+   {
+    "from": "every-mistake-added-a-rule",
+    "to": "what-sgit-is"
+   },
+   {
+    "from": "every-mistake-added-a-rule",
+    "to": "why-i-love-wardley-maps"
+   },
+   {
+    "from": "footprint-and-blast-radius",
+    "to": "a-personal-agent-that-keeps-your-secrets"
+   },
+   {
+    "from": "footprint-and-blast-radius",
+    "to": "connector-twin-before-you-deploy-an-agent"
+   },
+   {
+    "from": "footprint-and-blast-radius",
+    "to": "custom-uis-are-not-the-exception"
+   },
+   {
+    "from": "footprint-and-blast-radius",
+    "to": "every-mistake-added-a-rule"
+   },
+   {
+    "from": "footprint-and-blast-radius",
+    "to": "if-somebody-built-a-company-on-code-review"
+   },
+   {
+    "from": "footprint-and-blast-radius",
+    "to": "six-agents-one-inbox"
+   },
+   {
+    "from": "footprint-and-blast-radius",
+    "to": "the-agent-team-as-it-runs"
+   },
+   {
+    "from": "footprint-and-blast-radius",
+    "to": "the-mandate-stack"
+   },
+   {
+    "from": "footprint-and-blast-radius",
+    "to": "ultimate-insider-three-collisions"
+   },
+   {
+    "from": "footprint-and-blast-radius",
+    "to": "where-is-the-why"
+   },
+   {
+    "from": "footprint-and-blast-radius",
+    "to": "why-my-agents-do-not-run-on-my-laptop"
+   },
+   {
+    "from": "from-send-to-sgit",
+    "to": "how-much-of-this-did-i-write"
+   },
+   {
+    "from": "from-send-to-sgit",
+    "to": "the-agent-team-as-it-runs"
+   },
+   {
+    "from": "from-send-to-sgit",
+    "to": "what-sgit-is"
+   },
+   {
+    "from": "future-of-news-story-vault-not-paywall",
+    "to": "custom-uis-are-not-the-exception"
+   },
+   {
+    "from": "future-of-news-story-vault-not-paywall",
+    "to": "how-news-got-here"
+   },
+   {
+    "from": "future-of-news-story-vault-not-paywall",
+    "to": "liquid-content-needs-water"
+   },
+   {
+    "from": "future-of-news-story-vault-not-paywall",
+    "to": "not-a-straight-line"
+   },
+   {
+    "from": "future-of-news-story-vault-not-paywall",
+    "to": "story-vault-meets-reader-skills"
+   },
+   {
+    "from": "future-of-news-story-vault-not-paywall",
+    "to": "the-deck-i-could-not-download"
+   },
+   {
+    "from": "green-does-not-mean-live",
+    "to": "every-mistake-added-a-rule"
+   },
+   {
+    "from": "hope-or-enforcement",
+    "to": "agency-is-not-a-yes"
+   },
+   {
+    "from": "hope-or-enforcement",
+    "to": "how-i-work-with-claude"
+   },
+   {
+    "from": "hope-or-enforcement",
+    "to": "knowing-when-to-stop"
+   },
+   {
+    "from": "hope-or-enforcement",
+    "to": "the-agent-team-as-it-runs"
+   },
+   {
+    "from": "hope-or-enforcement",
+    "to": "the-behaviour-policy-is-the-business-logic"
+   },
+   {
+    "from": "how-i-work-with-claude",
+    "to": "agency-is-not-a-yes"
+   },
+   {
+    "from": "how-i-work-with-claude",
+    "to": "hope-or-enforcement"
+   },
+   {
+    "from": "how-i-work-with-claude",
+    "to": "the-agent-team-as-it-runs"
+   },
+   {
+    "from": "how-i-work-with-claude",
+    "to": "why-my-agents-do-not-run-on-my-laptop"
+   },
+   {
+    "from": "how-much-of-this-did-i-write",
+    "to": "agency-is-not-a-yes"
+   },
+   {
+    "from": "how-much-of-this-did-i-write",
+    "to": "from-send-to-sgit"
+   },
+   {
+    "from": "how-much-of-this-did-i-write",
+    "to": "if-somebody-built-a-company-on-code-review"
+   },
+   {
+    "from": "how-much-of-this-did-i-write",
+    "to": "introducing-fractal-semantic-graphs"
+   },
+   {
+    "from": "how-much-of-this-did-i-write",
+    "to": "knowing-when-to-stop"
+   },
+   {
+    "from": "how-much-of-this-did-i-write",
+    "to": "liquid-content-needs-water"
+   },
+   {
+    "from": "how-much-of-this-did-i-write",
+    "to": "the-mandate-stack"
+   },
+   {
+    "from": "how-much-of-this-did-i-write",
+    "to": "the-wall-under-the-reply"
+   },
+   {
+    "from": "how-news-got-here",
+    "to": "future-of-news-story-vault-not-paywall"
+   },
+   {
+    "from": "how-news-got-here",
+    "to": "introducing-fractal-semantic-graphs"
+   },
+   {
+    "from": "how-news-got-here",
+    "to": "liquid-content-needs-water"
+   },
+   {
+    "from": "how-news-got-here",
+    "to": "story-vault-meets-reader-skills"
+   },
+   {
+    "from": "how-news-got-here",
+    "to": "the-deck-i-could-not-download"
+   },
+   {
+    "from": "if-somebody-built-a-company-on-code-review",
+    "to": "connector-twin-before-you-deploy-an-agent"
+   },
+   {
+    "from": "if-somebody-built-a-company-on-code-review",
+    "to": "footprint-and-blast-radius"
+   },
+   {
+    "from": "if-somebody-built-a-company-on-code-review",
+    "to": "how-much-of-this-did-i-write"
+   },
+   {
+    "from": "if-somebody-built-a-company-on-code-review",
+    "to": "introducing-fractal-semantic-graphs"
+   },
+   {
+    "from": "if-somebody-built-a-company-on-code-review",
+    "to": "saas-apocalypse-decided-by-inertia-not-by-ai"
+   },
+   {
+    "from": "if-somebody-built-a-company-on-code-review",
+    "to": "six-agents-one-inbox"
+   },
+   {
+    "from": "if-somebody-built-a-company-on-code-review",
+    "to": "the-mandate-stack"
+   },
+   {
+    "from": "introducing-fractal-semantic-graphs",
+    "to": "a-personal-agent-that-keeps-your-secrets"
+   },
+   {
+    "from": "introducing-fractal-semantic-graphs",
+    "to": "agency-is-not-a-yes"
+   },
+   {
+    "from": "introducing-fractal-semantic-graphs",
+    "to": "ai-baseline-control-framework"
+   },
+   {
+    "from": "introducing-fractal-semantic-graphs",
+    "to": "custom-uis-are-not-the-exception"
+   },
+   {
+    "from": "introducing-fractal-semantic-graphs",
+    "to": "how-much-of-this-did-i-write"
+   },
+   {
+    "from": "introducing-fractal-semantic-graphs",
+    "to": "how-news-got-here"
+   },
+   {
+    "from": "introducing-fractal-semantic-graphs",
+    "to": "if-somebody-built-a-company-on-code-review"
+   },
+   {
+    "from": "introducing-fractal-semantic-graphs",
+    "to": "liquid-content-needs-water"
+   },
+   {
+    "from": "introducing-fractal-semantic-graphs",
+    "to": "the-agent-team-as-it-runs"
+   },
+   {
+    "from": "introducing-fractal-semantic-graphs",
+    "to": "the-behaviour-policy-is-the-business-logic"
+   },
+   {
+    "from": "introducing-fractal-semantic-graphs",
+    "to": "the-mandate-stack"
+   },
+   {
+    "from": "introducing-fractal-semantic-graphs",
+    "to": "ultimate-insider-three-collisions"
+   },
+   {
+    "from": "introducing-fractal-semantic-graphs",
+    "to": "why-i-love-wardley-maps"
+   },
+   {
+    "from": "knowing-when-to-stop",
+    "to": "agency-is-not-a-yes"
+   },
+   {
+    "from": "knowing-when-to-stop",
+    "to": "every-mistake-added-a-rule"
+   },
+   {
+    "from": "knowing-when-to-stop",
+    "to": "hope-or-enforcement"
+   },
+   {
+    "from": "knowing-when-to-stop",
+    "to": "how-much-of-this-did-i-write"
+   },
+   {
+    "from": "knowing-when-to-stop",
+    "to": "the-agent-team-as-it-runs"
+   },
+   {
+    "from": "knowing-when-to-stop",
+    "to": "who-are-you-protecting-against"
+   },
+   {
+    "from": "liquid-content-needs-water",
+    "to": "custom-uis-are-not-the-exception"
+   },
+   {
+    "from": "liquid-content-needs-water",
+    "to": "future-of-news-story-vault-not-paywall"
+   },
+   {
+    "from": "liquid-content-needs-water",
+    "to": "how-much-of-this-did-i-write"
+   },
+   {
+    "from": "liquid-content-needs-water",
+    "to": "how-news-got-here"
+   },
+   {
+    "from": "liquid-content-needs-water",
+    "to": "introducing-fractal-semantic-graphs"
+   },
+   {
+    "from": "liquid-content-needs-water",
+    "to": "the-bridge-followed-to-the-end"
+   },
+   {
+    "from": "nineteen-sites",
+    "to": "the-mandate-stack"
+   },
+   {
+    "from": "nineteen-sites",
+    "to": "what-sgit-is"
+   },
+   {
+    "from": "not-a-straight-line",
+    "to": "future-of-news-story-vault-not-paywall"
+   },
+   {
+    "from": "not-a-straight-line",
+    "to": "the-mandate-stack"
+   },
+   {
+    "from": "saas-apocalypse-decided-by-inertia-not-by-ai",
+    "to": "if-somebody-built-a-company-on-code-review"
+   },
+   {
+    "from": "saas-apocalypse-decided-by-inertia-not-by-ai",
+    "to": "the-deck-i-could-not-download"
+   },
+   {
+    "from": "seven-vaults-one-method",
+    "to": "custom-uis-are-not-the-exception"
+   },
+   {
+    "from": "seven-vaults-one-method",
+    "to": "the-mandate-stack"
+   },
+   {
+    "from": "six-agents-one-inbox",
+    "to": "a-personal-agent-that-keeps-your-secrets"
+   },
+   {
+    "from": "six-agents-one-inbox",
+    "to": "ai-baseline-control-framework"
+   },
+   {
+    "from": "six-agents-one-inbox",
+    "to": "connector-twin-before-you-deploy-an-agent"
+   },
+   {
+    "from": "six-agents-one-inbox",
+    "to": "custom-uis-are-not-the-exception"
+   },
+   {
+    "from": "six-agents-one-inbox",
+    "to": "footprint-and-blast-radius"
+   },
+   {
+    "from": "six-agents-one-inbox",
+    "to": "if-somebody-built-a-company-on-code-review"
+   },
+   {
+    "from": "six-agents-one-inbox",
+    "to": "the-agent-team-as-it-runs"
+   },
+   {
+    "from": "six-agents-one-inbox",
+    "to": "the-behaviour-policy-is-the-business-logic"
+   },
+   {
+    "from": "six-agents-one-inbox",
+    "to": "the-mandate-stack"
+   },
+   {
+    "from": "six-agents-one-inbox",
+    "to": "the-wall-under-the-reply"
+   },
+   {
+    "from": "six-agents-one-inbox",
+    "to": "ultimate-insider-three-collisions"
+   },
+   {
+    "from": "six-agents-one-inbox",
+    "to": "where-is-the-why"
+   },
+   {
+    "from": "six-agents-one-inbox",
+    "to": "why-my-agents-do-not-run-on-my-laptop"
+   },
+   {
+    "from": "story-vault-meets-reader-skills",
+    "to": "future-of-news-story-vault-not-paywall"
+   },
+   {
+    "from": "story-vault-meets-reader-skills",
+    "to": "how-news-got-here"
+   },
+   {
+    "from": "story-vault-meets-reader-skills",
+    "to": "the-bridge-followed-to-the-end"
+   },
+   {
+    "from": "story-vault-meets-reader-skills",
+    "to": "the-waiting-room-knew-first"
+   },
+   {
+    "from": "the-agent-team-as-it-runs",
+    "to": "a-personal-agent-that-keeps-your-secrets"
+   },
+   {
+    "from": "the-agent-team-as-it-runs",
+    "to": "agency-is-not-a-yes"
+   },
+   {
+    "from": "the-agent-team-as-it-runs",
+    "to": "connector-twin-before-you-deploy-an-agent"
+   },
+   {
+    "from": "the-agent-team-as-it-runs",
+    "to": "custom-uis-are-not-the-exception"
+   },
+   {
+    "from": "the-agent-team-as-it-runs",
+    "to": "every-mistake-added-a-rule"
+   },
+   {
+    "from": "the-agent-team-as-it-runs",
+    "to": "footprint-and-blast-radius"
+   },
+   {
+    "from": "the-agent-team-as-it-runs",
+    "to": "from-send-to-sgit"
+   },
+   {
+    "from": "the-agent-team-as-it-runs",
+    "to": "hope-or-enforcement"
+   },
+   {
+    "from": "the-agent-team-as-it-runs",
+    "to": "how-i-work-with-claude"
+   },
+   {
+    "from": "the-agent-team-as-it-runs",
+    "to": "introducing-fractal-semantic-graphs"
+   },
+   {
+    "from": "the-agent-team-as-it-runs",
+    "to": "knowing-when-to-stop"
+   },
+   {
+    "from": "the-agent-team-as-it-runs",
+    "to": "six-agents-one-inbox"
+   },
+   {
+    "from": "the-agent-team-as-it-runs",
+    "to": "the-deck-i-could-not-download"
+   },
+   {
+    "from": "the-agent-team-as-it-runs",
+    "to": "the-mandate-stack"
+   },
+   {
+    "from": "the-agent-team-as-it-runs",
+    "to": "the-wall-under-the-reply"
+   },
+   {
+    "from": "the-agent-team-as-it-runs",
+    "to": "where-is-the-why"
+   },
+   {
+    "from": "the-agent-team-as-it-runs",
+    "to": "why-my-agents-do-not-run-on-my-laptop"
+   },
+   {
+    "from": "the-behaviour-policy-is-the-business-logic",
+    "to": "ai-baseline-control-framework"
+   },
+   {
+    "from": "the-behaviour-policy-is-the-business-logic",
+    "to": "hope-or-enforcement"
+   },
+   {
+    "from": "the-behaviour-policy-is-the-business-logic",
+    "to": "introducing-fractal-semantic-graphs"
+   },
+   {
+    "from": "the-behaviour-policy-is-the-business-logic",
+    "to": "six-agents-one-inbox"
+   },
+   {
+    "from": "the-bridge-followed-to-the-end",
+    "to": "every-mistake-added-a-rule"
+   },
+   {
+    "from": "the-bridge-followed-to-the-end",
+    "to": "liquid-content-needs-water"
+   },
+   {
+    "from": "the-bridge-followed-to-the-end",
+    "to": "story-vault-meets-reader-skills"
+   },
+   {
+    "from": "the-bridge-followed-to-the-end",
+    "to": "the-waiting-room-knew-first"
+   },
+   {
+    "from": "the-deck-i-could-not-download",
+    "to": "a-personal-agent-that-keeps-your-secrets"
+   },
+   {
+    "from": "the-deck-i-could-not-download",
+    "to": "future-of-news-story-vault-not-paywall"
+   },
+   {
+    "from": "the-deck-i-could-not-download",
+    "to": "how-news-got-here"
+   },
+   {
+    "from": "the-deck-i-could-not-download",
+    "to": "saas-apocalypse-decided-by-inertia-not-by-ai"
+   },
+   {
+    "from": "the-deck-i-could-not-download",
+    "to": "the-agent-team-as-it-runs"
+   },
+   {
+    "from": "the-mandate-stack",
+    "to": "an-agent-desktop-by-the-minute"
+   },
+   {
+    "from": "the-mandate-stack",
+    "to": "connector-twin-before-you-deploy-an-agent"
+   },
+   {
+    "from": "the-mandate-stack",
+    "to": "custom-uis-are-not-the-exception"
+   },
+   {
+    "from": "the-mandate-stack",
+    "to": "footprint-and-blast-radius"
+   },
+   {
+    "from": "the-mandate-stack",
+    "to": "how-much-of-this-did-i-write"
+   },
+   {
+    "from": "the-mandate-stack",
+    "to": "if-somebody-built-a-company-on-code-review"
+   },
+   {
+    "from": "the-mandate-stack",
+    "to": "introducing-fractal-semantic-graphs"
+   },
+   {
+    "from": "the-mandate-stack",
+    "to": "nineteen-sites"
+   },
+   {
+    "from": "the-mandate-stack",
+    "to": "not-a-straight-line"
+   },
+   {
+    "from": "the-mandate-stack",
+    "to": "seven-vaults-one-method"
+   },
+   {
+    "from": "the-mandate-stack",
+    "to": "six-agents-one-inbox"
+   },
+   {
+    "from": "the-mandate-stack",
+    "to": "the-agent-team-as-it-runs"
+   },
+   {
+    "from": "the-mandate-stack",
+    "to": "the-wall-under-the-reply"
+   },
+   {
+    "from": "the-mandate-stack",
+    "to": "ultimate-insider-three-collisions"
+   },
+   {
+    "from": "the-mandate-stack",
+    "to": "what-sgit-is"
+   },
+   {
+    "from": "the-mandate-stack",
+    "to": "where-is-the-why"
+   },
+   {
+    "from": "the-mandate-stack",
+    "to": "why-i-love-wardley-maps"
+   },
+   {
+    "from": "the-mandate-stack",
+    "to": "why-my-agents-do-not-run-on-my-laptop"
+   },
+   {
+    "from": "the-waiting-room-knew-first",
+    "to": "story-vault-meets-reader-skills"
+   },
+   {
+    "from": "the-waiting-room-knew-first",
+    "to": "the-bridge-followed-to-the-end"
+   },
+   {
+    "from": "the-wall-under-the-reply",
+    "to": "custom-uis-are-not-the-exception"
+   },
+   {
+    "from": "the-wall-under-the-reply",
+    "to": "how-much-of-this-did-i-write"
+   },
+   {
+    "from": "the-wall-under-the-reply",
+    "to": "six-agents-one-inbox"
+   },
+   {
+    "from": "the-wall-under-the-reply",
+    "to": "the-agent-team-as-it-runs"
+   },
+   {
+    "from": "the-wall-under-the-reply",
+    "to": "the-mandate-stack"
+   },
+   {
+    "from": "ultimate-insider-three-collisions",
+    "to": "a-personal-agent-that-keeps-your-secrets"
+   },
+   {
+    "from": "ultimate-insider-three-collisions",
+    "to": "connector-twin-before-you-deploy-an-agent"
+   },
+   {
+    "from": "ultimate-insider-three-collisions",
+    "to": "custom-uis-are-not-the-exception"
+   },
+   {
+    "from": "ultimate-insider-three-collisions",
+    "to": "footprint-and-blast-radius"
+   },
+   {
+    "from": "ultimate-insider-three-collisions",
+    "to": "introducing-fractal-semantic-graphs"
+   },
+   {
+    "from": "ultimate-insider-three-collisions",
+    "to": "six-agents-one-inbox"
+   },
+   {
+    "from": "ultimate-insider-three-collisions",
+    "to": "the-mandate-stack"
+   },
+   {
+    "from": "ultimate-insider-three-collisions",
+    "to": "where-is-the-why"
+   },
+   {
+    "from": "ultimate-insider-three-collisions",
+    "to": "why-my-agents-do-not-run-on-my-laptop"
+   },
+   {
+    "from": "what-sgit-is",
+    "to": "a-personal-agent-that-keeps-your-secrets"
+   },
+   {
+    "from": "what-sgit-is",
+    "to": "every-mistake-added-a-rule"
+   },
+   {
+    "from": "what-sgit-is",
+    "to": "from-send-to-sgit"
+   },
+   {
+    "from": "what-sgit-is",
+    "to": "nineteen-sites"
+   },
+   {
+    "from": "what-sgit-is",
+    "to": "the-mandate-stack"
+   },
+   {
+    "from": "where-is-the-why",
+    "to": "a-personal-agent-that-keeps-your-secrets"
+   },
+   {
+    "from": "where-is-the-why",
+    "to": "agency-is-not-a-yes"
+   },
+   {
+    "from": "where-is-the-why",
+    "to": "ai-baseline-control-framework"
+   },
+   {
+    "from": "where-is-the-why",
+    "to": "an-agent-desktop-by-the-minute"
+   },
+   {
+    "from": "where-is-the-why",
+    "to": "connector-twin-before-you-deploy-an-agent"
+   },
+   {
+    "from": "where-is-the-why",
+    "to": "footprint-and-blast-radius"
+   },
+   {
+    "from": "where-is-the-why",
+    "to": "six-agents-one-inbox"
+   },
+   {
+    "from": "where-is-the-why",
+    "to": "the-agent-team-as-it-runs"
+   },
+   {
+    "from": "where-is-the-why",
+    "to": "the-mandate-stack"
+   },
+   {
+    "from": "where-is-the-why",
+    "to": "ultimate-insider-three-collisions"
+   },
+   {
+    "from": "where-is-the-why",
+    "to": "why-my-agents-do-not-run-on-my-laptop"
+   },
+   {
+    "from": "who-are-you-protecting-against",
+    "to": "knowing-when-to-stop"
+   },
+   {
+    "from": "why-i-love-wardley-maps",
+    "to": "every-mistake-added-a-rule"
+   },
+   {
+    "from": "why-i-love-wardley-maps",
+    "to": "introducing-fractal-semantic-graphs"
+   },
+   {
+    "from": "why-i-love-wardley-maps",
+    "to": "the-mandate-stack"
+   },
+   {
+    "from": "why-my-agents-do-not-run-on-my-laptop",
+    "to": "a-personal-agent-that-keeps-your-secrets"
+   },
+   {
+    "from": "why-my-agents-do-not-run-on-my-laptop",
+    "to": "an-agent-desktop-by-the-minute"
+   },
+   {
+    "from": "why-my-agents-do-not-run-on-my-laptop",
+    "to": "footprint-and-blast-radius"
+   },
+   {
+    "from": "why-my-agents-do-not-run-on-my-laptop",
+    "to": "how-i-work-with-claude"
+   },
+   {
+    "from": "why-my-agents-do-not-run-on-my-laptop",
+    "to": "six-agents-one-inbox"
+   },
+   {
+    "from": "why-my-agents-do-not-run-on-my-laptop",
+    "to": "the-agent-team-as-it-runs"
+   },
+   {
+    "from": "why-my-agents-do-not-run-on-my-laptop",
+    "to": "the-mandate-stack"
+   },
+   {
+    "from": "why-my-agents-do-not-run-on-my-laptop",
+    "to": "ultimate-insider-three-collisions"
+   },
+   {
+    "from": "why-my-agents-do-not-run-on-my-laptop",
+    "to": "where-is-the-why"
+   }
+  ],
+  "edges_article_to_chapter": [
+   {
+    "from": "green-does-not-mean-live",
+    "to": "11b"
+   },
+   {
+    "from": "seven-vaults-one-method",
+    "to": "11b"
+   },
+   {
+    "from": "what-sgit-is",
+    "to": "11b"
+   },
+   {
+    "from": "nineteen-sites",
+    "to": "11b"
+   },
+   {
+    "from": "introducing-fractal-semantic-graphs",
+    "to": "00b"
+   },
+   {
+    "from": "saas-apocalypse-decided-by-inertia-not-by-ai",
+    "to": "00b"
+   },
+   {
+    "from": "connector-twin-before-you-deploy-an-agent",
+    "to": "03"
+   },
+   {
+    "from": "six-agents-one-inbox",
+    "to": "11b"
+   },
+   {
+    "from": "ultimate-insider-three-collisions",
+    "to": "05"
+   },
+   {
+    "from": "custom-uis-are-not-the-exception",
+    "to": "00b"
+   },
+   {
+    "from": "footprint-and-blast-radius",
+    "to": "09"
+   },
+   {
+    "from": "the-wall-under-the-reply",
+    "to": "12"
+   },
+   {
+    "from": "if-somebody-built-a-company-on-code-review",
+    "to": "00b"
+   },
+   {
+    "from": "how-much-of-this-did-i-write",
+    "to": "06"
+   },
+   {
+    "from": "the-deck-i-could-not-download",
+    "to": "00b"
+   },
+   {
+    "from": "the-agent-team-as-it-runs",
+    "to": "04"
+   },
+   {
+    "from": "a-personal-agent-that-keeps-your-secrets",
+    "to": "09"
+   },
+   {
+    "from": "the-mandate-stack",
+    "to": "03"
+   },
+   {
+    "from": "why-my-agents-do-not-run-on-my-laptop",
+    "to": "09"
+   },
+   {
+    "from": "ai-baseline-control-framework",
+    "to": "12"
+   },
+   {
+    "from": "an-agent-desktop-by-the-minute",
+    "to": "04"
+   },
+   {
+    "from": "the-behaviour-policy-is-the-business-logic",
+    "to": "03"
+   },
+   {
+    "from": "where-is-the-why",
+    "to": "06"
+   },
+   {
+    "from": "knowing-when-to-stop",
+    "to": "01"
+   },
+   {
+    "from": "every-mistake-added-a-rule",
+    "to": "11b"
+   },
+   {
+    "from": "who-are-you-protecting-against",
+    "to": "09"
+   },
+   {
+    "from": "agency-is-not-a-yes",
+    "to": "06"
+   },
+   {
+    "from": "hope-or-enforcement",
+    "to": "08"
+   },
+   {
+    "from": "how-i-work-with-claude",
+    "to": "11b"
+   },
+   {
+    "from": "not-a-straight-line",
+    "to": "11b"
+   },
+   {
+    "from": "why-i-love-wardley-maps",
+    "to": "00b"
+   },
+   {
+    "from": "from-send-to-sgit",
+    "to": "11b"
+   },
+   {
+    "from": "generation-z-developers-again",
+    "to": "11b"
+   },
+   {
+    "from": "ci-owns-the-version",
+    "to": "11b"
+   },
+   {
+    "from": "what-sgit-does-that-git-does-not",
+    "to": "11b"
+   },
+   {
+    "from": "the-push-is-the-authorisation",
+    "to": "03"
+   }
+  ],
+  "method": "links in each article's Markdown body to another catalogued article's .md, its own Related section left out; read 31 October 2026"
+ },
+ "placement_note": "Proposed by the researcher for the conductor and the editor: one chapter per article, by what the article argues against what the chapter does. Six local-news articles are proposed for no chapter. A QR code is proposed only for the most-linked articles (nine or more links in from the rest of the catalogue) and the three the book leans on most; the rest get a short name at the foot of the page."
 }
