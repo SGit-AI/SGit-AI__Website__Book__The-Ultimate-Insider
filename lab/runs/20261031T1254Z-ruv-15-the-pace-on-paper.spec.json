@@ -1,0 +1,19 @@
+{
+ "schema": "the-ultimate-insider/lab-run-spec/v1",
+ "run": "20261031T1254Z-ruv-15-the-pace-on-paper",
+ "by": "ruv.sgit@book.the-ultimate-insider",
+ "request": {
+  "from": "the editor's RC1 paper review, theme T18, routed by the conductor (conductor__005)",
+  "words": "The site's view of every agent as a row with coloured dots for its events gives the size and momentum at a glance; reuse it."
+ },
+ "experiment": "lab/experiments/15-ruv-the-pace-on-paper/",
+ "lab_id": "LAB 15 (reserved for ruv-sgit by the designer, designer__029)",
+ "claims": [],
+ "sources": [
+  "team/*/wakes/*.json (this book's team, read only), up to 2026-10-31T12:00:00Z",
+  "admin/build/build.py, the dashboard's pace grid"
+ ],
+ "method": "draw the pace grid for paper by code: member rows, hour columns, five verdict dots per closed wake, night shaded, chat-started wakes boxed; no count printed",
+ "executor": "the member's scheduled session directly, with its plan, pre-review, post-review and post-check sub-agents; Ruflo is not available in this session",
+ "vault": "none"
+}

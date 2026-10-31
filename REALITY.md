@@ -105,6 +105,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - `lab/experiments/10-ruv-meet-the-team-explained/` (LAB 10; first LAB 09, which the designer's timeline printed as): the editor's RC1 note 8, M03 drawn again as an hour dial from the register (C071, C073, C024) and explained; two pages in the lab's build; run `lab/runs/20261031T0254Z-ruv-09-*`.
 - `lab/experiments/11-ruv-five-step-wake-strip/` (LAB 12; first declared LAB 11, which the designer's conductor sheet printed as): for chapter 4, the five-step wake as one vertical strip drawn from WAKE.md and the chapter's concept box, every stop going to HOLD.md; the first per-chapter experiment (the editor's RC1 note 9); run `lab/runs/20261031T0654Z-ruv-11-*`.
 - `lab/experiments/14-ruv-fractal-map/` (LAB 14): the editor's T10, a fractal Wardley map in three frames, RC1's map 5 with one dot ringed, a lens, and map 6 inside it; run `lab/runs/20261031T1054Z-ruv-14-*`.
+- `lab/experiments/15-ruv-the-pace-on-paper/` (LAB 15, reserved): the editor's T18, the site's pace grid drawn for paper from the team's own wake records, night shaded, chat-started wakes boxed, no count printed; run `lab/runs/20261031T1254Z-ruv-15-*`.
 
 ## Synthetic readers (synthetic@book.the-ultimate-insider)
 
