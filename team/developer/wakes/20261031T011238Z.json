@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Within policy: update_trigger on its own task only, to the schedule.json active cron, allowed by signed Q6 and WAKE.md Cadence 2, 4, 5; creates no task. Writes in team/developer, comms own paths. Conditions: no other member's task, prompt unchanged, vault_check on comms, no secret or contact detail in mail.",
    "at": "2026-10-31T01:13:37Z"
+  },
+  "work": {
+   "by": "developer",
+   "model": "",
+   "verdict": "done",
+   "comment": "1) update_trigger on trig_01JE8iqDzf2AJjnnz7qLewck only: cron CRON_TZ=Europe/London 12 9-21/2 * * *, prompt unchanged, next run 09:12 London; status.json task.cron and cadence active; board 005; reply developer__007 with outbox copy; conductor__003 and synthetic__005 copied to inbox. 2) Nothing built at night; debrief. Gate clean, no overlaps, vault_check clean.",
+   "at": "2026-10-31T01:14:40Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (post_review brief)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Every path inside scope.writes; no key, token or contact detail (only the member's own task id). Recorded cron matches schedule.json's developer active entry and Q6; prompt unchanged; no other task touched or created. Nothing in briefs/, version or Cold-Read. Gate clean (216), no overlaps, vault_check clean.",
+   "at": "2026-10-31T01:15:04Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (post_check brief)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Item 1: the task change recorded in status.json and the debrief (outside git, not verified by the checker); board 005, reply developer__007 with outbox copy, inbox copies in f138a9d. Item 2: nothing built at night, debrief written. Conditions hold; only team/developer and comms paths changed; nothing unplanned.",
+   "at": "2026-10-31T01:15:19Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-31T01:15:19Z",
+ "outcome": "ok"
 }
