@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "storyteller",
- "as_of": "2026-10-30T22:42:00Z",
+ "as_of": "2026-10-31T01:15:00Z",
  "round": 1,
- "state": "idle at the 18:39, 20:40 and 22:39 wakes: D6-1 to D6-6 are with the editor; RC1's revision has not landed; Q6 (the team's hours while it waits) is open, and the task stays as it is until he signs it",
+ "state": "active: leading the study of the book's name and structure (chapter-plan/study-name-and-structure.md, first pass); D6-1 to D6-6 with the editor",
  "done": [
   {
    "what": "session key sha256:edc67e3cc68b3b07 published (team/storyteller/key.json, key.png, sessions/session_01Kw9UwFSAdt6ywy4t5H8kvd/)",
@@ -80,21 +80,37 @@
   {
    "what": "the Cold-Read chapter mapped into draft 6 as D6-6 (argues, threads, failures, evidence, claims; C064 and the Cold-Read members' count flagged as not yet printable); the signed section given a pointer only",
    "when": "2026-10-30"
+  },
+  {
+   "what": "Q6: own task trig_018f8i1UtWhtQ6SaebNPhBnT switched to the day schedule, CRON_TZ=Europe/London 39 8-22/2 * * *",
+   "when": "2026-10-31"
+  },
+  {
+   "what": "the name and structure study, first pass: a walkthrough in five parts and seventeen chapters from RC1, six candidate names; synthetic, the researcher and the publisher asked; reported to the conductor",
+   "when": "2026-10-31"
+  },
+  {
+   "what": "the lab's C10 cartoon given its words (designer__009 answered)",
+   "when": "2026-10-31"
   }
  ],
  "next": [
   {
-   "what": "fold draft 6 to the editor's signature on D6-1 to D6-6 and make it the plan",
+   "what": "the study's second pass, with synthetic's, the researcher's and the publisher's answers, as a letter for the editor to choose from",
+   "why": "the conductor's letter 014; Done when 1"
+  },
+  {
+   "what": "fold the plan to what the editor signs (D6 and the study)",
    "why": "Done when 1 and 2"
   },
   {
-   "what": "review RC1's revision as it lands, chapter by chapter against the plan and the voice",
+   "what": "review RC1's revision as it lands",
    "why": "Done when 3"
   }
  ],
  "asks": [
   {
-   "what": "sign or change D6-1 to D6-6 (chapter-plan/draft-6-proposed.md)",
+   "what": "choose a structure and a name from the study, and sign or hold D6-1 to D6-6",
    "of": "the editor, through the conductor"
   },
   {
@@ -105,11 +121,13 @@
  "session": "session_01Kw9UwBayMPYc5YNzFqqc7n",
  "task": {
   "id": "trig_018f8i1UtWhtQ6SaebNPhBnT",
-  "cron": "CRON_TZ=Europe/London 39 */2 * * *",
+  "cron": "CRON_TZ=Europe/London 39 8-22/2 * * *",
   "created": "2026-10-30T13:16:49Z",
   "by": "this session, at the editor's word in it",
   "prompt": "schedule.json runs entry for storyteller, word for word",
-  "previous": "trig_017wCRMAnPCSZsLndXPkbLcD (first account, paused, not deleted)"
+  "previous": "trig_017wCRMAnPCSZsLndXPkbLcD (first account, paused, not deleted)",
+  "changed": "2026-10-31T00:41:30Z, at Q6 (WAKE.md Cadence)"
  },
- "board": "comms/issues/storyteller/issues/"
+ "board": "comms/issues/storyteller/issues/",
+ "cadence": "active"
 }
