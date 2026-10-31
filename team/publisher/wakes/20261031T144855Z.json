@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled, every two hours at :47 London",
+ "started": "2026-10-31T14:48:55Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. Letters 027, 028 filed; board 008 (T10 sample); build_book.py gains --book, --stamp and --name, tested on a scratchpad list with one existing chapter, nothing written for the sample; reply to the conductor; vault_check comms. 2. Voice read of 00b-how-to-read-a-map.md and 01-pause-all-actions.md, findings by file and line to the conductor, no chapter changed. 3. Debrief, status, agents check, dev.",
+   "at": "2026-10-31T14:49:34Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope; the voice read read-only, findings by mail. Conditions: the test sample's output to the scratchpad only; vault_check comms; no secrets; no brief edits; dev only.",
+   "at": "2026-10-31T14:49:51Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Letters 027, 028 filed; build_book.py --book, --name, --stamp, tested on a scratchpad list; board 008; voice read of 00b and 01 to the conductor (publisher__015); no chapter changed; board 003, debrief, status.",
+   "at": "2026-10-31T14:51:16Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "1. Letters 027, 028 filed; board 008; build_book.py --book, --name, --stamp; reply publisher__015. 2. Voice read of 00b and 01 in the letter; no manuscript changed. 3. Debrief, status. Minor extra: a note on board 003.",
+   "at": "2026-10-31T14:52:20Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "0 outside scope; vault_check and gate clean (320); no em-dashes, keys or contact details; manuscript untouched; --stamp escaped into CSS, output only to --out. Minor note (a newline or </style> could garble a local PDF): fixed before commit, the stamp is folded to one line and '<' dropped, tested.",
+   "at": "2026-10-31T14:52:56Z"
+  }
+ },
+ "closed": "2026-10-31T14:52:56Z",
+ "outcome": "ok"
+}

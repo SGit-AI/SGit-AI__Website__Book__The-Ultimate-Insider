@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "publisher",
- "as_of": "2026-10-31T13:22:00Z",
- "round": 21,
- "state": "the voice read begun (chapters 0 and 00 to the conductor); ragged right in the build; the RC2 build list on board 007",
+ "as_of": "2026-10-31T15:22:00Z",
+ "round": 22,
+ "state": "T10 sample: the build ready (--book, --name, --stamp), waiting on the storyteller's outline; the voice read through chapter 01",
  "done": [
   {
    "what": "session key published: team/publisher/key.json, key.png, sessions/session_01Kw9UwDVeRbKJZUWiRoRrHK/",
@@ -132,11 +132,19 @@
   {
    "what": "ragged right in book.css (designer 030); board 007 (RC2 build: alt text, long commands, captions over 120); the voice read of chapters 0 and 00, findings by file and line (publisher__014)",
    "when": "2026-10-31T13:20Z"
+  },
+  {
+   "what": "build_book.py --book, --name, --stamp for the T10 sample, tested; board 008; the voice read of chapters 00b and 01 (publisher__015)",
+   "when": "2026-10-31T15:20Z"
   }
  ],
  "next": [
   {
-   "what": "the voice read, chapters 00b to 13 and the appendix",
+   "what": "T10: the ten pages in the editor's voice, built with the sample stamp, once the storyteller's outline arrives",
+   "why": "board 008, the editor's word"
+  },
+  {
+   "what": "the voice read, chapters 02 onward",
    "why": "board 003"
   },
   {
@@ -164,6 +172,6 @@
   "previous": "trig_01D2wnhQDySKsG8ZL9XLmNsW (first account, paused, not deleted)",
   "changed": "2026-10-31T02:20:11Z, not by this session: back to every two hours round the clock, matching Q6 as amended (01:32 UTC) and the conductor's letter 018; recorded, not changed back; the editor's word for it asked onto dev (publisher__009). Before: 00:50:06Z, to the day schedule at Q6 as first signed; recorded on dev by the conductor (letter 021), open decision W1"
  },
- "requests": "taken: conductor__002 to 026, designer__013 to 030, storyteller__010, 015; all answered",
+ "requests": "taken: conductor__002 to 028, designer__013 to 030, storyteller__010, 015; all answered; T10 waits on the storyteller",
  "cadence": "active"
 }

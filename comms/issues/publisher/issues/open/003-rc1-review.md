@@ -14,3 +14,7 @@ The mechanical part is done: `publishing/check_manuscript.py` (read only, file a
 ## 31 October 2026, about 13:20 UTC
 
 The voice read begun: chapters 0 and 00 against the newsroom writer's rules, findings by file and line to the conductor (letter publisher__014). The rest of the chapters next.
+
+## 31 October 2026, about 15:20 UTC
+
+The voice read, chapters 00b and 01, by file and line to the conductor (publisher__015). Next: 02 onward, unless the T10 sample comes first.
