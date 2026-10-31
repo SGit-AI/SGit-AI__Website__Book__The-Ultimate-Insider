@@ -29,3 +29,7 @@ Do the dial and the counts tell how the talk was made? Is a count frozen at 17:0
 ## Its id
 
 First declared LAB 05; it prints as LAB 06 (lab/tools/ids.json), so it now declares LAB 06 too.
+
+## For the book's page, 31 October
+
+At Crown Quarto (a 164 mm text block) each frame is printed at the full width, cropped below its own headline in CSS (the PNG unchanged), and the headline is printed once, under the frame, with the time: the designer's two notes, as LAB 02 does. `../03-ruv-could-have-been-worse-frames/tools/frames_pages.py` writes `pages.html` from `frames.json`.

@@ -118,16 +118,26 @@ h2 { font: 700 14pt/18pt var(--sans); margin: 0 0 4mm }
 .sbfull img { width: 96mm; display: block; border: .3mm solid var(--fill-2) }
 .sbm { font: 400 9pt/12pt var(--sans); margin: 1.5mm 0 0 }
 .sbm.muted { color: var(--muted) }
-</style></head><body><section class="page"><div class="block"><div class="head"><div class="id">LAB 05</div><h1>It could have been much worse, in two frames</h1><dl><dt>Tries</dt><dd>The talk's animation M02 on paper in two stills frozen on its own clock: one public incident, then both side by side with the line the room was left with. No words added but the time and a caption.</dd><dt>Made from</dt><dd><ul><li><span class="mono">src/static/motion/lab/could-have-been-worse/v1/index.html</span> at <span class="mono">f45028c</span> in the talk's repository (read only), unchanged at <span class="mono">298be4e</span></li><li>its two public sources as it names them: Microsoft MSRC, 19 January 2024; AWS security bulletin AWS-2025-015</li></ul></dd><dt>The question</dt><dd>Does the contrast (what was possible, what happened) read without the motion? Is one frame enough, the still on its own?<div class="verdict"><span><i class="box"></i>keep</span><span><i class="box"></i>change</span><span><i class="box"></i>drop</span><span class="note">note</span></div></dd></dl></div>
- <div class="cols-9-3">
-  <figure class="fig">
-   <img src="./frames/m02-t11_5.png" alt="M02 at 11.5 seconds: Midnight Blizzard at Microsoft. What was possible: Microsoft corporate email accounts. What happened: a very small percentage accessed, in the vendor's words." style="width:94mm;display:block;border:.3mm solid var(--fill-2)">
-  </figure>
-  <div class="rail"><div class="tile"><b>0:11</b>What the way in could have reached: the first incident, alone.</div></div>
-  <figure class="fig">
-   <img src="./frames/m02-t32.png" alt="M02 at 32 seconds, the still: both incidents side by side, each with what was possible and what happened, and the line: it could have been much worse." style="width:94mm;display:block;border:.3mm solid var(--fill-2)">
-   <figcaption><b>Two public incidents, as their vendors reported them. "What was possible" is the talk's reading; "what happened" is the vendor's.</b><span class="src">M02 v1, src/static/motion/lab/could-have-been-worse/v1/index.html at f45028c, frozen at 11.5 and 32 s; areas not to scale (the animation's own note)</span></figcaption>
-  </figure>
-  <div class="rail"><div class="tile"><b>0:32</b>Each time, a small part of what was possible. It could have been much worse.</div></div>
- </div>
-</div><div class="foot"><span>The ultimate insider · lab · first round</span><span class="mid">LAB 05</span><span class="r">page 1 of 1</span></div></section></body></html>
+
+/* the two-panel cartoon: a title, a scene with the cast beside it, a caption */
+.panel { border-top: 1.2mm solid var(--accent); padding-top: 2mm; margin-bottom: 6mm; break-inside: avoid }
+.ptitle { font: 700 12pt/16pt var(--sans); margin: 0 0 2mm }
+.ptitle b { color: var(--accent); margin-right: 2mm }
+.pgrid { display: grid; grid-template-columns: 116mm 1fr; gap: 5mm; align-items: start }
+.pgrid .char svg { width: 18mm }
+.pcap { font: 400 10pt/14pt var(--sans); margin: 2mm 0 0 }
+.scene { width: 116mm; background: var(--fill); border-radius: 2mm }
+.svg-label.mono { font-family: var(--mono) }
+.svg-label.mu { fill: var(--muted) }
+
+/* LAB 09: the timeline component's example page */
+.timeline { display: block; margin: 0 0 1mm }
+.tl-two { display: grid; grid-template-columns: auto 1fr; gap: 6mm; align-items: start }
+.tl-spec pre { font-size: 9pt; line-height: 12pt; background: var(--fill); padding: 2mm 3mm; margin: 0 0 3mm; white-space: pre }
+.tl-spec p { font-size: 9.5pt; line-height: 13pt }
+.tl-spec .muted { color: var(--muted) }
+</style></head><body><section class="sheet" style="page: plab05"><div class="head"><div class="id">LAB 05</div><h1>It could have been much worse, in two frames</h1><dl><dt>Tries</dt><dd>The talk's animation M02 on paper in two stills frozen on its own clock: one public incident, then both side by side with the line the room was left with. No words added but the time and a caption.</dd><dt>Made from</dt><dd><ul><li><span class="mono">src/static/motion/lab/could-have-been-worse/v1/index.html</span> at <span class="mono">f45028c</span> in the talk's repository (read only), unchanged at <span class="mono">298be4e</span></li><li>its two public sources as it names them: Microsoft MSRC, 19 January 2024; AWS security bulletin AWS-2025-015</li></ul></dd><dt>The question</dt><dd>Does the contrast (what was possible, what happened) read without the motion? Is one frame enough, the still on its own?<div class="verdict"><span><i class="box"></i>keep</span><span><i class="box"></i>change</span><span><i class="box"></i>drop</span><span class="note">note</span></div></dd></dl></div>
+  <figure class="fig" style="margin:0 0 5mm"><div style="overflow:hidden;width:100%;aspect-ratio:2560/1181;border:.3mm solid var(--fill-2)"><img src="./frames/m02-t11_5.png" alt="What the way in could have reached. (the frame at 0:11)" style="display:block;width:100%;margin-top:-10.125%"></div><figcaption><b>0:11</b> &nbsp; What the way in could have reached.<span class="src" style="font-family:var(--sans)">The first incident alone: what was possible, then what happened.</span></figcaption></figure>
+  <figure class="fig" style="margin:0 0 5mm"><div style="overflow:hidden;width:100%;aspect-ratio:2560/1181;border:.3mm solid var(--fill-2)"><img src="./frames/m02-t32.png" alt="Each time, a small part of what was possible. (the frame at 0:32)" style="display:block;width:100%;margin-top:-10.125%"></div><figcaption><b>0:32</b> &nbsp; Each time, a small part of what was possible.<span class="src" style="font-family:var(--sans)">Both incidents side by side, and the line the room was left with.</span></figcaption></figure>
+  <p style="font:400 9pt/12pt var(--sans);color:var(--muted);margin-top:2mm"><b style="color:var(--ink)">Two public incidents, as their vendors reported them. "What was possible" is the talk's reading; "what happened" is the vendor's.</b> <span class="mono">M02 v1, src/static/motion/lab/could-have-been-worse/v1/index.html at f45028c, frozen at 11.5 and 32 s; cropped below its headline, printed once under each frame; areas not to scale (the animation's own note)</span></p>
+</section></body></html>

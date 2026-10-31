@@ -28,3 +28,7 @@ Does the contrast read without the motion? Is the still alone enough?
 ## Its id
 
 First declared LAB 04, which the designer's condensed storyboard had already printed; then LAB 06 for a wake; now LAB 05, the id the lab PDF prints it under (lab/tools/ids.json; an id once printed is never reused, lab/README.md). The designer owns the numbering.
+
+## For the book's page, 31 October
+
+At Crown Quarto (a 164 mm text block) each frame is printed at the full width, cropped below its own headline in CSS (the PNG unchanged), and the headline is printed once, under the frame, with the time: the designer's two notes, as LAB 02 does. `../03-ruv-could-have-been-worse-frames/tools/frames_pages.py` writes `pages.html` from `frames.json`.
