@@ -692,6 +692,22 @@ State: open.
 git show 842a8bd:src/static/studio/data/abp-examples.json | python3 -c "import json,sys,collections;e=json.load(sys.stdin)['examples'][0];x=[r for r in e['rows'] if not r['in_mandate']];print(len(x),collections.Counter(r['mandate_stance'] for r in x),[r['capability'] for r in x])"
 ```
 
+## C087: Wakes by trigger: scheduled, started by the editor, and follow-ups, by hour
+
+State: checked.
+
+```
+for f in $(git ls-tree -r --name-only 298be4e team | grep -E '^team/[^/]+/wakes/[^/]+\.json$'); do git show 298be4e:$f | python3 -c 'import json,sys;d=json.load(sys.stdin);print(d["started"][11:13],d["kind"])'; done | python3 -c "import sys,collections;c=collections.Counter();[c.update([(l[:2],'scheduled' if l[3:].lower().startswith('scheduled') else 'follow-up' if ('follow' in l.lower() or 'tonight' in l.lower()) else 'editor')]) for l in sys.stdin];[print(k,v) for k,v in sorted(c.items())]"
+```
+
+## C088: Commits made with no wake of their member open
+
+State: checked.
+
+```
+method: the script in team/researcher/debriefs/2026-10-31__a13-and-the-title-check.md
+```
+
 ## Where this came from
 
-`claims/register.json`, the `command` of each entry, run against `298be4e` (a full clone: `git rev-list --count 298be4e` gives 816) and `d39e717`; spot-checked on 30 October 05:45, 06:45, 07:45, 08:45, 09:40 and 10:50 (C011, C014, C021, C041, C042), each giving the registered value. C031's 2026 figure is read from a web page, fetched 30 October 2026. C043 to C062 were checked at source on 30 October about 13:20 UTC by the researcher's second session (public clones of OSBot-Utils, Memory-FS, Issues-FS, SGit-AI__CLI and myfeeds_ai; PyPI's JSON; the newsroom's wire; four LinkedIn pages' datePublished). C064 to C068, and the additions to C008 and C042, rerun on 30 October about 14:40 UTC. C069 to C072 rerun on 30 October about 16:45 UTC; C069 and C070 run at a9c0b49, material added after the day. C073 rerun on 30 October about 18:40 UTC. C074 checked on 30 October about 18:35 UTC. C011's command reads team/keys/ too since 30 October 20:40. C075 to C077 read from leanpub.com on 30 October about 20:40 UTC. C078 to C081 checked on 30 October about 22:40 UTC. C082 and C083 checked on 31 October about 00:45 UTC. C084 to C086 checked on 31 October about 00:50 UTC.
+`claims/register.json`, the `command` of each entry, run against `298be4e` (a full clone: `git rev-list --count 298be4e` gives 816) and `d39e717`; spot-checked on 30 October 05:45, 06:45, 07:45, 08:45, 09:40 and 10:50 (C011, C014, C021, C041, C042), each giving the registered value. C031's 2026 figure is read from a web page, fetched 30 October 2026. C043 to C062 were checked at source on 30 October about 13:20 UTC by the researcher's second session (public clones of OSBot-Utils, Memory-FS, Issues-FS, SGit-AI__CLI and myfeeds_ai; PyPI's JSON; the newsroom's wire; four LinkedIn pages' datePublished). C064 to C068, and the additions to C008 and C042, rerun on 30 October about 14:40 UTC. C069 to C072 rerun on 30 October about 16:45 UTC; C069 and C070 run at a9c0b49, material added after the day. C073 rerun on 30 October about 18:40 UTC. C074 checked on 30 October about 18:35 UTC. C011's command reads team/keys/ too since 30 October 20:40. C075 to C077 read from leanpub.com on 30 October about 20:40 UTC. C078 to C081 checked on 30 October about 22:40 UTC. C082 and C083 checked on 31 October about 00:45 UTC. C084 to C086 checked on 31 October about 00:50 UTC. C087 and C088 checked on 31 October about 04:50 UTC.

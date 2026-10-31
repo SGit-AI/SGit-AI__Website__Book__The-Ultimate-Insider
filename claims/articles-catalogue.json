@@ -1,0 +1,655 @@
+{
+ "schema": "the-ultimate-insider/articles-catalogue/v1",
+ "kept_by": "researcher@book.the-ultimate-insider",
+ "as_of": "2026-10-31T05:05:00Z",
+ "source": "https://newsroom.sgit.ai/newsroom/wire.json (generated 2026-10-30, site v0.7.87, 325 articles)",
+ "selection": "first pass: every article in one of the newsroom's five curated collections, every article RC1 names by title, and every article chapter 11b uses through the dossier (C060). 'argues' is the wire's own summary: the editor's account, written from his memos by an agent. Not yet: the other sgit.ai sites, the public vaults, a reading of each article, and placement.",
+ "collections": [
+  {
+   "id": "how-agents-decide",
+   "title": "How agents decide, and when they stop",
+   "url": "https://newsroom.sgit.ai/articles/collections/how-agents-decide.html",
+   "articles": 6
+  },
+  {
+   "id": "wardley-maps",
+   "title": "Thinking with a Wardley map",
+   "url": "https://newsroom.sgit.ai/articles/collections/wardley-maps.html",
+   "articles": 6
+  },
+  {
+   "id": "local-news-kept-as-evidence",
+   "title": "Local news, kept as evidence",
+   "url": "https://newsroom.sgit.ai/articles/collections/local-news-kept-as-evidence.html",
+   "articles": 6
+  },
+  {
+   "id": "what-the-human-brings",
+   "title": "What the human brings",
+   "url": "https://newsroom.sgit.ai/articles/collections/what-the-human-brings.html",
+   "articles": 4
+  },
+  {
+   "id": "behaviour-policy-in-practice",
+   "title": "Behaviour policy in practice",
+   "url": "https://newsroom.sgit.ai/articles/collections/behaviour-policy-in-practice.html",
+   "articles": 11
+  }
+ ],
+ "articles": [
+  {
+   "slug": "green-does-not-mean-live",
+   "title": "Green does not mean live",
+   "date": "2026-08-17",
+   "url": "https://newsroom.sgit.ai/articles/green-does-not-mean-live.html",
+   "collections": [],
+   "cited_in_rc1": [
+    "11b-what-was-already-there.md"
+   ],
+   "argues": "Two releases pushed cleanly, reported success, and never reached the site. Every check we had was green, because the failure happened in a place none of them could see. What we changed, and the general rule underneath it.",
+   "topics": [
+    "site-and-engineering"
+   ]
+  },
+  {
+   "slug": "seven-vaults-one-method",
+   "title": "Seven vaults, one method",
+   "date": "2026-08-19",
+   "url": "https://newsroom.sgit.ai/articles/seven-vaults-one-method.html",
+   "collections": [],
+   "cited_in_rc1": [
+    "11b-what-was-already-there.md"
+   ],
+   "argues": "Publishing seven encrypted vaults in a fortnight turned an ad-hoc process into a repeatable one. Every rule in it exists because something went wrong first, including three vault keys submitted for publication that would have handed the world write access.",
+   "topics": [
+    "vaults-and-method"
+   ]
+  },
+  {
+   "slug": "what-sgit-is",
+   "title": "Git for things you cannot put on GitHub",
+   "date": "2026-08-25",
+   "url": "https://newsroom.sgit.ai/articles/what-sgit-is.html",
+   "collections": [],
+   "cited_in_rc1": [
+    "11b-what-was-already-there.md (through the dossier, C060)"
+   ],
+   "argues": "An introduction to sgit and sgit.ai, what an encrypted vault is, why version control had to be rebuilt to get one, and what nineteen published vaults look like when the server storing them cannot read a byte.",
+   "topics": [
+    "vaults-and-method"
+   ]
+  },
+  {
+   "slug": "nineteen-sites",
+   "title": "Twenty sites in fifteen days, and what that did to the writing",
+   "date": "2026-08-26",
+   "url": "https://newsroom.sgit.ai/articles/nineteen-sites.html",
+   "collections": [],
+   "cited_in_rc1": [
+    "11b-what-was-already-there.md (through the dossier, C060)"
+   ],
+   "argues": "The thinking behind sgit stopped fitting on one site. It moved out to nineteen siblings on *.sgit.ai, what forced the split, what it cost, and why the index into them now starts with a question instead of a list.",
+   "topics": [
+    "site-and-engineering",
+    "vaults-and-method"
+   ]
+  },
+  {
+   "slug": "introducing-fractal-semantic-graphs",
+   "title": "Fractal Semantic Graphs: everything connects to everything, and nobody has to share a schema",
+   "date": "2026-09-20",
+   "url": "https://newsroom.sgit.ai/articles/introducing-fractal-semantic-graphs.html",
+   "collections": [],
+   "cited_in_rc1": [
+    "11b-what-was-already-there.md (through the dossier, C060)"
+   ],
+   "argues": "The introduction to the term. Four words and only one of them new; the test that decides whether something deserves the word, worked from a risk register to a TCP packet; why every file format is already a graph; the five-rule grammar; the evidence, eleven altitudes across seven live vaults; what is",
+   "topics": [
+    "graphs-and-knowledge"
+   ]
+  },
+  {
+   "slug": "saas-apocalypse-decided-by-inertia-not-by-ai",
+   "title": "The SaaS apocalypse will be decided by inertia, not by AI",
+   "date": "2026-09-21",
+   "url": "https://newsroom.sgit.ai/articles/saas-apocalypse-decided-by-inertia-not-by-ai.html",
+   "collections": [
+    "Thinking with a Wardley map"
+   ],
+   "cited_in_rc1": [],
+   "argues": "The SaaS apocalypse has not happened yet, and the market has already declared it cancelled once. It remains a very strong possibility, argued here with data rather than vibes. Most users were never happy, most features were never used, and most licences sit idle, because success bred inertia and ine",
+   "topics": [
+    "startups-and-strategy"
+   ]
+  },
+  {
+   "slug": "future-of-news-story-vault-not-paywall",
+   "title": "The future of news is the story vault, not the paywall",
+   "date": "2026-09-22",
+   "url": "https://newsroom.sgit.ai/articles/future-of-news-story-vault-not-paywall.html",
+   "collections": [
+    "Local news, kept as evidence"
+   ],
+   "cited_in_rc1": [],
+   "argues": "The news industry runs on two commercial models, advertising and subscriptions, and both are bad for the reader. One sells the reader to somebody else. The other charges rent on something most people have stopped using. Both are now being dismantled from outside, by a search layer that has stopped s",
+   "topics": [
+    "news-and-evidence",
+    "graphs-and-knowledge"
+   ]
+  },
+  {
+   "slug": "connector-twin-before-you-deploy-an-agent",
+   "title": "Before you give an agent a connector, give the connector a twin",
+   "date": "2026-09-24",
+   "url": "https://newsroom.sgit.ai/articles/connector-twin-before-you-deploy-an-agent.html",
+   "collections": [
+    "Behaviour policy in practice"
+   ],
+   "cited_in_rc1": [],
+   "argues": "When an AI agent is given a Gmail or Google Calendar connector, it can read, send, move, decline and permanently delete on somebody's behalf, and for several of those actions the platform itself documents that there is no way back. This article argues that a twin of the connector is the minimum requ",
+   "topics": [
+    "agents-and-policy",
+    "vaults-and-method"
+   ]
+  },
+  {
+   "slug": "six-agents-one-inbox",
+   "title": "Six agents, one inbox: what a real multi-agent setup taught me about access policies",
+   "date": "2026-09-29",
+   "url": "https://newsroom.sgit.ai/articles/six-agents-one-inbox.html",
+   "collections": [
+    "Behaviour policy in practice"
+   ],
+   "cited_in_rc1": [
+    "11b-what-was-already-there.md (through the dossier, C060)"
+   ],
+   "argues": "For the past few weeks I have run agents on dedicated accounts, a Google Workspace seat, a Claude Team seat and a GitHub account per agent, and split the work across six roles: a scheduled reader of the inbox, a mailbox agent that drafts, an inbox agent that sends, a CRM agent, a dev team agent and ",
+   "topics": [
+    "agents-and-policy"
+   ]
+  },
+  {
+   "slug": "how-news-got-here",
+   "title": "The reader was always the product: a corrected history of how news got into this mess",
+   "date": "2026-09-29",
+   "url": "https://newsroom.sgit.ai/articles/how-news-got-here.html",
+   "collections": [
+    "Local news, kept as evidence"
+   ],
+   "cited_in_rc1": [],
+   "argues": "This started as a voice memo setting out my understanding of how the publishing and news industry got to where it is, in four eras, print, web, platforms and AI, and an instruction to check it and correct it. The research corrected it in four places, and the corrections are the article. The reader d",
+   "topics": [
+    "news-and-evidence"
+   ]
+  },
+  {
+   "slug": "ultimate-insider-three-collisions",
+   "title": "The ultimate insider: agents, the infrastructure that cannot hold them, and risk management that cannot keep up",
+   "date": "2026-09-30",
+   "url": "https://newsroom.sgit.ai/articles/ultimate-insider-three-collisions.html",
+   "collections": [],
+   "cited_in_rc1": [
+    "11b-what-was-already-there.md (through the dossier, C060)"
+   ],
+   "argues": "A first pass at an argument I intend to give as a conference talk, written down here so I can show it to the people I am talking to about speaking. Three things are arriving at once. Agents are the insider threat that never scaled before, because insiders were humans or static code, and an agent is ",
+   "topics": [
+    "agents-and-policy"
+   ]
+  },
+  {
+   "slug": "custom-uis-are-not-the-exception",
+   "title": "Custom UIs are not the exception: the inbox in 2026, where every message has its own universe",
+   "date": "2026-10-01",
+   "url": "https://newsroom.sgit.ai/articles/custom-uis-are-not-the-exception.html",
+   "collections": [
+    "Thinking with a Wardley map"
+   ],
+   "cited_in_rc1": [],
+   "argues": "Following up is harder than doing the work, because every person has a different context and the thread you share hides its own structure. This article weaves the site's threads into one argument. Every message has a graph, with altitudes from the block to the contact. Email is a medium, so a messag",
+   "topics": [
+    "graphs-and-knowledge",
+    "agents-and-policy"
+   ]
+  },
+  {
+   "slug": "footprint-and-blast-radius",
+   "title": "Footprint and blast radius: what the agent actually did, and what it would have cost",
+   "date": "2026-10-02",
+   "url": "https://newsroom.sgit.ai/articles/footprint-and-blast-radius.html",
+   "collections": [
+    "Behaviour policy in practice"
+   ],
+   "cited_in_rc1": [],
+   "argues": "RiskMandate's Agent Behaviour Policy is written before an agent runs, in four words: reach, mandate, gap and barriers. This article proposes two more. The footprint is what the agent actually did, read afterwards from logs, traffic and vault history, with nobody inline and no production access neede",
+   "topics": [
+    "agents-and-policy",
+    "vaults-and-method"
+   ]
+  },
+  {
+   "slug": "the-wall-under-the-reply",
+   "title": "The wall under the reply: end an email with the state of the thread, not the thread",
+   "date": "2026-10-04",
+   "url": "https://newsroom.sgit.ai/articles/the-wall-under-the-reply.html",
+   "collections": [
+    "What the human brings"
+   ],
+   "cited_in_rc1": [],
+   "argues": "Every reply we send carries the whole thread underneath it, pasted in for a reader who already has the thread. That wall is redundant, and the space it takes is the most valuable space in the message, because it is where the reader looks when they ask the only question that matters: what do I need t",
+   "topics": [
+    "agents-and-policy",
+    "vaults-and-method"
+   ]
+  },
+  {
+   "slug": "if-somebody-built-a-company-on-code-review",
+   "title": "If somebody built a company on code review: how I would do it, and why it is only now possible",
+   "date": "2026-10-05",
+   "url": "https://newsroom.sgit.ai/articles/if-somebody-built-a-company-on-code-review.html",
+   "collections": [
+    "Thinking with a Wardley map"
+   ],
+   "cited_in_rc1": [],
+   "argues": "A reader of the code review article replied with seven good questions, and a voice memo of mine answered them with a change of frame: if somebody were building a company on code review, this is how I would do it. The answers turn on a distinction the first article did not make clearly enough. What i",
+   "topics": [
+    "graphs-and-knowledge",
+    "startups-and-strategy"
+   ]
+  },
+  {
+   "slug": "how-much-of-this-did-i-write",
+   "title": "How much of this did I write? The numbers behind twenty articles in four weeks, and what the input actually was",
+   "date": "2026-10-05",
+   "url": "https://newsroom.sgit.ai/articles/how-much-of-this-did-i-write.html",
+   "collections": [
+    "Thinking with a Wardley map",
+    "What the human brings"
+   ],
+   "cited_in_rc1": [],
+   "argues": "A friend who received a reply from one of my agents said the amount of text I manage to produce is baffling, and the honest answer deserved numbers rather than a shrug. So this article measures the session that wrote the last twenty articles on this site: every word I typed or spoke, every word that",
+   "topics": [
+    "graphs-and-knowledge",
+    "site-and-engineering"
+   ]
+  },
+  {
+   "slug": "the-deck-i-could-not-download",
+   "title": "The deck I could not download: an author-first home for presentations, as a business plan somebody else can build",
+   "date": "2026-10-06",
+   "url": "https://newsroom.sgit.ai/articles/the-deck-i-could-not-download.html",
+   "collections": [
+    "Thinking with a Wardley map"
+   ],
+   "cited_in_rc1": [],
+   "argues": "I wanted one presentation from SlideShare and was offered a 30-day trial and then £10.99 a month. The author of the deck receives nothing from that subscription, under an uploader agreement that grants the platform a royalty-free licence to monetise, charge for, sublicense and train models on the wo",
+   "topics": [
+    "startups-and-strategy",
+    "vaults-and-method"
+   ]
+  },
+  {
+   "slug": "the-agent-team-as-it-runs",
+   "title": "The agent team as it runs: one person, twelve agents, encrypted vaults, and a mailbox nobody sends from",
+   "date": "2026-10-06",
+   "url": "https://newsroom.sgit.ai/articles/the-agent-team-as-it-runs.html",
+   "collections": [
+    "What the human brings",
+    "Behaviour policy in practice"
+   ],
+   "cited_in_rc1": [],
+   "argues": "The walkthrough told you how to build the agentic inbox in phases. This is the stack as it runs today, written up from the agents' own field notes so that it can be referenced and copied: twelve Claude agents on dedicated accounts, each with one focus and a behaviour policy; encrypted vaults the hos",
+   "topics": [
+    "agents-and-policy",
+    "vaults-and-method"
+   ]
+  },
+  {
+   "slug": "a-personal-agent-that-keeps-your-secrets",
+   "title": "A personal agent that keeps your secrets: the 2026 agents read through behaviour policy and encryption, and a privacy-first design on vaults, enclaves and the browser",
+   "date": "2026-10-06",
+   "url": "https://newsroom.sgit.ai/articles/a-personal-agent-that-keeps-your-secrets.html",
+   "collections": [
+    "Behaviour policy in practice"
+   ],
+   "cited_in_rc1": [],
+   "argues": "In the five months to October 2026 the personal agent became a product category. Meta's Muse, OpenAI's dots, Google's Gemini Spark, Microsoft's Autopilot, Amazon's Alexa+, Apple's rebuilt Siri and a self-hosted open source project called OpenClaw all give a person an always-on agent with a computer ",
+   "topics": [
+    "agents-and-policy",
+    "vaults-and-method"
+   ]
+  },
+  {
+   "slug": "the-mandate-stack",
+   "title": "The Mandate Stack: a multi-agent system in production, layer by layer",
+   "date": "2026-10-06",
+   "url": "https://newsroom.sgit.ai/articles/the-mandate-stack.html",
+   "collections": [
+    "Thinking with a Wardley map",
+    "What the human brings",
+    "Behaviour policy in practice"
+   ],
+   "cited_in_rc1": [],
+   "argues": "RiskMandate runs its business with about fifteen agents and one person, four times a day on a schedule and whenever the person sits down with them, with the person's name on every message that leaves. The agent that runs its CRM wrote the briefing this article is built from. The system is described ",
+   "topics": [
+    "agents-and-policy",
+    "graphs-and-knowledge"
+   ]
+  },
+  {
+   "slug": "why-my-agents-do-not-run-on-my-laptop",
+   "title": "Why my agents do not run on my laptop: chat, Cowork and Code in the cloud, a vault as the shared drive, and the two walls an operating system has",
+   "date": "2026-10-06",
+   "url": "https://newsroom.sgit.ai/articles/why-my-agents-do-not-run-on-my-laptop.html",
+   "collections": [
+    "Behaviour policy in practice"
+   ],
+   "cited_in_rc1": [],
+   "argues": "I do not run any model or agent on my laptop, and I am asked why often enough to write it down. The reason is not a worry about models. It is a fact about operating systems: they have two hard walls, the kernel and the user account, and an agent on my laptop runs inside the wall marked \"me\", where i",
+   "topics": [
+    "agents-and-policy",
+    "vaults-and-method"
+   ]
+  },
+  {
+   "slug": "ai-baseline-control-framework",
+   "title": "An open AI governance framework, and what its licence let us build",
+   "date": "2026-10-07",
+   "url": "https://newsroom.sgit.ai/articles/ai-baseline-control-framework.html",
+   "collections": [
+    "Behaviour policy in practice"
+   ],
+   "cited_in_rc1": [],
+   "argues": "Jan van Dijke published the AI Baseline Control Framework on 2 October 2026, twenty controls for organisations that deploy AI, in five categories and three types, each with why it matters and how to put it in place, mapped to the NIST AI RMF, ISO/IEC 42001 and the EU AI Act, and licensed CC BY-SA 4.",
+   "topics": [
+    "graphs-and-knowledge",
+    "agents-and-policy"
+   ]
+  },
+  {
+   "slug": "liquid-content-needs-water",
+   "title": "Liquid content needs water: liquefy the journalist's notebook, not the finished product",
+   "date": "2026-10-07",
+   "url": "https://newsroom.sgit.ai/articles/liquid-content-needs-water.html",
+   "collections": [
+    "Local news, kept as evidence"
+   ],
+   "cited_in_rc1": [],
+   "argues": "FT Strategies has published a clear primer on liquid content, journalism built from datafied components that can be shaped into whatever a reader needs. I agree with most of it, and this article is about where I would push. What makes content liquid is the water inside it, and the water is the repor",
+   "topics": [
+    "news-and-evidence",
+    "graphs-and-knowledge"
+   ]
+  },
+  {
+   "slug": "an-agent-desktop-by-the-minute",
+   "title": "A locked-down desktop for an agent, by the minute, is still hard to rent",
+   "date": "2026-10-07",
+   "url": "https://newsroom.sgit.ai/articles/an-agent-desktop-by-the-minute.html",
+   "collections": [
+    "Behaviour policy in practice"
+   ],
+   "cited_in_rc1": [],
+   "argues": "We want to give each agent a desktop of its own, away from the laptop, that a person can watch and take over, that can reach only what its task needs, that holds no secret it could leak, that is thrown away afterwards, and that is billed for the minutes it works. In October 2026 every one of those p",
+   "topics": [
+    "agents-and-policy",
+    "startups-and-strategy"
+   ]
+  },
+  {
+   "slug": "the-behaviour-policy-is-the-business-logic",
+   "title": "Zoom into an agent's behaviour policy and you find the business logic",
+   "date": "2026-10-07",
+   "url": "https://newsroom.sgit.ai/articles/the-behaviour-policy-is-the-business-logic.html",
+   "collections": [
+    "Behaviour policy in practice"
+   ],
+   "cited_in_rc1": [],
+   "argues": "The first rules anybody writes for an agent are mechanical. Do not send, only draft. Do not delete. Use your own account. Vendors are good at those, and should be. Zoom in on any real agent's behaviour policy, though, and within a few layers you are writing how this company does email, which steps a",
+   "topics": [
+    "agents-and-policy"
+   ]
+  },
+  {
+   "slug": "story-vault-meets-reader-skills",
+   "title": "Story vault underneath, Reader Skills on top: why local journalism has the most to gain",
+   "date": "2026-10-07",
+   "url": "https://newsroom.sgit.ai/articles/story-vault-meets-reader-skills.html",
+   "collections": [
+    "Local news, kept as evidence"
+   ],
+   "cited_in_rc1": [],
+   "argues": "Markus Franz published \"The Article Is Only the Beginning\" on 7 October 2026, proposing Liquid Utility, journalism that helps people understand, follow and act rather than only read, and six Reader Skills to deliver it, with a bridge closure as the example. He then wrote, under my comment, that his ",
+   "topics": [
+    "news-and-evidence",
+    "graphs-and-knowledge"
+   ]
+  },
+  {
+   "slug": "the-bridge-followed-to-the-end",
+   "title": "The bridge, followed to the end: what one local story is worth when it is kept as a graph",
+   "date": "2026-10-07",
+   "url": "https://newsroom.sgit.ai/articles/the-bridge-followed-to-the-end.html",
+   "collections": [
+    "Local news, kept as evidence"
+   ],
+   "cited_in_rc1": [],
+   "argues": "A simulation of Markus Franz's bridge example, played out on a story vault from the council's first notice to the first car across. A fictional town's main bridge closes; the council says one week, the contract on site says three, an independent engineer says five to seven, and it opens after forty-",
+   "topics": [
+    "news-and-evidence",
+    "graphs-and-knowledge"
+   ]
+  },
+  {
+   "slug": "where-is-the-why",
+   "title": "Where is the why? A permission prompt asked me to decide, and kept the reason",
+   "date": "2026-10-07",
+   "url": "https://newsroom.sgit.ai/articles/where-is-the-why.html",
+   "collections": [
+    "How agents decide, and when they stop"
+   ],
+   "cited_in_rc1": [],
+   "argues": "An agent session asked, in the middle of a task, to add a repository. The prompt showed three fields, owner, repository and access, and two buttons, Decline and Allow once. It did not say which session was asking, why, what the session would be able to do afterwards that it could not do before, or w",
+   "topics": [
+    "agents-and-policy"
+   ]
+  },
+  {
+   "slug": "knowing-when-to-stop",
+   "title": "Knowing when to stop: what experience gives people, and what we have to design into agents",
+   "date": "2026-10-08",
+   "url": "https://newsroom.sgit.ai/articles/knowing-when-to-stop.html",
+   "collections": [
+    "How agents decide, and when they stop"
+   ],
+   "cited_in_rc1": [],
+   "argues": "The hardest call in most work is not what to do next but when to stop. This article starts with people, because the problem is not new: security champions who had automated away whole classes of bugs and ended up debating whether GUIDs were random enough; development teams that hit every KPI and did",
+   "topics": [
+    "agents-and-policy",
+    "startups-and-strategy"
+   ]
+  },
+  {
+   "slug": "every-mistake-added-a-rule",
+   "title": "Every mistake added a rule: complexity, agents, and the way back to shipping",
+   "date": "2026-10-08",
+   "url": "https://newsroom.sgit.ai/articles/every-mistake-added-a-rule.html",
+   "collections": [
+    "How agents decide, and when they stop"
+   ],
+   "cited_in_rc1": [
+    "11b-what-was-already-there.md (through the dossier, C060)"
+   ],
+   "argues": "A friend who uses agents better than most, one writing, others verifying, ChatGPT reviewing, every claim resting on an output read in full, sent me two messages about a verification that keeps breaking. The code is holding up. The process around it is not: long sessions compact and skip steps, outpu",
+   "topics": [
+    "agents-and-policy",
+    "site-and-engineering"
+   ]
+  },
+  {
+   "slug": "who-are-you-protecting-against",
+   "title": "Who are you protecting against? Draw the security line where the attacker is, not above it",
+   "date": "2026-10-08",
+   "url": "https://newsroom.sgit.ai/articles/who-are-you-protecting-against.html",
+   "collections": [
+    "How agents decide, and when they stop"
+   ],
+   "cited_in_rc1": [],
+   "argues": "An entrepreneur doing everything they can to be secure bought a Mac mini for a customer, decided it would never touch the internet and that nothing would be installed on it, and ended up writing the application in the Perl that ships with macOS. The question that decides whether that is wise is not ",
+   "topics": [
+    "agents-and-policy",
+    "startups-and-strategy"
+   ]
+  },
+  {
+   "slug": "agency-is-not-a-yes",
+   "title": "Agency is not a yes: a scale for human and agent decisions, from rubber stamp to the reviewer who fixes the source",
+   "date": "2026-10-08",
+   "url": "https://newsroom.sgit.ai/articles/agency-is-not-a-yes.html",
+   "collections": [
+    "How agents decide, and when they stop"
+   ],
+   "cited_in_rc1": [],
+   "argues": "We talk about the human in the loop as if the loop were the point. Most of the time the human, or the agent put in the same place, is asked for a yes or a no, and that is the least interesting part of a decision. This article sets out what agency actually needs, for a person and for an agent: option",
+   "topics": [
+    "agents-and-policy",
+    "graphs-and-knowledge"
+   ]
+  },
+  {
+   "slug": "hope-or-enforcement",
+   "title": "Hope or enforcement: one customer service agent, three designs, and who keeps each promise",
+   "date": "2026-10-08",
+   "url": "https://newsroom.sgit.ai/articles/hope-or-enforcement.html",
+   "collections": [
+    "How agents decide, and when they stop",
+    "Behaviour policy in practice"
+   ],
+   "cited_in_rc1": [],
+   "argues": "A company puts an agent on its customer service inbox. Where is my order, my delivery was damaged, I was charged twice: the ordinary mail of an online shop. This article and the vault published with it take one mandate for that agent and build it three ways. First, one capable model connected straig",
+   "topics": [
+    "agents-and-policy",
+    "vaults-and-method"
+   ]
+  },
+  {
+   "slug": "the-waiting-room-knew-first",
+   "title": "The waiting room knew first: a live local story, and the gap where local information used to be",
+   "date": "2026-10-08",
+   "url": "https://newsroom.sgit.ai/articles/the-waiting-room-knew-first.html",
+   "collections": [
+    "Local news, kept as evidence"
+   ],
+   "cited_in_rc1": [],
+   "argues": "This afternoon, at two London hospitals, staff told the people in front of them that the IT systems were down. One waiting room was announced at about five hours, and a doctor said the problem was national. Nothing a person could check before leaving home showed any of it: no notice from the trust, ",
+   "topics": [
+    "news-and-evidence",
+    "vaults-and-method"
+   ]
+  },
+  {
+   "slug": "how-i-work-with-claude",
+   "title": "How I work with Claude: one session per topic, agents with names, and memory you curate",
+   "date": "2026-10-09",
+   "url": "https://newsroom.sgit.ai/articles/how-i-work-with-claude.html",
+   "collections": [],
+   "cited_in_rc1": [
+    "11b-what-was-already-there.md (through the dossier, C060)"
+   ],
+   "argues": "A practical guide to the way I work with Claude, written for the people joining the team and for anyone I am helping with their own agentic workflows. It comes from about a year of doing this every day. Keep sessions separate, one per major or recurring topic, and do not let a thread wander across t",
+   "topics": [
+    "agents-and-policy",
+    "vaults-and-method"
+   ]
+  },
+  {
+   "slug": "not-a-straight-line",
+   "title": "Not a straight line: working for RiskMandate by working on the newsroom, and why the thinking is never wasted",
+   "date": "2026-10-12",
+   "url": "https://newsroom.sgit.ai/articles/not-a-straight-line.html",
+   "collections": [],
+   "cited_in_rc1": [
+    "11b-what-was-already-there.md (through the dossier, C060)"
+   ],
+   "argues": "Today I spent most of the day dictating voice memos and improving the workflow that turns them into articles, and I would argue I was working for RiskMandate the whole time. This is the meta-strategy behind that. Progress does not go in a straight line, so \"focus on one thing only\" is good advice th",
+   "topics": [
+    "startups-and-strategy",
+    "site-and-engineering"
+   ]
+  },
+  {
+   "slug": "from-send-to-sgit",
+   "title": "From sending a file to sgit: eight months of SG/Send, told by its own briefs and commits, and how a file-sharing service became encrypted version control and vaults",
+   "date": "2026-10-15",
+   "url": "https://newsroom.sgit.ai/articles/from-send-to-sgit.html",
+   "collections": [],
+   "cited_in_rc1": [
+    "11b-what-was-already-there.md (through the dossier, C060)"
+   ],
+   "argues": "SG/Send started because sending a file was harder than it should be, and because I wanted to build a service where the server holds nothing: the best way to protect an asset is not to have one. Eight months later it has become sgit, encrypted version control with Git's model, and the vaults that thi",
+   "topics": [
+    "vaults-and-method",
+    "startups-and-strategy"
+   ]
+  },
+  {
+   "slug": "generation-z-developers-again",
+   "title": "Generation Z Developers (AI edition): the 2018 book that said act like you are part of the company, what it got right, and a new edition for the people I want to help",
+   "date": "2026-10-18",
+   "url": "https://newsroom.sgit.ai/articles/generation-z-developers-again.html",
+   "collections": [],
+   "cited_in_rc1": [
+    "11b-what-was-already-there.md (through the dossier, C060)"
+   ],
+   "argues": "In 2018 I wrote a book called Generation Z Developers, key concepts and ideas for the next generation of developers. It is on Leanpub, 60% complete, last updated on 8 October 2018, read by 465 people, and it is also on Amazon. It was a decent book, full of spelling mistakes, and a lot of what I writ",
+   "topics": [
+    "vaults-and-method",
+    "startups-and-strategy"
+   ]
+  },
+  {
+   "slug": "ci-owns-the-version",
+   "title": "CI owns the version: the release scheme I wrote for OSBot-Utils in 2023, now on every site we run, and the technical debt that showed us why",
+   "date": "2026-10-27",
+   "url": "https://newsroom.sgit.ai/articles/ci-owns-the-version.html",
+   "collections": [],
+   "cited_in_rc1": [
+    "11b-what-was-already-there.md (through the dossier, C060)"
+   ],
+   "argues": "A release number is a fact about the order in which pushes land, and the only thing that knows that order is the pipeline. So the pipeline should pick the number, not whoever pushes. I wrote that scheme for OSBot-Utils on 27 October 2023, the night CI made its first tag there; it has numbered 1,129 ",
+   "topics": [
+    "site-and-engineering",
+    "agents-and-policy"
+   ]
+  },
+  {
+   "slug": "what-sgit-does-that-git-does-not",
+   "title": "What sgit does that Git does not: ten releases in October, minutes turned into seconds, and an honest map of where Git is still ahead",
+   "date": "2026-10-27",
+   "url": "https://newsroom.sgit.ai/articles/what-sgit-does-that-git-does-not.html",
+   "collections": [],
+   "cited_in_rc1": [
+    "11b-what-was-already-there.md (through the dossier, C060)"
+   ],
+   "argues": "Between 3 and 27 October, sgit shipped ten releases, and each one fixed a bottleneck that a real workload had found. A one-file commit on a 76,000-file vault went from 29 minutes to 4.6 seconds; a pull of a 300-file pass on 228,000 files from 566 to 31.7 seconds; a one-folder clone of a pack vault f",
+   "topics": [
+    "vaults-and-method",
+    "site-and-engineering"
+   ]
+  },
+  {
+   "slug": "the-push-is-the-authorisation",
+   "title": "The push is the authorisation: a new agent session publishes its public key to the team repository, that push is how I accept it, and so who can push becomes a security decision",
+   "date": "2026-10-28",
+   "url": "https://newsroom.sgit.ai/articles/the-push-is-the-authorisation.html",
+   "collections": [],
+   "cited_in_rc1": [
+    "11b-what-was-already-there.md (through the dossier, C060)"
+   ],
+   "argues": "When the PHP newsroom moved to a new account on 27 October, every agent needed a fresh session, and every fresh session needed a fresh key. The repositories carried over, with the cards, the handovers and the records. The sessions did not, and neither did the key pairs, which die with the session th",
+   "topics": [
+    "agents-and-policy",
+    "vaults-and-method"
+   ]
+  }
+ ]
+}

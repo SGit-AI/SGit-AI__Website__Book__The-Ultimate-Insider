@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-10-31T03:00:00Z",
+ "as_of": "2026-10-31T05:10:00Z",
  "round": 1,
- "state": "working: 02:32 wake; 86 claims (72 checked, 5 corrected, 9 open); active, round the clock at amended Q6",
+ "state": "working: 04:32 wake; 88 claims (74 checked, 5 corrected, 9 open); A13 registered; A4 begun",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -92,11 +92,23 @@
   {
    "what": "the market words for the new name answered to the storyteller and the conductor (no clash; 'agentic workflows' crowded, 'agentic team' open); my task's 02:20 change recorded",
    "when": "2026-10-31T03:00:00Z"
+  },
+  {
+   "what": "A13 registered with the historian (C087 wakes by trigger, C088 commits outside wakes); the exact-title check for N7 and N8; A4's first catalogue (claims/articles-catalogue.json, 41 articles)",
+   "when": "2026-10-31T05:10:00Z"
   }
  ],
  "next": [
   {
-   "what": "E04's outside cases checked at source",
+   "what": "A4: the other sites and vaults, a reading, placement and the graph",
+   "why": "conductor__020"
+  },
+  {
+   "what": "A7 the JSON book study; T12; A9",
+   "why": "conductor__021"
+  },
+  {
+   "what": "E04's outside cases",
    "why": "ruv-sgit__003"
   },
   {
@@ -275,6 +287,27 @@
    "request": "comms/mail/mailroom/researcher/storyteller__009-market-words.eml",
    "state": "done",
    "reply": "comms/mail/mailroom/storyteller/researcher__001-market-words.eml"
+  },
+  {
+   "id": "R21",
+   "from": "historian",
+   "request": "comms/mail/mailroom/researcher/historian__010-triggers-to-register.eml",
+   "state": "done: C087, C088",
+   "reply": "comms/mail/mailroom/historian/researcher__001-a13-registered.eml"
+  },
+  {
+   "id": "R22",
+   "from": "storyteller",
+   "request": "comms/mail/mailroom/researcher/storyteller__014-exact-title-check.eml",
+   "state": "done",
+   "reply": "comms/mail/mailroom/storyteller/researcher__002-exact-title-check.eml"
+  },
+  {
+   "id": "R23",
+   "from": "conductor (the editor's RC1 review)",
+   "request": "comms/mail/mailroom/researcher/conductor__020-rc1-review-articles-graph.eml; conductor__021-rc1-review-5-to-9.eml",
+   "state": "in progress: A13 done, A4 begun; A7, T12, A9 open",
+   "reply": "comms/mail/mailroom/conductor/researcher__010-a13-a4-first-pass.eml; board 006"
   }
  ],
  "cadence": "active"

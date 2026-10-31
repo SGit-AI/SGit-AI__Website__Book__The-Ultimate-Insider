@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-10-31T00:55:00Z",
+ "as_of": "2026-10-31T04:55:00Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -2094,6 +2094,79 @@
    "method": "the excess rows grouped by the object of each capability; the probe figures matched in harness.json",
    "command": "git show 842a8bd:src/static/studio/data/abp-examples.json | python3 -c \"import json,sys,collections;e=json.load(sys.stdin)['examples'][0];x=[r for r in e['rows'] if not r['in_mandate']];print(len(x),collections.Counter(r['mandate_stance'] for r in x),[r['capability'] for r in x])\"",
    "note": "Open only for the 8 of 12, a projection of what SHarness's designed parts would bound, which no data file states: mask it, or print it as the piece's own projection. The rest checked. Registered at ruv-sgit's request (ruv-sgit__003), the researcher's 00:32 wake, 31 October 2026; the last frame rendered at the piece's data-end and the figures recomputed from the data it loads."
+  },
+  {
+   "id": "C087",
+   "claim": "Wakes by trigger: scheduled, started by the editor, and follow-ups, by hour",
+   "cited_in": [
+    "timeline/triggers.md",
+    "comms/mail/mailroom/researcher/historian__010-triggers-to-register.eml"
+   ],
+   "value": {
+    "wakes": 162,
+    "scheduled": 105,
+    "editor": 47,
+    "follow-up": 10,
+    "by_hour_UTC": {
+     "02": "2 scheduled, 5 editor",
+     "03": "5, 10",
+     "04": "6, 1",
+     "05 to 13": "5 or 6 scheduled an hour, no editor",
+     "14": "6, 7",
+     "15": "7, 8",
+     "16": "10, 6",
+     "17": "9, 10, and 4 follow-up",
+     "18": "7 scheduled, 6 follow-up"
+    }
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "298be4e",
+    "evidence": "team/*/wakes/*.json, the kind and started fields"
+   },
+   "method": "every wake record's kind classed: starts 'scheduled'; names a follow-up or tonight's rule; else names the editor or onboarding; counted by the hour it started",
+   "command": "for f in $(git ls-tree -r --name-only 298be4e team | grep -E '^team/[^/]+/wakes/[^/]+\\.json$'); do git show 298be4e:$f | python3 -c 'import json,sys;d=json.load(sys.stdin);print(d[\"started\"][11:13],d[\"kind\"])'; done | python3 -c \"import sys,collections;c=collections.Counter();[c.update([(l[:2],'scheduled' if l[3:].lower().startswith('scheduled') else 'follow-up' if ('follow' in l.lower() or 'tonight' in l.lower()) else 'editor')]) for l in sys.stdin];[print(k,v) for k,v in sorted(c.items())]\"",
+   "note": "Agrees with the historian's table in timeline/triggers.md hour by hour. The kind is what the member wrote when its wake opened. From 05:00 to 13:59 every wake is scheduled. The record holds no usage or token figures (C021): this counts wakes, not effort. Registered at the historian's request (historian__010) and the conductor's A13 (conductor__021), the researcher's 04:32 wake, 31 October 2026."
+  },
+  {
+   "id": "C088",
+   "claim": "Commits made with no wake of their member open",
+   "cited_in": [
+    "comms/mail/mailroom/researcher/historian__010-triggers-to-register.eml"
+   ],
+   "value": {
+    "agent_commits": 439,
+    "in_a_closed_wake": 382,
+    "no_wake_open": 46,
+    "in_a_wake_opened_and_never_closed": 11,
+    "no_wake_open_by_member": {
+     "conductor": 15,
+     "deck": 12,
+     "dev": 8,
+     "ruv-sgit": 7,
+     "researcher": 4
+    },
+    "no_wake_open_by_hour_UTC": {
+     "00": 7,
+     "01": 17,
+     "02": 12,
+     "03": 1,
+     "14": 6,
+     "17": 1,
+     "18": 2
+    },
+    "never_closed": "dev's wake opened at 17:48:50 (10 commits, 17:54 to 18:37, the editor's player fixes among them) and deck's at 18:20 (1)"
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "298be4e",
+    "evidence": "non-merge commits attributed as in C014; each member's wake windows (started to closed) from team/<id>/wakes/*.json"
+   },
+   "method": "each commit tested against its member's wake windows, with two minutes either side; a wake with no closed time counted separately",
+   "command": "method: the script in team/researcher/debriefs/2026-10-31__a13-and-the-title-check.md",
+   "note": "36 of the 46 came before 03:00, most before the first wake record at 02:14 (C022): the night was built by hand before the wake existed. The editor's player fixes from 17:54 to 18:37 are not wake-less: they fall in dev's wake opened at 17:48:50 that never closed. That is the record's trace of the editor working in a member's session, so read 'triggered by the editor' as 47 wakes plus work inside wakes left open. Registered at the historian's request (historian__010) and the conductor's A13 (conductor__021), the researcher's 04:32 wake, 31 October 2026."
   }
  ]
 }

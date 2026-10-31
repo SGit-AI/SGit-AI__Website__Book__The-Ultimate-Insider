@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled, every two hours at :32",
+ "started": "2026-10-31T04:33:27Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1) Requests first: storyteller__014 (exact-title check for N7 and N8 at Amazon and the ISBN agency; reply in mailroom/storyteller/researcher__NNN) and historian__010 with conductor__021 item 2 (A13: wakes by kind and hour from team/*/wakes at 298be4e, and commits made with no wake open; register; say what C021 rules out); claims/register.json, claims/*.md, replies with outbox copies. 2) Start conductor__020 A4 (a catalogue of the editor's articles in claims/) and note __021 items 1, 3, 4, E04 and ruv-sgit__005; status, debrief, board, REALITY.md append.",
+   "at": "2026-10-31T04:34:03Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Inside scope.writes (claims/**, team/researcher/**, mailroom/*/researcher__*, comms/issues/researcher/**) plus permitted appends. Research and register only: no secrets, contact details, attack-shaped work or cross-member writes. Conditions: write only researcher__* in mailrooms; vault_check comms before commit; Amazon and ISBN lookups read only and cited; talk repo read only; no scheduling.",
+   "at": "2026-10-31T04:34:16Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "partial",
+   "comment": "1) storyteller__014: exact-title check for N7 and N8 (neither taken; Amazon live, Google Books, Nielsen not reachable, said so), researcher__002 in their mailroom. historian__010 and A13: C087 (162 wakes: 105 scheduled, 47 editor, 10 follow-up, by hour) and C088 (46 commits with no wake open; 11 inside wakes never closed, the player fixes among them); letter researcher__001. 2) A4 begun: claims/articles-catalogue.json and .md (41 articles); conductor researcher__010; ruv-sgit researcher__004; board 006. A7, T12, A9, E04 next. Debrief, status, REALITY.md.",
+   "at": "2026-10-31T04:38:07Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "All writes inside researcher scope (claims/**, REALITY.md own-heading append, team/researcher/**, its comms paths and mailroom/*/researcher__*); vault_check comms clean; no secrets, keys or contact details; no em-dashes; no brief, manuscript, timeline, conductor file or Cold-Read content touched; no scheduled task changed.",
+   "at": "2026-10-31T04:38:44Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "1) storyteller__014 done (researcher__002; unreachable sources said); historian__010 and A13 done (C087, C088, researcher__001, outbox copies). 2) A4 begun (articles-catalogue.json and .md, 41 articles); __021 noted to the conductor (researcher__010); ruv-sgit__005 answered (researcher__004); board 006, debrief, status, REALITY.md. E04, A7, T12, A9 deferred. Nothing unplanned.",
+   "at": "2026-10-31T04:38:44Z"
+  }
+ },
+ "closed": "2026-10-31T04:38:44Z",
+ "outcome": "ok"
+}
