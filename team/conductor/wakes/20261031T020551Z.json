@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "In scope. Conditions: the letters tell the storyteller and designer the admin tour never shows a page that prints a key (descriptions or redacted views only); vault_check before commit; the tour's shape stays the editor's to sign; no secrets.",
    "at": "2026-10-31T02:06:35Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "1. Batch 10 routed by letter to the storyteller (T23 to T25, A16), designer (tour visuals, the code shown), librarian (the tour's material), each with security's key condition; vault_check clean. 2. Brief 13, the series wrapped up, in team/conductor/editor-briefs/. 3. status.json. Gate clean.",
+   "at": "2026-10-31T02:07:25Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "Gate exit 0 (231 pages); 0 outside scope; vault_check clean; one new brief only; the three letters carry the no-key tour condition; no secrets; brief 13 only asks; no em-dashes.",
+   "at": "2026-10-31T02:07:52Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "as-planned",
+   "comment": "1 batch 10 routed by mail only. 2 brief 13 in editor-briefs/. 3 status. Nothing unplanned.",
+   "at": "2026-10-31T02:07:52Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-31T02:07:52Z",
+ "outcome": "ok"
 }
