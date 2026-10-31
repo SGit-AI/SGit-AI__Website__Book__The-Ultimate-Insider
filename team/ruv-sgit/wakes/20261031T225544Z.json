@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "LAB 23 declares its reserved id (proposed header removed); three letters filed; LAB 24 (reserved), the talk's day as a member-by-hour heatmap read straight from claims/talk-commits-by-member-hour.md (C095), every cell as written, night outlined, the no-prefix row and totals kept, the method and C021 printed; a caption phrase that over-claimed removed; the lab build passes (63 pages), lab/pdf and ids.json restored; run 20261031T2254Z-ruv-24; letters to designer, security, researcher; LK1 survey and board 015 updated; REALITY, debrief, status",
    "at": "2026-10-31T22:59:23Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Build and gate clean; 0 outside scope; vault_check clean; lab build (63 pages) passes; status empty after checkout; lab/pdf, lab/tools and claims untouched; LAB 24's numbers, totals and the night and day split all match C095 and C092; no key, personal detail, directive or attack-shaped text.",
+   "at": "2026-10-31T23:00:14Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "1) LAB 23 declares its reserved id; letters filed and sent; status, survey, board. 2) LAB 24 made (heatmap, page, README, build, run -24) from C095, C092, C021; the lab build passes. 3) Close done. Conditions kept. Unplanned only the removal of an over-claiming caption phrase.",
+   "at": "2026-10-31T23:00:34Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-31T23:00:34Z",
+ "outcome": "ok"
 }
