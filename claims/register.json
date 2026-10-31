@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-10-31T16:50:00Z",
+ "as_of": "2026-10-31T20:45:00Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -2173,11 +2173,15 @@
    "claim": "Why the team stopped: the editor's own account, given after the day, against the day's record",
    "cited_in": [
     "team/conductor/rc1/editor-review/notes.json (T12)",
-    "briefs/2026-10-31__rc1-paper-review/batch-07-pages-22-to-32.md"
+    "briefs/2026-10-31__rc1-paper-review/batch-07-pages-22-to-32.md",
+    "briefs/2026-10-31__in-session/02-g1-the-95-and-the-day-in-review.md"
    ],
    "value": {
     "day_record": "the hold at 18:44:13 gives the editor's usage at 95% as the reason, in the conductor's words (C006, C021); the locks were built and never applied (C027)",
-    "editor_31_October": "the 95% was 'just a footnote': he could have moved to another session; the main reason was that there was no tested way to take in changes during the talk, no UX to see what was new and no workflow that made sure nothing would break, 'the reason why I was thinking about let's lock V1'"
+    "editor_31_October": "the 95% was 'just a footnote': he could have moved to another session; the main reason was that there was no tested way to take in changes during the talk, no UX to see what was new and no workflow that made sure nothing would break, 'the reason why I was thinking about let's lock V1'",
+    "editor_31_October_19:00": "'The 95%, I think, was the tokens usage. That there was a token that we stopped, and there was a big thing about 95%.' (briefs/2026-10-31__in-session/02-g1-the-95-and-the-day-in-review.md, ec1ec00)",
+    "what_the_record_shows": "the hold's subject: 'the editor's usage limit is at 95%, pause all actions' (867f8c2); C021: 95% is the conductor's words reporting the editor, about a 5-hour usage window resetting at 20:20 London (C037); no usage page, no token count",
+    "what_the_record_cannot_show": "whether the 95% was of tokens, of a message allowance or of anything else: the record holds the percentage as reported and nothing it was measured in"
    },
    "state": "open",
    "source": {
@@ -2186,8 +2190,8 @@
     "evidence": "briefs/2026-10-31__rc1-paper-review/batch-07-pages-22-to-32.md, his dictated review of page 29, committed 31 October 01:48 UTC"
    },
    "method": "his words read in the brief; set beside the hold file's reason and the locks",
-   "command": "git show 49c701e:briefs/2026-10-31__rc1-paper-review/batch-07-pages-22-to-32.md | grep -o -i '.\\{100\\}just a footnote.\\{300\\}'; git show 298be4e:team/conductor/HOLD.md | head -5   # the second in the talk's repository",
-   "note": "Two accounts, both kept, as ROLE.md asks for a contradiction. The day's record gives usage as the reason for the hold; the editor, after the day, calls usage a footnote and names the missing way to take changes safely during the talk. The record supports his account in part: lock.py was built for exactly that and never applied (C027). Quote his as his, dated 31 October 2026, never as the day's record. Open: the book chooses how to tell it, and the editor signs. Registered at the conductor's letter 021 (T12), the researcher's 08:32 wake, 31 October 2026."
+   "command": "git show 49c701e:briefs/2026-10-31__rc1-paper-review/batch-07-pages-22-to-32.md | grep -o -i '.\\{100\\}just a footnote.\\{300\\}'; git show 298be4e:team/conductor/HOLD.md | head -5   # the second in the talk's repository; git show ec1ec00:briefs/2026-10-31__in-session/02-g1-the-95-and-the-day-in-review.md | grep -o -i '.\\{20\\}95%, I think.\\{100\\}'",
+   "note": "Two accounts, both kept, as ROLE.md asks for a contradiction. The day's record gives usage as the reason for the hold; the editor, after the day, calls usage a footnote and names the missing way to take changes safely during the talk. The record supports his account in part: lock.py was built for exactly that and never applied (C027). Quote his as his, dated 31 October 2026, never as the day's record. Open: the book chooses how to tell it, and the editor signs. Registered at the conductor's letter 021 (T12), the researcher's 08:32 wake, 31 October 2026. 31 October 20:40, at the conductor's letter 031: a third account, the editor's at about 19:00: the 95% was 'the tokens usage'. It agrees with the hold file (usage) and does not withdraw his account of the early hours of 31 October (batch 7, committed 01:48) that usage was a footnote to the real reason. The unit is his account; the record holds only the percentage (C021)."
   },
   {
    "id": "C090",

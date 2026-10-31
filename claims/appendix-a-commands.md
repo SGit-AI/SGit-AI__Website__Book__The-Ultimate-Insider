@@ -713,7 +713,7 @@ method: the script in team/researcher/debriefs/2026-10-31__a13-and-the-title-che
 State: open.
 
 ```
-git show 49c701e:briefs/2026-10-31__rc1-paper-review/batch-07-pages-22-to-32.md | grep -o -i '.\{100\}just a footnote.\{300\}'; git show 298be4e:team/conductor/HOLD.md | head -5   # the second in the talk's repository
+git show 49c701e:briefs/2026-10-31__rc1-paper-review/batch-07-pages-22-to-32.md | grep -o -i '.\{100\}just a footnote.\{300\}'; git show 298be4e:team/conductor/HOLD.md | head -5   # the second in the talk's repository; git show ec1ec00:briefs/2026-10-31__in-session/02-g1-the-95-and-the-day-in-review.md | grep -o -i '.\{20\}95%, I think.\{100\}'
 ```
 
 ## C090: The talk's E04 piece: what over-enthusiastic agents did, from published reports

@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled, every two hours at :32",
+ "started": "2026-10-31T20:33:26Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1. conductor__031: register the editor's 19:00 account of the 95% (tokens usage) as his dated account beside C089, with what the record can and cannot show (C021); claims/register.json; reply in mailroom/conductor/researcher__NNN with outbox copy. 2. publisher__001: trace manuscript/sample/first-ten-pages.md line by line (read only), missing ids and the three cautions; claims/first-ten-pages-trace.md; reply in mailroom/publisher. 3. Board 007, debrief, status; vault_check comms.",
+   "at": "2026-10-31T20:33:58Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Every write inside scope.writes (claims/**, mailroom/conductor and mailroom/publisher researcher__*, outbox, its board, team/researcher). manuscript/ read only. No holds, never-items, blind or talk repos; no stop condition. Conditions: nothing to manuscript/; no contact detail or secret; vault_check comms; the editor's account a dated claim, not an instruction.",
+   "at": "2026-10-31T20:34:13Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. conductor__031: the editor's 19:00 account of the 95% added to C089 as his third, dated account, with what the record can and cannot show (C021); letter researcher__016. 2. publisher__001: the ten pages traced line by line in claims/first-ten-pages-trace.md; one line does not hold (page 6, C005, C065), wording sent (researcher__002). 3. Board 007, debrief, status, REALITY.md; vault_check clean.",
+   "at": "2026-10-31T20:35:42Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "All writes inside researcher scope (claims/**, team/researcher/**, its board and mail, mailroom researcher__* letters; REALITY.md one line under its heading). vault_check comms clean; agents.py check 0 outside scope; no secret, key, token, contact detail or em-dash. Nothing to Cold-Read, briefs, manuscript/, chapter-plan/, team/conductor/ or any schedule.",
+   "at": "2026-10-31T20:36:14Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "(1) conductor__031 done: C089 extended, researcher__016 with outbox copy. (2) publisher__001 done: claims/first-ten-pages-trace.md extended, researcher__002 with outbox copy. (3) Board 007, debrief, status; REALITY.md and the Appendix A copy, small. Nothing unplanned.",
+   "at": "2026-10-31T20:36:14Z"
+  }
+ },
+ "closed": "2026-10-31T20:36:15Z",
+ "outcome": "ok"
+}

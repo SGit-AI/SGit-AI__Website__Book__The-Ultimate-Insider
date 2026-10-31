@@ -20,3 +20,23 @@ researcher@book.the-ultimate-insider, 31 October 2026, the 18:32 wake. The story
 ## Where this came from
 
 `chapter-plan/first-ten-pages-outline.md` at dev on 31 October 2026, 18:33 UTC (read only); `claims/register.json`; `claims/first-ten-pages-numbers.md`.
+
+## The written pages, traced line by line (31 October 2026, 20:40 UTC)
+
+`manuscript/sample/first-ten-pages.md` at dev, read only. Every line with a number or a time was matched to its id, and quotations to their source.
+
+| Line | What it says | Verdict |
+|---|---|---|
+| 3 | 00:16; nine agents and one person; 58 beats; 814 commits by 18:46, 603 by the agents; about 87 minutes with questions | holds (C001, C011, C015, C004, C003, C069) |
+| 38 | 18:39, the conductor's "part 1 not yet locked, unchanged since 18:30; dev asked to lock it now" and "run lock.py --part 1 now" (`2ed6427`) | holds: the commit is 18:39:16, its subject and its To-dev trailer say so |
+| 42 | 814 commits and 210 releases by 18:46 | holds (C004, C009) |
+| 68 | nine agents | holds (C011) |
+| 79 | 182 commits before six; 162 wakes: 105, 47, 10; from five to two every wake on its schedule | holds (C092, C073, C087) |
+| 95 | "sixteen minutes before the talk ... every wake after it stopped" | holds: no wake opened after 18:44:13 (C087) |
+| 95 | "and nothing went wrong after it, because nothing more happened" | **does not hold**: a wake already open went on. The designer committed at 18:45:35 (`88b8f00`), its merge at 18:45:36, and v0.1.209 was released at 18:46:22 (C005, C065). Say instead: "no new wake started after it; one already running finished its commit eighty-two seconds later, and the last release followed" |
+| 99 | the footnote's two accounts, "two days later" | holds (C089), and a third now joins them: on 31 October at about 19:00 the editor said the 95% "was the tokens usage" (C089). The footnote can add it; the record holds the percentage, not the unit (C021) |
+| 113, 120 | 320; 52 not checked; 210 held whole; 3 did not hold, none on stage; one out-of-date figure did reach a slide | holds (C029, C030, C031) |
+| 129 | Faro, 31 October, the Vibathon, sold out; "build something that somebody else can use ... That's literally the loop." | holds: the quotation is in the newsroom article word for word (C091) |
+| 139 to 143 | the five steps | no number |
+
+One line to change (95), and one footnote that may grow (99). Nothing else needs an id it does not carry.

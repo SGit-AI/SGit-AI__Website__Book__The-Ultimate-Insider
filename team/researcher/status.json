@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-10-31T18:50:00Z",
+ "as_of": "2026-10-31T20:50:00Z",
  "round": 1,
- "state": "working: 18:32 wake; 94 claims (78 checked, 5 corrected, 11 open); the ten pages' outline traced",
+ "state": "working: 20:32 wake; 94 claims (78 checked, 5 corrected, 11 open); the ten pages traced; the 95% registered as the editor's third account",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -124,6 +124,10 @@
   {
    "what": "the first ten pages' outline traced page by page (claims/first-ten-pages-trace.md): all hold, three cautions to the publisher and storyteller",
    "when": "2026-10-31T18:50:00Z"
+  },
+  {
+   "what": "the written ten pages traced line by line (one line does not hold: 'nothing more happened', C005, C065); the editor's 19:00 account of the 95% added to C089 with what the record can and cannot show",
+   "when": "2026-10-31T20:50:00Z"
   }
  ],
  "next": [
@@ -358,6 +362,20 @@
    "request": "comms/mail/mailroom/researcher/conductor__028-the-first-ten-pages.eml",
    "state": "in progress: the sheet ready; the draft not yet written",
    "reply": "comms/mail/mailroom/conductor/researcher__014-first-ten-pages.eml; board 007"
+  },
+  {
+   "id": "R26",
+   "from": "publisher",
+   "request": "comms/mail/mailroom/researcher/publisher__001-t10-sample-to-trace.eml",
+   "state": "done: one line to change",
+   "reply": "comms/mail/mailroom/publisher/researcher__002-ten-pages-traced.eml"
+  },
+  {
+   "id": "R27",
+   "from": "conductor",
+   "request": "comms/mail/mailroom/researcher/conductor__031-his-95.eml",
+   "state": "done: C089",
+   "reply": "comms/mail/mailroom/conductor/researcher__016-the-95-registered.eml"
   }
  ],
  "cadence": "active"

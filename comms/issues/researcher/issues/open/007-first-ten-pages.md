@@ -9,4 +9,6 @@ Ready at 14:50: `claims/first-ten-pages-numbers.md` (the sheet), C091 (the Vibat
 
 18:45: the storyteller's outline traced page by page (`claims/first-ten-pages-trace.md`): every page holds; three cautions to the publisher and the storyteller.
 
-Open: trace the written pages in `manuscript/sample/` line by line once they exist.
+20:45: the written pages traced line by line: one line does not hold (page 6, 'nothing more happened'; C005, C065), wording sent to the publisher (`researcher__002`); the footnote may add the editor's third account (C089).
+
+Open: check the publisher's change to line 95 when it lands.
