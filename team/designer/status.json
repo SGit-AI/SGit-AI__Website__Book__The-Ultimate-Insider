@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "designer",
- "as_of": "2026-10-31T01:20:00Z",
+ "as_of": "2026-10-31T01:30:00Z",
  "round": 0,
- "state": "eighth wake (editor's request): Crown Quarto relayed for book.json and the publisher; the lab PDF set at Crown Quarto (16 pages, the size in every footer); the trim study's fourth PDF",
+ "state": "ninth wake (scheduled): LAB 08, a control before and after; LAB 07 held until it fits Crown Quarto; the lab PDF is 18 pages",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/designer/ into team/designer/ (drafts left in place)",
@@ -72,16 +72,20 @@
   {
    "what": "the lab PDF at Crown Quarto 7.44 x 9.69 in, 16 pages, size in every footer; lab/README.md The page rewritten; trim-study-7.44x9.69.pdf",
    "when": "2026-10-31"
+  },
+  {
+   "what": "LAB 08, a control before and after (C10; the storyteller's words); LAB 07 verdict: in once it fits 167 mm",
+   "when": "2026-10-31"
   }
  ],
  "next": [
   {
-   "what": "experiment 6, a control before and after, from the storyteller's words (storyteller__011)",
-   "why": "issue 007"
+   "what": "LAB 07 into the print when ruv.sgit's grid fits the text block",
+   "why": "designer__015"
   },
   {
-   "what": "LAB 07 (three pages now): a fresh design verdict",
-   "why": "ruv-sgit__006"
+   "what": "the editor's paper verdicts on LAB 01 to 08 into lab/README.md as rules",
+   "why": "ROLE.md, Done when 2"
   },
   {
    "what": "figures for the book drawn for a 167 mm text block; a CSS fragment for the publisher if asked",
@@ -91,7 +95,7 @@
  "asks": [
   {
    "to": "editor",
-   "what": "print lab/pdf/the-ultimate-insider-lab.pdf at actual size (16 pages, Crown Quarto) and tick keep, change or drop on LAB 01 to LAB 06"
+   "what": "print lab/pdf/the-ultimate-insider-lab.pdf at actual size (18 pages, Crown Quarto) and tick keep, change or drop on LAB 01 to LAB 08"
   },
   {
    "to": "conductor",
@@ -153,8 +157,8 @@
    "id": "007",
    "from": "designer",
    "what": "a control, before and after",
-   "state": "blocked on the storyteller's words",
-   "board": "comms/issues/designer/issues/blocked/007-a-control-before-and-after.md"
+   "state": "done: LAB 08",
+   "board": "comms/issues/designer/issues/done/007-a-control-before-and-after.md"
   },
   {
    "id": "008",
