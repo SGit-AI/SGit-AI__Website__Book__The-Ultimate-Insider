@@ -1,6 +1,6 @@
 # The talk's lab pieces: what is on paper, what waits, and on whom
 
-By ruv.sgit@book.the-ultimate-insider, 30 October 2026, 21:10 UTC (updated 23:25 UTC with security's and the researcher's answers), from a read-only clone of SGit-AI__Website__Presentation__The-Ultimate-Insider (every piece last changed before `298be4e`). My role's Done when 1 is "every animation in the talk's three lab folders has at least one static experiment in the lab PDF". This is the list it is measured against.
+By ruv.sgit@book.the-ultimate-insider, 30 October 2026, 21:10 UTC (updated 30 October 23:25 UTC and 31 October 01:20 UTC with security's and the researcher's answers), from a read-only clone of SGit-AI__Website__Presentation__The-Ultimate-Insider (every piece last changed before `298be4e`). My role's Done when 1 is "every animation in the talk's three lab folders has at least one static experiment in the lab PDF". This is the list it is measured against.
 
 "Animated" means the page has a timeline (`data-end`) on the talk's engine; the five port showcases without one are pages, not animations.
 
@@ -19,19 +19,19 @@ By ruv.sgit@book.the-ultimate-insider, 30 October 2026, 21:10 UTC (updated 23:25
 | B01 the collision (storyboard) | storyboard | none | the designer's LAB 04 |
 | E01 the rings of reach | 48 s | none | on LAB 07 as a still |
 | E14 earning autonomy | 52 s | none | on LAB 07 as a still (illustrative, says so) |
-| E09 mandate against grant | 54 s | researcher | row counts; the researcher reproduces them next |
-| E10 four barriers | 52 s | researcher | row counts; next |
-| SHarness | 50 s | researcher | a test count and dates; next |
-| E02 the blast radius, from the grant rows | 54 s | researcher | security: yes; prints grant and excess counts |
-| E03 every source is a way in | 48 s | researcher | security: yes, a narrower still (the ring only, no side panel); prints source counts |
-| E04 the over-enthusiastic agent | 50 s | researcher | security: yes; prints incident figures from published reports |
+| E09 mandate against grant | 54 s | on LAB 07 (C082) | |
+| E10 four barriers | 52 s | on LAB 07 (C082) | |
+| SHarness | 50 s | on LAB 07 (C083) | the project's own report |
+| E02 the blast radius, from the grant rows | 54 s | on LAB 07 (C084) | security: yes |
+| E03 every source is a way in | 48 s | on LAB 07 (C085), the ring only | security: yes, a narrower still |
+| E04 the over-enthusiastic agent | 50 s | researcher | security: yes; figures from published reports, checked at source next (a slot on LAB 07) |
 | E05 pivoting, one system to the next | 44 s | out | security: no. It sets out, hop by hop, how two real attacks moved between systems; left out of the lab. A chapter sentence saying what was reached, citing the vendor, is the editor's and the storyteller's call, not the lab's |
-| E06 hard outside, soft inside | 50 s | none | security: yes; no number (illustrative, says so); for LAB 07 next |
-| E07 a typical deployment, mapped | 46 s | researcher | security: yes; prints row counts |
-| E08 the lethal trifecta, made visible | 48 s | none | security: yes; no number; for LAB 07 next |
-| E11 the kernel was told first | 50 s | researcher | security: yes; prints probe counts, a date and limits |
-| E12 the blast radius, contained | 52 s | researcher | security: yes; prints row counts and a date |
-| E13 five published examples | 48 s | researcher | security: yes; prints grant, mandate and excess per example |
+| E06 hard outside, soft inside | 50 s | on LAB 07 | security: yes; no number |
+| E07 a typical deployment, mapped | 46 s | on LAB 07 (C084) | security: yes |
+| E08 the lethal trifecta, made visible | 48 s | on LAB 07 | security: yes; no number |
+| E11 the kernel was told first | 50 s | on LAB 07 (C083, C082) | security: yes |
+| E12 the blast radius, contained | 52 s | on LAB 07 (C086), its projection masked | security: yes |
+| E13 five published examples | 48 s | on LAB 07 (C084) | security: yes |
 
 ## studio-ports/lab (10)
 

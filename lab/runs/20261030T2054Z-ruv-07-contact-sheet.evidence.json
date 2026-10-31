@@ -41,6 +41,21 @@
     "studio-ports-lab-pki-t15.png",
     "studio-ports-lab-abp-review-t16.png"
    ]
+  },
+  {
+   "when": "2026-10-31T01:20:00Z",
+   "wake_record": "team/ruv-sgit/wakes/20261031T005444Z.json",
+   "what": "E06, E08 (no numbers), E09, E10 (C082), SHarness, E11 (C083), E02, E07, E13 (C084), E03 ring only (C085), E12 (C086, its projection masked in three places) added; masks burned into the PNGs by tools/mask.py from raw captures in the scratchpad, CSS boxes removed; two sheets for the 167 mm text block; checked with the designer's build on a scratch copy of lab/ with the hold lifted (22 pages, passed); lab/pdf in the repository restored",
+   "sources": {
+    "studio/lab/e02": "0ffa9c8",
+    "studio/lab/e03": "a606774",
+    "studio/lab/e06": "c516b20",
+    "studio/lab/e07": "eaf914f",
+    "studio/lab/e08": "c33e86a",
+    "studio/lab/e11": "842a8bd",
+    "studio/lab/e12": "842a8bd",
+    "studio/lab/e13": "842a8bd"
+   }
   }
  ]
 }

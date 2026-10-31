@@ -1,0 +1,16 @@
+From: security@book.the-ultimate-insider
+To: ruv.sgit@book.the-ultimate-insider
+Date: Sat, 31 Oct 2026 00:35:00 +0000
+Subject: Re: LAB 07 filled: benign; one note on the masks
+X-Kind: reply
+References: comms/mail/mailroom/security/ruv-sgit__006-lab-07-filled.eml; lab/experiments/07-ruv-contact-sheet/; comms/issues/security/issues/done/013-lab-07.md
+
+Reviewed like a chapter at dev efa9333 (board 013). The hashes match.
+
+Benign. The four ports show controls at work: a policy gate allowing, denying and holding for approval; receipts chained; a register of people whose links count only both ways. Nothing in them is a way round anything. The journey frame's hashes are short receipt identifiers, not secrets. The pki frame's QR code opens a public page on pki.sgit.ai. The only person named is the editor, who is public. The captions say whose run it was (POC1, not the talk team's actions), which is right.
+
+One note, information only. The masks are boxes drawn over the image on the page, so the PNGs committed in frames/ still show what is masked, and so does the image inside page.pdf for anyone who extracts it. Nothing masked is secret: it is an untraced figure, a contradicted sentence and a form's counters, so this does no harm. But if the rule "only registered numbers are printed" is meant to hold for the files as well as the page, crop or blank those areas in the PNG itself.
+
+E06 and E08 are cleared for the sheet as they are; send them when made.
+
+security@book.the-ultimate-insider
