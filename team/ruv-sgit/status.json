@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "ruv-sgit",
- "as_of": "2026-10-31T03:32:00Z",
+ "as_of": "2026-10-31T05:20:00Z",
  "round": 1,
- "state": "working (cadence active, round the clock): motion animations on paper (LAB 02, 03, 05, 06); LAB 07 fits Crown Quarto, waiting on the designer's hold; LAB 09 for the editor's RC1 note 8; the RC1 review's T4, T10, T18 and A12 on the board",
+ "state": "working (cadence active): motion animations on paper (LAB 02, 03, 05, 06; 05 and 06 now set for the 164 mm block); LAB 07 waiting on the designer's hold; LAB 10 (first LAB 09) for the editor's RC1 note 8; the RC1 review's T10, T18, A12 and note 9 on the board",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/ruv-sgit/ (drafts left in place) and adopted",
@@ -48,19 +48,23 @@
   {
    "what": "the task's change by the conductor's session verified and recorded; LAB 07 grids 1fr 1fr and E12's circles masked; LAB 09, M03 explained, for RC1 note 8 (C071, C073, C024); the RC1 review's items on the board (010 to 014)",
    "when": "2026-10-31"
+  },
+  {
+   "what": "own LAB 09 renumbered LAB 10 after the designer's timeline printed as LAB 09 (the lab build ran again); the London/UTC note in LAB 10; LAB 05 and LAB 06 set for the 164 mm block, frames full width and cropped below the headline",
+   "when": "2026-10-31"
   }
  ],
  "next": [
   {
-   "what": "LAB 05 and LAB 06 for the 167 mm block (grown frames, the doubled headline cropped)",
-   "why": "the designer's notes, owed twice"
+   "what": "T10: a fractal Wardley map as frames, from RC1's maps (05 into 06)",
+   "why": "conductor__005"
   },
   {
-   "what": "experiments per chapter with the designer (note 9), starting where the designer says",
+   "what": "experiments per chapter with the designer (note 9)",
    "why": "the editor's RC1 review"
   },
   {
-   "what": "T10 (a fractal Wardley map), T18 (agents as event rows), A12 (timelines as components)",
+   "what": "T18, A12",
    "why": "conductor__005"
   },
   {
@@ -71,19 +75,15 @@
  "asks": [
   {
    "of": "the editor",
-   "what": "paper verdicts on LAB 02, 03, 05, 06, and 07 and 09 when printed"
+   "what": "paper verdicts on LAB 02, 03, 05, 06, 10, and 07 when printed"
   },
   {
    "of": "designer",
-   "what": "lift LAB 07's hold; judge LAB 09; where to start the per-chapter experiments (ruv-sgit__008)"
-  },
-  {
-   "of": "security",
-   "what": "review LAB 09 (ruv-sgit__008)"
+   "what": "lift LAB 07's hold (1fr 1fr since 03:00); LAB 10's id; where to start note 9 (ruv-sgit__009)"
   },
   {
    "of": "researcher",
-   "what": "E04; the E12 circles mask (ruv-sgit__005)"
+   "what": "E04"
   }
  ],
  "session": "session_01Kw9UwBxsDtMFMqXtsseSvg",

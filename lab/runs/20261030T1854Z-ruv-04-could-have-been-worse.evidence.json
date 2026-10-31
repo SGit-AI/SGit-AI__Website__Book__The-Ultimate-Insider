@@ -34,5 +34,12 @@
  "time": {
   "work_started": "2026-10-30T19:00:00Z",
   "work_ended": "2026-10-30T19:20:00Z"
- }
+ },
+ "revisions": [
+  {
+   "when": "2026-10-31T05:15:00Z",
+   "wake_record": "team/ruv-sgit/wakes/20261031T045504Z.json",
+   "what": "for the 164 mm Crown Quarto block (the designer's notes 1 and 2): each frame at the full text width, cropped below its headline in CSS (PNG unchanged), the headline printed once under it; tools/frames_pages.py writes pages.html from frames.json; the lab build passes"
+  }
+ ]
 }

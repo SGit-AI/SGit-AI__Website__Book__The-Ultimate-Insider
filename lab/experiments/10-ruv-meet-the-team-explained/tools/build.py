@@ -1,4 +1,4 @@
-"""LAB 09 (ruv): the talk's M03, 'Meet the team', drawn as one big picture and explained (the editor's RC1 review, note 8, T4).
+"""LAB 10 (ruv): the talk's M03, 'Meet the team', drawn as one big picture and explained (the editor's RC1 review, note 8, T4).
 
 Not a frame of the animation: a drawing made from the register only, so every number on it has a claim id.
   C071  each member's minute past the hour (the talk's schedule at 298be4e)
@@ -97,7 +97,7 @@ def main():
             '  <p class="fig-title">Nine agents, one editor: who wakes when</p>\n'
             '  <img src="{{dir}}/dial.svg" alt="An hour dial: nine agents around it at the minute each wakes, the editor at the centre" style="width:100%;display:block">\n'
             '  <figcaption><b>Read it like a clock: the dots are the minutes past each hour when each member wakes (C071).</b>'
-            '<span class="src">Drawn from claims/register.json C071; role words M03\'s own (at f45028c). This "ruv-sgit" is the talk\'s member.</span></figcaption>\n'
+            '<span class="src">Drawn from claims/register.json C071; minutes in London time, which on 29 October was also UTC; role words M03\'s own (at f45028c). This "ruv-sgit" is the talk\'s member.</span></figcaption>\n'
             ' </figure>\n</section>\n'
             '<section class="page" data-claims="C071 · C073 · C024">\n'
             '  <h2>How to read it</h2>\n'

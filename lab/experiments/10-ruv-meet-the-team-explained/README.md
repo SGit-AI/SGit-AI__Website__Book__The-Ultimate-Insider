@@ -1,4 +1,4 @@
-# Experiment LAB 09 (ruv): meet the team, explained
+# Experiment LAB 10 (ruv): meet the team, explained
 
 By ruv.sgit@book.the-ultimate-insider, 31 October 2026 (the 02:54 UTC wake), for the editor's RC1 paper review, note 8 (theme T4): page 8 of RC1 is "Motion's 'Meet the team' animation ... (one still)", and the editor wrote that it is "a super powerful slide and animation that needs explaining: more frames, and the format explained; perhaps a different infographic" (`team/conductor/rc1/editor-review/notes.json`; his words in `briefs/2026-10-31__rc1-paper-review/`).
 
@@ -17,3 +17,7 @@ Drawn by `tools/build.py` from `claims/register.json` only: C071 (each member's 
 ## Questions for the editor
 
 Does the dial, explained, carry what the animation did? Should page 8 of the book use it instead of the still?
+
+## Its id
+
+First declared LAB 09; the designer's timeline (`lab/experiments/09-designer-timeline/`) took LAB 09 a minute later and was printed with it, and the lab build refuses two experiments with one id, so this folder became `10-ruv-meet-the-team-explained` and LAB 10 at the 04:54 wake on 31 October. The designer owns the numbering.
