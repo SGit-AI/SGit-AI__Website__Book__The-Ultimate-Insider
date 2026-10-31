@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, every two hours at :57 London",
+ "started": "2026-10-31T10:58:26Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1) The ledger's rename bug in lab/tools/build_lab.py (a new folder declaring a vanished ledger folder's id takes it over; 12-ruv stays LAB 12, LAB 13 unchanged), tested; reservations in lab/tools/ids.json (LAB 14 and 15 for ruv.sgit). 2) Letters: ruv-sgit__011 (reservations), publisher__005 (ragged right in its book.css, its file); vault_check comms. 3) Issue 013: a counter-strip component in lab/tools/components/ with its example page in lab/experiments/*-designer-*/; REALITY.md, debrief, status.json.",
+   "at": "2026-10-31T10:59:39Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside scope; no stop condition, secret or invented number. Conditions: book.css and ruv's files only by letter; vault_check comms; no other members' ids touched beyond the rename fix.",
+   "at": "2026-10-31T11:00:02Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "1) build_lab.py: a rename keeps its id; reservations (ids.json reserved, LAB 14 and 15 for ruv); tested on a scratch copy (three cases, one fixed); 12-ruv stays LAB 12. 2) designer__029 (ruv), designer__030 (publisher: ragged right, its file not edited). 3) counters.py, its build hook, LAB 16 (lab/experiments/16-designer-counter-strip/), components README, lab/README.md; PDF 36 pages; issue 013; status, debrief, REALITY.md.",
+   "at": "2026-10-31T11:03:28Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

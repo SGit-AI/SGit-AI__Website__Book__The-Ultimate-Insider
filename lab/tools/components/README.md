@@ -7,5 +7,6 @@ Every component: a JSON spec in, an SVG out, one SVG unit to the millimetre, tex
 | Component | Modes | Example page | Use on a lab page |
 |---|---|---|---|
 | `timeline.py` | horizontal, vertical | LAB 09 | `{{timeline:<spec from lab/>:<mode>:<length mm>}}` |
+| `counters.py` | a row, any width | LAB 16 | `{{counters:<spec from lab/>:<length mm>}}` |
 
-Proposed next: a small Wardley map with side notes (T8), a counter strip (a row of registered numbers), a before-and-after panel (LAB 08's form).
+Proposed next: a small Wardley map with side notes (T8), a before-and-after panel (LAB 08's form).

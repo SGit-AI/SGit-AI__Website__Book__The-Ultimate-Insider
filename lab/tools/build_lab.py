@@ -41,6 +41,15 @@ def component_timeline(m):
     return svg.replace('class="timeline"', f'class="timeline" style="width: {w}mm; max-width: none"', 1)
 
 
+def component_counters(m):
+    """{{counters:<spec, from lab/>:<length mm>}}: lab/tools/components/counters.py, drawn at its own size."""
+    sys.path.insert(0, str(LAB / "tools" / "components"))
+    from counters import render
+    svg = render(json.loads((LAB / m.group(1)).read_text()), float(m.group(2)))
+    w = re.search(r'viewBox="0 0 ([\d.]+)', svg).group(1)
+    return svg.replace('class="counters"', f'class="counters" style="width: {w}mm; max-width: none; display: block"', 1)
+
+
 def experiments():
     found = []
     for d in sorted(p for p in (LAB / "experiments").iterdir() if p.is_dir()):
@@ -79,14 +88,23 @@ def experiments():
             if meta["id"] != printed[d.name]:
                 print(f"{d.name}: declares {meta['id']}, prints as {printed[d.name]} (the ledger)")
             meta["id"] = printed[d.name]
-    for d, meta in sorted(found, key=lambda e: e[0].name):    # then new folders: their own id if free, else the next free one
-        if d.name not in printed:
-            if meta["id"] in taken:
-                n = max(int(i.split()[1]) for i in taken) + 1
-                print(f"{d.name}: declares {meta['id']}, already printed by another; prints as LAB {n:02d}")
-                meta["id"] = f"LAB {n:02d}"
-            printed[d.name] = meta["id"]
-            taken.add(meta["id"])
+    folders = {p.name for p in (LAB / "experiments").iterdir() if p.is_dir()}
+    vanished = {i: f for f, i in printed.items() if f not in folders}   # a ledger folder that is gone: renamed, most likely
+    reserved = {i: who for who, ids in ids_file.get("reserved", {}).items() for i in ids}
+    for d, meta in sorted(found, key=lambda e: e[0].name):    # then new folders
+        if d.name in printed:
+            continue
+        if meta["id"] in vanished:                            # a rename keeps its printed id
+            print(f"{d.name}: takes over {meta['id']} from {vanished[meta['id']]} (renamed)")
+            del printed[vanished.pop(meta["id"])]
+        elif meta["id"] in taken or (meta["id"] in reserved and f'-{reserved[meta["id"]].split("-")[0]}-' not in d.name):
+            n = 1
+            while f"LAB {n:02d}" in taken or f"LAB {n:02d}" in reserved:
+                n += 1
+            print(f"{d.name}: declares {meta['id']}, which is printed or reserved; prints as LAB {n:02d}")
+            meta["id"] = f"LAB {n:02d}"
+        printed[d.name] = meta["id"]
+        taken.add(meta["id"])
     ids_path.write_text(json.dumps(ids_file, indent=1) + "\n")
     return sorted(found, key=lambda e: e[1]["id"])
 
@@ -141,6 +159,7 @@ def assemble(counts=None):
         if meta["_pages"].parent == d:   # a page in its own folder: its relative images are found there
             src = re.sub(r'src="(?!data:|https?:|/|\.\./|\{\{)([^"]+)"', lambda m: f'src="{meta["_dir"]}/{m.group(1)}"', src)
         src = re.sub(r"\{\{char:([\w-]+)\}\}", lambda m: chars[m.group(1)], src)
+        src = re.sub(r"\{\{counters:([\w./-]+\.json):([\d.]+)\}\}", component_counters, src)
         src = re.sub(r"\{\{timeline:([\w./-]+\.json):(horizontal|vertical):([\d.]+)\}\}", component_timeline, src)
         secs = re.findall(r'<section class="page"(?: data-claims="([^"]*)")?>(.*?)</section>', src, re.S)
         if len(secs) != meta["pages"]:

@@ -1,0 +1,28 @@
+<section class="page" data-claims="C002 · C009 · C022 · C024">
+ <figure class="fig">
+  <p class="fig-title">The day in four counts: the counter strip, at the text block's width</p>
+  {{counters:tools/components/examples/the-day-in-counts.json:163}}
+  <figcaption><b>Fig 16.1 · Four numbers, each with its words and its claim id; the one that matters most in the accent.</b> Only checked claims belong on a strip. <span class="src">lab/tools/components/examples/the-day-in-counts.json; claims/register.json</span></figcaption>
+ </figure>
+ <div class="cols-9-3">
+  <div class="main">
+   <figure class="fig">
+    <p class="fig-title">The same file, in the main column</p>
+    {{counters:tools/components/examples/the-day-in-counts.json:122}}
+    <figcaption><b>Fig 16.2 · Narrower, the words wrap; the numbers keep their size.</b> <span class="src">the same JSON</span></figcaption>
+   </figure>
+   <div class="tl-spec">
+    <p class="fig-title">How a page uses it</p>
+    <pre class="mono">{"value": "1",
+ "label": "hold, written at 18:44",
+ "claim": "C024", "accent": true}</pre>
+    <pre class="mono">{{​counters:&lt;spec&gt;:163}}</pre>
+    <p class="muted">Rules: 28 pt numbers, 9 pt words, one accent, checked claims only, each with its id.</p>
+   </div>
+  </div>
+  <div class="rail">
+   <p class="fig-title">In the rail</p>
+   {{counters:tools/components/examples/the-day-in-counts.json:38}}
+  </div>
+ </div>
+</section>
