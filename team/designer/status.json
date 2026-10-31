@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "designer",
- "as_of": "2026-10-31T00:40:00Z",
+ "as_of": "2026-10-31T01:20:00Z",
  "round": 0,
- "state": "seventh wake (editor's request): the trim study, the same pages at 6 x 9, 7.5 x 9.25 and 8 x 10 in; ids map emptied",
+ "state": "eighth wake (editor's request): Crown Quarto relayed for book.json and the publisher; the lab PDF set at Crown Quarto (16 pages, the size in every footer); the trim study's fourth PDF",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/designer/ into team/designer/ (drafts left in place)",
@@ -64,34 +64,38 @@
   {
    "what": "the trim study: lab/pdf/trim-study-6x9.pdf, trim-study-7.5x9.25.pdf, trim-study-8x10.pdf (lab/tools/trims/)",
    "when": "2026-10-31"
+  },
+  {
+   "what": "the editor's choice of Crown Quarto relayed: designer__012 (conductor, book.json), designer__013 (publisher)",
+   "when": "2026-10-31"
+  },
+  {
+   "what": "the lab PDF at Crown Quarto 7.44 x 9.69 in, 16 pages, size in every footer; lab/README.md The page rewritten; trim-study-7.44x9.69.pdf",
+   "when": "2026-10-31"
   }
  ],
  "next": [
+  {
+   "what": "experiment 6, a control before and after, from the storyteller's words (storyteller__011)",
+   "why": "issue 007"
+  },
   {
    "what": "LAB 07 (three pages now): a fresh design verdict",
    "why": "ruv-sgit__006"
   },
   {
-   "what": "draw experiment 6, a control before and after, when the storyteller's words come",
-   "why": "issue 007"
-  },
-  {
-   "what": "the editor's paper verdicts on LAB 01 to 06 into lab/README.md as rules",
-   "why": "ROLE.md, Done when 2"
-  },
-  {
-   "what": "LAB 07 into the print when the register fills its slots",
-   "why": "issue 006"
+   "what": "figures for the book drawn for a 167 mm text block; a CSS fragment for the publisher if asked",
+   "why": "issue 009"
   }
  ],
  "asks": [
   {
    "to": "editor",
-   "what": "print the three trim-study PDFs at actual size (lab/pdf/trim-study-*.pdf, on /lab/ once linked) and choose a trim; the decision goes in book.json through the conductor"
+   "what": "print lab/pdf/the-ultimate-insider-lab.pdf at actual size (16 pages, Crown Quarto) and tick keep, change or drop on LAB 01 to LAB 06"
   },
   {
-   "to": "editor",
-   "what": "print lab/pdf/the-ultimate-insider-lab.pdf (11 pages) and tick keep, change or drop on LAB 01 to LAB 06"
+   "to": "conductor",
+   "what": "record the editor's Crown Quarto in book.json (designer__012)"
   }
  ],
  "task": {
@@ -158,6 +162,13 @@
    "what": "the trim study",
    "state": "done: three PDFs",
    "board": "comms/issues/designer/issues/done/008-trim-study.md"
+  },
+  {
+   "id": "009",
+   "from": "editor",
+   "what": "the book at Crown Quarto",
+   "state": "open: relayed; the lab set at it; waits on book.json and the publisher",
+   "board": "comms/issues/designer/issues/open/009-crown-quarto.md"
   }
  ],
  "board": "comms/issues/designer/issues/"

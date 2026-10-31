@@ -13,7 +13,7 @@ from pathlib import Path
 LAB = Path(__file__).resolve().parents[2]
 REPO = LAB.parent
 FROM_PDF = "../.."                         # the staged page sits in lab/pdf/; paths below are from the repository root
-TRIMS = [("6x9", 6.0, 9.0), ("7.5x9.25", 7.5, 9.25), ("8x10", 8.0, 10.0)]
+TRIMS = [("6x9", 6.0, 9.0), ("7.5x9.25", 7.5, 9.25), ("7.44x9.69", 7.44, 9.69), ("8x10", 8.0, 10.0)]   # 7.44 x 9.69: Crown Quarto, the editor's choice (31 October 2026)
 GUTTER, OUTSIDE, TOP, BOTTOM = 0.5, 0.375, 0.5, 0.625    # inches: KDP's gutter for 151 to 300 pages; 0.375 in outside
 
 
@@ -48,8 +48,8 @@ def book(name, w, h):
 <section class="title">
  <div class="rule"></div>
  <p class="kick">The ultimate insider · a trim study</p>
- <h1>{name.replace("x", " x ")} in</h1>
- <p class="sub">The same pages at three book sizes. Print at actual size (100%), not "fit to page", and lay the three side by side.</p>
+ <h1>{name.replace("x", " x ")} in{" · Crown Quarto" if name == "7.44x9.69" else ""}</h1>
+ <p class="sub">The same pages at four book sizes. Print at actual size (100%), not "fit to page", and lay the three side by side.</p>
  <table><tr><th>Trim</th><th>Page</th><th>Text block</th></tr>{rows}</table>
  <p class="note">Margins as KDP allows for a book of 151 to 300 pages: a 0.5 in gutter on the inside, 0.375 in outside, 0.5 in at the top and 0.625 in at the foot, where the folio sits. The type is the lab's, at the lab's sizes; only the page changes. A study for the editor's choice of trim; the book's build is the publisher's. The full-bleed page would carry 0.125 in of bleed in the file sent to KDP.</p>
 </section>

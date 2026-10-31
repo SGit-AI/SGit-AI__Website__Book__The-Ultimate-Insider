@@ -2,8 +2,8 @@
 """Build the lab PDF: lab/experiments/*/ in order, a cover, a header per experiment, checked, hashed.
 
 python3 lab/tools/build_lab.py [--html-only]
-Rules: lab/README.md. Renders with Chromium through render.mjs (Playwright); refuses text under 9 pt,
-overflowing pages, and a page count other than the cover's plus each experiment's declared pages.
+Rules: lab/README.md. Renders with Chromium through render.mjs (Playwright) at the book's trim, Crown Quarto; refuses text under 9 pt
+and anything wider than the text block. Each authored page starts a page and may flow onto the next.
 """
 import hashlib, html, json, os, re, subprocess, sys
 from datetime import datetime, timezone
@@ -13,7 +13,7 @@ LAB = Path(__file__).resolve().parent.parent
 OUT = LAB / "pdf" / "the-ultimate-insider-lab.pdf"
 STAGE = LAB / "pdf" / "_build.html"          # not committed (.gitignore)
 SERIES = "The ultimate insider · lab · first round"
-COVER_PAGES = 1
+TRIM = (7.44, 9.69, "Crown Quarto 7.44 x 9.69 in")     # the book's trim, the editor's choice (31 October 2026)
 
 
 def esc(s):
@@ -84,21 +84,37 @@ def header(meta):
 
 def page(inner, ident, claims=""):
     c = f'<div class="claims">{esc(claims)}</div>' if claims else ""
-    return (f'<section class="page"><div class="block">{inner}</div>{c}'
-            f'<div class="foot"><span>{SERIES}</span><span class="mid">{esc(ident)}</span>'
-            f'<span class="r">page {{n}} of {{N}}</span></div></section>')
+    return f'<section class="sheet" style="page: {pname(ident)}">{inner}{c}</section>'
 
 
-def assemble():
+def pname(ident):
+    return "p" + re.sub(r"\W", "", ident).lower()
+
+
+def page_rules(idents):
+    """One named page per experiment, so its footer carries its id: series, id and trim on the outside, the page number."""
+    out = [f"@page {{ size: {TRIM[0]}in {TRIM[1]}in; margin: 0.5in 0.375in 0.625in 0.5in }}",
+           "@page :left { margin-left: 0.375in; margin-right: 0.5in }"]
+    box = "font: 400 9pt Inter, Helvetica, Arial, sans-serif; color: #5b6670"
+    for i in idents:
+        foot = f"{SERIES} · {i} · {TRIM[2]}"
+        out.append(f'@page {pname(i)}:right {{ @bottom-left {{ content: "{foot}"; {box} }} @bottom-right {{ content: "page " counter(page) " of " counter(pages); {box} }} }}')
+        out.append(f'@page {pname(i)}:left {{ @bottom-left {{ content: "page " counter(page) " of " counter(pages); {box} }} @bottom-right {{ content: "{foot}"; {box} }} }}')
+    return "\n".join(out)
+
+
+def assemble(counts=None):
     chars = characters()
     exps = experiments()
     when = datetime.now(timezone.utc).strftime("%d %B %Y, %H:%M UTC")
-    rows = "".join(f'<tr><td class="mono">{esc(m["id"])}</td><td>{esc(m["title"])}</td><td>{m["pages"]}</td></tr>' for _, m in exps)
+    counts = counts or {}
+    rows = "".join(f'<tr><td class="mono">{esc(m["id"])}</td><td>{esc(m["title"])}</td><td>{counts.get(m["id"], "")}</td></tr>' for _, m in exps)
     cover = page(f'<div class="cover"><div class="rule"></div><h1>The ultimate insider: the lab</h1>'
-                 f'<p class="sub">Experiments in telling the story on paper. First round, for printing.</p>'
+                 f'<p class="sub">Experiments in telling the story on paper. First round, for printing, at the book\'s size: {TRIM[2]}.</p>'
                  f'<table><tr><th>Id</th><th>Experiment</th><th>Pages</th></tr>{rows}</table>'
                  f'<p class="how">Each experiment opens with what it tries, what it is made from, and one question. '
                  f'Tick keep, change or drop on paper and write a note; the conductor puts each verdict into book.json. '
+                 f'Print at actual size (100%), not "fit to page". '
                  f'Built {when} by lab/tools/build_lab.py; the rules are in lab/README.md.</p></div>', "LAB")
     pages = [cover]
     for d, meta in exps:
@@ -111,29 +127,45 @@ def assemble():
             sys.exit(f'{d.name}: declares {meta["pages"]} pages, pages.html has {len(secs)}')
         for i, (claims, inner) in enumerate(secs):
             pages.append(page((header(meta) if i == 0 else "") + inner, meta["id"], claims))
-    total = len(pages)
-    body = "".join(p.replace("{n}", str(i + 1)).replace("{N}", str(total)) for i, p in enumerate(pages))
-    css = (LAB / "tools" / "lab.css").read_text()
+    css = (LAB / "tools" / "lab.css").read_text() + (LAB / "tools" / "crown-quarto.css").read_text() + page_rules(["LAB"] + [m["id"] for _, m in exps])
     STAGE.write_text(f'<!doctype html><html lang="en-GB"><head><meta charset="utf-8"><title>The ultimate insider: the lab</title>'
-                     f'<style>{css}</style></head><body>{body}</body></html>')
-    return COVER_PAGES + sum(m["pages"] for _, m in exps)
+                     f'<style>{css}</style></head><body>{"".join(pages)}</body></html>')
+    return exps
+
+
+def page_counts(exps):
+    """Where each experiment starts in the rendered PDF (its title on the page), so the cover can say how long it runs."""
+    from pypdf import PdfReader
+    texts = [" ".join((pg.extract_text() or "").split()) for pg in PdfReader(str(OUT)).pages]
+    starts, after = [], 0                         # page 0 is the cover, which lists every title: search past it, in order
+    for _, m in exps:
+        at = next((n for n, t in enumerate(texts) if n > after and m["title"] in t and "tries" in t.lower()), None)
+        if at is None:
+            sys.exit(f'{m["id"]}: its header was not found in the PDF')
+        starts.append(at)
+        after = at
+    ends = starts[1:] + [len(texts)]
+    return {m["id"]: e - s for (_, m), s, e in zip(exps, starts, ends)}, len(texts)
 
 
 def main():
-    expected = assemble()
+    exps = assemble()
     if "--html-only" in sys.argv:
         print(f"assembled {STAGE}")
         return
-    env = dict(os.environ)
-    r = subprocess.run(["node", str(LAB / "tools" / "render.mjs"), str(STAGE), str(OUT), str(expected)], env=env)
-    if r.returncode:
+    render = lambda expected: subprocess.run(["node", str(LAB / "tools" / "render.mjs"), str(STAGE), str(OUT), str(expected)]).returncode
+    if render("any"):
         sys.exit("lab build refused (see above)")
+    counts, total = page_counts(exps)             # a second pass prints each experiment's length on the cover
+    assemble(counts)
+    if render(total):
+        sys.exit("lab build refused on its second pass (see above)")
     sums = LAB / "pdf" / "SHA256SUMS"         # one line per PDF in lab/pdf/; keep the others' lines
     lines = [l for l in (sums.read_text().splitlines() if sums.exists() else []) if not l.endswith("  " + OUT.name)]
     lines.append(f"{hashlib.sha256(OUT.read_bytes()).hexdigest()}  {OUT.name}")
     sums.write_text("\n".join(sorted(lines, key=lambda l: l.split("  ")[1])) + "\n")
     STAGE.unlink()
-    print(f"built {OUT.relative_to(LAB.parent)}: {expected} pages; SHA256SUMS written")
+    print(f"built {OUT.relative_to(LAB.parent)}: {total} pages at {TRIM[2]}; SHA256SUMS written")
 
 
 if __name__ == "__main__":

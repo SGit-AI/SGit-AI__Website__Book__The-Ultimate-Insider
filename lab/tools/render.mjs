@@ -28,6 +28,11 @@ const problems = await page.evaluate(() => {
       if (px < MIN) out.push(`page ${i + 1}: "${n.textContent.trim().slice(0, 40)}" is ${(px * 0.75).toFixed(2)} pt`)
     }
   })
+  if (!fixed.length) {                                             // a flowing book: nothing wider than the text block
+    const edge = document.body.getBoundingClientRect().right + 2
+    const wide = [...document.body.querySelectorAll('img, svg, figure, table, div, p')].filter(e => e.getBoundingClientRect().right > edge)
+    wide.slice(0, 5).forEach(e => out.push(`"${(e.getAttribute('alt') || e.className?.baseVal || e.className || e.tagName).toString().slice(0, 40)}" runs ${Math.round(e.getBoundingClientRect().right - edge + 2)}px past the text block`))
+  }
   return out
 })
 await page.pdf({ path: output, format: 'A4', printBackground: true, preferCSSPageSize: true })
