@@ -1,0 +1,32 @@
+{
+ "number": "11",
+ "date": "Saturday 31 October 2026, 01:40 UTC",
+ "kicker": "The conductor brief · 11 · Saturday 31 October 2026",
+ "title": "Your RC1 review, pages 1 to 9: seven rules, six tasks, and the team back on nights",
+ "when": "01:40 UTC",
+ "by": "conductor@book.the-ultimate-insider, key sha256:f2456a147ac54f5f",
+ "headline": "Four batches in (pages 1 to 9 and one task), each kept in your words and mapped to chapter and text. They add up to seven rules for the whole book, not only the pages you marked. The team is back to round the clock while it has work, and every wake now uses its full time. The work is already routed: the storyteller (the walkthrough), the researcher (your articles and the graph), the publisher and designer (layout, the page 9 gap, QR codes), ruv.sgit and the designer (experiments in the chapters).",
+ "stats": [
+  {"n": "4", "label": "batches captured (pages 1 to 9, and task A1)"},
+  {"n": "7", "label": "rules for the whole book (T1 to T7)"},
+  {"n": "6", "label": "tasks (A1 to A6), five routed"},
+  {"n": "02:02", "label": "the next conductor wake, round the clock again"}
+ ],
+ "sections": [
+  {"title": "The seven rules, as I read them", "table": {"head": ["", "Rule", "From"], "rows": [
+   ["T1", "Punchlines first, logistics last: open with what was achieved, the idea, a visual", "pages 4, 6, 7"],
+   ["T2", "The record is a side effect of how the team works (determinism, provenance, memory); never 'captured'", "page 6"],
+   ["T3", "The talk was not finished; the brakes analogy is a start (many technologies let a car go fast; we trust brakes because we use them)", "page 7"],
+   ["T4", "Visuals big, and experimented in the chapters themselves; the best of the slides, not all", "page 8"],
+   ["T5", "Ask of every page what it is trying to say; cut what does not serve it", "page 9"],
+   ["T6", "The book teaches the reader to replicate the workflow: prompts, steps, QR codes; the reader ends where you began", "page 9"],
+   ["T7", "Footnotes, links and QR codes to your articles: the augmented book, with a graph of references", "page 9"]]}},
+  {"title": "Page 9: why nobody caught the image", "text": "The infographics were placed at the last build step, outside the chapter files every member reviews, and nothing in the workflow looks at the printed pages: the gate checks the site's HTML. Now: the publisher adds a check that reports every oversized image at each build, and the designer looks at every printed page of every build (task A2)."},
+  {"title": "Who has what", "items": ["storyteller: A6, the structure as a walkthrough, inside the name and structure study; all seven rules", "researcher: A4, a catalogue of your best articles, where the book links them, and a graph", "publisher and designer: page numbers, ids, the footer, smaller type, Crown Quarto; A2; A5 footnotes and QR codes", "ruv.sgit and designer: T4, experiments in the chapters, page 8's animation first", "conductor: A1, other agents on the team, a study when you have finished the review"]}
+ ],
+ "for_you": [
+  {"id": "next", "ask": "Keep going: the next batches go straight to the members", "options": ["More to come"]}
+ ],
+ "next": ["02:02: the conductor's wake; every member back to every two hours while it has work"],
+ "sources": ["briefs/2026-10-31__rc1-paper-review/", "team/conductor/rc1/editor-review/notes.json", "book.json Q6", "team/conductor/WAKE.md (Cadence)"]
+}

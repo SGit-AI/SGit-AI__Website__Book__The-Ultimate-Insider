@@ -1,10 +1,14 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "conductor",
- "as_of": "2026-10-31T00:05:00Z",
+ "as_of": "2026-10-31T01:40:00Z",
  "round": 1,
- "state": "the editor's voice memo filed as his brief; the name and structure study routed (the storyteller leads); the team on day hours",
+ "state": "the editor's RC1 paper review coming in batches (four so far, pages 1 to 9), captured, mapped and routed; Q6 amended: round the clock while there is work",
  "done": [
+  {
+   "what": "RC1 review batches 1 to 4 captured and mapped; Q6 amended (nights back, full wakes); the review routed to six members; brief 11",
+   "evidence": "team/conductor/rc1/editor-review/notes.json"
+  },
   {
    "what": "the editor's voice memo as a brief; the name and structure study routed to four members; brief 10",
    "evidence": "briefs/2026-10-30__in-session/02-the-centre-of-gravity.md"
@@ -196,7 +200,7 @@
  ],
  "task": {
   "id": "trig_01BmE8oGh2UyxmLwR4vrMexU",
-  "cron": "CRON_TZ=Europe/London 2 8-22/2 * * *",
+  "cron": "CRON_TZ=Europe/London 2 */2 * * *",
   "session": "session_01Kw9UwD2NrD3Mh35Wg7DK1n",
   "created": "2026-10-30T11:44:04Z",
   "by": "conductor, at the editor's word in its session",
@@ -219,6 +223,6 @@
    "C10b"
   ]
  },
- "updated": "2026-10-31T00:05:00Z",
+ "updated": "2026-10-31T01:40:00Z",
  "cadence": "active"
 }

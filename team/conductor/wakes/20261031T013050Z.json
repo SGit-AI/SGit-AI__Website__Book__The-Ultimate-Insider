@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "editor's request",
+ "started": "2026-10-31T01:30:50Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "1. Q6 amended in his batch-4 words: active members every two hours round the clock, idle twice a day, each wake uses its full time (up to 45 minutes, never over an hour) to clear its backlog; WAKE.md's Cadence section, schedule.json, the conductor's own task, a letter to every member to change its own. 2. The review so far routed by comms mail: storyteller (T1 to T7, A6), researcher (A4), publisher and designer (layout, A2, A5), ruv.sgit and designer (T4); the batches released to dev with this wake. 3. status.json and brief 11; gate; push to dev.",
+   "at": "2026-10-31T01:31:19Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "In scope; only the conductor's own task changed, members asked by letter. Conditions: quote his batch-4 words in the Q6 amendment, no signature claimed beyond them; brief 11 a new file; letters in role, no secret; keep the usage hold and the 45-minute cap. Risk for the editor: round-the-clock active wakes spend his usage faster.",
+   "at": "2026-10-31T01:32:09Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

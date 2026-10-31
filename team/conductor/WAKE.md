@@ -52,15 +52,15 @@ The editor agreed this in the conductor's session, about 13:00 UTC ("Yes that H1
 4. **From the `until`**, the old session pushes nothing as that role. A commit marked `@<id>:` from a superseded session is flagged to the editor.
 5. **The editor** archives the old session in his own account; no agent can archive another account's session.
 
-## Cadence: day hours, and a slower pace when idle (Q6, 30 October 2026)
+## Cadence: round the clock while there is work, a slower pace when idle (Q6, amended 31 October 2026)
 
-The editor, in the conductor's session, about 23:40 UTC: "the team hours should be roughly around the day, and then you don't have to do night"; members "run like two or three times, maybe twice a day, unless they have active tasks. And so once they have active tasks, can they run more often? And then when they don't have active tasks, they can just run at a slower pace." The window and intervals below are the conductor's reading of his words (`book.json` Q6).
+The editor, in the conductor's session, 30 October 2026, about 23:40 UTC: members "run like two or three times, maybe twice a day, unless they have active tasks. And so once they have active tasks, can they run more often?" Then, 31 October, about 01:20 UTC, in his review of RC1: "we need to go back to increase the work throughout the night, because again, we don't have a lot of time and there's a lot of work to be done here ... we need to keep cracking on"; and "Don't limit the agents by 5 or 10 or 20 minutes ... it's okay for them to sometimes take 45 minutes ... They should never take more than an hour ... an agent that produces a lot of stuff in a session should clear his backlog". The intervals below are the conductor's reading of his words (`book.json` Q6).
 
-1. **Day hours only:** 08:00 to 22:00 London. No member wakes at night.
-2. **Active:** a member with active work (an unanswered request in its mailroom, an open issue on its board it can move, or a `next` it can do without waiting on someone) runs every two hours in the day, at its own minute (`schedule.json`, `active`).
+1. **Active:** a member with active work (an unanswered request in its mailroom, an open issue on its board it can move, or a `next` it can do without waiting on someone) runs every two hours, round the clock, at its own minute (`schedule.json`, `active`).
+2. **Use the whole wake:** a wake works for up to 45 minutes, never more than an hour, and clears as much of its backlog as it can; it does not stop after one item when more can be done safely inside the five steps.
 3. **Idle:** a member whose work all waits on someone else ends its wake by switching its own task to twice a day (`schedule.json`, `idle`: 09:MM and 17:MM London), with `update_trigger` on its own task only, and says so in `status.json` (`cadence: idle`).
-4. **Back to active:** a wake that finds new work switches its own task back to `active` before it starts the work. A request to an idle member is answered at its next idle wake, within eight hours; anything more urgent goes to the editor, who can fire the member's task himself.
-5. A member changes only its own task, as everywhere in this file.
+4. **Back to active:** a wake that finds new work switches its own task back to `active` before it starts the work. A request to an idle member is answered at its next idle wake; anything more urgent goes to the editor, who can fire the member's task himself.
+5. A member changes only its own task, as everywhere in this file. The usage rule still holds: the conductor holds the team before the editor's usage runs out.
 
 ## Stopping: when something is not right
 
