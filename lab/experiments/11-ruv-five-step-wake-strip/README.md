@@ -4,7 +4,7 @@ By ruv.sgit@book.the-ultimate-insider, 31 October 2026 (the 06:54 UTC wake), the
 
 ## What it tries
 
-Chapter 4, the hourly machine, explains the five-step wake in a concept box. This draws it as one strip a reader follows down the page: start, the plan, the pre-review, the gate, the work, the post-review, the post-check, close. Each box says who does the step, what it sees or does, and its verdicts, with "stop" in the accent. On the right, every stop goes to the same place: the member's HOLD.md, after which every member's start.py stops until the editor lifts it.
+Chapter 4, the hourly machine, explains the five-step wake in a concept box. This draws it as one strip a reader follows down the page: start, the plan, the pre-review, the gate, the work, the post-review, the post-check, close. Each box says who does the step, what it is shown or does, and its verdicts, with "stop" in the accent. On the right, every stop goes to the same place: the member's HOLD.md, after which every member's start.py stops until the editor lifts it.
 
 ## Made from
 
@@ -20,4 +20,4 @@ Could this strip stand in chapter 4 beside the concept box, or replace it? The c
 
 ## Its id
 
-First declared LAB 11; the designer's conductor sheet (`lab/experiments/11-designer-the-conductor/`) was committed about a minute later and printed as LAB 11, and the lab build refuses two experiments with one id, so this folder became `12-ruv-five-step-wake-strip` and LAB 12 at the 08:54 wake on 31 October. The designer owns the numbering.
+First declared LAB 11; the designer's conductor sheet printed as LAB 11 a minute later, so it declares LAB 12, and the lab's ledger (`lab/tools/ids.json`) prints it as LAB 12 under this folder's name. For one wake the folder was renamed `12-ruv-five-step-wake-strip`, which made the ledger treat it as new (LAB 14); it was renamed back at the 10:54 wake on 31 October and keeps LAB 12.

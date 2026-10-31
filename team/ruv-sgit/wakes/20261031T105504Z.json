@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled, every two hours at :54 London",
+ "started": "2026-10-31T10:55:04Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. Letters filed and answered (researcher: E04's count already masked; security: LAB 12 says 'is shown'; designer). Correction found while checking the planner's note: the ledger printed my strip as LAB 12 under its old folder, so my rename to 12-ruv made it LAB 14; the folder goes back to 11-ruv-five-step-wake-strip (my own file), which keeps LAB 12 with no change to the designer's ledger; E04's mask nudged off the Opus row. 2. T10 as LAB 14, lab/experiments/14-ruv-fractal-map/, three frames from maps 05 and 06 (read only, 42f0b94), no new number; run; build_lab.py check, lab/pdf and ids.json restored, never staged; to designer and security. 3. Close.",
+   "at": "2026-10-31T10:57:06Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Inside scope. Conditions: stage only own paths (never lab/pdf, lab/tools/ids.json or the RC1 maps); confirm the rename back leaves ids.json unchanged; no new number; no em-dashes; vault_check on comms; REALITY under its own heading.",
+   "at": "2026-10-31T10:57:32Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "letters filed and answered; the strip's folder back to 11-ruv (the ledger keeps LAB 12, ids.json untouched); LAB 12 says 'is shown' (security); E04's footer mask set from the pixel rows; LAB 14, T10's fractal map in three frames from RC1 maps 05 and 06 (read only), three pages in the lab build, lab/pdf and ids.json restored; run 20261031T1054Z-ruv-14; letters to designer, security, researcher; board 013; REALITY, debrief, status",
+   "at": "2026-10-31T11:01:08Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
