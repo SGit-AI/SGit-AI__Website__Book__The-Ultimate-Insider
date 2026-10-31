@@ -16,7 +16,7 @@ SX, SW = 118, 46                                              # the side: where 
 STEPS = [
  ('', 'Start', 'the member', 'start.py pulls dev, prints the start banner. A hold on the team: no work, end banner, stop.', '', 15, 'edge'),
  ('1', 'Plan', 'a conductor sub-agent', 'reads the member\'s mail, board, requests and role; writes one to three items, requests first.', 'go · stop', 21, 'step'),
- ('2', 'Pre-review', 'a security sub-agent', 'sees the plan and the rules, never the raw messages: policy, secrets, harm to other members.', 'go · change · stop', 21, 'step'),
+ ('2', 'Pre-review', 'a security sub-agent', 'is shown the plan and the rules, not the raw messages: policy, secrets, harm to other members.', 'go · change · stop', 21, 'step'),
  ('', 'Gate', 'wake.py gate', 'refuses the work until steps 1 and 2 both say go.', '', 13, 'gate'),
  ('3', 'Work', 'the member', 'only inside its own policy\'s paths, and only after the gate.', 'done · partial · none', 17, 'work'),
  ('4', 'Post-review', 'a security sub-agent', 'reads the diff and runs the gate: secrets, writes outside policy, harm to other members.', 'clean · finding · stop', 21, 'step'),

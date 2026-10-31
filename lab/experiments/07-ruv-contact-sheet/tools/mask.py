@@ -23,7 +23,7 @@ EDITS = {
    ('mask', (56, 1326, 1184, 1414), 'the same projection, "4 rows go dark, 8 stay lit"')],
  'studio-lab-e04-t50.png': [
    ('mask', (1976, 662, 2526, 1026), 'C090: the losses of four cases the talk team did not check at source (Antigravity, Codex, OpenClaw, Meta)'),
-   ('mask', (48, 1288, 2330, 1363), 'the frame\'s own count of its cases, not in the register')],
+   ('mask', (48, 1304, 2330, 1361), 'the frame\'s own count of its cases, not in the register')],
  'studio-lab-e03-t48.png': [('blank', (1520, 360, 2560, 1400), 'security: the ring only, not the side panel\'s per-source detail')],
 }
 KEEP = ['studio-lab-e01-t48.png', 'studio-lab-e14-t52.png', 'studio-lab-e06-t50.png', 'studio-lab-e08-t48.png',
