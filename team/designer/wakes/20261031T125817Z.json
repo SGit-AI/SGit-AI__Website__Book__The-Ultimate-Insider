@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1. LAB 14 verdict by letter (designer__032). 2. conductor__015: issue 017 (the twelve figure notes mapped, three new, waits on NS1), designer__031. 3. mapnotes.py (RC1 map JSON and wardley.py read only), its build hook, LAB 17, components README; PDF 41 pages; issue 013; status, debrief, REALITY.md.",
    "at": "2026-10-31T13:02:50Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Build and gate clean; agents check 0 outside scope; vault_check comms clean; nothing under team/conductor/, briefs/, ./version or ruv's folders; no em-dashes, keys, contact details or directives; mapnotes.py only loads wardley.py's geometry, opens no file, no network, no writes.",
+   "at": "2026-10-31T13:04:08Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "1 LAB 14 verdict (032); 2 issue 017 and 031; 3 mapnotes.py, LAB 17, README, PDF, records (d965985). Conditions kept. Nothing unplanned.",
+   "at": "2026-10-31T13:04:08Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-31T13:04:08Z",
+ "outcome": "ok"
 }
