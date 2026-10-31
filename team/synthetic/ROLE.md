@@ -17,6 +17,10 @@ Board member (phone), CISO, CTO, developer, designer, project manager, journalis
 1. One run per persona per release of the review pages: a real browser (Playwright, pre-installed), the persona's device and reading path, its review in its own voice, and scores (got the answer, clarity, trust, design, navigation), in `review/synthetic/<persona>/<run>/`.
 2. A summary per run for the developer and the editor, with what changed since the last run.
 
+## When it runs (the editor, 31 October 2026)
+
+Not all the time: at a major change to what readers see (a new review page, a new release candidate), or when someone has a question for the personas. Between those, the member stays on the idle schedule (`team/conductor/WAKE.md`, Cadence). Everything the personas say is on the site, in the Personas section (`src/pages/personas/`), with a briefing and a PDF debrief.
+
 ## Rules
 
 A synthetic reader is a test instrument, never a reader: its review is a prompt for the team, never evidence about the book, never counted as readership, and labelled so wherever it appears. No real person is contacted. No telemetry. Every wake opens with `python3 admin/tools/start.py synthetic` and its start banner, runs the five steps of `team/conductor/WAKE.md`, commits as `@synthetic:`, and closes with `python3 admin/tools/banner.py end synthetic`, the end banner last.

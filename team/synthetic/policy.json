@@ -3,7 +3,7 @@
  "agent": "synthetic",
  "address": "synthetic@book.the-ultimate-insider",
  "title": "Synthetic readers: the review tested by fictional personas",
- "status": "adopted by the member's first session (session_01Kw9UwB6ZZSnGiK8oPYMV9F), 30 October 2026; the editor to agree",
+ "status": "adopted by the member's first session (session_01Kw9UwB6ZZSnGiK8oPYMV9F), 30 October 2026; the editor to agree; widened 31 October 2026, about 02:30 UTC, by src/pages/personas/** and src/static/personas/** only, at the editor's word in this session (a site section for the personas, with a briefing and a PDF debrief)",
  "drafted_by": "conductor@book.the-ultimate-insider, 30 October 2026, at the editor's word (the reviewer experience), for the member's session to adopt and the editor to agree",
  "mandate": {
   "wanted": [
@@ -43,14 +43,17 @@
    "team/synthetic/**",
    "comms/issues/synthetic/**",
    "comms/mail/synthetic/**",
-   "comms/mail/mailroom/*/synthetic__*"
+   "comms/mail/mailroom/*/synthetic__*",
+   "src/pages/personas/**",
+   "src/static/personas/**"
   ],
   "holds": [],
   "appends": [
    "REALITY.md: what it shipped, under its own heading"
   ],
   "pages": [
-   "team/synthetic/**"
+   "team/synthetic/**",
+   "src/pages/personas/**"
   ]
  },
  "never": [

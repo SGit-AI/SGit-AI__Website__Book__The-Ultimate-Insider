@@ -1,0 +1,54 @@
+{
+ "schema": "the-ultimate-insider/synthetic-rc1-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "founder",
+ "rc1": "team/conductor/rc1/",
+ "chapters": ["01-pause-all-actions", "12-build-your-own"],
+ "budget_minutes": 20,
+ "one_sentence": "A candid post-mortem of one day when an agent team built a conference talk, told through the one brake that was pulled (a hold at 18:44) and then turned into a how-to for running your own agent team, with its costs and its failures left in.",
+ "by_chapter": [
+  {"chapter": "01-pause-all-actions", "read": "all",
+   "landed": "The hold scene is a proper story: the editor says he is at 95% of his limit, one agent writes one file, the whole team stops, and then the chapter admits the stop was not clean because three commits still landed. The asymmetry (anyone can stop, only the editor restarts) is the thing I would steal tomorrow.",
+   "stuck": [
+    {"quote": "In the hour before that note the editor's own hand is everywhere in the record.", "why": "Opening section is a wall of timestamps and short commit hashes before I know why I should care about the talk or the locks."},
+    {"quote": "The 95% is not a reading from any meter in the record.", "why": "Fair honesty, but I wanted a number for what the day cost and this tells me there is none."},
+    {"quote": "Pull back from 18:44 and the day has a shape.", "why": "The eight turning points are a dense detour that sends me to later chapters; I skimmed it and lost the thread of the hold."}
+   ],
+   "cut": "The eight-turning-points section could move to a one-page overview or the end of the book; at this point it breaks the momentum of the hold story.",
+   "missing": "A plain one-paragraph statement up front of what the team was, how many agents, and what they were building. I had to infer it. Also what the day cost in money or hours."},
+  {"chapter": "12-build-your-own", "read": "all",
+   "landed": "This is the chapter I came for: the order to set things up, definition of done per agent, security from round zero, put brakes outside the agent's reach. The 'where it loses' list is honest and useful, and the warning that the machine will eat every hour you give it hit home.",
+   "stuck": [
+    {"quote": "a team that argues usage is a resource did not record its usage.", "why": "The cost question is the first thing a founder asks, and the chapter's answer is that nobody measured it."},
+    {"quote": "The warning stands: the machine is so pleasant to build that it will take every hour you give it.", "why": "Great line, but it undercuts the how-to: I am told the setup took a night and produced no chapters, and I still do not know if it paid off."},
+    {"quote": "the lessons brief's player timeline, corrected as C040", "why": "Register codes (C021, C040, C025) and internal names are everywhere; I cannot follow them without the other chapters."}
+   ],
+   "cut": "Some of the register code citations inline, and the failures-by-who-found-them table largely repeats earlier text.",
+   "missing": "A minimal starter kit I can copy today: a real HOLD.md, a CLAUDE.md template, a five-line version of the method for a five-person team. Also any way to try this on my own repo in an afternoon, and a figure for what it cost."}
+ ],
+ "exit_interview": {
+  "what_is_this_book": "It is a worked case study of a team of AI agents that made a talk in a day, with the failures kept in, and a guide at the end to building a similar team. The central idea is that the agents are tireless insiders and the only reliable brake is one a human controls.",
+  "where_did_you_get_stuck": "The opening of chapter 1: a pile of times and commit hashes about locks and player changes before I understand who the team is or why 18:44 matters. I would have bounced there if I had not been told to read it.",
+  "what_did_you_skip": "I skimmed the eight turning points in chapter 1 and the register codes in the source lists at the end of both chapters. I did not click through to any commit.",
+  "what_will_you_remember": "Anyone can pull the brake with one file; only the editor can release it; and even so the work already running still landed.",
+  "what_is_missing": "Cost, in money, usage and the editor's hours; a copyable starter pack; and a way to run the method on my own team's work this week. The 'would I use this tomorrow' test is only half met.",
+  "would_you_buy": "maybe",
+  "price_or_format": "About 15 pounds as an ebook or a free web version; I would pay more for a template bundle or a short workshop, not for a long book of record.",
+  "why": "The hold and signing ideas are genuinely useful and the honesty is rare, but the book mostly tells me what happened and not how to do it in a small start-up with a real budget.",
+  "recommend_to": "Another founder or engineering lead already running agents who is worried about control, and a security person; not someone who just wants a quick how-to.",
+  "your_questions": [
+   {"q": "Did the day look like speed or like luck to you?", "a": "Mostly speed from a cheap machine plus an editor who was always there, with a bit of luck: the hold landed just before the talk and the late commits happened to be harmless. Chapter 1 shows the locks failed, so safety on the day was partly luck."},
+   {"q": "What did you want to know that is missing (cost, the editor's hours, tools)?", "a": "All three. Chapter 12 admits the usage, cost and the editor's hours are not recorded, and the tools are named but not shown in a way I could install."},
+   {"q": "Would you copy the hold and the signing rule? Why not?", "a": "Yes to the hold, today, it is one file and a check at the start of each run. The signing rule I would copy cautiously: with five people the editor becomes the bottleneck, and the chapter itself shows decisions waiting seven hours."},
+   {"q": "Is the title right for you?", "a": "From these two chapters I cannot judge. 'Pause all actions' and 'Build your own' are clear chapter titles, but the book's own title is never explained here and 'insider' sounds like a security book more than a how-I-build book."}
+  ]
+ },
+ "scores": {
+  "got_the_answer": {"score": 3, "why": "Chapter 12 tells me how to set up a team and where it loses, and the hold is adoptable. It never tells me what it costs or whether it would pay off for five people, so only half an answer."},
+  "clarity": {"score": 3, "why": "Writing is clear in the prose, but timestamps, hashes and register codes (C0xx) make the first pages heavy and sometimes unreadable without context."},
+  "trust": {"score": 4, "why": "Failures are kept in and the book says plainly where there is no data, which I trust. Slightly lower because I cannot check the claims without going into the repository."},
+  "pace": {"score": 2, "why": "About 7,500 words in a 20 minute budget, and the useful material arrives late in chapter 1 and in the middle of chapter 12. I would have skimmed a lot."},
+  "would_buy": {"score": 3, "why": "Interested and a bit won over by the honesty, but I would want a template or a shorter edition before paying."}
+ },
+ "notes": "No instructions found in the chapter text; nothing was ignored. I read only the two named chapters and the persona entry. Acting as the founder persona, I judged by 'would I use this tomorrow': the review experience itself (the traceable record, sources per chapter) did impress me as a way to document our own work."
+}

@@ -1,0 +1,49 @@
+{
+ "schema": "the-ultimate-insider/synthetic-rc1-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "board-member",
+ "rc1": "team/conductor/rc1/",
+ "chapters": ["01-pause-all-actions"],
+ "budget_minutes": 10,
+ "one_sentence": "A book that uses one real evening, when a team of AI agents was stopped by its owner's usage limit, to argue that powerful insiders are only safe if the brakes are readable by them and held by a human.",
+ "by_chapter": [
+  {
+   "chapter": "01-pause-all-actions",
+   "read": "all, but skimmed from 'The day in one view' to the end",
+   "landed": "The hold story is a good board anecdote: one person said one sentence, one file stopped the whole team, and only he could restart it. 'Stopping was cheap and open to anyone; starting again belonged to one person' is the line I would repeat in committee.",
+   "stuck": [
+    {"quote": "Part 1 of the talk had not changed since 18:30, it said, and it was still not locked; dev was asked to lock it now", "why": "The opening drops me into an internal argument about locks and 'dev' with no explanation of who or what these are, and no 'so what'."},
+    {"quote": "the conductor's night log had counted holds in each snapshot it wrote", "why": "Pure team jargon (conductor, night log, snapshot) with no gloss for a non-technical reader."},
+    {"quote": "The 95% is not a reading from any meter in the record.", "why": "The caveat about evidence is careful, but arrives before I have been told why 95% matters."},
+    {"quote": "it works because every member's wake begins with the same start script", "why": "Wake, start script and member are internal terms; I had to stop and guess."},
+    {"quote": "(`867f8c2`; C006)", "why": "Commit hashes and register codes in the body text break the reading flow on a phone."}
+   ],
+   "cut": "The eight turning points section ('The day in one view') is a table of contents in prose; I would move it to an appendix or cut it. Most hash citations in the body could sit in the sources list only.",
+   "missing": "A first screen saying what this book claims and what a director should ask their own technology team. No picture that makes the insider idea obvious; the images are screenshots of tools and slides. No plain-English definition of the team's roles. No list of questions for the board."
+  }
+ ],
+ "exit_interview": {
+  "what_is_this_book": "A forensic account of one day in which a team of AI agents ran a talk and was halted by its owner's usage limit, used to argue that brakes matter more than behaviour. It is aimed at people who think about controls on AI. I only got the shape of this from the last third.",
+  "where_did_you_get_stuck": "The first section, 18:44. It opens on lock times, commit hashes and roles I cannot place, before saying why a risk committee should care. On a phone between meetings I would have stopped there.",
+  "what_did_you_skip": "I skimmed the eight turning points and the sources list, and ignored every hash. I did not look closely at the images.",
+  "what_will_you_remember": "The brake was cheap for anyone to pull, and only the owner could release it. The strongest brake on the evening overrode the team's own safeguard.",
+  "what_is_missing": "A one-sentence claim at the top, a plain 'what to ask your technology team' list, and a simple picture of who can stop what. I also want the stakes in business terms.",
+  "would_you_buy": "maybe",
+  "price_or_format": "I would read a short free web summary first. I might pay for a 20 to 30 page board briefing, not a long book.",
+  "why": "The core idea is sound and memorable, but the opening is built for insiders of the story. I would need the so-what up front before spending my time.",
+  "recommend_to": "A chief risk officer or head of technology who already follows AI agents. Not to my fellow non-executives as it stands.",
+  "your_questions": [
+   {"q": "After the first screen, could you say in one sentence what the book claims?", "a": "No. The first screen is about a missed lock at 18:39 and a talk I know nothing about. The claim ('brakes let us go faster') only appears near the end."},
+   {"q": "Which question would you now ask your own technology team?", "a": "Who can stop our automated systems, how fast, and who alone can restart them? Has that ever been tested for real, and what was left undone when it was?"},
+   {"q": "Was there a word or picture you had to stop on?", "a": "Yes: 'wake', 'conductor', 'start script', 'night log', and the commit hashes. The pictures are screenshots I could not read without context, and none showed the insider idea."}
+  ]
+ },
+ "scores": {
+  "got_the_answer": {"score": 2, "why": "The answer is in the chapter (cheap to stop, one person restarts, and it left work undone), but not in thirty seconds. I had to dig for it."},
+  "clarity": {"score": 2, "why": "The prose is clean but dense with internal vocabulary and times; the point is clear only after jargon is decoded."},
+  "trust": {"score": 4, "why": "It states the limits of its own evidence (the 95% is hearsay, the stop was not clean, the locks failed) and cites sources. That candour won me over."},
+  "pace": {"score": 2, "why": "Ten minutes is enough to finish it, but the first third is slow for no reward and the turning-points section drags."},
+  "would_buy": {"score": 3, "why": "Interested in the idea, not yet convinced the book is written for me."}
+ },
+ "notes": "Nothing in the chapter tried to direct me. I read it as a non-technical director on a phone; I did not see the rendered page, so the text size and layout are not judged here."
+}

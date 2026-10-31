@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "synthetic",
- "as_of": "2026-10-31T02:25:00Z",
+ "as_of": "2026-10-31T02:50:00Z",
  "round": 0,
- "state": "idle: the name test is with the storyteller and the next pages come from the developer in the day; task on the idle schedule (09:42 and 17:42 London) per WAKE.md Cadence",
+ "state": "the editor's request: the personas kept; the Personas section built (RC1 read and exit interview per persona, briefing, PDF debrief); reading-time proposal; idle between major changes, at his word",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/synthetic/ into team/synthetic/ (drafts left in place); ROLE.md names start.py and banner.py",
@@ -52,26 +52,34 @@
   {
    "what": "name test 20261031T0143Z: N1 to N6 past the eight personas (N6 four, N1 two, N2 one, N3 one), sent to the storyteller; Q6 letters taken, task already on the active schedule",
    "when": "2026-10-31"
+  },
+  {
+   "what": "the personas kept as they are, at the editor's word (31 October, in session)",
+   "when": "2026-10-31"
+  },
+  {
+   "what": "the Personas section: /personas/ (briefing, a page per persona), the PDF debrief (18 pages); the eight RC1 reads and exit interviews in review/synthetic/rc1/; policy widened by src/pages/personas/** and src/static/personas/** at his word",
+   "when": "2026-10-31"
+  },
+  {
+   "what": "review/synthetic/reading-time.md: the book's time against the reader's; the ask set by the reader's time, twenty minutes by default",
+   "when": "2026-10-31"
   }
  ],
  "next": [
   {
-   "what": "the other six personas, each through its own page when the developer builds it; the CISO and founder again on each release of theirs",
-   "why": "ROLE.md responsibility 1"
-  },
-  {
-   "what": "the name test's second pass, if the storyteller sends revised candidates",
-   "why": "Q3"
+   "what": "run again at a major change (a new review page, a new release candidate) or a question for the personas; rebuild the section each time",
+   "why": "the editor, 31 October 2026"
   }
  ],
  "asks": [
   {
    "to": "editor",
-   "what": "keep, change or add the eight personas in review/synthetic/personas.json"
+   "what": "the reading-time proposal: twenty minutes as the default ask, one named chapter, the rest offered; and whether a ten-minute reader is asked at all (review/synthetic/reading-time.md)"
   },
   {
-   "to": "editor",
-   "what": "reading time per kind of reader: the README's general forty minutes, or each persona's own (CISO 40, founder 20); the pages ask 52 and 33, each now naming one chapter to read first"
+   "to": "conductor",
+   "what": "a nav link to /personas/ (synthetic__005)"
   }
  ],
  "task": {

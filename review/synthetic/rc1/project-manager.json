@@ -1,0 +1,62 @@
+{
+ "schema": "the-ultimate-insider/synthetic-rc1-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "project-manager",
+ "rc1": "team/conductor/rc1/",
+ "chapters": ["04-the-hourly-machine", "06-the-editor-signs", "12-build-your-own"],
+ "budget_minutes": 30,
+ "one_sentence": "A candid, evidence-heavy account of a day in which one person ran a team of AI agents on an hourly clock with written reviews, and of what that did and did not protect against.",
+ "by_chapter": [
+  {"chapter": "04-the-hourly-machine", "read": "all",
+   "landed": "The five steps are described clearly enough that I could draw them on a whiteboard, and the admission that the reviewer was a sub-agent inside the member's own session is the most useful honesty in the book. The numbers (162 wakes, 160 complete, no step ever said stop) tell me what the process really did.",
+   "stuck": [
+    {"quote": "a plan, a review of the plan, the work, a review of the work, a check against the plan", "why": "I wanted this as a numbered list with an owner and a time per step, and the chapter does not give one in one place."},
+    {"quote": "the work step's limit was raised from a few minutes to most of an hour", "why": "Vague on durations; I need actual minutes to plan a rota around."},
+    {"quote": "`team/researcher/wakes/20261029T041003Z.json`, history", "why": "Commit hashes and file paths in the body slow a non-technical skim; I cannot tell which I must open."}
+   ],
+   "cut": "The night's token-leak narrative could be halved; I got the point after the second instance. The commit hash strings inside paragraphs could move to the end list.",
+   "missing": "A one-page summary of the wake: who does what, how long each step takes, what a 'change' verdict costs in time. Nothing on what a person on shift would actually have to do, or how many people it takes."},
+  {"chapter": "06-the-editor-signs", "read": "all",
+   "landed": "This is the chapter closest to my world: a single approver as the bottleneck, and decisions still open at the deadline. 'Nobody speaks for the editor' and the studio session refusing a relayed signature are concrete and credible. The list of what waited on him is the most recognisable delivery risk.",
+   "stuck": [
+    {"quote": "A signature was his words in a member's own session, quoted into the file they settled.", "why": "I could not tell how this would work for an approver who is not in the session; no turnaround time is ever given."},
+    {"quote": "list the open decisions at every wake, and ask for them once a day, not every hour", "why": "Good advice, but no one is named as the owner and there is no 'what we ask, by when' for the editor in the book itself."},
+    {"quote": "The team told him what it could not do as plainly as it told him what it had done.", "why": "Nice, but I want to know whether he knew his comments were received; the book never shows an acknowledgement loop."}
+   ],
+   "cut": "The count-of-ten digression could be a footnote; it is bookkeeping about the brief, not about signing.",
+   "missing": "How long decisions actually took from request to answer (a median, a worst case). Who deputises when the signer is away, other than waiting."},
+  {"chapter": "12-build-your-own", "read": "all",
+   "landed": "The most usable chapter: what you need first, the order of setup, the definition-of-done rule, and an honest 'where it loses' list. The admission that the talk's cost was never recorded is the kind of thing I would trust a source for. The 'start the first chapter while the registers grow' warning is a real project risk named plainly.",
+   "stuck": [
+    {"quote": "A person who decides, with time to do it.", "why": "Right instinct but no estimate of the hours per day this person needs; that is my first planning question."},
+    {"quote": "the editor's one reading on its first night is in `book.json` as his word (Q2), not in the register", "why": "Unexplained internal references (Q2, U1, P0, C10) make me feel I am missing a legend."},
+    {"quote": "Plan for an hour as the unit of the team's pulse.", "why": "No cost, headcount or calendar estimate to go with it."}
+   ],
+   "cut": "The failures table at the end repeats earlier chapters; fine for a reader who skipped them, but it is long for what it adds.",
+   "missing": "A checklist I can hand to my team with owners and dates, a rough budget range, and a staffing view for a public-sector setting (who signs when the signer is a committee or needs procurement or legal sign-off)."}
+ ],
+ "exit_interview": {
+  "what_is_this_book": "A case study of one day when an editor ran a team of AI agents on hourly wakes with reviews and a single human signer. It argues that the team behaved like a benign insider and that its brakes were mostly expectations, not boundaries.",
+  "where_did_you_get_stuck": "Chapter 12 asks for a person who decides 'with time to do it' and never says how much time or how fast; as a delivery manager I cannot plan or price the method without that.",
+  "what_did_you_skip": "I skimmed the 'Where this came from' lists and the commit hashes in the body, and the detailed token-redaction timeline in chapter 4 after the second example.",
+  "what_will_you_remember": "No step said stop in 162 wakes: a review that has never said stop has not been shown to be able to.",
+  "what_is_missing": "A plain 'what we ask of you, by when' for a team lead; timings and owners for each step; how a comment or decision is acknowledged; a public-sector angle on who signs and how long approvals take; any cost figure.",
+  "would_you_buy": "maybe",
+  "price_or_format": "A short paid PDF or a printed guide at modest price; I would want a one-page checklist and a worked rota more than the full history. Free online I would read the three chapters again.",
+  "why": "It is honest and the failures are credible, so I trust it, but it is a record of one team's day more than a manual my team could follow on Monday.",
+  "recommend_to": "A programme or delivery lead who is already experimenting with agent teams and wants to know where the process breaks, not a first-time reader.",
+  "your_questions": [
+   {"q": "Could your team run the five steps of a wake? What would they skip?", "a": "We could run the five steps if each had an owner and a time box; the plan and the post-check are familiar. We would skip the independent review first, or let the same person do it, which is exactly the weakness the book names. The chapter does not tell me how many minutes each step takes."},
+   {"q": "Who signs, in your world, and how long does it take?", "a": "A senior responsible owner or a board, and it usually takes days to weeks, not minutes. The book's single quick signer is a luxury I would not have, and it gives no typical turnaround to compare against."},
+   {"q": "Where would this break first in your organisation?", "a": "At the signature queue and at the public-by-default rule: our work often cannot be public, and approvals would pile up behind one person, which the book itself says happened at 19:00."}
+  ]
+ },
+ "scores": {
+  "got_the_answer": {"score": 3, "why": "I found where it breaks (signer bottleneck, in-session review, public record) but not whether my team could run it, because timings, owners and effort are missing."},
+  "clarity": {"score": 3, "why": "Prose is clear, but references to commits, register numbers and decision codes interrupt the flow and are not explained for a newcomer."},
+  "trust": {"score": 4, "why": "Failures are kept in and limits stated; the counts are specific. I cannot check them myself."},
+  "pace": {"score": 2, "why": "About 12,500 words across the three chapters is well over what I can read in 30 minutes; I read all of it only by skimming references."},
+  "would_buy": {"score": 3, "why": "Interesting and honest, but I would want a shorter practical version before paying."}
+ },
+ "notes": "No text in the chapters tried to direct me; the quoted instructions ('nobody speaks for the editor', and so on) are part of the story, not addressed to the reader. Deal-breaker check: chapters give times of day for events but no estimate of time needed to adopt the method, and nothing shows how a reader's own comments on the book are received."
+}

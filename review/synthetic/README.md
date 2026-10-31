@@ -10,12 +10,16 @@
 
 - `names/<run>.md` and `.json`: candidate titles tested with the personas, title and subtitle alone; a test, never a choice.
 
+- `rc1/<persona>.json`: each persona's read of its RC1 chapters and its exit interview; `rc1/briefing.md`, what they say together. `reading-time.md`: the proposal on reading time.
+- `tools/build_section.py` and `tools/print_pdf.mjs`: the site's Personas section (`src/pages/personas/`) and its PDF debrief (`src/static/personas/`).
+
 ## Running it
 
 ```
 python3 admin/build/build.py
 node review/synthetic/run.mjs --persona all              # or --persona ciso
 node review/synthetic/run.mjs --persona ciso --path /review/ciso/ --run 20261030T1700Z
+python3 review/synthetic/tools/build_section.py && node review/synthetic/tools/print_pdf.mjs   # the Personas section and its PDF
 ```
 
 Only Chromium is installed in a session: the Firefox and Safari personas run in Chromium with those devices' viewport and user agent, and say so.
