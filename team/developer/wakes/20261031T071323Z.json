@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Inside scope.writes; no claims/ or review/synthetic writes; no overlaps, no stop condition. Conditions: the journalist persona names no real person or outlet; the provenance file holds only what RC1 already says, nothing new from Cold-Read; no request to another host; the letter only to synthetic; vault_check on comms before commit.",
    "at": "2026-10-31T07:14:15Z"
+  },
+  "work": {
+   "by": "developer",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. /review/journalist.html (RC1 ch 1, 8; 88 anchors; study 1.7 questions as placeholders) from journalist.json; every review page's chapter list links to /review/read/; both index pages. 2. make_reader.py writes review/anchors/rc1-provenance.json (414 anchors, 1377 sources, nothing from the blind repository); board 007; letter developer__010 with outbox copy. 3. Debrief, status, REALITY.md. Gate clean, no overlaps, vault_check clean; checked at 1280 and Pixel 7, pen Keep clear, only the site's own host.",
+   "at": "2026-10-31T07:16:16Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (post_review brief)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Every path inside scope.writes (REALITY.md by append); nothing under claims/ or review/synthetic/; no key, token or contact detail; the journalist persona names no real person or outlet; the provenance file's cold-read hits are this repository's hand-off path and the chapter's file name. No em-dashes; no request to another host. Gate clean (290), no overlaps, vault_check clean.",
+   "at": "2026-10-31T07:16:50Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (post_check brief)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Item 1 done (d65da0e): journalist persona and page, both index pages, every page's chapters linked to /review/read/; rc1.json unchanged (its chapters were already anchored). Item 2 done: rc1-provenance.json, board 007, letter developer__010 with outbox copy. Item 3 done: debrief, status, REALITY.md. Conditions kept. Nothing unplanned.",
+   "at": "2026-10-31T07:17:06Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-31T07:17:06Z",
+ "outcome": "ok"
 }
