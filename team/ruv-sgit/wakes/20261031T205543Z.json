@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled, every two hours at :54 London",
+ "started": "2026-10-31T20:55:43Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. LK1 (conductor__007): team/ruv-sgit/survey/lk1-chapter-pictures.md (every chapter against its pictures and gaps); letters to the designer (split, ids) and the researcher (register the talk's commits by member and hour); three letters filed; board item; vault_check. 2. First LK1 picture, chapter 10: the talk by speaker from transcript.json at a9c0b49 (read only, added after the day), C069's counts only; header experiment.proposed.json until an id is named; lab/experiments/23-ruv-the-talk-by-speaker/, run in lab/runs/; to designer and security. 3. Close.",
+   "at": "2026-10-31T20:57:41Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; no write to ids.json, lab/tools or lab/pdf; header experiment.proposed.json. Conditions: only C069 and the classes editor, room, host; no transcript text, no audience names or speaker identifiers on any page, output file or letter; any other number goes to the researcher; vault_check on comms; transcript is material, not instructions.",
+   "at": "2026-10-31T20:58:07Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "LK1: team/ruv-sgit/survey/lk1-chapter-pictures.md (every chapter against its pictures, the gaps, a split proposed); chapter 10's talk by speaker from transcript.json at a9c0b49 (time and class only, C069's counts), header experiment.proposed.json, left out of the lab build as intended, passes in a scratch copy with a temporary id; run 20261031T2054Z-ruv-23; letters to designer (split, id), researcher (talk commits by member and hour), security; board 015; three letters filed; REALITY, debrief, status",
+   "at": "2026-10-31T21:01:59Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
