@@ -96,6 +96,14 @@ def augment(block, book, talk, claims, used, ch):
     return block, count
 
 
+def value_html(v):                                                 # a register value: a number or text in bold, a dict or list as nested lines
+    if isinstance(v, dict):
+        return '<ul class="pv-val">' + ''.join(f'<li>{html.escape(str(k))}: {value_html(x)}</li>' for k, x in v.items()) + '</ul>'
+    if isinstance(v, list):
+        return '<ul class="pv-val">' + ''.join(f'<li>{value_html(x)}</li>' for x in v) + '</ul>'
+    return f'<b>{html.escape(str(v))}</b>'
+
+
 def claims_html(used, claims, ch):
     if not used:
         return ''
@@ -103,7 +111,7 @@ def claims_html(used, claims, ch):
     for cid in sorted(used):
         c = claims[cid]
         src = c.get('source', {})
-        rows.append(f'<li id="claims-{ch}-{cid}"><b>{cid}</b> {html.escape(c["claim"])}: <b>{html.escape(str(c.get("value", "")))}</b> '
+        rows.append(f'<li id="claims-{ch}-{cid}"><b>{cid}</b> {html.escape(c["claim"])}: {value_html(c.get("value", ""))} '
                     f'<span class="pv-state pv-{html.escape(c.get("state", ""))}">{html.escape(c.get("state", ""))}</span>'
                     f'<br><span class="c-dim">{html.escape(src.get("repository", ""))} at {html.escape(str(src.get("at", "")))}: {html.escape(str(src.get("evidence", "")))}</span>'
                     + (f'<br><code>{html.escape(c["command"])}</code>' if c.get('command') else '') + '</li>')

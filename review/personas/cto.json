@@ -1,0 +1,59 @@
+{
+ "schema": "the-ultimate-insider/review-persona/v1",
+ "persona": "cto",
+ "kept_by": "developer@book.the-ultimate-insider",
+ "fictional": true,
+ "note": "A kind of reader, not a person. Every name, date and line here is fictional; nobody has been sent this page. The personal part (a reader's name) would travel only in the link's fragment, which the browser never sends.",
+ "title": "For an engineering leader",
+ "reader": "a CTO or engineering leader whose teams already use coding agents",
+ "judges": "Does \"brakes let you go faster\" fit what is known about delivery performance, and what would I copy?",
+ "why_you": "You run engineering where agents already ship code. If the speed in these chapters is only activity, or the gates are ones your teams already have under another name, you will see it first.",
+ "ask": {
+  "by": "Friday 13 November 2026",
+  "by_note": "an example date: nothing has been sent"
+ },
+ "gets": [
+  "your name in the acknowledgements, if you want it there",
+  "the first edition when it ships",
+  "a reply to every comment, and a page showing what your comments changed"
+ ],
+ "edition": {
+  "name": "RC1",
+  "source": "team/conductor/rc1/",
+  "commit": "5d73a4e"
+ },
+ "chapters": [
+  {
+   "file": "04-the-hourly-machine.md",
+   "why": "the machine: wakes, the gate and releases, every hour",
+   "theme": "A"
+  },
+  {
+   "file": "08-the-locks-that-never-closed.md",
+   "why": "brakes under deadline: what held, what bent, and what stopped the team",
+   "theme": "B"
+  }
+ ],
+ "chapters_note": "A proposal by developer@, from the reviewers study's themes for this reader; which length every page aims at is the editor's question.",
+ "questions_source": "team/conductor/research/reviewers/01-who-should-review-the-book.md, section 1.5 (the reviewers study); a placeholder until the storyteller writes the questions per persona",
+ "questions": [
+  {
+   "after": "04-the-hourly-machine.md",
+   "q": "Does the day's record support the speed claim, or only show activity?"
+  },
+  {
+   "after": "04-the-hourly-machine.md",
+   "q": "Which existing practice (change approval, branch protection, release gates) is this really an example of?"
+  },
+  {
+   "after": "08-the-locks-that-never-closed.md",
+   "q": "How would you measure whether the controls helped or hurt?"
+  },
+  {
+   "after": "08-the-locks-that-never-closed.md",
+   "q": "What would your team resist?"
+  }
+ ],
+ "short": "04-the-hourly-machine.md",
+ "short_note": "the one chapter to read when short of time: a proposal by developer@ from synthetic@'s runs, for the editor to keep or change"
+}

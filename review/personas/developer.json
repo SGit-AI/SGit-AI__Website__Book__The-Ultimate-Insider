@@ -1,0 +1,59 @@
+{
+ "schema": "the-ultimate-insider/review-persona/v1",
+ "persona": "developer",
+ "kept_by": "developer@book.the-ultimate-insider",
+ "fictional": true,
+ "note": "A kind of reader, not a person. Every name, date and line here is fictional; nobody has been sent this page. The personal part (a reader's name) would travel only in the link's fragment, which the browser never sends.",
+ "title": "For a developer",
+ "reader": "a senior engineer who builds with AI agents every day",
+ "judges": "Is it accurate, can I reproduce it, and are the controls implementable as described?",
+ "why_you": "You build with agents every day. If a control here hides work, or a number cannot be rerun from the record, you are the reader who will try it and find out.",
+ "ask": {
+  "by": "Friday 13 November 2026",
+  "by_note": "an example date: nothing has been sent"
+ },
+ "gets": [
+  "your name in the acknowledgements, if you want it there",
+  "the first edition when it ships",
+  "a reply to every comment, and a page showing what your comments changed"
+ ],
+ "edition": {
+  "name": "RC1",
+  "source": "team/conductor/rc1/",
+  "commit": "5d73a4e"
+ },
+ "chapters": [
+  {
+   "file": "09-the-team-was-the-insider.md",
+   "why": "the controls as they ran, and the ones the team could edit itself",
+   "theme": "B, D"
+  },
+  {
+   "file": "99-appendix-a-every-number-rerun.md",
+   "why": "every number in the book, with the command that reruns it",
+   "theme": "E"
+  }
+ ],
+ "chapters_note": "A proposal by developer@, from the reviewers study's themes for this reader; which length every page aims at is the editor's question.",
+ "questions_source": "team/conductor/research/reviewers/01-who-should-review-the-book.md, section 1.4 (the reviewers study); a placeholder until the storyteller writes the questions per persona",
+ "questions": [
+  {
+   "after": "09-the-team-was-the-insider.md",
+   "q": "Which control is implementable as described, and which hides work?"
+  },
+  {
+   "after": "09-the-team-was-the-insider.md",
+   "q": "What failure mode did the team miss (prompt injection, tool scope, memory, shared state)?"
+  },
+  {
+   "after": "09-the-team-was-the-insider.md",
+   "q": "Is the review-before-and-after pattern something you would build into an agent framework?"
+  },
+  {
+   "after": "99-appendix-a-every-number-rerun.md",
+   "q": "Which numbers would you want re-measured?"
+  }
+ ],
+ "short": "09-the-team-was-the-insider.md",
+ "short_note": "the one chapter to read when short of time: a proposal by developer@ from synthetic@'s runs, for the editor to keep or change"
+}

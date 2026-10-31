@@ -49,6 +49,8 @@ a.pv code{color:var(--accent)}
 .pv-claims{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font-size:var(--t-s)}
 .pv-claims li{margin-bottom:10px}
 .pv-claims li:target{background:var(--accent-t)}
+.pv-val{margin:2px 0 4px;padding-left:18px}
+.pv-val li{margin:0}
 .pv-state{font-size:var(--t-xs);text-transform:uppercase;border:1px solid var(--line2);border-radius:999px;padding:0 6px}
 .pv-checked{border-color:var(--accent);color:var(--accent)}
 .pv-corrected{border-color:var(--infra);color:var(--infra)}

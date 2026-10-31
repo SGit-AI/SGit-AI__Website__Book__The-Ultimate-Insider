@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "developer",
- "as_of": "2026-10-31T03:50:00Z",
+ "as_of": "2026-10-31T05:40:00Z",
  "round": 1,
- "state": "seventh wake (scheduled 03:12, round the clock again under the amended Q6): A8's first slice, RC1 augmented, on the site; the sealed note waits on the editor's go",
+ "state": "eighth wake (scheduled 05:12): register values readable in the reader; the CTO's and the developer's pages on the site (four of eight); the sealed note waits on the editor's go",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/developer/ into team/developer/ (drafts left in place; ROLE.md names start.py and banner.py)",
@@ -72,6 +72,14 @@
   {
    "what": "A8, a first slice: /review/read/, every RC1 chapter with 540 commits, file paths and register ids linked where verified (1377 sources), each chapter's numbers listed with their rerun command (board 007, reply developer__008)",
    "when": "2026-10-31"
+  },
+  {
+   "what": "the reader's register values (77 of 86 structured) shown as nested lines (board 007)",
+   "when": "2026-10-31"
+  },
+  {
+   "what": "/review/cto.html (RC1 ch 4, 8; about 37 min) and /review/developer.html (ch 9 and Appendix A; about 26 min), from the reviewers study 1.5 and 1.4; letter developer__009 to synthetic",
+   "when": "2026-10-31"
   }
  ],
  "next": [
@@ -84,7 +92,7 @@
    "why": "ROLE.md responsibility 2; waits on the editor's go"
   },
   {
-   "what": "the other six personas' pages (board member, CTO, developer, designer, project manager, journalist), from persona files",
+   "what": "the other four personas' pages (board member, designer, project manager, journalist); the study covers the journalist (1.7), the other three need their chapters and questions named",
    "why": "ROLE.md responsibility 1; synthetic@ runs each as it lands"
   },
   {
@@ -128,7 +136,9 @@
  "pages": {
   "ciso": "/review/ciso.html",
   "founder": "/review/founder.html",
-  "read": "/review/read/index.html"
+  "read": "/review/read/index.html",
+  "cto": "/review/cto.html",
+  "developer": "/review/developer.html"
  },
  "cadence": "active"
 }
