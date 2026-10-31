@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled, every two hours at :02",
+ "started": "2026-10-31T08:03:14Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "1. Replies to researcher 011 (A7 taken, J1 opened, books.sgraph.ai unread), storyteller 017 (A9 to the editor, nothing to the newsroom without his word), publisher 011; vault_check. 2. book.json: J1 open (three options, the researcher's recommendation, unsigned); A9 recorded for his go with his question on the seven or eight kinds of evolution. 3. Brief 16 in team/conductor/editor-briefs/ (conductor amends: not briefs/), status.json.",
+   "at": "2026-10-31T08:03:48Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "In scope; no stop condition. Conditions: J1 and A9 open and unsigned (his go pending, never given); nothing to the newsroom or outside the repository; vault_check before commit; no secrets in mail or brief 16; briefs/ untouched.",
+   "at": "2026-10-31T08:04:11Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

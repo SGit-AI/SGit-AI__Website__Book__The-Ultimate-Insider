@@ -1,0 +1,42 @@
+{
+ "number": "16",
+ "date": "Saturday 31 October 2026, 08:15 UTC",
+ "kicker": "The conductor brief · 16 · Saturday 31 October 2026 · the morning",
+ "title": "Good morning: what the night made, and everything waiting on you",
+ "when": "08:15 UTC, the conductor's scheduled wake (08:02)",
+ "by": "conductor@book.the-ultimate-insider, key sha256:f2456a147ac54f5f",
+ "headline": "Ten wakes overnight, all closed ok. RC2's structure and name are ready for you (NS1), and so are two new pieces: the study on keeping the book as JSON (J1) and the maps article for the newsroom (A9). The team has gone as far as it can without your choices: the drafting of RC2 starts the wake after you sign NS1.",
+ "stats": [
+  {"n": "4", "label": "review pages (security leader, founder, engineering leader, journalist)"},
+  {"n": "11", "label": "lab experiments (LAB 11: the conductor in detail; chapter 4's wake as one strip)"},
+  {"n": "290", "label": "pages in the team's build, with the designer's image rules"},
+  {"n": "$0.97", "label": "the ebook's royalty a sale at KDP, smaller files"}
+ ],
+ "for_you": [
+  {"group": "First: these unblock RC2"},
+  {"id": "NS1", "ask": "RC2's structure (six parts, the tour first) and name", "options": ["Structure as proposed", "N7 'Agents That Work Together'", "N8 'Brakes So We Can Go Faster'", "Other"], "recommend": "The structure, and N7."},
+  {"id": "J1", "ask": "The book's content as JSON? (A7)", "detail": "Recommended: Markdown stays the source; the build gives every section and figure a stable id and emits a JSON graph. If you meant JSON as the source, say so. books.sgraph.ai could not be read.", "options": ["As recommended", "JSON as the source", "Discuss"], "recommend": "As recommended."},
+  {"id": "P2", "ask": "The print size: Crown Quarto, 0.625 in gutter (you chose it in the designer's session)", "options": ["Confirmed"]},
+  {"group": "Then"},
+  {"id": "A9", "ask": "The maps article (about 1,400 words, your voice): send to the newsroom?", "detail": "And which article shows the seven or eight kinds of evolution you remember? None found in the newsroom; a 2019 deck has four.", "options": ["Send", "Change first (note)", "Not yet"]},
+  {"id": "notes", "ask": "Footnotes at chapter end, or at the foot of the page (needs Leanpub's PDF)?", "options": ["Chapter end", "Foot of the page"]},
+  {"id": "W1", "ask": "May the conductor set members' tasks at your word, as a standing rule?", "options": ["Yes, recorded on dev first", "No", "Emergencies only"], "recommend": "Yes, recorded on dev first."},
+  {"id": "O4", "ask": "Quote your own account of why the team stopped, as yours, dated?", "options": ["Yes", "No"], "recommend": "Yes."},
+  {"id": "X2, R1, R2", "ask": "Vaults and keys: for ruv.sgit's runs, and for reviewers", "options": ["As brief 3 recommended (X2 A, R1 B, R2 B)", "Other"]},
+  {"id": "E1 to E5", "ask": "Your own tasks: the Leanpub book, the price, EPUBCheck, the merge to main, KDP", "options": ["As they come"]}
+ ],
+ "sections": [
+  {"title": "Overnight, by member", "items": [
+   "storyteller: the study (six parts, N7), then the maps article, draft 2",
+   "researcher: the JSON study (J1); wakes by trigger (C087) and commits outside wakes (C088); 41 of your articles catalogued; the exact-title check",
+   "historian: your account beside the record; the day in three phases; the agents' own exchanges",
+   "developer: four review pages; every RC1 chapter online with its sources; the provenance of every paragraph as data",
+   "designer: the first component (a timeline from JSON); the conductor drawn in detail; a visual pass over the 34 oversized images",
+   "ruv.sgit: chapter 4's five-step wake as one vertical strip, the first per-chapter experiment",
+   "publisher: page numbers; the image check; footnotes; the QR test sheet; the ebook under a dollar",
+   "synthetic: the Personas section; the name test",
+   "security: every lab piece reviewed; the 02:20 change in the control register"]}
+ ],
+ "next": ["Your choices, then RC2's drafting; the team keeps its two-hourly pace meanwhile"],
+ "sources": ["book.json", "the letters in comms/mail/mailroom/conductor/", "git log of dev overnight"]
+}
