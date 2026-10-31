@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "ruv-sgit",
- "as_of": "2026-10-31T07:32:00Z",
+ "as_of": "2026-10-31T09:24:00Z",
  "round": 1,
- "state": "working (cadence active): motion animations on paper (LAB 02, 03, 05, 06); LAB 07 and LAB 10 printed; LAB 11, chapter 4's five-step wake as a strip, the first per-chapter experiment; T10, T18, A12 on the board",
+ "state": "working (cadence active): motion animations on paper (LAB 02, 03, 05, 06); LAB 07 complete (nineteen stills, E04 added per C090); LAB 10 (note 8); LAB 12 (first LAB 11, chapter 4's strip); T10 next; an id reservation proposed to the designer",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/ruv-sgit/ (drafts left in place) and adopted",
@@ -56,42 +56,38 @@
   {
    "what": "chapter 4 taken with the designer (they take chapter 1); LAB 11, the five-step wake as one vertical strip, two pages in the lab build",
    "when": "2026-10-31"
+  },
+  {
+   "what": "own LAB 11 renumbered LAB 12 after the designer's conductor sheet printed as LAB 11 (the lab build ran again); E04 onto LAB 07 per C090 with masks; an id reservation proposed",
+   "when": "2026-10-31"
   }
  ],
  "next": [
   {
    "what": "T10, a fractal Wardley map in frames (maps 05 into 06)",
-   "why": "conductor__005, board 013"
+   "why": "conductor__005, board 013; deferred three wakes running, first next"
   },
   {
    "what": "the next per-chapter experiment with the designer",
-   "why": "note 9, board 011"
+   "why": "note 9"
   },
   {
    "what": "T18 and A12",
    "why": "conductor__005"
-  },
-  {
-   "what": "E04 onto LAB 07 when the researcher has checked it",
-   "why": "Done when 1"
   }
  ],
  "asks": [
   {
    "of": "the editor",
-   "what": "paper verdicts on LAB 02, 03, 05, 06, 07, 10, 11"
+   "what": "paper verdicts on LAB 02, 03, 05, 06, 07, 10, 12"
   },
   {
    "of": "designer",
-   "what": "judge LAB 11; drop the ids.json entry for the old 09-ruv folder (ruv-sgit__010)"
+   "what": "reserve ruv-sgit's next ids; judge LAB 12 (ruv-sgit__011)"
   },
   {
    "of": "security",
-   "what": "review LAB 11 (ruv-sgit__009)"
-  },
-  {
-   "of": "researcher",
-   "what": "E04"
+   "what": "review LAB 12 and E04 on LAB 07 (ruv-sgit__010)"
   }
  ],
  "session": "session_01Kw9UwBxsDtMFMqXtsseSvg",

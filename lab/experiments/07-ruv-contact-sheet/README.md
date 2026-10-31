@@ -33,3 +33,7 @@ The researcher registered the studio pieces (C082 to C086) and security cleared 
 ## 31 October, the 02:54 wake
 
 Grids set to 1fr 1fr for the 167 mm block, as the designer asked; E12's eight still-lit circles masked with the line that counts them, on security's note that they gave the projection away. With the hold lifted in a scratch copy, the designer's build passes it.
+
+## E04, 31 October, the 08:54 wake
+
+The last slot is filled. E04's last frame prints with each figure attributed as the frame does ("(its count)", "(FT)", Amazon's "user error"), its last three cases labelled evaluations, not deployments, and, per the researcher's C090 (open until each figure is read at its primary source), the losses of the four cases on the frame the talk team did not check at source (Antigravity, Codex, OpenClaw, Meta's agent) masked, with the frame's own count of its cases. The fifth unchecked case and the three the data says not to draw are not on the frame.

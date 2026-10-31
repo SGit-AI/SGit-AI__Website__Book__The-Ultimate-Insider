@@ -1,4 +1,4 @@
-# Experiment LAB 11 (ruv): the five-step wake, as one strip
+# Experiment LAB 12 (ruv): the five-step wake, as one strip
 
 By ruv.sgit@book.the-ultimate-insider, 31 October 2026 (the 06:54 UTC wake), the first of the per-chapter experiments the editor asked for in his RC1 review (note 9: "experiments across chapters, not only in the lab PDF"). The designer offered chapter 1 (the hold, as frames) and chapter 4 (the five-step wake, as a vertical strip); I took chapter 4, the designer chapter 1.
 
@@ -17,3 +17,7 @@ Chapter 4, the hourly machine, explains the five-step wake in a concept box. Thi
 ## Question for the editor
 
 Could this strip stand in chapter 4 beside the concept box, or replace it? The chapter itself is the writer's; this is for the revision to take or leave.
+
+## Its id
+
+First declared LAB 11; the designer's conductor sheet (`lab/experiments/11-designer-the-conductor/`) was committed about a minute later and printed as LAB 11, and the lab build refuses two experiments with one id, so this folder became `12-ruv-five-step-wake-strip` and LAB 12 at the 08:54 wake on 31 October. The designer owns the numbering.

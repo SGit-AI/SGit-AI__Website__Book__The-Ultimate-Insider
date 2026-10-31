@@ -33,6 +33,8 @@ REGISTERED = [
   'Two published examples; only the CI job\'s rows were measured (C084).'),
  ('E13: five published examples', 'studio/lab/e13/v1', '842a8bd', 'studio-lab-e13-t48.png',
   'The same chart for each; no rating, no ranking (C084).'),
+ ('E04: the over-enthusiastic agent', 'studio/lab/e04/v1', 'c33e86a', 'studio-lab-e04-t50.png',
+  'Published cases, each figure attributed to its report as the frame does; the last three are evaluations, not deployments. Masked: the losses of four cases the talk team did not check at source (C090, open).'),
  ('E12: the radius, contained', 'studio/lab/e12/v1', '842a8bd', 'studio-lab-e12-t52.png',
   'Today\'s excess by kind (C086). Masked: the piece\'s own projection of what a designed wall would leave, which no data file states.'),
  ('E03: every source is a way in', 'studio/lab/e03/v1', 'a606774', 'studio-lab-e03-t48.png',
@@ -48,9 +50,7 @@ REGISTERED = [
  ('The editor approves each policy, item by item', 'studio-ports/lab/abp-review', 'bd3cdad', 'studio-ports-lab-abp-review-t16.png',
   'Masked: a sentence the files contradict (C081), and the form\'s own counters (not registered). Its 1, 2, 3 are steps.'),
 ]
-SLOTS = [
- ('E04: the over-enthusiastic agent', 'studio/lab/e04/v1', 'c33e86a', 'Figures from published reports of outside cases; the researcher checks each at its source.'),
-]
+SLOTS = []                                                    # none left: E04 printed at the 08:54 wake, 31 October
 GRID = f'<div style="display:grid;grid-template-columns:1fr 1fr;gap:5mm 7mm">\n'
 TITLE = '<p style="font:700 9.5pt/13pt var(--sans);margin:0 0 1mm">{}</p>'
 
@@ -76,6 +76,6 @@ NOTE = ('<p style="margin-top:6mm;font:400 9pt/12pt var(--sans);color:var(--mute
         'register says a figure may not be printed. Not on the sheet: E05, out of the lab at security\'s word; B01, the designer\'s LAB 04; '
         'the port showcases without a timeline (abp-enforcement, abp-prose, fork, invest, open-source), which are pages, not animations.</p>\n')
 html = (f'<section class="page" data-claims="">\n{GRID}' + ''.join(still(*x) for x in NUMBER_FREE) + '</div>\n' + NOTE + '</section>\n'
-        f'<section class="page" data-claims="C078 · C079 · C080 · C081 · C082 · C083 · C084 · C085 · C086">\n{GRID}'
+        f'<section class="page" data-claims="C078 · C079 · C080 · C081 · C082 · C083 · C084 · C085 · C086 · C090">\n{GRID}'
         + ''.join(still(*x) for x in REGISTERED) + ''.join(slot(*x) for x in SLOTS) + '</div>\n</section>\n')
 (HERE / 'pages.html').write_text(html)

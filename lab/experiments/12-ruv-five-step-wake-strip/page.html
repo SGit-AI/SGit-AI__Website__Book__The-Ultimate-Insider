@@ -136,7 +136,20 @@ h2 { font: 700 14pt/18pt var(--sans); margin: 0 0 4mm }
 .tl-spec pre { font-size: 9pt; line-height: 12pt; background: var(--fill); padding: 2mm 3mm; margin: 0 0 3mm; white-space: pre }
 .tl-spec p { font-size: 9.5pt; line-height: 13pt }
 .tl-spec .muted { color: var(--muted) }
-</style></head><body><section class="sheet" style="page: plab11"><div class="head"><div class="id">LAB 11</div><h1>The five-step wake, as one strip</h1><dl><dt>Tries</dt><dd>For chapter 4, the hourly machine (the editor's RC1 review, note 9: experiments in each chapter's own place): every wake's five steps as one vertical strip a reader can follow down the page, with who does each, what it sees, its verdicts, and where a stop goes.</dd><dt>Made from</dt><dd><ul><li><span class="mono">team/conductor/WAKE.md</span>, The five steps and Stopping (this book's team, ported rule for rule from the talk's at <span class="mono">298be4e</span>)</li><li><span class="mono">manuscript/04-the-hourly-machine.md</span>: its concept box, The five-step wake</li></ul></dd><dt>The question</dt><dd>Could this strip stand in chapter 4 beside the concept box, or replace it? Is the stop branch clear at a glance?<div class="verdict"><span><i class="box"></i>keep</span><span><i class="box"></i>change</span><span><i class="box"></i>drop</span><span class="note">note</span></div></dd></dl></div>
+
+/* LAB 11: a character sheet */
+.sheetchar { display: grid; grid-template-columns: 52mm 1fr; gap: 6mm; align-items: start; margin-bottom: 5mm }
+.sheetchar .big svg { width: 52mm }
+.spec { border-collapse: collapse; width: 100%; font-size: 9.5pt; line-height: 13pt }
+.spec td { border-bottom: .3mm solid var(--fill-2); padding: 1mm 2mm; vertical-align: top }
+.spec td:first-child { font-weight: 700; width: 18mm }
+.poses { display: grid; grid-template-columns: repeat(3, 1fr); gap: 5mm; margin-bottom: 5mm }
+.poses svg { width: 30mm }
+.poses .who { font: 700 10pt/14pt var(--sans); font-variant: small-caps; margin: 1mm 0 }
+.sizes { display: grid; grid-template-columns: 50mm 40mm 1fr; gap: 5mm; align-items: end; margin-bottom: 4mm }
+.sizes svg { width: 100% }
+.poses, .sizes, .sheetchar { break-inside: avoid }
+</style></head><body><section class="sheet" style="page: plab12"><div class="head"><div class="id">LAB 12</div><h1>The five-step wake, as one strip</h1><dl><dt>Tries</dt><dd>For chapter 4, the hourly machine (the editor's RC1 review, note 9: experiments in each chapter's own place): every wake's five steps as one vertical strip a reader can follow down the page, with who does each, what it sees, its verdicts, and where a stop goes.</dd><dt>Made from</dt><dd><ul><li><span class="mono">team/conductor/WAKE.md</span>, The five steps and Stopping (this book's team, ported rule for rule from the talk's at <span class="mono">298be4e</span>)</li><li><span class="mono">manuscript/04-the-hourly-machine.md</span>: its concept box, The five-step wake</li></ul></dd><dt>The question</dt><dd>Could this strip stand in chapter 4 beside the concept box, or replace it? Is the stop branch clear at a glance?<div class="verdict"><span><i class="box"></i>keep</span><span><i class="box"></i>change</span><span><i class="box"></i>drop</span><span class="note">note</span></div></dd></dl></div>
  <figure class="fig span12">
   <img src="./strip.svg" alt="The five-step wake as one vertical strip, with where a stop goes" style="width:100%;display:block">
   <figcaption><b>Read down the left for one wake; every stop on the right goes to the same place, and stops every member.</b><span class="src">From team/conductor/WAKE.md (this book's team; ported rule for rule from the talk's at 298be4e) and chapter 4's concept box (manuscript/04-the-hourly-machine.md). Chapter 4 tells when the talk's team began to run it.</span></figcaption>

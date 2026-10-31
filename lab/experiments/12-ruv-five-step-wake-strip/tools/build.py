@@ -1,4 +1,4 @@
-"""LAB 11 (ruv): chapter 4's five-step wake as one vertical strip (the editor's RC1 review, note 9: experiments per chapter).
+"""LAB 12 (ruv): chapter 4's five-step wake as one vertical strip (the editor's RC1 review, note 9: experiments per chapter).
 
 Drawn from team/conductor/WAKE.md (this repository; ported from the talk's at 298be4e) and chapter 4's own concept box
 (manuscript/04-the-hourly-machine.md). No number but the step order. Writes strip.svg and pages.html.
