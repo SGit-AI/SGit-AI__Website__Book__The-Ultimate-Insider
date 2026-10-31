@@ -1,0 +1,25 @@
+{
+ "schema": "the-ultimate-insider/lab-run-evidence/v1",
+ "run": "20261031T1254Z-ruv-15-the-pace-on-paper",
+ "started": "2026-10-31T12:55:56Z",
+ "wake_record": "team/ruv-sgit/wakes/20261031T125556Z.json",
+ "calls": [
+  {
+   "what": "python3 -I tools/build.py --until 2026-10-31T12:00:00Z",
+   "tool": "python"
+  },
+  {
+   "what": "lab/tools/build_lab.py as a check: 41 pages, passed; lab/pdf and ids.json restored",
+   "tool": "the designer's build, read only"
+  }
+ ],
+ "outputs": {
+  "page.pdf": "1 page",
+  "pace.svg": "the grid",
+  "hashes": "lab/experiments/15-ruv-the-pace-on-paper/SHA256SUMS"
+ },
+ "time": {
+  "work_started": "2026-10-31T13:05:00Z",
+  "work_ended": "2026-10-31T13:20:00Z"
+ }
+}
