@@ -55,6 +55,14 @@ figcaption { font-size: 0.78em; line-height: 1.35; color: #444; margin-top: 0.45
 @page :first { @bottom-right { content: none; } @bottom-left { content: none; } }
 /* notes: Markua's footnotes and endnotes ([^x], [^^x]) print at the end of their chapter; Chromium cannot place a
    note at the foot of its page (publishing/FOOTNOTES-AND-QR.md) */
-.footnotes { font-size: 8.5pt; line-height: 1.35; margin-top: 1.2em; }
+.footnotes { font-size: 9pt; line-height: 1.35; margin-top: 1.2em; }
 .footnotes hr { border: none; border-top: 0.5pt solid #999; width: 30%; margin: 0 0 0.5em; }
 .footnotes .footnote-back { display: none; }
+/* the designer's sizes by kind (visual pass 1, rules 1, 2 and 4; rule 3's side notes wait for the trim): build_book.py
+   tags each image in its temporary copy. Tiles at their own size beside the text; tall infographics at the 6.5 in they
+   were drawn for, on a page of their own, so their text stays at 9 pt; chapter 10's page captures at 4 in. */
+figure:has(img.fig-tile) { float: right; width: 2.25in; margin: 0.2em 0 0.6em 0.9em; }
+figure:has(img.fig-tile) img { width: 2.25in; max-height: none; }
+figure:has(img.fig-tall) { break-before: page; break-after: page; margin: 0; }
+figure:has(img.fig-tall) img { height: 6.5in; width: auto; max-height: none; }
+figure:has(img.fig-page) img { width: 4in; max-height: none; }

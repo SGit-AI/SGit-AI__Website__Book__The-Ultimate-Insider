@@ -93,6 +93,36 @@ def tall_images(pdf, share, sources):
     return tall
 
 
+def figure_kind(path):
+    """The designer's kinds (team/designer/reviews/2026-10-31__visual-pass-1.md): a square infographic is a tile, a tall
+    one a column, a map a map, chapter 10's page captures a page; anything else keeps the default look."""
+    if "/maps/" in path:
+        return "fig-map"
+    if path.startswith("resources/images/10-"):
+        return "fig-page"
+    if "/infographics/" in path:
+        try:
+            from PIL import Image
+            with Image.open(os.path.join(MANUSCRIPT, path)) as im:
+                w, h = im.size
+        except (ImportError, OSError):
+            return None
+        if abs(w - h) <= w * 0.02:
+            return "fig-tile"
+        if h > w:
+            return "fig-tall"
+    return None
+
+
+def figure_kinds(text):
+    """An image line alone on its line, without attributes of its own, gets its kind as a class, for book.css to size.
+    Only the build's temporary copy changes; Leanpub reads the chapters as written."""
+    def tag(m):
+        kind = figure_kind(m.group(2))
+        return m.group(0) if not kind else f"{m.group(1)}{{.{kind}}}"
+    return re.sub(r"^(!\[[^\]\n]*\]\(([^)\s]+)[^)\n]*\))[ \t]*$", tag, text, flags=re.M)
+
+
 def epub_images(work, width):
     """Copies of the manuscript's images at most width pixels wide, for the EPUB only (the PDF keeps them as they are):
     KDP charges for delivery by the megabyte at the 70% royalty (publishing/KDP.md). The manuscript is not touched.
@@ -109,15 +139,16 @@ def epub_images(work, width):
         rel = os.path.relpath(src, MANUSCRIPT)
         try:
             with Image.open(src) as im:
-                if im.width <= width:
+                png = src.lower().endswith(".png")
+                if im.width <= width and not png:
                     continue
                 dst = os.path.join(out, rel)
                 os.makedirs(os.path.dirname(dst), exist_ok=True)
-                small = im.resize((width, round(im.height * width / im.width)), Image.LANCZOS)
-                if src.lower().endswith((".jpg", ".jpeg")):
-                    small.convert("RGB").save(dst, quality=82, optimize=True)
+                small = im.resize((width, round(im.height * width / im.width)), Image.LANCZOS) if im.width > width else im
+                if png:  # maps and diagrams: 256 colours lose nothing a reader sees and a good part of the size
+                    small.convert("RGB").quantize(256).save(dst, optimize=True)
                 else:
-                    small.save(dst, optimize=True)
+                    small.convert("RGB").save(dst, quality=82, optimize=True)
         except OSError:
             pass
     return out
@@ -148,7 +179,7 @@ def main():
     files = []
     for src in sources:
         with open(src, encoding="utf-8") as f:
-            text = markua.translate(f.read())
+            text = figure_kinds(markua.translate(f.read()))
         files.append(os.path.join(marked, os.path.basename(src)))
         with open(files[-1], "w", encoding="utf-8") as f:
             f.write(text)

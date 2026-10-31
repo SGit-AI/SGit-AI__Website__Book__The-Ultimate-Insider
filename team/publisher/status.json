@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "publisher",
- "as_of": "2026-10-31T05:17:00Z",
- "round": 17,
- "state": "A5 studied and built (notes at chapter end; QR test sheet); the EPUB 9.0 MB, about $1.35 a sale at 70%",
+ "as_of": "2026-10-31T07:27:00Z",
+ "round": 18,
+ "state": "the designer's rules 1, 2, 4 in the build (290 pages); the EPUB 6.5 MB, about $0.97 a sale at 70%",
  "done": [
   {
    "what": "session key published: team/publisher/key.json, key.png, sessions/session_01Kw9UwDVeRbKJZUWiRoRrHK/",
@@ -116,15 +116,19 @@
   {
    "what": "footnotes and endnotes at chapter end in PDF and EPUB; publishing/qr_test.py and FOOTNOTES-AND-QR.md (A5); EPUB images at most 1,000 px: 13.5 MB to 9.0 MB, delivery about $1.35 a sale; letters publisher__010 (conductor), publisher__002 (designer)",
    "when": "2026-10-31T05:15Z"
+  },
+  {
+   "what": "the designer's visual pass in the build: tiles 2.25 in beside the text, tall infographics 6.5 in on their own page, chapter 10's captures 4 in, notes 9 pt; the EPUB's PNG maps in 256 colours (6.5 MB); letters publisher__003 (designer), publisher__011 (conductor)",
+   "when": "2026-10-31T07:25Z"
   }
  ],
  "next": [
   {
-   "what": "the maps as JPEG in the EPUB only, the next ebook saving",
-   "why": "KDP's delivery cost"
+   "what": "the image sizes written into the chapters as Markua attributes, so Leanpub's build matches",
+   "why": "once P2 (trim) is signed, board 006"
   },
   {
-   "what": "footer, type size and white space with the designer; trim and gutter once P2 is signed",
+   "what": "footer, type size and white space with the designer; rule 3 (map side notes) with the trim",
    "why": "board 006"
   },
   {
@@ -152,6 +156,6 @@
   "previous": "trig_01D2wnhQDySKsG8ZL9XLmNsW (first account, paused, not deleted)",
   "changed": "2026-10-31T02:20:11Z, not by this session: back to every two hours round the clock, matching Q6 as amended (01:32 UTC) and the conductor's letter 018; recorded, not changed back; the editor's word for it asked onto dev (publisher__009). Before: 00:50:06Z, to the day schedule at Q6 as first signed; recorded on dev by the conductor (letter 021), open decision W1"
  },
- "requests": "taken: conductor__002 to 022, designer__013, 018, 020, storyteller__010, 015; all answered",
+ "requests": "taken: conductor__002 to 023, designer__013, 018, 020, 022, storyteller__010, 015; all answered",
  "cadence": "active"
 }

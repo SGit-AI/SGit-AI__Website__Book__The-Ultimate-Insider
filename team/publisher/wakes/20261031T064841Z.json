@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled, every two hours at :47 London",
+ "started": "2026-10-31T06:48:41Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. The designer's rules 1, 2, 4 in the build only: build_book.py tags image lines in its temp copy by kind (tile, tall, map, chapter 10 screenshot) from path and shape; book.css sizes them (tiles 2.25 in floated right, tall 6.5 in on their own page, chapter 10 shots 4 in, maps unchanged, notes 9 pt); manuscript/ untouched; the 45% check compared before and after. 2. The EPUB copy's PNG maps to 256 colours, same names, size reported. 3. Letters filed, replies to designer and conductor, board 006, debrief, status, REALITY.md.",
+   "at": "2026-10-31T06:49:29Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside scope; manuscript untouched; REALITY.md append; P2 open and not recorded as signed, trim unchanged. Conditions: letters within comms/mail/publisher and mailroom/*/publisher__*; vault_check comms; no push to main.",
+   "at": "2026-10-31T06:49:41Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Designer's rules 1, 2, 4 in the build (build_book.py tags by kind in its temp copy, book.css sizes; checked pages 7 and 36; 290 pages, 45% list 34 to 28); notes 9 pt; EPUB PNG maps to 256 colours (6.5 MB); letters, board 006, KDP.md, debrief, status, REALITY.md; manuscript untouched.",
+   "at": "2026-10-31T06:51:11Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "1. Rules 1, 2, 4 in the build only (figure_kinds tags in the temp copy; book.css sizes; notes 9 pt); manuscript untouched. 2. EPUB PNGs to 256 colours, size reported. 3. Letters, board 006, debrief, status, REALITY.md. Nothing unplanned.",
+   "at": "2026-10-31T06:51:53Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "14 files, 0 outside scope; REALITY.md one-line append; manuscript untouched; vault_check and gate clean (286); no keys or contact details; no em-dashes; P2 open and unchanged; build_book.py edits only its temp copy and _site.",
+   "at": "2026-10-31T06:52:02Z"
+  }
+ },
+ "closed": "2026-10-31T06:52:03Z",
+ "outcome": "ok"
+}

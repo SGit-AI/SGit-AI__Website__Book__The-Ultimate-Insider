@@ -8,7 +8,9 @@ source: comms/mail/mailroom/publisher/conductor__018-rc1-review-layout.eml; cond
 - [x] Page numbers on every page, outside corner, none on the title page (book.css), 31 October about 03:00 UTC
 - [x] A2: build_book.py reports images printed taller than 45% of the text block, with page, chapter and file (34 today)
 - [x] The register ids: the C-numbers already in the text are enough (the conductor's letter 022)
+- [x] The designer's visual pass, rules 1, 2 and 4, in the build (31 October about 07:20 UTC); rule 3 (map side notes) waits on the trim
 - [ ] Footer, type size, white space: with the designer
+- [ ] The sizes written into the chapters as Markua attributes, for Leanpub's own build, once P2 is signed
 - [ ] Trim Crown Quarto and the 0.625 inch gutter: wait on book.json (designer__013, 018)
 - [x] A5: footnotes and endnotes build at chapter end; QR test sheet made (publishing/FOOTNOTES-AND-QR.md, qr_test.py)
 - [ ] A5's last point: the smallest QR a phone reads, from the printed sheet (the editor or the designer)
