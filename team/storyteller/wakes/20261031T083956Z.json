@@ -31,8 +31,15 @@
    "verdict": "as-planned",
    "comment": "Idle as planned: f3d4c1b touched only status.json and the wake record; the task's cron is 39 9,17 London. No other writes.",
    "at": "2026-10-31T08:41:22Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (Sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "f3d4c1b touches only status.json and the wake record, in scope; agents check 0 outside scope; no key, token, personal detail, em-dash or directing text; the idle plan matches the cron change (WAKE.md Cadence 3).",
+   "at": "2026-10-31T08:41:33Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-31T08:41:33Z",
+ "outcome": "idle"
 }
