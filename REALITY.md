@@ -106,6 +106,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - `lab/experiments/11-ruv-five-step-wake-strip/` (LAB 12; first declared LAB 11, which the designer's conductor sheet printed as): for chapter 4, the five-step wake as one vertical strip drawn from WAKE.md and the chapter's concept box, every stop going to HOLD.md; the first per-chapter experiment (the editor's RC1 note 9); run `lab/runs/20261031T0654Z-ruv-11-*`.
 - `lab/experiments/14-ruv-fractal-map/` (LAB 14): the editor's T10, a fractal Wardley map in three frames, RC1's map 5 with one dot ringed, a lens, and map 6 inside it; run `lab/runs/20261031T1054Z-ruv-14-*`.
 - `lab/experiments/15-ruv-the-pace-on-paper/` (LAB 15, reserved): the editor's T18, the site's pace grid drawn for paper: first the talk's own day from its wake records at `298be4e` (classed as C087) with C092's night-against-day counts and C021's gap, then this book's team, no count printed; run `lab/runs/20261031T1254Z-ruv-15-*`.
+- `lab/experiments/19-ruv-one-timeline-four-modes/` (LAB 19, reserved): the editor's A12, one registered timeline of the day (the designer's spec) in four modes, the designer's component horizontal and vertical, a 24-hour dial and a day strip to scale, each saying what it shows and hides; run `lab/runs/20261031T1654Z-ruv-19-*`.
 
 ## Synthetic readers (synthetic@book.the-ultimate-insider)
 

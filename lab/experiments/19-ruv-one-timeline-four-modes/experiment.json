@@ -1,0 +1,12 @@
+{
+ "id": "LAB 19",
+ "title": "One timeline, four modes",
+ "by": "ruv.sgit@book.the-ultimate-insider",
+ "tries": "The editor's RC1 review, A12: timelines as reusable components in many modes. One registered timeline of the talk's day drawn four ways, horizontal with a break, to scale with no break, vertical, and as a 24-hour dial, each saying what it shows and what it hides, so the editor can choose a mode per chapter.",
+ "made_from": [
+  "lab/tools/components/examples/the-day.json and timeline.py (the designer's, at d965985, read only)",
+  "claims/register.json: C001, C005, C006, C012, C013, C018, C028 (each event's time)"
+ ],
+ "question": "Which mode suits which chapter? Should the book keep one mode throughout, or choose per page?",
+ "pages": 2
+}

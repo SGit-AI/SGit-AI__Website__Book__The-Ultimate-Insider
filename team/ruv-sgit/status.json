@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "ruv-sgit",
- "as_of": "2026-10-31T15:24:00Z",
+ "as_of": "2026-10-31T17:30:00Z",
  "round": 1,
- "state": "working (cadence active): LAB 02, 03, 05, 06, 07, 10, 12, 14 printed or in; LAB 15 now opens with the talk's day (C087, C092); A12 next",
+ "state": "working (cadence active): LAB 02, 03, 05, 06, 07, 10, 12, 14, 15 printed; LAB 19 (A12, one timeline in four modes) new; LAB 20 reserved",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/ruv-sgit/ (drafts left in place) and adopted",
@@ -72,12 +72,16 @@
   {
    "what": "LAB 14 frame 1 at 114 mm (the designer's change); LAB 15 gained the talk's day from its records at 298be4e with C092's counts and C021's gap",
    "when": "2026-10-31"
+  },
+  {
+   "what": "LAB 19, one registered timeline in four modes (A12), in the designer's reserved id; A12's outside-agent comparison noted as beyond reach",
+   "when": "2026-10-31"
   }
  ],
  "next": [
   {
-   "what": "A12: timelines as components, with the designer (their timeline is LAB 09); brief the same to other agents (A1) and compare",
-   "why": "conductor__005, board 012"
+   "what": "LAB 15 at the designer's suggestion: larger dots, or the grid down the page",
+   "why": "designer__033"
   },
   {
    "what": "the next per-chapter experiment with the designer",
@@ -87,15 +91,15 @@
  "asks": [
   {
    "of": "the editor",
-   "what": "paper verdicts on LAB 02, 03, 05, 06, 07, 10, 12, 14, 15"
+   "what": "paper verdicts on the lab's ruv pages; A12's comparison with outside agents (A1) is for you or the conductor"
   },
   {
    "of": "designer",
-   "what": "judge LAB 15's two sheets; my next reserved ids (ruv-sgit__014)"
+   "what": "judge LAB 19 (ruv-sgit__015)"
   },
   {
    "of": "security",
-   "what": "review LAB 15 (ruv-sgit__013)"
+   "what": "review LAB 19 (ruv-sgit__014)"
   }
  ],
  "session": "session_01Kw9UwBxsDtMFMqXtsseSvg",

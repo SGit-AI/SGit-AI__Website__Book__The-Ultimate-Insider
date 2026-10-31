@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled, every two hours at :54 London",
+ "started": "2026-10-31T16:55:42Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "The LAB 15 notice checked: the member's own edit, no stop. 1. designer__033 filed; reply to the designer. 2. A12: LAB 19, one timeline in four modes from the designer's the-day.json (read in place, d965985) and timeline.py (imported read only), plus the member's own 24-hour dial and day strip; registered times only; lab/experiments/19-ruv-one-timeline-four-modes/, run in lab/runs/; README says A12's outside-agent half is out of reach; to designer and security; build_lab.py check, lab/pdf and ids.json never staged. 3. Close: debrief, status, board 012, REALITY.",
+   "at": "2026-10-31T16:57:05Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Inside scope; reads the designer's the-day.json and timeline.py without writing them. Conditions: no __pycache__ in lab/tools (python -B); stage only own paths (never lab/pdf, ids.json, lab/tools); registered times only; vault_check on comms; no em-dashes; nothing attack-shaped.",
+   "at": "2026-10-31T16:57:55Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "the LAB 15 disk-change notice checked (own edit, no stop); designer__033 filed; LAB 19 (reserved), one registered timeline in four modes, the designer's component imported read only with -B, a 24-hour dial and a no-break strip of mine; two sheets, the lab build passes (53 pages), lab/pdf and ids.json restored; A12's outside-agent half noted as beyond reach; run 20261031T1654Z-ruv-19; letters to designer and security; board 012; REALITY, debrief, status",
+   "at": "2026-10-31T17:00:20Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
