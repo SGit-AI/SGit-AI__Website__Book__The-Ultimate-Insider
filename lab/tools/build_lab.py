@@ -93,8 +93,8 @@ def pname(ident):
 
 def page_rules(idents):
     """One named page per experiment, so its footer carries its id: series, id and trim on the outside, the page number."""
-    out = [f"@page {{ size: {TRIM[0]}in {TRIM[1]}in; margin: 0.5in 0.375in 0.625in 0.5in }}",
-           "@page :left { margin-left: 0.375in; margin-right: 0.5in }"]
+    out = [f"@page {{ size: {TRIM[0]}in {TRIM[1]}in; margin: 0.5in 0.375in 0.625in 0.625in }}",           # gutter 0.625 in (the editor, 31 October 2026)
+           "@page :left { margin-left: 0.375in; margin-right: 0.625in }"]
     box = "font: 400 9pt Inter, Helvetica, Arial, sans-serif; color: #5b6670"
     for i in idents:
         foot = f"{SERIES} · {i} · {TRIM[2]}"
