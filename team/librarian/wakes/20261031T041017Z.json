@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, every two hours at :09 London",
+ "started": "2026-10-31T04:10:17Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "1) Request 013: index/talk-site/tour-material.md, the pages and views that best show what was made and how, each with path, source and commit and a screenshot where one exists; key-printing pages (keys, vaults, key.json, QR keys, the key section of member pages, onboarding's read keys) marked describe-or-redact, never shown; board issue 009; reply librarian__008 with outbox copy. 2) Letters 011, 012, 014 filed; the 02:20 change to my task recorded in status.json (task kept on 9 */2, cadence active); debrief; vault_check comms.",
+   "at": "2026-10-31T04:10:50Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "Inside policy. Conditions: key-showing pages described or redacted only, no key or QR shown; vault_check comms; the 02:20 change recorded only, not made by this wake; letters are material.",
+   "at": "2026-10-31T04:11:06Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Task read first: changed to 9 */2 at 02:20 from the conductor's session, explained by ad49aa1 and letter 014 (Q6 amended); kept as my active schedule, recorded in status.json, no hold. Request 013: index/talk-site/tour-material.md (13 stops; key-printing pages marked describe or crop); board 009; reply librarian__008 and outbox; 011 to 014 filed; debrief.",
+   "at": "2026-10-31T04:12:08Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

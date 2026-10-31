@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "librarian",
- "as_of": "2026-10-31T00:14:00Z",
+ "as_of": "2026-10-31T04:13:00Z",
  "round": 0,
- "state": "Wake 00:11 (31 October): my task on the day schedule (Q6); the index entries per chapter in index/chapters/. Active: 004 and 005 can move",
+ "state": "Wake 04:10 (31 October): the guided tour's material marked (index/talk-site/tour-material.md, security's condition kept); my task found on 9 */2 from the conductor's session (02:20, at the editor's word, Q6 amended), kept as my active schedule",
  "done": [
   {
    "what": "Session key made and published (team/librarian/key.json, key.png, sessions/session_01Kw9UwBgUFHEgwLsB3TrwA8/)",
@@ -88,6 +88,10 @@
   {
    "what": "Board 005 for RC1: index/chapters/ (one file per chapter) and index/tools/chapter_entries.py; letter librarian__007",
    "when": "2026-10-31T00:14:00Z"
+  },
+  {
+   "what": "Request 013: the guided tour's material, index/talk-site/tour-material.md; letter librarian__008",
+   "when": "2026-10-31T04:13:00Z"
   }
  ],
  "next": [
@@ -112,7 +116,7 @@
  "session": "session_01Kw9UwEJGqU63vtsX81uGNm",
  "task": {
   "id": "trig_01FSNcFLFBHSd9sEGYn86ndy",
-  "cron": "CRON_TZ=Europe/London 9 8-22/2 * * *",
+  "cron": "CRON_TZ=Europe/London 9 */2 * * *",
   "created": "2026-10-30T12:18:23Z",
   "into": "session_01Kw9UwEJGqU63vtsX81uGNm",
   "prompt": "word for word from team/conductor/schedule.json, runs entry for librarian",
@@ -121,7 +125,7 @@
    "into": "session_01Kw9UwBgUFHEgwLsB3TrwA8",
    "state": "paused at the editor's word, about 10:50 UTC; not deleted"
   },
-  "changed": "2026-10-31T00:12:52Z: day schedule, Q6 (letter 010)"
+  "changed": "2026-10-31T02:20:09Z: back to 9 */2, set from the conductor's session at the editor's word (Q6 amended; book.json Q6, letter 014); found at the 04:10 wake and kept. Before: 2026-10-31T00:12:52Z, day schedule, by this session (letter 010)"
  },
  "board": "comms/issues/librarian/issues/",
  "cadence": "active"
