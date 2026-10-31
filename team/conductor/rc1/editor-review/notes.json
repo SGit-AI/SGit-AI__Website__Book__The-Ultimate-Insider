@@ -1,0 +1,112 @@
+{
+ "about": "The editor's paper review of RC1, mapped by the conductor: each note with the printed page, the chapter file, the text it points at, who owns the change, and the conductor's reading. His words are in briefs/2026-10-31__rc1-paper-review/.",
+ "pdf": "team/conductor/rc1/pdf/the-ultimate-insider-RC1.pdf",
+ "themes": [
+  {
+   "id": "T1",
+   "name": "Punchlines first, logistics last",
+   "rule": "Open every part with content: what was achieved, the idea, a visual. How it was run (dates, decisions, versions, what was added after the day) moves to the end of the chapter or the back of the book, for the reader who wants it.",
+   "from": [
+    "batch-01: page 4",
+    "batch-01: page 6",
+    "batch-01: page 7"
+   ]
+  },
+  {
+   "id": "T2",
+   "name": "The record is a side effect of how the team works",
+   "rule": "Never 'we captured the record': the record exists because the team was built for determinism, provenance and memory; the scaffolding and the non-functional requirements are the story. See his forthcoming article 'The Augmented Book'.",
+   "from": [
+    "batch-01: page 6"
+   ]
+  },
+  {
+   "id": "T3",
+   "name": "The talk was not finished",
+   "rule": "Say the talk needed more rounds and moved too fast from high level to detail; the brakes analogy is a starting point to expand, not a finished argument.",
+   "from": [
+    "batch-01: page 7",
+    "the centre-of-gravity brief"
+   ]
+  }
+ ],
+ "page_layout": [
+  {
+   "what": "Page numbers on every page, and the register ids visible",
+   "owner": "publisher",
+   "from": "batch-01: whole book"
+  },
+  {
+   "what": "A footer: decide what it carries (page, chapter, perhaps the version)",
+   "owner": "publisher with designer",
+   "from": "batch-01: whole book"
+  },
+  {
+   "what": "Font too big, too much white space: use more of the page, closer to normal margins",
+   "owner": "designer, then publisher",
+   "from": "batch-01: whole book"
+  },
+  {
+   "what": "Try KDP's Crown Quarto size; he read the two-sided print comfortably",
+   "owner": "publisher",
+   "from": "batch-01: whole book"
+  }
+ ],
+ "notes": [
+  {
+   "n": 1,
+   "page": "all",
+   "file": "(title)",
+   "about": "The title must be about the book (the centre-of-gravity brief): the name and structure study",
+   "owner": "storyteller (study under way)"
+  },
+  {
+   "n": 2,
+   "page": 4,
+   "file": "0-about-this-release-candidate.md",
+   "text": "About this release candidate: 'This is RC1, the release candidate ... for the editor to read on paper'",
+   "note": "Starts with logistics; open with content and punchlines (T1)",
+   "owner": "conductor (front matter) in the revision"
+  },
+  {
+   "n": 3,
+   "page": 6,
+   "file": "00-before-you-start.md",
+   "text": "The claim this book answers ... 'the founder'",
+   "note": "Name him: Dinis Cruz, and the conference",
+   "owner": "revision (editor's voice)"
+  },
+  {
+   "n": 4,
+   "page": 6,
+   "file": "00-before-you-start.md",
+   "text": "the record, as something captured",
+   "note": "The record is a side effect of how the team works (T2); cite 'The Augmented Book' once published",
+   "owner": "revision; researcher for the article's citation"
+  },
+  {
+   "n": 5,
+   "page": 6,
+   "file": "00-before-you-start.md",
+   "text": "the concept box; 'anything added here after the day'",
+   "note": "Logistics; not relevant to the reader; cut or move to the back (T1)",
+   "owner": "revision"
+  },
+  {
+   "n": 6,
+   "page": 7,
+   "file": "00-before-you-start.md",
+   "text": "The talk inside the book: 'brakes are what let us go faster'",
+   "note": "Careful with the brakes analogy: the talk was not finished (T3); expand it: cars go fast because of many technologies, brakes one of them; we trust brakes because we use them all the time, they are reliable, they work incrementally, and we learn to use them",
+   "owner": "storyteller (structure) and the revision"
+  },
+  {
+   "n": 7,
+   "page": 7,
+   "file": "00-before-you-start.md",
+   "text": "logistic content on the page",
+   "note": "Remove or push to the end (T1)",
+   "owner": "revision"
+  }
+ ]
+}
