@@ -24,6 +24,13 @@
    "verdict": "none",
    "comment": "Idle: own task to CRON_TZ=Europe/London 39 9,17 * * * (update_trigger, own task only); status.json cadence idle and why. Nothing else written.",
    "at": "2026-10-31T08:40:47Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (Sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Idle as planned: f3d4c1b touched only status.json and the wake record; the task's cron is 39 9,17 London. No other writes.",
+   "at": "2026-10-31T08:41:22Z"
   }
  },
  "closed": null,
