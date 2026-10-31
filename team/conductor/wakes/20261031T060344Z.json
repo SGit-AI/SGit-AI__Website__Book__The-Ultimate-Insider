@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "In scope; no stop condition; NS1 only annotated; the footnote item a question for the editor; replies by mail only; vault_check before commit.",
    "at": "2026-10-31T06:04:22Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "1. Replies to historian 009, researcher 010, publisher 010; filed; vault_check clean. 2. NS1's detail: the exact-title check and the footnote question (still open). 3. Brief 15, status. Gate clean.",
+   "at": "2026-10-31T06:05:13Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "Gate exit 0 (282 pages); 0 outside scope; vault_check clean; NS1 open, only its detail extended; no key or contact; no em-dashes.",
+   "at": "2026-10-31T06:05:49Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "as-planned",
+   "comment": "1 three replies filed. 2 NS1 detail. 3 brief 15, status. Nothing unplanned.",
+   "at": "2026-10-31T06:05:49Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-31T06:05:49Z",
+ "outcome": "ok"
 }
