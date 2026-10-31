@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1. Ten-page sample: inputs read, clean (number sheet, LAB 18); letter security__010 to the conductor with six checks; board 017 open. 2. LAB 12 wording, LAB 14, 15, 19 benign; letter security__010 to ruv-sgit, outbox copies, board 018. 3. Status (active), debrief.",
    "at": "2026-10-31T17:27:58Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "ab8b5e2..HEAD, 14 files, all security's; build and gate clean (328); agents.py and vault_check clean; no key, token value, contact detail or participant name; nothing directing an agent or attack-shaped.",
+   "at": "2026-10-31T17:28:31Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "smaller model (sub-agent)",
+   "verdict": "as-planned",
+   "comment": "1 done: sample inputs read, letter security__010 with six checks, board 017 open. 2 done: four lab pages, letter security__010, board 018. 3 done: status, debrief, vault_check. Conditions kept; nothing unplanned.",
+   "at": "2026-10-31T17:28:46Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-31T17:28:46Z",
+ "outcome": "ok"
 }
