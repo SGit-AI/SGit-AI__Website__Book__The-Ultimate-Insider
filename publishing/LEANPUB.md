@@ -11,7 +11,7 @@ Nothing here can be done by an agent: each step needs the editor's Leanpub accou
 
 ## Steps, in order (about 30 minutes, once)
 
-0. **The plan.** The Git and GitHub writing mode ("cloud" mode) needs a **Standard or Pro** author plan; the in-browser and upload modes work on every plan (Leanpub's help, article 6699163, 3 February 2023). Choose the plan before step 1; which of Standard or Pro is a decision for you (the conductor's Leanpub study 1 proposes Pro).
+0. **The plan: settled.** The Git and GitHub writing mode needs a Standard or Pro author plan (Leanpub's help, article 6699163, 3 February 2023); you hold a lifetime Pro plan (the conductor's letter 016, 30 October 2026), so nothing to buy. You create the book yourself (your task E1 in `team/conductor/editor-tasks.json`).
 1. **Create the book.** On Leanpub, create a new book. For the writing mode choose **Cloud**, then **Using Git and GitHub**. In the same form give the repository as `SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider` and the branch names for previews and for publishing.
    - **Branch: `main` for both** (decision L2), so Leanpub builds only what you merged, the same rule as the site. Name it explicitly: the repository's default branch is `dev`, not `main`.
    - The book's URL slug is permanent-looking and public; it waits on the title (decision on the title, round 1). A neutral slug such as `the-ultimate-insider` keeps the options open.
