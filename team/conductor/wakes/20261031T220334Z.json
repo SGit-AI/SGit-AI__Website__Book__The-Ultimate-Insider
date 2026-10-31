@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake",
+ "started": "2026-10-31T22:03:34Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. Letter to security (conductor__024): line 98 as reworded, yes or a correction. 2. Replies researcher 016 (__032), publisher 018 (__035, ink next wake), designer 040 (__022, LAB 22 id noted), designer 042 (__023, the gate worked, in the brief). 3. All five to done. 4. The colour lab-look sample to the editor, not to share yet: one reworded line awaits security's yes. 5. Brief 26. 6. status.json. vault_check.",
+   "at": "2026-10-31T22:04:24Z"
+  },
+  "pre_review": {
+   "by": "security pre-review sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope. Conditions: the colour sample to the editor only, not to share yet, the reworded line flagged; the designer's skipped step reported plainly (gate worked, member lapsed, a repeat means stop); no keys, contacts or blind-repo content; nothing decided for him; vault_check.",
+   "at": "2026-10-31T22:04:49Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
