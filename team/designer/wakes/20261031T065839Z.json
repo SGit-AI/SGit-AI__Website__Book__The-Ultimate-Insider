@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1. Publisher's build run read only (_site/), pages 7 and 36 judged; designer__024. 2. ids.json map emptied (ruv's folder declares LAB 10); LAB 05/06 rebuilt in; designer__025; issue 011 updated. 3. LAB 11 (lab/experiments/11-designer-the-conductor/, lab/characters/make_conductor.py, three poses), CSS keeps poses and headings together; designer__026 to the storyteller; issue 014; PDF 29 pages; status, debrief, REALITY.md.",
    "at": "2026-10-31T07:02:29Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "27 files; build and gate clean; agents check 0 outside scope; vault_check comms clean; no ruv files; no em-dashes, keys, tokens or personal details; the generator makes no network calls; the conductor is a clock-faced character; build output in _site/.",
+   "at": "2026-10-31T07:03:33Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "1 publisher's pages judged, designer__024; 2 ids.json, LAB 05/06, designer__025, issue 011; 3 LAB 11, make_conductor.py, designer__026, issue 014, PDF, records (959f3c5). Conditions kept. Nothing unplanned.",
+   "at": "2026-10-31T07:03:33Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-31T07:03:33Z",
+ "outcome": "ok"
 }
