@@ -24,10 +24,24 @@
    "verdict": "done",
    "comment": "lab-look.css stat tile and p.source; lk1-visual-plan.md; letters 043 and 044; four letters filed; issue 019; sample rebuilt (13 pages, colour and bw); debrief, status.json, REALITY.md. Nothing in ruv's or the publisher's folders or briefs/.",
    "at": "2026-10-31T23:02:31Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Every file in scope (lab/tools, lab/pdf, team/designer, own comms, the two designer__ mailroom letters, REALITY.md under the designer heading); nothing in lab/experiments/23-ruv-*, ruv's or the publisher's folders or briefs/; no em-dashes, secrets or attack-shaped matter; vault_check comms clean.",
+   "at": "2026-10-31T23:03:43Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "All three plan items done in f56aa4d; extras are the four letters filed to done and the rebuilt sample PDFs with SHA256SUMS, both following from the work and in scope.",
+   "at": "2026-10-31T23:03:43Z"
   }
  },
- "closed": null,
- "outcome": null,
+ "closed": "2026-10-31T23:03:43Z",
+ "outcome": "ok",
  "history": [
   {
    "why": "the pre-review said change: the rename in ruv-sgit's folder must be ruv-sgit's own, asked by letter",
