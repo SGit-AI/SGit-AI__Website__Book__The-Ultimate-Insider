@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "editor's request",
+ "started": "2026-10-31T02:05:51Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "1. Route batch 10 by letter (conductor amends: comms mail, never members' folders): storyteller (T23 to T25, A16: open with a guided tour of the admin side and the non-functional requirements; contain it the talk's way), designer (the tour's visuals, the code shown visually), librarian (its study of the talk's site as the tour's material). 2. Brief 13, a one-page wrap-up of the series, in team/conductor/editor-briefs/ (conductor amends: not briefs/). 3. status.json; gate.",
+   "at": "2026-10-31T02:06:13Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "In scope. Conditions: the letters tell the storyteller and designer the admin tour never shows a page that prints a key (descriptions or redacted views only); vault_check before commit; the tour's shape stays the editor's to sign; no secrets.",
+   "at": "2026-10-31T02:06:35Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
