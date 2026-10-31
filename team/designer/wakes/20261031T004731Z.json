@@ -24,10 +24,24 @@
    "verdict": "done",
    "comment": "1) designer__012 (conductor) and designer__013 (publisher): the editor's words quoted and timed; book.json and publishing/ untouched. 2) The lab PDF at Crown Quarto: build_lab.py sheets on named pages, crown-quarto.css, footer with series, id, size and page n of N; render.mjs checks width in a flowing book; LAB 01 grid redrawn for 167 mm; lab/README.md The page; 16 pages; trim-study-7.44x9.69.pdf; SHA256SUMS. 3) designer__014 to ruv; issue 009; status, debrief, REALITY.md.",
    "at": "2026-10-31T00:53:22Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Build, validate, agents check (0 outside scope), vault_check comms pass; 24 files in scope; no key, token, personal detail or em-dash; no ruv folder, book.json, publishing/, briefs or version edits; letters quote and relay the editor's words with time; the publisher's request waits on book.json.",
+   "at": "2026-10-31T00:54:16Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Amended items 1 to 3 done (9e4c168): letters 012 and 013; the lab at Crown Quarto with the build, CSS, renderer, LAB 01 grid, README, 16-page PDF, trim-study PDF, SHA256SUMS; issue 009, debrief, status, REALITY.md, designer__014. Conditions kept. Unplanned: storyteller__011 inbox copy.",
+   "at": "2026-10-31T00:54:16Z"
   }
  },
- "closed": null,
- "outcome": null,
+ "closed": "2026-10-31T00:54:16Z",
+ "outcome": "ok",
  "history": [
   {
    "why": "the editor's second message in the session (about 00:55 UTC): 'Great, can you recreate and update those the labs pdf with this size. And please include that size somewhere on the footer'; the plan was amended and pre-reviewed again",
