@@ -60,6 +60,151 @@
    "from": [
     "batch-04: page 9"
    ]
+  },
+  {
+   "id": "T8",
+   "name": "Wardley maps: shown before they are explained",
+   "rule": "Mention Wardley maps and introduce them without explaining them; start with smaller, simpler maps (even a graph, then positioned), with side notes on the page for terms as they appear (genesis, custom-built, town planners), with a couple of examples. Explorers, villagers and town planners come later; the advanced idea (the talk an explorer, the book a villager, the publisher a town planner) comes much later, and with a diagram more than words.",
+   "from": [
+    "batch-05: page 11"
+   ]
+  },
+  {
+   "id": "T9",
+   "name": "Provenance lives online; the book is content",
+   "rule": "The 'Where this came from' sections are at once too detailed (a wall of paths and commits the reader cannot use) and too light (they link nowhere). Provenance of every idea, page and paragraph is kept, as a graph, in the augmented online version (an iPad-like PDF view with augmented capability), not printed in the book.",
+   "from": [
+    "batch-05: page 13"
+   ]
+  },
+  {
+   "id": "T10",
+   "name": "Maps the editor's way: anchored, evidenced, fractal, of anything",
+   "rule": "A map is a top-down tree or graph that becomes a map when position has meaning (a threat model is a graph because position does not matter). Start from an anchor, a point of view; 'a user and a need' is Simon Wardley's recommendation because people forget the user, not a rule. Every dot links to its facts, evidence, assumptions, or the next map: a dot in one map becomes a map in the next (fractal), a power to show with visuals and animation. Maps of anything you can make a tree of (systems, risk, vulnerabilities, types); evolution axes vary (his newsroom article shows seven or eight kinds), not only genesis, custom-built, product, commodity. Never say 'a map, not a measurement'. Tell the story with maps first; the punchline at the end of the section: 'you are already reading Wardley maps'. Explorers, villagers, town planners told as the story of a passage found, a village built, a town that scales (1, 50, 1,000, 200,000).",
+   "from": [
+    "batch-06: pages 14, 15, 19"
+   ]
+  },
+  {
+   "id": "T11",
+   "name": "Synthetic readers, brutal: why do I need to know this, here?",
+   "rule": "Every passage is tested by a reader who asks: why do I need this, do I have the context, why is it here, does it make sense to me now. Logistics like 'the maps still to come' fail it.",
+   "from": [
+    "batch-07: page 22"
+   ]
+  },
+  {
+   "id": "T12",
+   "name": "The real reason the team stopped, and the value of constraints",
+   "rule": "The 95% usage is a footnote: he could have moved to a session with more credits. The team stopped because he was about to go on stage and there was no tested way to take in changes made during the talk: no UX to see the delta (what was new), no workflow guaranteeing nothing would break; hence 'lock V1'. His idea was ahead of the stack, a genesis capability used as if it were a product. The interesting point of the limit is the constraint: having to move between Claude sessions forced better engineering (the handover: a new session closes the old, seals it, replaces the public key, so nobody else can be that agent). Constraints matter; working without them lets bad ways go unnoticed. Open source helps.",
+   "from": [
+    "batch-07: page 29"
+   ],
+   "source_note": "The editor's own account, given 31 October 2026, after the day; not in the record to 298be4e. Quote it as his, dated (the book's rule on material added after the day; O4 said 'the record only', so this needs a line in the revision and perhaps a decision)."
+  },
+  {
+   "id": "T13",
+   "name": "Show the agents talking: quotes from the record",
+   "rule": "Explain how the team communicates through the repository (commits and their notes, the mail and the board as files, Issues-FS and the like), and show it: real messages from one agent to another, observations, interesting moments, quoted from the history. The historian digs them out and maps them.",
+   "from": [
+    "batch-07: page 30"
+   ]
+  },
+  {
+   "id": "T14",
+   "name": "The site is the scaffolding",
+   "rule": "The story is the site: the scaffolding, the workflow, the memory. The agents are productive because they have focus and can read their context, and that comes from the site the team built. Show it with rich, companion-style infographics.",
+   "from": [
+    "batch-07: page 32"
+   ]
+  },
+  {
+   "id": "T15",
+   "name": "Every image belongs where it is",
+   "rule": "An image on a page must make sense there, to the reader, who understands why it is there; never a padding image, never a collage that mixes things the text is not about.",
+   "from": [
+    "batch-08: page 34"
+   ]
+  },
+  {
+   "id": "T16",
+   "name": "Control flow is its own section",
+   "rule": "The hold is one element of the team's control flow (a state machine): how agents are kept controlled, with the agent behaviour policy and the rest. The platform's limits (reusable cloud sessions, the hourly floor on scheduled tasks) are constraints that give the cadence, and go in a section on the logistics of running the team.",
+   "from": [
+    "batch-08: pages 35, 36"
+   ]
+  },
+  {
+   "id": "T17",
+   "name": "Timelines everywhere, as reusable components",
+   "rule": "Use timelines throughout; build them, and the small infographics, as reusable code components fed by JSON, a toolkit like a CSS framework's (horizontal, vertical, many modes) that our agents and others reuse. Brief Claude, ChatGPT, Claude Design and other agents with the same brief and compare.",
+   "from": [
+    "batch-08: page 38"
+   ]
+  },
+  {
+   "id": "T18",
+   "name": "Two kinds of trigger: the schedule and the human",
+   "rule": "Show work that happened on its own (scheduled wakes) apart from work he triggered (a chat message that starts a live loop running until a natural pause), with stats: tokens, network calls, day against night. The site's view of every agent as a row with coloured dots for its events gives the size and momentum at a glance; reuse it.",
+   "from": [
+    "batch-08: page 38"
+   ]
+  },
+  {
+   "id": "T19",
+   "name": "No judgement of others",
+   "rule": "Never claim others are not doing or saying something ('nobody else talks about this', 'why the order matters more than'): it is lose-lose, either belittling someone or wrong, since others are doing it. Do not commit to such claims.",
+   "from": [
+    "batch-09: page 43"
+   ]
+  },
+  {
+   "id": "T20",
+   "name": "Show the thing: screenshots beside the text",
+   "rule": "Every artefact the text names (the script, the gate, the release pipeline, the version number, the player, BRIEF.md, REALITY.md, policy.json) is shown: a screenshot of the page or a part of it beside the text, and an infographic; and say who uses it (the agent, a sub-agent, the reader) and which policy governs it. Use the wider page for screenshot-beside-text layouts.",
+   "from": [
+    "batch-09: pages 43, 44"
+   ]
+  },
+  {
+   "id": "T21",
+   "name": "A cast of characters, introduced like a film",
+   "rule": "Introduce the team early as a cast: who each is, its focus, what it does, visually, one in detail; start with the conductor, the one who coordinates, because the logistics make everything else work.",
+   "from": [
+    "batch-09: page 44"
+   ]
+  },
+  {
+   "id": "T22",
+   "name": "Ship something end to end first",
+   "rule": "The first lesson: ship something end to end (the first deck, the first PDF), then iterate (CI, visuals, the UI), so that at every moment there is something shippable. The CI pipeline is the source of the speed; LLMs help maintain it. Use this team and the Cold-Read team as working, replicable examples; synthetic readers replicate them and say where they get stuck. Every book is a self-contained package in a folder in Git.",
+   "from": [
+    "batch-09: page 44"
+   ]
+  },
+  {
+   "id": "T23",
+   "name": "Impress first, then how: open with a guided tour",
+   "rule": "Start the book with a guided tour of the admin side and the non-functional requirements: the amazing things that were made (the animations, the views), shown or replicated, with QR codes. Nobody asks how until they are impressed; give the solution only when they want it. The environment built with Claude and ruv.sgit is a success story, and in use now.",
+   "from": [
+    "batch-10: page 45"
+   ]
+  },
+  {
+   "id": "T24",
+   "name": "Explain the code that maintains the site",
+   "rule": "Say what the Python and JavaScript are (admin/build/validate.py and the rest), where they run (CI, Claude's sessions, locally), and why they matter: tests and checks, written with Claude, that make the expectation of what is built exist, which we never had before. Show it visually. Sandboxing it is a separate topic.",
+   "from": [
+    "batch-10: page 45"
+   ]
+  },
+  {
+   "id": "T25",
+   "name": "Contain it, the way the talk did",
+   "rule": "Follow the talk's order: show the work, then 'now, how do we contain this': preventing execution, controlling behaviour, the agent behaviour policies, connected to SHarness. Roles, fields and reach come after the ABPs are introduced, not before.",
+   "from": [
+    "batch-10: page 45"
+   ]
   }
  ],
  "page_layout": [
@@ -171,6 +316,206 @@
    "text": "How to read the record: times, commits",
    "note": "Logistics; times and who-did-what as footnotes (T1, T7)",
    "owner": "revision"
+  },
+  {
+   "n": 12,
+   "page": 10,
+   "file": "00-before-you-start.md",
+   "text": "The day: 'The editor signed the span ... nineteen hours ... a rounding'",
+   "note": "Logistics, not relevant (T1)",
+   "owner": "revision"
+  },
+  {
+   "n": 13,
+   "page": 11,
+   "file": "00-before-you-start.md",
+   "text": "the Wardley-map passage, and the publisher",
+   "note": "Introduce maps without explaining them, small maps first, side notes (T8); there is amazing content here; the publisher as town planner comes later, with a diagram; say plainly that we want a publisher",
+   "owner": "storyteller (structure), designer (side notes, small maps)"
+  },
+  {
+   "n": 14,
+   "page": "12 to 13",
+   "file": "00-before-you-start.md and every chapter",
+   "text": "'Where this came from' sections",
+   "note": "Too detailed and too light at once; move provenance to the augmented online version (T9)",
+   "owner": "storyteller (structure), developer (the augmented view), publisher (the build)"
+  },
+  {
+   "n": 15,
+   "page": 14,
+   "file": "00b-how-to-read-a-map.md",
+   "text": "'not \"we measured it here\"' / 'a map, not a measurement'",
+   "note": "He disagrees: every dot connects to facts, evidence, assumptions or the next map (T10)",
+   "owner": "revision; storyteller"
+  },
+  {
+   "n": 16,
+   "page": 15,
+   "file": "00b-how-to-read-a-map.md",
+   "text": "'Every map starts at the top with a user and a need'",
+   "note": "Not all maps start with a user and a need; start with an anchor, a point of view (T10)",
+   "owner": "revision"
+  },
+  {
+   "n": 17,
+   "page": "14 to 19",
+   "file": "00b-how-to-read-a-map.md",
+   "text": "the whole map chapter",
+   "note": "Really good: move some of it later in the book; maps as narrative first, explained after; the map on page 19 is really good",
+   "owner": "storyteller (structure)"
+  },
+  {
+   "n": 18,
+   "page": 22,
+   "file": "00b-how-to-read-a-map.md",
+   "text": "Map 4 and 'The maps still to come'",
+   "note": "Content good for the maps article (A9); 'the maps still to come' is logistics (T1, T11)",
+   "owner": "storyteller; revision"
+  },
+  {
+   "n": 19,
+   "page": 29,
+   "file": "01-pause-all-actions.md",
+   "text": "the opening: 18:44, the hold, the usage at 95%",
+   "note": "A weird place to start; 95% is a footnote; the real reason and the value of constraints (T12)",
+   "owner": "storyteller (structure), historian and researcher (his account as a dated source), revision"
+  },
+  {
+   "n": 20,
+   "page": 30,
+   "file": "01-pause-all-actions.md",
+   "text": "the hold's mechanics",
+   "note": "A good concept but too much here; it belongs with the techniques of orchestration and control, later (T13)",
+   "owner": "storyteller"
+  },
+  {
+   "n": 21,
+   "page": 31,
+   "file": "01-pause-all-actions.md (infographic, 1600 by 1600)",
+   "text": "a square infographic",
+   "note": "Another massive picture that missed QA (A2)",
+   "owner": "publisher and designer"
+  },
+  {
+   "n": 22,
+   "page": 32,
+   "file": "01-pause-all-actions.md",
+   "text": "Who may pull it, and who may release it; the brakes analogy",
+   "note": "We trust brakes because we use them all the time (T3); introduce a companion-style rich infographic here; the site as scaffolding (T14)",
+   "owner": "designer, storyteller, revision"
+  },
+  {
+   "n": 23,
+   "page": 34,
+   "file": "01-pause-all-actions.md",
+   "text": "a collage beside the hold",
+   "note": "Has nothing to do with the hold; padding (T15)",
+   "owner": "designer, revision"
+  },
+  {
+   "n": 24,
+   "page": 35,
+   "file": "01-pause-all-actions.md",
+   "text": "Two brakes, and the stronger one stopped the other",
+   "note": "Belongs in a section on control flow (T16)",
+   "owner": "storyteller (structure)"
+  },
+  {
+   "n": 25,
+   "page": 36,
+   "file": "01-pause-all-actions.md",
+   "text": "Take away: decide which brake wins",
+   "note": "Belongs in a section on the logistics of running the team (T16)",
+   "owner": "storyteller (structure)"
+  },
+  {
+   "n": 26,
+   "page": 38,
+   "file": "02-midnight-an-empty-repository.md",
+   "text": "the day's timeline in registered times",
+   "note": "Finally some meat; better time entries; several ways to show it (T17); the two kinds of trigger (T18)",
+   "owner": "designer and ruv.sgit (components), historian (entries), researcher (stats)"
+  },
+  {
+   "n": 27,
+   "page": 39,
+   "file": "02-midnight-an-empty-repository.md",
+   "text": "the talk's throws, the five-step stack, the editor returns",
+   "note": "No context for the reader yet; tell it later with a visual sequence of events, micro explanations (T1, T11)",
+   "owner": "storyteller, designer"
+  },
+  {
+   "n": 28,
+   "page": 40,
+   "file": "02-midnight-an-empty-repository.md",
+   "text": "where the brakes sit",
+   "note": "A good idea to rewrite: not only brakes, the whole technology around them (T3)",
+   "owner": "revision (his voice)"
+  },
+  {
+   "n": 29,
+   "page": 41,
+   "file": "02-midnight-an-empty-repository.md",
+   "text": "Where this came from",
+   "note": "Massive, not needed by the reader now (T9)",
+   "owner": "revision"
+  },
+  {
+   "n": 30,
+   "page": 43,
+   "file": "02-midnight-an-empty-repository.md",
+   "text": "'why the order matters more than any single thing on it'",
+   "note": "Passes judgement; cut (T19)",
+   "owner": "revision"
+  },
+  {
+   "n": 31,
+   "page": 43,
+   "file": "02-midnight-an-empty-repository.md",
+   "text": "one script, a gate, a release pipeline, a version number, the player",
+   "note": "Screenshots of what each looks like, then infographics (T20)",
+   "owner": "designer with the librarian's screenshots (index/talk-site/shots)"
+  },
+  {
+   "n": 32,
+   "page": 44,
+   "file": "02-midnight-an-empty-repository.md",
+   "text": "'a feat of speed ... the more useful reading is of its shape'; BRIEF.md and REALITY.md",
+   "note": "The power is the CI pipeline; show BRIEF.md and REALITY.md as screenshots beside the text, who uses each, which policy (T20, T22); the cast of characters, the conductor first (T21)",
+   "owner": "storyteller, designer, revision"
+  },
+  {
+   "n": 33,
+   "page": "all",
+   "file": "(the PDF)",
+   "text": "",
+   "note": "He has no page numbers in the print, and read on his iPad to connect the pages: page numbers are needed (already with the publisher)",
+   "owner": "publisher"
+  },
+  {
+   "n": 34,
+   "page": 45,
+   "file": "02-midnight-an-empty-repository.md",
+   "text": "admin/build/validate.py and the code that maintains the site",
+   "note": "A major piece; where it runs, what it is, why it matters; a visual (T24)",
+   "owner": "storyteller, designer, revision"
+  },
+  {
+   "n": 35,
+   "page": 45,
+   "file": "02-midnight-an-empty-repository.md",
+   "text": "dev's role, its field, reach, mandate (before the ABPs are introduced)",
+   "note": "Out of order: introduce containment and the ABPs first, as the talk did (T25)",
+   "owner": "storyteller (structure)"
+  },
+  {
+   "n": 36,
+   "page": 45,
+   "file": "02-midnight-an-empty-repository.md",
+   "text": "'find your role, ask the editor' (after the gate: skills, CLAUDE.md)",
+   "note": "A really good line; start with real-world examples here; explain the Markdown files, in Markua, in the article too",
+   "owner": "revision, storyteller"
   }
  ],
  "tasks": [
@@ -211,6 +556,67 @@
    "what": "The structure as a walkthrough to replicate the workflow (T6), with a couple of rounds; reuse the Gen ZX book's content where it fits",
    "owner": "storyteller (the name and structure study)",
    "from": "batch-04"
+  },
+  {
+   "id": "A7",
+   "what": "The book's content natively in JSON (every chapter, section, infographic), with Markdown as a projection; a separation of content from formatting, many projections, everything hyperlinked; research what was done at books.sgraph.ai and graphs.sgit.ai first",
+   "owner": "researcher (the study of books.sgraph.ai and graphs.sgit.ai), then publisher and developer (the build); an editor's decision before the manuscript moves",
+   "from": "batch-05"
+  },
+  {
+   "id": "A8",
+   "what": "An online, iPad-like PDF view of the book with augmented capability: provenance, links and the graph behind every page",
+   "owner": "developer (with the reviewer experience)",
+   "from": "batch-05"
+  },
+  {
+   "id": "A9",
+   "what": "Turn the map chapter (00b) into a strong article for the newsroom to publish, in the editor's way of using maps (T10); his newsroom article on kinds of evolution and the fractal map are its references",
+   "owner": "storyteller drafts with the researcher's references; the conductor routes it to the newsroom only at the editor's go",
+   "from": "batch-06"
+  },
+  {
+   "id": "A10",
+   "what": "Dig out of the talk's history the messages between agents, observations and interesting moments, quotable, and map them to the chapters (T13)",
+   "owner": "historian",
+   "from": "batch-07"
+  },
+  {
+   "id": "A11",
+   "what": "Make the synthetic readers brutal on the book itself: for each passage, why do I need this, do I have the context, why here (T11)",
+   "owner": "synthetic",
+   "from": "batch-07"
+  },
+  {
+   "id": "A12",
+   "what": "A reusable component toolkit for the book's visuals, timelines first: code fed by JSON, several modes, an example page per component (T17)",
+   "owner": "designer with ruv.sgit and developer",
+   "from": "batch-08"
+  },
+  {
+   "id": "A13",
+   "what": "Map scheduled work against work the editor triggered, with stats (tokens, network calls, day and night) where the record has them; the agent-rows view as an image (T18)",
+   "owner": "historian (the map), researcher (the stats, registered), designer (the view)",
+   "from": "batch-08"
+  },
+  {
+   "id": "A14",
+   "what": "The cast of characters: a visual introduction of every member of the talk's team (and this one), one in detail, the conductor first (T21)",
+   "owner": "designer (with the lab's cast) and storyteller",
+   "from": "batch-09"
+  },
+  {
+   "id": "A15",
+   "what": "Replication tests: synthetic readers follow the book's steps to replicate the workflow (this team, the Cold-Read team) and say where they get stuck (T22)",
+   "owner": "synthetic, once the walkthrough exists",
+   "from": "batch-09"
+  },
+  {
+   "id": "A16",
+   "what": "A guided tour of the admin side and the non-functional requirements as the book's opening (T23): what to show, in what order, with QR codes and replicated visuals, using the librarian's study of the talk's site",
+   "owner": "storyteller (structure) with designer and librarian",
+   "from": "batch-10"
   }
- ]
+ ],
+ "series_1": "Batches 1 to 10 cover the printed RC1 from page 1 to page 45; the editor said batch 10 is the last of this series (31 October 2026, about 02:20 UTC)."
 }

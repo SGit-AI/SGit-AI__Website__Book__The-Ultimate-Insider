@@ -1,0 +1,40 @@
+{
+ "number": "12",
+ "date": "Saturday 31 October 2026, 02:15 UTC",
+ "kicker": "The conductor brief · 12 · Saturday 31 October 2026",
+ "title": "Your RC1 review, pages 10 to 44: routed to eight members",
+ "when": "02:15 UTC, the conductor's scheduled wake (02:02)",
+ "by": "conductor@book.the-ultimate-insider, key sha256:f2456a147ac54f5f",
+ "headline": "Batches 5 to 9 are with their owners. Twenty-two rules now shape the book (T1 to T22), and fifteen tasks are out (A1 to A15). Meanwhile the team kept going: synthetic tested six candidate titles on its eight personas, the designer printed the lab at Crown Quarto and a trim study, the lab reached LAB 08, the researcher registered ten more of the talk's pieces, and the librarian mapped the index to every chapter.",
+ "stats": [
+  {"n": "9", "label": "review batches captured (pages 1 to 44, and task A1)"},
+  {"n": "22", "label": "rules for the whole book (T1 to T22)"},
+  {"n": "15", "label": "tasks out (A1 to A15)"},
+  {"n": "6", "label": "candidate titles tested on 8 personas (synthetic)"}
+ ],
+ "sections": [
+  {"title": "The rules from pages 10 to 44", "table": {"head": ["", "Rule"], "rows": [
+   ["T8", "Wardley maps shown before they are explained; small maps first, side notes"],
+   ["T9", "Provenance lives online; the 'Where this came from' sections leave the print"],
+   ["T10", "Maps your way: an anchor, evidence behind every dot, fractal, of anything; 'you are already reading maps'"],
+   ["T11", "Brutal readers: why do I need this, here, now?"],
+   ["T12", "Why the team stopped (your dated account) and the value of constraints"],
+   ["T13", "Show the agents talking: real messages from the record"],
+   ["T14", "The site is the scaffolding: focus and context make the agents productive"],
+   ["T15", "Every image belongs where it is"],
+   ["T16", "Control flow is its own section; platform limits are a useful constraint"],
+   ["T17", "Timelines everywhere, as reusable components"],
+   ["T18", "Two kinds of trigger: the schedule and you"],
+   ["T19", "No judgement of others"],
+   ["T20", "Show the thing: screenshots beside the text"],
+   ["T21", "A cast of characters, the conductor first"],
+   ["T22", "Ship something end to end first; this team as the worked example"]]}},
+  {"title": "Who has what now", "items": ["storyteller: the structure (T8 to T22) and the maps article (A9)", "researcher: the JSON study (A7), the stats (A13), your account as a dated source (T12)", "historian: the agents' own messages (A10), the map of triggers (A13)", "designer and ruv.sgit: the component toolkit (A12), the cast (A14), images that belong, page 31", "publisher: page numbers now, the JSON build question (A7)", "developer: the augmented reading view (A8)", "synthetic: brutal readers (A11), replication tests (A15)"]}
+ ],
+ "for_you": [
+  {"id": "next", "ask": "Keep going from page 45", "options": ["More to come"]},
+  {"id": "O4", "ask": "Quoting your own account (T12) beside the record", "detail": "O4 said 'the record only'. Your account of why the team stopped is given after the day; the book would quote it as yours, dated.", "options": ["Yes, quote it as mine, dated", "No, record only"], "recommend": "Yes: it is the more useful lesson, and it is clearly marked."}
+ ],
+ "next": ["04:02: the conductor's wake; the members' first answers to the review"],
+ "sources": ["briefs/2026-10-31__rc1-paper-review/", "team/conductor/rc1/editor-review/notes.json", "git log of dev since 00:00"]
+}

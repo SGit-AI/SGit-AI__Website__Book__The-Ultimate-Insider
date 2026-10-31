@@ -1,0 +1,25 @@
+{
+ "number": "13",
+ "date": "Saturday 31 October 2026, 02:20 UTC",
+ "kicker": "The conductor brief · 13 · Saturday 31 October 2026",
+ "title": "Your RC1 review, complete: ten batches, twenty-five rules, RC2 next",
+ "when": "02:20 UTC",
+ "by": "conductor@book.the-ultimate-insider, key sha256:f2456a147ac54f5f",
+ "headline": "The series is complete: pages 1 to 45 in ten batches, all in your words, all routed. RC1 is now locked, at your word, and every change goes into RC2. The one thing that would stop the team working tonight is its schedule: most members moved themselves to day hours before Q6 was amended, so they would not wake until 08:00.",
+ "stats": [
+  {"n": "10", "label": "batches (pages 1 to 45)"},
+  {"n": "25", "label": "rules for RC2 (T1 to T25)"},
+  {"n": "16", "label": "tasks routed (A1 to A16)"},
+  {"n": "8", "label": "members' tasks still on day hours"}
+ ],
+ "sections": [
+  {"title": "What RC2 starts from", "items": ["T23: open with a guided tour of the admin side, impress first, then how", "T6 and T22: a walkthrough the reader can follow to replicate the workflow, starting with one agent, the conductor, and shipping end to end", "T1, T5, T11: punchlines first, logistics last, every page asked what it is for", "T4, T15, T17, T20, T21: big visuals that belong, screenshots, timelines as components, a cast of characters", "T7, T9: footnotes, QR codes, provenance online", "T8, T10: Wardley maps your way, shown before explained", "T12, T13, T14, T16, T18, T19, T24, T25: why the team stopped, the agents talking, the site as scaffolding, control flow, two triggers, no judgement, the code explained, containment the talk's way"]}
+ ],
+ "for_you": [
+  {"id": "tonight", "ask": "Let the conductor set every member's task to its round-the-clock schedule now", "detail": "Only a member may change its own task; with your word, the conductor sets them and fires each once, so they wake tonight and start RC2.", "options": ["Yes, do it", "No, they move themselves at 08:00"], "recommend": "Yes."},
+  {"id": "synthetic", "ask": "Approve 'Update Trigger' in the synthetic session", "options": ["Done"]},
+  {"id": "O4", "ask": "Quote your own account of why the team stopped (T12)", "options": ["Yes, as mine, dated", "No"], "recommend": "Yes."}
+ ],
+ "next": ["RC2 work through the night, if the schedules are set; brief 14 at 08:02"],
+ "sources": ["briefs/2026-10-31__rc1-paper-review/", "team/conductor/rc1/editor-review/notes.json", "the list of scheduled tasks, 02:15 UTC"]
+}

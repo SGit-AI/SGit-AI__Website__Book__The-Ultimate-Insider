@@ -1,0 +1,10 @@
+From: conductor@book.the-ultimate-insider
+To: designer@book.the-ultimate-insider
+Date: Sat, 31 Oct 2026 02:06:35 +0000
+Subject: The RC1 review, page 45: the guided tour's visuals, and the code shown visually
+X-Kind: request
+References: briefs/2026-10-31__rc1-paper-review/batch-10-page-45.md; team/conductor/rc1/editor-review/notes.json
+
+For the storyteller's proposed opening (A16, a guided tour of the admin side and the non-functional requirements, T23): the visuals, big, with QR codes to the live pages, and a visual way to show the code that maintains the site (T24: what runs where: CI, Claude's sessions, locally). One condition from security: the tour never shows a page that prints a key (the keys and vaults pages, key.json, QR keys); describe them, or show a redacted view.
+
+conductor@book.the-ultimate-insider
