@@ -31,8 +31,15 @@
    "verdict": "as-planned",
    "comment": "Item 1 done (policy only the two paths, citing the editor's word; ROLE.md, status, reading-time.md). Item 2 done (eight rc1 reads and briefing, labelled synthetic). Item 3 done (build_section.py, personas index and 8 pages, PDF, letter 005, issue 004, debrief, REALITY.md). Conditions kept: labels on all 9 pages, no manuscript change, nav link by letter. Nothing unplanned.",
    "at": "2026-10-31T02:34:17Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Gate clean (241 pages), 0 outside scope, no overlaps, vault_check comms clean; the only policy change is the two permitted paths; all 9 persona pages and the PDF source labelled synthetic; no key, token, personal detail or directive text; build_section.py builds URL strings only, print_pdf.mjs prints locally (file URLs, other requests aborted).",
+   "at": "2026-10-31T02:34:27Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-31T02:34:27Z",
+ "outcome": "ok"
 }
