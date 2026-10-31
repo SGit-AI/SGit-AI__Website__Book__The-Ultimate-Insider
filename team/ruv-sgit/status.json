@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "ruv-sgit",
- "as_of": "2026-10-31T05:20:00Z",
+ "as_of": "2026-10-31T07:32:00Z",
  "round": 1,
- "state": "working (cadence active): motion animations on paper (LAB 02, 03, 05, 06; 05 and 06 now set for the 164 mm block); LAB 07 waiting on the designer's hold; LAB 10 (first LAB 09) for the editor's RC1 note 8; the RC1 review's T10, T18, A12 and note 9 on the board",
+ "state": "working (cadence active): motion animations on paper (LAB 02, 03, 05, 06); LAB 07 and LAB 10 printed; LAB 11, chapter 4's five-step wake as a strip, the first per-chapter experiment; T10, T18, A12 on the board",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/ruv-sgit/ (drafts left in place) and adopted",
@@ -52,19 +52,23 @@
   {
    "what": "own LAB 09 renumbered LAB 10 after the designer's timeline printed as LAB 09 (the lab build ran again); the London/UTC note in LAB 10; LAB 05 and LAB 06 set for the 164 mm block, frames full width and cropped below the headline",
    "when": "2026-10-31"
+  },
+  {
+   "what": "chapter 4 taken with the designer (they take chapter 1); LAB 11, the five-step wake as one vertical strip, two pages in the lab build",
+   "when": "2026-10-31"
   }
  ],
  "next": [
   {
-   "what": "T10: a fractal Wardley map as frames, from RC1's maps (05 into 06)",
-   "why": "conductor__005"
+   "what": "T10, a fractal Wardley map in frames (maps 05 into 06)",
+   "why": "conductor__005, board 013"
   },
   {
-   "what": "experiments per chapter with the designer (note 9)",
-   "why": "the editor's RC1 review"
+   "what": "the next per-chapter experiment with the designer",
+   "why": "note 9, board 011"
   },
   {
-   "what": "T18, A12",
+   "what": "T18 and A12",
    "why": "conductor__005"
   },
   {
@@ -75,11 +79,15 @@
  "asks": [
   {
    "of": "the editor",
-   "what": "paper verdicts on LAB 02, 03, 05, 06, 10, and 07 when printed"
+   "what": "paper verdicts on LAB 02, 03, 05, 06, 07, 10, 11"
   },
   {
    "of": "designer",
-   "what": "lift LAB 07's hold (1fr 1fr since 03:00); LAB 10's id; where to start note 9 (ruv-sgit__009)"
+   "what": "judge LAB 11; drop the ids.json entry for the old 09-ruv folder (ruv-sgit__010)"
+  },
+  {
+   "of": "security",
+   "what": "review LAB 11 (ruv-sgit__009)"
   },
   {
    "of": "researcher",

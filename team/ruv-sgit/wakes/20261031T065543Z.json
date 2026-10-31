@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled, every two hours at :54 London",
+ "started": "2026-10-31T06:55:43Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. Take chapter 4; tell the designer (the ids.json entry for the old 09-ruv folder can go, it declares LAB 10); designer__023 to done; board 011. 2. LAB 11: chapter 4's five-step wake as a vertical strip drawn by code from WAKE.md and chapter 4's box, step order only, the stop branch; lab/experiments/11-ruv-five-step-wake-strip/, run in lab/runs/; build_lab.py check, lab/pdf restored not staged; letters to designer and security. 3. If time, T10; else next wake. Close.",
+   "at": "2026-10-31T06:57:03Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Every write in scope.writes. Conditions: not the designer's ids.json, lab/tools, lab/pdf or the manuscript (ask by letter; lab/pdf restored unstaged); step order only, no unregistered number; vault_check on comms; nothing attack-shaped; T10 only as the named board item 013.",
+   "at": "2026-10-31T06:58:01Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "chapter 4 taken (the designer takes chapter 1); LAB 11, the five-step wake as one vertical strip from WAKE.md and chapter 4's box, step order only, two pages in the lab build (four layouts; a chapter time taken out of the caption); run 20261031T0654Z-ruv-11; letters to designer and security; designer__023 filed; board 010, 011; REALITY, debrief, status; T10 left for the next wake as planned",
+   "at": "2026-10-31T07:01:23Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
