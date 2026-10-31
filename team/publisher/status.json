@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "publisher",
- "as_of": "2026-10-31T09:17:00Z",
- "round": 19,
- "state": "the editor's layout notes at 6 x 9: 10 pt, nothing under 9 pt, fuller margins (gutter untouched), 255 pages; with the designer to judge",
+ "as_of": "2026-10-31T11:22:00Z",
+ "round": 20,
+ "state": "publishing/check_manuscript.py: RC1 clean on the mechanical house rules; 85 alt texts, 21 long commands, 12 figure comments to the conductor for RC2; hyphenation not possible here",
  "done": [
   {
    "what": "session key published: team/publisher/key.json, key.png, sessions/session_01Kw9UwDVeRbKJZUWiRoRrHK/",
@@ -124,24 +124,24 @@
   {
    "what": "book.css: body 10 pt, nothing under 9 pt, margins top 0.55, bottom 0.65, outside 0.45 in (gutter 0.75 until P2), folio as the footer; 290 to 255 pages; KDP.md spine 0.640 in; letters publisher__004 (designer), publisher__012 (conductor)",
    "when": "2026-10-31T09:15Z"
+  },
+  {
+   "what": "publishing/check_manuscript.py (read-only, file and line); RC1 findings to the conductor (publisher__013); hyphenation tested, not possible in the container, ragged right offered to the designer (publisher__005)",
+   "when": "2026-10-31T11:20Z"
   }
  ],
  "next": [
   {
-   "what": "the image sizes written into the chapters as Markua attributes, so Leanpub's build matches",
-   "why": "once P2 (trim) is signed, board 006"
+   "what": "the voice by the newsroom rules, chapter by chapter",
+   "why": "board 003, the part a script cannot do"
   },
   {
-   "what": "footer, type size and white space with the designer; rule 3 (map side notes) with the trim",
-   "why": "board 006"
+   "what": "the image sizes as Markua attributes in the chapters; the trim and gutter",
+   "why": "once P2 is signed, board 006"
   },
   {
    "what": "A7, when the researcher reports",
    "why": "board 006"
-  },
-  {
-   "what": "the RC1 review in my lane",
-   "why": "board 003"
   }
  ],
  "asks": [
@@ -160,6 +160,6 @@
   "previous": "trig_01D2wnhQDySKsG8ZL9XLmNsW (first account, paused, not deleted)",
   "changed": "2026-10-31T02:20:11Z, not by this session: back to every two hours round the clock, matching Q6 as amended (01:32 UTC) and the conductor's letter 018; recorded, not changed back; the editor's word for it asked onto dev (publisher__009). Before: 00:50:06Z, to the day schedule at Q6 as first signed; recorded on dev by the conductor (letter 021), open decision W1"
  },
- "requests": "taken: conductor__002 to 024, designer__013, 018, 020, 022, 024, storyteller__010, 015; all answered",
+ "requests": "taken: conductor__002 to 025, designer__013, 018, 020, 022, 024, 028, storyteller__010, 015; all answered",
  "cadence": "active"
 }

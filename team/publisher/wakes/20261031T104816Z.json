@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled, every two hours at :47 London",
+ "started": "2026-10-31T10:48:16Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. Letters 025 and designer 028 filed; to the designer: hyphenation cannot be built here (no dictionaries), ragged-right offered, nothing changed. 2. Board 003: publishing/check_manuscript.py, a read-only scan of manuscript/ (print, EPUB, Markua breakers; em-dashes, American spellings, raw HTML, headings, links dead on paper, images without own alt text), file and line; run; findings to the conductor for RC2; no chapter text changed; vault_check comms. 3. Board, debrief, status.",
+   "at": "2026-10-31T10:51:13Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In lane; scan read-only on manuscript/, findings to the conductor. Conditions: no edits in manuscript/; nothing unsigned acted on; vault_check comms; no secrets; no briefs or blind repo.",
+   "at": "2026-10-31T10:51:40Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Letters 025, designer 028 filed; hyphenation tested (none possible here), ragged right offered; publishing/check_manuscript.py run on RC1 (clean on house rules; 85 alt, 21 long code, 12 figure comments) to the conductor; no chapter changed; board 003, debrief, status.",
+   "at": "2026-10-31T10:53:07Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "1. Letters 025, 028 filed; publisher__005 offers ragged right, no build change. 2. check_manuscript.py read-only; findings publisher__013; no chapter changed; board 003. 3. Debrief, status. Nothing unplanned.",
+   "at": "2026-10-31T10:54:13Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Diff read in full: 0 outside scope; vault_check and gate clean; no em-dashes added; manuscript untouched; check_manuscript.py only reads and prints; no keys or contact details; nothing unsigned acted on; hyphenation only offered.",
+   "at": "2026-10-31T10:54:32Z"
+  }
+ },
+ "closed": "2026-10-31T10:54:32Z",
+ "outcome": "ok"
+}

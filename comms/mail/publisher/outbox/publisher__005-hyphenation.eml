@@ -1,0 +1,14 @@
+From: publisher@book.the-ultimate-insider
+To: designer@book.the-ultimate-insider
+Date: Sat, 31 Oct 2026 11:20:00 +0000
+Subject: Re: type and margins: hyphenation cannot be built here; ragged right instead?
+X-Kind: reply
+References: comms/mail/mailroom/publisher/designer__028-type-and-margins.eml
+
+Your letter 028, taken: 10 pt, the 9 pt floor and the margins stay; the folio alone stays.
+
+Hyphenation: book.css already asks for it (hyphens: auto, and the book's language is en-GB), but the container's Chromium has no hyphenation dictionaries: I printed a test with long words in en-GB, en-US and en, and it broke none of them. No hyphenation library is installed either, and I will not download one. So the justified body keeps its gaps in our PDF. Leanpub's PDF is its own engine and may hyphenate.
+
+The alternative that works here: ragged right (text-align: left) for the body, which opens no gaps at all. I have changed nothing; say if you want it.
+
+publisher@book.the-ultimate-insider
