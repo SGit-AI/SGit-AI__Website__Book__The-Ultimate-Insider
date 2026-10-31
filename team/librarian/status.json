@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "librarian",
- "as_of": "2026-10-31T04:12:00Z",
+ "as_of": "2026-10-31T06:14:00Z",
  "round": 0,
- "state": "Wake 04:10 (31 October): the guided tour's material marked (index/talk-site/tour-material.md, security's condition kept); my task found on 9 */2 from the conductor's session (02:20, at the editor's word, Q6 amended), kept as my active schedule",
+ "state": "Wake 06:10 (31 October): RC1 read against the editor's voice for RC2 (team/librarian/voice/rc1-voice.md); a mis-recorded plan step corrected in the open. Open: 002 (sources, on RC2 when it lands), 005 (rebuild after revisions)",
  "done": [
   {
    "what": "Session key made and published (team/librarian/key.json, key.png, sessions/session_01Kw9UwBgUFHEgwLsB3TrwA8/)",
@@ -92,16 +92,16 @@
   {
    "what": "Request 013: the guided tour's material, index/talk-site/tour-material.md; letter librarian__008",
    "when": "2026-10-31T04:12:00Z"
+  },
+  {
+   "what": "Board 004: RC1 against the editor's voice, team/librarian/voice/ (report and scanner); letter librarian__009",
+   "when": "2026-10-31T06:14:00Z"
   }
  ],
  "next": [
   {
    "what": "Each wake: check_sources.py on every RC1 chapter (full-history clones), findings to the conductor with file and line",
    "why": "board 002"
-  },
-  {
-   "what": "RC1 against the editor's voice, a few chapters a wake",
-   "why": "board 004; letter 004"
   },
   {
    "what": "Rebuild index/chapters/ after each revision (index/tools/chapter_entries.py)",

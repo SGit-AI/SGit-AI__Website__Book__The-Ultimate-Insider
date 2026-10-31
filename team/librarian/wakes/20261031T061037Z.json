@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, every two hours at :09 London",
+ "started": "2026-10-31T06:10:37Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "Re-run at 06:12: the first plan of this wake was written by the member, not by the plan sub-agent, and mis-recorded; this replaces it. 1) Board 002: nothing changed, noted in issue 002. 2) Board 004: the newsroom writer's published rules and 3 to 4 chapters read; file:line findings against RC1 (locked, V2; for RC2) in team/librarian/voice/, a scanner of the rules' checkable parts with them; issue 004; letter librarian__009 to the conductor; no manuscript edits. 3) Debrief, status, vault_check, agents check; index/ unchanged.",
+   "at": "2026-10-31T06:12:07Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "Run again on the replacement plan: inside policy; manuscript read only; vault_check on comms; no secret or contact in the letter. The mis-recorded first plan is to be stated in the open in the debrief, with the real author and time.",
+   "at": "2026-10-31T06:12:27Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Board 004 done: team/librarian/voice/rc1-voice.md (third person about 420 times, structural, for RC2; ten lines to reread; chapter 10 read closely) and voice_scan.py; letter librarian__009 with outbox; 004 filed done; issue 002 noted. The mis-recorded first plan corrected in the open in the debrief. No manuscript edits.",
+   "at": "2026-10-31T06:14:17Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
