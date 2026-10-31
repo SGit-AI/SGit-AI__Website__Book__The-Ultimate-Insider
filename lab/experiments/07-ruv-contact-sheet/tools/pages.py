@@ -51,7 +51,7 @@ REGISTERED = [
 SLOTS = [
  ('E04: the over-enthusiastic agent', 'studio/lab/e04/v1', 'c33e86a', 'Figures from published reports of outside cases; the researcher checks each at its source.'),
 ]
-GRID = f'<div style="display:grid;grid-template-columns:{W}mm {W}mm;gap:5mm 7mm">\n'
+GRID = f'<div style="display:grid;grid-template-columns:1fr 1fr;gap:5mm 7mm">\n'
 TITLE = '<p style="font:700 9.5pt/13pt var(--sans);margin:0 0 1mm">{}</p>'
 
 
@@ -61,7 +61,7 @@ def src(path, commit):
 
 def still(title, path, commit, img, cap):
     return (f'  <figure class="fig" style="margin:0">{TITLE.format(title)}'
-            f'<img src="{{{{dir}}}}/frames/{img}" alt="{title}, its last frame" style="width:{W}mm;display:block;border:.3mm solid var(--fill-2)">'
+            f'<img src="{{{{dir}}}}/frames/{img}" alt="{title}, its last frame" style="width:100%;display:block;border:.3mm solid var(--fill-2)">'
             f'<figcaption>{cap}{src(path, commit)}</figcaption></figure>\n')
 
 

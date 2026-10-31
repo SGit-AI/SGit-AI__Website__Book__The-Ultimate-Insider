@@ -29,3 +29,7 @@ Four slots became stills with the researcher's ids: policy-gate and journey (C07
 ## Filled again, 31 October, the 00:54 wake
 
 The researcher registered the studio pieces (C082 to C086) and security cleared E06 and E08, so the sheet now holds eighteen stills and one slot (E04, whose figures from outside reports the researcher checks next). Following security's note (security__006), masks are no longer boxes drawn on the page: `tools/mask.py` burns them into the committed PNGs from raw captures kept outside the repository, so no file shows what the register withholds. Masked: abp's untraced figure (C079); abp-review's contradicted sentence (C081) and its form counters; E12's projection of what a designed wall would leave, where it appears in three places (C086 named one). E03 is shown as security's narrower still: the ring, its side panel left blank. Laid out for the lab's Crown Quarto text block (167 mm), two sheets. The designer holds LAB 07 in `lab/tools/ids.json` while most slots were empty; with the hold lifted in a scratch copy of `lab/`, the designer's build renders it (22 pages, 9 pt floor, no overflow).
+
+## 31 October, the 02:54 wake
+
+Grids set to 1fr 1fr for the 167 mm block, as the designer asked; E12's eight still-lit circles masked with the line that counts them, on security's note that they gave the projection away. With the hold lifted in a scratch copy, the designer's build passes it.
