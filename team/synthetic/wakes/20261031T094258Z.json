@@ -1,0 +1,10 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, idle, 09:42 London",
+ "started": "2026-10-31T09:42:58Z",
+ "steps": {},
+ "closed": "2026-10-31T17:43:00Z",
+ "outcome": "failed",
+ "note": "Opened by start.py at 09:42 UTC; the session's worker restarted before step 1, so no step ran and nothing was changed. Recorded by hand at the next wake (17:43 UTC), since wake.py close refuses a wake with no steps. The work it would have done is this wake's."
+}
