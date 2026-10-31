@@ -149,6 +149,38 @@
    "from": [
     "batch-08: page 38"
    ]
+  },
+  {
+   "id": "T19",
+   "name": "No judgement of others",
+   "rule": "Never claim others are not doing or saying something ('nobody else talks about this', 'why the order matters more than'): it is lose-lose, either belittling someone or wrong, since others are doing it. Do not commit to such claims.",
+   "from": [
+    "batch-09: page 43"
+   ]
+  },
+  {
+   "id": "T20",
+   "name": "Show the thing: screenshots beside the text",
+   "rule": "Every artefact the text names (the script, the gate, the release pipeline, the version number, the player, BRIEF.md, REALITY.md, policy.json) is shown: a screenshot of the page or a part of it beside the text, and an infographic; and say who uses it (the agent, a sub-agent, the reader) and which policy governs it. Use the wider page for screenshot-beside-text layouts.",
+   "from": [
+    "batch-09: pages 43, 44"
+   ]
+  },
+  {
+   "id": "T21",
+   "name": "A cast of characters, introduced like a film",
+   "rule": "Introduce the team early as a cast: who each is, its focus, what it does, visually, one in detail; start with the conductor, the one who coordinates, because the logistics make everything else work.",
+   "from": [
+    "batch-09: page 44"
+   ]
+  },
+  {
+   "id": "T22",
+   "name": "Ship something end to end first",
+   "rule": "The first lesson: ship something end to end (the first deck, the first PDF), then iterate (CI, visuals, the UI), so that at every moment there is something shippable. The CI pipeline is the source of the speed; LLMs help maintain it. Use this team and the Cold-Read team as working, replicable examples; synthetic readers replicate them and say where they get stuck. Every book is a self-contained package in a folder in Git.",
+   "from": [
+    "batch-09: page 44"
+   ]
   }
  ],
  "page_layout": [
@@ -380,6 +412,62 @@
    "text": "the day's timeline in registered times",
    "note": "Finally some meat; better time entries; several ways to show it (T17); the two kinds of trigger (T18)",
    "owner": "designer and ruv.sgit (components), historian (entries), researcher (stats)"
+  },
+  {
+   "n": 27,
+   "page": 39,
+   "file": "02-midnight-an-empty-repository.md",
+   "text": "the talk's throws, the five-step stack, the editor returns",
+   "note": "No context for the reader yet; tell it later with a visual sequence of events, micro explanations (T1, T11)",
+   "owner": "storyteller, designer"
+  },
+  {
+   "n": 28,
+   "page": 40,
+   "file": "02-midnight-an-empty-repository.md",
+   "text": "where the brakes sit",
+   "note": "A good idea to rewrite: not only brakes, the whole technology around them (T3)",
+   "owner": "revision (his voice)"
+  },
+  {
+   "n": 29,
+   "page": 41,
+   "file": "02-midnight-an-empty-repository.md",
+   "text": "Where this came from",
+   "note": "Massive, not needed by the reader now (T9)",
+   "owner": "revision"
+  },
+  {
+   "n": 30,
+   "page": 43,
+   "file": "02-midnight-an-empty-repository.md",
+   "text": "'why the order matters more than any single thing on it'",
+   "note": "Passes judgement; cut (T19)",
+   "owner": "revision"
+  },
+  {
+   "n": 31,
+   "page": 43,
+   "file": "02-midnight-an-empty-repository.md",
+   "text": "one script, a gate, a release pipeline, a version number, the player",
+   "note": "Screenshots of what each looks like, then infographics (T20)",
+   "owner": "designer with the librarian's screenshots (index/talk-site/shots)"
+  },
+  {
+   "n": 32,
+   "page": 44,
+   "file": "02-midnight-an-empty-repository.md",
+   "text": "'a feat of speed ... the more useful reading is of its shape'; BRIEF.md and REALITY.md",
+   "note": "The power is the CI pipeline; show BRIEF.md and REALITY.md as screenshots beside the text, who uses each, which policy (T20, T22); the cast of characters, the conductor first (T21)",
+   "owner": "storyteller, designer, revision"
+  },
+  {
+   "n": 33,
+   "page": "all",
+   "file": "(the PDF)",
+   "text": "",
+   "note": "He has no page numbers in the print, and read on his iPad to connect the pages: page numbers are needed (already with the publisher)",
+   "owner": "publisher"
   }
  ],
  "tasks": [
@@ -462,6 +550,18 @@
    "what": "Map scheduled work against work the editor triggered, with stats (tokens, network calls, day and night) where the record has them; the agent-rows view as an image (T18)",
    "owner": "historian (the map), researcher (the stats, registered), designer (the view)",
    "from": "batch-08"
+  },
+  {
+   "id": "A14",
+   "what": "The cast of characters: a visual introduction of every member of the talk's team (and this one), one in detail, the conductor first (T21)",
+   "owner": "designer (with the lab's cast) and storyteller",
+   "from": "batch-09"
+  },
+  {
+   "id": "A15",
+   "what": "Replication tests: synthetic readers follow the book's steps to replicate the workflow (this team, the Cold-Read team) and say where they get stuck (T22)",
+   "owner": "synthetic, once the walkthrough exists",
+   "from": "batch-09"
   }
  ]
 }
