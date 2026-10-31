@@ -53,3 +53,8 @@ figcaption { font-size: 0.78em; line-height: 1.35; color: #444; margin-top: 0.45
 @page :right { @bottom-right { content: counter(page); font-family: Georgia, "DejaVu Serif", serif; font-size: 8.5pt; color: #444; } }
 @page :left { @bottom-left { content: counter(page); font-family: Georgia, "DejaVu Serif", serif; font-size: 8.5pt; color: #444; } }
 @page :first { @bottom-right { content: none; } @bottom-left { content: none; } }
+/* notes: Markua's footnotes and endnotes ([^x], [^^x]) print at the end of their chapter; Chromium cannot place a
+   note at the foot of its page (publishing/FOOTNOTES-AND-QR.md) */
+.footnotes { font-size: 8.5pt; line-height: 1.35; margin-top: 1.2em; }
+.footnotes hr { border: none; border-top: 0.5pt solid #999; width: 30%; margin: 0 0 0.5em; }
+.footnotes .footnote-back { display: none; }

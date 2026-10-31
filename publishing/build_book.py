@@ -93,6 +93,36 @@ def tall_images(pdf, share, sources):
     return tall
 
 
+def epub_images(work, width):
+    """Copies of the manuscript's images at most width pixels wide, for the EPUB only (the PDF keeps them as they are):
+    KDP charges for delivery by the megabyte at the 70% royalty (publishing/KDP.md). The manuscript is not touched.
+    Returns the folder to put first on pandoc's resource path."""
+    out = os.path.join(work, "epub-images")
+    if not width:
+        return out
+    try:
+        from PIL import Image
+    except ImportError:
+        print("build_book: EPUB images kept full size: Pillow is not installed")
+        return out
+    for src in glob.glob(os.path.join(MANUSCRIPT, "resources", "**", "*.*"), recursive=True):
+        rel = os.path.relpath(src, MANUSCRIPT)
+        try:
+            with Image.open(src) as im:
+                if im.width <= width:
+                    continue
+                dst = os.path.join(out, rel)
+                os.makedirs(os.path.dirname(dst), exist_ok=True)
+                small = im.resize((width, round(im.height * width / im.width)), Image.LANCZOS)
+                if src.lower().endswith((".jpg", ".jpeg")):
+                    small.convert("RGB").save(dst, quality=82, optimize=True)
+                else:
+                    small.save(dst, optimize=True)
+        except OSError:
+            pass
+    return out
+
+
 def pandoc(args):
     subprocess.run(["pandoc", "--from", "markdown", "--metadata-file", os.path.join(HERE, "metadata.yaml")] + args,
                    check=True, cwd=MANUSCRIPT)
@@ -104,6 +134,8 @@ def main():
     p.add_argument("--chrome", help="path to a Chromium or Chrome binary")
     p.add_argument("--no-pdf", action="store_true")
     p.add_argument("--no-epub", action="store_true")
+    p.add_argument("--epub-image-width", type=int, default=1000,
+                   help="the EPUB's images at most this many pixels wide (default 1000; 0 keeps them as they are)")
     p.add_argument("--max-image-share", type=float, default=0.45,
                    help="report every image printed taller than this share of the text block (default 0.45)")
     a = p.parse_args()
@@ -127,7 +159,9 @@ def main():
         default = subprocess.run(["pandoc", "--print-default-data-file", "epub.css"], capture_output=True, text=True).stdout
         with open(os.path.join(HERE, "epub.css"), encoding="utf-8") as f, open(css, "w", encoding="utf-8") as out:
             out.write(default + "\n" + f.read())
-        pandoc(["--to", "epub3", "--toc", "--toc-depth=1", "--css", css, "--output", epub] + files)
+        smaller = epub_images(marked, a.epub_image_width)
+        pandoc(["--to", "epub3", "--toc", "--toc-depth=1", "--reference-location=section", "--css", css,
+                "--resource-path", os.pathsep.join([smaller, MANUSCRIPT]), "--output", epub] + files)
         made.append(epub)
 
     if not a.no_pdf:
@@ -140,7 +174,7 @@ def main():
             css = f.read()
         with tempfile.NamedTemporaryFile("w", suffix=".html", delete=False) as head:
             head.write(f"<style>\n{css}</style>\n")
-        args = ["--to", "html5", "--standalone", "--toc", "--toc-depth=1", "--section-divs",
+        args = ["--to", "html5", "--standalone", "--toc", "--toc-depth=1", "--section-divs", "--reference-location=section",
                 "--include-in-header", head.name, "--variable", "document-css=false", "--output", html]
         try:  # images inside the HTML: it is written to a temporary folder, where manuscript/'s relative paths break
             try:
@@ -167,6 +201,8 @@ def main():
 
     for m in made:
         print(f"build_book: {os.path.relpath(m, ROOT)} ({os.path.getsize(m)} bytes) from {len(files)} file(s) in Book.txt")
+        if m.endswith(".epub"):  # KDP, 70% royalty: US $0.15 a megabyte on every Amazon.com sale (publishing/KDP.md)
+            print(f"build_book:   EPUB {os.path.getsize(m) / 1e6:.1f} MB: KDP delivery about US ${os.path.getsize(m) / 1e6 * 0.15:.2f} a sale at 70%")
     counts = [(os.path.basename(f), words(f)) for f in sources]
     for name, n in counts:
         print(f"build_book:   {n:>7,} words  {name}")

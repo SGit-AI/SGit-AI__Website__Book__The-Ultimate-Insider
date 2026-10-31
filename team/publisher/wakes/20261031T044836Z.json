@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled, every two hours at :47 London",
+ "started": "2026-10-31T04:48:36Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. Letters conductor 021, 022 and designer 020 filed; status.json; register ids closed on board 006. 2. A5: publishing/FOOTNOTES-AND-QR.md (Markua footnotes from markua.com, markua.py if needed, a QR code from an installed library only, printed at several sizes in a test chapter, the smallest a phone reads). 3. Smaller EPUB: build_book.py downscales images with Pillow in the temporary copy only, reports EPUB size and KDP delivery cost; debrief.",
+   "at": "2026-10-31T04:49:09Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Fits scope; no stop condition; installed libraries only, no downloaded code. Conditions: images downscaled in a temp copy only; vault_check comms; QR codes to public URLs only; letters to others as requests only.",
+   "at": "2026-10-31T04:49:22Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Letters 021, 022, designer 020 filed; notes at chapter end (build_book.py, book.css); qr_test.py with installed reportlab, FOOTNOTES-AND-QR.md; EPUB images downscaled in a temp copy (13.5 to 9.0 MB); KDP.md, board 006, letters, debrief, status, REALITY.md. Smallest readable QR not measured: needs a phone.",
+   "at": "2026-10-31T04:52:26Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "1. Letters 021, 022, designer 020 filed; status, REALITY.md, board 006; replies to designer and conductor: done. 2. A5: FOOTNOTES-AND-QR.md, book.css, qr_test.py, KDP.md: done. 3. Smaller EPUB in build_book.py, size and cost reported; debrief: done. Stat-level check; nothing unplanned.",
+   "at": "2026-10-31T04:53:01Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Full diff read: 0 outside scope, REALITY.md one appended line; vault_check and gate clean (276); no em-dashes, keys or contact details; QR addresses public only; build_book.py and qr_test.py write only to temp dirs and _site, manuscript untouched; no downloaded code.",
+   "at": "2026-10-31T04:53:19Z"
+  }
+ },
+ "closed": "2026-10-31T04:53:19Z",
+ "outcome": "ok"
+}

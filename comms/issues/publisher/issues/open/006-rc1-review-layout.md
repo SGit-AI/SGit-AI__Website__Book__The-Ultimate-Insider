@@ -7,8 +7,9 @@ source: comms/mail/mailroom/publisher/conductor__018-rc1-review-layout.eml; cond
 
 - [x] Page numbers on every page, outside corner, none on the title page (book.css), 31 October about 03:00 UTC
 - [x] A2: build_book.py reports images printed taller than 45% of the text block, with page, chapter and file (34 today)
-- [ ] The register ids visible on the page: asked the conductor what exactly should show
+- [x] The register ids: the C-numbers already in the text are enough (the conductor's letter 022)
 - [ ] Footer, type size, white space: with the designer
 - [ ] Trim Crown Quarto and the 0.625 inch gutter: wait on book.json (designer__013, 018)
-- [ ] A5: footnotes and QR codes in Markua and the PDF, the smallest QR a phone reads
+- [x] A5: footnotes and endnotes build at chapter end; QR test sheet made (publishing/FOOTNOTES-AND-QR.md, qr_test.py)
+- [ ] A5's last point: the smallest QR a phone reads, from the printed sheet (the editor or the designer)
 - [ ] A7: what the build needs if content lives in JSON, once the researcher reports
