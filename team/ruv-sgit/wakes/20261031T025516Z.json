@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "task change by the conductor's session verified (Q6 amended) and recorded in status, not changed again; four letters filed; LAB 07 grids 1fr 1fr, E12's circles masked (mask.py), passes the designer's build in a scratch copy; LAB 09 (M03 explained, from C071, C073, C024), two pages in the lab build, run 20261031T0254Z-ruv-09; letters to designer, security, researcher; board 010 to 014; REALITY, debrief, status",
    "at": "2026-10-31T03:01:50Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Build and gate clean; 0 outside scope; vault_check clean; lab/pdf and lab/tools untouched; LAB 09's numbers are C071 minutes, C073 counts and the C024 hold, plus ids and commits; no key, token or directive text; status task record matches Q6 amended and schedule.json active.",
+   "at": "2026-10-31T03:02:24Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Item 1 done (letters filed, status, LAB 07 grids and E12 circles via mask.py, board). Item 2 done (LAB 09, run, letters to designer and security). Item 3 done (board 010 to 014, debrief, status, REALITY). Conditions kept; post-review clean; lab/pdf untouched. Nothing unplanned.",
+   "at": "2026-10-31T03:02:39Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-31T03:02:39Z",
+ "outcome": "ok"
 }
