@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1. LAB 09 reviewed: benign; E12's mask checked; letter security__008, outbox copy, board 015. 2. C3 evidence completed with the 04:05 record and W1. 3. Status, debrief.",
    "at": "2026-10-31T04:26:44Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "4e529ed..HEAD, 10 files in comms/, controls/index.json and team/security/; build and gate clean (272); agents.py 0 outside scope; vault_check clean; no key, token or personal detail; nothing directing an agent or attack-shaped.",
+   "at": "2026-10-31T04:27:14Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "smaller model (sub-agent)",
+   "verdict": "as-planned",
+   "comment": "1 done: LAB 09, letter security__008, board 015. 2 done: C3 evidence completed, 018 and 019 filed. 3 done: status, debrief. Conditions kept; nothing unplanned. (After this step, as WAKE.md Cadence 3 says, the member set its own task to idle.)",
+   "at": "2026-10-31T04:27:43Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-31T04:27:43Z",
+ "outcome": "ok"
 }

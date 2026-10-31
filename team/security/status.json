@@ -3,7 +3,7 @@
  "agent": "security",
  "as_of": "2026-10-31T04:35:00Z",
  "round": 0,
- "state": "staffed; second session; 04:24 wake (31 October): LAB 09 reviewed; the 02:20 task change now on dev (W1 open)",
+ "state": "staffed; second session; 04:24 wake (31 October): LAB 09 reviewed; the 02:20 task change now on dev (W1 open); idle: RC1 revision waits on the conductor, lab pieces on ruv-sgit, decisions on the editor",
  "done": [
   {
    "what": "session key made and published: team/security/key.json, key.png, sessions/session_01Kw9UwDYutLfqT71U7kmgVs/",
@@ -188,7 +188,7 @@
  ],
  "task": {
   "id": "trig_01Ej7kyzaD9q9CW7si5Ap3nW",
-  "cron": "CRON_TZ=Europe/London 24 */2 * * *",
+  "cron": "CRON_TZ=Europe/London 24 9,17 * * *",
   "session": "session_01Kw9UwFe8iX6rP7bn78h2m9",
   "created": "2026-10-30T13:03:21Z",
   "prompt": "team/conductor/schedule.json, runs entry for security, word for word",
@@ -198,7 +198,7 @@
    "session": "session_01Kw9UwDYutLfqT71U7kmgVs",
    "state": "paused on the first account at the editor's word, about 10:50 UTC; not deleted"
   },
-  "changed": "2026-10-31T02:20:10Z, by the conductor's session (not this one), to round the clock, recording the editor's word there (Q6 amended about 01:20 UTC); earlier, 2026-10-31T00:26:28Z, by this session to the day cron"
+  "changed": "2026-10-31T04:27:30Z, by this session, to idle (WAKE.md Cadence 3: all work waits on others); before: 02:20:10Z by the conductor's session (round the clock), 00:26:28Z by this session (day hours)"
  },
  "issues": [
   {
@@ -304,5 +304,5 @@
   }
  ],
  "board": "comms/issues/security/issues/",
- "cadence": "active"
+ "cadence": "idle"
 }
