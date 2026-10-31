@@ -13,4 +13,6 @@ T12 registered at 08:50 as the editor's dated account beside the day's record (C
 
 A4's placement and graph at 10:55 (`claims/articles-catalogue.*`, 244 links; letter `researcher__013`).
 
-Open: A4's other sites and the public vaults; a full reading of each placed article.
+12:45: the 29 sites of the network (each in its own words) and the 54 public vaults (pages, no keys) added to the catalogue.
+
+Open: a full reading of each placed article.
