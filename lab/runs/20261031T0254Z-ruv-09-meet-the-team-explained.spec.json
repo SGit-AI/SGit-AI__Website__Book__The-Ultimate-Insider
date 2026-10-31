@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/lab-run-spec/v1",
+ "run": "20261031T0254Z-ruv-09-meet-the-team-explained",
+ "by": "ruv.sgit@book.the-ultimate-insider",
+ "request": {
+  "from": "the editor's RC1 paper review, note 8 (T4), routed by the conductor (comms/mail/ruv-sgit/done/conductor__004-rc1-review-experiments.eml)",
+  "words": "A super powerful slide and animation that needs explaining: more frames, and the format explained; perhaps a different infographic (T4)"
+ },
+ "experiment": "lab/experiments/09-ruv-meet-the-team-explained/",
+ "claims": [
+  "C071",
+  "C073",
+  "C024"
+ ],
+ "source": {
+  "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider (read-only)",
+  "path": "src/static/motion/lab/meet-the-team/v1/index.html",
+  "commit": "f45028c",
+  "used": "its role words and its four things that keep the team in step; no frame"
+ },
+ "method": "draw the hour dial and the counts by code from the register only; explain the format in numbered call-outs and five points",
+ "executor": "the member's scheduled session directly, with its plan, pre-review, post-review and post-check sub-agents; Ruflo is not available in this session, so no hive was run",
+ "vault": "none"
+}

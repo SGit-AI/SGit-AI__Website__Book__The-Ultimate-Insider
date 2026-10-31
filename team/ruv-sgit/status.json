@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "ruv-sgit",
- "as_of": "2026-10-31T01:25:00Z",
+ "as_of": "2026-10-31T03:32:00Z",
  "round": 1,
- "state": "working (cadence active): the motion animations on paper (LAB 02, 03, 05, 06); LAB 07 nearly filled (18 stills, E04 a slot), waiting on the designer to lift its hold; the editor's paper verdicts to come",
+ "state": "working (cadence active, round the clock): motion animations on paper (LAB 02, 03, 05, 06); LAB 07 fits Crown Quarto, waiting on the designer's hold; LAB 09 for the editor's RC1 note 8; the RC1 review's T4, T10, T18 and A12 on the board",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/ruv-sgit/ (drafts left in place) and adopted",
@@ -44,48 +44,56 @@
   {
    "what": "task moved to the day schedule (Q6); LAB 07 filled to 18 stills with C082 to C086 and E06, E08; masks burned into the PNGs (security's note); laid out for Crown Quarto; checked with the designer's build on a scratch copy",
    "when": "2026-10-31"
+  },
+  {
+   "what": "the task's change by the conductor's session verified and recorded; LAB 07 grids 1fr 1fr and E12's circles masked; LAB 09, M03 explained, for RC1 note 8 (C071, C073, C024); the RC1 review's items on the board (010 to 014)",
+   "when": "2026-10-31"
   }
  ],
  "next": [
   {
-   "what": "E04 onto LAB 07 when the researcher has checked its figures",
+   "what": "LAB 05 and LAB 06 for the 167 mm block (grown frames, the doubled headline cropped)",
+   "why": "the designer's notes, owed twice"
+  },
+  {
+   "what": "experiments per chapter with the designer (note 9), starting where the designer says",
+   "why": "the editor's RC1 review"
+  },
+  {
+   "what": "T10 (a fractal Wardley map), T18 (agents as event rows), A12 (timelines as components)",
+   "why": "conductor__005"
+  },
+  {
+   "what": "E04 onto LAB 07 when the researcher has checked it",
    "why": "Done when 1"
-  },
-  {
-   "what": "LAB 05 and LAB 06: grow the frames for the 167 mm block and crop the doubled headline",
-   "why": "the designer's notes"
-  },
-  {
-   "what": "the editor's paper verdicts",
-   "why": "Done when 2"
   }
  ],
  "asks": [
   {
    "of": "the editor",
-   "what": "paper verdicts on LAB 02, 03, 05, 06 (and 07 when printed)"
+   "what": "paper verdicts on LAB 02, 03, 05, 06, and 07 and 09 when printed"
   },
   {
    "of": "designer",
-   "what": "lift LAB 07's hold (ruv-sgit__007)"
+   "what": "lift LAB 07's hold; judge LAB 09; where to start the per-chapter experiments (ruv-sgit__008)"
   },
   {
    "of": "security",
-   "what": "review LAB 07's new frames (ruv-sgit__007)"
+   "what": "review LAB 09 (ruv-sgit__008)"
   },
   {
    "of": "researcher",
-   "what": "E04's figures; note the two extra E12 masks (ruv-sgit__004)"
+   "what": "E04; the E12 circles mask (ruv-sgit__005)"
   }
  ],
  "session": "session_01Kw9UwBxsDtMFMqXtsseSvg",
  "task": {
   "id": "trig_01Jm7baKZj9yJLnJyqwsuGsr",
-  "cron": "CRON_TZ=Europe/London 54 8-22/2 * * *",
+  "cron": "CRON_TZ=Europe/London 54 */2 * * *",
   "created": "2026-10-30T13:16:26Z",
   "by": "this session, at the editor's word in it",
   "prompt": "schedule.json runs entry for ruv-sgit, word for word",
-  "changed": "2026-10-31T00:56:18Z, to the day schedule at Q6 (book.json; WAKE.md Cadence), with update_trigger on this member's own task"
+  "changed": "2026-10-31T02:20:11Z, back to round the clock by the conductor's session at the editor's word (Q6 amended 01:20 UTC; WAKE.md Cadence; schedule.json active); found at the 02:54 wake, verified against book.json, not held, as security did for its own (27d540f). Before that, 00:56 UTC, to the day schedule by this member."
  },
  "board": "comms/issues/ruv-sgit/issues/",
  "cadence": "active"

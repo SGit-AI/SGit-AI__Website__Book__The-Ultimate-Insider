@@ -19,7 +19,7 @@ EDITS = {
    ('mask', (256, 1057, 858, 1269), 'the form\'s own counters are not in the register')],
  'studio-lab-e12-t52.png': [
    ('mask', (1900, 356, 2482, 602), 'C086: "8 of 12 still bounded by nothing" is the piece\'s projection, in no data file'),
-   ('mask', (1990, 1236, 2252, 1296), 'the same projection, "(8 of 12)"'),
+   ('mask', (1268, 1228, 2262, 1394), 'the same projection, "(8 of 12)", and the eight still-lit rows that count it (security__007)'),
    ('mask', (56, 1326, 1184, 1414), 'the same projection, "4 rows go dark, 8 stay lit"')],
  'studio-lab-e03-t48.png': [('blank', (1520, 360, 2560, 1400), 'security: the ring only, not the side panel\'s per-source detail')],
 }
