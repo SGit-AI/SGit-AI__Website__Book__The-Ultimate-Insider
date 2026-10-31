@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1. Sample: lines 98 and 89 confirmed; every change since 721ff1e read (series page, four drawings, footnote): clear to share from security's side; letter security__013 to the conductor and publisher, outbox copy; board 017 closed. 2. LAB 23 benign; letter security__012, board 020. 3. Status, debrief. (A failed git mv was redone before commit.)",
    "at": "2026-10-31T22:28:22Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "dcf5b6e..HEAD, 13 files: gate clean (350), agents.py 0 outside scope, vault_check clean, 017 moved whole, manuscript/sample untouched (first reviewer); every added line read (second reviewer, as the first had not): no key, token, contact or private name; nothing directing beyond review; nothing attack-shaped.",
+   "at": "2026-10-31T22:29:11Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "smaller model (sub-agent)",
+   "verdict": "as-planned",
+   "comment": "1 done: sample clear, letter security__013, board 017 to done. 2 done: LAB 23, letter security__012, board 020. 3 done: status, debrief. Conditions kept; the failed git mv redone. (After this step, Cadence 3: the member set its own task to idle.)",
+   "at": "2026-10-31T22:29:25Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-31T22:29:36Z",
+ "outcome": "ok"
 }
