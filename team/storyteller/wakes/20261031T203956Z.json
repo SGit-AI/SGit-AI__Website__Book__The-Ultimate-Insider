@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "storyteller",
+ "kind": "scheduled, every two hours at :39",
+ "started": "2026-10-31T20:39:56Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (Sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. G1: the series page placed and described in chapter-plan/first-ten-pages-outline.md, for the publisher. 2. The publisher's sample (manuscript/sample/first-ten-pages.md) read against the outline, read only; findings by letter to the publisher. 3. Letters filed; status; debrief; vault_check.",
+   "at": "2026-10-31T20:40:25Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (Sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope: chapter-plan and the storyteller's comms and team paths; the publisher's sample read, not written; no secrets. The Gen ZX Founders material described and cited, not copied; vault_check on comms.",
+   "at": "2026-10-31T20:40:53Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "done",
+   "comment": "The series page (G1) in the outline as page 2; the sample read against the outline, seven points to the publisher (storyteller__023); four letters filed; status, debrief; vault_check clean; nothing written in manuscript/.",
+   "at": "2026-10-31T20:41:40Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

@@ -32,7 +32,17 @@ The room at the Vibathon Algarve 2026 (C091): a sold-out day of building with AI
 
 Logistics last: one closing panel (or the back of page 10) with the sources as QR codes, the date of the record, and the line that every number is checked in the book's register.
 
-## If G1 is signed (the Gen ZX Founders series)
+## G1 signed: the series page (the 20:39 UTC wake)
+
+The editor signed G1 at about 19:00 UTC: the series on the title page and the cover, and "one of the first couple of pages that explains that, also explains the philosophy of it" (`briefs/2026-10-31__in-session/02-g1-the-95-and-the-day-in-review.md`). So the sample gains a page, **between page 1 and the tour**: the reader has just seen what was made, and before the tour they learn what kind of book they are holding. Ten pages become eleven; the editor asked for "10 pages or so".
+
+| Page | Says (the punchline) | Shows | Numbers |
+|---|---|---|---|
+| **2. A book about you doing it** | This book is one of the Gen ZX Founders series. The series has one idea: you start, and you build, the way the editor built this; every book in it is a working example you can copy, not a story you only read. Gen ZX because the rooms it is for hold both generations at once, as the room in Faro did, the youngest and the most experienced building side by side. This one is the agentic team: a presentation, made by agents, that you can make too. | The series name and its tagline as the series itself has them (the publisher and the designer take the exact words from the Gen ZX Founders book's own pages and its decision 019; nothing is copied here); a small picture of the series as a shelf, this book on it. | none |
+
+**What not to do on it:** no promise about the other books' dates or contents; no claim about what other books or authors do (T19); the philosophy in the editor's words where he has given them ("a book about you doing it. It's about you starting"; "building what I build here").
+
+## If G1 is signed (the Gen ZX Founders series): written before it was; now signed, see the series page above
 
 G1 ("maybe") frames the book as one of a series about you doing it. It changes the dress, not the order:
 
@@ -53,3 +63,17 @@ If G1 is not signed, none of that appears and the pages stand as above.
 ## Where this came from
 
 The conductor's letters 022 and 023; `briefs/2026-10-31__in-session/01-the-first-ten-pages-and-the-gen-zx-series.md` and `briefs/2026-10-30__in-session/02-the-centre-of-gravity.md`; `chapter-plan/study-name-and-structure.md` (second pass, part 1, the tour); `claims/first-ten-pages-numbers.md`; `index/talk-site/README.md`; `team/conductor/rc1/editor-review/notes.json` (T1, T3, T6, T8, T12, T18, T19); the newsroom's "Vibathon Algarve 2026" (31 October 2026).
+
+## The sample, read against this outline (the 20:39 UTC wake)
+
+The publisher's draft (`manuscript/sample/first-ten-pages.md`, `f179660`) follows the outline page for page, in the editor's voice, with every number from the sheet and the six amendments in. Points, most important first; sent to the publisher (`storyteller__023`):
+
+1. **Page 6 says "every wake after it stopped" and "nothing more happened".** The record says otherwise: the designer's work commit landed 82 seconds after the hold (C065), and dev's wake closed at 18:48 on a branch that never reached `dev` (`timeline/unmerged.md`). The failures stay in: say the work stopped within minutes, and that one commit landed after it.
+2. **Page 6's footnote gives two accounts of why; the editor gave a third at 19:00** ("the 95%, I think, was the tokens usage"). C089 is open and the researcher holds it; the footnote should follow C089 as the researcher closes it, his accounts dated.
+3. **Page 5: "A turn that skipped a step could not close."** On the talk's day some wakes did the work before the reviews, recorded honestly (the Cold-Read team's governance finding, in chapter 11). Say "was not meant to close", or name the exception: the book's rule is that failures stay in.
+4. **Page 1: "Everything the team made is open".** Security asked for no "all of it" (D12); "everything" says the same. "What the team made is open, so you can look at it and copy it."
+5. **Page 4, ruv-sgit: "ran things against my own services".** Accurate, but it reads as attack-shaped to a stranger. "Built on my own services" says what it did.
+6. **The series page** is missing (G1, signed after the draft): above.
+7. **LK1 (signed, an infographic-driven book):** the designer's LAB 22 drawings (the cast row, the day by trigger, the loop, the book as six stops) belong on pages 4, 5, 8 and 10 in place of or beside the screenshots; the conductor's member-by-hour chart is the picture the editor named.
+
+What works and should stay: page 3's note quoted from the commit with its hash ("You do not need to trust what I tell you about the day. You can open the day"); page 7's honesty; page 9's safety line in the first step; the "Words on this page" side notes.

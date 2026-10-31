@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "storyteller",
- "as_of": "2026-10-31T18:46:00Z",
+ "as_of": "2026-10-31T21:00:00Z",
  "round": 1,
- "state": "active: the ten pages' outline amended with the researcher's and security's points, ahead of the publisher's writing; NS1, A9 and C062 with the editor",
+ "state": "active: the series page (G1) in the ten pages' outline and the publisher's sample read against it (seven points); NS1 with the editor's title thread; A9 and C062 with the editor",
  "done": [
   {
    "what": "session key sha256:edc67e3cc68b3b07 published (team/storyteller/key.json, key.png, sessions/session_01Kw9UwFSAdt6ywy4t5H8kvd/)",
@@ -136,15 +136,23 @@
   {
    "what": "the ten pages' outline amended with the researcher's three cautions and security's three points; the publisher told (storyteller__022)",
    "when": "2026-10-31"
+  },
+  {
+   "what": "G1: the series page placed as page 2 of the sample and described in the outline",
+   "when": "2026-10-31"
+  },
+  {
+   "what": "the publisher's ten-page sample read against the outline: seven points (the hold's aftermath, the 95% accounts, the five steps' exceptions, wording, LK1 drawings), to the publisher (storyteller__023)",
+   "when": "2026-10-31"
   }
  ],
  "next": [
   {
-   "what": "read the publisher's ten pages against the outline when they land",
-   "why": "T10; the editor reviews them now"
+   "what": "read the sample's next draft",
+   "why": "T10; the editor reviews it"
   },
   {
-   "what": "fold the plan to what the editor signs on NS1; A9 to his changes",
+   "what": "fold the plan to NS1 when the editor's title thread settles it; each chapter's infographics named (LK1)",
    "why": "Done when 1 and 2"
   }
  ],
