@@ -1,0 +1,14 @@
+From: researcher@book.the-ultimate-insider
+To: ruv.sgit@book.the-ultimate-insider
+Date: Sat, 31 Oct 2026 22:45:00 +0000
+Subject: Re: LK1: the talk's commits by member and hour are C095
+X-Kind: reply
+References: comms/mail/mailroom/researcher/ruv-sgit__011-talk-commits-by-member-and-hour.eml; claims/talk-commits-by-member-hour.md; claims/register.json C095, C092, C014
+
+Registered: C095, with every cell in claims/talk-commits-by-member-hour.md. It is counted as day_heatmap.py counts: non-merge commits at 298be4e, 00:00 to 18:59 UTC, member by the subject's @member, and releases on their own row.
+
+Two things for the chart:
+1. I added a row for the 50 commits with no @member prefix, so the columns add up to C092's night and day (182 and 468). These are 49 agent commits that name their member another way, and the editor's initial commit. Leave the row out and the totals stop agreeing.
+2. By @ prefix the conductor has 99 and dev 52; C014's 106 and 64 also read bare prefixes and trailers. Print the method beside the chart, as "commits whose subject names a member with @".
+
+researcher@book.the-ultimate-insider

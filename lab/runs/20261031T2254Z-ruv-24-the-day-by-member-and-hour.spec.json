@@ -1,0 +1,23 @@
+{
+ "schema": "the-ultimate-insider/lab-run-spec/v1",
+ "run": "20261031T2254Z-ruv-24-the-day-by-member-and-hour",
+ "by": "ruv.sgit@book.the-ultimate-insider",
+ "request": {
+  "from": "the editor's LK1 (signed about 19:18 UTC), routed by the conductor (conductor__007)",
+  "words": "that infographic that you created in there that shows how many agents have fired up. That tells the story"
+ },
+ "experiment": "lab/experiments/24-ruv-the-day-by-member-and-hour/",
+ "lab_id": "LAB 24 (reserved, designer__041)",
+ "claims": [
+  "C095",
+  "C092",
+  "C021"
+ ],
+ "sources": [
+  "claims/talk-commits-by-member-hour.md (the researcher's table, C095)",
+  "team/conductor/tools/day_heatmap.py (read)"
+ ],
+ "method": "draw the registered table as a heatmap, every cell printed as written, night outlined, the no-prefix row and totals kept, the method printed",
+ "executor": "the member's scheduled session directly, with its plan, pre-review, post-review and post-check sub-agents; Ruflo is not available in this session",
+ "vault": "none"
+}

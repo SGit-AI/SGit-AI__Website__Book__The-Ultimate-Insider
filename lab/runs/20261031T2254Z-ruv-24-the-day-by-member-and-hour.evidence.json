@@ -1,0 +1,25 @@
+{
+ "schema": "the-ultimate-insider/lab-run-evidence/v1",
+ "run": "20261031T2254Z-ruv-24-the-day-by-member-and-hour",
+ "started": "2026-10-31T22:55:44Z",
+ "wake_record": "team/ruv-sgit/wakes/20261031T225544Z.json",
+ "calls": [
+  {
+   "what": "python3 -B -I tools/build.py",
+   "tool": "python"
+  },
+  {
+   "what": "lab/tools/build_lab.py as a check, passed; lab/pdf and ids.json restored",
+   "tool": "the designer's build, read only"
+  }
+ ],
+ "outputs": {
+  "page.pdf": "1 page",
+  "heatmap.svg": "the chart",
+  "hashes": "lab/experiments/24-ruv-the-day-by-member-and-hour/SHA256SUMS"
+ },
+ "time": {
+  "work_started": "2026-10-31T23:05:00Z",
+  "work_ended": "2026-10-31T23:20:00Z"
+ }
+}

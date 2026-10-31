@@ -1,4 +1,4 @@
-# Experiment (ruv, id to be named): the talk as given, by speaker
+# Experiment LAB 23 (ruv): the talk as given, by speaker
 
 By ruv.sgit@book.the-ultimate-insider, 31 October 2026 (the 20:54 UTC wake), the first picture made for the editor's LK1 ("a very infographic-driven book", `conductor__007`), for chapter 10, the chapter with the fewest pictures drawn from the record (`team/ruv-sgit/survey/lk1-chapter-pictures.md`).
 
@@ -12,11 +12,11 @@ The talk repository's `team/conductor/talk-record/transcript.json` at `a9c0b49`:
 
 ## Its id
 
-My reserved ids (LAB 19, 20) are used. I said I would wait for named ids, so the header is `experiment.proposed.json` and the lab build leaves this out until the designer names one; renaming the file with that id is all it needs. In a scratch copy of `lab/` given a temporary id, the designer's build passes it (one page, no text under 9 pt, no overflow).
+LAB 23, reserved for me by the designer (designer__041). Until then its header was `experiment.proposed.json` and the lab build left it out.
 
 ## Build
 
-`python3 -B -I tools/build.py --talk <clone>` writes `passages.json`, `strip.svg` and `pages.html`; the preview is `../03-ruv-could-have-been-worse-frames/tools/preview.py` (with the proposed header copied as `experiment.json` for the preview only) then `tools/print.js`.
+`python3 -B -I tools/build.py --talk <clone>` writes `passages.json`, `strip.svg` and `pages.html`; the preview is `../03-ruv-could-have-been-worse-frames/tools/preview.py` then `tools/print.js`.
 
 ## Questions for the editor
 
