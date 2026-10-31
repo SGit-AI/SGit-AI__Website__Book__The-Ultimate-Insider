@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1) designer__035 to ruv (19 and 20 already reserved; LAB 15's header); conductor__018 noted. 2) LAB 21 (lab/experiments/21-designer-mandate-map/: make_map.py reading the read-only clone with git only, mandate-map.svg, pages, README); build_lab.py {{file:...svg}} inline so the 9 pt check measures it; PDF 51 pages. 3) issues 010 and 018, status, debrief, REALITY.md; vault_check clean.",
    "at": "2026-10-31T17:02:24Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Build and validate pass; agents check 0 outside scope; vault_check comms clean; make_map.py runs only read-only git commands and writes only its SVG; the SVG has folder names and proportions, team/designer shaded, no attack framing; no keys, personal details or em-dashes; nothing under ruv's folders.",
+   "at": "2026-10-31T17:03:42Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "1 designer__035, 018 filed; 2 LAB 21 and the inline SVG include, PDF; 3 issues, status, debrief, REALITY.md (409ce33). Conditions kept. Nothing unplanned.",
+   "at": "2026-10-31T17:03:42Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-31T17:03:42Z",
+ "outcome": "ok"
 }
