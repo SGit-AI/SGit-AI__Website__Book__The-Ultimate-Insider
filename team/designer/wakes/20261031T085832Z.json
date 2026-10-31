@@ -24,10 +24,24 @@
    "verdict": "done",
    "comment": "1. Publisher's build read only into _site/ (nothing tracked changed); pages 40 and 41 judged; designer__028. 2. Id ledger: ids.json printed (LAB 01 to 11 fixed by folder), build_lab.py assigns new folders the next free id; LAB 12 (ruv's strip) printed; lab/README.md Ids; designer__027 to ruv with the whole table. 3. LAB 13 (lab/experiments/13-designer-the-last-minutes/, C005, C006, C018, C021); PDF 34 pages; issue 010; status, debrief, REALITY.md.",
    "at": "2026-10-31T09:02:16Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Build and validate pass; agents check 0 outside scope; vault_check comms clean; no key, token, personal detail or em-dash; nothing in ruv's folders, publishing/ or book.css; 027 via the mailroom; LAB 01 to 11 unchanged in the ledger; LAB 13 times match C018, C006, C005.",
+   "at": "2026-10-31T09:03:29Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "1 publisher answered (028); 2 ledger, LAB 12, README, 027 with the table; 3 LAB 13, PDF 34 pages, issue 010, records (d4dcaa8). Conditions kept. Nothing unplanned.",
+   "at": "2026-10-31T09:03:29Z"
   }
  },
- "closed": null,
- "outcome": null,
+ "closed": "2026-10-31T09:03:29Z",
+ "outcome": "ok",
  "history": [
   {
    "why": "the pre-review said change: tell every experiment owner which id each folder keeps, and keep printed ids fixed",
