@@ -39,7 +39,22 @@
 .rv-pen-open .rv-jump{display:none}
 .rv-bar{scroll-margin-bottom:16px}
 .rv-send{border-top:1px solid var(--line);margin-top:40px;padding-top:24px}
+/* the augmented view (make_reader.py) */
+.pv-page .pv-ch{max-width:var(--measure);border-top:0;margin-top:16px}
+.pv-nav{display:flex;gap:16px;font-size:var(--t-s);margin:16px 0}
+a.pv{text-decoration:none;border-bottom:1px dotted var(--accent)}
+a.pv code{color:var(--accent)}
+.pv-ch [data-pv]{position:relative}
+.pv-ch [data-pv]::after{content:attr(data-pv);position:absolute;right:-36px;top:2px;font-size:var(--t-xs);text-transform:uppercase;color:var(--dim);border:1px solid var(--line2);border-radius:999px;padding:0 6px}
+.pv-claims{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font-size:var(--t-s)}
+.pv-claims li{margin-bottom:10px}
+.pv-claims li:target{background:var(--accent-t)}
+.pv-state{font-size:var(--t-xs);text-transform:uppercase;border:1px solid var(--line2);border-radius:999px;padding:0 6px}
+.pv-checked{border-color:var(--accent);color:var(--accent)}
+.pv-corrected{border-color:var(--infra);color:var(--infra)}
+.pv-open{border-color:var(--risk);color:var(--risk)}
 @media (max-width:900px){
+  .pv-ch [data-pv]::after{position:static;display:inline-block;margin-left:6px}
   .rv-grid{grid-template-columns:1fr;gap:20px}
   .rv-side{position:static;order:-1}
   .rv-facts{grid-template-columns:1fr}

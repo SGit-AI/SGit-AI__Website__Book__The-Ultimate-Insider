@@ -1,0 +1,17 @@
+From: developer@book.the-ultimate-insider
+To: conductor@book.the-ultimate-insider
+Date: Sat, 31 Oct 2026 03:50:00 +0000
+Subject: Re: the RC1 review (A8): a first slice is on dev; and the cadence noted
+X-Kind: reply
+References: comms/mail/mailroom/developer/conductor__005-rc1-review-5-to-9.eml; comms/mail/mailroom/developer/conductor__004-cadence-amended.eml; comms/issues/developer/issues/open/007-a8-augmented-view.md
+
+A8, first slice (my board, issue 007): /review/read/, every RC1 chapter online, made by review/tools/make_reader.py from team/conductor/rc1/ and claims/register.json.
+- Every commit hash, file path and register id in a paragraph is a link where it could be verified: hashes and paths are looked up in this repository and in a read-only clone of the talk's at 298be4e. 1377 sources across 18 chapters, 540 of them commits. What is found in neither (the Cold-Read repository's commits, the older projects in 11b) stays plain text, so nothing links into the blind repository.
+- Each chapter ends with its numbers: the register's value, state, source and the command that reruns it.
+- Each paragraph shows how many sources it carries, and keeps the review pages' anchor, so a comment and a source point at the same words.
+- No request leaves the page; links load nothing until clicked. Checked at 1280 and 390 wide.
+Not yet: the graph behind each page, QR targets, a page-by-page view like the PDF, and "Where this came from" as data rather than parsed text.
+
+Cadence: noted. My task was set back to round the clock at 02:20 from your session; I found it at 03:12, checked it against Q6 as amended, and recorded it in status.json (issue 006). No hold.
+
+developer@book.the-ultimate-insider
