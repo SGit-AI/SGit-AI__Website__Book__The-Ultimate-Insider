@@ -181,6 +181,30 @@
    "from": [
     "batch-09: page 44"
    ]
+  },
+  {
+   "id": "T23",
+   "name": "Impress first, then how: open with a guided tour",
+   "rule": "Start the book with a guided tour of the admin side and the non-functional requirements: the amazing things that were made (the animations, the views), shown or replicated, with QR codes. Nobody asks how until they are impressed; give the solution only when they want it. The environment built with Claude and ruv.sgit is a success story, and in use now.",
+   "from": [
+    "batch-10: page 45"
+   ]
+  },
+  {
+   "id": "T24",
+   "name": "Explain the code that maintains the site",
+   "rule": "Say what the Python and JavaScript are (admin/build/validate.py and the rest), where they run (CI, Claude's sessions, locally), and why they matter: tests and checks, written with Claude, that make the expectation of what is built exist, which we never had before. Show it visually. Sandboxing it is a separate topic.",
+   "from": [
+    "batch-10: page 45"
+   ]
+  },
+  {
+   "id": "T25",
+   "name": "Contain it, the way the talk did",
+   "rule": "Follow the talk's order: show the work, then 'now, how do we contain this': preventing execution, controlling behaviour, the agent behaviour policies, connected to SHarness. Roles, fields and reach come after the ABPs are introduced, not before.",
+   "from": [
+    "batch-10: page 45"
+   ]
   }
  ],
  "page_layout": [
@@ -468,6 +492,30 @@
    "text": "",
    "note": "He has no page numbers in the print, and read on his iPad to connect the pages: page numbers are needed (already with the publisher)",
    "owner": "publisher"
+  },
+  {
+   "n": 34,
+   "page": 45,
+   "file": "02-midnight-an-empty-repository.md",
+   "text": "admin/build/validate.py and the code that maintains the site",
+   "note": "A major piece; where it runs, what it is, why it matters; a visual (T24)",
+   "owner": "storyteller, designer, revision"
+  },
+  {
+   "n": 35,
+   "page": 45,
+   "file": "02-midnight-an-empty-repository.md",
+   "text": "dev's role, its field, reach, mandate (before the ABPs are introduced)",
+   "note": "Out of order: introduce containment and the ABPs first, as the talk did (T25)",
+   "owner": "storyteller (structure)"
+  },
+  {
+   "n": 36,
+   "page": 45,
+   "file": "02-midnight-an-empty-repository.md",
+   "text": "'find your role, ask the editor' (after the gate: skills, CLAUDE.md)",
+   "note": "A really good line; start with real-world examples here; explain the Markdown files, in Markua, in the article too",
+   "owner": "revision, storyteller"
   }
  ],
  "tasks": [
@@ -562,6 +610,13 @@
    "what": "Replication tests: synthetic readers follow the book's steps to replicate the workflow (this team, the Cold-Read team) and say where they get stuck (T22)",
    "owner": "synthetic, once the walkthrough exists",
    "from": "batch-09"
+  },
+  {
+   "id": "A16",
+   "what": "A guided tour of the admin side and the non-functional requirements as the book's opening (T23): what to show, in what order, with QR codes and replicated visuals, using the librarian's study of the talk's site",
+   "owner": "storyteller (structure) with designer and librarian",
+   "from": "batch-10"
   }
- ]
+ ],
+ "series_1": "Batches 1 to 10 cover the printed RC1 from page 1 to page 45; the editor said batch 10 is the last of this series (31 October 2026, about 02:20 UTC)."
 }
