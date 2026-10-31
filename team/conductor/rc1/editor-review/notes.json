@@ -76,6 +76,14 @@
    "from": [
     "batch-05: page 13"
    ]
+  },
+  {
+   "id": "T10",
+   "name": "Maps the editor's way: anchored, evidenced, fractal, of anything",
+   "rule": "A map is a top-down tree or graph that becomes a map when position has meaning (a threat model is a graph because position does not matter). Start from an anchor, a point of view; 'a user and a need' is Simon Wardley's recommendation because people forget the user, not a rule. Every dot links to its facts, evidence, assumptions, or the next map: a dot in one map becomes a map in the next (fractal), a power to show with visuals and animation. Maps of anything you can make a tree of (systems, risk, vulnerabilities, types); evolution axes vary (his newsroom article shows seven or eight kinds), not only genesis, custom-built, product, commodity. Never say 'a map, not a measurement'. Tell the story with maps first; the punchline at the end of the section: 'you are already reading Wardley maps'. Explorers, villagers, town planners told as the story of a passage found, a village built, a town that scales (1, 50, 1,000, 200,000).",
+   "from": [
+    "batch-06: pages 14, 15, 19"
+   ]
   }
  ],
  "page_layout": [
@@ -211,6 +219,30 @@
    "text": "'Where this came from' sections",
    "note": "Too detailed and too light at once; move provenance to the augmented online version (T9)",
    "owner": "storyteller (structure), developer (the augmented view), publisher (the build)"
+  },
+  {
+   "n": 15,
+   "page": 14,
+   "file": "00b-how-to-read-a-map.md",
+   "text": "'not \"we measured it here\"' / 'a map, not a measurement'",
+   "note": "He disagrees: every dot connects to facts, evidence, assumptions or the next map (T10)",
+   "owner": "revision; storyteller"
+  },
+  {
+   "n": 16,
+   "page": 15,
+   "file": "00b-how-to-read-a-map.md",
+   "text": "'Every map starts at the top with a user and a need'",
+   "note": "Not all maps start with a user and a need; start with an anchor, a point of view (T10)",
+   "owner": "revision"
+  },
+  {
+   "n": 17,
+   "page": "14 to 19",
+   "file": "00b-how-to-read-a-map.md",
+   "text": "the whole map chapter",
+   "note": "Really good: move some of it later in the book; maps as narrative first, explained after; the map on page 19 is really good",
+   "owner": "storyteller (structure)"
   }
  ],
  "tasks": [
@@ -263,6 +295,12 @@
    "what": "An online, iPad-like PDF view of the book with augmented capability: provenance, links and the graph behind every page",
    "owner": "developer (with the reviewer experience)",
    "from": "batch-05"
+  },
+  {
+   "id": "A9",
+   "what": "Turn the map chapter (00b) into a strong article for the newsroom to publish, in the editor's way of using maps (T10); his newsroom article on kinds of evolution and the fractal map are its references",
+   "owner": "storyteller drafts with the researcher's references; the conductor routes it to the newsroom only at the editor's go",
+   "from": "batch-06"
   }
  ]
 }
