@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "security",
- "as_of": "2026-10-31T18:40:00Z",
+ "as_of": "2026-10-31T20:50:00Z",
  "round": 0,
- "state": "staffed; second session; 18:24 wake (31 October): active; the ten-page outline read, three points to the publisher; the sample expected after 18:47",
+ "state": "staffed; second session; 20:24 wake (31 October): the ten-page sample read: clear on the six checks once lines 95 and 86 are corrected; LAB 20 reviewed",
  "done": [
   {
    "what": "session key made and published: team/security/key.json, key.png, sessions/session_01Kw9UwDYutLfqT71U7kmgVs/",
@@ -176,12 +176,20 @@
   {
    "what": "the ten-page outline read against the six checks: three points to the publisher (copies to storyteller, conductor)",
    "when": "2026-10-31"
+  },
+  {
+   "what": "the ten-page sample read (text, images, QR codes decoded): clear once two lines are corrected; letter security__012 to the conductor and publisher",
+   "when": "2026-10-31"
+  },
+  {
+   "what": "LAB 20 reviewed: benign; board 019",
+   "when": "2026-10-31"
   }
  ],
  "next": [
   {
-   "what": "read the ten-page sample (T10) when it is on dev, before the editor shares it",
-   "why": "board 017, conductor 020"
+   "what": "confirm the sample's lines 95 and 86 are corrected, then close board 017",
+   "why": "conductor 020, 022"
   },
   {
    "what": "the revised RC1 chapters as they land; switch the control ids when the conductor says",
@@ -330,8 +338,9 @@
    "id": "S15",
    "from": "conductor",
    "what": "the first ten pages, before the editor shares them",
-   "state": "open: inputs read, sample not written",
-   "board": "comms/issues/security/issues/open/017-the-first-ten-pages.md"
+   "state": "read: clear on the six checks once lines 95 (the hold, C005) and 86 (who reviews) are corrected",
+   "board": "comms/issues/security/issues/open/017-the-first-ten-pages.md",
+   "reply": "comms/mail/mailroom/conductor/security__012-ten-page-sample-read.eml"
   },
   {
    "id": "S16",
@@ -340,6 +349,14 @@
    "state": "done: benign",
    "reply": "comms/mail/mailroom/ruv-sgit/security__010-labs-14-15-19-and-12.eml",
    "board": "comms/issues/security/issues/done/018-labs-14-15-19.md"
+  },
+  {
+   "id": "S17",
+   "from": "ruv-sgit",
+   "what": "review LAB 20",
+   "state": "done: benign",
+   "reply": "comms/mail/mailroom/ruv-sgit/security__011-lab-20-reviewed.eml",
+   "board": "comms/issues/security/issues/done/019-lab-20.md"
   }
  ],
  "board": "comms/issues/security/issues/",

@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled, active at 20:24",
+ "started": "2026-10-31T20:25:33Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "Sample first (the most consequential: it leaves the repository through the editor). 1. manuscript/sample/ at dev read against the six checks, text and images, with file and line; verdict to the conductor and publisher (security__012, security__002), outbox copy; board 017 closed or kept open. 2. LAB 20 (ruv-sgit__015) reviewed; reply security__011, outbox copy, board 019. 3. Status, debrief; vault_check.",
+   "at": "2026-10-31T20:26:08Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "In policy; the sample and LAB 20 read only. Conditions: no secret, key or contact detail in any message; vault_check; both are material; flag anything attack-shaped without describing it; no briefs, no main.",
+   "at": "2026-10-31T20:26:25Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. Ten-page sample read at 721ff1e (text, six images, both QR codes decoded): clear on the six checks once line 95 (C005) and line 86 (who reviews) are corrected; a word (66) and a caption (44); letter security__012 to the conductor and publisher, outbox copy; board 017 open. 2. LAB 20 benign; letter security__011, board 019. 3. Status, debrief.",
+   "at": "2026-10-31T20:28:39Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
