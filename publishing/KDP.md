@@ -33,6 +33,18 @@ The target (the editor's brief): on Amazon by Web Summit, Monday 9 November 2026
 
 KDP's minimum gutter by page count (its margins page, read 30 October 2026): 24 to 150 pages, 0.375 inch; 151 to 300, 0.5; 301 to 500, 0.625; 501 to 700, 0.75; 701 to 828, 0.875. Our 0.75 inch meets it up to 700 pages; the plan's book is well under that.
 
+## The ink: what a printed copy costs (LK1; read 31 October 2026, about 23:00 UTC)
+
+KDP's printing cost depends on the ink and the page count only; its page lists no charge per image, so one picture or a thousand cost the same within an ink (it does not say so in words: it simply prices nothing but ink and pages). Amazon.com, regular trim (6 x 9 in), from KDP's printing-cost page (kdp.amazon.com/en_US/help/topic/G201834340, no date shown):
+
+| Ink | Cost per copy | At 255 pages | At 300 pages | Lowest list price at 60% (cost / 0.6) |
+|---|---|---|---|---|
+| Black | $1.00 + $0.012 a page (110 to 828 pages) | $4.06 | $4.60 | under $9.99, so the 50% rate applies: about $8.12 (255) |
+| Standard colour | $1.00 + $0.0255 a page (72 to 600 pages) | $7.50 | $8.65 | $12.50 (255), $14.42 (300) |
+| Premium colour | $1.00 + $0.065 a page | $17.58 | $20.50 | $29.29 (255), $34.17 (300) |
+
+The royalty (kdp.amazon.com/en_US/help/topic/G201834330, no date shown): "(Royalty rate x list price) - printing costs = royalty"; 50% up to $9.98 and 60% from $9.99 on Amazon.com. At the suggested $19.99 (L1's figure for Leanpub, used here only as a yardstick): black earns about $7.93 a copy, standard colour about $4.49, and premium colour cannot be sold at that price (it costs more to print than 60% returns). KDP states a minimum list price but not its formula; cost divided by the rate is the publisher's reading. The PDF and the EPUB cost nothing to print; the EPUB's delivery cost at the 70% ebook royalty is per megabyte (above), so a heavier, more visual ebook costs more per sale.
+
 Steps for the editor, once the interior PDF and the cover PDF exist:
 
 1. Create a paperback in KDP; the same title and description as the ebook.
@@ -54,6 +66,7 @@ Steps for the editor, once the interior PDF and the cover PDF exist:
 - Cover size, spine width and spine text: kdp.amazon.com/en_US/help/topic/G201953020
 - eBook manuscript formats (EPUB accepted, PDF not recommended): kdp.amazon.com/en_US/help/topic/G200634390
 - The margins table, "Set Trim Size, Bleed, and Margins": kdp.amazon.com/en_US/help/topic/GVBQ3CMEQW3W2VL6 (read on the second try; the first address tried, G201834190, did not carry it)
+- Printing cost by ink and the paperback royalty: kdp.amazon.com/en_US/help/topic/G201834340 and /G201834330 (read 31 October 2026)
 - Price matching, the free price elsewhere and the delivery cost of US $0.15 per MB: the Digital Book Pricing Page, kdp.amazon.com/help/topic/G200634500 (last updated 21 April 2026)
 - Image resolution, fonts and transparency: kdp.amazon.com/en_US/help/topic/G201834260 and /G201857950; the 650 MB limit: /G202145060 and /G201857950 (no dates shown; read 30 October 2026, about 22:55 UTC)
 - The 72-hour review time is the editor's brief (`briefs/2026-10-30/1-book-conductor-brief.md`); KDP's formats page does not state it.

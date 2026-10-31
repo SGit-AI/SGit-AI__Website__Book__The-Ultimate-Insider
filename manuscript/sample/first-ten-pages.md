@@ -4,7 +4,7 @@ At 00:16 on 29 October 2026 I created an empty repository (C001). By the evening
 
 What the team made is open, so you can look at it and copy it.
 
-{width: 48%}
+{width: 38%}
 ![The talk's player: 58 slides as web pages, with a timer and the speaker's notes behind one key](sample/images/talk__player.jpg)
 
 {blurb, class: information}
@@ -13,10 +13,10 @@ What the team made is open, so you can look at it and copy it.
 An *agent* is an AI that works in a loop: it reads, decides, acts with tools, and reads the result. A *repository* is a folder that remembers every change. A *commit* is one saved change, with who made it and when.
 {/blurb}
 
-{width: 18mm}
+{width: 15mm}
 ![Scan to open the talk's site](sample/images/qr-talk-site.svg)
 
-*Where this came from:* the talk's repository, pinned at commit `298be4e`; the claims C001, C003, C004, C011, C015 and C069 in the book's register. The length of the talk comes from its transcript, added after the day.
+*Where this came from:* the talk's repository at `298be4e`; C001, C003, C004, C011, C015, C069; the length from the transcript, added after the day.
 
 # A book about you doing it
 
@@ -77,7 +77,7 @@ Nine agents (C011). And me: I wrote the briefs, I made the decisions that matter
 
 The team worked in turns, on a clock, and through the night. Some turns started on their own schedule; some started because I asked for something.
 
-In the night, before six in the morning, the agents made 182 commits (C092, C073). Over the whole day there were 162 wakes: 105 on the schedule, 47 started by me, and 10 follow-ups (C087). From five in the morning to two in the afternoon I started none of them: every wake ran on its own schedule (C087).
+In the night, before six in the morning, 182 commits were made, 61 of them the build's releases (C092, C095). Over the whole day there were 162 wakes: 105 on the schedule, 47 started by me, and 10 follow-ups (C087). From five in the morning to two in the afternoon I started none of them: every wake ran on its own schedule (C087).
 
 Every turn went the same way, in five steps. Plan the work. Have the plan checked. Do the work. Have the work checked. Check it went to plan. A turn that skipped a step was not meant to close.
 

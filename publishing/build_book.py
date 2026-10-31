@@ -213,8 +213,10 @@ def main():
             sys.exit("build_book: no Chromium or Chrome found for the PDF (give --chrome PATH)")
         work = tempfile.mkdtemp(prefix="build_book_")  # the HTML stays out of _site/: the site gate would read it as a page
         html = os.path.join(work, f"{a.name}.html")
-        with open(os.path.join(HERE, "book.css"), encoding="utf-8") as f:
-            css = f.read()
+        css = ""
+        for sheet in ("book.css", "lab-look.css"):  # the lab's look after the book's own rules (LK1, signed 31 October 2026)
+            with open(os.path.join(HERE, sheet), encoding="utf-8") as f:
+                css += f.read() + "\n"
         with tempfile.NamedTemporaryFile("w", suffix=".html", delete=False) as head:
             if a.stamp:  # on every page, the title page too: a sample must say what it is wherever it is printed
                 quoted = " ".join(a.stamp.split()).replace("<", "").replace("\\", "\\\\").replace('"', '\\"')

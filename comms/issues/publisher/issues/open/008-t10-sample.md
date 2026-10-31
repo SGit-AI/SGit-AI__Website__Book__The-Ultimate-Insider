@@ -16,3 +16,5 @@ source: comms/mail/mailroom/publisher/conductor__027-the-first-ten-pages.eml; co
 - [x] The outline's drawings, the designer's, placed 31 October about 21:20 UTC (outline, "What this asks of others"): page 4's cast row, page 5's timeline with the two triggers, page 8's loop, page 10's map of the book; page 9's QR waits on a step-by-step page that does not exist yet. The sample has screenshots in their place, or none.
 
 31 October about 21:25 UTC: rebuilt after the reads: security's a to d, the researcher's two points, the storyteller's seven, the series page (G1 signed) and the series as the title page's subtitle; 13 pages. Next: LK1's look.
+
+31 October about 23:20 UTC: security cleared the sample (003); the researcher's page 5 fix applied after it and sent back to security first; built in the lab's look, 13 pages.
