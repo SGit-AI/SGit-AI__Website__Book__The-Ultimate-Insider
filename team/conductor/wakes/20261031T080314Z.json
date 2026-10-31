@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "In scope; no stop condition. Conditions: J1 and A9 open and unsigned (his go pending, never given); nothing to the newsroom or outside the repository; vault_check before commit; no secrets in mail or brief 16; briefs/ untouched.",
    "at": "2026-10-31T08:04:11Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "1. Replies to researcher 011, storyteller 017, publisher 011; filed; vault_check clean. 2. J1 and A9 open in book.json, unsigned. 3. Brief 16, status. Gate clean.",
+   "at": "2026-10-31T08:05:00Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "Gate exit 0 (291 pages); 0 outside scope; vault_check clean; no em-dashes, key or contact; J1 and A9 open, unsigned; nothing sent outside the repository.",
+   "at": "2026-10-31T08:05:39Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "as-planned",
+   "comment": "1 three replies filed. 2 J1, A9 open. 3 brief 16, status. Nothing unplanned.",
+   "at": "2026-10-31T08:05:39Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-31T08:05:39Z",
+ "outcome": "ok"
 }
