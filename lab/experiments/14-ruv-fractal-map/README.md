@@ -17,3 +17,7 @@ The illustrator's RC1 map images (`team/conductor/rc1/resources/images/maps/05-t
 ## Questions for the editor
 
 Does the zoom make a map within a map clear on paper? Three frames, or two (the dot, then the map)?
+
+## 31 October, the 14:54 wake
+
+Frame 1 is printed at 114 mm, the width map 5 was drawn for, so its labels keep their size (the designer's one change, designer__032).

@@ -53,7 +53,7 @@ def main():
            '<span class="mono">06-the-plumbing-under-the-day.json</span>, images at <span class="mono">42f0b94</span>. '
            'Positions are readings of the record, not measurements, as the maps themselves say.</p>\n')
     html = ('<section class="page" data-claims="">\n'
-            + fig('f1-map05-dot.png', 92, '1', 'The day, as one value chain. Pick one dot: the tools written on the day.',
+            + fig('f1-map05-dot.png', 114, '1', 'The day, as one value chain. Pick one dot: the tools written on the day.',
                   'Every dot on a map is a whole map of its own, if you look closely enough.')
             + '</section>\n<section class="page" data-claims="">\n'
             + fig('f2-lens.png', 140, '2', 'Look into the dot.',

@@ -149,8 +149,19 @@ h2 { font: 700 14pt/18pt var(--sans); margin: 0 0 4mm }
 .sizes { display: grid; grid-template-columns: 50mm 40mm 1fr; gap: 5mm; align-items: end; margin-bottom: 4mm }
 .sizes svg { width: 100% }
 .poses, .sizes, .sheetchar { break-inside: avoid }
+
+/* the map with side notes: markers over the map image, the notes in the column beside it */
+.mapnotes { display: grid; grid-template-columns: auto 1fr; gap: 5mm; align-items: start; break-inside: avoid }
+.mn-map { position: relative }
+.mn-map img { width: 100%; display: block; border: .3mm solid var(--fill-2) }
+.mk { position: absolute; transform: translate(-50%, -50%); width: 4.6mm; height: 4.6mm; border-radius: 50%; background: var(--accent);
+  color: #fff; font: 800 9pt/4.6mm var(--sans); text-align: center }
+.mn-notes { list-style: none; margin: 0; padding: 0 }
+.mn-notes li { font: 400 9pt/12pt var(--sans); margin: 0 0 2.5mm }
+.mn-notes li b { display: inline-block; width: 4.6mm; height: 4.6mm; border-radius: 50%; background: var(--accent); color: #fff; text-align: center; line-height: 4.6mm; margin-right: 1.5mm }
+.mn-notes .stage { display: block; color: var(--muted) }
 </style></head><body><section class="sheet" style="page: plab14"><div class="head"><div class="id">LAB 14</div><h1>A dot that becomes the next map</h1><dl><dt>Tries</dt><dd>The editor's RC1 review, T10: a fractal Wardley map. Three frames: the day's value chain with one dot ringed, a lens where that dot opens, and the map that was inside it, so a reader sees that every part on a map can be mapped again.</dd><dt>Made from</dt><dd><ul><li><span class="mono">team/conductor/rc1/maps/05-the-day-as-a-value-chain.json</span> and 06-the-plumbing-under-the-day.json, the illustrator's images at <span class="mono">42f0b94</span> (read only)</li><li>the editor's RC1 review, T10 (<span class="mono">team/conductor/rc1/editor-review/notes.json</span>)</li></ul></dd><dt>The question</dt><dd>Does the zoom make the idea of a map within a map clear on paper? Is three frames right, or would two (the dot, then the map) do?<div class="verdict"><span><i class="box"></i>keep</span><span><i class="box"></i>change</span><span><i class="box"></i>drop</span><span class="note">note</span></div></dd></dl></div>
-  <figure class="fig" style="margin:0 0 5mm"><img src="./frames/f1-map05-dot.png" alt="The day, as one value chain. Pick one dot: the tools written on the day." style="width:92mm;display:block;border:.3mm solid var(--fill-2)"><figcaption><b>1</b> &nbsp; The day, as one value chain. Pick one dot: the tools written on the day.<span class="src" style="font-family:var(--sans)">Every dot on a map is a whole map of its own, if you look closely enough.</span></figcaption></figure>
+  <figure class="fig" style="margin:0 0 5mm"><img src="./frames/f1-map05-dot.png" alt="The day, as one value chain. Pick one dot: the tools written on the day." style="width:114mm;display:block;border:.3mm solid var(--fill-2)"><figcaption><b>1</b> &nbsp; The day, as one value chain. Pick one dot: the tools written on the day.<span class="src" style="font-family:var(--sans)">Every dot on a map is a whole map of its own, if you look closely enough.</span></figcaption></figure>
 </section><section class="sheet" style="page: plab14">
   <figure class="fig" style="margin:0 0 5mm"><img src="./frames/f2-lens.png" alt="Look into the dot." style="width:140mm;display:block;border:.3mm solid var(--fill-2)"><figcaption><b>2</b> &nbsp; Look into the dot.<span class="src" style="font-family:var(--sans)">The dot opens into the plumbing under the day: what the editor brought, what was written on the day, and what was rented.</span></figcaption></figure>
 </section><section class="sheet" style="page: plab14">
