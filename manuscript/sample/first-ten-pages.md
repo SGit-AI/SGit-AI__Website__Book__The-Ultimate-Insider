@@ -2,7 +2,7 @@
 
 At 00:16 on 29 October 2026 I created an empty repository (C001). By the evening a team of nine agents and one person, me, had built a talk of 58 beats, the slides that carry it, the player that runs it and the site around it (C011, C015). By 18:46 the repository held 814 commits, 603 of them by the agents (C004, C003). At seven that evening I walked on stage in London and gave the talk, for about 87 minutes, with questions from the room (C069).
 
-Everything the team made is open, so you can look at it and copy it.
+What the team made is open, so you can look at it and copy it.
 
 {width: 48%}
 ![The talk's player: 58 slides as web pages, with a timer and the speaker's notes behind one key](sample/images/talk__player.jpg)
@@ -17,6 +17,18 @@ An *agent* is an AI that works in a loop: it reads, decides, acts with tools, an
 ![Scan to open the talk's site](sample/images/qr-talk-site.svg)
 
 *Where this came from:* the talk's repository, pinned at commit `298be4e`; the claims C001, C003, C004, C011, C015 and C069 in the book's register. The length of the talk comes from its transcript, added after the day.
+
+# A book about you doing it
+
+This book is one of a series: *Generation ZX Founders (GenAI Edition)*, Gen ZX Founders for short, and its line is "For the ones already up at three in the morning building".
+
+The series has one idea. You start, and you build. Every book in it is a working example you can copy, not a story you only read. This one is about an agentic team: a presentation, made by agents, that you can make too.
+
+Generation ZX is not a range of birth years. It is the people building because finally they can. We see it most in Generation Z and Generation X, side by side in the same room, as they were in Faro: the youngest and the most experienced, building together.
+
+So read this book as a book about you doing it. It is about you starting, and building what I built here.
+
+*Where this came from:* the series' own site, gen-z-developers.sgit.ai (its name, its line and the sentence on Generation ZX are mine, from there; read on 31 October 2026); my brief of 31 October to the book's team.
 
 # What they made
 
@@ -41,7 +53,7 @@ That is the whole of it. You do not need to trust what I tell you about the day.
 
 By 18:46 there were 814 commits and 210 releases, each one a version you can open and check (C004, C009).
 
-![The team's dashboard: the London clock, and the hold that stopped every wake](sample/images/admin__dashboard-top.jpg)
+![The team's dashboard, as the talk's site shows it](sample/images/admin__dashboard-top.jpg)
 
 {blurb, class: information}
 **Words on this page**
@@ -53,24 +65,13 @@ A *release* is a numbered version of the site, made by the build every time a ch
 
 # Meet the team
 
-Each agent had one job, written down, like a cast.
-
-- **The conductor** kept the time and the plan. It routed the work, held the schedule, and was the one who stopped everything at the end.
-- **The storyteller** gave the talk its order and drew its maps.
-- **The researcher** checked every fact the talk wanted to use, against its source.
-- **Deck** owned the beats, the script and the slides.
-- **Dev** built the site, the player and the checks every change had to pass.
-- **The designer** gave it a look.
-- **Motion** made the animations that open each part.
-- **Studio** made several versions of a slide and let the best one win.
-- **ruv-sgit** made the explained animations, and ran things against my own services.
+Each agent had one job, written down, like a cast. The conductor came first: it kept the time and the plan, and it was the one that stopped everything at the end.
 
 Nine agents (C011). And me: I wrote the briefs, I made the decisions that mattered, and I gave the talk. Nobody else in this book speaks for me.
 
-{width: 55%}
-![Meet the team: the nine agents around the person they worked for](sample/images/motion__meet-the-team.jpg)
+![The cast: nine members, one line each, in the talk's own words](sample/images/cast-row.svg)
 
-*Where this came from:* each member's role file in the talk's repository at `298be4e`; the claim C011; the animation M03, "Meet the team".
+*Where this came from:* each member's role file in the talk's repository at `298be4e`, and its Meet the team piece; the claim C011. The drawing is the designer's (the book's `lab/experiments/22-designer-t10-drawings/`).
 
 # How a day runs
 
@@ -78,25 +79,27 @@ The team worked in turns, on a clock, and through the night. Some turns started 
 
 In the night, before six in the morning, the agents made 182 commits (C092, C073). Over the whole day there were 162 wakes: 105 on the schedule, 47 started by me, and 10 follow-ups (C087). From five in the morning to two in the afternoon I started none of them: every wake ran on its own schedule (C087).
 
-Every turn went the same way, in five steps. Plan the work. Have the plan checked. Do the work. Have the work checked. Check it went to plan. A turn that skipped a step could not close.
+Every turn went the same way, in five steps. Plan the work. Have the plan checked. Do the work. Have the work checked. Check it went to plan. A turn that skipped a step was not meant to close.
+
+![Every wake of 29 October as a dot, by what started it; the night shaded to 06:00; the hold at 18:44](sample/images/day-timeline.svg)
 
 {blurb, class: information}
 **The five steps of a wake**
 
-Plan; review the plan; work; review the work; check against the plan. The reviews are done by other agents, and each one writes its verdict down.
+Plan; review the plan; work; review the work; check against the plan. The reviews are done by two more agents, each briefed for its check, and each writes its verdict down.
 {/blurb}
 
-*Where this came from:* the claims C073, C087 and C092; the team's wake protocol (`team/conductor/WAKE.md` in the talk's repository).
+*Where this came from:* the claims C006, C073, C087 and C092; the team's wake protocol (`team/conductor/WAKE.md` in the talk's repository). The timeline is the designer's, drawn from the record.
 
 # The rule that let them go fast
 
 Anyone on the team could stop everything. Only I could start it again.
 
-At 18:44, sixteen minutes before the talk, the conductor did, at my word: it wrote a short file called a hold, and every wake after it stopped (C006, C024). It was the only hold of the day, and nothing went wrong after it, because nothing more happened.
+At 18:44, sixteen minutes before the talk, the conductor did, at my word: it wrote a short file called a hold, and every wake that started after it stopped at once (C006, C024). The work already in flight still landed: one commit eighty-two seconds later, and the last release of the day (C005, C065). Then the day was done. It was the only hold of the day.
 
 That is the talk's argument in one rule. Brakes are what let you go faster. A team you can stop with one file is a team you can let run through the night.[^why]
 
-[^why]: Two accounts, both kept. On the day, the hold gives my usage limit, at 95%, as the reason. Two days later I said the 95% was just a footnote: the real reason was that there was no tested way to take in changes during the talk (C089).
+[^why]: Three accounts, all kept. On the day, the hold gives my usage limit, at 95%, as the reason. Two days later I said the 95% was just a footnote: the real reason was that there was no tested way to take in changes during the talk. The same evening I remembered the 95% as the token usage; the record holds the percentage, not what it measured (C089, C021).
 
 {blurb, class: warning}
 **Watch for this**
@@ -104,7 +107,7 @@ That is the talk's argument in one rule. Brakes are what let you go faster. A te
 A brake only works if it is easy to pull and nobody can take it off but you. Write down who may stop the work, and who may restart it, before you need to.
 {/blurb}
 
-*Where this came from:* the hold, committed at 18:44:13 (the claims C006 and C024); the two accounts of why (C089), the second given on 31 October.
+*Where this came from:* the hold, committed at 18:44:13 (the claims C006 and C024); what landed after it (C005, C065); the accounts of why (C089), the later two given on 31 October.
 
 # What did not work
 
@@ -130,6 +133,8 @@ That is what I told a room in Faro on 31 October, at the Vibathon Algarve, a sol
 
 The team in this book ran that loop again and again, all day, with agents doing most of the building. My job was the brief, the decisions, and the brakes.
 
+![The loop: build, ship, learn, repeat, with the team inside it](sample/images/loop.svg)
+
 *Where this came from:* the newsroom's article "Vibathon Algarve 2026" (newsroom.sgit.ai, 31 October 2026), which quotes my words to the room; the claim C091.
 
 # Start tomorrow
@@ -153,6 +158,8 @@ Write the one page of rules for your first agent tonight. Three headings are eno
 # Where this book goes next
 
 The rest of the book walks the same path, in detail. The tour of what the team made. One agent, and how it was set up. A team that grows. The plumbing that keeps it true. The talk, and how a team like this was contained. And then your turn.
+
+![The book's six parts as stops on a line, and where these pages sit](sample/images/book-map.svg)
 
 Every number in it comes from one register, each with its id, and each can be checked against the repository. You do not have to trust the book. You can check it.
 

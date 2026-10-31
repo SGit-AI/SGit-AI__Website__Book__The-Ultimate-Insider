@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "publisher",
- "as_of": "2026-10-31T19:22:00Z",
- "round": 24,
- "state": "T10: the ten-page sample written in the editor's voice and built (manuscript/sample/, 12 pages); with security and the researcher to read",
+ "as_of": "2026-10-31T21:27:00Z",
+ "round": 25,
+ "state": "the ten-page sample corrected after its reads, with the series (G1) and the designer's drawings: 13 pages; next LK1's look and the ink costs",
  "done": [
   {
    "what": "session key published: team/publisher/key.json, key.png, sessions/session_01Kw9UwDVeRbKJZUWiRoRrHK/",
@@ -144,24 +144,24 @@
   {
    "what": "T10: manuscript/sample/first-ten-pages.md in the editor's voice from the storyteller's outline, every number from the sheet; built with the sample stamp (12 pages); letters to the conductor, security, synthetic, researcher",
    "when": "2026-10-31T19:20Z"
+  },
+  {
+   "what": "the sample after security, the researcher and the storyteller read it; the series page and subtitle (G1); the designer's four drawings; build_book.py --subtitle; letters to all five",
+   "when": "2026-10-31T21:25Z"
   }
  ],
  "next": [
   {
-   "what": "the sample's corrections from security, the researcher and synthetic, then for the editor",
-   "why": "board 008, T10"
+   "what": "LK1: book.css takes the designer's look, on the sample first; KDP print costs in black, standard and premium colour",
+   "why": "board 009, signed by the editor"
   },
   {
-   "what": "the voice read, chapters 04 onward",
+   "what": "the voice read, chapters 04 onward; chapters 01 and 03 notes for RC2",
    "why": "board 003"
   },
   {
    "what": "the RC2 build list once RC2 is in manuscript/",
    "why": "board 007"
-  },
-  {
-   "what": "the image sizes as Markua attributes; the trim and gutter",
-   "why": "once P2 is signed, board 006"
   }
  ],
  "asks": [
@@ -180,6 +180,6 @@
   "previous": "trig_01D2wnhQDySKsG8ZL9XLmNsW (first account, paused, not deleted)",
   "changed": "2026-10-31T02:20:11Z, not by this session: back to every two hours round the clock, matching Q6 as amended (01:32 UTC) and the conductor's letter 018; recorded, not changed back; the editor's word for it asked onto dev (publisher__009). Before: 00:50:06Z, to the day schedule at Q6 as first signed; recorded on dev by the conductor (letter 021), open decision W1"
  },
- "requests": "taken: conductor__002 to 030, designer__013 to 030, storyteller__010 to 022, researcher__001, security__001; T10 written",
+ "requests": "taken: conductor__002 to 034, designer__013 to 036, storyteller__010 to 023, researcher__001, 002, security__001, 002; LK1 next",
  "cadence": "active"
 }

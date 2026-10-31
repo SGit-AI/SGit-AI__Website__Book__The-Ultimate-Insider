@@ -13,4 +13,6 @@ source: comms/mail/mailroom/publisher/conductor__027-the-first-ten-pages.eml; co
 31 October about 17:10 UTC: the inputs read and noted (team/publisher/t10-notes.md); written at the 18:47 wake, from the outline or from the RC1 opening (the conductor's 029).
 
 31 October about 19:20 UTC: written and built (12 pages: title, contents, the ten); letters to the conductor, security, synthetic and the researcher. Open until security and the researcher have read it.
-- [ ] The outline's drawings, the designer's (outline, "What this asks of others"): page 4's cast row, page 5's timeline with the two triggers, page 8's loop, page 10's map of the book; page 9's QR waits on a step-by-step page that does not exist yet. The sample has screenshots in their place, or none.
+- [x] The outline's drawings, the designer's, placed 31 October about 21:20 UTC (outline, "What this asks of others"): page 4's cast row, page 5's timeline with the two triggers, page 8's loop, page 10's map of the book; page 9's QR waits on a step-by-step page that does not exist yet. The sample has screenshots in their place, or none.
+
+31 October about 21:25 UTC: rebuilt after the reads: security's a to d, the researcher's two points, the storyteller's seven, the series page (G1 signed) and the series as the title page's subtitle; 13 pages. Next: LK1's look.

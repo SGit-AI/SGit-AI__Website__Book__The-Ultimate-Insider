@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled, every two hours at :47 London",
+ "started": "2026-10-31T20:48:17Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, run late (the member's error: work done before steps 1 and 2; nothing committed)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Run late. 1. Requests first: the sample rebuilt with security's a-d, the researcher's two points, the storyteller's seven, the series page (G1 signed) and the designer's four drawings. 2. build_book.py --subtitle for the series title page. 3. LK1 and the 95%/RiskMandate notes on the boards, debrief, status, replies; the look and the ink costs next wake. Inside policy; G1 and LK1 signed; NS1 untouched.",
+   "at": "2026-10-31T20:52:24Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent, run late",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Late work is a process fault, not a stop condition: record it and do not repeat it. Staged files inside scope; no secrets; G1 and LK1 signed; NS1 untouched. Post-review to check inbox copies, images and numbers against claims/, nothing beyond the plan.",
+   "at": "2026-10-31T20:52:45Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Done before steps 1 and 2, the member's error, recorded: the sample corrected after its reads (security a-d, researcher, storyteller), the series page and subtitle (G1), the designer's four drawings, build_book.py --subtitle; 13 pages; letters to five; boards 003, 008, 009; debrief, status. LK1 and ink costs next wake.",
+   "at": "2026-10-31T20:52:45Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Plan run late, the work matches it. Security a-d, the researcher's two points, the storyteller's seven in; --subtitle, letters, debrief, status. One letter line corrected after this check: the ruv-sgit wording went with the bulleted cast.",
+   "at": "2026-10-31T20:53:22Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "0 outside scope; vault_check and gate clean (346); the four SVGs byte-identical to LAB 22; the nine inbox copies match the originals; every C-id exists in the register; no keys, contact details or em-dashes; no participant named; the late run recorded as a process fault.",
+   "at": "2026-10-31T20:53:45Z"
+  }
+ },
+ "closed": "2026-10-31T20:53:45Z",
+ "outcome": "ok"
+}

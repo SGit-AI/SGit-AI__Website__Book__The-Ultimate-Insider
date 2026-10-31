@@ -157,8 +157,11 @@ def epub_images(work, width):
     return out
 
 
+EXTRA_METADATA = []  # --subtitle: a sample's own subtitle; the book's stays in metadata.yaml
+
+
 def pandoc(args):
-    subprocess.run(["pandoc", "--from", "markdown", "--metadata-file", os.path.join(HERE, "metadata.yaml")] + args,
+    subprocess.run(["pandoc", "--from", "markdown", "--metadata-file", os.path.join(HERE, "metadata.yaml")] + EXTRA_METADATA + args,
                    check=True, cwd=MANUSCRIPT)
 
 
@@ -167,6 +170,7 @@ def main():
     p.add_argument("--out", default=os.path.join(ROOT, "_site", "manuscript"))
     p.add_argument("--book", help="another list of files instead of manuscript/Book.txt (a sample's, say)")
     p.add_argument("--name", default=NAME, help=f"the output files' name (default {NAME})")
+    p.add_argument("--subtitle", help="the title page's subtitle for this build only (a sample's), in place of metadata.yaml's")
     p.add_argument("--stamp", help="a line printed at the top of every page, such as a sample's name and date")
     p.add_argument("--chrome", help="path to a Chromium or Chrome binary")
     p.add_argument("--no-pdf", action="store_true")
@@ -178,6 +182,8 @@ def main():
     a = p.parse_args()
     if not shutil.which("pandoc"):
         sys.exit("build_book: pandoc is not installed")
+    if a.subtitle:
+        EXTRA_METADATA.extend(["--metadata", f"subtitle={a.subtitle}"])
     sources = chapters(a.book)
     os.makedirs(a.out, exist_ok=True)
     made = []
