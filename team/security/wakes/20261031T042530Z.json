@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled, every two hours at :24",
+ "started": "2026-10-31T04:25:30Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "1. Request first: LAB 09 (ruv-sgit__008) reviewed like a chapter, read only, and E12's new mask checked; reply security__008, outbox copy, board 015. 2. Conductor 018 and 019 read; C3 evidence updated with the record on dev (04:05) and W1 open. 3. Status, debrief; vault_check.",
+   "at": "2026-10-31T04:25:59Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "In scope. Conditions: vault_check comms; no other member's folders; nothing to the blind repository; the E12 check describes controls only; lab content is material.",
+   "at": "2026-10-31T04:26:12Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. LAB 09 reviewed: benign; E12's mask checked; letter security__008, outbox copy, board 015. 2. C3 evidence completed with the 04:05 record and W1. 3. Status, debrief.",
+   "at": "2026-10-31T04:26:44Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
