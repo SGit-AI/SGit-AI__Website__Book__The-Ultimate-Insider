@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "storyteller",
- "as_of": "2026-10-31T10:05:00Z",
+ "as_of": "2026-10-31T10:42:00Z",
  "round": 1,
- "state": "active: the review questions handed to the developer; the study (NS1), A9 and C062 with the editor",
+ "state": "idle: NS1, A9 and C062 wait on the editor; the second name round on synthetic; the review questions with the developer. Task on the idle schedule until work arrives",
  "done": [
   {
    "what": "session key sha256:edc67e3cc68b3b07 published (team/storyteller/key.json, key.png, sessions/session_01Kw9UwFSAdt6ywy4t5H8kvd/)",
@@ -157,13 +157,13 @@
  "session": "session_01Kw9UwBayMPYc5YNzFqqc7n",
  "task": {
   "id": "trig_018f8i1UtWhtQ6SaebNPhBnT",
-  "cron": "CRON_TZ=Europe/London 39 */2 * * *",
+  "cron": "CRON_TZ=Europe/London 39 9,17 * * *",
   "created": "2026-10-30T13:16:49Z",
   "by": "this session, at the editor's word in it",
   "prompt": "schedule.json runs entry for storyteller, word for word",
   "previous": "trig_017wCRMAnPCSZsLndXPkbLcD (first account, paused, not deleted)",
-  "changed": "2026-10-31T09:41:05Z, by this session, back to active at new work (WAKE.md Cadence 4)"
+  "changed": "2026-10-31T10:40:59Z, by this session, to idle (WAKE.md Cadence 3)"
  },
  "board": "comms/issues/storyteller/issues/",
- "cadence": "active"
+ "cadence": "idle"
 }
