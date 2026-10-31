@@ -36,6 +36,30 @@
    "from": [
     "batch-02: page 8"
    ]
+  },
+  {
+   "id": "T5",
+   "name": "Ask of every page: what are we trying to say?",
+   "rule": "Every page has an objective: an idea to communicate, a paradigm shift for the reader. Counts and logistics that do not serve it go (the giant '9' on page 9).",
+   "from": [
+    "batch-04: page 9"
+   ]
+  },
+  {
+   "id": "T6",
+   "name": "The book teaches the reader to replicate the workflow",
+   "rule": "The reader ends the book where the editor started it. Every chapter has prompts, examples, case studies and 'do this now' steps (a dedicated Claude team account, GitHub, the first agent is the conductor, a policy, a prompt, a schedule), with small diagrams ('you are here') and QR codes to detailed pages on the site (the augmented book). Start with one agent, not thirty; give it bit by bit. A section on building your own presentation UI: the tool is built as the work is made, and reused. The Gen ZX book's content may be reused. Say it personally: 'my objective is to get you to where I am'.",
+   "from": [
+    "batch-04: page 9"
+   ]
+  },
+  {
+   "id": "T7",
+   "name": "Footnotes, links and QR codes: the book is augmented",
+   "rule": "Times and who-did-what go to footnotes. Sprinkle the book with references to the editor's articles (newsroom.sgit.ai and the other sgit.ai sites), as a short name at the foot of the page or a small QR code (experiment for the smallest size a phone reads). A catalogue of the best articles, content and vaults, and a graph of their cross-references.",
+   "from": [
+    "batch-04: page 9"
+   ]
   }
  ],
  "page_layout": [
@@ -131,6 +155,22 @@
    "text": "",
    "note": "Brief ruv.sgit and the other agents to find better static ways to present the talk's visuals; experiments across chapters, not only in the lab PDF (T4)",
    "owner": "conductor: a request to ruv.sgit and designer"
+  },
+  {
+   "n": 10,
+   "page": 9,
+   "file": "00-before-you-start.md (infographic ig05, placed at build time)",
+   "text": "'9 staffed agents, and a tenth folder for security' (1600 by 1600, half the page)",
+   "note": "Wrong size, and not what the page should say (T5). Nobody caught it: the workflow gap is that the infographics are placed at build time, outside the chapters the members review, and nothing looks at the printed pages",
+   "owner": "publisher (a size check in the build), designer (a visual pass over every printed page), conductor (the gap)"
+  },
+  {
+   "n": 11,
+   "page": 9,
+   "file": "00-before-you-start.md",
+   "text": "How to read the record: times, commits",
+   "note": "Logistics; times and who-did-what as footnotes (T1, T7)",
+   "owner": "revision"
   }
  ],
  "tasks": [
@@ -141,6 +181,36 @@
    "how": "with vaults: pen vaults between the agents, each signed with its PKI key, the team's standard way of working",
    "owner": "conductor: a study and a proposal for the editor (it touches R1, R2 and X2: vaults and keys; and needs his accounts and keys for outside services)",
    "from": "batch-03"
+  },
+  {
+   "id": "A2",
+   "what": "Find what is missing in the workflow that let page 9's image through, and fix it",
+   "owner": "conductor; publisher and designer",
+   "from": "batch-04"
+  },
+  {
+   "id": "A3",
+   "what": "Work through the night again: more pace, and agents use their full time (up to 45 minutes, never over an hour) to clear their backlog",
+   "owner": "conductor (Q6 amended), every member",
+   "from": "batch-04"
+  },
+  {
+   "id": "A4",
+   "what": "A pass over the editor's best articles (newsroom.sgit.ai and the other sgit.ai sites), content and vaults: catalogue them, link them from the book, and a graph of the cross-references",
+   "owner": "researcher, with the librarian",
+   "from": "batch-04"
+  },
+  {
+   "id": "A5",
+   "what": "Footnotes and QR codes: experiment with how they look and the smallest QR a phone reads",
+   "owner": "designer and publisher (the lab)",
+   "from": "batch-04"
+  },
+  {
+   "id": "A6",
+   "what": "The structure as a walkthrough to replicate the workflow (T6), with a couple of rounds; reuse the Gen ZX book's content where it fits",
+   "owner": "storyteller (the name and structure study)",
+   "from": "batch-04"
   }
  ]
 }
