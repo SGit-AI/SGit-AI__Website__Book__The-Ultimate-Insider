@@ -31,8 +31,15 @@
    "verdict": "as-planned",
    "comment": "1 done: the task change recorded (status.json, debrief). 2 done: mail answered and filed; outbox 012 to 015; board 007 updated, 009 opened. 3 done: the study's second pass (name test, market, listing, the tour as a proposal). Conditions kept: recorded not altered, vault_check clean, no key page. Nothing unplanned.",
    "at": "2026-10-31T02:43:53Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (Sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Build, validate (245 pages), agents check (0 outside scope) and vault_check comms pass. No key, token, personal detail, em-dash, directing text or anything attack-shaped. The tour shows no key page. The study stays a proposal. The task change recorded factually. Word budgets are not claims.",
+   "at": "2026-10-31T02:44:07Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-31T02:44:07Z",
+ "outcome": "ok"
 }
