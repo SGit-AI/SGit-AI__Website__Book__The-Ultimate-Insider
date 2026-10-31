@@ -8,5 +8,6 @@ Every component: a JSON spec in, an SVG out, one SVG unit to the millimetre, tex
 |---|---|---|---|
 | `timeline.py` | horizontal, vertical | LAB 09 | `{{timeline:<spec from lab/>:<mode>:<length mm>}}` |
 | `counters.py` | a row, any width | LAB 16 | `{{counters:<spec from lab/>:<length mm>}}` |
+| `mapnotes.py` | a map with side notes | LAB 17 | `{{mapnotes:<spec from lab/>}}` |
 
-Proposed next: a small Wardley map with side notes (T8), a before-and-after panel (LAB 08's form).
+Proposed next: a before-and-after panel (LAB 08's form).

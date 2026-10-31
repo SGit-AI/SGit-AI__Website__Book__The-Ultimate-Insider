@@ -41,6 +41,13 @@ def component_timeline(m):
     return svg.replace('class="timeline"', f'class="timeline" style="width: {w}mm; max-width: none"', 1)
 
 
+def component_mapnotes(m):
+    """{{mapnotes:<spec, from lab/>}}: lab/tools/components/mapnotes.py, a map image with numbered side notes."""
+    sys.path.insert(0, str(LAB / "tools" / "components"))
+    from mapnotes import render
+    return render(json.loads((LAB / m.group(1)).read_text()), LAB.parent)
+
+
 def component_counters(m):
     """{{counters:<spec, from lab/>:<length mm>}}: lab/tools/components/counters.py, drawn at its own size."""
     sys.path.insert(0, str(LAB / "tools" / "components"))
@@ -159,6 +166,7 @@ def assemble(counts=None):
         if meta["_pages"].parent == d:   # a page in its own folder: its relative images are found there
             src = re.sub(r'src="(?!data:|https?:|/|\.\./|\{\{)([^"]+)"', lambda m: f'src="{meta["_dir"]}/{m.group(1)}"', src)
         src = re.sub(r"\{\{char:([\w-]+)\}\}", lambda m: chars[m.group(1)], src)
+        src = re.sub(r"\{\{mapnotes:([\w./-]+\.json)\}\}", component_mapnotes, src)
         src = re.sub(r"\{\{counters:([\w./-]+\.json):([\d.]+)\}\}", component_counters, src)
         src = re.sub(r"\{\{timeline:([\w./-]+\.json):(horizontal|vertical):([\d.]+)\}\}", component_timeline, src)
         secs = re.findall(r'<section class="page"(?: data-claims="([^"]*)")?>(.*?)</section>', src, re.S)

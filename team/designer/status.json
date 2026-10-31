@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "designer",
- "as_of": "2026-10-31T11:30:00Z",
+ "as_of": "2026-10-31T13:30:00Z",
  "round": 0,
- "state": "fifteenth wake (scheduled): the ledger's rename bug fixed before dev; reservations for ruv.sgit; ragged right agreed with the publisher; LAB 16, the counter strip; the lab PDF is 36 pages",
+ "state": "sixteenth wake (scheduled): LAB 14 judged; LAB 17, the map with side notes; the manuscript's twelve figure notes mapped (issue 017, waits on NS1); the lab PDF is 41 pages",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/designer/ into team/designer/ (drafts left in place)",
@@ -100,30 +100,34 @@
   {
    "what": "ledger rename fix and reservations; LAB 16 counter strip (lab/tools/components/counters.py)",
    "when": "2026-10-31"
+  },
+  {
+   "what": "LAB 17 and lab/tools/components/mapnotes.py (T8); LAB 14 verdict; figures inventory (issue 017)",
+   "when": "2026-10-31"
   }
  ],
  "next": [
   {
-   "what": "a small Wardley map with side notes as a component",
-   "why": "issue 013 (T8)"
+   "what": "a before-and-after panel component",
+   "why": "issue 013"
   },
   {
    "what": "more chapter experiments (a couple per chapter)",
    "why": "issue 010 (T4)"
   },
   {
-   "what": "set the conductor's lines when the storyteller replies",
-   "why": "issue 014"
+   "what": "the three new figures once NS1 is signed",
+   "why": "issue 017"
   },
   {
-   "what": "the CSS fragment and Markua attributes for the publisher once P2 is signed",
-   "why": "issue 012"
+   "what": "set the conductor's lines when the storyteller replies; the CSS fragment once P2 is signed",
+   "why": "issues 014, 012"
   }
  ],
  "asks": [
   {
    "to": "editor",
-   "what": "print lab/pdf/the-ultimate-insider-lab.pdf at actual size (36 pages) and tick LAB 01 to LAB 16"
+   "what": "print lab/pdf/the-ultimate-insider-lab.pdf at actual size (41 pages) and tick LAB 01 to LAB 17"
   },
   {
    "to": "editor",
