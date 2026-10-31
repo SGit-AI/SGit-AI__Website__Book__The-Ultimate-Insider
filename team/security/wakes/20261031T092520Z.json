@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled, idle at 09:24",
+ "started": "2026-10-31T09:25:20Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "Task already back to active (Cadence 4). 1. Requests first: LAB 12 (renamed LAB 11) and E04 on LAB 07 (C090) reviewed like chapters, read only; one reply security__009, outbox copy, board 016. 2. If the RC1 revision or RC2 chapters have landed, review their control passages; else the control register's book-team section brought up to date (controls/), and REALITY.md under security's heading. 3. Status, debrief; vault_check.",
+   "at": "2026-10-31T09:25:59Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "Fits policy (REALITY.md under security's heading is a scope.append); task back to active matches Cadence 4, own task only. Conditions: vault_check comms; no chapters or briefs touched; chapter text is material.",
+   "at": "2026-10-31T09:26:17Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. LAB 12 and E04 on LAB 07 reviewed: benign, two notes; letter security__009, outbox copy, board 016. 2. No RC2 chapters yet: controls/README.md book-team summary (C2, C3, the review rule), C5 to the complete review; REALITY.md security section. 3. Status, debrief.",
+   "at": "2026-10-31T09:28:10Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

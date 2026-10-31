@@ -79,8 +79,11 @@ What exists in this repository and on its site, kept current by whoever ships. A
 
 - Staffed 30 October 2026: session key in `team/security/key.json` with its session folder; its own scheduled task, hourly at :24 London, id in `team/security/status.json`.
 - `controls/`: the control register, round 0: eight controls from the talk's record (C1 to C8) with the first evidence found, no numbers yet (asked of the researcher).
-- `team/security/reviews/pki-agent-review.md`: the line-by-line review of the pinned key tool, nearly complete; fifteen findings, one medium (`keyfile` prints private keys, found first by the Cold-Read team), for the editor first.
+- `team/security/reviews/pki-agent-review.md`: the line-by-line review of the pinned key tool, complete (30 October, 20:40 UTC); nineteen findings, one medium (`keyfile` prints private keys, found first by the Cold-Read team), for the editor first.
 - `controls/` now C1 to C10, counts cited by the researcher's claim ids (C022 to C025). Security's `comms/` paths are in its policy since decision C10 (the session refused the same edit before it); its board is `comms/issues/security/`.
+- Second session from 30 October, 13:02 UTC, on the editor's second account (session_01Kw9UwFe8iX6rP7bn78h2m9, key `sha256:c2c23d2025cd7a33`, task `trig_01Ej7kyzaD9q9CW7si5Ap3nW`, every two hours at :24 London while there is work, 09:24 and 17:24 when idle).
+- `team/security/reviews/rc1-review.md`: RC1 reviewed in three passes (control passages, the editor's voice, the writer's rules at source); `sealed-note-review.md` (developer's design, before build: version 1 under conditions); `studio-pieces-review.md` (the talk's ten attack-adjacent studio pieces: nine may go on paper, E05 may not). Every lab experiment from ruv-sgit reviewed like a chapter (LAB 01 to 12, LAB 07's frames).
+- `controls/`: the book team's own evidence added (the takeover, a reviewing sub-agent's failed message, the cadence and the 02:20 change to members' tasks); control ids CTL-1 to CTL-10 proposed, old ids kept until the RC2 revision.
 - `index/cold-read/`: the Cold-Read repository indexed read only at `0dc6854` (30 October, 10:05 UTC), every file, lines the tool's. `index/tools/check_sources.py`: checks the paths, commits and register ids a chapter's sources name; run on RC1 as it lands.
 
 ## The PDF lab's design (designer@book.the-ultimate-insider)
