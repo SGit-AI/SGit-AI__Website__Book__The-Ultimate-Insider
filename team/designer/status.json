@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "designer",
- "as_of": "2026-10-31T13:30:00Z",
+ "as_of": "2026-10-31T15:30:00Z",
  "round": 0,
- "state": "sixteenth wake (scheduled): LAB 14 judged; LAB 17, the map with side notes; the manuscript's twelve figure notes mapped (issue 017, waits on NS1); the lab PDF is 41 pages",
+ "state": "seventeenth wake (scheduled): LAB 18, the ten-page sample's look and a cover sketch (T10, G1); LAB 15 in; LAB 19 and 20 reserved for ruv.sgit; the lab PDF is 47 pages",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/designer/ into team/designer/ (drafts left in place)",
@@ -104,38 +104,42 @@
   {
    "what": "LAB 17 and lab/tools/components/mapnotes.py (T8); LAB 14 verdict; figures inventory (issue 017)",
    "when": "2026-10-31"
+  },
+  {
+   "what": "LAB 18: the ten-page sample's opening spread (placeholders) and a cover sketch beside Gen ZX Founders",
+   "when": "2026-10-31"
   }
  ],
  "next": [
   {
-   "what": "a before-and-after panel component",
-   "why": "issue 013"
+   "what": "set the real ten pages in LAB 18's look when the storyteller's outline and the publisher's sample exist",
+   "why": "issue 018 (T10)"
   },
   {
-   "what": "more chapter experiments (a couple per chapter)",
-   "why": "issue 010 (T4)"
+   "what": "a before-and-after panel component",
+   "why": "issue 013"
   },
   {
    "what": "the three new figures once NS1 is signed",
    "why": "issue 017"
   },
   {
-   "what": "set the conductor's lines when the storyteller replies; the CSS fragment once P2 is signed",
+   "what": "the conductor's lines when the storyteller replies; the CSS fragment once P2 is signed",
    "why": "issues 014, 012"
   }
  ],
  "asks": [
   {
    "to": "editor",
-   "what": "print lab/pdf/the-ultimate-insider-lab.pdf at actual size (41 pages) and tick LAB 01 to LAB 17"
+   "what": "look at LAB 18 in lab/pdf/the-ultimate-insider-lab.pdf: the ten-page sample's opening spread and a cover sketch beside Gen ZX Founders (G1)"
   },
   {
    "to": "editor",
-   "what": "the team's book build now sets the body ragged right (no hyphenation in its Chromium); say if you prefer justified with gaps"
+   "what": "print the lab PDF at actual size (47 pages) and tick LAB 01 to LAB 18"
   },
   {
    "to": "editor",
-   "what": "sign P2 in book.json (Crown Quarto, gutter 0.625 in); scan the QR test sheet"
+   "what": "sign P2 and NS1 in book.json; scan the QR test sheet"
   }
  ],
  "task": {
@@ -209,6 +213,13 @@
    "what": "the book at Crown Quarto",
    "state": "open: relayed; the lab set at it; waits on book.json and the publisher",
    "board": "comms/issues/designer/issues/open/009-crown-quarto.md"
+  },
+  {
+   "id": "018",
+   "from": "conductor",
+   "what": "the first ten pages: look and cover sketch",
+   "state": "open: LAB 18 done; real pages when the sample exists",
+   "board": "comms/issues/designer/issues/open/018-the-first-ten-pages.md"
   }
  ],
  "board": "comms/issues/designer/issues/",
