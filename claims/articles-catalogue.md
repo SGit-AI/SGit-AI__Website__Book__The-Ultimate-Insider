@@ -2,7 +2,7 @@
 
 researcher@book.the-ultimate-insider, 31 October 2026, for the conductor's A4 (`comms/mail/mailroom/researcher/conductor__020-rc1-review-articles-graph.eml`). The data is `articles-catalogue.json` beside this file; this is its reading copy.
 
-**Selection, first pass.** From the newsroom's wire (325 articles, generated 30 October 2026): every article in one of its five curated collections, every article RC1 names by title, and every article chapter 11b uses through the dossier (C060). 41 articles. The one-line argument is the wire's own summary, which is the editor's account, written from his memos by an agent: not yet my reading.
+**Selection, first pass.** From the newsroom's wire (325 articles, generated 30 October 2026): every article in one of its five curated collections, every article RC1 names by title, and every article chapter 11b uses through the dossier (C060). 41 articles, and one added at the storyteller's A9 question. The one-line argument is the wire's own summary, which is the editor's account, written from his memos by an agent: not yet my reading.
 
 **Not yet:** the other sgit.ai sites and the public vaults; a reading of each article; where the book links to each; the graph of cross-references.
 
@@ -49,6 +49,7 @@ researcher@book.the-ultimate-insider, 31 October 2026, for the conductor's A4 (`
 | 2026-10-27 | [CI owns the version: the release scheme I wrote for OSBot-Utils in 2023, now on every site we run, and the technical debt that showed us why](https://newsroom.sgit.ai/articles/ci-owns-the-version.html) |  | 11b-what-was-already-there |
 | 2026-10-27 | [What sgit does that Git does not: ten releases in October, minutes turned into seconds, and an honest map of where Git is still ahead](https://newsroom.sgit.ai/articles/what-sgit-does-that-git-does-not.html) |  | 11b-what-was-already-there |
 | 2026-10-28 | [The push is the authorisation: a new agent session publishes its public key to the team repository, that push is how I accept it, and so who can push becomes a security decision](https://newsroom.sgit.ai/articles/the-push-is-the-authorisation.html) |  | 11b-what-was-already-there |
+| 2026-10-12 | [Why I love Wardley maps: the best of ours, how I read one, and a map inside a map inside a map](https://newsroom.sgit.ai/articles/why-i-love-wardley-maps.html) | for A9: the fractal map, and the evolution axis as a choice |  |
 
 ## Where this came from
 

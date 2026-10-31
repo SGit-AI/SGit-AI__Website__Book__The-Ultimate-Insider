@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled, every two hours at :32",
+ "started": "2026-10-31T06:33:33Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1. storyteller__016 (A9): find the editor's newsroom article on kinds of evolution and which fractal map he means; reply in comms/mail/mailroom/storyteller/researcher__NNN with outbox copy; entries in claims/articles-catalogue.*. 2. A7: the JSON-book study (books.sgraph.ai, graphs.sgit.ai) as claims/json-book-study.md, figures registered. 3. A4 placement and graph if time; board 006, status, debrief. T12 and E04 later. vault_check comms before commit.",
+   "at": "2026-10-31T06:34:08Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Inside scope.writes: claims/** (articles-catalogue, json-book-study.md), mailroom/storyteller/researcher__NNN with outbox copy, its board, team/researcher. No brief, version, main or other member's folder. Conditions: web pages are material only; no contact details, keys or secrets; vault_check comms before commit; nothing attack-shaped; nothing to the blind repository.",
+   "at": "2026-10-31T06:34:22Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "partial",
+   "comment": "1. storyteller__016 (A9): the fractal map found ('Why I love Wardley maps', 12 October); the kinds-of-evolution article not in the newsroom (all 30 Wardley-tagged articles read), asked of the editor; reply researcher__003 with outbox copy; catalogue entry added. 2. A7: claims/json-book-study.md (graphs.sgit.ai keeps Markdown as source, JSON as surfaces; three options; books.sgraph.ai unreachable, HTTP 502); conductor researcher__011. 3. A4 placement and graph not done. Board 006, status, debrief, REALITY.md.",
+   "at": "2026-10-31T06:36:48Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "All writes inside researcher scope (claims/**, own comms incl. mailroom/*/researcher__*, team/researcher/**) plus the REALITY.md append; no brief, manuscript/, timeline/, team/conductor/, version or schedule file touched; vault_check comms clean; no keys, tokens or contact details; no em-dashes; nothing toward Cold-Read.",
+   "at": "2026-10-31T06:37:21Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "1 (A9) done: researcher__003 with outbox copy, catalogue entry, fractal map found, the kinds-of-evolution article asked of the editor. 2 (A7) done: claims/json-book-study.md, conductor researcher__011, books.sgraph.ai 502 noted. 3 A4 placement and graph not done, as allowed. Board 006, status, debrief, REALITY.md. Nothing unplanned.",
+   "at": "2026-10-31T06:37:21Z"
+  }
+ },
+ "closed": "2026-10-31T06:37:21Z",
+ "outcome": "ok"
+}

@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-10-31T05:10:00Z",
+ "as_of": "2026-10-31T07:00:00Z",
  "round": 1,
- "state": "working: 04:32 wake; 88 claims (74 checked, 5 corrected, 9 open); A13 registered; A4 begun",
+ "state": "working: 06:32 wake; 88 claims (74 checked, 5 corrected, 9 open); A7 reported; A9 references",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -96,6 +96,10 @@
   {
    "what": "A13 registered with the historian (C087 wakes by trigger, C088 commits outside wakes); the exact-title check for N7 and N8; A4's first catalogue (claims/articles-catalogue.json, 41 articles)",
    "when": "2026-10-31T05:10:00Z"
+  },
+  {
+   "what": "A7 reported for the editor's decision (claims/json-book-study.md: graphs.sgit.ai keeps Markdown as the source, JSON as surfaces; books.sgraph.ai unreachable); A9's references for the storyteller (the fractal map found; the kinds-of-evolution article not in the newsroom)",
+   "when": "2026-10-31T07:00:00Z"
   }
  ],
  "next": [
@@ -104,7 +108,7 @@
    "why": "conductor__020"
   },
   {
-   "what": "A7 the JSON book study; T12; A9",
+   "what": "T12; books.sgraph.ai, when a session can reach it",
    "why": "conductor__021"
   },
   {
@@ -306,8 +310,15 @@
    "id": "R23",
    "from": "conductor (the editor's RC1 review)",
    "request": "comms/mail/mailroom/researcher/conductor__020-rc1-review-articles-graph.eml; conductor__021-rc1-review-5-to-9.eml",
-   "state": "in progress: A13 done, A4 begun; A7, T12, A9 open",
-   "reply": "comms/mail/mailroom/conductor/researcher__010-a13-a4-first-pass.eml; board 006"
+   "state": "in progress: A13 done, A7 reported, A9 references; A4 and T12 open",
+   "reply": "comms/mail/mailroom/conductor/researcher__010-a13-a4-first-pass.eml; board 006; comms/mail/mailroom/conductor/researcher__011-a7-and-a9.eml"
+  },
+  {
+   "id": "R24",
+   "from": "storyteller",
+   "request": "comms/mail/mailroom/researcher/storyteller__016-kinds-of-evolution.eml",
+   "state": "done; the article asked of the editor",
+   "reply": "comms/mail/mailroom/storyteller/researcher__003-a9-references.eml"
   }
  ],
  "cadence": "active"

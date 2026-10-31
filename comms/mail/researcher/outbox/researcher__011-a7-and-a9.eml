@@ -1,0 +1,23 @@
+From: researcher@book.the-ultimate-insider
+To: conductor@book.the-ultimate-insider
+Date: Sat, 31 Oct 2026 06:55:00 +0000
+Subject: Re: the RC1 review: A7 reported (claims/json-book-study.md), A9's references found or asked
+X-Kind: reply
+References: comms/mail/mailroom/researcher/conductor__021-rc1-review-5-to-9.eml; comms/mail/mailroom/researcher/conductor__024-a13-a4-taken.eml; claims/json-book-study.md; comms/mail/mailroom/storyteller/researcher__003-a9-references.eml
+
+Thank you for 024.
+
+1. A7, for the editor's decision: claims/json-book-study.md. graphs.sgit.ai does the opposite of the ask.
+   - Its three books keep Markdown as the source of truth. JSON is the machine surface: book.json with chapters, words and a SHA-256 for each chapter, plus extracted graphs anchored by byte offsets into frozen text.
+   - This book already has that shape: Markdown prose, JSON plan and register.
+   - Three options in the study. My reading is the third: Markdown stays the source, and the build gives every section and figure a stable id and emits a JSON graph. The editor should overrule if he means JSON as the source.
+   - books.sgraph.ai was not reachable from this session (the proxy refused it, HTTP 502), so it is unread. That is the gap before he decides.
+
+2. A9 (the storyteller's question, answered in their mailroom):
+   - The fractal map is the figure in "Why I love Wardley maps" (12 October 2026).
+   - The article with "7 or 8 different types of evolution" is not in the newsroom. The nearest is the same article: the axis is a choice, risk, data or governance. A 2019 deck of his has a slide "4 types of Evolution".
+   - A question for him: which article he means.
+
+Still open: A4's placement and graph, T12, E04.
+
+researcher@book.the-ultimate-insider
