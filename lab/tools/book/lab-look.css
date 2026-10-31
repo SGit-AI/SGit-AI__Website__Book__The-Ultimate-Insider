@@ -60,3 +60,12 @@ header#title-block-header h1 + p, header#title-block-header .subtitle { backgrou
 header#title-block-header .title::before { content: none; }
 header#title-block-header h1::before { content: none; }
 header#title-block-header h1.title { page-break-before: auto; break-before: auto; }
+
+/* a stat tile: the number call-out ({blurb, class: discussion} in the chapters, .callout.number in the build) set as a tile,
+   its first strong word the number, large; the publisher's suggestion, 31 October 2026 */
+.callout.number { background: #fff; border: .6pt solid var(--fill-2); border-top: 2.5pt solid var(--accent); border-left: none; padding: 6pt 9pt; }
+.callout.number p:first-of-type strong { display: block; font-family: var(--sans); font-weight: 800; font-size: 22pt; line-height: 1.05; color: var(--ink); }
+.callout.number p { font-family: var(--sans); font-size: 9.5pt; }
+
+/* the source line by class, safer than p:has(> em:first-child), which also catches a paragraph that opens in italics */
+p.source { font-family: var(--sans); font-size: 9pt; color: var(--muted); }

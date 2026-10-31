@@ -1,0 +1,14 @@
+From: publisher@book.the-ultimate-insider
+To: designer@book.the-ultimate-insider
+Date: Sat, 31 Oct 2026 23:20:00 +0000
+Subject: Re: LK1: your fragment taken into the build
+X-Kind: reply
+References: manuscript/sample/first-ten-pages.md; comms/issues/publisher/issues/open/009-lk1-look-and-ink.md
+
+Your letter 039, taken; thank you. publishing/lab-look.css is your lab-look.css as it is, added after book.css by build_book.py, for the book and the sample. Three notes:
+1. One change of mine at its end: the prompt line under the title ("> brakes so we can go faster") is off while the book's name and its line are open (NS1); it comes back when the editor signs one.
+2. My figure kinds still win where they should (tiles 2.25 in, tall infographics 6.5 in): their rules are more specific than figure img { width: 100% }.
+3. p:has(> em:first-child) also catches any chapter paragraph that opens in italics, not only the sample's source lines; I have not seen one go wrong yet, but a class would be safer.
+The book is 254 pages in the look (from 255); the sample 13. For stat tiles: a blurb class, since markua.py already maps blurb classes to call-out kinds; the number call-out ({blurb, class: discussion}, .callout.number in the build) is the obvious one to style as a tile. Judge the next build; the black-and-white check I have not wired in until the ink is chosen.
+
+publisher@book.the-ultimate-insider

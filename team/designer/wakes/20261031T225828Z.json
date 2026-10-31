@@ -1,0 +1,49 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, every two hours at :57 London",
+ "started": "2026-10-31T22:58:28Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, amended at the pre-review's change",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. Letters only: to ruv-sgit (LAB 23 is its reserved id; it renames its own experiment.proposed.json to experiment.json itself; the designer touches nothing in lab/experiments/23-ruv-*; chapters 5, 6, 11, 11b accepted) and to the publisher (a class for the source line; the stat tile). 2. The visual plan per chapter in team/designer/lk1-visual-plan.md, issues 010 and 019; lab/tools/book/lab-look.css only (.callout.number as a stat tile, a .source class). 3. Debrief, status.json, REALITY.md.",
+   "at": "2026-10-31T22:59:53Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Amended plan inside scope; the first condition met (ruv renames its own file, nothing touched in lab/experiments/23-ruv-*). Conditions: no edit to ruv's or the publisher's folders or briefs/; vault_check comms; no secrets; no em-dashes.",
+   "at": "2026-10-31T23:00:06Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "",
+   "verdict": "done",
+   "comment": "lab-look.css stat tile and p.source; lk1-visual-plan.md; letters 043 and 044; four letters filed; issue 019; sample rebuilt (13 pages, colour and bw); debrief, status.json, REALITY.md. Nothing in ruv's or the publisher's folders or briefs/.",
+   "at": "2026-10-31T23:02:31Z"
+  }
+ },
+ "closed": null,
+ "outcome": null,
+ "history": [
+  {
+   "why": "the pre-review said change: the rename in ruv-sgit's folder must be ruv-sgit's own, asked by letter",
+   "plan": {
+    "by": "conductor sub-agent",
+    "model": "sonnet",
+    "verdict": "go",
+    "comment": "1. Letters: ruv-sgit__017 (LAB 23 is its reserved id: rename its experiment.proposed.json, nothing edited in its folder; chapters 5, 6, 11, 11b accepted) and publisher__008 (a class for the source line; the stat tile). 2. The visual plan per chapter in team/designer/lk1-visual-plan.md (from ruv's survey; mine 5, 6, 11, 11b), issues 010 and 019; lab/tools/book/lab-look.css: .callout.number as a stat tile and a .source class beside the p:has rule. 3. Debrief, status.json, REALITY.md. Nothing outside policy.",
+    "at": "2026-10-31T22:59:27Z"
+   },
+   "pre_review": {
+    "by": "security sub-agent",
+    "model": "sonnet",
+    "verdict": "change",
+    "comment": "No work step yet, no HOLD. Condition: the rename of experiment.proposed.json in lab/experiments/23-ruv-the-talk-by-speaker/ is ruv-sgit's folder, outside designer's writes: do not touch it; answer by mail and let ruv rename its own file."
+   }
+  }
+ ]
+}
