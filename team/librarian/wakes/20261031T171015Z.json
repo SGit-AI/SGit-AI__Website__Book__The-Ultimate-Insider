@@ -24,8 +24,22 @@
    "verdict": "none",
    "comment": "Idle: no request, no RC2 chapters. status.json says so; task kept on the idle schedule.",
    "at": "2026-10-31T17:10:58Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Only status.json and the wake record, in scope; no keys, tokens, personal details or directive text; gate clean (327); agents check 0 outside scope.",
+   "at": "2026-10-31T17:11:52Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Idle wake as planned: exactly status.json and the wake record; no schedule or cross-member write.",
+   "at": "2026-10-31T17:11:52Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-31T17:11:52Z",
+ "outcome": "idle"
 }
