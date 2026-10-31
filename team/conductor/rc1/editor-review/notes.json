@@ -117,6 +117,38 @@
    "from": [
     "batch-07: page 32"
    ]
+  },
+  {
+   "id": "T15",
+   "name": "Every image belongs where it is",
+   "rule": "An image on a page must make sense there, to the reader, who understands why it is there; never a padding image, never a collage that mixes things the text is not about.",
+   "from": [
+    "batch-08: page 34"
+   ]
+  },
+  {
+   "id": "T16",
+   "name": "Control flow is its own section",
+   "rule": "The hold is one element of the team's control flow (a state machine): how agents are kept controlled, with the agent behaviour policy and the rest. The platform's limits (reusable cloud sessions, the hourly floor on scheduled tasks) are constraints that give the cadence, and go in a section on the logistics of running the team.",
+   "from": [
+    "batch-08: pages 35, 36"
+   ]
+  },
+  {
+   "id": "T17",
+   "name": "Timelines everywhere, as reusable components",
+   "rule": "Use timelines throughout; build them, and the small infographics, as reusable code components fed by JSON, a toolkit like a CSS framework's (horizontal, vertical, many modes) that our agents and others reuse. Brief Claude, ChatGPT, Claude Design and other agents with the same brief and compare.",
+   "from": [
+    "batch-08: page 38"
+   ]
+  },
+  {
+   "id": "T18",
+   "name": "Two kinds of trigger: the schedule and the human",
+   "rule": "Show work that happened on its own (scheduled wakes) apart from work he triggered (a chat message that starts a live loop running until a natural pause), with stats: tokens, network calls, day against night. The site's view of every agent as a row with coloured dots for its events gives the size and momentum at a glance; reuse it.",
+   "from": [
+    "batch-08: page 38"
+   ]
   }
  ],
  "page_layout": [
@@ -316,6 +348,38 @@
    "text": "Who may pull it, and who may release it; the brakes analogy",
    "note": "We trust brakes because we use them all the time (T3); introduce a companion-style rich infographic here; the site as scaffolding (T14)",
    "owner": "designer, storyteller, revision"
+  },
+  {
+   "n": 23,
+   "page": 34,
+   "file": "01-pause-all-actions.md",
+   "text": "a collage beside the hold",
+   "note": "Has nothing to do with the hold; padding (T15)",
+   "owner": "designer, revision"
+  },
+  {
+   "n": 24,
+   "page": 35,
+   "file": "01-pause-all-actions.md",
+   "text": "Two brakes, and the stronger one stopped the other",
+   "note": "Belongs in a section on control flow (T16)",
+   "owner": "storyteller (structure)"
+  },
+  {
+   "n": 25,
+   "page": 36,
+   "file": "01-pause-all-actions.md",
+   "text": "Take away: decide which brake wins",
+   "note": "Belongs in a section on the logistics of running the team (T16)",
+   "owner": "storyteller (structure)"
+  },
+  {
+   "n": 26,
+   "page": 38,
+   "file": "02-midnight-an-empty-repository.md",
+   "text": "the day's timeline in registered times",
+   "note": "Finally some meat; better time entries; several ways to show it (T17); the two kinds of trigger (T18)",
+   "owner": "designer and ruv.sgit (components), historian (entries), researcher (stats)"
   }
  ],
  "tasks": [
@@ -386,6 +450,18 @@
    "what": "Make the synthetic readers brutal on the book itself: for each passage, why do I need this, do I have the context, why here (T11)",
    "owner": "synthetic",
    "from": "batch-07"
+  },
+  {
+   "id": "A12",
+   "what": "A reusable component toolkit for the book's visuals, timelines first: code fed by JSON, several modes, an example page per component (T17)",
+   "owner": "designer with ruv.sgit and developer",
+   "from": "batch-08"
+  },
+  {
+   "id": "A13",
+   "what": "Map scheduled work against work the editor triggered, with stats (tokens, network calls, day and night) where the record has them; the agent-rows view as an image (T18)",
+   "owner": "historian (the map), researcher (the stats, registered), designer (the view)",
+   "from": "batch-08"
   }
  ]
 }
