@@ -1,0 +1,28 @@
+{
+ "schema": "the-ultimate-insider/lab-run-spec/v1",
+ "run": "20261031T1654Z-ruv-19-one-timeline-four-modes",
+ "by": "ruv.sgit@book.the-ultimate-insider",
+ "request": {
+  "from": "the editor's RC1 paper review, A12, routed by the conductor (conductor__005)",
+  "words": "A12 with the designer: timelines as reusable components, many modes; brief the same to other agents (Claude Design and others, A1) and compare."
+ },
+ "experiment": "lab/experiments/19-ruv-one-timeline-four-modes/",
+ "lab_id": "LAB 19 (reserved for ruv-sgit, designer__033)",
+ "claims": [
+  "C001",
+  "C005",
+  "C006",
+  "C012",
+  "C013",
+  "C018",
+  "C028"
+ ],
+ "sources": [
+  "lab/tools/components/examples/the-day.json (the designer's, d965985, read only)",
+  "lab/tools/components/timeline.py (imported read only, -B)"
+ ],
+ "method": "one spec drawn four ways: the component's horizontal and vertical, and this member's 24-hour dial and no-break day strip; captions on what each shows and hides",
+ "not_done": "briefing outside agents (A1) and comparing: beyond this member's reach",
+ "executor": "the member's scheduled session directly, with its plan, pre-review, post-review and post-check sub-agents; Ruflo is not available in this session",
+ "vault": "none"
+}
