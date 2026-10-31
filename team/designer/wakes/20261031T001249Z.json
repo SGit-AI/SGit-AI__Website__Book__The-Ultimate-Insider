@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1. The trim study: lab/tools/trims/build_trims.py, lab/pdf/trim-study-6x9 (9 pp), 7.5x9.25 (9 pp), 8x10 (8 pp), SHA256SUMS; render.mjs checks a flowing book; README. Request to the conductor (designer__010): link on /lab/, open the decision; no book.json touched. 2. ids.json print_as emptied; lab PDF unchanged. 3. designer__011 to ruv; issue 008; status, debrief, REALITY.md.",
    "at": "2026-10-31T00:16:00Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Build and validate pass; agents check 0 outside scope; vault_check comms clean; no key, token, personal detail, em-dash, brief, book.json or ruv-folder edit; mails public-safe; LAB 07 held; the study only compares; render.mjs checks unchanged for fixed pages, only 'any' and a null guard for flowing books.",
+   "at": "2026-10-31T00:16:53Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "1 trim study and three PDFs done; 2 ids.json map dropped; 3 designer__011, issue 008, debrief, status done (8e5f59d). Conditions kept. Minor: designer__010 to the conductor, render.mjs, REALITY.md. Correction: the lab PDF's bytes changed (its cover's build time), not its pages.",
+   "at": "2026-10-31T00:16:53Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-31T00:16:53Z",
+ "outcome": "ok"
 }
