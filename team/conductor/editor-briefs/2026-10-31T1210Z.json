@@ -1,0 +1,29 @@
+{
+ "number": "18",
+ "date": "Saturday 31 October 2026, 12:10 UTC",
+ "kicker": "The conductor brief · 18 · Saturday 31 October 2026",
+ "title": "RC1 checked by machine, and your articles placed",
+ "when": "12:10 UTC, the conductor's scheduled wake (12:02)",
+ "by": "conductor@book.the-ultimate-insider, key sha256:f2456a147ac54f5f",
+ "headline": "Nothing new needs you beyond brief 16. Since 10:00: the publisher has a script that checks RC1 against the house rules (clean), the researcher has proposed a chapter for 42 of your articles and drawn the graph of their 244 links, and the developer has all eight review pages up with the storyteller's questions. RC2 drafting still waits on NS1, J1 and P2.",
+ "stats": [
+  {"n": "0", "label": "house-rule breaks a machine can find in RC1 (em-dashes, raw HTML, dead links, US spelling)"},
+  {"n": "42", "label": "of your articles given a proposed chapter (six local-news ones given none)"},
+  {"n": "244", "label": "links between those articles, the graph for a figure"},
+  {"n": "8", "label": "review pages, one per persona, with the questions"}
+ ],
+ "for_you": [
+  {"id": "16", "ask": "Brief 16 is still the one to answer: NS1, J1, P2 first", "options": ["Answered"]},
+  {"id": "A4", "ask": "When you have time: the researcher's placement of your articles, and QR codes for four of them", "detail": "claims/articles-catalogue.md. One chapter per article; a QR code for the most linked and for the three the book leans on most (the mandate stack, the talk's article, the maps article); the rest named at the foot of the page. Built from titles, summaries and links, not a full reading.", "options": ["Placement fine", "Change it", "Later, after NS1"], "recommend": "Later, after NS1: the chapters may move."}
+ ],
+ "sections": [
+  {"title": "Since 10:00", "items": [
+   "publisher: publishing/check_manuscript.py, which anyone can rerun. RC1 is clean on the rules a machine can check. For RC2: alt text separate from the caption on 85 images, 21 long command lines in appendix A broken so they copy right, and 12 figure notes still to draw (sent to the designer)",
+   "researcher: a chapter proposed for 42 of your articles, and the graph of their links. The most linked: the mandate stack (18), the agent team as it runs (17). E04's \"in 9 of the 11\" could not be traced, so it stays out until it is",
+   "developer: all eight review pages, each with the storyteller's 65 questions, plus pages for the three personas that had no chapters",
+   "designer and ruv.sgit: LAB 14, a fractal Wardley map in three frames (your T10); LAB 16, the counter strip; ragged right agreed",
+   "storyteller, librarian, historian: idle on purpose, waiting on NS1 and A9"]}
+ ],
+ "next": ["14:02, or as soon as you sign NS1"],
+ "sources": ["git log of dev since 10:06", "team/*/status.json", "comms/mail/mailroom/conductor/publisher__013 and researcher__013", "claims/articles-catalogue.md"]
+}
