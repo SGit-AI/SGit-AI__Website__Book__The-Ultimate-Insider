@@ -84,6 +84,39 @@
    "from": [
     "batch-06: pages 14, 15, 19"
    ]
+  },
+  {
+   "id": "T11",
+   "name": "Synthetic readers, brutal: why do I need to know this, here?",
+   "rule": "Every passage is tested by a reader who asks: why do I need this, do I have the context, why is it here, does it make sense to me now. Logistics like 'the maps still to come' fail it.",
+   "from": [
+    "batch-07: page 22"
+   ]
+  },
+  {
+   "id": "T12",
+   "name": "The real reason the team stopped, and the value of constraints",
+   "rule": "The 95% usage is a footnote: he could have moved to a session with more credits. The team stopped because he was about to go on stage and there was no tested way to take in changes made during the talk: no UX to see the delta (what was new), no workflow guaranteeing nothing would break; hence 'lock V1'. His idea was ahead of the stack, a genesis capability used as if it were a product. The interesting point of the limit is the constraint: having to move between Claude sessions forced better engineering (the handover: a new session closes the old, seals it, replaces the public key, so nobody else can be that agent). Constraints matter; working without them lets bad ways go unnoticed. Open source helps.",
+   "from": [
+    "batch-07: page 29"
+   ],
+   "source_note": "The editor's own account, given 31 October 2026, after the day; not in the record to 298be4e. Quote it as his, dated (the book's rule on material added after the day; O4 said 'the record only', so this needs a line in the revision and perhaps a decision)."
+  },
+  {
+   "id": "T13",
+   "name": "Show the agents talking: quotes from the record",
+   "rule": "Explain how the team communicates through the repository (commits and their notes, the mail and the board as files, Issues-FS and the like), and show it: real messages from one agent to another, observations, interesting moments, quoted from the history. The historian digs them out and maps them.",
+   "from": [
+    "batch-07: page 30"
+   ]
+  },
+  {
+   "id": "T14",
+   "name": "The site is the scaffolding",
+   "rule": "The story is the site: the scaffolding, the workflow, the memory. The agents are productive because they have focus and can read their context, and that comes from the site the team built. Show it with rich, companion-style infographics.",
+   "from": [
+    "batch-07: page 32"
+   ]
   }
  ],
  "page_layout": [
@@ -243,6 +276,46 @@
    "text": "the whole map chapter",
    "note": "Really good: move some of it later in the book; maps as narrative first, explained after; the map on page 19 is really good",
    "owner": "storyteller (structure)"
+  },
+  {
+   "n": 18,
+   "page": 22,
+   "file": "00b-how-to-read-a-map.md",
+   "text": "Map 4 and 'The maps still to come'",
+   "note": "Content good for the maps article (A9); 'the maps still to come' is logistics (T1, T11)",
+   "owner": "storyteller; revision"
+  },
+  {
+   "n": 19,
+   "page": 29,
+   "file": "01-pause-all-actions.md",
+   "text": "the opening: 18:44, the hold, the usage at 95%",
+   "note": "A weird place to start; 95% is a footnote; the real reason and the value of constraints (T12)",
+   "owner": "storyteller (structure), historian and researcher (his account as a dated source), revision"
+  },
+  {
+   "n": 20,
+   "page": 30,
+   "file": "01-pause-all-actions.md",
+   "text": "the hold's mechanics",
+   "note": "A good concept but too much here; it belongs with the techniques of orchestration and control, later (T13)",
+   "owner": "storyteller"
+  },
+  {
+   "n": 21,
+   "page": 31,
+   "file": "01-pause-all-actions.md (infographic, 1600 by 1600)",
+   "text": "a square infographic",
+   "note": "Another massive picture that missed QA (A2)",
+   "owner": "publisher and designer"
+  },
+  {
+   "n": 22,
+   "page": 32,
+   "file": "01-pause-all-actions.md",
+   "text": "Who may pull it, and who may release it; the brakes analogy",
+   "note": "We trust brakes because we use them all the time (T3); introduce a companion-style rich infographic here; the site as scaffolding (T14)",
+   "owner": "designer, storyteller, revision"
   }
  ],
  "tasks": [
@@ -301,6 +374,18 @@
    "what": "Turn the map chapter (00b) into a strong article for the newsroom to publish, in the editor's way of using maps (T10); his newsroom article on kinds of evolution and the fractal map are its references",
    "owner": "storyteller drafts with the researcher's references; the conductor routes it to the newsroom only at the editor's go",
    "from": "batch-06"
+  },
+  {
+   "id": "A10",
+   "what": "Dig out of the talk's history the messages between agents, observations and interesting moments, quotable, and map them to the chapters (T13)",
+   "owner": "historian",
+   "from": "batch-07"
+  },
+  {
+   "id": "A11",
+   "what": "Make the synthetic readers brutal on the book itself: for each passage, why do I need this, do I have the context, why here (T11)",
+   "owner": "synthetic",
+   "from": "batch-07"
   }
  ]
 }
