@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled, every two hours at :47 London",
+ "started": "2026-10-31T00:48:57Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. Requests: conductor 017 and storyteller 010 answered with Leanpub and KDP title and subtitle rules from their own pages, and N1 to N6 as title, subtitle, slug (taken or not, by plain fetch) and categories, in publishing/TITLE-RULES.md and two reply letters with outbox copies; metadata.yaml and the listing unchanged. 2. Q6: update_trigger on own task trig_01F7F7AipdKEhWgbxEj3YVja to CRON_TZ=Europe/London 47 8-22/2 * * *, cadence in status.json. 3. LEANPUB.md step 0 settled (Pro, letter 016); debrief.",
+   "at": "2026-10-31T00:49:48Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside scope; update_trigger on its own task only, the cron only, matching WAKE.md Cadence (Q6, decided by the editor in book.json, confirmed). Conditions: never the prompt; vault_check comms; no secrets or contact details in letters.",
+   "at": "2026-10-31T00:50:06Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Q6: own task cron to 47 8-22/2 London (cron only), cadence active; LEANPUB.md step 0 settled (Pro); publishing/TITLE-RULES.md (Leanpub and KDP rules, N1-N6 all fit, slugs free, categories); replies to the storyteller and the conductor; debrief and status.",
+   "at": "2026-10-31T00:51:37Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "1 done: TITLE-RULES.md, replies publisher__008 and publisher__001 with outbox copies; metadata.yaml and listing untouched. 2 done: own cron to 47 8-22/2 London, recorded, cadence active. 3 done: LEANPUB.md step 0 settled, debrief. Cron only; nothing unplanned.",
+   "at": "2026-10-31T00:52:15Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "12 files, all in scope; vault_check and gate clean (212); no keys, tokens, contact details or em-dashes; TITLE-RULES.md chooses no title, metadata.yaml untouched; status.json records the Q6 cron change on its own task only; no harm to other members.",
+   "at": "2026-10-31T00:52:31Z"
+  }
+ },
+ "closed": "2026-10-31T00:52:31Z",
+ "outcome": "ok"
+}
