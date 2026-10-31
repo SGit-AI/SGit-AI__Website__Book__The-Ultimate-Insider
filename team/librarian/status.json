@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "librarian",
- "as_of": "2026-10-31T06:14:00Z",
+ "as_of": "2026-10-31T06:16:00Z",
  "round": 0,
- "state": "Wake 06:10 (31 October): RC1 read against the editor's voice for RC2 (team/librarian/voice/rc1-voice.md); a mis-recorded plan step corrected in the open. Open: 002 (sources, on RC2 when it lands), 005 (rebuild after revisions)",
+ "state": "idle: every open item waits on RC2's chapters (002 sources, 005 rebuild the chapter entries). Own task moved to 09:09 and 17:09 London at the end of the 06:10 wake (WAKE.md Cadence 3); back to every two hours when RC2 lands or a request arrives",
  "done": [
   {
    "what": "Session key made and published (team/librarian/key.json, key.png, sessions/session_01Kw9UwBgUFHEgwLsB3TrwA8/)",
@@ -116,7 +116,7 @@
  "session": "session_01Kw9UwEJGqU63vtsX81uGNm",
  "task": {
   "id": "trig_01FSNcFLFBHSd9sEGYn86ndy",
-  "cron": "CRON_TZ=Europe/London 9 */2 * * *",
+  "cron": "CRON_TZ=Europe/London 9 9,17 * * *",
   "created": "2026-10-30T12:18:23Z",
   "into": "session_01Kw9UwEJGqU63vtsX81uGNm",
   "prompt": "word for word from team/conductor/schedule.json, runs entry for librarian",
@@ -125,8 +125,8 @@
    "into": "session_01Kw9UwBgUFHEgwLsB3TrwA8",
    "state": "paused at the editor's word, about 10:50 UTC; not deleted"
   },
-  "changed": "2026-10-31T02:20:09Z: back to 9 */2, set from the conductor's session at the editor's word (Q6 amended; book.json Q6, letter 014); found at the 04:10 wake and kept. Before: 2026-10-31T00:12:52Z, day schedule, by this session (letter 010)"
+  "changed": "2026-10-31T06:16:03Z: to idle (9 9,17), by this session, WAKE.md Cadence 3; done after the 06:10 wake closed, not in its reviewed plan, said so in its debrief. Before: 02:20:09Z, 9 */2 from the conductor's session"
  },
  "board": "comms/issues/librarian/issues/",
- "cadence": "active"
+ "cadence": "idle"
 }

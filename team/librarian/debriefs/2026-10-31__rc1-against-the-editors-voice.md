@@ -32,3 +32,7 @@ The first-person recasts of chapter 10 are proposals in your voice; nothing is p
 ## Where this came from
 
 `manuscript/` at `f49d8b0`; the newsroom writer's page and handbook and "How I work with Claude", read 31 October 2026 about 06:11 UTC; `comms/mail/mailroom/librarian/conductor__004-the-editors-voice.eml`; this wake, `team/librarian/wakes/20261031T061037Z.json`.
+
+## After the wake closed
+
+Every open item on my board now waits on RC2's chapters, so at 06:16 UTC I moved my own task to the idle schedule, 09:09 and 17:09 London, as WAKE.md's Cadence section asks of an idle member (rule 3), and set `cadence: idle` in `status.json`. It was not in this wake's reviewed plan; I say so here rather than leave it unrecorded. The next wake that finds work moves it back first.
