@@ -12,31 +12,11 @@ Every wake record in the talk's history at `298be4e` (`team/<id>/wakes/*.json`) 
 
 No record fell outside the three. The script is a dozen lines over `git show 298be4e:<file>`; it reads only the `kind` and `started` fields.
 
-**What this does not see.** Work the editor started in a member's session without a wake record: the player's fixes in dev's session from 18:04 to 18:37 are commits, not wakes (`timeline/day/18.md`), and several of the evening's changes were made the same way. A count of wakes undercounts the editor's hand; a count of commits by session would be the next step, and is the researcher's.
+**What this does not see, and C088.** Wakes are not the only trace of the editor. The researcher tested every agent commit against its member's wake windows (**C088**): most fall inside a closed wake; 46 fall in no wake of their member, 36 of them before 03:00, most before the first wake record at 02:14, so the night was built by hand before the wake existed; and 11 fall inside a wake opened and never closed, ten of them dev's from 17:54 to 18:37 in its wake opened at 17:48:50 (the editor's player fixes among them), one deck's at 18:21. This file first said the player fixes had no wake record; C088 corrects it: they sit inside dev's 17:48 wake, which never closed, and that open wake is the record's trace of the editor working live in dev's session. What the record cannot say is how much he typed or what it cost (C021).
 
 ## By hour (UTC, by the wake's start)
 
-These are counts read from the record for the researcher to register (A13): the book takes them from the register, not from here.
-
-| Hour | scheduled | editor | follow-up |
-|---|---|---|---|
-| 02:00 | 2 | 5 | 0 |
-| 03:00 | 5 | 10 | 0 |
-| 04:00 | 6 | 1 | 0 |
-| 05:00 | 6 | 0 | 0 |
-| 06:00 | 6 | 0 | 0 |
-| 07:00 | 6 | 0 | 0 |
-| 08:00 | 6 | 0 | 0 |
-| 09:00 | 6 | 0 | 0 |
-| 10:00 | 6 | 0 | 0 |
-| 11:00 | 6 | 0 | 0 |
-| 12:00 | 5 | 0 | 0 |
-| 13:00 | 6 | 0 | 0 |
-| 14:00 | 6 | 7 | 0 |
-| 15:00 | 7 | 8 | 0 |
-| 16:00 | 10 | 6 | 0 |
-| 17:00 | 9 | 10 | 4 |
-| 18:00 | 7 | 0 | 6 |
+The counts are the researcher's register, **C087** (rerun from every wake record at `298be4e`, classed as above): 162 wakes, 105 scheduled, 47 started by the editor, 10 follow-ups. By hour: 02:00, 2 scheduled and 5 the editor's; 03:00, 5 and 10; 04:00, 6 and 1; 05:00 to 13:00, five or six scheduled an hour and none the editor's; 14:00, 6 and 7; 15:00, 7 and 8; 16:00, 10 and 6; 17:00, 9, 10 and 4 follow-ups; 18:00, 7 scheduled and 6 follow-ups. (This file first held its own table; C087 replaces it, 31 October.)
 
 ## What it shows
 
@@ -44,7 +24,7 @@ The day has three phases, and the triggers draw them without any other evidence.
 
 1. **00:16 to about 04:00, the editor builds the machine by hand.** The first wake records appear at 02:14; until 04:03 most wakes are the editor's, in members' sessions: onboarding, the vault keys, building the five-step wake itself. Scheduled wakes begin at 02:33 (ruv-sgit's, the first in the record, `timeline/day/02.md`) and take over as the night goes on.
 2. **About 04:00 to 14:00, the machine runs alone.** Every wake in the record is scheduled; none was started by the editor. The record suggests he was away (the morning review at 07:07 was written for him to read later, `timeline/day/07.md`; *inferred*), and he returns at about 13:50 with the dictated feedback round (`timeline/day/13.md`, `14.md`).
-3. **14:00 to the hold, both at once, and a third kind.** The editor's wakes come back beside the schedule, and from about 17:00 members add follow-up wakes of their own, the "tonight's rule" the editor allowed so that a deadline between hourly slots could be met. The last hour has no editor wakes in the record at all: his hand is in dev's session, as commits (above).
+3. **14:00 to the hold, both at once, and a third kind.** The editor's wakes come back beside the schedule, and from about 17:00 members add follow-up wakes of their own, the "tonight's rule" the editor allowed so that a deadline between hourly slots could be met. The last hour has no wake the editor started: his hand is inside dev's 17:48 wake, left open, as the commits it holds (C088, above).
 
 This is the editor's own distinction made visible: the loop he starts by chat runs "until it reaches a state where it thinks there's nothing to continue", and the scheduled loop runs whether or not he is there. Through the long middle of the day, only the second existed.
 

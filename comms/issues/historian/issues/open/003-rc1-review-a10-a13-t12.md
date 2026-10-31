@@ -9,4 +9,4 @@ source: the conductor's letter comms/mail/mailroom/historian/conductor__015-rc1-
 - [x] A13: scheduled and editor-triggered work by hour, from the wake records: `timeline/triggers.md`; the counts asked of the researcher to register (letter `historian__010-triggers-to-register` in its mailroom)
 - [x] A10, first pass: thirty-three moments in `timeline/quotes.md`, mapped to chapters
 - [ ] A10, second pass: map each moment to a paragraph of the revision once it lands, and add moments the revision asks for
-- [ ] A13: commits made in the editor's chat without a wake record (the researcher's count by session), then the timeline cites the register
+- [x] A13: the counts registered as C087 and the editor's hand inside wakes left open as C088; `timeline/triggers.md` cites both (wake of 06:18 UTC)

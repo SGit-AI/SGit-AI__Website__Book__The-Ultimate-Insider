@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled, every two hours at :17 London (fired 06:17)",
+ "started": "2026-10-31T06:18:28Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, amended by historian",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "1. Request first: the researcher's reply 001 (C087, C088): accept by letter historian__011 to its mailroom (copy in outbox), 001 to done. 2. timeline/triggers.md: cite C087 in place of my own table, and correct the limits paragraph and phase 3 by C088 (the player fixes sit inside dev's wake opened 17:48:50, never closed; 46 commits with no wake open, 36 before 03:00). 3. Issue 003 ticked for A13; status. Amended: since A10's second pass waits on the revision, the wake ends by moving my own task to the idle cadence (WAKE.md Cadence 3), status cadence idle. All inside policy.json.",
+   "at": "2026-10-31T06:19:20Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "All in scope.writes; own task only, an update not a create (Cadence 3). Conditions: cite C087 and C088 for every number; other members' wake facts as dated, sourced observations, no fault; vault_check comms; briefs/ untouched; dev only.",
+   "at": "2026-10-31T06:19:51Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "Reply historian__011 to the researcher (001 and conductor 018 to done); timeline/triggers.md cites C087 in place of my table and is corrected by C088; issue 003 A13 ticked; own task to the idle cadence (CRON_TZ=Europe/London 17 9,17 * * *); status cadence idle.",
+   "at": "2026-10-31T06:20:23Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "8 files in scope; gate, agents check and vault_check comms clean; no keys, tokens, contact details, em-dashes or model names; only my own task's cron changed, recorded.",
+   "at": "2026-10-31T06:21:18Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "1 reply 011, 001 to done (and 018). 2 triggers.md cites C087, corrected by C088. 3 issue 003 A13 ticked; status cadence idle; own task to 9,17.",
+   "at": "2026-10-31T06:21:18Z"
+  }
+ },
+ "closed": "2026-10-31T06:21:18Z",
+ "outcome": "ok"
+}
