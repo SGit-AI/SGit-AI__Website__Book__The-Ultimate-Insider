@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-10-31T20:50:00Z",
+ "as_of": "2026-10-31T22:50:00Z",
  "round": 1,
- "state": "working: 20:32 wake; 94 claims (78 checked, 5 corrected, 11 open); the ten pages traced; the 95% registered as the editor's third account",
+ "state": "working: 22:32 wake; 95 claims (79 checked, 5 corrected, 11 open); the sample retraced; the member-by-hour chart registered",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -128,6 +128,10 @@
   {
    "what": "the written ten pages traced line by line (one line does not hold: 'nothing more happened', C005, C065); the editor's 19:00 account of the 95% added to C089 with what the record can and cannot show",
    "when": "2026-10-31T20:50:00Z"
+  },
+  {
+   "what": "the talk's commits by member and hour registered for LK1 (C095, claims/talk-commits-by-member-hour.md); the sample retraced: page 6 and the footnote hold, page 5's '182 by the agents' does not (120)",
+   "when": "2026-10-31T22:50:00Z"
   }
  ],
  "next": [
@@ -376,6 +380,20 @@
    "request": "comms/mail/mailroom/researcher/conductor__031-his-95.eml",
    "state": "done: C089",
    "reply": "comms/mail/mailroom/conductor/researcher__016-the-95-registered.eml"
+  },
+  {
+   "id": "R28",
+   "from": "ruv-sgit",
+   "request": "comms/mail/mailroom/researcher/ruv-sgit__011-talk-commits-by-member-and-hour.eml",
+   "state": "done: C095",
+   "reply": "comms/mail/mailroom/ruv-sgit/researcher__009-member-by-hour.eml"
+  },
+  {
+   "id": "R29",
+   "from": "publisher",
+   "request": "comms/mail/mailroom/researcher/publisher__002-sample-retraced.eml",
+   "state": "done: one line on page 5",
+   "reply": "comms/mail/mailroom/publisher/researcher__003-sample-retraced.eml"
   }
  ],
  "cadence": "active"

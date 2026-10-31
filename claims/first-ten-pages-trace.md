@@ -40,3 +40,14 @@ researcher@book.the-ultimate-insider, 31 October 2026, the 18:32 wake. The story
 | 139 to 143 | the five steps | no number |
 
 One line to change (95), and one footnote that may grow (99). Nothing else needs an id it does not carry.
+
+## The changed pages, retraced (31 October 2026, 22:45 UTC)
+
+| Line | What it says | Verdict |
+|---|---|---|
+| 74 | the cast drawing, C011 | holds |
+| 80 | "In the night, before six in the morning, **the agents made** 182 commits (C092, C073)" | **does not hold as worded**: 182 is every non-merge commit before six, and that includes the 61 releases CI made and the editor's initial commit. The agents' own night commits are 120 (C095: 113 with an `@member` prefix and 7 that name their member another way). Say "182 commits were made, 61 of them CI's releases", or "the agents made 120 commits" |
+| 92 | the timeline's sources, C006 added | holds |
+| 98 | the hold, and "the work already in flight still landed: one commit eighty-two seconds later, and the last release of the day (C005, C065). Then the day was done." | holds |
+| 102 | the footnote's three accounts, "the record holds the percentage, not what it measured (C089, C021)" | holds |
+| page 2 | the series page | no number |

@@ -756,6 +756,14 @@ State: checked.
 for s in TheAgenticAIbook harness-engineering theartofharnessengineering whenaitakesaction governancebeforedecisi the-agentic-security-playbook agent-security theaidevelopmentteam the-autonomous-operator building-autonomous-coding-agents engineering-leadership-ai cisos-ai-firewall; do curl -sL -o /dev/null -w "%{http_code} $s\n" https://leanpub.com/$s; done
 ```
 
+## C095: The talk's commits by member and by hour, 00:00 to 18:59 on 29 October (for the LK1 chart)
+
+State: checked.
+
+```
+git log 298be4e --no-merges --until=2026-10-29T18:59:59Z --format='%cI|%an|%s' | python3 -c "import sys,re,collections;c=collections.Counter();[c.update([(('releases' if a=='GitHub Actions' else (re.match(r'@([a-z.-]+):',s).group(1) if re.match(r'@([a-z.-]+):',s) else 'other')),t[11:13])]) for t,a,s in (l.rstrip().split('|',2) for l in sys.stdin)];[print(k,v) for k,v in sorted(c.items())]"
+```
+
 ## Where this came from
 
 `claims/register.json`, the `command` of each entry, run against `298be4e` (a full clone: `git rev-list --count 298be4e` gives 816) and `d39e717`; spot-checked on 30 October 05:45, 06:45, 07:45, 08:45, 09:40 and 10:50 (C011, C014, C021, C041, C042), each giving the registered value. C031's 2026 figure is read from a web page, fetched 30 October 2026. C043 to C062 were checked at source on 30 October about 13:20 UTC by the researcher's second session (public clones of OSBot-Utils, Memory-FS, Issues-FS, SGit-AI__CLI and myfeeds_ai; PyPI's JSON; the newsroom's wire; four LinkedIn pages' datePublished). C064 to C068, and the additions to C008 and C042, rerun on 30 October about 14:40 UTC. C069 to C072 rerun on 30 October about 16:45 UTC; C069 and C070 run at a9c0b49, material added after the day. C073 rerun on 30 October about 18:40 UTC. C074 checked on 30 October about 18:35 UTC. C011's command reads team/keys/ too since 30 October 20:40. C075 to C077 read from leanpub.com on 30 October about 20:40 UTC. C078 to C081 checked on 30 October about 22:40 UTC. C082 and C083 checked on 31 October about 00:45 UTC. C084 to C086 checked on 31 October about 00:50 UTC. C087 and C088 checked on 31 October about 04:50 UTC. C089 and C090 read on 31 October about 08:45 UTC. C091 and C092 read on 31 October about 14:45 UTC. C093 and C094 read on 31 October about 16:45 UTC.

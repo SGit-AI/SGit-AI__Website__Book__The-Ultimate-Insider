@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-10-31T20:45:00Z",
+ "as_of": "2026-10-31T22:45:00Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -2340,6 +2340,42 @@
    "method": "the nearest titles chosen from studies 03 and 04 and the title checks, each Leanpub page fetched again",
    "command": "for s in TheAgenticAIbook harness-engineering theartofharnessengineering whenaitakesaction governancebeforedecisi the-agentic-security-playbook agent-security theaidevelopmentteam the-autonomous-operator building-autonomous-coding-agents engineering-leadership-ai cisos-ai-firewall; do curl -sL -o /dev/null -w \"%{http_code} $s\\n\" https://leanpub.com/$s; done",
    "note": "A selection, not a survey: the shelf a buyer of this book would meet. Prices are the studies' of 30 October, not rechecked; none of the twelve shows a readers count. ROLE.md, Done when 3. Registered at the researcher's 16:32 wake, 31 October 2026."
+  },
+  {
+   "id": "C095",
+   "claim": "The talk's commits by member and by hour, 00:00 to 18:59 on 29 October (for the LK1 chart)",
+   "cited_in": [
+    "comms/mail/mailroom/researcher/ruv-sgit__011-talk-commits-by-member-and-hour.eml",
+    "claims/talk-commits-by-member-hour.md"
+   ],
+   "value": {
+    "non_merge_commits": 650,
+    "by_@member": {
+     "conductor": 99,
+     "ruv-sgit": 54,
+     "dev": 52,
+     "deck": 59,
+     "researcher": 57,
+     "studio": 26,
+     "designer": 19,
+     "storyteller": 15,
+     "motion": 9
+    },
+    "releases": 210,
+    "no_@member_prefix": 50,
+    "night_00_to_05": 182,
+    "day_06_to_18": 468,
+    "table": "claims/talk-commits-by-member-hour.md"
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "298be4e",
+    "evidence": "the log"
+   },
+   "method": "non-merge commits by commit hour; member by the subject's '@<member>:' prefix, as team/conductor/tools/day_heatmap.py does; GitHub Actions' commits as releases; the rest on their own row",
+   "command": "git log 298be4e --no-merges --until=2026-10-29T18:59:59Z --format='%cI|%an|%s' | python3 -c \"import sys,re,collections;c=collections.Counter();[c.update([(('releases' if a=='GitHub Actions' else (re.match(r'@([a-z.-]+):',s).group(1) if re.match(r'@([a-z.-]+):',s) else 'other')),t[11:13])]) for t,a,s in (l.rstrip().split('|',2) for l in sys.stdin)];[print(k,v) for k,v in sorted(c.items())]\"",
+   "note": "Agrees with C092 (182 and 468) and C004 (210 releases). By '@' prefix alone the conductor has 99 and dev 52; C014's 106 and 64 add bare prefixes and trailers. Print the method beside the chart. Registered at ruv-sgit's request (LK1), the researcher's 22:32 wake, 31 October 2026."
   }
  ]
 }

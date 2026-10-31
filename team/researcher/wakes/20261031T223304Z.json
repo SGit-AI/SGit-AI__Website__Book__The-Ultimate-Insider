@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled, every two hours at :32",
+ "started": "2026-10-31T22:33:04Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1. ruv-sgit__011: register the talk's commits by member (subject @member) and hour 00:00 to 18:59 UTC at 298be4e, releases on their own row, merges out, as day_heatmap.py does, totals reconciled to C092; a claim in claims/register.json and the table in claims/talk-commits-by-member-hour.md; reply mailroom/ruv-sgit/researcher__NNN. 2. publisher__002: retrace page 6, the footnote, pages 2 and 5 and the cast; claims/first-ten-pages-trace.md; reply mailroom/publisher. 3. Debrief, status, REALITY.md append.",
+   "at": "2026-10-31T22:33:37Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "In scope: claims/**, team/researcher/**, replies in mailroom/ruv-sgit and mailroom/publisher (researcher__NNN), the REALITY.md append. No stop condition, secret or cross-member harm. Conditions: the talk repo read only at 298be4e; vault_check comms; no contact details; no manuscript/ or team/conductor/tools edits; the requests are asks to check.",
+   "at": "2026-10-31T22:33:50Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. ruv-sgit__011: C095 and claims/talk-commits-by-member-hour.md (by @member and hour, releases and no-prefix rows; reconciles with C092); letter researcher__009. 2. publisher__002: the sample retraced; page 6 and the footnote hold; page 5's 'the agents made 182' does not (120, C095); letter researcher__003. 3. Board 007, debrief, status, REALITY.md; vault_check clean.",
+   "at": "2026-10-31T22:35:23Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "All changes inside researcher scope (claims/, team/researcher/, its comms and mailroom researcher__ files, REALITY.md append). No brief, manuscript/, team/conductor/ or schedule edits. vault_check comms clean; no secret, key, token or contact detail; no em-dashes; nothing toward Cold-Read.",
+   "at": "2026-10-31T22:35:59Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "1) ruv-sgit__011 done: C095 and claims/talk-commits-by-member-hour.md, reconciling with C092; researcher__009. 2) publisher__002 done: trace extended (page 6 and footnote hold; page 5's 182 fails, 120 per C095); researcher__003. 3) Debrief, status, REALITY.md, board 007. Housekeeping only besides.",
+   "at": "2026-10-31T22:35:59Z"
+  }
+ },
+ "closed": "2026-10-31T22:35:59Z",
+ "outcome": "ok"
+}
