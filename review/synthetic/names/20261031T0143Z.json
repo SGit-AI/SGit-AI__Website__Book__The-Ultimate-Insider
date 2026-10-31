@@ -1,0 +1,131 @@
+{
+ "schema": "the-ultimate-insider/synthetic-name-test/v1",
+ "label": "SYNTHETIC READERS: a test instrument, never readers. Not a choice: the editor chooses (book.json Q3).",
+ "run": "20261031T0143Z",
+ "at": "2026-10-31T01:50:00Z",
+ "by": "synthetic@book.the-ultimate-insider",
+ "candidates_from": "chapter-plan/study-name-and-structure.md, section The name (the storyteller's N1 to N6), at dev d24e984",
+ "method": "title and subtitle alone, as on a shelf or a listing; no cover, no page; each persona answers which it would pick up, what each makes it expect, which it would buy, and why in one line",
+ "personas": [
+  {
+   "persona": "board-member",
+   "picks_up": "N6",
+   "would_buy": "N6",
+   "why": "Brakes is a word my risk committee already uses; every other title starts with a word I would have to look up.",
+   "expects": {
+    "N1": "a technical manual; 'agentic' tells me it is not for me",
+    "N2": "a book about staff, or about AI staff; not sure which",
+    "N3": "a software book",
+    "N4": "something about open source",
+    "N5": "a book for engineers about infrastructure",
+    "N6": "how to let a company use AI quickly without losing control of it"
+   },
+   "note": "Picks up only N6. 'Agentic' in the title is jargon to this reader; in N6 it sits in the subtitle, where it does not block the first read."
+  },
+  {
+   "persona": "ciso",
+   "picks_up": "N6",
+   "would_buy": "N6",
+   "why": "The brakes are the controls; a title that says the controls make you faster is the argument I need for my board.",
+   "expects": {
+    "N1": "a practitioner's how-to, credible because 'shown working'",
+    "N2": "an organisational book about AI teams",
+    "N3": "an engineering design book; 'provenance' is the word that caught me",
+    "N4": "'open' worries me before I know what it means: open to whom?",
+    "N5": "non-functional requirements, so engineering; I would pass it to my architects",
+    "N6": "controls as an enabler, with evidence from a real record"
+   },
+   "note": "Would also pick up N1 for the word 'shown'. N4's 'open' reads as exposure to a security reader until the subtitle explains it."
+  },
+  {
+   "persona": "cto",
+   "picks_up": "N1",
+   "would_buy": "N1",
+   "why": "'Shown working' says there is a real system behind it, and 'how to build yours' says I get something to copy.",
+   "expects": {
+    "N1": "a worked example of agentic workflows, end to end, with the method to reuse",
+    "N2": "a walkthrough, close to N1 but about the team rather than the workflow",
+    "N3": "a design book on coordination between agents",
+    "N4": "a manifesto for open workflows",
+    "N5": "the engineering underneath, honest but narrow",
+    "N6": "a management book with a good line"
+   },
+   "note": "N2 a close second. Finds N6 memorable but expects less substance from it."
+  },
+  {
+   "persona": "developer",
+   "picks_up": "N3",
+   "would_buy": "N3",
+   "why": "Protocols, provenance and memory are the three things I fight with every day; the subtitle tells me exactly what is inside.",
+   "expects": {
+    "N1": "a case study; would check whether the code is real",
+    "N2": "a walkthrough for leads more than builders",
+    "N3": "concrete engineering: how agents share state and record what they did",
+    "N4": "vague: 'aligned' is a manager's word",
+    "N5": "an honest engineer's title; would read it",
+    "N6": "a talk turned into a book; fun, probably light"
+   },
+   "note": "N5 a close second. The only persona for whom a 'plain words' title (N3) beats a hook."
+  },
+  {
+   "persona": "designer",
+   "picks_up": "N6",
+   "would_buy": "N6",
+   "why": "It is the only one that sounds like a book rather than a course; four titles start with the same word as the rest of the shelf.",
+   "expects": {
+    "N1": "another title in the agentic row",
+    "N2": "clean and short; I could set it big on a cover",
+    "N3": "a textbook",
+    "N4": "a pamphlet",
+    "N5": "a strong image, plumbing, but a narrow promise",
+    "N6": "a story with an argument, and a phrase people will repeat"
+   },
+   "note": "Notes 'So We Can' is long for a cover line, and that N2 is the best typographic title of the six."
+  },
+  {
+   "persona": "project-manager",
+   "picks_up": "N2",
+   "would_buy": "N2",
+   "why": "The team is what I manage; 'from an empty repository to a talk on stage' is a project from start to finish, and I want to see how it was run.",
+   "expects": {
+    "N1": "a technical case study",
+    "N2": "how a team of agents was organised and run, start to finish",
+    "N3": "design rules for agent coordination",
+    "N4": "keeping a team aligned: 'aligned' is the word that pulled me",
+    "N5": "requirements, for engineers",
+    "N6": "a book about going faster safely; would look inside"
+   },
+   "note": "N4 a second for 'aligned'. The only persona to pick N2 first."
+  },
+  {
+   "persona": "journalist",
+   "picks_up": "N6",
+   "would_buy": "N6",
+   "why": "It reads like a headline, and it is a claim I can test against the record; 'in a day' in N1's subtitle is the better story hook.",
+   "expects": {
+    "N1": "a team of agents built a talk in a day: that is the story",
+    "N2": "an explainer",
+    "N3": "a technical book",
+    "N4": "an argument for openness",
+    "N5": "a trade book for engineers",
+    "N6": "a counter-intuitive claim about speed and control"
+   },
+   "note": "Would pick up N6 and N1. Warns that N6 promises a causal claim ('so we can go faster') the book must earn."
+  },
+  {
+   "persona": "founder",
+   "picks_up": "N1",
+   "would_buy": "N1",
+   "why": "'How to build yours' is the promise I buy books for; the rest describe something someone else did.",
+   "expects": {
+    "N1": "a worked example and a playbook for my own team",
+    "N2": "how someone else's team worked",
+    "N3": "engineering detail for later",
+    "N4": "open source philosophy",
+    "N5": "not for me yet",
+    "N6": "a great talk title; would watch the talk, not sure I would buy the book"
+   },
+   "note": "N6 a second. Only N1's subtitle promises something the reader can do."
+  }
+ ]
+}
