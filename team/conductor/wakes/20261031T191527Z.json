@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "In scope. Conditions: the prompt names only public dev URLs and never the Cold-Read repository; LK1 and NS1 stay open; the chat decides nothing and contacts nobody; no keys or contacts; vault_check comms.",
    "at": "2026-10-31T19:16:19Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "As planned: brief 03 of 31 October in-session (his words verbatim, the reading); LK1 open (A, B, C; recommend A on the sample; the colour cost named); letters designer 020 (LAB 22, colour and black-and-white), publisher 032 (the build and print costs), storyteller 026 (notice); team/conductor/prompts/title-thread.md (public raw dev URLs only, no Cold-Read, NS1 open, decides nothing, contacts nobody); status.json. vault_check clean, gate 0, scope 0 outside.",
+   "at": "2026-10-31T19:17:27Z"
+  },
+  "post_review": {
+   "by": "security post-review sub-agent",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Gate 0; scope 0 outside; vault_check clean; the prompt uses only public dev URLs, no Cold-Read, NS1 open, decides nothing, contacts nobody; LK1 open; only the new brief touched; no keys, contacts or em-dashes.",
+   "at": "2026-10-31T19:18:12Z"
+  },
+  "post_check": {
+   "by": "conductor post-check sub-agent",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "All five items done; nothing unplanned.",
+   "at": "2026-10-31T19:18:12Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-31T19:18:12Z",
+ "outcome": "ok"
 }
