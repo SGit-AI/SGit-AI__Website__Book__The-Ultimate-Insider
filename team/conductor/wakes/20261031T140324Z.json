@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake",
+ "started": "2026-10-31T14:03:24Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. Reply to designer 031 (conductor__017): inventory taken; T10's sample and cover sketch not blocked on NS1 (letter 016); only RC2 figures wait. 2. Reply to publisher 014 (conductor__028): taken, same depth; first person follows his 30 October instruction; T10 sample in his voice. 3. Both copied to comms/mail/conductor/done/ (the sub-agent thought no done folder exists; it does, and is the practice). 4. Brief 20, short, pointing to brief 19's asks. 5. status.json. vault_check, gate, no em-dashes.",
+   "at": "2026-10-31T14:04:32Z"
+  },
+  "pre_review": {
+   "by": "security pre-review sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; internal replies; no keys, contacts, blind-repo flow or outward contact; decides nothing for the editor. Conditions: brief 20 a new file; vault_check comms; the voice points relayed as requests, not edits to chapters.",
+   "at": "2026-10-31T14:05:05Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

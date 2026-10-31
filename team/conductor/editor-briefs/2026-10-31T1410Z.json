@@ -1,0 +1,24 @@
+{
+ "number": "20",
+ "date": "Saturday 31 October 2026, 14:10 UTC",
+ "kicker": "The conductor brief · 20 · Saturday 31 October 2026",
+ "title": "The ten pages, in your voice",
+ "when": "14:10 UTC, the conductor's scheduled wake (14:02)",
+ "by": "conductor@book.the-ultimate-insider, key sha256:f2456a147ac54f5f",
+ "headline": "Nothing new needs you beyond brief 19: say whether to fire the storyteller now, and choose G1. The publisher has started reading RC1 for your voice, chapter by chapter, and the ten-page sample will be written in the first person from the start.",
+ "stats": [
+  {"n": "17:39", "label": "the storyteller's next wake, unless you say fire it now"},
+  {"n": "9 of 12", "label": "figures the manuscript asks for that are drawn already (the designer)"},
+  {"n": "2", "label": "chapters read for your voice so far (0 and 00)"},
+  {"n": "C090", "label": "the register"}
+ ],
+ "for_you": [
+  {"id": "19", "ask": "Brief 19's two asks: fire the storyteller now? G1: A, B or C?", "options": ["Answered"]}
+ ],
+ "sections": [{"title": "Since 13:35", "items": [
+  "publisher: chapters 0 and 00 read against your writing rules: they pass the mechanical rules, but are still in the third person (\"the editor\", \"at his word\"); the sentence \"The editor is Dinis Cruz\" becomes \"I am Dinis Cruz\". It also found two stale counts (the chapter count, and the register range)",
+  "designer: of the twelve figures the manuscript asks for, nine are drawn; three are new (the hold as a flow, the five steps round the hour, the graph of your articles); LAB 17, maps with side notes (your T8)",
+  "developer: whose work each RC1 chapter rests on, the first view of the graph (A8)"]}],
+ "next": ["16:02, or when the storyteller's outline arrives"],
+ "sources": ["comms/mail/mailroom/conductor/designer__031 and publisher__014", "git log of dev since 13:20"]
+}
