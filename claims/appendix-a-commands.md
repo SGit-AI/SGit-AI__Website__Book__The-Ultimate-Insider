@@ -652,6 +652,46 @@ State: open.
 for c in bd3cdad 298be4e; do for f in $(git ls-tree -r --name-only $c team | grep '/policy.json$'); do git show $c:$f | python3 -c 'import json,sys;print(json.load(sys.stdin).get("status"))'; done | sort | uniq -c; done
 ```
 
+## C082: The talk's E09 and E10 pieces: a coding agent's grant against its mandate, with confirmations on and off
+
+State: checked.
+
+```
+git show eaf914f:src/static/studio/data/abp-examples.json | python3 -c "import json,sys,collections;a=json.load(sys.stdin);[print(e['settings'],e['grant'],e['mandate'],e['excess'],e['shortfall'],e['irreversible'],e['rows_measured'],collections.Counter(r['barrier_kind'] for r in e['rows'])) for e in a['examples'][:2]]"
+```
+
+## C083: The talk's SHarness piece: six of six probes held; what runs and since when
+
+State: checked.
+
+```
+git show 842a8bd:src/static/studio/data/harness.json | python3 -c "import json,sys;h=json.load(sys.stdin);[print(p['id'],p['result']) for p in h['probes']];print(len(h['environments']));[print(c['status'][:90]) for c in h['components']]"
+```
+
+## C084: The talk's E02, E07 and E13 pieces: grant, mandate and excess for abp.sgit.ai's five published examples
+
+State: checked.
+
+```
+git show 842a8bd:src/static/studio/data/abp-examples.json | python3 -c "import json,sys;[print(e['name'],e['grant'],e['mandate'],e['aligned'],e['excess'],e['unbounded_excess'],e['rows_measured']) for e in json.load(sys.stdin)['examples']]"
+```
+
+## C085: The talk's E03 piece: sixteen sources an agent reads, each with one public case
+
+State: checked.
+
+```
+git show a606774:src/static/studio/data/injection-sources.json | python3 -c "import json,sys,collections;S=json.load(sys.stdin)['sources_an_agent_consumes'];print(len(S),collections.Counter(s['case']['label'] for s in S))"
+```
+
+## C086: The talk's E12 piece: the coding agent's excess by kind, and what the probes held
+
+State: open.
+
+```
+git show 842a8bd:src/static/studio/data/abp-examples.json | python3 -c "import json,sys,collections;e=json.load(sys.stdin)['examples'][0];x=[r for r in e['rows'] if not r['in_mandate']];print(len(x),collections.Counter(r['mandate_stance'] for r in x),[r['capability'] for r in x])"
+```
+
 ## Where this came from
 
-`claims/register.json`, the `command` of each entry, run against `298be4e` (a full clone: `git rev-list --count 298be4e` gives 816) and `d39e717`; spot-checked on 30 October 05:45, 06:45, 07:45, 08:45, 09:40 and 10:50 (C011, C014, C021, C041, C042), each giving the registered value. C031's 2026 figure is read from a web page, fetched 30 October 2026. C043 to C062 were checked at source on 30 October about 13:20 UTC by the researcher's second session (public clones of OSBot-Utils, Memory-FS, Issues-FS, SGit-AI__CLI and myfeeds_ai; PyPI's JSON; the newsroom's wire; four LinkedIn pages' datePublished). C064 to C068, and the additions to C008 and C042, rerun on 30 October about 14:40 UTC. C069 to C072 rerun on 30 October about 16:45 UTC; C069 and C070 run at a9c0b49, material added after the day. C073 rerun on 30 October about 18:40 UTC. C074 checked on 30 October about 18:35 UTC. C011's command reads team/keys/ too since 30 October 20:40. C075 to C077 read from leanpub.com on 30 October about 20:40 UTC. C078 to C081 checked on 30 October about 22:40 UTC.
+`claims/register.json`, the `command` of each entry, run against `298be4e` (a full clone: `git rev-list --count 298be4e` gives 816) and `d39e717`; spot-checked on 30 October 05:45, 06:45, 07:45, 08:45, 09:40 and 10:50 (C011, C014, C021, C041, C042), each giving the registered value. C031's 2026 figure is read from a web page, fetched 30 October 2026. C043 to C062 were checked at source on 30 October about 13:20 UTC by the researcher's second session (public clones of OSBot-Utils, Memory-FS, Issues-FS, SGit-AI__CLI and myfeeds_ai; PyPI's JSON; the newsroom's wire; four LinkedIn pages' datePublished). C064 to C068, and the additions to C008 and C042, rerun on 30 October about 14:40 UTC. C069 to C072 rerun on 30 October about 16:45 UTC; C069 and C070 run at a9c0b49, material added after the day. C073 rerun on 30 October about 18:40 UTC. C074 checked on 30 October about 18:35 UTC. C011's command reads team/keys/ too since 30 October 20:40. C075 to C077 read from leanpub.com on 30 October about 20:40 UTC. C078 to C081 checked on 30 October about 22:40 UTC. C082 and C083 checked on 31 October about 00:45 UTC. C084 to C086 checked on 31 October about 00:50 UTC.

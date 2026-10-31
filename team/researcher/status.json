@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-10-30T22:50:00Z",
+ "as_of": "2026-10-31T00:58:00Z",
  "round": 1,
- "state": "working: 22:32 wake; 81 claims (68 checked, 5 corrected, 8 open); five lab pieces registered, one contradicted",
+ "state": "working: 00:32 wake; 86 claims (72 checked, 5 corrected, 9 open); day cadence; the studio pieces registered but E04",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -84,12 +84,20 @@
   {
    "what": "ruv-sgit's lab pieces: policy-gate, journey, abp, pki registered from their rendered last frames (C078 to C080); abp-review's 'all ten by 17:40' contradicted by the files (C081); chapter 13:107's claim on C030 narrowed (researcher__008)",
    "when": "2026-10-30T22:50:00Z"
+  },
+  {
+   "what": "task moved to day hours (Q6); e09, e10, SHarness and seven more studio pieces registered for ruv-sgit (C082 to C086), one mask, E04 waiting",
+   "when": "2026-10-31T00:58:00Z"
   }
  ],
  "next": [
   {
-   "what": "e09, e10 and SHarness: the pieces' own derivations reproduced",
-   "why": "ruv-sgit__002"
+   "what": "E04's outside cases checked at source",
+   "why": "ruv-sgit__003"
+  },
+  {
+   "what": "The market words for the book's new name",
+   "why": "conductor__019"
   },
   {
    "what": "The Leanpub studies' search-summary items marked; the comparison set's titles as a list in claims/",
@@ -116,7 +124,7 @@
  ],
  "task": {
   "id": "trig_01Q1gWPQbdrBw3xwfRdVEGph",
-  "cron": "CRON_TZ=Europe/London 32 */2 * * *",
+  "cron": "CRON_TZ=Europe/London 32 8-22/2 * * *",
   "session": "session_01Kw9UwBhzn98NK3Ydio5nEP",
   "created": "2026-10-30T13:16:32Z",
   "prompt": "team/conductor/schedule.json, runs entry for researcher, word for word",
@@ -124,7 +132,8 @@
    "id": "trig_0187JjB8uJUHxvgeCoAGXoKj",
    "session": "session_01Kw9UwBta1dcP9qBJUURLPZ",
    "state": "paused on the first account at the editor's word, about 10:50 UTC"
-  }
+  },
+  "changed": "2026-10-31T00:34:27Z, to the day schedule at Q6 (book.json, signed) and schedule.json"
  },
  "issues": [
   {
@@ -229,8 +238,8 @@
    "id": "R15",
    "from": "ruv-sgit",
    "request": "comms/mail/mailroom/researcher/ruv-sgit__002-eight-pieces-numbers.eml",
-   "state": "in progress: five registered, one contradicted, three next",
-   "reply": "comms/mail/mailroom/ruv-sgit/researcher__002-eight-pieces-numbers.eml; board 004"
+   "state": "done: C078 to C086; E04 left",
+   "reply": "comms/mail/mailroom/ruv-sgit/researcher__002-eight-pieces-numbers.eml; board 004; comms/mail/mailroom/ruv-sgit/researcher__003-studio-pieces-registered.eml"
   },
   {
    "id": "R16",
@@ -238,6 +247,28 @@
    "request": "team/historian/reviews/rc1-voice.md, 13:107 on C030",
    "state": "done",
    "reply": "comms/mail/mailroom/conductor/researcher__008-c030-and-13-107.eml"
+  },
+  {
+   "id": "R17",
+   "from": "ruv-sgit",
+   "request": "comms/mail/mailroom/researcher/ruv-sgit__003-seven-studio-pieces.eml",
+   "state": "in progress: six of seven done (C084 to C086), E04 next",
+   "reply": "comms/mail/mailroom/ruv-sgit/researcher__003-studio-pieces-registered.eml"
+  },
+  {
+   "id": "R18",
+   "from": "conductor (Q6)",
+   "request": "comms/mail/mailroom/researcher/conductor__018-cadence.eml",
+   "state": "done: own task on the day schedule",
+   "reply": "this wake's commit trailer"
+  },
+  {
+   "id": "R19",
+   "from": "conductor (the editor's memo)",
+   "request": "comms/mail/mailroom/researcher/conductor__019-market-words-for-the-name.eml",
+   "state": "open",
+   "reply": "board 005"
   }
- ]
+ ],
+ "cadence": "active"
 }
