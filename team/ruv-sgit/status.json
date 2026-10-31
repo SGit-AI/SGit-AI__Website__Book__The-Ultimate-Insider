@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "ruv-sgit",
- "as_of": "2026-10-31T19:24:00Z",
+ "as_of": "2026-10-31T21:28:00Z",
  "round": 1,
- "state": "working (cadence active): LAB 02, 03, 05, 06, 07, 10, 12, 14, 15, 19 printed or in; LAB 20 (chapter 8, the locks) new; my reserved ids used, more to ask",
+ "state": "working (cadence active): LK1 taken up with the designer: the chapter map, and chapter 10's talk-by-speaker strip waiting on an id; the talk's member-by-hour heatmap waits on the researcher's counts",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/ruv-sgit/ (drafts left in place) and adopted",
@@ -80,30 +80,42 @@
   {
    "what": "LAB 20, chapter 8's locks that never closed, from checked claims C027, C006, C005",
    "when": "2026-10-31"
+  },
+  {
+   "what": "LK1: the chapter-by-pictures map; chapter 10's talk by speaker (C069) made, id to be named",
+   "when": "2026-10-31"
   }
  ],
  "next": [
   {
-   "what": "the next per-chapter experiment, agreed with the designer (chapters not yet taken)",
-   "why": "note 9, board 011"
+   "what": "chapter 13's concept map (the one chapter with no picture)",
+   "why": "LK1"
   },
   {
-   "what": "Done when 2: the editor's verdicts on the first round, into the experiments",
+   "what": "the talk's day as a member-by-hour heatmap for chapter 2, once the researcher registers the counts",
+   "why": "LK1, the editor's named picture"
+  },
+  {
+   "what": "Done when 2: the editor's verdicts",
    "why": "ROLE.md"
   }
  ],
  "asks": [
   {
    "of": "the editor",
-   "what": "paper verdicts on the lab's ruv pages (LAB 02 to 20)"
+   "what": "paper verdicts on the lab's ruv pages"
   },
   {
    "of": "designer",
-   "what": "judge LAB 20; more ids; which chapter next (ruv-sgit__016)"
+   "what": "an id for the talk-by-speaker strip; agree the LK1 split (ruv-sgit__017)"
+  },
+  {
+   "of": "researcher",
+   "what": "register the talk's commits by member and hour (ruv-sgit__011)"
   },
   {
    "of": "security",
-   "what": "review LAB 20 (ruv-sgit__015)"
+   "what": "review the talk-by-speaker strip (ruv-sgit__016)"
   }
  ],
  "session": "session_01Kw9UwBxsDtMFMqXtsseSvg",

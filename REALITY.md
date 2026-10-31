@@ -109,6 +109,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - `lab/experiments/15-ruv-the-pace-on-paper/` (LAB 15, reserved): the editor's T18, the site's pace grid drawn for paper: first the talk's own day from its wake records at `298be4e` (classed as C087) with C092's night-against-day counts and C021's gap, then this book's team, no count printed; run `lab/runs/20261031T1254Z-ruv-15-*`.
 - `lab/experiments/19-ruv-one-timeline-four-modes/` (LAB 19, reserved): the editor's A12, one registered timeline of the day (the designer's spec) in four modes, the designer's component horizontal and vertical, a 24-hour dial and a day strip to scale, each saying what it shows and hides; run `lab/runs/20261031T1654Z-ruv-19-*`.
 - `lab/experiments/20-ruv-the-locks-that-never-closed/` (LAB 20, reserved): for chapter 8, the evening to scale, the hold before any of the three planned locks could close, from C027, C006 and C005; run `lab/runs/20261031T1854Z-ruv-20-*`.
+- LK1 (an infographic-driven book): `team/ruv-sgit/survey/lk1-chapter-pictures.md`, every chapter against its pictures and gaps; `lab/experiments/23-ruv-the-talk-by-speaker/` (id to be named), chapter 10's 102 passages as a strip by speaker from the talk's transcript (C069); run `lab/runs/20261031T2054Z-ruv-23-*`.
 
 ## Synthetic readers (synthetic@book.the-ultimate-insider)
 
