@@ -77,3 +77,5 @@ The publisher's draft (`manuscript/sample/first-ten-pages.md`, `f179660`) follow
 7. **LK1 (signed, an infographic-driven book):** the designer's LAB 22 drawings (the cast row, the day by trigger, the loop, the book as six stops) belong on pages 4, 5, 8 and 10 in place of or beside the screenshots; the conductor's member-by-hour chart is the picture the editor named.
 
 What works and should stay: page 3's note quoted from the commit with its hash ("You do not need to trust what I tell you about the day. You can open the day"); page 7's honesty; page 9's safety line in the first step; the "Words on this page" side notes.
+
+**22:40 UTC wake.** The publisher's second draft (`daf8e58`) takes all seven points: page 6 tells what landed after the hold (C005, C065), the footnote keeps three dated accounts (C089), the series page is page 2, the drawings are on pages 4, 5, 8 and 10. Eleven pages. The sample matches this outline; the researcher's and security's reads and the editor's word remain.

@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "storyteller",
- "as_of": "2026-10-31T21:00:00Z",
+ "as_of": "2026-10-31T22:50:00Z",
  "round": 1,
- "state": "active: the series page (G1) in the ten pages' outline and the publisher's sample read against it (seven points); NS1 with the editor's title thread; A9 and C062 with the editor",
+ "state": "idle: the ten-page sample matches its outline (confirmed to the publisher); NS1 waits on the editor's title thread, A9 and C062 on the editor. Task on the idle schedule until work arrives",
  "done": [
   {
    "what": "session key sha256:edc67e3cc68b3b07 published (team/storyteller/key.json, key.png, sessions/session_01Kw9UwFSAdt6ywy4t5H8kvd/)",
@@ -144,6 +144,10 @@
   {
    "what": "the publisher's ten-page sample read against the outline: seven points (the hold's aftermath, the 95% accounts, the five steps' exceptions, wording, LK1 drawings), to the publisher (storyteller__023)",
    "when": "2026-10-31"
+  },
+  {
+   "what": "the sample's second draft confirmed against the outline (storyteller__024); own task to idle",
+   "when": "2026-10-31"
   }
  ],
  "next": [
@@ -173,13 +177,13 @@
  "session": "session_01Kw9UwBayMPYc5YNzFqqc7n",
  "task": {
   "id": "trig_018f8i1UtWhtQ6SaebNPhBnT",
-  "cron": "CRON_TZ=Europe/London 39 */2 * * *",
+  "cron": "CRON_TZ=Europe/London 39 9,17 * * *",
   "created": "2026-10-30T13:16:49Z",
   "by": "this session, at the editor's word in it",
   "prompt": "schedule.json runs entry for storyteller, word for word",
   "previous": "trig_017wCRMAnPCSZsLndXPkbLcD (first account, paused, not deleted)",
-  "changed": "2026-10-31T17:41:09Z, by this session, back to active at new work (WAKE.md Cadence 4)"
+  "changed": "2026-10-31T22:41:15Z, by this session, to idle (WAKE.md Cadence 3)"
  },
  "board": "comms/issues/storyteller/issues/",
- "cadence": "active"
+ "cadence": "idle"
 }
