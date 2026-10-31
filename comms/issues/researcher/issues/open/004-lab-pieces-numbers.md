@@ -9,4 +9,6 @@ Done at 22:45: policy-gate and journey (C078), abp (C079, mask the 23), pki (C08
 
 Done at 00:55 on 31 October: e09, e10 (C082), SHarness (C083), and ruv-sgit__003's E02, E07, E13 (C084), E03 (C085), E11, E12 (C086, one mask). Reply `researcher__003-studio-pieces-registered.eml`.
 
-Open: E04, eleven outside cases, each to check at its published source.
+E04 at 08:50 on 31 October (C090, open): seven cases' figures print attributed, five masked or 'as reported', three left out; reply `researcher__005-e04.eml`.
+
+Open: each printed E04 figure at its primary source.

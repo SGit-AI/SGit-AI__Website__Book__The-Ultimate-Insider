@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-10-31T04:55:00Z",
+ "as_of": "2026-10-31T08:50:00Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -2167,6 +2167,71 @@
    "method": "each commit tested against its member's wake windows, with two minutes either side; a wake with no closed time counted separately",
    "command": "method: the script in team/researcher/debriefs/2026-10-31__a13-and-the-title-check.md",
    "note": "36 of the 46 came before 03:00, most before the first wake record at 02:14 (C022): the night was built by hand before the wake existed. The editor's player fixes from 17:54 to 18:37 are not wake-less: they fall in dev's wake opened at 17:48:50 that never closed. That is the record's trace of the editor working in a member's session, so read 'triggered by the editor' as 47 wakes plus work inside wakes left open. Registered at the historian's request (historian__010) and the conductor's A13 (conductor__021), the researcher's 04:32 wake, 31 October 2026."
+  },
+  {
+   "id": "C089",
+   "claim": "Why the team stopped: the editor's own account, given after the day, against the day's record",
+   "cited_in": [
+    "team/conductor/rc1/editor-review/notes.json (T12)",
+    "briefs/2026-10-31__rc1-paper-review/batch-07-pages-22-to-32.md"
+   ],
+   "value": {
+    "day_record": "the hold at 18:44:13 gives the editor's usage at 95% as the reason, in the conductor's words (C006, C021); the locks were built and never applied (C027)",
+    "editor_31_October": "the 95% was 'just a footnote': he could have moved to another session; the main reason was that there was no tested way to take in changes during the talk, no UX to see what was new and no workflow that made sure nothing would break, 'the reason why I was thinking about let's lock V1'"
+   },
+   "state": "open",
+   "source": {
+    "repository": "SGit-AI__Website__Book__The-Ultimate-Insider",
+    "at": "49c701e",
+    "evidence": "briefs/2026-10-31__rc1-paper-review/batch-07-pages-22-to-32.md, his dictated review of page 29, committed 31 October 01:48 UTC"
+   },
+   "method": "his words read in the brief; set beside the hold file's reason and the locks",
+   "command": "git show 49c701e:briefs/2026-10-31__rc1-paper-review/batch-07-pages-22-to-32.md | grep -o -i '.\\{100\\}just a footnote.\\{300\\}'; git show 298be4e:team/conductor/HOLD.md | head -5   # the second in the talk's repository",
+   "note": "Two accounts, both kept, as ROLE.md asks for a contradiction. The day's record gives usage as the reason for the hold; the editor, after the day, calls usage a footnote and names the missing way to take changes safely during the talk. The record supports his account in part: lock.py was built for exactly that and never applied (C027). Quote his as his, dated 31 October 2026, never as the day's record. Open: the book chooses how to tell it, and the editor signs. Registered at the conductor's letter 021 (T12), the researcher's 08:32 wake, 31 October 2026."
+  },
+  {
+   "id": "C090",
+   "claim": "The talk's E04 piece: what over-enthusiastic agents did, from published reports",
+   "cited_in": [
+    "comms/mail/mailroom/researcher/ruv-sgit__003-seven-studio-pieces.eml"
+   ],
+   "value": {
+    "cases_in_data": 15,
+    "do_not_draw_per_the_data": [
+     "openai-dsewiki",
+     "cltr-scheming-in-the-wild"
+    ],
+    "poor_fit_per_the_data": "m365-copilot-dlp-bug",
+    "checked_against_primary_by_the_talk_team": [
+     "replit-deletes-prod-db",
+     "gemini-cli-failed-you",
+     "pocketos-cursor-railway",
+     "aws-kiro-cost-explorer",
+     "hf-openai-exploitgym",
+     "anthropic-irregular-evals",
+     "anthropic-fourth-incident"
+    ],
+    "not_checked_against_primary": [
+     "antigravity-d-drive",
+     "claude-code-48k-files",
+     "codex-gpt56-home-deletion",
+     "openclaw-meta-inbox",
+     "meta-internal-agent-sev1"
+    ],
+    "spot_checked_here": {
+     "replit": "1,206 executives consistent across reports; companies 1,196+ is the agent's own count, reports vary (about 1,100 to 1,196)",
+     "kiro": "13 hours, one mainland China region, per the Financial Times as reported by others; Amazon calls it user error"
+    }
+   },
+   "state": "open",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "c33e86a",
+    "evidence": "src/static/studio/data/over-enthusiastic.json (grades, checked_against_primary, cautions)"
+   },
+   "method": "the piece's data read; two headline figures spot-checked against public reports by web search, 31 October 2026",
+   "command": "git show c33e86a:src/static/studio/data/over-enthusiastic.json | python3 -c \"import json,sys;d=json.load(sys.stdin);[print(c['id'],c['grade'],c['checked_against_primary'],c['lost'][:90]) for c in d['cases']]\"",
+   "note": "Outside cases, graded by the talk's register (A1 to A5), not re-read here except the two spot checks. Print a figure only from a case the talk team checked against its primary source, attributed to its report ('per the FT', 'the agent's own count'); mask the figures of the five unchecked cases, or caption them 'as reported'. Label the three evaluation cases as evaluations, as the data's own caution says. Open until each printed figure is read at its primary source. Registered at ruv-sgit's request (ruv-sgit__003), the researcher's 08:32 wake, 31 October 2026."
   }
  ]
 }

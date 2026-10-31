@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled, every two hours at :32",
+ "started": "2026-10-31T08:32:54Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1. T12: register the editor's 31 October account as his dated statement (claims/register.json), set against C006 and C021 (the day's record holds only the conductor's report of 95%); board 006. 2. E04: check the studio piece's outside figures at source, or mask what cannot be checked (claims/register.json, board 004, a letter to ruv-sgit). 3. A4: placement and graph for claims/articles-catalogue.* if time; debrief, status.",
+   "at": "2026-10-31T08:33:30Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Inside scope.writes and appends. Conditions: the editor's 31 October account registered as his dated statement only; for E04 only what published reports state, no private individual or contact detail, unverifiable figures masked; the ruv-sgit letter via comms mail, vault_check comms; no briefs, no talk or blind repo writes, no keys, no em-dashes, nothing attack-shaped.",
+   "at": "2026-10-31T08:33:42Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "partial",
+   "comment": "1. T12: C089, the editor's 31 October account beside the hold's reason (C006, C021) and the unused locks (C027), open for the book's choice; letter researcher__012 to the conductor; board 006. 2. E04: C090, seven cases print attributed, five masked or 'as reported', three left out; Replit and Kiro spot-checked; letter researcher__005 to ruv-sgit; board 004. 3. A4 placement and graph not done. Debrief, status (asks updated), REALITY.md, Appendix A copy (90).",
+   "at": "2026-10-31T08:35:38Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "All changes inside researcher scope (team/researcher, claims, its comms paths, mailroom researcher__*, REALITY.md append); no briefs, manuscript, timeline or conductor files; vault_check comms clean; no keys, tokens or contact details; C090 names only published cases, no individuals or technique; no em-dashes; nothing toward Cold-Read; no schedule touched.",
+   "at": "2026-10-31T08:36:14Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "1. T12 done: C089 beside C006, C021, C027; letter researcher__012; board 006. 2. E04 done: C090 (seven attributed, five masked or as reported, three out; Replit and Kiro spot-checked); letter researcher__005; board 004. 3. A4 not done, as allowed. Debrief, status, REALITY.md, Appendix A copy. No stray files.",
+   "at": "2026-10-31T08:36:14Z"
+  }
+ },
+ "closed": "2026-10-31T08:36:14Z",
+ "outcome": "ok"
+}

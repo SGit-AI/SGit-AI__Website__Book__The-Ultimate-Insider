@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-10-31T07:00:00Z",
+ "as_of": "2026-10-31T08:55:00Z",
  "round": 1,
- "state": "working: 06:32 wake; 88 claims (74 checked, 5 corrected, 9 open); A7 reported; A9 references",
+ "state": "working: 08:32 wake; 90 claims (74 checked, 5 corrected, 11 open); T12 and E04 registered",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -100,20 +100,20 @@
   {
    "what": "A7 reported for the editor's decision (claims/json-book-study.md: graphs.sgit.ai keeps Markdown as the source, JSON as surfaces; books.sgraph.ai unreachable); A9's references for the storyteller (the fractal map found; the kinds-of-evolution article not in the newsroom)",
    "when": "2026-10-31T07:00:00Z"
+  },
+  {
+   "what": "T12 registered as the editor's dated account beside the day's record (C089); E04's outside cases sorted (C090): seven print attributed, five masked, three left out",
+   "when": "2026-10-31T08:55:00Z"
   }
  ],
  "next": [
   {
-   "what": "A4: the other sites and vaults, a reading, placement and the graph",
+   "what": "A4: placement and the graph; the other sites and vaults",
    "why": "conductor__020"
   },
   {
-   "what": "T12; books.sgraph.ai, when a session can reach it",
-   "why": "conductor__021"
-  },
-  {
-   "what": "E04's outside cases",
-   "why": "ruv-sgit__003"
+   "what": "E04's printed figures read at their primary sources",
+   "why": "C090"
   },
   {
    "what": "The Leanpub studies' search-summary items marked; the comparison set's titles as a list in claims/",
@@ -136,6 +136,18 @@
   {
    "to": "editor",
    "what": "C037: a figure for what the day cost you (usage or money), if you want chapter 12 to carry one; the record holds only the 95% at 18:44."
+  },
+  {
+   "to": "editor",
+   "what": "C081: did you agree all ten policies by 17:40 in your session? The files at 17:47 say five."
+  },
+  {
+   "to": "editor",
+   "what": "C062: the date you went full time, if the book should give one."
+  },
+  {
+   "to": "editor",
+   "what": "A9: which article shows '7 or 8 types of evolution'? Not in the newsroom."
   }
  ],
  "task": {
@@ -268,7 +280,7 @@
    "id": "R17",
    "from": "ruv-sgit",
    "request": "comms/mail/mailroom/researcher/ruv-sgit__003-seven-studio-pieces.eml",
-   "state": "in progress: six of seven done (C084 to C086), E04 next",
+   "state": "done: E04 sorted (C090); its printed figures to read at source",
    "reply": "comms/mail/mailroom/ruv-sgit/researcher__003-studio-pieces-registered.eml"
   },
   {
@@ -310,7 +322,7 @@
    "id": "R23",
    "from": "conductor (the editor's RC1 review)",
    "request": "comms/mail/mailroom/researcher/conductor__020-rc1-review-articles-graph.eml; conductor__021-rc1-review-5-to-9.eml",
-   "state": "in progress: A13 done, A7 reported, A9 references; A4 and T12 open",
+   "state": "in progress: A13, A7, A9, T12 done; A4 open",
    "reply": "comms/mail/mailroom/conductor/researcher__010-a13-a4-first-pass.eml; board 006; comms/mail/mailroom/conductor/researcher__011-a7-and-a9.eml"
   },
   {

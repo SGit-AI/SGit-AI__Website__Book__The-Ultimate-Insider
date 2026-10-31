@@ -9,4 +9,6 @@ A13 done at 05:05 (C087, C088; letters to the historian and the conductor). A4 b
 
 A7 reported at 06:55 (`claims/json-book-study.md`; books.sgraph.ai unread, the proxy refused it). A9's references: the fractal map found; the kinds-of-evolution article not in the newsroom, asked of the editor.
 
-Open: A4's other sites, vaults, reading, placement and graph; T12.
+T12 registered at 08:50 as the editor's dated account beside the day's record (C089, open: the book chooses how to tell it).
+
+Open: A4's other sites, vaults, reading, placement and graph.
