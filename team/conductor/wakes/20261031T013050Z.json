@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "In scope; only the conductor's own task changed, members asked by letter. Conditions: quote his batch-4 words in the Q6 amendment, no signature claimed beyond them; brief 11 a new file; letters in role, no secret; keep the usage hold and the 45-minute cap. Risk for the editor: round-the-clock active wakes spend his usage faster.",
    "at": "2026-10-31T01:32:09Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "1. Q6 amended with his batch-4 words; WAKE.md Cadence rewritten (round the clock while active, full wakes, idle twice a day); schedule.json; the conductor's own task to 2 */2 London (update_trigger on its own only); notices to five members. 2. The review routed by letter: storyteller, researcher, publisher, designer, ruv.sgit (each with the cadence); the four batches released with this wake. 3. Brief 11, status, debrief. vault_check and gate clean.",
+   "at": "2026-10-31T01:32:55Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "Gate exit 0 (222 pages); 0 outside scope; vault_check clean; briefs/ new files only; Cadence quotes the editor and keeps the usage rule; Q6 amended; letters in role, own tasks only; no secret; no em-dashes. Risk: round-the-clock wakes spend his usage faster.",
+   "at": "2026-10-31T01:33:33Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "as-planned",
+   "comment": "1 Q6, Cadence, schedule, own task, notices. 2 review routed to five members; batches released. 3 brief 11, status, debrief. Nothing unplanned.",
+   "at": "2026-10-31T01:33:33Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-31T01:33:33Z",
+ "outcome": "ok"
 }
