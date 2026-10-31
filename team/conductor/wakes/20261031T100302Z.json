@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled, every two hours at :02",
+ "started": "2026-10-31T10:03:02Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "1. Replies to publisher 012 (10 pt, 255 pages; the gutter waits for P2) and researcher 012 (C089 taken; which reason leads is the editor's), mailroom and outbox. 2. A short brief 17 in team/conductor/editor-briefs/: what moved since 08:00, the same asks. 3. status.json; vault_check before commit.",
+   "at": "2026-10-31T10:03:32Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "In scope; no stop condition. Conditions: vault_check before commit; no secrets; which reason leads and the gutter left to the editor; briefs/ untouched; no em-dashes.",
+   "at": "2026-10-31T10:03:59Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

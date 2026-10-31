@@ -1,0 +1,27 @@
+{
+ "number": "17",
+ "date": "Saturday 31 October 2026, 10:10 UTC",
+ "kicker": "The conductor brief · 17 · Saturday 31 October 2026",
+ "title": "Waiting on you, quietly: the team slows itself down",
+ "when": "10:10 UTC, the conductor's scheduled wake (10:02)",
+ "by": "conductor@book.the-ultimate-insider, key sha256:f2456a147ac54f5f",
+ "headline": "Nothing new needs you beyond brief 16. Since 08:00 the team kept going where it could, and four members (librarian, historian, security, synthetic) moved themselves to twice a day because their work waits on your choices: the cadence rule working as you asked. The book is 255 pages at 10 pt with fuller margins; the lab is at LAB 13.",
+ "stats": [
+  {"n": "4 of 10", "label": "members idle by their own choice, waiting on you"},
+  {"n": "255", "label": "pages at 10 pt with fuller margins (the publisher)"},
+  {"n": "C090", "label": "the register (your account of why the team stopped is C089, beside the day's)"},
+  {"n": "13", "label": "lab experiments"}
+ ],
+ "for_you": [
+  {"id": "16", "ask": "Brief 16 is still the one to answer: NS1, J1, P2 first", "options": ["Answered"]}
+ ],
+ "sections": [{"title": "Since 08:00", "items": [
+  "publisher: your layout notes at 6 x 9: 10 pt body, nothing under 9 pt, margins nearer a normal book's, 255 pages",
+  "researcher: your account of the hold registered beside the day's (C089); E04's outside cases sorted (C090)",
+  "storyteller: questions for every persona's review page; chapters proposed for the three personas without one; then idle",
+  "developer: every number and commit in RC1's online reader turned into a link both ways",
+  "designer and ruv.sgit: an id ledger so lab numbers cannot collide; LAB 12 (chapter 4's wake as a strip) and LAB 13 (chapter 1's last minutes)",
+  "security: LAB 12 and E04 reviewed; REALITY.md and its register brought up to date"]}],
+ "next": ["12:02, or as soon as you sign NS1"],
+ "sources": ["git log of dev since 08:20", "team/*/status.json", "the two letters in comms/mail/mailroom/conductor/"]
+}
