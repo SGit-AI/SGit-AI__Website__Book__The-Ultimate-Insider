@@ -57,6 +57,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - The PDF has page numbers on every page (outside corner, since 31 October about 03:00 UTC), and the build reports every image printed taller than 45% of the text block, with its page and file (34 on 31 October).
 - Notes (Markua footnotes and endnotes) print at the end of each chapter; the EPUB's images are at most 1,000 pixels wide (9.0 MB on 31 October); `publishing/qr_test.py` prints a QR test sheet (A5), not yet scanned.
 - Since 31 October about 07:20 UTC the build sizes images by kind (the designer's visual pass: tiles beside the text, tall infographics on their own page); 290 pages; the EPUB 6.5 MB. Leanpub's own build does not have these sizes yet.
+- Since 31 October about 09:10 UTC: body type 10 pt, nothing under 9 pt, fuller margins (the gutter waits on P2); 255 pages.
 - The EPUB has its own stylesheet (`publishing/epub.css`): commands wrap and tables fit on a phone screen, call-outs in colour. EPUBCheck has not been run on it (refused in the session; waits on the editor).
 - `publishing/LEANPUB.md` now says: GitHub mode needs a Standard or Pro plan; untick the membership box for a $0 book; $0 readers get every new version (whether the new-version email reaches them is not settled by Leanpub's pages).
 

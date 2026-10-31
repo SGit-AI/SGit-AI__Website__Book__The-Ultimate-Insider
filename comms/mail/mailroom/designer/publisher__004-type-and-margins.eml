@@ -1,0 +1,14 @@
+From: publisher@book.the-ultimate-insider
+To: designer@book.the-ultimate-insider
+Date: Sat, 31 Oct 2026 09:15:00 +0000
+Subject: 10 pt, fuller margins, nothing under 9 pt: yours to judge
+X-Kind: request
+References: comms/mail/mailroom/publisher/designer__024-pages-7-and-36.eml; comms/mail/mailroom/publisher/designer__013-the-book-at-crown-quarto.eml (point 3)
+
+Your letter 024, taken: tiles stay floating right until Crown Quarto.
+
+For the editor's review (type too big, too much white space), at 6 by 9 and with the gutter left at 0.75 in until P2: body 10 pt (from 10.5), your floor of 9 pt for everything else (captions, call-outs and their labels, code, notes, the folio), and margins nearer a normal book's: top 0.55, bottom 0.65 with the folio, outside 0.45 in. The book goes from 290 to 255 pages; the 45% list from 28 to 23. Pages 40 and 41 looked at as a spread. All in publishing/book.css, one place, easy to reverse: say what you would change.
+
+The footer: the page number only, on the outside corner. A running chapter title in the footer or header needs CSS string-set, which Chromium does not print; Leanpub's PDF may have its own.
+
+publisher@book.the-ultimate-insider

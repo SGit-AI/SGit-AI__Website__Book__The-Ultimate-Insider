@@ -18,11 +18,11 @@ The target (the editor's brief): on Amazon by Web Summit, Monday 9 November 2026
 | What | KDP's rule | Ours now |
 |---|---|---|
 | Trim size | 6 by 9 inches is KDP's most common US trim size | the PDF is 6 by 9 (`publishing/book.css`) |
-| Page count | at least 24 pages (black ink, white or cream paper) | 293 pages from today's build (RC1 with its figures and call-outs, 30 October, about 22:50 UTC) |
+| Page count | at least 24 pages (black ink, white or cream paper) | 255 pages from the build of 31 October, about 09:10 UTC (10 pt type, fuller margins, the designer's figure sizes) |
 | Bleed | only if something reaches the page edge; 0.125 inch | none: no full-bleed images planned |
-| Inside (gutter) margin | grows with page count (KDP's margins table) | mirrored since 30 October: 0.75 inch on the binding side, 0.55 inch outside (`publishing/book.css`): checked, see the margins table below |
-| Outside margins | at least 0.25 inch without bleed (0.375 inch with) | 0.55 inch outside, 0.75 top, 0.8 bottom: above the minimum |
-| Spine width | page count x 0.002252 inch (white paper) or x 0.0025 inch (cream) | at 293 pages (printed as 294): 0.735 inch on cream, 0.662 on white; full cover 12.985 by 9.25 inches on cream, 3,896 by 2,775 pixels at 300 dots per inch (`cover_size.py --pages 293`). It changes with every revision: compute it again on the final PDF |
+| Inside (gutter) margin | grows with page count (KDP's margins table) | mirrored since 30 October: 0.75 inch on the binding side, 0.45 inch outside since 31 October (`publishing/book.css`): checked, see the margins table below |
+| Outside margins | at least 0.25 inch without bleed (0.375 inch with) | 0.45 inch outside, 0.55 top, 0.65 bottom (since 31 October): above the minimum |
+| Spine width | page count x 0.002252 inch (white paper) or x 0.0025 inch (cream) | at 255 pages (printed as 256): 0.640 inch on cream; full cover 12.89 by 9.25 inches on cream, 3,867 by 2,775 pixels at 300 dots per inch (`cover_size.py --pages 255`). It changes with every revision: compute it again on the final PDF |
 | Spine text | only from about 79 pages up | will apply |
 | Cover | one PDF: back, spine and front, plus 0.125 inch bleed all round; width = bleed + back + spine + front + bleed | the designer's job; the publisher computes the size |
 | Image resolution | "at least 300 DPI", for the interior and the cover; do not enlarge an image to reach it | below it today: at the 4.7-inch text width the narrowest images print at about 200 dots per inch (`team/publisher/rc1-cards.md`, card 05); KDP's pages read do not say whether lower is refused or only warned |

@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled, every two hours at :47 London",
+ "started": "2026-10-31T08:48:32Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. Letters conductor 024, designer 024 filed; replies (designer: the change as a reversible proposal; conductor: before and after). 2. publishing/book.css only, at 6 x 9 with the gutter untouched (P2 open): body 10.5 to 10 pt (nothing under 9), top, bottom and outside margins toward normal; page count and 45% check before and after, two spreads looked at; footer the page number only (Chromium has no string-set), said plainly. 3. Board 006, debrief, status, REALITY.md.",
+   "at": "2026-10-31T08:49:15Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside scope; trim and gutter untouched, no unsigned decision acted on; reversible, before and after measured. Conditions: no ./version; dev only after the gate; letters via comms paths; no em-dashes.",
+   "at": "2026-10-31T08:49:27Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Letters 024 (conductor, designer) filed; book.css: 10 pt body, nothing under 9 pt, margins top 0.55, bottom 0.65, outside 0.45 (gutter untouched, P2 open), folio footer; 290 to 255 pages, 45% list 28 to 23, spread looked at; KDP.md; letters, board 006, debrief, status, REALITY.md.",
+   "at": "2026-10-31T08:51:24Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "1. Letters 024 filed, replies 004 and 012. 2. book.css: 10 pt, nothing under 9 pt, margins 0.55/0.65/0.45, gutter 0.75 (P2 open), folio footer; 290 to 255 pages. Minor extras, consistent: KDP.md (page count, spine) and build_book.py (text height). 3. Board 006, debrief, status, REALITY.md.",
+   "at": "2026-10-31T08:52:09Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Diff read: 0 outside scope; vault_check and gate clean (293); no em-dashes, keys or contact details; trim 6x9 and gutter 0.75 in kept; TEXT_HEIGHT matches; REALITY.md append only; no unsigned decision acted on.",
+   "at": "2026-10-31T08:52:26Z"
+  }
+ },
+ "closed": "2026-10-31T08:52:26Z",
+ "outcome": "ok"
+}

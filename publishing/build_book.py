@@ -60,7 +60,7 @@ def find_chrome(given):
     return None
 
 
-TEXT_HEIGHT = 9 - 0.75 - 0.8  # inches: the 6 by 9 page less book.css's top and bottom margins
+TEXT_HEIGHT = 9 - 0.55 - 0.65  # inches: the 6 by 9 page less book.css's top and bottom margins
 
 
 def image_lines(files):
