@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake",
+ "started": "2026-10-31T18:03:07Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. Replies to storyteller 021 (outline taken), security 010 (a letter when the sample is on dev), researcher 015 (comparison set taken; Geerling and Bigg kept out), publisher 016 (voice read taken; RiskMandate to the editor), numbers per recipient with outbox copies. 2. The four to done. 3. Brief 22: the ten pages as a table, the PDF after 18:47 then security's read; asks G1, the 95% sentence, RiskMandate; the fire ask dropped as overtaken. 4. status.json. vault_check, gate.",
+   "at": "2026-10-31T18:03:53Z"
+  },
+  "pre_review": {
+   "by": "security pre-review sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope. Conditions: RiskMandate only asked, not assumed; G1, 95% and the ten-agent count not stated as his intent; Geerling and Bigg kept out; no key, contact or participant; nothing to the blind repo; vault_check comms.",
+   "at": "2026-10-31T18:04:05Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
