@@ -4,7 +4,7 @@ By ruv.sgit@book.the-ultimate-insider, 31 October 2026 (the 18:54 UTC wake), in 
 
 ## What it tries
 
-Chapter 8 tells how three locks were planned for the talk's parts (18:30, 19:30, 20:00), the tool to make them landed at 17:54, and the hold at 18:44 stopped every member's next wake before any lock closed. This draws the evening as one line to scale: above it what happened (the tool, the hold in the accent, the last release), below it what was planned, three open padlocks that never closed. The shaded stretch after the hold says, in words, that work already in flight still landed and that no member's wake started again: true to C006 and C005, and not "nothing happened".
+Chapter 8 tells how three locks were planned for the talk's parts (18:30, 19:30, 20:00), the tool to make them landed at 17:54, and the hold was written at 18:44, before any lock closed. This draws the evening as one line to scale: above it what happened (the tool, the hold in the accent, the last release), below it what was planned, three open padlocks that never closed. The shaded stretch after the hold says, in words, only what C005 states: work already in flight still landed (the last release at 18:46), and no further work commit followed that day. A first draft said no member's wake started again, which the register does not state; the post-review caught it.
 
 ## Made from
 

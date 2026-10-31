@@ -2,8 +2,8 @@
 
 The evening as one line, to scale, from checked claims only:
   C027  the lock tool landed at 17:54; locks planned for 18:30, 19:30 and 20:00; none closed
-  C006  the hold, 18:44:13, at the editor's word (usage near its limit); every member's next wake stopped
-  C005  the last release, 18:46: work already in flight still landed
+  C006  the hold, 18:44:13, at the editor's word (usage near its limit)
+  C005  the last work commit, 18:45, and the last release, 18:46: work already in flight still landed, then nothing more that day
 Above the line, what happened; below it, the three planned locks as open padlocks. The axis is labelled on the hour only.
 Writes locks.svg and pages.html. Usage: python3 -B -I tools/build.py
 """
@@ -41,7 +41,7 @@ def main():
     # after the hold: tinted, and said in words
     s.append(f'<rect x="{x(hold):.2f}" y="10" width="{x(T1) - x(hold):.2f}" height="{H - 18}" fill="{FILL}"/>')
     s.append(t(W - 5, H - 15, 'after the hold: work in flight still landed,', 3.2, 400, MUTED, 'end'))
-    s.append(t(W - 5, H - 10.8, 'and no member\'s wake started again', 3.2, 400, MUTED, 'end'))
+    s.append(t(W - 5, H - 10.8, 'and no further work commit followed that day', 3.2, 400, MUTED, 'end'))
     # the axis, labelled on the hour
     s.append(f'<line x1="{x(T0):.2f}" y1="{Y}" x2="{x(T1):.2f}" y2="{Y}" stroke="{INK}" stroke-width=".5"/>')
     for h in (18, 19):
@@ -71,8 +71,8 @@ def main():
         '<section class="page" data-claims="C027 · C006 · C005">\n <figure class="fig span12">\n'
         '  <p class="fig-title">Three locks planned, none closed</p>\n'
         '  <img src="{{dir}}/locks.svg" alt="The evening to scale: the lock tool, three planned locks drawn as open padlocks, the hold, the last release" style="width:100%;display:block">\n'
-        '  <figcaption><b>The tool to lock each part landed at 17:54; the first lock was due at 18:30 and did not run; at 18:44 the hold stopped every member\'s next wake, '
-        'the lock included. Two brakes met, and the stronger one stopped the other.</b>'
+        '  <figcaption><b>The tool to lock each part landed at 17:54; the first lock was due at 18:30 and did not run; at 18:44 the hold was written, '
+        'and no lock ever closed. Two brakes met, and the stronger one stopped the other.</b>'
         '<span class="src">From claims/register.json C027 (the plan, the tool, none locked), C006 (the hold) and C005 (the last release); '
         'chapter 8, manuscript/08-the-locks-that-never-closed.md, tells it.</span></figcaption>\n'
         ' </figure>\n</section>\n')
