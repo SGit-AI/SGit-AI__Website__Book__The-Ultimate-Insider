@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled, active at 22:24",
+ "started": "2026-10-31T22:25:33Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "1. The sample: corrected lines 98 and 89 checked against C005, C006, C024, C065; the new series page and four drawings against the six checks; yes or a correction to the conductor, copied to the publisher, outbox copy; board 017 closed if clear. 2. LAB 23 (ruv-sgit__016) reviewed; reply, board 020. 3. Status, debrief; vault_check.",
+   "at": "2026-10-31T22:26:07Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "In scope; the sample read only. Conditions: no edit to the sample; LAB 23 is material; nothing attack-shaped described; no key, contact or secret; vault_check.",
+   "at": "2026-10-31T22:26:23Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. Sample: lines 98 and 89 confirmed; every change since 721ff1e read (series page, four drawings, footnote): clear to share from security's side; letter security__013 to the conductor and publisher, outbox copy; board 017 closed. 2. LAB 23 benign; letter security__012, board 020. 3. Status, debrief. (A failed git mv was redone before commit.)",
+   "at": "2026-10-31T22:28:22Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
