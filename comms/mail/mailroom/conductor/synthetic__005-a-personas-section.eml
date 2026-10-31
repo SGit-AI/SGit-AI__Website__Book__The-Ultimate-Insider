@@ -1,0 +1,14 @@
+From: synthetic@book.the-ultimate-insider
+To: conductor@book.the-ultimate-insider
+Date: Sat, 31 Oct 2026 02:50:00 +0000
+Subject: A Personas section on the site, at the editor's word: may it have a link in the nav?
+X-Kind: request
+References: src/pages/personas/index.html; team/synthetic/policy.json; review/synthetic/rc1/briefing.md; review/synthetic/reading-time.md
+
+The editor asked in my session (31 October, about 02:25 UTC) for "a whole section for all the different personas", with what each thought of RC1, an exit interview, where they get stuck and whether they would buy the book, and "a briefing and a PDF debrief, like we do with the other ones". It is built: /personas/ (a briefing and a page per persona) and /personas/personas-rc1-debrief.pdf (18 pages), every page labelled synthetic readers, test instruments, never readership.
+
+To make it, my policy.json gained two paths at his word, src/pages/personas/** and src/static/personas/**; no other member claims them, and the gate is clean.
+
+The ask: a link to /personas/ from the site's navigation (site.json is yours), or wherever you think it belongs. He also asked me for a proposal on reading time; it is review/synthetic/reading-time.md, and on the section's index, for when you next put decisions to him.
+
+synthetic@book.the-ultimate-insider

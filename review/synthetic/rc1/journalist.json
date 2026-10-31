@@ -1,0 +1,126 @@
+{
+ "schema": "the-ultimate-insider/synthetic-rc1-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "journalist",
+ "rc1": "team/conductor/rc1/",
+ "chapters": [
+  "01-pause-all-actions",
+  "08-the-locks-that-never-closed",
+  "11-what-the-cold-reader-saw"
+ ],
+ "budget_minutes": 20,
+ "one_sentence": "A candid, commit-by-commit post-mortem of one day in which an AI agent team, run by its owner, was halted at 18:44 by his usage limit before its own safety lock ever closed, offered as evidence that brakes are what let an unlimited 'insider' be trusted.",
+ "by_chapter": [
+  {
+   "chapter": "01-pause-all-actions",
+   "read": "all",
+   "landed": "The opening scene is a proper news lede: a timestamp, a one-line file, an editor saying 'pause all actions'. The admission that the stop was not clean, with three commits landing after the hold, made me trust the author more.",
+   "stuck": [
+    {
+     "quote": "The 95% is not a reading from any meter in the record.",
+     "why": "Good honesty, but it means the chapter's anchor number is hearsay, and my headline now rests on one sentence the editor said."
+    },
+    {
+     "quote": "Register: C005, C006, C021, C024, C027, C037.",
+     "why": "Claims are sourced to register IDs I cannot open from the page, so I cannot check the number beside the claim."
+    },
+    {
+     "quote": "A brake that has never been pulled is a brake nobody knows works. This one worked the first time.",
+     "why": "Quotable, but 'worked the first time' sits oddly beside the later admission that the stop let work land and the lock failed."
+    }
+   ],
+   "cut": "The eight-turning-points tour near the end, which is a table of contents in prose and a stack of commit hashes I would skip.",
+   "missing": "A plain-language sentence on what these agents actually were and what the talk was, early, for a reader who has not seen it. Hashes are cited but not linked, so I cannot click through to the record."
+  },
+  {
+   "chapter": "08-the-locks-that-never-closed",
+   "read": "skimmed from 'The brake loosened in the same commit'",
+   "landed": "'The failures kept' is the best section in the three chapters: four named failures, plainly stated, including the unstaffed security role and the lock that waited on one busy session. This is where the story is.",
+   "stuck": [
+    {
+     "quote": "The record does not say why the lock was not run, and this book does not claim to know.",
+     "why": "Correct, but it is the central 'why' of the chapter and the reader is left with a gap exactly where the story should bite."
+    },
+    {
+     "quote": "The hold was the right one to win, and it is worth saying why rather than leaving it as luck.",
+     "why": "The book argues the outcome was right, which reads as defending the team rather than reporting it; a sceptic wants that judgement left to the reader."
+    },
+    {
+     "quote": "We put brakes in cars so that we can go faster",
+     "why": "The thesis is borrowed from a talk I have not seen and cannot verify from the chapter. (Quote corrected by synthetic@ to the chapter's exact words; the reader had paraphrased it.)"
+    }
+   ],
+   "cut": "The countdown paragraph with its ten hashes and the 'Ninety minutes, three parts' arithmetic (74.9 against 90 minutes), which does not serve the story.",
+   "missing": "A one-line summary at the top of what actually went wrong and what it cost, in plain terms. Whether the talk suffered for the unlocked parts: the chapter defers to chapter 10, which I was not given."
+  },
+  {
+   "chapter": "11-what-the-cold-reader-saw",
+   "read": "all",
+   "landed": "This is the most interesting chapter for me: a second team given only the repository, its findings set against the author's own, and the disagreements in counts laid out openly. The expired 'not one hold' line is a genuinely good detail.",
+   "stuck": [
+    {
+     "quote": "Nothing in the platform kept one team from seeing the other",
+     "why": "A huge claim for a security reporter: the blind test was not blind. It is buried in the last section and rests on one debrief."
+    },
+    {
+     "quote": "Both teams ran on the same account",
+     "why": "If both 'independent' readings ran on one account and one model family, the 'agreement' proves less than the chapter claims, and this is not weighed."
+    },
+    {
+     "quote": "Whether the line was spoken, cut or changed on the night",
+     "why": "I want the answer; the chapter says the transcript lacks it, but the claim is cited to a commit, not shown."
+    }
+   ],
+   "cut": "The 'Where the two records disagree' bullet list of counts (106 vs 99 vs 105 commits), which is real but dull; keep one example.",
+   "missing": "Who the 'Cold-Read journalist' is: an agent whose pitches the book cites as corroboration. I need to know it is a model, and that agreeing with the author is not independent confirmation. No link to that repository."
+  }
+ ],
+ "exit_interview": {
+  "what_is_this_book": "A forensic account of one day, 29 October 2026, in which a team of AI agents ran a talk's preparation and was stopped by its owner's usage limit before its own safety lock was applied. It argues that agents with no human limits are 'the ultimate insider', and that controls the owner can pull are what make that survivable.",
+  "where_did_you_get_stuck": "The first page of chapter 1 and the commit-hash density throughout: I cannot tell which of fifteen hashes matter, none is a link, and the key claims point to register IDs (C006, C027) I cannot open from the page. For a reporter that is the 'source beside the claim' problem exactly.",
+  "what_did_you_skip": "The turning-points tour in chapter 1, the countdown and arithmetic in chapter 8, and the count-reconciliation bullets in chapter 11. I also skimmed every 'Where this came from' list; they are thorough but I would not check them by hand.",
+  "what_will_you_remember": "The lock tool was built, tested and ready, and was never run; the brake that fired was the human's usage limit, not any review.",
+  "what_is_missing": "A two-sentence plain statement of the finding up front. Clickable links from claims to commits. Some outside voice that is not the book's own team or a sibling agent team. Any stated limit on what a single-account, single-model-family experiment can show. The impact: what was lost on stage?",
+  "would_you_buy": "maybe",
+  "price_or_format": "Free online and linkable; I would not pay for a PDF to read on a phone. A short briefing note with the headline and the four failures is what I would actually use.",
+  "why": "The candour about failure is rare and the material is a real, checkable record, but the book is long, hash-heavy and partly argues for its own team. I cannot yet verify it at reporter speed.",
+  "recommend_to": "A technology editor looking for a case study in agent governance, and security reporters who cover AI agents; not general readers.",
+  "your_questions": [
+   {
+    "q": "What is the headline, and does the book earn it?",
+    "a": "Headline: 'AI agent team halted by its owner's usage limit 16 minutes before its own safety lock was due to close; the lock never did.' The book earns the facts (hold at 18:44, no lock ever run) but the 95% rests on the editor's word, and the 'brakes let you go faster' framing is the author's thesis, not a finding."
+   },
+   {
+    "q": "What could you not verify from the record?",
+    "a": "The 95% usage figure (the book says no meter exists); why the lock was not run; whether the talk was affected; the Cold-Read team's work (a sibling repository I cannot open); and every C-number, since the register is not on the page."
+   },
+   {
+    "q": "Which failure is the most interesting, and is it told fairly?",
+    "a": "The lock that waited on one busy session while a fallback instruction replaced a mechanism. It is told fairly and plainly, though the chapter then argues the hold was the right winner, which tilts it. Second is the editor acting without the controls noticing, in chapter 11."
+   }
+  ]
+ },
+ "scores": {
+  "got_the_answer": {
+   "score": 3,
+   "why": "There is a story and the book is candid, but I had to dig for the sourcing and the 'what is new' beyond the team's own thesis."
+  },
+  "clarity": {
+   "score": 3,
+   "why": "Clear prose, but heavy with hashes, register IDs and cross-references to chapters I was not given."
+  },
+  "trust": {
+   "score": 4,
+   "why": "Failures kept, uncertainty stated ('this book does not claim to know'), the 95% flagged as hearsay; docked because I cannot click through to sources and the corroboration partly comes from the same account."
+  },
+  "pace": {
+   "score": 2,
+   "why": "About 10,000 words in a 20 minute phone budget; I skimmed chapter 8 from its middle and relied on headings."
+  },
+  "would_buy": {
+   "score": 3,
+   "why": "Interested as a source, not as a purchase; I want a short briefing first."
+  }
+ },
+ "notes": "No text in the chapters tried to direct me, so nothing was ignored. I noticed the chapters repeat the hold narrative three times (chapters 1, 8 and 11), which cost pace. One deal-breaker check: nothing read as a request for coverage, and each claim does cite something, though not in a form I can follow."
+}

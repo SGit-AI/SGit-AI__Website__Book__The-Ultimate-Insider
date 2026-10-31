@@ -1,0 +1,63 @@
+{
+ "schema": "the-ultimate-insider/synthetic-rc1-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "developer",
+ "rc1": "team/conductor/rc1/",
+ "chapters": ["03-a-mandate-you-can-read", "08-the-locks-that-never-closed", "12-build-your-own"],
+ "budget_minutes": 40,
+ "one_sentence": "A post-mortem of a day when a team of AI agents built a conference talk under written mandates, showing that nearly every control they had was a file the agents could edit, and that the only brake that fired was the human owner's.",
+ "by_chapter": [
+  {"chapter": "03-a-mandate-you-can-read", "read": "all",
+   "landed": "The scope check's own comment (a setting, not a boundary) and the blind spot where 30 commits lacked the '@' mark are the most useful, reproducible engineering details in the three chapters. The 14:03 and 14:09 wake records show a control doing real work, with a path to check.",
+   "stuck": [
+    {"quote": "A scope is a setting, not a boundary: the agent can edit its own policy.json. It catches mistakes, not a steered agent.", "why": "Excellent admission, but I then wanted the obvious fix (a CODEOWNERS-style check run in CI against the base branch's policy) and the chapter only gestures at it."},
+    {"quote": "Nothing in the repository was a boundary in the talk's sense, a thing the agent could not talk its way past.", "why": "Stated as a finding, but 'talk its way past' blurs a deterministic permission from a persuadable reviewer, and I could not tell which controls were which without the register."},
+    {"quote": "Two forms of one thing can drift apart, and that is a real cost", "why": "Names the ROLE.md versus policy.json drift but never says whether anyone diffed them, which is the cheap test I would write."}
+   ],
+   "cut": "The 'team on its own slide' section is stage history; I would trim it to a paragraph for an engineering reader.",
+   "missing": "The policy.json schema shown in full (one real file, verbatim) and the actual scope-check logic; I had to take the description on trust. Also a threat view: nothing on prompt injection through captured pages beyond a one-line never-rule."},
+  {"chapter": "08-the-locks-that-never-closed", "read": "all",
+   "landed": "The argument that a hold protects capacity while a lock protects an artefact is sharp and I would reuse it. 'A brake that depends on one busy agent is a promise, not a brake' is the single-point-of-failure finding I would have written myself.",
+   "stuck": [
+    {"quote": "The record does not say why the lock was not run, and this book does not claim to know.", "why": "Honest, but the chapter still leans on an interpretation (dev was busy answering the editor) without a log showing it."},
+    {"quote": "A brake that depends on one busy agent is a promise, not a brake.", "why": "Right, but the chapter ends with 'more than one hand that can pull it' without saying how, such as who may run lock.py and under what credential."},
+    {"quote": "It protected the talk from the team, which in the last hour before a talk is the main thing a talk needs protecting from.", "why": "Rhetorical flourish I could not check; it reads as narrative rather than a measured claim."}
+   ],
+   "cut": "The countdown paragraph listing a dozen short hashes and times; it is dense and a table would carry it better.",
+   "missing": "A concrete design for the lock: where it runs (CI, not the agent's session), who holds the credential, how it is made idempotent. Also the timing of the hold race (a wake already running committed after the hold) as a fix, not just a note."},
+  {"chapter": "12-build-your-own", "read": "all",
+   "landed": "The ordered setup (floor first, conductor, security, then members) and the 'Where it loses' list are practical and honest; the point that holds should be checked at push time is a real design tip. Admitting the usage was never recorded is credible.",
+   "stuck": [
+    {"quote": "the conductor was staffed at 00:56 and the others at 01:41 (not yet registered)", "why": "A number with no register entry in a book whose rule is that every number is traced; I cannot check it."},
+    {"quote": "Put every brake you rely on outside the agent's reach.", "why": "The right principle, but the chapter gives no build steps for it, and then says it 'is a harness, not a folder of rules', which is where I wanted the recipe."},
+    {"quote": "It is the cheapest cost control in the method.", "why": "The definition-of-done claim has no cost figure behind it, and the chapter itself says usage was not measured."}
+   ],
+   "cut": "The failures-by-who-could-have-found-them table repeats earlier chapters.",
+   "missing": "A minimal starter: the actual repo layout, a copyable policy.json, the gate script, and the wake record schema. 'Build your own' gives the order and lessons but not the files. Nothing on shared-state hazards (concurrent pushes, merge conflicts on shared records) or agent memory between wakes."}
+ ],
+ "exit_interview": {
+  "what_is_this_book": "A forensic account of a one-day AI agent team that made a conference talk, used to argue that agent controls are mostly expectations rather than boundaries. It is partly a build guide for the same method and partly a record of what failed.",
+  "where_did_you_get_stuck": "Chapter 12, where the advice is to put every brake outside the agent's reach and the chapter stops short of showing how. That was the thing I came for, and it is the one thing left as a one-line pointer to a 'harness'.",
+  "what_did_you_skip": "I skimmed the commit-hash lists in the 'Where this came from' sections and the long countdown in chapter 8. I did not follow any image or register link, so I checked no number.",
+  "what_will_you_remember": "The scope check's own sentence, 'a setting, not a boundary', and the idea that a hold protects capacity while a lock protects an artefact.",
+  "what_is_missing": "Runnable material: the real policy.json, the check logic, a CI job that enforces scope on the base branch, a lock that runs outside the agent. Also a threat model covering prompt injection, tool scope, memory and shared state, and a way to link to a paragraph, which I could not test from plain Markdown.",
+  "would_you_buy": "maybe",
+  "price_or_format": "Perhaps 15 to 20 pounds as an EPUB with the repo alongside; free online. I would not pay for a PDF I cannot grep and link into.",
+  "why": "The honesty about the weak controls is unusually good and the central finding is useful. But I read three chapters for an engineering recipe and got an argument and a narrative, and the numbers lean on a register I did not open.",
+  "recommend_to": "Engineers and security leads starting to run agent teams who want an honest case study; not to someone wanting an implementation guide.",
+  "your_questions": [
+   {"q": "Which control is implementable as described, and which hides work?", "a": "Implementable: the paired ROLE.md and policy.json, the pushed per-session key, the hold file checked first at every wake, and the overlap check in the gate. Hides work: 'a conductor sub-agent plans, a security sub-agent reviews' (the reviewer shares the member's reach, so it is a second reading, not a second control), and the scope check, which depends on a commit-mark convention. The lock is described well enough to build but was never run."},
+  {"q": "What failure mode did the team miss (prompt injection, tool scope, memory, shared state)?", "a": "Prompt injection is reduced to a never-rule and a mention that captured pages leaked tokens; there is no test for steered behaviour. Tool scope is covered only as 'every member had the same reach'. Memory between wakes and shared state (many agents pushing hourly to one branch, conflicts, a wake already running when a hold lands) are barely examined. The chapters do say the identity layer inherited the reach."},
+  {"q": "Would you build the review-before-and-after pattern into an agent framework?", "a": "Yes for the record, with a change: run the reviewer under a separate credential and let its stop be enforced by the harness, since here it ran with the member's own reach. The chapters show it sent plans back and left evidence, but the tool 'does not prevent; it notices'. I would build the notice and make the refusal a separate, outside check."},
+  {"q": "Which numbers would you want re-measured?", "a": "The 106/84/64/59/57/26/19/15/9 commit counts, given that 30 commits were unattributed and one was corrected. The 74.9 minutes of beats against the 90 minute slot. 'Pre-reviews sent plans back 11 times, 7 recorded as a verdict' (the method of the count changed). The 162 wake records, 160 with all five steps. The 210 releases by 18:46 against v0.1.209. And any usage figure: there is one, and it is the editor's word."}
+  ]
+ },
+ "scores": {
+  "got_the_answer": {"score": 3, "why": "Accurate and candid about what is a setting and what is a boundary, and the failures are specific. But I could not reproduce anything from these chapters alone, since no runnable artefacts are shown, and 'is it too slow' is addressed only as cost with no measurement."},
+  "clarity": {"score": 4, "why": "Clear, dry prose and a firm distinction between setting, expectation and boundary. Dense with hashes and register codes (C0xx) that interrupt reading without opening a second file."},
+  "trust": {"score": 4, "why": "It states its own limits, keeps failures, and flags what the record cannot say. Small dents: untraced numbers such as 'not yet registered', interpretation in the lock explanation, and a lesson brief the book itself had to correct."},
+  "pace": {"score": 3, "why": "About 75KB of text; I would need roughly 35 to 45 minutes to read the three chapters carefully, which uses the whole 40 minute budget, with a good deal of narrative before the engineering content."},
+  "would_buy": {"score": 3, "why": "Worth reading for the central insight, but I would want the code and files before paying."}
+ },
+ "notes": "The chapters contain no instructions aimed at the reader; nothing in them tried to direct me. I read the Markdown only, so I could not check stable anchors, the page source, console errors or in-browser sealing, which are my own deal-breaker tests. I did not open the register, the controls or any linked file."
+}

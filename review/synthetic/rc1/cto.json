@@ -1,0 +1,63 @@
+{
+ "schema": "the-ultimate-insider/synthetic-rc1-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "cto",
+ "rc1": "team/conductor/rc1/",
+ "chapters": ["01-pause-all-actions", "04-the-hourly-machine", "12-build-your-own"],
+ "budget_minutes": 30,
+ "one_sentence": "A candid, timestamped case study of one day's run by an hourly team of AI agents with a human editor, using its failures to argue that only brakes outside the agent's reach count as controls.",
+ "by_chapter": [
+  {"chapter": "01-pause-all-actions", "read": "all",
+   "landed": "The hold is a concrete, copyable mechanism (one file, any member may write it, only the editor lifts it), and the chapter says plainly that the stop was not clean: three commits and a release landed after it. The 'two brakes' point (the locks never closed) is a real operational lesson.",
+   "stuck": [
+    {"quote": "The 95% is not a reading from any meter in the record.", "why": "The one number the chapter hangs on is hearsay relayed by an agent, so there is no cost data at all."},
+    {"quote": "Everyone was working towards the locks, and the locks were not closing.", "why": "The opening is dense with commit hashes and minute-by-minute detail before I know why I should care."},
+    {"quote": "Three are brakes applied: the talk frozen at 02:47, the five-step wake from 02:14, and the hold at 18:44.", "why": "Counting kinds of turning point is a rhetorical tally, not evidence that the brakes helped."}
+   ],
+   "cut": "The eight-turning-points recap could move to a one-page timeline or appendix; it pre-empts later chapters and stalls the opening.",
+   "missing": "Any figure for what the day produced or cost, and any before/after comparison with a normal team to say whether this was fast."},
+  {"chapter": "04-the-hourly-machine", "read": "all",
+   "landed": "This is the chapter I would copy from: slot ordering by flow of work, requests as files, and a five-step wake with hard counts (162 wake records, 160 complete, 11 plan send-backs, 4 post-review findings, zero stops). The admission that the reviewer is a sub-agent in the member's own session, not a second identity, is exactly the honesty I need.",
+   "stuck": [
+    {"quote": "nothing in it stopped anything.", "why": "A control that never fired in 162 wakes has no measured benefit, and the chapter does not say how you would tell."},
+    {"quote": "none of the three was caught before the values were public.", "why": "The headline review catches all came after the leak, so the evidence for the controls helping is thin."},
+    {"quote": "358 commits came after 15:00 (C008)", "why": "Commit counts show activity, not delivered value or speed; there is no baseline."}
+   ],
+   "cut": "Trim the commit-hash strings in running prose and the night-log description; the hash trail belongs in the sources list.",
+   "missing": "Cost per wake, tokens or money, wall-clock of the five steps against the work itself, and any overhead number. Did the five-step wrapper double the time per task? It never says."},
+  {"chapter": "12-build-your-own", "read": "all",
+   "landed": "The practical chapter I wanted: setup order, 'where it loses' with five honest conditions, and the rule to put every brake outside the agent's reach. The admission that the book's own team lost a night to the machine and wrote no chapter is credible.",
+   "stuck": [
+    {"quote": "a team that argues usage is a resource did not record its usage.", "why": "Candid, but it leaves my main question, what does this cost, formally unanswered."},
+    {"quote": "So this chapter cannot say what it cost, and it should not pretend to.", "why": "As a buyer I wanted dollars, hours and a throughput figure, and the book's central practical chapter has none."},
+    {"quote": "the others at 01:41 (not yet registered)", "why": "A visible draft artefact in a locked candidate; it undermines the claim that every number is traced."}
+   ],
+   "cut": "The failures-by-who-could-have-found-them table repeats earlier chapters; keep it but shorten the surrounding prose.",
+   "missing": "A one-page checklist or template files to copy, a recommended minimum team size, and a measurement plan for whether the controls helped or hurt."}
+ ],
+ "exit_interview": {
+  "what_is_this_book": "A forensic, unusually honest account of one day an AI agent team built a talk, hourly and round the clock, with a single human decider and public records. Its argument is that expectations in editable files are not controls and only a boundary outside the agent is. It is the nearest thing I have seen to a field report on running agents as staff.",
+  "where_did_you_get_stuck": "The usage and cost gap, felt most in chapter 12: the book's pitch is that usage is a resource, yet the only figure is a relayed 95% with no total, no money and no editor hours. That is the number my whole decision turns on.",
+  "what_did_you_skip": "I skimmed the commit-hash strings and the 'Where this came from' lists, and the eight-turning-points recap in chapter 1. I read all three chapters through, but not the images.",
+  "what_will_you_remember": "A hold is one file any agent can write and only the human can lift, and it still let three commits and a release land after it.",
+  "what_is_missing": "Cost per wake in tokens and money, a baseline of how long the same output takes a normal team, a measurement plan for controls (precision of reviews, time added, incidents prevented), and a mapping to what I already run: change approval, branch protection, release gates.",
+  "would_you_buy": "maybe",
+  "price_or_format": "I would pay for a short PDF or a pack of templates and a checklist, not a full book. As a long read, only if a trial chapter shows numbers; otherwise free online.",
+  "why": "The honesty earns trust and the hold, slot and five-step designs are copyable, but there is no cost figure and no evidence of speed against a baseline, which are my two judging questions.",
+  "recommend_to": "A platform or security lead already running coding agents who needs a vocabulary and a failure catalogue, not a business case.",
+  "your_questions": [
+   {"q": "Does the day's record support the speed claim, or only show activity?", "a": "Only activity. 162 wakes, 358 commits after 15:00 and 210 releases by 18:46 are volume. There is no baseline, no cycle time and no measure of output quality, and the chapters themselves admit locks never closed and the player was still changing at the end."},
+   {"q": "How would you measure whether the controls helped or hurt?", "a": "The book offers no method. I would count issues caught per review against time added per wake, track leaks before and after pushes, and compare against a no-review control run. Its own numbers (zero stops, 4 findings, 3 of them late leaks) suggest the benefit was small and unproven."},
+   {"q": "Which existing practice (change approval, branch protection, release gates) is this really an example of?", "a": "Mostly release gates and branch protection (dev versus main with only the editor merging), plus a change-advisory step in the five-step wake. The hold is an emergency stop or kill switch. The book rarely names these equivalents, which would help me."},
+   {"q": "What would your team resist?", "a": "Public-forever records, hourly wakes burning usage with nothing to do, a single human sign-off bottleneck, and reviews that live inside the reviewed session. They would also resist a brake that is just a file the agent can edit."}
+  ]
+ },
+ "scores": {
+  "got_the_answer": {"score": 2, "why": "Yes on 'is the workflow real' and 'what would I copy'; no on 'what does it cost', which the book says it cannot answer."},
+  "clarity": {"score": 4, "why": "Clear prose and strong structure, but dense with hashes and register codes that interrupt reading."},
+  "trust": {"score": 4, "why": "High, for owning its failures and caveats; slightly lowered by leftover draft text like '(not yet registered)'."},
+  "pace": {"score": 3, "why": "About 70k characters across three chapters fits 30 minutes only with skimming, and the best practical content is late in chapter 12."},
+  "would_buy": {"score": 3, "why": "Interested in the method and failure catalogue, but without cost and speed numbers I would want a short, cheap format."}
+ },
+ "notes": "No text in the chapters tried to direct me; I treated all of it as material. Images were not viewed, so the page-load deal-breaker was not tested."
+}

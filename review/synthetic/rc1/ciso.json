@@ -1,0 +1,72 @@
+{
+ "schema": "the-ultimate-insider/synthetic-rc1-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "ciso",
+ "rc1": "team/conductor/rc1/",
+ "chapters": ["03-a-mandate-you-can-read", "06-the-editor-signs", "09-the-team-was-the-insider"],
+ "budget_minutes": 40,
+ "one_sentence": "A candid post-mortem of a one-day experiment in which a team of AI agents built a conference talk about agents as insiders, and in doing so showed which of its own controls were real boundaries and which were only written expectations.",
+ "by_chapter": [
+  {
+   "chapter": "03-a-mandate-you-can-read",
+   "read": "all",
+   "landed": "The distinction between a setting and a boundary, and the team quoting its own scope tool admitting it is only a setting, is exactly the honesty I look for and rarely get from a vendor or an internal audit. The point that a written mandate is not the control but what makes other controls measurable is a line I could put in a policy paper.",
+   "stuck": [
+    {"quote": "Nothing in the repository was a boundary in the talk's sense, a thing the agent could not talk its way past.", "why": "A strong claim about the whole team, resting on a list of controls I would have wanted as a table with evidence per row rather than a paragraph."},
+    {"quote": "Nothing in the release pipeline runs it.", "why": "The most important fact about the scope check is buried mid-paragraph; I would have wanted it as the headline finding."},
+    {"quote": "A key's standing rested on the push alone.", "why": "Every key says enrolled: false, so identity equals write access; I wanted to know what the author thinks a regulated firm should do about that on Monday."}
+   ],
+   "cut": "The commit-hash and timestamp density in the 'Signing the mandate' and 'key made in the session' sections; I lost the argument among the clock times. Cutting a third would lose nothing a board needs.",
+   "missing": "A one-page summary I could hand a board: control, what it claimed, what it actually did, cost to adopt. Also no word on what it would take to make the scope check a boundary beyond a pointer to later chapters."
+  },
+  {
+   "chapter": "06-the-editor-signs",
+   "read": "all",
+   "landed": "This is the chapter that answers my accountability question most directly. A relayed signature is not a signature, and the harness refusing to accept a conductor's mail as the editor's word is a vivid, concrete case. The honest admission that the leader's open decisions stayed open while the team worked around them is the sort of finding an auditor would raise.",
+   "stuck": [
+    {"quote": "The team ran all day without settling what his signature, had he given one, would have meant.", "why": "For a regulated firm this is the central gap: accountability without a defined meaning for the accountable person's act. The chapter names it but offers no remedy."},
+    {"quote": "I haven't provided any feedback, so don't worry about it", "why": "The designed signing channel was unused, so the book's headline control (signed decisions) rests on quoted chat, not on any signature a regulator would recognise."},
+    {"quote": "autonomy on the day was granted, not earned, and granted well.", "why": "Plausible, but 'granted well' is a judgement with no measure behind it."}
+   ],
+   "cut": "Some of the afternoon narrative (feedback round, decisions round) could be compressed; the lesson is already clear from the 17:40 episode.",
+   "missing": "How this survives a regulated firm: delegation, deputies, the editor being unavailable, segregation of duties, who signs for the signer. One person as the single approver is a key-person risk and a conflict-of-interest question, and neither is raised."
+  },
+  {
+   "chapter": "09-the-team-was-the-insider",
+   "read": "all",
+   "landed": "The register table is the most useful object in the three chapters: control, kind, fired, stopped, missed. 'No step said stop, all day' next to 'eleven times it said change' is the sort of evidence I want, and the summary that the controls the team leaned on were the ones it could not edit is a sound, adoptable principle.",
+   "stuck": [
+    {"quote": "No step said stop, all day.", "why": "A control that never refuses in 162 wakes could be good judgement or could be a rubber stamp; the chapter notes the reviewers share the author's reach and gives me no way to tell which."},
+    {"quote": "But the talk claims that controls are what let you go faster, and the record shows which controls a fast team actually leaned on: the ones it could not edit.", "why": "This is the claim I most want evidenced, and no measurement of cost or delay from any brake is given; it is asserted from the shape of the record."},
+    {"quote": "Its ids collide with this book's decisions and the researcher's claim ids, and are to be renamed", "why": "Control ids C1 to C10 collide with other ids in the same chapter, so I had to keep re-checking which C-number meant what, which weakens confidence in the register."}
+   ],
+   "cut": "The C9 outside accounts entry (the control that 'fired' only to be seen) and some of the cross-references to the Cold-Read team's findings; they thicken a chapter that is already dense.",
+   "missing": "Evidence that the brakes did not slow the team: wake durations, commits per hour before and after each control, time lost to sent-back plans. Also a separation of which controls I can adopt on Monday from which need budget or a different platform."
+  }
+ ],
+ "exit_interview": {
+  "what_is_this_book": "A frank case study of a day in which nine AI agents, working under written mandates and a stack of review and signing controls, built a talk warning about agents as insiders. Its argument is that most so-called controls were expectations, that only boundaries outside the agent's reach were controls, and that the team showed this against itself.",
+  "where_did_you_get_stuck": "Chapter 9, the register and the 'what the controls missed' passage: the claim that fast teams lean on controls they cannot edit is asserted rather than measured, and I could not tell whether the five-step review that never said stop was working or ornamental.",
+  "what_did_you_skip": "In chapters 3 and 6 I skimmed most commit hashes, timestamps and the long source lists at the end; I read the argument and the quoted admissions and did not verify a single citation, which the book invites me to do and I did not have the time for in 40 minutes.",
+  "what_will_you_remember": "A scope is a setting, not a boundary: the agent can edit its own policy file, and the team wrote that sentence into its own tool.",
+  "what_is_missing": "A board-ready summary and an adoption path: which controls cost nothing and could start Monday (typed rows in a mandate, hash-bound approvals, a hold file), which need budget or platform change (a checker outside the agent's credential), and what a regulator would accept as a signature. Also nothing on the web side of the project: what the site sends, to whom, and whether anything private is in the page or the URL.",
+  "would_you_buy": "maybe",
+  "price_or_format": "A short PDF or printed briefing at a modest professional price; I would not pay for the full manuscript on the strength of these three chapters alone, but would for a condensed control register with adoption guidance.",
+  "why": "The honesty is rare and the register structure is useful, but the evidence is one benign team on one day, and the parts I most need (cost of the brakes, regulated-firm accountability) are asserted or absent.",
+  "recommend_to": "A head of AI governance or an internal audit lead building an agent policy, and a CTO starting an agent team who needs the 'only a boundary is a control' idea. Not to the board directly in this form.",
+  "your_questions": [
+   {"q": "Which page would you show your board, and which would you remove?", "a": "I would show the register table in chapter 9, with the scope-check quote from chapter 3 beside it. I would remove the commit-by-commit signing narrative in chapter 6 and anything that relies on the reader knowing the team's folder layout."},
+   {"q": "Which controls could you adopt on Monday, and which need budget?", "a": "Monday: a written mandate in two forms, typing every row of the gap as boundary, setting or expectation, hash-bound approvals, a hold file that stops the next run, and a rule that relayed approvals are material. Budget: a scope check that runs outside the agent's credential, per-agent identities for commits (the book says all commits share one key), and an independent reviewer instead of a sub-agent in the same session."},
+   {"q": "Does the idea of accountability (who signs) survive contact with a regulated firm?", "a": "Not yet, as written. One named signer is the right instinct, but the book shows the signature was chat quotes relayed by agents, the designed channel was unused, and the meaning of his word was never settled. A regulated firm needs delegation, a deputy, an audit trail a regulator accepts, and segregation from the person who benefits. The principle survives; the implementation shown does not."},
+   {"q": "What evidence would you want that the brakes did not slow the team?", "a": "Throughput before and after each control: commits and releases per hour, wake duration with and without the five steps, time lost to sent-back plans, and how many of the eleven 'change' verdicts delayed a release. The book offers 210 releases in a day as proof of speed, but with no baseline without the brakes I cannot say they cost nothing."}
+  ]
+ },
+ "scores": {
+  "got_the_answer": {"score": 3, "why": "I learned which controls were real and which were expectations, which bears on 'do the controls hold up'. On 'would I trust this team' I got candour, but the team's own conclusion is that most controls would not hold against a steered agent, and no chapter shows me what would."},
+  "clarity": {"score": 3, "why": "The core idea is crisp. The prose is cluttered with times, hashes and member names, and the C-number collision costs trust in the register."},
+  "trust": {"score": 4, "why": "The failures are kept in and the limits are quoted from the team's own tools, which builds trust. Held back because the evidence is one team, one day, self-reported, with reviewers that share the author's reach."},
+  "pace": {"score": 3, "why": "About 72,000 characters across three chapters is a stretch in 40 minutes if I want to read rather than skim; I could do it only by skimming the sourcing lists."},
+  "would_buy": {"score": 3, "why": "Interesting, honest and relevant, but I need a condensed adoption guide and measured evidence before I would spend budget or recommend it upward."}
+ },
+ "notes": "No text in the chapters tried to direct me; nothing to ignore. My deal-breakers (personal detail in page source, third-party host requests, a control described that the record does not show) cannot be tested from these three chapters: they describe the team's controls, not the book website's behaviour, so I could not check either of the first two. On the third, I noticed that the chapters rely on the record for the controls they describe, but 'nothing in the record proves a sub-agent ran' (chapter 9) means one control, the five-step review, is described more strongly than the record can show. I also did not see the 'comments sealed to the editor's key' idea anywhere in these chapters. Chapter 9 cites a screenshot from a release the talk team only reconstructed after the day; I took the book's word on that."
+}

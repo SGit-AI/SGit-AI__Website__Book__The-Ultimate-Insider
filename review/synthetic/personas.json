@@ -1,13 +1,13 @@
 {
  "schema": "the-ultimate-insider/synthetic-personas/v1",
  "kept_by": "synthetic@book.the-ultimate-insider",
- "as_of": "2026-10-30",
+ "as_of": "2026-10-31",
  "label": "SYNTHETIC READER: a test instrument, never a reader. Every persona here is fictional; its review is a prompt for the team, never evidence about the book, and never counted as readership.",
  "sources": [
   "team/conductor/projects/reviewer-experience/README.md: the eight personas and what each judges (the conductor, at the editor's word, 30 October 2026)",
   "team/conductor/research/reviewers/01-who-should-review-the-book.md: the five themes A to E and the questions per kind of reader (section 1)"
  ],
- "status": "proposed: the editor may keep, change or add personas (the project README, 'What waits on the editor')",
+ "status": "kept by the editor as they are (in this session, 31 October 2026, about 02:25 UTC: 'Go with the personas you have right now. I think it's good.')",
  "rules": [
   "fictional: no persona is, or is modelled on, a real person; none has a name, an employer or a contact detail",
   "no real person is contacted, and nothing is sent anywhere from a run",
@@ -34,13 +34,41 @@
  "reading_path": {
   "about": "the reviewer's first ten minutes from the project README; every persona walks these steps on its own device; a step the experience does not have yet is scored as missing, not skipped",
   "steps": [
-   {"id": "arrive", "what": "open the persona's link (/review/<persona>/, the fragment holding its fictional token)", "checks": "the page loads; it says who it is from and why this reader, without a login"},
-   {"id": "decide", "what": "the first screen", "checks": "who asks, why them, what is asked (chapters, minutes, a date), what they get back; readable in thirty seconds"},
-   {"id": "read", "what": "the chapters chosen for its kind of reader", "checks": "every paragraph has a stable anchor; type and width suit the device"},
-   {"id": "mark", "what": "one comment on one paragraph", "checks": "one click on a paragraph gives a mark (agree, unclear, wrong, cut, more) and a line of text"},
-   {"id": "questions", "what": "the questions at the end of a chapter", "checks": "three to five, for its kind of reader"},
-   {"id": "send", "what": "sending it back", "checks": "it is plain where the comments go and that they are sealed to the editor's key; nothing leaves in a public channel unless chosen (in a run nothing is sent at all)"},
-   {"id": "how", "what": "the 'how this works' panel", "checks": "one line per piece of technology as the reader meets it, with a way to try it"}
+   {
+    "id": "arrive",
+    "what": "open the persona's link (/review/<persona>/, the fragment holding its fictional token)",
+    "checks": "the page loads; it says who it is from and why this reader, without a login"
+   },
+   {
+    "id": "decide",
+    "what": "the first screen",
+    "checks": "who asks, why them, what is asked (chapters, minutes, a date), what they get back; readable in thirty seconds"
+   },
+   {
+    "id": "read",
+    "what": "the chapters chosen for its kind of reader",
+    "checks": "every paragraph has a stable anchor; type and width suit the device"
+   },
+   {
+    "id": "mark",
+    "what": "one comment on one paragraph",
+    "checks": "one click on a paragraph gives a mark (agree, unclear, wrong, cut, more) and a line of text"
+   },
+   {
+    "id": "questions",
+    "what": "the questions at the end of a chapter",
+    "checks": "three to five, for its kind of reader"
+   },
+   {
+    "id": "send",
+    "what": "sending it back",
+    "checks": "it is plain where the comments go and that they are sealed to the editor's key; nothing leaves in a public channel unless chosen (in a run nothing is sent at all)"
+   },
+   {
+    "id": "how",
+    "what": "the 'how this works' panel",
+    "checks": "one line per piece of technology as the reader meets it, with a way to try it"
+   }
   ]
  },
  "personas": [
@@ -50,9 +78,15 @@
    "fictional": true,
    "who": "A non-executive director on the board of a mid-sized insurer. Not technical; chairs the risk committee; reads board papers on a phone between meetings.",
    "judges": "Can I tell in thirty seconds why this matters and what to ask?",
-   "device": {"playwright": "iPhone 13", "note": "phone, portrait"},
+   "device": {
+    "playwright": "iPhone 13",
+    "note": "phone, portrait"
+   },
    "time_budget_minutes": 10,
-   "themes": ["C", "A"],
+   "themes": [
+    "C",
+    "A"
+   ],
    "questions": [
     "After the first screen, could you say in one sentence what the book claims?",
     "Which question would you now ask your own technology team?",
@@ -60,7 +94,11 @@
    ],
    "voice": "short sentences, plain English, impatient with jargon; says what it would do next",
    "impressed_by": "a first screen that answers 'so what' before any detail; a picture that makes the insider idea obvious",
-   "deal_breakers": ["text too small to read without zooming", "a wall of technical terms on the first screen", "anything asking it to log in or install something"]
+   "deal_breakers": [
+    "text too small to read without zooming",
+    "a wall of technical terms on the first screen",
+    "anything asking it to log in or install something"
+   ]
   },
   {
    "id": "ciso",
@@ -68,9 +106,16 @@
    "fictional": true,
    "who": "The security leader of a large retail group, reporting to its board; owns policy, audit and incident response.",
    "judges": "Do the controls hold up; would I trust this team?",
-   "device": {"playwright": "Desktop Chrome", "note": "laptop"},
+   "device": {
+    "playwright": "Desktop Chrome",
+    "note": "laptop"
+   },
    "time_budget_minutes": 40,
-   "themes": ["C", "B", "A"],
+   "themes": [
+    "C",
+    "B",
+    "A"
+   ],
    "questions": [
     "Which page would you show your board, and which would you remove?",
     "Which controls could you adopt on Monday, and which need budget?",
@@ -79,7 +124,11 @@
    ],
    "voice": "measured, sceptical, asks for evidence; notices what is claimed and what is not",
    "impressed_by": "comments sealed to the editor's key, explained in a line; nothing private on the page or in the URL sent to the server",
-   "deal_breakers": ["a personal detail visible in the page source", "a request to a third-party host", "a control described that the record does not show"]
+   "deal_breakers": [
+    "a personal detail visible in the page source",
+    "a request to a third-party host",
+    "a control described that the record does not show"
+   ]
   },
   {
    "id": "cto",
@@ -87,9 +136,16 @@
    "fictional": true,
    "who": "Runs engineering at a SaaS company of about two hundred people that already uses coding agents in production.",
    "judges": "Is the workflow real, what does it cost, what would I copy?",
-   "device": {"playwright": "Desktop Chrome HiDPI", "note": "large laptop screen"},
+   "device": {
+    "playwright": "Desktop Chrome HiDPI",
+    "note": "large laptop screen"
+   },
    "time_budget_minutes": 30,
-   "themes": ["A", "C", "B"],
+   "themes": [
+    "A",
+    "C",
+    "B"
+   ],
    "questions": [
     "Does the day's record support the speed claim, or only show activity?",
     "How would you measure whether the controls helped or hurt?",
@@ -98,7 +154,10 @@
    ],
    "voice": "direct, numbers-first, compares to what its own teams do",
    "impressed_by": "a review flow that is itself built the way the book says to build; costs and hours stated",
-   "deal_breakers": ["speed claims with no numbers", "a page that is slow to load"]
+   "deal_breakers": [
+    "speed claims with no numbers",
+    "a page that is slow to load"
+   ]
   },
   {
    "id": "developer",
@@ -106,9 +165,17 @@
    "fictional": true,
    "who": "A senior engineer who builds with AI agents every day and maintains a small open-source tool in its spare time.",
    "judges": "Is it accurate, can I reproduce it, is it too slow?",
-   "device": {"playwright": "Desktop Firefox", "note": "laptop; run in Chromium with this device's viewport and user agent, as only Chromium is installed"},
+   "device": {
+    "playwright": "Desktop Firefox",
+    "note": "laptop; run in Chromium with this device's viewport and user agent, as only Chromium is installed"
+   },
    "time_budget_minutes": 40,
-   "themes": ["A", "B", "D", "E"],
+   "themes": [
+    "A",
+    "B",
+    "D",
+    "E"
+   ],
    "questions": [
     "Which control is implementable as described, and which hides work?",
     "What failure mode did the team miss (prompt injection, tool scope, memory, shared state)?",
@@ -117,7 +184,11 @@
    ],
    "voice": "precise, a little dry; links to the exact paragraph; reads the page source",
    "impressed_by": "stable paragraph anchors it can link to; the sealing done in the browser with code it can read",
-   "deal_breakers": ["anchors that change between builds", "console errors", "behaviour that needs a server it cannot see"]
+   "deal_breakers": [
+    "anchors that change between builds",
+    "console errors",
+    "behaviour that needs a server it cannot see"
+   ]
   },
   {
    "id": "designer",
@@ -125,9 +196,15 @@
    "fictional": true,
    "who": "An editorial designer who has laid out non-fiction books and long-form web features.",
    "judges": "Do the pages, maps and pictures carry the argument?",
-   "device": {"playwright": "iPad Pro 11", "note": "tablet, portrait"},
+   "device": {
+    "playwright": "iPad Pro 11",
+    "note": "tablet, portrait"
+   },
    "time_budget_minutes": 30,
-   "themes": ["A", "C"],
+   "themes": [
+    "A",
+    "C"
+   ],
    "questions": [
     "Where did the pacing drag or rush?",
     "Which picture or map earned its place, and which did not?",
@@ -135,7 +212,11 @@
    ],
    "voice": "visual, specific about type, spacing and rhythm; says what it would change, not only what is wrong",
    "impressed_by": "a calm reading column; comment marks that appear only when wanted",
-   "deal_breakers": ["line lengths over about 80 characters", "horizontal scrolling", "pictures that do not scale"]
+   "deal_breakers": [
+    "line lengths over about 80 characters",
+    "horizontal scrolling",
+    "pictures that do not scale"
+   ]
   },
   {
    "id": "project-manager",
@@ -143,9 +224,19 @@
    "fictional": true,
    "who": "Plans and runs delivery for several teams at a public-sector digital agency.",
    "judges": "Could my team run this; where does it break?",
-   "device": {"playwright": "Desktop Chrome", "note": "office laptop, smaller window", "viewport": {"width": 1024, "height": 700}},
+   "device": {
+    "playwright": "Desktop Chrome",
+    "note": "office laptop, smaller window",
+    "viewport": {
+     "width": 1024,
+     "height": 700
+    }
+   },
    "time_budget_minutes": 30,
-   "themes": ["A", "B"],
+   "themes": [
+    "A",
+    "B"
+   ],
    "questions": [
     "Could your team run the five steps of a wake? What would they skip?",
     "Who signs, in your world, and how long does it take?",
@@ -153,7 +244,10 @@
    ],
    "voice": "practical, process-minded, lists steps and owners",
    "impressed_by": "a clear 'what we ask, by when' and a clear 'what happens to your comments'",
-   "deal_breakers": ["no date or time estimate", "not knowing whether a comment was received"]
+   "deal_breakers": [
+    "no date or time estimate",
+    "not knowing whether a comment was received"
+   ]
   },
   {
    "id": "journalist",
@@ -161,9 +255,16 @@
    "fictional": true,
    "who": "A technology reporter covering AI and security for a national news site.",
    "judges": "Is there a story, is every claim sourced, what is new?",
-   "device": {"playwright": "Pixel 7", "note": "phone, on the move"},
+   "device": {
+    "playwright": "Pixel 7",
+    "note": "phone, on the move"
+   },
    "time_budget_minutes": 20,
-   "themes": ["A", "D", "C"],
+   "themes": [
+    "A",
+    "D",
+    "C"
+   ],
    "questions": [
     "What is the headline, and does the book earn it?",
     "What could you not verify from the record?",
@@ -171,7 +272,10 @@
    ],
    "voice": "sceptical, quick, looks for the claim and the source beside it",
    "impressed_by": "a link from each claim to the record; failures told plainly",
-   "deal_breakers": ["a claim with no source", "anything that reads as a request for coverage"]
+   "deal_breakers": [
+    "a claim with no source",
+    "anything that reads as a request for coverage"
+   ]
   },
   {
    "id": "founder",
@@ -179,9 +283,16 @@
    "fictional": true,
    "who": "Co-founder of a five-person start-up building its product with agents.",
    "judges": "Does this change how I build; would I recommend it?",
-   "device": {"playwright": "Desktop Safari", "note": "laptop; run in Chromium with this device's viewport and user agent, as only Chromium is installed"},
+   "device": {
+    "playwright": "Desktop Safari",
+    "note": "laptop; run in Chromium with this device's viewport and user agent, as only Chromium is installed"
+   },
    "time_budget_minutes": 20,
-   "themes": ["A", "C", "B"],
+   "themes": [
+    "A",
+    "C",
+    "B"
+   ],
    "questions": [
     "Did the day look like speed or like luck to you?",
     "What did you want to know that is missing (cost, the editor's hours, tools)?",
@@ -190,7 +301,10 @@
    ],
    "voice": "energetic, informal, judges by 'would I use this tomorrow'",
    "impressed_by": "the review experience itself as a product it would want to use for its own docs",
-   "deal_breakers": ["friction before the first useful line", "no way to try the technology on its own work"]
+   "deal_breakers": [
+    "friction before the first useful line",
+    "no way to try the technology on its own work"
+   ]
   }
  ]
 }

@@ -1,0 +1,62 @@
+{
+ "schema": "the-ultimate-insider/synthetic-rc1-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "designer",
+ "rc1": "team/conductor/rc1/",
+ "chapters": ["00b-how-to-read-a-map", "01-pause-all-actions", "07-building-the-talk"],
+ "budget_minutes": 30,
+ "one_sentence": "A book that uses one day of an agent team, and the maps and screenshots drawn from its record, to argue that an agent is the ultimate insider and that the brakes are what let it run.",
+ "by_chapter": [
+  {"chapter": "00b-how-to-read-a-map", "read": "all",
+   "landed": "The staged teaching works: tea café first, then the second axis, then movement, then the black inertia bar. Each map adds exactly one idea, which is how I would sequence an explainer.",
+   "stuck": [
+    {"quote": "Put the same world on two axes and each dot now says two things at once", "why": "The paragraph that carries the whole idea sits above a picture I cannot confirm shows both axes legibly; the text then narrates dot positions in prose, which a labelled figure should do for me."},
+    {"quote": "Read it from the left. The talk is in genesis", "why": "A long prose walk through every dot makes me hold map 2 in my head; callouts or numbered markers on the image would let the eye do this."},
+    {"quote": "The maps still to come", "why": "A bulleted list of eight future chapters, one with no number ('What was already there'), reads as a table of contents inside a chapter and drags the pace just before the payoff."}
+   ],
+   "cut": "Trim the opening biography of the editor's talks and articles in the third paragraph, and the 'maps still to come' list; both delay the first picture (about 600 words in, from the cafe).",
+   "missing": "Any statement of how the maps are drawn for the tablet: label size, contrast, whether they scale or pan. Five maps are the argument, and the text never tells me they are readable at 11 inches in portrait. No figure numbering or captions beyond alt text, so I cannot tell what the caption line looks like."},
+  {"chapter": "01-pause-all-actions", "read": "all",
+   "landed": "The opening at 18:44 is a strong cold open with a time-stamp heading, and the 'what the hold did, and what it did not' section is honest and well paced. The eight turning points are a good spine.",
+   "stuck": [
+    {"quote": "(`2ed6427`). The talk was due on stage at 19:00.", "why": "Commit hashes in backticks inside running prose break the rhythm of every sentence; the first two paragraphs carry about a dozen. I would move them to margin notes or footnotes."},
+    {"quote": "**One session becomes a team (00:40 to 00:51).**", "why": "The eight turning points are bold run-in heads with long paragraphs and no visual device, so a reader loses their place; a numbered timeline graphic would carry it."},
+    {"quote": "Three are brakes applied: the talk frozen at 02:47, the five-step wake from 02:14", "why": "The counting paragraph is easy to lose, and the order is not chronological (02:47 before 02:14), which fights the timeline just shown."}
+   ],
+   "cut": "Compress the 'day in one view' list to one line each, or turn it into a figure; it halts the 18:44 story for a chapter-sized recap.",
+   "missing": "A single timeline graphic for the evening 18:39 to 18:48, showing hold, late commits and release, would make the 'stop was not clean' point at a glance. The three images (night-log snapshot, projector slide, closing slide) are captioned as evidence but none is a diagram; I cannot say whether the snapshot is legible at tablet width."},
+  {"chapter": "07-building-the-talk", "read": "skimmed from 'Joining in one wake' onwards",
+   "landed": "The 'priority and the order the editor set' section is the best argument in the three chapters: it corrects a brief's reading and ends on a concrete lesson (rehearse early). The six screenshots fit the content, shown at the moment they are discussed.",
+   "stuck": [
+    {"quote": "From 15:07 to 18:37 the player took twelve commits (C028), and those between 18:04 and 18:37 each carried", "why": "Numbers, register codes and four hashes in one sentence; the story of the last hour needs a small chart of commits against clock time, not a sentence."},
+    {"quote": "From seventeen beats to fifty-eight", "why": "The section's whole point is growth over time (17, 22, 38, 58) and it is told in prose with a single screenshot; a step diagram would earn its place here."},
+    {"quote": "Whose work it was", "why": "A short section on commit-subject conventions is process detail with no picture and little payoff for a general reader; it feels like it belongs in an appendix."}
+   ],
+   "cut": "The 'Whose work it was' section, and half the commit lists in the 'Joining in one wake' paragraph (which ends up reading as a ledger).",
+   "missing": "No map, despite 00b promising chapter 7 'Spreadsheets to applications' as one. I read the chapter and it never appears, so the promise is broken in the text I was given. Also no chart for the beats growth or the player's line count (236 to 635 to 977)."}
+ ],
+ "exit_interview": {
+  "what_is_this_book": "An account of one day on which an agent team built and gave a talk, read as evidence that agents are the new insider with no human limits, and that cheap, readable, owner-controlled brakes are what make that safe. It teaches Wardley maps first so the argument can be drawn rather than listed.",
+  "where_did_you_get_stuck": "Chapter 7, 'From seventeen beats to fifty-eight' and the player-commit paragraph: dense numbers, hashes and register codes carrying a story about acceleration over time that is crying out for a chart.",
+  "what_did_you_skip": "I skimmed chapter 7 from the joining section and skipped most hash strings throughout. I never read the 'Where this came from' lists beyond noting their length. I could not see the images, only their captions, so my view of the pictures is from alt text and placement.",
+  "what_will_you_remember": "The 18:44 hold: one file, one sentence from the editor, and the locks never closing.",
+  "what_is_missing": "A visual system. Five maps plus a handful of screenshots is a start, but the three chapters are mostly dense prose with inline codes; I would want a recurring timeline figure, pull-quotes for the editor's words, and footnoted hashes. I also want to know the maps survive a portrait tablet.",
+  "would_you_buy": "maybe",
+  "price_or_format": "Perhaps 12 to 15 pounds as an ebook or web edition if the maps and screenshots scale cleanly on a tablet; nothing for print until the references are moved out of the running text.",
+  "why": "The argument and the map teaching are good and the failures stay in, which earns trust. But the page I would be laying out is overloaded with inline provenance and under-supplied with the diagrams the prose describes.",
+  "recommend_to": "A designer or product person curious about agent teams and Wardley mapping, who will tolerate dense provenance.",
+  "your_questions": [
+   {"q": "Where did the pacing drag or rush?", "a": "It drags in chapter 00b's opening biography and closing list of chapters, in chapter 1's day-in-one-view recap that interrupts the 18:44 story, and in chapter 7's second half where hashes and counts pile up. It rushes nowhere; the cold open and the 'what it did not do' section are well paced."},
+   {"q": "Which picture or map earned its place, and which did not?", "a": "Maps 1 and 2 (need and two parts, then the two axes) earn their place because the text builds on them. Map 5 is the payoff and I trust it will, but its prose description is very long. Of the screenshots, the player ones in chapter 7 sit next to the discussion and work; the closing 'brakes' still in chapter 1 is a slide as decoration. The bigger gap is the missing map and timeline charts."},
+   {"q": "Was the comment tool in the way of the reading?", "a": "I could not see any comment tool in the markdown I was given, so I cannot judge it. Nothing in the text got in the way."}
+  ]
+ },
+ "scores": {
+  "got_the_answer": {"score": 3, "why": "The maps teach well and some pictures carry their point, but the pictures I could judge were captions only, and key claims (growth in beats, the last hour, the evening) are told in prose where a figure should be."},
+  "clarity": {"score": 3, "why": "Writing is clear and structured, but hashes, register codes and long sentences with several figures interrupt the reading column constantly."},
+  "trust": {"score": 4, "why": "Failures kept in, numbers traced, readings flagged as the team's claims, and a note that the stop was not clean."},
+  "pace": {"score": 3, "why": "About 10,500 words against a 30 minute budget is too much to finish; I read two chapters fully and skimmed the third's second half."},
+  "would_buy": {"score": 3, "why": "Interested in the idea, put off by the amount of text per picture and by the unconfirmed tablet rendering."}
+ },
+ "notes": "I only had the markdown and image captions, so I cannot judge line length, scaling or horizontal scrolling, which are my deal-breakers. Chapter 00b promises a chapter 7 map that this version of chapter 7 does not contain. Nothing in the text tried to direct me; the 'Where this came from' sections are citations only."
+}
