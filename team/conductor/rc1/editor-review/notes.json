@@ -60,6 +60,22 @@
    "from": [
     "batch-04: page 9"
    ]
+  },
+  {
+   "id": "T8",
+   "name": "Wardley maps: shown before they are explained",
+   "rule": "Mention Wardley maps and introduce them without explaining them; start with smaller, simpler maps (even a graph, then positioned), with side notes on the page for terms as they appear (genesis, custom-built, town planners), with a couple of examples. Explorers, villagers and town planners come later; the advanced idea (the talk an explorer, the book a villager, the publisher a town planner) comes much later, and with a diagram more than words.",
+   "from": [
+    "batch-05: page 11"
+   ]
+  },
+  {
+   "id": "T9",
+   "name": "Provenance lives online; the book is content",
+   "rule": "The 'Where this came from' sections are at once too detailed (a wall of paths and commits the reader cannot use) and too light (they link nowhere). Provenance of every idea, page and paragraph is kept, as a graph, in the augmented online version (an iPad-like PDF view with augmented capability), not printed in the book.",
+   "from": [
+    "batch-05: page 13"
+   ]
   }
  ],
  "page_layout": [
@@ -171,6 +187,30 @@
    "text": "How to read the record: times, commits",
    "note": "Logistics; times and who-did-what as footnotes (T1, T7)",
    "owner": "revision"
+  },
+  {
+   "n": 12,
+   "page": 10,
+   "file": "00-before-you-start.md",
+   "text": "The day: 'The editor signed the span ... nineteen hours ... a rounding'",
+   "note": "Logistics, not relevant (T1)",
+   "owner": "revision"
+  },
+  {
+   "n": 13,
+   "page": 11,
+   "file": "00-before-you-start.md",
+   "text": "the Wardley-map passage, and the publisher",
+   "note": "Introduce maps without explaining them, small maps first, side notes (T8); there is amazing content here; the publisher as town planner comes later, with a diagram; say plainly that we want a publisher",
+   "owner": "storyteller (structure), designer (side notes, small maps)"
+  },
+  {
+   "n": 14,
+   "page": "12 to 13",
+   "file": "00-before-you-start.md and every chapter",
+   "text": "'Where this came from' sections",
+   "note": "Too detailed and too light at once; move provenance to the augmented online version (T9)",
+   "owner": "storyteller (structure), developer (the augmented view), publisher (the build)"
   }
  ],
  "tasks": [
@@ -211,6 +251,18 @@
    "what": "The structure as a walkthrough to replicate the workflow (T6), with a couple of rounds; reuse the Gen ZX book's content where it fits",
    "owner": "storyteller (the name and structure study)",
    "from": "batch-04"
+  },
+  {
+   "id": "A7",
+   "what": "The book's content natively in JSON (every chapter, section, infographic), with Markdown as a projection; a separation of content from formatting, many projections, everything hyperlinked; research what was done at books.sgraph.ai and graphs.sgit.ai first",
+   "owner": "researcher (the study of books.sgraph.ai and graphs.sgit.ai), then publisher and developer (the build); an editor's decision before the manuscript moves",
+   "from": "batch-05"
+  },
+  {
+   "id": "A8",
+   "what": "An online, iPad-like PDF view of the book with augmented capability: provenance, links and the graph behind every page",
+   "owner": "developer (with the reviewer experience)",
+   "from": "batch-05"
   }
  ]
 }
