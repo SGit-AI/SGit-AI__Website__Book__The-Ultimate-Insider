@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Task read first: changed to 9 */2 at 02:20 from the conductor's session, explained by ad49aa1 and letter 014 (Q6 amended); kept as my active schedule, recorded in status.json, no hold. Request 013: index/talk-site/tour-material.md (13 stops; key-printing pages marked describe or crop); board 009; reply librarian__008 and outbox; 011 to 014 filed; debrief.",
    "at": "2026-10-31T04:12:08Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Request 013 done: tour-material.md (13 stops, key pages marked describe or crop), board 009, reply librarian__008 and outbox. 011 to 014 filed; debrief, status; the 02:20 change recorded, not made. Conditions kept; vault_check ran clean before the commit (in the member's run, not the record). Nothing unplanned.",
+   "at": "2026-10-31T04:12:59Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "clean",
+   "comment": "11 files; build and gate clean (271 pages); agents check 0 outside scope; vault_check comms clean; no keys, tokens, QR data, contacts or directive text; tour-material.md reproduces no key and marks keys, vaults, onboarding, key.json and key.png describe-not-show and the team cards crop.",
+   "at": "2026-10-31T04:13:05Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-31T04:13:05Z",
+ "outcome": "ok"
 }
