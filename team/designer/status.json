@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "designer",
- "as_of": "2026-10-30T23:20:00Z",
+ "as_of": "2026-10-31T00:40:00Z",
  "round": 0,
- "state": "sixth wake (scheduled): printed ids kept after crossed letters; LAB 07 held until its slots fill; experiment 6's words asked of the storyteller",
+ "state": "seventh wake (editor's request): the trim study, the same pages at 6 x 9, 7.5 x 9.25 and 8 x 10 in; ids map emptied",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/designer/ into team/designer/ (drafts left in place)",
@@ -60,9 +60,17 @@
   {
    "what": "crossed renumbering settled (printed ids stand); LAB 07 held (lab/tools/ids.json held); experiment 6's words asked of the storyteller",
    "when": "2026-10-30"
+  },
+  {
+   "what": "the trim study: lab/pdf/trim-study-6x9.pdf, trim-study-7.5x9.25.pdf, trim-study-8x10.pdf (lab/tools/trims/)",
+   "when": "2026-10-31"
   }
  ],
  "next": [
+  {
+   "what": "LAB 07 (three pages now): a fresh design verdict",
+   "why": "ruv-sgit__006"
+  },
   {
    "what": "draw experiment 6, a control before and after, when the storyteller's words come",
    "why": "issue 007"
@@ -79,7 +87,11 @@
  "asks": [
   {
    "to": "editor",
-   "what": "print lab/pdf/the-ultimate-insider-lab.pdf (11 pages, also at /lab/) and tick keep, change or drop on LAB 01 to LAB 06; LAB 04 asks whether a reduced frame may carry labels under 9 pt"
+   "what": "print the three trim-study PDFs at actual size (lab/pdf/trim-study-*.pdf, on /lab/ once linked) and choose a trim; the decision goes in book.json through the conductor"
+  },
+  {
+   "to": "editor",
+   "what": "print lab/pdf/the-ultimate-insider-lab.pdf (11 pages) and tick keep, change or drop on LAB 01 to LAB 06"
   }
  ],
  "task": {
@@ -139,6 +151,13 @@
    "what": "a control, before and after",
    "state": "blocked on the storyteller's words",
    "board": "comms/issues/designer/issues/blocked/007-a-control-before-and-after.md"
+  },
+  {
+   "id": "008",
+   "from": "editor",
+   "what": "the trim study",
+   "state": "done: three PDFs",
+   "board": "comms/issues/designer/issues/done/008-trim-study.md"
   }
  ],
  "board": "comms/issues/designer/issues/"

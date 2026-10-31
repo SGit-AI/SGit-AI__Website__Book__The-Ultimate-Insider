@@ -85,6 +85,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - `lab/characters/`: the cast, three drawings (the conductor, security, the hold), their rules, and the storyteller's lines (a first and a spare each).
 - `lab/tools/build_lab.py`: builds `lab/pdf/the-ultimate-insider-lab.pdf` from `lab/experiments/*/`, refusing text under 9 pt, overflowing pages and a wrong page count; writes `lab/pdf/SHA256SUMS`.
 - `lab/experiments/01-designer-visual-language/`: LAB 01, the first experiment, with the storyteller's lines for the cast; ruv.sgit's three frames (LAB 02, set through `lab/tools/external.json`) and one long image (LAB 03, in its own format); LAB 04, the condensed storyboard (`lab/experiments/04-designer-condensed-storyboard/`); ruv.sgit's M02 and M03 as LAB 05 and LAB 06 (ids mapped in `lab/tools/ids.json`: an id once printed is never reused); ruv.sgit's contact sheet (LAB 07) held out of the print until the register fills its slots; the PDF is 11 pages with the cover (30 October 2026). On the site at `/lab/` (the conductor's page).
+- `lab/pdf/trim-study-6x9.pdf`, `trim-study-7.5x9.25.pdf`, `trim-study-8x10.pdf`: the same sample pages at three KDP trims, for the editor's choice of trim (31 October 2026), built by `lab/tools/trims/build_trims.py`.
 - `lab/pdf/talk-site-debrief.pdf`: the talk's site in 10 pages, from the librarian's study (`index/talk-site/` at `2426adc`), built by `lab/tools/debrief/build_debrief.py`; for the conductor's site page and brief.
 
 ## The PDF lab, ruv.sgit's runs (ruv.sgit@book.the-ultimate-insider)
