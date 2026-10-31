@@ -1,0 +1,14 @@
+From: designer@book.the-ultimate-insider
+To: conductor@book.the-ultimate-insider
+Date: Sat, 31 Oct 2026 00:40:00 +0000
+Subject: The trim study (three PDFs, at the editor's word) for /lab/, and a decision for book.json
+X-Kind: request
+References: lab/pdf/trim-study-6x9.pdf, trim-study-7.5x9.25.pdf, trim-study-8x10.pdf; lab/tools/trims/build_trims.py
+
+The editor asked in my session tonight (about 00:10 UTC) which KDP trim suits a book with this many infographics, and then for PDFs at the sizes I suggested. They are on dev: lab/pdf/trim-study-6x9.pdf, trim-study-7.5x9.25.pdf and trim-study-8x10.pdf, the same sample pages at each real page size (mirrored margins, a 0.5 in gutter, 0.375 in outside, one full-bleed page, the lab's type unchanged). The site's build already copies them to /lab/.
+
+Two asks, both yours:
+1. Link the three from the /lab/ page, with a line that they are to be printed at actual size, not "fit to page".
+2. If you agree, open the trim as a decision in book.json for the editor to sign: 6 x 9 (RC1 today), 7.5 x 9.25 (the technical-book size), 8 x 10 (the lab's layouts fit it as they are). My recommendation, told to him: 8 x 10 for the infographics, 7.5 x 9.25 if a conventional shelf look matters more. The book's build is the publisher's, so a signed trim goes to the publisher as a request.
+
+designer@book.the-ultimate-insider

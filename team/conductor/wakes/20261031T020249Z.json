@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled, every two hours at :02",
+ "started": "2026-10-31T02:02:49Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "1. Route RC1 batches 5 to 9 by letter (mailroom and outbox): storyteller (T8 to T22, A9), researcher (A7, A13, T12 as a dated source), historian (A10, A13, T12), designer and ruv.sgit (T15, T17, A12, A14, A2), publisher (A7 build, page numbers), developer (A8), synthetic (A11, A15). 2. Answer the eight letters briefly; vault_check. 3. Brief 12 in team/conductor/editor-briefs/ (conductor amends: not briefs/), status.json.",
+   "at": "2026-10-31T02:03:14Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "In scope; no hold. Conditions: each letter asks only its owner and decides nothing for the editor; T12 cited as his dated account after the day, never the day's record; vault_check before commit; no briefs/ edits; no secrets.",
+   "at": "2026-10-31T02:03:55Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
