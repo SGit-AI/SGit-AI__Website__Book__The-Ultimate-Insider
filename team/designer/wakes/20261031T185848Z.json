@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1. Letters: designer__036 (publisher, four drawings to place, manuscript/sample/ untouched), designer__037 (ruv, LAB 19 in, dial and strip later), designer__038 (storyteller). 2. LAB 22: make_drawings.py (read-only clone, git only), cast-row, day-timeline (162 wakes as C087, no count printed), loop, book-map; lab.css; PDF 58 pages. 3. LAB 11 lines set, issue 014 done, issue 018 updated; status, debrief, REALITY.md; vault_check clean.",
    "at": "2026-10-31T19:04:57Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Build and gate clean; agents check 0 outside scope; vault_check comms clean; nothing in manuscript/, briefs/ or ruv's folders; no keys, tokens, personal detail or em-dashes; the SVGs hold role names and generic labels, no name or contact; make_drawings.py read-only git at 298be4e.",
+   "at": "2026-10-31T19:06:15Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "1 letters 036, 037, 038, sample untouched; 2 LAB 22, four SVGs, script, PDF; 3 LAB 11 lines, issues 014 and 018, records (58bb3ea). Conditions kept. Nothing unplanned.",
+   "at": "2026-10-31T19:06:15Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-31T19:06:15Z",
+ "outcome": "ok"
 }
