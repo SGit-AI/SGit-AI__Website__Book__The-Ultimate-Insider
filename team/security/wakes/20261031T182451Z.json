@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1. The ten-page outline read against the six checks: sound; three points (page 1 'all of it' while D12 is open; page 3's note and screenshot; page 9 safety line) to the publisher, copies to storyteller and conductor, outbox copy; board 017 note. 2. Sample not on dev during the wake. 3. Status, debrief.",
    "at": "2026-10-31T18:26:46Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "9b29361..HEAD, 9 files: security's own and security__* letters in three mailrooms; build and gate clean (331); agents.py and vault_check clean; no key, token or personal detail; findings only, nothing attack-shaped.",
+   "at": "2026-10-31T18:27:18Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "smaller model (sub-agent)",
+   "verdict": "as-planned",
+   "comment": "1 done: outline read, three points to the publisher with copies, outbox copy, board 017. 2 done (conditional): sample not on dev. 3 done: status, debrief. Conditions kept; conductor__021 filed (routine).",
+   "at": "2026-10-31T18:27:32Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-31T18:27:32Z",
+ "outcome": "ok"
 }
