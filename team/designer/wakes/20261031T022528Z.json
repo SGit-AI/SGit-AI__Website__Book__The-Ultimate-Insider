@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1. Gutter 0.625 in: build_lab.py page rules, crown-quarto.css (164 mm, spacing tightened, five-steps labels 3.5), LAB 01 grid redrawn; lab PDF 18 pages, measured 15.9 mm at the spine. 2. build_trims.py GUTTER 0.625, four trim-study PDFs; lab/README.md. 3. designer__017 (conductor), designer__018 (publisher); issue 009; status, debrief. book.json and publishing/ untouched.",
    "at": "2026-10-31T02:28:05Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "19 files; build and validate pass; agents check 0 outside scope; vault_check comms clean; no keys, tokens, personal details, em-dashes or directive text; letters 017 and 018 relay the editor's Yes, not signed; book.json, publishing/ and ruv paths untouched.",
+   "at": "2026-10-31T02:29:05Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Items 1 to 3 done (b763056); conditions kept; nothing unplanned.",
+   "at": "2026-10-31T02:29:05Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-31T02:29:05Z",
+ "outcome": "ok"
 }
