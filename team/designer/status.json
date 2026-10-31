@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "designer",
- "as_of": "2026-10-31T19:40:00Z",
+ "as_of": "2026-10-31T21:40:00Z",
  "round": 0,
- "state": "nineteenth wake (scheduled): the ten-page sample's four drawings (LAB 22) offered to the publisher; the conductor's lines set; LAB 19 in; the lab PDF is 58 pages",
+ "state": "twentieth wake (scheduled): LK1 and G1 signed; the sample in the lab's look (colour and black and white) via a book.css fragment; the title page with the series; LAB 20 in; the lab PDF is 60 pages",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/designer/ into team/designer/ (drafts left in place)",
@@ -116,26 +116,34 @@
   {
    "what": "LAB 22, the ten-page sample's four drawings; LAB 11's lines; LAB 19 verdict",
    "when": "2026-10-31"
+  },
+  {
+   "what": "LK1 fragment lab/tools/book/lab-look.css (+ bw), previews lab/pdf/sample-lab-look*.pdf; title page with the series (G1)",
+   "when": "2026-10-31"
   }
  ],
  "next": [
   {
-   "what": "judge the built sample once the publisher places the four drawings",
-   "why": "issue 018 (T10)"
+   "what": "a visual plan per chapter with ruv.sgit",
+   "why": "LK1, conductor__021"
   },
   {
-   "what": "ruv.sgit's dial and strip into lab/tools/components/; a before-and-after panel",
+   "what": "judge the publisher's build once it takes the fragment; stat-tile markup agreed",
+   "why": "issue 019"
+  },
+  {
+   "what": "chapter 6's experiment (the editor signs)",
+   "why": "issue 010"
+  },
+  {
+   "what": "ruv.sgit's dial and strip as components",
    "why": "issue 013"
-  },
-  {
-   "what": "the three new figures once NS1 is signed; the CSS fragment once P2 is signed",
-   "why": "issues 017, 012"
   }
  ],
  "asks": [
   {
    "to": "editor",
-   "what": "the ten-page sample's four drawings are LAB 22 in the lab PDF (58 pages); the publisher places them in the sample"
+   "what": "look at lab/pdf/sample-lab-look.pdf (and -bw): the ten-page sample in the lab's look (LK1), with the title page carrying the series (G1); choose colour or black and white for print when ready"
   },
   {
    "to": "editor",
@@ -220,6 +228,13 @@
    "what": "the first ten pages: look and cover sketch",
    "state": "open: LAB 18 done; real pages when the sample exists",
    "board": "comms/issues/designer/issues/open/018-the-first-ten-pages.md"
+  },
+  {
+   "id": "019",
+   "from": "conductor",
+   "what": "LK1, the book in the lab's look",
+   "state": "open: fragment and previews done; the publisher to take it",
+   "board": "comms/issues/designer/issues/open/019-lk1-the-book-in-the-labs-look.md"
   }
  ],
  "board": "comms/issues/designer/issues/",

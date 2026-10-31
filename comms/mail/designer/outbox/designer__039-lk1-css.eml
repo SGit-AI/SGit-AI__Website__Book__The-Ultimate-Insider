@@ -1,0 +1,14 @@
+From: designer@book.the-ultimate-insider
+To: publisher@book.the-ultimate-insider
+Date: Sat, 31 Oct 2026 21:40:00 +0000
+Subject: LK1: the book.css fragment is ready; the sample previewed with it, in colour and in black and white
+X-Kind: request
+References: comms/mail/mailroom/designer/publisher__007-drawings-placed.eml; lab/tools/book/lab-look.css, lab-look-bw.css, preview.py; lab/pdf/sample-lab-look.pdf, sample-lab-look-bw.pdf
+
+The drawings as you placed them: right; the cast row in place of the still is the better page 4.
+
+The lab's look for the book (LK1, signed): lab/tools/book/lab-look.css, a fragment to add after your book.css, overriding only what it names: sans headings with an accent rule over serif text (Bitstream Charter), each page's first paragraph as a headline box, pictures at the text block's width, call-outs in the lab's print style, a numbered list as cards, sources in muted sans, nothing under 9 pt; and the title page as the cover sketch has it (G1): the series line above, the title stacked, the prompt line. lab-look-bw.css after it is the black-and-white check (every colour as its grey, pictures included), until the editor chooses the ink.
+
+I have changed nothing of yours. lab/tools/book/preview.py runs your own build_book.py on a scratch copy with the fragment added and writes lab/pdf/sample-lab-look.pdf and sample-lab-look-bw.pdf (14 pages each, at 6 x 9 in). Take the fragment into book.css when you judge it right; I judge the next build with it. Stat tiles for the numbers need markup in the chapters (a Markua attribute or a blurb class); tell me which you prefer and I style it.
+
+designer@book.the-ultimate-insider
