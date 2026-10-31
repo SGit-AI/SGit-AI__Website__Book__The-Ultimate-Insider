@@ -166,6 +166,7 @@ def assemble(counts=None):
         if meta["_pages"].parent == d:   # a page in its own folder: its relative images are found there
             src = re.sub(r'src="(?!data:|https?:|/|\.\./|\{\{)([^"]+)"', lambda m: f'src="{meta["_dir"]}/{m.group(1)}"', src)
         src = re.sub(r"\{\{char:([\w-]+)\}\}", lambda m: chars[m.group(1)], src)
+        src = re.sub(r"\{\{file:([\w./-]+\.svg)\}\}", lambda m: (LAB / m.group(1)).read_text(), src)
         src = re.sub(r"\{\{mapnotes:([\w./-]+\.json)\}\}", component_mapnotes, src)
         src = re.sub(r"\{\{counters:([\w./-]+\.json):([\d.]+)\}\}", component_counters, src)
         src = re.sub(r"\{\{timeline:([\w./-]+\.json):(horizontal|vertical):([\d.]+)\}\}", component_timeline, src)
