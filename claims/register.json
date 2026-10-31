@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-10-30T22:45:00Z",
+ "as_of": "2026-10-31T00:55:00Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -1964,6 +1964,136 @@
    "method": "the piece's sentence read; every policy.json's status counted at the piece's commit and at the end",
    "command": "for c in bd3cdad 298be4e; do for f in $(git ls-tree -r --name-only $c team | grep '/policy.json$'); do git show $c:$f | python3 -c 'import json,sys;print(json.load(sys.stdin).get(\"status\"))'; done | sort | uniq -c; done",
    "note": "Contradicted by the files: at the piece's own commit five of ten policies were marked agreed, and at the end of the day eight. The editor may have agreed in his session before the files caught up; the record does not show it. Print the frame only with the sentence masked or corrected, never as fact. A contradiction recorded, as ROLE.md asks. Registered at ruv-sgit's request (ruv-sgit__002), the researcher's 22:32 wake, 30 October 2026; the last frame rendered headless at the piece's data-end and read."
+  },
+  {
+   "id": "C082",
+   "claim": "The talk's E09 and E10 pieces: a coding agent's grant against its mandate, with confirmations on and off",
+   "cited_in": [
+    "comms/mail/mailroom/researcher/ruv-sgit__002-eight-pieces-numbers.eml"
+   ],
+   "value": {
+    "grant": 16,
+    "mandate": 5,
+    "aligned": 4,
+    "shortfall": 1,
+    "excess": 12,
+    "excess_with_no_control": "12 of 12",
+    "irreversible": 8,
+    "rows_measured": "0 of 22 (all derived)",
+    "E10_confirmations_off": {
+     "barrier_none": 14,
+     "setting": 1,
+     "expectation": 1,
+     "boundary": 0
+    },
+    "E10_confirmations_on": {
+     "barrier_none": 13,
+     "setting": 2,
+     "expectation": 1,
+     "boundary": 0
+    },
+    "E10_line": "one barrier moved, and not one number did"
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "842a8bd (E09) and eaf914f (E10)",
+    "evidence": "src/static/studio/data/abp-examples.json, the first two examples, from abp.sgit.ai (graded A6 by the talk's register)"
+   },
+   "method": "each example's counts read and recomputed from its rows; E10's barrier kinds counted",
+   "command": "git show eaf914f:src/static/studio/data/abp-examples.json | python3 -c \"import json,sys,collections;a=json.load(sys.stdin);[print(e['settings'],e['grant'],e['mandate'],e['excess'],e['shortfall'],e['irreversible'],e['rows_measured'],collections.Counter(r['barrier_kind'] for r in e['rows'])) for e in a['examples'][:2]]\"",
+   "note": "Every row is derived from what a command-line agent running as the user's account can do, not measured on any instance (0 of 22): say 'derived' beside the numbers, as the frame does. Excess is 16 minus the 4 granted mandate items, not 16 minus 5. Registered at ruv-sgit's request (ruv-sgit__002), the researcher's 00:32 wake, 31 October 2026; the last frame read from the render of 30 October and the figures recomputed from the data the piece loads."
+  },
+  {
+   "id": "C083",
+   "claim": "The talk's SHarness piece: six of six probes held; what runs and since when",
+   "cited_in": [
+    "comms/mail/mailroom/researcher/ruv-sgit__002-eight-pieces-numbers.eml"
+   ],
+   "value": {
+    "probes_held": "6 of 6 (read allowed; tmp write, workspace write, network, wrong hash and memory refused)",
+    "environments": 5,
+    "launcher_slice": "runs as an MVP since 28 October 2026",
+    "net_since": "27 October 2026",
+    "fs_since": "26 October 2026",
+    "measured": "24 to 29 October 2026"
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "842a8bd",
+    "evidence": "src/static/studio/data/harness.json (captures of sharness.ai, site v0.6.35, 29 October 2026)"
+   },
+   "method": "the probes, environments and component statuses read from harness.json",
+   "command": "git show 842a8bd:src/static/studio/data/harness.json | python3 -c \"import json,sys;h=json.load(sys.stdin);[print(p['id'],p['result']) for p in h['probes']];print(len(h['environments']));[print(c['status'][:90]) for c in h['components']]\"",
+   "note": "Self-reported by the editor's own project, not independently corroborated: the talk's register graded it A2 and so does this one. The frame's '25 October 2026, five places' is the piece's caption; the date range in the data is 24 to 29 October and the register's own entry says it 'holds in part'. Print the counts as SHarness's own report. Registered at ruv-sgit's request (ruv-sgit__002), the researcher's 00:32 wake, 31 October 2026; the last frame read from the render of 30 October and the figures recomputed from the data the piece loads."
+  },
+  {
+   "id": "C084",
+   "claim": "The talk's E02, E07 and E13 pieces: grant, mandate and excess for abp.sgit.ai's five published examples",
+   "cited_in": [
+    "comms/mail/mailroom/researcher/ruv-sgit__003-seven-studio-pieces.eml"
+   ],
+   "value": {
+    "coding agent, confirmations on or off": "grant 16, mandate 5 (4 granted), excess 12 (unstated 2, refused 10), 12 of 12 unbounded, derived, 0 of 22 rows measured",
+    "chat in the browser, nothing connected": "grant 1, mandate 1, excess 0",
+    "browser extension, broad host permissions": "grant 3, mandate 1, excess 2, 2 of 2 unbounded",
+    "CI job on a hosted runner": "grant 8, mandate 5 (4 granted), excess 4, 3 of 4 unbounded, measured 8 of 8"
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "0ffa9c8 (E02), eaf914f (E07), 842a8bd (E13)",
+    "evidence": "src/static/studio/data/abp-examples.json, from abp.sgit.ai's published drafts"
+   },
+   "method": "each example's fields read and its excess recomputed from its rows",
+   "command": "git show 842a8bd:src/static/studio/data/abp-examples.json | python3 -c \"import json,sys;[print(e['name'],e['grant'],e['mandate'],e['aligned'],e['excess'],e['unbounded_excess'],e['rows_measured']) for e in json.load(sys.stdin)['examples']]\"",
+   "note": "Drafts from one author's network (the editor's), as the frames say; no score. Only the CI job's rows were measured. Registered at ruv-sgit's request (ruv-sgit__003), the researcher's 00:32 wake, 31 October 2026; the last frame rendered at the piece's data-end and the figures recomputed from the data it loads."
+  },
+  {
+   "id": "C085",
+   "claim": "The talk's E03 piece: sixteen sources an agent reads, each with one public case",
+   "cited_in": [
+    "comms/mail/mailroom/researcher/ruv-sgit__003-seven-studio-pieces.eml"
+   ],
+   "value": {
+    "sources": 16,
+    "families": 4,
+    "real-world incident (filled)": 4,
+    "vendor-confirmed vulnerability (ring)": 4,
+    "research demonstration (dashed)": 8
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "a606774",
+    "evidence": "src/static/studio/data/injection-sources.json, sources_an_agent_consumes, each case's label"
+   },
+   "method": "sources counted; cases counted by label, as the piece's key does",
+   "command": "git show a606774:src/static/studio/data/injection-sources.json | python3 -c \"import json,sys,collections;S=json.load(sys.stdin)['sources_an_agent_consumes'];print(len(S),collections.Counter(s['case']['label'] for s in S))\"",
+   "note": "The ring is the four vendor-confirmed cases; security's narrower still is the ring only. The labels are the talk team's classification of public cases; the cases themselves are not re-read here, and no payload is described. Registered at ruv-sgit's request (ruv-sgit__003), the researcher's 00:32 wake, 31 October 2026; the last frame rendered at the piece's data-end and the figures recomputed from the data it loads."
+  },
+  {
+   "id": "C086",
+   "claim": "The talk's E12 piece: the coding agent's excess by kind, and what the probes held",
+   "cited_in": [
+    "comms/mail/mailroom/researcher/ruv-sgit__003-seven-studio-pieces.eml"
+   ],
+   "value": {
+    "excess": "12: unstated 2, refused 10; credentials 4, files 3, the world 2, records 2, schedule 1",
+    "today": "12 of 12 bounded by nothing (C082)",
+    "probes": "tmp write refused, connect out refused, 400 MiB under a 128 MiB cap refused (C083)",
+    "not_traced": "'Designed: 8 of 12 still bounded by nothing', computed in the piece's script"
+   },
+   "state": "open",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "842a8bd",
+    "evidence": "src/static/studio/data/abp-examples.json; src/static/studio/data/harness.json"
+   },
+   "method": "the excess rows grouped by the object of each capability; the probe figures matched in harness.json",
+   "command": "git show 842a8bd:src/static/studio/data/abp-examples.json | python3 -c \"import json,sys,collections;e=json.load(sys.stdin)['examples'][0];x=[r for r in e['rows'] if not r['in_mandate']];print(len(x),collections.Counter(r['mandate_stance'] for r in x),[r['capability'] for r in x])\"",
+   "note": "Open only for the 8 of 12, a projection of what SHarness's designed parts would bound, which no data file states: mask it, or print it as the piece's own projection. The rest checked. Registered at ruv-sgit's request (ruv-sgit__003), the researcher's 00:32 wake, 31 October 2026; the last frame rendered at the piece's data-end and the figures recomputed from the data it loads."
   }
  ]
 }

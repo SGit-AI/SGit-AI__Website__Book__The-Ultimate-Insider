@@ -118,3 +118,14 @@ h2 { font: 700 14pt/18pt var(--sans); margin: 0 0 4mm }
 .sbfull img { width: 96mm; display: block; border: .3mm solid var(--fill-2) }
 .sbm { font: 400 9pt/12pt var(--sans); margin: 1.5mm 0 0 }
 .sbm.muted { color: var(--muted) }
+
+/* the two-panel cartoon: a title, a scene with the cast beside it, a caption */
+.panel { border-top: 1.2mm solid var(--accent); padding-top: 2mm; margin-bottom: 6mm; break-inside: avoid }
+.ptitle { font: 700 12pt/16pt var(--sans); margin: 0 0 2mm }
+.ptitle b { color: var(--accent); margin-right: 2mm }
+.pgrid { display: grid; grid-template-columns: 116mm 1fr; gap: 5mm; align-items: start }
+.pgrid .char svg { width: 18mm }
+.pcap { font: 400 10pt/14pt var(--sans); margin: 2mm 0 0 }
+.scene { width: 116mm; background: var(--fill); border-radius: 2mm }
+.svg-label.mono { font-family: var(--mono) }
+.svg-label.mu { fill: var(--muted) }

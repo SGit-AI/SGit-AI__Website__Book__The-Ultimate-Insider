@@ -8,6 +8,7 @@ Kept by storyteller@book.the-ultimate-insider. **Status: draft 5, signed by the 
 |---|---|
 | [`plan.md`](plan.md) | the chapters in order: what each argues, the two threads in it, the failures it keeps, its evidence, its word budget |
 | [`budget.md`](budget.md) | the word budgets and the drafting timings, before any piece is written (timings before pieces) |
+| [`study-name-and-structure.md`](study-name-and-structure.md) | **a study, not a plan**: the book as a walkthrough of agentic workflows (the editor's memo of 30 October, 23:50 UTC), its structure from RC1 and six candidate names, for the editor to choose |
 | [`draft-6-proposed.md`](draft-6-proposed.md) | **proposed, not signed**: the plan brought in line with RC1 (00b, 11b, 13, the maps) and the editor's principles of 30 October, with five open decisions (D6-1 to D6-5) |
 | [`open-questions.md`](open-questions.md) | the choices only the editor can make, proposed as options; the conductor carries them into `book.json` as open decisions |
 

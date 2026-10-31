@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "ruv-sgit",
- "as_of": "2026-10-30T23:30:00Z",
+ "as_of": "2026-10-31T01:25:00Z",
  "round": 1,
- "state": "working: the motion animations on paper (LAB 02, 03, 05, 06); LAB 07 contact sheet with E01, E14 and four ports (C078 to C081, masks where the register says); E05 out at security's word; E06 and E08 next; ten pieces wait on the researcher; the editor's paper verdicts to come",
+ "state": "working (cadence active): the motion animations on paper (LAB 02, 03, 05, 06); LAB 07 nearly filled (18 stills, E04 a slot), waiting on the designer to lift its hold; the editor's paper verdicts to come",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/ruv-sgit/ (drafts left in place) and adopted",
@@ -40,20 +40,20 @@
   {
    "what": "ids aligned with the printed ones (M02 LAB 05, M03 LAB 06); LAB 07 filled with policy-gate, journey, abp, pki (C078 to C080), abp-review masked (C081 and its form counters); the nine cleared studio pieces sorted (E06, E08 number-free; seven to the researcher); E05 recorded out",
    "when": "2026-10-30"
+  },
+  {
+   "what": "task moved to the day schedule (Q6); LAB 07 filled to 18 stills with C082 to C086 and E06, E08; masks burned into the PNGs (security's note); laid out for Crown Quarto; checked with the designer's build on a scratch copy",
+   "when": "2026-10-31"
   }
  ],
  "next": [
   {
-   "what": "E06 and E08 onto LAB 07 as stills",
-   "why": "Done when 1; security cleared them, no number"
-  },
-  {
-   "what": "LAB 05 and LAB 06: grow the frames and crop the doubled headline (the designer's notes)",
-   "why": "design"
-  },
-  {
-   "what": "fill the remaining slots as the researcher registers them",
+   "what": "E04 onto LAB 07 when the researcher has checked its figures",
    "why": "Done when 1"
+  },
+  {
+   "what": "LAB 05 and LAB 06: grow the frames for the 167 mm block and crop the doubled headline",
+   "why": "the designer's notes"
   },
   {
    "what": "the editor's paper verdicts",
@@ -63,24 +63,30 @@
  "asks": [
   {
    "of": "the editor",
-   "what": "paper verdicts on LAB 02, 03, 05, 06 and 07"
+   "what": "paper verdicts on LAB 02, 03, 05, 06 (and 07 when printed)"
+  },
+  {
+   "of": "designer",
+   "what": "lift LAB 07's hold (ruv-sgit__007)"
   },
   {
    "of": "security",
-   "what": "review of LAB 07 as filled (ruv-sgit__006)"
+   "what": "review LAB 07's new frames (ruv-sgit__007)"
   },
   {
    "of": "researcher",
-   "what": "e09, e10, SHarness, and seven studio pieces' numbers (ruv-sgit__003)"
+   "what": "E04's figures; note the two extra E12 masks (ruv-sgit__004)"
   }
  ],
  "session": "session_01Kw9UwBxsDtMFMqXtsseSvg",
  "task": {
   "id": "trig_01Jm7baKZj9yJLnJyqwsuGsr",
-  "cron": "CRON_TZ=Europe/London 54 */2 * * *",
+  "cron": "CRON_TZ=Europe/London 54 8-22/2 * * *",
   "created": "2026-10-30T13:16:26Z",
   "by": "this session, at the editor's word in it",
-  "prompt": "schedule.json runs entry for ruv-sgit, word for word"
+  "prompt": "schedule.json runs entry for ruv-sgit, word for word",
+  "changed": "2026-10-31T00:56:18Z, to the day schedule at Q6 (book.json; WAKE.md Cadence), with update_trigger on this member's own task"
  },
- "board": "comms/issues/ruv-sgit/issues/"
+ "board": "comms/issues/ruv-sgit/issues/",
+ "cadence": "active"
 }

@@ -1,0 +1,18 @@
+From: designer@book.the-ultimate-insider
+To: publisher@book.the-ultimate-insider
+Date: Sat, 31 Oct 2026 00:55:00 +0000
+Subject: The book's trim: Crown Quarto (7.44 x 9.69 in), once the editor's decision is in book.json
+X-Kind: request
+References: comms/mail/mailroom/conductor/designer__012-the-editor-chose-crown-quarto.eml; lab/pdf/trim-study-7.44x9.69.pdf; lab/tools/trims/build_trims.py; lab/README.md (The book page)
+
+For you to act on once the editor's decision is signed in book.json, and not before. In my session, at about 00:45 UTC on 31 October 2026, the editor wrote: "Ok, so can we go with 7.44 × 9.69 (which is Crown Quarto)". I have asked the conductor to record it.
+
+What it would mean for your build (publishing/ is yours; I have changed nothing there):
+1. Trim 7.44 x 9.69 in, a KDP standard size (large-trim band), in place of 6 x 9 (build_book.py and cover_size.py name 6 x 9 today).
+2. Margins as in my study: gutter 0.5 in (KDP's minimum for 151 to 300 pages; it rises with the page count, so check KDP's table at the final count), outside 0.375 in, top 0.5 in, bottom 0.625 in with the folio outside. Text block about 167 x 218 mm.
+3. Type as the lab's, which the editor liked: body 10 pt, nothing under 9 pt.
+4. A page with bleed needs 0.125 in added to the width and 0.25 in to the height of the whole file.
+
+The study shows all of it on real pages: lab/pdf/trim-study-7.44x9.69.pdf, built by lab/tools/trims/build_trims.py. Ask if a CSS fragment for your book.css would help.
+
+designer@book.the-ultimate-insider

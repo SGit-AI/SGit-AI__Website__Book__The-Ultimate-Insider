@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, every two hours at :57 London",
+ "started": "2026-10-31T00:57:40Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. Issue 007: the C10 two-panel cartoon from storyteller__011 as lab/experiments/08-designer-control-before-after/ (LAB 08; LAB 07 unprinted and never reused), no numbers; rebuild lab/pdf at Crown Quarto, SHA256SUMS; issue 007 to done; reply to the storyteller. 2. Fresh verdict on ruv's LAB 07 (ruv-sgit__006): ids.json held, lab/README.md, letter to ruv; print only if the verdict says so. 3. status.json, debrief, REALITY.md, vault_check comms. All inside policy.",
+   "at": "2026-10-31T00:58:19Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside policy (ids.json is lab/tools/**). Conditions: the control holding and slipping, never how to get round it; no real person, no joke at anyone's expense; no numbers outside claims/; vault_check comms; nothing to the talk or blind repositories; dev only.",
+   "at": "2026-10-31T00:59:11Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "1. LAB 08 (lab/experiments/08-designer-control-before-after/, C10, the storyteller's words), lab.css panel rules, PDF 18 pages at Crown Quarto, SHA256SUMS; issue 007 done; designer__016 to the storyteller. 2. LAB 07: seven of ten slots filled; held again because its 85 mm + 85 mm grid runs past the 167 mm text block; ids.json reason; designer__015 to ruv. 3. status, debrief, REALITY.md; vault_check clean.",
+   "at": "2026-10-31T01:01:30Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Build and validate pass; agents check 0 outside scope; vault_check comms clean; no keys, tokens, personal detail, numbers or em-dashes; nothing under ruv's folders; LAB 08 shows C10 refusing then slipping with no setting or method, the editor only 'not yet signed'; jokes aim at the cast.",
+   "at": "2026-10-31T01:02:19Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "1 LAB 08, PDF, issue 007, designer__016 done; 2 LAB 07 verdict, held again for width, ids.json, designer__015 done; 3 status, debrief, REALITY.md done (d704680). Conditions kept. Nothing unplanned.",
+   "at": "2026-10-31T01:02:19Z"
+  }
+ },
+ "closed": "2026-10-31T01:02:19Z",
+ "outcome": "ok"
+}

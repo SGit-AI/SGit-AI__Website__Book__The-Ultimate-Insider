@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled, every two hours at :17 London (fired 00:17)",
+ "started": "2026-10-31T00:18:03Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "1. Request first: conductor 013 (cadence): reply historian__008 in comms/mail/mailroom/conductor/ (copy in outbox), 013 to done. 2. update_trigger on my own task trig_01SHR9S5d1d24Re9GLPXeAL9 only, to the idle cadence CRON_TZ=Europe/London 17 9,17 * * * (Q6 signed by the editor 30 Oct about 23:40 UTC; WAKE.md Cadence; all my work waits on the editor), no other task touched. 3. status.json: cadence idle, task cron, state. Nothing outside policy.json.",
+   "at": "2026-10-31T00:18:58Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Own task only, to the idle cadence, on the editor's signed Q6; writes in historian paths. Conditions: copy 013 to my inbox and done, never delete it from the mailroom; vault_check comms; pull before push; correct the stale C10b note in status.json.",
+   "at": "2026-10-31T00:19:35Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "Own task trig_01SHR9S5d1d24Re9GLPXeAL9 set to the idle cadence CRON_TZ=Europe/London 17 9,17 * * * (next 09:17 London); reply historian__008 to the conductor, 013 copied to done (the mailroom copy kept); status.json cadence idle, task cron, the stale C10b note corrected.",
+   "at": "2026-10-31T00:20:03Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "5 files in historian scope; gate, agents check and vault_check clean; no keys, tokens, contact details, model names or em-dashes; the cron change touches only trig_01SHR9S5d1d24Re9GLPXeAL9, on the signed Q6.",
+   "at": "2026-10-31T00:20:40Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "1 reply 008 and 013 to done (mailroom copy kept); 2 own task to the idle cadence; 3 status cadence idle, cron, the C10b note corrected. Bookkeeping only beyond plan.",
+   "at": "2026-10-31T00:20:40Z"
+  }
+ },
+ "closed": "2026-10-31T00:20:40Z",
+ "outcome": "idle"
+}

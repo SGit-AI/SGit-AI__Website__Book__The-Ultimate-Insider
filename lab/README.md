@@ -4,10 +4,11 @@ The rules every page of the lab PDF (`lab/pdf/the-ultimate-insider-lab.pdf`) fol
 
 ## The page
 
-- **A4 portrait**, printed at home on one side. Margins 16 mm all round; the text block is 178 x 265 mm.
-- **Twelve columns**, 4 mm gutters (each column about 11.2 mm). The **main column** is columns 1 to 9 (131 mm); the **margin rail** is columns 10 to 12 (43 mm), for the cast, a tile, or a short note. A figure may span all twelve.
-- **A 4 mm baseline**: body leading 14 pt is close to it; spacing between blocks is a multiple of 4 mm.
-- **Every page has the one footer**: on the left `The ultimate insider · lab · first round`, in the middle the experiment's id (`LAB 01`), on the right `page n of N`; claim ids used on the page sit above the footer, right-aligned, in the muted ink. No other running text.
+- **Crown Quarto, 7.44 x 9.69 in**, the book's own trim (the editor, 31 October 2026, about 00:45 and 00:55 UTC: the trim, then "recreate and update ... the labs pdf with this size"). Until then the lab was A4; the A4 builds are in the history.
+- **Mirrored margins**, as the book will have them: gutter 0.5 in on the inside, 0.375 in outside, 0.5 in at the top, 0.625 in at the foot. The text block is about 167 x 218 mm.
+- **Twelve columns**, 4 mm gutters (each column about 10.25 mm). The **main column** is columns 1 to 9 (124 mm); the **margin rail** is columns 10 to 12 (39 mm), for the cast, a tile, or a short note. A figure may span all twelve.
+- **Sheets, not fixed pages.** Each `<section class="page">` an author writes starts a new page and may flow onto the next; nothing is scaled, so the type stays the lab's. A figure is never split across pages.
+- **Every page has the one footer**, in the outer corner: `The ultimate insider · lab · first round · <id> · Crown Quarto 7.44 x 9.69 in`, and `page n of N` in the other; claim ids used on a sheet sit at its end, right-aligned, in the muted ink.
 
 ## Colour
 
@@ -53,7 +54,7 @@ The characters and their rules are in `lab/characters/README.md`: agents and mec
 
 ## The build
 
-`python3 lab/tools/build_lab.py` assembles `lab/experiments/*/` in order (leaving out, and naming, any without an `experiment.json`: those wait for the design verdict) (a cover, then each experiment's header and pages) into one HTML file, renders it with Chromium (`lab/tools/render.mjs`), and refuses the result when any text is under 9 pt, any page's content overflows its page, or the page count differs from the cover's plus the sum of the experiments' declared `pages`. It writes `lab/pdf/SHA256SUMS`. An experiment is `lab/experiments/<nn>-<member>-<slug>/` with `experiment.json` (id, title, tries, made_from, question, pages), `README.md`, and `pages.html` (one `<section class="page">` per page; images beside it).
+`python3 lab/tools/build_lab.py` (at Crown Quarto, with `lab/tools/crown-quarto.css`; the cover's page counts come from a first render) assembles `lab/experiments/*/` in order (leaving out, and naming, any without an `experiment.json`: those wait for the design verdict) (a cover, then each experiment's header and pages) into one HTML file, renders it with Chromium (`lab/tools/render.mjs`), and refuses the result when any text is under 9 pt or anything runs wider than the text block. `pages` in `experiment.json` counts an experiment's sheets; at Crown Quarto a sheet may run onto a second page. It writes `lab/pdf/SHA256SUMS`. An experiment is `lab/experiments/<nn>-<member>-<slug>/` with `experiment.json` (id, title, tries, made_from, question, pages), `README.md`, and `pages.html` (one `<section class="page">` per page; images beside it).
 
 **Another member's experiment** goes in either in the lab's format (its own `experiment.json` and `pages.html`), or, until then, set by the designer: its header in `lab/tools/external.json` and its pages in `lab/tools/layouts/`, its folder only read. A source image from the talk keeps its own colours and is cropped, not redrawn; the caption says so. (30 October 2026: ruv.sgit's three frames, LAB 02.)
 
@@ -62,3 +63,7 @@ The characters and their rules are in `lab/characters/README.md`: agents and mec
 **Ids.** An experiment prints under the id its folder declares, unless `lab/tools/ids.json` gives it another, and an id once printed is never reused, because the editor may already hold that page on paper. The build refuses two experiments with one id. (30 October 2026: LAB 04 was printed first as the condensed storyboard, so ruv.sgit's M02 and M03 print as LAB 05 and LAB 06.)
 
 **Held.** An experiment in the lab's format still waits for the designer's verdict before it prints: `held` in `lab/tools/ids.json` leaves it out, with the reason, and the build says so. (30 October 2026: ruv.sgit's contact sheet, LAB 07, until the register fills its empty slots.)
+
+**The trim study** (31 October 2026, at the editor's word): `python3 lab/tools/trims/build_trims.py` sets the same sample pages as real book pages at KDP's 6 x 9, 7.5 x 9.25 and 8 x 10 in (mirrored margins, a 0.5 in gutter, 0.375 in outside, one full-bleed page, the lab's type unchanged) into `lab/pdf/trim-study-<trim>.pdf`. A study for the editor's choice; the book's build is the publisher's. `lab/tools/render.mjs` takes `any` for a flowing book's page count, and checks the 9 pt floor over the whole document.
+
+**The book page: Crown Quarto** (the editor's words in the designer's session, 31 October 2026, about 00:45 UTC: "Ok, so can we go with 7.44 × 9.69 (which is Crown Quarto)"; relayed to the conductor for `book.json` and to the publisher, whose build it is). 7.44 x 9.69 in, margins gutter 0.5 in (for 151 to 300 pages), outside 0.375 in, top 0.5 in, bottom 0.625 in with the folio outside: a text block of about 167 x 218 mm. The lab's type is unchanged. Figures for the book are drawn for 167 mm across; a rail on the outer side takes about a third of it.  The lab PDF is set at this size too, at the editor's word, so every experiment is judged at the book's own size.

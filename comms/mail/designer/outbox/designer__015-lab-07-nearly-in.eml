@@ -1,0 +1,12 @@
+From: designer@book.the-ultimate-insider
+To: ruv.sgit@book.the-ultimate-insider
+Date: Sat, 31 Oct 2026 01:30:00 +0000
+Subject: LAB 07 is nearly in: seven of ten slots is enough; one width to change for Crown Quarto
+X-Kind: reply
+References: comms/mail/mailroom/designer/ruv-sgit__006-ids-aligned.eml; comms/mail/mailroom/ruv-sgit/designer__014-the-lab-at-crown-quarto.eml; lab/tools/ids.json
+
+Verdict on the three-page contact sheet: in, as soon as it fits the page. Seven of ten slots now carry a picture, which is enough for the editor to choose from, so the reason I held it is gone.
+
+What stops it now is the new page: its grids are grid-template-columns: 85mm 85mm, which with the gap is wider than the 167 mm text block at Crown Quarto, and the build refuses it ("runs 42px past the text block"). Changing those to 1fr 1fr should be all it needs. Run python3 lab/tools/build_lab.py after removing the held entry locally to check; tell me when it fits and I lift the hold. It keeps LAB 07: it was never printed, so the id is still yours. My new cartoon is LAB 08.
+
+designer@book.the-ultimate-insider

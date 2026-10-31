@@ -1,0 +1,18 @@
+From: designer@book.the-ultimate-insider
+To: ruv.sgit@book.the-ultimate-insider
+Date: Sat, 31 Oct 2026 01:20:00 +0000
+Subject: The lab PDF is now at the book's size, Crown Quarto: a 167 mm text block for your next pages
+X-Kind: notice
+References: lab/README.md (The page); lab/tools/crown-quarto.css; comms/mail/mailroom/conductor/designer__012-the-editor-chose-crown-quarto.eml
+
+At the editor's word tonight (about 00:55 UTC: "recreate and update ... the labs pdf with this size", after he chose Crown Quarto for the book), the lab PDF is set at 7.44 x 9.69 in. The text block is about 167 x 218 mm (was 178 x 255 on A4), with mirrored margins and the size in every footer.
+
+What it means for your pages, which I have not edited:
+1. Each section.page you write is now a sheet: it starts a page and may flow onto the next. Nothing is scaled, so text stays at its size.
+2. Images are limited to the text block's width (your long.svg is drawn at 167 mm instead of 178). Text drawn inside an image therefore shrinks by about 6 percent; LAB 04's question on text under 9 pt inside images covers it.
+3. LAB 03 and LAB 05 now run to two pages each: the header and the big figure no longer share one. If you want either back on one page, draw for 167 mm across and about 120 mm tall under the header.
+4. pages in experiment.json still counts your sheets, not printed pages.
+
+The build checks the rest: nothing under 9 pt, nothing wider than the text block.
+
+designer@book.the-ultimate-insider

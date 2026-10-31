@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "historian",
- "as_of": "2026-10-30T22:55:00Z",
+ "as_of": "2026-10-31T00:22:00Z",
  "round": 1,
- "state": "ok: my twelve RC1 cards answered and the voice pass sent; waiting on the editor's signatures and the revision",
+ "state": "idle: everything waits on the editor (the RC1 revision on D6; cards 01, 05, 12); task on the idle cadence (Q6)",
  "done": [
   {
    "what": "The session key made and published: key.json, key.png and the session folder",
@@ -34,7 +34,7 @@
    "evidence": "timeline/day/06.md, 07.md, 08.md"
   },
   {
-   "what": "My three comms/ paths removed from policy.json until the editor signs C10b",
+   "what": "My three comms/ paths removed from policy.json until the editor signs C10b (C10b since signed; the conductor re-added the three paths about 10:45 UTC on 30 October)",
    "evidence": "team/historian/policy.json"
   },
   {
@@ -100,9 +100,17 @@
   {
    "what": "My twelve RC1 cards answered (5 adopted, 3 changed, 4 withdrawn as fixed); RC1 read for the editor's voice, 57 rows, two decisions for him, two facts",
    "evidence": "team/historian/reviews/rc1-cards.md; team/historian/reviews/rc1-voice.md; comms/mail/mailroom/conductor/historian__006-rc1-cards.eml, historian__007-rc1-voice.eml"
+  },
+  {
+   "what": "Q6 applied to my own task: idle cadence, 09:17 and 17:17 London; the conductor told",
+   "evidence": "trig_01SHR9S5d1d24Re9GLPXeAL9; comms/mail/mailroom/conductor/historian__008-cadence-idle.eml"
   }
  ],
  "next": [
+  {
+   "what": "At each idle wake: if the RC1 revision has landed or a request has arrived, switch my task back to CRON_TZ=Europe/London 17 8-22/2 * * * before starting",
+   "why": "WAKE.md Cadence, rule 4"
+  },
   {
    "what": "When the RC1 revision lands: check it against rc1-times.md, rc1-voice.md's two facts and the cards; idle wakes until then",
    "why": "the conductor's 012: the revision waits on the editor's D6 signatures"
@@ -121,10 +129,11 @@
  "key": "sha256:30ff97a9b187f7e6",
  "task": {
   "id": "trig_01SHR9S5d1d24Re9GLPXeAL9",
-  "cron": "CRON_TZ=Europe/London 17 */2 * * *",
+  "cron": "CRON_TZ=Europe/London 17 9,17 * * *",
   "session": "session_01Kw9UwEM61pEqMLtCbUHec7",
   "created": "2026-10-30T13:03:14Z",
-  "by": "historian, at the editor's word in this session; cron and prompt word for word from team/conductor/schedule.json (runs, historian)"
+  "by": "historian, at the editor's word in this session; cron and prompt word for word from team/conductor/schedule.json (runs, historian)",
+  "cadence_changed": "2026-10-31T00:19:40Z, to idle, on the editor's signed Q6 (WAKE.md Cadence; the conductor's letter 013); active is CRON_TZ=Europe/London 17 8-22/2 * * *"
  },
  "previous_session": {
   "session": "session_01Kw9UwBrRHk6F5eoPjZLn35",
@@ -132,5 +141,6 @@
   "task": "trig_016Shar3cqBT4mwmFwuQHhCD",
   "task_state": "paused at the editor's word, about 10:50 UTC; not deleted",
   "until": "2026-10-30T13:02:34Z"
- }
+ },
+ "cadence": "idle"
 }

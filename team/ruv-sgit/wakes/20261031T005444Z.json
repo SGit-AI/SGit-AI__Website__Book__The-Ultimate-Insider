@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled, every two hours at :54 London",
+ "started": "2026-10-31T00:54:44Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. Cadence (Q6 decided, WAKE.md Cadence, schedule.json): update_trigger on its own task only to CRON_TZ=Europe/London 54 8-22/2 * * *, cadence active in status.json; six letters to done; board. 2. LAB 07 filled: E09, E10 (C082), SHarness (C083), E02, E07, E13 (C084), E03 ring only (C085), E11, E12 (C086, its 8 of 12 masked), E06, E08; E04 a slot; masks burned into the PNGs by script, abp and abp-review re-masked; laid out for 167 mm; build_lab.py check, lab/pdf never staged; letters to designer and security. 3. Close. LAB 05 and 06 design notes deferred.",
+   "at": "2026-10-31T00:55:51Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Inside policy; the cadence change is its own task only, matching Q6 (decided), WAKE.md Cadence and schedule.json. Conditions: no write to lab/tools or other members' files; masks must hold; numbers only from C082 to C086; vault_check on comms.",
+   "at": "2026-10-31T00:56:18Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "own task to the day cadence (Q6, update_trigger, own task only), status cadence active; six letters filed; LAB 07: 18 stills (E06, E08, E09, E10, SHarness, E11, E02, E07, E13, E03 ring only, E12 masked in three places, plus the ports), E04 a slot; masks burned into PNGs by tools/mask.py from scratchpad raws; 167 mm layout; checked with the designer's build on a scratch copy (hold lifted there only); lab/pdf restored; letters to designer, security, researcher; board 009; REALITY, debrief, status",
+   "at": "2026-10-31T01:00:20Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Build, validate, scope (0 outside), vault_check pass; no key, token, personal detail or directive text; lab/pdf and lab/tools untouched; no e04 or e05 frame committed; masks in the PNGs themselves (e12, abp-review viewed); the only own numbers on LAB 07 are E10's 14, 1, 0, matching C082; status cron equals schedule.json and Q6.",
+   "at": "2026-10-31T01:01:01Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Cadence done (status task.cron 54 8-22/2 London, changed 00:56Z, cadence active; board 009). Six letters to done. LAB 07 filled (E02, E03 ring, E06 to E13, SHarness; ports re-masked; E04 a slot; 167 mm; mask.py, pages.py, SHA256SUMS). Conditions kept. Minor extras: the researcher's letter on E12's masks, REALITY, debrief, survey.",
+   "at": "2026-10-31T01:01:24Z"
+  }
+ },
+ "closed": "2026-10-31T01:01:24Z",
+ "outcome": "ok"
+}

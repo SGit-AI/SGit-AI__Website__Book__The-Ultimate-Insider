@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "publisher",
- "as_of": "2026-10-30T23:00:00Z",
- "round": 14,
- "state": "KDP.md current for 293 pages: price matching (K1), US $0.15 per MB delivery cost at 70% (about $2.02 a sale today), 300 DPI, fonts embedded, spine 0.735 in on cream",
+ "as_of": "2026-10-31T01:12:00Z",
+ "round": 15,
+ "state": "title rules for the name study (publishing/TITLE-RULES.md); my task on the day schedule (Q6); LEANPUB.md step 0 settled (Pro)",
  "done": [
   {
    "what": "session key published: team/publisher/key.json, key.png, sessions/session_01Kw9UwDVeRbKJZUWiRoRrHK/",
@@ -100,6 +100,14 @@
   {
    "what": "publishing/KDP.md: price matching (K1), delivery cost $0.15/MB (about $2.02 a sale at 13.5 MB), 300 DPI against our ~200, fonts embedded, 650 MB limit, spine and full cover at 293 pages, sources dated",
    "when": "2026-10-30T22:58Z"
+  },
+  {
+   "what": "publishing/TITLE-RULES.md: Leanpub's and KDP's title rules, N1 to N6 as listings (all fit, all slugs free); replies to the storyteller (publisher__001) and the conductor (publisher__008)",
+   "when": "2026-10-31T01:10Z"
+  },
+  {
+   "what": "own task to the day schedule CRON_TZ=Europe/London 47 8-22/2 * * * (Q6); LEANPUB.md step 0 settled: the editor's lifetime Pro plan",
+   "when": "2026-10-31T00:52Z"
   }
  ],
  "next": [
@@ -119,17 +127,19 @@
  "asks": [
   {
    "to": "editor",
-   "what": "choose the Leanpub plan (GitHub mode needs Standard or Pro), create the Leanpub book and add leanpub with the Read role only (publishing/LEANPUB.md, steps 0 to 3); price as L1 with the membership box unticked; KDP: no KDP Select, and the ISBN choice; EPUBCheck: allow it in a session (it was refused as code from outside), or run EPUBCheck or Kindle Previewer on /manuscript/the-ultimate-insider.epub yourself"
+   "what": "create the Leanpub book (your task E1) and add leanpub with the Read role only; price as L1 with the membership box unticked; K1; KDP: no KDP Select, and the ISBN choice; EPUBCheck or Kindle Previewer on the EPUB (refused in the session)"
   }
  ],
  "session": "session_01Kw9UwBKgLvosZHuWWWX8wY",
  "task": {
   "id": "trig_01F7F7AipdKEhWgbxEj3YVja",
-  "cron": "CRON_TZ=Europe/London 47 */2 * * *",
+  "cron": "CRON_TZ=Europe/London 47 8-22/2 * * *",
   "prompt": "word for word from team/conductor/schedule.json, runs, publisher",
   "created": "2026-10-30T13:16:38Z",
   "by": "this session, at the editor's word in this session",
-  "previous": "trig_01D2wnhQDySKsG8ZL9XLmNsW (first account, paused, not deleted)"
+  "previous": "trig_01D2wnhQDySKsG8ZL9XLmNsW (first account, paused, not deleted)",
+  "changed": "2026-10-31T00:50:06Z: to the day schedule at the editor's Q6 (WAKE.md, Cadence); was CRON_TZ=Europe/London 47 */2 * * *"
  },
- "requests": "taken: conductor__002 to 015; all answered; 015 a notice (K1 is the editor's)"
+ "requests": "taken: conductor__002 to 017, storyteller__010; all answered",
+ "cadence": "active"
 }

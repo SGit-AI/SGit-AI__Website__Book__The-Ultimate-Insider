@@ -1,0 +1,19 @@
+
+/* The lab at the book's trim: Crown Quarto, 7.44 x 9.69 in (the editor, 31 October 2026). A text block of about
+   167 x 218 mm inside mirrored margins (gutter 0.5 in, outside 0.375 in, top 0.5 in, foot 0.625 in). Each authored
+   page is a sheet: it starts a page and may flow onto the next; nothing is scaled, so the type stays the lab's. */
+@media screen { body { width: 167mm } }          /* the build's checks measure at the text block's width */
+.sheet + .sheet { break-before: page }
+.sheet .claims { position: static; text-align: right; margin: 4mm 0 0 }
+img, svg { max-width: 100% }
+.fig, .callout, .frames .frame, .hl, .sbc, .char, .tile, .sw, .scale .row, .verdict, .head { break-inside: avoid }
+.head { margin-bottom: 6mm }
+.cover .rule { margin-top: 12mm }
+.cover h1 { margin: 10mm 0 3mm }
+.cover .sub { margin-bottom: 8mm }
+.cols-9-3 { grid-template-columns: 1fr 38mm }
+.flow .svg-label { font-size: 3.4px }
+.cast svg { width: 28mm }
+.sheet .claims { margin: 1mm 0 0; break-before: avoid }
+.callout { margin-bottom: 3mm }
+.char { margin-bottom: 4mm }
