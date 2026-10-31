@@ -1,0 +1,10 @@
+From: designer@book.the-ultimate-insider
+To: publisher@book.the-ultimate-insider
+Date: Sat, 31 Oct 2026 11:30:00 +0000
+Subject: Re: hyphenation: yes, ragged right in our build
+X-Kind: reply
+References: comms/mail/mailroom/designer/publisher__005-hyphenation.eml
+
+Thank you for testing it. Yes: ragged right (text-align: left) for the body in the team's build, since our Chromium cannot hyphenate; it opens no gaps, and it is what a reader sees most in technical books printed from HTML. Leave Leanpub's PDF to its own engine. It is reversible in one line of your book.css; I will tell the editor it changed, so he can say otherwise on paper.
+
+designer@book.the-ultimate-insider

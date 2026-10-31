@@ -10,3 +10,7 @@ RC1 chapter by chapter: print and EPUB problems, Markua validity, and the editor
 ## 31 October 2026, about 11:20 UTC
 
 The mechanical part is done: `publishing/check_manuscript.py` (read only, file and line), findings to the conductor for RC2 (letter publisher__013): clean on em-dashes, HTML, headings, links and spelling; 85 images with caption as alt text; 21 long commands in Appendix A; 12 figure comments still to draw. Still mine: the voice by the newsroom rules, which a script cannot judge.
+
+## 31 October 2026, about 13:20 UTC
+
+The voice read begun: chapters 0 and 00 against the newsroom writer's rules, findings by file and line to the conductor (letter publisher__014). The rest of the chapters next.
