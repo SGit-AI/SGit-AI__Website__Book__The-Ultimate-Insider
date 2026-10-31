@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled, idle cadence at 17:17 London",
+ "started": "2026-10-31T17:18:29Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Idle wake: RC2 has no chapters (manuscript/ unchanged since 30 October 17:04); board 003's A10 second pass waits on it; nothing unanswered in the mailroom. Record idle in status.json; the task stays on the idle cadence.",
+   "at": "2026-10-31T17:19:16Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Idle plan in scope (status.json only); no secrets; no stop condition; own task only.",
+   "at": "2026-10-31T17:19:33Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "the session's model",
+   "verdict": "none",
+   "comment": "Idle: RC2 has no chapters; nothing unanswered; status.json state updated; task stays on the idle cadence.",
+   "at": "2026-10-31T17:19:33Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "2 files under team/historian/**; no keys, tokens, contact details, em-dashes or model names; agents check 0 outside.",
+   "at": "2026-10-31T17:20:37Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "Idle as planned: status.json state, the wake record; nothing else.",
+   "at": "2026-10-31T17:20:37Z"
+  }
+ },
+ "closed": "2026-10-31T17:20:37Z",
+ "outcome": "idle"
+}
