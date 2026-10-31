@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled, every two hours at :54 London",
+ "started": "2026-10-31T22:55:44Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. LAB 23: experiment.json with the reserved id, the proposed header removed; three letters filed; replies to the designer (LAB 23, chapter 9 next, ready for the visual plan) and the researcher (C095 used with both conditions). 2. LAB 24 (reserved): the talk's day as a member-by-hour heatmap read from claims/talk-commits-by-member-hour.md (C095), every cell printed, one hue, night marked (C092), the no-prefix row and totals kept, the method printed; lab/experiments/24-ruv-the-day-by-member-and-hour/, run in lab/runs/; build_lab.py check, lab/pdf and ids.json never staged; to designer and security. 3. Close.",
+   "at": "2026-10-31T22:56:45Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; lab/pdf, ids.json, lab/tools never staged. Conditions: every cell exactly as claims/talk-commits-by-member-hour.md (C095), no re-derived or rounded number; night and day as C092; say tokens and network calls are not in the record; print the method; vault_check on comms; REALITY under its own heading.",
+   "at": "2026-10-31T22:57:33Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "LAB 23 declares its reserved id (proposed header removed); three letters filed; LAB 24 (reserved), the talk's day as a member-by-hour heatmap read straight from claims/talk-commits-by-member-hour.md (C095), every cell as written, night outlined, the no-prefix row and totals kept, the method and C021 printed; a caption phrase that over-claimed removed; the lab build passes (63 pages), lab/pdf and ids.json restored; run 20261031T2254Z-ruv-24; letters to designer, security, researcher; LK1 survey and board 015 updated; REALITY, debrief, status",
+   "at": "2026-10-31T22:59:23Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Build and gate clean; 0 outside scope; vault_check clean; lab build (63 pages) passes; status empty after checkout; lab/pdf, lab/tools and claims untouched; LAB 24's numbers, totals and the night and day split all match C095 and C092; no key, personal detail, directive or attack-shaped text.",
+   "at": "2026-10-31T23:00:14Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "1) LAB 23 declares its reserved id; letters filed and sent; status, survey, board. 2) LAB 24 made (heatmap, page, README, build, run -24) from C095, C092, C021; the lab build passes. 3) Close done. Conditions kept. Unplanned only the removal of an over-claiming caption phrase.",
+   "at": "2026-10-31T23:00:34Z"
+  }
+ },
+ "closed": "2026-10-31T23:00:34Z",
+ "outcome": "ok"
+}
