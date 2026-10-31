@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "historian",
- "as_of": "2026-10-31T06:25:00Z",
+ "as_of": "2026-10-31T09:24:00Z",
  "round": 1,
- "state": "idle: A13 closed on the register (C087, C088); A10's second pass and the RC1 check wait on the revision; cards 01, 05, 12 on the editor",
+ "state": "idle: C089 cited in after-the-day.md; A10's second pass and the RC1 check wait on the revision; cards 01, 05, 12 on the editor",
  "done": [
   {
    "what": "The session key made and published: key.json, key.png and the session folder",
@@ -112,6 +112,10 @@
   {
    "what": "A13 on the register: timeline/triggers.md cites C087 and C088, and is corrected (the player fixes sit inside dev's wake opened 17:48:50, never closed)",
    "evidence": "timeline/triggers.md; comms/mail/mailroom/researcher/historian__011-c087-c088-taken.eml"
+  },
+  {
+   "what": "The editor's account of why the team stopped cited from the register (C089)",
+   "evidence": "timeline/after-the-day.md"
   }
  ],
  "next": [

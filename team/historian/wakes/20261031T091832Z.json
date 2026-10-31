@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled, idle cadence at 09:17 London",
+ "started": "2026-10-31T09:18:32Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "1. timeline/after-the-day.md: cite C089 beside the editor's-account section, the day's reason and his account kept apart. 2. timeline/triggers.md: check the player-fix window against C088 (wake 17:48:50, its commits 17:54 to 18:37; the player fixes 18:04 to 18:37) and correct only if wrong. 3. status.json. Task stays on the idle cadence; manuscript/ untouched.",
+   "at": "2026-10-31T09:19:15Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Inside scope.writes (timeline/**, team/historian/**); manuscript/ and briefs/ untouched; no secrets. Condition: C089 cited as the editor's account, kept apart from the record.",
+   "at": "2026-10-31T09:19:37Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "C089 cited in timeline/after-the-day.md, the account kept apart from the record; triggers.md's player-fix window checked against C088 (wake 17:48:50, its commits 17:54 to 18:37, the player fixes from 18:04): correct, unchanged; status. Task stays idle.",
+   "at": "2026-10-31T09:20:05Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "3 files in scope; gate clean; agents check 0 outside; no keys, tokens, contact details, em-dashes or model names.",
+   "at": "2026-10-31T09:20:42Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "1 C089 cited, kept apart. 2 triggers.md checked against C088, correct, unchanged. 3 status updated.",
+   "at": "2026-10-31T09:20:42Z"
+  }
+ },
+ "closed": "2026-10-31T09:20:43Z",
+ "outcome": "idle"
+}
