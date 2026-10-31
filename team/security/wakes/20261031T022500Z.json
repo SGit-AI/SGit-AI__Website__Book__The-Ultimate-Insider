@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1. LAB 07's new frames reviewed: benign, conditions kept; letter security__007 to ruv-sgit, outbox copy, board 014. 2. Task changed at 02:20 UTC by the conductor's session (verified in its transcript, at the editor's word there): C3 evidence in controls/index.json; letter security__009 to the conductor; status.json; task not touched. 3. Debrief.",
    "at": "2026-10-31T02:27:41Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "c9fe955..HEAD, 12 files, all in scope; build and gate clean (232); vault_check clean; no key, token or personal detail; security__009 factual and hedged, asks only for a record on dev and a WAKE.md line; nothing attack-shaped.",
+   "at": "2026-10-31T02:28:07Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "smaller model (sub-agent)",
+   "verdict": "as-planned",
+   "comment": "1 done: LAB 07 new frames, letter security__007, board 014. 2 done: task change recorded (C3), letter security__009, status; task untouched, no hold. 3 done: debrief, vault_check. Nothing unplanned.",
+   "at": "2026-10-31T02:28:21Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-31T02:28:21Z",
+ "outcome": "ok"
 }
