@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "In scope. Conditions: RiskMandate only asked, not assumed; G1, 95% and the ten-agent count not stated as his intent; Geerling and Bigg kept out; no key, contact or participant; nothing to the blind repo; vault_check comms.",
    "at": "2026-10-31T18:04:05Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "As planned: storyteller 021 (conductor__024), security 010 (__021), researcher 015 (__030), publisher 016 (__030) answered, all four to done; brief 22 (2 pages: the ten pages as a table; asks G1, 95%, RiskMandate as a question with no answer assumed; the fire ask dropped); status.json. vault_check clean, gate 0, scope 0 outside.",
+   "at": "2026-10-31T18:04:59Z"
+  },
+  "post_review": {
+   "by": "security post-review sub-agent",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Gate 0; scope 0 outside; vault_check clean; no key, contact or participant; no em-dashes; RiskMandate only asked; G1, 95% and the count open; Geerling and Bigg only as kept out; the table matches the outline.",
+   "at": "2026-10-31T18:05:40Z"
+  },
+  "post_check": {
+   "by": "conductor post-check sub-agent",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "1 four replies; 2 four to done; 3 brief 22; 4 status.json. Nothing unplanned.",
+   "at": "2026-10-31T18:05:40Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-31T18:05:41Z",
+ "outcome": "ok"
 }
