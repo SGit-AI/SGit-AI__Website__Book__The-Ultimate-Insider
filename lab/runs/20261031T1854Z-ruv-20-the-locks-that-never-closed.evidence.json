@@ -1,0 +1,25 @@
+{
+ "schema": "the-ultimate-insider/lab-run-evidence/v1",
+ "run": "20261031T1854Z-ruv-20-the-locks-that-never-closed",
+ "started": "2026-10-31T18:56:10Z",
+ "wake_record": "team/ruv-sgit/wakes/20261031T185610Z.json",
+ "calls": [
+  {
+   "what": "python3 -B -I tools/build.py, two layouts (labels collided first)",
+   "tool": "python"
+  },
+  {
+   "what": "lab/tools/build_lab.py as a check, passed; lab/pdf and ids.json restored",
+   "tool": "the designer's build, read only"
+  }
+ ],
+ "outputs": {
+  "page.pdf": "1 page",
+  "locks.svg": "the timeline",
+  "hashes": "lab/experiments/20-ruv-the-locks-that-never-closed/SHA256SUMS"
+ },
+ "time": {
+  "work_started": "2026-10-31T19:05:00Z",
+  "work_ended": "2026-10-31T19:22:00Z"
+ }
+}

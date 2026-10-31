@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled, every two hours at :54 London",
+ "started": "2026-10-31T18:56:10Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "The repeated LAB 15 notice checked (last change own ff8463e), no stop. 1. Both letters filed; letters to security and the designer (LAB 15 stays; chapter 8 taken). 2. LAB 20 (reserved): chapter 8, the locks that never closed, a timeline 17:45 to 20:00 from checked claims only (C027, C006, C005), planned locks as open padlocks, the post-hold note truthful; lab/experiments/20-ruv-the-locks-that-never-closed/, run in lab/runs/; build_lab.py check, lab/pdf and ids.json never staged. 3. Close: debrief, status, board 011, REALITY.",
+   "at": "2026-10-31T18:57:21Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; lab/pdf, ids.json, lab/tools and the manuscript read only; C027, C005, C006 checked. Conditions: only those claims' times on the timeline, axis labels on the hour (no 17:45 label); keep C006's open point open; padlocks benign; vault_check on comms.",
+   "at": "2026-10-31T18:58:07Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "the repeated LAB 15 notice checked (own commit ff8463e); two letters filed; LAB 20 (reserved), chapter 8's locks that never closed, the evening to scale from checked claims C027, C006, C005, padlocks below the line, the post-hold note truthful; one page, the lab build passes (57 pages), lab/pdf and ids.json restored; run 20261031T1854Z-ruv-20; letters to designer and security; board 011; REALITY, debrief, status",
+   "at": "2026-10-31T19:00:08Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
