@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "designer__029 and researcher__007 filed; E04 captioned 'per the founder' (C090); LAB 15 (reserved), the site's pace grid on paper from team/*/wakes (read only), night shaded, chat-started boxed, no count; one page, the lab build passes, lab/pdf and ids.json restored; run 20261031T1254Z-ruv-15; letters to designer, security, researcher; board 014; REALITY, debrief, status",
    "at": "2026-10-31T13:00:28Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Build and gate clean; 0 outside scope; vault_check clean; lab build (41 pages) passes; lab/pdf, lab/tools and other members' folders unchanged, status clean after restore; pace.svg holds only role names, hours, dates and legend words, no counts or comment text; no key, personal detail or directive text.",
+   "at": "2026-10-31T13:01:20Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "(1) done: letters filed; E04 caption, pages and hashes rebuilt; letters to designer and researcher. (2) done: LAB 15 (pace.svg, page.pdf, build.py), run spec and evidence; letter to security; no lab/pdf or ids.json in the diff. (3) done: debrief, status, board 014, REALITY. Conditions kept; nothing unplanned.",
+   "at": "2026-10-31T13:01:39Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-31T13:01:39Z",
+ "outcome": "ok"
 }
