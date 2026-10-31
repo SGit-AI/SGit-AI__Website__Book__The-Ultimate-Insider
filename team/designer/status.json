@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "designer",
- "as_of": "2026-10-31T03:40:00Z",
+ "as_of": "2026-10-31T05:20:00Z",
  "round": 0,
- "state": "eleventh wake (scheduled): the editor's RC1 review taken (issues 010 to 016); LAB 09, the timeline component; LAB 07 held for 3.4 mm; the lab PDF is 20 pages",
+ "state": "twelfth wake (scheduled): LAB 07 and LAB 10 in (28 pages); visual pass 1 over the book's 34 oversized images, four rules to the publisher",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/designer/ into team/designer/ (drafts left in place)",
@@ -84,34 +84,42 @@
   {
    "what": "LAB 09 and lab/tools/components/timeline.py (A12's first component); RC1 review items on the board (010 to 016)",
    "when": "2026-10-31"
+  },
+  {
+   "what": "visual pass 1 (team/designer/reviews/2026-10-31__visual-pass-1.md); LAB 07 and LAB 10 in; the lab PDF is 28 pages",
+   "when": "2026-10-31"
   }
  ],
  "next": [
   {
-   "what": "a visual pass over the publisher's 34 oversized images, square infographics first",
-   "why": "issue 011 (A2)"
-  },
-  {
    "what": "the conductor in detail: a character sheet",
    "why": "issue 014 (A14)"
+  },
+  {
+   "what": "chapter experiments with ruv.sgit, chapters 1 and 4 first",
+   "why": "issue 010 (T4)"
   },
   {
    "what": "the next components: a small Wardley map with side notes, a counter strip",
    "why": "issue 013 (A12, T8)"
   },
   {
-   "what": "LAB 07 when its grid is 1fr 1fr",
-   "why": "designer__021"
+   "what": "visual pass 2 after the publisher applies the four rules",
+   "why": "issue 011"
   }
  ],
  "asks": [
   {
    "to": "editor",
-   "what": "print lab/pdf/the-ultimate-insider-lab.pdf at actual size (20 pages, Crown Quarto) and tick keep, change or drop on LAB 01 to LAB 09"
+   "what": "print lab/pdf/the-ultimate-insider-lab.pdf at actual size (28 pages) and tick LAB 01 to LAB 10"
   },
   {
-   "to": "conductor",
-   "what": "record the editor's Crown Quarto (designer__012) and 0.625 in gutter (designer__017) in book.json"
+   "to": "editor",
+   "what": "print the publisher's QR test sheet (_site/manuscript/qr-test.pdf) at 100% and scan it with a phone: the smallest code that opens in each row is the size the book uses"
+  },
+  {
+   "to": "editor",
+   "what": "sign P2 in book.json: Crown Quarto, gutter 0.625 in"
   }
  ],
  "task": {
