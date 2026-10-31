@@ -32,6 +32,15 @@ def characters():
     return out
 
 
+def component_timeline(m):
+    """{{timeline:<spec, from lab/>:<mode>:<length mm>}}: lab/tools/components/timeline.py, drawn at its own size."""
+    sys.path.insert(0, str(LAB / "tools" / "components"))
+    from timeline import render
+    svg = render(json.loads((LAB / m.group(1)).read_text()), m.group(2), float(m.group(3)))
+    w = re.search(r'viewBox="0 0 ([\d.]+)', svg).group(1)
+    return svg.replace('class="timeline"', f'class="timeline" style="width: {w}mm; max-width: none"', 1)
+
+
 def experiments():
     found = []
     for d in sorted(p for p in (LAB / "experiments").iterdir() if p.is_dir()):
@@ -122,6 +131,7 @@ def assemble(counts=None):
         if meta["_pages"].parent == d:   # a page in its own folder: its relative images are found there
             src = re.sub(r'src="(?!data:|https?:|/|\.\./|\{\{)([^"]+)"', lambda m: f'src="{meta["_dir"]}/{m.group(1)}"', src)
         src = re.sub(r"\{\{char:([\w-]+)\}\}", lambda m: chars[m.group(1)], src)
+        src = re.sub(r"\{\{timeline:([\w./-]+\.json):(horizontal|vertical):([\d.]+)\}\}", component_timeline, src)
         secs = re.findall(r'<section class="page"(?: data-claims="([^"]*)")?>(.*?)</section>', src, re.S)
         if len(secs) != meta["pages"]:
             sys.exit(f'{d.name}: declares {meta["pages"]} pages, pages.html has {len(secs)}')

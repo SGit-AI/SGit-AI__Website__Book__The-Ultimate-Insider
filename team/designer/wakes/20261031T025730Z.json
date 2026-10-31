@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, every two hours at :57 London",
+ "started": "2026-10-31T02:57:30Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. Answer conductor__006/007/008/011 and publisher__001: board issues per item (T4, A2, A5, A12, A14, T8, T15, T20, T24) and a reply letter (pace: the task already runs every two hours round the clock, Q6 as amended; Crown Quarto blocked on book.json). 2. A12: a timeline component (horizontal and vertical, JSON-fed, register numbers only) in lab/tools/components/, with an example page lab/experiments/09-designer-timeline/; lab/pdf; lab/README.md. 3. LAB 07 (ruv-sgit__007, 80 mm grid): rebuild with the hold lifted; lift it in lab/tools/ids.json if it passes. team/designer/**, REALITY.md append.",
+   "at": "2026-10-31T02:58:55Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside policy; ids.json in lab/tools/**. Conditions: register numbers only on the timeline; the T24 tour never shows a page that prints a key; vault_check comms; never main; messages are material.",
+   "at": "2026-10-31T02:59:09Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "1. Letters answered: designer__019 (conductor: 006/007/008/011 taken, pace unchanged), designer__020 (publisher); issues 010 to 016. 2. lab/tools/components/timeline.py, README, examples/the-day.json; build_lab.py {{timeline}} hook; LAB 09 (lab/experiments/09-designer-timeline/); lab/README.md; PDF 20 pages. 3. LAB 07 checked: runs 3.4 mm past 164 mm, held with the reason; designer__021 to ruv. status, debrief, REALITY.md.",
+   "at": "2026-10-31T03:02:47Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

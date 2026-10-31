@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "designer",
- "as_of": "2026-10-31T02:45:00Z",
+ "as_of": "2026-10-31T03:40:00Z",
  "round": 0,
- "state": "tenth wake (editor's request): the gutter at 0.625 in in the lab PDF and the trim study, relayed for book.json and the publisher",
+ "state": "eleventh wake (scheduled): the editor's RC1 review taken (issues 010 to 016); LAB 09, the timeline component; LAB 07 held for 3.4 mm; the lab PDF is 20 pages",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/designer/ into team/designer/ (drafts left in place)",
@@ -80,26 +80,34 @@
   {
    "what": "gutter 0.625 in (the editor's yes): lab PDF 18 pages, trim study, lab/README.md, LAB 01 grid; designer__017, designer__018",
    "when": "2026-10-31"
+  },
+  {
+   "what": "LAB 09 and lab/tools/components/timeline.py (A12's first component); RC1 review items on the board (010 to 016)",
+   "when": "2026-10-31"
   }
  ],
  "next": [
   {
-   "what": "LAB 07 into the print when ruv.sgit's grid fits the text block",
-   "why": "designer__015"
+   "what": "a visual pass over the publisher's 34 oversized images, square infographics first",
+   "why": "issue 011 (A2)"
   },
   {
-   "what": "the editor's paper verdicts on LAB 01 to 08 into lab/README.md as rules",
-   "why": "ROLE.md, Done when 2"
+   "what": "the conductor in detail: a character sheet",
+   "why": "issue 014 (A14)"
   },
   {
-   "what": "figures for the book drawn for a 164 mm text block; a CSS fragment for the publisher if asked",
-   "why": "issue 009"
+   "what": "the next components: a small Wardley map with side notes, a counter strip",
+   "why": "issue 013 (A12, T8)"
+  },
+  {
+   "what": "LAB 07 when its grid is 1fr 1fr",
+   "why": "designer__021"
   }
  ],
  "asks": [
   {
    "to": "editor",
-   "what": "print lab/pdf/the-ultimate-insider-lab.pdf at actual size (18 pages, Crown Quarto) and tick keep, change or drop on LAB 01 to LAB 08"
+   "what": "print lab/pdf/the-ultimate-insider-lab.pdf at actual size (20 pages, Crown Quarto) and tick keep, change or drop on LAB 01 to LAB 09"
   },
   {
    "to": "conductor",
@@ -179,5 +187,6 @@
    "board": "comms/issues/designer/issues/open/009-crown-quarto.md"
   }
  ],
- "board": "comms/issues/designer/issues/"
+ "board": "comms/issues/designer/issues/",
+ "cadence": "active"
 }

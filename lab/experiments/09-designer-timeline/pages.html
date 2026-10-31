@@ -1,0 +1,28 @@
+<section class="page" data-claims="C001 · C005 · C006 · C012 · C013 · C018 · C028">
+ <figure class="fig">
+  <p class="fig-title">The day, drawn by the timeline component: horizontal</p>
+  {{timeline:tools/components/examples/the-day.json:horizontal:163}}
+  <figcaption><b>Fig 09.1 · To scale, except where the axis is broken.</b> The night between 00:16 and 14:12 is the one marked break; the afternoon is to scale, so the crowding of 18:37 to 18:46 is the record's, not the drawing's. Labels that would collide stack on further levels. <span class="src">lab/tools/components/examples/the-day.json; every time from claims/register.json</span></figcaption>
+ </figure>
+ <div class="tl-two">
+  <figure class="fig">
+   <p class="fig-title">The same file, vertical</p>
+   {{timeline:tools/components/examples/the-day.json:vertical:110}}
+   <figcaption><b>Fig 09.2 · For a column or the rail.</b> Labels move down, never up, when they would collide. <span class="src">the same JSON</span></figcaption>
+  </figure>
+  <div class="tl-spec">
+   <p class="fig-title">How a page uses it</p>
+   <p>A JSON file of events, each a time, a label and its claim id, and one optional accent:</p>
+   <pre class="mono">{"t": "18:44",
+ "label": "The hold",
+ "claim": "C006",
+ "accent": true}</pre>
+   <p>On a lab page, one line places it:</p>
+   <pre class="mono">{{​timeline:&lt;spec&gt;:horizontal:163}}</pre>
+   <p>From the command line, the same SVG for the book or the site:</p>
+   <pre class="mono">python3 lab/tools/components/
+  timeline.py spec.json vertical 110</pre>
+   <p class="muted">Rules it keeps: 9 pt text at the size given; to scale, with any break marked; only registered times.</p>
+  </div>
+ </div>
+</section>

@@ -129,3 +129,10 @@ h2 { font: 700 14pt/18pt var(--sans); margin: 0 0 4mm }
 .scene { width: 116mm; background: var(--fill); border-radius: 2mm }
 .svg-label.mono { font-family: var(--mono) }
 .svg-label.mu { fill: var(--muted) }
+
+/* LAB 09: the timeline component's example page */
+.timeline { display: block; margin: 0 0 1mm }
+.tl-two { display: grid; grid-template-columns: auto 1fr; gap: 6mm; align-items: start }
+.tl-spec pre { font-size: 9pt; line-height: 12pt; background: var(--fill); padding: 2mm 3mm; margin: 0 0 3mm; white-space: pre }
+.tl-spec p { font-size: 9.5pt; line-height: 13pt }
+.tl-spec .muted { color: var(--muted) }
