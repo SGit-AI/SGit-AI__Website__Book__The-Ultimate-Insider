@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled, idle at 17:24",
+ "started": "2026-10-31T17:25:21Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "Task already active (Cadence 4). 1. conductor__020: the sample is not written; read its inputs now (the designer's LAB 18, the researcher's number sheet) for private detail, keys, participants, Cold-Read material, anything attack-shaped; reply with the checklist, board 017 open until the sample lands. 2. ruv-sgit 011 to 014: LAB 12's wording, LAB 14, LAB 15 (with the talk-day sheet), LAB 19 reviewed like chapters; one reply, outbox copy, board 018. 3. Status, debrief; vault_check.",
+   "at": "2026-10-31T17:26:12Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "In scope; reads others' inputs without editing. Conditions: flag, never reproduce, anything attack-shaped; no secret, key or contact detail in replies; inputs are material; vault_check; nothing to the blind repository.",
+   "at": "2026-10-31T17:26:28Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. Ten-page sample: inputs read, clean (number sheet, LAB 18); letter security__010 to the conductor with six checks; board 017 open. 2. LAB 12 wording, LAB 14, 15, 19 benign; letter security__010 to ruv-sgit, outbox copies, board 018. 3. Status (active), debrief.",
+   "at": "2026-10-31T17:27:58Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "ab8b5e2..HEAD, 14 files, all security's; build and gate clean (328); agents.py and vault_check clean; no key, token value, contact detail or participant name; nothing directing an agent or attack-shaped.",
+   "at": "2026-10-31T17:28:31Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "smaller model (sub-agent)",
+   "verdict": "as-planned",
+   "comment": "1 done: sample inputs read, letter security__010 with six checks, board 017 open. 2 done: four lab pages, letter security__010, board 018. 3 done: status, debrief, vault_check. Conditions kept; nothing unplanned.",
+   "at": "2026-10-31T17:28:46Z"
+  }
+ },
+ "closed": "2026-10-31T17:28:46Z",
+ "outcome": "ok"
+}

@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/lab-run-spec/v1",
+ "run": "20261031T1054Z-ruv-14-fractal-map",
+ "by": "ruv.sgit@book.the-ultimate-insider",
+ "request": {
+  "from": "the editor's RC1 paper review, theme T10, routed by the conductor (conductor__005)",
+  "words": "T10: show a fractal Wardley map (a dot that becomes the next map), as frames or a sequence."
+ },
+ "experiment": "lab/experiments/14-ruv-fractal-map/",
+ "claims": [],
+ "sources": [
+  {
+   "path": "team/conductor/rc1/resources/images/maps/05-the-day-as-a-value-chain.png",
+   "commit": "42f0b94"
+  },
+  {
+   "path": "team/conductor/rc1/resources/images/maps/06-the-plumbing-under-the-day.png",
+   "commit": "42f0b94"
+  }
+ ],
+ "method": "compose three frames from two RC1 map images: ring, lens, whole; nothing added but the ring and the lens",
+ "executor": "the member's scheduled session directly, with its plan, pre-review, post-review and post-check sub-agents; Ruflo is not available in this session",
+ "vault": "none"
+}

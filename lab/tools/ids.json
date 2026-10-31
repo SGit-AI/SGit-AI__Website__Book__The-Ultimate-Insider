@@ -1,5 +1,5 @@
 {
- "about": "The id each experiment prints under. 'printed' is a ledger: once a folder has printed under an id it keeps it, and no other folder can take it (the editor may hold that page on paper). A new folder prints under its declared id if that is free, otherwise under the next free one, and is added to the ledger by the build. 'held' leaves an experiment out of the print with its reason. (30 and 31 October 2026: three collisions in a day, each fixed by hand, before the ledger.)",
+ "about": "The id each experiment prints under. 'printed' is a ledger: once a folder has printed under an id it keeps it, and no other folder can take it (the editor may hold that page on paper). A new folder prints under its declared id if that is free, otherwise under the next free one, and is added to the ledger by the build. 'held' leaves an experiment out of the print with its reason. (30 and 31 October 2026: three collisions in a day, each fixed by hand, before the ledger.) A folder renamed keeps its id: a new folder that declares the id of a ledger folder that no longer exists takes it over. 'reserved' names ids kept for a member (its folder names contain the member's short name, as '-ruv-' for ruv-sgit): no one else is given them. (31 October 2026.)",
  "held": {},
  "printed": {
   "01-designer-visual-language": "LAB 01",
@@ -13,7 +13,19 @@
   "09-designer-timeline": "LAB 09",
   "10-ruv-meet-the-team-explained": "LAB 10",
   "11-designer-the-conductor": "LAB 11",
+  "13-designer-the-last-minutes": "LAB 13",
+  "16-designer-counter-strip": "LAB 16",
   "11-ruv-five-step-wake-strip": "LAB 12",
-  "13-designer-the-last-minutes": "LAB 13"
+  "14-ruv-fractal-map": "LAB 14",
+  "17-designer-map-with-notes": "LAB 17",
+  "15-ruv-the-pace-on-paper": "LAB 15",
+  "18-designer-first-ten-pages": "LAB 18",
+  "21-designer-mandate-map": "LAB 21"
+ },
+ "reserved": {
+  "ruv-sgit": [
+   "LAB 19",
+   "LAB 20"
+  ]
  }
 }

@@ -1,0 +1,28 @@
+{
+ "number": "19",
+ "date": "Saturday 31 October 2026, 13:35 UTC",
+ "kicker": "The conductor brief · 19 · Saturday 31 October 2026",
+ "title": "The first ten pages, for the room",
+ "when": "13:35 UTC, the editor's chat",
+ "by": "conductor@book.the-ultimate-insider, key sha256:f2456a147ac54f5f",
+ "headline": "Your ten pages are now the team's first job (T10). The storyteller sets their order, the publisher writes them and builds the PDF, the designer gives them a look and sketches a cover that sits beside the Gen ZX Founders one, the researcher checks every number, synthetic reads them as people in that room would, and security reads them before you share them. The Gen ZX Founders series is open as G1, to try on the sample first.",
+ "stats": [
+  {"n": "6", "label": "members given the ten pages today"},
+  {"n": "17:39", "label": "the storyteller's next wake on its idle hours, unless you say fire it now"},
+  {"n": "2", "label": "new decisions: T10 (yours, recorded) and G1 (open)"},
+  {"n": "0", "label": "people in the room the team will contact (you share it)"}
+ ],
+ "for_you": [
+  {"id": "Now", "ask": "Fire the storyteller's task now, so the ten pages start this afternoon?", "detail": "It is on idle hours (09:39 and 17:39) because it was waiting on NS1. Fired now: an outline by about 14:30, the publisher writes at its 14:47 wake, a PDF by late afternoon. Not fired: the outline at 17:39, the PDF tonight.", "options": ["Fire it now", "Wait for 17:39"], "recommend": "Fire it now."},
+  {"id": "G1", "ask": "This book as one of a Gen ZX Founders series, with its branding", "options": ["A: series name and tagline on the cover, ZX-compatible cover, this book's own title under it", "B: the series named on the title page and the back cover only", "C: not now"], "recommend": "A, tried first on the sample's cover sketch, so you see it before you sign."},
+  {"id": "16", "ask": "Brief 16 still stands: NS1, J1, P2", "detail": "The ten pages do not wait on NS1. They are written against your voice memo and the study's part 1, and become RC2's opening if you sign NS1.", "options": ["Answered"]}
+ ],
+ "you_asked": [
+  {"at": "13:10", "said": "create a PDF ... of like 10 pages of it, which I then review ... the first 10 pages of the book", "done": "T10 recorded; letters to the storyteller, publisher, designer, researcher, synthetic and security", "where": "briefs/2026-10-31__in-session/01-the-first-ten-pages-and-the-gen-zx-series.md", "status": "in progress"},
+  {"at": "13:10", "said": "if you look at the newsroom, escrito.ai, can you take a look?", "done": "escrito.ai did not answer; read it as newsroom.sgit.ai, whose Vibathon Algarve 2026 debrief (and your words to the room: ship, then rinse and repeat) frames the letters", "status": "done"},
+  {"at": "13:10", "said": "think of the Gen ZX founder as kind of a series ... this book is going to be one of that series", "done": "Open as G1 with three options; the designer sketches a cover beside the Gen ZX Founders one", "status": "open"},
+  {"at": "13:10", "said": "any blockers decisons needed from me?", "done": "One now (fire the storyteller). Then G1, and brief 16's NS1, J1 and P2", "status": "done"}
+ ],
+ "next": ["The storyteller's outline, then the publisher's sample PDF, security's read and synthetic's scores; a brief when the PDF is ready for you"],
+ "sources": ["the editor's chat, 31 October 2026, about 13:10 UTC", "newsroom.sgit.ai/articles/vibathon-algarve-2026.html (SGit-AI__Website__Newsroom 0bc65e324)", "book.json T10 and G1", "the storyteller's and publisher's task schedules"]
+}

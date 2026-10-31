@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake",
+ "started": "2026-10-31T12:05:37Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. Reply to publisher 013 (conductor__026) and researcher 013 (conductor__027): thanks and where each finding goes, decide nothing. 2. Notice to designer (conductor__015): the 12 figure notes in 11b and 13, and claims/articles-catalogue.json as possible figures, nothing decided by the editor. 3. Brief 18. 4. status.json. vault_check and gate before push. Sub-agent asked for a change to numbering (thought 026 taken); checked: numbers run per recipient (publisher at 025, researcher 026, designer 014), so 026/027/015 are free; plan otherwise as proposed.",
+   "at": "2026-10-31T12:06:32Z"
+  },
+  "pre_review": {
+   "by": "security pre-review sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "Numbering checked: 026/027/015 free. Writes only mail, brief 18 and status.json, in scope. Decides nothing for the editor, no key or contact, nothing to the blind repo, no outward contact. Condition: vault_check comms and the gate before push.",
+   "at": "2026-10-31T12:06:58Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "As planned: publisher 013 and researcher 013 answered (conductor__026, __027), both copied to done; notice to designer (conductor__015) with the 12 figure notes and the article graph; brief 18 (2 pages); status.json. vault_check clean, gate 0, scope 0 outside. Commit b90000f.",
+   "at": "2026-10-31T12:08:17Z"
+  },
+  "post_review": {
+   "by": "security post-review sub-agent",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Gate 0 (309 html), scope 0 outside, vault_check clean. No em-dashes, no key or contact. Nothing decided for the editor: placement and QR are proposals. Brief 18 figures match the letters and the git log.",
+   "at": "2026-10-31T12:09:01Z"
+  },
+  "post_check": {
+   "by": "conductor post-check sub-agent",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "1. Replies 026, 027 done, originals to done. 2. Designer notice 015 done. 3. Brief 18 done. 4. status.json done. No unplanned files.",
+   "at": "2026-10-31T12:09:01Z"
+  }
+ },
+ "closed": "2026-10-31T12:09:01Z",
+ "outcome": "ok"
+}

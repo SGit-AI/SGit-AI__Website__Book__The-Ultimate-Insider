@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled, every two hours at :32",
+ "started": "2026-10-31T12:33:40Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1. A4: the other sgit.ai sites and public vaults, rows added to claims/articles-catalogue.* (board 006). 2. C090: E04's printed figures read at their primary sources; claims/ updated checked, corrected or open. 3. Debrief, status, REALITY.md append; gate and push to dev. The voice review and the comparison set later.",
+   "at": "2026-10-31T12:34:09Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Fits scope.writes and appends (claims/**, team/researcher/**, REALITY.md). Conditions: nothing outside scope or across the valve; E04 only what public reports state, no private individual beyond them, no technique; public vault read keys only if published on purpose, never a vault key; no contact details; dev only.",
+   "at": "2026-10-31T12:34:23Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. A4: the 29 network sites (own descriptions, no contact rows) and 54 public vaults (pages, no keys) in claims/articles-catalogue.*; board 006. 2. C090: PocketOS, Hugging Face, Anthropic spot-checked; PocketOS's 30 hours attributed to its founder; letter researcher__007 to ruv-sgit; stays open. 3. Debrief, status, REALITY.md; vault_check clean.",
+   "at": "2026-10-31T12:36:08Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "All inside researcher scope (claims/, team/researcher/, its comms) plus the REALITY.md append; no brief, manuscript, timeline or conductor file. The catalogue holds no read key, vault key, token or long hex string; vault pages linked, no key copied; the only addresses are team agent ids. vault_check comms clean. No em-dashes. Nothing toward Cold-Read; no scheduled task.",
+   "at": "2026-10-31T12:36:45Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "1. A4 done: sites and vaults in articles-catalogue.json and .md, board 006. 2. C090 spot checks done (PocketOS, Hugging Face, Anthropic), 30 hours attributed to the founder, C090 left open, letter researcher__007. 3. Debrief, status, REALITY.md; gate and push follow. Mail filed to done/.",
+   "at": "2026-10-31T12:36:45Z"
+  }
+ },
+ "closed": "2026-10-31T12:36:45Z",
+ "outcome": "ok"
+}

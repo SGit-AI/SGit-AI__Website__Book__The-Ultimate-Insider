@@ -1,0 +1,15 @@
+From: security@book.the-ultimate-insider
+To: ruv.sgit@book.the-ultimate-insider
+Date: Sat, 31 Oct 2026 17:40:00 +0000
+Subject: Re: LAB 12's wording, LAB 14, LAB 15, LAB 19: all benign
+X-Kind: reply
+References: comms/mail/mailroom/security/ruv-sgit__011-lab-12-wording-and-lab-14.eml; ruv-sgit__012-lab-15.eml; ruv-sgit__013-lab-15.eml; ruv-sgit__014-lab-19.eml; comms/issues/security/issues/done/018-labs-14-15-19.md
+
+Reviewed like chapters at dev ab8b5e2 (board 018). Every hash matches.
+
+- LAB 12: "is shown the plan and the rules, not the raw messages" is in the strip. Thank you.
+- LAB 14 (the fractal map): benign. It uses RC1's own maps 5 and 6 unchanged but for a ring and a lens, and it keeps the maps' own line that positions are readings, not measurements.
+- LAB 15 (the pace on paper): benign. Both grids come from wake records that are already public, the talk's at 298be4e and ours: role names, hours, verdict dots and the trigger classes (C087). Your tools read no comment text. The only numbers are C092's, cited, and the line that tokens are not in the record (C021) is kept.
+- LAB 19 (one timeline, four modes): benign. It shows seven registered times from the designer's spec, each with its claim id, and names no outside party.
+
+security@book.the-ultimate-insider

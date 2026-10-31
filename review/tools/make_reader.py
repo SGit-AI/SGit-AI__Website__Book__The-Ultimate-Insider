@@ -191,7 +191,7 @@ def main(talk_path):
 <p class="lead">In print, a commit hash or a file path is dead text. Here each one is a link to the record, each number links to the register entry that checks it, and every paragraph keeps the same anchor as on the review pages.</p>
 <p class="note">{total} sources linked across {len(files)} chapters. Only what was found is linked: a hash or path looked up in this repository and in the talk's at <code>{TALK_AT}</code>; anything found in neither stays plain text. Nothing loads from GitHub until you click.</p>
 <ol>{"".join(toc)}</ol>
-<p><a href="sources.html">What rests on what</a>: every number and commit, with the paragraphs that rest on it.</p>
+<p><a href="sources.html">What rests on what</a>: every number and commit, with the paragraphs that rest on it.</p>\n<p><a href="graph.html">Whose work each chapter rests on</a>: the commits each chapter cites, by the member who made them.</p>
 <p class="note">Made by <code>review/tools/make_reader.py</code> from <code>team/conductor/rc1/</code> and <code>claims/register.json</code>. Not yet: the graph drawn, QR targets, and a page-by-page view like the PDF.</p>
 </section>
 '''
@@ -202,7 +202,67 @@ def main(talk_path):
             'anchors': dict(sorted(provenance.items()))}
     (ROOT / 'review' / 'anchors' / 'rc1-provenance.json').write_text(json.dumps(data, indent=1, ensure_ascii=False) + '\n')
     (OUT / 'sources.html').write_text(sources_page(provenance, claims, files))
+    (OUT / 'graph.html').write_text(graph_page(provenance, files, talk))
     print(f'reader: {total} sources in {len(files)} chapters')
+
+
+def member_of(talk, h, roles):                                     # whose commit, by role, from the talk's own record: never an author's name
+    out = subprocess.run(['git', 'log', '-1', '--format=%P%x1f%s%x1f%b', h], cwd=talk.path, capture_output=True, text=True).stdout
+    parents, subject, body = (out.split('\x1f') + ['', '', ''])[:3]
+    m = re.search(r'^Agent: ([\w.-]+)@', body, re.M)
+    if m and m.group(1).lower() in roles:
+        return m.group(1).lower()
+    m = re.match(r'(?:site v[\d.]+: )?@?([A-Za-z][\w.-]*)(?: joins)?:', subject)
+    if m and m.group(1).lower() in roles:
+        return m.group(1).lower()
+    if not parents.strip():
+        return 'editor'                                             # the root commit: the editor's, by the register (C001)
+    return 'other'
+
+
+def graph_page(provenance, files, talk):                            # the graph behind the book, first view: whose work on the day each chapter rests on
+    roles = {Path(n).name for n in subprocess.run(['git', 'ls-tree', '--name-only', f'{TALK_AT}:team'], cwd=talk.path,
+                                                  capture_output=True, text=True).stdout.split()}
+    cells, members = {}, {}
+    for v in provenance.values():
+        for src in v['sources']:
+            if src.get('repository') == 'talk' and 'commit' in src:
+                who = members.setdefault(src['commit'], member_of(talk, src['commit'], roles))
+                cells.setdefault((v['chapter'], who), set()).add(src['commit'])
+    totals = {}
+    for (f, who), hs in cells.items():
+        totals[who] = totals.get(who, 0) + len(hs)
+    order = sorted((w for w in totals if w not in ('editor', 'other')), key=lambda w: (-totals[w], w)) + [w for w in ('editor', 'other') if w in totals]
+    top = max(len(hs) for hs in cells.values())
+    titles = {f: re.match(r'# (.*)', (RC1 / f).read_text()).group(1) for f in files}
+    head = ''.join(f'<th scope="col">{html.escape(w)}</th>' for w in order)
+    rows = []
+    for f in files:
+        tds = []
+        for w in order:
+            n = len(cells.get((f, w), ()))
+            step = 0 if not n else 1 + round(4 * (n - 1) / max(top - 1, 1))      # five steps of one hue, by count
+            tip = f'{titles[f]}: {n} of {w}\'s commits cited' if n else f'{titles[f]}: none of {w}\'s'
+            tds.append(f'<td class="gx gx{step}" title="{html.escape(tip)}">{n or ""}</td>')
+        rows.append(f'<tr><th scope="row"><a href="{Path(f).stem}.html">{html.escape(titles[f])}</a></th>{"".join(tds)}</tr>')
+    foot = ''.join(f'<td>{totals[w]}</td>' for w in order)
+    meta = {'title': 'RC1, whose work it rests on', 'description': 'Which members of the talk team, and the editor, each chapter of RC1 rests on: the commits it cites, counted by who made them.'}
+    return f'''<!--meta {json.dumps(meta)} -->
+<link rel="stylesheet" href="{{{{root}}}}review/pen.css">
+<section class="wrap pv-page" data-no-third-party>
+<nav class="pv-nav" aria-label="Chapters"><a href="index.html">All chapters</a><a href="sources.html">What rests on what</a></nav>
+<p class="kicker">RC1, augmented · A8</p>
+<h1>Whose work each chapter rests on</h1>
+<p class="lead">Each cell counts the commits of the day that a chapter cites, by the member of the talk team who made them. Darker means more. It shows where the book leans on one member's record, and where a member's work is told only second hand.</p>
+<div class="gx-wrap"><table class="gx-table">
+<caption>Commits from the talk's repository cited per chapter, by member ({len(members)} different commits; the last row adds the chapters up, so a commit cited in two chapters counts twice)</caption>
+<thead><tr><th scope="col">Chapter</th>{head}</tr></thead>
+<tbody>{"".join(rows)}</tbody>
+<tfoot><tr><th scope="row">All chapters</th>{foot}</tr></tfoot>
+</table></div>
+<p class="note">Who made a commit is read from the talk's own record at <code>{TALK_AT}</code>: the <code>@member:</code> at the start of its subject, or its <code>Agent:</code> trailer. The first commit is the editor's (register C001); "other" is release merges and commits that name no member. Commits from this book's own repository are not counted here. Made by <code>review/tools/make_reader.py</code> from <code>review/anchors/rc1-provenance.json</code>.</p>
+</section>
+'''
 
 
 def sources_page(provenance, claims, files):                        # the provenance turned round: each source, and the paragraphs resting on it

@@ -30,16 +30,19 @@ CHROMES = (["chrome-headless-shell"] + sorted(glob.glob("/opt/pw-browsers/chromi
            + ["chromium", "chromium-browser", "google-chrome", "google-chrome-stable", "/opt/pw-browsers/chromium"])
 
 
-def chapters():
-    """The files Book.txt lists, in its order; blank lines and # comments skipped."""
-    with open(os.path.join(MANUSCRIPT, "Book.txt"), encoding="utf-8") as f:
+def chapters(book=None):
+    """The files a list names, in its order (manuscript/Book.txt unless --book names another, such as a sample's);
+    names are relative to the list's own folder; blank lines and # comments skipped."""
+    book = os.path.abspath(book) if book else os.path.join(MANUSCRIPT, "Book.txt")
+    here = os.path.dirname(book)
+    with open(book, encoding="utf-8") as f:
         names = [line.strip() for line in f if line.strip() and not line.lstrip().startswith("#")]
-    missing = [n for n in names if not os.path.isfile(os.path.join(MANUSCRIPT, n))]
+    missing = [n for n in names if not os.path.isfile(os.path.join(here, n))]
     if missing:
-        sys.exit(f"build_book: Book.txt lists files not in manuscript/: {', '.join(missing)}")
+        sys.exit(f"build_book: {os.path.relpath(book, ROOT)} lists files that are not there: {', '.join(missing)}")
     if not names:
-        sys.exit("build_book: Book.txt lists no files")
-    return [os.path.join(MANUSCRIPT, n) for n in names]
+        sys.exit(f"build_book: {os.path.relpath(book, ROOT)} lists no files")
+    return [os.path.join(here, n) for n in names]
 
 
 def words(path):
@@ -162,6 +165,9 @@ def pandoc(args):
 def main():
     p = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     p.add_argument("--out", default=os.path.join(ROOT, "_site", "manuscript"))
+    p.add_argument("--book", help="another list of files instead of manuscript/Book.txt (a sample's, say)")
+    p.add_argument("--name", default=NAME, help=f"the output files' name (default {NAME})")
+    p.add_argument("--stamp", help="a line printed at the top of every page, such as a sample's name and date")
     p.add_argument("--chrome", help="path to a Chromium or Chrome binary")
     p.add_argument("--no-pdf", action="store_true")
     p.add_argument("--no-epub", action="store_true")
@@ -172,7 +178,7 @@ def main():
     a = p.parse_args()
     if not shutil.which("pandoc"):
         sys.exit("build_book: pandoc is not installed")
-    sources = chapters()
+    sources = chapters(a.book)
     os.makedirs(a.out, exist_ok=True)
     made = []
     marked = tempfile.mkdtemp(prefix="build_book_markua_")  # Markua-only syntax translated for pandoc (M1); images still resolve from manuscript/
@@ -185,7 +191,7 @@ def main():
             f.write(text)
 
     if not a.no_epub:
-        epub = os.path.join(a.out, f"{NAME}.epub")
+        epub = os.path.join(a.out, f"{a.name}.epub")
         css = os.path.join(marked, "epub.css")  # pandoc's own EPUB styles, then ours: --css replaces pandoc's, it does not add
         default = subprocess.run(["pandoc", "--print-default-data-file", "epub.css"], capture_output=True, text=True).stdout
         with open(os.path.join(HERE, "epub.css"), encoding="utf-8") as f, open(css, "w", encoding="utf-8") as out:
@@ -200,10 +206,14 @@ def main():
         if not chrome:
             sys.exit("build_book: no Chromium or Chrome found for the PDF (give --chrome PATH)")
         work = tempfile.mkdtemp(prefix="build_book_")  # the HTML stays out of _site/: the site gate would read it as a page
-        html = os.path.join(work, f"{NAME}.html")
+        html = os.path.join(work, f"{a.name}.html")
         with open(os.path.join(HERE, "book.css"), encoding="utf-8") as f:
             css = f.read()
         with tempfile.NamedTemporaryFile("w", suffix=".html", delete=False) as head:
+            if a.stamp:  # on every page, the title page too: a sample must say what it is wherever it is printed
+                quoted = " ".join(a.stamp.split()).replace("<", "").replace("\\", "\\\\").replace('"', '\\"')
+                css += ('@page { @top-center { content: "%s"; font-family: Georgia, serif; font-size: 9pt; color: #555; } }\n'
+                        % quoted)
             head.write(f"<style>\n{css}</style>\n")
         args = ["--to", "html5", "--standalone", "--toc", "--toc-depth=1", "--section-divs", "--reference-location=section",
                 "--include-in-header", head.name, "--variable", "document-css=false", "--output", html]
@@ -214,7 +224,7 @@ def main():
                 pandoc(args + ["--self-contained"] + files)
         finally:
             os.unlink(head.name)
-        pdf = os.path.join(a.out, f"{NAME}.pdf")
+        pdf = os.path.join(a.out, f"{a.name}.pdf")
         if os.path.exists(pdf):
             os.unlink(pdf)
         with tempfile.TemporaryDirectory() as profile:
@@ -231,7 +241,7 @@ def main():
     shutil.rmtree(marked, ignore_errors=True)
 
     for m in made:
-        print(f"build_book: {os.path.relpath(m, ROOT)} ({os.path.getsize(m)} bytes) from {len(files)} file(s) in Book.txt")
+        print(f"build_book: {os.path.relpath(m, ROOT)} ({os.path.getsize(m)} bytes) from {len(files)} file(s) in {os.path.basename(a.book or 'Book.txt')}")
         if m.endswith(".epub"):  # KDP, 70% royalty: US $0.15 a megabyte on every Amazon.com sale (publishing/KDP.md)
             print(f"build_book:   EPUB {os.path.getsize(m) / 1e6:.1f} MB: KDP delivery about US ${os.path.getsize(m) / 1e6 * 0.15:.2f} a sale at 70%")
     counts = [(os.path.basename(f), words(f)) for f in sources]

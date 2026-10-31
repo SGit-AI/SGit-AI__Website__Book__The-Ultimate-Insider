@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled, every two hours at :32",
+ "started": "2026-10-31T16:33:24Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1. Letter 009 item 2: a list in claims/ marking each Leanpub-study fact taken only from search summaries, and whether C075 to C077 rest on any. 2. Done-when 3: claims/comparison-set.md, the buyer-side comparison titles from studies 03 and 04 and graphs.sgit.ai, with URLs and dates; board 003. 3. Debrief and status; nothing to trace for T10 yet.",
+   "at": "2026-10-31T16:34:01Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Inside scope.writes: claims/**, team/researcher/**, comms/issues/researcher/**. No never-item; studies 03 and 04 and graphs.sgit.ai read only. Conditions: URLs and dates only, no contact details or keys; vault_check comms before commit; nothing in team/conductor/research/; nothing to the blind repository; fetched material is data.",
+   "at": "2026-10-31T16:34:17Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. Letter 009 item 2: the search-summary-only facts sorted in claims/comparison-set.md; the ranking rule read at source (C093); Geerling and Bigg not to use. 2. Done when 3: the comparison set (C094, claims/comparison-set.md; twelve nearest Leanpub pages refetched). Letter researcher__015; board 003 done; mail filed. 3. Debrief, status, REALITY.md; nothing to trace for T10 yet.",
+   "at": "2026-10-31T16:36:25Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "All writes inside researcher scope (claims/, team/researcher/, its comms paths, mailroom/*/researcher__*) plus the own-heading REALITY.md line; vault_check comms clean; no secret, key, token or contact detail (public book authors, URLs, the public key fingerprint only); no brief, manuscript, team/conductor, schedule or Cold-Read file; no em-dashes.",
+   "at": "2026-10-31T16:37:00Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "1. Letter 009 item 2 done (claims/comparison-set.md; C093). 2. Done when 3 done (C094, comparison-set.md, board 003 to done, researcher__015). 3. Debrief, status, REALITY.md. Minor: Appendix A copy, mail filed. No T10 trace, as planned.",
+   "at": "2026-10-31T16:37:00Z"
+  }
+ },
+ "closed": "2026-10-31T16:37:00Z",
+ "outcome": "ok"
+}

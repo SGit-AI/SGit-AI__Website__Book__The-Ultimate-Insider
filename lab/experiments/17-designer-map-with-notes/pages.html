@@ -1,0 +1,14 @@
+<section class="page" data-claims="">
+ <figure class="fig">
+  <p class="fig-title">A small map, its notes beside it</p>
+  {{mapnotes:tools/components/examples/map-02-notes.json}}
+  <figcaption><b>Fig 17.1 · RC1's map 2 at the size it was drawn for (4.5 in), six of its parts numbered, each note in the column beside it.</b> The markers sit where the map's own JSON puts each part, computed with the map renderer's geometry; each note gives the part's label and its evolution stage, both from the map's data, so the notes add no claim of their own. <span class="src">team/conductor/rc1/maps/02-the-two-axes.json and its PNG (the illustrator's, unchanged); lab/tools/components/mapnotes.py</span></figcaption>
+ </figure>
+ <div class="tl-spec">
+  <p class="fig-title">How a page uses it</p>
+  <pre class="mono">{"map": "team/conductor/rc1/maps/02-the-two-axes.json",
+ "image": ".../maps/02-the-two-axes.png", "width_mm": 114,
+ "notes": [{"at": "talk"}, {"at": "ci", "text": "..."}]}</pre>
+  <p class="muted">A note's text may be written instead of taken from the map; then it is a claim like any other, with its source.</p>
+ </div>
+</section>

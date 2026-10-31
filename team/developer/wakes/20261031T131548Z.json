@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled, odd hours at :12",
+ "started": "2026-10-31T13:15:48Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (plan brief)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1) A8: make_reader.py also writes src/pages/review/read/graph.html, a plain HTML table of RC1 chapters by the talk team's members (and the editor), cells counting cited commits, member from the subject prefix or Agent: trailer, from a read-only clone; one sequential hue from site tokens, count in each cell, tooltips; linked from read/index.html; board 007. 2) Debrief, status, REALITY.md line, wake close. Nothing pushed to the talk repository.",
+   "at": "2026-10-31T13:16:45Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (pre_review brief)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Fits scope (review/tools, src/pages/review, comms/issues/developer, team/developer, REALITY.md append); no overlaps, no stop condition. Conditions: the talk clone read only in the scratchpad, no push; no external request from the page (inline, site tokens only); members by role name only, no contact detail, commit author names kept off the page; vault_check on comms; no em-dashes; no ./version.",
+   "at": "2026-10-31T13:17:01Z"
+  },
+  "work": {
+   "by": "developer",
+   "model": "",
+   "verdict": "done",
+   "comment": "1) make_reader.py writes src/pages/review/read/graph.html: RC1 chapters by the talk team's members (role names from the talk's own record, read-only clone), each cell the commits cited; one hue in five steps, count in every cell, tooltips, caption; contrast measured in the browser after a failed first try (dark steps re-set): 4.9:1 or more in both modes; linked from the read index; board 007. 2) Debrief, status, REALITY.md. Gate clean, no overlaps, vault_check clean; only the site's own host.",
+   "at": "2026-10-31T13:20:47Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (post_review brief)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "All 10 paths inside scope.writes, REALITY.md an append. graph.html has no personal name and no email-like string; its only reference is the site-local stylesheet. No em-dashes. Gate clean (315), no overlaps, vault_check clean. Nothing writes to the talk's repository or another member's files.",
+   "at": "2026-10-31T13:21:19Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (post_check brief)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Item 1 done (583ab44): graph.html written by make_reader.py, linked from the read index, board 007. Item 2 done: debrief, status, REALITY.md. Conditions kept: read-only clone, no external request, role names only, no em-dashes, no version. The pen.css edit is the graph's styling.",
+   "at": "2026-10-31T13:21:40Z"
+  }
+ },
+ "closed": "2026-10-31T13:21:40Z",
+ "outcome": "ok"
+}

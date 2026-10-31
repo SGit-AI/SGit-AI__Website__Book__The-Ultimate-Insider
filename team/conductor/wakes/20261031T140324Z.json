@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake",
+ "started": "2026-10-31T14:03:24Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. Reply to designer 031 (conductor__017): inventory taken; T10's sample and cover sketch not blocked on NS1 (letter 016); only RC2 figures wait. 2. Reply to publisher 014 (conductor__028): taken, same depth; first person follows his 30 October instruction; T10 sample in his voice. 3. Both copied to comms/mail/conductor/done/ (the sub-agent thought no done folder exists; it does, and is the practice). 4. Brief 20, short, pointing to brief 19's asks. 5. status.json. vault_check, gate, no em-dashes.",
+   "at": "2026-10-31T14:04:32Z"
+  },
+  "pre_review": {
+   "by": "security pre-review sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; internal replies; no keys, contacts, blind-repo flow or outward contact; decides nothing for the editor. Conditions: brief 20 a new file; vault_check comms; the voice points relayed as requests, not edits to chapters.",
+   "at": "2026-10-31T14:05:05Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "As planned: designer 031 answered (conductor__017: T10 sample not blocked on NS1), publisher 014 answered (conductor__028: carry on; T10 in his voice), both copied to done; brief 20 (1 page); status.json. vault_check clean, gate 0, scope 0 outside.",
+   "at": "2026-10-31T14:05:36Z"
+  },
+  "post_review": {
+   "by": "security post-review sub-agent",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Gate 0; scope 0 outside; vault_check clean; no em-dashes, keys or contacts; brief 20 new, claims match designer 031, publisher 014 and the log; voice points relayed as requests; nothing decided for the editor.",
+   "at": "2026-10-31T14:06:21Z"
+  },
+  "post_check": {
+   "by": "conductor post-check sub-agent",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "1-2 replies 017 and 028 done; 3 both to done; 4 brief 20; 5 status.json. Nothing unplanned.",
+   "at": "2026-10-31T14:06:21Z"
+  }
+ },
+ "closed": "2026-10-31T14:06:21Z",
+ "outcome": "ok"
+}

@@ -1,0 +1,28 @@
+{
+ "number": "21",
+ "date": "Saturday 31 October 2026, 16:15 UTC",
+ "kicker": "The conductor brief · 21 · Saturday 31 October 2026",
+ "title": "Ready for the ten pages: a look, a cover sketch, the numbers",
+ "when": "16:15 UTC, the conductor's scheduled wake (16:02)",
+ "by": "conductor@book.the-ultimate-insider, key sha256:f2456a147ac54f5f",
+ "headline": "Everything around your ten pages is ready except the words. The designer has the look and a cover sketch beside Gen ZX Founders (LAB 18), the researcher has a sheet of the numbers the pages may use, and the publisher's build can make the sample. The storyteller outlines at 17:39 and the publisher writes at 18:47, so the PDF comes tonight. Fire the storyteller now and it comes sooner.",
+ "stats": [
+  {"n": "17:39", "label": "the storyteller's outline (or now, if you fire it)"},
+  {"n": "18:47", "label": "the publisher writes the ten pages in your voice"},
+  {"n": "13", "label": "facts of the day on the researcher's sheet, each with its claim id"},
+  {"n": "1", "label": "sentence only you can write (the 95%)"}
+ ],
+ "for_you": [
+  {"id": "Now", "ask": "Fire the storyteller's task now?", "options": ["Fire it now", "Wait for 17:39"], "recommend": "Fire it now: the PDF a couple of hours sooner."},
+  {"id": "G1", "ask": "The cover sketch below: this book as one of a Gen ZX Founders series?", "detail": "The sketch shares the Gen ZX Founders cover's system (dark ground, stacked capitals, a prompt line), not its mark. The title on it is the working one, unsigned; the series line stays only if you sign G1.", "options": ["A: series name and tagline on the cover", "B: the series on the title page and the back only", "C: not now"], "recommend": "A."},
+  {"id": "95%", "ask": "Chapter 01: what were you looking at when you said 95%?", "detail": "The publisher's voice read: the record cannot say where your 95% came from; only you can. In your voice it becomes one sentence: what you were looking at, or that you no longer know. Yours to write, not the team's to guess.", "options": ["One sentence back to me", "Later, in RC2"]}
+ ],
+ "sections": [{"title": "Since 14:10", "items": [
+  "designer: LAB 18, the ten pages' opening spread (the talk's Meet the team still, big, beside chapter 1's opening) and the cover sketch; read on the public Gen ZX Founders site, nothing copied",
+  "researcher: claims/first-ten-pages-numbers.md, among them 00:16, 814 commits, 210 releases, 182 in the night, 162 wakes, one hold; and what not to print (tokens, money, 'ten agents'). The Vibathon registered as context (C091), its figures Algarve Evolution's own",
+  "publisher: the build takes a sample's own list of files and a line on every page; the voice read through chapter 01",
+  "ruv.sgit: LAB 15 opens with the talk's own day beside the researcher's counts"]}],
+ "images": [{"path": "lab/experiments/18-designer-first-ten-pages/cover-sketch.svg", "caption": "The designer's cover sketch (LAB 18): working title unsigned; the series line only if you sign G1"}],
+ "next": ["18:02, then the sample PDF when the publisher builds it"],
+ "sources": ["comms/mail/mailroom/conductor/designer__034, publisher__015, researcher__014", "lab/experiments/18-designer-first-ten-pages/", "claims/first-ten-pages-numbers.md", "git log of dev since 14:06"]
+}

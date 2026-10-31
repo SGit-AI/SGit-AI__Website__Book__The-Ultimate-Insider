@@ -1,0 +1,36 @@
+{
+ "schema": "the-ultimate-insider/lab-run-evidence/v1",
+ "run": "20261031T1054Z-ruv-14-fractal-map",
+ "started": "2026-10-31T10:55:04Z",
+ "wake_record": "team/ruv-sgit/wakes/20261031T105504Z.json",
+ "calls": [
+  {
+   "what": "python3 -I tools/build.py (Pillow: three frames, pages.html)",
+   "tool": "python"
+  },
+  {
+   "what": "lab/tools/build_lab.py as a check: 37 pages, passed; lab/pdf and lab/tools/ids.json restored",
+   "tool": "the designer's build, read only"
+  }
+ ],
+ "outputs": {
+  "page.pdf": "3 pages",
+  "frames": [
+   "frames/f1-map05-dot.png",
+   "frames/f2-lens.png",
+   "frames/f3-map06.png"
+  ],
+  "hashes": "lab/experiments/14-ruv-fractal-map/SHA256SUMS"
+ },
+ "time": {
+  "work_started": "2026-10-31T11:05:00Z",
+  "work_ended": "2026-10-31T11:12:00Z"
+ },
+ "revisions": [
+  {
+   "when": "2026-10-31T15:00:00Z",
+   "wake_record": "team/ruv-sgit/wakes/20261031T145505Z.json",
+   "what": "frame 1 printed at 114 mm so map 5's labels keep their drawn size (designer__032)"
+  }
+ ]
+}

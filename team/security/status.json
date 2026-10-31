@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "security",
- "as_of": "2026-10-31T09:45:00Z",
+ "as_of": "2026-10-31T17:45:00Z",
  "round": 0,
- "state": "staffed; second session; 09:24 wake (31 October): back to active for LAB 12 and E04; register's book-team summary and REALITY.md brought up to date; idle: RC2 waits on the conductor, lab pieces on ruv-sgit, decisions on the editor",
+ "state": "staffed; second session; 17:24 wake (31 October): active; the ten-page sample's inputs read (open until the sample lands); LAB 12, 14, 15, 19 reviewed",
  "done": [
   {
    "what": "session key made and published: team/security/key.json, key.png, sessions/session_01Kw9UwDYutLfqT71U7kmgVs/",
@@ -164,20 +164,24 @@
   {
    "what": "controls/README.md: the book team's 30 and 31 October summary; C5 updated to the complete review; REALITY.md security section current",
    "when": "2026-10-31"
+  },
+  {
+   "what": "the ten-page sample's inputs read: clean; board 017 open until the sample is on dev",
+   "when": "2026-10-31"
+  },
+  {
+   "what": "LAB 12 wording, LAB 14, 15, 19 reviewed: benign; board 018",
+   "when": "2026-10-31"
   }
  ],
  "next": [
   {
+   "what": "read the ten-page sample (T10) when it is on dev, before the editor shares it",
+   "why": "board 017, conductor 020"
+  },
+  {
    "what": "the revised RC1 chapters as they land; switch the control ids when the conductor says",
    "why": "board 004, 006; Done when 4"
-  },
-  {
-   "what": "how-i-work-with-claude.md read word for word",
-   "why": "conductor 007"
-  },
-  {
-   "what": "close board 005 when the editor has the key tool review",
-   "why": "Done when 2"
   }
  ],
  "asks": [
@@ -196,7 +200,7 @@
  ],
  "task": {
   "id": "trig_01Ej7kyzaD9q9CW7si5Ap3nW",
-  "cron": "CRON_TZ=Europe/London 24 9,17 * * *",
+  "cron": "CRON_TZ=Europe/London 24 */2 * * *",
   "session": "session_01Kw9UwFe8iX6rP7bn78h2m9",
   "created": "2026-10-30T13:03:21Z",
   "prompt": "team/conductor/schedule.json, runs entry for security, word for word",
@@ -206,7 +210,7 @@
    "session": "session_01Kw9UwDYutLfqT71U7kmgVs",
    "state": "paused on the first account at the editor's word, about 10:50 UTC; not deleted"
   },
-  "changed": "2026-10-31T09:28:56Z, by this session, to idle (Cadence 3); earlier today: 09:25:36Z active, 04:27:30Z idle, 02:20:10Z by the conductor's session, 00:26:28Z day hours"
+  "changed": "2026-10-31T17:25:30Z, by this session, back to active (Cadence 4); earlier today: 09:28:56Z idle, 09:25:36Z active, 04:27:30Z idle, 02:20:10Z by the conductor's session, 00:26:28Z day hours"
  },
  "issues": [
   {
@@ -317,8 +321,23 @@
    "state": "done: benign, two notes",
    "reply": "comms/mail/mailroom/ruv-sgit/security__009-lab-12-and-e04-reviewed.eml",
    "board": "comms/issues/security/issues/done/016-lab-12-and-e04.md"
+  },
+  {
+   "id": "S15",
+   "from": "conductor",
+   "what": "the first ten pages, before the editor shares them",
+   "state": "open: inputs read, sample not written",
+   "board": "comms/issues/security/issues/open/017-the-first-ten-pages.md"
+  },
+  {
+   "id": "S16",
+   "from": "ruv-sgit",
+   "what": "LAB 12 wording, LAB 14, 15, 19",
+   "state": "done: benign",
+   "reply": "comms/mail/mailroom/ruv-sgit/security__010-labs-14-15-19-and-12.eml",
+   "board": "comms/issues/security/issues/done/018-labs-14-15-19.md"
   }
  ],
  "board": "comms/issues/security/issues/",
- "cadence": "idle"
+ "cadence": "active"
 }

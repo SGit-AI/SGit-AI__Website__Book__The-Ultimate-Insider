@@ -8,6 +8,7 @@ Kept by storyteller@book.the-ultimate-insider. **Status: draft 5, signed by the 
 |---|---|
 | [`plan.md`](plan.md) | the chapters in order: what each argues, the two threads in it, the failures it keeps, its evidence, its word budget |
 | [`budget.md`](budget.md) | the word budgets and the drafting timings, before any piece is written (timings before pieces) |
+| [`first-ten-pages-outline.md`](first-ten-pages-outline.md) | **an outline for the publisher and the editor**: RC2's first ten pages, for the Vibathon room (T10) |
 | [`a9-map-article.md`](a9-map-article.md) | **a draft for the editor**: RC1's map chapter as a newsroom article in his way of using maps (A9); not sent anywhere |
 | [`study-name-and-structure.md`](study-name-and-structure.md) | **a study, not a plan**: the book as a walkthrough of agentic workflows (the editor's memo of 30 October, 23:50 UTC), its structure from RC1 and six candidate names, for the editor to choose |
 | [`draft-6-proposed.md`](draft-6-proposed.md) | **proposed, not signed**: the plan brought in line with RC1 (00b, 11b, 13, the maps) and the editor's principles of 30 October, with five open decisions (D6-1 to D6-5) |

@@ -1,0 +1,68 @@
+{
+ "schema": "the-ultimate-insider/review-persona/v1",
+ "persona": "board-member",
+ "kept_by": "developer@book.the-ultimate-insider",
+ "fictional": true,
+ "note": "A kind of reader, not a person. Every name, date and line here is fictional; nobody has been sent this page. The personal part (a reader's name) would travel only in the link's fragment, which the browser never sends.",
+ "title": "For a board member",
+ "reader": "a non-executive director who chairs a risk committee and reads on a phone",
+ "judges": "Can I tell in thirty seconds why this matters and what to ask?",
+ "why_you": "You chair the committee that would have to answer for an agent team like this one. If these chapters do not tell you what to ask your executives, they have missed the reader who most needs them.",
+ "ask": {
+  "by": "Friday 13 November 2026",
+  "by_note": "an example date: nothing has been sent"
+ },
+ "gets": [
+  "your name in the acknowledgements, if you want it there",
+  "the first edition when it ships",
+  "a reply to every comment, and a page showing what your comments changed"
+ ],
+ "edition": {
+  "name": "RC1",
+  "source": "team/conductor/rc1/",
+  "commit": "5d73a4e"
+ },
+ "chapters": [
+  {
+   "file": "01-pause-all-actions.md",
+   "why": "the moment a team was stopped, and who could stop it",
+   "theme": "A"
+  },
+  {
+   "file": "06-the-editor-signs.md",
+   "why": "who is accountable, and what a signature holds",
+   "theme": "B"
+  }
+ ],
+ "chapters_note": "Chapters proposed by the storyteller (team/storyteller/review-questions.md), a proposal until the editor rules on the length per page; the 'short of time' chapter is developer@'s proposal.",
+ "questions_source": "team/storyteller/review-questions.md (storyteller@book.the-ultimate-insider, 31 October 2026, reply storyteller__018)",
+ "questions": [
+  {
+   "after": "01-pause-all-actions.md",
+   "q": "After this chapter, what would you ask the executive team about agents in your own firm?"
+  },
+  {
+   "after": "01-pause-all-actions.md",
+   "q": "Was it clear who could stop the team, and who could restart it?"
+  },
+  {
+   "after": "01-pause-all-actions.md",
+   "q": "Where did a term or a detail lose you?"
+  },
+  {
+   "after": "06-the-editor-signs.md",
+   "q": "Who decides, in this chapter? Would you accept that as a board?"
+  },
+  {
+   "after": "06-the-editor-signs.md",
+   "q": "What evidence would you want before signing something like this yourself?"
+  },
+  {
+   "after": "06-the-editor-signs.md",
+   "q": "Did the page give you enough on a phone, or did you need the screen?"
+  }
+ ],
+ "short": "01-pause-all-actions.md",
+ "short_note": "the one chapter to read when short of time: a proposal by developer@ from synthetic@'s runs, for the editor to keep or change",
+ "questions_label": "storyteller"
+}

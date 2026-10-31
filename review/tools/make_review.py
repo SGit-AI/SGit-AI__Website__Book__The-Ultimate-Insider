@@ -92,7 +92,9 @@ def page(p):
             items = ''.join(f'<li><p>{html.escape(q["q"])}</p><textarea data-q="{ch}-q{i}" rows="3" aria-label="Your answer"></textarea></li>'
                             for i, q in enumerate(qs, 1))
             qhtml = (f'<section class="rv-qs" aria-label="Questions on this chapter"><h3>Questions on this chapter</h3><ol>{items}</ol>'
-                     f'<p class="note">Placeholder questions, from the reviewers study; the storyteller writes the final ones.</p></section>')
+                     + (f'<p class="note">The storyteller\'s questions for this kind of reader (<code>team/storyteller/review-questions.md</code>).</p></section>'
+                        if p.get('questions_label') == 'storyteller' else
+                        f'<p class="note">Placeholder questions, from the reviewers study; the storyteller writes the final ones.</p></section>'))
         parts.append(f'<article class="rv-ch" id="c{ch}" data-ch="{ch}"><h2>{esc}</h2>\n{body}\n{qhtml}</article>')
     gets = ''.join(f'<li>{html.escape(g)}</li>' for g in p['gets'])
     marks = ''.join(f'<li><b>{m}</b></li>' for m in MARKS)
@@ -100,7 +102,7 @@ def page(p):
     if p.get('short'):                                              # the one chapter to read when short of time (a proposal until the editor says)
         c = next(c for c in p['chapters'] if c['file'] == p['short'])
         ch = c['file'].split('-')[0]
-        short = f'<p class="rv-short"><b>Short of time?</b> Read <a href="#c{ch}">chapter {int(ch)}</a> first.</p>\n'
+        short = f'<p class="rv-short"><b>Short of time?</b> Read <a href="#c{ch}">{"chapter " + str(int(ch)) if ch.isdigit() else html.escape(re.match(r"# (.*)", (ROOT / p["edition"]["source"] / c["file"]).read_text()).group(1))}</a> first.</p>\n'
     n = ['no', 'one', 'two', 'three', 'four', 'five'][len(p['chapters'])] if len(p['chapters']) <= 5 else str(len(p['chapters']))
     count = f'{n} chapter' + ('' if len(p['chapters']) == 1 else 's')
     meta = {'title': f'Review: {p["title"].lower()}',

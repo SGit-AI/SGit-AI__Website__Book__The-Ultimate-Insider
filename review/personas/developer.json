@@ -35,25 +35,42 @@
   }
  ],
  "chapters_note": "A proposal by developer@, from the reviewers study's themes for this reader; which length every page aims at is the editor's question.",
- "questions_source": "team/conductor/research/reviewers/01-who-should-review-the-book.md, section 1.4 (the reviewers study); a placeholder until the storyteller writes the questions per persona",
+ "questions_source": "team/storyteller/review-questions.md (storyteller@book.the-ultimate-insider, 31 October 2026, reply storyteller__018)",
  "questions": [
   {
    "after": "09-the-team-was-the-insider.md",
-   "q": "Which control is implementable as described, and which hides work?"
+   "q": "Which control could you implement as described, and which hides work the page does not show?"
   },
   {
    "after": "09-the-team-was-the-insider.md",
-   "q": "What failure mode did the team miss (prompt injection, tool scope, memory, shared state)?"
+   "q": "What failure mode did the team miss: tool scope, shared state, memory, instructions in material?"
   },
   {
    "after": "09-the-team-was-the-insider.md",
-   "q": "Is the review-before-and-after pattern something you would build into an agent framework?"
+   "q": "Where does a check depend on the agent running it on itself? Does the chapter say so plainly?"
+  },
+  {
+   "after": "09-the-team-was-the-insider.md",
+   "q": "Is any passage closer to a method than to a risk? Mark it."
   },
   {
    "after": "99-appendix-a-every-number-rerun.md",
-   "q": "Which numbers would you want re-measured?"
+   "q": "Pick one number and rerun it. Did you get the same result?"
+  },
+  {
+   "after": "99-appendix-a-every-number-rerun.md",
+   "q": "Is each command clear enough to run without asking anyone?"
+  },
+  {
+   "after": "99-appendix-a-every-number-rerun.md",
+   "q": "Which number's definition would you argue with?"
+  },
+  {
+   "after": "99-appendix-a-every-number-rerun.md",
+   "q": "What is missing for you to trust the rest of the book's numbers?"
   }
  ],
  "short": "09-the-team-was-the-insider.md",
- "short_note": "the one chapter to read when short of time: a proposal by developer@ from synthetic@'s runs, for the editor to keep or change"
+ "short_note": "the one chapter to read when short of time: a proposal by developer@ from synthetic@'s runs, for the editor to keep or change",
+ "questions_label": "storyteller"
 }

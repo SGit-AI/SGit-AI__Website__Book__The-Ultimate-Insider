@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "storyteller",
- "as_of": "2026-10-31T08:42:00Z",
+ "as_of": "2026-10-31T18:05:00Z",
  "round": 1,
- "state": "idle: the study (NS1), A9 and C062 wait on the editor; the second name round waits on synthetic. Task on the idle schedule until work arrives",
+ "state": "active: the first ten pages' outline with the publisher; NS1, A9 and C062 with the editor",
  "done": [
   {
    "what": "session key sha256:edc67e3cc68b3b07 published (team/storyteller/key.json, key.png, sessions/session_01Kw9UwFSAdt6ywy4t5H8kvd/)",
@@ -116,20 +116,32 @@
   {
    "what": "own task to the idle schedule, CRON_TZ=Europe/London 39 9,17 * * * (WAKE.md Cadence 3)",
    "when": "2026-10-31"
+  },
+  {
+   "what": "own task back to active, 39 */2 London (WAKE.md Cadence 4)",
+   "when": "2026-10-31"
+  },
+  {
+   "what": "the review pages' questions per persona and chapter, and a chapter proposal for the three without a page (team/storyteller/review-questions.md; developer__011 answered)",
+   "when": "2026-10-31"
+  },
+  {
+   "what": "the outline of RC2's first ten pages for the Vibathon room (chapter-plan/first-ten-pages-outline.md), to the publisher",
+   "when": "2026-10-31"
+  },
+  {
+   "what": "the conductor's three poses given their lines (designer__026 answered)",
+   "when": "2026-10-31"
   }
  ],
  "next": [
   {
-   "what": "the study's final note with synthetic's second round",
-   "why": "A6"
+   "what": "read the publisher's ten pages against the outline when they land",
+   "why": "T10; the editor reviews them now"
   },
   {
    "what": "fold the plan to what the editor signs on NS1; A9 to his changes",
    "why": "Done when 1 and 2"
-  },
-  {
-   "what": "review RC1's revision as it lands",
-   "why": "Done when 3"
   }
  ],
  "asks": [
@@ -149,13 +161,13 @@
  "session": "session_01Kw9UwBayMPYc5YNzFqqc7n",
  "task": {
   "id": "trig_018f8i1UtWhtQ6SaebNPhBnT",
-  "cron": "CRON_TZ=Europe/London 39 9,17 * * *",
+  "cron": "CRON_TZ=Europe/London 39 */2 * * *",
   "created": "2026-10-30T13:16:49Z",
   "by": "this session, at the editor's word in it",
   "prompt": "schedule.json runs entry for storyteller, word for word",
   "previous": "trig_017wCRMAnPCSZsLndXPkbLcD (first account, paused, not deleted)",
-  "changed": "2026-10-31T08:40:38Z, by this session, to idle (WAKE.md Cadence 3); before: 39 */2 from 02:20 UTC (the conductor's session, at Q6 amended)"
+  "changed": "2026-10-31T17:41:09Z, by this session, back to active at new work (WAKE.md Cadence 4)"
  },
  "board": "comms/issues/storyteller/issues/",
- "cadence": "idle"
+ "cadence": "active"
 }

@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-10-31T08:50:00Z",
+ "as_of": "2026-10-31T16:50:00Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -2220,8 +2220,12 @@
     ],
     "spot_checked_here": {
      "replit": "1,206 executives consistent across reports; companies 1,196+ is the agent's own count, reports vary (about 1,100 to 1,196)",
-     "kiro": "13 hours, one mainland China region, per the Financial Times as reported by others; Amazon calls it user error"
-    }
+     "kiro": "13 hours, one mainland China region, per the Financial Times as reported by others; Amazon calls it user error",
+     "pocketos": "'about 30 hours of disruption' is the founder's account (his post, as reported by ABC7 and others); Railway's CEO says the backups were restored 30 minutes after Railway connected with him: attribute the 30 hours to the founder",
+     "hf-openai-exploitgym": "'a limited set' of internal datasets and 'several' service credentials matches Hugging Face's wording as reported (RuntimeWire); its primary post not read here",
+     "anthropic-irregular-evals": "15 real systems in about an hour, three organisations, 141,006 runs reviewed: as reported (aiweekly.co); Anthropic's own post not found by search"
+    },
+    "frame_count_not_traced": "'In 9 of the 11' (the frame's own count; no field in the data states it)"
    },
    "state": "open",
    "source": {
@@ -2231,7 +2235,107 @@
    },
    "method": "the piece's data read; two headline figures spot-checked against public reports by web search, 31 October 2026",
    "command": "git show c33e86a:src/static/studio/data/over-enthusiastic.json | python3 -c \"import json,sys;d=json.load(sys.stdin);[print(c['id'],c['grade'],c['checked_against_primary'],c['lost'][:90]) for c in d['cases']]\"",
-   "note": "Outside cases, graded by the talk's register (A1 to A5), not re-read here except the two spot checks. Print a figure only from a case the talk team checked against its primary source, attributed to its report ('per the FT', 'the agent's own count'); mask the figures of the five unchecked cases, or caption them 'as reported'. Label the three evaluation cases as evaluations, as the data's own caution says. Open until each printed figure is read at its primary source. Registered at ruv-sgit's request (ruv-sgit__003), the researcher's 08:32 wake, 31 October 2026."
+   "note": "Outside cases, graded by the talk's register (A1 to A5), not re-read here except the two spot checks. Print a figure only from a case the talk team checked against its primary source, attributed to its report ('per the FT', 'the agent's own count'); mask the figures of the five unchecked cases, or caption them 'as reported'. Label the three evaluation cases as evaluations, as the data's own caution says. Open until each printed figure is read at its primary source. Registered at ruv-sgit's request (ruv-sgit__003), the researcher's 08:32 wake, 31 October 2026. 31 October 10:40: LAB 07 printed the frame's own 'In 9 of the 11' (ruv-sgit__007); it is computed by the piece from the guardrail descriptions, which are prose, and no data field states it: not registered; mask it until traced. 31 October 12:40: three more spot checks by web search (PocketOS, Hugging Face, Anthropic); primary posts still not read, so C090 stays open."
+  },
+  {
+   "id": "C091",
+   "claim": "The Vibathon Algarve 2026, as the newsroom reported it (context for the first ten pages)",
+   "cited_in": [
+    "comms/mail/mailroom/researcher/conductor__028-the-first-ten-pages.eml",
+    "briefs/2026-10-31__in-session/01-the-first-ten-pages-and-the-gen-zx-series.md"
+   ],
+   "value": {
+    "event": "Vibathon Algarve 2026, 31 October 2026, the University of the Algarve's TEC Campus, Faro",
+    "as_reported": "sold out, with a waiting list; each participant with a free allowance of Lovable credits; mentors, a jury and prizes",
+    "organiser_figures_its_own": "Algarve Evolution: began 2018; 106 active members; companies turning over about EUR 100 million a year and employing about a thousand people, 'by its own figures'; more than 142 events in two years"
+   },
+   "state": "checked",
+   "source": {
+    "url": "https://newsroom.sgit.ai/articles/vibathon-algarve-2026.html",
+    "read": "2026-10-31, about 14:40 UTC",
+    "evidence": "the article's .md twin (newsroom v0.14.19); SGit-AI__Website__Newsroom at 0bc65e324 per the brief"
+   },
+   "method": "the article read; figures matched",
+   "command": "curl -s https://newsroom.sgit.ai/articles/vibathon-algarve-2026.md | grep -o -E '[^.]*(106|142|100 million|sold out)[^.]*\\.'",
+   "note": "The editor's own account of the day (he was there), and the organiser's figures are the organiser's: print them as 'by its own figures' or not at all. No participant is named here or should be. Context for the ten pages, not the day of 29 October. Registered at the conductor's letter 028, the researcher's 14:32 wake, 31 October 2026."
+  },
+  {
+   "id": "C092",
+   "claim": "Night against day on 29 October: commits, releases and wakes before and after 06:00",
+   "cited_in": [
+    "team/conductor/rc1/editor-review/notes.json (T18)",
+    "comms/mail/mailroom/researcher/ruv-sgit__009-pocketos-and-t18.eml"
+   ],
+   "value": {
+    "night_00:16_to_05:59": {
+     "commits": 225,
+     "non_merge": 182,
+     "releases": 61,
+     "wakes": "35: 19 scheduled, 16 started by the editor"
+    },
+    "day_06:00_to_18:59": {
+     "commits": 589,
+     "non_merge": 468,
+     "releases": 149,
+     "wakes": "127: 86 scheduled, 31 started by the editor, 10 follow-ups"
+    },
+    "not_in_the_record": "tokens and network calls (C021): no usage page and no token counts"
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "298be4e",
+    "evidence": "the log; team/*/wakes/*.json (C087)"
+   },
+   "method": "commits and GitHub Actions releases counted either side of 06:00 UTC; wakes by start hour and class as C087",
+   "command": "git rev-list --count --until=2026-10-29T05:59:59Z 298be4e; git rev-list --count --since=2026-10-29T06:00:00Z --until=2026-10-29T18:59:59Z 298be4e; git rev-list --count --author='GitHub Actions' --until=2026-10-29T05:59:59Z 298be4e",
+   "note": "Night here is the repository's first night, 00:16 to 05:59 (the 182 non-merge commits are C073's overnight figure); 225 and 589 make C004's 814, 61 and 149 make its 210 releases. T18's tokens and network calls cannot be counted from the record: say so beside the grid. Registered for T18 (ruv-sgit__009, notes.json), the researcher's 14:32 wake, 31 October 2026."
+  },
+  {
+   "id": "C093",
+   "claim": "How Leanpub ranks its bestseller lists: revenue and copies, free copies included",
+   "cited_in": [
+    "claims/comparison-set.md",
+    "team/conductor/research/leanpub/04-what-the-best-leanpub-books-do.md"
+   ],
+   "value": {
+    "last_week": "revenue and copies sold in the past seven days",
+    "all_time": "'lifetime' revenue and copies sold",
+    "free_copies": "count: 'a book that sold a million free copies in the last week, would rank higher than a book that sold one copy for $0.99'"
+   },
+   "state": "checked",
+   "source": {
+    "url": "https://help.leanpub.com/en/articles/5395545-how-are-books-ranked-in-leanpub-s-bestseller-lists",
+    "read": "2026-10-31, about 16:45 UTC",
+    "evidence": "the help article's text"
+   },
+   "method": "the page fetched and its rules read",
+   "command": "curl -sL -A 'Mozilla/5.0' https://help.leanpub.com/en/articles/5395545-how-are-books-ranked-in-leanpub-s-bestseller-lists | grep -o -i 'lifetime[^.]*copies sold'",
+   "note": "Study 04 had this from a search summary only; now read at the page. It strengthens the narrower sentence of 30 October: a high place on the all-time list is reach as much as revenue, because free copies count. Registered at the conductor's letter 009 (item 2), the researcher's 16:32 wake, 31 October 2026."
+  },
+  {
+   "id": "C094",
+   "claim": "The comparison set: the books a buyer would see beside this one",
+   "cited_in": [
+    "claims/comparison-set.md"
+   ],
+   "value": {
+    "nearest_shelf_on_leanpub": 12,
+    "wider_market": "4 entries (Ozdemir, Redmond, Waite, four Kindle multi-agent titles)",
+    "giants": "C075, C076",
+    "precedent": "graphs.sgit.ai's three agent-written books (C032 to C036)",
+    "house": "the editor's own Leanpub list (C077)",
+    "no_title_found": "a book treating the agent team as the insider, shown on one real recorded day"
+   },
+   "state": "checked",
+   "source": {
+    "url": "https://leanpub.com/<slug> for the twelve nearest",
+    "read": "2026-10-31",
+    "evidence": "each page answered (HTTP 200); the studies of 30 October for prices and authors"
+   },
+   "method": "the nearest titles chosen from studies 03 and 04 and the title checks, each Leanpub page fetched again",
+   "command": "for s in TheAgenticAIbook harness-engineering theartofharnessengineering whenaitakesaction governancebeforedecisi the-agentic-security-playbook agent-security theaidevelopmentteam the-autonomous-operator building-autonomous-coding-agents engineering-leadership-ai cisos-ai-firewall; do curl -sL -o /dev/null -w \"%{http_code} $s\\n\" https://leanpub.com/$s; done",
+   "note": "A selection, not a survey: the shelf a buyer of this book would meet. Prices are the studies' of 30 October, not rechecked; none of the twelve shows a readers count. ROLE.md, Done when 3. Registered at the researcher's 16:32 wake, 31 October 2026."
   }
  ]
 }

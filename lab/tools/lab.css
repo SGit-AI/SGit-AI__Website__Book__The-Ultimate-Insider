@@ -149,3 +149,28 @@ h2 { font: 700 14pt/18pt var(--sans); margin: 0 0 4mm }
 .sizes { display: grid; grid-template-columns: 50mm 40mm 1fr; gap: 5mm; align-items: end; margin-bottom: 4mm }
 .sizes svg { width: 100% }
 .poses, .sizes, .sheetchar { break-inside: avoid }
+
+/* the map with side notes: markers over the map image, the notes in the column beside it */
+.mapnotes { display: grid; grid-template-columns: auto 1fr; gap: 5mm; align-items: start; break-inside: avoid }
+.mn-map { position: relative }
+.mn-map img { width: 100%; display: block; border: .3mm solid var(--fill-2) }
+.mk { position: absolute; transform: translate(-50%, -50%); width: 4.6mm; height: 4.6mm; border-radius: 50%; background: var(--accent);
+  color: #fff; font: 800 9pt/4.6mm var(--sans); text-align: center }
+.mn-notes { list-style: none; margin: 0; padding: 0 }
+.mn-notes li { font: 400 9pt/12pt var(--sans); margin: 0 0 2.5mm }
+.mn-notes li b { display: inline-block; width: 4.6mm; height: 4.6mm; border-radius: 50%; background: var(--accent); color: #fff; text-align: center; line-height: 4.6mm; margin-right: 1.5mm }
+.mn-notes .stage { display: block; color: var(--muted) }
+
+/* LAB 18: the sample's opening spread, and the cover sketch */
+.ph { font: 700 9pt/12pt var(--sans); color: var(--accent); border: .3mm dashed var(--accent); padding: 1mm 2mm; margin: 0 0 4mm; display: inline-block }
+.hero { width: 100%; display: block; margin: 0 0 6mm; border: .3mm solid var(--fill-2) }
+.bigline { font: 800 22pt/27pt var(--sans); letter-spacing: -.01em; margin: 0 0 4mm }
+.bigline .acc { color: var(--accent) }
+.chno { font: 800 54pt/54pt var(--sans); color: var(--accent); margin: 4mm 0 0 }
+.chtitle { font: 800 26pt/30pt var(--sans); margin: 1mm 0 1mm }
+.chtime { font: 700 12pt/16pt var(--mono); color: var(--muted); margin: 0 0 5mm }
+.lede { font: 400 12pt/17pt var(--sans) }
+.coverwrap { display: grid; grid-template-columns: 104mm 1fr; gap: 5mm; align-items: start }
+.coverwrap > div { min-width: 0; overflow-wrap: break-word }
+.coverimg { width: 104mm; display: block }
+.coverwrap .muted { color: var(--muted); font-size: 9.5pt; line-height: 13pt }

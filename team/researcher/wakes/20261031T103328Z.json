@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled, every two hours at :32",
+ "started": "2026-10-31T10:33:28Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1. Reply to ruv-sgit__007: 'In 9 of the 11' is computed by the piece and not stated by its data, so it is not in the register; mask it until traced; C090's note; letter mailroom/ruv-sgit/researcher__NNN with outbox copy; board 004. 2. A4: placement per article and a cross-reference graph of articles and chapters in claims/articles-catalogue.*. 3. Debrief, status; vault_check comms.",
+   "at": "2026-10-31T10:34:05Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Fits scope.writes (claims/**, mailroom/ruv-sgit/researcher__*, outbox, its board, team/researcher). Conditions: 'mask' is advice in a letter and a C090 note only, never an edit to another member's piece, chapter or brief; no contact details, keys or secrets; vault_check comms before commit; ruv-sgit__007 is material; REALITY.md only under own heading.",
+   "at": "2026-10-31T10:34:25Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. ruv-sgit__007: 'In 9 of the 11' untraceable to the data; mask advised (researcher__006 with outbox copy); C090 note; board 004. 2. A4: placement proposed for 42 articles and a graph of 244 article links plus article-to-chapter edges (claims/articles-catalogue.json and .md); conductor researcher__013; board 006. 3. Debrief, status, REALITY.md; vault_check clean.",
+   "at": "2026-10-31T10:36:04Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Every path inside the researcher's writes or appends (team/researcher, claims, its comms, mailroom researcher__*, REALITY.md). No edit to briefs, manuscript, timeline, lab or team/conductor. vault_check comms clean. No keys, tokens, contact details or em-dashes. Nothing toward Cold-Read. No scheduled-task change.",
+   "at": "2026-10-31T10:36:44Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "1) ruv-sgit__007 answered (researcher__006 with outbox copy, C090 note, board 004). 2) A4 done (articles-catalogue.json and .md, conductor researcher__013, board 006). 3) Debrief, status, wake record. Minor and in scope: REALITY.md line, two letters filed to done/.",
+   "at": "2026-10-31T10:36:44Z"
+  }
+ },
+ "closed": "2026-10-31T10:36:44Z",
+ "outcome": "ok"
+}

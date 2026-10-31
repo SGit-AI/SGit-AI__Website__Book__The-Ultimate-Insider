@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled, every two hours at :54 London",
+ "started": "2026-10-31T14:55:05Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. Letters filed and answered (designer: LAB 14 change; security: LAB 15 review; researcher: C092 used, tokens and network calls not in the record per C021). 2. LAB 14: frame 1 at 114 mm, rebuilt, run revision. 3. LAB 15: a first sheet for the talk's day from its wake records at 298be4e (read only), classed as C087, C092's counts beside it, the C021 line; this team's grid second; build_lab.py check; lab/pdf and ids.json never staged. Close: debrief, status, board, REALITY.",
+   "at": "2026-10-31T14:56:34Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go on conditions: writes only in scope (and the REALITY append); never lab/tools, lab/pdf or ids.json; the talk repository read only, cited at 298be4e; only counts and classes on the page, no comment text; only C087 and C092 counts, cited; this team's grid prints no numbers; C021 cited as the record's gap; vault_check on comms.",
+   "at": "2026-10-31T14:56:57Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "letters filed and answered; LAB 14 frame 1 at 114 mm; LAB 15 opens with the talk's day from its wake records at 298be4e (read only, classed as C087, splits reproduced), C092's counts cited and C021's gap said; this team's grid second; the lab build passes (45 pages), lab/pdf and ids.json restored; run revisions; REALITY, debrief, status",
+   "at": "2026-10-31T14:59:56Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Build and gate clean; 0 outside scope; vault_check clean; lab build (45 pages) passes; status empty after checkout; only own paths, LAB 14 and 15, comms, REALITY and run evidence changed; LAB 15's numbers are C092 values cited C092, hours, the date, 298be4e and claim ids; no wake comment text; nothing attack-shaped.",
+   "at": "2026-10-31T15:00:52Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "(1) letters filed and answered (designer 014, researcher 010, security 013). (2) LAB 14 frame 1 at 114 mm, hashes and run evidence. (3) LAB 15: pace-talk.svg added, pace-team.svg, build.py reworked, C092 counts cited, C021 gap said. Close done. Conditions kept; post-review clean. Nothing unplanned.",
+   "at": "2026-10-31T15:01:12Z"
+  }
+ },
+ "closed": "2026-10-31T15:01:12Z",
+ "outcome": "ok"
+}

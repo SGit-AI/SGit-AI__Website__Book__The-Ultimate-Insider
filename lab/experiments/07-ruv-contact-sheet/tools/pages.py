@@ -34,7 +34,7 @@ REGISTERED = [
  ('E13: five published examples', 'studio/lab/e13/v1', '842a8bd', 'studio-lab-e13-t48.png',
   'The same chart for each; no rating, no ranking (C084).'),
  ('E04: the over-enthusiastic agent', 'studio/lab/e04/v1', 'c33e86a', 'studio-lab-e04-t50.png',
-  'Published cases, each figure attributed to its report as the frame does; the last three are evaluations, not deployments. Masked: the losses of four cases the talk team did not check at source (C090, open).'),
+  'Published cases, each figure attributed to its report as the frame does, and the Cursor on Railway row\'s hours per the founder; the last three are evaluations, not deployments. Masked: the losses of four cases the talk team did not check at source (C090, open).'),
  ('E12: the radius, contained', 'studio/lab/e12/v1', '842a8bd', 'studio-lab-e12-t52.png',
   'Today\'s excess by kind (C086). Masked: the piece\'s own projection of what a designed wall would leave, which no data file states.'),
  ('E03: every source is a way in', 'studio/lab/e03/v1', 'a606774', 'studio-lab-e03-t48.png',

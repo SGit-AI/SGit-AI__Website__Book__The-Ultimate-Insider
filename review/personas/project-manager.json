@@ -1,0 +1,72 @@
+{
+ "schema": "the-ultimate-insider/review-persona/v1",
+ "persona": "project-manager",
+ "kept_by": "developer@book.the-ultimate-insider",
+ "fictional": true,
+ "note": "A kind of reader, not a person. Every name, date and line here is fictional; nobody has been sent this page. The personal part (a reader's name) would travel only in the link's fragment, which the browser never sends.",
+ "title": "For a project manager",
+ "reader": "a delivery lead who plans and runs work across several teams",
+ "judges": "Could my team run this, and where does it break?",
+ "why_you": "You plan work for teams that have to deliver. If this rhythm and this way of deciding would not survive your planning cycle, you will say where it breaks.",
+ "ask": {
+  "by": "Friday 13 November 2026",
+  "by_note": "an example date: nothing has been sent"
+ },
+ "gets": [
+  "your name in the acknowledgements, if you want it there",
+  "the first edition when it ships",
+  "a reply to every comment, and a page showing what your comments changed"
+ ],
+ "edition": {
+  "name": "RC1",
+  "source": "team/conductor/rc1/",
+  "commit": "5d73a4e"
+ },
+ "chapters": [
+  {
+   "file": "04-the-hourly-machine.md",
+   "why": "the rhythm of the work, every hour",
+   "theme": "A"
+  },
+  {
+   "file": "06-the-editor-signs.md",
+   "why": "how decisions are asked for and signed",
+   "theme": "B"
+  }
+ ],
+ "chapters_note": "Chapters proposed by the storyteller (team/storyteller/review-questions.md), a proposal until the editor rules on the length per page; the 'short of time' chapter is developer@'s proposal.",
+ "questions_source": "team/storyteller/review-questions.md (storyteller@book.the-ultimate-insider, 31 October 2026, reply storyteller__018)",
+ "questions": [
+  {
+   "after": "04-the-hourly-machine.md",
+   "q": "Could you run a team this way? What would you need that is not here?"
+  },
+  {
+   "after": "04-the-hourly-machine.md",
+   "q": "How would you know, from what the team leaves behind, that the work was on track?"
+  },
+  {
+   "after": "04-the-hourly-machine.md",
+   "q": "Where would this rhythm clash with the way your teams already plan?"
+  },
+  {
+   "after": "04-the-hourly-machine.md",
+   "q": "What would you report upward from it?"
+  },
+  {
+   "after": "06-the-editor-signs.md",
+   "q": "How are decisions asked for and made here? Is that clear?"
+  },
+  {
+   "after": "06-the-editor-signs.md",
+   "q": "What would happen in this process if the decision-maker were away for a day?"
+  },
+  {
+   "after": "06-the-editor-signs.md",
+   "q": "Which part would you adopt in your own governance?"
+  }
+ ],
+ "short": "04-the-hourly-machine.md",
+ "short_note": "the one chapter to read when short of time: a proposal by developer@ from synthetic@'s runs, for the editor to keep or change",
+ "questions_label": "storyteller"
+}

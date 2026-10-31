@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled, every two hours at :02",
+ "started": "2026-10-31T10:03:02Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "1. Replies to publisher 012 (10 pt, 255 pages; the gutter waits for P2) and researcher 012 (C089 taken; which reason leads is the editor's), mailroom and outbox. 2. A short brief 17 in team/conductor/editor-briefs/: what moved since 08:00, the same asks. 3. status.json; vault_check before commit.",
+   "at": "2026-10-31T10:03:32Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "In scope; no stop condition. Conditions: vault_check before commit; no secrets; which reason leads and the gutter left to the editor; briefs/ untouched; no em-dashes.",
+   "at": "2026-10-31T10:03:59Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "1. Replies to publisher 012 and researcher 012; filed; vault_check clean. 2. Brief 17. 3. status.json. Gate clean.",
+   "at": "2026-10-31T10:04:15Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Gate exit 0 (300 pages); agents.py check conductor: 0 files outside scope; vault_check comms clean; diff touches only comms/ mail and team/conductor/; no key, token or contact; no em-dashes; nothing decided for the editor; briefs/ untouched.",
+   "at": "2026-10-31T10:05:59Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "1. publisher 012 and researcher 012 answered (publisher__025, researcher__026), both moved to done. 2. Brief 17 written. 3. status.json updated. Nothing unplanned beyond the wake record.",
+   "at": "2026-10-31T10:06:00Z"
+  }
+ },
+ "closed": "2026-10-31T10:06:00Z",
+ "outcome": "ok"
+}

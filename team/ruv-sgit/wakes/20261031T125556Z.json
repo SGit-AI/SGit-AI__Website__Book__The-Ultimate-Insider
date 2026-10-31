@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled, every two hours at :54 London",
+ "started": "2026-10-31T12:55:56Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. designer__029 and researcher__007 to done; LAB 07: E04's Cursor on Railway hours captioned 'per the founder' (C090), rebuilt; letters to the designer and researcher. 2. T18 as LAB 15 (reserved): the pace grid drawn for paper by code from team/*/wakes/*.json (read only): members by hour, night shaded, chat-started wakes boxed apart from scheduled, no number but hour labels; lab/experiments/15-ruv-the-pace-on-paper/, run in lab/runs/; build_lab.py check, lab/pdf and ids.json never staged; to the designer and security. 3. Close: debrief, status, REALITY, board 014.",
+   "at": "2026-10-31T12:57:19Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope. Conditions: letters moved only within own comms paths; team/*/wakes read only; no counts printed, only hour labels; C090's wording from claims/; nothing in lab/pdf or ids.json staged; no person's name or detail on the grid (member roles only).",
+   "at": "2026-10-31T12:57:41Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "designer__029 and researcher__007 filed; E04 captioned 'per the founder' (C090); LAB 15 (reserved), the site's pace grid on paper from team/*/wakes (read only), night shaded, chat-started boxed, no count; one page, the lab build passes, lab/pdf and ids.json restored; run 20261031T1254Z-ruv-15; letters to designer, security, researcher; board 014; REALITY, debrief, status",
+   "at": "2026-10-31T13:00:28Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Build and gate clean; 0 outside scope; vault_check clean; lab build (41 pages) passes; lab/pdf, lab/tools and other members' folders unchanged, status clean after restore; pace.svg holds only role names, hours, dates and legend words, no counts or comment text; no key, personal detail or directive text.",
+   "at": "2026-10-31T13:01:20Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "(1) done: letters filed; E04 caption, pages and hashes rebuilt; letters to designer and researcher. (2) done: LAB 15 (pace.svg, page.pdf, build.py), run spec and evidence; letter to security; no lab/pdf or ids.json in the diff. (3) done: debrief, status, board 014, REALITY. Conditions kept; nothing unplanned.",
+   "at": "2026-10-31T13:01:39Z"
+  }
+ },
+ "closed": "2026-10-31T13:01:39Z",
+ "outcome": "ok"
+}

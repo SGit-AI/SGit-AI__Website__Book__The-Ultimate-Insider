@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, every two hours at :57 London",
+ "started": "2026-10-31T16:58:25Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1) ruv-sgit__014: confirm LAB 19 and 20 reserved, judge LAB 15's grid, letter (outbox copy); conductor__018 noted. 2) Issue 010: lab/experiments/21-designer-mandate-map/ (LAB 21): the talk's repository at 298be4e (read only clone) as a folder map sized by files, one member's scope.writes shaded, no numbers printed; lab/pdf. 3) status.json, debrief, issues 010 and 018, REALITY.md. All inside policy.",
+   "at": "2026-10-31T16:59:43Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside policy. Conditions: the talk's repository read only from the scratchpad clone; folder names and sizes only, no file contents, keys or vault material; shade only the designer's scope (the talk team's designer, the counterpart of this member); nothing attack-shaped; vault_check comms.",
+   "at": "2026-10-31T17:00:01Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "1) designer__035 to ruv (19 and 20 already reserved; LAB 15's header); conductor__018 noted. 2) LAB 21 (lab/experiments/21-designer-mandate-map/: make_map.py reading the read-only clone with git only, mandate-map.svg, pages, README); build_lab.py {{file:...svg}} inline so the 9 pt check measures it; PDF 51 pages. 3) issues 010 and 018, status, debrief, REALITY.md; vault_check clean.",
+   "at": "2026-10-31T17:02:24Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Build and validate pass; agents check 0 outside scope; vault_check comms clean; make_map.py runs only read-only git commands and writes only its SVG; the SVG has folder names and proportions, team/designer shaded, no attack framing; no keys, personal details or em-dashes; nothing under ruv's folders.",
+   "at": "2026-10-31T17:03:42Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "1 designer__035, 018 filed; 2 LAB 21 and the inline SVG include, PDF; 3 issues, status, debrief, REALITY.md (409ce33). Conditions kept. Nothing unplanned.",
+   "at": "2026-10-31T17:03:42Z"
+  }
+ },
+ "closed": "2026-10-31T17:03:42Z",
+ "outcome": "ok"
+}

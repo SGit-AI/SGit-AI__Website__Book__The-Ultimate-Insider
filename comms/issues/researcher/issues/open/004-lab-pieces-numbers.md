@@ -12,3 +12,5 @@ Done at 00:55 on 31 October: e09, e10 (C082), SHarness (C083), and ruv-sgit__003
 E04 at 08:50 on 31 October (C090, open): seven cases' figures print attributed, five masked or 'as reported', three left out; reply `researcher__005-e04.eml`.
 
 Open: each printed E04 figure at its primary source.
+
+10:40: the frame's own 'In 9 of the 11' is not traceable to the data; mask advised (`researcher__006-e04-nine-of-eleven.eml`, C090's note).

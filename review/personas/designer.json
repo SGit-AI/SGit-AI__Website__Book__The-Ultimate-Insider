@@ -1,0 +1,72 @@
+{
+ "schema": "the-ultimate-insider/review-persona/v1",
+ "persona": "designer",
+ "kept_by": "developer@book.the-ultimate-insider",
+ "fictional": true,
+ "note": "A kind of reader, not a person. Every name, date and line here is fictional; nobody has been sent this page. The personal part (a reader's name) would travel only in the link's fragment, which the browser never sends.",
+ "title": "For a designer",
+ "reader": "an editorial designer who lays out non-fiction books and long features",
+ "judges": "Do the pages, maps and pictures carry the argument?",
+ "why_you": "You make long arguments readable for a living. Where a picture should replace a paragraph here, or a paragraph a picture, you will see it before anyone else.",
+ "ask": {
+  "by": "Friday 13 November 2026",
+  "by_note": "an example date: nothing has been sent"
+ },
+ "gets": [
+  "your name in the acknowledgements, if you want it there",
+  "the first edition when it ships",
+  "a reply to every comment, and a page showing what your comments changed"
+ ],
+ "edition": {
+  "name": "RC1",
+  "source": "team/conductor/rc1/",
+  "commit": "5d73a4e"
+ },
+ "chapters": [
+  {
+   "file": "00b-how-to-read-a-map.md",
+   "why": "the book's most visual chapter",
+   "theme": "A"
+  },
+  {
+   "file": "07-building-the-talk.md",
+   "why": "making a talk that is itself a visual object",
+   "theme": "A"
+  }
+ ],
+ "chapters_note": "Chapters proposed by the storyteller (team/storyteller/review-questions.md), a proposal until the editor rules on the length per page; the 'short of time' chapter is developer@'s proposal.",
+ "questions_source": "team/storyteller/review-questions.md (storyteller@book.the-ultimate-insider, 31 October 2026, reply storyteller__018)",
+ "questions": [
+  {
+   "after": "00b-how-to-read-a-map.md",
+   "q": "Did the maps help you understand, or did you read past them?"
+  },
+  {
+   "after": "00b-how-to-read-a-map.md",
+   "q": "Which figure would you redraw first, and how?"
+  },
+  {
+   "after": "00b-how-to-read-a-map.md",
+   "q": "Where should a picture replace a paragraph, or a paragraph replace a picture?"
+  },
+  {
+   "after": "00b-how-to-read-a-map.md",
+   "q": "Would you know a map was coming before you met it?"
+  },
+  {
+   "after": "07-building-the-talk.md",
+   "q": "Can you picture the talk from this chapter? What image is missing?"
+  },
+  {
+   "after": "07-building-the-talk.md",
+   "q": "Which of the team's visual choices would you keep in the book's own design?"
+  },
+  {
+   "after": "07-building-the-talk.md",
+   "q": "Where does the page feel crowded or thin?"
+  }
+ ],
+ "short": "07-building-the-talk.md",
+ "short_note": "the one chapter to read when short of time: a proposal by developer@ from synthetic@'s runs, for the editor to keep or change",
+ "questions_label": "storyteller"
+}
