@@ -18,3 +18,7 @@ The voice read begun: chapters 0 and 00 against the newsroom writer's rules, fin
 ## 31 October 2026, about 15:20 UTC
 
 The voice read, chapters 00b and 01, by file and line to the conductor (publisher__015). Next: 02 onward, unless the T10 sample comes first.
+
+## 31 October 2026, about 17:15 UTC
+
+Chapters 02 and 03 (publisher__016). Next: 04 onward, after the T10 sample.

@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled, every two hours at :47 London",
+ "started": "2026-10-31T16:48:25Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. Letter 029 answered; the sample's inputs read now (the editor's words in briefs/2026-10-31__in-session/, claims/first-ten-pages-numbers.md, LAB 18), notes in team/publisher/ only, no sample text. 2. Voice read of 02-midnight-an-empty-repository.md and 03-a-mandate-you-can-read.md, findings by file and line to the conductor, no chapter changed. 3. Boards 003 and 008, debrief, status.",
+   "at": "2026-10-31T16:48:56Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Writes only own notes, boards, debrief, status; voice read changes no chapter; no secrets, no unsigned decision, no Cold-Read crossing. Conditions: no sample text copied out; vault_check comms.",
+   "at": "2026-10-31T16:49:09Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Letter 029 filed; T10 inputs read, notes in team/publisher/t10-notes.md, no sample text; voice read of 02 and 03 to the conductor (publisher__016); no chapter changed; boards 003, 008, debrief, status.",
+   "at": "2026-10-31T16:50:01Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "1) 029 answered, T10 inputs noted, no sample text. 2) Voice read of 02 and 03 by file and line; no manuscript in the diff. 3) Boards 003, 008, debrief, status. Nothing unplanned.",
+   "at": "2026-10-31T16:50:44Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Diff read: 0 outside scope; vault_check and gate clean (325); manuscript untouched; no em-dashes, keys, contact details or private people; RiskMandate's ownership left to the editor, not assumed.",
+   "at": "2026-10-31T16:51:00Z"
+  }
+ },
+ "closed": "2026-10-31T16:51:00Z",
+ "outcome": "ok"
+}

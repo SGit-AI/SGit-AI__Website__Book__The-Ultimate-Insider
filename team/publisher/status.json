@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "publisher",
- "as_of": "2026-10-31T15:22:00Z",
- "round": 22,
- "state": "T10 sample: the build ready (--book, --name, --stamp), waiting on the storyteller's outline; the voice read through chapter 01",
+ "as_of": "2026-10-31T17:17:00Z",
+ "round": 23,
+ "state": "T10 inputs read (t10-notes.md); the sample is written at the 18:47 wake; the voice read through chapter 03",
  "done": [
   {
    "what": "session key published: team/publisher/key.json, key.png, sessions/session_01Kw9UwDVeRbKJZUWiRoRrHK/",
@@ -136,6 +136,10 @@
   {
    "what": "build_book.py --book, --name, --stamp for the T10 sample, tested; board 008; the voice read of chapters 00b and 01 (publisher__015)",
    "when": "2026-10-31T15:20Z"
+  },
+  {
+   "what": "the T10 inputs read and noted (team/publisher/t10-notes.md); the voice read of chapters 02 and 03 (publisher__016)",
+   "when": "2026-10-31T17:15Z"
   }
  ],
  "next": [
@@ -172,6 +176,6 @@
   "previous": "trig_01D2wnhQDySKsG8ZL9XLmNsW (first account, paused, not deleted)",
   "changed": "2026-10-31T02:20:11Z, not by this session: back to every two hours round the clock, matching Q6 as amended (01:32 UTC) and the conductor's letter 018; recorded, not changed back; the editor's word for it asked onto dev (publisher__009). Before: 00:50:06Z, to the day schedule at Q6 as first signed; recorded on dev by the conductor (letter 021), open decision W1"
  },
- "requests": "taken: conductor__002 to 028, designer__013 to 030, storyteller__010, 015; all answered; T10 waits on the storyteller",
+ "requests": "taken: conductor__002 to 029, designer__013 to 030, storyteller__010, 015; T10 is written at 18:47",
  "cadence": "active"
 }
