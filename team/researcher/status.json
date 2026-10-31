@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-10-31T14:55:00Z",
+ "as_of": "2026-10-31T16:55:00Z",
  "round": 1,
- "state": "working: 14:32 wake; 92 claims (76 checked, 5 corrected, 11 open); a number sheet ready for the first ten pages",
+ "state": "working: 16:32 wake; 94 claims (78 checked, 5 corrected, 11 open); the comparison set registered (Done when 3)",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -116,6 +116,10 @@
   {
    "what": "the first ten pages: a number sheet (claims/first-ten-pages-numbers.md), the Vibathon as context (C091), night against day for T18 (C092)",
    "when": "2026-10-31T14:55:00Z"
+  },
+  {
+   "what": "the comparison set registered (C094, claims/comparison-set.md); Leanpub's ranking rule read at source (C093); letter 009 item 2 closed",
+   "when": "2026-10-31T16:55:00Z"
   }
  ],
  "next": [
@@ -130,10 +134,6 @@
   {
    "what": "E04's printed figures read at their primary sources",
    "why": "C090"
-  },
-  {
-   "what": "The Leanpub studies' search-summary items marked; the comparison set's titles as a list in claims/",
-   "why": "letter 009 item 2; ROLE.md responsibility 5; Done when 3"
   },
   {
    "what": "RC1 in the editor's voice (board 001); the tenth 11b quotation (C074)",
@@ -254,8 +254,8 @@
    "id": "R11",
    "from": "conductor (the editor's request)",
    "request": "comms/mail/mailroom/researcher/conductor__009-leanpub-studies.eml",
-   "state": "in progress: items 1 and 3 done (C075 to C077, the view); item 2 next",
-   "reply": "comms/mail/mailroom/conductor/researcher__007-leanpub-counts-and-free-minimum.eml; board 003"
+   "state": "done: C075 to C077, C093, C094",
+   "reply": "comms/mail/mailroom/conductor/researcher__007-leanpub-counts-and-free-minimum.eml; board 003; comms/mail/mailroom/conductor/researcher__015-comparison-set-and-009.eml"
   },
   {
    "id": "R12",
