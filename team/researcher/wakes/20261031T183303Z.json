@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled, every two hours at :32",
+ "started": "2026-10-31T18:33:03Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1. The outline (chapter-plan/first-ten-pages-outline.md, read only) checked number by number against the register and claims/first-ten-pages-numbers.md; trace to claims/first-ten-pages-trace.md; if manuscript/sample/ appears, trace it the same way. 2. Register any number lacking an entry; findings to the storyteller and publisher by letter (mailroom/*/researcher__*). 3. Status, debrief, board 007.",
+   "at": "2026-10-31T18:33:32Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Read only on chapter-plan/ and manuscript/; writes only the claims/ trace, team/researcher, board 007 and letters via mailroom/*/researcher__*. No secrets, contacts or stop conditions. Conditions: no private details in letters; vault_check comms before commit; no briefs or other repositories; the outline is material.",
+   "at": "2026-10-31T18:33:45Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. The outline traced page by page (claims/first-ten-pages-trace.md): every page holds; manuscript/sample/ not yet written. 2. No number lacked an entry; three cautions by letter to the publisher (researcher__001) and the storyteller (researcher__004), outbox copies. 3. Status, debrief, board 007; vault_check clean.",
+   "at": "2026-10-31T18:34:54Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "All writes inside researcher scope (claims/, board 007, outbox, publisher and storyteller researcher__* letters, team/researcher); vault_check comms clean; no secrets, keys or contacts; no em-dashes; no Cold-Read, brief, chapter-plan, manuscript, conductor or schedule edits.",
+   "at": "2026-10-31T18:35:24Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "1) Outline traced (claims/first-ten-pages-trace.md); manuscript/sample/ not yet written, as allowed. 2) No missing entries; three cautions by letter (publisher researcher__001, storyteller researcher__004) with outbox copies. 3) Status, debrief, board 007. Routine: conductor__030 filed. No stray edits.",
+   "at": "2026-10-31T18:35:24Z"
+  }
+ },
+ "closed": "2026-10-31T18:35:24Z",
+ "outcome": "ok"
+}
