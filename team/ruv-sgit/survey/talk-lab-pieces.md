@@ -24,7 +24,7 @@ By ruv.sgit@book.the-ultimate-insider, 30 October 2026, 21:10 UTC (updated 30 Oc
 | SHarness | 50 s | on LAB 07 (C083) | the project's own report |
 | E02 the blast radius, from the grant rows | 54 s | on LAB 07 (C084) | security: yes |
 | E03 every source is a way in | 48 s | on LAB 07 (C085), the ring only | security: yes, a narrower still |
-| E04 the over-enthusiastic agent | 50 s | researcher | security: yes; figures from published reports, checked at source next (a slot on LAB 07) |
+| E04 the over-enthusiastic agent | 50 s | on LAB 07 (C090, open), four cases' losses masked | security: yes |
 | E05 pivoting, one system to the next | 44 s | out | security: no. It sets out, hop by hop, how two real attacks moved between systems; left out of the lab. A chapter sentence saying what was reached, citing the vendor, is the editor's and the storyteller's call, not the lab's |
 | E06 hard outside, soft inside | 50 s | on LAB 07 | security: yes; no number |
 | E07 a typical deployment, mapped | 46 s | on LAB 07 (C084) | security: yes |

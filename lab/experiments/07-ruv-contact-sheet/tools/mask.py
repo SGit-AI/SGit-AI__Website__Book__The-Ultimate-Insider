@@ -21,6 +21,9 @@ EDITS = {
    ('mask', (1900, 356, 2482, 602), 'C086: "8 of 12 still bounded by nothing" is the piece\'s projection, in no data file'),
    ('mask', (1268, 1228, 2262, 1394), 'the same projection, "(8 of 12)", and the eight still-lit rows that count it (security__007)'),
    ('mask', (56, 1326, 1184, 1414), 'the same projection, "4 rows go dark, 8 stay lit"')],
+ 'studio-lab-e04-t50.png': [
+   ('mask', (1976, 662, 2526, 1026), 'C090: the losses of four cases the talk team did not check at source (Antigravity, Codex, OpenClaw, Meta)'),
+   ('mask', (48, 1288, 2330, 1363), 'the frame\'s own count of its cases, not in the register')],
  'studio-lab-e03-t48.png': [('blank', (1520, 360, 2560, 1400), 'security: the ring only, not the side panel\'s per-source detail')],
 }
 KEEP = ['studio-lab-e01-t48.png', 'studio-lab-e14-t52.png', 'studio-lab-e06-t50.png', 'studio-lab-e08-t48.png',
