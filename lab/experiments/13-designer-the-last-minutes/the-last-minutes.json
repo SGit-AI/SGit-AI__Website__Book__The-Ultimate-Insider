@@ -1,0 +1,13 @@
+{
+ "alt": "The last minutes of 29 October 2026, to scale: part 1 ready for its lock at 18:20, the player's last fix at 18:37, part 1 not yet locked at 18:39, the hold at 18:44, the last work commit at 18:45 and the last release at 18:46.",
+ "break_after_minutes": 360,
+ "source": "claims/register.json (each event's claim id)",
+ "events": [
+  {"t": "18:20", "label": "Part 1: ready for its lock", "claim": "C018"},
+  {"t": "18:37", "label": "The player's last fix", "claim": "C018"},
+  {"t": "18:39", "label": "Part 1: not yet locked", "claim": "C018"},
+  {"t": "18:44", "label": "The hold: pause all actions", "claim": "C006", "accent": true},
+  {"t": "18:45", "label": "The last work commit", "claim": "C005"},
+  {"t": "18:46", "label": "The last release", "claim": "C005"}
+ ]
+}

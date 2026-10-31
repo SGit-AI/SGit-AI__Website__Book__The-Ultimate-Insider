@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "designer",
- "as_of": "2026-10-31T07:30:00Z",
+ "as_of": "2026-10-31T09:30:00Z",
  "round": 0,
- "state": "thirteenth wake (scheduled): the publisher's build judged (pages 7 and 36 right); LAB 05/06 updated; LAB 11, the conductor in detail; the lab PDF is 29 pages",
+ "state": "fourteenth wake (scheduled): an id ledger in the lab build; LAB 12 (ruv.sgit, chapter 4) and LAB 13 (chapter 1) in; the publisher's layout judged; the lab PDF is 34 pages",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/designer/ into team/designer/ (drafts left in place)",
@@ -92,16 +92,20 @@
   {
    "what": "LAB 11, the conductor in detail (three poses, lab/characters/make_conductor.py); the publisher's visual-pass build judged",
    "when": "2026-10-31"
+  },
+  {
+   "what": "id ledger (lab/tools/ids.json printed); LAB 12 and LAB 13; the publisher's 10 pt layout judged",
+   "when": "2026-10-31"
   }
  ],
  "next": [
   {
-   "what": "chapter experiments with ruv.sgit, chapters 1 and 4 first",
-   "why": "issue 010 (T4)"
-  },
-  {
    "what": "the next components: a small Wardley map with side notes, a counter strip",
    "why": "issue 013 (A12, T8)"
+  },
+  {
+   "what": "more chapter experiments with ruv.sgit (a couple per chapter)",
+   "why": "issue 010 (T4)"
   },
   {
    "what": "set the conductor's lines when the storyteller replies",
@@ -109,13 +113,13 @@
   },
   {
    "what": "the CSS fragment and Markua attributes for the publisher once P2 is signed",
-   "why": "issue 012, publisher__003"
+   "why": "issue 012"
   }
  ],
  "asks": [
   {
    "to": "editor",
-   "what": "print lab/pdf/the-ultimate-insider-lab.pdf at actual size (29 pages) and tick LAB 01 to LAB 11"
+   "what": "print lab/pdf/the-ultimate-insider-lab.pdf at actual size (34 pages) and tick LAB 01 to LAB 13"
   },
   {
    "to": "editor",

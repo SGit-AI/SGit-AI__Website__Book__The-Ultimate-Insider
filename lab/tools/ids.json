@@ -1,5 +1,19 @@
 {
- "about": "The id each experiment prints under, when it differs from the one its folder declares. An id once printed is never reused (lab/README.md, The build): the lab PDF printed LAB 04 as the designer's condensed storyboard first, so ruv.sgit's next two print as LAB 05 and LAB 06 (their folders declare so since 30 October 2026, 23:28 UTC; the map entries are gone). Experiments under held are left out of the print, with the reason, until the designer's verdict changes. (31 October 2026: LAB 07's hold lifted, its grids 1fr 1fr; ruv.sgit's M03 explained prints as LAB 10, LAB 09 being the timeline, printed first.) (ruv.sgit's M03 explained moved to 10-ruv-meet-the-team-explained, declaring LAB 10; the map entry is gone.)",
- "print_as": {},
- "held": {}
+ "about": "The id each experiment prints under. 'printed' is a ledger: once a folder has printed under an id it keeps it, and no other folder can take it (the editor may hold that page on paper). A new folder prints under its declared id if that is free, otherwise under the next free one, and is added to the ledger by the build. 'held' leaves an experiment out of the print with its reason. (30 and 31 October 2026: three collisions in a day, each fixed by hand, before the ledger.)",
+ "held": {},
+ "printed": {
+  "01-designer-visual-language": "LAB 01",
+  "01-ruv-the-building-three-frames": "LAB 02",
+  "02-ruv-the-building-one-long-image": "LAB 03",
+  "04-designer-condensed-storyboard": "LAB 04",
+  "03-ruv-could-have-been-worse-frames": "LAB 05",
+  "04-ruv-meet-the-team-frames": "LAB 06",
+  "07-ruv-contact-sheet": "LAB 07",
+  "08-designer-control-before-after": "LAB 08",
+  "09-designer-timeline": "LAB 09",
+  "10-ruv-meet-the-team-explained": "LAB 10",
+  "11-designer-the-conductor": "LAB 11",
+  "11-ruv-five-step-wake-strip": "LAB 12",
+  "13-designer-the-last-minutes": "LAB 13"
+ }
 }

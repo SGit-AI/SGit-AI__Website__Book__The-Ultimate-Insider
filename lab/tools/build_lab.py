@@ -67,17 +67,27 @@ def experiments():
         meta["_pages"] = d / "pages.html" if meta["layout"] == "@folder" else LAB / "tools" / meta["layout"]
         meta["_dir"] = f"../experiments/{d.name}"
         found.append((d, meta))
-    ids_file = json.loads((LAB / "tools" / "ids.json").read_text())
-    print_as, held = ids_file["print_as"], ids_file.get("held", {})
+    ids_path = LAB / "tools" / "ids.json"
+    ids_file = json.loads(ids_path.read_text())
+    printed, held = ids_file.setdefault("printed", {}), ids_file.get("held", {})
     for d, meta in [e for e in found if e[0].name in held]:
         print(f"held: {d.name} ({held[d.name]})")
     found = [e for e in found if e[0].name not in held]
-    for d, meta in found:
-        meta["id"] = print_as.get(d.name, meta["id"])
-    ids = [m["id"] for _, m in found]
-    dup = sorted({i for i in ids if ids.count(i) > 1})
-    if dup:
-        sys.exit(f"two experiments print as {', '.join(dup)}: give one a new id in lab/tools/ids.json")
+    taken = set(printed.values())
+    for d, meta in sorted(found, key=lambda e: e[0].name):    # the ledger first: a printed id never moves
+        if d.name in printed:
+            if meta["id"] != printed[d.name]:
+                print(f"{d.name}: declares {meta['id']}, prints as {printed[d.name]} (the ledger)")
+            meta["id"] = printed[d.name]
+    for d, meta in sorted(found, key=lambda e: e[0].name):    # then new folders: their own id if free, else the next free one
+        if d.name not in printed:
+            if meta["id"] in taken:
+                n = max(int(i.split()[1]) for i in taken) + 1
+                print(f"{d.name}: declares {meta['id']}, already printed by another; prints as LAB {n:02d}")
+                meta["id"] = f"LAB {n:02d}"
+            printed[d.name] = meta["id"]
+            taken.add(meta["id"])
+    ids_path.write_text(json.dumps(ids_file, indent=1) + "\n")
     return sorted(found, key=lambda e: e[1]["id"])
 
 

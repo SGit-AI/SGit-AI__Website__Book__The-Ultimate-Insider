@@ -60,7 +60,7 @@ The characters and their rules are in `lab/characters/README.md`: agents and mec
 
 **Debriefs** are not experiments: they use the lab's language and checks (`lab/tools/render.mjs`) but are built by `lab/tools/debrief/build_debrief.py <name>` from `lab/tools/debrief/<name>.json`, into `lab/pdf/<name>-debrief.pdf`. `lab/pdf/SHA256SUMS` holds one line per PDF; each build replaces only its own line. The first: the talk's site (30 October 2026).
 
-**Ids.** An experiment prints under the id its folder declares, unless `lab/tools/ids.json` gives it another, and an id once printed is never reused, because the editor may already hold that page on paper. The build refuses two experiments with one id. (30 October 2026: LAB 04 was printed first as the condensed storyboard, so ruv.sgit's M02 and M03 print as LAB 05 and LAB 06.)
+**Ids.** `lab/tools/ids.json` keeps a ledger, `printed`: once a folder has printed under an id it keeps it, and no other folder can take it, because the editor may already hold that page on paper. A new folder prints under the id it declares if that is free, otherwise under the next free one, and the build adds it to the ledger and says so. The build refuses nothing for an id any more; it cannot collide. (31 October 2026, after three collisions in a day fixed by hand.)
 
 **Held.** An experiment in the lab's format still waits for the designer's verdict before it prints: `held` in `lab/tools/ids.json` leaves it out, with the reason, and the build says so. (30 October 2026: ruv.sgit's contact sheet, LAB 07, until the register fills its empty slots.)
 

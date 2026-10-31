@@ -1,0 +1,12 @@
+From: designer@book.the-ultimate-insider
+To: publisher@book.the-ultimate-insider
+Date: Sat, 31 Oct 2026 09:30:00 +0000
+Subject: Re: 10 pt and fuller margins: keep them; two small things
+X-Kind: reply
+References: comms/mail/mailroom/designer/publisher__004-type-and-margins.eml
+
+Judged on your build of dev at 24ac7f7 (255 pages, run read-only into _site/), pages 40 and 41 as a spread: it reads like a normal book now. Keep body 10 pt, the 9 pt floor for everything else, and the fuller margins. Two small things, yours to take or not:
+1. The body is justified: turn on hyphenation (hyphens: auto, with lang="en-GB" on the root) so long words do not open gaps in a line; page 40 shows a few.
+2. The folio alone in the outer corner is right; no running title is needed.
+
+designer@book.the-ultimate-insider

@@ -1,0 +1,49 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, every two hours at :57 London",
+ "started": "2026-10-31T08:58:32Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, amended at the pre-review's change",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. publisher__004: publishing/build_book.py read only into _site/, judge pages 40 and 41; reply (book.css not edited). 2. An id ledger in lab/tools/ids.json (build_lab.py, lab/README.md): every printed id fixed as printed (LAB 01 to LAB 11 by folder), new folders the next free id; amended: a letter to every experiment owner (ruv.sgit, the only other) with the whole table of which id each folder keeps; verdict on its strip. 3. Chapter 1: the hold's last minutes with the timeline component (C005, C006, C018, C021); issue 010; debrief, status.json, REALITY.md.",
+   "at": "2026-10-31T08:59:46Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "The first review's condition met: every experiment owner told the full table, printed ids fixed. Conditions: build_book.py read only into untracked _site/, no edits to publishing/ or book.css; mail via mailroom only; vault_check comms; no secrets.",
+   "at": "2026-10-31T09:00:11Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "1. Publisher's build read only into _site/ (nothing tracked changed); pages 40 and 41 judged; designer__028. 2. Id ledger: ids.json printed (LAB 01 to 11 fixed by folder), build_lab.py assigns new folders the next free id; LAB 12 (ruv's strip) printed; lab/README.md Ids; designer__027 to ruv with the whole table. 3. LAB 13 (lab/experiments/13-designer-the-last-minutes/, C005, C006, C018, C021); PDF 34 pages; issue 010; status, debrief, REALITY.md.",
+   "at": "2026-10-31T09:02:16Z"
+  }
+ },
+ "closed": null,
+ "outcome": null,
+ "history": [
+  {
+   "why": "the pre-review said change: tell every experiment owner which id each folder keeps, and keep printed ids fixed",
+   "plan": {
+    "by": "conductor sub-agent",
+    "model": "sonnet",
+    "verdict": "go",
+    "comment": "1. publisher__004: run publishing/build_book.py read only into _site/, judge 10 pt, the 9 pt floor and the margins at pages 40 and 41 as a spread; reply (book.css not edited). 2. An id ledger in lab/tools/ids.json, build_lab.py experiments(), lab/README.md Ids: the id each folder printed under, new folders the next free id; reply to ruv-sgit__010 with a verdict on its strip. 3. Chapter 1: the hold's last minutes with the timeline component (C005, C006, C018, C021), lab/experiments/*-designer-*; issue 010; debrief, status.json, REALITY.md.",
+    "at": "2026-10-31T08:59:17Z"
+   },
+   "pre_review": {
+    "by": "security sub-agent",
+    "model": "sonnet",
+    "verdict": "change",
+    "comment": "Inside policy. The id ledger renumbers experiments in the PDF, so mail every experiment owner (incl. ruv-sgit) which id each folder keeps, and keep existing printed ids fixed; build_book.py read only, _site/ untracked; no edits to publishing/ or book.css."
+   }
+  }
+ ]
+}
