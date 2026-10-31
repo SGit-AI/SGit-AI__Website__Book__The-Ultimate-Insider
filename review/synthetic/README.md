@@ -8,6 +8,8 @@
 - `run.mjs`: the runner. It serves `_site/` on a local port, opens `/review/<persona>/` in Chromium with the persona's device and a fictional token in the fragment, and writes `observations.json` and three screenshots: load time, console errors, paragraph anchors, smallest type, line length, overflow, what one click on a paragraph does, and every request to another host, blocked and listed.
 - `<persona>/<run>/`: one folder per persona per run: `observations.json`, the screenshots, and `review.md`, the persona's review in its own voice with its scores, written from what the run saw. `runs/<run>.md`: the summary for the developer and the editor, with what changed since the last run.
 
+- `names/<run>.md` and `.json`: candidate titles tested with the personas, title and subtitle alone; a test, never a choice.
+
 ## Running it
 
 ```
