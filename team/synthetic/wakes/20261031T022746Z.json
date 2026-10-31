@@ -24,6 +24,13 @@
    "verdict": "done",
    "comment": "8d0b34f on c9fe955: policy widened (two paths, the editor's word); personas kept; ROLE.md when it runs; reading-time.md; eight RC1 reads by sub-agents (one file each), quotes checked 45/45 after one correction; briefing; build_section.py and print_pdf.mjs; src/pages/personas/ (index + 8) and the 18-page PDF; letter to the conductor (nav link); issue 004 done; status, debrief, README, REALITY.md. Gate clean, 0 outside scope, vault_check clean, no overflow at 1280 and 390.",
    "at": "2026-10-31T02:33:53Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Item 1 done (policy only the two paths, citing the editor's word; ROLE.md, status, reading-time.md). Item 2 done (eight rc1 reads and briefing, labelled synthetic). Item 3 done (build_section.py, personas index and 8 pages, PDF, letter 005, issue 004, debrief, REALITY.md). Conditions kept: labels on all 9 pages, no manuscript change, nav link by letter. Nothing unplanned.",
+   "at": "2026-10-31T02:34:17Z"
   }
  },
  "closed": null,
