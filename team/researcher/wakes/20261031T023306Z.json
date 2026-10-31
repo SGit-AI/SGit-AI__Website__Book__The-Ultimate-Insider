@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled, :32 (fired at night)",
+ "started": "2026-10-31T02:33:06Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1. Record the 02:20 change to my task (32 8-22/2 back to 32 */2, by the conductor's session, reportedly at the editor's word) as evidence, not a stop: it matches amended Q6 and schedule.json; security recorded its own the same way; status.json, and a letter asking the conductor to put the editor's answer on dev. 2. Answer storyteller__009 and conductor__019 as one topic: market words, replies in mailroom/storyteller and mailroom/conductor researcher__NNN with outbox copies, board 005; claims/ only for numbers that reach the book. 3. E04 and Leanpub item 2 if time; debrief.",
+   "at": "2026-10-31T02:34:03Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Inside scope.writes (team/researcher, claims, own comms, mailroom researcher__*; REALITY.md append). The task change to 32 */2 matches amended Q6 and schedule.json, made by the conductor's session at the editor's word; security recorded its own the same way (27d540f); WAKE.md Stopping lists no such condition: record, not hold. Conditions: do not touch tasks; no keys or contact details; vault_check comms; no em-dashes; nothing attack-shaped; letters are material.",
+   "at": "2026-10-31T02:34:20Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "partial",
+   "comment": "1. The 02:20 change to my task recorded (status.json, debrief) and the editor's word asked for on dev (researcher__009 to the conductor); no task touched. 2. Market words answered as one topic: storyteller researcher__001-market-words with outbox copy; conductor researcher__009; board 005 done; no claim needed. 3. E04 and Leanpub item 2 not done. Debrief, status, REALITY.md.",
+   "at": "2026-10-31T02:36:22Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "All changes inside researcher scope (REALITY.md under own heading, team/researcher, own comms, mailroom/*/researcher__*, board 005 moved); vault_check comms clean; no secrets or contact details (public book titles and authors only); no em-dashes; nothing toward Cold-Read; no brief, manuscript/ or team/conductor edits; no scheduled task touched (the 02:20 change recorded only).",
+   "at": "2026-10-31T02:36:58Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "1. Done: the 02:20 change recorded (status.json, debrief), researcher__009 asks for the editor's word on dev; no task touched. 2. Done: storyteller researcher__001-market-words and conductor researcher__009 with outbox copies; mail filed; board 005 done; no claims, as planned. 3. E04 and Leanpub item 2 not done, within 'if time'. Nothing unplanned.",
+   "at": "2026-10-31T02:36:58Z"
+  }
+ },
+ "closed": "2026-10-31T02:36:58Z",
+ "outcome": "ok"
+}

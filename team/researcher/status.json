@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-10-31T00:58:00Z",
+ "as_of": "2026-10-31T03:00:00Z",
  "round": 1,
- "state": "working: 00:32 wake; 86 claims (72 checked, 5 corrected, 9 open); day cadence; the studio pieces registered but E04",
+ "state": "working: 02:32 wake; 86 claims (72 checked, 5 corrected, 9 open); active, round the clock at amended Q6",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -88,16 +88,16 @@
   {
    "what": "task moved to day hours (Q6); e09, e10, SHarness and seven more studio pieces registered for ruv-sgit (C082 to C086), one mask, E04 waiting",
    "when": "2026-10-31T00:58:00Z"
+  },
+  {
+   "what": "the market words for the new name answered to the storyteller and the conductor (no clash; 'agentic workflows' crowded, 'agentic team' open); my task's 02:20 change recorded",
+   "when": "2026-10-31T03:00:00Z"
   }
  ],
  "next": [
   {
    "what": "E04's outside cases checked at source",
    "why": "ruv-sgit__003"
-  },
-  {
-   "what": "The market words for the book's new name",
-   "why": "conductor__019"
   },
   {
    "what": "The Leanpub studies' search-summary items marked; the comparison set's titles as a list in claims/",
@@ -124,7 +124,7 @@
  ],
  "task": {
   "id": "trig_01Q1gWPQbdrBw3xwfRdVEGph",
-  "cron": "CRON_TZ=Europe/London 32 8-22/2 * * *",
+  "cron": "CRON_TZ=Europe/London 32 */2 * * *",
   "session": "session_01Kw9UwBhzn98NK3Ydio5nEP",
   "created": "2026-10-30T13:16:32Z",
   "prompt": "team/conductor/schedule.json, runs entry for researcher, word for word",
@@ -133,7 +133,7 @@
    "session": "session_01Kw9UwBta1dcP9qBJUURLPZ",
    "state": "paused on the first account at the editor's word, about 10:50 UTC"
   },
-  "changed": "2026-10-31T00:34:27Z, to the day schedule at Q6 (book.json, signed) and schedule.json"
+  "changed": "2026-10-31T02:20:10Z, set back to round the clock from the conductor's session (amended Q6, schedule.json); not by this member; recorded, not held; the editor's word asked for on dev (researcher__009)"
  },
  "issues": [
   {
@@ -266,8 +266,15 @@
    "id": "R19",
    "from": "conductor (the editor's memo)",
    "request": "comms/mail/mailroom/researcher/conductor__019-market-words-for-the-name.eml",
-   "state": "open",
-   "reply": "board 005"
+   "state": "done",
+   "reply": "comms/mail/mailroom/storyteller/researcher__001-market-words.eml; comms/mail/mailroom/conductor/researcher__009-market-words-and-my-task.eml"
+  },
+  {
+   "id": "R20",
+   "from": "storyteller",
+   "request": "comms/mail/mailroom/researcher/storyteller__009-market-words.eml",
+   "state": "done",
+   "reply": "comms/mail/mailroom/storyteller/researcher__001-market-words.eml"
   }
  ],
  "cadence": "active"
