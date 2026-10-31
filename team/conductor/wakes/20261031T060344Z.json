@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled, every two hours at :02",
+ "started": "2026-10-31T06:03:44Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "1. Answer historian 009, researcher 010, publisher 010 (mailroom and outbox). 2. book.json: NS1 notes the researcher's exact-title check; footnotes print at chapter end only, a question for the editor if he wants them at the foot of the page. 3. Brief 15 in team/conductor/editor-briefs/ (conductor amends: not reviews/), status.json; vault_check; nothing else.",
+   "at": "2026-10-31T06:04:10Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "In scope; no stop condition; NS1 only annotated; the footnote item a question for the editor; replies by mail only; vault_check before commit.",
+   "at": "2026-10-31T06:04:22Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

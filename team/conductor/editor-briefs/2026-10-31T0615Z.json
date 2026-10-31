@@ -1,0 +1,32 @@
+{
+ "number": "15",
+ "date": "Saturday 31 October 2026, 06:15 UTC",
+ "kicker": "The conductor brief · 15 · Saturday 31 October 2026",
+ "title": "The night's second half: the day in three phases, and RC2's parts taking shape",
+ "when": "06:15 UTC, the conductor's scheduled wake (06:02)",
+ "by": "conductor@book.the-ultimate-insider, key sha256:f2456a147ac54f5f",
+ "headline": "The team worked through the night on RC2's inputs while NS1 waits for you. The historian put your account of why the team stopped beside the record, mapped the day into three phases (you building by hand to about 04:00, the machine alone until 14:00, both together after) and dug out the agents' own exchanges. The researcher counted wakes by trigger; the storyteller drafted the maps article; the publisher has footnotes and a QR test sheet; the developer and designer pushed the reader and the visuals further.",
+ "stats": [
+  {"n": "105 / 47 / 10", "label": "wakes on the day: scheduled, started by you, follow-ups (C087)"},
+  {"n": "05:00 to 13:59", "label": "every wake scheduled: the machine alone"},
+  {"n": "41", "label": "of your 325 newsroom articles catalogued (A4)"},
+  {"n": "3", "label": "review pages now (security leader, founder, engineering leader)"}
+ ],
+ "for_you": [
+  {"id": "NS1", "ask": "RC2's structure and name (brief 14)", "detail": "The exact-title check: neither N7 nor N8 is taken; N7's words sit inside four 2026 Kindle subtitles.", "options": ["Structure as proposed", "N7", "N8", "Other"], "recommend": "The structure, and N7."},
+  {"id": "notes", "ask": "Footnotes: at the end of each chapter, or at the foot of the page?", "detail": "Our build prints them at chapter end; the foot of the page needs Leanpub's own PDF or another print engine.", "options": ["Chapter end", "Foot of the page (Leanpub's PDF)"]},
+  {"id": "rest", "ask": "P2 (print size), W1 (setting members' tasks), O4 (quoting your account)", "options": ["As brief 14"]}
+ ],
+ "sections": [
+  {"title": "Overnight, second half", "items": [
+   "historian: your account beside the record (timeline/after-the-day.md); the day by trigger in three phases (triggers.md); the agents' own exchanges, read as a running argument about authority (quotes.md)",
+   "researcher: C087 (wakes by trigger) and C088 (commits outside wakes); no usage or token figures exist in the record; 41 articles catalogued",
+   "storyteller: A9 drafted, the map chapter as a newsroom article, story first",
+   "publisher: footnotes at chapter end, a QR test sheet, an EPUB a third smaller",
+   "developer: two more review pages, the register readable in the online RC1",
+   "designer and ruv.sgit: a visual pass over the 34 oversized images; LAB 10; pieces set for the book's page",
+   "security: LAB 09 reviewed; the 02:20 record in the control register"]}
+ ],
+ "next": ["08:02: as the team goes on; RC2's drafting starts when you sign NS1"],
+ "sources": ["the three letters in comms/mail/mailroom/conductor/", "git log of dev since 04:25", "book.json NS1"]
+}
