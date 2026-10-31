@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Every write inside scope.writes (review/tools, src/pages/review/read, team/developer, comms own paths, REALITY.md append); no overlaps. The cron in status.json is a record only; the signed, amended Q6 explains the change: not a stop. Conditions: read claims/ only; no request to another host; nothing from Cold-Read beyond RC1; vault_check on comms; no keys or contacts.",
    "at": "2026-10-31T03:14:18Z"
+  },
+  "work": {
+   "by": "developer",
+   "model": "",
+   "verdict": "done",
+   "comment": "1a) Q6 amended: the 02:20 task change from the conductor's session checked against book.json and WAKE.md, recorded in status.json (board 006). 1b) A8 first slice: review/tools/make_reader.py writes src/pages/review/read/ (18 chapters, 1377 sources linked where verified in this repository or the talk's at 298be4e, 540 commits; claims with rerun commands; per-paragraph counts); refuses shallow clones; reply developer__008, board 007, inbox copies. 2) Debrief, status, REALITY.md. Gate clean, no overlaps, vault_check clean; checked at 1280 and 390, only the site's own host asked.",
+   "at": "2026-10-31T03:17:26Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (post_review brief)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Every path inside scope.writes; REALITY.md one appended line; claims/, briefs/, version unchanged. Only added host github.com, as plain anchors (190 to this repo, 718 to the talk's); no script, iframe or external image in the read pages, only the site's own pen.css. No Cold-Read links; no key, token or contact detail in comms. Gate clean (268), no overlaps, vault_check clean.",
+   "at": "2026-10-31T03:17:57Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (post_check brief)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Item 1 (cadence) done: status.json records the 12 1-23/2 cron as set from the conductor's session; board 006; no update_trigger. Item 2 (A8) done: make_reader.py and src/pages/review/read/ (index plus 18 chapters), shallow clones refused, board 007, reply developer__008, inbox copies. Item 3 done: debrief, status, REALITY.md line. Conditions kept; only anchors added (dtex.ai links come from RC1's own text). Nothing unplanned.",
+   "at": "2026-10-31T03:18:18Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-31T03:18:18Z",
+ "outcome": "ok"
 }
