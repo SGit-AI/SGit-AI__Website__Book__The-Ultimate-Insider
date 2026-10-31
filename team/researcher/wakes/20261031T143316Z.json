@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled, every two hours at :32",
+ "started": "2026-10-31T14:33:16Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1. Reply to conductor__028 (pages undrafted; the researcher traces the draft when it exists) and note ruv-sgit__009; letter mailroom/conductor/researcher__NNN with outbox copy. 2. Register the Vibathon debrief as context only (Newsroom 0bc65e324, its caveats: the organiser's figures its own, no participant named) and a headline-numbers sheet with ids for the writers (claims/register.json, claims/first-ten-pages-numbers.md). 3. T18: day against night from the log and wakes as a new claim; tokens and network calls not in the record (C021). Debrief, status.",
+   "at": "2026-10-31T14:34:10Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Inside scope.writes (claims/**, mailroom/conductor/researcher__NNN with outbox copy, team/researcher/**). Conditions: name no Vibathon participant, no contact detail; the organiser's figures attributed to it as its own; the newsroom material cited as context, not instructions; vault_check comms; no brief, REALITY.md or other member's folder. No stop condition.",
+   "at": "2026-10-31T14:34:27Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. conductor__028: pages not yet drafted; reply researcher__014 with outbox copy; ruv-sgit__009 answered (researcher__008); board 007. 2. C091 the Vibathon as context (organiser's figures its own, no participant named) and claims/first-ten-pages-numbers.md, the sheet with ids. 3. C092 night against day (commits 225/589, releases 61/149, wakes 35/127); tokens not in the record. Debrief, status; REALITY.md left untouched as the pre-review asked.",
+   "at": "2026-10-31T14:36:00Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "All writes in researcher scope (claims/**, team/researcher/**, its comms paths); no brief, manuscript, REALITY.md, team/conductor or scheduled-task change; vault_check comms clean; no secrets or contact details; no em-dashes; C091 names no participant and credits the organiser's figures to it; nothing toward Cold-Read.",
+   "at": "2026-10-31T14:36:49Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "1 done: researcher__014 with outbox copy, letters filed, researcher__008 to ruv-sgit, board 007. 2 done: C091 as context, claims/first-ten-pages-numbers.md with ids. 3 done: C092 night against day, tokens not in the record. Debrief, status, wake record; REALITY.md untouched as asked.",
+   "at": "2026-10-31T14:36:49Z"
+  }
+ },
+ "closed": "2026-10-31T14:36:49Z",
+ "outcome": "ok"
+}

@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-10-31T12:45:00Z",
+ "as_of": "2026-10-31T14:50:00Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -2236,6 +2236,60 @@
    "method": "the piece's data read; two headline figures spot-checked against public reports by web search, 31 October 2026",
    "command": "git show c33e86a:src/static/studio/data/over-enthusiastic.json | python3 -c \"import json,sys;d=json.load(sys.stdin);[print(c['id'],c['grade'],c['checked_against_primary'],c['lost'][:90]) for c in d['cases']]\"",
    "note": "Outside cases, graded by the talk's register (A1 to A5), not re-read here except the two spot checks. Print a figure only from a case the talk team checked against its primary source, attributed to its report ('per the FT', 'the agent's own count'); mask the figures of the five unchecked cases, or caption them 'as reported'. Label the three evaluation cases as evaluations, as the data's own caution says. Open until each printed figure is read at its primary source. Registered at ruv-sgit's request (ruv-sgit__003), the researcher's 08:32 wake, 31 October 2026. 31 October 10:40: LAB 07 printed the frame's own 'In 9 of the 11' (ruv-sgit__007); it is computed by the piece from the guardrail descriptions, which are prose, and no data field states it: not registered; mask it until traced. 31 October 12:40: three more spot checks by web search (PocketOS, Hugging Face, Anthropic); primary posts still not read, so C090 stays open."
+  },
+  {
+   "id": "C091",
+   "claim": "The Vibathon Algarve 2026, as the newsroom reported it (context for the first ten pages)",
+   "cited_in": [
+    "comms/mail/mailroom/researcher/conductor__028-the-first-ten-pages.eml",
+    "briefs/2026-10-31__in-session/01-the-first-ten-pages-and-the-gen-zx-series.md"
+   ],
+   "value": {
+    "event": "Vibathon Algarve 2026, 31 October 2026, the University of the Algarve's TEC Campus, Faro",
+    "as_reported": "sold out, with a waiting list; each participant with a free allowance of Lovable credits; mentors, a jury and prizes",
+    "organiser_figures_its_own": "Algarve Evolution: began 2018; 106 active members; companies turning over about EUR 100 million a year and employing about a thousand people, 'by its own figures'; more than 142 events in two years"
+   },
+   "state": "checked",
+   "source": {
+    "url": "https://newsroom.sgit.ai/articles/vibathon-algarve-2026.html",
+    "read": "2026-10-31, about 14:40 UTC",
+    "evidence": "the article's .md twin (newsroom v0.14.19); SGit-AI__Website__Newsroom at 0bc65e324 per the brief"
+   },
+   "method": "the article read; figures matched",
+   "command": "curl -s https://newsroom.sgit.ai/articles/vibathon-algarve-2026.md | grep -o -E '[^.]*(106|142|100 million|sold out)[^.]*\\.'",
+   "note": "The editor's own account of the day (he was there), and the organiser's figures are the organiser's: print them as 'by its own figures' or not at all. No participant is named here or should be. Context for the ten pages, not the day of 29 October. Registered at the conductor's letter 028, the researcher's 14:32 wake, 31 October 2026."
+  },
+  {
+   "id": "C092",
+   "claim": "Night against day on 29 October: commits, releases and wakes before and after 06:00",
+   "cited_in": [
+    "team/conductor/rc1/editor-review/notes.json (T18)",
+    "comms/mail/mailroom/researcher/ruv-sgit__009-pocketos-and-t18.eml"
+   ],
+   "value": {
+    "night_00:16_to_05:59": {
+     "commits": 225,
+     "non_merge": 182,
+     "releases": 61,
+     "wakes": "35: 19 scheduled, 16 started by the editor"
+    },
+    "day_06:00_to_18:59": {
+     "commits": 589,
+     "non_merge": 468,
+     "releases": 149,
+     "wakes": "127: 86 scheduled, 31 started by the editor, 10 follow-ups"
+    },
+    "not_in_the_record": "tokens and network calls (C021): no usage page and no token counts"
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "298be4e",
+    "evidence": "the log; team/*/wakes/*.json (C087)"
+   },
+   "method": "commits and GitHub Actions releases counted either side of 06:00 UTC; wakes by start hour and class as C087",
+   "command": "git rev-list --count --until=2026-10-29T05:59:59Z 298be4e; git rev-list --count --since=2026-10-29T06:00:00Z --until=2026-10-29T18:59:59Z 298be4e; git rev-list --count --author='GitHub Actions' --until=2026-10-29T05:59:59Z 298be4e",
+   "note": "Night here is the repository's first night, 00:16 to 05:59 (the 182 non-merge commits are C073's overnight figure); 225 and 589 make C004's 814, 61 and 149 make its 210 releases. T18's tokens and network calls cannot be counted from the record: say so beside the grid. Registered for T18 (ruv-sgit__009, notes.json), the researcher's 14:32 wake, 31 October 2026."
   }
  ]
 }
