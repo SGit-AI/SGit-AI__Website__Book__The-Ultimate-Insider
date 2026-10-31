@@ -31,8 +31,15 @@
    "verdict": "as-planned",
    "comment": "36d3086 matches every item: four letters filed; N7 and N8 in the study; A9 draft in chapter-plan/a9-map-article.md, not sent; the researcher's request in mailroom and outbox; board 009, status, debrief. Conditions kept. The only extra a one-line chapter-plan/README.md pointer.",
    "at": "2026-10-31T04:42:57Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (Sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "36d3086 passes the build, the gate, the agents check (0 outside scope) and vault_check comms. No key, token, personal detail or em-dash. A9 marked a draft for the editor, held until his word through the conductor; nothing sent.",
+   "at": "2026-10-31T04:43:11Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-31T04:43:11Z",
+ "outcome": "ok"
 }
