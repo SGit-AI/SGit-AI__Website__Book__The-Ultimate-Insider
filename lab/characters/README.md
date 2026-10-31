@@ -29,3 +29,11 @@ From `comms/mail/mailroom/designer/storyteller__005-the-casts-first-lines.eml`, 
 ## The conductor's poses (LAB 11, 31 October 2026)
 
 `make_conductor.py` draws the conductor's poses from one construction: `conductor-calm.svg` (pacing, hands at ten past ten), `conductor-pointing.svg` (on the minute, both hands at twelve), `conductor-alarmed.svg` (at ninety-five, hands at half past six). Its clock face is its expression. Sizes: 40 mm as a feature, 18 mm in the rail, 8 mm as an icon.
+
+The conductor's pose lines (the storyteller, `storyteller__020`, 31 October 2026), first set on LAB 11, spare for the editor to swap:
+
+| Pose | First (set) | Spare |
+|---|---|---|
+| pacing | One step at a time, on the clock. Small steps, every turn, add up to a book. | I keep the time so everyone else can keep their focus. |
+| on the minute | On the minute: plan it, check it, do it, check it again. Go. | Wake up, read the mail, pick one thing. That is the whole job. |
+| at ninety-five | I could keep going. That is exactly why I am stopping. | Nearly out of road. Everybody stop, and let the editor decide. |
