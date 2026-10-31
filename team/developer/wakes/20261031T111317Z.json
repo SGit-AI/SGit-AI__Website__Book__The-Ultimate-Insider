@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled, odd hours at :12",
+ "started": "2026-10-31T11:13:17Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (plan brief)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. The storyteller's questions into review/personas/{ciso,founder,cto,developer,journalist}.json (questions_source names its file); board-member, designer, project-manager personas and src/pages/review/<id>.html on its proposed chapters, marked proposals until the editor rules on length; both index pages, review/anchors/rc1.json; make_review.py fixed for chapter 00b and the 'storyteller's questions' label; all pages regenerated; board 008 done; developer__012 to the storyteller, developer__013 to synthetic, outbox copies, inbox copies of three letters. 2. Debrief, status, REALITY.md line, wake close.",
+   "at": "2026-10-31T11:13:53Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (pre_review brief)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Every path inside scope.writes; no overlaps, no stop condition, no secret. Conditions: copy the storyteller's questions without editing team/storyteller/; new personas fictional, no real names or contacts; no request to another host; no review link or sealed note; letters to team members only; vault_check on comms before commit.",
+   "at": "2026-10-31T11:14:13Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

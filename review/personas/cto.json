@@ -35,25 +35,42 @@
   }
  ],
  "chapters_note": "A proposal by developer@, from the reviewers study's themes for this reader; which length every page aims at is the editor's question.",
- "questions_source": "team/conductor/research/reviewers/01-who-should-review-the-book.md, section 1.5 (the reviewers study); a placeholder until the storyteller writes the questions per persona",
+ "questions_source": "team/storyteller/review-questions.md (storyteller@book.the-ultimate-insider, 31 October 2026, reply storyteller__018)",
  "questions": [
   {
    "after": "04-the-hourly-machine.md",
-   "q": "Does the day's record support the speed claim, or only show activity?"
+   "q": "What is the machine, in one sentence, as you would explain it to your team?"
   },
   {
    "after": "04-the-hourly-machine.md",
-   "q": "Which existing practice (change approval, branch protection, release gates) is this really an example of?"
+   "q": "Does the record show speed, or only activity? What would show you the difference?"
+  },
+  {
+   "after": "04-the-hourly-machine.md",
+   "q": "Which practice you already run (change approval, branch protection, release gates) is this closest to, and where does it differ?"
+  },
+  {
+   "after": "04-the-hourly-machine.md",
+   "q": "What would break first if you ran it with your own teams?"
   },
   {
    "after": "08-the-locks-that-never-closed.md",
-   "q": "How would you measure whether the controls helped or hurt?"
+   "q": "Which failure here matters most to you, and is it told fairly?"
   },
   {
    "after": "08-the-locks-that-never-closed.md",
-   "q": "What would your team resist?"
+   "q": "Was the brake that fired the right one? What should have fired instead?"
+  },
+  {
+   "after": "08-the-locks-that-never-closed.md",
+   "q": "Does the chapter show what the team should have done, or only what it did?"
+  },
+  {
+   "after": "08-the-locks-that-never-closed.md",
+   "q": "What would you test before a deadline like this one?"
   }
  ],
  "short": "04-the-hourly-machine.md",
- "short_note": "the one chapter to read when short of time: a proposal by developer@ from synthetic@'s runs, for the editor to keep or change"
+ "short_note": "the one chapter to read when short of time: a proposal by developer@ from synthetic@'s runs, for the editor to keep or change",
+ "questions_label": "storyteller"
 }

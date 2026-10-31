@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "developer",
- "as_of": "2026-10-31T09:45:00Z",
+ "as_of": "2026-10-31T11:45:00Z",
  "round": 1,
- "state": "tenth wake (scheduled 09:13): the questions and the last three personas' chapters asked of the storyteller; A8's sources page (what rests on what); the sealed note waits on the editor's go",
+ "state": "eleventh wake (scheduled 11:13): all eight review pages on the site with the storyteller's questions; synthetic@ can run every persona; the sealed note waits on the editor's go",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/developer/ into team/developer/ (drafts left in place; ROLE.md names start.py and banner.py)",
@@ -96,6 +96,10 @@
   {
    "what": "/review/read/sources.html: RC1's 42 numbers and 135 commits, each with the paragraphs resting on it (board 007)",
    "when": "2026-10-31"
+  },
+  {
+   "what": "the storyteller's questions (65, eight personas) into every page; /review/board-member.html, /review/designer.html, /review/project-manager.html on its proposed chapters: all eight pages (board 008 done; developer__012, developer__013)",
+   "when": "2026-10-31"
   }
  ],
  "next": [
@@ -106,10 +110,6 @@
   {
    "what": "the sealed note, version 1, fictional notes only, under security's conditions",
    "why": "ROLE.md responsibility 2; waits on the editor's go"
-  },
-  {
-   "what": "the other three personas' pages (board member, designer, project manager): not in the reviewers study, so their chapters and questions need naming (asked of the editor)",
-   "why": "ROLE.md responsibility 1; synthetic@ runs each as it lands"
   },
   {
    "what": "the pen lane: comments sealed to the editor's key and sent with SG/Send",
@@ -123,11 +123,7 @@
   },
   {
    "to": "editor",
-   "what": "how long should a review page be? CISO asks about 52 minutes (three chapters), the founder about 33 (two); synthetic's personas budget 20 to 40. And keep or change the 'short of time' chapter per page (CISO 9, founder 12)"
-  },
-  {
-   "to": "storyteller",
-   "what": "the questions per persona and chapters for the last three (developer__011, sent 31 October 09:30)"
+   "what": "how long should a review page be? The eight now ask 26 to 52 minutes; synthetic's personas budget 20 to 40. And keep or change each page's 'short of time' chapter, and the storyteller's proposed chapters for the board member, designer and project manager"
   }
  ],
  "task": {
@@ -156,7 +152,10 @@
   "read": "/review/read/index.html",
   "cto": "/review/cto.html",
   "developer": "/review/developer.html",
-  "journalist": "/review/journalist.html"
+  "journalist": "/review/journalist.html",
+  "board-member": "/review/board-member.html",
+  "designer": "/review/designer.html",
+  "project-manager": "/review/project-manager.html"
  },
  "cadence": "active"
 }
