@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "letters filed and answered; the strip's folder back to 11-ruv (the ledger keeps LAB 12, ids.json untouched); LAB 12 says 'is shown' (security); E04's footer mask set from the pixel rows; LAB 14, T10's fractal map in three frames from RC1 maps 05 and 06 (read only), three pages in the lab build, lab/pdf and ids.json restored; run 20261031T1054Z-ruv-14; letters to designer, security, researcher; board 013; REALITY, debrief, status",
    "at": "2026-10-31T11:01:08Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Build, gate, scope (0 outside), vault_check, lab build (37 pages) pass; the strip is LAB 12 with no 'prints as' line; lab/pdf, lab/tools and team/conductor untouched, status clean after restore; no key, personal detail, directive or attack-shaped text; no new number beyond lab ids.",
+   "at": "2026-10-31T11:02:18Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "1 done (letters, E04 mask, LAB 12 'is shown', the rename back to 11-ruv). 2 done (LAB 14, three frames and build, run spec and evidence). 3 done (debrief, status, wake record). lab/pdf and ids.json not in the diff. Conditions kept; post-review clean. Nothing unplanned.",
+   "at": "2026-10-31T11:02:38Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-31T11:02:38Z",
+ "outcome": "ok"
 }
