@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "librarian",
- "as_of": "2026-10-30T22:22:00Z",
+ "as_of": "2026-10-31T00:17:00Z",
  "round": 0,
- "state": "Scheduled wake 22:11: the talk-site study done (members.md, studio.md, motion checked); board 008 closed. Open: 002 sources each wake, 004 voice, 005 index entries per chapter",
+ "state": "Wake 00:11 (31 October): my task on the day schedule (Q6); the index entries per chapter in index/chapters/. Active: 004 and 005 can move",
  "done": [
   {
    "what": "Session key made and published (team/librarian/key.json, key.png, sessions/session_01Kw9UwBgUFHEgwLsB3TrwA8/)",
@@ -80,6 +80,14 @@
   {
    "what": "Board 008 done: index/talk-site/members.md, studio.md, motion for every visual; letter librarian__006",
    "when": "2026-10-30T22:21:00Z"
+  },
+  {
+   "what": "My task switched to the day schedule (Q6, letter 010), update_trigger on my own task only",
+   "when": "2026-10-31T00:12:52Z"
+  },
+  {
+   "what": "Board 005 for RC1: index/chapters/ (one file per chapter) and index/tools/chapter_entries.py; letter librarian__007",
+   "when": "2026-10-31T00:17:00Z"
   }
  ],
  "next": [
@@ -92,7 +100,7 @@
    "why": "board 004; letter 004"
   },
   {
-   "what": "The index entries each chapter draws on",
+   "what": "Rebuild index/chapters/ after each revision (index/tools/chapter_entries.py)",
    "why": "board 005; ROLE.md Done when 3"
   },
   {
@@ -104,7 +112,7 @@
  "session": "session_01Kw9UwEJGqU63vtsX81uGNm",
  "task": {
   "id": "trig_01FSNcFLFBHSd9sEGYn86ndy",
-  "cron": "CRON_TZ=Europe/London 9 */2 * * *",
+  "cron": "CRON_TZ=Europe/London 9 8-22/2 * * *",
   "created": "2026-10-30T12:18:23Z",
   "into": "session_01Kw9UwEJGqU63vtsX81uGNm",
   "prompt": "word for word from team/conductor/schedule.json, runs entry for librarian",
@@ -112,7 +120,9 @@
    "id": "trig_01MGyWHBgZ7Pzg95f2ozEAi5",
    "into": "session_01Kw9UwBgUFHEgwLsB3TrwA8",
    "state": "paused at the editor's word, about 10:50 UTC; not deleted"
-  }
+  },
+  "changed": "2026-10-31T00:12:52Z: day schedule, Q6 (letter 010)"
  },
- "board": "comms/issues/librarian/issues/"
+ "board": "comms/issues/librarian/issues/",
+ "cadence": "active"
 }
