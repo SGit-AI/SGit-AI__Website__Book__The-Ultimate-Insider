@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled, odd hours at :12",
+ "started": "2026-10-31T13:15:48Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (plan brief)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1) A8: make_reader.py also writes src/pages/review/read/graph.html, a plain HTML table of RC1 chapters by the talk team's members (and the editor), cells counting cited commits, member from the subject prefix or Agent: trailer, from a read-only clone; one sequential hue from site tokens, count in each cell, tooltips; linked from read/index.html; board 007. 2) Debrief, status, REALITY.md line, wake close. Nothing pushed to the talk repository.",
+   "at": "2026-10-31T13:16:45Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (pre_review brief)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Fits scope (review/tools, src/pages/review, comms/issues/developer, team/developer, REALITY.md append); no overlaps, no stop condition. Conditions: the talk clone read only in the scratchpad, no push; no external request from the page (inline, site tokens only); members by role name only, no contact detail, commit author names kept off the page; vault_check on comms; no em-dashes; no ./version.",
+   "at": "2026-10-31T13:17:01Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

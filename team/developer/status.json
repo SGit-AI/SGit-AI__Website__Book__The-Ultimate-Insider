@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "developer",
- "as_of": "2026-10-31T11:45:00Z",
+ "as_of": "2026-10-31T13:45:00Z",
  "round": 1,
- "state": "eleventh wake (scheduled 11:13): all eight review pages on the site with the storyteller's questions; synthetic@ can run every persona; the sealed note waits on the editor's go",
+ "state": "twelfth wake (scheduled 13:15): A8's graph, first view (whose work each chapter rests on); all eight pages wait for synthetic@'s runs; the sealed note waits on the editor's go",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/developer/ into team/developer/ (drafts left in place; ROLE.md names start.py and banner.py)",
@@ -100,11 +100,15 @@
   {
    "what": "the storyteller's questions (65, eight personas) into every page; /review/board-member.html, /review/designer.html, /review/project-manager.html on its proposed chapters: all eight pages (board 008 done; developer__012, developer__013)",
    "when": "2026-10-31"
+  },
+  {
+   "what": "/review/read/graph.html: RC1 chapters by the talk team's members, from the commits each chapter cites; contrast measured in the browser, 4.9:1 or more in both modes (board 007)",
+   "when": "2026-10-31"
   }
  ],
  "next": [
   {
-   "what": "A8 next: the graph behind each page drawn from rc1-provenance.json, QR targets, a page-by-page view like the PDF",
+   "what": "A8 next: the graph's further views (wakes, decisions), QR targets, a page-by-page view like the PDF",
    "why": "the conductor's letter conductor__005 (A8)"
   },
   {

@@ -59,6 +59,24 @@ a.pv code{color:var(--accent)}
 .pv-checked{border-color:var(--accent);color:var(--accent)}
 .pv-corrected{border-color:var(--infra);color:var(--infra)}
 .pv-open{border-color:var(--risk);color:var(--risk)}
+/* the graph (make_reader.py, graph.html): one hue in five steps, the count always printed; steps and inks set per mode, measured in the browser at 4.5:1 or more */
+:root{--gx1:12%;--gx2:24%;--gx3:40%;--gx4:58%;--gx5:76%;--gx-ink-lo:var(--text);--gx-ink-hi:var(--text)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--gx1:10%;--gx2:20%;--gx3:32%;--gx4:44%;--gx5:84%;--gx-ink-lo:var(--text);--gx-ink-hi:var(--on-accent)}}
+:root[data-theme="dark"]{--gx1:10%;--gx2:20%;--gx3:32%;--gx4:44%;--gx5:84%;--gx-ink-lo:var(--text);--gx-ink-hi:var(--on-accent)}
+.gx-wrap{overflow-x:auto;margin:16px 0}
+.gx-table{border-collapse:separate;border-spacing:2px;font-size:var(--t-s)}
+.gx-table caption{text-align:left;color:var(--dim);padding-bottom:6px}
+.gx-table th{font-weight:500;text-align:left;padding:4px 8px;white-space:nowrap}
+.gx-table tbody th,.gx-table tfoot th{text-transform:none;letter-spacing:normal;font-size:var(--t-s)}
+.gx-table thead th{font-size:var(--t-xs);text-transform:uppercase;color:var(--dim)}
+.gx-table tfoot td,.gx-table tfoot th{color:var(--dim);text-align:center}
+.gx{min-width:34px;text-align:center;padding:4px 6px;border-radius:4px;color:var(--gx-ink-lo)}
+.gx0{background:transparent}
+.gx1{background:color-mix(in oklab,var(--accent) var(--gx1),var(--bg))}
+.gx2{background:color-mix(in oklab,var(--accent) var(--gx2),var(--bg))}
+.gx3{background:color-mix(in oklab,var(--accent) var(--gx3),var(--bg))}
+.gx4{background:color-mix(in oklab,var(--accent) var(--gx4),var(--bg))}
+.gx5{background:color-mix(in oklab,var(--accent) var(--gx5),var(--bg));color:var(--gx-ink-hi)}
 @media (max-width:900px){
   .pv-ch [data-pv]::after{position:static;display:inline-block;margin-left:6px}
   .rv-grid{grid-template-columns:1fr;gap:20px}

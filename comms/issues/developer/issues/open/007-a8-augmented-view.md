@@ -12,7 +12,8 @@ The editor: "this online iPad PDF kind of mode application or view that has that
 - [x] The provenance of every paragraph as data: `review/anchors/rc1-provenance.json`, 414 anchors and their 1377 sources (commit, path or claim, with its repository), the base for the graph and QR targets (wake of 07:13 UTC)
 - [x] Every review page's chapter list links each chapter to its augmented view (the study's "offer the record link, not only the PDF")
 - [x] The provenance turned round, `/review/read/sources.html`: each of the 42 numbers and 135 commits with every paragraph that rests on it (987 paragraph links, all landing) (wake of 09:13 UTC)
-- [ ] The graph drawn (members, wakes and decisions behind a page)
+- [x] The graph, first view: `/review/read/graph.html`, chapters by the talk team's members, each cell the commits of that member a chapter cites (115 commits; member read from the talk's own record) (wake of 13:15 UTC)
+- [ ] The graph's next views: wakes and decisions behind a page
 - [ ] QR targets for print, pointing at the paragraph's anchor
 - [ ] A page-by-page view, like the PDF on an iPad
 - [ ] "Where this came from" as structured data, not parsed text (the editor: "the content of the entire book should be in JSON")

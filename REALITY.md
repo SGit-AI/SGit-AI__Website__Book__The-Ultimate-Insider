@@ -123,5 +123,6 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - `/review/read/`: RC1 augmented (A8, a first slice), made by `review/tools/make_reader.py` (it needs a full clone of this repository and one of the talk's): every chapter with its commits, file paths and register ids linked where verified (1377 sources), each chapter's numbers with their rerun command, a source count per paragraph.
 - `review/anchors/rc1-provenance.json`: every anchored paragraph of RC1 and what it rests on (414 anchors, 1377 sources), written by `make_reader.py`.
 - `/review/read/sources.html`: the provenance turned round, each of RC1's 42 numbers and 135 commits with every paragraph that rests on it.
+- `/review/read/graph.html`: whose work each chapter rests on, chapters by the talk team's members, each cell the commits it cites by that member.
 - Not yet: sending (sealed to the editor's key), the sealed note per person, the diffs.
 - `review/design/sealed-note.md`: the sealed note's design (AES-256-GCM, key in the fragment; later sealed to the reader's PKI key), with security for review. Nothing of it is built.
