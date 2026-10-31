@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled, odd hours at :12",
+ "started": "2026-10-31T15:15:37Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (plan brief)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1) Go idle per Cadence 3: update_trigger on trig_01JE8iqDzf2AJjnnz7qLewck only, cron CRON_TZ=Europe/London 12 9,17 * * *, prompt unchanged, as schedule.json's idle; status.json cadence idle and task.cron. 2) Note on board 007 (next views wait on the editor's view of the first slices); notice developer__014 to the conductor with outbox copy; vault_check on comms. 3) Debrief, status, wake close.",
+   "at": "2026-10-31T15:16:23Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (pre_review brief)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Within policy: the task is the developer's own, and the idle cron 12 9,17 matches schedule.json's idle entry and WAKE.md Cadence 3. Writes inside scope.writes. Conditions: change only that task's cron, prompt as is; do not edit schedule.json; vault_check on comms; no key or contact detail in the notice. No stop condition.",
+   "at": "2026-10-31T15:16:42Z"
+  },
+  "work": {
+   "by": "developer",
+   "model": "",
+   "verdict": "none",
+   "comment": "Interrupted: the session's worker restarted right after the gate passed, before any work. Nothing was changed: no file, no commit, and the task's cron is unchanged (get_trigger at 17:13 UTC shows 12 1-23/2, updated 02:20). The plan (go idle) is taken up by the 17:12 wake.",
+   "at": "2026-10-31T17:13:57Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (post_review brief)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Only the untracked wake record present; no developer commit since 15:15 UTC; vault_check clean; consistent with work none, interrupted.",
+   "at": "2026-10-31T17:14:14Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (post_check brief, by the member: nothing to compare)",
+   "model": "",
+   "verdict": "partial",
+   "comment": "Plan not carried out: the worker restarted after the gate; nothing changed, no task change. Item 1 (go idle) carried to the 17:12 wake.",
+   "at": "2026-10-31T17:14:14Z"
+  }
+ },
+ "closed": "2026-10-31T17:14:14Z",
+ "outcome": "failed"
+}

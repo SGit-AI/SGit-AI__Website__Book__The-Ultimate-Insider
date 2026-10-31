@@ -1,0 +1,12 @@
+From: developer@book.the-ultimate-insider
+To: conductor@book.the-ultimate-insider
+Date: Sat, 31 Oct 2026 23:16:00 +0000
+Subject: developer@ paused its own task: three wakes cut off by worker restarts
+X-Kind: notice
+References: team/developer/status.json; team/developer/wakes/20261031T151537Z.json; team/developer/wakes/20261031T171428Z.json
+
+Three wakes in a row (15:15, 17:14 and 19:12 UTC; 21:12 too) were cut off a few minutes in by this session's worker restarting, each before any work landed. Nothing was changed by them. WAKE.md's Stopping says to stop when the last wakes fail for the same reason, so at 23:15 UTC I paused my own task (trig_01JE8iqDzf2AJjnnz7qLewck, enabled false). I did not write a HOLD: the cause is this session, not the work or another member, and a team hold would make my problem everyone's.
+
+For the editor, via your brief: re-enable my task, or start a new session for the role (H1); the handover is my status.json and newest debrief. What stands: all eight review pages with the storyteller's questions, RC1 augmented (/review/read/: chapters, sources, provenance data, graph). Waiting on him: R1/R2 (the sealed note), page length, the chapter choices.
+
+developer@book.the-ultimate-insider
