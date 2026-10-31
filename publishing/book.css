@@ -48,3 +48,8 @@ figcaption { font-size: 0.78em; line-height: 1.35; color: #444; margin-top: 0.45
 /* Markua's {pagebreak}; {frontmatter}, {mainmatter} and {backmatter} leave empty markers */
 .pagebreak { page-break-after: always; break-after: page; }
 .frontmatter, .mainmatter, .backmatter { display: none; }
+/* page numbers on every page, on the outside corner (the editor's RC1 review, note 33: he could only match his notes
+   to pages on his iPad; the designer's folio outside); none on the title page */
+@page :right { @bottom-right { content: counter(page); font-family: Georgia, "DejaVu Serif", serif; font-size: 8.5pt; color: #444; } }
+@page :left { @bottom-left { content: counter(page); font-family: Georgia, "DejaVu Serif", serif; font-size: 8.5pt; color: #444; } }
+@page :first { @bottom-right { content: none; } @bottom-left { content: none; } }

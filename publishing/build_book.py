@@ -60,6 +60,39 @@ def find_chrome(given):
     return None
 
 
+TEXT_HEIGHT = 9 - 0.75 - 0.8  # inches: the 6 by 9 page less book.css's top and bottom margins
+
+
+def image_lines(files):
+    """Every image line in the chapters, in reading order: (chapter, path). Chromium writes the images into the PDF
+    in the same order, so the n-th image in the PDF is the n-th line here."""
+    found = []
+    for path in files:
+        with open(path, encoding="utf-8") as f:
+            for m in re.finditer(r"!\[[^\]]*\]\(([^)\s]+)[^)]*\)", f.read()):
+                found.append((os.path.basename(path), m.group(1)))
+    return found
+
+
+def tall_images(pdf, share, sources):
+    """Images printed taller than share of the text block, from pdfimages' own placement (task A2: nothing looked at
+    the printed pages, and a square infographic took half of page 9). [(page, inches, share, files)]; None without pdfimages."""
+    if not shutil.which("pdfimages"):
+        return None
+    out = subprocess.run(["pdfimages", "-list", pdf], capture_output=True, text=True).stdout.splitlines()[2:]
+    rows = [f for f in (line.split() for line in out) if len(f) >= 14 and f[2] == "image"]
+    lines = image_lines(sources)
+    named = len(lines) == len(rows)  # if they differ (an image the PDF drops or repeats), say so rather than misname
+    tall = []
+    for n, f in enumerate(rows):
+        page, h, yppi = int(f[0]), int(f[4]), int(f[13])
+        inches = h / yppi if yppi else 0
+        if inches > share * TEXT_HEIGHT:
+            where = f"{lines[n][0]}: {lines[n][1]}" if named else "(file not matched: the PDF and the chapters count images differently)"
+            tall.append((page, inches, inches / TEXT_HEIGHT, where))
+    return tall
+
+
 def pandoc(args):
     subprocess.run(["pandoc", "--from", "markdown", "--metadata-file", os.path.join(HERE, "metadata.yaml")] + args,
                    check=True, cwd=MANUSCRIPT)
@@ -71,6 +104,8 @@ def main():
     p.add_argument("--chrome", help="path to a Chromium or Chrome binary")
     p.add_argument("--no-pdf", action="store_true")
     p.add_argument("--no-epub", action="store_true")
+    p.add_argument("--max-image-share", type=float, default=0.45,
+                   help="report every image printed taller than this share of the text block (default 0.45)")
     a = p.parse_args()
     if not shutil.which("pandoc"):
         sys.exit("build_book: pandoc is not installed")
@@ -141,6 +176,14 @@ def main():
         with open(pdf, "rb") as f:
             pages = f", {len(re.findall(rb'/Type\s*/Page(?!s)', f.read()))} PDF pages at 6 x 9 in"
     print(f"build_book:   {total:>7,} words in all{pages}")
+    if not a.no_pdf:
+        tall = tall_images(pdf, a.max_image_share, sources)
+        if tall is None:
+            print("build_book: image check skipped: pdfimages (poppler-utils) is not installed")
+        else:
+            print(f"build_book: {len(tall)} image(s) printed taller than {a.max_image_share:.0%} of the text block")
+            for page, inches, frac, where in tall:
+                print(f"build_book:   page {page:>3}  {inches:.1f} in, {frac:.0%} of the text block  {where}")
 
 
 if __name__ == "__main__":
