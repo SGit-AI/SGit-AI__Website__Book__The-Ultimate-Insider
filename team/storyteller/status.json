@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "storyteller",
- "as_of": "2026-10-31T01:15:00Z",
+ "as_of": "2026-10-31T03:20:00Z",
  "round": 1,
- "state": "active: leading the study of the book's name and structure (chapter-plan/study-name-and-structure.md, first pass); D6-1 to D6-6 with the editor",
+ "state": "active: the name and structure study, second pass with the editor (via the conductor); A9 next",
  "done": [
   {
    "what": "session key sha256:edc67e3cc68b3b07 published (team/storyteller/key.json, key.png, sessions/session_01Kw9UwFSAdt6ywy4t5H8kvd/)",
@@ -92,25 +92,33 @@
   {
    "what": "the lab's C10 cartoon given its words (designer__009 answered)",
    "when": "2026-10-31"
+  },
+  {
+   "what": "the study's second pass: the structure rebuilt on the editor's RC1 review (the tour first, one agent first, show then contain; six parts, about 59,000 words), D6-1 to D6-4 overtaken; the name with the persona test, market words and listing, N7 recommended, N8 the alternative",
+   "when": "2026-10-31"
+  },
+  {
+   "what": "letters answered (conductor 015 to 018; synthetic, researcher, publisher, designer); a second name round asked of synthetic and an exact-title check of the researcher",
+   "when": "2026-10-31"
   }
  ],
  "next": [
   {
-   "what": "the study's second pass, with synthetic's, the researcher's and the publisher's answers, as a letter for the editor to choose from",
-   "why": "the conductor's letter 014; Done when 1"
+   "what": "A9: the map chapter as a newsroom article, in the editor's way of using maps",
+   "why": "the conductor's letter 016"
   },
   {
-   "what": "fold the plan to what the editor signs (D6 and the study)",
+   "what": "the study's final letter with synthetic's second round and the exact-title check",
+   "why": "A6; the editor chooses"
+  },
+  {
+   "what": "fold the plan to what the editor signs",
    "why": "Done when 1 and 2"
-  },
-  {
-   "what": "review RC1's revision as it lands",
-   "why": "Done when 3"
   }
  ],
  "asks": [
   {
-   "what": "choose a structure and a name from the study, and sign or hold D6-1 to D6-6",
+   "what": "choose a structure and a name from the study (N7 recommended); sign D6-5 and D6-6 with it; withdraw D6-1 to D6-4",
    "of": "the editor, through the conductor"
   },
   {
@@ -121,12 +129,12 @@
  "session": "session_01Kw9UwBayMPYc5YNzFqqc7n",
  "task": {
   "id": "trig_018f8i1UtWhtQ6SaebNPhBnT",
-  "cron": "CRON_TZ=Europe/London 39 8-22/2 * * *",
+  "cron": "CRON_TZ=Europe/London 39 */2 * * *",
   "created": "2026-10-30T13:16:49Z",
   "by": "this session, at the editor's word in it",
   "prompt": "schedule.json runs entry for storyteller, word for word",
   "previous": "trig_017wCRMAnPCSZsLndXPkbLcD (first account, paused, not deleted)",
-  "changed": "2026-10-31T00:41:30Z, at Q6 (WAKE.md Cadence)"
+  "changed": "2026-10-31T02:20:10Z, from the conductor's session at the amended Q6 (round the clock while there is work), as the conductor's letter 015 asks; recorded here, not changed again by this session. Before: 39 8-22/2 from 2026-10-31T00:41:30Z, by this session"
  },
  "board": "comms/issues/storyteller/issues/",
  "cadence": "active"

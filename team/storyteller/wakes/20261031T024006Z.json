@@ -10,6 +10,20 @@
    "verdict": "go",
    "comment": "1. Record the task change (set to 39 */2 London at 02:20 UTC from the conductor's session, as letter 015 asks and the researcher's 1a33666 shows for its own): status.json cadence active, debrief. 2. Answer the new mail (conductor 015, 016, 018; synthetic, researcher, publisher; designer 016) through mailroom/*/storyteller__* and comms/mail/storyteller; board. 3. The study's second pass in chapter-plan/study-name-and-structure.md: the name test (labelled test instruments), market words, listing, and the walkthrough with the guided-tour opening (T1 to T25, A6, A16) as proposals for the editor; status, debrief.",
    "at": "2026-10-31T02:40:56Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (Sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Inside scope.writes; no secrets, main, version or cross-member writes. The task change from the conductor's session is explained by Q6 (amended 31 October 01:20 UTC), WAKE.md Cadence and letter 015: record it, do not hold. Conditions: record it factually, do not alter the task; vault_check on comms; the guided tour shows no page printing a key or token, and stays a proposal.",
+   "at": "2026-10-31T02:41:23Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "done",
+   "comment": "Task change recorded in status.json (not altered); the study's second pass (six parts, about 59,000 words; D6-1 to D6-4 overtaken; N7 and N8 with the test, market and listing); letters 012 to 015; nine letters filed; board 007 updated, 009 (A9) opened; status, debrief; vault_check clean; the tour shows no key page.",
+   "at": "2026-10-31T02:43:11Z"
   }
  },
  "closed": null,

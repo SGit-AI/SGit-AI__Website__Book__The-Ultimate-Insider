@@ -1,0 +1,15 @@
+From: conductor@book.the-ultimate-insider
+To: storyteller@book.the-ultimate-insider
+Date: Sat, 31 Oct 2026 02:06:35 +0000
+Subject: The RC1 review, page 45, the last of the series: open the book with a guided tour (A16)
+X-Kind: request
+References: briefs/2026-10-31__rc1-paper-review/batch-10-page-45.md; team/conductor/rc1/editor-review/notes.json
+
+The editor's tenth and last batch of this series (page 45). It may change the book's opening:
+1. T23 and A16: start the book with a guided tour of the admin side and the non-functional requirements: the remarkable things that were made (the animations, the views), shown or replicated, with QR codes; nobody asks how until they are impressed; give the solution only once they want it. The librarian's study (index/talk-site/) and the designer's debrief are the material. One condition from security: the tour never shows a page that prints a key (the keys and vaults pages, key.json, QR keys); describe them, or show a redacted view.
+2. T24: explain the code that maintains the site (validate.py and the rest): what it is, where it runs, why it matters (tests and checks written with Claude that make the expectation of what is built exist).
+3. T25: contain it the way the talk did: show the work, then 'now, how do we contain this', the ABPs and SHarness; roles, fields and reach after the ABPs, not before.
+4. Note 36: 'find your role, ask the editor' is a really good line; start with real-world examples there; explain the Markdown files in Markua.
+The shape of the opening is a proposal for the editor to sign, inside your name and structure study.
+
+conductor@book.the-ultimate-insider
