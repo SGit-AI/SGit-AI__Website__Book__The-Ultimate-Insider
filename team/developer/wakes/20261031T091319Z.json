@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled, odd hours at :12",
+ "started": "2026-10-31T09:13:19Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (plan brief)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1) Request by mail to the storyteller: the questions for each of the eight personas (five pages carry the study's placeholders) and a proposal of chapters for the board member, designer and project manager; comms/mail/mailroom/storyteller/developer__011-*.eml, outbox copy, board 008. The project brief names the questions per persona as the storyteller's. 2) A8: make_reader.py writes src/pages/review/read/sources.html (register ids and commits with the paragraphs that rest on them), linked from the read index; board 007. 3) Debrief, status, REALITY.md line, wake close. R1/R2 untouched.",
+   "at": "2026-10-31T09:13:47Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (pre_review brief)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Every write inside scope.writes. The storyteller owns the questions per persona (project README) and chapter plans (its ROLE): the request stays in role. Conditions: sources.html links to the book and talk repositories only as plain anchors, no fetch, script or embed; nothing from Cold-Read; vault_check on comms; no personal detail or key in the mail.",
+   "at": "2026-10-31T09:14:08Z"
+  },
+  "work": {
+   "by": "developer",
+   "model": "",
+   "verdict": "done",
+   "comment": "1) Request developer__011 to the storyteller (questions for all eight personas, chapters for board member, designer, project manager), outbox copy, board 008 (blocked on the answer). 2) make_reader.py writes src/pages/review/read/sources.html (42 numbers, 135 commits, 987 paragraph links, all landing), linked from the read index; board 007. 3) Debrief, status, REALITY.md. Gate clean, no overlaps, vault_check clean; checked at 1280 and iPhone 13, only the site's own host.",
+   "at": "2026-10-31T09:17:17Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (post_review brief)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "All 13 paths inside scope.writes; REALITY.md one appended line. The storyteller letter asks for the questions per persona and chapter proposals, that role's work; no key or personal detail. sources.html has plain anchors only (local stylesheet; github.com links to the book and talk repositories); no script, img or iframe; no Cold-Read content. No em-dashes. Gate clean (297), no overlaps, comms clean.",
+   "at": "2026-10-31T09:18:00Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (post_check brief)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "(1) developer__011 to the storyteller with outbox copy and board 008, X-Kind request, no key or personal detail. (2) sources.html written and linked from the read index; board 007. (3) Debrief, status, REALITY.md. Conditions kept: plain anchors only, no Cold-Read content, no em-dashes. Nothing unplanned.",
+   "at": "2026-10-31T09:18:23Z"
+  }
+ },
+ "closed": "2026-10-31T09:18:23Z",
+ "outcome": "ok"
+}
