@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled, every two hours at :54 London",
+ "started": "2026-10-31T18:56:10Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "The repeated LAB 15 notice checked (last change own ff8463e), no stop. 1. Both letters filed; letters to security and the designer (LAB 15 stays; chapter 8 taken). 2. LAB 20 (reserved): chapter 8, the locks that never closed, a timeline 17:45 to 20:00 from checked claims only (C027, C006, C005), planned locks as open padlocks, the post-hold note truthful; lab/experiments/20-ruv-the-locks-that-never-closed/, run in lab/runs/; build_lab.py check, lab/pdf and ids.json never staged. 3. Close: debrief, status, board 011, REALITY.",
+   "at": "2026-10-31T18:57:21Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; lab/pdf, ids.json, lab/tools and the manuscript read only; C027, C005, C006 checked. Conditions: only those claims' times on the timeline, axis labels on the hour (no 17:45 label); keep C006's open point open; padlocks benign; vault_check on comms.",
+   "at": "2026-10-31T18:58:07Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "the repeated LAB 15 notice checked (own commit ff8463e); two letters filed; LAB 20 (reserved), chapter 8's locks that never closed, the evening to scale from checked claims C027, C006, C005, padlocks below the line, the post-hold note truthful; one page, the lab build passes (57 pages), lab/pdf and ids.json restored; run 20261031T1854Z-ruv-20; letters to designer and security; board 011; REALITY, debrief, status",
+   "at": "2026-10-31T19:00:08Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "finding",
+   "comment": "Build, gate, scope (0 outside), vault_check, lab build pass; lab/pdf, lab/tools, manuscript unchanged; no secret, directive or attack-shaped text; LAB 20's times all from C027, C006, C005 or hour labels. Finding: the post-hold note 'no member's wake started again' is not stated by C006 or C005. Fixed in this wake: the note now says 'no further work commit followed that day' (C005), the caption says the hold 'was written' and no lock closed; README and debrief say so; rebuilt, the lab build passes.",
+   "at": "2026-10-31T19:01:39Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Plan 1 done (letters filed and sent). Plan 2 done (LAB 20: locks.svg, README, page, run spec and evidence). Plan 3 done (debrief, status; board 011 and REALITY confirmed in the diff by the member after the sub-agent could not see them). Conditions kept; the finding's fix confirmed. Nothing unplanned.",
+   "at": "2026-10-31T19:01:59Z"
+  }
+ },
+ "closed": "2026-10-31T19:01:59Z",
+ "outcome": "ok"
+}
