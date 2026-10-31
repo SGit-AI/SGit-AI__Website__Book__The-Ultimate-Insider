@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "storyteller",
+ "kind": "scheduled, every two hours at :39",
+ "started": "2026-10-31T04:40:00Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (Sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. File conductor__019, 020, publisher__002, researcher__002 in comms/mail/storyteller/done/; note in the study that N7 and N8 fit the listing rules and are untaken as exact titles (N7's words in four 2026 subtitles), for NS1. 2. A9: draft the map article in chapter-plan/a9-map-article.md (T8, T10), held for the editor's word through the conductor; no newsroom send. 3. Ask the researcher for the kinds-of-evolution article (mailroom/researcher/storyteller__NNN, outbox); reference pending. Status, board 009, debrief.",
+   "at": "2026-10-31T04:40:41Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (Sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Within scope.writes; A9 held for the editor's word through the conductor, no newsroom send; the researcher's request a normal comms route; no secrets or stop conditions. Keep comms public-safe; vault_check.",
+   "at": "2026-10-31T04:40:58Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "done",
+   "comment": "A9 draft 1 in chapter-plan/a9-map-article.md (not sent); N7 and N8 checks in the study; storyteller__016 to the researcher; four letters filed; board 009, README, status, debrief; vault_check clean.",
+   "at": "2026-10-31T04:42:17Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

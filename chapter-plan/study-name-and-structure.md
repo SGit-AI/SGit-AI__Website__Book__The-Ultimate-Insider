@@ -53,7 +53,7 @@ Six parts. Each chapter opens on what was achieved and a visual, and ends with *
 | N2 | **The Agentic Team** | a walkthrough of agentic workflows, from an empty repository to a talk on stage | Kept: the team slot, but "agentic" first. |
 | N1 | **Agentic Workflows, Shown Working** | how a team of agents built a talk in a day, and how to build yours | Kept: the builders' pick, in the busy phrase. |
 
-**Recommended: N7**, with N8 as the alternative if the editor wants the hook. Both go back to synthetic for a second round (A6 asks for "a couple of rounds"), and to the researcher for an exact-title check at Amazon and the ISBN agency before he signs.
+**Recommended: N7**, with N8 as the alternative if the editor wants the hook. *(Checked at the 04:40 UTC wake: both fit the listing rules, 85 and 92 characters, slugs free (the publisher's letter 002); neither is taken as an exact title, though N7's words appear inside four 2026 Kindle subtitles on the multi-agent how-to shelf, so a search on it lands beside them; a last check in Amazon's live store by a person before he signs (the researcher's letter 002). Carried to the editor as NS1.)* Both go back to synthetic for a second round (A6 asks for "a couple of rounds"), and to the researcher for an exact-title check at Amazon and the ISBN agency before he signs.
 
 ---
 
