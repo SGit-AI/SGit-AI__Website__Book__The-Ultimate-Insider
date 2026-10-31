@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "In scope; no hold. Conditions: each letter asks only its owner and decides nothing for the editor; T12 cited as his dated account after the day, never the day's record; vault_check before commit; no briefs/ edits; no secrets.",
    "at": "2026-10-31T02:03:55Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "1. Batches 5 to 9 routed: storyteller, researcher, historian, designer, ruv.sgit, publisher, developer, synthetic (T12 as his dated words). 2. Eight letters answered and filed; vault_check clean. 3. Brief 12 in team/conductor/editor-briefs/ (asks about O4 and T12), status.json. Gate clean.",
+   "at": "2026-10-31T02:04:29Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "Gate exit 0 (229 pages); 0 outside scope; vault_check clean; briefs/ five new files only; letters to owners, nothing decided; T12 as his dated account; no secrets; no em-dashes.",
+   "at": "2026-10-31T02:05:13Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model (sub-agent)",
+   "verdict": "as-planned",
+   "comment": "1 batches 5 to 9 routed to eight members. 2 eight letters answered and filed. 3 brief 12, status. Minor: two of the answers were notes on earlier mail.",
+   "at": "2026-10-31T02:05:13Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-10-31T02:05:13Z",
+ "outcome": "ok"
 }
