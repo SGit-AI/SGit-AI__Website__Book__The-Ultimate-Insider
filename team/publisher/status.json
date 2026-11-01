@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "publisher",
- "as_of": "2026-11-01T00:57:00Z",
- "round": 27,
- "state": "standard colour at the editor's word, sales first; the build at Crown Quarto in type A (192 pages) and B (185); $14.99 proposed",
+ "as_of": "2026-11-01T01:12:00Z",
+ "round": 28,
+ "state": "NR1 on board 010, waiting on the storyteller's script; source lines styled by class",
  "done": [
   {
    "what": "session key published: team/publisher/key.json, key.png, sessions/session_01Kw9UwDVeRbKJZUWiRoRrHK/",
@@ -156,20 +156,24 @@
   {
    "what": "the editor's ink choice (standard colour, sales first) recorded; Crown Quarto in the build with --type A and B; repriced at large trim ($8.72 A, $8.48 B a copy; $14.99 proposed); the designer's stat tile and p.source",
    "when": "2026-11-01T00:55Z"
+  },
+  {
+   "what": "board 010 (NR1); markua.py source class and the look's class rule; question to the conductor on board 003 (publisher__021)",
+   "when": "2026-11-01T01:10Z"
   }
  ],
  "next": [
   {
-   "what": "the voice read, chapters 04 onward; chapters 01 and 03 for RC2",
+   "what": "the opening pages in the cast's form, once the storyteller's script arrives",
+   "why": "board 010, NR1 signed"
+  },
+  {
+   "what": "the voice read from chapter 04, unless the conductor says the wakes go to the new form",
    "why": "board 003"
   },
   {
-   "what": "the editor's ink choice, then the cover size and the KDP files to match",
+   "what": "the type size and the price, his",
    "why": "board 009"
-  },
-  {
-   "what": "the RC2 build list once RC2 is in manuscript/",
-   "why": "board 007"
   }
  ],
  "asks": [
@@ -188,6 +192,6 @@
   "previous": "trig_01D2wnhQDySKsG8ZL9XLmNsW (first account, paused, not deleted)",
   "changed": "2026-10-31T02:20:11Z, not by this session: back to every two hours round the clock, matching Q6 as amended (01:32 UTC) and the conductor's letter 018; recorded, not changed back; the editor's word for it asked onto dev (publisher__009). Before: 00:50:06Z, to the day schedule at Q6 as first signed; recorded on dev by the conductor (letter 021), open decision W1"
  },
- "requests": "taken: conductor__002 to 037, designer__013 to 044, storyteller__010 to 024, researcher__001 to 003, security__001 to 003; all answered",
+ "requests": "taken: conductor__002 to 038, designer__013 to 044, storyteller__010 to 024, researcher__001 to 003, security__001 to 003; all answered",
  "cadence": "active"
 }

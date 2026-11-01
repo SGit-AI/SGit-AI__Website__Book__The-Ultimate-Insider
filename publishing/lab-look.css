@@ -73,3 +73,8 @@ p.source { font-family: var(--sans); font-size: 9pt; color: var(--muted); }
 /* the publisher's one change on taking it (31 October 2026): no line under the title on the title page while the
    book's name and its line are open (NS1); the designer's prompt line comes back when the editor signs one */
 header#title-block-header .title::after { content: none; }
+
+/* the publisher's, 1 November 2026: markua.py gives the source lines a class, so the :has rule above stands down and
+   the class rule does the work (the designer's 044) */
+p:has(> em:first-child) { font-family: inherit; font-size: inherit; color: inherit; }
+div.source > p, div.source > p:has(> em:first-child), p.source { font-family: var(--sans); font-size: 9pt; color: var(--muted); }
