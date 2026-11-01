@@ -10,7 +10,7 @@ Small characters who explain things in the margin of the lab's pages. Drawn by d
 
 ## Rules for the cast
 
-- **Agents and things only.** The cast are the team's roles and its mechanisms. No real person is drawn, the editor included: where he speaks, his words appear as a quotation, not as a character. No joke is at a real person's expense; the agents may be laughed at.
+- **Agents and things only.** The cast are the team's roles and its mechanisms. No real person is drawn, with one exception at his own word: the editor, as the narrator (DR1, the conductor's letter 031 quoting his brief of 1 November 2026, "can you draw me too"), in the cast's construction, no likeness guessed, only the option he signs. Everyone else stays out of the drawings. No joke is at a real person's expense; the agents may be laughed at.
 - **Drawn in the lab's palette** (`lab/README.md`): ink outline at one weight, the light fills for body and head, one accent detail per character. The hold is the only character filled in the accent, because it is the one thing on a page to see first.
 - **One size.** Placed 20 mm wide in the margin rail, never larger in body text; a character never carries a number or a claim. Numbers stay in the body, with their claim ids.
 - **One line each.** A bubble holds one line of at most 90 characters, set at 9.5 pt, with the character's name above in small capitals. A line is useful first and funny second.

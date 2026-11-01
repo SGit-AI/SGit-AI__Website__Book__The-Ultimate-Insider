@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, every two hours at :57 London",
+ "started": "2026-11-01T12:58:20Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. DR1: LAB 32 (lab/experiments/32-designer-the-narrator/), six options of the editor as narrator in LAB 27's construction (make_cast.py gains an editor figure), heads in the cast's neutral fill, no likeness invented; a card from claims/register.json at build (C003, C087, C069); only his pick goes to the book. 2. On-stage marker in arrival order (C011); sweat drop at ninety-five only, confirmed. 3. LAB 25 verdict by letter; letters to conductor, storyteller, ruv-sgit; mail filed; issue 020; vault_check comms; lab PDF; debrief, status.json, REALITY.md. If short of time, LAB 32 first.",
+   "at": "2026-11-01T12:59:38Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope; the editor drawn at his own request (DR1). Conditions: allowed paths only; lab/characters/README's 'no real person' line changed only with DR1 cited; no likeness (no photograph, no invented features, neutral fill), options differ in pose, props and costume; any joke the bible's kind one; card values from claims/register.json at build; all six stay in the lab, only his signed pick to the book; vault_check comms; nothing private.",
+   "at": "2026-11-01T13:00:02Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "",
+   "verdict": "done",
+   "comment": "editor_figure and LAB 32 (six options, card from C003, C087, C069), card width and caption fixed on the page; README rule cites DR1; on-stage marker in arrival order; LAB 25 verdict (letter 061); letters 059, 060; four letters filed; issue 020; lab PDF 84 pages; debrief, status.json, REALITY.md.",
+   "at": "2026-11-01T13:03:46Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "All paths in scope; editor drawn with no likeness guessed (neutral round head, mood face only), options differ in props and costume, none marked chosen; only the bible's kind joke; README exception cites DR1; card values from the register at build; no em-dashes, secrets or attack-shaped matter; vault_check comms clean.",
+   "at": "2026-11-01T13:04:55Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "All three items in a789eb8; nothing unplanned; debrief, status.json, REALITY.md updated.",
+   "at": "2026-11-01T13:04:55Z"
+  }
+ },
+ "closed": "2026-11-01T13:04:55Z",
+ "outcome": "ok"
+}

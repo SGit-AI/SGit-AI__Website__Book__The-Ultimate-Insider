@@ -162,5 +162,6 @@ if __name__ == "__main__":
     firsts = first_commits()
     for label, at in (("0050", "00:50"), ("0200", "02:00"), ("1200", "12:00"), ("1600", "16:00")):
         present = {m for m, f in firsts.items() if f <= at}  # on stage from its first commit (C011)
-        (HERE / f"on-stage-{label}.svg").write_text(mc.on_stage(present, 9.0))
+        arrival = sorted(mc.CAST, key=lambda m: firsts[m])  # the order they came on stage (C011), the storyteller's note
+        (HERE / f"on-stage-{label}.svg").write_text(mc.on_stage(present, 9.0, arrival))
     print("written sheet-cast.svg, sheet-moods.svg, sheet-scorecards.svg, on-stage-*.svg")
