@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1. Sample changes since dcf5b6e read (page 5 vs C092 and C095; drawings same words; CSS no external load): still clear; letter security__014 to the conductor and publisher, outbox copy. 2. LAB 24 and 25 benign; letter security__013, board 021; CH1 and NR1 rails noted, board 022 open. 3. Status, debrief.",
    "at": "2026-11-01T09:29:24Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "272d7f6..e27302a, 17 files under team/security and comms; manuscript/ and lab/ untouched; build and gate clean (385); agents.py and vault_check clean; every added line read: no key, token, contact or private name; nothing directing or attack-shaped.",
+   "at": "2026-11-01T09:29:59Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "smaller model (sub-agent)",
+   "verdict": "as-planned",
+   "comment": "1 done: sample still clear, letter security__014 (and publisher copy). 2 done: LAB 24 and 25, letter security__013, board 021; board 022 open. 3 done: status, debrief. Conditions kept; nothing unplanned.",
+   "at": "2026-11-01T09:30:15Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-01T09:30:15Z",
+ "outcome": "ok"
 }
