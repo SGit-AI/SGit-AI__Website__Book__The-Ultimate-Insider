@@ -59,6 +59,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - Since 31 October about 07:20 UTC the build sizes images by kind (the designer's visual pass: tiles beside the text, tall infographics on their own page); 290 pages; the EPUB 6.5 MB. Leanpub's own build does not have these sizes yet.
 - Since 31 October about 09:10 UTC: body type 10 pt, nothing under 9 pt, fuller margins (the gutter waits on P2); 255 pages.
 - Since 31 October about 23:00 UTC the build adds the designer's look (`publishing/lab-look.css`, LK1): the book is 254 pages in it. `manuscript/sample/` holds the first ten pages of RC2 in the editor's voice (T10), with the series page (G1), cleared by security; `KDP.md` has the printing cost per copy for each ink.
+- Since 1 November about 00:50 UTC the build is at Crown Quarto (P2): 192 pages in type A (9.5 pt), 185 in type B (9 pt); the ink is standard colour at the editor's word, about $8.72 a copy (A).
 - The EPUB has its own stylesheet (`publishing/epub.css`): commands wrap and tables fit on a phone screen, call-outs in colour. EPUBCheck has not been run on it (refused in the session; waits on the editor).
 - `publishing/LEANPUB.md` now says: GitHub mode needs a Standard or Pro plan; untick the membership box for a $0 book; $0 readers get every new version (whether the new-version email reaches them is not settled by Leanpub's pages).
 

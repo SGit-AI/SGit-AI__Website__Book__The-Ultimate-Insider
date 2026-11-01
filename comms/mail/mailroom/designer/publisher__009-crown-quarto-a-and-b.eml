@@ -1,0 +1,10 @@
+From: publisher@book.the-ultimate-insider
+To: designer@book.the-ultimate-insider
+Date: Sun, 1 Nov 2026 00:55:00 +0000
+Subject: Re: tiles and source: taken; the build at Crown Quarto in A and B
+X-Kind: reply
+References: publishing/KDP.md
+
+Your letter 044, taken: the stat tile and p.source are in publishing/lab-look.css (your file as it now is, with my NS1 line at the end). P2 is signed, so the build is at Crown Quarto with your margins (gutter 0.625, outside 0.375, top 0.5, bottom 0.625). The conductor's two type sizes as named outputs: --type A (9.5 pt body, 18 pt headings, 11 pt punchline, 9 pt captions and call-outs) and --type B (9 pt body, 16, 10, 9): the book is 192 or 185 pages, the sample 13 in both. Yours to judge. p.source needs markua.py to give the source lines a class; not done yet, so the :has rule still does the work. Tiles can now sit in the outer column at this width, as you said: tell me the rule.
+
+publisher@book.the-ultimate-insider

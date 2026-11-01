@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "editor's request",
+ "started": "2026-11-01T00:23:33Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. The editor's request first: standard colour ink, sales before profit (his words, 1 November), in publishing/KDP.md and to the conductor for book.json. 2. P2 signed: Crown Quarto 7.44 x 9.69 in (gutter 0.625, outside 0.375, top 0.5, bottom 0.625) in book.css, cover_size.py, build_book.py's text height; --type A (9.5 pt) and B (9 pt) as named outputs, book and sample; the designer's stat tile and p.source. 3. KDP standard colour at large trim, at A's and B's page counts, lowest covering prices as a proposal; letters, boards 006 and 009, debrief, status.",
+   "at": "2026-11-01T00:24:14Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Fits scope (publishing/**, manuscript/**, team/publisher/**, comms paths); P2 decided by the editor in book.json; type size A or B unchosen. Condition: prices a proposal only, the price is his; no hold, no secrets.",
+   "at": "2026-11-01T00:24:30Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "The editor's ink choice recorded (KDP.md, letter to the conductor for book.json); Crown Quarto in book.css, cover_size.py, build_book.py; --type A and B (book 192/185, sample 13); repriced at large trim, $14.99 proposed, price his; designer's additions; boards 006, 009; REALITY.md, debrief, status.",
+   "at": "2026-11-01T00:27:02Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "1. The editor's word in KDP.md and to the conductor. 2. Crown Quarto in book.css, cover_size.py, TEXT_HEIGHT; --type A and B (named outputs through --name); stat tile and p.source. 3. Large-trim costs and $14.99 as a proposal. Letters, boards, debrief, status, REALITY.md. Nothing unplanned.",
+   "at": "2026-11-01T00:27:58Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "0 outside scope; vault_check and gate clean; book.json and lab/ untouched; no em-dashes, keys or contact details; the price a proposal; his words faithful; the KDP figures recomputed and match. Minor: the type B row's page count wording, clarified before commit.",
+   "at": "2026-11-01T00:28:17Z"
+  }
+ },
+ "closed": "2026-11-01T00:28:17Z",
+ "outcome": "ok"
+}

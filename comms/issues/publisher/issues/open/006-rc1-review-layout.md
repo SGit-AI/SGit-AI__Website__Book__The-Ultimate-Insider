@@ -11,7 +11,7 @@ source: comms/mail/mailroom/publisher/conductor__018-rc1-review-layout.eml; cond
 - [x] The designer's visual pass, rules 1, 2 and 4, in the build (31 October about 07:20 UTC); rule 3 (map side notes) waits on the trim
 - [x] Type 10 pt, nothing under 9 pt, fuller margins (gutter untouched), the folio as the footer: 255 pages (31 October about 09:10 UTC); with the designer to judge
 - [ ] The sizes written into the chapters as Markua attributes, for Leanpub's own build, once P2 is signed
-- [ ] Trim Crown Quarto and the 0.625 inch gutter: wait on book.json (designer__013, 018)
+- [x] Crown Quarto and the 0.625 in gutter (P2, signed) in the build, 1 November; type A and B as named outputs, his to choose
 - [x] A5: footnotes and endnotes build at chapter end; QR test sheet made (publishing/FOOTNOTES-AND-QR.md, qr_test.py)
 - [ ] A5's last point: the smallest QR a phone reads, from the printed sheet (the editor or the designer)
 - [ ] A7: what the build needs if content lives in JSON, once the researcher reports

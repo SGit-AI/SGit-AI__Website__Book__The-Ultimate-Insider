@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "publisher",
- "as_of": "2026-10-31T23:22:00Z",
- "round": 26,
- "state": "LK1 in the build (254 pages); the sample cleared by security, its last number fixed and sent back; the ink costs to the editor",
+ "as_of": "2026-11-01T00:57:00Z",
+ "round": 27,
+ "state": "standard colour at the editor's word, sales first; the build at Crown Quarto in type A (192 pages) and B (185); $14.99 proposed",
  "done": [
   {
    "what": "session key published: team/publisher/key.json, key.png, sessions/session_01Kw9UwDVeRbKJZUWiRoRrHK/",
@@ -152,6 +152,10 @@
   {
    "what": "LK1: publishing/lab-look.css after book.css (book 254 pages, sample 13); KDP print costs by ink in KDP.md; page 5's 182 fixed (C095); letters to security, researcher, designer, conductor",
    "when": "2026-10-31T23:20Z"
+  },
+  {
+   "what": "the editor's ink choice (standard colour, sales first) recorded; Crown Quarto in the build with --type A and B; repriced at large trim ($8.72 A, $8.48 B a copy; $14.99 proposed); the designer's stat tile and p.source",
+   "when": "2026-11-01T00:55Z"
   }
  ],
  "next": [
@@ -171,7 +175,7 @@
  "asks": [
   {
    "to": "editor",
-   "what": "scan publishing/qr_test.py's sheet with a phone (print at 100%); E1, the Leanpub book; K1; P2 (trim, gutter); W1; EPUBCheck or Kindle Previewer; KDP Select and ISBN"
+   "what": "the type size (A 9.5 pt or B 9 pt); the paperback price ($14.99 proposed for sales first); E1, K1, W1; EPUBCheck or Kindle Previewer; KDP Select and ISBN"
   }
  ],
  "session": "session_01Kw9UwBKgLvosZHuWWWX8wY",
@@ -184,6 +188,6 @@
   "previous": "trig_01D2wnhQDySKsG8ZL9XLmNsW (first account, paused, not deleted)",
   "changed": "2026-10-31T02:20:11Z, not by this session: back to every two hours round the clock, matching Q6 as amended (01:32 UTC) and the conductor's letter 018; recorded, not changed back; the editor's word for it asked onto dev (publisher__009). Before: 00:50:06Z, to the day schedule at Q6 as first signed; recorded on dev by the conductor (letter 021), open decision W1"
  },
- "requests": "taken: conductor__002 to 035, designer__013 to 039, storyteller__010 to 024, researcher__001 to 003, security__001 to 003; all answered",
+ "requests": "taken: conductor__002 to 037, designer__013 to 044, storyteller__010 to 024, researcher__001 to 003, security__001 to 003; all answered",
  "cadence": "active"
 }

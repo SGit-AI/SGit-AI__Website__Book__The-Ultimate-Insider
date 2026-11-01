@@ -1,13 +1,12 @@
-/* Print style for the PDF (publishing/build_book.py). 6 x 9 inches is the common
-   trade size on Leanpub and on KDP paperback, so one PDF serves both proofs. */
+/* Print style for the PDF (publishing/build_book.py). Crown Quarto, 7.44 x 9.69 inches, a KDP trim size: P2, signed by
+   the editor (31 October 2026), with the designer's margins (designer__013, 018). */
 /* Mirrored for print: the wider margin (the gutter) is always on the binding side. A right-hand page
    (recto, odd) binds on its left, a left-hand page (verso, even) on its right; page 1 is a recto.
-   0.75in of gutter meets KDP's minimum for any page count up to 700 (KDP.md, its margins table). */
-/* margins nearer a normal book's (the editor's RC1 review: too much white space): top 0.55, bottom 0.65 with the folio,
-   outside 0.45 in; the gutter stays 0.75 in until the trim and gutter are signed (P2) */
-@page { size: 6in 9in; margin: 0.55in 0.45in 0.65in 0.75in; }
-@page :right { margin-left: 0.75in; margin-right: 0.45in; }
-@page :left { margin-left: 0.45in; margin-right: 0.75in; }
+   Gutter 0.625 in (the editor's yes to it over KDP's 0.5 minimum; it also meets KDP's minimum above 300 pages);
+   outside 0.375, top 0.5, bottom 0.625 with the folio outside. */
+@page { size: 7.44in 9.69in; margin: 0.5in 0.375in 0.625in 0.625in; }
+@page :right { margin-left: 0.625in; margin-right: 0.375in; }
+@page :left { margin-left: 0.375in; margin-right: 0.625in; }
 @page :first { margin-top: 2in; }
 html { font-family: Georgia, "DejaVu Serif", "Liberation Serif", serif; font-size: 10pt; line-height: 1.42; color: #111; }
 /* pandoc 3.1 adds its own page styles (a 36em column, 50px padding) whatever document-css says: undo them */
@@ -34,7 +33,7 @@ nav#TOC { page-break-after: always; }
 nav#TOC ul { list-style: none; padding-left: 1em; }
 /* figures: images and collages from the record (the illustrator's rules, from the conductor's letter of 30 October) */
 figure { margin: 0.9em 0 1.1em; text-align: center; break-inside: avoid; page-break-inside: avoid; }
-figure img { display: block; margin: 0 auto; max-width: 100%; max-height: 4.6in; width: auto; height: auto; }
+figure img { display: block; margin: 0 auto; max-width: 100%; max-height: 5.4in; width: auto; height: auto; }
 figcaption { font-size: 9pt; line-height: 1.35; color: #444; margin-top: 0.45em; text-align: left; font-style: italic; }
 /* Markua asides and blurbs (publishing/markua.py): the call-out look of the conductor's RC1 build (CALLOUT_CSS in team/conductor/rc1/tools/assemble_rc1.py) */
 .callout { break-inside: avoid; page-break-inside: avoid; margin: 0.9em 0 1em; padding: 0.55em 0.8em 0.6em;
