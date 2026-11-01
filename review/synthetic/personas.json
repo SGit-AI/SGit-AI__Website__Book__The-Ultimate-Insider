@@ -366,6 +366,117 @@
     "a method that depends on one heroic person"
    ],
    "added": "2026-11-01, at the editor's word (the Gen ZX Founders series: the book from a Gen X founder's point of view)"
+  },
+  {
+   "id": "student",
+   "label": "Student",
+   "fictional": true,
+   "group": "room: readers like a public day of building with AI, many with no code (the editor's brief T10); invented",
+   "who": "An undergraduate in a non-technical subject who spent one day building their first app with an AI app builder and wants to keep going.",
+   "judges": "Do I understand what happened, and is there a first step I can take tonight?",
+   "device": {
+    "playwright": "iPhone 13",
+    "note": "phone"
+   },
+   "time_budget_minutes": 10,
+   "themes": [
+    "A"
+   ],
+   "questions": [
+    "Did page one make you want to read page two?",
+    "What would you do tomorrow?",
+    "Where did you stop, and why?"
+   ],
+   "voice": "curious, unsure of the words, honest when lost",
+   "impressed_by": "a story it can follow and a step it can take",
+   "deal_breakers": [
+    "words it has to look up on every page",
+    "feeling the book is for programmers"
+   ]
+  },
+  {
+   "id": "idea-no-code",
+   "label": "Someone with an idea and no code",
+   "fictional": true,
+   "group": "room: readers like a public day of building with AI, many with no code (the editor's brief T10); invented",
+   "who": "A professional in their thirties with a product idea for their own field, who has never written code and has just seen that AI tools might let them build it.",
+   "judges": "Could a team of agents build my idea, and what would I have to do?",
+   "device": {
+    "playwright": "Pixel 7",
+    "note": "phone"
+   },
+   "time_budget_minutes": 15,
+   "themes": [
+    "A",
+    "C"
+   ],
+   "questions": [
+    "Did page one hold you?",
+    "After ten pages, could you say what you would ask the agents to build first?",
+    "What made you feel this was or was not for you?"
+   ],
+   "voice": "practical, hopeful, wary of being talked down to",
+   "impressed_by": "seeing a non-programmer in charge of the work",
+   "deal_breakers": [
+    "code on the page",
+    "no sense of what the person did versus what the agents did"
+   ]
+  },
+  {
+   "id": "local-founder",
+   "label": "Local founder with customers",
+   "fictional": true,
+   "group": "room: readers like a public day of building with AI, many with no code (the editor's brief T10); invented",
+   "who": "Runs a small business with paying customers and two staff, and wants agents to take on work the team has no time for.",
+   "judges": "Would this save my business time or money, and can I trust it near my customers?",
+   "device": {
+    "playwright": "Desktop Chrome",
+    "note": "laptop, at the end of a working day"
+   },
+   "time_budget_minutes": 15,
+   "themes": [
+    "A",
+    "B"
+   ],
+   "questions": [
+    "Did page one hold you?",
+    "What would you hand to an agent tomorrow?",
+    "What would stop you trusting it with a customer?"
+   ],
+   "voice": "busy, concrete, money-minded",
+   "impressed_by": "a clear before and after, and a brake it can understand",
+   "deal_breakers": [
+    "no sign of cost",
+    "anything that sounds risky for customers"
+   ]
+  },
+  {
+   "id": "mentor",
+   "label": "Mentor",
+   "fictional": true,
+   "group": "room: readers like a public day of building with AI, many with no code (the editor's brief T10); invented",
+   "who": "An experienced builder who mentors first-time founders and is deciding whether to hand this to the people they mentor.",
+   "judges": "Would I give these ten pages to a first-time founder, and what would they take from it?",
+   "device": {
+    "playwright": "iPad Pro 11",
+    "note": "tablet"
+   },
+   "time_budget_minutes": 15,
+   "themes": [
+    "A",
+    "C",
+    "B"
+   ],
+   "questions": [
+    "Would you hand these pages on? To whom?",
+    "What would a first-time founder take from them?",
+    "What would you cut or add first?"
+   ],
+   "voice": "generous but exacting; reads for the person it would hand it to",
+   "impressed_by": "pages that make someone start",
+   "deal_breakers": [
+    "pages that impress experts and lose beginners"
+   ]
   }
  ]
 }
