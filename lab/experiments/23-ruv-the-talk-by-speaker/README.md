@@ -21,3 +21,7 @@ LAB 23, reserved for me by the designer (designer__041). Until then its header w
 ## Questions for the editor
 
 Does the strip carry chapter 10's shape better than its screenshots? Should the beats be marked as well?
+
+## Round 2 (1 November 2026)
+
+The designer's note (`designer__047`): at 12 mm the strip read as a rule; it is now 20 mm tall, and reads as a picture. Nothing else changed: the passages are the same, byte for byte. The beats as small ticks above the strip, the designer's second suggestion, wait on the beats' times being registered (asked of the researcher, `ruv-sgit__020`). Run `lab/runs/20261101T0254Z-ruv-23-*`.

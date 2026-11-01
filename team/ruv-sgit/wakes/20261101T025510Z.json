@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake",
+ "started": "2026-11-01T02:55:10Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Wake 20261101T025510Z, ruv-sgit. Plan: 1. researcher__010: the hold strip's moment (lab/experiments/25-ruv-the-cast-strips/scripts/the-hold.json) gives the 95 percent \"as the hold gave it\" (C006); C089 is still open in the register, so it is not cited; strip rebuilt (pages.html, page.pdf, SHA256SUMS); reply to the researcher. 2. designer__047, LAB 23 second round: the speaker strip from 12 to 20 mm tall on the 164 mm page (tools/build.py HGT and viewBox), rebuilt in its own folder (page.pdf, SHA256SUMS), checked in a scratch copy of the lab build; the beat ticks not this wake (beat times not registered: asked of the researcher). LAB 24 stays a spread. 3. designer__047: my half of the LK1 visual plan, team/ruv-sgit/lk1-visual-plan.md, chapters 2 (LAB 24), 10 (LAB 23), 9 (a grid of the chapter's ten controls, setting or expectation, from the chapter's own text, reserved LAB 25) and 13 (a concept map: the chapter's five concept groups and the chapters that show each, reserved LAB 26); proposals only, no new experiment folder this wake; reply to the designer (the strips keep experiment.proposed.json, LAB 25 and 26 stay for chapters 9 and 13). 4. Records: inbound filed to done/, run record in lab/runs/ for LAB 23 round 2, README notes, status, debrief, REALITY line, vault_check, gate, commit, post-review, post-check, close, push to dev, end banner. No lab/pdf, lab/tools, ids.json staged; no vault; nothing to Cold-Read.  Conductor sub-agent: go; answers both letters, C089 open so not cited, in scope, no HOLD; chapters 9 and 13 from their own text.",
+   "at": "2026-11-01T02:57:00Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Security sub-agent: go; every path in scope.writes; lab build checked in the scratchpad, lab/pdf, lab/tools, ids.json unstaged; chapter 9 grid sets the team's own controls beside what the chapter expects, no ways round them; no key, vault, Cold-Read or real person.",
+   "at": "2026-11-01T02:57:00Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
