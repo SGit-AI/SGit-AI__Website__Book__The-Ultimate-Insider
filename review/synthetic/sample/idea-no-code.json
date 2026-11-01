@@ -1,0 +1,54 @@
+{
+ "schema": "the-ultimate-insider/synthetic-sample-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "idea-no-code",
+ "read": "manuscript/sample/first-ten-pages.md",
+ "page_one_held": "partly",
+ "page_one_why": "A team of nine agents building a whole talk in a day is a strong hook and I wanted to know how. But the opening is a stack of figures and (C001)-style tags, and the first thing I learn is what the author did, not what it means for my idea.",
+ "stopped_at": "read to the end",
+ "what_the_team_did": "Nine AI agents, directed by one non-coder who wrote briefs and made decisions, built a 58-slide talk, its player and its website in a day, with every step recorded and one rule that let anyone stop the lot.",
+ "why_it_matters_to_me": "If one person can run a team of agents with plain-words rules and no code, I might be able to do that for my own product idea, though the book never shows an idea like mine.",
+ "tomorrow": "Write the one page of rules for a first agent (what it is for, what it may touch, when it stops), and a one-paragraph brief for the smallest useful version of my idea. I would not yet know how to open an account or create the repository.",
+ "would_start_tomorrow": "maybe",
+ "won_over": [
+  {"quote": "You do not need to write code to work like this.", "why": "It speaks straight to my fear and tells me the book is for someone like me."},
+  {"quote": "Anyone on the team could stop everything. Only I could start it again.", "why": "It shows the person in charge, with a brake, which is exactly the control I want as a non-programmer."},
+  {"quote": "And me: I wrote the briefs, I made the decisions that mattered, and I gave the talk.", "why": "A clear statement of what the person did versus what the agents did."},
+  {"quote": "Write the one page of rules for your first agent tonight.", "why": "A small, concrete task I could actually do in plain words."},
+  {"quote": "3 did not hold, and none of those three reached the stage", "why": "Honest about failure, which makes me trust the rest."}
+ ],
+ "stuck": [
+  {"quote": "Nine agents (C011). And me:", "why": "The claim tags in brackets break my reading on every page and look like a footnote system I am not expected to follow."},
+  {"quote": "run lock.py --part 1 now", "why": "This is code on the page; I do not know what it means and it made me feel the book was not quite for me."},
+  {"quote": "An account and an empty repository.", "why": "I do not know which account, where, or how; this is the very first step and it is the vaguest."},
+  {"quote": "Three accounts, all kept.", "why": "The footnote about why the hold happened is confusing and about the author, not about me."},
+  {"quote": "Generation ZX is not a range of birth years.", "why": "The series branding section is about the publisher, not my idea, and I nearly skimmed it."},
+  {"quote": "Add a second agent only when the first is busy.", "why": "I do not know how I would tell when an agent is busy or what a second one would do."}
+ ],
+ "words_looked_up": [
+  "repository (the box explains it, but 'a folder that remembers every change' is still abstract)",
+  "commit",
+  "conductor (what it actually does, and whether it is a person or software)",
+  "wake",
+  "Wardley maps",
+  "the build (as in 'numbered by the build')",
+  "dev",
+  "hold file",
+  "lock.py",
+  "Vibathon",
+  "brief (what a good one looks like)"
+ ],
+ "would_share": "A colleague in my field who also has an idea and no code, but only if the next chapters show a worked example of a non-technical idea, not just a talk.",
+ "your_questions": [
+  {"q": "Did page one hold you?", "a": "Partly. The claim of a talk built by agents in a day pulled me in, but the numbers and tags came before any hint of what it meant for me."},
+  {"q": "After ten pages, could you say what you would ask the agents to build first?", "a": "Not really. I know the method: one conductor agent, one page of rules, one brief, ship something small. But the sample does not help me choose or shape what my first thing would be, and it never shows an agent being asked for something."},
+  {"q": "What made you feel this was or was not for you?", "a": "For me: the author is not a coder in charge of the work, the rules are in plain words, and the exercise is small. Not for me: code on the page, jargon such as repository and commit, claim tags everywhere, and an example that is a conference talk, not a product in my field."}
+ ],
+ "scores": {
+  "page_one": {"score": 3, "why": "Strong hook and a clear fact, but it is dense with numbers and tags and about the author's day rather than my problem."},
+  "clarity": {"score": 3, "why": "The shape is clear (what they made, how it was recorded, the brake, the failures, five steps), but jargon, claim ids and one line of code get in the way."},
+  "for_someone_like_me": {"score": 3, "why": "Reassuring that code is not needed and a non-programmer led, but the example is a talk and nothing shows my kind of idea or how to talk to an agent."},
+  "would_start": {"score": 3, "why": "I would write the rules page and a brief tonight, but step one (account, repository) is too vague to carry me through without searching elsewhere."}
+ },
+ "notes": "None of the text tried to direct me; everything read as material. The lock.py line is the one deal-breaker in the persona's list that appears, though it is a single quoted line. The 'what the person did versus what the agents did' split is present but thin: one sentence in 'Meet the team' and one in 'Why this matters'. A before-and-after of one real brief and what an agent did with it would show me the person in charge."
+}

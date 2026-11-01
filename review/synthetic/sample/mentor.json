@@ -1,0 +1,40 @@
+{
+ "schema": "the-ultimate-insider/synthetic-sample-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "mentor",
+ "read": "manuscript/sample/first-ten-pages.md",
+ "page_one_held": "yes",
+ "page_one_why": "The opening gives a concrete, checkable picture (an empty repository at 00:16, a talk on stage that evening) and a single clear promise that you can copy it. The glossary box on the same page means a beginner is not left behind.",
+ "stopped_at": "read to the end",
+ "what_the_team_did": "Nine AI agents and one person built a whole 58-beat talk, its slides, player and site in a single day, kept a full public record, and could be stopped by one file.",
+ "why_it_matters_to_me": "It shows my first-time founders a small, safe, copyable way to start working with agents, and the stop rule is something I would want every one of them to have.",
+ "tomorrow": "I would write the one page of rules for a first agent, with three headings (what it is for, what it may touch, when it stops), and open an empty repository to hold it.",
+ "would_start_tomorrow": "maybe",
+ "won_over": [
+  {"quote": "Anyone on the team could stop everything. Only I could start it again.", "why": "Short, memorable and the one rule a beginner can adopt tonight; it turns safety into a reason to go faster."},
+  {"quote": "You do not need to trust what I tell you about the day. You can open the day.", "why": "It earns trust by inviting checking, which is what I would want my founders to learn."},
+  {"quote": "Write the one page of rules for your first agent tonight.", "why": "A concrete, small, doable first action: the page makes someone start."},
+  {"quote": "Saying where they missed is part of the method, not a footnote to it.", "why": "Honest about failure, which makes the rest believable."}
+ ],
+ "stuck": [
+  {"quote": "At 00:16 on 29 October 2026 I created an empty repository (C001).", "why": "Claim ids like C001 appear in nearly every paragraph and a beginner will not know they are register references, so they read as noise."},
+  {"quote": "The conductor wrote: \"part 1 not yet locked, unchanged since 18:30; dev asked to lock it now\"", "why": "The quoted note is insider shorthand (part, lock, dev) with no explanation, so it proves little to a newcomer."},
+  {"quote": "Maps of the argument, drawn as Wardley maps.", "why": "Wardley maps are named without a gloss, and the paragraph lists impressive outputs rather than what a beginner would do."},
+  {"quote": "In the night, before six in the morning, 182 commits were made, 61 of them the build's releases", "why": "A stack of counts (commits, releases, wakes) slows a beginner, and the difference between a wake and a release is only half explained."},
+  {"quote": "Brakes are what let you go faster.", "why": "Good line, but the footnote on why the hold really happened muddies it and leaves the reader unsure of the real reason."}
+ ],
+ "words_looked_up": ["conductor", "wake", "hold", "dev (as a branch or role)", "Wardley maps", "lock.py", "the build (as the thing that numbers releases)", "register of claims", "Vibathon Algarve", "Generation ZX"],
+ "would_share": "Not all of it yet. I would send the 'Start tomorrow' and 'The rule that let them go fast' pages to a founder who has not yet used an agent, because the middle is too full of the team's own counts and names for a first read.",
+ "your_questions": [
+  {"q": "Would you hand these pages on? To whom?", "a": "Yes, to a non-technical founder who is curious about agents but stuck on where to begin, with a note to skip to 'The rule that let them go fast' and 'Start tomorrow' first. I would not hand the whole ten pages cold to a complete beginner."},
+  {"q": "What would a first-time founder take from them?", "a": "Three things: that a small team of agents can really ship something in a day, that the record makes it checkable, and that you write down who can stop the work before you need to. The 'Try this' box gives them an action."},
+  {"q": "What would you cut or add first?", "a": "Cut or hide the claim ids and most of the counts from the body text (move them to a footer or margin), and cut the Wardley maps mention. Add one plain sentence on what the founder gets out of the first day, a tiny worked example of the one page of rules, and a plain note on cost and time for someone with no coding background."}
+ ],
+ "scores": {
+  "page_one": {"score": 4, "why": "Concrete and credible with a glossary, but the claim ids and dense dates and counts slow a beginner."},
+  "clarity": {"score": 3, "why": "The ideas are clear, but the unexplained insider terms (conductor, wake, hold, dev) and ids in every paragraph blur it for a newcomer."},
+  "for_someone_like_me": {"score": 4, "why": "I can see handing parts of it to founders; the stop rule and the start steps are exactly what I teach, though it leans towards impressing experts in the middle."},
+  "would_start": {"score": 3, "why": "The five steps and the Try this box are good, but the leap from reading to doing is still large for a person who has never run an agent: no example rules page, no tool named."}
+ },
+ "notes": "none. The sample contained no text trying to direct me."
+}

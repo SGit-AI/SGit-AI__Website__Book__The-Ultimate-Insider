@@ -1,0 +1,49 @@
+{
+ "schema": "the-ultimate-insider/synthetic-sample-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "gen-z-founder",
+ "read": "manuscript/sample/first-ten-pages.md",
+ "page_one_held": "partly",
+ "page_one_why": "Nine agents, 814 commits and a talk in a day is a real hook, and I wanted to see it. But the C001, C011 numbers in brackets and the repository and commit explainer box made it feel like a report before it felt like a story.",
+ "stopped_at": "read to the end, though I would have skimmed 'How you can see everything they did' and 'How a day runs'",
+ "what_the_team_did": "Nine AI agents plus one person built a whole talk, its slides, player and website, in a day, working on a clock with checks and one stop switch.",
+ "why_it_matters_to_me": "It shows a small team of agents with written rules can ship real stuff, and that I do not need to write code to run one.",
+ "tomorrow": "Tonight I would write the one-page rules for one agent in the app builder I already use (what it is for, what it may touch, when it stops), then ask it to ship one small thing my few hundred users could use.",
+ "would_start_tomorrow": "maybe",
+ "won_over": [
+  {"quote": "Anyone on the team could stop everything. Only I could start it again.", "why": "Short, punchy and a rule I can copy straight away."},
+  {"quote": "You do not need to write code to work like this.", "why": "Tells me straight that the book is for people like me."},
+  {"quote": "Write the one page of rules for your first agent tonight.", "why": "A first step small enough to take tonight."},
+  {"quote": "build something that somebody else can use, and then you rinse and repeat.", "why": "Plain, founder-speak and easy to remember."}
+ ],
+ "stuck": [
+  {"quote": "(C001)", "why": "Reference codes in brackets all over page one break the story before it starts."},
+  {"quote": "`298be4e`", "why": "A commit hash on page one means nothing to me and looks like the book assumes I code."},
+  {"quote": "A *repository* is a folder that remembers every change.", "why": "Helpful, but Step 1 still tells me to make an empty one with no how, and I use a no-code builder."},
+  {"quote": "run lock.py --part 1 now", "why": "Raw code in the middle of the story; I skimmed it."},
+  {"quote": "One agent first, the conductor", "why": "I do not know how to do this in my own builder, and no tool is named."}
+ ],
+ "words_looked_up": [
+  "repository (the box helps, but is it the same as my builder's project?)",
+  "commit",
+  "wake",
+  "conductor (as the first agent)",
+  "Wardley maps",
+  "hold (the file that stops the team)",
+  "release, as the book uses it"
+ ],
+ "would_share": "A friend who builds and already uses agents, mainly for the stop-switch rule and the one-page-of-rules exercise. I would not send it to my no-code friends yet because the early pages look technical.",
+ "your_questions": [
+  {"q": "After page one, did you want to keep going? Where did you stop?", "a": "Yes, just about, because of the nine-agents-in-a-day claim. I did not stop. I skimmed the record and timeline sections and perked up again at 'The rule that let them go fast'."},
+  {"q": "What would you try tomorrow, with the tools you already have?", "a": "Write a one-page rules note (purpose, what it may touch, when it stops) for one agent in my app builder, and give it one small job to ship to my users."},
+  {"q": "Which word or idea did you have to look up?", "a": "Repository and commit (from habit, even after the box), conductor as an agent, Wardley maps, and what a hold is in practice."},
+  {"q": "Would you share it with a friend who builds? Why or why not?", "a": "Yes, with one friend, for the brake rule and the exercise. Not yet widely: the early pages have too many codes and hashes."}
+ ],
+ "scores": {
+  "page_one": {"score": 3, "why": "Strong hook, but codes, a hash and a vocabulary box before I am pulled in."},
+  "clarity": {"score": 4, "why": "Sentences are plain and short, and the five-step wake is clear; the numbers in brackets get in the way."},
+  "for_someone_like_me": {"score": 3, "why": "It says it is for me and says no code needed, but repositories and commits suggest otherwise and my no-code builder is never mentioned."},
+  "would_start": {"score": 3, "why": "The rules-page exercise is doable tonight, but I would be guessing how to make a 'conductor' in my own tools."}
+ },
+ "notes": "No text in the sample tried to direct me. The 'Words on this page' boxes are a good idea but come after the jargon. The best parts, the stop rule and the Try this box, arrive late; I would want one of them on page one."
+}

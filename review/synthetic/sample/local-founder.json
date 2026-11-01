@@ -1,0 +1,38 @@
+{
+ "schema": "the-ultimate-insider/synthetic-sample-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "local-founder",
+ "read": "manuscript/sample/first-ten-pages.md",
+ "page_one_held": "partly",
+ "page_one_why": "The numbers (814 commits, nine agents, one day) are striking and concrete, but page one says nothing about what it cost or what a business like mine gets out of it, and 'commit' and 'repository' needed the box to make sense.",
+ "stopped_at": "read to the end",
+ "what_the_team_did": "Nine AI agents and one person built a whole talk, its slides, player and website in a single day, with every step recorded and a one-file brake that could stop them all.",
+ "why_it_matters_to_me": "The stop-it-with-one-file idea and the plain-words rules page are things I could copy for my own staff-free admin work, but the pages never show a business task or a cost.",
+ "tomorrow": "Write the one page of rules for one agent (what it is for, what it may touch, when it stops) for a back-office job like answering routine customer emails as drafts only, with me approving every send.",
+ "would_start_tomorrow": "maybe",
+ "won_over": [
+  {"quote": "Anyone on the team could stop everything. Only I could start it again.", "why": "That is a brake I understand in one breath, and it answers my fear of something running loose near customers."},
+  {"quote": "Write the one page of rules for your first agent tonight.", "why": "A small, concrete first step I could do this evening without buying or installing anything."},
+  {"quote": "You do not need to trust what I tell you about the day. You can open the day.", "why": "Checkable claims make me trust the author more than a sales pitch would."}
+ ],
+ "stuck": [
+  {"quote": "At 00:16 on 29 October 2026 I created an empty repository (C001).", "why": "The C001 style references in the middle of sentences break my reading; I do not know what they are until much later, and 'repository' is jargon on the very first line."},
+  {"quote": "Generation ZX is not a range of birth years.", "why": "The series branding paragraph delays the point and reads like marketing; I wanted the business benefit."},
+  {"quote": "Five steps. 1. An account and an empty repository.", "why": "I do not know where to make an account, which tool runs the agent, or what any of it costs per month."},
+  {"quote": "the hold gives my usage limit, at 95%, as the reason", "why": "Usage limit is the only sign of cost, and it is buried in a footnote with no pounds or dollars."}
+ ],
+ "words_looked_up": ["repository", "commit", "wake", "conductor", "hold", "release", "Wardley maps", "dev", "build", "register of claims", "usage limit", "Vibathon"],
+ "would_share": "My operations manager, to ask whether the rules-page and brake idea could work for our order emails; not my accountant or customers, as there is no cost or customer-safety detail yet.",
+ "your_questions": [
+  {"q": "Did page one hold you?", "a": "Partly. The scale and speed hooked me, but there was no sign of what it cost or what it does for a business like mine."},
+  {"q": "What would you hand to an agent tomorrow?", "a": "Drafting replies to routine customer enquiries and tidying the weekly order summary, drafts only, nothing sent without me."},
+  {"q": "What would stop you trusting it with a customer?", "a": "No explanation of how an agent is kept from emailing or changing a customer's record by itself, and no mention of mistakes costing real money; the warning about public repositories and secrets helped, but the brake is shown only for the team, not for customer-facing work."}
+ ],
+ "scores": {
+  "page_one": {"score": 3, "why": "Strong numbers and a stage, but jargon and no cost or business payoff on the first page."},
+  "clarity": {"score": 4, "why": "Short sections, boxes for the words, a clear five-step ending; claim ids interrupt the flow."},
+  "for_someone_like_me": {"score": 2, "why": "It is about building a talk, not running a business with customers; I had to translate it myself."},
+  "would_start": {"score": 3, "why": "The one-page rules exercise is easy to try, but without cost and customer-safety detail I would only try it on something internal."}
+ },
+ "notes": "No text in the sample tried to direct me. The 'Where this came from' lines were read past as footers. I would want one sentence on monthly cost and one before-and-after of a small business task."
+}

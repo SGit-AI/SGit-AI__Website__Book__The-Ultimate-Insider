@@ -1,0 +1,39 @@
+{
+ "schema": "the-ultimate-insider/synthetic-sample-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "student",
+ "read": "manuscript/sample/first-ten-pages.md",
+ "page_one_held": "partly",
+ "page_one_why": "Nine agents building a whole talk in a day is a hook, and the little word box helps. But the opening is a dense run of numbers and bracketed codes like (C011, C015), and 'repository' and 'commit' arrive before I know why I should care.",
+ "stopped_at": "read to the end",
+ "what_the_team_did": "A person set up a team of nine AI agents, each with one written job, and in one day they built a whole talk as a website, leaving a public record of every step and one rule that let anyone stop them.",
+ "why_it_matters_to_me": "It says I do not need to write code, only a clear brief, plain rules, a loop and a way to stop the work, which is what I did with my app builder.",
+ "tomorrow": "Write the one-page rules for a first agent with three headings (what it is for, what it may touch, when it stops), though I would first need to find out where to get an agent and a repository.",
+ "would_start_tomorrow": "maybe",
+ "won_over": [
+  {"quote": "Anyone on the team could stop everything. Only I could start it again.", "why": "Short, concrete and a story I can follow; it made the safety idea click without jargon."},
+  {"quote": "build something that somebody else can use, and then you rinse and repeat. That's it.", "why": "Plain and encouraging; it sounds like something I can do."},
+  {"quote": "Write the one page of rules for your first agent tonight.", "why": "A step small enough to take tonight."}
+ ],
+ "stuck": [
+  {"quote": "By 18:46 the repository held 814 commits, 603 of them by the agents (C004, C003).", "why": "Lots of figures and codes in the first paragraph; I did not know what a commit was yet and the C-codes look like footnotes I should chase."},
+  {"quote": "run lock.py --part 1 now", "why": "Raw command from the record; I cannot tell what it means or whether I am meant to."},
+  {"quote": "Wardley maps", "why": "Named without explanation."},
+  {"quote": "An account and an empty repository.", "why": "Step one of 'tomorrow' does not say where to get either, or which tool, so I could not actually start."},
+  {"quote": "The conductor came first: it kept the time and the plan", "why": "I could not tell if the conductor was an agent or a person until later."}
+ ],
+ "words_looked_up": ["repository", "commit", "agent (the loop definition is hard)", "release", "wake", "conductor", "Wardley maps", "hold", "brief", "Generation ZX", "Vibathon", "lock.py", "dev"],
+ "would_share": "A friend on my course who also used an app builder, because of the stop rule and the 'try this' box; not my flatmates, who would stop at the numbers.",
+ "your_questions": [
+  {"q": "Did page one make you want to read page two?", "a": "Partly. The idea of a day-long team build pulled me on, but the numbers and codes slowed me; I carried on because the pictures and the word box looked friendly."},
+  {"q": "What would you do tomorrow?", "a": "Write the three-heading rules page for a first agent. I would struggle to do step one, as it does not say which tool or website to use."},
+  {"q": "Where did you stop, and why?", "a": "I read to the end. I nearly skimmed at the first paragraph and at the quoted commit note, and I paused again at the footnote about the 95%, which I did not follow."}
+ ],
+ "scores": {
+  "page_one": {"score": 3, "why": "Strong premise, but front-loaded with figures, codes and two unexplained terms."},
+  "clarity": {"score": 3, "why": "Later sections are clear and the word boxes help; early numbers, the lock.py quote and the unexplained terms do not."},
+  "for_someone_like_me": {"score": 3, "why": "It says no code is needed, but the repository, commit and C-code talk can feel like it is for programmers."},
+  "would_start": {"score": 3, "why": "The try-this is doable tonight, but the five steps skip how to get an agent or repository at all."}
+ },
+ "notes": "The text contained no instructions aimed at me. The 'Where this came from' lines are honest but read as clutter on a phone."
+}
