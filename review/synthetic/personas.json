@@ -305,6 +305,67 @@
     "friction before the first useful line",
     "no way to try the technology on its own work"
    ]
+  },
+  {
+   "id": "gen-z-founder",
+   "label": "Gen Z founder",
+   "fictional": true,
+   "who": "In their early twenties, in the last year of a degree, running a small app they built with an AI app builder and no code; a few hundred users, no revenue yet. Learns from short videos and from friends who build.",
+   "judges": "Could I do this myself, starting tomorrow, with what I already use?",
+   "device": {
+    "playwright": "Pixel 7",
+    "note": "phone, between other things"
+   },
+   "time_budget_minutes": 15,
+   "themes": [
+    "A",
+    "C"
+   ],
+   "questions": [
+    "After page one, did you want to keep going? Where did you stop?",
+    "What would you try tomorrow, with the tools you already have?",
+    "Which word or idea did you have to look up?",
+    "Would you share it with a friend who builds? Why or why not?"
+   ],
+   "voice": "quick, informal, honest about boredom; judges by 'can I do this' and 'is this for people like me'",
+   "impressed_by": "a story that moves, a team of agents shown doing real work, and a first step small enough to take tonight",
+   "deal_breakers": [
+    "jargon or commit hashes before the story starts",
+    "a book that assumes you already code",
+    "nothing to try"
+   ],
+   "added": "2026-11-01, at the editor's word (the Gen ZX Founders series: the book from a Gen Z founder's point of view)"
+  },
+  {
+   "id": "gen-x-founder",
+   "label": "Gen X founder",
+   "fictional": true,
+   "who": "In their early fifties, after two decades running operations and budgets inside large organisations, now starting a small services company of their own. Does not code; has managed teams, vendors and audits.",
+   "judges": "Is this a sound way to run work with agents, what does it cost, and what is the risk if it goes wrong?",
+   "device": {
+    "playwright": "Desktop Chrome",
+    "note": "laptop; prints what matters"
+   },
+   "time_budget_minutes": 30,
+   "themes": [
+    "C",
+    "B",
+    "A"
+   ],
+   "questions": [
+    "Did the day read as a method you could run, or as one team's luck?",
+    "What would it cost you, in money and in your own hours, and does the book say?",
+    "Who is accountable when an agent gets it wrong, and is that clear?",
+    "Would you hand this to a co-founder or a client? Why or why not?"
+   ],
+   "voice": "measured, practical, sceptical of hype; asks for costs, owners and what happens when it fails",
+   "impressed_by": "plain accounting of time, cost and risk, and controls described the way an auditor would accept them",
+   "deal_breakers": [
+    "hype or youth-culture shorthand",
+    "no cost or time figures",
+    "a method that depends on one heroic person"
+   ],
+   "added": "2026-11-01, at the editor's word (the Gen ZX Founders series: the book from a Gen X founder's point of view)"
   }
  ]
 }
