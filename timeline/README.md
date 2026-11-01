@@ -86,7 +86,8 @@ timeline/
   interviews/           exit interviews, reconstructed from the record, and the lessons collated
   triggers.md           scheduled work and work the editor started, by hour
   quotes.md             the team in its own words: moments worth quoting, mapped to chapters
-  cast.md               each agent's real record, and who was on stage when
+  cast.md               each agent's real record, the editor's, and who was on stage when
+  cast-scenes.md        the record behind the opening scenes
 ```
 
 ## How a round runs

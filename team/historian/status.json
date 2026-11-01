@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "historian",
- "as_of": "2026-11-01T09:55:00Z",
+ "as_of": "2026-11-01T14:48:00Z",
  "round": 1,
- "state": "ok: CH1 and NR1 answered in timeline/cast.md; a second source for card 01 found (5d13d72); active cadence while the cast scenes are drafted",
+ "state": "ok: the opening scenes' record (storyteller 028) and the editor's record (DR1) on dev; PS1's lineage next",
  "done": [
   {
    "what": "The session key made and published: key.json, key.png and the session folder",
@@ -120,9 +120,17 @@
   {
    "what": "CH1 and NR1: each talk agent's real record and who was on stage when; ruv-sgit's moments answered with their record",
    "evidence": "timeline/cast.md; comms/issues/historian/issues/open/004-cast-records.md; historian__012, historian__013"
+  },
+  {
+   "what": "The record behind five opening scenes (storyteller 028) and the editor's own record for his card (DR1)",
+   "evidence": "timeline/cast-scenes.md; timeline/cast.md; historian__014, historian__015"
   }
  ],
  "next": [
+  {
+   "what": "PS1: the factory's lineage, what the day's team reused from earlier projects, each with its commit or page",
+   "why": "the conductor's 022"
+  },
   {
    "what": "Check each cast scene as it is drafted against timeline/cast.md and the record (on request); A10's second pass when RC2 has chapters",
    "why": "issues 003 and 004"

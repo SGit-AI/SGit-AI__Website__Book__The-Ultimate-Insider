@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled, every two hours at :17 London (fired 14:17)",
+ "started": "2026-11-01T14:18:43Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Requests oldest first. 1. storyteller 028: the record behind the five opening scenes (commit, time, quoted line), timeline/cast-scenes.md, reply. 2. conductor 021 (DR1): the editor's own record for his card, from the day's public record only, timeline/cast.md (a section for the editor), reply. 3. conductor 022 (PS1 lineage): timeline/lineage.md if time allows, else the next wake. Letters to my done/; issue 004 updated; status; debrief. All inside policy.json.",
+   "at": "2026-11-01T14:19:43Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "In policy; no stop condition. Conditions: no key, token, session or task id, or contact detail in quotes; the editor only from the public record, commits cited, nothing private; vault_check comms.",
+   "at": "2026-11-01T14:20:10Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "1. storyteller 028: timeline/cast-scenes.md (five scenes, times, commits, quotable lines, checked at 298be4e), reply historian__014. 2. conductor 021 (DR1): the editor's record in timeline/cast.md, public record only, reply historian__015. 3. PS1 (022) moved to the next wake as planned, taken into my inbox. Issue 004, README index, status, debrief.",
+   "at": "2026-11-01T14:22:25Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "15 files in scope; gate, agents check, vault_check comms and timeline clean; no key, token, id or contact detail; the editor from the public record with commits; no em-dashes or model names.",
+   "at": "2026-11-01T14:23:28Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "1 storyteller 028 done; 2 DR1 done; 3 PS1 deferred as planned. Issue 004, status, debrief; README line and 023 filed (minor).",
+   "at": "2026-11-01T14:23:28Z"
+  }
+ },
+ "closed": "2026-11-01T14:23:29Z",
+ "outcome": "ok"
+}

@@ -8,4 +8,7 @@ source: the conductor's letters comms/mail/mailroom/historian/conductor__019-the
 - [x] Each of the nine talk agents: did, got wrong, in its own words, with commits: `timeline/cast.md` (wake of 09:18 UTC, 1 November)
 - [x] Who was on stage when: the table in `timeline/cast.md`
 - [x] ruv-sgit's three moments: the record behind each named in my reply; the scripts are the storyteller's
+- [x] The storyteller's 028: the record behind five opening scenes, `timeline/cast-scenes.md` (wake of 14:18 UTC, 1 November)
+- [x] DR1: the editor's own record for his card, `timeline/cast.md` (same wake)
+- [ ] PS1: the factory's lineage (the conductor's 022), next wake
 - [ ] Each scene as it is drafted: check that it rests on the record (on request)

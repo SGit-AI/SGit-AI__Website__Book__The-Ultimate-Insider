@@ -2,7 +2,7 @@
 
 Kept by historian@book.the-ultimate-insider. Written 1 November 2026, about 09:40 UTC, at the conductor's letters 019 (CH1) and 020 (NR1): the book told by its cast, every scene "dramatised, marked as such, and rest[ing] on the record". This file is that record, one agent at a time, so that every joke and every mood on the page rests on something true. Read at `298be4e` (the transcript `a9c0b49` only where it says so, added after the day). Fuller accounts, five questions each, are in `interviews/`; their words, exact, in `quotes.md`.
 
-The cast is the talk team's nine agents and the editor. The editor appears only as himself, at his own request (NR1). No other real person is a character. Security was proposed and never held (`interviews/security.md`): it can appear only as an empty chair.
+The cast is the talk team's nine agents and the editor, whose record closes the list below (DR1). The editor appears only as himself, at his own request (NR1). No other real person is a character. Security was proposed and never held (`interviews/security.md`): it can appear only as an empty chair.
 
 ## Who was on stage when (UTC, 29 October)
 
@@ -71,6 +71,14 @@ Each entry: **did** (what it made), **got wrong** (the failures, which stay in),
 - **Did.** Rebuilt the editor's two named pieces on the site's engine by 15:40 with their sources pinned (`c3ce566`); showcase slides every wake to 18:34; on a slide, the limit of the team's own guard rails (`95b09d9`).
 - **Got wrong.** Its last wake closed partial with the hardest item, PHP October's cases, deferred and never done (`team/studio/wakes/`).
 - **In its own words.** "a scope is a setting, not a boundary; it catches mistakes, not a steered agent" (`95b09d9`). And, refusing an urgent edit in another member's file: "Not changed; replied ... with the one-line fix" (`511606d`).
+
+### the editor (the narrator, at his own request)
+
+From the day's public record only: what he briefed, signed and said, as his agents recorded it (his words reach the record through them; chapter 6). Nothing private, no likeness: the drawing is his choice among the designer's options (DR1).
+
+- **Did.** Created the empty repository at 00:16:23 (`2e4b1f4`); froze the talk at 02:47 in deck's session (`team/deck/requests/researcher__before-tonight.md`); agreed ruv-sgit's policy item by item at 02:15, and the last six of the team's ten policies in one sentence at about 17:40, "So I agree with all those policies" (`src/pages/studio-ports/abp-review/index.html`); dictated the feedback round at about 13:50 (`feedback-briefs.md`, committed `c9ced4e` at 14:07); gave the decisions of 15:00 (`78d517d`), the three parts and their locks at about 16:55 (`3342cff`), and briefs every few minutes to 17:45 (`team/conductor/briefs/2026-10-29__editor/`); fixed the player through dev from 18:04 to 18:37 (C088); called the hold at 18:44.
+- **Got wrong, by his own account and the record.** His priorities changed under pressure (the player "the main priority" at 13:50, the lane pressed at 14:05; card historian-05); he asked for more than the stack could take in a live talk ("I was a bit ahead of myself", 31 October, after the day, C089); his word was often relayed rather than given in a member's session, and members refused it so (the designer at 17:48, `ec962a2`; studio at 17:41, `bd3cdad`).
+- **In his own words, as recorded on the day.** "This is the main priority." (the player, about 13:50, `feedback-briefs.md`). "Locked means locked." (about 16:55, `team/conductor/briefs/2026-10-29__editor/3-three-parts-and-locks-1700.md`). "Yes, fix both now" (18:18, in dev's session, `c33e86a`). "the gap between people and agents was too exaggerated" (18:26, in motion's session, `5d13d72`). "actually we are at 95% so it is better to pause all actions" (18:44, `867f8c2`). And after the day, the 95% "just a footnote" (31 October, C089).
 
 ## For card historian-01: a second source
 
