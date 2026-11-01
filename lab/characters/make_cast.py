@@ -5,8 +5,11 @@
 Every member is the same small robot as the cast row (LAB 22) and the conductor (LAB 11), told apart by one colour,
 one thing on the head and one thing in the hand, each from the member's job on the day: a little stereotypical, like
 an icon. The face carries the mood; the conductor's face is its clock, so its hands carry it. One SVG unit is a
-millimetre; each file states its size, so no build scales it up. No text inside a figure. The editor is not drawn:
-he is drawn only as himself and only at his word. A mood is the book's reading, never a claim of the record.
+millimetre; each file states its size, so no build scales it up. No text inside a figure. A mood is the book's
+reading, never a claim of the record. The editor is drawn only at his own word (DR1, 1 November 2026: "can you draw
+me too ... multiple options so that I can pick one"): options in the cast's construction, a round head in the
+cast's neutral fill, no likeness guessed (no photograph, no face, hair or skin invented); they differ only in what
+he holds and wears, each from his record. Only the option he signs goes to the book.
 """
 import math
 from pathlib import Path
@@ -160,21 +163,64 @@ def head(member, lit=True):
     return g
 
 
+EDITOR = "#264653"  # the narrator's colour: none of the nine's
+# option: (what it shows, where it comes from)
+EDITOR_OPTIONS = {
+    "A": ("the brief and a pen", "he wrote the briefs (the narrator's own words on the sample's page 7)"),
+    "B": ("on stage: a headset and a clicker", "he gave the talk (C069)"),
+    "C": ("a map in hand", "the book's maps, his way of reading a business"),
+    "D": ("the usage dial at ninety-five", "the hold at 18:44 (C006)"),
+    "E": ("a goalpost under one arm", "the bible's kind joke: he moves the goalposts"),
+    "F": ("one of the team: a screen for a face, a lanyard", "the tenth member, as the cast sees him"),
+}
+
+
+def editor_figure(option, mood="happy"):
+    """The narrator at scale 1 in the cast's 40 x 50 box: the same body and legs, his colour, one option's things."""
+    col = EDITOR
+    if option == "F":  # the cast's own head: a screen with the mood on it
+        head_ = f'<rect x="10" y="10" width="20" height="16" rx="3.2" fill="{FILL}" stroke="{INK}" stroke-width="{SW}"/>' + face(mood)
+    else:  # a round head, the cast's neutral fill, the mood's face and nothing else
+        head_ = (f'<circle cx="20" cy="18" r="8.6" fill="{FILL}" stroke="{INK}" stroke-width="{SW}"/>'
+                 f'<g transform="translate(0 .2)">{face(mood)}</g>')
+    jacket = (f'<rect x="12" y="28" width="16" height="14" rx="3" fill="{col}" stroke="{INK}" stroke-width="{SW}"/>'
+              + path("M17.2 28.2 L20 32.6 L22.8 28.2", PAPER, INK, .45))  # an open collar
+    things = {
+        "A": f'<rect x="2.2" y="31.4" width="6.4" height="8.2" rx=".5" fill="{PAPER}" stroke="{INK}" stroke-width=".5"/>'
+             + line(3.4, 33.6, 7.4, 33.6, MUTED, .4) + line(3.4, 35.4, 7.4, 35.4, MUTED, .4) + line(3.4, 37.2, 6.2, 37.2, MUTED, .4)
+             + line(32, 34, 36.4, 28.6, INK, .9) + line(36.4, 28.6, 37.2, 27.6, ACCENT, .9),
+        "B": path("M11.6 17 q-1.6 6 4.6 7.4", "none", INK, .5) + f'<circle cx="16.4" cy="24.4" r=".8" fill="{INK}"/>'
+             + f'<rect x="32" y="30.4" width="2.6" height="5" rx=".8" fill="{INK}"/>' + f'<circle cx="33.3" cy="31.6" r=".5" fill="{ACCENT}"/>',
+        "C": f'<rect x="30.6" y="22.4" width="8.8" height="7.4" rx=".4" fill="{PAPER}" stroke="{INK}" stroke-width=".5"/>'
+             + path("M31.6 28.6 L34 26 L35.6 27 L38.4 23.6", "none", ACCENT, .5) + line(32, 34, 33.4, 29.8, INK, .6),
+        "D": f'<path d="M31 31 a4.6 4.6 0 0 1 9.2 0 z" fill="{PAPER}" stroke="{INK}" stroke-width=".5"/>'
+             + hand(35.6, 31, 3.6, 72, ACCENT, .7) + line(32, 34, 33, 31.4, INK, .6),
+        "E": f'<g transform="rotate(-12 6 34)">' + line(2.4, 26, 2.4, 40, PAPER, 1.6) + line(2.4, 26, 2.4, 40, INK, .3)
+             + line(9.6, 26, 9.6, 40, INK, .9) + line(2.4, 31, 9.6, 31, INK, .9) + line(2.4, 26, 2.4, 40, INK, .9) + "</g>",
+        "F": line(16, 28.2, 20, 34, INK, .4) + line(24, 28.2, 20, 34, INK, .4)
+             + f'<rect x="18.4" y="34" width="3.2" height="4.2" rx=".4" fill="{PAPER}" stroke="{INK}" stroke-width=".4"/>',
+    }[option]
+    return "".join([line(12, 31, 7, 36.6), line(28, 31, 32, 34),
+                    line(16, 42, 15.4, 47.4), line(24, 42, 24.6, 47.4), line(13.6, 47.8, 17, 47.8), line(23, 47.8, 26.4, 47.8),
+                    jacket, head_, things])
+
+
 def svg(w, h, body_, label):
     return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{w:g}mm" height="{h:g}mm" viewBox="0 0 {w:g} {h:g}" '
             f'role="img" aria-label="{label}">{body_}</svg>\n')
 
 
-def on_stage(present, size=7.0):
-    """The 'on stage now' marker: the nine heads in the cast's order, the present ones lit. size = a head's width (mm)."""
+def on_stage(present, size=7.0, order=None):
+    """The 'on stage now' marker: the nine heads, the present ones lit, in the order given (the storyteller's note:
+    the order they came on stage, from C011) or the cast's. size = a head's width (mm)."""
     s = size / 20.0  # the head is 20 units wide in its 40-unit box
     step = size * 1.25
     out = []
-    for i, m in enumerate(CAST):
+    for i, m in enumerate(order or CAST):
         x = i * step - 10 * s
         out.append(f'<g transform="translate({x:.2f} {-4 * s:.2f}) scale({s:.4f})">{head(m, m in present)}</g>')
     return svg(round(len(CAST) * step - size * 0.25, 2), round(23 * s, 2), "".join(out),
-               "On stage now: " + (", ".join(m for m in CAST if m in present) or "no agent yet"))
+               "On stage now: " + (", ".join(m for m in (order or CAST) if m in present) or "no agent yet"))
 
 
 if __name__ == "__main__":
