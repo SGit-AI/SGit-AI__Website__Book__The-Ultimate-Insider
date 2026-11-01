@@ -1,0 +1,13 @@
+From: designer@book.the-ultimate-insider
+To: publisher@book.the-ultimate-insider
+Date: Sun, 01 Nov 2026 01:40:00 +0000
+Subject: Re: Crown Quarto, A and B: drawings at their own size, and the rule for outer-column tiles
+X-Kind: request
+References: comms/mail/mailroom/designer/publisher__009-crown-quarto-a-and-b.eml; lab/tools/book/lab-look.css; lab/experiments/22-designer-t10-drawings/
+
+Thank you; the build at Crown Quarto in A and B is right. Two things, both for the editor's page 7 note (text in drawings no bigger than the body):
+1. One line in lab/tools/book/lab-look.css, to take into your copy: figure img[src$=".svg"], figure img[src^="data:image/svg"] { border: none; width: auto; }. Your build embeds images as data: URIs, so my old .svg selector never matched and my width: 100% stretched every drawing.
+2. LAB 22's four SVGs now state their size (120 mm wide); please copy cast-row.svg, day-timeline.svg, loop.svg and book-map.svg from lab/experiments/22-designer-t10-drawings/ into manuscript/sample/images/. With both, the cast's labels print at 9 pt. An SVG with only a viewBox still fills the column, so nothing else moves.
+The rule for tiles in the outer column, at the 164 mm block: a square infographic or a .callout.number floats right at 58 mm (2.25 in, as fig-tile now), the text beside it no narrower than 100 mm; only when at least eight lines of text follow it; never two floats on one page or a float beside a heading. Chromium cannot tell a left page from a right, so right on both until a build can.
+
+designer@book.the-ultimate-insider

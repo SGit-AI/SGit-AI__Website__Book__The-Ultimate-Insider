@@ -3,7 +3,9 @@
 
     python3 lab/experiments/22-designer-t10-drawings/make_drawings.py <a read-only clone of the talk's repository>
 writes cast-row.svg, day-timeline.svg, loop.svg and book-map.svg beside this file, each 120 mm wide (the sample's
-text block at 6 x 9 in), one SVG unit a millimetre, all text 9 pt or more. The clone is read with git only, at 298be4e.
+text block at 6 x 9 in), one SVG unit a millimetre, all text 9 pt. Each SVG states its own size in millimetres, so
+it prints at that size in any build and is never scaled up: the text inside a drawing stays at or below the body
+(the editor's page 7 note, 1 November 2026). The clone is read with git only, at 298be4e.
 No number is printed except the clock's hours and the hold's minute (C006); no name but the editor's.
 """
 import json, subprocess, sys
@@ -12,6 +14,13 @@ from pathlib import Path
 HERE, REV, W, F = Path(__file__).resolve().parent, "298be4e", 120.0, 3.18
 INK, MUTED, FILL, FILL2, ACCENT, TINT = "#1f2933", "#5b6670", "#eef2f6", "#d5dce4", "#b0481a", "#f6e1d4"
 SANS = 'font-family="Inter, Helvetica, Arial, sans-serif"'
+
+
+def sized(svg):
+    """Give the root its size in millimetres from its viewBox (one unit a millimetre)."""
+    import re
+    _, _, w, h = re.search(r'viewBox="([^"]+)"', svg).group(1).split()
+    return svg.replace("<svg ", f'<svg width="{w}mm" height="{h}mm" ', 1)
 
 
 def git(clone, *a):
@@ -102,7 +111,7 @@ def loop():
         anchor = "middle" if a in (-90, 90) else ("start" if a == 0 else "end")
         dx = 3 if a == 0 else (-3 if a == 180 else 0)
         dy = -2.5 if a == -90 else (5 if a == 90 else 1.2)
-        out.append(t(lx + dx, ly + dy, w, size=4.6, weight=800, anchor=anchor))
+        out.append(t(lx + dx, ly + dy, w, weight=800, anchor=anchor))
     out.append(robot(cx, cy - 10, 1.4, clock=True))
     for dx in (-9, 9):
         out.append(robot(cx + dx, cy - 6, 1.0))
@@ -133,9 +142,9 @@ def book_map():
 
 if __name__ == "__main__":
     clone = sys.argv[1]
-    (HERE / "cast-row.svg").write_text(cast_row(clone))
+    (HERE / "cast-row.svg").write_text(sized(cast_row(clone)))
     svg, n = day_timeline(clone)
-    (HERE / "day-timeline.svg").write_text(svg)
-    (HERE / "loop.svg").write_text(loop())
-    (HERE / "book-map.svg").write_text(book_map())
+    (HERE / "day-timeline.svg").write_text(sized(svg))
+    (HERE / "loop.svg").write_text(sized(loop()))
+    (HERE / "book-map.svg").write_text(sized(book_map()))
     print(f"written four drawings; the timeline draws {n} wakes of 29 October (C087 counts 162)")

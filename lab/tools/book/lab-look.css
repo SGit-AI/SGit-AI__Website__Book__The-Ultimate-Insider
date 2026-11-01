@@ -31,7 +31,10 @@ h1 + p { font-family: var(--sans); font-size: 12pt; line-height: 1.38; backgroun
 
 /* pictures at the text block's width, captions sans and muted, never under 9 pt */
 figure img { width: 100%; max-width: 100%; border: .4pt solid var(--fill-2); }
-figure img[src$=".svg"] { border: none; }
+figure img[src$=".svg"], figure img[src^="data:image/svg"] { border: none; width: auto; }
+/* an SVG that states its size prints at it, never scaled up, so the text inside a drawing stays at or below the
+   body (the editor's page 7 note, 1 November 2026); an SVG with only a viewBox still fills the column; the second selector because the build embeds
+   images as data: URIs */
 figcaption { font-size: 9pt; line-height: 1.3; color: var(--muted); text-align: left; }
 
 /* call-outs in the lab's print style: a tinted box, a 3 pt rule, the label in small capitals */
