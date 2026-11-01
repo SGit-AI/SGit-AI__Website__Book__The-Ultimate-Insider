@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake",
+ "started": "2026-11-01T04:02:59Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. Replies with outbox copies: designer (taken; LAB 27 to the editor in brief 29), publisher (taken), researcher (agreed: voice review closed, numbers kept in every voice pass). 2. The three to done. 3. Brief 29 with LAB 27 and its PDF; asks keep, change or drop, and whether he wants to be drawn as the narrator. 4. status.json. vault_check.",
+   "at": "2026-11-01T04:03:41Z"
+  },
+  "pre_review": {
+   "by": "security pre-review sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; nothing private or attack-shaped. Conditions: brief 29 a new file; drawing him is an ask; only the conductor's own boards closed; vault_check; nothing to the blind repo.",
+   "at": "2026-11-01T04:03:58Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
