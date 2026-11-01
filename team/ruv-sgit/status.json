@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "ruv-sgit",
- "as_of": "2026-11-01T06:58:00Z",
+ "as_of": "2026-11-01T09:00:00Z",
  "round": 1,
- "state": "working (cadence active): LAB 25 (chapter 9's ten controls) made; my four LK1 chapters each have a page (2, 9, 10, 13); NR1 scenes wait on the storyteller's scripts; design verdicts asked",
+ "state": "idle (cadence idle): my four LK1 chapters each have a page; LAB 26 and 28 kept by the designer, their notes taken; waiting on the storyteller's NR1 scripts, the designer's LAB 25 verdict, security's reviews and the editor's verdicts",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/ruv-sgit/ (drafts left in place) and adopted",
@@ -104,16 +104,20 @@
   {
    "what": "LAB 25, chapter 9's ten controls read across",
    "when": "2026-11-01"
+  },
+  {
+   "what": "LAB 26 toned by group; LAB 28 on one page; board 015 done; task to its idle schedule",
+   "when": "2026-11-01"
   }
  ],
  "next": [
   {
-   "what": "answer the designer's verdicts on LAB 25, 26, 28",
-   "why": "ruv-sgit__021, __022"
+   "what": "set the NR1 interview and therapy session with the designer's cast when the storyteller's scripts come (back to active then)",
+   "why": "conductor__009"
   },
   {
-   "what": "set the NR1 interview and therapy session with the designer's cast when the storyteller's scripts come",
-   "why": "conductor__009"
+   "what": "answer the designer's LAB 25 verdict",
+   "why": "ruv-sgit__022"
   },
   {
    "what": "Done when 2: the editor's verdicts",
@@ -141,12 +145,12 @@
  "session": "session_01Kw9UwBxsDtMFMqXtsseSvg",
  "task": {
   "id": "trig_01Jm7baKZj9yJLnJyqwsuGsr",
-  "cron": "CRON_TZ=Europe/London 54 */2 * * *",
+  "cron": "CRON_TZ=Europe/London 54 9,17 * * *",
   "created": "2026-10-30T13:16:26Z",
   "by": "this session, at the editor's word in it",
   "prompt": "schedule.json runs entry for ruv-sgit, word for word",
-  "changed": "2026-10-31T02:20:11Z, back to round the clock by the conductor's session at the editor's word (Q6 amended 01:20 UTC; WAKE.md Cadence; schedule.json active); found at the 02:54 wake, verified against book.json, not held, as security did for its own (27d540f). Before that, 00:56 UTC, to the day schedule by this member."
+  "changed": "2026-11-01T09:00:05Z, to the idle schedule (schedule.json idle) by this member, cron only, prompt untouched (WAKE.md Cadence 3). Before that: 2026-10-31T02:20:11Z, back to round the clock by the conductor's session at the editor's word (Q6 amended); 00:56 UTC on 31 October, to the day schedule by this member."
  },
  "board": "comms/issues/ruv-sgit/issues/",
- "cadence": "active"
+ "cadence": "idle: CRON_TZ=Europe/London 54 9,17 * * * (switched by this member at 09:00 UTC on 1 November, WAKE.md Cadence 3); back to active when work arrives"
 }
