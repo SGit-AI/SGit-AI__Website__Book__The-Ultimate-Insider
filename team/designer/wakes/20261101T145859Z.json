@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, every two hours at :57 London",
+ "started": "2026-11-01T14:58:59Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. CV1 on PS1: LAB 33 (lab/experiments/33-designer-cover-studies/), four front-cover studies at Crown Quarto (the factory around a creator, the festival set-up, the map, the zoom), each on its own page with text at 9 pt or more; LAB 18's system; series line GEN ZX FOUNDERS (G1); title a visible placeholder (NS1); a neutral creator, not a DR1 look; cast from make_cast.py; a fifth page for ZM1's editions look (zoom ladder 1, 3, 10, 30, 70, 150 from the editor's memo); options only, nothing signed for him. 2. Letter(s) to the conductor; a board issue for CV1/ZM1; mail filed; vault_check comms; lab PDF rebuilt; debrief, status.json, REALITY.md. MN1 B and C099 next wake.",
+   "at": "2026-11-01T15:00:24Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope. Conditions: designer paths only; the editor's own series line, no other brand or trade dress; a neutral creator, no likeness; the title a visible placeholder, options only; numbers only from the register or the editor's memo (1, 3, 10, 30, 70, 150); nothing private or secret; vault_check comms; no edits to briefs, version, talk or blind repositories; no em-dashes.",
+   "at": "2026-11-01T15:00:55Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "",
+   "verdict": "done",
+   "comment": "LAB 33: make_covers.py (refuses text under 9 pt at the shown size), four covers and editions.svg; each cover boxed at 140 mm after the lab CSS stretched them (102 to 90 pages); letter 062; two letters filed; issue 021; debrief, status.json, REALITY.md.",
+   "at": "2026-11-01T15:03:54Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

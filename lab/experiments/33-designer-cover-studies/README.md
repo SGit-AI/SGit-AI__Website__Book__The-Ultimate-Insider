@@ -1,0 +1,3 @@
+# LAB 33: cover studies on PS1, and the editions' look
+
+`python3 lab/experiments/33-designer-cover-studies/make_covers.py` draws four front covers at Crown Quarto (189 x 246.1 mm) and `editions.svg`. Each cover is shown at 140 mm wide; the script refuses any text that would print under 9 pt there. LAB 18's system (near-black ground, stacked capitals, an accent prompt line), the editor's series line (G1), the title a placeholder until NS1, the author's name. The creator is a neutral figure, anyone, not the editor's look (DR1 is open). The only numbers are the editions' sizes, from the editor's memo (ZM1). Options only: nothing here is chosen for him. Front covers only; the spine and back wait on the page count (`publishing/cover_size.py`).
