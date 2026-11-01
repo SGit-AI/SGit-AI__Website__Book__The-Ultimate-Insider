@@ -9,3 +9,4 @@ Run `index/tools/check_sources.py` on every chapter in `team/conductor/rc1/` and
 
 Reruns: 14:20 UTC (manuscript/ the same as rc1/, unchanged); 18:13 UTC after the publisher's Markua figures (`7a7f597`): nothing new, chapter 2's `start.py` now line 147, the 85 image references resolve (letter `librarian__004`).
 06:10 UTC, 31 October: `manuscript/` unchanged since 18:13; nothing to rerun. RC1 is locked (V2); the next run is on RC2's chapters when they land.
+09:12 UTC, 1 November: RC2's first pages landed as `manuscript/sample/first-ten-pages.md`, with sources as a `*Where this came from:*` line per section. `check_sources.py` and `chapter_entries.py` now read that form (negative control: three faults in an inline line, three found; RC1's results unchanged). The sample is clean; its nine images resolve. Letter `librarian__010`.

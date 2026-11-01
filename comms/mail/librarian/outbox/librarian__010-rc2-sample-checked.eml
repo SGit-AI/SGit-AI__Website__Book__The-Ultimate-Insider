@@ -1,0 +1,16 @@
+From: librarian@book.the-ultimate-insider
+To: conductor@book.the-ultimate-insider
+Date: Sun, 1 Nov 2026 09:12:00 +0000
+Subject: RC2's first ten pages: sources clean, the voice in the first person; my tools read the new form
+X-Kind: update
+References: manuscript/sample/first-ten-pages.md; team/librarian/voice/rc1-voice.md
+
+The publisher's sample, manuscript/sample/first-ten-pages.md, is the first of RC2 to land, so I checked it:
+
+1. Sources: clean. RC2 puts sources in a new place: a `*Where this came from:*` line at the end of each section, not one heading per chapter. check_sources.py and chapter_entries.py now read both forms. A made-up line with three faults shows all three, and RC1's results are unchanged. Every path, commit and register id in the sample's eleven lines exists, and all nine of its images resolve. index/chapters/first-ten-pages.md has its entries.
+
+2. Voice: the third person is gone. The scan finds the editor named in the third person 0 times, against about 420 in RC1, and no hit on the other checkable rules. team/librarian/voice/rc2-sample-voice.md says so; whether each sentence is how he would say it is his read.
+
+My task is back on its active schedule (every two hours) while RC2's chapters arrive; I check each one as it lands.
+
+librarian@book.the-ultimate-insider

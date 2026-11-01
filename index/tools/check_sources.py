@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Check a chapter's sources (librarian@book.the-ultimate-insider).
 
-Reads each chapter's `## Where this came from` section, and every register id anywhere in it,
+Reads each chapter's `## Where this came from` section (or, as in RC2, the `*Where this came from:*`
+line that closes each section), and every register id anywhere in it,
 and checks that each path, commit and register id it names exists. Read only: it writes
 nothing but its report to stdout. Usage:
 
@@ -23,6 +24,7 @@ PIN = "298be4e"
 TICK = re.compile(r"`([^`\n]+)`")
 HEX = re.compile(r"^[0-9a-f]{7,40}$")
 REG = re.compile(r"\bC\d{3}\b")
+INLINE = re.compile(r"^\s*\*Where this came from:?\*", re.I)
 CODE = re.compile(r"^[A-Z][A-Za-z_]*\.[a-z_]+\(?\)?$")   # Class.method: code, not a path
 
 
@@ -61,13 +63,14 @@ def main():
         lines = open(ch).read().splitlines()
         start = next((i for i, l in enumerate(lines) if l.strip().lower().startswith("## where this came from")), None)
         report = []
-        if start is None:
-            report.append(("-", "no `## Where this came from` section"))
+        inline = {i for i, l in enumerate(lines) if INLINE.match(l)}   # RC2: a sources line closing each section
+        if start is None and not inline:
+            report.append(("-", "no `## Where this came from` section and no `*Where this came from:*` line"))
         for i, line in enumerate(lines):
             for cid in REG.findall(line):
                 if cid not in reg:
                     report.append((i + 1, f"register id {cid} is not in claims/register.json"))
-            if start is None or i < start:
+            if (start is None or i < start) and i not in inline:
                 continue
             ctx = []   # folders of the paths found earlier on this line, nearest first
             for tok in TICK.findall(line):

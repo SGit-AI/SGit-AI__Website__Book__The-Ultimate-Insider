@@ -42,7 +42,8 @@ def main():
         lines = open(ch).read().splitlines()
         start = next((i for i, l in enumerate(lines) if l.strip().lower().startswith("## where this came from")), None)
         found, commits, unresolved = {}, [], []
-        for line in lines[start + 1:] if start is not None else []:
+        inline = [l for l in lines if re.match(r"^\s*\*Where this came from:?\*", l, re.I)]   # RC2's per-section lines
+        for line in (lines[start + 1:] if start is not None else []) + inline:
             ctx = []
             for tok in TICK.findall(line):
                 t = tok.strip().rstrip("/")
