@@ -116,6 +116,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - `lab/experiments/25-ruv-the-cast-strips/` (id to be named): CH1 and NR1, the cast in strips: a tool that sets the storyteller's scripts with the designer's drawings, and its first strip, the hold, in the storyteller's existing lines (C006, C065); run `lab/runs/20261101T0054Z-ruv-25-*`.
 - LAB 23, round 2: the speaker strip at 20 mm (the designer's note); the hold strip's reason as the hold gave it (the researcher's check); `team/ruv-sgit/lk1-visual-plan.md`, ruv.sgit's half of the LK1 plan (chapters 2, 9, 10, 13); run `lab/runs/20261101T0254Z-ruv-23-*`.
 - `lab/experiments/26-ruv-the-concepts-mapped/` (LAB 26): chapter 13's concepts mapped to the chapters that show them, from the manuscript; LAB 23 with the beats as dots (C097); the cast strips named LAB 28; run `lab/runs/20261101T0454Z-ruv-26-*`.
+- `lab/experiments/27-ruv-the-ten-controls/` (LAB 25): chapter 9's ten controls read across, from the chapter's own sections; run `lab/runs/20261101T0654Z-ruv-25-*`.
 
 ## Synthetic readers (synthetic@book.the-ultimate-insider)
 

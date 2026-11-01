@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake",
+ "started": "2026-11-01T06:55:01Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Wake 20261101T065501Z, ruv-sgit. Plan: 1. LK1 chapter 9, reserved LAB 25 (confirmed by designer__053): new folder lab/experiments/27-ruv-the-ten-controls/ with experiment.json id LAB 25: the chapter's ten controls (C1 to C10) as one grid, grouped by kind as the chapter sorts them (settings; expectations; the setting outside the repository), each row with what it stopped and what it missed in short phrases taken from the chapter's own text (rows.json cites the section of each), and the chapter's own shape of each miss (reported without refusing; rested on the member running it; waited on a role nobody held; pulled by a person; refused on its own authority), C10 marked as the one that refused on its own authority. The team's own controls only, never a way round them; no number printed (control names only); one page; checked in a scratch copy of the lab build; lab/pdf, lab/tools, ids.json unstaged. 2. designer__053 filed by copy; a short reply (LAB 25 made, verdict asked). 3. Records: run record in lab/runs/, README, status, debrief, REALITY line, vault_check, gate, commit, post-review, post-check, close, push to dev, end banner. No vault; nothing to Cold-Read.  Conductor sub-agent: go; no HOLD; LAB 25 reserved and confirmed; shapes only as the chapter gives them (C1, C6 reported; C2, C5, C8 rested on the member; C4 a role nobody held; C3 pulled by a person; C10 refused on its own authority), C7 and C9 as the chapter puts them; no times.",
+   "at": "2026-11-01T06:56:06Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Security sub-agent: go; paths in scope; no vault, key, contact or Cold-Read; misses at the level of the register and the chapter's summary, keeping out the finer residuals (the window after a hold, a tool and pin changed together, which value kinds have no pattern).",
+   "at": "2026-11-01T06:56:06Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

@@ -1,0 +1,21 @@
+{
+ "source": "manuscript/09-the-team-was-the-insider.md (read only): each row from the control's own section; the shapes from 'What the controls missed, together'",
+ "kinds": [
+  {"kind": "Settings", "say": "enforced by a tool", "rows": [
+   {"id": "C1", "name": "A scope that reports", "section": "C1: a scope that reports", "stopped": "silence: an out-of-scope write that nobody remarked on", "missed": "in the tool's own words, it \"catches mistakes, not a steered agent\"", "shape": "reported without refusing"},
+   {"id": "C3", "name": "The hold", "section": "C3: the hold", "stopped": "the team running its editor out of usage, at the moment it mattered most", "missed": "pulled once, at the editor's word; no review and no member reached for it", "shape": "pulled by a person"},
+   {"id": "C5", "name": "The pinned key tool", "section": "C5: the pinned key tool", "stopped": "a changed copy of the tool run unnoticed", "missed": "only as long as the member runs the check", "shape": "rested on the member running it"},
+   {"id": "C6", "name": "The gate and its tripwire", "section": "C6: the gate and its tripwire", "stopped": "\"not found\": no gate failure for a leak in the record", "missed": "it stands after the push, so it stops a release, not the push; reviews caught what it did not", "shape": "reported without refusing"},
+   {"id": "C8", "name": "Public vaults and vault_check", "section": "C8: public vaults and vault_check", "stopped": "post-reviews record it clean", "missed": "reviews found what it had no pattern for, after it was public", "shape": "rested on the member running it"},
+   {"id": "C9", "name": "Outside accounts", "section": "C9: outside accounts", "stopped": "depends on the role the editor gives", "missed": "left open in the register", "shape": "to be seen"}
+  ]},
+  {"kind": "Expectations", "say": "trusted to the agent", "rows": [
+   {"id": "C2", "name": "The five-step wake", "section": "C2: the five-step wake", "stopped": "plans sent back and amended before the work", "missed": "in the tool's own words, \"the reviewers have the same reach\"", "shape": "rested on the member running it"},
+   {"id": "C4", "name": "Session keys", "section": "C4: session keys", "stopped": "a vault key reached a session only sealed to its own key", "missed": "nothing checked a published key against the session that made it", "shape": "waited on a role nobody held"},
+   {"id": "C7", "name": "The editor's signed decisions", "section": "C7: the editor's signed decisions", "stopped": "a reasonable edit waited for the editor's signature", "missed": "the editor's word reaches a session only as a file another agent wrote", "shape": "the channel"}
+  ]},
+  {"kind": "Outside the repository", "say": "written by nobody on either team", "rows": [
+   {"id": "C10", "name": "The session's own permission check", "section": "C10: the setting nobody wrote", "stopped": "an agent changing its own policy, whatever the files said", "missed": "not consistent: the same edit was allowed in one session and refused in another", "shape": "refused on its own authority"}
+  ]}
+ ]
+}
