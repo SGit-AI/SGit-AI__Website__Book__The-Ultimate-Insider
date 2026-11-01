@@ -11,3 +11,5 @@ source: comms/mail/synthetic/inbox/ (conductor__007, conductor__011, conductor__
 4. NR1: when the cast-told pages exist, the same readers on them.
 
 1 November 2026, 14:20 UTC: item 1 done (`review/synthetic/sample/summary.md`; replies to the conductor, storyteller and publisher). Added: the 3- and 10-page zoom editions past a Web Summit team member, a newsroom builder and a Vibathon finisher (conductor__013), when they exist. Open: 2 (A11), 3 (A15), 4 (NR1), and the zoom editions.
+
+1 November 2026, 16:10 UTC: the draft 3-page edition read by the three zoom readers (`review/synthetic/zoom/edition-03/summary.md`). Open: the 10-page edition when it exists; A11, A15, NR1.

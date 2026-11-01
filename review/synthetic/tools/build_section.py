@@ -138,6 +138,13 @@ def persona_page(p, r, names, run):
                  f'<tr><th>Tomorrow ({e(s["would_start_tomorrow"])})</th><td>{e(s["tomorrow"])}</td></tr>'
                  f'<tr><th>Looked up</th><td>{e(", ".join(s["words_looked_up"]))}</td></tr></tbody></table></div>'
                  + ''.join(f'<blockquote><p>"{e(q["quote"])}"</p></blockquote><p class="note">Stuck: {e(q["why"])}</p>' for q in s.get('stuck', [])[:3]))
+    zp = SYN / 'zoom' / 'edition-03' / f'{p["id"]}.json'
+    if zp.exists():
+        z = json.loads(zp.read_text())
+        body += (f'<h2 id="zoom">The 3-page edition (a draft)</h2><div class="tbl"><table><tbody>'
+                 f'<tr><th>Got the factory?</th><td>{e(z.get("got_the_factory", ""))}</td></tr><tr><th>The characters</th><td>{e(z.get("liked_the_characters", ""))}</td></tr>'
+                 f'<tr><th>Tomorrow ({e(z["would_start_tomorrow"])})</th><td>{e(z["tomorrow"])}</td></tr></tbody></table></div>'
+                 + ''.join(f'<blockquote><p>"{e(q["quote"])}"</p></blockquote><p class="note">Stuck: {e(q["why"])}</p>' for q in z.get('stuck', [])[:3]))
     if names:
         n = next((x for x in names['personas'] if x['persona'] == p['id']), None)
         if n:
@@ -166,6 +173,7 @@ def index_page(personas, rc1, names, runs):
             + f'<tbody>{rows}</tbody></table></div><p class="note">Scores 1 to 5. Each persona read the RC1 chapters for its kind of reader, not the whole book.</p>'
             + (f'<h2 id="briefing">The briefing</h2>{md(strip_title(brief))}' if brief else '')
             + (f'<h2 id="sample">The ten-page sample, read by the room</h2>{md(strip_title((SYN / "sample" / "summary.md").read_text()))}' if (SYN / 'sample' / 'summary.md').exists() else '')
+            + (f'<h2 id="zoom">The 3-page edition (a draft), read by three readers</h2>{md(strip_title((SYN / "zoom" / "edition-03" / "summary.md").read_text()))}' if (SYN / 'zoom' / 'edition-03' / 'summary.md').exists() else '')
             + f'<h2 id="time">Reading time: a proposal</h2>{md(strip_title(rt))}'
             + '<h2 id="how">How they work</h2><ul>'
               '<li><b>When they run:</b> at a major change to what readers see (a new review page, a new release candidate), or when someone has a question for them; not on a timer.</li>'
