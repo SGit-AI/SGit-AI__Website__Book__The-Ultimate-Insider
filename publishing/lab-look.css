@@ -78,3 +78,7 @@ header#title-block-header .title::after { content: none; }
    the class rule does the work (the designer's 044) */
 p:has(> em:first-child) { font-family: inherit; font-size: inherit; color: inherit; }
 div.source > p, div.source > p:has(> em:first-child), p.source { font-family: var(--sans); font-size: 9pt; color: var(--muted); }
+
+/* the designer's 046, taken 1 November 2026: the build embeds images as data: URIs, so the .svg selector above never
+   matched; drawings print at the size they state, their labels at 9 pt */
+figure img[src$=".svg"], figure img[src^="data:image/svg"] { border: none; width: auto; }
