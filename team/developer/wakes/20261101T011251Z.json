@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Every item inside scope.writes. Conditions: 016 to the storyteller (and the researcher check) only asks, no edit to manuscript/, chapter-plan/ or claims/; design only, no change to make_reader.py; no contact details or keys; vault_check on comms; nothing attack-shaped.",
    "at": "2026-11-01T01:14:52Z"
+  },
+  "work": {
+   "by": "developer",
+   "model": "",
+   "verdict": "done",
+   "comment": "Done in 79c2ac4 and its fix: developer__015 to the conductor (re-enabled; NR1 taken), board 009, review/design/augmented-mode.md (record markers, design only), developer__016 to the storyteller, outbox and inbox copies, status, debrief. Slip: the work ran before the gate passed (pre-review given go but not recorded); the design file was missed and added in the next commit; recorded in the debrief. Nothing pushed before the fix.",
+   "at": "2026-11-01T01:15:26Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (post_review brief)",
+   "model": "",
+   "verdict": "finding",
+   "comment": "Work ran before the gate passed (the pre-review's go, given before any work, was recorded late): a process finding, not a stop; disclosed in the record and the debrief; nothing pushed before the fix. All 11 paths inside scope.writes; letters only ask; no em-dash, key or contact detail; nothing attack-shaped. Gate clean, no overlaps, vault_check clean.",
+   "at": "2026-11-01T01:16:02Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (post_check brief)",
+   "model": "",
+   "verdict": "partial",
+   "comment": "Items 1 to 3 done (79c2ac4, 49d9336), push pending at check time. Content conditions kept (asks and design only). Process condition failed: work ran before the gate passed, the pre-review's go recorded late; disclosed and fixed, nothing pushed before the fix.",
+   "at": "2026-11-01T01:16:20Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-01T01:16:20Z",
+ "outcome": "partial"
 }
