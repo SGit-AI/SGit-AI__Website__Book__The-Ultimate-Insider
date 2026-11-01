@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-11-01T00:55:00Z",
+ "as_of": "2026-11-01T04:45:00Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -2398,6 +2398,43 @@
    "method": "each page fetched and the quoted sentence found on it",
    "command": "curl -sL https://arxiv.org/abs/2307.03172 | grep -o 'performance can degrade significantly[^.]*'",
    "note": "Vendor guidance and one peer-reviewed paper; no percentage is registered, so none may print. The record's own examples for each line are in claims/agents-how-they-work.md. The scorecard values the register backs are in claims/scorecard-values.md (C011, C014, C022, C071, C072). Registered for NR1 (conductor__033), the researcher's 00:32 wake, 1 November 2026."
+  },
+  {
+   "id": "C097",
+   "claim": "When each beat was first heard in the talk as given",
+   "cited_in": [
+    "comms/mail/mailroom/researcher/ruv-sgit__020-the-hold-strip-and-the-beats.eml",
+    "claims/beat-times.md"
+   ],
+   "value": {
+    "placed": 46,
+    "of": 58,
+    "not_reached": [
+     "s-sharness-watch",
+     "s-sharness-recorded",
+     "s-sharness-last-metre",
+     "s-e11",
+     "s-e12",
+     "live-abp",
+     "live-what-can-it-do",
+     "live-sgit-demos",
+     "evolution",
+     "next-companies",
+     "s-b01-brakes",
+     "brakes"
+    ],
+    "resolution": "the transcript's block stamps: up to five passages share one; four beats start in the 8:38 block",
+    "table": "claims/beat-times.md"
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "298be4e and a9c0b49",
+    "evidence": "talk.json beats; transcript.json passages (t, beat)"
+   },
+   "method": "each beat's first passage in the transcript, its block stamp taken as the beat's start",
+   "command": "git show 298be4e:src/static/talk/talk.json > /tmp/t.json; git show a9c0b49:team/conductor/talk-record/transcript.json > /tmp/tr.json; python3 -c \"import json;f={};[f.setdefault(p['beat'],p['t']) for p in json.load(open('/tmp/tr.json'))];[print(b['id'],b['part'],f.get(b['id'],'not reached')) for b in json.load(open('/tmp/t.json'))['beats']]\"",
+   "note": "Material added after the day (a9c0b49). A tick drawn from these times marks the block a beat was first heard in, not the second it began; shared stamps should share a tick or be labelled 'about'. Agrees with C070 (46 of 58 reached). Registered at ruv-sgit's request (LAB 23), the researcher's 04:32 wake, 1 November 2026."
   }
  ]
 }

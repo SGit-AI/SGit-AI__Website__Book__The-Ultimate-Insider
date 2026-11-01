@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-11-01T02:50:00Z",
+ "as_of": "2026-11-01T04:50:00Z",
  "round": 1,
- "state": "working: 02:32 wake, 1 November; 96 claims; the hold strip checked; board 001's voice part offered to close",
+ "state": "working: 04:32 wake, 1 November; 97 claims (81 checked, 5 corrected, 11 open); board 001 closed; the beats placed in the talk; the cast's scorecards checked",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -140,6 +140,10 @@
   {
    "what": "ruv-sgit's hold strip checked (claims/the-hold-strip-check.md): holds, one phrase on the 95%; board 001's voice part proposed to close, others have it",
    "when": "2026-11-01T02:50:00Z"
+  },
+  {
+   "what": "each beat's first-heard time in the talk (C097, claims/beat-times.md); the designer's nine scorecards checked, all hold, one footnote asked; board 001 closed at the conductor's word",
+   "when": "2026-11-01T04:50:00Z"
   }
  ],
  "next": [
@@ -154,14 +158,6 @@
   {
    "what": "E04's printed figures read at their primary sources",
    "why": "C090"
-  },
-  {
-   "what": "RC1 in the editor's voice (board 001); the tenth 11b quotation (C074)",
-   "why": "R9; Done when 2"
-  },
-  {
-   "what": "The rest of the talk's unconfirmed claims in the final talk",
-   "why": "ROLE.md responsibility 3"
   }
  ],
  "asks": [
@@ -260,7 +256,7 @@
    "id": "R9",
    "from": "conductor (the editor's requests)",
    "request": "comms/mail/mailroom/researcher/conductor__004-review-and-rc1.eml, conductor__005-the-editors-voice.eml",
-   "state": "in progress: numbers, the Cold-Read numbers, Appendix A done; the voice review left",
+   "state": "done: numbers, Cold-Read numbers, Appendix A; the voice part closed at conductor__035",
    "reply": "comms/mail/mailroom/conductor/researcher__001-rc1-numbers.eml; board comms/issues/researcher/issues/open/001-rc1-review.md"
   },
   {
@@ -416,6 +412,13 @@
    "request": "lab/experiments/25-ruv-the-cast-strips/scripts/the-hold.json, under NR1",
    "state": "done",
    "reply": "comms/mail/mailroom/ruv-sgit/researcher__010-the-hold-strip.eml"
+  },
+  {
+   "id": "R32",
+   "from": "ruv-sgit",
+   "request": "comms/mail/mailroom/researcher/ruv-sgit__020-the-hold-strip-and-the-beats.eml",
+   "state": "done: C097",
+   "reply": "comms/mail/mailroom/ruv-sgit/researcher__011-beat-times.eml"
   }
  ],
  "cadence": "active"

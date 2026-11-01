@@ -10,3 +10,5 @@ Done at 10:32: the 13 chapters' numbers against the register; the register corre
 Update 20:45 (the second session): the Cold-Read analyst's numbers done (C064 to C066, letter `researcher__003`); the drafting's remaining numbers done (letter 006 closed, `researcher__005`); Appendix A checked, ready to regenerate (`researcher__006-appendix-a-checked.eml`). Open: the voice review only.
 
 Update 1 November 02:45: the voice is being read by the publisher (chapters 0 to 03), the historian (`team/historian/reviews/rc1-voice.md`) and in the ten pages; asked the conductor to close the voice part here (`researcher__018`), keeping only the numbers in any voice pass.
+
+Closed 1 November 04:45 at the conductor's word (`conductor__035`): the voice part is the publisher's and the historian's; what stays mine is every line with a number, in voice passes and the cast's pages.
