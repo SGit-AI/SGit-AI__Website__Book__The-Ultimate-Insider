@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-11-01T08:50:00Z",
+ "as_of": "2026-11-01T09:45:00Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -2466,6 +2466,33 @@
    "method": "the article read; the times subtracted",
    "command": "curl -s https://newsroom.sgit.ai/articles/the-push-is-the-authorisation.md | grep -o 'At 02:22:16 UTC on 28 October[^.]*'",
    "note": "Settles the flag of 30 October (C060's note): chapter 11b's 'less than two days before the talk's first commit' holds (about 22 hours); its 'two days before the talk' is loose (40 h 38 min): 'the day before the talk' is right. The time is the editor's own account in his article; the runbook itself is in the PHP newsroom's repository, not read here. Registered at the researcher's 06:32 wake, 1 November 2026, from the A4 reading."
+  },
+  {
+   "id": "C099",
+   "claim": "The talk's claims placed on stage, beat by beat, with their state at 18:20",
+   "cited_in": [
+    "comms/mail/mailroom/researcher/designer__058-c097-used-and-a-per-beat-table.eml",
+    "claims/talk-claims-per-beat.md"
+   ],
+   "value": {
+    "beats_with_claims": 15,
+    "of_beats": 58,
+    "unique_claims_in_a_beat": 55,
+    "holds": 26,
+    "holds_in_part": 13,
+    "not_checked": 16,
+    "per_beat_cells_sum": 58,
+    "table": "claims/talk-claims-per-beat.md"
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "298be4e",
+    "evidence": "evidence/claims/claims.json; src/static/talk/talk.json"
+   },
+   "method": "C039's match, grouped by beat; a claim on a slide shown by several beats counted in each",
+   "command": "method: C039's script in team/researcher/debriefs/2026-10-30__the-talks-claims-matched-to-its-beats.md, grouping each hit by the beat id or by every beat showing the named slide",
+   "note": "Agrees with C039 (55: 26, 13, 16). The cells sum to more than 55 because some claims sit on slides that several beats show; say so beside the strip. States are the talk register's at 18:20, not this register's. Registered at the designer's request (LAB 31), the researcher's 09:32 wake, 1 November 2026."
   }
  ]
 }

@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-11-01T08:55:00Z",
+ "as_of": "2026-11-01T09:50:00Z",
  "round": 1,
- "state": "idle: 98 claims (83 checked, 5 corrected, 10 open); E04 closed; NR1 waits on the writers; task twice a day, 09:32 and 17:32 London",
+ "state": "working: 09:32 wake, 1 November; 99 claims (84 checked, 5 corrected, 10 open); active again; the claims per beat registered",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -152,6 +152,10 @@
   {
    "what": "E04's primary posts read: every printed figure holds as attributed (C090 checked, board 004 closed); task moved to the idle schedule, 32 9,17 London",
    "when": "2026-11-01T08:55:00Z"
+  },
+  {
+   "what": "task back to active (Cadence 4); the talk's claims beat by beat for LAB 31 (C099, claims/talk-claims-per-beat.md)",
+   "when": "2026-11-01T09:50:00Z"
   }
  ],
  "next": [
@@ -188,7 +192,7 @@
  ],
  "task": {
   "id": "trig_01Q1gWPQbdrBw3xwfRdVEGph",
-  "cron": "CRON_TZ=Europe/London 32 9,17 * * *",
+  "cron": "CRON_TZ=Europe/London 32 */2 * * *",
   "session": "session_01Kw9UwBhzn98NK3Ydio5nEP",
   "created": "2026-10-30T13:16:32Z",
   "prompt": "team/conductor/schedule.json, runs entry for researcher, word for word",
@@ -197,7 +201,7 @@
    "session": "session_01Kw9UwBta1dcP9qBJUURLPZ",
    "state": "paused on the first account at the editor's word, about 10:50 UTC"
   },
-  "changed": "2026-11-01T08:35:05Z, to the idle schedule (WAKE.md Cadence; schedule.json idle): all open work waits on others"
+  "changed": "2026-11-01T09:33:40Z, back to the active schedule (WAKE.md Cadence 4): the designer asked for work"
  },
  "issues": [
   {
@@ -423,7 +427,14 @@
    "request": "comms/mail/mailroom/researcher/ruv-sgit__020-the-hold-strip-and-the-beats.eml",
    "state": "done: C097",
    "reply": "comms/mail/mailroom/ruv-sgit/researcher__011-beat-times.eml"
+  },
+  {
+   "id": "R33",
+   "from": "designer",
+   "request": "comms/mail/mailroom/researcher/designer__058-c097-used-and-a-per-beat-table.eml",
+   "state": "done: C099",
+   "reply": "the designer's mailroom, researcher__ letter of 09:45"
   }
  ],
- "cadence": "idle"
+ "cadence": "active"
 }
