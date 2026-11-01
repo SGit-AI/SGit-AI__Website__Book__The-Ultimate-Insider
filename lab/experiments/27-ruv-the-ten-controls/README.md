@@ -8,7 +8,7 @@ Chapter 9 reads the team's controls one by one in ten sections, then says what t
 
 ## How it is made
 
-`rows.json` holds each row in short phrases from the control's own section of `manuscript/09-the-team-was-the-insider.md` (read only), and names the section; the shapes are the chapter's own, from "What the controls missed, together". C7 and C9 are not in that summary, so their shapes are the chapter's words for them: "the channel" (C7) and, since the register leaves C9 open, "to be seen". `tools/build.py` sets the grid in the lab's styles.
+`rows.json` holds each row in short phrases from the control's own section of `manuscript/09-the-team-was-the-insider.md` (read only), and names the section; the shapes are the chapter's own, from "What the controls missed, together". C7 and C9 are not in that summary, so their shapes are the chapter's words for them: "the channel" (C7) and "left open" (C9, from "the register leaves it open"). `tools/build.py` sets the grid in the lab's styles.
 
 ## What it keeps out
 

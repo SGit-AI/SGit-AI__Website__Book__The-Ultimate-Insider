@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Security sub-agent: go; paths in scope; no vault, key, contact or Cold-Read; misses at the level of the register and the chapter's summary, keeping out the finer residuals (the window after a hold, a tool and pin changed together, which value kinds have no pattern).",
    "at": "2026-11-01T06:56:06Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "LAB 25 (lab/experiments/27-ruv-the-ten-controls/): ten rows from chapter 9's sections, shapes from its summary, C7 and C9 in its words, C10 tinted; one page; scratch lab build 76 pages, LAB 25 as declared; reply to the designer; designer__053 filed by copy; run record; lab/pdf, lab/tools, ids.json unstaged.",
+   "at": "2026-11-01T06:58:33Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Security sub-agent on eeef9d8: no secret, key or contact; 0 outside scope; lab/pdf, lab/tools and mailroom originals untouched; every phrase traces to its section; no number; the finer residuals kept out (C3, C5, C8 at register level); vault_check clean.",
+   "at": "2026-11-01T06:59:19Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Conductor sub-agent: every item done; grouping, four rows spot-checked, shapes, C10 tinted, one page, letter, filing, run record, notes; no timestamp after the commit. Its one slip, C9's shape called the chapter's words when 'to be seen' was the member's gloss, fixed before the push: C9 now 'left open', from the chapter's 'the register leaves it open'.",
+   "at": "2026-11-01T06:59:19Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-01T06:59:19Z",
+ "outcome": "ok"
 }
