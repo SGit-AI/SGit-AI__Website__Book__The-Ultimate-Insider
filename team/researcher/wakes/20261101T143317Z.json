@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-01T14:33:17Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Letters 036/037 filed, board 008 trace of the opening script, board 009 PS1 sources time-boxed; all inside policy.json; no hold, nothing attack-shaped.",
+   "at": "2026-11-01T14:34:07Z"
+  },
+  "pre_review": {
+   "by": "security pre-review sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Inside policy.json; sources read-only as material; brief quotes with links and dates; vault_check before commit; dev and branch only.",
+   "at": "2026-11-01T14:34:30Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "036/037 filed; opening script traced (9 quotes hold, 7 fixes, 1 overclaim), letter to storyteller, C100; PS1 sources first pass, letter to conductor; board 008 and 009 updated.",
+   "at": "2026-11-01T14:39:11Z"
+  },
+  "post_review": {
+   "by": "security post-review sub-agent",
+   "model": "smaller model",
+   "verdict": "finding",
+   "comment": "In scope, no secrets or em-dashes, nothing attack-shaped, sourcing honest; one finding: a collaborator's name in ps1-sources.md section 5, replaced before the push as the file's own rule asks.",
+   "at": "2026-11-01T14:41:06Z"
+  },
+  "post_check": {
+   "by": "conductor post-check sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Every planned item in the commit; letter 038 filed to the inbox and followed by board 009; no deviation.",
+   "at": "2026-11-01T14:41:31Z"
+  }
+ },
+ "closed": "2026-11-01T14:41:31Z",
+ "outcome": "ok"
+}

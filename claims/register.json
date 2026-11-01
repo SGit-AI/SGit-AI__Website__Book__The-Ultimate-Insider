@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-11-01T09:45:00Z",
+ "as_of": "2026-11-01T14:40Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -2493,6 +2493,28 @@
    "method": "C039's match, grouped by beat; a claim on a slide shown by several beats counted in each",
    "command": "method: C039's script in team/researcher/debriefs/2026-10-30__the-talks-claims-matched-to-its-beats.md, grouping each hit by the beat id or by every beat showing the named slide",
    "note": "Agrees with C039 (55: 26, 13, 16). The cells sum to more than 55 because some claims sit on slides that several beats show; say so beside the strip. States are the talk register's at 18:20, not this register's. Registered at the designer's request (LAB 31), the researcher's 09:32 wake, 1 November 2026."
+  },
+  {
+   "id": "C100",
+   "claim": "When and where the talk was to be given",
+   "cited_in": [
+    "chapter-plan/cast/opening-script.md",
+    "claims/opening-script-trace.md"
+   ],
+   "value": {
+    "scheduled": "19:00 London, 29 October 2026, as the day's record has it (planned, not a measured start)",
+    "venue": "hack::soho, hosted by IOActive, London (from a9c0b49, added after the day)",
+    "hold_to_scheduled_start_minutes": 16
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "298be4e; a9c0b49",
+    "evidence": "team/conductor/briefs/2026-10-29__editor/3-three-parts-and-locks-1700.md ('the talk starts at 19:00 London'); evidence/proposals/editor-decisions.json; content/articles/the-talk-as-given.md at a9c0b49"
+   },
+   "method": "git grep for the start time in the day's record; the venue from the after-the-day article",
+   "command": "git grep -n 'talk starts at 19:00 London' 298be4e; git grep -n 'hack::soho' a9c0b49 -- content/articles/the-talk-as-given.md",
+   "note": "The record holds 19:00 London as the time the talk was due, written several times on the day; it holds no clock time for when the editor went on (the transcript counts from its own zero, C069). So 'sixteen minutes before the talk was due' holds (18:44 to 19:00); 'sixteen minutes before I went on' is the editor's to say in his own voice. The venue is from material added after the day: cite a9c0b49. Registered for the opening script's trace (board 008), the researcher's 14:32 wake, 1 November 2026."
   }
  ]
 }

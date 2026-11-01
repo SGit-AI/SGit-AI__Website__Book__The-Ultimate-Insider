@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-11-01T09:50:00Z",
+ "as_of": "2026-11-01T14:44Z",
  "round": 1,
- "state": "working: 09:32 wake, 1 November; 99 claims (84 checked, 5 corrected, 10 open); active again; the claims per beat registered",
+ "state": "active: the opening script traced (board 008), PS1 sources begun (board 009)",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -156,16 +156,24 @@
   {
    "what": "task back to active (Cadence 4); the talk's claims beat by beat for LAB 31 (C099, claims/talk-claims-per-beat.md)",
    "when": "2026-11-01T09:50:00Z"
+  },
+  {
+   "what": "the cast's opening script traced (claims/opening-script-trace.md), C100 registered, PS1 sources first pass (claims/ps1-sources.md)",
+   "when": "2026-11-01T14:44Z",
+   "letters": [
+    "storyteller/researcher__005",
+    "conductor/researcher__020"
+   ]
   }
  ],
  "next": [
   {
-   "what": "NR1: check the characters' lines and scorecards once written",
-   "why": "conductor__033"
+   "what": "PS1 sources: Victor's talk, Wardley's own text, Kelly's line, Google's post, the first 'zoom-in'",
+   "why": "conductor__038, board 009"
   },
   {
-   "what": "E04's printed figures read at their primary sources",
-   "why": "C090"
+   "what": "NR1: the revised script, the map notes (MN1) and the editor's card (DR1) once written",
+   "why": "conductor__033, conductor__037, board 008"
   }
  ],
  "asks": [
