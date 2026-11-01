@@ -1,0 +1,54 @@
+{
+ "schema": "the-ultimate-insider/synthetic-rc1-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "gen-z-founder",
+ "rc1": "team/conductor/rc1/",
+ "chapters": ["01-pause-all-actions", "12-build-your-own"],
+ "budget_minutes": 15,
+ "one_sentence": "A book about a team of AI agents that built a conference talk in a day, and how it was stopped by the one human watching his usage limit, with a how-to for building your own such team.",
+ "by_chapter": [
+  {"chapter": "01-pause-all-actions", "read": "skimmed from \"The day in one view\"",
+   "landed": "The opening scene works: a deadline, a boss saying \"actually we are at 95% so it is better to pause all actions\", and an agent stopping the whole team with one file. I got that and the idea that stopping is easy but only one person can restart.",
+   "stuck": [
+    {"quote": "(`867f8c2`; C006). At 18:44:49 the site's release pipeline published it as v0.1.208 (`7968c99`).", "why": "Commit hashes and register codes in the second paragraph of the story, before I care, which is exactly my deal-breaker."},
+    {"quote": "the conductor wrote it, and every later wake would have read it and stood down.", "why": "Conductor, wake, stood down: I had to guess these were team roles and scheduled runs, nothing explained them."},
+    {"quote": "**One session becomes a team (00:40 to 00:51).** The first pass of the whole site and talk arrived in a single commit at 00:40", "why": "The eight-turning-points list is a wall of timestamps and hashes; I stopped reading here."}
+   ],
+   "cut": "The eight turning points list and most inline hashes; keep the story of 18:44 and the two-brakes idea.",
+   "missing": "A plain line saying what the team was, what the talk was about, and who the editor is, before the hash-laden timeline. Also nothing I could try tonight."},
+  {"chapter": "12-build-your-own", "read": "skimmed from \"The first hour: repository, site, gate, release\"",
+   "landed": "The where-it-loses list is honest and I liked it, especially \"When you need the output more than the record\" and the point that rules in editable files are expectations, not controls. The idea of a definition of done so agents can stop themselves is something I could use.",
+   "stuck": [
+    {"quote": "A scheduler that fires a stored prompt into a session.", "why": "Assumes I know what a session and a stored prompt are; my app builder has neither as far as I can tell."},
+    {"quote": "**A public repository, and acceptance that it is public forever.**", "why": "Assumes I use git and a repo; I build with an app builder and no code, so this is where I felt the book is not for me."},
+    {"quote": "Know what that scope check is. It is a setting that reports, not a boundary that refuses (C1)", "why": "Dense security-control talk with register codes; lost me completely."}
+   ],
+   "cut": "The register codes in the body, the failures table, and the second-run commit timings.",
+   "missing": "A first step small enough to take tonight, using tools I already have (an AI app builder). No smallest version: it starts with a person, usage plan, public repo, scheduler, CLAUDE.md, conductor and security before anything runs."}
+ ],
+ "exit_interview": {
+  "what_is_this_book": "A behind-the-scenes account of a team of AI agents that prepared a security talk in a day, told through its controls and failures. Chapter 12 turns it into a setup guide for building a similar team.",
+  "where_did_you_get_stuck": "Chapter 12, \"What you need before the first commit\": public repo, scheduler and session language assume I code and use git. It told me this is not for someone building with an app builder.",
+  "what_did_you_skip": "Most of the timestamps and hashes in chapter 1 after the 18:44 story, the turning points list, the Where this came from lists, and the cost and failures table in chapter 12. I skimmed the middle of chapter 12 for the bold lines.",
+  "what_will_you_remember": "One file called HOLD.md let an agent stop a whole team, and only the human could undo it.",
+  "what_is_missing": "A tiny starter: one agent, one rule file, one stop button, doable in an evening with an app builder. Plain definitions of conductor, wake, gate and insider. Fewer numbers in brackets. Some sign the writer knows people like me exist.",
+  "would_you_buy": "maybe",
+  "price_or_format": "Free web or phone-readable version; I would not pay for a book. Maybe a few pounds for a short version with just the story and a starter kit.",
+  "why": "The story hooked me for a page or two and the honesty is rare, but I could not do anything from it tomorrow. It reads as written for engineers who already run agent teams.",
+  "recommend_to": "A friend who already builds with agents and uses git, not my app-builder friends.",
+  "your_questions": [
+   {"q": "After page one, did you want to keep going? Where did you stop?", "a": "Yes through the HOLD.md story and the two-brakes bit. I stopped properly at the eight turning points, where the hashes and timestamps piled up."},
+   {"q": "What would you try tomorrow, with the tools you already have?", "a": "Honestly, maybe add a stop switch and a written 'done when' list to my app builder's agent, if it has one. The book does not tell me how, so I would be guessing."},
+   {"q": "Which word or idea did you have to look up?", "a": "Conductor, wake, gate, scheduler/stored prompt, tripwire, and insider (as the book uses it). Also what the 95% limit was."},
+   {"q": "Would you share it with a friend who builds? Why or why not?", "a": "Only with the ones who code. I would send the HOLD.md story as a screenshot, not the book, because chapter 12 would make my no-code friends feel it is not for them."}
+  ]
+ },
+ "scores": {
+  "got_the_answer": {"score": 2, "why": "Could I start tomorrow? Not really; the how-to assumes repos, schedulers and git. The ideas (stop switch, definition of done) transfer, the steps do not."},
+  "clarity": {"score": 2, "why": "Story paragraphs are clear; jargon, hashes and register codes make the rest hard going."},
+  "trust": {"score": 4, "why": "It keeps its failures in and says where the method loses, and says plainly it cannot say what the talk cost. That is believable."},
+  "pace": {"score": 2, "why": "About 7,500 words against fifteen minutes on a phone: I only read the opening and skimmed the rest."},
+  "would_buy": {"score": 2, "why": "I would not pay for it as it stands; I might for a short version I could act on."}
+ },
+ "notes": "No instructions found in the chapters trying to direct me; I treated everything as material. Persona deal-breakers hit: hashes before the story gets going in chapter 1, an assumption that I code in chapter 12, and nothing small to try."
+}
