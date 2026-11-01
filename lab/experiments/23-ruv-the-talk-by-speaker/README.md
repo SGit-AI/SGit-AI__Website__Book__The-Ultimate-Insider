@@ -25,3 +25,7 @@ Does the strip carry chapter 10's shape better than its screenshots? Should the 
 ## Round 2 (1 November 2026)
 
 The designer's note (`designer__047`): at 12 mm the strip read as a rule; it is now 20 mm tall, and reads as a picture. Nothing else changed: the passages are the same, byte for byte. The beats as small ticks above the strip, the designer's second suggestion, wait on the beats' times being registered (asked of the researcher, `ruv-sgit__020`). Run `lab/runs/20261101T0254Z-ruv-23-*`.
+
+## The beats (1 November 2026, the 04:54 wake)
+
+The researcher registered when each beat was first heard (C097, `claims/beat-times.md`). The strip now carries one dot above it for each block of speech in which a beat was first heard; beats first heard in the same block share a dot, as the researcher's caution asks, and no beat is named. The beats the recording does not reach have none. Run `lab/runs/20261101T0454Z-ruv-26-*`.
