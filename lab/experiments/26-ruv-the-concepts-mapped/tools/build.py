@@ -14,6 +14,7 @@ ROOT = HERE.parents[2]
 INK, MUTED, FILL, FILL2, ACCENT, PAPER = '#1f2933', '#5b6670', '#eef2f6', '#d5dce4', '#b0481a', '#ffffff'
 SANS = 'Inter, Helvetica, Arial, sans-serif'
 W, ROW, GAP, PT9 = 164, 4.15, 1.6, 3.18
+TONES = ['#2f6f8f', '#b0481a', '#5b6670', '#7a5c99', '#3d7a4f']   # one tone per concept group (the designer's note, designer__056)
 LX, RX = 64, 108                                   # where the concept labels end and the chapter labels start (mm)
 
 
@@ -64,8 +65,8 @@ def draw(chapters, groups):
     used = {k for g in groups for c in g['concepts'] for k in c['chapters']}
     chs = [c for c in chapters if c['key'] in used]
     y, rows, s_left = 4, {}, []
-    for g in groups:
-        s_left.append(t(0, y + 1.1, g['group'].upper(), PT9, 700, MUTED))
+    for gi, g in enumerate(groups):
+        s_left.append(t(0, y + 1.1, g['group'].upper(), PT9, 700, TONES[gi % len(TONES)]))
         y += ROW
         for c in g['concepts']:
             rows[c['name']] = y
@@ -77,14 +78,15 @@ def draw(chapters, groups):
     cy = {c['key']: 4 + i * step for i, c in enumerate(chs)}
     s = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H:.1f}" role="img" aria-label="Chapter 13\'s concepts down the left '
          'in their five groups, the book\'s chapters down the right, a line from each concept to each chapter that shows it.">']
-    for g in groups:
+    for gi, g in enumerate(groups):
+        tone = TONES[gi % len(TONES)]
         for c in g['concepts']:
             y0 = rows[c['name']]
             for k in c['chapters']:
                 y1 = cy[k]
                 s.append(f'<path d="M{LX:.2f} {y0:.2f} C{(LX + RX) / 2:.2f} {y0:.2f} {(LX + RX) / 2:.2f} {y1:.2f} {RX - 2:.2f} {y1:.2f}" '
-                         f'fill="none" stroke="{MUTED}" stroke-width=".25" opacity=".8"/>')
-            s.append(f'<circle cx="{LX:.2f}" cy="{y0:.2f}" r=".7" fill="{INK if c["chapters"] else PAPER}" stroke="{INK}" stroke-width=".25"/>')
+                         f'fill="none" stroke="{tone}" stroke-width=".3" opacity=".75"/>')
+            s.append(f'<circle cx="{LX:.2f}" cy="{y0:.2f}" r=".7" fill="{tone if c["chapters"] else PAPER}" stroke="{tone}" stroke-width=".25"/>')
     for c in chs:
         y1 = cy[c['key']]
         s.append(f'<circle cx="{RX - 2:.2f}" cy="{y1:.2f}" r=".9" fill="{ACCENT}"/>')
@@ -106,7 +108,7 @@ def main():
         '<section class="page" data-claims="">\n <figure class="fig span12">\n'
         '  <p class="fig-title">Where each idea lives in the book</p>\n'
         '  <img src="{{dir}}/map.svg" alt="Chapter 13\'s concepts in five groups, each joined to the chapters that show it" style="width:100%;display:block">\n'
-        '  <figcaption><b>Find a word on the left; follow its lines to the chapters that show it at work. The chapters with the most lines are '
+        '  <figcaption><b>Find a word on the left; follow its lines, in its group\'s tone, to the chapters that show it at work. The chapters with the most lines are '
         'where the book\'s ideas meet.</b>' + note +
         '<span class="src">manuscript/13-concepts-and-principles.md: each concept\'s entry, the chapters it names before "Where it is thin" '
         '(where the day was thin is left out, so a line means "shown here"); chapter titles from manuscript/Book.txt. Built by tools/build.py; '

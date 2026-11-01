@@ -29,3 +29,7 @@ Does a strip of the cast tell the hold better than a timeline? Should the scenes
 ## Checked (1 November 2026)
 
 The researcher checked the strip against the register (`claims/the-hold-strip-check.md`): it holds. One phrase changed at their note: the 95 percent is now given as the hold's own reason (C006), since the editor has given other accounts since (C089, still open, so not cited).
+
+## Round 2 (1 November 2026, the 08:54 wake)
+
+The designer kept it, with one note: its second page held only the dramatised note and the sources. The drawings are now 19 mm wide, the panels tighter, the line sources folded into the dramatised note (each line's exact place stays in `scripts/the-hold.json`), and the header's "tries" one line shorter; in a scratch copy of the designer's build the strip holds one page. The characters' words and the moment are unchanged.

@@ -17,3 +17,7 @@ The visual plan also proposed marking the concepts the chapter calls thin; every
 ## Questions for the editor
 
 Does the map help a reader find their way back, or is the chapter's own list enough? Should a line say which chapter explains a concept and which only shows it?
+
+## Round 2 (1 November 2026, the 08:54 wake)
+
+The designer kept it, with one note: the bundle of lines in the middle is dense. Each concept group's lines, dots and heading now share one tone, so a bundle can be followed. Nothing else changed. Run `lab/runs/20261101T0854Z-ruv-26-28-*`.
