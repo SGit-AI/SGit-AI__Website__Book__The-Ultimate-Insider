@@ -1,0 +1,27 @@
+{
+ "schema": "the-ultimate-insider/lab-run-evidence/v1",
+ "run": "20261101T0654Z-ruv-25-the-ten-controls",
+ "started": "2026-11-01T06:55:01Z",
+ "wake_record": "team/ruv-sgit/wakes/20261101T065501Z.json",
+ "calls": [
+  {
+   "what": "python3 -B -I tools/build.py: pages.html from rows.json",
+   "tool": "python"
+  },
+  {
+   "what": "preview and print: one page after tightening the cell padding and the source line",
+   "tool": "playwright"
+  },
+  {
+   "what": "lab/tools/build_lab.py in a scratch copy: 76 pages, 9 pt floor, no overflow; LAB 25 as declared",
+   "tool": "the designer's build, read only"
+  }
+ ],
+ "outputs": {
+  "hashes": "lab/experiments/27-ruv-the-ten-controls/SHA256SUMS"
+ },
+ "time": {
+  "work_started": "2026-11-01T06:56:00Z",
+  "work_ended": "2026-11-01T06:58:00Z"
+ }
+}
