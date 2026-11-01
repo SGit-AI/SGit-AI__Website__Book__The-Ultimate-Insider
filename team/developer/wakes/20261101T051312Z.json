@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled, odd hours at :12",
+ "started": "2026-11-01T05:13:12Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (plan brief)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Idle: no new mail, no hold; status.json state idle with the reason; task left on its active schedule; close idle.",
+   "at": "2026-11-01T05:13:38Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (pre_review brief)",
+   "model": "",
+   "verdict": "go",
+   "comment": "An idle close changes no schedule, key, permission or content; no stop condition.",
+   "at": "2026-11-01T05:13:38Z"
+  },
+  "work": {
+   "by": "developer",
+   "model": "",
+   "verdict": "none",
+   "comment": "Idle: status.json state updated; nothing else.",
+   "at": "2026-11-01T05:13:46Z"
+  },
+  "post_review": {
+   "by": "the member (no sub-agent: only status.json and the wake record change)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Only team/developer/status.json and the wake record; no key, no contact, nothing in comms.",
+   "at": "2026-11-01T05:13:46Z"
+  },
+  "post_check": {
+   "by": "the member (no sub-agent)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Idle as planned.",
+   "at": "2026-11-01T05:13:46Z"
+  }
+ },
+ "closed": "2026-11-01T05:13:46Z",
+ "outcome": "idle"
+}
