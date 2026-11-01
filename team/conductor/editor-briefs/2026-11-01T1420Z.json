@@ -1,0 +1,39 @@
+{
+ "number": "32",
+ "date": "Sunday 1 November 2026, 14:20 UTC",
+ "kicker": "The conductor brief · 32 · Sunday 1 November 2026",
+ "title": "Six ways to draw you, the opening told by the cast, and the room's verdict",
+ "when": "14:20 UTC, the conductor's scheduled wake (14:02)",
+ "by": "conductor@book.the-ultimate-insider, key sha256:f2456a147ac54f5f",
+ "headline": "Three things to look at. The designer drew six options of you as the narrator (attached). The storyteller wrote the opening pages as the cast's script, with an interview and a therapy session (attached, a draft for your read). And six fictional readers like the Vibathon room read the ten pages: all read to the end, all would start with the one page of rules, and all said 'maybe' for one reason: step one has no 'how'.",
+ "stats": [
+  {"n": "6", "label": "options of you as the narrator"},
+  {"n": "6 of 6", "label": "readers who read the ten pages to the end"},
+  {"n": "6 of 6", "label": "would start with the one page of rules"},
+  {"n": "5 to 2", "label": "N8 over N7 in the second name round"}
+ ],
+ "for_you": [
+  {"id": "DR1", "ask": "Which of the six is you? (one, or two to combine)", "detail": "A: the brief and a pen. B: on stage, headset and clicker. C: a map in hand. D: the usage dial at 95%. E: a goalpost under one arm (the bible's kind joke: he moves the goalposts). F: one of the team, a screen for a face. No likeness is guessed; the options differ only in what you hold or wear. Your card reads three numbers from the register.", "options": ["A", "B", "C", "D", "E", "F"]},
+  {"id": "Script", "ask": "Read the opening pages told by the cast (draft attached)", "detail": "Your voice the default, the agents in turn; every scene banded as dramatised and resting on the record; the interview (the researcher and the deck, on the claims that did not hold) and the therapy session (the conductor after the hold, to security's empty chair). Your own failures are in your voice.", "options": ["Notes back to me", "Go on in this form"]},
+  {"id": "NS1", "ask": "For your title thread: the second name round", "detail": "N8 'Brakes So We Can Go Faster' first for five of eight personas, N7 'Agents That Work Together' for two. The journalist's warning: N8 claims the brakes made the speed, so the book must earn it. Weigh both against PS1 (the factory).", "options": ["In the thread"]},
+  {"id": "Developer", "ask": "The developer's session keeps restarting (three wakes cut off today)", "detail": "A new session for the role (H1), with its status and debrief as the handover, as it suggests.", "options": ["New session", "Leave it"], "recommend": "New session."}
+ ],
+ "wide": [
+  {"title": "Six options of you, and your card (LAB 32)", "path": "team/conductor/editor-briefs/img/lab32-the-narrator.png", "caption": "The designer's six narrator options in the cast's construction, and your card's three values from the register."}
+ ],
+ "sections": [
+  {"title": "What stalled the readers (for the rewrite)", "items": [
+   "step one ('make an account', 'an empty repository') with no how",
+   "the claim codes in the middle of sentences; the story wants them in the online layer",
+   "conductor, wake, hold and Wardley maps used before they are explained",
+   "a command and a commit hash on the page, which made three feel the book assumes they code",
+   "the series paragraph read by two as delaying, one as 'hustle tone'"]},
+  {"title": "Since 13:06", "items": [
+   "historian: each of the nine's real record, and who was on stage when; a second source inside the record for part 1's lock moved to 19:00",
+   "librarian: RC2's first pages checked: sources clean; you named in the third person 0 times, against about 420 in RC1",
+   "security: the sample still clear; two rules for the cast: a character says only what its record supports; a prompt shown as a way round rules comes to security first",
+   "designer: chapter 5's 58 beats as one picture, its build stopping if the table and the claims disagree"]}
+ ],
+ "next": ["The storyteller rewrites on PS1 with the readers' five changes; the cover studies; 16:02"],
+ "sources": ["comms/mail/mailroom/conductor/designer__059, storyteller__030, synthetic__007 and seven more", "lab/experiments/32-designer-the-narrator/", "chapter-plan/cast/opening-script.md", "review/synthetic/sample/summary.md"]
+}

@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake",
+ "started": "2026-11-01T14:04:17Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. Short replies to all ten, outbox copies, all to done; security's two rails passed to the storyteller. 2. Brief 32: DR1's six options (pages 83-84) and their PDF; the opening script as a pandoc PDF, marked draft; the room's verdict; the name round N8 against N7; the developer's restarts (H1 his call). 3. The tablet menu noted in status.json as the next item. 4. status.json. vault_check; no em-dashes.",
+   "at": "2026-11-01T14:04:58Z"
+  },
+  "pre_review": {
+   "by": "security pre-review sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; DR1 options guess no likeness (a neutral head, props only); the script to him as a draft; DR1 and NS1 open; no task or key change; nothing to the blind repo; vault_check; no em-dashes.",
+   "at": "2026-11-01T14:05:21Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

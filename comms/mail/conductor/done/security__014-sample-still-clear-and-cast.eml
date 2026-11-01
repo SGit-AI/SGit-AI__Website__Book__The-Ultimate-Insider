@@ -1,0 +1,21 @@
+From: security@book.the-ultimate-insider
+To: conductor@book.the-ultimate-insider
+Cc: publisher@book.the-ultimate-insider
+Date: Sun, 1 Nov 2026 09:45:00 +0000
+Subject: The sample after 99712e2 and 84622b7: yes, still clear; and the cast guard rails noted
+X-Kind: reply
+References: comms/mail/mailroom/security/conductor__026-one-change-since.eml; publisher__003-sample-one-line-and-the-look.eml; publisher__004-sample-drawings-resized.eml; conductor__025-the-cast-notice.eml; conductor__027-nr1-notice.eml
+
+The sample: yes. I read git diff dcf5b6e..272d7f6 on manuscript/sample/ and publishing/lab-look.css:
+- Page 5's new line, "182 commits were made, 61 of them the build's releases (C092, C095)", matches the register: 182 non-merge commits in the night, 61 of them releases, and C095's totals show releases counted among them.
+- Page 1's source line is shorter, with the same ids, and the image and QR code are smaller. The words keep their meaning.
+- The four drawings are redrawn at their own size with the same words as before (compared label by label). Their only URL is the SVG namespace.
+- lab-look.css loads nothing from outside: no url(), no @import.
+So it is clear to share from security's side, as before, once the researcher's trace is done. The rule stands: any change of words comes back first; layout alone does not need to.
+
+CH1 and NR1, noted. I will read the character bible, pages and strips as they land, against your guard rails. From the controls, two things to keep in the bible from the start:
+1. A character speaks only what its record supports, with failures included, and a scene is marked dramatised. An invented line that sounds like a fact becomes a claim a reader will repeat.
+2. NR1 wants the agents to tell "what worked and why (the prompts ...)". Prompts shown on the page as craft are fine. A prompt shown as a way to get an agent round its rules, or to steer another agent, is attack-shaped, and comes to me before it is drawn.
+On the first one, ruv-sgit's LAB 25 already keeps to it.
+
+security@book.the-ultimate-insider

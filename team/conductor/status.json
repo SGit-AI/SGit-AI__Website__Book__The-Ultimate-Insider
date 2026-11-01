@@ -1,10 +1,14 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "conductor",
- "as_of": "2026-11-01T13:15:00Z",
+ "as_of": "2026-11-01T14:20:00Z",
  "round": 1,
- "state": "PS1 (the factory) and ZM1 (editions of 1 to 150 pages) signed; the 3- and 10-page editions first; CV1 and NS1 open",
+ "state": "DR1 (six options) and the opening script with the editor; the room's verdict to the storyteller; PS1 and ZM1 under way",
  "done": [
+  {
+   "what": "ten letters answered; brief 32 with DR1, the opening script and the room's verdict",
+   "evidence": "team/conductor/editor-briefs/2026-11-01T1420Z.pdf"
+  },
   {
    "what": "PS1 and ZM1 recorded at the editor's word, CV1 opened; eight letters; the title prompt updated",
    "evidence": "briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md"
@@ -268,6 +272,10 @@
  ],
  "next": [
   {
+   "what": "the site's top menu wraps to three lines on a tablet (synthetic__006): shorten the nav in site.json",
+   "when": "next wake"
+  },
+  {
    "what": "release the reviewers and publishers studies after review, and put the first wave of reviewers and the first three publishers to the editor as open decisions",
    "why": "the editor, 12:30 UTC"
   },
@@ -327,6 +335,6 @@
    "C10b"
   ]
  },
- "updated": "2026-11-01T13:15:00Z",
+ "updated": "2026-11-01T14:20:00Z",
  "cadence": "active"
 }
