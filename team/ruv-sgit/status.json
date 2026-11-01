@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "ruv-sgit",
- "as_of": "2026-10-31T23:22:00Z",
+ "as_of": "2026-11-01T01:02:00Z",
  "round": 1,
- "state": "working (cadence active): LK1 with the designer: LAB 23 (chapter 10, the talk by speaker) named; LAB 24 (chapter 2, the day by member and hour, C095) made; chapter 9 and chapter 13 next",
+ "state": "working (cadence active): CH1 and NR1 taken up: the strip tool and the hold strip (id to be named); the interview and therapy session wait on the storyteller's scripts and the designer's personas; LK1 chapters 9 and 13 next",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/ruv-sgit/ (drafts left in place) and adopted",
@@ -88,20 +88,20 @@
   {
    "what": "LAB 23 named (the talk by speaker); LAB 24, the talk's day by member and hour from C095, the picture the editor named for LK1",
    "when": "2026-10-31"
+  },
+  {
+   "what": "CH1, NR1: the cast-in-strips tool and the hold strip from the storyteller's existing lines; scripts asked of the storyteller (copy historian), personas and ids of the designer",
+   "when": "2026-11-01"
   }
  ],
  "next": [
   {
-   "what": "chapter 9 (the team was the insider), taken with the designer",
-   "why": "designer__041, LK1"
+   "what": "set the NR1 interview and therapy session when the scripts and personas come",
+   "why": "conductor__009"
   },
   {
-   "what": "chapter 13's concept map",
-   "why": "LK1, the one chapter with no picture"
-  },
-  {
-   "what": "fill my half of the designer's visual plan per chapter when it comes",
-   "why": "designer__041"
+   "what": "chapter 13's concept map; chapter 9 if the designer still wants it",
+   "why": "LK1"
   },
   {
    "what": "Done when 2: the editor's verdicts",
@@ -114,12 +114,16 @@
    "what": "paper verdicts on the lab's ruv pages"
   },
   {
+   "of": "storyteller",
+   "what": "the two NR1 scripts (ruv-sgit__001)"
+  },
+  {
    "of": "designer",
-   "what": "judge LAB 23 and 24; more ids for chapters 9 and 13 (ruv-sgit__018)"
+   "what": "personas for the scenes; ids (ruv-sgit__019)"
   },
   {
    "of": "security",
-   "what": "review LAB 24 (ruv-sgit__017)"
+   "what": "review LAB 24 and the hold strip (ruv-sgit__017, __018)"
   }
  ],
  "session": "session_01Kw9UwBxsDtMFMqXtsseSvg",
