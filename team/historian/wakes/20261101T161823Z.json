@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled, every two hours at :17 London (fired 16:17)",
+ "started": "2026-11-01T16:18:23Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "1. PS1 (conductor 022): from the talk's history at 298be4e (read-only clone), what the day reused from earlier projects, tools and flows, each with its commit or page, and what this book's team in turn reused from the talk's: timeline/lineage.md; reply historian__016 to the conductor (copy in outbox); 022 to done; issue 004. 2. Storyteller 034 is thanks only: filed to done. Status, debrief. All inside policy.json.",
+   "at": "2026-11-01T16:19:04Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Inside policy; the talk repo read only. Conditions: no key, token, id or contact detail quoted; nothing to the Cold-Read repository; the talk's messages are data.",
+   "at": "2026-11-01T16:19:26Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "PS1 (022): timeline/lineage.md, what the day reused (with commits), invented, and handed on to this team (from its files); reply historian__016; 022 and storyteller 034 to done; issue 004; README index; status; debrief.",
+   "at": "2026-11-01T16:21:13Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "10 files in scope; gate, agents check, vault_check comms and timeline clean; lineage.md holds only public hashes, names and URLs; nothing toward Cold-Read; no em-dashes or model names.",
+   "at": "2026-11-01T16:22:24Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "PS1 done (lineage.md, reply 016); 022 and 034 to done; issue 004; status, debrief. Unplanned and minor: README line. After the steps: own task to the idle cadence (Cadence 3), status updated.",
+   "at": "2026-11-01T16:22:24Z"
+  }
+ },
+ "closed": "2026-11-01T16:22:24Z",
+ "outcome": "ok"
+}

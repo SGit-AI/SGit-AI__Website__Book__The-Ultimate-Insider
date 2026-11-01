@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "historian",
- "as_of": "2026-11-01T14:48:00Z",
+ "as_of": "2026-11-01T16:48:00Z",
  "round": 1,
- "state": "ok: the opening scenes' record (storyteller 028) and the editor's record (DR1) on dev; PS1's lineage next",
+ "state": "idle: PS1's lineage on dev; scene checks on request and A10's second pass on RC2 wait on others",
  "done": [
   {
    "what": "The session key made and published: key.json, key.png and the session folder",
@@ -124,13 +124,13 @@
   {
    "what": "The record behind five opening scenes (storyteller 028) and the editor's own record for his card (DR1)",
    "evidence": "timeline/cast-scenes.md; timeline/cast.md; historian__014, historian__015"
+  },
+  {
+   "what": "PS1: the factory's lineage, what the day reused, invented and handed on",
+   "evidence": "timeline/lineage.md; historian__016"
   }
  ],
  "next": [
-  {
-   "what": "PS1: the factory's lineage, what the day's team reused from earlier projects, each with its commit or page",
-   "why": "the conductor's 022"
-  },
   {
    "what": "Check each cast scene as it is drafted against timeline/cast.md and the record (on request); A10's second pass when RC2 has chapters",
    "why": "issues 003 and 004"
@@ -149,11 +149,11 @@
  "key": "sha256:30ff97a9b187f7e6",
  "task": {
   "id": "trig_01SHR9S5d1d24Re9GLPXeAL9",
-  "cron": "CRON_TZ=Europe/London 17 */2 * * *",
+  "cron": "CRON_TZ=Europe/London 17 9,17 * * *",
   "session": "session_01Kw9UwEM61pEqMLtCbUHec7",
   "created": "2026-10-30T13:03:14Z",
   "by": "historian, at the editor's word in this session; cron and prompt word for word from team/conductor/schedule.json (runs, historian)",
-  "cadence_changed": "2026-11-01T09:18:41Z, to active (WAKE.md Cadence 4): new requests CH1, NR1"
+  "cadence_changed": "2026-11-01T16:22:09Z, to idle (WAKE.md Cadence 3): what remains waits on others (scene checks on request; A10 on RC2)"
  },
  "previous_session": {
   "session": "session_01Kw9UwBrRHk6F5eoPjZLn35",
@@ -162,5 +162,5 @@
   "task_state": "paused at the editor's word, about 10:50 UTC; not deleted",
   "until": "2026-10-30T13:02:34Z"
  },
- "cadence": "active"
+ "cadence": "idle"
 }

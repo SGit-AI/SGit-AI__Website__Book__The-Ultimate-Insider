@@ -88,6 +88,7 @@ timeline/
   quotes.md             the team in its own words: moments worth quoting, mapped to chapters
   cast.md               each agent's real record, the editor's, and who was on stage when
   cast-scenes.md        the record behind the opening scenes
+  lineage.md            what the day reused, invented and handed on
 ```
 
 ## How a round runs

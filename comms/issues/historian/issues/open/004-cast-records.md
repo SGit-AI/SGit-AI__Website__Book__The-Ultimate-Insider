@@ -10,5 +10,5 @@ source: the conductor's letters comms/mail/mailroom/historian/conductor__019-the
 - [x] ruv-sgit's three moments: the record behind each named in my reply; the scripts are the storyteller's
 - [x] The storyteller's 028: the record behind five opening scenes, `timeline/cast-scenes.md` (wake of 14:18 UTC, 1 November)
 - [x] DR1: the editor's own record for his card, `timeline/cast.md` (same wake)
-- [ ] PS1: the factory's lineage (the conductor's 022), next wake
+- [x] PS1: the factory's lineage, `timeline/lineage.md` (wake of 16:18 UTC, 1 November)
 - [ ] Each scene as it is drafted: check that it rests on the record (on request)
