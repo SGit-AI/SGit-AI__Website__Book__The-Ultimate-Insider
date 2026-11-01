@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "beats.py (reads claims/beat-times.md, checks C015 and C097; parser fixed for h:mm:ss after the check caught 34 not 46); LAB 31, two drawings, caption corrected from the drawing, two label faults fixed; lab PDF 82 pages (ruv's LAB 25 printed; its verdict deferred to next wake, told to the conductor); visual plan rows 5 and 11; letters 057, 058; two letters filed; issue 010; debrief, status.json, REALITY.md.",
    "at": "2026-11-01T09:02:38Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "All files in scope (0 outside); beats.py reads the table, no hard-coded times; page figures recomputed and match; caveat on the page; no secrets, em-dashes or attack-shaped matter; vault_check comms clean.",
+   "at": "2026-11-01T09:03:44Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Both items done in 57ea3f5; only ruv-sgit__021 filed beyond the plan; the LAB 25 verdict openly deferred.",
+   "at": "2026-11-01T09:03:44Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-01T09:03:44Z",
+ "outcome": "ok"
 }
