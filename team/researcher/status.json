@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-11-01T04:50:00Z",
+ "as_of": "2026-11-01T06:55:00Z",
  "round": 1,
- "state": "working: 04:32 wake, 1 November; 97 claims (81 checked, 5 corrected, 11 open); board 001 closed; the beats placed in the talk; the cast's scorecards checked",
+ "state": "working: 06:32 wake, 1 November; 98 claims (82 checked, 5 corrected, 11 open); A4 read in full; 11b's runbook date settled",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -144,16 +144,16 @@
   {
    "what": "each beat's first-heard time in the talk (C097, claims/beat-times.md); the designer's nine scorecards checked, all hold, one footnote asked; board 001 closed at the conductor's word",
    "when": "2026-11-01T04:50:00Z"
+  },
+  {
+   "what": "A4: every placed article read in full, four placements changed; C098: the runbook's push rule at 02:22:16 on 28 October, settling 11b's 'two days before the talk'",
+   "when": "2026-11-01T06:55:00Z"
   }
  ],
  "next": [
   {
    "what": "NR1: check the characters' lines and scorecards once written",
    "why": "conductor__033"
-  },
-  {
-   "what": "A4: a full reading of each placed article",
-   "why": "conductor__020"
   },
   {
    "what": "E04's printed figures read at their primary sources",

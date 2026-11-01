@@ -15,4 +15,6 @@ A4's placement and graph at 10:55 (`claims/articles-catalogue.*`, 244 links; let
 
 12:45: the 29 sites of the network (each in its own words) and the 54 public vaults (pages, no keys) added to the catalogue.
 
-Open: a full reading of each placed article.
+1 November 06:50: every placed article read in full; 32 confirmed, two moved to 13, two out; 11b's 'two days before the talk' settled (C098). Letter `researcher__019`.
+
+A4 done. A7 is J1 and A9 is the editor's; nothing open here for me.
