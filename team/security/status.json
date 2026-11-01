@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "security",
- "as_of": "2026-10-31T22:45:00Z",
+ "as_of": "2026-11-01T09:50:00Z",
  "round": 0,
- "state": "staffed; second session; 22:24 wake (31 October): the ten-page sample clear to share from security's side; LAB 23 reviewed; idle: RC2 chapters wait on the conductor, lab pages on ruv-sgit, decisions on the editor",
+ "state": "staffed; second session; 09:24 wake (1 November): active; the sample still clear after two changes; LAB 24 and 25 reviewed; CH1 and NR1 on the board",
  "done": [
   {
    "what": "session key made and published: team/security/key.json, key.png, sessions/session_01Kw9UwDYutLfqT71U7kmgVs/",
@@ -192,12 +192,24 @@
   {
    "what": "LAB 23 reviewed: benign; board 020",
    "when": "2026-10-31"
+  },
+  {
+   "what": "the sample's changes since dcf5b6e read: still clear; letter security__014",
+   "when": "2026-11-01"
+  },
+  {
+   "what": "LAB 24 and LAB 25 (cast strips) reviewed: benign; board 021",
+   "when": "2026-11-01"
   }
  ],
  "next": [
   {
-   "what": "the revised RC1 chapters as they land; switch the control ids when the conductor says",
-   "why": "board 004, 006; Done when 4"
+   "what": "character bible, pages and strips (CH1, NR1) as they land",
+   "why": "board 022"
+  },
+  {
+   "what": "RC2 chapters as they land",
+   "why": "board 006, Done when 4"
   }
  ],
  "asks": [
@@ -216,7 +228,7 @@
  ],
  "task": {
   "id": "trig_01Ej7kyzaD9q9CW7si5Ap3nW",
-  "cron": "CRON_TZ=Europe/London 24 9,17 * * *",
+  "cron": "CRON_TZ=Europe/London 24 */2 * * *",
   "session": "session_01Kw9UwFe8iX6rP7bn78h2m9",
   "created": "2026-10-30T13:03:21Z",
   "prompt": "team/conductor/schedule.json, runs entry for security, word for word",
@@ -226,7 +238,7 @@
    "session": "session_01Kw9UwDYutLfqT71U7kmgVs",
    "state": "paused on the first account at the editor's word, about 10:50 UTC; not deleted"
   },
-  "changed": "2026-10-31T22:29:26Z, by this session, to idle (Cadence 3); earlier today: 17:25:30Z active, 09:28:56Z idle, 09:25:36Z active, 04:27:30Z idle, 02:20:10Z by the conductor's session, 00:26:28Z day hours"
+  "changed": "2026-11-01T09:26:10Z, by this session, back to active (Cadence 4)"
  },
  "issues": [
   {
@@ -369,8 +381,23 @@
    "state": "done: benign",
    "reply": "comms/mail/mailroom/ruv-sgit/security__012-lab-23-reviewed.eml",
    "board": "comms/issues/security/issues/done/020-lab-23.md"
+  },
+  {
+   "id": "S19",
+   "from": "ruv-sgit",
+   "what": "LAB 24 and LAB 25",
+   "state": "done: benign",
+   "reply": "comms/mail/mailroom/ruv-sgit/security__013-lab-24-and-cast-strips.eml",
+   "board": "comms/issues/security/issues/done/021-lab-24-and-25.md"
+  },
+  {
+   "id": "S20",
+   "from": "conductor",
+   "what": "read the cast's character pages (CH1, NR1) as they land",
+   "state": "open",
+   "board": "comms/issues/security/issues/open/022-the-cast-ch1-nr1.md"
   }
  ],
  "board": "comms/issues/security/issues/",
- "cadence": "idle"
+ "cadence": "active"
 }
