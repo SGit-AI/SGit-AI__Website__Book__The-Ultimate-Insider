@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "In scope; no task changed; the KDP checks as his own steps with no account detail; no keys or contacts; nothing to the blind repo; vault_check.",
    "at": "2026-11-01T06:04:04Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "As planned: designer 029, publisher 043 answered, both to done; brief 30 (page 7 with the personas; the two KDP checks as his steps; brief 29's asks); status.json. No task changed. vault_check clean, gate 0, scope 0 outside.",
+   "at": "2026-11-01T06:04:37Z"
+  },
+  "post_review": {
+   "by": "security post-review sub-agent",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Gate 0; scope 0 outside; vault_check clean; brief 30 claims match the letters and KDP.md; no em-dash, key or contact; nothing to the blind repo.",
+   "at": "2026-11-01T06:05:04Z"
+  },
+  "post_check": {
+   "by": "conductor post-check sub-agent",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "All four items done; nothing unplanned.",
+   "at": "2026-11-01T06:05:04Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-01T06:05:04Z",
+ "outcome": "ok"
 }
