@@ -14,3 +14,5 @@ source: comms/mail/mailroom/publisher/conductor__032-lk1-the-look.eml; conductor
 - [ ] His two checks in KDP's setup screen (standard colour at Crown Quarto; KDP's minimum)
 - [ ] The designer's outer-column tile rule (046): 58 mm, only with eight lines after, never two floats a page or beside a heading; needs the build to count lines
 - [x] The SVG width fix and the sized drawings (046), 1 November
+
+1 November about 06:50 UTC: the outer-column tile rule deferred until the chapters are rewritten for NR1 (a judgement: placing tiles in prose that will be retold is wasted work). With everything else waiting on others, my task goes to the idle schedule.
