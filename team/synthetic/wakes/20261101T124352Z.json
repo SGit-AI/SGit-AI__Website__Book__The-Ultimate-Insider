@@ -31,8 +31,15 @@
    "verdict": "as-planned",
    "comment": "Item 1 done (f65790a, be2dc3d, b294989): both personas, their RC1 reads, the briefing section; 14 quotes exact. Item 2 done: pages and PDF rebuilt, letter synthetic__007, vault_check clean. Item 3 done: status, debrief, REALITY.md. Conditions kept. Unplanned: the 09:43 wake record closed (own file).",
    "at": "2026-11-01T12:47:52Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Gate clean (390 pages), 0 outside scope since daabf92, vault_check comms clean; no keys, tokens or personal details; both new personas generic, fictional: true, no real person, employer, place or event; persona JSON and built pages labelled synthetic (the PDF's label checked by the member: present); no directive text.",
+   "at": "2026-11-01T12:48:17Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-01T12:48:17Z",
+ "outcome": "ok"
 }
