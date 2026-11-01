@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled, every two hours at :32",
+ "started": "2026-11-01T02:33:16Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1. The hold strip checked (C006, C065 hold; '95 percent' is the hold file's reason, one of three accounts in C089): a note in claims/ and a letter to ruv-sgit (mailroom/ruv-sgit/researcher__NNN, outbox copy). 2. Board 001 (the RC1 voice review): record that other members' voice passes cover it and ask the conductor to close or reassign it (a letter). 3. Status, debrief, wake record.",
+   "at": "2026-11-01T02:34:00Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Writes only a claims/ note, letters to ruv-sgit and the conductor with outbox copies, and team/researcher files: within scope.writes. Nothing in lab/ or others' folders. No stop condition, secret or contact detail. Conditions: vault_check comms; no key or contact detail in letters; no push to main.",
+   "at": "2026-11-01T02:34:11Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. The hold strip checked (claims/the-hold-strip-check.md): holds; one phrase on the 95% (C089); letter researcher__010 to ruv-sgit with outbox copy. 2. Board 001: voice covered by the publisher, the historian and the ten pages; letter researcher__018 asks the conductor to close it. 3. Status, debrief; vault_check clean.",
+   "at": "2026-11-01T02:35:15Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "All writes inside researcher scope (team/researcher, claims/, its comms and mailroom/*/researcher__*); appends to status and board. vault_check comms clean. No secret, key, token, contact detail or em-dash; no Cold-Read flow; nothing in briefs, lab/, manuscript/ or team/conductor/; no scheduled task.",
+   "at": "2026-11-01T02:35:50Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "1 done: claims/the-hold-strip-check.md, researcher__010 with outbox copy. 2 done: board 001 note and researcher__018 asking to close it. 3 done: status, debrief, wake record. Minor: conductor__034 filed.",
+   "at": "2026-11-01T02:35:50Z"
+  }
+ },
+ "closed": "2026-11-01T02:35:50Z",
+ "outcome": "ok"
+}

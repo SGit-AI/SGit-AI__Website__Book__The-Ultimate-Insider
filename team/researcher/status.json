@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-11-01T01:00:00Z",
+ "as_of": "2026-11-01T02:50:00Z",
  "round": 1,
- "state": "working: 00:32 wake, 1 November; 96 claims (80 checked, 5 corrected, 11 open); the ten pages hold; NR1's sheets ready",
+ "state": "working: 02:32 wake, 1 November; 96 claims; the hold strip checked; board 001's voice part offered to close",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -136,6 +136,10 @@
   {
    "what": "the sample's page 5 verified (the ten pages hold); NR1: what a character may say about how agents work, sourced (C096, claims/agents-how-they-work.md), and the scorecard values the register backs (claims/scorecard-values.md)",
    "when": "2026-11-01T01:00:00Z"
+  },
+  {
+   "what": "ruv-sgit's hold strip checked (claims/the-hold-strip-check.md): holds, one phrase on the 95%; board 001's voice part proposed to close, others have it",
+   "when": "2026-11-01T02:50:00Z"
   }
  ],
  "next": [
@@ -405,6 +409,13 @@
    "request": "comms/mail/mailroom/researcher/conductor__033-nr1-true-explanations.eml",
    "state": "in progress: the sheets ready",
    "reply": "comms/mail/mailroom/conductor/researcher__017-nr1-sheets.eml; board 008"
+  },
+  {
+   "id": "R31",
+   "from": "researcher (own)",
+   "request": "lab/experiments/25-ruv-the-cast-strips/scripts/the-hold.json, under NR1",
+   "state": "done",
+   "reply": "comms/mail/mailroom/ruv-sgit/researcher__010-the-hold-strip.eml"
   }
  ],
  "cadence": "active"
