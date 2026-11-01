@@ -128,6 +128,16 @@ def persona_page(p, r, names, run):
                  f'(<a href="{GH}{e(str(rel))}">the review, on GitHub</a>):</p>{run_scores(run)}')
     else:
         body += '<h2 id="pages">Their review page</h2><p class="note">No review page made for this persona yet; it runs when the developer builds one.</p>'
+    sp = SYN / 'sample' / f'{p["id"]}.json'
+    if sp.exists():
+        s = json.loads(sp.read_text())
+        body += (f'<h2 id="sample">The ten-page sample</h2><p class="note">Read: <code>manuscript/sample/first-ten-pages.md</code>, the first ten pages of the next release candidate.</p>'
+                 f'<div class="tbl"><table><tbody><tr><th>Page one held them?</th><td>{e(s["page_one_held"])}: {e(s["page_one_why"])}</td></tr>'
+                 f'<tr><th>Stopped at</th><td>{e(s["stopped_at"])}</td></tr><tr><th>What the team did</th><td>{e(s["what_the_team_did"])}</td></tr>'
+                 f'<tr><th>Why it matters to them</th><td>{e(s["why_it_matters_to_me"])}</td></tr>'
+                 f'<tr><th>Tomorrow ({e(s["would_start_tomorrow"])})</th><td>{e(s["tomorrow"])}</td></tr>'
+                 f'<tr><th>Looked up</th><td>{e(", ".join(s["words_looked_up"]))}</td></tr></tbody></table></div>'
+                 + ''.join(f'<blockquote><p>"{e(q["quote"])}"</p></blockquote><p class="note">Stuck: {e(q["why"])}</p>' for q in s.get('stuck', [])[:3]))
     if names:
         n = next((x for x in names['personas'] if x['persona'] == p['id']), None)
         if n:
@@ -155,6 +165,7 @@ def index_page(personas, rc1, names, runs):
               '<th>Answer</th><th>Clarity</th><th>Trust</th><th>Pace</th><th>Buy</th><th>The book, in one sentence</th></tr></thead>'
             + f'<tbody>{rows}</tbody></table></div><p class="note">Scores 1 to 5. Each persona read the RC1 chapters for its kind of reader, not the whole book.</p>'
             + (f'<h2 id="briefing">The briefing</h2>{md(strip_title(brief))}' if brief else '')
+            + (f'<h2 id="sample">The ten-page sample, read by the room</h2>{md(strip_title((SYN / "sample" / "summary.md").read_text()))}' if (SYN / 'sample' / 'summary.md').exists() else '')
             + f'<h2 id="time">Reading time: a proposal</h2>{md(strip_title(rt))}'
             + '<h2 id="how">How they work</h2><ul>'
               '<li><b>When they run:</b> at a major change to what readers see (a new review page, a new release candidate), or when someone has a question for them; not on a timer.</li>'
