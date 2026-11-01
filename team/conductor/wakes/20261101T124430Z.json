@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "the editor's chat",
+ "started": "2026-11-01T12:44:30Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. His three sentences verbatim in a new brief, briefs/2026-11-01__in-session/02-draw-me-kdp-later-and-map-notes.md, with the reading. 2. book.json: MN1 decided B, DR1 open (he picks from options), PR1: KDP checks after the Leanpub release. 3. Letters with outbox copies to designer, storyteller, historian, researcher, ruv-sgit, publisher, security; a likeness only at his request, nothing private; vault_check. 4. status.json; gate; push.",
+   "at": "2026-11-01T12:44:54Z"
+  },
+  "pre_review": {
+   "by": "security pre-review sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; a new brief. Conditions: DR1 and MN1 in his words only; no photo or contact detail of him; no keys; nothing to the blind repo; vault_check.",
+   "at": "2026-11-01T12:45:30Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
