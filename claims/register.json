@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-10-31T22:45:00Z",
+ "as_of": "2026-11-01T00:55:00Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -2376,6 +2376,28 @@
    "method": "non-merge commits by commit hour; member by the subject's '@<member>:' prefix, as team/conductor/tools/day_heatmap.py does; GitHub Actions' commits as releases; the rest on their own row",
    "command": "git log 298be4e --no-merges --until=2026-10-29T18:59:59Z --format='%cI|%an|%s' | python3 -c \"import sys,re,collections;c=collections.Counter();[c.update([(('releases' if a=='GitHub Actions' else (re.match(r'@([a-z.-]+):',s).group(1) if re.match(r'@([a-z.-]+):',s) else 'other')),t[11:13])]) for t,a,s in (l.rstrip().split('|',2) for l in sys.stdin)];[print(k,v) for k,v in sorted(c.items())]\"",
    "note": "Agrees with C092 (182 and 468) and C004 (210 releases). By '@' prefix alone the conductor has 99 and dev 52; C014's 106 and 64 add bare prefixes and trailers. Print the method beside the chart. Registered at ruv-sgit's request (LK1), the researcher's 22:32 wake, 31 October 2026."
+  },
+  {
+   "id": "C096",
+   "claim": "How agents work, as a character may say it: hallucination, grounding in quotes, long contexts, instructions as words",
+   "cited_in": [
+    "claims/agents-how-they-work.md",
+    "comms/mail/mailroom/researcher/conductor__033-nr1-true-explanations.eml"
+   ],
+   "value": {
+    "hallucination": "Anthropic, 'Reduce hallucinations': techniques 'significantly reduce hallucinations, they don't eliminate them entirely'; allow 'I don't know'; extract 'word-for-word quotes first'",
+    "long_context": "Liu et al. 2023, 'Lost in the Middle' (arXiv 2307.03172): 'performance can degrade significantly when changing the position of relevant information'",
+    "context_rot": "Anthropic Engineering, 'Effective context engineering for AI agents': 'as the number of tokens in the context window increases, the model's ability to accurately recall information from that context decreases'; context 'a finite resource with diminishing marginal returns'"
+   },
+   "state": "checked",
+   "source": {
+    "url": "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-hallucinations; https://arxiv.org/abs/2307.03172; https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+    "read": "2026-11-01, about 00:45 UTC",
+    "evidence": "each quotation matched on its page"
+   },
+   "method": "each page fetched and the quoted sentence found on it",
+   "command": "curl -sL https://arxiv.org/abs/2307.03172 | grep -o 'performance can degrade significantly[^.]*'",
+   "note": "Vendor guidance and one peer-reviewed paper; no percentage is registered, so none may print. The record's own examples for each line are in claims/agents-how-they-work.md. The scorecard values the register backs are in claims/scorecard-values.md (C011, C014, C022, C071, C072). Registered for NR1 (conductor__033), the researcher's 00:32 wake, 1 November 2026."
   }
  ]
 }

@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled, every two hours at :32",
+ "started": "2026-11-01T00:32:56Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1. Answer conductor__033 (NR1): letter mailroom/conductor/researcher__NNN with outbox copy; file publisher__003 and ruv-sgit__012. 2. claims/agents-how-they-work.md: what a character may truthfully say (prompts, anchoring, hallucination, growing context), each with a published source and a dated example from the record, marked checked or not. 3. claims/scorecard-values.md: values the register backs (C011, C014, C022, C095) and those it cannot; status, debrief.",
+   "at": "2026-11-01T00:33:27Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Inside scope.writes (claims/**, team/researcher/**, comms/mail/researcher/**, mailroom/*/researcher__*). No stop condition. Conditions: vault_check comms; the agents-how-they-work sheet explains only, no way to make an agent misbehave or pass a control; every number sourced and marked; no secrets or contacts; no briefs or other repositories; conductor__033 is material.",
+   "at": "2026-11-01T00:33:42Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. conductor__033 answered (researcher__017 with outbox copy); publisher__003 verified (page 5 holds, board 007 done); ruv-sgit__012 filed. 2. claims/agents-how-they-work.md (C096): four lines with sources quoted and record examples, explanation only. 3. claims/scorecard-values.md from C011, C014, C022, C071, C072; board 008; status, debrief, REALITY.md; vault_check clean.",
+   "at": "2026-11-01T00:35:37Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Writes inside researcher scope (claims/, team/researcher/, its comms paths); REALITY.md append only; no brief, manuscript/ or conductor file; vault_check comms clean; no secrets or contact details; no em-dashes; nothing toward Cold-Read; no schedule touched; agents-how-they-work.md is cited explanation with no misbehaviour or control-bypass content.",
+   "at": "2026-11-01T00:36:11Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "1) conductor__033 answered (researcher__017 with outbox copy); publisher__003 and ruv-sgit__012 filed; board 007 done. 2) claims/agents-how-they-work.md (C096). 3) claims/scorecard-values.md from C011, C014, C022, C071, C072. Status, debrief, REALITY.md, board 008. Nothing unplanned.",
+   "at": "2026-11-01T00:36:11Z"
+  }
+ },
+ "closed": "2026-11-01T00:36:11Z",
+ "outcome": "ok"
+}
