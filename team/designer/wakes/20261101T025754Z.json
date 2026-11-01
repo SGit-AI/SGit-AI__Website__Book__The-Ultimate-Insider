@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, every two hours at :57 London",
+ "started": "2026-11-01T02:57:54Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. lab/characters/make_cast.py: nine AI personas on the robot base (role look: prop, hat or hair, colour), four mood faces each, an on-stage-now marker; SVGs in lab/characters/cast/ sized in mm, text 9 pt; README; no real person, the editor not drawn. 2. LAB 27 (lab/experiments/27-designer-the-cast/): personas, moods, a scorecard each from claims/scorecard-values.md only (C011, C014 with its attribution basis, C022, C071), claim ids small, mood the book's reading; into the lab PDF; LAB 28 and 29 reserved for ruv-sgit. 3. Letters to storyteller, ruv-sgit, conductor; mail filed; issue 020; vault_check comms; debrief, status.json, REALITY.md; build, validate, agents check.",
+   "at": "2026-11-01T02:58:57Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope; AI personas only. Conditions: scorecard values only from the register (C011, C014 with its basis, C022, C071); mood as a drawing labelled the book's reading, no ratings, speed or tokens; the editor not drawn; letters only as designer__* in the mailroom; vault_check comms before commit.",
+   "at": "2026-11-01T02:59:13Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "",
+   "verdict": "done",
+   "comment": "make_cast.py and 36 figures; LAB 27 (four sheets, scorecards read from claims/scorecard-values.md at build, C014 basis and C095 noted, no ratings, mood labelled the book's reading, editor not drawn); lab PDF 68 pages; LAB 28, 29 reserved; letters 049 to 051; three letters filed; issue 020; debrief, status.json, REALITY.md. Nothing outside lab/, team/designer and own comms.",
+   "at": "2026-11-01T03:04:45Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

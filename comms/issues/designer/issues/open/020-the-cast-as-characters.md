@@ -10,3 +10,5 @@ The nine agents of the talk as personas, telling the book with the editor: a mod
 Guard rails (the editor's, and security's pre-review of 1 November): AI agents only, grounded in what each did, failures included; no real person caricatured, the editor only as himself and only with his go; no names or hashes in the drawings; scorecard values from `claims/` or left blank.
 
 1 November 2026: the personalities and the categories asked of the storyteller (`designer__048`). Next wake: the model-sheet plan and the conductor's sheet, from LAB 11.
+
+1 November 2026, 03:40: LAB 27 in the lab PDF: the nine drawn (`lab/characters/make_cast.py`, `cast/`), four moods each, a scorecard each from `claims/scorecard-values.md`, the on-stage marker from C011. Letters `designer__049` to `051`. Next: the conductor in poses; the cast on the opening pages; the storyteller's personalities.

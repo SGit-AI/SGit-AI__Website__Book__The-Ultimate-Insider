@@ -37,3 +37,7 @@ The conductor's pose lines (the storyteller, `storyteller__020`, 31 October 2026
 | pacing | One step at a time, on the clock. Small steps, every turn, add up to a book. | I keep the time so everyone else can keep their focus. |
 | on the minute | On the minute: plan it, check it, do it, check it again. Go. | Wake up, read the mail, pick one thing. That is the whole job. |
 | at ninety-five | I could keep going. That is exactly why I am stopping. | Nearly out of road. Everybody stop, and let the editor decide. |
+
+## The nine as personas (CH1 and NR1, 1 November 2026)
+
+`make_cast.py` draws the talk's nine agents from one construction (the cast row's robot): one colour, one thing on the head and one in the hand each, from the member's job, and four moods (happy, worried, stressed, unhappy) carried by the face; the conductor's by its clock hands. Files in `cast/<member>-<mood>.svg`, 20 x 25 mm, no text inside; `on_stage()` draws the 'on stage now' marker. A mood is the book's reading, never a claim of the record. The editor is not drawn. The personalities are the storyteller's; the looks are a first proposal (LAB 27).
