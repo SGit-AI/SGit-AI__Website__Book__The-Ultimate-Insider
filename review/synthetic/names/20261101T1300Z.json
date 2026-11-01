@@ -1,0 +1,72 @@
+{
+ "schema": "the-ultimate-insider/synthetic-name-test/v1",
+ "label": "SYNTHETIC READERS: a test instrument, never readers. Not a choice: the editor chooses (book.json Q3).",
+ "run": "20261101T1300Z",
+ "round": 2,
+ "candidates_from": "comms/mail/mailroom/synthetic/storyteller__013-second-round.eml: N7, N8 against N1, N2",
+ "candidates": {
+  "N1": "Agentic Workflows, Shown Working: how a team of agents built a talk in a day, and how to build yours",
+  "N2": "The Agentic Team: a walkthrough of agentic workflows, from an empty repository to a talk on stage",
+  "N7": "Agents That Work Together: a guided tour of agentic workflows, and how to build yours",
+  "N8": "Brakes So We Can Go Faster: a guided tour of an agentic team at work, and how to build yours"
+ },
+ "method": "title and subtitle alone; which would you pick up, which would you buy, why; and for N8, whether its subtitle answers the journalist's warning",
+ "personas": [
+  {
+   "persona": "board-member",
+   "picks_up": "N8",
+   "would_buy": "N8",
+   "why": "It still opens with a word my committee uses, and now it promises a tour, not a lecture.",
+   "second": "Second: none; the other three start with 'agents' or 'agentic'."
+  },
+  {
+   "persona": "ciso",
+   "picks_up": "N8",
+   "would_buy": "N8",
+   "why": "Brakes are the controls; 'an agentic team at work' tells me it is a real team, not a thought experiment.",
+   "second": "Second: N7, plain and honest."
+  },
+  {
+   "persona": "cto",
+   "picks_up": "N1",
+   "would_buy": "N1",
+   "why": "'Shown working' is still the strongest claim of proof; N8 is catchier but I buy evidence.",
+   "second": "Second: N8, now that it carries 'how to build yours'."
+  },
+  {
+   "persona": "developer",
+   "picks_up": "N7",
+   "would_buy": "N7",
+   "why": "Plain words, and 'work together' is the hard part; but 'a guided tour' is softer than N3's protocols, provenance and memory.",
+   "second": "Second: N1. Would still rather have N3's subtitle."
+  },
+  {
+   "persona": "designer",
+   "picks_up": "N8",
+   "would_buy": "N8",
+   "why": "The hook survives and the subtitle is now one breath; best cover of the four.",
+   "second": "Second: N2, still the cleanest type."
+  },
+  {
+   "persona": "project-manager",
+   "picks_up": "N7",
+   "would_buy": "N7",
+   "why": "'Work together' is my job, and 'how to build yours' means my team could run it.",
+   "second": "Second: N2."
+  },
+  {
+   "persona": "journalist",
+   "picks_up": "N8",
+   "would_buy": "N8",
+   "why": "Still the headline. On my warning: the subtitle grounds it in a real team, but does not qualify the claim; the title still says the brakes made the speed.",
+   "second": "Second: N1, for 'built a talk in a day'."
+  },
+  {
+   "persona": "founder",
+   "picks_up": "N8",
+   "would_buy": "N8",
+   "why": "The hook and the promise in one title: I would pick it up and I would know what I get.",
+   "second": "Second: N7."
+  }
+ ]
+}

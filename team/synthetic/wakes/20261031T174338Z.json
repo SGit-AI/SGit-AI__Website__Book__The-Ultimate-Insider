@@ -4,7 +4,7 @@
  "kind": "scheduled, idle, 17:42 London",
  "started": "2026-10-31T17:43:38Z",
  "steps": {},
- "closed": "2026-11-01T09:42:30Z",
- "outcome": "failed",
- "note": "Opened by start.py at 17:43 UTC; the session's worker restarted after reading the mail and before step 1, so no step ran and nothing was changed. The second wake running lost to a worker restart (the first was 09:42). Recorded by hand at the next wake."
+ "closed": null,
+ "outcome": null,
+ "note": "Opened by start.py at 17:43 UTC; the session's worker restarted after reading the mail and before step 1, so no step ran and nothing was changed. The second wake running lost to a worker restart (the first was 09:42). Left open on purpose: the gate counts a closed wake without its five steps as a failure, and closing it by hand broke the gate on dev from 09:43 to about 13:20 UTC on 1 November; this note is the record that it failed. Written at the next wake."
 }

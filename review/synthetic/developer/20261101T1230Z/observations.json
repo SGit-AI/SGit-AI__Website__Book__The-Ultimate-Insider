@@ -1,0 +1,50 @@
+{
+ "schema": "the-ultimate-insider/synthetic-observations/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader",
+ "persona": "developer",
+ "run": "20261101T1230Z",
+ "at": "2026-11-01T12:32:13.010Z",
+ "device": "Desktop Firefox",
+ "device_override": false,
+ "viewport": {
+  "width": 1280,
+  "height": 720
+ },
+ "url_path": "/review/developer.html",
+ "fragment": "fictional token, never sent to the server",
+ "http_status": 200,
+ "load_ms": 109,
+ "error": null,
+ "title": "Review: for a developer · The ultimate insider, the book",
+ "h1": [
+  "Dear reader, would you read two chapters?"
+ ],
+ "words": 6535,
+ "paragraphs": 93,
+ "paragraphs_with_own_id": 72,
+ "paragraphs_inside_an_anchor": 72,
+ "anchored_blocks": 87,
+ "questions": 8,
+ "min_font_px": 12,
+ "median_line_chars_estimate": 86,
+ "horizontal_overflow_px": 0,
+ "page_height_screens": 27.9,
+ "links": 31,
+ "external_links": 6,
+ "forms": 8,
+ "jump_bar": {
+  "position": "fixed",
+  "visible": true,
+  "links": [
+   "Chapters -> #intro",
+   "Send it back -> #send"
+  ]
+ },
+ "fragment_seen_by_page": true,
+ "first_screen_text": "Skip to the content\nthe ultimate insider\nbook.sgit.ai\npending\nThe book\nPlan\nDecisions\nTeam\nBrief\nUpdates\nPersonas\nResearch\nSources\nAdmin\n★\nStar\nthis site on GitHub\ntheme\n\nPrototype, fictional data. Nobody has been sent this page; a kind of reader, not a person, is named here. Made by review/tools/make_review.py from review/personas/developer.json.\n\nRC1 · A REVIEW COPY FOR A DEVELOPER\n\nDear reader, would you read two chapters?\n\nFrom the editor of The ultimate insider, a book about one day in which one person and a team of AI agents built a talk, with the record to prove it.\n\nWhy you\nYou build with agents every day. If a control here hides work, or a number cannot be rerun from the record, you are the reader who will try it and find out.\nWhat we would like\nTwo chapters, about 26 minutes, by Friday 13 November 2026 (an example date: nothing has been sent), and your answers to a few questions at the end of each.\nWhat you get back\nyour name in the acknowledgements, if you want it there\nthe first edition when it ships\na reply to every comment, and a page showing what your comments changed\n9. The team was the insider about 17 minutes · the controls as they ran, and the ones the team could",
+ "pen_click": "a comment control appeared",
+ "pen_click_error": null,
+ "console_errors": [],
+ "failed_local_requests": [],
+ "blocked_external_requests": []
+}
