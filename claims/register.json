@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-11-01T06:50:00Z",
+ "as_of": "2026-11-01T08:50:00Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -2229,9 +2229,18 @@
      "hf-openai-exploitgym": "'a limited set' of internal datasets and 'several' service credentials matches Hugging Face's wording as reported (RuntimeWire); its primary post not read here",
      "anthropic-irregular-evals": "15 real systems in about an hour, three organisations, 141,006 runs reviewed: as reported (aiweekly.co); Anthropic's own post not found by search"
     },
-    "frame_count_not_traced": "'In 9 of the 11' (the frame's own count; no field in the data states it)"
+    "frame_count_not_traced": "'In 9 of the 11' (the frame's own count; no field in the data states it)",
+    "primary_posts_read_1_November": {
+     "hf-openai-exploitgym": "Hugging Face: 'unauthorized access to a limited set of internal datasets and to several credentials used by our services' (holds)",
+     "anthropic-irregular-evals": "Anthropic: 'run on 15 real systems', the package available 'for roughly one hour', 141,006 runs reviewed, three incidents (holds)",
+     "anthropic-fourth-incident": "Anthropic: 'read the personal information of one person'; 'the session ended when the model exhausted its token budget' (holds)",
+     "aws-kiro-cost-explorer": "Amazon: 'user error, specifically misconfigured access controls, not AI' (holds); the 13 hours are the FT's, not in Amazon's post: keep '(FT)'",
+     "pocketos-cursor-railway": "Railway's post has no '30 hours': the figure is the founder's alone; keep 'per the founder'",
+     "replit-deletes-prod-db": "primary on X, not reachable; 1,206 consistent across reports; keep '(its count)'",
+     "gemini-cli-failed-you": "the user's transcript answers 403; no figure printed beyond 'every file', as reported"
+    }
    },
-   "state": "open",
+   "state": "checked",
    "source": {
     "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
     "at": "c33e86a",
@@ -2239,7 +2248,7 @@
    },
    "method": "the piece's data read; two headline figures spot-checked against public reports by web search, 31 October 2026",
    "command": "git show c33e86a:src/static/studio/data/over-enthusiastic.json | python3 -c \"import json,sys;d=json.load(sys.stdin);[print(c['id'],c['grade'],c['checked_against_primary'],c['lost'][:90]) for c in d['cases']]\"",
-   "note": "Outside cases, graded by the talk's register (A1 to A5), not re-read here except the two spot checks. Print a figure only from a case the talk team checked against its primary source, attributed to its report ('per the FT', 'the agent's own count'); mask the figures of the five unchecked cases, or caption them 'as reported'. Label the three evaluation cases as evaluations, as the data's own caution says. Open until each printed figure is read at its primary source. Registered at ruv-sgit's request (ruv-sgit__003), the researcher's 08:32 wake, 31 October 2026. 31 October 10:40: LAB 07 printed the frame's own 'In 9 of the 11' (ruv-sgit__007); it is computed by the piece from the guardrail descriptions, which are prose, and no data field states it: not registered; mask it until traced. 31 October 12:40: three more spot checks by web search (PocketOS, Hugging Face, Anthropic); primary posts still not read, so C090 stays open."
+   "note": "Outside cases, graded by the talk's register (A1 to A5), not re-read here except the two spot checks. Print a figure only from a case the talk team checked against its primary source, attributed to its report ('per the FT', 'the agent's own count'); mask the figures of the five unchecked cases, or caption them 'as reported'. Label the three evaluation cases as evaluations, as the data's own caution says. Open until each printed figure is read at its primary source. Registered at ruv-sgit's request (ruv-sgit__003), the researcher's 08:32 wake, 31 October 2026. 31 October 10:40: LAB 07 printed the frame's own 'In 9 of the 11' (ruv-sgit__007); it is computed by the piece from the guardrail descriptions, which are prose, and no data field states it: not registered; mask it until traced. 31 October 12:40: three more spot checks by web search (PocketOS, Hugging Face, Anthropic); primary posts still not read, so C090 stays open. 1 November 08:45: the five primary posts that answer were read; every printed figure holds as attributed. Two primaries do not answer (X, a GitHub attachment): their figures stay attributed ('its count', 'as reported'). Closed."
   },
   {
    "id": "C091",

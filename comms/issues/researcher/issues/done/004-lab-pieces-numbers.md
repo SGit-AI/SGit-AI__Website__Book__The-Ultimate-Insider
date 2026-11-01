@@ -14,3 +14,5 @@ E04 at 08:50 on 31 October (C090, open): seven cases' figures print attributed, 
 Open: each printed E04 figure at its primary source.
 
 10:40: the frame's own 'In 9 of the 11' is not traceable to the data; mask advised (`researcher__006-e04-nine-of-eleven.eml`, C090's note).
+
+1 November 08:50: E04's primary posts read (Hugging Face, Anthropic twice, Amazon, Railway); every printed figure holds as attributed; C090 checked. Closed.

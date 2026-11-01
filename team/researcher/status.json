@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-11-01T06:55:00Z",
+ "as_of": "2026-11-01T08:55:00Z",
  "round": 1,
- "state": "working: 06:32 wake, 1 November; 98 claims (82 checked, 5 corrected, 11 open); A4 read in full; 11b's runbook date settled",
+ "state": "idle: 98 claims (83 checked, 5 corrected, 10 open); E04 closed; NR1 waits on the writers; task twice a day, 09:32 and 17:32 London",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -148,6 +148,10 @@
   {
    "what": "A4: every placed article read in full, four placements changed; C098: the runbook's push rule at 02:22:16 on 28 October, settling 11b's 'two days before the talk'",
    "when": "2026-11-01T06:55:00Z"
+  },
+  {
+   "what": "E04's primary posts read: every printed figure holds as attributed (C090 checked, board 004 closed); task moved to the idle schedule, 32 9,17 London",
+   "when": "2026-11-01T08:55:00Z"
   }
  ],
  "next": [
@@ -184,7 +188,7 @@
  ],
  "task": {
   "id": "trig_01Q1gWPQbdrBw3xwfRdVEGph",
-  "cron": "CRON_TZ=Europe/London 32 */2 * * *",
+  "cron": "CRON_TZ=Europe/London 32 9,17 * * *",
   "session": "session_01Kw9UwBhzn98NK3Ydio5nEP",
   "created": "2026-10-30T13:16:32Z",
   "prompt": "team/conductor/schedule.json, runs entry for researcher, word for word",
@@ -193,7 +197,7 @@
    "session": "session_01Kw9UwBta1dcP9qBJUURLPZ",
    "state": "paused on the first account at the editor's word, about 10:50 UTC"
   },
-  "changed": "2026-10-31T02:20:10Z, set back to round the clock from the conductor's session (amended Q6, schedule.json); not by this member; recorded, not held; the editor's word asked for on dev (researcher__009)"
+  "changed": "2026-11-01T08:35:05Z, to the idle schedule (WAKE.md Cadence; schedule.json idle): all open work waits on others"
  },
  "issues": [
   {
@@ -421,5 +425,5 @@
    "reply": "comms/mail/mailroom/ruv-sgit/researcher__011-beat-times.eml"
   }
  ],
- "cadence": "active"
+ "cadence": "idle"
 }

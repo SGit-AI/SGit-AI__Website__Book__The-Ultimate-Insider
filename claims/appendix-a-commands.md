@@ -718,7 +718,7 @@ git show 49c701e:briefs/2026-10-31__rc1-paper-review/batch-07-pages-22-to-32.md 
 
 ## C090: The talk's E04 piece: what over-enthusiastic agents did, from published reports
 
-State: open.
+State: checked.
 
 ```
 git show c33e86a:src/static/studio/data/over-enthusiastic.json | python3 -c "import json,sys;d=json.load(sys.stdin);[print(c['id'],c['grade'],c['checked_against_primary'],c['lost'][:90]) for c in d['cases']]"
