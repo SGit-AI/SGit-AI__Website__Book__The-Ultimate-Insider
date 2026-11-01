@@ -12,3 +12,5 @@ Guard rails (the editor's, and security's pre-review of 1 November): AI agents o
 1 November 2026: the personalities and the categories asked of the storyteller (`designer__048`). Next wake: the model-sheet plan and the conductor's sheet, from LAB 11.
 
 1 November 2026, 03:40: LAB 27 in the lab PDF: the nine drawn (`lab/characters/make_cast.py`, `cast/`), four moods each, a scorecard each from `claims/scorecard-values.md`, the on-stage marker from C011. Letters `designer__049` to `051`. Next: the conductor in poses; the cast on the opening pages; the storyteller's personalities.
+
+1 November 2026, 05:35: the scorecards read both tables (C014, C095) at build, ruv-sgit footnoted at the researcher's check; the sample's page 7 with the personas as LAB 27's fifth sheet, a proposal until the editor reacts (brief 29).

@@ -76,7 +76,23 @@ def scorecard_rows():
     return rows
 
 
-AT_PREFIX = {"conductor": "99", "dev": "52"}  # C095, as the researcher's note says to print which basis
+def at_prefix_counts():
+    """C095: each member's commits by @ prefix alone, the total column of claims/talk-commits-by-member-hour.md."""
+    out = {}
+    for line_ in (REPO / "claims" / "talk-commits-by-member-hour.md").read_text().splitlines():
+        cells = [c.strip() for c in line_.strip().strip("|").split("|")]
+        if cells and cells[0] in mc.CAST:
+            out[cells[0]] = cells[-1]
+    return out
+
+
+def differing_prefix():
+    """The members whose @-prefix count (C095) differs from all attributions (C014): their cards say which basis."""
+    rows, prefix = scorecard_rows(), at_prefix_counts()
+    return {m: prefix[m] for m in mc.CAST if m in prefix and prefix[m] != rows[m][1]}
+
+
+AT_PREFIX = {}  # filled in main from the researcher's two tables, never typed here
 
 
 def card(m, vals, x, y, w=52.0, h=53.0):
@@ -110,15 +126,39 @@ def scorecards():
     return mc.svg(164, 3 * h + 2 * gap, "".join(out), "A scorecard for each of the nine, every value from the book's register")
 
 
+def talk_jobs():
+    """The talk's one-line jobs, as LAB 22's cast row printed them (its Meet the team piece at 298be4e): read from that SVG."""
+    src = (REPO / "lab" / "experiments" / "22-designer-t10-drawings" / "cast-row.svg").read_text()
+    words = re.findall(r">([^<>]+)</text>", src)
+    return {words[i]: words[i + 1] for i in range(0, len(words) - 1, 2) if words[i] in mc.CAST}
+
+
+def cast_row_personas():
+    """The sample's page 7 cast row with the personas: a proposal for NR1's opening pages, 164 mm, labels 9 pt."""
+    jobs = talk_jobs()
+    cw, ch = 164 / 3, 26.0
+    out = []
+    for i, m in enumerate(mc.CAST):
+        x, y = (i % 3) * cw, (i // 3) * ch
+        lead = m == "conductor"
+        out.append(f'<rect x="{x + .5:.2f}" y="{y + .5:.2f}" width="{cw - 1:.2f}" height="{ch - 1:.2f}" rx="1.6" fill="{"#f6e1d4" if lead else "#fff"}" stroke="{mc.ACCENT if lead else mc.FILL2}" stroke-width="{.6 if lead else .35}"/>')
+        out.append(fig(m, "happy", x + 1.2, y + 1.6, .45))
+        out.append(t(x + 20.5, y + 11.4, m, 800, fill=mc.ACCENT if lead else mc.INK))
+        out.append(t(x + 20.5, y + 15.8, jobs[m], fill=mc.MUTED))
+    return mc.svg(164, 3 * ch, "".join(out), "The talk's nine agents as personas, each with its one-line job in the talk's own words: the conductor first")
+
+
 def first_commits():
     rows = scorecard_rows()
     return {m: rows[m][0] for m in mc.CAST}
 
 
 if __name__ == "__main__":
+    AT_PREFIX.update(differing_prefix())
     (HERE / "sheet-cast.svg").write_text(cast_sheet())
     (HERE / "sheet-moods.svg").write_text(mood_sheet())
     (HERE / "sheet-scorecards.svg").write_text(scorecards())
+    (HERE / "cast-row-personas.svg").write_text(cast_row_personas())
     firsts = first_commits()
     for label, at in (("0050", "00:50"), ("0200", "02:00"), ("1200", "12:00"), ("1600", "16:00")):
         present = {m for m, f in firsts.items() if f <= at}  # on stage from its first commit (C011)
