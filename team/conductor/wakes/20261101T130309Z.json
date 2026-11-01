@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Within policy; new brief only. Conditions: names only as in his public articles; letters add no private or contact details; PS1 and ZM1 at his quoted word; CV1 and NS1 open; no keys; nothing to the blind repo; vault_check.",
    "at": "2026-11-01T13:04:15Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "As planned: brief 03 of 1 November in-session (verbatim, the reading); PS1 and ZM1 decided at his quoted word, CV1 open, NS1 open; letters storyteller 031, publisher 046, designer 032, researcher 038, historian 022, synthetic 013, developer 027, security 029 with outbox copies (no private or contact detail); title-thread.md updated with PS1; status.json. vault_check clean, gate 0, scope 0 outside.",
+   "at": "2026-11-01T13:05:15Z"
+  },
+  "post_review": {
+   "by": "security post-review sub-agent",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Gate 0; scope 0 outside; vault_check clean; brief 03 verbatim, none edited; PS1 and ZM1 in his quoted words; CV1 and NS1 open; letters hold no contact or key; the title prompt points at public paths; no em-dashes; nothing to the blind repo.",
+   "at": "2026-11-01T13:06:03Z"
+  },
+  "post_check": {
+   "by": "conductor post-check sub-agent",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "All four items done; nothing unplanned.",
+   "at": "2026-11-01T13:06:03Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-01T13:06:03Z",
+ "outcome": "ok"
 }
