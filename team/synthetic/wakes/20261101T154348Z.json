@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, 15:42 London",
+ "started": "2026-11-01T15:43:48Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1) Three invented personas (no names, events or places) in review/synthetic/personas.json, group 'zoom'; three read-only sub-agents read chapter-plan/cast/edition-03.md (the storyteller's draft), each writing only review/synthetic/zoom/edition-03/<id>.json, quotes checked; summary.md labelled a read of a draft. 2) The Personas section rebuilt (src/pages/personas/**); replies to the conductor and storyteller in the mailroom and comms/mail/synthetic/. 3) status.json, debrief, REALITY.md; conductor__014 filed; issue 005; vault_check comms.",
+   "at": "2026-11-01T15:44:21Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Inside scope.writes. Conditions: personas generic (no real conference, person or the editor's team); edition-03.md read only; output labelled a synthetic read of a draft, not readership; vault_check comms; nothing to the blind repo.",
+   "at": "2026-11-01T15:44:49Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
