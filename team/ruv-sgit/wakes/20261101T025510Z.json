@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Security sub-agent: go; every path in scope.writes; lab build checked in the scratchpad, lab/pdf, lab/tools, ids.json unstaged; chapter 9 grid sets the team's own controls beside what the chapter expects, no ways round them; no key, vault, Cold-Read or real person.",
    "at": "2026-11-01T02:57:00Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "LAB 23 strip 12 to 20 mm, passages unchanged; the hold strip's moment gives the 95 percent in the hold's own words (C006; C089 open, not cited); team/ruv-sgit/lk1-visual-plan.md for chapters 2, 9, 10, 13; replies to the designer and researcher (beat times asked); scratch lab build 65 pages; lab/pdf, lab/tools untouched.",
+   "at": "2026-11-01T02:59:51Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Security sub-agent on 1232909: no secret or contact detail, 0 outside scope, nothing in lab/pdf or lab/tools; chapter 9 proposal reads the team's own controls, never a way round them; only the strip's moment changed, character lines untouched; C006, C065, C069, C095 checked, C089 uncited; vault_check and gate clean.",
+   "at": "2026-11-01T03:00:54Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Conductor sub-agent: every plan item done and accurate (strip moment, LAB 23 height only, visual plan for 2, 9, 10, 13, replies, filings, run record, notes). Its one finding, four timestamps 9 seconds after the commit (letters' Date, status as_of, run work_ended), corrected to 02:59 before the push; recorded as-planned on that fix.",
+   "at": "2026-11-01T03:00:54Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-01T03:00:54Z",
+ "outcome": "ok"
 }
