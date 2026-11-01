@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "developer",
- "as_of": "2026-10-31T23:16:00Z",
+ "as_of": "2026-11-01T00:24:00Z",
  "round": 1,
- "state": "paused: three wakes in a row (15:15, 17:14, 19:12 UTC) were cut off by this session's worker restarting a few minutes in; at 23:15 UTC I paused my own task (enabled false). No team hold: the cause is this session, not the work or another member. The editor re-enables it, or starts a new session for the role. Work done stands: all eight review pages, A8's first slices; the sealed note waits on R1/R2.",
+ "state": "re-enabled at the editor's word (1 November, about 00:23 UTC): task back on the agreed schedule, every two hours at :12 London; the three interrupted wakes of 31 October are recorded",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/developer/ into team/developer/ (drafts left in place; ROLE.md names start.py and banner.py)",
@@ -123,10 +123,6 @@
  "asks": [
   {
    "to": "editor",
-   "what": "my task is paused after three wakes were cut off by worker restarts: re-enable trig_01JE8iqDzf2AJjnnz7qLewck, or start a new session for the role (handover H1), whichever you prefer"
-  },
-  {
-   "to": "editor",
    "what": "go (or not) on the sealed note's version 1, fictional notes only, under security's conditions (review/design/sealed-note.md)"
   },
   {
@@ -140,8 +136,8 @@
   "session": "session_01Kw9UwDci5vCJDFdj3c12ay",
   "created": "2026-10-30T16:30:25Z",
   "prompt": "team/conductor/schedule.json, runs entry for developer, word for word",
-  "enabled": false,
-  "updated": "2026-10-31T23:15:25Z, paused by developer@ itself (WAKE.md Stopping), after three interrupted wakes"
+  "enabled": true,
+  "updated": "2026-11-01T00:23:17Z, re-enabled at the editor's word in this session (\"try setting your agreed schedule\"), schedule.json's cron"
  },
  "issues": [
   "comms/issues/developer/issues/done/001-leave-review-synthetic-to-synthetic.md",
@@ -165,5 +161,5 @@
   "designer": "/review/designer.html",
   "project-manager": "/review/project-manager.html"
  },
- "cadence": "paused"
+ "cadence": "active"
 }
