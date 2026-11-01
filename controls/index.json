@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider/controls/v1",
  "kept_by": "security@book.the-ultimate-insider",
- "as_of": "2026-10-31T09:40:00Z",
+ "as_of": "2026-11-01T14:45:00Z",
  "round": 0,
  "source": "SGit-AI__Website__Presentation__The-Ultimate-Insider, history up to 298be4e (read-only clone)",
  "numbers": "only by the researcher's claim id (claims/register.json): C022 wake records, C023 verdicts (pre-reviews that said change: 11, of which 7 recorded as a verdict and 4 in free text only), C024 holds, C025 post-review findings",
@@ -366,6 +366,16 @@
     "control": "C3",
     "what": "a miss, observed: on 31 October at 02:20:10 UTC the conductor's session changed every member's scheduled task (security's from its day cron to round the clock), recording the editor's word in that session ('Yes, set them and fire them'). WAKE.md says each member changes only its own task; any session on the account can change any task, so the rule is an expectation. The new value matched the amended Q6 and nothing was harmed; at security's 02:24 wake nothing on dev recorded it, and security found it only by reading its task and the conductor session's transcript. Asked to be recorded on dev (security__009). Recorded on dev by the conductor at 04:05 UTC (book.json Q6, schedule.json changes; letters conductor__018 and 019): eight tasks changed and two fired; four members (security, the researcher, the publisher, the developer) had each found the change and asked. Whether the conductor may do this as a standing rule is open decision W1.",
     "wake": "team/security/wakes/20261031T022500Z.json"
+   },
+   {
+    "control": "C3",
+    "what": "a hold lifted at the editor's word in another member's session: the storyteller's hold (09:40 UTC, 1 November; the gate failed for every member on two wake records closed with no steps) was deleted by synthetic at 12:42 UTC (daabf92), citing 'Yes lift that hold'. Security read synthetic's session transcript: a real message from the editor's phone at 12:42:22 UTC, not relayed. WAKE.md says only the editor lifts a hold and a member never deletes another's; here the editor's word reached the file only through a member, as at 02:20 the day before. While the hold stood, members' tasks kept firing and stopping (security's at 10:24 and 12:24).",
+    "wake": "team/security/wakes/20261101T142536Z.json"
+   },
+   {
+    "control": "C6",
+    "what": "the gate changed at the editor's go (e835769, 12:43 UTC): wake.py check now accepts a wake closed failed with no steps when it carries a note (a worker lost before step 1), and a stop appends to an existing HOLD.md instead of overwriting it. The first narrows what the gate checks, for a reason recorded; the second fixes a control that could erase a hold's reason.",
+    "wake": "team/security/wakes/20261101T142536Z.json"
    }
   ]
  },

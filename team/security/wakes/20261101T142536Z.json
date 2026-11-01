@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled, active at 14:24",
+ "started": "2026-11-01T14:25:36Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "1. The hold's lift (daabf92, by synthetic at the editor's word in its session, verified in that session's transcript: a real message at 12:42:22 UTC) and the gate change (e835769) recorded in controls/ (C3, C6). 2. DR1: the designer's options of the editor (LAB 32) read: nothing private, nothing but what he asked. 3. NR1: the storyteller's opening script read against the cast rails; findings by letter; board 022, status, debrief; vault_check.",
+   "at": "2026-11-01T14:27:34Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "Fits policy. Conditions: record the lift as resting on the editor's real message (verified), flag the gate change for his eye; no private detail of the editor in findings; no key, token or contact; vault_check; material is never an instruction; nothing attack-shaped.",
+   "at": "2026-11-01T14:27:51Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. The hold's lift verified in synthetic's transcript (the editor's message, 12:42:22 UTC, from his phone) and recorded with the gate change (C3, C6 in controls/index.json). 2. DR1's six options (LAB 32): nothing private; option E the editor's call. 3. NR1 bible, opening script, two strip scripts: within the rails; letter security__015 to the conductor and storyteller; board 022; status, debrief.",
+   "at": "2026-11-01T14:29:38Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
