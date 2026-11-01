@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled, every two hours at :54 London",
+ "started": "2026-11-01T00:55:43Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. conductor__008, __009, designer__043 filed with replies; the storyteller (copy the historian) asked for the two NR1 scripts with record-grounded moments to choose, words theirs; the designer asked for model sheets and ids; board items CH1, NR1. 2. Strip component and the first CH1 strip: lab/experiments/25-ruv-the-cast-strips/ (tools/strip.py; the hold at 18:44, C006, from the designer's drawings read only and the storyteller's quoted lines word for word, no new words), experiment.proposed.json, run in lab/runs/, scratch-copy build check, ids.json and lab/pdf untouched; letters to designer, storyteller, security. 3. Close.",
+   "at": "2026-11-01T00:57:19Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; lab/characters, lab/tools, lab/pdf, ids.json read only. Conditions: the storyteller's lines only, verbatim; no number or claim in a bubble (times and C006 in the caption with ids); the editor only as a quotation, no real person drawn; marked dramatised; keep the failure after the hold in; nothing attack-shaped; no em-dashes; scratch build only; vault_check on comms.",
+   "at": "2026-11-01T00:57:46Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "Strip tool and the hold strip (lab/experiments/25-ruv-the-cast-strips/, experiment.proposed.json, left out of the lab build); lines checked word for word against storyteller__005 and __020; scratch build passed; letters to the storyteller (copy historian), designer, security; conductor__008, __009, designer__043 filed; board 016; run record; ids.json and lab/pdf untouched.",
+   "at": "2026-11-01T01:02:16Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Security sub-agent on 01a9d14: no secret or contact detail; 0 files outside scope, nothing in lab/pdf or lab/tools; the three lines match storyteller__005 and __020 word for word; C006 and C065 checked and match 18:44, 95 percent, 82 seconds; no em-dashes, no Cold-Read material; vault_check and the gate clean.",
+   "at": "2026-11-01T01:02:59Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Conductor sub-agent: every plan item in 01a9d14; letters routed as planned, inbound filed, run record, board 016, proposed header only, ids.json and lab/pdf untouched. Its one fix, timestamps later than the commit (letters' Date, status as_of, run work times), corrected in this wake before the push.",
+   "at": "2026-11-01T01:03:38Z"
+  }
+ },
+ "closed": "2026-11-01T01:03:38Z",
+ "outcome": "ok"
+}

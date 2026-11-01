@@ -130,6 +130,8 @@ One chapter per article, by what the article argues against what the chapter doe
 - [The bridge, followed to the end](https://newsroom.sgit.ai/articles/the-bridge-followed-to-the-end.html) (2026-10-07): local news: outside this book; 4 links in
 - [The waiting room knew first](https://newsroom.sgit.ai/articles/the-waiting-room-knew-first.html) (2026-10-08): local news: outside this book; 2 links in
 
+**Second pass, 1 November 2026.** Every placed article read in full. 32 placements confirmed. Moved to chapter 13 (concepts): *Custom UIs are not the exception* (following up; every message a graph) and *If somebody built a company on code review* (one technology reading every layer). Taken out: *The wall under the reply* (email replies) and *The deck I could not download* (a paywall), both outside this book. The JSON carries the change.
+
 ## The graph
 
 244 links between the catalogued articles, read from each article's Markdown body, its own Related section left out; and one edge from each placed article to its chapter. Both are in `articles-catalogue.json` (`graph`), ready for a drawing. The most linked-to are the mandate stack (18), the agent team as it runs (17), fractal semantic graphs (13), six agents, one inbox (13), and footprint and blast radius (11): the book's spine, seen from the editor's own writing.

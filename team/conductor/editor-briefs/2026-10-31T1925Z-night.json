@@ -1,0 +1,51 @@
+{
+ "number": "23",
+ "date": "Saturday 31 October 2026, 19:25 UTC",
+ "kicker": "The conductor brief · 23 · the night in review",
+ "title": "The night: your RC1 review, routed while you slept",
+ "when": "30 October 22:00 to 31 October 07:00 UTC, from the git log of dev",
+ "by": "conductor@book.the-ultimate-insider, key sha256:f2456a147ac54f5f",
+ "headline": "The team never stopped. Between 22:00 and 07:00, 121 commits from members and 55 site releases reached dev. You gave your paper review of RC1 (ten batches, pages 1 to 45) and your voice memo, and the team turned them into rules, tasks and two studies: the book's name and structure (NS1) and the book as JSON (J1). RC1 was locked; RC2 began.",
+ "stats": [
+  {"n": "121", "label": "member commits reaching dev, 22:00 to 07:00"},
+  {"n": "55", "label": "site releases in the same hours"},
+  {"n": "10", "label": "batches of your RC1 paper review, kept verbatim and routed"},
+  {"n": "11", "label": "members, all of them at work at some point in the night"}
+ ],
+ "wide": [
+  {"title": "Who worked when", "path": "team/conductor/editor-briefs/img/night-2026-10-31.svg", "caption": "Commits reaching dev by member and hour (UTC), and site releases. The 01:00 hour is the conductor keeping and routing your RC1 review as you gave it."}
+ ],
+ "sections": [
+  {"title": "The milestones", "table": {"head": ["Time", "Who", "What"], "rows": [
+   ["22:05", "conductor", "Brief 8: Monday's launch steps put to you; Q6, the team's hours while it waits on you"],
+   ["22:22", "librarian", "The talk-site study done: every member's page, the studio's 70 versions, the motion of every visual checked"],
+   ["22:24", "historian", "Its twelve RC1 cards answered, and RC1 read for your voice"],
+   ["23:15", "developer, synthetic", "The founder persona run through the review pages, fixed, run again"],
+   ["23:52", "conductor", "Your voice memo filed as your brief: the book's centre of gravity is agentic workflows; the name and structure study routed (brief 10)"],
+   ["00:16", "designer", "The trim study at your word: the same pages at 6 x 9, 7.5 x 9.25 and 8 x 10 in"],
+   ["00:14 to 01:14", "seven members", "Each moved its own task to day hours (Q6 as first signed)"],
+   ["01:17 to 02:07", "conductor", "Your RC1 paper review, batches 1 to 10 (pages 1 to 45), kept verbatim, mapped to chapters and routed to eight members; Q6 amended back to round the clock; RC1 locked, RC2 next (briefs 11 to 13)"],
+   ["01:45", "synthetic", "The name test: six candidate titles past the eight personas, as a test, not a choice"],
+   ["02:20", "conductor", "At your word, eight members' tasks set back to round the clock and two fired (recorded on dev late, at 04:05; the lesson kept)"],
+   ["02:28", "designer", "A 0.625 in gutter, at your word, in the lab PDF and the trim study"],
+   ["02:43", "storyteller", "The name and structure study, second pass: the tour first, one agent first, show then contain (now NS1)"],
+   ["02:52", "publisher", "Page numbers on every page, and a build that reports every oversized image"],
+   ["03:01", "ruv.sgit", "The talk's hour dial drawn and explained for your RC1 note 8 (now LAB 10)"],
+   ["03:17", "developer", "RC1 online with every chapter's commits, files and numbers linked where verified (A8)"],
+   ["04:26", "historian", "Your account of why the team stopped, beside the record; the two kinds of trigger by hour"],
+   ["04:38", "researcher", "Wakes by trigger registered (C087, C088); the exact-title check for the name candidates"],
+   ["04:42", "storyteller", "A9: the map chapter as an article in your way, story first"],
+   ["04:53", "publisher", "Footnotes at chapter end, a QR test sheet, an ebook a third smaller (A5)"],
+   ["05:02", "designer", "A visual pass over the book's 34 oversized images"],
+   ["06:14", "librarian", "RC1 read against your voice: the third person is the finding"],
+   ["06:37", "researcher", "A7: the study of the book as JSON, for your decision (now J1)"],
+   ["06:52", "publisher", "The ebook under a dollar a sale"]]}},
+  {"title": "What it left for you", "items": [
+   "NS1 (the name and the structure), J1 (the book as JSON), P2 (print size), W1 (may the conductor change members' tasks), A9 (send the maps article to the newsroom?)",
+   "Brief 16 gathered them at 08:05"]}
+ ],
+ "images": [
+  {"path": "lab/experiments/10-ruv-meet-the-team-explained/dial.svg", "caption": "LAB 10 (ruv.sgit, 03:01): the talk's hour, drawn as a dial, for your RC1 note 8"}
+ ],
+ "sources": ["git log origin/dev, 30 October 22:00 to 31 October 07:00 UTC (merges left out; releases are the CI's site v commits)", "team/conductor/tools/day_heatmap.py", "briefs 8 to 15"]
+}

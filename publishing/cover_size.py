@@ -6,7 +6,7 @@ KDP's rules (publishing/KDP.md, from KDP's help read 30 October 2026): spine wid
 spine text only from about 79 pages up. The page count is the interior PDF's, so give the PDF:
 
     python3 publishing/cover_size.py --pdf _site/manuscript/the-ultimate-insider.pdf [--paper cream]
-    python3 publishing/cover_size.py --pages 220 [--paper white] [--trim 6x9] [--dpi 300]
+    python3 publishing/cover_size.py --pages 220 [--paper white] [--trim 7.44x9.69] [--dpi 300]
 """
 import argparse
 import re
@@ -36,7 +36,7 @@ def main():
     src.add_argument("--pages", type=int)
     src.add_argument("--pdf")
     p.add_argument("--paper", choices=sorted(PER_PAGE), default="cream")
-    p.add_argument("--trim", default="6x9", help="width x height in inches, e.g. 6x9")
+    p.add_argument("--trim", default="7.44x9.69", help="width x height in inches; Crown Quarto (P2) by default")
     p.add_argument("--dpi", type=int, default=300)
     a = p.parse_args()
     w, h = (float(x) for x in a.trim.lower().split("x"))

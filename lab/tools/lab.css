@@ -174,3 +174,6 @@ h2 { font: 700 14pt/18pt var(--sans); margin: 0 0 4mm }
 .coverwrap > div { min-width: 0; overflow-wrap: break-word }
 .coverimg { width: 104mm; display: block }
 .coverwrap .muted { color: var(--muted); font-size: 9.5pt; line-height: 13pt }
+
+/* LAB 22: drawings shown at the size they print in the sample */
+.t10 svg { width: 120mm; max-width: none; display: block }

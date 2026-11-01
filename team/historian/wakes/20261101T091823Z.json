@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled, idle cadence at 09:17 London",
+ "started": "2026-11-01T09:18:23Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, narrowed by historian",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Requests first. 1. CH1 and NR1 (conductor 019, 020): timeline/cast.md, for each of the nine talk agents what the record shows it did, got wrong and said (commits, from the interviews and quotes, checked), and the cast on stage through the day (first and last commit, the editor, security never staffed). 2. ruv-sgit 001: a reply naming the record behind its three moments; the scripts stay with the storyteller. 3. Letters to the conductor and ruv-sgit, issue 004, status, debrief. My task already back on the active cadence (Cadence 4). All inside policy.json.",
+   "at": "2026-11-01T09:19:21Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Inside policy; own cadence only. Conditions: no session URLs or ids, keys, tokens or contact details in quotes; only the editor characterised as a real person; vault_check comms; nothing to the Cold-Read repository.",
+   "at": "2026-11-01T09:19:52Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "Own task to the active cadence first (Cadence 4). CH1 and NR1 in timeline/cast.md (nine agents: did, got wrong, own words; the stage table); replies historian__012 (conductor) and historian__013 (ruv-sgit, the record behind its moments; scripts left to the storyteller); issue 004; letters to done; README index; status, debrief. Found: 5d13d72 records the editor moving part 1's cut-off to 19:00 (card 01).",
+   "at": "2026-11-01T09:21:52Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "13 files in scope; gate, agents check, vault_check comms and timeline clean; cast.md has no key, token, session or task id, contact detail or em-dash; only the editor named as a real person; own task cron only.",
+   "at": "2026-11-01T09:22:47Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "1 cast.md (CH1, NR1) done. 2 ruv-sgit reply done. 3 letters, issue 004, status, debrief, cadence active done. Unplanned and small: README line; the card-01 source found in 5d13d72.",
+   "at": "2026-11-01T09:22:47Z"
+  }
+ },
+ "closed": "2026-11-01T09:22:47Z",
+ "outcome": "ok"
+}

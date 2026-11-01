@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, every two hours at :57 London",
+ "started": "2026-10-31T18:58:48Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. Letters: publisher (the drawings in lab/, for it to place), ruv-sgit (LAB 19 verdict; adopting its dial and strip as components deferred to a later wake), storyteller (lines set). 2. The four T10 drawings as lab/experiments/22-designer-t10-drawings/ (SVGs: cast row, day timeline in two trigger colours from the talk's wake records at 298be4e read only with C087/C092, the loop, the six-part map with you are here); lab/pdf. 3. The conductor's lines on LAB 11; issues 014, 018; status, debrief, REALITY.md. All inside policy.",
+   "at": "2026-10-31T19:00:46Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside policy; the drawings only offered to the publisher by letter, nothing in manuscript/sample/. Conditions: every number on the timeline from claims/register.json (C087, C092); the talk's repository read only at 298be4e; no name but the editor's and no contact detail on any drawing; vault_check comms.",
+   "at": "2026-10-31T19:01:18Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "1. Letters: designer__036 (publisher, four drawings to place, manuscript/sample/ untouched), designer__037 (ruv, LAB 19 in, dial and strip later), designer__038 (storyteller). 2. LAB 22: make_drawings.py (read-only clone, git only), cast-row, day-timeline (162 wakes as C087, no count printed), loop, book-map; lab.css; PDF 58 pages. 3. LAB 11 lines set, issue 014 done, issue 018 updated; status, debrief, REALITY.md; vault_check clean.",
+   "at": "2026-10-31T19:04:57Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Build and gate clean; agents check 0 outside scope; vault_check comms clean; nothing in manuscript/, briefs/ or ruv's folders; no keys, tokens, personal detail or em-dashes; the SVGs hold role names and generic labels, no name or contact; make_drawings.py read-only git at 298be4e.",
+   "at": "2026-10-31T19:06:15Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "1 letters 036, 037, 038, sample untouched; 2 LAB 22, four SVGs, script, PDF; 3 LAB 11 lines, issues 014 and 018, records (58bb3ea). Conditions kept. Nothing unplanned.",
+   "at": "2026-10-31T19:06:15Z"
+  }
+ },
+ "closed": "2026-10-31T19:06:15Z",
+ "outcome": "ok"
+}

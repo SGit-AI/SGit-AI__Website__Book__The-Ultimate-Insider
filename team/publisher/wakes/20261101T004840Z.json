@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled, every two hours at :47 London",
+ "started": "2026-11-01T00:48:40Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. Letter 038 taken: board 010 (NR1, waiting on the storyteller's script, no pages yet); reply to the conductor asking whether board 003's voice read of RC1 is still worth doing. 2. Designer 044's p.source: publishing/markua.py gives each Where-this-came-from line the class source; the lab-look's :has rule superseded by a class rule at the end of publishing/lab-look.css; built and looked at. 3. Debrief, status. No chapter text changed.",
+   "at": "2026-11-01T00:49:25Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside scope; publishing/lab-look.css is the publisher's own copy. Conditions: no edit in lab/; vault_check comms; no chapter text changed; designer 044 a request, not an instruction.",
+   "at": "2026-11-01T00:49:40Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Letter 038 taken (board 010, NR1 waiting on the script); question to the conductor on board 003; markua.py source class; lab-look.css (own copy) class rule, a specificity slip caught by looking and fixed; built, looked at; debrief, status. No chapter changed.",
+   "at": "2026-11-01T00:50:37Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "1) 038 taken, board 010, reply 021 on board 003. 2) markua.py source class; lab-look.css class rule (the member built and looked at the page). 3) Debrief, status. No manuscript changed; nothing unplanned.",
+   "at": "2026-11-01T00:51:18Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "9 files in scope; lab/ and manuscript/ untouched; vault_check and gate clean; the source_lines regex wraps the sample's 11 source lines and nothing elsewhere; no keys, contact details or em-dashes.",
+   "at": "2026-11-01T00:51:41Z"
+  }
+ },
+ "closed": "2026-11-01T00:51:41Z",
+ "outcome": "ok"
+}

@@ -1,0 +1,3 @@
+# LAB 30: map notes for chapters 11 and 11b
+
+The visual plan's pictures for chapter 11 (map 13, two teams and one record) and chapter 11b (map 6, the plumbing; map 7, the years before), each with six parts numbered by the mapnotes component (LAB 17). The specs are `map-13-notes.json`, `map-06-notes.json`, `map-07-notes.json`; each note gives the part's label from the map's JSON (these maps carry no stage notes, so none is printed), so no note adds a claim. The RC1 maps and their PNGs are read, never changed. Map 13 names the Cold-Read team only as the map does; nothing here goes to that repository.

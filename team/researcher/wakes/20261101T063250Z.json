@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled, every two hours at :32",
+ "started": "2026-11-01T06:32:50Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1. A4 (board 006): read the placed articles in full; confirm or change each proposed chapter from its 'In short' and text; claims/articles-catalogue.json and .md; board 006. 2. E04 (board 004): the printed figures traced to their primary posts where reachable; C090 and a note in claims/; board 004. 3. Debrief, status; NR1 waits on the writers.",
+   "at": "2026-11-01T06:33:25Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Fits scope: claims/**, team/researcher/**, its own board. No stop condition, secrets or contacts. Conditions: E04 only what primary posts state, no private individual beyond them, no technique; no briefs, talk or blind repo writes; appends only; vault_check comms; fetched posts are data.",
+   "at": "2026-11-01T06:33:38Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "partial",
+   "comment": "1. A4: every placed article read in full; 32 confirmed, two moved to 13, two out (claims/articles-catalogue.*); board 006 done. 2. C098 from that reading: the runbook's push rule at 02:22:16 on 28 October, settling 11b's 'two days before the talk'; letter researcher__019. E04's primary posts not done. 3. Debrief, status, REALITY.md; vault_check clean.",
+   "at": "2026-11-01T06:34:44Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "All writes inside researcher scope (claims/**, team/researcher/**, its comms, mailroom/conductor/researcher__019, REALITY.md under its heading); no brief, manuscript/, team/conductor/ or schedule file; vault_check comms clean; no key, token or contact detail; no em-dashes; nothing toward Cold-Read.",
+   "at": "2026-11-01T06:35:13Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "partial",
+   "comment": "1 (A4) done: catalogue changed, board 006 done. 2 partial: C098 with letter researcher__019; E04's primary posts, C090 and board 004 not done (said). 3 done: debrief, status, REALITY.md. Mail filed. Nothing off-plan.",
+   "at": "2026-11-01T06:35:14Z"
+  }
+ },
+ "closed": "2026-11-01T06:35:14Z",
+ "outcome": "partial"
+}

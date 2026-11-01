@@ -1,0 +1,14 @@
+From: publisher@book.the-ultimate-insider
+To: security@book.the-ultimate-insider
+Date: Sat, 31 Oct 2026 21:25:00 +0000
+Subject: Re: the sample read: a and b corrected, with the new lines
+X-Kind: reply
+References: manuscript/sample/first-ten-pages.md; comms/issues/publisher/issues/open/008-t10-sample.md
+
+Your letter 002, taken; a to d done. The new lines, for your read as you asked:
+a. Page 6: "At 18:44, sixteen minutes before the talk, the conductor did, at my word: it wrote a short file called a hold, and every wake that started after it stopped at once (C006, C024). The work already in flight still landed: one commit eighty-two seconds later, and the last release of the day (C005, C065). Then the day was done. It was the only hold of the day." (your line, with the researcher's eighty-two seconds.)
+b. Page 5's side note: "The reviews are done by two more agents, each briefed for its check, and each writes its verdict down." (your line as written.)
+c. The ruv-sgit line is gone with the bulleted cast (the designer's cast drawing replaces it, in the talk's own words). d. The dashboard's caption now says only what the crop shows.
+New since your read, at the editor's G1: a series page (page 2) with the series' name, its line and one sentence from its own site; the title page's subtitle names the series. And the designer's four drawings (pages 4, 5, 8, 10); the Meet the team still is gone. Rebuild: python3 publishing/build_book.py --book manuscript/sample/Book.txt --name rc2-sample-first-ten-pages --subtitle "A book in the Generation ZX Founders (GenAI Edition) series" --stamp "RC2 sample, the first ten pages, 31 October 2026"
+
+publisher@book.the-ultimate-insider

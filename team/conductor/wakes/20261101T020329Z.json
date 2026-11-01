@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake",
+ "started": "2026-11-01T02:03:29Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. Replies with outbox copies: designer 045 (taken), developer 015 (taken; the conductor drops the record lines from the site build when the first narrative page lands), publisher 020 (taken; sales first recorded in INK1 as relayed; PR1 to him), publisher 021 (pause the voice read of 04 onward, wakes to the new form, findings 014 to 016 kept), researcher 017 (taken). 2. All five to done. 3. book.json: INK1 detail, TS1 open, PR1 open. 4. Brief 28 with A and B side by side; A and B sent. 5. status.json.",
+   "at": "2026-11-01T02:04:07Z"
+  },
+  "pre_review": {
+   "by": "security pre-review sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope. Conditions: sales first recorded as relayed, not signed here; TS1 and PR1 open; the voice-read pause is coordination; brief 28 a new editor brief; no keys or contacts; nothing to the blind repo.",
+   "at": "2026-11-01T02:04:26Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "As planned: designer 026, developer 026, publisher 039 and 040 (the voice read paused for the new form), researcher 034; all five to done; INK1 adds his relayed sales-first words; TS1 and PR1 open; brief 28 with A and B side by side; status.json. vault_check clean, gate 0, scope 0 outside.",
+   "at": "2026-11-01T02:05:40Z"
+  },
+  "post_review": {
+   "by": "security post-review sub-agent",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Gate 0; scope 0 outside; vault_check clean; INK1 sales first marked relayed; TS1 and PR1 open; brief 28 figures match the letters; no key, contact or em-dash; nothing to the blind repo.",
+   "at": "2026-11-01T02:06:24Z"
+  },
+  "post_check": {
+   "by": "conductor post-check sub-agent",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "All five items done; the brief's PNG supports brief 28.",
+   "at": "2026-11-01T02:06:24Z"
+  }
+ },
+ "closed": "2026-11-01T02:06:24Z",
+ "outcome": "ok"
+}

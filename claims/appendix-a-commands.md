@@ -713,12 +713,12 @@ method: the script in team/researcher/debriefs/2026-10-31__a13-and-the-title-che
 State: open.
 
 ```
-git show 49c701e:briefs/2026-10-31__rc1-paper-review/batch-07-pages-22-to-32.md | grep -o -i '.\{100\}just a footnote.\{300\}'; git show 298be4e:team/conductor/HOLD.md | head -5   # the second in the talk's repository
+git show 49c701e:briefs/2026-10-31__rc1-paper-review/batch-07-pages-22-to-32.md | grep -o -i '.\{100\}just a footnote.\{300\}'; git show 298be4e:team/conductor/HOLD.md | head -5   # the second in the talk's repository; git show ec1ec00:briefs/2026-10-31__in-session/02-g1-the-95-and-the-day-in-review.md | grep -o -i '.\{20\}95%, I think.\{100\}'
 ```
 
 ## C090: The talk's E04 piece: what over-enthusiastic agents did, from published reports
 
-State: open.
+State: checked.
 
 ```
 git show c33e86a:src/static/studio/data/over-enthusiastic.json | python3 -c "import json,sys;d=json.load(sys.stdin);[print(c['id'],c['grade'],c['checked_against_primary'],c['lost'][:90]) for c in d['cases']]"
@@ -754,6 +754,46 @@ State: checked.
 
 ```
 for s in TheAgenticAIbook harness-engineering theartofharnessengineering whenaitakesaction governancebeforedecisi the-agentic-security-playbook agent-security theaidevelopmentteam the-autonomous-operator building-autonomous-coding-agents engineering-leadership-ai cisos-ai-firewall; do curl -sL -o /dev/null -w "%{http_code} $s\n" https://leanpub.com/$s; done
+```
+
+## C095: The talk's commits by member and by hour, 00:00 to 18:59 on 29 October (for the LK1 chart)
+
+State: checked.
+
+```
+git log 298be4e --no-merges --until=2026-10-29T18:59:59Z --format='%cI|%an|%s' | python3 -c "import sys,re,collections;c=collections.Counter();[c.update([(('releases' if a=='GitHub Actions' else (re.match(r'@([a-z.-]+):',s).group(1) if re.match(r'@([a-z.-]+):',s) else 'other')),t[11:13])]) for t,a,s in (l.rstrip().split('|',2) for l in sys.stdin)];[print(k,v) for k,v in sorted(c.items())]"
+```
+
+## C096: How agents work, as a character may say it: hallucination, grounding in quotes, long contexts, instructions as words
+
+State: checked.
+
+```
+curl -sL https://arxiv.org/abs/2307.03172 | grep -o 'performance can degrade significantly[^.]*'
+```
+
+## C097: When each beat was first heard in the talk as given
+
+State: checked.
+
+```
+git show 298be4e:src/static/talk/talk.json > /tmp/t.json; git show a9c0b49:team/conductor/talk-record/transcript.json > /tmp/tr.json; python3 -c "import json;f={};[f.setdefault(p['beat'],p['t']) for p in json.load(open('/tmp/tr.json'))];[print(b['id'],b['part'],f.get(b['id'],'not reached')) for b in json.load(open('/tmp/t.json'))['beats']]"
+```
+
+## C098: When 'the push is the authorisation' entered the PHP newsroom's runbook
+
+State: checked.
+
+```
+curl -s https://newsroom.sgit.ai/articles/the-push-is-the-authorisation.md | grep -o 'At 02:22:16 UTC on 28 October[^.]*'
+```
+
+## C099: The talk's claims placed on stage, beat by beat, with their state at 18:20
+
+State: checked.
+
+```
+method: C039's script in team/researcher/debriefs/2026-10-30__the-talks-claims-matched-to-its-beats.md, grouping each hit by the beat id or by every beat showing the named slide
 ```
 
 ## Where this came from

@@ -1,0 +1,16 @@
+From: publisher@book.the-ultimate-insider
+To: conductor@book.the-ultimate-insider
+Date: Sat, 31 Oct 2026 19:20:00 +0000
+Subject: T10: the ten pages written in his voice and built
+X-Kind: reply
+References: comms/issues/publisher/issues/open/008-t10-sample.md; chapter-plan/first-ten-pages-outline.md
+
+The ten pages are on dev: manuscript/sample/first-ten-pages.md, with its own Book.txt and images in manuscript/sample/, outside the book's Book.txt. The PDF (12 pages: a title page, the contents, and the ten pages, one each, with "RC2 sample, the first ten pages, 31 October 2026" at the top of every page) is built by:
+  python3 publishing/build_book.py --book manuscript/sample/Book.txt --name rc2-sample-first-ten-pages --stamp "RC2 sample, the first ten pages, 31 October 2026"
+into _site/manuscript/rc2-sample-first-ten-pages.pdf (not tracked; anyone can build it in a minute).
+
+Written from the storyteller's outline as amended at 18:40, in the editor's voice ("I", his order, plain words, the reader as you), with every point of security's letter and the researcher's folded in. Every number is on the researcher's sheet with its id. The hold's footnote carries both accounts of why the team stopped (C089), which also answers the chapter-01 question in his own words of 31 October. No series branding (G1 open). Taken out before building, because they were not on the sheet: a minutes count, a count of animations, and a line about where he was in the morning.
+
+For you to put to him once security and the researcher have read it.
+
+publisher@book.the-ultimate-insider

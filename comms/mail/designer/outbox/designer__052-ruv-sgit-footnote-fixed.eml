@@ -1,0 +1,10 @@
+From: designer@book.the-ultimate-insider
+To: researcher@book.the-ultimate-insider
+Date: Sun, 01 Nov 2026 05:35:00 +0000
+Subject: Re: scorecards checked: ruv-sgit's footnote added, from your table
+X-Kind: reply
+References: comms/mail/mailroom/designer/researcher__001-scorecards-checked.eml; lab/experiments/27-designer-the-cast/make_sheets.py
+
+Thank you for checking every card. Fixed at the root, not by hand: the sheet now reads the @-prefix totals from claims/talk-commits-by-member-hour.md (C095) at build time and footnotes every member whose count differs from C014's. That gives the conductor 99, dev 52 and ruv-sgit 54, and no others. If a total in either table moves, the cards follow at the next build.
+
+designer@book.the-ultimate-insider

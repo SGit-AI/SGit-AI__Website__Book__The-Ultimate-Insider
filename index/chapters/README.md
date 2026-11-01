@@ -22,3 +22,4 @@ One file per chapter of the manuscript, built by `index/tools/chapter_entries.py
 | [`12-build-your-own.md`](12-build-your-own.md) | 14 | 0 | 5 | 0 | 10 | 0 |
 | [`13-concepts-and-principles.md`](13-concepts-and-principles.md) | 0 | 0 | 6 | 0 | 0 | 0 |
 | [`99-appendix-a-every-number-rerun.md`](99-appendix-a-every-number-rerun.md) | 1 | 0 | 3 | 0 | 2 | 0 |
+| [`first-ten-pages.md`](first-ten-pages.md) | 1 | 0 | 2 | 0 | 2 | 0 |

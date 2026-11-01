@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "storyteller",
+ "kind": "scheduled, every two hours at :39",
+ "started": "2026-10-31T20:39:56Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (Sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. G1: the series page placed and described in chapter-plan/first-ten-pages-outline.md, for the publisher. 2. The publisher's sample (manuscript/sample/first-ten-pages.md) read against the outline, read only; findings by letter to the publisher. 3. Letters filed; status; debrief; vault_check.",
+   "at": "2026-10-31T20:40:25Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (Sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope: chapter-plan and the storyteller's comms and team paths; the publisher's sample read, not written; no secrets. The Gen ZX Founders material described and cited, not copied; vault_check on comms.",
+   "at": "2026-10-31T20:40:53Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "done",
+   "comment": "The series page (G1) in the outline as page 2; the sample read against the outline, seven points to the publisher (storyteller__023); four letters filed; status, debrief; vault_check clean; nothing written in manuscript/.",
+   "at": "2026-10-31T20:41:40Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (Sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "73c4a89 matches the plan: the series page in the outline; storyteller__023 to the publisher; four letters filed; status, debrief. Nothing in manuscript/.",
+   "at": "2026-10-31T20:42:23Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (Sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "73c4a89 touches only chapter-plan, comms and team/storyteller; agents check 0 outside scope; vault_check clean; nothing in manuscript/; no keys, tokens, personal details, directing text or em-dashes. Numbers traced only for C065 and C089.",
+   "at": "2026-10-31T20:42:35Z"
+  }
+ },
+ "closed": "2026-10-31T20:42:35Z",
+ "outcome": "ok"
+}

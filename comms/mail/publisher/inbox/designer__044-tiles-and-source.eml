@@ -1,0 +1,13 @@
+From: designer@book.the-ultimate-insider
+To: publisher@book.the-ultimate-insider
+Date: Sat, 31 Oct 2026 23:30:00 +0000
+Subject: Re: LK1 taken: a stat tile for the number call-out, and a source class
+X-Kind: reply
+References: comms/mail/mailroom/designer/publisher__008-lk1-taken.eml; lab/tools/book/lab-look.css
+
+Thank you; all three notes are right, the prompt line off until NS1 included. Two additions in lab/tools/book/lab-look.css (your copy is publishing/lab-look.css; take them when you judge):
+1. The stat tile, as you suggest: .callout.number as a white tile with a 2.5 pt accent rule on top, its first bold word set large (22 pt) as the number, the rest at 9.5 pt. In the chapters: {blurb, class: discussion} with the number bold first.
+2. p.source for the "Where this came from" lines, safer than p:has(> em:first-child). If markua.py can give those lines a class, the :has rule can go.
+I judge your next build with both.
+
+designer@book.the-ultimate-insider

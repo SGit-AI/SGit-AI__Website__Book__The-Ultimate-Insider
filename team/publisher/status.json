@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "publisher",
- "as_of": "2026-10-31T17:17:00Z",
- "round": 23,
- "state": "T10 inputs read (t10-notes.md); the sample is written at the 18:47 wake; the voice read through chapter 03",
+ "as_of": "2026-11-01T06:52:00Z",
+ "round": 31,
+ "state": "idle: NR1 waits on the storyteller's script, the KDP checks and open decisions on the editor; the tile rule deferred until NR1's chapters; task on the idle schedule",
  "done": [
   {
    "what": "session key published: team/publisher/key.json, key.png, sessions/session_01Kw9UwDVeRbKJZUWiRoRrHK/",
@@ -140,42 +140,66 @@
   {
    "what": "the T10 inputs read and noted (team/publisher/t10-notes.md); the voice read of chapters 02 and 03 (publisher__016)",
    "when": "2026-10-31T17:15Z"
+  },
+  {
+   "what": "T10: manuscript/sample/first-ten-pages.md in the editor's voice from the storyteller's outline, every number from the sheet; built with the sample stamp (12 pages); letters to the conductor, security, synthetic, researcher",
+   "when": "2026-10-31T19:20Z"
+  },
+  {
+   "what": "the sample after security, the researcher and the storyteller read it; the series page and subtitle (G1); the designer's four drawings; build_book.py --subtitle; letters to all five",
+   "when": "2026-10-31T21:25Z"
+  },
+  {
+   "what": "LK1: publishing/lab-look.css after book.css (book 254 pages, sample 13); KDP print costs by ink in KDP.md; page 5's 182 fixed (C095); letters to security, researcher, designer, conductor",
+   "when": "2026-10-31T23:20Z"
+  },
+  {
+   "what": "the editor's ink choice (standard colour, sales first) recorded; Crown Quarto in the build with --type A and B; repriced at large trim ($8.72 A, $8.48 B a copy; $14.99 proposed); the designer's stat tile and p.source",
+   "when": "2026-11-01T00:55Z"
+  },
+  {
+   "what": "board 010 (NR1); markua.py source class and the look's class rule; question to the conductor on board 003 (publisher__021)",
+   "when": "2026-11-01T01:10Z"
+  },
+  {
+   "what": "the designer's SVG width line and four sized drawings in the sample, rebuilt; security told first; voice read paused (board 003)",
+   "when": "2026-11-01T03:05Z"
+  },
+  {
+   "what": "type A the build's default; $14.99 and type A in KDP.md with his words; his two KDP setup checks as his steps",
+   "when": "2026-11-01T05:05Z"
   }
  ],
  "next": [
   {
-   "what": "T10: the ten pages in the editor's voice, built with the sample stamp, once the storyteller's outline arrives",
-   "why": "board 008, the editor's word"
+   "what": "the opening pages in the cast's form once the storyteller's script arrives",
+   "why": "board 010, NR1"
   },
   {
-   "what": "the voice read, chapters 02 onward",
-   "why": "board 003"
+   "what": "the outer-column tile rule in the build",
+   "why": "board 009"
   },
   {
-   "what": "the RC2 build list once RC2 is in manuscript/",
-   "why": "board 007"
-  },
-  {
-   "what": "the image sizes as Markua attributes; the trim and gutter",
-   "why": "once P2 is signed, board 006"
+   "what": "the type size (TS1) and the price (PR1), his",
+   "why": "board 009"
   }
  ],
  "asks": [
   {
    "to": "editor",
-   "what": "scan publishing/qr_test.py's sheet with a phone (print at 100%); E1, the Leanpub book; K1; P2 (trim, gutter); W1; EPUBCheck or Kindle Previewer; KDP Select and ISBN"
+   "what": "in KDP's setup screen: standard colour at Crown Quarto, and KDP's minimum at or below $14.99; E1, K1, W1; EPUBCheck or Kindle Previewer; KDP Select and ISBN"
   }
  ],
  "session": "session_01Kw9UwBKgLvosZHuWWWX8wY",
  "task": {
   "id": "trig_01F7F7AipdKEhWgbxEj3YVja",
-  "cron": "CRON_TZ=Europe/London 47 */2 * * *",
+  "cron": "CRON_TZ=Europe/London 47 9,17 * * *",
   "prompt": "word for word from team/conductor/schedule.json, runs, publisher",
   "created": "2026-10-30T13:16:38Z",
   "by": "this session, at the editor's word in this session",
   "previous": "trig_01D2wnhQDySKsG8ZL9XLmNsW (first account, paused, not deleted)",
-  "changed": "2026-10-31T02:20:11Z, not by this session: back to every two hours round the clock, matching Q6 as amended (01:32 UTC) and the conductor's letter 018; recorded, not changed back; the editor's word for it asked onto dev (publisher__009). Before: 00:50:06Z, to the day schedule at Q6 as first signed; recorded on dev by the conductor (letter 021), open decision W1"
+  "changed": "2026-10-31T02:20:11Z, not by this session: back to every two hours round the clock, matching Q6 as amended (01:32 UTC) and the conductor's letter 018; recorded, not changed back; the editor's word for it asked onto dev (publisher__009). Before: 00:50:06Z, to the day schedule at Q6 as first signed; recorded on dev by the conductor (letter 021), open decision W1; 2026-11-01T06:49:54Z, by this session: to the idle schedule (WAKE.md Cadence 3), back to active when the script or a request arrives"
  },
- "requests": "taken: conductor__002 to 029, designer__013 to 030, storyteller__010, 015; T10 is written at 18:47",
- "cadence": "active"
+ "requests": "taken: conductor__002 to 042, designer__013 to 046, storyteller__010 to 024, researcher__001 to 003, security__001 to 003; all answered",
+ "cadence": "idle"
 }

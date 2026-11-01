@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "storyteller",
+ "kind": "scheduled, every two hours at :39",
+ "started": "2026-10-31T18:40:00Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (Sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. Fold the six points into chapter-plan/first-ten-pages-outline.md, marked as the researcher's and security's: page 1 without 'all of it', QR to the talk's site; page 3 note and screenshot vetted; page 6 'sixteen minutes'; page 7 C029's counts; page 9 a safety line in step 1. 2. A short note to the publisher. 3. Letters filed; status; debrief.",
+   "at": "2026-10-31T18:40:27Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (Sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Inside scope.writes (chapter-plan, team/storyteller, mail to the publisher). No secrets, cross-member writes, blind-repo flow or anything attack-shaped. vault_check on comms before commit.",
+   "at": "2026-10-31T18:40:46Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "done",
+   "comment": "Outline amended with the six points, each marked; storyteller__022 to the publisher; three letters filed; status, debrief; vault_check clean.",
+   "at": "2026-10-31T18:41:08Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (Sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "b221814 matches the plan: outline amended; storyteller__022 to the publisher with outbox copy; three letters filed; status, debrief. Nothing outside scope.",
+   "at": "2026-10-31T18:41:54Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (Sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Writes inside policy (agents check 0 outside scope; vault_check comms clean). No key, token or personal detail. Security's three points present in the outline. No em-dashes.",
+   "at": "2026-10-31T18:42:07Z"
+  }
+ },
+ "closed": "2026-10-31T18:42:07Z",
+ "outcome": "ok"
+}

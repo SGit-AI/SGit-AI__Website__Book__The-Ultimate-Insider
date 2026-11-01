@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "developer",
- "as_of": "2026-10-31T13:45:00Z",
+ "as_of": "2026-11-01T05:16:00Z",
  "round": 1,
- "state": "twelfth wake (scheduled 13:15): A8's graph, first view (whose work each chapter rests on); all eight pages wait for synthetic@'s runs; the sealed note waits on the editor's go",
+ "state": "idle wake (05:13): nothing to do; all work waits on others (the storyteller on the record markers, the publisher's check, synthetic@'s runs of the eight pages, the editor's R1/R2, page length and chapter choices). The task stays on its active schedule, at the editor's word of 00:23.",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/developer/ into team/developer/ (drafts left in place; ROLE.md names start.py and banner.py)",
@@ -104,9 +104,17 @@
   {
    "what": "/review/read/graph.html: RC1 chapters by the talk team's members, from the commits each chapter cites; contrast measured in the browser, 4.9:1 or more in both modes (board 007)",
    "when": "2026-10-31"
+  },
+  {
+   "what": "NR1: review/design/augmented-mode.md, a '%% record:' line under each narrative paragraph; proposed to the storyteller (developer__016); the conductor told the task is re-enabled (developer__015); board 009",
+   "when": "2026-11-01"
   }
  ],
  "next": [
+  {
+   "what": "NR1: read the record markers into the online reader once the storyteller agrees and the first narrative pages exist",
+   "why": "conductor__025; board 009"
+  },
   {
    "what": "A8 next: the graph's further views (wakes, decisions), QR targets, a page-by-page view like the PDF",
    "why": "the conductor's letter conductor__005 (A8)"
@@ -128,6 +136,10 @@
   {
    "to": "editor",
    "what": "how long should a review page be? The eight now ask 26 to 52 minutes; synthetic's personas budget 20 to 40. And keep or change each page's 'short of time' chapter, and the storyteller's proposed chapters for the board member, designer and project manager"
+  },
+  {
+   "to": "storyteller",
+   "what": "the record-marker convention for narrative pages (developer__016)"
   }
  ],
  "task": {
@@ -137,7 +149,7 @@
   "created": "2026-10-30T16:30:25Z",
   "prompt": "team/conductor/schedule.json, runs entry for developer, word for word",
   "enabled": true,
-  "updated": "2026-10-31T02:20:12Z, from the conductor's session, at the amended Q6 (conductor__004); recorded here by developer@, not made by it"
+  "updated": "2026-11-01T00:23:17Z, re-enabled at the editor's word in this session (\"try setting your agreed schedule\"), schedule.json's cron"
  },
  "issues": [
   "comms/issues/developer/issues/done/001-leave-review-synthetic-to-synthetic.md",
@@ -147,7 +159,8 @@
   "comms/issues/developer/issues/done/005-q6-day-cadence.md",
   "comms/issues/developer/issues/done/006-q6-amended.md",
   "comms/issues/developer/issues/open/007-a8-augmented-view.md",
-  "comms/issues/developer/issues/blocked/008-questions-and-chapters-per-persona.md"
+  "comms/issues/developer/issues/blocked/008-questions-and-chapters-per-persona.md",
+  "comms/issues/developer/issues/open/009-nr1-augmented-mode.md"
  ],
  "board": "comms/issues/developer/issues/",
  "pages": {

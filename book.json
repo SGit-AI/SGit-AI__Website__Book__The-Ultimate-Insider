@@ -494,10 +494,10 @@
   },
   {
    "id": "P2",
-   "status": "open",
+   "status": "decided",
    "by": "editor",
    "ask": "The print size: Crown Quarto (7.44 by 9.69 in), gutter 0.625 in, outside margin 0.375 in",
-   "detail": "Relayed by the designer (letters designer__012 and designer__017): in the designer's session the editor chose Crown Quarto, and answered \"Yes\" to a 0.625 in gutter. Recorded here as relayed through another member's session; open for his signature in the conductor's session or by a tick. The lab PDF and the trim study are already set at it."
+   "detail": "Relayed by the designer (letters designer__012 and designer__017): in the designer's session the editor chose Crown Quarto, and answered \"Yes\" to a 0.625 in gutter. Recorded here as relayed through another member's session; open for his signature in the conductor's session or by a tick. The lab PDF and the trim study are already set at it. Decided by the editor in the conductor's session, 31 October 2026, about 23:20 UTC (briefs/2026-10-31__in-session/05-crown-quarto-and-the-cast.md), answering the conductor's question whether to sign Crown Quarto and build the ten pages at two sizes: \"Those sizes are good, let's see what they look like\". So Crown Quarto (7.44 x 9.69 in); the gutter as relayed (0.625 in). Two type sizes are built to compare (A: 9.5 pt body; B: 9 pt body); neither is chosen yet."
   },
   {
    "id": "NS1",
@@ -529,10 +529,59 @@
   },
   {
    "id": "G1",
-   "status": "open",
+   "status": "decided",
    "by": "editor",
    "ask": "This book as one of a Gen ZX Founders series, with its branding",
-   "detail": "Floated by the editor, 31 October 2026, about 13:10 UTC (same brief): \"maybe ... we can start to think of the Gen ZX founder as kind of a series of books and a series of materials. And this book is going to be one of that series\", framed as \"a book about you doing it. It's about you starting\"; the cover and branding \"compatible, or maybe reuse some of that ZX branding and reuse that Gen ZX founders tagline\". Options: A, yes: series name and tagline on the cover and title page, ZX-compatible cover, the book's own title under it (NS1 still chooses that title); B, a lighter tie: the series named on the title page and the back cover only, this book's own cover; C, not now: publish this book on its own and wire up the series later. Conductor's recommendation: A, tried first on the ten-page sample (T10) and its cover sketch, so he can see it before signing; the Gen ZX Founders book's own team keeps its branding, and nothing is copied from its repository without his word."
+   "detail": "Floated by the editor, 31 October 2026, about 13:10 UTC (same brief): \"maybe ... we can start to think of the Gen ZX founder as kind of a series of books and a series of materials. And this book is going to be one of that series\", framed as \"a book about you doing it. It's about you starting\"; the cover and branding \"compatible, or maybe reuse some of that ZX branding and reuse that Gen ZX founders tagline\". Options: A, yes: series name and tagline on the cover and title page, ZX-compatible cover, the book's own title under it (NS1 still chooses that title); B, a lighter tie: the series named on the title page and the back cover only, this book's own cover; C, not now: publish this book on its own and wire up the series later. Conductor's recommendation: A, tried first on the ten-page sample (T10) and its cover sketch, so he can see it before signing; the Gen ZX Founders book's own team keeps its branding, and nothing is copied from its repository without his word. Decided by the editor, 31 October 2026, about 19:00 UTC (briefs/2026-10-31__in-session/02-g1-the-95-and-the-day-in-review.md): \"yes, I think it should be a series with the on the title, on the cover page reference, and also in the explanation, maybe one of the first couple of pages that explains that, also explains the philosophy of it\". So option A, and one of the first pages explains the series and its philosophy."
+  },
+  {
+   "id": "LK1",
+   "status": "decided",
+   "by": "editor",
+   "ask": "The book looks like the conductor's briefs",
+   "detail": "The editor, 31 October 2026, about 19:15 UTC (briefs/2026-10-31__in-session/03-the-look-and-the-title-thread.md): the briefs \"look much better than the book ... why can't the book look like that?\" The briefs' components (team/conductor/tools/editor_brief.py): a headline box, stat tiles, cards for asks and steps, tables for timelines, full-width charts, sans labels over serif text, colour used for meaning. Options: A, the book's build adopts them at 6 x 9 throughout; B, only the sample, the ebook and the PDF, the printed book kept as it is; C, keep the current look. The cost: a colour interior costs more per printed copy than black and white (the publisher to say how much for 255 pages); the ebook and the PDF cost nothing extra; the components can be designed to hold in black and white. Conductor's recommendation: A, tried first on the ten-page sample (the designer's LAB 22) so he sees it before signing. Decided by the editor, 31 October 2026, about 19:18 UTC (briefs/2026-10-31__in-session/04-an-infographic-driven-book.md): \"if you look at the labs that you created, those experiments, that's the kind of look and feel that I want for the book ... I want it to feel modern. I want it to feel like visual ... We need to kind of basically be this kind of very infographic-driven book ... So might as well make it very visual.\" So option A, amended: the look of the lab and the briefs, modern, visual and infographic-driven. Colour against black and white is still to be priced by the publisher for his choice of ink."
+  },
+  {
+   "id": "CH1",
+   "status": "decided",
+   "by": "editor",
+   "ask": "The cast as characters: an experiment",
+   "detail": "Decided by the editor in the conductor's session, 31 October 2026, about 23:20 UTC (same brief): \"I really like this team characters ... can you ask the team to create a full personality and design for each one? Making it funny and interesting). Basically imagine that each one is a character and persona in this book. We could then also use them to help explaining the story and what happened. Can you ask the team to experiment this design and presentation mode and story telling?\" The talk's nine agents become characters, each with a personality and a design grounded in what it really did, used to tell the story; the team experiments and shows him. Characters of AI agents only: nothing attack-shaped, no real person caricatured, the editor only as himself and with his go."
+  },
+  {
+   "id": "INK1",
+   "status": "decided",
+   "by": "editor",
+   "ask": "The paperback's ink: black, standard colour or premium colour",
+   "detail": "The publisher, 31 October 2026, 23:20 UTC (comms/mail/mailroom/conductor/publisher__019-lk1-and-the-ink.eml; publishing/KDP.md), from KDP's own pages: the printing cost depends on the ink and the page count only, nothing per image. At 255 pages, 6 x 9: black $4.06 a copy, standard colour $7.50, premium colour $17.58; the royalty is 60% of the list price less printing (from $9.99). At $19.99 a copy earns about $7.93 in black, about $4.49 in standard colour, and nothing in premium colour (which cannot be sold below about $29.29). The PDF and EPUB print nothing. These are 6 x 9 figures; the publisher reprices them at Crown Quarto (P2). Options: A, black (the pictures in grey); B, standard colour (the look as designed in LK1); C, premium colour. Conductor's recommendation: B, standard colour, since LK1 makes the book's pictures its point and standard colour keeps a price near $20; decided on the Crown Quarto figures. Decided by the editor in the conductor's session, 1 November 2026, about 00:25 UTC (briefs/2026-11-01__in-session/01-the-story-told-by-its-characters.md): \"we're going to go with standard color\" (the publisher took it at his word in its own session first, commit 461f925). So option B, standard colour. Relayed by the publisher (comms/mail/mailroom/conductor/publisher__020-ink-chosen-crown-quarto.eml), his words in its session, about 00:20 UTC: \"So for now we're going to go with standard color, which is okay. And remember that in the beginning I'm not really interested in the profit, I'm more interested in the sales.\""
+  },
+  {
+   "id": "NR1",
+   "status": "decided",
+   "by": "editor",
+   "ask": "The book told by its characters",
+   "detail": "Decided by the editor in the conductor's session, 1 November 2026, about 00:25 UTC (same brief), as the direction, tried first on the opening pages (the ten-page sample and a couple more): \"we should actually literally go to town in that cast of characters ... those characters should follow us throughout the book. And basically, you should also have me ... when I speak in my voice, it should kind of be maybe the default one, but then we should be introducing all the agents in turn ... how can we tell the story from the point of view of those agents? ... We tell the story through the agents ... remove just about all the informational stuff ... People are not going to follow the hash ... that probably should be there in that augmented reality mode ... some scorecard for them ... like the Trump card ... you should know already which agents exist at every moment in time.\" Moods, interviews between agents and therapy sessions are dramatised scenes, marked as such and grounded in the record; agents' explanations of how they work are checked for truth; the failures stay in; only the editor is depicted as a real person, at his request. Builds on CH1; NS1 stays open."
+  },
+  {
+   "id": "TS1",
+   "status": "decided",
+   "by": "editor",
+   "ask": "The book's type size: A (9.5 pt) or B (9 pt)",
+   "detail": "Built at Crown Quarto in the lab's look (lab/pdf/sample-lab-look-A.pdf and -B.pdf, the ten-page sample; the book is 192 pages in A, 185 in B, per the publisher). The designer's note: at the 164 mm text block a body line runs about 95 characters in A and about 100 in B, both long; B is the smaller look he asked for, A the easier line. Options: A; B. No recommendation beyond the designer's note: his eye decides. Decided by the editor in the conductor's session, 1 November 2026, about 03:35 UTC, answering brief 28: \"Let's go with A , the 9.5 body , price is ok\". So A, a 9.5 pt body."
+  },
+  {
+   "id": "PR1",
+   "status": "decided",
+   "by": "editor",
+   "ask": "The paperback's list price",
+   "detail": "The publisher, 1 November 2026 (publisher__020): at Crown Quarto in standard colour (a large trim on KDP), $8.72 a copy in A and $8.48 in B; the lowest price that covers printing at 60% is $14.53 (A) or $14.13 (B). With his \"sales first, not profit\" (INK1), the publisher proposes $14.99, set on the final page count. Two checks in KDP's setup screen first: that standard colour is offered at this custom size, and KDP's own minimum. The price is his. Decided by the editor in the conductor's session, 1 November 2026, about 03:35 UTC, answering brief 28: \"Let's go with A , the 9.5 body , price is ok\". So $14.99 (the publisher's proposal), set on the final page count; the two checks in KDP's setup screen (standard colour at Crown Quarto; KDP's minimum) are still the publisher's to make before the listing."
+  },
+  {
+   "id": "MN1",
+   "status": "open",
+   "by": "editor",
+   "ask": "What the notes beside a map say",
+   "detail": "The designer, 1 November 2026 (comms/mail/mailroom/conductor/designer__055-lab-30-and-two-of-ruvs.eml; LAB 30, chapters 11 and 11b's maps): numbered notes beside each map now repeat the map's own labels, so they add no claim, and also add little. Options: A, keep the labels only (no new claims); B, the chapter's own words beside each part, each a claim with its source, checked by the researcher. Conductor's recommendation: B, since the notes are where a map teaches, and every sentence there is traced like any other."
   }
  ]
 }

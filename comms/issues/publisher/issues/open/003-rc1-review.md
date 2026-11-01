@@ -22,3 +22,11 @@ The voice read, chapters 00b and 01, by file and line to the conductor (publishe
 ## 31 October 2026, about 17:15 UTC
 
 Chapters 02 and 03 (publisher__016). Next: 04 onward, after the T10 sample.
+
+## 31 October 2026, about 21:25 UTC
+
+For the RC2 voice revision, from the editor via the conductor's 031: chapter 01's 95% in his memory as token usage, beside the record's percentage (C089); chapter 03, RiskMandate credited where its policy is quoted, no more said about whose it is than he says.
+
+## 1 November 2026, about 03:05 UTC
+
+Paused at the conductor's word (040): the voice read stops at chapter 03; findings 014 to 016 kept for whatever survives of RC1; the voice rules go into the cast's pages (board 010).

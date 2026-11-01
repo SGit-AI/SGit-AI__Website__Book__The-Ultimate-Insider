@@ -26,7 +26,7 @@ Every page must read in greyscale: the accent prints as a mid-dark grey, distinc
 
 ## Type
 
-One family, Inter (then Helvetica, Arial, DejaVu Sans), and a monospace (DejaVu Sans Mono) for paths, commits and ids. **Nothing below 9 pt**, footer and claim ids included; the build refuses a page with smaller text.
+One family, Inter (then Helvetica, Arial, DejaVu Sans), and a monospace (DejaVu Sans Mono) for paths, commits and ids. **Nothing below 9 pt**, footer and claim ids included; the build refuses a page with smaller text. **Text inside a drawing is never bigger than the body** (the editor's note on the sample's page 7, 1 November 2026): a drawing is made at the width it prints, its labels at 9 pt, and its SVG states its size in millimetres so no build scales it up.
 
 | Level | Size / leading | Weight |
 |---|---|---|

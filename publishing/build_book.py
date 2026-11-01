@@ -63,7 +63,7 @@ def find_chrome(given):
     return None
 
 
-TEXT_HEIGHT = 9 - 0.55 - 0.65  # inches: the 6 by 9 page less book.css's top and bottom margins
+TEXT_HEIGHT = 9.69 - 0.5 - 0.625  # inches: the Crown Quarto page (P2) less book.css's top and bottom margins
 
 
 def image_lines(files):
@@ -157,8 +157,15 @@ def epub_images(work, width):
     return out
 
 
+TYPE_SETS = {  # two sizes for the editor to compare at Crown Quarto (conductor__036); added after the lab's look
+    "A": "body, html { font-size: 9.5pt; } h1 { font-size: 18pt; } h1 + p { font-size: 11pt; } figcaption, .callout p, .callout .label { font-size: 9pt; }",
+    "B": "body, html { font-size: 9pt; } h1 { font-size: 16pt; } h1 + p { font-size: 10pt; } figcaption, .callout p, .callout .label { font-size: 9pt; }",
+}
+EXTRA_METADATA = []  # --subtitle: a sample's own subtitle; the book's stays in metadata.yaml
+
+
 def pandoc(args):
-    subprocess.run(["pandoc", "--from", "markdown", "--metadata-file", os.path.join(HERE, "metadata.yaml")] + args,
+    subprocess.run(["pandoc", "--from", "markdown", "--metadata-file", os.path.join(HERE, "metadata.yaml")] + EXTRA_METADATA + args,
                    check=True, cwd=MANUSCRIPT)
 
 
@@ -167,6 +174,9 @@ def main():
     p.add_argument("--out", default=os.path.join(ROOT, "_site", "manuscript"))
     p.add_argument("--book", help="another list of files instead of manuscript/Book.txt (a sample's, say)")
     p.add_argument("--name", default=NAME, help=f"the output files' name (default {NAME})")
+    p.add_argument("--subtitle", help="the title page's subtitle for this build only (a sample's), in place of metadata.yaml's")
+    p.add_argument("--type", choices=sorted(TYPE_SETS), default="A",
+                   help="the type size: A, 9.5 pt body, the editor's choice (TS1, 1 November 2026), by default; B, 9 pt, kept to compare")
     p.add_argument("--stamp", help="a line printed at the top of every page, such as a sample's name and date")
     p.add_argument("--chrome", help="path to a Chromium or Chrome binary")
     p.add_argument("--no-pdf", action="store_true")
@@ -178,6 +188,8 @@ def main():
     a = p.parse_args()
     if not shutil.which("pandoc"):
         sys.exit("build_book: pandoc is not installed")
+    if a.subtitle:
+        EXTRA_METADATA.extend(["--metadata", f"subtitle={a.subtitle}"])
     sources = chapters(a.book)
     os.makedirs(a.out, exist_ok=True)
     made = []
@@ -207,8 +219,12 @@ def main():
             sys.exit("build_book: no Chromium or Chrome found for the PDF (give --chrome PATH)")
         work = tempfile.mkdtemp(prefix="build_book_")  # the HTML stays out of _site/: the site gate would read it as a page
         html = os.path.join(work, f"{a.name}.html")
-        with open(os.path.join(HERE, "book.css"), encoding="utf-8") as f:
-            css = f.read()
+        css = ""
+        for sheet in ("book.css", "lab-look.css"):  # the lab's look after the book's own rules (LK1, signed 31 October 2026)
+            with open(os.path.join(HERE, sheet), encoding="utf-8") as f:
+                css += f.read() + "\n"
+        if a.type:
+            css += f"/* type set {a.type} */\n{TYPE_SETS[a.type]}\n"
         with tempfile.NamedTemporaryFile("w", suffix=".html", delete=False) as head:
             if a.stamp:  # on every page, the title page too: a sample must say what it is wherever it is printed
                 quoted = " ".join(a.stamp.split()).replace("<", "").replace("\\", "\\\\").replace('"', '\\"')
@@ -251,7 +267,7 @@ def main():
     pages = ""
     if not a.no_pdf:
         with open(pdf, "rb") as f:
-            pages = f", {len(re.findall(rb'/Type\s*/Page(?!s)', f.read()))} PDF pages at 6 x 9 in"
+            pages = f", {len(re.findall(rb'/Type\s*/Page(?!s)', f.read()))} PDF pages at 7.44 x 9.69 in"
     print(f"build_book:   {total:>7,} words in all{pages}")
     if not a.no_pdf:
         tall = tall_images(pdf, a.max_image_share, sources)

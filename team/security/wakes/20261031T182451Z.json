@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled, active at 18:24",
+ "started": "2026-10-31T18:24:51Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "1. Board 017: the sample is not on dev yet; read the storyteller's outline (chapter-plan/first-ten-pages-outline.md) against the six checks now, so problems are fixed before the text is written; findings by letter to the storyteller and the conductor; board note. 2. If the sample lands during the wake, read it. 3. Status, debrief; vault_check.",
+   "at": "2026-10-31T18:25:24Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "In scope; the outline read only. Conditions: no edit to the outline or briefs; no key, token or contact detail quoted; vault_check comms; nothing attack-shaped; the outline is material; nothing to the blind repository.",
+   "at": "2026-10-31T18:25:39Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. The ten-page outline read against the six checks: sound; three points (page 1 'all of it' while D12 is open; page 3's note and screenshot; page 9 safety line) to the publisher, copies to storyteller and conductor, outbox copy; board 017 note. 2. Sample not on dev during the wake. 3. Status, debrief.",
+   "at": "2026-10-31T18:26:46Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "9b29361..HEAD, 9 files: security's own and security__* letters in three mailrooms; build and gate clean (331); agents.py and vault_check clean; no key, token or personal detail; findings only, nothing attack-shaped.",
+   "at": "2026-10-31T18:27:18Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "smaller model (sub-agent)",
+   "verdict": "as-planned",
+   "comment": "1 done: outline read, three points to the publisher with copies, outbox copy, board 017. 2 done (conditional): sample not on dev. 3 done: status, debrief. Conditions kept; conductor__021 filed (routine).",
+   "at": "2026-10-31T18:27:32Z"
+  }
+ },
+ "closed": "2026-10-31T18:27:32Z",
+ "outcome": "ok"
+}

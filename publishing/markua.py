@@ -126,7 +126,13 @@ def translate(text):
         out.append(line)
     if blurb or block:
         out.append(":::")
-    return close_divs("\n".join(out))
+    return source_lines(close_divs("\n".join(out)))
+
+
+def source_lines(text):
+    """A paragraph that opens "*Where this came from:*" (the book's own source line, as in the sample) gets the class
+    source, so the look styles it by class (the designer's 044) and not every paragraph that opens in italics."""
+    return re.sub(r"(?m)^(\*Where this came from:\*[^\n]*(?:\n(?!\n)[^\n]*)*)", r"::: {.source}\n\1\n:::", text)
 
 
 def close_divs(text):

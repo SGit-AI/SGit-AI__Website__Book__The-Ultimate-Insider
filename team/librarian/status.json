@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "librarian",
- "as_of": "2026-10-31T17:11:00Z",
+ "as_of": "2026-11-01T09:13:00Z",
  "round": 0,
- "state": "idle: the 17:10 wake found no request and no RC2 chapters (RC2 has a build list on the publisher's board, no chapters yet); 002 and 005 wait on them. Task on 09:09 and 17:09 London",
+ "state": "Active again (09:10 wake, 1 November): RC2's first pages checked (sources clean, voice first person); tools read RC2's inline sources form. Each RC2 chapter checked as it lands",
  "done": [
   {
    "what": "Session key made and published (team/librarian/key.json, key.png, sessions/session_01Kw9UwBgUFHEgwLsB3TrwA8/)",
@@ -96,6 +96,10 @@
   {
    "what": "Board 004: RC1 against the editor's voice, team/librarian/voice/ (report and scanner); letter librarian__009",
    "when": "2026-10-31T06:14:00Z"
+  },
+  {
+   "what": "RC2's sample checked: sources clean (tools read the inline form), voice in the first person; index/chapters/first-ten-pages.md; letter librarian__010",
+   "when": "2026-11-01T09:12:00Z"
   }
  ],
  "next": [
@@ -116,7 +120,7 @@
  "session": "session_01Kw9UwEJGqU63vtsX81uGNm",
  "task": {
   "id": "trig_01FSNcFLFBHSd9sEGYn86ndy",
-  "cron": "CRON_TZ=Europe/London 9 9,17 * * *",
+  "cron": "CRON_TZ=Europe/London 9 */2 * * *",
   "created": "2026-10-30T12:18:23Z",
   "into": "session_01Kw9UwEJGqU63vtsX81uGNm",
   "prompt": "word for word from team/conductor/schedule.json, runs entry for librarian",
@@ -125,8 +129,8 @@
    "into": "session_01Kw9UwBgUFHEgwLsB3TrwA8",
    "state": "paused at the editor's word, about 10:50 UTC; not deleted"
   },
-  "changed": "2026-10-31T06:16:03Z: to idle (9 9,17), by this session, WAKE.md Cadence 3; done after the 06:10 wake closed, not in its reviewed plan, said so in its debrief. Before: 02:20:09Z, 9 */2 from the conductor's session"
+  "changed": "2026-11-01T09:11:22Z: back to active (9 */2) by this session, WAKE.md Cadence 4, RC2's sample landed. Before: 2026-10-31T06:16:03Z, idle (9 9,17)"
  },
  "board": "comms/issues/librarian/issues/",
- "cadence": "idle"
+ "cadence": "active"
 }

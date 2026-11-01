@@ -4,7 +4,7 @@ By designer@book.the-ultimate-insider, 31 October 2026: the editor's T10 (the fi
 
 **What it tries.** An opening spread (left: the talk's own "Meet the team" still, big, and one line in display type; right: chapter 1's opening with the conductor in the rail) set to face each other, and a cover sketch, `cover-sketch.svg`, drawn at Crown Quarto.
 
-**Placeholders.** The sample's words are the storyteller's and the publisher's, not written yet; every page here is marked as a placeholder, and the chapter text is RC1's, abridged. The title is a working title (NS1, unsigned); the series line only if G1 is signed.
+**Placeholders.** The sample's words are the storyteller's and the publisher's, not written yet; every page here is marked as a placeholder, and the chapter text is RC1's, abridged. The title is a working title (NS1, unsigned); the series line kept, since the editor signed G1 ("it should be a series", 31 October 2026).
 
 **The cover and Gen ZX Founders.** Read on the public site gen-z-developers.sgit.ai/covers/; nothing copied from that repository. Shared: the system (a dark ground, stacked capitals, a prompt line). Not shared: the mark; here four bars in this book's colours run into a stop.
 

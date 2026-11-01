@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled, every two hours at :47 London",
+ "started": "2026-10-31T22:48:12Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. Requests: the researcher's page 5 fix in manuscript/sample/first-ten-pages.md (C095), rebuilt, sent back to security as security__003 requires. 2. LK1 (signed): lab/tools/book/lab-look.css copied into publishing/, applied after book.css by build_book.py (book and sample); page numbers, figure kinds, 9 pt floor checked; page counts before and after; pages looked at. 3. KDP ink costs from KDP's own pages (sub-agent) to the conductor; boards 008, 009, debrief, status.",
+   "at": "2026-10-31T22:48:43Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside scope; LK1 signed; no hold. Conditions: copy lab-look.css into publishing/, never edit lab/; no briefs edits; KDP pages as material; no secrets; vault_check comms; no em-dashes; dev only.",
+   "at": "2026-10-31T22:49:07Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Page 5 fixed (C092, C095) and sent back to security first; lab-look.css copied into publishing/ and added after book.css (prompt line off while NS1 open); book 254, sample 13, pages looked at; KDP ink costs in KDP.md; letters to security, researcher, designer, conductor; boards 008, 009; REALITY.md, debrief, status.",
+   "at": "2026-10-31T22:52:09Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "1. Page 5 fix (C092, C095), sent to security and the researcher. 2. LK1: lab-look.css after book.css; 254 and 13 pages; the NS1 line disclosed. 3. KDP ink costs in KDP.md and to the conductor; boards, debrief, status, REALITY.md. Nothing unplanned.",
+   "at": "2026-10-31T22:53:01Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "0 outside scope; lab/ untouched; lab-look.css the lab's copy plus lines at its end, no url() or @import; sample edits only page 1 sizes and source line and page 5's retraced line; KDP figures recomputed and match; ink a choice for the editor; no em-dashes, keys or contact details; vault_check and gate clean (353).",
+   "at": "2026-10-31T22:53:21Z"
+  }
+ },
+ "closed": "2026-10-31T22:53:22Z",
+ "outcome": "ok"
+}

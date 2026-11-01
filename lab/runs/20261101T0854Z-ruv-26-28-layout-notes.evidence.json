@@ -1,0 +1,30 @@
+{
+ "schema": "the-ultimate-insider/lab-run-evidence/v1",
+ "run": "20261101T0854Z-ruv-26-28-layout-notes",
+ "started": "2026-11-01T08:54:46Z",
+ "wake_record": "team/ruv-sgit/wakes/20261101T085446Z.json",
+ "calls": [
+  {
+   "what": "python3 -B -I tools/build.py (LAB 26); concepts.json unchanged",
+   "tool": "python"
+  },
+  {
+   "what": "python3 -B -I tools/strip.py scripts/the-hold.json (LAB 28), four rounds against the scratch lab build until the strip held one page",
+   "tool": "python"
+  },
+  {
+   "what": "lab/tools/build_lab.py in a scratch copy: 79 pages, 9 pt floor, no overflow; LAB 28 on one page",
+   "tool": "the designer's build, read only"
+  }
+ ],
+ "outputs": {
+  "hashes": [
+   "lab/experiments/26-ruv-the-concepts-mapped/SHA256SUMS",
+   "lab/experiments/25-ruv-the-cast-strips/SHA256SUMS"
+  ]
+ },
+ "time": {
+  "work_started": "2026-11-01T08:56:00Z",
+  "work_ended": "2026-11-01T09:00:00Z"
+ }
+}

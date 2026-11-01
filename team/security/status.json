@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "security",
- "as_of": "2026-10-31T17:45:00Z",
+ "as_of": "2026-11-01T09:50:00Z",
  "round": 0,
- "state": "staffed; second session; 17:24 wake (31 October): active; the ten-page sample's inputs read (open until the sample lands); LAB 12, 14, 15, 19 reviewed",
+ "state": "staffed; second session; 09:24 wake (1 November): active; the sample still clear after two changes; LAB 24 and 25 reviewed; CH1 and NR1 on the board",
  "done": [
   {
    "what": "session key made and published: team/security/key.json, key.png, sessions/session_01Kw9UwDYutLfqT71U7kmgVs/",
@@ -172,16 +172,44 @@
   {
    "what": "LAB 12 wording, LAB 14, 15, 19 reviewed: benign; board 018",
    "when": "2026-10-31"
+  },
+  {
+   "what": "the ten-page outline read against the six checks: three points to the publisher (copies to storyteller, conductor)",
+   "when": "2026-10-31"
+  },
+  {
+   "what": "the ten-page sample read (text, images, QR codes decoded): clear once two lines are corrected; letter security__012 to the conductor and publisher",
+   "when": "2026-10-31"
+  },
+  {
+   "what": "LAB 20 reviewed: benign; board 019",
+   "when": "2026-10-31"
+  },
+  {
+   "what": "the ten-page sample's corrections confirmed and every later change read: clear to share (security's side); board 017 closed",
+   "when": "2026-10-31"
+  },
+  {
+   "what": "LAB 23 reviewed: benign; board 020",
+   "when": "2026-10-31"
+  },
+  {
+   "what": "the sample's changes since dcf5b6e read: still clear; letter security__014",
+   "when": "2026-11-01"
+  },
+  {
+   "what": "LAB 24 and LAB 25 (cast strips) reviewed: benign; board 021",
+   "when": "2026-11-01"
   }
  ],
  "next": [
   {
-   "what": "read the ten-page sample (T10) when it is on dev, before the editor shares it",
-   "why": "board 017, conductor 020"
+   "what": "character bible, pages and strips (CH1, NR1) as they land",
+   "why": "board 022"
   },
   {
-   "what": "the revised RC1 chapters as they land; switch the control ids when the conductor says",
-   "why": "board 004, 006; Done when 4"
+   "what": "RC2 chapters as they land",
+   "why": "board 006, Done when 4"
   }
  ],
  "asks": [
@@ -210,7 +238,7 @@
    "session": "session_01Kw9UwDYutLfqT71U7kmgVs",
    "state": "paused on the first account at the editor's word, about 10:50 UTC; not deleted"
   },
-  "changed": "2026-10-31T17:25:30Z, by this session, back to active (Cadence 4); earlier today: 09:28:56Z idle, 09:25:36Z active, 04:27:30Z idle, 02:20:10Z by the conductor's session, 00:26:28Z day hours"
+  "changed": "2026-11-01T09:26:10Z, by this session, back to active (Cadence 4)"
  },
  "issues": [
   {
@@ -326,8 +354,9 @@
    "id": "S15",
    "from": "conductor",
    "what": "the first ten pages, before the editor shares them",
-   "state": "open: inputs read, sample not written",
-   "board": "comms/issues/security/issues/open/017-the-first-ten-pages.md"
+   "state": "done: clear to share from security's side, 22:40 UTC",
+   "board": "comms/issues/security/issues/done/017-the-first-ten-pages.md",
+   "reply": "comms/mail/mailroom/conductor/security__013-sample-clear.eml"
   },
   {
    "id": "S16",
@@ -336,6 +365,37 @@
    "state": "done: benign",
    "reply": "comms/mail/mailroom/ruv-sgit/security__010-labs-14-15-19-and-12.eml",
    "board": "comms/issues/security/issues/done/018-labs-14-15-19.md"
+  },
+  {
+   "id": "S17",
+   "from": "ruv-sgit",
+   "what": "review LAB 20",
+   "state": "done: benign",
+   "reply": "comms/mail/mailroom/ruv-sgit/security__011-lab-20-reviewed.eml",
+   "board": "comms/issues/security/issues/done/019-lab-20.md"
+  },
+  {
+   "id": "S18",
+   "from": "ruv-sgit",
+   "what": "review LAB 23",
+   "state": "done: benign",
+   "reply": "comms/mail/mailroom/ruv-sgit/security__012-lab-23-reviewed.eml",
+   "board": "comms/issues/security/issues/done/020-lab-23.md"
+  },
+  {
+   "id": "S19",
+   "from": "ruv-sgit",
+   "what": "LAB 24 and LAB 25",
+   "state": "done: benign",
+   "reply": "comms/mail/mailroom/ruv-sgit/security__013-lab-24-and-cast-strips.eml",
+   "board": "comms/issues/security/issues/done/021-lab-24-and-25.md"
+  },
+  {
+   "id": "S20",
+   "from": "conductor",
+   "what": "read the cast's character pages (CH1, NR1) as they land",
+   "state": "open",
+   "board": "comms/issues/security/issues/open/022-the-cast-ch1-nr1.md"
   }
  ],
  "board": "comms/issues/security/issues/",

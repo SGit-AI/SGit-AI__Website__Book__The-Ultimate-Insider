@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-10-31T16:55:00Z",
+ "as_of": "2026-11-01T09:50:00Z",
  "round": 1,
- "state": "working: 16:32 wake; 94 claims (78 checked, 5 corrected, 11 open); the comparison set registered (Done when 3)",
+ "state": "working: 09:32 wake, 1 November; 99 claims (84 checked, 5 corrected, 10 open); active again; the claims per beat registered",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -120,28 +120,52 @@
   {
    "what": "the comparison set registered (C094, claims/comparison-set.md); Leanpub's ranking rule read at source (C093); letter 009 item 2 closed",
    "when": "2026-10-31T16:55:00Z"
+  },
+  {
+   "what": "the first ten pages' outline traced page by page (claims/first-ten-pages-trace.md): all hold, three cautions to the publisher and storyteller",
+   "when": "2026-10-31T18:50:00Z"
+  },
+  {
+   "what": "the written ten pages traced line by line (one line does not hold: 'nothing more happened', C005, C065); the editor's 19:00 account of the 95% added to C089 with what the record can and cannot show",
+   "when": "2026-10-31T20:50:00Z"
+  },
+  {
+   "what": "the talk's commits by member and hour registered for LK1 (C095, claims/talk-commits-by-member-hour.md); the sample retraced: page 6 and the footnote hold, page 5's '182 by the agents' does not (120)",
+   "when": "2026-10-31T22:50:00Z"
+  },
+  {
+   "what": "the sample's page 5 verified (the ten pages hold); NR1: what a character may say about how agents work, sourced (C096, claims/agents-how-they-work.md), and the scorecard values the register backs (claims/scorecard-values.md)",
+   "when": "2026-11-01T01:00:00Z"
+  },
+  {
+   "what": "ruv-sgit's hold strip checked (claims/the-hold-strip-check.md): holds, one phrase on the 95%; board 001's voice part proposed to close, others have it",
+   "when": "2026-11-01T02:50:00Z"
+  },
+  {
+   "what": "each beat's first-heard time in the talk (C097, claims/beat-times.md); the designer's nine scorecards checked, all hold, one footnote asked; board 001 closed at the conductor's word",
+   "when": "2026-11-01T04:50:00Z"
+  },
+  {
+   "what": "A4: every placed article read in full, four placements changed; C098: the runbook's push rule at 02:22:16 on 28 October, settling 11b's 'two days before the talk'",
+   "when": "2026-11-01T06:55:00Z"
+  },
+  {
+   "what": "E04's primary posts read: every printed figure holds as attributed (C090 checked, board 004 closed); task moved to the idle schedule, 32 9,17 London",
+   "when": "2026-11-01T08:55:00Z"
+  },
+  {
+   "what": "task back to active (Cadence 4); the talk's claims beat by beat for LAB 31 (C099, claims/talk-claims-per-beat.md)",
+   "when": "2026-11-01T09:50:00Z"
   }
  ],
  "next": [
   {
-   "what": "Trace the first ten pages of RC2 line by line once drafted",
-   "why": "conductor__028 (T10)"
-  },
-  {
-   "what": "A4: a full reading of each placed article",
-   "why": "conductor__020"
+   "what": "NR1: check the characters' lines and scorecards once written",
+   "why": "conductor__033"
   },
   {
    "what": "E04's printed figures read at their primary sources",
    "why": "C090"
-  },
-  {
-   "what": "RC1 in the editor's voice (board 001); the tenth 11b quotation (C074)",
-   "why": "R9; Done when 2"
-  },
-  {
-   "what": "The rest of the talk's unconfirmed claims in the final talk",
-   "why": "ROLE.md responsibility 3"
   }
  ],
  "asks": [
@@ -177,7 +201,7 @@
    "session": "session_01Kw9UwBta1dcP9qBJUURLPZ",
    "state": "paused on the first account at the editor's word, about 10:50 UTC"
   },
-  "changed": "2026-10-31T02:20:10Z, set back to round the clock from the conductor's session (amended Q6, schedule.json); not by this member; recorded, not held; the editor's word asked for on dev (researcher__009)"
+  "changed": "2026-11-01T09:33:40Z, back to the active schedule (WAKE.md Cadence 4): the designer asked for work"
  },
  "issues": [
   {
@@ -240,7 +264,7 @@
    "id": "R9",
    "from": "conductor (the editor's requests)",
    "request": "comms/mail/mailroom/researcher/conductor__004-review-and-rc1.eml, conductor__005-the-editors-voice.eml",
-   "state": "in progress: numbers, the Cold-Read numbers, Appendix A done; the voice review left",
+   "state": "done: numbers, Cold-Read numbers, Appendix A; the voice part closed at conductor__035",
    "reply": "comms/mail/mailroom/conductor/researcher__001-rc1-numbers.eml; board comms/issues/researcher/issues/open/001-rc1-review.md"
   },
   {
@@ -352,8 +376,64 @@
    "id": "R25",
    "from": "conductor (T10)",
    "request": "comms/mail/mailroom/researcher/conductor__028-the-first-ten-pages.eml",
-   "state": "in progress: the sheet ready; the draft not yet written",
+   "state": "done: the ten pages hold",
    "reply": "comms/mail/mailroom/conductor/researcher__014-first-ten-pages.eml; board 007"
+  },
+  {
+   "id": "R26",
+   "from": "publisher",
+   "request": "comms/mail/mailroom/researcher/publisher__001-t10-sample-to-trace.eml",
+   "state": "done: one line to change",
+   "reply": "comms/mail/mailroom/publisher/researcher__002-ten-pages-traced.eml"
+  },
+  {
+   "id": "R27",
+   "from": "conductor",
+   "request": "comms/mail/mailroom/researcher/conductor__031-his-95.eml",
+   "state": "done: C089",
+   "reply": "comms/mail/mailroom/conductor/researcher__016-the-95-registered.eml"
+  },
+  {
+   "id": "R28",
+   "from": "ruv-sgit",
+   "request": "comms/mail/mailroom/researcher/ruv-sgit__011-talk-commits-by-member-and-hour.eml",
+   "state": "done: C095",
+   "reply": "comms/mail/mailroom/ruv-sgit/researcher__009-member-by-hour.eml"
+  },
+  {
+   "id": "R29",
+   "from": "publisher",
+   "request": "comms/mail/mailroom/researcher/publisher__002-sample-retraced.eml",
+   "state": "done: one line on page 5",
+   "reply": "comms/mail/mailroom/publisher/researcher__003-sample-retraced.eml"
+  },
+  {
+   "id": "R30",
+   "from": "conductor (NR1)",
+   "request": "comms/mail/mailroom/researcher/conductor__033-nr1-true-explanations.eml",
+   "state": "in progress: the sheets ready",
+   "reply": "comms/mail/mailroom/conductor/researcher__017-nr1-sheets.eml; board 008"
+  },
+  {
+   "id": "R31",
+   "from": "researcher (own)",
+   "request": "lab/experiments/25-ruv-the-cast-strips/scripts/the-hold.json, under NR1",
+   "state": "done",
+   "reply": "comms/mail/mailroom/ruv-sgit/researcher__010-the-hold-strip.eml"
+  },
+  {
+   "id": "R32",
+   "from": "ruv-sgit",
+   "request": "comms/mail/mailroom/researcher/ruv-sgit__020-the-hold-strip-and-the-beats.eml",
+   "state": "done: C097",
+   "reply": "comms/mail/mailroom/ruv-sgit/researcher__011-beat-times.eml"
+  },
+  {
+   "id": "R33",
+   "from": "designer",
+   "request": "comms/mail/mailroom/researcher/designer__058-c097-used-and-a-per-beat-table.eml",
+   "state": "done: C099",
+   "reply": "the designer's mailroom, researcher__ letter of 09:45"
   }
  ],
  "cadence": "active"

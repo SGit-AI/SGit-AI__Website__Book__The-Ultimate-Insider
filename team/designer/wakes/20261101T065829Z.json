@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, every two hours at :57 London",
+ "started": "2026-11-01T06:58:29Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. LAB 30 (lab/experiments/30-designer-map-notes-11-11b/): map 13 (chapter 11), maps 6 and 7 (chapter 11b) with mapnotes (LAB 17), six numbered parts each, notes in the map's own words from its JSON; RC1 maps and PNGs read only; the Cold-Read team named only as the map does, nothing toward the blind repository; lab PDF rebuilt, SHA256SUMS. 2. Issue 010, letter designer__055 to the conductor, mail filed, vault_check comms, debrief, status.json, REALITY.md; agents check.",
+   "at": "2026-11-01T06:59:22Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope; one-way valve kept. Conditions: write only in LAB 30's folder, lab/pdf, team/designer, own comms, designer__055 in the conductor's mailroom, REALITY.md own heading; RC1 maps and PNGs read only; notes in the map JSON's own words, no numbers outside the register; vault_check comms, agents check, build and validate before push; no em-dashes.",
+   "at": "2026-11-01T06:59:41Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "",
+   "verdict": "done",
+   "comment": "LAB 30: maps 13, 6, 7 with mapnotes, three pages, caption fixed (labels only, no stages); lab PDF 78 pages; ruv's LAB 26 and 28 printed by the build as they declared ids: verdict letter 056 sent, beyond the plan (deviation recorded); ids.json reserved list now LAB 25, 29; letter 055; issue 010; debrief, status.json, REALITY.md.",
+   "at": "2026-11-01T07:01:41Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "All files in scope; RC1 maps, ruv's folders, publishing/, briefs/, claims/ untouched; nothing toward the Cold-Read repository; notes in the maps' own labels; vault_check comms clean. Letter 056 beyond the plan but in scope and recorded.",
+   "at": "2026-11-01T07:02:34Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Both items done in 77797b7; the deviation (verdict letter 056 to ruv-sgit on LAB 26 and 28, printed by the build) is acceptable and recorded, worth a note, not a hold.",
+   "at": "2026-11-01T07:02:34Z"
+  }
+ },
+ "closed": "2026-11-01T07:02:34Z",
+ "outcome": "ok"
+}

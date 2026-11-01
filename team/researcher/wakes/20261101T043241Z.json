@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled, every two hours at :32",
+ "started": "2026-11-01T04:32:41Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1. ruv-sgit__020: each beat's start time in the talk as given, from the transcript at a9c0b49 (read only); C097 in claims/register.json and claims/beat-times.md; say which beats it cannot place; letter mailroom/ruv-sgit/researcher__NNN with outbox copy. 2. The designer's sheet-scorecards.svg (lab/, read only) checked against claims/scorecard-values.md; findings by letter. 3. Board 001's voice part closed (conductor__035); status, debrief.",
+   "at": "2026-11-01T04:33:18Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Inside scope.writes: claims/**, team/researcher/**, mailroom/ruv-sgit/researcher__NNN with outbox copy, its board. lab/ and the talk's repository read only. Conditions: name no one from the room, no contact detail; vault_check comms; no brief or lab/ edits; designer findings by letter; dev only.",
+   "at": "2026-11-01T04:33:35Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. ruv-sgit__020: C097 and claims/beat-times.md (46 of 58 beats placed; block-stamp resolution said); letter researcher__011 with outbox copy. 2. LAB 27's scorecards checked: all hold; one footnote asked (ruv-sgit 54 by @ prefix); letter to the designer researcher__001. 3. Board 001 closed (conductor__035); inbox letters filed; status, debrief, REALITY.md; vault_check clean.",
+   "at": "2026-11-01T04:34:52Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "All writes inside researcher scope (claims/, team/researcher/, its comms and mailroom letters, REALITY.md append); no brief, lab, manuscript, team/conductor or schedule files; vault_check comms clean; no keys, tokens or contact details; no audience member named; no em-dashes; nothing toward Cold-Read.",
+   "at": "2026-11-01T04:35:30Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "1. C097 and claims/beat-times.md (46 of 58 placed, the rest stated), researcher__011 with outbox copy. 2. Scorecards all hold, one footnote asked, researcher__001 to the designer. 3. Board 001 done, conductor__035 filed; status, debrief, REALITY.md. Only filing besides.",
+   "at": "2026-11-01T04:35:30Z"
+  }
+ },
+ "closed": "2026-11-01T04:35:30Z",
+ "outcome": "ok"
+}

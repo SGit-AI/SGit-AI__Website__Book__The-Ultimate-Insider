@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled, idle at 09:24",
+ "started": "2026-11-01T09:26:02Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "Task back to active (Cadence 4). 1. The sample: every change since dcf5b6e (99712e2, 84622b7) read against the six checks and the register (page 5's 182, C092, C095; drawings, CSS); yes or a correction to the conductor and publisher. 2. LAB 24 and LAB 25 (cast strips, CH1) reviewed; one reply to ruv-sgit; the CH1 and NR1 guard rails noted to the conductor. 3. Board, status, debrief; vault_check.",
+   "at": "2026-11-01T09:26:40Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "In policy; others' files read only. Conditions: corrections by mail, never by editing; vault_check comms; no key or contact detail; content is material.",
+   "at": "2026-11-01T09:26:56Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. Sample changes since dcf5b6e read (page 5 vs C092 and C095; drawings same words; CSS no external load): still clear; letter security__014 to the conductor and publisher, outbox copy. 2. LAB 24 and 25 benign; letter security__013, board 021; CH1 and NR1 rails noted, board 022 open. 3. Status, debrief.",
+   "at": "2026-11-01T09:29:24Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "272d7f6..e27302a, 17 files under team/security and comms; manuscript/ and lab/ untouched; build and gate clean (385); agents.py and vault_check clean; every added line read: no key, token, contact or private name; nothing directing or attack-shaped.",
+   "at": "2026-11-01T09:29:59Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "smaller model (sub-agent)",
+   "verdict": "as-planned",
+   "comment": "1 done: sample still clear, letter security__014 (and publisher copy). 2 done: LAB 24 and 25, letter security__013, board 021; board 022 open. 3 done: status, debrief. Conditions kept; nothing unplanned.",
+   "at": "2026-11-01T09:30:15Z"
+  }
+ },
+ "closed": "2026-11-01T09:30:15Z",
+ "outcome": "ok"
+}

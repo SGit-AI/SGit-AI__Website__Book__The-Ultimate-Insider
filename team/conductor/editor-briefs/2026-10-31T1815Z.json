@@ -1,0 +1,41 @@
+{
+ "number": "22",
+ "date": "Saturday 31 October 2026, 18:15 UTC",
+ "kicker": "The conductor brief · 22 · Saturday 31 October 2026",
+ "title": "Your ten pages, outlined",
+ "when": "18:15 UTC, the conductor's scheduled wake (18:02)",
+ "by": "conductor@book.the-ultimate-insider, key sha256:f2456a147ac54f5f",
+ "headline": "The storyteller has outlined the ten pages for the room: what the team made first, then how, the rule that let it go fast, what did not work, why it matters to you, and five steps to start tomorrow. The publisher writes them in your voice at 18:47; security reads them against six checks before I say they are ready to share. The PDF comes tonight.",
+ "stats": [
+  {"n": "10", "label": "pages outlined, punchlines first, logistics last"},
+  {"n": "18:47", "label": "the publisher writes them, in the first person"},
+  {"n": "6", "label": "checks security runs before you share them"},
+  {"n": "3", "label": "small things only you can answer (below)"}
+ ],
+ "for_you": [
+  {"id": "G1", "ask": "Gen ZX Founders series: A, B or C? (cover sketch in brief 21)", "detail": "The storyteller: G1 changes the dress (series name and tagline on page 1, page 9 written for a founder, the series on page 10), not the order.", "options": ["A: series on the cover", "B: title page and back only", "C: not now"], "recommend": "A."},
+  {"id": "95%", "ask": "Chapter 01: what were you looking at when you said 95%?", "options": ["One sentence back to me", "Later, in RC2"]},
+  {"id": "RiskMandate", "ask": "Chapter 03 quotes RiskMandate's Agent Behaviour Policy. Is it yours, and how do you want that said?", "detail": "The publisher's voice read: your writing rules ask you to be honest about where you stand, and the book does not say whose it is. A clause would do. The team assumes nothing.", "options": ["Mine: say so in a clause", "Not mine: leave as is", "Later"]}
+ ],
+ "sections": [
+  {"title": "The ten pages, as outlined", "table": {"head": ["Page", "What it says"], "rows": [
+   ["1", "A team of agents made a talk in a day: a repository after midnight, by evening a talk of 58 beats, its slides, its player and the site"],
+   ["2", "What they made: the talk is a website, every slide a page that moves"],
+   ["3", "How you can see everything they did: the record of every step"],
+   ["4", "Meet the team: one job each, written down, like a cast"],
+   ["5", "How a day runs: turns on a clock, through the night; plan, check, work, check"],
+   ["6", "The rule that let them go fast: anyone could stop everything, only you could restart it; the hold at 18:44"],
+   ["7", "What did not work: the talk needed more rounds; some claims did not hold, and the team's own checks found them"],
+   ["8", "Why this matters to you: no code needed; a brief, plain rules, a loop, ship and repeat"],
+   ["9", "Start tomorrow: five steps, from an empty repository to a second agent"],
+   ["10", "Where the book goes next: the six parts, as a map"]]}},
+  {"title": "Since 16:15", "items": [
+   "security: the sample's inputs read and clean (the number sheet, LAB 18); six checks ready for the sample itself",
+   "publisher: your voice read through chapter 03 (\"At 00:16:23 on 29 October 2026 I created a repository\")",
+   "researcher: Leanpub's ranking rule read at source (free copies count, C093); the comparison set (C094); two figures from search summaries it could not confirm, kept out",
+   "designer: LAB 21, a mandate you can see (chapter 3); ruv.sgit: LAB 19, the day's timeline in four modes (your A12)",
+   "storyteller and security back on the active schedule; librarian and historian idle until RC2 has chapters"]}
+ ],
+ "next": ["20:02, and the sample PDF as soon as the publisher builds it and security has read it"],
+ "sources": ["chapter-plan/first-ten-pages-outline.md", "comms/mail/mailroom/conductor/storyteller__021, security__010, researcher__015, publisher__016", "git log of dev since 16:07"]
+}

@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "storyteller",
- "as_of": "2026-10-31T18:05:00Z",
+ "as_of": "2026-10-31T22:50:00Z",
  "round": 1,
- "state": "active: the first ten pages' outline with the publisher; NS1, A9 and C062 with the editor",
+ "state": "idle: the ten-page sample matches its outline (confirmed to the publisher); NS1 waits on the editor's title thread, A9 and C062 on the editor. Task on the idle schedule until work arrives",
  "done": [
   {
    "what": "session key sha256:edc67e3cc68b3b07 published (team/storyteller/key.json, key.png, sessions/session_01Kw9UwFSAdt6ywy4t5H8kvd/)",
@@ -132,15 +132,31 @@
   {
    "what": "the conductor's three poses given their lines (designer__026 answered)",
    "when": "2026-10-31"
+  },
+  {
+   "what": "the ten pages' outline amended with the researcher's three cautions and security's three points; the publisher told (storyteller__022)",
+   "when": "2026-10-31"
+  },
+  {
+   "what": "G1: the series page placed as page 2 of the sample and described in the outline",
+   "when": "2026-10-31"
+  },
+  {
+   "what": "the publisher's ten-page sample read against the outline: seven points (the hold's aftermath, the 95% accounts, the five steps' exceptions, wording, LK1 drawings), to the publisher (storyteller__023)",
+   "when": "2026-10-31"
+  },
+  {
+   "what": "the sample's second draft confirmed against the outline (storyteller__024); own task to idle",
+   "when": "2026-10-31"
   }
  ],
  "next": [
   {
-   "what": "read the publisher's ten pages against the outline when they land",
-   "why": "T10; the editor reviews them now"
+   "what": "read the sample's next draft",
+   "why": "T10; the editor reviews it"
   },
   {
-   "what": "fold the plan to what the editor signs on NS1; A9 to his changes",
+   "what": "fold the plan to NS1 when the editor's title thread settles it; each chapter's infographics named (LK1)",
    "why": "Done when 1 and 2"
   }
  ],
@@ -161,13 +177,13 @@
  "session": "session_01Kw9UwBayMPYc5YNzFqqc7n",
  "task": {
   "id": "trig_018f8i1UtWhtQ6SaebNPhBnT",
-  "cron": "CRON_TZ=Europe/London 39 */2 * * *",
+  "cron": "CRON_TZ=Europe/London 39 9,17 * * *",
   "created": "2026-10-30T13:16:49Z",
   "by": "this session, at the editor's word in it",
   "prompt": "schedule.json runs entry for storyteller, word for word",
   "previous": "trig_017wCRMAnPCSZsLndXPkbLcD (first account, paused, not deleted)",
-  "changed": "2026-10-31T17:41:09Z, by this session, back to active at new work (WAKE.md Cadence 4)"
+  "changed": "2026-10-31T22:41:15Z, by this session, to idle (WAKE.md Cadence 3)"
  },
  "board": "comms/issues/storyteller/issues/",
- "cadence": "active"
+ "cadence": "idle"
 }

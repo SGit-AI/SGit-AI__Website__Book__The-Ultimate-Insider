@@ -1,0 +1,4 @@
+/* The black-and-white check of lab-look.css (LK1): every colour as the grey it prints, pictures included, until the
+   editor chooses the ink. Added after lab-look.css. */
+:root { --accent: #4a4a4a; --tint: #e4e4e4; --fill: #efefef; --fill-2: #cfcfcf; --muted: #5e5e5e; }
+img { filter: grayscale(1); }

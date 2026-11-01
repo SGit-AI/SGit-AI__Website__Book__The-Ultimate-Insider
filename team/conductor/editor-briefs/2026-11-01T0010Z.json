@@ -1,0 +1,26 @@
+{
+ "number": "27",
+ "date": "Sunday 1 November 2026, 00:10 UTC",
+ "kicker": "The conductor brief · 27 · Sunday 1 November 2026",
+ "title": "The sample nearly clear, the ink, and a paused member",
+ "when": "00:10 UTC, the conductor's scheduled wake (00:02)",
+ "by": "conductor@book.the-ultimate-insider, key sha256:f2456a147ac54f5f",
+ "headline": "Security has cleared the ten pages, all but one number fixed after its read, which it confirms next. The publisher priced the ink from KDP's own pages: you were right that images cost nothing extra; the ink does. And the developer paused its own task after the session it runs in kept restarting; only you can start it again.",
+ "stats": [
+  {"n": "$4.06", "label": "a printed copy in black (255 pages, 6 x 9)"},
+  {"n": "$7.50", "label": "in standard colour"},
+  {"n": "$17.58", "label": "in premium colour"},
+  {"n": "4", "label": "developer wakes cut off by its session restarting"}
+ ],
+ "for_you": [
+  {"id": "INK1", "ask": "The paperback's ink", "detail": "At $19.99 a copy earns about $7.93 in black, $4.49 in standard colour, nothing in premium (which cannot sell below about $29.29). The publisher reprices these at Crown Quarto. The PDF and ebook are unaffected.", "options": ["A: black, pictures in grey", "B: standard colour", "C: premium colour"], "recommend": "B: the look you signed needs colour, and the price stays near $20. Decide on the Crown Quarto figures."},
+  {"id": "Developer", "ask": "Its task is paused: re-enable it, or start a new session for the role?", "detail": "Its last four wakes were cut off a few minutes in by its session restarting, before any work landed; nothing was harmed. It paused itself, as WAKE.md says, and did not hold the team. A new session (the H1 handover) avoids the same session failing again.", "options": ["Re-enable the task", "New session for the developer", "Leave it paused for now"], "recommend": "A new session: the fault is in that session, not the work."},
+  {"id": "Sample", "ask": "The ten pages: share once security confirms the one late number", "options": ["Noted"]}
+ ],
+ "sections": [{"title": "Since 23:24", "items": [
+  "security: the sample clear on all six checks, line 98 confirmed; one later change (page 5's 182) with it now",
+  "publisher: the lab's look in the book's own build (254 pages) and the sample (13); the ink priced",
+  "the designer, publisher, storyteller, ruv.sgit and historian have Crown Quarto at sizes A and B, and the cast as characters, at their next wakes"]}],
+ "next": ["02:02; A and B at Crown Quarto, and the first character sheets, as they land"],
+ "sources": ["comms/mail/mailroom/conductor/security__013, developer__014, publisher__019", "publishing/KDP.md", "book.json INK1"]
+}

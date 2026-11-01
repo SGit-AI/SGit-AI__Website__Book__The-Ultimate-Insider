@@ -51,7 +51,7 @@ td q { font-family: Charter, 'DejaVu Serif', serif; font-style: italic; font-siz
 .team .who { font-weight: bold; }
 .team .doing { font-size: 9pt; color: #333; }
 .figs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8pt; }
-figure { margin: 0; break-inside: avoid; } figure img { width: 100%; max-height: 62mm; object-fit: contain; border: .5pt solid #ccc; }
+figure { margin: 0; break-inside: avoid; } figure.wide img { max-height: 105mm; border: none; } figure img { width: 100%; max-height: 62mm; object-fit: contain; border: .5pt solid #ccc; }
 figcaption { font-family: Inter, sans-serif; font-size: 7.5pt; color: #555; margin-top: 2pt; }
 ul { margin: 2pt 0 4pt 14pt; padding: 0; } li { margin: 1.5pt 0; }
 .src { font-size: 7.5pt; color: #666; }
@@ -110,6 +110,11 @@ def render(b):
             out.append(f"<div class='card'><span class='who'>{e(t['id'])}</span> <span class='chip c-{slug(t.get('status', ''))}'>{e(t.get('status', ''))}</span>"
                        f"<div class='doing'>{e(t.get('doing', ''))}</div><div class='src'>{e(t.get('key', ''))}</div></div>")
         out.append("</div>")
+    for i in b.get("wide", []):                                  # a full-width picture (a chart), before the sections
+        src = img(i["path"])
+        if src:
+            out.append(f"<h2>{e(i.get('title', ''))}</h2><figure class='wide'><img src='{src}' alt='{e(i.get('caption', ''))}'>"
+                       f"<figcaption>{e(i.get('caption', ''))}</figcaption></figure>")
     for sec in b.get("sections", []):
         out.append(f"<h2>{e(sec['title'])}</h2>")
         if sec.get("text"):

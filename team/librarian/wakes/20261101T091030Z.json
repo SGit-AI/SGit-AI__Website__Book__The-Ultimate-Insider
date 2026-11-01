@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, idle at 09:09 and 17:09 London",
+ "started": "2026-11-01T09:10:30Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "1) Own task back to active, 9 */2 (WAKE.md Cadence 4; Q6 amended), update_trigger on my own task only; status.json cadence active. 2) check_sources.py on manuscript/sample/first-ten-pages.md (RC2's first pages), the rerun dated in issue 002, findings by letter librarian__010 to the conductor with outbox copy. 3) voice_scan.py on the sample, results in team/librarian/voice/rc2-sample-voice.md; chapter entries for the sample if it has a sources list; debrief, status. The sample is not edited.",
+   "at": "2026-11-01T09:11:09Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "Inside policy; the sample is read only; update_trigger on its own task for Cadence 4 is allowed and creates no task. No secrets, no stop condition, no cross-member harm.",
+   "at": "2026-11-01T09:11:21Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Own task back to active (9 */2), Cadence 4. check_sources.py and chapter_entries.py read RC2's inline sources lines (controls: 3 of 3 inline faults, 8 of 8 old, RC1 unchanged); the sample clean, images resolve; index/chapters/first-ten-pages.md; voice scan 0 hits, 0 third person (voice/rc2-sample-voice.md); letter librarian__010 and outbox; issue 002; debrief; status.",
+   "at": "2026-11-01T09:12:42Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Only team/librarian, index, its comms and mailroom letter; manuscript/ unchanged; no keys, tokens, personal details or directives; the task change is its own, idle to active per Cadence 4; validate, agents check and vault_check clean.",
+   "at": "2026-11-01T09:14:01Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "All three items done: cron to 9 */2 and cadence active; the sample's sources checked, letter librarian__010 and outbox, issue 002; voice report, chapter entry, debrief, status. Extra, in scope: the two tools read RC2's inline sources form.",
+   "at": "2026-11-01T09:14:01Z"
+  }
+ },
+ "closed": "2026-11-01T09:14:01Z",
+ "outcome": "ok"
+}

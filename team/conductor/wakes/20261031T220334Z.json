@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake",
+ "started": "2026-10-31T22:03:34Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. Letter to security (conductor__024): line 98 as reworded, yes or a correction. 2. Replies researcher 016 (__032), publisher 018 (__035, ink next wake), designer 040 (__022, LAB 22 id noted), designer 042 (__023, the gate worked, in the brief). 3. All five to done. 4. The colour lab-look sample to the editor, not to share yet: one reworded line awaits security's yes. 5. Brief 26. 6. status.json. vault_check.",
+   "at": "2026-10-31T22:04:24Z"
+  },
+  "pre_review": {
+   "by": "security pre-review sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope. Conditions: the colour sample to the editor only, not to share yet, the reworded line flagged; the designer's skipped step reported plainly (gate worked, member lapsed, a repeat means stop); no keys, contacts or blind-repo content; nothing decided for him; vault_check.",
+   "at": "2026-10-31T22:04:49Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "As planned: security 024 (line 98 for a yes); replies researcher 032, publisher 035, designer 022 and 023; all five to done; the colour lab-look sample to the editor, not to share yet; brief 26 (with the designer's skipped step kept in); status.json. vault_check clean, gate 0, scope 0 outside.",
+   "at": "2026-10-31T22:05:44Z"
+  },
+  "post_review": {
+   "by": "security post-review sub-agent",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Gate 0; scope 0 outside; vault_check clean; no key, contact or em-dash; brief 26 holds the sample until security confirms line 98; the skipped step stated plainly; claims match the letters; nothing decided for him.",
+   "at": "2026-10-31T22:06:33Z"
+  },
+  "post_check": {
+   "by": "conductor post-check sub-agent",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "All six items done; nothing unplanned. (The pre-review conditions were checked by the post-review, not this step.)",
+   "at": "2026-10-31T22:06:34Z"
+  }
+ },
+ "closed": "2026-10-31T22:06:34Z",
+ "outcome": "ok"
+}

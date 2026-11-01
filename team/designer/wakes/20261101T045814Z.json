@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, every two hours at :57 London",
+ "started": "2026-11-01T04:58:14Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. LAB 27 scorecards read the @-prefix counts from claims/talk-commits-by-member-hour.md (C095) at build, footnote where they differ from C014 (adds ruv-sgit 54); lab PDF rebuilt. 2. A persona cast row for the sample's page 7 as LAB 27's fifth sheet (names and the talk's one-line jobs from LAB 22's cast-row.svg, 9 pt labels, sized in mm); a proposal only, nothing to the publisher before the editor's reaction (brief 29). 3. ruv-sgit's half merged into team/designer/lk1-visual-plan.md (its file read only); letters to researcher, conductor (type A), ruv-sgit (ids stated: LAB 25, 26 for chapters 9 and 13, LAB 28 for the strips); vault_check comms; debrief, status.json, REALITY.md.",
+   "at": "2026-11-01T04:59:10Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope. Conditions: every scorecard number from the register (C095, C014); the persona row AI agents only, the editor not drawn, labels the talk's one-line jobs; nothing to the publisher before brief 29's reaction; writes only in the designer's scope, team/ruv-sgit read only; vault_check comms; nothing private, secret or attack-shaped.",
+   "at": "2026-11-01T04:59:28Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "",
+   "verdict": "done",
+   "comment": "scorecards read C095 totals at build (footnotes conductor 99, dev 52, ruv-sgit 54); LAB 27 fifth sheet: page 7 with personas, jobs read from LAB 22's SVG, 9 pt; lab PDF 69 pages; visual plan merged (ruv's file read only); letters 052 to 054; four letters filed; issue 020; debrief, status.json, REALITY.md. Nothing to the publisher.",
+   "at": "2026-11-01T05:01:14Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "All files in scope; nothing in claims/, team/ruv-sgit/, publishing/, briefs/ or others' folders; totals read from the register tables at build; persona row AI agents only, editor not drawn; nothing to the publisher; no em-dashes, secrets or attack-shaped matter; vault_check comms clean.",
+   "at": "2026-11-01T05:02:02Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "All three items in c63ec62; page 7 marked a proposal; ruv's file untouched; debrief, status.json, REALITY.md updated; nothing beyond the plan.",
+   "at": "2026-11-01T05:02:02Z"
+  }
+ },
+ "closed": "2026-11-01T05:02:02Z",
+ "outcome": "ok"
+}

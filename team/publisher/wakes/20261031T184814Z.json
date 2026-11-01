@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled, every two hours at :47 London",
+ "started": "2026-10-31T18:48:14Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. The talk's repository cloned read-only into the scratchpad; letters and outline read. 2. manuscript/sample/ (ten pages in the editor's voice, its own Book.txt), QR codes made locally to public sites only; images only from manuscript/resources/images/, each checked by eye; no participant, no key or vaults page, no em-dashes, an id on every number; built with the sample stamp, checked. 3. Letters to the conductor, security, synthetic and the researcher; board 008, debrief, status; pull, push dev.",
+   "at": "2026-10-31T18:48:56Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside scope; the talk's repository read-only; nothing to Cold-Read. Conditions: no G1 branding, no D12 choice; QR codes to public URLs only; no key, read key, token or vault text in quotes or screenshots; vault_check comms; no briefs edits; no em-dashes.",
+   "at": "2026-10-31T18:49:13Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "T10: manuscript/sample/ (ten pages in the editor's voice, own Book.txt, images copied from the repository's own screenshots, checked; QR codes to the two public sites); every number from the sheet; built with the stamp (12 pages), looked at; letters to conductor, security, synthetic, researcher; board 008, debrief, status.",
+   "at": "2026-10-31T18:53:05Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "partial",
+   "comment": "Done: the ten pages in order, own Book.txt, ids, no em-dashes, no key page, QR codes to public sites; letters; board, debrief, status. Deviations: images from index/talk-site/shots (the librarian's, copied), not manuscript/resources as planned; the outline's drawings (page 5 timeline, page 8 loop, page 10 map, page 9 QR) not made: the designer's per the outline, now asked by letter.",
+   "at": "2026-10-31T18:54:12Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "0 outside scope; vault_check and gate clean; no em-dashes; the four screenshots show only public site pages (no key, token, contact or person but the editor); no model named, no G1 branding or D12 choice; security__001's conditions met, the safety line in step 1. QR codes not decoded by the reviewer; generated from the two public addresses in the build step.",
+   "at": "2026-10-31T18:54:27Z"
+  }
+ },
+ "closed": "2026-10-31T18:54:27Z",
+ "outcome": "partial"
+}

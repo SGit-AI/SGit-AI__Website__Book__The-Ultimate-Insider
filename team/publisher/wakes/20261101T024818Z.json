@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled, every two hours at :47 London",
+ "started": "2026-11-01T02:48:18Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. Letters 039 and 040 answered; board 003's voice read paused, findings 014-016 kept. 2. Designer 046: its CSS line appended to publishing/lab-look.css; the four sized SVGs copied from lab/experiments/22-designer-t10-drawings/ into manuscript/sample/images/; the sample rebuilt, labels checked at 9 pt; the change to security first; the outer-column tile rule noted on board 009, not built. 3. Reply to the designer, boards 003, 009, 010, debrief, status.",
+   "at": "2026-11-01T02:48:48Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope; lab/ copied from, never edited; the tile rule only noted. Conditions: vault_check comms; no em-dashes.",
+   "at": "2026-11-01T02:49:03Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Letters 039, 040 answered; voice read paused (board 003); designer 046's CSS line in lab-look.css, the four sized SVGs copied from lab/ into the sample, rebuilt A and B, page 7 looked at; security told first; tile rule on board 009; debrief, status.",
+   "at": "2026-11-01T02:49:42Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "1) 039, 040 answered; board 003 paused, findings kept. 2) 046's CSS line; the four SVGs sized; tile rule noted on board 009, not built. 3) Replies, boards, debrief, status. Security's letter (publisher__004) and the rebuild are in the diff and the session; no unplanned changes.",
+   "at": "2026-11-01T02:50:39Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "The four SVGs byte copies of LAB 22, no link, script or name; 0 outside scope; lab/ untouched; no keys, contact details or em-dashes; vault_check and gate clean (367); security told first (publisher__004).",
+   "at": "2026-11-01T02:50:58Z"
+  }
+ },
+ "closed": "2026-11-01T02:50:58Z",
+ "outcome": "ok"
+}

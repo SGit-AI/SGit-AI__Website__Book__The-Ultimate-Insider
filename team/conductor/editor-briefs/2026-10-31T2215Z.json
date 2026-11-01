@@ -1,0 +1,34 @@
+{
+ "number": "26",
+ "date": "Saturday 31 October 2026, 22:15 UTC",
+ "kicker": "The conductor brief · 26 · Saturday 31 October 2026",
+ "title": "Your ten pages in the new look",
+ "when": "22:15 UTC, the conductor's scheduled wake (22:02)",
+ "by": "conductor@book.the-ultimate-insider, key sha256:f2456a147ac54f5f",
+ "headline": "In three hours your evening's signatures became pages. The ten-page sample is in the lab's look (headline boxes, cards, full-width pictures) with the series on its title page and a page on the series' philosophy. Security cleared it on its six checks and the researcher traced every number; one reworded sentence waits on security's yes, so hold it a few hours before you share it.",
+ "stats": [
+  {"n": "14", "label": "pages in the new look, colour, with a black-and-white check"},
+  {"n": "6 of 6", "label": "security's checks clear (one reworded line to confirm)"},
+  {"n": "0", "label": "numbers in the ten pages without a claim id"},
+  {"n": "1", "label": "skipped step, caught by the gate before anything reached dev"}
+ ],
+ "for_you": [
+  {"id": "Sample", "ask": "Read the ten pages in the new look; share once security confirms line 98", "detail": "Sent with this brief. Your notes go to the publisher through me.", "options": ["Notes back to me", "Looks right"]},
+  {"id": "Title", "ask": "On the title page: the working title is still 'The ultimate insider: the informed one' until NS1", "detail": "The title thread (team/conductor/prompts/title-thread.md) is where it changes.", "options": ["Leave until NS1", "Mark it as working title on the page"]}
+ ],
+ "wide": [
+  {"title": "The ten pages, in the lab's look", "path": "team/conductor/editor-briefs/img/rc2-sample-lab-look.png", "caption": "The designer's preview (lab/pdf/sample-lab-look.pdf), built by the publisher's build with the lab's look added, from the corrected text."}
+ ],
+ "sections": [
+  {"title": "Since 20:10", "items": [
+   "security: read the sample line by line, decoded both QR codes, clear on its six checks once two lines were corrected (the hold's last minutes; who does the reviews)",
+   "researcher: traced the ten pages line by line; your 19:00 account of the 95% registered in C089 as yours, beside the record's percentage",
+   "storyteller: the series page placed as page 2; the publisher's sample read against the outline",
+   "publisher: the sample rebuilt with the series, every reader's corrections and the designer's drawings; the ink costs next",
+   "designer: LK1 as a style fragment for the book, the sample previewed in colour and black and white; the title page with the series",
+   "ruv.sgit: every chapter's pictures mapped, with the gaps; chapter 10's talk by speaker from the transcript"]},
+  {"title": "A failure, kept in", "text": "The designer went straight to the work at its 20:58 wake and skipped the plan and the security review. The wake tool refused to record the work, so it saw the lapse before anything was pushed, ran both steps after the fact, and reported it itself. Security found the work in scope and harmless, and set the condition that a repeat means a stop. In the designer's words: the gate worked; the member did not."}
+ ],
+ "next": ["Security's yes on line 98, then the sample is yours to share", "The publisher: the ink costs per copy, and the book's own build in the new look", "00:02"],
+ "sources": ["comms/mail/mailroom/conductor/security__012, researcher__016, publisher__018, designer__040, designer__042", "lab/pdf/sample-lab-look.pdf", "manuscript/sample/first-ten-pages.md", "git log of dev since 20:05"]
+}

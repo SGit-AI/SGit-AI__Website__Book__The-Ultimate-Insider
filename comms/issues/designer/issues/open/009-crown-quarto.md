@@ -7,3 +7,5 @@ source: the editor in the designer's session, 31 October 2026, about 00:45 UTC
 # The book at Crown Quarto
 
 The editor's words relayed to the conductor (`designer__012`, the trim; `designer__017`, the 0.625 in gutter) and the publisher (`designer__013`, `designer__018`). Mine: the study's Crown Quarto PDF and the book-page rule in `lab/README.md`, done. Next: figures drawn for a 164 mm text block, and a CSS fragment for the publisher if asked.
+
+1 November 2026: P2 signed (conductor__024). The ten pages at Crown Quarto in type A and B for the editor: `lab/pdf/sample-lab-look-A.pdf`, `-B.pdf` (`lab/tools/book/compare_types.py`). His page 7 note answered: drawings print at their stated size, labels at 9 pt (`designer__045`, `designer__046`). Next: drawings redrawn for the full 164 mm where a page wants them wider.

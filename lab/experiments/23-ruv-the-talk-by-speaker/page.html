@@ -1,0 +1,186 @@
+<!doctype html><html lang="en-GB"><head><meta charset="utf-8"><title>The talk as given, by speaker</title><style>/* The lab's one stylesheet: every rule here is written out in lab/README.md. */
+:root {
+  --ink: #1f2933; --muted: #5b6670; --fill: #eef2f6; --fill-2: #d5dce4;
+  --accent: #b0481a; --tint: #f6e1d4; --paper: #ffffff;
+  --sans: Inter, Helvetica, Arial, "DejaVu Sans", sans-serif;
+  --mono: "DejaVu Sans Mono", Menlo, monospace;
+}
+@page { size: A4; margin: 0 }
+* { box-sizing: border-box }
+html, body { margin: 0; background: var(--paper); color: var(--ink); font: 400 10pt/14pt var(--sans);
+  -webkit-print-color-adjust: exact; print-color-adjust: exact; font-variant-numeric: tabular-nums }
+p { margin: 0 0 4mm }
+.page { width: 210mm; height: 297mm; position: relative; padding: 16mm; overflow: hidden; page-break-after: always; break-after: page }
+.page:last-child { page-break-after: auto; break-after: auto }
+.block { height: 255mm; overflow: hidden }
+.foot { position: absolute; left: 16mm; right: 16mm; bottom: 8mm; display: grid; grid-template-columns: 1fr auto 1fr;
+  font: 400 9pt/12pt var(--sans); color: var(--muted); border-top: .3mm solid var(--fill-2); padding-top: 1.5mm }
+.foot .mid { font-weight: 700; color: var(--ink); letter-spacing: .06em }
+.foot .r { text-align: right }
+.claims { position: absolute; right: 16mm; bottom: 15mm; font: 400 9pt/12pt var(--mono); color: var(--muted) }
+.mono, .src, .t-mono { font-family: var(--mono) }
+
+/* the experiment header */
+.head { background: var(--fill); border-top: 1.2mm solid var(--accent); padding: 5mm 6mm 4mm; margin-bottom: 8mm }
+.head .id { font: 800 9pt/12pt var(--sans); letter-spacing: .12em; color: var(--accent) }
+.head h1 { font: 800 22pt/26pt var(--sans); margin: 1mm 0 4mm; letter-spacing: -.01em }
+.head dl { display: grid; grid-template-columns: 26mm 1fr; gap: 2mm 4mm; margin: 0 }
+.head dt { font: 700 9pt/13pt var(--sans); text-transform: uppercase; letter-spacing: .06em; color: var(--muted) }
+.head dd { margin: 0; font: 400 9.5pt/13pt var(--sans) }
+.head dd ul { margin: 0; padding-left: 4mm }
+.head dd .mono { font-size: 9pt }
+.verdict { display: flex; gap: 6mm; align-items: center; margin-top: 3mm; font: 700 9.5pt/13pt var(--sans) }
+.verdict .box { display: inline-block; width: 4.5mm; height: 4.5mm; border: .4mm solid var(--ink); background: var(--paper); vertical-align: -1mm; margin-right: 1.5mm }
+.verdict .note { flex: 1; border-bottom: .3mm solid var(--muted); height: 5mm; font-weight: 400; color: var(--muted) }
+
+/* the cover */
+.cover h1 { font: 800 30pt/34pt var(--sans); margin: 40mm 0 4mm; letter-spacing: -.01em }
+.cover .rule { width: 18mm; height: 1.2mm; background: var(--accent); margin-top: 40mm }
+.cover .sub { font: 400 14pt/18pt var(--sans); color: var(--muted); margin-bottom: 16mm }
+.cover table { border-collapse: collapse; width: 100% }
+.cover td, .cover th { text-align: left; padding: 2mm 2mm; border-bottom: .3mm solid var(--fill-2); font-size: 10pt; vertical-align: top }
+.cover th { font: 700 9pt/12pt var(--sans); text-transform: uppercase; letter-spacing: .06em; color: var(--muted) }
+.cover .how { margin-top: 10mm; color: var(--muted); font-size: 9.5pt; line-height: 13pt; max-width: 131mm }
+
+/* figures */
+.fig { margin: 0 0 7mm }
+.fig-title { font: 700 11pt/14pt var(--sans); margin: 0 0 3mm }
+.fig-title::before { content: ""; display: block; width: 12mm; height: .9mm; background: var(--accent); margin-bottom: 2mm }
+figcaption { font: 400 9pt/12pt var(--sans); color: var(--ink); margin-top: 2.5mm }
+figcaption .src { display: block; color: var(--muted); font-size: 9pt }
+svg { display: block; width: 100%; height: auto }
+.svg-label { font: 400 3.18px var(--sans); fill: var(--ink) }
+.svg-label.b { font-weight: 700 }
+.svg-label.inv { fill: #ffffff; font-weight: 700 }
+.svg-label.acc { fill: var(--accent); font-weight: 700 }
+
+/* swatches: the colour, then the same colour as grey */
+.swatches { display: grid; grid-template-columns: repeat(6, 1fr); gap: 4mm }
+.sw { display: grid; grid-template-columns: 1fr 1fr; gap: 1mm; font-size: 9pt; line-height: 12pt }
+.sw i { display: block; height: 16mm; border: .3mm solid var(--fill-2) }
+.sw i.g { filter: grayscale(1) }
+.sw b, .sw span { grid-column: 1 / 3 }
+.sw span { color: var(--muted) }
+
+/* the type scale */
+.scale .row { display: grid; grid-template-columns: 38mm 1fr; align-items: baseline; border-bottom: .3mm solid var(--fill); padding: 1.6mm 0 }
+.scale .lbl { font: 400 9pt/12pt var(--mono); color: var(--muted) }
+.t-title { font: 800 22pt/26pt var(--sans) }
+.t-h { font: 700 14pt/18pt var(--sans) }
+.t-body { font: 400 10pt/14pt var(--sans) }
+.t-co { font: 400 9.5pt/13pt var(--sans) }
+.t-cap { font: 400 9pt/12pt var(--sans); color: var(--muted) }
+.t-mono { font-size: 9pt; line-height: 12pt }
+.t-num { font: 800 28pt/30pt var(--sans) }
+
+/* the worked page */
+h2 { font: 700 14pt/18pt var(--sans); margin: 0 0 4mm }
+.cols-9-3 { display: grid; grid-template-columns: 131mm 43mm; gap: 4mm }
+.callout { border-left: 3pt solid var(--accent); background: var(--fill); padding: 3mm 4mm; margin: 0 0 5mm }
+.callout.concept { border-left-color: var(--ink) }
+.callout.warning, .callout.try { background: var(--tint) }
+.callout .kind { font: 700 9pt/12pt var(--sans); text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 0 0 1mm }
+.callout .co-title { font: 700 10pt/14pt var(--sans); margin: 0 0 1mm }
+.callout .co-text { font: 400 9.5pt/13pt var(--sans); margin: 0 }
+.rail .tile { border-top: 1.2mm solid var(--accent); padding-top: 2mm; margin-bottom: 8mm; font-size: 9pt; line-height: 12pt }
+.rail .tile b { display: block }
+.rail .tile .cid { display: block; font-family: var(--mono); color: var(--muted); margin-top: 1mm }
+.char { margin-bottom: 6mm }
+.char svg { width: 20mm }
+.char .who { font: 700 9pt/12pt var(--sans); font-variant: small-caps; letter-spacing: .04em; margin: 1mm 0 1mm }
+.bubble { position: relative; background: var(--fill); border-radius: 3mm; padding: 2mm 3mm; font: 400 9.5pt/13pt var(--sans); margin: 0 }
+.bubble::before { content: ""; position: absolute; left: 5mm; top: -2mm; border: 1mm solid transparent; border-bottom: 1mm solid var(--fill); border-width: 0 1.5mm 2mm }
+.bubble.placeholder { color: var(--muted); font-style: italic; border: .3mm dashed var(--muted) }
+.cast { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8mm }
+.cast svg { width: 34mm }
+.cast .who { font: 700 10pt/14pt var(--sans); font-variant: small-caps; letter-spacing: .04em; margin: 2mm 0 1mm }
+
+/* three frames: a source image cropped below its own headline, its beat beside it */
+.frames .frame { display: grid; grid-template-columns: 100mm 1fr; gap: 5mm; margin-bottom: 4mm; align-items: start }
+.frames .crop { width: 100mm; aspect-ratio: 16 / 7.38; overflow: hidden; border: .3mm solid var(--fill-2) }
+.frames .crop img { width: 100%; display: block; margin-top: -9.84% }
+.beat .t-num { display: block; color: var(--ink) }
+.beat .step { font: 700 9pt/12pt var(--sans); text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 0 0 2mm }
+.beat .words { font: 700 11pt/14pt var(--sans); margin: 0 0 2mm }
+.beat .words .a { color: var(--accent) }
+.beat .see { font: 400 9pt/12pt var(--sans); color: var(--muted); margin: 0 }
+.src-line { font: 400 9pt/12pt var(--sans); color: var(--muted) }
+
+/* the condensed storyboard: a 4 x 2 strip, and one frame at full size */
+.sb { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4mm 4mm }
+.sbc img { width: 100%; display: block; border: .3mm solid var(--fill-2) }
+.sbh { font: 400 9pt/12pt var(--sans); margin: 1mm 0 0 }
+.sbh b { color: var(--accent); margin-right: 1mm }
+.sbt { font-size: 9pt; line-height: 12pt; color: var(--muted); margin: 0 }
+.sbq { font: italic 9pt/12pt var(--sans); margin: .5mm 0 0 }
+.sbcost { font: 400 9.5pt/13pt var(--sans); background: var(--fill); padding: 2mm 3mm; margin: 4mm 0 0 }
+.sbfull { display: grid; grid-template-columns: 96mm 1fr; gap: 5mm; align-items: start }
+.sbfull img { width: 96mm; display: block; border: .3mm solid var(--fill-2) }
+.sbm { font: 400 9pt/12pt var(--sans); margin: 1.5mm 0 0 }
+.sbm.muted { color: var(--muted) }
+
+/* the two-panel cartoon: a title, a scene with the cast beside it, a caption */
+.panel { border-top: 1.2mm solid var(--accent); padding-top: 2mm; margin-bottom: 6mm; break-inside: avoid }
+.ptitle { font: 700 12pt/16pt var(--sans); margin: 0 0 2mm }
+.ptitle b { color: var(--accent); margin-right: 2mm }
+.pgrid { display: grid; grid-template-columns: 116mm 1fr; gap: 5mm; align-items: start }
+.pgrid .char svg { width: 18mm }
+.pcap { font: 400 10pt/14pt var(--sans); margin: 2mm 0 0 }
+.scene { width: 116mm; background: var(--fill); border-radius: 2mm }
+.svg-label.mono { font-family: var(--mono) }
+.svg-label.mu { fill: var(--muted) }
+
+/* LAB 09: the timeline component's example page */
+.timeline { display: block; margin: 0 0 1mm }
+.tl-two { display: grid; grid-template-columns: auto 1fr; gap: 6mm; align-items: start }
+.tl-spec pre { font-size: 9pt; line-height: 12pt; background: var(--fill); padding: 2mm 3mm; margin: 0 0 3mm; white-space: pre }
+.tl-spec p { font-size: 9.5pt; line-height: 13pt }
+.tl-spec .muted { color: var(--muted) }
+
+/* LAB 11: a character sheet */
+.sheetchar { display: grid; grid-template-columns: 52mm 1fr; gap: 6mm; align-items: start; margin-bottom: 5mm }
+.sheetchar .big svg { width: 52mm }
+.spec { border-collapse: collapse; width: 100%; font-size: 9.5pt; line-height: 13pt }
+.spec td { border-bottom: .3mm solid var(--fill-2); padding: 1mm 2mm; vertical-align: top }
+.spec td:first-child { font-weight: 700; width: 18mm }
+.poses { display: grid; grid-template-columns: repeat(3, 1fr); gap: 5mm; margin-bottom: 5mm }
+.poses svg { width: 30mm }
+.poses .who { font: 700 10pt/14pt var(--sans); font-variant: small-caps; margin: 1mm 0 }
+.sizes { display: grid; grid-template-columns: 50mm 40mm 1fr; gap: 5mm; align-items: end; margin-bottom: 4mm }
+.sizes svg { width: 100% }
+.poses, .sizes, .sheetchar { break-inside: avoid }
+
+/* the map with side notes: markers over the map image, the notes in the column beside it */
+.mapnotes { display: grid; grid-template-columns: auto 1fr; gap: 5mm; align-items: start; break-inside: avoid }
+.mn-map { position: relative }
+.mn-map img { width: 100%; display: block; border: .3mm solid var(--fill-2) }
+.mk { position: absolute; transform: translate(-50%, -50%); width: 4.6mm; height: 4.6mm; border-radius: 50%; background: var(--accent);
+  color: #fff; font: 800 9pt/4.6mm var(--sans); text-align: center }
+.mn-notes { list-style: none; margin: 0; padding: 0 }
+.mn-notes li { font: 400 9pt/12pt var(--sans); margin: 0 0 2.5mm }
+.mn-notes li b { display: inline-block; width: 4.6mm; height: 4.6mm; border-radius: 50%; background: var(--accent); color: #fff; text-align: center; line-height: 4.6mm; margin-right: 1.5mm }
+.mn-notes .stage { display: block; color: var(--muted) }
+
+/* LAB 18: the sample's opening spread, and the cover sketch */
+.ph { font: 700 9pt/12pt var(--sans); color: var(--accent); border: .3mm dashed var(--accent); padding: 1mm 2mm; margin: 0 0 4mm; display: inline-block }
+.hero { width: 100%; display: block; margin: 0 0 6mm; border: .3mm solid var(--fill-2) }
+.bigline { font: 800 22pt/27pt var(--sans); letter-spacing: -.01em; margin: 0 0 4mm }
+.bigline .acc { color: var(--accent) }
+.chno { font: 800 54pt/54pt var(--sans); color: var(--accent); margin: 4mm 0 0 }
+.chtitle { font: 800 26pt/30pt var(--sans); margin: 1mm 0 1mm }
+.chtime { font: 700 12pt/16pt var(--mono); color: var(--muted); margin: 0 0 5mm }
+.lede { font: 400 12pt/17pt var(--sans) }
+.coverwrap { display: grid; grid-template-columns: 104mm 1fr; gap: 5mm; align-items: start }
+.coverwrap > div { min-width: 0; overflow-wrap: break-word }
+.coverimg { width: 104mm; display: block }
+.coverwrap .muted { color: var(--muted); font-size: 9.5pt; line-height: 13pt }
+
+/* LAB 22: drawings shown at the size they print in the sample */
+.t10 svg { width: 120mm; max-width: none; display: block }
+</style></head><body><section class="sheet" style="page: plab23"><div class="head"><div class="id">LAB 23</div><h1>The talk as given, by speaker</h1><dl><dt>Tries</dt><dd>For chapter 10 and the editor's LK1 (an infographic-driven book): the talk's 102 passages as one strip across the page, shaded by who spoke, so a reader sees at a glance how long the editor spoke, where the room came in, and the three parts.</dd><dt>Made from</dt><dd><ul><li>the talk repository's <span class="mono">team/conductor/talk-record/transcript.json</span> at <span class="mono">a9c0b49</span> (added after the day, read only): start times and speaker classes only</li><li><span class="mono">claims/register.json</span> C069 (the passages, by speaker; about 87 minutes)</li></ul></dd><dt>The question</dt><dd>Does the strip carry chapter 10's shape (a long talk, the room joining in) better than its screenshots? Should the beats be marked as well?<div class="verdict"><span><i class="box"></i>keep</span><span><i class="box"></i>change</span><span><i class="box"></i>drop</span><span class="note">note</span></div></dd></dl></div>
+ <figure class="fig span12">
+  <p class="fig-title">The talk as given: who spoke, minute by minute</p>
+  <img src="./strip.svg" alt="The talk's 102 passages as a strip shaded by speaker, with its three parts" style="width:100%;display:block">
+  <figcaption><b>About 87 minutes, 102 passages: 83 the editor's, 18 from the room, 1 the host's (C069). The room spoke during the talk as well as after it.</b> <span>A dot above the strip marks a block of speech in which a beat of the script was first heard; beats first heard in the same block share a dot, and the 12 beats the recording does not reach have none (C097).</span><span class="src">The talk repository's team/conductor/talk-record/transcript.json at a9c0b49, added after the day and generated from the recording (C069); only each passage's start time and speaker class are read, no words and no names. Passages that share a start time share its interval.</span></figcaption>
+ </figure>
+<div class="claims">C069 · C097</div></section></body></html>

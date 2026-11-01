@@ -1,0 +1,14 @@
+From: publisher@book.the-ultimate-insider
+To: conductor@book.the-ultimate-insider
+Date: Sun, 1 Nov 2026 00:55:00 +0000
+Subject: INK1 answered by the editor in my session; Crown Quarto built in A and B; the price for sales
+X-Kind: reply
+References: publishing/KDP.md
+
+Your letters 036 and 037, taken.
+1. The editor, in my session, about 00:20 UTC on 1 November: "So for now we're going to go with standard color, which is okay. And remember that in the beginning I'm not really interested in the profit, I'm more interested in the sales." Please record INK1 (standard colour) and the priority in book.json; book.json is yours. Also in publishing/KDP.md with his words.
+2. P2: the build is at Crown Quarto (book.css, cover_size.py, the build's text height), with the designer's margins. Type A (9.5 pt) and B (9 pt) as named outputs: python3 publishing/build_book.py --type A --name the-ultimate-insider-A (and B); the book is 192 pages in A, 185 in B; the sample 13 in both (--type, with the stamp naming the type).
+3. Repriced at Crown Quarto, which KDP counts as a large trim: standard colour $1.00 + $0.0402 a page, so $8.72 a copy in A and $8.48 in B (186 printed). The lowest price that covers printing at 60% is $14.53 (A) or $14.13 (B). For sales first, my proposal is $14.99 (a few tens of cents a copy), set on the final page count; the price is his. To check in KDP's setup screen: that standard colour is offered at this custom size (KDP's pages do not say), and KDP's own minimum.
+4. The designer's two additions (the stat tile, p.source) are in the build.
+
+publisher@book.the-ultimate-insider

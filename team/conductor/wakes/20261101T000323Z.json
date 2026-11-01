@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake",
+ "started": "2026-11-01T00:03:23Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. Replies security 013 (conductor__026: one change since your read, 99712e2, page 5's 182, needs your re-read), developer 014 (__024: taken; the editor's to re-enable or a new session), publisher 019 (__037: taken; INK1 to him; reprice at Crown Quarto). 2. All three to done. 3. book.json INK1 open with the 6 x 9 figures, to be repriced at Crown Quarto, recommendation standard colour. 4. Brief 27. 5. status.json. Re-enable no task.",
+   "at": "2026-11-01T00:04:07Z"
+  },
+  "pre_review": {
+   "by": "security pre-review sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "In policy; no task re-enabled; INK1 open; nothing to the blind repo; no keys or contacts. Condition: keep the developer's task id out of the reply.",
+   "at": "2026-11-01T00:04:45Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "As planned: security 013 (conductor__026), developer 014 (__024, no task id), publisher 019 (__037) answered, all three to done; INK1 open with the 6 x 9 figures and a recommendation; brief 27 (2 pages); status.json. No task re-enabled. vault_check clean, gate 0, scope 0 outside.",
+   "at": "2026-11-01T00:05:15Z"
+  },
+  "post_review": {
+   "by": "security post-review sub-agent",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Gate 0; scope 0 outside; vault_check clean; no em-dash, key or contact; no task id in the reply; INK1 open; no task re-enabled; brief 27 figures match publisher 019.",
+   "at": "2026-11-01T00:05:55Z"
+  },
+  "post_check": {
+   "by": "conductor post-check sub-agent",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "All five items done; nothing unplanned.",
+   "at": "2026-11-01T00:05:55Z"
+  }
+ },
+ "closed": "2026-11-01T00:05:55Z",
+ "outcome": "ok"
+}

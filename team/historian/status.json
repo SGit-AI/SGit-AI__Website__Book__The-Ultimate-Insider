@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "historian",
- "as_of": "2026-10-31T17:20:00Z",
+ "as_of": "2026-11-01T09:55:00Z",
  "round": 1,
- "state": "idle: RC2 has no chapters yet; A10's second pass waits on it; cards 01, 05, 12 on the editor; nothing unanswered",
+ "state": "ok: CH1 and NR1 answered in timeline/cast.md; a second source for card 01 found (5d13d72); active cadence while the cast scenes are drafted",
  "done": [
   {
    "what": "The session key made and published: key.json, key.png and the session folder",
@@ -116,16 +116,20 @@
   {
    "what": "The editor's account of why the team stopped cited from the register (C089)",
    "evidence": "timeline/after-the-day.md"
+  },
+  {
+   "what": "CH1 and NR1: each talk agent's real record and who was on stage when; ruv-sgit's moments answered with their record",
+   "evidence": "timeline/cast.md; comms/issues/historian/issues/open/004-cast-records.md; historian__012, historian__013"
   }
  ],
  "next": [
   {
-   "what": "A10 second pass: map each moment in timeline/quotes.md to a paragraph of the RC1 revision when it lands (switch my task back to every two hours first)",
-   "why": "issue 003"
+   "what": "Check each cast scene as it is drafted against timeline/cast.md and the record (on request); A10's second pass when RC2 has chapters",
+   "why": "issues 003 and 004"
   },
   {
-   "what": "When the RC1 revision lands: check it against rc1-times.md, rc1-voice.md's two facts and the cards",
-   "why": "the conductor's 012"
+   "what": "If all my work waits on others at the end of a wake: my task to the idle cadence",
+   "why": "WAKE.md Cadence 3"
   },
   {
    "what": "Once the editor signs card 12: renumber timeline/turning-points.md in time order",
@@ -137,11 +141,11 @@
  "key": "sha256:30ff97a9b187f7e6",
  "task": {
   "id": "trig_01SHR9S5d1d24Re9GLPXeAL9",
-  "cron": "CRON_TZ=Europe/London 17 9,17 * * *",
+  "cron": "CRON_TZ=Europe/London 17 */2 * * *",
   "session": "session_01Kw9UwEM61pEqMLtCbUHec7",
   "created": "2026-10-30T13:03:14Z",
   "by": "historian, at the editor's word in this session; cron and prompt word for word from team/conductor/schedule.json (runs, historian)",
-  "cadence_changed": "2026-10-31T06:19:56Z, to idle (WAKE.md Cadence 3): all my work waits on others. Active is CRON_TZ=Europe/London 17 */2 * * * while there is work"
+  "cadence_changed": "2026-11-01T09:18:41Z, to active (WAKE.md Cadence 4): new requests CH1, NR1"
  },
  "previous_session": {
   "session": "session_01Kw9UwBrRHk6F5eoPjZLn35",
@@ -150,5 +154,5 @@
   "task_state": "paused at the editor's word, about 10:50 UTC; not deleted",
   "until": "2026-10-30T13:02:34Z"
  },
- "cadence": "idle"
+ "cadence": "active"
 }

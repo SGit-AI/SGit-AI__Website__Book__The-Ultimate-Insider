@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, every two hours at :57 London",
+ "started": "2026-11-01T00:57:48Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, amended to three items",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. Crown Quarto A and B: preview.py passes the publisher's --type to its build on a scratch copy (publishing/ untouched); lab/pdf/sample-lab-look-A.pdf and -B.pdf, colour, SHA256SUMS lines; tiles and call-outs checked at both. 2. Page 7 note: LAB 22 drawings' text at the 9 pt floor, never above the body at print; rule in lab/README.md; LAB 23 and 24 in after a design verdict (no edit in ruv's folders); LAB 25 and 26 reserved for ruv-sgit; lab PDF rebuilt. 3. Letters to conductor, publisher (outer-column tile rule, A/B finding), ruv-sgit (verdicts, ids), storyteller (scorecard categories, personalities); board, vault_check comms, debrief, status.json, REALITY.md; stretch: the model-sheet plan in team/designer/.",
+   "at": "2026-11-01T00:58:57Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope. Conditions: no edit to preview.py (the A/B build by a new wrapper in lab/tools/book/), publishing/ untouched; nothing written in 23-ruv-* or 24-ruv-*, verdicts by mail, LAB 25 and 26 only in ids.json; characters only AI agents grounded in the record, the editor only as himself with his go, no names or hashes in drawings, scorecard values traced to claims/ or marked to be filled; vault_check comms; REALITY.md own heading only.",
+   "at": "2026-11-01T00:59:31Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "",
+   "verdict": "done",
+   "comment": "compare_types.py and the A/B PDFs (13 pages each); LAB 22 SVGs sized in mm, loop words to 9 pt, lab-look.css stops stretching sized SVGs (data: URI selector), checked on page 7; README rule; LAB 23, 24 in (63 pages), 25, 26 reserved; letters 045 to 048; four letters filed; issues 009 and 020; debrief, status.json, REALITY.md. Stretch (model-sheet plan) not done. Nothing in publishing/, ruv's folders or briefs/.",
+   "at": "2026-11-01T01:04:37Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Every path in scope; nothing in publishing/, briefs/, 23-ruv-*, 24-ruv-* or other members' folders; preview.py untouched; compare_types.py writes only lab/pdf from a scratch copy outside the repo; no secrets, contact details or em-dashes; letters benign; vault_check comms clean.",
+   "at": "2026-11-01T01:05:37Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "All three items in 34a6070; the stretch item (model-sheet plan) not done and said so; debrief, status.json, REALITY.md updated; nothing beyond the plan.",
+   "at": "2026-11-01T01:05:37Z"
+  }
+ },
+ "closed": "2026-11-01T01:05:37Z",
+ "outcome": "ok"
+}

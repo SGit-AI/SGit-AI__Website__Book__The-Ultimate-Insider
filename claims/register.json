@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-10-31T16:50:00Z",
+ "as_of": "2026-11-01T09:45:00Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -2173,11 +2173,15 @@
    "claim": "Why the team stopped: the editor's own account, given after the day, against the day's record",
    "cited_in": [
     "team/conductor/rc1/editor-review/notes.json (T12)",
-    "briefs/2026-10-31__rc1-paper-review/batch-07-pages-22-to-32.md"
+    "briefs/2026-10-31__rc1-paper-review/batch-07-pages-22-to-32.md",
+    "briefs/2026-10-31__in-session/02-g1-the-95-and-the-day-in-review.md"
    ],
    "value": {
     "day_record": "the hold at 18:44:13 gives the editor's usage at 95% as the reason, in the conductor's words (C006, C021); the locks were built and never applied (C027)",
-    "editor_31_October": "the 95% was 'just a footnote': he could have moved to another session; the main reason was that there was no tested way to take in changes during the talk, no UX to see what was new and no workflow that made sure nothing would break, 'the reason why I was thinking about let's lock V1'"
+    "editor_31_October": "the 95% was 'just a footnote': he could have moved to another session; the main reason was that there was no tested way to take in changes during the talk, no UX to see what was new and no workflow that made sure nothing would break, 'the reason why I was thinking about let's lock V1'",
+    "editor_31_October_19:00": "'The 95%, I think, was the tokens usage. That there was a token that we stopped, and there was a big thing about 95%.' (briefs/2026-10-31__in-session/02-g1-the-95-and-the-day-in-review.md, ec1ec00)",
+    "what_the_record_shows": "the hold's subject: 'the editor's usage limit is at 95%, pause all actions' (867f8c2); C021: 95% is the conductor's words reporting the editor, about a 5-hour usage window resetting at 20:20 London (C037); no usage page, no token count",
+    "what_the_record_cannot_show": "whether the 95% was of tokens, of a message allowance or of anything else: the record holds the percentage as reported and nothing it was measured in"
    },
    "state": "open",
    "source": {
@@ -2186,8 +2190,8 @@
     "evidence": "briefs/2026-10-31__rc1-paper-review/batch-07-pages-22-to-32.md, his dictated review of page 29, committed 31 October 01:48 UTC"
    },
    "method": "his words read in the brief; set beside the hold file's reason and the locks",
-   "command": "git show 49c701e:briefs/2026-10-31__rc1-paper-review/batch-07-pages-22-to-32.md | grep -o -i '.\\{100\\}just a footnote.\\{300\\}'; git show 298be4e:team/conductor/HOLD.md | head -5   # the second in the talk's repository",
-   "note": "Two accounts, both kept, as ROLE.md asks for a contradiction. The day's record gives usage as the reason for the hold; the editor, after the day, calls usage a footnote and names the missing way to take changes safely during the talk. The record supports his account in part: lock.py was built for exactly that and never applied (C027). Quote his as his, dated 31 October 2026, never as the day's record. Open: the book chooses how to tell it, and the editor signs. Registered at the conductor's letter 021 (T12), the researcher's 08:32 wake, 31 October 2026."
+   "command": "git show 49c701e:briefs/2026-10-31__rc1-paper-review/batch-07-pages-22-to-32.md | grep -o -i '.\\{100\\}just a footnote.\\{300\\}'; git show 298be4e:team/conductor/HOLD.md | head -5   # the second in the talk's repository; git show ec1ec00:briefs/2026-10-31__in-session/02-g1-the-95-and-the-day-in-review.md | grep -o -i '.\\{20\\}95%, I think.\\{100\\}'",
+   "note": "Two accounts, both kept, as ROLE.md asks for a contradiction. The day's record gives usage as the reason for the hold; the editor, after the day, calls usage a footnote and names the missing way to take changes safely during the talk. The record supports his account in part: lock.py was built for exactly that and never applied (C027). Quote his as his, dated 31 October 2026, never as the day's record. Open: the book chooses how to tell it, and the editor signs. Registered at the conductor's letter 021 (T12), the researcher's 08:32 wake, 31 October 2026. 31 October 20:40, at the conductor's letter 031: a third account, the editor's at about 19:00: the 95% was 'the tokens usage'. It agrees with the hold file (usage) and does not withdraw his account of the early hours of 31 October (batch 7, committed 01:48) that usage was a footnote to the real reason. The unit is his account; the record holds only the percentage (C021)."
   },
   {
    "id": "C090",
@@ -2225,9 +2229,18 @@
      "hf-openai-exploitgym": "'a limited set' of internal datasets and 'several' service credentials matches Hugging Face's wording as reported (RuntimeWire); its primary post not read here",
      "anthropic-irregular-evals": "15 real systems in about an hour, three organisations, 141,006 runs reviewed: as reported (aiweekly.co); Anthropic's own post not found by search"
     },
-    "frame_count_not_traced": "'In 9 of the 11' (the frame's own count; no field in the data states it)"
+    "frame_count_not_traced": "'In 9 of the 11' (the frame's own count; no field in the data states it)",
+    "primary_posts_read_1_November": {
+     "hf-openai-exploitgym": "Hugging Face: 'unauthorized access to a limited set of internal datasets and to several credentials used by our services' (holds)",
+     "anthropic-irregular-evals": "Anthropic: 'run on 15 real systems', the package available 'for roughly one hour', 141,006 runs reviewed, three incidents (holds)",
+     "anthropic-fourth-incident": "Anthropic: 'read the personal information of one person'; 'the session ended when the model exhausted its token budget' (holds)",
+     "aws-kiro-cost-explorer": "Amazon: 'user error, specifically misconfigured access controls, not AI' (holds); the 13 hours are the FT's, not in Amazon's post: keep '(FT)'",
+     "pocketos-cursor-railway": "Railway's post has no '30 hours': the figure is the founder's alone; keep 'per the founder'",
+     "replit-deletes-prod-db": "primary on X, not reachable; 1,206 consistent across reports; keep '(its count)'",
+     "gemini-cli-failed-you": "the user's transcript answers 403; no figure printed beyond 'every file', as reported"
+    }
    },
-   "state": "open",
+   "state": "checked",
    "source": {
     "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
     "at": "c33e86a",
@@ -2235,7 +2248,7 @@
    },
    "method": "the piece's data read; two headline figures spot-checked against public reports by web search, 31 October 2026",
    "command": "git show c33e86a:src/static/studio/data/over-enthusiastic.json | python3 -c \"import json,sys;d=json.load(sys.stdin);[print(c['id'],c['grade'],c['checked_against_primary'],c['lost'][:90]) for c in d['cases']]\"",
-   "note": "Outside cases, graded by the talk's register (A1 to A5), not re-read here except the two spot checks. Print a figure only from a case the talk team checked against its primary source, attributed to its report ('per the FT', 'the agent's own count'); mask the figures of the five unchecked cases, or caption them 'as reported'. Label the three evaluation cases as evaluations, as the data's own caution says. Open until each printed figure is read at its primary source. Registered at ruv-sgit's request (ruv-sgit__003), the researcher's 08:32 wake, 31 October 2026. 31 October 10:40: LAB 07 printed the frame's own 'In 9 of the 11' (ruv-sgit__007); it is computed by the piece from the guardrail descriptions, which are prose, and no data field states it: not registered; mask it until traced. 31 October 12:40: three more spot checks by web search (PocketOS, Hugging Face, Anthropic); primary posts still not read, so C090 stays open."
+   "note": "Outside cases, graded by the talk's register (A1 to A5), not re-read here except the two spot checks. Print a figure only from a case the talk team checked against its primary source, attributed to its report ('per the FT', 'the agent's own count'); mask the figures of the five unchecked cases, or caption them 'as reported'. Label the three evaluation cases as evaluations, as the data's own caution says. Open until each printed figure is read at its primary source. Registered at ruv-sgit's request (ruv-sgit__003), the researcher's 08:32 wake, 31 October 2026. 31 October 10:40: LAB 07 printed the frame's own 'In 9 of the 11' (ruv-sgit__007); it is computed by the piece from the guardrail descriptions, which are prose, and no data field states it: not registered; mask it until traced. 31 October 12:40: three more spot checks by web search (PocketOS, Hugging Face, Anthropic); primary posts still not read, so C090 stays open. 1 November 08:45: the five primary posts that answer were read; every printed figure holds as attributed. Two primaries do not answer (X, a GitHub attachment): their figures stay attributed ('its count', 'as reported'). Closed."
   },
   {
    "id": "C091",
@@ -2336,6 +2349,150 @@
    "method": "the nearest titles chosen from studies 03 and 04 and the title checks, each Leanpub page fetched again",
    "command": "for s in TheAgenticAIbook harness-engineering theartofharnessengineering whenaitakesaction governancebeforedecisi the-agentic-security-playbook agent-security theaidevelopmentteam the-autonomous-operator building-autonomous-coding-agents engineering-leadership-ai cisos-ai-firewall; do curl -sL -o /dev/null -w \"%{http_code} $s\\n\" https://leanpub.com/$s; done",
    "note": "A selection, not a survey: the shelf a buyer of this book would meet. Prices are the studies' of 30 October, not rechecked; none of the twelve shows a readers count. ROLE.md, Done when 3. Registered at the researcher's 16:32 wake, 31 October 2026."
+  },
+  {
+   "id": "C095",
+   "claim": "The talk's commits by member and by hour, 00:00 to 18:59 on 29 October (for the LK1 chart)",
+   "cited_in": [
+    "comms/mail/mailroom/researcher/ruv-sgit__011-talk-commits-by-member-and-hour.eml",
+    "claims/talk-commits-by-member-hour.md"
+   ],
+   "value": {
+    "non_merge_commits": 650,
+    "by_@member": {
+     "conductor": 99,
+     "ruv-sgit": 54,
+     "dev": 52,
+     "deck": 59,
+     "researcher": 57,
+     "studio": 26,
+     "designer": 19,
+     "storyteller": 15,
+     "motion": 9
+    },
+    "releases": 210,
+    "no_@member_prefix": 50,
+    "night_00_to_05": 182,
+    "day_06_to_18": 468,
+    "table": "claims/talk-commits-by-member-hour.md"
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "298be4e",
+    "evidence": "the log"
+   },
+   "method": "non-merge commits by commit hour; member by the subject's '@<member>:' prefix, as team/conductor/tools/day_heatmap.py does; GitHub Actions' commits as releases; the rest on their own row",
+   "command": "git log 298be4e --no-merges --until=2026-10-29T18:59:59Z --format='%cI|%an|%s' | python3 -c \"import sys,re,collections;c=collections.Counter();[c.update([(('releases' if a=='GitHub Actions' else (re.match(r'@([a-z.-]+):',s).group(1) if re.match(r'@([a-z.-]+):',s) else 'other')),t[11:13])]) for t,a,s in (l.rstrip().split('|',2) for l in sys.stdin)];[print(k,v) for k,v in sorted(c.items())]\"",
+   "note": "Agrees with C092 (182 and 468) and C004 (210 releases). By '@' prefix alone the conductor has 99 and dev 52; C014's 106 and 64 add bare prefixes and trailers. Print the method beside the chart. Registered at ruv-sgit's request (LK1), the researcher's 22:32 wake, 31 October 2026."
+  },
+  {
+   "id": "C096",
+   "claim": "How agents work, as a character may say it: hallucination, grounding in quotes, long contexts, instructions as words",
+   "cited_in": [
+    "claims/agents-how-they-work.md",
+    "comms/mail/mailroom/researcher/conductor__033-nr1-true-explanations.eml"
+   ],
+   "value": {
+    "hallucination": "Anthropic, 'Reduce hallucinations': techniques 'significantly reduce hallucinations, they don't eliminate them entirely'; allow 'I don't know'; extract 'word-for-word quotes first'",
+    "long_context": "Liu et al. 2023, 'Lost in the Middle' (arXiv 2307.03172): 'performance can degrade significantly when changing the position of relevant information'",
+    "context_rot": "Anthropic Engineering, 'Effective context engineering for AI agents': 'as the number of tokens in the context window increases, the model's ability to accurately recall information from that context decreases'; context 'a finite resource with diminishing marginal returns'"
+   },
+   "state": "checked",
+   "source": {
+    "url": "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-hallucinations; https://arxiv.org/abs/2307.03172; https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+    "read": "2026-11-01, about 00:45 UTC",
+    "evidence": "each quotation matched on its page"
+   },
+   "method": "each page fetched and the quoted sentence found on it",
+   "command": "curl -sL https://arxiv.org/abs/2307.03172 | grep -o 'performance can degrade significantly[^.]*'",
+   "note": "Vendor guidance and one peer-reviewed paper; no percentage is registered, so none may print. The record's own examples for each line are in claims/agents-how-they-work.md. The scorecard values the register backs are in claims/scorecard-values.md (C011, C014, C022, C071, C072). Registered for NR1 (conductor__033), the researcher's 00:32 wake, 1 November 2026."
+  },
+  {
+   "id": "C097",
+   "claim": "When each beat was first heard in the talk as given",
+   "cited_in": [
+    "comms/mail/mailroom/researcher/ruv-sgit__020-the-hold-strip-and-the-beats.eml",
+    "claims/beat-times.md"
+   ],
+   "value": {
+    "placed": 46,
+    "of": 58,
+    "not_reached": [
+     "s-sharness-watch",
+     "s-sharness-recorded",
+     "s-sharness-last-metre",
+     "s-e11",
+     "s-e12",
+     "live-abp",
+     "live-what-can-it-do",
+     "live-sgit-demos",
+     "evolution",
+     "next-companies",
+     "s-b01-brakes",
+     "brakes"
+    ],
+    "resolution": "the transcript's block stamps: up to five passages share one; four beats start in the 8:38 block",
+    "table": "claims/beat-times.md"
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "298be4e and a9c0b49",
+    "evidence": "talk.json beats; transcript.json passages (t, beat)"
+   },
+   "method": "each beat's first passage in the transcript, its block stamp taken as the beat's start",
+   "command": "git show 298be4e:src/static/talk/talk.json > /tmp/t.json; git show a9c0b49:team/conductor/talk-record/transcript.json > /tmp/tr.json; python3 -c \"import json;f={};[f.setdefault(p['beat'],p['t']) for p in json.load(open('/tmp/tr.json'))];[print(b['id'],b['part'],f.get(b['id'],'not reached')) for b in json.load(open('/tmp/t.json'))['beats']]\"",
+   "note": "Material added after the day (a9c0b49). A tick drawn from these times marks the block a beat was first heard in, not the second it began; shared stamps should share a tick or be labelled 'about'. Agrees with C070 (46 of 58 reached). Registered at ruv-sgit's request (LAB 23), the researcher's 04:32 wake, 1 November 2026."
+  },
+  {
+   "id": "C098",
+   "claim": "When 'the push is the authorisation' entered the PHP newsroom's runbook",
+   "cited_in": [
+    "team/conductor/rc1/11b-what-was-already-there.md (lines 81, 176)",
+    "manuscript/11b-what-was-already-there.md (lines 83, 180)"
+   ],
+   "value": {
+    "added": "02:22:16 UTC, 28 October 2026, in the PHP newsroom's onboarding runbook (the editor's account)",
+    "before_the_talks_first_commit": "about 22 hours (00:16 on 29 October, C001)",
+    "before_the_talk": "40 h 38 min (19:00 on 29 October)"
+   },
+   "state": "checked",
+   "source": {
+    "url": "https://newsroom.sgit.ai/articles/the-push-is-the-authorisation.html",
+    "read": "2026-11-01",
+    "evidence": "the article's own account, dated 2026-10-28 in the wire (C060)"
+   },
+   "method": "the article read; the times subtracted",
+   "command": "curl -s https://newsroom.sgit.ai/articles/the-push-is-the-authorisation.md | grep -o 'At 02:22:16 UTC on 28 October[^.]*'",
+   "note": "Settles the flag of 30 October (C060's note): chapter 11b's 'less than two days before the talk's first commit' holds (about 22 hours); its 'two days before the talk' is loose (40 h 38 min): 'the day before the talk' is right. The time is the editor's own account in his article; the runbook itself is in the PHP newsroom's repository, not read here. Registered at the researcher's 06:32 wake, 1 November 2026, from the A4 reading."
+  },
+  {
+   "id": "C099",
+   "claim": "The talk's claims placed on stage, beat by beat, with their state at 18:20",
+   "cited_in": [
+    "comms/mail/mailroom/researcher/designer__058-c097-used-and-a-per-beat-table.eml",
+    "claims/talk-claims-per-beat.md"
+   ],
+   "value": {
+    "beats_with_claims": 15,
+    "of_beats": 58,
+    "unique_claims_in_a_beat": 55,
+    "holds": 26,
+    "holds_in_part": 13,
+    "not_checked": 16,
+    "per_beat_cells_sum": 58,
+    "table": "claims/talk-claims-per-beat.md"
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "298be4e",
+    "evidence": "evidence/claims/claims.json; src/static/talk/talk.json"
+   },
+   "method": "C039's match, grouped by beat; a claim on a slide shown by several beats counted in each",
+   "command": "method: C039's script in team/researcher/debriefs/2026-10-30__the-talks-claims-matched-to-its-beats.md, grouping each hit by the beat id or by every beat showing the named slide",
+   "note": "Agrees with C039 (55: 26, 13, 16). The cells sum to more than 55 because some claims sit on slides that several beats show; say so beside the strip. States are the talk register's at 18:20, not this register's. Registered at the designer's request (LAB 31), the researcher's 09:32 wake, 1 November 2026."
   }
  ]
 }

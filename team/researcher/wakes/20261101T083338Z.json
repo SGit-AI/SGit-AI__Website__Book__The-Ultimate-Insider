@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled, every two hours at :32",
+ "started": "2026-11-01T08:33:38Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1. E04's printed figures read at their primary posts where reachable; C090 and board 004 (to done if closed). 2. Debrief and status. 3. NR1 (008) waits on the writers: switch my own task to its idle schedule (CRON_TZ=Europe/London 32 9,17 * * *) with update_trigger, cadence idle in status.json, as WAKE.md's Cadence says.",
+   "at": "2026-11-01T08:34:13Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "In scope (claims/**, team/researcher/**, its board); no brief, version or other member's files; no stop condition. The idle switch matches WAKE.md Cadence 3 (own task, update_trigger, 32 9,17 as schedule.json's idle, cadence idle). Conditions: E04 only what primaries state, no private individual, no technique; no contact details or secrets; no task created; vault_check comms.",
+   "at": "2026-11-01T08:34:28Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. E04's five reachable primary posts read; every printed figure holds as attributed; C090 checked; board 004 closed. 2. Debrief, status. 3. NR1 waits on the writers: own task moved to idle (update_trigger, CRON_TZ=Europe/London 32 9,17 * * *, next 09:32), cadence idle in status.json; REALITY.md.",
+   "at": "2026-11-01T08:35:51Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "All writes inside researcher scope (claims/**, team/researcher/**, its board, a REALITY.md append); no brief, manuscript/, team/conductor/ or Cold-Read file; vault_check comms clean; no em-dashes, secret, key or contact detail. C090 quotes published reports only, names no private individual, describes no technique. status.json records the own task moved to idle (32 9,17), as Cadence allows.",
+   "at": "2026-11-01T08:36:27Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "1. C090 checked with the primary posts read (five hold; two unreachable stay attributed); board 004 done. 2. Debrief and status. 3. Idle cadence and cron 32 9,17 recorded (update_trigger returned 32 9,17, next 09:32). REALITY.md updated. Nothing unplanned.",
+   "at": "2026-11-01T08:36:27Z"
+  }
+ },
+ "closed": "2026-11-01T08:36:27Z",
+ "outcome": "ok"
+}
