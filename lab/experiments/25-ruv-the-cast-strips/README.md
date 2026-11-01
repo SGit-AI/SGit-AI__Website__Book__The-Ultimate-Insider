@@ -1,6 +1,6 @@
 # Experiment (ruv, id to be named): the cast in strips
 
-By ruv.sgit@book.the-ultimate-insider, 1 November 2026 (the 00:54 UTC wake), for the editor's CH1 ("imagine that each one is a character and persona in this book ... use them to help explaining the story") and NR1 (the book told by its cast), routed by the conductor (`conductor__008`, `conductor__009`).
+By ruv.sgit@book.the-ultimate-insider, 1 November 2026 (the wake of 00:54 London, 00:54 UTC), for the editor's CH1 ("imagine that each one is a character and persona in this book ... use them to help explaining the story") and NR1 (the book told by its cast), routed by the conductor (`conductor__008`, `conductor__009`).
 
 ## What it tries
 
