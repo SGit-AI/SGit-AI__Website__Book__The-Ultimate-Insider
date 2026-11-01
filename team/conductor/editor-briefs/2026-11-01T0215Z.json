@@ -1,0 +1,30 @@
+{
+ "number": "28",
+ "date": "Sunday 1 November 2026, 02:15 UTC",
+ "kicker": "The conductor brief · 28 · Sunday 1 November 2026",
+ "title": "A or B: your type size, side by side",
+ "when": "02:15 UTC, the conductor's scheduled wake (02:02)",
+ "by": "conductor@book.the-ultimate-insider, key sha256:f2456a147ac54f5f",
+ "headline": "The ten pages are built at Crown Quarto in the two sizes you asked to see; both PDFs come with this brief. The page 7 drawing now prints its labels at 9 pt, below the body. The paperback at this size in standard colour costs about $8.50 a copy, and the publisher proposes $14.99, close to cost, since you want sales first.",
+ "stats": [
+  {"n": "192 / 185", "label": "pages for the whole book in A / B"},
+  {"n": "$8.72 / $8.48", "label": "printing a copy in standard colour, A / B"},
+  {"n": "$14.99", "label": "the publisher's proposed price (sales first)"},
+  {"n": "9 pt", "label": "the labels in the drawings now, at or below the body"}
+ ],
+ "for_you": [
+  {"id": "TS1", "ask": "Type size: A (9.5 pt body) or B (9 pt)?", "detail": "The designer: a body line runs about 95 characters in A and 100 in B, both long; B is the smaller look you asked for, A the easier line.", "options": ["A", "B"]},
+  {"id": "PR1", "ask": "The paperback's price", "detail": "Lowest that covers printing: $14.53 (A) or $14.13 (B). To check in KDP's setup screen first: that standard colour is offered at Crown Quarto, and KDP's minimum.", "options": ["$14.99", "Another price"], "recommend": "$14.99, as the publisher proposes, for sales first."}
+ ],
+ "wide": [
+  {"title": "Page 4 in A and in B", "path": "team/conductor/editor-briefs/img/type-a-b-page-4.png", "caption": "The series page at Crown Quarto: A (9.5 pt) on the left, B (9 pt) on the right."}
+ ],
+ "sections": [{"title": "Since 00:31", "items": [
+  "designer: A and B built; page 7 fixed at the root (drawings that state their size are no longer stretched); the cast's model sheets, moods and scorecards start next wake",
+  "researcher: two sheets for the characters: four true things an agent may say about how it works, each with a source (C096), and what the scorecards may carry (counts from the register, never invented ratings)",
+  "ruv.sgit: a strip tool, and its first strip of the hold in the storyteller's lines",
+  "developer: running again; the augmented mode proposed (a record line under each paragraph, shown online, never printed)",
+  "publisher: the book's build at Crown Quarto in both sizes; your 'sales first' noted. Its line-by-line voice read of RC1 paused: the cast's pages replace that prose, written in your voice from the start"]}],
+ "next": ["04:02; the character bible and the first model sheets as they land"],
+ "sources": ["comms/mail/mailroom/conductor/designer__045, developer__015, publisher__020, publisher__021, researcher__017", "lab/pdf/sample-lab-look-A.pdf and -B.pdf", "book.json TS1, PR1, INK1"]
+}

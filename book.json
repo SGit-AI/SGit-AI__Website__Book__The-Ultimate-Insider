@@ -553,7 +553,7 @@
    "status": "decided",
    "by": "editor",
    "ask": "The paperback's ink: black, standard colour or premium colour",
-   "detail": "The publisher, 31 October 2026, 23:20 UTC (comms/mail/mailroom/conductor/publisher__019-lk1-and-the-ink.eml; publishing/KDP.md), from KDP's own pages: the printing cost depends on the ink and the page count only, nothing per image. At 255 pages, 6 x 9: black $4.06 a copy, standard colour $7.50, premium colour $17.58; the royalty is 60% of the list price less printing (from $9.99). At $19.99 a copy earns about $7.93 in black, about $4.49 in standard colour, and nothing in premium colour (which cannot be sold below about $29.29). The PDF and EPUB print nothing. These are 6 x 9 figures; the publisher reprices them at Crown Quarto (P2). Options: A, black (the pictures in grey); B, standard colour (the look as designed in LK1); C, premium colour. Conductor's recommendation: B, standard colour, since LK1 makes the book's pictures its point and standard colour keeps a price near $20; decided on the Crown Quarto figures. Decided by the editor in the conductor's session, 1 November 2026, about 00:25 UTC (briefs/2026-11-01__in-session/01-the-story-told-by-its-characters.md): \"we're going to go with standard color\" (the publisher took it at his word in its own session first, commit 461f925). So option B, standard colour."
+   "detail": "The publisher, 31 October 2026, 23:20 UTC (comms/mail/mailroom/conductor/publisher__019-lk1-and-the-ink.eml; publishing/KDP.md), from KDP's own pages: the printing cost depends on the ink and the page count only, nothing per image. At 255 pages, 6 x 9: black $4.06 a copy, standard colour $7.50, premium colour $17.58; the royalty is 60% of the list price less printing (from $9.99). At $19.99 a copy earns about $7.93 in black, about $4.49 in standard colour, and nothing in premium colour (which cannot be sold below about $29.29). The PDF and EPUB print nothing. These are 6 x 9 figures; the publisher reprices them at Crown Quarto (P2). Options: A, black (the pictures in grey); B, standard colour (the look as designed in LK1); C, premium colour. Conductor's recommendation: B, standard colour, since LK1 makes the book's pictures its point and standard colour keeps a price near $20; decided on the Crown Quarto figures. Decided by the editor in the conductor's session, 1 November 2026, about 00:25 UTC (briefs/2026-11-01__in-session/01-the-story-told-by-its-characters.md): \"we're going to go with standard color\" (the publisher took it at his word in its own session first, commit 461f925). So option B, standard colour. Relayed by the publisher (comms/mail/mailroom/conductor/publisher__020-ink-chosen-crown-quarto.eml), his words in its session, about 00:20 UTC: \"So for now we're going to go with standard color, which is okay. And remember that in the beginning I'm not really interested in the profit, I'm more interested in the sales.\""
   },
   {
    "id": "NR1",
@@ -561,6 +561,20 @@
    "by": "editor",
    "ask": "The book told by its characters",
    "detail": "Decided by the editor in the conductor's session, 1 November 2026, about 00:25 UTC (same brief), as the direction, tried first on the opening pages (the ten-page sample and a couple more): \"we should actually literally go to town in that cast of characters ... those characters should follow us throughout the book. And basically, you should also have me ... when I speak in my voice, it should kind of be maybe the default one, but then we should be introducing all the agents in turn ... how can we tell the story from the point of view of those agents? ... We tell the story through the agents ... remove just about all the informational stuff ... People are not going to follow the hash ... that probably should be there in that augmented reality mode ... some scorecard for them ... like the Trump card ... you should know already which agents exist at every moment in time.\" Moods, interviews between agents and therapy sessions are dramatised scenes, marked as such and grounded in the record; agents' explanations of how they work are checked for truth; the failures stay in; only the editor is depicted as a real person, at his request. Builds on CH1; NS1 stays open."
+  },
+  {
+   "id": "TS1",
+   "status": "open",
+   "by": "editor",
+   "ask": "The book's type size: A (9.5 pt) or B (9 pt)",
+   "detail": "Built at Crown Quarto in the lab's look (lab/pdf/sample-lab-look-A.pdf and -B.pdf, the ten-page sample; the book is 192 pages in A, 185 in B, per the publisher). The designer's note: at the 164 mm text block a body line runs about 95 characters in A and about 100 in B, both long; B is the smaller look he asked for, A the easier line. Options: A; B. No recommendation beyond the designer's note: his eye decides."
+  },
+  {
+   "id": "PR1",
+   "status": "open",
+   "by": "editor",
+   "ask": "The paperback's list price",
+   "detail": "The publisher, 1 November 2026 (publisher__020): at Crown Quarto in standard colour (a large trim on KDP), $8.72 a copy in A and $8.48 in B; the lowest price that covers printing at 60% is $14.53 (A) or $14.13 (B). With his \"sales first, not profit\" (INK1), the publisher proposes $14.99, set on the final page count. Two checks in KDP's setup screen first: that standard colour is offered at this custom size, and KDP's own minimum. The price is his."
   }
  ]
 }
