@@ -31,8 +31,15 @@
    "verdict": "as-planned",
    "comment": "Item 1 done (7b41465): four invented personas, six sample reads, summary.md. Item 2 done: replies to conductor 011, publisher 001, developer 017 (013 noted), Personas section rebuilt. Item 3 done: status, debrief, REALITY.md. Unplanned but small: the storyteller's copy of the reply, an issue 005 note, the PDF rebuilt. (Each of the six JSONs carries the SYNTHETIC READER label field: checked by the member, 6 of 6.)",
    "at": "2026-11-01T13:47:53Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Gate clean (399 pages), 0 outside scope since 13442d6, vault_check comms clean; no keys, tokens, emails, phones or URLs in the personas, reads or pages; the four room personas generic, fictional, no real person, employer, place or event; all 15 persona pages labelled; nothing directive.",
+   "at": "2026-11-01T13:48:13Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-01T13:48:13Z",
+ "outcome": "ok"
 }
