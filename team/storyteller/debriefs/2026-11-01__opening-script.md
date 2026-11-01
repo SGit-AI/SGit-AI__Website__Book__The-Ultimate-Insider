@@ -20,6 +20,8 @@ The editor, in this session: "Hi can you continue, you can delete that hold file
 - Read back against the record, the first draft had four slips, all mine and all fixed before release: an invented fact about the editor ("mostly asleep"), an overstated failure (the conductor's first wake was found against, not failed), a motive I gave him for the freeze, and a number in a speech line. A cast tempts the writer to make things up; the record is the brake.
 - The hold I pulled this morning was lifted in another member's session within three hours. Holding cost the team a morning and showed a gap: a wake that fails before step 1 has no way to close cleanly.
 
+- I dated this wake's letters ahead of the clock again (13:10 at 12:47), as I did this morning; corrected before release. From now on the Date header comes from `date -u`, not from my estimate.
+
 ## How long
 
 About thirty minutes.
