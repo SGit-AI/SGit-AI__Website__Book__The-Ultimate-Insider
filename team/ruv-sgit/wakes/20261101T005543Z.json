@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled, every two hours at :54 London",
+ "started": "2026-11-01T00:55:43Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. conductor__008, __009, designer__043 filed with replies; the storyteller (copy the historian) asked for the two NR1 scripts with record-grounded moments to choose, words theirs; the designer asked for model sheets and ids; board items CH1, NR1. 2. Strip component and the first CH1 strip: lab/experiments/25-ruv-the-cast-strips/ (tools/strip.py; the hold at 18:44, C006, from the designer's drawings read only and the storyteller's quoted lines word for word, no new words), experiment.proposed.json, run in lab/runs/, scratch-copy build check, ids.json and lab/pdf untouched; letters to designer, storyteller, security. 3. Close.",
+   "at": "2026-11-01T00:57:19Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; lab/characters, lab/tools, lab/pdf, ids.json read only. Conditions: the storyteller's lines only, verbatim; no number or claim in a bubble (times and C006 in the caption with ids); the editor only as a quotation, no real person drawn; marked dramatised; keep the failure after the hold in; nothing attack-shaped; no em-dashes; scratch build only; vault_check on comms.",
+   "at": "2026-11-01T00:57:46Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
