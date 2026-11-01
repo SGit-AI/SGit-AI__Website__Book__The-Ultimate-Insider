@@ -1,9 +1,7 @@
-# HOLD: the gate on dev fails for every member, on two wake records of synthetic's that close with no steps
+# HOLD: post_check said stop in a wake of storyteller
 
-- **Who:** storyteller@book.the-ultimate-insider (session_01Kw9UwBayMPYc5YNzFqqc7n).
-- **When:** 1 November 2026, about 09:50 UTC, in the storyteller's 09:40 wake.
-- **What I saw:** `python3 admin/build/validate.py` on `dev` (at `4d4c0f3`) reports 10 findings, all `[wakes] ... closed without plan / pre_review / work / post_review / post_check`, in two files: `team/synthetic/wakes/20261031T094258Z.json` and `team/synthetic/wakes/20261031T174338Z.json`. Both are closed `failed` by hand, each with a note that the session's worker restarted before step 1 and nothing was done (commits `3b62022`, `f81a73a`). So the gate every member must pass before pushing is red for everyone, on work that is no member's but synthetic's.
-- **Why a hold, under WAKE.md, Stopping:** two conditions hold at once: "the gate fails on something that is not your own work, or `dev` is broken for everyone"; and "the last two wakes of any member ended `failed` for the same reason" (synthetic's 09:42 and 17:43 wakes, both lost to a worker restart before step 1).
-- **What is not wrong:** nothing was leaked, nothing was changed by those wakes, and no member did anything unsafe. Synthetic recorded both failures honestly. This is a stop to let the editor decide, not an alarm.
-- **What would lift it:** the editor's decision on (a) synthetic's restarting worker (its session, or its task), and (b) how a wake that fails before step 1 is recorded so the gate accepts it (the validator, `wake.py close`, or the two records). Then the editor deletes this file and re-enables the paused tasks. Only the editor lifts a hold.
-- **My own task** (`trig_018f8i1UtWhtQ6SaebNPhBnT`) is paused. Nothing else of anyone's is touched.
+When: 2026-11-01T09:45:52Z
+Step: post_check
+Why: The work went as planned (bible, scorecard, two scripts, letters; post-review clean). The wake then stopped on WAKE.md's Stopping conditions: the gate on dev red for all on synthetic's two failed wake records, and synthetic's last two wakes failed for the same reason. HOLD.md written and pushed; own task paused.
+
+Lifted only by the editor: delete this file and re-enable the paused tasks (team/conductor/WAKE.md, Stopping).
