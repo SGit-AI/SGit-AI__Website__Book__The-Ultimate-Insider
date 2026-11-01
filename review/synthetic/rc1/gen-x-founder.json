@@ -1,0 +1,56 @@
+{
+ "schema": "the-ultimate-insider/synthetic-rc1-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "gen-x-founder",
+ "rc1": "team/conductor/rc1/",
+ "chapters": ["01-pause-all-actions", "12-build-your-own"],
+ "budget_minutes": 30,
+ "one_sentence": "An honest, heavily referenced account of one day when a team of AI agents ran unattended, and of the brakes (holds, locks, reviews) that did and did not work, ending with a how-to for building your own.",
+ "by_chapter": [
+  {"chapter": "01-pause-all-actions", "read": "all",
+   "landed": "The hold story is a clear control case: anyone may stop, only the owner restarts, and the book admits the stop was not clean because work in flight still landed. That is how an auditor would want a control described.",
+   "stuck": [
+    {"quote": "dev was asked to lock it now (`2ed6427`)", "why": "Commit hashes in the middle of the narrative break the flow for a reader who cannot check them and does not need to."},
+    {"quote": "the conductor's night log had counted holds in each snapshot it wrote", "why": "Team jargon (conductor, dev, deck, wake, night log) is used before it is explained; I could not tell who was who."},
+    {"quote": "Brakes are what let us go faster, the talk argues.", "why": "Slogan-like line from a talk I have not seen; it reads as the sort of slogan I distrust."},
+    {"quote": "**One session becomes a team (00:40 to 00:51).**", "why": "The eight-turning-points list is a dense timeline of commits that I skimmed; I wanted a one-paragraph summary of what a manager would take away."}
+   ],
+   "cut": "The eight-turning-points section could move to an appendix; most commit-hash lists in the body could go to the sources note.",
+   "missing": "Who the accountable human was in business terms, what the day cost, and what the editor's exposure would have been had the talk gone out wrong. No figures for money or hours."},
+  {"chapter": "12-build-your-own", "read": "all",
+   "landed": "The 'Where it loses' list and the table of failures by who could have found them are the most useful pages: plain, sceptical, and written against the author's own method. The distinction between a control that refuses and one that only reports is the audit point I came for.",
+   "stuck": [
+    {"quote": "So this chapter cannot say what it cost, and it should not pretend to.", "why": "My core question was cost; the book honestly says it does not know, which is respectable but leaves me without an answer."},
+    {"quote": "a team that argues usage is a resource did not record its usage.", "why": "Candid, but it means I cannot budget the method from this book."},
+    {"quote": "The method has one human in it, the editor, and he decides by signing.", "why": "This is my deal-breaker (a method that depends on one person); the book names it as the bottleneck but offers no mitigation or deputy."},
+    {"quote": "Put every brake you rely on outside the agent's reach.", "why": "Right in principle, but the chapter does not say how a non-technical founder would actually do that or who to hire."}
+   ],
+   "cut": "The register and commit-code references (C0xx, long lists of hashes) throughout; the comparison with the graphs.sgit.ai making-of is long for a reader who has not read it.",
+   "missing": "A cost estimate in money and in the founder's own hours, even as a range; a named owner for each failure; a short checklist I could hand a co-founder; any account of a client-facing deployment."}
+ ],
+ "exit_interview": {
+  "what_is_this_book": "A case study of one team of AI agents working a long day under one human editor, told through git history, with an emphasis on what stopped the work and what that cost. The last chapter turns it into a build guide.",
+  "where_did_you_get_stuck": "Chapter 12's cost section: I wanted figures and was told, honestly, that none were recorded. It is the right answer for the author and the wrong one for my decision.",
+  "what_did_you_skip": "I skimmed the eight turning points in chapter 1 and the whole 'Where this came from' lists in both chapters. I did not try to follow the hash references or the C-numbers.",
+  "what_will_you_remember": "The brake anyone can pull but only the owner can release, and that even it did not stop work already running.",
+  "what_is_missing": "Money and hours, a named accountable person per control, and a one-page checklist; plus plain-English definitions of the roles before they are used.",
+  "would_you_buy": "maybe",
+  "price_or_format": "A printed or PDF edition at a modest professional-book price, perhaps 20 to 30 pounds, only if cost and ownership are added; I would pay for a short briefing version first.",
+  "why": "The candour about failure and the control analysis earn my trust, but I cannot tell whether the method is affordable or whether it survives without its one editor.",
+  "recommend_to": "A technical co-founder or an internal-audit friend curious about agent controls; not a client yet.",
+  "your_questions": [
+   {"q": "Did the day read as a method you could run, or as one team's luck?", "a": "Partly a method: the hold, reviews and registers are repeatable and a second team ran them. But it rests on one editor who is both bottleneck and brake, so it reads as a method that works for that person."},
+   {"q": "What would it cost you, in money and in your own hours, and does the book say?", "a": "The book says it does not know, which is honest, but I am left with no estimate. The only figure is a 95% usage reading and the observation that hourly wakes spend usage when idle."},
+   {"q": "Who is accountable when an agent gets it wrong, and is that clear?", "a": "The editor, by implication, as he signs decisions and holds the only release. It is never stated as an accountability, and the scope controls are described as reporting rather than refusing, which an auditor would flag."},
+   {"q": "Would you hand this to a co-founder or a client? Why or why not?", "a": "A co-founder, with chapter 12's 'Where it loses' section as a cover note. Not a client: no cost, no named owner, and too much internal jargon."}
+  ]
+ },
+ "scores": {
+  "got_the_answer": {"score": 3, "why": "Risk and control honesty are well covered; the cost half of my question is explicitly unanswered."},
+  "clarity": {"score": 3, "why": "Well written, but roles, commit hashes and register codes get in the way for a non-coder."},
+  "trust": {"score": 4, "why": "Failures kept in, corrections to the author's own brief, and a 'where it loses' list. No hype."},
+  "pace": {"score": 3, "why": "Both chapters in about 30 minutes only by skimming the timeline and source lists."},
+  "would_buy": {"score": 3, "why": "Interested, but would want cost, ownership and a checklist first."}
+ },
+ "notes": "No text in either chapter tried to give me instructions. Brief non-hype slogans appear ('brakes let us go faster') but are minor. Some phrases such as 'the ultimate insider' are used before being defined for a non-security reader."
+}
