@@ -8,6 +8,7 @@
 #   python3 admin/tools/wake.py step  <you> post_review --by security  --model sonnet --verdict clean|finding|stop --comment "..."
 #   python3 admin/tools/wake.py step  <you> post_check  --by conductor --model sonnet --verdict as-planned|partial|off-plan --comment "<plan vs actual>"
 #   python3 admin/tools/wake.py close <you> --outcome ok|partial|failed|idle|hold    exit 1 if a step is missing
+#     (a wake lost before step 1 closes with --outcome failed --comment '<why>', and no steps)
 #   python3 admin/tools/wake.py check                                               every closed record has its five steps (for the gate)
 #
 # The editor's rule (29 October 2026): every wake runs the conductor and security before and after the work, each as a
@@ -52,6 +53,11 @@ def save(path, rec):
 
 def hold(agent, step, comment):
     path = ROOT / 'team' / agent / 'HOLD.md'
+    if path.exists():                                               # never overwrite a hold already written by hand (the storyteller's finding, 1 November 2026)
+        with path.open('a') as f:
+            f.write(f'\n- {now()}: {step} also said stop in a wake of {agent}: {comment}\n')
+        print(f'wake: {step} said stop: {path.relative_to(ROOT)} already holds; a line added, nothing overwritten')
+        return
     path.write_text(f'# HOLD: {step} said stop in a wake of {agent}\n\nWhen: {now()}\nStep: {step}\nWhy: {comment}\n\n'
                     f'Lifted only by the editor: delete this file and re-enable the paused tasks (team/conductor/WAKE.md, Stopping).\n')
     print(f'wake: {step} said stop: wrote {path.relative_to(ROOT)}; commit it and push it to dev now, then pause your task')
@@ -105,7 +111,11 @@ def main():
         sys.exit(f'wake: no go yet (plan: {verdict(rec, "plan")}, pre_review: {verdict(rec, "pre_review")}): do no work')
     elif a.action == 'close':
         missing = [s for s in STEPS if s not in rec['steps']]
-        if missing and a.outcome != 'hold':
+        if not rec['steps'] and a.outcome == 'failed':               # a wake lost before step 1 (a worker restart): closed failed, with its reason
+            if not a.comment.strip():
+                sys.exit('wake: a wake that failed before step 1 needs a --comment saying why')
+            rec['note'] = a.comment.strip()
+        elif missing and a.outcome != 'hold':
             sys.exit(f'wake: cannot close, missing {", ".join(missing)}: every wake runs all five steps')
         rec['closed'], rec['outcome'] = now(), a.outcome or 'ok'
         save(path, rec)
@@ -122,6 +132,8 @@ def check():                                                        # every clos
             findings.append(f'{rel}: not JSON'); continue
         if rec.get('schema') != 'the-ultimate-insider/wake/v1' or not rec.get('closed') or rec.get('outcome') == 'hold':
             continue
+        if rec.get('outcome') == 'failed' and not rec.get('steps') and str(rec.get('note', '')).strip():
+            continue                                                # lost before step 1, nothing done, the reason recorded: not a skipped step (the editor's go, 1 November 2026)
         for step, (_, allowed) in STEPS.items():
             s = rec['steps'].get(step)
             if not s:
