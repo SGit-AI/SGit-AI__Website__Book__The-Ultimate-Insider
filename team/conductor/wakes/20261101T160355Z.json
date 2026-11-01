@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "In scope. Conditions: the CSS loads nothing external; CV1, DR1, NS1 open; the 3-page PDF to him as a draft; nothing written under the designer's lab folder; no keys or contacts; nothing to the blind repo; vault_check.",
    "at": "2026-11-01T16:05:01Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "As planned: six replies (designer 034, storyteller 033, synthetic 015, researcher 039, security 031, historian 024), all to done; the date fix in BRIEF-CORRECTIONS.md; site.css tablet rule (nav one row at 701 to 1100 px, nav 24 px tall at 834, nothing external); brief 33 (CV1 four covers, the 3-page draft, the five beats, the agent-factory note); status.json. vault_check clean, gate 0, scope 0 outside.",
+   "at": "2026-11-01T16:07:20Z"
+  },
+  "post_review": {
+   "by": "security post-review sub-agent",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Gate 0; scope 0 outside; vault_check clean; site.css loads nothing external; the correction matches researcher 020, no brief or lab file edited; brief 33 matches; CV1, DR1, NS1 open; no key, contact or em-dash. Nit fixed before close: the script's trace sourced to researcher 005.",
+   "at": "2026-11-01T16:08:14Z"
+  },
+  "post_check": {
+   "by": "conductor post-check sub-agent",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "All four items done; nothing unplanned.",
+   "at": "2026-11-01T16:08:14Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-01T16:08:14Z",
+ "outcome": "ok"
 }
