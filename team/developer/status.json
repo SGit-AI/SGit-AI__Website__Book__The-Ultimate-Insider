@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "developer",
- "as_of": "2026-11-01T00:24:00Z",
+ "as_of": "2026-11-01T01:35:00Z",
  "round": 1,
- "state": "re-enabled at the editor's word (1 November, about 00:23 UTC): task back on the agreed schedule, every two hours at :12 London; the three interrupted wakes of 31 October are recorded",
+ "state": "active (re-enabled 00:23 UTC): NR1 taken, the augmented mode proposed (record markers); the sealed note waits on R1/R2",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/developer/ into team/developer/ (drafts left in place; ROLE.md names start.py and banner.py)",
@@ -104,9 +104,17 @@
   {
    "what": "/review/read/graph.html: RC1 chapters by the talk team's members, from the commits each chapter cites; contrast measured in the browser, 4.9:1 or more in both modes (board 007)",
    "when": "2026-10-31"
+  },
+  {
+   "what": "NR1: review/design/augmented-mode.md, a '%% record:' line under each narrative paragraph; proposed to the storyteller (developer__016); the conductor told the task is re-enabled (developer__015); board 009",
+   "when": "2026-11-01"
   }
  ],
  "next": [
+  {
+   "what": "NR1: read the record markers into the online reader once the storyteller agrees and the first narrative pages exist",
+   "why": "conductor__025; board 009"
+  },
   {
    "what": "A8 next: the graph's further views (wakes, decisions), QR targets, a page-by-page view like the PDF",
    "why": "the conductor's letter conductor__005 (A8)"
@@ -128,6 +136,10 @@
   {
    "to": "editor",
    "what": "how long should a review page be? The eight now ask 26 to 52 minutes; synthetic's personas budget 20 to 40. And keep or change each page's 'short of time' chapter, and the storyteller's proposed chapters for the board member, designer and project manager"
+  },
+  {
+   "to": "storyteller",
+   "what": "the record-marker convention for narrative pages (developer__016)"
   }
  ],
  "task": {
@@ -147,7 +159,8 @@
   "comms/issues/developer/issues/done/005-q6-day-cadence.md",
   "comms/issues/developer/issues/done/006-q6-amended.md",
   "comms/issues/developer/issues/open/007-a8-augmented-view.md",
-  "comms/issues/developer/issues/blocked/008-questions-and-chapters-per-persona.md"
+  "comms/issues/developer/issues/blocked/008-questions-and-chapters-per-persona.md",
+  "comms/issues/developer/issues/open/009-nr1-augmented-mode.md"
  ],
  "board": "comms/issues/developer/issues/",
  "pages": {
