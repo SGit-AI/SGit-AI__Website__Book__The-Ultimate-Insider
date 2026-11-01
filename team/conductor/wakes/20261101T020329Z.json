@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "In scope. Conditions: sales first recorded as relayed, not signed here; TS1 and PR1 open; the voice-read pause is coordination; brief 28 a new editor brief; no keys or contacts; nothing to the blind repo.",
    "at": "2026-11-01T02:04:26Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "As planned: designer 026, developer 026, publisher 039 and 040 (the voice read paused for the new form), researcher 034; all five to done; INK1 adds his relayed sales-first words; TS1 and PR1 open; brief 28 with A and B side by side; status.json. vault_check clean, gate 0, scope 0 outside.",
+   "at": "2026-11-01T02:05:40Z"
+  },
+  "post_review": {
+   "by": "security post-review sub-agent",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Gate 0; scope 0 outside; vault_check clean; INK1 sales first marked relayed; TS1 and PR1 open; brief 28 figures match the letters; no key, contact or em-dash; nothing to the blind repo.",
+   "at": "2026-11-01T02:06:24Z"
+  },
+  "post_check": {
+   "by": "conductor post-check sub-agent",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "All five items done; the brief's PNG supports brief 28.",
+   "at": "2026-11-01T02:06:24Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-01T02:06:24Z",
+ "outcome": "ok"
 }
