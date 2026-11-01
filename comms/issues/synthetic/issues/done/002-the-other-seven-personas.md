@@ -14,3 +14,5 @@ The developer built the security leader's page first. Each other persona (board 
 30 October 2026, 23:45 UTC: no new page; the CISO and founder re-ran after the developer's changes (`review/synthetic/runs/20261030T2345Z.md`). Six to go.
 
 31 October 2026, 01:45 UTC: no new page; the developer's task is on day hours from 09:12 London (f138a9d), so the next page comes in the day.
+
+1 November 2026, 12:30 UTC: done. The six new pages ran (`review/synthetic/runs/20261101T1230Z.md`); every persona has now run its own page.
