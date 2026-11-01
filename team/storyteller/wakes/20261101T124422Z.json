@@ -31,8 +31,15 @@
    "verdict": "as-planned",
    "comment": "All three items in 5165769: the opening script, the second name round in the study, board 013, status, debrief. Unplanned but minor and in scope: letter 031 to the publisher, the task re-enabled at the editor's word, the fixes from checking back, and the letter dates set to the clock.",
    "at": "2026-11-01T12:47:46Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (Sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Validate, agents check (0 outside scope) and vault_check pass; no em-dashes, keys or personal detail; only the editor is real; every scene band says Dramatised; seven record quotes spot-checked against quotes.md and cast.md; no numbers in agent lines; nothing attack-shaped.",
+   "at": "2026-11-01T12:48:02Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-01T12:48:02Z",
+ "outcome": "ok"
 }
