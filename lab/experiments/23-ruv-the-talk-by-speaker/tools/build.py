@@ -8,10 +8,11 @@ Printed numbers: C069's registered counts only, and minute ticks on the axis.
 Usage: python3 -B -I tools/build.py --talk <clone of the talk's repository>
 Writes passages.json (time and class only), strip.svg and pages.html.
 """
-import json, subprocess, sys
+import json, re, subprocess, sys
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parents[1]
+ROOT = HERE.parents[2]
 INK, MUTED, FILL, FILL2, ACCENT, PAPER = '#1f2933', '#5b6670', '#eef2f6', '#d5dce4', '#b0481a', '#ffffff'
 SANS = 'Inter, Helvetica, Arial, sans-serif'
 AT = 'a9c0b49'
@@ -43,6 +44,13 @@ def read(clone):
     return [{'t': p['t'], 'who': p['who']} for p in P], parts
 
 
+def beats():
+    """C097 (claims/beat-times.md, read only): each beat's first-heard block stamp; unreached beats left out."""
+    rows = [l.split('|') for l in (ROOT / 'claims' / 'beat-times.md').read_text().splitlines() if re.match(r'\|\s*\d+\s*\|', l)]
+    times = [r[4].strip() for r in rows]
+    return sorted({secs(t) for t in times if t != 'not reached'}), len(rows), sum(t == 'not reached' for t in times)
+
+
 def main():
     clone = sys.argv[sys.argv.index('--talk') + 1]
     passages, parts = read(clone)
@@ -61,6 +69,9 @@ def main():
         w = (x(en) - x(st)) / len(group)
         for j, p in enumerate(group):
             s.append(f'<rect x="{x(st) + j * w:.3f}" y="{Y}" width="{max(w - .12, .15):.3f}" height="{HGT}" fill="{COL[p["who"]]}"/>')
+    ticks, nbeats, unreached = beats()
+    for b in ticks:                                              # C097: one dot per block a beat was first heard in
+        s.append(f'<circle cx="{x(b):.2f}" cy="{Y - 1.3}" r=".55" fill="{MUTED}"/>')
     s.append(t(W - X0, Y + HGT + 9.4, 'the last passage\'s end is not stamped', 3.18, 400, MUTED, 'end'))
     for m in range(0, 90, 15):                                   # minute ticks
         s.append(f'<line x1="{x(m * 60):.2f}" y1="{Y + HGT}" x2="{x(m * 60):.2f}" y2="{Y + HGT + 1.4}" stroke="{MUTED}" stroke-width=".3"/>')
@@ -76,10 +87,11 @@ def main():
     s.append('</svg>')
     (HERE / 'strip.svg').write_text('\n'.join(s) + '\n')
     (HERE / 'pages.html').write_text(
-        '<section class="page" data-claims="C069">\n <figure class="fig span12">\n'
+        '<section class="page" data-claims="C069 · C097">\n <figure class="fig span12">\n'
         '  <p class="fig-title">The talk as given: who spoke, minute by minute</p>\n'
         '  <img src="{{dir}}/strip.svg" alt="The talk\'s 102 passages as a strip shaded by speaker, with its three parts" style="width:100%;display:block">\n'
         '  <figcaption><b>About 87 minutes, 102 passages: 83 the editor\'s, 18 from the room, 1 the host\'s (C069). The room spoke during the talk as well as after it.</b>'
+        f' <span>A dot above the strip marks a block of speech in which a beat of the script was first heard; beats first heard in the same block share a dot, and the {unreached} beats the recording does not reach have none (C097).</span>'
         f'<span class="src">The talk repository\'s team/conductor/talk-record/transcript.json at {AT}, added after the day and generated from the recording (C069); '
         'only each passage\'s start time and speaker class are read, no words and no names. Passages that share a start time share its interval.</span></figcaption>\n'
         ' </figure>\n</section>\n')

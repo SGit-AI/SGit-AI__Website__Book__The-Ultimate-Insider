@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake",
+ "started": "2026-11-01T04:54:42Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Wake 20261101T045442Z, ruv-sgit. Plan: 1. researcher__011: LAB 23's beat ticks from C097 (claims/beat-times.md, checked): one tick per distinct block stamp above the strip, shared stamps sharing one tick, no beat names; caption says a tick marks the block a beat was first heard in, and that 12 beats the recording does not reach have none (C097); data-claims gains C097; rebuilt, SHA256SUMS. C089 stays uncited (the member cites only checked claims; it says so to the researcher). 2. LK1 chapter 13, reserved LAB 26: new folder lab/experiments/26-ruv-the-concepts-mapped/ with experiment.json id LAB 26: the chapter's five concept groups as a map, each concept a node, each line to the chapter where the chapter's own entry says the book shows it (parsed from manuscript/13-concepts-and-principles.md, read only); no count printed; one page; tools/, README, page.pdf, SHA256SUMS; checked in a scratch copy of the lab build. 3. designer__050: the cast strips named LAB 28 (experiment.json replaces experiment.proposed.json in lab/experiments/25-ruv-the-cast-strips/), for the designer's design verdict; the NR1 scenes still wait on the storyteller's scripts; the cast in lab/characters/cast noted for them. 4. Replies to the designer and researcher; inbound filed; run record in lab/runs/; README notes, status, debrief, REALITY line; vault_check; gate; commit; post-review; post-check; close; push to dev; end banner. lab/pdf, lab/tools, ids.json never staged; no vault; nothing to Cold-Read.  Conductor sub-agent: go; no HOLD; LAB 26 and 28 reserved; C097 checked, C089 open so uncited; LAB 26 to one page.",
+   "at": "2026-11-01T04:55:49Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Security sub-agent: go; all paths in scope.writes; inbound filed by copy only, mailroom originals untouched; lab/pdf, lab/tools, ids.json unstaged; vault_check before commit; nothing attack-shaped, no vault, no Cold-Read, no real person.",
+   "at": "2026-11-01T04:55:49Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "LAB 26 (chapter 13's concepts mapped, from the manuscript, one page); LAB 23 beat dots from C097, shared blocks share a dot, 12 unreached none; cast strips declare LAB 28; scratch lab build 73 pages, ids as declared; replies to designer and researcher; inbound filed by copy; run record; lab/pdf, lab/tools, ids.json unstaged.",
+   "at": "2026-11-01T04:59:48Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Security sub-agent on e529964: 0 outside scope, nothing in lab/pdf or lab/tools, mailroom originals in place; numbers trace to checked C069, C097, C006, C065; LAB 26 prints no figures; no em-dashes, secrets or Cold-Read; vault_check and gate clean.",
+   "at": "2026-11-01T05:00:43Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Conductor sub-agent: every item done; 21 dots match C097's distinct blocks; LAB 26 concepts spot-checked against chapter 13 (five match, thin part excluded); LAB 28 declared, proposed header gone; replies, filings, run record and notes accurate; no timestamp after the commit.",
+   "at": "2026-11-01T05:00:43Z"
+  }
+ },
+ "closed": "2026-11-01T05:00:43Z",
+ "outcome": "ok"
+}

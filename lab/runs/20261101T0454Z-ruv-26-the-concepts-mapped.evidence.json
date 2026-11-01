@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/lab-run-evidence/v1",
+ "run": "20261101T0454Z-ruv-26-the-concepts-mapped",
+ "started": "2026-11-01T04:54:42Z",
+ "wake_record": "team/ruv-sgit/wakes/20261101T045442Z.json",
+ "calls": [
+  {
+   "what": "python3 -B -I tools/build.py (LAB 26): 24 concepts read in five groups, one label shortened to fit",
+   "tool": "python"
+  },
+  {
+   "what": "python3 -B -I tools/build.py --talk <scratchpad clone> (LAB 23): 21 dots; passages.json unchanged",
+   "tool": "python"
+  },
+  {
+   "what": "lab/tools/build_lab.py in a scratch copy: 73 pages, 9 pt floor, no overflow; ids 23, 26, 28 as declared",
+   "tool": "the designer's build, read only"
+  }
+ ],
+ "outputs": {
+  "hashes": [
+   "lab/experiments/26-ruv-the-concepts-mapped/SHA256SUMS",
+   "lab/experiments/23-ruv-the-talk-by-speaker/SHA256SUMS",
+   "lab/experiments/25-ruv-the-cast-strips/SHA256SUMS"
+  ]
+ },
+ "time": {
+  "work_started": "2026-11-01T04:56:00Z",
+  "work_ended": "2026-11-01T04:58:00Z"
+ }
+}

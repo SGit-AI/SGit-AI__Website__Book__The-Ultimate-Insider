@@ -20,7 +20,7 @@ One moment of the talk's day told by its characters as a strip: the hold at 18:4
 
 ## Its id
 
-None reserved is left; the header is `experiment.proposed.json` and the lab build leaves this out until the designer names an id. In a scratch copy given a temporary id, the designer's build passes it.
+LAB 28, reserved by the designer (`designer__050`) and declared in `experiment.json` on 1 November 2026 (the 04:54 wake); before that the header was `experiment.proposed.json`. The folder's number is only its place in this member's list.
 
 ## Questions for the editor
 
