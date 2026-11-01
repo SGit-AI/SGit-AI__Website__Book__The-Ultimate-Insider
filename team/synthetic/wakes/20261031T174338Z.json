@@ -1,0 +1,10 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, idle, 17:42 London",
+ "started": "2026-10-31T17:43:38Z",
+ "steps": {},
+ "closed": "2026-11-01T09:42:30Z",
+ "outcome": "failed",
+ "note": "Opened by start.py at 17:43 UTC; the session's worker restarted after reading the mail and before step 1, so no step ran and nothing was changed. The second wake running lost to a worker restart (the first was 09:42). Recorded by hand at the next wake."
+}
