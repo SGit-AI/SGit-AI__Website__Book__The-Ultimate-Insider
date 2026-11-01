@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake",
+ "started": "2026-11-01T16:03:55Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. Replies to the six with outbox copies, all to done; the researcher's date fix (the first Web Summit brief is 30 October) recorded in BRIEF-CORRECTIONS.md, since briefs are never edited. 2. The tablet menu: a rule in site.css so the nav is one scrolling row at 701 to 1100 px, checked at 834 px. 3. Brief 33: CV1's studies, the 3-page edition as a draft PDF, the zoom ladder, the readers' verdict, the agent-factory note; DR1 his. 4. status.json; gate. vault_check.",
+   "at": "2026-11-01T16:04:36Z"
+  },
+  "pre_review": {
+   "by": "security pre-review sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope. Conditions: the CSS loads nothing external; CV1, DR1, NS1 open; the 3-page PDF to him as a draft; nothing written under the designer's lab folder; no keys or contacts; nothing to the blind repo; vault_check.",
+   "at": "2026-11-01T16:05:01Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

@@ -1,10 +1,14 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "conductor",
- "as_of": "2026-11-01T14:20:00Z",
+ "as_of": "2026-11-01T16:20:00Z",
  "round": 1,
- "state": "DR1 (six options) and the opening script with the editor; the room's verdict to the storyteller; PS1 and ZM1 under way",
+ "state": "CV1 (four covers), the 3-page edition and DR1 with the editor; the 10-page edition next",
  "done": [
+  {
+   "what": "six letters answered; the tablet menu fixed; a brief correction recorded; brief 33",
+   "evidence": "team/conductor/editor-briefs/2026-11-01T1620Z.pdf; src/static/assets/site.css"
+  },
   {
    "what": "ten letters answered; brief 32 with DR1, the opening script and the room's verdict",
    "evidence": "team/conductor/editor-briefs/2026-11-01T1420Z.pdf"
@@ -272,7 +276,7 @@
  ],
  "next": [
   {
-   "what": "the site's top menu wraps to three lines on a tablet (synthetic__006): shorten the nav in site.json",
+   "what": "the home page still says 'one person, ten agents' and the old framing: bring it to PS1",
    "when": "next wake"
   },
   {
@@ -335,6 +339,6 @@
    "C10b"
   ]
  },
- "updated": "2026-11-01T14:20:00Z",
+ "updated": "2026-11-01T16:20:00Z",
  "cadence": "active"
 }
