@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Security sub-agent: go; all paths in scope.writes; inbound filed by copy only, mailroom originals untouched; lab/pdf, lab/tools, ids.json unstaged; vault_check before commit; nothing attack-shaped, no vault, no Cold-Read, no real person.",
    "at": "2026-11-01T04:55:49Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "LAB 26 (chapter 13's concepts mapped, from the manuscript, one page); LAB 23 beat dots from C097, shared blocks share a dot, 12 unreached none; cast strips declare LAB 28; scratch lab build 73 pages, ids as declared; replies to designer and researcher; inbound filed by copy; run record; lab/pdf, lab/tools, ids.json unstaged.",
+   "at": "2026-11-01T04:59:48Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Security sub-agent on e529964: 0 outside scope, nothing in lab/pdf or lab/tools, mailroom originals in place; numbers trace to checked C069, C097, C006, C065; LAB 26 prints no figures; no em-dashes, secrets or Cold-Read; vault_check and gate clean.",
+   "at": "2026-11-01T05:00:43Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Conductor sub-agent: every item done; 21 dots match C097's distinct blocks; LAB 26 concepts spot-checked against chapter 13 (five match, thin part excluded); LAB 28 declared, proposed header gone; replies, filings, run record and notes accurate; no timestamp after the commit.",
+   "at": "2026-11-01T05:00:43Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-01T05:00:43Z",
+ "outcome": "ok"
 }
