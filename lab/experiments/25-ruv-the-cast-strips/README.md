@@ -25,3 +25,7 @@ None reserved is left; the header is `experiment.proposed.json` and the lab buil
 ## Questions for the editor
 
 Does a strip of the cast tell the hold better than a timeline? Should the scenes be this short, or longer, with more voices?
+
+## Checked (1 November 2026)
+
+The researcher checked the strip against the register (`claims/the-hold-strip-check.md`): it holds. One phrase changed at their note: the 95 percent is now given as the hold's own reason (C006), since the editor has given other accounts since (C089, still open, so not cited).

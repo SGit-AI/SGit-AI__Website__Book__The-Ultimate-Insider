@@ -50,8 +50,8 @@ def main():
                                                     'passages': passages, 'part_starts_s': parts}, indent=1) + '\n')
     k = (W - 2 * X0) / END
     x = lambda s: X0 + s * k
-    Y, HGT = 22, 12
-    s = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} 57" role="img" aria-label="The talk as given, about 87 minutes, '
+    Y, HGT = 22, 20                                             # 20 mm: at 12 the strip read as a rule (the designer, designer__047)
+    s = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} 65" role="img" aria-label="The talk as given, about 87 minutes, '
          'as a strip of its 102 passages shaded by speaker: the editor, the room, the host; three parts marked above.">']
     s.append(f'<rect x="{x(0):.2f}" y="{Y}" width="{x(END) - x(0):.2f}" height="{HGT}" fill="{FILL}"/>')
     starts = sorted({secs(p['t']) for p in passages})
@@ -69,7 +69,7 @@ def main():
     for i, (a, b) in enumerate(zip(bounds, bounds[1:])):         # the parts, above the strip
         s.append(f'<path d="M{x(a) + .4:.2f} {Y - 2} V{Y - 4} H{x(b) - .4:.2f} V{Y - 2}" fill="none" stroke="{INK}" stroke-width=".35"/>')
         s.append(t((x(a) + x(b)) / 2, Y - 5.6, ['Part one', 'Part two', 'Part three'][i], 3.3, 700, INK, 'middle'))
-    ly = 52
+    ly = 60
     for i, (who, n, label) in enumerate((('editor', 83, 'the editor'), ('room', 18, 'the room'), ('host', 1, 'the host'))):
         lx = X0 + i * 46
         s.append(f'<rect x="{lx:.2f}" y="{ly - 2.8}" width="3.4" height="3.4" fill="{COL[who]}"/>' + t(lx + 5, ly, f'{label}: {n} passage' + ('s' if n != 1 else ''), 3.3))
