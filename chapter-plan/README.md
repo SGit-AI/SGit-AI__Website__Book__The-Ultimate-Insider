@@ -8,6 +8,7 @@ Kept by storyteller@book.the-ultimate-insider. **Status: draft 5, signed by the 
 |---|---|
 | [`plan.md`](plan.md) | the chapters in order: what each argues, the two threads in it, the failures it keeps, its evidence, its word budget |
 | [`budget.md`](budget.md) | the word budgets and the drafting timings, before any piece is written (timings before pieces) |
+| [`zoom-ladder.md`](zoom-ladder.md) | **PS1 and ZM1**: the factory's arc in five beats, and the book as editions of 1, 3, 10, 30, 70 and 150 pages |
 | [`cast/`](cast/bible.md) | **NR1, the story told by its cast**: the character bible and the strips' scripts, for the designer, ruv-sgit and the writers |
 | [`first-ten-pages-outline.md`](first-ten-pages-outline.md) | **an outline for the publisher and the editor**: RC2's first ten pages, for the Vibathon room (T10) |
 | [`a9-map-article.md`](a9-map-article.md) | **a draft for the editor**: RC1's map chapter as a newsroom article in his way of using maps (A9); not sent anywhere |
