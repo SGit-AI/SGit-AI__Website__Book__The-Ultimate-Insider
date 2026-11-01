@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "the editor's request, in the session",
+ "started": "2026-11-01T12:43:52Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, amended by the member after pre-review's change",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "At the editor's word (12:40 UTC): 1) gen-z-founder and gen-x-founder in review/synthetic/personas.json: invented, no names, employers, places or event references (nothing tied to any real event or person), labelled test instruments; two read-only sub-agents read RC1 chapters 1 and 12 from team/conductor/rc1/ only and each writes only review/synthetic/rc1/<id>.json; quotes checked against RC1; a section on the two in rc1/briefing.md. 2) Rebuild src/pages/personas/ and the PDF in src/static/personas/; their review pages asked of the developer by a mail file in comms/mail/mailroom/developer/synthetic__007-*.eml, no contact detail, vault_check. 3) status.json, debrief, REALITY.md under own heading; no blind repo, briefs or ./version.",
+   "at": "2026-11-01T12:44:32Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Amended plan carries the conditions: invented personas, no names, employers, places or event references, labelled test instruments; sub-agents read team/conductor/rc1/ only and write review/synthetic/rc1/ only; no blind repo, briefs, ./version; the developer letter a comms mail file, vault_check. Paths fit scope.writes; REALITY.md own heading. No stop condition.",
+   "at": "2026-11-01T12:44:47Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

@@ -17,8 +17,28 @@
    "verdict": "go",
    "comment": "Inside scope.writes; no secrets, no outward message, no scheduling, no cross-member writes. The 'last two wakes failed for the same reason' condition is met literally (worker restart twice) but both were this session's own infrastructure, no step run, nothing changed, no effect on others: no hold needed. Conditions: vault_check comms; personas fictional, never readership; nothing attack-shaped.",
    "at": "2026-11-01T12:31:41Z"
+  },
+  "work": {
+   "by": "synthetic",
+   "verdict": "partial",
+   "comment": "Before the hold was seen (set 09:50, seen 12:35): the six new review pages run and scored (runs/20261101T1230Z.md), the second name round (names/20261101T1300Z.md), replies to the developer, storyteller and conductor, issue 002 closed; then the gate fix (the two lost wakes' records reopened) and, at the editor's word, the hold lifted (daabf92). The Vibathon readers, A11 and A15 left for the next wake.",
+   "at": "2026-11-01T12:40:00Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "8 @synthetic: commits; writes within policy apart from daabf92, which deletes only team/storyteller/HOLD.md (at the editor's word in the member's session, which the reviewer cannot see); build and gate clean (387 pages), comms clean; no keys, tokens, personal details or directive text.",
+   "at": "2026-11-01T12:45:00Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "partial",
+   "comment": "Items 1 to 3 done (9a4c84a runs, 86c7942 scores, 796cb4c replies and issue 002, 7e41a08 names round). Conditions kept. Unplanned: the gate fix 91d6abd and the hold lifted at the editor's word daabf92; 2b5e8aa paused the task at the hold. The Vibathon readers, A11 and A15 already deferred.",
+   "at": "2026-11-01T12:50:00Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-01T12:50:00Z",
+ "outcome": "partial"
 }
