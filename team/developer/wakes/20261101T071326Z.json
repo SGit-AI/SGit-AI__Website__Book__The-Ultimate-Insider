@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled, odd hours at :12",
+ "started": "2026-11-01T07:13:26Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (plan brief)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Third idle wake, no mail, no hold: move own task to schedule.json's idle cron (12 9,17 London) per WAKE.md Cadence 3, prompt unchanged; status.json cadence idle; close.",
+   "at": "2026-11-01T07:13:51Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (pre_review brief)",
+   "model": "",
+   "verdict": "go",
+   "comment": "One cron edit on its own task, prompt unchanged, no new permission, key or scope; a step WAKE.md authorises; files only in its own folder.",
+   "at": "2026-11-01T07:13:51Z"
+  },
+  "work": {
+   "by": "developer",
+   "model": "",
+   "verdict": "done",
+   "comment": "Own task moved to schedule.json's idle cron, CRON_TZ=Europe/London 12 9,17 * * *, prompt unchanged; done at 12:30 UTC, not at 07:13: the 07:13, 09:12 and 11:12 wakes were each cut off by worker restarts before the call landed.",
+   "at": "2026-11-01T12:31:53Z"
+  },
+  "post_review": {
+   "by": "the member (no sub-agent: one cron change on its own task and status.json)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Own task only, prompt unchanged; status.json and the wake record; nothing in comms.",
+   "at": "2026-11-01T12:31:53Z"
+  },
+  "post_check": {
+   "by": "the member (no sub-agent)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Planned at 07:13: go idle. Done, five hours late through worker restarts.",
+   "at": "2026-11-01T12:31:53Z"
+  }
+ },
+ "closed": "2026-11-01T12:31:53Z",
+ "outcome": "ok"
+}
