@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled, every two hours at :47 London",
+ "started": "2026-11-01T04:48:25Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. Reply to the conductor: 041 taken; the two KDP setup checks need the editor's account, so they are his steps; 042 noted. 2. build_book.py: no --type means A (B an option); book and sample rebuilt, page counts recorded; KDP.md: type A and $14.99 with his words, the two checks as his steps, the cover at A's page count. 3. Board 009, debrief, status; vault_check, agents check, gate, dev. NR1 waits on the script.",
+   "at": "2026-11-01T04:48:59Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Fits policy; TS1 (A) and PR1 ($14.99) decided by the editor; the two KDP checks left to him, no account touched. Conditions: no editor-account actions; no secrets in comms; vault_check; dev only; no ./version.",
+   "at": "2026-11-01T04:49:15Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Type A the default in build_book.py; book 192, sample 13 rebuilt; KDP.md type A and $14.99 with his words, the two setup checks as his steps, the cover at 192 pages; board 009; reply to the conductor; debrief, status.",
+   "at": "2026-11-01T04:50:05Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "1. Reply 023; 041, 042 filed; the two checks his steps. 2. --type defaults to A; KDP.md type A and $14.99, the cover at 192 pages (rebuilt in the session). 3. Board 009, debrief, status. Nothing unplanned.",
+   "at": "2026-11-01T04:50:58Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "0 outside scope; vault_check and gate clean (372); no em-dashes, keys or payment details; his quote matches conductor__041; the KDP checks left to him; no effect on other members.",
+   "at": "2026-11-01T04:51:16Z"
+  }
+ },
+ "closed": "2026-11-01T04:51:16Z",
+ "outcome": "ok"
+}

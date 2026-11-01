@@ -175,7 +175,8 @@ def main():
     p.add_argument("--book", help="another list of files instead of manuscript/Book.txt (a sample's, say)")
     p.add_argument("--name", default=NAME, help=f"the output files' name (default {NAME})")
     p.add_argument("--subtitle", help="the title page's subtitle for this build only (a sample's), in place of metadata.yaml's")
-    p.add_argument("--type", choices=sorted(TYPE_SETS), help="a type size to compare (the conductor's 036): A 9.5 pt body, B 9 pt")
+    p.add_argument("--type", choices=sorted(TYPE_SETS), default="A",
+                   help="the type size: A, 9.5 pt body, the editor's choice (TS1, 1 November 2026), by default; B, 9 pt, kept to compare")
     p.add_argument("--stamp", help="a line printed at the top of every page, such as a sample's name and date")
     p.add_argument("--chrome", help="path to a Chromium or Chrome binary")
     p.add_argument("--no-pdf", action="store_true")

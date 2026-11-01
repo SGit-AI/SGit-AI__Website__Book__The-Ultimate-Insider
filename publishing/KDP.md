@@ -33,6 +33,15 @@ The target (the editor's brief): on Amazon by Web Summit, Monday 9 November 2026
 
 KDP's minimum gutter by page count (its margins page, read 30 October 2026): 24 to 150 pages, 0.375 inch; 151 to 300, 0.5; 301 to 500, 0.625; 501 to 700, 0.75; 701 to 828, 0.875. Our 0.75 inch meets it up to 700 pages; the plan's book is well under that.
 
+## Type A and $14.99: decided (the editor, 1 November 2026, about 03:35 UTC)
+
+His words, answering the conductor's brief 28: "Let's go with A , the 9.5 body , price is ok". So: **type A** (9.5 pt body) is the build's default (`build_book.py`; `--type B` stays to compare); **$14.99** is the paperback's list price, confirmed on the final page count. Today: 192 pages, standard colour about $8.72 a copy, about $0.27 a copy to him at $14.99. The cover at 192 pages on white paper: spine 0.432 in, full cover 15.562 by 9.94 in, 4,669 by 2,982 pixels at 300 dots per inch (`cover_size.py --pages 192 --paper white`).
+
+**Two checks in KDP's setup screen, before the listing; they need his account, so they are his** (tell the conductor if either fails, before anything changes):
+
+1. Standard colour is offered at 7.44 by 9.69 in (Crown Quarto), which KDP treats as a custom large trim.
+2. KDP's own minimum list price for the final file is at or below $14.99.
+
 ## The ink, chosen: standard colour, sales before profit (the editor, 1 November 2026)
 
 The editor, in the publisher's session, about 00:20 UTC on 1 November 2026: "So for now we're going to go with standard color, which is okay. And remember that in the beginning I'm not really interested in the profit, I'm more interested in the sales."

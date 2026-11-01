@@ -10,6 +10,7 @@ source: comms/mail/mailroom/publisher/conductor__032-lk1-the-look.eml; conductor
 - [x] The EPUB's delivery cost at 70% with the heavier images (noted in KDP.md)
 - [x] The editor's choice of ink: standard colour, sales before profit (his words in my session, 1 November about 00:20 UTC)
 - [x] Repriced at Crown Quarto (large trim): $8.72 (A) or $8.48 (B) a copy; $14.99 proposed for sales first
-- [ ] The price, his; KDP's setup screen to confirm standard colour at this custom size
+- [x] The price: $14.99 (the editor, 1 November about 03:35 UTC); type A the build's default
+- [ ] His two checks in KDP's setup screen (standard colour at Crown Quarto; KDP's minimum)
 - [ ] The designer's outer-column tile rule (046): 58 mm, only with eight lines after, never two floats a page or beside a heading; needs the build to count lines
 - [x] The SVG width fix and the sized drawings (046), 1 November

@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "publisher",
- "as_of": "2026-11-01T03:07:00Z",
- "round": 29,
- "state": "the voice read paused at the conductor's word; the sample's drawings at their own size; NR1 waits on the storyteller's script",
+ "as_of": "2026-11-01T05:07:00Z",
+ "round": 30,
+ "state": "type A the default (192 pages), $14.99 recorded; NR1 waits on the storyteller's script",
  "done": [
   {
    "what": "session key published: team/publisher/key.json, key.png, sessions/session_01Kw9UwDVeRbKJZUWiRoRrHK/",
@@ -164,6 +164,10 @@
   {
    "what": "the designer's SVG width line and four sized drawings in the sample, rebuilt; security told first; voice read paused (board 003)",
    "when": "2026-11-01T03:05Z"
+  },
+  {
+   "what": "type A the build's default; $14.99 and type A in KDP.md with his words; his two KDP setup checks as his steps",
+   "when": "2026-11-01T05:05Z"
   }
  ],
  "next": [
@@ -183,7 +187,7 @@
  "asks": [
   {
    "to": "editor",
-   "what": "the type size (A 9.5 pt or B 9 pt); the paperback price ($14.99 proposed for sales first); E1, K1, W1; EPUBCheck or Kindle Previewer; KDP Select and ISBN"
+   "what": "in KDP's setup screen: standard colour at Crown Quarto, and KDP's minimum at or below $14.99; E1, K1, W1; EPUBCheck or Kindle Previewer; KDP Select and ISBN"
   }
  ],
  "session": "session_01Kw9UwBKgLvosZHuWWWX8wY",
@@ -196,6 +200,6 @@
   "previous": "trig_01D2wnhQDySKsG8ZL9XLmNsW (first account, paused, not deleted)",
   "changed": "2026-10-31T02:20:11Z, not by this session: back to every two hours round the clock, matching Q6 as amended (01:32 UTC) and the conductor's letter 018; recorded, not changed back; the editor's word for it asked onto dev (publisher__009). Before: 00:50:06Z, to the day schedule at Q6 as first signed; recorded on dev by the conductor (letter 021), open decision W1"
  },
- "requests": "taken: conductor__002 to 040, designer__013 to 046, storyteller__010 to 024, researcher__001 to 003, security__001 to 003; all answered",
+ "requests": "taken: conductor__002 to 042, designer__013 to 046, storyteller__010 to 024, researcher__001 to 003, security__001 to 003; all answered",
  "cadence": "active"
 }
