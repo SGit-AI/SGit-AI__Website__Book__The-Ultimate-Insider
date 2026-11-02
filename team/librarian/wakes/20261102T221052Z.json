@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, every two hours at :09 London",
+ "started": "2026-11-02T22:10:52Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "1) Chapter 3 (manuscript/rc2/30/03-the-factory-runs.md): check_sources.py, voice_scan.py, each quote by hand for words and speaker; re-check the changed lines of chapters 1 and 2. 2) index/rc2/README.md and index/chapters/; review file; letter to the writer, copy to the conductor. 3) Debrief, status; vault_check. Chapters not edited.",
+   "at": "2026-11-02T22:11:23Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "Writes inside scope (team/librarian, index, its comms); chapters read only; no stop condition; vault_check before commit.",
+   "at": "2026-11-02T22:11:23Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Tools fixed first: check_sources.py and chapter_entries.py read %% record notes (control 2 of 2; RC1 unchanged); index entries restored, then rebuilt. Chapters 2 and 3 clean; chapter 1's flag answered in its list; chapter 3's six record quotes word for word with speakers. reviews/rc2-03.md; index/rc2/README.md; letter librarian__003 to the writer, copy librarian__017. Debrief, status (one ask for the editor). Chapters not edited.",
+   "at": "2026-11-02T22:14:40Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

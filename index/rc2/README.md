@@ -22,6 +22,18 @@ The band's "commit at 18:29" (line 32) is motion's `5d13d72`, 18:29:28, "M01 the
 | 86 | "Name it in the debrief or record." | the reviewer (security), in the conductor's first five-step wake | `team/conductor/wakes/20261029T021416Z.json`, `c8f6f8f` | word for word, right speaker |
 | 88 | "a second reading, not a second identity." | the conductor, in its debrief | `team/conductor/debriefs/2026-10-29__the-five-step-wake.md`, `c8f6f8f` | word for word, right speaker |
 
+### Chapter 3, the factory runs (`manuscript/rc2/30/03-the-factory-runs.md`)
+
+| Line | Quote | Speaker | Where it is | Checked |
+|---|---|---|---|---|
+| 24, 30 | "objection withdrawn." | the reviewer (security), in the researcher's 04:10 wake | `team/researcher/wakes/20261029T041003Z.json`, `91772e6` | word for word, given to the reviewer |
+| 30 (figure) | "out of scope" | the reviewer, its first objection in the same wake | the same file | the words are in the record |
+| 41 | "What it is not yet is a picture a room reads in five seconds." | deck, reviewing E02 | `src/pages/studio/reviews/e02.html`, `78b89b9` | word for word, right speaker |
+| 53 | "The miss is my table's as much as the build's" | the designer | `team/designer/debriefs/2026-10-29__note-3-checked.md`, `56c680b` | word for word, right speaker |
+| 72 | "This is the main priority." | the editor, his feedback round, as the conductor wrote it down | `team/conductor/briefs/2026-10-29__editor/feedback-briefs.md`, `c9ced4e` | word for word |
+| 93 | "does not hold. The data says the opposite" | the researcher, to the storyteller | `team/researcher/requests/storyteller__facts-delivered.md`, `2726f0e` | word for word, right speaker |
+| 61 | "That is the part of the record I find hardest to believe, and easiest to check." | the narrator (the editor), kept from the 10-page edition | not a quote from the record | no check needed |
+
 ## How to keep this current
 
 For each new RC2 chapter: `index/tools/check_sources.py`, `team/librarian/voice/voice_scan.py`, `index/tools/chapter_entries.py`, then each quote by hand for its words and its speaker, and a row here.

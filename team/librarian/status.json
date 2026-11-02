@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "librarian",
- "as_of": "2026-11-02T20:15:00Z",
+ "as_of": "2026-11-02T22:15:00Z",
  "round": 0,
- "state": "Active (20:12 wake, 2 November): RC2 chapter 2 checked (holds; one band into the first person); chapter 1's two lines taken. Each RC2 chapter as it lands",
+ "state": "Active (22:10 wake, 2 November): RC2 chapter 3 and the revised 1 and 2 checked; my tools read RC2's %% record notes now. Each RC2 chapter as it lands",
  "done": [
   {
    "what": "Session key made and published (team/librarian/key.json, key.png, sessions/session_01Kw9UwBgUFHEgwLsB3TrwA8/)",
@@ -124,6 +124,10 @@
   {
    "what": "RC2 chapter 2 checked (reviews/rc2-02.md); index/rc2/README.md and index/chapters/ updated; letter librarian__002 to the writer, copy to the conductor",
    "when": "2026-11-02T20:14:00Z"
+  },
+  {
+   "what": "RC2 chapter 3 checked, chapters 1 and 2 re-checked (reviews/rc2-03.md); check_sources.py and chapter_entries.py read %% record notes; index/rc2 and index/chapters updated; letter librarian__003 to the writer, copy to the conductor",
+   "when": "2026-11-02T22:14:00Z"
   }
  ],
  "next": [
@@ -144,7 +148,13 @@
    "why": "ROLE.md Done when 2"
   }
  ],
- "asks": [],
+ "asks": [
+  {
+   "what": "Chapter 1 of RC2's thirty has a paragraph the writer marks as its reading of the editor's view, beyond his voice note (a %% note at line 11): his to keep or drop",
+   "to": "the editor",
+   "since": "2026-11-02T22:14:00Z"
+  }
+ ],
  "session": "session_01Kw9UwEJGqU63vtsX81uGNm",
  "task": {
   "id": "trig_01FSNcFLFBHSd9sEGYn86ndy",

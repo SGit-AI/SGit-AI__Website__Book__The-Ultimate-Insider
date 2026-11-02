@@ -22,6 +22,18 @@ import argparse, fnmatch, json, os, re, subprocess, sys
 
 PIN = "298be4e"
 TICK = re.compile(r"`([^`\n]+)`")
+
+def tokens(line):
+    """The backticked tokens of a line; a `%% record: ...` note (RC2's exact sources, kept out of print) is split
+    into the paths, commits and ids it lists."""
+    out = []
+    for tok in TICK.findall(line):
+        if tok.lstrip().startswith("%% record"):
+            out += [t for t in re.split(r"[;,\s]+", tok.split(":", 1)[-1]) if t]
+        else:
+            out.append(tok)
+    return out
+
 HEX = re.compile(r"^[0-9a-f]{7,40}$")
 REG = re.compile(r"\bC\d{3}\b")
 INLINE = re.compile(r"^\s*\*Where this came from:?\*", re.I)
@@ -73,7 +85,7 @@ def main():
             if (start is None or i < start) and i not in inline:
                 continue
             ctx = []   # folders of the paths found earlier on this line, nearest first
-            for tok in TICK.findall(line):
+            for tok in tokens(line):
                 t = tok.strip().rstrip("/").split(":")[-1] if tok.count(":") == 1 and "/" in tok.split(":")[-1] else tok.strip().rstrip("/")
                 if HEX.match(t):
                     if not any(git(c, "cat-file", "-e", f"{t}^{{commit}}") is not None for c in clones):

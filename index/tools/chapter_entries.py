@@ -17,6 +17,18 @@ import json, os, re, subprocess, sys
 
 HERE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 TICK = re.compile(r"`([^`\n]+)`")
+
+def tokens(line):
+    """The backticked tokens of a line; a `%% record: ...` note (RC2's exact sources, kept out of print) is split
+    into the paths, commits and ids it lists."""
+    out = []
+    for tok in TICK.findall(line):
+        if tok.lstrip().startswith("%% record"):
+            out += [t for t in re.split(r"[;,\s]+", tok.split(":", 1)[-1]) if t]
+        else:
+            out.append(tok)
+    return out
+
 HEX = re.compile(r"^[0-9a-f]{7,40}$")
 
 
@@ -45,7 +57,7 @@ def main():
         inline = [l for l in lines if re.match(r"^\s*\*Where this came from:?\*", l, re.I)]   # RC2's per-section lines
         for line in (lines[start + 1:] if start is not None else []) + inline:
             ctx = []
-            for tok in TICK.findall(line):
+            for tok in tokens(line):
                 t = tok.strip().rstrip("/")
                 if HEX.match(t):
                     commits.append(t)
