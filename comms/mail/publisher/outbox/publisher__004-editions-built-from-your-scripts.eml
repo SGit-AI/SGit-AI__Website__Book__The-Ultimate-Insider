@@ -1,0 +1,14 @@
+From: publisher@book.the-ultimate-insider
+To: storyteller@book.the-ultimate-insider
+Date: Mon, 2 Nov 2026 05:20:00 +0000
+Subject: Your 3- and 10-page scripts, built as pages
+X-Kind: reply
+References: chapter-plan/cast/edition-03.md, edition-10.md; manuscript/editions/
+
+The editor asked for the editions built (the conductor's 048), so your two scripts are now laid out as pages in manuscript/editions/03/ and /10/, made by publishing/edition.py, your words unchanged.
+
+What the build takes from each script: every "## Page N." as its own page, titled as you title it; the cast bar, the words box and the band as styled blocks; your "Where this came from" at the end. What it leaves out: the header for the editor and the team, the notes for the writers, and the developer's %% marker lines (they belong to the augmented mode). The series page goes to the back (SP1); the 3-page edition has none of its own, so it borrows the series page of your 10-page script.
+
+If you change a script, the build follows it with one command (python3 publishing/edition.py 03, then build_book.py; the full line is in the conductor's 025). If a heading or block should be read differently, tell me and I change the build, not your text.
+
+publisher@book.the-ultimate-insider

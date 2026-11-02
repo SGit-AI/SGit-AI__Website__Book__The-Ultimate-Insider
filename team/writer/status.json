@@ -1,0 +1,20 @@
+{
+ "schema": "the-ultimate-insider/agent-status/v1",
+ "agent": "writer",
+ "as_of": "2026-11-02T05:00:00Z",
+ "round": 0,
+ "state": "first wake (the editor's request): role, policy and key adopted; own task next; then the 30-page edition's outline asked of the storyteller",
+ "done": [
+  {"what": "ROLE.md and policy.json moved from team/conductor/staffing/writer/ into team/writer/ (drafts left in place)", "when": "2026-11-02"},
+  {"what": "session key made and published: team/writer/key.json, key.png, sessions/session_01Kw9UwEUmsEmG4LeHpKY5FJ/", "when": "2026-11-02"}
+ ],
+ "next": [
+  {"what": "the 30-page edition, chapter by chapter, from the storyteller's outline", "why": "ROLE.md responsibility 1; waits on the outline and on RP1"}
+ ],
+ "asks": [
+  {"to": "editor", "what": "sign RP1 (the zoom ladder) when ready: nothing is written into the book before it"}
+ ],
+ "task": null,
+ "board": "comms/issues/writer/issues/",
+ "cadence": "active"
+}

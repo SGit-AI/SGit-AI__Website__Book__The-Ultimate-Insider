@@ -82,3 +82,17 @@ div.source > p, div.source > p:has(> em:first-child), p.source { font-family: va
 /* the designer's 046, taken 1 November 2026: the build embeds images as data: URIs, so the .svg selector above never
    matched; drawings print at the size they state, their labels at 9 pt */
 figure img[src$=".svg"], figure img[src^="data:image/svg"] { border: none; width: auto; }
+
+/* the publisher's, 2 November 2026: the signed title (NS1) has a real subtitle, so it sits under the title in plain
+   case, not above it as a series line */
+header#title-block-header .subtitle { order: 1; text-transform: none; letter-spacing: 0; font-weight: 400;
+  font-size: 12pt; line-height: 1.3; color: var(--ink); margin: 0 0 10pt; }
+
+/* the short editions told by the cast (ZM1, NR1; publishing/edition.py): the cast bar at the top of a page, the
+   words box, and the band at its foot saying what the scene rests on */
+.cast-bar p { font-family: var(--sans); font-size: 9pt; color: var(--muted); border-bottom: .5pt solid var(--fill-2);
+  padding-bottom: 4pt; margin-bottom: 10pt; }
+.words-box { background: var(--fill); padding: 6pt 9pt; margin: 10pt 0; }
+.words-box p { font-family: var(--sans); font-size: 9pt; line-height: 1.35; margin: 0 0 4pt; }
+.band { border-top: 2pt solid var(--accent); margin-top: 12pt; padding-top: 4pt; }
+.band p { font-family: var(--sans); font-size: 9pt; color: var(--muted); margin: 0; }
