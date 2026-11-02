@@ -23,6 +23,13 @@
    "verdict": "done",
    "comment": "58894bc: both editions built locally with the publisher's exact command (6 and 13 pages, no tracked change); text extracted and page 3 of the ten viewed: no 'Figure to come', 'freeze' and 'register' explained, no file paths; review/synthetic/rounds/after/final-check.md; letter synthetic__013 to the conductor. The idle switch of the task was asked but not completed (an approval left unanswered when the worker restarted). Finished across three worker restarts (11:43 to 17:50 UTC).",
    "at": "2026-11-02T17:50:00Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "58894bc touches only the wake record, final-check.md and the two copies of one letter, all in scope; vault_check clean; 0 outside scope; no keys, tokens, personal details or directive text; labelled a mechanical check, not readership. Noted: the letter says the task goes idle, the switch was not completed (status mismatch, not security).",
+   "at": "2026-11-02T17:55:00Z"
   }
  },
  "closed": null,
