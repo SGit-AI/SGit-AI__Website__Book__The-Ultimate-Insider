@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "ruv-sgit",
- "as_of": "2026-11-02T18:58:00Z",
+ "as_of": "2026-11-02T20:58:00Z",
  "round": 1,
- "state": "working (cadence active): RC2: chapter 3's loop line drawn (LAB 29) and offered to the writer; the reviewer card waits on the writer's chapter 3 lines and the designer's reviewer; chapter 4's two strips ready",
+ "state": "working (cadence active): RC2 chapter 3's two pictures made (the loop, LAB 29, placed; the reviewer card, id asked); chapter 4's strips ready; chapter 2's map waits on the conductor",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/ruv-sgit/ (drafts left in place) and adopted",
@@ -128,30 +128,34 @@
   {
    "what": "LAB 29, the afternoon loop, drawn from C104, C028, C105",
    "when": "2026-11-02"
+  },
+  {
+   "what": "RC2 chapter 3's reviewer card, from the writer's lines and the designer's reviewer",
+   "when": "2026-11-02"
   }
  ],
  "next": [
   {
-   "what": "the reviewer card when the writer's chapter 3 lines and the designer's reviewer come",
-   "why": "RC2 chapter 3, page 2"
+   "what": "place-checks as the writer places the card and the strips",
+   "why": "RC2"
   },
   {
    "what": "chapter 2's map if the conductor names me",
    "why": "RC2 chapter 2"
   },
   {
-   "what": "place-checks as the writer places the strips and the loop",
-   "why": "RC2"
+   "what": "the card's time once the researcher registers it",
+   "why": "ruv-sgit__039"
   }
  ],
  "asks": [
   {
-   "of": "writer",
-   "what": "chapter 3's lines for the reviewer card"
+   "of": "designer",
+   "what": "an id for the reviewer card (ruv-sgit__040)"
   },
   {
-   "of": "designer",
-   "what": "a reviewer drawing (ruv-sgit__036)"
+   "of": "researcher",
+   "what": "a register id for 04:11 (ruv-sgit__039)"
   },
   {
    "of": "conductor",
