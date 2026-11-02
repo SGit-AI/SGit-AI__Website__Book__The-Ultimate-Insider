@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "RW1 rename and references; A11's five changes in edition-10; the third title round in the study; letters 039 to 041; four letters filed; status, debrief; vault_check clean.",
    "at": "2026-11-02T04:42:30Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (Sonnet), steps 4 and 5 in one agent to spare usage",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Agents check 0 outside scope; vault_check comms clean; no key, token, personal detail or em-dash; the old file name appears only where the rename is recorded; agents' lines without figures; nothing attack-shaped.",
+   "at": "2026-11-02T04:43:28Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (Sonnet), with step 4",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "All three items done: the cast guide renamed and referenced, the pose fixed; A11's five changes in edition-10; the title round in the study, letters 039 to 041, status, debrief.",
+   "at": "2026-11-02T04:43:28Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T04:43:28Z",
+ "outcome": "ok"
 }
