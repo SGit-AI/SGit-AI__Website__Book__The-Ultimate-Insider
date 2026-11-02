@@ -256,7 +256,7 @@
  ],
  "task": {
   "id": "trig_01Ej7kyzaD9q9CW7si5Ap3nW",
-  "cron": "CRON_TZ=Europe/London 24 */2 * * *",
+  "cron": "CRON_TZ=Europe/London 24 9,17 * * *",
   "session": "session_01Kw9UwFe8iX6rP7bn78h2m9",
   "created": "2026-10-30T13:03:21Z",
   "prompt": "team/conductor/schedule.json, runs entry for security, word for word",
@@ -266,7 +266,7 @@
    "session": "session_01Kw9UwDYutLfqT71U7kmgVs",
    "state": "paused on the first account at the editor's word, about 10:50 UTC; not deleted"
   },
-  "changed": "2026-11-02T09:26:07Z, by this session, back to active (Cadence 4)"
+  "changed": "2026-11-02T12:38:53Z, by this session, to idle (Cadence 3: the writer's chapters and the cast's pages wait on others)"
  },
  "issues": [
   {
@@ -434,5 +434,5 @@
   }
  ],
  "board": "comms/issues/security/issues/",
- "cadence": "active"
+ "cadence": "idle"
 }
