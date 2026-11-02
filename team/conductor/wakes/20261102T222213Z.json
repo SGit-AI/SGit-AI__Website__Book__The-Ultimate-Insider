@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Diagnosis confirmed; in scope; ./version not hand-written; gate untouched. Conditions: read ./version only if it matches vX.Y.Z; compare with sort -V; keep the empty fallback.",
    "at": "2026-11-02T22:22:39Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "release.yml: LAST is the higher of the newest tag and a vX.Y.Z ./version, tested on the three cases (tag behind file, no file, nothing); gate clean; status.",
+   "at": "2026-11-02T22:23:14Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "Only release.yml and conductor files; ./version read only if vX.Y.Z; sort -V; fallback kept; bash -e safe; no secret.",
+   "at": "2026-11-02T22:23:36Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "As planned; no tag pushed by hand, ./version not written.",
+   "at": "2026-11-02T22:23:36Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T22:23:36Z",
+ "outcome": "ok"
 }
