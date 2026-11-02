@@ -17,6 +17,12 @@
    "verdict": "go",
    "comment": "Inside scope.writes; local build, nothing sent; own task to idle by update_trigger (Cadence 3) allowed. Conditions: no contact or key in the letter, vault_check comms; no review called readership; no push to main; no brief edits.",
    "at": "2026-11-02T11:44:23Z"
+  },
+  "work": {
+   "by": "synthetic",
+   "verdict": "done",
+   "comment": "58894bc: both editions built locally with the publisher's exact command (6 and 13 pages, no tracked change); text extracted and page 3 of the ten viewed: no 'Figure to come', 'freeze' and 'register' explained, no file paths; review/synthetic/rounds/after/final-check.md; letter synthetic__013 to the conductor. The idle switch of the task was asked but not completed (an approval left unanswered when the worker restarted). Finished across three worker restarts (11:43 to 17:50 UTC).",
+   "at": "2026-11-02T17:50:00Z"
   }
  },
  "closed": null,
