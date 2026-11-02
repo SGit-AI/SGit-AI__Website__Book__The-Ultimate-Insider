@@ -104,7 +104,7 @@ def sheet_pages():
   <img src="../experiments/34-designer-cv2-covers/sheet.png" style="width:164mm" alt="The six covers A to F side by side">
   <figcaption><b>Choose with a word: A to F.</b> <span class="src">thumbnails only; each cover is printed full size on the pages after, its text at 9 pt or more</span></figcaption></figure>
  {rows}
- <p class="t-cap"><b>My pick: A</b>, PS1 at a glance; E second. A recommendation only: CV1 A stands until he signs one.</p>
+ <p class="t-cap"><b>Signed: A</b> (CV2, the editor, 2 November 2026: "I like that first cover"). The other five rest.</p>
 </section>"""]
     for k, (name, _, case) in COVERS.items():
         pages.append(f"""<section class="page" data-claims="{'C004 · C011 · C037' if k == 'E' else ('C011' if k == 'F' else '')}">

@@ -3,8 +3,8 @@
 
     python3 lab/experiments/35-designer-chapter-6-decided-and-open/make_panel.py
 Every word on the panel is a fragment of manuscript/06-the-editor-signs.md, checked here against its line before
-drawing (the script stops if a fragment is not in its line). The only number is the section's own 19:00, the end of
-the day in C037's span (C037 is open in the register; it is cited for the span only). A proposal: the fragments go to
+drawing (the script stops if a fragment is not in its line). The only number is the section's own 19:00, when the talk was
+scheduled (C100, at the researcher's check). A proposal: the fragments go to
 the researcher before anything goes to the book; the timeline half waits on the signature times.
 """
 import sys, textwrap
