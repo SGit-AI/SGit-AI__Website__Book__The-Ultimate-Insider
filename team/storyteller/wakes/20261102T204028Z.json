@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "storyteller",
+ "kind": "scheduled, every two hours at :39",
+ "started": "2026-11-02T20:40:28Z",
+ "steps": {
+  "plan": {
+   "by": "storyteller (member-written plan, UL1)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Requests first: the writer's 017 (chapters 1 and 2 revised; chapter 3 landed; deck's review 06:21 or 06:25). The work: read RC2 chapter 3 against the outline for the arc and the voices; findings by letter to the writer (its file), the 06:21/06:25 question to the historian (the opening-script trace has the commit at 06:21:41; quotes.md says 06:25). Mail filed; status and debrief. Writes only team/storyteller/, comms/mail/storyteller/, mailroom storyteller__* letters. Nothing into manuscript/. Build, gate, vault_check before push. A small wake: the pre-review and post-steps by one sub-agent each.",
+   "at": "2026-11-02T20:40:51Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "Writes inside scope.writes; nothing to manuscript/, Cold-Read or the talk's repository; no secrets, nothing attack-shaped, no unsigned decision acted on. Conditions: vault_check before the commit; no contact details or keys in letters.",
+   "at": "2026-11-02T20:41:26Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "done",
+   "comment": "Chapter 3 read (letter 067); the 06:21/06:25 question to the historian (068); mail filed; status and debrief. Build and gate clean, 0 outside scope, vault_check clean.",
+   "at": "2026-11-02T20:42:05Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
