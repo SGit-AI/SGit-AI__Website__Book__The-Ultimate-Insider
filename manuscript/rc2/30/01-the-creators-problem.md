@@ -8,7 +8,7 @@
 
 **Narrator.** On 1 November, three days after the talk, I recorded a voice note about it, and this is how it came out, unedited: "I had to speak a lot because in a way I had to provide the animation that was missing. I didn't know if I wanted to say, look, here, these things moves from A to B, you know, I kind of had to explain that A to B move". That is the problem in one sentence. The idea was a movement. The slide was a still. I was the bit in between.
 
-`%% for the editor: this paragraph is the writer's reading of his view, beyond the voice note; his to keep or drop.`
+`%% for the editor: the four sentences from "It sounds small." to "Those were exactly the ideas I wanted to get across." are the writer's reading of his view, beyond the voice note; not yet his words until he keeps them.`
 
 **Narrator.** It sounds small. It is not. Every minute I spend narrating an arrow is a minute the room is listening to me describe a picture instead of thinking about the idea. And the harder the idea, the more of it lives in the movement: how something spreads, where it stops, what changes when you add more of it. Those were exactly the ideas I wanted to get across.
 
@@ -82,7 +82,7 @@ Band: *Nine staffed agents and security proposed and never staffed; arrival time
 
 *Write down the one idea you want somebody to understand, and what they should be able to do after. That sentence is your first brief. Working with others? Write it together, and keep one copy everyone can see.*
 
-`%% RL1: the running line ("build" or "ship" something somebody else can use) is not used in this chapter; if the editor wants it here, it falls after the brief.`
+`%% RL1 decided ("Ship", 2 November 2026, about 21:55 UTC): the running line, "Ship something somebody else can use, then do it again.", is not used in this chapter; it closes chapter 5.`
 
 ---
 

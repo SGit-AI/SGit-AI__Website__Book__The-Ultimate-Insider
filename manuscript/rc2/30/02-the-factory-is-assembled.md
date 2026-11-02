@@ -4,7 +4,9 @@
 
 ## The empty project
 
-**Narrator.** A quarter past midnight: an empty project. Not a template, not a half-built site from last time. A new repository with a licence, a short read-me and nothing else. Its first commit says "Initial commit", and that is all it says.
+**Narrator.** A quarter past midnight: an empty project. Not a template, not a half-built site from last time. A new repository with a licence, a short read-me and almost nothing else. Its first commit says "Initial commit", and that is all it says.
+
+*Words for this page:* a **repository** is the project's folder, with its whole history kept. A **commit** is one saved change to it, with a time and a short message saying what changed.
 
 **Narrator.** By twenty to one it held a brief and one page of rules. The brief said what the talk was for, who it was for and when it was due; the rules said what the team was for, what each member could touch, and when it had to stop and ask me. The first agent had read both and was building.
 
@@ -52,7 +54,7 @@ Band: *Dramatised. Each agent's lines rest on its first commit after midnight: d
 
 **Figure:** the factory as a chain. At the top, what I wanted: a talk the room understands. Under it, the slides, the site and the player. Under those, the agents. At the bottom, what the agents ran on: the agent tool, the build, the check and the brief, all at the ordinary end; and the hold, at the new end, made that night. Each part placed left to right by how settled it already was, from new on the left to ordinary on the right. The chapter's map; its owner agreed by the conductor.
 
-**Narrator.** Look at the bottom row first. Almost all of it was already ordinary to me that night. I already worked with an agent tool every day. The build and the check were the way my sites are built; dev's first commit calls it the sgit.ai way. The brief and the page of rules were habits. Two things were new: the top of the picture, this talk, these slides, this player; and one part at the bottom, the brake.
+**Narrator.** Look at the bottom row first. Almost all of it was already ordinary to me that night. I had been working with an agent tool every day for about a year, as I wrote in an article in October. The build and the check were the way my sites are built; dev's first commit calls it the sgit.ai way. The brief and the page of rules were habits. Two things were new: the top of the picture, this talk, these slides, this player; and one part at the bottom, the brake.
 
 **Narrator.** This kind of picture is called a Wardley map. It shows what a thing is made of, and how settled each part is. The point of this one fits in a line: the bottom of the chain was already ordinary, so the top could be built in a day. And the one new part at the bottom was the control: the brake that let me leave it running.
 
@@ -70,7 +72,7 @@ Band: *Dramatised. Each agent's lines rest on its first commit after midnight: d
 
 *Words for this page:* a **wake** is one turn of work by one agent, on its own clock. A **reviewer** is a second agent that reads the plan before the work and the result after it. A **debrief** is the short note an agent writes at the end of each wake.
 
-**Narrator.** Five steps, in plain words: plan it; have the plan checked; do it; have it checked; check it went to plan. Every member, every wake. If a check said stop, the work stopped. It looks slow written down. The checking is what let nobody watch.
+**Narrator.** Five steps, in plain words: plan it; have the plan checked; do it; have it checked; check it went to plan. That was the rule for every member, every wake. If a check said stop, the work stopped. It looks slow written down. The checking is what let nobody watch.
 
 **Figure:** the five-step wake as a loop, with a clock round it: each member's minute marked on the dial. The chapter's infographic, for the designer. The minutes are in the picture, not in any agent's mouth.
 
@@ -115,7 +117,7 @@ Band: *The researcher's first commit at 01:52 and the designer's at 03:41. My la
 
 *Write your one page of rules: what your agent is for, what it may change, and when it must stop and ask you. Then name your hold, and write down who may lift it.*
 
-`%% RL1: the running line ("build" or "ship" something somebody else can use) is not used in this chapter.`
+`%% RL1 decided ("Ship", 2 November 2026, about 21:55 UTC): the running line, "Ship something somebody else can use, then do it again.", is not used in this chapter; it closes chapter 5.`
 
 ---
 
@@ -123,4 +125,4 @@ Band: *The researcher's first commit at 01:52 and the designer's at 03:41. My la
 
 The talk's repository at the end of the day: the first commit, the first commit of each agent, the schedule, the five-step wake and its first run, with the conductor's wake record and debrief of that night. The historian's timeline of the first hours and its interview with the empty chair. The researcher's register for every time and count. Wardley maps, from the researcher's sources. The storyteller's outline for this chapter. Lines kept word for word from the 10-page edition: the four arrival lines, "yesterday's experiment is today's part.", the conductor's line on the minute, and the scene of 02:19.
 
-`%% record: talk repository at 298be4e: 2e4b1f4 1f7c633 97b98d9 20ab1a3 defe526 01e9ed3 c6dcf89 09f13d5 8c66751 5700bab c8f6f8f f448345; team/conductor/wakes/20261029T021416Z.json; team/conductor/debriefs/2026-10-29__the-five-step-wake.md; timeline/cast-scenes.md scenes 1 and 2; timeline/interviews/security.md; timeline/lineage.md; timeline/triggers.md; claims/register.json C001 C011 C022 C071 C087; claims/ps1-sources.md section 4; chapter-plan/edition-30-outline.md chapter 2`
+`%% record: C106 (the year of daily work, his own account); talk repository at 298be4e: 2e4b1f4 1f7c633 97b98d9 20ab1a3 defe526 01e9ed3 c6dcf89 09f13d5 8c66751 5700bab c8f6f8f f448345; team/conductor/wakes/20261029T021416Z.json; team/conductor/debriefs/2026-10-29__the-five-step-wake.md; timeline/cast-scenes.md scenes 1 and 2; timeline/interviews/security.md; timeline/lineage.md; timeline/triggers.md; claims/register.json C001 C011 C022 C071 C087; claims/ps1-sources.md section 4; chapter-plan/edition-30-outline.md chapter 2`
