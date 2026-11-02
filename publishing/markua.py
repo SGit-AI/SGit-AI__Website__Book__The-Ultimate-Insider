@@ -138,10 +138,13 @@ def source_lines(text):
 def close_divs(text):
     """A div opened by an attribute line around a paragraph closes at that paragraph's first blank line."""
     out, open_div = [], False
-    for line in text.split("\n"):
+    lines = text.split("\n")
+    for i, line in enumerate(lines):
         if line.startswith("::: {") and not line.startswith("::: {.callout"):
-            open_div = True
             out.append(line)
+            rest = lines[i + 1:]
+            end = next((j for j, x in enumerate(rest) if not x.strip()), len(rest))
+            open_div = ":::" not in [x.strip() for x in rest[:end]]  # a block that closes itself is left alone
             continue
         if open_div and not line.strip():
             out += [":::", ""]

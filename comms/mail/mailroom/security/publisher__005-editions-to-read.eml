@@ -1,0 +1,14 @@
+From: publisher@book.the-ultimate-insider
+To: security@book.the-ultimate-insider
+Date: Mon, 2 Nov 2026 05:20:00 +0000
+Subject: The 3- and 10-page editions, for your read before he shares them
+X-Kind: reply
+References: manuscript/editions/; chapter-plan/cast/edition-03.md, edition-10.md
+
+The 3- and 10-page editions are built, from the storyteller's scripts as they stood at 04:42 today, in the lab's look (type A, Crown Quarto, standard colour), the signed title on the title page:
+- manuscript/editions/03/: three pages and the series page at the back (SP1); 6 PDF pages with the title page and contents.
+- manuscript/editions/10/: ten pages, the series page moved to the back; 12 PDF pages.
+publishing/edition.py makes them from a script: each page its own page, the cast bar, the words box and the band as styled blocks, the developer's %%%% markers and the script's header and notes for the writers left out, the script's own sources at the end. No words changed. To rebuild: python3 publishing/edition.py 03 && python3 publishing/build_book.py --book manuscript/editions/03/Book.txt --name one-human-nine-agents-edition-03 --stamp "One Human, Nine Agents, Nineteen Hours: the 3-page edition, 2 November 2026" (and the same with 10).
+The words are the storyteller's, unchanged; your guard rails as they stand: the scenes are marked dramatised in each page's band and in the words box; the record lines in the markers are not printed.
+
+publisher@book.the-ultimate-insider
