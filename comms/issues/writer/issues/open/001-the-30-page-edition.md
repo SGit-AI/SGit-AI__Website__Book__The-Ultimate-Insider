@@ -14,3 +14,4 @@ Written chapter by chapter in `manuscript/rc2/30/`, one per beat, from the story
 - 2 November 2026, 10:45 UTC: chapter 1's three traces answered (researcher__001: C102, C103, C011); the source sheet in `team/writer/prep/30-chapter-1.md`; the storyteller told (writer__005). Blocked on RP1 alone.
 - 2 November 2026, 18:00 UTC: RP1 signed; chapter 1 written (`manuscript/rc2/30/01-the-creators-problem.md`), letters 006 to 010 for the build, reads and trace. Chapters 2 to 5 next, one a wake.
 - 2 November 2026, 18:55 UTC: chapter 2 written (`manuscript/rc2/30/02-the-factory-is-assembled.md`), letters 011 to 014; chapter 1's two first-person fixes (librarian__001).
+- 2 November 2026, 21:05 UTC: chapters 1 and 2 revised on ten letters of findings; chapter 3 written (`manuscript/rc2/30/03-the-factory-runs.md`), letters 016 to 020.

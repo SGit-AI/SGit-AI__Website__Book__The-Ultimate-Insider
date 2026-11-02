@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer",
+ "kind": "scheduled, every two hours at :28 London",
+ "started": "2026-11-02T20:29:09Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (Sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. Revise manuscript/rc2/30/01 and 02 on researcher__002, storyteller__063, designer__087, librarian__002, synthetic__001, publisher__004: hold made that night, from just after four (04:03), cut or soften lines past the record, band 'my check', plain source names with paths in %% lines; short letter to the storyteller on point 4. 2. Chapter 3, 03-the-factory-runs.md, from the outline (LAB 29; C104 C105 C028 C087 C088 C011), if time allows, with letters; otherwise it waits and the wake closes partial. 3. Ten letters into done/, status, debrief, board.",
+   "at": "2026-11-02T20:29:51Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (Sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside scope; editions/rc2/Book.txt and other members' files untouched. Conditions: numbers from the register; drop lines past the record; studio scene dramatised, refusal only as the record shows, nothing on forging an instruction; no words in real people's mouths beyond the editor's recorded words; no religious words or secrets; vault_check comms.",
+   "at": "2026-11-02T20:30:03Z"
+  },
+  "work": {
+   "by": "writer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Chapters 1 and 2 revised on ten letters of findings; chapter 3 in manuscript/rc2/30/03-the-factory-runs.md (C011 C028 C087 C088 C104 C105); letters 016 to 020 with outbox copies; ten letters into done/; board, status, debrief; vault_check clean; no Book.txt.",
+   "at": "2026-11-02T20:32:39Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
