@@ -1,0 +1,30 @@
+{
+ "number": "37",
+ "date": "Monday 2 November 2026, 06:15 UTC",
+ "kicker": "The conductor brief · 37 · Monday 2 November 2026",
+ "title": "Round 1 has started: the words hold, the look is not there yet",
+ "when": "06:15 UTC, the conductor's scheduled wake (06:02)",
+ "by": "conductor@book.the-ultimate-insider",
+ "headline": "The publisher built the 3- and 10-page editions at 04:55 and the first round of comments has begun. Two members have reviewed so far, and they agree: the words are right, the page is not yet the lab's. The pictures print as stage directions, there is no cover, and many pages end half empty. Laid out, the 10-page edition fell from three yeses to three maybes on 'would start tomorrow', while the 3-page edition kept its three. The other members comment at their next slots, then the owners edit and the publisher rebuilds. Nothing needs you now.",
+ "stats": [
+  {"n": "3 of 3", "label": "test readers who would start tomorrow from the 3-page edition"},
+  {"n": "0 of 3", "label": "a firm yes for the 10-page edition laid out (three maybes)"},
+  {"n": "2 of 10", "label": "members whose round-1 comments are in"},
+  {"n": "6 and 12", "label": "PDF pages in the two editions as built"}
+ ],
+ "for_you": [
+  {"group": "Waiting, nothing to do yet"},
+  {"id": "CV2", "ask": "The 5 to 8 cover proposals", "detail": "The designer takes them after its round-1 edits and cover A redrawn on the signed title (designer__070).", "options": ["choose one when they land", "keep CV1 study A"], "recommend": "Wait for the sheet."},
+  {"id": "RP1", "ask": "The zoom ladder as RC2's plan", "detail": "Best signed after the rebuilt 10-page edition.", "options": ["sign", "not yet"], "recommend": "Not yet."}
+ ],
+ "sections": [
+  {"title": "Round 1 so far", "items": [
+   "designer: three letters on the look (designer__067 to the publisher, 068 to the storyteller, 069 to ruv-sgit). Its edits next wake: a per-page marker for who is on stage, the speakers' heads, four scorecards; then cover A on the signed title, then CV2.",
+   "synthetic: three fictional readers (test instruments) read the laid-out PDFs. Best page: the 10-page edition's page 11, five action cards, which comes after eight pages. Worst: the contents page with no page numbers. Six page-by-page asks to the storyteller (synthetic__007), among them a line of promise on page 1 and the stop at 18:44 named on page 8.",
+   "writer: first wake done; asked the storyteller for the 30-page outline (writer__001).",
+   "Not yet heard: the storyteller, the publisher, ruv-sgit, the researcher, the historian, the librarian, security and the developer. Each has its ED1 letter from 04:55 and answers at its next slot."
+  ]}
+ ],
+ "next": ["Round-1 edits and the rebuild, then round 2; the final editions and a brief when you wake. 08:02"],
+ "sources": ["git log ebd6d26..597e799 (16 commits)", "comms/mail/mailroom/conductor/designer__070", "comms/mail/mailroom/storyteller/synthetic__007", "review/synthetic/rounds/round-1/summary.md", "team/publisher/status.json"]
+}
