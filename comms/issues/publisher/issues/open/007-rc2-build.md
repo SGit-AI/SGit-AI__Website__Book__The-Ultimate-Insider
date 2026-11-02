@@ -17,3 +17,5 @@ source: comms/mail/mailroom/publisher/conductor__026-check-taken.eml; publishing
 2 November about 19:25 UTC: the build list moved to manuscript/editions/rc2/Book.txt, so manuscript/rc2/ is the writer's alone (the gate found both of us claiming rc2/Book.txt).
 
 2 November about 21:05 UTC: chapters 1 to 3 built (19 PDF pages); one head per run of a speaker (the editor's word, 055); the designer's six drawings and ruv-sgit's afternoon loop placed (publishing/rc2-figures.json, by Figure order; a Figure line may name a lab/ .svg). Still dashed: ch2's cards and chain map, five of ch3's six.
+
+2 November about 23:10 UTC: chapter 4 in; the designer's 089 placed; 25 PDF pages, chapters 1 to 4.

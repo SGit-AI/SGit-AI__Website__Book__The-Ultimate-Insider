@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake (22:47 slot)",
+ "started": "2026-11-02T22:48:48Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "(1) Rebuild editions 03 and 10 (cover A, speakers.css, type A, Crown Quarto), every page looked at, the manuscript/editions diff to security before the conductor adds the PDFs; tell conductor, storyteller, designer. (2) RC2 chapter 4 into the list; rc2-figures.json per designer 089, nulls where a Figure line names its lab/ path; build outside _site; count check passes. (3) Inbox, boards 007/010, records; vault_check, gate; no em-dashes, RW1; scope.writes only.",
+   "at": "2026-11-02T22:49:20Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope; RL1 decided; no HOLD; the 7 SVGs and speakers.css (40 data URIs decoded) hold no script, foreignObject, href, handler, @import or external url(). Conditions: the editions' word changes to security before release; vault_check; scope.writes only; no number outside claims/.",
+   "at": "2026-11-02T22:49:49Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Editions rebuilt for RL1 (6 and 13 pages, same-speaker; a one-line spill fixed with tighter step boxes; book 192, sample 13); changed words to security 010; RC2 chapter 4 and designer 089 placed, 25 pages; letters 010, 035, 009, 015, 007; inbox; boards 007, 010; debrief; status; REALITY; vault_check and gate clean.",
+   "at": "2026-11-02T22:52:09Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Gate clean; 0 outside scope; vault_check clean; nothing under rc2, lab, chapter-plan or briefs; no key, contact, em-dash, religious word or attack shape; the editions' word changes match letter 010 exactly, plus the disclosed same-speaker class.",
+   "at": "2026-11-02T22:52:55Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Both editions rebuilt, words to security, RC2 chapter 4 and 089 placed, records; conditions kept; unplanned only the disclosed CSS tightening.",
+   "at": "2026-11-02T22:52:55Z"
+  }
+ },
+ "closed": "2026-11-02T22:52:55Z",
+ "outcome": "ok"
+}

@@ -132,3 +132,8 @@ figure:has(img.edition-figure) figcaption { font-size: 8.5pt; }
    indent so the run reads as one. The designer may style .same-speaker further in speakers.css. */
 .speaker.same-speaker { min-height: 0; }
 .speaker.same-speaker::before { content: none; }
+
+/* 2 November 2026, the RL1 rebuild: the running line added a line to the 3-page edition's last scene page; the step
+   boxes and the band a hair tighter keep it on one sheet */
+ol > li { padding-top: 3pt; padding-bottom: 3pt; margin-bottom: 4pt; }
+.band { margin-top: 6pt; }

@@ -23,3 +23,5 @@ source: comms/mail/mailroom/publisher/conductor__038-nr1-the-sample.eml
 2 November about 13:45 UTC: the final build cleared by security (006) and traced by the researcher (004). No rebuild: the next waits on RL1 and the storyteller's page-2 caption (the designer's redrawn cards, 078, are already what a rebuild prints).
 
 2 November about 16:10 UTC: the editor read the final build ("look amazing"). The storyteller's page-2 caption is in the script (057); the editions' last rebuild waits on RL1.
+
+2 November about 23:10 UTC: RL1 signed ("Ship"); both editions rebuilt from the storyteller's 069 scripts (6 and 13 PDF pages) with one head per speaker's run; the changed words with security (010) before the conductor adds the PDFs to the release.

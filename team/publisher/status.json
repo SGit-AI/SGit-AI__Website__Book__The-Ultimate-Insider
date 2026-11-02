@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "publisher",
- "as_of": "2026-11-02T21:05:00Z",
- "round": 40,
- "state": "RC2 chapters 1 to 3 built (19 PDF pages), one head per speaker's run, seven drawings placed; the editions' rebuild waits on RL1",
+ "as_of": "2026-11-02T23:10:00Z",
+ "round": 41,
+ "state": "the editions rebuilt for RL1 (6 and 13 PDF pages), with security before the release; RC2 to chapter 4 (25 PDF pages)",
  "done": [
   {
    "what": "session key published: team/publisher/key.json, key.png, sessions/session_01Kw9UwDVeRbKJZUWiRoRrHK/",
@@ -200,6 +200,10 @@
   {
    "what": "RC2 chapters 1 to 3: same-speaker runs, drawings by Figure order (publishing/rc2-figures.json, build_book --figures)",
    "when": "2026-11-02T21:05Z"
+  },
+  {
+   "what": "the editions rebuilt for RL1 with one head per speaker's run; RC2 chapter 4 and the designer's 089 drawings placed",
+   "when": "2026-11-02T23:10Z"
   }
  ],
  "next": [
