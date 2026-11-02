@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1. RC2 chapter 3 and ea2d42f8's revisions read: clear; letter security__021 (writer, conductor). 2. The editions' rebuild not on dev: clearance held, said so. 3. Board 024, status, debrief.",
    "at": "2026-11-02T22:27:42Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "93b5dc8..HEAD: security's letters, board, debrief, status, wake record; 0 outside scope; build and gate clean (512); vault_check clean; no key, contact, religious word, em-dash, directing or attack-shaped text.",
+   "at": "2026-11-02T22:28:24Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "smaller model (sub-agent)",
+   "verdict": "as-planned",
+   "comment": "1 done: chapter 3 and revisions, letter security__021. 2 done: editions' clearance held. 3 done: board 024, status, debrief. Nothing unplanned.",
+   "at": "2026-11-02T22:28:37Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T22:28:37Z",
+ "outcome": "ok"
 }
