@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "reviewer_figure and cast/reviewer-<mood>.svg; LAB 37: five pictures (C011, C022 at build; the first wake's verdicts by git from the record at 298be4e, work partial, not done); lab PDF 110 pages; letters 086 (ruv-sgit), 087 (writer, the record's partial), 088 (publisher, paths); one filed; issue 010; debrief, status.json, REALITY.md.",
    "at": "2026-11-02T19:04:47Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "All files in scope; manuscript/, claims/, the talk's repository untouched; LAB 37's numbers only from C011 and C022, the first wake's verdicts by git from the record (partial, not done); cast AI agents only, the reviewer a member with a clipboard; no em-dashes, religious words, keys or attack-shaped matter; vault_check comms clean.",
+   "at": "2026-11-02T19:06:09Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "All three items in aeabb30; the chain map and four cards left for later as planned; debrief, status.json, REALITY.md updated.",
+   "at": "2026-11-02T19:06:09Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T19:06:09Z",
+ "outcome": "ok"
 }
