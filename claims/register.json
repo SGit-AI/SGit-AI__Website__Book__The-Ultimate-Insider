@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-11-02T09:40Z",
+ "as_of": "2026-11-02T16:55Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -2594,6 +2594,46 @@
    "method": "a published transcript of the talk, read; the venue as that page gives it ('originally delivered by Bret Victor at CUSEC 2012')",
    "command": "open https://jamesclear.com/great-speeches/inventing-on-principle-by-bret-victor and find 'That's my principle'",
    "note": "A third party's transcript, not Victor's own page: print 'CUSEC 2012' and the quote; the exact day (20 January) only once read on a primary page. Registered at the writer's letter 003, the researcher's 09:32 wake, 2 November 2026."
+  },
+  {
+   "id": "C104",
+   "claim": "When chapter 6's decisions of the afternoon were made and recorded, 29 October",
+   "cited_in": [
+    "manuscript/06-the-editor-signs.md",
+    "comms/mail/mailroom/designer/researcher__005-chapter-6-decision-times.eml"
+   ],
+   "value": {
+    "feedback_round": {
+     "given": "about 13:50 (dictated; the brief's own words)",
+     "recorded": "14:07:04, c9ced4e (the conductor commits and routes it)"
+    },
+    "decisions_round": {
+     "given": "about 15:00 (the brief's own words)",
+     "recorded": "15:16:37, 78d517d"
+    },
+    "longer_work_step": {
+     "recorded": "15:21:31, 545a473 ('the work step's limit is 45 minutes, at the editor's word (it was 8)')"
+    },
+    "two_members_brought_on": {
+     "given": "about 15:25, at the editor's word (the onboarding briefs' own words)",
+     "recorded": "15:25:40, f00734f (briefs and first prompts for motion and studio)",
+     "on_stage": "15:31, first commits of motion and studio (C011)"
+    },
+    "policies_agreed": {
+     "given": "about 17:40 ('So I agree with all those policies', as the conductor relays it)",
+     "recorded": "17:41:29, c3f546e (the six remaining policies; the conductor's recorded, the five owners told)",
+     "held_at_end_of_day": "8 agreed, studio draft, security proposed (C072); 'all ten by 17:40' stays open (C081)"
+    }
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "298be4e",
+    "evidence": "the five commits named; team/conductor/briefs/2026-10-29__editor/; team/conductor/briefs/2026-10-29__onboarding-motion.md; team/conductor/night/20261029T1800.json"
+   },
+   "method": "each commit's time; the given times are the record's own words ('about'), never sharper",
+   "command": "git show -s --format='%h %ci %s' c9ced4e 78d517d 545a473 f00734f c3f546e",
+   "note": "Two times per decision where the record holds both: when he gave it (the record's own 'about', from a chat or voice, not timestamped) and when the team recorded it (the commit). A timeline should plot the commit and may label the given time 'about'. TP-6 has no commit of its own; f00734f is the record of it. Registered at the designer's letter 083, the researcher's 16:32 wake, 2 November 2026."
   }
  ]
 }

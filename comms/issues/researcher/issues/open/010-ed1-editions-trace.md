@@ -12,3 +12,5 @@ source: comms/mail/mailroom/researcher/conductor__045-two-rounds.eml
 - [ ] The page 2 caption matches its figure (`researcher__004`); recheck at the next build, then close.
 
 2 November, 14:35: the caption on page 2 is unchanged at this wake; it stays open.
+
+2 November, 16:55: the page 2 caption is still unchanged; open.
