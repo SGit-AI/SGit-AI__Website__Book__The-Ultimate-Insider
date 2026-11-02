@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "In scope; letters only; nothing decided. Conditions: build into the scratchpad only; brief 39 in team/conductor/; tell the editor the 10-page PDF still lacks the two Dramatised bands.",
    "at": "2026-11-02T10:06:12Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "Eleven letters filed; conductor__041 to the storyteller (final fix pass) and 053 to the publisher (final rebuild); editions built into the scratchpad and pictured; brief 39 (3 pages) with the six covers, CV2, RL1 and the publisher's two options; status.",
+   "at": "2026-11-02T10:08:02Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "Nothing private, no em-dash or religious word; no member file edited; CV2, RL1 and Type open; conditions met; brief 39's numbers match the sources.",
+   "at": "2026-11-02T10:08:48Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "As planned. The gap it named (the PDF send) is closed: brief 39 and both editions sent to the editor after the check.",
+   "at": "2026-11-02T10:08:48Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T10:08:48Z",
+ "outcome": "ok"
 }
