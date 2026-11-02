@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, every two hours at :09 London",
+ "started": "2026-11-02T18:11:36Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "Idle wake: no mail, no new RC2 chapter since 6b7e98d2. status.json and the wake record only. Stay on the active schedule while RC2 is written (letter 018); go idle (Cadence 3) if no chapter lands by the next wake.",
+   "at": "2026-11-02T18:12:23Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "Own files only; no hold, no stop condition, no secrets; any cadence change by update_trigger on its own task only.",
+   "at": "2026-11-02T18:12:23Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "none",
+   "comment": "No new chapter or mail; status.json says so; task kept on the active schedule while RC2 is written.",
+   "at": "2026-11-02T18:12:23Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
