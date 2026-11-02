@@ -1,0 +1,38 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-02T12:37:22Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Full trace of the final build against the 09:32 trace; letter only on a finding; close 010 only if clean; in scope.",
+   "at": "2026-11-02T12:37:52Z"
+  },
+  "pre_review": {
+   "by": "security pre-review sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "In scope; talk repo read-only; letter only on a finding; vault_check before commit.",
+   "at": "2026-11-02T12:38:06Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Final build traced: four fixes in, every number holds, one caption finding (letter to the publisher); board 010 closed; two letters filed.",
+   "at": "2026-11-02T12:39:07Z"
+  },
+  "post_review": {
+   "by": "security post-review sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "In scope; no secrets, dashes, RW1 words or anything attack-shaped; nothing toward the Cold-Read repository.",
+   "at": "2026-11-02T12:40:50Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

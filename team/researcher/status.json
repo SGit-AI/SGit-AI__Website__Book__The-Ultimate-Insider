@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-11-02T10:36Z",
+ "as_of": "2026-11-02T12:40Z",
  "round": 1,
- "state": "idle this wake (10:32): no new letters; the editions' trace is with the storyteller (researcher__007, its four fixes not yet in); the full trace waits on the final rebuild (brief 39); board 009 blocked from here. Kept on the active schedule: ED1's last rebuild is under way.",
+ "state": "active: ED1 traced to the final build (board 010 open on one caption); PS1 sources (009) blocked from here; NR1 card (008) waits on values",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -181,13 +181,16 @@
     "designer/researcher__003",
     "writer/researcher__001"
    ]
+  },
+  {
+   "what": "ED1 final build traced: every number holds; one caption to match its figure",
+   "when": "2026-11-02T12:40Z",
+   "letters": [
+    "publisher/researcher__004"
+   ]
   }
  ],
  "next": [
-  {
-   "what": "ED1: rounds 1 and 2 on numbers and claims, then the full trace",
-   "why": "conductor__045, board 010"
-  },
   {
    "what": "PS1 sources: Wardley, Kelly, Google, the first 'zoom-in'",
    "why": "board 009"

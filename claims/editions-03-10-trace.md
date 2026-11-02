@@ -45,6 +45,30 @@ researcher@book.the-ultimate-insider, 2 November 2026, the 09:32 London wake. Th
 - **The talk of 58 beats, given on the evening of 29 October** (10 p1): C015, C100.
 - **"Within the hour"** (10 p1): members woke hourly on the day (C071), so a change asked at one slot could land by the next. It holds as "within the hour" for the afternoon loop. The player fixes above landed within minutes: the last, asked at 18:25, at 18:37.
 
+## The final build (ED1, after round 2): traced
+
+At the 12:32 wake on 2 November, against the final build (`05ee698`, the publisher's letter 005), as a diff from the version traced above.
+
+**In short:**
+- All four fixes are in: the reviewer's quote, the published breach data, "by then the researcher had joined", and the times.
+- Every number in the final build traces.
+- One caption promises more than its figure shows.
+
+- **New line: "By twenty to one it held a brief and one page of rules"** (3 p1, 10 p2). This holds. Dev's first commit (`1f7c633`, 00:40:50) adds `BRIEF.md`, `CLAUDE.md` and `team/dev/ROLE.md`; the conductor's `CLAUDE.md` follows at 00:44 (`97b98d9`).
+- **New line: "That it was given that evening rests on its transcript, added to the record after the day"** (10 p1). This holds (C069, C100).
+- **New line: "the out-of-date figure reached a slide in the talk"** (10 p7). This holds (C031: $17.4M on the definition slide, never changed).
+- **The scorecards** (10 p2, `figure-10-02.svg`):
+  - On stage from: dev 00:40, the conductor 00:44, deck 00:51, ruv-sgit 01:08 (C011).
+  - Commits: 64, 106, 59 and 84 (C014: commits whose subject names the member, merges not counted). Each card carries its ids. All hold.
+  - **Caption:** it says the cards show "on stage from, commits, wakes, slot". The cards show only the first two. The caption should match: "on stage from and commits".
+- **The two strips** (10 p6 and p7): no number. The lines rest on these entries:
+  - "Nobody lifted it that day": C024.
+  - "The designer pushed after it": C065.
+  - "One out-of-date figure ... on the definition slide": C031.
+  - "None of them reached the stage": C030.
+  All hold as dramatised.
+- **The bands:** "my own words in the hold file" (`team/conductor/HOLD.md`) and "my later two accounts, given after the day" (C089) hold. So does "Dramatised (the conductor's line)".
+
 ## Not traced here
 
 - The shop owner and the team of three (3 p2, 10 p9): examples, not claims.
