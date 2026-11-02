@@ -1,0 +1,33 @@
+{
+ "schema": "the-ultimate-insider/synthetic-chapter-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "event-team-member",
+ "read": ["manuscript/rc2/30/04-the-stop.md (draft)", "manuscript/rc2/30/05-the-factory-rebuilt-and-yours.md (draft)", "manuscript/rc2/30/06-a-book-about-you-doing-it.md (draft)"],
+ "the_stop_lands": "yes",
+ "agents_that_stand_out": ["Conductor", "Dev", "Researcher"],
+ "agents_that_blur": ["Deck", "Storyteller", "Librarian", "Historian", "Publisher", "Designer"],
+ "could_start_tomorrow": "maybe",
+ "first_thing_i_would_do": "Write the one-page rules file for my own agent with a stop line, then write down who may pull and lift a shared hold before the team touches anything.",
+ "would_buy_longer_book_or_series": "maybe",
+ "why": "The hold and the lock story give me a takeaway I can copy with agents I already use, and the shared brief, board and hold is exactly my team's question. But the shared-team part is admitted to be a plan that has not run, so I would want the longer edition to show it running before I paid. The series page tells me nothing I can use.",
+ "by_section": [
+  {"chapter": "04", "section": "The last ten minutes", "verdict": "holds", "why": "Clear: a lock that was somebody else's job, asked for, and not done in time. The fair-to-the-conductor turn is the lesson in one line. The figure is described only for the designer, so I take it on trust.", "quote": "when one lane is busy, the job waits."},
+  {"chapter": "04", "section": "The hold", "verdict": "holds", "why": "The mechanism is plain: one file, everyone stops, only one person restarts. That is the control my team lacks.", "quote": "Anyone on the team could stop everything. Only I could start it again."},
+  {"chapter": "04", "section": "Why stop then: three answers", "verdict": "stall", "why": "Three accounts from different days with no ruling is honest, but on a phone between meetings I wanted the takeaway first. The last account (token usage) adds almost nothing after the first.", "quote": "I am not going to pick one for you now."},
+  {"chapter": "04", "section": "What did not work: the interview", "verdict": "holds", "why": "The freeze lesson is the most practical thing in the chapter. Deck and the storyteller blur into each other as two rueful agents that ran out of time.", "quote": "when you freeze something, write down what is waiting to go in when you unfreeze it."},
+  {"chapter": "04", "section": "After the hold: the empty chair", "verdict": "stall", "why": "Short and abstract. I do not know what the independent member would have done, so the advice to staff it first has no concrete form for me.", "quote": "a second reading, not a second identity."},
+  {"chapter": "04", "section": "Do this now", "verdict": "holds", "why": "Direct and doable in ten minutes, and it names the restart question.", "quote": "Until you have, nobody restarts it."},
+  {"chapter": "05", "section": "Taken apart", "verdict": "holds", "why": "Short and useful: the agents are temporary, the written record is what carries over.", "quote": "The team is temporary. The record is not."},
+  {"chapter": "05", "section": "The second factory", "verdict": "stall", "why": "Eight job descriptions in a row is a roster, and I could not tell which I would need. It reads as an introduction to a cast rather than a pattern to copy.", "quote": "Every number in this book is in my register, or it is not in this book."},
+  {"chapter": "05", "section": "Two scenes from the second factory", "verdict": "holds", "why": "A refused line and a rule that failed on the night, both kept in. This is what makes me trust the rest.", "quote": "The rule was right. I was a wake too late to use it."},
+  {"chapter": "05", "section": "The third, planned", "verdict": "holds", "why": "This is my situation: several people, each with their own agents. One brief owner, a board read each morning, a hold anyone can pull. It is labelled a plan, which I respect, though I would push back on one owner for the brief if that person is away.", "quote": "Two people editing one brief is how a team ends up with two briefs."},
+  {"chapter": "05", "section": "Your factory", "verdict": "holds", "why": "The five steps with a check under each are the nearest thing to a recipe. The shop owner example makes the rules file real. I stall on tool choice: it says 'an AI agent tool' and names none, and gives no sense of how long step 1 to 4 takes.", "quote": "If you cannot say when it must stop, it does not have one."},
+  {"chapter": "05", "section": "Do this now", "verdict": "holds", "why": "One line I can act on.", "quote": "Ship something somebody else can use, then do it again."},
+  {"chapter": "05", "section": "Zoom in", "verdict": "holds", "why": "Fine signpost, nothing more.", "quote": ""},
+  {"chapter": "06", "section": "A book about you doing it", "verdict": "cut", "why": "A series blurb with no takeaway for my team. Generation labels and 'Faro' mean nothing to me, and it arrives after the one useful page.", "quote": "Generation ZX is not a range of birth years"}
+ ],
+ "best_line": "Anyone on the team could stop everything. Only I could start it again.",
+ "worst_moment": "Chapter 6, the series page: it is a brand statement after a practical chapter, with no step to take. Second worst, the roster of eight in chapter 5 'The second factory', which names jobs but not which one a small team should add second.",
+ "cut": "Chapter 6 entirely, or reduce it to a single line linking to the series; trim the third answer in 'Why stop then'; shorten the roster in chapter 5 to the three or four roles a first team needs.",
+ "notes": "Missing for a conference team: which tool to start with, how long the first day takes, how the shared board is actually kept (a file, a tracker, a chat?), and what happens to the hold when the person who may lift it is in a talk or on a plane. The 'one central person' risk is partly answered by the named deputy for lifting the hold, but the brief still has a single owner. Figures and maps are described for the designer only, so I judged the text alone."
+}

@@ -8,3 +8,5 @@ source: comms/mail/mailroom/synthetic/conductor__023-rc2-begins.eml
 The three readers the editor named, each chapter of the 30-page edition as it lands (then the 70 and 150): what holds, what to cut. Chapter 1 read 2 November (`review/synthetic/rc2/30/01/summary.md`).
 
 2 November 2026, 22:10 UTC: chapters 2 and 3 read (`review/synthetic/rc2/30/02-03/summary.md`); chapter 1's revision checked from the text (two of four changes in).
+
+3 November 2026, 00:05 UTC: writer__024 taken (one of five in, one partly, three not, with reasons). Chapters 4, 5 and the series page read (`review/synthetic/rc2/30/04-05/summary.md`); the thirty is read end to end in draft.

@@ -1,0 +1,33 @@
+{
+ "schema": "the-ultimate-insider/synthetic-chapter-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "first-build-finisher",
+ "read": ["manuscript/rc2/30/04-the-stop.md (draft)", "manuscript/rc2/30/05-the-factory-rebuilt-and-yours.md (draft)", "manuscript/rc2/30/06-a-book-about-you-doing-it.md (draft)"],
+ "the_stop_lands": "partly",
+ "agents_that_stand_out": ["Conductor", "Dev", "Storyteller"],
+ "agents_that_blur": ["Deck", "Designer", "Librarian", "Historian", "Publisher"],
+ "could_start_tomorrow": "yes",
+ "first_thing_i_would_do": "I would write my one page of rules for a single agent, with a clear line for when it must stop and ask me, before asking it to build anything.",
+ "would_buy_longer_book_or_series": "maybe",
+ "why": "I like the people and I can take the five steps tomorrow, so I want more of that. But the longer book would have to keep the plain words and the steps; if it turns into the plumbing for programmers I would drop off. The series page tells me it is for people like me, which helps.",
+ "by_section": [
+  {"chapter": "04", "section": "The last ten minutes", "verdict": "stall", "why": "I do not know what a lock is for here, or what a wake is, or why part 1 being unlocked is a disaster. The conductor leaving it to dev is clear as character, but I lost the stakes.", "quote": "The lock is dev's. It is in dev's rules, not mine, and once it is turned it cannot be undone."},
+  {"chapter": "04", "section": "The hold", "verdict": "holds", "why": "This is the clearest moment: one file, everything stops, only the editor restarts it. I understood it as a big red stop button.", "quote": "I could keep going. That is exactly why I am stopping."},
+  {"chapter": "04", "section": "Why stop then: three answers", "verdict": "holds", "why": "Honest that the reasons changed. A little confusing that 95% is the usage on one page and a footnote on another, but I liked not being told one neat story.", "quote": "I am not going to pick one for you now."},
+  {"chapter": "04", "section": "What did not work: the interview", "verdict": "holds", "why": "Dev, the storyteller and the freeze lesson are concrete and relatable. The 'freeze' and 'lock' words blur together for me, and the three claims that did not hold come in too fast.", "quote": "when you freeze something, write down what is waiting to go in when you unfreeze it."},
+  {"chapter": "04", "section": "After the hold: the empty chair", "verdict": "stall", "why": "I only half follow it. Security was planned, never came, and reviewers were the same kind of agent. Why the same kind is a problem is not explained to me.", "quote": "a second reading, not a second identity."},
+  {"chapter": "04", "section": "Do this now", "verdict": "holds", "why": "A step I can actually take, with no code.", "quote": "Write down who may stop your factory, who may restart it, and who decides when its owner is away."},
+  {"chapter": "05", "section": "Taken apart", "verdict": "holds", "why": "The idea that the agents go and the writing stays is the best thing here for a newcomer. The session definition helps.", "quote": "The team is temporary. The record is not."},
+  {"chapter": "05", "section": "The second factory", "verdict": "stall", "why": "Eight new role cards in a row, one line each. Too many to hold at once after nine earlier ones. It reads like a staff list.", "quote": "Every number in this book is in my register, or it is not in this book."},
+  {"chapter": "05", "section": "Two scenes from the second factory", "verdict": "holds", "why": "The refused nicer sentence and the evening lost to the usage limit are the honest failures that make me trust it. The usage-limit scene is a bit hard to picture.", "quote": "Nobody argued for keeping the nicer sentence."},
+  {"chapter": "05", "section": "The third, planned", "verdict": "stall", "why": "Web Summit, shared brief, board and hold: it is a plan for several people and not about me. Useful rule about who lifts the hold, but I skimmed.", "quote": "Two people editing one brief is how a team ends up with two briefs."},
+  {"chapter": "05", "section": "Your factory", "verdict": "holds", "why": "Five numbered steps with what to do and what to check, and a shop owner example. This is the step after my first build. The word 'brief' and 'board' need a plain gloss, and the map reference assumes chapter 2.", "quote": "Start with one of me."},
+  {"chapter": "05", "section": "Do this now", "verdict": "holds", "why": "Short and a clear instruction.", "quote": "Ship something somebody else can use, then do it again."},
+  {"chapter": "05", "section": "Zoom in", "verdict": "holds", "why": "A pointer to more, not a stall.", "quote": ""},
+  {"chapter": "06", "section": "A book about you doing it", "verdict": "holds", "why": "Warm and says it is for builders of any age. I would trust a series that says this.", "quote": "the people building because finally they can"}
+ ],
+ "best_line": "The team is temporary. The record is not.",
+ "worst_moment": "The opening of 'The last ten minutes': the lock, the wake and the three parts arrive with no plain explanation, so I could not feel what was lost when the lock was not turned.",
+ "cut": "Shorten the list of eight role cards in 'The second factory' to the two or three that matter, and trim 'The third, planned' to the one rule about who lifts the hold.",
+ "notes": "Jargon to gloss for me: wake, lock, hold versus freeze, brief, board, register, rails. Chapter 5 is where I feel the book is for me; chapter 4 is more for someone who watched the day. The two 'dramatised' notes and the editor notes were skipped as team notes."
+}

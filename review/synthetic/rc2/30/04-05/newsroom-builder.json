@@ -1,0 +1,32 @@
+{
+ "schema": "the-ultimate-insider/synthetic-chapter-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "newsroom-builder",
+ "read": ["manuscript/rc2/30/04-the-stop.md (draft)", "manuscript/rc2/30/05-the-factory-rebuilt-and-yours.md (draft)", "manuscript/rc2/30/06-a-book-about-you-doing-it.md (draft)"],
+ "the_stop_lands": "yes",
+ "agents_that_stand_out": ["Conductor", "Dev", "Researcher", "Storyteller"],
+ "agents_that_blur": ["Deck", "Librarian", "Publisher", "Designer"],
+ "could_start_tomorrow": "yes",
+ "first_thing_i_would_do": "Write one page of rules for a single research-and-draft agent, with the stop line first: it may gather and draft from named sources, and it must stop and ask me before anything is published.",
+ "would_buy_longer_book_or_series": "maybe",
+ "why": "The chapters give me what I judge by: the failures are named with commit ids, and the editor is the one who signs and the only one who restarts. I would buy the longer book for the register of claims and the brakes chapter. The series page tells me nothing about whether it is for newsrooms, so I would not commit to the series on that page alone.",
+ "by_section": [
+  {"chapter": "04", "section": "The last ten minutes", "verdict": "holds", "why": "The unlocked part and the conductor's honest refusal to take another lane's irreversible job are clear, and the fair-minded narrator is credible. The figure is only a brief to the designer, so I could not check the minute-by-minute claim.", "quote": "A rule that keeps everyone in their lane also means that when one lane is busy, the job waits."},
+  {"chapter": "04", "section": "The hold", "verdict": "holds", "why": "This is the control I care about: anyone may stop, only the editor restarts. It is not a rubber stamp.", "quote": "Anyone on the team could stop everything. Only I could start it again."},
+  {"chapter": "04", "section": "Why stop then: three answers", "verdict": "stall", "why": "I like that three accounts are kept with dates. But the second and third are thin, and 'the 95% was the token usage' reads as a correction without saying what the 95% was before. The editor does not choose, which leaves me unsure what to cite.", "quote": "I am not going to pick one for you now."},
+  {"chapter": "04", "section": "What did not work: the interview", "verdict": "holds", "why": "The freeze that hid a correction is a real editorial lesson: a held story missing its late fix. Specific, sourced, transferable.", "quote": "when you freeze something, write down what is waiting to go in when you unfreeze it."},
+  {"chapter": "04", "section": "After the hold: the empty chair", "verdict": "stall", "why": "Too short to carry its weight. It asserts that reviewers shared an identity with the people they read, but gives one example at most. For a newsroom, independent standing-apart is the whole point, so I wanted a concrete catch or miss.", "quote": "I would staff it first, next time."},
+  {"chapter": "04", "section": "Do this now", "verdict": "holds", "why": "Actionable: who stops, who restarts, who decides in the owner's absence. I would do it today.", "quote": "Until you have, nobody restarts it."},
+  {"chapter": "05", "section": "Taken apart", "verdict": "holds", "why": "The team is temporary and the record is not. That is the archive-and-corrections-log idea a newsroom already understands.", "quote": "The team is temporary. The record is not."},
+  {"chapter": "05", "section": "The second factory", "verdict": "stall", "why": "Twelve roles in a run of one-liners; the second half of the list blurs. I wanted to know which one a newcomer starts with before reading the whole cast.", "quote": "Every number in this book is in my register, or it is not in this book."},
+  {"chapter": "05", "section": "Two scenes from the second factory", "verdict": "holds", "why": "The best section for me. A source-checker catches the author's nicer sentence and it is corrected in the open. The failed brake on 1 November stays in.", "quote": "Nobody argued for keeping the nicer sentence."},
+  {"chapter": "05", "section": "The third, planned", "verdict": "holds", "why": "Honestly labelled as a plan that has not run. One brief owner, one morning board, one hold: very close to a desk.", "quote": "Two people editing one brief is how a team ends up with two briefs."},
+  {"chapter": "05", "section": "Your factory", "verdict": "holds", "why": "Five steps with a 'what to check' under each. The shop-owner examples translate easily to a newsroom. The cost line is dated and admits that the day's own cost is not in the record.", "quote": "If you cannot say when it must stop, it does not have one."},
+  {"chapter": "05", "section": "Do this now / Zoom in", "verdict": "cut", "why": "The two lines repeat the five steps and the pointer to the longer edition, and add nothing here.", "quote": ""},
+  {"chapter": "06", "section": "A book about you doing it", "verdict": "stall", "why": "Brand and mood with no source I can check. 'Not a range of birth years' is vague, and I do not see why a writer launching a publication should care about the series.", "quote": "Generation ZX is not a range of birth years"}
+ ],
+ "best_line": "Nobody argued for keeping the nicer sentence.",
+ "worst_moment": "Chapter 6, the series page: 'the youngest and the most experienced side by side, as they were in the room in Faro'. It is a claim about a room that I cannot trace, and it reads as marketing after two chapters of traced failures.",
+ "cut": "The chapter 5 'Do this now' and 'Zoom in' repeat the steps and the longer edition. Trim the second-factory cast list to the roles a newcomer would start with.",
+ "notes": "Contradiction to check: chapter 4 says security's chair never came, and chapter 5 says this time security came. That works, but a one-line pointer in chapter 4 would help a reader who stops there. For a newsroom I would also like one concrete example of the editor's signature stopping something, since the editor's control is what I am judging. Figures are all designer briefs in this draft, so I could not judge them."
+}
