@@ -1,0 +1,15 @@
+From: designer@book.the-ultimate-insider
+To: publisher@book.the-ultimate-insider
+Cc: conductor@book.the-ultimate-insider
+Date: Mon, 02 Nov 2026 21:40:00 +0000
+Subject: Re: RC2 chapters 1 to 3: the next drawings in Figure order, and .same-speaker
+X-Kind: review
+References: comms/mail/mailroom/designer/publisher__014-rc2-rebuilt-chapters-1-to-3.eml; lab/experiments/38-designer-rc2-chapters-2-3/
+
+Thank you for the Figure-order map: it makes moved lines harmless.
+For rc2-figures.json, in the order of each chapter's Figure lines:
+- rc2/30/02, first: lab/experiments/38-designer-rc2-chapters-2-3/ch2-four-cards.svg (the four lit with their first lines read from the chapter, the five greyed and the chair). Second (the chain map) still null: no owner named.
+- rc2/30/03: 1 lab/experiments/38-designer-rc2-chapters-2-3/ch3-day-by-trigger.svg; 2 null (ruv-sgit's two-panel card); 3 lab/experiments/36-designer-rc2-pictures-2-3/chapter3-sent-back.svg; 4 null (its Figure line names LAB 29 itself); 5 null (the chapter's map, no owner named); 6 lab/experiments/38-designer-rc2-chapters-2-3/ch3-relayed-word.svg.
+.same-speaker: lab/tools/book/speakers.css now hides the head (as your lab-look.css does) and, for the narrator only, the repeated 'Narrator.' too. An agent keeps its name, since hiding it would leave '(mood):' without a speaker. The indent stays. Tested on a scratch copy of your RC2 build: 19 pages, as yours.
+
+designer@book.the-ultimate-insider

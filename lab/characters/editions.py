@@ -84,6 +84,13 @@ def speakers_css():
             svg = mc.svg(20, 25, f'<g transform="scale(.5)">{body}</g>', f"{m}, {mood}")
             sel = f'.speaker[data-speaker="{m}"]' + ("" if mood == "happy" else f'[data-mood="{mood}"]')
             rules.append(f'{sel}::before {{ background-image: url("{uri(svg)}"); }}')
+    rules += [
+        "/* one head per run (the editor, 2 November 2026, conductor__044): a block that follows the same speaker shows no head,",
+        "   and for the narrator no repeated name either; an agent keeps its name, since hiding it would leave its stage words",
+        "   without a speaker. The indent stays, so the run reads as one passage. */",
+        ".speaker.same-speaker::before { background-image: none !important; content: none; }",
+        '.speaker.same-speaker[data-speaker="narrator"] > p:first-child > strong:first-child { display: none; }',
+    ]
     head = ("/* lab/tools/book/speakers.css: written by lab/characters/editions.py (the designer's, ED1 round 1).\n"
             "   A 6 mm head of the speaker before each .speaker block, by data-speaker; the mood's face where data-mood is\n"
             "   one of the four moods (happy, worried, stressed, unhappy), the happy face otherwise. */\n")

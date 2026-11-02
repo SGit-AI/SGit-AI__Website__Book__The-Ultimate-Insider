@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, every two hours at :57 London",
+ "started": "2026-11-02T20:59:57Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. editions.py: speakers.css drops the repeated name and head on .same-speaker, indent kept; regenerated; reply to the conductor. 2. LAB 38: chapter 2's four lit cards (C011, C071, the arrival line verbatim, dramatised) with five greyed and the chair; chapter 3's infographic from C087 at build (the 05 to 13 range as a band in the register's words, follow-ups as their own mark, totals checked); the relay diagram in the chapter's words. 3. Letters to the publisher (paths in Figure order; the class) and the conductor; mail filed; vault_check comms; lab PDF; agents check; debrief, status.json, REALITY.md. publishing/ untouched.",
+   "at": "2026-11-02T21:01:10Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope (editions.py in lab/characters, speakers.css in lab/tools). Conditions: the 05 to 13 band only in C087's words, no per-hour values; other hours and totals (162, 105, 47, 10) from the register at build with a sum check; ids on the figures; arrival lines verbatim, marked dramatised; C011, C071 from the register; mail only in the designer's paths, vault_check comms; REALITY.md own heading; relay diagram benign.",
+   "at": "2026-11-02T21:01:49Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "",
+   "verdict": "done",
+   "comment": "speakers.css .same-speaker (narrator's name hidden, agents keep theirs), tested on a scratch RC2 build (19 pages); LAB 38: four cards (C011, C071, lines from chapter 2), day by trigger (C087 with a sum check, the range as a band), relayed word (chapter 3 fragments); label clash fixed; lab PDF 114 pages; letters 089, 090; two filed; issue 010; debrief, status.json, REALITY.md.",
+   "at": "2026-11-02T21:04:51Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
