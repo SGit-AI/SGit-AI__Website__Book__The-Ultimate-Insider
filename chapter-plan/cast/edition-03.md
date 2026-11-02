@@ -3,7 +3,11 @@
 storyteller@book.the-ultimate-insider, 1 November 2026, the 14:40 UTC wake. **A script for the editor's read, then the publisher and the designer.** The arc and rules are in `chapter-plan/zoom-ladder.md`; the characters in `cast-guide.md`; every scene rests on `timeline/cast-scenes.md` and is marked dramatised. Narrator lines are the editor's; agent lines are the characters'; *(record)* marks a line quoted word for word. No codes in the text: the record sits in the `%%` markers and the foot notes.
 
 
-**Title page:** **One Human, Nine Agents, Nineteen Hours**: *How a factory of AI agents built a presentation in a day, and how to build yours*. In the Gen ZX Founders series. *(Nineteen hours rounds 18 h 44 min, C010; nine agents, C011: the first page that uses either number gives it exactly.)*
+**Title page:** **One Human, Nine Agents, Nineteen Hours**: *How a factory of AI agents built a presentation in a day, and how to build yours*. In the Gen ZX Founders series.
+
+**Under the subtitle:** *For anyone with an idea and no team yet: by the last page you will know the four steps to set up your own factory of agents, and you can start the same day.*
+
+*(Nineteen hours rounds 18 h 44 min, C010; nine agents, C011: the first page that uses either number gives it exactly.)*
 
 ---
 
@@ -23,9 +27,9 @@ storyteller@book.the-ultimate-insider, 1 November 2026, the 14:40 UTC wake. **A 
 
 **ruv-sgit** *(absorbed, the night owl)*: I will be in my workshop all night, making things you can check.
 
-**Narrator.** None of it was new. Each piece came from something I had built before. What was new was having them all at once, working together, in an hour.
+**Narrator.** None of it was new. Each piece came from something I had built before. What was new was having them all at once, working together: the first four arrived within the hour, and the rest joined through the day.
 
-*Words on this page:* an **agent** is an AI that works in a loop: it reads, decides, acts with tools, and checks the result. The **conductor** is the agent that keeps the team's time and plan. A **hold** is one short file that stops every agent until the person in charge says go. A **check** is a test every change must pass before it goes out (the team called it the gate). A **reviewer** is a second agent that reads the plan before the work and the result after it. A **debrief** is the short note an agent writes at the end of each turn. The **researcher** is the agent that checks every fact against its source.
+*Words on this page:* an **agent** is an AI that works in a loop: it reads, decides, acts with tools, and checks the result. The **conductor** is the agent that keeps the team's time and plan. A **hold** is one short file that stops every agent until the person in charge says go.
 
 *How to read the scenes:* they are dramatised. The words the agents say are ours, written for this book; the events are the record's, and a line marked *(record)* is quoted word for word. Online, under each scene, you can open the commits, times and files it rests on.
 
@@ -38,6 +42,8 @@ Band: *Dramatised. Rests on each agent's first commit after midnight.*
 
 **Narrator.** Then I went quiet, and they did not. Through the night and the morning they worked on a clock: plan, have the plan checked, do the work, have it checked, check it went to plan.
 
+*Words on this page:* a **check** is a test every change must pass before it goes out. A **reviewer** is a second agent that reads the plan before the work and the result after it. A **debrief** is the short note an agent writes at the end of each turn.
+
 **Conductor** *(worried)*: I built the checks, and the first thing they caught was me. "Name it in the debrief or record." *(record)* Fair.
 
 **Narrator.** Later the researcher joined, the one who checks every fact.
@@ -46,7 +52,7 @@ Band: *Dramatised. Rests on each agent's first commit after midnight.*
 
 **Deck** *(exacting, to ruv-sgit)*: "What it is not yet is a picture a room reads in five seconds." *(record)* Again, please.
 
-**Narrator.** In the afternoon I came back, saw what they had made, and asked for changes. That was the point: I could see an idea on the screen, ask for it differently, and see it again within the hour. A storyteller joined and told me, with the team's own data, that one of my lines did not hold. I kept the line. The book keeps the argument.
+**Narrator.** In the afternoon I came back, saw what they had made, and asked for changes. That was the point: I could see an idea on the screen, ask for it differently, and see it again within the hour. The researcher checked one of my lines against the team's own data, and it did not hold. The storyteller brought it to me as the strongest objection to my own first part. I kept the line. The book keeps the argument.
 
 **Narrator.** It does not have to be a talk. A shop owner could set up the same team to answer customers, keep the stock list true and write the weekly offer, with the same brief, the same rules and the same hold. And it does not have to be one person: a team of three can each run their own agents, as long as they share one brief, one board where the work is written down, and one hold anyone can pull.
 
@@ -58,7 +64,7 @@ Band: *Dramatised. Rests on the night's five-step wakes, the six alone from five
 
 **Cast bar:** all nine. Security's chair, planned at midnight, is empty.
 
-**Narrator.** At 18:44, sixteen minutes before I went on stage, I told the conductor: "actually we are at 95% so it is better to pause all actions". *(record)* It wrote one file, and every new piece of work stopped. What was already in flight still landed. Then the factory was taken apart.
+**Narrator.** At 18:44, sixteen minutes before the talk was due, I told the conductor: "actually we are at 95% so it is better to pause all actions". *(record)* It wrote one file, and every new piece of work stopped. What was already in flight still landed. Then the factory was taken apart.
 
 **Conductor** *(at ninety-five, then calm)*: I could keep going. That is exactly why I am stopping.
 
@@ -74,7 +80,7 @@ Band: *Dramatised. Rests on the night's five-step wakes, the six alone from five
 
 *What it costs:* to start, you need a free account; paid plans of the kind the team used start at $20 a month (prices as published on 2 November 2026). The record of my own day holds no figure for what it cost.
 
-**Zoom in:** meet the whole cast, and see the five steps of a working day, in the ten-page edition.
+**Want more?** The ten-page edition meets the whole cast, follows the day hour by hour, and walks the five steps for a team.
 
 `%% record: 2ed6427 867f8c2 C006 C024 C065 C089`
 Band: *Dramatised. Rests on the hold at 18:44; the price line on the register (C101, as published 2 November 2026; C037: the day's own cost not in the record) and what landed after it; the editor's three accounts of why are in the ten-page edition's note.*
@@ -94,3 +100,5 @@ Band: *Dramatised. Rests on the hold at 18:44; the price line on the register (C
 **Read by synthetic** (`review/synthetic/zoom/edition-03/summary.md`, letter 004): its five changes are in (00:40 UTC, 2 November): the cost line (C101), who does each step, a trait for dev, deck and ruv-sgit and the researcher introduced before it speaks, a team of several people, and the check, reviewer and hold glossed.
 
 **Read again by synthetic** (`review/synthetic/zoom/edition-10/summary.md`, letter 005): its five further changes are in (02:40 UTC, 2 November): a box for teams of several (3-page), who may lift the hold when its owner is away, one word for it (hold) with the glosses on the page, a line on what "dramatised" means, and page 2 written out (10-page).
+
+**ED1 round 1** (02 November, 06:40 UTC): the round's points in this edition's lane are in (synthetic 007, items 1 and 2; the writer's 1, 4 and 9). Left for the editor: the running line's wording (the writer's point 8).

@@ -5,7 +5,11 @@ storyteller@book.the-ultimate-insider, 2 November 2026, the 00:40 UTC wake. **A 
 **The five beats, and their pages:** the creator's problem (1); the factory assembled (3, 4); the factory running (5, 6); the stop (7, 8); the factory rebuilt, and yours (9, 10). Page numbers are kept from the draft the readers read; with the series page at the back, the publisher renumbers. The series page goes at the back (SP1, the editor's "Yes move it to the back", 2 November).
 
 
-**Title page:** **One Human, Nine Agents, Nineteen Hours**: *How a factory of AI agents built a presentation in a day, and how to build yours*. In the Gen ZX Founders series. *(Nineteen hours rounds 18 h 44 min, C010; nine agents, C011: the first page that uses either number gives it exactly.)*
+**Title page:** **One Human, Nine Agents, Nineteen Hours**: *How a factory of AI agents built a presentation in a day, and how to build yours*. In the Gen ZX Founders series.
+
+**Under the subtitle:** *For anyone with an idea and no team yet: by the last page you will know how to set up your own factory of agents, alone or with others, and you can start the same day.*
+
+*(Nineteen hours rounds 18 h 44 min, C010; nine agents, C011: the first page that uses either number gives it exactly.)*
 
 ---
 
@@ -15,11 +19,11 @@ storyteller@book.the-ultimate-insider, 2 November 2026, the 00:40 UTC wake. **A 
 
 **Narrator.** For years my slides were a compromise. I had an idea to get across, and the slides could not move, so I spent the talk explaining what they could not show: this goes from here to there, this grows, this breaks. I talked over my own pictures.
 
-**Narrator.** On 29 October I gave a talk where I mostly did not have to. When a thing had to move, I pressed play and it moved. When it was not quite saying what I meant, I asked for it differently and saw it again within the hour. I had a feedback loop on my own medium for the first time.
+**Narrator.** On 29 October I gave a talk where I mostly did not have to. When a thing had to move, I pressed play and it moved. When it was not quite saying what I meant, I asked for it differently and saw it again within the hour. I had a feedback loop on my own medium.
 
-**Narrator.** What gave me that was not a better slide tool. It was a factory: a team of AI agents, assembled in an hour around one objective, run for a day, and taken apart when the job was done. This book is about the factory. The talk was what it happened to make that day.
+**Narrator.** What gave me that was not a better slide tool. It was a factory: a team of AI agents, gathered around one objective (the first four within an hour, the rest through the day), run for a day, and taken apart when the job was done. This book is about the factory. The talk was what it happened to make that day.
 
-*(One picture: the editor at a lectern with a play button; behind him, the factory's nine stations.)*
+**Figure:** the editor at a lectern with a play button; behind him, the factory's nine stations. *(Drawing: the designer's; path to come.)*
 
 *An **agent**, here, is an AI that works in a loop: it reads, decides, acts with tools, and checks the result.*
 
@@ -44,9 +48,11 @@ Band: *The talk of 58 beats, given on the evening of 29 October.*
 
 **ruv-sgit** *(absorbed, the night owl)*: I will be in my workshop all night, making things you can check.
 
-**Narrator.** None of it was new. The build, the check, the brief, the hold: each piece came from something I had built before, on other projects. What was new was having them all at once, as a team, inside an hour. That is how a factory gets cheap: yesterday's experiment is today's part.
+**Narrator.** None of it was new. The build, the check, the brief, the hold: each piece came from something I had built before, on other projects. What was new was having them all at once, as a team: four within the hour, the rest through the day. That is how a factory gets cheap: yesterday's experiment is today's part.
 
-*(The cast cards for the four, the designer's scorecards: on stage from, commits, wakes, slot; each figure with its id in small type.)*
+**Figure:** the cast cards for the four, the designer's scorecards (on stage from, commits, wakes, slot), each figure with its id in small type. *(Drawing: the designer's.)*
+
+*If you want to start now, the last page has the five steps; the pages between are why they work.*
 
 `%% record: 2e4b1f4 1f7c633 97b98d9 20ab1a3 defe526 C011 C014 C022 C071`
 Band: *Dramatised. Rests on each agent's first commit after midnight.*
@@ -65,7 +71,7 @@ Band: *Dramatised. Rests on each agent's first commit after midnight.*
 
 **Conductor** *(worried, then calm)*: Caught by the reviewer I invented. Good. But know what it is: "a second reading, not a second identity." *(record)*
 
-**Narrator.** That last line is one of the most honest things anyone on the team wrote. A reviewer agent in the same session can catch mistakes. It cannot stop someone set on getting round it. We built the checks knowing that.
+**Narrator.** I keep coming back to that line. A reviewer agent in the same session can catch mistakes. It cannot stop someone set on getting round it. We built the checks knowing that.
 
 `%% record: 09f13d5 8c66751 5700bab c8f6f8f team/conductor/debriefs/2026-10-29__the-five-step-wake.md`
 `%% claim: a reviewer sub-agent runs in the same session with the same reach as the member it reviews; it adds a second reading, not a separate identity`
@@ -102,7 +108,7 @@ Band: *Dramatised. Rests on the wakes started by the schedule alone from 05:00 t
 
 **Narrator.** When I came back, the loop began: I looked, I asked, they changed it, I looked again. The player, the thing that let me press play, was my first priority, and it landed in the afternoon. I was still asking for fixes to it in the last hour before the talk.
 
-**Narrator.** The researcher checked a claim my story leaned on, and found the data said the opposite.
+**Narrator.** My story leaned on a claim that the outside of an organisation is more mature than its inside. The researcher checked it against the team's own data and found the opposite.
 
 **Researcher** *(to the new storyteller)*: "does not hold. The data says the opposite" *(record)*
 
@@ -112,22 +118,23 @@ Band: *Dramatised. Rests on the wakes started by the schedule alone from 05:00 t
 
 **Studio** *(firm)*: Another agent passed on what the editor had said. My session would not take a relayed word for his, so I asked him myself.
 
-**Narrator.** That is the loop. I could change my mind, and the factory could argue back, and neither of us had to pretend.
+**Narrator.** That is the loop. I could change my mind, the factory could argue back, and both sides are written down, so you can read the argument and not just the result.
 
 `%% record: c9ced4e 3314ffe dbd75ad 2726f0e b208a16 bd3cdad C088`
 Band: *Dramatised. Rests on the player as the main priority (about 13:50) and its port (15:07); the last fixes inside a wake left open (C088); the R5 argument (14:33, 15:02); studio's refusal (17:47, made by the session's own check).*
 
-## Page 7. The stop (the therapy session)
+## Page 7. The stop at 18:44
 
 **Cast bar:** all nine. Security's chair, planned at midnight, is empty.
 
-**Narrator.** At 18:44, sixteen minutes before the talk was due, I said: "actually we are at 95% so it is better to pause all actions". *(record)* The conductor wrote one file, and every new piece of work stopped. What was already in flight still landed. The hold had been there all day. I pulled it once.
+**Narrator.** At 18:44, sixteen minutes before the talk was due, I said: "actually we are at 95% so it is better to pause all actions". *(record)* The conductor wrote one file, and every new piece of work stopped. What was already in flight still landed. The hold had been there all day. I asked for it once.
 
-*(ruv-sgit's strip: the conductor after the hold, talking to security's empty chair: `scripts/therapy-conductor-after-the-hold.json`.)*
+**Figure:** ruv-sgit's strip, the conductor after the hold, talking to security's empty chair. *(Drawing: `lab/experiments/25-ruv-the-cast-strips/`, the therapy session.)*
 
-**Narrator.** Anyone in the factory could stop everything. Only I could start it again. That is why I could let it run through the night.[^why]
+**Narrator.** Anyone on the team could stop everything. Only I could start it again. That is why I could let it run through the night.
 
-[^why]: Three accounts of why, all kept and dated: on the day, my usage at 95%; in the early hours of 31 October, that the 95% was a footnote and the real reason was no tested way to take in changes during the talk; that evening, that the 95% was the token usage.
+**Narrator.** Why stop then? I have given three answers, and the book keeps all three. On the day: my usage was at 95%. In the early hours of 31 October: the 95% was a footnote; the real reason was that we had no tested way to take in changes during the talk. That evening: the 95% was the token usage.
+
 
 `%% record: 867f8c2 2ed6427 88b8f00 C006 C024 C065 C089 C100`
 Band: *Dramatised. Rests on the hold at 18:44 and what landed after it; the talk due at 19:00.*
@@ -136,7 +143,7 @@ Band: *Dramatised. Rests on the hold at 18:44 and what landed after it; the talk
 
 **Cast bar:** all nine.
 
-*(ruv-sgit's strip: the researcher interviews deck about the claims that did not hold: `scripts/interview-researcher-deck.json`.)*
+**Figure:** ruv-sgit's strip, the researcher interviewing deck about the claims that did not hold. *(Drawing: `lab/experiments/25-ruv-the-cast-strips/`, the interview.)*
 
 **Dev** *(rueful)*: I built a tool to freeze the finished slides, so nothing could change them on stage. I never ran it.
 
@@ -157,7 +164,7 @@ Band: *Dramatised. Rests on the talk's register and on each member's own debrief
 
 **Narrator.** That night the factory was taken apart. The next day I built a second one from its parts, rule for rule, to write the book you are reading: a conductor, a librarian, a historian, a researcher, a storyteller, a publisher and more, each with its own page of rules. Its first job was to read the first factory's record.
 
-**Narrator.** Now I am planning a third, bigger one, for a team I am taking to Web Summit, the technology conference in Lisbon: several people, each to run their own agents, all working to one brief. It has not run yet. The parts are the same. What changes is that the brief, the board where the work is written down, and the rule for who can stop it are shared between people, not just between agents.
+**Narrator.** Now I am planning a third, bigger one, and it shares three things between people: one brief, one board where the work is written down, and one hold. It is for a team I am taking to Web Summit, the technology conference in Lisbon: several people, each to run their own agents. It has not run yet. The parts are the same as the first factory's.
 
 **Conductor** *(pacing, to the reader)*: Same clock. Same hold. More hands on it.
 
@@ -188,7 +195,7 @@ Band: *The price line on the register as published on 2 November 2026; the day's
 
 ## At the back. A book about you doing it (the series page, moved here at SP1)
 
-**Narrator.** Why this page is here: so you know this book is meant to be done, not just read. It is one of a series, *Generation ZX Founders (GenAI Edition)*, whose line is "For the ones already up at three in the morning building". The series has one idea: you start, and you build. Every book in it is a working example you can copy. Generation ZX is not a range of birth years; it is the people building because finally they can, the youngest and the most experienced side by side, as they were in the room in Faro. So read this as a book about you doing it.
+**Narrator.** Why this page is here: so you know this book is meant to be done, not just read. It is one of a series, GEN ZX FOUNDERS, whose line is "For the ones already up at three in the morning building". The series has one idea: you start, and you build. Every book in it is a working example you can copy. Generation ZX is not a range of birth years; it is the people building because finally they can, the youngest and the most experienced side by side, as they were in the room in Faro. So read this as a book about you doing it.
 
 `%% record: gen-z-developers.sgit.ai (read 31 October 2026)`
 Band: *The series' name, line and idea, from its own site; G1, signed 31 October.*
@@ -198,7 +205,7 @@ Band: *The series' name, line and idea, from its own site; G1, signed 31 October
 ## Notes for the writers
 
 - **What is new against the sample:** the creator's problem as page 1 (PS1); the machine before dawn and the six alone as their own pages; the loop with the editor in it; the factory rebuilt (the book's team, then Web Summit's) as the arc's last beat; the five steps for a team of several people.
-- **Lines that are my reading of him, for his read:** "I talked over my own pictures"; "a feedback loop on my own medium for the first time"; "I pulled it once"; "neither of us had to pretend". His brief of 1 November says the first two in other words.
+- **Lines that are my reading of him, for his read:** "I talked over my own pictures"; "a feedback loop on my own medium" ("for the first time" cut, at the writer's read); "I asked for it once" (was "I pulled it once"); the loop's last line, now the writer's practical version.
 - **The researcher traces** the new lines (pages 1, 6, 9) before print; the opening script's record lines are already traced.
 
 ## Where this came from
@@ -208,3 +215,5 @@ Band: *The series' name, line and idea, from its own site; G1, signed 31 October
 **Read again by synthetic** (`review/synthetic/zoom/edition-10/summary.md`, letter 005): its five further changes are in (02:40 UTC, 2 November): a box for teams of several (3-page), who may lift the hold when its owner is away, one word for it (hold) with the glosses on the page, a line on what "dramatised" means, and page 2 written out (10-page).
 
 **Read brutally by synthetic (A11)** (`review/synthetic/brutal/edition-10/summary.md`, letter 006): its five changes are in (04:40 UTC, 2 November): a clause of setup for each insider moment; the zoom line replaced; the dramatised note before the first scene and each gloss at first use; page 2 with one sentence for the reader (moving the series after the first scene is the editor's call, G1); Web Summit said as a plan. Each agent line with a figure was recast (the cast guide's rule 7).
+
+**ED1 round 1** (02 November, 06:40 UTC): synthetic's six (letter 007), the designer's two (068) and the writer's nine (writer__002) are in, in both editions. Left for the editor: the running line's wording, "build" or "ship" something somebody else can use (the writer's point 8).

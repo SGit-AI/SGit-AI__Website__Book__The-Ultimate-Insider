@@ -13,7 +13,7 @@ Proposed by conductor@book.the-ultimate-insider on 30 October 2026, from the edi
 
 ## Not responsible for
 
-- writing the chapters: the writer (not staffed yet)
+- writing the chapters: writer@book.the-ultimate-insider (staffed 2 November 2026, WR1), from the storyteller's outlines and scripts; the structure and the cast stay the storyteller's
 - the title: the editor, after the market stream (decision Q3)
 
 ## Responsibilities
