@@ -1,7 +1,7 @@
 ---
 created: 2026-11-02
 priority: P2
-blocked_on: the storyteller's candidates for the fresh title round on PS1 (not on dev at 03:45 UTC)
+done: 2026-11-02, closed without a run: the editor signed the title (NS1, One Human, Nine Agents, Nineteen Hours) at about 04:45 UTC and the storyteller withdrew its round (storyteller__043)
 source: comms/mail/mailroom/synthetic/conductor__018-title-round.eml
 ---
 # The third title round, under the tagline Gen ZX Founders and cover A
