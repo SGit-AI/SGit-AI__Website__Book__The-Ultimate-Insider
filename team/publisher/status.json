@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "publisher",
- "as_of": "2026-11-01T06:52:00Z",
- "round": 31,
- "state": "idle: NR1 waits on the storyteller's script, the KDP checks and open decisions on the editor; the tile rule deferred until NR1's chapters; task on the idle schedule",
+ "as_of": "2026-11-02T03:57:00Z",
+ "round": 32,
+ "state": "hold lifted; back to every two hours; the 3- and 10-page edition scripts in, waiting on the editor's word whether to build before he reads them",
  "done": [
   {
    "what": "session key published: team/publisher/key.json, key.png, sessions/session_01Kw9UwDVeRbKJZUWiRoRrHK/",
@@ -187,19 +187,19 @@
  "asks": [
   {
    "to": "editor",
-   "what": "in KDP's setup screen: standard colour at Crown Quarto, and KDP's minimum at or below $14.99; E1, K1, W1; EPUBCheck or Kindle Previewer; KDP Select and ISBN"
+   "what": "build the 3- and 10-page editions now, or after you read the storyteller's scripts?; E1, the Leanpub book; KDP comes after Leanpub"
   }
  ],
  "session": "session_01Kw9UwBKgLvosZHuWWWX8wY",
  "task": {
   "id": "trig_01F7F7AipdKEhWgbxEj3YVja",
-  "cron": "CRON_TZ=Europe/London 47 9,17 * * *",
+  "cron": "CRON_TZ=Europe/London 47 */2 * * *",
   "prompt": "word for word from team/conductor/schedule.json, runs, publisher",
   "created": "2026-10-30T13:16:38Z",
   "by": "this session, at the editor's word in this session",
   "previous": "trig_01D2wnhQDySKsG8ZL9XLmNsW (first account, paused, not deleted)",
-  "changed": "2026-10-31T02:20:11Z, not by this session: back to every two hours round the clock, matching Q6 as amended (01:32 UTC) and the conductor's letter 018; recorded, not changed back; the editor's word for it asked onto dev (publisher__009). Before: 00:50:06Z, to the day schedule at Q6 as first signed; recorded on dev by the conductor (letter 021), open decision W1; 2026-11-01T06:49:54Z, by this session: to the idle schedule (WAKE.md Cadence 3), back to active when the script or a request arrives"
+  "changed": "2026-10-31T02:20:11Z, not by this session: back to every two hours round the clock, matching Q6 as amended (01:32 UTC) and the conductor's letter 018; recorded, not changed back; the editor's word for it asked onto dev (publisher__009). Before: 00:50:06Z, to the day schedule at Q6 as first signed; recorded on dev by the conductor (letter 021), open decision W1; 2026-11-01T06:49:54Z, by this session: to the idle schedule (WAKE.md Cadence 3), back to active when the script or a request arrives; 2026-11-02T03:44:44Z, by this session: back to active (Cadence 4), work arrived"
  },
- "requests": "taken: conductor__002 to 042, designer__013 to 046, storyteller__010 to 024, researcher__001 to 003, security__001 to 003; all answered",
- "cadence": "idle"
+ "requests": "taken: conductor__002 to 047, designer__013 to 046, storyteller__010 to 031, researcher__001 to 003, security__001 to 004, synthetic__001",
+ "cadence": "active"
 }
