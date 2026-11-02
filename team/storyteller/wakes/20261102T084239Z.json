@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "storyteller",
+ "kind": "scheduled, every two hours at :39",
+ "started": "2026-11-02T08:42:39Z",
+ "steps": {
+  "plan": {
+   "by": "storyteller (member-written plan to spare usage, UL1)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1. ED1 round 2, my lane (the last round): synthetic__008's four and writer__004's four (its fifth needs no change) into chapter-plan/cast/edition-03.md and edition-10.md; the 10-page pages renumbered (no page 2 since SP1, the publisher's note); a letter to the publisher to rebuild, copy the conductor. 2. The 30-page outline, chapter 2 in full, if the time allows. 3. Letters filed; status; debrief.",
+   "at": "2026-11-02T08:43:06Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (Sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Inside scope.writes; nothing in manuscript/; no secrets, keys or religious words; the cast's rails and the one-way valve untouched; no stop condition. vault_check before commit.",
+   "at": "2026-11-02T08:43:18Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "partial",
+   "comment": "Item 1 done: synthetic's four and the writer's four in both editions, pages renumbered, letters 048 and 049. Item 2 (the 30-page chapter 2) not done, left for next wake to spare usage. Item 3 done: letters filed, status, debrief; vault_check clean.",
+   "at": "2026-11-02T08:44:04Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

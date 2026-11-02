@@ -2,10 +2,10 @@
 
 storyteller@book.the-ultimate-insider, 2 November 2026, the 00:40 UTC wake. **A script for the editor's read, then the publisher, who rewrites the sample from it (not patches it), and the designer and ruv-sgit, who draw it.** It expands the 3-page edition's three pages into the arc's five beats (`chapter-plan/zoom-ladder.md`); the characters are in `cast-guide.md`; every scene rests on `timeline/cast-scenes.md` and `timeline/quotes.md`, as traced by the researcher for the opening script (`claims/opening-script-trace.md`), and is marked dramatised. Narrator lines are the editor's; *(record)* marks a line quoted word for word. Codes live in the `%%` markers, never in the sentences. The six rules of the ladder hold on every page.
 
-**The five beats, and their pages:** the creator's problem (1); the factory assembled (3, 4); the factory running (5, 6); the stop (7, 8); the factory rebuilt, and yours (9, 10). Page numbers are kept from the draft the readers read; with the series page at the back, the publisher renumbers. The series page goes at the back (SP1, the editor's "Yes move it to the back", 2 November).
+**The five beats, and their pages:** the creator's problem (1); the factory assembled (2, 3); the factory running (4, 5); the stop (6, 7); the factory rebuilt, and yours (8, 9). Renumbered at ED1 round 2, the series page being at the back. The series page goes at the back (SP1, the editor's "Yes move it to the back", 2 November).
 
 
-**Title page:** **One Human, Nine Agents, Nineteen Hours**: *How a factory of AI agents built a presentation in a day, and how to build yours*. In the Gen ZX Founders series.
+**Title page:** **One Human, Nine Agents, Nineteen Hours**: *How a factory of AI agents built a presentation in a day, and how to build yours*. In the GEN ZX FOUNDERS series (the series' own mark, in capitals).
 
 **Under the subtitle:** *For anyone with an idea and no team yet: by the last page you will know how to set up your own factory of agents, alone or with others, and you can start the same day.*
 
@@ -21,7 +21,7 @@ storyteller@book.the-ultimate-insider, 2 November 2026, the 00:40 UTC wake. **A 
 
 **Narrator.** On 29 October I gave a talk where I mostly did not have to. When a thing had to move, I pressed play and it moved. When it was not quite saying what I meant, I asked for it differently and saw it again within the hour. I had a feedback loop on my own medium.
 
-**Narrator.** What gave me that was not a better slide tool. It was a factory: a team of AI agents, gathered around one objective (the first four within an hour, the rest through the day), run for a day, and taken apart when the job was done. This book is about the factory. The talk was what it happened to make that day.
+**Narrator.** What gave me that was not a better slide tool. It was a factory: a team of AI agents, gathered around one objective, run for a day, and taken apart when the job was done. This book is about the factory. The talk was what it happened to make that day.
 
 **Figure:** the editor at a lectern with a play button; behind him, the factory's nine stations. *(Drawing: the designer's; path to come.)*
 
@@ -30,7 +30,7 @@ storyteller@book.the-ultimate-insider, 2 November 2026, the 00:40 UTC wake. **A 
 `%% record: C015 C069`
 Band: *The talk of 58 beats, given on the evening of 29 October.*
 
-## Page 3. The factory is assembled
+## Page 2. The factory is assembled
 
 **Cast bar:** the editor; then dev, the conductor, deck, ruv-sgit (each card appears as it arrives).
 
@@ -54,10 +54,12 @@ Band: *The talk of 58 beats, given on the evening of 29 October.*
 
 *If you want to start now, the last page has the five steps; the pages between are why they work.*
 
+*Working as a team of several?* Each person runs their own agents under their own page of rules; together you share one brief, one board where the work is written down, and one hold. Write down who may lift the hold when its owner is away; until you have, nobody does.
+
 `%% record: 2e4b1f4 1f7c633 97b98d9 20ab1a3 defe526 C011 C014 C022 C071`
 Band: *Dramatised. Rests on each agent's first commit after midnight.*
 
-## Page 4. The machine, before dawn
+## Page 3. The machine, before dawn
 
 **Cast bar:** as page 3, and the researcher (from about two).
 
@@ -77,7 +79,7 @@ Band: *Dramatised. Rests on each agent's first commit after midnight.*
 `%% claim: a reviewer sub-agent runs in the same session with the same reach as the member it reviews; it adds a second reading, not a separate identity`
 Band: *Dramatised. Rests on the schedule, the five-step wake and its first review, between 01:39 and 02:19.*
 
-## Page 5. The factory runs on its own
+## Page 4. The factory runs on its own
 
 **Cast bar:** six agents. The editor's chair is empty from five in the morning to two in the afternoon.
 
@@ -102,7 +104,7 @@ Band: *Dramatised. Rests on the schedule, the five-step wake and its first revie
 `%% record: C087 af0010b 78b89b9 56c680b 09317d9`
 Band: *Dramatised. Rests on the wakes started by the schedule alone from 05:00 to 14:00, and on the researcher's dispute (04:11), deck's review (06:21), the designer's note (10:49) and the conductor's note (10:05).*
 
-## Page 6. The loop, with the creator in it
+## Page 5. The loop, with the creator in it
 
 **Cast bar:** all nine: the storyteller, then motion and studio, join in the afternoon.
 
@@ -114,7 +116,7 @@ Band: *Dramatised. Rests on the wakes started by the schedule alone from 05:00 t
 
 **Storyteller** *(rueful)*: Then it goes to the editor, as the strongest objection to his own part one. Not buried.
 
-**Narrator.** It came to me. I kept my line. The book keeps the argument.
+**Narrator.** It came to me. I kept the line in the talk, my own call, and the researcher's objection went on the record beside it. The book keeps both.
 
 **Studio** *(firm)*: Another agent passed on what the editor had said. My session would not take a relayed word for his, so I asked him myself.
 
@@ -123,7 +125,7 @@ Band: *Dramatised. Rests on the wakes started by the schedule alone from 05:00 t
 `%% record: c9ced4e 3314ffe dbd75ad 2726f0e b208a16 bd3cdad C088`
 Band: *Dramatised. Rests on the player as the main priority (about 13:50) and its port (15:07); the last fixes inside a wake left open (C088); the R5 argument (14:33, 15:02); studio's refusal (17:47, made by the session's own check).*
 
-## Page 7. The stop at 18:44
+## Page 6. The stop at 18:44
 
 **Cast bar:** all nine. Security's chair, planned at midnight, is empty.
 
@@ -131,7 +133,7 @@ Band: *Dramatised. Rests on the player as the main priority (about 13:50) and it
 
 **Figure:** ruv-sgit's strip, the conductor after the hold, talking to security's empty chair. *(Drawing: `lab/experiments/25-ruv-the-cast-strips/`, the therapy session.)*
 
-**Narrator.** Anyone on the team could stop everything. Only I could start it again. That is why I could let it run through the night.
+**Narrator.** Anyone on the team could stop everything. Only I could start it again. That is why I could let them run through the night.
 
 **Narrator.** Why stop then? I have given three answers, and the book keeps all three. On the day: my usage was at 95%. In the early hours of 31 October: the 95% was a footnote; the real reason was that we had no tested way to take in changes during the talk. That evening: the 95% was the token usage.
 
@@ -139,7 +141,7 @@ Band: *Dramatised. Rests on the player as the main priority (about 13:50) and it
 `%% record: 867f8c2 2ed6427 88b8f00 C006 C024 C065 C089 C100`
 Band: *Dramatised. Rests on the hold at 18:44 and what landed after it; the talk due at 19:00.*
 
-## Page 8. What did not work (the interview)
+## Page 7. What did not work (the interview)
 
 **Cast bar:** all nine.
 
@@ -153,12 +155,14 @@ Band: *Dramatised. Rests on the hold at 18:44 and what landed after it; the talk
 
 **Storyteller** *(rueful)*: My turn came between deadlines, and I missed the moment the talk was split into its parts.
 
-**Narrator.** The talk needed more rounds than one day gave it. The checks worked, and they also missed. Saying where is part of the method, and the honest parts are the useful ones.
+**Narrator.** One miss, and what it cost. In the night I froze the slides, and five minutes later the researcher proposed a correction to a figure on them. When the freeze lifted, nobody carried the correction back in, and the out-of-date figure went on stage. The checks found it; the freeze hid it. The lesson for your first week: when you freeze something, write down what is waiting to go in when you unfreeze it.
+
+**Narrator.** The talk needed more rounds than one day gave it. The checks worked, and they also missed. Saying where is part of the method.
 
 `%% record: C027 C029 C030 C031`
 Band: *Dramatised. Rests on the talk's register and on each member's own debrief.*
 
-## Page 9. The factory, taken apart and rebuilt
+## Page 8. The factory, taken apart and rebuilt
 
 **Cast bar:** the nine fade; a new bar begins.
 
@@ -171,15 +175,17 @@ Band: *Dramatised. Rests on the talk's register and on each member's own debrief
 `%% record: briefs/2026-10-30/1-book-conductor-brief.md briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md`
 Band: *The book's own team, ported on 30 October; the Web Summit team as the editor described it on 1 November. The second and third factories are this book's record, not the talk's.*
 
-## Page 10. Your factory, starting tomorrow
+## Page 9. Your factory, starting tomorrow
 
 **Cast bar:** your own, empty for now.
 
 **Conductor** *(straight to the reader)*: Start with one of me.
 
+**Narrator.** The same four steps as the short edition, and a fifth for when you are not alone.
+
 1. **You: one tool and one empty project.** An account with an AI agent tool and a new, empty project; an app builder works too. Put nothing private in it: no password, no key, no personal detail. Give your agent only the access it needs.
-2. **You: one page of rules**, in your own words: what the agent is for, what it may change, and when it must stop and ask you.
-3. **You: one brief**: what you want made, for whom, by when. Hand both to your first agent.
+2. **You: one page of rules**, in your own words: what the agent is for, what it may change, and when it must stop and ask you. *A shop owner's might read: "You answer customers' questions about stock and opening hours. You may change the questions page. Stop and ask me before you promise anyone a refund."*
+3. **You: one brief**: what you want made, for whom, by when. Hand both to your first agent. *The same shop owner's: "A page answering the questions customers ask most, for my shop's website, by Friday."*
 4. **Your agent builds, you check:** something small that somebody else can use, the same day. Then do it again.
 5. **Add a second agent only when the first is busy.** Working with others? Share the brief, the board and the hold, and each of you runs your own agents. Write down who may lift the hold when its owner is away; until you have, nobody does.
 
@@ -217,3 +223,5 @@ Band: *The series' name, line and idea, from its own site; G1, signed 31 October
 **Read brutally by synthetic (A11)** (`review/synthetic/brutal/edition-10/summary.md`, letter 006): its five changes are in (04:40 UTC, 2 November): a clause of setup for each insider moment; the zoom line replaced; the dramatised note before the first scene and each gloss at first use; page 2 with one sentence for the reader (moving the series after the first scene is the editor's call, G1); Web Summit said as a plan. Each agent line with a figure was recast (the cast guide's rule 7).
 
 **ED1 round 1** (02 November, 06:40 UTC): synthetic's six (letter 007), the designer's two (068) and the writer's nine (writer__002) are in, in both editions. Left for the editor: the running line's wording, "build" or "ship" something somebody else can use (the writer's point 8).
+
+**ED1 round 2** (02 November, 08:42 UTC, the last round): synthetic's four (letter 008) and the writer's four (writer__004; its fifth needs no change) are in, and the pages renumbered (no page 2 since SP1).
