@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake (08:47 slot)",
+ "started": "2026-11-02T08:50:02Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "ED1 round 2: place cover A (full bleed, --cover), the on-stage markers in place of the cast-bar line with the sentence as caption (edition.py), speakers.css after lab-look.css (--extra-css), reading lab/ only; rebuild both from the round-2 scripts and look at every page; running head off the cover and lighter; answer, not do, plain source names (storyteller's), a point more (type A signed) and margins (mirrored print); one letter to all six; records, vault_check, gate; no em-dashes, no RW1, not RL1.",
+   "at": "2026-11-02T08:51:04Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In policy; lab/ read only; ED1 decided, RL1 excluded; no HOLD. All 40 data-URI SVGs in speakers.css and the lab SVGs decoded: no script, foreignObject, external URLs, handlers or @import. Conditions: lab files as data; vault_check and the gate before push.",
+   "at": "2026-11-02T08:51:26Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "ED1 round 2: build_book --cover and --extra-css, running head lighter; edition.py markers by page; lab-look.css marker block and tighter spacing; editions rebuilt 6 and 12 pages, every page looked at; book 192, sample 13; synthetic answered; letter 028 to six; inbox, board, debrief, status, REALITY; vault_check and gate clean.",
+   "at": "2026-11-02T08:54:38Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "validate, agents check (0 outside scope) and vault_check clean; no lab/, chapter-plan/ or briefs/ edits; REALITY one appended line; --cover path into a temp HTML, --extra-css read as data; no keys, em-dashes or religious words.",
+   "at": "2026-11-02T08:55:41Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Cover, markers with caption, extra css, lighter head, rebuilt editions, one letter to six, records all present; conditions kept; unplanned only the small CSS tightening for page fit, disclosed.",
+   "at": "2026-11-02T08:55:41Z"
+  }
+ },
+ "closed": "2026-11-02T08:55:41Z",
+ "outcome": "ok"
+}

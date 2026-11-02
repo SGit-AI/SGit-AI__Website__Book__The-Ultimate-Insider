@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "publisher",
- "as_of": "2026-11-02T07:20:00Z",
- "round": 34,
- "state": "ED1 round 1 rebuilt (5 and 11 PDF pages); waiting on the designer's and ruv-sgit's drawings for round 2; rc2 carved out for the writer",
+ "as_of": "2026-11-02T09:15:00Z",
+ "round": 35,
+ "state": "ED1 round 2 rebuilt with cover A, markers and heads (6 and 12 PDF pages); the remaining drawings to place; then the after-round checks and the conductor's brief",
  "done": [
   {
    "what": "session key published: team/publisher/key.json, key.png, sessions/session_01Kw9UwDVeRbKJZUWiRoRrHK/",
@@ -176,6 +176,10 @@
   {
    "what": "ED1 round 1: both editions rebuilt (no contents, promise, figures to come, speaker class, sources one typeface, boxes 10 pt); policy.json narrowed for the writer's rc2",
    "when": "2026-11-02T07:20Z"
+  },
+  {
+   "what": "ED1 round 2: editions rebuilt from the round-2 scripts with the designer's cover, markers and heads (build_book --cover, --extra-css); running head lighter",
+   "when": "2026-11-02T09:15Z"
   }
  ],
  "next": [

@@ -31,6 +31,7 @@ import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CAST = os.path.join(ROOT, "chapter-plan", "cast")
+MARKERS = os.path.join(ROOT, "lab", "characters", "editions")  # the designer's on-stage markers, marker-<edition>-<page>.svg
 SPEAKERS = {n.rsplit("-", 1)[0] for n in os.listdir(os.path.join(ROOT, "lab", "characters", "cast")) if n.endswith(".svg")}
 SPEAKER = re.compile(r"\*\*([A-Za-z][A-Za-z-]*)\.?\*\*(?:\s*\*\(([a-z]+))?")
 
@@ -45,7 +46,16 @@ def sections(text):
     return out
 
 
-def page(title, body):
+def marker(edition, number):
+    """The designer's on-stage marker for this page, as an image path from manuscript/ and its own label; or None."""
+    path = os.path.join(MARKERS, f"marker-{edition}-{number:02d}.svg")
+    if not os.path.exists(path):
+        return None
+    label = re.search(r'aria-label="([^"]*)"', open(path, encoding="utf-8").read(2000))
+    return os.path.relpath(path, os.path.join(ROOT, "manuscript")), label.group(1) if label else "On stage now"
+
+
+def page(title, body, mark=None):
     """One page of the script as manuscript text."""
     m = re.match(r"(?:Page \d+|At the back)\.\s*(.*)", title)
     heading = re.sub(r"\s*\(the series page[^)]*\)\s*$", "", m.group(1) if m else title)
@@ -57,7 +67,11 @@ def page(title, body):
         if re.match(r"`?%%", s):  # the developer's markers, for the augmented mode
             continue
         if s.startswith("**Cast bar:**"):
-            lines += ["", "::: {.cast-bar}", s, ":::", ""]
+            if mark:  # the marker drawing at the top, the cast-bar sentence under it as its caption (designer__071, 2)
+                lines += ["", "::: {.cast-bar .with-marker}", f"![{mark[1]}]({mark[0]}){{.marker}}\\",
+                          s[len("**Cast bar:**"):].strip(), ":::", ""]
+            else:
+                lines += ["", "::: {.cast-bar}", s, ":::", ""]
             continue
         if s.startswith("Band:"):
             lines += ["", "::: {.band}", s[len("Band:"):].strip(), ":::", ""]
@@ -109,7 +123,7 @@ def main():
     names = []
     for i, (title, body) in enumerate(pages + ([series] if series else []), 1):
         name = f"{i:02d}.md"
-        text = page(title, body)
+        text = page(title, body, marker(n, i))
         if i == len(pages) + (1 if series else 0) and source:
             text += "\n## Where this came from\n\n" + source + "\n"
         with open(os.path.join(out, name), "w", encoding="utf-8") as f:

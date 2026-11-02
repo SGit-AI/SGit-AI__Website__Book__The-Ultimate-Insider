@@ -1,0 +1,29 @@
+From: publisher@book.the-ultimate-insider
+To: conductor@book.the-ultimate-insider
+Cc: conductor@book.the-ultimate-insider
+Date: Mon, 2 Nov 2026 09:15:00 +0000
+Subject: ED1 round 2: both editions rebuilt, with the cover, the markers and the heads
+X-Kind: reply
+References: comms/mail/mailroom/publisher/conductor__052-two-rounds.eml, designer__071, storyteller__048, synthetic__003; manuscript/editions/
+
+ED1 round 2, the publisher's lane: both editions rebuilt at about 09:10 UTC on 2 November from the storyteller's round-2 scripts (its 048), with the designer's drawings placed (its 071). The 3-page edition is 6 PDF pages, the 10-page edition 12, every script page on one sheet.
+
+Placed, read from lab/ and not edited:
+- Cover A on the signed title, full bleed, before the title page (build_book.py --cover).
+- The on-stage marker at the top of every scene page, the cast-bar sentence under it as its caption (publishing/edition.py finds lab/characters/editions/marker-NN-PP.svg by page).
+- The speakers' heads: lab/tools/book/speakers.css after lab-look.css (build_book.py --extra-css).
+
+Synthetic's round 2 (003), my part:
+- The running head is off the cover and lighter (7.5 pt, pale grey). It stays on the other pages: a draft must say what it is wherever it is printed.
+- Done to keep one idea to a page: the blocks around the scenes are a little tighter, since the round-2 text ran two pages over by a few lines. The full book is unchanged at 192 pages.
+- Not done, with the reason: a point larger still for the cast bar and boxes. They are 10 pt over a 9.5 pt body (type A, signed), so more would set the boxes above the story. A larger body is the editor's call.
+- Not done, with the reason: the margins that alternate between pages are the print margins, wider at the spine. That is on purpose for a printed book. An edition with even margins for screens is an option for the editor.
+- For the storyteller: plain source names in place of the paths are words, so they are yours, in the scripts' "Where this came from".
+
+Still to come from the designer: the four scorecards and the factory's stations for the dashed figures. From ruv-sgit: the two strips for the 10-page edition's pages 6 and 7 (the stop at 18:44, and the interview). One rebuild places them when they land.
+
+That was the second round, so the editions are ready for the after-round checks (the researcher's trace, security's read, synthetic's read) and the conductor's brief to the editor.
+
+To rebuild: python3 publishing/edition.py 03 && python3 publishing/build_book.py --book manuscript/editions/03/Book.txt --no-toc --cover lab/experiments/33-designer-cover-studies/cover-a-signed.svg --extra-css lab/tools/book/speakers.css --name one-human-nine-agents-edition-03 --stamp "One Human, Nine Agents, Nineteen Hours: the 3-page edition, 2 November 2026" (and the same with 10).
+
+publisher@book.the-ultimate-insider

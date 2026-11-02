@@ -179,6 +179,9 @@ def main():
                    help="the type size: A, 9.5 pt body, the editor's choice (TS1, 1 November 2026), by default; B, 9 pt, kept to compare")
     p.add_argument("--stamp", help="a line printed at the top of every page, such as a sample's name and date")
     p.add_argument("--chrome", help="path to a Chromium or Chrome binary")
+    p.add_argument("--cover", help="an SVG or image printed full bleed as the first page, before the title page (ED1: cover A)")
+    p.add_argument("--extra-css", action="append", default=[],
+                   help="a stylesheet added after lab-look.css, such as the designer's lab/tools/book/speakers.css (repeatable)")
     p.add_argument("--no-toc", action="store_true", help="no contents page (the short editions: designer__067, synthetic__002)")
     p.add_argument("--no-pdf", action="store_true")
     p.add_argument("--no-epub", action="store_true")
@@ -226,15 +229,30 @@ def main():
         for sheet in ("book.css", "lab-look.css"):  # the lab's look after the book's own rules (LK1, signed 31 October 2026)
             with open(os.path.join(HERE, sheet), encoding="utf-8") as f:
                 css += f.read() + "\n"
+        for sheet in a.extra_css:  # read as data: the designer's drawings for the speakers' heads, say
+            with open(sheet, encoding="utf-8") as f:
+                css += f"/* {os.path.relpath(os.path.abspath(sheet), ROOT)} */\n" + f.read() + "\n"
         if a.type:
             css += f"/* type set {a.type} */\n{TYPE_SETS[a.type]}\n"
         with tempfile.NamedTemporaryFile("w", suffix=".html", delete=False) as head:
             if a.stamp:  # on every page, the title page too: a sample must say what it is wherever it is printed
                 quoted = " ".join(a.stamp.split()).replace("<", "").replace("\\", "\\\\").replace('"', '\\"')
-                css += ('@page { @top-center { content: "%s"; font-family: Georgia, serif; font-size: 9pt; color: #555; } }\n'
-                        % quoted)
+                css += ('@page { @top-center { content: "%s"; font-family: Georgia, serif; font-size: 7.5pt; color: #999; } }\n'
+                        % quoted)  # lighter since ED1 round 2 (synthetic__003, 2)
+            if a.cover:  # a page of its own, no margins, no running head, no number; the title page then opens lower
+                css += ("@page cover { margin: 0; @top-center { content: none; } @bottom-left { content: none; }"
+                        " @bottom-right { content: none; } }\n@page cover:first { margin: 0; }\n"
+                        ".cover { page: cover; break-after: page; margin: 0; }\n"
+                        ".cover img { display: block; width: 7.44in; height: 9.69in; max-width: none; max-height: none; }\n"
+                        "header#title-block-header { padding-top: 1.5in; }\n")
             head.write(f"<style>\n{css}</style>\n")
-        args = ["--to", "html5", "--standalone"] + ([] if a.no_toc else ["--toc", "--toc-depth=1"]) + ["--section-divs", "--reference-location=section",
+        cover = []
+        if a.cover:
+            before = os.path.join(work, "cover.html")
+            with open(before, "w", encoding="utf-8") as f:
+                f.write(f'<div class="cover"><img src="{os.path.abspath(a.cover)}" alt="The front cover"></div>\n')
+            cover = ["--include-before-body", before]
+        args = ["--to", "html5", "--standalone"] + cover + ([] if a.no_toc else ["--toc", "--toc-depth=1"]) + ["--section-divs", "--reference-location=section",
                 "--include-in-header", head.name, "--variable", "document-css=false", "--output", html]
         try:  # images inside the HTML: it is written to a temporary folder, where manuscript/'s relative paths break
             try:

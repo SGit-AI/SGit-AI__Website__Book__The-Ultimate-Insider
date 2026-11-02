@@ -104,8 +104,20 @@ header#title-block-header .abstract { order: 2; font-family: var(--sans); font-s
 header#title-block-header .abstract-title { display: none; }
 
 /* ED1 round 1: a figure the script names, set as a figure to come until its drawing is placed (designer__067, 5, 6) */
-.figure-todo { border: 1pt dashed var(--muted); padding: 10pt 12pt; margin: 12pt 0; min-height: 30mm; }
+.figure-todo { border: 1pt dashed var(--muted); padding: 8pt 10pt; margin: 8pt 0; min-height: 18mm; }
 .figure-todo p { font-family: var(--sans); font-size: 9pt; color: var(--muted); margin: 0; }
 
 /* ED1 round 1: a speaker's line, by class, with data-speaker and data-mood for the designer's 6 mm heads (designer__067, 4) */
-.speaker p { margin: 0 0 6pt; }
+.speaker p { margin: 0 0 4pt; }
+
+/* ED1 round 2: the designer's on-stage marker over the cast-bar sentence, which becomes its caption (designer__071, 2) */
+.cast-bar.with-marker p { border-bottom: none; padding-bottom: 0; }
+.cast-bar.with-marker img.marker { display: block; width: 87mm; height: auto; max-width: 100%; margin: 0 0 2pt; }
+.cast-bar.with-marker { border-bottom: .5pt solid var(--fill-2); padding-bottom: 4pt; margin-bottom: 10pt; }
+
+/* ED1 round 2: the short editions keep one idea to a page; the blocks around the scenes a little tighter so a page's
+   foot does not spill onto a sheet of its own */
+.cast-bar.with-marker { padding-bottom: 2pt; margin-bottom: 6pt; }
+.words-box { padding: 5pt 8pt; margin: 6pt 0; }
+.band { margin-top: 8pt; }
+ol > li { padding-top: 4pt; padding-bottom: 4pt; }
