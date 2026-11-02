@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "In scope; letters only to other members. Conditions: the writer's never-list full; its policy reaches no briefs/**, book.json or team/conductor/**; no session, task or key created; nothing to the blind repo; vault_check.",
    "at": "2026-11-02T04:48:00Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "As planned: brief 06 of 2 November in-session; WR1 decided at his word; team/conductor/staffing/writer/ ROLE.md and policy.json (narrow writes, full never-list, numbers through the researcher); schedule.json writer entry at :28, status proposed; ONBOARDING.md 1e start prompt; letters publisher (carve rc2 out of its own policy), storyteller (update its own line), researcher, security; status.json. No member's file edited; no session, task or key created. vault_check clean, gate 0, scope 0 outside.",
+   "at": "2026-11-02T04:48:35Z"
+  },
+  "post_review": {
+   "by": "security post-review sub-agent",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Gate 0; scope 0 outside; vault_check clean; the writer's policy narrow with a full never-list; ROLE names start.py and banner.py; schedule entry proposed; ONBOARDING 1e creates only what he asked; no member file edited; no key or em-dash.",
+   "at": "2026-11-02T04:49:24Z"
+  },
+  "post_check": {
+   "by": "conductor post-check sub-agent",
+   "model": "haiku",
+   "verdict": "as-planned",
+   "comment": "All six items done; conditions kept.",
+   "at": "2026-11-02T04:49:24Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T04:49:24Z",
+ "outcome": "ok"
 }
