@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "In scope; CV2 logged as a request, the proposals options for him to sign; benign art; no member file edited; run vault_check on comms before the commit.",
    "at": "2026-11-02T04:56:54Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "His words in 08-cover-variations.md; CV2 open in book.json; letter conductor__042 to the designer with outbox copy; status.json. Gate 0 after fixing status entry shape.",
+   "at": "2026-11-02T04:57:46Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "vault_check and agents check clean; his words verbatim; CV2 open, CV1 A stands. Minor: the letter's Date was after the commit; now 04:57 UTC.",
+   "at": "2026-11-02T04:58:11Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "All four plan items in 639a12a; title and subtitle in the letter match NS1 exactly.",
+   "at": "2026-11-02T04:58:11Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T04:58:11Z",
+ "outcome": "ok"
 }
