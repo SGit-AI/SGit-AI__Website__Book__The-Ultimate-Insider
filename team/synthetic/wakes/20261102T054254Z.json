@@ -31,8 +31,15 @@
    "verdict": "as-planned",
    "comment": "Round 1 reads done (271f772, f433305, 6b675a6: three JSONs and the summary; PDFs built untracked). Review letters to storyteller, designer, publisher, copy to conductor. Issue 006 done (adfdf9e), 007 opened. Personas section and PDF rebuilt; status, debrief, REALITY.md. Conditions kept. Unplanned: a one-line build_section.py change.",
    "at": "2026-11-02T05:47:11Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Six @synthetic commits, 26 files, none outside policy; gate clean (440 pages); 0 outside scope; vault_check comms clean; manuscript untouched; no keys, tokens, personal details, em-dashes or religious words; round-1 outputs labelled synthetic; no directive text.",
+   "at": "2026-11-02T05:47:32Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T05:47:32Z",
+ "outcome": "ok"
 }
