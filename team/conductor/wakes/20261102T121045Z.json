@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Own paths only; PDFs in the scratchpad; nothing decided; the pending trace and clearance said plainly; file to done in the conductor's own folder.",
    "at": "2026-11-02T12:11:20Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "Four letters filed; the final editions built into the scratchpad and pictured; brief 40 (3 pages) with the pending checks, CV2, RL1, page 2's spill and the sample; status.",
+   "at": "2026-11-02T12:13:09Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "Own paths only; no key, contact, em-dash or religious word; nothing decided; the pending checks said plainly; claims match the letters and schedule. The 5 of 5 stat is synthetic__012's, checked in the 10:05 wake.",
+   "at": "2026-11-02T12:14:04Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "All five items present; brief 40 and both PDFs sent to the editor after the check.",
+   "at": "2026-11-02T12:14:04Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T12:14:04Z",
+ "outcome": "ok"
 }
