@@ -48,7 +48,7 @@ def from_storyteller(s, path):
     cast = [c for c in s['cast'] if ':' not in c]
     title = TITLE.get(s['form'], s['form']).format(a='the ' + cast[0], b='the ' + (cast[1] if len(cast) > 1 else ''))
     return {'title': title, 'moment': re.sub(r'^Dramatised\.\s*', '', s['band']), 'claims': list(dict.fromkeys(re.findall(r'C\d{3}', s['band']))),
-            'panels': panels, 'srcs': f'{path.name}, copied word for word from chapter-plan/cast/scripts/ at 6452450'}
+            'panels': panels, 'srcs': f'{path.name}, copied word for word from chapter-plan/cast/scripts/ at 64d8b69'}
 
 
 def panel(p):

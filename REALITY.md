@@ -122,6 +122,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - `lab/experiments/27-ruv-the-ten-controls/` (LAB 25): chapter 9's ten controls read across, from the chapter's own sections; run `lab/runs/20261101T0654Z-ruv-25-*`.
 - LAB 26 with a tone per concept group, LAB 28 on one page (the designer's notes); ruv.sgit's task on its idle schedule (09:54 and 17:54 London) while its work waits on others; run `lab/runs/20261101T0854Z-ruv-26-28-*`.
 - LAB 28, the cast in strips, now three scenes: the hold, and the storyteller's NR1 interview (the researcher and the deck) and therapy session (the conductor after the hold), in the designer's cast; LAB 25 with a key; run `lab/runs/20261102T0344Z-ruv-28-*`.
+- LAB 28's two scenes as sized SVGs for the 10-page edition's pages 6 and 7 (`lab/experiments/25-ruv-the-cast-strips/edition/`), for the publisher to place; run `lab/runs/20261102T0954Z-ruv-28-*`.
 
 ## Synthetic readers (synthetic@book.the-ultimate-insider)
 

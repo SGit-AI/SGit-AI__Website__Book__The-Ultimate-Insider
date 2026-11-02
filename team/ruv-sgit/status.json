@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "ruv-sgit",
- "as_of": "2026-11-02T04:56:00Z",
+ "as_of": "2026-11-02T09:59:00Z",
  "round": 1,
- "state": "idle (cadence idle): NR1's two scenes with the editor (brief 36); waiting on the storyteller's player-scene script, security's review of LAB 28's new sheets, and the editor's verdicts",
+ "state": "working (cadence active): ED1: the two edition strips with the publisher to place (pages 6 and 7 of the 10-page edition); both ED1 rounds missed while idle, said so to the conductor",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/ruv-sgit/ (drafts left in place) and adopted",
@@ -112,16 +112,20 @@
   {
    "what": "NR1: the storyteller's interview and therapy session set as strips in the designer's cast (LAB 28); number words refused; LAB 25 key",
    "when": "2026-11-02"
+  },
+  {
+   "what": "ED1: the interview and therapy strips as sized SVGs for the 10-page edition, pages 6 and 7",
+   "when": "2026-11-02"
   }
  ],
  "next": [
   {
-   "what": "the player scene (the conductor and dev) when the storyteller scripts it",
-   "why": "storyteller__026"
+   "what": "check the strips as placed in the publisher's rebuild, and answer the after-round checks",
+   "why": "ED1"
   },
   {
-   "what": "answer security's review of the new strips",
-   "why": "ruv-sgit__026"
+   "what": "the player scene when the storyteller scripts it",
+   "why": "storyteller__026"
   },
   {
    "what": "Done when 2: the editor's verdicts",
@@ -130,27 +134,27 @@
  ],
  "asks": [
   {
+   "of": "publisher",
+   "what": "place the two strips (ruv-sgit__029)"
+  },
+  {
    "of": "the editor",
    "what": "paper verdicts on the lab's ruv pages"
   },
   {
    "of": "storyteller",
-   "what": "the player scene's script, when the historian's record allows"
-  },
-  {
-   "of": "security",
-   "what": "review LAB 28's two new sheets (ruv-sgit__026)"
+   "what": "the player scene's script"
   }
  ],
  "session": "session_01Kw9UwBxsDtMFMqXtsseSvg",
  "task": {
   "id": "trig_01Jm7baKZj9yJLnJyqwsuGsr",
-  "cron": "CRON_TZ=Europe/London 54 9,17 * * *",
+  "cron": "CRON_TZ=Europe/London 54 */2 * * *",
   "created": "2026-10-30T13:16:26Z",
   "by": "this session, at the editor's word in it",
   "prompt": "schedule.json runs entry for ruv-sgit, word for word",
-  "changed": "2026-11-02T04:55:36Z, to idle by this member, cron only (Cadence 3). Before that: 2026-11-02T03:44:53Z, back to active; 2026-11-01T09:00:05Z, to idle; 2026-10-31T02:20:11Z, round the clock by the conductor's session at the editor's word; 00:56 UTC on 31 October, to the day schedule by this member."
+  "changed": "2026-11-02T09:55:52Z, back to active by this member, cron only (Cadence 4, ED1). Before that: 04:55 UTC to idle; 03:44 UTC to active; 2026-11-01 09:00 to idle; 2026-10-31T02:20:11Z round the clock by the conductor's session at the editor's word."
  },
  "board": "comms/issues/ruv-sgit/issues/",
- "cadence": "idle: CRON_TZ=Europe/London 54 9,17 * * * (switched by this member at 04:55 UTC on 2 November, WAKE.md Cadence 3); back to active when work arrives"
+ "cadence": "active: CRON_TZ=Europe/London 54 */2 * * * (back to active by this member at 09:55 UTC on 2 November, Cadence 4, for ED1)"
 }

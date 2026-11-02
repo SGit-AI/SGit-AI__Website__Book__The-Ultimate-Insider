@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/lab-run-evidence/v1",
+ "run": "20261102T0954Z-ruv-28-edition-strips",
+ "started": "2026-11-02T09:55:36Z",
+ "wake_record": "team/ruv-sgit/wakes/20261102T095536Z.json",
+ "calls": [
+  {
+   "what": "python3 -B -I tools/edition.py on both scripts: two SVGs, 164 x 60 mm",
+   "tool": "python"
+  },
+  {
+   "what": "Chromium getBBox of every text line: all inside their panels (the empty chair's label wrapped to two lines after the first check)",
+   "tool": "playwright"
+  },
+  {
+   "what": "the therapy script recopied from 64d8b69 (its last pose corrected by the storyteller); LAB 28 rebuilt",
+   "tool": "cp, python"
+  }
+ ],
+ "outputs": {
+  "edition": [
+   "lab/experiments/25-ruv-the-cast-strips/edition/strip-10-06.svg",
+   "lab/experiments/25-ruv-the-cast-strips/edition/strip-10-07.svg"
+  ],
+  "hashes": "lab/experiments/25-ruv-the-cast-strips/SHA256SUMS"
+ },
+ "time": {
+  "work_started": "2026-11-02T09:56:00Z",
+  "work_ended": "2026-11-02T09:59:00Z"
+ }
+}

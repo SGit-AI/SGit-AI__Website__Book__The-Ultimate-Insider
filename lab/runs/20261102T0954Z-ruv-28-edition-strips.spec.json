@@ -1,0 +1,18 @@
+{
+ "schema": "the-ultimate-insider/lab-run-spec/v1",
+ "run": "20261102T0954Z-ruv-28-edition-strips",
+ "by": "ruv.sgit@book.the-ultimate-insider",
+ "request": {
+  "from": "ED1 (conductor__013); designer__069 (sized SVGs); publisher__002 (pages 6 and 7 of the 10-page edition)"
+ },
+ "experiment": "lab/experiments/25-ruv-the-cast-strips/",
+ "lab_id": "LAB 28",
+ "claims": [],
+ "sources": [
+  "chapter-plan/cast/scripts/ at 64d8b69 (word for word)",
+  "lab/characters/ and lab/characters/cast/ (the designer's, inlined, read only)"
+ ],
+ "method": "tools/edition.py: six panels in a row, 164 x 60 mm, text at 9 pt, the drawings inlined with their labels removed, lines wrapped and refused if they do not fit, numbers refused; checked by rendering in Chromium with each text line's box inside its panel",
+ "executor": "the member's scheduled session directly, with its plan, pre-review, post-review and post-check sub-agents",
+ "vault": "none"
+}
