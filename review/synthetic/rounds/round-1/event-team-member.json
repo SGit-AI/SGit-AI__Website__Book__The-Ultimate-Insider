@@ -1,0 +1,35 @@
+{
+ "schema": "the-ultimate-insider/synthetic-round-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "event-team-member",
+ "round": 1,
+ "read": ["edition-03.pdf (6 pages)", "edition-10.pdf (12 pages)"],
+ "editions": {
+  "03": {
+   "page_one_held": "partly",
+   "got_the_factory": "yes",
+   "would_start_tomorrow": "yes",
+   "one_line": "Short and clear, and the four steps plus the 'working as a team of several' paragraph answer my question directly, but the cover tells me nothing I can act on and the first story page is a wall of definitions."
+  },
+  "10": {
+   "page_one_held": "partly",
+   "got_the_factory": "yes",
+   "would_start_tomorrow": "maybe",
+   "one_line": "The factory comes across better with the five numbered boxes on page 11 and the Web Summit line, but the middle pages are thin, the 'therapy session' and 'interview' titles are odd, and the team case I care about arrives only on page 10."
+  }
+ },
+ "the_page": "The type is a readable serif body with a bold sans heading and an orange rule, and it works on a phone, but the small sans cast bar and the grey boxes are close to too small in the gap between meetings. Almost every page is half empty below the text, so the pages feel unfinished rather than airy, and there are no pictures at all: the edition 10 stage directions such as '(One picture: the editor at a lectern with a play button...)' describe pictures that are not there. Most pages hold one idea, but page 3 of edition 03 stacks two boxes of definitions and framing before I have met the factory.",
+ "best_page": {"edition": "10", "pdf_page": 11, "why": "Five numbered boxes, one action each, plus the line about sharing the brief, the board and the hold across several people. This is the page my team could act on tomorrow."},
+ "worst_page": {"edition": "10", "pdf_page": 2, "why": "A bare contents list in small type on an otherwise empty page; it gives ten titles with no page numbers and 'the therapy session' and 'the interview' mean nothing to me yet."},
+ "changes": [
+  {"owner": "storyteller", "edition": "03", "pdf_page": 1, "quote": "How a factory of AI agents built a presentation in a day, and how to build yours", "change": "Add a second line saying who it is for and what they get, for example a team with an agent each, and how long it takes to read.", "why": "The title is striking but a team lead cannot tell from the cover that this is about running a team of people with agents."},
+  {"owner": "storyteller", "edition": "03", "pdf_page": 3, "quote": "", "change": "Move the two grey boxes (words on this page, how to read the scenes) after the first scene, or cut the glossary to the three terms the next page needs.", "why": "Six definitions before the factory has done anything is the least inviting start; I want the cast first."},
+  {"owner": "storyteller", "edition": "10", "pdf_page": 10, "quote": "Now I am planning a third, bigger one, for a team I am taking to Web Summit", "change": "Bring the several-people factory forward, to the opening page or page 3, and say plainly what is shared: one brief, one board, one hold.", "why": "It is my case and it sits at the back of the edition, with only one short paragraph."},
+  {"owner": "storyteller", "edition": "10", "pdf_page": 8, "quote": "The stop (the therapy session)", "change": "Retitle to say what happened, for example 'The stop at 18:44', and explain the therapy strip in a clause.", "why": "A reader meeting it cold reads a joke instead of the hold, which is the idea a team most needs."},
+  {"owner": "designer", "edition": "10", "pdf_page": 3, "quote": "(One picture: the editor at a lectern with a play button; behind him, the factory's nine stations.)", "change": "Draw the pictures the stage directions promise, or remove the directions from the page. Start with the nine stations.", "why": "A caption for a missing picture breaks the page, and a picture of the factory is the fastest way to get it."},
+  {"owner": "designer", "edition": "03", "pdf_page": 5, "quote": "1. You: one tool and one empty project.", "change": "Set the four steps as the numbered boxes used on edition 10 page 11 rather than a run of bold text in one paragraph.", "why": "It is the action page, and the numbered boxes are far easier to scan on a phone."},
+  {"owner": "publisher", "edition": "10", "pdf_page": 2, "quote": "", "change": "Put page numbers beside the contents entries, and fill or merge pages that are more than half empty (edition 10 pages 5, 7, 9, 10).", "why": "The empty lower halves waste a phone screen and make a short book look unfinished."},
+  {"owner": "publisher", "edition": "03", "pdf_page": 3, "quote": "Round 1 of the editions, read by synthetic readers", "change": "Drop the running header from reader-facing builds and enlarge the cast bar and box text by about one point.", "why": "The header is noise on every page and the small sans text is the hardest to read on a phone."}
+ ],
+ "notes": "Edition 03 is enough for me to start; edition 10 earns its length only if the team case moves forward and the pictures appear. The record references (C101, C037, G1) on edition 03 page 5 and the file paths under 'Where this came from' mean nothing to me; fine as a footnote but heavy on the page. Page 6 and page 12 repeat the same Generation ZX box, which is a good idea for the series but is not about my team."
+}
