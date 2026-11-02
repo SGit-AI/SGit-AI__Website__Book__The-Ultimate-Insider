@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-02T16:53:39Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "C104 for chapter 6's decision times (off the line if untimed), board 011 for RC2, caption recheck; in scope.",
+   "at": "2026-11-02T16:54:07Z"
+  },
+  "pre_review": {
+   "by": "security pre-review sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "In scope; talk clone read-only; caption fixes by mail only; vault_check; dev and branch only.",
+   "at": "2026-11-02T16:54:22Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "C104 registered (five decision times, given and recorded); reply to the designer; board 011 for RC2; caption still open; two letters filed.",
+   "at": "2026-11-02T16:55:14Z"
+  },
+  "post_review": {
+   "by": "security post-review sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "In scope; no secrets, dashes, RW1 words or anything attack-shaped; nothing toward the Cold-Read repository.",
+   "at": "2026-11-02T16:56:22Z"
+  },
+  "post_check": {
+   "by": "conductor post-check sub-agent",
+   "model": "smaller model",
+   "verdict": "partial",
+   "comment": "Every substantive item as planned; partial only for the record's open close fields (closed after this step by design) and the work step's empty model field; letter times set to the clock before the push.",
+   "at": "2026-11-02T16:56:22Z"
+  }
+ },
+ "closed": "2026-11-02T16:56:22Z",
+ "outcome": "ok"
+}

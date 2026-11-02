@@ -9,3 +9,5 @@ source: comms/mail/mailroom/publisher/conductor__026-check-taken.eml; publishing
 - [ ] Appendix A's 21 commands over 80 characters broken at a pipe with a backslash, or linked to a script
 - [ ] Captions over 120 characters shortened, the newsroom writer's rule (14 on RC1), with the writer or the conductor
 - [ ] check_manuscript.py run on RC2 before release
+
+2 November about 16:10 UTC: RP1 and CV2 signed (the conductor's 054): RC2 is written down the zoom ladder by the writer, 30 pages first. I build manuscript/rc2/ as chapters land (rc2/Book.txt mine; the chapters the writer's, WR1), cover A first, type A, Crown Quarto. The writer has my 003 on how the build reads its chapters. No chapter yet.

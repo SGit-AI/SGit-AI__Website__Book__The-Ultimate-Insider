@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake (16:47 slot, fired 17:13)",
+ "started": "2026-11-02T17:14:19Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Idle: nothing for the publisher since 9605c94 (no mail, no book.json or rc2 change, no HOLD; the storyteller's outline edits need nothing from me). Write only the wake record; close idle.",
+   "at": "2026-11-02T17:14:44Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Idle plan inside policy, only the wake record; no unsigned decision; no HOLD.",
+   "at": "2026-11-02T17:14:44Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Idle: no work; only this wake record written.",
+   "at": "2026-11-02T17:14:44Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "One new file, the wake record; 0 outside scope; no key, personal detail or directing text.",
+   "at": "2026-11-02T17:15:01Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Idle plan, idle work, the diff is the wake record alone.",
+   "at": "2026-11-02T17:15:01Z"
+  }
+ },
+ "closed": "2026-11-02T17:15:01Z",
+ "outcome": "idle"
+}

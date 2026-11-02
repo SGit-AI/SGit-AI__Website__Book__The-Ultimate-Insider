@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, every two hours at :57 London (fired at 16:07, late)",
+ "started": "2026-11-02T16:08:30Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. LAB 35 cites C100 for 19:00; the chapter 6 decisions listed to the researcher by commit (c9ced4e, 78d517d, 545a473, the two members, the policies). 2. LAB 36: chapter 2's infographic, the five-step loop with each member's minute read from C071 at build; chapter 3's three sent-back cards, lines verbatim from timeline/cast.md and cast-scenes.md with commits 78b89b9, aeffbf9, 56c680b, no other numbers, no time not in the register; SVGs sized, 9 pt. 3. CV2 closed: LAB 34 marks A signed; issue 021; letters to the conductor and the researcher; mail filed; vault_check comms; lab PDF; debrief, status.json, REALITY.md.",
+   "at": "2026-11-02T16:09:54Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope; quotes at 78b89b9, 56c680b, aeffbf9 found in the timeline files; C071 and C100 in the register. Conditions: the cast as AI agents only; 19:00 only as scheduled (C100), never a measured start; minutes read from C071 at build, no other numbers; no religious words or em-dashes; vault_check comms; nothing toward the Cold-Read repository.",
+   "at": "2026-11-02T16:10:25Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "",
+   "verdict": "done",
+   "comment": "LAB 33, 34 mark cover A the book's; LAB 35 on C100; LAB 36: wake clock (C071 at build) and three sent-back cards (lines verbatim from timeline files, commits), layout fixed; lab PDF 105 pages; letters 082, 083; two filed; issues 010, 021; debrief, status.json, REALITY.md.",
+   "at": "2026-11-02T16:13:40Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "All files in scope; claims/, timeline/, manuscript/ untouched; LAB 36 reads only C071's minutes; the card lines verbatim in the timeline files with commits; LAB 35 cites C100 as scheduled; cast AI agents only; no em-dashes, religious words or secrets; vault_check comms clean.",
+   "at": "2026-11-02T16:15:11Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "All three items in 3978ad4; nothing outside the plan; debrief, status.json, REALITY.md updated.",
+   "at": "2026-11-02T16:15:11Z"
+  }
+ },
+ "closed": "2026-11-02T16:15:11Z",
+ "outcome": "ok"
+}

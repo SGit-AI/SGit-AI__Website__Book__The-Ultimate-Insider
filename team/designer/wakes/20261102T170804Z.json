@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, every two hours at :57 London (fired at 17:07)",
+ "started": "2026-11-02T17:08:04Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. LAB 35's timeline half: the five decisions at their recorded commit times read from C104 at build, lighter 'about' marks where C104 holds a given time (none for the longer work step), plain-word labels, the last point C072's '8 agreed', never 'all ten' (C081 open); ids on the figure; 9 pt; lab PDF rebuilt. 2. Letters to the researcher and the conductor; issue 010; visual plan row; vault_check comms. 3. Build, validate, agents check; debrief, status.json, REALITY.md.",
+   "at": "2026-11-02T17:08:56Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope; matches the register. Conditions: every time and count read from C104 and C072 at build, ids on the figure; given times marked 'about', commit times as recorded (17:41 is the conductor's record of the agreement); never 'all ten', the last point '8 agreed' (C072); vault_check comms; nothing outside scope.",
+   "at": "2026-11-02T17:09:35Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "",
+   "verdict": "done",
+   "comment": "LAB 35 timeline from C104 and C072 at build ('about' marks lighter, eight agreed, no 'all ten'); label clash in the 15:16 to 15:25 cluster fixed; pages, header, README, visual plan row; lab PDF 106 pages; letters 084, 085; one filed; issue 010; debrief, status.json, REALITY.md.",
+   "at": "2026-11-02T17:11:03Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "In scope; claims/ untouched; the timeline's times and count read from C104 and C072 at build, matching; 'about' on the given times; no 'all ten' on the figure or page; no em-dashes, religious words or secrets; vault_check comms clean.",
+   "at": "2026-11-02T17:12:05Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Every planned item in 7d9ba26; the label fix part of the work; debrief, status.json, REALITY.md updated.",
+   "at": "2026-11-02T17:12:05Z"
+  }
+ },
+ "closed": "2026-11-02T17:12:05Z",
+ "outcome": "ok"
+}

@@ -14,3 +14,5 @@ The editor's PS1: the book is about a creator given a factory of agents; the tal
 2 November 2026, 07:40: ED1 round 1 edits: cover A on the signed title (`cover-a-signed.svg`), a marker per edition page (`lab/characters/editions/`), speakers' heads (`lab/tools/book/speakers.css`), all to the publisher (`designer__071`).
 
 2 November 2026, 09:40: CV2, six covers on the signed title (LAB 34, my pick A, E second); the 10-page edition's two figures that are mine drawn (`designer__074`).
+
+2 November 2026, 16:50: CV2 signed, cover A the book's cover; marked on LAB 33 and LAB 34.

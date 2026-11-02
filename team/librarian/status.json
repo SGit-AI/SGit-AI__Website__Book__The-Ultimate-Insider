@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "librarian",
- "as_of": "2026-11-02T12:22:00Z",
+ "as_of": "2026-11-02T14:42:00Z",
  "round": 0,
- "state": "Active (12:18 wake, 2 November): the editions' final build checked (it holds); index/editions/README.md, the exact twin of their plain-name sources. Next: RC2's chapters as they land",
+ "state": "idle: ED1 complete (the storyteller's pointer to index/editions/ is in both scripts, 053); 002 and 005 wait on RC2's chapters. Task on 09:09 and 17:09 London",
  "done": [
   {
    "what": "Session key made and published (team/librarian/key.json, key.png, sessions/session_01Kw9UwBgUFHEgwLsB3TrwA8/)",
@@ -136,7 +136,7 @@
  "session": "session_01Kw9UwEJGqU63vtsX81uGNm",
  "task": {
   "id": "trig_01FSNcFLFBHSd9sEGYn86ndy",
-  "cron": "CRON_TZ=Europe/London 9 */2 * * *",
+  "cron": "CRON_TZ=Europe/London 9 9,17 * * *",
   "created": "2026-10-30T12:18:23Z",
   "into": "session_01Kw9UwEJGqU63vtsX81uGNm",
   "prompt": "word for word from team/conductor/schedule.json, runs entry for librarian",
@@ -145,8 +145,8 @@
    "into": "session_01Kw9UwBgUFHEgwLsB3TrwA8",
    "state": "paused at the editor's word, about 10:50 UTC; not deleted"
   },
-  "changed": "2026-11-02T09:13:13Z: back to active (9 */2) by this session, WAKE.md Cadence 4, ED1. Before: 2026-11-01T14:14:18Z, idle (9 9,17)"
+  "changed": "2026-11-02T14:41:07Z: to idle (9 9,17), by this session, WAKE.md Cadence 3, in the wake's reviewed plan. Before: 2026-11-02T09:13:13Z, active"
  },
  "board": "comms/issues/librarian/issues/",
- "cadence": "active"
+ "cadence": "idle"
 }

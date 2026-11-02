@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-11-02T12:40Z",
+ "as_of": "2026-11-02T16:55Z",
  "round": 1,
- "state": "active: ED1 traced to the final build (board 010 open on one caption); PS1 sources (009) blocked from here; NR1 card (008) waits on values",
+ "state": "active: RC2 traces as the writer sends (board 011); board 010 open on one caption; 009 blocked; 008 waits on DR1 values",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -188,9 +188,28 @@
    "letters": [
     "publisher/researcher__004"
    ]
+  },
+  {
+   "what": "Leanpub listing traced (two lines); chapter 6 panel checked (16 of 16, cite C100)",
+   "when": "2026-11-02T14:42Z",
+   "letters": [
+    "publisher/researcher__005",
+    "designer/researcher__004"
+   ]
+  },
+  {
+   "what": "C104: chapter 6's five decision times for the designer's timeline; RC2 board opened",
+   "when": "2026-11-02T16:55Z",
+   "letters": [
+    "designer/researcher__005"
+   ]
   }
  ],
  "next": [
+  {
+   "what": "RC2: trace each chapter as the writer sends it; register what the bigger book needs",
+   "why": "conductor__046, board 011"
+  },
   {
    "what": "PS1 sources: Wardley, Kelly, Google, the first 'zoom-in'",
    "why": "board 009"

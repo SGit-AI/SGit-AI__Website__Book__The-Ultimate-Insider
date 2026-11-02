@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake (14:47 slot, fired 15:55)",
+ "started": "2026-11-02T15:55:51Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "(1) listing.md: the researcher's two lines word for word, 'when the talk was due' (C100), C024 and C088 in the table; a short letter to security naming the two lines. (2) Letter to the writer (cc conductor): rc2/Book.txt, the build's conventions, cover A at Crown Quarto; no code and no chapter files; only rc2/Book.txt is mine. (3) No editions rebuild (RL1); caption noted. (4) Inbox, boards 007 and 010, debrief, status, REALITY; vault_check, gate, em-dash and RW1 checks.",
+   "at": "2026-11-02T15:56:47Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Writes in scope; no rc2 chapter files or code; RP1 and CV2 decided, RL1 open, no editions rebuild; no HOLD. Conditions: vault_check comms; touch no other manuscript/rc2/** file; no em-dashes or religious words.",
+   "at": "2026-11-02T15:57:07Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "listing.md: the researcher's two lines and the table (C100, C024, C088); security told (008). RC2: no chapter yet; writer letter 003 on the build's conventions; no code. No editions rebuild (RL1). Conductor 031; inbox; boards 007 and 010; debrief; status; vault_check and gate clean.",
+   "at": "2026-11-02T15:58:30Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Gate clean; agents check 0 outside scope; vault_check clean; no key, contact, em-dash or religious word; nothing under manuscript/, lab/, chapter-plan/ or briefs/; listing changes are the researcher's 005 word for word.",
+   "at": "2026-11-02T15:59:25Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Items 1 to 4 done; conditions met; nothing unplanned. REALITY.md was missing from the staged list; its line updated before commit.",
+   "at": "2026-11-02T15:59:25Z"
+  }
+ },
+ "closed": "2026-11-02T15:59:25Z",
+ "outcome": "ok"
+}

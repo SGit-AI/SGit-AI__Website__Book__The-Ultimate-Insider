@@ -50,7 +50,7 @@ Band: *The talk of 58 beats; that it was given that evening rests on its transcr
 
 **Narrator.** None of it was new. The build, the check, the brief, the hold: each piece came from something I had built before, on other projects. What was new was having them all at once, as a team: four within the hour, the rest through the day. That is how a factory gets cheap: yesterday's experiment is today's part.
 
-**Figure:** the cast cards for the four, the designer's scorecards (on stage from, commits, wakes, slot), each figure with its id in small type. *(Drawing: the designer's.)*
+**Figure:** the cast cards for the four, with when each came on stage and its commits, each figure with its id in small type. *(Drawing: the designer's.)*
 
 *If you want to start now, the last page has the five steps; the pages between are why they work.*
 

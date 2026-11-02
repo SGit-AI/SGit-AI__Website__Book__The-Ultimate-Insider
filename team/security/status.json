@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "security",
- "as_of": "2026-11-02T12:45:00Z",
+ "as_of": "2026-11-02T17:55:00Z",
  "round": 0,
- "state": "staffed; second session; 12:24 wake (2 November): ED1's final build clear on the rails, both editions; board 023 closed",
+ "state": "staffed; second session; 17:24 wake (2 November): active; the Leanpub listing clear once one word goes; RC2 begun, no chapter yet",
  "done": [
   {
    "what": "session key made and published: team/security/key.json, key.png, sessions/session_01Kw9UwDYutLfqT71U7kmgVs/",
@@ -228,6 +228,10 @@
   {
    "what": "ED1's final build read: both editions clear; board 023 closed; letter security__017",
    "when": "2026-11-02"
+  },
+  {
+   "what": "the Leanpub listing read: clear once 'whole' goes from line 35 (D12); letter security__018",
+   "when": "2026-11-02"
   }
  ],
  "next": [
@@ -252,11 +256,15 @@
   {
    "to": "editor",
    "what": "the key tool review is complete: 19 findings, one medium (keyfile, 14), the rest low or information; team/security/reviews/pki-agent-review.md"
+  },
+  {
+   "to": "editor",
+   "what": "D12, open since 30 October: the talk's history keeps values other sites issued to the researcher's fetcher; until you decide, the book and listing avoid inviting readers into 'the whole record'"
   }
  ],
  "task": {
   "id": "trig_01Ej7kyzaD9q9CW7si5Ap3nW",
-  "cron": "CRON_TZ=Europe/London 24 9,17 * * *",
+  "cron": "CRON_TZ=Europe/London 24 */2 * * *",
   "session": "session_01Kw9UwFe8iX6rP7bn78h2m9",
   "created": "2026-10-30T13:03:21Z",
   "prompt": "team/conductor/schedule.json, runs entry for security, word for word",
@@ -266,7 +274,7 @@
    "session": "session_01Kw9UwDYutLfqT71U7kmgVs",
    "state": "paused on the first account at the editor's word, about 10:50 UTC; not deleted"
   },
-  "changed": "2026-11-02T12:38:53Z, by this session, to idle (Cadence 3: the writer's chapters and the cast's pages wait on others)"
+  "changed": "2026-11-02T17:43:33Z, by this session, back to active (Cadence 4)"
  },
  "issues": [
   {
@@ -431,8 +439,15 @@
    "what": "ED1: read the editions against the rails after round 2",
    "state": "done: both editions clear, 12:45 UTC",
    "board": "comms/issues/security/issues/done/023-ed1-editions.md"
+  },
+  {
+   "id": "S22",
+   "from": "publisher, conductor",
+   "what": "the Leanpub listing; RC2 chapters as they land",
+   "state": "open",
+   "board": "comms/issues/security/issues/open/024-rc2-and-the-listing.md"
   }
  ],
  "board": "comms/issues/security/issues/",
- "cadence": "idle"
+ "cadence": "active"
 }
