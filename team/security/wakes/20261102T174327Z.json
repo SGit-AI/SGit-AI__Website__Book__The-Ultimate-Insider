@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1. The Leanpub listing read: clear once 'whole' goes from line 35 (D12 open); letter security__018 to the publisher and conductor. 2. RC2 noted, board 024 opened. 3. Status (D12 ask restated), debrief.",
    "at": "2026-11-02T17:45:53Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "379fa03..HEAD: letters, board 024, debrief, status, wake record; no key, token or contact; D12 named only as an open decision with no values or pointer; build, gate, agents.py, vault_check clean.",
+   "at": "2026-11-02T17:46:35Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "smaller model (sub-agent)",
+   "verdict": "as-planned",
+   "comment": "1 done: listing read, letters to the publisher and conductor. 2 done: RC2 noted, board 024. 3 done: status, debrief. Nothing unplanned.",
+   "at": "2026-11-02T17:46:49Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T17:46:49Z",
+ "outcome": "ok"
 }
