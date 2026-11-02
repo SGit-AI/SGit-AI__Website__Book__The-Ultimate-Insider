@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-02T10:33:10Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Idle wake per WAKE.md step 7: no new letters, trace with the storyteller, final rebuild under way, board 009 blocked; active cadence kept for the full trace.",
+   "at": "2026-11-02T10:34:24Z"
+  },
+  "pre_review": {
+   "by": "security pre-review sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Only status.json and the wake record; no task change; dev and branch only.",
+   "at": "2026-11-02T10:34:56Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Idle: no work to move; status.json state says why.",
+   "at": "2026-11-02T10:34:56Z"
+  },
+  "post_review": {
+   "by": "security post-review sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Only status.json and the wake record; no secrets or dashes.",
+   "at": "2026-11-02T10:35:31Z"
+  },
+  "post_check": {
+   "by": "conductor post-check sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "An idle wake as planned; no task change.",
+   "at": "2026-11-02T10:35:32Z"
+  }
+ },
+ "closed": "2026-11-02T10:35:32Z",
+ "outcome": "idle"
+}
