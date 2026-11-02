@@ -1,0 +1,33 @@
+{
+ "schema": "the-ultimate-insider/synthetic-chapter-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "event-team-member",
+ "read": ["manuscript/rc2/30/02-the-factory-is-assembled.md (draft)", "manuscript/rc2/30/03-the-factory-runs.md (draft)"],
+ "met_the_cast": "partly",
+ "agents_i_can_tell_apart": ["dev", "the conductor", "deck", "ruv-sgit", "the researcher", "studio"],
+ "agents_that_blur": ["the designer", "the storyteller", "motion"],
+ "understood_how_it_runs": "yes",
+ "in_my_words": "Each agent wakes on its own clock, may only touch the files on its page of rules, has its plan and its result read by a second agent, and anyone can drop a hold file to stop everything, so the person could walk away for nine hours.",
+ "keep_reading_to_chapter_4": "yes",
+ "why": "I came asking whether my own team could run like this, and chapter 3 shows the checking and arguing that makes leaving it alone believable. The do-this-now steps are small enough to try. I want to know what actually broke, and what the empty chair was.",
+ "by_section": [
+  {"chapter": "02", "section": "The empty project", "verdict": "holds", "why": "Short and concrete. The setup is easy to picture: an empty repository, a brief and one page of rules.", "quote": "a brief and one page of rules"},
+  {"chapter": "02", "section": "Four arrivals", "verdict": "stall", "why": "Four agents, three glossary terms and a figure arrive at once. I stopped to hold dev, conductor, deck and ruv-sgit apart. The one-line owner statements help, but the word 'check' is also called 'the gate' and I nearly missed that it was one thing.", "quote": "A check is a test every change must pass before it goes out (the team called it the gate)."},
+  {"chapter": "02", "section": "The map, before its name", "verdict": "stall", "why": "A Wardley map described in words with no picture on my phone. I got the point from the single line below it, not from the map.", "quote": "the bottom of the chain was already ordinary, so the top could be built in a day"},
+  {"chapter": "02", "section": "The clock and the five steps", "verdict": "holds", "why": "This is what I came for: a clock, a hold anyone can pull, and the five steps in plain words. I could copy it for my own team.", "quote": "It looks slow written down. The checking is what let nobody watch."},
+  {"chapter": "02", "section": "Caught by its own reviewer", "verdict": "holds", "why": "The honest limit lands well, and a first wake that closes partial is believable. The 'reviewer is the same kind of agent' preface is the useful caution.", "quote": "a second reading, not a second identity"},
+  {"chapter": "02", "section": "Before dawn", "verdict": "holds", "why": "Quick and clear. The researcher and designer are introduced only by a clause each, and the designer barely sticks.", "quote": ""},
+  {"chapter": "02", "section": "Do this now", "verdict": "holds", "why": "Practical and doable in a gap between meetings.", "quote": "You do not need six agents. You need the page the first one read."},
+  {"chapter": "03", "section": "The empty chair", "verdict": "holds", "why": "States the claim and what holds it up before the evidence. Without the chart on a phone the nine-hours claim rests on trust, but it is clear.", "quote": "For nine hours I started nothing."},
+  {"chapter": "03", "section": "The argument with a reviewer", "verdict": "holds", "why": "Strongest scene for my question: an agent disputes its own checker from the rules and the checker retracts. It shows the checks are not rubber stamps.", "quote": "I am not asking for an exception; I am asking you to read the line again."},
+  {"chapter": "03", "section": "Sent back, and owned", "verdict": "stall", "why": "Four incidents with four different pairings (deck to ruv-sgit, deck's reviewer to deck, designer to itself, conductor to ruv-sgit) in one section. The names blur and the second incident is hard to follow. The at-sign story needs the reader to know the team counts work by name.", "quote": "Back to the workshop."},
+  {"chapter": "03", "section": "The creator comes back", "verdict": "holds", "why": "Clear loop of ask, look, change, look again; the times make it concrete. 'All nine were on stage' lands, though I could not name the nine.", "quote": "I looked, I asked, they changed it, I looked again."},
+  {"chapter": "03", "section": "The objection kept", "verdict": "holds", "why": "Good, and the storyteller finally gets a voice. The dispute on the record beside the editor's decision is the part I would copy.", "quote": "a story that hides the strongest argument against it is not one I want to tell"},
+  {"chapter": "03", "section": "A relayed word refused", "verdict": "holds", "why": "A neat safeguard: a passed-on approval is not accepted. Short and memorable. Studio is only a name here, with no earlier introduction.", "quote": "My session would not take a relayed word for his, so I asked him myself."},
+  {"chapter": "03", "section": "Do this now", "verdict": "holds", "why": "Small and achievable this week.", "quote": "Give one small thing to somebody else today"}
+ ],
+ "best_line": "It looks slow written down. The checking is what let nobody watch.",
+ "worst_moment": "Sent back, and owned: four incidents in one section, so I lost who sent what to whom.",
+ "cut": "Trim 'Sent back, and owned' to two incidents, probably the picture sent back and the designer owning its table. Drop the at-sign episode or give it one line on why the name counts work. Consider cutting the Wardley map prose to two sentences.",
+ "notes": "Unexplained terms I met: 'hold' is explained, but 'wake' and 'debrief' are glossed in a box I might skip on a phone. The empty chair promise ('it comes back at the end') makes me want chapter 4. Dramatised lines mixed with real record lines worked because of the (record) marker. I never learned who the storyteller, motion and studio are for, and the cast bar is described but I cannot see it. For my team, the missing piece is what the agents cost to run and who paid for it."
+}

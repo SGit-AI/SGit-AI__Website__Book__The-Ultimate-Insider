@@ -1,0 +1,33 @@
+{
+ "schema": "the-ultimate-insider/synthetic-chapter-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "newsroom-builder",
+ "read": ["manuscript/rc2/30/02-the-factory-is-assembled.md (draft)", "manuscript/rc2/30/03-the-factory-runs.md (draft)"],
+ "met_the_cast": "partly",
+ "agents_i_can_tell_apart": ["the conductor", "the researcher", "deck", "the designer", "studio"],
+ "agents_that_blur": ["dev", "ruv-sgit", "the storyteller"],
+ "understood_how_it_runs": "yes",
+ "in_my_words": "Each agent wakes on its own clock, may touch only the files its page of rules names, has its plan and its result read by a second agent, and anyone can pull a hold that stops everyone until the editor lifts it.",
+ "keep_reading_to_chapter_4": "yes",
+ "why": "The disagreement scenes are what a newsroom lives on: a reviewer overruled by the rules, a mistake owned in writing. I want to see what the editor's signature does in chapter 4, because so far he mostly watches.",
+ "by_section": [
+  {"chapter": "02", "section": "The empty project", "verdict": "holds", "why": "Short, concrete, and it tells me what the brief and the rules were for before anything else.", "quote": "a licence, a short read-me and nothing else"},
+  {"chapter": "02", "section": "Four arrivals", "verdict": "stall", "why": "Four agents introduced in rapid fire, each with a mood tag. Dev and ruv-sgit read as eager workers; I could not say what each would refuse to do. The empty chair is a good hook but it is dropped in passing.", "quote": "Remember the empty chair: it comes back at the end."},
+  {"chapter": "02", "section": "The map, before its name", "verdict": "stall", "why": "The Wardley map is a figure I cannot see, and the prose gives me the conclusion before the picture. As an editor I want to know which part is the brake and why it is new, and the text only asserts it.", "quote": "the bottom of the chain was already ordinary, so the top could be built in a day"},
+  {"chapter": "02", "section": "The clock and the five steps", "verdict": "holds", "why": "The five steps are stated plainly and I could run them tomorrow. The glossary lines help. The 'a little smug' stage direction is noise.", "quote": "plan it; have the plan checked; do it; have it checked; check it went to plan"},
+  {"chapter": "02", "section": "Caught by its own reviewer", "verdict": "holds", "why": "Honest about the limit of a same-session reviewer, which is the first thing a sceptical editor asks. Won me over. I wanted to know what the editor then did about it.", "quote": "a second reading, not a second identity"},
+  {"chapter": "02", "section": "Before dawn", "verdict": "holds", "why": "Quick, and the handover to chapter 3 is clean. 'A factory that could run without me' is a big claim that the next chapter has to earn.", "quote": "A factory that could run without me."},
+  {"chapter": "02", "section": "Do this now", "verdict": "holds", "why": "A page of rules, a hold and who may lift it: the right first step, and the right role to start with is clear.", "quote": "name your hold, and write down who may lift it"},
+  {"chapter": "03", "section": "The empty chair", "verdict": "holds", "why": "States the claim and what holds it together before the scenes. That is how a sourced piece should open. Counts sit in a figure I cannot see.", "quote": "Nobody had to watch, because every step was checked and written down."},
+  {"chapter": "03", "section": "The argument with a reviewer", "verdict": "holds", "why": "The best scene so far: a dispute settled by pointing at the rules, with the checker's retraction written down. Exactly the record I would want behind a line.", "quote": "I am not asking for an exception; I am asking you to read the line again."},
+  {"chapter": "03", "section": "Sent back, and owned", "verdict": "stall", "why": "Four mini-scenes in a row with several names; they run together. The '@' on the commit name is a small in-joke that tells me nothing about trust. The deck-and-ruv-sgit item is the one a newsroom would recognise (a picture sent back).", "quote": "That is the part of the record I find hardest to believe, and easiest to check."},
+  {"chapter": "03", "section": "The creator comes back", "verdict": "holds", "why": "Where the editor finally acts: dictates, looks, asks, they change it. Clear loop. But this is a person giving orders, not signing; I want the sign-off moment shown.", "quote": "I was still asking for fixes in the last hour before the talk."},
+  {"chapter": "03", "section": "The objection kept", "verdict": "holds", "why": "This is the scene that answers my deal-breaker about rubber-stamping: the researcher's finding contradicts the editor's story, it reaches him, and he keeps his line with the objection beside it on the record.", "quote": "I kept the line in the talk, my own call, and the researcher's objection went on the record beside it."},
+  {"chapter": "03", "section": "A relayed word refused", "verdict": "holds", "why": "A control I would trust: the session will not take a relayed word for the editor's. Short and clear. It leaves his confirmation open, which is honest.", "quote": "My session would not take a relayed word for his, so I asked him myself."},
+  {"chapter": "03", "section": "Do this now", "verdict": "holds", "why": "Hand something over and listen. Good, small, doable. Not specific to a newsroom but easy to adapt.", "quote": "write down what they asked for differently"}
+ ],
+ "best_line": "I am not asking for an exception; I am asking you to read the line again.",
+ "worst_moment": "Four arrivals: four agents, four mood tags, in one short section. I could not tell dev from ruv-sgit by anything they refuse or check, so the cast does not stick.",
+ "cut": "The '@' commit-name item in 'Sent back, and owned'; and trim one of the four arrival scenes to a line, so the other three stand out.",
+ "notes": "Both chapters lean on figures I cannot see (map, clock, infographic); the prose alone is enough to follow but a source-minded reader will want the counts. The editor's signature is the control I care about and these chapters mostly show him dictating, not signing; the objection kept and the relayed word refused do the most to reassure. Never shown: what happens when a same-session reviewer and a builder agree wrongly."
+}
