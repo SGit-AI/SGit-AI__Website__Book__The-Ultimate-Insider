@@ -1,0 +1,39 @@
+{
+ "number": "44",
+ "date": "Monday 2 November 2026, 20:15 UTC",
+ "kicker": "The conductor brief · 44 · Monday 2 November 2026",
+ "title": "RC2: the first two chapters, and one correction to the editions",
+ "when": "20:15 UTC, the conductor's scheduled wake (20:02)",
+ "by": "conductor@book.the-ultimate-insider",
+ "headline": "Chapters 1 and 2 of the 30-page edition are written and attached as a draft PDF with cover A, 11 pages. The speakers' heads and bands are in; the pictures still print as boxes to come. Chapter 1 has been through every check. Security cleared it, the researcher traced it (one line about the brake does not hold) and three test readers read it. They found the problem and the 'do this now' strong, and stalled at the same two sections. Chapter 2 is not yet read by security. One correction you should know about: the editions I sent as final contain a line, 'none of it was new', that does not hold. The brake, the hold, was made that night. The scripts are fixed, and the fix prints at the next rebuild, which waits on your 'build' or 'ship'.",
+ "stats": [
+  {"n": "2 of 5", "label": "chapters of the 30-page edition written"},
+  {"n": "3,397", "label": "words so far, in 11 PDF pages with cover A"},
+  {"n": "1 of 2", "label": "chapters cleared by security (chapter 2 not yet read)"},
+  {"n": "2", "label": "sections of chapter 1 where all three test readers stall"}
+ ],
+ "for_you": [
+  {"group": "Now with more weight"},
+  {"id": "RL1", "ask": "'Build' or 'ship'? It now also releases a correction.", "detail": "The editions' next rebuild waits on this word. It will carry the fixed 'none of it was new' line (3-page page 1, 10-page page 2), page 2's caption and the line pointing readers to the index. If you share the editions before then, the conductor's advice is to wait for that rebuild.", "options": ["Ship", "Build"], "recommend": "Ship, today, so the corrected editions are the ones you share."},
+  {"group": "Still open"},
+  {"id": "D6-6", "ask": "The Cold-Read chapter: in the 70 or only the 150?", "detail": "From brief 43.", "options": ["in the 70", "only in the 150"], "recommend": "Only in the 150."},
+  {"id": "Leanpub", "ask": "Which manuscript does Leanpub publish first?", "detail": "The listing is now clear: traced by the researcher, and security's one word is out (publisher__032).", "options": ["the 10-page edition, after the rebuild", "the full book when written"], "recommend": "The 10-page edition, after the corrected rebuild."}
+ ],
+ "wide": [
+  {"title": "RC2 draft, chapters 1 and 2 (11 PDF pages)", "path": "team/conductor/editor-briefs/img/brief44-rc2-ch1-2.png", "caption": "Built by the conductor with the publisher's list (manuscript/editions/rc2/Book.txt) and its options, for this brief; the PDF is attached. Chapter 2 is not yet read by security. The dashed boxes are pictures the designer and ruv-sgit have begun (LAB 37, LAB 29), not yet placed."}
+ ],
+ "sections": [
+  {"title": "Chapter 1, the checks", "items": [
+   "security: clear on the rails. Bret Victor is named only for his published talk, and the room is 'a room in London' (security__019).",
+   "researcher: traced; it holds except for one line about the brake. The same line in both editions was its own miss, and it says so (commit fde3fea).",
+   "Three test readers, test instruments: the problem told plainly and the 'do this now' hold. All three stall at 'Pressing play' (the long quoted passage about an animation they cannot see) and 'Inventing on principle' (a 2012 talk, two lines would do). Their four changes are with the writer (review/synthetic/rc2/30/01).",
+   "librarian: quotes word for word; the two third-person lines are now in your voice (the writer, at chapter 2's wake)."
+  ]},
+  {"title": "Also", "items": [
+   "The publisher pushed once past a gate finding: two members both claimed the RC2 build list. It saw this and fixed it at once by moving the list into its own area, and it says so (publisher__033).",
+   "designer: pictures for chapters 1 and 2 in LAB 37. ruv-sgit: chapter 3's afternoon loop drawn as LAB 29, from the register."
+  ]}
+ ],
+ "next": ["Chapter 3 at the writer's next wake; security's read of chapter 2; the pictures placed. 22:02"],
+ "sources": ["git log 3711270..391ad12", "comms/mail/mailroom/conductor/publisher__032, 033, security__019, storyteller__066", "review/synthetic/rc2/30/01/summary.md", "git show fde3fea (researcher)"]
+}

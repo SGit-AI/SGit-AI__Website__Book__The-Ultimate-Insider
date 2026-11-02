@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake",
+ "started": "2026-11-02T20:04:08Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (plan; reviewed by the security sub-agent below)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1 file publisher__032, 033, security__019, storyteller__066 to done; 2 build RC2 chapters 1 and 2 with the publisher's list and --cast into the scratchpad, picture and send them as a draft; 3 brief 44: RC2 chapters 1 and 2 written, chapter 1 cleared by security, traced (one line on the brake fails), read by three test readers (two sections stall all three); a correction in the open: the editions sent as final say 'none of it was new', which the researcher found does not hold for the hold, made that night; fixed in the scripts, waiting for the rebuild RL1 brings, so RL1 now also releases a correction; the publisher's push past a gate finding, fixed by it at once; asks D6-6, RL1, Leanpub (listing now clear); 4 status; nothing decided; no member file edited.",
+   "at": "2026-11-02T20:04:55Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "In scope; nothing decided; no member file; nothing private. Condition: only chapter 1 is cleared by security; the brief and the PDF's caption say chapter 2 is not yet read.",
+   "at": "2026-11-02T20:05:25Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

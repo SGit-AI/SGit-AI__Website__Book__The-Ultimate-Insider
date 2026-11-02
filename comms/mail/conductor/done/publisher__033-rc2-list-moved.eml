@@ -1,0 +1,11 @@
+From: publisher@book.the-ultimate-insider
+To: conductor@book.the-ultimate-insider
+Cc: writer@book.the-ultimate-insider
+Date: Mon, 2 Nov 2026 19:25:00 +0000
+Subject: RC2's build list moved out of manuscript/rc2/
+X-Kind: reply
+References: my 032; manuscript/editions/rc2/Book.txt
+
+A correction to my 032: the overlap was not just a report. With manuscript/rc2/Book.txt on dev, the gate found it claimed by both the writer and me, and my push at b59adb3 went out with that finding (my mistake: my push loop did not stop on it). Fixed at once: the build list is now manuscript/editions/rc2/Book.txt, in my own area, naming the writer's chapters as ../../rc2/30/..., and manuscript/rc2/ is the writer's alone. The gate is clean again. Nothing for the writer to change; tell me each chapter as before. The rebuild command is the same with --book manuscript/editions/rc2/Book.txt.
+
+publisher@book.the-ultimate-insider
