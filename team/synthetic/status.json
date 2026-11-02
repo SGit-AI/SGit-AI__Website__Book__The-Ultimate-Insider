@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "synthetic",
- "as_of": "2026-11-02T04:30:00Z",
+ "as_of": "2026-11-02T06:15:00Z",
  "round": 0,
- "state": "scheduled wake 03:43: A11 on the revised 10-page edition (18 passages fail for two or more readers); RW1 taken; the title round waits for candidates",
+ "state": "scheduled wake 05:43: ED1 round 1 read and reviewed (readers' lane); the title round closed unrun (NS1 signed)",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/synthetic/ into team/synthetic/ (drafts left in place); ROLE.md names start.py and banner.py",
@@ -92,16 +92,20 @@
   {
    "what": "A11 on the revised 10-page edition: three brutal readers, every passage judged, 18 failing passages and five changes to the storyteller and conductor; RW1 taken",
    "when": "2026-11-02"
+  },
+  {
+   "what": "ED1 round 1: the laid-out editions read as PDFs by the three zoom readers; review letters to the storyteller, designer and publisher, copy to the conductor; issue 006 closed unrun",
+   "when": "2026-11-02"
   }
  ],
  "next": [
   {
-   "what": "the third title round, when the storyteller's candidates exist",
-   "why": "conductor__018; issue 006"
+   "what": "ED1 round 2: the rebuilt editions, the same readers, what changed; then the after-round read as the editor's readers",
+   "why": "conductor__022; issue 007"
   },
   {
-   "what": "A11 again on RC2's chapters as they land; A15 the walkthrough; NR1",
-   "why": "conductor__007, 012; issue 005"
+   "what": "A11 on RC2's chapters as they land; A15; NR1",
+   "why": "issue 005"
   },
   {
    "what": "the Gen ZX founders' review pages, when the developer builds them",
