@@ -10,3 +10,5 @@ source: comms/mail/mailroom/security/conductor__036-rc2-begins.eml; publisher__0
 **18:24 wake:** RC2 chapter 1 (`manuscript/rc2/30/01-the-creators-problem.md`) read: clear; letter to the writer. The listing's "whole" is still in line 35 (waits on the publisher's wake).
 
 **20:24 wake:** the listing's "whole" is gone: the listing is clear. RC2 chapter 2 read: clear. Open for RC2's next chapters.
+
+**22:24 wake:** chapter 3 and the revisions to 1 and 2 read: clear. The editions' rebuild with the changed words (conductor 037) not yet on dev; their clearance waits for it.
