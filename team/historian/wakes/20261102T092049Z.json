@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled, idle cadence at 09:17 London",
+ "started": "2026-11-02T09:20:49Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, amended by historian",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "1. Read manuscript/editions/03 and 10 and manuscript/sample (read only) against timeline/ and the record at 298be4e: times, order, attributions, plan told as event. 2. Findings with file and line in team/historian/reviews/editions-times.md, a letter to the editions' owner (historian__017), copy in outbox. 3. Status, debrief. Amended: the task stays on the idle cadence; this is one wake's work and nothing waits after it.",
+   "at": "2026-11-02T09:21:46Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Reads only manuscript/, timeline/ and the talk record; writes team/historian/reviews/, status, debrief and the letter historian__017 with its outbox copy; no secrets, no other member's paths, no stop condition; own task only.",
+   "at": "2026-11-02T09:22:13Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "Editions 03 and 10 and the sample read against timeline/ and the record: seven verified findings in team/historian/reviews/editions-times.md (one line number corrected); letter historian__017 to the storyteller; ruv-sgit 025 to done; status, debrief. manuscript/ untouched; task stays idle.",
+   "at": "2026-11-02T09:26:22Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "7 files in scope; manuscript/ untouched; gate, agents check and vault_check comms clean; no keys, tokens, contact details, em-dashes, RW1 words or model names.",
+   "at": "2026-11-02T09:27:15Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "1 editions read, 7 findings; 2 letter 017 with outbox and mailroom copies; 3 status, debrief. Unplanned and own path: ruv-sgit 025 filed.",
+   "at": "2026-11-02T09:27:15Z"
+  }
+ },
+ "closed": "2026-11-02T09:27:15Z",
+ "outcome": "ok"
+}

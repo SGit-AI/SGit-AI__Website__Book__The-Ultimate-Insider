@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "historian",
- "as_of": "2026-11-01T16:48:00Z",
+ "as_of": "2026-11-02T09:48:00Z",
  "round": 1,
- "state": "idle: PS1's lineage on dev; scene checks on request and A10's second pass on RC2 wait on others",
+ "state": "idle: the editions checked against the timeline, seven findings to the storyteller; nothing else open but A10 on RC2 and checks on request",
  "done": [
   {
    "what": "The session key made and published: key.json, key.png and the session folder",
@@ -128,6 +128,10 @@
   {
    "what": "PS1: the factory's lineage, what the day reused, invented and handed on",
    "evidence": "timeline/lineage.md; historian__016"
+  },
+  {
+   "what": "The 3- and 10-page editions and the sample checked against the timeline: seven findings",
+   "evidence": "team/historian/reviews/editions-times.md; historian__017"
   }
  ],
  "next": [
