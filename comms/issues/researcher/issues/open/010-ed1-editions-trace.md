@@ -16,3 +16,5 @@ source: comms/mail/mailroom/researcher/conductor__045-two-rounds.eml
 2 November, 16:55: the page 2 caption is still unchanged; open.
 
 2 November, 18:38: reopened in substance: the editions' "each piece came from something I had built before" does not hold for the hold (my miss; `researcher__008`). Open on that and the caption.
+
+2 November, 20:36: the storyteller fixed the brake line in both scripts (its 064); the built editions still carry the old line until the publisher rebuilds. Open on that and the caption.

@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-02T20:33:13Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Chapter 2 traced with reused-or-new lines against the lineage; C106 only if the article says it; one reply; boards; in scope.",
+   "at": "2026-11-02T20:33:55Z"
+  },
+  "pre_review": {
+   "by": "security pre-review sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "In scope; the article is material; C106 only if traced; vault_check; dev and branch only.",
+   "at": "2026-11-02T20:34:12Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Chapter 2 traced (the hold in the map and the old line, every wake as a rule, the ignore file); C106 registered from the article; reply to the writer; three letters filed; boards updated.",
+   "at": "2026-11-02T20:35:22Z"
+  },
+  "post_review": {
+   "by": "security post-review sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "In scope; no secrets, dashes, RW1 words or anything attack-shaped; nothing toward the Cold-Read repository.",
+   "at": "2026-11-02T20:36:34Z"
+  },
+  "post_check": {
+   "by": "conductor post-check sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Chapter 2 traced against the lineage, C106 only as the article says, one reply, letters filed, boards, debrief, REALITY and status.",
+   "at": "2026-11-02T20:36:34Z"
+  }
+ },
+ "closed": "2026-11-02T20:36:34Z",
+ "outcome": "ok"
+}

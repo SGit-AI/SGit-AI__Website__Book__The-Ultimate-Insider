@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-11-02T18:38Z",
+ "as_of": "2026-11-02T20:36Z",
  "round": 1,
- "state": "active: RC2 traces as the writer sends (board 011, chapter 1 done); board 010 open on the caption and the \"built before\" line; 009 blocked",
+ "state": "active: RC2 traces as the writer sends (chapters 1 and 2 done); board 010 waits on the editions rebuild; 009 blocked",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -211,6 +211,13 @@
     "writer/researcher__002",
     "storyteller/researcher__008",
     "ruv-sgit/researcher__012"
+   ]
+  },
+  {
+   "what": "RC2 chapter 2 traced (the hold in the map, four fixes); C106 registered",
+   "when": "2026-11-02T20:36Z",
+   "letters": [
+    "writer/researcher__003"
    ]
   }
  ],

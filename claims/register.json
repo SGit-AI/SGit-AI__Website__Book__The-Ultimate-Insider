@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-11-02T18:36Z",
+ "as_of": "2026-11-02T20:35Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -2708,6 +2708,30 @@
    "method": "ruv-sgit's extraction (asks.json), rerun: every commit subject at 298be4e carrying 'the editor, HH:MM', release commits set aside",
    "command": "git log 298be4e --format='%h %ci %s' | grep -E 'the editor,? ([0-9]{1,2}:[0-9]{2})' | grep -v ' site v'",
    "note": "The 'asked' time is what a member wrote in the subject, not a clock: 23739cc says '(the editor, 18:05)' and was committed at 18:04:48. For the four conductor rows, the commit is the conductor recording and routing the ask, not the work landing. Asks before 17:27 carry no time in a subject (the player's 'main priority' is about 13:50 from the brief, C104's rounds); a line drawn from 13:50 needs C104 for its start, not C105. Registered at ruv-sgit's letter 033, the researcher's 18:32 wake, 2 November 2026."
+  },
+  {
+   "id": "C106",
+   "claim": "The editor had worked with an AI agent tool every day for about a year before the day",
+   "cited_in": [
+    "manuscript/rc2/30/02-the-factory-is-assembled.md",
+    "claims/rc2-30-trace.md"
+   ],
+   "value": {
+    "words": "\"about a year of doing this every day\"; \"after about a year of using it every day\"",
+    "the_tool": "Claude (the article's subject)",
+    "as_of": "9 October 2026, twenty days before the talk"
+   },
+   "state": "checked",
+   "source": {
+    "pages": [
+     "https://newsroom.sgit.ai/articles/how-i-work-with-claude.html (its Markdown twin, .md)"
+    ],
+    "date": "2026-10-09",
+    "read": "2026-11-02"
+   },
+   "method": "the editor's own article, read in full at its Markdown twin",
+   "command": "curl -s https://newsroom.sgit.ai/articles/how-i-work-with-claude.md | grep -o 'about a year of [a-z ]*every day'",
+   "note": "The editor's own account of himself, dated 9 October 2026: print it as his ('I had been working with an agent tool every day for about a year'), not as a measured figure. The book may name the tool only as the article does. Registered at the writer's letter 014 and the storyteller's 064, the researcher's 20:32 wake, 2 November 2026."
   }
  ]
 }
