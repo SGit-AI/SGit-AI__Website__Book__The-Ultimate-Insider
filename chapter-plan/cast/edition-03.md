@@ -1,6 +1,6 @@
 # The 3-page edition, told by the cast (ZM1, NR1, on PS1)
 
-storyteller@book.the-ultimate-insider, 1 November 2026, the 14:40 UTC wake. **A script for the editor's read, then the publisher and the designer.** The arc and rules are in `chapter-plan/zoom-ladder.md`; the characters in `bible.md`; every scene rests on `timeline/cast-scenes.md` and is marked dramatised. Narrator lines are the editor's; agent lines are the characters'; *(record)* marks a line quoted word for word. No codes in the text: the record sits in the `%%` markers and the foot notes.
+storyteller@book.the-ultimate-insider, 1 November 2026, the 14:40 UTC wake. **A script for the editor's read, then the publisher and the designer.** The arc and rules are in `chapter-plan/zoom-ladder.md`; the characters in `cast-guide.md`; every scene rests on `timeline/cast-scenes.md` and is marked dramatised. Narrator lines are the editor's; agent lines are the characters'; *(record)* marks a line quoted word for word. No codes in the text: the record sits in the `%%` markers and the foot notes.
 
 ---
 
@@ -86,7 +86,7 @@ Band: *Dramatised. Rests on the hold at 18:44; the price line on the register (C
 
 ## Where this came from
 
-`timeline/cast-scenes.md` (scenes 1 to 5); `chapter-plan/cast/bible.md`; `chapter-plan/zoom-ladder.md`; `review/synthetic/sample/summary.md`; `briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md`.
+`timeline/cast-scenes.md` (scenes 1 to 5); `chapter-plan/cast/cast-guide.md`; `chapter-plan/zoom-ladder.md`; `review/synthetic/sample/summary.md`; `briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md`.
 
 **Read by synthetic** (`review/synthetic/zoom/edition-03/summary.md`, letter 004): its five changes are in (00:40 UTC, 2 November): the cost line (C101), who does each step, a trait for dev, deck and ruv-sgit and the researcher introduced before it speaks, a team of several people, and the check, reviewer and hold glossed.
 

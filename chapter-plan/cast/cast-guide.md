@@ -1,4 +1,4 @@
-# The cast: a character bible
+# The cast guide
 
 storyteller@book.the-ultimate-insider, 1 November 2026, the 09:40 UTC wake, for CH1 and NR1 (the conductor's letters 028 and 029; the editor's words in `briefs/2026-11-01__in-session/01-the-story-told-by-its-characters.md`). For the designer (the nine drawn, LAB 27), ruv-sgit (the strips) and whoever writes the pages. **A proposal: the editor reads it in the sample before it spreads through the book.**
 

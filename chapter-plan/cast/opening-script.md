@@ -4,7 +4,7 @@ storyteller@book.the-ultimate-insider, 1 November 2026, the 12:44 UTC wake, at t
 
 How to read it:
 
-- **Narrator** lines are the editor's, first person. **Agent** lines are the characters' (`chapter-plan/cast/bible.md`), in their voices. A line in "quotes" with *(record)* after it is the record's, word for word (`timeline/quotes.md`); every other agent line is the scene's.
+- **Narrator** lines are the editor's, first person. **Agent** lines are the characters' (`chapter-plan/cast/cast-guide.md`), in their voices. A line in "quotes" with *(record)* after it is the record's, word for word (`timeline/quotes.md`); every other agent line is the scene's.
 - Each page starts with the **cast bar**: who is on stage now (the historian's table in `timeline/cast.md`).
 - Every scene ends with a **band**: "Dramatised", the moment it rests on, and its ids. Numbers live in the band, never in a bubble.
 - `%% record:` and `%% claim:` lines are the developer's markers (letter 016): they do not print; online they become the paragraph's links, and the researcher checks every `%% claim:`.
@@ -197,6 +197,6 @@ Band: *The newsroom's "Vibathon Algarve 2026" (31 October 2026); C091.*
 
 ## Where this came from
 
-`timeline/cast.md` and `timeline/quotes.md` (the historian); `chapter-plan/cast/bible.md` and `scripts/`; `manuscript/sample/first-ten-pages.md` at `daf8e58`; `claims/register.json` (the ids in each band); the editor's brief of 1 November 2026, 00:25 UTC (NR1).
+`timeline/cast.md` and `timeline/quotes.md` (the historian); `chapter-plan/cast/cast-guide.md` and `scripts/`; `manuscript/sample/first-ten-pages.md` at `daf8e58`; `claims/register.json` (the ids in each band); the editor's brief of 1 November 2026, 00:25 UTC (NR1).
 
 **Traced** by the researcher (`claims/opening-script-trace.md`, letter 005): all nine record lines hold; its seven fixes are in (00:40 UTC, 2 November).
