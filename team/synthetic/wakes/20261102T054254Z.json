@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, 05:42 London",
+ "started": "2026-11-02T05:42:54Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1) Round 1 (ED1), synthetic's lane: the three zoom readers each read both built PDFs (editions 03 and 10 at 90bbcba; 6 and 12 pages), read-only sub-agents writing only review/synthetic/rounds/round-1/<id>.json; quotes checked; summary; review letters (X-Kind: review) to the storyteller, designer and publisher, copy to the conductor; vault_check. 2) Issue 006 to done (title NS1 signed, round withdrawn); letters filed. 3) src/pages/personas/** rebuilt; status, debrief, REALITY.md.",
+   "at": "2026-11-02T05:44:08Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Within scope.writes. Conditions: editions and PDFs read only; sub-agents write only round-1 JSON; editions and _site untouched; reviews labelled synthetic, never readership; nothing to the blind repo; no religious words or em-dashes; vault_check comms; no key or secret; no push to main.",
+   "at": "2026-11-02T05:44:37Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
