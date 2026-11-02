@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Edition 10 built into the scratchpad with build_book.py only (no edition.py, nothing in the repository written); both strips at size on the measure, captioned, on their scene's page. Reply to the publisher (copy conductor); two letters filed; task to idle (own, cron only); status, debrief.",
    "at": "2026-11-02T10:57:45Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Security sub-agent on c870e21 and ba25fc3: eight files, all in ruv's comms and team paths; nothing in manuscript, publishing or lab; 0 outside scope; vault_check and gate clean; no secret, contact, em-dash or religious word.",
+   "at": "2026-11-02T10:59:05Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Conductor sub-agent: letters filed byte-identical, reply 032 with copies, status idle matching schedule.json, debrief accurate. c870e21 carried times later than its commit; ba25fc3 corrected them seconds later, before the push.",
+   "at": "2026-11-02T10:59:05Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T10:59:05Z",
+ "outcome": "ok"
 }
