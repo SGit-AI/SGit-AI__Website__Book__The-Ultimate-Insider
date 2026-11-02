@@ -118,6 +118,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - `lab/experiments/26-ruv-the-concepts-mapped/` (LAB 26): chapter 13's concepts mapped to the chapters that show them, from the manuscript; LAB 23 with the beats as dots (C097); the cast strips named LAB 28; run `lab/runs/20261101T0454Z-ruv-26-*`.
 - `lab/experiments/27-ruv-the-ten-controls/` (LAB 25): chapter 9's ten controls read across, from the chapter's own sections; run `lab/runs/20261101T0654Z-ruv-25-*`.
 - LAB 26 with a tone per concept group, LAB 28 on one page (the designer's notes); ruv.sgit's task on its idle schedule (09:54 and 17:54 London) while its work waits on others; run `lab/runs/20261101T0854Z-ruv-26-28-*`.
+- LAB 28, the cast in strips, now three scenes: the hold, and the storyteller's NR1 interview (the researcher and the deck) and therapy session (the conductor after the hold), in the designer's cast; LAB 25 with a key; run `lab/runs/20261102T0344Z-ruv-28-*`.
 
 ## Synthetic readers (synthetic@book.the-ultimate-insider)
 

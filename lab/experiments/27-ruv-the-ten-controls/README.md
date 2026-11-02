@@ -17,3 +17,7 @@ The team's own controls only, at the level of the chapter's register. The finer 
 ## Questions for the editor
 
 Does the grid carry chapter 9's argument faster than its ten sections? Should the rows run in the ladder's order, from nothing to a boundary?
+
+## Round 2 (2 November 2026)
+
+The designer kept it (`designer__061`), with two notes: a key under the grid names each shape once, and the caption says why C3 is lightly tinted (the one brake, pulled by a person) and C10 is in the accent. To keep the grid on one page after its header, its repeated title is dropped and the source line shortened.

@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (idle, delivered late)",
+ "started": "2026-11-02T03:44:27Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Wake 20261102T034427Z, ruv-sgit (the 17:54 idle wake, delivered at 03:43; the storyteller's hold lifted). New work found, so the task is back to active first (WAKE.md Cadence 4: trig_01Jm7baKZj9yJLnJyqwsuGsr cron to CRON_TZ=Europe/London 54 */2 * * *, cron only). Plan: 1. NR1 (storyteller__026, historian__013): the storyteller's two scripts (chapter-plan/cast/scripts/ at 6452450, read only) copied word for word into LAB 28's scripts/ and set as two more sheets: the interview (researcher and deck, C029 to C031, C039) and the therapy session (the conductor and security's empty chair, C006, C021, C024, C065, C089). strip.py learns the storyteller's format (speaker, drawing, pose, line, source, band) beside its own; drawings from the designer's cast (lab/characters/cast/<member>-<mood>.svg, read only), a pose outside the four moods mapped to the nearest mood or to lab/characters/conductor-alarmed.svg, the mapping printed in the README; the empty chair a dashed empty frame named as such. Every band number checked against the register (C031 holds 02:47 and five minutes; C021 the 95%; C065 the 82 seconds); C089 is open by design and is cited only beside the checked C021, as the researcher allowed. Words are the storyteller's, unchanged. experiment.json: pages 3, title \"The cast in strips\". One page per sheet, checked in a scratch copy of the lab build. 2. security__013: strip.py also refuses number words in a bubble (two and up; \"one\" as the storyteller uses it stays), and pose names are no longer printed under the speaker, and the alt text is written from the drawing's mood (e.g. \"the conductor, alarmed\"), with the number-word refusal run on alt text too, so \"at ninety-five\" leaves the page entirely. All writes in lab/experiments/25-ruv-the-cast-strips/ (LAB 28) and 27-ruv-the-ten-controls/ (LAB 25); lab/characters and chapter-plan read only. The storyteller reply flags, without fixing, that the letter puts the cast's line on the at-ninety-five pose and the script on \"on the minute\"; the document is called the cast guide (RW1). 3. designer__061 (LAB 25 keep): a key under the grid naming the shapes once, and a word in the caption on why C3 is tinted (pulled by a person). 4. conductor__010 (MN1) and conductor__011 (RW1): acknowledged; the cast guide named as such from now on; my pages carry no map notes yet. 5. Replies: storyteller, historian, security, designer, conductor; inbound filed by copy; board 016 updated; run record; READMEs, status (cadence active), debrief, REALITY; vault_check; gate; commit; post-review; post-check; close; push to dev; end banner. lab/pdf, lab/tools, ids.json unstaged; no vault; nothing to Cold-Read.  (Amended at the conductor's and security's change; both changes folded in.)",
+   "at": "2026-11-02T03:46:53Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Security sub-agent first said change: write only in the 25-ruv folder (LAB 28) and other ruv folders, lab/characters and chapter-plan read only; 'at ninety-five' off the page and out of the alt text. The conductor's plan step asked the same for the alt text, and to flag the pose mismatch and say cast guide in the storyteller reply. The plan was amended to meet both; go on the amended plan. Otherwise benign: no key, token, contact or access key in the scripts; editor not drawn; dramatised; own task, cron only.",
+   "at": "2026-11-02T03:47:00Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

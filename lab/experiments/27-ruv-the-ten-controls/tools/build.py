@@ -12,11 +12,19 @@ HERE = Path(__file__).resolve().parents[1]
 SHAPE = {'refused on its own authority': 'background:var(--accent);color:var(--paper)',
          'reported without refusing': 'background:var(--fill-2)', 'rested on the member running it': 'background:var(--fill-2)',
          'waited on a role nobody held': 'background:var(--fill-2)', 'pulled by a person': 'background:var(--tint)'}
-TD = 'padding:1.2mm 2mm;border-top:.25mm solid var(--fill-2);vertical-align:top;font:400 9pt/11.5pt var(--sans)'
+TD = 'padding:.8mm 2mm;border-top:.25mm solid var(--fill-2);vertical-align:top;font:400 9pt/11.5pt var(--sans)'
 
 
 def e(s):
     return html.escape(s, quote=False)
+
+
+def key(d):
+    """The shapes, named once under the grid (the designer's note, designer__061)."""
+    seen = list(dict.fromkeys(r['shape'] for k in d['kinds'] for r in k['rows']))
+    chips = ' '.join(f'<span style="display:inline-block;margin:0 1.5mm 1mm 0;padding:.4mm 1.4mm;border-radius:1mm;font:400 9pt/11.5pt var(--sans);'
+                     f'{SHAPE.get(sh, "border:.25mm solid var(--fill-2);color:var(--muted)")}">{e(sh)}</span>' for sh in seen)
+    return f'  <p style="margin:2mm 0 0;font:400 9pt/12pt var(--sans);color:var(--muted)">The shapes: {chips}</p>\n'
 
 
 def main():
@@ -36,13 +44,14 @@ def main():
     th = 'text-align:left;padding:0 2mm 1mm;font:700 9pt/12pt var(--sans);color:var(--muted)'
     (HERE / 'pages.html').write_text(
         '<section class="page" data-claims="">\n <figure class="fig span12">\n'
-        '  <p class="fig-title">The ten controls, read across</p>\n'
         f'  <table style="border-collapse:collapse;width:100%"><thead><tr><th style="{th}">Control</th><th style="{th}">What it stopped</th>'
         f'<th style="{th}">What it missed</th><th style="{th}">The shape of the miss</th></tr></thead><tbody>\n  '
         + '\n  '.join(rows) + '\n  </tbody></table>\n'
-        '  <figcaption><b>Read down the last column: each miss either reported without refusing, rested on the member running it, or waited on a role nobody held. '
-        'The one brake that stopped the team was pulled by a person; the one control that refused an agent on its own authority sat outside the repository.</b>'
-        '<span class="src">Chapter 9: each row from its control\'s own section; the shapes from "What the controls missed, together" (C7\'s and C9\'s in the chapter\'s words).</span></figcaption>\n'
+        + key(d) +
+        '  <figcaption><b>Read down the last column. The one brake that stopped the team was pulled by a person (C3, lightly tinted); '
+        'the one control that refused an agent on its own authority sat outside the repository (C10, in the accent).</b> '
+        'An outlined shape is the chapter\'s word for a control its summary leaves out.'
+        '<span class="src">Chapter 9: each row from its control\'s section, the shapes from its summary of the misses.</span></figcaption>\n'
         ' </figure>\n</section>\n')
 
 

@@ -33,3 +33,9 @@ The researcher checked the strip against the register (`claims/the-hold-strip-ch
 ## Round 2 (1 November 2026, the 08:54 wake)
 
 The designer kept it, with one note: its second page held only the dramatised note and the sources. The drawings are now 19 mm wide, the panels tighter, the line sources folded into the dramatised note (each line's exact place stays in `scripts/the-hold.json`), and the header's "tries" one line shorter; in a scratch copy of the designer's build the strip holds one page. The characters' words and the moment are unchanged.
+
+## Round 3: the two NR1 scenes (2 November 2026, the wake of 03:44 UTC)
+
+The storyteller wrote two scripts on the historian's record (`storyteller__026`; `chapter-plan/cast/scripts/` at `6452450`): an interview, the researcher and the deck on the claims that did not hold and the out-of-date figure on the definition slide (C029 to C031); and a therapy session, the conductor after the hold, talking to security's empty chair (C006, C021, C024, C065, C089). Both are copied word for word into `scripts/` and set as the second and third sheets. The bands are the storyteller's; every number in them is in the register (C031 holds the freeze at 02:47 and the correction five minutes later; C021 the 95 percent; C065 the 82 seconds). C089 is open by design and sits beside the checked C021.
+
+The tool now reads the storyteller's format beside its own. Poses map to the drawings that exist: the designer's four moods (proud as happy, pacing as stressed), and the conductor's named poses to the designer's own drawings (at ninety-five as `conductor-alarmed.svg`, on the minute as `conductor-calm.svg`). The empty chair is an empty dashed frame with no bubble. At security's note (`security__013`), pose names are no longer printed or put in the image text, and number words (two and up) are refused in a bubble or the alt text as well as digits; "one", as the storyteller uses it, passes.

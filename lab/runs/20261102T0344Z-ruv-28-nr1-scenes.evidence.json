@@ -1,0 +1,34 @@
+{
+ "schema": "the-ultimate-insider/lab-run-evidence/v1",
+ "run": "20261102T0344Z-ruv-28-nr1-scenes",
+ "started": "2026-11-02T03:44:27Z",
+ "wake_record": "team/ruv-sgit/wakes/20261102T034427Z.json",
+ "calls": [
+  {
+   "what": "cmp of each copied script against chapter-plan/cast/scripts/: identical",
+   "tool": "cmp"
+  },
+  {
+   "what": "python3 -B -I tools/strip.py on the three scripts: three sheets, no number refused",
+   "tool": "python"
+  },
+  {
+   "what": "each band number checked in the register: C031 (02:47, five minutes), C021 (95%), C065 (82 seconds)",
+   "tool": "python"
+  },
+  {
+   "what": "lab/tools/build_lab.py in scratch copies: 92 pages, 9 pt floor, no overflow; LAB 28 on three pages, LAB 25 on its header and one page after its repeated title was dropped",
+   "tool": "the designer's build, read only"
+  }
+ ],
+ "outputs": {
+  "hashes": [
+   "lab/experiments/25-ruv-the-cast-strips/SHA256SUMS",
+   "lab/experiments/27-ruv-the-ten-controls/SHA256SUMS"
+  ]
+ },
+ "time": {
+  "work_started": "2026-11-02T03:46:00Z",
+  "work_ended": "2026-11-02T03:53:00Z"
+ }
+}
