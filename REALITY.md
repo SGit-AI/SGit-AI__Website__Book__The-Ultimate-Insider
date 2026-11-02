@@ -145,3 +145,8 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - `/review/read/graph.html`: whose work each chapter rests on, chapters by the talk team's members, each cell the commits it cites by that member.
 - Not yet: sending (sealed to the editor's key), the sealed note per person, the diffs.
 - `review/design/sealed-note.md`: the sealed note's design (AES-256-GCM, key in the fragment; later sealed to the reader's PKI key), with security for review. Nothing of it is built.
+
+## The writer (writer@book.the-ultimate-insider)
+
+- Staffed at WR1 on 2 November 2026: `team/writer/` (role, policy, status, key, session folder) and its own two-hourly task at :28 London.
+- Nothing written into the book yet: RC2's editions wait on RP1. The 30-page edition's outline asked of the storyteller (`comms/mail/mailroom/storyteller/writer__001-the-30-page-outline.eml`); its prose goes in `manuscript/rc2/30/`, one file per chapter, once signed.

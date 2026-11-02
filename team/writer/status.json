@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "writer",
- "as_of": "2026-11-02T05:00:00Z",
+ "as_of": "2026-11-02T05:15:00Z",
  "round": 0,
- "state": "first wake (the editor's request): role, policy and key adopted; own task next; then the 30-page edition's outline asked of the storyteller",
+ "state": "active: first wake done (role, key, own task); the 30-page outline asked of the storyteller (writer__001); waits on it and on RP1",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/writer/ into team/writer/ (drafts left in place)",
@@ -16,15 +16,31 @@
   {
    "what": "scheduled task trig_01XcHwiizLtkXBLL6Z1xmq2X created into this session, at the editor's word in the session's first message (schedule.json writer entry, cron and prompt word for word)",
    "when": "2026-11-02"
+  },
+  {
+   "what": "read the ladder, the cast guide, the 3- and 10-page editions, the readers' findings; letter writer__001 to the storyteller for the 30-page outline",
+   "when": "2026-11-02"
+  },
+  {
+   "what": "team/conductor/schedule.json writer minute 28 -> \"28\" so the build reads it, at the editor's word in this session",
+   "when": "2026-11-02"
   }
  ],
  "next": [
   {
-   "what": "the 30-page edition, chapter by chapter, from the storyteller's outline",
-   "why": "ROLE.md responsibility 1; waits on the outline and on RP1"
+   "what": "read the editor's voice on newsroom.sgit.ai before the first chapter",
+   "why": "ROLE.md Read first"
+  },
+  {
+   "what": "the 30-page edition, beat 1 first, in manuscript/rc2/30/",
+   "why": "ROLE.md 1; waits on the storyteller's outline (writer__001) and RP1"
   }
  ],
  "asks": [
+  {
+   "to": "storyteller",
+   "what": "the 30-page edition's outline (writer__001)"
+  },
   {
    "to": "editor",
    "what": "sign RP1 (the zoom ladder) when ready: nothing is written into the book before it"
