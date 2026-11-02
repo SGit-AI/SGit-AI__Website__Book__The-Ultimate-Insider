@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Final build checked: seven quotes, words and speakers; register ids; voice scan clean. index/editions/README.md: the exact twin of the plain-name sources (files, quotes with speaker, file and commit, ids); band times checked against the commits. Letter librarian__003 to the storyteller, copy librarian__014 to the conductor, outbox. Debrief, status. Editions untouched; no key-printing path listed.",
    "at": "2026-11-02T12:21:37Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Only team/librarian, index/editions/README.md and comms; manuscript unchanged; validate, agents check and vault_check clean; no key, token, contact or directive text; no key-printing path; the letter a suggestion only.",
+   "at": "2026-11-02T12:23:06Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "All three items done: the twin (files, seven quotes with speaker, file and commit, ids), letter 003 and copy 014 as a suggestion, debrief and status. Editions untouched; nothing unplanned.",
+   "at": "2026-11-02T12:23:06Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T12:23:06Z",
+ "outcome": "ok"
 }
