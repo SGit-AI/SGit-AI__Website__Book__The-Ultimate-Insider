@@ -1,0 +1,30 @@
+{
+ "schema": "the-ultimate-insider/synthetic-after-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "gen-z-founder",
+ "read": ["one-human-nine-agents-edition-03.pdf (6 pages)", "one-human-nine-agents-edition-10.pdf (12 pages)"],
+ "which_first": "03, because it is short enough for a phone between other things and still ends on four steps I could do tonight.",
+ "editions": {
+  "03": {
+   "page_one_held": "yes",
+   "got_the_factory": "yes",
+   "would_start_tomorrow": "yes",
+   "one_line": "Quick, a story with a clock, a hold and a 6 pm stop, then four steps small enough to take tonight; I got it without knowing any code."
+  },
+  "10": {
+   "page_one_held": "partly",
+   "got_the_factory": "yes",
+   "would_start_tomorrow": "yes",
+   "one_line": "Same factory with the fights and the failures left in, which makes it feel real, but the steps are on page 11 and I would have drifted before then."
+  }
+ },
+ "tomorrow": "Open the AI agent tool I already use for my app, make a new empty project with nothing private in it, and write a half-page of rules for one agent: what it is for, what it may change, when it must stop and ask. Then a one-line brief ('a page answering what my users ask most, by Friday') and see what it ships by evening.",
+ "would_share": "yes, with the two friends who build apps with me; I would send edition 03 page 5, the four steps, because it is the one page they can act on tonight.",
+ "would_buy_the_longer_book": "yes",
+ "why_buy": "Each step would need a worked example from an app like mine, a 'do this now' I can finish in an evening, and the failures kept in. A real cost line for a student budget would seal it.",
+ "best_page": {"edition": "03", "pdf_page": 5, "why": "The stop at 18:44 lands, then the four numbered steps are concrete, small and say what to keep out (no passwords, no keys). It is the page that answers 'can I do this'."},
+ "worst_page": {"edition": "10", "pdf_page": 12, "why": "A list of file paths and a letter number (claims/register.json, C101, briefs/...) is exactly the repo-speak that loses me; the 'why this page is here' idea is good but the sources block reads as insider noise."},
+ "one_change_before_the_editor_sees_it": "Edition 10, page 3: replace the 'Figure to come' box (and the other placeholders on pages 4, 8, 9) with the real picture, or cut the box, because the dashed 'to come' frames make a phone read feel unfinished; and move 'start now' to the top of page 3, since the pointer on page 4 comes too late.",
+ "scores": {"page_one": 4, "clarity": 4, "for_someone_like_me": 4, "would_start": 4, "the_look": 4},
+ "notes": "The cover and the little characters are the best thing: they make it feel like my kind of book, not a manual. Page-end 'Dramatised. Rests on...' lines and codes like C101, C037, C088, R5 are jargon I skipped. The small agent icons are tiny on a phone. $20 a month is the first number I would check and it is easy to find, which I liked; a free route is mentioned but thin. The first factory scene in 03 is dense for a first page, with five speakers before any glossary, though the grey 'Words on this page' boxes rescued it."
+}
