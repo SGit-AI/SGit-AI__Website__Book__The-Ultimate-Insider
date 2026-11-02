@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "In the conductor's writes, no other member's files, nothing private or attack-shaped, nothing decided for him; vault_check before commit.",
    "at": "2026-11-02T06:06:55Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "designer__070 filed to done; status; brief 37 (2 pages) on round 1 so far; no nudges, as amended.",
+   "at": "2026-11-02T06:08:08Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "Brief 37's numbers match their sources (3 of 3, three maybes, 6 and 12 pages, 16 commits, build 04:55); no key, contact, em-dash or religious word; only conductor files; nothing decided.",
+   "at": "2026-11-02T06:08:39Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "Letter filed, status, brief 37, no nudges as amended; CV2 and RP1 stay open.",
+   "at": "2026-11-02T06:08:39Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T06:08:39Z",
+ "outcome": "ok"
 }
