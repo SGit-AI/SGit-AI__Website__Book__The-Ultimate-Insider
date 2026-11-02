@@ -67,7 +67,7 @@ def main():
                     unresolved.append(t)
         name = os.path.basename(ch)
         L = [f"# The index entries `{name}` draws on", "",
-             f"From the chapter's `## Where this came from` in `manuscript/{name}`, resolved by `index/tools/chapter_entries.py`. "
+             f"From the chapter's `## Where this came from` in `{ch}`, resolved by `index/tools/chapter_entries.py`. "
              "Each row is the index's own entry for the file: kind, owner, when it was added and last changed, and what it is.", ""]
         for src, table in sources:
             hits = [p for (s, p) in found if s == src]

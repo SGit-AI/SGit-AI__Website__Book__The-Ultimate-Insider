@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, idle at 09:09 and 17:09 London",
+ "started": "2026-11-02T17:52:31Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "1) Letter 018: own task back to active (Cadence 4; update_trigger, own task only); status cadence active. 2) check_sources.py and voice_scan.py on manuscript/rc2/30/01-the-creators-problem.md; the quotes word for word with their true speakers; findings with file and line in team/librarian/reviews/rc2-01.md; letter librarian__NNN to the conductor (copy to the storyteller if a fix is theirs). 3) The index twin for chapter 01 (index/rc2/), modelled on index/editions/README.md. Chapter not edited.",
+   "at": "2026-11-02T17:53:10Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "In policy: own task to active (Cadence 4); writes in team/librarian, index/rc2/ and its mail; manuscript/rc2/ read only; no secrets, no stop condition.",
+   "at": "2026-11-02T17:53:33Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Own task to active (9 */2). Chapter 1 of RC2's thirty checked: sources clean, ids exist; two quotes word for word with speakers (voice note; on stage 15:50), Victor via C103; voice scan no hit; two printed third-person lines (32, 66). reviews/rc2-01.md; index/rc2/README.md; index/chapters/01-the-creators-problem.md (chapter_entries.py prints the real path); letter librarian__001 to the writer, copy librarian__015 to the conductor; 018 in inbox. Debrief, status. Chapter not edited.",
+   "at": "2026-11-02T17:55:41Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

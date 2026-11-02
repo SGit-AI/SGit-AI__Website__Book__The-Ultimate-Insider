@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "librarian",
- "as_of": "2026-11-02T14:42:00Z",
+ "as_of": "2026-11-02T17:56:00Z",
  "round": 0,
- "state": "idle: ED1 complete (the storyteller's pointer to index/editions/ is in both scripts, 053); 002 and 005 wait on RC2's chapters. Task on 09:09 and 17:09 London",
+ "state": "Active (17:52 wake, 2 November): RC2 begun; chapter 1 of the thirty checked (holds; two lines into the first person); index/rc2/README.md, the quotes' twin. Each RC2 chapter as it lands",
  "done": [
   {
    "what": "Session key made and published (team/librarian/key.json, key.png, sessions/session_01Kw9UwBgUFHEgwLsB3TrwA8/)",
@@ -116,9 +116,17 @@
   {
    "what": "The editions' final build checked; index/editions/README.md (files, quotes with speakers and commits, register ids); letter librarian__003 to the storyteller, copy to the conductor",
    "when": "2026-11-02T12:22:00Z"
+  },
+  {
+   "what": "RC2 chapter 1 checked (reviews/rc2-01.md); index/rc2/README.md and index/chapters/01-the-creators-problem.md; letter librarian__001 to the writer, copy to the conductor",
+   "when": "2026-11-02T17:55:00Z"
   }
  ],
  "next": [
+  {
+   "what": "Each RC2 chapter as it lands: sources, quotes (words and speakers), voice scan, index twin",
+   "why": "letter 018"
+  },
   {
    "what": "Each wake: check_sources.py on every RC1 chapter (full-history clones), findings to the conductor with file and line",
    "why": "board 002"
@@ -136,7 +144,7 @@
  "session": "session_01Kw9UwEJGqU63vtsX81uGNm",
  "task": {
   "id": "trig_01FSNcFLFBHSd9sEGYn86ndy",
-  "cron": "CRON_TZ=Europe/London 9 9,17 * * *",
+  "cron": "CRON_TZ=Europe/London 9 */2 * * *",
   "created": "2026-10-30T12:18:23Z",
   "into": "session_01Kw9UwEJGqU63vtsX81uGNm",
   "prompt": "word for word from team/conductor/schedule.json, runs entry for librarian",
@@ -145,8 +153,8 @@
    "into": "session_01Kw9UwBgUFHEgwLsB3TrwA8",
    "state": "paused at the editor's word, about 10:50 UTC; not deleted"
   },
-  "changed": "2026-11-02T14:41:07Z: to idle (9 9,17), by this session, WAKE.md Cadence 3, in the wake's reviewed plan. Before: 2026-11-02T09:13:13Z, active"
+  "changed": "2026-11-02T17:53:33Z: back to active (9 */2) by this session, WAKE.md Cadence 4, RC2's first chapter (letter 018). Before: 2026-11-02T14:41:07Z, idle"
  },
  "board": "comms/issues/librarian/issues/",
- "cadence": "idle"
+ "cadence": "active"
 }
