@@ -24,3 +24,5 @@ The editor likes where the lab is going; make visuals big and run a couple of ex
 2 November 2026, 13:40: chapter 6, the decided-and-open half as LAB 35, fragments to the researcher (`designer__081`); the timeline half waits on the signature times.
 
 2 November 2026, 16:50: RC2 begins (RP1): the first pictures of the thirty, chapters 2 and 3, as LAB 36; LAB 35 cites C100; chapter 6's decisions to time listed to the researcher (`designer__083`).
+
+2 November 2026, 17:40: chapter 6 whole as LAB 35 (the timeline from C104 and the decided-and-open panel).

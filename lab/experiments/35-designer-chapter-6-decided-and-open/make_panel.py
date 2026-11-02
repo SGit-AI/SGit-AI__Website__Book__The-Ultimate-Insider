@@ -72,3 +72,56 @@ if __name__ == "__main__":
     check()
     (HERE / "panel.svg").write_text(panel())
     print("panel.svg written; every fragment found in its line")
+
+
+# ---- the timeline half (C104, C072), added 2 November 2026 at the researcher's registration ----
+import json, re
+
+TIMELINE = [("feedback_round", "the feedback round"), ("decisions_round", "the decisions round"),
+            ("longer_work_step", "the longer work step"), ("two_members_brought_on", "two members brought on"),
+            ("policies_agreed", "the policies agreed")]
+
+
+def hm(s):
+    m = re.search(r"(\d\d):(\d\d)", s)
+    return int(m[1]) * 60 + int(m[2]), f"{m[1]}:{m[2]}"
+
+
+def timeline():
+    reg = {c["id"]: c for c in json.loads((REPO / "claims" / "register.json").read_text())["claims"]}
+    v, end = reg["C104"]["value"], reg["C072"]["value"]
+    t0, t1, x0, x1, base = 13 * 60 + 30, 18 * 60, 6.0, 158.0, 30.0
+    sx = lambda m: x0 + (m - t0) / (t1 - t0) * (x1 - x0)
+    out = [f'<line x1="{x0}" y1="{base}" x2="{x1}" y2="{base}" stroke="{mc.INK}" stroke-width=".4"/>']
+    for h in range(14, 19):
+        out.append(mc.line(sx(h * 60), base, sx(h * 60), base + 1.6, mc.INK, .35) + t(sx(h * 60), base + 5.6, f"{h}:00", 400, mc.MUTED, "middle"))
+    rows = []
+    for i, (key, words) in enumerate(TIMELINE):
+        d = v[key]
+        m, label = hm(d["recorded"])
+        x = sx(m)
+        if "given" in d:  # the time he gave it, the record's own 'about', lighter
+            g, glabel = hm(d["given"])
+            out.append(f'<circle cx="{sx(g):.2f}" cy="{base}" r="1.5" fill="#fff" stroke="{mc.MUTED}" stroke-width=".4" stroke-dasharray=".6 .5"/>')
+        out.append(f'<circle cx="{x:.2f}" cy="{base}" r="1.7" fill="{mc.ACCENT}"/>')
+        rows.append((x, words, label, d.get("given")))
+    # labels on alternating levels above the line, the 15:16 to 15:25 cluster spread out
+    # (label x, label y): the 15:16 to 15:25 cluster spread left, below and right, so no two labels touch
+    place = [(None, 15.0), (40.0, 6.5), (None, 23.5), (100.0, 6.5), (None, 15.0)]
+    for i, (x, words, label, given) in enumerate(rows):
+        px, y = place[i]
+        lx = min(max(px if px is not None else x, 22), 142)
+        out.append(mc.line(x, base - 2, lx, y + 1.4, mc.FILL2, .3))
+        extra = f", about {hm(given)[1]}" if given else ""
+        out.append(t(lx, y - 3.4, words, 700, anchor="middle") + t(lx, y + .6, f"recorded {label}{extra}", 400, mc.MUTED, "middle"))
+    out.append(t(x1, base + 11, f"at the end of the day: {end['agreed']} policies agreed (C072)", 400, mc.MUTED, "end"))
+    out.append(f'<circle cx="{x0 + 1.5}" cy="{base + 9.8:.1f}" r="1.5" fill="#fff" stroke="{mc.MUTED}" stroke-width=".4" stroke-dasharray=".6 .5"/>'
+               + t(x0 + 4.4, base + 11, "about: when he gave it, in the record's own words", 400, mc.MUTED)
+               + f'<circle cx="{x0 + 1.5}" cy="{base + 14.8:.1f}" r="1.7" fill="{mc.ACCENT}"/>'
+               + t(x0 + 4.4, base + 16, "recorded: the commit that carries it (C104)", 400, mc.MUTED))
+    return mc.svg(164, round(base + 18, 1), "".join(out), "The afternoon's five decisions on one line of time, each at the commit that recorded it")
+
+
+if __name__ == "__main__":
+    (HERE / "timeline.svg").write_text(timeline())
+    print("timeline.svg written from C104 and C072")
