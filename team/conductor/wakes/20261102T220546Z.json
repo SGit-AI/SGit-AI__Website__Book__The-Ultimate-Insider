@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "In scope; the signed title only; no new number; domain stays; nothing private.",
    "at": "2026-11-02T22:06:12Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "Brand in build.py and site.json's short and tagline on the signed title; gate clean; status.",
+   "at": "2026-11-02T22:06:36Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "Only the brand, site.json and the conductor's own files; nothing private; domain unchanged; no new number.",
+   "at": "2026-11-02T22:07:04Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "Matches NS1 and G1; the tagline names the editions from 3 up, as the home page does (the 1-page edition is not yet made).",
+   "at": "2026-11-02T22:07:04Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T22:07:04Z",
+ "outcome": "ok"
 }
