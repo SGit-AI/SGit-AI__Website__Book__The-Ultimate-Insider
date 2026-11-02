@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "synthetic",
- "as_of": "2026-11-01T16:15:00Z",
+ "as_of": "2026-11-02T02:15:00Z",
  "round": 0,
- "state": "scheduled wake 15:43: the draft 3-page edition read by three zoom readers; seventeen personas on /personas/",
+ "state": "scheduled wake 01:43 (four queued wakes never started): the 10-page edition read by the three zoom readers, all yes; conductor__013 done",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/synthetic/ into team/synthetic/ (drafts left in place); ROLE.md names start.py and banner.py",
@@ -84,16 +84,16 @@
   {
    "what": "the draft 3-page edition read by three zoom personas (conductor__013): factory yes, yes, partly; start tomorrow yes, yes, maybe; five changes to the storyteller",
    "when": "2026-11-01"
+  },
+  {
+   "what": "the draft 10-page edition read by three zoom readers (factory and start tomorrow: yes from all three), the revised 3-page edition re-read; five changes to the storyteller",
+   "when": "2026-11-02"
   }
  ],
  "next": [
   {
-   "what": "the 10-page edition past the zoom readers, when it exists; the 3-page edition again once laid out",
-   "why": "conductor__013"
-  },
-  {
-   "what": "A11, the brutal pass over the book; A15, the walkthrough; NR1, the cast-told pages",
-   "why": "conductor__007, 012"
+   "what": "A11, the brutal pass over the book; A15, the walkthrough when it exists; NR1, the cast-told pages; the editions again once laid out",
+   "why": "conductor__007, 012; issue 005"
   },
   {
    "what": "the Gen ZX founders' review pages, when the developer builds them",
