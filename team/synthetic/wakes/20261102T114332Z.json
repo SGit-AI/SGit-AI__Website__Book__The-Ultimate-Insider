@@ -30,8 +30,15 @@
    "verdict": "clean",
    "comment": "58894bc touches only the wake record, final-check.md and the two copies of one letter, all in scope; vault_check clean; 0 outside scope; no keys, tokens, personal details or directive text; labelled a mechanical check, not readership. Noted: the letter says the task goes idle, the switch was not completed (status mismatch, not security).",
    "at": "2026-11-02T17:55:00Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "partial",
+   "comment": "Item 1 done (58894bc: both editions built, three findings checked and closed, final-check.md, letter 013). Item 2 not done in the wake: no idle switch, no status change (status caught up at close; the task stays active, as new work arrived: writer__009, conductor__023). Item 3: the debrief written at close. Conditions kept. Letter 013 said the task goes idle; corrected by letter 014.",
+   "at": "2026-11-02T17:49:29Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T17:49:30Z",
+ "outcome": "partial"
 }

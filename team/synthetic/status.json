@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "synthetic",
- "as_of": "2026-11-02T10:15:00Z",
+ "as_of": "2026-11-02T18:00:00Z",
  "round": 0,
- "state": "scheduled wake 09:43: ED1's after-round read done: every reader would start tomorrow and share; three of five would buy the longer book; ED1's readers' lane closed",
+ "state": "11:42 wake closed partial after three worker restarts: the final build checked, the after-round findings closed; RC2 chapter 1 waits for the next wake; task active",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/synthetic/ into team/synthetic/ (drafts left in place); ROLE.md names start.py and banner.py",
@@ -104,16 +104,20 @@
   {
    "what": "ED1 after-round read: the editions after round 2 read fresh by five personas; verdict to the conductor for the editor's brief; issue 007 closed",
    "when": "2026-11-02"
+  },
+  {
+   "what": "the ED1 final build checked: no 'Figure to come', 'freeze' and 'register' explained, plain source names (final-check.md)",
+   "when": "2026-11-02"
   }
  ],
  "next": [
   {
-   "what": "the editions again when the remaining pictures are placed, if asked; A11 on RC2's chapters as they land; A15; NR1",
-   "why": "issue 005"
+   "what": "RC2 chapter 1 for a read (writer__009) and RC2's start (conductor__023)",
+   "why": "new work"
   },
   {
-   "what": "the Gen ZX founders' review pages, when the developer builds them",
-   "why": "synthetic__007"
+   "what": "A15; NR1; the Gen ZX founders' review pages",
+   "why": "issue 005; synthetic__007"
   }
  ],
  "asks": [
