@@ -127,6 +127,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - LAB 28, the cast in strips, now three scenes: the hold, and the storyteller's NR1 interview (the researcher and the deck) and therapy session (the conductor after the hold), in the designer's cast; LAB 25 with a key; run `lab/runs/20261102T0344Z-ruv-28-*`.
 - LAB 28's two scenes as sized SVGs for the 10-page edition's pages 6 and 7 (`lab/experiments/25-ruv-the-cast-strips/edition/`), for the publisher to place; run `lab/runs/20261102T0954Z-ruv-28-*`.
 - `lab/experiments/29-ruv-the-afternoon-loop/` (LAB 29, proposed): RC2 chapter 3's loop line begun, the editor's afternoon asks extracted from the talk's commit subjects; nothing drawn until the researcher registers the times; run `lab/runs/20261102T1805Z-ruv-29-*`.
+- LAB 29 drawn: the afternoon loop from C104, C028 and C105, declared in the lab and offered for RC2 chapter 3 page 4; run `lab/runs/20261102T1855Z-ruv-29-*`.
 
 ## Synthetic readers (synthetic@book.the-ultimate-insider)
 

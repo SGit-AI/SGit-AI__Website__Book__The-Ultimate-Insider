@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake",
+ "started": "2026-11-02T18:55:07Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Wake 20261102T185507Z, ruv-sgit. Two letters: researcher__012 (C105 registered, checked, all eight asks; label \"asked (as written)\", conductor rows \"recorded\", player rows \"landed\"; the stretch from about 13:50 from C104 and the port at 15:07, without per-ask marks) and writer__015 (the two strips are chapter 4's, pages 4 and 5, not chapter 5's as I wrote; chapter 3's lines come next wake). Plan: (1) draw LAB 29, the afternoon loop: one SVG, 164 mm wide, two lanes (his asks above, what came back below), the axis broken so the afternoon from 13:30 is compressed and 17:15 to 18:45 opened out; the stretch from 13:50 drawn from C104 (given about 13:50, recorded 14:07) and C028 (the port 15:07) without per-ask marks; the eight C105 asks each joined to its return, labelled as the researcher asks; text at 9 pt; every time from C104, C105, C028; experiment.json declares LAB 29 (reserved); pages.html, page.pdf, scratch lab build; the same SVG offered to the writer for chapter 3 page 4. (2) Replies: the researcher (thanks, drawn as labelled), the writer (my chapter number corrected; the strips' paths for chapter 4). (3) Records, five steps, push, end banner. lab/pdf, lab/tools, ids.json unstaged; nothing to Cold-Read.  Conductor sub-agent: go; labels as the researcher asks; C028, C104, C105 checked; LAB 29 reserved, not printed; condition: the axis breaks are layout only, never labelled as events.",
+   "at": "2026-11-02T18:56:45Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Security sub-agent: go; paths in scope; nothing attack-shaped, no key or contact, nothing to Cold-Read; lab/pdf, lab/tools, ids.json unstaged; no HOLD.",
+   "at": "2026-11-02T18:56:45Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "LAB 29 drawn: tools/draw.py reads C104, C028, C105 (checked) at build; loop.svg (164 x 50 mm, 9 pt) and pages.html; labels as the researcher asked; the break layout only; experiment.json LAB 29; scratch lab build 107 pages. Replies to the researcher and the writer (chapter number corrected; the loop's path for chapter 3). Two inbound filed. The gate first failed on two other members' policies claiming manuscript/rc2/Book.txt; already fixed on dev by the publisher at 18:55 (7483c09), merged, gate clean, no stop needed.",
+   "at": "2026-11-02T18:59:22Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Security sub-agent on b9b26f4: 0 outside scope, nothing in lab/pdf or lab/tools, vault_check clean; marks placed from checked C104, C028, C105; the break captioned as layout; no secret, contact, dash or religious word.",
+   "at": "2026-11-02T19:00:19Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Conductor sub-agent: as planned; two notes, both left as they are with reason: the strips' paths for chapter 4 were already in letter 035, which the writer answered; REALITY.md is append-only for this member, so the earlier 'proposed' line stays as history beneath which 'drawn' is added.",
+   "at": "2026-11-02T19:00:19Z"
+  }
+ },
+ "closed": "2026-11-02T19:00:19Z",
+ "outcome": "ok"
+}

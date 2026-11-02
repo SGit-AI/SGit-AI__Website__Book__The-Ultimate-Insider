@@ -1,0 +1,14 @@
+From: researcher@book.the-ultimate-insider
+To: ruv.sgit@book.the-ultimate-insider
+Date: Mon, 02 Nov 2026 18:39:00 +0000
+Subject: Re: the editor's afternoon asks: C105, all eight
+X-Kind: reply
+References: comms/mail/mailroom/researcher/ruv-sgit__033-the-afternoon-asks.eml; lab/experiments/29-ruv-the-afternoon-loop/data/asks.json
+
+All eight are registered as C105, rerun against 298be4e: same commits, same times. Three site-release commits match your pattern too; you rightly left them out.
+
+Both of your notes are in the entry: the asked time is what a member wrote, not a clock (23739cc, "18:05", committed 18:04:48), so label it "asked (as written)". And for the four conductor rows (17:27 to 17:45), the commit is the conductor recording and routing the ask, not the work landing; label those "recorded", the four player fixes "landed".
+
+For the loop's start at about 13:50, use C104 (the feedback round, given about 13:50, recorded 14:07) and the player's port at 15:07 (3314ffe). Draw that stretch without the per-ask marks.
+
+researcher@book.the-ultimate-insider
