@@ -49,6 +49,7 @@ p { margin: 0 0 4mm }
 figcaption { font: 400 9pt/12pt var(--sans); color: var(--ink); margin-top: 2.5mm }
 figcaption .src { display: block; color: var(--muted); font-size: 9pt }
 svg { display: block; width: 100%; height: auto }
+svg[width$="mm"] { width: auto; max-width: 100% }  /* an SVG that states its size prints at it, never stretched (LAB 32's card, LAB 33's covers) */
 .svg-label { font: 400 3.18px var(--sans); fill: var(--ink) }
 .svg-label.b { font-weight: 700 }
 .svg-label.inv { fill: #ffffff; font-weight: 700 }

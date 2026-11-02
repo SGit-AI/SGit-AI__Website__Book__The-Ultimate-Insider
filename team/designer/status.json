@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "designer",
- "as_of": "2026-11-01T15:40:00Z",
+ "as_of": "2026-11-02T01:35:00Z",
  "round": 0,
- "state": "twenty-ninth wake (scheduled): CV1 answered with four cover studies on PS1 and ZM1's editions look (LAB 33); lab PDF 90 pages; DR1 and CV1 wait on the editor's pick; next MN1 B, C099 and the lab's figure CSS",
+ "state": "thirtieth wake (scheduled; four before it lost to worker restarts): the lab's figure rule fixed; C099 on chapter 5's strip; lab PDF 90 pages; next MN1 B; DR1 and CV1 wait on the editor",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/designer/ into team/designer/ (drafts left in place)",
@@ -152,6 +152,10 @@
   {
    "what": "LAB 33 (lab/experiments/33-designer-cover-studies/): four front-cover studies on PS1 and the editions' ladder for ZM1; issue 021; letter designer__062",
    "when": "2026-11-01"
+  },
+  {
+   "what": "lab/tools/lab.css: sized SVGs print at their size; LAB 31 shows each beat's placed claims by state (C099, read and checked at build); letters designer__063, 064",
+   "when": "2026-11-02"
   }
  ],
  "next": [

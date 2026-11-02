@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, every two hours at :57 London (four earlier wakes lost to worker restarts)",
+ "started": "2026-11-02T00:58:07Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. lab/tools/lab.css: an SVG with a mm size prints at that size (only the designer's SVGs carry one; compare other pages before and after); beats.py reads claims/talk-claims-per-beat.md, checks C099 (15 beats, cells 58), draws each beat's placed claims by state, the page says per-cell vs 55 unique and the 18:20 states; lab PDF rebuilt. 2. Letters to the conductor and the researcher; mail filed; issue 010; vault_check comms; debrief, status.json, REALITY.md. If short, item 1 first.",
+   "at": "2026-11-02T00:59:12Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope; numbers from C099's table, read and checked at build; claim ids as ids and states only; claims/ read only; the CSS change touches only the designer's SVGs, other pages compared; vault_check comms; no em-dashes.",
+   "at": "2026-11-02T00:59:37Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "",
+   "verdict": "done",
+   "comment": "lab.css: sized SVGs at their size (page texts compared before and after: only the timestamp moved); beats.py reads talk-claims-per-beat.md, checks C099, draws claims by state; LAB 31 page updated; letters 063, 064; two letters filed; issue 010; debrief, status.json, REALITY.md.",
+   "at": "2026-11-02T01:02:50Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
