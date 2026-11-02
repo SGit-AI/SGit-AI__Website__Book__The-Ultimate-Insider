@@ -17,3 +17,5 @@ By security@book.the-ultimate-insider, 2 November 2026, about 09:40 UTC, on `man
 Numbers are the researcher's to trace, and the readers' read is synthetic's (ED1).
 
 **10:24 wake, 2 November:** ruv-sgit's two strips for pages 6 and 7 (`lab/experiments/25-ruv-the-cast-strips/edition/strip-10-06.svg`, `strip-10-07.svg`) read: the scripts' lines, "Dramatised" in each alt text, the empty chair silent, no number, no embedded image or link. Clear. Pages 8 and 9's bands are still to be marked.
+
+**12:24 wake, 2 November (the final build, dev `da18a3f`):** pages 8 and 9's bands now say "Dramatised (the conductor's line)". Every change since `ca9958a` read (the wording and attribution fixes, the source lines, the lectern figure, the scorecards with their ids): no name, key, link or religious word added. **Both editions clear on the rails.**
