@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Chapters 1 to 3 revised on eight letters; RL1 noted; chapter 4 in manuscript/rc2/30/04-the-stop.md (C005 C006 C024 C027 C029 C030 C031 C065 C088 C089 C100; strips by path; rule 6 not touched); letters 021 to 024; eight letters into done/; board, status, debrief; vault_check clean; no Book.txt or rc2-figures.json.",
    "at": "2026-11-02T22:31:41Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (Sonnet), steps 4 and 5 in one agent to spare usage",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Build, gate, agents check (0 outside), vault_check clean. Chapter 4 times and counts match C005 C006 C024 C027 C029-C031 C065 C088 C089 C100; hold quote word for word; no figure in an agent's line; scenes banded; C089's three accounts kept as held. No em-dashes, religious words, Book.txt, rc2-figures.json, keys or attack content. Revisions to 1 to 3 small and as planned.",
+   "at": "2026-11-02T22:33:22Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (Sonnet), with step 4",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "All three done: 1 to 3 revised on the eight letters; chapter 4 with strips by path, ids and sources; letters 021 to 024, done/ mail, board, status, debrief. Conditions kept; nothing unplanned; the partial fallback not needed.",
+   "at": "2026-11-02T22:33:22Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T22:33:22Z",
+ "outcome": "ok"
 }
