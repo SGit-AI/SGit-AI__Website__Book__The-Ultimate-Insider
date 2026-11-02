@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Meets the conditions: nothing in manuscript/; his words relayed by mail; brief 36 in team/conductor; the series page an ask; no keys. On the count: the five are publisher 024 plus the four named.",
    "at": "2026-11-02T04:04:07Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "As amended: publisher 048 (his words only; it builds the editions), synthetic 019, ruv-sgit 012, designer 038; five letters to done; brief 36 (the series page as an ask); status.json. Nothing in manuscript/. vault_check clean, gate 0, scope 0 outside.",
+   "at": "2026-11-02T04:04:50Z"
+  },
+  "post_review": {
+   "by": "security post-review sub-agent",
+   "model": "haiku",
+   "verdict": "clean",
+   "comment": "Gate 0; scope 0 outside; vault_check clean; nothing in manuscript/; his words only to the publisher; the series page an ask; brief 36 matches the letters; no key, contact or em-dash.",
+   "at": "2026-11-02T04:05:41Z"
+  },
+  "post_check": {
+   "by": "conductor post-check sub-agent",
+   "model": "haiku",
+   "verdict": "as-planned",
+   "comment": "All items done. The sub-agent said partial, missing a reply to synthetic 010; checked: synthetic 019 answers both 010 and 011 (its References name both), so as planned.",
+   "at": "2026-11-02T04:05:41Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T04:05:41Z",
+ "outcome": "ok"
 }
