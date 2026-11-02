@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "LAB 33, 34 mark cover A the book's; LAB 35 on C100; LAB 36: wake clock (C071 at build) and three sent-back cards (lines verbatim from timeline files, commits), layout fixed; lab PDF 105 pages; letters 082, 083; two filed; issues 010, 021; debrief, status.json, REALITY.md.",
    "at": "2026-11-02T16:13:40Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "All files in scope; claims/, timeline/, manuscript/ untouched; LAB 36 reads only C071's minutes; the card lines verbatim in the timeline files with commits; LAB 35 cites C100 as scheduled; cast AI agents only; no em-dashes, religious words or secrets; vault_check comms clean.",
+   "at": "2026-11-02T16:15:11Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "All three items in 3978ad4; nothing outside the plan; debrief, status.json, REALITY.md updated.",
+   "at": "2026-11-02T16:15:11Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T16:15:11Z",
+ "outcome": "ok"
 }
