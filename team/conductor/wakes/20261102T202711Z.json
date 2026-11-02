@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Letters only; his instruction relayed, nothing more decided; nothing private; the writer's copy information only.",
    "at": "2026-11-02T20:27:54Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "His words in 10-one-head-per-speaker.md; letters publisher 055, designer 044, writer 003 (information) with outbox copies; status.",
+   "at": "2026-11-02T20:28:22Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "His words verbatim; letters only; nothing private or decided beyond his instruction; vault_check clean.",
+   "at": "2026-11-02T20:28:56Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "All items done; numbering right; the answer to him is in the chat.",
+   "at": "2026-11-02T20:28:56Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T20:28:56Z",
+ "outcome": "ok"
 }
