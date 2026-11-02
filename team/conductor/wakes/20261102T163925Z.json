@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "In scope; the writer's task change only asked, as WAKE.md Cadence allows; nothing decided; nothing private. (Its condition on issues: the three are letters, filed in the conductor's own comms/mail/conductor/done/.)",
    "at": "2026-11-02T16:40:28Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "Three letters filed; conductor__002 to the writer; brief 42 (1 page target); status.",
+   "at": "2026-11-02T16:41:24Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "finding",
+   "comment": "Nothing private; no task changed; nothing decided. Finding fixed before close: the outline has chapters 1 to 4 in full, so 4 of 5, not 3 of 5; brief 42 corrected and rebuilt.",
+   "at": "2026-11-02T16:41:56Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "All four plan items done; the one wrong stat (3 of 5) fixed to 4 of 5 and the brief rebuilt before close.",
+   "at": "2026-11-02T16:41:56Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T16:41:56Z",
+ "outcome": "ok"
 }
