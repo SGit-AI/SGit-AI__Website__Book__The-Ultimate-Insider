@@ -19,3 +19,5 @@ source: comms/mail/mailroom/publisher/conductor__038-nr1-the-sample.eml
 2 November about 09:15 UTC, ED1 round 2: both editions rebuilt (6 and 12 PDF pages) from the round-2 scripts, with cover A, the on-stage markers and the speakers' heads placed; running head off the cover and lighter. Letter 028 and copies to all six. Waiting: the scorecards and stations figure (designer), the two strips (ruv-sgit); then the after-round checks and the conductor's brief to the editor.
 
 2 November about 11:10 UTC, ED1 final: both editions rebuilt from the final-pass scripts with all four drawings placed (6 and 13 PDF pages; the 10-page edition's page 2 runs to two sheets for the scorecards at their stated size). Letter 029 to the conductor, copies to the researcher, security, storyteller, designer and ruv-sgit. This is the editor's final build.
+
+2 November about 13:45 UTC: the final build cleared by security (006) and traced by the researcher (004). No rebuild: the next waits on RL1 and the storyteller's page-2 caption (the designer's redrawn cards, 078, are already what a rebuild prints).

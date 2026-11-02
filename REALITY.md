@@ -66,6 +66,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - Since 2 November about 07:20 UTC (ED1 round 1): the editions build without a contents page (`--no-toc`), the script's promise on the title page, figures still to be drawn as marked boxes, and each speaker's line as a block the look can style; 5 and 11 PDF pages. `manuscript/rc2/` is the writer's, not the publisher's (WR1).
 - Since 2 November about 09:15 UTC (ED1 round 2): the editions open on the designer's cover A, full bleed (`build_book.py --cover`), carry its on-stage marker on every scene page and its speakers' heads (`--extra-css lab/tools/book/speakers.css`); 6 and 12 PDF pages. Four figures in the 10-page edition are still dashed boxes.
 - Since 2 November about 11:10 UTC (ED1 final): every drawing in the editions is placed (`publishing/edition.py` finds each page's figure in `lab/`); 6 and 13 PDF pages, the 10-page edition's page 2 on two sheets for its scorecards. This is the build the editor gets as final.
+- Since 2 November about 13:45 UTC: `publishing/listing.md` drafts the Leanpub book page for the editor (subtitle, teaser, meta description, description), with security and the researcher before he pastes it. No Leanpub book exists yet.
 
 ## Not yet
 

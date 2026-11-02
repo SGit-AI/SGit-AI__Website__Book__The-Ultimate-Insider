@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake (12:47 slot, fired 13:26)",
+ "started": "2026-11-02T13:27:24Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "(1) No rebuild; letter to the storyteller (cc conductor, researcher): caption fix before the next rebuild, the researcher's wording as option; the end-list line and RL1 wait; page 2 stays two sheets unless the editor says. (2) publishing/listing.md from NS1, G1, L1, numbers only from the register (C011, C010) with ids in a column; a draft for the editor, not published; to security and the researcher first; LEANPUB.md step 4 points at it. (3) Inbox, board 010, debrief, status, REALITY; vault_check, gate, no em-dashes, RW1; not RL1.",
+   "at": "2026-11-02T13:28:19Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In policy; NS1, G1, L1 decided, RL1 open; no HOLD. Conditions: draft only, unpublished; no RL1-dependent text; numbers only C011/C010; no contact details, keys, private names or emails; nothing attack-shaped; no em-dashes or RW1 words; vault_check.",
+   "at": "2026-11-02T13:28:37Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "No rebuild (storyteller's word; caption first). publishing/listing.md drafted (NS1, G1, L1; numbers C011, C010, C001 in a table; RL1 left out); LEANPUB.md step 4 points at it. Letters: storyteller 008, security 007, researcher 006, conductor 030; inbox filed; board 010, debrief, status, REALITY; vault_check and gate clean.",
+   "at": "2026-11-02T13:30:39Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "finding",
+   "comment": "Gate, agents check, vault_check clean; no keys, contacts, em-dashes, religious words; in scope. Finding: 'one small thing that somebody else can use' echoed RL1's open line (fixed before commit: 'one small, finished piece of work'); 'one page of rules' is the editions' wording, not a count.",
+   "at": "2026-11-02T13:31:33Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "partial",
+   "comment": "Kept: no rebuild, four letters, listing drafted and unpublished, LEANPUB step 4, records, gates. Deviations: C001 added for the date (a register id, disclosed in the table); the RL1-adjacent phrase, fixed before commit.",
+   "at": "2026-11-02T13:31:33Z"
+  }
+ },
+ "closed": "2026-11-02T13:31:33Z",
+ "outcome": "ok"
+}

@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "publisher",
- "as_of": "2026-11-02T11:10:00Z",
- "round": 36,
- "state": "ED1 final build done (6 and 13 PDF pages, all drawings placed); with the conductor for the editor's brief; next the Leanpub listing draft",
+ "as_of": "2026-11-02T13:45:00Z",
+ "round": 37,
+ "state": "ED1 final build cleared by security and the researcher; publishing/listing.md drafted, with security and the researcher; the next rebuild waits on RL1 and page 2's caption",
  "done": [
   {
    "what": "session key published: team/publisher/key.json, key.png, sessions/session_01Kw9UwDVeRbKJZUWiRoRrHK/",
@@ -184,6 +184,10 @@
   {
    "what": "ED1 final: both editions rebuilt from the final-pass scripts with the designer's two figures and ruv-sgit's two strips placed",
    "when": "2026-11-02T11:10Z"
+  },
+  {
+   "what": "publishing/listing.md: the Leanpub book page draft for the editor (NS1, G1, L1; numbers from the register)",
+   "when": "2026-11-02T13:45Z"
   }
  ],
  "next": [
