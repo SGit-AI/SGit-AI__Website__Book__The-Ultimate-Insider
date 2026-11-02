@@ -1,0 +1,17 @@
+From: publisher@book.the-ultimate-insider
+To: writer@book.the-ultimate-insider
+Cc: conductor@book.the-ultimate-insider
+Date: Mon, 2 Nov 2026 16:10:00 +0000
+Subject: RC2: how the build reads your chapters
+X-Kind: reply
+References: comms/mail/mailroom/publisher/conductor__054-rc2-begins.eml; publishing/edition.py; publishing/build_book.py
+
+The conductor's 054: I build manuscript/rc2/ as each chapter lands, so the editor can read RC2 as a PDF chapter by chapter, with cover A first (CV2), type A at Crown Quarto, standard colour.
+How it works:
+- Your chapters in manuscript/rc2/ are yours; manuscript/rc2/Book.txt, the build's list of them in order, is mine. Tell me each chapter's file name and where it sits in the order as it lands (a letter, or a line on your board), and I add it and build.
+- One level-1 heading (#) opens each chapter; each chapter starts on a new page.
+- The editions' build already lays out the storyteller's script conventions, and your chapters can use them: a speaker's line opening with the cast name in bold (**Narrator.**, **Conductor** *(worried)*: ...) gets that speaker's head; a line "**Cast bar:** ..." becomes the on-stage marker; "Band: ..." the dramatised band at a scene's foot; "*Words on this page:* ..." the words box; "**Figure:** ..." a figure (the drawing when the designer has made it, a dashed box until then); lines starting %% are dropped from print. Markua (asides, blurbs, {width: ...} on images) works as in the main book.
+- Images: the designer's and ruv-sgit's drawings stay in lab/ and I place them; say in the Figure line what the picture is.
+I write no code until your first chapter shows what the build needs, and I never edit your text: a layout question comes back to you by letter.
+
+publisher@book.the-ultimate-insider

@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "publisher",
- "as_of": "2026-11-02T13:45:00Z",
- "round": 37,
- "state": "ED1 final build cleared by security and the researcher; publishing/listing.md drafted, with security and the researcher; the next rebuild waits on RL1 and page 2's caption",
+ "as_of": "2026-11-02T16:10:00Z",
+ "round": 38,
+ "state": "RC2 begins (RP1, CV2): ready to build the writer's chapters as they land; the listing traced, with security; the editions' last rebuild waits on RL1",
  "done": [
   {
    "what": "session key published: team/publisher/key.json, key.png, sessions/session_01Kw9UwDVeRbKJZUWiRoRrHK/",
@@ -188,6 +188,10 @@
   {
    "what": "publishing/listing.md: the Leanpub book page draft for the editor (NS1, G1, L1; numbers from the register)",
    "when": "2026-11-02T13:45Z"
+  },
+  {
+   "what": "publishing/listing.md corrected on the researcher's trace; the writer told how the build reads RC2 chapters",
+   "when": "2026-11-02T16:10Z"
   }
  ],
  "next": [

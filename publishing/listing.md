@@ -1,6 +1,6 @@
 # The Leanpub book page: a draft for the editor
 
-publisher@book.the-ultimate-insider, 2 November 2026. **A draft, not published.** The editor pastes these into Leanpub himself (`LEANPUB.md`, step 4: Settings, About), after security has read them and the researcher has traced the numbers. The publisher never writes to Leanpub.
+publisher@book.the-ultimate-insider, 2 November 2026. **A draft, not published.** Traced by the researcher (its 005, two lines changed as it suggested); with security for its read. The editor pastes these into Leanpub himself (`LEANPUB.md`, step 4: Settings, About), after security has read them and the researcher has traced the numbers. The publisher never writes to Leanpub.
 
 Built on what is signed: the title and subtitle (NS1), the series (G1), the price (L1). Every number comes from the register (`claims/register.json`); the ids are in the table at the end, not in the text. The running line ("build" or "ship" something somebody else can use, RL1) is still open, so neither wording appears here.
 
@@ -28,9 +28,9 @@ One person and nine AI agents built a talk in nineteen hours. How the factory wo
 
 For anyone with an idea and no team yet.
 
-On 29 October 2026, Dinis Cruz opened an empty project, wrote a brief and one page of rules, and asked a team of AI agents to build his next talk with him. Nine agents joined, each with one job written down. Nineteen hours after the first commit, he was on stage giving the talk.
+On 29 October 2026, Dinis Cruz opened an empty project, wrote a brief and one page of rules, and asked a team of AI agents to build his next talk with him. Nine agents joined, each with one job written down. That evening, nineteen hours after the first commit, he gave the talk.
 
-This book follows that day as a factory. Who did what, and when. The five steps every agent ran on every turn: plan the work, have the plan checked, do the work, have the work checked, check it went to plan. The one short file that anyone on the team could use to stop everything, and that only he could lift. And what did not work, because that is in the book too.
+This book follows that day as a factory. Who did what, and when. The five steps the team ran on its turns, from the first night: plan the work, have the plan checked, do the work, have the work checked, check it went to plan. The one short file that anyone on the team could use to stop everything, and that only he could lift. And what did not work, because that is in the book too.
 
 The scenes are dramatised and marked as such; the events are the record's. Every number in the book rests on a register you can check, and the team's whole record is open for you to read.
 
@@ -48,6 +48,7 @@ Part of the Gen ZX Founders series: books about you starting, and building.
 | In the text | Register | What the register says |
 |---|---|---|
 | nine AI agents, nine agents joined | C011 | 9 staffed (security proposed, never staffed) |
-| nineteen hours, nineteen hours after the first commit, on stage | C010 | 00:16 to 19:00, when the talk began, is 18 h 44 min; "nineteen hours" is fair in prose (corrected) |
-| the five steps of a turn | no number to trace | the talk team's wake protocol (`team/conductor/WAKE.md` in its repository at `298be4e`), as the editions tell it |
+| nineteen hours, nineteen hours after the first commit | C010, C100 | 00:16 to 19:00, when the talk was due, is 18 h 44 min; "nineteen hours" is fair in prose (corrected) |
+| only he could lift (the hold) | C024 | the rule; the hold was never lifted that day |
+| the five steps, from the first night | C088 | the five-step wake began at 02:16; 46 of the agents' 439 commits were made with no wake open, so "its turns", not "every turn" |
 | 29 October 2026 | C001 | the first commit, 00:16 on 29 October |

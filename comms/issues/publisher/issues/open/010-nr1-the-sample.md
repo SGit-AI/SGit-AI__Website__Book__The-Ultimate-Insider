@@ -21,3 +21,5 @@ source: comms/mail/mailroom/publisher/conductor__038-nr1-the-sample.eml
 2 November about 11:10 UTC, ED1 final: both editions rebuilt from the final-pass scripts with all four drawings placed (6 and 13 PDF pages; the 10-page edition's page 2 runs to two sheets for the scorecards at their stated size). Letter 029 to the conductor, copies to the researcher, security, storyteller, designer and ruv-sgit. This is the editor's final build.
 
 2 November about 13:45 UTC: the final build cleared by security (006) and traced by the researcher (004). No rebuild: the next waits on RL1 and the storyteller's page-2 caption (the designer's redrawn cards, 078, are already what a rebuild prints).
+
+2 November about 16:10 UTC: the editor read the final build ("look amazing"). The storyteller's page-2 caption is in the script (057); the editions' last rebuild waits on RL1.
