@@ -128,7 +128,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - LAB 28's two scenes as sized SVGs for the 10-page edition's pages 6 and 7 (`lab/experiments/25-ruv-the-cast-strips/edition/`), for the publisher to place; run `lab/runs/20261102T0954Z-ruv-28-*`.
 - `lab/experiments/29-ruv-the-afternoon-loop/` (LAB 29, proposed): RC2 chapter 3's loop line begun, the editor's afternoon asks extracted from the talk's commit subjects; nothing drawn until the researcher registers the times; run `lab/runs/20261102T1805Z-ruv-29-*`.
 - LAB 29 drawn: the afternoon loop from C104, C028 and C105, declared in the lab and offered for RC2 chapter 3 page 4; run `lab/runs/20261102T1855Z-ruv-29-*`.
-- `lab/experiments/30-ruv-the-reviewer-card/` (id asked of the designer): RC2 chapter 3's reviewer card, the writer's lines and the designer's reviewer; run `lab/runs/20261102T2055Z-ruv-30-*`.
+- `lab/experiments/30-ruv-the-reviewer-card/` (id asked of the designer): RC2 chapter 3's reviewer card, the writer's lines and the designer's reviewer; run `lab/runs/20261102T2055Z-ruv-30-*`. The card carries 04:11 from C107 since the 22:55 wake.
 
 ## Synthetic readers (synthetic@book.the-ultimate-insider)
 
