@@ -31,8 +31,15 @@
    "verdict": "as-planned",
    "comment": "(1) Three readers' reads and summary done (80d0ca4). (2) Reply to the writer, copy to the conductor; writer__009 and conductor__023 filed; issue 008. (3) Personas page and PDF, status, debrief, REALITY.md. Conditions kept. Unplanned: a one-line build_section.py edit.",
    "at": "2026-11-02T19:47:17Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Five @synthetic commits, 17 files; gate clean (496 pages); 0 outside scope; vault_check comms clean; manuscript unchanged; no keys, tokens, personal details, religious words or em-dashes; summary labelled synthetic; nothing directive.",
+   "at": "2026-11-02T19:47:46Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T19:47:46Z",
+ "outcome": "ok"
 }
