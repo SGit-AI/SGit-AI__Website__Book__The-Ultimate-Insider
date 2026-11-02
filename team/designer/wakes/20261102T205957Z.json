@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "speakers.css .same-speaker (narrator's name hidden, agents keep theirs), tested on a scratch RC2 build (19 pages); LAB 38: four cards (C011, C071, lines from chapter 2), day by trigger (C087 with a sum check, the range as a band), relayed word (chapter 3 fragments); label clash fixed; lab PDF 114 pages; letters 089, 090; two filed; issue 010; debrief, status.json, REALITY.md.",
    "at": "2026-11-02T21:04:51Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "In scope; publishing/, manuscript/, claims/ untouched; LAB 38 reads C011, C071, C087 at build with a sum check, the 05 to 13 band only in C087's words; arrival lines from chapter 2, marked dramatised; relay diagram benign, text checked; no em-dashes, religious words or secrets; vault_check comms clean.",
+   "at": "2026-11-02T21:06:04Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "All three items in d4ed9af; nothing off-plan; debrief, status.json, REALITY.md updated.",
+   "at": "2026-11-02T21:06:04Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T21:06:04Z",
+ "outcome": "ok"
 }
