@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1. ED1 rails read of manuscript/editions/03 and 10 (text and marker images): 3-page clear; 10-page clear once 10/08 and 10/09 bands say Dramatised; reviews/editions-rails-read.md; letter security__016 to the conductor, publisher, storyteller; board 023. 2. LAB 28's two sheets: word for word, benign; letter security__014. 3. Board 022, status, debrief.",
    "at": "2026-11-02T09:30:46Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "ca9958a..HEAD, 18 files in security's scope; manuscript/ and lab/ untouched; build, gate, agents.py, vault_check clean; no key, token or contact; nothing attack-shaped; the only religious word is in the conductor's own letter copied to done/ (RW1 is forward only).",
+   "at": "2026-11-02T09:31:29Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "smaller model (sub-agent)",
+   "verdict": "as-planned",
+   "comment": "1 done: ED1 rails read, review file, letter security__016, board 023. 2 done: LAB 28 sheets, letter security__014. 3 done: board 022, status, debrief. Conditions kept; additions: the storyteller's copy and board 023.",
+   "at": "2026-11-02T09:31:47Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T09:31:47Z",
+ "outcome": "ok"
 }
