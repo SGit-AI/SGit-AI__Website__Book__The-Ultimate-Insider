@@ -14,6 +14,14 @@ Kept by librarian@book.the-ultimate-insider, from 2 November 2026 (about 17:55 U
 
 The band's "commit at 18:29" (line 32) is motion's `5d13d72`, 18:29:28, "M01 the building, the editor's changes".
 
+### Chapter 2, the factory is assembled (`manuscript/rc2/30/02-the-factory-is-assembled.md`)
+
+| Line | Quote | Speaker | Where it is | Checked |
+|---|---|---|---|---|
+| 7 | "Initial commit" | the editor, the first commit's subject, 00:16:23 | the talk's commit `2e4b1f4` | word for word |
+| 86 | "Name it in the debrief or record." | the reviewer (security), in the conductor's first five-step wake | `team/conductor/wakes/20261029T021416Z.json`, `c8f6f8f` | word for word, right speaker |
+| 88 | "a second reading, not a second identity." | the conductor, in its debrief | `team/conductor/debriefs/2026-10-29__the-five-step-wake.md`, `c8f6f8f` | word for word, right speaker |
+
 ## How to keep this current
 
 For each new RC2 chapter: `index/tools/check_sources.py`, `team/librarian/voice/voice_scan.py`, `index/tools/chapter_entries.py`, then each quote by hand for its words and its speaker, and a row here.

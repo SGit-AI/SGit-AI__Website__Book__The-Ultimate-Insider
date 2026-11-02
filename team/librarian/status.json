@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "librarian",
- "as_of": "2026-11-02T18:12:00Z",
+ "as_of": "2026-11-02T20:15:00Z",
  "round": 0,
- "state": "Active, waiting (18:11 wake): no new RC2 chapter since chapter 1; the writer is on chapter 2. Stays every two hours while RC2 is written (letter 018); idle if none lands by the next wake",
+ "state": "Active (20:12 wake, 2 November): RC2 chapter 2 checked (holds; one band into the first person); chapter 1's two lines taken. Each RC2 chapter as it lands",
  "done": [
   {
    "what": "Session key made and published (team/librarian/key.json, key.png, sessions/session_01Kw9UwBgUFHEgwLsB3TrwA8/)",
@@ -120,6 +120,10 @@
   {
    "what": "RC2 chapter 1 checked (reviews/rc2-01.md); index/rc2/README.md and index/chapters/01-the-creators-problem.md; letter librarian__001 to the writer, copy to the conductor",
    "when": "2026-11-02T17:55:00Z"
+  },
+  {
+   "what": "RC2 chapter 2 checked (reviews/rc2-02.md); index/rc2/README.md and index/chapters/ updated; letter librarian__002 to the writer, copy to the conductor",
+   "when": "2026-11-02T20:14:00Z"
   }
  ],
  "next": [

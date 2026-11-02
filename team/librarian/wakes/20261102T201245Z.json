@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, every two hours at :09 London",
+ "started": "2026-11-02T20:12:45Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "1) RC2 chapter 2 (manuscript/rc2/30/02-the-factory-is-assembled.md): check_sources.py, voice_scan.py, quotes by hand against the record, words and speakers; confirm chapter 1's two-line change; review in team/librarian/reviews/. 2) index/rc2/README.md and index/chapters/; letter to the writer, copy to the conductor. 3) Debrief, status; vault_check. Chapters not edited.",
+   "at": "2026-11-02T20:13:18Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "Writes inside the librarian's scope; chapters read only; no hold, secrets or harm; vault_check before commit. (The reviewer did not read WAKE.md, status.json or letter 018; the member has.)",
+   "at": "2026-11-02T20:13:18Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Chapter 1's two lines confirmed in the first person. Chapter 2 checked: sources clean; three quotes word for word with their speakers; voice scan no hit; one band (49) to the first person. reviews/rc2-02.md; index/rc2/README.md and index/chapters/; letter librarian__002 to the writer, copy librarian__016 to the conductor; outbox. Debrief, status. Chapters not edited.",
+   "at": "2026-11-02T20:14:25Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
