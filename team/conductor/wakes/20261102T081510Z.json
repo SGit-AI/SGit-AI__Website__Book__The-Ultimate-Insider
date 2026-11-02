@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake",
+ "started": "2026-11-02T08:15:10Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "1 file designer__073, publisher__026, 027, storyteller__046 to done (the storyteller already wrote to the publisher; no routing needed, amended); 2 the running line, build or ship, as an open decision RL1 in book.json, not decided; 3 build the current editions with the publisher's command into the scratchpad (outside the repo), render a few pages to PNG for the brief only; 4 brief 38 from the record: round 2 summary, cover A, what is left, RL1; 5 no member file edited.",
+   "at": "2026-11-02T08:15:51Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "In scope; RL1 proposed, not decided; build_book.py with --out to the scratchpad writes nowhere else; nothing private.",
+   "at": "2026-11-02T08:16:02Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
