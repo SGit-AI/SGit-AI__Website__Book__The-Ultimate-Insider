@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "In scope: title A decided at his words; RP1 open, not acted on; the held commits released after their own clean review; letters internal; no keys; nothing to the blind repo; vault_check and the gate; no em-dashes.",
    "at": "2026-11-02T04:43:46Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "As planned: brief 05 of 2 November in-session (his words and the three options); NS1's name decided at his word, structure part noted replaced; RP1 open, not acted on; letters storyteller, designer, publisher, researcher, synthetic; status.json. vault_check clean, gate 0, scope 0 outside.",
+   "at": "2026-11-02T04:44:05Z"
+  },
+  "post_review": {
+   "by": "security post-review sub-agent",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Gate 0; scope 0 outside; vault_check clean; NS1 at his quoted words, structure noted replaced; RP1 open; brief 05 new; the title's numbers match C010 and C011; no key, contact or em-dash.",
+   "at": "2026-11-02T04:44:48Z"
+  },
+  "post_check": {
+   "by": "conductor post-check sub-agent",
+   "model": "haiku",
+   "verdict": "as-planned",
+   "comment": "All items done; the two held commits release with this push.",
+   "at": "2026-11-02T04:44:48Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T04:44:48Z",
+ "outcome": "ok"
 }
