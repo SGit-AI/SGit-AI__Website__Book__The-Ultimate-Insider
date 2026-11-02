@@ -15,7 +15,7 @@ storyteller@book.the-ultimate-insider, 1 November 2026, the 14:40 UTC wake. **A 
 
 **Cast bar:** the editor, alone; then dev, the conductor, deck, ruv-sgit.
 
-**Narrator.** For years my slides were a compromise. I had an idea, and I spent the talk explaining the bits the slides could not show. On 29 October I tried something else. At a quarter past midnight I opened an empty project, wrote a brief and one page of rules, and asked for a team of AI agents to build my talk with me.
+**Narrator.** For years my slides were a compromise. I had an idea, and I spent the talk explaining the bits the slides could not show. On 29 October I tried something else. At a quarter past midnight I opened an empty project. By twenty to one it held a brief and one page of rules, and a team of AI agents had begun to arrive to build my talk with me.
 
 **Narrator.** They arrived one by one, and each announced itself.
 
@@ -46,19 +46,21 @@ Band: *Dramatised. Rests on each agent's first commit after midnight.*
 
 **Conductor** *(worried)*: I built the checks, and the first thing they caught was me. "Name it in the debrief or record." *(record)* Fair.
 
-**Narrator.** Later the researcher joined, the one who checks every fact.
+**Narrator.** By then the researcher had joined too, the one who checks every fact.
 
-**Researcher** *(unbudging)*: My reviewer said a file was not mine to change. It was. "objection withdrawn." *(record)*
+**Researcher** *(unbudging)*: My reviewer said a file was not mine to change. I showed it was.
+
+*Reviewer (the clipboard):* "objection withdrawn." *(record)*
 
 **Deck** *(exacting, to ruv-sgit)*: "What it is not yet is a picture a room reads in five seconds." *(record)* Again, please.
 
-**Narrator.** In the afternoon I came back, saw what they had made, and asked for changes. That was the point: I could see an idea on the screen, ask for it differently, and see it again within the hour. The researcher checked one of my lines against the team's own data, and it did not hold. The storyteller brought it to me as the strongest objection to my own first part. I kept the line in the talk, my own call, and the researcher's objection went on the record beside it. The book keeps both.
+**Narrator.** In the afternoon I came back, saw what they had made, and asked for changes. That was the point: I could see an idea on the screen, ask for it differently, and see it again within the hour. The researcher checked one of my lines against the published breach data, and it did not hold. The storyteller brought it to me as the strongest objection to my own first part. I kept the line in the talk, my own call, and the researcher's objection went on the record beside it. The book keeps both.
 
 **Narrator.** It does not have to be a talk. A shop owner could set up the same team to answer customers, keep the stock list true and write the weekly offer, with the same brief, the same rules and the same hold. And it does not have to be one person: a team of three can each run their own agents, as long as they share one brief, one board where the work is written down, and one hold anyone can pull.
 
 `%% record: 09f13d5 c8f6f8f af0010b 78b89b9 2726f0e b208a16 C087`
 `%% claim: each piece of work was planned, reviewed, done, reviewed and checked, and the reviews were written down`
-Band: *Dramatised. Rests on the night's five-step wakes, the six alone from five to two, and the afternoon's argument.*
+Band: *Dramatised. Rests on the night's five-step wakes; the reviewer's "objection withdrawn" (04:11) and the conductor's reviewer (02:19); deck's review (06:21); the six alone from five to two; and the afternoon's argument.*
 
 ## Page 3. The stop, and your own factory
 
@@ -83,7 +85,7 @@ Band: *Dramatised. Rests on the night's five-step wakes, the six alone from five
 **Want more?** The ten-page edition meets the whole cast, follows the day hour by hour, and walks the five steps for a team.
 
 `%% record: 2ed6427 867f8c2 C006 C024 C065 C089`
-Band: *Dramatised. Rests on the hold at 18:44; the price line on the register (C101, as published 2 November 2026; C037: the day's own cost not in the record) and what landed after it; the editor's three accounts of why are in the ten-page edition's note.*
+Band: *Dramatised. Rests on the hold at 18:44, my own words in the hold file; the price line on the register (C101, as published 2 November 2026; C037: the day's own cost not in the record) and what landed after it; my three accounts of why are in the ten-page edition.*
 
 ---
 
@@ -92,15 +94,10 @@ Band: *Dramatised. Rests on the hold at 18:44; the price line on the register (C
 - **Every rule from the zoom ladder is kept:** no codes in sentences (they are in the markers); every term glossed on page 1; step one has a how; one example that is not a talk (the shop, page 2); cost asked of the register; no commands or hashes on the page.
 - **Two lines that are the editor's to keep or drop:** "asked for changes" and "I kept the line" are my reading of the record (the afternoon's changes, the R5 argument kept in the talk); he says whether they are his.
 - **The single record quote of his own:** page 3's hold message, word for word from the record.
+- **The editing record:** **Read by synthetic** (`review/synthetic/zoom/edition-03/summary.md`, letter 004): its five changes are in (00:40 UTC, 2 November): the cost line (C101), who does each step, a trait for dev, deck and ruv-sgit and the researcher introduced before it speaks, a team of several people, and the check, reviewer and hold glossed. **Read again by synthetic** (`review/synthetic/zoom/edition-10/summary.md`, letter 005): its five further changes are in (02:40 UTC, 2 November): a box for teams of several (3-page), who may lift the hold when its owner is away, one word for it (hold) with the glosses on the page, a line on what "dramatised" means, and page 2 written out (10-page). **ED1 round 1** (02 November, 06:40 UTC): the round's points in this edition's lane are in (synthetic 007, items 1 and 2; the writer's 1, 4 and 9). Left for the editor: the running line's wording (the writer's point 8). **ED1 round 2** (02 November, 08:42 UTC, the last round): synthetic's point 3 and the writer's point 4 in this edition are in.
 
 ## Where this came from
 
-`timeline/cast-scenes.md` (scenes 1 to 5); `chapter-plan/cast/cast-guide.md`; `chapter-plan/zoom-ladder.md`; `review/synthetic/sample/summary.md`; `briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md`.
+The talk team's record of 29 October, its history read commit by commit; the book team's timeline of who was on stage when; the cast guide; the book's register of claims, for every figure; the readers' reports on the drafts.
 
-**Read by synthetic** (`review/synthetic/zoom/edition-03/summary.md`, letter 004): its five changes are in (00:40 UTC, 2 November): the cost line (C101), who does each step, a trait for dev, deck and ruv-sgit and the researcher introduced before it speaks, a team of several people, and the check, reviewer and hold glossed.
-
-**Read again by synthetic** (`review/synthetic/zoom/edition-10/summary.md`, letter 005): its five further changes are in (02:40 UTC, 2 November): a box for teams of several (3-page), who may lift the hold when its owner is away, one word for it (hold) with the glosses on the page, a line on what "dramatised" means, and page 2 written out (10-page).
-
-**ED1 round 1** (02 November, 06:40 UTC): the round's points in this edition's lane are in (synthetic 007, items 1 and 2; the writer's 1, 4 and 9). Left for the editor: the running line's wording (the writer's point 8).
-
-**ED1 round 2** (02 November, 08:42 UTC, the last round): synthetic's point 3 and the writer's point 4 in this edition are in.
+`%% record: timeline/cast-scenes.md chapter-plan/cast/cast-guide.md chapter-plan/zoom-ladder.md review/synthetic/ briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md`

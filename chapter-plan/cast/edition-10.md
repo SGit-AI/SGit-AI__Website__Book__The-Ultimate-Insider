@@ -28,13 +28,13 @@ storyteller@book.the-ultimate-insider, 2 November 2026, the 00:40 UTC wake. **A 
 *An **agent**, here, is an AI that works in a loop: it reads, decides, acts with tools, and checks the result.*
 
 `%% record: C015 C069`
-Band: *The talk of 58 beats, given on the evening of 29 October.*
+Band: *The talk of 58 beats; that it was given that evening rests on its transcript, added to the record after the day.*
 
 ## Page 2. The factory is assembled
 
 **Cast bar:** the editor; then dev, the conductor, deck, ruv-sgit (each card appears as it arrives).
 
-**Narrator.** A quarter past midnight: an empty project, a brief, and one page of rules. Then I asked for a team.
+**Narrator.** A quarter past midnight: an empty project. By twenty to one it held a brief and one page of rules, and the team had begun to arrive.
 
 *How to read the scenes:* they are dramatised. The words the agents say are ours, written for this book; the events are the record's, and a line marked *(record)* is quoted word for word. Online, under each scene, you can open the commits, times and files it rests on.
 
@@ -61,7 +61,7 @@ Band: *Dramatised. Rests on each agent's first commit after midnight.*
 
 ## Page 3. The machine, before dawn
 
-**Cast bar:** as page 3, and the researcher (from about two).
+**Cast bar:** as page 2, and the researcher (from about two).
 
 **Narrator.** In the small hours, the conductor built the factory's machinery.
 
@@ -77,7 +77,7 @@ Band: *Dramatised. Rests on each agent's first commit after midnight.*
 
 `%% record: 09f13d5 8c66751 5700bab c8f6f8f team/conductor/debriefs/2026-10-29__the-five-step-wake.md`
 `%% claim: a reviewer sub-agent runs in the same session with the same reach as the member it reviews; it adds a second reading, not a separate identity`
-Band: *Dramatised. Rests on the schedule, the five-step wake and its first review, between 01:39 and 02:19.*
+Band: *Dramatised. Rests on the schedule, the five-step wake and its first review, between 01:39 and 02:19; the reviewer's and the conductor's lines are theirs, from that night's records.*
 
 ## Page 4. The factory runs on its own
 
@@ -87,7 +87,9 @@ Band: *Dramatised. Rests on the schedule, the five-step wake and its first revie
 
 **Narrator.** Each agent could change only the files its page of rules named, and a reviewer checked every plan against that.
 
-**Researcher** *(unbudging)*: My reviewer said a file was not mine to change. I showed it was. "objection withdrawn." *(record)*
+**Researcher** *(unbudging)*: My reviewer said a file was not mine to change. I showed it was.
+
+*Reviewer (the clipboard):* "objection withdrawn." *(record)*
 
 **Narrator.** ruv-sgit sent deck a picture for the talk. Deck sent it back.
 
@@ -102,7 +104,7 @@ Band: *Dramatised. Rests on the schedule, the five-step wake and its first revie
 **Narrator.** Nobody was watching, and they argued, sent work back, owned their mistakes and kept the books. That is the part of the record I find hardest to believe, and easiest to check.
 
 `%% record: C087 af0010b 78b89b9 56c680b 09317d9`
-Band: *Dramatised. Rests on the wakes started by the schedule alone from 05:00 to 14:00, and on the researcher's dispute (04:11), deck's review (06:21), the designer's note (10:49) and the conductor's note (10:05).*
+Band: *Dramatised. Rests on the wakes started by the schedule alone from 05:00 to 14:00, and on the researcher's dispute and its reviewer's "objection withdrawn" (04:11), deck's review (06:21), the designer's note (10:49) and the conductor's note (10:05).*
 
 ## Page 5. The loop, with the creator in it
 
@@ -110,7 +112,7 @@ Band: *Dramatised. Rests on the wakes started by the schedule alone from 05:00 t
 
 **Narrator.** When I came back, the loop began: I looked, I asked, they changed it, I looked again. The player, the thing that let me press play, was my first priority, and it landed in the afternoon. I was still asking for fixes to it in the last hour before the talk.
 
-**Narrator.** My story leaned on a claim that the outside of an organisation is more mature than its inside. The researcher checked it against the team's own data and found the opposite.
+**Narrator.** My story leaned on a claim that the outside of an organisation is more mature than its inside. The researcher checked it against the published breach data and found the opposite.
 
 **Researcher** *(to the new storyteller)*: "does not hold. The data says the opposite" *(record)*
 
@@ -139,7 +141,7 @@ Band: *Dramatised. Rests on the player as the main priority (about 13:50) and it
 
 
 `%% record: 867f8c2 2ed6427 88b8f00 C006 C024 C065 C089 C100`
-Band: *Dramatised. Rests on the hold at 18:44 and what landed after it; the talk due at 19:00.*
+Band: *Dramatised. Rests on the hold at 18:44, my own words in the hold file, and what landed after it; the talk due at 19:00; my later two accounts of why, given after the day.*
 
 ## Page 7. What did not work (the interview)
 
@@ -155,7 +157,7 @@ Band: *Dramatised. Rests on the hold at 18:44 and what landed after it; the talk
 
 **Storyteller** *(rueful)*: My turn came between deadlines, and I missed the moment the talk was split into its parts.
 
-**Narrator.** One miss, and what it cost. In the night I froze the slides, and five minutes later the researcher proposed a correction to a figure on them. When the freeze lifted, nobody carried the correction back in, and the out-of-date figure went on stage. The checks found it; the freeze hid it. The lesson for your first week: when you freeze something, write down what is waiting to go in when you unfreeze it.
+**Narrator.** One miss, and what it cost. In the night I froze the slides, and five minutes later the researcher proposed a correction to a figure on them. When the freeze lifted, nobody carried the correction back in, and the out-of-date figure reached a slide in the talk. The checks found it; the freeze hid it. The lesson for your first week: when you freeze something, write down what is waiting to go in when you unfreeze it.
 
 **Narrator.** The talk needed more rounds than one day gave it. The checks worked, and they also missed. Saying where is part of the method.
 
@@ -173,7 +175,7 @@ Band: *Dramatised. Rests on the talk's register and on each member's own debrief
 **Conductor** *(pacing, to the reader)*: Same clock. Same hold. More hands on it.
 
 `%% record: briefs/2026-10-30/1-book-conductor-brief.md briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md`
-Band: *The book's own team, ported on 30 October; the Web Summit team as the editor described it on 1 November. The second and third factories are this book's record, not the talk's.*
+Band: *Dramatised (the conductor's line). The book's own team, ported on 30 October; the Web Summit team as I described it on 1 November. The second and third factories are this book's record, not the talk's.*
 
 ## Page 9. Your factory, starting tomorrow
 
@@ -196,7 +198,7 @@ Band: *The book's own team, ported on 30 October; the Web Summit team as the edi
 **Want the whole story?** The longer edition gives each of these beats its own chapter, with its maps and a "do this now" for each.
 
 `%% record: C101 C037`
-Band: *The price line on the register as published on 2 November 2026; the day's own cost not in the record.*
+Band: *Dramatised (the conductor's line). The price line on the register as published on 2 November 2026; the day's own cost not in the record.*
 
 
 ## At the back. A book about you doing it (the series page, moved here at SP1)
@@ -213,15 +215,10 @@ Band: *The series' name, line and idea, from its own site; G1, signed 31 October
 - **What is new against the sample:** the creator's problem as page 1 (PS1); the machine before dawn and the six alone as their own pages; the loop with the editor in it; the factory rebuilt (the book's team, then Web Summit's) as the arc's last beat; the five steps for a team of several people.
 - **Lines that are my reading of him, for his read:** "I talked over my own pictures"; "a feedback loop on my own medium" ("for the first time" cut, at the writer's read); "I asked for it once" (was "I pulled it once"); the loop's last line, now the writer's practical version.
 - **The researcher traces** the new lines (pages 1, 6, 9) before print; the opening script's record lines are already traced.
+- **The editing record:** **Read again by synthetic** (`review/synthetic/zoom/edition-10/summary.md`, letter 005): its five further changes are in (02:40 UTC, 2 November): a box for teams of several (3-page), who may lift the hold when its owner is away, one word for it (hold) with the glosses on the page, a line on what "dramatised" means, and page 2 written out (10-page). **Read brutally by synthetic (A11)** (`review/synthetic/brutal/edition-10/summary.md`, letter 006): its five changes are in (04:40 UTC, 2 November): a clause of setup for each insider moment; the zoom line replaced; the dramatised note before the first scene and each gloss at first use; page 2 with one sentence for the reader (moving the series after the first scene is the editor's call, G1); Web Summit said as a plan. Each agent line with a figure was recast (the cast guide's rule 7). **ED1 round 1** (02 November, 06:40 UTC): synthetic's six (letter 007), the designer's two (068) and the writer's nine (writer__002) are in, in both editions. Left for the editor: the running line's wording, "build" or "ship" something somebody else can use (the writer's point 8). **ED1 round 2** (02 November, 08:42 UTC, the last round): synthetic's four (letter 008) and the writer's four (writer__004; its fifth needs no change) are in, and the pages renumbered (no page 2 since SP1).
 
 ## Where this came from
 
-`chapter-plan/zoom-ladder.md`; `chapter-plan/cast/edition-03.md`, `opening-script.md`, `cast-guide.md`, `scripts/`; `timeline/cast-scenes.md`, `timeline/quotes.md`; `claims/opening-script-trace.md`; `claims/register.json` (C101); `review/synthetic/zoom/edition-03/summary.md`; the conductor's letter 033; `briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md`.
+The talk team's record of 29 October, its history read commit by commit, and the talk's transcript, added after the day; the book team's timeline of who was on stage when, and its quotes from the record; the cast guide; the book's register of claims, for every figure; the readers' reports on the drafts.
 
-**Read again by synthetic** (`review/synthetic/zoom/edition-10/summary.md`, letter 005): its five further changes are in (02:40 UTC, 2 November): a box for teams of several (3-page), who may lift the hold when its owner is away, one word for it (hold) with the glosses on the page, a line on what "dramatised" means, and page 2 written out (10-page).
-
-**Read brutally by synthetic (A11)** (`review/synthetic/brutal/edition-10/summary.md`, letter 006): its five changes are in (04:40 UTC, 2 November): a clause of setup for each insider moment; the zoom line replaced; the dramatised note before the first scene and each gloss at first use; page 2 with one sentence for the reader (moving the series after the first scene is the editor's call, G1); Web Summit said as a plan. Each agent line with a figure was recast (the cast guide's rule 7).
-
-**ED1 round 1** (02 November, 06:40 UTC): synthetic's six (letter 007), the designer's two (068) and the writer's nine (writer__002) are in, in both editions. Left for the editor: the running line's wording, "build" or "ship" something somebody else can use (the writer's point 8).
-
-**ED1 round 2** (02 November, 08:42 UTC, the last round): synthetic's four (letter 008) and the writer's four (writer__004; its fifth needs no change) are in, and the pages renumbered (no page 2 since SP1).
+`%% record: chapter-plan/zoom-ladder.md chapter-plan/cast/ timeline/cast-scenes.md timeline/quotes.md claims/opening-script-trace.md claims/editions-03-10-trace.md claims/register.json review/synthetic/ briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md`
