@@ -1,0 +1,380 @@
+{
+ "schema": "the-ultimate-insider/synthetic-brutal-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "student",
+ "read": "chapter-plan/cast/edition-10.md (draft)",
+ "passages": [
+  {
+   "page": "Page 1. The creator's problem",
+   "starts": "For years my slides were a compromise. I had an idea",
+   "verdict": "keep",
+   "why": "A story I can follow straight away, and it tells me who is talking and what the problem was."
+  },
+  {
+   "page": "Page 1. The creator's problem",
+   "starts": "On 29 October I gave a talk where I mostly did not",
+   "verdict": "keep",
+   "why": "Shows the payoff in plain words (press play, it moves), which makes me want page two."
+  },
+  {
+   "page": "Page 1. The creator's problem",
+   "starts": "What gave me that was not a better slide tool. It was a factory:",
+   "verdict": "explain first",
+   "why": "I do not know what an agent is yet, and 'nine stations' is odd; say in a clause that the agents are AI helpers before calling it a team."
+  },
+  {
+   "page": "Page 1. The creator's problem",
+   "starts": "(One picture: the editor at a lectern with a play button;",
+   "verdict": "keep",
+   "why": "A picture of the lectern and the factory is just what I need to see the idea."
+  },
+  {
+   "page": "Page 1. The creator's problem",
+   "starts": "How to read the scenes: they are dramatised. The words the agents say",
+   "verdict": "shorten",
+   "why": "Useful and honest, but 'dramatised' on page one stops me before I have a scene; trim to two sentences or move it to just before the first scene on page 3."
+  },
+  {
+   "page": "Page 1. The creator's problem",
+   "starts": "Online, under each scene, you can open the commits, times and files",
+   "verdict": "cut",
+   "why": "I do not know what a commit is, and this is logistics about a website, not the story; cut from the page."
+  },
+  {
+   "page": "Page 1. The creator's problem",
+   "starts": "The talk of 58 beats, given on the evening of 29 October.",
+   "verdict": "cut",
+   "why": "A band note, not for a reader; and 'beats' is unexplained anyway."
+  },
+  {
+   "page": "Page 2. A book about you doing it",
+   "starts": "This book is one of a series, Generation ZX Founders (GenAI Edition),",
+   "verdict": "shorten",
+   "why": "The one idea (you start, you build) is welcome, but a series name and a quoted line arrive before I have a reason to care; open with 'this is a book about you doing it'."
+  },
+  {
+   "page": "Page 2. A book about you doing it",
+   "starts": "Generation ZX is not a range of birth years;",
+   "verdict": "keep",
+   "why": "Tells me I am welcome and the book is not only for programmers, which settles my worry; 'Faro' needs a few words of explanation."
+  },
+  {
+   "page": "Page 3. The factory is assembled",
+   "starts": "A quarter past midnight: an empty project, a brief, and one page",
+   "verdict": "explain first",
+   "why": "I do not know what a brief is and 'rules' for what; one plain phrase each would help before 'I asked for a team'."
+  },
+  {
+   "page": "Page 3. The factory is assembled",
+   "starts": "Dev (happy, the fast one): First pass of the site and the talk.",
+   "verdict": "keep",
+   "why": "Short, characterful speech that makes the agents feel like people at last."
+  },
+  {
+   "page": "Page 3. The factory is assembled",
+   "starts": "Conductor (pacing): I keep the time. Everyone gets a slot,",
+   "verdict": "keep",
+   "why": "Clear job in two lines, and 'pull the hold' is planted for later."
+  },
+  {
+   "page": "Page 3. The factory is assembled",
+   "starts": "Deck (proud, the fussy one): The slides are mine.",
+   "verdict": "keep",
+   "why": "A clear, funny voice and an obvious job."
+  },
+  {
+   "page": "Page 3. The factory is assembled",
+   "starts": "ruv-sgit (absorbed, the night owl): I will be in my workshop",
+   "verdict": "explain first",
+   "why": "The name is odd and 'things you can check' is vague; say what this agent makes."
+  },
+  {
+   "page": "Page 3. The factory is assembled",
+   "starts": "None of it was new. The build, the check, the brief, the hold:",
+   "verdict": "keep",
+   "why": "The 'yesterday's experiment is today's part' line is the first idea I could use myself."
+  },
+  {
+   "page": "Page 3. The factory is assembled",
+   "starts": "(The cast cards for the four, the designer's scorecards: on stage from,",
+   "verdict": "cut",
+   "why": "Design instructions about cards and ids in small type mean nothing to me here; keep for the designer, not the reader page."
+  },
+  {
+   "page": "Page 3. The factory is assembled",
+   "starts": "Words on this page: an agent is an AI that works in a loop:",
+   "verdict": "move",
+   "why": "The glossary is the thing I need, but it comes after I met these words; put 'agent' before the first speech and the rest by the first use."
+  },
+  {
+   "page": "Page 4. The machine, before dawn",
+   "starts": "In the small hours, the conductor built the factory's machinery.",
+   "verdict": "keep",
+   "why": "Short bridge that tells me where we are in the day."
+  },
+  {
+   "page": "Page 4. The machine, before dawn",
+   "starts": "A clock: each member wakes at its own minute. A hold anyone can pull.",
+   "verdict": "shorten",
+   "why": "'Wakes' and 'plan, check, do, check, check again' arrive in one breath; give it as a list of five short steps."
+  },
+  {
+   "page": "Page 4. The machine, before dawn",
+   "starts": "It ran the five steps on its own first piece of work,",
+   "verdict": "keep",
+   "why": "A small, human surprise (it was caught out) that makes the process believable."
+  },
+  {
+   "page": "Page 4. The machine, before dawn",
+   "starts": "Reviewer (a second agent with a checker's brief, drawn as a clipboard):",
+   "verdict": "keep",
+   "why": "Easy to picture and the quote is plain."
+  },
+  {
+   "page": "Page 4. The machine, before dawn",
+   "starts": "Caught by the reviewer I invented. Good. But know what it is:",
+   "verdict": "explain first",
+   "why": "'A second reading, not a second identity' is a lovely line but I need one more clause saying what an identity would add."
+  },
+  {
+   "page": "Page 4. The machine, before dawn",
+   "starts": "That last line is one of the most honest things anyone on the team wrote.",
+   "verdict": "keep",
+   "why": "Tells me the limit of the checks honestly, which builds trust."
+  },
+  {
+   "page": "Page 5. The factory runs on its own",
+   "starts": "For nine hours I started nothing. Every piece of work in that stretch",
+   "verdict": "keep",
+   "why": "A striking fact that carries the whole page."
+  },
+  {
+   "page": "Page 5. The factory runs on its own",
+   "starts": "Researcher (unbudging): My reviewer said a file was not mine to change.",
+   "verdict": "explain first",
+   "why": "I do not know which file or why it mattered; one sentence of what was at stake first, or cut."
+  },
+  {
+   "page": "Page 5. The factory runs on its own",
+   "starts": "Deck (exacting, to ruv-sgit): \"What it is not yet is a picture",
+   "verdict": "keep",
+   "why": "Plain, a clear complaint about a picture I can imagine."
+  },
+  {
+   "page": "Page 5. The factory runs on its own",
+   "starts": "ruv-sgit (sheepish): Back to the workshop.",
+   "verdict": "keep",
+   "why": "Tiny and funny; the reply to the line above."
+  },
+  {
+   "page": "Page 5. The factory runs on its own",
+   "starts": "Designer (mortified): \"The miss is my table's as much as the build's\"",
+   "verdict": "explain first",
+   "why": "'My table' and 'the build' mean nothing to me; say what went wrong in plain words."
+  },
+  {
+   "page": "Page 5. The factory runs on its own",
+   "starts": "Conductor (patient): You dropped the \"@\" again, ruv-sgit.",
+   "verdict": "cut",
+   "why": "An in-joke about a symbol, and 'the count' is not explained; I cannot follow it and it adds nothing."
+  },
+  {
+   "page": "Page 5. The factory runs on its own",
+   "starts": "Nobody was watching, and they argued, sent work back, owned",
+   "verdict": "keep",
+   "why": "The best paragraph here: it says what happened and why it is surprising."
+  },
+  {
+   "page": "Page 6. The loop, with the creator in it",
+   "starts": "When I came back, the loop began: I looked, I asked,",
+   "verdict": "keep",
+   "why": "The core idea in one sentence, and it links back to page one's feedback loop."
+  },
+  {
+   "page": "Page 6. The loop, with the creator in it",
+   "starts": "Researcher (to the new storyteller): \"does not hold. The data says",
+   "verdict": "explain first",
+   "why": "What does not hold? A half-sentence with no setup; say which claim was being tested."
+  },
+  {
+   "page": "Page 6. The loop, with the creator in it",
+   "starts": "Storyteller (rueful): Then it goes to the editor, as the strongest objection",
+   "verdict": "explain first",
+   "why": "'His own part one' and 'the strongest objection' need the claim stated first or I am lost."
+  },
+  {
+   "page": "Page 6. The loop, with the creator in it",
+   "starts": "It came to me. I kept my line. The book keeps the argument.",
+   "verdict": "explain first",
+   "why": "I do not know what the line or the argument was; as written it is a closed door."
+  },
+  {
+   "page": "Page 6. The loop, with the creator in it",
+   "starts": "Studio (firm): Someone relayed the editor's word to me.",
+   "verdict": "explain first",
+   "why": "A new agent, studio, appears with no introduction, and 'relayed word' is unclear; say who studio is and why it checked."
+  },
+  {
+   "page": "Page 6. The loop, with the creator in it",
+   "starts": "That is the loop. I could change my mind, and the factory could",
+   "verdict": "keep",
+   "why": "A clear moral that I can take away, even if the scenes before it were hazy."
+  },
+  {
+   "page": "Page 7. The stop (the therapy session)",
+   "starts": "At 18:44, sixteen minutes before the talk was due, I said:",
+   "verdict": "keep",
+   "why": "A real moment with a time and a stake; the best drama so far."
+  },
+  {
+   "page": "Page 7. The stop (the therapy session)",
+   "starts": "(ruv-sgit's strip: the conductor after the hold, talking to security's",
+   "verdict": "explain first",
+   "why": "'Security's empty chair' and the 'therapy session' title are never explained; say that security was a planned agent that never appeared, or cut the joke from the heading."
+  },
+  {
+   "page": "Page 7. The stop (the therapy session)",
+   "starts": "Anyone in the factory could stop everything. Only I could start it again.",
+   "verdict": "keep",
+   "why": "The clearest statement of the safety rule in the whole book."
+  },
+  {
+   "page": "Page 7. The stop (the therapy session)",
+   "starts": "Three accounts of why, all kept and dated: on the day,",
+   "verdict": "shorten",
+   "why": "It admits three different reasons, which is honest but confusing here; shorten to one sentence or move to the failures page."
+  },
+  {
+   "page": "Page 8. What did not work (the interview)",
+   "starts": "(ruv-sgit's strip: the researcher interviews deck about the claims",
+   "verdict": "explain first",
+   "why": "A strip is promised but I cannot tell what it shows; say in one line what is in it."
+  },
+  {
+   "page": "Page 8. What did not work (the interview)",
+   "starts": "Dev (rueful): I built the lock for the slides and never turned it.",
+   "verdict": "explain first",
+   "why": "What was the lock for? A phrase on what it would have protected."
+  },
+  {
+   "page": "Page 8. What did not work (the interview)",
+   "starts": "Deck (overwhelmed): Parts two and three never got finished.",
+   "verdict": "explain first",
+   "why": "Parts of what? I do not know the talk had parts; a line saying so earlier would fix it."
+  },
+  {
+   "page": "Page 8. What did not work (the interview)",
+   "starts": "Storyteller (rueful): My slot fell between two deadlines. I missed the split.",
+   "verdict": "cut",
+   "why": "'The split' is unexplained and a third apology adds nothing; the two before already carry the point."
+  },
+  {
+   "page": "Page 8. What did not work (the interview)",
+   "starts": "The talk needed more rounds than one day gave it. The checks worked,",
+   "verdict": "keep",
+   "why": "A plain summary and a good lesson; the honesty is welcome."
+  },
+  {
+   "page": "Page 9. The factory, taken apart and rebuilt",
+   "starts": "That night the factory was taken apart. The next day I built a second",
+   "verdict": "shorten",
+   "why": "The idea is good but the list of roles (librarian, historian, publisher) is a lot of new names at once; name two and say 'and more'."
+  },
+  {
+   "page": "Page 9. The factory, taken apart and rebuilt",
+   "starts": "Now I am building a third, bigger one, for Web Summit:",
+   "verdict": "explain first",
+   "why": "I do not know what Web Summit is, and 'the board' is new; two words of each."
+  },
+  {
+   "page": "Page 9. The factory, taken apart and rebuilt",
+   "starts": "Conductor (pacing, to the reader): Same clock. Same hold. More hands on it.",
+   "verdict": "keep",
+   "why": "Short, memorable, and it speaks to me directly."
+  },
+  {
+   "page": "Page 10. Your factory, starting tomorrow",
+   "starts": "Conductor (straight to the reader): Start with one of me.",
+   "verdict": "keep",
+   "why": "Exactly what I came for: a direct invitation to begin."
+  },
+  {
+   "page": "Page 10. Your factory, starting tomorrow",
+   "starts": "You: one tool and one empty project. An account with an AI agent tool",
+   "verdict": "keep",
+   "why": "A concrete first step I can take tonight, with a safety warning I need as a beginner."
+  },
+  {
+   "page": "Page 10. Your factory, starting tomorrow",
+   "starts": "You: one page of rules, in your own words: what the agent is for,",
+   "verdict": "keep",
+   "why": "Clear and doable with no code."
+  },
+  {
+   "page": "Page 10. Your factory, starting tomorrow",
+   "starts": "You: one brief: what you want made, for whom, by when.",
+   "verdict": "keep",
+   "why": "Clear and doable; the brief is finally defined here, which should happen on page 3."
+  },
+  {
+   "page": "Page 10. Your factory, starting tomorrow",
+   "starts": "Your agent builds, you check: something small that somebody else can use,",
+   "verdict": "keep",
+   "why": "A realistic goal for a student, and it repeats."
+  },
+  {
+   "page": "Page 10. Your factory, starting tomorrow",
+   "starts": "Add a second agent only when the first is busy. Working with others?",
+   "verdict": "shorten",
+   "why": "The advice splits into two things; keep the second-agent line, move the shared-hold rule to its own note."
+  },
+  {
+   "page": "Page 10. Your factory, starting tomorrow",
+   "starts": "It does not have to be a talk: a shop's customer answers",
+   "verdict": "keep",
+   "why": "Shows other uses so I see myself in it."
+  },
+  {
+   "page": "Page 10. Your factory, starting tomorrow",
+   "starts": "What it costs: to start, you need a free account; paid plans",
+   "verdict": "keep",
+   "why": "I need this before I try; honest about the missing figure too."
+  },
+  {
+   "page": "Page 10. Your factory, starting tomorrow",
+   "starts": "Zoom in: each beat is a chapter in the thirty-page edition,",
+   "verdict": "cut",
+   "why": "Logistics about editions and maps; I have no thirty-page edition, so this is an unfulfilled promise."
+  }
+ ],
+ "worst_three": [
+  {
+   "starts": "Conductor (patient): You dropped the \"@\" again, ruv-sgit.",
+   "why": "An in-joke about a symbol with 'the count' unexplained, it stopped me and gave nothing back."
+  },
+  {
+   "starts": "It came to me. I kept my line. The book keeps the argument.",
+   "why": "I do not know which line or which argument, so a closed door at the climax of the page."
+  },
+  {
+   "starts": "Zoom in: each beat is a chapter in the thirty-page edition,",
+   "why": "A promise of a longer edition with maps, which I do not have, ending the book on logistics instead of the first step."
+  }
+ ],
+ "best_three": [
+  {
+   "starts": "Nobody was watching, and they argued, sent work back, owned",
+   "why": "Names the surprise in plain words and invites me to check it."
+  },
+  {
+   "starts": "Conductor (straight to the reader): Start with one of me.",
+   "why": "A direct first step I can take tonight."
+  },
+  {
+   "starts": "At 18:44, sixteen minutes before the talk was due, I said:",
+   "why": "A real moment with a time and a stake, easy to follow."
+  }
+ ],
+ "if_you_cut_one_page": "Page 2 (the series page): it is the only page with no scene, it arrives before I have a reason to care, and its one useful message (this is for you, not only for programmers) could be one sentence at the end of page 1.",
+ "notes": "Pages 1, 7 and 10 worked for me as a non-coder. Pages 5, 6 and 8 lost me: the quoted lines carry no setup, so I could not tell what the agents were arguing about. Terms like brief, board, hold and gate need a gloss at first use, not a box on page 3. The in-text 'Band' lines and record codes were skipped as instructed but a few sit as visible reader text (the Zoom in line, the dramatised note) and read as team logistics."
+}
