@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "editor's chat",
+ "started": "2026-11-02T22:22:13Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (in the editor's chat; reviewed by the security sub-agent below)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Cause found: release v0.1.307 (b6f07175, 1 Nov 03:06) reached dev but its tag never did, so every run since computes v0.1.307 again from the newest tag (v0.1.306), writes the same ./version, has nothing to commit and fails; no deploy for about 43 hours. Fix in my lane (.github/**): the next number reads the higher of the newest tag and ./version, so the next run releases v0.1.308. No tag pushed by hand, ./version not written. Gate, push; the next push to dev releases.",
+   "at": "2026-11-02T22:22:13Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "Diagnosis confirmed; in scope; ./version not hand-written; gate untouched. Conditions: read ./version only if it matches vX.Y.Z; compare with sort -V; keep the empty fallback.",
+   "at": "2026-11-02T22:22:39Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

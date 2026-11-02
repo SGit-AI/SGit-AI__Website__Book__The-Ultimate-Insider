@@ -49,7 +49,10 @@ jobs:
             git reset -q --hard "origin/$BRANCH"                 # a push that landed meanwhile rides this release
             if [ "$(git log -1 --format=%an)" = "GitHub Actions" ] && [ -f version ]; then
               NEW=$(cat version); echo "head is already release $NEW"; break; fi
-            LAST=$(git tag --list 'v*' | sort -V | tail -1)
+            # the higher of the newest tag and ./version: a release commit whose tag never reached the remote
+            # (v0.1.307, 1 November) otherwise makes every later run compute the same number and fail
+            FILEV=$(grep -xE 'v[0-9]+\.[0-9]+\.[0-9]+' version 2>/dev/null || true)
+            LAST=$( { git tag --list 'v*'; echo "$FILEV"; } | grep . | sort -V | tail -1 || true)
             if [ -z "$LAST" ]; then NEW=v0.1.0
             else IFS=. read -r A B C <<< "${LAST#v}"
               if [ "$BRANCH" = main ]; then NEW="v$A.$((B + 1)).0"; else NEW="v$A.$B.$((C + 1))"; fi; fi

@@ -1,10 +1,14 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "conductor",
-  "as_of": "2026-11-02T22:10:00Z",
+  "as_of": "2026-11-02T22:30:00Z",
   "round": 1,
   "state": "RC2: the plan (RP1) and cover A (CV2) signed at the editor's word; the team writes the first version down the zoom ladder, the 30-page first",
   "done": [
+    {
+      "what": "the release pipeline fixed: no deploy since 1 November 03:06 (v0.1.307's tag never reached the remote); the next number now reads the higher of the newest tag and ./version",
+      "evidence": ".github/workflows/release.yml"
+    },
     {
       "what": "the site header and tagline on the signed title",
       "evidence": "admin/build/build.py; site.json"
@@ -443,6 +447,6 @@
       "C10b"
     ]
   },
-  "updated": "2026-11-02T22:10:00Z",
+  "updated": "2026-11-02T22:30:00Z",
   "cadence": "active"
 }
