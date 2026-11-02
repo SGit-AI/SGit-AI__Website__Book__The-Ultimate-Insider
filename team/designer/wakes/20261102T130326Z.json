@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, every two hours at :57 London",
+ "started": "2026-11-02T13:03:26Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. LAB 35: chapter 6's decided-and-open panel from 'Open at 19:00', every word verbatim with its line, the only number the heading's 19:00 cited to C037's span (C037 open, said so); a proposal, the timeline half waits on signature times. 2. The fragments listed to the researcher before anything goes to the book. 3. Visual plan's chapter 6 row; issue 010 updated (no duplicate); vault_check comms; lab PDF; debrief, status.json, REALITY.md; agents check, build, validate. Idle cadence if nothing is left next wake.",
+   "at": "2026-11-02T13:04:59Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope. Conditions: item 4, D02, D12 and the vault handovers named only in the chapter's words, no token value, key text, vault name or path, nothing on how a leak works; the conductor's line verbatim with its line; the only number 19:00, cited to C037 (open, said so); no em-dashes or religious words; vault_check comms; manuscript/ and claims/ untouched.",
+   "at": "2026-11-02T13:05:28Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "",
+   "verdict": "done",
+   "comment": "LAB 35: make_panel.py checks every fragment against its chapter line (caught 97 for 95), panel.svg, pages, header, README; layout faults fixed; visual plan row; letter 081 to the researcher; issue 010; lab PDF 102 pages; debrief, status.json, REALITY.md.",
+   "at": "2026-11-02T13:08:09Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
