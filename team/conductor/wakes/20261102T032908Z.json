@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "The amended plan meets the earlier conditions: the brief written first with his words, then cited; NS1 open; the guide to the editor only, no keys or session ids; vault_check; nothing copied to other repositories. All paths in scope.",
    "at": "2026-11-02T03:30:23Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "As amended: the brief with his words written first; CV1 A and DR1 A decided at his quoted words; G1 detail adds the branding; NS1 open; letters designer 037, storyteller 036 (title round), researcher 041, synthetic 018, security 033; team/conductor/guides/editor-briefs.md with HTML and PDF (4 pages), to the editor only, no keys or session ids; status.json. vault_check clean, gate 0, scope 0 outside.",
+   "at": "2026-11-02T03:32:20Z"
+  },
+  "post_review": {
+   "by": "security post-review sub-agent",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Scope 0 outside; vault_check clean; no em-dash; the new brief only added; the guide holds no key, token or session id and its claims are true (35 briefs, 162 lines, the tool's behaviour); CV1 and DR1 at his quotes; NS1 open; nothing sent to other repositories.",
+   "at": "2026-11-02T03:32:48Z"
+  },
+  "post_check": {
+   "by": "conductor post-check sub-agent",
+   "model": "haiku",
+   "verdict": "as-planned",
+   "comment": "All five items done; the guide's HTML is the PDF's source, an expected extra.",
+   "at": "2026-11-02T03:32:48Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T03:32:48Z",
+ "outcome": "ok"
 }
