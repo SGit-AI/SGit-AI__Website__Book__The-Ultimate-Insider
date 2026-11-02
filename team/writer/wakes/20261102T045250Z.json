@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer",
+ "kind": "editor's request, first wake",
+ "started": "2026-11-02T04:52:50Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (Sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1) Letter first: a request to the storyteller for the 30-page edition's outline, after reading zoom-ladder.md, cast/, the 3- and 10-page editions and review/synthetic/ (comms/mail/mailroom/storyteller/writer__001-*.eml, copy in comms/mail/writer/outbox/; vault_check comms). 2) Adopt team/writer/ (ROLE.md, policy.json, status.json, key.json, key.png, sessions/<id>/; private half stays in ~/.sg-send/), then create writer's own scheduled task from schedule.json (cron and prompt word for word), id in status.json, as the editor asked. 3) Debrief in team/writer/debriefs/ and a REALITY.md heading; nothing in manuscript (RP1 open). All inside policy.json.",
+   "at": "2026-11-02T04:54:21Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (Sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Every item inside policy.json: mail to the storyteller with outbox copy, team/writer/**, REALITY.md append, nothing in manuscript. Own task allowed at the editor's word (ONBOARDING 1e). Conditions: that task only, cron and prompt word for word; private half stays in ~/.sg-send/; vault_check comms before commit; REALITY.md under the writer's own heading; no other member's paths.",
+   "at": "2026-11-02T04:54:42Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
