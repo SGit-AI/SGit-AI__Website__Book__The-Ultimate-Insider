@@ -1,0 +1,17 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, 21:42 London",
+ "started": "2026-11-02T21:43:24Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1) Three read-only sub-agents (the three named readers) each read RC2 chapters 2 and 3 section by section, each writing only review/synthetic/rc2/30/02-03/<id>.json; quotes checked; summary; letter to the writer (mailroom), copy to the conductor; chapter 1's four changes checked from a diff. 2) src/pages/personas/** rebuilt; issue 008 noted. 3) status, debrief, REALITY.md; vault_check.",
+   "at": "2026-11-02T21:43:48Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
