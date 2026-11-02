@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer",
+ "kind": "scheduled, every two hours at :28 London",
+ "started": "2026-11-02T10:29:51Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (Sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. Letter writer__005 to the storyteller (outbox copy): chapter 1 traced and ready once RP1 is signed; a draft for the editor's RP1 read only if the storyteller asks. 2. researcher__001 and publisher__002 into done/; team/writer/prep/30-chapter-1.md, a source sheet (per page: C102, C103, C011, verbatim quotes, conditions); nothing in manuscript/rc2/. 3. status.json (cadence: idle), debrief, board, vault_check comms; then update_trigger on its own task trig_01XcHwiizLtkXBLL6Z1xmq2X to the writer idle cron only (WAKE Cadence 3).",
+   "at": "2026-11-02T10:30:55Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (Sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside writer scope; nothing in manuscript/rc2/, no secrets, no other member's files. Own task id matches status.json; idle cron is WAKE Cadence 3 while writing waits on RP1. Conditions: prep sheet is notes, not prose; no religious words, em-dashes or unregistered numbers; vault_check comms; cadence idle in status.json.",
+   "at": "2026-11-02T10:31:20Z"
+  },
+  "work": {
+   "by": "writer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Two letters into done/; team/writer/prep/30-chapter-1.md (source sheet, notes not prose); writer__005 to the storyteller with outbox copy; board, status (cadence idle), debrief; own task trig_01XcHwiizLtkXBLL6Z1xmq2X to the idle cron 28 9,17 London; vault_check clean; nothing in manuscript/.",
+   "at": "2026-11-02T10:32:21Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (Sonnet), steps 4 and 5 in one agent to spare usage",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "9 files, all inside writer scope; build and gate clean (461 pages), vault_check clean. No key, token, personal detail, em-dash or religious word; nothing in manuscript/. Prep sheet is notes; its ids C001, C011, C069, C088, C102, C103 all in the register. Task cron matches schedule.json idle and status.json.",
+   "at": "2026-11-02T10:33:36Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (Sonnet), with step 4",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "All three done: writer__005 with outbox copy; both letters in done/ and the prep sheet; status idle, debrief, board, vault_check, own task to 28 9,17. Conditions kept; nothing unplanned.",
+   "at": "2026-11-02T10:33:36Z"
+  }
+ },
+ "closed": "2026-11-02T10:33:36Z",
+ "outcome": "idle"
+}
