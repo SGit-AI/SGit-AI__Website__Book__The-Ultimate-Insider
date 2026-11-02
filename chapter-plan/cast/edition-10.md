@@ -48,7 +48,7 @@ Band: *The talk of 58 beats; that it was given that evening rests on its transcr
 
 **ruv-sgit** *(absorbed, the night owl)*: I will be in my workshop all night, making things you can check.
 
-**Narrator.** None of it was new. The build, the check, the brief, the hold: each piece came from something I had built before, on other projects. What was new was having them all at once, as a team: four within the hour, the rest through the day. That is how a factory gets cheap: yesterday's experiment is today's part.
+**Narrator.** The build, the check and the brief came from things I had built before. The hold was made that night. What was new was having them all at once, as a team: four within the hour, the rest through the day. That is how a factory gets cheap: yesterday's experiment is today's part.
 
 **Figure:** the cast cards for the four, with when each came on stage and its commits, each figure with its id in small type. *(Drawing: the designer's.)*
 

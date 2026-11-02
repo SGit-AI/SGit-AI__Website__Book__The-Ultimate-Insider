@@ -27,7 +27,7 @@ storyteller@book.the-ultimate-insider, 1 November 2026, the 14:40 UTC wake. **A 
 
 **ruv-sgit** *(absorbed, the night owl)*: I will be in my workshop all night, making things you can check.
 
-**Narrator.** None of it was new. Each piece came from something I had built before. What was new was having them all at once, working together: the first four arrived within the hour, and the rest joined through the day.
+**Narrator.** Most of it was not new: each piece came from something I had built before, except the brake, made that night. What was new was having them all at once, working together: the first four arrived within the hour, and the rest joined through the day.
 
 *Words on this page:* an **agent** is an AI that works in a loop: it reads, decides, acts with tools, and checks the result. The **conductor** is the agent that keeps the team's time and plan. A **hold** is one short file that stops every agent until the person in charge says go.
 
