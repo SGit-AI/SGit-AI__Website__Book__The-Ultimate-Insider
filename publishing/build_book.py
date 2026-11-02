@@ -21,6 +21,7 @@ import sys
 import tempfile
 
 import markua
+import edition  # the cast's conventions, for --cast
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MANUSCRIPT = os.path.join(ROOT, "manuscript")
@@ -182,6 +183,9 @@ def main():
     p.add_argument("--cover", help="an SVG or image printed full bleed as the first page, before the title page (ED1: cover A)")
     p.add_argument("--extra-css", action="append", default=[],
                    help="a stylesheet added after lab-look.css, such as the designer's lab/tools/book/speakers.css (repeatable)")
+    p.add_argument("--cast", action="store_true",
+                   help="lay out the cast's conventions in every chapter (speaker heads, cast bar, band, words box, "
+                        "figures; %% lines dropped), as publishing/edition.py does for the editions: RC2's chapters")
     p.add_argument("--no-toc", action="store_true", help="no contents page (the short editions: designer__067, synthetic__002)")
     p.add_argument("--no-pdf", action="store_true")
     p.add_argument("--no-epub", action="store_true")
@@ -203,7 +207,10 @@ def main():
     files = []
     for src in sources:
         with open(src, encoding="utf-8") as f:
-            text = figure_kinds(markua.translate(f.read()))
+            raw = f.read()
+            if a.cast:  # the writer's chapters use the editions' conventions (publisher__003 to the writer)
+                raw = edition.cast_lines(raw)
+            text = figure_kinds(markua.translate(raw))
         files.append(os.path.join(marked, os.path.basename(src)))
         with open(files[-1], "w", encoding="utf-8") as f:
             f.write(text)

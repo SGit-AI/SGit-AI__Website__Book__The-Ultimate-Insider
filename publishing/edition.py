@@ -70,6 +70,13 @@ def page(title, body, mark=None, figure=None):
     """One page of the script as manuscript text."""
     m = re.match(r"(?:Page \d+|At the back)\.\s*(.*)", title)
     heading = re.sub(r"\s*\(the series page[^)]*\)\s*$", "", m.group(1) if m else title)
+    return f"# {heading}\n\n" + cast_lines(body, mark, figure).strip() + "\n"
+
+
+def cast_lines(body, mark=None, figure=None):
+    """The cast's conventions laid out, for a script page or a whole chapter (RC2's, build_book.py --cast): the cast
+    bar, the band, the words box, each speaker's line with its head, a Figure line as a drawing or a figure to come,
+    and the %% marker lines and "---" rules dropped. Any other line passes unchanged."""
     lines = []
     for line in body.split("\n"):
         s = line.strip()
@@ -104,7 +111,7 @@ def page(title, body, mark=None, figure=None):
             lines += ["", "::: {.words-box}", s, ":::", ""]
             continue
         lines.append(line)
-    return f"# {heading}\n\n" + re.sub(r"\n{3,}", "\n\n", "\n".join(lines)).strip() + "\n"
+    return re.sub(r"\n{3,}", "\n\n", "\n".join(lines))
 
 
 def series_page(script_sections):
