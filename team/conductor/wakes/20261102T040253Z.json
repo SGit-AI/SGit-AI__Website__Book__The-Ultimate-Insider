@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake",
+ "started": "2026-11-02T04:02:53Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan sub-agent, amended",
+   "model": "",
+   "verdict": "go",
+   "comment": "Amended for clarity: the conductor writes nothing in manuscript/. 1. A letter (comms mail) to the publisher relaying only the editor's chat words, asking IT to build the 3-page then the 10-page edition in its own manuscript/editions/. 2. Short replies to synthetic 010 and 011, ruv-sgit 028, designer 066; all five to done. 3. Brief 36 in team/conductor/editor-briefs/ (no briefs/ file): the editions, A11, the strips; the series page as an ask. 4. status.json. vault_check.",
+   "at": "2026-11-02T04:03:46Z"
+  },
+  "pre_review": {
+   "by": "security pre-review sub-agent (amended plan)",
+   "model": "haiku",
+   "verdict": "go",
+   "comment": "Meets the conditions: nothing in manuscript/; his words relayed by mail; brief 36 in team/conductor; the series page an ask; no keys. On the count: the five are publisher 024 plus the four named.",
+   "at": "2026-11-02T04:04:07Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
