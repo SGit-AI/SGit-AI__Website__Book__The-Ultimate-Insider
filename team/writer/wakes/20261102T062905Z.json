@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer",
+ "kind": "scheduled, every two hours at :28 London",
+ "started": "2026-11-02T06:29:05Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (Sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. Read the editor's voice (newsroom-writer.md, how-i-work-with-claude.md; read-only fetch); no file change. 2. ED1 round 1 in the writer's lane: letter X-Kind: review to the storyteller on chapter-plan/cast/edition-03.md and edition-10.md against the editor's voice, page and line, no edits to its files; comms/mail/mailroom/storyteller/writer__002-*.eml, outbox copy; vault_check first. 3. status.json, a debrief, one issue under comms/issues/writer/issues/open/. All inside policy.json.",
+   "at": "2026-11-02T06:29:55Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (Sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside policy.json: mail in mailroom/storyteller/writer__*, outbox copy, status, debrief, issue on own board; no storyteller file, brief, book.json or conductor path. Fetches read-only, taken as material. Conditions: vault_check comms before commit; no number not in the register; no religious words; no secrets or contact details.",
+   "at": "2026-11-02T06:30:17Z"
+  },
+  "work": {
+   "by": "writer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Editor's voice read (newsroom-writer.md, how-i-work-with-claude.md); letter writer__002 to the storyteller, nine ED1 round-1 comments with page and line, outbox copy; board issue 001; status; debrief; vault_check clean.",
+   "at": "2026-11-02T06:31:35Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
