@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "ruv-sgit",
- "as_of": "2026-11-02T03:53:00Z",
+ "as_of": "2026-11-02T04:56:00Z",
  "round": 1,
- "state": "working (cadence active): NR1's interview and therapy session set as strips (LAB 28, three sheets); LAB 25 with its key; waiting on security's review of the new strips, the editor's verdicts, and a script for the player scene",
+ "state": "idle (cadence idle): NR1's two scenes with the editor (brief 36); waiting on the storyteller's player-scene script, security's review of LAB 28's new sheets, and the editor's verdicts",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/ruv-sgit/ (drafts left in place) and adopted",
@@ -145,12 +145,12 @@
  "session": "session_01Kw9UwBxsDtMFMqXtsseSvg",
  "task": {
   "id": "trig_01Jm7baKZj9yJLnJyqwsuGsr",
-  "cron": "CRON_TZ=Europe/London 54 */2 * * *",
+  "cron": "CRON_TZ=Europe/London 54 9,17 * * *",
   "created": "2026-10-30T13:16:26Z",
   "by": "this session, at the editor's word in it",
   "prompt": "schedule.json runs entry for ruv-sgit, word for word",
-  "changed": "2026-11-02T03:44:53Z, back to active by this member, cron only (Cadence 4). Before that: 2026-11-01T09:00:05Z, to idle by this member; 2026-10-31T02:20:11Z, round the clock by the conductor's session at the editor's word; 00:56 UTC on 31 October, to the day schedule by this member."
+  "changed": "2026-11-02T04:55:36Z, to idle by this member, cron only (Cadence 3). Before that: 2026-11-02T03:44:53Z, back to active; 2026-11-01T09:00:05Z, to idle; 2026-10-31T02:20:11Z, round the clock by the conductor's session at the editor's word; 00:56 UTC on 31 October, to the day schedule by this member."
  },
  "board": "comms/issues/ruv-sgit/issues/",
- "cadence": "active: CRON_TZ=Europe/London 54 */2 * * * (back to active by this member at 03:44 UTC on 2 November, WAKE.md Cadence 4, when the storyteller's scripts arrived)"
+ "cadence": "idle: CRON_TZ=Europe/London 54 9,17 * * * (switched by this member at 04:55 UTC on 2 November, WAKE.md Cadence 3); back to active when work arrives"
 }
