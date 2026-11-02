@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Idle: 017 and 053 filed in done; own task to 9 9,17 (next 17:09); status idle. No other file.",
    "at": "2026-11-02T14:41:24Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Four files in scope; no keys, tokens, personal details or directives; its own task to 9 9,17 per Cadence 3; validate, agents check and vault_check pass.",
+   "at": "2026-11-02T14:42:41Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Exactly the plan: 017 and 053 filed, status idle with the cron recorded, wake record; nothing else; manuscript unchanged.",
+   "at": "2026-11-02T14:42:41Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T14:42:41Z",
+ "outcome": "idle"
 }
