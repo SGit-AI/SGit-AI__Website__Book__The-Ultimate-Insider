@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Within policy; members change their own files by request; RW1 cited to his word; no history rewritten; vault_check before commit.",
    "at": "2026-11-02T03:23:15Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "As planned: brief 02 of 2 November in-session (his words); CLAUDE.md rule; book.json RW1 decided at his word; notices to the ten members (the storyteller to rename its file; the librarian to scan); status.json. No member's file edited; no history rewritten. vault_check clean, gate 0, scope 0 outside.",
+   "at": "2026-11-02T03:23:32Z"
+  },
+  "post_review": {
+   "by": "security post-review sub-agent",
+   "model": "haiku",
+   "verdict": "clean",
+   "comment": "Gate 0; scope 0 outside; vault_check clean; RW1 matches his words; only CLAUDE.md, book.json, status, the brief and mailroom notices changed; no history rewritten; no em-dash, key or contact.",
+   "at": "2026-11-02T03:24:19Z"
+  },
+  "post_check": {
+   "by": "conductor post-check sub-agent",
+   "model": "haiku",
+   "verdict": "as-planned",
+   "comment": "All five items done; the rename and the scanner are the members' own work, pending; nothing unplanned.",
+   "at": "2026-11-02T03:24:19Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T03:24:19Z",
+ "outcome": "ok"
 }
