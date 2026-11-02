@@ -1,10 +1,14 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "conductor",
-  "as_of": "2026-11-02T22:05:00Z",
+  "as_of": "2026-11-02T22:10:00Z",
   "round": 1,
   "state": "RC2: the plan (RP1) and cover A (CV2) signed at the editor's word; the team writes the first version down the zoom ladder, the 30-page first",
   "done": [
+    {
+      "what": "the site header and tagline on the signed title",
+      "evidence": "admin/build/build.py; site.json"
+    },
     {
       "what": "RL1 Ship and D6-6 (full book only) at his word; the home page on the signed title and cover A; new editions and RC2 pages; letters to the storyteller, writer, publisher and security",
       "evidence": "briefs/2026-11-02__in-session/11-ship-full-book-and-the-pages.md"
@@ -439,6 +443,6 @@
       "C10b"
     ]
   },
-  "updated": "2026-11-02T22:05:00Z",
+  "updated": "2026-11-02T22:10:00Z",
   "cadence": "active"
 }

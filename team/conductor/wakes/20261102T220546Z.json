@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake (22:02, just after the chat wake)",
+ "started": "2026-11-02T22:05:46Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (plan; reviewed by the security sub-agent below)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Nothing new from members since the 22:00 chat wake. 1 the site header on the signed title, as told to the editor at 22:05 (he may say keep it): the brand in admin/build/build.py to 'One Human, Nine Agents', site.json short and tagline to the signed title, the series and PS1, no number beyond the register; the domain stays; 2 gate, push; no brief (nothing new beyond the chat's report); no member file edited.",
+   "at": "2026-11-02T22:05:58Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "In scope; the signed title only; no new number; domain stays; nothing private.",
+   "at": "2026-11-02T22:06:12Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
