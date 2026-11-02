@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "LAB 30 specs: seventeen passed fragments with chapter and line, map 7 part 6 dropped, captions updated; figure-10-02 as one row (164 x 34 mm), tested on a scratch build (cards fit; two lines of words spill); letters 078 to 080; three letters filed; issue 010; debrief, status.json, REALITY.md.",
    "at": "2026-11-02T11:03:47Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Only designer paths; the seventeen passed fragments verbatim (backticks dropped), map 7's sixth dropped, no substitute; card numbers match claims/ with C011, C014; manuscript/, publishing/ untouched; vault_check comms clean; no em-dashes, religious words or secrets.",
+   "at": "2026-11-02T11:05:14Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "All three items in 4e99f03; the cards went to one row (164 x 34) rather than 2 x 2 to fit the page, stated in the work step and debrief; make_cv2.py edited because it draws figure-10-02.",
+   "at": "2026-11-02T11:05:14Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T11:05:14Z",
+ "outcome": "ok"
 }
