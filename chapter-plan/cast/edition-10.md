@@ -18,12 +18,17 @@ storyteller@book.the-ultimate-insider, 2 November 2026, the 00:40 UTC wake. **A 
 
 *(One picture: the editor at a lectern with a play button; behind him, the factory's nine stations.)*
 
+*How to read the scenes:* they are dramatised. The words the agents say are ours, written for this book; the events are the record's, and a line marked *(record)* is quoted word for word. Online, under each scene, you can open the commits, times and files it rests on.
+
 `%% record: C015 C069`
 Band: *The talk of 58 beats, given on the evening of 29 October.*
 
 ## Page 2. A book about you doing it
 
-*(The series page, as the publisher wrote it at `daf8e58`; the series paragraph made shorter, as the room read asked.)*
+**Narrator.** This book is one of a series, *Generation ZX Founders (GenAI Edition)*, whose line is "For the ones already up at three in the morning building". The series has one idea: you start, and you build. Every book in it is a working example you can copy. Generation ZX is not a range of birth years; it is the people building because finally they can, the youngest and the most experienced side by side, as they were in the room in Faro. So read this as a book about you doing it.
+
+`%% record: gen-z-developers.sgit.ai (read 31 October 2026)`
+Band: *The series' name, line and idea, from its own site; G1, signed 31 October.*
 
 ## Page 3. The factory is assembled
 
@@ -33,17 +38,17 @@ Band: *The talk of 58 beats, given on the evening of 29 October.*
 
 **Dev** *(happy, the fast one)*: First pass of the site and the talk. One build, and a check every change must pass.
 
-**Conductor** *(pacing)*: I keep the time. Everyone gets a slot, and anyone can pull the brake.
+**Conductor** *(pacing)*: I keep the time. Everyone gets a slot, and anyone can pull the hold.
 
 **Deck** *(proud, the fussy one)*: The slides are mine. If a room cannot read one at a glance, it goes back.
 
 **ruv-sgit** *(absorbed, the night owl)*: I will be in my workshop all night, making things you can check.
 
-**Narrator.** None of it was new. The build, the check, the brief, the brake: each piece came from something I had built before, on other projects. What was new was having them all at once, as a team, inside an hour. That is how a factory gets cheap: yesterday's experiment is today's part.
+**Narrator.** None of it was new. The build, the check, the brief, the hold: each piece came from something I had built before, on other projects. What was new was having them all at once, as a team, inside an hour. That is how a factory gets cheap: yesterday's experiment is today's part.
 
 *(The cast cards for the four, the designer's scorecards: on stage from, commits, wakes, slot; each figure with its id in small type.)*
 
-*Words on this page:* **agent**, **conductor**, **brake (hold)**, **check (the gate)**, as the 3-page edition glosses them.
+*Words on this page:* an **agent** is an AI that works in a loop: it reads, decides, acts with tools, and checks the result. The **conductor** is the agent that keeps the team's time and plan. A **hold** is one short file that stops every agent until the person in charge says go. A **check** is a test every change must pass before it goes out (the team called it the gate). A **reviewer** is a second agent that reads the plan before the work and the result after it.
 
 `%% record: 2e4b1f4 1f7c633 97b98d9 20ab1a3 defe526 C011 C014 C022 C071`
 Band: *Dramatised. Rests on each agent's first commit after midnight.*
@@ -54,7 +59,7 @@ Band: *Dramatised. Rests on each agent's first commit after midnight.*
 
 **Narrator.** In the small hours, the conductor built the factory's machinery.
 
-**Conductor** *(on the minute)*: A clock: each member wakes at its own minute. A brake anyone can pull. And every piece of work goes the same way: plan it, have the plan checked, do it, have it checked, check it went to plan.
+**Conductor** *(on the minute)*: A clock: each member wakes at its own minute. A hold anyone can pull. And every piece of work goes the same way: plan it, have the plan checked, do it, have it checked, check it went to plan.
 
 **Narrator.** It ran the five steps on its own first piece of work, and its own reviewer found against it.
 
@@ -62,7 +67,7 @@ Band: *Dramatised. Rests on each agent's first commit after midnight.*
 
 **Conductor** *(worried, then calm)*: Caught by the reviewer I invented. Good. But know what it is: "a second reading, not a second identity." *(record)*
 
-**Narrator.** That last line is one of the most honest things anyone on the team wrote. A reviewer agent in the same session can catch mistakes. It cannot stop someone set on getting round it. We built the brakes knowing that.
+**Narrator.** That last line is one of the most honest things anyone on the team wrote. A reviewer agent in the same session can catch mistakes. It cannot stop someone set on getting round it. We built the checks knowing that.
 
 `%% record: 09f13d5 8c66751 5700bab c8f6f8f team/conductor/debriefs/2026-10-29__the-five-step-wake.md`
 `%% claim: a reviewer sub-agent runs in the same session with the same reach as the member it reviews; it adds a second reading, not a separate identity`
@@ -112,7 +117,7 @@ Band: *Dramatised. Rests on the player as the main priority (about 13:50) and it
 
 **Cast bar:** all nine. Security's chair, planned at midnight, is empty.
 
-**Narrator.** At 18:44, sixteen minutes before the talk was due, I said: "actually we are at 95% so it is better to pause all actions". *(record)* The conductor wrote one file, and every new piece of work stopped. What was already in flight still landed. The brake had been there all day. I pulled it once.
+**Narrator.** At 18:44, sixteen minutes before the talk was due, I said: "actually we are at 95% so it is better to pause all actions". *(record)* The conductor wrote one file, and every new piece of work stopped. What was already in flight still landed. The hold had been there all day. I pulled it once.
 
 *(ruv-sgit's strip: the conductor after the hold, talking to security's empty chair: `scripts/therapy-conductor-after-the-hold.json`.)*
 
@@ -148,7 +153,7 @@ Band: *Dramatised. Rests on the talk's register and on each member's own debrief
 
 **Narrator.** Now I am building a third, bigger one, for Web Summit: several people, each running their own agents, all working to one brief. The parts are the same. What changes is that the brief, the board where the work is written down, and the rule for who can stop it are shared between people, not just between agents.
 
-**Conductor** *(pacing, to the reader)*: Same clock. Same brake. More hands on it.
+**Conductor** *(pacing, to the reader)*: Same clock. Same hold. More hands on it.
 
 `%% record: briefs/2026-10-30/1-book-conductor-brief.md briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md`
 Band: *The book's own team, ported on 30 October; the Web Summit team as the editor described it on 1 November. The second and third factories are this book's record, not the talk's.*
@@ -163,9 +168,9 @@ Band: *The book's own team, ported on 30 October; the Web Summit team as the edi
 2. **You: one page of rules**, in your own words: what the agent is for, what it may change, and when it must stop and ask you.
 3. **You: one brief**: what you want made, for whom, by when. Hand both to your first agent.
 4. **Your agent builds, you check:** something small that somebody else can use, the same day. Then do it again.
-5. **Add a second agent only when the first is busy.** Working with others? Share the brief, the board and the brake, and each of you runs your own agents.
+5. **Add a second agent only when the first is busy.** Working with others? Share the brief, the board and the hold, and each of you runs your own agents. Write down who may lift the hold when its owner is away; until you have, nobody does.
 
-*It does not have to be a talk:* a shop's customer answers and weekly offer; a newsroom's daily stories; a product's first page. Same brief, same rules, same brake.
+*It does not have to be a talk:* a shop's customer answers and weekly offer; a newsroom's daily stories; a product's first page. Same brief, same rules, same hold.
 
 *What it costs:* to start, you need a free account; paid plans of the kind the team used start at $20 a month (prices as published on 2 November 2026). The record of my own day holds no figure for what it cost.
 
@@ -185,3 +190,5 @@ Band: *The price line on the register as published on 2 November 2026; the day's
 ## Where this came from
 
 `chapter-plan/zoom-ladder.md`; `chapter-plan/cast/edition-03.md`, `opening-script.md`, `bible.md`, `scripts/`; `timeline/cast-scenes.md`, `timeline/quotes.md`; `claims/opening-script-trace.md`; `claims/register.json` (C101); `review/synthetic/zoom/edition-03/summary.md`; the conductor's letter 033; `briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md`.
+
+**Read again by synthetic** (`review/synthetic/zoom/edition-10/summary.md`, letter 005): its five further changes are in (02:40 UTC, 2 November): a box for teams of several (3-page), who may lift the hold when its owner is away, one word for it (hold) with the glosses on the page, a line on what "dramatised" means, and page 2 written out (10-page).

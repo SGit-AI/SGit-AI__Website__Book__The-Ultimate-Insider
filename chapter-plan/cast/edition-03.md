@@ -14,7 +14,7 @@ storyteller@book.the-ultimate-insider, 1 November 2026, the 14:40 UTC wake. **A 
 
 **Dev** *(happy, the fast one)*: First pass of the site and the talk. One build, and a check every change must pass.
 
-**Conductor** *(pacing)*: I will keep the time. Everyone gets a slot, and anyone can pull the brake.
+**Conductor** *(pacing)*: I will keep the time. Everyone gets a slot, and anyone can pull the hold.
 
 **Deck** *(proud, the fussy one)*: The slides are mine. If a room cannot read one at a glance, it goes back.
 
@@ -22,7 +22,9 @@ storyteller@book.the-ultimate-insider, 1 November 2026, the 14:40 UTC wake. **A 
 
 **Narrator.** None of it was new. Each piece came from something I had built before. What was new was having them all at once, working together, in an hour.
 
-*Side note, for words on this page:* an **agent** is an AI that works in a loop: it reads, decides, acts with tools, and checks the result. The **conductor** is the agent that keeps the team's time and plan. A **brake**, here a **hold**, is one short file that stops every agent until the person in charge says go. A **check** (the team called it the gate) is a test every change must pass before it goes out. A **reviewer** is a second agent that reads the plan before the work and the result after it. The **researcher** is the agent that checks every fact against its source. A **debrief** is the short note an agent writes at the end of each turn: what it did and what it found.
+*Words on this page:* an **agent** is an AI that works in a loop: it reads, decides, acts with tools, and checks the result. The **conductor** is the agent that keeps the team's time and plan. A **hold** is one short file that stops every agent until the person in charge says go. A **check** is a test every change must pass before it goes out (the team called it the gate). A **reviewer** is a second agent that reads the plan before the work and the result after it. A **debrief** is the short note an agent writes at the end of each turn. The **researcher** is the agent that checks every fact against its source.
+
+*How to read the scenes:* they are dramatised. The words the agents say are ours, written for this book; the events are the record's, and a line marked *(record)* is quoted word for word. Online, under each scene, you can open the commits, times and files it rests on.
 
 `%% record: 2e4b1f4 1f7c633 97b98d9 20ab1a3 defe526`
 Band: *Dramatised. Rests on each agent's first commit after midnight.*
@@ -43,7 +45,7 @@ Band: *Dramatised. Rests on each agent's first commit after midnight.*
 
 **Narrator.** In the afternoon I came back, saw what they had made, and asked for changes. That was the point: I could see an idea on the screen, ask for it differently, and see it again within the hour. A storyteller joined and told me, with the team's own data, that one of my lines did not hold. I kept the line. The book keeps the argument.
 
-**Narrator.** It does not have to be a talk. A shop owner could set up the same team to answer customers, keep the stock list true and write the weekly offer, with the same brief, the same rules and the same brake. And it does not have to be one person: a team of three can each run their own agents, as long as they share one brief, one board where the work is written down, and one rule for who can stop it.
+**Narrator.** It does not have to be a talk. A shop owner could set up the same team to answer customers, keep the stock list true and write the weekly offer, with the same brief, the same rules and the same hold. And it does not have to be one person: a team of three can each run their own agents, as long as they share one brief, one board where the work is written down, and one hold anyone can pull.
 
 `%% record: 09f13d5 c8f6f8f af0010b 78b89b9 2726f0e b208a16 C087`
 `%% claim: each piece of work was planned, reviewed, done, reviewed and checked, and the reviews were written down`
@@ -65,6 +67,8 @@ Band: *Dramatised. Rests on the night's five-step wakes, the six alone from five
 3. **You: one brief**: what you want made, for whom, by when. Hand both to your first agent.
 4. **Your agent builds, you check: ship something small that somebody else can use, the same day.** Then do it again, and add a second agent only when the first is busy.
 
+*Working as a team of several?* Each of you runs your own agents, and you share three things: one brief, one board where the work is written down, and one hold. Write down who may lift the hold when its owner is away; until you have, nobody does.
+
 *What it costs:* to start, you need a free account; paid plans of the kind the team used start at $20 a month (prices as published on 2 November 2026). The record of my own day holds no figure for what it cost.
 
 **Zoom in:** meet the whole cast, and see the five steps of a working day, in the ten-page edition.
@@ -85,3 +89,5 @@ Band: *Dramatised. Rests on the hold at 18:44; the price line on the register (C
 `timeline/cast-scenes.md` (scenes 1 to 5); `chapter-plan/cast/bible.md`; `chapter-plan/zoom-ladder.md`; `review/synthetic/sample/summary.md`; `briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md`.
 
 **Read by synthetic** (`review/synthetic/zoom/edition-03/summary.md`, letter 004): its five changes are in (00:40 UTC, 2 November): the cost line (C101), who does each step, a trait for dev, deck and ruv-sgit and the researcher introduced before it speaks, a team of several people, and the check, reviewer and hold glossed.
+
+**Read again by synthetic** (`review/synthetic/zoom/edition-10/summary.md`, letter 005): its five further changes are in (02:40 UTC, 2 November): a box for teams of several (3-page), who may lift the hold when its owner is away, one word for it (hold) with the glosses on the page, a line on what "dramatised" means, and page 2 written out (10-page).
