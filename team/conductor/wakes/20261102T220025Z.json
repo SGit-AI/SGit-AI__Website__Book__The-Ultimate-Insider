@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "editor's chat",
+ "started": "2026-11-02T22:00:25Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (in the editor's chat; reviewed by the security sub-agent below)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1 his words verbatim in briefs/2026-11-02__in-session/11-ship-full-book-and-the-pages.md; 2 book.json: RL1 decided Ship; D6-6 decided at his word as the Cold-Read chapter in the full book only (the reading marked); 3 letters: storyteller and writer (Ship in every edition and chapter; the Cold-Read chapter out of the seventy), publisher (rebuild the editions now; then security reads the changed words), security (read the editions' changed words; then I add the editions' PDFs to the release); 4 pages in my lane: src/pages/index.html rewritten to the signed title, cover A (copied to src/static/assets/), the series, traced numbers only; src/pages/editions.html listing the 3- and 10-page editions, PDFs to follow security's read; src/pages/rc2.html, RC2's progress chapter by chapter with each check, no PDF; 5 gate, push; no member file edited.",
+   "at": "2026-11-02T22:00:53Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "In scope; decides only RL1 Ship and D6-6 full book only, at his words, quoted verbatim; no PDF before security clears; home numbers from the register only.",
+   "at": "2026-11-02T22:01:24Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
