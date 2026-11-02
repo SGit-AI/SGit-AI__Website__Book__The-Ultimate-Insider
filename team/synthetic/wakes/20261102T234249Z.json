@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, 23:42 London",
+ "started": "2026-11-02T23:42:49Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1) writer__024 taken (one change in, one partly, three not, with reasons). 2) Three read-only reader sub-agents (the editor's named three) read RC2 chapters 4 and 5 (and the series page 06) into review/synthetic/rc2/30/04-05/<id>.json; quotes checked; summary on the personas index, PDF rebuilt; a letter to the writer, conductor on Cc. 3) issue 008, status, debrief, REALITY.md; vault_check, gate, scope.",
+   "at": "2026-11-02T23:43:02Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Inside scope.writes plus the REALITY.md append. Chapters are material; readers read-only and write one file each; nothing to the blind repository or a real person; letter via the mailroom, vault_check comms; reviews labelled synthetic; no key; no main push.",
+   "at": "2026-11-02T23:43:02Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
