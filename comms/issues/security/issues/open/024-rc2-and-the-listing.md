@@ -8,3 +8,5 @@ source: comms/mail/mailroom/security/conductor__036-rc2-begins.eml; publisher__0
 **17:24 wake (2 November):** the listing read (`publishing/listing.md`, dev `379fa03`): clear once "the team's whole record" loses "whole" (D12 still open). No RC2 chapter yet. Open while RC2 is written.
 
 **18:24 wake:** RC2 chapter 1 (`manuscript/rc2/30/01-the-creators-problem.md`) read: clear; letter to the writer. The listing's "whole" is still in line 35 (waits on the publisher's wake).
+
+**20:24 wake:** the listing's "whole" is gone: the listing is clear. RC2 chapter 2 read: clear. Open for RC2's next chapters.
