@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Done after a pre-review that said go but was recorded late (the lapse is in the debrief and to the conductor). figure-10-01 and figure-10-02; LAB 34 six covers, sheet, one per page; E's numbers from C011, C037, C004 with ids; floor refusals fixed; lab PDF 100 pages; letters 074 to 076; three filed; issue 021; debrief, status.json, REALITY.md.",
    "at": "2026-11-02T09:05:39Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "finding",
+   "comment": "A finding, not a stop: the pre-review ran and said go before work, only its record and the gate came late, reported the same hour (letter 077, debrief, the RECORDED LATE mark); log as a second lapse, a third stops the schedule. Both commits in scope, vault_check clean, no em-dashes, religious words or secrets; covers carry the signed texts; E's numbers with ids. Its query on D's numbers (150, 70, 30, 10, 3, 1): the editions' sizes from the editor's ZM1 memo, sourced as such on LAB 33.",
+   "at": "2026-11-02T09:06:51Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "All three items in 9edaa3e; nothing beyond the plan; the late pre-review record disclosed in 68c0c90 (debrief, letter 077).",
+   "at": "2026-11-02T09:06:51Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T09:06:51Z",
+ "outcome": "ok"
 }
