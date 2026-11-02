@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "In scope; decides only RL1 Ship and D6-6 full book only, at his words, quoted verbatim; no PDF before security clears; home numbers from the register only.",
    "at": "2026-11-02T22:01:24Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "His words in 11-ship-full-book-and-the-pages.md; RL1 and D6-6 decided, his words quoted; four letters (storyteller 044, writer 004 corrected before commit as chapter 2 was already fixed, publisher 056, security 037); index.html rewritten, editions.html and rc2.html new, cover A in assets; no PDF published; status.",
+   "at": "2026-11-02T22:04:05Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "Nothing private, no PDF linked; home numbers match the register; RC2 table matches the log; his words verbatim.",
+   "at": "2026-11-02T22:04:51Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "The three pages, RL1 and D6-6 recorded, four letters; the readings marked.",
+   "at": "2026-11-02T22:04:51Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T22:04:51Z",
+ "outcome": "ok"
 }
