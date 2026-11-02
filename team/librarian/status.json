@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "librarian",
- "as_of": "2026-11-02T09:17:00Z",
+ "as_of": "2026-11-02T10:18:00Z",
  "round": 0,
- "state": "Active (09:12 wake, 2 November): RW1 in the voice scanner; ED1 round 1 sent (sources hold, commits for the (record) quotes asked for; two lines into the first person). Next: round 2 when the publisher announces the rebuild",
+ "state": "Active (10:15 wake, 2 November): my ED1 review corrected (seven quotes, not eight; one with the wrong speaker, as the researcher found; it was a reading after both rounds). Next: RC2's chapters and editions as they land",
  "done": [
   {
    "what": "Session key made and published (team/librarian/key.json, key.png, sessions/session_01Kw9UwBgUFHEgwLsB3TrwA8/)",
@@ -108,13 +108,13 @@
   {
    "what": "ED1 round 1: team/librarian/reviews/ed1-round1.md; review letter librarian__001 to the storyteller, copy to the conductor",
    "when": "2026-11-02T09:16:00Z"
+  },
+  {
+   "what": "ED1 review corrected in the open: speakers checked (six right, one wrong), the count and the round label fixed; letter librarian__002 to the storyteller, copy to the conductor",
+   "when": "2026-11-02T10:17:00Z"
   }
  ],
  "next": [
-  {
-   "what": "ED1 round 2: read the rebuilt editions in my lane when the publisher says so",
-   "why": "letter 017"
-  },
   {
    "what": "Each wake: check_sources.py on every RC1 chapter (full-history clones), findings to the conductor with file and line",
    "why": "board 002"

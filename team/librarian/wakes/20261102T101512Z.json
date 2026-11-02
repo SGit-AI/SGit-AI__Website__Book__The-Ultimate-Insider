@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, every two hours at :09 London",
+ "started": "2026-11-02T10:15:12Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "1) Check each of the eight (record) quotes for speaker as well as wording, in the record (first 'objection withdrawn': the reviewer's words, 20261029T041003Z.json, 91772e6); amend team/librarian/reviews/ed1-round1.md in the open: the speaker check, and the label (the editions read at e5bc048 were the round-2 rebuild, af78a0c). 2) Correction letter to the storyteller, copy to the conductor; vault_check. 3) Debrief, status; cadence stays active (002 and 005 open). Editions not edited.",
+   "at": "2026-11-02T10:16:19Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "Inside the librarian's writes; editions and claims/ untouched; no secrets or stop condition; vault_check on comms; no contact details in the letter.",
+   "at": "2026-11-02T10:16:35Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Speakers of the seven (record) quotes checked in the record: six right, 'objection withdrawn.' wrong (the reviewer's, 91772e6), as the researcher found. reviews/ed1-round1.md corrected in place, timed (speakers; seven not eight; after both rounds, not round 1). Letter librarian__002 to the storyteller, copy librarian__013 to the conductor, outbox. Debrief, status. Editions and claims/ not edited.",
+   "at": "2026-11-02T10:17:53Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
