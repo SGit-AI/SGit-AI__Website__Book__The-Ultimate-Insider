@@ -221,4 +221,6 @@ Band: *The series' name, line and idea, from its own site; G1, signed 31 October
 
 The talk team's record of 29 October, its history read commit by commit, and the talk's transcript, added after the day; the book team's timeline of who was on stage when, and its quotes from the record; the cast guide; the book's register of claims, for every figure; the readers' reports on the drafts.
 
+The exact files and commits behind each of these are in the book's index, under the editions.
+
 `%% record: chapter-plan/zoom-ladder.md chapter-plan/cast/ timeline/cast-scenes.md timeline/quotes.md claims/opening-script-trace.md claims/editions-03-10-trace.md claims/register.json review/synthetic/ briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md`

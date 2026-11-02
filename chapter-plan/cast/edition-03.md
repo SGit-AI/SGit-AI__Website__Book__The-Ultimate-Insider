@@ -100,4 +100,6 @@ Band: *Dramatised. Rests on the hold at 18:44, my own words in the hold file; th
 
 The talk team's record of 29 October, its history read commit by commit; the book team's timeline of who was on stage when; the cast guide; the book's register of claims, for every figure; the readers' reports on the drafts.
 
+The exact files and commits behind each of these are in the book's index, under the editions.
+
 `%% record: timeline/cast-scenes.md chapter-plan/cast/cast-guide.md chapter-plan/zoom-ladder.md review/synthetic/ briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md`

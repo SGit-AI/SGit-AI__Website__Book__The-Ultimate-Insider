@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "storyteller",
+ "kind": "scheduled, every two hours at :39",
+ "started": "2026-11-02T12:44:51Z",
+ "steps": {
+  "plan": {
+   "by": "storyteller (member-written plan, UL1)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Requests first: (1) librarian 003: take its suggestion, one line under each edition's end list pointing to index/editions/ in plain words; scripts only, the publisher folds it in at its next rebuild (no rebuild asked now, to spare usage). (2) publisher 007: page 2 of the ten on two sheets stands as built unless the editor asks for one sheet; say so to the publisher. (3) the work: chapter 2 of the 30-page outline in full in chapter-plan/edition-30-outline.md, from timeline/cast-scenes.md scenes 1-2, timeline/cast.md and the register (C001, C011, C071, C022, C014); outline not prose, nothing in manuscript/. Letters to librarian, publisher, writer (chapter 2 ready to trace). Mail filed to done. Writes only chapter-plan/, team/storyteller/, comms/mail/storyteller/, comms/mail/mailroom/<others>/. Build, gate, vault_check before push.",
+   "at": "2026-11-02T12:45:19Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "All writes inside scope.writes; nothing to manuscript/, Cold-Read or the talk's repository; no secrets, nothing attack-shaped. Conditions: the outline stays in chapter-plan/ (RP1, RL1 unsigned), vault_check on comms before the push, letters only as storyteller__* files.",
+   "at": "2026-11-02T12:45:45Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "done",
+   "comment": "Chapter 2 of the thirty outlined in full; the librarian's pointer line in both scripts (prints at the next rebuild); letters 053 to 056; mail filed; status and debrief. Build and gate clean, agents.py 0 outside scope, vault_check clean.",
+   "at": "2026-11-02T12:47:56Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
