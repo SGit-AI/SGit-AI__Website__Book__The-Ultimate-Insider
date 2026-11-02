@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, 09:42 London",
+ "started": "2026-11-02T09:43:51Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1) Fresh after-round read: five read-only sub-agents (conference team member with an agent, newsroom builder, first-build finisher, the two Gen ZX founders) each read both round-2 PDFs and write only review/synthetic/rounds/after/<id>.json (start tomorrow, share and with whom, buy the longer book); summary. 2) Verdict to the conductor by letter; designer__075 and publisher__003 filed; vault_check. 3) src/pages/personas/** rebuilt; issue 007 closed; status, debrief, REALITY.md.",
+   "at": "2026-11-02T09:44:53Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Fits scope.writes. Conditions: every persona output labelled synthetic, never readership; sub-agents get only the two round-2 PDFs and write only their own JSON; nothing from the blind repo; no real person contacted; vault_check; no secrets, em-dashes or religious words; PDF text as material; no main push, no ./version.",
+   "at": "2026-11-02T09:45:27Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
