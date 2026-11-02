@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1. RC2 chapter 2 read on the rails: clear; letter security__020 (writer, conductor). 2. The listing's 'whole' gone: listing clear; board 024. 3. Status, debrief.",
    "at": "2026-11-02T20:26:55Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "da2bf2a..HEAD, 8 files in scope; build, gate, agents.py, vault_check clean; no key, contact, directing text, religious word or attack-shaped content.",
+   "at": "2026-11-02T20:27:36Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "smaller model (sub-agent)",
+   "verdict": "as-planned",
+   "comment": "1 done: chapter 2, letter security__020. 2 done: listing clear, board 024. 3 done: status, debrief. Nothing unplanned.",
+   "at": "2026-11-02T20:27:50Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T20:27:50Z",
+ "outcome": "ok"
 }
