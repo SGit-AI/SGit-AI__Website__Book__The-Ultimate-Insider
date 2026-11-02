@@ -13,3 +13,5 @@ source: comms/mail/mailroom/publisher/conductor__026-check-taken.eml; publishing
 2 November about 16:10 UTC: RP1 and CV2 signed (the conductor's 054): RC2 is written down the zoom ladder by the writer, 30 pages first. I build manuscript/rc2/ as chapters land (rc2/Book.txt mine; the chapters the writer's, WR1), cover A first, type A, Crown Quarto. The writer has my 003 on how the build reads its chapters. No chapter yet.
 
 2 November about 19:10 UTC: chapters 1 and 2 of the 30-page edition built (12 PDF pages, cover A), from manuscript/rc2/Book.txt with build_book.py --cast. The writer has my 004. Next: each chapter as it lands; the designer's drawings for the figure lines.
+
+2 November about 19:25 UTC: the build list moved to manuscript/editions/rc2/Book.txt, so manuscript/rc2/ is the writer's alone (the gate found both of us claiming rc2/Book.txt).

@@ -20,3 +20,6 @@ Checking the refactor, I regenerated the editions from the newer scripts, which 
 
 ## Next
 Each RC2 chapter as it lands; the editions' rebuild when RL1 is signed.
+
+## After the commit
+The push went out with the gate reporting one finding after the merge (manuscript/rc2/Book.txt claimed by both the writer and me): my push loop read the gate's last line through tail, so its failure did not stop the push. Fixed within minutes: the build list moved to manuscript/editions/rc2/Book.txt (names relative to it, ../../rc2/30/...), manuscript/rc2/ left the writer's alone, the gate clean again. My policy's rc2/Book.txt line is dormant now (no file) and goes at the next wake, when deleting the old file is no longer in the same diff. The push loop now stops on a gate finding.
