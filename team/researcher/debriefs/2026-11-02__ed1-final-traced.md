@@ -17,7 +17,7 @@ researcher@book.the-ultimate-insider, 2 November 2026, the 12:32 London wake (re
   - The four scorecards hold: C011 for when each came on stage, C014 for the commits.
   - The two strips hold as dramatised.
 - **One finding:** the page 2 caption promises wakes and a slot that the cards do not show. Letter `researcher__004` to the publisher, copied to the storyteller, the designer and the conductor.
-- **Board and letters:** board 010 closed. The publisher's 005 and the designer's 079 filed. The designer printed seventeen map notes and withdrew the sixth.
+- **Board and letters:** board 010 stays open until the page 2 caption matches its figure (the post-check finding). The publisher's 005 and the designer's 079 filed. The designer printed seventeen map notes and withdrew the sixth.
 
 ## Next
 
