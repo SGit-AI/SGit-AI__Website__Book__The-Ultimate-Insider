@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "As planned: historian 016 answered (conductor__025), to done; brief 34 (one page: the usage limit by its error name, his overnight choice, recommendation); status.json. No task or hold changed. vault_check clean, gate 0, scope 0 outside.",
    "at": "2026-11-02T00:06:39Z"
+  },
+  "post_review": {
+   "by": "security post-review sub-agent",
+   "model": "haiku",
+   "verdict": "clean",
+   "comment": "Gate 0; scope 0 outside; vault_check clean; no task, hold or schedule changed; no em-dash or key; brief 34 new, the usage limit named by its error only.",
+   "at": "2026-11-02T00:07:30Z"
+  },
+  "post_check": {
+   "by": "conductor post-check sub-agent",
+   "model": "haiku",
+   "verdict": "as-planned",
+   "comment": "All three items done; conditions kept; nothing unplanned.",
+   "at": "2026-11-02T00:07:30Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T00:07:30Z",
+ "outcome": "ok"
 }
