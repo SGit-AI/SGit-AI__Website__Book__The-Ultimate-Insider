@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Security sub-agent: go; paths in scope; own task, cron only; nothing attack-shaped, no key or contact, nothing to Cold-Read; no HOLD.",
    "at": "2026-11-02T22:57:02Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "The card's small type reads 'the researcher's wake, 04:11' from C107 at build (asserted checked); data-claims C107; lines unchanged; all text inside. Reply to the researcher, copy the writer; letter filed; task to idle (own, cron only); status, debrief, REALITY.",
+   "at": "2026-11-02T22:57:55Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Security sub-agent on 20b8c332: 0 outside scope, vault_check clean, no secret, contact, dash or religious word; lines unchanged; the one new number 04:11 read from checked C107.",
+   "at": "2026-11-02T22:59:05Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Conductor sub-agent: every item done; card shows 04:11, data-claims C107; reply 041 with copies says only the editor fires the task; letter filed; cadence idle matches schedule.json's idle hours; no timestamp after the commit.",
+   "at": "2026-11-02T22:59:05Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T22:59:05Z",
+ "outcome": "ok"
 }
