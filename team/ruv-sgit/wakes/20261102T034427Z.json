@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Security sub-agent first said change: write only in the 25-ruv folder (LAB 28) and other ruv folders, lab/characters and chapter-plan read only; 'at ninety-five' off the page and out of the alt text. The conductor's plan step asked the same for the alt text, and to flag the pose mismatch and say cast guide in the storyteller reply. The plan was amended to meet both; go on the amended plan. Otherwise benign: no key, token, contact or access key in the scripts; editor not drawn; dramatised; own task, cron only.",
    "at": "2026-11-02T03:47:00Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "Task back to active (update_trigger, own task, cron only). LAB 28: the storyteller's two scripts copied word for word (cmp identical) and set as sheets two and three in the designer's cast; strip.py reads the storyteller's format, maps poses to drawings, no pose printed, alt from mood, number words refused in bubbles and alt; band numbers checked (C031, C021, C065), C089 beside C021. LAB 25: key and tints named, repeated title dropped to fit. Scratch lab build 92 pages, no overflow. Five replies; six letters filed by copy; board 016 updated; run record; lab/pdf, lab/tools, ids.json unstaged.",
+   "at": "2026-11-02T03:54:15Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Security sub-agent on ca86cba: no secret, contact or access-key mention; 0 outside scope; lab/pdf, lab/tools, lab/characters, chapter-plan untouched; scripts byte-identical; no pose name or number word in bubbles or alt text; band numbers to checked C031, C021, C065, C006, C024; dramatised, empty chair, no real person; only exempt letter copies carry the flagged words; vault_check and gate clean.",
+   "at": "2026-11-02T03:55:23Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Conductor sub-agent: every item in ca86cba; cadence matches schedule.json active; three sheets, scripts identical, mapping documented; LAB 25 key; five replies with copies; six filed; board, run record, notes accurate; no timestamp after the commit; both pre-review conditions kept.",
+   "at": "2026-11-02T03:55:23Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T03:55:23Z",
+ "outcome": "ok"
 }
