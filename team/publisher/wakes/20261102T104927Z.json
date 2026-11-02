@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake (10:47 slot)",
+ "started": "2026-11-02T10:49:27Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Final rebuild of both editions from the final-pass scripts, the four lab/ drawings (read only) placed at the Figure lines; every page looked at, one sheet per script page; 10/08 and 10/09 bands say Dramatised; sample unchanged, noted on board 008; final-build letters to conductor, researcher, security with copies; records; vault_check, gate, no em-dashes, RW1; RL1 not acted on.",
+   "at": "2026-11-02T10:50:05Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In policy; lab/ read only; ED1 decided, RL1 not acted on; no HOLD; the four SVGs hold only shapes and text (no script, foreignObject, handlers, href or external URL), agent names and stats, no private detail. Conditions: SVGs unmodified; vault_check, gate, RW1 and em-dash checks.",
+   "at": "2026-11-02T10:50:34Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "ED1 final: edition.py places each page's drawing from lab/ (2 designer figures, 2 ruv-sgit strips), %% lines out of the sources; lab-look.css figure rule; both editions rebuilt 6 and 13 pages, every page looked at, bands Dramatised; sample findings on board 008, not made; letter 029 with five copies; inbox, boards, debrief, status, REALITY; vault_check and gate clean.",
+   "at": "2026-11-02T10:52:27Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Gate clean; agents check 0 outside scope; vault_check clean; no lab/, chapter-plan/ or briefs/ edits; REALITY one append; no key, personal detail, directing text, em-dash, religious word or attack shape; 10/08 and 10/09 bands read Dramatised.",
+   "at": "2026-11-02T10:53:28Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Editions rebuilt 6 and 13 pages, four drawings placed read only, bands Dramatised, sample left and noted on board 008, letter 029 with copies, records; conditions kept; unplanned only a small figure rule in lab-look.css.",
+   "at": "2026-11-02T10:53:28Z"
+  }
+ },
+ "closed": "2026-11-02T10:53:28Z",
+ "outcome": "ok"
+}

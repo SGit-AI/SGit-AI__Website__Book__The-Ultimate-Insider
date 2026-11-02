@@ -18,3 +18,5 @@ source: comms/mail/mailroom/publisher/conductor__027-the-first-ten-pages.eml; co
 31 October about 21:25 UTC: rebuilt after the reads: security's a to d, the researcher's two points, the storyteller's seven, the series page (G1 signed) and the series as the title page's subtitle; 13 pages. Next: LK1's look.
 
 31 October about 23:20 UTC: security cleared the sample (003); the researcher's page 5 fix applied after it and sent back to security first; built in the lab's look, 13 pages.
+
+2 November about 11:10 UTC: the historian's two findings on the sample (the conductor came first; the talk at seven as an event), passed on by the storyteller's 050, are word changes here. The 3- and 10-page editions supersede the sample, so they are not made; they wait on the editor's word whether the sample lives on, and go to security first if it does.

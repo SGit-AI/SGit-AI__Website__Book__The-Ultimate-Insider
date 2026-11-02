@@ -121,3 +121,9 @@ header#title-block-header .abstract-title { display: none; }
 .words-box { padding: 5pt 8pt; margin: 6pt 0; }
 .band { margin-top: 8pt; }
 ol > li { padding-top: 4pt; padding-bottom: 4pt; }
+
+/* ED1 final: the drawings in place of the figures to come (designer__074, ruv-sgit__029), at the size their SVG states,
+   never wider than the text block */
+img.edition-figure { display: block; max-width: 100%; height: auto; margin: 0 auto; }
+figure:has(img.edition-figure) { margin: 8pt 0; break-inside: avoid; }
+figure:has(img.edition-figure) figcaption { font-size: 8.5pt; }

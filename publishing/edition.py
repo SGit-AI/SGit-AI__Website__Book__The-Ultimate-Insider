@@ -32,6 +32,8 @@ import sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CAST = os.path.join(ROOT, "chapter-plan", "cast")
 MARKERS = os.path.join(ROOT, "lab", "characters", "editions")  # the designer's on-stage markers, marker-<edition>-<page>.svg
+FIGURES = [os.path.join(ROOT, "lab", "characters", "editions", "figure-{e}-{p:02d}.svg"),  # the designer's (074)
+           os.path.join(ROOT, "lab", "experiments", "25-ruv-the-cast-strips", "edition", "strip-{e}-{p:02d}.svg")]  # ruv-sgit's (029)
 SPEAKERS = {n.rsplit("-", 1)[0] for n in os.listdir(os.path.join(ROOT, "lab", "characters", "cast")) if n.endswith(".svg")}
 SPEAKER = re.compile(r"\*\*([A-Za-z][A-Za-z-]*)\.?\*\*(?:\s*\*\(([a-z]+))?")
 
@@ -55,7 +57,16 @@ def marker(edition, number):
     return os.path.relpath(path, os.path.join(ROOT, "manuscript")), label.group(1) if label else "On stage now"
 
 
-def page(title, body, mark=None):
+def drawing(edition, number):
+    """The drawing for this page's "**Figure:**" line, as a path from manuscript/; or None (a figure to come)."""
+    for pattern in FIGURES:
+        path = pattern.format(e=edition, p=number)
+        if os.path.exists(path):
+            return os.path.relpath(path, os.path.join(ROOT, "manuscript"))
+    return None
+
+
+def page(title, body, mark=None, figure=None):
     """One page of the script as manuscript text."""
     m = re.match(r"(?:Page \d+|At the back)\.\s*(.*)", title)
     heading = re.sub(r"\s*\(the series page[^)]*\)\s*$", "", m.group(1) if m else title)
@@ -78,7 +89,11 @@ def page(title, body, mark=None):
             continue
         if s.startswith("**Figure:**"):
             what = re.sub(r"\s*\*\(Drawing:.*?\)\*\s*$", "", s[len("**Figure:**"):]).strip()
-            lines += ["", "::: {.figure-todo}", "Figure to come: " + what, ":::", ""]
+            if figure:  # the drawing, its description from the script as the caption and the alt text
+                caption = re.sub(r"[\[\]]", "", what)
+                lines += ["", f"![{caption}]({figure}){{.edition-figure}}", ""]
+            else:
+                lines += ["", "::: {.figure-todo}", "Figure to come: " + what, ":::", ""]
             continue
         m = SPEAKER.match(s)
         if m and m.group(1).lower() in SPEAKERS:
@@ -107,6 +122,7 @@ def main():
     script = sections(open(src, encoding="utf-8").read())
     pages = [(t, b) for t, b in script if t.startswith(("Page ", "At the back."))]
     source = next((b for t, b in script if t.lower().startswith("where this came from")), "")
+    source = "\n".join(x for x in source.split("\n") if not re.match(r"\s*`?%%", x))  # the record lines stay online
     source = re.sub(r"`([^`]*)`", r"\1", re.sub(r"(?s)\n\*\*Read.*", "", source)).strip()
     header = open(src, encoding="utf-8").read().split("\n## ", 1)[0]
     promise = re.search(r"(?m)^\*\*Under the subtitle:\*\*\s*(.+)$", header)
@@ -123,7 +139,7 @@ def main():
     names = []
     for i, (title, body) in enumerate(pages + ([series] if series else []), 1):
         name = f"{i:02d}.md"
-        text = page(title, body, marker(n, i))
+        text = page(title, body, marker(n, i), drawing(n, i))
         if i == len(pages) + (1 if series else 0) and source:
             text += "\n## Where this came from\n\n" + source + "\n"
         with open(os.path.join(out, name), "w", encoding="utf-8") as f:
