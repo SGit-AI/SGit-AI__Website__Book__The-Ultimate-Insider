@@ -9,3 +9,5 @@ source: comms/mail/mailroom/publisher/conductor__038-nr1-the-sample.eml
 - [ ] The opening pages in manuscript/sample/ in the new form: the editor as default narrator, the agents in turn, each a persona with a scorecard; scenes dramatised, marked as such, resting on the record; what an agent says about how it works true; the failures in; nothing attack-shaped; no real person but him
 - [ ] Facts and hashes moved out to the augmented mode, with the developer
 - [ ] Built at Crown Quarto, standard colour; to security, the researcher and synthetic before him
+
+2 November about 03:55 UTC: the storyteller's opening script and the 3- and 10-page edition scripts (ZM1) are in chapter-plan/cast/. The storyteller says nothing is written until the editor has read them; the conductor's 046 asks for the builds. Asked the editor in the session which comes first. Each edition to be built as manuscript/editions/<pages>/ with its own Book.txt; the %% marker lines dropped by the build.

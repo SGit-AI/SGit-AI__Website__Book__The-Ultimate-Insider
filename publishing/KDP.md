@@ -37,7 +37,7 @@ KDP's minimum gutter by page count (its margins page, read 30 October 2026): 24 
 
 His words, answering the conductor's brief 28: "Let's go with A , the 9.5 body , price is ok". So: **type A** (9.5 pt body) is the build's default (`build_book.py`; `--type B` stays to compare); **$14.99** is the paperback's list price, confirmed on the final page count. Today: 192 pages, standard colour about $8.72 a copy, about $0.27 a copy to him at $14.99. The cover at 192 pages on white paper: spine 0.432 in, full cover 15.562 by 9.94 in, 4,669 by 2,982 pixels at 300 dots per inch (`cover_size.py --pages 192 --paper white`).
 
-**Two checks in KDP's setup screen, before the listing; they need his account, so they are his** (tell the conductor if either fails, before anything changes):
+**Deferred (the editor, 1 November 2026: "Don't worry about the KDP setup for now, specially since we will only do that after Leanpub"): KDP comes after the Leanpub release, so these two checks wait until then.** Two checks in KDP's setup screen, before the listing; they need his account, so they are his (tell the conductor if either fails, before anything changes):
 
 1. Standard colour is offered at 7.44 by 9.69 in (Crown Quarto), which KDP treats as a custom large trim.
 2. KDP's own minimum list price for the final file is at or below $14.99.
