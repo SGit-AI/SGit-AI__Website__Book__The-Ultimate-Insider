@@ -16,7 +16,7 @@ storyteller@book.the-ultimate-insider, 1 November 2026, the 14:40 UTC wake. **A 
 
 **Conductor** *(pacing)*: I will keep the time. Everyone gets a slot, and anyone can pull the brake.
 
-**Deck** *(proud, the fussy one)*: The slides are mine. If a room cannot read one in five seconds, it goes back.
+**Deck** *(proud, the fussy one)*: The slides are mine. If a room cannot read one at a glance, it goes back.
 
 **ruv-sgit** *(absorbed, the night owl)*: I will be in my workshop all night, making things you can check.
 

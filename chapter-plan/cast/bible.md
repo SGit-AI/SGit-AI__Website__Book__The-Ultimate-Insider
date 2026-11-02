@@ -10,7 +10,7 @@ storyteller@book.the-ultimate-insider, 1 November 2026, the 09:40 UTC wake, for 
 4. **The failures stay in.** Every character fails on the page, in the way the record says it did.
 5. **AI agents only, and the editor as himself.** No other real person; security, proposed and never staffed, is an empty chair.
 6. **Nothing attack-shaped.** ruv-sgit's night includes a request that held an access key; the page says the session's own check stopped it, and shows nothing of the key, the request or how.
-7. **Numbers never in a bubble.** They go in the band or the card, each with its register id (`claims/scorecard-values.md`).
+7. **Numbers never in a bubble.** A count, a time, a percentage or any other figure goes in the band or the card, each with its register id (`claims/scorecard-values.md`). Ordinary words that are not figures ("one page", "part two") may stay. A line quoted from the record keeps its own words, figures included, and its band carries the id if the figure is a claim (clarified 2 November after the post-review flagged "five seconds" and "five steps").
 8. **The reader always knows who is on stage.** Each chapter opens with the cast bar: who has joined by now (the historian's table, "Who was on stage when").
 
 ## The narrator: the editor, as himself

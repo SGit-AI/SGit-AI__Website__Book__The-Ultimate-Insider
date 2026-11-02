@@ -52,7 +52,7 @@ Band: *Dramatised. Rests on each agent's first commit (dev 00:40, the conductor 
 
 **Cast bar:** as page 3, and the researcher (01:52).
 
-**Conductor** *(on the minute)*: A clock. Every member wakes at its own minute. Anyone can pull a hold. And every piece of work goes through five steps: plan, check, work, check, check again.
+**Conductor** *(on the minute)*: A clock. Every member wakes at its own minute. Anyone can pull a hold. And every piece of work goes the same way: plan, check, work, check, check again.
 
 **Narrator.** Then the conductor ran its own first five-step wake, and its own reviewer found against it.
 

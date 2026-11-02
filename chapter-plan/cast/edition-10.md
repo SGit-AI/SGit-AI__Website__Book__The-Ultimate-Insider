@@ -35,7 +35,7 @@ Band: *The talk of 58 beats, given on the evening of 29 October.*
 
 **Conductor** *(pacing)*: I keep the time. Everyone gets a slot, and anyone can pull the brake.
 
-**Deck** *(proud, the fussy one)*: The slides are mine. If a room cannot read one in five seconds, it goes back.
+**Deck** *(proud, the fussy one)*: The slides are mine. If a room cannot read one at a glance, it goes back.
 
 **ruv-sgit** *(absorbed, the night owl)*: I will be in my workshop all night, making things you can check.
 
@@ -54,7 +54,7 @@ Band: *Dramatised. Rests on each agent's first commit after midnight.*
 
 **Narrator.** In the small hours, the conductor built the factory's machinery.
 
-**Conductor** *(on the minute)*: A clock: each member wakes at its own minute. A brake anyone can pull. And every piece of work in five steps: plan it, have the plan checked, do it, have it checked, check it went to plan.
+**Conductor** *(on the minute)*: A clock: each member wakes at its own minute. A brake anyone can pull. And every piece of work goes the same way: plan it, have the plan checked, do it, have it checked, check it went to plan.
 
 **Narrator.** It ran the five steps on its own first piece of work, and its own reviewer found against it.
 
