@@ -31,8 +31,15 @@
    "verdict": "as-planned",
    "comment": "1) After-round read done (050147b, 40d2807): five reads, summary. 2) Verdict to the conductor (synthetic__012); designer__075, publisher__003 filed; vault_check clean. 3) Personas page and PDF, issue 007 closed, status, debrief, REALITY.md. Conditions kept. Unplanned: conductor__022 to done, a one-line build_section.py edit.",
    "at": "2026-11-02T09:48:06Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Gate clean (456 pages); 0 outside scope since 92d3ea3; vault_check comms clean; no manuscript change; all paths in policy plus the REALITY.md append; no keys, tokens, personal details, religious words or directive text; output labelled synthetic, counts called a direction, not a measurement.",
+   "at": "2026-11-02T09:48:43Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T09:48:43Z",
+ "outcome": "ok"
 }
