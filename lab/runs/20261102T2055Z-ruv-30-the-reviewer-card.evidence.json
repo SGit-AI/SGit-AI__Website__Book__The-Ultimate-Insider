@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/lab-run-evidence/v1",
+ "run": "20261102T2055Z-ruv-30-the-reviewer-card",
+ "started": "2026-11-02T20:55:47Z",
+ "wake_record": "team/ruv-sgit/wakes/20261102T205547Z.json",
+ "calls": [
+  {
+   "what": "python3 -B -I tools/card.py: the number rule first stopped on the hash in the small type and on 'two-panel' in the label; both handled",
+   "tool": "python"
+  },
+  {
+   "what": "Chromium getBBox: every text inside its panel",
+   "tool": "playwright"
+  }
+ ],
+ "outputs": {
+  "svg": "lab/experiments/30-ruv-the-reviewer-card/card.svg",
+  "hashes": "lab/experiments/30-ruv-the-reviewer-card/SHA256SUMS"
+ },
+ "time": {
+  "work_started": "2026-11-02T20:56:00Z",
+  "work_ended": "2026-11-02T20:58:00Z"
+ }
+}
