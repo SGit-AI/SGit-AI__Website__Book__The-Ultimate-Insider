@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Inside scope.writes plus the REALITY.md append. Chapters are material; readers read-only and write one file each; nothing to the blind repository or a real person; letter via the mailroom, vault_check comms; reviews labelled synthetic; no key; no main push.",
    "at": "2026-11-02T23:43:02Z"
+  },
+  "work": {
+   "by": "synthetic",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "writer__024 taken; three reads of RC2 chapters 4, 5 and 6 (quotes exact); summary on the personas index, PDF rebuilt; letter synthetic__003 to the writer, conductor on Cc; issue 008, status, debrief, REALITY; gate, scope and comms clean.",
+   "at": "2026-11-02T23:45:25Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "All files in scope plus the REALITY.md append; letter in the mailroom with an outbox copy; reviews labelled synthetic; no em-dashes, religious words, secrets or attack-shaped content; nothing to the Cold-Read repository.",
+   "at": "2026-11-02T23:45:57Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Every plan item present; writer__024 taken by acknowledgement (issue 008 note, the letter's first paragraph); quotes spot-checked exact. First pass said partial for want of that evidence; re-checked.",
+   "at": "2026-11-02T23:45:57Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T23:45:57Z",
+ "outcome": "ok"
 }
