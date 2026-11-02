@@ -1,6 +1,6 @@
 # The 30-page edition: outline for the writer
 
-storyteller@book.the-ultimate-insider, 2 November 2026, the 06:40 UTC wake, for the writer's letter 001. **An outline, not prose. RP1 signed (2 November 2026, about 15:25 UTC): the writer writes RC2's thirty from it, chapter by chapter.** Beat 1 is outlined in full, so the writer can start the wake after RP1 is signed; beat 2 in full since the 12:44 UTC wake, beats 3 and 4 since the 15:31 UTC wake; beat 5 is sketched and outlined in full next. The arc, the ladder and the rules are in `zoom-ladder.md`; the cast in `cast/cast-guide.md`; the words already traced are in `cast/edition-10.md` (after ED1 round 1).
+storyteller@book.the-ultimate-insider, 2 November 2026, the 06:40 UTC wake, for the writer's letter 001. **An outline, not prose. RP1 signed (2 November 2026, about 15:25 UTC): the writer writes RC2's thirty from it, chapter by chapter.** Beat 1 is outlined in full, so the writer can start the wake after RP1 is signed; beat 2 in full since the 12:44 UTC wake, beats 3 and 4 since the 15:31 UTC wake, beat 5 since the 16:51 UTC wake. All five are outlined in full. The arc, the ladder and the rules are in `zoom-ladder.md`; the cast in `cast/cast-guide.md`; the words already traced are in `cast/edition-10.md` (after ED1 round 1).
 
 ## The writer's three questions
 
@@ -110,9 +110,29 @@ Outlined 2 November 2026, the 15:31 UTC wake. 18:36 to 18:46: the last ten minut
 **Record lines word for word:** his hold message (18:44); "a second reading, not a second identity." called back. Every other line dramatised.
 **Rests on:** `timeline/cast-scenes.md` scene 5; `timeline/after-the-day.md` (C089); the register; the two strip scripts in `cast/scripts/`.
 
-## Chapter 5, sketched (outlined in full next)
+## Chapter 5. The factory rebuilt, and yours (beat 5), in full
 
-- **Chapter 5. The factory rebuilt, and yours (beat 5).** The factory taken apart; this book's team ported the next day; the Web Summit team planned, several people sharing one brief, one board and one hold; then the reader's own, the five steps with a how, the cost line (C101, C037). Map: one project's parts becoming the next's (Wardley's commoditisation). Infographic: the five steps as a path. Do this now: the five steps.
+Outlined 2 November 2026, the 16:51 UTC wake. From the night of 29 October to the reader's first day. The chapter turns from his factory to the reader's.
+
+**Cast bar:** the nine fade on page 1; the book team's bar begins on page 2; on page 4 the bar is the reader's own, empty.
+
+**What it argues.** A factory's parts outlive it. His second factory was built from the first one's rules, rule for rule, in a day, and its first job was to read the first one's record; a third is planned for a team of people. Each one is cheaper than the last, because yesterday's experiment is today's part (Kelly: one idea leads to the next). And the reader can start the same way, small, with the same four parts: a tool, a page of rules, a brief and a hold.
+
+**Pages and scenes, in order**
+
+1. **Taken apart** (about half a page). Narrator: that night the factory was taken apart; what was kept (the record, every rule, every review, every miss) and what was not (the sessions). Setup clause: a session is one agent's working life; when it ends, only what it wrote down survives. **Picture:** the nine cards turning to files: each agent's card becomes its folder of rules, debriefs and wakes.
+2. **The second factory** (about one page and a half). Narrator, from the ten, kept: "The next day I built a second one from its parts, rule for rule, to write the book you are reading." This book's team named with its roles, each with one line of its own, dramatised, resting on its role page (`team/<id>/ROLE.md`): the conductor, the librarian, the historian, the researcher, the storyteller, the publisher, the designer, the writer and the others staffed since. **More text per agent:** two of them get a short scene, chosen for what the reader can copy: the researcher refusing a number not in its register, and the conductor holding the team before the editor is cut off (the rule ported from 18:44). *To trace:* each scene's commit, from this book's own history (the historian), marked as this book's record, not the talk's. **Picture:** the book team's cast cards, drawn in the same style as the nine, with the rule each one inherited from the first factory.
+3. **The third, planned** (about one page). Narrator, from the ten: the team for Web Summit, the technology conference in Lisbon, several people each running their own agents and sharing one brief, one board and one hold; said as a plan, not a result ("It has not run yet."). The conductor *(pacing, to the reader)*: "Same clock. Same hold. More hands on it." (dramatised, kept). **The readers' open item (b):** how several people share the brief, the board and the hold day to day, in three short paragraphs: who writes the brief, who reads the board each morning, who may lift the hold when its owner is away. **Picture:** three people, each with their own small factory, joined by one brief, one board and one hold in the middle.
+4. **Your factory** (about two pages). The conductor *(straight to the reader)*: "Start with one of me." Then the five steps from the ten, each with its how and the shop owner's example, kept word for word; each step gets one short worked page section of its own in the thirty: what to type, what the agent gives back, what to check. The cost line, kept word for word (C101, C037). *It does not have to be a talk* (the shop, the newsroom, the product's first page). **Picture:** the five steps as a path, the infographic below; beside each step, the matching card from chapters 1 to 4's "do this now".
+5. **Zoom in** (a few lines). The line that points to the seventy and what it adds: the method in full, with the plumbing, the containment chapter and the principles.
+
+**Map:** one project's parts becoming the next's: the talk team's parts at the left (custom, built that night), the book team's in the middle (ported), the reader's on the right (the same parts as ordinary, ready to use). Wardley's commoditisation, already named in chapter 2.
+**Infographic:** the five steps as a path, from an empty project to a second agent. For the designer.
+**Cards and drawings:** the cards turning to files (page 1); the book team's cast cards (page 2); three people and one hold (page 3); the five "do this now" cards gathered (page 4).
+**Figures:** C101 and C037 (the cost line), word for word. None in an agent's line.
+**Record lines word for word:** none from the talk's record; the book team's two scenes rest on this book's own commits, marked so.
+**Do this now:** the five steps themselves, and one line: *when your first factory ends, keep its rules; they are your next one's first page.*
+**Rests on:** `chapter-plan/cast/edition-10.md` pages 8 and 9; `briefs/2026-10-30/1-book-conductor-brief.md`; `briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md`; `team/*/ROLE.md`; the register C101, C037.
 
 ## Where this came from
 
