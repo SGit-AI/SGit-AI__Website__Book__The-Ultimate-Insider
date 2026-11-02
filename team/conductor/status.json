@@ -1,10 +1,14 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "conductor",
-  "as_of": "2026-11-02T15:25:00Z",
+  "as_of": "2026-11-02T15:35:00Z",
   "round": 1,
-  "state": "ED1: two overnight rounds on the 3- and 10-page editions, every member in its lane; the final editions to the editor when he wakes",
+  "state": "RC2: the plan (RP1) and cover A (CV2) signed at the editor's word; the team writes the first version down the zoom ladder, the 30-page first",
   "done": [
+    {
+      "what": "RP1 and CV2 signed at the editor's word; ten letters start RC2",
+      "evidence": "briefs/2026-11-02__in-session/09-write-the-first-version.md"
+    },
     {
       "what": "ED1 done: the final build cleared by security, traced by the researcher, checked by the librarian; one rebuild waits on RL1; brief 41",
       "evidence": "team/conductor/editor-briefs/2026-11-02T1525Z.pdf"
@@ -374,6 +378,10 @@
     {
       "what": "Track the designer's cover proposals (CV2) and put them to the editor side by side.",
       "when": "when the designer replies"
+    },
+    {
+      "what": "track RC2 chapter by chapter; the PDF to the editor as chapters land",
+      "when": "each wake"
     }
   ],
   "asks": [
@@ -407,6 +415,6 @@
       "C10b"
     ]
   },
-  "updated": "2026-11-02T15:25:00Z",
+  "updated": "2026-11-02T15:35:00Z",
   "cadence": "active"
 }
