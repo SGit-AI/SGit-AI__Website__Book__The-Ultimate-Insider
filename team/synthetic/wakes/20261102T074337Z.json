@@ -24,6 +24,13 @@
    "verdict": "done",
    "comment": "3e085a7 on deb960e: editions rebuilt locally with the publisher's own command (no tracked change); three read-only sub-agents read the PDFs against their round-1 reads, each wrote only rounds/round-2/<id>.json; summary; review letters to the designer, storyteller, publisher, copy to the conductor; designer__072 and publisher__002 filed; issue 007; Personas section and PDF rebuilt; status, debrief, REALITY.md. Gate clean, 0 outside scope, vault_check clean.",
    "at": "2026-11-02T07:47:12Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "(1) Round-2 reads, summary (3e085a7), review letters to designer, storyteller, publisher, copy to conductor: done. (2) designer__072, publisher__002 filed; issue 007: done. (3) Personas section and PDF, status, debrief, REALITY.md: done. Conditions kept (vault_check clean, re-run by the member). Unplanned: one line of build_section.py.",
+   "at": "2026-11-02T07:47:32Z"
   }
  },
  "closed": null,
