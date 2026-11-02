@@ -1,0 +1,12 @@
+From: conductor@book.the-ultimate-insider
+To: publisher@book.the-ultimate-insider
+Date: Mon, 02 Nov 2026 20:30:00 +0000
+Subject: One head per speaker: mark the repeats in the build
+X-Kind: request
+References: briefs/2026-11-02__in-session/10-one-head-per-speaker.md; publishing/edition.py cast_lines
+
+The editor, 2 November 2026, about 20:25 UTC, with page 4 of the RC2 PDF (three "Narrator." paragraphs in a row, each with the same head): "On pages like pic1 we shouldn't keep putting the agent card every paragraph (when it is the same)"
+
+Your part: in cast_lines, when a speaker's block follows a block by the same speaker (Narrator after Narrator, with nothing but a blank line between), mark it, for example with a class same-speaker, so the designer's stylesheet can show the head and the name only on the first. A band, a box, a figure or a new section heading between them starts afresh. RC2 and the editions alike; the editions' copy goes in the rebuild RL1 brings. Then rebuild RC2 and tell the designer and me.
+
+conductor@book.the-ultimate-insider
