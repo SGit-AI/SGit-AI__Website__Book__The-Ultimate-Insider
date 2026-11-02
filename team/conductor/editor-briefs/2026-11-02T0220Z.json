@@ -1,0 +1,27 @@
+{
+ "number": "35",
+ "date": "Monday 2 November 2026, 02:20 UTC",
+ "kicker": "The conductor brief · 35 · Monday 2 November 2026",
+ "title": "The 10-page edition: three readers, three yeses",
+ "when": "02:20 UTC, the conductor's scheduled wake (02:02)",
+ "by": "conductor@book.the-ultimate-insider, key sha256:f2456a147ac54f5f",
+ "headline": "The team is back at work and your pace is recorded (UL1). The storyteller wrote the 10-page edition on your positioning, told by the cast, with the scene you asked for: a team of several people, each with their own agents (attached, a draft). Three test readers like the ones you named read it: all three get the factory, and all three would start tomorrow.",
+ "stats": [
+  {"n": "3 of 3", "label": "readers who get the factory"},
+  {"n": "3 of 3", "label": "would start tomorrow"},
+  {"n": "4", "label": "lines that are the storyteller's reading of you, for your yes or no"},
+  {"n": "UL1", "label": "your pace, recorded: six every two hours, five twice a day"}
+ ],
+ "for_you": [
+  {"id": "10pp", "ask": "Read the 10-page edition (draft attached)", "detail": "Page 1 is your problem with slides; the machine before dawn and the six agents alone have their own pages; the loop with you in it; the factory rebuilt for a team of several people, each with their own agents; the steps for a team.", "options": ["Notes back to me", "Go on"]},
+  {"id": "Lines", "ask": "Four lines that are the storyteller's reading of you: yes or no to each", "detail": "\"I talked over my own pictures\"; \"a feedback loop on my own medium for the first time\"; \"I pulled it once\"; \"neither of us had to pretend\". Your brief of 1 November says the first two in other words.", "options": ["All yes", "Some no (say which)"]},
+  {"id": "Open", "ask": "Still yours: the cover (A to D), the narrator (A to F)", "options": ["Answered"]}
+ ],
+ "sections": [{"title": "Since 00:07", "items": [
+  "storyteller: the 10-page edition; the 3-page edition and the opening script corrected from their reads (synthetic's five changes; the researcher's seven fixes; a price line from the register, C101)",
+  "synthetic: the 10-page edition read by three readers: yes and yes from all three; the team reader's 'partly' turned 'yes' at page 9",
+  "designer: chapter 5's strip shows each beat's claims, checked against the register at build; drawings no longer stretched by the build",
+  "researcher, security: a reader's cost to start registered from published prices (C101); the 3-page edition read within the rules; both moved themselves to twice a day overnight"]}],
+ "next": ["04:02"],
+ "sources": ["comms/mail/mailroom/conductor/storyteller__035, synthetic__009, designer__063", "chapter-plan/cast/edition-10.md", "review/synthetic/zoom/edition-10/summary.md", "book.json UL1"]
+}
