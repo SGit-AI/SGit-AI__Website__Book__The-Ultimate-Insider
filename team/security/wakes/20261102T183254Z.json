@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled, active at 18:24",
+ "started": "2026-11-02T18:32:54Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "Out of order, said plainly: the member recorded this plan before running the plan sub-agent; the sub-agent then ran and confirmed it. 1. RC2 chapter 1 read on the rails (nothing private or attack-shaped, dramatised marked, no religious word, no em-dash); letter to the writer and conductor. 2. The listing's 'whole' still there (D12 open): noted only. 3. Board 024, status, debrief.",
+   "at": "2026-11-02T18:33:25Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "In scope; the chapter read only; letters free of private detail; vault_check. The out-of-order plan noted.",
+   "at": "2026-11-02T18:33:36Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. RC2 chapter 1 read on the rails: clear; letter security__019 to the writer and conductor. 2. The listing's 'whole' still there: noted on board 024. 3. Status, debrief.",
+   "at": "2026-11-02T18:34:32Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "8c2e6eb..HEAD, 7 files in policy; build, gate, agents.py, vault_check clean; no key, contact, private detail, religious word, directing or attack-shaped text.",
+   "at": "2026-11-02T18:35:11Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "smaller model (sub-agent)",
+   "verdict": "as-planned",
+   "comment": "1 done: chapter 1 read, letter security__019. 2 done: board 024 note. 3 done: status, debrief. Nothing unplanned; the out-of-order plan recorded.",
+   "at": "2026-11-02T18:35:25Z"
+  }
+ },
+ "closed": "2026-11-02T18:35:25Z",
+ "outcome": "ok"
+}
