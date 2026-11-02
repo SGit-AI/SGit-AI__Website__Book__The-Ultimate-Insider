@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Chapter 3 read (letter 067); the 06:21/06:25 question to the historian (068); mail filed; status and debrief. Build and gate clean, 0 outside scope, vault_check clean.",
    "at": "2026-11-02T20:42:05Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Every path in scope; nothing in manuscript/; no em-dashes, religious words, keys, contact details or attack-shaped content.",
+   "at": "2026-11-02T20:42:31Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Letters 067 and 068, mail filed, debrief and status; nothing else.",
+   "at": "2026-11-02T20:42:31Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T20:42:31Z",
+ "outcome": "ok"
 }
