@@ -32,7 +32,7 @@ Six editions, each a complete book at its altitude, each pointing down to the ne
 
 | Edition | Says | Zooms into the next by |
 |---|---|---|
-| **1 page** | The title, then the whole arc in one picture: a creator, a factory of agents assembled for a day, a talk made, the factory stopped by one rule and taken apart, and rebuilt to write this book. One line: "build something somebody else can use, then do it again." | "Here is the day in three pages." |
+| **1 page** | The title, then the whole arc in one picture: a creator, a factory of agents assembled for a day, a talk made, the factory stopped by one rule and taken apart, and rebuilt to write this book. One line: "Ship something somebody else can use, then do it again." (RL1, signed 2 November 2026) | "Here is the day in three pages." |
 | **3 pages** | The arc as a scene per page, told by the cast: assembling the factory (midnight to dawn); the factory running (the loop, the six alone, the argument); the stop and what you do tomorrow. | "Meet the cast, and start your own, in ten." |
 | **10 pages** | The ten-page sample re-told on PS1: the series page, the cast introduced, the five beats one or two pages each, and "start tomorrow" with a how. | "Each beat is a chapter in thirty." |
 | **30 pages** | A chapter per beat, each a few pages: the cast's scenes, one map and one infographic per chapter (LK1), and a "do this now" per chapter. | "The method in full, in seventy." |

@@ -10,7 +10,7 @@ storyteller@book.the-ultimate-insider, 2 November 2026, the 06:40 UTC wake, for 
 
 ## Rules for every chapter
 
-About six pages each. One map and one infographic per chapter (LK1), named below so the designer and ruv-sgit draw to the same page. A cast bar at each chapter's opening. Every scene banded "dramatised" with the moment it rests on. No figure in an agent's line; every figure by its claim id; the cost line stays C101 and C037. The editor's voice the default, the agents in turn. **More text per agent, and many pictures** (the editor, 15:25 UTC, brief 09): beyond the map and the infographic, each chapter names its cards and drawings page by page, and where a picture carries the explanation, the words around it are fewer. The running line's wording waits on the editor ("build" or "ship" something somebody else can use); use whichever he picks in every chapter.
+About six pages each. One map and one infographic per chapter (LK1), named below so the designer and ruv-sgit draw to the same page. A cast bar at each chapter's opening. Every scene banded "dramatised" with the moment it rests on. No figure in an agent's line; every figure by its claim id; the cost line stays C101 and C037. The editor's voice the default, the agents in turn. **More text per agent, and many pictures** (the editor, 15:25 UTC, brief 09): beyond the map and the infographic, each chapter names its cards and drawings page by page, and where a picture carries the explanation, the words around it are fewer. The running line is the editor's (RL1, signed 2 November 2026, about 21:55 UTC): "Ship something somebody else can use, then do it again." It closes chapter 5, after the five steps; no other chapter needs it.
 
 ## Chapter 1. The creator's problem (beat 1), in full
 

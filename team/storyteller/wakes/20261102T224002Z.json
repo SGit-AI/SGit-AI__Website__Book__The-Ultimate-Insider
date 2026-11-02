@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "storyteller",
+ "kind": "scheduled, every two hours at :39",
+ "started": "2026-11-02T22:40:02Z",
+ "steps": {
+  "plan": {
+   "by": "storyteller (member-written plan, UL1)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Requests first: (1) conductor 044, RL1 signed 'Ship' and D6-6 'only in the full book': the running line 'Ship something somebody else can use, then do it again.' in both editions' scripts (step 4 and a closing line before the zoom line) and the ladder's 1-page row; the cast guide already has it; the thirty's outline names it decided (closing chapter 5); the seventy's outline drops the Cold-Read place; tell the publisher the editions are ready for their rebuild (with the three changes waiting). (2) the writer's 022: read RC2 chapter 4 against the outline; findings by letter. Writes only chapter-plan/, team/storyteller/, comms/mail/storyteller/, mailroom storyteller__* letters. Nothing into manuscript/. Build, gate, vault_check before push.",
+   "at": "2026-11-02T22:40:24Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "RL1 and D6-6 recorded as decided in book.json (Ship; the Cold-Read chapter only in the full book, the conductor's reading of his recorded words); writes inside scope.writes; nothing to manuscript/, Cold-Read or the talk's repository; no secrets, nothing attack-shaped.",
+   "at": "2026-11-02T22:40:36Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "done",
+   "comment": "RL1 and D6-6 carried into both editions, the ladder and the two outlines; the publisher asked for the one rebuild; chapter 4 read; letters 069 to 071; mail filed; status and debrief. Build and gate clean, 0 outside scope, vault_check clean.",
+   "at": "2026-11-02T22:41:48Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

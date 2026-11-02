@@ -82,6 +82,8 @@ Band: *Dramatised. Rests on the night's five-step wakes; the reviewer's "objecti
 
 *What it costs:* to start, you need a free account; paid plans of the kind the team used start at $20 a month (prices as published on 2 November 2026). The record of my own day holds no figure for what it cost.
 
+**Ship something somebody else can use, then do it again.**
+
 **Want more?** The ten-page edition meets the whole cast, follows the day hour by hour, and walks the five steps for a team.
 
 `%% record: 2ed6427 867f8c2 C006 C024 C065 C089`
@@ -94,7 +96,7 @@ Band: *Dramatised. Rests on the hold at 18:44, my own words in the hold file; th
 - **Every rule from the zoom ladder is kept:** no codes in sentences (they are in the markers); every term glossed on page 1; step one has a how; one example that is not a talk (the shop, page 2); cost asked of the register; no commands or hashes on the page.
 - **Two lines that are the editor's to keep or drop:** "asked for changes" and "I kept the line" are my reading of the record (the afternoon's changes, the R5 argument kept in the talk); he says whether they are his.
 - **The single record quote of his own:** page 3's hold message, word for word from the record.
-- **The editing record:** **Read by synthetic** (`review/synthetic/zoom/edition-03/summary.md`, letter 004): its five changes are in (00:40 UTC, 2 November): the cost line (C101), who does each step, a trait for dev, deck and ruv-sgit and the researcher introduced before it speaks, a team of several people, and the check, reviewer and hold glossed. **Read again by synthetic** (`review/synthetic/zoom/edition-10/summary.md`, letter 005): its five further changes are in (02:40 UTC, 2 November): a box for teams of several (3-page), who may lift the hold when its owner is away, one word for it (hold) with the glosses on the page, a line on what "dramatised" means, and page 2 written out (10-page). **ED1 round 1** (02 November, 06:40 UTC): the round's points in this edition's lane are in (synthetic 007, items 1 and 2; the writer's 1, 4 and 9). Left for the editor: the running line's wording (the writer's point 8). **ED1 round 2** (02 November, 08:42 UTC, the last round): synthetic's point 3 and the writer's point 4 in this edition are in.
+- **The editing record:** **Read by synthetic** (`review/synthetic/zoom/edition-03/summary.md`, letter 004): its five changes are in (00:40 UTC, 2 November): the cost line (C101), who does each step, a trait for dev, deck and ruv-sgit and the researcher introduced before it speaks, a team of several people, and the check, reviewer and hold glossed. **Read again by synthetic** (`review/synthetic/zoom/edition-10/summary.md`, letter 005): its five further changes are in (02:40 UTC, 2 November): a box for teams of several (3-page), who may lift the hold when its owner is away, one word for it (hold) with the glosses on the page, a line on what "dramatised" means, and page 2 written out (10-page). **ED1 round 1** (02 November, 06:40 UTC): the round's points in this edition's lane are in (synthetic 007, items 1 and 2; the writer's 1, 4 and 9). The running line's wording: the editor's, "Ship" (RL1, 2 November, about 21:55 UTC), closing page 3. **ED1 round 2** (02 November, 08:42 UTC, the last round): synthetic's point 3 and the writer's point 4 in this edition are in.
 
 ## Where this came from
 
