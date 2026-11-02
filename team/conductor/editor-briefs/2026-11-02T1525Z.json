@@ -1,0 +1,35 @@
+{
+ "number": "41",
+ "date": "Monday 2 November 2026, 15:25 UTC",
+ "kicker": "The conductor brief · 41 · Monday 2 November 2026",
+ "title": "The two editions are cleared and traced",
+ "when": "15:25 UTC, the conductor's 14:02 scheduled wake, delivered to this session at 15:15",
+ "by": "conductor@book.the-ultimate-insider",
+ "headline": "The overnight editing you asked for (ED1) is done. Security has cleared the final build of both editions, the researcher has traced every number in it and the librarian found every quote word for word with its true speaker. The editions you got with brief 40 are the final ones. One caption on the 10-page edition's page 2 promises more than its cards show, and the designer has redrawn the cards so the page fits on one sheet. Both go into one more rebuild, which the team is holding until you pick 'build' or 'ship' (RL1), so that one rebuild covers all three. One new question from the publisher: which manuscript Leanpub publishes first.",
+ "stats": [
+  {"n": "2 of 2", "label": "editions cleared by security on the final build"},
+  {"n": "every", "label": "number in the final build traced by the researcher (one caption to fix)"},
+  {"n": "7 of 7", "label": "quotes word for word, with their true speakers (librarian)"},
+  {"n": "1", "label": "rebuild waiting on your word (RL1)"}
+ ],
+ "for_you": [
+  {"group": "Your choices"},
+  {"id": "RL1", "ask": "'Build' or 'ship' something somebody else can use?", "detail": "The last rebuild waits on this, so it can carry the fixed caption and the smaller cards with it.", "options": ["Ship", "Build"], "recommend": "Ship."},
+  {"id": "CV2", "ask": "Which cover, A to F?", "detail": "The six are in brief 39; A stands until you choose.", "options": ["A", "B", "C", "D", "E", "F"], "recommend": "A, then E."},
+  {"id": "Leanpub", "ask": "Which manuscript does Leanpub publish first?", "detail": "The publisher has drafted the book page (publishing/listing.md: subtitle, teaser, description), and the researcher has traced it, with two lines to change. Before you paste it in, choose what goes up first.", "options": ["the full book (RC2, when written)", "an edition (the 10-page, now)"], "recommend": "The 10-page edition now. It is cleared, readers would share it, and it can be updated as the full book grows; my reading, not a fact."},
+  {"group": "Small, if you want it"},
+  {"id": "Index line", "ask": "A line under each 'Where this came from' pointing to the index?", "detail": "The librarian keeps an exact twin of the sources with files and commits (index/editions/). One line like 'The exact files and commits: the book's index, editions.' would point readers to it without putting paths on the page.", "options": ["add it", "leave it"], "recommend": "Add it."}
+ ],
+ "sections": [
+  {"title": "Since brief 40", "items": [
+   "security: both editions clear on the rails. If the words change again before you share them, they go back to security first; a layout change alone does not (security__017).",
+   "researcher: traced the final build. Every number holds and the four fixes are in. One caption names values the cards do not show; it should read 'on stage from and commits'. It also traced the Leanpub listing (two lines to change) and checked chapter 6's panel.",
+   "librarian: the final build holds in its lane, and it wrote the source twin. It is now idle until RC2's chapters arrive (librarian__014).",
+   "publisher: no rebuild this wake, as the storyteller asked: the next one waits for RL1. It drafted the Leanpub page (publisher__030).",
+   "designer: redrew the scorecards so the 10-page edition's page 2 fits on one sheet (letter 078). LAB 35 has chapter 6's picture. storyteller: the 30-page edition's chapter 2 outlined for the writer.",
+   "In the open: this wake was scheduled for 14:02 and reached the conductor at 15:15, so this brief is about an hour late. Nothing was lost."
+  ]}
+ ],
+ "next": ["The rebuild after RL1; Leanpub when you choose. 16:02"],
+ "sources": ["git log 7fbb3d6..deaf945", "comms/mail/mailroom/conductor/security__017, publisher__030, librarian__014", "git show 5e2d435 (researcher)", "publishing/listing.md"]
+}

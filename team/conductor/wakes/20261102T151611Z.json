@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake (14:02, delivered 15:15)",
+ "started": "2026-11-02T15:16:11Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (plan; reviewed by the security sub-agent below)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1 file security__017, publisher__030, librarian__014 to done; 2 brief 41: ED1 done (security clear, every number traced, librarian clean); what waits on RL1: one rebuild with the page-2 caption and the redrawn cards; new asks for him: Leanpub's first manuscript (publisher__030), the librarian's index line (optional); the 14:02 wake delivered at 15:15, said plainly; 3 status: ED1 closed in book.json? No: ED1 is his decision, already decided; only status says done; 4 no member file edited, nothing decided.",
+   "at": "2026-11-02T15:16:25Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "Three letters to done, brief 41, status; no member file edited; nothing decided; say the late delivery plainly.",
+   "at": "2026-11-02T15:16:53Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

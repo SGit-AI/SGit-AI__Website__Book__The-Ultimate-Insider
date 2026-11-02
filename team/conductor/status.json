@@ -1,10 +1,14 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "conductor",
-  "as_of": "2026-11-02T12:25:00Z",
+  "as_of": "2026-11-02T15:25:00Z",
   "round": 1,
   "state": "ED1: two overnight rounds on the 3- and 10-page editions, every member in its lane; the final editions to the editor when he wakes",
   "done": [
+    {
+      "what": "ED1 done: the final build cleared by security, traced by the researcher, checked by the librarian; one rebuild waits on RL1; brief 41",
+      "evidence": "team/conductor/editor-briefs/2026-11-02T1525Z.pdf"
+    },
     {
       "what": "12:10 wake: ED1's final build (05ee698) to the editor in brief 40, pending security's clearance and the researcher's full trace",
       "evidence": "team/conductor/editor-briefs/2026-11-02T1225Z.pdf"
@@ -403,6 +407,6 @@
       "C10b"
     ]
   },
-  "updated": "2026-11-02T12:25:00Z",
+  "updated": "2026-11-02T15:25:00Z",
   "cadence": "active"
 }
