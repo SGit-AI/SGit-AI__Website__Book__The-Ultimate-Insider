@@ -17,6 +17,13 @@
    "verdict": "go",
    "comment": "Security sub-agent first said change: the publisher's command starts with edition.py, which rewrites manuscript/editions/10 (outside scope); run only build_book.py with --out in the scratchpad, stage nothing outside ruv's paths. Plan amended; go on it. No key or contact, nothing to Cold-Read, own task cron only.",
    "at": "2026-11-02T10:56:12Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "Edition 10 built into the scratchpad with build_book.py only (no edition.py, nothing in the repository written); both strips at size on the measure, captioned, on their scene's page. Reply to the publisher (copy conductor); two letters filed; task to idle (own, cron only); status, debrief.",
+   "at": "2026-11-02T10:57:45Z"
   }
  },
  "closed": null,
