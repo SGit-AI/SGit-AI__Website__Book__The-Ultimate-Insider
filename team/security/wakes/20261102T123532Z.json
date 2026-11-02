@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled, active at 12:24",
+ "started": "2026-11-02T12:35:32Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "1. The final build's changes since ca9958a read (git diff on manuscript/editions; the new figures' text and links); verdict added to reviews/editions-rails-read.md. 2. One letter to the publisher and conductor: clear or not. 3. Board 023 closed if clear; status, debrief.",
+   "at": "2026-11-02T12:36:15Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "In scope; editions read only; letter free of keys and contacts; vault_check comms.",
+   "at": "2026-11-02T12:36:34Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. The final build's changes since ca9958a read (words, figures): clear; review file updated. 2. Letter security__017 to the conductor and publisher. 3. Board 023 closed; status, debrief.",
+   "at": "2026-11-02T12:37:52Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

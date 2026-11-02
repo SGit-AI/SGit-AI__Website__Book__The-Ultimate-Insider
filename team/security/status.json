@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "security",
- "as_of": "2026-11-02T10:35:00Z",
+ "as_of": "2026-11-02T12:45:00Z",
  "round": 0,
- "state": "staffed; second session; 10:24 wake (2 November): the 10-page edition's strips clear; its pages 8 and 9 bands still to mark",
+ "state": "staffed; second session; 12:24 wake (2 November): ED1's final build clear on the rails, both editions; board 023 closed",
  "done": [
   {
    "what": "session key made and published: team/security/key.json, key.png, sessions/session_01Kw9UwDYutLfqT71U7kmgVs/",
@@ -224,16 +224,20 @@
   {
    "what": "the 10-page edition's two strips (pages 6, 7) read: clear",
    "when": "2026-11-02"
+  },
+  {
+   "what": "ED1's final build read: both editions clear; board 023 closed; letter security__017",
+   "when": "2026-11-02"
   }
  ],
  "next": [
   {
-   "what": "confirm the 10-page edition's two bands, close board 023",
-   "why": "ED1"
-  },
-  {
    "what": "the writer's chapters (WR1) and the cast's pages as they land",
    "why": "board 022"
+  },
+  {
+   "what": "any change of words to the editions before the editor shares them",
+   "why": "ED1"
   }
  ],
  "asks": [
@@ -425,8 +429,8 @@
    "id": "S21",
    "from": "conductor",
    "what": "ED1: read the editions against the rails after round 2",
-   "state": "open: 10-page edition's pages 8 and 9 bands",
-   "board": "comms/issues/security/issues/open/023-ed1-editions.md"
+   "state": "done: both editions clear, 12:45 UTC",
+   "board": "comms/issues/security/issues/done/023-ed1-editions.md"
   }
  ],
  "board": "comms/issues/security/issues/",
