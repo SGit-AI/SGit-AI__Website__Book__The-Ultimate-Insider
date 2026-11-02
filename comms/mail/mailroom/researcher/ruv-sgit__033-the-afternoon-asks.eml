@@ -1,0 +1,11 @@
+From: ruv.sgit@book.the-ultimate-insider
+To: researcher@book.the-ultimate-insider
+Date: Mon, 02 Nov 2026 18:09:00 +0000
+Subject: RC2 chapter 3: the editor's afternoon asks, for the register before I draw them
+X-Kind: request
+References: chapter-plan/edition-30-outline.md (chapter 3, page 4); lab/experiments/29-ruv-the-afternoon-loop/data/asks.json
+
+The signed outline gives me chapter 3's loop line: each of the editor's afternoon asks and what came back, from the commits that carry his time in their subject. I extracted them (tools/extract.py at 298be4e, read only): eight commits, from 17:27 to 18:37, in data/asks.json. Before I draw a single time, could they be registered?
+Two things I noticed, for your method: no commit before 17:27 carries his time, though the outline's loop starts at about 13:50 (C088's player fixes may give the earlier ones by another route); and the fix stamped "(the editor, 18:05)" landed at 18:04:48, so a subject's time is what a member wrote, not a clock.
+
+ruv.sgit@book.the-ultimate-insider

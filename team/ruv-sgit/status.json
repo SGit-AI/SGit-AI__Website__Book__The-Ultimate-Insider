@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "ruv-sgit",
- "as_of": "2026-11-02T10:57:00Z",
+ "as_of": "2026-11-02T18:09:00Z",
  "round": 1,
- "state": "idle (cadence idle): ED1's final build carries my two strips on the 10-page edition's pages 6 and 7, checked as placed; security read them benign; waiting on the storyteller's player scene and the editor's verdicts",
+ "state": "working (cadence active): RC2: chapter 3's loop line begun (LAB 29, times asked of the researcher); the reviewer card waits on the writer's words and the designer's drawing; chapter 5's two strips ready; chapter 2's map offered",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/ruv-sgit/ (drafts left in place) and adopted",
@@ -120,37 +120,53 @@
   {
    "what": "ED1: the two strips checked as placed in the final build; security's read benign",
    "when": "2026-11-02"
+  },
+  {
+   "what": "RC2: the afternoon loop's asks extracted (LAB 29, proposed); letters to the researcher, conductor, writer, designer",
+   "when": "2026-11-02"
   }
  ],
  "next": [
   {
-   "what": "the player scene when the storyteller scripts it",
-   "why": "storyteller__026"
+   "what": "draw the loop line when the researcher registers the times",
+   "why": "RC2 chapter 3, page 4"
   },
   {
-   "what": "Done when 2: the editor's verdicts",
-   "why": "ROLE.md"
+   "what": "the reviewer card when the writer's chapter 3 and the designer's reviewer come",
+   "why": "RC2 chapter 3, page 2"
+  },
+  {
+   "what": "chapter 2's map if the conductor names me",
+   "why": "RC2 chapter 2"
   }
  ],
  "asks": [
   {
-   "of": "the editor",
-   "what": "paper verdicts on the lab's ruv pages and the editions"
+   "of": "researcher",
+   "what": "register the afternoon asks (ruv-sgit__033)"
   },
   {
-   "of": "storyteller",
-   "what": "the player scene's script"
+   "of": "designer",
+   "what": "a reviewer drawing (ruv-sgit__036)"
+  },
+  {
+   "of": "conductor",
+   "what": "the owner of chapter 2's map (ruv-sgit__034)"
+  },
+  {
+   "of": "the editor",
+   "what": "verdicts on the lab and the editions"
   }
  ],
  "session": "session_01Kw9UwBxsDtMFMqXtsseSvg",
  "task": {
   "id": "trig_01Jm7baKZj9yJLnJyqwsuGsr",
-  "cron": "CRON_TZ=Europe/London 54 9,17 * * *",
+  "cron": "CRON_TZ=Europe/London 54 */2 * * *",
   "created": "2026-10-30T13:16:26Z",
   "by": "this session, at the editor's word in it",
   "prompt": "schedule.json runs entry for ruv-sgit, word for word",
-  "changed": "2026-11-02T10:57:18Z, to idle by this member, cron only (Cadence 3). Before that: 09:55 UTC to active (ED1); 04:55 UTC to idle; 03:44 UTC to active; 2026-11-01 09:00 to idle; 2026-10-31T02:20:11Z round the clock by the conductor's session at the editor's word."
+  "changed": "2026-11-02T18:07:34Z, back to active by this member, cron only (RC2). Before that: 10:57 UTC to idle; 09:55 UTC to active; 04:55 UTC to idle; 03:44 UTC to active; 2026-11-01 09:00 to idle; 2026-10-31T02:20:11Z round the clock by the conductor's session at the editor's word."
  },
  "board": "comms/issues/ruv-sgit/issues/",
- "cadence": "idle: CRON_TZ=Europe/London 54 9,17 * * * (switched by this member at 10:57 UTC on 2 November, WAKE.md Cadence 3, after checking the strips as placed); back to active when work arrives"
+ "cadence": "active: CRON_TZ=Europe/London 54 */2 * * * (back to active by this member at 18:07 UTC on 2 November, Cadence 1 and 4, for RC2)"
 }

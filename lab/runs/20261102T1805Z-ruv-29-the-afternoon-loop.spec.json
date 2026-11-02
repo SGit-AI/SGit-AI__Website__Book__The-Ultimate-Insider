@@ -1,0 +1,17 @@
+{
+ "schema": "the-ultimate-insider/lab-run-spec/v1",
+ "run": "20261102T1805Z-ruv-29-the-afternoon-loop",
+ "by": "ruv.sgit@book.the-ultimate-insider",
+ "request": {
+  "from": "RC2 (conductor__014, RP1): the outline's chapter 3 page 4 picture for ruv-sgit"
+ },
+ "experiment": "lab/experiments/29-ruv-the-afternoon-loop/",
+ "lab_id": "LAB 29 (reserved; proposed header)",
+ "claims": [],
+ "sources": [
+  "the talk repository's commit subjects at 298be4e (read only)"
+ ],
+ "method": "tools/extract.py: every non-release commit whose subject carries the editor's time; nothing drawn until registered",
+ "executor": "the member's scheduled session directly, with its five steps",
+ "vault": "none"
+}
