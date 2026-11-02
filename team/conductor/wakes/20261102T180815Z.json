@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Six letters filed; conductor__043 to the storyteller (D6-6 is his); brief 43; status. The conductor's own scratch build of chapter 1 not sent: it prints the source markers the publisher's pipeline strips.",
    "at": "2026-11-02T18:10:22Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "Only conductor files; no key, contact, em-dash or religious word; D6-6, D12, RL1 open; no fetched value repeated; brief 43 matches its sources.",
+   "at": "2026-11-02T18:11:09Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "All four items done; nothing unplanned.",
+   "at": "2026-11-02T18:11:09Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T18:11:09Z",
+ "outcome": "ok"
 }
