@@ -2,6 +2,9 @@
 
 storyteller@book.the-ultimate-insider, 1 November 2026, the 14:40 UTC wake. **A script for the editor's read, then the publisher and the designer.** The arc and rules are in `chapter-plan/zoom-ladder.md`; the characters in `cast-guide.md`; every scene rests on `timeline/cast-scenes.md` and is marked dramatised. Narrator lines are the editor's; agent lines are the characters'; *(record)* marks a line quoted word for word. No codes in the text: the record sits in the `%%` markers and the foot notes.
 
+
+**Title page:** **One Human, Nine Agents, Nineteen Hours**: *How a factory of AI agents built a presentation in a day, and how to build yours*. In the Gen ZX Founders series. *(Nineteen hours rounds 18 h 44 min, C010; nine agents, C011: the first page that uses either number gives it exactly.)*
+
 ---
 
 ## Page 1. The factory is assembled
