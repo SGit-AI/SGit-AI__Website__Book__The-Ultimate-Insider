@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake (06:47 slot)",
+ "started": "2026-11-02T06:50:23Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Approved: (1) rebuild both editions from the edited scripts: no contents, the Under-the-subtitle promise, Figure lines as a figure-to-come block, a speaker class, sources in one typeface (code marks dropped), cast bar and boxes 1pt larger; (2) policy.json: rc2/** carved out for the writer, rc2/Book.txt kept; (3) one rebuilt letter to all six, cover A and on-stage markers wait on the designer's SVGs; (4) inbox, board 010, debrief, status, REALITY, vault_check, gate. No em-dashes, no RW1 words, no edits to the scripts.",
+   "at": "2026-11-02T06:51:42Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside scope.writes; the carve-out only narrows the publisher's writes, the writer's policy already holds rc2; ED1 and WR1 decided by the editor; no HOLD. Conditions: no edits to the scripts, no widening of scope, vault_check comms, no RW1 words.",
+   "at": "2026-11-02T06:51:57Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "ED1 round 1: edition.py (speaker class, figures to come, promise metadata, sources one typeface, new headings), build_book.py --no-toc and edition metadata, lab-look.css; editions rebuilt 5 and 11 pages, looked at; policy.json rc2 carved out; letters 026 (six copies) and 027; inbox 051-052 and reviews filed; board, debrief, status, REALITY; vault_check and gate clean.",
+   "at": "2026-11-02T06:55:26Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Gate clean; agents check 0 outside scope; vault_check clean; policy.json only narrows; no edits to chapter-plan, lab or briefs; no em-dashes, RW1 words, keys or attack content; REALITY append under the publisher's heading.",
+   "at": "2026-11-02T06:56:18Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "All four items done: editions rebuilt with the round-1 changes; rc2 carved out, Book.txt kept; letter 026 to six plus 027; cover A and markers deferred; records and gates. Conditions kept.",
+   "at": "2026-11-02T06:56:18Z"
+  }
+ },
+ "closed": "2026-11-02T06:56:18Z",
+ "outcome": "ok"
+}

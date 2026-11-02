@@ -11,12 +11,19 @@ turns one into chapters the build lays out, the words unchanged:
   online augmented mode, not the page;
 - the series page moved to the back (SP1, the editor, 2 November 2026); an edition without one gets the series page
   of the 10-page script, the storyteller's words;
-- the header and the notes for the writers left out; the script's own "Where this came from" kept, at the end.
+- the header and the notes for the writers left out; the script's own "Where this came from" kept, at the end, in one
+  typeface (its code marks dropped, the words unchanged: synthetic__002);
+- each speaker's line (a bold cast name, such as **Dev** or **Narrator.**) in a block of class speaker, with the
+  speaker and the stage direction's first word as data-speaker and data-mood, for the designer's heads (designer__067);
+- a "**Figure:**" line set as a figure to come (class figure-todo), the drawing's path note left out, until the
+  drawing is placed;
+- the script's "**Under the subtitle:**" promise written to the edition's own metadata.yaml, which build_book.py
+  reads beside the Book.txt and prints on the title page.
 
     python3 publishing/edition.py 03       # chapter-plan/cast/edition-03.md -> manuscript/editions/03/
     python3 publishing/edition.py 10
 
-Then: python3 publishing/build_book.py --book manuscript/editions/03/Book.txt --name edition-03 --stamp "..."
+Then: python3 publishing/build_book.py --book manuscript/editions/03/Book.txt --no-toc --name edition-03 --stamp "..."
 """
 import os
 import re
@@ -24,6 +31,8 @@ import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CAST = os.path.join(ROOT, "chapter-plan", "cast")
+SPEAKERS = {n.rsplit("-", 1)[0] for n in os.listdir(os.path.join(ROOT, "lab", "characters", "cast")) if n.endswith(".svg")}
+SPEAKER = re.compile(r"\*\*([A-Za-z][A-Za-z-]*)\.?\*\*(?:\s*\*\(([a-z]+))?")
 
 
 def sections(text):
@@ -38,8 +47,8 @@ def sections(text):
 
 def page(title, body):
     """One page of the script as manuscript text."""
-    m = re.match(r"Page \d+\.\s*(.*)", title)
-    heading = m.group(1) if m else title
+    m = re.match(r"(?:Page \d+|At the back)\.\s*(.*)", title)
+    heading = re.sub(r"\s*\(the series page[^)]*\)\s*$", "", m.group(1) if m else title)
     lines = []
     for line in body.split("\n"):
         s = line.strip()
@@ -53,7 +62,16 @@ def page(title, body):
         if s.startswith("Band:"):
             lines += ["", "::: {.band}", s[len("Band:"):].strip(), ":::", ""]
             continue
-        if s.startswith("*Words on this page:*") or s.startswith("*How to read the scenes:*"):
+        if s.startswith("**Figure:**"):
+            what = re.sub(r"\s*\*\(Drawing:.*?\)\*\s*$", "", s[len("**Figure:**"):]).strip()
+            lines += ["", "::: {.figure-todo}", "Figure to come: " + what, ":::", ""]
+            continue
+        m = SPEAKER.match(s)
+        if m and m.group(1).lower() in SPEAKERS:
+            mood = f' data-mood="{m.group(2)}"' if m.group(2) else ""
+            lines += ["", f'::: {{.speaker data-speaker="{m.group(1).lower()}"{mood}}}', s, ":::", ""]
+            continue
+        if re.match(r"\*(Words (on|for) this page:\*|How to read the scenes:\*|An \*\*agent\*\*, here, is )", s):
             lines += ["", "::: {.words-box}", s, ":::", ""]
             continue
         lines.append(line)
@@ -62,7 +80,7 @@ def page(title, body):
 
 def series_page(script_sections):
     for title, body in script_sections:
-        if re.match(r"Page \d+\..*(series|you doing it)", title, re.I):
+        if re.match(r"(Page \d+|At the back)\..*(series|you doing it)", title, re.I):
             return title, body
     return None
 
@@ -73,8 +91,11 @@ def main():
     n = sys.argv[1].zfill(2)
     src = os.path.join(CAST, f"edition-{n}.md")
     script = sections(open(src, encoding="utf-8").read())
-    pages = [(t, b) for t, b in script if t.startswith("Page ")]
+    pages = [(t, b) for t, b in script if t.startswith(("Page ", "At the back."))]
     source = next((b for t, b in script if t.lower().startswith("where this came from")), "")
+    source = re.sub(r"`([^`]*)`", r"\1", re.sub(r"(?s)\n\*\*Read.*", "", source)).strip()
+    header = open(src, encoding="utf-8").read().split("\n## ", 1)[0]
+    promise = re.search(r"(?m)^\*\*Under the subtitle:\*\*\s*(.+)$", header)
     series = series_page(pages)
     if series:
         pages.remove(series)
@@ -90,10 +111,17 @@ def main():
         name = f"{i:02d}.md"
         text = page(title, body)
         if i == len(pages) + (1 if series else 0) and source:
-            text += "\n## Where this came from\n\n" + re.sub(r"(?s)\n\*\*Read.*", "", source).strip() + "\n"
+            text += "\n## Where this came from\n\n" + source + "\n"
         with open(os.path.join(out, name), "w", encoding="utf-8") as f:
             f.write(text)
         names.append(name)
+    meta = os.path.join(out, "metadata.yaml")
+    if promise:
+        with open(meta, "w", encoding="utf-8") as f:
+            f.write("# The edition's own title-page lines, from the script's header (publishing/edition.py)\n"
+                    "abstract: |\n  " + promise.group(1).strip() + "\n")
+    elif os.path.exists(meta):
+        os.unlink(meta)
     with open(os.path.join(out, "Book.txt"), "w", encoding="utf-8") as f:
         f.write("\n".join(names) + "\n")
     print(f"edition: {len(names)} pages from {os.path.relpath(src, ROOT)} into {os.path.relpath(out, ROOT)}"

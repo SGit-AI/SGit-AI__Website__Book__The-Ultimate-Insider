@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "publisher",
- "as_of": "2026-11-02T05:25:00Z",
- "round": 33,
- "state": "the 3- and 10-page editions built (manuscript/editions/), the signed title in the build; with security and the researcher; next the Leanpub listing draft",
+ "as_of": "2026-11-02T07:20:00Z",
+ "round": 34,
+ "state": "ED1 round 1 rebuilt (5 and 11 PDF pages); waiting on the designer's and ruv-sgit's drawings for round 2; rc2 carved out for the writer",
  "done": [
   {
    "what": "session key published: team/publisher/key.json, key.png, sessions/session_01Kw9UwDVeRbKJZUWiRoRrHK/",
@@ -172,6 +172,10 @@
   {
    "what": "publishing/edition.py; manuscript/editions/03 and /10 built (6 and 12 PDF pages), series page at the back (SP1), the signed title (NS1) in metadata.yaml; markua.close_divs fix",
    "when": "2026-11-02T05:25Z"
+  },
+  {
+   "what": "ED1 round 1: both editions rebuilt (no contents, promise, figures to come, speaker class, sources one typeface, boxes 10 pt); policy.json narrowed for the writer's rc2",
+   "when": "2026-11-02T07:20Z"
   }
  ],
  "next": [

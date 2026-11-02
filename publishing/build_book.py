@@ -179,6 +179,7 @@ def main():
                    help="the type size: A, 9.5 pt body, the editor's choice (TS1, 1 November 2026), by default; B, 9 pt, kept to compare")
     p.add_argument("--stamp", help="a line printed at the top of every page, such as a sample's name and date")
     p.add_argument("--chrome", help="path to a Chromium or Chrome binary")
+    p.add_argument("--no-toc", action="store_true", help="no contents page (the short editions: designer__067, synthetic__002)")
     p.add_argument("--no-pdf", action="store_true")
     p.add_argument("--no-epub", action="store_true")
     p.add_argument("--epub-image-width", type=int, default=1000,
@@ -190,6 +191,8 @@ def main():
         sys.exit("build_book: pandoc is not installed")
     if a.subtitle:
         EXTRA_METADATA.extend(["--metadata", f"subtitle={a.subtitle}"])
+    if a.book and os.path.exists(os.path.join(os.path.dirname(os.path.abspath(a.book)), "metadata.yaml")):
+        EXTRA_METADATA.extend(["--metadata-file", os.path.join(os.path.dirname(os.path.abspath(a.book)), "metadata.yaml")])
     sources = chapters(a.book)
     os.makedirs(a.out, exist_ok=True)
     made = []
@@ -231,7 +234,7 @@ def main():
                 css += ('@page { @top-center { content: "%s"; font-family: Georgia, serif; font-size: 9pt; color: #555; } }\n'
                         % quoted)
             head.write(f"<style>\n{css}</style>\n")
-        args = ["--to", "html5", "--standalone", "--toc", "--toc-depth=1", "--section-divs", "--reference-location=section",
+        args = ["--to", "html5", "--standalone"] + ([] if a.no_toc else ["--toc", "--toc-depth=1"]) + ["--section-divs", "--reference-location=section",
                 "--include-in-header", head.name, "--variable", "document-css=false", "--output", html]
         try:  # images inside the HTML: it is written to a temporary folder, where manuscript/'s relative paths break
             try:

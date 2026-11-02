@@ -90,9 +90,22 @@ header#title-block-header .subtitle { order: 1; text-transform: none; letter-spa
 
 /* the short editions told by the cast (ZM1, NR1; publishing/edition.py): the cast bar at the top of a page, the
    words box, and the band at its foot saying what the scene rests on */
-.cast-bar p { font-family: var(--sans); font-size: 9pt; color: var(--muted); border-bottom: .5pt solid var(--fill-2);
+.cast-bar p { font-family: var(--sans); font-size: 10pt; color: var(--muted); border-bottom: .5pt solid var(--fill-2);
   padding-bottom: 4pt; margin-bottom: 10pt; }
 .words-box { background: var(--fill); padding: 6pt 9pt; margin: 10pt 0; }
-.words-box p { font-family: var(--sans); font-size: 9pt; line-height: 1.35; margin: 0 0 4pt; }
+.words-box p { font-family: var(--sans); font-size: 10pt; line-height: 1.35; margin: 0 0 4pt; }
 .band { border-top: 2pt solid var(--accent); margin-top: 12pt; padding-top: 4pt; }
-.band p { font-family: var(--sans); font-size: 9pt; color: var(--muted); margin: 0; }
+.band p { font-family: var(--sans); font-size: 10pt; color: var(--muted); margin: 0; }
+/* ED1 round 1 (2 November 2026): the cast bar and the boxes a point larger, for a phone (synthetic__002, 3) */
+
+/* ED1 round 1: the script's promise under the subtitle (the edition's own metadata.yaml, as pandoc's abstract) */
+header#title-block-header .abstract { order: 2; font-family: var(--sans); font-size: 10.5pt; line-height: 1.4;
+  color: var(--ink); max-width: 30em; margin: 0 0 12pt; }
+header#title-block-header .abstract-title { display: none; }
+
+/* ED1 round 1: a figure the script names, set as a figure to come until its drawing is placed (designer__067, 5, 6) */
+.figure-todo { border: 1pt dashed var(--muted); padding: 10pt 12pt; margin: 12pt 0; min-height: 30mm; }
+.figure-todo p { font-family: var(--sans); font-size: 9pt; color: var(--muted); margin: 0; }
+
+/* ED1 round 1: a speaker's line, by class, with data-speaker and data-mood for the designer's 6 mm heads (designer__067, 4) */
+.speaker p { margin: 0 0 6pt; }
