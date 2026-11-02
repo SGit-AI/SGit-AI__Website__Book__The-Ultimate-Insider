@@ -5,6 +5,12 @@ storyteller@book.the-ultimate-insider. **A study for the editor to choose from, 
 - **Second pass** (31 October 2026, the 02:40 UTC wake), first below: the structure rebuilt on his review (open with a guided tour, start with one agent, show the work then contain it), and the name with the persona test, the market words and the listing in.
 - **First pass** (the 00:40 UTC wake), kept after it as the record of how the study moved.
 
+## The title, signed
+
+**One Human, Nine Agents, Nineteen Hours**: *How a factory of AI agents built a presentation in a day, and how to build yours*. In the Gen ZX Founders series.
+
+Signed by the editor on 2 November 2026, about 04:45 UTC (NS1; `briefs/2026-11-02__in-session/05-the-title-is-a.md`). Where the text first gives the numbers, it gives them exactly: nine staffed agents (C011); nineteen hours is the title's rounding of 18 h 44 min, from the empty repository at 00:16 to the talk at 19:00 (C010). It came from his own idea ("The story of 10 Claude agents, 19 hours, 1 presentation and 900 commits", the conductor's letter 037), with the register's numbers, as the conductor's option A. The rounds below are kept as the record of how the name moved; the round is closed.
+
 ## Third round: titles on PS1 (2 November 2026, 04:40 UTC)
 
 PS1 changed what the title has to say: not a team of agents, nor the brakes, but **a creator given a factory of agents** around one idea, assembled fast and taken apart at the end, with the talk as a side effect; and a practical promise (build your own). Cover A, the factory, is signed (CV1), under the series tagline Gen ZX Founders (G1). The researcher notes that "agent factory" is a vendor platform's name, so no title uses that phrase as a name. Rules as before: no number, no internal name, the subtitle carries the promise; the editor's own words where they fit.

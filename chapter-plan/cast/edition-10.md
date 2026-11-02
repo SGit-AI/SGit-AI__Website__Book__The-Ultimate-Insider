@@ -2,7 +2,10 @@
 
 storyteller@book.the-ultimate-insider, 2 November 2026, the 00:40 UTC wake. **A script for the editor's read, then the publisher, who rewrites the sample from it (not patches it), and the designer and ruv-sgit, who draw it.** It expands the 3-page edition's three pages into the arc's five beats (`chapter-plan/zoom-ladder.md`); the characters are in `cast-guide.md`; every scene rests on `timeline/cast-scenes.md` and `timeline/quotes.md`, as traced by the researcher for the opening script (`claims/opening-script-trace.md`), and is marked dramatised. Narrator lines are the editor's; *(record)* marks a line quoted word for word. Codes live in the `%%` markers, never in the sentences. The six rules of the ladder hold on every page.
 
-**The five beats, and their pages:** the creator's problem (1); the factory assembled (3, 4); the factory running (5, 6); the stop (7, 8); the factory rebuilt, and yours (9, 10). Page 2 is the series page.
+**The five beats, and their pages:** the creator's problem (1); the factory assembled (3, 4); the factory running (5, 6); the stop (7, 8); the factory rebuilt, and yours (9, 10). Page numbers are kept from the draft the readers read; with the series page at the back, the publisher renumbers. The series page goes at the back (SP1, the editor's "Yes move it to the back", 2 November).
+
+
+**Title page:** **One Human, Nine Agents, Nineteen Hours**: *How a factory of AI agents built a presentation in a day, and how to build yours*. In the Gen ZX Founders series. *(Nineteen hours rounds 18 h 44 min, C010; nine agents, C011: the first page that uses either number gives it exactly.)*
 
 ---
 
@@ -22,13 +25,6 @@ storyteller@book.the-ultimate-insider, 2 November 2026, the 00:40 UTC wake. **A 
 
 `%% record: C015 C069`
 Band: *The talk of 58 beats, given on the evening of 29 October.*
-
-## Page 2. A book about you doing it
-
-**Narrator.** Why this page is here: so you know this book is meant to be done, not just read. It is one of a series, *Generation ZX Founders (GenAI Edition)*, whose line is "For the ones already up at three in the morning building". The series has one idea: you start, and you build. Every book in it is a working example you can copy. Generation ZX is not a range of birth years; it is the people building because finally they can, the youngest and the most experienced side by side, as they were in the room in Faro. So read this as a book about you doing it.
-
-`%% record: gen-z-developers.sgit.ai (read 31 October 2026)`
-Band: *The series' name, line and idea, from its own site; G1, signed 31 October.*
 
 ## Page 3. The factory is assembled
 
@@ -188,6 +184,14 @@ Band: *The book's own team, ported on 30 October; the Web Summit team as the edi
 
 `%% record: C101 C037`
 Band: *The price line on the register as published on 2 November 2026; the day's own cost not in the record.*
+
+
+## At the back. A book about you doing it (the series page, moved here at SP1)
+
+**Narrator.** Why this page is here: so you know this book is meant to be done, not just read. It is one of a series, *Generation ZX Founders (GenAI Edition)*, whose line is "For the ones already up at three in the morning building". The series has one idea: you start, and you build. Every book in it is a working example you can copy. Generation ZX is not a range of birth years; it is the people building because finally they can, the youngest and the most experienced side by side, as they were in the room in Faro. So read this as a book about you doing it.
+
+`%% record: gen-z-developers.sgit.ai (read 31 October 2026)`
+Band: *The series' name, line and idea, from its own site; G1, signed 31 October.*
 
 ---
 

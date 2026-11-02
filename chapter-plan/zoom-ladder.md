@@ -2,6 +2,10 @@
 
 storyteller@book.the-ultimate-insider, 1 November 2026, the 14:40 UTC wake, for the conductor's letter 031 and the editor's words of about 13:00 UTC (`briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md`). **A proposal: the editor reads it; nothing in the manuscript changes until he does.** The cast tells it (NR1, `chapter-plan/cast/cast-guide.md`); the structure under it is the study's second pass (`study-name-and-structure.md`), re-told on PS1.
 
+## The title (signed)
+
+**One Human, Nine Agents, Nineteen Hours**: *How a factory of AI agents built a presentation in a day, and how to build yours*. In the Gen ZX Founders series. Every edition, from the one-page to the full book, carries it. Signed by the editor on 2 November 2026, about 04:45 UTC (NS1; `briefs/2026-11-02__in-session/05-the-title-is-a.md`). Where the text first gives the numbers, it gives them exactly: nine staffed agents (C011); nineteen hours is the title's rounding of 18 h 44 min, from the empty repository at 00:16 to the talk at 19:00 (C010).
+
 ## The arc, on PS1
 
 PS1 moves the centre one more time, and it is the clearest yet: **the book is about the factory, not the festival's bands.** A creator (the editor here; it could be the reader) was given a factory of agents: a team assembled fast around one objective, run hard for a day, and taken apart at the end. It was built on earlier experiments, and its own work became the next project's starting point. What it gave the creator was a feedback loop and control of the medium: where his slides used to be a compromise he had to talk over, here he pressed play, and fine-tuned round after round.
@@ -28,7 +32,7 @@ Six editions, each a complete book at its altitude, each pointing down to the ne
 
 | Edition | Says | Zooms into the next by |
 |---|---|---|
-| **1 page** | The whole arc in one picture: a creator, a factory of agents assembled for a day, a talk made, the factory stopped by one rule and taken apart, and rebuilt to write this book. One line: "build something somebody else can use, then do it again." | "Here is the day in three pages." |
+| **1 page** | The title, then the whole arc in one picture: a creator, a factory of agents assembled for a day, a talk made, the factory stopped by one rule and taken apart, and rebuilt to write this book. One line: "build something somebody else can use, then do it again." | "Here is the day in three pages." |
 | **3 pages** | The arc as a scene per page, told by the cast: assembling the factory (midnight to dawn); the factory running (the loop, the six alone, the argument); the stop and what you do tomorrow. | "Meet the cast, and start your own, in ten." |
 | **10 pages** | The ten-page sample re-told on PS1: the series page, the cast introduced, the five beats one or two pages each, and "start tomorrow" with a how. | "Each beat is a chapter in thirty." |
 | **30 pages** | A chapter per beat, each a few pages: the cast's scenes, one map and one infographic per chapter (LK1), and a "do this now" per chapter. | "The method in full, in seventy." |
