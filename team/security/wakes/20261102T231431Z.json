@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "the editor's request, in this session",
+ "started": "2026-11-02T23:14:31Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "The editor's word in this session (about 23:10 UTC): 'Yes, they can go on the site'. 1. The editions' rebuild (8a1cfa36) changed words read on the rails. 2. The editor's word and the read sent to the conductor and publisher (the page is theirs; security edits nothing there); board 024. 3. Status, debrief; vault_check.",
+   "at": "2026-11-02T23:14:59Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "Inside security's writes; nothing edited on the page or PDFs. Quote the editor's words as said in this session, not as a signed decision; vault_check comms.",
+   "at": "2026-11-02T23:15:13Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. The rebuild's changed words (8a1cfa36) read: clear. 2. The editor's words in this session and the read sent to the conductor and publisher (security__022); board 024. 3. Status, debrief.",
+   "at": "2026-11-02T23:16:04Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
