@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Chapter 2 of the thirty outlined in full; the librarian's pointer line in both scripts (prints at the next rebuild); letters 053 to 056; mail filed; status and debrief. Build and gate clean, agents.py 0 outside scope, vault_check clean.",
    "at": "2026-11-02T12:47:56Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Every path in scope; nothing in manuscript/; no keys, contact details, em-dashes or religious words; nothing attack-shaped; claims about the editor hedged and one time asked of the historian.",
+   "at": "2026-11-02T12:48:29Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Librarian line, publisher reply (no rebuild asked), chapter 2 outline, letters, status and debrief as planned; the historian letter is the plan's own ask of one time.",
+   "at": "2026-11-02T12:48:29Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T12:48:30Z",
+ "outcome": "ok"
 }
