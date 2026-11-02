@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, 03:42 London",
+ "started": "2026-11-02T03:43:36Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1) A11 on the revised 10-page edition (chapter-plan/cast/edition-10.md at ea67f6f): three read-only sub-agents (student, Gen X founder, journalist), each writing only review/synthetic/brutal/edition-10/<id>.json, T11's questions per passage; quotes checked; a summary of failing passages to the storyteller and conductor by mail. 2) RW1: scan synthetic's own files (team/synthetic, review/synthetic, src/pages/personas, the builder) for religious words, moving forward only; answer conductor__016, 017, 018 and storyteller__038; the title round on the board until candidates exist. 3) Personas section rebuilt; status, debrief, REALITY.md; vault_check and the gate.",
+   "at": "2026-11-02T03:44:09Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Inside scope.writes. Conditions: sub-agents get only edition-10, nothing from the Cold-Read repo; no real contact, no review as readership; the RW1 scan on the named files only, rewriting no past commits or records; vault_check comms; mail and board in synthetic's own paths.",
+   "at": "2026-11-02T03:44:33Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
