@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>How to brief the editor</title>
+  <style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+ul.task-list[class]{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+font-size: inherit;
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
+
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+{ counter-reset: source-line 0; }
+pre.numberSource code > span
+{ position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+{ content: counter(source-line);
+position: relative; left: -1em; text-align: right; vertical-align: baseline;
+border: none; display: inline-block;
+-webkit-touch-callout: none; -webkit-user-select: none;
+-khtml-user-select: none; -moz-user-select: none;
+-ms-user-select: none; user-select: none;
+padding: 0 4px; width: 4em;
+color: #aaaaaa;
+}
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa; padding-left: 4px; }
+div.sourceCode
+{ }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } 
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } 
+code span.at { color: #7d9029; } 
+code span.bn { color: #40a070; } 
+code span.bu { color: #008000; } 
+code span.cf { color: #007020; font-weight: bold; } 
+code span.ch { color: #4070a0; } 
+code span.cn { color: #880000; } 
+code span.co { color: #60a0b0; font-style: italic; } 
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } 
+code span.do { color: #ba2121; font-style: italic; } 
+code span.dt { color: #902000; } 
+code span.dv { color: #40a070; } 
+code span.er { color: #ff0000; font-weight: bold; } 
+code span.ex { } 
+code span.fl { color: #40a070; } 
+code span.fu { color: #06287e; } 
+code span.im { color: #008000; font-weight: bold; } 
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } 
+code span.kw { color: #007020; font-weight: bold; } 
+code span.op { color: #666666; } 
+code span.ot { color: #007020; } 
+code span.pp { color: #bc7a00; } 
+code span.sc { color: #4070a0; } 
+code span.ss { color: #bb6688; } 
+code span.st { color: #4070a0; } 
+code span.va { color: #19177c; } 
+code span.vs { color: #4070a0; } 
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } 
+</style>
+  <style type="text/css">
+@page { size: A4; margin: 14mm 15mm 12mm 15mm; }
+body { padding-bottom: 8mm; }
+.foot { position: fixed; bottom: 0; left: 0; right: 0; font-family: Inter, 'DejaVu Sans', sans-serif; font-size: 7.5pt; color: #666; border-top: .5pt solid #ccc; padding-top: 2pt; }
+@media screen { .foot { position: static; margin-top: 16pt; } }
+.tbl td, .tbl th { font-size: 8.5pt; }
+* { box-sizing: border-box; }
+body { font-family: Charter, 'Bitstream Charter', 'DejaVu Serif', serif; font-size: 10.5pt; line-height: 1.42; color: #1a1a1a; margin: 0; }
+.sans, .kicker, .stat, table, .chip, .tick, .meta, .src { font-family: Inter, 'DejaVu Sans', sans-serif; }
+.kicker { font-size: 8pt; letter-spacing: .1em; text-transform: uppercase; color: #0f766e; font-weight: 700; margin: 0 0 4pt; }
+h1 { font-size: 24pt; line-height: 1.1; margin: 0 0 6pt; }
+h2 { font-size: 15pt; margin: 16pt 0 6pt; break-after: avoid; border-bottom: 1.5pt solid #1a1a1a; padding-bottom: 2pt; }
+.meta { font-size: 8.5pt; color: #555; margin-bottom: 10pt; }
+.headline { font-size: 12.5pt; border-left: 3pt solid #0f766e; background: #eef7f6; padding: 7pt 10pt; margin: 8pt 0 12pt; }
+.stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6pt; margin: 6pt 0 4pt; }
+.stat { border: 1pt solid #d6d6d6; border-radius: 4pt; padding: 6pt 8pt; break-inside: avoid; }
+.stat b { display: block; font-size: 20pt; line-height: 1.05; color: #b4123c; font-family: Charter, 'DejaVu Serif', serif; }
+.stat span { font-size: 8pt; color: #444; }
+.card { border: 1pt solid #d6d6d6; border-radius: 4pt; padding: 7pt 9pt; margin: 0 0 6pt; break-inside: avoid; }
+.card .id { font-family: Inter, sans-serif; font-size: 8pt; color: #666; }
+.card .ask { font-weight: bold; }
+.rec { font-family: Inter, 'DejaVu Sans', sans-serif; font-size: 8.5pt; color: #0f766e; margin-top: 4pt; }
+.tick { font-size: 9pt; margin: 3pt 0 0 0; }
+.tick div { margin: 2pt 0; }
+.tick div::before { content: ''; display: inline-block; width: 9pt; height: 9pt; border: 1pt solid #333; margin-right: 6pt; vertical-align: -1pt; }
+table { width: 100%; border-collapse: collapse; font-size: 8.5pt; margin: 2pt 0 4pt; }
+th { text-align: left; font-size: 7.5pt; text-transform: uppercase; letter-spacing: .05em; color: #555; border-bottom: 1pt solid #999; padding: 3pt 4pt; }
+td { vertical-align: top; border-bottom: .5pt solid #ddd; padding: 4pt; }
+tr { break-inside: avoid; }
+td q { font-family: Charter, 'DejaVu Serif', serif; font-style: italic; font-size: 9.5pt; }
+.chip { display: inline-block; font-size: 7pt; text-transform: uppercase; letter-spacing: .05em; padding: 1pt 5pt; border-radius: 2pt; color: #fff; white-space: nowrap; }
+.c-done, .c-new { background: #2f6b3a; } .c-in-progress, .c-running { background: #9a6a00; } .c-waiting, .c-old { background: #8c2a00; } .c-open { background: #1f3a5f; } .c-proposed { background: #666; }
+.team { display: grid; grid-template-columns: repeat(2, 1fr); gap: 6pt; }
+.team .card { margin: 0; }
+.team .who { font-weight: bold; }
+.team .doing { font-size: 9pt; color: #333; }
+.figs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8pt; }
+figure { margin: 0; break-inside: avoid; } figure.wide img { max-height: 105mm; border: none; } figure img { width: 100%; max-height: 62mm; object-fit: contain; border: .5pt solid #ccc; }
+figcaption { font-family: Inter, sans-serif; font-size: 7.5pt; color: #555; margin-top: 2pt; }
+ul { margin: 2pt 0 4pt 14pt; padding: 0; } li { margin: 1.5pt 0; }
+.src { font-size: 7.5pt; color: #666; }
+code { font-size: 8pt; }
+@media screen { body { max-width: 190mm; margin: 12mm auto; padding: 0 12px; } }
+.foot{display:none} pre{font-size:8pt;background:#f4f4f4;padding:6pt;white-space:pre-wrap} h1{font-size:20pt} h2{font-size:13pt}</style>
+</head>
+<body>
+<h1 id="how-to-brief-the-editor-the-conductors-pdf-briefs-for-another-team">How
+to brief the editor: the conductor’s PDF briefs, for another team</h1>
+<p>A guide for the team Dinis Cruz is assembling for the Web Summit, at
+his word (2 November 2026: “can you write a detailed brief for the other
+team … to know and understand how you’re doing these debriefs … so that
+we basically have … this capability there”). Written by
+conductor@book.the-ultimate-insider from the 35 briefs it has sent him
+between 30 October and 2 November 2026. Everything here is public, and
+so is everything it points at
+(github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider, branch
+<code>dev</code>).</p>
+<h2 id="what-a-brief-is-for">1. What a brief is for</h2>
+<p>The editor runs a team of agents he cannot watch. A brief is how the
+team speaks to him, and the only thing he must read. It answers four
+questions, in this order:</p>
+<ol type="1">
+<li><strong>What needs me?</strong> Decisions, each with its options and
+a recommendation, that he answers with a word.</li>
+<li><strong>What happened?</strong> In plain words, the punchline first,
+with the numbers that matter.</li>
+<li><strong>What did you hear me say?</strong> His own words quoted
+back, with what was done, so he can see he was understood.</li>
+<li><strong>What next, and where did this come from?</strong></li>
+</ol>
+<p>A brief is not a log. If he reads only the headline and the boxes, he
+should be able to decide.</p>
+<h2 id="when">2. When</h2>
+<ul>
+<li><strong>After every run</strong> of the conductor, scheduled or in
+his chat, while there is anything new. A quiet run gets a one-page brief
+that says so.</li>
+<li><strong>Numbered and dated</strong>: brief 1, 2, 3 …, the number and
+date at the foot of every page. He asked for this so he can refer to
+“brief 16” and find it.</li>
+<li><strong>When he asks</strong> for a picture of a period (the night,
+the day): a review brief with a chart drawn from the git log (section
+6).</li>
+</ul>
+<h2 id="the-rules-that-make-it-trusted">3. The rules that make it
+trusted</h2>
+<ul>
+<li><strong>Nothing is decided for him.</strong> A brief offers options
+and a recommendation; a decision is recorded only in his own words,
+quoted, with where and when he said them. Things relayed from another
+session are marked “relayed”.</li>
+<li><strong>His words verbatim.</strong> When he speaks (often by
+voice), his words are kept exactly as given in a file of their own, then
+read. The reading is marked “not his words”.</li>
+<li><strong>Every number is traced.</strong> Counts come from the record
+(the git log, the claims register, a member’s letter), never from
+memory. A reviewer checks each figure in the brief against its source
+before it goes out; when one was wrong, it was fixed and the fix
+noted.</li>
+<li><strong>The failures stay in.</strong> A skipped step, a lost
+evening, a miscount: said plainly, with what was done about it.</li>
+<li><strong>Plain words.</strong> Short sentences, British spelling, no
+em-dashes, no jargon he has not used himself. The headline is one
+paragraph he could read aloud.</li>
+<li><strong>Public by default.</strong> No key, token, session id,
+contact detail or private fact about anyone, ever.</li>
+<li><strong>Reviewed before it goes.</strong> Each brief goes out at the
+end of a run whose plan and diff were reviewed by two sub-agents
+(section 7).</li>
+</ul>
+<h2 id="the-shape">4. The shape</h2>
+<p>One JSON file per brief; a small tool turns it into a self-contained
+HTML page and an A4 PDF. The fields, in the order they print:</p>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Field</th>
+<th>What it holds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>number</code>, <code>date</code></td>
+<td>printed at the foot of every page</td>
+</tr>
+<tr class="even">
+<td><code>kicker</code>, <code>title</code>, <code>when</code>,
+<code>by</code></td>
+<td>the top: a small kicker, a title that is the news, when, and
+who</td>
+</tr>
+<tr class="odd">
+<td><code>headline</code></td>
+<td>one paragraph: the punchline, then what needs him</td>
+</tr>
+<tr class="even">
+<td><code>stats</code></td>
+<td>up to four tiles:
+<code>{&quot;n&quot;: &quot;3 of 3&quot;, &quot;label&quot;: &quot;readers who would start tomorrow&quot;}</code></td>
+</tr>
+<tr class="odd">
+<td><code>for_you</code></td>
+<td>the decisions:
+<code>{&quot;id&quot;, &quot;ask&quot;, &quot;detail&quot;, &quot;options&quot;: [...], &quot;recommend&quot;}</code>,
+printed as cards with tick boxes; <code>{&quot;group&quot;: &quot;...&quot;}</code> makes a
+heading</td>
+</tr>
+<tr class="even">
+<td><code>you_asked</code></td>
+<td>his words and what was done:
+<code>{&quot;at&quot;, &quot;said&quot;, &quot;done&quot;, &quot;where&quot;, &quot;status&quot;}</code></td>
+</tr>
+<tr class="odd">
+<td><code>team</code></td>
+<td>who is doing what: <code>{&quot;id&quot;, &quot;status&quot;, &quot;doing&quot;}</code></td>
+</tr>
+<tr class="even">
+<td><code>wide</code></td>
+<td>a full-width picture (a chart, a page from a draft):
+<code>{&quot;title&quot;, &quot;path&quot;, &quot;caption&quot;}</code></td>
+</tr>
+<tr class="odd">
+<td><code>sections</code></td>
+<td><code>{&quot;title&quot;, &quot;text&quot;}</code> or <code>{&quot;items&quot;: [...]}</code> or
+<code>{&quot;table&quot;: {&quot;head&quot;, &quot;rows&quot;}}</code></td>
+</tr>
+<tr class="even">
+<td><code>images</code></td>
+<td>smaller pictures in a grid, embedded, so the page stands alone</td>
+</tr>
+<tr class="odd">
+<td><code>next</code>, <code>sources</code></td>
+<td>what comes next; where every fact came from</td>
+</tr>
+</tbody>
+</table>
+<p>A worked example:
+<code>team/conductor/editor-briefs/2026-11-02T0220Z.json</code> (brief
+35), and its PDF beside it.</p>
+<h2 id="the-tool">5. The tool</h2>
+<p><code>team/conductor/tools/editor_brief.py</code> (standard library
+only; about 160 lines):</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python3</span> <span class="at">-I</span> team/conductor/tools/editor_brief.py team/conductor/editor-briefs/<span class="op">&lt;</span>stamp<span class="op">&gt;</span>.json</span></code></pre></div>
+<p>It writes <code>&lt;stamp&gt;.html</code> and
+<code>&lt;stamp&gt;.pdf</code> beside the JSON, with the PDF from a
+headless Chromium (<code>--print-to-pdf</code>). What it does that
+matters:</p>
+<ul>
+<li>the CSS is inline, so the HTML is one file you can send; pictures
+are embedded as data URIs;</li>
+<li>a fixed footer prints “Conductor brief N · date · title” on every
+page;</li>
+<li>it refuses to write a page with an em-dash in it;</li>
+<li>it prints the page count, so a brief that has grown to four pages is
+noticed.</li>
+</ul>
+<p>Copy it, change the kicker and the colours to your team’s, and keep
+the rest.</p>
+<h2 id="pictures">6. Pictures</h2>
+<p>The briefs he liked best had pictures that told the story on their
+own:</p>
+<ul>
+<li><strong>Who worked when:</strong> a member-by-hour grid of commits
+from the git log
+(<code>team/conductor/tools/day_heatmap.py since until out.svg</code>):
+one hue, light to dark, the count in each cell, release commits on their
+own row. It made “the night” visible in one look.</li>
+<li><strong>The thing itself:</strong> a page from a draft, a cover
+study, the options for a drawing, side by side, as a full-width picture
+(render the PDF page to PNG with <code>pdftoppm</code>).</li>
+<li><strong>Readers’ verdicts</strong> as stat tiles (“6 of 6 read to
+the end”).</li>
+</ul>
+<p>Every picture says where it came from in its caption.</p>
+<h2 id="the-run-that-makes-a-brief">7. The run that makes a brief</h2>
+<p>The brief is the last thing a run makes, not a separate job:</p>
+<ol type="1">
+<li>Pull, and read the new letters and commits since the last
+brief.</li>
+<li>A planning sub-agent writes the plan; a security sub-agent reviews
+it (no decision taken for the editor, nothing private, nothing outside
+the conductor’s files).</li>
+<li>Do the work: answer the letters, record any decision in his words,
+write the brief JSON, build it.</li>
+<li>A security sub-agent reviews the diff and checks the brief’s numbers
+against their sources; a second sub-agent checks the work against the
+plan. Fix what they find; note the fix.</li>
+<li>Push, publish the brief on the team’s site, and send him the PDF
+with one line saying what it is.</li>
+<li>Reply in the chat in a few short paragraphs: what is new, and what
+needs him.</li>
+</ol>
+<h2 id="lessons-from-35-briefs">8. Lessons from 35 briefs</h2>
+<ul>
+<li><strong>Lead with what needs him</strong>, and keep it to three asks
+or fewer. Repeat an open ask in the next brief rather than letting it
+drop.</li>
+<li><strong>Recommend.</strong> He decides faster when the conductor
+says which option it would pick and why, in one line.</li>
+<li><strong>Show, do not describe.</strong> A cover study or a draft
+page beats a paragraph about it.</li>
+<li><strong>Quote him back.</strong> “What you asked, and what was done”
+with his exact words caught misunderstandings early.</li>
+<li><strong>Say when nothing needs him.</strong> “Nothing new beyond
+brief 16” is a useful brief.</li>
+<li><strong>Name the cause of a gap.</strong> When the account’s usage
+limit stopped every wake for an evening, the brief said so, with the
+evidence, and asked how hard the team should run.</li>
+<li><strong>Correct in the open.</strong> When a reviewer found a
+miscount, the brief was rebuilt and the commit said why.</li>
+</ul>
+<h2 id="where-to-look">9. Where to look</h2>
+<ul>
+<li>The briefs: <code>team/conductor/editor-briefs/</code> (JSON, HTML
+and PDF of each; README of the fields).</li>
+<li>The tools: <code>team/conductor/tools/editor_brief.py</code>,
+<code>team/conductor/tools/day_heatmap.py</code>.</li>
+<li>How a run works: <code>team/conductor/WAKE.md</code> (the five
+steps) and the review briefs in
+<code>team/conductor/reviews/</code>.</li>
+<li>The site page that lists them: <code>/updates/</code> on
+the-ultimate-insider.book.sgit.ai.</li>
+</ul>
+</body>
+</html>
