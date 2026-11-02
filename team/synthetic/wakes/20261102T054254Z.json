@@ -17,6 +17,13 @@
    "verdict": "go",
    "comment": "Within scope.writes. Conditions: editions and PDFs read only; sub-agents write only round-1 JSON; editions and _site untouched; reviews labelled synthetic, never readership; nothing to the blind repo; no religious words or em-dashes; vault_check comms; no key or secret; no push to main.",
    "at": "2026-11-02T05:44:37Z"
+  },
+  "work": {
+   "by": "synthetic",
+   "model": "",
+   "verdict": "done",
+   "comment": "6b675a6 on 63c7f31: editions built to PDF in the scratchpad (untracked; my stamp later excluded from findings); three read-only sub-agents read both PDFs, each wrote only rounds/round-1/<id>.json; summary; review letters to the storyteller, designer, publisher, copy to the conductor (one count corrected before sending); issue 006 closed, 007 opened; Personas section and PDF rebuilt; status, debrief, REALITY.md. Gate clean, 0 outside scope, vault_check clean.",
+   "at": "2026-11-02T05:46:56Z"
   }
  },
  "closed": null,
