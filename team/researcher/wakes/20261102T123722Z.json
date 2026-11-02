@@ -31,8 +31,15 @@
    "verdict": "clean",
    "comment": "In scope; no secrets, dashes, RW1 words or anything attack-shaped; nothing toward the Cold-Read repository.",
    "at": "2026-11-02T12:40:50Z"
+  },
+  "post_check": {
+   "by": "conductor post-check sub-agent",
+   "model": "smaller model",
+   "verdict": "off-plan",
+   "comment": "Board 010 was closed with a caption finding open, against the plan's 'only if clean'; reopened with the caption as its last item.",
+   "at": "2026-11-02T12:41:27Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T12:41:27Z",
+ "outcome": "ok"
 }
