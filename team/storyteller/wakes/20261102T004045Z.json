@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "storyteller",
+ "kind": "scheduled, :39 (the 00:40 fire; four earlier fires lost to worker restarts)",
+ "started": "2026-11-02T00:40:45Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (Sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "The four lost fires are not a stop condition (no wake opened, nothing changed, no HOLD). 1. The researcher's seven fixes into chapter-plan/cast/opening-script.md; synthetic's five changes and the C101 cost sentence into chapter-plan/cast/edition-03.md. 2. chapter-plan/cast/edition-10.md, the 10-page edition on PS1, with a scene for several people each with their own agents (conductor 033). 3. Replies filed, board 014, status, debrief.",
+   "at": "2026-11-02T00:41:12Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (Sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Writes only chapter-plan/cast, team/storyteller, the board and mail, inside scope.writes; no secrets, cross-member writes or attack-shaped content; the new scene stays AI agents plus the editor; no stop condition.",
+   "at": "2026-11-02T00:41:26Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "done",
+   "comment": "Opening script with the researcher's seven fixes; 3-page edition with synthetic's five changes and C101; chapter-plan/cast/edition-10.md (checked back: three slips fixed); letters 035 to 037; four letters filed; board 014, status, debrief; vault_check clean.",
+   "at": "2026-11-02T00:43:40Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

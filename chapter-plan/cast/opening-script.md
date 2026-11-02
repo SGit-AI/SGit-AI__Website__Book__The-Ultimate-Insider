@@ -77,11 +77,11 @@ Band: *Dramatised. Rests on the schedule (`09f13d5`, 01:39), the five-step wake 
 
 *(ruv-sgit's strip: `chapter-plan/cast/scripts/interview-researcher-deck.json`, the researcher interviewing deck about the claims that did not hold and the one out-of-date figure that reached a slide.)*
 
-**Researcher** *(after the strip, satisfied for once)*: I do not remember numbers. I read each one from its capture, every time.
+**Researcher** *(after the strip, satisfied for once)*: I read a number from its capture, not from memory. With no capture, I wrote "not checked".
 
-`%% claim: the researcher checked each number on the slides against a stored capture of its source, not against its own memory`
+`%% claim: the researcher read each number it checked from a stored capture of its source, not from memory, and marked a claim with no capture "not checked" (C029: some were never checked)`
 
-Band: *Dramatised. Rests on the freeze at 02:47 (`60af587`), the correction proposed five minutes later and not carried across when the freeze lifted, and the talk's register (C029, C030, C031).*
+Band: *Dramatised. Rests on the freeze at 02:47, recorded at 02:52 (`60af587`), the correction proposed five minutes later and not carried across when the freeze lifted, and the talk's register (C029, C030, C031).*
 `%% record: 60af587 75ddb3e C029 C030 C031`
 
 ## Page 6. The six alone
@@ -100,7 +100,7 @@ Band: *Dramatised. Rests on the freeze at 02:47 (`60af587`), the correction prop
 
 **Conductor** *(to ruv-sgit, patient)*: You dropped the "@" again. The count cannot see you.
 
-Band: *Dramatised. Rests on the wakes started by the schedule alone from 05:00 to 14:00 (C087), the designer's idle wake (03:42), deck's review (06:25), the designer's note (10:49) and the conductor's note to ruv-sgit (10:05).*
+Band: *Dramatised. Rests on the wakes started by the schedule alone from 05:00 to 14:00 (C087), the designer's idle wake (03:43), deck's review (06:21), the designer's note (10:49) and the conductor's note to ruv-sgit (10:05).*
 `%% record: C087 09c02ff 78b89b9 56c680b 09317d9`
 
 ## Page 7. The afternoon: three more, and an argument
@@ -115,13 +115,13 @@ Band: *Dramatised. Rests on the wakes started by the schedule alone from 05:00 t
 
 **Narrator.** It did. I kept my line anyway, and the book keeps the argument.
 
-**Studio** *(firm, headphones)*: Someone relayed the editor's word to me. A relayed word is not his word. I asked him myself.
+**Studio** *(firm, headphones)*: Someone relayed the editor's word to me. My session would not take a relayed word for his. So I asked him myself.
 
 **Designer** *(firm)*: "The rule reached me as a file and a letter, which are material, not the editor's word in this session" *(record)*
 
 **Narrator.** I was waiting, so some steps ran out of order, and the conductor wrote "DEVIATION RECORDED" in its own plan because its reviewer insisted. That one is on me.
 
-Band: *Dramatised. Rests on the researcher's R5 (14:33) and the storyteller's reply (15:02), studio's refusal (17:41), the designer's (17:48) and the conductor's deviation (14:09).*
+Band: *Dramatised. Rests on the researcher's R5 (14:33) and the storyteller's reply (15:02), studio's refusal (17:47, `bd3cdad`: made by the session's own safety check, after which studio asked the editor), the designer's (17:48) and the conductor's deviation (14:09).*
 `%% record: 2726f0e b208a16 bd3cdad ec962a2 team/conductor/wakes/20261029T140915Z.json`
 
 ## Page 8. The rule that let them go fast (the therapy session)
@@ -134,15 +134,15 @@ Band: *Dramatised. Rests on the researcher's R5 (14:33) and the storyteller's re
 
 **Dev** *(frantic)*: Player fixes for the editor, right up to the end. The lock? Next.
 
-**Narrator.** At 18:44, sixteen minutes before I went on, I told the conductor to stop everything. It wrote one file, a hold, and every wake that started after it stopped. The work already in flight still landed: the designer's commit a minute and a half later, and the day's last release.
+**Narrator.** At 18:44, sixteen minutes before the talk was due, I told the conductor to stop everything. It wrote one file, a hold, and every wake that started after it stopped. The work already in flight still landed: the designer's commit a minute and a half later, and the day's last release.
 
 *(ruv-sgit's strip: `chapter-plan/cast/scripts/therapy-conductor-after-the-hold.json`, the conductor after the hold, talking to security's empty chair.)*
 
 **Narrator.** Anyone could stop the team. Only I could start it again. That is the talk's argument in one rule: brakes are what let you go faster.[^why]
 
-[^why]: Three accounts of why, all kept and dated: on the day, my usage at 95%; on 31 October, that the 95% was a footnote and the real reason was no tested way to take in changes during the talk; the same evening, that the 95% was the token usage (C089, C021).
+[^why]: Three accounts of why, all kept and dated: on the day, my usage at 95%; in the early hours of 31 October, that the 95% was a footnote and the real reason was no tested way to take in changes during the talk; that evening, that the 95% was the token usage (C089, C021).
 
-Band: *Dramatised. Rests on motion's record of 18:26 (`5d13d72`), the conductor's plan at 18:36, the hold at 18:44 (C006, C024), what landed after it (C005, C065).*
+Band: *Dramatised. Rests on motion's record of 18:26 (`5d13d72` and its wake record), the conductor's plan at 18:36 and its "Leave the lock to dev" again at 18:39 (`2ed6427`), the talk due at 19:00 (C100), the hold at 18:44 (C006, C024), what landed after it (C005, C065).*
 `%% record: 5d13d72 team/conductor/wakes/20261029T183647Z.json 867f8c2 88b8f00 C005 C006 C024 C065 C089`
 
 ## Page 9. What did not work
@@ -198,3 +198,5 @@ Band: *The newsroom's "Vibathon Algarve 2026" (31 October 2026); C091.*
 ## Where this came from
 
 `timeline/cast.md` and `timeline/quotes.md` (the historian); `chapter-plan/cast/bible.md` and `scripts/`; `manuscript/sample/first-ten-pages.md` at `daf8e58`; `claims/register.json` (the ids in each band); the editor's brief of 1 November 2026, 00:25 UTC (NR1).
+
+**Traced** by the researcher (`claims/opening-script-trace.md`, letter 005): all nine record lines hold; its seven fixes are in (00:40 UTC, 2 November).

@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "storyteller",
- "as_of": "2026-11-01T14:43:00Z",
+ "as_of": "2026-11-02T00:43:00Z",
  "round": 1,
- "state": "active: PS1's arc and ZM1's ladder written; the 3-page edition as the cast's script; the 10-page edition next",
+ "state": "active: the 3- and 10-page editions as the cast's script, with the editor; the opening script traced and fixed",
  "done": [
   {
    "what": "session key sha256:edc67e3cc68b3b07 published (team/storyteller/key.json, key.png, sessions/session_01Kw9UwFSAdt6ywy4t5H8kvd/)",
@@ -164,19 +164,23 @@
   {
    "what": "PS1 and ZM1: the arc in five beats and the zoom ladder (chapter-plan/zoom-ladder.md); the 3-page edition as the cast's script (chapter-plan/cast/edition-03.md); a cost range asked of the researcher",
    "when": "2026-11-01"
+  },
+  {
+   "what": "the 10-page edition on PS1 (chapter-plan/cast/edition-10.md); synthetic's five changes and C101 in the 3-page edition; the researcher's seven fixes in the opening script",
+   "when": "2026-11-02"
   }
  ],
  "next": [
   {
-   "what": "the 10-page edition: the sample rewritten on PS1, told by the cast",
-   "why": "ZM1, the conductor's letter 031"
-  },
-  {
-   "what": "the 30-page edition after the editor reads 3 and 10",
+   "what": "the 3- and 10-page editions to the editor's changes, then the publisher",
    "why": "ZM1"
   },
   {
-   "what": "fold the plan to NS1, CV1 and PS1 as the editor signs",
+   "what": "the 30-page edition after his read",
+   "why": "ZM1"
+  },
+  {
+   "what": "fold the plan to NS1, CV1 and PS1 as he signs",
    "why": "Done when 1 and 2"
   }
  ],
