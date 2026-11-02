@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Amended plan meets the earlier conditions: UL1 new, his exact words, scoped to the pace he was told, W1 open, no task changed, no keys, nothing to the blind repo; run vault_check. (Two earlier passes said change: the first on scope, which the amendment answered; the second because the files did not exist yet, which is expected before the work.)",
    "at": "2026-11-02T02:05:21Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "As amended: briefs/2026-11-02__in-session/01-keep-the-pace.md (his words); UL1 added, decided at his exact words, scoped to the pace he was told, W1 open; replies storyteller 034, synthetic 016, designer 035, to done; brief 35 (the 10-page draft, the readers, the four lines); status.json. No task changed. vault_check clean, gate 0, scope 0 outside.",
+   "at": "2026-11-02T02:06:14Z"
+  },
+  "post_review": {
+   "by": "security post-review sub-agent",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Gate 0; scope 0 outside; vault_check clean; UL1 new with his exact words, scoped, W1 open; brief 35 matches the letters and commits; no task or policy changed; no key, contact or em-dash.",
+   "at": "2026-11-02T02:07:05Z"
+  },
+  "post_check": {
+   "by": "conductor post-check sub-agent",
+   "model": "haiku",
+   "verdict": "as-planned",
+   "comment": "All four amended items done; no task changed; in scope.",
+   "at": "2026-11-02T02:07:05Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T02:07:05Z",
+ "outcome": "ok"
 }
