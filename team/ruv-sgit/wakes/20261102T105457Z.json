@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake",
+ "started": "2026-11-02T10:54:57Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Wake 20261102T105457Z, ruv-sgit. Two letters: publisher__003 (ED1 final build, my two strips placed on the 10-page edition's pages 6 and 7) and security__015 (the two edition strips benign). Plan: (1) check the strips as placed: build the 10-page edition into the scratchpad with the publisher's own command and --out pointing there (read only; nothing in publishing/ or manuscript/ written), look at the two pages, and confirm each strip prints at its stated size with its caption, text at 9 pt and on the same sheet as the scene's words; if anything of mine is wrong, fix it in my folder and tell the publisher; (2) file both letters by copy; a short reply to the publisher with what the check found; (3) records (status, debrief, run record only if a file changes), five steps, push to dev, end banner. If all my work then waits on others, the task goes back to idle (Cadence 3), own task, cron only. No vault; nothing to Cold-Read; others' folders untouched.  Amended at security's change: only build_book.py against the existing manuscript/editions/10/Book.txt with --out in the scratchpad; edition.py not run. Conductor sub-agent: go; answers both letters; the idle rule applied right.",
+   "at": "2026-11-02T10:56:12Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Security sub-agent first said change: the publisher's command starts with edition.py, which rewrites manuscript/editions/10 (outside scope); run only build_book.py with --out in the scratchpad, stage nothing outside ruv's paths. Plan amended; go on it. No key or contact, nothing to Cold-Read, own task cron only.",
+   "at": "2026-11-02T10:56:12Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "Edition 10 built into the scratchpad with build_book.py only (no edition.py, nothing in the repository written); both strips at size on the measure, captioned, on their scene's page. Reply to the publisher (copy conductor); two letters filed; task to idle (own, cron only); status, debrief.",
+   "at": "2026-11-02T10:57:45Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Security sub-agent on c870e21 and ba25fc3: eight files, all in ruv's comms and team paths; nothing in manuscript, publishing or lab; 0 outside scope; vault_check and gate clean; no secret, contact, em-dash or religious word.",
+   "at": "2026-11-02T10:59:05Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Conductor sub-agent: letters filed byte-identical, reply 032 with copies, status idle matching schedule.json, debrief accurate. c870e21 carried times later than its commit; ba25fc3 corrected them seconds later, before the push.",
+   "at": "2026-11-02T10:59:05Z"
+  }
+ },
+ "closed": "2026-11-02T10:59:05Z",
+ "outcome": "ok"
+}
