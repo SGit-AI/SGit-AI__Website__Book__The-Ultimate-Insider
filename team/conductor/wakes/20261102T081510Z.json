@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "In scope; RL1 proposed, not decided; build_book.py with --out to the scratchpad writes nowhere else; nothing private.",
    "at": "2026-11-02T08:16:02Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "Four letters filed to done; RL1 open in book.json; editions built into the scratchpad and pictured; brief 38 (3 pages) with cover A and the 10-page sheet; status.",
+   "at": "2026-11-02T08:18:16Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "Brief 38 matches its sources; RL1 open; only conductor files; no key, contact, em-dash or religious word. The four figures: the conductor counted them on the rendered sheet (pages 2, 3, 7, 8), as synthetic's summary says.",
+   "at": "2026-11-02T08:18:45Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "All five plan items done; no member file edited.",
+   "at": "2026-11-02T08:18:45Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T08:18:45Z",
+ "outcome": "ok"
 }
