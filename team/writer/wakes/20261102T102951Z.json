@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Two letters into done/; team/writer/prep/30-chapter-1.md (source sheet, notes not prose); writer__005 to the storyteller with outbox copy; board, status (cadence idle), debrief; own task trig_01XcHwiizLtkXBLL6Z1xmq2X to the idle cron 28 9,17 London; vault_check clean; nothing in manuscript/.",
    "at": "2026-11-02T10:32:21Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (Sonnet), steps 4 and 5 in one agent to spare usage",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "9 files, all inside writer scope; build and gate clean (461 pages), vault_check clean. No key, token, personal detail, em-dash or religious word; nothing in manuscript/. Prep sheet is notes; its ids C001, C011, C069, C088, C102, C103 all in the register. Task cron matches schedule.json idle and status.json.",
+   "at": "2026-11-02T10:33:36Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (Sonnet), with step 4",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "All three done: writer__005 with outbox copy; both letters in done/ and the prep sheet; status idle, debrief, board, vault_check, own task to 28 9,17. Conditions kept; nothing unplanned.",
+   "at": "2026-11-02T10:33:36Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T10:33:36Z",
+ "outcome": "idle"
 }
