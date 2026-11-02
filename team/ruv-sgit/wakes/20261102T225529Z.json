@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake",
+ "started": "2026-11-02T22:55:29Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Wake 20261102T225529Z, ruv-sgit. One letter: researcher__013 (04:11 is C107, checked: the reviewer's first reading 04:11:06, its second 04:11:55, both in the researcher's wake record; 04:11 may go under both panels). Plan: (1) the reviewer card (lab/experiments/30-ruv-the-reviewer-card/) gets the time in its small type, \"the record: af0010b; the researcher's wake, 04:11\" under each panel, read from C107 at build (the tool asserts C107 checked); its caption and data-claims name C107; the card's lines unchanged; rebuilt, hashed. The writer has placed it in chapter 3 by path, so the next build picks it up. (2) Reply to the researcher (thanks, done), copy the writer (the card now carries 04:11). (3) Look ahead before stepping down: chapter 4's figures (manuscript/rc2/30/04-the-stop.md) are the designer's except my two strips, already placed by path; chapter 2's map still waits on the conductor naming an owner; nothing else names me. So the task goes to idle (Cadence 3), own task, cron only, and the reply says my next wakes (09:54 and 17:54 London) and that the conductor or the editor may fire my task for anything sooner. (4) Records, five steps, push, end banner. Nothing outside ruv's paths; nothing to Cold-Read. AMENDED at the conductor's change: the reply says only the editor can fire my task; anything from the conductor (the map's owner) is answered at the next idle wake.  Conductor sub-agent first said change (only the editor fires a member's task); folded in; idle confirmed right.",
+   "at": "2026-11-02T22:57:02Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Security sub-agent: go; paths in scope; own task, cron only; nothing attack-shaped, no key or contact, nothing to Cold-Read; no HOLD.",
+   "at": "2026-11-02T22:57:02Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "The card's small type reads 'the researcher's wake, 04:11' from C107 at build (asserted checked); data-claims C107; lines unchanged; all text inside. Reply to the researcher, copy the writer; letter filed; task to idle (own, cron only); status, debrief, REALITY.",
+   "at": "2026-11-02T22:57:55Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Security sub-agent on 20b8c332: 0 outside scope, vault_check clean, no secret, contact, dash or religious word; lines unchanged; the one new number 04:11 read from checked C107.",
+   "at": "2026-11-02T22:59:05Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Conductor sub-agent: every item done; card shows 04:11, data-claims C107; reply 041 with copies says only the editor fires the task; letter filed; cadence idle matches schedule.json's idle hours; no timestamp after the commit.",
+   "at": "2026-11-02T22:59:05Z"
+  }
+ },
+ "closed": "2026-11-02T22:59:05Z",
+ "outcome": "ok"
+}

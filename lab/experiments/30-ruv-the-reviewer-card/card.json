@@ -2,11 +2,30 @@
  "for": "RC2, the thirty, chapter 3 page 2 (manuscript/rc2/30/03-the-factory-runs.md, the Figure line under 'The argument with a reviewer')",
  "lines_from": "comms/mail/mailroom/ruv-sgit/writer__020-chapter-3-reviewer-card-lines.eml, the writer's words exactly",
  "panels": [
-  {"reviewer": {"mood": "worried", "line": "out of scope", "record": false},
-   "researcher": {"mood": "stressed", "line": "My reviewer said a file was not mine to change. I showed it was."},
-   "small": "the record: af0010b; the researcher's wake record"},
-  {"reviewer": {"mood": "happy", "line": "objection withdrawn.", "record": true},
-   "researcher": {"mood": "happy", "line": "Good. Then it goes in, and the dispute goes in the record with it."},
-   "small": "the record: af0010b; the researcher's wake record"}
- ]
+  {
+   "reviewer": {
+    "mood": "worried",
+    "line": "out of scope",
+    "record": false
+   },
+   "researcher": {
+    "mood": "stressed",
+    "line": "My reviewer said a file was not mine to change. I showed it was."
+   },
+   "small": "the record: af0010b; the researcher's wake, {C107}"
+  },
+  {
+   "reviewer": {
+    "mood": "happy",
+    "line": "objection withdrawn.",
+    "record": true
+   },
+   "researcher": {
+    "mood": "happy",
+    "line": "Good. Then it goes in, and the dispute goes in the record with it."
+   },
+   "small": "the record: af0010b; the researcher's wake, {C107}"
+  }
+ ],
+ "times_from": "claims/register.json C107 (checked): both readings at 04:11, 49 seconds apart"
 }
