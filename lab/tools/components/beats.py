@@ -62,7 +62,11 @@ def read_claims(path=REPO / "claims" / "talk-claims-per-beat.md"):
     v = {c["id"]: c for c in (reg["claims"] if isinstance(reg, dict) else reg)}["C099"]["value"]
     if len(out) != v["beats_with_claims"] or sum(map(sum, out.values())) != v["per_beat_cells_sum"]:
         sys.exit(f"beats: the claims table gives {len(out)} beats, {sum(map(sum, out.values()))} cells; C099 says otherwise")
+    UNIQUE[0] = v["unique_claims_in_a_beat"]  # printed on the strip, read from C099, never typed
     return out
+
+
+UNIQUE = [None]
 
 
 CLAIM_FILL = (INK, "#9aa3ad", None)  # hold, held in part, not checked (outlined)
@@ -118,7 +122,7 @@ def in_order(rows, length=164.0, claims=None):
         foot += 4.6
         out.append(t(0, foot, "under a beat: its placed claims (C099), each in the talk register's state at 18:20", fill=MUTED))
         foot += 4.6
-        out.append(t(0, foot, "a claim on a slide that several beats show counts under each; 55 claims are unique (C039, C099)", fill=MUTED))
+        out.append(t(0, foot, f"a claim on a slide that several beats show counts under each; {UNIQUE[0]} claims are unique (C099)", fill=MUTED))
         foot += 4.6
     out.append(t(0, foot, f"{heard} of {len(rows)} beats heard (C097, on C015's beats); outlined: not reached", fill=MUTED))
     return svg(length, foot + 1.2, "".join(out), f"The talk's {len(rows)} beats in three parts, {heard} heard, the rest not reached")
