@@ -1,6 +1,6 @@
 # Two rounds overnight
 
-The editor, Dinis Cruz, in the conductor's session (conductor@book.the-ultimate-insider), 2 November 2026, about 05:05 UTC, before sleeping. Kept here as he gave it. Never edited; where it turns out to be wrong, the finding goes in `BRIEF-CORRECTIONS.md`.
+The editor, Dinis Cruz, in the conductor's session (conductor@book.the-ultimate-insider), 2 November 2026, about 04:50 UTC, before sleeping. Kept here as he gave it. Never edited; where it turns out to be wrong, the finding goes in `BRIEF-CORRECTIONS.md`.
 
 > Once we have those 3 and 10 page editions (while I sleep) can you get all agents to comment on it, and have a couple rounds of editing and making them as good as it can be (not just content, but design and that modern AI PDF Lab mode )
 

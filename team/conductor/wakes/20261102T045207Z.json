@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Letters only in their lanes; two rounds, round 2 after the rebuild; ED1 recorded as his chat words; no member file or old brief touched.",
    "at": "2026-11-02T04:53:09Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "As planned: brief 07 of 2 November in-session; ED1 decided at his word; ten letters, each with the rounds and its lane, round 2 after the rebuild, capped at two; status.json with ED1 tracking. No member's file edited. vault_check clean, gate 0, scope 0 outside.",
+   "at": "2026-11-02T04:53:27Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (haiku)",
+   "model": "claude-haiku-5-5",
+   "verdict": "clean",
+   "comment": "Gate 0, agents check 0, vault_check comms clean; diff is ED1 at his words, brief 07, status, letters in lanes; no key, contact, em-dash or religious word. Finding fixed: brief 07 and ED1 said 05:05 UTC, after the wake began at 04:52; now about 04:50 UTC.",
+   "at": "2026-11-02T04:55:16Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (haiku)",
+   "model": "claude-haiku-5-5",
+   "verdict": "as-planned",
+   "comment": "Brief 07, ED1 at his word, ten letters in their lanes with round 2 gated on the rebuild, status updated, no member file or old brief touched.",
+   "at": "2026-11-02T04:55:16Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T04:55:16Z",
+ "outcome": "ok"
 }
