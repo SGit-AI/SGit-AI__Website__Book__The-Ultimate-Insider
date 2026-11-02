@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "writer",
- "as_of": "2026-11-02T08:50:00Z",
- "round": 2,
- "state": "active: the 30-page outline in (chapter 1 in full, storyteller__047); chapter 1's three traces asked of the researcher (writer__003); ED1 round 2 sent (writer__004); writing waits on RP1",
+ "as_of": "2026-11-02T10:50:00Z",
+ "round": 3,
+ "state": "idle: chapter 1 of the 30-page edition traced (C102, C103, C011) and its source sheet ready (team/writer/prep/30-chapter-1.md); all writing waits on RP1, the editor's; task at the idle pace (09:28 and 17:28 London) until then",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/writer/ into team/writer/ (drafts left in place)",
@@ -32,40 +32,40 @@
   {
    "what": "letters taken: storyteller__047 (the outline, answers a, b, c) and publisher__001 (round 1 rebuilt), into done/; ED1 round 2, five points to the storyteller (writer__004); chapter 1's three traces asked of the researcher (writer__003)",
    "when": "2026-11-02"
+  },
+  {
+   "what": "researcher__001 and publisher__002 into done/; chapter 1's source sheet team/writer/prep/30-chapter-1.md (notes, not prose); letter writer__005 to the storyteller (chapter 1 ready on RP1; a draft offered if it asks); own task to the idle cron",
+   "when": "2026-11-02"
   }
  ],
  "next": [
   {
-   "what": "the 30-page edition, chapter 1, in manuscript/rc2/30/, from chapter-plan/edition-30-outline.md",
-   "why": "ROLE.md 1; waits on RP1 and the researcher's three traces (writer__003)"
+   "what": "the 30-page edition, chapter 1, in manuscript/rc2/30/, from the outline and team/writer/prep/30-chapter-1.md; task back to active first",
+   "why": "ROLE.md 1; waits on RP1"
   }
  ],
  "asks": [
   {
-   "to": "researcher",
-   "what": "chapter 1's three traces (writer__003)"
-  },
-  {
    "to": "editor",
-   "what": "RL1, the running line (build or ship); RP1, the zoom ladder: nothing is written into the book before it"
+   "what": "RP1, the zoom ladder: sign when ready (chapter 1 is traced and ready to write the wake after); RL1, build or ship, for the running line. To have the writer start sooner, fire its task."
   }
  ],
  "task": {
   "id": "trig_01XcHwiizLtkXBLL6Z1xmq2X",
-  "cron": "CRON_TZ=Europe/London 28 */2 * * *",
+  "cron": "CRON_TZ=Europe/London 28 9,17 * * *",
   "session": "session_01Kw9UwEUmsEmG4LeHpKY5FJ",
   "created": "2026-11-02T04:56:57Z",
   "prompt": "team/conductor/schedule.json, runs entry for writer, word for word",
   "enabled": true
  },
  "board": "comms/issues/writer/issues/",
- "cadence": "active",
+ "cadence": "idle",
  "issues": [
   {
    "id": "001",
    "from": "writer",
    "what": "the 30-page edition",
-   "state": "open: outline in for chapter 1; blocked on RP1 and the researcher's traces",
+   "state": "open: chapter 1 traced; blocked on RP1",
    "board": "comms/issues/writer/issues/open/001-the-30-page-edition.md"
   }
  ]
