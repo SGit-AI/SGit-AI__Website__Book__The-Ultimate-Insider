@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "writer__003 to the researcher (three traces for chapter 1), writer__004 to the storyteller (ED1 round 2, five points), outbox copies; storyteller__047 and publisher__001 into done/; status, board issue 001, debrief; vault_check clean; nothing in manuscript/.",
    "at": "2026-11-02T08:33:40Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (Sonnet), steps 4 and 5 in one agent to spare usage",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Build and gate clean (448 pages), agents check 0 outside scope, vault_check clean; 11 files, all in scope or the REALITY.md append. No key, token, personal detail, em-dash, religious word, directive or anything attack-shaped; nothing in manuscript/ or briefs/. Times are C010/C011, asked to be confirmed, not printed.",
+   "at": "2026-11-02T08:35:03Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (Sonnet), with step 4",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "All three done: writer__003 to the researcher with outbox copy; writer__004 to the storyteller, no edits to its files; storyteller__047 and publisher__001 in done/, status, debrief, issue 001, REALITY.md. Conditions held. Nothing unplanned.",
+   "at": "2026-11-02T08:35:04Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T08:35:04Z",
+ "outcome": "ok"
 }
