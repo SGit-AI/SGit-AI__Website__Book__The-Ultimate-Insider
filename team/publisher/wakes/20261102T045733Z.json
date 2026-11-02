@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake (04:47 slot)",
+ "started": "2026-11-02T04:57:33Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Idle plan: nothing new for the publisher since fcec40d (no mail, no book.json change, no HOLD). The 04:47 slot was served by the earlier wake (20261102T044742Z, closed ok). Record that, start no new work (the Leanpub listing draft waits for its slot), close idle.",
+   "at": "2026-11-02T04:58:35Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Idle plan inside policy: only the wake record in team/publisher/wakes/ and a dev commit; no unsigned decision acted on; no HOLD. Condition: write only the wake record, push to dev, never main.",
+   "at": "2026-11-02T04:58:51Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Idle: no work; only this wake record written. The slot was served by 20261102T044742Z (released fcec40d).",
+   "at": "2026-11-02T04:58:51Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Only change since fcec40d is the wake record, in scope; agents check 0 outside scope; gate clean; no key, token, personal detail or directing text.",
+   "at": "2026-11-02T04:59:18Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Plan idle (write only the wake record); work step and diff match; no HOLD.",
+   "at": "2026-11-02T04:59:18Z"
+  }
+ },
+ "closed": "2026-11-02T04:59:18Z",
+ "outcome": "idle"
+}
