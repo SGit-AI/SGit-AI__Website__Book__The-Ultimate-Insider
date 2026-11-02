@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Chapter 1 of the thirty in manuscript/rc2/30/01-the-creators-problem.md (ids C001 C011 C069 C088 C100 C102 C103; RL1 marked); letters 006 to 010 with outbox copies; seven letters into done/; board, status (active), debrief, REALITY.md; vault_check clean; Book.txt untouched.",
    "at": "2026-11-02T17:41:30Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (Sonnet), steps 4 and 5 in one agent to spare usage",
+   "model": "sonnet",
+   "verdict": "finding",
+   "comment": "Scope, build, gate, agents check, vault_check clean; Book.txt untouched; quotes word for word, numbers match the register. Finding: 'Two days after the talk' for the voice note of 1 November (three days); minor: the building's description not in the register. Both fixed in the same wake: 'On 1 November, three days after the talk'; the description cut to the quote.",
+   "at": "2026-11-02T17:43:00Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (Sonnet), with step 4",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "All three done: letters 006 to 010 with outbox copies; chapter 1 with its ids, RL1 marker and sources; seven letters in done/, board, status, debrief, REALITY.md. Conditions kept; task active at 28 */2. Nothing unplanned.",
+   "at": "2026-11-02T17:43:00Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T17:43:00Z",
+ "outcome": "ok"
 }

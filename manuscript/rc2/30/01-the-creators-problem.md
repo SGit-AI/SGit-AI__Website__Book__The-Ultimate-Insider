@@ -6,7 +6,7 @@
 
 **Narrator.** For years my slides were a compromise. I had an idea to get across, and the slides could not move, so I spent the talk explaining what they could not show: this goes from here to there, this grows, this breaks. I talked over my own pictures.
 
-**Narrator.** Two days after the talk I recorded a voice note about it, and this is how it came out, unedited: "I had to speak a lot because in a way I had to provide the animation that was missing. I didn't know if I wanted to say, look, here, these things moves from A to B, you know, I kind of had to explain that A to B move". That is the problem in one sentence. The idea was a movement. The slide was a still. I was the bit in between.
+**Narrator.** On 1 November, three days after the talk, I recorded a voice note about it, and this is how it came out, unedited: "I had to speak a lot because in a way I had to provide the animation that was missing. I didn't know if I wanted to say, look, here, these things moves from A to B, you know, I kind of had to explain that A to B move". That is the problem in one sentence. The idea was a movement. The slide was a still. I was the bit in between.
 
 **Narrator.** It sounds small. It is not. Every minute I spend narrating an arrow is a minute the room is listening to me describe a picture instead of thinking about the idea. And the harder the idea, the more of it lives in the movement: how something spreads, where it stops, what changes when you add more of it. Those were exactly the ideas I wanted to get across.
 
@@ -18,7 +18,7 @@
 
 **Narrator.** On 29 October I gave a talk where I mostly did not have to do that. When a thing had to move, I pressed play and it moved.
 
-**Narrator.** Here is one moment, from the recording. It is an animation the team called the building: people walk through it, and somewhere in it there is gold that should not be there. I did not explain the movement. I let it run, and talked about what it meant:
+**Narrator.** Here is one moment, from the recording. It is an animation the team called the building. I did not explain the movement. I let it run, and talked about what it meant:
 
 > "This is a really cool animation of what happens. Normal users come in and do things: they go where they're supposed to go. Every now and then one finds the gold that isn't supposed to be there, but they also tend to stop. ... Agents come with far more volume. They also change, going from users to agents, and they eventually find the gold. That's the big difference: the agent doesn't stop."
 
