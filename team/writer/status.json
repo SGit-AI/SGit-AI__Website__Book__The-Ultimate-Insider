@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "writer",
- "as_of": "2026-11-02T23:00:00Z",
- "round": 7,
- "state": "active: RC2's thirty, chapters 1 to 4 written in manuscript/rc2/30/; chapter 5 next wake, closing on the running line ('Ship', RL1)",
+ "as_of": "2026-11-02T23:45:00Z",
+ "round": 8,
+ "state": "active: the 30-page edition written in draft, chapters 1 to 5 and the series page in manuscript/rc2/30/; the editor's word (about 23:15 UTC): in sequence, more than one chapter a wake; next the reads of 4 and 5, then the seventy as the storyteller outlines it",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/writer/ into team/writer/ (drafts left in place)",
@@ -52,26 +52,30 @@
   {
    "what": "chapters 1 to 3 revised on eight letters (his views named in %% notes; C106; first-person bands; glosses; deck 06:21; ruv-sgit's card placed); RL1 'Ship' noted in each chapter; chapter 4, manuscript/rc2/30/04-the-stop.md; letters 021 to 024",
    "when": "2026-11-02"
+  },
+  {
+   "what": "chapters 3 and 4 revised (C107; his views flagged; dev and deck to the record; 31 October); chapter 5, manuscript/rc2/30/05-the-factory-rebuilt-and-yours.md; the series page, 30/06-a-book-about-you-doing-it.md; letters 025 to 028; the thirty complete in draft",
+   "when": "2026-11-02"
   }
  ],
  "next": [
   {
-   "what": "chapter 5 of the thirty, the factory rebuilt, and yours; then the series page at the back",
-   "why": "one chapter a wake"
+   "what": "take the reads and traces of chapters 4 and 5",
+   "why": "ROLE.md 5"
   },
   {
-   "what": "the reads of chapter 4",
-   "why": "ROLE.md 5"
+   "what": "the 70-page edition, part by part in sequence, several a wake as outlined",
+   "why": "ROLE.md 1; the editor's pace"
   }
  ],
  "asks": [
   {
    "to": "editor",
-   "what": "five sentences flagged as the writer's reading of his views (chapter 1, 'It sounds small' paragraph; chapter 3, 'my favourite', 'my own call'; chapter 4, 'What they share', 'I would staff it first'): keep or drop"
+   "what": "read the thirty (RC2, chapters 1 to 5 and the series page); keep or drop the passages flagged as the writer's reading of his views (chapters 1, 3, 4, 5)"
   },
   {
    "to": "researcher",
-   "what": "trace chapters 3 and 4 (writer__019, 023)"
+   "what": "trace chapters 4 and 5 (writer__023, 028)"
   }
  ],
  "task": {
@@ -89,8 +93,9 @@
    "id": "001",
    "from": "writer",
    "what": "the 30-page edition",
-   "state": "open: chapters 1 to 4 written; 5 and the series page next",
+   "state": "open: the thirty written in draft; reads and traces outstanding",
    "board": "comms/issues/writer/issues/open/001-the-30-page-edition.md"
   }
- ]
+ ],
+ "pace": "the editor, 2 November 2026, about 23:15 UTC: chapters in sequence, not in parallel sub-agents, but more than one a wake"
 }

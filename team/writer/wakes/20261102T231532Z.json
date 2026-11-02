@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer",
+ "kind": "editor's request",
+ "started": "2026-11-02T23:15:32Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (Sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. Requests first: C107 in chapter 3's band for 04:11 and 04:19; chapter 4 on storyteller__071 (his views in %% notes, dev and deck second lines to the record, 'That evening, on 31 October', 'none said on stage' only as C030 shows it). 2. manuscript/rc2/30/05-the-factory-rebuilt-and-yours.md from the outline, page-2 scenes marked as this book's record, cost C101 and C037, closing on the running line (RL1); then 06-series.md (SP1). 3. Letters (publisher, storyteller, historian, researcher), five into done/; status, debrief, board.",
+   "at": "2026-11-02T23:16:08Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (Sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope; no editions/rc2/Book.txt or rc2-figures.json. Conditions: numbers from claims/ only (cost C101, C037); page-2 scenes marked as this book's record; no private person named, nothing from Cold-Read; Web Summit as plan; real people's words only the editor's recorded ones; no religious words or em-dashes; vault_check comms.",
+   "at": "2026-11-02T23:16:23Z"
+  },
+  "work": {
+   "by": "writer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Chapters 3 and 4 revised on five letters; chapter 5 (C037 C101; two book-record scenes fde3fea, 9395328) and the series page in manuscript/rc2/30/; letters 025 to 028; five letters into done/; status (pace), debrief, board, REALITY.md; vault_check clean; no Book.txt or rc2-figures.json.",
+   "at": "2026-11-02T23:19:23Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

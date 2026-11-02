@@ -16,6 +16,8 @@
 
 **Narrator.** At the same moment, dev was in the middle of my last fixes to the player, in a wake it had opened and never closed. The fix landed. The lock did not.
 
+`%% for the editor: "I want to be fair to the conductor here." and this paragraph's last sentence ("A rule that keeps everyone in their lane ... the job waits.") are the writer's reading of his view; his to keep or drop.`
+
 **Narrator.** I want to be fair to the conductor here. It did exactly what its rules said: it did not do another member's irreversible job for it. It asked, in writing, in time. And it was not enough. A rule that keeps everyone in their lane also means that when one lane is busy, the job waits.
 
 `%% record: C027 team/conductor/wakes/20261029T183647Z.json 2ed6427 dbd75ad C088 4a2481b timeline/cast-scenes.md scene 5`
@@ -44,7 +46,7 @@ Band: *Dramatised. Rests on the hold at 18:44:13, in my own words through the co
 
 **Narrator.** In the early hours of 31 October, two days later: the 95% was a footnote. I could have moved to another session. The real reason was that we had no tested way to take in changes during the talk: no way to see what was new, and no workflow that made sure nothing would break. That is why I had been thinking about locking the first version.
 
-**Narrator.** That evening, the same day: the 95% was the token usage.
+**Narrator.** That evening, on 31 October: the 95% was the token usage.
 
 `%% for the editor: the last two sentences of this paragraph ("What they share ... show.") are the writer's reading across his three accounts; his to keep or drop.`
 
@@ -65,13 +67,13 @@ Band: *My three accounts, as the register holds them; the later two were given a
 
 **Dev** *(rueful)*: I built a tool to freeze the finished slides, so nothing could change them on stage. I never ran it.
 
-**Dev** *(more quietly)*: I was in your player fixes until the end. The lock was right there. I kept meaning to get to it.
+**Dev** *(more quietly)*: I was in your player fixes until the end. The last one landed just before the hold. The lock was still waiting.
 
 **Narrator.** The parts, second. The talk was planned in three, each with its own time to lock.
 
 **Deck** *(overwhelmed)*: Only the first part was ever finished.
 
-**Deck** *(to itself, rearranging slides that will not be shown)*: The second and third were in progress at the hold. I reviewed everyone's work all night. I did not finish my own.
+**Deck** *(to itself, rearranging slides that will not be shown)*: The second and third were in progress at the hold. I reviewed other agents' work all night. I did not finish my own.
 
 **Narrator.** The moment that was missed, third. In the afternoon the talk was split into its parts. The storyteller arrived after two, and its slot came round between the deadlines.
 
@@ -104,6 +106,8 @@ Band: *Dramatised. Rests on the part locks and their state at the hold, the talk
 Band: *Dramatised. The strip's lines are ruv-sgit's script, written for this book; the quoted line is the conductor's, from its debrief of 02:19.*
 
 ## Do this now
+
+`%% for the editor: "The hold is the one part of my factory I would copy first." is the writer's reading of his view; his to keep or drop.`
 
 **Narrator.** The hold is the one part of my factory I would copy first. It is also the one part that has to be written down before you need it.
 

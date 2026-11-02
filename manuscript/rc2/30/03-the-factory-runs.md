@@ -31,7 +31,7 @@ Band: *The wakes started by the schedule and by me, hour by hour; no wake from j
 
 **Figure:** a two-panel card. Left: the clipboard, "out of scope", and the researcher pointing at its rules. Right: the clipboard, "objection withdrawn", and the file going in. The record's words in small type under each panel. ruv-sgit's card (`lab/experiments/30-ruv-the-reviewer-card/card.svg`).
 
-`%% record: af0010b team/researcher/wakes/20261029T041003Z.json timeline/cast-scenes.md scene 3`
+`%% record: C107 af0010b team/researcher/wakes/20261029T041003Z.json timeline/cast-scenes.md scene 3`
 Band: *Dramatised. Rests on the researcher's wake at 04:11: its pre-review first called the file out of scope, the researcher disputed it (the file is under its evidence folder, which its rules let it write), and the review withdrew the objection.*
 
 ## Sent back, and owned
@@ -64,7 +64,7 @@ Band: *Dramatised. Rests on the researcher's wake at 04:11: its pre-review first
 
 **Figure:** three "sent back" cards in a row: who sent what to whom, and the reason in their own words. Deck to ruv-sgit, the picture; deck's reviewer to deck, the second request; the designer to itself, the table. For the designer.
 
-`%% record: 78b89b9 src/pages/studio/reviews/e02.html aeffbf9 team/deck/debriefs/2026-10-29__e01-review.md 56c680b team/designer/debriefs/2026-10-29__note-3-checked.md 09317d9 timeline/quotes.md timeline/cast-scenes.md scene 3`
+`%% record: C107 78b89b9 src/pages/studio/reviews/e02.html aeffbf9 team/deck/debriefs/2026-10-29__e01-review.md 56c680b team/designer/debriefs/2026-10-29__note-3-checked.md 09317d9 timeline/quotes.md timeline/cast-scenes.md scene 3`
 Band: *Dramatised. Rests on deck's review of ruv-sgit's picture (06:21), deck's reviewer asking it to hold a second request while one was in flight (04:19), the designer's note to dev and the conductor (10:49), and the conductor's note to ruv-sgit on its commits (10:05). The quoted lines are theirs.*
 
 ## The creator comes back
@@ -136,4 +136,4 @@ Band: *Dramatised. Rests on studio's wake from 17:41 to 17:47: the session's own
 
 The talk's repository at the end of the day: the researcher's wake of 04:11, deck's review and debrief, the designer's note, the conductor's note to ruv-sgit, my feedback round, the player's port and its last fixes, the researcher's finding and the storyteller's letter, and studio's wake. The historian's timeline of the six alone and the afternoon, and its table of quotes. The researcher's register for every time and count. ruv-sgit's drawing of the afternoon loop. The storyteller's outline for this chapter. Lines kept word for word from the 10-page edition: the researcher's, deck's, ruv-sgit's, the designer's, the conductor's and the storyteller's first lines in each scene, studio's line, and the narrator's "That is the part of the record I find hardest to believe, and easiest to check." and the loop's last line.
 
-`%% record: talk repository at 298be4e: af0010b aeffbf9 78b89b9 56c680b 09317d9 c9ced4e 3314ffe dbd75ad 2726f0e b208a16 bd3cdad 7d0244d f1cbca0 8d208d3; timeline/cast-scenes.md scenes 3 to 5; timeline/quotes.md; timeline/triggers.md; claims/register.json C011 C028 C087 C088 C104 C105; lab/experiments/29-ruv-the-afternoon-loop/; chapter-plan/edition-30-outline.md chapter 3`
+`%% record: talk repository at 298be4e: af0010b aeffbf9 78b89b9 56c680b 09317d9 c9ced4e 3314ffe dbd75ad 2726f0e b208a16 bd3cdad 7d0244d f1cbca0 8d208d3; timeline/cast-scenes.md scenes 3 to 5; timeline/quotes.md; timeline/triggers.md; claims/register.json C011 C028 C087 C088 C104 C105 C107; lab/experiments/29-ruv-the-afternoon-loop/; chapter-plan/edition-30-outline.md chapter 3`
