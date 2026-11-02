@@ -29,7 +29,7 @@
 *The talk ran for about 87 minutes, to a room in London. Its transcript was added to the record after the day.*
 
 `%% record: C102 C069 C100 a9c0b49 5d13d72`
-Band: *The quoted passage is the editor's own, from the transcript of the talk at 15:50 on the recording's clock (added after the day). The change at 18:26 rests on motion's wake record and its commit at 18:29.*
+Band: *The quoted passage is my own, from the transcript of the talk at 15:50 on the recording's clock (added after the day). The change at 18:26 rests on motion's wake record and its commit at 18:29.*
 
 ## The loop
 
@@ -63,7 +63,7 @@ Band: *Bret Victor's words as published; the talk named and dated as the registe
 
 **Narrator.** By factory I mean something specific, and fairly modest. A team of AI agents, gathered around one objective, run hard for one day, and taken apart when the job was done. Nine of them, each with one job and one page of rules. None of the parts was new: the build, the check every change had to pass, the brief, the brake that could stop them all. Each came from something I had built before. What was new was having all of them at once, as a team.
 
-*Words on this page:* an **agent**, here, is an AI that works in a loop: it reads, decides, acts with tools, and checks the result. The **player** is the part of the talk's site that let the editor press play on stage.
+*Words on this page:* an **agent**, here, is an AI that works in a loop: it reads, decides, acts with tools, and checks the result. The **player** is the part of the talk's site that let me press play on stage.
 
 **Narrator.** It sounds grander than it is. You will meet each of them in the next chapter, in the order they arrived: the first four within the hour of an empty project, the rest through the day. One chair at the table stays empty all day, and that matters later.
 
