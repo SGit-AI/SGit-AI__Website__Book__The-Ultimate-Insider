@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Three reads of RC2 chapters 2 and 3 (quotes exact), summary on the personas index, PDF rebuilt, letter synthetic__002 to the writer cc the conductor, issue 008 noted, status, debrief, REALITY; gate clean, scope clean, comms clean (775fbfbb).",
    "at": "2026-11-02T21:47:49Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "All files inside scope.writes plus the REALITY.md append; letters via the mailroom with an outbox copy; reviews labelled synthetic; no em-dashes, religious words, secrets or contact details; nothing to the Cold-Read repository.",
+   "at": "2026-11-02T21:48:55Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Every plan item present: three reads and summary, letter to the writer (conductor on Cc, as with chapter 1), chapter 1 check, section and PDF rebuilt, issue 008, status, debrief, REALITY. vault_check and quote checks run in the session, not in the diff.",
+   "at": "2026-11-02T21:48:55Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T21:48:55Z",
+ "outcome": "ok"
 }
