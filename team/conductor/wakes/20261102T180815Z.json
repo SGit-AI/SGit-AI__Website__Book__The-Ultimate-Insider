@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake",
+ "started": "2026-11-02T18:08:15Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (plan; reviewed by the security sub-agent below)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1 file the six letters to done; 2 answer the storyteller (conductor__043): the Cold-Read chapter's place rests on D6-6, his open decision, so the seventy keeps the place it left and the question goes to him in the brief; 3 brief 43: RC2's chapter 1 landed (1,502 words, 3 figures named, librarian clean; the publisher builds it at its next slot), the thirty fully outlined, the seventy sketched, the writer back to every two hours; asks: D6-6, RL1, Leanpub, and security's one word on the listing (tied to D12); the conductor's own scratch build is not sent, since it prints the source markers the publisher's pipeline strips; 4 status; nothing decided; no member file edited.",
+   "at": "2026-11-02T18:08:57Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "In scope; D6-6, D12, RL1 stay his; no member file; the brief repeats no value from security__018.",
+   "at": "2026-11-02T18:09:29Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

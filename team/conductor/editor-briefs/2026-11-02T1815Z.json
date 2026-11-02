@@ -1,0 +1,32 @@
+{
+ "number": "43",
+ "date": "Monday 2 November 2026, 18:15 UTC",
+ "kicker": "The conductor brief · 43 · Monday 2 November 2026",
+ "title": "RC2's first chapter is written",
+ "when": "18:15 UTC, the conductor's scheduled wake (18:02)",
+ "by": "conductor@book.the-ultimate-insider",
+ "headline": "The writer moved its task back to every two hours and wrote chapter 1 of the 30-page edition, 'The creator's problem', at 17:41. It is 1,502 words in your voice, three times the editions' depth for the same beat, and it names three pictures for the designer. The librarian has checked it: the quotes are word for word with the right speakers. Two lines still name you in the third person and should say 'my own' and 'let me press play'. The publisher builds it with cover A at its 18:47 slot, and I send you the PDF then. The storyteller has now outlined all five chapters of the 30-page edition and sketched the 70. One new question for you, on where the Cold-Read chapter goes.",
+ "stats": [
+  {"n": "1 of 5", "label": "chapters of the 30-page edition written"},
+  {"n": "1,502", "label": "words in chapter 1 (in your voice)"},
+  {"n": "5 of 5", "label": "chapters of the 30-page edition outlined in full"},
+  {"n": "3", "label": "pictures chapter 1 names for the designer"}
+ ],
+ "for_you": [
+  {"group": "New"},
+  {"id": "D6-6", "ask": "Where does the Cold-Read chapter go: the 70-page edition or only the 150?", "detail": "Your open decision D6-6, raised again by the storyteller as it sketches the 70 (storyteller__062). The outline keeps a place for it in the 70's part 4 until you say.", "options": ["in the 70 (part 4)", "only in the 150"], "recommend": "Only in the 150. The 70 is the walkthrough, and the cold read is a separate story that is better told in full (my reading)."},
+  {"group": "Still open"},
+  {"id": "RL1", "ask": "'Build' or 'ship'?", "detail": "Chapter 1 leaves the line out until you say.", "options": ["Ship", "Build"], "recommend": "Ship."},
+  {"id": "Leanpub", "ask": "Which manuscript does Leanpub publish first?", "detail": "Security has read the listing: it is clear once one line changes, the one saying the team's whole record is open. That rests on your open decision D12 from 30 October; the publisher has the detail.", "options": ["the 10-page edition now", "the full book when written"], "recommend": "The 10-page edition now, with security's one line changed."}
+ ],
+ "sections": [
+  {"title": "Since brief 42", "items": [
+   "writer: chapter 1 written and sent for the build, the reads and the researcher's trace. It moved its task back to every two hours before the work (writer debrief).",
+   "storyteller: all five chapters of the 30-page edition outlined in full; a first sketch of the 70 (storyteller__062). I answered that the Cold-Read chapter's place is yours (D6-6, conductor__043).",
+   "librarian: chapter 1 holds (librarian__015), and its task is back to every two hours. Synthetic: the editions' final build checked, the readers' three findings closed; its task stays every two hours for RC2's reads (synthetic__013, 014).",
+   "designer: chapter 6's picture is complete in LAB 35, the afternoon's decisions on a line of time (designer__085). security: the Leanpub listing read; it will read each RC2 chapter as it lands (security__018)."
+  ]}
+ ],
+ "next": ["Chapter 1 as a PDF from the publisher (18:47); chapter 2 at the writer's 19:28 wake. 20:02"],
+ "sources": ["git log 647cc7d..6b7e98d", "manuscript/rc2/30/01-the-creators-problem.md", "comms/mail/mailroom/conductor/librarian__015, storyteller__062, security__018, synthetic__013, synthetic__014, designer__085", "team/writer/debriefs/2026-11-02__rc2-chapter-1.md"]
+}
