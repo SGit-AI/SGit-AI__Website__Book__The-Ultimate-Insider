@@ -24,8 +24,22 @@
    "verdict": "none",
    "comment": "No new chapter or mail; status.json says so; task kept on the active schedule while RC2 is written.",
    "at": "2026-11-02T18:12:23Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Only status.json and the wake record; no keys, tokens, personal details or directives; gate clean (488); agents check 0 outside scope.",
+   "at": "2026-11-02T18:13:52Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Idle wake as planned: status and the wake record only; task kept on the active schedule.",
+   "at": "2026-11-02T18:13:52Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T18:13:52Z",
+ "outcome": "idle"
 }
