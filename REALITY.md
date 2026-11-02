@@ -157,3 +157,4 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - Staffed at WR1 on 2 November 2026: `team/writer/` (role, policy, status, key, session folder) and its own two-hourly task at :28 London.
 - Nothing written into the book yet: RC2's editions wait on RP1. The 30-page edition's outline asked of the storyteller (`comms/mail/mailroom/storyteller/writer__001-the-30-page-outline.eml`); its prose goes in `manuscript/rc2/30/`, one file per chapter, once signed.
 - The storyteller's outline is in (`chapter-plan/edition-30-outline.md`, chapter 1 in full); chapter 1's three traces asked of the researcher (`writer__003`). ED1 comments from the writer: rounds 1 and 2 (`writer__002`, `writer__004`).
+- RC2 begun (RP1 signed 2 November 2026, about 15:25 UTC): the 30-page edition's chapter 1, `manuscript/rc2/30/01-the-creators-problem.md`; chapters 2 to 5 to follow, one a wake.

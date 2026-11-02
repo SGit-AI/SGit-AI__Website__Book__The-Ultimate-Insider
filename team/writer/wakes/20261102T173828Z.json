@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer",
+ "kind": "scheduled, idle at 17:28 London",
+ "started": "2026-11-02T17:38:28Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (Sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. Letters (mailroom/publisher and storyteller, historian, synthetic, researcher /writer__NNN, outbox copies): the publisher gets file name and order for rc2/Book.txt (its file); the four get chapter 1 landed, read and trace. 2. manuscript/rc2/30/01-the-creators-problem.md from edition-30-outline.md and prep/30-chapter-1.md: editor's voice, Figure lines, do-this-now, ids C069 C102 C103 C011 C001 C088, %% record lines, RL1 marker, Where this came from. 3. Seven letters into done/ (052 overtaken by RP1); board issue per chapter; status (cadence active), debrief, REALITY.md; vault_check comms, build and validate. Task already back to every two hours (Cadence 4).",
+   "at": "2026-11-02T17:39:37Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (Sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "RP1 signed, so manuscript/rc2/ is open. Inside scope. Conditions: never write manuscript/rc2/Book.txt (the publisher's: a letter only); numbers only from register ids; Victor's public words (C103) and the editor's recorded words only; no dramatised scene as fact; no religious words; nothing attack-shaped; vault_check comms; check 052 is overtaken by RP1; no book.json or other members' files.",
+   "at": "2026-11-02T17:39:58Z"
+  },
+  "work": {
+   "by": "writer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Chapter 1 of the thirty in manuscript/rc2/30/01-the-creators-problem.md (ids C001 C011 C069 C088 C100 C102 C103; RL1 marked); letters 006 to 010 with outbox copies; seven letters into done/; board, status (active), debrief, REALITY.md; vault_check clean; Book.txt untouched.",
+   "at": "2026-11-02T17:41:30Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (Sonnet), steps 4 and 5 in one agent to spare usage",
+   "model": "sonnet",
+   "verdict": "finding",
+   "comment": "Scope, build, gate, agents check, vault_check clean; Book.txt untouched; quotes word for word, numbers match the register. Finding: 'Two days after the talk' for the voice note of 1 November (three days); minor: the building's description not in the register. Both fixed in the same wake: 'On 1 November, three days after the talk'; the description cut to the quote.",
+   "at": "2026-11-02T17:43:00Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (Sonnet), with step 4",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "All three done: letters 006 to 010 with outbox copies; chapter 1 with its ids, RL1 marker and sources; seven letters in done/, board, status, debrief, REALITY.md. Conditions kept; task active at 28 */2. Nothing unplanned.",
+   "at": "2026-11-02T17:43:00Z"
+  }
+ },
+ "closed": "2026-11-02T17:43:00Z",
+ "outcome": "ok"
+}
