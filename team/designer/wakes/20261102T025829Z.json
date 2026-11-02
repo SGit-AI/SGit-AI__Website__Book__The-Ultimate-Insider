@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, every two hours at :57 London",
+ "started": "2026-11-02T02:58:29Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. team/designer/mn1-notes-for-check.md: for LAB 30's eighteen parts, a short verbatim fragment from chapters 11 and 11b (read only), with section, line and any claim id the sentence cites; a numbered fragment keeps its claim id or is dropped; nothing printed before the researcher's check. 2. Letters to the researcher (the list) and the conductor (035); mail filed; issue 010; vault_check comms; debrief, status.json, REALITY.md; build, validate, agents check.",
+   "at": "2026-11-02T02:59:09Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope; manuscript read only. Conditions: fragments verbatim with section, line and claim id, a numbered fragment without an id dropped; nothing toward the Cold-Read repository; vault_check comms; nothing secret or attack-shaped; nothing printed before the researcher's check.",
+   "at": "2026-11-02T02:59:26Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "",
+   "verdict": "done",
+   "comment": "mn1-notes-for-check.md: eighteen verbatim fragments with section and line, checked by script (one line number corrected, one section label fixed); map 6 part 6 changed to keys; letters 065, 066; conductor__035 filed; issue 010; debrief, status.json, REALITY.md. Nothing printed.",
+   "at": "2026-11-02T03:01:03Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
