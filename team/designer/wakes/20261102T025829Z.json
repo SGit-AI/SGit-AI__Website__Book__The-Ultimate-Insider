@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "mn1-notes-for-check.md: eighteen verbatim fragments with section and line, checked by script (one line number corrected, one section label fixed); map 6 part 6 changed to keys; letters 065, 066; conductor__035 filed; issue 010; debrief, status.json, REALITY.md. Nothing printed.",
    "at": "2026-11-02T03:01:03Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "All files in scope; manuscript untouched; all 18 fragments verbatim at their cited lines (checked by script); no numbers without ids; nothing toward the Cold-Read repository; no em-dashes or secrets; vault_check comms clean.",
+   "at": "2026-11-02T03:02:32Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Both items done in 23293f1; nothing printed. Its note on swapped slugs checked: 066 tells the conductor the list went to the researcher, so its slug is right.",
+   "at": "2026-11-02T03:02:32Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T03:02:32Z",
+ "outcome": "ok"
 }
