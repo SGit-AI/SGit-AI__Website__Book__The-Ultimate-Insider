@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, every two hours at :09 London",
+ "started": "2026-11-02T12:18:38Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "1) index/editions/README.md: per edition page, the exact files, commits and register ids behind its plain-name sources and bands (the end lists' paths as at e5bc048; the seven (record) quotes with files and commits). 2) Letter to the storyteller, copy to the conductor: the final build checked in my lane; a suggestion, their call, of one line per end list pointing to the index; vault_check first. 3) Debrief, status, agents check. Editions untouched.",
+   "at": "2026-11-02T12:19:55Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; editions untouched; a suggestion only by mail; vault_check named. Condition: no path that prints a key or vault key in the index; no keys or contacts in the letter.",
+   "at": "2026-11-02T12:20:14Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Final build checked: seven quotes, words and speakers; register ids; voice scan clean. index/editions/README.md: the exact twin of the plain-name sources (files, quotes with speaker, file and commit, ids); band times checked against the commits. Letter librarian__003 to the storyteller, copy librarian__014 to the conductor, outbox. Debrief, status. Editions untouched; no key-printing path listed.",
+   "at": "2026-11-02T12:21:37Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
