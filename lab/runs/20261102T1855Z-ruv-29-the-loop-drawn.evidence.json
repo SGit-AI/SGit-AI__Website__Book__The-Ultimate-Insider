@@ -1,0 +1,28 @@
+{
+ "schema": "the-ultimate-insider/lab-run-evidence/v1",
+ "run": "20261102T1855Z-ruv-29-the-loop-drawn",
+ "started": "2026-11-02T18:55:07Z",
+ "wake_record": "team/ruv-sgit/wakes/20261102T185507Z.json",
+ "calls": [
+  {
+   "what": "python3 -B -I tools/draw.py: loop.svg and pages.html, the three claims asserted checked",
+   "tool": "python"
+  },
+  {
+   "what": "rendered in Chromium; the port's label moved off the tick labels; the middle group labelled 'routed by the conductor'",
+   "tool": "playwright"
+  },
+  {
+   "what": "lab/tools/build_lab.py in a scratch copy: 107 pages, LAB 29 on one page as declared",
+   "tool": "the designer's build, read only"
+  }
+ ],
+ "outputs": {
+  "svg": "lab/experiments/29-ruv-the-afternoon-loop/loop.svg",
+  "hashes": "lab/experiments/29-ruv-the-afternoon-loop/SHA256SUMS"
+ },
+ "time": {
+  "work_started": "2026-11-02T18:56:00Z",
+  "work_ended": "2026-11-02T18:58:00Z"
+ }
+}
