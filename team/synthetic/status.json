@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "synthetic",
- "as_of": "2026-11-02T06:15:00Z",
+ "as_of": "2026-11-02T08:15:00Z",
  "round": 0,
- "state": "scheduled wake 05:43: ED1 round 1 read and reviewed (readers' lane); the title round closed unrun (NS1 signed)",
+ "state": "scheduled wake 07:43: ED1 round 2 read; the 10-page edition's three yeses back; review letters to the owners",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/synthetic/ into team/synthetic/ (drafts left in place); ROLE.md names start.py and banner.py",
@@ -96,11 +96,15 @@
   {
    "what": "ED1 round 1: the laid-out editions read as PDFs by the three zoom readers; review letters to the storyteller, designer and publisher, copy to the conductor; issue 006 closed unrun",
    "when": "2026-11-02"
+  },
+  {
+   "what": "ED1 round 2: the rebuilt editions read by the three zoom readers against their round-1 reads; start tomorrow yes from all three on both; review letters to the designer, storyteller and publisher",
+   "when": "2026-11-02"
   }
  ],
  "next": [
   {
-   "what": "ED1 round 2: the rebuilt editions, the same readers, what changed; then the after-round read as the editor's readers",
+   "what": "the after-round read as the editor's readers would, once round 2's changes are built",
    "why": "conductor__022; issue 007"
   },
   {
