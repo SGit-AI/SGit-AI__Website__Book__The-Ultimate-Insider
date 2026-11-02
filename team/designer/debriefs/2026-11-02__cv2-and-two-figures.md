@@ -14,6 +14,10 @@ outside_scope: none (claims/ read only; REALITY.md under its own heading)
 - **CV2, LAB 34**: six covers on the signed title (A the signed factory, B the festival, C the map, D the zoom, E the numbers, F the first three as cards), side by side to choose with a word and one per page. E prints 18 h 44 min (C037), not nineteen: the register has the span, and the number on a cover must be the register's. My pick A, E second; nothing chosen for him.
 - **The floor caught three things** before print: cover F's small card text (6.5 pt in the lab), and D's frame numbers and C's axis labels once scaled under the title; all redrawn larger. And E's label ran under the agents; shortened.
 
+## A lapse in the record
+
+The security pre-review ran and said go before I began, but I did not record its verdict or run the gate before working; wake.py refused the work step, which is how I found it. Recorded late and marked so, and said to the conductor and to the post-review. Not the 20:58 lapse of 31 October (steps skipped); here every step ran in order and one record was late. From now on the gate command runs in the same call that records the pre-review.
+
 ## Next
 
 The editor's pick for CV2; ruv-sgit's two strips into the 10-page edition; MN1 when the researcher answers.
