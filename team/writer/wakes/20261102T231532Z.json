@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Chapters 3 and 4 revised on five letters; chapter 5 (C037 C101; two book-record scenes fde3fea, 9395328) and the series page in manuscript/rc2/30/; letters 025 to 028; five letters into done/; status (pace), debrief, board, REALITY.md; vault_check clean; no Book.txt or rc2-figures.json.",
    "at": "2026-11-02T23:19:23Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (Sonnet), steps 4 and 5 in one agent to spare usage",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Build and gate clean (519 pages); agents check 0 outside; vault_check clean. Cost line word for word (C101, C037). Both book-team scenes banded as this book's record, matching fde3fea, 9395328 and brief 34. No private person, no Cold-Read, no figures in agent lines, Web Summit as a plan. No em-dashes, religious words, Book.txt or rc2-figures.json. Edits to 03 and 04 small.",
+   "at": "2026-11-02T23:20:21Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (Sonnet), with step 4",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "All three done: requests first (C107; chapter 4's edits), chapter 5 with the cost and running lines, the series page, letters 025 to 028, five into done/, status, debrief, board, REALITY.md. Conditions kept; nothing unplanned.",
+   "at": "2026-11-02T23:20:21Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T23:20:21Z",
+ "outcome": "ok"
 }
