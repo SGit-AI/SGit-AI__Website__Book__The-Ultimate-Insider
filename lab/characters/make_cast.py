@@ -170,7 +170,7 @@ EDITOR_OPTIONS = {
     "B": ("on stage: a headset and a clicker", "he gave the talk (C069)"),
     "C": ("a map in hand", "the book's maps, his way of reading a business"),
     "D": ("the usage dial at ninety-five", "the hold at 18:44 (C006)"),
-    "E": ("a goalpost under one arm", "the bible's kind joke: he moves the goalposts"),
+    "E": ("a goalpost under one arm", "the cast guide's kind joke: he moves the goalposts"),
     "F": ("one of the team: a screen for a face, a lanyard", "the tenth member, as the cast sees him"),
 }
 
@@ -230,4 +230,7 @@ if __name__ == "__main__":
         for mood in MOODS:
             (out / f"{m}-{mood}.svg").write_text(svg(20, 25, f'<g transform="scale(.5)">{figure(m, mood)}</g>',
                                                      f"The {m}, {mood} (the book's reading): {look}"))
-    print(f"written {len(CAST) * len(MOODS)} figures in lab/characters/cast/")
+    for mood in MOODS:  # the narrator, option A, signed by the editor (DR1, 2 November 2026)
+        (out / f"narrator-{mood}.svg").write_text(svg(20, 25, f'<g transform="scale(.5)">{editor_figure("A", mood)}</g>',
+                                                      f"The narrator, {mood} (the book's reading): the brief and a pen"))
+    print(f"written {len(CAST) * len(MOODS)} figures and the narrator's {len(MOODS)} in lab/characters/cast/")

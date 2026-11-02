@@ -16,3 +16,5 @@ Guard rails (the editor's, and security's pre-review of 1 November): AI agents o
 1 November 2026, 05:35: the scorecards read both tables (C014, C095) at build, ruv-sgit footnoted at the researcher's check; the sample's page 7 with the personas as LAB 27's fifth sheet, a proposal until the editor reacts (brief 29).
 
 1 November 2026, 13:35: the bible taken (marker in arrival order); DR1: six options of the editor as narrator in LAB 32, his card from C003, C087, C069; only his signed pick goes to the book.
+
+2 November 2026, 05:35: CV1 A and DR1 A signed by the editor; the title signed (NS1). Narrator A exported for the editions (`lab/characters/cast/narrator-<mood>.svg`). ED1 round 1 review letters sent (`designer__067` to `069`).

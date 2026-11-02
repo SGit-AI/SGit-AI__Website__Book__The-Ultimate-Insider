@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, every two hours at :57 London",
+ "started": "2026-11-02T04:58:37Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. ED1 round 1, the look: build the 3- and 10-page editions with the publisher's build on a scratch copy (publishing/ and manuscript/ untouched), read every page, review letters (page, change, why) to the publisher, storyteller or ruv-sgit by lane, copy to the conductor; own edits only in lab-look.css or lab drawings. 2. RW1: 'the bible' to 'the cast guide' in my lab files (past letters not rewritten); lab PDF rebuilt; CV1 A and DR1 A recorded as signed in issues 020, 021 and on LAB 32, 33. 3. Letter to the conductor (CV2 and MN1 next); mail filed; vault_check comms; debrief, status.json, REALITY.md.",
+   "at": "2026-11-02T04:59:48Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope. Conditions: edit only lab/tools/book/lab-look.css, never publishing/'s copy; publishing/ and manuscript/ untouched, builds on a scratch copy, no stray output; RW1 forward only, in my own lab files; review letters only in my lane, copy to the conductor; no religious words in letters; vault_check comms; nothing secret or attack-shaped.",
+   "at": "2026-11-02T05:00:10Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "",
+   "verdict": "done",
+   "comment": "editions built on a scratch copy (6 and 12 pages) and reviewed; letters 067 (publisher), 068 (storyteller), 069 (ruv-sgit), 070 (conductor); narrator A exported; RW1 in make_cast.py and LAB 32; LAB 32, 33 mark the signed picks; lab PDF 92 pages; seven letters filed (042 kept open for CV2); issues 020, 021; debrief, status.json, REALITY.md. publishing/ and manuscript/ untouched.",
+   "at": "2026-11-02T05:02:37Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
