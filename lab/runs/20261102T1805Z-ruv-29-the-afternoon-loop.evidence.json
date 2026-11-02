@@ -1,0 +1,19 @@
+{
+ "schema": "the-ultimate-insider/lab-run-evidence/v1",
+ "run": "20261102T1805Z-ruv-29-the-afternoon-loop",
+ "started": "2026-11-02T18:05:48Z",
+ "wake_record": "team/ruv-sgit/wakes/20261102T180548Z.json",
+ "calls": [
+  {
+   "what": "python3 -B -I tools/extract.py --talk <scratchpad clone>: eight commits",
+   "tool": "python"
+  }
+ ],
+ "outputs": {
+  "data": "lab/experiments/29-ruv-the-afternoon-loop/data/asks.json"
+ },
+ "time": {
+  "work_started": "2026-11-02T18:08:00Z",
+  "work_ended": "2026-11-02T18:09:00Z"
+ }
+}
