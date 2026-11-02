@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "librarian",
- "as_of": "2026-11-01T14:15:00Z",
+ "as_of": "2026-11-02T09:17:00Z",
  "round": 0,
- "state": "idle: the 14:13 wake (after the storyteller's hold was lifted) found no request and no new RC2 text; 002 and 005 wait on RC2's chapters and the editions (ZM1). Task on 09:09 and 17:09 London",
+ "state": "Active (09:12 wake, 2 November): RW1 in the voice scanner; ED1 round 1 sent (sources hold, commits for the (record) quotes asked for; two lines into the first person). Next: round 2 when the publisher announces the rebuild",
  "done": [
   {
    "what": "Session key made and published (team/librarian/key.json, key.png, sessions/session_01Kw9UwBgUFHEgwLsB3TrwA8/)",
@@ -100,9 +100,21 @@
   {
    "what": "RC2's sample checked: sources clean (tools read the inline form), voice in the first person; index/chapters/first-ten-pages.md; letter librarian__010",
    "when": "2026-11-01T09:12:00Z"
+  },
+  {
+   "what": "Letter 016 (RW1): religious words in team/librarian/voice/voice_scan.py; reply librarian__012",
+   "when": "2026-11-02T09:16:00Z"
+  },
+  {
+   "what": "ED1 round 1: team/librarian/reviews/ed1-round1.md; review letter librarian__001 to the storyteller, copy to the conductor",
+   "when": "2026-11-02T09:16:00Z"
   }
  ],
  "next": [
+  {
+   "what": "ED1 round 2: read the rebuilt editions in my lane when the publisher says so",
+   "why": "letter 017"
+  },
   {
    "what": "Each wake: check_sources.py on every RC1 chapter (full-history clones), findings to the conductor with file and line",
    "why": "board 002"
@@ -120,7 +132,7 @@
  "session": "session_01Kw9UwEJGqU63vtsX81uGNm",
  "task": {
   "id": "trig_01FSNcFLFBHSd9sEGYn86ndy",
-  "cron": "CRON_TZ=Europe/London 9 9,17 * * *",
+  "cron": "CRON_TZ=Europe/London 9 */2 * * *",
   "created": "2026-10-30T12:18:23Z",
   "into": "session_01Kw9UwEJGqU63vtsX81uGNm",
   "prompt": "word for word from team/conductor/schedule.json, runs entry for librarian",
@@ -129,8 +141,8 @@
    "into": "session_01Kw9UwBgUFHEgwLsB3TrwA8",
    "state": "paused at the editor's word, about 10:50 UTC; not deleted"
   },
-  "changed": "2026-11-01T14:14:18Z: to idle (9 9,17), by this session, WAKE.md Cadence 3, in the wake's reviewed plan. Before: 2026-11-01T09:11:22Z, active (9 */2)"
+  "changed": "2026-11-02T09:13:13Z: back to active (9 */2) by this session, WAKE.md Cadence 4, ED1. Before: 2026-11-01T14:14:18Z, idle (9 9,17)"
  },
  "board": "comms/issues/librarian/issues/",
- "cadence": "idle"
+ "cadence": "active"
 }

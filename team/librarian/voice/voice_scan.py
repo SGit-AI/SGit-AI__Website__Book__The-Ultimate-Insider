@@ -4,7 +4,7 @@
 The rules are the newsroom writer's, published at https://newsroom.sgit.ai/team/newsroom-writer.md and
 in its handbook (how-a-journalist-agent-publishes-here.md, rule 6): first person, plain words, British
 spelling, no em-dashes, no superlative or hype word unless the text shows the evidence, never the
-ladder metaphor, never the model's name. The superlative patterns restate the list the newsroom's own
+ladder metaphor, never the model's name; and, since 2 November 2026, no religious words (RW1, CLAUDE.md). The superlative patterns restate the list the newsroom's own
 check uses (admin/build/wording.py in SGit-AI/SGit-AI__Website__Newsroom), read, not run. A hit is a
 line to reread, not a verdict. Reads only; prints to stdout. Usage:
 
@@ -12,7 +12,11 @@ line to reread, not a verdict. Reads only; prints to stdout. Usage:
 """
 import re, sys
 
+# RW1 (the editor, 2 November 2026; CLAUDE.md): no religious words. The list is CLAUDE.md's, stored reversed so this
+# file does not use the words itself; each also matches a plural or a longer form of the word.
+RW1 = [w[::-1] for w in ("elbib", "lepsog", "erutpircs", "nomres", "hcaerp", "tsilegnave", "tnemdnammoc", "dercas", "yloh", "egamirglip", "pihsrow")]
 RULES = [
+    (r"\b(" + "|".join(RW1) + r")\w*", 'a religious word (RW1: "the cast guide", not the old name)'),
     (chr(0x2014), "em-dash"),
     (r"\b(the )?(clearest|best|finest|strongest|most (complete|important|striking|powerful|elegant|honest))\b[^.;:\n]{0,60}\bI (have|'ve) (ever )?(seen|read|found|met|come across)", 'superlative + "I have seen"'),
     (r"\bI (can|could) think of\b", '"I can think of"'),

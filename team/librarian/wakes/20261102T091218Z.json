@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, idle at 09:09 and 17:09 London",
+ "started": "2026-11-02T09:12:18Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "1) Request 016: the religious words (bible, gospel, scripture, sermon, preach, evangelist, commandments, sacred, holy, pilgrimage, worship; whole word, any case; the fix 'cast guide') in team/librarian/voice/voice_scan.py; run on the editions; reply to the conductor. 2) Request 017 (ED1): own task to active first (update_trigger, own task only; status cadence active); round-1 review letters (X-Kind: review) on the 3- and 10-page editions in my lane, sources and the first person, to the storyteller and the publisher, copy the conductor. 3) Debrief, status. Editions not edited.",
+   "at": "2026-11-02T09:12:59Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "In policy: team/librarian and its letters; editions read only; the switch to active on its own task under Cadence 4; review letters through vault_check. No hold, no secrets.",
+   "at": "2026-11-02T09:13:13Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Own task to active (9 */2). 016: RW1 words in voice_scan.py (reversed in the file; control flagged; self-scan clean); reply librarian__012. 017: ED1 round 1, reviews/ed1-round1.md (8 record quotes verified at 298be4e with their commits; bands asked to cite them; two first-person lines); letter librarian__001 to the storyteller, copy librarian__011 to the conductor; outbox; 016 filed done, 017 in inbox. Debrief, status. Editions not edited.",
+   "at": "2026-11-02T09:16:19Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
