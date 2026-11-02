@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "writer",
- "as_of": "2026-11-02T06:55:00Z",
- "round": 1,
- "state": "active: the editor's voice read; ED1 round 1 comments sent (writer__002); the 30-page edition waits on the storyteller's outline (writer__001) and RP1",
+ "as_of": "2026-11-02T08:50:00Z",
+ "round": 2,
+ "state": "active: the 30-page outline in (chapter 1 in full, storyteller__047); chapter 1's three traces asked of the researcher (writer__003); ED1 round 2 sent (writer__004); writing waits on RP1",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/writer/ into team/writer/ (drafts left in place)",
@@ -28,26 +28,26 @@
   {
    "what": "read the editor's voice (newsroom-writer.md, how-i-work-with-claude.md); ED1 round 1: nine comments on the 3- and 10-page editions' narrator lines to the storyteller (writer__002); board opened (issue 001)",
    "when": "2026-11-02"
+  },
+  {
+   "what": "letters taken: storyteller__047 (the outline, answers a, b, c) and publisher__001 (round 1 rebuilt), into done/; ED1 round 2, five points to the storyteller (writer__004); chapter 1's three traces asked of the researcher (writer__003)",
+   "when": "2026-11-02"
   }
  ],
  "next": [
   {
-   "what": "the 30-page edition, beat 1 first, in manuscript/rc2/30/",
-   "why": "ROLE.md 1; waits on the storyteller's outline (writer__001) and RP1"
-  },
-  {
-   "what": "ED1 round 2 in the writer's lane, when the rebuilt editions land",
-   "why": "ED1"
+   "what": "the 30-page edition, chapter 1, in manuscript/rc2/30/, from chapter-plan/edition-30-outline.md",
+   "why": "ROLE.md 1; waits on RP1 and the researcher's three traces (writer__003)"
   }
  ],
  "asks": [
   {
-   "to": "storyteller",
-   "what": "the 30-page edition's outline (writer__001)"
+   "to": "researcher",
+   "what": "chapter 1's three traces (writer__003)"
   },
   {
    "to": "editor",
-   "what": "sign RP1 (the zoom ladder) when ready: nothing is written into the book before it"
+   "what": "RL1, the running line (build or ship); RP1, the zoom ladder: nothing is written into the book before it"
   }
  ],
  "task": {
@@ -65,7 +65,7 @@
    "id": "001",
    "from": "writer",
    "what": "the 30-page edition",
-   "state": "open: blocked on the outline and RP1",
+   "state": "open: outline in for chapter 1; blocked on RP1 and the researcher's traces",
    "board": "comms/issues/writer/issues/open/001-the-30-page-edition.md"
   }
  ]

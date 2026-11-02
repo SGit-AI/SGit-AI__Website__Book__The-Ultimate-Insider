@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer",
+ "kind": "scheduled, every two hours at :28 London",
+ "started": "2026-11-02T08:31:07Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (Sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1) Requests first: letter writer__003 to the researcher (comms/mail/mailroom/researcher/, outbox copy): ch.1's two items to trace (the talk moment as given; the Inventing on Principle source's name and year) and confirm 'first four within the hour' on C011; no number printed until registered. 2) ED1 round 2: review letter writer__004 to the storyteller on cast/edition-03.md and edition-10.md (voice, zoom consistency), outbox copy; no edits to its files. 3) Take storyteller__047 and publisher__001 (inbox/ then done/), status.json, debrief, board issue 001, REALITY.md; nothing in manuscript/rc2/ while RP1 is unsigned; vault_check comms.",
+   "at": "2026-11-02T08:32:33Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (Sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside policy: letters to mailroom/*/writer__* and outbox; tracing is the researcher's role; storyteller files reviewed by letter only; nothing in manuscript/rc2; REALITY.md append, status, debrief, board within scope. Conditions: vault_check comms; no numbers until registered; no religious words or em-dashes; pull before push, dev only.",
+   "at": "2026-11-02T08:33:11Z"
+  },
+  "work": {
+   "by": "writer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "writer__003 to the researcher (three traces for chapter 1), writer__004 to the storyteller (ED1 round 2, five points), outbox copies; storyteller__047 and publisher__001 into done/; status, board issue 001, debrief; vault_check clean; nothing in manuscript/.",
+   "at": "2026-11-02T08:33:40Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
