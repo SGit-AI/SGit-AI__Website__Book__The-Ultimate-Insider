@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "publisher",
- "as_of": "2026-11-02T03:57:00Z",
- "round": 32,
- "state": "hold lifted; back to every two hours; the 3- and 10-page edition scripts in, waiting on the editor's word whether to build before he reads them",
+ "as_of": "2026-11-02T05:25:00Z",
+ "round": 33,
+ "state": "the 3- and 10-page editions built (manuscript/editions/), the signed title in the build; with security and the researcher; next the Leanpub listing draft",
  "done": [
   {
    "what": "session key published: team/publisher/key.json, key.png, sessions/session_01Kw9UwDVeRbKJZUWiRoRrHK/",
@@ -168,6 +168,10 @@
   {
    "what": "type A the build's default; $14.99 and type A in KDP.md with his words; his two KDP setup checks as his steps",
    "when": "2026-11-01T05:05Z"
+  },
+  {
+   "what": "publishing/edition.py; manuscript/editions/03 and /10 built (6 and 12 PDF pages), series page at the back (SP1), the signed title (NS1) in metadata.yaml; markua.close_divs fix",
+   "when": "2026-11-02T05:25Z"
   }
  ],
  "next": [

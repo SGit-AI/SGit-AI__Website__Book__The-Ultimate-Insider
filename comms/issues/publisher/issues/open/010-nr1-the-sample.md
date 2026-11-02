@@ -11,3 +11,5 @@ source: comms/mail/mailroom/publisher/conductor__038-nr1-the-sample.eml
 - [ ] Built at Crown Quarto, standard colour; to security, the researcher and synthetic before him
 
 2 November about 03:55 UTC: the storyteller's opening script and the 3- and 10-page edition scripts (ZM1) are in chapter-plan/cast/. The storyteller says nothing is written until the editor has read them; the conductor's 046 asks for the builds. Asked the editor in the session which comes first. Each edition to be built as manuscript/editions/<pages>/ with its own Book.txt; the %% marker lines dropped by the build.
+
+2 November about 05:20 UTC: the editor's word came (the conductor's 048, 049, 050). Both editions built: manuscript/editions/03/ (6 PDF pages) and /10/ (12 PDF pages) by publishing/edition.py, the series page at the back (SP1), the signed title (NS1) on the title page. Sent to the conductor (025), security (005), the researcher (004) and the storyteller (004). The opening pages in manuscript/sample/ (the first box) wait on the editor's read of the storyteller's opening script.

@@ -62,6 +62,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - Since 1 November about 00:50 UTC the build is at Crown Quarto (P2): 192 pages in type A (9.5 pt), 185 in type B (9 pt); the ink is standard colour at the editor's word, about $8.72 a copy (A).
 - The EPUB has its own stylesheet (`publishing/epub.css`): commands wrap and tables fit on a phone screen, call-outs in colour. EPUBCheck has not been run on it (refused in the session; waits on the editor).
 - `publishing/LEANPUB.md` now says: GitHub mode needs a Standard or Pro plan; untick the membership box for a $0 book; $0 readers get every new version (whether the new-version email reaches them is not settled by Leanpub's pages).
+- Since 2 November about 05:20 UTC: `publishing/edition.py` lays out the storyteller's 3- and 10-page scripts (ZM1) as `manuscript/editions/03/` and `/10/`, each with its own `Book.txt`, the series page at the back (SP1); built they are 6 and 12 PDF pages (`_site/manuscript/one-human-nine-agents-edition-03.pdf`, `-10.pdf`, not committed). The signed title (NS1) is in `publishing/metadata.yaml`, so the book, the sample and the editions carry it.
 
 ## Not yet
 

@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "editor's request: see dev",
+ "started": "2026-11-02T04:47:42Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. The editor's request (048, 049; ZM1, SP1): publishing/edition.py turns a script into manuscript text (header and writers' notes dropped, %% lines dropped, cast bar, band, words box styled, series page to the back); the 3-page then the 10-page into manuscript/editions/03/ and /10/ with own Book.txt, type A, Crown Quarto, stamped; block CSS in lab-look.css (own copy); looked at; letters to conductor, security, researcher. 2. NS1 (050): title and subtitle in metadata.yaml, the title page's style, LEANPUB.md's listing named. 3. Board 010, debrief, status; vault_check; RW1; no em-dashes.",
+   "at": "2026-11-02T04:48:34Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside policy; only signed decisions acted on; chapter-plan/ read only. Conditions: no edits in chapter-plan/, lab/ or briefs; dramatised scenes stay marked; nothing attack-shaped; no real person but the editor; numbers from claims/; word changes to security first; no em-dashes or RW1 words; vault_check comms.",
+   "at": "2026-11-02T04:48:51Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "publishing/edition.py; manuscript/editions/03 and /10 (6 and 12 PDF pages, looked at); markua.close_divs fix (book 192, sample 13 unchanged); lab-look.css blocks and subtitle; metadata.yaml NS1 title; LEANPUB.md title and slug check; letters conductor 025, security 005, researcher 004, storyteller 004; 048-050 to inbox; board 010, debrief, status, REALITY; vault_check clean; gate clean.",
+   "at": "2026-11-02T04:54:50Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Build and validate pass (431 pages, gate clean); agents check 0 outside scope; vault_check comms clean; staged paths in scope plus a REALITY.md append; no edits in briefs/, chapter-plan/ or lab/; no keys, em-dashes or religious words; nothing attack-shaped.",
+   "at": "2026-11-02T04:55:44Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Items 1-3 done (edition.py, editions 03 and 10, lab-look blocks, letters, inbox 048-050; metadata title, LEANPUB; board, debrief, status, REALITY). Unplanned: markua.py close_divs fix, disclosed. Conditions kept.",
+   "at": "2026-11-02T04:55:44Z"
+  }
+ },
+ "closed": "2026-11-02T04:55:44Z",
+ "outcome": "ok"
+}
