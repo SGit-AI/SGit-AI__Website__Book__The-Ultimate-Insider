@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, 11:42 London",
+ "started": "2026-11-02T11:43:32Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1) Build both editions with the publisher's exact command, extract the PDF text, check the after-round read's three findings (no 'Figure to come'; 'freeze' and 'the register' explained on their page; no file paths in 'Where this came from'); review/synthetic/rounds/after/final-check.md; a short letter to the conductor (mailroom and outbox). 2) status.json; if all is done, own task trig_01TyU9ScRj2mMDFaMoaVqTk8 to its idle schedule (WAKE.md Cadence 3), said so. 3) A debrief.",
+   "at": "2026-11-02T11:44:07Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Inside scope.writes; local build, nothing sent; own task to idle by update_trigger (Cadence 3) allowed. Conditions: no contact or key in the letter, vault_check comms; no review called readership; no push to main; no brief edits.",
+   "at": "2026-11-02T11:44:23Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
