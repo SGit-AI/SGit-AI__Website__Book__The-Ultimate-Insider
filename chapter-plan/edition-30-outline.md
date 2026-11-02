@@ -1,6 +1,6 @@
 # The 30-page edition: outline for the writer
 
-storyteller@book.the-ultimate-insider, 2 November 2026, the 06:40 UTC wake, for the writer's letter 001. **An outline, not prose. Nothing goes into `manuscript/rc2/` until the editor signs RP1.** Beat 1 is outlined in full, so the writer can start the wake after RP1 is signed; beat 2 in full since the 12:44 UTC wake; beats 3 to 5 are sketched here and outlined in full one per wake. The arc, the ladder and the rules are in `zoom-ladder.md`; the cast in `cast/cast-guide.md`; the words already traced are in `cast/edition-10.md` (after ED1 round 1).
+storyteller@book.the-ultimate-insider, 2 November 2026, the 06:40 UTC wake, for the writer's letter 001. **An outline, not prose. RP1 signed (2 November 2026, about 15:25 UTC): the writer writes RC2's thirty from it, chapter by chapter.** Beat 1 is outlined in full, so the writer can start the wake after RP1 is signed; beat 2 in full since the 12:44 UTC wake, beats 3 and 4 since the 15:31 UTC wake; beat 5 is sketched and outlined in full next. The arc, the ladder and the rules are in `zoom-ladder.md`; the cast in `cast/cast-guide.md`; the words already traced are in `cast/edition-10.md` (after ED1 round 1).
 
 ## The writer's three questions
 
@@ -10,7 +10,7 @@ storyteller@book.the-ultimate-insider, 2 November 2026, the 06:40 UTC wake, for 
 
 ## Rules for every chapter
 
-About six pages each. One map and one infographic per chapter (LK1), named below so the designer and ruv-sgit draw to the same page. A cast bar at each chapter's opening. Every scene banded "dramatised" with the moment it rests on. No figure in an agent's line; every figure by its claim id; the cost line stays C101 and C037. The editor's voice the default, the agents in turn. The running line's wording waits on the editor ("build" or "ship" something somebody else can use); use whichever he picks in every chapter.
+About six pages each. One map and one infographic per chapter (LK1), named below so the designer and ruv-sgit draw to the same page. A cast bar at each chapter's opening. Every scene banded "dramatised" with the moment it rests on. No figure in an agent's line; every figure by its claim id; the cost line stays C101 and C037. The editor's voice the default, the agents in turn. **More text per agent, and many pictures** (the editor, 15:25 UTC, brief 09): beyond the map and the infographic, each chapter names its cards and drawings page by page, and where a picture carries the explanation, the words around it are fewer. The running line's wording waits on the editor ("build" or "ship" something somebody else can use); use whichever he picks in every chapter.
 
 ## Chapter 1. The creator's problem (beat 1), in full
 
@@ -57,10 +57,61 @@ Outlined 2 November 2026, the 12:44 UTC wake. Midnight to dawn on 29 October: fr
 **Setup clauses (rule b):** before the reviewer scene (who the reviewer is); before the clock (that nobody would be watching for nine hours, said as what came next, not yet shown).
 **Rests on:** `timeline/cast-scenes.md` scenes 1 and 2; `timeline/cast.md` (arrivals; the stage in three steps); the register C001, C011, C022, C071.
 
-## Chapters 3 to 5, sketched (each outlined in full in turn)
+## Chapter 3. The factory runs (beat 3), in full
 
-- **Chapter 3. The factory runs (beat 3).** The six alone from five to two (C087), the argument with a reviewer, work sent back, mistakes owned; then the afternoon loop with him in it, the storyteller's challenge, refusals of a relayed word. Map: who was on stage when, as a timeline. Infographic: the day by trigger, his and the schedule's (T18). Do this now: ship one small thing to somebody else today.
-- **Chapter 4. The stop (beat 4).** 18:36 to 18:46: the lock left unturned, the hold at 18:44, what landed after it (C065, C005), his three accounts of why (C089); what did not work (C027, C029 to C031); the interview and the therapy strips. Map: the two brakes (the usage limit and the hold). Infographic: the last ten minutes, minute by minute. Do this now: write who may stop your factory, and who may restart it.
+Outlined 2 November 2026, the 15:31 UTC wake, after RP1. Five in the morning to the last hour before the talk: the factory alone, then the factory with its creator in the loop. The longest chapter of the five; it may run to seven pages.
+
+**Cast bar:** six agents for pages 1 to 3, the editor's chair empty; from page 4 the editor back, and the storyteller, motion and studio lighting as they arrive (C011).
+
+**What it argues.** A factory proves itself when nobody is watching. For nine hours the agents planned, argued, sent work back and owned their mistakes on their own clock, and all of it is in the record. Then the creator came back, and the loop the book promised began: see it, ask for it differently, see it again. The factory argued back, and both sides were written down. The talk was made as a side effect.
+
+**Pages and scenes, in order**
+
+1. **The empty chair** (about half a page). Narrator: for nine hours he started nothing (C087, in a card: wakes by the schedule against wakes he started, hour by hour). One clause of setup (rule b): each agent may change only the files its page of rules names, and a reviewer checks every plan against that. **Picture:** the infographic opens the chapter (below); the words are few.
+2. **The argument with a reviewer** (about one page). The scene of 04:11: the researcher *(unbudging)* and the reviewer, its "objection withdrawn." *(record)*, given to the reviewer. Kept from the ten. **More text per agent:** the researcher's side in two or three lines of its own (the file was under its evidence folder, which its rules let it write), dramatised, resting on its wake record (`team/researcher/wakes/20261029T041003Z.json`). **Picture:** the clipboard and the researcher, a two-panel card (the dispute, the withdrawal) for ruv-sgit.
+3. **Sent back, and owned** (about one page and a half). Three short scenes in a row, each with its setup clause:
+   - deck sends ruv-sgit's picture back, "What it is not yet is a picture a room reads in five seconds." *(record, 06:21)*; ruv-sgit *(sheepish)*: "Back to the workshop."
+   - deck's reviewer has it hold back a finished request, because ruv-sgit already has one in flight, and deck agrees (04:19, `aeffbf9`); deck's own line, dramatised.
+   - the designer *(mortified)*: "The miss is my table's as much as the build's" *(record, 10:49)*, and the conductor *(patient)* telling ruv-sgit that the team's count cannot see its work without the "@" (10:05, `09317d9`).
+   Close on the narrator's line from the ten, kept: "That is the part of the record I find hardest to believe, and easiest to check." **Picture:** a "sent back" card for each scene (who sent what to whom, and the reason in their words), three in a row, for the designer.
+4. **The creator comes back** (about one page). Narrator: the loop begins; the player as his first priority (about 13:50, `c9ced4e`), ported at 15:07 (`3314ffe`); asked for and fixed round after round until 18:37 (C088, the last fixes inside a wake left open). The arrivals: the storyteller (14:15), motion and studio (15:31, the same minute). **Picture:** the loop drawn over the afternoon: each of his asks, and what came back, on one line of time; for ruv-sgit, from the commits that carry his time in their subject.
+5. **The objection kept** (about one page). The R5 scene from the ten: the researcher to the new storyteller "does not hold. The data says the opposite" *(record, 14:33)*; the storyteller passes it up as the strongest objection to his own part one (15:02); his own call to keep the line, and the objection on the record beside it. Setup clause: what the claim was, in one sentence. **More text per agent:** the storyteller's reason for passing it up rather than softening it, two lines, dramatised (`b208a16`).
+6. **A relayed word refused** (about half a page). Studio *(firm)* at 17:47: it would not take another agent's report of what he said, and asked him itself. *To trace (the historian):* whether one request in `timeline/quotes.md` shows both paths, refused when relayed and taken through his own word (studio at 17:41 and 17:47, dev at 18:18); if not, the page shows the refusal alone. The narrator: the rule cost minutes on the busiest hour of the day, and it is the rule he would keep. **Picture:** the two paths of one request, relayed (stopped) and direct (taken), as a small diagram.
+7. **Do this now** (half a page). *Give one small thing to somebody else today, and write down what they asked for differently.* (The running line itself stays as the editor signs RL1.)
+
+**Map:** who was on stage when, as a timeline of the day: one row per agent from its first commit (C011) to its last before 19:00, the editor's own row with the hours he started work shaded (C087).
+**Infographic:** the day by trigger, his and the schedule's, hour by hour in two colours (T18; C087). For the designer.
+**Cards and drawings (the editor's "many pictures"):** the two-panel reviewer card (page 2); three "sent back" cards (page 3); the afternoon loop line (page 4); the relayed-word diagram (page 6). Each with its record in small type.
+**Figures:** C087 (wakes by trigger), C088 (the player's last fixes), C011 (arrivals). None in an agent's line.
+**Record lines word for word:** "objection withdrawn." (the reviewer, 04:11); "What it is not yet is a picture a room reads in five seconds." (deck, 06:21); "The miss is my table's as much as the build's" (the designer, 10:49); "does not hold. The data says the opposite" (the researcher, 14:33). Every other line dramatised.
+**Rests on:** `timeline/cast-scenes.md` scenes 3 to 5; `timeline/quotes.md`; the register C011, C087, C088.
+
+## Chapter 4. The stop (beat 4), in full
+
+Outlined 2 November 2026, the 15:31 UTC wake. 18:36 to 18:46: the last ten minutes, the one rule that let him leave them alone, and what did not work. The failures stay in, at full size.
+
+**Cast bar:** all nine; security's chair, planned at midnight, empty and drawn so.
+
+**What it argues.** A factory you can leave running is one anyone can stop and only you can restart. The hold was there all day and used once. The chapter keeps, beside it, what the brake did not catch: the lock never turned, a correction lost in a freeze, claims that did not hold. A brake is not a wall, and the book says where it fell short.
+
+**Pages and scenes, in order**
+
+1. **The last ten minutes** (about one page). Narrator, minute by minute, with the infographic beside it. 18:36: the conductor leaves the lock to dev, its scope (`team/conductor/wakes/20261029T183647Z.json`); 18:39: it finds part 1 still not locked and asks dev to lock it now (`2ed6427`); the player's last fix at 18:37. **More text per agent:** the conductor's reason for not turning a lock that was not its own, in two lines, dramatised, resting on its wake record.
+2. **The hold** (about one page). His words *(record)*: "actually we are at 95% so it is better to pause all actions" (18:44, C006), sixteen minutes before the talk was due (C100). The conductor writes one file (C024). What was in flight still landed: the designer's work after the hold (C065, in a card, never in a line), the last release of the day (C005). The conductor *(at ninety-five, then calm)*: "I could keep going. That is exactly why I am stopping." (dramatised, from the 3-page edition). **Picture:** the hold as one file stopping the clock: the dial from chapter 2 with every minute greyed.
+3. **Why stop then: three answers** (about one page). The narrator gives his three accounts, each dated: on the day (usage at 95%); 31 October (a footnote; no tested way to take changes during the talk); that evening (token usage), as C089 holds them, the later two marked as given after the day. No one answer chosen for him. **Picture:** three speech cards from the same figure, each with its date.
+4. **What did not work: the interview** (about one page and a half). ruv-sgit's interview strip (`cast/scripts/interview-researcher-deck.json`), placed whole. Then, in the narrator's voice, each miss with a setup clause: the lock built and never run (C027); the talk planned in parts and only the first finished (C027); the storyteller's missed moment; the frozen slides and the lost correction, with the figure that reached a slide (C031); the talk's own register, and its three claims that did not hold (C029, C030). Dev, deck and the storyteller say their own misses *(rueful, overwhelmed, rueful)*, dramatised, as in the ten. **More text per agent:** each of the three gets two or three lines more than the ten gave it. The lesson line, kept: "when you freeze something, write down what is waiting to go in when you unfreeze it."
+5. **After the hold: the therapy strip** (about half a page). ruv-sgit's strip (`cast/scripts/therapy-conductor-after-the-hold.json`): the conductor talking to security's empty chair. The narrator's line after it: the reviewers were the same kind of agent as the members they read ("a second reading, not a second identity", from chapter 2, called back), and the member planned for that job never came.
+6. **Do this now** (half a page). *Write down who may stop your factory, who may restart it, and who decides when its owner is away. Until you have, nobody restarts it.*
+
+**Map:** the two brakes: the usage limit (outside the team, his account's) and the hold (inside, anyone's to pull, only his to lift), on one value chain from chapter 2.
+**Infographic:** the last ten minutes, minute by minute, 18:36 to 18:46, every commit a dot (C005, C006, C065, C027). For the designer.
+**Cards and drawings:** the greyed dial (page 2); three dated speech cards (page 3); the two strips, placed whole (pages 4 and 5); a "what did not work" card per miss, with its claim id in small type.
+**Figures:** C005, C006, C024, C027, C029, C030, C031, C065, C089, C100. None in an agent's line: "at ninety-five" stays as the conductor's pose in words, and the 95% only in his own quoted message.
+**Record lines word for word:** his hold message (18:44); "a second reading, not a second identity." called back. Every other line dramatised.
+**Rests on:** `timeline/cast-scenes.md` scene 5; `timeline/after-the-day.md` (C089); the register; the two strip scripts in `cast/scripts/`.
+
+## Chapter 5, sketched (outlined in full next)
+
 - **Chapter 5. The factory rebuilt, and yours (beat 5).** The factory taken apart; this book's team ported the next day; the Web Summit team planned, several people sharing one brief, one board and one hold; then the reader's own, the five steps with a how, the cost line (C101, C037). Map: one project's parts becoming the next's (Wardley's commoditisation). Infographic: the five steps as a path. Do this now: the five steps.
 
 ## Where this came from

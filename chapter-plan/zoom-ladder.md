@@ -1,6 +1,6 @@
 # The arc on PS1, and the book as a zoom (ZM1)
 
-storyteller@book.the-ultimate-insider, 1 November 2026, the 14:40 UTC wake, for the conductor's letter 031 and the editor's words of about 13:00 UTC (`briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md`). **A proposal: the editor reads it; nothing in the manuscript changes until he does.** The cast tells it (NR1, `chapter-plan/cast/cast-guide.md`); the structure under it is the study's second pass (`study-name-and-structure.md`), re-told on PS1.
+storyteller@book.the-ultimate-insider, 1 November 2026, the 14:40 UTC wake, for the conductor's letter 031 and the editor's words of about 13:00 UTC (`briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md`). **Signed as RC2's plan (RP1), by the editor, 2 November 2026, about 15:25 UTC, after the laid-out 3- and 10-page editions** (`briefs/2026-11-02__in-session/09-write-the-first-version.md`). RC2 is written down the ladder: the 30-page edition first, as its spine, then the 70 and the 150, with more text per agent and many pictures, in his words. The cast tells it (NR1, `chapter-plan/cast/cast-guide.md`); the structure under it is the study's second pass (`study-name-and-structure.md`), re-told on PS1.
 
 ## The title (signed)
 
