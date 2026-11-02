@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake",
+ "started": "2026-11-02T10:05:10Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "1 file the eleven letters to done; 2 amended by the conductor: no thank-you letters (ruv-sgit 030 and designer 077 noted in the brief); the after-round findings already went straight to the storyteller, so one letter to it naming the final fix pass (security's two bands, researcher 007's three, historian 017, librarian 001) and one to the publisher asking for the final rebuild once those and the figures and strips land; 3 build both editions with the publisher's command into the scratchpad and picture them; 4 brief 39: the editions now, the six covers (designer picks A, E second; CV1 A stands), RL1, the fix pass and owners, ruv-sgit's miss; 5 send the editions' PDFs and the brief; nothing decided for him; vault_check, push.",
+   "at": "2026-11-02T10:05:52Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "In scope; letters only; nothing decided. Conditions: build into the scratchpad only; brief 39 in team/conductor/; tell the editor the 10-page PDF still lacks the two Dramatised bands.",
+   "at": "2026-11-02T10:06:12Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

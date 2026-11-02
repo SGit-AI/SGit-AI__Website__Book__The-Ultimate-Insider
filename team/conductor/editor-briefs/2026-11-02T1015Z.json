@@ -1,0 +1,43 @@
+{
+ "number": "39",
+ "date": "Monday 2 November 2026, 10:15 UTC",
+ "kicker": "The conductor brief · 39 · Monday 2 November 2026",
+ "title": "The two editions after both rounds, and six covers",
+ "when": "10:15 UTC, the conductor's scheduled wake (10:02)",
+ "by": "conductor@book.the-ultimate-insider",
+ "headline": "Both rounds ran overnight, and the 3- and 10-page editions are attached as they stand now. Each has cover A on the front, a marker on every scene page showing who is on stage, and a head beside every speaker. Five test readers read them fresh. All five would start tomorrow from both editions and would share them, and three would buy the longer book; on RC1 every reader said maybe. They are not final yet. Four figures still print as dashed boxes, and the checks found small fixes, so one last edit and rebuild is under way. Two things need you: the six covers (CV2) and one word (RL1).",
+ "stats": [
+  {"n": "5 of 5", "label": "test readers who would start tomorrow from both editions, and share them"},
+  {"n": "3 of 5", "label": "would buy the longer book (RC1: every reader said maybe)"},
+  {"n": "6 and 12", "label": "PDF pages: the 3- and 10-page editions, cover included"},
+  {"n": "6", "label": "cover proposals on the signed title (LAB 34)"}
+ ],
+ "for_you": [
+  {"group": "Your choices"},
+  {"id": "CV2", "ask": "Which cover? Six proposals on the signed title (pictured below)", "detail": "A the factory ring (signed as CV1), B the festival set-up, C the map, D the zoom, E the numbers (9 agents; 18 h 44 min; 814 commits, each traced), F the first three on stage as cards. The designer picks A, then E. My note: all six share the same title block, so they differ only in the picture; if you want the ZX larger still, or a different type treatment, say so and it applies to whichever you choose.", "options": ["A", "B", "C", "D", "E", "F"], "recommend": "A, as the designer says: the factory at a glance (PS1). E if you want the numbers to sell it."},
+  {"id": "RL1", "ask": "The running line: 'build' or 'ship' something somebody else can use?", "detail": "Still open from brief 38. The editions keep the current wording until you choose.", "options": ["Ship", "Build"], "recommend": "Ship."},
+  {"group": "Options from the publisher, if you want them"},
+  {"id": "Type", "ask": "Larger boxes, or even margins for screens?", "detail": "Two asks the publisher left undone, with reasons. The cast bar and boxes are 10 pt over the signed 9.5 pt body, and going larger would put the boxes above the story. The alternating margins are print margins, wider at the spine; an edition with even margins for screens is possible.", "options": ["leave as is", "a screen edition with even margins", "a larger body"], "recommend": "Leave as is for now."}
+ ],
+ "wide": [
+  {"title": "CV2: the six covers (A to F)", "path": "team/conductor/editor-briefs/img/brief39-cv2-six-covers.png", "caption": "LAB 34 (lab/experiments/34-designer-cv2-covers/sheet.png), the designer, 09:05 UTC. Larger, one per page, in the lab PDF, pages 94 to 100."},
+  {"title": "The 10-page edition now (12 PDF pages)", "path": "team/conductor/editor-briefs/img/brief39-edition10-sheet.png", "caption": "Built by the conductor with the publisher's own command from manuscript/editions/10 as of 10:05 UTC. The dashed boxes are figures still to place: two of the designer's and two strips from ruv-sgit."},
+  {"title": "The 3-page edition now (6 PDF pages)", "path": "team/conductor/editor-briefs/img/brief39-edition03-sheet.png", "caption": "The same build, manuscript/editions/03."}
+ ],
+ "sections": [
+  {"title": "What is still to come (the final pass)", "items": [
+   "storyteller: the fixes from the checks. Security asks for the word 'Dramatised' in the bands of the two pages where the conductor speaks to the reader; this is the one change it needs before clearing the 10-page edition. The researcher has three fixes, among them a quote given to the wrong speaker. The historian has seven times and attributions. The librarian wants each quote's commit named. Sources should be plain names, not file paths (letter conductor__041).",
+   "designer: two figures drawn and the scorecards (designer__074). ruv-sgit: two strips for the stop at 18:44 and the interview (ruv-sgit__029).",
+   "publisher: one final rebuild when these are in (letter conductor__053). That build is the final one you get."
+  ]},
+  {"title": "How the checks went", "items": [
+   "The researcher's trace: the title's numbers hold. 'Nine' is the nine agents staffed on the day; 'Nineteen Hours' rounds 18 h 44 min, which the editions give once inside (researcher__021).",
+   "security: the 3-page edition is clear; the 10-page edition is clear except for the two bands above. Nothing private, nothing attack-shaped, no religious word (security__016).",
+   "librarian: all eight quotes marked (record) are word for word in the record. Its voice scanner now flags the words RW1 rules out (librarian__012).",
+   "synthetic: five fictional readers, test instruments. The page all of them would send a friend is the steps page. The loudest unfinished thing is the dashed boxes (synthetic__012).",
+   "In the open: ruv-sgit commented in neither round. It had moved its task to twice a day at 04:55, so its first wake after the letter was at 09:54, after both rounds. It names the miss itself (ruv-sgit__030). The designer recorded one review verdict late and says so (designer__077)."
+  ]}
+ ],
+ "next": ["The final pass and rebuild; the final editions to you when they land. 12:02"],
+ "sources": ["git log 1a2b08b..3e361b2", "comms/mail/mailroom/conductor/designer__076, 077, publisher__028, researcher__021, security__016, storyteller__049, synthetic__012, librarian__012, ruv-sgit__030", "review/synthetic/rounds/after/summary.md", "lab/experiments/34-designer-cv2-covers/"]
+}
