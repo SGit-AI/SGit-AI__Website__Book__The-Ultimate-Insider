@@ -1,0 +1,38 @@
+{
+ "number": "40",
+ "date": "Monday 2 November 2026, 12:25 UTC",
+ "kicker": "The conductor brief · 40 · Monday 2 November 2026",
+ "title": "The final build of the 3- and 10-page editions",
+ "when": "12:25 UTC, the conductor's scheduled wake (12:02)",
+ "by": "conductor@book.the-ultimate-insider",
+ "headline": "The final build is attached: both editions with every drawing in place. The 10-page edition now has the factory's stations, four scorecards and ruv-sgit's two strips. The storyteller's last pass took in every check: the bands security asked for, the quote back with its true speaker, the times as the record has them, and sources in plain names. Two checks run in the next half hour: security's clearance of the two new bands, and the researcher's full trace of the final text. I will say if either changes anything. One flaw is visible: sheet 5 of the 10-page edition holds only two lines that spilled over from the page before. The cover (CV2) and one word (RL1) are still yours.",
+ "stats": [
+  {"n": "6 and 13", "label": "PDF pages in the final build, cover included"},
+  {"n": "4 of 4", "label": "dashed figures now drawn and placed"},
+  {"n": "2", "label": "checks still to run on this build (security 12:24, researcher 12:32)"},
+  {"n": "5 of 5", "label": "test readers who would start tomorrow (read on the round-2 build)"}
+ ],
+ "for_you": [
+  {"group": "Still yours"},
+  {"id": "CV2", "ask": "Which cover, A to F?", "detail": "The six are in brief 39. The final build uses A, the cover you signed, until you choose.", "options": ["A", "B", "C", "D", "E", "F"], "recommend": "A, then E (the designer's order)."},
+  {"id": "RL1", "ask": "'Build' or 'ship' something somebody else can use?", "detail": "The editions keep the current wording until you choose.", "options": ["Ship", "Build"], "recommend": "Ship."},
+  {"group": "Small, if you want them"},
+  {"id": "Page 2", "ask": "The 10-page edition's page 2 runs to two sheets", "detail": "The publisher: the scorecards are 112 by 110 mm with 9 pt text and don't fit beside the page's words. The fix is smaller cards with fewer values (the designer) or a page split.", "options": ["leave it", "smaller cards", "split the page"], "recommend": "Smaller cards, so the two spilled lines rejoin their page."},
+  {"id": "Sample", "ask": "Does the old ten-page sample live on?", "detail": "The editions supersede it. The historian's two findings on it wait on your word (the publisher's board 008).", "options": ["retire it", "keep and fix it"], "recommend": "Retire it."}
+ ],
+ "wide": [
+  {"title": "The 10-page edition, final build (13 PDF pages)", "path": "team/conductor/editor-briefs/img/brief40-edition10-final.png", "caption": "Built by the conductor with the publisher's command from manuscript/editions/10 at 05ee698; the PDF is attached."},
+  {"title": "The 3-page edition, final build (6 PDF pages)", "path": "team/conductor/editor-briefs/img/brief40-edition03-final.png", "caption": "The same build, manuscript/editions/03."}
+ ],
+ "sections": [
+  {"title": "Since brief 39", "items": [
+   "storyteller: the final fix pass in both scripts. The two bands now read 'Dramatised (the conductor's line)'. 'objection withdrawn.' goes to the reviewer. The brief and rules are dated twenty to one, when they first reach the record. Each quote is named in its band by who and when (storyteller__051).",
+   "publisher: the final build at about 11:05 UTC with every drawing placed (publisher__029).",
+   "ruv-sgit: checked its two strips as placed. Each prints at its stated size on the same sheet as its scene (ruv-sgit__032).",
+   "librarian: corrected its own review. There are seven quotes, not eight, and one had the wrong speaker, which the researcher found first (librarian__013).",
+   "designer: MN1 B printed in LAB 30 (seventeen checked notes in the chapters' words). writer: chapter 1 of the 30-page edition traced, then idle until RP1."
+  ]}
+ ],
+ "next": ["Security's clearance and the researcher's trace of this build; a short word to you if either changes anything. 14:02"],
+ "sources": ["git log 1554670..1de9bd9", "comms/mail/mailroom/conductor/publisher__029, storyteller__051, ruv-sgit__032, librarian__013", "team/security/status.json", "team/researcher/status.json", "team/conductor/schedule.json"]
+}
