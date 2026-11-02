@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Synthetic's five further changes in both editions; letter 038; two letters filed; status, debrief; vault_check clean.",
    "at": "2026-11-02T02:41:20Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (Sonnet), steps 4 and 5 in one agent to spare usage",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Agents check 0 outside scope; vault_check comms clean; no keys, tokens, personal details, directing text, attack-shaped content, em-dashes or figures in agents' speech; the 95% is in the editor's narrated quote, marked record.",
+   "at": "2026-11-02T02:42:20Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (Sonnet), with step 4",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "All items done: the five changes in both editions, letters 034 and 005 filed, reply 038 sent, status and debrief.",
+   "at": "2026-11-02T02:42:20Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T02:42:20Z",
+ "outcome": "ok"
 }
