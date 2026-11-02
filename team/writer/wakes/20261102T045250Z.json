@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Role, policy, status, key and session folder in team/writer/; own task trig_01XcHwiizLtkXBLL6Z1xmq2X; read the ladder, cast guide, 3- and 10-page editions and readers' summaries; letter writer__001 to the storyteller (outbox copy); REALITY.md heading; debrief. One write outside policy: schedule.json writer minute 28 -> \"28\" at the editor's word, to unbreak the build.",
    "at": "2026-11-02T04:58:17Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (Sonnet), steps 4 and 5 in one agent to spare usage",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Build and gate clean (437 pages), vault_check comms clean, no private keys (only public PEMs in key.json), no em-dashes or religious words, no instruction-like text. One outside-scope file, team/conductor/schedule.json, only the writer minute 28 -> \"28\", as declared.",
+   "at": "2026-11-02T04:59:38Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (Sonnet), with step 4",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "All three items done: letter writer__001 with outbox copy; team/writer/ adopted and own task trig_01XcHwiizLtkXBLL6Z1xmq2X in status.json; debrief and REALITY.md heading, manuscript untouched. Pre-review conditions kept. Only unplanned change: the declared schedule.json fix.",
+   "at": "2026-11-02T04:59:38Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T04:59:38Z",
+ "outcome": "ok"
 }
