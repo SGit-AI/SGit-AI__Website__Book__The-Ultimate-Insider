@@ -1,384 +1,392 @@
 {
- "schema": "the-ultimate-insider/agent-status/v1",
- "agent": "conductor",
- "as_of": "2026-11-02T05:10:00Z",
- "round": 1,
- "state": "ED1: two overnight rounds on the 3- and 10-page editions, every member in its lane; the final editions to the editor when he wakes",
- "done": [
-  {
-   "what": "ED1 at the editor's word; ten letters setting the two rounds",
-   "evidence": "briefs/2026-11-02__in-session/07-two-rounds-overnight.md"
-  },
-  {
-   "what": "WR1 at the editor's word: the writer drafted (ROLE, policy, schedule entry proposed, start prompt in ONBOARDING 1e); four letters",
-   "evidence": "team/conductor/staffing/writer/"
-  },
-  {
-   "what": "NS1's title signed at the editor's word; RP1 opened; five letters",
-   "evidence": "briefs/2026-11-02__in-session/05-the-title-is-a.md"
-  },
-  {
-   "what": "SP1 signed (the series page to the back of the short editions); his title idea into the round with traced numbers",
-   "evidence": "briefs/2026-11-02__in-session/04-series-page-and-a-title-idea.md"
-  },
-  {
-   "what": "five letters answered; the editor's words relayed to the publisher; brief 36",
-   "evidence": "team/conductor/editor-briefs/2026-11-02T0415Z.pdf"
-  },
-  {
-   "what": "CV1 A, DR1 A and the ZX branding recorded at the editor's word; a title round asked of the storyteller, researcher and synthetic; the guide to the briefs written",
-   "evidence": "team/conductor/guides/editor-briefs.md; briefs/2026-11-02__in-session/03-cover-a-narrator-a-zx-and-the-briefs-guide.md"
-  },
-  {
-   "what": "RW1 at the editor's word: no religious words; the cast guide; the rule in CLAUDE.md and to all ten members",
-   "evidence": "briefs/2026-11-02__in-session/02-no-religious-words.md"
-  },
-  {
-   "what": "UL1 recorded at his words; three letters answered; brief 35 with the 10-page edition",
-   "evidence": "briefs/2026-11-02__in-session/01-keep-the-pace.md; team/conductor/editor-briefs/2026-11-02T0220Z.pdf"
-  },
-  {
-   "what": "historian 016 answered; brief 34 on the usage limit",
-   "evidence": "team/conductor/editor-briefs/2026-11-02T0015Z.pdf"
-  },
-  {
-   "what": "six letters answered; the tablet menu fixed; a brief correction recorded; brief 33",
-   "evidence": "team/conductor/editor-briefs/2026-11-01T1620Z.pdf; src/static/assets/site.css"
-  },
-  {
-   "what": "ten letters answered; brief 32 with DR1, the opening script and the room's verdict",
-   "evidence": "team/conductor/editor-briefs/2026-11-01T1420Z.pdf"
-  },
-  {
-   "what": "PS1 and ZM1 recorded at the editor's word, CV1 opened; eight letters; the title prompt updated",
-   "evidence": "briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md"
-  },
-  {
-   "what": "the gate fixed at the editor's go; his three held answers filed and sent to seven members",
-   "evidence": "briefs/2026-11-01__in-session/02-draw-me-kdp-later-and-map-notes.md"
-  },
-  {
-   "what": "designer 055 and researcher 019 answered; the publisher told of the 11b fix and the script; MN1 opened; brief 31",
-   "evidence": "team/conductor/editor-briefs/2026-11-01T0810Z.pdf"
-  },
-  {
-   "what": "designer 054 and publisher 023 answered; brief 30",
-   "evidence": "team/conductor/editor-briefs/2026-11-01T0610Z.pdf"
-  },
-  {
-   "what": "designer 051, publisher 022, researcher 018 answered; brief 29 with LAB 27",
-   "evidence": "team/conductor/editor-briefs/2026-11-01T0410Z.pdf"
-  },
-  {
-   "what": "TS1 (type A) and PR1 ($14.99) signed at the editor's word; the publisher and designer told",
-   "evidence": "book.json TS1, PR1"
-  },
-  {
-   "what": "five letters answered; TS1 and PR1 opened; INK1 sales-first added; brief 28",
-   "evidence": "team/conductor/editor-briefs/2026-11-01T0215Z.pdf"
-  },
-  {
-   "what": "INK1 and NR1 recorded at the editor's word; nine letters",
-   "evidence": "briefs/2026-11-01__in-session/01-the-story-told-by-its-characters.md"
-  },
-  {
-   "what": "security 013, developer 014, publisher 019 answered; INK1 opened; brief 27",
-   "evidence": "team/conductor/editor-briefs/2026-11-01T0010Z.pdf"
-  },
-  {
-   "what": "P2 and CH1 signed at the editor's word; six letters",
-   "evidence": "briefs/2026-10-31__in-session/05-crown-quarto-and-the-cast.md"
-  },
-  {
-   "what": "five letters answered; line 98 sent to security; the lab-look sample to the editor, not yet to share; brief 26",
-   "evidence": "team/conductor/editor-briefs/2026-10-31T2215Z.pdf"
-  },
-  {
-   "what": "publisher 017 and security 011 answered; brief 25",
-   "evidence": "team/conductor/editor-briefs/2026-10-31T2010Z.pdf"
-  },
-  {
-   "what": "LK1 signed at the editor's word and routed to the designer, ruv.sgit, the publisher (with the ink costs) and the storyteller",
-   "evidence": "briefs/2026-10-31__in-session/04-an-infographic-driven-book.md"
-  },
-  {
-   "what": "the editor's words on the look and the title recorded; LK1 opened; letters to the designer, publisher and storyteller; the title-thread prompt",
-   "evidence": "briefs/2026-10-31__in-session/03-the-look-and-the-title-thread.md; team/conductor/prompts/title-thread.md"
-  },
-  {
-   "what": "the editor's answers recorded (G1 decided, the 95%, RiskMandate, the voice); five letters; the sample sent to him as an uncleared draft; briefs 23 and 24, the night and the day, with heatmaps from the git log",
-   "evidence": "briefs/2026-10-31__in-session/02-g1-the-95-and-the-day-in-review.md; team/conductor/editor-briefs/2026-10-31T1925Z-night.pdf; team/conductor/editor-briefs/2026-10-31T1925Z-day.pdf"
-  },
-  {
-   "what": "storyteller 021, security 010, researcher 015, publisher 016 answered; brief 22 with the outline",
-   "evidence": "team/conductor/editor-briefs/2026-10-31T1815Z.pdf"
-  },
-  {
-   "what": "designer 034, publisher 015 and researcher 014 answered; the storyteller told what is ready; brief 21",
-   "evidence": "team/conductor/editor-briefs/2026-10-31T1615Z.pdf"
-  },
-  {
-   "what": "designer 031 and publisher 014 answered; brief 20",
-   "evidence": "team/conductor/editor-briefs/2026-10-31T1410Z.pdf"
-  },
-  {
-   "what": "the editor's words recorded; T10 decided at his word and G1 open; six letters; brief 19",
-   "evidence": "briefs/2026-10-31__in-session/01-the-first-ten-pages-and-the-gen-zx-series.md; team/conductor/editor-briefs/2026-10-31T1335Z.pdf"
-  },
-  {
-   "what": "publisher 013 and researcher 013 answered; figure notes and the article graph routed to the designer; brief 18",
-   "evidence": "team/conductor/editor-briefs/2026-10-31T1210Z.pdf; comms/mail/conductor/outbox/designer__015-figures-to-draw.eml"
-  },
-  {
-   "what": "two letters answered; brief 17",
-   "evidence": "team/conductor/editor-briefs/2026-10-31T1010Z.pdf"
-  },
-  {
-   "what": "J1 and A9 open for the editor; three letters; brief 16, the morning brief",
-   "evidence": "team/conductor/editor-briefs/2026-10-31T0815Z.pdf"
-  },
-  {
-   "what": "three letters answered; NS1's detail gains the title check and the footnote question; brief 15",
-   "evidence": "team/conductor/editor-briefs/2026-10-31T0615Z.pdf"
-  },
-  {
-   "what": "the 02:20 change recorded on dev and told to every member; V2, P2, NS1, W1; Personas in the menu; eight letters; brief 14",
-   "evidence": "team/conductor/debriefs/2026-10-31__the-0220-record.md"
-  },
-  {
-   "what": "batch 10 routed (storyteller, designer, librarian); brief 13",
-   "evidence": "team/conductor/editor-briefs/2026-10-31T0220Z.pdf"
-  },
-  {
-   "what": "review batches 5 to 9 routed to eight members; eight letters answered; brief 12",
-   "evidence": "team/conductor/editor-briefs/2026-10-31T0215Z.pdf"
-  },
-  {
-   "what": "RC1 review batches 1 to 4 captured and mapped; Q6 amended (nights back, full wakes); the review routed to six members; brief 11",
-   "evidence": "team/conductor/rc1/editor-review/notes.json"
-  },
-  {
-   "what": "the editor's voice memo as a brief; the name and structure study routed to four members; brief 10",
-   "evidence": "briefs/2026-10-30__in-session/02-the-centre-of-gravity.md"
-  },
-  {
-   "what": "briefs numbered and dated on every page; D6 explained (brief 9); Q6 decided into WAKE.md's Cadence; K1 deferred; the editor's tasks tracked; the conductor's task to day hours; ten letters",
-   "evidence": "team/conductor/debriefs/2026-10-30__cadence-and-d6-explained.md"
-  },
-  {
-   "what": "three letters answered; Q6 open; brief 8 with the launch checklist",
-   "evidence": "team/conductor/debriefs/2026-10-30__launch-needs-the-editor.md"
-  },
-  {
-   "what": "five letters answered; K1 open; the historian's correction recorded; brief 7",
-   "evidence": "team/conductor/debriefs/2026-10-30__interviews-in-and-k1.md"
-  },
-  {
-   "what": "src claim narrowed for the developer; review pages make no third-party request; blurbs render; /lab/; D6-6; seven replies; brief 6",
-   "evidence": "team/conductor/debriefs/2026-10-30__the-asks-delivered.md"
-  },
-  {
-   "what": "six letters answered; $0 readers get updates recorded in L1 and REALITY.md; brief 5",
-   "evidence": "team/conductor/editor-briefs/2026-10-30T1640Z.pdf"
-  },
-  {
-   "what": "publisher, developer and synthetic sessions recorded and announced; schedule.json current; D6-1 to D6-5 open; three requests routed; brief 4",
-   "evidence": "team/conductor/debriefs/2026-10-30__eleven-members-and-routing.md"
-  },
-  {
-   "what": "the decisions pack: eighteen choices waiting on the editor, with recommendations and tick boxes, and what to read",
-   "evidence": "team/conductor/editor-briefs/2026-10-30T1400Z.pdf, /updates/"
-  },
-  {
-   "what": "the reviewer experience brief; developer@ and synthetic@ drafted; R1, R2 open; brief 2",
-   "evidence": "team/conductor/debriefs/2026-10-30__the-reviewer-experience.md"
-  },
-  {
-   "what": "the editor's brief tool and the first brief, /updates/ on the site; H1 decided and in WAKE.md; six handovers recorded and announced; publishers and reviewers studies released",
-   "evidence": "team/conductor/debriefs/2026-10-30__the-editors-brief-and-h1.md"
-  },
-  {
-   "what": "a For publishers page (/publishers/), the review programme brief, the librarian's handover recorded and announced; studies of reviewers and publishers in progress",
-   "evidence": "team/conductor/debriefs/2026-10-30__publishers-page-and-review-programme.md"
-  },
-  {
-   "what": "research pages on the site (/research/); L1 in the editor's words; the PDF lab brief and two new members drafted (designer, ruv.sgit); X1 recorded, X2 open",
-   "evidence": "team/conductor/debriefs/2026-10-30__research-on-the-site-and-the-pdf-lab.md"
-  },
-  {
-   "what": "four Leanpub studies (platform, the editor's books, the market, the bestsellers) with an index; sent to the researcher and publisher; keyfile warning in the key tool's README; sessions register and H1",
-   "evidence": "team/conductor/research/leanpub/README.md, team/conductor/debriefs/2026-10-30__leanpub-studies-and-handovers.md"
-  },
-  {
-   "what": "the conductor's task on the second account, every two hours at :02; members' runs every two hours; a takeover prompt per member; H1 proposed (how a session is closed)",
-   "evidence": "team/conductor/schedule.json, team/conductor/ONBOARDING.md, book.json H1"
-  },
-  {
-   "what": "RC1 and the companion rebuilt and compared with the printed PDFs: same pages, same text, same rendering; RC1 on its own page, linked from the home page",
-   "evidence": "team/conductor/debriefs/2026-10-30__rc1-rebuilt-and-on-the-site.md, /rc1/"
-  },
-  {
-   "what": "takeover: new session key, the build copies manuscript/resources, the publisher told RC1 moved on, the storyteller's, researcher's and security's letters answered, issue 001 closed",
-   "evidence": "team/conductor/debriefs/2026-10-30__takeover-from-the-first-account.md"
-  },
-  {
-   "what": "RC1: 13 chapters, Appendix A and 42 images, drafted at the editor's word; the illustrated PDF sent to him",
-   "evidence": "team/conductor/rc1/"
-  },
-  {
-   "what": "M1: the book in Markua, at the editor's word; the request to the publisher",
-   "evidence": "book.json M1"
-  },
-  {
-   "what": "the own-scope report marks every widening (security's note)",
-   "evidence": "admin/build/agents.py"
-  },
-  {
-   "what": "the own-scope report covers the never list and the mandate too (security's note); the working-tree caveat documented",
-   "evidence": "admin/build/agents.py"
-  },
-  {
-   "what": "agents.py check reports every change to a member's own scope, at security's proposal (report only)",
-   "evidence": "admin/build/agents.py"
-  },
-  {
-   "what": "the researcher's study of graphs.sgit.ai, the editor's request: reuse a making-of with numbers computed from git, the failures chapter, what it costs and where it loses, book versions apart from site versions; avoid six days building the machine and none of the book",
-   "evidence": "claims/graphs-sgit-ai.md, C032 to C036"
-  },
-  {
-   "what": "book.json in line with the chapter plan's draft 4 (P0, O1: about 49,200 words)",
-   "evidence": "comms/mail/mailroom/conductor/storyteller__002-plan-draft-4.eml"
-  },
-  {
-   "what": "C10 signed by the editor; the four members told they may add their comms paths",
-   "evidence": "book.json C10; comms/mail/mailroom/*/conductor__*-c10-signed.eml"
-  },
-  {
-   "what": "the board and the mail pages, built from comms/ in git",
-   "evidence": "/team/board.html, /admin/mail.html"
-  },
-  {
-   "what": "historian's and publisher's letters taken; their requests closed",
-   "evidence": "comms/mail/conductor/done/"
-  },
-  {
-   "what": "the editor's request routed to the researcher: a close look at graphs.sgit.ai, the nearest precedent",
-   "evidence": "comms/mail/mailroom/researcher/conductor__002-graphs-sgit-ai.eml"
-  },
-  {
-   "what": "the storyteller's open questions and the plan's signature as open decisions (P0, O1 to O5, C011)",
-   "evidence": "book.json, /decisions/"
-  },
-  {
-   "what": "the publisher's manuscript build in the release job; the PDF and EPUB linked from the book page",
-   "evidence": ".github/workflows/release.yml, /book/"
-  },
-  {
-   "what": "comms/ in git: the board and the mail as folders, the notice and request in every mailroom",
-   "evidence": "comms/README.md"
-  },
-  {
-   "what": "a Done when list in every member's ROLE.md and a Finishing section in WAKE.md: each member pauses its own task when its work is done; Q2 decided (round the clock; at the limit, wait for the reset)",
-   "evidence": "team/conductor/WAKE.md, team/*/ROLE.md, book.json"
-  },
-  {
-   "what": "first batch onboarded and checked: six keys, six tasks; the conductor's own task at :02",
-   "evidence": "admin/keys.html, team/schedule.html"
-  },
-  {
-   "what": "the first wake on the ported machinery, all five steps recorded (pre-review change, then go; post-review finding; post-check partial)",
-   "evidence": "team/conductor/wakes/20261030T011522Z.json, team/conductor/debriefs/2026-10-30__porting-the-machinery.md"
-  },
-  {
-   "what": "the site, first version, released as v0.1.0 on dev and live",
-   "evidence": "/admin/versions.html"
-  },
-  {
-   "what": "the talk team's machinery ported: admin/tools/, admin/build/ (build, gate, agents.py), WAKE.md, reviews/, the admin section",
-   "evidence": "/admin/index.html"
-  },
-  {
-   "what": "the conductor's session key, made with the pinned pki-agent.mjs in this session",
-   "evidence": "team/conductor/key.json"
-  },
-  {
-   "what": "the hand-off to the Cold-Read team: one prompt, one brief, nothing else",
-   "evidence": "team/conductor/handoffs/2026-10-30__cold-read/"
-  },
-  {
-   "what": "the first batch proposed: librarian, historian, security, researcher, storyteller, publisher, each with ROLE.md, policy.json and a slot",
-   "evidence": "team/conductor/ONBOARDING.md"
-  }
- ],
- "next": [
-  {
-   "what": "track ED1: round 1 comments, edits, rebuild; round 2; trace and clearance; the final editions and a brief to the editor",
-   "when": "each wake until done"
-  },
-  {
-   "what": "the home page still says 'one person, ten agents' and the old framing: bring it to PS1",
-   "when": "next wake"
-  },
-  {
-   "what": "release the reviewers and publishers studies after review, and put the first wave of reviewers and the first three publishers to the editor as open decisions",
-   "why": "the editor, 12:30 UTC"
-  },
-  {
-   "what": "when designer@ and ruv.sgit@ publish their keys, record them in sessions-register.json and announce them; a site page for the lab PDF when the designer asks",
-   "why": "X1"
-  },
-  {
-   "what": "put the studies' five proposals to the editor as open decisions (subtitle, categories, suggested price, Pro plan, paid promotion)",
-   "why": "he decides by signing"
-  },
-  {
-   "what": "record each member's new session in sessions-register.json as its key reaches dev, and announce it",
-   "why": "H1, the editor's word"
-  },
-  {
-   "what": "check the storyteller's chapter 9 passages and 08:59, then the open findings, merged with the editor's notes in one revision",
-   "why": "storyteller's letter 003; the attack-shaped rule"
-  },
-  {
-   "what": "ask the editor whether the companion PDF and its annotations stay public in the repository (they say where the leaked values are)",
-   "why": "D12; security's card on aa7a3eb"
-  },
-  {
-   "what": "turn the editor's paper ticks into open decisions in book.json",
-   "why": "he decides by signing"
-  }
- ],
- "asks": [
-  {
-   "what": "the tasks in team/conductor/editor-tasks.json",
-   "from": "the editor"
-  }
- ],
- "task": {
-  "id": "trig_01BmE8oGh2UyxmLwR4vrMexU",
-  "cron": "CRON_TZ=Europe/London 2 */2 * * *",
-  "session": "session_01Kw9UwD2NrD3Mh35Wg7DK1n",
-  "created": "2026-10-30T11:44:04Z",
-  "by": "conductor, at the editor's word in its session",
-  "replaces": "trig_01K8zShjjXTz4VGLCTcKFVUe (first account, paused)"
- },
- "daily_ask": {
-  "at": "2026-10-30T08:10:00Z",
-  "open": [
-   "Q3",
-   "Q4",
-   "P0",
-   "O1",
-   "O2",
-   "O3",
-   "O4",
-   "O5",
-   "C011",
-   "L1",
-   "L2",
-   "C10b"
-  ]
- },
- "updated": "2026-11-02T05:10:00Z",
- "cadence": "active"
+  "schema": "the-ultimate-insider/agent-status/v1",
+  "agent": "conductor",
+  "as_of": "2026-11-02T05:00:00Z",
+  "round": 1,
+  "state": "ED1: two overnight rounds on the 3- and 10-page editions, every member in its lane; the final editions to the editor when he wakes",
+  "done": [
+    {
+      "what": "CV2 at the editor's word: the designer asked for 5 to 8 proposed covers on the signed title (conductor__042).",
+      "evidence": "comms/mail/mailroom/designer/conductor__042-cover-proposals.eml; book.json CV2"
+    },
+    {
+      "what": "ED1 at the editor's word; ten letters setting the two rounds",
+      "evidence": "briefs/2026-11-02__in-session/07-two-rounds-overnight.md"
+    },
+    {
+      "what": "WR1 at the editor's word: the writer drafted (ROLE, policy, schedule entry proposed, start prompt in ONBOARDING 1e); four letters",
+      "evidence": "team/conductor/staffing/writer/"
+    },
+    {
+      "what": "NS1's title signed at the editor's word; RP1 opened; five letters",
+      "evidence": "briefs/2026-11-02__in-session/05-the-title-is-a.md"
+    },
+    {
+      "what": "SP1 signed (the series page to the back of the short editions); his title idea into the round with traced numbers",
+      "evidence": "briefs/2026-11-02__in-session/04-series-page-and-a-title-idea.md"
+    },
+    {
+      "what": "five letters answered; the editor's words relayed to the publisher; brief 36",
+      "evidence": "team/conductor/editor-briefs/2026-11-02T0415Z.pdf"
+    },
+    {
+      "what": "CV1 A, DR1 A and the ZX branding recorded at the editor's word; a title round asked of the storyteller, researcher and synthetic; the guide to the briefs written",
+      "evidence": "team/conductor/guides/editor-briefs.md; briefs/2026-11-02__in-session/03-cover-a-narrator-a-zx-and-the-briefs-guide.md"
+    },
+    {
+      "what": "RW1 at the editor's word: no religious words; the cast guide; the rule in CLAUDE.md and to all ten members",
+      "evidence": "briefs/2026-11-02__in-session/02-no-religious-words.md"
+    },
+    {
+      "what": "UL1 recorded at his words; three letters answered; brief 35 with the 10-page edition",
+      "evidence": "briefs/2026-11-02__in-session/01-keep-the-pace.md; team/conductor/editor-briefs/2026-11-02T0220Z.pdf"
+    },
+    {
+      "what": "historian 016 answered; brief 34 on the usage limit",
+      "evidence": "team/conductor/editor-briefs/2026-11-02T0015Z.pdf"
+    },
+    {
+      "what": "six letters answered; the tablet menu fixed; a brief correction recorded; brief 33",
+      "evidence": "team/conductor/editor-briefs/2026-11-01T1620Z.pdf; src/static/assets/site.css"
+    },
+    {
+      "what": "ten letters answered; brief 32 with DR1, the opening script and the room's verdict",
+      "evidence": "team/conductor/editor-briefs/2026-11-01T1420Z.pdf"
+    },
+    {
+      "what": "PS1 and ZM1 recorded at the editor's word, CV1 opened; eight letters; the title prompt updated",
+      "evidence": "briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md"
+    },
+    {
+      "what": "the gate fixed at the editor's go; his three held answers filed and sent to seven members",
+      "evidence": "briefs/2026-11-01__in-session/02-draw-me-kdp-later-and-map-notes.md"
+    },
+    {
+      "what": "designer 055 and researcher 019 answered; the publisher told of the 11b fix and the script; MN1 opened; brief 31",
+      "evidence": "team/conductor/editor-briefs/2026-11-01T0810Z.pdf"
+    },
+    {
+      "what": "designer 054 and publisher 023 answered; brief 30",
+      "evidence": "team/conductor/editor-briefs/2026-11-01T0610Z.pdf"
+    },
+    {
+      "what": "designer 051, publisher 022, researcher 018 answered; brief 29 with LAB 27",
+      "evidence": "team/conductor/editor-briefs/2026-11-01T0410Z.pdf"
+    },
+    {
+      "what": "TS1 (type A) and PR1 ($14.99) signed at the editor's word; the publisher and designer told",
+      "evidence": "book.json TS1, PR1"
+    },
+    {
+      "what": "five letters answered; TS1 and PR1 opened; INK1 sales-first added; brief 28",
+      "evidence": "team/conductor/editor-briefs/2026-11-01T0215Z.pdf"
+    },
+    {
+      "what": "INK1 and NR1 recorded at the editor's word; nine letters",
+      "evidence": "briefs/2026-11-01__in-session/01-the-story-told-by-its-characters.md"
+    },
+    {
+      "what": "security 013, developer 014, publisher 019 answered; INK1 opened; brief 27",
+      "evidence": "team/conductor/editor-briefs/2026-11-01T0010Z.pdf"
+    },
+    {
+      "what": "P2 and CH1 signed at the editor's word; six letters",
+      "evidence": "briefs/2026-10-31__in-session/05-crown-quarto-and-the-cast.md"
+    },
+    {
+      "what": "five letters answered; line 98 sent to security; the lab-look sample to the editor, not yet to share; brief 26",
+      "evidence": "team/conductor/editor-briefs/2026-10-31T2215Z.pdf"
+    },
+    {
+      "what": "publisher 017 and security 011 answered; brief 25",
+      "evidence": "team/conductor/editor-briefs/2026-10-31T2010Z.pdf"
+    },
+    {
+      "what": "LK1 signed at the editor's word and routed to the designer, ruv.sgit, the publisher (with the ink costs) and the storyteller",
+      "evidence": "briefs/2026-10-31__in-session/04-an-infographic-driven-book.md"
+    },
+    {
+      "what": "the editor's words on the look and the title recorded; LK1 opened; letters to the designer, publisher and storyteller; the title-thread prompt",
+      "evidence": "briefs/2026-10-31__in-session/03-the-look-and-the-title-thread.md; team/conductor/prompts/title-thread.md"
+    },
+    {
+      "what": "the editor's answers recorded (G1 decided, the 95%, RiskMandate, the voice); five letters; the sample sent to him as an uncleared draft; briefs 23 and 24, the night and the day, with heatmaps from the git log",
+      "evidence": "briefs/2026-10-31__in-session/02-g1-the-95-and-the-day-in-review.md; team/conductor/editor-briefs/2026-10-31T1925Z-night.pdf; team/conductor/editor-briefs/2026-10-31T1925Z-day.pdf"
+    },
+    {
+      "what": "storyteller 021, security 010, researcher 015, publisher 016 answered; brief 22 with the outline",
+      "evidence": "team/conductor/editor-briefs/2026-10-31T1815Z.pdf"
+    },
+    {
+      "what": "designer 034, publisher 015 and researcher 014 answered; the storyteller told what is ready; brief 21",
+      "evidence": "team/conductor/editor-briefs/2026-10-31T1615Z.pdf"
+    },
+    {
+      "what": "designer 031 and publisher 014 answered; brief 20",
+      "evidence": "team/conductor/editor-briefs/2026-10-31T1410Z.pdf"
+    },
+    {
+      "what": "the editor's words recorded; T10 decided at his word and G1 open; six letters; brief 19",
+      "evidence": "briefs/2026-10-31__in-session/01-the-first-ten-pages-and-the-gen-zx-series.md; team/conductor/editor-briefs/2026-10-31T1335Z.pdf"
+    },
+    {
+      "what": "publisher 013 and researcher 013 answered; figure notes and the article graph routed to the designer; brief 18",
+      "evidence": "team/conductor/editor-briefs/2026-10-31T1210Z.pdf; comms/mail/conductor/outbox/designer__015-figures-to-draw.eml"
+    },
+    {
+      "what": "two letters answered; brief 17",
+      "evidence": "team/conductor/editor-briefs/2026-10-31T1010Z.pdf"
+    },
+    {
+      "what": "J1 and A9 open for the editor; three letters; brief 16, the morning brief",
+      "evidence": "team/conductor/editor-briefs/2026-10-31T0815Z.pdf"
+    },
+    {
+      "what": "three letters answered; NS1's detail gains the title check and the footnote question; brief 15",
+      "evidence": "team/conductor/editor-briefs/2026-10-31T0615Z.pdf"
+    },
+    {
+      "what": "the 02:20 change recorded on dev and told to every member; V2, P2, NS1, W1; Personas in the menu; eight letters; brief 14",
+      "evidence": "team/conductor/debriefs/2026-10-31__the-0220-record.md"
+    },
+    {
+      "what": "batch 10 routed (storyteller, designer, librarian); brief 13",
+      "evidence": "team/conductor/editor-briefs/2026-10-31T0220Z.pdf"
+    },
+    {
+      "what": "review batches 5 to 9 routed to eight members; eight letters answered; brief 12",
+      "evidence": "team/conductor/editor-briefs/2026-10-31T0215Z.pdf"
+    },
+    {
+      "what": "RC1 review batches 1 to 4 captured and mapped; Q6 amended (nights back, full wakes); the review routed to six members; brief 11",
+      "evidence": "team/conductor/rc1/editor-review/notes.json"
+    },
+    {
+      "what": "the editor's voice memo as a brief; the name and structure study routed to four members; brief 10",
+      "evidence": "briefs/2026-10-30__in-session/02-the-centre-of-gravity.md"
+    },
+    {
+      "what": "briefs numbered and dated on every page; D6 explained (brief 9); Q6 decided into WAKE.md's Cadence; K1 deferred; the editor's tasks tracked; the conductor's task to day hours; ten letters",
+      "evidence": "team/conductor/debriefs/2026-10-30__cadence-and-d6-explained.md"
+    },
+    {
+      "what": "three letters answered; Q6 open; brief 8 with the launch checklist",
+      "evidence": "team/conductor/debriefs/2026-10-30__launch-needs-the-editor.md"
+    },
+    {
+      "what": "five letters answered; K1 open; the historian's correction recorded; brief 7",
+      "evidence": "team/conductor/debriefs/2026-10-30__interviews-in-and-k1.md"
+    },
+    {
+      "what": "src claim narrowed for the developer; review pages make no third-party request; blurbs render; /lab/; D6-6; seven replies; brief 6",
+      "evidence": "team/conductor/debriefs/2026-10-30__the-asks-delivered.md"
+    },
+    {
+      "what": "six letters answered; $0 readers get updates recorded in L1 and REALITY.md; brief 5",
+      "evidence": "team/conductor/editor-briefs/2026-10-30T1640Z.pdf"
+    },
+    {
+      "what": "publisher, developer and synthetic sessions recorded and announced; schedule.json current; D6-1 to D6-5 open; three requests routed; brief 4",
+      "evidence": "team/conductor/debriefs/2026-10-30__eleven-members-and-routing.md"
+    },
+    {
+      "what": "the decisions pack: eighteen choices waiting on the editor, with recommendations and tick boxes, and what to read",
+      "evidence": "team/conductor/editor-briefs/2026-10-30T1400Z.pdf, /updates/"
+    },
+    {
+      "what": "the reviewer experience brief; developer@ and synthetic@ drafted; R1, R2 open; brief 2",
+      "evidence": "team/conductor/debriefs/2026-10-30__the-reviewer-experience.md"
+    },
+    {
+      "what": "the editor's brief tool and the first brief, /updates/ on the site; H1 decided and in WAKE.md; six handovers recorded and announced; publishers and reviewers studies released",
+      "evidence": "team/conductor/debriefs/2026-10-30__the-editors-brief-and-h1.md"
+    },
+    {
+      "what": "a For publishers page (/publishers/), the review programme brief, the librarian's handover recorded and announced; studies of reviewers and publishers in progress",
+      "evidence": "team/conductor/debriefs/2026-10-30__publishers-page-and-review-programme.md"
+    },
+    {
+      "what": "research pages on the site (/research/); L1 in the editor's words; the PDF lab brief and two new members drafted (designer, ruv.sgit); X1 recorded, X2 open",
+      "evidence": "team/conductor/debriefs/2026-10-30__research-on-the-site-and-the-pdf-lab.md"
+    },
+    {
+      "what": "four Leanpub studies (platform, the editor's books, the market, the bestsellers) with an index; sent to the researcher and publisher; keyfile warning in the key tool's README; sessions register and H1",
+      "evidence": "team/conductor/research/leanpub/README.md, team/conductor/debriefs/2026-10-30__leanpub-studies-and-handovers.md"
+    },
+    {
+      "what": "the conductor's task on the second account, every two hours at :02; members' runs every two hours; a takeover prompt per member; H1 proposed (how a session is closed)",
+      "evidence": "team/conductor/schedule.json, team/conductor/ONBOARDING.md, book.json H1"
+    },
+    {
+      "what": "RC1 and the companion rebuilt and compared with the printed PDFs: same pages, same text, same rendering; RC1 on its own page, linked from the home page",
+      "evidence": "team/conductor/debriefs/2026-10-30__rc1-rebuilt-and-on-the-site.md, /rc1/"
+    },
+    {
+      "what": "takeover: new session key, the build copies manuscript/resources, the publisher told RC1 moved on, the storyteller's, researcher's and security's letters answered, issue 001 closed",
+      "evidence": "team/conductor/debriefs/2026-10-30__takeover-from-the-first-account.md"
+    },
+    {
+      "what": "RC1: 13 chapters, Appendix A and 42 images, drafted at the editor's word; the illustrated PDF sent to him",
+      "evidence": "team/conductor/rc1/"
+    },
+    {
+      "what": "M1: the book in Markua, at the editor's word; the request to the publisher",
+      "evidence": "book.json M1"
+    },
+    {
+      "what": "the own-scope report marks every widening (security's note)",
+      "evidence": "admin/build/agents.py"
+    },
+    {
+      "what": "the own-scope report covers the never list and the mandate too (security's note); the working-tree caveat documented",
+      "evidence": "admin/build/agents.py"
+    },
+    {
+      "what": "agents.py check reports every change to a member's own scope, at security's proposal (report only)",
+      "evidence": "admin/build/agents.py"
+    },
+    {
+      "what": "the researcher's study of graphs.sgit.ai, the editor's request: reuse a making-of with numbers computed from git, the failures chapter, what it costs and where it loses, book versions apart from site versions; avoid six days building the machine and none of the book",
+      "evidence": "claims/graphs-sgit-ai.md, C032 to C036"
+    },
+    {
+      "what": "book.json in line with the chapter plan's draft 4 (P0, O1: about 49,200 words)",
+      "evidence": "comms/mail/mailroom/conductor/storyteller__002-plan-draft-4.eml"
+    },
+    {
+      "what": "C10 signed by the editor; the four members told they may add their comms paths",
+      "evidence": "book.json C10; comms/mail/mailroom/*/conductor__*-c10-signed.eml"
+    },
+    {
+      "what": "the board and the mail pages, built from comms/ in git",
+      "evidence": "/team/board.html, /admin/mail.html"
+    },
+    {
+      "what": "historian's and publisher's letters taken; their requests closed",
+      "evidence": "comms/mail/conductor/done/"
+    },
+    {
+      "what": "the editor's request routed to the researcher: a close look at graphs.sgit.ai, the nearest precedent",
+      "evidence": "comms/mail/mailroom/researcher/conductor__002-graphs-sgit-ai.eml"
+    },
+    {
+      "what": "the storyteller's open questions and the plan's signature as open decisions (P0, O1 to O5, C011)",
+      "evidence": "book.json, /decisions/"
+    },
+    {
+      "what": "the publisher's manuscript build in the release job; the PDF and EPUB linked from the book page",
+      "evidence": ".github/workflows/release.yml, /book/"
+    },
+    {
+      "what": "comms/ in git: the board and the mail as folders, the notice and request in every mailroom",
+      "evidence": "comms/README.md"
+    },
+    {
+      "what": "a Done when list in every member's ROLE.md and a Finishing section in WAKE.md: each member pauses its own task when its work is done; Q2 decided (round the clock; at the limit, wait for the reset)",
+      "evidence": "team/conductor/WAKE.md, team/*/ROLE.md, book.json"
+    },
+    {
+      "what": "first batch onboarded and checked: six keys, six tasks; the conductor's own task at :02",
+      "evidence": "admin/keys.html, team/schedule.html"
+    },
+    {
+      "what": "the first wake on the ported machinery, all five steps recorded (pre-review change, then go; post-review finding; post-check partial)",
+      "evidence": "team/conductor/wakes/20261030T011522Z.json, team/conductor/debriefs/2026-10-30__porting-the-machinery.md"
+    },
+    {
+      "what": "the site, first version, released as v0.1.0 on dev and live",
+      "evidence": "/admin/versions.html"
+    },
+    {
+      "what": "the talk team's machinery ported: admin/tools/, admin/build/ (build, gate, agents.py), WAKE.md, reviews/, the admin section",
+      "evidence": "/admin/index.html"
+    },
+    {
+      "what": "the conductor's session key, made with the pinned pki-agent.mjs in this session",
+      "evidence": "team/conductor/key.json"
+    },
+    {
+      "what": "the hand-off to the Cold-Read team: one prompt, one brief, nothing else",
+      "evidence": "team/conductor/handoffs/2026-10-30__cold-read/"
+    },
+    {
+      "what": "the first batch proposed: librarian, historian, security, researcher, storyteller, publisher, each with ROLE.md, policy.json and a slot",
+      "evidence": "team/conductor/ONBOARDING.md"
+    }
+  ],
+  "next": [
+    {
+      "what": "track ED1: round 1 comments, edits, rebuild; round 2; trace and clearance; the final editions and a brief to the editor",
+      "when": "each wake until done"
+    },
+    {
+      "what": "the home page still says 'one person, ten agents' and the old framing: bring it to PS1",
+      "when": "next wake"
+    },
+    {
+      "what": "release the reviewers and publishers studies after review, and put the first wave of reviewers and the first three publishers to the editor as open decisions",
+      "why": "the editor, 12:30 UTC"
+    },
+    {
+      "what": "when designer@ and ruv.sgit@ publish their keys, record them in sessions-register.json and announce them; a site page for the lab PDF when the designer asks",
+      "why": "X1"
+    },
+    {
+      "what": "put the studies' five proposals to the editor as open decisions (subtitle, categories, suggested price, Pro plan, paid promotion)",
+      "why": "he decides by signing"
+    },
+    {
+      "what": "record each member's new session in sessions-register.json as its key reaches dev, and announce it",
+      "why": "H1, the editor's word"
+    },
+    {
+      "what": "check the storyteller's chapter 9 passages and 08:59, then the open findings, merged with the editor's notes in one revision",
+      "why": "storyteller's letter 003; the attack-shaped rule"
+    },
+    {
+      "what": "ask the editor whether the companion PDF and its annotations stay public in the repository (they say where the leaked values are)",
+      "why": "D12; security's card on aa7a3eb"
+    },
+    {
+      "what": "turn the editor's paper ticks into open decisions in book.json",
+      "why": "he decides by signing"
+    },
+    {
+      "what": "Track the designer's cover proposals (CV2) and put them to the editor side by side.",
+      "when": "when the designer replies"
+    }
+  ],
+  "asks": [
+    {
+      "what": "the tasks in team/conductor/editor-tasks.json",
+      "from": "the editor"
+    }
+  ],
+  "task": {
+    "id": "trig_01BmE8oGh2UyxmLwR4vrMexU",
+    "cron": "CRON_TZ=Europe/London 2 */2 * * *",
+    "session": "session_01Kw9UwD2NrD3Mh35Wg7DK1n",
+    "created": "2026-10-30T11:44:04Z",
+    "by": "conductor, at the editor's word in its session",
+    "replaces": "trig_01K8zShjjXTz4VGLCTcKFVUe (first account, paused)"
+  },
+  "daily_ask": {
+    "at": "2026-10-30T08:10:00Z",
+    "open": [
+      "Q3",
+      "Q4",
+      "P0",
+      "O1",
+      "O2",
+      "O3",
+      "O4",
+      "O5",
+      "C011",
+      "L1",
+      "L2",
+      "C10b"
+    ]
+  },
+  "updated": "2026-11-02T05:00:00Z",
+  "cadence": "active"
 }
