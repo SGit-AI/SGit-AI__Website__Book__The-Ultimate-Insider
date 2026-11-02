@@ -1,0 +1,91 @@
+{
+ "schema": "the-ultimate-insider/synthetic-round-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "first-build-finisher",
+ "round": 1,
+ "read": ["edition-03.pdf (6 pages)", "edition-10.pdf (12 pages)"],
+ "editions": {
+  "03": {
+   "page_one_held": "partly",
+   "got_the_factory": "yes",
+   "would_start_tomorrow": "yes",
+   "one_line": "The four steps on page 5 are exactly the next step I wanted, but the cover gives me a title and nothing else and the contents page wastes a sheet."
+  },
+  "10": {
+   "page_one_held": "partly",
+   "got_the_factory": "yes",
+   "would_start_tomorrow": "maybe",
+   "one_line": "The build-up is richer and the numbered cards on page 11 are the clearest page in either file, but I wade through eight pages of other people's arguments before I am told what to do."
+  }
+ },
+ "the_page": "The type is comfortable on a phone-sized page and the serif body with a bold cast bar and a rust rule gives each page a steady rhythm, with mostly one idea per page. But the pages are half empty at the foot, the 'Words on this page' and 'How to read the scenes' boxes crowd the opening story, and the pictures are only described in italics ('One picture: ...'), so there are no pictures to help or crowd. The running head 'Round 1 of the editions, read by synthetic readers' sits on every page and reads as scaffolding.",
+ "best_page": {"edition": "10", "pdf_page": 11, "why": "Five numbered cards, one action each, in plain words I could follow tomorrow: one tool, one page of rules, one brief, build and check, add a second agent only when the first is busy. It is the only page that tells me what to do and it is easy to scan."},
+ "worst_page": {"edition": "10", "pdf_page": 2, "why": "A contents page of ten bare titles with no page numbers on an otherwise blank sheet. It tells me nothing and delays the story. The 3-page edition's page 2 has the same fault."},
+ "changes": [
+  {
+   "owner": "publisher",
+   "edition": "03",
+   "pdf_page": 2,
+   "quote": "The factory is assembled",
+   "change": "Drop the stand-alone contents sheet in the short editions, or add page numbers and fold it into the cover, so the story starts on the second sheet.",
+   "why": "A phone reader spends a page on four lines and gains nothing; in both editions the sheet is almost empty."
+  },
+  {
+   "owner": "storyteller",
+   "edition": "03",
+   "pdf_page": 1,
+   "quote": "How a factory of AI agents built a presentation in a day, and how to build yours",
+   "change": "Add one line of promise under the subtitle that says who this is for and what they will have done by the end, for example the four steps.",
+   "why": "Page one is a title and a subtitle. A first-time builder needs to see that this is the next step after a first app before turning the page."
+  },
+  {
+   "owner": "storyteller",
+   "edition": "03",
+   "pdf_page": 3,
+   "quote": "a hold is one short file that stops every agent until the person in charge says go",
+   "change": "Move the glossary box after the cast lines, or trim it to the three words the page needs (agent, conductor, hold), and put the 'How to read the scenes' note on the cover or the back.",
+   "why": "Two grey boxes of definitions sit between me and the story. Six terms at once is a lot for someone with no coding background."
+  },
+  {
+   "owner": "storyteller",
+   "edition": "10",
+   "pdf_page": 11,
+   "quote": "Start with one of me.",
+   "change": "Move the 'Your factory, starting tomorrow' page much earlier, or add a one-line pointer on page 3 saying where the steps are. Say what 'a brief' and 'a page of rules' look like with one tiny example each.",
+   "why": "The action page is page 11 of 12. A finisher with five minutes may never reach it, and 'brief' and 'rules' are named but never shown."
+  },
+  {
+   "owner": "storyteller",
+   "edition": "10",
+   "pdf_page": 8,
+   "quote": "Three accounts of why, all kept and dated",
+   "change": "Give the stop its own plain sentence: what the editor feared, what was said, what the conductor did. Move the three-accounts footnote out of the main flow.",
+   "why": "The footnote is the most interesting part of the failure and it is set in small type under a rule. It also makes me doubt the story's one clear moment."
+  },
+  {
+   "owner": "designer",
+   "edition": "10",
+   "pdf_page": 3,
+   "quote": "(One picture: the editor at a lectern with a play button; behind him, the factory's nine stations.)",
+   "change": "Draw the pictures or remove the italic stage directions. A one-page factory map (nine stations, who talks to whom) would give me the factory at a glance.",
+   "why": "The directions promise pictures that are not there; the page reads as a script with holes. I understand the factory only from the words."
+  },
+  {
+   "owner": "designer",
+   "edition": "10",
+   "pdf_page": 7,
+   "quote": "",
+   "change": "Fill the lower half of the short pages: a cast card for each speaker on its first page, or a small clock line (midnight, 05:00, 14:00, 18:44) as a strip.",
+   "why": "Every scene page is half blank, and the cast lines have no faces. I cannot tell nine agents apart from italic mood words alone."
+  },
+  {
+   "owner": "publisher",
+   "edition": "10",
+   "pdf_page": 12,
+   "quote": "chapter-plan/zoom-ladder.md; chapter-plan/cast/edition-03.md",
+   "change": "Remove the repository file paths from the printed 'Where this came from' note, replace them with plain source names, and mix no serif into the monospace line. Also remove the 'Round 1' running head from the final build.",
+   "why": "File paths mean nothing to a reader and the mixed fonts look broken. The running head makes the book look unfinished."
+  }
+ ],
+ "notes": "Dev, Conductor, Deck and ruv-sgit come across as distinct voices ('The slides are mine. If a room cannot read one at a glance, it goes back.' is the best line), and the failures stay in, which is why I trust it. In the 10-page edition the Storyteller and Studio lines are less clear, and the 'therapy session' and 'interview' strips are described rather than shown. I would start tomorrow from the 3-page edition. I would start from the 10-page edition only after a first read through page 11."
+}
