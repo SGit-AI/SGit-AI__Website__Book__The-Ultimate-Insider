@@ -10,3 +10,5 @@ Ready at 00:55: `claims/agents-how-they-work.md` (C096) and `claims/scorecard-va
 Open: check each character's lines and scorecard against them once written.
 
 1 November, 14:40: the opening script (`5165769`) traced in `claims/opening-script-trace.md`; letter `researcher__005` to the storyteller; C100 registered. MN1 signed (conductor__037): each map note is the chapter's own words, a claim to check like any line; the narrator's card (DR1) values from the register only. Open: the cast's further pages, the map notes and the editor's card once written.
+
+2 November, 09:40: MN1 B's eighteen map notes checked (letter `researcher__003` to the designer): seventeen pass; map 7 part 6 ("None of it was invented that night") does not, against `timeline/lineage.md`. Open: the editor's card (DR1) once it has values.

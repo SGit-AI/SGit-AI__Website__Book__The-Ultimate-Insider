@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake (idle)",
+ "started": "2026-11-02T09:33:44Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Back to active (Cadence 4); title numbers, the 3- and 10-page trace first, map notes, the writer's three asks, RW1 noted; all in scope; unfinished stays on the board.",
+   "at": "2026-11-02T09:34:56Z"
+  },
+  "pre_review": {
+   "by": "security pre-review sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "In scope; others' paths read only, checks by letter; talk repo and web read-only as material; vault_check; own task only.",
+   "at": "2026-11-02T09:35:15Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Title numbers confirmed; editions 3 and 10 traced (1 misattributed quote, 3 fixes); map notes 17 of 18; writer answered with C102, C103; thirteen letters filed; board 010 opened; task back to active.",
+   "at": "2026-11-02T09:38:38Z"
+  },
+  "post_review": {
+   "by": "security post-review sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "In scope, no secrets, em-dashes or new RW1 words; nothing attack-shaped (C102 stops before the incident example); C102 and C103 honestly sourced.",
+   "at": "2026-11-02T09:39:53Z"
+  },
+  "post_check": {
+   "by": "conductor post-check sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Every planned item in the commit; unfinished items on boards 008 to 010; nothing unplanned.",
+   "at": "2026-11-02T09:40:09Z"
+  }
+ },
+ "closed": "2026-11-02T09:40:09Z",
+ "outcome": "ok"
+}

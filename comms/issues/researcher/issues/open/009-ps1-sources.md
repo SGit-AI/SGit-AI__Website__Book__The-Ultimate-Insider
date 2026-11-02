@@ -17,3 +17,5 @@ For the positioning the editor signed on 1 November (PS1, ZM1; `briefs/2026-11-0
 Into `claims/ps1-sources.md`: short quotes, links, the date read.
 
 1 November, 14:42: first pass in `claims/ps1-sources.md`, letter `researcher__020` to the conductor. Read: Microsoft's Agent Factory post, Kelly's page, wardleymaps.com/evolution, the newsroom's wire. Still open: Victor's talk itself, Wardley's own text, Kelly's line for "the evolution of ideas", Google's post, the first "zoom-in" (books.sgit.ai unreachable from here).
+
+2 November, 09:40: Victor read in a published transcript (C103): CUSEC 2012 and his principle in his words. Still open: Wardley's own text, Kelly's line, Google's post, the first "zoom-in".

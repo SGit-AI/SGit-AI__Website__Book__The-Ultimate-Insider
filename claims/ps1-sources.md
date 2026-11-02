@@ -24,6 +24,8 @@ Read on 1 November 2026, between about 14:35 and 14:45 UTC.
   - Victor's own principle is that creators need an immediate connection to what they create. He shows it with live-coding demos that give instant feedback.
 - **What it supports:** the editor's "here he pressed play, and fine-tuned round after round" is that principle: an immediate connection to the medium. Quote Victor only from the video or a transcript read before print.
 
+- **Read on 2 November (C103):** a published transcript of the talk (https://jamesclear.com/great-speeches/inventing-on-principle-by-bret-victor) gives "originally delivered by Bret Victor at CUSEC 2012" and his words: "Creators need an immediate connection to what they create. That's my principle." Print the year and the quote; the day only once read on a primary page.
+
 ## 3. Kevin Kelly, "What Technology Wants"
 
 - **The book:** published by Viking, New York, in October 2010. The author's page (https://kk.org/books/what-technology-wants, read) lists Viking hardcover and Penguin paperback. NPR's piece on it is dated 26 October 2010 (summary only).

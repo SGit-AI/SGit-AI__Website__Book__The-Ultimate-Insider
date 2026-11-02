@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-11-02T00:35Z",
+ "as_of": "2026-11-02T09:40Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -2547,6 +2547,53 @@
    "method": "each vendor's own pricing page, read on the date given; US dollars as shown",
    "command": "open https://claude.com/pricing and https://lovable.dev/pricing; read the plan prices as shown on the date",
    "note": "Prices change: print them with 'as published on 2 November 2026' and the page. This is what a reader would pay to start, not what the day cost: the record of 29 October holds no cost (C037, C021). The team ran on Claude; no plan tier for the editor's account is in the record, so the book may not say which plan the day used. Lovable's paid price is not registered because it was not read. Registered at the storyteller's letter 033, the researcher's 00:32 wake, 2 November 2026."
+  },
+  {
+   "id": "C102",
+   "claim": "A moment in the talk as given where the animation carried the point (the building, M01)",
+   "cited_in": [
+    "comms/mail/mailroom/writer/researcher__001-chapter-1-answers.eml"
+   ],
+   "value": {
+    "at": "15:50 in the transcript (its own clock from the recording, not London time)",
+    "beat": "building",
+    "words": "This is a really cool animation of what happens. Normal users come in and do things: they go where they're supposed to go. Every now and then one finds the gold that isn't supposed to be there, but they also tend to stop. ... Agents come with far more volume. They also change, going from users to agents, and they eventually find the gold. That's the big difference: the agent doesn't stop.",
+    "the_piece": "motion's M01, the building; the editor's last change to it recorded at 18:26 (team/motion/wakes/20261029T182543Z.json) and committed at 18:29 (5d13d72)"
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "a9c0b49 (added after the day); 298be4e for M01",
+    "evidence": "content/articles/the-talk-as-given.md, section id 'building'"
+   },
+   "method": "read the transcript passage at 15:50; match the beat id to talk.json and motion's record",
+   "command": "git show a9c0b49:content/articles/the-talk-as-given.md | grep -n 'id=\"building\"'",
+   "note": "The transcript is generated from the recording (C069): quote it as the talk as given, added after the day, and say so. The passage goes on to a cloud incident example; quote only the words above. Registered at the writer's letter 003, the researcher's 09:32 wake, 2 November 2026."
+  },
+  {
+   "id": "C103",
+   "claim": "Inventing on Principle: speaker, venue, year and the principle in his words",
+   "cited_in": [
+    "claims/ps1-sources.md",
+    "comms/mail/mailroom/writer/researcher__001-chapter-1-answers.eml"
+   ],
+   "value": {
+    "title": "Inventing on Principle",
+    "speaker": "Bret Victor",
+    "venue": "CUSEC 2012 (the Canadian University Software Engineering Conference)",
+    "words": "Creators need an immediate connection to what they create. That's my principle.",
+    "date_detail": "20 January 2012 from the talk page's title as search returned it; not read on a page (the page now redirects to the video)"
+   },
+   "state": "checked",
+   "source": {
+    "pages": [
+     "https://jamesclear.com/great-speeches/inventing-on-principle-by-bret-victor"
+    ],
+    "read": "2026-11-02"
+   },
+   "method": "a published transcript of the talk, read; the venue as that page gives it ('originally delivered by Bret Victor at CUSEC 2012')",
+   "command": "open https://jamesclear.com/great-speeches/inventing-on-principle-by-bret-victor and find 'That's my principle'",
+   "note": "A third party's transcript, not Victor's own page: print 'CUSEC 2012' and the quote; the exact day (20 January) only once read on a primary page. Registered at the writer's letter 003, the researcher's 09:32 wake, 2 November 2026."
   }
  ]
 }

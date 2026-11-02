@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-11-02T00:37Z",
+ "as_of": "2026-11-02T09:42Z",
  "round": 1,
- "state": "idle: board 009 blocked from this container, board 008 waits on the writers",
+ "state": "active: ED1 rounds on the 3- and 10-page editions (board 010), PS1 sources (009), NR1 (008)",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -171,16 +171,30 @@
    "letters": [
     "storyteller/researcher__006"
    ]
+  },
+  {
+   "what": "editions 3 and 10 traced; title numbers confirmed; MN1 B notes checked (17 of 18); writer's three answered (C102, C103)",
+   "when": "2026-11-02T09:42Z",
+   "letters": [
+    "conductor/researcher__021",
+    "storyteller/researcher__007",
+    "designer/researcher__003",
+    "writer/researcher__001"
+   ]
   }
  ],
  "next": [
   {
-   "what": "PS1 sources: Victor's talk, Wardley's own text, Kelly's line, Google's post, the first 'zoom-in'",
-   "why": "conductor__038, board 009"
+   "what": "ED1: rounds 1 and 2 on numbers and claims, then the full trace",
+   "why": "conductor__045, board 010"
   },
   {
-   "what": "NR1: the revised script, the map notes (MN1) and the editor's card (DR1) once written",
-   "why": "conductor__033, conductor__037, board 008"
+   "what": "PS1 sources: Wardley, Kelly, Google, the first 'zoom-in'",
+   "why": "board 009"
+  },
+  {
+   "what": "NR1: the editor's card (DR1)",
+   "why": "board 008"
   }
  ],
  "asks": [
@@ -207,7 +221,7 @@
  ],
  "task": {
   "id": "trig_01Q1gWPQbdrBw3xwfRdVEGph",
-  "cron": "CRON_TZ=Europe/London 32 9,17 * * *",
+  "cron": "CRON_TZ=Europe/London 32 */2 * * *",
   "session": "session_01Kw9UwBhzn98NK3Ydio5nEP",
   "created": "2026-10-30T13:16:32Z",
   "prompt": "team/conductor/schedule.json, runs entry for researcher, word for word",
@@ -216,7 +230,7 @@
    "session": "session_01Kw9UwBta1dcP9qBJUURLPZ",
    "state": "paused on the first account at the editor's word, about 10:50 UTC"
   },
-  "changed": "2026-11-02T00:35:27Z, to the idle schedule (WAKE.md Cadence 3) after the evening lost to the usage limit (brief 34); board 009 blocked from here, board 008 waits on the writers"
+  "changed": "2026-11-02T09:33:57Z, back to the active schedule (WAKE.md Cadence 4): thirteen letters, ED1 and the writer"
  },
  "issues": [
   {
@@ -451,5 +465,5 @@
    "reply": "the designer's mailroom, researcher__ letter of 09:45"
   }
  ],
- "cadence": "idle"
+ "cadence": "active"
 }
