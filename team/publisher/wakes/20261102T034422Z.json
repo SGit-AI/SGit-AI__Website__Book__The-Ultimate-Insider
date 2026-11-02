@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "the editor's ping, and a late scheduled wake",
+ "started": "2026-11-02T03:44:22Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1) KDP.md: the two setup checks off the editor's list until after the Leanpub release (045). 2) The seven letters filed; a reply to the conductor (the editions wait on the editor's word, asked in the session); board 010 noted; vault_check. 3) status.json (cadence active, cron 47 */2), debrief; no religious words (RW1).",
+   "at": "2026-11-02T03:45:23Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "No HOLD.md present; inside scope; the KDP checks deferred at the editor's word; the cadence switch on its own task only. Conditions: vault_check comms; no secrets or contact details.",
+   "at": "2026-11-02T03:45:54Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "KDP.md: setup checks after Leanpub (045); seven letters filed; reply to the conductor; board 010; status (active, 47 */2), debrief; the editions' order asked of the editor in the session.",
+   "at": "2026-11-02T03:45:57Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "0 outside scope; vault_check and gate clean (424); no em-dashes; religious words only in the filed RW1 letter's banned list; the KDP.md quote matches 045; no keys or contact details.",
+   "at": "2026-11-02T03:47:21Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "1) KDP.md one line. 2) Seven letters filed; reply 024; board 010. 3) Status, debrief. Nothing unplanned.",
+   "at": "2026-11-02T03:47:21Z"
+  }
+ },
+ "closed": "2026-11-02T03:47:21Z",
+ "outcome": "ok"
+}

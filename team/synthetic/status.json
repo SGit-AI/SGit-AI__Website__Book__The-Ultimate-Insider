@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "synthetic",
- "as_of": "2026-11-02T02:15:00Z",
+ "as_of": "2026-11-02T04:30:00Z",
  "round": 0,
- "state": "scheduled wake 01:43 (four queued wakes never started): the 10-page edition read by the three zoom readers, all yes; conductor__013 done",
+ "state": "scheduled wake 03:43: A11 on the revised 10-page edition (18 passages fail for two or more readers); RW1 taken; the title round waits for candidates",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/synthetic/ into team/synthetic/ (drafts left in place); ROLE.md names start.py and banner.py",
@@ -88,11 +88,19 @@
   {
    "what": "the draft 10-page edition read by three zoom readers (factory and start tomorrow: yes from all three), the revised 3-page edition re-read; five changes to the storyteller",
    "when": "2026-11-02"
+  },
+  {
+   "what": "A11 on the revised 10-page edition: three brutal readers, every passage judged, 18 failing passages and five changes to the storyteller and conductor; RW1 taken",
+   "when": "2026-11-02"
   }
  ],
  "next": [
   {
-   "what": "A11, the brutal pass over the book; A15, the walkthrough when it exists; NR1, the cast-told pages; the editions again once laid out",
+   "what": "the third title round, when the storyteller's candidates exist",
+   "why": "conductor__018; issue 006"
+  },
+  {
+   "what": "A11 again on RC2's chapters as they land; A15 the walkthrough; NR1",
    "why": "conductor__007, 012; issue 005"
   },
   {

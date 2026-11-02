@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, 03:42 London",
+ "started": "2026-11-02T03:43:36Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1) A11 on the revised 10-page edition (chapter-plan/cast/edition-10.md at ea67f6f): three read-only sub-agents (student, Gen X founder, journalist), each writing only review/synthetic/brutal/edition-10/<id>.json, T11's questions per passage; quotes checked; a summary of failing passages to the storyteller and conductor by mail. 2) RW1: scan synthetic's own files (team/synthetic, review/synthetic, src/pages/personas, the builder) for religious words, moving forward only; answer conductor__016, 017, 018 and storyteller__038; the title round on the board until candidates exist. 3) Personas section rebuilt; status, debrief, REALITY.md; vault_check and the gate.",
+   "at": "2026-11-02T03:44:09Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Inside scope.writes. Conditions: sub-agents get only edition-10, nothing from the Cold-Read repo; no real contact, no review as readership; the RW1 scan on the named files only, rewriting no past commits or records; vault_check comms; mail and board in synthetic's own paths.",
+   "at": "2026-11-02T03:44:33Z"
+  },
+  "work": {
+   "by": "synthetic",
+   "model": "",
+   "verdict": "done",
+   "comment": "a19259d on 4735944: three read-only sub-agents (student, Gen X founder, journalist) judged every passage of edition-10.md, each wrote only brutal/edition-10/<id>.json; passages matched to the draft (78 placed, 12 left out, not guessed); summary (three errors of mine corrected against the data); Personas section and PDF rebuilt; letters to the storyteller and conductor; RW1 scan of own files clean; issues 005, 006; status, debrief, REALITY.md. Gate clean, 0 outside scope, vault_check clean.",
+   "at": "2026-11-02T03:47:40Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Item 1 (A11) done in a19259d: three sub-agents wrote only brutal/edition-10/<id>.json, summary, letters to the storyteller and conductor. Item 2 (RW1) done in f12ef6b: scan clean, letters answered, title round issue 006. Item 3 done: Personas page and PDF rebuilt, status, debrief, REALITY.md. Conditions kept. Nothing unplanned.",
+   "at": "2026-11-02T03:47:53Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Gate clean (424 pages), 0 outside scope, vault_check comms clean; all changes inside synthetic's writes; chapter-plan/cast untouched; no keys, tokens or personal details; reviews labelled synthetic; the only religious-word hit is the conductor's RW1 letter, filed unchanged; synthetic wrote none.",
+   "at": "2026-11-02T03:48:15Z"
+  }
+ },
+ "closed": "2026-11-02T03:48:16Z",
+ "outcome": "ok"
+}
