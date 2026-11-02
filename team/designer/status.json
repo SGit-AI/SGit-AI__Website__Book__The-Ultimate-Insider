@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "designer",
- "as_of": "2026-11-02T07:45:00Z",
+ "as_of": "2026-11-02T09:45:00Z",
  "round": 0,
- "state": "thirty-third wake (scheduled): ED1 round 1 edits with the publisher (cover A on the signed title, a marker per edition page, the speakers' heads); lab PDF 93 pages; next round 2's drawings, then CV2",
+ "state": "thirty-fourth wake (scheduled): CV2's six covers on the signed title (LAB 34, pick A, E second); the 10-page edition's two figures drawn; lab PDF 100 pages; waiting on the editor's CV2 pick and the researcher's MN1 check",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/designer/ into team/designer/ (drafts left in place)",
@@ -167,6 +167,10 @@
   },
   {
    "what": "lab/characters/editions.py (markers per edition page), lab/tools/book/speakers.css (speakers' heads), cover-a-signed.svg in LAB 33; letters designer__071 to 073",
+   "when": "2026-11-02"
+  },
+  {
+   "what": "LAB 34 (six covers on the signed title, a side-by-side sheet, one per page); lab/characters/editions/figure-10-01.svg and figure-10-02.svg; letters designer__074 to 076",
    "when": "2026-11-02"
   }
  ],

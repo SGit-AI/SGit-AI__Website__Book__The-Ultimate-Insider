@@ -1,0 +1,3 @@
+# LAB 34: CV2, six covers on the signed title
+
+`python3 lab/experiments/34-designer-cv2-covers/make_cv2.py` draws covers A to F (the signed parts shared, the art different), the side-by-side sheet (`sheet.png`, thumbnails only), `pages.html`, and the 10-page edition's two drawings that are the designer's (`lab/characters/editions/figure-10-01.svg`, `figure-10-02.svg`). Cover E's numbers are read from the register at build with their ids (C011, C037, C004; the 814 counts the release commits too, as its line says). The designer's pick is a recommendation; CV1 A stands until the editor signs another.

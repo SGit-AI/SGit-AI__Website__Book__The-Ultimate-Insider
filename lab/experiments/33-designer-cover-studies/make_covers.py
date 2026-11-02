@@ -97,7 +97,7 @@ def mapped():
     x0, x1, y0, y1 = 22, 176, 100, 214
     out = [f'<line x1="{x0}" y1="{y1}" x2="{x1}" y2="{y1}" stroke="{MUTED_D}" stroke-width=".6"/>',
            f'<line x1="{x0}" y1="{y0}" x2="{x0}" y2="{y1}" stroke="{MUTED_D}" stroke-width=".6"/>',
-           t(x0, y1 + 8, "genesis", 6, 400, MUTED_D), t(x1, y1 + 8, "commodity", 6, 400, MUTED_D, anchor="end")]
+           t(x0, y1 + 8, "genesis", 6.4, 400, MUTED_D), t(x1, y1 + 8, "commodity", 6.4, 400, MUTED_D, anchor="end")]
     pts = []
     for i, m in enumerate(mc.CAST):
         f = i / (len(mc.CAST) - 1)
@@ -116,7 +116,7 @@ def zoom():
         f = 1 - k * 0.15
         w, h = 160 * f, 110 * f
         out.append(f'<rect x="{cx - w / 2:.1f}" y="{cy - h / 2:.1f}" width="{w:.1f}" height="{h:.1f}" fill="none" stroke="{ACCENT if n == 3 else "#3a3f49"}" stroke-width="{1 if n == 3 else .6}"/>')
-        out.append(t(cx - w / 2 + 2, cy - h / 2 + 6, f"{n}", 5, 700, ACCENT if n == 3 else MUTED_D, font=MONO))
+        out.append(t(cx - w / 2 + 2, cy - h / 2 + 7, f"{n}", 6.4, 700, ACCENT if n == 3 else MUTED_D, font=MONO))
     for i, m in enumerate(mc.CAST):
         a = math.radians(-90 + i * 40)
         out.append(fig(m, cx + 12 * math.cos(a) - 3, cy + 9 * math.sin(a) - 3.6, .15))
