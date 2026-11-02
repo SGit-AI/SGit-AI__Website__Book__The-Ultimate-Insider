@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1. The rebuild's changed words (8a1cfa36) read: clear. 2. The editor's words in this session and the read sent to the conductor and publisher (security__022); board 024. 3. Status, debrief.",
    "at": "2026-11-02T23:16:04Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "60803c7..HEAD: security's comms, debrief, status, wake record only; editions page and PDFs untouched; build, gate, agents.py, vault_check clean; the editor only quoted.",
+   "at": "2026-11-02T23:16:45Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "smaller model (sub-agent)",
+   "verdict": "as-planned",
+   "comment": "1 done: rebuild read, clear. 2 done: the editor's words and the read sent (security__022), board 024. 3 done: status, debrief. Nothing unplanned.",
+   "at": "2026-11-02T23:16:59Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T23:17:00Z",
+ "outcome": "ok"
 }
