@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Editor's voice read (newsroom-writer.md, how-i-work-with-claude.md); letter writer__002 to the storyteller, nine ED1 round-1 comments with page and line, outbox copy; board issue 001; status; debrief; vault_check clean.",
    "at": "2026-11-02T06:31:35Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (Sonnet), steps 4 and 5 in one agent to spare usage",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Six files, all inside writer scope; build and gate clean (442 pages), agents check clean, vault_check clean. No keys, tokens or contact details, no em-dashes, no religious words, no directives. Times and quotes cited to record commits; the one untraced figure (within the hour) flagged for the researcher.",
+   "at": "2026-11-02T06:32:53Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (Sonnet), with step 4",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Done: writer__002 with outbox copy; board issue 001; debrief; status. Pre-review conditions kept. Nothing unplanned; no storyteller file, brief or book.json touched.",
+   "at": "2026-11-02T06:32:53Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T06:32:53Z",
+ "outcome": "ok"
 }
