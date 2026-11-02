@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-02T18:33:58Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "RC2 chapter 1 traced, ruv-sgit's eight asks registered as C105 after checking, three letters filed; in scope.",
+   "at": "2026-11-02T18:34:23Z"
+  },
+  "pre_review": {
+   "by": "security pre-review sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "In scope; lab and manuscript read only; talk clone read-only; vault_check; dev and branch only.",
+   "at": "2026-11-02T18:35:29Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "RC2 chapter 1 traced (one line fails: the brake); my miss in the editions reported; C105 registered; three letters sent, three filed.",
+   "at": "2026-11-02T18:37:03Z"
+  },
+  "post_review": {
+   "by": "security post-review sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "In scope; no secrets, dashes, RW1 words or anything attack-shaped; nothing toward the Cold-Read repository.",
+   "at": "2026-11-02T18:38:06Z"
+  },
+  "post_check": {
+   "by": "conductor post-check sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Chapter 1 traced, C105, replies and filing as planned; the letter on my own miss in the editions found by the planned trace, within the plan's spirit.",
+   "at": "2026-11-02T18:38:06Z"
+  }
+ },
+ "closed": "2026-11-02T18:38:06Z",
+ "outcome": "ok"
+}

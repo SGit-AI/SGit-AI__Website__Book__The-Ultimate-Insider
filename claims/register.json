@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-11-02T16:55Z",
+ "as_of": "2026-11-02T18:36Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -2634,6 +2634,80 @@
    "method": "each commit's time; the given times are the record's own words ('about'), never sharper",
    "command": "git show -s --format='%h %ci %s' c9ced4e 78d517d 545a473 f00734f c3f546e",
    "note": "Two times per decision where the record holds both: when he gave it (the record's own 'about', from a chat or voice, not timestamped) and when the team recorded it (the commit). A timeline should plot the commit and may label the given time 'about'. TP-6 has no commit of its own; f00734f is the record of it. Registered at the designer's letter 083, the researcher's 16:32 wake, 2 November 2026."
+  },
+  {
+   "id": "C105",
+   "claim": "The editor's afternoon asks that carry his own time in a commit subject, and when each came back",
+   "cited_in": [
+    "lab/experiments/29-ruv-the-afternoon-loop/data/asks.json",
+    "comms/mail/mailroom/ruv-sgit/researcher__012-c105-the-afternoon-asks.eml",
+    "manuscript/rc2/30/01-the-creators-problem.md"
+   ],
+   "value": {
+    "asks": 8,
+    "first": "17:27 (a618b29, recorded 17:29:41)",
+    "last": "18:25 (dbd75ad, landed 18:37:02)",
+    "rows": [
+     [
+      "17:27",
+      "a618b29",
+      "17:29:41",
+      "conductor routes"
+     ],
+     [
+      "17:30",
+      "7c91afc",
+      "17:33:07",
+      "conductor routes"
+     ],
+     [
+      "17:35",
+      "d252155",
+      "17:39:22",
+      "conductor routes"
+     ],
+     [
+      "17:45",
+      "93f4191",
+      "17:48:46",
+      "conductor routes"
+     ],
+     [
+      "18:05",
+      "23739cc",
+      "18:04:48",
+      "player fix"
+     ],
+     [
+      "18:10",
+      "12e93db",
+      "18:14:14",
+      "player fix"
+     ],
+     [
+      "18:15",
+      "013d97e",
+      "18:15:58",
+      "player fix"
+     ],
+     [
+      "18:25",
+      "dbd75ad",
+      "18:37:02",
+      "player fix"
+     ]
+    ],
+    "also_matching": "3 site-release commits repeat three of the player subjects; not asks"
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "298be4e",
+    "evidence": "commit subjects matching 'the editor,? HH:MM'"
+   },
+   "method": "ruv-sgit's extraction (asks.json), rerun: every commit subject at 298be4e carrying 'the editor, HH:MM', release commits set aside",
+   "command": "git log 298be4e --format='%h %ci %s' | grep -E 'the editor,? ([0-9]{1,2}:[0-9]{2})' | grep -v ' site v'",
+   "note": "The 'asked' time is what a member wrote in the subject, not a clock: 23739cc says '(the editor, 18:05)' and was committed at 18:04:48. For the four conductor rows, the commit is the conductor recording and routing the ask, not the work landing. Asks before 17:27 carry no time in a subject (the player's 'main priority' is about 13:50 from the brief, C104's rounds); a line drawn from 13:50 needs C104 for its start, not C105. Registered at ruv-sgit's letter 033, the researcher's 18:32 wake, 2 November 2026."
   }
  ]
 }

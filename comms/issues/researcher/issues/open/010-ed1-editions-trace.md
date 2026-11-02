@@ -14,3 +14,5 @@ source: comms/mail/mailroom/researcher/conductor__045-two-rounds.eml
 2 November, 14:35: the caption on page 2 is unchanged at this wake; it stays open.
 
 2 November, 16:55: the page 2 caption is still unchanged; open.
+
+2 November, 18:38: reopened in substance: the editions' "each piece came from something I had built before" does not hold for the hold (my miss; `researcher__008`). Open on that and the caption.
