@@ -10,3 +10,5 @@ The editor's PS1: the book is about a creator given a factory of agents; the tal
 1 November 2026, 15:35: LAB 33, four front-cover studies (the factory, the festival set-up, the map, the zoom) and the editions' ladder (`designer__062`). Next: his pick; then the spine and back from the page count (`publishing/cover_size.py`), and the creator in his narrator look once DR1 is signed.
 
 2 November 2026, 05:35: CV1 signed as study A; the title signed (NS1). Next: cover A redrawn on the title with the big ZX and the Spectrum stripes; CV2, five to eight covers (conductor__042).
+
+2 November 2026, 07:40: ED1 round 1 edits: cover A on the signed title (`cover-a-signed.svg`), a marker per edition page (`lab/characters/editions/`), speakers' heads (`lab/tools/book/speakers.css`), all to the publisher (`designer__071`).

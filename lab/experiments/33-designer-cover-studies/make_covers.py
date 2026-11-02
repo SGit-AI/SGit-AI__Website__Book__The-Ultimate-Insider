@@ -123,6 +123,39 @@ def zoom():
     return "".join(out)
 
 
+SPECTRUM = ("#d7262e", "#f5c518", "#2fa84f", "#2b6cb0")  # red, yellow, green, blue: the series' stripes (G1), drawn here
+
+
+def cover_signed():
+    """CV1 A on the signed title (NS1): the factory ring under the title, GEN ZX FOUNDERS with the ZX large, and four
+    diagonal stripes in the Spectrum's colours, drawn from the editor's description; nothing copied."""
+    cx, cy, r = W / 2 - 6, 172, 40
+    art = [f'<circle cx="{cx}" cy="{cy}" r="{r + 5}" fill="none" stroke="#2a2e36" stroke-width="8"/>']
+    for k in range(12):
+        a = math.radians(k * 30 + 15)
+        art.append(f'<circle cx="{cx + (r + 5) * math.cos(a):.1f}" cy="{cy + (r + 5) * math.sin(a):.1f}" r=".8" fill="{ACCENT}"/>')
+    for i, m in enumerate(mc.CAST):
+        a = math.radians(-90 + i * 40)
+        art.append(fig(m, cx + r * math.cos(a) - 7.6, cy + r * math.sin(a) - 9.5, .38))
+    art.append(creator(cx - 11, cy - 14, .55))
+    # the four stripes, diagonal, out of the lower right corner
+    for i, col in enumerate(SPECTRUM):
+        x0 = W - 58 + i * 9
+        art.append(f'<path d="M{x0} {H} L{x0 + 7} {H} L{W} {H - (W - x0 - 7)} L{W} {H - (W - x0)} z" fill="{col}"/>')
+    text = (t(14, 22, "GEN", 11, 800, MUTED_D, spacing=2.4)
+            + t(43, 26, "ZX", 26, 800, PAPERY, spacing=1)
+            + t(86, 22, "FOUNDERS", 11, 800, MUTED_D, spacing=2.4)
+            + t(14, 56, "ONE HUMAN,", 15.5, 800, spacing=1.5)
+            + t(14, 76, "NINE AGENTS,", 15.5, 800, spacing=1.5)
+            + t(14, 96, "NINETEEN HOURS", 15.5, 800, ACCENT, spacing=1.5)
+            + t(14, 110, "How a factory of AI agents built a presentation", 6.2, 400, PAPERY)
+            + t(14, 118, "in a day, and how to build yours", 6.2, 400, PAPERY)
+            + t(14, H - 12, "DINIS CRUZ", 9, 700, PAPERY, spacing=2.4))
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}mm" height="{H}mm" viewBox="0 0 {W} {H}" role="img" '
+            f'aria-label="Cover: One Human, Nine Agents, Nineteen Hours. How a factory of AI agents built a presentation in a day, and how to build yours. Gen ZX Founders. Dinis Cruz.">'
+            f'<rect width="{W}" height="{H}" fill="{GROUND}"/>' + "".join(art) + text + "</svg>\n")
+
+
 def ladder(current, unit=4.0, label=True):
     """The editions' look: six squares, small to large, the one the reader holds filled; its size beside it."""
     out, x = [], 0.0
@@ -162,4 +195,5 @@ if __name__ == "__main__":
     for name, (art, label) in STUDIES.items():
         (HERE / f"cover-{name}.svg").write_text(frame(art(), f"Cover study: {label}. The title is a placeholder."))
     (HERE / "editions.svg").write_text(editions_sheet())
+    (HERE / "cover-a-signed.svg").write_text(cover_signed())
     print("written four cover studies and editions.svg")

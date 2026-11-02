@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, every two hours at :57 London",
+ "started": "2026-11-02T07:01:06Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. lab/characters/editions.py: an on-stage marker per edition page from the cast-bar lines (manuscript read only), narrator's head first, times traced to C011; lab/tools/book/speakers.css: a 6 mm head per .speaker by data-speaker and data-mood, data URIs. 2. Cover A on the signed title: title, subtitle, GEN ZX FOUNDERS with the ZX large and four diagonal Spectrum stripes drawn from the description, the author's name, on study A's art; full Crown Quarto SVG in LAB 33's folder. 3. Letters to the publisher (paths), synthetic, the conductor; mail filed; vault_check comms; lab PDF; debrief, status.json, REALITY.md; agents check, build, validate. CV2 next.",
+   "at": "2026-11-02T07:02:16Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope. Conditions: designer paths only, manuscript read only; stripes drawn from the description, nothing copied, no Spectrum logo; only the signed title, subtitle and tagline, digits as words; narrator A only, no likeness; vault_check comms; no number in a commit subject; no em-dashes or religious words; marker times traced to C011. (Its line that the letters be 'marked synthetic' read as a slip: synthetic is a member; letters carry no contact detail.)",
+   "at": "2026-11-02T07:02:39Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "",
+   "verdict": "done",
+   "comment": "editions.py: 12 markers from the cast bars (C011 for times, count checked); speakers.css (data URIs) tested on a scratch 10-page build; cover-a-signed.svg in LAB 33 (93 pages); letters 071 (publisher), 072 (synthetic), 073 (conductor); two letters filed; issue 021; debrief, status.json, REALITY.md.",
+   "at": "2026-11-02T07:05:12Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
