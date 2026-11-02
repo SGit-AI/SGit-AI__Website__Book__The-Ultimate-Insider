@@ -31,4 +31,5 @@ This is the book repository of The ultimate insider: the informed one. Its rules
 - **Nothing is written until the plan is signed.** Chapters go in `manuscript/`, listed in `manuscript/Book.txt` in the order of the signed plan. Every chapter ends with where it came from. Analysis over raw: a chapter that is mostly quoted record is sent back.
 - **Every number traced.** The researcher's register (`claims/`) is the only place a number in the book may come from.
 - **The failures stay in**, and **nothing on this team builds or describes anything attack-shaped**: the insider argument is made with this benign team.
+- **No religious words** (the editor, 2 November 2026, RW1): nothing the team writes uses religious words or references. The storyteller's character document is **the cast guide**, never "the bible"; avoid also gospel, scripture, sermon, preach, evangelist, commandments, sacred, holy, pilgrimage and worship. From now on only: past commits and records are not rewritten.
 - **The editor's usage is a resource.** The conductor holds the team before the editor is cut off, as the talk's conductor did at 18:44.
