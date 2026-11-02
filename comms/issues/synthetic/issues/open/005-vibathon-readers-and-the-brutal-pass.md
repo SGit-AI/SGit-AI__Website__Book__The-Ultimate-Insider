@@ -15,3 +15,5 @@ source: comms/mail/synthetic/inbox/ (conductor__007, conductor__011, conductor__
 1 November 2026, 16:10 UTC: the draft 3-page edition read by the three zoom readers (`review/synthetic/zoom/edition-03/summary.md`). Open: the 10-page edition when it exists; A11, A15, NR1.
 
 2 November 2026, 02:10 UTC: the 10-page edition read by the three zoom readers, and the revised 3-page edition re-read (`review/synthetic/zoom/edition-10/summary.md`); conductor__013 done. Open: A11, A15, NR1; the editions again once laid out.
+
+2 November 2026, 04:25 UTC: A11 done on the revised 10-page edition (`review/synthetic/brutal/edition-10/summary.md`); again on RC2's chapters as they land. Open: A15 (the walkthrough, when it exists), NR1.

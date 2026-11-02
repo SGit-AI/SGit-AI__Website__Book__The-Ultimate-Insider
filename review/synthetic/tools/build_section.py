@@ -182,6 +182,7 @@ def index_page(personas, rc1, names, runs):
             + (f'<h2 id="sample">The ten-page sample, read by the room</h2>{md(strip_title((SYN / "sample" / "summary.md").read_text()))}' if (SYN / 'sample' / 'summary.md').exists() else '')
             + (f'<h2 id="zoom">The 3-page edition (a draft), read by three readers</h2>{md(strip_title((SYN / "zoom" / "edition-03" / "summary.md").read_text()))}' if (SYN / 'zoom' / 'edition-03' / 'summary.md').exists() else '')
             + (f'<h2 id="zoom10">The 10-page edition (a draft), read by three readers</h2>{md(strip_title((SYN / "zoom" / "edition-10" / "summary.md").read_text()))}' if (SYN / 'zoom' / 'edition-10' / 'summary.md').exists() else '')
+            + (f'<h2 id="brutal">The 10-page edition, read brutally (A11)</h2>{md(strip_title((SYN / "brutal" / "edition-10" / "summary.md").read_text()))}' if (SYN / 'brutal' / 'edition-10' / 'summary.md').exists() else '')
             + f'<h2 id="time">Reading time: a proposal</h2>{md(strip_title(rt))}'
             + '<h2 id="how">How they work</h2><ul>'
               '<li><b>When they run:</b> at a major change to what readers see (a new review page, a new release candidate), or when someone has a question for them; not on a timer.</li>'
