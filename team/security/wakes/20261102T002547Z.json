@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled, active at 00:24 (four earlier wakes lost to worker restarts)",
+ "started": "2026-11-02T00:25:47Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "1. No requests outstanding. 2. The 3-page edition (ZM1, 794cd77) read against the rails (nothing private about named readers, lines the record supports, nothing attack-shaped); board 022; a letter only if a finding. 3. Status, short debrief; then own task to idle (Cadence 3), mindful of the editor's usage (brief 34).",
+   "at": "2026-11-02T00:26:39Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "In policy. Idle allowed by Cadence 3 if remaining work waits on others: update_trigger on its own task only, cadence idle in status.json, no new task.",
+   "at": "2026-11-02T00:26:53Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. No requests. 2. The 3-page edition (ZM1) read: within the rails; board 022 noted; no letter needed. 3. Status, debrief; own task to idle (09:24, 17:24) after brief 34.",
+   "at": "2026-11-02T00:28:04Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

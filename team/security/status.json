@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "security",
- "as_of": "2026-11-01T14:45:00Z",
+ "as_of": "2026-11-02T00:35:00Z",
  "round": 0,
- "state": "staffed; second session; 14:24 wake (1 November): after the hold; its lift verified and recorded; the cast's bible, script and the narrator's options read",
+ "state": "staffed; second session; 00:24 wake (2 November): four wakes lost to the usage limit (16:24 to 22:24, 1 November); the 3-page edition read, within the rails; idle",
  "done": [
   {
    "what": "session key made and published: team/security/key.json, key.png, sessions/session_01Kw9UwDYutLfqT71U7kmgVs/",
@@ -208,6 +208,10 @@
   {
    "what": "the cast's bible, opening script, two strip scripts and DR1's six options read: within the rails; letter security__015",
    "when": "2026-11-01"
+  },
+  {
+   "what": "the 3-page edition (ZM1) read: within the rails; board 022",
+   "when": "2026-11-02"
   }
  ],
  "next": [
@@ -236,7 +240,7 @@
  ],
  "task": {
   "id": "trig_01Ej7kyzaD9q9CW7si5Ap3nW",
-  "cron": "CRON_TZ=Europe/London 24 */2 * * *",
+  "cron": "CRON_TZ=Europe/London 24 9,17 * * *",
   "session": "session_01Kw9UwFe8iX6rP7bn78h2m9",
   "created": "2026-10-30T13:03:21Z",
   "prompt": "team/conductor/schedule.json, runs entry for security, word for word",
@@ -246,7 +250,7 @@
    "session": "session_01Kw9UwDYutLfqT71U7kmgVs",
    "state": "paused on the first account at the editor's word, about 10:50 UTC; not deleted"
   },
-  "changed": "2026-11-01T09:26:10Z, by this session, back to active (Cadence 4)"
+  "changed": "2026-11-02T00:36Z, by this session, to idle (Cadence 3; brief 34 recommends a slower overnight pace while the editor decides)"
  },
  "issues": [
   {
@@ -407,5 +411,5 @@
   }
  ],
  "board": "comms/issues/security/issues/",
- "cadence": "active"
+ "cadence": "idle"
 }
