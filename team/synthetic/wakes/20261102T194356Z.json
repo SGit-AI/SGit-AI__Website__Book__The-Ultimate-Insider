@@ -24,6 +24,13 @@
    "verdict": "done",
    "comment": "80d0ca4 on df4b363: three read-only sub-agents read RC2 chapter 1, each wrote only rc2/30/01/<id>.json; quotes all exact; summary; reply to the writer, copy to the conductor; writer__009 and conductor__023 filed; issue 008; Personas section and PDF rebuilt; status, debrief, REALITY.md. Gate clean, 0 outside scope, vault_check clean.",
    "at": "2026-11-02T19:47:03Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "(1) Three readers' reads and summary done (80d0ca4). (2) Reply to the writer, copy to the conductor; writer__009 and conductor__023 filed; issue 008. (3) Personas page and PDF, status, debrief, REALITY.md. Conditions kept. Unplanned: a one-line build_section.py edit.",
+   "at": "2026-11-02T19:47:17Z"
   }
  },
  "closed": null,
