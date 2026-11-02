@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "editions.py: 12 markers from the cast bars (C011 for times, count checked); speakers.css (data URIs) tested on a scratch 10-page build; cover-a-signed.svg in LAB 33 (93 pages); letters 071 (publisher), 072 (synthetic), 073 (conductor); two letters filed; issue 021; debrief, status.json, REALITY.md.",
    "at": "2026-11-02T07:05:12Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Both commits in scope (0 outside); manuscript/ and publishing/ untouched; the cover carries only the signed title, subtitle, GEN ZX FOUNDERS and the author, stripes drawn in code, no logo; narrator and creator with no likeness; marker times from C011 with a count check; vault_check comms clean.",
+   "at": "2026-11-02T07:06:58Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "All three items in 01d165c; b801efe only corrects a width in letter 071; debrief, status.json, REALITY.md updated.",
+   "at": "2026-11-02T07:06:58Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T07:06:58Z",
+ "outcome": "ok"
 }
