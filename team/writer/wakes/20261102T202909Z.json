@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Chapters 1 and 2 revised on ten letters of findings; chapter 3 in manuscript/rc2/30/03-the-factory-runs.md (C011 C028 C087 C088 C104 C105); letters 016 to 020 with outbox copies; ten letters into done/; board, status, debrief; vault_check clean; no Book.txt.",
    "at": "2026-11-02T20:32:39Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (Sonnet), steps 4 and 5 in one agent to spare usage",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Build, validate, agents check (0 outside), vault_check clean. Chapter 3 times and counts match C011 C028 C087 C088 C104 C105 and the timeline; four record lines match quotes.md; no figures in agent lines; scenes banded; studio scene as recorded, nothing on forging. No em-dashes, religious words, Book.txt, keys or personal detail. Edits to 01 and 02 only soften past the record.",
+   "at": "2026-11-02T20:34:08Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (Sonnet), with step 4",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Plan done in full: 01 and 02 revised on the ten letters; chapter 3 from the outline; letters 016 to 020; ten letters in done/, board, status, debrief. Conditions kept. Nothing unplanned.",
+   "at": "2026-11-02T20:34:08Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T20:34:08Z",
+ "outcome": "ok"
 }
