@@ -6,7 +6,7 @@
 
 **Narrator.** A quarter past midnight: an empty project. Not a template, not a half-built site from last time. A new repository with a licence, a short read-me and nothing else. Its first commit says "Initial commit", and that is all it says.
 
-**Narrator.** Then I wrote two things. A brief: what the talk was for, who it was for, and when it was due. And one page of rules: what the team was for, what each member could touch, and when it had to stop and ask me. By twenty to one the first agent had read both and was building.
+**Narrator.** By twenty to one it held a brief and one page of rules. The brief said what the talk was for, who it was for and when it was due; the rules said what the team was for, what each member could touch, and when it had to stop and ask me. The first agent had read both and was building.
 
 *How to read the scenes:* they are dramatised. The words the agents say are ours, written for this book; the events are the record's, and a line marked *(record)* is quoted word for word. Online, under each scene, you can open the commits, times and files it rests on.
 
@@ -41,20 +41,20 @@ Band: *Dramatised. Rests on the first commit (00:16) and dev's first pass (00:40
 
 **Narrator.** ruv-sgit owns the workshop: the experiments that might become pictures for the talk. It was the fourth to arrive, and it arrived already working.
 
-**Narrator.** Four agents, all within the hour of an empty project. None of it was new. The build, the check, the brief, the hold: each piece came from something I had built before, on other projects. What was new was having them all at once, as a team, in one night. That is how a factory gets cheap: yesterday's experiment is today's part.
+**Narrator.** Four agents, all within the hour of an empty project. The build, the check and the brief came from things I had built before, on other projects. The hold was made that night. What was new was having them all at once, as a team, in one night. That is how a factory gets cheap: yesterday's experiment is today's part.
 
 **Figure:** the four cast cards lit (dev, the conductor, deck, ruv-sgit), each with its scorecard: on stage from, slot, and the line it arrived with. Five greyed cards and one empty chair beside them. The designer's cards (LAB 27).
 
 `%% record: C011 1f7c633 97b98d9 20ab1a3 defe526 timeline/interviews/security.md`
-Band: *Dramatised. Each agent's lines rest on its first commit after midnight: dev's first pass (00:40), the conductor's roster with security among its first five (00:44), deck joining as owner of the beats, script and slides (00:51), ruv-sgit's first run open with an article drafted and the editor's check pending (01:08). They arrived: these are their first commits, not their keys.*
+Band: *Dramatised. Each agent's lines rest on its first commit after midnight: dev's first pass (00:40), the conductor's roster with security among its first five (00:44), deck joining as owner of the beats, script and slides (00:51), ruv-sgit's first run open with an article drafted and my check pending (01:08). They arrived: these are their first commits, not their keys.*
 
 ## The map, before its name
 
-**Figure:** the factory as a chain. At the top, what I wanted: a talk the room understands. Under it, the slides, the site and the player. Under those, the agents. At the bottom, what the agents ran on: the agent tool, the build, the check, the hold and the brief. Each part placed left to right by how settled it already was, from new on the left to ordinary on the right. The chapter's map; its owner agreed by the conductor.
+**Figure:** the factory as a chain. At the top, what I wanted: a talk the room understands. Under it, the slides, the site and the player. Under those, the agents. At the bottom, what the agents ran on: the agent tool, the build, the check and the brief, all at the ordinary end; and the hold, at the new end, made that night. Each part placed left to right by how settled it already was, from new on the left to ordinary on the right. The chapter's map; its owner agreed by the conductor.
 
-**Narrator.** Look at the bottom row first. Every part of it was already ordinary to me that night. I had been working with an agent tool every day for about a year. The build and the check were the way my sites are built; dev's first commit calls it the sgit.ai way. The brief and the page of rules were habits. Only the top of the picture was new: this talk, these slides, this player.
+**Narrator.** Look at the bottom row first. Almost all of it was already ordinary to me that night. I already worked with an agent tool every day. The build and the check were the way my sites are built; dev's first commit calls it the sgit.ai way. The brief and the page of rules were habits. Two things were new: the top of the picture, this talk, these slides, this player; and one part at the bottom, the brake.
 
-**Narrator.** This kind of picture is called a Wardley map. It shows what a thing is made of, and how settled each part is. The point of this one fits in a line: the bottom of the chain was already ordinary, so the top could be built in a day.
+**Narrator.** This kind of picture is called a Wardley map. It shows what a thing is made of, and how settled each part is. The point of this one fits in a line: the bottom of the chain was already ordinary, so the top could be built in a day. And the one new part at the bottom was the control: the brake that let me leave it running.
 
 *Words for this page:* a **Wardley map** is a picture of what something depends on, top to bottom, with each part placed by how new or how ordinary it is.
 
@@ -91,23 +91,23 @@ Band: *Dramatised. Rests on the hourly schedule (01:39) and the five-step wake r
 
 **Narrator.** I keep coming back to that line. A reviewer agent in the same session can catch mistakes. It cannot stop someone set on getting round it. We built the checks knowing that.
 
-**Figure:** a card for the first five-step wake: plan go, pre-review go, work done, post-review finding, outcome partial; beside it, the count of wake records the team kept that day. The figure in the card, with its id.
+**Figure:** a card for the first five-step wake: plan go, pre-review go, work partial, post-review finding, post-check partial, outcome partial; beside it, the count of wake records the team kept that day. The figure in the card, with its id.
 
 `%% record: C022 c8f6f8f team/conductor/wakes/20261029T021416Z.json team/conductor/debriefs/2026-10-29__the-five-step-wake.md`
 Band: *Dramatised. Rests on the conductor's first five-step wake, closed partial at 02:19; the reviewer's and the conductor's lines are theirs, from that night's records.*
 
 ## Before dawn
 
-**Narrator.** Two more arrived before it was light. The researcher at about two: the one who checks every fact against its source, and the one who would tell me "no" in writing before the day was out. Then the designer, a little before four, with the first pass at how the talk should look on a projector, not a laptop.
+**Narrator.** Two more arrived before it was light. The researcher at about two: the one who checks every fact against its source, and the one who would tell me "no" in writing before the day was out. Then the designer, a little before four, with the first design pass.
 
 **Narrator.** Their cards light here. You will hear from both of them in the next chapter.
 
 **Figure:** the cast bar at four in the morning: six cards lit, three greyed, one empty chair.
 
-**Narrator.** So by four in the morning there were six agents, a clock and a brake. A factory that could run without me. From five, it did.
+**Narrator.** So by four in the morning there were six agents, a clock and a brake. A factory that could run without me. From just after four, it did.
 
 `%% record: C011 01e9ed3 c6dcf89 C087`
-Band: *The researcher's first commit at 01:52 and the designer's at 03:41. The editor's chair is empty from five, as the next chapter shows; the record does not say where he went.*
+Band: *The researcher's first commit at 01:52 and the designer's at 03:41. My last request of the night was at 04:03; the next came at about 13:50. The record does not say where I went.*
 
 ## Do this now
 
@@ -121,4 +121,6 @@ Band: *The researcher's first commit at 01:52 and the designer's at 03:41. The e
 
 ## Where this came from
 
-The talk's repository at `298be4e`: the first commit (`2e4b1f4`), the first commits of dev (`1f7c633`), the conductor (`97b98d9`), deck (`20ab1a3`), ruv-sgit (`defe526`), the researcher (`01e9ed3`) and the designer (`c6dcf89`); the schedule (`09f13d5`); the five-step wake (`8c66751`, `5700bab`) and its first run (`c8f6f8f`, the conductor's wake record and debrief of 29 October). The historian's timeline: `timeline/cast-scenes.md`, scenes 1 and 2; `timeline/interviews/security.md`. The register: C001 (the first commit), C011 (the cast and arrivals), C071 (the minutes), C022 (the wake records), C087 (the hours by trigger). Wardley maps: `claims/ps1-sources.md`, section 4. The year of daily work with agents: the editor's own article, "How I work with Claude" (newsroom.sgit.ai, 9 October 2026). The outline: `chapter-plan/edition-30-outline.md`, chapter 2. Lines kept word for word from the 10-page edition: the four arrival lines, "None of it was new.", "yesterday's experiment is today's part.", the conductor's line on the minute, and the scene of 02:19.
+The talk's repository at the end of the day: the first commit, the first commit of each agent, the schedule, the five-step wake and its first run, with the conductor's wake record and debrief of that night. The historian's timeline of the first hours and its interview with the empty chair. The researcher's register for every time and count. Wardley maps, from the researcher's sources. The storyteller's outline for this chapter. Lines kept word for word from the 10-page edition: the four arrival lines, "yesterday's experiment is today's part.", the conductor's line on the minute, and the scene of 02:19.
+
+`%% record: talk repository at 298be4e: 2e4b1f4 1f7c633 97b98d9 20ab1a3 defe526 01e9ed3 c6dcf89 09f13d5 8c66751 5700bab c8f6f8f f448345; team/conductor/wakes/20261029T021416Z.json; team/conductor/debriefs/2026-10-29__the-five-step-wake.md; timeline/cast-scenes.md scenes 1 and 2; timeline/interviews/security.md; timeline/lineage.md; timeline/triggers.md; claims/register.json C001 C011 C022 C071 C087; claims/ps1-sources.md section 4; chapter-plan/edition-30-outline.md chapter 2`
