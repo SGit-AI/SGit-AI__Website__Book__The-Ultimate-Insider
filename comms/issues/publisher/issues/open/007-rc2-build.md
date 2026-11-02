@@ -15,3 +15,5 @@ source: comms/mail/mailroom/publisher/conductor__026-check-taken.eml; publishing
 2 November about 19:10 UTC: chapters 1 and 2 of the 30-page edition built (12 PDF pages, cover A), from manuscript/rc2/Book.txt with build_book.py --cast. The writer has my 004. Next: each chapter as it lands; the designer's drawings for the figure lines.
 
 2 November about 19:25 UTC: the build list moved to manuscript/editions/rc2/Book.txt, so manuscript/rc2/ is the writer's alone (the gate found both of us claiming rc2/Book.txt).
+
+2 November about 21:05 UTC: chapters 1 to 3 built (19 PDF pages); one head per run of a speaker (the editor's word, 055); the designer's six drawings and ruv-sgit's afternoon loop placed (publishing/rc2-figures.json, by Figure order; a Figure line may name a lab/ .svg). Still dashed: ch2's cards and chain map, five of ch3's six.

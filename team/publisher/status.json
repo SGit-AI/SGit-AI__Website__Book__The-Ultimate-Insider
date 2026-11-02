@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "publisher",
- "as_of": "2026-11-02T19:10:00Z",
- "round": 39,
- "state": "RC2 chapters 1 and 2 built (12 PDF pages, build_book --cast); the listing clear for the editor; the editions' rebuild waits on RL1",
+ "as_of": "2026-11-02T21:05:00Z",
+ "round": 40,
+ "state": "RC2 chapters 1 to 3 built (19 PDF pages), one head per speaker's run, seven drawings placed; the editions' rebuild waits on RL1",
  "done": [
   {
    "what": "session key published: team/publisher/key.json, key.png, sessions/session_01Kw9UwDVeRbKJZUWiRoRrHK/",
@@ -196,6 +196,10 @@
   {
    "what": "RC2's first two chapters built (build_book.py --cast, manuscript/rc2/Book.txt); the Leanpub listing cleared by security",
    "when": "2026-11-02T19:10Z"
+  },
+  {
+   "what": "RC2 chapters 1 to 3: same-speaker runs, drawings by Figure order (publishing/rc2-figures.json, build_book --figures)",
+   "when": "2026-11-02T21:05Z"
   }
  ],
  "next": [

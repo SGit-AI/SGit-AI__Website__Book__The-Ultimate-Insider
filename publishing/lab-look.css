@@ -127,3 +127,8 @@ ol > li { padding-top: 4pt; padding-bottom: 4pt; }
 img.edition-figure { display: block; max-width: 100%; height: auto; margin: 0 auto; }
 figure:has(img.edition-figure) { margin: 8pt 0; break-inside: avoid; }
 figure:has(img.edition-figure) figcaption { font-size: 8.5pt; }
+
+/* The editor, 2 November 2026 (conductor__055): one head for a run of the same speaker; the later blocks keep their
+   indent so the run reads as one. The designer may style .same-speaker further in speakers.css. */
+.speaker.same-speaker { min-height: 0; }
+.speaker.same-speaker::before { content: none; }

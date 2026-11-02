@@ -13,6 +13,7 @@ after admin/build/build.py).
 """
 import argparse
 import glob
+import json
 import os
 import re
 import shutil
@@ -186,6 +187,8 @@ def main():
     p.add_argument("--cast", action="store_true",
                    help="lay out the cast's conventions in every chapter (speaker heads, cast bar, band, words box, "
                         "figures; %% lines dropped), as publishing/edition.py does for the editions: RC2's chapters")
+    p.add_argument("--figures", help="with --cast: a JSON map of chapter (path from manuscript/) to the drawings for its "
+                   "Figure lines in order, such as publishing/rc2-figures.json")
     p.add_argument("--no-toc", action="store_true", help="no contents page (the short editions: designer__067, synthetic__002)")
     p.add_argument("--no-pdf", action="store_true")
     p.add_argument("--no-epub", action="store_true")
@@ -201,6 +204,10 @@ def main():
     if a.book and os.path.exists(os.path.join(os.path.dirname(os.path.abspath(a.book)), "metadata.yaml")):
         EXTRA_METADATA.extend(["--metadata-file", os.path.join(os.path.dirname(os.path.abspath(a.book)), "metadata.yaml")])
     sources = chapters(a.book)
+    figure_map = {}
+    if a.figures:
+        with open(a.figures, encoding="utf-8") as f:
+            figure_map = {k: v for k, v in json.load(f).items() if k != "about"}
     os.makedirs(a.out, exist_ok=True)
     made = []
     marked = tempfile.mkdtemp(prefix="build_book_markua_")  # Markua-only syntax translated for pandoc (M1); images still resolve from manuscript/
@@ -209,7 +216,12 @@ def main():
         with open(src, encoding="utf-8") as f:
             raw = f.read()
             if a.cast:  # the writer's chapters use the editions' conventions (publisher__003 to the writer)
-                raw = edition.cast_lines(raw)
+                key = os.path.relpath(os.path.abspath(src), MANUSCRIPT)
+                drawings = figure_map.get(key)
+                if drawings is not None and len(drawings) != edition.figure_count(raw):
+                    sys.exit(f"build_book: {a.figures} gives {len(drawings)} drawing(s) for {key}, "
+                             f"which has {edition.figure_count(raw)} Figure line(s)")
+                raw = edition.cast_lines(raw, figures=drawings if drawings is not None else [])
             text = figure_kinds(markua.translate(raw))
         files.append(os.path.join(marked, os.path.basename(src)))
         with open(files[-1], "w", encoding="utf-8") as f:

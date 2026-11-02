@@ -73,13 +73,46 @@ def page(title, body, mark=None, figure=None):
     return f"# {heading}\n\n" + cast_lines(body, mark, figure).strip() + "\n"
 
 
-def cast_lines(body, mark=None, figure=None):
+LAB_SVG = re.compile(r"\blab/[A-Za-z0-9_./-]+\.svg\b")
+UNSAFE_SVG = re.compile(r"<script|<foreignObject|\bhref\s*=|\bon[a-z]+\s*=|@import", re.I)
+
+
+def lab_drawing(path):
+    """A drawing named by its path from the repository root: only an .svg under lab/, no "..", that exists and holds
+    no script, link or handler (security's conditions, 2 November 2026). The path from manuscript/, or an exit."""
+    full = os.path.normpath(os.path.join(ROOT, path))
+    if ".." in path.split("/") or os.path.isabs(path) or not path.startswith("lab/") or not path.endswith(".svg") \
+            or not full.startswith(os.path.join(ROOT, "lab") + os.sep):
+        sys.exit(f"edition: refused a drawing outside lab/ or not an .svg: {path}")
+    if not os.path.isfile(full):
+        sys.exit(f"edition: no such drawing: {path}")
+    if UNSAFE_SVG.search(open(full, encoding="utf-8", errors="replace").read()):
+        sys.exit(f"edition: refused a drawing with a script, link or handler in it: {path}")
+    return os.path.relpath(full, os.path.join(ROOT, "manuscript"))
+
+
+def figure_count(body):
+    return sum(1 for line in body.split("\n") if line.strip().startswith("**Figure:**"))
+
+
+def cast_lines(body, mark=None, figure=None, figures=None):
     """The cast's conventions laid out, for a script page or a whole chapter (RC2's, build_book.py --cast): the cast
     bar, the band, the words box, each speaker's line with its head, a Figure line as a drawing or a figure to come,
-    and the %% marker lines and "---" rules dropped. Any other line passes unchanged."""
+    and the %% marker lines and "---" rules dropped. Any other line passes unchanged.
+
+    figures: for a chapter, the drawings for its Figure lines in order (paths from the repository root, None where not
+    drawn yet); a Figure line that names a lab/ .svg itself uses that. A speaker's block that follows the same
+    speaker's, with only blank lines between, gets the class same-speaker (the editor, 2 November 2026: one head for a
+    run of the same speaker)."""
     lines = []
+    figures = list(figures) if figures is not None else None
+    last = None  # the speaker of the block just written, while only blank lines follow it
     for line in body.split("\n"):
         s = line.strip()
+        if not s:
+            lines.append(line)
+            continue
+        speaker, last = last, None
         if s == "---":
             continue
         if re.match(r"`?%%", s):  # the developer's markers, for the augmented mode
@@ -96,16 +129,29 @@ def cast_lines(body, mark=None, figure=None):
             continue
         if s.startswith("**Figure:**"):
             what = re.sub(r"\s*\*\(Drawing:.*?\)\*\s*$", "", s[len("**Figure:**"):]).strip()
-            if figure:  # the drawing, its description from the script as the caption and the alt text
+            named = LAB_SVG.search(what)
+            if named:
+                drawn = lab_drawing(named.group(0))
+            elif figures is not None:
+                drawn = figures.pop(0) if figures else None
+                drawn = lab_drawing(drawn) if drawn else None
+            else:
+                drawn = figure
+            if named and figures:  # a named drawing still takes its place in the order
+                figures.pop(0)
+            if drawn:  # the drawing, its description from the script as the caption and the alt text
                 caption = re.sub(r"[\[\]]", "", what)
-                lines += ["", f"![{caption}]({figure}){{.edition-figure}}", ""]
+                lines += ["", f"![{caption}]({drawn}){{.edition-figure}}", ""]
             else:
                 lines += ["", "::: {.figure-todo}", "Figure to come: " + what, ":::", ""]
             continue
         m = SPEAKER.match(s)
         if m and m.group(1).lower() in SPEAKERS:
+            who = m.group(1).lower()
             mood = f' data-mood="{m.group(2)}"' if m.group(2) else ""
-            lines += ["", f'::: {{.speaker data-speaker="{m.group(1).lower()}"{mood}}}', s, ":::", ""]
+            same = " .same-speaker" if speaker == who else ""
+            lines += ["", f'::: {{.speaker{same} data-speaker="{who}"{mood}}}', s, ":::", ""]
+            last = who
             continue
         if re.match(r"\*(Words (on|for) this page:\*|How to read the scenes:\*|An \*\*agent\*\*, here, is )", s):
             lines += ["", "::: {.words-box}", s, ":::", ""]

@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake (20:47 slot)",
+ "started": "2026-11-02T20:49:15Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "same-speaker class in cast_lines (blank lines only between; band, box, figure, heading reset), head hidden in lab-look.css; editions wait for RL1. publishing/rc2-figures.json by Figure order (ch1 three; ch2 null, null, wake-clock, first-wake, cast-bar-0400), a Figure naming a lab/ path wins; lab/ read only; fail loudly on a count mismatch. Chapter 3 into the rc2 list; rebuild outside _site; every page looked at. Drop the dormant rc2 policy line. Letters, inbox, board 007, records; vault_check, gate; no em-dashes, RW1.",
+   "at": "2026-11-02T20:50:09Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "No HOLD; the policy change only narrows; nothing unsigned. The 7 SVGs: no script, foreignObject, href, handler or @import. Conditions: Figure paths under lab/, .svg, no '..' or absolute, else fail loudly; lab/ read only; re-check SVGs for script/href at build.",
+   "at": "2026-11-02T20:50:44Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "cast_lines: same-speaker class, drawings by Figure order or a named lab/ .svg with security's limits; build_book --figures with a count check; rc2-figures.json; lab-look.css head hidden on same-speaker; chapter 3 in the list; RC2 19 pages outside _site, every page looked at; dormant policy line dropped; letters 034, 014, 006; inbox, board 007, debrief, status, REALITY; editions untouched; vault_check and gate clean.",
+   "at": "2026-11-02T20:52:50Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Gate clean; 0 outside scope; vault_check clean; nothing under lab/, chapter-plan/, briefs/, manuscript/rc2/ or editions 03/10; no em-dashes or religious words; the 7 SVGs clean; lab_drawing() keeps every condition and fails loudly; policy only loses a line.",
+   "at": "2026-11-02T20:53:43Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Every planned item in the diff; security's conditions kept; nothing unplanned; editions untouched.",
+   "at": "2026-11-02T20:53:43Z"
+  }
+ },
+ "closed": "2026-11-02T20:53:43Z",
+ "outcome": "ok"
+}
