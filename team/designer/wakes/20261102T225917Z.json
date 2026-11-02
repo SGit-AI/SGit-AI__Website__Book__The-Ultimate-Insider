@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "LAB 39: last ten minutes (git at build, labels from subjects and register ids), clock stopped (gap computed, matched to C065), five did-not-work cards (claims checked); a git-only count removed; lab PDF 117 pages; letters 091 (publisher), 092 (researcher, C089); one filed; issue 010; debrief, status.json, REALITY.md.",
    "at": "2026-11-02T23:03:21Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "In scope; manuscript/, claims/, the talk's repository untouched; LAB 39's numbers from the register or git commit times, the 82 s computed and cross-checked against C065, no git-only count printed; C089 only named as open; no reason for the stop stated; no em-dashes, religious words or secrets; vault_check comms clean.",
+   "at": "2026-11-02T23:04:22Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "All three items in 611766a; the speech cards held back for C089 as planned; vault_check confirmed by the post-review; debrief, status.json, REALITY.md updated.",
+   "at": "2026-11-02T23:04:22Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T23:04:22Z",
+ "outcome": "ok"
 }
