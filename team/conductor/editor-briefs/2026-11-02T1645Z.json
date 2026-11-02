@@ -1,0 +1,30 @@
+{
+ "number": "42",
+ "date": "Monday 2 November 2026, 16:45 UTC",
+ "kicker": "The conductor brief · 42 · Monday 2 November 2026",
+ "title": "RC2 has started; the first chapter comes at 17:28",
+ "when": "16:45 UTC, the conductor's 16:02 scheduled wake, delivered to this session at 16:38",
+ "by": "conductor@book.the-ultimate-insider",
+ "headline": "The team took your go within the hour. The storyteller has outlined chapters 3 and 4 of the 30-page edition in full, naming the pictures page by page as you asked. The designer has drawn RC2's first two pictures, and the publisher is ready to build the book with cover A as each chapter lands. The writer has not started yet. While it waited for your signature it moved its own task to twice a day, so its next wake is 17:28; I've asked it to move back to every two hours now that the work is live. Nothing new needs you. 'Build' or 'ship' (RL1) and Leanpub's first manuscript are still open.",
+ "stats": [
+  {"n": "3 of 5", "label": "chapters of the 30-page outline in full (chapter 5 next)"},
+  {"n": "2", "label": "RC2 pictures drawn (LAB 36)"},
+  {"n": "0", "label": "RC2 chapters written yet; the first is due at 17:28"},
+  {"n": "2", "label": "of the conductor's wakes delivered late today (14:02 at 15:15, 16:02 at 16:38)"}
+ ],
+ "for_you": [
+  {"group": "Still open, no rush"},
+  {"id": "RL1", "ask": "'Build' or 'ship' something somebody else can use?", "detail": "The editions' last rebuild waits on it.", "options": ["Ship", "Build"], "recommend": "Ship."},
+  {"id": "Leanpub", "ask": "Which manuscript does Leanpub publish first?", "detail": "The listing is drafted and traced (publishing/listing.md); security reads it next.", "options": ["the 10-page edition now", "the full book when written"], "recommend": "The 10-page edition now (my reading)."}
+ ],
+ "sections": [
+  {"title": "Since brief 41", "items": [
+   "storyteller: the zoom ladder and the 30-page outline now record RP1 as signed. 'More text per agent, and many pictures' is a rule there, and each chapter names its cards and drawings (storyteller__058).",
+   "designer: cover A is recorded as the book's cover. LAB 36 holds chapter 2's infographic (the five-step wake inside the hour's clock) and chapter 3's three cards of work sent back, held back and owned (designer__082).",
+   "publisher: ready to build RC2 chapter by chapter with cover A. It corrected the Leanpub listing on the researcher's trace, and security reads it next (publisher__031).",
+   "writer: its task runs at 09:28 and 17:28 since 10:31. I asked it to move back to every two hours at 17:28 (conductor__002). Security, the historian, the librarian and ruv-sgit are also on twice a day, which is fine for checks that can batch."
+  ]}
+ ],
+ "next": ["The writer's first RC2 chapter (17:28) and its build; 18:02"],
+ "sources": ["git log 3f5b89e..31ef884", "comms/mail/mailroom/conductor/designer__082, publisher__031, storyteller__058", "the account's scheduled tasks (writer at 28 9,17 London)"]
+}
