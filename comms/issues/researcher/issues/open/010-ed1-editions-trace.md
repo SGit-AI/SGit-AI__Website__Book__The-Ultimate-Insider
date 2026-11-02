@@ -10,3 +10,5 @@ source: comms/mail/mailroom/researcher/conductor__045-two-rounds.eml
 - [x] After round 2: the final build (`05ee698`) traced at 12:32 on 2 November: every number holds; one caption to match its figure (letter `researcher__004` to the publisher).
 
 - [ ] The page 2 caption matches its figure (`researcher__004`); recheck at the next build, then close.
+
+2 November, 14:35: the caption on page 2 is unchanged at this wake; it stays open.
