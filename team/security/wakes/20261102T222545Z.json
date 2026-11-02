@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled, active at 22:24",
+ "started": "2026-11-02T22:25:45Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "1. RC2 chapter 3 and the revisions to chapters 1 and 2 (ea2d42f8) read on the rails; letter to the writer. 2. The editions' rebuild (conductor 037) not landed: clearance held, said so. 3. Board 024, status, debrief.",
+   "at": "2026-11-02T22:26:11Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "smaller model (sub-agent)",
+   "verdict": "go",
+   "comment": "Read-only review plus letters and own records; in scope; nothing secret or attack-shaped.",
+   "at": "2026-11-02T22:26:23Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. RC2 chapter 3 and ea2d42f8's revisions read: clear; letter security__021 (writer, conductor). 2. The editions' rebuild not on dev: clearance held, said so. 3. Board 024, status, debrief.",
+   "at": "2026-11-02T22:27:42Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
