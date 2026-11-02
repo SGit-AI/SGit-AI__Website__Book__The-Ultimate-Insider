@@ -18,3 +18,5 @@ The editor likes where the lab is going; make visuals big and run a couple of ex
 2 November 2026, 01:30: C099 on LAB 31 (claims per beat by state). Next: MN1 B, LAB 30's notes in the chapters' words, checked by the researcher.
 
 2 November 2026, 03:30: MN1 B, the eighteen notes in the chapters' words listed for the researcher's check (`team/designer/mn1-notes-for-check.md`, `designer__065`); LAB 30 prints them once checked.
+
+2 November 2026, 11:40: MN1 B printed in LAB 30 (seventeen notes the researcher passed; one withdrawn). Chapters 11 and 11b done.

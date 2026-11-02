@@ -131,10 +131,22 @@ def lectern():
 
 
 def four_cards():
+    """The first four on stage as compact cards in one row (publisher__013: page 2 on one sheet): head, name, two values."""
     rows = ms.scorecard_rows()
     order = sorted(mc.CAST, key=lambda m: rows[m][0])[:4]
-    return mc.svg(112, 110, "".join(ms.card(m, rows[m], (i % 2) * 56 + 2, (i // 2) * 57) for i, m in enumerate(order)),
-                  "The cards of the first four on stage: " + ", ".join(order))
+    out = []
+    for i, m in enumerate(order):
+        x, y, w, h = i * 40.8 + .5, .5, 39.6, 33
+        col = mc.CAST[m][0]
+        out.append(f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="2" fill="#fff" stroke="{mc.INK}" stroke-width=".45"/>'
+                   f'<rect x="{x}" y="{y}" width="{w}" height="12" rx="2" fill="{col}"/><rect x="{x}" y="{y + 9}" width="{w}" height="3" fill="{col}"/>'
+                   f'<rect x="{x + 1.4}" y="{y + 1.2}" width="10" height="9.6" rx="1.2" fill="#fff"/>'
+                   f'<g transform="translate({x + 1.1} {y + 1}) scale(.26)">{mc.head(m)}</g>')
+        out.append(ms.t(x + 13.5, y + 7.6, m, 800, fill="#fff"))
+        out.append(ms.t(x + 2.4, y + 18.2, "on stage from", fill=mc.MUTED) + ms.t(x + w - 2.4, y + 18.2, rows[m][0], 800, anchor="end"))
+        out.append(ms.t(x + 2.4, y + 23.6, "commits", fill=mc.MUTED) + ms.t(x + w - 2.4, y + 23.6, rows[m][1], 800, anchor="end"))
+        out.append(ms.t(x + 2.4, y + 29.6, "C011 C014", fill=mc.MUTED))
+    return mc.svg(164, 34, "".join(out), "The cards of the first four on stage: " + ", ".join(order))
 
 
 if __name__ == "__main__":
