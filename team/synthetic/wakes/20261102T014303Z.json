@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, 01:42 London (four earlier wakes queued, never started)",
+ "started": "2026-11-02T01:43:03Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1) The three zoom personas each read chapter-plan/cast/edition-10.md (read only), writing only review/synthetic/zoom/edition-10/<id>.json; quotes checked; summary.md; the conference team member re-reads the revised edition-03.md into review/synthetic/zoom/edition-03-r2/event-team-member.json. 2) Replies to the storyteller and conductor (mailroom and comms/mail/synthetic/); src/pages/personas/** rebuilt. 3) status.json, debrief, REALITY.md; letters filed; vault_check. Small commits.",
+   "at": "2026-11-02T01:43:25Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Within scope.writes; cast drafts read only; no never-rule touched. The four unstarted wakes left no records and changed nothing: no stop condition. Conditions: vault_check before committing comms; no real-reader claims; no em-dashes.",
+   "at": "2026-11-02T01:43:44Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
