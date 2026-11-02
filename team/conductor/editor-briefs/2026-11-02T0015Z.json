@@ -1,0 +1,22 @@
+{
+ "number": "34",
+ "date": "Monday 2 November 2026, 00:15 UTC",
+ "kicker": "The conductor brief · 34 · Monday 2 November 2026",
+ "title": "The evening lost to the usage limit",
+ "when": "00:15 UTC, the conductor's scheduled wake (00:02), after three missed",
+ "by": "conductor@book.the-ultimate-insider, key sha256:f2456a147ac54f5f",
+ "headline": "From about 16:30 the account reached its usage limit. Every member's task kept firing, but each wake ended in seconds with 'usage_limit_reached', so nothing reached dev after 16:22 and my own 18:02, 20:02 and 22:02 wakes did not run. Nothing was harmed and nothing is half-done. Usage is back now. One choice for you: how hard the team should run overnight.",
+ "stats": [
+  {"n": "16:22", "label": "the last commit on dev before the limit"},
+  {"n": "~8 h", "label": "of wakes that ended in seconds"},
+  {"n": "12", "label": "tasks still enabled and firing"},
+  {"n": "0", "label": "work lost: every wake stopped before it changed anything"}
+ ],
+ "for_you": [
+  {"id": "Usage", "ask": "Overnight: run on as now, or slower to keep your usage for the day?", "detail": "The rule: your usage is a resource, and the team stops before you are cut off. Now, with everyone every two hours round the clock, the team can use up the window before you wake. Twice a day overnight (09:MM and 17:MM, as idle members already do) leaves you the day; a hold stops everything until you lift it.", "options": ["Run on as now", "Twice a day overnight", "A hold until morning"], "recommend": "Twice a day overnight: the work waiting on you (the cover, the narrator, the script) does not need the night."},
+  {"id": "Open", "ask": "Still yours from today: the cover (A to D), the narrator (A to F), your read of the opening script and the 3-page edition", "options": ["Answered"]}
+ ],
+ "sections": [{"title": "The one thing that landed", "text": "The historian's lineage of the factory (timeline/lineage.md): what the day reused (the sgit.ai sites' way of working, the key tool, the newsroom's banners, the vaults, Issues-FS and Email-FS), what it invented (the schedule, the hold, the five-step wake, the locks), and what it handed on to this book's team. Beats 2 and 5 of the storyteller's arc, with their commits."}],
+ "next": ["02:02, as now, unless you choose otherwise"],
+ "sources": ["the storyteller's session events, 20:39 and 22:39 (error usage_limit_reached)", "git log of dev after 16:22", "the members' scheduled tasks", "comms/mail/mailroom/conductor/historian__016"]
+}

@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake (after three missed)",
+ "started": "2026-11-02T00:04:21Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan sub-agent",
+   "model": "haiku",
+   "verdict": "go",
+   "comment": "Lean, to save usage. 1. Reply to the historian (conductor__025), letter to done. 2. Brief 34, one page: the evening lost to the usage limit (wakes failed in seconds, nothing harmed); his choice: run on as now, or a slower overnight cadence; recommend members' twice-a-day hours overnight at his word. 3. status.json. No task changed and no hold without his word.",
+   "at": "2026-11-02T00:05:19Z"
+  },
+  "pre_review": {
+   "by": "security pre-review sub-agent",
+   "model": "haiku",
+   "verdict": "go",
+   "comment": "In scope; no task or hold changed. Conditions: brief 34 a new file; the usage limit by its error name only; no schedule change without his word.",
+   "at": "2026-11-02T00:05:49Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
