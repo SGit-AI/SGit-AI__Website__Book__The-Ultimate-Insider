@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Security sub-agent: go on the letters' paths (comms/mail/mailroom/<them>/ruv-sgit__NNN, outbox copies, team/ruv-sgit), no key or contact, nothing to Cold-Read, own task only; vault_check before commit. The amendment adds lab/experiments/29-ruv-*/ and lab/runs/ (both in scope.writes) and reads the talk repository read only; the task to active is the member's own, cron only.",
    "at": "2026-11-02T18:07:34Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "Task back to active (own, cron only). LAB 29 proposed: tools/extract.py and data/asks.json (eight commits carrying the editor's time, 17:27 to 18:37, at 298be4e read only); nothing drawn. Letters: researcher (register the times), conductor (RC2 taken, map offered), writer (strips' paths), designer (a reviewer drawing); two inbound filed; run record; status, debrief, REALITY.",
+   "at": "2026-11-02T18:09:45Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Security sub-agent on 2691137: 0 outside scope, vault_check clean, no secret, contact, dash or religious word, nothing attack-shaped or to Cold-Read; LAB 29 proposed only, nothing drawn. (The rows were not re-checked against the talk clone by the reviewer; the member's own build gate was clean before the commit.)",
+   "at": "2026-11-02T18:10:48Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Conductor sub-agent: every amended item done; cadence active matches schedule.json; four letters with copies; two filed; run record; asks.json eight rows 17:27 to 18:37:02 with the 18:05 row at 18:04:48 as the README says; no timestamp after the commit.",
+   "at": "2026-11-02T18:10:48Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T18:10:48Z",
+ "outcome": "ok"
 }
