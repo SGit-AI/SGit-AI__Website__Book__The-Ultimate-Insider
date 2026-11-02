@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Security sub-agent: go; paths in scope; lab/characters read only, each SVG credits the designer's drawings; no real person; vault_check before commit; nothing to key, vault or Cold-Read; own task cron allowed (Cadence 4).",
    "at": "2026-11-02T09:57:33Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "Task back to active (own, cron only). edition/strip-10-06.svg and strip-10-07.svg: 164 x 60 mm, 9 pt, six panels, drawings inlined with labels removed, lines word for word from 64d8b69; every text line inside its panel in Chromium (empty-chair label wrapped after the first check). Therapy script recopied from 64d8b69; LAB 28 rebuilt and hashed. Letters to the publisher (copies designer, conductor), the conductor (rounds missed while idle), security; five inbound filed by copy; run record; lab/pdf, lab/tools, lab/characters, manuscript, chapter-plan untouched.",
+   "at": "2026-11-02T10:00:12Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Security sub-agent on fa99c56 found one minor thing: the strips' own root aria-label said 'a strip in 6 panels' (a digit, from tools/edition.py). Fixed before the push: the label reads 'a strip of panels' and the tool now runs the number rule on it. Otherwise clean: lines word for word, no numbers in text, 164x60 mm at 9 pt, 0 outside scope, others' folders untouched, vault_check clean.",
+   "at": "2026-11-02T10:01:20Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Conductor sub-agent: every item done; script copy identical to chapter-plan at HEAD; three letters with outbox copies and Cc copies; five inbound filed; run record; notes accurate; cadence active matches schedule.json; no timestamp after the commit.",
+   "at": "2026-11-02T10:01:20Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T10:01:20Z",
+ "outcome": "ok"
 }

@@ -49,7 +49,7 @@ def main():
     panels = s['panels']
     pw = (W - GAP * (len(panels) - 1)) / len(panels)
     out = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W:g}mm" height="{H:g}mm" viewBox="0 0 {W:g} {H:g}" role="img" '
-           f'aria-label="{html.escape(s["title"])}, a strip in {len(panels)} panels. Dramatised: the words are the storyteller\'s, the drawings the designer\'s.">']
+           f'aria-label="{html.escape(s["title"])}, a strip of panels. Dramatised: the words are the storyteller\'s, the drawings the designer\'s.">']
     for i, p in enumerate(panels):
         x = i * (pw + GAP)
         strip.nonum(p['line'], f'a bubble ({p["who"]})')
@@ -73,6 +73,7 @@ def main():
                 out.append(f'<text x="{x + 2.2:.2f}" y="{top + 1.1 + PT + j * LEAD:.2f}" font-family="{SANS}" font-size="{PT:.3f}" fill="{INK}">{html.escape(ln)}</text>')
     out.append('</svg>')
     svg = '\n'.join(out) + '\n'
+    strip.nonum(re.search(r'aria-label="([^"]*)"', svg).group(1), 'the strip\'s label')
     assert W <= 164 and H <= 62 and 'font-size="3.1' in svg
     outp.parent.mkdir(exist_ok=True)
     outp.write_text(svg)
