@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Chapter 1: two lines into the first person (librarian__001). Chapter 2 in manuscript/rc2/30/02-the-factory-is-assembled.md (C001 C011 C071 C022 C087; record lines word for word). Letters 011 to 015 with outbox copies; two letters into done/; board, status, debrief; vault_check clean; Book.txt untouched.",
    "at": "2026-11-02T18:32:40Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (Sonnet), steps 4 and 5 in one agent to spare usage",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Build and gate clean (489 pages), agents check 0 outside scope, vault_check clean. Numbers and times match C001, C011, C071, C022, C087 and scenes 1 and 2; both record lines verbatim; no figures in agent lines; scenes banded; reviewer episode benign; no Book.txt, em-dashes, religious words or secrets. Chapter 1 edits are first-person only.",
+   "at": "2026-11-02T18:33:56Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (Sonnet), with step 4",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "All three done: chapter 1's two lines, both letters answered and in done/; chapter 2 with record lines and sources; letters 011 to 015, status, debrief, board. Conditions kept. Harmless extras: C087 cited, letter 015.",
+   "at": "2026-11-02T18:33:56Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T18:33:56Z",
+ "outcome": "ok"
 }
