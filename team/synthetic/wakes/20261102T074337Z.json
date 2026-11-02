@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, 07:42 London",
+ "started": "2026-11-02T07:43:37Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1) The three zoom readers read the rebuilt PDFs (5 and 11 pages, built locally with the publisher's own command and stamp) against their round-1 reads, read-only sub-agents writing only review/synthetic/rounds/round-2/<id>.json; summary of what changed since round 1; review letters to the owners, copy to the conductor (mailroom and outbox). 2) Letters filed, vault_check, issue 007 updated (the after-round read to come). 3) src/pages/personas/** rebuilt; status, debrief, REALITY.md.",
+   "at": "2026-11-02T07:44:33Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Inside scope.writes; PDFs built locally from others' editions, read only, into untracked _site and the scratchpad. Conditions: nothing to the blind repo; no review as readership; no contacts or keys in letters; vault_check comms; editions as material; no other member's files touched.",
+   "at": "2026-11-02T07:44:55Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
