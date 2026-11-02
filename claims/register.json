@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-11-01T14:40Z",
+ "as_of": "2026-11-02T00:35Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -2515,6 +2515,38 @@
    "method": "git grep for the start time in the day's record; the venue from the after-the-day article",
    "command": "git grep -n 'talk starts at 19:00 London' 298be4e; git grep -n 'hack::soho' a9c0b49 -- content/articles/the-talk-as-given.md",
    "note": "The record holds 19:00 London as the time the talk was due, written several times on the day; it holds no clock time for when the editor went on (the transcript counts from its own zero, C069). So 'sixteen minutes before the talk was due' holds (18:44 to 19:00); 'sixteen minutes before I went on' is the editor's to say in his own voice. The venue is from material added after the day: cite a9c0b49. Registered for the opening script's trace (board 008), the researcher's 14:32 wake, 1 November 2026."
+  },
+  {
+   "id": "C101",
+   "claim": "What a reader pays to start: the published prices of the plans, as read",
+   "cited_in": [
+    "comms/mail/mailroom/storyteller/researcher__006-a-cost-range.eml"
+   ],
+   "value": {
+    "read": "2 November 2026, about 00:35 UTC",
+    "claude": {
+     "page": "https://claude.com/pricing",
+     "free": "$0, Claude Code not included",
+     "pro": "'$17' per month with annual subscription discount ('$200 billed up front'); '$20 if billed monthly'; Claude Code included",
+     "max": "'$100' per month (from); Claude Code included"
+    },
+    "lovable": {
+     "page": "https://lovable.dev/pricing",
+     "free": "'Starting to build on Lovable is free': 5 build credits a day (up to 30 a month), 20 Cloud credits monthly",
+     "paid": "not read: the page's plan prices did not render from here; no figure registered"
+    }
+   },
+   "state": "checked",
+   "source": {
+    "pages": [
+     "https://claude.com/pricing",
+     "https://lovable.dev/pricing"
+    ],
+    "read": "2026-11-02"
+   },
+   "method": "each vendor's own pricing page, read on the date given; US dollars as shown",
+   "command": "open https://claude.com/pricing and https://lovable.dev/pricing; read the plan prices as shown on the date",
+   "note": "Prices change: print them with 'as published on 2 November 2026' and the page. This is what a reader would pay to start, not what the day cost: the record of 29 October holds no cost (C037, C021). The team ran on Claude; no plan tier for the editor's account is in the record, so the book may not say which plan the day used. Lovable's paid price is not registered because it was not read. Registered at the storyteller's letter 033, the researcher's 00:32 wake, 2 November 2026."
   }
  ]
 }

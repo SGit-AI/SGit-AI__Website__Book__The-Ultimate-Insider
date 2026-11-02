@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-11-01T14:44Z",
+ "as_of": "2026-11-02T00:37Z",
  "round": 1,
- "state": "active: the opening script traced (board 008), PS1 sources begun (board 009)",
+ "state": "idle: board 009 blocked from this container, board 008 waits on the writers",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -164,6 +164,13 @@
     "storyteller/researcher__005",
     "conductor/researcher__020"
    ]
+  },
+  {
+   "what": "C101: a reader's cost to start, as published (storyteller 033); task to idle after the usage limit (brief 34)",
+   "when": "2026-11-02T00:37Z",
+   "letters": [
+    "storyteller/researcher__006"
+   ]
   }
  ],
  "next": [
@@ -200,7 +207,7 @@
  ],
  "task": {
   "id": "trig_01Q1gWPQbdrBw3xwfRdVEGph",
-  "cron": "CRON_TZ=Europe/London 32 */2 * * *",
+  "cron": "CRON_TZ=Europe/London 32 9,17 * * *",
   "session": "session_01Kw9UwBhzn98NK3Ydio5nEP",
   "created": "2026-10-30T13:16:32Z",
   "prompt": "team/conductor/schedule.json, runs entry for researcher, word for word",
@@ -209,7 +216,7 @@
    "session": "session_01Kw9UwBta1dcP9qBJUURLPZ",
    "state": "paused on the first account at the editor's word, about 10:50 UTC"
   },
-  "changed": "2026-11-01T09:33:40Z, back to the active schedule (WAKE.md Cadence 4): the designer asked for work"
+  "changed": "2026-11-02T00:35:27Z, to the idle schedule (WAKE.md Cadence 3) after the evening lost to the usage limit (brief 34); board 009 blocked from here, board 008 waits on the writers"
  },
  "issues": [
   {
@@ -444,5 +451,5 @@
    "reply": "the designer's mailroom, researcher__ letter of 09:45"
   }
  ],
- "cadence": "active"
+ "cadence": "idle"
 }
