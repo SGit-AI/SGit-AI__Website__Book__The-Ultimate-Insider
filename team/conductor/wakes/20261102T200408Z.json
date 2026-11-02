@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "In scope; nothing decided; no member file; nothing private. Condition: only chapter 1 is cleared by security; the brief and the PDF's caption say chapter 2 is not yet read.",
    "at": "2026-11-02T20:05:25Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "Four letters filed; RC2 chapters 1 and 2 built in the scratchpad with the publisher's list and --cast and pictured; brief 44 with the correction, chapter 2 not yet read by security; status.",
+   "at": "2026-11-02T20:06:44Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "Only conductor files; nothing private; nothing decided; chapter 2 said unread by security, as no letter on it exists.",
+   "at": "2026-11-02T20:07:20Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "All items done; claims match (3,397 words is the build's count of the printed text; wc gives 3,402 with markup).",
+   "at": "2026-11-02T20:07:20Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T20:07:20Z",
+ "outcome": "ok"
 }
