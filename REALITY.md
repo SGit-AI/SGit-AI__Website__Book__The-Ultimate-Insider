@@ -64,7 +64,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - `publishing/LEANPUB.md` now says: GitHub mode needs a Standard or Pro plan; untick the membership box for a $0 book; $0 readers get every new version (whether the new-version email reaches them is not settled by Leanpub's pages).
 - Since 2 November about 05:20 UTC: `publishing/edition.py` lays out the storyteller's 3- and 10-page scripts (ZM1) as `manuscript/editions/03/` and `/10/`, each with its own `Book.txt`, the series page at the back (SP1); built they are 6 and 12 PDF pages (`_site/manuscript/one-human-nine-agents-edition-03.pdf`, `-10.pdf`, not committed). The signed title (NS1) is in `publishing/metadata.yaml`, so the book, the sample and the editions carry it.
 - Since 2 November about 07:20 UTC (ED1 round 1): the editions build without a contents page (`--no-toc`), the script's promise on the title page, figures still to be drawn as marked boxes, and each speaker's line as a block the look can style; 5 and 11 PDF pages. `manuscript/rc2/` is the writer's, not the publisher's (WR1).
-- Since 2 November about 09:15 UTC (ED1 round 2): the editions open on the designer's cover A, full bleed (`build_book.py --cover`), carry its on-stage marker on every scene page and its speakers' heads (`--extra-css lab/tools/book/speakers.css`); 6 and 12 PDF pages. Three figures are still dashed boxes.
+- Since 2 November about 09:15 UTC (ED1 round 2): the editions open on the designer's cover A, full bleed (`build_book.py --cover`), carry its on-stage marker on every scene page and its speakers' heads (`--extra-css lab/tools/book/speakers.css`); 6 and 12 PDF pages. Four figures in the 10-page edition are still dashed boxes.
 
 ## Not yet
 
