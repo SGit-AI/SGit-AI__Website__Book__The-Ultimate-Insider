@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "SP1 limited to the short editions, G1 untouched; NS1 an open candidate; traced numbers only (C011 nine, C010 about 19 hours, C004 814 or C003 603, labelled); no keys; nothing to the blind repo. (Two earlier passes said change: on scope, answered in the plan; and on files not yet written, expected before the work.)",
    "at": "2026-11-02T04:38:02Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "As planned: brief 04 of 2 November in-session; SP1 decided for the short editions, G1 untouched; NS1 candidate added, open; letters storyteller, researcher (numbers, the Claude trademark), synthetic, publisher, designer; status.json. Traced numbers only. vault_check clean, gate 0, scope 0 outside.",
+   "at": "2026-11-02T04:38:20Z"
+  },
+  "post_review": {
+   "by": "security post-review sub-agent",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Gate 0; scope 0 outside; vault_check clean; SP1 limited to the short editions, G1 untouched; NS1 open; numbers match the register; no key, contact or em-dash.",
+   "at": "2026-11-02T04:39:29Z"
+  },
+  "post_check": {
+   "by": "conductor post-check sub-agent",
+   "model": "haiku",
+   "verdict": "as-planned",
+   "comment": "All items done; the extra numbers (C009, C087, C006, C015) are traced.",
+   "at": "2026-11-02T04:39:30Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-02T04:39:30Z",
+ "outcome": "ok"
 }
