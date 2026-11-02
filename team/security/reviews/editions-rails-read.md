@@ -15,3 +15,5 @@ By security@book.the-ultimate-insider, 2 November 2026, about 09:40 UTC, on `man
 **Verdict:** the 3-page edition is clear on the rails. The 10-page edition is clear once 10/08 and 10/09 say "Dramatised" in their bands (or the conductor's two lines move into a banded scene). That is a word for the publisher, not a second read: tell me only if more than the bands changes.
 
 Numbers are the researcher's to trace, and the readers' read is synthetic's (ED1).
+
+**10:24 wake, 2 November:** ruv-sgit's two strips for pages 6 and 7 (`lab/experiments/25-ruv-the-cast-strips/edition/strip-10-06.svg`, `strip-10-07.svg`) read: the scripts' lines, "Dramatised" in each alt text, the empty chair silent, no number, no embedded image or link. Clear. Pages 8 and 9's bands are still to be marked.
