@@ -1,0 +1,36 @@
+{
+ "schema": "the-ultimate-insider/synthetic-round-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "event-team-member",
+ "round": 2,
+ "changed_since_round_1": "Better: the cover now says who it is for, edition 03 puts the cast before the glossary and sets the four steps as numbered boxes, edition 10 moves the stop to a plain title and ends on five numbered steps with the team step inside, and the contents page is gone. Worse or unchanged: the pictures are still not drawn (dashed 'Figure to come' boxes now crowd pages 2, 3, 7 and 8 of edition 10), most pages are still half empty, and the several-people factory is still on page 9 of 11 in edition 10.",
+ "round_1_changes_done": [
+  {"change": "Cover line saying who it is for and what they get", "done": "partly"},
+  {"change": "Move or cut the two grey boxes before the first scene (03 p3)", "done": "partly"},
+  {"change": "Bring the several-people factory forward (10)", "done": "no"},
+  {"change": "Retitle 'the therapy session' to say what happened", "done": "yes"},
+  {"change": "Draw the pictures the stage directions promise", "done": "no"},
+  {"change": "Set the four steps as numbered boxes (03)", "done": "yes"},
+  {"change": "Contents page numbers and fill half-empty pages (10)", "done": "partly"},
+  {"change": "Drop running header, enlarge small sans text", "done": "no"}
+ ],
+ "read": ["one-human-nine-agents-edition-03.pdf (5 pages)", "one-human-nine-agents-edition-10.pdf (11 pages)"],
+ "editions": {
+  "03": {"page_one_held": "partly", "got_the_factory": "yes", "would_start_tomorrow": "yes", "one_line": "Three story pages and four numbered steps plus a paragraph for a team of several give me enough to start, but the cover still says 'with no team yet' when I have one, and page 2 still opens on two grey definition boxes."},
+  "10": {"page_one_held": "partly", "got_the_factory": "yes", "would_start_tomorrow": "yes", "one_line": "The five numbered steps on page 10 are the best thing in either edition and name sharing the brief, board and hold, but the team case arrives on page 9 and four 'Figure to come' boxes make it look unfinished."}
+ },
+ "the_page": "Type is a readable serif body with bold sans headings and an orange rule, fine on a phone, though the small sans cast bar and box text remain the hardest to read between meetings and the publisher's header still runs on every page. There are still no real pictures, only dashed placeholder boxes that take up room and promise something absent. Pages mostly hold one idea, but the lower half of nearly every page is empty, and edition 03 page 2 still stacks two grey boxes above the first scene.",
+ "best_page": {"edition": "10", "pdf_page": 10, "why": "Five numbered boxes, one action each, a team step ('Share the brief, the board and the hold'), the 'it does not have to be a talk' examples and an honest cost line. My team could act on it tomorrow."},
+ "worst_page": {"edition": "10", "pdf_page": 8, "why": "A dashed 'Figure to come' box fills the top third, then five short lines and an empty page; 'Only the first part was ever finished' is a failure with no lesson I can copy."},
+ "changes": [
+  {"owner": "storyteller", "edition": "03", "pdf_page": 1, "quote": "For anyone with an idea and no team yet", "change": "Say 'alone or with a team, each with an agent' and give a reading time.", "why": "I have a team, each of us with an agent; the cover tells me the book is not for me."},
+  {"owner": "storyteller", "edition": "10", "pdf_page": 9, "quote": "Same clock. Same hold. More hands on it.", "change": "Bring the several-people factory forward to page 3 or 4, and say what each person owns, who may lift the hold, and what stops a central person being the bottleneck.", "why": "It is my case, it sits near the back, and my deal-breaker is a method needing one central person."},
+  {"owner": "storyteller", "edition": "10", "pdf_page": 8, "quote": "Only the first part was ever finished.", "change": "End the page with the lesson in one sentence, what you would do differently in your first week.", "why": "A failure with no takeaway is my other deal-breaker."},
+  {"owner": "designer", "edition": "10", "pdf_page": 3, "quote": "Figure to come: the cast cards for the four", "change": "Draw the cast cards and the nine stations, or take the placeholders out of the edition.", "why": "Dashed boxes crowd the page and look unfinished; a picture of the factory is the fastest way to get it."},
+  {"owner": "designer", "edition": "03", "pdf_page": 2, "quote": "How to read the scenes:", "change": "Fold the two grey boxes into one short line under the cast bar, or move them below the scene.", "why": "Page one of the story still opens on definitions rather than the cast."},
+  {"owner": "designer", "edition": "10", "pdf_page": 7, "quote": "", "change": "Merge pages 7 and 8 or fill them: the stop and what did not work belong on one page with one picture.", "why": "Both pages are more than half empty and each holds a single short idea."},
+  {"owner": "publisher", "edition": "03", "pdf_page": 2, "quote": "One Human, Nine Agents, Nineteen Hours: the 3-page edition, 2 November 2026", "change": "Drop the running header from reader-facing copies and enlarge the cast bar and box text by about one point.", "why": "The header is noise on every page and the small sans text is the hardest to read on a phone."},
+  {"owner": "publisher", "edition": "03", "pdf_page": 5, "quote": "timeline/cast-scenes.md (scenes 1 to 5)", "change": "Move file paths and register ids (C101, G1) to a back note in smaller type, or leave them to the web version.", "why": "They mean nothing to a reader on a phone and fill the last page."}
+ ],
+ "notes": "Edition 03 is enough to start from; edition 10 earns its length only once the pictures exist and the team case moves up. The Generation ZX page (03 p5, 10 p11) is mostly a series pitch, not about my team."
+}

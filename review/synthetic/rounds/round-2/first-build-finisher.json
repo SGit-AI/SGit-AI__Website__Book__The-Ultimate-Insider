@@ -1,0 +1,102 @@
+{
+ "schema": "the-ultimate-insider/synthetic-round-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "first-build-finisher",
+ "round": 2,
+ "changed_since_round_1": "Better: the contents sheets are gone, both covers now carry a promise line, the 3-page edition shows its four steps on page 4 with the glossary boxes trimmed, the 10-page edition points to the last page from page 3 and its steps page moved up to page 10 of 11, and the 'Round 1' running head is replaced by the book's own. Worse: the 10-page edition now has four grey 'Figure to come' placeholder boxes that look unfinished, and the repository file paths in 'Where this came from' are still there. Unchanged: most pages are still half empty at the foot and there are no real pictures.",
+ "round_1_changes_done": [
+  {"change": "Drop or fold the stand-alone contents sheet in the short editions", "done": "yes"},
+  {"change": "Add a promise line under the subtitle on the cover", "done": "yes"},
+  {"change": "Trim the glossary boxes and move the 'How to read the scenes' note", "done": "partly"},
+  {"change": "Bring the action page earlier or point to it from page 3 (10-page edition)", "done": "partly"},
+  {"change": "Give the 18:44 stop a plain account and move the three-accounts note out of the flow", "done": "no"},
+  {"change": "Draw the pictures or remove the italic stage directions", "done": "partly"},
+  {"change": "Fill the half-empty scene pages with cast cards or a clock strip", "done": "no"},
+  {"change": "Remove repository file paths from 'Where this came from' and drop the Round 1 head", "done": "partly"}
+ ],
+ "read": ["one-human-nine-agents-edition-03.pdf (5 pages)", "one-human-nine-agents-edition-10.pdf (11 pages)"],
+ "editions": {
+  "03": {
+   "page_one_held": "yes",
+   "got_the_factory": "yes",
+   "would_start_tomorrow": "yes",
+   "one_line": "The cover now tells me I will know four steps by the last page, and page 4 delivers them in four numbered cards I could follow tomorrow."
+  },
+  "10": {
+   "page_one_held": "yes",
+   "got_the_factory": "yes",
+   "would_start_tomorrow": "yes",
+   "one_line": "The pointer on page 3 to the last-page steps lets me skip ahead and the five cards on page 10 are clear, but the grey 'Figure to come' boxes make the story pages look unfinished."
+  }
+ },
+ "the_page": "The type is comfortable on a phone-sized page, the bold heading, rust rule and cast bar give a steady rhythm, and each page now holds one beat. The 10-page edition's dashed 'Figure to come' boxes take a third of a page each and say nothing, so they crowd rather than help, while the grey definition boxes are now short enough to leave alone. Every page still ends in a large blank half, and the mixed serif body, sans cast bar and sans step cards feel slightly stitched together.",
+ "best_page": {"edition": "03", "pdf_page": 4, "why": "The stop at 18:44 and the four numbered steps sit on one page, so the failure and the next action arrive together. The cards are short, in plain words, and the note on cost and teams answers what I would ask next."},
+ "worst_page": {"edition": "10", "pdf_page": 8, "why": "A promised picture box sits at the top of a page whose story is five short lines, and the page is then two thirds blank. The failures are the part I trust most, and they get the least room and a placeholder."},
+ "changes": [
+  {
+   "owner": "designer",
+   "edition": "10",
+   "pdf_page": 7,
+   "quote": "Figure to come: ruv-sgit's strip, the conductor after the hold, talking to security's empty chair.",
+   "change": "Draw the four figures (pages 2, 3, 7, 8) or take the dashed boxes out of the build until they exist; a plain one-page nine-station factory map would do more than any of them.",
+   "why": "A box that says 'to come' tells a reader the book is not finished and uses space the story needs."
+  },
+  {
+   "owner": "publisher",
+   "edition": "10",
+   "pdf_page": 11,
+   "quote": "chapter-plan/zoom-ladder.md; chapter-plan/cast/edition-03.md, opening-script.md",
+   "change": "Replace the file paths in 'Where this came from' with plain source names (the talk's record, the cast guide, the claims register), in both editions, and use one typeface in the note.",
+   "why": "Paths such as 'scripts/' and 'review/synthetic/zoom/edition-03/summary.md' mean nothing to me and read as scaffolding."
+  },
+  {
+   "owner": "publisher",
+   "edition": "03",
+   "pdf_page": 5,
+   "quote": "A book about you doing it",
+   "change": "Fold this page into the foot of page 4, or move it to the front as a short note, so the 3-page edition ends on the four steps.",
+   "why": "The edition ends on a series note and a list of paths; the last thing I read should be the thing I do."
+  },
+  {
+   "owner": "storyteller",
+   "edition": "10",
+   "pdf_page": 7,
+   "quote": "I have given three answers, and the book keeps all three.",
+   "change": "Say in one plain sentence what the conductor did when told to stop, then give the three accounts as a short list.",
+   "why": "The accounts run together in one paragraph, and a reader with five minutes loses the one clear moment."
+  },
+  {
+   "owner": "storyteller",
+   "edition": "10",
+   "pdf_page": 10,
+   "quote": "one page of rules, in your own words: what the agent is for, what it may change, and when it must stop and ask you.",
+   "change": "Add one line of example for the rules and one for the brief, such as a shop owner's two sentences each.",
+   "why": "'Brief' and 'rules' are named on every page but I still have never seen one; this is what stops a first builder."
+  },
+  {
+   "owner": "designer",
+   "edition": "10",
+   "pdf_page": 5,
+   "quote": "",
+   "change": "Use the empty lower half of the scene pages for a cast card per speaker on first appearance, or a clock strip (00:15, 05:00, 14:00, 18:44).",
+   "why": "Nine agents are told apart only by an italic mood word; faces or a timeline would make the cast and the day easier to hold."
+  },
+  {
+   "owner": "storyteller",
+   "edition": "03",
+   "pdf_page": 3,
+   "quote": "The researcher checked one of my lines against the team's own data, and it did not hold.",
+   "change": "Cut the paragraph on the afternoon loop and the researcher to two sentences, and bring the shop-owner idea up so it follows straight from the cast lines.",
+   "why": "Page 3 carries the run, the loop, the argument and the generalisation, which is more than one idea."
+  },
+  {
+   "owner": "publisher",
+   "edition": "03",
+   "pdf_page": 1,
+   "quote": "One Human, Nine Agents, Nineteen Hours: the 3-page edition, 2 November 2026",
+   "change": "Keep the running head off the cover and make it smaller and lighter on inner pages.",
+   "why": "It repeats the title directly above the title on page one and still reads as a draft label."
+  }
+ ],
+ "notes": "The voices still come across: Deck's line about a room reading a picture in five seconds and the Conductor's 'You left the @ off your name again' are the best two. The failures stay in and that is why I trust the page. The 3-page edition is now the one I would hand to a friend. The 10-page edition ends the story and starts the steps well, but its two middle pages (8 and 9) are the thinnest."
+}

@@ -1,0 +1,38 @@
+{
+ "schema": "the-ultimate-insider/synthetic-round-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "newsroom-builder",
+ "round": 2,
+ "changed_since_round_1": "Better: the cover now carries a promise line, the 3-page edition lost a page, the five steps in the long edition now end the book, the three accounts of the 95% are in the body, the researcher's finding now names its claim, and the editions say a newsroom could use it. Worse: the long edition's picture slots are now labelled 'Figure to come' in dashed boxes, which still reads as a draft, and the editor's decision is still not stated. Unchanged: most pages are half to two thirds empty and the source lines are still file paths.",
+ "round_1_changes_done": [
+  {"change": "Remove the review stamp from the running head", "done": "yes"},
+  {"change": "Fill the cover with a promise line", "done": "partly"},
+  {"change": "Draw the pictures or remove the bracketed stage directions", "done": "no"},
+  {"change": "Say what the argument was and what the signature decided", "done": "no"},
+  {"change": "Put the three accounts of the 95% in the body", "done": "yes"},
+  {"change": "Name the claim the researcher checked", "done": "yes"},
+  {"change": "Fold the contents page into the cover or an opener", "done": "yes"},
+  {"change": "Set 'Where this came from' in plain words, not repository paths", "done": "no"},
+  {"change": "Fill the half-empty interview page", "done": "no"},
+  {"change": "Say which role to hire first", "done": "partly"}
+ ],
+ "read": ["one-human-nine-agents-edition-03.pdf (5 pages)", "one-human-nine-agents-edition-10.pdf (11 pages)"],
+ "editions": {
+  "03": {"page_one_held": "partly", "got_the_factory": "yes", "would_start_tomorrow": "yes", "one_line": "Four pages of voices and one boxed list of four steps, with the 18:44 stop and a named row of what it costs, make a clear first day for a newsroom, but the cover is still mostly white and the editor's signature is never named as the control."},
+  "10": {"page_one_held": "partly", "got_the_factory": "yes", "would_start_tomorrow": "yes", "one_line": "The reviewer line, the researcher's objection withdrawn, the three accounts of the stop and the five steps on page 10 are the record I trust, but three dashed 'Figure to come' boxes and half-empty pages make it look unfinished."}
+ },
+ "the_page": "Type is comfortable on a laptop: a heavy sans headline, a serif body, a rust rule and a cast bar on every page, and each page holds one idea, which is a real strength. The only graphic devices are the grey word boxes and the numbered step boxes, and the dashed figure placeholders on 10-page pages 2, 3, 7 and 8 crowd the text with an empty promise rather than help it. Pages 4 to 9 of the long edition and page 5 of the short one are over half blank, and the margins still shift left and right from page to page.",
+ "best_page": {"edition": "10", "pdf_page": 10, "why": "Five numbered steps, one action each, a newsroom named as a use ('a newsroom's daily stories'), a cost line that admits the day's own cost is not in the record, and a pointer on. I can act on it in five minutes."},
+ "worst_page": {"edition": "10", "pdf_page": 8, "why": "The failures page, the part I trust most, opens with a dashed empty box and then holds five short lines, leaving over half the page blank; it feels like a slip, and the lines do not say which checks missed or what the claims were."},
+ "changes": [
+  {"owner": "designer", "edition": "10", "pdf_page": 3, "quote": "Figure to come: the cast cards for the four", "change": "Draw the cast cards and the strips on pages 2, 7 and 8, or delete the dashed boxes from the reader's copy.", "why": "A box that says 'to come' reads as a draft and makes the page look like something broke."},
+  {"owner": "storyteller", "edition": "03", "pdf_page": 3, "quote": "I kept the line. The book keeps the argument.", "change": "Say in one plain sentence what the line was and what the editor's signature decided, in both editions (10-page edition page 6 too).", "why": "My deal-breaker is an editor who only rubber-stamps; the page shows a decision but not its content, so I cannot tell a control from a ritual."},
+  {"owner": "storyteller", "edition": "10", "pdf_page": 8, "quote": "The checks worked, and they also missed.", "change": "Name one miss and what it cost, as the researcher's claim was named on page 6.", "why": "The sourced failure is the proof; an unnamed miss is an assertion."},
+  {"owner": "storyteller", "edition": "10", "pdf_page": 10, "quote": "Start with one of me.", "change": "Say which role a newsroom hires first (the researcher, with a reviewer) and why, in the step list or a line under it.", "why": "The editions still never say which role to start with, and it is my first question."},
+  {"owner": "designer", "edition": "03", "pdf_page": 1, "quote": "", "change": "Put the nine-agent cast as a row of initials and the date on the cover, and move the title block up.", "why": "Two thirds of the cover is white, and the cover must make me want to start."},
+  {"owner": "publisher", "edition": "10", "pdf_page": 11, "quote": "chapter-plan/zoom-ladder.md; chapter-plan/cast/edition-03.md", "change": "Replace repository paths with plain-words sources (the talk's register, the agents' own debriefs) and put the paths online.", "why": "A reader cannot trace an internal file name; it is the book's trust signal and it is unreadable."},
+  {"owner": "designer", "edition": "10", "pdf_page": 4, "quote": "Reviewer (a second agent with a checker's brief, drawn as a clipboard)", "change": "Cut the stage direction 'drawn as a clipboard' from the printed line, or draw it, and fill the empty lower half with the first review's exact output.", "why": "The strongest idea of the book (a second reading, not a second identity) sits on a page that is 60 per cent blank, with a picture that is only described."},
+  {"owner": "publisher", "edition": "10", "pdf_page": 9, "quote": "", "change": "Fix the text block margins so they do not jump between pages 2, 3 and 4 and beyond, and merge pages 8 and 9 or lift the closing pages to fill them.", "why": "The shifting left edge looks like a layout fault on a laptop and the half-empty pages undo the calm."}
+ ],
+ "notes": "The voices are still the best thing: the tags such as '(unbudging)' and '(exacting, to ruv-sgit)' carry the cast with no picture needed. The 3-page edition feels more finished than the 10-page one because it has no empty figure boxes. No religious words found."
+}
