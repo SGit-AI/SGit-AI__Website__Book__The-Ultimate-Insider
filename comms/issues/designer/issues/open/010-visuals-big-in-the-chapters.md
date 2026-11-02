@@ -30,3 +30,5 @@ The editor likes where the lab is going; make visuals big and run a couple of ex
 2 November 2026, 19:40: RC2 chapters 1 and 2: six of my pictures drawn (LAB 36, LAB 37), paths to the publisher; one Figure line against the record told to the writer. A reviewer added to the cast.
 
 2 November 2026, 21:40: LAB 38, the thirty's chapters 2 and 3 (four cards, day by trigger, relayed word); one head per speaker in speakers.css.
+
+2 November 2026, 23:40: LAB 39, the thirty's chapter 4 (last ten minutes, clock stopped, five did-not-work cards); the speech cards wait on C089 (`designer__092`).

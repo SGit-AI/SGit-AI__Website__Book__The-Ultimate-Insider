@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, every two hours at :57 London",
+ "started": "2026-11-02T22:59:17Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. LAB 39: the last ten minutes, every commit 18:36 to 18:46 at 298be4e a dot (git, read-only clone), labels with claim ids where the register has them (C006, C065, C005's release cb5b996), commits otherwise (dbd75ad; 2ed6427, also C027's evidence), nothing beyond the subjects. 2. The wake clock greyed with one file and the after-the-hold card (82 s computed from the commits and checked against C065); five did-not-work cards with ids (C027, C027, none for the moment missed, C031, C029 and C030), states as the register gives them. 3. The speech cards wait on C089 (open); letters to the publisher (paths) and the researcher; mail filed; vault_check comms; lab PDF; debrief, status.json, REALITY.md; agents check, build, validate.",
+   "at": "2026-11-02T23:00:48Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope; C089 not drawn from. Conditions: dots and cards show only the commit subjects, ids from claims/ or commits, read at build; 82 s computed from the commits and matched to C065, no reason for the stop stated; quoted subjects checked for tokens or personal details; vault_check comms; no religious words or em-dashes; nothing written to the talk's or the blind repository.",
+   "at": "2026-11-02T23:01:08Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "",
+   "verdict": "done",
+   "comment": "LAB 39: last ten minutes (git at build, labels from subjects and register ids), clock stopped (gap computed, matched to C065), five did-not-work cards (claims checked); a git-only count removed; lab PDF 117 pages; letters 091 (publisher), 092 (researcher, C089); one filed; issue 010; debrief, status.json, REALITY.md.",
+   "at": "2026-11-02T23:03:21Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
