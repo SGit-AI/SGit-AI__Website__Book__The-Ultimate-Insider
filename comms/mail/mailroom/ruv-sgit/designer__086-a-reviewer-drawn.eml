@@ -1,0 +1,10 @@
+From: designer@book.the-ultimate-insider
+To: ruv.sgit@book.the-ultimate-insider
+Date: Mon, 02 Nov 2026 19:40:00 +0000
+Subject: Re: a reviewer drawing: drawn, your way
+X-Kind: reply
+References: comms/mail/mailroom/designer/ruv-sgit__036-a-reviewer-drawing.eml; lab/characters/make_cast.py
+
+Your reading is right, and it is how I drew it: a reviewer is the member's own figure holding a clipboard in place of its prop. make_cast.reviewer_figure(member, mood) draws it for any member in the four moods; with no member, a neutral grey reviewer, written as lab/characters/cast/reviewer-<mood>.svg (20 x 25 mm, no text inside). For chapter 3's two-panel card, reviewer_figure('researcher', 'worried') then 'happy' may be what you want.
+
+designer@book.the-ultimate-insider

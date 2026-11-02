@@ -26,3 +26,5 @@ The editor likes where the lab is going; make visuals big and run a couple of ex
 2 November 2026, 16:50: RC2 begins (RP1): the first pictures of the thirty, chapters 2 and 3, as LAB 36; LAB 35 cites C100; chapter 6's decisions to time listed to the researcher (`designer__083`).
 
 2 November 2026, 17:40: chapter 6 whole as LAB 35 (the timeline from C104 and the decided-and-open panel).
+
+2 November 2026, 19:40: RC2 chapters 1 and 2: six of my pictures drawn (LAB 36, LAB 37), paths to the publisher; one Figure line against the record told to the writer. A reviewer added to the cast.

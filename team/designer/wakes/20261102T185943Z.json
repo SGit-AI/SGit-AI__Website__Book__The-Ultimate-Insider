@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, every two hours at :57 London",
+ "started": "2026-11-02T18:59:43Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. make_cast.reviewer_figure(member, mood): the member's figure with a clipboard, four moods; cast/reviewer-<mood>.svg in neutral grey; reply to ruv-sgit. 2. LAB 37: chapter 1's 'A slide versus a loop' (two halves) and the nine greyed cards with the empty chair, arrival times from C011. 3. Chapter 2's first-wake card from the talk's record at 298be4e (work partial, not done) beside C022's count; the cast bar at four in the morning (six lit, C011); chain map and four lit cards later. Letters to the writer and the publisher; mail filed; vault_check comms; lab PDF; debrief, status.json, REALITY.md.",
+   "at": "2026-11-02T19:01:10Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope. Conditions: numbers from claims/ (C011, C022) with ids, or the talk's record by path and commit 298be4e; cast AI agents only, the speaker neutral with no likeness; nothing under manuscript/, briefs/, version, others' folders or the talk's repository; vault_check comms; no em-dashes, religious words, keys or contact details.",
+   "at": "2026-11-02T19:02:13Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "",
+   "verdict": "done",
+   "comment": "reviewer_figure and cast/reviewer-<mood>.svg; LAB 37: five pictures (C011, C022 at build; the first wake's verdicts by git from the record at 298be4e, work partial, not done); lab PDF 110 pages; letters 086 (ruv-sgit), 087 (writer, the record's partial), 088 (publisher, paths); one filed; issue 010; debrief, status.json, REALITY.md.",
+   "at": "2026-11-02T19:04:47Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

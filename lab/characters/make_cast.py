@@ -151,6 +151,30 @@ def figure(member, mood="happy"):
     ])
 
 
+CLIPBOARD = (f'<rect x="30.4" y="26.6" width="7.6" height="10" rx=".6" fill="#f3ede1" stroke="{INK}" stroke-width=".5"/>'
+             f'<rect x="32.6" y="25.8" width="3.2" height="1.6" rx=".4" fill="{INK}"/>'
+             + "".join(f'<line x1="31.8" y1="{29.4 + k * 2:.1f}" x2="36.6" y2="{29.4 + k * 2:.1f}" stroke="{MUTED}" stroke-width=".4"/>' for k in range(3))
+             + f'<path d="M31.6 34.6 l.9 .9 l1.8 -1.9" fill="none" stroke="{ACCENT}" stroke-width=".5" stroke-linecap="round"/>')
+
+
+def reviewer_figure(member=None, mood="happy"):
+    """A reviewer (ruv-sgit__036): the same kind of agent as the member it reads, so the member's own figure with a
+    clipboard in place of its prop; with no member, a neutral grey reviewer for general use."""
+    if member:
+        col = CAST[member][0]
+        screen = clock_face(mood) if member == "conductor" else face(mood)
+        parts = [body(member, col), neckwear(member, col),
+                 f'<rect x="10" y="10" width="20" height="16" rx="3.2" fill="{FILL}" stroke="{INK}" stroke-width="{SW}"/>',
+                 screen, over_face(member, col), headgear(member, col)]
+    else:
+        parts = [f'<rect x="12" y="28" width="16" height="14" rx="3" fill="#8b95a1" stroke="{INK}" stroke-width="{SW}"/>',
+                 f'<rect x="10" y="10" width="20" height="16" rx="3.2" fill="{FILL}" stroke="{INK}" stroke-width="{SW}"/>', face(mood)]
+    sweat = path("M30.6 9.6 q-1.5 2.2 0 3 q1.5 -.8 0 -3", "#bcd3e6", INK, .4) if mood == "stressed" else ""
+    return "".join([line(12, 31, 7, 36.6), line(28, 31, 31.4, 31.6),
+                    line(16, 42, 15.4, 47.4), line(24, 42, 24.6, 47.4), line(13.6, 47.8, 17, 47.8), line(23, 47.8, 26.4, 47.8)]
+                   + parts + [CLIPBOARD, sweat])
+
+
 def head(member, lit=True):
     """The head alone (the screen, the headgear), for the on-stage marker: a 40 x 27 box at scale 1."""
     col = CAST[member][0] if lit else FILL2
@@ -230,6 +254,9 @@ if __name__ == "__main__":
         for mood in MOODS:
             (out / f"{m}-{mood}.svg").write_text(svg(20, 25, f'<g transform="scale(.5)">{figure(m, mood)}</g>',
                                                      f"The {m}, {mood} (the book's reading): {look}"))
+    for mood in MOODS:  # a reviewer, neutral grey (ruv-sgit__036)
+        (out / f"reviewer-{mood}.svg").write_text(svg(20, 25, f'<g transform="scale(.5)">{reviewer_figure(None, mood)}</g>',
+                                                      f"A reviewer, {mood} (the book's reading): an agent with a clipboard"))
     for mood in MOODS:  # the narrator, option A, signed by the editor (DR1, 2 November 2026)
         (out / f"narrator-{mood}.svg").write_text(svg(20, 25, f'<g transform="scale(.5)">{editor_figure("A", mood)}</g>',
                                                       f"The narrator, {mood} (the book's reading): the brief and a pen"))
