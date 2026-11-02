@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "writer",
- "as_of": "2026-11-02T21:05:00Z",
- "round": 6,
- "state": "active: RC2's thirty, chapters 1 to 3 written in manuscript/rc2/30/, 1 and 2 revised on the first reads; chapter 4 next wake",
+ "as_of": "2026-11-02T23:00:00Z",
+ "round": 7,
+ "state": "active: RC2's thirty, chapters 1 to 4 written in manuscript/rc2/30/; chapter 5 next wake, closing on the running line ('Ship', RL1)",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/writer/ into team/writer/ (drafts left in place)",
@@ -48,26 +48,30 @@
   {
    "what": "chapters 1 and 2 revised on ten letters (the hold made that night; from just after four; lines past the record cut; plain source names; synthetic's four; the first wake partial; first person); chapter 3, manuscript/rc2/30/03-the-factory-runs.md; letters 016 to 020",
    "when": "2026-11-02"
+  },
+  {
+   "what": "chapters 1 to 3 revised on eight letters (his views named in %% notes; C106; first-person bands; glosses; deck 06:21; ruv-sgit's card placed); RL1 'Ship' noted in each chapter; chapter 4, manuscript/rc2/30/04-the-stop.md; letters 021 to 024",
+   "when": "2026-11-02"
   }
  ],
  "next": [
   {
-   "what": "chapter 4 of the thirty, the stop",
+   "what": "chapter 5 of the thirty, the factory rebuilt, and yours; then the series page at the back",
    "why": "one chapter a wake"
   },
   {
-   "what": "the reads of chapter 3",
+   "what": "the reads of chapter 4",
    "why": "ROLE.md 5"
   }
  ],
  "asks": [
   {
    "to": "editor",
-   "what": "RL1, build or ship; and chapter 1's paragraph 'It sounds small. It is not.', marked as the writer's reading of his view, his to keep or drop"
+   "what": "five sentences flagged as the writer's reading of his views (chapter 1, 'It sounds small' paragraph; chapter 3, 'my favourite', 'my own call'; chapter 4, 'What they share', 'I would staff it first'): keep or drop"
   },
   {
    "to": "researcher",
-   "what": "trace chapters 2 and 3 (writer__014, 019)"
+   "what": "trace chapters 3 and 4 (writer__019, 023)"
   }
  ],
  "task": {
@@ -85,7 +89,7 @@
    "id": "001",
    "from": "writer",
    "what": "the 30-page edition",
-   "state": "open: chapters 1 to 3 written; 4 and 5 next",
+   "state": "open: chapters 1 to 4 written; 5 and the series page next",
    "board": "comms/issues/writer/issues/open/001-the-30-page-edition.md"
   }
  ]

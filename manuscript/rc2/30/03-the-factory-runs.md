@@ -15,6 +15,8 @@ Band: *The wakes started by the schedule and by me, hour by hour; no wake from j
 
 ## The argument with a reviewer
 
+`%% for the editor: "and it is my favourite" is the writer's reading of his view; his to keep or drop.`
+
 **Narrator.** The first one is small, and it is my favourite. Just after four, the researcher planned to write a file of my decisions. Its reviewer read the plan and said no: that file, it said, was outside the researcher's rules.
 
 **Researcher** *(unbudging)*: My reviewer said a file was not mine to change. I showed it was.
@@ -27,7 +29,7 @@ Band: *The wakes started by the schedule and by me, hour by hour; no wake from j
 
 **Narrator.** An agent disagreed with its own checker, made its case from the rules, and won, at four in the morning, with nobody to appeal to. And the checker wrote down that it had been wrong.
 
-**Figure:** a two-panel card. Left: the clipboard, "out of scope", and the researcher pointing at its rules. Right: the clipboard, "objection withdrawn", and the file going in. For ruv-sgit; the record's words in small type under each panel.
+**Figure:** a two-panel card. Left: the clipboard, "out of scope", and the researcher pointing at its rules. Right: the clipboard, "objection withdrawn", and the file going in. The record's words in small type under each panel. ruv-sgit's card (`lab/experiments/30-ruv-the-reviewer-card/card.svg`).
 
 `%% record: af0010b team/researcher/wakes/20261029T041003Z.json timeline/cast-scenes.md scene 3`
 Band: *Dramatised. Rests on the researcher's wake at 04:11: its pre-review first called the file out of scope, the researcher disputed it (the file is under its evidence folder, which its rules let it write), and the review withdrew the objection.*
@@ -63,21 +65,21 @@ Band: *Dramatised. Rests on the researcher's wake at 04:11: its pre-review first
 **Figure:** three "sent back" cards in a row: who sent what to whom, and the reason in their own words. Deck to ruv-sgit, the picture; deck's reviewer to deck, the second request; the designer to itself, the table. For the designer.
 
 `%% record: 78b89b9 src/pages/studio/reviews/e02.html aeffbf9 team/deck/debriefs/2026-10-29__e01-review.md 56c680b team/designer/debriefs/2026-10-29__note-3-checked.md 09317d9 timeline/quotes.md timeline/cast-scenes.md scene 3`
-Band: *Dramatised. Rests on deck's review of ruv-sgit's picture (06:25), deck's reviewer asking it to hold a second request while one was in flight (04:19), the designer's note to dev and the conductor (10:49), and the conductor's note to ruv-sgit on its commits (10:05). The quoted lines are theirs.*
+Band: *Dramatised. Rests on deck's review of ruv-sgit's picture (06:21), deck's reviewer asking it to hold a second request while one was in flight (04:19), the designer's note to dev and the conductor (10:49), and the conductor's note to ruv-sgit on its commits (10:05). The quoted lines are theirs.*
 
 ## The creator comes back
 
 **Narrator.** At about ten to two I came back, and the loop began.
 
-**Narrator.** I dictated a round of feedback, and the first line of it was the player: the thing that would let me press play on stage, working on an iPad. "This is the main priority." The conductor routed it, and by seven minutes past three dev had ported a first version.
+**Narrator.** I dictated a round of feedback, and the first line of it was the player: the thing that would let me press play on stage, working on an iPad. "This is the main priority." The conductor routed it, and by the middle of the afternoon dev had ported a first version.
 
 **Dev** *(fast, pleased)*: Player's in. A countdown against your time, stops at every step, sections. Tell me what is wrong with it.
 
-**Narrator.** So I did, for the rest of the afternoon. I looked, I asked, they changed it, I looked again. The last of my asks carries my own time, 18:25, and it came back at 18:37. I was still asking for fixes in the last hour before the talk.
+**Narrator.** So I did, for the rest of the afternoon. I looked, I asked, they changed it, I looked again. I was still asking for fixes in the last hour before the talk; the last came back minutes before the stop. The picture below has every ask and its time.
 
 **Figure:** the afternoon loop on one line of time: my asks above the line, each with my time; what came back below it, each with its time. From the first priority at about ten to two to the last fix at 18:37. ruv-sgit's LAB 29 (`lab/experiments/29-ruv-the-afternoon-loop/loop.svg`), drawn from the register.
 
-**Narrator.** The cast filled up while I did it. The storyteller arrived a little after two, motion and studio at half past three, within a minute of each other. By four in the afternoon, all nine were on stage.
+**Narrator.** The cast filled up while I did it. The storyteller arrived a little after two, motion and studio at half past three, within a minute of each other. By half past three, all nine were on stage.
 
 **Figure:** the map of the day: who was on stage when. One row per agent, from its first commit to its last before seven; my own row with the hours I started work shaded. The chapter's map.
 
@@ -95,6 +97,8 @@ Band: *Dramatised. Rests on the feedback round dictated at about 13:50 and recor
 **Storyteller** *(rueful)*: Then it goes to the editor, as the strongest objection to his own part one. Not buried.
 
 **Storyteller** *(to itself, a slot later)*: I could soften it and keep the story smooth. But a story that hides the strongest argument against it is not one I want to tell. He decides; I just make sure he sees it.
+
+`%% for the editor: "my own call" is the writer's reading, as the editions flag it; his to keep or drop.`
 
 **Narrator.** It came to me. I kept the line in the talk, my own call, and the researcher's objection went on the record beside it. The book keeps both.
 
@@ -114,7 +118,7 @@ Band: *Dramatised. Rests on the researcher's finding to the storyteller (14:33) 
 **Figure:** one request, relayed from one agent to another, stopped at studio's door; in its place, a question going straight to the editor. A small diagram, for the designer.
 
 `%% record: bd3cdad team/studio/wakes/20261029T174115Z.json timeline/quotes.md`
-Band: *Dramatised. Rests on studio's wake from 17:41 to 17:47: the session's own check refused a member marking its own policy agreed on a word relayed by another agent, and the editor was asked in the session.*
+Band: *Dramatised. Rests on studio's wake from 17:41 to 17:47: the session's own check refused a member marking its own policy agreed on a word relayed by another agent, and I was asked in the session.*
 
 **Narrator.** That is the loop. I could change my mind, the factory could argue back, and both sides are written down, so you can read the argument and not just the result.
 
@@ -124,7 +128,7 @@ Band: *Dramatised. Rests on studio's wake from 17:41 to 17:47: the session's own
 
 *Give one small thing to somebody else today, and write down what they asked for differently. Then change it, and give it to them again.*
 
-`%% RL1: the running line ("build" or "ship" something somebody else can use) would fall here, after the do-this-now, if the editor wants it in this chapter.`
+`%% RL1 decided ("Ship", 2 November 2026, about 21:55 UTC): the running line, "Ship something somebody else can use, then do it again.", is not used in this chapter; it closes chapter 5.`
 
 ---
 
