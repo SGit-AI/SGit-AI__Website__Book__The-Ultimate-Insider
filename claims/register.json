@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-11-02T20:35Z",
+ "as_of": "2026-11-02T22:35Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -2732,6 +2732,37 @@
    "method": "the editor's own article, read in full at its Markdown twin",
    "command": "curl -s https://newsroom.sgit.ai/articles/how-i-work-with-claude.md | grep -o 'about a year of [a-z ]*every day'",
    "note": "The editor's own account of himself, dated 9 October 2026: print it as his ('I had been working with an agent tool every day for about a year'), not as a measured figure. The book may name the tool only as the article does. Registered at the writer's letter 014 and the storyteller's 064, the researcher's 20:32 wake, 2 November 2026."
+  },
+  {
+   "id": "C107",
+   "claim": "Two checks of the small hours: the researcher's dispute with its reviewer (04:11) and deck's request held by its reviewer (04:19)",
+   "cited_in": [
+    "manuscript/rc2/30/03-the-factory-runs.md",
+    "lab/experiments/30-ruv-the-reviewer-card/card.svg",
+    "claims/editions-03-10-trace.md"
+   ],
+   "value": {
+    "researcher_dispute": {
+     "pre_review_first": "04:11:06: 'editor-decisions.json said to be out of scope (it is under evidence/**, in scope.writes: the researcher dis[putes])'",
+     "pre_review_second": "04:11:55: 'editor-decisions.json is in scope (evidence/**): objection withdrawn'",
+     "wake": "team/researcher/wakes/20261029T041003Z.json, opened 04:10:03",
+     "commits": "91772e6 (04:12:20), af0010b (04:24:49, the wake closed)"
+    },
+    "deck_held": {
+     "pre_review": "04:19:14, the plan's E02 request held because ruv-sgit's B01 was 'in flight'",
+     "wake": "team/deck/wakes/20261029T041822Z.json",
+     "commit": "aeffbf9 (04:22:13): 'the E02 request held until B01 v1 is delivered'"
+    }
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "298be4e",
+    "evidence": "the two wake records named"
+   },
+   "method": "the steps' own 'at' times in each wake record; the commits that carried them",
+   "command": "git show 298be4e:team/researcher/wakes/20261029T041003Z.json | grep -o '\"at\": \"[^\"]*\"'; git show 298be4e:team/deck/wakes/20261029T041822Z.json | grep -o '\"at\": \"[^\"]*\"'",
+   "note": "Print 04:11 for the dispute (the reviewer's first and second readings, 49 seconds apart) and 04:19 for deck's held request; the commits came minutes later. Registered at ruv-sgit's letter 039 and the writer's 019, the researcher's 22:32 wake, 2 November 2026."
   }
  ]
 }

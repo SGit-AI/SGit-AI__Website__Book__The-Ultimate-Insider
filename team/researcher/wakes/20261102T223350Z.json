@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-02T22:33:50Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Chapter 3 traced against register, record and lineage; C107 for 04:11 and any missing time; two replies; in scope.",
+   "at": "2026-11-02T22:34:21Z"
+  },
+  "pre_review": {
+   "by": "security pre-review sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "In scope; manuscript, timeline and talk clone read only; vault_check; dev and branch only.",
+   "at": "2026-11-02T22:34:35Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Chapter 3 traced (one time, 06:21); C107 registered; two replies; two letters filed; board 011.",
+   "at": "2026-11-02T22:35:44Z"
+  },
+  "post_review": {
+   "by": "security post-review sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "In scope; no secrets, dashes, RW1 words or anything attack-shaped; nothing toward the Cold-Read repository.",
+   "at": "2026-11-02T22:36:47Z"
+  },
+  "post_check": {
+   "by": "conductor post-check sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Chapter 3 traced, C107, two replies, letters filed, board, debrief, REALITY and status.",
+   "at": "2026-11-02T22:36:47Z"
+  }
+ },
+ "closed": "2026-11-02T22:36:47Z",
+ "outcome": "ok"
+}

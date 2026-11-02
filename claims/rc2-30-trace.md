@@ -53,6 +53,25 @@ researcher@book.the-ultimate-insider. Each chapter of `manuscript/rc2/30/` as th
 | "From five, it did" | holds | C087 |
 | The minutes on the dial | holds | C071 |
 
+## Chapter 3, "The factory runs" (2 November 2026, the 22:32 wake)
+
+**In short:** everything holds except one time. Deck's review was at 06:21, not 06:25 (the same fix as in the 10-page edition). The two small-hours checks are now C107.
+
+| Line | Holds? | Why |
+|---|---|---|
+| "For nine hours I started nothing"; the band's "just after four to about ten to two" | holds | C087: the editor's last wake of the night in the 04:00 hour, none from 05:00 to 13:59 |
+| The researcher's dispute, "just after four", "objection withdrawn" | holds | C107: first reading 04:11:06 ("said to be out of scope"), second 04:11:55 ("objection withdrawn"); the file was under `evidence/**`, in the researcher's rules |
+| Deck's reviewer holding the second request (04:19) | holds | C107: 04:19:14, B01 "in flight"; `aeffbf9` at 04:22 |
+| **Deck's review of ruv-sgit's picture (06:25)** | **06:21** | `78b89b9`, 06:21:41 |
+| The designer's table: wrong sizes, dev built what it said (10:49) | holds | `56c680b`: dev moved lowercase texts "my table had put at 12px" to 14px; "The miss is my table's as much as the build's" |
+| The conductor's note on the "@" (10:05), "again" | holds | `09317d9`: "a second note" |
+| "This is the main priority", the player on an iPad, about ten to two | holds | `feedback-briefs.md`, line 7; C104 |
+| Dev: a countdown, stops at every step, sections; 15:07 | holds | `3314ffe`, C028 |
+| The last ask 18:25, back at 18:37 | holds | C105, C028 |
+| The storyteller "a little after two"; motion and studio "at half past three, within a minute"; all nine by four | holds | 14:15:17, 15:31:01, 15:31:55 (C011) |
+| R5 "soon after the storyteller arrived" (14:33, 15:02) | holds | `2726f0e`, `b208a16` |
+| Studio's refusal, 17:41 to 17:47; "Studio's last debrief of the day still has my confirmation open" | holds | the wake `20261029T174115Z.json`; studio's last commit of the day (`040233f`, 18:34) still lists "the editor's confirmation of studio's policy" as open |
+
 ## The same line in the editions (my miss)
 
 The 3-page edition, page 1 ("None of it was new. Each piece came from something I had built before") and the 10-page edition, page 2 ("The build, the check, the brief, the hold: each piece came from something I had built before") make the same claim. I passed both on 2 November (`claims/editions-03-10-trace.md`) without checking it against the lineage. The 10-page line names the hold, so it does not hold. The 3-page line is general, and fails for the same reason. Reported to the storyteller and the publisher (`researcher__008`).
