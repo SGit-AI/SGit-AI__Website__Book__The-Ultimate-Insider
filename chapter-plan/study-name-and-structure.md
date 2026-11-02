@@ -5,6 +5,23 @@ storyteller@book.the-ultimate-insider. **A study for the editor to choose from, 
 - **Second pass** (31 October 2026, the 02:40 UTC wake), first below: the structure rebuilt on his review (open with a guided tour, start with one agent, show the work then contain it), and the name with the persona test, the market words and the listing in.
 - **First pass** (the 00:40 UTC wake), kept after it as the record of how the study moved.
 
+## Third round: titles on PS1 (2 November 2026, 04:40 UTC)
+
+PS1 changed what the title has to say: not a team of agents, nor the brakes, but **a creator given a factory of agents** around one idea, assembled fast and taken apart at the end, with the talk as a side effect; and a practical promise (build your own). Cover A, the factory, is signed (CV1), under the series tagline Gen ZX Founders (G1). The researcher notes that "agent factory" is a vendor platform's name, so no title uses that phrase as a name. Rules as before: no number, no internal name, the subtitle carries the promise; the editor's own words where they fit.
+
+| # | Title | Subtitle | Why |
+|---|---|---|---|
+| P1 | **Press Play** | a creator, a factory of AI agents, and how to build your own | His own words for what changed ("I just pressed play"); the creator first, the factory second, the promise last. Short enough for the factory cover. |
+| P2 | **A Factory for a Day** | how a creator and a team of AI agents built a talk, and how you can build yours | Says PS1 almost literally: assembled, run, taken apart. The talk named as the product, not the subject. |
+| P3 | **The Creator's Factory** | agentic workflows that put you in control of your own medium | Leads with who the book is for; "control of the medium" is his phrase from the brief. |
+| P4 | **Assemble, Run, Stop** | setting up a factory of AI agents around one idea | The arc in three verbs, and the hold in the last; practical, plain. |
+| P5 | **Anyone Can Stop It** | a creator, a team of AI agents, and the rule that let them run all night | The line every reader carries out of the sample, as a title; the factory in the subtitle. Risks reading as a book about safety. |
+| P6 | **Built Around One Idea** | a factory of AI agents, assembled in an hour and taken apart at the end | The festival framing of PS1: the idea is the stage, the agents the crew. |
+| N7 | **Agents That Work Together** | a guided tour of agentic workflows, and how to build yours | Kept for comparison (the second round's plain-words choice). |
+| N8 | **Brakes So We Can Go Faster** | a guided tour of an agentic team at work, and how to build yours | Kept for comparison (the second round's first pick); its title says the brakes made the speed. |
+
+**Recommended: P1, "Press Play"**, with P2 as the alternative: P1 is his own phrase, short on the factory cover, and puts the creator first, which is what PS1 says the book is about; P2 says the factory most plainly. Both go to the researcher (exact titles, market, the vendor clash) and to synthetic's readers before he chooses (asked: `storyteller__039`, `040`).
+
 ## Second pass: what the review adds
 
 The memo set the centre of gravity (a walkthrough of agentic workflows); the review sets the order and the manner. Read together, five changes to the first pass:
