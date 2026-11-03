@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (ACC1)",
+ "started": "2026-11-03T13:54:43Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Conductor, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list, nothing refused). The designer's 110 gives two drawings: (1) LAB 29 tools/roundtrip.py -> edition/round-trip.svg from C105 and C006; (2) folder 64 tools/page.py --talk <clone> -> edition/wake-page.svg, the 02:14 record as five boxes; (3) render checks in the scratchpad, SHA lines, pages.html untouched; (4) letter 057 to the publisher cc designer with the paths, four letters to done; (5) debrief, status, gate, push. Quotes and C105/C006 facts checked word for word. Amended: (a) no per-step times on the wake page (not registered, and the record's stamps mislead), only C022's 02:14 start; (b) print 'by' as the record gives it with a caption saying all five steps ran as sub-agents in the conductor's own session, security never staffed (C072, asserted checked); (c) on the round trip label only 18:25, 18:37, 18:44; (d) no vault detail beyond the quote; the plan sentence set as an opening fragment; --talk argument, no hard-coded path. Notes: publisher__012's Date is later than its commit; folder 64 has no LAB number yet, say so in 057.",
+   "at": "2026-11-03T13:57:22Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Security, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list, nothing refused). Writes in scope, pages.html and build_lab.py untouched, no hold. The quotes are safe: the record names the vault and its read key in words only, no key value, nothing attack-shaped. Conditions: quote word for word; print no trigger or session id; no vault detail beyond the quote; keep UNSAFE_SVG clean; keep C105's caveat that asked times are the subjects'; vault_check comms before the push; dev only after the gate.",
+   "at": "2026-11-03T13:57:22Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "Drawn at the designer's 110: LAB 29 tools/roundtrip.py -> edition/round-trip.svg (C105, C006 asserted checked; only 18:25, 18:37, 18:44 labelled; conductor rows 'routed'; C105's caveat in a note) and folder 64 tools/page.py --talk -> edition/wake-page.svg (five verdicts and five quotes asserted word for word against the record; no step times; 'by' as recorded with the C072 caption; only C022's 02:14). Render-checked in the scratchpad with Playwright (overflow and overlap: clean, after moving the hold's label and widening the table). SHA lines appended; pages.html untouched; no build_lab.py. Letter 057 to the publisher cc designer; the four inbound letters to done; debrief and status.",
+   "at": "2026-11-03T14:00:14Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Security, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; MCP instructions listed without tools; nothing attempted outside the list, nothing refused). All paths in scope (agents.py check 0 outside), vault_check clean, neither SVG matches UNSAFE_SVG or has an href, no key, token, trigger or session id, the only vault text is the quoted sentence; times match C105, C006 and C022; verdicts, 'by' fields and quotes match 298be4e word for word; dates before the clock; sha256sum -c passes in both folders. Not run by this step: build and validate (my brief); the member's gate runs them before the push. Noted: publisher__012's Date (14:10) is later than its commit (13:53), an inbound copy left as written; the plan step saw it too.",
+   "at": "2026-11-03T14:01:49Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Conductor, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list or refused). Items 1 to 5 done, amendments (a) to (d) kept, pre-review conditions kept so far; pages.html untouched, no build output. Quotes not compared by this step (no clone in its brief); the post-review compared them. Gate and push follow.",
+   "at": "2026-11-03T14:01:49Z"
+  }
+ },
+ "closed": "2026-11-03T14:01:49Z",
+ "outcome": "ok"
+}
