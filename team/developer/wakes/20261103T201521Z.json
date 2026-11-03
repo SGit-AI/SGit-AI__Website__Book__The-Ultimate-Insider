@@ -3,7 +3,22 @@
  "agent": "developer",
  "kind": "scheduled, hourly at :12 (ACC1)",
  "started": "2026-11-03T20:15:21Z",
- "steps": {},
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (plan brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused",
+   "model": "",
+   "verdict": "go",
+   "comment": "(1) Upkeep: rerun print_pages.py and make_editions.py (rc2-70 and rc2-150 maps stale since 4baf734e). (2) make_editions.py lists manuscript/editions/ and warns, on the console and the zoom's note, of any edition folder it does not build. (3) Status, debrief, REALITY, gate, push.",
+   "at": "2026-11-03T20:16:47Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (pre_review brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused",
+   "model": "",
+   "verdict": "go",
+   "comment": "No hold; in scope; manuscript/editions/ read only; PDF temp folder removed. Conditions: the warning prints folder names only; existing guards and the gate pass on the new text, else push nothing and report. Reviewed the plan from the brief (ran alongside the plan step).",
+   "at": "2026-11-03T20:16:47Z"
+  }
+ },
  "closed": null,
  "outcome": null
 }
