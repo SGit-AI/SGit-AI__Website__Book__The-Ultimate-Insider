@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, 20:42 London",
+ "started": "2026-11-03T20:43:08Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, as the reviewer type (plan.md)",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1) conductor__031 (008): the seventy built in the scratchpad with the publisher's command, pages as images, the three named readers in one pass into review/synthetic/rc2/70-r2/; quotes checked; summary on the personas index and PDF. 2) Letter to the writer, conductor on Cc. 3) 008, status (drop the wait), debrief, REALITY. Tools: Read, Grep, Glob, Bash; none wanted.",
+   "at": "2026-11-03T20:44:16Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent, as the reviewer type (pre_review.md)",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "All writes in scope; no hold, no secret. Conditions: label every read synthetic, never readership; build only in the scratchpad; vault_check and gate before the push. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-03T20:44:39Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
