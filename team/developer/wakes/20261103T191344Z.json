@@ -3,7 +3,43 @@
  "agent": "developer",
  "kind": "scheduled, hourly at :12 (ACC1)",
  "started": "2026-11-03T19:13:44Z",
- "steps": {},
- "closed": null,
- "outcome": null
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (plan brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused",
+   "model": "",
+   "verdict": "go",
+   "comment": "Idle was proposed, but the step found work: manuscript/editions/rc2-150 (the full book's draft, 21 chapters, 185 record lines) is built nowhere online, so 'every edition online' was untrue. Plan changed: make_editions.py adds rc2-150 (pages, record, data, page view by scene), print_pages.py its printed pages as release.yml builds it, and the zoom's rung; status, debrief, REALITY, gate, push.",
+   "at": "2026-11-03T19:15:04Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (pre_review brief, re-run on the changed plan), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused",
+   "model": "",
+   "verdict": "go",
+   "comment": "The changed plan (rc2-150 online) is in scope. Conditions: through make_editions.py's existing guards (no %%, URLs only on the two hosts, no outside address in a QR target); the PDF build in mkdtemp with rmtree; outside names in the chapters (newsroom.sgit.ai, wardleymaps.com, claude.ai) stay plain text. The 21 chapters hold no key, contact detail or attack-shaped content.",
+   "at": "2026-11-03T19:16:02Z"
+  },
+  "work": {
+   "by": "developer@book.the-ultimate-insider",
+   "model": "",
+   "verdict": "done",
+   "comment": "In 4acaa821: rc2-150 online (21 chapters, 185 scenes, 1277 links), page view from its PDF (94 pages, 89 shown), editions.json 5 editions, 314 QR targets, zoom rung; all guards passed; Chromium: no errors, no outside requests.",
+   "at": "2026-11-03T19:20:38Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (post_review brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused",
+   "model": "",
+   "verdict": "clean",
+   "comment": "4acaa821 clean: 34 files in scope; no keys, contacts, em-dashes or religious words; publishing/ and manuscript/ unchanged; no %% in rc2-150 pages or the JSON; links only to github.com/SGit-AI and the book; 315 QR URLs on the book's domain; outside names as text only. Not run at the developer's word: validate and agents check (a) the brief asks, b) the pre-push gate covers it, c) scope checked by hand).",
+   "at": "2026-11-03T19:22:13Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (post_check brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Every item of the changed plan in 4acaa821; nothing unplanned; gate clean (800), 0 outside scope. Stale bookkeeping it named, corrected before close: status pages gains rc2-150, make_editions.py's 'Writes only' header names the rc2-150/ folder (a comment, no code).",
+   "at": "2026-11-03T19:22:13Z"
+  }
+ },
+ "closed": "2026-11-03T19:22:13Z",
+ "outcome": "ok"
 }
