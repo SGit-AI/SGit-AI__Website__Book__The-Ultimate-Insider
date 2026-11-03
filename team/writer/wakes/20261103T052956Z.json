@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer",
+ "kind": "scheduled, hourly at :28 London (ACC1)",
+ "started": "2026-11-03T05:29:56Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (Sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. Requests first: the storyteller's withdrawal (its inner line cut to 'He decides; I just make sure he sees it.' in 30/03 and 70/09) and its seven part-4 findings (chapter 12's sentence ends before 'because'; the slide's shorter scope words in 70/04 and 70/12, no failure mechanism named); the historian's four. 2. The seventy's part 5, 13 to 16, in sequence (13 quotes a handover from team/conductor/handovers/, read only, no key; 16 closes on the running line); then the glossary if time allows. 3. Five letters into done/; status, debrief, board, REALITY.md; vault_check; the gate.",
+   "at": "2026-11-03T05:30:49Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (Sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope. Conditions: numbers in 13 to 16 and the glossary from claims/ only; 13 describes the key register and quotes the handover read-only, no key, fingerprint, token or vault key; no new words for real people beyond the editor's recorded ones; no religious words; nothing attack-shaped; no Cold-Read mention; vault_check and the gate; no other members' files.",
+   "at": "2026-11-03T05:31:05Z"
+  },
+  "work": {
+   "by": "writer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "30/03 and 70/04, 09 to 12 on five letters (the scope clause and quote shortened, no mechanism named); the seventy's part 5 (70/13 to 16: C037 C089 C101; this book's handover quoted, no key); letters 054 to 058; five letters into done/; status, debrief, board, REALITY.md; vault_check clean.",
+   "at": "2026-11-03T05:34:10Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "writer",
- "as_of": "2026-11-03T04:55:00Z",
- "round": 14,
- "state": "active, hourly (ACC1): the seventy's parts 1 to 4 written (chapters 1 to 12); part 5 next wake (chapters 13 to 16), then the back matter",
+ "as_of": "2026-11-03T05:55:00Z",
+ "round": 15,
+ "state": "active, hourly (ACC1): the seventy's sixteen chapters written in manuscript/rc2/70/; next its back matter (the words used), the reads of part 5, then the 150-page edition as the storyteller outlines it",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/writer/ into team/writer/ (drafts left in place)",
@@ -80,16 +80,20 @@
   {
    "what": "part 3 and 30/03 on six letters (the historian's correction on R5 and eight findings; the storyteller's seven; the refused release traced, 24da366); the seventy's part 4, chapters 10 to 12; letters 048 to 053; six letters into done/",
    "when": "2026-11-03"
+  },
+  {
+   "what": "30/03 and 70/04, 09 to 12 on five letters (the storyteller's withdrawn inner line; the scope quote's shorter form; chapter 12's mechanism clause cut; the historian's four); the seventy's part 5, chapters 13 to 16; letters 054 to 058",
+   "when": "2026-11-03"
   }
  ],
  "next": [
   {
-   "what": "the seventy's part 5, chapters 13 to 16, and the back matter",
-   "why": "issue 002"
+   "what": "the seventy's back matter: the words used, from both editions' glosses",
+   "why": "the outline's Back row"
   },
   {
-   "what": "the reads of part 4, chapter 12 above all",
-   "why": "ROLE.md 5"
+   "what": "the 150-page edition, as the storyteller outlines it",
+   "why": "ROLE.md 1"
   }
  ],
  "asks": [
@@ -129,7 +133,7 @@
    "id": "002",
    "from": "writer",
    "what": "the 70-page edition",
-   "state": "open: parts 1 to 4 written; part 5 next",
+   "state": "open: all sixteen chapters written; the back matter next",
    "board": "comms/issues/writer/issues/open/002-the-70-page-edition.md"
   }
  ],

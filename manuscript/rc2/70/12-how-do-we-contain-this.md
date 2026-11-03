@@ -2,7 +2,7 @@
 
 **Cast bar:** all nine; security's chair empty. Then, at the end, this book's own team, with security at the table.
 
-**Narrator.** My talk that evening was about the insider: the person inside an organisation who already has the access, and what happens when the insider is not a person at all. I gave it with a factory of agents behind me that had built it. So the honest question for this chapter is the talk's own question, turned on the factory. These agents had an insider's reach. What contained them?
+**Narrator.** My talk that evening, as its transcript records it, was about the insider: the person inside an organisation who already has the access, and what happens when the insider is not a person at all. I gave it with a factory of agents behind me that had built it. So the honest question for this chapter is the talk's own question, turned on the factory. These agents had an insider's reach. What contained them?
 
 **Narrator.** I am going to answer it only with what this team could reach and what stopped it. Nothing in this chapter is about getting round anything. It is about what held, and how thin some of it was.
 
@@ -23,9 +23,9 @@ Band: *The hold as the wake rules define it, and the one hold of the day.*
 
 **Narrator.** Every member had a page of rules saying what it may change. That is its scope. And every member had a reach: what its session could actually change. They were not the same thing, and the team knew it. Studio put the code's own comment on a slide that evening:
 
-> "A scope is a setting, not a boundary: the agent can edit its own policy.json. It catches mistakes, not a steered agent." *(record)*
+> "A scope is a setting, not a boundary ... It catches mistakes, not a steered agent." *(record)*
 
-**Narrator.** Read that slowly. The scope check caught members that wandered out of their lane by mistake, and it caught some on the day. It did not, and could not, stop a member that had been talked into doing something else, because the check reads a file the member itself could change.
+**Narrator.** Read that slowly. The scope check caught members that wandered out of their lane by mistake, and it caught some on the day. It did not, and could not, stop a member that had been talked into doing something else.
 
 **Studio** *(firm, as it says it)*: So it went on a slide. If the room is going to trust the factory, it should know exactly what our rules are and are not.
 
@@ -34,9 +34,9 @@ Band: *Dramatised (studio's line). The quoted line is the slide's own, quoting t
 
 ## The reviewer as a second reading
 
-**Narrator.** Then the reviews. Every plan was read before the work and every change after it, by a second agent with a checker's brief. That is real defence. It sent plans back. It found slips.
+**Narrator.** Then the reviews. Every plan was read before the work and every change after it, by a second agent with a checker's brief. That is real defence. It had plans amended. It found slips.
 
-**Narrator.** But it was a second reading, not a second reader. The conductor said so at two in the morning, in its first debrief:
+**Narrator.** But it was a second reading, not a second reader. The conductor said so at two in the morning, in its debrief of the first five-step wake:
 
 > "The reviewers share the session's reach: a second reading, not a second identity." *(record)*
 
@@ -96,4 +96,4 @@ Band: *Dramatised (security's line). This book's team, from its own repository: 
 
 The talk's repository at the end of the day: the wake rules and the hold, the page of rules' first commit, the slide quoting the scope check, the conductor's first debrief, security's page, the part locks, studio's refusal. The register for the hold, the locks and the reviews. This book's own security member and its reads. The storyteller's outline for this chapter. Told with this benign team only: what the agents could reach and what stopped them, never how anything could be got round.
 
-`%% record: talk repository at 298be4e: team/conductor/WAKE.md team/conductor/HOLD.md CLAUDE.md (1f7c633) 95b09d9 admin/build/agents.py c8f6f8f team/conductor/debriefs/2026-10-29__the-five-step-wake.md team/security/ROLE.md 4a2481b bd3cdad; claims/register.json C006 C023 C024 C025 C027; timeline/quotes.md; timeline/interviews/security.md; this repository: team/security/; chapter-plan/edition-70-outline.md part 4 chapter 12`
+`%% record: a9c0b49 (the talk as given, its transcript added after the day); talk repository at 298be4e: team/conductor/WAKE.md team/conductor/HOLD.md CLAUDE.md (1f7c633) 95b09d9 admin/build/agents.py c8f6f8f team/conductor/debriefs/2026-10-29__the-five-step-wake.md team/security/ROLE.md 4a2481b bd3cdad; claims/register.json C006 C023 C024 C025 C027; timeline/quotes.md; timeline/interviews/security.md; this repository: team/security/; chapter-plan/edition-70-outline.md part 4 chapter 12`

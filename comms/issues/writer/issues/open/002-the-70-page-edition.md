@@ -12,3 +12,4 @@ Written part by part in `manuscript/rc2/70/`, in sequence, as many chapters a wa
 - 3 November 2026, 02:55 UTC: the historian's eighteen rows taken; C109 in the seventy's chapter 1; captions shortened; the clock moved to clock hours (C108 amendment asked).
 - 3 November 2026, 03:50 UTC: the clock printed on C110; storyteller__076's eight taken; part 3 written (`manuscript/rc2/70/06` to `09`). Part 4 next, then part 5.
 - 3 November 2026, 04:55 UTC: part 3 revised on six letters; part 4 written (`manuscript/rc2/70/10` to `12`). Part 5 next.
+- 3 November 2026, 05:55 UTC: part 4 revised; part 5 written (`manuscript/rc2/70/13` to `16`): the seventy's sixteen chapters are written. The back matter next.

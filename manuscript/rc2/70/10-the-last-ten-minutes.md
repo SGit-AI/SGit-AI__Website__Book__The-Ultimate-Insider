@@ -1,6 +1,6 @@
 # The last ten minutes, and the hold
 
-**Cast bar:** all nine. Security's chair, planned at midnight, is empty, and drawn so.
+**Cast bar:** all nine. Security's chair, planned in the first hour, is empty, and drawn so.
 
 ## The last ten minutes
 
@@ -16,7 +16,7 @@
 
 **Narrator.** Here is what the factory was doing in the ten minutes before I stopped it.
 
-**Narrator.** The talk was planned in three parts, and each part was meant to be locked when it was final, so that nothing could change it on stage. Dev had built a tool for that late in the afternoon. Part 1 had been unchanged since half past six, the time planned for its lock. At 18:36 the conductor came to it in its wake, and did not turn it.
+**Narrator.** The talk was planned in three parts, and each part was meant to be locked when it was final, so that nothing could change it on stage. Dev had built a tool for that late in the afternoon. Part 1 had been unchanged since half past six, the time planned for its lock; at 18:26 I had moved its cut-off to seven. At 18:36 the conductor came to it in its wake, and did not turn it.
 
 **Conductor** *(on the minute, hands off)*: The lock is dev's. It is in dev's rules, not mine, and once it is turned it cannot be undone. I leave it to dev.
 
@@ -59,7 +59,7 @@ Band: *Dramatised. Rests on the conductor's wake at 18:36, the player's last fix
 
 **Figure:** the wake clock from part 2, every member's minute greyed, and one small file on top of it; beside it, a card with what landed after the hold and its gap in seconds.
 
-`%% record: C006 C024 C100 C065 C005 867f8c2 (18:44:13) team/conductor/HOLD.md at 298be4e 88b8f00 (18:45:35, the designer: "part 2 on a projector, checked before the 19:30 lock: ready") cb5b996 (18:46:22)`
+`%% record: C006 C024 C100 C065 C005 867f8c2 (18:44:13) team/conductor/HOLD.md at 298be4e (its title line and its line "What lifts it", quoted with the file's bold and bullet marks dropped) 88b8f00 (18:45:35, the designer: "part 2 on a projector, checked before the 19:30 lock: ready") cb5b996 (18:46:22)`
 Band: *Dramatised. Rests on the hold at 18:44:13, in my own words through the conductor, and the hold file as written; the designer's commit at 18:45:35 and the last release at 18:46:22; the talk due at 19:00.*
 
 **Narrator.** The hold had been there all day. It was used once. Anyone on the team could stop everything. Only I could start it again. That is why I could let them run through the night.

@@ -2,7 +2,7 @@
 
 **Cast bar:** all nine, after the hold; security's chair empty. Off the clock now.
 
-**Narrator.** This chapter has no clock in the margin. The day is over; what is left is the accounting. I want it at full size, because the failures are the useful part, and because a book about a factory that only shows what worked would be a brochure.
+**Narrator.** This chapter has no clock in the margin. The day is over; what is left is the accounting. `%% for the editor: "I want it at full size ... a brochure." is the writer's reading of his view; his to keep or drop.` I want it at full size, because the failures are the useful part, and because a book about a factory that only shows what worked would be a brochure.
 
 ## Why stop then: three answers
 
@@ -12,11 +12,11 @@
 
 **Narrator.** In the early hours of 31 October, two days later: the 95% was a footnote. I could have moved to another session. The real reason was that we had no tested way to take in changes during the talk: no way to see what was new, and no workflow that made sure nothing would break. That is why I had been thinking about locking the first version.
 
-**Narrator.** That evening, on 31 October: the 95% was the token usage.
+**Narrator.** That evening, on 31 October: "The 95%, I think, was the tokens usage." The record cannot show what the 95% measured; I said all three, and the register keeps them as said.
 
 `%% for the editor: the last two sentences of this paragraph ("What they share ... show.") are the writer's reading across his three accounts; his to keep or drop.`
 
-**Narrator.** I am not going to pick one for you now. They were said at different times, for different reasons, and the record holds all three. What they share is the part that matters for your own factory: I stopped it before it could change the thing I was about to stand up and show.
+**Narrator.** The book keeps all three. They were said at different times, for different reasons, and the record holds all three. What they share is the part that matters for your own factory: I stopped it before it could change the thing I was about to stand up and show.
 
 **Figure:** three speech cards from the same figure, the editor, each with its date: 29 October, 18:44; 31 October, early hours; 31 October, evening.
 
@@ -47,7 +47,7 @@ Band: *My three accounts, as the register holds them; the later two were given a
 
 **Storyteller** *(still rueful, then practical)*: A slot every hour is fine until the decisions come faster than the slots.
 
-**Narrator.** And one miss, and what it cost. In the night I froze the slides, and five minutes later the researcher proposed a correction to a figure on them: the average annual cost of insider risk. The figure had been on the definition slide since the first pass at 00:40. When the freeze lifted, for the framing only, nobody carried the correction back in, and the out-of-date figure stayed on the slide in the talk. The checks found it; the freeze hid it.
+**Narrator.** And one miss, and what it cost. In the night I froze the slides, and five minutes later the researcher proposed a correction to a figure on them: the average annual cost of insider risk. The figure had been on the definition slide since the first pass at 00:40. When the freeze lifted, for the framing only, nobody carried the correction back in, and the out-of-date figure was still on the slide at the end of the day. The researcher found the newer figure at its source; nobody owned carrying the correction across the lift.
 
 **Narrator.** The lesson for your first week: when you freeze something, write down what is waiting to go in when you unfreeze it.
 
@@ -55,7 +55,7 @@ Band: *My three accounts, as the register holds them; the later two were given a
 
 `%% record: C031 (on stage $17.4M, Ponemon for DTEX, 2025 edition; at source in 2026, US$19.5M; correction proposed a082c52, 02:52; the freeze 02:47)`
 
-**Narrator.** The talk's own register of claims, built that evening, graded every claim it made: 320 of them. 210 held, 55 held in part, 52 were not checked, and three did not hold. None of those three was said on stage.
+**Narrator.** The talk's own register of claims, built that evening, graded every claim it made: 320 of them. 210 held, 55 held in part, 52 were not checked, and three did not hold. No beat of the talk carries any of the three.
 
 **Narrator.** Where they were: one in the article only, one on no beat or slide at all, one in the story tree only.
 

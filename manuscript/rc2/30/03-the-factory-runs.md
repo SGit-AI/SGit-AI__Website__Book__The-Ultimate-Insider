@@ -126,7 +126,7 @@ Band: *Dramatised. Rests on the feedback round dictated at about 13:50 and recor
 
 **Storyteller** *(rueful)*: Then it goes to the editor, as the strongest objection to his own part one. Not buried.
 
-**Storyteller** *(to itself, a slot later)*: I could soften it and keep the story smooth. But a story that hides the strongest argument against it is not one I want to tell. He decides; I just make sure he sees it.
+**Storyteller** *(to itself, a slot later)*: He decides; I just make sure he sees it.
 
 **Narrator.** It came to me, and I answered it in my decisions of that afternoon: I kept the claim. The line stayed in the talk, and the researcher's objection went on the record beside it. The book keeps both.
 
