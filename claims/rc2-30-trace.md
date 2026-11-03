@@ -104,6 +104,26 @@ researcher@book.the-ultimate-insider. Each chapter of `manuscript/rc2/30/` as th
 | "I said to keep the pace" | holds | the same brief: "Keep the current pace which is good" |
 | The Web Summit team, "a plan, not yet run" | holds | as in the editions |
 
+## Chapter 6, the series page (3 November 2026, the 01:32 wake)
+
+It holds. The words are the 10-page edition's, as traced on 2 November (G1, signed 31 October). It has no number.
+
+## The clock lines (3 November, the 01:32 wake)
+
+Every `%% clock:` line in chapters 1 to 4 puts its times in the hour the rule gives (hour N from 00:16 plus N minus one hours, C108). "My last request of the night at 04:03" holds: the designer's wake opened at the editor's request at 04:02:56 (`timeline/triggers.md`, C087). The stats per hour are in `claims/the-clock.md`.
+
+## The seventy (RC2's 70-page edition), parts 1 and 2: the writer's first asks (3 November, the 01:32 wake)
+
+| Line | Holds? | Why |
+|---|---|---|
+| "In the last hour and a half before the talk, I made eight asks that carry my own time" | holds | C105: 17:27 to 18:25, the talk due at 19:00 |
+| "The first four went through the conductor, each routed within a few minutes" | holds | 2 min 41 s to 4 min 22 s |
+| "ten past six was in at quarter past" | holds | 18:10, `12e93db` at 18:14:14 |
+| "quarter past six was in within a minute" | holds | 18:15, `013d97e` at 18:15:58 |
+| "The last, at 18:25, took twelve minutes, and landed at 18:37" | holds | `dbd75ad`, 18:37:02 |
+| 58 beats; 162 wake records (the page's counter says 163); 439 agents' commits, not counting merges | holds | C015, C022, C014; the book gives the register's 162 |
+| The second moment from the talk | registered | C109, 58:53; put C072 beside "every agent I had" |
+
 ## The same line in the editions (my miss)
 
 The 3-page edition, page 1 ("None of it was new. Each piece came from something I had built before") and the 10-page edition, page 2 ("The build, the check, the brief, the hold: each piece came from something I had built before") make the same claim. I passed both on 2 November (`claims/editions-03-10-trace.md`) without checking it against the lineage. The 10-page line names the hold, so it does not hold. The 3-page line is general, and fails for the same reason. Reported to the storyteller and the publisher (`researcher__008`). Fixed in both built editions by 3 November, 00:35 (`8a1cfa3`).

@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-11-03T00:37Z",
+ "as_of": "2026-11-03T01:42Z",
  "round": 1,
- "state": "active: RC2 traces as the writer sends (chapters 1 to 5 done); 009 blocked",
+ "state": "active, hourly: RC2 traces as the writer sends (the thirty done; the seventy begun); 009 blocked",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -235,6 +235,13 @@
     "writer/researcher__005",
     "designer/researcher__006"
    ]
+  },
+  {
+   "what": "the clock (C108), the series page, the seventy's first asks, the second moment (C109)",
+   "when": "2026-11-03T01:42Z",
+   "letters": [
+    "writer/researcher__006"
+   ]
   }
  ],
  "next": [
@@ -275,7 +282,7 @@
  ],
  "task": {
   "id": "trig_01Q1gWPQbdrBw3xwfRdVEGph",
-  "cron": "CRON_TZ=Europe/London 32 */2 * * *",
+  "cron": "CRON_TZ=Europe/London 32 * * * *",
   "session": "session_01Kw9UwBhzn98NK3Ydio5nEP",
   "created": "2026-10-30T13:16:32Z",
   "prompt": "team/conductor/schedule.json, runs entry for researcher, word for word",
@@ -284,7 +291,7 @@
    "session": "session_01Kw9UwBta1dcP9qBJUURLPZ",
    "state": "paused on the first account at the editor's word, about 10:50 UTC"
   },
-  "changed": "2026-11-02T09:33:57Z, back to the active schedule (WAKE.md Cadence 4): thirteen letters, ED1 and the writer"
+  "changed": "2026-11-03T01:18:35Z, every hour, by the conductor at the editor's word (ACC1, briefs/2026-11-03__in-session/04); not to idle until he ends the pace"
  },
  "issues": [
   {
@@ -519,5 +526,5 @@
    "reply": "the designer's mailroom, researcher__ letter of 09:45"
   }
  ],
- "cadence": "active"
+ "cadence": "hourly (ACC1)"
 }

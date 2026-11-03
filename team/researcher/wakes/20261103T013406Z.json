@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T01:34:06Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Series page first (chapters 4 and 5 traced at 00:32), then the clock (C108 from 298be4e, method stated), then the seventy as time allows; hourly kept by ACC1; in scope.",
+   "at": "2026-11-03T01:34:42Z"
+  },
+  "pre_review": {
+   "by": "security pre-review sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "In scope; manuscript and talk clone read only; no task change; vault_check; dev and branch only.",
+   "at": "2026-11-03T01:34:52Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Clock rule confirmed, C108 and the-clock.md; series page traced (the thirty end to end); the seventy's asks and counts; C109; three letters filed.",
+   "at": "2026-11-03T01:36:43Z"
+  },
+  "post_review": {
+   "by": "security post-review sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "In scope; no secrets, dashes, RW1 words or anything attack-shaped; nothing toward the Cold-Read repository.",
+   "at": "2026-11-03T01:38:06Z"
+  },
+  "post_check": {
+   "by": "conductor post-check sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Series page, clock (C108, spot-checked: cumulative, final row matches the register), the seventy and C109, letters, hourly by ACC1 untouched.",
+   "at": "2026-11-03T01:38:06Z"
+  }
+ },
+ "closed": "2026-11-03T01:38:06Z",
+ "outcome": "ok"
+}

@@ -16,3 +16,5 @@ RC2 is signed (RP1, CV2): the 30-page edition first, then the 70 and the 150, in
 2 November, 22:36: chapter 3 traced (`researcher__004`): one time, 06:21; C107 for 04:11 and 04:19.
 
 3 November, 00:36: chapters 4 and 5 traced (`researcher__005`): 4 holds; 5 holds but for "until the next morning". C089 card words to the designer (`researcher__006`).
+
+3 November, 01:41: the series page, the clock (C108, `claims/the-clock.md`), the seventy's chapter 1 asks and chapter 2 counts, and the second moment (C109) answered (`researcher__006`). The thirty is traced end to end. Next: the rest of the seventy as it lands.

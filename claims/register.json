@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-11-02T22:35Z",
+ "as_of": "2026-11-03T01:40Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -2763,6 +2763,232 @@
    "method": "the steps' own 'at' times in each wake record; the commits that carried them",
    "command": "git show 298be4e:team/researcher/wakes/20261029T041003Z.json | grep -o '\"at\": \"[^\"]*\"'; git show 298be4e:team/deck/wakes/20261029T041822Z.json | grep -o '\"at\": \"[^\"]*\"'",
    "note": "Print 04:11 for the dispute (the reviewer's first and second readings, 49 seconds apart) and 04:19 for deck's held request; the commits came minutes later. Registered at ruv-sgit's letter 039 and the writer's 019, the researcher's 22:32 wake, 2 November 2026."
+  },
+  {
+   "id": "C108",
+   "claim": "The day hour by hour, for the margin clock: commits, wakes and members on stage at the end of each hour from the empty repository",
+   "cited_in": [
+    "claims/the-clock.md",
+    "manuscript/rc2/30",
+    "manuscript/rc2/70"
+   ],
+   "value": {
+    "rule": "hour N runs from 00:16 + (N-1) h to 00:16 + N h (from the first commit, C001); the hold at 18:44 and the talk due at 19:00 fall in hour 19",
+    "columns": [
+     "hour",
+     "ends",
+     "all commits so far",
+     "agents' commits so far (incl. merges)",
+     "agents' commits so far (not merges)",
+     "wakes opened so far",
+     "members on stage"
+    ],
+    "rows": [
+     [
+      1,
+      "01:16",
+      18,
+      15,
+      11,
+      0,
+      4
+     ],
+     [
+      2,
+      "02:16",
+      67,
+      48,
+      33,
+      1,
+      5
+     ],
+     [
+      3,
+      "03:16",
+      129,
+      93,
+      67,
+      13,
+      5
+     ],
+     [
+      4,
+      "04:16",
+      185,
+      134,
+      95,
+      25,
+      6
+     ],
+     [
+      5,
+      "05:16",
+      207,
+      150,
+      109,
+      31,
+      6
+     ],
+     [
+      6,
+      "06:16",
+      228,
+      165,
+      122,
+      37,
+      6
+     ],
+     [
+      7,
+      "07:16",
+      249,
+      181,
+      136,
+      43,
+      6
+     ],
+     [
+      8,
+      "08:16",
+      270,
+      196,
+      149,
+      49,
+      6
+     ],
+     [
+      9,
+      "09:16",
+      297,
+      217,
+      166,
+      55,
+      6
+     ],
+     [
+      10,
+      "10:16",
+      317,
+      231,
+      177,
+      61,
+      6
+     ],
+     [
+      11,
+      "11:16",
+      338,
+      245,
+      188,
+      66,
+      6
+     ],
+     [
+      12,
+      "12:16",
+      360,
+      260,
+      200,
+      72,
+      6
+     ],
+     [
+      13,
+      "13:16",
+      387,
+      279,
+      214,
+      78,
+      6
+     ],
+     [
+      14,
+      "14:16",
+      412,
+      296,
+      228,
+      86,
+      7
+     ],
+     [
+      15,
+      "15:16",
+      478,
+      345,
+      263,
+      100,
+      7
+     ],
+     [
+      16,
+      "16:16",
+      562,
+      410,
+      309,
+      114,
+      9
+     ],
+     [
+      17,
+      "17:16",
+      641,
+      472,
+      355,
+      133,
+      9
+     ],
+     [
+      18,
+      "18:16",
+      764,
+      567,
+      416,
+      154,
+      9
+     ],
+     [
+      19,
+      "19:16",
+      814,
+      603,
+      439,
+      162,
+      9
+     ]
+    ],
+    "agrees_with": "at the end of hour 19: 814 (C004), 603 (C003), 439 (C014), 162 (C022), 9 (C011)"
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "298be4e",
+    "evidence": "git log (commit time, author, parents); team/*/wakes/20261029T*.json (each record's opening time from its name); first commits by member (C011)"
+   },
+   "method": "for each hour's end: count commits with commit time before it (all; author Claude; author Claude with one parent), wake records opened before it, and members whose first commit is before it",
+   "command": "see claims/the-clock.md, 'How to rerun'",
+   "note": "All commits include CI's release commits; the agents' are author Claude. 'Members on stage' counts first commits (dev 00:40, conductor 00:44, deck 00:51, ruv-sgit 01:08, researcher 01:52, designer 03:41, storyteller 14:15, motion and studio 15:31). Hour 19 ends at 19:16, but nothing was committed after 18:46 before 19:00 (C005). Registered at the writer's letter 036 and the conductor's 047 (the editor's clock in the margin), the researcher's 01:32 wake, 3 November 2026."
+  },
+  {
+   "id": "C109",
+   "claim": "A second moment in the talk as given: the policy review page, at 58:53",
+   "cited_in": [
+    "manuscript/rc2/70/01-slides-as-a-compromise.md",
+    "comms/mail/mailroom/writer/researcher__006-the-clock-and-the-seventy.eml"
+   ],
+   "value": {
+    "at": "58:53 in the transcript (the recording's own clock)",
+    "beat": "s-port-abp-review (the studio's port of the policy review page)",
+    "words": "What you see now is what I did when I was onboarding my team, the team that built this slide deck. This one, for example, is for ruv.sgit, the agent that builds animations. It has a policy. I now use QR codes to communicate: the agent asks for what it wants, and I have to approve it, change it or question it, and in the end I give that to the agent as its mandate. I was able to do this for every agent I had, and define the scope of what each one can do, which again is extremely powerful."
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "a9c0b49 (added after the day)",
+    "evidence": "content/articles/the-talk-as-given.md, section id 's-port-abp-review'"
+   },
+   "method": "read the transcript passage at 58:53",
+   "command": "git show a9c0b49:content/articles/the-talk-as-given.md | grep -n 'id=\"s-port-abp-review\"'",
+   "note": "His words on stage, from the generated transcript (C069): print them as said. 'I was able to do this for every agent I had' is his account: the record shows ruv-sgit's agreed item by item (02:15), and by the end of the day 8 of 10 policies agreed, studio's in draft and security's never staffed (C072, C081). Put C072 beside the quote, or end the quote before that sentence. Registered at the writer's letter 032, the researcher's 01:32 wake, 3 November 2026."
   }
  ]
 }
