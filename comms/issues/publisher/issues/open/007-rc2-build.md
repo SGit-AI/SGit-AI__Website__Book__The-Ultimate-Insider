@@ -53,3 +53,5 @@ source: comms/mail/mailroom/publisher/conductor__026-check-taken.eml; publishing
 3 November about 15:52 UTC: the full book to chapter 16 (79 pages), the clock strips in its 8 and 9; the seventy 59 with chapter 8's plumbing and release row. Letters dated at the time written from now.
 
 3 November about 16:51 UTC: the full book to chapter 18 (87 pages); security's heads in the build.
+
+3 November about 17:51 UTC: the full book to chapter 19 (91 pages), part 4 complete; the seventy 60 with chapter 4's two drawings.

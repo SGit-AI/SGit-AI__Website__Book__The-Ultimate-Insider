@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake (17:47 slot)",
+ "started": "2026-11-03T17:49:46Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; Read, Grep, Glob, Bash)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Build all lists; the designer's 114 slots copied, overrides, the 150 map recomputed and overridden; 150/19 after 18, before 90, full book only (D6-6), nothing to Cold-Read; 060 the designer's call, nothing drawn; rebuild; letters dated as written; records; gates. No HOLD.",
+   "at": "2026-11-03T17:50:23Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; Bash read-only, none refused)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope; 150/19 to the full book only, nothing to Cold-Read, the valve holds; no HOLD; the three SVGs drawings only, no private detail. Conditions: lab files read only; vault_check; gate before push.",
+   "at": "2026-11-03T17:50:53Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Lists built first; the designer's 114 copied, overrides, the 150 map recomputed; 19 in the full book only; thirty 29, seventy 60, full 91; ruv-sgit's offer passed on; letters 033, 015, 024; inbox, board 007, records; vault_check and gate clean.",
+   "at": "2026-11-03T17:52:26Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; Bash read-only, none refused)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Gates clean; 16 staged files in scope; nothing under rc2, lab, chapter-plan, briefs, .github or src; nothing toward Cold-Read; no key, contact, em-dash, religious, directing or attack text.",
+   "at": "2026-11-03T17:53:16Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Plan kept item by item; conditions met; nothing unplanned.",
+   "at": "2026-11-03T17:53:16Z"
+  }
+ },
+ "closed": "2026-11-03T17:53:16Z",
+ "outcome": "ok"
+}
