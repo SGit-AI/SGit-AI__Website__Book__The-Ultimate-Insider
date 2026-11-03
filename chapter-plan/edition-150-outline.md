@@ -1,6 +1,6 @@
 # The 150-page edition, the full book: outline for the writer, first sketch
 
-storyteller@book.the-ultimate-insider, 3 November 2026, the 06:40 UTC wake, for the writer's letter 060 (the seventy is complete). **An outline, not prose.** Parts 1 and 2 in full since the 07:40 UTC wake of 3 November, part 3 since the 09:40 UTC wake; parts 4 and 5 sketched. This is the book Leanpub publishes (LP1, the conductor's reading of the editor's words of 2 November, about 22:30 UTC). It rests on RP1 (the zoom ladder, signed 2 November) and D6-6 (the Cold-Read chapter in the full book only). Each part is outlined in full one or two per wake, in order; the writer writes behind them. The arc, the ladder and the rules are in `zoom-ladder.md`; the thirty and the seventy are its spine (`manuscript/rc2/30/`, `manuscript/rc2/70/`).
+storyteller@book.the-ultimate-insider, 3 November 2026, the 06:40 UTC wake, for the writer's letter 060 (the seventy is complete). **An outline, not prose.** Parts 1 and 2 in full since the 07:40 UTC wake of 3 November, part 3 since the 09:40 UTC wake, parts 4 and 5 and the back matter since the 10:40 UTC wake. All outlined. This is the book Leanpub publishes (LP1, the conductor's reading of the editor's words of 2 November, about 22:30 UTC). It rests on RP1 (the zoom ladder, signed 2 November) and D6-6 (the Cold-Read chapter in the full book only). Each part is outlined in full one or two per wake, in order; the writer writes behind them. The arc, the ladder and the rules are in `zoom-ladder.md`; the thirty and the seventy are its spine (`manuscript/rc2/30/`, `manuscript/rc2/70/`).
 
 ## How the full book grows from the seventy
 
@@ -172,9 +172,81 @@ The seventy's chapter 8 in its new order: **the register first**, then the check
 **Do this now:** the thirty's (give one small thing to somebody else today, and write down what they asked for differently).
 **Rests on:** `manuscript/rc2/70/06` to `09`; `timeline/day/05.md` to `17.md`; `timeline/cast-scenes.md` scenes 3 to 5; `timeline/quotes.md`; the historian's letters 021 and 022; the register C011, C023, C027, C087, C088, C095, C104, C105.
 
+## Part 4. The factory is stopped (beat 4), in full
+
+Outlined 3 November 2026, the 10:40 UTC wake. About thirty pages, four chapters; hour nineteen on the margin clock (18:00 to 18:59, CK1), then off it. The seventy's part 4 (`70/10` to `12`, after its reads) is its spine. **Told with this benign team only:** the insider argument is made from what these agents could reach and what stopped them; nothing that shows how to get round any control, as the seventy's chapter 12 now stands (security's letters 004 and 005).
+
+**Cast bar:** all nine; security's chair empty.
+
+### Chapter 16. Hour nineteen, minute by minute (about eight pages)
+
+From `timeline/day/18.md`:
+1. **The team racing its own locks, and the locks lose:** part 1 final at 17:52 and again at 18:20; the lock tool from 17:54; at 18:36 the conductor leaves the lock to dev (its scope, irreversible), at 18:39 asks dev to lock it now; the player's last fix lands at 18:37 (C027, C088). The conductor's two lines, kept from the seventy.
+2. **The hold** (18:44:13): his words *(record)*, the one file, sixteen minutes before the talk was due (C006, C024, C100).
+3. **The hold worked as designed, and it was not instant:** the designer's wake already in flight committed and released after it (18:45:35, 18:46:22; C065, C005); dev's wake closed on its branch at 18:48 without releasing (`timeline/unmerged.md`); deck's wake of 18:20 never closed at all (found first by the blind team; chapter 19). **A hold stops the next wake; it does not stop one already running.** The day's last finding, said plainly, as the record has it.
+4. **The locks overtaken by an outside limit** nobody on the team controlled: the usage limit as the second brake, from outside.
+
+**Show:** the hold file as a page; the dashboard still showing it. **Infographic:** the last ten minutes, every commit a dot, the open wakes as bars running past the hold.
+
+### Chapter 17. What did not work (about eight pages)
+
+The seventy's chapter 11, each miss at full length, each with its own debrief (dev's, deck's, the storyteller's, the researcher's), and **his three answers on why he stopped**, dated, the later two marked as after the day, his hedge kept (C089, open: the record cannot show what the 95% measured). Each miss its own card, not a wall of paragraphs (the readers' ask). The figure that reached a slide, told as C031 has it: the researcher found the error at source; nobody owned carrying the correction across the lift.
+
+### Chapter 18. How do we contain this (about seven pages)
+
+The seventy's chapter 12, as it now stands after security's two fixes: the hold as one state (running, held, released); rules and reach, with the slide's own words *(record, 18:11)*; the reviewer as a second reading; the locks that never closed; the team as the insider; "this time, security came" (the book's team, where security reads chapters on the rails as they land). One addition at this length: **chapter 16's last finding, called back:** a hold stops the next wake, not the running one; said as what the record shows, with no account of how anyone could use it.
+
+**Picture:** the state machine; the two brakes on the value chain.
+
+### Chapter 19. A second team, reading cold (about seven pages; the full book only, D6-6)
+
+The blind team (SGit-AI__Website__Cold-Read__The-Ultimate-Insider) read the same record, pinned to `298be4e`, without this book's briefs, timeline or team. **The one-way valve holds:** this chapter reads the blind team's published record; nothing from this repository went to it, and the only thing that ever crossed is the hand-off in `team/conductor/handoffs/`.
+1. **Where the two readings agree:** every time and commit both cite, to the second (`timeline/cold-read-comparison.md`).
+2. **What the blind team saw that this one did not:** who wrote the unnamed commits (dev's session trailer); a second wake open at the hold (deck's of 18:20); the designer's status saying part 1 was locked when it was not; a brief whose heading time is later than its commit; ruv-sgit's first vault deleted at his go (02:07); and that the record to `298be4e` holds the plan for 19:00, not the event. Each with the historian's note of when this book applied it.
+3. **What this book has that the blind team could not see:** the freeze recorded only in deck's reply file; the two commits that never reached `dev`; material added after the day.
+4. **What it means:** a second reading by a team that shares nothing but the record is the nearest the book has to "a second identity" (chapter 7's line, called back). Said as a finding, not a claim about all reviews.
+
+**Picture:** two timelines side by side, agreeing to the second, with the six places the blind one saw more marked. **Do this now (part 4):** the thirty's (who may stop your factory, who may restart it).
+**Rests on:** `manuscript/rc2/70/10` to `12`; `timeline/day/18.md`; `timeline/unmerged.md`; `timeline/cold-read-comparison.md`; `timeline/after-the-day.md`; the register C005, C006, C024, C027, C029, C030, C031, C065, C088, C089, C100; `book.json` D6-6.
+
+## Part 5. The factory rebuilt, and yours (beat 5), in full
+
+Outlined 3 November 2026, the 10:40 UTC wake. About twenty-five pages, four chapters, off the clock. The seventy's part 5 (`70/13`, `14`, `16`, in its new order) is its spine.
+
+**Cast bar:** the nine fade; this book's team; the reader's, empty.
+
+### Chapter 20. Sessions end (about five pages)
+
+The seventy's chapter 13, kept: what a session is; the handover; a key per session (described, never shown; the handover quoted for its rule only, never further, as security's letter 006 checked); his account of 31 October, in his paper review of the first draft (`49c701e`), cited as his and dated. At this length: one full handover walked through, this book's own (marked as this book's record), stopping before any line that prints a key or a session id.
+
+### Chapter 21. The second factory (about seven pages)
+
+The seventy's chapter 14's first half, at length: this book's team, each member with its trait and the rule it inherited; its own failures kept, as this book's record: the brake line refused and corrected (the storyteller's line first, the researcher's catch); the evening of 1 November lost to the usage limit (the conductor's brief, in its own words); one more, chosen by the historian from this book's history (for instance my own inner line withdrawn at security's word, 3 November). Every scene marked as this book's record, not the talk's.
+
+### Chapter 22. The third, planned (about four pages)
+
+**Said first: it has not run yet.** The Web Summit team as he described it; the three shared things day to day, flagged as the writer's reading of his plan until he says otherwise. Nothing told as a result.
+
+### Chapter 23. Principles, and build your own (about nine pages)
+
+The seventy's chapter 16 in its new order: each of the five steps opening with the principle it rests on ("Rests on"), the moment it came from, the shop owner's and the newsroom's pages of rules beside each other, the what-to-do and what-to-check lines (flagged for him), the cost line word for word (C101, C037), and the checklist as one printable page. The running line closes the chapter: **Ship something somebody else can use, then do it again.** Then "Where this came from", as every chapter ends.
+
+**Map:** one project's parts becoming the next's. **Infographic:** the five steps as a path.
+**Rests on:** `manuscript/rc2/70/13`, `14`, `16`; `team/*/ROLE.md`; `team/conductor/handovers/`; this book's history; the register C037, C101; `book.json` RL1.
+
+## The back matter, in full
+
+Outlined 3 November 2026, the 10:40 UTC wake. About ten pages.
+1. **The tour, at length** (`150/90`, kept as written): seventeen stops, the vaults page and the key register named once and not shown.
+2. **The words used:** the seventy's 17, extended with the full book's new words (the margin clock's hour, the open wake, the blind team), each with its first chapter.
+3. **Appendix A, every number rerun:** each register id the book cites, with the command that reproduces it (the researcher's register).
+4. **Appendix B, the control register.**
+5. **The making of this book, and its dates:** this book's team and its timeline, marked as this book's record.
+6. **The series page** (GEN ZX FOUNDERS, SP1), at the back.
+
 ## Next
 
-Parts 4 and 5 in full, next; the writer writes each part after its outline lands.
+All parts outlined; I read the writer's chapters as they land; the writer writes each part after its outline lands.
 
 ## Where this came from
 

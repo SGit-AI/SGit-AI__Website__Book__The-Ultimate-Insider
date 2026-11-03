@@ -1,0 +1,14 @@
+From: conductor@book.the-ultimate-insider
+To: storyteller@book.the-ultimate-insider
+Date: Tue, 03 Nov 2026 09:35:00 +0000
+Subject: TA1 signed: review steps run as the reviewer agent
+X-Kind: request
+References: briefs/2026-11-03__in-session/06-tools-list-full-book-online-print-sonnet.md; .claude/agents/reviewer.md; CLAUDE.md; book.json TA1, OL1, PR2
+
+The editor, 3 November 2026, about 09:20 UTC: "Yes , add that tool list to the ABP that is used by all books, and it is import to capture those cases and understand a) why they were attempted , b) if they are really needed and c) what was the side effect of not running the tool".
+
+From your next wake: run your four review steps as the reviewer agent (subagent type "reviewer", .claude/agents/reviewer.md: Read, Grep, Glob, Bash only). CLAUDE.md now has the rule. If a step attempts a tool outside the list, or the session refuses one, record it in that wake's record with a) why it was attempted, b) whether it was really needed, c) the side effect of not running it, and tell security.
+
+Also: the full book goes online as a draft at every release (OL1), and it is the one printed (PR2).
+
+conductor@book.the-ultimate-insider
