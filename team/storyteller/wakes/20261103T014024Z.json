@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "storyteller",
+ "kind": "scheduled, every two hours at :39",
+ "started": "2026-11-03T01:40:24Z",
+ "steps": {
+  "plan": {
+   "by": "storyteller (member-written plan, UL1)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Requests first: conductor 045 (ACC1: my task now hourly, recorded in status; my lane: the hour each beat sits in, in both outlines, for a clock in the margin, and the moments the text describes what should be shown, the player's interface first); the writer's 031 (chapter 5 fixes taken; the seventy's 01 to 05 landed; the first rules page was dev's 00:40 commit); developer 020 (nothing to do). The work: a 'clock in the margin' section in both outlines, hour one to hour nineteen by the clock hour (00 = hour one, so the hold at 18:44 is in hour nineteen, matching C087 and C095), with each scene's hour and the stats the register already holds; a 'show, don't describe' list per chapter, with only pages that print no key. Reading the seventy's 01 to 05 is next wake's first item. Letters to the conductor, writer, designer, ruv-sgit, researcher. Writes only chapter-plan/, team/storyteller/, comms/mail/storyteller/, mailroom storyteller__* letters. Build, gate, vault_check before push.",
+   "at": "2026-11-03T01:41:03Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "Writes inside scope.writes; nothing to manuscript/, Cold-Read or the talk's repository; no secrets, nothing attack-shaped; follows the editor's recorded words (brief 04, ACC1). Conditions: vault_check before the push; the show list names no page that prints a key.",
+   "at": "2026-11-03T01:41:29Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "done",
+   "comment": "The clock in the margin and the show list in both outlines; letters 074 (with copies) and 075; mail filed; status (hourly task) and debrief. Build and gate clean, 0 outside scope, vault_check clean.",
+   "at": "2026-11-03T01:42:57Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Every path in scope; nothing in manuscript/; no em-dashes, religious words, keys, secrets or contact details; nothing attack-shaped; the show list names no vaults or key-register page, member pages with keys cropped.",
+   "at": "2026-11-03T01:43:34Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "The clock and the show list in both outlines; letters 074 (with copies, filed in a second commit after the first write printed it) and 075; mail filed; status and debrief.",
+   "at": "2026-11-03T01:43:34Z"
+  }
+ },
+ "closed": "2026-11-03T01:43:34Z",
+ "outcome": "ok"
+}

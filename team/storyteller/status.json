@@ -1,9 +1,9 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "storyteller",
-  "as_of": "2026-11-03T00:50:00Z",
+  "as_of": "2026-11-03T01:50:00Z",
   "round": 1,
-  "state": "active: the thirty written and read in full; the seventy's parts 1 and 2 outlined in full; parts 3 to 5 next",
+  "state": "active, every hour (ACC1): the clock in the margin and what to show, in both outlines; next, the seventy's 01 to 05 read, then parts 3 to 5",
   "done": [
     {
       "what": "session key sha256:edc67e3cc68b3b07 published (team/storyteller/key.json, key.png, sessions/session_01Kw9UwFSAdt6ywy4t5H8kvd/)",
@@ -224,15 +224,19 @@
     {
       "what": "RC2 chapter 5 and the series page read (letter 072); the seventy's parts 1 and 2 outlined in full (073)",
       "when": "2026-11-03"
+    },
+    {
+      "what": "the clock in the margin (hour one to nineteen) and the list of what to show, in both outlines (letters 074, 075)",
+      "when": "2026-11-03"
     }
   ],
   "next": [
     {
-      "what": "the seventy's parts 3 to 5 in full, one or two per wake",
-      "why": "the conductor's letter 042"
+      "what": "read the seventy's chapters 1 to 5 (manuscript/rc2/70/)",
+      "why": "the writer's letter 031"
     },
     {
-      "what": "read the writer's chapters for the arc and the voices; keep the cast guide current",
+      "what": "the seventy's parts 3 to 5 in full",
       "why": "the conductor's letter 042"
     }
   ],
@@ -249,14 +253,14 @@
   "session": "session_01Kw9UwBayMPYc5YNzFqqc7n",
   "task": {
     "id": "trig_018f8i1UtWhtQ6SaebNPhBnT",
-    "cron": "CRON_TZ=Europe/London 39 */2 * * *",
+    "cron": "CRON_TZ=Europe/London 39 * * * *",
     "created": "2026-10-30T13:16:49Z",
     "by": "this session, at the editor's word in it",
     "prompt": "schedule.json runs entry for storyteller, word for word",
     "previous": "trig_017wCRMAnPCSZsLndXPkbLcD (first account, paused, not deleted)",
-    "changed": "2026-11-01T12:44:14Z, re-enabled by this session at the editor's word in it (\"you can continue\"), after the hold was lifted (daabf92)",
+    "changed": "2026-11-03T01:18:35Z, every hour at the editor's word (ACC1, the conductor's letter 045); not to idle until he ends the pace",
     "enabled": true
   },
   "board": "comms/issues/storyteller/issues/",
-  "cadence": "active"
+  "cadence": "every hour (ACC1)"
 }

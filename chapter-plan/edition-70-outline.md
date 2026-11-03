@@ -19,6 +19,10 @@ The seventy keeps the five beats in the same order, so a reader who zooms in rec
 
 **Pictures per part.** Every chapter: a cast bar, at least one card or drawing per scene, one map and one infographic per part (LK1). The thirty's pictures carry forward; the seventy adds the real files shown, redacted where a page would print a key.
 
+## The clock in the margin, and what to show
+
+As in the thirty (`edition-30-outline.md`, the section of that name, 3 November 2026): hour one is the clock hour 00:00 to 00:59 of 29 October, the hold falls in hour nineteen, and the margin's stats come only from the register (C087, C095, C011). In the seventy: part 1's tour is off the clock (a walk through what was made); part 2 runs hours one to five; part 3 hours five to nineteen; part 4 hour nineteen; part 5 off the clock. The tour (part 1, chapter 2) is itself the "show" the editor asked for: every stop a screenshot, none of a page that prints a key.
+
 ## Part 1. The creator's problem (beat 1), in full
 
 Outlined 3 November 2026, the 00:39 UTC wake, after the thirty was written (`manuscript/rc2/30/`). About ten pages, two chapters. The thirty's chapter 1 is its spine; part 1 adds the tour.
