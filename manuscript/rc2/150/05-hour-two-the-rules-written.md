@@ -14,7 +14,7 @@
 
 **Conductor** *(on the minute)*: A clock: each member wakes at its own minute. A hold anyone can pull. And every piece of work goes the same way.
 
-**Figure:** the schedule as the conductor wrote it at 01:39: each member at its own minute past the hour, a few minutes apart, round the clock.
+**Figure:** the schedule as the conductor wrote it at 01:39: each member at its own minute past the hour, "fifteen minutes apart" in its own words, round the clock.
 
 `%% figure brief: For the designer, from C071 and the commit 09f13d5 (conductor :02, deck :17, ruv-sgit :32, dev :47 at first; the others joined their slots later). The minutes in the picture, not in any line.`
 

@@ -44,10 +44,10 @@ Band: *The first commit, at 00:16.*
 
 `%% figure brief: For the designer.`
 
-`%% record: C067 (twenty-four minutes) 1f7c633 (CLAUDE.md as first committed, checked against the commit itself: the six lines quoted are its own, one left out and three shortened, before the conductor rewrote the page at 00:44 in 97b98d9; one line on page fragments left out here) timeline/cast-scenes.md scene 1`
-**Narrator.** Four minutes later the conductor rewrote the page, as it joined and proposed the team. The book quotes dev's version, the first; the rules every member later followed grew from both.
+`%% record: C067 (twenty-four minutes) 1f7c633 (CLAUDE.md as first committed, checked against the commit itself: the six lines quoted are its own, one left out and three shortened, before the conductor's own longer page, written in parallel at 00:44 in 97b98d9, met it in the merge at 00:51 (17b287b); one line on page fragments left out here) timeline/cast-scenes.md scene 1`
+**Narrator.** Four minutes later the conductor, working in parallel and without having seen dev's page, wrote a longer page of its own as it joined and proposed the team. When it merged dev's work at 00:51, dev's page is the one that stayed, with two lines of the conductor's added: the team lives in its own folder, and each session makes its own key.
 
-`%% traced (historian__020, 021): dev committed the first page at 00:40; the conductor rewrote it at 00:44 (97b98d9); nothing shows the editor writing it.`
+`%% traced (historian__020, 021, corrected in 030): dev committed the first page at 00:40; the conductor wrote its own in parallel at 00:44 (97b98d9); at the merge of 00:51 (17b287b) dev's page stayed, word for word, with two of the conductor's lines added; nothing shows the editor writing it.`
 Band: *The page of rules as it stood in dev's first commit at 00:40, quoted with one line on page layout left out.*
 
 ## The brief, the reality and the corrections
@@ -60,7 +60,7 @@ Band: *The page of rules as it stood in dev's first commit at 00:40, quoted with
 
 **Narrator.** A brief says what you want. The reality file says what is there. Agents are very good at believing the first and writing as if it were the second, so the rule is that only the reality file counts, and whoever ships something updates it. The first one ended with a list of what did not exist yet, the agent team among it.
 
-**Narrator.** The fourth is the corrections file, for when the brief turns out to be wrong. On the first night it said, in full: "None yet."
+**Narrator.** The fourth is the corrections file, for when the brief turns out to be wrong. Under its heading and a line saying what it was for, its only entry on the first night was: "None yet."
 
 **Dev** *(happy, the fast one)*: First pass of the site and the talk. One build, and a check every change must pass.
 
@@ -84,19 +84,21 @@ Band: *Dramatised. Dev's lines rest on its first commit at 00:40 and the four fi
 `%% record: a3a4807 7f9b9b5 41d38ba (00:53 to 00:58) timeline/day/00.md`
 Band: *Dramatised (the conductor's line). Rests on the conductor's commits of 00:53 to 00:58, which made the banners every member's rule.*
 
-## The four within the hour
+## Three within the hour, and one just after
 
 **Dev** *(happy, the fast one, already halfway out of the door)*: Build, gate and release. Quick version: I may change the build, the check, the release pipeline, the site's own pages and the reality file. Not the talk's slides; those are deck's.
 
 **Narrator.** Dev's page of rules does something I wish every page did: it says what stands between the agent and each thing it must not do, and how strong that is. Pushing to the main branch: an expectation. Writing another member's files: a setting, which a check catches. Its own words for that check: it "catches mistakes, not a steered agent".
 
-**Conductor** *(pacing)*: The schedule, the keys and the session conventions. I may change my own folder, the team's tools and the team's guides. I route the mail. I never sign for the editor.
+**Conductor** *(pacing)*: The schedule, the keys and the session conventions. I may change my own folder, the team's tools and the team's guides. I route the mail. I propose; the editor agrees or drops.
 
 **Narrator.** The conductor's rule I would copy is the one about requests: route each one to its owner, and flag any request left unanswered after two slots. A team that loses a request quietly is worse than one that says no.
 
 **Deck** *(proud, the fussy one)*: The talk's content, and the studio that improves it. The beats, the slides, the studio's pages. And the rule behind most of my reviews: check each changed slide in the player at projector size before shipping. A slide only seen as code is a slide not seen.
 
 **Deck** *(fussing with its own page)*: And never type a version number. That one is somebody else's scar, from another team's bad day. We inherited it.
+
+**Narrator.** And one more, a few minutes into hour two: ruv-sgit joined at 01:08, not on the conductor's first roster. Its page belongs with these three.
 
 **ruv-sgit** *(absorbed, the night owl, not looking up from the workshop bench)*: Animations and moving infographics, made in my own runs. I may change my folder and my pages. One rule I learned the hard way: the container is ephemeral. Seal what you keep, or say what you lost, before the session ends.
 
@@ -111,6 +113,6 @@ Band: *Dramatised. Each line rests on that member's page of rules and policy as 
 
 ## Where this came from
 
-The talk's repository at the end of the day: the first commit, dev's first pass with its four files, the conductor's roster and its rewrite of the rules, the banners, the first commits of deck and ruv-sgit, and the members' pages of rules. The historian's account of hour one. The register for the times. The storyteller's outline for this chapter. This chapter grows from the 70-page edition's chapters 3 and 4, kept as written where they cover this hour.
+The talk's repository at the end of the day: the first commit, dev's first pass with its four files, the conductor's roster and its own page of rules, merged with dev's, the banners, the first commits of deck and ruv-sgit, and the members' pages of rules. The historian's account of hour one. The register for the times. The storyteller's outline for this chapter. This chapter grows from the 70-page edition's chapters 3 and 4, kept as written where they cover this hour.
 
 `%% record: talk repository at 298be4e: 2e4b1f4 1f7c633 97b98d9 a3a4807 7f9b9b5 41d38ba 20ab1a3 defe526 team/*/ROLE.md team/*/policy.json; timeline/day/00.md; claims/register.json C001 C011 C067 C110; chapter-plan/edition-150-outline.md part 2 chapter 4; manuscript/rc2/70/03-one-account-one-project-one-conductor.md, 04-roles-as-a-cast-you-can-read.md`
