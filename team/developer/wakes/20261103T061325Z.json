@@ -3,7 +3,22 @@
  "agent": "developer",
  "kind": "scheduled, hourly at :12 (ACC1)",
  "started": "2026-11-03T06:13:25Z",
- "steps": {},
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (plan brief)",
+   "model": "",
+   "verdict": "go",
+   "comment": "(1) A8: make_editions.py writes review/anchors/qr-targets.json (id, public URL, first words per scene/page of every online edition), no QR library; notice developer__023 to publisher with outbox copy. (2) NR1: tick 'reads the markers' (make_editions.py does it) and the publisher's no-print half, citing its 2 Nov debriefs; leave the site-build half unless shown. (3) Status, debrief, REALITY, vault_check, gate, push.",
+   "at": "2026-11-03T06:15:17Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (pre_review brief)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No hold; all paths in scope. Conditions: URLs https and on the-ultimate-insider.book.sgit.ai only, no query strings, trackers or other hosts; ids and words only from the public editions; the mail only says the file exists; say so if the domain is not live; vault_check and gate before commit.",
+   "at": "2026-11-03T06:15:17Z"
+  }
+ },
  "closed": null,
  "outcome": null
 }

@@ -4,19 +4,21 @@
 # every commit, path and register id in it a link where verified (the same lookup as make_reader.py: this repository,
 # a read-only clone of the talk's at 298be4e, claims/register.json). Other `%%` lines are notes for the writers and stay
 # hidden. Paragraph anchors as on the review pages. Also writes the zoom index: the editions from shortest to longest.
-# Writes only src/pages/review/rc2/, rc2-70/, ed-03/, ed-10/ and src/pages/review/zoom.html. Kept by developer@book.the-ultimate-insider.
+# Writes only review/anchors/qr-targets.json, src/pages/review/rc2/, rc2-70/, ed-03/, ed-10/ and src/pages/review/zoom.html. Kept by developer@book.the-ultimate-insider.
 # Run: python3 review/tools/make_editions.py <path to a full clone of SGit-AI__Website__Presentation__The-Ultimate-Insider>
 
 import html, json, re, subprocess, sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from make_review import ROOT, Markdown, anchored                    # noqa: E402
+from make_review import ROOT, Markdown, anchored, plain                   # noqa: E402
 from make_reader import Repo, link, value_html, BOOK, TALK, TALK_AT  # noqa: E402
 
 EDITIONS = [('rc2', 'RC2, the 30-page edition', ROOT / 'manuscript' / 'editions' / 'rc2' / 'Book.txt'),
             ('rc2-70', 'the 70-page edition, being written', ROOT / 'manuscript' / 'editions' / 'rc2-70' / 'Book.txt')]
 PAGES = ROOT / 'src' / 'pages' / 'review'
+SITE = json.loads((ROOT / 'site.json').read_text())['url'].rstrip('/')   # the book's own domain: the only host a printed code may point at
+QR = ROOT / 'review' / 'anchors' / 'qr-targets.json'
 SHORT = [('ed-03', 'the 3-page edition', ROOT / 'manuscript' / 'editions' / '03' / 'Book.txt', ROOT / 'chapter-plan' / 'cast' / 'edition-03.md'),
          ('ed-10', 'the 10-page edition', ROOT / 'manuscript' / 'editions' / '10' / 'Book.txt', ROOT / 'chapter-plan' / 'cast' / 'edition-10.md')]
 NO_RECORD = {('ed-03', 'A book about you doing it')}            # pages the script gives no section: named here, so any other miss stops the build
@@ -83,23 +85,31 @@ def web_text(raw, name):
     return '\n'.join(out)
 
 
+def qr(slug, f, rid, words):
+    return {'id': f'{slug}/{f.stem}#{rid}', 'edition': slug, 'chapter': f.name, 'url': f'{SITE}/review/{slug}/{f.stem}.html#{rid}', 'starts': words}
+
+
 def chapter_page(path, i, files, book, talk, claims, edition_title, foot=None):
     raw = path.read_text()
     if foot is not None:                                            # a short edition: the publisher's text, its page's record at the foot
         raw = web_text(raw, path) + '\n' + '\n'.join(foot)
     title = re.match(r'# (.*)', raw).group(1)
     ch = f'r{i + 1:02d}'
-    used, blocks, scene, linked, seen = {}, [], 0, 0, {}                # seen: one per chapter, so a repeated line gets -2, not a twin id
+    used, blocks, scene, linked, seen, recs, first = {}, [], 0, 0, {}, [], ''                # seen: one per chapter, so a repeated line gets -2, not a twin id
     for part in re.split(r'(^`?%%[^\n]*$)', raw.split('\n', 1)[1], flags=re.M):
         if re.match(r'^`?%%\s*record:', part):
             scene += 1
             inner, k = record_html(part, book, talk, claims, used)
             linked += k
             blocks.append(f'<aside class="rc-rec" id="rec-{ch}-{scene}"><b>Rests on</b> {inner}</aside>')
+            recs.append((f'rec-{ch}-{scene}', first[:80] or (recs[-1][1] if recs else '')))   # two records in a row: the scene's words are the one before
+            first = ''
         elif re.match(r'^`?%%', part):
             continue                                                # notes for the writers: not for readers
         elif part.strip():
-            blocks.append(anchored(Markdown().to_html(part), ch, seen, [], path.name))
+            done = anchored(Markdown().to_html(part), ch, seen, [], path.name)
+            blocks.append(done)
+            first = first or ' '.join(plain(done).split()[:14])
     claims_list = ''.join(f'<li id="claim-{c}"><b>{c}</b> {html.escape(claims[c]["claim"])}: {value_html(claims[c].get("value", ""))} '
                           f'<span class="pv-state pv-{html.escape(claims[c].get("state", ""))}">{html.escape(claims[c].get("state", ""))}</span></li>'
                           for c in sorted(used))
@@ -113,7 +123,7 @@ def chapter_page(path, i, files, book, talk, claims, edition_title, foot=None):
             f'{nav}\n<article class="rv-ch pv-ch"><h1>{html.escape(title)}</h1>\n' + '\n'.join(blocks) +
             (f'\n<section class="pv-claims"><h2>The numbers in this chapter</h2><p class="note">From the researcher\'s register (<code>claims/register.json</code>).</p><ol>{claims_list}</ol></section>' if used else '') +
             f'\n</article>\n{nav}\n</div>\n')
-    return title, scene, linked, body
+    return title, scene, linked, body, recs
 
 
 def main(talk_path):
@@ -122,6 +132,7 @@ def main(talk_path):
             sys.exit(f'{where} is a shallow clone: run git fetch --unshallow there first')
     book, talk = Repo(ROOT, 'HEAD', BOOK, 'dev'), Repo(Path(talk_path), TALK_AT, TALK, TALK_AT)
     claims = {c['id']: c for c in json.loads((ROOT / 'claims' / 'register.json').read_text())['claims']}
+    targets = []
     for slug, edition_title, booktxt in EDITIONS:
         OUT = PAGES / slug
         OUT.mkdir(parents=True, exist_ok=True)
@@ -129,7 +140,8 @@ def main(talk_path):
         files = [f for f in files if f.exists()]
         toc, scenes, links = [], 0, 0
         for i, f in enumerate(files):
-            title, n, k, body = chapter_page(f, i, files, book, talk, claims, edition_title)
+            title, n, k, body, recs = chapter_page(f, i, files, book, talk, claims, edition_title)
+            targets += [qr(slug, f, rid, words) for rid, words in recs]
             (OUT / f'{f.stem}.html').write_text(body)
             scenes, links = scenes + n, links + k
             toc.append(f'<li><a href="{f.stem}.html">{html.escape(title)}</a> <span class="c-dim">{n} scenes with their record, {k} links</span></li>')
@@ -154,7 +166,8 @@ def main(talk_path):
                 hit = [['`%% record: (the storyteller' + chr(39) + 's script gives this page no record line)`']]
             if len(hit) != 1:
                 sys.exit(f'{f}: "{title}" matches {len(hit)} pages of {script.name}, not one')
-            title, n, k, body = chapter_page(f, i, files, book, talk, claims, edition_title, foot=hit[0])
+            title, n, k, body, recs = chapter_page(f, i, files, book, talk, claims, edition_title, foot=hit[0])
+            targets += [qr(slug, f, rid, words) for rid, words in recs]
             (OUT / f'{f.stem}.html').write_text(body)
             links += k
             toc.append(f'<li><a href="{f.stem}.html">{html.escape(title)}</a> <span class="c-dim">{k} links</span></li>')
@@ -172,6 +185,13 @@ def main(talk_path):
             f'<p class="note">{len(files)} chapters, {links} links. The text is the publisher\'s (<code>{rel(booktxt.parent)}/</code>), the record the storyteller\'s (<code>{rel(script)}</code>), as they stand on dev.</p>\n'
             f'<ol>{"".join(toc)}</ol>\n<h2>Where the whole edition came from</h2>\n{"".join(wh)}\n<p><a href="../zoom.html">The zoom</a>: the same story at every length.</p>\n</section>\n')
         print(f'{slug}: {len(files)} chapters, {links} links')
+    for t in targets:                                                # printed codes: https, the book's own host, no query, no tracking
+        if not re.fullmatch(r'https://the-ultimate-insider\.book\.sgit\.ai/review/[\w-]+/[\w-]+\.html#rec-r\d\d-\d+', t['url']):
+            sys.exit(f'qr target refused: {t["url"]}')
+    QR.write_text(json.dumps({'about': 'One target per scene (RC2, the 70-page draft) or page (the 3- and 10-page editions): the public URL of the record under it, '
+                                       'for a QR code in print. Written by review/tools/make_editions.py; an id holds while the chapter keeps its place and scenes.',
+                              'site': SITE, 'targets': targets}, indent=1, ensure_ascii=False) + '\n')
+    print(f'qr targets: {len(targets)} -> {QR.relative_to(ROOT)}')
     zmeta = {'title': 'The zoom: the book at every length', 'description': 'One Human, Nine Agents, Nineteen Hours from 3 pages to the full first version: start small, zoom in.'}
     (OUT.parent / 'zoom.html').write_text(
         f'<!--meta {json.dumps(zmeta)} -->\n<section class="wrap narrow" data-no-third-party>\n<p class="kicker">The book · ZM1</p>\n<h1>The zoom: the same story at every length</h1>\n'
