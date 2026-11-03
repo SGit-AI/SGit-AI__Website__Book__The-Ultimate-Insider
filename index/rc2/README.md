@@ -60,7 +60,7 @@ Checked 3 November 2026, about 02:16 UTC: chapters 1 to 5; chapters 6 to 9 at ab
 | 03:86 | "Anyone may stop the schedule when something is not right: ..." | the talk's page of rules | `CLAUDE.md` |
 | 03:99 | "the schedule starts tonight, with a hold any member can pull" | a commit subject | `09e312f` |
 | 04:15 | "catches mistakes, not a steered agent" | the talk's scope check | `admin/build/agents.py` |
-| 04:72 | "A scope is a setting, not a boundary: ..." | the talk's scope check | `admin/build/agents.py` |
+| 04:74 | "A scope is a setting, not a boundary: ..." | the talk's scope check | `admin/build/agents.py` |
 | 05:34 | "Amended after the pre-review's change, all five conditions adopted" | the conductor, its 02:14 wake | `team/conductor/wakes/20261029T021416Z.json` |
 | 05:40, 05:44, 05:57 | the reviewer's and the conductor's lines | as in the thirty | `c8f6f8f` |
 | 06:34 | "E02 is ready in team/deck/drafts/ruv-sgit__blast-radius.md, ..." | deck, a note to itself in its 04:22 commit | commit `aeffbf9` |
@@ -115,6 +115,18 @@ Dramatised lines checked for whose work they rest on: the night log is the condu
 | 05 | "Only a member's own session can create its scheduled task: the three the conductor created for dev, deck and ruv.sgit were disabled before any fired" | the conductor, its commit body | `b620234` (01:43), lines 7 to 9 | word for word |
 | 05 | the hour: 01:27, 01:35, 01:36, 01:39, 01:40, 01:43, 01:52 to 01:54 | the record | `02cbd86` to `5c5b23b` as the chapter's note lists | yes |
 
+**3 November 2026, about 12:35 UTC: the 150's chapters 6 to 8, and the revisions to hour one.** Sources clean on all (70/16's bare `15-principles.md` is named as folded in, a known non-fault). The ten interviews in 06 are the historian's reconstructions from each member's record (`timeline/interviews/`, method in its README), and every band says so: "not dev's words", and so on. None is indexed here as a member's words. Hour one's revision holds: at the merge of 00:51 (`17b287b`) dev's page stayed, with two lines of the conductor's added; the corrections file's only entry at `1f7c633` is "None yet." under its heading and a line.
+
+| Chapter, line | Quote | Speaker | Where it is | Holds |
+|---|---|---|---|---|
+| 07 | "Amended after the pre-review's change, all five conditions adopted" | the conductor, its 02:14 wake | `team/conductor/wakes/20261029T021416Z.json` | word for word |
+| 07 (note) | "wake.py check in validate.py changes the gate for every member: say so in the debrief and commit, run the full gate before pushing" | the reviewer (security) in dev's 02:48 wake | `team/dev/wakes/20261029T024849Z.json` | word for word |
+| 07 (note) | "a closed wake record that skipped a step, ..." | dev, its commit body | `99aaf05` (02:51) | word for word |
+| 07 (note) | "wake closed: five steps recorded (go, go, done, clean, as-planned)" | ruv-sgit, its commit subject | `0d13c43` (02:37) | word for word |
+| 07 | "do not touch the deck. talk.json and the slides are frozen from now on" | the editor, as deck recorded him at 02:47 | `team/deck/requests/researcher__before-tonight.md` | word for word, as deck recorded it |
+| 08 (note) | "Backlog, then schedule, then execute, for everyone" | the conductor, its commit subject | `648feee` (03:10) | the subject has "backlog", lower case (letter 013) |
+| 08 (note) | "a push is done when the commit is in origin/dev" | dev, its commit subject | `6a6be6d` (03:34) | word for word |
+
 ## The writer's readings, for the editor to keep or drop
 
 **Corrected 3 November 2026, about 09:30 UTC:** until this wake the list took only the notes that stand on a line of their own, and missed four set inside a paragraph (70/02:67, 70/02:97, 70/06:68, 70/11:5). The list now takes every note wherever it stands: thirty in the thirty and the seventy (not twenty-six), seven in the 150's part 1, thirty-seven in all.
@@ -160,6 +172,8 @@ Where a sentence in the editor's voice is the writer's reading of his view rathe
 | `150/03-the-tour.md:30` | "Nobody tidied it." is the writer's reading; his to keep or drop. |
 | `150/03-the-tour.md:43` | "This is the page I would show anyone who doubts" is the writer's reading of his view; his to keep or drop. |
 | `150/03-the-tour.md:60` | "What I like about it" is the writer's reading; his to keep or drop. |
+| `150/07-hour-three-the-five-steps.md:101` | "I do not regret the freeze" and the reason given for it are the writer's reading of his view; his to keep or drop. |
+| `150/08-hours-four-and-five-before-dawn.md:71` | "I am not going to tell you either: it does not matter" is the writer's; his to keep or drop. The thirty says only "The record does not say where I went." |
 | `150/90-the-tour-at-length.md:69` | "Nobody tidied it." is the writer's reading; his to keep or drop. |
 | `150/90-the-tour-at-length.md:82` | "This is the page I would show anyone who doubts" is the writer's reading of his view; his to keep or drop. |
 | `150/90-the-tour-at-length.md:99` | "What I like about it" is the writer's reading; his to keep or drop. |
