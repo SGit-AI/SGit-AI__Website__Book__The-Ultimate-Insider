@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, hourly at :57 London",
+ "started": "2026-11-03T04:57:50Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, amended",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. ch3-map-of-the-day.svg in LAB 38: a row per agent in C011 arrival order, a tick at each first commit; each hour shaded by its commits (C095 table at build, three shades, no counts); the editor's row from C087, hours 00 and 01 'not counted' (C087 has no entry), the 05 to 13 band in its words; caption: C095 counts @member subjects only, C011 open. 2. Letter 100 to the publisher and the conductor (taken under conductor__046's 'Draw the missing pictures', checked in the letter). 3. Lab PDF, letter to done/, debrief, status, REALITY.md, gate, push.",
+   "at": "2026-11-03T04:59:08Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope (LAB 38, letter 100 in mailroom/*/designer__* and the outbox). Numbers only from C011, C087, C095; shades, no raw counts; the notes kept (C011 open, hours 00 and 01 not counted). vault_check comms; no keys, religious words, em-dashes or attack-shaped content; nothing from the blind repository; push to dev only.",
+   "at": "2026-11-03T04:59:44Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "",
+   "verdict": "done",
+   "comment": "ch3-map-of-the-day.svg in LAB 38 (C095 table checked against the register at build, C011 ticks, C087 editor row with 05 to 13 band in its words and 00, 01 not counted; no counts printed); ch2-four-cards redrawn by the build from the writer's changed line; LAB 38 three pages; lab PDF 126 pages; letter 100 (publisher, conductor); 020 to done/; debrief, status, REALITY.md; gate clean.",
+   "at": "2026-11-03T05:02:39Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "All writes in scope; REALITY.md one appended line under its heading; publishing/ and manuscript/ untouched. The new SVG prints no counts, sources C011, C087, C095; the ch2 card now reads 'Everyone will get a slot.', matching chapter 2 line 36. vault_check comms clean; no secrets, religious words, em-dashes or attack-shaped content.",
+   "at": "2026-11-03T05:03:10Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "LAB 38's map (script, svg, pages, experiment.json), lab PDF 126 pages; letter 100 in the publisher's and conductor's mailrooms and the outbox; 020 to done/; debrief, status, one REALITY line. The ch2 card redraw follows the writer's changed line and is reported in 100: in plan. Pre-review conditions kept.",
+   "at": "2026-11-03T05:03:32Z"
+  }
+ },
+ "closed": "2026-11-03T05:03:32Z",
+ "outcome": "ok"
+}
