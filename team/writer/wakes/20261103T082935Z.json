@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "The full book's part 1 in manuscript/rc2/150/01 to 03 (two traces held as %% markers; the tour's stops checked against the talk's history; keys and vaults pages named, not shown); letters 069 to 073; two letters into done/; status, debrief, board, REALITY.md; vault_check clean.",
    "at": "2026-11-03T08:33:09Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (Sonnet), steps 4 and 5 in one agent to spare usage",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Build, validate, agents check (0 outside), vault_check pass. 150/01 to 03: no em-dashes, religious words or Cold-Read; keys and vaults pages named once, never shown; team and member shots cropped; the journey page described by what it shows; 58, 162, 439 and eight of ten in the register; the page's 163 only as its own count.",
+   "at": "2026-11-03T08:35:02Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (Sonnet), with step 4",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "The diff matches the plan: five letters, two into done/, three chapters in rc2/150/, status, debrief, board; the REALITY.md line, missed by a failed match, added before close. Conditions held; part 2 next wake as planned.",
+   "at": "2026-11-03T08:35:02Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T08:35:02Z",
+ "outcome": "ok"
 }
