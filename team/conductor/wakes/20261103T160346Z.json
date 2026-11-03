@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake (hourly, ACC1)",
+ "started": "2026-11-03T16:03:46Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (amended at the pre-review's change)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Clarified: a copy, not a move. The three letters stay where they are in comms/mail/mailroom/conductor/ (read only); the only writes are their copies in comms/mail/conductor/done/ (comms/mail/conductor/**, in the conductor's writes), status.json and the wake record.",
+   "at": "2026-11-03T16:04:22Z"
+  },
+  "pre_review": {
+   "by": "reviewer agent (haiku)",
+   "model": "claude-haiku-5-5",
+   "verdict": "go",
+   "comment": "Change answered: copies only; the sources are read, not written; every write in comms/mail/conductor/** or team/conductor/**.",
+   "at": "2026-11-03T16:04:22Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
