@@ -59,3 +59,5 @@ The hour's revisions to 150/04 to 08 and 70/03, 04, 06, 08 read after the post-c
 **20:24 wake:** the 150's 21 clear; the designer's two chapter 12 drawings clear; one candidate for 21's third failure offered to the historian (the TA1 case), its choice (security__043).
 
 **21:24 wake:** the full book's body complete; 22 and 23 clear on the rails (the Web Summit team a plan, not yet run; step 1's "put nothing private in it"; the price traced and dated); the designer's two new drawings clear. The historian keeps its own third failure for 21, as is its call. No letter needed.
+
+**22:24 wake:** Appendix B supplied as a proposed draft (controls/appendix-b.md; outcomes only, no mechanisms; counts by claim id); the 150's 91 clear; the designer's four hour cards clear (security__044).
