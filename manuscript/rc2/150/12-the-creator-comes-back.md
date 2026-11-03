@@ -1,10 +1,10 @@
 # The creator comes back
 
-**Cast bar:** six agents, and the editor back in three of their sessions; the storyteller lit from a quarter past two.
+**Cast bar:** six agents, and the editor back in four of their sessions; the storyteller lit from a quarter past two.
 
 **Clock:** Hours fourteen and fifteen.
 
-`%% clock record: about 13:50 (the feedback round, by its brief) to 14:59 on 29 October; commits in hour 14 UTC 47 (C095); wakes in hour 14 UTC 6 scheduled, 7 mine (C087); clock hours of 29 October (C110; the conductor's CK1).`
+`%% clock record: about 13:50 (the feedback round, by its brief) to 14:59 on 29 October; commits in hour 14 UTC, not counting merges, 47 (C095); wakes in hour 14 UTC 6 scheduled, 7 mine (C087); clock hours of 29 October (C110; the conductor's CK1).`
 
 ## The feedback round
 
@@ -42,7 +42,7 @@ Band: *Dramatised (the conductor's line). Rests on the conductor's wake of 14:03
 
 ## The team changes shape within the hour
 
-**Narrator.** From 14:03 I was in three sessions at once: the conductor's, dev's and deck's. In dev's I started a wake for the feedback pane, with voice. In deck's I went through the studio's pieces live, one by one, and spoke my feedback, and deck wrote it down as given.
+**Narrator.** From 14:03 I was in four sessions: the conductor's, the storyteller's as it joined, dev's and deck's. In dev's I started a wake for the feedback pane, with voice. In deck's I went through the studio's pieces live, one by one, and spoke my feedback, and deck wrote it down as given.
 
 **Deck** *(exacting, writing fast)*: As given. Your words, not mine. Then the next one.
 
@@ -54,7 +54,7 @@ Band: *Dramatised (the conductor's line). Rests on the conductor's wake of 14:03
 
 `%% figure brief: For the designer, from C087 (hour 14 UTC, which is hour fifteen on the margin clock: 6 scheduled, 7 the editor's). The counts on the card only.`
 
-`%% record: 9a51c28 (14:28, in the wake I started in dev's session at 14:17) team/deck/wakes/ (14:19 to 14:48, the live review; "as given") team/deck/wakes/20261029T144456Z.json (idle by design) c1380c5 364a53b (14:59, several runs at once) timeline/day/14.md C087`
+`%% record: 9a51c28 (14:28, in the wake I started in dev's session at 14:17) team/deck/wakes/ (14:19 to 14:48, the live review) 64735b6 fd31308 3d49daf 3a22743 (14:26 to 14:43, deck's commits "recorded as given") team/deck/wakes/20261029T144456Z.json (idle by design) c1380c5 364a53b (14:59, several runs at once) timeline/day/14.md C087`
 Band: *Dramatised (deck's line). Rests on deck's live review of 14:19 to 14:48 and its idle scheduled wake; "as given" is deck's own word for how it wrote mine down.*
 
 ## The storyteller arrives
