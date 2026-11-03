@@ -1,160 +1,160 @@
 {
- "schema": "the-ultimate-insider/agent-status/v1",
- "agent": "writer",
- "as_of": "2026-11-03T10:50:00Z",
- "round": 20,
- "state": "active, hourly (ACC1): the full book in the new order; part 1 complete with its third moment; part 2 begun (04, 05); next 06 to 08, then part 3 (outlined)",
- "done": [
-  {
-   "what": "ROLE.md and policy.json moved from team/conductor/staffing/writer/ into team/writer/ (drafts left in place)",
-   "when": "2026-11-02"
+  "schema": "the-ultimate-insider/agent-status/v1",
+  "agent": "writer",
+  "as_of": "2026-11-03T11:40:00Z",
+  "round": 21,
+  "state": "active, hourly (ACC1): the full book's part 2 written (04 to 08); historian 030 and librarian 012 taken; the reviewer agent loads (TA1); next part 3 (9 to 15, outlined), then parts 4 and 5 (outlined)",
+  "done": [
+    {
+      "what": "ROLE.md and policy.json moved from team/conductor/staffing/writer/ into team/writer/ (drafts left in place)",
+      "when": "2026-11-02"
+    },
+    {
+      "what": "session key made and published: team/writer/key.json, key.png, sessions/session_01Kw9UwEUmsEmG4LeHpKY5FJ/",
+      "when": "2026-11-02"
+    },
+    {
+      "what": "scheduled task trig_01XcHwiizLtkXBLL6Z1xmq2X created into this session, at the editor's word in the session's first message (schedule.json writer entry, cron and prompt word for word)",
+      "when": "2026-11-02"
+    },
+    {
+      "what": "read the ladder, the cast guide, the 3- and 10-page editions, the readers' findings; letter writer__001 to the storyteller for the 30-page outline",
+      "when": "2026-11-02"
+    },
+    {
+      "what": "team/conductor/schedule.json writer minute 28 -> \"28\" so the build reads it, at the editor's word in this session",
+      "when": "2026-11-02"
+    },
+    {
+      "what": "read the editor's voice (newsroom-writer.md, how-i-work-with-claude.md); ED1 round 1: nine comments on the 3- and 10-page editions' narrator lines to the storyteller (writer__002); board opened (issue 001)",
+      "when": "2026-11-02"
+    },
+    {
+      "what": "letters taken: storyteller__047 (the outline, answers a, b, c) and publisher__001 (round 1 rebuilt), into done/; ED1 round 2, five points to the storyteller (writer__004); chapter 1's three traces asked of the researcher (writer__003)",
+      "when": "2026-11-02"
+    },
+    {
+      "what": "researcher__001 and publisher__002 into done/; chapter 1's source sheet team/writer/prep/30-chapter-1.md (notes, not prose); letter writer__005 to the storyteller (chapter 1 ready on RP1; a draft offered if it asks); own task to the idle cron",
+      "when": "2026-11-02"
+    },
+    {
+      "what": "task back to every two hours at :28 (WAKE Cadence 4; conductor__002); seven letters into done/; chapter 1 of the thirty written (manuscript/rc2/30/01-the-creators-problem.md); letters 006 (publisher, file and order) and 007 to 010 (storyteller, historian, synthetic, researcher)",
+      "when": "2026-11-02"
+    },
+    {
+      "what": "chapter 1: two lines into the first person (librarian__001); chapter 2 of the thirty, manuscript/rc2/30/02-the-factory-is-assembled.md; letters 011 to 014 for build, read, check and trace; 015 to ruv-sgit (its strips are chapter 4's)",
+      "when": "2026-11-02"
+    },
+    {
+      "what": "chapters 1 and 2 revised on ten letters (the hold made that night; from just after four; lines past the record cut; plain source names; synthetic's four; the first wake partial; first person); chapter 3, manuscript/rc2/30/03-the-factory-runs.md; letters 016 to 020",
+      "when": "2026-11-02"
+    },
+    {
+      "what": "chapters 1 to 3 revised on eight letters (his views named in %% notes; C106; first-person bands; glosses; deck 06:21; ruv-sgit's card placed); RL1 'Ship' noted in each chapter; chapter 4, manuscript/rc2/30/04-the-stop.md; letters 021 to 024",
+      "when": "2026-11-02"
+    },
+    {
+      "what": "chapters 3 and 4 revised (C107; his views flagged; dev and deck to the record; 31 October); chapter 5, manuscript/rc2/30/05-the-factory-rebuilt-and-yours.md; the series page, 30/06-a-book-about-you-doing-it.md; letters 025 to 028; the thirty complete in draft",
+      "when": "2026-11-02"
+    },
+    {
+      "what": "chapters 4 and 5 on synthetic__003: lock and freeze glossed; security's own mandate in the empty chair; a first team's three roles (flagged); two declined with reasons (writer__029); three letters into done/",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "the thirty's chapter 5 on its last reads; the thirty's chapter 2 line on the first rules page corrected from the talk's own history; the seventy's parts 1 and 2, five chapters, manuscript/rc2/70/01 to 05; letters 030 to 034",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "the editor's read (conductor__005): 22 hidden clock lines (hour N from 00:16, C001) for the researcher to confirm; the player as a Figure in both chapter 1s; letters 035 to 037",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "the historian's eighteen findings; C109 in the seventy's chapter 1; the dashboard drawn, not a screenshot; 37 Figure and Map lines to short captions with briefs in %% lines; the 22 clock lines on clock hours; letters 038 to 042; eight letters into done/",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "the clock printed in both editions on C110 (CK1); storyteller__076's eight in 70/01 to 05; the policy caption on security__006; the seventy's part 3, chapters 6 to 9; letters 043 to 047; four letters into done/",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "part 3 and 30/03 on six letters (the historian's correction on R5 and eight findings; the storyteller's seven; the refused release traced, 24da366); the seventy's part 4, chapters 10 to 12; letters 048 to 053; six letters into done/",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "30/03 and 70/04, 09 to 12 on five letters (the storyteller's withdrawn inner line; the scope quote's shorter form; chapter 12's mechanism clause cut; the historian's four); the seventy's part 5, chapters 13 to 16; letters 054 to 058",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "part 5 on seven letters; three new word boxes; the seventy's back matter, 70/17-the-words-used.md: the 70-page edition complete; letters 059 to 065",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "the seventy's last two notes (the Wardley map's printed word box; the thirty's chapter named in 70/14); five letters into done/; letters 066 to 068",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "the full book's part 1: 150/01 to 03 (the seventy's chapter 1 kept and split; the tour at seventeen stops, no key page shown); letters 069 to 073",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "the seventy's new order (seven decisions) and 11 as cards; 150/02's ask in full; the librarian's two; letters 074 to 079; six letters into done/; the review briefs' tools line in my step prompts",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "70/15 removed; the full book in the new order (150/03 four stops, 150/90 the tour at length); C111 in 150/01; 150/04 hour one and 150/05 hour two; letters 080 to 084",
+      "when": "2026-11-03"
+    }
+  ],
+  "next": [
+    {
+      "what": "the full book's part 3 (9 to 15), then parts 4 and 5",
+      "why": "issue 003"
+    }
+  ],
+  "asks": [
+    {
+      "to": "editor",
+      "what": "the reviewer agent (TA1) does not load in this session, started before it existed: my review steps run as the Explore type with the tools line; a new session would load it, if you want it"
+    },
+    {
+      "to": "editor",
+      "what": "my task set hourly by the conductor's session at your ACC1: confirm"
+    }
+  ],
+  "task": {
+    "id": "trig_01XcHwiizLtkXBLL6Z1xmq2X",
+    "cron": "CRON_TZ=Europe/London 28 * * * *",
+    "session": "session_01Kw9UwEUmsEmG4LeHpKY5FJ",
+    "created": "2026-11-02T04:56:57Z",
+    "prompt": "team/conductor/schedule.json, runs entry for writer, word for word",
+    "enabled": true,
+    "note": "changed to hourly at 01:18:35 UTC on 3 November 2026 by another session on this account (the conductor's), at the editor's ACC1; WAKE.md has a member change only its own task, so recorded here and told to the editor and the conductor (writer__037); not held: it is his signed word"
   },
-  {
-   "what": "session key made and published: team/writer/key.json, key.png, sessions/session_01Kw9UwEUmsEmG4LeHpKY5FJ/",
-   "when": "2026-11-02"
-  },
-  {
-   "what": "scheduled task trig_01XcHwiizLtkXBLL6Z1xmq2X created into this session, at the editor's word in the session's first message (schedule.json writer entry, cron and prompt word for word)",
-   "when": "2026-11-02"
-  },
-  {
-   "what": "read the ladder, the cast guide, the 3- and 10-page editions, the readers' findings; letter writer__001 to the storyteller for the 30-page outline",
-   "when": "2026-11-02"
-  },
-  {
-   "what": "team/conductor/schedule.json writer minute 28 -> \"28\" so the build reads it, at the editor's word in this session",
-   "when": "2026-11-02"
-  },
-  {
-   "what": "read the editor's voice (newsroom-writer.md, how-i-work-with-claude.md); ED1 round 1: nine comments on the 3- and 10-page editions' narrator lines to the storyteller (writer__002); board opened (issue 001)",
-   "when": "2026-11-02"
-  },
-  {
-   "what": "letters taken: storyteller__047 (the outline, answers a, b, c) and publisher__001 (round 1 rebuilt), into done/; ED1 round 2, five points to the storyteller (writer__004); chapter 1's three traces asked of the researcher (writer__003)",
-   "when": "2026-11-02"
-  },
-  {
-   "what": "researcher__001 and publisher__002 into done/; chapter 1's source sheet team/writer/prep/30-chapter-1.md (notes, not prose); letter writer__005 to the storyteller (chapter 1 ready on RP1; a draft offered if it asks); own task to the idle cron",
-   "when": "2026-11-02"
-  },
-  {
-   "what": "task back to every two hours at :28 (WAKE Cadence 4; conductor__002); seven letters into done/; chapter 1 of the thirty written (manuscript/rc2/30/01-the-creators-problem.md); letters 006 (publisher, file and order) and 007 to 010 (storyteller, historian, synthetic, researcher)",
-   "when": "2026-11-02"
-  },
-  {
-   "what": "chapter 1: two lines into the first person (librarian__001); chapter 2 of the thirty, manuscript/rc2/30/02-the-factory-is-assembled.md; letters 011 to 014 for build, read, check and trace; 015 to ruv-sgit (its strips are chapter 4's)",
-   "when": "2026-11-02"
-  },
-  {
-   "what": "chapters 1 and 2 revised on ten letters (the hold made that night; from just after four; lines past the record cut; plain source names; synthetic's four; the first wake partial; first person); chapter 3, manuscript/rc2/30/03-the-factory-runs.md; letters 016 to 020",
-   "when": "2026-11-02"
-  },
-  {
-   "what": "chapters 1 to 3 revised on eight letters (his views named in %% notes; C106; first-person bands; glosses; deck 06:21; ruv-sgit's card placed); RL1 'Ship' noted in each chapter; chapter 4, manuscript/rc2/30/04-the-stop.md; letters 021 to 024",
-   "when": "2026-11-02"
-  },
-  {
-   "what": "chapters 3 and 4 revised (C107; his views flagged; dev and deck to the record; 31 October); chapter 5, manuscript/rc2/30/05-the-factory-rebuilt-and-yours.md; the series page, 30/06-a-book-about-you-doing-it.md; letters 025 to 028; the thirty complete in draft",
-   "when": "2026-11-02"
-  },
-  {
-   "what": "chapters 4 and 5 on synthetic__003: lock and freeze glossed; security's own mandate in the empty chair; a first team's three roles (flagged); two declined with reasons (writer__029); three letters into done/",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "the thirty's chapter 5 on its last reads; the thirty's chapter 2 line on the first rules page corrected from the talk's own history; the seventy's parts 1 and 2, five chapters, manuscript/rc2/70/01 to 05; letters 030 to 034",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "the editor's read (conductor__005): 22 hidden clock lines (hour N from 00:16, C001) for the researcher to confirm; the player as a Figure in both chapter 1s; letters 035 to 037",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "the historian's eighteen findings; C109 in the seventy's chapter 1; the dashboard drawn, not a screenshot; 37 Figure and Map lines to short captions with briefs in %% lines; the 22 clock lines on clock hours; letters 038 to 042; eight letters into done/",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "the clock printed in both editions on C110 (CK1); storyteller__076's eight in 70/01 to 05; the policy caption on security__006; the seventy's part 3, chapters 6 to 9; letters 043 to 047; four letters into done/",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "part 3 and 30/03 on six letters (the historian's correction on R5 and eight findings; the storyteller's seven; the refused release traced, 24da366); the seventy's part 4, chapters 10 to 12; letters 048 to 053; six letters into done/",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "30/03 and 70/04, 09 to 12 on five letters (the storyteller's withdrawn inner line; the scope quote's shorter form; chapter 12's mechanism clause cut; the historian's four); the seventy's part 5, chapters 13 to 16; letters 054 to 058",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "part 5 on seven letters; three new word boxes; the seventy's back matter, 70/17-the-words-used.md: the 70-page edition complete; letters 059 to 065",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "the seventy's last two notes (the Wardley map's printed word box; the thirty's chapter named in 70/14); five letters into done/; letters 066 to 068",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "the full book's part 1: 150/01 to 03 (the seventy's chapter 1 kept and split; the tour at seventeen stops, no key page shown); letters 069 to 073",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "the seventy's new order (seven decisions) and 11 as cards; 150/02's ask in full; the librarian's two; letters 074 to 079; six letters into done/; the review briefs' tools line in my step prompts",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "70/15 removed; the full book in the new order (150/03 four stops, 150/90 the tour at length); C111 in 150/01; 150/04 hour one and 150/05 hour two; letters 080 to 084",
-   "when": "2026-11-03"
-  }
- ],
- "next": [
-  {
-   "what": "the full book's 06 to 08, then part 3 (9 to 15)",
-   "why": "issue 003"
-  }
- ],
- "asks": [
-  {
-   "to": "editor",
-   "what": "the reviewer agent (TA1) does not load in this session, started before it existed: my review steps run as the Explore type with the tools line; a new session would load it, if you want it"
-  },
-  {
-   "to": "editor",
-   "what": "my task set hourly by the conductor's session at your ACC1: confirm"
-  }
- ],
- "task": {
-  "id": "trig_01XcHwiizLtkXBLL6Z1xmq2X",
-  "cron": "CRON_TZ=Europe/London 28 * * * *",
-  "session": "session_01Kw9UwEUmsEmG4LeHpKY5FJ",
-  "created": "2026-11-02T04:56:57Z",
-  "prompt": "team/conductor/schedule.json, runs entry for writer, word for word",
-  "enabled": true,
-  "note": "changed to hourly at 01:18:35 UTC on 3 November 2026 by another session on this account (the conductor's), at the editor's ACC1; WAKE.md has a member change only its own task, so recorded here and told to the editor and the conductor (writer__037); not held: it is his signed word"
- },
- "board": "comms/issues/writer/issues/",
- "cadence": "active",
- "issues": [
-  {
-   "id": "001",
-   "from": "writer",
-   "what": "the 30-page edition",
-   "state": "open: the thirty written in draft; reads and traces outstanding",
-   "board": "comms/issues/writer/issues/open/001-the-30-page-edition.md"
-  },
-  {
-   "id": "002",
-   "from": "writer",
-   "what": "the 70-page edition",
-   "state": "done: the 70-page edition written in draft",
-   "board": "comms/issues/writer/issues/done/002-the-70-page-edition.md"
-  },
-  {
-   "id": "003",
-   "from": "writer",
-   "what": "the 150-page edition",
-   "state": "open: part 1 written; part 2 next",
-   "board": "comms/issues/writer/issues/open/003-the-150-page-edition.md"
-  }
- ],
- "pace": "the editor, 2 November 2026, about 23:15 UTC: chapters in sequence, not in parallel sub-agents, but more than one a wake"
+  "board": "comms/issues/writer/issues/",
+  "cadence": "active",
+  "issues": [
+    {
+      "id": "001",
+      "from": "writer",
+      "what": "the 30-page edition",
+      "state": "open: the thirty written in draft; reads and traces outstanding",
+      "board": "comms/issues/writer/issues/open/001-the-30-page-edition.md"
+    },
+    {
+      "id": "002",
+      "from": "writer",
+      "what": "the 70-page edition",
+      "state": "done: the 70-page edition written in draft",
+      "board": "comms/issues/writer/issues/done/002-the-70-page-edition.md"
+    },
+    {
+      "id": "003",
+      "from": "writer",
+      "what": "the 150-page edition",
+      "state": "open: part 1 written; part 2 next",
+      "board": "comms/issues/writer/issues/open/003-the-150-page-edition.md"
+    }
+  ],
+  "pace": "the editor, 2 November 2026, about 23:15 UTC: chapters in sequence, not in parallel sub-agents, but more than one a wake"
 }

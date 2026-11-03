@@ -75,18 +75,18 @@ Outlined 3 November 2026, the 07:40 UTC wake. About thirty pages, five chapters,
 ### Chapter 4. Hour one: the empty project (about five pages, 00:00 to 00:59)
 
 1. **Twenty-four minutes of nothing**, then one commit carrying the whole first pass of the talk (00:40, dev), and within four minutes a conductor proposing the team (00:44). Everything proposed, nothing scheduled: the schedule waits for him (the day file's own reading, `timeline/day/00.md`).
-2. **The first page of rules,** as dev's commit had it at 00:40 (the seventy's quote, kept), and the conductor's rewrite at 00:44, a different page (the historian's letter 021).
+2. **The first page of rules,** as dev's commit had it at 00:40 (the seventy's quote, kept). The conductor, working in parallel, wrote a longer page of its own at 00:44 without having seen dev's; when it merged dev's work at 00:51 (`17b287b`), dev's page is the one that stayed, with two lines of the conductor's added (the team in `team/`; each session making its own key). The historian's letter 030, correcting its 019 and 020.
 3. **The team's first shared rule is about reading the team:** the start and end banners, so he could tell where one session's report began and ended. **Show:** one banner.
-4. **Deck and ruv-sgit arrive** (00:51, 01:08 by their first commits, C011), each with the seventy's lines and one more from its role page.
+4. **Deck arrives** (00:51, by its first commit, C011), with the seventy's lines and one more from its role page. Within hour one: dev, the conductor, deck. ruv-sgit's arrival (01:08) opens chapter 5, in hour two; it was not on the first roster (the conductor, security, the researcher, deck, dev: the historian's 030).
 
 ### Chapter 5. Hour two: the rules written (about six pages, 01:00 to 01:59)
 
 1. **The hour the team's rules are written, almost all by one member:** between 01:27 and 01:40 the conductor writes the pull-first start, the wake checklist, the commit form, the schedule and the hold. **The hold exists before the first scheduled wake does.**
 2. **The day's first correction of the team's own process** (the failure stays in): the conductor creates tasks for other members, and three minutes later disables them and rewrites the rule: a task belongs to the session it fires into, and each member makes its own (`b620234`). The book's team inherited the rule unchanged. Told as the first place an agent's reach went past what the team meant, and how the team pulled it back, in one paragraph, no more.
-3. **The researcher arrives** (01:52), the one who checks every fact; dev becomes the first to follow the new rule: its own key, its own task.
+3. **ruv-sgit arrives** (01:08), not on the first roster, already working; **the researcher arrives** (01:52), the one who checks every fact; dev becomes the first to follow the new rule: its own key, its own task.
 4. **The house subject form** (`@conductor:`) arrives at 01:36: the team's count of its own work starts here (C014's caveat, one clause).
 
-**Show:** the schedule as the conductor wrote it, the members a few minutes apart (C071).
+**Show:** the schedule as the conductor wrote it, the members "fifteen minutes apart" in the commit's own words (C071).
 
 ### Chapter 6. Roles as a cast you can read (about six pages)
 
