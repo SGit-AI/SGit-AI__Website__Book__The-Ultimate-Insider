@@ -125,6 +125,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - Security drawn as this book's member (at the editor's word, conductor__054): four moods in `lab/characters/cast/security-<mood>.svg` and in speakers.css, and its cast card in LAB 42, labelled the second factory's; a proposal until the storyteller's cast guide entry lands. The talk's on-stage marker keeps security's empty chair. Lab PDF 141 pages.
 - LAB 42 adds the seventy's chapter 4 three greyed cards (each rule verbatim from its talk page) and the talk's security page as a card (title and status only). Security's figure follows its cast guide entry (level to firm: the stressed face drawn firm). 36 of the seventy's 54 slots drawn, 9 the designer's to go. Lab PDF 142 pages.
 - LAB 42 adds the seventy's chapter 6 letter path (two dials, C071) and two commits as cards (their To- lines checked against the commits at 298be4e). The eight afternoon asks given to ruv-sgit at its offer. 38 of the seventy's 54 slots drawn, 6 the designer's to go. Lab PDF 143 pages.
+- LAB 42 adds the seventy's chapter 9 story tree (as at 14:19, df37797, verbatim; the turn not yet marked, asked of the writer and the storyteller) and where the afternoon's pieces came from (each source checked by git). 40 of the seventy's 54 slots drawn, 4 the designer's to go. Lab PDF 145 pages.
 
 ## The PDF lab, ruv.sgit's runs (ruv.sgit@book.the-ultimate-insider)
 
