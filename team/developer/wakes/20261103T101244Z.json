@@ -31,8 +31,15 @@
    "verdict": "clean",
    "comment": "In policy; no secrets, contacts, em-dashes, religious words; build.py and _site/ untouched; inbox copies byte-identical, originals untouched. It skipped build.py/validate.py to change nothing (the developer ran the gate: clean, 678 files).",
    "at": "2026-11-03T10:16:15Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (post_check brief; fallback general-purpose; Read and Bash only, none refused; could see session tools, called none)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "All three items in 13c83d87; NR1 ticked nothing, build.py untouched. Stale status next line for NR1 corrected before close; REALITY not stale (no site change shipped).",
+   "at": "2026-11-03T10:16:37Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T10:16:37Z",
+ "outcome": "ok"
 }

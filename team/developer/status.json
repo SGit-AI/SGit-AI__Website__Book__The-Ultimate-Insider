@@ -148,7 +148,7 @@
  ],
  "next": [
   {
-   "what": "NR1: show that the site build drops %% lines (the last open item); the markers are read by make_editions.py",
+   "what": "NR1: the site build's %% rule waits on the conductor (offered in developer__027); the markers are read by make_editions.py",
    "why": "conductor__025; board 009"
   },
   {
