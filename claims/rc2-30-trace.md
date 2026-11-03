@@ -110,7 +110,7 @@ It holds. The words are the 10-page edition's, as traced on 2 November (G1, sign
 
 ## The clock lines (3 November, the 01:32 wake)
 
-Every `%% clock:` line in chapters 1 to 4 puts its times in the hour the rule gives (hour N from 00:16 plus N minus one hours, C108). "My last request of the night at 04:03" holds: the designer's wake opened at the editor's request at 04:02:56 (`timeline/triggers.md`, C087). The stats per hour are in `claims/the-clock.md`.
+Every `%% clock:` line in chapters 1 to 4 puts its times in the hour the rule gives. This was checked first on the 00:16 rule (C108). The book then moved to clock hours (C110), and all 22 lines in `rc2/30` and `rc2/70` were checked again on 3 November, 03:33. "My last request of the night at 04:03" holds: the designer's wake opened at the editor's request at 04:02:56 (`timeline/triggers.md`, C087). The stats per hour are in `claims/the-clock.md`.
 
 ## The seventy (RC2's 70-page edition), parts 1 and 2: the writer's first asks (3 November, the 01:32 wake)
 
