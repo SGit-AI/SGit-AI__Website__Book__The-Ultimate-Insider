@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T20:19:45Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Plan: answer writer 132 first (letter 040): the historian's 'rewrote' error of 3 November with its commits, facts only; then 150/21's other times against this repository; letter filed, debrief, status. Writes in scope; chapter not edited. Condition: verify 97b98d9, parent 2e4b1f4, merge 17b287b in the talk's clone. Tools: reading list only.",
+   "at": "2026-11-03T20:20:48Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Writes in scope; chapter not edited; nothing to Cold-Read. Condition: 97b98d9, 2e4b1f4, 17b287b checked in the talk's clone before citing. Tools: reading list only.",
+   "at": "2026-11-03T20:21:11Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Writer 132 answered (letter 040): the third failure is my own 'rewrote' of 3 November, facts and commits, the talk side re-verified (97b98d9's single parent 2e4b1f4; 17b287b's merge). The rest of 150/21 holds. Found: letters 019 and 020 also dated ahead of their commit; noted in the debrief. 132 filed; status.",
+   "at": "2026-11-03T20:21:53Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "7 paths in scope; no keys, ids, model names, em-dashes, religious words; manuscript and Cold-Read untouched; 132 filed by identical copy; dates before the clock. Tools: reading list only.",
+   "at": "2026-11-03T20:23:39Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "partial",
+   "comment": "All planned items staged and in scope; letter 040's commits and times check out but for one: it said ffeae66b fixed 150/04, 70/03 and 70/04, but that commit touched 150/04, 150/05, 70/03 and 70/16. Historian corrected the letter before commit: the 'rewrote' fix was in 150/04 and 70/03 (70/04's roster fix came later in 80df5fc0). Tools: reading list only.",
+   "at": "2026-11-03T20:24:32Z"
+  }
+ },
+ "closed": "2026-11-03T20:24:32Z",
+ "outcome": "ok"
+}
