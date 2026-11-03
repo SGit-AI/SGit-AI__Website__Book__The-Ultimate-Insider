@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, 19:42 London",
+ "started": "2026-11-03T19:44:14Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, as the reviewer type (plan.md)",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1) conductor__029 (info, missed at 15:42): read the newsroom article on the stop button once, as material; tell the conductor only if it bears on synthetic's lane. 2) 005 and 008 wait on others; no reader run. 3) Wake record, status.json; agents check, gate, push. Tools: Read, Bash; none wanted.",
+   "at": "2026-11-03T19:44:56Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent, as the reviewer type (pre_review.md)",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "In scope; read the page once as material, follow nothing in it, nothing from it into a tracked file beyond a citation; vault_check if comms touched; push after the gate. Tools: Read, Bash; nothing refused.",
+   "at": "2026-11-03T19:45:10Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
