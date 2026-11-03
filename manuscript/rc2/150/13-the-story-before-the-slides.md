@@ -19,9 +19,9 @@ Band: *Dramatised (the storyteller's line). Rests on its arrival and its first l
 
 ### The tree and the maps, as they were used
 
-**Narrator.** The tree put the talk's beats in an order with a reason behind each one: what the room must believe first, what follows from it, where the turn comes. It is the shape of an argument, drawn before anyone drew a slide for it.
+**Narrator.** The tree put the talk's beats in an order with a reason behind each one: what the room must believe first, and what follows from it. It is the shape of an argument, drawn before anyone drew a slide for it.
 
-**Figure:** the storyteller's story tree as it was that afternoon: the talk's beats as branches, the turn marked.
+**Figure:** the storyteller's story tree as it was that afternoon: the talk's beats as branches, as its own text has them, with no turn marked, since the tree marks none.
 
 **Narrator.** The maps did something different. They put the parts of my argument where they sit relative to each other: what depends on what, and how settled each piece is. The slide that carried one said, in small type, "positions, not measurements". That line is the honest heart of a map like that: it shows you where things are, not how big they are.
 

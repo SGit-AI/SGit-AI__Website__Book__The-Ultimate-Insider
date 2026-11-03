@@ -36,9 +36,9 @@ Band: *Dramatised (the historian's line, its last sentence the comparison's own 
 
 ### 1. Who wrote the unnamed commits
 
-**Narrator.** The player's commits of the afternoon and the lock tool name no member in their subjects. This book's first timeline called them unattributed and would not guess. The blind team read their trailers: each carries dev's session line, and, as this book then found on rechecking, dev's agent line too. So they are dev's on the record, not by inference. The register's count of commits by member now reads them that way.
+**Narrator.** Most of the player's commits of the afternoon, and the lock tool, name no member in their subjects. This book's first timeline called them unattributed and would not guess. The blind team read their trailers: each carries dev's session line, and, as this book then found on rechecking, dev's agent line too. So they are dev's on the record, not by inference. The register's count of commits by member now reads them that way.
 
-`%% record: timeline/cold-read-comparison.md (item 1: checked on 28fe01d, dbd75ad, 4a2481b, 3314ffe; rechecked 15:20, each with Agent: dev) C014 (its current reading) manuscript/rc2/150/17-what-did-not-work.md ("Work with no name on it")`
+`%% record: timeline/cold-read-comparison.md (item 1: checked on 28fe01d, dbd75ad, 4a2481b, and 3314ffe, which begins "@dev:"; rechecked 15:20, each with Agent: dev) C014 (its current reading) manuscript/rc2/150/17-what-did-not-work.md ("Work with no name on it")`
 
 ### 2. A second wake open at the hold
 
