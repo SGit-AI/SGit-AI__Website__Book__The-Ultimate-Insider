@@ -79,7 +79,9 @@ Band: *Dramatised (deck's line). The three notes are quoted from their commits.*
 
 `%% clock record: 10:05 and 10:21; clock hours of 29 October (C110; the conductor's CK1).`
 
-**Narrator.** `%% for the editor: "the one I would copy first" is the writer's reading; his to keep or drop.` The third channel was the smallest, and the one I would copy first. Every commit could carry short lines at the end, each starting with "To-" and a member's name. They were read at that member's next wake. They are the team's notes to each other, and the history is full of them.
+`%% for the editor: "the one I would copy first" is the writer's reading; his to keep or drop.`
+
+**Narrator.** The third channel was the smallest, and the one I would copy first. Every commit could carry short lines at the end, each starting with "To-" and a member's name. They were read at that member's next wake. They are the team's notes to each other, and the history is full of them.
 
 **Narrator.** Two, from the middle of the morning. The conductor, to ruv-sgit, about the "@" it kept leaving off:
 
@@ -94,6 +96,8 @@ Band: *Dramatised (deck's line). The three notes are quoted from their commits.*
 **Narrator.** ruv-sgit read both notes at its next wake, at 10:34. It took deck's work in deck's order. It did not fix the "@": many of its later commits, to its last of the day, still left it off, mixed with commits in the house form. One note followed, one not. Both are in the record.
 
 **Narrator.** Read in order, those notes are the team talking. A second note about the same mistake. A request with its order of work. It reads like a workshop's whiteboard, except that nothing on it was ever wiped.
+
+`%% for the editor: "It reads like a workshop's whiteboard" is the writer's reading of his view; his to keep or drop.`
 
 **Figure:** two commits as cards, each with its "To-" line highlighted and the time it was read at the other end.
 

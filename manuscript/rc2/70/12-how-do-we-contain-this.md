@@ -23,13 +23,13 @@ Band: *The hold as the wake rules define it, and the one hold of the day.*
 
 **Narrator.** Every member had a page of rules saying what it may change. That is its scope. And every member had a reach: what its session could actually change. They were not the same thing, and the team knew it. Studio put the code's own comment on a slide that evening:
 
-> "a scope is a setting, not a boundary; it catches mistakes, not a steered agent." *(record)*
+> "A scope is a setting, not a boundary: it catches mistakes, not a steered agent." *(record)*
 
 **Narrator.** Read that slowly. The scope check caught members that wandered out of their lane by mistake, and it caught some on the day. It did not, and could not, stop a member that had been talked into doing something else.
 
 **Studio** *(firm, as it says it)*: So it went on a slide. If the room is going to trust the factory, it should know exactly what our rules are and are not.
 
-`%% record: timeline/quotes.md (18:11, 95b09d9, quoting admin/build/agents.py) team/dev/ROLE.md at 298be4e ("The gap, and what stands in it") C025`
+`%% record: timeline/quotes.md (18:11, 95b09d9; the slide's own words: src/static/studio-ports/lab/abp-enforcement/index.html at 298be4e, quoting admin/build/agents.py) team/dev/ROLE.md at 298be4e ("The gap, and what stands in it") C025`
 Band: *Dramatised (studio's line). The quoted line is the slide's own, quoting the team's scope check.*
 
 ## The reviewer as a second reading
