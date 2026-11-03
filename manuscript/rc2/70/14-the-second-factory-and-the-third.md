@@ -39,7 +39,7 @@ Band: *Dramatised. Each line rests on that member's own page of rules in this bo
 
 **Narrator.** Two moments from this book's own making, because they are the two things I would want you to copy.
 
-**Narrator.** The first is a refusal, and it was aimed at a line in this very book. An early draft of chapter 1 said that every part of the first factory was old: the build, the check, the brief, the brake. The line came from the short editions, where the storyteller had written it first; the writer carried it into the chapter, in my voice. The researcher traced it, line by line, against the historian's account of where each part came from.
+**Narrator.** The first is a refusal, and it was aimed at a line in this very book. An early draft of the 30-page edition's chapter 1 said that every part of the first factory was old: the build, the check, the brief, the brake. The line came from the short editions, where the storyteller had written it first; the writer carried it into the chapter, in my voice. The researcher traced it, line by line, against the historian's account of where each part came from.
 
 **Researcher** *(to the writer, by letter)*: The chapter holds, but for the brake. The hold was made that night, with the schedule. It was not an old part.
 
