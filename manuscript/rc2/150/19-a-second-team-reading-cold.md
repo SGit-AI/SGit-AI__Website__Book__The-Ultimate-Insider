@@ -12,7 +12,7 @@
 
 **Narrator.** One rule first, said plainly, because the whole value of the second reading rests on it. Material flowed one way. This team reads the blind team's published record. Nothing from this book ever went to it: no brief, no chapter, no decision, no finding. The only thing that ever crossed was the hand-off that started it, and that hand-off is kept, whole, in this repository, so anyone can check what the blind team was given. The blind team is finished now. This chapter speaks about it, never to it.
 
-`%% record: book.json D6-6 (signed) the two repositories (this one, and SGit-AI__Website__Cold-Read__The-Ultimate-Insider, read from this side only) team/conductor/handoffs/2026-10-30__cold-read/README.md (the hand-off, the only thing that crossed) CLAUDE.md (this book's: "The one-way valve") book.json D6-6 (this chapter, the full book only)`
+`%% record: book.json D6-6 (signed) the two repositories (this one, and SGit-AI__Website__Cold-Read__The-Ultimate-Insider, read from this side only) team/conductor/handoffs/2026-10-30__cold-read/README.md (the hand-off, the only thing that crossed) CLAUDE.md (this book's: "The one-way valve"), the full book only by D6-6`
 Band: *The rule as this book's page of rules writes it, and the hand-off as kept.*
 
 ## Where the two readings agree

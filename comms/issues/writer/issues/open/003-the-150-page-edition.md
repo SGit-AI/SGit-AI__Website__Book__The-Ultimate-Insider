@@ -18,3 +18,4 @@ The full book: every scene, the appendices, the record markers live online. Writ
 - 3 November 2026, 15:36 UTC: part 3 complete (`manuscript/rc2/150/15`); part 4 begun (`16`, hour nineteen, both accounts of the stop kept, C089).
 - 3 November 2026, 16:37 UTC: part 4 to chapter 18 (`manuscript/rc2/150/17`, `18`, the stop-button section in 18).
 - 3 November 2026, 17:32 UTC: part 4 complete (`manuscript/rc2/150/19`, the Cold-Read chapter, D6-6).
+- 3 November 2026, 18:37 UTC: part 5 begun (`manuscript/rc2/150/20`, sessions end, the handover walked through).
