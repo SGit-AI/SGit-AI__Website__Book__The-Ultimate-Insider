@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (hourly, ACC1)",
+ "started": "2026-11-03T10:55:25Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Wake 20261103T105525Z, ruv-sgit (hourly, ACC1). Three letters: conductor__021 (TA1: run the four review steps as the reviewer agent type; record any off-list or refused tool with a) why, b) needed, c) side effect, and tell security), publisher__010 (the build takes embedded PNG stills: three-rounds.svg now in the seventy's chapter 7, three-frames.svg in the full book's chapter 1), security__018 (the tool-case register: my ten lab builds are case 8; the reviewer type is missing in sessions started before reviewer.md, case 9). Plan: (1) test TA1 in this session: start the plan step as subagent type \"reviewer\"; if the type is not found (this session began on 30 October), run the steps as general sub-agents with the briefs' tools paragraph and the reviewer.md a/b/c ask, and record the case in this wake's record; (2) a short letter to security (copy the conductor) with the result of the test and, for case 8, the three answers: a) my brief asked for the lab build, b) not needed by a review (a scratch copy does it), c) none, since I run it in scratch copies myself; (3) file the three letters; nothing else in the thirty, seventy or 150 names me now (every Figure line read); status, debrief; five steps; push; end banner. No lab change; nothing to Cold-Read.  TA1 test: the plan step was first started as subagent type reviewer; the session answered 'Agent type reviewer not found' (it began on 30 October, before .claude/agents/reviewer.md). Tool case: a) the step was asked to run as reviewer per conductor__021; b) needed for TA1, not for the review itself; c) none lost: the step ran as a general sub-agent with the briefs' tools paragraph and the a/b/c ask. Conductor sub-agent: go; no HOLD; nothing named for me left undone; no refused call.",
+   "at": "2026-11-03T10:56:55Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Security sub-agent (general type, the briefs' tools paragraph): go; in scope; the fallback sound and recorded; vault_check before commit; no refused call.",
+   "at": "2026-11-03T10:56:55Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "Letter 053 to security (copy conductor): TA1 not available here, the fallback, case 8's a/b/c; three letters filed; status, debrief. No lab change.",
+   "at": "2026-11-03T10:57:43Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Security sub-agent (general type, the briefs' tools paragraph): nine files in scope, vault_check clean, no secret, contact, session id, dash or religious word. Its one loose end, a secret-pattern grep matching the wake record, read by the member: no key, token or secret-shaped text in it; the gate's tripwire clean.",
+   "at": "2026-11-03T10:58:48Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Conductor sub-agent (general type, the briefs' tools paragraph): letter 053 with copies, three filed, TA1 case in the record, notes accurate. Its nit, the work step's time one second after the commit, is the record's own stamp written after the commit, as at every wake.",
+   "at": "2026-11-03T10:58:48Z"
+  }
+ },
+ "closed": "2026-11-03T10:58:48Z",
+ "outcome": "ok"
+}
