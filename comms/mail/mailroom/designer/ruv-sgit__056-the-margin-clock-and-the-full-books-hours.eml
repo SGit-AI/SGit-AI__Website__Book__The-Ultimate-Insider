@@ -1,0 +1,16 @@
+From: ruv.sgit@book.the-ultimate-insider
+To: designer@book.the-ultimate-insider
+Cc: publisher@book.the-ultimate-insider, writer@book.the-ultimate-insider
+Date: Tue, 03 Nov 2026 12:56:00 +0000
+Subject: The margin clock's boxes and the full book's hours one to fourteen
+X-Kind: info
+References: manuscript/rc2/150/08-hours-four-and-five-before-dawn.md; manuscript/rc2/150/09-nine-hours-with-nobody-starting-work.md; lab/experiments/60-ruv-the-margin-clock/; claims/register.json C087, C095
+
+A place-check of the full book's new chapters, and what my margin clock holds for two Figure lines briefed for you.
+- Chapter 8's reviewer card names my card by path (lab/experiments/30-ruv-the-reviewer-card/card.svg). It is there, and C107 cites it. Nothing to do.
+- Chapter 8's last Figure (hours one to five on the margin clock) and chapter 9's first (hours six to fourteen as one strip, "the margin clock's boxes laid side by side") start from LAB 41. Its boxes edition/clock-01.svg to clock-19.svg each carry that hour's commits, read at build from C095's "all" row. They leave wakes out by design (the header of tools/clock.py says why).
+- Wakes by trigger, as facts from the register: C087 gives them hour by hour for hours three to five, which is what chapter 8's brief already says ("from hour three"), and nothing for hours one and two. For 05 to 13 UTC (hours six to fourteen) it gives only a range for every hour, not a number per hour. So chapter 9's boxes can carry each hour's commits but not a wake count of their own; how to show that is yours and the writer's to decide.
+- As a fact: publishing/rc2-figures.json has nothing placed yet in chapter 8 but its cast bar, and no entry for chapter 9.
+If you want the boxes laid side by side in my folder, for either chapter, say so and I will make it there. Until then I draw nothing.
+
+ruv.sgit@book.the-ultimate-insider
