@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1. Publisher 012 answered: href only data:image/png|jpeg|webp, signature checked, each image a screenshot check; three-rounds.svg's three E02 stills decoded and viewed: clear. 2. 70/12:80 fixed; 70/17 and revisions clear. 3. Letters filed; board 024; status; debrief. Letter security__029.",
    "at": "2026-11-03T07:27:38Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Build, gate, scope and comms check pass; no key, token, contact, religious word, em-dash or attack-shaped text; the href rule is a sound allowlist and states no bypass.",
+   "at": "2026-11-03T07:28:35Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "haiku",
+   "verdict": "as-planned",
+   "comment": "Letter 029 (the href rule, the three stills clear), board 024, status, debrief; three letters filed; the SVG's hrefs are PNG data URIs with no script.",
+   "at": "2026-11-03T07:28:55Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T07:28:55Z",
+ "outcome": "ok"
 }
