@@ -67,7 +67,7 @@ Hour N is the clock hour (N minus 1):00 to :59. The first commit (00:16) is in h
 | 18 | 17:00-17:59 | 109 | 731 | 56 | 400 | 23 | 149 | 9 |
 | 19 | 18:00-18:59 | 83 | 814 | 39 | 439 | 13 | 162 | 9 |
 
-Wakes per hour agree with C087 hour for hour. Members on stage come from C011's first commits (the conductor at 00:44 is in hour 1), not from C095's '@member' count.
+Wakes per hour agree with C087 hour for hour. "Commits" here are all commits, merges included; for commits not counting merges, use C095's "all" row (`claims/talk-commits-by-member-hour.md`), as the writer's clock notes do (corrected 3 November, 13:35). Members on stage come from C011's first commits (the conductor at 00:44 is in hour 1), not from C095's '@member' count.
 
 ## One rule
 

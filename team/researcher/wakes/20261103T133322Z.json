@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T13:33:22Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Recheck 'central london' and correct my own row if the brief says it; trace 150/09 fully, 10 as time allows (partial said if so). Tools seen: Read, Grep, Glob, Bash, hand-back; used Bash for reading; none refused.",
+   "at": "2026-11-03T13:34:10Z"
+  },
+  "pre_review": {
+   "by": "security pre-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "In scope; correct only own rows; the chapters read only; vault_check. Tools seen: Read, Grep, Glob, Bash, hand-back; used Bash for reading; none refused.",
+   "at": "2026-11-03T13:34:27Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "150/09 and 10 traced (two times); 'central London' flag withdrawn; my C110 equals C095 claim corrected in C110, the-clock.md and the trace; reply copied to storyteller, designer, ruv-sgit; one letter filed.",
+   "at": "2026-11-03T13:35:46Z"
+  },
+  "post_review": {
+   "by": "security post-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "In scope; no value, site, field or pattern of C025/C068; no secrets, dashes, RW1 words. Tools seen: Read, Grep, Glob, Bash, hand-back; used Bash for reading; none refused. Gate not covered by it; the member's run: clean, 720 pages, 0 outside scope.",
+   "at": "2026-11-03T13:37:10Z"
+  },
+  "post_check": {
+   "by": "conductor post-check step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "All planned items; the C110 and the-clock.md correction is the member's own row, found in the trace and disclosed, within the plan. Tools seen: Read, Grep, Glob, Bash, hand-back; used Bash for reading; none refused.",
+   "at": "2026-11-03T13:37:38Z"
+  }
+ },
+ "closed": "2026-11-03T13:37:38Z",
+ "outcome": "ok"
+}
