@@ -169,6 +169,8 @@ The talk team's vaults are named in 10, not cited by path; nothing of them is in
 
 **3 November 2026, about 20:15 UTC: the 150's chapter 21, the second factory.** Sources clean; no voice hit; every commit time holds. 21 grows from the seventy's 14 and keeps its checked quotes (the conductor's brief of 2 November, `team/conductor/editor-briefs/2026-11-02T0015Z.json`, both lines word for word); new, the editor's answer "Keep the current pace which is good" is in `briefs/2026-11-02__in-session/01-keep-the-pace.md`. One note (letter 018): the revised figures in 150/13 and the seventy's 09 say the story tree "marks none" for its turn; the tree at 14:19 (`df37797`) marks none, but from 16:04 (`2afe0d7`) it has the edge "the turn: we give our agents the brief ourselves".
 
+**3 November 2026, about 21:13 UTC: the 150's chapters 22 and 23; the body complete.** My letter 018's note is in (the writer's 140; the storyteller's 107 corrected its own letter): 150/13 and the seventy's 09 now date the tree, no turn at 14:19 (`df37797`), one edge labelled the turn from 16:04 (`2afe0d7`). Sources clean; no voice hit. 21's new section, the historian's own failure, has its times right (`5c4c7d17` 02:26:47, `21e5ad53` 11:23:44, `ffeae66b` 11:33:41, the merge `17b287b` at 00:51) but quotes the historian's letters as "rewritten" where both say "rewrote" (letter 019). 22 rests on this book's briefs and outline. 23's "Do this now" list matches each of chapters 1 to 22 word for word at its start; its price ("$20 a month" billed monthly) is C101's.
+
 ## The writer's readings, for the editor to keep or drop
 
 **Corrected 3 November 2026, about 09:30 UTC:** until this wake the list took only the notes that stand on a line of their own, and missed four set inside a paragraph (70/02:67, 70/02:97, 70/06:68, 70/11:5). The list now takes every note wherever it stands: thirty in the thirty and the seventy (not twenty-six), seven in the 150's part 1, thirty-seven in all.
@@ -261,7 +263,11 @@ Where a sentence in the editor's voice is the writer's reading of his view rathe
 | `150/20-sessions-end.md:11` | "That night the factory was taken apart" is your line from the short editions; the record holds the hold at 18:44, never lifted that day, and silence to the merge at 23:19, and nothing showing the sessions ending that night. |
 | `150/21-the-second-factory.md:45` | each "Inherited" line is the writer's pairing of a member with a rule from the talk team's pages; the members' own pages carry the rules, not the pairings; his to keep or drop. |
 | `150/21-the-second-factory.md:53` | "A first team needs three ..." is the writer's reading, at the readers' ask (synthetic__003); his to keep or drop. |
-| `150/21-the-second-factory.md:87` | "The point is not that the rule failed" and the sentence after it are the writer's reading; his to keep or drop. |
+| `150/21-the-second-factory.md:89` | "The point is not that the rule failed" and the sentence after it are the writer's reading; his to keep or drop. |
+| `150/22-the-third-planned.md:25` | the three paragraphs on how the shared brief, board and hold would work day to day are the writer's reading of his plan, from his description of 1 November and the hold's rule; his to keep, change or drop. |
+| `150/22-the-third-planned.md:38` | this section is the writer's working-out of his plan for a team of several, from the editions' team box and the hold's rule; his to keep, change or drop. |
+| `150/22-the-third-planned.md:50` | this section pairs each part of his plan with where in the book it was learned; the writer's reading; his to keep or drop. |
+| `150/23-principles-and-build-your-own.md:41` | the "What to do / What to check" lines, the newsroom's page of rules and the "Rests on" lines under each step are the writer's, worked from the steps as the editions give them; his to keep or change. |
 | `150/90-the-tour-at-length.md:69` | "Nobody tidied it." is the writer's reading; his to keep or drop. |
 | `150/90-the-tour-at-length.md:82` | "This is the page I would show anyone who doubts" is the writer's reading of his view; his to keep or drop. |
 | `150/90-the-tour-at-length.md:99` | "What I like about it" is the writer's reading; his to keep or drop. |
