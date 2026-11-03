@@ -33,7 +33,7 @@ Band: *Dramatised (the researcher's line). The talk's own register of claims, as
 
 **Narrator.** The check does not care who made the change, or how sure they were. That is the point of it. A member that is certain its work is fine still has to pass the same test as one that is not.
 
-**Narrator.** One example from the first night. At about a quarter past one, the check stopped dev's release until two members' pages of rules carried a rule I had just asked for: every session report opens and closes with a banner. Dev added the lines; the release went out.
+**Narrator.** One example from the first night. At about twenty past one, the check stopped dev's release until two members' pages of rules carried a rule I had just asked for: every session report opens and closes with a banner. Dev added the lines; the release went out.
 
 `%% record: 24da366 (about 01:19) team/dev/debriefs (the-board.md: "the gate the conductor added at the editor's rule refused the release without it"); historian__022`
 

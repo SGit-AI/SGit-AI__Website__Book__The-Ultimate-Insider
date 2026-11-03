@@ -4,7 +4,7 @@
 
 **Clock:** Hour three.
 
-`%% clock record: 02:00 to 02:59 on 29 October: the five-step wake from 02:14, the first caught at 02:19, the first scheduled wake at 02:33, the freeze at 02:47, the gate's record check at 02:51; clock hours of 29 October (C110; the conductor's CK1).`
+`%% clock record: 02:00 to 02:59 on 29 October: the five-step wake from 02:14, the first caught at 02:19, the first scheduled wake with a record at 02:33, the freeze at 02:47, the gate's record check at 02:51; clock hours of 29 October (C110; the conductor's CK1).`
 
 ## A wake that checks itself
 
@@ -100,7 +100,7 @@ Band: *Dramatised (ruv-sgit's line). Rests on its first scheduled wake record an
 
 `%% for the editor: "I do not regret the freeze" and the reason given for it are the writer's reading of his view; his to keep or drop.`
 
-`%% record: 75ddb3e (02:10, the researcher's first round) 79b6709 (02:20, deck's first items; C031: "after deck had already released the earlier items of the same list at 02:20") team/deck/requests/researcher__before-tonight.md (deck's 03:00 update, quoting the editor at 02:47) 91772e6 (D01) a082c52 (02:52, the exact text) 60af587 (02:47, the programme) C031 (its beginning: the proposal five minutes after the freeze; its cost is told in part 4)`
+`%% record: 75ddb3e (02:10, the researcher's first round) 79b6709 (02:20, deck's first items; C031: "after deck had already released the earlier items of the same list at 02:20") team/deck/requests/researcher__before-tonight.md (deck's 03:00 update, quoting the editor at 02:47) 91772e6 (D01) a082c52 (02:52, the exact text) 60af587 (02:52, the programme, in the wake opened at 02:47) C031 (its beginning: the proposal five minutes after the freeze; its cost is told in part 4)`
 Band: *Dramatised (the researcher's line). My words are as deck recorded them; the times are the commits'.*
 
 ## What the hour leaves

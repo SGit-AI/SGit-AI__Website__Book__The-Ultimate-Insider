@@ -8,7 +8,7 @@
 
 `%% clock record: 00:16; clock hours of 29 October (C110; the conductor's CK1).`
 
-**Narrator.** A quarter past midnight: an empty project. Not a template, not a half-built site from last time. A new repository with a licence, a short read-me and almost nothing else. Its first commit says "Initial commit", and that is all it says.
+**Narrator.** A quarter past midnight: an empty project. A new repository with a licence, a read-me and a file list, and nothing else. Its first commit says "Initial commit", and that is all it says.
 
 *Words for this page:* a **repository** is the project's folder, with its whole history kept. A **commit** is one saved change to it, with a time and a short message saying what changed.
 
@@ -42,7 +42,7 @@ Band: *The page of rules as it stood in dev's first commit at 00:40, quoted with
 
 ## The brief, the reality and the corrections
 
-**Narrator.** The second file is the brief. It is my own request, typed into a session at midnight, published in full and never edited afterwards. It asks for a site and a presentation for a talk in central London, points at earlier sites I had built and at a newsroom run by agents, and asks for a first pass and a first article. Its first line, as typed, says the talk is tomorrow. By then it was today.
+**Narrator.** The second file is the brief. It is my own request, given in the project's first session, published in full and never edited afterwards. In its own words it asks for "the site and presentation" for a talk "that I'm delivering tomorrow in central london", points at "what we did at ruv.sgit.ai" and at "the agentic team we are using at newsroom.sgit.ai", and asks for "a first pass of the site" and "the first article". By the time the project existed, tomorrow was today.
 
 **Narrator.** The third is the reality file. Its second sentence is the one I would copy into any project:
 
@@ -69,7 +69,7 @@ Band: *Dramatised. Dev's lines rest on its first commit at 00:40 and the four fi
 
 **Narrator.** The point is not any one of those checks. It is that the agent does not decide whether its own work is fit to ship. The check does, every time, the same way.
 
-**Narrator.** It held its line from the first night. At about a quarter past one, it stopped dev's own release until two members' pages of rules carried a rule I had just asked for, that every session report opens and closes with a banner. Dev added the lines, and the release went out.
+**Narrator.** It held its line from the first night. At about twenty past one, it stopped dev's own release until two members' pages of rules carried a rule I had just asked for, that every session report opens and closes with a banner. Dev added the lines, and the release went out.
 
 `%% record: 24da366 (about 01:19) team/dev/debriefs (the-board.md: "the gate the conductor added at the editor's rule refused the release without it"); historian__022`
 `%% record: 1f7c633 (admin/build/validate.py as first committed)`
