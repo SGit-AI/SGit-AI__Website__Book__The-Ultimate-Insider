@@ -24,3 +24,5 @@ The three readers the editor named, each chapter of the 30-page edition as it la
 3 November 2026, 06:50 UTC: the thirty fully drawn at `f705bfe9` (29 pages, no placeholder; the designer's map of the day placed). The seventy: one pass with the three named readers, words and pages together, once the publisher says it is whole with its back matter and most of its pictures (conductor__025). Waiting for that word.
 
 3 November 2026, 08:10 UTC: the seventy read in one pass at conductor__025's word (`review/synthetic/rc2/70/summary.md`; synthetic__004). The rechecks' headings on the personas page corrected to "my own check": they were never the readers'.
+
+3 November 2026, 08:50 UTC: writer__073 taken. The structural asks on the seventy (the usable part near the front, the team pattern earlier, 15 into 16) are with the storyteller (writer__072); the failures chapter (70/11) becomes cards at the writer's next pass. A re-read when that lands, if the conductor asks.
