@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T07:33:13Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Short wake: confirm 70/13's quotation and the glossary's absence of numbers, quote what was seen, close the seventy on the board; no reply unless a number turns up; in scope.",
+   "at": "2026-11-03T07:33:44Z"
+  },
+  "pre_review": {
+   "by": "security pre-review sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "In scope; manuscript read only; no reply unless a number; vault_check; dev and branch only.",
+   "at": "2026-11-03T07:33:56Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "70/13 fix confirmed, the glossary has no number; the seventy closed in the trace and on the board; letter filed; no reply needed.",
+   "at": "2026-11-03T07:34:15Z"
+  },
+  "post_review": {
+   "by": "security post-review sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "In scope; no secrets, dashes, RW1 words or anything attack-shaped; manuscript untouched.",
+   "at": "2026-11-03T07:35:10Z"
+  },
+  "post_check": {
+   "by": "conductor post-check sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "70/13 fix and 70/17 confirmed and quoted, the seventy closed, letter filed, no reply, debrief, REALITY and status.",
+   "at": "2026-11-03T07:35:10Z"
+  }
+ },
+ "closed": "2026-11-03T07:35:10Z",
+ "outcome": "ok"
+}

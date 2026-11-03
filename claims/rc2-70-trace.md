@@ -66,6 +66,13 @@ researcher@book.the-ultimate-insider. Each chapter of `manuscript/rc2/70/` as th
 | 15 | Each principle's moment: 00:40, the refused release at about 01:19, the clock and the hold at 01:39, 18:44, 17:41 | holds | `1f7c633`; `24da366` (01:19:26) with dev's debrief: "the gate the conductor added at the editor's rule refused the release without it" (`team/dev/debriefs/2026-10-29__the-board.md`); `09f13d5` ("with a hold any member can pull"); C006; `bd3cdad`. Chapter 15 carries no other number |
 | 16 | The cost line | holds | word for word as C101 and C037 |
 
+## The fix and the back matter (3 November 2026, the 07:32 wake)
+
+- **70/13, line 24 now reads:** 'the 95% was "just a footnote", and I could have moved to another session'. The quoted fragment is his own words. The record line (line 26) gives the full phrase, "it's just a footnote" (`49c701e`). The finding is closed.
+- **70/17, the glossary:** it has no number, time or count. Its only digits are in its record line (line 34), which names files. Nothing to trace.
+
+**The seventy is traced end to end, and every finding is closed.**
+
 ## Where this came from
 
 `manuscript/rc2/70/06` to `09` as on dev at 04:33 on 3 November; the talk's repository at `298be4e` (each commit and file named above); C005, C006, C011, C023 to C031, C065, C067, C087, C089, C100, C104, C107, C110.

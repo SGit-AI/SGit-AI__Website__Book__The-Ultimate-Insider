@@ -28,3 +28,5 @@ RC2 is signed (RP1, CV2): the 30-page edition first, then the 70 and the 150, in
 3 November, 05:38: the seventy's part 4 (10 to 12) traced, all holds (`researcher__009`).
 
 3 November, 06:36: the seventy's part 5 (13 to 16) traced: one quotation in 13 to fix (`researcher__010`). The seventy traced end to end, but for that line.
+
+3 November, 07:35: the seventy closed: 70/13's quotation fixed, the glossary (70/17) carries no number. Open: the 150 as it lands.
