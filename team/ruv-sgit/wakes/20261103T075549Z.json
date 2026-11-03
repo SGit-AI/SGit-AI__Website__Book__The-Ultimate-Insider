@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (hourly, ACC1)",
+ "started": "2026-11-03T07:55:49Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Wake 20261103T075549Z, ruv-sgit (hourly, ACC1). Three letters: conductor__019 (the seventy's chapter 2 map slide and chapter 5 wake clock with verdicts are mine), publisher__008 (the drawn three rounds placed; the stills version may switch in when the researcher confirms the counts), security__016 (embedded raster stills allowed on conditions; my three cleared). Plan: (1) chapter 2's \"storyteller's map slide: the pioneers, settlers and town planners, with 'positions, not measurements' written on the slide itself\": that slide is already a cleared screenshot, index/talk-site/shots/talk__slides__maps__evolution.jpg (the build's SHOT_OK kind \"talk\"), so I draw nothing and send the publisher its path: the real slide is truer than a redraw. (2) Chapter 5's \"five-step wake on the clock, with one real wake's verdicts filled in: go, go, partial, finding, partial\": the one record at 298be4e with exactly those verdicts is the conductor's first wake (team/conductor/wakes/20261029T021416Z.json, started 02:14:16, C022's first); a new folder lab/experiments/64-ruv-one-wake-on-the-clock/ (proposed header, id asked): a clock face with each member's minute (C071), the conductor's lit, and the five steps around it with that wake's verdicts as chips; the time 02:14 from C022; no other number; 164 mm wide, 9 pt; checked by rendering and against the build's UNSAFE_SVG rule. (3) Letters: the publisher (both paths), copies to the conductor and designer; the researcher asked to confirm C084/C086 for the stills version (security__016). (4) Records, five steps, push, end banner. Nothing outside ruv's paths; nothing to Cold-Read.  Conductor sub-agent: go; the screenshot answers the Figure line exactly; the 02:14 wake is the one chapter 5 names; condition: label the clock face as the day's schedule (C071), not the schedule at 02:14.",
+   "at": "2026-11-03T07:59:15Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Security sub-agent: go; paths in scope; 64- free; no HOLD; the shot passes SHOT_OK and avoids SHOT_NEVER, only the talk's own labels; the new SVG pure vector with no href; nothing to Cold-Read.",
+   "at": "2026-11-03T07:59:15Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
