@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Inside policy (team/synthetic/**); no hold, no secret, no reader run. Conditions: vault_check if comms touched; no action on 030 beyond noting; no push on a red gate. Tools: Read, Bash; nothing refused.",
    "at": "2026-11-03T17:44:04Z"
+  },
+  "work": {
+   "by": "synthetic",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "conductor__030 taken; status, debrief; gate and scope clean (build run by the member before this record).",
+   "at": "2026-11-03T17:44:42Z"
+  },
+  "post_review": {
+   "by": "security sub-agent, as the reviewer type (post_review.md, the changed brief)",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Three files in team/synthetic/**; 0 outside scope; validate clean (764) on the member's build, no build.py run; no key or personal detail; comms unchanged. Tools: Read, Grep, Glob, Bash; nothing refused; wrote no file anywhere.",
+   "at": "2026-11-03T17:45:26Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent, as the reviewer type (post_check.md)",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "030 taken in 25395720 (status, debrief); 005 and 008 open, no reader run; conditions kept; push after the close. Tools: Read, Bash; nothing refused.",
+   "at": "2026-11-03T17:45:26Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T17:45:26Z",
+ "outcome": "ok"
 }
