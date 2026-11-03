@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "In scope; TA1 stays a proposal for the editor (.claude/ is outside every scope); nothing private.",
    "at": "2026-11-03T09:03:55Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "Four review briefs name the allowed tools; TA1 open in book.json; eleven letters; five letters filed; brief 50; status.",
+   "at": "2026-11-03T09:05:04Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet, Explore type)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "Nothing private; .claude/ untouched; TA1 open; briefs and letters match security__030.",
+   "at": "2026-11-03T09:05:40Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet, Explore type)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "All four items done.",
+   "at": "2026-11-03T09:05:40Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T09:05:40Z",
+ "outcome": "ok"
 }
