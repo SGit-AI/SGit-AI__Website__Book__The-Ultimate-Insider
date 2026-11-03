@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake (19:47 slot)",
+ "started": "2026-11-03T19:49:45Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; Bash only)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Approved: lists built without the map script; the asks card as an override for 70/09 and 150/12, then rc2_map.py (designer 116); 21 after 20, before 90; rebuild, check; the list check runs build_book.py only from now; letters, records, gates. The early map run, reverted before this plan, is recorded. No HOLD.",
+   "at": "2026-11-03T19:50:21Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; Bash only)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope; no HOLD; the tree holds only the wake record; the 3 SVGs drawings only (one internal url), no private detail. Conditions: lab/ read only; vault_check; gate before dev. (It called rc2_map.py the designer's; it is the publisher's.)",
+   "at": "2026-11-03T19:50:46Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "The asks card as an override, rc2_map.py run after the gate (the early run before it reverted, recorded); 21 after 20; thirty 29, seventy 61, full 99; letters 035, 016, 026; inbox, board 007, records; vault_check and gate clean.",
+   "at": "2026-11-03T19:52:31Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; Bash only, none refused)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Gates clean; 16 staged files in scope; nothing under rc2, lab, chapter-plan, briefs, .github or src; no key, contact, private name, directing text, em-dash, religious or attack words; lab/ only read.",
+   "at": "2026-11-03T19:53:23Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Every item done; conditions kept; the early map run before the gate, its revert and the fix disclosed in the debrief.",
+   "at": "2026-11-03T19:53:23Z"
+  }
+ },
+ "closed": "2026-11-03T19:53:23Z",
+ "outcome": "ok"
+}
