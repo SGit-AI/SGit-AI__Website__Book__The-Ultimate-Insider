@@ -14,7 +14,7 @@
 
 **Narrator.** Two things in that, and the rest of this part is about both. Pressing play, instead of explaining. And rounds of fine-tuning: this does this, but the message is missing, again.
 
-`%% for the editor: the four sentences from "It sounds small." to "Those were exactly the ideas I wanted to get across." are the writer's reading of his view, beyond the voice note; not yet his words until he keeps them.`
+`%% for the editor: the five sentences from "It sounds small." to "Those were exactly the ideas I wanted to get across." are the writer's reading of his view, beyond the voice note; not yet his words until he keeps them.`
 
 **Narrator.** It sounds small. It is not. Every minute I spend narrating an arrow is a minute the room is listening to me describe a picture instead of thinking about the idea. And the harder the idea, the more of it lives in the movement: how something spreads, where it stops, what changes when you add more of it. Those were exactly the ideas I wanted to get across.
 
@@ -26,7 +26,9 @@
 
 ## Pressing play
 
-`%% clock: hour nineteen: the change at 18:26; the talk due at 19:00, as hour nineteen ends. Clock hours of 29 October, hour one 00:00 to 00:59, as the register's hourly tables (C087, C095) and the storyteller's outline count them; to print as a **Clock:** line once the researcher amends C108 to this count (writer__038).`
+**Clock:** Hour nineteen.
+
+`%% clock record: the change at 18:26; the talk due at 19:00, as hour nineteen ends; clock hours of 29 October (C110; the conductor's CK1).`
 
 **Narrator.** On 29 October I gave a talk where I mostly did not have to do that. When a thing had to move, I pressed play and it moved.
 
@@ -46,7 +48,9 @@
 
 **Narrator.** The page did the explaining there too. The room saw a real policy page, not my description of one.
 
-**Figure:** the policy review page as it was on the screen: one agent's policy, item by item, with a verdict beside each (`index/talk-site/shots/studio-ports__abp-review.jpg`).
+**Figure:** the policy review page as it was on the screen: one agent's policy, item by item, with a verdict beside each (`index/talk-site/shots/studio-ports__abp-review.jpg`). One line on the page says I had agreed all ten policies by 17:40; the files say eight of ten by the end of the day.
+
+`%% record: C072 (eight of ten agreed) C081 (the page's "all ten" contradicted by the files); security__006 (the QR opens a public page of the talk's site)`
 
 `%% figure brief: The talk's own page, from the librarian's screenshot index/talk-site/shots/studio-ports__abp-review.jpg, if the build's rule for screenshots allows it.`
 
@@ -62,7 +66,9 @@ Band: *The quoted passage is my own, from the transcript of the talk at 15:50 on
 
 ## The loop
 
-`%% clock: hours fourteen to nineteen: the player from about 13:50 to the last fix at 18:37. Clock hours of 29 October, hour one 00:00 to 00:59, as the register's hourly tables (C087, C095) and the storyteller's outline count them; to print as a **Clock:** line once the researcher amends C108 to this count (writer__038).`
+**Clock:** Hours fourteen to nineteen.
+
+`%% clock record: the player from about 13:50 to the last fix at 18:37; clock hours of 29 October (C110; the conductor's CK1).`
 
 **Narrator.** That last change is the real story. Not the animation: the loop.
 
@@ -85,18 +91,22 @@ Band: *Rests on the player named his main priority (about 13:50), its port (15:0
 
 **Narrator.** I am not claiming the day lived up to that. A change came back within the hour, not with the next keystroke. But the direction is the same. The distance between what I meant and what the room would see got short enough that I stopped compromising and started fine-tuning, round after round.
 
-**Narrator.** So what did "immediate" mean on the day? Here is the honest version, from the record. In the last hour and a half before the talk, I made eight asks that carry my own time in their commit subjects. The first four went through the conductor, each routed within a few minutes. The last four were fixes to the player. The one I asked for at ten past six was in at quarter past. The one at quarter past six was in within a minute. The last, at 18:25, took twelve minutes, and landed at 18:37.
+**Narrator.** So what did "immediate" mean on the day? Here is the honest version, from the record, and the card below has every time. In the last stretch before the talk, every ask I made came back in minutes: the quickest inside one, the slowest in about a quarter of an hour.
 
-**Narrator.** That is not Victor's keystroke. It is minutes, and sometimes the better part of a quarter of an hour. But it is a round trip I could make while the thing was still mine to change. With slides, I made that trip alone, and usually once.
+**Narrator.** That is not Victor's keystroke. It is minutes. But it is a round trip I could make while the thing was still mine to change.
+
+`%% for the editor: "With slides, I made that trip alone, and usually once." is the writer's reading of his view; his to keep or drop.`
+
+**Narrator.** With slides, I made that trip alone, and usually once.
 
 **Figure:** one ask's round trip drawn to the clock: my ask at 18:25, the commit that answered it at 18:37, and the hold at 18:44 at the edge of the picture.
 
 `%% figure brief: Beside it, the eight asks as a small table, each with its time asked and its time back. For the designer; the times from the register, in the card.`
 
-`%% record: C105 C088 C104 lab/experiments/29-ruv-the-afternoon-loop/`
+`%% record: the card's times: C105 (the eight asks: 17:27, 17:30, 17:35 and 17:45 routed within minutes; 18:10 back at 18:14; 18:15 within a minute; 18:25 back at 18:37) C104 (the feedback round) C088 lab/experiments/29-ruv-the-afternoon-loop/`
 Band: *My afternoon asks with my own time in their commit subjects, and when each came back, as the register holds them.*
 
-**Narrator.** That is what I mean by control of my medium: seeing the effect of a change while I could still do something about it.
+**Narrator.** That is what I mean by control of the medium, as I put it when I started this book: seeing the effect of a change while I could still do something about it.
 
 `%% record: C103`
 Band: *Bret Victor's words as published; the talk named and dated as the register holds it (CUSEC 2012).*

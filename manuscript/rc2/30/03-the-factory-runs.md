@@ -4,7 +4,9 @@
 
 ## The empty chair
 
-`%% clock: hours five to fourteen: no wake of mine from 04:03 to about 13:50. Clock hours of 29 October, hour one 00:00 to 00:59, as the register's hourly tables (C087, C095) and the storyteller's outline count them; to print as a **Clock:** line once the researcher amends C108 to this count (writer__038).`
+**Clock:** Hours five to fourteen.
+
+`%% clock record: no wake of mine from 04:03 to about 13:50; clock hours of 29 October (C110; the conductor's CK1).`
 
 **Figure:** the day by trigger: hour by hour, two colours, the wakes the factory's own clock started and the wakes I started.
 
@@ -19,7 +21,9 @@ Band: *The wakes started by the schedule and by me, hour by hour; no wake from j
 
 ## The argument with a reviewer
 
-`%% clock: hour five: 04:11. Clock hours of 29 October, hour one 00:00 to 00:59, as the register's hourly tables (C087, C095) and the storyteller's outline count them; to print as a **Clock:** line once the researcher amends C108 to this count (writer__038).`
+**Clock:** Hour five.
+
+`%% clock record: 04:11; clock hours of 29 October (C110; the conductor's CK1).`
 
 `%% for the editor: "and it is my favourite" is the writer's reading of his view; his to keep or drop.`
 
@@ -44,7 +48,9 @@ Band: *Dramatised. Rests on the researcher's wake at 04:11: its pre-review first
 
 ## Sent back, and owned
 
-`%% clock: hours five to eleven: 04:19, 06:21, 10:05, 10:49. Clock hours of 29 October, hour one 00:00 to 00:59, as the register's hourly tables (C087, C095) and the storyteller's outline count them; to print as a **Clock:** line once the researcher amends C108 to this count (writer__038).`
+**Clock:** Hours five to eleven.
+
+`%% clock record: 04:19, 06:21, 10:05, 10:49; clock hours of 29 October (C110; the conductor's CK1).`
 
 **Narrator.** Three more, through the morning. Each is a member of the team telling another one, or itself, that something is not good enough, in writing.
 
@@ -81,7 +87,9 @@ Band: *Dramatised. Rests on deck's review of ruv-sgit's picture (06:21), deck's 
 
 ## The creator comes back
 
-`%% clock: hours fourteen to nineteen: about 13:50 to 18:37. Clock hours of 29 October, hour one 00:00 to 00:59, as the register's hourly tables (C087, C095) and the storyteller's outline count them; to print as a **Clock:** line once the researcher amends C108 to this count (writer__038).`
+**Clock:** Hours fourteen to nineteen.
+
+`%% clock record: about 13:50 to 18:37; clock hours of 29 October (C110; the conductor's CK1).`
 
 **Narrator.** At about ten to two I came back, and the loop began.
 
@@ -106,7 +114,9 @@ Band: *Dramatised. Rests on the feedback round dictated at about 13:50 and recor
 
 ## The objection kept
 
-`%% clock: hours fifteen to sixteen: 14:33 and 15:02. Clock hours of 29 October, hour one 00:00 to 00:59, as the register's hourly tables (C087, C095) and the storyteller's outline count them; to print as a **Clock:** line once the researcher amends C108 to this count (writer__038).`
+**Clock:** Hours fifteen to sixteen.
+
+`%% clock record: 14:33 and 15:02; clock hours of 29 October (C110; the conductor's CK1).`
 
 **Narrator.** One thing I asked for came back as a no.
 
@@ -125,7 +135,9 @@ Band: *Dramatised. Rests on the researcher's finding to the storyteller (14:33) 
 
 ## A relayed word refused
 
-`%% clock: hour eighteen: 17:41 to 17:48. Clock hours of 29 October, hour one 00:00 to 00:59, as the register's hourly tables (C087, C095) and the storyteller's outline count them; to print as a **Clock:** line once the researcher amends C108 to this count (writer__038).`
+**Clock:** Hour eighteen.
+
+`%% clock record: 17:41 to 17:48; clock hours of 29 October (C110; the conductor's CK1).`
 
 **Narrator.** One more, late in the afternoon.
 

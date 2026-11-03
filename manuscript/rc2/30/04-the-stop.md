@@ -4,7 +4,9 @@
 
 ## The last ten minutes
 
-`%% clock: hour nineteen: 18:36 to 18:46. Clock hours of 29 October, hour one 00:00 to 00:59, as the register's hourly tables (C087, C095) and the storyteller's outline count them; to print as a **Clock:** line once the researcher amends C108 to this count (writer__038).`
+**Clock:** Hour nineteen.
+
+`%% clock record: 18:36 to 18:46; clock hours of 29 October (C110; the conductor's CK1).`
 
 **Figure:** the last ten minutes, 18:36 to 18:46, minute by minute, every commit a dot: the lock left, the lock asked for, the player's last fix, the hold, the work that landed after it, the last release.
 
@@ -33,7 +35,9 @@ Band: *Dramatised. Rests on the conductor's wake at 18:36 ("Leave the lock to de
 
 ## The hold
 
-`%% clock: hour nineteen: the hold at 18:44, the talk due at 19:00, as hour nineteen ends. Clock hours of 29 October, hour one 00:00 to 00:59, as the register's hourly tables (C087, C095) and the storyteller's outline count them; to print as a **Clock:** line once the researcher amends C108 to this count (writer__038).`
+**Clock:** Hour nineteen.
+
+`%% clock record: the hold at 18:44, the talk due at 19:00, as hour nineteen ends; clock hours of 29 October (C110; the conductor's CK1).`
 
 **Narrator.** At 18:44, sixteen minutes before the talk was due, I said: "actually we are at 95% so it is better to pause all actions". *(record)*
 

@@ -4,7 +4,9 @@
 
 ## The empty project and its first commit
 
-`%% clock: hour one: 00:16. Clock hours of 29 October, hour one 00:00 to 00:59, as the register's hourly tables (C087, C095) and the storyteller's outline count them; to print as a **Clock:** line once the researcher amends C108 to this count (writer__038).`
+**Clock:** Hour one.
+
+`%% clock record: 00:16; clock hours of 29 October (C110; the conductor's CK1).`
 
 **Narrator.** A quarter past midnight: an empty project. Not a template, not a half-built site from last time. A new repository with a licence, a short read-me and almost nothing else. Its first commit says "Initial commit", and that is all it says.
 
@@ -15,7 +17,9 @@ Band: *The first commit, at 00:16.*
 
 ## The first page of rules, shown
 
-`%% clock: hour one: 00:40. Clock hours of 29 October, hour one 00:00 to 00:59, as the register's hourly tables (C087, C095) and the storyteller's outline count them; to print as a **Clock:** line once the researcher amends C108 to this count (writer__038).`
+**Clock:** Hour one.
+
+`%% clock record: 00:40; clock hours of 29 October (C110; the conductor's CK1).`
 
 **Narrator.** Twenty-four minutes later, dev's first commit put in everything else at once: the site, the talk as data, the build, the check, and four short files that every later agent would read before doing anything. The first of them is the page of rules. Here it is, nearly whole, because it is short:
 
@@ -32,7 +36,7 @@ Band: *The first commit, at 00:16.*
 
 `%% figure brief: For the designer.`
 
-`%% record: 1f7c633 (CLAUDE.md as first committed; one line on page fragments left out here) timeline/cast-scenes.md scene 1`
+`%% record: C067 (twenty-four minutes) 1f7c633 (CLAUDE.md as first committed, checked against the commit itself: the six lines quoted are its own, one left out and three shortened, before the conductor rewrote the page at 00:44 in 97b98d9; one line on page fragments left out here) timeline/cast-scenes.md scene 1`
 `%% to trace (the historian, letter 065): who wrote the first page of rules. The record shows only that it arrived in dev's first commit; the page says no more than that.`
 Band: *The page of rules as it stood in dev's first commit at 00:40, quoted with one line on page layout left out.*
 
@@ -71,7 +75,9 @@ Band: *The check as dev first built it, at 00:40.*
 
 ## The brake, made that night
 
-`%% clock: hour two: 01:39. Clock hours of 29 October, hour one 00:00 to 00:59, as the register's hourly tables (C087, C095) and the storyteller's outline count them; to print as a **Clock:** line once the researcher amends C108 to this count (writer__038).`
+**Clock:** Hour two.
+
+`%% clock record: 01:39; clock hours of 29 October (C110; the conductor's CK1).`
 
 **Narrator.** One part was not in dev's first pass. The brake. At 01:39 the conductor started the clock, and with it the hold: one file, in a member's own folder, and every wake of every member stops before it does any work. Anyone may write it. Only I may lift it. The rule went into the page of rules in a single line:
 

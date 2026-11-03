@@ -41,7 +41,7 @@ Band: *Dramatised. Rests on ruv-sgit's animation pages and their explainers on t
 **Storyteller** *(rueful)*: I arrived in the afternoon, and these were the first things I made. A proposal, not an ask to change anything.
 
 `%% record: index/talk-site/README.md (item 11) talk/slides/maps/`
-Band: *Dramatised. Rests on the storyteller's map slides; it arrived at 14:15.*
+Band: *Dramatised: the storyteller's line is ours. Rests on its map slides, among its first commits at 14:15 (C011).*
 
 ## Stop 4. The studio
 
@@ -62,7 +62,7 @@ Band: *Dramatised. Rests on the studio's pages as they stood at the end of the d
 
 `%% figure brief: A drawing from the page, not a screenshot: the build never shows an admin page.`
 
-**Narrator.** The team's state, read from its own files, on one page. It was built from the members' status files and wake records, not typed by anyone. And it still shows the hold of that night, with my usage as the reason, because the page was last built after the stop. Nobody tidied it.
+**Narrator.** The team's state, read from its own files, on one page. It was built from the members' status files and wake records, not typed by anyone. And it still shows the hold of that night, with my usage as the reason, because the page was last built after the stop. `%% for the editor: "Nobody tidied it." is the writer's reading; his to keep or drop.` Nobody tidied it.
 
 **Conductor** *(at ninety-five, then calm)*: The page shows what the files say. The files say we stopped. So the page says we stopped.
 
@@ -75,7 +75,9 @@ Band: *Dramatised. Rests on the dashboard as built from the team's own files, st
 
 `%% figure brief: Beside it, the commits page with its notes between agents. Described from the librarian's study; no screenshot yet.`
 
-**Narrator.** This is the page I would show anyone who doubts that the factory ran on its own. Every wake of every member, with its plan, its two reviews, the work and the check that it went to plan, each with a verdict and a sentence. On the day the agents kept 162 wake records. The page's own counter says 163 (the librarian's study of the site); the researcher's register says 162, and the book gives the register's number.
+`%% for the editor: "This is the page I would show anyone who doubts" is the writer's reading of his view; his to keep or drop.`
+
+**Narrator.** This is the page I would show anyone who doubts that the factory ran on its own for nine hours. Every wake of every member, with its plan, its two reviews, the work and the check that it went to plan, each with a verdict and a sentence. On the day the agents kept 162 wake records. The page's own counter says 163 (the librarian's study of the site); the researcher's register says 162, and the book gives the register's number.
 
 **Narrator.** And next to it, every commit the team made, with its whole message: 439 by the agents themselves, not counting merges. Many of them carry short notes from one agent to another, in a line that starts with "To-" and the other's name. Read in order, they are the team talking.
 
@@ -86,11 +88,11 @@ Band: *Dramatised. The counts are the register's: wake records and the agents' o
 
 ## Stop 7. A member's page
 
-**Figure:** one member's page, deck's: its role, its policy in prose, its rules with the mistake behind each one, its status, its wakes and its debriefs.
+**Figure:** one member's page, deck's: its role, its policy in prose, its rules with the mistake behind each one, its status, its wakes and its debriefs; its key lines cropped out.
 
 `%% figure brief: Shown without the section that prints its key, which the tour never shows.`
 
-**Narrator.** Last stop. Every member has a page like this, built from its own folder. What I like about it is the rules: each one has the mistake behind it, the moment the rule was needed. A page of rules you can read like a short history of what went wrong.
+**Narrator.** Last stop. Every member has a page like this, built from its own folder. `%% for the editor: "What I like about it" is the writer's reading; his to keep or drop.` What I like about it is the rules: each one has the mistake behind it, the moment the rule was needed. A page of rules you can read like a short history of what went wrong.
 
 **Deck** *(proud, the fussy one)*: Every rule on my page cost somebody a slide. That is why it is there.
 

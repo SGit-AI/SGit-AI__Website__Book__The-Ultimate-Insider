@@ -10,7 +10,7 @@
 
 ## The four within the hour
 
-**Dev** *(happy, the fast one)*: Build, gate and release. I may change the build, the check, the release pipeline, the site's own pages and the reality file. Not the talk's slides; those are deck's.
+**Dev** *(happy, the fast one, already halfway out of the door)*: Build, gate and release. Quick version: I may change the build, the check, the release pipeline, the site's own pages and the reality file. Not the talk's slides; those are deck's.
 
 **Narrator.** Dev's page of rules does something I wish every page did: it says what stands between the agent and each thing it must not do, and how strong that is. Pushing to the main branch: an expectation. Writing another member's files: a setting, which a check catches. Its own words for that check: it "catches mistakes, not a steered agent".
 
@@ -22,7 +22,7 @@
 
 **Deck** *(fussing with its own page)*: And never type a version number. That one is somebody else's scar, from another team's bad day. We inherited it.
 
-**ruv-sgit** *(absorbed, the night owl)*: Animations and moving infographics, made in my own runs. I may change my folder and my pages. One rule I learned the hard way: the container is ephemeral. Seal what you keep, or say what you lost, before the session ends.
+**ruv-sgit** *(absorbed, the night owl, not looking up from the workshop bench)*: Animations and moving infographics, made in my own runs. I may change my folder and my pages. One rule I learned the hard way: the container is ephemeral. Seal what you keep, or say what you lost, before the session ends.
 
 `%% record: talk repository at 298be4e: team/dev/ROLE.md team/dev/policy.json team/conductor/ROLE.md team/conductor/policy.json team/deck/ROLE.md team/deck/policy.json team/ruv-sgit/ROLE.md team/ruv-sgit/policy.json; index/talk-site/members.md`
 Band: *Dramatised. Each line rests on that member's page of rules and policy as they stood at the end of the day; the rules quoted in the narrator's lines are their own.*
@@ -31,13 +31,13 @@ Band: *Dramatised. Each line rests on that member's page of rules and policy as 
 
 **Narrator.** The two who came before dawn are as interesting for what they could not do as for what they could.
 
-**Researcher** *(unbudging)*: Sources and evidence. Every source captured and hashed, and a register of claims. I may write my own folder and the evidence folder. Nothing else.
+**Researcher** *(unbudging, in a long coat)*: Sources and evidence. Every source captured and hashed. My folder and the evidence folder, and I will not be talked out of either. Nothing else.
 
 **Researcher** *(to the rest of the team)*: A claim without a captured source is a gap, and my register says so rather than leaving it out. And a measured finding, a position and a guess are not the same thing. I label each.
 
 **Narrator.** The researcher could not change a slide. It could only say that a number on one did not hold. That is a strong position precisely because it is a narrow one: nobody could accuse it of changing the story to suit its findings.
 
-**Designer** *(beret and pencil)*: Layout, width, type, the design system. I may write only my own folder.
+**Designer** *(beret and pencil, exacting)*: Layout, width, type, the design system. One folder, mine. I prefer it that way: every line I draw has a second pair of eyes.
 
 **Designer** *(firm about whose word counts)*: So I do not change a page. I write a note, with before and after, and dev builds it. At my next wake I check: as designed, or what to fix.
 
@@ -60,9 +60,9 @@ Band: *Dramatised. Rests on the researcher's and the designer's pages of rules a
 
 **Figure:** security's role page, drawn as a card with nothing on it but its title and its status: proposed.
 
-**Narrator.** The conductor wrote security's page in the first hour. Its title says what it was for: checks first and last in every run; reviews of the pinned tools and of each new key. Its status, at the end of the day, still says proposed. No session ever held it. You will see in part 4 what that cost, and what stood in for it.
+**Narrator.** The conductor wrote security's page in the first hour, at 00:51. Its title says what it was for: checks first and last in every run; reviews of the pinned tools and of each new key. Its status, at the end of the day, still says proposed. No session ever held it. You will see in part 4 what that cost, and what stood in for it.
 
-`%% record: talk repository at 298be4e: team/security/ROLE.md team/security/policy.json (status: proposed) timeline/interviews/security.md`
+`%% record: talk repository at 298be4e: team/security/ROLE.md team/security/policy.json (status: proposed); first written in 17b287b (00:51) and 41d38ba (00:58), timeline/interviews/security.md`
 Band: *Security's page as it stood at the end of the day.*
 
 ## What a scope is, and what it is not

@@ -20,7 +20,9 @@
 
 ## Pressing play
 
-`%% clock: hour nineteen: the change at 18:26; the talk due at 19:00, as hour nineteen ends. Clock hours of 29 October, hour one 00:00 to 00:59, as the register's hourly tables (C087, C095) and the storyteller's outline count them; to print as a **Clock:** line once the researcher amends C108 to this count (writer__038).`
+**Clock:** Hour nineteen.
+
+`%% clock record: the change at 18:26; the talk due at 19:00, as hour nineteen ends; clock hours of 29 October (C110; the conductor's CK1).`
 
 **Narrator.** On 29 October I gave a talk where I mostly did not have to do that. When a thing had to move, I pressed play and it moved.
 
@@ -43,7 +45,9 @@ Band: *The quoted passage is my own, from the transcript of the talk at 15:50 on
 
 ## The loop
 
-`%% clock: hours fourteen to nineteen: the player from about 13:50 to the last fix at 18:37. Clock hours of 29 October, hour one 00:00 to 00:59, as the register's hourly tables (C087, C095) and the storyteller's outline count them; to print as a **Clock:** line once the researcher amends C108 to this count (writer__038).`
+**Clock:** Hours fourteen to nineteen.
+
+`%% clock record: the player from about 13:50 to the last fix at 18:37; clock hours of 29 October (C110; the conductor's CK1).`
 
 **Narrator.** That last change is the real story. Not the animation: the loop.
 

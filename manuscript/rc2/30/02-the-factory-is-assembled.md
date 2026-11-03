@@ -4,7 +4,9 @@
 
 ## The empty project
 
-`%% clock: hour one: the empty project at 00:16, dev's first pass at 00:40. Clock hours of 29 October, hour one 00:00 to 00:59, as the register's hourly tables (C087, C095) and the storyteller's outline count them; to print as a **Clock:** line once the researcher amends C108 to this count (writer__038).`
+**Clock:** Hour one.
+
+`%% clock record: the empty project at 00:16, dev's first pass at 00:40; clock hours of 29 October (C110; the conductor's CK1).`
 
 **Narrator.** A quarter past midnight: an empty project. Not a template, not a half-built site from last time. A new repository with a licence, a short read-me and almost nothing else. Its first commit says "Initial commit", and that is all it says.
 
@@ -19,7 +21,9 @@ Band: *Dramatised. Rests on the first commit (00:16) and dev's first pass (00:40
 
 ## Four arrivals
 
-`%% clock: hours one to two: four arrivals, 00:40 to 01:08. Clock hours of 29 October, hour one 00:00 to 00:59, as the register's hourly tables (C087, C095) and the storyteller's outline count them; to print as a **Clock:** line once the researcher amends C108 to this count (writer__038).`
+**Clock:** Hours one to two.
+
+`%% clock record: four arrivals, 00:40 to 01:08; clock hours of 29 October (C110; the conductor's CK1).`
 
 *Words for this page:* the **conductor** is the agent that keeps the team's time and plan. A **hold** is one short file that stops every agent until the person in charge says go. A **check** is a test every change must pass before it goes out (the team called it the gate).
 
@@ -72,7 +76,9 @@ Band: *Dramatised. Each agent's lines rest on its first commit after midnight: d
 
 ## The clock and the five steps
 
-`%% clock: hours two to three: the schedule at 01:39, the five steps at 02:16 to 02:18. Clock hours of 29 October, hour one 00:00 to 00:59, as the register's hourly tables (C087, C095) and the storyteller's outline count them; to print as a **Clock:** line once the researcher amends C108 to this count (writer__038).`
+**Clock:** Hours two to three.
+
+`%% clock record: the schedule at 01:39, the five steps at 02:16 to 02:18; clock hours of 29 October (C110; the conductor's CK1).`
 
 **Narrator.** Then, in the small hours, the conductor built the machinery. This is the part that let me leave them alone, and I did not know yet how much I would.
 
@@ -93,7 +99,9 @@ Band: *Dramatised. Rests on the hourly schedule (01:39) and the five-step wake r
 
 ## Caught by its own reviewer
 
-`%% clock: hour three: the first wake closes partial at 02:19. Clock hours of 29 October, hour one 00:00 to 00:59, as the register's hourly tables (C087, C095) and the storyteller's outline count them; to print as a **Clock:** line once the researcher amends C108 to this count (writer__038).`
+**Clock:** Hour three.
+
+`%% clock record: the first wake closes partial at 02:19; clock hours of 29 October (C110; the conductor's CK1).`
 
 **Narrator.** One thing to know before this scene: the reviewer is not a different kind of thing. It is the same kind of agent, in the same session, given a checker's brief instead of a builder's.
 
@@ -116,7 +124,9 @@ Band: *Dramatised. Rests on the conductor's first five-step wake, closed partial
 
 ## Before dawn
 
-`%% clock: hours two to five: the researcher at 01:52, the designer at 03:41, my last word of the night at 04:03. Clock hours of 29 October, hour one 00:00 to 00:59, as the register's hourly tables (C087, C095) and the storyteller's outline count them; to print as a **Clock:** line once the researcher amends C108 to this count (writer__038).`
+**Clock:** Hours two to five.
+
+`%% clock record: the researcher at 01:52, the designer at 03:41, my last word of the night at 04:03; clock hours of 29 October (C110; the conductor's CK1).`
 
 **Narrator.** Two more arrived before it was light. The researcher at about two: the one who checks every fact against its source, and the one who would tell me "no" in writing before the day was out. Then the designer, a little before four, with the first design pass.
 

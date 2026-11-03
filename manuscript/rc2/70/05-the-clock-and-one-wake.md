@@ -1,10 +1,12 @@
 # The clock, the five steps, and a reviewer of the same kind
 
-**Cast bar:** the four within the hour, and the researcher from about two. The conductor at the centre of this chapter.
+**Cast bar:** the four within the hour, and the researcher from about two (C011). The conductor at the centre of this chapter.
 
 ## The clock and the five steps
 
-`%% clock: hours two to three: 01:39 to 02:18. Clock hours of 29 October, hour one 00:00 to 00:59, as the register's hourly tables (C087, C095) and the storyteller's outline count them; to print as a **Clock:** line once the researcher amends C108 to this count (writer__038).`
+**Clock:** Hours two to three.
+
+`%% clock record: 01:39 to 02:18; clock hours of 29 October (C110; the conductor's CK1).`
 
 **Narrator.** In the small hours, the conductor built the machinery that let me leave them alone.
 
@@ -23,11 +25,13 @@ Band: *Dramatised. Rests on the hourly schedule (01:39) and the five-step wake a
 
 ## One wake, start to finish
 
-`%% clock: hour three: 02:14 to 02:19. Clock hours of 29 October, hour one 00:00 to 00:59, as the register's hourly tables (C087, C095) and the storyteller's outline count them; to print as a **Clock:** line once the researcher amends C108 to this count (writer__038).`
+**Clock:** Hour three.
+
+`%% clock record: 02:14 to 02:19; clock hours of 29 October (C110; the conductor's CK1).`
 
 **Narrator.** Here is one wake record, walked through step by step, because it is the first one there ever was, and because it did not go perfectly. It is the conductor's, from 02:14 in the morning, and its job was to build the five-step wake itself.
 
-**Narrator.** *Step one, the plan.* The conductor wrote what it would do: the new section in the wake rules, the briefs for the reviewers, a tool that checks every wake record has all five steps, one line in the page of rules at my word. And something else is in the plan's own words: "Amended after the pre-review's change, all five conditions adopted". The reviewer had sent the plan back once. One oddity for anyone who opens the file: the record keeps that first "change" in its history with a later time stamp than the "go", 02:17 against 02:16; the debrief tells it in the order here.
+**Narrator.** *Step one, the plan.* The conductor wrote what it would do: the new section in the wake rules, the briefs for the reviewers, a tool that checks every wake record has all five steps, one line in the page of rules about the five steps, at my word (the hold had gone into it at 01:39, in an earlier commit). And something else is in the plan's own words: "Amended after the pre-review's change, all five conditions adopted". The reviewer had sent the plan back once. One oddity for anyone who opens the file: the record keeps that first "change" in its history with a later time stamp than the "go", 02:17 against 02:16; the debrief tells it in the order here.
 
 **Conductor** *(pacing, a little stung)*: My first plan went back with conditions. I took every one. Then it said go.
 
@@ -56,9 +60,9 @@ Band: *Dramatised. Every step, verdict and quoted line is from the conductor's f
 
 **Narrator.** I keep coming back to that line, and I want to give it its full weight here.
 
-**Narrator.** The reviewer in that wake was real work. It sent a plan back. It found a real slip. Through the day, reviewers like it sent plans back and raised findings, in every member's wakes, and each one is in a wake record, with a verdict and a sentence.
+**Narrator.** The reviewer in that wake was real work. It sent a plan back. It found a real slip. Through the day, reviewers like it sent plans back and raised findings, in every member's wakes, and each one is in a wake record, with a verdict and a sentence (C023, C025).
 
-**Narrator.** But the reviewer was the same kind of thing as the member it reviewed: another agent, in the same session, with the same reach. The conductor's debrief says it in so many words: "The reviewers share the session's reach". A second reading catches the mistakes the first reading made. It does not stand outside the team. If the member had been steered into doing something else, the reviewer would have been reading with the same eyes, in the same room.
+**Narrator.** But the reviewer was the same kind of thing as the member it reviewed: another agent, sharing the session's reach. The conductor's debrief says it in so many words: "The reviewers share the session's reach". A second reading catches the mistakes the first reading made. It does not stand outside the team. If the member had been steered into doing something else, the reviewer would have been reading with the same eyes, in the same room.
 
 **Narrator.** The member whose job was to stand outside was security. Its chair was empty all day. Part 4 is where I ask what that means for a factory you leave running, and what does contain it. Here, take the narrower lesson: build the second reading, because it works, and never call it a wall.
 
