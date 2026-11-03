@@ -17,6 +17,13 @@
    "verdict": "go",
    "comment": "No hold; paths in scope. Conditions: build editions.json from the same filtered text as the pages so %% writers' notes stay out (record lines only); links only to public github.com or the book's domain; grep both JSON copies for %% note text, then gate and vault_check before push.",
    "at": "2026-11-03T07:14:17Z"
+  },
+  "work": {
+   "by": "developer@book.the-ultimate-insider",
+   "model": "",
+   "verdict": "done",
+   "comment": "A8: /review/editions.json (4 editions, 37 chapters, 950 paragraphs, 850 tokens, 20 marked unverified), same filtered text as the pages, %% lines and off-host addresses refused. That guard found inline %% writers' notes on /review/rc2-70/ since 1b5a71aa; stripped from pages and data. Commit 9ec9b79d.",
+   "at": "2026-11-03T07:17:14Z"
   }
  },
  "closed": null,
