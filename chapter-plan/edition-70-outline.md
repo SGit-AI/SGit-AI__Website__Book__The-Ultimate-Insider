@@ -19,6 +19,18 @@ The seventy keeps the five beats in the same order, so a reader who zooms in rec
 
 **Pictures per part.** Every chapter: a cast bar, at least one card or drawing per scene, one map and one infographic per part (LK1). The thirty's pictures carry forward; the seventy adds the real files shown, redacted where a page would print a key.
 
+## The order after synthetic's read (3 November 2026)
+
+Decided by the storyteller, 3 November 2026, the 08:39 UTC wake, at the conductor's letter 047, on synthetic's one pass of the seventy (`review/synthetic/rc2/70/summary.md`: three test readers, not readers). **These are the storyteller's choices within the signed plan (RP1); the five beats and their order are unchanged.** Changing a beat would go to the editor.
+
+1. **"Start here", one page after chapter 1.** The five steps as one printable checklist page, with one line: "the rest of this book is why they work." This is the ten's "if you want to start now" grown into a page, and the checklist page the readers missed as a picture. Chapter 16 stays the full version at the end.
+2. **The team pattern in chapter 3.** A half-page card in chapter 3: one brief, one board, one hold, and a page of rules per member; the readers met it too late.
+3. **The tour shorter.** Chapter 2 cut to four stops (the player, the dashboard, every wake on one page, a member's page with key lines cropped), about two pages. The full tour moves to the full book's back matter.
+4. **Chapter 7's counts lighter.** The counts go into one card (the day by trigger); the prose keeps one sentence per shape of the day.
+5. **Chapter 8, one thing at a time.** The register first ("the one I was waiting for"), then the check; the tripwire and the reality file in a card, not in the running prose.
+6. **Fold 15 into 16.** Each of the five steps in chapter 16 opens with the principle it rests on, so the principles are not read twice. The seventy has fifteen chapters and the words used.
+7. **Chapter 14 plain about the third factory:** one sentence saying it has not run yet, before anything about it. **Chapter 16 adds one newsroom path** beside the shop owner's (a researcher-checker that may only write a claims register, the newsroom reader's own first agent).
+
 ## The clock in the margin, and what to show
 
 As in the thirty (`edition-30-outline.md`, the section of that name, 3 November 2026): hour one is the clock hour 00:00 to 00:59 of 29 October, the hold falls in hour nineteen, and the margin's stats come only from the register (C087, C095, C011). In the seventy: part 1's tour is off the clock (a walk through what was made); part 2 runs hours one to five; part 3 hours five to nineteen; part 4 hour nineteen; part 5 off the clock. The tour (part 1, chapter 2) is itself the "show" the editor asked for: every stop a screenshot, none of a page that prints a key.

@@ -13,16 +13,20 @@ The same five beats, in the same order, with the same cast bar, running line and
 5. **The appendices:** every number rerun (Appendix A, the register's commands), the control register (Appendix B), the making of this book and its dates.
 6. **The record live online:** every `%% record:` marker becomes a link in the online edition (the augmented mode); in print, the "Where this came from" at each chapter's end.
 
+## The order (3 November 2026, after synthetic's read of the seventy)
+
+The storyteller's choices within the signed plan, the same as the seventy's (`edition-70-outline.md`, "The order after synthetic's read"): a **"Start here"** page after chapter 1 (the five steps as a printable checklist); the **team pattern** card in chapter 5; **the tour short in part 1** (four stops), with **the tour at length moved to the back matter** (the writer's `150/03` becomes the back matter's "The tour, at length", unchanged); chapter 9's counts in a card; chapter 11 one thing at a time; **principles folded into Build your own** (chapters 23 and 24 become one, "Principles, and build your own"); the third factory plainly "not yet run"; a newsroom path beside the shop's. The five beats are unchanged.
+
 ## The parts, beat by beat
 
 | Part (beat) | Chapters, sketched | Adds to the seventy |
 |---|---|---|
-| **1. The creator's problem** (about 20 pages) | 1. Slides as a compromise. 2. Inventing on principle. 3. The tour, at length (every one of the librarian's twenty best things that prints no key). | the tour in full; the talk as given, its pictures that carried the point |
+| **1. The creator's problem** (about 20 pages) | 1. Slides as a compromise; then "Start here", one page. 2. Inventing on principle. 3. The tour, four stops (the full tour in the back matter). | the talk as given, its pictures that carried the point |
 | **2. The factory is assembled** (about 30 pages) | 4. Hour one: the empty project. 5. Hour two: the rules written. 6. Roles as a cast you can read, each with the historian's reconstructed interview. 7. Hour three: the five steps, and the first to be caught. 8. Hours four and five: before dawn. | each agent at length; the first hours without a gap |
 | **3. The factory runs** (about 40 pages) | 9. Nine hours with nobody starting work, hours five to fourteen, an hour at a time. 10. Talking through git. 11. The plumbing. 12. The creator comes back, hours fourteen and fifteen. 13. The story before the slides, and the objection kept. 14. Port, not rebuild, hours sixteen and seventeen. 15. A relayed word refused, hour eighteen. | every hour; the agents' own accounts of the afternoon |
 | **4. The factory is stopped** (about 30 pages) | 16. Hour nineteen, minute by minute. 17. What did not work, each miss with its own debrief. 18. How do we contain this (benign team only, as in the seventy). 19. A second team, reading cold (D6-6). | the Cold-Read chapter; each miss at full length |
-| **5. The factory rebuilt, and yours** (about 25 pages) | 20. Sessions end. 21. The second factory: this book's team, its own failures kept. 22. The third, planned. 23. Principles. 24. Build your own. | this book's own record at length, marked as this book's |
-| **Back** (about 10 pages) | The words used; Appendix A, every number rerun; Appendix B, the control register; the making of this book; the dates; the series page. | the logistics, for whoever wants them |
+| **5. The factory rebuilt, and yours** (about 25 pages) | 20. Sessions end. 21. The second factory: this book's team, its own failures kept. 22. The third, planned (not yet run, said first). 23. Principles, and build your own. | this book's own record at length, marked as this book's |
+| **Back** (about 10 pages) | The tour, at length (seventeen stops); the words used; Appendix A, every number rerun; Appendix B, the control register; the making of this book; the dates; the series page. | the logistics, for whoever wants them |
 
 **Rails for every part.** Nothing attack-shaped: the containment chapter stays as the seventy tells it, with this team only. No page that prints a key: the vaults and key register described, never shown; member pages with key lines cropped. Every number from the register; no figure in an agent's line. His views flagged for him. The failures stay in. No religious words; no em-dash.
 
@@ -48,7 +52,9 @@ The seventy's chapter 1's principle section, grown:
 
 **Picture:** one ask's round trip drawn to the clock. **Do this now:** the thirty's (your one-sentence brief).
 
-### Chapter 3. The tour, at length (about ten pages)
+### Chapter 3. The tour, at length (about ten pages): moved to the back matter
+
+**Moved, 3 November 08:39 UTC (the order above):** part 1's chapter 3 is now the tour's four stops (about two pages: the player, the dashboard, every wake on one page, a member's page with key lines cropped); the full tour below goes, as written (`150/03`), to the back matter as "The tour, at length".
 
 The seventy's tour (seven stops) grown to eighteen, every one of the librarian's twenty best things (`index/talk-site/README.md`) except the two that print keys. One stop per half page: a screenshot, one paragraph in his voice, one line from the agent that made it (dramatised, banded). In the seventy's order first, then:
 - the home page's three circles (item 1); the opening slide (item 3); the definition of an agent on a slide (item 4, its sources named as the slide names them);
