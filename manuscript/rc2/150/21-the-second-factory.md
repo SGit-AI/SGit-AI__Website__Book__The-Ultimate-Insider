@@ -44,7 +44,7 @@
 
 `%% for the editor: each "Inherited" line is the writer's pairing of a member with a rule from the talk team's pages; the members' own pages carry the rules, not the pairings; his to keep or drop.`
 
-**Narrator.** And four more. Security, reading every chapter on the rails as it lands and keeping the register of the team's own controls, this team held to the same controls as the first. Synthetic, whose readers are fictional personas, testing the book the way strangers would. ruv-sgit, drawing the talk's animations on paper. And a developer, building the pages the reviewers read the book on.
+**Narrator.** And more besides. Security, reading every chapter on the rails as it lands and keeping the register of the team's own controls, this team held to the same controls as the first. Synthetic, whose readers are fictional personas, testing the book the way strangers would. ruv-sgit, drawing the talk's animations on paper. And a developer, building the pages the reviewers read the book on.
 
 **Security** *(at the table, for once)*: I read what the others write, and I report. I do not fix.
 
@@ -54,7 +54,7 @@
 
 **Figure:** this book's team as cast cards, drawn in the same style as the nine, each with the one rule it inherited written under it.
 
-`%% figure brief: For the designer. Twelve cards: the eight above in order, then security, synthetic, ruv-sgit and the developer. No key, session or task line on any card.`
+`%% figure brief: For the designer. A card for each member: those above in order, then security, synthetic, ruv-sgit and the developer. No key, session or task line on any card.`
 
 `%% record: this repository: team/conductor/ROLE.md team/librarian/ROLE.md team/historian/ROLE.md team/researcher/ROLE.md team/storyteller/ROLE.md team/publisher/ROLE.md team/designer/ROLE.md team/writer/ROLE.md team/security/ROLE.md team/synthetic/ROLE.md team/ruv-sgit/ROLE.md team/developer/ROLE.md; talk repository at 298be4e: team/*/ROLE.md (the inherited rules)`
 Band: *Dramatised. Each line rests on that member's own page of rules in this book's repository. This team is this book's record, not the talk's.*
