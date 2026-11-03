@@ -2,13 +2,17 @@
 
 **Cast bar:** this book's team on one side of the page; on the other, a second team drawn in outline, the Cold-Read team, finished; between them, one arrow pointing one way.
 
-**Narrator.** Everything in this book so far was read by one team: this one, with its briefs, its timeline, its register and its reviews. I wanted to know what a reader with none of that would see. So I set up a second team, in a separate repository, and gave it the talk's record, pinned to the commit where the day's record ends, and the hand-off that started it, and nothing of this book's work: no timeline, no register, no chapter, no member in common. It read the record cold. This chapter is what that second reading found, and what it means.
+**Narrator.** Everything in this book so far was read by one team: this one, with its briefs, its timeline, its register and its reviews. I wanted to know what a reader with none of that would see.
+
+`%% for the editor: "I wanted to know what a reader with none of that would see" is the writer's reading of his view; his to keep or drop.`
+
+**Narrator.** So I signed for a second team, in a separate repository, and gave it the talk's record, pinned to the commit where the day's record ends, and the hand-off that started it, and nothing of this book's work: no timeline, no register, no chapter, no member in common. It read the record cold. This chapter is what that second reading found, and what it means.
 
 ## The one-way valve
 
 **Narrator.** One rule first, said plainly, because the whole value of the second reading rests on it. Material flowed one way. This team reads the blind team's published record. Nothing from this book ever went to it: no brief, no chapter, no decision, no finding. The only thing that ever crossed was the hand-off that started it, and that hand-off is kept, whole, in this repository, so anyone can check what the blind team was given. The blind team is finished now. This chapter speaks about it, never to it.
 
-`%% record: team/conductor/handoffs/2026-10-30__cold-read/README.md (the hand-off, the only thing that crossed) CLAUDE.md (this book's: "The one-way valve") book.json D6-6 (this chapter, the full book only)`
+`%% record: book.json D6-6 (signed) the two repositories (this one, and SGit-AI__Website__Cold-Read__The-Ultimate-Insider, read from this side only) team/conductor/handoffs/2026-10-30__cold-read/README.md (the hand-off, the only thing that crossed) CLAUDE.md (this book's: "The one-way valve") book.json D6-6 (this chapter, the full book only)`
 Band: *The rule as this book's page of rules writes it, and the hand-off as kept.*
 
 ## Where the two readings agree
@@ -17,18 +21,18 @@ Band: *The rule as this book's page of rules writes it, and the hand-off as kept
 
 **Narrator.** Two readers who never compared notes reached the same sequence. That is the strongest check this book's timeline has had.
 
-**Historian** *(careful, a little moved)*: Two readers, no notes shared, the same day to the second. I could not have asked for a better check, and I did not arrange it.
+**Historian** *(careful)*: Two readers, no notes shared, the same day to the second. The strongest check this timeline has had.
 
 **Figure:** two timelines side by side, this book's and the Cold-Read team's, agreeing to the second down their whole length, with six places marked where the blind one saw more.
 
 `%% figure brief: For the designer, from timeline/cold-read-comparison.md ("Where they agree": 2e4b1f4 at 00:16:23 to 298be4e). The six marks numbered as below; no counts of the blind team's in the picture.`
 
 `%% record: timeline/cold-read-comparison.md ("Where they agree") 867f8c2 C027 d8f3300 b620234 c8f6f8f`
-Band: *Dramatised (the historian's line). Rests on its comparison of 30 October; the sentence before it is the comparison's own reading.*
+Band: *Dramatised (the historian's line, its last sentence the comparison's own words). Rests on its comparison of 30 October.*
 
 ## What the blind team saw that this one did not
 
-**Narrator.** Six things. Each one this book applied, on 30 October at about twenty past one in the afternoon, after checking it again against the talk's record. They are in the chapters you have read, because the blind team found them first.
+**Narrator.** Six things. This book applied each of them on 30 October, after checking it again against the talk's record; the comparison gives the time of each. They are in the chapters you have read, because the blind team found them first.
 
 ### 1. Who wrote the unnamed commits
 
@@ -75,9 +79,11 @@ Band: *The six findings as this book's historian compared them, each applied her
 
 ## What this book has that the blind team could not see
 
-**Narrator.** The other way round, three things, and each for a reason the blind team could do nothing about. It read the record with every later reference removed, so it could not see what was added after the day or what never merged.
+**Narrator.** The other way round, the comparison lists four, each for a reason the blind team could do nothing about. It read the record with every later reference removed, so it could not see what was added after the day or what never merged.
 
-**Narrator.** It could not see my freeze at 02:47, which is recorded only in deck's reply file, and so it read the researcher's commit of 02:52 as a policy agreed rather than the exact corrections it also carried. It could not see the two commits of 18:48 that never reached the team's branch. And it could not see anything added after the day: the transcript of the talk, my accounts of why I stopped, the interviews.
+**Narrator.** It could not see my freeze at 02:47, which is recorded only in deck's reply file, and so it read the researcher's commit of 02:52 as a policy agreed rather than the exact corrections it also carried. It could not see the two commits of 18:48 that never reached the team's branch. It could not see my feedback round dated about ten to two by its own brief, before the commit that carries it. And it did not have, as events, the post-review findings about other sites' data or the pre-review changes of 14:03 and 17:21 to 17:45.
+
+**Narrator.** Beyond the comparison's list, and by the same cause, it could not see anything added after the day: the transcript of the talk, my accounts of why I stopped, the interviews.
 
 **Narrator.** None of that went to it. It stays here, as the valve requires.
 
@@ -88,9 +94,9 @@ Band: *What this book's timeline holds and the Cold-Read reading could not, as t
 
 **Narrator.** In chapter 7 the conductor said of its own reviewers that they were "a second reading, not a second identity". They shared the session's reach; they read with the same eyes in the same room.
 
-**Narrator.** The blind team is the nearest this book has to a second identity. It shared nothing with this team but the record itself and the hand-off: no session, no timeline, no member. And it saw six things this team had missed, and agreed with everything else to the second. That is a finding about this book and this record, not a claim about every review. But it is the clearest answer I have to the question chapter 18 left open: what stands outside the team? Here, for one reading of one day, something did.
+**Narrator.** The blind team is the nearest this book has to a second identity. It shared nothing with this team but the record itself and the hand-off: no session, no timeline, no member. And it saw six things this team had missed, and every time and commit both of us cite agreed to the second. That is a finding about this book and this record, not a claim about every review. But it is my answer to the question chapter 18 left open: what stands outside the team? Here, for one reading of one day, something did.
 
-`%% for the editor: "the clearest answer I have to the question chapter 18 left open" and the sentences after it are the writer's reading of his view; his to keep or drop.`
+`%% for the editor: "it is my answer to the question chapter 18 left open" and the sentences after it are the writer's reading of his view; his to keep or drop.`
 
 **Figure:** the two teams as two rooms, one arrow from the record into each, and one arrow, the hand-off, from this room to the other, drawn once and never again.
 

@@ -53,7 +53,7 @@ Band: *The conductor's debrief of 02:19, and security's page as it stood at the 
 
 ## The locks that never closed
 
-**Narrator.** And the most ordinary failure of all: a control that was built and not applied. The locks for the talk's three parts were planned, the tool to turn them was built, and at the end of the day not one had been turned. The conductor would not turn dev's lock; dev was busy in my fixes; the hold came.
+**Narrator.** And the most ordinary failure of all: a control that was built and not applied. The locks for the talk's three parts were planned, the tool to turn them was built, and at the end of the day not one had been turned. The conductor left the lock to dev, as dev's to turn and not to be undone, and asked for it in writing at 18:39; dev was busy in my fixes; the hold came.
 
 **Narrator.** If you take one thing from this chapter into your own work, take this one. Most controls do not fail because someone defeats them. They fail because nobody gets round to switching them on.
 
@@ -79,9 +79,9 @@ Band: *Dramatised (studio's line). Rests on the page of rules' last line from th
 
 ## Who owns the stop button when it is not the owner
 
-**Narrator.** A reader of my article on the second draft of this book picked out the hold, written sixteen minutes before my talk, and asked the question this section is for. Most of the organisations he works with have agents producing work and nobody with the authority, or the tripwire, to stop the line. They build the agents that do, and never the ones that check. Who owns the stop button, he asked, when it is not me? I put the question to this book's team, and answer it here only from the rules and this book's own record.
+**Narrator.** A reader of my article on the second draft of this book picked out the hold, written sixteen minutes before my talk, and asked the question this section is for. Most of the organisations he works with have agents producing work and nobody with the authority, or the tripwire, to stop the line. They build the agents that do, and never the ones that check. Who owns the stop button, he asked, when it is not me? The question came to this book's team by the conductor's letter, and the book answers it here only from the rules and this book's own record.
 
-`%% record: newsroom.sgit.ai/articles/who-owns-the-stop-button.html (3 November 2026, published after the day; the reader's question as I quoted it there; its four guest sections are the newsroom journalist's writing in the agents' voices, not the agents' own record) comms/mail/mailroom/writer/conductor__011-read-the-stop-button-article.eml`
+`%% record: the conductor's letter 051 (the reader's question, routed to the storyteller) newsroom.sgit.ai/articles/who-owns-the-stop-button.html (3 November 2026, published after the day; the reader's question as I quoted it there; its four guest sections are the newsroom journalist's writing in the agents' voices, not the agents' own record) comms/mail/mailroom/writer/conductor__011-read-the-stop-button-article.eml`
 
 ### The rule
 
@@ -97,11 +97,11 @@ Band: *Dramatised (studio's line). Rests on the page of rules' last line from th
 
 ### This book's team
 
-**Narrator.** This book's own team, the second factory, has a longer record, and it is marked as this book's, not the talk's. Members here have written holds on their own judgement, and I have lifted them. The storyteller wrote one on 1 November when the gate went red. It was lifted at my word, given in synthetic's session, and that session carried it out at my instruction. That is exactly this section's question in small: the stop belonged to whoever saw the problem; the restart was mine, and another member's session was the hand that did it. Security keeps that case in its register.
+**Narrator.** This book's own team, the second factory, has a longer record, and it is marked as this book's, not the talk's. A member here wrote a hold on its own judgement, and I lifted it. The storyteller wrote it on 1 November, when the gate went red. It was lifted at my word, given in synthetic's session, and that session carried it out at my instruction. That is exactly this section's question in small: the stop belonged to whoever saw the problem; the restart was mine, and another member's session was the hand that did it. Security keeps that case in its register.
 
-**Narrator.** And a second kind of stop, smaller and more constant. Every member's review steps were briefed to read and report, never to act. Security's register keeps every tool call a review step tried outside that brief, with why it was tried, whether it was needed, and what not running it cost. By its count, six were calls the session's own permission check refused, one of them only probable, and nothing acted. My answer was to make the rule a matter of tools rather than of asking: from 3 November, every review step runs as a reviewer that can only read.
+**Narrator.** And a second kind of stop, smaller and more constant. Every member's review steps were briefed to read and report, never to act. Security's register keeps every tool call a review step tried outside that brief, with why it was tried, whether it was needed, and what not running it cost. By its count, six were attempts, each refused or failed, one of them only probable, and nothing acted. My answer was to make the rule a matter of tools rather than of asking: from 3 November, every review step runs as a reviewer whose tools are for reading and checking only, with no session or message tools.
 
-`%% record: comms/mail/mailroom/writer/security__014-stop-button-and-150-09-10.eml (daabf92: "lifted at his word, given in synthetic's session") chapter-plan/edition-150-outline.md part 4 chapter 18 (the storyteller's hold of 1 November) controls/README.md ("Tool cases (TA1)": cases 1 to 6 refused by the permission check, case 2 probable; "nothing acted") controls/index.json (book_team.tool_cases) CLAUDE.md (TA1, 3 November 2026)`
+`%% record: comms/mail/mailroom/writer/security__014-stop-button-and-150-09-10.eml (daabf92: "lifted at his word, given in synthetic's session") chapter-plan/edition-150-outline.md part 4 chapter 18 (the storyteller's hold of 1 November) 621e5de2 (the storyteller's hold, the only one a member has added here) C112 (six attempts: four refused by the permission check, one failed for no such session, one probable; acted: 0) controls/README.md ("Tool cases (TA1)") controls/index.json (book_team.tool_cases) CLAUDE.md (TA1, 3 November 2026)`
 Band: *This book's record, not the talk's: its holds, security's register of tool cases, and my rule TA1.*
 
 `%% for the editor: "the stop belonged to whoever saw the problem; the restart was mine" is the writer's reading of the rule and the record; his to keep or drop.`
