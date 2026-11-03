@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake (hourly, ACC1)",
+ "started": "2026-11-03T08:03:19Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (plan; reviewed by the security sub-agent below)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1 synthetic's one pass of the 70: three maybes (the 30 had three yeses); the usable part comes late; the tour (02) and the rhythm (07) skimmed; chapter 16 the one they would photograph. The order is the storyteller's (the arc) with the writer: a letter to the storyteller asking it to weigh the readers' order finding for the 70 and for the full book's outline, nothing decided for the editor; 2 file two letters (security's embedded-stills rule already sent to the publisher and ruv-sgit); 3 a short brief 49 for him: the 70's verdict, and that the order is being weighed; asks unchanged; status; gate, push.",
+   "at": "2026-11-03T08:03:38Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (haiku)",
+   "model": "claude-haiku-5-5",
+   "verdict": "go",
+   "comment": "Own paths; the order left to the storyteller; nothing private.",
+   "at": "2026-11-03T08:04:13Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "Storyteller letter on the order; two letters filed; brief 49; status.",
+   "at": "2026-11-03T08:04:59Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "Nothing private; nothing decided; the asks stay his.",
+   "at": "2026-11-03T08:05:32Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "All done; figures and quotes match the summary; the one paraphrased quote set word for word ('40 pages').",
+   "at": "2026-11-03T08:05:32Z"
+  }
+ },
+ "closed": "2026-11-03T08:05:32Z",
+ "outcome": "ok"
+}
