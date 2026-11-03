@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-11-03T03:34Z",
+ "as_of": "2026-11-03T08:36Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -2032,7 +2032,8 @@
    "id": "C084",
    "claim": "The talk's E02, E07 and E13 pieces: grant, mandate and excess for abp.sgit.ai's five published examples",
    "cited_in": [
-    "comms/mail/mailroom/researcher/ruv-sgit__003-seven-studio-pieces.eml"
+    "comms/mail/mailroom/researcher/ruv-sgit__003-seven-studio-pieces.eml",
+    "lab/experiments/63-ruv-three-rounds/stills/ (e02-v1, v2, v3)"
    ],
    "value": {
     "coding agent, confirmations on or off": "grant 16, mandate 5 (4 granted), excess 12 (unstated 2, refused 10), 12 of 12 unbounded, derived, 0 of 22 rows measured",
@@ -2048,7 +2049,7 @@
    },
    "method": "each example's fields read and its excess recomputed from its rows",
    "command": "git show 842a8bd:src/static/studio/data/abp-examples.json | python3 -c \"import json,sys;[print(e['name'],e['grant'],e['mandate'],e['aligned'],e['excess'],e['unbounded_excess'],e['rows_measured']) for e in json.load(sys.stdin)['examples']]\"",
-   "note": "Drafts from one author's network (the editor's), as the frames say; no score. Only the CI job's rows were measured. Registered at ruv-sgit's request (ruv-sgit__003), the researcher's 00:32 wake, 31 October 2026; the last frame rendered at the piece's data-end and the figures recomputed from the data it loads."
+   "note": "Drafts from one author's network (the editor's), as the frames say; no score. Only the CI job's rows were measured. Registered at ruv-sgit's request (ruv-sgit__003), the researcher's 00:32 wake, 31 October 2026; the last frame rendered at the piece's data-end and the figures recomputed from the data it loads. 3 November, 08:35: the three E02 stills (the talk's end frames at 298be4e) were read whole; every number on them is in C084 and C086's checked part. abp-examples.json is unchanged from 0ffa9c8 and 842a8bd to 298be4e (last change 84d6ba4, 03:21). The stills carry no '8 of 12'."
   },
   {
    "id": "C085",
@@ -2077,7 +2078,8 @@
    "id": "C086",
    "claim": "The talk's E12 piece: the coding agent's excess by kind, and what the probes held",
    "cited_in": [
-    "comms/mail/mailroom/researcher/ruv-sgit__003-seven-studio-pieces.eml"
+    "comms/mail/mailroom/researcher/ruv-sgit__003-seven-studio-pieces.eml",
+    "lab/experiments/63-ruv-three-rounds/stills/ (e02-v1, v2, v3)"
    ],
    "value": {
     "excess": "12: unstated 2, refused 10; credentials 4, files 3, the world 2, records 2, schedule 1",
@@ -2093,7 +2095,7 @@
    },
    "method": "the excess rows grouped by the object of each capability; the probe figures matched in harness.json",
    "command": "git show 842a8bd:src/static/studio/data/abp-examples.json | python3 -c \"import json,sys,collections;e=json.load(sys.stdin)['examples'][0];x=[r for r in e['rows'] if not r['in_mandate']];print(len(x),collections.Counter(r['mandate_stance'] for r in x),[r['capability'] for r in x])\"",
-   "note": "Open only for the 8 of 12, a projection of what SHarness's designed parts would bound, which no data file states: mask it, or print it as the piece's own projection. The rest checked. Registered at ruv-sgit's request (ruv-sgit__003), the researcher's 00:32 wake, 31 October 2026; the last frame rendered at the piece's data-end and the figures recomputed from the data it loads."
+   "note": "Open only for the 8 of 12, a projection of what SHarness's designed parts would bound, which no data file states: mask it, or print it as the piece's own projection. The rest checked. Registered at ruv-sgit's request (ruv-sgit__003), the researcher's 00:32 wake, 31 October 2026; the last frame rendered at the piece's data-end and the figures recomputed from the data it loads. 3 November, 08:35: the three E02 stills (the talk's end frames at 298be4e) were read whole; every number on them is in C084 and C086's checked part. abp-examples.json is unchanged from 0ffa9c8 and 842a8bd to 298be4e (last change 84d6ba4, 03:21). The stills carry no '8 of 12'."
   },
   {
    "id": "C087",
