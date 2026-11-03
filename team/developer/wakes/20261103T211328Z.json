@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "In fea0049b: upkeep in the documented order; rc2-150 24 chapters (198 scenes, 1345 links), 105 printed pages, 100 shown; 327 QR targets; all anchors mapped (263, 550, 983); guards and gate clean; no temp folder left.",
    "at": "2026-11-03T21:17:26Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (post_review brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused; wrote no file",
+   "model": "",
+   "verdict": "clean",
+   "comment": "fea0049b clean: generated output and the developer's own files only; nothing in manuscript/, publishing/, admin/ or review/tools/; no %%, keys or contacts; every href to github.com/SGit-AI; 327 QR targets on the book's domain; C101's two register citations as source text only. Not run at the developer's word: validate and agents check (the pre-push gate read 824, clean).",
+   "at": "2026-11-03T21:18:56Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (post_check brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused; wrote no file",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Everything planned in fea0049b, conditions held, every paragraph mapped, gate clean (824), 0 outside scope. The debrief's 'expected 23' misread corrected before close (24 is 01 to 23 plus the tour at length).",
+   "at": "2026-11-03T21:18:56Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T21:18:56Z",
+ "outcome": "ok"
 }
