@@ -272,6 +272,25 @@ Traced on 3 November 2026 at the 20:32 wake, at the writer's letter 136, against
 | 21 | Chapter 4 as first written; the correction nine hours later at 11:23; both chapters set right ten minutes after | holds | `b0f59de3` (10:34); `21e5ad53` (11:23:44); `ffeae66b` (11:33:41) |
 | 21 | The team and the inherited rules | not traced | the writer's pairings, flagged for the editor; each rule is on the members' own pages |
 
+## Chapters 22 and 23 (the 21:32 wake)
+
+Traced on 3 November 2026 at the 21:32 wake, at the writer's letter 141, against the register, the editor's brief of 1 November, the talk's record at `298be4e` and the chapters cited.
+
+**In short:** both hold; nothing to change. 22 prints no number and says four times that the third factory has not run. 23's cost line is the seventy's 16, word for word, and its checklist matches every chapter's "Do this now", 1 to 22, word for word.
+
+### What holds
+
+| Ch | Line | Verdict | Source |
+|---|---|---|---|
+| 22 | The Web Summit team as a plan, not run: several people, each with their own agents; no one named | holds | `briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md` ("freelancers, each with their own agents"). The brief's "at least seven" is the conductor's reading and is rightly left out |
+| 22 | The hold: anyone pulls it, only the owner lifts it | holds | `team/conductor/WAKE.md` (Stopping: "only the editor restarts") |
+| 22 | Where each part was learned: the hold from the first night, the board from the nine hours, one owner from the brief never corrected | holds as the writer's reading | chapters 5, 9 and 11 as traced; C087 for the nine hours; flagged for the editor |
+| 23 | "No secrets anywhere: everything here is public within minutes of a release." as the first page of rules' own line | holds | `CLAUDE.md` at `1f7c633` (00:40), line 8 |
+| 23 | "paid plans of the kind the team used start at $20 a month (prices as published on 2 November 2026). The record of my own day holds no figure for what it cost." | holds | C101 (read about 00:35 UTC on 2 November; "$20 if billed monthly"); C037 (no figure); word for word as `manuscript/rc2/70/16`, which held in `claims/rc2-70-trace.md` |
+| 23 | The checklist, chapters 1 to 22 | holds | each line checked by script against that chapter's "Do this now" at this wake: all 22 equal |
+| 23 | The running line "Ship" | holds | `book.json` RL1, decided, 2 November 2026, about 21:55 UTC |
+| 23 | The chapter numbers under "Rests on" (4, 11, 17, 16 and 15) | holds | the rules' last line (4), the corrections file (11), the misses (17), the hold (16), studio's refusal of a relayed word (15) |
+
 ## Where this came from
 
-`manuscript/rc2/150/01` to `21` and `90`, each as on dev at the wake that traced it (3 November 2026, from 09:32 to 20:32); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).
+`manuscript/rc2/150/01` to `23` and `90`, each as on dev at the wake that traced it (3 November 2026, from 09:32 to 21:32); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).
