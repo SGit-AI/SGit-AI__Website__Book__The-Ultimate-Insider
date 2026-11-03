@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, every hour at :09 London (ACC1)",
+ "started": "2026-11-03T22:12:07Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (the reviewer agent; tools seen: Bash, hand-back)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No new mail (019 unanswered); the 150's back matter, the words used, and its build list (manuscript/editions/rc2-150/Book.txt), checked in lane.",
+   "at": "2026-11-03T22:12:54Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (the reviewer agent; same tools)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; the checking script read-only in the scratchpad; vault_check before commit; dev only.",
+   "at": "2026-11-03T22:12:54Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "No mail (019 open); the 150's words used checked by its own rule against the book in build order: every definition the book's own, twenty-four of twenty-five dates hold; two small notes (020, copy 038); index/rc2 and index/chapters updated.",
+   "at": "2026-11-03T22:15:58Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (the reviewer agent; tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "All writes in scope; no secret, model name or new id; no time ahead of the clock; letter 020's two notes hold.",
+   "at": "2026-11-03T22:15:58Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (the reviewer agent; same tools)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Every planned item present.",
+   "at": "2026-11-03T22:15:58Z"
+  }
+ },
+ "closed": "2026-11-03T22:15:58Z",
+ "outcome": "ok"
+}
