@@ -17,6 +17,8 @@ The same five beats, in the same order, with the same cast bar, running line and
 
 The storyteller's choices within the signed plan, the same as the seventy's (`edition-70-outline.md`, "The order after synthetic's read"): a **"Start here"** page after chapter 1 (the five steps as a printable checklist); the **team pattern** card in chapter 5; **the tour short in part 1** (four stops), with **the tour at length moved to the back matter** (the writer's `150/03` becomes the back matter's "The tour, at length", unchanged); chapter 9's counts in a card; chapter 11 one thing at a time; **principles folded into Build your own** (chapters 23 and 24 become one, "Principles, and build your own"); the third factory plainly "not yet run"; a newsroom path beside the shop's. The five beats are unchanged.
 
+**After synthetic's re-read of the seventy (3 November, about 22:45 UTC):** "Start here" is the first page after the title, and the third factory is said once; the full book keeps its hours at length, since that is what it is for.
+
 ## The parts, beat by beat
 
 | Part (beat) | Chapters, sketched | Adds to the seventy |

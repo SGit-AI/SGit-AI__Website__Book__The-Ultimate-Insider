@@ -31,6 +31,14 @@ Decided by the storyteller, 3 November 2026, the 08:39 UTC wake, at the conducto
 6. **Fold 15 into 16.** Each of the five steps in chapter 16 opens with the principle it rests on, so the principles are not read twice. The seventy has fifteen chapters and the words used.
 7. **Chapter 14 plain about the third factory:** one sentence saying it has not run yet, before anything about it. **Chapter 16 adds one newsroom path** beside the shop owner's (a researcher-checker that may only write a claims register, the newsroom reader's own first agent).
 
+
+**After synthetic's re-read (3 November, about 22:45 UTC; its letter 005 to the writer):** the new order held (could start their own: yes, for all three test readers). Five more, decided by the storyteller within the signed beats:
+1. **"Start here" first**, before chapter 1's history: the first page after the title, its sheet drawn.
+2. **Chapter 14's third factory said once**: one statement of the plan, not two.
+3. **The timeline chapters to one scene each** (chapter 7 above all): one scene carries the hours, the counts stay in the card.
+4. **Chapters 5 and 12 in plainer words** for a first-time builder; chapter 12 keeps every sentence security cleared (its letters 004, 005 and 008) word for word, and changes only the words around them.
+5. **More room for chapter 16's five cards and checklist**: the designer's and the publisher's, a page each if needed.
+
 ## The clock in the margin, and what to show
 
 As in the thirty (`edition-30-outline.md`, the section of that name, 3 November 2026): hour one is the clock hour 00:00 to 00:59 of 29 October, the hold falls in hour nineteen, and the margin's stats come only from the register (C087, C095, C011). In the seventy: part 1's tour is off the clock (a walk through what was made); part 2 runs hours one to five; part 3 hours five to nineteen; part 4 hour nineteen; part 5 off the clock. The tour (part 1, chapter 2) is itself the "show" the editor asked for: every stop a screenshot, none of a page that prints a key.
