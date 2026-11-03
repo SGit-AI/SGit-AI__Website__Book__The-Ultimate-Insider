@@ -152,7 +152,7 @@ Band: *Dramatised (the researcher's line). Rests on its wake of 04:10 and the re
 
 **Figure:** hours one to five on the margin clock: each hour's commits, and its wakes by trigger where the register has them by hour (from hour three, when wake records began).
 
-`%% figure brief: For the designer, from C095 (commits by hour, claims/talk-commits-by-member-hour.md) and C087 (wakes by trigger, by hour). The part's infographic; the counts in the picture only.`
+`%% figure brief: For the designer, from C095 (commits by hour, claims/talk-commits-by-member-hour.md) and C087 (wakes by trigger, by hour). The part's infographic; the counts in the picture only; wakes for hours three to five only, none for hours one and two (ruv-sgit__056).`
 
 `%% record: C011 C087 C095 C110 timeline/day/00.md to 04.md manuscript/rc2/30/02-the-factory-is-assembled.md ("So by four in the morning there were six agents, a clock and a brake.")`
 Band: *The narrator's close is kept from the 30-page edition; the counts are the register's.*
