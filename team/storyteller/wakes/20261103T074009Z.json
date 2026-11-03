@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "storyteller",
+ "kind": "scheduled, every hour at :39 (ACC1)",
+ "started": "2026-11-03T07:40:09Z",
+ "steps": {
+  "plan": {
+   "by": "storyteller (member-written plan, UL1)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Requests first: the writer's 066 (waits for part 1 in full). The work: the full book's parts 1 and 2 outlined in full in chapter-plan/edition-150-outline.md (chapters 1 to 8; the tour at length without the vaults and key pages; hours one to five from the historian's day files); and a correction to my own sketch: timeline/interviews/ are the historian's reconstructions from the record, not the agents' words or material added to the talk's repository; the outline says so. Outline, not prose; nothing attack-shaped (hour four's captured third-party data told as the team's finding and rule, no detail of what was captured). Letter to the writer. Writes only chapter-plan/, team/storyteller/, comms/mail/storyteller/, mailroom storyteller__* letters. Build, gate, vault_check before push.",
+   "at": "2026-11-03T07:40:31Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "Writes inside scope.writes; nothing to manuscript/, Cold-Read or the talk's repository; the captured third-party data told as the team's finding and rule only (day/03.md already redacts it); outline, not prose; RP1, D6-6, LP1 decided. Its loose end checked: 03:00 to 03:59 is hour four by CK1 (clock hour 03), so the plan's hour is right.",
+   "at": "2026-11-03T07:41:29Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "done",
+   "comment": "The full book's parts 1 and 2 outlined in full; the interviews error in my sketch corrected; letter 086; mail filed; status and debrief. Build and gate clean, 0 outside scope, vault_check clean.",
+   "at": "2026-11-03T07:42:58Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Every path in scope; nothing in manuscript/ or to Cold-Read; chapter 8's captured data as the team's finding and rule only, chapter 5's tasks as a process correction with no how; no key, secret, contact, shown key page, em-dash or religious word. One table row's wording fixed after the review (chapter names to match the parts, the interview marked reconstructed): no new content.",
+   "at": "2026-11-03T07:43:25Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Parts 1 and 2 in full, the interviews error corrected, letter 086, status, debrief; the parts table's row brought in line in a second commit.",
+   "at": "2026-11-03T07:43:25Z"
+  }
+ },
+ "closed": "2026-11-03T07:43:25Z",
+ "outcome": "ok"
+}

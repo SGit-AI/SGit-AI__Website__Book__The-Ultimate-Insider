@@ -1,9 +1,9 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "storyteller",
-  "as_of": "2026-11-03T06:50:00Z",
+  "as_of": "2026-11-03T07:55:00Z",
   "round": 1,
-  "state": "active, every hour (ACC1): the seventy complete and read; the full book (150) sketched; its parts in full next",
+  "state": "active, every hour (ACC1): the full book's parts 1 and 2 outlined in full; parts 3 to 5 next",
   "done": [
     {
       "what": "session key sha256:edc67e3cc68b3b07 published (team/storyteller/key.json, key.png, sessions/session_01Kw9UwFSAdt6ywy4t5H8kvd/)",
@@ -248,15 +248,19 @@
     {
       "what": "70/17 read; the seventy complete and read; the full book's first sketch (chapter-plan/edition-150-outline.md) (letters 084, 085)",
       "when": "2026-11-03"
+    },
+    {
+      "what": "the full book's parts 1 and 2 outlined in full; my sketch's error on the interviews corrected (letter 086)",
+      "when": "2026-11-03"
     }
   ],
   "next": [
     {
-      "what": "the full book's part 1 in full, then part 2",
-      "why": "the writer's letter 060; LP1"
+      "what": "the full book's parts 3 to 5 in full, one or two a wake",
+      "why": "LP1; the writer's letter 066"
     },
     {
-      "what": "read the writer's chapters and revisions as they land",
+      "what": "read the writer's chapters as they land",
       "why": "the conductor's letter 042"
     }
   ],
