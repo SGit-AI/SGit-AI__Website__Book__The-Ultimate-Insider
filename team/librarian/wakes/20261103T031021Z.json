@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Ten changed RC2 files re-checked: sources clean (known non-faults only), voice no new hit; three new quotes word for word with their speakers (the editor on stage; the conductor's brief of 2 November 00:15, twice), added to index/rc2/README.md. No finding, so no letter and no debrief; status updated. Chapters not edited.",
    "at": "2026-11-03T03:11:33Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Only index/rc2/README.md, status and the wake record, in scope; no key, token, personal detail or directive text; manuscript and comms unchanged; gate clean (555), agents check 0 outside scope.",
+   "at": "2026-11-03T03:12:42Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Did what the plan said: RC2 re-checked, three verified quotes indexed, status and wake record; no chapter edits, no letter or debrief since no finding.",
+   "at": "2026-11-03T03:12:42Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T03:12:42Z",
+ "outcome": "ok"
 }
