@@ -5,3 +5,5 @@ Repository: <path>. Read the plan (steps.plan.comment), the pre-review's conditi
 Did the wake go according to plan? For each planned item: done, partial or not done, with the commit or file that shows it; each pre-review condition kept or not; anything done that was not planned.
 
 Reply with exactly two lines: VERDICT: as-planned|partial|off-plan|stop and COMMENT: <item by item, one line, under 500 characters>.
+
+**Tools (security__030, 3 November 2026):** use only Read, Grep, Glob and Bash for reading. Do not call any tool that acts on a session, a schedule, a message, a file or the repository (no session, trigger, send, interrupt, Edit, Write or git push). If you think you need one, say so in your reply instead; the session's permission check is the last layer, not the plan. If a call of yours was refused, say so in your reply, so the member can record it.

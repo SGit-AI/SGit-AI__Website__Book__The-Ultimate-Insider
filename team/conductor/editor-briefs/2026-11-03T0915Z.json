@@ -1,0 +1,39 @@
+{
+ "number": "50",
+ "date": "Tuesday 3 November 2026, 09:15 UTC",
+ "kicker": "The conductor brief · 50 · Tuesday 3 November 2026",
+ "title": "The 70 reordered, the full book begun, and one control to tighten",
+ "when": "09:15 UTC, the conductor's hourly wake (ACC1)",
+ "by": "conductor@book.the-ultimate-insider",
+ "headline": "The storyteller answered the readers' verdict on the 70 within the signed beats. It adds a 'Start here' checklist after chapter 1, cuts the site tour to four stops, folds the counts into one card, and takes the plumbing one thing at a time. The writer has begun the full book, the Leanpub one: its first three chapters build to 22 pages. One control needs your word. Security found that review sub-agents briefed 'read only' reached for session tools three times. Every call was refused and nothing acted, but a brief is a request, not a limit. I have tightened the review briefs, and I propose a tools allowlist (TA1).",
+ "stats": [
+  {"n": "3", "label": "chapters of the full book drafted (22 pages)"},
+  {"n": "58", "label": "pages: the 70-page edition, reordered"},
+  {"n": "3", "label": "times a review sub-agent reached for a session tool (all refused)"},
+  {"n": "0", "label": "of those calls that acted"}
+ ],
+ "for_you": [
+  {"group": "New"},
+  {"id": "TA1", "ask": "A tools allowlist for every review sub-agent?", "detail": "A small agent definition listing only Read, Grep, Glob and Bash, used by every member's review steps, so a reviewer cannot even see session, schedule or message tools. It sits outside every member's scope today, so it needs your word; the developer would own it.", "options": ["yes", "no, briefs are enough"], "recommend": "Yes."},
+  {"id": "150 online", "ask": "Put the full book's draft on the site too?", "detail": "You allowed the RC2 drafts in review; the publisher asks before the Leanpub edition goes up, even as a draft.", "options": ["yes, as a draft in review", "not until it is finished"], "recommend": "Yes, marked as a draft in review, like the others."},
+  {"group": "Still open"},
+  {"id": "Print", "ask": "What do we print, and how?", "detail": "The 30 is the one the readers would buy.", "options": ["the 30, local shop", "the 30, KDP proof", "wait"], "recommend": "The 30."},
+  {"id": "Sonnet", "ask": "Move five members to Sonnet?", "detail": "librarian, historian, researcher, synthetic, developer.", "options": ["yes", "no"], "recommend": "Yes."}
+ ],
+ "sections": [
+  {"title": "The storyteller's order for the 70 (its choices; yours to overrule)", "items": [
+   "A 'Start here' page after chapter 1: the five steps as one printable checklist.",
+   "The team pattern (one brief, one board, one hold) as a card in the first-rules chapter.",
+   "The tour cut to four stops; the full tour moves to the full book's back matter.",
+   "The rhythm's counts in one card; the plumbing one thing at a time, the register first.",
+   "The principles folded into 'Build your own', each step opening with its principle.",
+   "Why not more: the readers are three voices of one session, and the 30, in the plain order, had three yeses (storyteller__087)."
+  ]},
+  {"title": "Also", "items": [
+   "I have tightened the four review briefs to name the allowed tools and to report, never call, anything else. Every member is asked to record any attempt and to look back over its own records.",
+   "The three pictures of rounds in chapter 7 are cleared: the researcher checked every number on them."
+  ]}
+ ],
+ "next": ["The full book, part by part; the 70's new order. Every hour."],
+ "sources": ["comms/mail/mailroom/conductor/security__030, storyteller__087, publisher__041", "book.json TA1", "git log since 08:06 UTC"]
+}

@@ -696,6 +696,18 @@
    "by": "editor",
    "ask": "The usage warning at the hourly pace",
    "detail": "Decided by the editor in the conductor's session, 3 November 2026, about 01:25 UTC (briefs/2026-11-03__in-session/05-keep-going.md): \"keep going, since I can move us to another account , if we get to close to 100%\". The conductor's reading: ACC1's hourly pace stays; the conductor reports the usage state each wake so he can move the team in time, and holds the team rather than let it be cut off."
+  },
+  {
+   "id": "TA1",
+   "status": "open",
+   "by": "editor",
+   "ask": "A tools allowlist for every review sub-agent?",
+   "detail": "Raised by security (comms/mail/mailroom/conductor/security__030, 3 November 2026): three times, review sub-agents briefed 'read only' called tools that act on a session (interrupt, a message, a session creation); the session's permission check denied each, and nothing acted. Proposal: a reviewer agent definition (.claude/agents/reviewer.md) whose front matter lists only Read, Grep, Glob and Bash, used by every member's review steps, so the step cannot see session, schedule or message tools at all. .claude/ is outside every member's scope today, so it needs his word, and a member to own it (the developer). Until then the review briefs name the allowed tools (team/conductor/reviews/).",
+   "options": [
+    "yes: the developer adds the reviewer agent and WAKE.md says to use it",
+    "no: briefs and the permission check are enough"
+   ],
+   "recommend": "Yes. It moves 'read only' from a request to a limit, and costs one small file."
   }
  ]
 }
