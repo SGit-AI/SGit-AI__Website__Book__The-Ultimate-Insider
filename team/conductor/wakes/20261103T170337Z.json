@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake (hourly, ACC1)",
+ "started": "2026-11-03T17:03:37Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (plan; reviewed by the reviewer agent below)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1 route the article's corrections to the newsroom's journalist session (send_message, as before): historian (I keep the record of the day, not the clock), security (the honest form of 'a stop from any step holds the team'; and for next time: read before publishing), mine (the stop button became a section of chapter 18, not a chapter); the reader's name: the article says named at his word, which I cannot see in our briefs, so I ask the editor; 2 synthetic__016: the post-review brief asks the step to build, which writes _site/: change post_review.md so the step runs validate.py on the member's own build and writes nothing; the member's build before the push stays the gate; letter to synthetic; 3 render security's card for the editor (scratchpad only); 4 file nine letters; status; gate, push.",
+   "at": "2026-11-03T17:04:02Z"
+  },
+  "pre_review": {
+   "by": "reviewer agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "Corrections match the three letters; the validate-only change keeps the member's build as the gate; nothing decided; nothing private.",
+   "at": "2026-11-03T17:04:33Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
