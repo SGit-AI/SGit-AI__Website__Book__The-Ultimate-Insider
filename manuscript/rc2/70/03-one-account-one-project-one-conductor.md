@@ -37,7 +37,7 @@ Band: *The first commit, at 00:16.*
 `%% figure brief: For the designer.`
 
 `%% record: C067 (twenty-four minutes) 1f7c633 (CLAUDE.md as first committed, checked against the commit itself: the six lines quoted are its own, one left out and three shortened, before the conductor rewrote the page at 00:44 in 97b98d9; one line on page fragments left out here) timeline/cast-scenes.md scene 1`
-`%% to trace (the historian, letter 065): who wrote the first page of rules. The record shows only that it arrived in dev's first commit; the page says no more than that.`
+`%% traced (historian__020, 021): dev committed the first page at 00:40; the conductor rewrote it at 00:44 (97b98d9); nothing shows the editor writing it.`
 Band: *The page of rules as it stood in dev's first commit at 00:40, quoted with one line on page layout left out.*
 
 ## The brief, the reality and the corrections
@@ -69,7 +69,9 @@ Band: *Dramatised. Dev's lines rest on its first commit at 00:40 and the four fi
 
 **Narrator.** The point is not any one of those checks. It is that the agent does not decide whether its own work is fit to ship. The check does, every time, the same way.
 
-`%% to trace (the historian): one change refused by the check during the night, with its reason, for this section's example; until then, the section describes the check without one.`
+**Narrator.** It held its line from the first night. At about a quarter past one, it stopped dev's own release until two members' pages of rules carried a rule I had just asked for, that every session report opens and closes with a banner. Dev added the lines, and the release went out.
+
+`%% record: 24da366 (about 01:19) team/dev/debriefs (the-board.md: "the gate the conductor added at the editor's rule refused the release without it"); historian__022`
 `%% record: 1f7c633 (admin/build/validate.py as first committed)`
 Band: *The check as dev first built it, at 00:40.*
 

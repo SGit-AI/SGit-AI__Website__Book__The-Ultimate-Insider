@@ -2,7 +2,7 @@
 
 **Cast bar:** six agents through the morning; the editor back from hour fourteen.
 
-## The schedule and the editor
+## The schedule and me
 
 **Clock:** Hours one to nineteen.
 
@@ -16,7 +16,7 @@
 
 `%% figure brief: For the designer. From C087 and C110, by clock hour: the small hours mostly mine (I was building the machine by hand), the morning the schedule's alone, the afternoon both at once, the last two hours with follow-ups.`
 
-**Narrator.** Three shapes in that picture. In the small hours, most wakes are mine: I was in the members' sessions, onboarding them, building the five steps. From just after four to about ten to two, there is only one colour. Five or six wakes an hour, every hour, all on the clock. Then I come back, and from mid-afternoon the two colours run side by side, with more wakes in an hour than at any time before, until the hold.
+**Narrator.** Three shapes in that picture. In the small hours, most wakes are mine: the members' own records of those hours show their onboarding, their keys and the five steps being built. From just after four to about ten to two, there is only one colour. Five or six wakes an hour, every hour, all on the clock. Then I come back, and from mid-afternoon the two colours run side by side, with more wakes in an hour than at any time before, until the hold.
 
 **Narrator.** The middle stretch is the one people ask about. Nothing in it waited for me. A member woke at its minute, read its mail and its board, did one step of its work with its reviews, and went back to sleep. The next one did the same at its own minute. The morning is just that, over and over, with nobody watching.
 
@@ -39,9 +39,9 @@ Band: *The register's count of wakes by trigger, and its hourly table.*
 
 **ruv-sgit** *(sheepish)*: Back to the workshop.
 
-**Narrator.** Two hours later the second version came in, and deck kept it, with two things to fix next time: a summary that ran into a heading, and dots that should sit together by sector. The third version came back just before I did, and deck kept that one too, ready for me to see. Three rounds, one picture, and I was asleep for all of them.
+**Narrator.** About eighty minutes later the second version came in, and at twenty past eight deck kept it: "Numbered dots, plain words and named rings make it readable", with two things to fix next time, a summary that ran into a heading, and dots that should sit together by sector. The third version came in before one, and deck passed it just before I came back, ready for me to see. Three rounds, one picture, and I started none of them.
 
-**ruv-sgit** *(absorbed, ruler in hand)*: Numbered dots, plain words, named rings. Readable, this time.
+**ruv-sgit** *(absorbed, ruler in hand)*: Back to the workshop, twice. That is what the workshop is for.
 
 **Narrator.** In between, the designer found its own mistake. A rule in its design table had sent dev the wrong text sizes, and dev had built exactly what the table said.
 
@@ -55,7 +55,7 @@ Band: *The register's count of wakes by trigger, and its hourly table.*
 
 **Figure:** one picture's three rounds side by side: the first sent back, the second kept with two notes, the third kept and put to the editor; under each, deck's verdict in its own words.
 
-`%% record: 78b89b9 (06:21, E02 sent back) eefc1d3 (08:21, E02 v2 kept) 19e7f2d (13:48, E02 v3 kept, ready for the editor) team/deck/debriefs/2026-10-29__e02-v2-review.md 56c680b (10:49) 09317d9 (10:05)`
+`%% record: 78b89b9 (06:21, E02 sent back) cf52cda (07:43, v2 delivered) eefc1d3 (08:21, E02 v2 kept; deck's words quoted from its debrief) 8012b00 (12:53, v3 delivered) 19e7f2d (13:48, E02 v3 kept, ready for the editor) team/deck/debriefs/2026-10-29__e02-v2-review.md 56c680b (10:49) 09317d9 (10:05)`
 Band: *Dramatised. Rests on deck's three reviews of one picture (06:21, 08:21, 13:48), the designer's note (10:49) and the conductor's note (10:05); the quoted lines are theirs.*
 
 ## What a session cannot carry

@@ -27,7 +27,9 @@ Band: *The wakes by trigger, hour by hour; none started by me from just after fo
 
 `%% figure brief: For the designer. Show one letter as a file, with its headers (From, To, Date, Subject, the kind of letter), and one board folder with open, blocked and done.`
 
-**Narrator.** And here is the part I did not expect. Because asking was cheap and answering was scheduled, the agents also learned to not ask. Just after four, deck had a second request ready for ruv-sgit and held it, because ruv-sgit already had one of deck's requests in flight. It left itself a note in the record:
+`%% for the editor: "the part I did not expect" is the writer's reading; his to keep or drop.`
+
+**Narrator.** And here is the part I did not expect. Because asking was cheap and answering was scheduled, the checks could also hold a request back. Just after four, deck planned to send ruv-sgit a second request at once. Its pre-review asked it to wait, because ruv-sgit already had one of deck's requests in flight. Deck amended its plan, held the request, and told the conductor in a note on its commit:
 
 > "E02 is ready in team/deck/drafts/ruv-sgit__blast-radius.md, to go once B01 v1 is delivered." *(record)*
 
@@ -63,25 +65,27 @@ Band: *Dramatised. Rests on the researcher's wake at 04:11; the reviewer's words
 
 `%% clock record: 10:05 and 10:21; clock hours of 29 October (C110; the conductor's CK1).`
 
-**Narrator.** The third channel was the smallest, and the one I would copy first. Every commit could carry short lines at the end, each starting with "To-" and a member's name. They were read at that member's next wake. They are the team's notes to each other, and the history is full of them.
+**Narrator.** `%% for the editor: "the one I would copy first" is the writer's reading; his to keep or drop.` The third channel was the smallest, and the one I would copy first. Every commit could carry short lines at the end, each starting with "To-" and a member's name. They were read at that member's next wake. They are the team's notes to each other, and the history is full of them.
 
 **Narrator.** Two, from the middle of the morning. The conductor, to ruv-sgit, about the "@" it kept leaving off:
 
-> "To-ruv-sgit: a second note: c1c6443, b6f5219 and 5344486 also start 'ruv-sgit:' without '@' and carry no Agent trailer, so agents.py check counts none of them" *(record)*
+> "To-ruv-sgit: a second note: c1c6443, b6f5219 and 5344486 also start 'ruv-sgit:' without '@' and carry no Agent trailer, so agents.py check counts none of them ..." *(record)*
 
-**Narrator.** And deck, sixteen minutes later, to ruv-sgit again, with its next piece of work:
+**Narrator.** And deck, a quarter of an hour later, to ruv-sgit again, with its next piece of work:
 
 > "To-ruv-sgit: E09 mandate-and-grant in your mailroom; E04 again (/studio/reviews/e04.html), after E09." *(record)*
 
-**ruv-sgit** *(sheepish, then back at the bench)*: Noted. Again. And E09 is on the bench.
+**ruv-sgit** *(absorbed, already at the bench)*: E09 first, then E04. In deck's order.
+
+**Narrator.** ruv-sgit read both notes at its next wake, at 10:34. It took deck's work in deck's order. It did not fix the "@": its next commits, into the early afternoon, still left it off. One note followed, one not. Both are in the record.
 
 **Narrator.** Read in order, those notes are the team talking. A second note about the same mistake. A request with its order of work. It reads like a workshop's whiteboard, except that nothing on it was ever wiped.
 
 **Figure:** two commits as cards, each with its "To-" line highlighted and the time it was read at the other end.
 
 `%% record: 09317d9 (10:05) 36e382b (10:21) index/talk-site/README.md (item 17)`
-`%% to trace (the historian): whether these two are the two the historian would choose for this section; and the time each was read at the recipient's next wake.`
-Band: *Dramatised (ruv-sgit's line). The two notes are quoted from their commits, in full where shown.*
+`%% traced by the historian (historian__022): a good pair, one followed, one not; ruv-sgit's wake 20261029T103411Z read both; a31bd6f 57d24d3 41d4757 still without the @.`
+Band: *Dramatised (ruv-sgit's line). The two notes are quoted from their commits, 09317d9 (10:05:48) and 36e382b (10:21:12), the first shortened where marked; ruv-sgit's wake at 10:34 read both, and its commits through 13:41 still lacked the "@".*
 
 ## Do this now
 

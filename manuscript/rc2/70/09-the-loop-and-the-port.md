@@ -12,13 +12,15 @@
 
 **Narrator.** At about ten to two I came back, and the loop began.
 
-**Narrator.** I dictated a round of feedback, and the first line of it was the player: the thing that would let me press play on stage, working on an iPad. "This is the main priority." The conductor routed it, and by the middle of the afternoon dev had ported a first version.
+**Narrator.** I dictated a round of feedback, and the first line of it was the player: the thing that would let me press play on stage, working on an iPad. "This is the main priority." *(record)* The conductor routed it, and by the middle of the afternoon dev had ported a first version.
 
 **Dev** *(fast, pleased)*: Player's in. A countdown against your time, stops at every step, sections. Tell me what is wrong with it.
 
-**Narrator.** So I did, for the rest of the afternoon. I looked, I asked, they changed it, I looked again. Each ask came back in minutes; the card below has every one, with its time asked and its time back.
+**Narrator.** So I did, for the rest of the afternoon. I looked, I asked, they changed it, I looked again. Each ask came back in minutes; the card has every one, with its time asked and its time back.
 
 **Figure:** the afternoon loop on one line of time: my asks above the line, what came back below it (`lab/experiments/29-ruv-the-afternoon-loop/loop.svg`).
+
+**Figure:** a card of my eight afternoon asks: each with the time I asked and the time it came back.
 
 `%% record: c9ced4e 3314ffe dbd75ad C104 C105 C028 C088; lab/experiments/29-ruv-the-afternoon-loop/`
 Band: *Dramatised (dev's line). Rests on the feedback round (dictated about 13:50, recorded 14:07), the port at 15:07, and my asks with my own time in their commit subjects and when each came back.*
@@ -48,7 +50,7 @@ Band: *Dramatised (the storyteller's line). Rests on its arrival and its first l
 
 `%% clock record: 14:33, about 15:00 and 15:02; clock hours of 29 October (C110; the conductor's CK1).`
 
-**Narrator.** My story for the talk leaned on a claim: that the outside of an organisation, the part facing the internet, is more mature than its inside. Soon after the storyteller arrived, the researcher checked it against the published breach data and found the opposite.
+**Narrator.** My story for the talk leaned on a claim: that the outside of an organisation, the part facing the internet, had become smaller and more mature than it was. Soon after the storyteller arrived, the researcher checked it against the published breach data and found the opposite.
 
 **Researcher** *(to the new storyteller)*: "does not hold. The data says the opposite" *(record)*
 
@@ -56,10 +58,10 @@ Band: *Dramatised (the storyteller's line). Rests on its arrival and its first l
 
 **Storyteller** *(to itself, a slot later)*: I could soften it and keep the story smooth. But a story that hides the strongest argument against it is not one I want to tell. He decides; I just make sure he sees it.
 
-**Narrator.** I had already kept the line, two minutes before, in my decisions of three o'clock; the record has no answer of mine to the objection itself. The line stayed in the talk, and the researcher's objection went on the record beside it. The book keeps both.
+**Narrator.** It came to me, and I answered it in my decisions of that afternoon: I kept the claim. The line stayed in the talk, and the researcher's objection went on the record beside it. The book keeps both.
 
-`%% record: 2726f0e (14:33) 78d517d (the decisions, about 15:00) b208a16 (15:02) team/storyteller/story/challenge.md at 298be4e`
-Band: *Dramatised. Rests on the researcher's finding (14:33), my decisions of about 15:00, and the storyteller's letter passing it to me (15:02).*
+`%% record: 2726f0e (14:33; R5: the surface smaller and more mature than it was) b208a16 (15:02:48, the storyteller's pass) 78d517d (15:16:37, my decisions, headed about 15:00: "The outside is in balance: he keeps the claim.") team/storyteller/story/challenge.md at 298be4e`
+Band: *Dramatised. Rests on the researcher's finding (14:33), the storyteller's letter passing it to me (15:02), and my answer in my decisions of the afternoon (committed 15:16).*
 
 ## Port, not rebuild
 
@@ -69,7 +71,7 @@ Band: *Dramatised. Rests on the researcher's finding (14:33), my decisions of ab
 
 **Narrator.** Here is the thing I most want you to take from the afternoon. Almost nothing in it was built from nothing.
 
-**Narrator.** The player was not new. Dev's commit says so in its first words: "the player, ported from ruv.sgit.ai", an earlier site of mine. The talk's slides ran on one slide engine dev had built in its first pass, just after midnight. And at about twenty-five past three I brought on two more members whose whole job was porting: motion, to turn my new story into animations I could start and stop on stage; and studio, to take pieces from my earlier sites and rebuild them on this one, so they worked in the player and on an iPad.
+**Narrator.** The player was not new. Dev's commit says so in its first words: "the player, ported from ruv.sgit.ai", the earlier site my brief points to as "what we did at ruv.sgit.ai". The talk's slides ran on one slide engine dev had built in its first pass, just after midnight. And at about twenty-five past three I brought on two more members whose whole job was porting: motion, to turn my new story into animations I could start and stop on stage; and studio, to take pieces from my earlier sites and rebuild them on this one, so they worked in the player and on an iPad.
 
 **Studio** *(headphones on, sources pinned)*: Not new. Ported, tested, and pinned to where it came from. If it worked there, it can work here.
 

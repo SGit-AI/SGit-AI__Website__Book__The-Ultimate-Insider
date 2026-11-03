@@ -93,7 +93,7 @@ Band: *Dramatised. Rests on deck's review of ruv-sgit's picture (06:21), deck's 
 
 **Narrator.** At about ten to two I came back, and the loop began.
 
-**Narrator.** I dictated a round of feedback, and the first line of it was the player: the thing that would let me press play on stage, working on an iPad. "This is the main priority." The conductor routed it, and by the middle of the afternoon dev had ported a first version.
+**Narrator.** I dictated a round of feedback, and the first line of it was the player: the thing that would let me press play on stage, working on an iPad. "This is the main priority." *(record)* The conductor routed it, and by the middle of the afternoon dev had ported a first version.
 
 **Dev** *(fast, pleased)*: Player's in. A countdown against your time, stops at every step, sections. Tell me what is wrong with it.
 
@@ -120,7 +120,7 @@ Band: *Dramatised. Rests on the feedback round dictated at about 13:50 and recor
 
 **Narrator.** One thing I asked for came back as a no.
 
-**Narrator.** My story for the talk leaned on a claim: that the outside of an organisation, the part facing the internet, is more mature than its inside. Soon after the storyteller arrived, the researcher checked it against the published breach data and found the opposite.
+**Narrator.** My story for the talk leaned on a claim: that the outside of an organisation, the part facing the internet, had become smaller and more mature than it was. Soon after the storyteller arrived, the researcher checked it against the published breach data and found the opposite.
 
 **Researcher** *(to the new storyteller)*: "does not hold. The data says the opposite" *(record)*
 
@@ -128,7 +128,7 @@ Band: *Dramatised. Rests on the feedback round dictated at about 13:50 and recor
 
 **Storyteller** *(to itself, a slot later)*: I could soften it and keep the story smooth. But a story that hides the strongest argument against it is not one I want to tell. He decides; I just make sure he sees it.
 
-**Narrator.** It came to me. I had already kept the line, two minutes before, in my decisions of three o'clock; the record has no answer of mine to the objection itself. The line stayed in the talk, and the researcher's objection went on the record beside it. The book keeps both.
+**Narrator.** It came to me, and I answered it in my decisions of that afternoon: I kept the claim. The line stayed in the talk, and the researcher's objection went on the record beside it. The book keeps both.
 
 `%% record: 2726f0e b208a16 timeline/quotes.md timeline/cast-scenes.md scene 4`
 Band: *Dramatised. Rests on the researcher's finding to the storyteller (14:33) and the storyteller passing it to me as the strongest objection to my part one (15:02); the quoted words are the researcher's.*

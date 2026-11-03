@@ -2,6 +2,8 @@
 
 **Cast bar:** all of them, all day: this chapter is about what ran under every scene.
 
+`%% for the editor: "Nobody puts the plumbing in the brochure." and "It was the most important one." are the writer's; his to keep or drop.`
+
 **Narrator.** Nobody puts the plumbing in the brochure. But every story in this book ran through four pipes, and if you build your own factory you will need all four. A site to work on. A check every change passes. A register for every number. And a brief, with a file beside it for what turned out to be true.
 
 **Figure:** the plumbing as a building's services: the site, the check, the register and the brief, each drawn as a pipe running into the factory floor.
@@ -12,7 +14,7 @@
 
 **Narrator.** The agents did not work in a chat window. They worked on a website: every slide a page, every member a page, every wake and every commit a row on a page. That sounds like an odd choice for a talk. It was the most important one.
 
-**Narrator.** A website gives an agent somewhere to put things that stays put. Its work is a file with a history, not a message that scrolls away. And a site can show the team its own state: the dashboard, the wakes page, the release history, all built from the files the agents wrote. The site remembered for them, and it showed me what they had done without anyone writing me a report.
+**Narrator.** A website gives an agent somewhere to put things that stays put. Its work is a file with a history, not a message that scrolls away. And a site can show the team its own state: the dashboard, the wakes page, the release history, all built from the files the agents wrote. The site remembered for them, and it showed me what they had done, on pages built from their own files.
 
 **Dev** *(happy, the fast one)*: Every page is a file, so every page has a history and a check before it goes out. You never have to ask what changed. You look.
 
@@ -25,9 +27,11 @@ Band: *Dramatised (dev's line). Rests on the talk's site as it stood at the end 
 
 **Narrator.** The check does not care who made the change, or how sure they were. That is the point of it. A member that is certain its work is fine still has to pass the same test as one that is not.
 
-`%% to trace (the historian, shared with chapter 3): one change the check refused during the night, with its reason, to show here.`
+**Narrator.** One example from the first night. At about a quarter past one, the check stopped dev's release until two members' pages of rules carried a rule I had just asked for: every session report opens and closes with a banner. Dev added the lines; the release went out.
 
-**Narrator.** And the release history shows the result: each release the pipeline made, the commits it carried, the files they changed and the pages those files produce. Nobody typed a version number all day. The pipeline numbered every release itself, because two agents racing for the next number is how another team had lost releases two days before.
+`%% record: 24da366 (about 01:19) team/dev/debriefs (the-board.md: "the gate the conductor added at the editor's rule refused the release without it"); historian__022`
+
+**Narrator.** And the release history shows the result: each release the pipeline made, the commits it carried, the files they changed and the pages those files produce. Nobody typed a version number all day. The pipeline numbered every release itself. Deck's page of rules gives the reason: agents racing for release numbers is how another team, the newsroom, had lost releases on 27 October.
 
 **Figure:** one row of the release history, drawn: a release number, its commits, the files changed and the pages they make. A drawing from the page, not a screenshot: the build never shows an admin page.
 
@@ -59,13 +63,13 @@ Band: *Dramatised (the researcher's line). The talk's own register of claims, as
 
 > "None yet." *(record)*
 
-**Narrator.** The brief was wrong in places. My request in it says the talk is tomorrow; by the time the project existed, it was that same day. The talk it asks for became something different as the day went on, in my own decisions of the afternoon. None of that went into the corrections file. It went into the reality file, the decisions, the debriefs. The rule was right; nobody used it.
+**Narrator.** The brief was wrong in places. My request in it says the talk is "tomorrow"; by the time the project existed, it was that same day. The talk it asks for became something different as the day went on, in my own decisions of the afternoon. None of that went into the corrections file. It went into the reality file, the decisions, the debriefs. The rule was right; nobody used it.
 
 **Narrator.** I would keep the file, and give one member the job of writing in it. A brief that is never corrected becomes a story about what you thought you wanted.
 
 `%% for the editor: "I would keep the file, and give one member the job of writing in it." and the sentence after it are the writer's reading of his view; his to keep or drop.`
 
-`%% record: fde3fea (this book: the researcher's trace refusing a line) talk repository at 298be4e: BRIEF.md BRIEF-CORRECTIONS.md (unchanged since 1f7c633) REALITY.md (changed through the day); C104 (the afternoon's decisions)`
+`%% record: fde3fea (this book: the researcher's trace refusing a line) talk repository at 298be4e: BRIEF.md BRIEF-CORRECTIONS.md (unchanged since 1f7c633) REALITY.md (changed through the day, last at 17:42, 70d4981); BRIEF.md's request: "presentation that I'm delivering tomorrow in central london"; C104 (the afternoon's decisions)`
 Band: *The brief, the reality file and the corrections file as they stood at the end of the day.*
 
 ## Do this now
