@@ -24,6 +24,13 @@
    "verdict": "done",
    "comment": "In 495f62c8: /review/read/decisions.html (21 chapter-decision pairs, 49 mentions; C011 left out as also a claim id, 51 mentions); status, by and ask only, scrubbed at build time; linked from index, graph and wakes; board 007 ticked. Slips caught before push: a patch quoting error (redone), a BRIEF.html link (chapters only now).",
    "at": "2026-11-03T14:25:20Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (post_check brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Both items in 495f62c8, conditions kept, the two slips disclosed. Stale bookkeeping it named: board 007 had no open item for the next work (added: the graph drawn, printed page breaks). Debrief commits/site_version keep the team's usual wording. Its gate read 0 files (no _site in its view); the developer's gate before push read 727, clean.",
+   "at": "2026-11-03T14:26:24Z"
   }
  },
  "closed": null,

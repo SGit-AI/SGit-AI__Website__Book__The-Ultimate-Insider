@@ -21,3 +21,5 @@ The editor: "this online iPad PDF kind of mode application or view that has that
 - [x] The editions.json guard checks every address in the data, not only `url` fields: other hosts pass only as citations found in the register entry of their claim, listed in `outside_citations` and never linked on a page; QR targets get no exception (wake of 08:12 UTC, 3 November; the two today: C101's pricing pages)
 - [x] The final address sweep allows a listed outside citation only under its own claim: outside the claims' register text every address must be on the two hosts; tested on a scratch clone, a citation put into a paragraph is refused (wake of 09:12 UTC, 3 November)
 - [x] The page view for every edition: rc2-70 (82 scene-pages), ed-03 (4) and ed-10 (10) as printed pages, linked from each index and the zoom (wake of 12:12 UTC, 3 November)
+- [ ] The graph drawn (chapters, members, wakes and decisions as one picture)
+- [ ] Printed page breaks for RC2 and the 70-page draft in the page view
