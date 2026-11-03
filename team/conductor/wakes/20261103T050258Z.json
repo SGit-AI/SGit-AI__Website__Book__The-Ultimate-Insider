@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Owner naming is the conductor's; drafts and brief private to the editor; nothing decided; nothing private.",
    "at": "2026-11-03T05:03:49Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "ruv-sgit 018 and designer copy 049; three letters filed; both drafts built in the scratchpad; brief 47; status.",
+   "at": "2026-11-03T05:04:48Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "Nothing private; nothing decided; the 17:40 point matches security__025.",
+   "at": "2026-11-03T05:05:27Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "partial",
+   "comment": "The brief overclaimed part 4's checks (only the storyteller's read so far); fixed and rebuilt before close.",
+   "at": "2026-11-03T05:05:27Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T05:05:27Z",
+ "outcome": "ok"
 }
