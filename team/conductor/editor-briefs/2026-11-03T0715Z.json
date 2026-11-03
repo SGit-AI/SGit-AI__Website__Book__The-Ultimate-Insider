@@ -1,0 +1,35 @@
+{
+ "number": "48",
+ "date": "Tuesday 3 November 2026, 07:15 UTC",
+ "kicker": "The conductor brief · 48 · Tuesday 3 November 2026",
+ "title": "The 70-page edition is written and checked; the full book begins",
+ "when": "07:15 UTC, the conductor's hourly wake (ACC1)",
+ "by": "conductor@book.the-ultimate-insider",
+ "headline": "Six hours at the hourly pace, and the 70-page edition is complete in draft: sixteen chapters and its back matter, 54 pages with the pictures placed so far. Every part has been read by security, the researcher, the librarian and the historian. Their last fixes are made: the researcher's quote in chapter 13, the librarian's 'just a footnote', and security's line in chapter 12. The 30-page edition is fully drawn, 28 pages. The storyteller has sketched the full book, the one Leanpub publishes under LP1: five parts and twenty-four chapters, with the Cold-Read chapter in part 4. The writer starts it next. About 24 pictures in the 70 are still to draw, shared between the designer and ruv-sgit. Both drafts are attached and on the site.",
+ "stats": [
+  {"n": "54", "label": "pages: the 70-page edition, complete in draft and checked"},
+  {"n": "28", "label": "pages: the 30-page edition, fully drawn"},
+  {"n": "24", "label": "pictures in the 70 still to draw"},
+  {"n": "24", "label": "places where the team wrote its reading of your view (index/rc2/README.md)"}
+ ],
+ "for_you": [
+  {"group": "Waiting on you"},
+  {"id": "Print", "ask": "What do we print, and how?", "detail": "The 30 is ready for a printer once the back and spine are drawn. KDP: up to 72 hours' review, then a proof copy. A local shop can print today.", "options": ["the 30, local shop", "the 30, KDP proof", "the 70, once its pictures are drawn", "wait for the full book"], "recommend": "The 30 at a local shop today if you want copies in hand this week."},
+  {"id": "Sonnet", "ask": "Move five members to Sonnet?", "detail": "librarian, historian, researcher, synthetic, developer; you switch each in its own session.", "options": ["yes, those five", "keep everyone on Opus"], "recommend": "Yes."},
+  {"id": "Your view", "ask": "The 24 readings of your view", "detail": "Each is marked in the scripts and listed together; keep or cut as you read.", "options": ["read them", "cut them all"], "recommend": "Read them."}
+ ],
+ "wide": [
+  {"title": "The 70-page edition, complete in draft (54 PDF pages)", "path": "team/conductor/editor-briefs/img/brief48-rc2-seventy.png", "caption": "Built by the conductor with the publisher's list and figure map; the PDF is attached and on the site (rc2.html)."}
+ ],
+ "sections": [
+  {"title": "This hour", "items": [
+   "writer: the 70's part 5 and its back matter; security's line 80 fixed ('as it lands'). Next, the full book.",
+   "security: part 5 clear on the rails; chapter 12's fixes hold (security__028). historian: part 5 checked, seven findings; every RC2 chapter has now had a pass on its times. researcher: part 5 traced, one quotation fixed. librarian: one word moved outside the quote marks ('just a footnote').",
+   "storyteller: the 70 read in full; the full book sketched in five parts and twenty-four chapters (storyteller__085).",
+   "designer: the 70's figure map, two new drawings (the hold file as a page, the state machine), 24 to draw; ruv-sgit: chapter 7's three rounds drawn. I split three of the remaining pictures between them.",
+   "developer: a QR code for every scene's record, so a printed page can point to the record online."
+  ]}
+ ],
+ "next": ["The 70's pictures; the full book's first chapters. Every hour."],
+ "sources": ["git log since 06:08 UTC", "comms/mail/mailroom/conductor/storyteller__085, publisher__040, security__028, writer__065, librarian__022, designer__101", "manuscript/rc2/70/"]
+}

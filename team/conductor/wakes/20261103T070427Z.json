@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake (hourly, ACC1)",
+ "started": "2026-11-03T07:04:27Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (plan; reviewed by the security sub-agent below)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1 designer__101 asks owners for three of the 70's pictures: ruv-sgit takes chapter 2's map slide (it drew chapter 2's map) and chapter 5's wake clock with verdicts (it drew the margin clocks); the designer keeps chapter 9's story tree and its 24; letters to both; 2 file eight letters; 3 brief 48: the 70 complete in draft (17 files, 55 pages) and read by every checker, its last fixes made; the 150 (the full book, the Leanpub one) sketched by the storyteller and the writer starts it; 24 readings of his view gathered; asks unchanged (print, Sonnet); build both drafts for him; status; gate, push.",
+   "at": "2026-11-03T07:04:44Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (haiku)",
+   "model": "claude-haiku-5-5",
+   "verdict": "go",
+   "comment": "Owner naming is the conductor's; own paths; nothing decided; nothing private.",
+   "at": "2026-11-03T07:05:06Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
