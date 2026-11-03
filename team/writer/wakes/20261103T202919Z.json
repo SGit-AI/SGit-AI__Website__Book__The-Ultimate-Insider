@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Go with rails: 21's third failure as the historian's own slip, times and hashes only as its letter or the record give them; 22 names no Web Summit person and tells the plan as not run; 23 with only the editor lifting a hold, no key text, C037 as no figure, C101 as read. Ran as the reviewer agent.",
    "at": "2026-11-03T20:30:30Z"
+  },
+  "work": {
+   "by": "writer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Six letters taken; corrections and 21's third failure released first (the third failure before the post-review, named in the debrief); 150/22 and 150/23 written, the body complete; five letters; filing, status, debrief, board, REALITY.md. Gate clean, 0 outside scope.",
+   "at": "2026-11-03T20:36:58Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "finding",
+   "comment": "Minor finding: 21's third failure gave 'twenty-five past two' where the letter and record give 02:26:47; now 'at 02:26'. Otherwise clean: the third failure as the historian's own slip with its times and hashes, 22 naming no person and told as not run, 23's hold rule and C037, C101 as read; no key, id or fingerprint; nothing to the Cold-Read repository. Ran as the reviewer agent; build.py not run.",
+   "at": "2026-11-03T20:38:25Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "as-planned",
+   "comment": "All five items done: corrections and 21's third failure verified against this repository and the talk clone; 22 told as not run, no person named; 23's references and all twenty-two checklist lines matching; letters identical; records dated before their commit. The post-review's time fix committed after it read. Ran as the reviewer agent.",
+   "at": "2026-11-03T20:41:44Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T20:41:44Z",
+ "outcome": "ok"
 }
