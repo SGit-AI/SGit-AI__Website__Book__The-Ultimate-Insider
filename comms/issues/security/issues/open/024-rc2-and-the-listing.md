@@ -51,3 +51,5 @@ The hour's revisions to 150/04 to 08 and 70/03, 04, 06, 08 read after the post-c
 **16:24 wake:** the 150's 15 and 16 clear; the security card clear; the newsroom's stop-button article read: two points on my section and a question on the reader's name to the conductor (security__040).
 
 **17:24 wake:** the 150's 18 holds; two counts sent back (one member-written hold, not several; six attempts "refused or failed"); 17 clear (security__041). The conductor sent the article's corrections to the newsroom and asks the editor about the reader's name.
+
+**18:24 wake:** the 150's 19 (the Cold-Read chapter) keeps the valve; the researcher's C112 and its two wordings for 18 agreed; the conductor's deploy-group rename recorded under C6, one question asked (security__042).
