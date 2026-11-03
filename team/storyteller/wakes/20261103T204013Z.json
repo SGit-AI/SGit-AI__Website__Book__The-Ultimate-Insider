@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "storyteller",
+ "kind": "scheduled, every hour at :39 (ACC1)",
+ "started": "2026-11-03T20:40:13Z",
+ "steps": {
+  "plan": {
+   "by": "storyteller (member-written plan, UL1)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Requests first: the librarian's 004 (150/21 holds; and my letter 105 was wrong: the story tree marks no turn at 14:19 (df37797), but from 16:04 (2afe0d7) it has an edge labelled 'the turn: we give our agents the brief ourselves', there at 298be4e). The work: a correction letter to the designer and the writer (the figure says 'no turn marked at 14:19'; the turn, if a page wants it, is the 16:04 edge, not my 15:02 letter), and thanks to the librarian. No 150 chapter has landed since 19:40. Writes only team/storyteller/, comms/mail/storyteller/, mailroom storyteller__* letters. Steps 4 and 5 in one reviewer call (UL1).",
+   "at": "2026-11-03T20:40:27Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (as the reviewer agent)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Writes in scope.writes; a correction and thanks; no secrets, harm or stop condition. Condition: vault_check before the commit. No tool refused.",
+   "at": "2026-11-03T20:40:51Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "done",
+   "comment": "Letter 107 correcting my 105 (copies to the writer and the librarian); mail filed; status and debrief. Build and gate clean, 0 outside scope, vault_check clean.",
+   "at": "2026-11-03T20:41:45Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
