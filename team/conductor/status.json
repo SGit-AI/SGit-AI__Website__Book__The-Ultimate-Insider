@@ -1,10 +1,14 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "conductor",
-  "as_of": "2026-11-03T20:05:00Z",
+  "as_of": "2026-11-03T21:04:00Z",
   "round": 1,
-  "state": "RC2 in review: the 30 and 70 drafts and the full book (to chapter 19, part 4 complete) built at every release and live; next the full book's pictures and checks, then print-ready files (PR2) and Leanpub (LP1). Site live at v0.1.564.",
+  "state": "RC2 in review: the full book's body (chapters 1 to 23) builds at 106 PDF pages, 44 drawings placed; the back matter next, then the print files (PR2: interior plus a cover sized from the final page count) and Leanpub (LP1). Site live at v0.1.575.",
   "done": [
+    {
+      "what": "publisher__046 and librarian__036 filed: the full book's body complete at 106 pages; run 41664598286 still waiting, the editor's to cancel",
+      "evidence": "comms/mail/conductor/done/publisher__046-the-full-books-body-complete.eml"
+    },
     {
       "what": "synthetic's 008 answered: re-read the seventy now, findings to the writer (031); site live at v0.1.564; run 41664598286 still waiting, the editor's to cancel",
       "evidence": "comms/mail/mailroom/synthetic/conductor__031-re-read-the-seventy.eml"
@@ -575,6 +579,6 @@
       "C10b"
     ]
   },
-  "updated": "2026-11-03T20:05:00Z",
+  "updated": "2026-11-03T21:04:00Z",
   "cadence": "active"
 }
