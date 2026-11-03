@@ -95,3 +95,10 @@ a.pv code{color:var(--accent)}
 .pg{border:1px solid var(--line);background:var(--panel);border-radius:8px;padding:20px 24px;margin:16px 0;max-width:var(--measure)}
 .pg h2{margin-top:0;font-size:var(--t-s);text-transform:uppercase;color:var(--dim)}
 .pg .rc-rec{margin:20px 0 0}
+/* the graph drawn (make_reader.py, graph.html): lines in the accent, labels in the text colour, both themes from the site's tokens */
+.gx-draw{margin:16px 0}
+.gx-draw svg{width:100%;height:auto;max-width:900px}
+.gx-lines path{fill:none;stroke:var(--accent);stroke-opacity:.45;stroke-linecap:round}
+.gx-lines path:hover{stroke-opacity:.95}
+.gx-dots circle{fill:var(--accent)}
+.gx-labels text{fill:var(--text);font-size:12px}

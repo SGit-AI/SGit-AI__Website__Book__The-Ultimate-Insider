@@ -190,7 +190,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - `/review/read/sources.html`: the provenance turned round, each of RC1's 42 numbers and 135 commits with every paragraph that rests on it.
 - `/review/read/wakes.html`: the wakes behind each RC1 chapter, made by `review/tools/make_wakes.py`: each cited talk commit traced to the member's wake whose window holds it (72 of 115 on 3 November; 27 fall outside any wake, 16 name no member), with the five verdicts and a link to the wake file; no wake comment text is copied.
 - `/review/read/decisions.html`: the decisions behind each RC1 chapter (`review/tools/make_wakes.py`): the book.json decision ids each chapter names, with status, who decided and the ask, linked to `/decisions/` (21 chapter and decision pairs on 3 November; C011 left out as it is also a claim id); never the detail.
-- `/review/read/graph.html`: whose work each chapter rests on, chapters by the talk team's members, each cell the commits it cites by that member.
+- `/review/read/graph.html` (since 3 November also drawn): an inline SVG above the table joins each chapter to the members whose commits it cites, each line as wide as its count; no script; the table stays the readable version. Before that: whose work each chapter rests on, chapters by the talk team's members, each cell the commits it cites by that member.
 - Not yet: sending (sealed to the editor's key), the sealed note per person, the diffs.
 - `review/design/sealed-note.md`: the sealed note's design (AES-256-GCM, key in the fragment; later sealed to the reader's PKI key), with security for review. Nothing of it is built.
 
