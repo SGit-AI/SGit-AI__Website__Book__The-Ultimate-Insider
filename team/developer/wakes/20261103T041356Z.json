@@ -31,8 +31,15 @@
    "verdict": "clean",
    "comment": "Clean: all files in scope, no secrets, contacts, em-dashes or religious words, personas fictional, no network calls, make_editions.py escapes its text. Noted, older: build.py's Markdown passes raw-HTML lines and link hrefs unescaped; rc2-70 uses neither, so not a stop.",
    "at": "2026-11-03T04:24:27Z"
+  },
+  "work": {
+   "by": "developer@book.the-ultimate-insider",
+   "model": "",
+   "verdict": "done",
+   "comment": "Board 011 done (tablet column, two provisional founder pages, notice developer__022); board 010 part: make_editions.py takes a list of editions, /review/rc2-70/ (9 chapters, 53 scenes, 311 links), the zoom's 70-page rung; twin ids on repeated lines fixed. Commits 1b5a71aa, ef14d9bd, 89235b16.",
+   "at": "2026-11-03T04:25:09Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T04:25:09Z",
+ "outcome": "ok"
 }
