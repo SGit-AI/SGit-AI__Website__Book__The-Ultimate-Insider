@@ -1,10 +1,14 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "conductor",
-  "as_of": "2026-11-03T15:06:00Z",
+  "as_of": "2026-11-03T15:25:00Z",
   "round": 1,
   "state": "RC2: the plan (RP1) and cover A (CV2) signed at the editor's word; the team writes the first version down the zoom ladder, the 30-page first",
   "done": [
+    {
+      "what": "the team asked to read the newsroom's stop-button article (the voiced members to send corrections); the designer to draw security's card, the storyteller its cast guide entry",
+      "evidence": "briefs/2026-11-03__in-session/08-read-the-article-and-a-card-for-security.md"
+    },
     {
       "what": "15:03 wake: the full book to chapter 14; 11 and 12 cleared; two letters filed",
       "evidence": "comms/mail/conductor/done/security__037-150-11-12-clear.eml"
@@ -510,6 +514,10 @@
     {
       "what": "route each agent's section of the newsroom's draft to its member for a read; ask the editor whether to name the reader",
       "when": "when the journalist sends the draft"
+    },
+    {
+      "what": "route the voiced members' corrections to the newsroom's journalist; my own: the stop button became a section of chapter 18, not a chapter",
+      "when": "as they come"
     }
   ],
   "asks": [
@@ -543,6 +551,6 @@
       "C10b"
     ]
   },
-  "updated": "2026-11-03T15:06:00Z",
+  "updated": "2026-11-03T15:25:00Z",
   "cadence": "active"
 }
