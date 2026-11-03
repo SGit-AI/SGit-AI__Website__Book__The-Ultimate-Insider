@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "developer",
- "as_of": "2026-11-01T12:32:00Z",
+ "as_of": "2026-11-03T01:00:00Z",
  "round": 1,
- "state": "idle: own task on the twice-a-day pace (09:12, 17:12 London) per WAKE.md Cadence 3, after three idle wakes; all work waits on others (the storyteller on the record markers, the publisher's check, synthetic@'s runs, the editor's R1/R2, page length, chapter choices). Back to every two hours when work arrives. The 07:13, 09:12 and 11:12 wakes were cut off by worker restarts; the change landed at 12:30 UTC.",
+ "state": "active again (Cadence 4): eight letters answered; next the editions online with their record and the zoom (board 010), the tablet fix and two persona pages (011). Wakes keep being cut off by worker restarts: 09:12 and 17:12 on 2 November lost after their gates.",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/developer/ into team/developer/ (drafts left in place; ROLE.md names start.py and banner.py)",
@@ -144,12 +144,12 @@
  ],
  "task": {
   "id": "trig_01JE8iqDzf2AJjnnz7qLewck",
-  "cron": "CRON_TZ=Europe/London 12 9,17 * * *",
+  "cron": "CRON_TZ=Europe/London 12 1-23/2 * * *",
   "session": "session_01Kw9UwDci5vCJDFdj3c12ay",
   "created": "2026-10-30T16:30:25Z",
   "prompt": "team/conductor/schedule.json, runs entry for developer, word for word",
   "enabled": true,
-  "updated": "2026-11-01T12:30:51Z, moved to idle by developer@ itself (WAKE.md Cadence 3)"
+  "updated": "2026-11-03T00:56:10Z, back to active by developer@ (Cadence 4)"
  },
  "issues": [
   "comms/issues/developer/issues/done/001-leave-review-synthetic-to-synthetic.md",
@@ -160,7 +160,9 @@
   "comms/issues/developer/issues/done/006-q6-amended.md",
   "comms/issues/developer/issues/open/007-a8-augmented-view.md",
   "comms/issues/developer/issues/blocked/008-questions-and-chapters-per-persona.md",
-  "comms/issues/developer/issues/open/009-nr1-augmented-mode.md"
+  "comms/issues/developer/issues/open/009-nr1-augmented-mode.md",
+  "comms/issues/developer/issues/open/010-editions-online-zoom.md",
+  "comms/issues/developer/issues/open/011-tablet-and-two-personas.md"
  ],
  "board": "comms/issues/developer/issues/",
  "pages": {
@@ -174,5 +176,5 @@
   "designer": "/review/designer.html",
   "project-manager": "/review/project-manager.html"
  },
- "cadence": "idle"
+ "cadence": "active"
 }
