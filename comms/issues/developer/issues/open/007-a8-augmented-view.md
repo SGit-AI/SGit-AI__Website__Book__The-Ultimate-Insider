@@ -12,7 +12,7 @@ The editor: "this online iPad PDF kind of mode application or view that has that
 - [x] The provenance of every paragraph as data: `review/anchors/rc1-provenance.json`, 414 anchors and their 1377 sources (commit, path or claim, with its repository), the base for the graph and QR targets (wake of 07:13 UTC)
 - [x] Every review page's chapter list links each chapter to its augmented view (the study's "offer the record link, not only the PDF")
 - [x] The provenance turned round, `/review/read/sources.html`: each of the 42 numbers and 135 commits with every paragraph that rests on it (987 paragraph links, all landing) (wake of 09:13 UTC)
-- [x] The graph, first view: `/review/read/graph.html`, chapters by the talk team's members, each cell the commits of that member a chapter cites (115 commits; member read from the talk's own record) (wake of 13:15 UTC)
+- [x] The graph, first view: `/review/read/graph.html`, chapters by the talk team's members, each cell the commits of that member a chapter cites (115 commits; member read from the talk's own record) (wake of 13:15 UTC, 31 October)
 - [x] The graph's next view, the wakes: `/review/read/wakes.html`, for each RC1 chapter the talk team's wakes that made the commits it cites (72 of 115 traced by member and time window; the rest counted, not guessed), with the five verdicts and a link to each wake file (wake of 13:12 UTC, 3 November)
 - [ ] The graph's next view, the decisions behind a page
 - [x] QR targets for print, pointing at the record under each scene: `review/anchors/qr-targets.json`, 131 targets (RC2, the 70-page draft, the 3- and 10-page editions), https on the book's own domain only; images wait on a QR library (wake of 06:12 UTC, 3 November; notice developer__023 to the publisher)
