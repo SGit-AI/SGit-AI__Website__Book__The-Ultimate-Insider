@@ -3,7 +3,22 @@
  "agent": "developer",
  "kind": "scheduled, hourly at :12 (ACC1)",
  "started": "2026-11-03T10:12:44Z",
- "steps": {},
+ "steps": {
+  "pre_review": {
+   "by": "security sub-agent (pre_review brief; fallback general-purpose, the reviewer type refused: not found in this session; used Read and Bash only, none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No hold; in scope. Conditions: inbox copies only, originals untouched; the %% check reads build.py and _site/ without changing them; vault_check, gate, agents check before push. TA1 test not passed: as a fallback this step could see session, schedule and message tools (create_session, interrupt_session, send_message, create/update/delete/fire_trigger, send_later, Gmail send), calling none; only the reviewer type would pass, from the next session.",
+   "at": "2026-11-03T10:13:53Z"
+  },
+  "plan": {
+   "by": "conductor sub-agent (plan brief; fallback general-purpose, the reviewer type refused: not found; used Read and Bash only, none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "(1) TA1: the reviewer type refused (added at 10:06, after this session started); record a/b/c, run on the brief's Tools line, mail security developer__026 and the conductor developer__027, inbox copies of both letters. (2) NR1 last item: build.py has no %% rule; check whether any manuscript marker line reaches a built page before ticking, report if one does, build.py untouched. (3) Status, debrief, vault_check, gate, push. This step could see session, schedule and message tools, calling none.",
+   "at": "2026-11-03T10:13:58Z"
+  }
+ },
  "closed": null,
  "outcome": null
 }
