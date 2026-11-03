@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, every hour at :09 London (ACC1)",
+ "started": "2026-11-03T20:12:33Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (the reviewer agent; tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No new mail; the 150's new 21 and the changes since dfd7a4f5, checked in lane.",
+   "at": "2026-11-03T20:13:14Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (the reviewer agent; same tools)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; talk repo only read; faults by file and line; vault_check before commit.",
+   "at": "2026-11-03T20:13:14Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "No mail; the 150's 21 and the changes since dfd7a4f5 checked: sources clean, no voice hit, quotes and times hold; one note on the story tree's turn (018 to the writer, copies 036 to the conductor and 004 to the storyteller); index/rc2 and index/chapters updated, readings eighty-eight.",
+   "at": "2026-11-03T20:17:05Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (the reviewer agent; tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "All writes in scope; no secret or id; no time ahead of the clock; letter 018 holds; one wording set right before the commit (the editor's answer, not the writer's).",
+   "at": "2026-11-03T20:17:05Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (the reviewer agent; same tools)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Every planned item present; the storyteller's copy beyond the plan, justified and in scope.",
+   "at": "2026-11-03T20:17:05Z"
+  }
+ },
+ "closed": "2026-11-03T20:17:05Z",
+ "outcome": "ok"
+}

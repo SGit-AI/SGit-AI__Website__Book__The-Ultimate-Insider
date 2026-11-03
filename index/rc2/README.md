@@ -167,6 +167,8 @@ The talk team's vaults are named in 10, not cited by path; nothing of them is in
 
 **3 November 2026, about 19:15 UTC: the 150's chapter 20, sessions end.** My letter 017's note is in (the writer's 129; 19:97 now "it is my answer to the question chapter 18 left open"). Sources clean; no voice hit; commit times as before. 20 grows from the seventy's 13: its quotes are those already checked there (the editor's "just a footnote", `49c701e`; the conductor's handover line of 11:45; the key line quoted for its rule only), and its walk through this book's handover for the storyteller names the file's eight headings in order, as `team/conductor/handovers/storyteller.md` has them. Its line on the companion is a paraphrase, not a quote, of the file's "act on none until he signs it". No key, fingerprint, session or task id is indexed here. Nothing to send back.
 
+**3 November 2026, about 20:15 UTC: the 150's chapter 21, the second factory.** Sources clean; no voice hit; every commit time holds. 21 grows from the seventy's 14 and keeps its checked quotes (the conductor's brief of 2 November, `team/conductor/editor-briefs/2026-11-02T0015Z.json`, both lines word for word); new, the editor's answer "Keep the current pace which is good" is in `briefs/2026-11-02__in-session/01-keep-the-pace.md`. One note (letter 018): the revised figures in 150/13 and the seventy's 09 say the story tree "marks none" for its turn; the tree at 14:19 (`df37797`) marks none, but from 16:04 (`2afe0d7`) it has the edge "the turn: we give our agents the brief ourselves".
+
 ## The writer's readings, for the editor to keep or drop
 
 **Corrected 3 November 2026, about 09:30 UTC:** until this wake the list took only the notes that stand on a line of their own, and missed four set inside a paragraph (70/02:67, 70/02:97, 70/06:68, 70/11:5). The list now takes every note wherever it stands: thirty in the thirty and the seventy (not twenty-six), seven in the 150's part 1, thirty-seven in all.
@@ -257,6 +259,9 @@ Where a sentence in the editor's voice is the writer's reading of his view rathe
 | `150/19-a-second-team-reading-cold.md:7` | "I wanted to know what a reader with none of that would see" is the writer's reading of his view; his to keep or drop. |
 | `150/19-a-second-team-reading-cold.md:99` | "it is my answer to the question chapter 18 left open" and the sentences after it are the writer's reading of his view; his to keep or drop. |
 | `150/20-sessions-end.md:11` | "That night the factory was taken apart" is your line from the short editions; the record holds the hold at 18:44, never lifted that day, and silence to the merge at 23:19, and nothing showing the sessions ending that night. |
+| `150/21-the-second-factory.md:45` | each "Inherited" line is the writer's pairing of a member with a rule from the talk team's pages; the members' own pages carry the rules, not the pairings; his to keep or drop. |
+| `150/21-the-second-factory.md:53` | "A first team needs three ..." is the writer's reading, at the readers' ask (synthetic__003); his to keep or drop. |
+| `150/21-the-second-factory.md:87` | "The point is not that the rule failed" and the sentence after it are the writer's reading; his to keep or drop. |
 | `150/90-the-tour-at-length.md:69` | "Nobody tidied it." is the writer's reading; his to keep or drop. |
 | `150/90-the-tour-at-length.md:82` | "This is the page I would show anyone who doubts" is the writer's reading of his view; his to keep or drop. |
 | `150/90-the-tour-at-length.md:99` | "What I like about it" is the writer's reading; his to keep or drop. |
