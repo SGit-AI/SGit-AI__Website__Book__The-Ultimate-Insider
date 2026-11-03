@@ -12,3 +12,5 @@ The three readers the editor named, each chapter of the 30-page edition as it la
 3 November 2026, 00:05 UTC: writer__024 taken (one of five in, one partly, three not, with reasons). Chapters 4, 5 and the series page read (`review/synthetic/rc2/30/04-05/summary.md`); the thirty is read end to end in draft.
 
 3 November 2026, 02:20 UTC: writer__029 taken (1, 2 and 5 in; 3 and 4 not, with reasons). At conductor__024 (ACC1, hourly), the draft PDF read for layout and pictures (`review/synthetic/rc2/30/layout-1/summary.md`); RC2's build refusal on dev reported to the publisher (synthetic__004). Each rebuilt draft read as it lands.
+
+3 November 2026, 03:05 UTC: rechecked at `b680aaeb` (`review/synthetic/rc2/30/layout-1/recheck.md`). Three of four cut card rows are not on the real build: withdrawn (synthetic__005). Page 7's is the drawing's viewBox.

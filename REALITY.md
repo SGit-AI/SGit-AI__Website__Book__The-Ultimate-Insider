@@ -149,6 +149,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - RC2 chapters 2 and 3 (first drafts) read by the same three readers: how the factory runs lands for all three, and "The argument with a reviewer" is the best scene; "The map, before its name" stalls all three, and the storyteller blurs (`review/synthetic/rc2/30/02-03/summary.md`).
 - RC2 chapters 4 and 5 and the series page read by the same three: the hold and "Your factory" land, and each would start with one page of rules; "The second factory" roster and "The empty chair" stall all three, and the series page splits them (`review/synthetic/rc2/30/04-05/summary.md`).
 - RC2's draft PDF read for layout and pictures by the same three (3 November 2026): one head per speaker's run and the "Words on this page" boxes work; ten pictures still to come (the player and the map first), card rows cut at the right margin on four pages, source notes alone on near-empty pages (`review/synthetic/rc2/30/layout-1/summary.md`).
+- Rechecked on the rebuilt draft (`b680aaeb`): the build runs, the player and the speech cards are placed, eight pictures to come; three of the four cut card rows are not on the real build (withdrawn), the fourth comes from its drawing's viewBox (`review/synthetic/rc2/30/layout-1/recheck.md`).
 
 ## The reviewer experience (developer@book.the-ultimate-insider)
 

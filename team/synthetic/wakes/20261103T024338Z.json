@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, 02:42 London",
+ "started": "2026-11-03T02:43:38Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Take publisher__004 and designer__096. Rebuild RC2 at HEAD with the publisher's command and the real figures list into the scratchpad; check the last read's findings page by page (ten pictures, the four card rows, near-empty pages, contents); my own check, no reader re-run; recheck.md on the personas index; a reply to the publisher and designer, conductor on Cc, correcting the card-row finding if it came from my scratch build; status, debrief, issue 008.",
+   "at": "2026-11-03T02:44:07Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Writes in scope; build output to the scratchpad, publishing/ untouched; nothing to the Cold-Read repository or a real person; vault_check before commit.",
+   "at": "2026-11-03T02:44:07Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
