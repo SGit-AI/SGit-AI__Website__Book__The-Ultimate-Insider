@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, hourly at :57 London",
+ "started": "2026-11-03T05:57:55Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. lab/tools/book/rc2-70-figures.json: every Figure and Map line of the seventy in order, the thirty's drawing where repeated, null where the line names its own path or a screenshot, owners of the rest in a separate key; publishing/ untouched. 2. LAB 42: ch10-hold-file.svg (title and last line read at build from HOLD.md at 298be4e, C006) and ch12-state-machine.svg (released dashed, never reached, C024). 3. Letter 101 to the publisher, copy conductor; lab PDF, letters to done/, debrief, status, REALITY.md, gate, push. Checks done before work: C006 and C024 checked in the register; HOLD.md present at 298be4e.",
+   "at": "2026-11-03T05:59:22Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Designer's paths only, REALITY.md appended; publishing/, the manuscript and the blind repository untouched. Only C006 and C024 as registered. The state machine draws only running, held, released, released never reached; nothing on getting round the hold. HOLD.md text read at 298be4e, public-safe. vault_check comms; no secrets, religious words or em-dashes.",
+   "at": "2026-11-03T06:00:00Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "",
+   "verdict": "done",
+   "comment": "lab/tools/book/rc2-70-figures.json (53 slots, 19 drawn, notes line by line, checked against each chapter's Figure and Map lines and the disk when written); LAB 42: ch10-hold-file (title and last line read from HOLD.md at 298be4e), ch12-state-machine (released never reached, C024); lab PDF 128 pages; letter 101 (publisher, conductor); 021 and 049 to done/; debrief, status, REALITY.md; gate clean.",
+   "at": "2026-11-03T06:02:35Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "All staged files in scope; REALITY.md one appended line under its heading; publishing/ and manuscript/ untouched. The SVGs carry only the hold file's title, its 'What lifts it' line and 'No member lifts it.', public-safe; the state machine shows only running, held, released, nothing on getting round the hold. Numbers: 18:44:13, the title's own 95% (C006), C024. No secrets, religious words, em-dashes or private matter.",
+   "at": "2026-11-03T06:03:03Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "The figure map, LAB 42 (script, both SVGs, pages.html, experiment.json, ids.json), lab PDF, letter 101 in the publisher's and conductor's mailrooms and the outbox, 021 and 049 to done/, debrief, status, one REALITY line; publishing/ untouched; nothing unplanned; pre-review conditions held.",
+   "at": "2026-11-03T06:03:20Z"
+  }
+ },
+ "closed": "2026-11-03T06:03:20Z",
+ "outcome": "ok"
+}
