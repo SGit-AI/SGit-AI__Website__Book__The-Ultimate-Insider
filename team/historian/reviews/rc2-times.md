@@ -184,3 +184,19 @@ Checked and holding: the editor's 04:03 and "about ten to two" (the brief's firs
 | "its next commits, into the early afternoon, still left it off" | the bare form until the early afternoon | It runs to ruv-sgit's last commit of the day at 18:40: after 10:30, 25 commits in the bare form and 18 in the house form, mixed. Chapter 9 has it right ("to its last of the day") | the talk's log after 10:30 at `298be4e` |
 
 Checked and holding: deck's held request (wake 04:18, note at 04:22:13, the pre-review's ask); the researcher's argument at 04:11; the three letters as quoted from `6b55cff`, `3f094f2`, `36e382b`; the conductor's second note as quoted from `09317d9`, marked as cut; ruv-sgit reading both at 10:34 and taking deck's order (historian__022).
+
+## The full book (150), part 3 continued: the plumbing and the creator comes back, 3 November 14:19 UTC
+
+Letter 032's corrections stand in 150/09 and 150/10 (the writer's `5f986289`: commits' own times, "from a quarter to nine", "to its last of the day at 18:40"). Then `manuscript/rc2/150/11-the-plumbing.md` and `12-the-creator-comes-back.md` (`a6267bae` to `b1ffd753`), with every bracketed commit time compared to its commit and the thirteen wake records of hour 14 UTC read for `kind`.
+
+### The plumbing (150/11)
+
+No finding. Checked and holding: the gate's checks as first committed (`1f7c633:admin/build/validate.py`, its header lists them; the card leaves out two, the plain-text index and the placeholder check, which a card may); the release at 01:19:26 (`24da366`); every write of `./version` by the release job (211, none by an agent); the reality file last changed at 17:42:40 (`70d4981`); the corrections file unchanged since 00:40 (`1f7c633`); the brief's "tomorrow".
+
+### The creator comes back (150/12)
+
+| Where | The text says | The record says | Evidence |
+|---|---|---|---|
+| `12-the-creator-comes-back.md`, "The team changes shape within the hour", and the cast bar | "From 14:03 I was in three sessions at once: the conductor's, dev's and deck's"; "the editor back in three of their sessions" | Four. Hour 14 UTC's editor-started wakes: the conductor at 14:03, 14:09 and 14:52; the storyteller joining at 14:12:52; dev at 14:17:44 and 14:58:10; deck at 14:19:43. Seven in all, which is C087's 7. The storyteller's session is the fourth | talk `team/{conductor,storyteller,dev,deck}/wakes/20261029T14*.json` (`kind`) |
+
+Checked and holding: the feedback round "about 13:50" by its brief, committed and routed at 14:07:04 (`c9ced4e`); the conductor's notes "14:05 UTC" with the order as it then stood; the conductor's 14:03 wake as the first started by the editor since 04:02; dev's pane at 14:28:47 (`9a51c28`) in the wake opened at 14:17; deck's live review from 14:19 and its scheduled wake at 14:44:56 closed idle; ruv-sgit's parallel runs at 14:59:00 and 14:59:23; the storyteller's join at 14:15:17 and first pass at 14:19:39; the port at 15:07:08 (`3314ffe`), build mode at 15:16:48, the last fix at 18:37:02 (`dbd75ad`). The band naming my reading of 14:03 is fair to my day file 14.
