@@ -78,6 +78,8 @@ def main():
                 elif "/" in t or t.endswith((".md", ".json", ".py", ".html")):
                     unresolved.append(t)
         name = os.path.basename(ch)
+        if "/rc2/150/" in ch:   # the 150 reuses the seventy's file names: keep both entries
+            name = "150__" + name
         L = [f"# The index entries `{name}` draws on", "",
              f"From the chapter's `## Where this came from` in `{ch}`, resolved by `index/tools/chapter_entries.py`. "
              "Each row is the index's own entry for the file: kind, owner, when it was added and last changed, and what it is.", ""]
