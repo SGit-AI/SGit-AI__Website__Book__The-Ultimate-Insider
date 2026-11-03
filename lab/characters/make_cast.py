@@ -37,9 +37,9 @@ BOOK_TEAM = {
     "historian": ("#8f3b3b", "a mortarboard, an hourglass",           "the day in order"),
     "publisher": ("#56657a", "a printer's eyeshade, a bound book",     "every format"),
     "writer":    ("#d4704f", "a quill",                               "the editions' prose"),
-    # security, as this book's member (conductor__054, at the editor's word): a proposal until the storyteller's cast
-    # guide entry lands. On the talk's day it stays an empty chair (cast guide rule 5): never in the on-stage marker.
-    "security":  ("#1d3a6e", "a guard's peaked cap, a closed padlock", "every control listed with evidence of it firing"),
+    # security, as this book's member (conductor__054, at the editor's word), as the cast guide's entry gives it
+    # (storyteller__101). On the talk's day it stays an empty chair (cast guide rule 5): never in the on-stage marker.
+    "security":  ("#1d3a6e", "a guard's peaked cap, a closed padlock", "every control listed with evidence of it firing"),  # the cast guide's entry (storyteller__101) keeps this look
 }
 COLOUR = {m: v[0] for m, v in {**CAST, **BOOK_TEAM}.items()}
 MOODS = ("happy", "worried", "stressed", "unhappy")
@@ -167,11 +167,17 @@ def prop(member, col):
     }[member]
 
 
+FIRM = (f'<circle cx="17" cy="18.2" r=".9" fill="{INK}"/><circle cx="23" cy="18.2" r=".9" fill="{INK}"/>'
+        + path("M15.6 16.2 L18.4 16.2") + path("M21.6 16.2 L24.4 16.2") + path("M17.6 22.2 L22.4 22.2"))
+
+
 def figure(member, mood="happy"):
-    """One member at scale 1 in a 40 x 50 box, as SVG elements (no root)."""
+    """One member at scale 1 in a 40 x 50 box, as SVG elements (no root). Security's range is level to firm, never
+    alarmed (the cast guide, storyteller__101): its 'stressed' is drawn firm, without the sweat."""
     col = COLOUR[member]
-    screen = clock_face(mood) if member == "conductor" else face(mood)
-    sweat = path("M30.6 9.6 q-1.5 2.2 0 3 q1.5 -.8 0 -3", "#bcd3e6", INK, .4) if mood == "stressed" else ""
+    firm = member == "security" and mood == "stressed"
+    screen = clock_face(mood) if member == "conductor" else (FIRM if firm else face(mood))
+    sweat = path("M30.6 9.6 q-1.5 2.2 0 3 q1.5 -.8 0 -3", "#bcd3e6", INK, .4) if mood == "stressed" and not firm else ""
     return "".join([
         line(12, 31, 7, 36.6), line(28, 31, 32, 34),  # arms
         line(16, 42, 15.4, 47.4), line(24, 42, 24.6, 47.4), line(13.6, 47.8, 17, 47.8), line(23, 47.8, 26.4, 47.8),  # legs
