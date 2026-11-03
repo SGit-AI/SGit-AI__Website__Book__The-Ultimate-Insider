@@ -34,3 +34,5 @@ RC2 is signed (RP1, CV2): the 30-page edition first, then the 70 and the 150, in
 3 November, 09:37: the full book (150) begun: 01 to 03 traced, all holds (`claims/rc2-150-trace.md`); C111 the third moment (`researcher__011`).
 
 3 November, 11:37: 150/04 and 05 traced, the reordered 01 to 03 and 90 rechecked: one word ("fifteen minutes apart") and one stretch ("central London") (`researcher__012`).
+
+3 November, 12:37: 150/06 to 08 traced: every printed figure holds; seven record-line times to tidy (`researcher__013`).

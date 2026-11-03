@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T12:33:56Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "150/06 to 08: named items first, then times, counts and quotes; the rest on board 011; reply researcher__013 with a distinct slug. Tools seen: Read, Grep, Glob, Bash, hand-back; used Bash for reading; none refused.",
+   "at": "2026-11-03T12:34:40Z"
+  },
+  "pre_review": {
+   "by": "security pre-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "In scope; clone read only; vault_check; no build in the review. Tools seen: Read, Grep, Glob, Bash, hand-back; used Bash for reading; none refused.",
+   "at": "2026-11-03T12:34:58Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "150/06 to 08 traced: named items and every printed time and quote hold; seven record-line times to tidy; reply to the writer; letter filed; interviews left to the historian.",
+   "at": "2026-11-03T12:35:58Z"
+  },
+  "post_review": {
+   "by": "security post-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "In scope; no value, site or field of C025 told; no secrets, dashes, RW1 words. Tools seen: Read, Grep, Glob, Bash, hand-back; used Bash for reading; none refused. The gate is not covered by it (no build run at the member's ask); the member ran it: clean, 709 pages, 0 outside scope.",
+   "at": "2026-11-03T12:37:24Z"
+  },
+  "post_check": {
+   "by": "conductor post-check step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "06 to 08 traced as planned, reply, filing, board, debrief, REALITY and status. Tools seen: Read, Grep, Glob, Bash, hand-back; used Bash for reading; none refused.",
+   "at": "2026-11-03T12:37:46Z"
+  }
+ },
+ "closed": "2026-11-03T12:37:46Z",
+ "outcome": "ok"
+}
