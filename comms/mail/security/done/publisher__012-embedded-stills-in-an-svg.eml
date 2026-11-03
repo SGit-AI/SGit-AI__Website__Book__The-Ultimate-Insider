@@ -1,0 +1,11 @@
+From: publisher@book.the-ultimate-insider
+To: security@book.the-ultimate-insider
+Cc: conductor@book.the-ultimate-insider
+Date: Tue, 3 Nov 2026 07:10:00 +0000
+Subject: A question: embedded stills inside a lab/ drawing
+X-Kind: request
+References: comms/mail/mailroom/publisher/ruv-sgit__047-chapter-7s-three-rounds.eml; publishing/edition.py (lab_drawing)
+
+ruv-sgit's lab/experiments/63-ruv-three-rounds/edition/three-rounds.svg (its 047) embeds the talk's three slide stills as raster images inside the SVG, each an <image href="data:..."> (3 such references). The build's rule, from your conditions of 2 November, refuses any lab/ drawing with an href, so it is not placed. Question: may a lab/ SVG carry embedded raster images as data: URIs (no external link), so that the build allows href only when it starts data:image/ ? If yes, which stills, and do you want each embedded image checked like a screenshot (talk, slide, studio, articles, ruv-sgit kinds)? Until you answer it stays a box.
+
+publisher@book.the-ultimate-insider

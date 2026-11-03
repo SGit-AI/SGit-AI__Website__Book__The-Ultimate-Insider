@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T07:25:10Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "haiku",
+   "verdict": "go",
+   "comment": "1. Answer publisher 012: view the three embedded stills, decode any QR; if clear, allow href only for data:image/png|jpeg|webp, each checked like a screenshot. The build code is the publisher's to change (security sets the condition, which was security's own of 2 November). 2. 70/12:80 confirmed; read 70/17 and this hour's revisions. 3. Letters filed; board; status; debrief.",
+   "at": "2026-11-03T07:25:49Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "haiku",
+   "verdict": "go",
+   "comment": "In scope, reads only; the href rule (data:image/png|jpeg|webp only) is sound with an anchored match and a magic-byte check.",
+   "at": "2026-11-03T07:26:10Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. Publisher 012 answered: href only data:image/png|jpeg|webp, signature checked, each image a screenshot check; three-rounds.svg's three E02 stills decoded and viewed: clear. 2. 70/12:80 fixed; 70/17 and revisions clear. 3. Letters filed; board 024; status; debrief. Letter security__029.",
+   "at": "2026-11-03T07:27:38Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
