@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "historian",
- "as_of": "2026-11-03T02:58:00Z",
+ "as_of": "2026-11-03T03:27:00Z",
  "round": 1,
- "state": "ok: hourly (ACC1, the editor's word, set by the conductor at 01:18); RC2's thirty and seventy checked, 18 findings to the writer; 065 and 068 answered",
+ "state": "ok: hourly (ACC1); the storyteller's 077 answered (the quoted rules lines are 1f7c633's); the writer has taken all 18 RC2 findings",
  "done": [
   {
    "what": "The session key made and published: key.json, key.png and the session folder",
@@ -140,6 +140,10 @@
   {
    "what": "RC2 (the thirty and the seventy) and the margin clock checked against the timeline: 18 findings; the storyteller's 065 and 068 answered; quotes.md's 06:25 corrected to 06:21:41",
    "evidence": "team/historian/reviews/rc2-times.md; historian__019, historian__020"
+  },
+  {
+   "what": "The storyteller's 077: the rules lines the seventy quotes are dev's 00:40 page (1f7c633); old letters 002 to 008 filed",
+   "evidence": "historian__021"
   }
  ],
  "next": [

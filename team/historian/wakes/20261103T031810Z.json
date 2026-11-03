@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled, hourly at :17 London (ACC1)",
+ "started": "2026-11-03T03:18:10Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "1) Storyteller 077: which commit holds the rules lines the seventy's chapter 3 quotes; reply historian__021. 2) Writer 042 (receipt) to done. 3) File conductor 002 to 008 (answered 30 October) to done. Status. Inside policy.json.",
+   "at": "2026-11-03T03:18:46Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "In policy; talk repo read only; no secrets, nothing sent outside, no stop condition.",
+   "at": "2026-11-03T03:19:04Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "Storyteller 077 answered (historian__021, cc writer): the quoted lines are 1f7c633 at 00:40, the conductor's 00:44 page another text, the line edited at 00:54 in f00101e. Writer 042 and conductor 002 to 008 filed to done; status.",
+   "at": "2026-11-03T03:19:55Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "In scope; agents check 0 outside; vault_check comms clean; no keys, em-dashes, religious words or model names in the historian's text.",
+   "at": "2026-11-03T03:21:00Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "a smaller model",
+   "verdict": "partial",
+   "comment": "077 answered; 042 to done; status. Partial: conductor 007 was still in my inbox, not done; moved after this check. Also: the post-check sub-agent made one stray interrupt_session call, unrelated; denied by the session's classifier, nothing interrupted, no file changed.",
+   "at": "2026-11-03T03:21:00Z"
+  }
+ },
+ "closed": "2026-11-03T03:21:00Z",
+ "outcome": "ok"
+}
