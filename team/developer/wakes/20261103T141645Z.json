@@ -31,8 +31,15 @@
    "verdict": "as-planned",
    "comment": "Both items in 495f62c8, conditions kept, the two slips disclosed. Stale bookkeeping it named: board 007 had no open item for the next work (added: the graph drawn, printed page breaks). Debrief commits/site_version keep the team's usual wording. Its gate read 0 files (no _site in its view); the developer's gate before push read 727, clean.",
    "at": "2026-11-03T14:26:24Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (post_review brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused",
+   "model": "",
+   "verdict": "clean",
+   "comment": "495f62c8 clean: 11 files in scope; no keys, contacts, em-dashes or religious words; decisions.html shows id, status, by and ask only; the build refuses an @, URL or phone-like number; all 12 anchors resolve. The changes it saw mid-review were the developer's own (board 007 next items, post-check record), committed after. Limit noted: the scrub catches addresses and numbers, not names; every 'by' is 'editor' today.",
+   "at": "2026-11-03T14:26:58Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T14:26:58Z",
+ "outcome": "ok"
 }
