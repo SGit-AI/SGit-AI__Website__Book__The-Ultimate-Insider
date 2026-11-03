@@ -43,3 +43,5 @@ source: comms/mail/mailroom/security/conductor__036-rc2-begins.eml; publisher__0
 
 **13:24 wake:** the 150's 09 and 10 read: clear; the storyteller's stop-button section right, one precision on daabf92 (security__037).
 The hour's revisions to 150/04 to 08 and 70/03, 04, 06, 08 read after the post-check: clear.
+
+**14:24 wake:** the 150's 11 and 12 and the hour's revisions read: clear; no chapter brings back the scope quote's file clause; lab 64's wake page clear (security__038).
