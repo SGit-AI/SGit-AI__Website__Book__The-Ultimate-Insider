@@ -60,7 +60,7 @@ Band: *Dramatised (the researcher's line). The quoted words are its finding's ow
 `%% record: b208a16 (15:02:48, the storyteller's pass and its letter) team/storyteller/story/challenge.md at 298be4e`
 Band: *Dramatised. The storyteller's lines rest on its letter of 15:02 only; the words are ours.*
 
-**Narrator.** It came to me, and I answered it in my decisions of that afternoon. My answer is in the record in one line of the decisions file, under the researcher's pushback:
+**Narrator.** It came to me, and I answered it in my decisions of that afternoon. The conductor wrote my answer down in one line of the decisions file, under the researcher's pushback:
 
 > "The outside is in balance: he keeps the claim." *(record)*
 
@@ -75,7 +75,7 @@ Band: *Dramatised. The storyteller's lines rest on its letter of 15:02 only; the
 `%% figure brief: For the designer. Three marks, the words under each from the record; the times in the picture.`
 
 `%% record: 78d517d (15:16:37, my decisions, headed about 15:00: "The outside is in balance: he keeps the claim.") C104 (the decisions round: given about 15:00, recorded 15:16:37) historian__022 (the correction: he answered R5 directly, in his decisions file)`
-Band: *My words are the decisions file's own. The finding, the letter and the answer are in that order in the record.*
+Band: *The answer is the decisions file's own line, in the conductor's words. The finding, the letter and the answer are in that order in the record.*
 
 ## Do this now
 

@@ -16,7 +16,7 @@
 
 **Researcher** *(unbudging)*: A claim without a captured source is a gap, and the register says so rather than leaving it out. Gaps are allowed. Hiding them is not.
 
-**Narrator.** Three did not hold, and none of those three was said on stage. That is not luck. It is the register doing its job: the researcher marked them, and the story went round them.
+**Narrator.** Three did not hold, and no beat of the talk carries any of the three. That is not luck. It is the register doing its job: the researcher marked them, in writing, where every member could see.
 
 **Narrator.** This book works the same way. Its researcher keeps a register, and no number goes on a page unless it is there. When an early draft of this book carried a line the record could not support, it came back by letter, and the line was changed.
 

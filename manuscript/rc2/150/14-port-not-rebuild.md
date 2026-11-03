@@ -37,7 +37,7 @@ Band: *Dramatised (the conductor's line). Rests on the conductor's commits of 15
 
 **Motion** *(cap and clapperboard, already rolling)*: One request at a time from deck. Each one moves when you press play, and stops when you stop.
 
-**Narrator.** Studio had the pieces I had named rebuilt on this site's engine by 15:40, each with its notice, its source commit and its data pinned unchanged. Motion did not wait to be told: it sent deck a proposed picture with its stages, so deck's answer could be "go" and not a fresh brief, and its first piece, the building, was in by 16:34.
+**Narrator.** Studio had its first two pieces rebuilt on this site's engine by 15:40, each with its notice, its source commit and its data pinned unchanged. Motion did not wait to be told: it sent deck a proposed picture with its stages, so deck's answer could be "go" and not a fresh brief, and its first piece, the building, was in by 16:34.
 
 `%% record: f00734f (15:25, the briefs) f1cbca0 8d208d3 (15:31) c3ce566 (15:40, studio's first ports) 7639664 (16:34, motion's building) team/motion/requests/deck__the-building.md C013 timeline/interviews/motion.md studio.md`
 Band: *Dramatised (studio's and motion's lines, kept from the 70-page edition). Rests on the briefs, the first commits and the first pieces.*

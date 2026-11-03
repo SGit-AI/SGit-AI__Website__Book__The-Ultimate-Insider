@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer",
+ "kind": "scheduled, hourly at :28 London (ACC1)",
+ "started": "2026-11-03T15:29:30Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Go: in scope; corrections first in 150/11 to 14, facts about him sourced, flagged or cut, four sessions kept with the historian's count beside the day file's three, the two quotes checked, new conductor and deck lines on the record and banded; then 150/15 and 16 from their outlines, numbers from claims/, the refusal told as the refusal only. Ran as the reviewer agent.",
+   "at": "2026-11-03T15:30:11Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Go with rails: corrections within the writer's role; 15's refusal told as the seventy tells it, nothing on a route past the check; the pre-reviews' changes and every count from the register; 16's hold and its finding from the record only, said once, never as a window; his usage in his recorded words with the register's numbers; no key, vault, session or task id; the designer's 'locked' told as contradicted (C027). Ran as the reviewer agent.",
+   "at": "2026-11-03T15:30:53Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

@@ -6,19 +6,26 @@
 
 `%% clock record: about 13:50 (the feedback round, by its brief) to 14:59 on 29 October; commits in hour 14 UTC, not counting merges, 47 (C095); wakes in hour 14 UTC 6 scheduled, 7 mine (C087); clock hours of 29 October (C110; the conductor's CK1).`
 
+**Figure:** the player, first: a slide mid-animation, the timer counting against my time, the step controls (`index/talk-site/shots/talk__player.jpg`). Everything in this chapter is on the way to it.
+
 ## The feedback round
 
 **Narrator.** At about ten to two I came back. I did not open a session and start typing at an agent. I dictated a round of feedback, in a chat, with a brief for each member, and pasted it into the conductor's session for it to route. Its first line says when and how; its first item says what mattered most:
 
 > "The player, from ruv.sgit.ai, working on an iPad. This is the main priority." *(record)*
 
-**Narrator.** The player was the piece I would press play on, on stage, that evening. The rest of the round was the morning review's corrections, the talk's framing, the story of the animations, and a storyteller to join the team.
+**Narrator.** The player was the piece the plan had me pressing play on, on stage, at seven that evening. The rest of the round was the morning review's corrections, the talk's framing, the story of the animations, and a storyteller to join the team.
+
+**Conductor** *(on the minute)*: Routed. Each section to its owner's mailroom, read at its next slot.
+
+`%% record: feedback-briefs.md's first line ("The conductor routes each section to its member's mailroom at the 14:02 wake") c9ced4e (14:07)`
+Band: *Dramatised (the conductor's line). Rests on the brief's first line and the commit that routed it.*
 
 **Narrator.** Then the record keeps something I would rather it did not. The conductor read the round, wrote a review of it, and I answered the review in the same session. Within minutes the order had changed, at my own word: a feedback pane on every page, so I could send notes from the browser, went first; the player went second. The conductor's notes of 14:05 record the new order, and my words after the review:
 
 > "we can still do a lot before 7 and I can wake the agents up when needed ..." *(record)*
 
-**Narrator.** Both things were true. The pane let me talk to the team from the page I was reading, and I used it all afternoon. And the main priority came second, landed in the middle of the afternoon, and was still being fixed in the last hour. The failures stay in, and that one is mine.
+**Narrator.** Both things were true. The pane was to let me send notes to the team from the page I was reading. And the main priority came second, landed in the middle of the afternoon, and was still being fixed in the last hour. The failures stay in, and that one is mine.
 
 `%% for the editor: "something I would rather it did not" and "that one is mine" are the writer's reading of his view; his to keep or drop. The record holds the order and his words, not his feeling about them.`
 
@@ -33,7 +40,7 @@ Band: *My words are the brief's and the conductor's notes' own; the order is the
 
 **Conductor** *(pacing, then procedural)*: Your words, yes. Their folders, no. A request each, in my own outbox, and the rules for the pane before the pane.
 
-**Narrator.** The pressure in that hour was me. I was back, I was in a hurry, and the talk was that evening. The checks did not soften because I was in the room. That is what they are for.
+**Narrator.** The pressure in that hour was me. I was back, with a list, and the talk was due that evening. The checks did not soften because I was in the room. That is what they are for.
 
 `%% for the editor: "the thing I would most want a team to do" is the writer's reading of his view; his to keep or drop.`
 
@@ -42,7 +49,9 @@ Band: *Dramatised (the conductor's line). Rests on the conductor's wake of 14:03
 
 ## The team changes shape within the hour
 
-**Narrator.** From 14:03 I was in four sessions: the conductor's, the storyteller's as it joined, dev's and deck's. In dev's I started a wake for the feedback pane, with voice. In deck's I went through the studio's pieces live, one by one, and spoke my feedback, and deck wrote it down as given.
+**Narrator.** From 14:03 I was in four sessions: the conductor's, the storyteller's as it joined, dev's and deck's.
+
+`%% four, by the historian's count of the wake records (historian__033: the storyteller's joining wake at 14:12 was mine too, and C087's seven for the hour are the conductor's three, the storyteller's, dev's two and deck's); the day file names three.` In dev's I started a wake for the feedback pane, with voice. In deck's I went through the studio's pieces live, one by one, and spoke my feedback, and deck wrote it down as given.
 
 **Deck** *(exacting, writing fast)*: As given. Your words, not mine. Then the next one.
 
@@ -72,17 +81,15 @@ Band: *Dramatised (the storyteller's line, kept from the 70-page edition). Rests
 
 `%% clock record: 15:07, the port; clock hours of 29 October (C110; the conductor's CK1).`
 
-**Figure:** the player as I used it on stage: a slide mid-animation, the timer counting against my time, the step controls (`index/talk-site/shots/talk__player.jpg`).
-
 **Narrator.** At seven minutes past three, dev ported the player. Not built: ported, from the earlier site I had pointed at in my brief, and its commit says so in its first words.
 
 **Dev** *(fast, pleased)*: Player's in. A countdown against your time, stops at every step, sections. Tell me what is wrong with it.
 
-**Narrator.** So I did, for the rest of the afternoon. I looked, I asked, they changed it, I looked again. Each ask came back in minutes; the card has every one I timed myself, with the time I asked and the time it came back. The last landed at 18:37, a few minutes before the hold.
+**Narrator.** So I did. I looked, I asked, they changed it, I looked again. The card has the asks I put my own time on in a commit subject, from half past five on: some the conductor routed, some fixes to the player itself, each with the time I asked and the time it was recorded. The last fix landed at 18:37, a few minutes before the hold.
 
 **Figure:** a card of my eight afternoon asks: each with the time I asked and the time it came back.
 
-`%% figure brief: For the designer, from C105 (its rows: the time asked from the commit subject, the time recorded). The times on the card only.`
+`%% figure brief: For the designer, from C105 (its rows: the time asked from the commit subject, the time recorded, and what each was: the conductor routing or a player fix). The times on the card only. The 18:05 row was recorded at 18:04:48, before the time in its subject: print both as the record has them, with a small note that the subject's time was his round number.`
 
 **Figure:** the afternoon loop on one line of time: my asks above the line, what came back below it (`lab/experiments/29-ruv-the-afternoon-loop/loop.svg`).
 
