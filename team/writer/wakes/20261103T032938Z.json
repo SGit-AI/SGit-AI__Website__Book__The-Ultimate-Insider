@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Clock lines printed on C110; storyteller__076's eight and security__006 taken in 70/01 to 05; the seventy's part 3 (70/06 to 09: C029 C030 C087 C104 C105 C107 C110; talk files at 298be4e); letters 043 to 047; four letters into done/; status, debrief, board; vault_check clean.",
    "at": "2026-11-03T03:36:23Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (Sonnet), steps 4 and 5 in one agent to spare usage",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Build, gate, vault_check, agents check (0 outside) pass. Every quote in 70/06 to 09 word for word; C029, C030, C087, C110 match; clock hours agree; scenes banded; no figures in agent lines, no admin screenshot, nothing of the access-key incident, no Cold-Read, no em-dashes, religious words, keys or personal detail. Nit: 'nine hours' derived (C087's hours), not a register figure.",
+   "at": "2026-11-03T03:38:01Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (Sonnet), with step 4",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Plan met: clock printed on C110; storyteller__076's findings in 70/01 to 05; the 'all ten' caption corrected; chapters 6 to 9 written; letters filed. Conditions held. Minor: C104 cited loosely in 70/08.",
+   "at": "2026-11-03T03:38:01Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T03:38:01Z",
+ "outcome": "ok"
 }
