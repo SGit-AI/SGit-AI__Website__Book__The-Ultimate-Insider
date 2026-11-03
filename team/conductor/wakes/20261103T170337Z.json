@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Corrections match the three letters; the validate-only change keeps the member's build as the gate; nothing decided; nothing private.",
    "at": "2026-11-03T17:04:33Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "One message to the newsroom's journalist (delivered) with three corrections; post_review.md validate only; synthetic reply; nine letters filed; status.",
+   "at": "2026-11-03T17:06:06Z"
+  },
+  "post_review": {
+   "by": "reviewer agent (haiku)",
+   "model": "claude-haiku-5-5",
+   "verdict": "clean",
+   "comment": "Only conductor paths and mail; the brief change keeps the member's own build as the gate; nothing private.",
+   "at": "2026-11-03T17:06:42Z"
+  },
+  "post_check": {
+   "by": "reviewer agent (haiku)",
+   "model": "claude-haiku-5-5",
+   "verdict": "as-planned",
+   "comment": "Reconciled: eleven .eml are nine filed to done plus the synthetic reply and its outbox copy. Items 1 and 3 rest on the delivered message and the scratchpad card, as planned.",
+   "at": "2026-11-03T17:06:42Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T17:06:42Z",
+ "outcome": "ok"
 }
