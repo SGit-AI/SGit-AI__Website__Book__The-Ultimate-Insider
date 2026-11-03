@@ -24,6 +24,13 @@
    "verdict": "done",
    "comment": "In 9313b464: pages.html for rc2-70 (82 scene-pages), ed-03 (4) and ed-10 (10) printed pages, rc2 (33); linked from each index and the zoom; checked in Chromium: keys, no errors, no outside request, no %%.",
    "at": "2026-11-03T12:17:37Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (post_check brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Both items in 9313b464, pre-review conditions held, rebuilt drafts not hand-edited. Stale status state line corrected before close. (Its gate count of 300 files was from a partly built _site/; the developer's gate before push read 704, clean.)",
+   "at": "2026-11-03T12:18:19Z"
   }
  },
  "closed": null,
