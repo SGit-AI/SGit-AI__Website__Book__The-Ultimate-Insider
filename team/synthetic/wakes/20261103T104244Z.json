@@ -17,9 +17,30 @@
    "verdict": "go",
    "comment": "Inside policy (team/synthetic, comms/issues/synthetic, mail); no other member's paths, secrets or shared rules; no stop condition. Conditions: vault_check comms; the notice by mail, not a message tool. Tools: Read and Grep; none wanted; nothing refused.",
    "at": "2026-11-03T10:43:39Z"
+  },
+  "work": {
+   "by": "synthetic",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "conductor__027 taken; the reviewer type not in this session, recorded (tools_note) and sent to security (synthetic__002), conductor on Cc; issue 009 note, status, debrief; vault_check, gate, scope clean.",
+   "at": "2026-11-03T10:44:29Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (post_review.md, under reviewer.md's rules)",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "6 files, all in synthetic's paths; no key, token or personal detail; nothing directing an agent; gate clean (683), agents check 0 outside, vault_check clean. Tools: Read and Bash; none wanted; nothing refused.",
+   "at": "2026-11-03T10:45:16Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (post_check.md, under reviewer.md's rules)",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Item 1 done (tools_note, synthetic__002 with outbox copy, issue 009 note); item 2 kept (no read); item 3 done (status, debrief); both pre-review conditions kept; nothing unplanned. Tools: Read and Bash; none wanted; nothing refused.",
+   "at": "2026-11-03T10:45:16Z"
   }
  },
- "closed": null,
- "outcome": null,
+ "closed": "2026-11-03T10:45:16Z",
+ "outcome": "ok",
  "tools_note": "TA1 (conductor__027): the 'reviewer' agent type (.claude/agents/reviewer.md) is not available in this session: the Agent tool answered \"Agent type 'reviewer' not found\" (agent types load at session start; this session began on 30 October). a) Tried because conductor__027 asks every member to run its review steps as that type. b) Needed for the tool limit to be enforced rather than asked. c) Instead each step ran as a general agent told to follow reviewer.md's rules and tools line; each reported its tools (Read, Grep, Bash only) and nothing was refused; lost: the limit is a request in the prompt, not the session's. A new session for synthetic would load the type."
 }
