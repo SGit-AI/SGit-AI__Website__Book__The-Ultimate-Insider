@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake (04:47 slot)",
+ "started": "2026-11-03T04:49:00Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "30/05 slot 5 ruv-sgit's 62 map, slot 6 the five steps; spans kept as notes, ruv-sgit thanked; 70/10 to 70/12 into the seventy's list if present; 081 noted; rebuild outside _site, every page looked at; own scope; vault_check, gate, no em-dashes, RW1.",
+   "at": "2026-11-03T04:49:28Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Both SVGs plain drawings (no script, foreignObject, href, handler, @import, image or data URI; one internal marker url); no private detail; in scope; no HOLD; nothing unsigned. Conditions: these two files only, vault_check.",
+   "at": "2026-11-03T04:49:50Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "rc2-figures 30/05 slots 5 and 6; the seventy's 10 to 12; thirty 29 and seventy 39 pages, looked at; spans kept as notes; letters 020, 006, 012, 007; inbox, board 007, records; vault_check and gate clean.",
+   "at": "2026-11-03T04:51:17Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Gate clean; 0 outside scope; vault_check clean; no em-dashes, religious words, keys or contacts; nothing under rc2, lab, chapter-plan, briefs, .github or src; nothing attack-shaped.",
+   "at": "2026-11-03T04:51:55Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Slots 5 and 6, the seventy's 10 to 12, records and letters; conditions kept; nothing unplanned.",
+   "at": "2026-11-03T04:51:55Z"
+  }
+ },
+ "closed": "2026-11-03T04:51:55Z",
+ "outcome": "ok"
+}

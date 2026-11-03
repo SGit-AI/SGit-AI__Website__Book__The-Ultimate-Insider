@@ -27,3 +27,5 @@ source: comms/mail/mailroom/publisher/conductor__026-check-taken.eml; publishing
 3 November about 03:10 UTC: chapter 5's three drawings placed (thirty 33 pages); the release takes --figures; sources at 8 pt; a Contents heading; the policy-review shot in the seventy (22 pages); the clock waits on the form and the writer's printed lines.
 
 3 November about 04:10 UTC: the clock placed (CK1; ruv-sgit's box where a chapter names one hour, spans as margin notes); the chain map and the team cards in; the seventy to chapter 9 (32 pages); the thirty 28 after the writer's tightening.
+
+3 November about 05:10 UTC: the thirty's chapter 5 complete (29 pages); spans stay margin notes (designer, writer); the seventy to chapter 12 (39 pages). Storyteller's 081 noted for the editions (the release rebuilds them from the scripts).
