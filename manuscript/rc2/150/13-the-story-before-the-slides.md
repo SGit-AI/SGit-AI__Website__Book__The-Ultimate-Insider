@@ -55,7 +55,7 @@ Band: *Dramatised (the researcher's line). The quoted words are its finding's ow
 
 **Storyteller** *(rueful)*: Then it goes to the editor, as the strongest objection to his own part one. Not buried.
 
-**Storyteller** *(to itself, a slot later)*: He decides; I just make sure he sees it.
+**Storyteller** *(to itself)*: He decides; I just make sure he sees it.
 
 `%% record: b208a16 (15:02:48, the storyteller's pass and its letter) team/storyteller/story/challenge.md at 298be4e`
 Band: *Dramatised. The storyteller's lines rest on its letter of 15:02 only; the words are ours.*

@@ -16,7 +16,7 @@
 
 > "if the next agent doesn't pick it up in the run in the same hour, it will pick it up on the next one" *(record)*
 
-**Narrator.** That is a claim about the schedule, and the morning had proved it: work missed in one slot is picked up in the next. The rule's price came with it. From then on wakes could overlap, so every member had to pull again before every push, or work from a stale copy. The rule the team had written in the first hour, pull first, became a live risk rather than a habit.
+**Narrator.** That is a claim about the schedule, and chapter 9 shows the morning bearing it out: a request not picked up in one slot was picked up in the next (the historian's day file for hour six). The rule's price came with it. From then on wakes could overlap, so every member had to pull again before every push, or work from a stale copy. The rule the team had written in the first hour, pull first, became a live risk rather than a habit.
 
 **Conductor** *(pacing, then procedural)*: Longer work, then. And pull again before every push, every one of you, because now you overlap.
 
