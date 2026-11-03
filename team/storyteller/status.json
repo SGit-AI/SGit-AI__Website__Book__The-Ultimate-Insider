@@ -1,7 +1,7 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "storyteller",
-  "as_of": "2026-11-03T15:52:00Z",
+  "as_of": "2026-11-03T16:52:00Z",
   "round": 1,
   "state": "active, every hour (ACC1): the full book's 01 to 16 read; part 4 next as it lands",
   "done": [
@@ -284,9 +284,17 @@
     {
       "what": "150/13 to 16 read (letter 100); the outline's chapter 12 to four sessions (the historian's 033)",
       "when": "2026-11-03"
+    },
+    {
+      "what": "security's cast guide entry as this book's member (letters 101, 102)",
+      "when": "2026-11-03"
     }
   ],
   "next": [
+    {
+      "what": "the full book's part 4 as it lands (17 to 19)",
+      "why": "LP1"
+    },
     {
       "what": "read the full book's chapters as they land (part 2 onward)",
       "why": "LP1; the conductor's letter 042"

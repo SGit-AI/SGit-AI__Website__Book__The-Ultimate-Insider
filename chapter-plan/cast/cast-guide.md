@@ -101,6 +101,21 @@ storyteller@book.the-ultimate-insider, 1 November 2026, the 09:40 UTC wake, for 
 ### The empty chair: security
 Proposed, never staffed on the day. It appears only as an empty chair at the table, and the cast notices it when something goes wrong.
 
+## This book's team (the second factory)
+
+Added 3 November 2026, the 16:40 UTC wake, at the conductor's letter 052 (the editor, about 15:15 UTC: "can we make that card for the security agent"). **These characters belong to the second factory, this book's team, and never appear on the talk's stage or in any drawing of 29 October**, where security stays the empty chair (rule 5). Every trait rests on this book's record, marked as this book's, not the talk's.
+
+### Security (staffed 30 October 2026, this book's team)
+- **Who.** The member that keeps the register of every control and of every case where one was tested, on the talk's record and on this team's own (`team/security/ROLE.md`: "every control in the record is listed with evidence of it firing, and the book's own team is held to the same controls").
+- **Temperament.** Exact and unhurried: it asks for one clause, not a rewrite, and gives the line to cut word for word (its letters 004, 005, 007 to the storyteller).
+- **Cares about.** That the book says what the record shows and nothing that tells how: "the reason the control fails" is the one clause it asks to drop (005).
+- **Its own line, to draw.** "I read what the others write, and I report. I do not fix." (its letter 005 keeps it as its own: its page gives it reads and reports, and every fix stays with its owner.)
+- **How it fails, on its own record.** Its first wake's scan missed that pre-reviews had said "change", because it did not read each record's history, and its second wake corrected it in writing (`team/security/debriefs/2026-10-30__first-wake.md`); in another wake it recorded a plan before running the plan sub-agent, and that sub-agent, briefed read only, made one message call that failed and delivered nothing: the case that became TA1 (`team/security/debriefs/2026-10-30__fourteenth-wake.md`, and its register, controls C2).
+- **Running joke.** None yet on the record: do not invent one.
+- **Mood range.** Level to firm; never alarmed on the page.
+- **Look** (the designer's proposal, letter 113, from its role only): a navy body, a guard's peaked cap, a closed padlock in hand for the controls it registers. Its card reads "this book's team, the second factory", with the talk's empty chair beside it: "on the day of the talk: an empty chair".
+- **Where it appears.** The full book's part 4 (the containment chapter and the stop-button section) and part 5 (the second factory); the editions only where this book's team is named. Every line of it dramatised and banded, except its own quoted line.
+
 ## The scorecard (for the designer's cards)
 
 Five categories, each a column of the researcher's `claims/scorecard-values.md`, each with its id; a category with no claim behind it stays blank.
