@@ -17,6 +17,13 @@
    "verdict": "go",
    "comment": "In scope, no hold. Conditions: pages.html keeps data-no-third-party, its inline script makes no fetch, XHR, external src or link and only moves between pages; the record uses the same filtered text, %% stripped, outside addresses as text; letters copied into the developer's inbox, originals kept; the record says the TA1 test passed in this session.",
    "at": "2026-11-03T11:14:39Z"
+  },
+  "work": {
+   "by": "developer@book.the-ultimate-insider",
+   "model": "",
+   "verdict": "done",
+   "comment": "In 67004f6d: /review/rc2/pages.html (33 scene-pages, arrow keys, record under each, review/static/pages.js, no network call, checked in Chromium); TA1 holds in this session, developer__028 and developer__029 sent, both letters filed; board 007 ticked.",
+   "at": "2026-11-03T11:17:55Z"
   }
  },
  "closed": null,
