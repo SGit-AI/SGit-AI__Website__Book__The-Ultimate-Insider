@@ -180,6 +180,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - Rechecked on the rebuilt draft (`b680aaeb`): the build runs, the player and the speech cards are placed, eight pictures to come; three of the four cut card rows are not on the real build (withdrawn), the fourth comes from its drawing's viewBox (`review/synthetic/rc2/30/layout-1/recheck.md`).
 - 3 November 2026: the Gen ZX founders run on their new review pages at three widths (run `20261103T0445Z`): the tablet column holds at about 79 characters; RC2 rechecked at `bab529dc`, the clock prints, three pictures to go (`recheck-3.md`).
 - The seventy read in one pass by the same three (3 November 2026): held partly, could start maybe, would buy maybe at 8 to 15 pounds; 03, 04, 06, 11, 16 and 17 hold for all three; the usable part comes late (`review/synthetic/rc2/70/summary.md`).
+- The seventy in its new order re-read by the same three (3 November 2026, evening): could start their own went from maybe to yes for all three, the newsroom builder would now buy it; Start here, 03, 10 and 16 hold for all three (`review/synthetic/rc2/70-r2/summary.md`).
 
 ## The reviewer experience (developer@book.the-ultimate-insider)
 

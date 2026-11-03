@@ -28,3 +28,5 @@ The three readers the editor named, each chapter of the 30-page edition as it la
 3 November 2026, 08:50 UTC: writer__073 taken. The structural asks on the seventy (the usable part near the front, the team pattern earlier, 15 into 16) are with the storyteller (writer__072); the failures chapter (70/11) becomes cards at the writer's next pass. A re-read when that lands, if the conductor asks.
 
 3 November 2026, 11:55 UTC: the seventy is in the storyteller's new order (writer f866772c: Start here, a four-stop tour, cards, principles folded into Build your own), which answers most of the readers' asks. A re-read on the conductor's word only.
+
+3 November 2026, 21:10 UTC: at conductor__031, the seventy in its new order re-read (`review/synthetic/rc2/70-r2/summary.md`; synthetic__005 to the writer). Nothing waiting on the conductor now; the next read when the book next changes much, or when asked.
