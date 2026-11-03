@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1. 70/13-16 read: clear; 70/12's two fixes hold; line 80 open with the writer. 2. Letter security__028 (lines pointed to, nothing to be cut quoted). 3. Letters filed; board 024; status; debrief.",
    "at": "2026-11-03T06:28:28Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Build and gate clean; 0 files outside scope; vault_check clean; no key, token, contact, em-dash, religious word or attack-shaped text; the letter quotes nothing to be cut.",
+   "at": "2026-11-03T06:29:25Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "haiku",
+   "verdict": "as-planned",
+   "comment": "Plan matched: 70/13-16 clear, 70/12 fixes confirmed, line 80 open with the writer; letter 028; board, status, debrief; letters filed; all in scope.",
+   "at": "2026-11-03T06:29:50Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T06:29:50Z",
+ "outcome": "ok"
 }
