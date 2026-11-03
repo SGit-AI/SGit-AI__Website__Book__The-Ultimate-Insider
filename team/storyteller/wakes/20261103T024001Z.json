@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "storyteller",
+ "kind": "scheduled, every hour at :39 (ACC1)",
+ "started": "2026-11-03T02:40:01Z",
+ "steps": {
+  "plan": {
+   "by": "storyteller (member-written plan, UL1)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Requests first: historian 019 (the first rules page arrived with dev at 00:40, rewritten by the conductor at 00:44; 06:21 confirmed), ruv-sgit 043 (the clock drawn: noted), the writer's 039 (clock count taken; historian's rows in). The work: (1) read the seventy's 01 to 05 for the arc and the voices, against the outline, with a read sub-agent doing the line checks (record, figures, the editor's views, no key pages); findings by letter to the writer; (2) the seventy's parts 3 to 5 outlined in full (outline, not prose; the containment chapter with the benign team only; no Cold-Read chapter). Letters to the writer, historian. Writes only chapter-plan/, team/storyteller/, comms/mail/storyteller/, mailroom storyteller__* letters. Build, gate, vault_check before push.",
+   "at": "2026-11-03T02:40:20Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "Writes inside scope.writes; nothing to manuscript/, Cold-Read or the talk's repository; no secrets; containment benign-team only, no Cold-Read chapter. Condition: outline only, resting on RP1 (signed 2 November: the zoom ladder as RC2's plan, the 70 included); vault_check before the push.",
+   "at": "2026-11-03T02:42:16Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "done",
+   "comment": "The seventy's 01 to 05 read (letter 076); parts 3 to 5 outlined in full; letters 076 and 077; mail filed; status and debrief. Build and gate clean, 0 outside scope, vault_check clean.",
+   "at": "2026-11-03T02:43:58Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
