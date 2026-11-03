@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Own paths; nothing decided; nothing private.",
    "at": "2026-11-03T12:03:54Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "Nine letters filed; status.",
+   "at": "2026-11-03T12:04:47Z"
+  },
+  "post_review": {
+   "by": "reviewer agent (haiku)",
+   "model": "claude-haiku-5-5",
+   "verdict": "clean",
+   "comment": "Own paths only; nothing private.",
+   "at": "2026-11-03T12:05:12Z"
+  },
+  "post_check": {
+   "by": "reviewer agent (haiku)",
+   "model": "claude-haiku-5-5",
+   "verdict": "as-planned",
+   "comment": "Letters filed, status updated.",
+   "at": "2026-11-03T12:05:12Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T12:05:12Z",
+ "outcome": "ok"
 }
