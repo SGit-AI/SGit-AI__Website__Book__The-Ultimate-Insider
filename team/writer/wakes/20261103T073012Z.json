@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "70/05 word box (Wardley map), 70/14 the thirty named; five letters into done/; letters 066 to 068; status, debrief, board; vault_check clean; no 150 prose.",
    "at": "2026-11-03T07:31:47Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (Sonnet), steps 4 and 5 in one agent to spare usage",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Build and validate clean (647 pages); 0 outside scope; vault_check clean. No em-dashes, religious words, keys or contact detail. Manuscript edits only a 70/05 gloss and a 70/14 clarification; no 150 prose.",
+   "at": "2026-11-03T07:33:19Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (Sonnet), with step 4",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Matches the plan: the gloss, the wording, five letters filed with replies, the storyteller told, status, debrief, board. Conditions met.",
+   "at": "2026-11-03T07:33:19Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T07:33:19Z",
+ "outcome": "ok"
 }
