@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Chapter 12's how clause gone; the quote is the slide's own; nothing in the 70 attack-shaped, private or a key. Condition: the writer still owes line 80's 'as it lands'; keep the review-stage note.",
    "at": "2026-11-03T06:04:21Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "Release step for the 70 (tested: 49 pages); rc2.html links both drafts with the review note; synthetic reply, writer line 80; five letters filed; status.",
+   "at": "2026-11-03T06:05:18Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "Release step safe; review note kept; letters match security__027 and synthetic__015; nothing private.",
+   "at": "2026-11-03T06:05:51Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "As planned; line 80 owed by the writer, as its letter says; line 24 checked by the pre-review.",
+   "at": "2026-11-03T06:05:51Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T06:05:51Z",
+ "outcome": "ok"
 }
