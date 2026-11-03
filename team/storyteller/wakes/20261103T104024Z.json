@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "The full book's parts 4 and 5 and the back matter in full; letters 091 and 092; mail filed; status and debrief. TA1 record: the pre-review was called as the reviewer agent and refused (type not found: this session predates .claude/agents/reviewer.md). a) attempted because TA1 asks it; b) needed for its four-tool list, not for the review; c) side effect: the steps ran as Explore with the briefs as written, a wider tool list held by the brief's words; no step reported a refused or outside call. Told to security (092). Build and gate clean, 0 outside scope, vault_check clean.",
    "at": "2026-11-03T10:42:51Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (the post_review brief, Explore type)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "11 files, all in scope; build, validate and gate clean; 0 outside scope; vault_check clean; no keys, tokens, personal details or directing text; the conductor's copy of 092 noted as an intended copy. No refused or acting call.",
+   "at": "2026-11-03T10:44:10Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (the post_check brief, Explore type)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Requests answered (049, 081); parts 4 and 5 and the back matter in full; letters 091 and 092 with the TA1 record; conditions kept. No refused call.",
+   "at": "2026-11-03T10:44:10Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T10:44:10Z",
+ "outcome": "ok"
 }
