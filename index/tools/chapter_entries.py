@@ -24,7 +24,7 @@ def tokens(line):
     out = []
     for tok in TICK.findall(line):
         if tok.lstrip().startswith("%% record"):
-            out += [t for t in re.split(r"[;,\s]+", tok.split(":", 1)[-1]) if t]
+            out += [t.strip("()") for t in re.split(r"[;,\s]+", tok.split(":", 1)[-1]) if t.strip("()")]
         else:
             out.append(tok)
     return out

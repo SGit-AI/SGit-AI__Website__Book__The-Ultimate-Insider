@@ -34,6 +34,32 @@ The band's "commit at 18:29" (line 32) is motion's `5d13d72`, 18:29:28, "M01 the
 | 93 | "does not hold. The data says the opposite" | the researcher, to the storyteller | `team/researcher/requests/storyteller__facts-delivered.md`, `2726f0e` | word for word, right speaker |
 | 61 | "That is the part of the record I find hardest to believe, and easiest to check." | the narrator (the editor), kept from the 10-page edition | not a quote from the record | no check needed |
 
+### Chapter 4, the stop (`manuscript/rc2/30/04-the-stop.md`)
+
+| Line | Quote | Speaker | Where it is | Checked |
+|---|---|---|---|---|
+| 24 (band) | "Leave the lock to dev (its scope, irreversible)" | the conductor, its 18:36 wake | `team/conductor/wakes/20261029T183647Z.json` | word for word, right speaker |
+| 28 | "actually we are at 95% so it is better to pause all actions" | the editor, quoted in the hold file | `team/conductor/HOLD.md`, `867f8c2` | word for word |
+| 101 | "a second reading, not a second identity." | the conductor, in its debrief | `team/conductor/debriefs/2026-10-29__the-five-step-wake.md`, `c8f6f8f` | word for word, right speaker |
+
+Chapter 3, revised: its quotes are unchanged and hold. Chapter 5 quotes no record line; its quoted phrases are labels and figure captions. Chapter 6, the series page, quotes none.
+
+## The writer's readings, for the editor to keep or drop
+
+Where a sentence in the editor's voice is the writer's reading of his view rather than something he said or wrote, the writer marks it in a `%%` note (not printed). Until he keeps one, it is not his words. Gathered here so he can decide them in one sitting (as of 3 November 2026, about 00:15 UTC):
+
+| Where | The writer's note |
+|---|---|
+| `01-the-creators-problem.md:11` | the four sentences from "It sounds small." to "Those were exactly the ideas I wanted to get across." are the writer's reading of his view, beyond the voice note; not yet his words until he keeps them. |
+| `03-the-factory-runs.md:18` | "and it is my favourite" is the writer's reading of his view; his to keep or drop. |
+| `03-the-factory-runs.md:101` | "my own call" is the writer's reading, as the editions flag it; his to keep or drop. |
+| `04-the-stop.md:19` | "I want to be fair to the conductor here." and this paragraph's last sentence ("A rule that keeps everyone in their lane ... the job waits.") are the writer's reading of his view; his to keep or drop. |
+| `04-the-stop.md:51` | the last two sentences of this paragraph ("What they share ... show.") are the writer's reading across his three accounts; his to keep or drop. |
+| `04-the-stop.md:103` | "I would staff it first, next time." is the writer's reading of his view; his to keep or drop. |
+| `04-the-stop.md:110` | "The hold is the one part of my factory I would copy first." is the writer's reading of his view; his to keep or drop. |
+| `05-the-factory-rebuilt-and-yours.md:88` | the three paragraphs on how the shared brief, board and hold would work day to day are the writer's reading of his plan, from his description of 1 November and the hold's rule; his to keep, change or drop. |
+| `05-the-factory-rebuilt-and-yours.md:120` | the "What to do / What to check" lines under each step are the writer's, worked from the steps as the editions give them; his to keep or change. |
+
 ## How to keep this current
 
 For each new RC2 chapter: `index/tools/check_sources.py`, `team/librarian/voice/voice_scan.py`, `index/tools/chapter_entries.py`, then each quote by hand for its words and its speaker, and a row here.

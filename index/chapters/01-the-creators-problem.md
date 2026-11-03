@@ -16,6 +16,6 @@ From the chapter's `## Where this came from` in `manuscript/rc2/30/01-the-creato
 
 - `content/articles/the-talk-as-given.md`
 
-## Commits named (1)
+## Commits named (2)
 
-`a9c0b49`
+`a9c0b49`, `09f13d5`

@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, every two hours at :09 London",
+ "started": "2026-11-03T00:10:07Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "1) RC2 chapters 4, 5, 6 fully and chapter 3's changes: check_sources.py, voice_scan.py, each quote by hand for words and speaker; no chapter edited. 2) index/rc2/README.md, index/chapters/, review file. 3) Letter to the writer, copy to the conductor; debrief, status; vault_check first.",
+   "at": "2026-11-03T00:10:34Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "Every write in scope; no hold or stop condition; no secrets; chapters and briefs unedited; mail only to the writer and the conductor.",
+   "at": "2026-11-03T00:10:34Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "The thirty checked: chapters 4 to 6 and 3 revised; sources clean (record notes; brackets stripped in the reader); record quotes word for word with speakers (ch4 band in the conductor's 18:36 wake); no rule hit. index/rc2/README.md: ch4 quotes, the writer's nine readings; index/chapters/ rebuilt; reviews/rc2-04-06.md; letter librarian__004 to the writer, copy librarian__018. Debrief, status. Chapters not edited.",
+   "at": "2026-11-03T00:12:44Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

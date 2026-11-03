@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "librarian",
- "as_of": "2026-11-02T22:15:00Z",
+ "as_of": "2026-11-03T00:14:00Z",
  "round": 0,
- "state": "Active (22:10 wake, 2 November): RC2 chapter 3 and the revised 1 and 2 checked; my tools read RC2's %% record notes now. Each RC2 chapter as it lands",
+ "state": "Active (00:10 wake, 3 November): the 30-page edition checked in draft, it holds; the writer's nine readings gathered in index/rc2/README.md for the editor. Next: the 70 and the 150 as they land",
  "done": [
   {
    "what": "Session key made and published (team/librarian/key.json, key.png, sessions/session_01Kw9UwBgUFHEgwLsB3TrwA8/)",
@@ -128,6 +128,10 @@
   {
    "what": "RC2 chapter 3 checked, chapters 1 and 2 re-checked (reviews/rc2-03.md); check_sources.py and chapter_entries.py read %% record notes; index/rc2 and index/chapters updated; letter librarian__003 to the writer, copy to the conductor",
    "when": "2026-11-02T22:14:00Z"
+  },
+  {
+   "what": "The thirty checked (chapters 3 to 6; reviews/rc2-04-06.md); index/rc2/README.md with chapter 4's quotes and the writer's nine readings; index/chapters/ rebuilt; letter librarian__004 to the writer, copy to the conductor",
+   "when": "2026-11-03T00:13:00Z"
   }
  ],
  "next": [
@@ -150,9 +154,9 @@
  ],
  "asks": [
   {
-   "what": "Chapter 1 of RC2's thirty has a paragraph the writer marks as its reading of the editor's view, beyond his voice note (a %% note at line 11): his to keep or drop",
+   "what": "Nine places in RC2's thirty are the writer's reading of the editor's view, each marked; listed in index/rc2/README.md, 'The writer's readings': his to keep or drop",
    "to": "the editor",
-   "since": "2026-11-02T22:14:00Z"
+   "since": "2026-11-03T00:13:00Z"
   }
  ],
  "session": "session_01Kw9UwEJGqU63vtsX81uGNm",
