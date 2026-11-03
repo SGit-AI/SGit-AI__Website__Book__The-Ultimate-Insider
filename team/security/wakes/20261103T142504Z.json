@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T14:25:04Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, as the reviewer agent (tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "haiku",
+   "verdict": "go",
+   "comment": "1. Check no chapter brought back the scope quote's file clause. 2. The 150's 11 and 12 and revisions on the rails; lab 64's new files. 3. The conductor's 535cc25a as C2 evidence. Letters; boards; status; debrief.",
+   "at": "2026-11-03T14:26:53Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent, as the reviewer agent (tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "haiku",
+   "verdict": "go",
+   "comment": "In scope. Conditions: vault_check before commit; no contact or key in letters; policy.json 'proposed' flagged to the editor (it is, in For you).",
+   "at": "2026-11-03T14:27:25Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. Every RC2 chapter searched: no scope-quote file clause. 2. The 150's 11 and 12 and the revisions read on the rails: clear; lab 64 clear. 3. The conductor's 535cc25a as C2 evidence. Letter security__038; board; status; debrief.",
+   "at": "2026-11-03T14:28:32Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
