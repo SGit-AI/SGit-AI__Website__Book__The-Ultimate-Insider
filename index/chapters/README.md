@@ -36,6 +36,8 @@ One file per chapter of the manuscript, built by `index/tools/chapter_entries.py
 | [`150__12-the-creator-comes-back.md`](150__12-the-creator-comes-back.md) | 4 | 0 | 8 | 0 | 9 | 0 |
 | [`150__13-the-story-before-the-slides.md`](150__13-the-story-before-the-slides.md) | 2 | 0 | 6 | 0 | 6 | 0 |
 | [`150__14-port-not-rebuild.md`](150__14-port-not-rebuild.md) | 3 | 0 | 7 | 0 | 12 | 0 |
+| [`150__15-hour-eighteen-faster-than-the-clock.md`](150__15-hour-eighteen-faster-than-the-clock.md) | 3 | 0 | 6 | 0 | 13 | 0 |
+| [`150__16-hour-nineteen-minute-by-minute.md`](150__16-hour-nineteen-minute-by-minute.md) | 3 | 0 | 5 | 0 | 16 | 0 |
 | [`150__90-the-tour-at-length.md`](150__90-the-tour-at-length.md) | 0 | 0 | 9 | 0 | 1 | 0 |
 | [`01-the-creators-problem.md`](01-the-creators-problem.md) | 0 | 0 | 7 | 1 | 2 | 0 |
 | [`02-the-factory-is-assembled.md`](02-the-factory-is-assembled.md) | 2 | 0 | 7 | 0 | 12 | 0 |

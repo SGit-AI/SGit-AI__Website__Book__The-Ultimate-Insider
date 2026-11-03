@@ -143,11 +143,11 @@ The talk team's vaults are named in 10, not cited by path; nothing of them is in
 
 | Chapter, line | Quote | Speaker | Where it is | Holds |
 |---|---|---|---|---|
-| 11:75 | "A thing not listed here does not exist, whatever a brief or an article says." | the talk's reality file | `REALITY.md` line 3 at `298be4e` | word for word |
+| 11:77 | "A thing not listed here does not exist, whatever a brief or an article says." | the talk's reality file | `REALITY.md` line 3 at `298be4e` | word for word |
 | 11:48 (note) | "the gate the conductor added at the editor's rule refused the release without it" | dev, its debrief | `team/dev/debriefs/2026-10-29__the-board.md` | word for word |
-| 12:13 | "The player, from ruv.sgit.ai, working on an iPad. This is the main priority." | the editor, the feedback round (about 13:50) | `team/conductor/briefs/2026-10-29__editor/feedback-briefs.md` | word for word |
-| 12:19 | "we can still do a lot before 7 and I can wake the agents up when needed ..." | the editor, after the conductor's review (14:05) | `team/conductor/briefs/2026-10-29__editor/conductor-notes.md` line 7; the cut marked | word for word |
-| 12:58 | "as given" | deck, of how it wrote the editor's feedback down | deck's commit subjects 14:26 to 14:43 (`64735b6`, `fd31308`, `3d49daf`, `3a22743`), not its wake record (letter 015) | the words hold |
+| 12:15 | "The player, from ruv.sgit.ai, working on an iPad. This is the main priority." | the editor, the feedback round (about 13:50) | `team/conductor/briefs/2026-10-29__editor/feedback-briefs.md` | word for word |
+| 12:26 | "we can still do a lot before 7 and I can wake the agents up when needed ..." | the editor, after the conductor's review (14:05) | `team/conductor/briefs/2026-10-29__editor/conductor-notes.md` line 7; the cut marked | word for word |
+| 12:56 | "as given" | deck, of how it wrote the editor's feedback down | deck's commit subjects 14:26 to 14:43 (`64735b6`, `fd31308`, `3d49daf`, `3a22743`), not its wake record (letter 015) | the words hold |
 
 **3 November 2026, about 15:25 UTC: the 150's chapters 13 and 14.** My letter 015's notes are in (the writer's 106): 12's band names deck's four commits; the scope line is the slide's own words in 150/06 and the seventy's 04 and 12. Sources clean; no voice hit; every commit time in the 150's notes holds but six stated ranges. New:
 
@@ -158,6 +158,8 @@ The talk team's vaults are named in 10, not cited by path; nothing of them is in
 | 14:17 | "if the next agent doesn't pick it up in the run in the same hour, it will pick it up on the next one" | the editor, quoted in the conductor's commit | `545a473` (15:21:31), its message lines 4 and 5 | word for word |
 | 14:65 (note) | "the talk is 90 minutes, and a section on the editor's work: routed to six members"; "the talk in three parts with locks at 18:30, 19:30, 20:00; ..." | the conductor, its commit subjects | `62c6b99` (16:32), `3342cff` (16:59) | word for word |
 | 14:76 | "the player, ported from ruv.sgit.ai"; "what we did at ruv.sgit.ai" | the commit; the brief | `3314ffe`; `BRIEF.md` at `298be4e` | word for word |
+
+**3 November 2026, about 16:25 UTC: the 150's chapters 15 and 16.** My letter 016's note is in (the writer's 113). Sources clean; no voice hit; every commit time the commit's own but seven stated ranges. The editor's asks of hour eighteen ("when in doubt add it", "go build") are the conductor's subjects of 17:29 and 17:39 (`a618b29`, `d252155`); the lock tool's commit (`4a2481b`, 17:54) carries dev's trailer, as 15:45 says; hour nineteen's times (the hold 18:44:13, the designer 18:45:35, the last release 18:46:22, dev's close 18:48:36 on its branch, deck's wake of 18:20:09 never closed) are the record's. "just a footnote" (16:97) is as 13:24 of the seventy. Nothing to send back.
 
 ## The writer's readings, for the editor to keep or drop
 
@@ -227,13 +229,19 @@ Where a sentence in the editor's voice is the writer's reading of his view rathe
 | `150/10-talking-through-git.md:82` | "the one I would copy first" is the writer's reading; his to keep or drop. |
 | `150/10-talking-through-git.md:100` | "It reads like a workshop's whiteboard" is the writer's reading of his view; his to keep or drop. |
 | `150/11-the-plumbing.md:5` | "Nobody puts the plumbing in the brochure." and "It was the most important one." are the writer's; his to keep or drop. |
-| `150/11-the-plumbing.md:89` | "I would keep the file, and give one member the job of writing in it." and the sentence after it are the writer's reading of his view; his to keep or drop. |
-| `150/12-the-creator-comes-back.md:23` | "something I would rather it did not" and "that one is mine" are the writer's reading of his view; his to keep or drop. The record holds the order and his words, not his feeling about them. |
-| `150/12-the-creator-comes-back.md:38` | "the thing I would most want a team to do" is the writer's reading of his view; his to keep or drop. |
-| `150/12-the-creator-comes-back.md:94` | "it is the thing I came back for" and "What it could not do was decide" are the writer's reading of his view, the second from the historian's day file for hour fifteen; his to keep or drop. |
+| `150/11-the-plumbing.md:89` | "The rule was right; nobody used it." is the writer's reading of his view; his to keep or drop. |
+| `150/11-the-plumbing.md:93` | "I would keep the file, and give one member the job of writing in it." and the sentence after it are the writer's reading of his view; his to keep or drop. |
+| `150/12-the-creator-comes-back.md:30` | "something I would rather it did not" and "that one is mine" are the writer's reading of his view; his to keep or drop. The record holds the order and his words, not his feeling about them. |
+| `150/12-the-creator-comes-back.md:45` | "the thing I would most want a team to do" is the writer's reading of his view; his to keep or drop. |
+| `150/12-the-creator-comes-back.md:103` | "it is the thing I came back for" and "What it could not do was decide" are the writer's reading of his view, the second from the historian's day file for hour fifteen; his to keep or drop. |
 | `150/13-the-story-before-the-slides.md:71` | "the part of the afternoon I would most want a team to copy" and "Not to win. To make sure the decision was a decision." are the writer's reading of his view; his to keep or drop. |
 | `150/14-port-not-rebuild.md:55` | "I think it is the most important plan the team made all day" is the writer's reading of his view; his to keep or drop. |
 | `150/14-port-not-rebuild.md:80` | "the thing I most want you to take from the afternoon" is kept from the 70-page edition's chapter 9; his to keep or drop. |
+| `150/15-hour-eighteen-faster-than-the-clock.md:17` | "I outran it" is the writer's reading of the hour; his to keep or drop. |
+| `150/15-hour-eighteen-faster-than-the-clock.md:32` | "the hour I would point to" and "They were what kept the speed from turning into damage" are the writer's reading of his view; his to keep or drop. |
+| `150/15-hour-eighteen-faster-than-the-clock.md:58` | "the insider question in miniature" is the writer's reading; his to keep or drop. |
+| `150/15-hour-eighteen-faster-than-the-clock.md:71` | "which I had not been watching" is the writer's; the record has the hold's reason (his usage), not what he watched; his to keep or drop. |
+| `150/16-hour-nineteen-minute-by-minute.md:44` | "I want to be fair to the conductor" and the sentence on lanes are the writer's reading of his view; his to keep or drop. |
 | `150/90-the-tour-at-length.md:69` | "Nobody tidied it." is the writer's reading; his to keep or drop. |
 | `150/90-the-tour-at-length.md:82` | "This is the page I would show anyone who doubts" is the writer's reading of his view; his to keep or drop. |
 | `150/90-the-tour-at-length.md:99` | "What I like about it" is the writer's reading; his to keep or drop. |

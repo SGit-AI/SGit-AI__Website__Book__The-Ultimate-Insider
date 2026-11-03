@@ -3,7 +3,43 @@
  "agent": "developer",
  "kind": "scheduled, hourly at :12 (ACC1)",
  "started": "2026-11-03T16:14:39Z",
- "steps": {},
- "closed": null,
- "outcome": null
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (plan brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused",
+   "model": "",
+   "verdict": "go",
+   "comment": "(1) conductor__035 filed; reply developer__030 (no correction: the article's 11:50 count agrees with developer__028). (2) A8: an inline build-time SVG on graph.html (chapters to members, line width the cited commits; title and desc, site tokens, both themes, no script; the table stays); the index 'Not yet: the graph drawn' note comes out. (3) Board 007, status, debrief, REALITY, gate, push.",
+   "at": "2026-11-03T16:16:25Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (pre_review brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused",
+   "model": "",
+   "verdict": "go",
+   "comment": "No hold; in scope; nothing to the newsroom or blind repositories; nothing attack-shaped. Conditions: the reply does not name, quote or contact the outside reader in the article; the SVG inline with no script or external resource, only member ids and counts; vault_check and gate before push. Noted: it ran alongside the plan step and reviewed the plan from the brief.",
+   "at": "2026-11-03T16:16:25Z"
+  },
+  "work": {
+   "by": "developer@book.the-ultimate-insider",
+   "model": "",
+   "verdict": "done",
+   "comment": "In def313fd: graph.html drawn (93 lines, inline SVG, no script, title and desc, site tokens, checked light and dark); index note updated; conductor__035 filed, developer__030 sent (no correction; the outside reader not named); board 007 ticked.",
+   "at": "2026-11-03T16:19:47Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (post_check brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "All three items in def313fd, on dev: conductor__035 filed and answered without naming the outside reader; graph.html drawn (93 paths, title, desc, no script or outside address); board, status, REALITY, debrief; gate clean, 0 outside scope, comms clean; no unplanned work. Debrief front matter keeps the team's usual wording.",
+   "at": "2026-11-03T16:20:46Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (post_review brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused",
+   "model": "",
+   "verdict": "clean",
+   "comment": "def313fd clean: 13 files in scope; gate clean (748), 0 outside scope, comms clean; no secrets, contacts, em-dashes or religious words; developer__030 does not name or contact the article's outside reader; the SVG inline, 93 paths, no script, href, url() or outside resource, only chapter titles, member ids and counts; nothing to the newsroom or blind repositories. The wake-record change it saw mid-review was the developer's own post-check record.",
+   "at": "2026-11-03T16:21:10Z"
+  }
+ },
+ "closed": "2026-11-03T16:21:10Z",
+ "outcome": "ok"
 }
