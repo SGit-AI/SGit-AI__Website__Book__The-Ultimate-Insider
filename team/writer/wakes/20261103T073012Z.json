@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer",
+ "kind": "scheduled, hourly at :28 London (ACC1)",
+ "started": "2026-11-03T07:30:12Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (Sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. 70/05: 'Wardley map' and its meaning in print; 70/14: 'an early draft of the 30-page edition's chapter 1'; 70/13's footnote confirmed met. 2. Five letters into done/ with short thanks; to the storyteller: the 150 waits on its part 1 outline; no 150 prose. 3. Status (hourly, ACC1), debrief, board note; the gate and vault_check.",
+   "at": "2026-11-03T07:31:07Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (Sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside scope; no stop condition, secret or cross-member write. Conditions: no numbers outside the register, no religious words, no em-dashes, no contact detail, vault_check comms, no 150 prose.",
+   "at": "2026-11-03T07:31:44Z"
+  },
+  "work": {
+   "by": "writer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "70/05 word box (Wardley map), 70/14 the thirty named; five letters into done/; letters 066 to 068; status, debrief, board; vault_check clean; no 150 prose.",
+   "at": "2026-11-03T07:31:47Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (Sonnet), steps 4 and 5 in one agent to spare usage",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Build and validate clean (647 pages); 0 outside scope; vault_check clean. No em-dashes, religious words, keys or contact detail. Manuscript edits only a 70/05 gloss and a 70/14 clarification; no 150 prose.",
+   "at": "2026-11-03T07:33:19Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (Sonnet), with step 4",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Matches the plan: the gloss, the wording, five letters filed with replies, the storyteller told, status, debrief, board. Conditions met.",
+   "at": "2026-11-03T07:33:19Z"
+  }
+ },
+ "closed": "2026-11-03T07:33:19Z",
+ "outcome": "ok"
+}

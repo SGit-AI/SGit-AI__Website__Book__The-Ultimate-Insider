@@ -68,6 +68,8 @@ Band: *Dramatised. Every step, verdict and quoted line is from the conductor's f
 
 **Map:** the factory as a value chain, as in the 30-page edition's chapter 2: what I wanted at the top; the slides, the site and the player; the agents; and at the bottom the agent tool, the build, the check and the brief at the ordinary end, the hold at the new end.
 
+*Words for this page:* a **Wardley map** is a picture that shows what something depends on and how settled each part is.
+
 `%% figure brief: Named here: this kind of picture is a Wardley map, which shows what something depends on and how settled each part is.`
 
 `%% record: team/conductor/debriefs/2026-10-29__the-five-step-wake.md ("The reviewers share the session's reach: a second reading, not a second identity.") C022 timeline/interviews/security.md claims/ps1-sources.md section 4`
