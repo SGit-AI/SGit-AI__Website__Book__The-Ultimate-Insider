@@ -29,7 +29,7 @@ Band: *The wakes by trigger, hour by hour; none started by me from just after fo
 
 **Deck** *(a little put out, then fair)*: One at a time, then. I will wait until the first one comes back.
 
-`%% record: aeffbf9 (04:22, deck to the conductor) team/deck/wakes/20261029T041822Z.json; the talk team's vaults: team/conductor/vaults.json at 298be4e; comms/README.md (this book's)`
+`%% record: aeffbf9 (04:22, deck to the conductor) team/deck/wakes/20261029T041822Z.json; the talk team's vaults, named and not cited by path; comms/README.md (this book's)`
 Band: *Dramatised. Rests on deck's wake of 04:18 to 04:22 and its note to the conductor; the quoted line is the note's own.*
 
 ## A member and its own checker
@@ -111,4 +111,4 @@ Band: *Dramatised (ruv-sgit's line). The two notes are quoted from their commits
 
 The talk's repository at the end of the day: deck's wake and its note of 04:22, the researcher's wake of 04:11, the three commits of 09:21, 10:14 and 10:21 with their notes, the conductor's commit of 10:05; the talk team's vault registry. This book's own comms folder, for the same layout in git. The register for the hours and the trigger counts. The historian's day file for hour eleven and its letter on the two notes. The librarian's study of the site's commits page. The storyteller's outline for this chapter. This chapter keeps the 70-page edition's chapter 6, with the argument with a reviewer called back and the three letters added.
 
-`%% record: talk repository at 298be4e: aeffbf9 af0010b 6b55cff 3f094f2 36e382b 09317d9 team/deck/wakes/20261029T041822Z.json team/researcher/wakes/20261029T041003Z.json team/conductor/vaults.json; comms/README.md; timeline/day/10.md; comms/mail/writer/done/historian__022-seventy-part-3-and-a-correction.eml; claims/register.json C087 C107 C110; index/talk-site/README.md; chapter-plan/edition-150-outline.md part 3 chapter 10; manuscript/rc2/70/06-talking-through-git.md`
+`%% record: talk repository at 298be4e: aeffbf9 af0010b 6b55cff 3f094f2 36e382b 09317d9 team/deck/wakes/20261029T041822Z.json team/researcher/wakes/20261029T041003Z.json; comms/README.md; timeline/day/10.md; comms/mail/writer/done/historian__022-seventy-part-3-and-a-correction.eml; claims/register.json C087 C107 C110; index/talk-site/README.md; chapter-plan/edition-150-outline.md part 3 chapter 10; manuscript/rc2/70/06-talking-through-git.md`
