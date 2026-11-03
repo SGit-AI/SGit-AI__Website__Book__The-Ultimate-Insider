@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, 23:42 London",
+ "started": "2026-11-03T23:43:00Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, as the reviewer type (plan.md)",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Idle: no mail, requests, trailers, board change or hold since dc0f36d4; no read asked. Wake record, status.json. Tools: Bash; none wanted.",
+   "at": "2026-11-03T23:43:20Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent, as the reviewer type (pre_review.md)",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Idle; only team/synthetic/**; no hold, no secret. Conditions: nothing secret in status, gate before push. Tools: Read, Bash; nothing refused.",
+   "at": "2026-11-03T23:43:38Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
