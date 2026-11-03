@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, hourly at :57 London",
+ "started": "2026-11-03T22:58:17Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, as the reviewer agent, amended; no tool refused",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. LAB 43 ch11-two-files: both cards' text verbatim from REALITY.md and BRIEF-CORRECTIONS.md at 298be4e; REALITY.md's commits that day as ticks, no count; 17:42 from git. 2. ch8-night-log: the first edition (794008c, read in the talk's read-only clone) drawn as a page, outcome chips from its own table, no item text, no counts. 3. Slots 11/6, 11/7 and 08/2 in rc2-150-figures.json, line counts checked first; letter 120; lab PDF, letter to done/, debrief, status, REALITY.md, gate, push.",
+   "at": "2026-11-03T22:59:18Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent, as the reviewer agent; no tool refused",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope; the talk's repository read only. The night log drawn, never shown: outcome chips only, no item text, counts, keys or vault names; the output checked for them before the push; vault_check comms.",
+   "at": "2026-11-03T23:00:02Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "",
+   "verdict": "done",
+   "comment": "LAB 43: ch11-two-files (both files verbatim at 298be4e, the reality file's day as ticks, the corrections file unchanged since 1f7c633) and ch8-night-log (794008c drawn, outcome chips from its table, items as lines, grepped clean of key and vault words); rc2-150-figures.json: 11 slot 7 and 08 slot 2 (11 slot 6 left to the pair, noted; 54 of 100 drawn); lab PDF 153 pages; letter 120; 038 to done/; debrief, status, REALITY.md; gate clean.",
+   "at": "2026-11-03T23:01:54Z"
+  },
+  "post_review": {
+   "by": "security sub-agent, as the reviewer agent; no tool refused",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "All staged files within the policy. The two files' text matches REALITY.md and BRIEF-CORRECTIONS.md at 298be4e, 1f7c633 the corrections file's only commit. The night log shows member names, outcome chips and captions only: no item text, counts, key, zip or vault words. Letter 120 clean; validate, agents check and vault_check comms clean.",
+   "at": "2026-11-03T23:02:52Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent, as the reviewer agent; no tool refused",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "The two files and the night log in LAB 43 (sources, pages.html); rc2-150-figures.json with 11/7 and 08/2, 11/6 left to the pair as noted; letter 120, 038 to done/, lab PDF, debrief, status, REALITY.md; pre-review conditions kept; nothing unplanned.",
+   "at": "2026-11-03T23:03:10Z"
+  }
+ },
+ "closed": "2026-11-03T23:03:10Z",
+ "outcome": "ok"
+}

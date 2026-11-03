@@ -133,6 +133,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - LAB 42 adds the seventy's chapter 12 tables: the talk's nine with security's chair empty and the reviews inside one wake, and this book's team (from team/) with security's seat filled. The chapter 9 tree stays without a turn, as its line now asks. 42 of the seventy's 54 slots drawn, 2 the designer's to go. Lab PDF 147 pages.
 - LAB 42 adds the seventy's chapter 13 two sessions (no key, fingerprint, session id or account printed) and the start-here sheet: every seventy slot that is the designer's is drawn (44 of 54 carry a drawing; the rest are screenshots, self-named paths and ruv-sgit's). The chapter 9 tree's caption dated: no turn at 14:19, one from 16:04. Lab PDF 149 pages.
 - The full book (RC2's 150): `lab/tools/book/rc2-150-figures.json`, a list of its figure slots for the publisher (100 lines, 52 carrying a drawing, 30 to draw); `lab/experiments/43-designer-rc2-full-book/` (LAB 43): its first four own pictures, one hour's wakes by trigger for hours three, four, five and fifteen (C087). Lab PDF 151 pages.
+- LAB 43 adds the full book's chapter 11 two files (the reality file and the corrections file, verbatim at 298be4e) and chapter 8's night log first edition, drawn (794008c, items as lines). 54 of the full book's 100 lines carry a drawing. Lab PDF 153 pages.
 
 ## The PDF lab, ruv.sgit's runs (ruv.sgit@book.the-ultimate-insider)
 
