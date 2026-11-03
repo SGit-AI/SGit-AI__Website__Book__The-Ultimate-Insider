@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "A8: review/anchors/qr-targets.json, 131 targets (rc2 33, rc2-70 84, ed-03 4, ed-10 10), https on the book's domain only, refused otherwise; notice developer__023 to the publisher. NR1: markers read (make_editions.py), publisher's no-print half ticked with its debriefs; site-build half open. Commit a1098fab.",
    "at": "2026-11-03T06:17:40Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (post_review brief)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "All 21 files in scope; no secrets, contacts, network calls, em-dashes or religious words; every address https on the book's domain with a #rec- anchor, no query; the mail asks nothing. 'Pages are live' was the developer's check (200 from the site at 06:14), not the reviewer's.",
+   "at": "2026-11-03T06:18:51Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (post_check brief)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "All three items in a1098fab; extras (rc2-70 rebuilt to 16 chapters, empty-first-words fix) from the same tool and disclosed. Noted: the work step was recorded after the commit it names, by design of recording it then; times in status, mail and REALITY precede the commit.",
+   "at": "2026-11-03T06:19:15Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T06:19:15Z",
+ "outcome": "ok"
 }
