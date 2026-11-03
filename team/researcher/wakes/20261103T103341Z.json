@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T10:33:41Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan sub-agent (general-purpose under reviewer.md: the reviewer agent type was not available in this session)",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Short wake: file 049, record the agent-type gap (a: the reviewer type is not loaded in a session started before it existed; b: needed, it enforces the tool list; c: the read-only limit rested on the instruction alone), one letter to conductor and security. Tools used: Read, Bash for reading; none refused.",
+   "at": "2026-11-03T10:34:42Z"
+  },
+  "pre_review": {
+   "by": "security pre-review sub-agent (general-purpose under reviewer.md)",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "In scope; check the letter number (023 is free in the conductor's mailroom; the other 023 is the conductor's own outbox); vault_check; dev and branch only. Tools used: Read, Bash for reading; none refused.",
+   "at": "2026-11-03T10:35:27Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "TA1: reviewer agent type not found in this session (a: TA1 asks it; b: needed, it enforces the tool list; c: the steps ran as general-purpose under reviewer.md, Read and Bash only, none refused). Letter to conductor and security; 049 filed.",
+   "at": "2026-11-03T10:35:27Z"
+  },
+  "post_review": {
+   "by": "security post-review sub-agent (general-purpose under reviewer.md)",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "In scope; no secrets, dashes, RW1 words or anything attack-shaped. Tools used: Bash for reading; none refused.",
+   "at": "2026-11-03T10:36:48Z"
+  },
+  "post_check": {
+   "by": "conductor post-check sub-agent (general-purpose under reviewer.md)",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "049 filed, the gap recorded with a, b, c, one letter to conductor and security, debrief, REALITY and status. Tools used: Bash for reading; none refused.",
+   "at": "2026-11-03T10:36:48Z"
+  }
+ },
+ "closed": "2026-11-03T10:36:48Z",
+ "outcome": "ok"
+}
