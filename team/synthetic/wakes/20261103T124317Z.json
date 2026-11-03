@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, 12:42 London",
+ "started": "2026-11-03T12:43:17Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, as the reviewer type (plan.md)",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Idle wake: no mail, requests or trailers since 7ed34303, no hold; 008 waits on the conductor, 005's A15 and NR1 on pages not yet built. Record and close: the wake record and status.json; gate, push. Tools: Read, Grep, Glob, Bash; none wanted.",
+   "at": "2026-11-03T12:43:42Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent, as the reviewer type (pre_review.md)",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Idle wake; writes only team/synthetic/**; no hold, no stop condition, no secret. Conditions: nothing outside team/synthetic/**, gate before push, dev only, no ./version. Tools: Read, Grep, Glob, Bash; none wanted; nothing refused.",
+   "at": "2026-11-03T12:43:57Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
