@@ -36,8 +36,8 @@ Band: *The first commit, at 00:16.*
 
 `%% figure brief: For the designer.`
 
-`%% record: C067 (twenty-four minutes) 1f7c633 (CLAUDE.md as first committed, checked against the commit itself: the six lines quoted are its own, one left out and three shortened, before the conductor rewrote the page at 00:44 in 97b98d9; one line on page fragments left out here) timeline/cast-scenes.md scene 1`
-`%% traced (historian__020, 021): dev committed the first page at 00:40; the conductor rewrote it at 00:44 (97b98d9); nothing shows the editor writing it.`
+`%% record: C067 (twenty-four minutes) 1f7c633 (CLAUDE.md as first committed, checked against the commit itself: the six lines quoted are its own, one left out and three shortened, before the conductor's own longer page, written in parallel at 00:44 in 97b98d9, met it in the merge at 00:51 (17b287b); one line on page fragments left out here) timeline/cast-scenes.md scene 1`
+`%% traced (historian__020, 021, corrected in 030): dev committed the first page at 00:40; the conductor wrote its own in parallel at 00:44 (97b98d9); at the merge of 00:51 (17b287b) dev's page stayed, word for word, with two of the conductor's lines added; nothing shows the editor writing it.`
 Band: *The page of rules as it stood in dev's first commit at 00:40, quoted with one line on page layout left out.*
 
 ## The brief, the reality and the corrections
@@ -50,7 +50,7 @@ Band: *The page of rules as it stood in dev's first commit at 00:40, quoted with
 
 **Narrator.** A brief says what you want. The reality file says what is there. Agents are very good at believing the first and writing as if it were the second, so the rule is that only the reality file counts, and whoever ships something updates it. The first one ended with a list of what did not exist yet, the agent team among it.
 
-**Narrator.** The fourth is the corrections file, for when the brief turns out to be wrong. On the first night it said, in full: "None yet."
+**Narrator.** The fourth is the corrections file, for when the brief turns out to be wrong. Under its heading and a line saying what it was for, its only entry on the first night was: "None yet."
 
 **Dev** *(happy, the fast one)*: First pass of the site and the talk. One build, and a check every change must pass.
 

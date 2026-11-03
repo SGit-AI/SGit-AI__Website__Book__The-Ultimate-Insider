@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer",
+ "kind": "scheduled, hourly at :28 London (ACC1)",
+ "started": "2026-11-03T11:29:08Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Go with conditions: the plan is inside the writer's scope and the letters' corrections match the lines they name; fixes released first, 06 to 08 in order and only finished ones shipped, every number from the register, scenes banded. Ran as the reviewer agent: Read, Grep, Glob, Bash and its hand-back only (TA1); no call outside it attempted.",
+   "at": "2026-11-03T11:31:19Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Go with conditions: inside scope; C025 in 150/08 tells only the team's finding, late then early, the redaction and the rule, with the register's numbers, naming no value, site, field, pattern or way back into history and claiming no prevention; interviews marked as the historian's; nothing to Cold-Read. Ran as the reviewer agent (Read, Grep, Glob, Bash, hand-back); no call outside it attempted.",
+   "at": "2026-11-03T11:32:19Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
