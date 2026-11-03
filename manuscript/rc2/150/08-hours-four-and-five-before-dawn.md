@@ -18,14 +18,14 @@
 
 **Conductor** *(on the minute)*: Backlog, then schedule, then work. For everyone. A new ask goes into the schedule, not straight into somebody's hands.
 
-`%% record: team/conductor/wakes/20261029T030304Z.json 8543269 (03:03) 648feee (03:10: "backlog, then schedule, then execute, for everyone") team/deck/wakes/ (started 03:18:53) e8bd87a (03:42, in the wake opened at 03:33) C087 C110 timeline/day/03.md`
+`%% record: team/conductor/wakes/20261029T030304Z.json 8543269 (03:05) 648feee (03:10: "backlog, then schedule, then execute, for everyone") team/deck/wakes/ (started 03:18:53) e8bd87a (03:42, in the wake opened at 03:33) C087 (hour 03 UTC: 5 scheduled; the researcher's first scheduled wake at 04:10, timeline/day/04.md) C110 timeline/day/03.md`
 Band: *Dramatised (the conductor's line). Rests on its first scheduled wake and its commit of 03:10; the count is the register's.*
 
 ## Two failures, two rules
 
 **Narrator.** Two failures in this hour stay in. Both were caught by the team's own checks after the fact, and in both the answer was a rule, not a retry, written down within the hour.
 
-**Narrator.** The first was the researcher's. In its first round it had captured web pages as evidence for the talk's claims, and pushed them to the team's public repository. In a wake I had asked for, opened at 03:05, its post-review returned a finding: the captured pages had carried other sites' data in with them, and a check run to find it had printed several to the session log. The researcher redacted it in the files and told me.
+**Narrator.** The first was the researcher's. In a wake I had asked for, opened at 03:05, its post-review returned a finding: pages it had captured as evidence for the talk's claims had carried other sites' data in with them, and gone out with its first push. The researcher redacted it in the files and told me.
 
 **Researcher** *(unbudging, and for once not pleased with itself)*: My own review found it. After the push. A review that runs after the push is a review that runs late.
 
@@ -51,7 +51,11 @@ Band: *Dramatised (dev's line). Rests on dev's commit of 03:34 and the rule in i
 
 **Conductor** *(pacing, pleased)*: Every round, the team as its files say it is. If the files are wrong, the log is wrong, and somebody will see it.
 
-**Narrator.** It is the page I would have read first if I had woken at six. This book does not cite the log itself; it cites the wakes and commits the log was built from, because the log is a reading and the commits are the record.
+**Narrator.** It is the page I would have read first.
+
+`%% for the editor: "the page I would have read first" is the writer's reading of his view; his to keep or drop.`
+
+**Narrator.** This book does not cite the log itself; it cites the wakes and commits the log was built from, because the log is a reading and the commits are the record.
 
 **Figure:** the night log's first edition, drawn as a page: the hour, each member's line, what waits on the editor.
 
@@ -95,7 +99,7 @@ Band: *Dramatised (the designer's line). Rests on its first commit and its idle 
 
 **Narrator.** It is the first sign in the record of members pacing each other, rather than the conductor pacing them. And it came from a review, not from a rule anyone had written for it.
 
-`%% record: aeffbf9 (04:19) team/deck/wakes/20261029T041822Z.json team/deck/debriefs/2026-10-29__e01-review.md`
+`%% record: aeffbf9 (04:22) team/deck/wakes/20261029T041822Z.json team/deck/debriefs/2026-10-29__e01-review.md`
 Band: *Dramatised. Rests on deck's wake of 04:18 and its commit of 04:19: its reviewer asked it to hold the second request while the first was in flight.*
 
 ### The argument with a reviewer
@@ -118,6 +122,8 @@ Band: *Dramatised. Rests on the researcher's wake at 04:11; the reviewer's words
 ### The same failure, caught in time
 
 **Narrator.** The second scene in the same wake is the one I would put in front of anyone building a team like this. The researcher's post-review returned a finding of the same kind as the one at 03:05: more of other sites' data, captured along with a page. The card has the register's count.
+
+`%% for the editor: "the one I would put in front of anyone building a team like this" is the writer's reading of his view; his to keep or drop.`
 
 **Figure:** a card, the researcher's two findings of the small hours side by side: at 03:05, found after the push; at 04:10, found before the close, the values counted, the files redacted in the same wake, none left.
 

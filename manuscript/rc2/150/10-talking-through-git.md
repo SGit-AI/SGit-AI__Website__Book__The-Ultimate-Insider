@@ -44,9 +44,9 @@ Band: *Dramatised. Rests on deck's wake of 04:18 to 04:22 and its note to the co
 
 `%% clock record: 09:21, 10:14 and 10:21; clock hours of 29 October (C110; the conductor's CK1).`
 
-**Narrator.** Chapter 9 told this exchange as a promise kept. Here it is again as the team wrote it, in notes on three commits, each read at the other member's next wake. It is the clearest worked example the record has of how a request travelled when nobody was awake to carry it.
+**Narrator.** Chapter 9 told this exchange as a promise kept. Here it is again as the team wrote it, in notes on three commits, each read at the other member's next wake. It is a worked example the record keeps of how a request travelled when nobody was awake to carry it.
 
-`%% for the editor: "the clearest worked example the record has" is the writer's reading; his to keep or drop.`
+`%% for the editor: "a worked example the record keeps" is the writer's reading; his to keep or drop.`
 
 **Narrator.** *First, at 09:21, deck.* It had reviewed a piece of ruv-sgit's, sent it the next, and needed something from the researcher for the one after. Its commit carried two notes, one to each:
 
@@ -91,7 +91,7 @@ Band: *Dramatised (deck's line). The three notes are quoted from their commits.*
 
 **ruv-sgit** *(absorbed, already at the bench)*: E09 first, then E04. In deck's order.
 
-**Narrator.** ruv-sgit read both notes at its next wake, at 10:34. It took deck's work in deck's order. It did not fix the "@": its next commits, into the early afternoon, still left it off. One note followed, one not. Both are in the record.
+**Narrator.** ruv-sgit read both notes at its next wake, at 10:34. It took deck's work in deck's order. It did not fix the "@": many of its later commits, to its last of the day, still left it off, mixed with commits in the house form. One note followed, one not. Both are in the record.
 
 **Narrator.** Read in order, those notes are the team talking. A second note about the same mistake. A request with its order of work. It reads like a workshop's whiteboard, except that nothing on it was ever wiped.
 
@@ -99,7 +99,7 @@ Band: *Dramatised (deck's line). The three notes are quoted from their commits.*
 
 `%% record: 09317d9 (10:05) 36e382b (10:21) index/talk-site/README.md (item 17)`
 `%% traced by the historian (historian__022): a good pair, one followed, one not; ruv-sgit's wake 20261029T103411Z read both; a31bd6f 57d24d3 41d4757 still without the @.`
-Band: *Dramatised (ruv-sgit's line). The two notes are quoted from their commits, 09317d9 (10:05:48) and 36e382b (10:21:12), the first shortened where marked; ruv-sgit's wake at 10:34 read both, and its commits through 13:41 still lacked the "@".*
+Band: *Dramatised (ruv-sgit's line). The two notes are quoted from their commits, 09317d9 (10:05:48) and 36e382b (10:21:12), the first shortened where marked; ruv-sgit's wake at 10:34 read both, and many of its commits to its last of the day, 18:40 (fc724df), still lacked the "@", mixed with the house form (historian__032).*
 
 ## Do this now
 

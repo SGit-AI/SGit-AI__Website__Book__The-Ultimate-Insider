@@ -77,7 +77,7 @@ Band: *Dramatised. Rests on the researcher's wake at 04:11; the reviewer's words
 
 **ruv-sgit** *(absorbed, already at the bench)*: E09 first, then E04. In deck's order.
 
-**Narrator.** ruv-sgit read both notes at its next wake, at 10:34. It took deck's work in deck's order. It did not fix the "@": its next commits, into the early afternoon, still left it off. One note followed, one not. Both are in the record.
+**Narrator.** ruv-sgit read both notes at its next wake, at 10:34. It took deck's work in deck's order. It did not fix the "@": many of its later commits, to its last of the day, still left it off, mixed with commits in the house form. One note followed, one not. Both are in the record.
 
 **Narrator.** Read in order, those notes are the team talking. A second note about the same mistake. A request with its order of work. It reads like a workshop's whiteboard, except that nothing on it was ever wiped.
 
@@ -85,7 +85,7 @@ Band: *Dramatised. Rests on the researcher's wake at 04:11; the reviewer's words
 
 `%% record: 09317d9 (10:05) 36e382b (10:21) index/talk-site/README.md (item 17)`
 `%% traced by the historian (historian__022): a good pair, one followed, one not; ruv-sgit's wake 20261029T103411Z read both; a31bd6f 57d24d3 41d4757 still without the @.`
-Band: *Dramatised (ruv-sgit's line). The two notes are quoted from their commits, 09317d9 (10:05:48) and 36e382b (10:21:12), the first shortened where marked; ruv-sgit's wake at 10:34 read both, and its commits through 13:41 still lacked the "@".*
+Band: *Dramatised (ruv-sgit's line). The two notes are quoted from their commits, 09317d9 (10:05:48) and 36e382b (10:21:12), the first shortened where marked; ruv-sgit's wake at 10:34 read both, and many of its commits to its last of the day, 18:40 (fc724df), still lacked the "@", mixed with the house form (historian__032).*
 
 ## Do this now
 

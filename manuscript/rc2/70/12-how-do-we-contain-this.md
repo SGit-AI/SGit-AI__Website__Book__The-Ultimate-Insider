@@ -23,7 +23,7 @@ Band: *The hold as the wake rules define it, and the one hold of the day.*
 
 **Narrator.** Every member had a page of rules saying what it may change. That is its scope. And every member had a reach: what its session could actually change. They were not the same thing, and the team knew it. Studio put the code's own comment on a slide that evening:
 
-> "A scope is a setting, not a boundary ... It catches mistakes, not a steered agent." *(record)*
+> "a scope is a setting, not a boundary; it catches mistakes, not a steered agent." *(record)*
 
 **Narrator.** Read that slowly. The scope check caught members that wandered out of their lane by mistake, and it caught some on the day. It did not, and could not, stop a member that had been talked into doing something else.
 

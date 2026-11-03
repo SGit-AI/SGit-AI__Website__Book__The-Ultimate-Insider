@@ -98,7 +98,7 @@ Band: *Shortened from the historian's reconstruction of dev's record, not dev's 
 
 > *Shortened from the historian's reconstruction:* I turned separate sessions into something that ran on a clock: a schedule, a hold any member could pull, a five-step wake that left a record. I carried the editor's briefs to the members within minutes. What did not go well: I once printed a vault key into my own session log while checking a format, and rotated it at once. My first five-step wake was partial, and my own post-review caught me. And my five steps were a second reading, not a second identity: my reviewers shared my session's reach. At the end I flagged twice that part one was ready to lock, and left the lock to dev. An earlier, louder word would have mattered more than another refresh of the numbers.
 
-`%% record: timeline/interviews/conductor.md; 09f13d5 (01:39) 8c66751 5700bab (02:16 to 02:19) team/conductor/debriefs/2026-10-29__hourly-and-handover.md __the-five-step-wake.md 9d27703 (18:00) 0ecddca (18:20) 2ed6427 867f8c2`
+`%% record: timeline/interviews/conductor.md; 09f13d5 (01:39) 8c66751 5700bab (02:16 to 02:19) team/conductor/debriefs/2026-10-29__hourly-and-handover.md __the-five-step-wake.md 9d27703 (18:01) 0ecddca (18:21) 2ed6427 867f8c2`
 Band: *Shortened from the historian's reconstruction of the conductor's record, not the conductor's words. The key is named as an event only; nothing of it is printed.*
 
 ### Deck
@@ -107,7 +107,7 @@ Band: *Shortened from the historian's reconstruction of the conductor's record, 
 
 > *Shortened from the historian's reconstruction:* When the editor froze the talk in the small hours, I turned the freeze into a programme of experiments, written as data, with a page built from that data so the two could not drift. Through the night I reviewed every piece ruv-sgit sent back, keep or again, with notes for the next version. In the afternoon the talk took the editor's order, and part one was complete and timed before its lock. What did not: on the clock, I did not finish the talk. My last wake opened, planned the later parts, and never closed. Once, with the editor waiting, I built first and wrote the plan afterwards, and the check said partial. And one release reached the team's branch with a finding still in it, because I read the gate's output and not its exit code.
 
-`%% record: timeline/interviews/deck.md; 60af587 team/deck/wakes/20261029T024758Z.json (02:47) 84d6ba4 (03:21) 19e7f2d (13:48) ca59986 (16:36) 3260997 89afb77 (18:20) team/deck/wakes/20261029T141943Z.json da9b681`
+`%% record: timeline/interviews/deck.md; 60af587 team/deck/wakes/20261029T024758Z.json (02:47) 84d6ba4 (03:21) 19e7f2d (13:48) ca59986 (16:36) 3260997 89afb77 (18:21) team/deck/wakes/20261029T141943Z.json da9b681`
 Band: *Shortened from the historian's reconstruction of deck's record, not deck's words.*
 
 ### ruv-sgit
@@ -161,7 +161,7 @@ Band: *Shortened from the historian's reconstruction of motion's record, not mot
 
 > *Shortened from the historian's reconstruction:* I joined late and still shipped on the hour: the pieces the editor named, rebuilt on this site's engine, with the source and the data pinned unchanged. Looking before shipping worked: checking each piece on an iPad in both orientations is how I found the engine did not scale a piece opened on its own. What did not: I did not finish my list, and one question to deck was still open at the end. My first count on the policy review slide was wrong twice before it was right. And my own policy is still a draft, never agreed in my own session.
 
-**Narrator.** Part 3 has why: late in the afternoon its session would not take another agent's relayed word for mine, and asked me instead.
+**Narrator.** Part 3 has why: late in the afternoon, studio's session would not take my word when another agent relayed it to studio, and asked me directly instead.
 
 `%% record: timeline/interviews/studio.md; c3ce566 (15:40) 0fe0fff (16:18) team/studio/wakes/20261029T183037Z.json team/studio/debriefs/2026-10-29__abp-review.md team/studio/policy.json ("agreed_by") bd3cdad team/studio/wakes/20261029T174115Z.json`
 Band: *Shortened from the historian's reconstruction of studio's record, not studio's words.*
@@ -179,7 +179,7 @@ Band: *The historian's note on the role nobody held, from the record.*
 
 **Narrator.** Early in the evening, studio put a line on a slide, quoting the comment in the team's own scope check, and this whole chapter turns on it:
 
-> "A scope is a setting, not a boundary ... It catches mistakes, not a steered agent." *(record)*
+> "a scope is a setting, not a boundary; it catches mistakes, not a steered agent." *(record)*
 
 **Narrator.** A scope is a list in a file. A check reads the list and flags any change outside it. That catches an agent that wanders by mistake, and on the day it caught some. It does not stop an agent that has been talked into doing something else, because the agent has the same hands either way. Dev's page said the same thing in the first hours, about its own check.
 

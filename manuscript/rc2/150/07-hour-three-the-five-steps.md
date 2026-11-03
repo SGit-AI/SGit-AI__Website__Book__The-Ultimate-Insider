@@ -41,14 +41,14 @@ Band: *Dramatised (the conductor's line). Rests on the first wake record and the
 
 **Conductor** *(worried, then calm)*: Caught by the reviewer I invented. Good. But know what it is: "a second reading, not a second identity." *(record)*
 
-**Narrator.** The review caught its own author on the first run. Of everything in the record of the small hours, that is the strongest early sign that the steps were more than ceremony. It is also the first entry in the register's list of what the day's post-reviews found and what each fixed.
+**Narrator.** The review caught its own author on the first run. The historian reads it as the strongest early sign in the record of the small hours that the steps were more than ceremony. It is also the first entry in the register's list of what the day's post-reviews found and what each fixed.
 
 **Figure:** the wake record as a page: five boxes in a column, each with its step, who ran it, its verdict and its sentence, the finding in step four highlighted; the verdicts of this hour's first wake filled in: go, go, partial, finding, partial.
 
 `%% figure brief: For the designer, from the record word for word. The chapter's picture, as the seventy's chapter 5 drew it.`
 
-`%% record: team/conductor/wakes/20261029T021416Z.json at 298be4e (plan 02:14:53, pre_review 02:16:07, work 02:18:19, post_review 02:19:05, post_check 02:19:34) 5700bab c8f6f8f team/conductor/debriefs/2026-10-29__the-five-step-wake.md C025 (its first entry: "CLAUDE.md written outside the conductor's scope ... not named in the commit message")`
-Band: *Dramatised. Every step, verdict and quoted line is from the conductor's first wake record, 02:14 to 02:19, and its debrief; the conductor's other lines are ours.*
+`%% record: team/conductor/wakes/20261029T021416Z.json at 298be4e (plan 02:14:53, pre_review 02:16:07, work 02:18:19, post_review 02:19:05, post_check 02:19:34) 5700bab c8f6f8f team/conductor/debriefs/2026-10-29__the-five-step-wake.md timeline/day/02.md ("What the hour shows": the historian's reading, "the strongest early evidence that the steps were more than ceremony") C025 (its first entry: "CLAUDE.md written outside the conductor's scope ... not named in the commit message")`
+Band: *Dramatised. Every step, verdict and quoted line is from the conductor's first wake record, 02:14 to 02:19, and its debrief; that it is the strongest early sign the steps were more than ceremony is the historian's reading of the hour; the conductor's other lines are ours.*
 
 ## A rule becomes a setting
 
