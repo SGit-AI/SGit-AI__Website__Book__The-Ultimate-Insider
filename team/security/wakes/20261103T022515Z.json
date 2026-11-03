@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Board 024 and status noted: nothing new on the rails (clock markers, one figure line on a cleared screenshot, the seventy's build list). Deviation: the pre-review was written by the member, not run as a sub-agent; said in the debrief.",
    "at": "2026-11-03T02:26:28Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "smaller model (sub-agent)",
+   "verdict": "finding",
+   "comment": "No secret, contact, out-of-scope write or attack-shaped text; gate, agents.py, vault_check pass. Finding: the pre-review was written by the member, not run as a sub-agent, so the gate passed on self-review.",
+   "at": "2026-11-03T02:27:05Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "smaller model (sub-agent)",
+   "verdict": "partial",
+   "comment": "Committed work in scope; unplanned: the C2 entry in controls/index.json after the post-review's finding; the pre-review was written by the member, not a sub-agent.",
+   "at": "2026-11-03T02:27:23Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T02:27:23Z",
+ "outcome": "partial"
 }
