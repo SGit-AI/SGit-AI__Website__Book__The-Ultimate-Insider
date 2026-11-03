@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled, hourly at :17 London (ACC1)",
+ "started": "2026-11-03T09:18:55Z",
+ "steps": {
+  "plan": {
+   "by": "historian, amending at the pre-review's change",
+   "model": "the session's model",
+   "verdict": "go",
+   "comment": "Amended: no step of this wake lists, reads or acts on sessions; the plan sub-agent's list_sessions call is recorded here and in the letter to security as the fourth attempt. Items unchanged: 1) writer 070: one afternoon ask followed in full and the 150/03 tour stops checked, rc2-times.md, historian__026; 2) the look-back for security, historian__027; 3) status, debrief.",
+   "at": "2026-11-03T09:20:49Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Amended plan: no session listing in the work, manuscript/ untouched, inside policy; record the fourth attempt in the debrief.",
+   "at": "2026-11-03T09:21:18Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "Writer 070: one ask followed in full and the 150/03 tour checked, in rc2-times.md, letter historian__026. Conductor 030 and security 001: the look-back, letter historian__027. Letters to done; status; debrief. Done by the member itself, no step sub-agent beyond the reviews; the plan sub-agent's list_sessions call recorded.",
+   "at": "2026-11-03T09:23:38Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "11 files in scope; no em-dashes, religious words, model names, secrets or contact details; agents check and vault_check comms pass; only reading tools. But its shell wrote two scratch copies of the staged diff outside the repository (/tmp, /home/user); removed by the historian after looking: public diff text only.",
+   "at": "2026-11-03T09:24:33Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "All three items done (rc2-times section, letters 026 and 027, status, debrief); letters filed; only reading tools used.",
+   "at": "2026-11-03T09:24:33Z"
+  }
+ },
+ "closed": "2026-11-03T09:24:33Z",
+ "outcome": "ok"
+}

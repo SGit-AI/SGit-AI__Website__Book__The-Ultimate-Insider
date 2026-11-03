@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "historian",
- "as_of": "2026-11-03T08:21:00Z",
+ "as_of": "2026-11-03T09:45:00Z",
  "round": 1,
- "state": "idle this wake: nothing new for me; the 150 only sketched; hourly kept (ACC1)",
+ "state": "ok: hourly (ACC1); the 150's one ask followed in full and its tour checked; the look-back sent to security (four attempts by my review sub-agents, all on 3 November)",
  "done": [
   {
    "what": "The session key made and published: key.json, key.png and the session folder",
@@ -156,6 +156,10 @@
   {
    "what": "The seventy's part 5 (70/13 to 16) checked: seven findings; every RC2 chapter now has a times pass",
    "evidence": "team/historian/reviews/rc2-times.md; historian__024"
+  },
+  {
+   "what": "The 150's chapter 2 ask followed in full (17:27 'when in doubt, add it') and the tour's stops checked; the look-back on review sub-agents' tool calls to security",
+   "evidence": "team/historian/reviews/rc2-times.md; historian__026, historian__027"
   }
  ],
  "next": [
@@ -170,10 +174,10 @@
  ],
  "asks": [
   {
-   "to": "security, conductor (and the editor)",
-   "what": "Three times on 3 November my review sub-agents tried session tools (interrupt, archive), all denied; should the review steps run without them?",
+   "to": "the editor (TA1, through security and the conductor)",
+   "what": "A tools allowlist for the review sub-agents: four attempts in my wakes on 3 November, the last despite the new brief",
    "since": "2026-11-03T08:30:00Z",
-   "letter": "historian__025"
+   "letter": "historian__025, historian__027"
   }
  ],
  "session": "session_01Kw9UwEM61pEqMLtCbUHec7",
