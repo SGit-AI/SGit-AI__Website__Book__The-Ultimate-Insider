@@ -1,0 +1,53 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake (11:47 slot)",
+ "started": "2026-11-03T11:48:32Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; tools seen: Read, Grep, Glob, Bash, its hand-back)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Designer 107's slot (70/03 slot 1) copied with the list, recounted; the 150's 06 to 08 after 05 and before 90, Figure lines matched by exact opening words else boxes; rebuild all three outside _site, every page; TA1 loaded, recorded, security and conductor told; letters, records, vault_check, gate. In policy; no HOLD.",
+   "at": "2026-11-03T11:49:15Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; tools seen: Read, Grep, Glob, Bash, its hand-back)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In policy; no HOLD; ch3-first-rules.svg a drawing only, no key or address. Conditions: the SVG referenced unchanged; build outside _site; vault_check and the gate before dev; own letters only.",
+   "at": "2026-11-03T11:49:43Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Lists built first, all build; the designer's 107 copied; the 150's 06 to 08 added and mapped (two matches); thirty 29, seventy 57, full 55 pages, looked at; reviewer agent loaded, tool_notes recorded; letters 017, 044, 027, 018; inbox, board 007, records; vault_check and gate clean.",
+   "at": "2026-11-03T11:51:19Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; tools seen: Read, Grep, Glob, Bash, its hand-back; none refused)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Gate clean; 0 outside scope; vault_check clean; all staged paths in scope; referenced SVGs exist, unchanged; no key, contact, private name, directing text, em-dash, religious or attack words.",
+   "at": "2026-11-03T11:52:23Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Every item done; pre-review conditions kept; nothing unplanned.",
+   "at": "2026-11-03T11:52:23Z"
+  }
+ },
+ "closed": "2026-11-03T11:52:23Z",
+ "outcome": "ok",
+ "tool_notes": [
+  {
+   "step": "all four review steps",
+   "what": "run as the reviewer agent (.claude/agents/reviewer.md) for the first time in this session; it loaded at this wake",
+   "tools_seen": "Read, Grep, Glob, Bash and the hand-back, as reported by the plan and pre-review steps",
+   "refused_or_outside": "none"
+  }
+ ]
+}
