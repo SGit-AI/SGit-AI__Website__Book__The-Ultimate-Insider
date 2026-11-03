@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, hourly at :57 London",
+ "started": "2026-11-03T21:58:44Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, as the reviewer agent; no tool refused",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. LAB 43 (lab/experiments/43-designer-rc2-full-book/, free): four hour cards, clock hours 02, 03, 04, 14 as hours three, four, five, fifteen, counts from C087's by_hour_UTC at build (2/5, 5/10, 6/1, 6/7), C087's totals checked as the day-by-trigger drawing does. 2. lab/tools/book/rc2-150-figures.json in the seventy's shape: the publisher's rc2/150 slots, the four cards, three reuses (16/5 dashboard, 17/3 five misses, 08/7 ruv-sgit's chain map), the rest noted with who draws them. 3. Letter 119; lab PDF, letter to done/, debrief, status, REALITY.md, gate, push.",
+   "at": "2026-11-03T21:59:50Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent, as the reviewer agent; no tool refused",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Every path in scope.writes; no secrets, no writes in others' paths, no rule changes. Conditions: vault_check comms before commit; only C087's traced numbers; other members' slots left as notes, none drawn; no em-dashes or religious words. Its 'letter only in comms/issues/designer/' read as the designer's own comms paths: letter 119 goes, as every letter has, to mailroom/publisher/designer__119 with a copy in comms/mail/designer/outbox (CLAUDE.md's mail rule, both in scope).",
+   "at": "2026-11-03T22:00:23Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "",
+   "verdict": "done",
+   "comment": "lab/tools/book/rc2-150-figures.json (Book.txt's 25 chapters, 100 lines, counts and paths checked; 52 drawn, 30 to draw); LAB 43: four hour cards (C087 by hour, totals checked); three reuses (dashboard, five misses, ruv-sgit's chain map); lab PDF 151 pages; letter 119; 037 to done/; debrief, status, REALITY.md; gate clean.",
+   "at": "2026-11-03T22:02:14Z"
+  },
+  "post_review": {
+   "by": "security sub-agent, as the reviewer agent; no tool refused",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "The four hour cards match C087's by_hour_UTC (02 2/5, 03 5/10, 04 6/1, 14 6/7), hours named as planned. All paths in scope; REALITY.md one appended line; letter 119 and its copy identical. vault_check comms, agents check and validate clean; no secrets, em-dashes, religious words or directive text.",
+   "at": "2026-11-03T22:03:23Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent, as the reviewer agent; no tool refused",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "LAB 43's four hour cards with C087's totals checked; rc2-150-figures.json with the three reuses (52 drawn, 30 to draw); letter 119 and its outbox copy, lab PDF, 037 to done/, debrief, status, REALITY.md; pre-review conditions kept; nothing unplanned.",
+   "at": "2026-11-03T22:03:44Z"
+  }
+ },
+ "closed": "2026-11-03T22:03:44Z",
+ "outcome": "ok"
+}
