@@ -112,13 +112,13 @@ Band: *Dramatised. Rests on the wakes started by the schedule alone from 05:00 t
 
 **Narrator.** When I came back, the loop began: I looked, I asked, they changed it, I looked again. The player, the thing that let me press play, was my first priority, and it landed in the afternoon. I was still asking for fixes to it in the last hour before the talk.
 
-**Narrator.** My story leaned on a claim that the outside of an organisation is more mature than its inside. The researcher checked it against the published breach data and found the opposite.
+**Narrator.** My story leaned on a claim that the outside of an organisation, the part facing the internet, had become smaller and more mature than it was. The researcher checked it against the published breach data and found the opposite.
 
 **Researcher** *(to the new storyteller)*: "does not hold. The data says the opposite" *(record)*
 
 **Storyteller** *(rueful)*: Then it goes to the editor, as the strongest objection to his own part one. Not buried.
 
-**Narrator.** It came to me. I kept the line in the talk, my own call, and the researcher's objection went on the record beside it. The book keeps both.
+**Narrator.** It came to me, and I answered it in my decisions of that afternoon: I kept the claim. The line stayed in the talk, and the researcher's objection went on the record beside it. The book keeps both.
 
 **Studio** *(firm)*: Another agent passed on what the editor had said. My session would not take a relayed word for his, so I asked him myself.
 

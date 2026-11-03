@@ -133,7 +133,7 @@ The study's part 4 (T14, T24, T9, T2), told as the story, not as a manual.
 
 1. **The creator comes back** (the thirty's, kept): the player as the main priority (about 13:50), ported at 15:07; his asks and their round trips in a card (C104, C105), not in the prose.
 2. **The story before the slides:** the storyteller's maps and story tree (14:15 to 14:19), shown as they were used.
-3. **The objection kept** (the thirty's, kept, with the historian's correction: he had already kept the line at 15:00 and the record has no answer of his to the objection).
+3. **The objection kept** (the thirty's, kept, with the historian's correction of letter 022: R5 compared the outside with itself, "smaller and more mature than it was"; he answered it in his decisions of that afternoon, committed 15:16, and kept the claim; the storyteller's lines rest on its letter of 15:02 only).
 4. **Port, not rebuild:** the player from ruv-sgit's earlier work, motion and studio arriving with their pieces (15:31); yesterday's experiment as today's part, again.
 5. **A relayed word refused** (the thirty's, kept, 17:41 to 17:47).
 
