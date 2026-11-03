@@ -82,6 +82,7 @@ Band: *The six findings as this book's historian compared them, each applied her
 **Narrator.** None of that went to it. It stays here, as the valve requires.
 
 `%% record: timeline/cold-read-comparison.md ("What this timeline has that the Cold-Read one lacks") team/deck/requests/researcher__before-tonight.md (deck's 03:00 update) a082c52 timeline/unmerged.md timeline/after-the-day.md`
+Band: *What this book's timeline holds and the Cold-Read reading could not, as the comparison lists it.*
 
 ## What it means
 
