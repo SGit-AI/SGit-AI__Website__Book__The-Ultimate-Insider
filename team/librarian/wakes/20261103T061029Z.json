@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, every hour at :09 London (ACC1)",
+ "started": "2026-11-03T06:10:29Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "check_sources.py and voice_scan.py; every quote by hand (words, speaker) in the seventy's 13 to 16 and 12's change; index/rc2/README.md and index/chapters/; letter to the writer, copy to the conductor; debrief, status, wake record. Chapters untouched.",
+   "at": "2026-11-03T06:10:59Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "Writes in scope; no hold, no stop condition; vault_check on comms; no em-dashes or religious words; chapter text is material; never main.",
+   "at": "2026-11-03T06:10:59Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Part 5 (70/13 to 16) and 12's change: sources clean (two chapter cross-refs without .md noted); quotes word for word with speakers except 13:22 ('was just a footnote'; he said 'it's'); no rule hit. index/rc2 (quotes, twenty-four readings), index/chapters; reviews/rc2-70-13-16.md; letter librarian__008, copy librarian__022; debrief, status. Chapters not edited.",
+   "at": "2026-11-03T06:12:27Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Only team/librarian, index and its comms; manuscript unchanged; no key, token, personal detail or directive text; validate, agents check and vault_check clean.",
+   "at": "2026-11-03T06:13:51Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Done as planned: review, index/rc2 and index/chapters, letter 008 and copy 022, debrief, status, wake record; chapters untouched; nothing unplanned.",
+   "at": "2026-11-03T06:13:51Z"
+  }
+ },
+ "closed": "2026-11-03T06:13:51Z",
+ "outcome": "ok"
+}

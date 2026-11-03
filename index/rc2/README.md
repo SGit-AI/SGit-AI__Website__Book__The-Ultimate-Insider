@@ -46,7 +46,7 @@ Chapter 3, revised: its quotes are unchanged and hold. Chapter 5, line 67 (added
 
 ## The 70-page edition
 
-Checked 3 November 2026, about 02:16 UTC: chapters 1 to 5; chapters 6 to 9 at about 04:14 UTC; chapters 10 to 12 (part 4) at about 05:14 UTC (`manuscript/rc2/70/`). Sources clean in all five; files and commits in `index/chapters/`.
+Checked 3 November 2026, about 02:16 UTC: chapters 1 to 5; chapters 6 to 9 at about 04:14 UTC; chapters 10 to 12 (part 4) at about 05:14 UTC; chapters 13 to 16 (part 5; the seventy whole) at about 06:14 UTC (`manuscript/rc2/70/`). Sources clean in all five; files and commits in `index/chapters/`.
 
 | Chapter, line | Quote (opening words) | Speaker | Where it is |
 |---|---|---|---|
@@ -78,12 +78,15 @@ Checked 3 November 2026, about 02:16 UTC: chapters 1 to 5; chapters 6 to 9 at ab
 | 10:46, 10:48 | "# HOLD: the editor's usage limit is at 95%; pause all actions", "What lifts it: the editor deletes this file ..." | the conductor's hold file, 18:44 | the talk's `team/conductor/HOLD.md`, `867f8c2`; word for word, its bullet and bold marks dropped |
 | 12:26 | "A scope is a setting, not a boundary: ..." | the talk's scope check | the talk's `admin/build/agents.py` |
 | 12:41 | "The reviewers share the session's reach: a second reading, not a second identity." | the conductor, its first debrief | `c8f6f8f` |
+| 13:22 | "was just a footnote" | the editor, 31 October, in his RC1 review | `briefs/2026-10-31__rc1-paper-review/batch-07-pages-22-to-32.md`; the register's account of 31 October | **not word for word**: he said "it's just a footnote"; the chapter puts "was" inside the quotation marks (finding, letter `librarian__008`) |
+| 13:31, 13:35 | "Written by conductor@book.the-ultimate-insider on 30 October 2026, ...", "a new session makes and publishes its own ..." | the conductor, its handover for the storyteller | `team/conductor/handovers/storyteller.md` (this book's record) | word for word |
+| 14:50 | the conductor's brief of 2 November, twice | the conductor | `team/conductor/editor-briefs/2026-11-02T0015Z.json` | word for word |
 
-Not quotes from the record: the shop owner's page of rules (03:93) is an example. Every speaker above is the one the record gives.
+Not quotes from the record: the shop owner's page of rules and brief (03:93, 16:19, 16:21) are examples. Every speaker above is the one the record gives.
 
 ## The writer's readings, for the editor to keep or drop
 
-Where a sentence in the editor's voice is the writer's reading of his view rather than something he said or wrote, the writer marks it in a `%%` note (not printed). Until he keeps one, it is not his words. Gathered here so he can decide them in one sitting (as of 3 November 2026, about 05:14 UTC: 20 in the thirty and the seventy):
+Where a sentence in the editor's voice is the writer's reading of his view rather than something he said or wrote, the writer marks it in a `%%` note (not printed). Until he keeps one, it is not his words. Gathered here so he can decide them in one sitting (as of 3 November 2026, about 06:14 UTC: 24 in the thirty and the seventy):
 
 | Where | The writer's note |
 |---|---|
@@ -107,6 +110,10 @@ Where a sentence in the editor's voice is the writer's reading of his view rathe
 | `70/11-what-did-not-work.md:17` | the last two sentences of this paragraph ("What they share ... show.") are the writer's reading across his three accounts; his to keep or drop. |
 | `70/12-how-do-we-contain-this.md:58` | "If you take one thing ..." and the sentence after it are the writer's reading of his view; his to keep or drop. |
 | `70/12-how-do-we-contain-this.md:76` | "It is also, quite exactly, the situation my talk was warning about." and "The difference between this factory and a dangerous one is not the brakes. It is that nothing pushed on them." are the writer's reading of the talk's argument; his to keep, change or drop. |
+| `70/14-the-second-factory-and-the-third.md:29` | "A first team needs three ..." is the writer's reading, at the readers' ask (synthetic__003); his to keep or drop. |
+| `70/14-the-second-factory-and-the-third.md:77` | the three paragraphs on how the shared brief, board and hold would work day to day are the writer's reading of his plan, from his description of 1 November and the hold's rule; his to keep, change or drop. |
+| `70/14-the-second-factory-and-the-third.md:90` | this section is the writer's working-out of his plan for a team of several, from the editions' team box and the hold's rule; his to keep, change or drop. |
+| `70/16-build-your-own.md:36` | the "What to do / What to check" lines under each step are the writer's, worked from the steps as the editions give them; his to keep or change. |
 
 ## How to keep this current
 

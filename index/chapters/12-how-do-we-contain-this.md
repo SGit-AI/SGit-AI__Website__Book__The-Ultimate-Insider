@@ -21,6 +21,6 @@ From the chapter's `## Where this came from` in `manuscript/rc2/70/12-how-do-we-
 - `timeline/interviews/security.md`
 - `chapter-plan/edition-70-outline.md`
 
-## Commits named (5)
+## Commits named (6)
 
-`1f7c633`, `95b09d9`, `c8f6f8f`, `4a2481b`, `bd3cdad`
+`a9c0b49`, `1f7c633`, `95b09d9`, `c8f6f8f`, `4a2481b`, `bd3cdad`
