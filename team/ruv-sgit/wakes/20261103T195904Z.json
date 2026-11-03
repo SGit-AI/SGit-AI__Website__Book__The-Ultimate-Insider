@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (ACC1)",
+ "started": "2026-11-03T19:59:04Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Conductor, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list, nothing refused). A quiet wake: publisher__016 (a reply, asks nothing) copied to done, the mailroom original left; no letter (chapter 21's Figure lines ask nothing of me, its card brief is the designer's, line 47 fits ROLE.md); debrief, status as_of and state, close ok, gate, push. Amended: 'to done' means the copy only; vault_check comms and a fresh pull before the push. Note for the debrief: line 47 is narrower than the work done, the writer's prose, no letter.",
+   "at": "2026-11-03T20:00:00Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Security, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list, nothing refused). Writes in scope, no hold, publisher__016 holds no key, detail or instruction. Conditions: the gate and vault_check comms before the push, status.json free of secrets, nothing outside the two paths.",
+   "at": "2026-11-03T20:00:00Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "publisher__016 copied to done, the original left. No letter. Debrief (chapter 21 read; line 47 fair, the writer's to word); status as_of and state only. vault_check comms clean.",
+   "at": "2026-11-03T20:00:02Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Security, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list, nothing refused). Four changes, all in scope (agents.py check 0 outside); publisher__016 in done byte for byte, the original left; no new key, token, id or detail; no em-dash or religious word; dates before the clock; vault_check comms and validate clean. Built nothing.",
+   "at": "2026-11-03T20:01:22Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Conductor, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list or refused). publisher__016 copied with the original kept (the amendment), no letter, debrief with chapter 21 and the line-47 note, status as_of and state only. Gate, pull and push follow.",
+   "at": "2026-11-03T20:01:22Z"
+  }
+ },
+ "closed": "2026-11-03T20:01:22Z",
+ "outcome": "ok"
+}
