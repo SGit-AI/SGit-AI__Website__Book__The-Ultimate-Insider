@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, 17:42 London",
+ "started": "2026-11-03T17:43:17Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, as the reviewer type (plan.md)",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1) conductor__030 taken (post_review.md runs validate only; the step writes nothing); no reply needed. 2) 005 and 008 stay open; no reader runs. 3) status, short debrief, agents check, gate, push. Tools: Read, Bash; none wanted.",
+   "at": "2026-11-03T17:43:43Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent, as the reviewer type (pre_review.md)",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Inside policy (team/synthetic/**); no hold, no secret, no reader run. Conditions: vault_check if comms touched; no action on 030 beyond noting; no push on a red gate. Tools: Read, Bash; nothing refused.",
+   "at": "2026-11-03T17:44:04Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
