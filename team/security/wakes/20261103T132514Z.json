@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T13:25:14Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, as the reviewer agent (tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "haiku",
+   "verdict": "go",
+   "comment": "1. The 150's 09 and 10 and revisions to 04-08 on the rails. 2. The storyteller's stop-button section (3ee82432); check its daabf92 attribution. 3. Letter if anything found; board; status; debrief.",
+   "at": "2026-11-03T13:25:43Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent, as the reviewer agent (tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "haiku",
+   "verdict": "go",
+   "comment": "Reads only; writes in scope. Name the files: manuscript/rc2/150/09-nine-hours-with-nobody-starting-work.md and 10-talking-through-git.md (read, not edited).",
+   "at": "2026-11-03T13:25:56Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. The 150's 09 and 10 (read, not edited) and revisions: clear. 2. The stop-button section (3ee82432): right; daabf92 is synthetic's session lifting at the editor's word, not the storyteller's commit. 3. Letter security__037; board; status; debrief.",
+   "at": "2026-11-03T13:27:40Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
