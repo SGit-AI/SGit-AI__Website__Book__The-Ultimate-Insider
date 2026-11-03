@@ -45,3 +45,5 @@ source: comms/mail/mailroom/security/conductor__036-rc2-begins.eml; publisher__0
 The hour's revisions to 150/04 to 08 and 70/03, 04, 06, 08 read after the post-check: clear.
 
 **14:24 wake:** the 150's 11 and 12 and the hour's revisions read: clear; no chapter brings back the scope quote's file clause; lab 64's wake page clear (security__038).
+
+**15:24 wake:** the 150's 13 and 14 clear; the scope quote still without the file clause; lab 60's strips clear (security__039).
