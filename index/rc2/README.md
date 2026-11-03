@@ -46,7 +46,7 @@ Chapter 3, revised: its quotes are unchanged and hold. Chapter 5, line 67 (added
 
 ## The 70-page edition
 
-Checked 3 November 2026, about 02:16 UTC: chapters 1 to 5; chapters 6 to 9 at about 04:14 UTC (`manuscript/rc2/70/`). Sources clean in all five; files and commits in `index/chapters/`.
+Checked 3 November 2026, about 02:16 UTC: chapters 1 to 5; chapters 6 to 9 at about 04:14 UTC; chapters 10 to 12 (part 4) at about 05:14 UTC (`manuscript/rc2/70/`). Sources clean in all five; files and commits in `index/chapters/`.
 
 | Chapter, line | Quote (opening words) | Speaker | Where it is |
 |---|---|---|---|
@@ -74,12 +74,16 @@ Checked 3 November 2026, about 02:16 UTC: chapters 1 to 5; chapters 6 to 9 at ab
 | 09:38 | "positions, not measurements" | the storyteller's maps | the talk's `src/static/talk/slides/maps/evolution/index.html` |
 | 09:53 | "does not hold. The data says the opposite" | the researcher | `2726f0e` |
 | 09:72 | "the player, ported from ruv.sgit.ai" | the talk's moments article and register | the talk's `content/articles/moments.md`, `3314ffe` |
+| 10:42 | "actually we are at 95% so it is better to pause all actions" | the editor, quoted in the hold file | the talk's `team/conductor/HOLD.md`, `867f8c2` |
+| 10:46, 10:48 | "# HOLD: the editor's usage limit is at 95%; pause all actions", "What lifts it: the editor deletes this file ..." | the conductor's hold file, 18:44 | the talk's `team/conductor/HOLD.md`, `867f8c2`; word for word, its bullet and bold marks dropped |
+| 12:26 | "A scope is a setting, not a boundary: ..." | the talk's scope check | the talk's `admin/build/agents.py` |
+| 12:41 | "The reviewers share the session's reach: a second reading, not a second identity." | the conductor, its first debrief | `c8f6f8f` |
 
 Not quotes from the record: the shop owner's page of rules (03:93) is an example. Every speaker above is the one the record gives.
 
 ## The writer's readings, for the editor to keep or drop
 
-Where a sentence in the editor's voice is the writer's reading of his view rather than something he said or wrote, the writer marks it in a `%%` note (not printed). Until he keeps one, it is not his words. Gathered here so he can decide them in one sitting (as of 3 November 2026, about 04:14 UTC: 14 in the thirty and the seventy):
+Where a sentence in the editor's voice is the writer's reading of his view rather than something he said or wrote, the writer marks it in a `%%` note (not printed). Until he keeps one, it is not his words. Gathered here so he can decide them in one sitting (as of 3 November 2026, about 05:14 UTC: 20 in the thirty and the seventy):
 
 | Where | The writer's note |
 |---|---|
@@ -95,8 +99,14 @@ Where a sentence in the editor's voice is the writer's reading of his view rathe
 | `70/01-slides-as-a-compromise.md:17` | the five sentences from "It sounds small." to "Those were exactly the ideas I wanted to get across." are the writer's reading of his view, beyond the voice note; not yet his words until he keeps them. |
 | `70/01-slides-as-a-compromise.md:98` | "With slides, I made that trip alone, and usually once." is the writer's reading of his view; his to keep or drop. |
 | `70/02-the-tour.md:78` | "This is the page I would show anyone who doubts" is the writer's reading of his view; his to keep or drop. |
-| `70/03-one-account-one-project-one-conductor.md:105` | the shop owner's page in full is the writer's, grown from the editions' example; his to keep or change. |
-| `70/08-the-plumbing.md:66` | "I would keep the file, and give one member the job of writing in it." and the sentence after it are the writer's reading of his view; his to keep or drop. |
+| `70/03-one-account-one-project-one-conductor.md:107` | the shop owner's page in full is the writer's, grown from the editions' example; his to keep or change. |
+| `70/06-talking-through-git.md:30` | "the part I did not expect" is the writer's reading; his to keep or drop. |
+| `70/08-the-plumbing.md:5` | "Nobody puts the plumbing in the brochure." and "It was the most important one." are the writer's; his to keep or drop. |
+| `70/08-the-plumbing.md:70` | "I would keep the file, and give one member the job of writing in it." and the sentence after it are the writer's reading of his view; his to keep or drop. |
+| `70/10-the-last-ten-minutes.md:31` | "I want to be fair to the conductor" and the sentence on lanes are the writer's reading of his view; his to keep or drop. |
+| `70/11-what-did-not-work.md:17` | the last two sentences of this paragraph ("What they share ... show.") are the writer's reading across his three accounts; his to keep or drop. |
+| `70/12-how-do-we-contain-this.md:58` | "If you take one thing ..." and the sentence after it are the writer's reading of his view; his to keep or drop. |
+| `70/12-how-do-we-contain-this.md:76` | "It is also, quite exactly, the situation my talk was warning about." and "The difference between this factory and a dangerous one is not the brakes. It is that nothing pushed on them." are the writer's reading of the talk's argument; his to keep, change or drop. |
 
 ## How to keep this current
 

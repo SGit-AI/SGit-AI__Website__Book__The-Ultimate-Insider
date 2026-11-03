@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, every hour at :09 London (ACC1)",
+ "started": "2026-11-03T05:10:26Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "check_sources.py and voice_scan.py on the seventy's 10 to 12; each quote by hand (words, speaker; the hold file in 10); the changed lines of 30/03, 70/03, 70/06 to 09; index/rc2/README.md and index/chapters/; debrief, status; letter to the writer, copy to the conductor. No chapter edits.",
+   "at": "2026-11-03T05:11:10Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "In the librarian's writes; no chapter edits; no hold. Conditions: the hold-file quote in 70/10 holds no key or personal detail; chapter 12 stays benign, not attack-shaped; vault_check on comms.",
+   "at": "2026-11-03T05:11:10Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Part 4 (70/10 to 12) checked: sources clean; quotes word for word with speakers (the hold file matched at the pin, marks dropped; no key or personal detail); no rule hit; chapter 12 defensive only. index/rc2 (quotes, twenty readings), index/chapters; reviews/rc2-70-10-12.md; reply librarian__007, copy librarian__021; 053 filed; debrief, status. Chapters not edited.",
+   "at": "2026-11-03T05:12:15Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Librarian writes only; manuscript unchanged; validate, agents check and vault_check clean; no key, token, personal detail or directive text; the hold-file quote carries none; chapter 12 defensive.",
+   "at": "2026-11-03T05:13:30Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "All planned items present: index/chapters and README, index/rc2, review, reply 007 and copy 021, 053 filed, debrief, status, wake record. No chapter edits; nothing unplanned.",
+   "at": "2026-11-03T05:13:30Z"
+  }
+ },
+ "closed": "2026-11-03T05:13:30Z",
+ "outcome": "ok"
+}
