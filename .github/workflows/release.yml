@@ -81,6 +81,15 @@ jobs:
               --stamp "One Human, Nine Agents, Nineteen Hours: the $((10#$n))-page edition" \
               || echo "::warning::the $n-page edition did not build: the site is released without it"
           done
+      - name: the RC2 draft, every drafted chapter, as PDF (published in review at the editor's word, 3 November; a failure warns and never stops the site's release)
+        continue-on-error: true
+        run: |
+          ls "$PWD"/manuscript/rc2/30/*.md > "$RUNNER_TEMP/rc2-book.txt" \
+            && python3 publishing/build_book.py --book "$RUNNER_TEMP/rc2-book.txt" --no-toc --no-epub --cast \
+                 --cover lab/experiments/33-designer-cover-studies/cover-a-signed.svg --extra-css lab/tools/book/speakers.css \
+                 --name one-human-nine-agents-rc2-draft --out _site/rc2 \
+                 --stamp "One Human, Nine Agents, Nineteen Hours: RC2, the 30-page edition, DRAFT IN REVIEW" \
+            || echo "::warning::the RC2 draft did not build: the site is released without it"
       - uses: actions/configure-pages@v5
         with: { enablement: true }
       - uses: actions/upload-pages-artifact@v3

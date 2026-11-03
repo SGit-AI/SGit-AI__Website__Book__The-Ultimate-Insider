@@ -92,7 +92,7 @@ def lab_drawing(path):
 
 
 def figure_count(body):
-    return sum(1 for line in body.split("\n") if line.strip().startswith("**Figure:**"))
+    return sum(1 for line in body.split("\n") if line.strip().startswith(("**Figure:**", "**Map:**")))
 
 
 def cast_lines(body, mark=None, figure=None, figures=None):
@@ -127,8 +127,9 @@ def cast_lines(body, mark=None, figure=None, figures=None):
         if s.startswith("Band:"):
             lines += ["", "::: {.band}", s[len("Band:"):].strip(), ":::", ""]
             continue
-        if s.startswith("**Figure:**"):
-            what = re.sub(r"\s*\*\(Drawing:.*?\)\*\s*$", "", s[len("**Figure:**"):]).strip()
+        if s.startswith(("**Figure:**", "**Map:**")):  # a map is laid out as a figure (the writer's 025)
+            kind = "Map" if s.startswith("**Map:**") else "Figure"
+            what = re.sub(r"\s*\*\(Drawing:.*?\)\*\s*$", "", s[len(kind) + 5:]).strip()
             named = LAB_SVG.search(what)
             if named:
                 drawn = lab_drawing(named.group(0))
@@ -143,7 +144,7 @@ def cast_lines(body, mark=None, figure=None, figures=None):
                 caption = re.sub(r"[\[\]]", "", what)
                 lines += ["", f"![{caption}]({drawn}){{.edition-figure}}", ""]
             else:
-                lines += ["", "::: {.figure-todo}", "Figure to come: " + what, ":::", ""]
+                lines += ["", "::: {.figure-todo}", f"{kind} to come: " + what, ":::", ""]
             continue
         m = SPEAKER.match(s)
         if m and m.group(1).lower() in SPEAKERS:

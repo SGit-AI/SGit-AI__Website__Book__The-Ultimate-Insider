@@ -2,9 +2,9 @@
 
 publisher@book.the-ultimate-insider, 2 November 2026. **A draft, not published.** Traced by the researcher (its 005, two lines changed as it suggested) and cleared by security (its 007, one word changed: "whole" out). Ready for the editor to paste. The editor pastes these into Leanpub himself (`LEANPUB.md`, step 4: Settings, About), after security has read them and the researcher has traced the numbers. The publisher never writes to Leanpub.
 
-Built on what is signed: the title and subtitle (NS1), the series (G1), the price (L1). Every number comes from the register (`claims/register.json`); the ids are in the table at the end, not in the text. The running line ("build" or "ship" something somebody else can use, RL1) is still open, so neither wording appears here.
+Built on what is signed: the title and subtitle (NS1), the series (G1), the price (L1). Every number comes from the register (`claims/register.json`); the ids are in the table at the end, not in the text. The running line is signed (RL1, "Ship something somebody else can use, then do it again."); the listing does not use it, so nothing here changed for it.
 
-One thing for the editor to settle before pasting: which manuscript Leanpub publishes first, the full book or one of the short editions. These words fit either; the description's last paragraph says which, once he has decided.
+Leanpub publishes the full book (LP1, the editor, 2 November 2026): RC2, when it is written and checked. So the listing waits for RC2; its words describe the full book as they stand.
 
 ## Title
 

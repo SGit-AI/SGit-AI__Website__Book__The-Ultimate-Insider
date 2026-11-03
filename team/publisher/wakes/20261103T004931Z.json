@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake (00:47 slot)",
+ "started": "2026-11-03T00:49:31Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "RC2: 30/05 and 30/06 in the list; Map lines like Figures and counted; rc2-figures.json ch4 per designer 091, ch5 null; rebuild outside _site with the official cover; every page looked at; the four missing heads to the designer. listing.md notes only (LP1, RL1). src/pages/ not mine: security 008's word to the conductor. Letters, inbox, board 007, records; vault_check, gate; no em-dashes, RW1.",
+   "at": "2026-11-03T00:50:21Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In policy, lab/ read only; LP1 decided; no HOLD; the four SVGs hold no script, foreignObject, href, handler, @import or url(), the cover adds only the author's name. Conditions: no em-dashes, no src/pages edits, vault_check.",
+   "at": "2026-11-03T00:50:50Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Map lines as figures (counted); rc2-figures ch4 per 091, ch5 to come; 05 and 06 in the list; RC2 30-page whole, 32 pages, official cover, every page looked at; editions unchanged; listing notes LP1 and RL1 (text unchanged); security 008's page word to the conductor; letters 036, 016, 008; inbox, board 007, records; vault_check and gate clean.",
+   "at": "2026-11-03T00:52:26Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Gate clean; 0 outside scope; vault_check clean; no em-dashes, religious words, keys or contacts; nothing under rc2, lab, chapter-plan, briefs or src/pages; listing changed only in its notes.",
+   "at": "2026-11-03T00:53:24Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Every planned item in the diff; conditions kept; nothing unplanned; the rebuild and page check leave no staged file, taken from the work step.",
+   "at": "2026-11-03T00:53:24Z"
+  }
+ },
+ "closed": "2026-11-03T00:53:24Z",
+ "outcome": "ok"
+}
