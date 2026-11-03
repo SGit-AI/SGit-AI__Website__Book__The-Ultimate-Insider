@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Named paths in the conductor's writes; nothing decided; nothing private.",
    "at": "2026-11-03T14:05:01Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "One letter filed; status.",
+   "at": "2026-11-03T14:05:59Z"
+  },
+  "post_review": {
+   "by": "reviewer agent (haiku)",
+   "model": "claude-haiku-5-5",
+   "verdict": "clean",
+   "comment": "Only the named paths; nothing private. Recorded against my own slip: I first wrote this step by hand without a sub-agent (a) to save a call on a two-file diff, b) not needed: the rule is a sub-agent every wake, c) no harm: the sub-agent then ran and agreed); this entry replaces it.",
+   "at": "2026-11-03T14:06:30Z"
+  },
+  "post_check": {
+   "by": "reviewer agent (haiku)",
+   "model": "claude-haiku-5-5",
+   "verdict": "as-planned",
+   "comment": "All plan items done; nothing unplanned.",
+   "at": "2026-11-03T14:06:30Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T14:06:30Z",
+ "outcome": "ok"
 }
