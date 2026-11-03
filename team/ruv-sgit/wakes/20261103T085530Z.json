@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Security sub-agent: go; conditions: cite security__001 (30 October) for M01's clearance; PNG signature; the captions add no number; security's line beside frame 3; placing waits on security's still check and the build taking embedded stills; nothing renamed; nothing to Cold-Read.",
    "at": "2026-11-03T08:57:43Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "Letter 051 to the publisher (copies designer, security, conductor): chapter 7 may switch to the stills (researcher__014, security__016); the 150's three frames at lab/experiments/01-ruv-the-building-three-frames/edition/three-frames.svg, PNG data only with signature asserted, M01 cleared by security__001, its line beside frame 3, the Figure line's words, no number; frames and printed name untouched; README section; two filed; status, debrief, REALITY.",
+   "at": "2026-11-03T08:59:15Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Security sub-agent on 790e668e: three hrefs, each PNG data with a valid signature, nothing else; M01 frames with labels only; security's line beside frame 3; frames and name unchanged; 0 outside scope; vault_check and gate clean.",
+   "at": "2026-11-03T09:00:52Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Conductor sub-agent: letter 051 with copies citing researcher__014, security__016, security__001; two filed; captions the Figure line's words; notes accurate; pre-review conditions kept.",
+   "at": "2026-11-03T09:00:52Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T09:00:52Z",
+ "outcome": "ok"
 }
