@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Security sub-agent: go; paths in scope; 61- free; no HOLD; nothing attack-shaped, no key or contact, nothing to Cold-Read.",
    "at": "2026-11-03T02:57:01Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "lab/experiments/61-ruv-the-factory-as-a-chain: tools/map.py, map.svg (164 x 100 mm, 9 pt), placements from the chapter's brief and 00b's map 2, the agents' place said as our reading; no label crossed or out (rendered check); proposed header; letter to the publisher (copies conductor, designer); two filed; run record; status, debrief, REALITY.",
+   "at": "2026-11-03T02:59:34Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Security sub-agent on a1df83b4: 0 outside scope, vault_check and gate clean, no number on the map, no secret, contact, dash or religious word; map.py has no subprocess, network or exec; SHA256SUMS verifies.",
+   "at": "2026-11-03T03:01:00Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Conductor sub-agent: parts and positions follow the brief and map 2; the agents' place said as our reading; letter with copies; two filed; notes accurate. Minor notes kept as they are: the player is in the left half of the map though the right half of custom built (map 2: further right than the site); the agent tool and the brief sit in product, at the ordinary end as the brief says; the agents at the custom-built line's edge.",
+   "at": "2026-11-03T03:01:00Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T03:01:00Z",
+ "outcome": "ok"
 }
