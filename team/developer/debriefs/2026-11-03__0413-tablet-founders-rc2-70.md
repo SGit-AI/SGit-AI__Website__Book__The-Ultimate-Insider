@@ -1,4 +1,11 @@
-# 04:13 wake: the tablet column, two founder pages, the 70-page draft online
+---
+title: The developer's 04:13 wake: the tablet column, two founder pages, the 70-page draft online
+round: 2
+date: 2026-11-03
+commits: this wake's commits on dev
+site_version: the release after this push
+outside_scope: none (REALITY.md under its own heading, as policy.json's appends allow)
+---
 
 - **Board 011 done.** Below 900px the reading column is held to the site's measure. In Chromium at 834 wide, it measures 68ch, about 64 characters a line of real text; synthetic@ had measured 95. The gen-z-founder and gen-x-founder pages are provisional, on chapters 1 and 12, and they borrow the founder's questions, saying so. Notice developer__022 sent to synthetic@.
 - **Board 010, part.** make_editions.py now takes a list of editions. `/review/rc2-70/` has 9 chapters, 53 scenes and 311 links, and the zoom has its 70-page rung. The 3- and 10-page editions are still to come.
