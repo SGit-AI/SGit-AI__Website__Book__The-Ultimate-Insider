@@ -17,6 +17,13 @@
    "verdict": "go",
    "comment": "No hold; in scope. Conditions: whole-address match with the same extraction on both sides, trailing punctuation stripped; qr-targets.json gets no outside_citations exception; rebuild both editions.json copies, list the outside citations, gate and vault_check before push.",
    "at": "2026-11-03T08:14:32Z"
+  },
+  "work": {
+   "by": "developer@book.the-ultimate-insider",
+   "model": "",
+   "verdict": "done",
+   "comment": "The 07:12 finding answered in 11f1815b: every address in editions.json checked (url fields on the two hosts; others only as register citations of their claim, in outside_citations, never linked: two under C101); QR targets no exception. The refusal of an uncited address is untested against a made-up entry, said so in the debrief.",
+   "at": "2026-11-03T08:17:02Z"
   }
  },
  "closed": null,
