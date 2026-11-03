@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "writer",
- "as_of": "2026-11-03T09:55:00Z",
- "round": 19,
- "state": "active, hourly (ACC1): the seventy in the storyteller's new order (Start here; four-stop tour; cards; 15 folded into 16, its file removed once the publisher drops it); the full book's part 1 written; next its restructure and part 2",
+ "as_of": "2026-11-03T10:50:00Z",
+ "round": 20,
+ "state": "active, hourly (ACC1): the full book in the new order; part 1 complete with its third moment; part 2 begun (04, 05); next 06 to 08, then part 3 (outlined)",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/writer/ into team/writer/ (drafts left in place)",
@@ -100,30 +100,26 @@
   {
    "what": "the seventy's new order (seven decisions) and 11 as cards; 150/02's ask in full; the librarian's two; letters 074 to 079; six letters into done/; the review briefs' tools line in my step prompts",
    "when": "2026-11-03"
+  },
+  {
+   "what": "70/15 removed; the full book in the new order (150/03 four stops, 150/90 the tour at length); C111 in 150/01; 150/04 hour one and 150/05 hour two; letters 080 to 084",
+   "when": "2026-11-03"
   }
  ],
  "next": [
   {
-   "what": "remove 70/15 once the publisher drops it",
-   "why": "writer__074"
-  },
-  {
-   "what": "the full book: 150/03 to the back matter, part 1's chapter 3 as four stops, then part 2 (4 to 8)",
-   "why": "storyteller__088"
+   "what": "the full book's 06 to 08, then part 3 (9 to 15)",
+   "why": "issue 003"
   }
  ],
  "asks": [
   {
    "to": "editor",
-   "what": "my task was set hourly by the conductor's session at your ACC1: confirm that is as you meant"
+   "what": "the reviewer agent (TA1) does not load in this session, started before it existed: my review steps run as the Explore type with the tools line; a new session would load it, if you want it"
   },
   {
-   "to": "researcher",
-   "what": "trace the seventy's part 3 (writer__045)"
-  },
-  {
-   "to": "historian",
-   "what": "three asks on part 3 and chapter 3 (writer__046)"
+   "to": "editor",
+   "what": "my task set hourly by the conductor's session at your ACC1: confirm"
   }
  ],
  "task": {

@@ -64,7 +64,14 @@ Band: *My own words, from the transcript of the talk at 58:53 on the recording's
 `%% record: C102 C069 C100 a9c0b49 5d13d72`
 Band: *The quoted passage is my own, from the transcript of the talk at 15:50 on the recording's clock (added after the day). The change at 18:26 rests on motion's wake record and its commit at 18:29.*
 
-`%% to trace (the researcher, writer__069): a third moment from the talk as given (a9c0b49), with its time on the recording and my words, word for word, for this section.`
+**Narrator.** And a third, about twenty minutes into the talk. A picture I would have struggled to explain with a still, because what matters in it is where things move to:
+
+> "So, as you would expect, here's a Wardley map. If this is the first time you've seen one: Wardley maps are the best thing I have learned in the last decade. This is absolutely how I think. It gives me peace, it allows me to strategise, and it's probably the best systems thinking I have come across. Simon Wardley released everything under Creative Commons, and there's a good community. Fundamentally, you map the system, this needs this, which needs this, and then you map evolution: usually genesis, custom built, product and commodity."
+
+**Narrator.** You will see this kind of map again in part 2, drawn for the factory itself.
+
+`%% record: C111 (19:27 on the recording; quoted to "commodity.", the passage turning next to open source; the Creative Commons line is my account, the researcher's sources give CC BY-SA 4.0 for the wardleymaps.com page) a9c0b49`
+Band: *My own words, from the transcript of the talk at 19:27 on the recording's clock (added after the day).*
 
 ## What I would have had to say instead
 
@@ -93,4 +100,4 @@ Band: *The frames rest on the building as the talk used it; the narration beside
 
 My voice note of 1 November 2026, quoted as given. The talk as given, from its transcript, added to the record after the day. The researcher's register for the building and the policy page, and the talk's length and place. The storyteller's outline for this chapter. This chapter grows from the 70-page edition's chapter 1, its first two sections kept as written.
 
-`%% record: briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md; content/articles/the-talk-as-given.md at a9c0b49 (talk repository); claims/register.json C069 C072 C081 C100 C102 C109; chapter-plan/edition-150-outline.md part 1 chapter 1; manuscript/rc2/70/01-slides-as-a-compromise.md`
+`%% record: briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md; content/articles/the-talk-as-given.md at a9c0b49 (talk repository); claims/register.json C069 C072 C081 C100 C102 C109 C111; chapter-plan/edition-150-outline.md part 1 chapter 1; manuscript/rc2/70/01-slides-as-a-compromise.md`

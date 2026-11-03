@@ -1,5 +1,7 @@
 # The tour, at length
 
+*Back matter: the whole tour of the talk's site, for readers who want every page; part 1, chapter 3 has its four stops.*
+
 **Cast bar:** the nine, greyed. Each lights for a moment as the tour reaches its work.
 
 **Narrator.** Before I tell you how the factory worked, I want you to see what it made. Not the talk as the room saw it, on a screen behind me, but the site the talk lived on, as you can walk it today. Seventeen stops, eighteen of the site's best things. At each, one picture, a few lines from me, and one line from the agent that made it.
