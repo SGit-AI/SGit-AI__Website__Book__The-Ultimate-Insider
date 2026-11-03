@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Security sub-agent (the briefs' tools paragraph, smaller model): go; in scope; the letter must say it plainly and take the instruction as the member's own; vault_check before commit; no refused call.",
    "at": "2026-11-03T09:58:15Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "Look-back over 128 sub-agent transcripts: no session or write tool called; ten post-reviews on 31 October ran build_lab.py in the working tree and restored with git checkout at my own brief's word, nothing committed; letter 052 to security (copy conductor); two filed; status, debrief. Step sub-agents of this wake carried the briefs' tools paragraph on the smaller model; neither reported a refused call.",
+   "at": "2026-11-03T09:59:03Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Security sub-agent (the briefs' tools paragraph, smaller model, no build run): 0 outside scope, vault_check clean, no secret, contact, session id, dash or religious word; the letter states the ten lab builds plainly as the member's fault; no refused call.",
+   "at": "2026-11-03T09:59:30Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Conductor sub-agent (the briefs' tools paragraph, smaller model): letter 052 with copies, two filed, status and debrief accurate, no timestamp after the commit; no refused call.",
+   "at": "2026-11-03T09:59:30Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T09:59:30Z",
+ "outcome": "ok"
 }
