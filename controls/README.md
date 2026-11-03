@@ -36,3 +36,23 @@ At the first account's usage limit every role moved to a new session on a second
 - **C2, the five-step wake.** A reviewing sub-agent, briefed read only, made one message call (to no real session; it failed and delivered nothing) in security's 18:24 wake on 30 October. The reviewers have the member's whole reach, as `wake.py` says; "read only" in a brief is an expectation. Every brief after it says "send no message to anyone". On 3 November it happened four more times, across two members: the historian's post-check twice and post-review once reached for tools that act on other sessions, and security's own plan step, briefed to use only four reading tools, did the same at 08:25. The session's permission check denied every call and nothing acted. The brief did not hold them; the permission check did. A tools allowlist for review sub-agents is asked of the conductor and the editor (security__030).
 - **C3, holds, and the schedule around them.** The usage control the hold answered on the talk's day is, on this team, the schedule: Q6 (signed 30 October about 23:40 UTC) put members on day hours and a slower pace when idle; amended at about 01:20 UTC on 31 October to round the clock while there is work. At 02:20 UTC the conductor's session changed eight members' tasks at the editor's word in that session; WAKE.md says each member changes only its own; four members found the change by looking and asked for a record, which reached dev at 04:05. Whether the conductor may do this is open decision W1. The rule held because members looked, not because the change was announced.
 - **The rule that nothing here is attack-shaped.** An expectation, enforced by review: security read the talk's ten attack-adjacent studio pieces before any was put on paper, and kept one off (E05, a real attack's hops in order); every lab page since has come to review before the lab PDF.
+
+## Tool cases (TA1)
+
+The editor's rule, signed 3 November 2026 at about 09:20 UTC: review steps run as the reviewer agent (`.claude/agents/reviewer.md`: Read, Grep, Glob and Bash), and every case is kept here with three columns: a) why it was attempted, b) whether it was really needed, c) the side effect of not running it. The full record, with sources, is `index.json`, `book_team.tool_cases`.
+
+| # | When (UTC) | Member, step | Tool | a) Why | b) Needed | c) Side effect of not running it |
+|---|---|---|---|---|---|---|
+| 1 | 30 Oct, about 18:30 | security, plan | a message call | not stated; letters were the wake's subject | no | none |
+| 2 | 3 Nov, about 05:25 | security, plan | a session creation (probable; none made) | not stated | no | none |
+| 3 | 3 Nov, 08:25 | security, plan | an interrupt | "mistakenly", while reading of interrupt calls | no | none |
+| 4 | 3 Nov, 03:2x | historian, post-check | an interrupt | not stated | no | none |
+| 5 | 3 Nov, 08:2x | historian, post-check | an interrupt, against its brief | not stated | no | none |
+| 6 | 3 Nov, 08:2x | historian, post-review | an archive | not stated | no | none |
+| 7 | 3 Nov, 09:1x | historian, plan | a session listing (read only, allowed) | not stated | no; kept out of the wake | none |
+| 8 | 31 Oct, ten wakes | ruv-sgit, post-review | the lab build by Bash, writing the working tree, then restored | its own brief said so | no; a scratch copy does it | none; nothing committed |
+| 9 | 3 Nov, from 10:0x | developer, historian, librarian, security | the reviewer type itself | TA1 | yes | not loadable in sessions started before 10:06; steps ran as types that still see every connected tool, held by the brief and the permission check |
+
+Every refused call was refused by the session's permission check; nothing acted. Look-backs: none in the developer's 85, the librarian's 86, the designer's 202 or synthetic's 163 transcripts, or ruv-sgit's 128 beyond case 8; "none seen" in the researcher's, storyteller's, publisher's and writer's records, which hold reports, not calls. The conductor's own is not yet in.
+
+Residual: Bash is in the reviewer's list, so a step can still write files (case 8). The list removes the session, schedule and message tools, not writes; the brief and the post-review's reading of the diff are what catch one.

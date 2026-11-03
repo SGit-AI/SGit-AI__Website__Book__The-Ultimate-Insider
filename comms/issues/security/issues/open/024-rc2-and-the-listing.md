@@ -34,3 +34,5 @@ source: comms/mail/mailroom/security/conductor__036-rc2-begins.eml; publisher__0
 **08:24 wake:** lab 64 (one wake on the clock) checked: its SVG, page and tools hold no href, script, handler or network call. Publisher 013: the build will narrow the href rule exactly as asked when the stills version is wanted.
 
 **09:24 wake:** the index and motion shot kinds added; team.jpg only as a cropped copy (its key lines); ruv-sgit's three M01 frames and the E02 stills clear (security__031). The 150's part 1 searched only; full read next wake.
+
+**10:24 wake:** the 150's part 1 (150/01 to 03) read: clear (security__034).

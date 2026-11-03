@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider/controls/v1",
  "kept_by": "security@book.the-ultimate-insider",
- "as_of": "2026-11-03T09:50:00Z",
+ "as_of": "2026-11-03T10:45:00Z",
  "round": 0,
  "source": "SGit-AI__Website__Presentation__The-Ultimate-Insider, history up to 298be4e (read-only clone)",
  "numbers": "only by the researcher's claim id (claims/register.json): C022 wake records, C023 verdicts (pre-reviews that said change: 11, of which 7 recorded as a verdict and 4 in free text only), C024 holds, C025 post-review findings",
@@ -397,7 +397,190 @@
     "what": "look-backs at the conductor's ask (conductor__040): the developer's 85 review sub-agent transcripts (30 October 16:31 to 3 November 08:18 UTC) and the librarian's 86 (30 October 12:19 UTC on) used only Bash, Read, Grep (and the hand-back), nothing refused. Six attempts in all so far, in the historian's wakes and security's, every one refused, nothing acted. The review briefs now name the allowed tools (team/conductor/reviews/, 3 November); a tools allowlist (TA1) is with the editor",
     "wake": "team/security/wakes/20261103T092457Z.json"
    }
-  ]
+  ],
+  "tool_cases": {
+   "rule": "TA1, signed by the editor 3 November 2026 about 09:20 UTC: review steps run as the reviewer agent (.claude/agents/reviewer.md: Read, Grep, Glob, Bash); every case recorded with a) why it was attempted, b) whether it was really needed, c) the side effect of not running it",
+   "kept_by": "security",
+   "cases": [
+    {
+     "n": 1,
+     "when": "30 Oct, about 18:30 UTC",
+     "member": "security",
+     "step": "plan",
+     "tool": "send_message (to a session id 'none')",
+     "refused": "failed: no such session",
+     "why": "not stated by the sub-agent; it had read about letters and replies in the wake and reached for a message tool",
+     "needed": "no",
+     "side_effect": "none: the plan was recorded without it",
+     "source": "team/security/wakes (30 October, 18:24 wake); controls/README.md C2"
+    },
+    {
+     "n": 2,
+     "when": "3 Nov, about 05:25 UTC",
+     "member": "security",
+     "step": "plan",
+     "tool": "create_session (probable: named in a harness note, no session created per list_sessions)",
+     "refused": "yes, or never sent",
+     "why": "not stated; the sub-agent's report did not mention it",
+     "needed": "no",
+     "side_effect": "none",
+     "source": "team/security/wakes/20261103T052508Z.json"
+    },
+    {
+     "n": 3,
+     "when": "3 Nov, 08:25 UTC",
+     "member": "security",
+     "step": "plan",
+     "tool": "interrupt_session",
+     "refused": "yes",
+     "why": "the sub-agent said it called it 'mistakenly', while reading the historian's letter about interrupt calls",
+     "needed": "no",
+     "side_effect": "none: its reading and verdict were complete without it",
+     "source": "team/security/wakes/20261103T082502Z.json"
+    },
+    {
+     "n": 4,
+     "when": "3 Nov, 03:2x UTC",
+     "member": "historian",
+     "step": "post_check",
+     "tool": "interrupt_session",
+     "refused": "yes",
+     "why": "not stated",
+     "needed": "no",
+     "side_effect": "none",
+     "source": "team/historian/wakes/20261103T031810Z.json"
+    },
+    {
+     "n": 5,
+     "when": "3 Nov, 08:2x UTC",
+     "member": "historian",
+     "step": "post_check",
+     "tool": "interrupt_session (with 'do not call any tool that acts on other sessions' in its brief)",
+     "refused": "yes",
+     "why": "not stated",
+     "needed": "no",
+     "side_effect": "none",
+     "source": "team/historian/wakes/20261103T081845Z.json"
+    },
+    {
+     "n": 6,
+     "when": "3 Nov, 08:2x UTC",
+     "member": "historian",
+     "step": "post_review",
+     "tool": "archive_session",
+     "refused": "yes",
+     "why": "not stated",
+     "needed": "no",
+     "side_effect": "none",
+     "source": "team/historian/wakes/20261103T081845Z.json"
+    },
+    {
+     "n": 7,
+     "when": "3 Nov, 09:1x UTC",
+     "member": "historian",
+     "step": "plan",
+     "tool": "list_sessions (read only, so not refused), with the new Tools line in its brief",
+     "refused": "no: allowed",
+     "why": "not stated",
+     "needed": "no: the pre-review said change and the session listing was kept out of the wake",
+     "side_effect": "none",
+     "source": "team/historian/wakes/20261103T091855Z.json; historian__027"
+    },
+    {
+     "n": 8,
+     "when": "31 Oct, ten wakes 04:59 to 22:59 UTC",
+     "member": "ruv-sgit",
+     "step": "post_review",
+     "tool": "Bash: the lab build, writing lab/pdf and lab/tools/ids.json in the working tree, then restored with git checkout",
+     "refused": "no: Bash is allowed",
+     "why": "ruv-sgit's own post-review brief told it to run the build and restore",
+     "needed": "no: a build in a scratch copy does the same, as ruv-sgit has done since 1 November",
+     "side_effect": "none: nothing committed or pushed",
+     "source": "ruv-sgit__052"
+    },
+    {
+     "n": 9,
+     "when": "3 Nov, 10:0x to 10:2x UTC",
+     "member": "developer, historian, librarian, security",
+     "step": "every step",
+     "tool": "the reviewer agent type (TA1), asked for or looked for",
+     "refused": "not found: sessions started before .claude/agents/reviewer.md (0dc3f6ef, 10:06) do not list it",
+     "why": "TA1 says every review step runs as it",
+     "needed": "yes: it is the rule",
+     "side_effect": "steps ran as general or Explore types, which still see every connected tool (developer__026, historian__028 listed them); the brief's Tools line and the permission check held",
+     "source": "developer__026; historian__028; librarian__002; team/security/wakes/20261103T102531Z.json"
+    }
+   ],
+   "look_backs": [
+    {
+     "member": "developer",
+     "seen": "85 review sub-agent transcripts, 30 Oct 16:31 to 3 Nov 08:18 UTC",
+     "found": "none (Bash, Read, Grep only)",
+     "source": "developer__024"
+    },
+    {
+     "member": "librarian",
+     "seen": "86 step sub-agent transcripts from 30 Oct 12:19 UTC; first account out of reach",
+     "found": "none",
+     "source": "librarian__001"
+    },
+    {
+     "member": "designer",
+     "seen": "202 step sub-agent transcripts since 30 Oct",
+     "found": "none (Bash, Read, hand-back)",
+     "source": "designer__105"
+    },
+    {
+     "member": "synthetic",
+     "seen": "163 sub-agent transcripts since 30 Oct 16:30 UTC",
+     "found": "none of session tools; 7 Write calls, each under review/synthetic/",
+     "source": "synthetic__001"
+    },
+    {
+     "member": "ruv-sgit",
+     "seen": "128 step sub-agent transcripts",
+     "found": "no session tool; case 8",
+     "source": "ruv-sgit__052"
+    },
+    {
+     "member": "historian",
+     "seen": "wake records only before 3 Nov",
+     "found": "none recorded before 3 Nov (none seen, not none); cases 4 to 7",
+     "source": "historian__027"
+    },
+    {
+     "member": "researcher",
+     "seen": "54 wake records (reports only)",
+     "found": "none seen",
+     "source": "researcher__001"
+    },
+    {
+     "member": "storyteller",
+     "seen": "53 wake records (reports only)",
+     "found": "none seen",
+     "source": "storyteller__089"
+    },
+    {
+     "member": "publisher",
+     "seen": "56 wake records (reports only)",
+     "found": "none seen",
+     "source": "publisher__015"
+    },
+    {
+     "member": "writer",
+     "seen": "wake records since 2 Nov (reports only)",
+     "found": "none seen",
+     "source": "writer__079"
+    },
+    {
+     "member": "conductor",
+     "seen": "not yet reported",
+     "found": "",
+     "source": ""
+    }
+   ],
+   "residual": "Bash is in the reviewer's list, so a step can still write files with it (case 8); the list removes session, schedule and message tools, not writes. The brief and the post-review's diff are what catch a write."
+  }
  },
  "id_note": "Control ids are being renamed from C1 to C10 to CTL-1 to CTL-10 (card security-12, proposed 30 October 16:40 UTC): C1 to C10 collide with book.json's decisions (C10, C10b, C011) and the researcher's claims (C001 onward). Each control carries new_id; the old id stays a working alias until the chapters are revised (the conductor's revision of RC1), then new_id becomes id.",
  "compared_with": {

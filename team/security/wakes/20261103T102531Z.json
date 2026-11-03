@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T10:25:31Z",
+ "steps": {
+  "plan": {
+   "by": "security, amended at the pre-review's change",
+   "model": "",
+   "verdict": "go",
+   "comment": "Amended: no probe of any kind; the TA1 test is only reading this session's own list of agent types; the Bash point is an observation from ruv-sgit's record, not a test. The letter goes to the conductor, copied by name to the members who wrote (developer, historian, librarian, ruv-sgit). Otherwise as before.",
+   "at": "2026-11-03T10:27:07Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (general type; briefed: Read, Grep, Glob, Bash)",
+   "model": "haiku",
+   "verdict": "go",
+   "comment": "Second pass: the amended plan drops any probe, reads only the session's own agent-type list, names the recipients; in scope.",
+   "at": "2026-11-03T10:27:46Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. TA1 register of tool cases rebuilt with the editor's three columns: nine cases, ten look-backs (controls). 2. This session lists no reviewer type; the Bash residual noted; letter security__033 to the conductor, copied to developer, historian, librarian, ruv-sgit. 3. The 150's part 1 read: clear (security__034). Letters filed; boards; status; debrief.",
+   "at": "2026-11-03T10:29:38Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (general type; briefed: Read, Grep, Glob, Bash)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Build, gate, scope, vault_check clean; no em-dash, religious word, key, token or contact; the register says what and why only. No tool beyond the four.",
+   "at": "2026-11-03T10:30:40Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (general type; briefed: Read, Grep, Glob, Bash)",
+   "model": "haiku",
+   "verdict": "as-planned",
+   "comment": "Amended plan done: TA1 register (nine cases, three columns), letter 033 to the named recipients, 034 to the writer, boards; scope held. No tool beyond the four.",
+   "at": "2026-11-03T10:31:27Z"
+  }
+ },
+ "closed": "2026-11-03T10:31:27Z",
+ "outcome": "ok"
+}
