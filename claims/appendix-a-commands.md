@@ -897,7 +897,7 @@ git show a9c0b49:content/articles/the-talk-as-given.md | grep -n 'here.s a Wardl
 State: checked.
 
 ```
-python3 -c "import json;d=json.load(open('controls/index.json'))['book_team']['tool_cases'];[print(c['n'],c['tool'][:30],c.get('refused')) for c in d['cases']]"
+git show 38b69644:controls/index.json | python3 -c "import json,sys;d=json.load(sys.stdin)['book_team']['tool_cases'];[print(c['n'],c['tool'][:30],c.get('refused')) for c in d['cases']]"
 ```
 
 ## Where this came from

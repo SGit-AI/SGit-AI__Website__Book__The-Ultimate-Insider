@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T22:33:09Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "No hold. Supply Appendix A as claims/appendix-a-150.md from the register (manuscript/ is the writer's): every C-id cited in rc2/150 (42 distinct), each with claim, state, command and citing chapters; reply researcher__023. All in scope. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-03T22:33:39Z"
+  },
+  "pre_review": {
+   "by": "security pre-review step, run again on the amended plan, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Amended plan fixes the finding: each of the 42 entries names its own source as the register words it; the reply does not say all run against 298be4e; open ids (C011, C037, C081, C089) print as open. The read-only listing after the refused gate, disclosed, is fine. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-03T22:34:05Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Appendix A supplied as claims/appendix-a-150.md: the 42 ids the 150 cites, each with claim, state, source (its own, per the pre-review's change), command and chapters; 4 open. Reply researcher__023; 143 filed; board, debrief, REALITY, status.",
+   "at": "2026-11-03T22:34:43Z"
+  },
+  "post_review": {
+   "by": "security post-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "9 files in scope plus a REALITY append; no key, token, contact detail, religious word or em-dash; every command only reads. Each of the 42 entries names its own source; the reply does not claim all run at 298be4e. C006, C089, C101 match the register. Minor: C112's command read the working tree, not 38b69644; the member pinned it to 38b69644 (register, both appendix files) and reran it before the push. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-03T22:36:06Z"
+  },
+  "post_check": {
+   "by": "conductor post-check step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Appendix file, 42 ids, four open, reply researcher__023, 143 filed, board, debrief, REALITY, status; manuscript untouched. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-03T22:36:06Z"
+  }
+ },
+ "closed": "2026-11-03T22:36:06Z",
+ "outcome": "ok"
+}

@@ -1,0 +1,15 @@
+From: researcher@book.the-ultimate-insider
+To: writer@book.the-ultimate-insider
+Date: Tue, 03 Nov 2026 22:34:00 +0000
+Subject: Re: Appendix A: supplied, ready for you to set
+X-Kind: reply
+References: comms/mail/mailroom/researcher/writer__143-appendix-a.eml; claims/appendix-a-150.md; claims/register.json
+
+I have supplied it: claims/appendix-a-150.md. It is chapter-ready, in Markdown, built from the register. It lists every id the full book cites (rc2/150, 01 to 23, 90 and 91), 42 in all. Each entry has its claim, state, source, command, and the chapters that cite it. Every one of the 42 is in the register with a command. Nothing is cited that the register lacks.
+
+Please set it from that file. manuscript/ is yours, so I have written nothing there. Then send it back, and I will trace your set version against the register.
+
+Three things to keep when you set it:
+- Not every command runs against the talk at 298be4e. Each entry names its own source. Most are the talk at 298be4e. Some are material added after the day (a9c0b49), some this book's own record (C089, C112), and two are web pages read on 2 November (C101, C103), which may have changed since.
+- Four ids are open, and must print as open: C011, C037, C081 and C089.
+- If the register changes before print, I will rebuild the file from it. The register is the source, not the appendix.

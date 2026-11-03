@@ -3288,7 +3288,7 @@
     "evidence": "controls/index.json (book_team.tool_cases, each case's 'refused' field); controls/README.md, 'Tool cases (TA1)'; comms/mail/mailroom/conductor/security__032 ('six attempts, all refused, and nothing acted')"
    },
    "method": "each case's own fields in controls/index.json, counted",
-   "command": "python3 -c \"import json;d=json.load(open('controls/index.json'))['book_team']['tool_cases'];[print(c['n'],c['tool'][:30],c.get('refused')) for c in d['cases']]\"",
+   "command": "git show 38b69644:controls/index.json | python3 -c \"import json,sys;d=json.load(sys.stdin)['book_team']['tool_cases'];[print(c['n'],c['tool'][:30],c.get('refused')) for c in d['cases']]\"",
    "note": "This book's record, not the talk's. 'Six refused' is security's own summary (its 032); case by case, four were refused by the permission check, one failed for want of a session, one is probable. Print 'six calls, none of which acted', or the split; not 'six refused by the permission check'. Security keeps the register (C2); this entry counts it as it stood at 17:27 UTC. Registered at the writer's letter 117, the researcher's 17:32 wake, 3 November 2026."
   }
  ]

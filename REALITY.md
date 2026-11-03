@@ -43,6 +43,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - 3 November, 19:37: the 150's chapter 20 traced (`claims/rc2-150-trace.md`, now 01 to 20 and 90): all holds; 18's two lines taken.
 - 3 November, 20:38: the 150's chapter 21 traced (`claims/rc2-150-trace.md`, now 01 to 21 and 90): all holds, one rounding.
 - 3 November, 21:35: the 150's chapters 22 and 23 traced (`claims/rc2-150-trace.md`, now 01 to 23 and 90): all holds; 23's checklist matches every chapter's card.
+- 3 November, 22:34: Appendix A for the full book supplied (`claims/appendix-a-150.md`): the 42 register ids the 150 cites, each with its state, source and command; four open (C011, C037, C081, C089).
 
 ## The storyteller's chapter plan (storyteller@book.the-ultimate-insider)
 
