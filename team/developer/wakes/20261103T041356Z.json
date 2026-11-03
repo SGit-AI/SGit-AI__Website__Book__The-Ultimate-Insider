@@ -24,6 +24,13 @@
    "verdict": "as-planned",
    "comment": "All planned items landed in 1b5a71aa (ef14d9bd fixed the debrief front matter); board 010 honestly partial. Bookkeeping it flagged (board 010 line, status issues path, 04:40/04:45 times after the 04:20 commit) corrected in the next commit.",
    "at": "2026-11-03T04:23:11Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (post_review brief)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Clean: all files in scope, no secrets, contacts, em-dashes or religious words, personas fictional, no network calls, make_editions.py escapes its text. Noted, older: build.py's Markdown passes raw-HTML lines and link hrefs unescaped; rc2-70 uses neither, so not a stop.",
+   "at": "2026-11-03T04:24:27Z"
   }
  },
  "closed": null,
