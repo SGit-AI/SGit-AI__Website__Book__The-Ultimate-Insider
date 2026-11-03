@@ -35,6 +35,10 @@
   wrote it and the files it added, read with git at 298be4e (no times printed).
 - ch8-check-card.svg and ch8-two-companions.svg: chapter 8's two cards, their words parsed from the Figure lines
   themselves at build: what the check looked at that first night, and the brief's two companions.
+- ch8-plumbing.svg: the plumbing as a building's services: four pipes into the factory floor, each labelled with what
+  it carries, the words from the chapter's figure brief (checked there at build).
+- ch8-release-row.svg: one row of the release history, drawn: the day's last release (C005), the commits in it (read
+  with git as those after the release before), the files they changed (names only), the page they make.
 No number is printed but the hold's time, ids, C029's and C087's counts and the chapters' own times. One SVG unit a millimetre, sizes stated, text 9 pt.
 """
 import json, re, subprocess, sys
@@ -450,6 +454,76 @@ def two_companions():
     return mc.svg(164, round(H + 6.8, 1), "".join(out), "A card: the brief's two companions, the reality file and the corrections file")
 
 
+PIPES = [("the site", "the work"), ("the check", "the yes or no"), ("the register", "the source"), ("the brief", "what was asked and what is real")]
+
+
+def plumbing():
+    text = (R70 / "08-the-plumbing.md").read_text()
+    brief = next(l for l in text.splitlines() if l.startswith("`%% figure brief: For the designer. Four pipes"))
+    if "the work, the yes or no, the source, what was asked and what is real" not in brief or not all(n in ch8_line("the plumbing") for n, _ in PIPES):
+        sys.exit("make_pictures: chapter 8's plumbing line or its brief is not as the drawing expects")
+    out = [mc.path("M4 14 L82 3 L160 14", "none", mc.INK, .5), mc.line(4, 14, 160, 14, mc.INK, .5)]
+    import textwrap
+    for i, (name, carries) in enumerate(PIPES):
+        x = 14 + i * 38
+        out.append(f'<rect x="{x}" y="14" width="6" height="40" fill="{mc.FILL}" stroke="{mc.INK}" stroke-width=".45"/>'
+                   + f'<rect x="{x - 1.4}" y="14" width="8.8" height="2.6" rx=".6" fill="{mc.ACCENT}"/>'
+                   + t(x + 9, 22, name, 800))
+        for j, r in enumerate(textwrap.wrap(carries, 16)):
+            out.append(t(x + 9, 27 + j * 4.1, r, 400, mc.MUTED))
+        out.append(f'<path d="M{x + 3} 50 v6" stroke="{mc.ACCENT}" stroke-width=".8" marker-end="url(#pl)"/>')
+    out.append(f'<rect x="4" y="60" width="156" height="14" rx="1" fill="{mc.FILL}" stroke="{mc.INK}" stroke-width=".5"/>')
+    for k, m in enumerate(mc.CAST):
+        out.append(g(mc.head(m), 40 + k * 10, 60.4, .34))
+    out.append(t(7, 68.6, "the factory floor", 700))
+    defs = f'<defs><marker id="pl" viewBox="0 0 6 6" refX="5" refY="3" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0 L6 3 L0 6 z" fill="{mc.ACCENT}"/></marker></defs>'
+    out.append(t(0, 79, "four services into the floor, each labelled with the one thing it carries (chapter 8's figure brief)", 400, mc.MUTED))
+    return mc.svg(164, 81, defs + "".join(out), "The plumbing as a building's services: the site, the check, the register and the brief, four pipes into the factory floor")
+
+
+def release_row(clone):
+    v = REG["C005"]["value"]
+    m = re.search(r"last release (v[\d.]+) at [\d:]+ \((\w+)\)", v)
+    if REG["C005"]["state"] != "checked" or not m:
+        sys.exit("make_pictures: C005 does not give the last release as expected")
+    version, release = m.groups()
+    before = subprocess.run(["git", "-C", clone, "log", "--format=%h %s", f"{release}~1", "-60"], capture_output=True, text=True, check=True).stdout
+    prev = next(l.split()[0] for l in before.splitlines() if l.split(" ", 1)[1].startswith("site v"))
+    commits = [l.split(" ", 1) for l in subprocess.run(["git", "-C", clone, "log", "--no-merges", "--format=%h %s", f"{prev}..{release}"],
+                                                       capture_output=True, text=True, check=True).stdout.splitlines()
+               if not l.split(" ", 1)[1].startswith("site v")]
+    files = sorted({f for h, _ in commits for f in subprocess.run(["git", "-C", clone, "show", "--name-only", "--format=", h],
+                                                                  capture_output=True, text=True, check=True).stdout.split()})
+    folders = sorted({"/".join(f.split("/")[:2]) + "/" for f in files if f.startswith("team/")})
+    if not commits or not files:
+        sys.exit("make_pictures: the last release carries no commit")
+    shown = [f.split("/", 2)[2] for f in files if not f.endswith(".jpg")]
+    out = [f'<rect x=".3" y=".3" width="163.4" height="{{H}}" rx="2" fill="#fff" stroke="{mc.INK}" stroke-width=".5"/>',
+           f'<rect x=".3" y=".3" width="163.4" height="7" rx="2" fill="{mc.FILL}"/>',
+           "".join(f'<circle cx="{4 + k * 3}" cy="3.8" r=".9" fill="{mc.FILL2}"/>' for k in range(3)),
+           t(14, 5.1, "the release history, drawn: one row", 700, mc.MUTED)]
+    cols = [(4, "release"), (30, "its commits"), (76, "the files changed"), (130, "the page they make")]
+    for x, head in cols:
+        out.append(t(x, 13.6, head, 700, mc.MUTED))
+    out.append(mc.line(3, 15.6, 161, 15.6, mc.FILL2, .4))
+    out.append(t(4, 21, version, 800, mc.ACCENT) + t(4, 25.2, release, 400, mc.MUTED))
+    y = 21.0
+    for h, subj in commits:
+        out.append(t(30, y, h, 800) + t(30, y + 4.2, subj.split(":")[0], 400, mc.MUTED))
+        y += 9
+    fy = 21.0
+    for f in shown:
+        out.append(t(76, fy, f if len(f) < 28 else f[:25] + "...", 400)); fy += 4.1
+    if any(f.endswith(".jpg") for f in files):
+        out.append(t(76, fy, "and its images", 400, mc.MUTED)); fy += 4.1
+    for k, fo in enumerate(folders):
+        out.append(t(130, 21 + k * 8.4, fo, 800) + t(130, 25.2 + k * 8.4, "a member's page", 400, mc.MUTED))
+    H = max(y, fy) + 2
+    out[0] = out[0].replace("{H}", f"{H:.1f}")
+    out.append(t(0, H + 4.6, f"the day's last release (C005); its commits and files read with git at 298be4e; drawn, never shot", 400, mc.MUTED))
+    return mc.svg(164, round(H + 6.2, 1), "".join(out), "One row of the release history, drawn: the day's last release, its commit, the files it changed, the page they make")
+
+
 FLOORS = [("the talk", ("src/static/talk/",)),
           ("the workshop of animations", ("src/static/ruv-sgit/", "src/pages/ruv-sgit/", "src/static/motion/", "src/pages/motion/")),
           ("the studio", ("src/pages/studio/", "src/static/studio/", "src/static/studio-ports/", "src/pages/studio-ports/")),
@@ -585,7 +659,8 @@ if __name__ == "__main__":
              "ch2-wakes-page.svg": wakes_page(clone), "ch2-member-page.svg": member_page(clone),
              "ch7-wakes-card.svg": wakes_card(), "ch3-team-pattern.svg": team_pattern(), "ch3-first-rules.svg": first_rules(), "ch11-five-misses.svg": five_misses(),
              "ch3-first-two-hours.svg": first_two_hours(clone),
-             "ch8-check-card.svg": check_card(), "ch8-two-companions.svg": two_companions()}
+             "ch8-check-card.svg": check_card(), "ch8-two-companions.svg": two_companions(),
+             "ch8-plumbing.svg": plumbing(), "ch8-release-row.svg": release_row(clone)}
     if (R70 / "15-principles.md").exists():
         files["ch15-six-principles.svg"] = six_principles()
     else:  # chapter 15 was folded into 16 and removed: the drawing stays as last built from it, not rebuilt
