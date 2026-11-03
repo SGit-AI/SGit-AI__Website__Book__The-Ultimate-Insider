@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, 03:42 London",
+ "started": "2026-11-03T03:42:35Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Take publisher__005. RC2 has new pictures (chapter 5's drawings, the chain map, page 7's crop, the clock): rebuild in the scratchpad and check the open items page by page, my own check; recheck-2.md on the personas index; a short reply, designer and conductor on Cc; status, debrief, issue 008.",
+   "at": "2026-11-03T03:42:57Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Writes in scope; build to the scratchpad, publishing/ and lab/ untouched; vault_check before commit; push to dev only.",
+   "at": "2026-11-03T03:42:57Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
