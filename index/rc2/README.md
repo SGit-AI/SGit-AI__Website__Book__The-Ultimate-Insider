@@ -86,7 +86,26 @@ Checked 3 November 2026, about 02:16 UTC: chapters 1 to 5; chapters 6 to 9 at ab
 
 Not quotes from the record: the shop owner's page of rules and brief (03:93, 16:19, 16:21) are examples. Every speaker above is the one the record gives.
 
+## The 150-page edition
+
+Checked 3 November 2026, about 09:25 UTC: part 1, chapters 1 to 3 (`manuscript/rc2/150/`, landed at `e316897b`). Sources clean (the transcript's "added after the day" flag at 01:96 is said in the chapter's list). Quotes and record notes shared with the seventy were checked there and are unchanged; the new ones are below. Two `%% to trace` placeholders (01, 02) wait on the researcher and the historian.
+
+| Chapter, line | Quote (opening words) | Speaker | Where it is | Holds |
+|---|---|---|---|---|
+| 01:15, 01:41, 01:47 | as in the seventy's 01:13, 01:35, 01:45 | the editor | the voice note; the transcript, `a9c0b49` (added after the day) | as there |
+| 02:9 | "Creators need an immediate connection to what they create. ..." | Bret Victor, 2012 | the register, C103 | as there |
+| 03:106 | "the scenario" | the talk's home page | the talk's `src/pages/index.html` line 22 at `298be4e` | word for word |
+| 03:112 (note) | "the home page says the perfect storm" | dev, its commit subject | `5a91607`, 16:06 | word for word |
+| 03:117 | "Three known problems. One perfect storm." | the opening slide | the talk's `src/static/talk/slides/three/index.html` line 23 (the second sentence in italics there) | word for word |
+| 03:128 | "A reasoning engine in a loop, with tools" | the loop slide | the talk's `src/static/talk/slides/loop/index.html` (title); `talk.json` | word for word |
+| 03:150 | "Meet the team" | motion's piece | the talk's `src/pages/motion/meet-the-team/index.html` | word for word |
+| 03:161 | all ten by 17:40; eight of ten at the end | the abp-review page; the files | C081 (the page, `bd3cdad`, 17:47), C072 (`team/*/policy.json` at `298be4e`) | as the register holds |
+
+Dramatised lines checked for whose work they rest on: the night log is the conductor's (`794008c`, 03:27); the review page's port is studio's (`bd3cdad`, 17:47); the night's brief is the conductor's (`648feee`, 03:10). One rests on another member's file: dev's line on version numbers (03:198) cites deck's `ROLE.md`; the rule is the whole team's (`CLAUDE.md` line 17, "Never write `./version`"). Letter `librarian__010` to the writer.
+
 ## The writer's readings, for the editor to keep or drop
+
+**Corrected 3 November 2026, about 09:30 UTC:** until this wake the list took only the notes that stand on a line of their own, and missed four set inside a paragraph (70/02:67, 70/02:97, 70/06:68, 70/11:5). The list now takes every note wherever it stands: thirty in the thirty and the seventy (not twenty-six), seven in the 150's part 1, thirty-seven in all.
 
 Where a sentence in the editor's voice is the writer's reading of his view rather than something he said or wrote, the writer marks it in a `%%` note (not printed). Until he keeps one, it is not his words. Gathered here so he can decide them in one sitting (as of 3 November 2026, about 06:14 UTC: 24 in the thirty and the seventy):
 
@@ -103,12 +122,16 @@ Where a sentence in the editor's voice is the writer's reading of his view rathe
 | `30/05-the-factory-rebuilt-and-yours.md:130` | the "What to do / What to check" lines under each step are the writer's, worked from the steps as the editions give them; his to keep or change. |
 | `70/01-slides-as-a-compromise.md:19` | the five sentences from "It sounds small." to "Those were exactly the ideas I wanted to get across." are the writer's reading of his view, beyond the voice note; not yet his words until he keeps them. |
 | `70/01-slides-as-a-compromise.md:100` | "With slides, I made that trip alone, and usually once." is the writer's reading of his view; his to keep or drop. |
+| `70/02-the-tour.md:67` | "Nobody tidied it." is the writer's reading; his to keep or drop. |
 | `70/02-the-tour.md:80` | "This is the page I would show anyone who doubts" is the writer's reading of his view; his to keep or drop. |
+| `70/02-the-tour.md:97` | "What I like about it" is the writer's reading; his to keep or drop. |
 | `70/03-one-account-one-project-one-conductor.md:107` | the shop owner's page in full is the writer's, grown from the editions' example; his to keep or change. |
 | `70/06-talking-through-git.md:30` | "the part I did not expect" is the writer's reading; his to keep or drop. |
+| `70/06-talking-through-git.md:68` | "the one I would copy first" is the writer's reading; his to keep or drop. |
 | `70/08-the-plumbing.md:5` | "Nobody puts the plumbing in the brochure." and "It was the most important one." are the writer's; his to keep or drop. |
 | `70/08-the-plumbing.md:70` | "I would keep the file, and give one member the job of writing in it." and the sentence after it are the writer's reading of his view; his to keep or drop. |
 | `70/10-the-last-ten-minutes.md:31` | "I want to be fair to the conductor" and the sentence on lanes are the writer's reading of his view; his to keep or drop. |
+| `70/11-what-did-not-work.md:5` | "I want it at full size ... a brochure." is the writer's reading of his view; his to keep or drop. |
 | `70/11-what-did-not-work.md:17` | the last two sentences of this paragraph ("What they share ... show.") are the writer's reading across his three accounts; his to keep or drop. |
 | `70/12-how-do-we-contain-this.md:58` | "If you take one thing ..." and the sentence after it are the writer's reading of his view; his to keep or drop. |
 | `70/12-how-do-we-contain-this.md:76` | "It is also, quite exactly, the situation my talk was warning about." and "The difference between this factory and a dangerous one is not the brakes. It is that nothing pushed on them." are the writer's reading of the talk's argument; his to keep, change or drop. |
@@ -118,6 +141,13 @@ Where a sentence in the editor's voice is the writer's reading of his view rathe
 | `70/14-the-second-factory-and-the-third.md:79` | the three paragraphs on how the shared brief, board and hold would work day to day are the writer's reading of his plan, from his description of 1 November and the hold's rule; his to keep, change or drop. |
 | `70/14-the-second-factory-and-the-third.md:92` | this section is the writer's working-out of his plan for a team of several, from the editions' team box and the hold's rule; his to keep, change or drop. |
 | `70/16-build-your-own.md:36` | the "What to do / What to check" lines under each step are the writer's, worked from the steps as the editions give them; his to keep or change. |
+| `150/01-slides-as-a-compromise.md:19` | the five sentences from "It sounds small." to "Those were exactly the ideas I wanted to get across." are the writer's reading of his view, beyond the voice note; not yet his words until he keeps them. |
+| `150/01-slides-as-a-compromise.md:81` | the narration paragraph is the writer's paraphrase of what the slide would have needed, built from your own words at 15:50 (C102); his to keep, change or drop. |
+| `150/02-inventing-on-principle.md:17` | "With slides, I made that trip alone, and usually once." is the writer's reading of his view; his to keep or drop. |
+| `150/02-inventing-on-principle.md:77` | "Why a day?" and its answer are the writer's reading of the factory as you described it on 1 November (PS1); his to keep or drop. |
+| `150/03-the-tour-at-length.md:67` | "Nobody tidied it." is the writer's reading; his to keep or drop. |
+| `150/03-the-tour-at-length.md:80` | "This is the page I would show anyone who doubts" is the writer's reading of his view; his to keep or drop. |
+| `150/03-the-tour-at-length.md:97` | "What I like about it" is the writer's reading; his to keep or drop. |
 
 ## How to keep this current
 

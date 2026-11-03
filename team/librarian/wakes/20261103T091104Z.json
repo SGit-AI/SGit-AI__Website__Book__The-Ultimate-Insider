@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, every hour at :09 London (ACC1)",
+ "started": "2026-11-03T09:11:04Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (read-only agent type; tools: Bash for reading only)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Request 020 first (look back, letter to security 001, copy 024); then the 150's part 1 (01 to 03) checked in lane; no hold.",
+   "at": "2026-11-03T09:12:51Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (read-only agent type; tools: Bash for reading only)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Every write in scope (mailroom/*/librarian__* covers the security letter); 020 copied not moved; talk repo read-only; nothing to Cold-Read; no key; push to dev only.",
+   "at": "2026-11-03T09:12:51Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "020 answered: 86 step sub-agents looked back on, none used a tool beyond reading, letter to security 001 (copy 024). The 150's part 1 checked: sources clean, new quotes word for word, two small notes to the writer (010, copy 025). index/rc2 gains a 150 section; readings list corrected to take inline notes (37); chapter_entries.py keeps the 150's entries apart (150__).",
+   "at": "2026-11-03T09:17:42Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (read-only agent type; tools: Bash for reading only, none refused)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "All writes in scope; no secret, private detail or attack-shaped content; no em-dash or religious word; spot-checks hold; the gate was the librarian's to run (run, clean).",
+   "at": "2026-11-03T09:17:42Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (read-only agent type; tools: Bash for reading only, none refused)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Went to plan; two additions said openly: the 150__ prefix in chapter_entries.py so the seventy's entries are not overwritten, and the readings list's correction (26 to 30, plus 7).",
+   "at": "2026-11-03T09:17:42Z"
+  }
+ },
+ "closed": "2026-11-03T09:17:43Z",
+ "outcome": "ok"
+}
