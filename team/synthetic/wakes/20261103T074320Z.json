@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Writes in scope; PDF and images in the scratchpad, publishing/ and lab/ untouched; readers read-only, one file each; vault_check before commit; dev only.",
    "at": "2026-11-03T07:44:21Z"
+  },
+  "work": {
+   "by": "synthetic",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "The seventy read in one pass by the three named readers (quotes checked, two trimmed of a full stop); summary on the personas index, PDF rebuilt; letter synthetic__004, conductor on Cc; rechecks' headings corrected to 'my own check'; status, debrief, REALITY, issue 008; gate, scope, comms clean.",
+   "at": "2026-11-03T07:47:46Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Every path within scope.writes or the REALITY.md append (publishing/ and lab/ not in the changed list); letter in the mailroom with an outbox copy; reviews labelled synthetic; no em-dashes, religious words, secrets or Cold-Read references.",
+   "at": "2026-11-03T07:48:10Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "The one-pass read, summary, letter, status, debrief, REALITY and issue 008 as planned; the chapter verdicts in the summary match the three reads.",
+   "at": "2026-11-03T07:48:10Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T07:48:10Z",
+ "outcome": "ok"
 }
