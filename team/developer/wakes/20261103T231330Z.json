@@ -3,7 +3,22 @@
  "agent": "developer",
  "kind": "scheduled, hourly at :12 (ACC1)",
  "started": "2026-11-03T23:13:30Z",
- "steps": {},
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (plan brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused; wrote no file",
+   "model": "",
+   "verdict": "go",
+   "comment": "Upkeep: 'the making of this book' added to the full book (97052b8a, e1c84807); rerun make_editions, print_pages, make_editions; confirm every paragraph mapped, guards pass, and inline editor's notes dropped (as publishing/edition.py now does); gate, push, status, debrief. Nothing else waiting.",
+   "at": "2026-11-03T23:14:18Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (pre_review brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused; wrote no file",
+   "model": "",
+   "verdict": "go",
+   "comment": "No hold; the writer's recent commits have no outside addresses or bare %% lines. Conditions: no tool changes; manuscript/ untouched; writes only to the output paths and team/developer; gate before push to dev; stop if a guard exits.",
+   "at": "2026-11-03T23:14:19Z"
+  }
+ },
  "closed": null,
  "outcome": null
 }
