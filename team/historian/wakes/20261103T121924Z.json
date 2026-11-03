@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T12:19:24Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Plan: confirm 030's corrections (150/04, 05; 70/03, 04); times pass on 150/07, 08; 150/06 interviews against timeline/interviews; letter 031 as reply to writer 088. Writes in scope; no HOLD. Cut item 2 before overrunning. Tools: reading list only.",
+   "at": "2026-11-03T12:20:05Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Writes in scope; manuscript and talk clone read only; nothing to Cold-Read; no HOLD. Conditions: vault_check comms; no keys/ids/model names/em-dashes/religious words. Tools: reading list only (deferred connector names visible, none callable).",
+   "at": "2026-11-03T12:20:22Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "",
+   "verdict": "done",
+   "comment": "030's corrections confirmed. Times pass on 150/07 (two notes) and 150/08 (hour four five of six on slot, not every member; 03:05 finding stamped 03:17; two notes). 150/06: one time, and the interviews' label asked to read 'shortened from'. Letter 031; 088 filed; debrief; status.",
+   "at": "2026-11-03T12:22:51Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "7 paths in scope; no keys, ids, contact details, model names, em-dashes or religious words; redaction cases by commit and time only; 088 filed by copy, mailroom untouched. Tools: reading list only.",
+   "at": "2026-11-03T12:24:28Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "All three items in 7 paths, nothing extra. Noted: '12:17 wake' is the slot's name (opened 12:19); the letter's and status's 12:45 stamps checked against the clock at commit. Tools: reading list only.",
+   "at": "2026-11-03T12:24:43Z"
+  }
+ },
+ "closed": "2026-11-03T12:24:43Z",
+ "outcome": "ok"
+}
