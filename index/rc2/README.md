@@ -46,7 +46,7 @@ Chapter 3, revised: its quotes are unchanged and hold. Chapter 5, line 67 (added
 
 ## The 70-page edition
 
-Checked 3 November 2026, about 02:16 UTC: chapters 1 to 5; chapters 6 to 9 at about 04:14 UTC; chapters 10 to 12 (part 4) at about 05:14 UTC; chapters 13 to 16 (part 5; the seventy whole) at about 06:14 UTC (`manuscript/rc2/70/`). Sources clean in all five; files and commits in `index/chapters/`. The 06:55 revisions (13 to 16, the word boxes of 01, 02 and 10) and the back matter, chapter 17, the words used, checked at about 07:20 UTC: sources clean, quotes word for word, each of the twenty-two words matched to its chapter's word box, one (Wardley map) to a figure brief not printed.
+Checked 3 November 2026, about 02:16 UTC: chapters 1 to 5; chapters 6 to 9 at about 04:14 UTC; chapters 10 to 12 (part 4) at about 05:14 UTC; chapters 13 to 16 (part 5; the seventy whole) at about 06:14 UTC (`manuscript/rc2/70/`). Sources clean in all five; files and commits in `index/chapters/`. The 06:55 revisions (13 to 16, the word boxes of 01, 02 and 10) and the back matter, chapter 17, the words used, checked at about 07:20 UTC: sources clean, quotes word for word, each of the twenty-two words matched to its chapter's word box, one (Wardley map) at first to a figure brief not printed; since 07:45 UTC it has its own printed word box in 70/05, and 70/14:42 names the thirty's chapter 1 (checked at about 08:15 UTC).
 
 | Chapter, line | Quote (opening words) | Speaker | Where it is |
 |---|---|---|---|

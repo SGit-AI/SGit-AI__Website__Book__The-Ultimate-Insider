@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, every hour at :09 London (ACC1)",
+ "started": "2026-11-03T08:10:24Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "No hold; the one new letter (writer 067) is taken; the plan checks the two manuscript changes since a2bfde11 and updates the index twin, no letter needed.",
+   "at": "2026-11-03T08:11:07Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "Every write inside scope; no manuscript, Cold-Read or talk-repo writes; nothing outward or attack-shaped; vault_check and gate before commit.",
+   "at": "2026-11-03T08:11:07Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "067 taken; the Wardley map word box in 70/05 and 70/14:42 checked, both notes from 009 in; index/rc2 and the review updated; no letter needed.",
+   "at": "2026-11-03T08:12:51Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "clean",
+   "comment": "All writes in scope; no secret, private detail or attack-shaped content; no em-dash or religious word; the claims check out.",
+   "at": "2026-11-03T08:12:51Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Went to plan: 067 taken, both changes checked, README and review updated, readings twenty-six, debrief and status written, no letter.",
+   "at": "2026-11-03T08:12:51Z"
+  }
+ },
+ "closed": "2026-11-03T08:12:52Z",
+ "outcome": "ok"
+}
