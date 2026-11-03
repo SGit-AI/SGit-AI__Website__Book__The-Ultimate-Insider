@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T22:24:59Z",
+ "steps": {
+  "plan": {
+   "by": "security, amended a second time",
+   "model": "",
+   "verdict": "go",
+   "comment": "Amended again: controls/appendix-b.md only, a proposed draft outside manuscript/ and src/. In the book's form each control is told by its kind, what it stopped and what it missed, the miss as an outcome only (caught late, caught by people, not consistent) with its claim id; no limit is described by its mechanism. 150/91 checked for untraced numbers. Board; status; debrief; letter to the writer.",
+   "at": "2026-11-03T22:26:48Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent, as the reviewer agent (tools seen: Read, Grep, Glob, Bash, hand-back); third pass",
+   "model": "haiku",
+   "verdict": "go",
+   "comment": "The plan names no limit or mechanism; outcome-only misses; in controls/** scope; letters via security's mail paths.",
+   "at": "2026-11-03T22:27:19Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. controls/appendix-b.md drafted: outcomes only, counts by claim id, two untraced counts dropped. 2. 150/91 and the four hour cards: clear. 3. Letter security__044 to the writer; board; status; debrief.",
+   "at": "2026-11-03T22:28:38Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
