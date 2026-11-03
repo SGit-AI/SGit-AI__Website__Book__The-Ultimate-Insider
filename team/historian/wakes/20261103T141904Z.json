@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T14:19:04Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Plan: spot-check 032's corrections (150/09, 10); times pass on 150/11 and 12 incl. the band citing my reading of 14:03; letter 033 as reply to 099, clock-dated. Writes in scope; no HOLD; pull before push. Tools: reading list only.",
+   "at": "2026-11-03T14:19:36Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Writes in scope; talk clone read only; no HOLD; nothing to Cold-Read. Condition: file 099 by copy, mailroom untouched; pull before push. Tools: reading list only.",
+   "at": "2026-11-03T14:19:55Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "",
+   "verdict": "done",
+   "comment": "032's corrections confirmed; all bracketed times in 150/09 to 12 match. 150/11 holds. 150/12: four editor sessions in hour 14, not three (the storyteller's join), per the 13 wake records and C087's 7. Letter 033 (clock-dated); 099 filed; debrief; status.",
+   "at": "2026-11-03T14:20:55Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "7 paths in scope; 099 filed by identical copy, mailroom untouched; no keys, ids, model names, em-dashes, religious words; dates before the clock. Tools: reading list only.",
+   "at": "2026-11-03T14:22:37Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "All planned pieces staged, nothing extra; counts agree (3+1+2+1 = 7, C087); dates before the clock. Tools: reading list only.",
+   "at": "2026-11-03T14:23:00Z"
+  }
+ },
+ "closed": "2026-11-03T14:23:00Z",
+ "outcome": "ok"
+}

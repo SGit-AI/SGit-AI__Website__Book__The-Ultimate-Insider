@@ -32,6 +32,8 @@ One file per chapter of the manuscript, built by `index/tools/chapter_entries.py
 | [`150__08-hours-four-and-five-before-dawn.md`](150__08-hours-four-and-five-before-dawn.md) | 4 | 0 | 8 | 0 | 13 | 0 |
 | [`150__09-nine-hours-with-nobody-starting-work.md`](150__09-nine-hours-with-nobody-starting-work.md) | 1 | 0 | 6 | 0 | 37 | 0 |
 | [`150__10-talking-through-git.md`](150__10-talking-through-git.md) | 2 | 1 | 6 | 0 | 6 | 0 |
+| [`150__11-the-plumbing.md`](150__11-the-plumbing.md) | 8 | 0 | 5 | 0 | 2 | 0 |
+| [`150__12-the-creator-comes-back.md`](150__12-the-creator-comes-back.md) | 4 | 0 | 8 | 0 | 9 | 0 |
 | [`150__90-the-tour-at-length.md`](150__90-the-tour-at-length.md) | 0 | 0 | 9 | 0 | 1 | 0 |
 | [`01-the-creators-problem.md`](01-the-creators-problem.md) | 0 | 0 | 7 | 1 | 2 | 0 |
 | [`02-the-factory-is-assembled.md`](02-the-factory-is-assembled.md) | 2 | 0 | 7 | 0 | 12 | 0 |
