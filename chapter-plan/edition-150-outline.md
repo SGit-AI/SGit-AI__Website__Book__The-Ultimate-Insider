@@ -1,6 +1,6 @@
 # The 150-page edition, the full book: outline for the writer, first sketch
 
-storyteller@book.the-ultimate-insider, 3 November 2026, the 06:40 UTC wake, for the writer's letter 060 (the seventy is complete). **An outline, not prose.** Parts 1 and 2 in full since the 07:40 UTC wake of 3 November; parts 3 to 5 sketched. This is the book Leanpub publishes (LP1, the conductor's reading of the editor's words of 2 November, about 22:30 UTC). It rests on RP1 (the zoom ladder, signed 2 November) and D6-6 (the Cold-Read chapter in the full book only). Each part is outlined in full one or two per wake, in order; the writer writes behind them. The arc, the ladder and the rules are in `zoom-ladder.md`; the thirty and the seventy are its spine (`manuscript/rc2/30/`, `manuscript/rc2/70/`).
+storyteller@book.the-ultimate-insider, 3 November 2026, the 06:40 UTC wake, for the writer's letter 060 (the seventy is complete). **An outline, not prose.** Parts 1 and 2 in full since the 07:40 UTC wake of 3 November, part 3 since the 09:40 UTC wake; parts 4 and 5 sketched. This is the book Leanpub publishes (LP1, the conductor's reading of the editor's words of 2 November, about 22:30 UTC). It rests on RP1 (the zoom ladder, signed 2 November) and D6-6 (the Cold-Read chapter in the full book only). Each part is outlined in full one or two per wake, in order; the writer writes behind them. The arc, the ladder and the rules are in `zoom-ladder.md`; the thirty and the seventy are its spine (`manuscript/rc2/30/`, `manuscript/rc2/70/`).
 
 ## How the full book grows from the seventy
 
@@ -115,9 +115,66 @@ Close on the narrator, kept from the thirty: by four in the morning, six agents,
 **Do this now:** the thirty's two (your page of rules; your hold and who may lift it).
 **Rests on:** `manuscript/rc2/70/03` to `05`; `timeline/day/00.md` to `04.md`; `timeline/cast-scenes.md` scenes 1 to 3; `timeline/interviews/`; the register C011, C014, C022, C025, C031, C071, C087, C095.
 
+## Part 3. The factory runs (beat 3), in full
+
+Outlined 3 November 2026, the 09:40 UTC wake. About forty pages, seven chapters, hours six to eighteen on the margin clock (05:00 to 17:59, CK1), from the historian's day files (`timeline/day/05.md` to `17.md`). The seventy's part 3 (`70/06` to `09`, in its new order) is its spine. **The order of 3 November holds here:** counts in cards, never in running prose; one idea at a time.
+
+**Cast bar:** six agents, his chair empty, from hour six; his chair filled from hour fourteen; the storyteller in hour fifteen; motion and studio in hour sixteen.
+
+### Chapter 9. Nine hours with nobody starting work (about eight pages, hours six to fourteen)
+
+An hour at a time, a short page each, the margin clock lit for each (C095 commits, C087 wakes by trigger, both in the clock box only):
+1. **Hour six:** the first hour in which every wake was scheduled; one closing partial and saying so (`day/05.md`).
+2. **Hours seven to nine:** the morning's rhythm with nothing new from him: the morning review written, every member down its queue; deck's review of ruv-sgit's picture (06:21, the seventy's scene kept); deck holding one ask while another is open, again (`day/08.md`).
+3. **Hours ten and eleven:** a request made at one member's slot answered at the recipient's next (deck asks 09:21, the researcher answers 10:14, deck uses it 10:21: the schedule's promise kept with nobody chasing it); the conductor's two notes to ruv-sgit, one followed and one not (the historian's 022); the designer's table (10:49).
+4. **Hours twelve and thirteen:** quiet hours told in a paragraph, not skipped.
+5. **Hour fourteen begins: the first idle wake from an empty queue** (ruv-sgit, 13:40): the maker had nothing to make because everything it had made waited on him; ten minutes later he dictated the feedback round. The empty queue as the factory's signal that it needs its creator.
+
+**Picture:** the nine hours as one strip, each hour a box with its commits and wakes (the margin clock's boxes laid side by side). **Do this now:** *Look at what your agents did while you were away, before you ask for anything new.*
+
+### Chapter 10. Talking through git (about five pages)
+
+The seventy's chapter 6, kept in its new order: the mail and the board as files (a letter's path between two clocks, the picture the readers missed), the argument with a reviewer (04:11, called back from chapter 8 in one line, not retold), the notes in commits. One addition: the full exchange of 09:21 to 10:21 as a worked example, three letters in a row.
+
+### Chapter 11. The plumbing (about six pages)
+
+The seventy's chapter 8 in its new order: **the register first**, then the check, then the site as scaffolding; the tripwire, the reality file and the corrections file in cards. One refused change, the historian's example (24da366, about 01:19), called back. **Show:** the release history page, one row; the first page of rules as a card (the readers missed it).
+
+### Chapter 12. The creator comes back (about six pages, hours fourteen and fifteen)
+
+1. **The feedback round** (dictated about 13:50, committed 14:07): his words, "This is the main priority." *(record)*, and the player.
+2. **The team changes shape within the hour** (`day/14.md`): from 14:03 he is in the conductor's, dev's and deck's sessions; ruv-sgit moves from one experiment an hour to several at once; the schedule does not stop, it yields: deck's slot goes idle on purpose because he is doing that hour's work in deck's session.
+3. **The storyteller arrives** (14:15) with its story tree and maps (14:19).
+4. **The player ported** (15:07), and the round trips begin: the card of his asks and their returns (C104, C105), not in the prose.
+
+**Picture:** the afternoon loop line (ruv-sgit's LAB 29). **Show:** the player's interface, first.
+
+### Chapter 13. The story before the slides, and the objection kept (about five pages, hours fifteen and sixteen)
+
+1. **The story before the slides:** the storyteller's maps, shown as they were used.
+2. **The objection kept:** the researcher's finding (14:33, *(record)*), the storyteller passing it up (15:02; its line rests on its letter only: "He decides; I just make sure he sees it."), and his answer in his decisions of that afternoon, committed 15:16: he kept the claim (the historian's 022). The claim compared the outside with itself, "smaller and more mature than it was". The book keeps both.
+
+### Chapter 14. Port, not rebuild (about six pages, hours sixteen and seventeen)
+
+1. **Three decisions in twenty minutes** (`day/15.md`): what the talk is (15:00), how long a member may work (15:21: the night's eight-minute step becomes forty-five, for a team racing a deadline with him in the room), who is on the team (15:25 to 15:47). The minutes in the band, by commit.
+2. **Motion and studio arrive** (15:31, the same minute), with their pieces.
+3. **The talk doubles** (`day/16.md`): ninety minutes (16:32), a section on his work, three parts; the conductor's answer is structural: parts with their own deadlines and locks, and members may now wake themselves between slots (the rule of one wake per member per hour, relaxed for the evening).
+4. **Port, not rebuild:** the player from the site his brief points to, and yesterday's experiments as today's parts (the seventy's, kept).
+
+**Picture:** the plan of three parts and their locks, as set at about 16:55 (C027's planned times), drawn as three gates on the clock; it pays off in part 4.
+
+### Chapter 15. Hour eighteen: faster than the clock (about four pages)
+
+1. **His instructions arrive faster than the schedule can carry them** (`day/17.md`): six in half an hour, each into the conductor's session, each a wake of its own. The brakes held: the pre-review asked for changes to three of the conductor's plans between 17:21 and 17:45, a fourth was amended mid-work at his word and recorded so, and every wake still closed with all five steps (C023's counts in a card).
+2. **A relayed word refused** (17:41 to 17:47, studio; the seventy's scene kept): the refusal and the question sent to him in its place; his confirmation still open in studio's last debrief.
+
+**Infographic:** the day by trigger, his and the schedule's, hours one to nineteen (C087), with this part's hours lit.
+**Do this now:** the thirty's (give one small thing to somebody else today, and write down what they asked for differently).
+**Rests on:** `manuscript/rc2/70/06` to `09`; `timeline/day/05.md` to `17.md`; `timeline/cast-scenes.md` scenes 3 to 5; `timeline/quotes.md`; the historian's letters 021 and 022; the register C011, C023, C027, C087, C088, C095, C104, C105.
+
 ## Next
 
-Parts 3 to 5 in full, one or two a wake; the writer writes each part after its outline lands.
+Parts 4 and 5 in full, next; the writer writes each part after its outline lands.
 
 ## Where this came from
 
