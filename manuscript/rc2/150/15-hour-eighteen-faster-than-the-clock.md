@@ -40,7 +40,7 @@ Band: *The register's count of pre-reviews and the conductor's wake records; tha
 
 **Deck** *(proud, the fussy one, not quite letting go)*: Complete. Timed. Final. Now it only wants its lock.
 
-**Narrator.** At 17:54 the tool to lock a part shipped: it freezes a part of the talk so the player plays a locked copy. It came in under no member's name in its subject; only its trailers show it was dev's. And dev's wake of 17:48, the wake it came from, opened and never closed in the record. Part 4 shows where that wake went.
+**Narrator.** At 17:54 the tool to lock a part shipped: it freezes a part of the talk so the player plays a locked copy. It came in under no member's name in its subject; only its trailers show it was dev's. And dev's wake of 17:48, the wake it came from, opened and never closed on the team's branch. Part 4 shows where that wake went.
 
 `%% record: 3260997 (17:25, part one complete and timed) ec962a2 (17:48, the projector check) f45028c (17:31) b1c9bab (17:52, part one final) 4a2481b (17:54, the lock tool; Agent: dev in its trailers) team/dev/wakes/ (started 17:48:50, never closed on dev) C014 C027 timeline/unmerged.md`
 Band: *Dramatised (deck's line). Rests on deck's commits of 17:25 and 17:52 and the lock tool's commit.*
@@ -62,7 +62,7 @@ Band: *Dramatised. Rests on studio's wake from 17:41 to 17:48: the session's own
 
 ## Where part 3 ends
 
-**Narrator.** By the end of hour eighteen the factory was running faster than its own clock, with me inside it, and its brakes were holding. Part one was final and not yet locked. The lock tool existed. One wake was open that would never close. And my usage, which I had not been watching, was nearly gone.
+**Narrator.** By the end of hour eighteen the factory was running faster than its own clock, with me inside it, and its brakes were holding. Part one was final and not yet locked. The lock tool existed. One wake was open that would never close on the team's branch. And my usage, which I had not been watching, was nearly gone.
 
 **Figure:** the day by trigger, the schedule's wakes and mine, hours one to nineteen, with part 3's hours lit.
 
@@ -80,6 +80,6 @@ Band: *Dramatised. Rests on studio's wake from 17:41 to 17:48: the session's own
 
 ## Where this came from
 
-The talk's repository at the end of the day: the conductor's run of wakes in hour eighteen with their pre-reviews, deck's part one complete and final, the designer's projector check, motion's pieces, the lock tool, dev's wake that never closed, and studio's refused relay. The register for the pre-reviews that said change, the asks with my time on them, the locks, the wakes by trigger and the hold's reason. The historian's day file for hour eighteen, its quotes and its list of commits that never reached the team's branch. The storyteller's outline for this chapter. Studio's scene is kept from the 70-page edition's chapter 9.
+The talk's repository at the end of the day: the conductor's run of wakes in hour eighteen with their pre-reviews, deck's part one complete and final, the designer's projector check, motion's pieces, the lock tool, dev's wake that never closed on the team's branch, and studio's refused relay. The register for the pre-reviews that said change, the asks with my time on them, the locks, the wakes by trigger and the hold's reason. The historian's day file for hour eighteen, its quotes and its list of commits that never reached the team's branch. The storyteller's outline for this chapter. Studio's scene is kept from the 70-page edition's chapter 9.
 
 `%% record: talk repository at 298be4e: 8fee7e3 a618b29 7c91afc d252155 c3f546e 93f4191 3260997 ec962a2 f45028c b1c9bab 4a2481b bd3cdad 8f0c080 team/conductor/wakes/ team/dev/wakes/ team/studio/wakes/20261029T174115Z.json; timeline/day/17.md; timeline/quotes.md; timeline/unmerged.md; claims/register.json C006 C014 C023 C024 C027 C087 C105 C110; chapter-plan/edition-150-outline.md part 3 chapter 15; manuscript/rc2/70/09-the-loop-and-the-port.md`

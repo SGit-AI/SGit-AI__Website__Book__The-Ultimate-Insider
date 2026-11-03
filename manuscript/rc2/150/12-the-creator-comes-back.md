@@ -29,7 +29,7 @@ Band: *Dramatised (the conductor's line). Rests on the brief's first line and th
 
 `%% for the editor: "something I would rather it did not" and "that one is mine" are the writer's reading of his view; his to keep or drop. The record holds the order and his words, not his feeling about them.`
 
-`%% record: team/conductor/briefs/2026-10-29__editor/feedback-briefs.md (its first line: "about 13:50 London, dictated in a claude.ai chat"; item 1) team/conductor/briefs/2026-10-29__editor/conductor-notes.md (14:05: "The editor's word after the review"; "The order, as it now stands") c9ced4e (14:07, committed and routed) C104 (the feedback round: given about 13:50, recorded 14:07:04) C028 (the port at 15:07, the last fix landed 18:37)`
+`%% record: team/conductor/briefs/2026-10-29__editor/feedback-briefs.md (its first line: "about 13:50 London, dictated in a claude.ai chat"; item 1) team/conductor/briefs/2026-10-29__editor/conductor-notes.md (line 11: the pane, with voice; 14:05: "The editor's word after the review"; "The order, as it now stands") c9ced4e (14:07, committed and routed) C104 (the feedback round: given about 13:50, recorded 14:07:04) C028 (the port at 15:07, the last fix landed 18:37)`
 Band: *My words are the brief's and the conductor's notes' own; the order is the notes'.*
 
 ## A change sent back, at the moment of most pressure
@@ -51,7 +51,9 @@ Band: *Dramatised (the conductor's line). Rests on the conductor's wake of 14:03
 
 **Narrator.** From 14:03 I was in four sessions: the conductor's, the storyteller's as it joined, dev's and deck's.
 
-`%% four, by the historian's count of the wake records (historian__033: the storyteller's joining wake at 14:12 was mine too, and C087's seven for the hour are the conductor's three, the storyteller's, dev's two and deck's); the day file names three.` In dev's I started a wake for the feedback pane, with voice. In deck's I went through the studio's pieces live, one by one, and spoke my feedback, and deck wrote it down as given.
+`%% four, by the historian's count of the wake records (historian__033: the storyteller's joining wake at 14:12 was mine too, and C087's seven for the hour are the conductor's three, the storyteller's, dev's two and deck's); the day file names three.`
+
+**Narrator.** In dev's I started a wake for the feedback pane, with voice. In deck's I went through the studio's pieces live, one by one, and spoke my feedback, and deck wrote it down as given.
 
 **Deck** *(exacting, writing fast)*: As given. Your words, not mine. Then the next one.
 
@@ -89,7 +91,7 @@ Band: *Dramatised (the storyteller's line, kept from the 70-page edition). Rests
 
 **Figure:** a card of my eight afternoon asks: each with the time I asked and the time it came back.
 
-`%% figure brief: For the designer, from C105 (its rows: the time asked from the commit subject, the time recorded, and what each was: the conductor routing or a player fix). The times on the card only. The 18:05 row was recorded at 18:04:48, before the time in its subject: print both as the record has them, with a small note that the subject's time was his round number.`
+`%% figure brief: For the designer, from C105 (its rows: the time asked from the commit subject, the time recorded, and what each was: the conductor routing or a player fix). The times on the card only. The 18:05 row was recorded at 18:04:48, before the time in its subject: print both as the record has them.`
 
 **Figure:** the afternoon loop on one line of time: my asks above the line, what came back below it (`lab/experiments/29-ruv-the-afternoon-loop/loop.svg`).
 

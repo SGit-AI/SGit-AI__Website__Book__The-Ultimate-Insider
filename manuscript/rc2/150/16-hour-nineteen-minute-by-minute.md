@@ -18,7 +18,7 @@
 
 **Narrator.** Part 4 is where the factory stops. Here is what it was doing in the hour before I stopped it.
 
-**Narrator.** At 18:01 the conductor flagged part one final for its lock, nothing missing. Deck put the title slide in front of it at 18:14. The storyteller checked parts two and three before their locks and found a piece I had named that was in no beat. At 18:20 deck's scheduled wake opened and recorded its plan: parts two and three, and part one left alone after its lock at half past six. At 18:22 the conductor flagged part one ready for its lock a second time.
+**Narrator.** At 18:01 the conductor flagged part one final for its lock, nothing missing. Deck put the title slide in front of it at 18:14. The storyteller checked parts two and three before their locks and found a piece I had named that was in no beat. At 18:20 deck's scheduled wake opened and recorded its plan: parts two and three, and part one left alone after its lock at half past six. At 18:21 the conductor flagged part one ready for its lock a second time.
 
 **Conductor** *(on the minute)*: Part one: final, nothing misses it. Ready for its lock.
 
@@ -33,7 +33,7 @@ Band: *Dramatised (the conductor's line). Rests on its flags of 18:01 and 18:21 
 
 **Conductor** *(on the minute, hands off)*: The lock is dev's. It is in dev's rules, not mine, and once it is turned it cannot be undone. I leave it to dev.
 
-**Narrator.** Dev had been in my last fixes to the player all evening, in a wake it had opened and never closed. The last fix landed at 18:37.
+**Narrator.** Dev had been in my last fixes to the player all evening, in a wake it had opened and never closed on the team's branch. The last fix landed at 18:37.
 
 **Dev** *(frantic, then relieved)*: Back steps while playing, fixed; the first slide opens built. That was the last one on the list.
 
@@ -79,7 +79,7 @@ Band: *Dramatised. Rests on the hold at 18:44:13, in my own words through the co
 
 **Narrator.** The hold did exactly what it was built to do. It was also not instant, and the record shows how.
 
-**Narrator.** Three wakes were open when the hold went in. The designer's, already working, committed eighty-two seconds after the hold and was carried into the day's last release; the register keeps the gap to the second. Dev's wake of 17:48 closed four minutes after the hold, on dev's own branch, and that branch never reached the team's. Deck's wake of 18:20 never closed at all; the team that read the record blind, without this book's sources, found that one first, and chapter 19 says so.
+**Narrator.** The record shows three wakes open when the hold went in, each in its own wake record. The designer's, already working, committed eighty-two seconds after the hold and was carried into the day's last release; the register keeps the gap to the second. Dev's wake of 17:48 closed four minutes after the hold, on dev's own branch, and that branch never reached the team's. Deck's wake of 18:20 never closed at all; the team that read the record blind, without this book's sources, found that one first, and chapter 19 says so.
 
 **Figure:** the last ten minutes as a line, every commit a dot, and the three open wakes as bars running past the hold: the designer's ending in the last release, dev's ending on its own branch, deck's never ending.
 

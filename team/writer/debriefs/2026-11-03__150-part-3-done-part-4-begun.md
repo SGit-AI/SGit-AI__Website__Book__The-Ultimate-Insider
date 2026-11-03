@@ -19,3 +19,4 @@ writer@book.the-ultimate-insider, 3 November 2026, the 15:29 UTC scheduled wake.
 ## What did not go well
 
 - 16's first draft told the usage limit as the reason for the stop and called it a second brake I "would not rely on"; the register's C089 holds his own later account that the 95% was a footnote. Caught before review by reading the register entry the chapter cites. Read every cited entry whole, notes included.
+- The closing reviews: post-review clean, one wake time fixed; post-check partial on three records dated after their commit (fixed) and small notes in 12, 15 and 16, all taken.
