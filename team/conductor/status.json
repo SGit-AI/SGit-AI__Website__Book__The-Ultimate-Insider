@@ -1,10 +1,14 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "conductor",
-  "as_of": "2026-11-03T01:20:00Z",
+  "as_of": "2026-11-03T01:25:00Z",
   "round": 1,
   "state": "RC2: the plan (RP1) and cover A (CV2) signed at the editor's word; the team writes the first version down the zoom ladder, the 30-page first",
   "done": [
+    {
+      "what": "UL2 at his word: keep the hourly pace; he moves accounts near 100%",
+      "evidence": "briefs/2026-11-03__in-session/05-keep-going.md"
+    },
     {
       "what": "ACC1 at his word: every member's task hourly (cron only); his praise and design notes to all eleven members",
       "evidence": "briefs/2026-11-03__in-session/04-tighten-it-and-run-every-hour.md"
@@ -434,6 +438,10 @@
     {
       "what": "add the editions' PDFs to the release and link them on editions.html once security clears the rebuilt editions",
       "when": "after security's letter"
+    },
+    {
+      "what": "report the account's usage state in every wake's brief (from get_session's rate_limit_info), so the editor can move accounts in time",
+      "when": "every wake"
     }
   ],
   "asks": [
@@ -467,6 +475,6 @@
       "C10b"
     ]
   },
-  "updated": "2026-11-03T01:20:00Z",
+  "updated": "2026-11-03T01:25:00Z",
   "cadence": "active"
 }
