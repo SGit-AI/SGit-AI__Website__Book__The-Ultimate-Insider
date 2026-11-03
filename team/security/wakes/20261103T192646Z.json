@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T19:26:46Z",
+ "steps": {
+  "plan": {
+   "by": "security, amended at the pre-review's change",
+   "model": "",
+   "verdict": "go",
+   "comment": "Amended, every item read only, no file of another member changed: 1. the stuck run recorded in controls/index.json (security's own) from the conductor's letter; nothing run against GitHub. 2. read manuscript/rc2/150/20-sessions-end.md and 18-how-do-we-contain-this.md. 3. read lab/experiments/29-ruv-the-afternoon-loop/edition/asks-card.svg and tools/asks.py. Writes: controls, team/security, comms/issues/security, comms/mail/security only.",
+   "at": "2026-11-03T19:28:00Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent, as the reviewer agent (tools seen: Read, Grep, Glob, Bash, hand-back); second pass",
+   "model": "haiku",
+   "verdict": "go",
+   "comment": "Amended plan meets the change: paths named and read only; nothing run against GitHub; writes in scope.",
+   "at": "2026-11-03T19:28:24Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. The stuck run recorded under C6 from the conductor's 045 (nothing run against GitHub). 2. 150/20 read: clear; 150/18 matches C112. 3. Lab 29 asks-card.svg and tools/asks.py: clear. Board; status; debrief.",
+   "at": "2026-11-03T19:29:52Z"
+  },
+  "post_review": {
+   "by": "security sub-agent, as the reviewer agent (tools seen: Read, Grep, Glob, Bash, hand-back); validate only",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Read every added line (7 files, in scope): nothing private, directing, religious, em-dashed or attack-shaped; validate, scope, vault_check clean.",
+   "at": "2026-11-03T19:30:44Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent, as the reviewer agent (tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "haiku",
+   "verdict": "as-planned",
+   "comment": "All three amended items done; 7 files in scope; nothing run against GitHub.",
+   "at": "2026-11-03T19:31:21Z"
+  }
+ },
+ "closed": "2026-11-03T19:31:21Z",
+ "outcome": "ok"
+}
