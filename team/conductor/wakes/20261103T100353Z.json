@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Fine with the policy change quoting his words and marking the file's form as the conductor's reading; the CLAUDE.md rule binds every member; the 150's three files scanned clean; nothing beyond his words.",
    "at": "2026-11-03T10:04:41Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "reviewer.md, CLAUDE.md rule, WAKE.md pointer, own policy with his words; release step for the full book (tested: 22 pages; YAML fixed); rc2.html; TA1, OL1, PR2 in book.json; eleven letters; status.",
+   "at": "2026-11-03T10:06:32Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet, Explore type)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "His words verbatim; conditions met; release step safe, YAML parses; nothing private; nothing beyond his words.",
+   "at": "2026-11-03T10:07:56Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet, Explore type)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "partial",
+   "comment": "Two gaps found, both closed before close: the four review briefs now point to the reviewer agent; the Sonnet how-to is in the chat reply to him.",
+   "at": "2026-11-03T10:07:56Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T10:07:56Z",
+ "outcome": "ok"
 }
