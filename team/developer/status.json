@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "developer",
- "as_of": "2026-11-03T04:23:00Z",
+ "as_of": "2026-11-03T05:22:00Z",
  "round": 1,
- "state": "hourly (ACC1): RC2 and the 70-page draft online with their record; the tablet fix and two provisional founder pages done; next the 3- and 10-page editions' record online",
+ "state": "hourly (ACC1): every edition online with its record (3, 10, 30, 70 pages; RC1 augmented); board 010 done; next board 007/009 or what the editor asks",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/developer/ into team/developer/ (drafts left in place; ROLE.md names start.py and banner.py)",
@@ -120,6 +120,10 @@
   {
    "what": "board 010, part: make_editions.py renders every edition in a list; /review/rc2-70/ (9 chapters, 53 scenes, 311 links) and the zoom's 70-page rung; one anchor table per chapter, so repeated lines get unique ids",
    "when": "2026-11-03"
+  },
+  {
+   "what": "board 010 done: /review/ed-03/ and /review/ed-10/, the publisher's text with each page's record from the storyteller's scripts; the zoom's 3- and 10-page rungs online; synthetic__009 filed (the tablet fix holds at about 79 characters)",
+   "when": "2026-11-03"
   }
  ],
  "next": [
@@ -173,7 +177,7 @@
   "comms/issues/developer/issues/open/007-a8-augmented-view.md",
   "comms/issues/developer/issues/blocked/008-questions-and-chapters-per-persona.md",
   "comms/issues/developer/issues/open/009-nr1-augmented-mode.md",
-  "comms/issues/developer/issues/open/010-editions-online-zoom.md",
+  "comms/issues/developer/issues/done/010-editions-online-zoom.md",
   "comms/issues/developer/issues/done/011-tablet-and-two-personas.md"
  ],
  "board": "comms/issues/developer/issues/",
@@ -191,7 +195,9 @@
   "zoom": "/review/zoom.html",
   "gen-z-founder": "/review/gen-z-founder.html",
   "gen-x-founder": "/review/gen-x-founder.html",
-  "rc2-70": "/review/rc2-70/"
+  "rc2-70": "/review/rc2-70/",
+  "ed-03": "/review/ed-03/",
+  "ed-10": "/review/ed-10/"
  },
  "cadence": "active"
 }
