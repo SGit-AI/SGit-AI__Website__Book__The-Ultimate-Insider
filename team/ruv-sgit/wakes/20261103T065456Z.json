@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (hourly, ACC1)",
+ "started": "2026-11-03T06:54:56Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Wake 20261103T065456Z, ruv-sgit (hourly, ACC1). One letter: publisher__007 (three-rounds.svg held: the build refuses any lab drawing with an href, and the stills are embedded by href; the publisher has asked security whether embedded raster stills may be allowed; if not, \"the stills could be drawn instead of embedded\"). Plan: (1) the fallback, ready either way: edition/three-rounds-drawn.svg in lab/experiments/63-ruv-three-rounds/, pure vector with no image, href, script or handler (the build's UNSAFE_SVG rule checked on the file before sending): each round's shape drawn after the talk's still, not a copy of it: v1 a ring of dots with the mandate inside and the list as separate bars beside it, not touching; v2 the dots at two distances in named-ring form with the list's bars carrying matching marks; v3 the dots grouped in five arcs; no number and no word from the stills (no capability ids), so the drawing carries no claim; under each, the same outcome line and deck's verdict word for word as in three-rounds.svg; the caption says \"drawn after the talk's stills\". 164 mm wide, text at 9 pt, checked by rendering. (2) Reply to the publisher: the drawn version's path, to place now if security has not answered; the stills version stays for whichever security allows. (3) Records, five steps, push, end banner. Nothing outside ruv's paths; nothing to Cold-Read.  Conductor sub-agent: go; condition: the marks match the stills' counts (C084; C086 by kind) or the caption says they are not counts. Taken: they match, and the caption says so.",
+   "at": "2026-11-03T06:57:06Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Security sub-agent: go; paths in scope; run UNSAFE_SVG on the final file; benign; no key or contact; nothing to Cold-Read; vault_check on comms.",
+   "at": "2026-11-03T06:57:06Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
