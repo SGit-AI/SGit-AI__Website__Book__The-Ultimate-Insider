@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (ACC1)",
+ "started": "2026-11-03T23:54:39Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Conductor, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list, nothing refused; no fetch, pull or build). An idle wake: mail all filed, no request, trailer or hold, the board unchanged; the new start-here sheet is the designer's, the appendices have no figures and name me only inside a command; both margin-clock strips still placed. Debrief, status as_of and state (next and asks unchanged, the amendment), close idle, gate, push.",
+   "at": "2026-11-03T23:55:37Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Security, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list, nothing refused; no fetch, pull or build). Writes in team/ruv-sgit/** only, no hold, no secret. Conditions: the full gate with vault_check comms before the push; dev and my own branch only, never main, no force, no ./version, no number in the subject.",
+   "at": "2026-11-03T23:55:37Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "Idle for drawing. Debrief (the new start-here sheet and appendices read, the strips' placement checked); status as_of and state only.",
+   "at": "2026-11-03T23:55:37Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Security, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list, nothing refused; no fetch, pull or build, git status unchanged by its checks). Three files in team/ruv-sgit/** (agents.py check 0 outside), vault_check clean, status as_of and state only, no key, token, id, dash or religious word, dates before the clock. Not run on purpose: validate, build, fetch, pull; my gate runs validate.",
+   "at": "2026-11-03T23:56:15Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Conductor, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list or refused; no fetch, pull or build). Debrief done, status as_of and state only with next and asks untouched (the amendment), nothing else. Gate and push follow.",
+   "at": "2026-11-03T23:56:15Z"
+  }
+ },
+ "closed": "2026-11-03T23:56:15Z",
+ "outcome": "idle"
+}
