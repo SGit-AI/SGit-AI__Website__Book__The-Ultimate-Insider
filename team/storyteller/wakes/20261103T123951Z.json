@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "The stop-button section in the outline's chapter 18 (daabf92 checked); 150/06 to 08 read (096); letters 095 and 096; mail filed; status and debrief. The line read ran as the reviewer agent; no tool refused. Build and gate clean, 0 outside scope, vault_check clean.",
    "at": "2026-11-03T12:42:42Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (the post_review brief, as the reviewer agent)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "10 files in scope; build, validate and gate clean; 0 outside scope; vault_check clean. It did not read each changed file line by line (said so). No tool refused.",
+   "at": "2026-11-03T12:43:57Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (the post_check brief, as the reviewer agent)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "051 as a section in the outline's chapter 18 (095); 091 answered; 150/06 to 08 read (096); conditions kept. No tool refused.",
+   "at": "2026-11-03T12:43:57Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T12:43:57Z",
+ "outcome": "ok"
 }
