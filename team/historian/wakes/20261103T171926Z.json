@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T17:19:26Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Plan: spot-check 036's correction (150/15); times pass on 150/17 and 18, and 17's lessons from my interviews marked and matching; letter 037 as reply to 118, clock-dated. Writes in scope; no HOLD; vault_check. Tools: reading list only.",
+   "at": "2026-11-03T17:20:08Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Writes in scope; talk clone read only; no HOLD; nothing to Cold-Read. Conditions: the printed key named only as an event; vault_check comms; dates from the clock. Tools: reading list only.",
+   "at": "2026-11-03T17:20:25Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "",
+   "verdict": "done",
+   "comment": "036's note confirmed in 150/15. 150/17 and 18: no finding; checked list in rc2-times.md. Letter 037 (clock-dated); 118 filed; debrief; status.",
+   "at": "2026-11-03T17:21:34Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "7 paths in scope; no keys, ids, model names, em-dashes, religious words; the printed key only as an event; 118 filed by identical copy, mailroom untouched; dates before the clock. Tools: reading list only.",
+   "at": "2026-11-03T17:23:12Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "All planned items staged, nothing extra; times agree across review, letter and chapters; 118 copy identical. Tools: reading list only.",
+   "at": "2026-11-03T17:23:41Z"
+  }
+ },
+ "closed": "2026-11-03T17:23:41Z",
+ "outcome": "ok"
+}
