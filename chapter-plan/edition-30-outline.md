@@ -12,6 +12,50 @@ storyteller@book.the-ultimate-insider, 2 November 2026, the 06:40 UTC wake, for 
 
 About six pages each. One map and one infographic per chapter (LK1), named below so the designer and ruv-sgit draw to the same page. A cast bar at each chapter's opening. Every scene banded "dramatised" with the moment it rests on. No figure in an agent's line; every figure by its claim id; the cost line stays C101 and C037. The editor's voice the default, the agents in turn. **More text per agent, and many pictures** (the editor, 15:25 UTC, brief 09): beyond the map and the infographic, each chapter names its cards and drawings page by page, and where a picture carries the explanation, the words around it are fewer. The running line is the editor's (RL1, signed 2 November 2026, about 21:55 UTC): "Ship something somebody else can use, then do it again." It closes chapter 5, after the five steps; no other chapter needs it.
 
+## The clock in the margin, and what to show
+
+Added 3 November 2026, the 01:40 UTC wake, at the editor's words of about 01:15 UTC (`briefs/2026-11-03__in-session/04-tighten-it-and-run-every-hour.md`; the conductor's letter 045): a clock or timeline in the right margin as the text moves through the day, "hour one, hour two, hour three", with a few stats; and show what the text describes.
+
+**How the hours are numbered.** By the clock hour of 29 October (London was on GMT, so UTC = London): hour one is 00:00 to 00:59, hour two is 01:00 to 01:59, and so on, so the hold at 18:44 falls in **hour nineteen**, the title's nineteen hours. This matches the register's hourly tables (C087, wakes by trigger; C095, commits by hour), so every stat in the margin is already traced.
+
+**The stats the margin may carry** (from the register only, never in an agent's line): commits that hour (C095, the "all" row), wakes started by the schedule and by the editor that hour (C087), and the cast lit (C011). Nothing else until the researcher registers it.
+
+| Chapter | Scene | Time | Hour |
+|---|---|---|---|
+| 1 | the old way; inventing on principle | before and after the day | off the clock |
+| 1 | pressing play (the building) | the talk, from 19:00 | after hour nineteen |
+| 1 | the loop | about 13:50 to 18:37 | fourteen to nineteen |
+| 2 | the empty project | 00:16 | one |
+| 2 | four arrivals | 00:40 to 01:08 | one and two |
+| 2 | the clock and the five steps | 01:39; 02:16 to 02:18 | two; three |
+| 2 | caught by its own reviewer | 02:19 | three |
+| 2 | before dawn (researcher; designer; his last act) | 01:52; 03:41; 04:03 | two; four; five |
+| 3 | the argument with a reviewer | 04:11 | five |
+| 3 | sent back, and owned | 04:19; 06:21; 10:05; 10:49 | five; seven; eleven; eleven |
+| 3 | the creator comes back | about 13:50; 15:07 | fourteen; sixteen |
+| 3 | the objection kept | 14:33; 15:02 | fifteen; sixteen |
+| 3 | a relayed word refused | 17:41 to 17:47 | eighteen |
+| 4 | the last ten minutes; the hold | 18:36 to 18:46 | nineteen |
+| 4 | why stop then; the interview; the empty chair | after the day | off the clock |
+| 5 | taken apart; the second and third factories; yours | from 30 October | off the clock |
+
+The margin runs only in chapters 2 to 4; chapters 1 and 5 sit outside the day, and their margin says so ("before", "after").
+
+**Show, don't describe** (the editor: "when you talk about the like the UI in the beginning, you should show that"). Each is a screenshot of the talk's site at `298be4e` (the librarian's `index/talk-site/shots/`, or taken anew), never a page that prints a key: the vaults page and the key register stay off, and a member page is shown only with its key and session lines cropped.
+
+| Chapter | Where the text describes | Show |
+|---|---|---|
+| 1 | the player, pressing play | **first:** the player's interface on the iPad-sized screen, a slide mid-animation, the timer (`talk/player.html`) |
+| 1 | the building | three frames of the animation (ruv-sgit's, with its explainer) |
+| 2 | the empty project | the repository's first commit page: a licence and a read-me |
+| 2 | the first page of rules | an extract of the first page as dev's commit had it (`1f7c633`), a few lines |
+| 2 | the five steps | one real wake record as the site shows it (`admin/wakes.html`), one row |
+| 3 | deck sends the picture back | ruv-sgit's picture and the review page beside it (`studio/reviews/e02`) |
+| 3 | the player arrives and is fixed | the player at 15:07 and at 18:37, side by side, if the site's history holds both |
+| 4 | the hold | the hold file itself, and the dashboard still showing it (`admin/dashboard.html`) |
+| 4 | the last ten minutes | the release history page at 18:46 (`admin/versions.html`), one row |
+| 5 | this book's team | this book's own team page, keys cropped |
+
 ## Chapter 1. The creator's problem (beat 1), in full
 
 **Cast bar:** the editor alone; the nine shown greyed, not yet arrived.
