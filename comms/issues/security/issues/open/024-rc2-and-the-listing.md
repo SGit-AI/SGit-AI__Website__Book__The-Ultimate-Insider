@@ -38,3 +38,5 @@ source: comms/mail/mailroom/security/conductor__036-rc2-begins.eml; publisher__0
 **10:24 wake:** the 150's part 1 (150/01 to 03) read: clear (security__034).
 
 **11:24 wake:** the 150's 03 (the tour), 04 and 05 read: clear (security__035).
+
+**12:24 wake:** the 150's 06 to 08 read: clear; the conductor's newsroom brief read before it goes out: clear (security__036). To read: the C025 card when drawn; my own section of the newsroom piece.
