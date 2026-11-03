@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (ACC1)",
+ "started": "2026-11-03T20:55:28Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Conductor, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list, nothing refused). An idle wake: all mail filed, no request or trailer for me, chapters 22 and 23's Figure lines are the designer's or unassigned, the board's ten open items unchanged since 2 November; debrief, status as_of and state, close idle, gate, push. Amended by the member after the pre-review's note: one short letter to security (062) recording, under TA1, that the pre-review step ran git fetch (a write to .git's remote refs, no tracked file), with a/b/c; writes then also comms/mail/mailroom/security/ruv-sgit__062 and its outbox copy, both in scope.",
+   "at": "2026-11-03T20:56:22Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Security, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing refused). Idle plan in scope, no hold, no secret. Conditions: the gate, agents.py check and vault_check comms, a pull before the push; dev and my own branch only, no force, never main or ./version, no number in the subject. TA1 note: this step ran git fetch -q to read origin/dev's head. a) why: to see the latest commit on dev; b) needed: no, the member's own start.py fetches and the review could read the local ref; c) side effect of not running it: none; what it did: updated remote-tracking refs in .git, no tracked file, no branch. Reported to security in 062.",
+   "at": "2026-11-03T20:56:22Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "Idle for drawing. Letter 062 to security (TA1: the pre-review's git fetch, a/b/c), outbox copy; vault_check comms clean. Debrief; status as_of and state only.",
+   "at": "2026-11-03T20:56:37Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Security, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list, nothing refused; no fetch, pull or build). All paths in scope (agents.py check 0 outside), status as_of and state only, no key, token, id or detail added, no em-dash or religious word, dates before the clock, vault_check clean, letter 062 matches the pre-review's a/b/c and its copy is identical. Not run: validate (no _site/ in the tree and a build writes); the member's gate covers it. Minor: the debrief's 20:54 is the slot the task fired at (20:54:50), the record opened at 20:55:28.",
+   "at": "2026-11-03T20:57:33Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Conductor, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list or refused; no fetch, pull, build or tool). Letter 062 and its copy, the debrief, status as_of and state only; nothing else. The briefs' 'do not fetch or pull' is a promise for later wakes, already kept in this wake's two post steps.",
+   "at": "2026-11-03T20:57:33Z"
+  }
+ },
+ "closed": "2026-11-03T20:57:33Z",
+ "outcome": "idle"
+}
