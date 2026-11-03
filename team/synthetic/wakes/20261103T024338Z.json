@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Writes in scope; build output to the scratchpad, publishing/ untouched; nothing to the Cold-Read repository or a real person; vault_check before commit.",
    "at": "2026-11-03T02:44:07Z"
+  },
+  "work": {
+   "by": "synthetic",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "publisher__004 and designer__096 taken; RC2 rebuilt at b680aaeb with the real figures list and checked page by page; three of four card-row findings withdrawn; page 7's cut traced to ch1-cast-greyed.svg's viewBox; recheck.md on the personas index; reply synthetic__005; status, debrief, REALITY, issue 008; gate, scope, comms clean.",
+   "at": "2026-11-03T02:47:19Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "All paths within scope.writes plus the REALITY.md line; publishing/ and lab/ unchanged; letter in the mailroom with an outbox copy; no em-dashes, religious words, secrets or Cold-Read references.",
+   "at": "2026-11-03T02:47:40Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Every plan item in the commit; the viewBox claim verified (the card ends at 164.30 plus half its stroke, past 164).",
+   "at": "2026-11-03T02:47:40Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T02:47:40Z",
+ "outcome": "ok"
 }
