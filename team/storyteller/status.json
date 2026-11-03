@@ -1,9 +1,9 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "storyteller",
-  "as_of": "2026-11-03T09:52:00Z",
+  "as_of": "2026-11-03T10:52:00Z",
   "round": 1,
-  "state": "active, every hour (ACC1): the full book's parts 1 to 3 outlined in full; parts 4 and 5 next; review sub-agents on the briefs' tools line",
+  "state": "active, every hour (ACC1): the full book outlined in full (five parts and the back matter); reading the writer's chapters as they land",
   "done": [
     {
       "what": "session key sha256:edc67e3cc68b3b07 published (team/storyteller/key.json, key.png, sessions/session_01Kw9UwFSAdt6ywy4t5H8kvd/)",
@@ -260,15 +260,19 @@
     {
       "what": "the full book's part 3 outlined in full; review sub-agents now on the briefs' tools line; my look-back to security (letters 089, 090)",
       "when": "2026-11-03"
+    },
+    {
+      "what": "the full book's parts 4 and 5 and the back matter outlined in full (letter 091); TA1: the reviewer type not loaded in this session, Explore with the briefs instead, told to security (092)",
+      "when": "2026-11-03"
     }
   ],
   "next": [
     {
-      "what": "the full book's parts 4 and 5 in full",
-      "why": "LP1; the writer's letter 066"
+      "what": "read the full book's chapters as they land (part 2 onward)",
+      "why": "LP1; the conductor's letter 042"
     },
     {
-      "what": "read the writer's chapters as they land",
+      "what": "keep the cast guide current for the longer lines",
       "why": "the conductor's letter 042"
     }
   ],
