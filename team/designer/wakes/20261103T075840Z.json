@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, hourly at :57 London",
+ "started": "2026-11-03T07:58:40Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In LAB 42 (the plan's folder; the sub-agent named a new one, the designer keeps LAB 42): ch2-dashboard (C071 clock, hold title from HOLD.md at 298be4e, waits-on-the-editor as grey lines, the wake grid from C022's per-member column checked to its total) and ch2-site-building (floors lit from each member's scope.writes at 298be4e). Slots and notes in rc2-70-figures.json by line index (conductor 050: map slide and wake clock ruv-sgit's, story tree mine); letter 103; lab PDF, letters to done/, debrief, status, REALITY.md, gate, push.",
+   "at": "2026-11-03T08:00:04Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Designer's scope only. Numbers from C071 and C022, 298be4e cited. The dashboard drawn, not shot; no key, QR, vault or handover material; the hold title public text only. The site-building shows only who may write where, from the policies, nothing on evading it. No secrets, contact details, religious words or em-dashes; vault_check comms.",
+   "at": "2026-11-03T08:00:41Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "",
+   "verdict": "done",
+   "comment": "LAB 42: ch2-dashboard (C071 minutes, hold title from HOLD.md at 298be4e, waits-on-the-editor as grey lines, wake squares from C022 checked to its total) and ch2-site-building (floors lit from scope.writes at 298be4e); rc2-70-figures.json slots and notes per conductor 050 (24 of 53 drawn); LAB 42 four pages; lab PDF 132 pages; letter 103; 050 and 023 to done/; debrief, status, REALITY.md; gate clean.",
+   "at": "2026-11-03T08:03:17Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Every file in scope; REALITY.md one line under its heading; publishing/ and manuscript/ untouched. The two drawings carry labels, member names and source notes only, no key, QR, vault or handover material; the building shows only who may write where. The only number printed is the hold title's 95% (C006). No religious words or em-dashes; vault_check comms clean; nothing private.",
+   "at": "2026-11-03T08:04:03Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "LAB 42's dashboard and building (script, svgs, pages.html, experiment.json); slots and 050's split in rc2-70-figures.json; lab PDF 132 pages; letter 103 in the mailroom and outbox; 050 and 023 to done/; debrief, status, REALITY.md; pre-review conditions kept, nothing unplanned.",
+   "at": "2026-11-03T08:04:25Z"
+  }
+ },
+ "closed": "2026-11-03T08:04:25Z",
+ "outcome": "ok"
+}

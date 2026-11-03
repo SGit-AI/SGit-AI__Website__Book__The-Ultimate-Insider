@@ -13,6 +13,11 @@
   chapters its own "Where it came from" line names, parsed at build (nothing it does not name).
 - ch16-checklist.svg: the checklist as one page, each line a box to tick, its chapter and its first sentence, parsed from
   chapter 16 at build (fifteen lines, chapters 1 to 15 in order, or the build stops).
+- ch2-dashboard.svg: the team's dashboard, drawn (never shot): the wake clock's minutes (C071), the hold's title (read
+  from HOLD.md at 298be4e), what waits on the editor as grey lines (nothing invented), and every wake as a grid, one
+  square per wake record per member (C022's column in claims/scorecard-values.md, checked to its total at build).
+- ch2-site-building.svg: the site as a building, one floor per kind of page, each lit by the members whose policy at
+  298be4e lets them write that floor's source paths (scope.writes, read with git at build).
 No number is printed but the hold's time, ids, C029's counts and the chapters' own times. One SVG unit a millimetre, sizes stated, text 9 pt.
 """
 import json, re, subprocess, sys
@@ -76,6 +81,94 @@ def state_machine():
 
 
 R70 = REPO / "manuscript" / "rc2" / "70"
+
+
+def scorecard():
+    rows = {}
+    for line in (REPO / "claims" / "scorecard-values.md").read_text().splitlines():
+        cells = [c.strip() for c in line.strip().strip("|").split("|")]
+        if len(cells) == 7 and cells[0] in mc.CAST:
+            rows[cells[0]] = {"first": cells[1].split()[0], "wakes": int(cells[4])}
+    return rows
+
+
+def dashboard(clone):
+    import math
+    sc = scorecard()
+    if sum(r["wakes"] for r in sc.values()) != REG["C022"]["value"]["records"]:
+        sys.exit("make_pictures: C022's per-member wake records do not add up to its total")
+    title = subprocess.run(["git", "-C", clone, "show", "298be4e:team/conductor/HOLD.md"], capture_output=True, text=True,
+                           check=True).stdout.splitlines()[0].lstrip("# ").strip()
+    order = sorted(mc.CAST, key=lambda m: sc[m]["first"])
+    out = [f'<rect x=".3" y=".3" width="163.4" height="{{H}}" rx="2" fill="#fff" stroke="{mc.INK}" stroke-width=".5"/>',
+           f'<rect x=".3" y=".3" width="163.4" height="7" rx="2" fill="{mc.FILL}"/>',
+           "".join(f'<circle cx="{4 + k * 3}" cy="3.8" r=".9" fill="{mc.FILL2}"/>' for k in range(3)),
+           t(14, 5.1, "the dashboard, drawn from the page", 700, mc.MUTED)]
+    # the clock: every member's minute on the dial (C071)
+    cx, cy, R = 18, 26, 11
+    out.append(f'<circle cx="{cx}" cy="{cy}" r="{R}" fill="#fff" stroke="{mc.INK}" stroke-width=".5"/>')
+    for m, mm in REG["C071"]["value"].items():
+        a = math.radians(int(mm.strip(":")) * 6 - 90)
+        out.append(f'<circle cx="{cx + (R - 2) * math.cos(a):.2f}" cy="{cy + (R - 2) * math.sin(a):.2f}" r=".9" fill="{mc.CAST[m][0]}"/>')
+    out.append(mc.line(cx, cy, cx, cy - 6, mc.INK, .6) + mc.line(cx, cy, cx + 4, cy + 1.5, mc.INK, .6) + t(cx, cy + R + 4.4, "the clock", 400, mc.MUTED, "middle"))
+    # the hold banner, its title as the file gives it
+    out.append(f'<rect x="36" y="13" width="74" height="17" rx="1.4" fill="{mc.ACCENT}"/>' + t(39, 18.6, "HOLD", 800, "#fff")
+               + t(39, 23.2, title.split(";")[0].replace("HOLD: ", ""), 400, "#fff") + t(39, 27.6, title.split(";")[1].strip(), 400, "#fff"))
+    # what waits on the editor: lines, no items invented
+    out.append(f'<rect x="114" y="13" width="46" height="24" rx="1.4" fill="{mc.FILL}"/>' + t(117, 18.6, "waits on the editor", 700)
+               + "".join(f'<rect x="117" y="{22 + k * 4}" width="{36 - k * 6}" height="1.6" rx=".8" fill="{mc.FILL2}"/>' for k in range(3)))
+    # every wake as a grid: a square per wake record
+    y = 48.0
+    out.append(t(4, y, "every wake, one square each", 700))
+    y += 4
+    for m in order:
+        n = sc[m]["wakes"]
+        out.append(t(4, y + 2.6, m, 400, mc.INK))
+        for k in range(n):
+            out.append(f'<rect x="{26 + k * 2.9:.2f}" y="{y}" width="2.3" height="2.6" rx=".3" fill="{mc.CAST[m][0]}"/>')
+        y += 4.2
+    H = y + 2
+    out[0] = out[0].replace("{H}", f"{H:.1f}")
+    out.append(t(0, H + 4.6, "drawn from the page, not shot; minutes C071; wake records C022; the hold's title from the file at 298be4e", 400, mc.MUTED))
+    return mc.svg(164, round(H + 6.2, 1), "".join(out), "The team's dashboard, drawn: the clock, the hold, what waits on the editor, and every wake as a square")
+
+
+FLOORS = [("the talk", ("src/static/talk/",)),
+          ("the workshop of animations", ("src/static/ruv-sgit/", "src/pages/ruv-sgit/", "src/static/motion/", "src/pages/motion/")),
+          ("the studio", ("src/pages/studio/", "src/static/studio/", "src/static/studio-ports/", "src/pages/studio-ports/")),
+          ("the team's own records", ("team/", "src/pages/admin/"))]
+
+
+def site_building(clone):
+    import fnmatch
+    scopes = {}
+    for m in mc.CAST:
+        pol = json.loads(subprocess.run(["git", "-C", clone, "show", f"298be4e:team/{m}/policy.json"], capture_output=True,
+                                        text=True, check=True).stdout)
+        scopes[m] = pol.get("scope", {}).get("writes", [])
+    sc = scorecard()
+    order = sorted(mc.CAST, key=lambda m: sc[m]["first"])
+    out = [mc.path("M10 22 L82 4 L154 22 Z", mc.FILL, mc.INK, .5)]
+    fh, y = 17.0, 22.0
+    for name, prefixes in FLOORS:
+        lit = [m for m in order if any(w.startswith(p) or p.startswith(w.rstrip("*")) for w in scopes[m] for p in prefixes)]
+        out.append(f'<rect x="10" y="{y}" width="144" height="{fh}" fill="#fff" stroke="{mc.INK}" stroke-width=".5"/>'
+                   + t(14, y + 9.6, name, 700))
+        if len(lit) == len(mc.CAST):
+            for k, m in enumerate(lit):
+                out.append(g(mc.head(m), 58 + k * 9.6, y + .6, .4))
+            out.append(t(149, y + 15, "all nine", 400, mc.MUTED, "end"))
+        else:
+            for k, m in enumerate(lit):
+                out.append(g(mc.head(m), 62 + k * 24, y + .6, .4) + t(70 + k * 24, y + 15, m, 400, mc.INK, "middle"))
+        y += fh
+    out.append(mc.line(4, y, 160, y, mc.INK, .7))
+    out.append(t(0, y + 5, "each floor lit by the members whose policy at 298be4e lets them write its pages (scope.writes)", 400, mc.MUTED))
+    return mc.svg(164, round(y + 6.8, 1), "".join(out), "The site as a building, one floor per kind of page, each lit by the members who could write it")
+
+
+def g(body, x, y, s):
+    return f'<g transform="translate({x:.2f} {y:.2f}) scale({s})">{body}</g>'
 
 
 def register_bar():
@@ -170,7 +263,8 @@ def checklist():
 if __name__ == "__main__":
     clone = sys.argv[1]
     files = {"ch10-hold-file.svg": hold_file(clone), "ch12-state-machine.svg": state_machine(),
-             "ch8-register-bar.svg": register_bar(), "ch15-six-principles.svg": six_principles(), "ch16-checklist.svg": checklist()}
+             "ch8-register-bar.svg": register_bar(), "ch15-six-principles.svg": six_principles(), "ch16-checklist.svg": checklist(),
+             "ch2-dashboard.svg": dashboard(clone), "ch2-site-building.svg": site_building(clone)}
     for name, svg in files.items():
         (HERE / name).write_text(svg)
     print("written " + ", ".join(files))

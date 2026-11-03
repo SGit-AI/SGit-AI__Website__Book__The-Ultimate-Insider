@@ -111,6 +111,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - `lab/experiments/38-designer-rc2-chapters-2-3/ch3-map-of-the-day.svg`: RC2 chapter 3's map of the day, who was on stage when, hour by hour (C095's table checked against the register at build, C011, C087), the thirty's last missing picture. Lab PDF 126 pages.
 - The seventy (RC2's 70-page edition): `lab/tools/book/rc2-70-figures.json`, a proposed map of all its figure slots for the publisher (19 of 53 drawn, mostly the thirty's again; 24 marked for the designer); `lab/experiments/42-designer-rc2-seventy/`: its first two new drawings, the hold file as a page (read from HOLD.md at 298be4e) and the day as three states (C006, C024). Lab PDF 128 pages.
 - LAB 42, the seventy's three infographics: the talk's register as one bar (C029, C030), the six principles as cards (each with only what its own "Where it came from" line names), the checklist as one page (parsed from chapter 16). 22 of the seventy's 53 slots drawn. Lab PDF 130 pages.
+- LAB 42, the seventy's chapter 2: the dashboard drawn from the page (C071, C022, the hold's title at 298be4e) and the site as a building, each floor lit from the members' write scopes at 298be4e. 24 of the seventy's 53 slots drawn. Lab PDF 132 pages.
 
 ## The PDF lab, ruv.sgit's runs (ruv.sgit@book.the-ultimate-insider)
 
