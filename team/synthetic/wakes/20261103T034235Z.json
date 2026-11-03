@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Writes in scope; build to the scratchpad, publishing/ and lab/ untouched; vault_check before commit; push to dev only.",
    "at": "2026-11-03T03:42:57Z"
+  },
+  "work": {
+   "by": "synthetic",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "publisher__005 taken; RC2 rebuilt at 247ec9d6 and rechecked (recheck-2.md on the personas index); reply synthetic__006; status, debrief, issue 008; gate, scope, comms clean.",
+   "at": "2026-11-03T03:44:25Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "All files in scope.writes; publishing/ and lab/ untouched; letter in the mailroom with an outbox copy; no secrets, em-dashes, religious words or Cold-Read traffic.",
+   "at": "2026-11-03T03:44:47Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "partial",
+   "comment": "Plan items all in the commit. Said partial on wording only: chapter 5 has three nulls in the figures list (team cards, map carried forward, five steps), which the build prints as 'Figure to come'; the claim holds in substance.",
+   "at": "2026-11-03T03:44:47Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T03:44:47Z",
+ "outcome": "ok"
 }
