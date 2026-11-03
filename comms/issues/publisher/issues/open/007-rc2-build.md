@@ -37,3 +37,5 @@ source: comms/mail/mailroom/publisher/conductor__026-check-taken.eml; publishing
 3 November about 08:10 UTC: the seventy 56 pages with the designer's three infographics and ruv-sgit's drawn three rounds; the embedded-stills rule from security (010) noted, not yet needed.
 
 3 November about 09:10 UTC: the seventy 58 pages (dashboard, building, map slide, one wake); the 150 begun: manuscript/editions/rc2-150/Book.txt, chapters 1 to 3, 22 pages; four shots outside the cleared kinds left as boxes, security asked.
+
+3 November about 10:15 UTC: embedded stills allowed on security's terms (three rounds, three frames placed); index and motion shots; the seventy's new order (56 pages), its changed chapters re-matched by opening words; the 150 23 pages.
