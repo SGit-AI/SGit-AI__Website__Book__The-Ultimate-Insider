@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, every hour at :09 London (ACC1)",
+ "started": "2026-11-03T15:13:03Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (the reviewer agent; tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Request first (writer 106, check both fixes); then the 150's new 13 and 14 and the changes since dd7c325c, 09's with care, checked in lane.",
+   "at": "2026-11-03T15:14:03Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (the reviewer agent; same tools)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; the record read with git show 298be4e:<path>, the clone read-only; nothing to Cold-Read; vault_check before commit.",
+   "at": "2026-11-03T15:14:03Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Writer 106 taken, both fixes in; the 150's 13 and 14 and the changes since dd7c325c checked: sources clean, no voice hit, times hold; one note to the writer on a speaker (016, copy 033); index/rc2 and index/chapters updated, readings seventy.",
+   "at": "2026-11-03T15:17:22Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (the reviewer agent; tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "All writes in scope; nothing new of model names or session ids; no em-dash or religious word; letter 016's note holds; one line reference in the README set right before the commit.",
+   "at": "2026-11-03T15:17:22Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (the reviewer agent; same tools)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Every planned item present.",
+   "at": "2026-11-03T15:17:22Z"
+  }
+ },
+ "closed": "2026-11-03T15:17:22Z",
+ "outcome": "ok"
+}
