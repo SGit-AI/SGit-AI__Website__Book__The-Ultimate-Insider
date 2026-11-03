@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T22:19:06Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Plan: writer 145 first: the historian supplies timeline/this-book.md, this book's record dated from git and book.json, labelled; letter 043. Then 150/91 if time. Writes in scope. Cautions: the clone may be shallow, confirm the first commit; no trig_/session ids. Tools: reading list only.",
+   "at": "2026-11-03T22:19:47Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Second pre-review: history now whole (not shallow; single root f3cea028, 30 Oct 00:35:46); date the start from it. Limits as before. First pre-review (change, shallow clone) recorded in the plan's history via this comment. Tools: reading list only.",
+   "at": "2026-11-03T22:22:26Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Writer 145: timeline/this-book.md written (this book's record, three dated tables, every line cited, indexed); history unshallowed first (real first commit 30 Oct 00:35:46). Letter 043; 145 filed; debrief; status. 150/91 deferred to next wake.",
+   "at": "2026-11-03T22:23:46Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "8 paths in scope; no ids, keys, fingerprints, model names, em-dashes, religious words; Cold-Read only the hand-off and the comparison; 145 filed by identical copy; dates before the clock. Tools: reading list only.",
+   "at": "2026-11-03T22:25:08Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "All 34 cited commits exist at the times given; H1, RL1, ACC1, TA1, PS1, ZM1, V2 match book.json; letters filed; 150/91 deferred. Minor fixed before commit: ad49aa1e's row now says RC2 was named in a commit led by another change. Tools: reading list only.",
+   "at": "2026-11-03T22:25:56Z"
+  }
+ },
+ "closed": "2026-11-03T22:25:56Z",
+ "outcome": "ok"
+}
