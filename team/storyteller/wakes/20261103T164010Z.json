@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Security's cast guide entry; letters 101 and 102; mail filed; status and debrief. Out of order, recorded: the entry was drafted before the plan was recorded and the gate passed; it stayed uncommitted until both said go. Build and gate clean, 0 outside scope, vault_check clean.",
    "at": "2026-11-03T16:42:39Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (the post_review brief, as the reviewer agent)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "10 files in scope; build, validate and gate clean; 0 outside scope; vault_check clean; no key, token, personal detail, em-dash, religious word or directing text. No tool refused.",
+   "at": "2026-11-03T16:43:49Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (the post_check brief, as the reviewer agent)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Entry, letters 101 and 102, filed mail, status, debrief. Off-plan in order, recorded: the entry drafted before the plan and gate, held uncommitted until both said go. No tool refused.",
+   "at": "2026-11-03T16:43:49Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T16:43:49Z",
+ "outcome": "ok"
 }
