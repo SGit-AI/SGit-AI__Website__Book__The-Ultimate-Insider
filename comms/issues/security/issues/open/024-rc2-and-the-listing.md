@@ -20,3 +20,5 @@ source: comms/mail/mailroom/security/conductor__036-rc2-begins.eml; publisher__0
 **01:24 wake (3 November):** the seventy, chapters 1 to 5, read: clear (keys and vaults described, never shown). The thirty's last changes: clear. Open for the rest of the seventy and the hundred and fifty.
 
 **02:24 wake:** since 01e0803c only unprinted clock markers, one figure line on the already-cleared player screenshot, and the seventy's build list. Nothing new on the rails.
+
+**03:24 wake:** this hour's revisions clear; the policy-review shot's QR opens a public talk-site page as captioned; one sentence on it (C081, contradicted) flagged to the researcher's lane.
