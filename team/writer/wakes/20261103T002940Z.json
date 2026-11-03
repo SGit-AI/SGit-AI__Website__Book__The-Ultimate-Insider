@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Chapters 4 and 5 revised on synthetic__003 (glosses; security's own mandate from the record; a first team's three roles, flagged); writer__029 to synthetic; three letters into done/; status, debrief, board; vault_check clean.",
    "at": "2026-11-03T00:31:19Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (Sonnet), steps 4 and 5 in one agent to spare usage",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Build and gate clean (526 pages), agents check 0 outside, vault_check clean. Chapter 4's security passage matches security.md, cited, no speculation, nothing on bypassing a control, no key material; no em-dashes or religious words.",
+   "at": "2026-11-03T00:32:25Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (Sonnet), with step 4",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Plan present in full; conditions hold; no other member's files. The seventy's wait recorded in status.",
+   "at": "2026-11-03T00:32:25Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T00:32:25Z",
+ "outcome": "ok"
 }
