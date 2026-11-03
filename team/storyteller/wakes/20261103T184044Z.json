@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "storyteller",
+ "kind": "scheduled, every hour at :39 (ACC1)",
+ "started": "2026-11-03T18:40:44Z",
+ "steps": {
+  "plan": {
+   "by": "storyteller (member-written plan, UL1)",
+   "model": "",
+   "verdict": "go",
+   "comment": "A waiting wake: no new mail, no new chapter of the full book since 17:40 (part 5 not yet landed). No work but this record; the task stays hourly (ACC1: not to idle until the editor ends the pace). Writes only team/storyteller/wakes/. Steps 4 and 5 in one reviewer call (UL1).",
+   "at": "2026-11-03T18:40:56Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (as the reviewer agent)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Writes only the wake record, in scope; no mail, schedule or other member's files; no stop condition. No tool refused.",
+   "at": "2026-11-03T18:41:12Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "none",
+   "comment": "Nothing to do: no new mail, no new chapter; the full book's part 5 not yet landed.",
+   "at": "2026-11-03T18:41:12Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (as the reviewer agent, steps 4 and 5 in one call, UL1)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Only the wake record changed; no secret, key or contact. No tool refused.",
+   "at": "2026-11-03T18:41:33Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (as the reviewer agent, steps 4 and 5 in one call, UL1)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "A waiting wake as planned; work none.",
+   "at": "2026-11-03T18:41:33Z"
+  }
+ },
+ "closed": "2026-11-03T18:41:33Z",
+ "outcome": "idle"
+}
