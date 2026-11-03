@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "storyteller",
+ "kind": "scheduled, every hour at :39 (ACC1)",
+ "started": "2026-11-03T16:40:10Z",
+ "steps": {
+  "plan": {
+   "by": "storyteller (member-written plan, UL1)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Requests first: conductor 052 (the editor's ask for security's card: a cast guide entry for security as this book's member, beside the day's empty chair, which stays; the newsroom article may say the stop button became a section of chapter 18) and designer 113 (security drawn as a proposal, to redraw to the entry). The work: the entry in chapter-plan/cast/cast-guide.md, every trait from this book's record (its role, its letters, its debriefs, the TA1 case), never on the talk's stage; letters to the designer and the conductor (the chapter-18 fact for the newsroom, as material, corrections being the newsroom's). Every review step as the reviewer agent. Writes only chapter-plan/, team/storyteller/, comms/mail/storyteller/, mailroom storyteller__* letters. Build, gate, vault_check before push; fetch and merge again before the push.",
+   "at": "2026-11-03T16:41:11Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (the pre_review brief, as the reviewer agent)",
+   "model": "",
+   "verdict": "go",
+   "comment": "All paths in scope.writes; no secrets or stop condition; the newsroom fact passed as material. Conditions: vault_check; no religious words or em-dashes; every trait from this book's record; fetch and merge before the push. No tool refused.",
+   "at": "2026-11-03T16:41:52Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "done",
+   "comment": "Security's cast guide entry; letters 101 and 102; mail filed; status and debrief. Out of order, recorded: the entry was drafted before the plan was recorded and the gate passed; it stayed uncommitted until both said go. Build and gate clean, 0 outside scope, vault_check clean.",
+   "at": "2026-11-03T16:42:39Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
