@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake (hourly, ACC1)",
+ "started": "2026-11-03T13:04:36Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (amended at the pre-review's change: paths named)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Paths: copy librarian__030-copy-013-the-150-6-to-8.eml, security__036-ta1-all-twelve-newsroom-150-06-08.eml and storyteller__095-stop-button-a-section.eml from comms/mail/mailroom/conductor/ to comms/mail/conductor/done/; update team/conductor/status.json; the wake record. Nothing else written; no brief, no letters.",
+   "at": "2026-11-03T13:05:07Z"
+  },
+  "pre_review": {
+   "by": "reviewer agent (haiku)",
+   "model": "claude-haiku-5-5",
+   "verdict": "go",
+   "comment": "Change taken: the paths named, all in comms/mail/conductor/ and team/conductor/; nothing decided; nothing private.",
+   "at": "2026-11-03T13:05:08Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
