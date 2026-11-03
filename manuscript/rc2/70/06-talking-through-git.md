@@ -35,7 +35,7 @@ Band: *The wakes by trigger, hour by hour; none started by me from just after fo
 
 **Deck** *(a little put out, then fair)*: One at a time, then. I will wait until the first one comes back.
 
-`%% record: aeffbf9 (04:22, deck to the conductor) team/deck/wakes/20261029T041822Z.json; the talk team's vaults: team/conductor/vaults.json at 298be4e; comms/README.md (this book's)`
+`%% record: aeffbf9 (04:22, deck to the conductor) team/deck/wakes/20261029T041822Z.json; the talk team's vaults, named and not cited by path; comms/README.md (this book's)`
 Band: *Dramatised. Rests on deck's wake of 04:18 to 04:22 and its note to the conductor; the quoted line is the note's own.*
 
 ## The argument with a reviewer
@@ -97,4 +97,4 @@ Band: *Dramatised (ruv-sgit's line). The two notes are quoted from their commits
 
 The talk's repository at the end of the day: deck's wake and its note of 04:22, the researcher's wake of 04:11, the conductor's commit of 10:05 and deck's of 10:21, with their notes; the talk team's vault registry. This book's own comms folder, for the same layout in git. The register for the hours and the trigger counts. ruv-sgit's reviewer card. The librarian's study of the site's commits page. The storyteller's outline for this chapter.
 
-`%% record: talk repository at 298be4e: aeffbf9 af0010b 09317d9 36e382b team/deck/wakes/20261029T041822Z.json team/researcher/wakes/20261029T041003Z.json team/conductor/vaults.json; comms/README.md; claims/register.json C087 C107 C110; lab/experiments/30-ruv-the-reviewer-card/; index/talk-site/README.md; chapter-plan/edition-70-outline.md part 3 chapter 6`
+`%% record: talk repository at 298be4e: aeffbf9 af0010b 09317d9 36e382b team/deck/wakes/20261029T041822Z.json team/researcher/wakes/20261029T041003Z.json; comms/README.md; claims/register.json C087 C107 C110; lab/experiments/30-ruv-the-reviewer-card/; index/talk-site/README.md; chapter-plan/edition-70-outline.md part 3 chapter 6`
