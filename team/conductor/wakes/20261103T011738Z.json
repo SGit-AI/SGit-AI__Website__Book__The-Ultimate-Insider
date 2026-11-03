@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "In scope at his explicit word in his own chat; change only the twelve crons, never prompt, model or session; schedule.json to match; usage risk told plainly; recorded as his standing override, not idle drift.",
    "at": "2026-11-03T01:18:12Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "His words in 04-tighten-it-and-run-every-hour.md; twelve scheduled tasks to hourly at their own minutes (cron only); schedule.json and ACC1 in book.json; eleven letters with his praise, his notes and each lane; status.",
+   "at": "2026-11-03T01:19:42Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "His words verbatim; quotes match; nothing private; no member file; all twelve crons hourly, cron only.",
+   "at": "2026-11-03T01:20:14Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "As planned; the usage warning told to him in the chat reply.",
+   "at": "2026-11-03T01:20:14Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T01:20:14Z",
+ "outcome": "ok"
 }
