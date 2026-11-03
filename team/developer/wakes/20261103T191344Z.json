@@ -3,7 +3,22 @@
  "agent": "developer",
  "kind": "scheduled, hourly at :12 (ACC1)",
  "started": "2026-11-03T19:13:44Z",
- "steps": {},
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (plan brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused",
+   "model": "",
+   "verdict": "go",
+   "comment": "Idle was proposed, but the step found work: manuscript/editions/rc2-150 (the full book's draft, 21 chapters, 185 record lines) is built nowhere online, so 'every edition online' was untrue. Plan changed: make_editions.py adds rc2-150 (pages, record, data, page view by scene), print_pages.py its printed pages as release.yml builds it, and the zoom's rung; status, debrief, REALITY, gate, push.",
+   "at": "2026-11-03T19:15:04Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (pre_review brief, re-run on the changed plan), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused",
+   "model": "",
+   "verdict": "go",
+   "comment": "The changed plan (rc2-150 online) is in scope. Conditions: through make_editions.py's existing guards (no %%, URLs only on the two hosts, no outside address in a QR target); the PDF build in mkdtemp with rmtree; outside names in the chapters (newsroom.sgit.ai, wardleymaps.com, claude.ai) stay plain text. The 21 chapters hold no key, contact detail or attack-shaped content.",
+   "at": "2026-11-03T19:16:02Z"
+  }
+ },
  "closed": null,
  "outcome": null
 }
