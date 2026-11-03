@@ -39,7 +39,7 @@ Band: *Dramatised (dev's line). Rests on the feedback round (dictated about 13:5
 
 **Narrator.** The tree put the talk's beats in an order with a reason behind it: what the room must believe first, and what follows from it. The maps put the parts of the argument where they sit relative to each other, with "positions, not measurements" on the slide.
 
-**Figure:** the storyteller's story tree as it was that afternoon: the talk's beats as branches, as its own text has them, with no turn marked, since the tree marks none.
+**Figure:** the storyteller's story tree as it was that afternoon: the talk's beats as branches, as its own text has them, with no turn marked, since the tree marks none at 14:19 (df37797); a later version, after my decisions of 15:00 (2afe0d7, 16:04), labels one edge as the turn.
 
 `%% record: 7d0244d (14:15) df37797 (14:19) timeline/cast-scenes.md scene 4`
 Band: *Dramatised (the storyteller's line). Rests on its arrival and its first letter to deck; the quoted line is the letter's own.*
