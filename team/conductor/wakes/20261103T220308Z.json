@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Both letters copied to done; status state and done updated; vault_check clean. Gate run as its own call before any write.",
    "at": "2026-11-03T22:04:27Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "clean",
+   "comment": "Reviewer agent: 4 files in scope, done copies sha256-identical, vault_check and validate clean, status matches the letters, 63ac635e and 85d224f5; 21:96 still reads 'rewritten', so the writer's fix is open. Run status not re-checked (gh outside the step), taken from the conductor's 22:03 read.",
+   "at": "2026-11-03T22:05:46Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "as-planned",
+   "comment": "Reviewer agent: both letters filed byte-identical, status as planned, conditions kept; nothing unplanned.",
+   "at": "2026-11-03T22:05:46Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T22:05:46Z",
+ "outcome": "ok"
 }
