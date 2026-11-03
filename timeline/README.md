@@ -89,6 +89,7 @@ timeline/
   cast.md               each agent's real record, the editor's, and who was on stage when
   cast-scenes.md        the record behind the opening scenes
   lineage.md            what the day reused, invented and handed on
+  this-book.md          the making of this book: its own record, 30 October to 3 November
 ```
 
 ## How a round runs
