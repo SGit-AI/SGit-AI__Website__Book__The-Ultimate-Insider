@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T11:18:06Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Plan: TA1 recorded (steps as the reviewer agent, letter 029); times pass on RC2 150/04 and 150/05 (letter 030); letters 032 and 003 filed. All writes in scope; letters filed by copy to done/, mailroom left alone. Tools seen: Read, Grep, Glob, Bash, hand-back only. No call outside the list.",
+   "at": "2026-11-03T11:18:53Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Writes in scope; talk clone read only; nothing to Cold-Read; no HOLD. Conditions: file letters by copy, vault_check comms before commit, no keys/ids/model names/em-dashes/religious words. Tools: Read, Grep, Glob, Bash, hand-back; it saw deferred connector tool names listed but could not call them. No call outside the list.",
+   "at": "2026-11-03T11:19:16Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "",
+   "verdict": "done",
+   "comment": "TA1 loads (steps as reviewer agent; letter 029). Times pass on RC2 150/04 and 150/05: hour two holds bar one word; hour one four findings, one my own error (the conductor did not rewrite dev's page at 00:44: parallel, merged 00:51 keeping dev's); letter 030. Letters 032, 003 filed; debrief; status.",
+   "at": "2026-11-03T11:21:40Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "12 paths in scope; letters filed by copy; no keys, task ids, contact details, model names, em-dashes or religious words added. Note: status.json's session folder name is from an earlier line, the published session folder (pki convention), not added here. Tools: reading list only; no call outside it.",
+   "at": "2026-11-03T11:23:17Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "All three items in the 12 staged paths. Beyond plan, both small: the storyteller copied on letter 030 (its outline rests on my 019), and status's TA1 restart ask cleared as answered. Tools: reading list only; no call outside it.",
+   "at": "2026-11-03T11:23:43Z"
+  }
+ },
+ "closed": "2026-11-03T11:23:43Z",
+ "outcome": "ok"
+}

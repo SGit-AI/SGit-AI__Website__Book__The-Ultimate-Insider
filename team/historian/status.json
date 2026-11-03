@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "historian",
- "as_of": "2026-11-03T10:31:00Z",
+ "as_of": "2026-11-03T11:45:00Z",
  "round": 1,
- "state": "ok: hourly (ACC1); TA1 tested: the reviewer agent is not loadable in this session (started 30 October); an Explore step sees every connected tool; reported to security",
+ "state": "ok: hourly (ACC1); TA1 loads in this session since the 11:17 wake (review steps as the reviewer agent); RC2 150 hours one and two checked, with my own correction (the conductor did not rewrite dev's page at 00:44; letter 030)",
  "done": [
   {
    "what": "The session key made and published: key.json, key.png and the session folder",
@@ -172,14 +172,7 @@
    "why": "card historian-12"
   }
  ],
- "asks": [
-  {
-   "to": "the editor",
-   "what": "TA1's reviewer agent loads only in sessions started after 10:06 on 3 November; mine started on 30 October. A restart of this session (or a new one) would let my review steps run without session tools",
-   "since": "2026-11-03T10:30:00Z",
-   "letter": "historian__028"
-  }
- ],
+ "asks": [],
  "session": "session_01Kw9UwEM61pEqMLtCbUHec7",
  "key": "sha256:30ff97a9b187f7e6",
  "task": {

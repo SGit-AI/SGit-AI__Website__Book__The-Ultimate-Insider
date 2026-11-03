@@ -104,3 +104,26 @@ From word to commit: 25 minutes, through two agents, and the check found one gap
 | `manuscript/rc2/150/03-the-tour-at-length.md:112` | the home page given to dev, `5a91607` (16:06) | Dev made the home page in its first pass at 00:40 (`1f7c633`); `5a91607` at 16:06:50 changed its words ("the home page says the perfect storm"). Cite both, or say "dev's home page, its words of 16:06" | `1f7c633`; `5a91607` |
 | `manuscript/rc2/150/03-the-tour-at-length.md:167` | the policy review page given to studio, `bd3cdad` | Right: the page first appears in `bd3cdad` at 17:47:28 | `bd3cdad` |
 | `manuscript/rc2/150/03-the-tour-at-length.md:211` | the night's brief given to the conductor, `648feee` (03:10) | The conductor's, but first written at 02:57:23 (`c531560`), then edited at 03:05 and 03:10 (`648feee`, "dev's two new asks scheduled") | `c531560`, `8543269`, `648feee` |
+
+## The full book (150), part 2 begun: hour one and hour two, 3 November 11:18 UTC
+
+Against the talk's repository at `298be4e`, every time, commit and attribution in `manuscript/rc2/150/04-hour-one-the-empty-project.md` and `05-hour-two-the-rules-written.md` (the writer's `b0f59de3`, 10:34). Hour two holds throughout; hour one has four findings, the first of them my own error.
+
+### Hour one (150/04)
+
+| Where | The text says | The record says | Evidence |
+|---|---|---|---|
+| `04-hour-one-the-empty-project.md:47`, `:48`, `:50` | the conductor "rewrote the page at 00:44"; "the rules every member later followed grew from both" | **My error, corrected here: I told the storyteller and the writer "rewrote" (letters 019, 020).** The conductor's 00:44 commit does not descend from dev's: its parent is the empty first commit, so it wrote its own 36-line page in parallel, without having seen dev's 9 lines. At 00:51:12 it merged dev (`17b287b`) and the page that came out is dev's, word for word, with two lines added (the team in `team/`, and every session making its own key). Safest: "The conductor, working in parallel, wrote a longer page of its own at 00:44; when it merged dev's work at 00:51, dev's page is the one that stayed, with two lines of the conductor's added" | `97b98d9` (parent `2e4b1f4`); `17b287b` (parents `97b98d9`, `ab09186`); `git diff 1f7c633 17b287b -- CLAUDE.md` |
+| `:87` to `:104` | "The four within the hour": dev, the conductor, deck, ruv-sgit | ruv-sgit joined at 01:08:25, in hour two, and was not on the conductor's first roster (conductor, security, researcher, deck, dev). Hour two's cast bar already has it at 01:08. Within hour one: dev 00:40, the conductor 00:44, deck 00:51 | `defe526` (01:08:25); `97b98d9` (the first five); `20ab1a3` (00:51:53) |
+| `:93` | the conductor: "I never sign for the editor" | No such line in the conductor's page of rules or policy at `298be4e`; it is this book's own rule ("Nobody speaks for the editor"). The talk conductor's page says it proposes roles "until the editor agrees them or drops them", runs the schedule "once the editor approves", and keeps "what waits on the editor" | talk `team/conductor/ROLE.md:12`, `:22`, `:24` at `298be4e` |
+| `:63` | the corrections file "said, in full: 'None yet.'" | It had a heading and one sentence of purpose above "None yet." Safest: "its only entry: 'None yet.'" | `1f7c633:BRIEF-CORRECTIONS.md` |
+
+Checked and holding: the first commit at 00:16:23 with a licence, a read-me and a `.gitignore` (`2e4b1f4`); dev's first pass at 00:40:50, twenty-four minutes later (`1f7c633`); the brief's "tomorrow" and its single commit to the end of the day; the reality file's second sentence and its "Does not exist yet" list with the agent team first; the conductor at 00:44:37, "everything marked proposed", "No scheduled task is created"; deck at 00:51:53; the banners 00:53:45 to 00:58:19, adopted from the PHP newsroom's brief (`a3a4807`); dev's "catches mistakes, not a steered agent" and "pushing to `main` (an expectation)"; the conductor's "two slots"; deck's "projector size" and "a slide only seen as code is a slide not seen"; deck's version rule and the newsroom's 27 October; ruv-sgit's "the container is ephemeral" (its rule is about vault keys; the paraphrase is fair).
+
+### Hour two (150/05)
+
+| Where | The text says | The record says | Evidence |
+|---|---|---|---|
+| `05-hour-two-the-rules-written.md:17` | the schedule "a few minutes apart" | "fifteen minutes apart (conductor :02, deck :17, ruv-sgit :32, dev :47)", in the commit's own words | `09f13d5` (01:39:47) |
+
+Checked and holding: 01:27:10 to 01:39:47 for the conductor's rules (`02cbd86`, `ecc048e`, `5c2bcc5`, `09f13d5`); the hold before the first wake; 01:40:42 the tasks recorded (`d8f3300`, "the four scheduled tasks", the conductor's own and three others); 01:43:19 the three disabled "before any fired" and the editor's prompt in `ONBOARDING.md` (`b620234`); dev's release at 01:19:26 (`24da366`); the researcher at 01:52:10 (`01e9ed3`); dev's key at 01:53:48 and its own task at 01:54:53, with the conductor's task for it left disabled (`56cbe55`, `5c5b23b`); the subject form at 01:36:16 (`5c2bcc5`), the conductor's own earlier subjects without it.
