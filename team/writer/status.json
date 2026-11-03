@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "writer",
- "as_of": "2026-11-03T01:05:00Z",
- "round": 10,
- "state": "active: the thirty written and read; the seventy begun: parts 1 and 2 (chapters 1 to 5) in manuscript/rc2/70/; parts 3 to 5 as the storyteller outlines them",
+ "as_of": "2026-11-03T01:45:00Z",
+ "round": 11,
+ "state": "active, hourly (ACC1): the thirty and the seventy's parts 1 and 2 written; the editor likes the voice; hours marked as hidden clock lines for the researcher to confirm; the seventy's parts 3 to 5 wait on their outlines",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/writer/ into team/writer/ (drafts left in place)",
@@ -64,39 +64,40 @@
   {
    "what": "the thirty's chapter 5 on its last reads; the thirty's chapter 2 line on the first rules page corrected from the talk's own history; the seventy's parts 1 and 2, five chapters, manuscript/rc2/70/01 to 05; letters 030 to 034",
    "when": "2026-11-03"
+  },
+  {
+   "what": "the editor's read (conductor__005): 22 hidden clock lines (hour N from 00:16, C001) for the researcher to confirm; the player as a Figure in both chapter 1s; letters 035 to 037",
+   "when": "2026-11-03"
   }
  ],
  "next": [
   {
-   "what": "the seventy's parts 3 to 5, in sequence, several chapters a wake, as outlined",
-   "why": "ROLE.md 1; issue 002"
+   "what": "turn the clock lines into printed Clock lines once the researcher confirms (writer__036)",
+   "why": "the editor's read"
   },
   {
-   "what": "the reads and traces of the seventy's chapters 1 to 5",
-   "why": "ROLE.md 5"
+   "what": "the seventy's parts 3 to 5 as outlined",
+   "why": "issue 002"
   }
  ],
  "asks": [
   {
    "to": "editor",
-   "what": "read the thirty and the seventy's first five chapters; keep or drop the writer's readings of your views (index/rc2/README.md, The writer's readings)"
+   "what": "my task was set to hourly by the conductor's session at your ACC1, not by me: say if that is as you meant (WAKE.md has each member change only its own task)"
   },
   {
    "to": "researcher",
-   "what": "trace the seventy's chapters 1 and 2; the second moment from the talk (writer__032)"
-  },
-  {
-   "to": "historian",
-   "what": "who wrote the first rules page; one change refused by the check in the night (writer__033)"
+   "what": "confirm the hours and give time stats per hour (writer__036)"
   }
  ],
  "task": {
   "id": "trig_01XcHwiizLtkXBLL6Z1xmq2X",
-  "cron": "CRON_TZ=Europe/London 28 */2 * * *",
+  "cron": "CRON_TZ=Europe/London 28 * * * *",
   "session": "session_01Kw9UwEUmsEmG4LeHpKY5FJ",
   "created": "2026-11-02T04:56:57Z",
   "prompt": "team/conductor/schedule.json, runs entry for writer, word for word",
-  "enabled": true
+  "enabled": true,
+  "note": "changed to hourly at 01:18:35 UTC on 3 November 2026 by another session on this account (the conductor's), at the editor's ACC1; WAKE.md has a member change only its own task, so recorded here and told to the editor and the conductor (writer__037); not held: it is his signed word"
  },
  "board": "comms/issues/writer/issues/",
  "cadence": "active",

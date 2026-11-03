@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer",
+ "kind": "scheduled, every two hours at :28 London",
+ "started": "2026-11-03T01:28:41Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (Sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. Requests first (conductor__005): '**Clock:** hour N' lines (counted from C001, 00:16) in manuscript/rc2/30 chapters 1 to 4 and the seventy's 1, 3, 5; Figure lines for the player's interface in both chapter 1s. 2. Letters: researcher (confirm hours, per-hour stats), publisher and designer (the Clock convention), conductor (task note: hourly matches ACC1; recorded, not held). 3. Both letters into done/, status, debrief, board; the seventy's parts 3 to 5 wait on outlines.",
+   "at": "2026-11-03T01:29:44Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (Sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope; letters only to others. The hourly task is the editor's signed ACC1, not a stop condition: record it and tell the editor and conductor. Conditions: no hour number or stat enters the prose until the researcher confirms it; vault_check comms; no religious words or em-dashes.",
+   "at": "2026-11-03T01:30:08Z"
+  },
+  "work": {
+   "by": "writer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "22 hidden %% clock lines (hour N from 00:16, C001) in manuscript/rc2/30/01-04 and 70/01, 03, 05, none printed until the researcher confirms; the player as a Figure in both chapter 1s; letters 035 to 037; two letters into done/; status (the task change recorded), debrief, board; vault_check clean.",
+   "at": "2026-11-03T01:31:00Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

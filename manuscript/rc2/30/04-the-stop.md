@@ -4,6 +4,8 @@
 
 ## The last ten minutes
 
+`%% clock: hour 19 (18:16 to 19:16): 18:36 to 18:46. Hour N counted from the empty repository at 00:16 (C001); to print as a **Clock:** line once the researcher confirms (writer__036).`
+
 **Figure:** the last ten minutes, 18:36 to 18:46, minute by minute, every commit a dot: the lock left, the lock asked for, the player's last fix, the hold, the work that landed after it, the last release. The chapter's infographic, for the designer, each dot with its id in small type.
 
 **Narrator.** Here is what the factory was doing in the ten minutes before I stopped it.
@@ -26,6 +28,8 @@
 Band: *Dramatised. Rests on the conductor's wake at 18:36 ("Leave the lock to dev (its scope, irreversible)"), its request to dev at 18:39, the player's last fix landing at 18:37, and the part locks as the register holds them: planned, built, and none turned by the end of the day.*
 
 ## The hold
+
+`%% clock: hour 19 (18:16 to 19:16): the hold at 18:44, the talk due at 19:00. Hour N counted from the empty repository at 00:16 (C001); to print as a **Clock:** line once the researcher confirms (writer__036).`
 
 **Narrator.** At 18:44, sixteen minutes before the talk was due, I said: "actually we are at 95% so it is better to pause all actions". *(record)*
 

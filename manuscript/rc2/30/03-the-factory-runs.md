@@ -4,6 +4,8 @@
 
 ## The empty chair
 
+`%% clock: hours 4 to 14 (03:16 to 14:16): no wake of mine from 04:03 to about 13:50. Hour N counted from the empty repository at 00:16 (C001); to print as a **Clock:** line once the researcher confirms (writer__036).`
+
 **Figure:** the day by trigger: hour by hour, two colours, the wakes the factory's own clock started and the wakes I started. Through the morning, one colour only. The chapter's infographic, for the designer, with the counts in the picture and their id in small type.
 
 **Narrator.** For nine hours I started nothing. Every piece of work in that stretch began on the factory's own clock.
@@ -14,6 +16,8 @@
 Band: *The wakes started by the schedule and by me, hour by hour; no wake from just after four to about ten to two was started by me.*
 
 ## The argument with a reviewer
+
+`%% clock: hour 4 (03:16 to 04:16): 04:11. Hour N counted from the empty repository at 00:16 (C001); to print as a **Clock:** line once the researcher confirms (writer__036).`
 
 `%% for the editor: "and it is my favourite" is the writer's reading of his view; his to keep or drop.`
 
@@ -35,6 +39,8 @@ Band: *The wakes started by the schedule and by me, hour by hour; no wake from j
 Band: *Dramatised. Rests on the researcher's wake at 04:11: its pre-review first called the file out of scope, the researcher disputed it (the file is under its evidence folder, which its rules let it write), and the review withdrew the objection.*
 
 ## Sent back, and owned
+
+`%% clock: hours 5 to 11 (04:16 to 11:16): 04:19, 06:21, 10:05, 10:49. Hour N counted from the empty repository at 00:16 (C001); to print as a **Clock:** line once the researcher confirms (writer__036).`
 
 **Narrator.** Three more, through the morning. Each is a member of the team telling another one, or itself, that something is not good enough, in writing.
 
@@ -69,6 +75,8 @@ Band: *Dramatised. Rests on deck's review of ruv-sgit's picture (06:21), deck's 
 
 ## The creator comes back
 
+`%% clock: hours 14 to 19 (13:16 to 19:16): about 13:50 to 18:37. Hour N counted from the empty repository at 00:16 (C001); to print as a **Clock:** line once the researcher confirms (writer__036).`
+
 **Narrator.** At about ten to two I came back, and the loop began.
 
 **Narrator.** I dictated a round of feedback, and the first line of it was the player: the thing that would let me press play on stage, working on an iPad. "This is the main priority." The conductor routed it, and by the middle of the afternoon dev had ported a first version.
@@ -88,6 +96,8 @@ Band: *Dramatised. Rests on the feedback round dictated at about 13:50 and recor
 
 ## The objection kept
 
+`%% clock: hour 15 (14:16 to 15:16): 14:33 and 15:02. Hour N counted from the empty repository at 00:16 (C001); to print as a **Clock:** line once the researcher confirms (writer__036).`
+
 **Narrator.** One thing I asked for came back as a no.
 
 **Narrator.** My story for the talk leaned on a claim: that the outside of an organisation, the part facing the internet, is more mature than its inside. Soon after the storyteller arrived, the researcher checked it against the published breach data and found the opposite.
@@ -106,6 +116,8 @@ Band: *Dramatised. Rests on the feedback round dictated at about 13:50 and recor
 Band: *Dramatised. Rests on the researcher's finding to the storyteller (14:33) and the storyteller passing it to me as the strongest objection to my part one (15:02); the quoted words are the researcher's.*
 
 ## A relayed word refused
+
+`%% clock: hour 18 (17:16 to 18:16): 17:41 to 17:47. Hour N counted from the empty repository at 00:16 (C001); to print as a **Clock:** line once the researcher confirms (writer__036).`
 
 **Narrator.** One more, late in the afternoon.
 

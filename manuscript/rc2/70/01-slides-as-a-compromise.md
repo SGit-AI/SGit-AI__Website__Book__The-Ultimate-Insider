@@ -24,7 +24,11 @@
 
 ## Pressing play
 
+`%% clock: hour 19 (18:16 to 19:16): the change at 18:26; the talk due at 19:00. Hour N counted from the empty repository at 00:16 (C001); to print as a **Clock:** line once the researcher confirms (writer__036).`
+
 **Narrator.** On 29 October I gave a talk where I mostly did not have to do that. When a thing had to move, I pressed play and it moved.
+
+**Figure:** the player as I saw it on stage: the slide large, a countdown against my time, the step controls, and my notes behind a key press. From the talk's own player page (the librarian's screenshot, `index/talk-site/shots/talk__player.jpg`); the notes as the page shows them.
 
 **Narrator.** Here is one moment, from the recording. It is an animation the team called the building. In it, ordinary users walk through and stop; agents keep going until they find what should not be there. I did not explain the movement. I let it run, and talked about what it meant:
 
@@ -42,6 +46,8 @@
 Band: *The quoted passage is my own, from the transcript of the talk at 15:50 on the recording's clock (added after the day). The change at 18:26 rests on motion's wake record and its commit at 18:29.*
 
 ## The loop
+
+`%% clock: hours 14 to 19 (13:16 to 19:16): the player from about 13:50 to the last fix at 18:37. Hour N counted from the empty repository at 00:16 (C001); to print as a **Clock:** line once the researcher confirms (writer__036).`
 
 **Narrator.** That last change is the real story. Not the animation: the loop.
 

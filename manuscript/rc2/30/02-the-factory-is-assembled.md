@@ -4,6 +4,8 @@
 
 ## The empty project
 
+`%% clock: hour 1 (00:16 to 01:16): the empty project at 00:16, dev's first pass at 00:40. Hour N counted from the empty repository at 00:16 (C001); to print as a **Clock:** line once the researcher confirms (writer__036).`
+
 **Narrator.** A quarter past midnight: an empty project. Not a template, not a half-built site from last time. A new repository with a licence, a short read-me and almost nothing else. Its first commit says "Initial commit", and that is all it says.
 
 *Words for this page:* a **repository** is the project's folder, with its whole history kept. A **commit** is one saved change to it, with a time and a short message saying what changed.
@@ -16,6 +18,8 @@
 Band: *Dramatised. Rests on the first commit (00:16) and dev's first pass (00:40), whose message names the brief published in full, the reality and corrections files, one build and a gate.*
 
 ## Four arrivals
+
+`%% clock: hour 1 (00:16 to 01:16): four arrivals, 00:40 to 01:08. Hour N counted from the empty repository at 00:16 (C001); to print as a **Clock:** line once the researcher confirms (writer__036).`
 
 *Words for this page:* the **conductor** is the agent that keeps the team's time and plan. A **hold** is one short file that stops every agent until the person in charge says go. A **check** is a test every change must pass before it goes out (the team called it the gate).
 
@@ -64,6 +68,8 @@ Band: *Dramatised. Each agent's lines rest on its first commit after midnight: d
 
 ## The clock and the five steps
 
+`%% clock: hours 2 and 3 (01:16 to 03:16): the schedule at 01:39, the five steps at 02:16 to 02:18. Hour N counted from the empty repository at 00:16 (C001); to print as a **Clock:** line once the researcher confirms (writer__036).`
+
 **Narrator.** Then, in the small hours, the conductor built the machinery. This is the part that let me leave them alone, and I did not know yet how much I would.
 
 **Conductor** *(on the minute)*: A clock: each member wakes at its own minute. A hold anyone can pull. And every piece of work goes the same way: plan it, have the plan checked, do it, have it checked, check it went to plan.
@@ -80,6 +86,8 @@ Band: *Dramatised. Each agent's lines rest on its first commit after midnight: d
 Band: *Dramatised. Rests on the hourly schedule (01:39) and the five-step wake record and its rules (02:16 to 02:18).*
 
 ## Caught by its own reviewer
+
+`%% clock: hour 3 (02:16 to 03:16): the first wake closes partial at 02:19. Hour N counted from the empty repository at 00:16 (C001); to print as a **Clock:** line once the researcher confirms (writer__036).`
 
 **Narrator.** One thing to know before this scene: the reviewer is not a different kind of thing. It is the same kind of agent, in the same session, given a checker's brief instead of a builder's.
 
@@ -99,6 +107,8 @@ Band: *Dramatised. Rests on the hourly schedule (01:39) and the five-step wake r
 Band: *Dramatised. Rests on the conductor's first five-step wake, closed partial at 02:19; the reviewer's and the conductor's lines are theirs, from that night's records.*
 
 ## Before dawn
+
+`%% clock: hours 2 to 4 (01:16 to 04:16): the researcher at 01:52, the designer at 03:41, my last request of the night at 04:03. Hour N counted from the empty repository at 00:16 (C001); to print as a **Clock:** line once the researcher confirms (writer__036).`
 
 **Narrator.** Two more arrived before it was light. The researcher at about two: the one who checks every fact against its source, and the one who would tell me "no" in writing before the day was out. Then the designer, a little before four, with the first design pass.
 

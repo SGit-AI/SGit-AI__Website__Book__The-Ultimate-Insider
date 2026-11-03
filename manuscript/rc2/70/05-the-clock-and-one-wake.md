@@ -4,6 +4,8 @@
 
 ## The clock and the five steps
 
+`%% clock: hours 2 and 3 (01:16 to 03:16): 01:39 to 02:18. Hour N counted from the empty repository at 00:16 (C001); to print as a **Clock:** line once the researcher confirms (writer__036).`
+
 **Narrator.** In the small hours, the conductor built the machinery that let me leave them alone.
 
 **Conductor** *(on the minute)*: A clock: each member wakes at its own minute. A hold anyone can pull. And every piece of work goes the same way: plan it, have the plan checked, do it, have it checked, check it went to plan.
@@ -18,6 +20,8 @@
 Band: *Dramatised. Rests on the hourly schedule (01:39) and the five-step wake and its rules (02:16 to 02:18).*
 
 ## One wake, start to finish
+
+`%% clock: hours 2 and 3 (01:16 to 03:16): 02:14 to 02:19. Hour N counted from the empty repository at 00:16 (C001); to print as a **Clock:** line once the researcher confirms (writer__036).`
 
 **Narrator.** Here is one wake record, walked through step by step, because it is the first one there ever was, and because it did not go perfectly. It is the conductor's, from 02:14 in the morning, and its job was to build the five-step wake itself.
 

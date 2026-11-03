@@ -4,6 +4,8 @@
 
 ## The empty project and its first commit
 
+`%% clock: hour 1 (00:16 to 01:16): 00:16. Hour N counted from the empty repository at 00:16 (C001); to print as a **Clock:** line once the researcher confirms (writer__036).`
+
 **Narrator.** A quarter past midnight: an empty project. Not a template, not a half-built site from last time. A new repository with a licence, a short read-me and almost nothing else. Its first commit says "Initial commit", and that is all it says.
 
 *Words for this page:* a **repository** is the project's folder, with its whole history kept. A **commit** is one saved change to it, with a time and a short message saying what changed.
@@ -12,6 +14,8 @@
 Band: *The first commit, at 00:16.*
 
 ## The first page of rules, shown
+
+`%% clock: hour 1 (00:16 to 01:16): 00:40. Hour N counted from the empty repository at 00:16 (C001); to print as a **Clock:** line once the researcher confirms (writer__036).`
 
 **Narrator.** Twenty-four minutes later, dev's first commit put in everything else at once: the site, the talk as data, the build, the check, and four short files that every later agent would read before doing anything. The first of them is the page of rules. Here it is, nearly whole, because it is short:
 
@@ -64,6 +68,8 @@ Band: *Dramatised. Dev's lines rest on its first commit at 00:40 and the four fi
 Band: *The check as dev first built it, at 00:40.*
 
 ## The brake, made that night
+
+`%% clock: hour 2 (01:16 to 02:16): 01:39. Hour N counted from the empty repository at 00:16 (C001); to print as a **Clock:** line once the researcher confirms (writer__036).`
 
 **Narrator.** One part was not in dev's first pass. The brake. At 01:39 the conductor started the clock, and with it the hold: one file, in a member's own folder, and every wake of every member stops before it does any work. Anyone may write it. Only I may lift it. The rule went into the page of rules in a single line:
 
