@@ -4,6 +4,8 @@
 
 ## The old way
 
+*Words on this page:* an **agent**, here, is an AI that works in a loop: it reads, decides, acts with tools, and checks the result. The **player** is the part of the talk's site that let me press play on stage.
+
 **Narrator.** For years my slides were a compromise. I had an idea to get across, and the slides could not move, so I spent the talk explaining what they could not show: this goes from here to there, this grows, this breaks. I talked over my own pictures.
 
 **Narrator.** On 1 November, three days after the talk, I recorded a voice note about it, and this is how it came out, unedited: "I had to speak a lot because in a way I had to provide the animation that was missing. I didn't know if I wanted to say, look, here, these things moves from A to B, you know, I kind of had to explain that A to B move". That is the problem in one sentence. The idea was a movement. The slide was a still. I was the bit in between.

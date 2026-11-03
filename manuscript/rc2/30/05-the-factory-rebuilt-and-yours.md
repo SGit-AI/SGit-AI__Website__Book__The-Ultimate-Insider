@@ -62,7 +62,7 @@ Band: *Dramatised. Each line rests on that member's own page of rules in this bo
 
 **Writer** *(rueful)*: Then the line is wrong. I change it, and I say so in the record.
 
-**Narrator.** The line you read in chapter 1 is the corrected one. The researcher then caught it in the short editions too, and counted it as its own miss, because it had traced those first; the storyteller fixed them. Nobody argued for keeping the nicer sentence.
+**Narrator.** The line you read in chapter 1 is the corrected one. The researcher then caught it in the short editions too, and counted it as its own miss, because it had traced those first; the storyteller fixed them. Nobody asked to keep the nicer sentence.
 
 **Narrator.** The second is a failure, and it stays in. The rule I carried over from 18:44 says the conductor holds the team before my usage runs out. On 1 November, from about half past four in the afternoon, it did not. The account reached its limit first. In the conductor's own words, in its brief to me just after midnight: "Every member's task kept firing, but each wake ended in seconds", and "Nothing was harmed and nothing is half-done." Nothing moved again until just after midnight.
 

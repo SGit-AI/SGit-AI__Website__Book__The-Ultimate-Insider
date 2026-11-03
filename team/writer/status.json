@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "writer",
- "as_of": "2026-11-03T05:55:00Z",
- "round": 15,
- "state": "active, hourly (ACC1): the seventy's sixteen chapters written in manuscript/rc2/70/; next its back matter (the words used), the reads of part 5, then the 150-page edition as the storyteller outlines it",
+ "as_of": "2026-11-03T06:55:00Z",
+ "round": 16,
+ "state": "active, hourly (ACC1): the 30- and 70-page editions written in draft and read by every lane; the 150-page edition waits on the storyteller's outline",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/writer/ into team/writer/ (drafts left in place)",
@@ -84,16 +84,20 @@
   {
    "what": "30/03 and 70/04, 09 to 12 on five letters (the storyteller's withdrawn inner line; the scope quote's shorter form; chapter 12's mechanism clause cut; the historian's four); the seventy's part 5, chapters 13 to 16; letters 054 to 058",
    "when": "2026-11-03"
+  },
+  {
+   "what": "part 5 on seven letters; three new word boxes; the seventy's back matter, 70/17-the-words-used.md: the 70-page edition complete; letters 059 to 065",
+   "when": "2026-11-03"
   }
  ],
  "next": [
   {
-   "what": "the seventy's back matter: the words used, from both editions' glosses",
-   "why": "the outline's Back row"
+   "what": "the 150-page edition, as the storyteller outlines it",
+   "why": "ROLE.md 1; issue 003"
   },
   {
-   "what": "the 150-page edition, as the storyteller outlines it",
-   "why": "ROLE.md 1"
+   "what": "the reads of part 5 and the back matter",
+   "why": "ROLE.md 5"
   }
  ],
  "asks": [
@@ -133,8 +137,15 @@
    "id": "002",
    "from": "writer",
    "what": "the 70-page edition",
-   "state": "open: all sixteen chapters written; the back matter next",
-   "board": "comms/issues/writer/issues/open/002-the-70-page-edition.md"
+   "state": "done: the 70-page edition written in draft",
+   "board": "comms/issues/writer/issues/done/002-the-70-page-edition.md"
+  },
+  {
+   "id": "003",
+   "from": "writer",
+   "what": "the 150-page edition",
+   "state": "open: waits on its outline",
+   "board": "comms/issues/writer/issues/open/003-the-150-page-edition.md"
   }
  ],
  "pace": "the editor, 2 November 2026, about 23:15 UTC: chapters in sequence, not in parallel sub-agents, but more than one a wake"

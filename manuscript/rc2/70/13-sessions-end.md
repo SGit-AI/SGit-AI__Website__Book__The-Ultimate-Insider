@@ -6,7 +6,9 @@
 
 *Words for this page:* a **session** is one agent's working life: the conversation it runs in, from its first instruction to its last. When a session ends, only what it wrote down survives. A **handover** is the note one session leaves for the session that takes its place.
 
-**Narrator.** That night the factory was taken apart. The sessions went: the nine agents, as running things, were gone. What stayed was everything they had written down. Every page of rules. Every wake record, with its plan, its reviews and its verdicts. Every debrief. Every mistake, in the agent's own words.
+`%% for the editor: "That night the factory was taken apart" is your line from the short editions; the record holds the hold at 18:44, never lifted that day, and silence to the merge at 23:19, and nothing showing the sessions ending that night.`
+
+**Narrator.** That night the factory was taken apart. The work stopped at the hold and was never restarted: the nine agents, as running things, were done. What stayed was everything they had written down. Every page of rules. Every wake record, with its plan, its reviews and its verdicts. Every debrief. Every mistake, in the agent's own words.
 
 **Narrator.** That is the part people miss when they hear "a team of agents for a day". The team is temporary. The record is not. And the record is what the next factory is built from.
 
@@ -19,9 +21,9 @@ Band: *The talk team's folders as they stood at the end of the day.*
 
 **Narrator.** Here is the distinction that took me longest to see. A member of the team is a role: a page of rules, a folder, a place on the clock. A session is one run of an agent holding that role. Members last. Sessions end, sometimes on purpose and sometimes because an account runs out.
 
-**Narrator.** In the early hours of 31 October, talking about why we stopped, I put it this way: the 95% "was just a footnote", and I could have moved to another session. That only works if the role does not live in the session. On this book's team, it does not.
+**Narrator.** On 31 October, in my paper review of the first draft, I put it this way: the 95% was "just a footnote", and I could have moved to another session. That only works if the role does not live in the session. On this book's team, it does not.
 
-`%% record: C089 (editor_31_October: "just a footnote"; he could have moved to another session) timeline/after-the-day.md`
+`%% record: 49c701e (his paper review of RC1, 31 October 2026, 01:48 UTC: "it's just a footnote") C089 (editor_31_October: "just a footnote"; he could have moved to another session) timeline/after-the-day.md`
 Band: *My account of 31 October, as the register holds it, given after the day.*
 
 ## One handover, read out
@@ -30,13 +32,15 @@ Band: *My account of 31 October, as the register holds it, given after the day.*
 
 > "Written by conductor@book.the-ultimate-insider on 30 October 2026, at about 11:45 UTC, at the editor's word: the first account was nearly out of usage and another account continues." *(record)*
 
-**Narrator.** Then it tells the new session who it was, where its files are, what it was in the middle of, and the first things to do, in order. And it says this about keys, which is the line I would copy:
+**Narrator.** That is the handover's own line; the file itself was committed at a few minutes past eleven.
+
+**Narrator.** Then it tells the new session who it was, where its files are, what it was in the middle of, and the first things to do, in order. And it says this about keys:
 
 > "a new session makes and publishes its own ... and never copies a private half across." *(record)*
 
 **Conductor** *(procedural, a little proud of the paperwork)*: The role carries on. The key does not. A new session makes its own, says so in public, and the old one is marked as finished, with a time.
 
-**Storyteller** *(new session, scarf on, reading its own handover)*: So I am the storyteller, and I am also not the one who wrote yesterday's letters. Good. I will read them first.
+**Storyteller** *(new session, scarf on, reading its own handover)*: So I am the storyteller, and I am also not the one who wrote this morning's letters. Good. I will read them first.
 
 **Figure:** two sessions of one member side by side: the old one marked superseded with its end time, the new one with its own key and its first debrief. A key register described, never shown: each member's public key listed against its session.
 

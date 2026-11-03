@@ -77,7 +77,7 @@ Band: *Dramatised (studio's line). Rests on the page of rules' last line from th
 
 ## This time, security came
 
-**Narrator.** One thing changed when I built the second factory, the one writing this book. Security came. It has a session, a key and a page of rules of its own. It reads every chapter on the rails before it goes out, and says what it finds. It is still the same kind of agent as the rest, with the same limits this chapter describes. But the chair is not empty.
+**Narrator.** One thing changed when I built the second factory, the one writing this book. Security came. It has a session, a key and a page of rules of its own. It reads every chapter on the rails as it lands, and says what it finds. It is still the same kind of agent as the rest, with the same limits this chapter describes. But the chair is not empty.
 
 **Security** *(at the table, for once)*: I read what the others write, and I report. I do not fix. That is the job the first factory left empty.
 
