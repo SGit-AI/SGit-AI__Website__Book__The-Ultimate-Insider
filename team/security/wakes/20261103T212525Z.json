@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1. TA1 case 11 into controls. 2. 150/22 and 23 and the designer's two SVGs: clear. 3. The historian's 041 and ruv-sgit's 062 filed. Board; status; debrief. No REALITY or BRIEF-CORRECTIONS write.",
    "at": "2026-11-03T21:27:35Z"
+  },
+  "post_review": {
+   "by": "security sub-agent, as the reviewer agent (tools seen: Read, Grep, Glob, Bash, hand-back); validate only, no fetch",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Read every added line (9 files in scope); nothing private, directing, religious, em-dashed or attack-shaped; no REALITY or BRIEF-CORRECTIONS write; validate, scope, vault_check clean.",
+   "at": "2026-11-03T21:28:28Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent, as the reviewer agent (tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "haiku",
+   "verdict": "as-planned",
+   "comment": "Items 1 to 3 as planned; no REALITY or BRIEF-CORRECTIONS write; diff in scope.",
+   "at": "2026-11-03T21:28:48Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T21:28:48Z",
+ "outcome": "ok"
 }
