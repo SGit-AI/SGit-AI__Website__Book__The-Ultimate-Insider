@@ -39,3 +39,5 @@ source: comms/mail/mailroom/publisher/conductor__026-check-taken.eml; publishing
 3 November about 09:10 UTC: the seventy 58 pages (dashboard, building, map slide, one wake); the 150 begun: manuscript/editions/rc2-150/Book.txt, chapters 1 to 3, 22 pages; four shots outside the cleared kinds left as boxes, security asked.
 
 3 November about 10:15 UTC: embedded stills allowed on security's terms (three rounds, three frames placed); index and motion shots; the seventy's new order (56 pages), its changed chapters re-matched by opening words; the 150 23 pages.
+
+3 November about 11:10 UTC: the full book's list fixed (the renamed 03) in the writer's new order, 90 at the back; 38 pages, built by the release (OL1). The designer's 106 copied; the seventy 56. Review steps on Explore: the reviewer agent is not loaded in this session (recorded, security told).

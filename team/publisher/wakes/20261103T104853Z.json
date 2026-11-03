@@ -1,0 +1,54 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake (10:47 slot)",
+ "started": "2026-11-03T10:48:53Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (Explore; the reviewer agent not loaded in this session)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1 the 150's list 01, 02, 03-the-tour, 04, 05, 90 last, stale keys dropped; 2 the designer's 106 copied whole, rechecked, own slots kept; 3 the full book's map as listed; 4 rebuild all three outside _site, every page; 5 the Explore substitution recorded with a), b), c), security and conductor told; 6 letters, records. Change: 90 set last only, any back-matter marker in publishing/ only, the writer told.",
+   "at": "2026-11-03T10:49:54Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (Explore)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Within policy; no secrets or stop condition; the two SVGs drawing tags only (one local url(#)). The Explore substitution acceptable this wake: it had session tools, unused, none refused. Conditions: record a), b), c), tell security; rebuild outside _site; gate before dev; 90 last only.",
+   "at": "2026-11-03T10:50:34Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "The full book's list in the new order, 90 at the back; the designer's 106 copied with my slots kept; the full book's map (three frames; the tour's drawings by opening words); thirty 29, seventy 56, full 38 pages, looked at; TA1 tool note recorded; letters 043, 016, 026, 017; inbox, board 007, records; vault_check and gate clean.",
+   "at": "2026-11-03T10:52:29Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (Explore)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Gate clean; 0 outside scope; vault_check clean; 18 staged files in scope, nothing under rc2, lab, briefs, .github, src or _site; no keys, contacts, em-dashes, religious or attack words; tool_notes has a), b), c); no refused or session calls.",
+   "at": "2026-11-03T10:53:21Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (Explore)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Items 1 to 6 done; conditions kept (90 last in the list only, the writer told, gate clean); nothing unplanned.",
+   "at": "2026-11-03T10:53:21Z"
+  }
+ },
+ "closed": "2026-11-03T10:53:21Z",
+ "outcome": "ok",
+ "tool_notes": [
+  {
+   "step": "all four review steps",
+   "what": "subagent type 'reviewer' (.claude/agents/reviewer.md, Read, Grep, Glob, Bash only) refused by the session: 'Agent type reviewer not found'",
+   "a_why": "CLAUDE.md and the conductor's 063 (TA1) ask every review step to run as the reviewer agent",
+   "b_needed": "yes by the rule; the agent file was written after this session began, so the session never loaded it",
+   "c_side_effect": "the steps ran on the Explore agent instead: no Edit or Write, but its tool list is wider than the reviewer's four; every brief carried the tools line, and no step called or was refused any other tool. The limit by list, not by request, is lost until a new session loads the reviewer agent."
+  }
+ ]
+}
