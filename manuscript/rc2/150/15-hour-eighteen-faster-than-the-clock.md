@@ -10,26 +10,26 @@
 
 **Narrator.** By five o'clock the schedule had carried the team all day. In hour eighteen I outran it.
 
-**Narrator.** I sat in the conductor's session and gave it instruction after instruction: answers on the live slides, "when in doubt add it" (chapter 2 follows that one all the way to the stage), the team's own policies into the talk, "go build", the remaining policies agreed, how the team keeps itself safe. Each one was a wake of its own. The hourly slots could not carry words arriving that fast, so the conductor carried them, one wake at a time, each with its five steps.
+**Narrator.** I sat in the conductor's session and gave it instruction after instruction: answers on the live slides, "when in doubt add it" (chapter 2 follows that one all the way to the stage), the team's own policies into the talk, "go build", the remaining policies agreed, how the team keeps itself safe. Each one was a wake of its own. The historian reads it as instructions arriving faster than the hourly schedule could carry them; the conductor carried them, one wake at a time, each with its five steps.
 
 **Conductor** *(pacing faster)*: Another one. Plan it, have it checked, route it. Then the next.
 
 `%% for the editor: "I outran it" is the writer's reading of the hour; his to keep or drop.`
 
-`%% record: team/conductor/wakes/ (started 17:21:52, 17:30:55, 17:37:56, 17:45:53, history) 8fee7e3 a618b29 7c91afc d252155 c3f546e 93f4191 (17:16 to 17:48) C105 (the asks with my time in their subjects, from 17:27) timeline/day/17.md`
+`%% record: timeline/day/17.md (the historian's reading: "The editor's instructions arrive faster than the hourly schedule can carry them") team/conductor/wakes/ (started 17:21:52, 17:30:55, 17:37:56, 17:45:53, history; the changes recorded at 17:22, 17:32 and 17:47) 8fee7e3 a618b29 7c91afc d252155 c3f546e 93f4191 (17:16 to 17:48) C105 (the asks with my time in their subjects, from 17:27) timeline/day/17.md`
 Band: *Dramatised (the conductor's line). Rests on its run of wakes from 17:16 to 17:48.*
 
 ## The brakes held
 
-**Narrator.** This is the hour I would point to if someone asked whether the checks only work when nobody is in a hurry. The talk was due at seven. And in the middle of my run, the conductor's pre-review sent three of its plans back for change before it said go, at 17:21, 17:30 and 17:45. A fourth plan changed in the middle of its work, at 17:37, because I changed my mind and agreed the remaining policies; the record says so, and does not dress it up as a review.
+**Narrator.** This is the hour I would point to if someone asked whether the checks only work when nobody is in a hurry. The talk was due at seven. And in the middle of my run, the conductor's pre-review sent three of its plans back for change before it said go, in the wakes of 17:21, 17:30 and 17:45, the first of them a follow-up wake under that evening's rule. A fourth plan changed in the middle of its work, at 17:37, because I changed my mind and agreed the remaining policies; the record says so, and does not dress it up as a review.
 
 **Figure:** a card, the day's pre-reviews that said change and the plans amended after them, with this hour's three marked.
 
 `%% figure brief: For the designer, from C023 (pre_review_change_then_amended: 11 in all, 7 recorded as a verdict; the conductor's free-text entries at 17:21, 17:30, 17:45; the 17:37 entry not counted, being the editor changing course). The counts on the card only.`
 
-**Narrator.** Every one of the conductor's wakes in that run still closed with all five steps. Not one step said stop all day, and the brakes were never the reason the evening ran late. They were what kept the speed from turning into damage.
+**Narrator.** Every one of the conductor's wakes in that run still closed with all five steps. Not one step said stop all day. The brakes were what kept the speed from turning into damage.
 
-`%% for the editor: "the hour I would point to" and "They were what kept the speed from turning into damage" are the writer's reading of his view; his to keep or drop.`
+`%% for the editor: "the hour I would point to" and "The brakes were what kept the speed from turning into damage" are the writer's reading of his view; his to keep or drop.`
 
 `%% record: C100 (the talk due at 19:00 London) C023 (and its note: "No step said stop all day") team/conductor/wakes/ (history: "pre-review said change: adopted" at 17:21, 17:30, 17:45) timeline/day/17.md ("The brakes held under that pressure")`
 Band: *The register's count of pre-reviews and the conductor's wake records; that the brakes held under pressure is the historian's reading of the hour.*
@@ -51,7 +51,7 @@ Band: *Dramatised (deck's line). Rests on deck's commits of 17:25 and 17:52 and 
 
 **Studio** *(firm)*: Another agent passed on what the editor had said. My session would not take a relayed word for his, so I asked him myself.
 
-**Narrator.** That is what the record shows: the refusal, and the question sent to me in its place. Studio's last debrief of the day still has my confirmation open. It is a small scene, and it is the insider question in miniature: a member that would not act on another member's account of what I wanted, even when the account was true.
+**Narrator.** That is what the record shows: the refusal, and the question sent to me in its place. Studio's last debrief of the day still has my confirmation open. It is a small scene, and it is the insider question in miniature: a member that would not act on another member's account of what I wanted.
 
 **Figure:** one request, relayed from one agent to another, stopped at studio's door; in its place, a question going straight to me.
 

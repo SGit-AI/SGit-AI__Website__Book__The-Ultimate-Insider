@@ -26,11 +26,11 @@
 
 **Conductor** *(a few minutes later, less calm)*: The first part is still not locked. Dev: lock it now.
 
-**Narrator.** It asked in writing, and in time. The lock still did not turn. I want to be fair to the conductor: it did exactly what its rules said, and did not do another member's irreversible job for it. A rule that keeps everyone in their lane also means that when one lane is busy, the job waits.
+**Narrator.** It asked in writing. And it was not enough: the lock still did not turn. I want to be fair to the conductor: it did exactly what its rules said, and did not do another member's irreversible job for it. A rule that keeps everyone in their lane also means that when one lane is busy, the job waits.
 
 `%% for the editor: "I want to be fair to the conductor" and the sentence on lanes are the writer's reading of his view; his to keep or drop.`
 
-`%% record: C027 team/conductor/wakes/20261029T183647Z.json ("Leave the lock to dev (its scope, irreversible)") dbd75ad (18:37:02) 2ed6427 (18:39:16) 4a2481b (the lock tool, 17:54) C088`
+`%% record: 5d13d72 (18:29, motion's commit: the cut-off moved to 19:00, as motion heard me say at 18:26; timeline/cast-scenes.md scene 5) C027 team/conductor/wakes/20261029T183647Z.json ("Leave the lock to dev (its scope, irreversible)") dbd75ad (18:37:02) 2ed6427 (18:39:16) 4a2481b (the lock tool, 17:54) C088`
 Band: *Dramatised. Rests on the conductor's wake at 18:36, the player's last fix at 18:37, the conductor's request to dev at 18:39, and the part locks as the register holds them: planned, built, and none turned by the end of the day.*
 
 ## The hold
@@ -62,7 +62,7 @@ Band: *Dramatised. Rests on the conductor's wake at 18:36, the player's last fix
 `%% record: C006 C024 C100 C065 C005 867f8c2 (18:44:13) team/conductor/HOLD.md at 298be4e (its title line and its line "What lifts it", quoted with the file's bold and bullet marks dropped) 88b8f00 (18:45:35, the designer: "part 2 on a projector, checked before the 19:30 lock: ready") cb5b996 (18:46:22)`
 Band: *Dramatised. Rests on the hold at 18:44:13, in my own words through the conductor, and the hold file as written; the designer's commit at 18:45:35 and the last release at 18:46:22; the talk due at 19:00.*
 
-**Narrator.** The hold had been there all day. It was used once. Anyone on the team could stop everything. Only I could start it again. That is why I could let them run through the night.
+**Narrator.** The rule of the hold had been there since hour two. It was used once. Anyone on the team could stop everything. Only I could start it again. That is why I could let them run through the night.
 
 ## Do this now
 

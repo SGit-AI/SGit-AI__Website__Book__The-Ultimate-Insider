@@ -8,7 +8,9 @@
 
 `%% clock record: about 15:00 (the decisions, by their heading), 15:16, 15:21, 15:25 to 15:47; clock hours of 29 October (C110; the conductor's CK1).`
 
-**Narrator.** The hour after three is the hour the team changed most, and every change in it was mine. Three decisions, close together.
+**Narrator.** The historian reads the hour after three as the hour the team changed most, and every change in it was mine. Three decisions, close together.
+
+`%% record: timeline/day/15.md ("This is the hour the team changes most, and the change is the editor's")`
 
 **Narrator.** *What the talk is.* At about three I made my decisions on the talk's frame, its third act and its new beats, and the conductor committed and routed them at 15:16. My answer to the researcher's objection, in the last chapter, is one line of that file.
 

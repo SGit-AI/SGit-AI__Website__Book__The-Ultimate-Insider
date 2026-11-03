@@ -39,11 +39,11 @@ Band: *Dramatised (the conductor's line). Rests on its flags of 18:01 and 18:21 
 
 **Conductor** *(a few minutes later, less calm)*: The first part is still not locked. Dev: lock it now.
 
-**Narrator.** It asked in writing, and in time. The lock still did not turn. The team was racing its own locks, and the locks lost. I want to be fair to the conductor: it did exactly what its rules said, and did not do another member's irreversible job for it. A rule that keeps everyone in their lane also means that when one lane is busy, the job waits.
+**Narrator.** It asked in writing. And it was not enough: the lock still did not turn. The team was racing its own locks, and the locks lost. I want to be fair to the conductor: it did exactly what its rules said, and did not do another member's irreversible job for it. A rule that keeps everyone in their lane also means that when one lane is busy, the job waits.
 
 `%% for the editor: "I want to be fair to the conductor" and the sentence on lanes are the writer's reading of his view; his to keep or drop.`
 
-`%% record: C027 team/conductor/wakes/20261029T183647Z.json ("Leave the lock to dev (its scope, irreversible)") dbd75ad (18:37:02) 2ed6427 (18:39:16) 4a2481b (the lock tool, 17:54) C088`
+`%% record: 5d13d72 (18:29, motion's commit: the cut-off moved to 19:00, as motion heard me say at 18:26; timeline/cast-scenes.md scene 5) C027 team/conductor/wakes/20261029T183647Z.json ("Leave the lock to dev (its scope, irreversible)") dbd75ad (18:37:02) 2ed6427 (18:39:16) 4a2481b (the lock tool, 17:54) C088`
 Band: *Dramatised. Rests on the conductor's wake at 18:36, the player's last fix at 18:37, the conductor's request to dev at 18:39, and the part locks as the register holds them: planned, built, and none turned by the end of the day.*
 
 ## The hold
@@ -94,16 +94,22 @@ Band: *The hold and the three open wakes as the record has them; deck's unclosed
 
 **Narrator.** One more thing about this hour. The team had built its own brakes: the locks, and the hold any member could pull. Its own locks lost the race. The reason the record gives for the stop is a number from outside the factory, a limit nobody on the team controlled: my usage, which the conductor wrote down at my word as ninety-five per cent.
 
-**Narrator.** Two days later I told it differently. The ninety-five per cent was "just a footnote": I could have moved to another session. The real reason was that we had no tested way to take in changes during the talk, no way to see what was new, and nothing that made sure a change would not break what was finished. That is why I had been thinking about locking the first version. The book keeps both accounts: the record's, and mine after the day. Chapter 17 takes the second one up as a miss.
+**Narrator.** That is the first account, the day's own. I have given two more since, both after the day.
 
-`%% record: C006 (the hold's subject: "the editor's usage limit is at 95%, pause all actions") C021 (95% is the conductor's words, reporting the editor) C089 (his account of 31 October: "just a footnote"; the missing way to take in changes; "the reason why I was thinking about let's lock V1"; state open: the record cannot show what the 95% measured) C027 (locked by end of day: 0) 49c701e (his paper review, 31 October 01:48 UTC, added after the day)`
-Band: *The hold's reason as the conductor wrote it at my word; my account of 31 October, given after the day, as the register holds it. Both kept.*
+**Narrator.** On 31 October, in my paper review of the book's first draft, I called the ninety-five per cent "just a footnote": I could have moved to another session. The real reason was that we had no tested way to take in changes during the talk, no way to see what was new, and nothing that made sure a change would not break what was finished. That is why I had been thinking about locking the first version.
+
+**Narrator.** That same evening, at about seven, I said it a third way: "The 95%, I think, was the tokens usage." *(record, after the day)* I said "I think", and the record cannot settle it: it holds the percentage as the conductor reported it, and nothing it was measured in.
+
+**Narrator.** The book keeps all three: the record's, and my two after the day. Chapter 17 takes the second one up as a miss.
+
+`%% record: C006 (the hold's subject: "the editor's usage limit is at 95%, pause all actions") C021 (95% is the conductor's words, reporting the editor) C089 (his accounts of 31 October, after the day: ec1ec00, about 19:00, "The 95%, I think, was the tokens usage"; "just a footnote"; the missing way to take in changes; "the reason why I was thinking about let's lock V1"; state open: the record cannot show what the 95% measured) C027 (locked by end of day: 0) 49c701e (his paper review, 31 October 01:48 UTC, added after the day)`
+Band: *The hold's reason as the conductor wrote it at my word; my two accounts of 31 October, given after the day, as the register holds them. All three kept.*
 
 **Figure:** the dashboard, drawn, still showing the hold with my usage as its reason, because the page was last built after the stop.
 
 `%% figure brief: A drawing from the page, not a screenshot: the build never shows an admin page.`
 
-**Narrator.** The hold had been there all day. It was used once. Anyone on the team could stop everything. Only I could start it again. That is why I could let them run through the night.
+**Narrator.** The rule of the hold had been there since hour two. It was used once. Anyone on the team could stop everything. Only I could start it again. That is why I could let them run through the night.
 
 ## Do this now
 

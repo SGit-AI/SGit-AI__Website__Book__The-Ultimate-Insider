@@ -42,7 +42,7 @@ Band: *Dramatised (the storyteller's lines). Rests on its first pass and its cov
 
 `%% clock record: 14:33, 15:02 and 15:16; clock hours of 29 October (C110; the conductor's CK1).`
 
-**Narrator.** My story for the talk leaned on a claim: that the outside of an organisation, the part facing the internet, had become smaller and more mature than it was. The claim compared the outside with itself, then and now. The storyteller asked the researcher for the facts behind its beats, and the researcher checked that claim against the published breach data, and found the opposite.
+**Narrator.** My story for the talk leaned on a claim: that the outside of an organisation, the part facing the internet, had become, in the outline's words for R5, "smaller and more mature than it was". The claim compared the outside with itself, then and now. The storyteller asked the researcher for the facts behind its beats, and the researcher checked that claim against the published breach data, and found the opposite.
 
 **Researcher** *(to the new storyteller)*: "does not hold. The data says the opposite" *(record)*
 
@@ -51,7 +51,7 @@ Band: *Dramatised (the storyteller's lines). Rests on its first pass and its cov
 `%% record: 2726f0e (14:33; R5: the surface smaller and more mature than it was) C030 (story-r5-surface-smaller-more-mature: "no source for 'smaller'")`
 Band: *Dramatised (the researcher's line). The quoted words are its finding's own.*
 
-**Narrator.** Then the storyteller had a choice. The finding contradicted a line of mine that the storyteller's own tree depended on. It could have quietly reworked the tree around it. Instead, at 15:02, it folded the researcher's facts into the tree and put the finding to me, as the strongest objection to my own part one, in a letter.
+**Narrator.** Then the storyteller had a choice. The finding contradicted a line of mine that the storyteller's own tree depended on. At 15:02 it folded the researcher's facts into the tree and put the finding to me, as the strongest objection to my own part one, in a letter.
 
 **Storyteller** *(rueful)*: Then it goes to the editor, as the strongest objection to his own part one. Not buried.
 
@@ -60,7 +60,7 @@ Band: *Dramatised (the researcher's line). The quoted words are its finding's ow
 `%% record: b208a16 (15:02:48, the storyteller's pass and its letter) team/storyteller/story/challenge.md at 298be4e`
 Band: *Dramatised. The storyteller's lines rest on its letter of 15:02 only; the words are ours.*
 
-**Narrator.** It came to me, and I answered it in my decisions of that afternoon. The conductor wrote my answer down in one line of the decisions file, under the researcher's pushback:
+**Narrator.** It came to me, and I answered it in my answers of that afternoon, committed at 15:16. The conductor wrote my answer down in one line of the decisions file, under the researcher's pushback:
 
 > "The outside is in balance: he keeps the claim." *(record)*
 
