@@ -81,9 +81,9 @@ Band: *Dramatised (the conductor's line). Rests on the morning review and the re
 
 **Deck** *(fussing, then patient)*: One thing in flight at a time. The other waits its turn.
 
-**Narrator.** And a lapse that stays in. From ruv-sgit's commits of a little after half past eight, many of them dropped the "@" from its name and the line saying which agent made them. They carry on that way, mixed with commits in the house form, to its last of the day. The register's count of commits by member was corrected for it afterwards. Chapter 10 has the conductor's notes about it.
+**Narrator.** And a lapse that stays in. From ruv-sgit's commit at a quarter to nine, many of its commits dropped the "@" from its name and the line saying which agent made them. They carry on that way, mixed with commits in the house form, to its last of the day. The register's count of commits by member was corrected for it afterwards. Chapter 10 has the conductor's notes about it.
 
-`%% record: eefc1d3 (08:18: its ask of the researcher held while that request is open) 15707dc (08:33, without the @ form or the Agent trailer) fc724df (18:40) C014 (corrected for it) timeline/day/08.md`
+`%% record: eefc1d3 (08:21: its ask of the researcher held while that request is open) 15707dc (08:43, without the @ form or the Agent trailer) fc724df (18:40) C014 (corrected for it) timeline/day/08.md`
 Band: *Dramatised (deck's line). Rests on deck's wake of 08:18 and ruv-sgit's commits from 08:33.*
 
 ## Hours ten and eleven: a promise kept with nobody chasing it
@@ -109,9 +109,9 @@ Band: *Dramatised (the researcher's line). Rests on the three commits.*
 
 **Designer** *(mortified)*: "The miss is my table's as much as the build's" *(record)*. Dev built what I specified. I specified it wrong.
 
-**Narrator.** The conductor's two notes to ruv-sgit about the "@" fall here too, one at five past nine and one at five past ten, with deck's note to ruv-sgit a quarter of an hour after the second. ruv-sgit followed deck's and not the conductor's. Chapter 10 tells that pair in full, because it is the best example the record has of how the team talked.
+**Narrator.** The conductor's two notes to ruv-sgit about the "@" fall here too, one at five past nine and one at five past ten, with deck's note to ruv-sgit a quarter of an hour after the second. ruv-sgit followed deck's and not the conductor's. Chapter 10 tells that pair in full, because it is an example the record keeps of how the team talked.
 
-`%% record: 8917847 (09:48, the type-scale check in the gate) 56c680b (10:49, the designer's note) team/designer/debriefs/2026-10-29__note-3-checked.md cf7d742 (09:05) 09317d9 (10:05) 36e382b (10:21) historian__022 timeline/day/09.md`
+`%% record: 8917847 (09:54, the type-scale check in the gate) 56c680b (10:49, the designer's note) team/designer/debriefs/2026-10-29__note-3-checked.md cf7d742 (09:05) 09317d9 (10:05) 36e382b (10:21) historian__022 timeline/day/09.md`
 Band: *Dramatised (the designer's line). The quoted words are its own, from its note of 10:49.*
 
 ## Hours twelve and thirteen: quiet, and piling up at one door
@@ -128,7 +128,7 @@ Band: *Dramatised (the designer's line). The quoted words are its own, from its 
 
 **Narrator.** In these hours, too, the first sign of the schedule's minutes not being met: the designer's slot at twenty to the hour started late, and the conductor's at two minutes past started at ten past. Nothing broke. The record just shows the clock and the wakes beginning to drift apart.
 
-`%% record: 93b7969 (11:21) 5c3d0b0 (11:23) 90de1fa team/designer/wakes/20261029T114053Z.json (post_check: partial) 98fc10c (11:53) f735b9b (12:28, ready for the editor) f8b5be5 (12:33) 0a2d2cc (12:48, the first pass checked in full) team/designer/wakes/ (started 12:48) team/conductor/wakes/ (started 13:10) timeline/day/11.md 12.md`
+`%% record: 93b7969 (11:23) 5c3d0b0 (11:25) 90de1fa team/designer/wakes/20261029T114053Z.json (post_check: partial) 98fc10c (11:56) f735b9b (12:30, ready for the editor) f8b5be5 (12:34) 0a2d2cc (12:52, the first pass checked in full) team/designer/wakes/ (started 12:48) team/conductor/wakes/ (started 13:10) timeline/day/11.md 12.md`
 Band: *The hours' commits and wake records, as the historian's day files give them.*
 
 ## Hour fourteen: the empty queue
@@ -149,7 +149,7 @@ Band: *The hours' commits and wake records, as the historian's day files give th
 
 **Figure:** the cast bar at the end of hour fourteen: six cards lit, the editor's chair filling, one empty chair still.
 
-`%% record: aa2785c 3f0d350 (13:03, dev's partial) ebf63ca abf5e32 (13:10, the pre-review brief names scope.holds) 41d4757 team/ruv-sgit/wakes/20261029T134005Z.json (13:40, idle) 19e7f2d (13:46 wake, committed 13:48, ready for the editor) team/conductor/briefs/2026-10-29__editor/feedback-briefs.md (first line: about 13:50) c9ced4e (14:07) timeline/day/13.md`
+`%% record: aa2785c 3f0d350 (13:09, dev's partial) ebf63ca abf5e32 (13:13, the pre-review brief names scope.holds) 41d4757 team/ruv-sgit/wakes/20261029T134005Z.json (13:40, idle) 19e7f2d (13:46 wake, committed 13:48, ready for the editor) team/conductor/briefs/2026-10-29__editor/feedback-briefs.md (first line: about 13:50) c9ced4e (14:07) timeline/day/13.md`
 Band: *Dramatised (ruv-sgit's line). Rests on its idle wake of 13:40; the feedback round is dated by its brief's first line and entered the record at 14:07.*
 
 ## What nine hours show

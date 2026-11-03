@@ -75,7 +75,7 @@ Band: *Security's page as it stood at the end of the day.*
 
 **Narrator.** Early in the evening, studio put a line on a slide, quoting the comment in the team's own scope check, and this whole chapter turns on it:
 
-> "A scope is a setting, not a boundary ... It catches mistakes, not a steered agent." *(record)*
+> "a scope is a setting, not a boundary; it catches mistakes, not a steered agent." *(record)*
 
 **Narrator.** A scope is a list in a file. A check reads the list and flags any change outside it. That catches an agent that wanders by mistake, and on the day it caught some. It does not stop an agent that has been talked into doing something else, because the agent has the same hands either way. Dev's page said the same thing in the first hours, about its own check.
 
