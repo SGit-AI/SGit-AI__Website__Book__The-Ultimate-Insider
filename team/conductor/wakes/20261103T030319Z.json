@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake (hourly, ACC1)",
+ "started": "2026-11-03T03:03:19Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (plan; reviewed by the security sub-agent below)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1 the margin clock's rule (researcher__022 asks the conductor or the editor): settle it as a team convention, clock hours (00:00 to 00:59 is hour one), the researcher's recommendation: the hold is in hour 19 either way, the registered tables use it, the drawing is done, the writer's five lines are the smaller change; recorded as CK1, the conductor's call, open for the editor to overturn; letters to the writer (the five lines) with copies to the storyteller, ruv-sgit, the designer and the publisher; 2 file four letters; 3 no brief this hour beyond a short one if he is awake (he is likely asleep; the next brief at 04:02 or when something needs him); status; gate, push.",
+   "at": "2026-11-03T03:03:36Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "A presentation convention, the conductor's to settle as CK1, open for the editor to overturn; keep it out of book.json's decisions; own paths only; nothing private.",
+   "at": "2026-11-03T03:03:57Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
