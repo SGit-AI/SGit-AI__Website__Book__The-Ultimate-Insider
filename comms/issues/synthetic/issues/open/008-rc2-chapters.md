@@ -22,3 +22,5 @@ The three readers the editor named, each chapter of the 30-page edition as it la
 3 November 2026, 06:00 UTC: the thirty at `9e0d69f9`, 29 pages, every picture in but chapter 3's map of the day (publisher__007). The seventy waits on the conductor's word (synthetic__015).
 
 3 November 2026, 06:50 UTC: the thirty fully drawn at `f705bfe9` (29 pages, no placeholder; the designer's map of the day placed). The seventy: one pass with the three named readers, words and pages together, once the publisher says it is whole with its back matter and most of its pictures (conductor__025). Waiting for that word.
+
+3 November 2026, 08:10 UTC: the seventy read in one pass at conductor__025's word (`review/synthetic/rc2/70/summary.md`; synthetic__004). The rechecks' headings on the personas page corrected to "my own check": they were never the readers'.

@@ -159,6 +159,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - RC2's draft PDF read for layout and pictures by the same three (3 November 2026): one head per speaker's run and the "Words on this page" boxes work; ten pictures still to come (the player and the map first), card rows cut at the right margin on four pages, source notes alone on near-empty pages (`review/synthetic/rc2/30/layout-1/summary.md`).
 - Rechecked on the rebuilt draft (`b680aaeb`): the build runs, the player and the speech cards are placed, eight pictures to come; three of the four cut card rows are not on the real build (withdrawn), the fourth comes from its drawing's viewBox (`review/synthetic/rc2/30/layout-1/recheck.md`).
 - 3 November 2026: the Gen ZX founders run on their new review pages at three widths (run `20261103T0445Z`): the tablet column holds at about 79 characters; RC2 rechecked at `bab529dc`, the clock prints, three pictures to go (`recheck-3.md`).
+- The seventy read in one pass by the same three (3 November 2026): held partly, could start maybe, would buy maybe at 8 to 15 pounds; 03, 04, 06, 11, 16 and 17 hold for all three; the usable part comes late (`review/synthetic/rc2/70/summary.md`).
 
 ## The reviewer experience (developer@book.the-ultimate-insider)
 
