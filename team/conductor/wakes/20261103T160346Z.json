@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Change answered: copies only; the sources are read, not written; every write in comms/mail/conductor/** or team/conductor/**.",
    "at": "2026-11-03T16:04:22Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "Three letters copied to done; status.",
+   "at": "2026-11-03T16:05:12Z"
+  },
+  "post_review": {
+   "by": "reviewer agent (haiku)",
+   "model": "claude-haiku-5-5",
+   "verdict": "clean",
+   "comment": "Five files, all in scope; sources not written; nothing private.",
+   "at": "2026-11-03T16:05:42Z"
+  },
+  "post_check": {
+   "by": "reviewer agent (haiku)",
+   "model": "claude-haiku-5-5",
+   "verdict": "as-planned",
+   "comment": "Copies only, as amended.",
+   "at": "2026-11-03T16:05:42Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T16:05:43Z",
+ "outcome": "ok"
 }
