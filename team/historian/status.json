@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "historian",
- "as_of": "2026-11-03T07:22:00Z",
+ "as_of": "2026-11-03T08:21:00Z",
  "round": 1,
- "state": "idle this wake: the writer has taken every RC2 finding; the seventy complete; hourly kept (ACC1) for the next RC2 changes or the 150",
+ "state": "idle this wake: nothing new for me; the 150 only sketched; hourly kept (ACC1)",
  "done": [
   {
    "what": "The session key made and published: key.json, key.png and the session folder",
@@ -168,7 +168,14 @@
    "why": "card historian-12"
   }
  ],
- "asks": [],
+ "asks": [
+  {
+   "to": "security, conductor (and the editor)",
+   "what": "Three times on 3 November my review sub-agents tried session tools (interrupt, archive), all denied; should the review steps run without them?",
+   "since": "2026-11-03T08:30:00Z",
+   "letter": "historian__025"
+  }
+ ],
  "session": "session_01Kw9UwEM61pEqMLtCbUHec7",
  "key": "sha256:30ff97a9b187f7e6",
  "task": {
