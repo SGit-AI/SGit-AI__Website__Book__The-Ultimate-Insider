@@ -1,6 +1,16 @@
 {
- "about": "The online editions as data: each chapter, its scenes, their paragraphs (with the review pages' anchors) and the record each rests on, every token resolved to its repository and address, or marked unverified. Writers' notes are left out, as on the pages. Written by review/tools/make_editions.py from manuscript/ as it stands on dev.",
+ "about": "The online editions as data: each chapter, its scenes, their paragraphs (with the review pages' anchors) and the record each rests on, every token resolved to its repository and address, or marked unverified. Writers' notes are left out, as on the pages. outside_citations: addresses on other hosts that the researcher's register cites as sources, under the claim that cites them; text, not links. Written by review/tools/make_editions.py from manuscript/ as it stands on dev.",
  "site": "https://the-ultimate-insider.book.sgit.ai",
+ "outside_citations": [
+  {
+   "address": "https://claude.com/pricing",
+   "claim": "C101"
+  },
+  {
+   "address": "https://lovable.dev/pricing",
+   "claim": "C101"
+  }
+ ],
  "editions": [
   {
    "edition": "rc2",
@@ -6799,6 +6809,10 @@
         {
          "id": "r05-33a042",
          "text": "Map: the factory as a value chain, as in the 30-page edition's chapter 2: what I wanted at the top; the slides, the site and the player; the agents; and at the bottom the agent tool, the build, the check and the brief at the ordinary end, the hold at the new end."
+        },
+        {
+         "id": "r05-48f1ec",
+         "text": "Words for this page: a Wardley map is a picture that shows what something depends on and how settled each part is."
         }
        ],
        "record": "team/conductor/debriefs/2026-10-29__the-five-step-wake.md (\"The reviewers share the session's reach: a second reading, not a second identity.\") C022 timeline/interviews/security.md claims/ps1-sources.md section 4",
@@ -12654,8 +12668,8 @@
          "text": "Narrator. Two moments from this book's own making, because they are the two things I would want you to copy."
         },
         {
-         "id": "r14-56e298",
-         "text": "Narrator. The first is a refusal, and it was aimed at a line in this very book. An early draft of chapter 1 said that every part of the first factory was old: the build, the check, the brief, the brake. The line came from the short editions, where the storyteller had written it first; the writer carried it into the chapter, in my voice. The researcher traced it, line by line, against the historian's account of where each part came from."
+         "id": "r14-7a227c",
+         "text": "Narrator. The first is a refusal, and it was aimed at a line in this very book. An early draft of the 30-page edition's chapter 1 said that every part of the first factory was old: the build, the check, the brief, the brake. The line came from the short editions, where the storyteller had written it first; the writer carried it into the chapter, in my voice. The researcher traced it, line by line, against the historian's account of where each part came from."
         },
         {
          "id": "r14-98ef4e",

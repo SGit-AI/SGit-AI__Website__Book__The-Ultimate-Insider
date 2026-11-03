@@ -23,6 +23,14 @@ DATA = [ROOT / 'review' / 'anchors' / 'editions.json', ROOT / 'src' / 'static' /
 SHORT = [('ed-03', 'the 3-page edition', ROOT / 'manuscript' / 'editions' / '03' / 'Book.txt', ROOT / 'chapter-plan' / 'cast' / 'edition-03.md'),
          ('ed-10', 'the 10-page edition', ROOT / 'manuscript' / 'editions' / '10' / 'Book.txt', ROOT / 'chapter-plan' / 'cast' / 'edition-10.md')]
 NO_RECORD = {('ed-03', 'A book about you doing it')}            # pages the script gives no section: named here, so any other miss stops the build
+ADDR = re.compile(r'https?://[^\s"<>\'`()\\]+')                  # an address, as the guards read it on both sides
+HOSTS = re.compile(r'https://(github\.com/SGit-AI/|the-ultimate-insider\.book\.sgit\.ai/)')
+
+
+def addresses(text):
+    return {a.rstrip('.,;:!?') for a in ADDR.findall(text)}
+
+
 TOKEN = re.compile(r'(?<![\w/.-])(C\d{3}|[0-9a-f]{7,12}|[\w.-]+(?:/[\w.-]+)+/?|[\w-]+\.md)(?![\w/-])')
 
 
@@ -209,19 +217,48 @@ def main(talk_path):
     for t in targets:                                                # printed codes: https, the book's own host, no query, no tracking
         if not re.fullmatch(r'https://the-ultimate-insider\.book\.sgit\.ai/review/[\w-]+/[\w-]+\.html#rec-r\d\d-\d+', t['url']):
             sys.exit(f'qr target refused: {t["url"]}')
+    for t in targets:
+        for a in addresses(json.dumps(t, ensure_ascii=False)):     # no exception for print: every address in a target on the book's domain
+            if not a.startswith(SITE + '/'):
+                sys.exit(f'qr target carries an outside address: {a}')
     QR.write_text(json.dumps({'about': 'One target per scene (RC2, the 70-page draft) or page (the 3- and 10-page editions): the public URL of the record under it, '
                                        'for a QR code in print. Written by review/tools/make_editions.py; an id holds while the chapter keeps its place and scenes.',
                               'site': SITE, 'targets': targets}, indent=1, ensure_ascii=False) + '\n')
     print(f'qr targets: {len(targets)} -> {QR.relative_to(ROOT)}')
+    outside = []                                                     # addresses the register itself cites, under the claim that cites them: kept as text, never a link
+    for e in editions:
+        for c in e['chapters']:
+            for sc in c['scenes']:
+                for t in sc['tokens']:
+                    if t['kind'] != 'claim' or not t['verified']:
+                        continue
+                    own = addresses(json.dumps(claims[t['token']], ensure_ascii=False))
+                    for a in sorted(addresses(json.dumps({k: t.get(k) for k in ('claim', 'value')}, ensure_ascii=False))):
+                        if HOSTS.match(a):
+                            continue
+                        if a not in own:
+                            sys.exit(f'editions.json: {a} under {t["token"]} is not in the register entry for it')
+                        if {'address': a, 'claim': t['token']} not in outside:
+                            outside.append({'address': a, 'claim': t['token']})
     blob = json.dumps({'about': 'The online editions as data: each chapter, its scenes, their paragraphs (with the review pages\' anchors) and the record each rests on, '
                                 'every token resolved to its repository and address, or marked unverified. Writers\' notes are left out, as on the pages. '
-                                'Written by review/tools/make_editions.py from manuscript/ as it stands on dev.', 'site': SITE, 'editions': editions},
-                      indent=1, ensure_ascii=False) + '\n'
+                                'outside_citations: addresses on other hosts that the researcher\'s register cites as sources, under the claim that cites them; text, not links. '
+                                'Written by review/tools/make_editions.py from manuscript/ as it stands on dev.', 'site': SITE,
+                       'outside_citations': outside, 'editions': editions}, indent=1, ensure_ascii=False) + '\n'
     if '%%' in blob:
         sys.exit('editions.json would carry a %% line: refused')
     for u in re.findall(r'"url": "([^"]+)"', blob):
-        if not re.match(r'https://(github\.com/SGit-AI/|the-ultimate-insider\.book\.sgit\.ai/)', u):
-            sys.exit(f'editions.json: an address off the two public hosts: {u}')
+        if not HOSTS.match(u):
+            sys.exit(f'editions.json: a url off the two public hosts: {u}')
+    allowed = {o['address'] for o in outside}
+    for a in addresses(blob):                                        # every address anywhere: on the two hosts, or a register citation listed above
+        if not (a == SITE or HOSTS.match(a)) and a not in allowed:
+            sys.exit(f'editions.json: an address neither on the two hosts nor a listed register citation: {a}')
+    for f in PAGES.glob('*/*.html'):                                 # and never a link on the pages
+        for h in re.findall(r'href="([^"]+)"', f.read_text()):
+            if html.unescape(h).rstrip('.,;:!?') in allowed:
+                sys.exit(f'{f}: links an outside citation: {h}')
+    print(f'outside citations: ' + (', '.join(f"{o['address']} ({o['claim']})" for o in outside) or 'none'))
     for d in DATA:
         d.write_text(blob)
     print(f'editions.json: {len(editions)} editions, {sum(len(e["chapters"]) for e in editions)} chapters, {len(blob) // 1024} KB')

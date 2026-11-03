@@ -3,7 +3,22 @@
  "agent": "developer",
  "kind": "scheduled, hourly at :12 (ACC1)",
  "started": "2026-11-03T08:13:46Z",
- "steps": {},
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (plan brief)",
+   "model": "",
+   "verdict": "go",
+   "comment": "(1) The 07:12 finding: make_editions.py's guard checks every http(s) address in editions.json; url fields only on github.com/SGit-AI or the book's domain; any other only if found in the register entry of the claim it sits under (claims/register.json, read only), listed in a top-level outside_citations, never a link on the pages; same check on qr-targets.json; tick board 007. (2) Status, debrief, REALITY, gate, push.",
+   "at": "2026-11-03T08:14:32Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (pre_review brief)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No hold; in scope. Conditions: whole-address match with the same extraction on both sides, trailing punctuation stripped; qr-targets.json gets no outside_citations exception; rebuild both editions.json copies, list the outside citations, gate and vault_check before push.",
+   "at": "2026-11-03T08:14:32Z"
+  }
+ },
  "closed": null,
  "outcome": null
 }

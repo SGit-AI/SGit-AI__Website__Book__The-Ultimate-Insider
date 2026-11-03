@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "developer",
- "as_of": "2026-11-03T07:15:00Z",
+ "as_of": "2026-11-03T08:15:00Z",
  "round": 2,
- "state": "hourly (ACC1): every edition online with its record and as data (editions.json); next A8's page-by-page view or the graph's next views, or what the editor asks",
+ "state": "hourly (ACC1): every edition online with its record and as data; the data's address guard covers every address; next A8's page-by-page view or the graph's next views, or what the editor asks",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/developer/ into team/developer/ (drafts left in place; ROLE.md names start.py and banner.py)",
@@ -131,6 +131,10 @@
   },
   {
    "what": "A8: the online editions as data, /review/editions.json (4 editions, 37 chapters, paragraphs with anchors, record tokens resolved or marked unverified); writers' notes inside a paragraph no longer leak onto the rc2-70 pages",
+   "when": "2026-11-03"
+  },
+  {
+   "what": "the 07:12 security finding answered: make_editions.py checks every address in editions.json and qr-targets.json; outside hosts only as register citations of their own claim, listed in outside_citations, never linked",
    "when": "2026-11-03"
   }
  ],
