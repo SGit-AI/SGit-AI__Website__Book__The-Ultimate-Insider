@@ -1,0 +1,20 @@
+{
+ "schema": "the-ultimate-insider/lab-run-evidence/v1",
+ "run": "20261103T0555Z-ruv-63-three-rounds",
+ "started": "2026-11-03T05:55:24Z",
+ "wake_record": "team/ruv-sgit/wakes/20261103T055524Z.json",
+ "calls": [
+  {
+   "what": "python3 -B -I tools/rounds.py --talk <scratchpad clone>: three stills, the SVG and the sheet; one quote line first ran past its column, rewrapped",
+   "tool": "python, playwright"
+  }
+ ],
+ "outputs": {
+  "svg": "lab/experiments/63-ruv-three-rounds/edition/three-rounds.svg",
+  "hashes": "lab/experiments/63-ruv-three-rounds/SHA256SUMS"
+ },
+ "time": {
+  "work_started": "2026-11-03T05:57:00Z",
+  "work_ended": "2026-11-03T05:59:00Z"
+ }
+}

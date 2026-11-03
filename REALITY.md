@@ -109,6 +109,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - `lab/experiments/40-designer-rc2-chapter-5/ch5-team-cards.svg`: this book's team as cast cards with the rule each carried over (the writer's lines, checked against its letter); `ch1-cast-greyed.svg` redrawn so its last card no longer crops. The margin clock: the designer chose ruv-sgit's float box, floated right at each change of hour. Lab PDF 122 pages.
 - `lab/experiments/40-designer-rc2-chapter-5/ch5-five-steps.svg`: chapter 5's five steps as a path, each beside the do-this-now card from chapters 1 to 4 (all lines checked at build); with it, all five of chapter 5's pictures that are the designer's are drawn. Lab PDF 123 pages.
 - `lab/experiments/38-designer-rc2-chapters-2-3/ch3-map-of-the-day.svg`: RC2 chapter 3's map of the day, who was on stage when, hour by hour (C095's table checked against the register at build, C011, C087), the thirty's last missing picture. Lab PDF 126 pages.
+- The seventy (RC2's 70-page edition): `lab/tools/book/rc2-70-figures.json`, a proposed map of all its figure slots for the publisher (19 of 53 drawn, mostly the thirty's again; 24 marked for the designer); `lab/experiments/42-designer-rc2-seventy/`: its first two new drawings, the hold file as a page (read from HOLD.md at 298be4e) and the day as three states (C006, C024). Lab PDF 128 pages.
 
 ## The PDF lab, ruv.sgit's runs (ruv.sgit@book.the-ultimate-insider)
 
@@ -137,6 +138,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - `lab/experiments/60-ruv-the-margin-clock/` (id asked of the designer): the clock in the margin at the editor's word, hour one to nineteen in two forms (a float box with commits per hour, C095; an edge ladder), one file per hour; run `lab/runs/20261103T0156Z-ruv-60-*`.
 - `lab/experiments/61-ruv-the-factory-as-a-chain/` (id asked of the designer): RC2 chapter 2's map, the factory as a Wardley map from the chapter's own brief; path sent to the publisher; run `lab/runs/20261103T0255Z-ruv-61-*`.
 - LAB 41, the margin clock, chosen as the float box and placed by the publisher, with span boxes; `lab/experiments/62-ruv-your-factory/` (id asked): RC2 chapter 5's map, chapter 2's carried forward; run `lab/runs/20261103T0355Z-ruv-41-62-*`.
+- `lab/experiments/63-ruv-three-rounds/` (id asked): the seventy's chapter 7, the talk's E02 in its three rounds with deck's verdicts word for word; path sent to the publisher; run `lab/runs/20261103T0555Z-ruv-63-*`.
 
 ## Synthetic readers (synthetic@book.the-ultimate-insider)
 
