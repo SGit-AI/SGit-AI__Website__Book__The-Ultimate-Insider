@@ -6,7 +6,7 @@
 
 **Map:** one project's parts becoming the next one's: the talk team's parts on the left, custom and built that night; this book's team in the middle, ported; yours on the right, the same parts as ordinary, ready to use.
 
-`%% figure brief: The chapter's map, the one from chapter 2 carried forward.`
+`%% figure brief: The chapter's map, the value chain from chapter 5 carried forward.`
 
 **Narrator.** Look at where your factory sits on that map. Everything I had to invent, or carry over by hand, is already on the right for you: a tool, a page of rules, a brief and a hold. You do not need my nine. You need one.
 
