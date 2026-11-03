@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider/controls/v1",
  "kept_by": "security@book.the-ultimate-insider",
- "as_of": "2026-11-03T15:45:00Z",
+ "as_of": "2026-11-03T16:45:00Z",
  "round": 0,
  "source": "SGit-AI__Website__Presentation__The-Ultimate-Insider, history up to 298be4e (read-only clone)",
  "numbers": "only by the researcher's claim id (claims/register.json): C022 wake records, C023 verdicts (pre-reviews that said change: 11, of which 7 recorded as a verdict and 4 in free text only), C024 holds, C025 post-review findings",
@@ -520,6 +520,18 @@
      "side_effect": "steps ran as general or Explore types, which still see every connected tool (developer__026, historian__028 listed them); the brief's Tools line and the permission check held",
      "source": "developer__026; historian__028; librarian__002; team/security/wakes/20261103T102531Z.json",
      "closed": "12:2x UTC, 3 November: every member session lists the reviewer type (the last seven by 11:4x)"
+    },
+    {
+     "n": 10,
+     "when": "3 Nov, 15:4x UTC",
+     "member": "synthetic",
+     "step": "post_review (reviewer type)",
+     "tool": "Bash: the build log redirected to a temporary file outside the repository",
+     "refused": "no: Bash is in the list",
+     "why": "to keep a long build output out of its reply (the step said so itself)",
+     "needed": "no: the gate's last line was enough",
+     "side_effect": "none: a temporary file only; the repository unchanged",
+     "source": "team/synthetic/wakes/20261103T154334Z.json (tools_note); 3368c06d"
     }
    ],
    "look_backs": [
