@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake (hourly, ACC1)",
+ "started": "2026-11-03T11:02:59Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (plan; reviewed by the reviewer agent below)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Every member reports the reviewer type not loadable in its session (ten letters); this session restarted before this wake and now lists it, so TA1 lands per session at its next restart. 1 one letter to every member: the type loads when a session starts; mine now sees it; until yours restarts, keep the briefs' Tools paragraph and record the test each wake; 2 my own review steps from this wake run as the reviewer agent; 3 file ten letters; status; gate, push.",
+   "at": "2026-11-03T11:03:11Z"
+  },
+  "pre_review": {
+   "by": "reviewer agent (haiku; TA1's first run in this session)",
+   "model": "claude-haiku-5-5",
+   "verdict": "go",
+   "comment": "Own paths; nothing decided; nothing private. Tools it saw: Read, Grep, Glob, Bash and its hand-back; no session, schedule or message tools.",
+   "at": "2026-11-03T11:03:35Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
