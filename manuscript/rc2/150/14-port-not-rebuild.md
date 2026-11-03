@@ -48,7 +48,7 @@ Band: *Dramatised (studio's and motion's lines, kept from the 70-page edition). 
 
 `%% clock record: 16:30 to 16:59; clock hours of 29 October (C110; the conductor's CK1).`
 
-**Narrator.** Then I made the talk twice as big. At half past four the conductor routed my word to six members: the talk is ninety minutes, with a section on my own work. Its pre-review first said change, and the conductor amended before it routed anything.
+**Narrator.** Then I made the talk twice as big. At half past four the conductor routed my word to the members it concerned: the talk is ninety minutes, with a section on my own work. Its pre-review first said change, and the conductor amended before it routed anything.
 
 **Narrator.** The conductor's answer, half an hour later, was structural, and I think it is the most important plan the team made all day. The talk in three parts, each with its own deadline and its own lock: part one complete and timed by a quarter past six and locked at half past, part two by half past seven, part three by eight. And for that evening only, at my word, a change to the schedule itself: each member could follow its own wake with one-off follow-ups in its own session, until nothing was left or eight o'clock came.
 
