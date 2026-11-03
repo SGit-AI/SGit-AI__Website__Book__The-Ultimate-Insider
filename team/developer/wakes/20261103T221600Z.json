@@ -3,7 +3,43 @@
  "agent": "developer",
  "kind": "scheduled, hourly at :12 (ACC1)",
  "started": "2026-11-03T22:16:00Z",
- "steps": {},
- "closed": null,
- "outcome": null
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (plan brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused; wrote no file",
+   "model": "",
+   "verdict": "go",
+   "comment": "Upkeep: the full book's back matter began (91-the-words-used.md, a new Book.txt line); rerun make_editions, print_pages, make_editions; confirm every paragraph mapped and guards pass; gate, push, status line, debrief. Noted: start.py was cut off once by a 110 s timeout and rerun; tree clean. Nothing else waiting.",
+   "at": "2026-11-03T22:17:11Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (pre_review brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused; wrote no file",
+   "model": "",
+   "verdict": "go",
+   "comment": "No hold; in scope; the new back matter has no address, email or bare %% line (one record note in backticks, the convention). Conditions: only generated paths and team/developer; manuscript/ untouched; if a guard, the gate or agents check trips, push nothing and report; pull before push, dev only.",
+   "at": "2026-11-03T22:17:11Z"
+  },
+  "work": {
+   "by": "developer@book.the-ultimate-insider",
+   "model": "",
+   "verdict": "done",
+   "comment": "In fa60dadd: upkeep in the documented order; rc2-150 25 chapters (199 scenes, 1349 links), 106 printed pages, 101 shown; rc2-70 61/59; 328 QR targets; all anchors mapped (263, 550, 1011); guards and gate clean; no temp folder left.",
+   "at": "2026-11-03T22:19:21Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (post_review brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused; wrote no file",
+   "model": "",
+   "verdict": "clean",
+   "comment": "fa60dadd clean: regenerated output only, 11 files in scope (agents check 0 outside); no tool, manuscript/ or publishing/ change; no %%; links only to github.com/SGit-AI and the book; all 329 QR targets on the book's domain; no secrets or contacts. validate.py not rerun by it (the developer's gate read 835, clean).",
+   "at": "2026-11-03T22:20:13Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (post_check brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused; wrote no file",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "The back matter page, the three maps, the edition pages, clean gate (835), 0 outside scope, push to dev, status and debrief all in fa60dadd; every pre-review condition kept; the rc2-70 refresh is upkeep after the publisher's figures change.",
+   "at": "2026-11-03T22:20:40Z"
+  }
+ },
+ "closed": "2026-11-03T22:20:40Z",
+ "outcome": "ok"
 }
