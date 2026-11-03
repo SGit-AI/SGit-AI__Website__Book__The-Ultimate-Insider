@@ -24,6 +24,13 @@
    "verdict": "done",
    "comment": "Board 010 done: /review/ed-03/ (4 chapters, 23 links) and /review/ed-10/ (10, 53), each page's record from the storyteller's scripts; raw HTML, stray links and unmatched pages stop the build (one named exception); zoom links every rung; rc2-70 rebuilt at 12 chapters; synthetic__009 filed. Commit b8f516fa.",
    "at": "2026-11-03T05:17:48Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (post_review brief)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "All 45 files in scope; no secrets, contacts, network calls, em-dashes or religious words. Pre-review conditions met: raw HTML and links stop the build, unmatched pages stop it (one named exception), record links only to the public repositories, talk at 298be4e.",
+   "at": "2026-11-03T05:18:26Z"
   }
  },
  "closed": null,
