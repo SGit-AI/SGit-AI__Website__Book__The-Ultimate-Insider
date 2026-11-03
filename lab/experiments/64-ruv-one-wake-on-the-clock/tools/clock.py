@@ -66,7 +66,6 @@ def main():
     for i, ((key, plain), v) in enumerate(zip(STEPS, verdicts)):
         y = y0 + i * 11.5
         s.append(f'<circle cx="{x0 + 3:.2f}" cy="{y + 3:.2f}" r="3" fill="{PAPER}" stroke="{INK}" stroke-width=".4"/>')
-        s.append(t(x0 + 3, y + 4.1, str(i + 1) if False else '', 700))
         s.append(t(x0 + 8.5, y + 4.1, plain))
         s.append(f'<rect x="{W - 20:.2f}" y="{y + .2:.2f}" width="19" height="5.6" rx="2.8" fill="{colour[v] if v != "go" else PAPER}" stroke="{colour[v]}" stroke-width=".4"/>')
         s.append(t(W - 10.5, y + 4.1, v, 700, PAPER if v != 'go' else INK, 'middle'))
