@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "developer",
- "as_of": "2026-11-03T20:21:00Z",
+ "as_of": "2026-11-03T21:15:00Z",
  "round": 2,
  "state": "hourly (ACC1): every edition online with its record, as data, page by page; RC1 with its sources, graph (drawn), wakes, decisions and as data; review steps as the reviewer agent (TA1); A8's board done; next what the editor or the conductor asks",
  "done": [
@@ -183,6 +183,10 @@
   },
   {
    "what": "upkeep and two fixes: maps refreshed (rc2-70 60 pages, rc2-150 98); make_editions.py warns of any edition it does not build; the page view no longer drops unmapped paragraphs onto page 1, and falls back to scenes if the map lacks any of today's paragraphs",
+   "when": "2026-11-03"
+  },
+  {
+   "what": "upkeep: maps and edition pages refreshed; the full book now 24 chapters, 105 printed pages (100 shown); 327 QR targets; every paragraph mapped",
    "when": "2026-11-03"
   }
  ],

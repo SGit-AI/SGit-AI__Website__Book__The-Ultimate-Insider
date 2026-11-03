@@ -3,7 +3,22 @@
  "agent": "developer",
  "kind": "scheduled, hourly at :12 (ACC1)",
  "started": "2026-11-03T21:13:28Z",
- "steps": {},
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (plan brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused",
+   "model": "",
+   "verdict": "go",
+   "comment": "Upkeep in the documented order (make_editions, print_pages, make_editions), gate, push. The full book gained chapters 22 and 23 and changed 13, 20 and 21; rc2-70 ch 09 changed: confirm the counts and that every paragraph is in its map. Status line, short debrief.",
+   "at": "2026-11-03T21:14:20Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (pre_review brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused",
+   "model": "",
+   "verdict": "go",
+   "comment": "No hold; in scope. Conditions: no tool changes; manuscript/ read only; PDF temp folder removed; pull before push, dev only, after the gate; if a guard or the gate fails, push nothing and report. Reviewed from the brief (ran alongside the plan).",
+   "at": "2026-11-03T21:14:20Z"
+  }
+ },
  "closed": null,
  "outcome": null
 }
