@@ -137,3 +137,7 @@ figure:has(img.edition-figure) figcaption { font-size: 8.5pt; }
    boxes and the band a hair tighter keep it on one sheet */
 ol > li { padding-top: 3pt; padding-bottom: 3pt; margin-bottom: 4pt; }
 .band { margin-top: 6pt; }
+
+/* 3 November 2026: the writer's clock line (writer__035), a small note in the outside margin giving the hour of the day */
+.clock { float: right; clear: right; width: 22mm; margin: 0 -26mm 4pt 4pt; }
+.clock p { font-family: var(--sans); font-size: 8pt; line-height: 1.2; color: var(--accent); font-weight: 700; margin: 0; }

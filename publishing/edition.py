@@ -73,7 +73,10 @@ def page(title, body, mark=None, figure=None):
     return f"# {heading}\n\n" + cast_lines(body, mark, figure).strip() + "\n"
 
 
-LAB_SVG = re.compile(r"\blab/[A-Za-z0-9_./-]+\.svg\b")
+LAB_SVG = re.compile(r"\b(?:lab/[A-Za-z0-9_./-]+\.svg|index/talk-site/shots/[A-Za-z0-9_.-]+\.(?:jpg|png))\b")
+SHOTS = "index/talk-site/shots/"
+SHOT_OK = re.compile(r"(?:slide|talk|studio|articles|ruv-sgit)[A-Za-z0-9_.-]*\.(?:jpg|png)$")  # security, 3 Nov 2026
+SHOT_NEVER = re.compile(r"admin__|qr|key|vault", re.I)
 UNSAFE_SVG = re.compile(r"<script|<foreignObject|\bhref\s*=|\bon[a-z]+\s*=|@import", re.I)
 
 
@@ -81,6 +84,15 @@ def lab_drawing(path):
     """A drawing named by its path from the repository root: only an .svg under lab/, no "..", that exists and holds
     no script, link or handler (security's conditions, 2 November 2026). The path from manuscript/, or an exit."""
     full = os.path.normpath(os.path.join(ROOT, path))
+    if path.startswith(SHOTS):  # the librarian's screenshots of the talk's site: only the named kinds, never a key
+        name = path[len(SHOTS):]
+        if "/" in name or ".." in name or SHOT_NEVER.search(name) or not SHOT_OK.match(name):
+            print(f"edition: not placed, a screenshot outside the cleared kinds (security, 3 November): {path}",
+                  file=sys.stderr)
+            return None
+        if not os.path.isfile(full):
+            sys.exit(f"edition: no such screenshot: {path}")
+        return os.path.relpath(full, os.path.join(ROOT, "manuscript"))
     if ".." in path.split("/") or os.path.isabs(path) or not path.startswith("lab/") or not path.endswith(".svg") \
             or not full.startswith(os.path.join(ROOT, "lab") + os.sep):
         sys.exit(f"edition: refused a drawing outside lab/ or not an .svg: {path}")
@@ -112,11 +124,15 @@ def cast_lines(body, mark=None, figure=None, figures=None):
         if not s:
             lines.append(line)
             continue
+        if s == "---" or re.match(r"`?%%", s):  # rules and the developer's markers: dropped, and they do not end a run
+            continue
+        if s.startswith(">") and last:  # a passage quoted inside the narration keeps the speaker's run (conductor__059)
+            lines.append(line)
+            continue
+        if s.startswith("**Clock:**"):  # the writer's clock line, a note in the margin (writer__035); keeps the run
+            lines += ["", "::: {.clock}", s[len("**Clock:**"):].strip(), ":::", ""]
+            continue
         speaker, last = last, None
-        if s == "---":
-            continue
-        if re.match(r"`?%%", s):  # the developer's markers, for the augmented mode
-            continue
         if s.startswith("**Cast bar:**"):
             if mark:  # the marker drawing at the top, the cast-bar sentence under it as its caption (designer__071, 2)
                 lines += ["", "::: {.cast-bar .with-marker}", f"![{mark[1]}]({mark[0]}){{.marker}}\\",
@@ -150,9 +166,10 @@ def cast_lines(body, mark=None, figure=None, figures=None):
         if m and m.group(1).lower() in SPEAKERS:
             who = m.group(1).lower()
             mood = f' data-mood="{m.group(2)}"' if m.group(2) else ""
-            same = " .same-speaker" if speaker == who else ""
+            # the same speaker again, in the same mood: no second head (a mood change shows it again)
+            same = " .same-speaker" if speaker and speaker[0] == who and (not m.group(2) or m.group(2) == speaker[1]) else ""
             lines += ["", f'::: {{.speaker{same} data-speaker="{who}"{mood}}}', s, ":::", ""]
-            last = who
+            last = (who, m.group(2) or (speaker[1] if speaker and speaker[0] == who else None))
             continue
         if re.match(r"\*(Words (on|for) this page:\*|How to read the scenes:\*|An \*\*agent\*\*, here, is )", s):
             lines += ["", "::: {.words-box}", s, ":::", ""]

@@ -219,8 +219,11 @@ def main():
                 key = os.path.relpath(os.path.abspath(src), MANUSCRIPT)
                 drawings = figure_map.get(key)
                 if drawings is not None and len(drawings) != edition.figure_count(raw):
-                    sys.exit(f"build_book: {a.figures} gives {len(drawings)} drawing(s) for {key}, "
-                             f"which has {edition.figure_count(raw)} Figure line(s)")
+                    # a warning, not a stop: the site's draft must always build; that chapter's figures print as boxes
+                    print(f"build_book: WARNING {a.figures} gives {len(drawings)} drawing(s) for {key}, which has "
+                          f"{edition.figure_count(raw)} Figure line(s): its figures print as boxes until the map is "
+                          f"brought up to date", file=sys.stderr)
+                    drawings = None
                 raw = edition.cast_lines(raw, figures=drawings if drawings is not None else [])
             text = figure_kinds(markua.translate(raw))
         files.append(os.path.join(marked, os.path.basename(src)))

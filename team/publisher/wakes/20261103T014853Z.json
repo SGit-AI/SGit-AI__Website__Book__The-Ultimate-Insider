@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake (01:47 slot)",
+ "started": "2026-11-03T01:48:53Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1 rc2-figures (30/01 player slot, 30/04 speech cards), mismatch warns not fails; 2 one head per run (%%, ---, > keep the run; a mood change shows the head); 3 screenshots .jpg/.png under index/talk-site/shots/, never key or vault names; 4 Clock lines as margin notes; 5 the seventy's build list; 6 rebuild and look, fixes carried if long; 7 letter to the conductor (release --figures; the printer); 8 status, letters, records. release.yml not mine.",
+   "at": "2026-11-03T01:50:02Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In policy; nothing unsigned; no HOLD; the SVG a drawing only. 79 shots: admin__keys.jpg and admin__vaults.jpg show keys. Conditions: allow only shots named slide, talk, studio, articles or ruv-sgit; refuse admin__, qr, key, vault; never copy shots into outputs unvetted.",
+   "at": "2026-11-03T01:50:24Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Runs fixed (%%, ---, > keep; mood shows); Clock margin notes; cleared screenshots only (talk, slide, studio, articles, ruv-sgit; admin__dashboard refused as a box); mismatch warns; rc2-figures updated; the seventy's list, 22 pages; the thirty 32; editions unchanged; letters 037, 009, 017, 004; inbox, board 007, records; vault_check and gate clean.",
+   "at": "2026-11-03T01:53:16Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Gate clean; 0 outside scope; vault_check clean; nothing under rc2, lab, chapter-plan, briefs, .github or src; no key, contact, em-dash, religious word or attack shape; the screenshot rule keeps every condition; the lab SVG rule unchanged.",
+   "at": "2026-11-03T01:54:06Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Items 1 to 8 in the diff; conditions kept; release.yml untouched; nothing unplanned.",
+   "at": "2026-11-03T01:54:06Z"
+  }
+ },
+ "closed": "2026-11-03T01:54:06Z",
+ "outcome": "ok"
+}
