@@ -31,8 +31,15 @@
    "verdict": "as-planned",
    "comment": "Both items in b7ee84ce, conditions kept, nothing extra; gate clean (769), 0 outside scope. Noted: the work step was recorded after its check began (the push loop retried); the status entry saying 131 QR targets is dated to its wake and stays.",
    "at": "2026-11-03T18:18:15Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (post_review brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused",
+   "model": "",
+   "verdict": "clean",
+   "comment": "b7ee84ce clean: five files in scope, no tool changed, nothing in publishing/ or manuscript/; 140 new links all github.com/SGit-AI; no %% in the outputs; gate clean (769). Precision noted: C101's two citations appear as text in editions.json in each claim value as well as in outside_citations (by design: claim text is kept), never as a link.",
+   "at": "2026-11-03T18:18:54Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T18:18:54Z",
+ "outcome": "ok"
 }
