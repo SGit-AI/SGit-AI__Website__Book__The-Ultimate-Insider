@@ -24,6 +24,13 @@
    "verdict": "done",
    "comment": "In c1c413c2: conductor__032 answered (look-back of 85 review sub-agent transcripts: Bash 195, Read 23, Grep 8, no session tool; developer__024 to security, developer__025 to the conductor, conductor__032 filed); board 007 gap closed, tested on a scratch clone (citation in a paragraph refused). A first test ran the clone's committed tool; rerun with the edited one, disclosed.",
    "at": "2026-11-03T09:17:58Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (post_check brief, tools as briefed; none refused)",
+   "model": "",
+   "verdict": "partial",
+   "comment": "Items 1 and 2 done in c1c413c2, every pre-review condition kept. Item 3 partial: REALITY.md still described the 08:12 rule, and status.json listed 008 under blocked/; both corrected after the check. The debrief's commits and site_version fields keep the team's usual wording.",
+   "at": "2026-11-03T09:19:17Z"
   }
  },
  "closed": null,
