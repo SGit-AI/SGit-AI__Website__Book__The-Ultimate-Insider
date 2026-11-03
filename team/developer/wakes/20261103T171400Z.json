@@ -31,8 +31,15 @@
    "verdict": "as-planned",
    "comment": "Both items in 4b52db38; security conditions held (no %%, 908 github.com addresses all SGit-AI, one on the book's domain, outside_citations empty). Corrected before close: board 007 moved to done/, status state's repetition, and the debrief now names the unplanned rebuild of rc2-70 and the QR targets.",
    "at": "2026-11-03T17:20:35Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (post_review brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused",
+   "model": "",
+   "verdict": "clean",
+   "comment": "4b52db38 clean: in scope; gate, agents and comms checks clean; no secrets, contacts, em-dashes or religious words; both rc1-book.json copies identical, no %%, every URL on the two hosts, outside_citations empty, rc1.json unchanged. Noted for the TA1 register: it wrote a read-only checking script into the session scratchpad with Bash (a) to check the JSON, b) not needed, an inline run would do, c) none: nothing in the repository written), the residual security named (Bash still writes).",
+   "at": "2026-11-03T17:21:39Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T17:21:39Z",
+ "outcome": "ok"
 }
