@@ -12,7 +12,7 @@
 - ch15-six-principles.svg: six cards in a row, each principle's heading as chapter 15 gives it, and under it the times and
   chapters its own "Where it came from" line names, parsed at build (nothing it does not name).
 - ch16-checklist.svg: the checklist as one page, each line a box to tick, its chapter and its first sentence, parsed from
-  chapter 16 at build (fifteen lines, chapters 1 to 15 in order, or the build stops).
+  chapter 16 at build (its chapters from 1 in order, or the build stops; fourteen since chapter 15 was folded in).
 - ch2-dashboard.svg: the team's dashboard, drawn (never shot): the wake clock's minutes (C071), the hold's title (read
   from HOLD.md at 298be4e), what waits on the editor as grey lines (nothing invented), and every wake as a grid, one
   square per wake record per member (C022's column in claims/scorecard-values.md, checked to its total at build).
@@ -24,7 +24,10 @@
 - ch2-member-page.svg: deck's member page, drawn: its title, its role's first line and two of its rules with the
   mistake behind each, verbatim from its ROLE.md at 298be4e (two that carry no number); status and debriefs as grey
   lines; a square per wake record (C022); the key section shown only as a dashed band saying it is not shown.
-No number is printed but the hold's time, ids, C029's counts and the chapters' own times. One SVG unit a millimetre, sizes stated, text 9 pt.
+- ch7-wakes-card.svg: the day's wakes by trigger as a card: the total and its three parts from C087, checked to add up.
+- ch3-team-pattern.svg: the team pattern as a card: one brief, one board, one hold, a page of rules per member, and each
+  member's round in the Figure line's own words (checked in chapter 3 at build).
+No number is printed but the hold's time, ids, C029's and C087's counts and the chapters' own times. One SVG unit a millimetre, sizes stated, text 9 pt.
 """
 import json, re, subprocess, sys
 from pathlib import Path
@@ -225,6 +228,72 @@ def member_page(clone):
     return mc.svg(164, round(H + 6.2, 1), "".join(out), "Deck's member page, drawn: its role, two rules with the mistake behind each, its wakes; its key section not shown")
 
 
+def wakes_card():
+    v = REG["C087"]["value"]
+    parts = [("scheduled", "started by the schedule", mc.MUTED), ("editor", "started by the editor", mc.ACCENT), ("follow-up", "follow-ups", mc.FILL2)]
+    if sum(v[k] for k, _, _ in parts) != v["wakes"]:
+        sys.exit("make_pictures: C087's parts do not add up to its wakes")
+    out = [f'<rect x=".3" y=".3" width="163.4" height="46" rx="2" fill="#fff" stroke="{mc.INK}" stroke-width=".45"/>',
+           f'<text x="5" y="17" {SANS} font-size="12" font-weight="800" fill="{mc.INK}">{v["wakes"]}</text>',
+           t(5, 23.4, "wakes on the day", 400, mc.MUTED)]
+    x, W = 40.0, 119.0
+    for k, words, col in parts:
+        w = W * v[k] / v["wakes"]
+        out.append(f'<rect x="{x:.2f}" y="8" width="{w:.2f}" height="9" fill="{col}"/>')
+        out.append(t(x + 1.4, 23.4, str(v[k]), 800, mc.ACCENT if k == "editor" else mc.INK) + t(x + 1.4, 27.8, words, 400, mc.MUTED)
+                   if k != "follow-up" else mc.line(x + w / 2, 17, x + w / 2, 29.6, mc.FILL2, .4)
+                   + t(x + w, 34, str(v[k]), 800, mc.INK, "end") + t(x + w, 38.4, words, 400, mc.MUTED, "end"))
+        x += w
+    out.append(t(5, 42.4, "the day's wakes by what started them (C087)", 400, mc.MUTED))
+    return mc.svg(164, 47, "".join(out), "A card: the day's wakes by trigger, the schedule's, the editor's and the follow-ups")
+
+
+ROUND = ["wakes on its own minute", "reads the brief, the board and its mail", "does one step", "writes down what it did"]
+
+
+def team_pattern():
+    line = next(l for l in (R70 / "03-one-account-one-project-one-conductor.md").read_text().splitlines() if l.startswith("**Figure:** a card, the team pattern"))
+    for w in ["one brief, one board, one hold", "a page of rules per member"] + ROUND:
+        if w not in line:
+            sys.exit(f"make_pictures: {w!r} is not in chapter 3's team pattern line")
+    out = [f'<rect x=".3" y=".3" width="163.4" height="62" rx="2" fill="#fff" stroke="{mc.INK}" stroke-width=".45"/>',
+           t(5, 8, "the team pattern", 800)]
+    # the three shared things
+    for i, (label, draw) in enumerate([("one brief", "brief"), ("one board", "board"), ("one hold", "hold")]):
+        x = 8 + i * 22
+        if draw == "brief":
+            out.append(f'<rect x="{x}" y="13" width="9" height="11" rx=".5" fill="#fff" stroke="{mc.INK}" stroke-width=".45"/>'
+                       + "".join(mc.line(x + 1.6, 16 + k * 1.9, x + 7.4, 16 + k * 1.9, mc.MUTED, .35) for k in range(4)))
+        elif draw == "board":
+            out.append(f'<rect x="{x - 2}" y="13" width="14" height="11" rx=".5" fill="#fff" stroke="{mc.INK}" stroke-width=".45"/>'
+                       + "".join(f'<rect x="{x - .6 + c * 4.6:.1f}" y="{14.6 + r * 3:.1f}" width="3.4" height="2" fill="{f}"/>' for c, r, f in ((0, 0, mc.FILL2), (1, 0, mc.FILL2), (2, 1, mc.ACCENT))))
+        else:
+            out.append(f'<path d="M{x - 1} 13 h8 l2.4 2.4 v8.6 h-10.4 z" fill="#fff" stroke="{mc.INK}" stroke-width=".45"/>' + t(x + 4.2, 20.6, "HOLD", 800, mc.ACCENT, "middle"))
+        out.append(t(x + 4.5, 29, label, 700, mc.INK, "middle"))
+    # a page of rules per member
+    for i, m in enumerate(mc.CAST):
+        out.append(g(mc.head(m), 1 + i * 7.2, 33, .3) + f'<rect x="{6 + i * 7.2:.1f}" y="42" width="4.6" height="5.6" rx=".3" fill="#fff" stroke="{mc.INK}" stroke-width=".3"/>')
+    out.append(t(5, 54, "a page of rules per member", 700))
+    # each member's round
+    cx, cy, r = 112, 33, 16
+    import math
+    for i, words in enumerate(ROUND):
+        a = math.radians(-90 + i * 90)
+        a0, a1 = math.radians(-90 + i * 90 + 14), math.radians(-90 + (i + 1) * 90 - 14)
+        out.append(f'<path d="M{cx + r * math.cos(a0):.2f} {cy + r * math.sin(a0):.2f} A{r} {r} 0 0 1 {cx + r * math.cos(a1):.2f} {cy + r * math.sin(a1):.2f}" fill="none" stroke="{mc.ACCENT}" stroke-width=".7" marker-end="url(#tp)"/>')
+    labels = [(cx, cy - r - 2.4, "middle"), (cx + r - 2, cy - 3, "start"), (cx, cy + r + 4.6, "middle"), (cx - r - 1.6, cy - 3, "end")]
+    for (x, y, anc), words in zip(labels, ROUND):
+        import textwrap
+        rows = textwrap.wrap(words, 17)
+        if y < cy - r:  # the top label grows upward, clear of the circle
+            y -= 4.1 * (len(rows) - 1)
+        for j, row in enumerate(rows):
+            out.append(t(x if anc != "start" else x + 4, y + j * 4.1, row, 400, mc.INK, anc if anc != "start" else "start"))
+    out.append(t(cx, cy + 1.2, "each member", 700, mc.MUTED, "middle"))
+    defs = f'<defs><marker id="tp" viewBox="0 0 6 6" refX="5" refY="3" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0 L6 3 L0 6 z" fill="{mc.ACCENT}"/></marker></defs>'
+    return mc.svg(164, 63, defs + "".join(out), "A card, the team pattern: one brief, one board, one hold, a page of rules per member, and each member's round")
+
+
 FLOORS = [("the talk", ("src/static/talk/",)),
           ("the workshop of animations", ("src/static/ruv-sgit/", "src/pages/ruv-sgit/", "src/static/motion/", "src/pages/motion/")),
           ("the studio", ("src/pages/studio/", "src/static/studio/", "src/static/studio-ports/", "src/pages/studio-ports/")),
@@ -334,8 +403,8 @@ def checklist():
     import textwrap
     text = (R70 / "16-build-your-own.md").read_text()
     items = re.findall(r"^- \[ \] \*Chapter (\d+):\* (.+)$", text, re.M)
-    if [int(c) for c, _ in items] != list(range(1, 16)):
-        sys.exit("make_pictures: chapter 16's checklist is not chapters 1 to 15 in order")
+    if not items or [int(c) for c, _ in items] != list(range(1, len(items) + 1)):
+        sys.exit("make_pictures: chapter 16's checklist does not run from chapter 1 in order")
     out = [f'<rect x=".3" y=".3" width="163.4" height="{{H}}" rx="1.6" fill="#fff" stroke="{mc.INK}" stroke-width=".45"/>',
            t(5, 8.6, "The checklist", 800, mc.INK, size=4.6)]
     y = 16.0
@@ -357,7 +426,8 @@ if __name__ == "__main__":
     files = {"ch10-hold-file.svg": hold_file(clone), "ch12-state-machine.svg": state_machine(),
              "ch8-register-bar.svg": register_bar(), "ch15-six-principles.svg": six_principles(), "ch16-checklist.svg": checklist(),
              "ch2-dashboard.svg": dashboard(clone), "ch2-site-building.svg": site_building(clone),
-             "ch2-wakes-page.svg": wakes_page(clone), "ch2-member-page.svg": member_page(clone)}
+             "ch2-wakes-page.svg": wakes_page(clone), "ch2-member-page.svg": member_page(clone),
+             "ch7-wakes-card.svg": wakes_card(), "ch3-team-pattern.svg": team_pattern()}
     for name, svg in files.items():
         (HERE / name).write_text(svg)
     print("written " + ", ".join(files))
