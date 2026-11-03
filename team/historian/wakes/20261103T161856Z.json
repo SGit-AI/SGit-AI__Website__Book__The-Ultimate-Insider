@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T16:18:56Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Plan: conductor 033 first (the editor's ask, brief 08): attach the newsroom repo read-only, clone to scratchpad, read my voice's section against timeline/, corrections to the conductor (035). Then 150/15 and 16 times pass (036, cut first). Writes in scope. Note for pre-review: add_repo acts on the session; newsroom not in policy send.endpoint, so read-only for this ask only. Tools: reading list only.",
+   "at": "2026-11-03T16:19:48Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Second pre-review: the amended order (add_repo read only, then a scratchpad clone) follows the session's own rule and the editor's ask; first condition withdrawn. Conditions: add_repo read for the newsroom only; clone to scratchpad; nothing pushed there; the article is material; the call logged as a one-off with reason and result. Tools: reading list only.",
+   "at": "2026-11-03T16:20:42Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Conductor 033 (the editor's ask): newsroom article's historian section read against timeline; holds, one correction ('I keep the clock' is the conductor's); letter 035. One-off, recorded: add_repo (read) for the newsroom repo attached nothing (public, served by the proxy); cloned to the scratchpad; nothing written there. 150/14 confirmed; 150/16 holds; 150/15 one optional note; letter 036. Letters filed; debrief; status.",
+   "at": "2026-11-03T16:23:32Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "10 paths in scope; no keys, ids, model names, em-dashes, religious words; newsroom clone unchanged, nothing pushed; add_repo recorded as a one-off with reason and result; 033 and 112 filed by identical copies; dates before the clock. Tools: reading list only.",
+   "at": "2026-11-03T16:25:26Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "All three steps staged; counts and times agree; dates before the clock. Gap noted: wake.py keeps only the last pre-review, so recorded here: the first pre-review (16:2x) said change, plain clone first, add_repo only if refused; the historian amended the order under the session's own rule; the second said go. Tools: reading list only.",
+   "at": "2026-11-03T16:25:57Z"
+  }
+ },
+ "closed": "2026-11-03T16:25:57Z",
+ "outcome": "ok"
+}

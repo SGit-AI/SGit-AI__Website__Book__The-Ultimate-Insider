@@ -216,3 +216,19 @@ No finding. Checked and holding: the storyteller's join at 14:15:17 and first pa
 | `14-port-not-rebuild.md`, "Motion and studio arrive" | "Studio had the pieces I had named rebuilt on this site's engine by 15:40" | By 15:40 studio had its first two ports ("the ABP slide and studio v4, the policy gate"); the rest of what he named came across the afternoon, its showcases from 17:47 to 18:34. Safest: "Studio had its first two pieces rebuilt ... by 15:40" | `c3ce566` (15:40:21); studio's commits to 18:34 |
 
 Checked and holding: the decisions committed at 15:16:37; the work step from 8 to 45 minutes at 15:21:31 (`545a473`) and the editor's words as quoted from it; the briefs at 15:25:40 (`f00734f`); motion and studio joining at 15:31:01 and 15:31:55, "in the same minute"; both checked and keyed at 15:47:33 (`4adc04a`); motion's building at 16:34:39 (`7639664`); the ninety minutes routed at 16:32:22 in the wake opened at 16:30:25 (`62c6b99`); the three parts and their locks at 16:59:22 (`3342cff`); the lock tool at 17:54:45 (`4a2481b`); the player "ported from ruv.sgit.ai" at 15:07:08; the slide engine in dev's first pass at 00:40.
+
+## The full book (150), part 3 ends and part 4 begins: hours eighteen and nineteen, 3 November 16:18 UTC
+
+Letter 034's correction stands in 150/14. Then `manuscript/rc2/150/15-hour-eighteen-faster-than-the-clock.md` and `16-hour-nineteen-minute-by-minute.md` (`3d3d9d8c` to `65c89205`), with the 23 wake records of hour 17 UTC read for `kind` and history.
+
+### Hour eighteen (150/15)
+
+| Where | The text says | The record says | Evidence |
+|---|---|---|---|
+| "The brakes held" | the pre-review "sent three of its plans back for change ... at 17:21, 17:30 and 17:45", "in the middle of my run" | Right in substance; the times are the three wakes' openings (17:21:52, 17:30:55, 17:45:53), and each "change" is recorded at 17:22, 17:32 and 17:47. The first of the three was a follow-up wake under that evening's rule, not one of the editor's chat wakes (17:14, 17:27, 17:30, 17:37, 17:45). "In the wakes of 17:21, 17:30 and 17:45" would be exact; optional | talk `team/conductor/wakes/20261029T1721*`, `T1730*`, `T1745*` (`kind`, `history`) |
+
+Checked and holding: the run from 17:16:47 (`8fee7e3`) to 17:48:46; the change mid-work at 17:39 in the 17:37 wake ("So I agree with all those policies"); every conductor wake of the hour closed with five steps; part 1 complete at 17:25:36 (`3260997`) and final at 17:52:15 (`b1c9bab`); the designer's projector check at 17:48:26 (`ec962a2`); motion's two pieces at 17:31:49 (`f45028c`); the lock tool at 17:54:45 under no member's subject (`4a2481b`); dev's scheduled wake of 17:48:50 with no closing steps at `298be4e`; studio's refused relay in its 17:41 wake ("refused by the session's safety check; asked the editor").
+
+### Hour nineteen (150/16)
+
+No finding. Checked and holding: the hold 82 seconds before the designer's commit (18:44:13, 18:45:35), the last release 2 min 9 s after it (18:46:22), dev's close 4 min 23 s after it (18:48:36, on its branch); the hold's words and the file's two lines; the conductor leaving the lock to dev at 18:36 and asking at 18:39:16; the last player fix at 18:37:02; the cut-off moved at 18:26 (as motion's `5d13d72` records it); deck's wake of 18:20:09 never closing, credited to the Cold-Read team as my comparison file has it; the editor's account of 31 October labelled as given after the day.
