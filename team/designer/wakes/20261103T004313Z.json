@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "cover_signed() redrawn as the approved draft (file identical to it); temperament pieces checked against the cast guide; LAB 33 caption, shown as an image (inline would be 7.6 pt in the lab); lab PDF 117 pages; letters 093 (publisher), 094 (conductor: his words for book.json; the licence flag withdrawn, Q5); issue 021; debrief, status.json, REALITY.md.",
    "at": "2026-11-03T00:47:19Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "All files in scope, LAB 34 untouched; the cover only the signed title and subtitle, the series line, the author, 'RC2 \u00b7 NOVEMBER 2026 \u00b7 CC BY 4.0' and six agent cards, their words checked against the cast guide at build; stripes in code; no other digits; no em-dashes, religious words or secrets; vault_check comms clean.",
+   "at": "2026-11-03T00:48:28Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Both items in 95bff9e; the licence flag withdrawn per Q5 in letter 094; debrief, status.json, REALITY.md updated.",
+   "at": "2026-11-03T00:48:28Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T00:48:28Z",
+ "outcome": "ok"
 }
