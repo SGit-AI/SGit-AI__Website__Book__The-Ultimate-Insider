@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T21:19:01Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Plan: check 150/21's third-failure section against letter 040; answer security 004 (041: keep the 'rewrote'; the tool cases are already in ch 18, quoted as it words them); times pass on 150/22 and 23 (042). Writes in scope; no HOLD. Tools: reading list only.",
+   "at": "2026-11-03T21:19:40Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Writes in scope; no HOLD; nothing to Cold-Read. Conditions: tool cases only as tried and refused; no keys/ids/model names/em-dashes/religious words; dates from the clock; vault_check comms. Tools: reading list only.",
+   "at": "2026-11-03T21:19:59Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "",
+   "verdict": "done",
+   "comment": "150/21's third failure confirmed (one nit: 'rewritten' for 'rewrote'); security 004 answered (041: the 'rewrote' kept; the tool cases already in ch 18); 150/22 and 23 hold (042). Letters filed; debrief; status.",
+   "at": "2026-11-03T21:21:09Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "11 paths in scope; letters filed by identical copies; no keys, ids, model names, em-dashes, religious words; tool cases only as tried and refused; dates before the clock. Tools: reading list only.",
+   "at": "2026-11-03T21:22:24Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "All three items staged in 11 paths, nothing extra; claims check against ch 18, 150/22 and RL1. One count fixed before commit: 'three times' to 'four places, its heading among them'. Tools: reading list only.",
+   "at": "2026-11-03T21:22:52Z"
+  }
+ },
+ "closed": "2026-11-03T21:22:52Z",
+ "outcome": "ok"
+}
