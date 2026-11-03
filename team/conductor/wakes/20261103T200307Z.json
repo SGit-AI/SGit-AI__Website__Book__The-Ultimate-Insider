@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "conductor__031 to synthetic (re-read the seventy now, findings to the writer), outbox copy; status's state line refreshed; vault_check clean. Note: the letter was written before the gate line printed, as the first gate call failed on the plan verdict; nothing committed before the gate passed.",
    "at": "2026-11-03T20:05:09Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "finding",
+   "comment": "Reviewer agent: in scope, validate and vault_check clean, conditions kept. Finding: the letter file was written in the working tree before the gate passed (the first gate call failed on the plan verdict 'change'); disclosed, nothing committed before the gate. Taken: from now work files only after wake.py gate prints its line. Also the letter and status were dated 20:15 against a 20:05 commit: corrected to 20:05.",
+   "at": "2026-11-03T20:06:34Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "as-planned",
+   "comment": "Reviewer agent: 008 answered (031, outbox copy, Cc writer), state line refreshed, conditions kept, nothing unplanned; the dates fixed after this step.",
+   "at": "2026-11-03T20:06:34Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T20:06:34Z",
+ "outcome": "ok"
 }
