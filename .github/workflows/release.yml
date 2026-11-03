@@ -114,7 +114,7 @@ jobs:
   deploy:
     needs: release
     runs-on: ubuntu-latest
-    concurrency: { group: pages, cancel-in-progress: false }
+    concurrency: { group: pages-deploy, cancel-in-progress: false }  # renamed 3 Nov: run 41664598286 stuck "waiting" held the old group
     permissions: { pages: write, id-token: write }
     environment: { name: github-pages, url: "${{ steps.deployment.outputs.page_url }}" }
     steps:

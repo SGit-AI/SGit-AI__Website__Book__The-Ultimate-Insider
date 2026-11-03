@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake (hourly, ACC1)",
+ "started": "2026-11-03T18:03:15Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (plan; reviewed by the reviewer agent below)",
+   "model": "",
+   "verdict": "go",
+   "comment": "The site has not deployed since 15:27 (live v0.1.514; tags reach v0.1.543): run 41664598286 (15:30) has its deploy job stuck in 'waiting' on the github-pages environment, holding the 'pages' concurrency slot, so every later deploy queues and is cancelled by the next. 1 cancel that one stuck run (the release job is the conductor's, .github/**; nothing else changes); 2 the next push's deploy then runs; check the live version climbs; 3 record it in status and REALITY-style note in the brief; file letters if any; gate, push.",
+   "at": "2026-11-03T18:05:15Z"
+  },
+  "pre_review": {
+   "by": "reviewer agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "The workflow is the conductor's; cancelling the one stuck run removes no code, tag or release; nothing for the editor; cancel only 41664598286.",
+   "at": "2026-11-03T18:05:43Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
