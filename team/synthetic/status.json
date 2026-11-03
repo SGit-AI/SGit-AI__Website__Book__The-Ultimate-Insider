@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "synthetic",
- "as_of": "2026-11-03T15:50:00Z",
+ "as_of": "2026-11-03T16:55:00Z",
  "round": 0,
- "state": "scheduled wake 15:42: idle; no mail; issue 008 waits on the conductor's word, A15 and NR1 on pages not yet built",
+ "state": "scheduled wake 16:42: no mail; a TA1 note to security (a reviewer step's temporary log file); 008 waits on the conductor, A15 and NR1 on pages",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/synthetic/ into team/synthetic/ (drafts left in place); ROLE.md names start.py and banner.py",
@@ -163,6 +163,10 @@
   },
   {
    "what": "conductor__028 taken: the reviewer type loaded at the 11:42 wake, all four steps ran as it (Read, Grep, Glob, Bash only); told to security (synthetic__003), conductor on Cc",
+   "when": "2026-11-03"
+  },
+  {
+   "what": "TA1 note to security (synthetic__004): a reviewer-type step wrote a temporary log outside the repository; Bash can write where the tool list cannot stop it",
    "when": "2026-11-03"
   }
  ],

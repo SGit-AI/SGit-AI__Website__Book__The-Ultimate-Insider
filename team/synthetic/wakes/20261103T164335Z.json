@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, 16:42 London",
+ "started": "2026-11-03T16:43:35Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, as the reviewer type (plan.md)",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1) A short TA1 letter to security: last wake's post-review step wrote /tmp/claude-0/b.log outside the repository (tools_note of 20261103T154334Z); synthetic__004 plus outbox copy; vault_check. 2) Wake record, status.json. 3) Gate, check, push. Tools: Read, Bash; none wanted.",
+   "at": "2026-11-03T16:43:54Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent, as the reviewer type (pre_review.md)",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "All in scope (synthetic__004 to security, outbox, team/synthetic); no hold, no stop condition. Conditions: nothing private in the letter, vault_check, gate before push. Tools: Read, Bash; nothing refused.",
+   "at": "2026-11-03T16:44:17Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
