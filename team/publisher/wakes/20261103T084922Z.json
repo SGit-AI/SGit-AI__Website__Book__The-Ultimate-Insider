@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake (08:47 slot)",
+ "started": "2026-11-03T08:49:22Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "The designer's list plus three overrides (70/07 drawn three rounds, 70/02 slot 3 the cleared map-slide screenshot, 70/05 slot 1 ruv-sgit's one wake), rechecked; the 150's list (01 to 03) built outside _site, uncleared shots stay boxes, writer and security told; rebuild all three and look; letters; records; the release not to build the 150 until the editor says; vault_check, gate, no em-dashes, RW1.",
+   "at": "2026-11-03T08:50:07Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "No HOLD; the three SVGs drawings only; the dashboard shows the hold title and usage line, no key or personal detail; the map slide and the 150's cleared-kind shots opened: slide and site content only, no key, QR or personal detail. Conditions: own paths only; uncleared shots stay boxes; vault_check.",
+   "at": "2026-11-03T08:50:34Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "The designer's list recopied with three overrides kept, rechecked; the 150's list (01 to 03), 22 pages, four uncleared shots as boxes; thirty 29, seventy 58, looked at; letters 024, 009, 015, 014, 041; inbox, board 007, records; vault_check and gate clean.",
+   "at": "2026-11-03T08:52:11Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Gate clean; 0 outside scope; vault_check clean; no keys, contacts, em-dashes, religious or attack words; nothing under rc2, lab, chapter-plan, briefs, .github or src; edition.py untouched; the one new screenshot a cleared slide.",
+   "at": "2026-11-03T08:53:21Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Overrides, the 150's list, letters, records present; conditions kept; nothing unplanned.",
+   "at": "2026-11-03T08:53:21Z"
+  }
+ },
+ "closed": "2026-11-03T08:53:21Z",
+ "outcome": "ok"
+}

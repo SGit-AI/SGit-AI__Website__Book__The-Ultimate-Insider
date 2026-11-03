@@ -35,3 +35,5 @@ source: comms/mail/mailroom/publisher/conductor__026-check-taken.eml; publishing
 3 November about 07:10 UTC: the seventy complete (17 files, 55 pages) with the designer's figure map; the release builds it too. ruv-sgit's three rounds held on security's answer about embedded stills.
 
 3 November about 08:10 UTC: the seventy 56 pages with the designer's three infographics and ruv-sgit's drawn three rounds; the embedded-stills rule from security (010) noted, not yet needed.
+
+3 November about 09:10 UTC: the seventy 58 pages (dashboard, building, map slide, one wake); the 150 begun: manuscript/editions/rc2-150/Book.txt, chapters 1 to 3, 22 pages; four shots outside the cleared kinds left as boxes, security asked.
