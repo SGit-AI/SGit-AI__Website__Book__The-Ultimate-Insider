@@ -22,6 +22,6 @@ From the chapter's `## Where this came from` in `manuscript/rc2/150/08-hours-fou
 - `manuscript/rc2/30/03-the-factory-runs.md`
 - `manuscript/rc2/70/06-talking-through-git.md`
 
-## Commits named (14)
+## Commits named (13)
 
-`8543269`, `648feee`, `e8bd87a`, `59ac8ab`, `cabcd57`, `794008c`, `3616efc`, `6a6be6d`, `c6dcf89`, `09c02ff`, `f448345`, `aeffbf9`, `af0010b`, `1ef6675`
+`8543269`, `648feee`, `e8bd87a`, `59ac8ab`, `cabcd57`, `794008c`, `3616efc`, `6a6be6d`, `c6dcf89`, `09c02ff`, `f448345`, `aeffbf9`, `af0010b`
