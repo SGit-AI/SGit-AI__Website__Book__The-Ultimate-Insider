@@ -17,6 +17,13 @@
    "verdict": "go",
    "comment": "No hold; in scope. Conditions: the register's outside hosts (arxiv.org, claude.com, diniscruz.ai, leanpub.com, jamesclear.com, and a leanpub.com/$s placeholder) only as text in an outside_citations list under their claim, as editions.json does; refuse to write on %% or any other off-host address; gate before push.",
    "at": "2026-11-03T17:16:21Z"
+  },
+  "work": {
+   "by": "developer@book.the-ultimate-insider",
+   "model": "",
+   "verdict": "done",
+   "comment": "In 4b52db38: review/anchors/rc1-book.json and /review/rc1-book.json (18 chapters, 840 paragraphs, all 1377 sources; guards as editions.json; no outside citations among RC1's claims); new name, as the plan step asked; linked from the reader index and the zoom; board 007 all done.",
+   "at": "2026-11-03T17:19:41Z"
   }
  },
  "closed": null,
