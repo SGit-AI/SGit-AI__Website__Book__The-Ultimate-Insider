@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "22 hidden %% clock lines (hour N from 00:16, C001) in manuscript/rc2/30/01-04 and 70/01, 03, 05, none printed until the researcher confirms; the player as a Figure in both chapter 1s; letters 035 to 037; two letters into done/; status (the task change recorded), debrief, board; vault_check clean.",
    "at": "2026-11-03T01:31:00Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (Sonnet), steps 4 and 5 in one agent to spare usage",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Build and gate clean (537 pages), 0 outside scope, vault_check clean. All 22 clock lines are %% lines and every hour range checks against 00:16+(N-1)h to 00:16+Nh. The player Figures plain; no em-dashes, religious words, keys or personal detail. The task-change note factual.",
+   "at": "2026-11-03T01:32:09Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (Sonnet), with step 4",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Plan and conditions met: clock lines hidden pending the researcher; player Figures; letters 035 to 037; two letters in done/; status, debrief, board. The seventy's parts 3 to 5 wait on outlines.",
+   "at": "2026-11-03T01:32:09Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T01:32:09Z",
+ "outcome": "ok"
 }
