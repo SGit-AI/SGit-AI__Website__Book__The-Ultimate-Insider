@@ -25,14 +25,14 @@ researcher@book.the-ultimate-insider. Each chapter of `manuscript/rc2/150/` as t
 
 ## Chapters 4 and 5, and the reordered 1 to 3 (3 November 2026, the 11:32 wake)
 
-**In short:** everything holds except one word. The schedule's members woke "fifteen minutes apart", not "a few minutes apart". "A talk in central London" is a small stretch: the brief says IOActive's "London, UK office" (hack::soho), not "central".
+**In short:** everything holds except one word. The schedule's members woke "fifteen minutes apart", not "a few minutes apart". "A talk in central London" was flagged as a stretch, but it holds: the brief says it (withdrawn at 13:35).
 
 | Chapter | Line | Holds? | Why |
 |---|---|---|---|
 | 4 | "twenty-four minutes"; "four minutes after that a conductor proposes the team" | holds | C067; `2e4b1f4` 00:16:23, `1f7c633` 00:40:50, `97b98d9` 00:44:37 |
 | 4 | The page of rules, quoted "nearly whole" | holds | `1f7c633:CLAUDE.md`: six of its seven lines, one (page fragments) left out and three shortened with "...", as the record line says |
 | 4 | "A thing not listed here does not exist, whatever a brief or an article says." | holds | `REALITY.md` line 3, first committed in `1f7c633` |
-| 4 | "a talk in central London" | stretch | the brief: hack::soho at IOActive's "London, UK office"; say "in London" or "in Soho" |
+| 4 | "a talk in central London" | holds (withdrawn, 3 November 13:35) | the brief says it, line 7 of `BRIEF.md` at `1f7c633`: "the presentation that I'm delivering tomorrow in central london". My 11:32 search cut the line short; the event text in the same file gives IOActive's London office |
 | 4 | The banners made everyone's rule, 00:53 to 00:58 | holds | `a3a4807` 00:53:45, `7f9b9b5` 00:54:05, `41d38ba` 00:58:19 |
 | 5 | "In thirteen minutes, between 01:27 and 01:40" | holds | `02cbd86` 01:27:10 to `09f13d5` 01:39:47 (12 min 37 s; "thirteen" rounds it) |
 | 5 | The start (pull first), the checklist, the subject form, the schedule, the hold | holds | `02cbd86` (pull first), `ecc048e` 01:35 (the wake protocol), `5c2bcc5` 01:36 (subjects), `09f13d5` 01:39 (schedule and hold) |
@@ -78,6 +78,32 @@ researcher@book.the-ultimate-insider. Each chapter of `manuscript/rc2/150/` as t
 | 1ef6675 (04:10) | 04:21:39; 04:10 is the wake's opening |
 
 **Not traced here:** the reconstructed interviews in 06 beyond their cited commits. They are the historian's reconstruction, and the chapter says so.
+
+## Chapters 9 and 10 (3 November 2026, the 13:32 wake)
+
+**In short:** every count, time and quote in the prose holds, with two times to fix.
+- 09's band has ruv-sgit's commits without the "@" "from 08:33". The first is at 08:43 (`15707dc`).
+- 09's "At 09:48 dev built the designer's type scale": 09:48 is when dev's wake opened; the commit is at 09:54 (`8917847`).
+
+**A correction of mine:** on 3 November at 02:36 I told the team that C110's "all commits" column equals C095's "all" row. It does not. C110 counts every commit, merges included; C095 counts commits that are not merges (releases included). Hour 6 (05:00 to 05:59) is 22 in C110 and 20 in C095. The writer's clock notes cite C095, which is right; label those counts "commits, not counting merges". C110 and `claims/the-clock.md` now say so.
+
+| Chapter | Line | Holds? | Why |
+|---|---|---|---|
+| 9 | Clock notes: 20, 16, 22, 18, 21, 19, 19, 16, 20 commits for 05:00 to 13:59 | holds | C095's "all" row, hours 05 to 13 (commits, not counting merges) |
+| 9 | "nobody started any work but the clock" from 04:03 to about 13:50; every wake scheduled | holds | C087 (05 to 13: no editor), `f448345` 04:03, the brief's first line |
+| 9 | The designer's note built by dev at 05:51 "through the conductor's schedule ... picked up in the next" | holds | `23fde17` 05:51:13, in dev's wake of 05:48 |
+| 9 | 06:14, the fourth finding, found after the push, redacted in the same wake; C068 on the card | holds | C025 (fourth entry), C068 (no key, account credential, vault key or personal detail). Told without value, site, field or pattern |
+| 9 | Deck's three rounds 06:21, 08:21, 13:48; v2 at 07:43, v3 at 12:53 | holds | as in the seventy; `8012b00` 12:53 |
+| 9 | 07:04 the morning review; 07:18 the researcher's answer | holds | the wake `20261029T070440Z.json`; `3d94be9` 07:07; `aa7a3eb` 07:18 |
+| 9 | 08:18 deck held its ask | holds | the wake `20261029T081844Z.json`; `eefc1d3` |
+| 9 | **ruv-sgit's commits without "@" "from 08:33"** | **08:43** | `15707dc`, 08:43:19 |
+| 9 | 09:21, 10:14, 10:21: the request answered at the next slot | holds | `6b55cff` 09:21:26, `3f094f2` 10:14:39, `36e382b` 10:21:12 |
+| 9 | **"At 09:48 dev built the designer's type scale"** | **09:54** | the wake opened 09:48:36; `8917847` 09:54:08. Say "in its wake of 09:48" or "at 09:54" |
+| 9 | The conductor's notes at 09:05 and 10:05 | holds | `cf7d742` 09:05:46, `09317d9` 10:05:48 |
+| 9 | 13:40, ruv-sgit's idle wake | holds | the wake `20261029T134005Z.json`; `41d4757` 13:41 |
+| 10 | "E02 is ready ..." (04:22) | holds | `aeffbf9` |
+| 10 | The three notes of 09:21, 10:14 and 10:21, quoted | holds | word for word in `6b55cff`, `3f094f2` and `36e382b` |
+| 10 | ruv-sgit read both at 10:34; its commits through 13:41 still lacked the "@" | holds | the wake `20261029T103411Z.json`; `41d4757` 13:41:29 |
 
 ## Where this came from
 
