@@ -41,6 +41,10 @@
   with git as those after the release before), the files they changed (names only), the page they make.
 - ch-security-card.svg: security's cast card, as this book's member (conductor__054): its figure and moods, its mission
   verbatim from team/security/ROLE.md, and its label: the second factory's; on the talk's day an empty chair.
+- ch4-three-greyed.svg: the storyteller, motion and studio greyed, each with its job words from chapter 4's Figure line
+  and one rule verbatim from its ROLE.md at 298be4e (read with git).
+- ch4-security-proposed.svg: the talk's security page as a card with nothing on it but its title and its status, both
+  read from team/security/ROLE.md at 298be4e.
 No number is printed but the hold's time, ids, C029's and C087's counts and the chapters' own times. One SVG unit a millimetre, sizes stated, text 9 pt.
 """
 import json, re, subprocess, sys
@@ -537,12 +541,61 @@ def security_card():
     for j, r in enumerate(textwrap.wrap(mission, 56)):
         out.append(t(44, 25.4 + j * 4.1, r, 400))
     for k, mood in enumerate(mc.MOODS):
-        out.append(g(mc.figure("security", mood), 44 + k * 16, 39, .26) + t(44 + k * 16 + 5.2, 56.4, mood, 400, mc.MUTED, "middle"))
+        out.append(g(mc.figure("security", mood), 44 + k * 16, 39, .26) + t(44 + k * 16 + 5.2, 56.4, "firm" if mood == "stressed" else mood, 400, mc.MUTED, "middle"))
     # on the talk's day: the empty chair
     out.append(g(mc.line(4, 2, 4, 18, mc.FILL2, .9) + mc.line(4, 11, 14, 11, mc.FILL2, .9) + mc.line(14, 11, 14, 18, mc.FILL2, .9) + mc.line(4, 2, 7, 2, mc.FILL2, .9), 112, 39, .7)
                + t(125, 45, "on the day of", 400, mc.MUTED) + t(125, 49.1, "the talk:", 400, mc.MUTED) + t(125, 53.2, "an empty chair", 700, mc.MUTED))
-    out.append(t(4, 65, "a proposal: its look follows the storyteller's cast guide entry when it lands", 400, mc.MUTED))
+    out.append(t(4, 65, "as the cast guide gives it: \u201cLevel to firm; never alarmed on the page.\u201d", 400, mc.MUTED))
     return mc.svg(164, 69, "".join(out), "Security's cast card, as this book's member: its figure and moods, its mission; on the talk's day an empty chair")
+
+
+GREYED = [("storyteller", "Nothing goes into the talk until the editor has seen it."), ("motion", "One owner per file."),
+          ("studio", "A port keeps its source.")]
+
+
+def three_greyed(clone):
+    import textwrap
+    line = next(l for l in (R70 / "04-roles-as-a-cast-you-can-read.md").read_text().splitlines() if l.startswith("**Figure:** three greyed cards: "))
+    jobs = [p.strip().rstrip(".") for p in line.split(": ", 1)[1].split(";")]
+    out = []
+    for i, ((m, rule), job) in enumerate(zip(GREYED, jobs)):
+        role = subprocess.run(["git", "-C", clone, "show", f"298be4e:team/{m}/ROLE.md"], capture_output=True, text=True, check=True).stdout
+        if f"- **{rule}**" not in role:
+            sys.exit(f"make_pictures: {m}'s rule {rule!r} is not in its ROLE.md at 298be4e")
+        if job.startswith("the " + m + ", "):
+            job = job[4:]
+        if not job.startswith(m + ", "):
+            sys.exit(f"make_pictures: chapter 4's line does not give {m}'s job where expected")
+        x = i * 54.6
+        rows_job = textwrap.wrap(job.split(", ", 1)[1], 26)
+        rows_rule = textwrap.wrap("\u201c" + rule + "\u201d", 26)
+        out.append(f'<rect x="{x + .3:.1f}" y=".3" width="52.4" height="{{H}}" rx="1.8" fill="#fff" stroke="{mc.FILL2}" stroke-width=".45"/>'
+                   + g(mc.head(m, False), x + 1, 1.2, .3) + t(x + 11, 7.6, m, 800, mc.MUTED))
+        y = 15
+        for r in rows_job:
+            out.append(t(x + 3, y, r, 400, mc.MUTED)); y += 4.1
+        y += 1.6
+        for r in rows_rule:
+            out.append(t(x + 3, y, r, 700, mc.INK)); y += 4.1
+        out.append(("H", y))
+    H = max(v for kind, v in [o for o in out if isinstance(o, tuple)]) + 1
+    out = [o.replace("{H}", f"{H:.1f}") for o in out if isinstance(o, str)]
+    out.append(t(0, H + 5, "greyed: on stage only from the afternoon; each with one rule from its own page at 298be4e", 400, mc.MUTED))
+    return mc.svg(164, round(H + 6.8, 1), "".join(out), "Three greyed cards: the storyteller, motion and studio, each with its job and one rule from its page")
+
+
+def security_proposed(clone):
+    role = subprocess.run(["git", "-C", clone, "show", "298be4e:team/security/ROLE.md"], capture_output=True, text=True, check=True).stdout
+    m = re.match(r"# (\S+) \((proposed)\)", role.splitlines()[0])
+    if not m:
+        sys.exit("make_pictures: security's page at 298be4e does not open with its title and 'proposed'")
+    title, status = m.groups()
+    out = [f'<path d="M30 .5 h92 l12 12 v74 h-104 z" fill="#fff" stroke="{mc.FILL2}" stroke-width=".6"/>',
+           f'<path d="M122 .5 v12 h12" fill="none" stroke="{mc.FILL2}" stroke-width=".5"/>',
+           t(36, 12, title, 800, mc.MUTED), f'<rect x="36" y="16" width="26" height="5.4" rx="2.7" fill="{mc.FILL}"/>',
+           t(49, 19.8, status, 700, mc.MUTED, "middle"),
+           t(82, 92, "nothing on it but its title and its status, as at 298be4e", 400, mc.MUTED, "middle")]
+    return mc.svg(164, 94, "".join(out), "Security's role page as a card: its title and its status, proposed, and nothing else")
 
 
 FLOORS = [("the talk", ("src/static/talk/",)),
@@ -682,7 +735,8 @@ if __name__ == "__main__":
              "ch3-first-two-hours.svg": first_two_hours(clone),
              "ch8-check-card.svg": check_card(), "ch8-two-companions.svg": two_companions(),
              "ch8-plumbing.svg": plumbing(), "ch8-release-row.svg": release_row(clone),
-             "ch-security-card.svg": security_card()}
+             "ch-security-card.svg": security_card(),
+             "ch4-three-greyed.svg": three_greyed(clone), "ch4-security-proposed.svg": security_proposed(clone)}
     if (R70 / "15-principles.md").exists():
         files["ch15-six-principles.svg"] = six_principles()
     else:  # chapter 15 was folded into 16 and removed: the drawing stays as last built from it, not rebuilt
