@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (hourly, ACC1)",
+ "started": "2026-11-03T03:55:30Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Wake 20261103T035530Z, ruv-sgit (hourly, ACC1). Three letters: conductor__017 (CK1: clock hours; LAB 60 stands), designer__098 (the clock's form: the float box; declare LAB 41 in the clock folder's experiment.json; chapter 5's map, chapter 2's carried forward, left to me), publisher__005 (the clock and the chain map placed; spans such as \"Hours five to fourteen.\" stay a margin note unless I say how to draw them). Plan: (1) the clock folder (lab/experiments/60-ruv-the-margin-clock/) declares LAB 41 in experiment.json, the proposed header removed; and span boxes for every span the thirty's Clock lines use (one to two, two to three, two to five, five to eleven, five to fourteen, fourteen to nineteen, fifteen to sixteen), edition/clock-SS-EE.svg, the span's hours lit together and named in words, with no commit count (a sum would be a number not in the register), same size as the hour boxes; told to the publisher. (2) Chapter 5's map, lab/experiments/62-ruv-your-factory/ (proposed header, id asked): the chapter 2 map's conventions carried forward, placed by chapter 5's Map line and narrator (manuscript/rc2/30/05-the-factory-rebuilt-and-yours.md, read only): the narrator's four parts, a tool, a page of rules, a brief and a hold, each shown three times along evolution, the talk team's at the left (custom, built that night), this book's team's in the middle (ported), the reader's at the right (ordinary, ready to use), joined by the map's dashed arrows of movement; no number; 164 mm wide, 9 pt; labels checked by rendering; path to the publisher. (3) Letters, records, five steps, push, end banner. Writes only in ruv's paths; nothing to Cold-Read.  Conductor sub-agent: go; the seven spans match the Clock lines; the map follows both Map lines and the narrator's four parts; no unregistered number.",
+   "at": "2026-11-03T03:57:08Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Security sub-agent: go; LAB 41 free, 62- free, no HOLD; paths in scope; nothing attack-shaped, no key or contact, nothing to Cold-Read.",
+   "at": "2026-11-03T03:57:09Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "LAB 41 declared (proposed header removed, preview rebuilt); seven span boxes clock-SS-EE.svg, no sum, all text inside; lab/experiments/62-ruv-your-factory: map.svg 164 x 66 mm, the four parts moving right, labels clear; letter to the publisher (copies designer, conductor); three filed; run record; README, status, debrief, REALITY.",
+   "at": "2026-11-03T03:59:43Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Security sub-agent on fd58c81d: 0 outside scope, vault_check clean; span boxes print only clock times and words; the chapter 5 map no number; no secret, contact, dash or religious word.",
+   "at": "2026-11-03T04:00:43Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Conductor sub-agent: LAB 41 declared, seven spans match the Clock lines, chapter 5's map faithful to its Map line, letter with copies, three filed, notes accurate; no timestamp after the commit.",
+   "at": "2026-11-03T04:00:43Z"
+  }
+ },
+ "closed": "2026-11-03T04:00:43Z",
+ "outcome": "ok"
+}
