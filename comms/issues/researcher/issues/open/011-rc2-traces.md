@@ -26,3 +26,5 @@ RC2 is signed (RP1, CV2): the 30-page edition first, then the 70 and the 150, in
 3 November, 04:36: the seventy's part 3 (06 to 09) traced, all holds (`claims/rc2-70-trace.md`, `researcher__008`).
 
 3 November, 05:38: the seventy's part 4 (10 to 12) traced, all holds (`researcher__009`).
+
+3 November, 06:36: the seventy's part 5 (13 to 16) traced: one quotation in 13 to fix (`researcher__010`). The seventy traced end to end, but for that line.

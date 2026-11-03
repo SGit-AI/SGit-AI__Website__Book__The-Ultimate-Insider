@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T06:33:20Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Part 5 (70/13 to 16) traced, named items first, chapter 15 checked not assumed; the cost line word for word; reply in the writer's mailroom as researcher__010 (numbered per mailroom); in scope.",
+   "at": "2026-11-03T06:33:44Z"
+  },
+  "pre_review": {
+   "by": "security pre-review sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "In scope; manuscript and talk clone read only; vault_check; dev and branch only.",
+   "at": "2026-11-03T06:33:56Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Part 5 traced: one quotation in 70/13 to fix; the rest holds; reply to the writer; one letter filed.",
+   "at": "2026-11-03T06:34:47Z"
+  },
+  "post_review": {
+   "by": "security post-review sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "In scope; no secrets, dashes, RW1 words or anything attack-shaped; nothing toward the Cold-Read repository.",
+   "at": "2026-11-03T06:35:42Z"
+  },
+  "post_check": {
+   "by": "conductor post-check sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Part 5 traced, chapter 15 checked item by item, the finding verified against batch 7, reply and filing, board, debrief, REALITY and status.",
+   "at": "2026-11-03T06:35:42Z"
+  }
+ },
+ "closed": "2026-11-03T06:35:42Z",
+ "outcome": "ok"
+}
