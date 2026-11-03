@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1. Every RC2 chapter searched: no scope-quote file clause. 2. The 150's 11 and 12 and the revisions read on the rails: clear; lab 64 clear. 3. The conductor's 535cc25a as C2 evidence. Letter security__038; board; status; debrief.",
    "at": "2026-11-03T14:28:32Z"
+  },
+  "post_review": {
+   "by": "security sub-agent, as the reviewer agent (tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Build, gate, scope, vault_check clean; nothing private or attack-shaped; the policy.json hits in manuscript are source citations, none the scope quote's file clause.",
+   "at": "2026-11-03T14:29:40Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent, as the reviewer agent (tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "haiku",
+   "verdict": "as-planned",
+   "comment": "All three items done; conditions kept; the storyteller's thank-you filed in done (not in the plan, routine).",
+   "at": "2026-11-03T14:30:24Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T14:30:24Z",
+ "outcome": "ok"
 }
