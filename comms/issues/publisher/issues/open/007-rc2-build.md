@@ -49,3 +49,5 @@ source: comms/mail/mailroom/publisher/conductor__026-check-taken.eml; publishing
 3 November about 14:10 UTC: the full book to chapter 12 (65 pages); the seventy 58 with chapter 3's first two hours.
 
 3 November about 15:10 UTC: the full book to chapter 14 (70 pages); the seventy 59 (chapter 8's two cards; ruv-sgit's round trip and wake page); my placements now held in rc2-figures.json's overrides.
+
+3 November about 15:52 UTC: the full book to chapter 16 (79 pages), the clock strips in its 8 and 9; the seventy 59 with chapter 8's plumbing and release row. Letters dated at the time written from now.
