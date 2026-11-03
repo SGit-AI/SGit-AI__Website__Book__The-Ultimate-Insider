@@ -61,3 +61,5 @@ The hour's revisions to 150/04 to 08 and 70/03, 04, 06, 08 read after the post-c
 **21:24 wake:** the full book's body complete; 22 and 23 clear on the rails (the Web Summit team a plan, not yet run; step 1's "put nothing private in it"; the price traced and dated); the designer's two new drawings clear. The historian keeps its own third failure for 21, as is its call. No letter needed.
 
 **22:24 wake:** Appendix B supplied as a proposed draft (controls/appendix-b.md; outcomes only, no mechanisms; counts by claim id); the 150's 91 clear; the designer's four hour cards clear (security__044).
+
+**23:24 wake:** the full book's 94 (the making of this book) clear: names no session, task, key or account; the hand-off as the only crossing; the hold and the "rewrote" error told as recorded. The hour's revisions to 04, 21, 22, 23 and 91 clear; the designer's two new drawings clear. No letter needed.
