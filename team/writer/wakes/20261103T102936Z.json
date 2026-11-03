@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "70/15 removed; 70/16 brief; the full book in the new order (150/03 four stops; 150/90 the long tour); C111 in 150/01; 150/04 and 05 written; letters 080 to 084; five letters into done/; status, debrief, board, REALITY.md; vault_check clean. Tool note: the reviewer agent type was refused as not found (loaded at session start); steps ran as Explore with the tools line; a) the rule asks it, b) needed, c) a wider tool list stood in, no refused or outside call reported.",
    "at": "2026-11-03T10:33:50Z"
+  },
+  "post_review": {
+   "by": "Explore sub-agent (Sonnet), briefed with the allowed tools (the reviewer agent not loaded in this session); steps 4 and 5 in one agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Build and gate clean (680 pages); 0 outside scope; vault_check clean; no em-dashes, religious words, keys or session ids. C111 word for word; b620234 and the talk's file quotes match; no figures in agent lines; scenes banded; figure briefs clean. Minor: 'thirteen minutes' is a derived span (01:27 to 01:40). No refused or outside tool call reported.",
+   "at": "2026-11-03T10:36:10Z"
+  },
+  "post_check": {
+   "by": "Explore sub-agent (Sonnet), with step 4",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Done as planned: 70/15 removed, 70/16 brief, C111, 150/03 moved to 150/90 with a new four-stop 150/03, 150/04 and 05, five letters answered, the reviewer-agent gap told, status, debrief, REALITY.md. 06 to 08 not written, as allowed. Conditions met.",
+   "at": "2026-11-03T10:36:10Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T10:36:10Z",
+ "outcome": "ok"
 }
