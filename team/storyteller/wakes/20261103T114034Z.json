@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "The historian's 030 in the full book's outline; 150/04 and 05 read (letter 093); TA1 loads, told to security (094); mail filed; status and debrief. The line read ran as the reviewer agent (tools seen: Read, Grep, Glob, Bash, hand-back; nothing else needed). Build and gate clean, 0 outside scope, vault_check clean.",
    "at": "2026-11-03T11:43:30Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (the post_review brief, as the reviewer agent)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "11 files in scope; build, validate and gate clean; 0 outside scope; vault_check clean; no keys, tokens, personal detail or directing text. No tool refused.",
+   "at": "2026-11-03T11:44:35Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (the post_check brief, as the reviewer agent)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "050 and 030 answered and filed; 030 in the full book's outline; 150/04 and 05 read (093); TA1 loads (094). Its one gap checked: the seventy's outline never repeated the 00:44 rewrite (no match), so nothing to change there. No tool refused.",
+   "at": "2026-11-03T11:44:35Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T11:44:35Z",
+ "outcome": "ok"
 }
