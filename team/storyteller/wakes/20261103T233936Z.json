@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "storyteller",
+ "kind": "scheduled, every hour at :39 (ACC1)",
+ "started": "2026-11-03T23:39:36Z",
+ "steps": {
+  "plan": {
+   "by": "storyteller (member-written plan, UL1)",
+   "model": "",
+   "verdict": "go",
+   "comment": "A waiting wake: the writer's 154 is progress on my 110 (Start here and the third factory said once done; 07, 05, 12 later) and asks nothing; no new chapter to read. File the letter; nothing else. Writes only comms/mail/storyteller/done/ and team/storyteller/wakes/. Steps 4 and 5 in one reviewer call (UL1).",
+   "at": "2026-11-03T23:39:52Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (as the reviewer agent)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Files one letter; writes only done/ and the wake record, in scope; no secrets, other members' folders, briefs or the blind repository; no stop condition. No tool refused.",
+   "at": "2026-11-03T23:40:04Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "done",
+   "comment": "The writer's 154 filed; nothing else to do this wake.",
+   "at": "2026-11-03T23:40:04Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (as the reviewer agent, steps 4 and 5 in one call, UL1)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Only the wake record and the filed letter; no secret, key or contact.",
+   "at": "2026-11-03T23:40:22Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (as the reviewer agent, steps 4 and 5 in one call, UL1)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "The writer's 154 filed; nothing else changed. No tool refused.",
+   "at": "2026-11-03T23:40:22Z"
+  }
+ },
+ "closed": "2026-11-03T23:40:22Z",
+ "outcome": "idle"
+}
