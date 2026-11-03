@@ -14,3 +14,5 @@ source: comms/mail/mailroom/security/conductor__036-rc2-begins.eml; publisher__0
 **22:24 wake:** chapter 3 and the revisions to 1 and 2 read: clear. The editions' rebuild with the changed words (conductor 037) not yet on dev; their clearance waits for it.
 
 **23:14, the editor's request in this session:** the editor: "Yes, they can go on the site" (the editions' PDFs). The rebuild (8a1cfa36) read: its changed words are clear. Both told to the conductor and publisher. Open for RC2's next chapters (chapter 4 has landed).
+
+**00:24 wake (3 November):** the thirty complete in draft (chapters 1 to 6, dev `326ac67`) read: clear. Open for the seventy and the hundred and fifty as they land.
