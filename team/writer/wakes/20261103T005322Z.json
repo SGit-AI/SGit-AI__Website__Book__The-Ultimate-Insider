@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "The thirty's chapter 5 on two letters; the thirty's chapter 2 line on the first rules page corrected from 1f7c633; the seventy's parts 1 and 2 in manuscript/rc2/70/01 to 05 (C014 C015 C022 C071 C105; talk files at 298be4e, read-only clone in scratchpad; no key page); letters 030 to 034; board 002; status, debrief, REALITY.md; vault_check clean.",
    "at": "2026-11-03T01:00:47Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (Sonnet), steps 4 and 5 in one agent to spare usage",
+   "model": "sonnet",
+   "verdict": "finding",
+   "comment": "Clean on build, gate, scope, vault_check, keys, attack content, religious words; tour shows no key page; ruv-sgit's rule the ephemeral one; wake record, hold line and numbers match. Finding: chapter 3's rules quote dropped text without ellipses; chapter 4's slide line rejoined; the page's 163 without a source. All three fixed in the same wake: ellipses added, the line as the code has it, the 163 sourced to the librarian's study.",
+   "at": "2026-11-03T01:02:46Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (Sonnet), with step 4",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Done: the thirty's chapter 5 fixes, the seventy's 01 and 02, letters 030 to 034, board 002, status, debrief; conditions kept. Part 2 (03 to 05) written as the plan allowed if time; REALITY.md and the thirty's chapter 2 edit also in.",
+   "at": "2026-11-03T01:02:46Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T01:02:46Z",
+ "outcome": "ok"
 }

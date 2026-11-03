@@ -65,9 +65,9 @@ Band: *Security's page as it stood at the end of the day.*
 
 ## What a scope is, and what it is not
 
-**Narrator.** Early in the evening, studio put a line on a slide, quoting the team's own scope check, and this whole chapter turns on it:
+**Narrator.** Early in the evening, studio put a line on a slide, quoting the comment in the team's own scope check, and this whole chapter turns on it:
 
-> "a scope is a setting, not a boundary; it catches mistakes, not a steered agent" *(record)*
+> "A scope is a setting, not a boundary: the agent can edit its own policy.json. It catches mistakes, not a steered agent." *(record)*
 
 **Narrator.** A scope is a list in a file. A check reads the list and flags any change outside it. That catches an agent that wanders by mistake, and on the day it caught some. It does not stop an agent that has been talked into doing something else, because the agent has the same hands either way. Dev's page said the same thing in the first hours, about its own check.
 
@@ -77,7 +77,7 @@ Band: *Security's page as it stood at the end of the day.*
 
 **Figure:** the nine role cards at their full size (the designer's scorecards, LAB 27), and a tenth, empty.
 
-`%% record: timeline/quotes.md (the slide's line at 18:11, 95b09d9, studio's debrief abp-prose-enforcement) talk repository at 298be4e: team/dev/ROLE.md ("The gap, and what stands in it")`
+`%% record: timeline/quotes.md (the slide's line at 18:11, 95b09d9, quoting admin/build/agents.py; studio's debrief abp-prose-enforcement) talk repository at 298be4e: team/dev/ROLE.md ("The gap, and what stands in it")`
 Band: *Dramatised (studio's line). The quoted line is the slide's own, from 18:11; dev's page made the same point in the first hours.*
 
 ## Do this now

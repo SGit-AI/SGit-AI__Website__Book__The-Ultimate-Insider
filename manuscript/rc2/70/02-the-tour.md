@@ -65,7 +65,7 @@ Band: *Dramatised. Rests on the dashboard as built from the team's own files, st
 
 **Figure:** the wakes page: each member's wakes, newest first, with the five steps, each step's verdict and its comment. Beside it, the commits page with its notes between agents. Described from the librarian's study; no screenshot yet.
 
-**Narrator.** This is the page I would show anyone who doubts that the factory ran on its own. Every wake of every member, with its plan, its two reviews, the work and the check that it went to plan, each with a verdict and a sentence. On the day the agents kept 162 wake records. The page's own counter says 163; the researcher's register says 162, and the book gives the register's number.
+**Narrator.** This is the page I would show anyone who doubts that the factory ran on its own. Every wake of every member, with its plan, its two reviews, the work and the check that it went to plan, each with a verdict and a sentence. On the day the agents kept 162 wake records. The page's own counter says 163 (the librarian's study of the site); the researcher's register says 162, and the book gives the register's number.
 
 **Narrator.** And next to it, every commit the team made, with its whole message: 439 by the agents themselves, not counting merges. Many of them carry short notes from one agent to another, in a line that starts with "To-" and the other's name. Read in order, they are the team talking.
 
