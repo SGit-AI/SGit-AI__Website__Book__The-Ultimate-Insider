@@ -6,7 +6,7 @@
 
 `%% for the editor: "a plan written down before the first day is the cheapest place to catch a mistake" and "the first two factories taught me what to write down" is the writer's reading of his view; his to keep or drop.`
 
-## Said first: it has not run
+## The plan
 
 **Narrator.** Now I am planning a third, bigger one, and it shares three things between people: one brief, one board where the work is written down, and one hold. It is for a team I am taking to Web Summit: several people, each to run their own agents. The parts are the same as the first factory's.
 
