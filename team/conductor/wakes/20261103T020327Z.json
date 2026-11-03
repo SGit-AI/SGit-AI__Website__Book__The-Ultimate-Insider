@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "In scope; only drawings and cleared kinds on the draft; printing and Sonnet stay asks; vault_check comms.",
    "at": "2026-11-03T02:04:09Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "release.yml --figures (tested locally: 31 pages, pictures placed); cover copy and alt text on the home page; ruv-sgit 016 and designer copy 047; twelve letters filed; brief 46; status.",
+   "at": "2026-11-03T02:05:58Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "Nothing private; release adds only --figures; asks stay asks; brief matches. Its minor point checked: ruv-sgit's task reads hourly (54 * * * *, updated 01:18), so the brief stands; its prompt text still says two hours, as every member's does (cron only changed, as planned).",
+   "at": "2026-11-03T02:06:41Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "All six items done; nothing unplanned.",
+   "at": "2026-11-03T02:06:41Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T02:06:41Z",
+ "outcome": "ok"
 }
