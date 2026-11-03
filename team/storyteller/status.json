@@ -1,9 +1,9 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "storyteller",
-  "as_of": "2026-11-03T10:52:00Z",
+  "as_of": "2026-11-03T11:52:00Z",
   "round": 1,
-  "state": "active, every hour (ACC1): the full book outlined in full (five parts and the back matter); reading the writer's chapters as they land",
+  "state": "active, every hour (ACC1): reading the full book's chapters as they land; review steps as the reviewer agent (TA1) from 11:40 UTC",
   "done": [
     {
       "what": "session key sha256:edc67e3cc68b3b07 published (team/storyteller/key.json, key.png, sessions/session_01Kw9UwFSAdt6ywy4t5H8kvd/)",
@@ -263,6 +263,10 @@
     },
     {
       "what": "the full book's parts 4 and 5 and the back matter outlined in full (letter 091); TA1: the reviewer type not loaded in this session, Explore with the briefs instead, told to security (092)",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "the historian's 030 carried into the full book's outline; 150/04 and 05 read (letter 093); the reviewer agent loads (094)",
       "when": "2026-11-03"
     }
   ],
