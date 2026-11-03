@@ -29,6 +29,8 @@
   member's round in the Figure line's own words (checked in chapter 3 at build).
 - ch3-first-rules.svg: the first page of rules as a card, its six lines exactly as chapter 3 quotes them (backticks
   dropped, the chapter's own ellipses kept), each tagged with what it protects; the last one marked; checked at build.
+- ch11-five-misses.svg: the five misses as five cards on one page, each its heading and its "What it cost:" line read
+  from chapter 11 at build, its id in small type as the thirty's cards gave them (each C id checked in the register).
 No number is printed but the hold's time, ids, C029's and C087's counts and the chapters' own times. One SVG unit a millimetre, sizes stated, text 9 pt.
 """
 import json, re, subprocess, sys
@@ -328,6 +330,34 @@ def first_rules():
     return mc.svg(164, round(H + 6.2, 1), "".join(out), "The first page of rules as a card, each line tagged with what it protects, the last marked")
 
 
+MISS_IDS = {"The lock never turned": "C027", "Two parts of three unfinished": "C027", "The moment missed": "the storyteller's debrief",
+            "The correction lost in the freeze": "C031", "The claims that did not hold": "C029, C030"}
+
+
+def five_misses():
+    import textwrap
+    text = (R70 / "11-what-did-not-work.md").read_text()
+    misses = re.findall(r"^### (.+?)$.*?^\*What it cost:\* (.+?)$", text, re.M | re.S)
+    if [h for h, _ in misses] != list(MISS_IDS):
+        sys.exit("make_pictures: chapter 11's five misses are not the five the card expects")
+    for ids in MISS_IDS.values():
+        for cid in re.findall(r"C\d{3}", ids):
+            if REG[cid]["state"] != "checked":
+                sys.exit(f"make_pictures: {cid} is {REG[cid]['state']}")
+    out, y = [], 0.3
+    for head, cost in misses:
+        rows = textwrap.wrap(cost, 80)
+        h = 9.4 + 4.1 * len(rows)
+        out.append(f'<rect x=".3" y="{y:.1f}" width="163.4" height="{h:.1f}" rx="1.8" fill="#fff" stroke="{mc.INK}" stroke-width=".45"/>'
+                   + f'<path d="M4 {y + 2.6:.1f} l3.2 3.2 M7.2 {y + 2.6:.1f} l-3.2 3.2" stroke="{mc.ACCENT}" stroke-width=".8"/>'
+                   + t(10.4, y + 5.6, head, 800) + t(159.6, y + 5.6, MISS_IDS[head], 400, mc.MUTED, "end"))
+        for j, r in enumerate(rows):
+            out.append(t(10.4, y + 10.2 + j * 4.1, r, 400))
+        y += h + 2.2
+    out.append(t(0, y + 3, "each heading and its cost as chapter 11 gives them; the failures stay in", 400, mc.MUTED))
+    return mc.svg(164, round(y + 4.6, 1), "".join(out), "The five misses as five cards, each with its cost in a line and where it rests")
+
+
 FLOORS = [("the talk", ("src/static/talk/",)),
           ("the workshop of animations", ("src/static/ruv-sgit/", "src/pages/ruv-sgit/", "src/static/motion/", "src/pages/motion/")),
           ("the studio", ("src/pages/studio/", "src/static/studio/", "src/static/studio-ports/", "src/pages/studio-ports/")),
@@ -461,7 +491,7 @@ if __name__ == "__main__":
              "ch8-register-bar.svg": register_bar(), "ch16-checklist.svg": checklist(),
              "ch2-dashboard.svg": dashboard(clone), "ch2-site-building.svg": site_building(clone),
              "ch2-wakes-page.svg": wakes_page(clone), "ch2-member-page.svg": member_page(clone),
-             "ch7-wakes-card.svg": wakes_card(), "ch3-team-pattern.svg": team_pattern(), "ch3-first-rules.svg": first_rules()}
+             "ch7-wakes-card.svg": wakes_card(), "ch3-team-pattern.svg": team_pattern(), "ch3-first-rules.svg": first_rules(), "ch11-five-misses.svg": five_misses()}
     if (R70 / "15-principles.md").exists():
         files["ch15-six-principles.svg"] = six_principles()
     else:  # chapter 15 was folded into 16 and removed: the drawing stays as last built from it, not rebuilt
