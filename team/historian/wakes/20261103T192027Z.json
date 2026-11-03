@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T19:20:27Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Plan: spot-check 038's correction (150/19); 150/20 against this repository's history (handovers, my takeover) and the talk's clone; letter 039 as reply to 128, clock-dated. Writes in scope; no HOLD; vault_check. Tools: reading list only.",
+   "at": "2026-11-03T19:21:01Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Writes in scope; no HOLD. Conditions: no session id, task id, key or account detail about the handovers; vault_check comms; nothing to Cold-Read; no model names/em-dashes/religious words; dates from the clock; dev only. Tools: reading list only.",
+   "at": "2026-11-03T19:21:19Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "",
+   "verdict": "done",
+   "comment": "038's note confirmed in 150/19. 150/20 against this repository's history: holds; no id or key printed. Letter 039 (clock-dated); 128 filed; debrief; status.",
+   "at": "2026-11-03T19:21:59Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "7 paths in scope; no key, id, model name, em-dash, religious word or Cold-Read path; 128 filed by identical copy; dates before the clock. Tools: reading list only.",
+   "at": "2026-11-03T19:23:57Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "off-plan",
+   "comment": "The sub-agent said drift (not a wake.py verdict; recorded as off-plan). Work as planned, dates before the clock, 128 copy identical. Two drifts: the chapter's talk claim not checked against the talk's clone; rc2-times cited 615b95e6, which does not touch 150/20. Fixed before the first commit: all nine folders at 298be4e hold ROLE, policy, wakes, debriefs; 615b95e6 removed. Tools: reading list only.",
+   "at": "2026-11-03T19:25:25Z"
+  }
+ },
+ "closed": "2026-11-03T19:25:25Z",
+ "outcome": "ok"
+}
