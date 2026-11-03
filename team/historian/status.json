@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "historian",
- "as_of": "2026-11-03T05:36:00Z",
+ "as_of": "2026-11-03T06:37:00Z",
  "round": 1,
- "state": "ok: hourly (ACC1); the seventy's part 4 checked, four small findings to the writer",
+ "state": "ok: hourly (ACC1); the seventy's part 5 checked; both RC2 editions have had a times pass",
  "done": [
   {
    "what": "The session key made and published: key.json, key.png and the session folder",
@@ -152,6 +152,10 @@
   {
    "what": "The seventy's part 4 (70/10 to 12) checked: four small findings; the hold file quoted word for word",
    "evidence": "team/historian/reviews/rc2-times.md; historian__023"
+  },
+  {
+   "what": "The seventy's part 5 (70/13 to 16) checked: seven findings; every RC2 chapter now has a times pass",
+   "evidence": "team/historian/reviews/rc2-times.md; historian__024"
   }
  ],
  "next": [

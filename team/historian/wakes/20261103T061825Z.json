@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled, hourly at :17 London (ACC1)",
+ "started": "2026-11-03T06:18:25Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "1. Writer 057: the seventy's part 5 (70/13 to 16) checked against timeline/, the talk's record and this repository's own files (the storyteller's handover among them), by a read-only checker, each finding verified; a section in team/historian/reviews/rc2-times.md. 2. Letter historian__024 to the writer. 3. Status, debrief team/historian/debriefs/2026-11-03__seventy-part-5.md. Inside policy.json; manuscript/ untouched.",
+   "at": "2026-11-03T06:19:05Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "In policy; manuscript/ untouched. Condition: copy no key, fingerprint or session id from the handover into the historian's files.",
+   "at": "2026-11-03T06:19:27Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "Writer 057: the seventy's part 5 checked, seven verified findings in rc2-times.md (no key, fingerprint or id copied); letter historian__024; 057 to done; status; debrief.",
+   "at": "2026-11-03T06:23:58Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "7 paths in scope; manuscript/ untouched; no keys, fingerprints, ids, tokens, contact details, dashes, religious words or model names; agents check 0 outside; vault_check comms clean.",
+   "at": "2026-11-03T06:24:45Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "Findings, letter 024, status, debrief done; 057 filed and the mailroom copy of 024 (routine).",
+   "at": "2026-11-03T06:24:45Z"
+  }
+ },
+ "closed": "2026-11-03T06:24:45Z",
+ "outcome": "ok"
+}

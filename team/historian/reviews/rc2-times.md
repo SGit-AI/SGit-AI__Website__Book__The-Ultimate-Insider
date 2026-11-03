@@ -64,3 +64,17 @@ At the writer's letter 051. Every quoted word of the hold file and of the design
 | `manuscript/rc2/70/12-how-do-we-contain-this.md:5` | "My talk that evening ... I gave it with a factory of agents behind me" | That it was given rests on the talk as given, `a9c0b49`, added after the day; the chapter and its sources should say so | `timeline/after-1900.md`; `timeline/after-the-day.md`; C100 |
 | `manuscript/rc2/70/10-the-last-ten-minutes.md:3` | "Security's chair, planned at midnight" | Minor: its page was written at 00:51:12, in the first hour (chapter 12 says so) | `17b287b` |
 | `manuscript/rc2/70/10-the-last-ten-minutes.md:19` | "unchanged since half past six, the time planned for its lock" | Holds, but incomplete: at 18:26 he moved part 1's cut-off to 19:00 (motion's `5d13d72`, 18:29), before the conductor's 18:36 wake still worked to 18:30. Worth a clause | `5d13d72`; `3342cff` |
+
+## The seventy, part 5 (chapters 13 to 16), checked 3 November 06:18 UTC
+
+At the writer's letter 057. Chapters 13 to 16 tell mostly this book's own team; they are checked against this repository's files and history (my clone's history starts on 30 October about 10:28 UTC). The quoted lines of the storyteller's handover are word for word. Chapter 16: no findings.
+
+| Where | The text says | The record says | Evidence |
+|---|---|---|---|
+| `manuscript/rc2/70/13-sessions-end.md:9` | "That night the factory was taken apart. The sessions went" | To `298be4e` the record shows the hold at 18:44:13, never lifted that day, and no commit from 18:48 to the merge at 23:19; nothing records sessions ended or the team taken apart that night. Told as an event the record does not hold | `867f8c2`; `team/conductor/HOLD.md`; `timeline/after-1900.md`; C024 |
+| `manuscript/rc2/70/13-sessions-end.md:22` | the 95% "was just a footnote" | His words: "it's an interesting point, but it's just a footnote"; "was" is inside the quote marks but not his | `briefs/2026-10-31__rc1-paper-review/batch-07-pages-22-to-32.md` (`49c701e`); C089 |
+| `manuscript/rc2/70/13-sessions-end.md:31` | the handover written "at about 11:45 UTC" | The quote matches the file, but the file was committed at 11:03:47, so it was not written at 11:45; mark the time as the handover's own, or drop it (my own handover carries the same line) | `cfcc2951` |
+| `manuscript/rc2/70/13-sessions-end.md:39` | the new storyteller session calls the old one's letters "yesterday's" | Same day: the old session ran 30 October from 01:41 to 13:02 UTC, the new began at 13:02 | `team/storyteller/sessions/*/SESSION.json`; `444d5323` |
+| `manuscript/rc2/70/14-the-second-factory-and-the-third.md:117` | "The line you read in chapter 1 is the corrected one" | In this edition chapter 1 has no such line; it is the thirty's chapter 1 (`manuscript/rc2/30/01-the-creators-problem.md:82`); here the subject is chapter 3, "The brake, made that night" | `fde3fea`; `58322a27` |
+| `manuscript/rc2/70/15-principles.md:21` | the hold "was used once, sixteen minutes before the talk" | The plan as the event again: "before the talk was due" | C100; `timeline/after-1900.md` |
+| `manuscript/rc2/70/15-principles.md:9` | "Before any agent did anything, there was a brief and a page of rules" | Both arrived in dev's own first commit at 00:40, with the site and the talk; the empty repository held neither. "With the first agent came a brief and a page of rules" | `1f7c633`; `2e4b1f4` |
