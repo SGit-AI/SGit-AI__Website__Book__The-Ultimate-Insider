@@ -8,8 +8,10 @@ only publishing/rc2-figures.json:
 1. the designer's slots for every chapter that exists (the seventy), by Figure order;
 2. the publisher's own placements from the file's "overrides" key (chapter: {opening words of a Figure line:
    drawing}), so a fresh copy of the designer's list cannot drop them;
-3. the full book (manuscript/rc2/150/) recomputed: each Figure line takes the drawing already placed in the thirty or
-   the seventy whose line has the same first 40 characters; the three frames in its chapter 1; then its overrides;
+3. the full book (manuscript/rc2/150/) recomputed: from 3 November 22:50 UTC it starts from the designer's own list for
+   it (lab/tools/book/rc2-150-figures.json, read only), for each chapter whose slot count matches its Figure lines; each
+   line still blank takes the drawing already placed in the thirty or the seventy whose line has the same first 40
+   characters, or the three frames; then its overrides;
 4. keys for chapters that no longer exist dropped;
 5. every chapter's count and every drawing checked with the build's own rules (edition.figure_count,
    edition.unsafe_svg, the screenshot kinds): a mismatch stops it, and the file is not written.
@@ -28,6 +30,7 @@ import edition  # noqa: E402
 
 MAP = os.path.join(ROOT, "publishing", "rc2-figures.json")
 DESIGNER = os.path.join(ROOT, "lab", "tools", "book", "rc2-70-figures.json")
+DESIGNER_150 = os.path.join(ROOT, "lab", "tools", "book", "rc2-150-figures.json")
 MANUSCRIPT = os.path.join(ROOT, "manuscript")
 FRAMES = "lab/experiments/01-ruv-the-building-three-frames/edition/three-frames.svg"
 META = ("about", "overrides")
@@ -74,10 +77,21 @@ def main():
         for line, drawing in zip(lines(k), v):
             if drawing:
                 known.setdefault(line[:40], drawing)
+    slots150 = {}
+    if os.path.isfile(DESIGNER_150):
+        with open(DESIGNER_150, encoding="utf-8") as f:
+            slots150 = json.load(f).get("slots", {})
+    from_designer = 0
     for path in sorted(glob.glob(os.path.join(MANUSCRIPT, "rc2", "150", "*.md"))):
         k = os.path.relpath(path, MANUSCRIPT)
-        d[k] = [FRAMES if "three frames of the animation" in line.lower() else known.get(line[:40])
-                for line in lines(k)]
+        ls = lines(k)
+        base = slots150.get(k)
+        if base is None or len(base) != len(ls):
+            base = [None] * len(ls)
+        else:
+            from_designer += 1
+        d[k] = [b or (FRAMES if "three frames of the animation" in line.lower() else known.get(line[:40]))
+                for b, line in zip(base, ls)]
     a2 = apply_overrides(d, [k for k in d["overrides"] if k.startswith("rc2/150/")])
     for k in list(d):
         if k not in META and not exists(k):
@@ -109,7 +123,7 @@ def main():
         json.dump(d, f, indent=1)
         f.write("\n")
     drawn = {ed: sum(1 for k, v in d.items() if k.startswith(f"rc2/{ed}/") for x in v if x) for ed in ("30", "70", "150")}
-    print(f"rc2_map: overrides applied {a1} + {a2}; lines with a drawing: thirty {drawn['30']}, seventy {drawn['70']}, "
+    print(f"rc2_map: full-book chapters from the designer's list {from_designer}; overrides applied {a1} + {a2}; lines with a drawing: thirty {drawn['30']}, seventy {drawn['70']}, "
           f"full book {drawn['150']}")
 
 

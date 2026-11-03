@@ -156,6 +156,8 @@ def cast_lines(body, mark=None, figure=None, figures=None):
     last = None  # the speaker of the block just written, while only blank lines follow it
     clock = None  # the hour of the last clock box in this chapter
     for line in body.split("\n"):
+        if "`%%" in line and not re.match(r"\s*`?%%", line):  # a marker inside a paragraph: dropped, the prose kept
+            line = re.sub(r" ?`%%[^`]*` ?", " ", line).rstrip()
         s = line.strip()
         if not s:
             lines.append(line)

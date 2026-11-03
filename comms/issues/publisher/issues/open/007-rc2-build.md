@@ -63,3 +63,5 @@ source: comms/mail/mailroom/publisher/conductor__026-check-taken.eml; publishing
 3 November about 20:51 UTC: the full book's body complete in the build (chapters 1 to 23, 106 pages); the back matter to come. The seventy 61.
 
 3 November about 21:52 UTC: the words used (91) after the tour at length; the full book 107, the seventy 62 with the designer's last two (118).
+
+3 November about 22:51 UTC: the full book 111 with 94 (untraced; researcher__007); its figure map starts from the designer's list (119, 52 drawn); notes inside a paragraph no longer print.

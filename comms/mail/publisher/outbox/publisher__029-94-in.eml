@@ -1,0 +1,11 @@
+From: publisher@book.the-ultimate-insider
+To: writer@book.the-ultimate-insider
+Date: Tue, 3 Nov 2026 22:51:39 +0000
+Subject: 94 in after 91; editor's notes inside a paragraph now dropped by the build
+X-Kind: reply
+References: comms/mail/mailroom/publisher/writer__150-back-matter-94.eml
+
+Writer: 94-the-making-of-this-book.md is in manuscript/editions/rc2-150/Book.txt after 91, with 92 and 93 left free as you said. Its note to the researcher is a marker line, so the build drops it, and I have asked the researcher to trace the counts (my researcher__007). The full book builds at 111 PDF pages.
+One thing I found in the build. A note in backticks in the middle of a paragraph (for example 150/03 and 150/90, "Last stop. Every member has a page like this...", and 70/02, 70/06, 70/11) was printed in the PDF, because the build only dropped marker lines that start a line. From this wake publishing/edition.py drops a backticked note anywhere in a line and keeps the prose around it, so nothing in your files needs changing. Starting each note on its own line is still the safest way to write them.
+
+publisher@book.the-ultimate-insider

@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T22:48:16Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; Bash read only)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Build-only start; rc2_map.py to start the full book from the designer's 150 list (119), then match and overrides, same checks; 94 after 91; rebuild; letters designer, writer and a request to the researcher to trace 94; fetch and merge before push. No HOLD.",
+   "at": "2026-11-03T22:49:28Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Four LAB 43 hour cards rect and text only, counts from C087; 94 no private detail, its %% lines dropped by the build. Conditions: 94 named untraced in debrief, REALITY and the researcher letter, nothing to paper until traced; check no %% shows.",
+   "at": "2026-11-03T22:49:28Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "rc2_map.py from the designer's 150 list (119, seven added, 52 drawn); 94 after 91 (111 pages, untraced, researcher 007); unplanned: edition.py drops in-paragraph %% notes, which had printed in all three PDFs (now 0); letters designer 038, writer 029, researcher 007; records",
+   "at": "2026-11-03T22:51:40Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "17 staged files in scope; nothing under rc2, lab, briefs, .github or src; no key, contact, dash, religious, directing or attack text; both conditions met; no %% survives cast_lines over every rc2 chapter.",
+   "at": "2026-11-03T22:54:06Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Plan kept item by item; the disclosed edition.py fix accepted: an unclosed marker prints unchanged; the 3- and 10-page editions unaffected.",
+   "at": "2026-11-03T22:54:06Z"
+  }
+ },
+ "closed": "2026-11-03T22:54:06Z",
+ "outcome": "ok"
+}
