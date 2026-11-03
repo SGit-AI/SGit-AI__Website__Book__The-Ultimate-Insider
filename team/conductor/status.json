@@ -1,10 +1,14 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "conductor",
-  "as_of": "2026-11-03T12:06:00Z",
+  "as_of": "2026-11-03T12:27:00Z",
   "round": 1,
   "state": "RC2: the plan (RP1) and cover A (CV2) signed at the editor's word; the team writes the first version down the zoom ladder, the 30-page first",
   "done": [
+    {
+      "what": "the reply on the stop button: the brief for the newsroom's journalist written and sent to its session at the editor's word; the chapter put to the storyteller",
+      "evidence": "team/conductor/requests-out/newsroom__the-stop-button.md"
+    },
     {
       "what": "12:02 wake: TA1 loads in most members' sessions after their restarts; the full book to chapter 8; nine letters filed",
       "evidence": "comms/mail/conductor/done/security__035-ta1-loads-and-150-03-05.eml"
@@ -490,6 +494,10 @@
     {
       "what": "report the account's usage state in every wake's brief (from get_session's rate_limit_info), so the editor can move accounts in time",
       "when": "every wake"
+    },
+    {
+      "what": "route each agent's section of the newsroom's draft to its member for a read; ask the editor whether to name the reader",
+      "when": "when the journalist sends the draft"
     }
   ],
   "asks": [
@@ -523,6 +531,6 @@
       "C10b"
     ]
   },
-  "updated": "2026-11-03T12:06:00Z",
+  "updated": "2026-11-03T12:27:00Z",
   "cadence": "active"
 }
