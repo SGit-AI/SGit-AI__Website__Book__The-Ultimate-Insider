@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "A presentation convention, the conductor's to settle as CK1, open for the editor to overturn; keep it out of book.json's decisions; own paths only; nothing private.",
    "at": "2026-11-03T03:03:57Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "CK1 in five letters (not in book.json's decisions); four letters filed; status.",
+   "at": "2026-11-03T03:04:26Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "Only comms and the conductor's files; book.json untouched; nothing private.",
+   "at": "2026-11-03T03:04:50Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "CK1 as the conductor's call, open for the editor; the five lines match researcher__022.",
+   "at": "2026-11-03T03:04:50Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T03:04:50Z",
+ "outcome": "ok"
 }
