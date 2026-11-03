@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "The turn question answered (105, copied to the writer); 150/20 and 21 read (106); mail filed; status and debrief. The line read ran as the reviewer agent; no tool refused. Build and gate clean, 0 outside scope, vault_check clean.",
    "at": "2026-11-03T19:43:10Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (as the reviewer agent, steps 4 and 5 in one call, UL1)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "11 files in scope; 0 outside scope; vault_check clean; no key, token, session id, fingerprint, personal detail or directive text. No tool refused.",
+   "at": "2026-11-03T19:43:46Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (as the reviewer agent, steps 4 and 5 in one call, UL1)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "The turn answered (105), 150/20 and 21 read (106), mail filed, debrief and status.",
+   "at": "2026-11-03T19:43:47Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T19:43:47Z",
+ "outcome": "ok"
 }
