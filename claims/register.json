@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-11-03T08:36Z",
+ "as_of": "2026-11-03T09:36Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -3235,6 +3235,28 @@
    "method": "as C108, with clock-hour bounds; members on stage from C011's first-commit times, not from '@member' subjects",
    "command": "see claims/the-clock.md, 'How to rerun' (clock-hour bounds)",
    "note": "The same day as C108 on the other rule. Members on stage use C011's first commits, so the conductor is on stage in hour 1 (00:44); C095's '@member' count would put it in hour 2 and should not be used for the cast. For commits per hour, this entry's 'all' column equals C095's all-commits row; C014 has no hours. Registered at ruv-sgit's letter 043 and the storyteller's 074, the researcher's 02:32 wake, 3 November 2026."
+  },
+  {
+   "id": "C111",
+   "claim": "A third moment in the talk as given: the Wardley map, at 19:27",
+   "cited_in": [
+    "manuscript/rc2/150/01-slides-as-a-compromise.md",
+    "comms/mail/mailroom/writer/researcher__011-rc2-150-1-3.eml"
+   ],
+   "value": {
+    "at": "19:27 in the transcript (the recording's own clock)",
+    "beat": "inside",
+    "words": "So, as you would expect, here's a Wardley map. If this is the first time you've seen one: Wardley maps are the best thing I have learned in the last decade. This is absolutely how I think. It gives me peace, it allows me to strategise, and it's probably the best systems thinking I have come across. Simon Wardley released everything under Creative Commons, and there's a good community. Fundamentally, you map the system, this needs this, which needs this, and then you map evolution: usually genesis, custom built, product and commodity."
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "a9c0b49 (added after the day)",
+    "evidence": "content/articles/the-talk-as-given.md, the passage at 19:27 in section id 'inside'"
+   },
+   "method": "read the transcript passage at 19:27",
+   "command": "git show a9c0b49:content/articles/the-talk-as-given.md | grep -n 'here.s a Wardley map'",
+   "note": "His words on stage, from the generated transcript (C069): quote them as said, to 'commodity.'. The passage goes on to his case about open source; quote it only if the chapter wants it, with its own trace. 'Released everything under Creative Commons' is his account of Wardley's licence; the book's own source sheet (claims/ps1-sources.md, section 4) has wardleymaps.com under CC BY-SA 4.0. Registered at the writer's letter 069, the researcher's 09:32 wake, 3 November 2026."
   }
  ]
 }
