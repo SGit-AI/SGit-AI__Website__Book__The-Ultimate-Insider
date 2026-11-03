@@ -17,6 +17,13 @@
    "verdict": "go",
    "comment": "No hold; scope fine; 03/10 manuscripts and scripts hold no raw HTML, URLs or addresses. Conditions: make_editions.py escapes < > & itself, stops on a missing title match; record links are public GitHub URLs (talk at 298be4e); filing synthetic__009 is an inbox copy only; vault_check and gate before push.",
    "at": "2026-11-03T05:14:29Z"
+  },
+  "work": {
+   "by": "developer@book.the-ultimate-insider",
+   "model": "",
+   "verdict": "done",
+   "comment": "Board 010 done: /review/ed-03/ (4 chapters, 23 links) and /review/ed-10/ (10, 53), each page's record from the storyteller's scripts; raw HTML, stray links and unmatched pages stop the build (one named exception); zoom links every rung; rc2-70 rebuilt at 12 chapters; synthetic__009 filed. Commit b8f516fa.",
+   "at": "2026-11-03T05:17:48Z"
   }
  },
  "closed": null,
