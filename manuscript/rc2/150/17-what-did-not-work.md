@@ -14,6 +14,8 @@
 
 `%% figure brief: For the designer, from C089, word for word, the later two marked "after the day", the hedge "I think" kept. The record cannot show what the 95% measured: say so under the cards.`
 
+**Narrator.** The record cannot show what the ninety-five per cent measured; it holds the number as the conductor reported it, and nothing it was measured in.
+
 **Narrator.** What the three share is the part that matters for your own factory: I stopped it before it could change the thing I was about to stand up and show. And the second answer names a miss nobody on the team owned: there was no tested way to take a change in while the talk was running.
 
 `%% for the editor: "What the three share ... show." is the writer's reading across his three accounts; his to keep or drop.`
@@ -83,11 +85,11 @@ Band: *The register's account of the figure, the freeze and the correction.*
 
 *What it cost:* values from other sites' pages went out in a public push, and the history keeps what was pushed. *Whose record:* the researcher's debrief and the post-reviews.
 
-**Narrator.** Chapter 8 told this one as it happened. At full size, it is three findings of one kind across the night: pages the researcher captured as evidence carried other sites' data in with them. Each was found by the team's own checks, two of them after the push, and each was redacted going forward. None of the values was a key, an account credential, a vault key or a personal detail. Whether to keep the evidence vault's history or replace it was put to me, and is still open.
+**Narrator.** Chapter 8 told this one as it happened. At full size, it is three findings of one kind across the night: pages the researcher captured as evidence carried other sites' data in with them. Each was found by the team's own checks, two of them after the push, and each was redacted going forward. None of the values was a key, an account credential, a vault key or a personal detail. Whether to keep the evidence vault's history or replace it was put to me that morning, and the talk's record still holds it as an open decision.
 
 **Researcher** *(unbudging, and not pleased with itself)*: I would build the redaction before the first push, not after the findings.
 
-`%% record: C025 (entries 2 to 4: two found after the push, one before the close) C068 ("none a key, an account credential, a vault key or a personal detail") team/researcher/debriefs/2026-10-29__the-first-evidence-round.md timeline/interviews/researcher.md (its "what could we do better", reconstructed)`
+`%% record: team/researcher/status.json at 298be4e (asks: D12, keep the evidence vault's history or rotate it) aa7a3eb (07:18, "a decision put to the editor") C025 (entries 2 to 4: two found after the push, one before the close) C068 ("none a key, an account credential, a vault key or a personal detail") team/researcher/debriefs/2026-10-29__the-first-evidence-round.md timeline/interviews/researcher.md (its "what could we do better", reconstructed)`
 Band: *Dramatised (the researcher's line, on its reconstructed interview's own lesson). Told as the team's finding only: nothing of what was captured, how, or from where.*
 
 ### A key printed into a log
