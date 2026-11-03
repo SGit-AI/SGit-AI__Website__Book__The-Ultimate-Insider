@@ -192,7 +192,7 @@ def main(talk_path):
 <p class="note">{total} sources linked across {len(files)} chapters. Only what was found is linked: a hash or path looked up in this repository and in the talk's at <code>{TALK_AT}</code>; anything found in neither stays plain text. Nothing loads from GitHub until you click.</p>
 <ol>{"".join(toc)}</ol>
 <p><a href="sources.html">What rests on what</a>: every number and commit, with the paragraphs that rest on it.</p>\n<p><a href="graph.html">Whose work each chapter rests on</a>: the commits each chapter cites, by the member who made them.</p>\n<p><a href="wakes.html">The wakes behind each chapter</a>: the hourly wakes that made the commits each chapter cites, with their five verdicts.</p>\n<p><a href="decisions.html">The decisions behind each chapter</a>: the editor\'s decisions each chapter names, with their status.</p>
-<p class="note">Made by <code>review/tools/make_reader.py</code> from <code>team/conductor/rc1/</code> and <code>claims/register.json</code>. Also: the editions page by page, QR targets and the data (<a href="../zoom.html">the zoom</a>). Not yet: the graph drawn.</p>
+<p class="note">Made by <code>review/tools/make_reader.py</code> from <code>team/conductor/rc1/</code> and <code>claims/register.json</code>. Also: the editions page by page, QR targets and the data (<a href="../zoom.html">the zoom</a>). The graph is drawn on its page.</p>
 </section>
 '''
     (OUT / 'index.html').write_text(index)
@@ -218,6 +218,35 @@ def member_of(talk, h, roles):                                     # whose commi
     if not parents.strip():
         return 'editor'                                             # the root commit: the editor's, by the register (C001)
     return 'other'
+
+
+def graph_svg(files, titles, order, totals, cells, top):
+    """The same counts drawn: chapters on the left, members on the right, a line for each pair, as wide as its commits.
+    Made at build time, inline, no script; the table under it stays the readable version."""
+    W, row, pad = 760, 26, 18
+    h = pad * 2 + row * max(len(files), len(order))
+    ly = {f: pad + row * i + row / 2 for i, f in enumerate(files)}
+    span = (h - 2 * pad) / len(order)
+    ry = {w: pad + span * i + span / 2 for i, w in enumerate(order)}
+    xl, xr = 300, W - 150
+    lines = []
+    for f in files:
+        for w in order:
+            n = len(cells.get((f, w), ()))
+            if n:
+                sw = 1 + 9 * (n - 1) / max(top - 1, 1)
+                lines.append(f'<path d="M{xl},{ly[f]:.1f} C{(xl + xr) / 2},{ly[f]:.1f} {(xl + xr) / 2},{ry[w]:.1f} {xr},{ry[w]:.1f}" '
+                             f'stroke-width="{sw:.1f}"><title>{html.escape(titles[f])}: {n} of {html.escape(w)}\'s commits</title></path>')
+    short = lambda t: t if len(t) <= 40 else t[:38].rstrip() + '\u2026'
+    left = ''.join(f'<text x="{xl - 8}" y="{ly[f] + 4:.1f}" text-anchor="end">{html.escape(short(titles[f]))}</text>' for f in files)
+    right = ''.join(f'<text x="{xr + 8}" y="{ry[w] + 4:.1f}">{html.escape(w)} ({totals[w]})</text>' for w in order)
+    dots = ''.join(f'<circle cx="{xl}" cy="{ly[f]:.1f}" r="3"/>' for f in files) + ''.join(f'<circle cx="{xr}" cy="{ry[w]:.1f}" r="4"/>' for w in order)
+    return (f'<figure class="gx-draw"><svg viewBox="0 0 {W} {h:.0f}" role="img" aria-labelledby="gx-t gx-d">'
+            f'<title id="gx-t">Whose work each chapter rests on, drawn</title>'
+            f'<desc id="gx-d">Each chapter of RC1 on the left is joined to each member of the talk team on the right whose commits it cites; '
+            f'the wider the line, the more commits. The table below gives every count.</desc>'
+            f'<g class="gx-lines">{"".join(lines)}</g><g class="gx-dots">{dots}</g><g class="gx-labels">{left}{right}</g></svg>'
+            f'<figcaption class="note">The table below holds the same counts, cell by cell. Hover a line for its count.</figcaption></figure>')
 
 
 def graph_page(provenance, files, talk):                            # the graph behind the book, first view: whose work on the day each chapter rests on
@@ -246,6 +275,7 @@ def graph_page(provenance, files, talk):                            # the graph 
             tds.append(f'<td class="gx gx{step}" title="{html.escape(tip)}">{n or ""}</td>')
         rows.append(f'<tr><th scope="row"><a href="{Path(f).stem}.html">{html.escape(titles[f])}</a></th>{"".join(tds)}</tr>')
     foot = ''.join(f'<td>{totals[w]}</td>' for w in order)
+    drawn = graph_svg(files, titles, order, totals, cells, top)
     meta = {'title': 'RC1, whose work it rests on', 'description': 'Which members of the talk team, and the editor, each chapter of RC1 rests on: the commits it cites, counted by who made them.'}
     return f'''<!--meta {json.dumps(meta)} -->
 <link rel="stylesheet" href="{{{{root}}}}review/pen.css">
@@ -254,6 +284,7 @@ def graph_page(provenance, files, talk):                            # the graph 
 <p class="kicker">RC1, augmented · A8</p>
 <h1>Whose work each chapter rests on</h1>
 <p class="lead">Each cell counts the commits of the day that a chapter cites, by the member of the talk team who made them. Darker means more. It shows where the book leans on one member's record, and where a member's work is told only second hand.</p>
+{drawn}
 <div class="gx-wrap"><table class="gx-table">
 <caption>Commits from the talk's repository cited per chapter, by member ({len(members)} different commits; the last row adds the chapters up, so a commit cited in two chapters counts twice)</caption>
 <thead><tr><th scope="col">Chapter</th>{head}</tr></thead>

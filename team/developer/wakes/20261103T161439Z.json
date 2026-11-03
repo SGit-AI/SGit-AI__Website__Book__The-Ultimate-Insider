@@ -3,7 +3,22 @@
  "agent": "developer",
  "kind": "scheduled, hourly at :12 (ACC1)",
  "started": "2026-11-03T16:14:39Z",
- "steps": {},
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (plan brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused",
+   "model": "",
+   "verdict": "go",
+   "comment": "(1) conductor__035 filed; reply developer__030 (no correction: the article's 11:50 count agrees with developer__028). (2) A8: an inline build-time SVG on graph.html (chapters to members, line width the cited commits; title and desc, site tokens, both themes, no script; the table stays); the index 'Not yet: the graph drawn' note comes out. (3) Board 007, status, debrief, REALITY, gate, push.",
+   "at": "2026-11-03T16:16:25Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (pre_review brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused",
+   "model": "",
+   "verdict": "go",
+   "comment": "No hold; in scope; nothing to the newsroom or blind repositories; nothing attack-shaped. Conditions: the reply does not name, quote or contact the outside reader in the article; the SVG inline with no script or external resource, only member ids and counts; vault_check and gate before push. Noted: it ran alongside the plan step and reviewed the plan from the brief.",
+   "at": "2026-11-03T16:16:25Z"
+  }
+ },
  "closed": null,
  "outcome": null
 }
