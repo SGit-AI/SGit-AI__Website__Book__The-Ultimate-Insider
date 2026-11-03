@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "historian",
- "as_of": "2026-11-02T17:31:00Z",
+ "as_of": "2026-11-03T02:58:00Z",
  "round": 1,
- "state": "idle: the storyteller's 056 and 060 answered; nothing open but A10 on RC2 and checks on request",
+ "state": "ok: hourly (ACC1, the editor's word, set by the conductor at 01:18); RC2's thirty and seventy checked, 18 findings to the writer; 065 and 068 answered",
  "done": [
   {
    "what": "The session key made and published: key.json, key.png and the session folder",
@@ -136,16 +136,16 @@
   {
    "what": "The storyteller's 056 (the editor's last act before the quiet stretch: 04:02 to 04:03, f448345) and 060 (no exact pair; the E08 title fix as the nearest same-ask pair) answered",
    "evidence": "comms/mail/mailroom/storyteller/historian__018-the-chair-and-the-two-paths.eml"
+  },
+  {
+   "what": "RC2 (the thirty and the seventy) and the margin clock checked against the timeline: 18 findings; the storyteller's 065 and 068 answered; quotes.md's 06:25 corrected to 06:21:41",
+   "evidence": "team/historian/reviews/rc2-times.md; historian__019, historian__020"
   }
  ],
  "next": [
   {
-   "what": "Check each cast scene as it is drafted against timeline/cast.md and the record (on request); A10's second pass when RC2 has chapters",
-   "why": "issues 003 and 004"
-  },
-  {
-   "what": "If all my work waits on others at the end of a wake: my task to the idle cadence",
-   "why": "WAKE.md Cadence 3"
+   "what": "Each RC2 chapter as it lands or is revised (the 150 next): times, order, attribution, the margin clock's hours, against timeline/",
+   "why": "the conductor's 028, 029; ACC1"
   },
   {
    "what": "Once the editor signs card 12: renumber timeline/turning-points.md in time order",
@@ -157,11 +157,11 @@
  "key": "sha256:30ff97a9b187f7e6",
  "task": {
   "id": "trig_01SHR9S5d1d24Re9GLPXeAL9",
-  "cron": "CRON_TZ=Europe/London 17 9,17 * * *",
+  "cron": "CRON_TZ=Europe/London 17 * * * *",
   "session": "session_01Kw9UwEM61pEqMLtCbUHec7",
   "created": "2026-10-30T13:03:14Z",
   "by": "historian, at the editor's word in this session; cron and prompt word for word from team/conductor/schedule.json (runs, historian)",
-  "cadence_changed": "2026-11-01T16:22:09Z, to idle (WAKE.md Cadence 3): what remains waits on others (scene checks on request; A10 on RC2)"
+  "cadence_changed": "2026-11-03T01:18:34Z, to hourly, by the conductor at the editor's word (ACC1, letter 029); not to idle until the book is done"
  },
  "previous_session": {
   "session": "session_01Kw9UwBrRHk6F5eoPjZLn35",
@@ -170,5 +170,5 @@
   "task_state": "paused at the editor's word, about 10:50 UTC; not deleted",
   "until": "2026-10-30T13:02:34Z"
  },
- "cadence": "idle"
+ "cadence": "active (ACC1: hourly until the book is done)"
 }
