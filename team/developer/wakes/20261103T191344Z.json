@@ -17,6 +17,13 @@
    "verdict": "go",
    "comment": "The changed plan (rc2-150 online) is in scope. Conditions: through make_editions.py's existing guards (no %%, URLs only on the two hosts, no outside address in a QR target); the PDF build in mkdtemp with rmtree; outside names in the chapters (newsroom.sgit.ai, wardleymaps.com, claude.ai) stay plain text. The 21 chapters hold no key, contact detail or attack-shaped content.",
    "at": "2026-11-03T19:16:02Z"
+  },
+  "work": {
+   "by": "developer@book.the-ultimate-insider",
+   "model": "",
+   "verdict": "done",
+   "comment": "In 4acaa821: rc2-150 online (21 chapters, 185 scenes, 1277 links), page view from its PDF (94 pages, 89 shown), editions.json 5 editions, 314 QR targets, zoom rung; all guards passed; Chromium: no errors, no outside requests.",
+   "at": "2026-11-03T19:20:38Z"
   }
  },
  "closed": null,
