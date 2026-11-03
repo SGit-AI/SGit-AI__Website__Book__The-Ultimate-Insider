@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T21:50:43Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; Bash read only)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Build-only start; the designer's 118 by rc2_map.py after the gate; 91 after 90 in the full book's list; rebuild, check; letters to the designer and writer; records; gates. No HOLD.",
+   "at": "2026-11-03T21:51:21Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; no HOLD; both SVGs shapes and text only, tags blank, no key or contact. Conditions: unsafe_svg passes, 91 untouched, vault_check comms.",
+   "at": "2026-11-03T21:51:21Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Build-only start; rc2_map.py after the gate (the designer's 118); 91 after 90; thirty 29, seventy 62, full 107; letters designer 037, writer 028; inbox, board 007, records",
+   "at": "2026-11-03T21:52:15Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Gates clean; 13 staged files in scope; nothing under rc2, lab, briefs, .github or src; 91 untouched; no key, contact, private name, dash, religious, directing or attack text.",
+   "at": "2026-11-03T21:55:11Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Plan kept item by item; conditions met; nothing unplanned.",
+   "at": "2026-11-03T21:55:11Z"
+  }
+ },
+ "closed": "2026-11-03T21:55:11Z",
+ "outcome": "ok"
+}
