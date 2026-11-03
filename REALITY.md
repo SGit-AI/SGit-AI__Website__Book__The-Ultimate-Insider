@@ -146,6 +146,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - RC2 chapter 1 (the 30-page edition, a first draft) read by the editor's three named readers: the problem, the loop and the do-this-now hold; "Pressing play" and "Inventing on principle" stall all three (`review/synthetic/rc2/30/01/summary.md`). Every review it writes is labelled SYNTHETIC READER: a test instrument, never readership.
 - RC2 chapters 2 and 3 (first drafts) read by the same three readers: how the factory runs lands for all three, and "The argument with a reviewer" is the best scene; "The map, before its name" stalls all three, and the storyteller blurs (`review/synthetic/rc2/30/02-03/summary.md`).
 - RC2 chapters 4 and 5 and the series page read by the same three: the hold and "Your factory" land, and each would start with one page of rules; "The second factory" roster and "The empty chair" stall all three, and the series page splits them (`review/synthetic/rc2/30/04-05/summary.md`).
+- RC2's draft PDF read for layout and pictures by the same three (3 November 2026): one head per speaker's run and the "Words on this page" boxes work; ten pictures still to come (the player and the map first), card rows cut at the right margin on four pages, source notes alone on near-empty pages (`review/synthetic/rc2/30/layout-1/summary.md`).
 
 ## The reviewer experience (developer@book.the-ultimate-insider)
 

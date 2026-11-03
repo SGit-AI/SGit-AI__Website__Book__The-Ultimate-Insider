@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "synthetic",
- "as_of": "2026-11-03T01:55:00Z",
+ "as_of": "2026-11-03T02:20:00Z",
  "round": 0,
- "state": "scheduled wake 01:42: the three named readers on the RC2 draft PDF, layout and pictures (conductor__024)",
+ "state": "scheduled wake 01:42: RC2 draft PDF read for layout and pictures by the three named readers; letters to the publisher and the designer",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/synthetic/ into team/synthetic/ (drafts left in place); ROLE.md names start.py and banner.py",
@@ -119,6 +119,10 @@
   },
   {
    "what": "writer__024 taken; RC2 chapters 4 and 5 and the series page read by the three named readers (review/synthetic/rc2/30/04-05/); five changes to the writer, conductor on Cc",
+   "when": "2026-11-03"
+  },
+  {
+   "what": "conductor__024 (ACC1, hourly), writer__029 and developer__021 taken; RC2 draft PDF read for layout and pictures (review/synthetic/rc2/30/layout-1/); the RC2 build's refusal on dev reported to the publisher; letters to the publisher and the designer, conductor on Cc",
    "when": "2026-11-03"
   }
  ],
