@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, hourly at :57 London",
+ "started": "2026-11-03T06:59:08Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, amended",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In LAB 42: ch8-register-bar (four counts from C029 at build, checked to add to its total; 'none said on stage' from C030), ch15-six-principles (headings verbatim; times and chapters parsed from each 'Where it came from' line, only what it names, both chapters where two), ch16-checklist (exactly fifteen lines, chapters 1 to 15 in order, first sentences verbatim, all parsed at build). Slots in lab/tools/book/rc2-70-figures.json checked against each chapter's Figure and Map count (chapter 16 has three); letter 102; lab PDF, letter to done/, debrief, status, REALITY.md, gate, push. No em-dashes or religious words.",
+   "at": "2026-11-03T07:00:05Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope. Every number from the register (C029, C030) or each chapter's own 'Where it came from' line, parsed at build, never typed. vault_check comms; no em-dashes, religious words, secrets or attack-shaped content; nothing private in 102; gate and pull before pushing.",
+   "at": "2026-11-03T07:00:45Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "",
+   "verdict": "done",
+   "comment": "LAB 42: ch8-register-bar (C029 counts checked to add up, the three from C030, build time from C029), ch15-six-principles (headings verbatim, only the times and chapters each line names), ch16-checklist (chapters 1 to 15 in order, first sentences verbatim); slots in rc2-70-figures.json checked against each chapter's line count (22 of 53 drawn); LAB 42 three pages; lab PDF 130 pages; letter 102; 022 to done/; debrief, status, REALITY.md; gate clean.",
+   "at": "2026-11-03T07:03:46Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "All files in scope; REALITY.md one line under its heading; publishing/ and manuscript/ untouched. Bar 210+55+52+3=320 and 18:20 match C029, the three match C030; principles' headings, times and chapters match their lines; the checklist's fifteen first sentences verbatim, in order. No em-dashes, religious words, secrets or attack-shaped content. Minor, acted on: 'none said on stage' rested on a default for two C030 entries without on_stage; the build now checks those two are article- or tree-only.",
+   "at": "2026-11-03T07:04:36Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "The three SVGs, script, pages.html three pages, experiment.json; slots in rc2-70-figures.json (22 of 53 drawn); lab PDF 130 pages and SHA256SUMS; letter 102 in the publisher's mailroom and the outbox; 022 to done/; debrief, status, REALITY.md; agents check clean.",
+   "at": "2026-11-03T07:04:58Z"
+  }
+ },
+ "closed": "2026-11-03T07:04:58Z",
+ "outcome": "ok"
+}
