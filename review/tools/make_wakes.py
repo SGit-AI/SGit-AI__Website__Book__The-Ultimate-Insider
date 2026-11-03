@@ -2,7 +2,8 @@
 # cites (review/anchors/rc1-provenance.json), the wake of the talk team's member that made it: the member read from the
 # commit's "@member:" subject (or its Agent: trailer, as the graph reads it), the wake the one whose started-to-closed window holds the commit's time. Only the member,
 # the time, the five step verdicts and a link to the wake file are shown; no comment text is copied. What cannot be traced
-# is counted, not guessed. Writes only src/pages/review/read/wakes.html. Kept by developer@book.the-ultimate-insider.
+# is counted, not guessed. Also the decisions behind each chapter: the ids of book.json's decisions a chapter names, with their
+# status, who decided and the ask (never the detail). Writes only src/pages/review/read/wakes.html and decisions.html. Kept by developer@book.the-ultimate-insider.
 # Run: python3 review/tools/make_wakes.py <path to a full clone of SGit-AI__Website__Presentation__The-Ultimate-Insider>
 import collections, html, json, re, subprocess, sys
 from pathlib import Path
@@ -13,6 +14,7 @@ from make_reader import TALK, TALK_AT                               # noqa: E402
 
 STEPS = ['plan', 'pre_review', 'work', 'post_review', 'post_check']
 OUT = ROOT / 'src' / 'pages' / 'review' / 'read' / 'wakes.html'
+DEC = ROOT / 'src' / 'pages' / 'review' / 'read' / 'decisions.html'
 
 
 def main(talk):
@@ -70,9 +72,46 @@ def main(talk):
                    f'<p class="lead">Every commit of the talk a chapter cites was made in some member\'s hourly wake. Here are those wakes, chapter by chapter: who, when, and how each of its five steps ended (plan, pre-review, work, post-review, post-check).</p>\n'
                    f'<p class="note">How: a commit\'s member is read from its "@member:" subject or its Agent: trailer, as on the graph, and its wake is that member\'s wake record whose start-to-close window holds the commit\'s time, in the talk\'s repository at <code>{TALK_AT}</code>. '
                    f'{n_tr} of the {n_all} cited commits are traced this way; not traced: {html.escape(gaps) or "none"}. Only member, time, verdicts and links are shown. The decisions behind a page come in a later view. '
-                   f'Made by <code>review/tools/make_wakes.py</code>.</p>\n<p><a href="index.html">RC1 online</a> · <a href="graph.html">whose work each chapter rests on</a></p>\n'
+                   f'Made by <code>review/tools/make_wakes.py</code>.</p>\n<p><a href="index.html">RC1 online</a> · <a href="graph.html">whose work each chapter rests on</a> · <a href="decisions.html">the decisions behind each chapter</a></p>\n'
                    + '\n'.join(secs) + '\n</section>\n')
     print(f'wakes.html: {n_tr} of {n_all} cited commits traced, {total} chapter-wake rows; untraced: {gaps}')
+    decisions_page()
+
+
+def decisions_page():
+    decs = {d['id']: d for d in json.loads((ROOT / 'book.json').read_text())['decisions']}
+    claims = {c['id'] for c in json.loads((ROOT / 'claims' / 'register.json').read_text())['claims']}
+    shared = {i for i in decs if i in claims}                       # an id that is also a claim (C011): which one a chapter means is not knowable here
+    usable = sorted((i for i in decs if i not in shared), key=len, reverse=True)
+    pat = re.compile(r'(?<![\w-])(' + '|'.join(map(re.escape, usable)) + r')(?![\w-])')
+    for d in decs.values():                                          # security's condition: nothing but public, plain fields reach the page
+        if re.search(r'@|https?://|\+?\d[\d ()-]{7,}\d', d.get('ask', '') + ' ' + d.get('by', '')):
+            sys.exit(f'decision {d["id"]}: its ask or by looks like it holds an address or number; not written')
+    files = sorted((f for f in (ROOT / 'team' / 'conductor' / 'rc1').glob('*.md') if (DEC.parent / f'{f.stem}.html').exists()), key=lambda p: [int(x) if x.isdigit() else x for x in re.split(r'(\d+)', p.name)])
+    secs, mentions, pairs, skipped = [], 0, 0, 0
+    for f in files:
+        text = f.read_text()
+        skipped += sum(len(re.findall(r'(?<![\w-])' + re.escape(i) + r'(?![\w-])', text)) for i in shared)
+        found = collections.Counter(m.group(1) for m in pat.finditer(text))
+        if not found:
+            continue
+        mentions, pairs = mentions + sum(found.values()), pairs + len(found)
+        rows = ''.join(f'<li><a class="pv" href="{{{{root}}}}decisions/index.html#{html.escape(i)}"><code>{html.escape(i)}</code></a> '
+                       f'<span class="pv-state">{html.escape(decs[i].get("status", ""))}</span> {html.escape(decs[i].get("ask", ""))} '
+                       f'<span class="c-dim">by {html.escape(decs[i].get("by", ""))}; named {n} time{"s" if n > 1 else ""}</span></li>'
+                       for i, n in sorted(found.items()))
+        secs.append(f'<section><h2><a href="{html.escape(f.stem)}.html">{html.escape(f.name)}</a></h2><ul class="pv-src">{rows}</ul></section>')
+    meta = {'title': 'The decisions behind each chapter', 'description': "For each chapter of RC1, the editor's decisions it names, with their status and what each asked."}
+    left = ', '.join(sorted(shared)) or 'none'
+    DEC.write_text(f'<!--meta {json.dumps(meta)} -->\n<link rel="stylesheet" href="{{{{root}}}}review/pen.css">\n<section class="wrap narrow" data-no-third-party>\n'
+                   f'<p class="kicker">RC1, augmented · A8</p>\n<h1>The decisions behind each chapter</h1>\n'
+                   f'<p class="lead">The book is made by the editor signing decisions. Here are the ones each chapter of RC1 names, with their status and what each asked; each links to the decision itself.</p>\n'
+                   f"<p class=\"note\">How: a decision's id from <code>book.json</code> found as a word in the chapter's text. {pairs} chapter and decision pairs, {mentions} mentions in all. "
+                   f"Left out: {left}, an id that is also a number in the researcher's register, so a mention cannot say which it means ({skipped} mentions). "
+                   f'Only the id, status, who decided and the ask are shown, never the detail. Made by <code>review/tools/make_wakes.py</code>.</p>\n'
+                   f'<p><a href="index.html">RC1 online</a> · <a href="graph.html">whose work each chapter rests on</a> · <a href="wakes.html">the wakes behind each chapter</a></p>\n'
+                   + '\n'.join(secs) + '\n</section>\n')
+    print(f'decisions.html: {pairs} chapter-decision pairs, {mentions} mentions; left out {sorted(shared)} ({skipped} mentions)')
 
 
 if __name__ == '__main__':

@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled, hourly at :12 (ACC1)",
+ "started": "2026-11-03T14:16:45Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (plan brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused",
+   "model": "",
+   "verdict": "go",
+   "comment": "(1) A8: make_wakes.py also writes /review/read/decisions.html: per RC1 chapter, the book.json decisions it names (status, by, ask), linked to /decisions/index.html#id; three-digit ids shared with claim ids left out and said so; no detail text; linked from the reader index, graph and wakes. The page states whether counts are mentions or ids per chapter. (2) Board 007, status, debrief, REALITY, gate, push.",
+   "at": "2026-11-03T14:20:25Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (pre_review brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused",
+   "model": "",
+   "verdict": "go",
+   "comment": "No hold; in scope; every 'by' is editor, no 'ask' holds an email, URL, phone or personal name; nothing attack-shaped. Conditions: no detail text; scrub every 'ask' again at build time; gate and vault_check before push, to dev only.",
+   "at": "2026-11-03T14:21:15Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
