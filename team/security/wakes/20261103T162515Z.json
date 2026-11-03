@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T16:25:15Z",
+ "steps": {
+  "plan": {
+   "by": "security, amended at the pre-review's change",
+   "model": "",
+   "verdict": "go",
+   "comment": "Amended item 1: read the article from newsroom.sgit.ai first; only if the site does not resolve, fetch that one article file from the public repository into the scratchpad, read only, nothing written or sent there. Findings only by letter to the conductor. Items 2 and 3 as before.",
+   "at": "2026-11-03T16:26:23Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent, as the reviewer agent (tools seen: Read, Grep, Glob, Bash, hand-back); second pass",
+   "model": "haiku",
+   "verdict": "go",
+   "comment": "Amended plan meets the change; untrusted-data rules for the scratchpad. (Its note to name the fallback 'the talk's repository' is a slip: the fallback is the newsroom's public repository, never the blind one.)",
+   "at": "2026-11-03T16:26:48Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. The article read from newsroom.sgit.ai (no clone): two points and a question to the conductor (security__040). 2. Synthetic's temp build log: TA1 case 10. 3. The 150's 15 and 16 and ch-security-card.svg: clear. Letters; boards; status; debrief.",
+   "at": "2026-11-03T16:28:33Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
