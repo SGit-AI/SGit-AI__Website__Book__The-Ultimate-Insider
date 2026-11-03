@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "designer",
- "as_of": "2026-11-03T01:05:00Z",
+ "as_of": "2026-11-03T01:08:00Z",
  "round": 0,
- "state": "the editor's chat: the book's official cover in place (cover-a-signed.svg, at his word after two rounds); lab PDF 117 pages; the speech cards wait on C089",
+ "state": "scheduled wake: chapter 4's speech cards drawn (C089 words cleared); figures for the librarian, historian, publisher and writer; lab PDF 118 pages; chapter 5's pictures next",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/designer/ into team/designer/ (drafts left in place)",
@@ -203,6 +203,10 @@
   },
   {
    "what": "the official cover: cover_signed() redrawn as the approved draft; LAB 33 updated; letters designer__093, 094",
+   "when": "2026-11-03"
+  },
+  {
+   "what": "RC2 chapter 4's three speech cards (LAB 39) and figures for four book-team speakers (make_cast.py BOOK_TEAM, speakers.css); letter 095 to the publisher",
    "when": "2026-11-03"
   }
  ],

@@ -7,7 +7,10 @@
 - ch4-clock-stopped.svg: the wake clock from chapter 2 greyed, one small file on top; a card: what landed after the hold,
   its gap computed from the two commits and checked against C065.
 - ch4-did-not-work.svg: five cards, each with its id (none where the record line gives none).
-The three speech cards wait: C089 is open in the register. No other number; sizes stated; text 9 pt.
+- ch4-speech-cards.svg: three equal cards, the signed narrator figure (DR1) on each, its date and the editor's words
+  verbatim (the researcher's letter 006), each checked at build against its source: the hold file at 298be4e (with git,
+  read only), and the two briefs in this repository. In the Figure line's order, none larger: C089 is open on which
+  account the book leads with. No other number; sizes stated; text 9 pt.
 """
 import json, math, subprocess, sys
 from pathlib import Path
@@ -116,9 +119,53 @@ def did_not_work():
     return mc.svg(164, 44, "".join(out), "Five cards: what did not work on the day, each with where it rests")
 
 
+# date, the words (verbatim), the caption, and where the build finds them: ("git", path at 298be4e) or ("repo", path)
+SPEECH = [("29 October, 18:44", "actually we are at 95% so it is better to pause all actions", "as the hold file gives it",
+           ("git", "team/conductor/HOLD.md")),
+          ("31 October, early hours", "the 95%, it's an interesting point, but it's just a footnote", "dictated review, after the day",
+           ("repo", "briefs/2026-10-31__rc1-paper-review/batch-07-pages-22-to-32.md")),
+          ("31 October, evening", "The 95%, I think, was the tokens usage.", "in session, after the day",
+           ("repo", "briefs/2026-10-31__in-session/02-g1-the-95-and-the-day-in-review.md"))]
+
+
+def speech_cards(clone):
+    import textwrap
+    for _, words, _, (kind, path) in SPEECH:
+        src = (subprocess.run(["git", "-C", clone, "show", f"298be4e:{path}"], capture_output=True, text=True, check=True).stdout
+               if kind == "git" else (REPO / path).read_text())
+        if words not in src:
+            sys.exit(f"make_pictures: {words!r} not in {path}")
+    if REG["C089"]["state"] == "checked":
+        sys.exit("make_pictures: C089 is checked now: see whether the lead is signed before the cards stay equal")
+    w, gap, out = 52.2, 3.3, []
+    rows = [textwrap.wrap(f"\u201c{words}\u201d", 27) for _, words, _, _ in SPEECH]
+    h = 34 + 4.1 * max(len(r) for r in rows) + 9
+    for i, ((date, _, cap, _), r) in enumerate(zip(SPEECH, rows)):
+        x = i * (w + gap)
+        out.append(f'<rect x="{x + .3:.1f}" y=".3" width="{w}" height="{h:.1f}" rx="2" fill="#fff" stroke="{mc.INK}" stroke-width=".45"/>'
+                   + f'<g transform="translate({x + 2:.1f} 2) scale(.56)">{mc.editor_figure("A")}</g>'
+                   + t(x + 26, 12, "the editor", 800) + t(x + 26, 16.6, date.split(", ")[0] + ",", 400, mc.MUTED)
+                   + t(x + 26, 20.8, date.split(", ")[1], 400, mc.MUTED))
+        for j, line in enumerate(r):
+            out.append(t(x + 3, 34 + j * 4.1, line, 400))
+        out.append(t(x + 3, h - 2.6, cap, 400, mc.MUTED))
+    out.append(t(0, h + 5, "three accounts, equal and in the order given: which one leads is the editor's to sign (C089, open)", 400, mc.MUTED))
+    return mc.svg(164, round(h + 6.6, 1), "".join(out), "Three speech cards from the editor, each dated, his words verbatim, none larger")
+
+
+def book_team_figures():
+    out = []
+    for i, m in enumerate(mc.BOOK_TEAM):
+        x = i * 41
+        out.append(f'<g transform="translate({x + 6} 0) scale(.7)">{mc.figure(m)}</g>' + t(x + 20, 39.4, m, 700, anchor="middle")
+                   + t(x + 20, 43.8, mc.BOOK_TEAM[m][2], 400, mc.MUTED, "middle"))
+    return mc.svg(164, 46, "".join(out), "This book's four speakers drawn in the cast's style: the librarian, the historian, the publisher, the writer")
+
+
 if __name__ == "__main__":
     clone = sys.argv[1]
     for name, svg in {"ch4-last-ten-minutes.svg": last_ten(clone), "ch4-clock-stopped.svg": clock_stopped(clone),
-                      "ch4-did-not-work.svg": did_not_work()}.items():
+                      "ch4-did-not-work.svg": did_not_work(), "ch4-speech-cards.svg": speech_cards(clone),
+                      "book-team-figures.svg": book_team_figures()}.items():
         (HERE / name).write_text(svg)
-    print("written ch4-last-ten-minutes.svg, ch4-clock-stopped.svg, ch4-did-not-work.svg")
+    print("written ch4-last-ten-minutes.svg, ch4-clock-stopped.svg, ch4-did-not-work.svg, ch4-speech-cards.svg, book-team-figures.svg")

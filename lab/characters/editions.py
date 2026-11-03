@@ -78,7 +78,7 @@ def speakers_css():
         return "data:image/svg+xml;base64," + base64.b64encode(svg.encode()).decode()
     rules = [".speaker { position: relative; padding-left: 8mm; min-height: 7mm; }",
              ".speaker::before { content: ''; position: absolute; left: 0; top: .1em; width: 6mm; height: 7.5mm; background-size: contain; background-repeat: no-repeat; }"]
-    for m in ["narrator"] + list(mc.CAST):
+    for m in ["narrator"] + list(mc.CAST) + list(mc.BOOK_TEAM):
         for mood in mc.MOODS:
             body = mc.editor_figure("A", mood) if m == "narrator" else mc.figure(m, mood)
             svg = mc.svg(20, 25, f'<g transform="scale(.5)">{body}</g>', f"{m}, {mood}")

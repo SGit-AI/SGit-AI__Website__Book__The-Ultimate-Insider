@@ -30,6 +30,15 @@ CAST = {
     "ruv-sgit":    ("#4a56a6", "a headband, a stopwatch",               "animations in runs"),
     "studio":      ("#8a5a2b", "big headphones, a plug on a cable",     "ports"),
 }
+# this book's own team, where a member speaks in the book and is not one of the talk's nine (the publisher__016: chapter
+# 5's speakers). Same construction; drawn as figures only, never in the on-stage marker, which stays the talk's nine.
+BOOK_TEAM = {
+    "librarian": ("#5f7a3a", "a hair bun, a stack of indexed books",  "every file indexed"),
+    "historian": ("#8f3b3b", "a mortarboard, an hourglass",           "the day in order"),
+    "publisher": ("#56657a", "a printer's eyeshade, a bound book",     "every format"),
+    "writer":    ("#d4704f", "a quill",                               "the editions' prose"),
+}
+COLOUR = {m: v[0] for m, v in {**CAST, **BOOK_TEAM}.items()}
 MOODS = ("happy", "worried", "stressed", "unhappy")
 FIG_W, FIG_H = 40.0, 50.0  # a figure's box at scale 1
 
@@ -88,6 +97,11 @@ def headgear(member, col):
         "studio": path("M9.4 16.4 Q9.4 5.6 20 5.6 Q30.6 5.6 30.6 16.4", "none", INK, .9)
                   + f'<rect x="7.2" y="14.2" width="3.2" height="6.6" rx="1.2" fill="{col}" stroke="{INK}" stroke-width=".5"/>'
                   + f'<rect x="29.6" y="14.2" width="3.2" height="6.6" rx="1.2" fill="{col}" stroke="{INK}" stroke-width=".5"/>',
+        "librarian": f'<circle cx="20" cy="7.4" r="2.8" fill="{col}" stroke="{INK}" stroke-width=".5"/>' + line(18, 6.2, 22.4, 8.8, INK, .45),
+        "historian": path("M9.8 8.2 L20 4.8 L30.2 8.2 L20 11.4 z", col, INK, .5) + path("M27.4 8.6 v4.2", "none", INK, .45)
+                     + f'<circle cx="27.4" cy="13.2" r=".7" fill="{ACCENT}"/>',
+        "publisher": path("M9.6 12 Q20 6.6 30.4 12 L32.6 14.2 Q20 9.8 7.4 14.2 z", col, INK, .5),
+        "writer": "",
     }[member]
 
 
@@ -131,6 +145,14 @@ def prop(member, col):
                   + line(33.4, 27.4, 32.6, 29.2, INK, .5) + line(35.6, 27.4, 34.8, 29.2, INK, .5) + line(37.8, 27.4, 37, 29.2, INK, .5) + "</g>",
         "ruv-sgit": f'<circle cx="35.4" cy="31.4" r="2.9" fill="{PAPER}" stroke="{INK}" stroke-width=".6"/>'
                     + f'<rect x="34.8" y="27.4" width="1.2" height="1.1" fill="{INK}"/>' + line(35.4, 31.4, 36.6, 29.9, col, .6),
+        "librarian": "".join(f'<rect x="{31.2 + k * .5:.1f}" y="{33.8 - k * 2.4:.1f}" width="7.4" height="2.2" rx=".3" fill="{c}" stroke="{INK}" stroke-width=".4"/>'
+                             for k, c in enumerate((col, PAPER, FILL2))) + f'<rect x="37.4" y="28.6" width="1.2" height="1.6" fill="{ACCENT}"/>',
+        "historian": path("M32.6 26.4 h5.6 M32.6 35.6 h5.6", "none", INK, .7) + path("M33.2 26.6 L37.6 26.6 L35.4 31 z M33.2 35.4 L37.6 35.4 L35.4 31 z", PAPER, INK, .45)
+                     + path("M34.2 35.2 L36.6 35.2 L35.4 33.4 z", "#e8c9a0", "none", 0),
+        "publisher": f'<rect x="31" y="28.4" width="7.4" height="9" rx=".6" fill="{col}" stroke="{INK}" stroke-width=".5"/>'
+                     + line(32.4, 28.4, 32.4, 37.4, INK, .4) + f'<rect x="34" y="30.6" width="3.2" height="1.4" fill="{PAPER}"/>'
+                     + path("M36.4 37.4 v2 l.7 -.6 l.7 .6 v-2", ACCENT, "none", 0),
+        "writer": path("M32 34 C34 30 36.6 25.6 39.4 23.2 C38.8 27.2 36.4 31 32.6 34.4 z", PAPER, INK, .45) + line(32, 34.6, 37.6, 26.6, INK, .35),
         "studio": path("M32 34 q4 4 6.4 1 q2 -2.6 -.6 -4.6", "none", INK, .5)
                   + f'<rect x="36" y="28.2" width="3.2" height="2.6" rx=".5" fill="{col}" stroke="{INK}" stroke-width=".4"/>'
                   + line(36.8, 28.2, 36.8, 26.8, INK, .4) + line(38.4, 28.2, 38.4, 26.8, INK, .4),
@@ -139,7 +161,7 @@ def prop(member, col):
 
 def figure(member, mood="happy"):
     """One member at scale 1 in a 40 x 50 box, as SVG elements (no root)."""
-    col = CAST[member][0]
+    col = COLOUR[member]
     screen = clock_face(mood) if member == "conductor" else face(mood)
     sweat = path("M30.6 9.6 q-1.5 2.2 0 3 q1.5 -.8 0 -3", "#bcd3e6", INK, .4) if mood == "stressed" else ""
     return "".join([
@@ -254,10 +276,14 @@ if __name__ == "__main__":
         for mood in MOODS:
             (out / f"{m}-{mood}.svg").write_text(svg(20, 25, f'<g transform="scale(.5)">{figure(m, mood)}</g>',
                                                      f"The {m}, {mood} (the book's reading): {look}"))
+    for m, (col, look, job) in BOOK_TEAM.items():  # this book's own speakers (publisher__016)
+        for mood in MOODS:
+            (out / f"{m}-{mood}.svg").write_text(svg(20, 25, f'<g transform="scale(.5)">{figure(m, mood)}</g>',
+                                                     f"The {m}, {mood} (the book's reading): {look}"))
     for mood in MOODS:  # a reviewer, neutral grey (ruv-sgit__036)
         (out / f"reviewer-{mood}.svg").write_text(svg(20, 25, f'<g transform="scale(.5)">{reviewer_figure(None, mood)}</g>',
                                                       f"A reviewer, {mood} (the book's reading): an agent with a clipboard"))
     for mood in MOODS:  # the narrator, option A, signed by the editor (DR1, 2 November 2026)
         (out / f"narrator-{mood}.svg").write_text(svg(20, 25, f'<g transform="scale(.5)">{editor_figure("A", mood)}</g>',
                                                       f"The narrator, {mood} (the book's reading): the brief and a pen"))
-    print(f"written {len(CAST) * len(MOODS)} figures and the narrator's {len(MOODS)} in lab/characters/cast/")
+    print(f"written {(len(CAST) + len(BOOK_TEAM)) * len(MOODS)} figures and the narrator's {len(MOODS)} in lab/characters/cast/")

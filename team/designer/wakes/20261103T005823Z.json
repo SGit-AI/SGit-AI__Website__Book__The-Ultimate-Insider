@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, every two hours at :57 London",
+ "started": "2026-11-03T00:58:23Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, amended",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. ch4-speech-cards.svg in LAB 39: three equal cards in the Figure line's order, the editor's words verbatim from researcher 006, each checked at build against its source (HOLD.md at 298be4e by git on the read-only clone, the two briefs here); 95% only in his words; C089 cited open on the lead. 2. Four figures (librarian, historian, publisher, writer) in make_cast.py outside CAST, cast/<member>-<mood>.svg, editions.py's speakers.css extended. 3. LAB 39 caption, lab PDF, letter 095 to the publisher, letters to done/, debrief, status, REALITY.md, gate, push. Amendment: no talk text copied beyond the quotes; no religious words. The designer's note on the conductor's 'skip if the clone is absent': LAB 39 already takes the clone as its argument and stops without it; a check is never skipped.",
+   "at": "2026-11-03T01:00:28Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope (lab/, team/designer/, comms/ own paths; REALITY.md appended under its own heading). 95% only inside the editor's quoted words, C089 cited open; the four figures generic, no likeness; no keys, vault_check comms before commit; no religious words; nothing attack-shaped; the talk clone read only, nothing to the blind repository; letters with nothing private.",
+   "at": "2026-11-03T01:00:47Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "",
+   "verdict": "done",
+   "comment": "ch4-speech-cards.svg (three equal cards, the editor's words from researcher 006 checked at build against the hold file at 298be4e and the two briefs; stops if C089 turns checked); BOOK_TEAM figures for librarian, historian, publisher, writer (4 moods each) and their speakers.css rules; LAB 39 three pages; lab PDF 118 pages; letter 095 to the publisher; 016 and 006 to done/; debrief, status.json, REALITY.md; gate clean.",
+   "at": "2026-11-03T01:05:24Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "All staged paths in scope; REALITY.md one appended line under the designer's heading. The three quotes match researcher 006 verbatim and are checked at build; the build stops if C089 turns checked. The only number is 95% inside his words, C089 cited open. The four figures generic, no likeness. No em-dashes, religious words or key material; nothing private in the letters; nothing attack-shaped.",
+   "at": "2026-11-03T01:05:48Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Speech cards (build-checked, stops if C089 turns checked), four BOOK_TEAM figures in four moods with speakers.css and editions.py, LAB 39 pages and caption, lab PDF and SHA256SUMS, letter 095 in mailroom and outbox, 016 and 006 in done/, debrief, status, one REALITY line: all staged; nothing outside lab/, comms/, team/designer/, REALITY.md; nothing unplanned.",
+   "at": "2026-11-03T01:06:06Z"
+  }
+ },
+ "closed": "2026-11-03T01:06:06Z",
+ "outcome": "ok"
+}
