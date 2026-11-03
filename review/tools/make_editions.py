@@ -326,7 +326,7 @@ def main(talk_path):
     blob = json.dumps({'about': 'The online editions as data: each chapter, its scenes, their paragraphs (with the review pages\' anchors) and the record each rests on, '
                                 'every token resolved to its repository and address, or marked unverified. Writers\' notes are left out, as on the pages. '
                                 'outside_citations: addresses on other hosts that the researcher\'s register cites as sources, under the claim that cites them; text, not links. '
-                                'Written by review/tools/make_editions.py from manuscript/ as it stands on dev.', 'site': SITE,
+                                'Written by review/tools/make_editions.py from manuscript/ as it stands on dev. RC1, the first version, is in rc1-book.json beside this file.', 'site': SITE,
                        'outside_citations': outside, 'editions': editions}, indent=1, ensure_ascii=False) + '\n'
     if '%%' in blob:
         sys.exit('editions.json would carry a %% line: refused')
@@ -361,7 +361,7 @@ def main(talk_path):
         f'<li><b>10 pages</b>: <a href="ed-10/index.html">online, with its record</a> · <a href="ed-10/pages.html">page by page</a> · <a href="{{{{root}}}}manuscript/one-human-nine-agents-edition-10.pdf">the PDF</a></li>\n'
         f'<li><b>30 pages, RC2</b>: <a href="rc2/index.html">online, with the record under each scene</a> · <a href="rc2/pages.html">page by page</a> · <a href="{{{{root}}}}rc2.html">its page and PDF</a></li>\n'
         f'<li><b>70 pages, being written</b>: <a href="rc2-70/index.html">the chapters drafted so far, online, with their record</a> · <a href="rc2-70/pages.html">page by page</a></li>\n'
-        f'<li><b>The full first version, RC1</b>: <a href="read/index.html">online, with every source linked</a></li>\n</ol>\n'
+        f'<li><b>The full first version, RC1</b>: <a href="read/index.html">online, with every source linked</a> · <a href="{{{{root}}}}review/rc1-book.json">as data</a></li>\n</ol>\n'
         f'<p class="note">The 70-page edition grows as the writer drafts it. Made by <code>review/tools/make_editions.py</code>.</p>\n</section>\n')
 
 

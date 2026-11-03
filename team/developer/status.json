@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "developer",
- "as_of": "2026-11-03T16:18:00Z",
+ "as_of": "2026-11-03T17:18:00Z",
  "round": 2,
- "state": "hourly (ACC1): every edition online with its record, as data, page by page; RC1 with its sources, graph, wakes and decisions; review steps as the reviewer agent (TA1); next RC1 as data, or what the editor asks",
+ "state": "hourly (ACC1): every edition online with its record, as data, page by page; RC1 with its sources, graph, wakes and decisions; review steps as the reviewer agent (TA1); every A8 item on the board done; next what the editor asks, or what the editor asks",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/developer/ into team/developer/ (drafts left in place; ROLE.md names start.py and banner.py)",
@@ -168,6 +168,10 @@
   {
    "what": "A8: the graph drawn on /review/read/graph.html (inline SVG, both themes); conductor__035 read and answered (developer__030)",
    "when": "2026-11-03"
+  },
+  {
+   "what": "A8: RC1 as data, /review/rc1-book.json (18 chapters, 840 paragraphs, 1377 sources), linked from the reader index and the zoom",
+   "when": "2026-11-03"
   }
  ],
  "next": [
@@ -176,7 +180,7 @@
    "why": "conductor__025; board 009"
   },
   {
-   "what": "A8 next: RC1 as data (editions.json covers RC2 and the short editions); QR images if a library is chosen",
+   "what": "A8: the board's items are done; next what the editor or the conductor asks (QR images if a library is chosen; the sealed note and the pen lane wait on the editor)",
    "why": "the conductor's letter conductor__005 (A8)"
   },
   {

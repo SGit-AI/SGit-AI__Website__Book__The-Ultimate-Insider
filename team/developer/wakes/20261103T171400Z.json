@@ -3,7 +3,22 @@
  "agent": "developer",
  "kind": "scheduled, hourly at :12 (ACC1)",
  "started": "2026-11-03T17:14:00Z",
- "steps": {},
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (plan brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused",
+   "model": "",
+   "verdict": "go",
+   "comment": "(1) A8, RC1 as data: make_reader.py writes a NEW review/anchors/rc1-book.json (not rc1.json, which holds the review pages' anchor list) and src/static/review/rc1-book.json: chapters, paragraphs in order with anchor, words and sources (repository and address, claim ids); editions.json's guards; linked from the reader index, the zoom and editions.json's about. (2) Board 007, status, debrief, REALITY, gate, push.",
+   "at": "2026-11-03T17:16:21Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (pre_review brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused",
+   "model": "",
+   "verdict": "go",
+   "comment": "No hold; in scope. Conditions: the register's outside hosts (arxiv.org, claude.com, diniscruz.ai, leanpub.com, jamesclear.com, and a leanpub.com/$s placeholder) only as text in an outside_citations list under their claim, as editions.json does; refuse to write on %% or any other off-host address; gate before push.",
+   "at": "2026-11-03T17:16:21Z"
+  }
+ },
  "closed": null,
  "outcome": null
 }
