@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "70/17 read; the full book's first sketch; README rows; letters 084 and 085; mail filed; status and debrief. Build and gate clean, 0 outside scope, vault_check clean.",
    "at": "2026-11-03T06:42:02Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Every path in scope; nothing in manuscript/, nothing to the Cold-Read or talk repository; no keys, contact details, attack-shaped content, em-dashes or religious words.",
+   "at": "2026-11-03T06:42:25Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "The 150's first sketch (outline, the Cold-Read chapter in the full book only, the valve kept), README rows, letters 084 and 085, status, debrief.",
+   "at": "2026-11-03T06:42:25Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T06:42:25Z",
+ "outcome": "ok"
 }
