@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake (hourly, ACC1)",
+ "started": "2026-11-03T05:02:58Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (plan; reviewed by the security sub-agent below)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1 ruv-sgit__046 asks who draws chapter 7's 'one picture's three rounds' (the talk's E02, its own picture, judged by security__005): ruv-sgit, drawn as LAB 07's masked way, designer copied; 2 file three letters; 3 the morning brief 47: both drafts built into the scratchpad (the 30: 28 pages; the 70: 12 chapters, 38 pages so far), sent to him; what the night did; asks: what to print and how, the Sonnet move; usage state; 4 status; gate, push.",
+   "at": "2026-11-03T05:03:30Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (haiku)",
+   "model": "claude-haiku-5-5",
+   "verdict": "go",
+   "comment": "Owner naming is the conductor's; drafts and brief private to the editor; nothing decided; nothing private.",
+   "at": "2026-11-03T05:03:49Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

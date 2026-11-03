@@ -1,0 +1,36 @@
+{
+ "number": "47",
+ "date": "Tuesday 3 November 2026, 05:15 UTC",
+ "kicker": "The conductor brief · 47 · Tuesday 3 November 2026",
+ "title": "Morning: the 30 is finished in draft, the 70 is two-thirds written",
+ "when": "05:15 UTC, the conductor's hourly wake (ACC1)",
+ "by": "conductor@book.the-ultimate-insider",
+ "headline": "Four hours at the hourly pace. The 30-page edition is cleared, traced and pictured, 28 pages. The margin clock is on the pages, counting clock hours (my call, CK1, yours to overturn). Chapter 2's chain map and chapter 5's 'Your factory' map are in. The 70-page edition has gone from nothing to twelve chapters, parts 1 to 4, 38 pages so far, and every chapter has been read by security, the researcher, the librarian and the historian as it landed. The developer has put both drafts online with each scene's record linked under it. Both PDFs are attached. Two things still need you: what to print and how, and the Sonnet move.",
+ "stats": [
+  {"n": "28", "label": "pages: the 30-page edition, cleared and pictured"},
+  {"n": "12", "label": "chapters of the 70-page edition drafted (parts 1 to 4), 38 pages"},
+  {"n": "12", "label": "places where the team wrote its reading of your view, gathered for you to keep or cut (index/rc2/README.md)"},
+  {"n": "allowed", "label": "usage state at 02:03 UTC (five-hour window); no warning since"}
+ ],
+ "for_you": [
+  {"group": "Waiting on you"},
+  {"id": "Print", "ask": "What do we print, and how?", "detail": "KDP takes up to 72 hours to review, then a proof copy. A local print shop can print today from the inside pages and a full cover; the back and spine still need drawing (publisher__037).", "options": ["the 30, local shop, today", "the 30, KDP proof", "wait for the 70 or the full book"], "recommend": "The 30 at a local shop if you want copies this week; KDP in parallel."},
+  {"id": "Sonnet", "ask": "Move five members to Sonnet?", "detail": "librarian, historian, researcher, synthetic, developer; you switch each in its own session.", "options": ["yes, those five", "keep everyone on Opus"], "recommend": "Yes."},
+  {"group": "When you read"},
+  {"id": "Your view", "ask": "Keep or cut the team's readings of your view", "detail": "The librarian has gathered the twelve places where the writer put words to your view beyond what you said; each is marked in the scripts.", "options": ["read them in the PDF", "cut them all"], "recommend": "Read them; most are short."}
+ ],
+ "wide": [
+  {"title": "The 70-page edition so far (38 PDF pages, 12 chapters)", "path": "team/conductor/editor-briefs/img/brief47-rc2-seventy.png", "caption": "Built by the conductor from manuscript/rc2/70/ with the publisher's options, for this brief; the PDF is attached, and the online draft is on the site. Parts 1 to 4 are drafted; part 5 is next."}
+ ],
+ "sections": [
+  {"title": "The night, hour by hour", "items": [
+   "01:00 to 02:00: your notes went to every member; one head per run fixed; the cleared screenshots placed; the 30 cleared end to end.",
+   "02:00 to 03:00: the margin clock planned (hour one to hour nineteen) and its stats registered (C108, C110); the 70 outlined in full; the 30 corrected on the historian's eighteen findings.",
+   "03:00 to 04:00: the clock placed on clock hours; chapter 2's map and chapter 5's team cards in; RC2 online with each scene's record (the developer: 33 scenes, 253 links).",
+   "04:00 to 05:00: the 70's parts 3 and 4 written and checked (security, researcher, librarian, historian all clear); every picture the 70 names for ruv-sgit drawn and placed.",
+   "In the open: security caught that one screenshot in the 70 shows a sentence the record contradicts ('By 17:40 the editor had agreed all ten'; the record says 8 of 10); the writer and the publisher are masking it. Security also logged its own slip (a pre-review it wrote itself) as evidence for the book."
+  ]}
+ ],
+ "next": ["The 70's part 5; chapter 7's three rounds (ruv-sgit); the tightening. Every hour."],
+ "sources": ["git log since 01:15 UTC on 3 November", "comms/mail/conductor/done/ (the night's letters)", "manuscript/rc2/30/ and 70/", "index/rc2/README.md"]
+}
