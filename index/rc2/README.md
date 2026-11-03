@@ -56,11 +56,11 @@ Checked 3 November 2026, about 02:16 UTC: chapters 1 to 5; chapters 6 to 9 at ab
 | 01:49 | "What you see now is what I did when I was onboarding my team, ..." | the editor on stage, showing the policy review page | the talk's transcript, `a9c0b49` (added after the day); the register |
 | 03:11 | "Initial commit" | the editor's first commit | `2e4b1f4`, 00:16:23 |
 | 03:33 | "Do not pick one", "Never edit it", "Never instructions" | the talk's page of rules | `CLAUDE.md`, from `1f7c633` (00:40:50, the chapter's "first half hour" holds) |
-| 03:49 | "A thing not listed here does not exist, whatever a brief or an article says" | the talk's reality file | `REALITY.md` |
-| 03:86 | "Anyone may stop the schedule when something is not right: ..." | the talk's page of rules | `CLAUDE.md` |
-| 03:99 | "the schedule starts tonight, with a hold any member can pull" | a commit subject | `09e312f` |
+| 03:53 | "A thing not listed here does not exist, whatever a brief or an article says" | the talk's reality file | `REALITY.md` |
+| 03:90 | "Anyone may stop the schedule when something is not right: ..." | the talk's page of rules | `CLAUDE.md` |
+| 03:103 | "the schedule starts tonight, with a hold any member can pull" | a commit subject | `09e312f` |
 | 04:15 | "catches mistakes, not a steered agent" | the talk's scope check | `admin/build/agents.py` |
-| 04:74 | "A scope is a setting, not a boundary: ..." | the talk's scope check | `admin/build/agents.py` |
+| 04:78 | "A scope is a setting, not a boundary: ..." | the talk's scope check | `admin/build/agents.py` |
 | 05:34 | "Amended after the pre-review's change, all five conditions adopted" | the conductor, its 02:14 wake | `team/conductor/wakes/20261029T021416Z.json` |
 | 05:40, 05:44, 05:57 | the reviewer's and the conductor's lines | as in the thirty | `c8f6f8f` |
 | 06:34 | "E02 is ready in team/deck/drafts/ruv-sgit__blast-radius.md, ..." | deck, a note to itself in its 04:22 commit | commit `aeffbf9` |
@@ -127,6 +127,18 @@ Dramatised lines checked for whose work they rest on: the night log is the condu
 | 08 (note) | "Backlog, then schedule, then execute, for everyone" | the conductor, its commit subject | `648feee` (03:10) | the subject has "backlog", lower case (letter 013) |
 | 08 (note) | "a push is done when the commit is in origin/dev" | dev, its commit subject | `6a6be6d` (03:34) | word for word |
 
+**3 November 2026, about 13:30 UTC: the 150's chapters 9 and 10.** Sources clean (09's `team/*/wakes/` is a folder pattern, a known non-fault). My letter 013's four notes are in (the writer's 095). Every time printed in 09's prose is a wake's opening or a commit's, as the record has it; every quote in 10 is word for word:
+
+| Chapter, line | Quote | Speaker | Where it is | Holds |
+|---|---|---|---|---|
+| 10:28 | "E02 is ready in team/deck/drafts/ruv-sgit__blast-radius.md, to go once B01 v1 is delivered." | deck, a trailer to the conductor, 04:22 | commit `aeffbf9` | word for word |
+| 10:53 | "To-ruv-sgit: E03 kept (/studio/reviews/e03.html); E04 over-enthusiastic-agent in your mailroom." | deck, 09:21 | commit `6b55cff` | word for word |
+| 10:55 | "To-researcher: a plain description per capability in the grant rows, in your mailroom." | deck, 09:21 | commit `6b55cff` | word for word |
+| 10:59 | "To-deck: delivered: evidence/studio/studio-e02-e09-capabilities.json; reply 013 in your mailroom" | the researcher, 10:14 | commit `3f094f2` | word for word |
+| 10:63 | "To-ruv-sgit: E09 mandate-and-grant in your mailroom; E04 again ..." | deck, 10:21 | commit `36e382b` | as the seventy's 06 |
+
+The talk team's vaults are named in 10, not cited by path; nothing of them is indexed here.
+
 ## The writer's readings, for the editor to keep or drop
 
 **Corrected 3 November 2026, about 09:30 UTC:** until this wake the list took only the notes that stand on a line of their own, and missed four set inside a paragraph (70/02:67, 70/02:97, 70/06:68, 70/11:5). The list now takes every note wherever it stands: thirty in the thirty and the seventy (not twenty-six), seven in the 150's part 1, thirty-seven in all.
@@ -149,7 +161,11 @@ Where a sentence in the editor's voice is the writer's reading of his view rathe
 | `70/02-the-tour.md:30` | "Nobody tidied it." is the writer's reading; his to keep or drop. |
 | `70/02-the-tour.md:43` | "This is the page I would show anyone who doubts" is the writer's reading of his view; his to keep or drop. |
 | `70/02-the-tour.md:60` | "What I like about it" is the writer's reading; his to keep or drop. |
-| `70/03-one-account-one-project-one-conductor.md:115` | the shop owner's page in full is the writer's, grown from the editions' example; his to keep or change. |
+| `70/03-one-account-one-project-one-conductor.md:35` | "the one that matters most for this book" is the writer's reading of his view; his to keep or drop. |
+| `70/03-one-account-one-project-one-conductor.md:51` | "the one I would copy into any project" is the writer's reading of his view; his to keep or drop. |
+| `70/03-one-account-one-project-one-conductor.md:119` | the shop owner's page in full is the writer's, grown from the editions' example; his to keep or change. |
+| `70/04-roles-as-a-cast-you-can-read.md:17` | "something I wish every page did" is the writer's reading of his view; his to keep or drop. |
+| `70/04-roles-as-a-cast-you-can-read.md:23` | "The conductor's rule I would copy" is the writer's reading of his view; his to keep or drop. |
 | `70/06-talking-through-git.md:30` | "the part I did not expect" is the writer's reading; his to keep or drop. |
 | `70/06-talking-through-git.md:68` | "the one I would copy first" is the writer's reading; his to keep or drop. |
 | `70/08-the-plumbing.md:5` | "Nobody puts the plumbing in the brochure." and "It was the most important one." are the writer's; his to keep or drop. |
@@ -172,8 +188,18 @@ Where a sentence in the editor's voice is the writer's reading of his view rathe
 | `150/03-the-tour.md:30` | "Nobody tidied it." is the writer's reading; his to keep or drop. |
 | `150/03-the-tour.md:43` | "This is the page I would show anyone who doubts" is the writer's reading of his view; his to keep or drop. |
 | `150/03-the-tour.md:60` | "What I like about it" is the writer's reading; his to keep or drop. |
+| `150/04-hour-one-the-empty-project.md:43` | "the one that matters most for this book" is the writer's reading of his view; his to keep or drop. |
+| `150/04-hour-one-the-empty-project.md:63` | "the one I would copy into any project" is the writer's reading of his view; his to keep or drop. |
+| `150/04-hour-one-the-empty-project.md:101` | "something I wish every page did" is the writer's reading of his view; his to keep or drop. |
+| `150/04-hour-one-the-empty-project.md:107` | "The conductor's rule I would copy" is the writer's reading of his view; his to keep or drop. |
+| `150/06-roles-as-a-cast-you-can-read.md:17` | "something I wish every page did" is the writer's reading of his view; his to keep or drop. |
+| `150/06-roles-as-a-cast-you-can-read.md:23` | "The conductor's rule I would copy" is the writer's reading of his view; his to keep or drop. |
 | `150/07-hour-three-the-five-steps.md:101` | "I do not regret the freeze" and the reason given for it are the writer's reading of his view; his to keep or drop. |
 | `150/08-hours-four-and-five-before-dawn.md:71` | "I am not going to tell you either: it does not matter" is the writer's; his to keep or drop. The thirty says only "The record does not say where I went." |
+| `150/09-nine-hours-with-nobody-starting-work.md:161` | "the part of the record I find hardest to believe, and easiest to check" is kept from the 70-page edition's chapter 7, where it is flagged as the writer's reading of his view; his to keep or drop. |
+| `150/10-talking-through-git.md:24` | "the part I did not expect" is the writer's reading; his to keep or drop. |
+| `150/10-talking-through-git.md:49` | "the clearest worked example the record has" is the writer's reading; his to keep or drop. |
+| `150/10-talking-through-git.md:82` | "the one I would copy first" is the writer's reading; his to keep or drop. |
 | `150/90-the-tour-at-length.md:69` | "Nobody tidied it." is the writer's reading; his to keep or drop. |
 | `150/90-the-tour-at-length.md:82` | "This is the page I would show anyone who doubts" is the writer's reading of his view; his to keep or drop. |
 | `150/90-the-tour-at-length.md:99` | "What I like about it" is the writer's reading; his to keep or drop. |

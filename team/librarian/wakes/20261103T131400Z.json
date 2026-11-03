@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, every hour at :09 London (ACC1)",
+ "started": "2026-11-03T13:14:00Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (the reviewer agent; tools seen: Bash, Read, Grep, Glob, hand-back)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Request first (writer 095, check the four fixes); then the 150's new 09 and 10 and every revision since 77f50d21, including 150/04 and 05, checked in lane.",
+   "at": "2026-11-03T13:14:41Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (the reviewer agent; same tools)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; talk repo only read; nothing to Cold-Read; anything on vaults kept to the name, no path, id or key; vault_check before commit.",
+   "at": "2026-11-03T13:14:41Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Writer 095 taken, its four fixes in; the 150's 09 and 10 and the changes since 77f50d21 checked: sources clean, every trailer word for word, prose times hold; two small notes to the writer (014, copy 031); index/rc2 and index/chapters updated, readings fifty-six.",
+   "at": "2026-11-03T13:18:25Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (the reviewer agent; tools seen: Bash, Read, Grep, Glob, hand-back)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "All writes in scope; vaults by name only; no model name or session id copied; no em-dash or religious word; letter 014's times and 10's trailers hold.",
+   "at": "2026-11-03T13:18:25Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (the reviewer agent; same tools)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Every planned item present, nothing beyond the plan.",
+   "at": "2026-11-03T13:18:25Z"
+  }
+ },
+ "closed": "2026-11-03T13:18:26Z",
+ "outcome": "ok"
+}

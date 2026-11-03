@@ -29,7 +29,9 @@ One file per chapter of the manuscript, built by `index/tools/chapter_entries.py
 | [`150__05-hour-two-the-rules-written.md`](150__05-hour-two-the-rules-written.md) | 1 | 0 | 3 | 0 | 10 | 0 |
 | [`150__06-roles-as-a-cast-you-can-read.md`](150__06-roles-as-a-cast-you-can-read.md) | 1 | 0 | 6 | 0 | 0 | 0 |
 | [`150__07-hour-three-the-five-steps.md`](150__07-hour-three-the-five-steps.md) | 5 | 0 | 4 | 0 | 12 | 0 |
-| [`150__08-hours-four-and-five-before-dawn.md`](150__08-hours-four-and-five-before-dawn.md) | 4 | 0 | 8 | 0 | 14 | 0 |
+| [`150__08-hours-four-and-five-before-dawn.md`](150__08-hours-four-and-five-before-dawn.md) | 4 | 0 | 8 | 0 | 13 | 0 |
+| [`150__09-nine-hours-with-nobody-starting-work.md`](150__09-nine-hours-with-nobody-starting-work.md) | 1 | 0 | 6 | 0 | 37 | 0 |
+| [`150__10-talking-through-git.md`](150__10-talking-through-git.md) | 2 | 1 | 6 | 0 | 6 | 0 |
 | [`150__90-the-tour-at-length.md`](150__90-the-tour-at-length.md) | 0 | 0 | 9 | 0 | 1 | 0 |
 | [`01-the-creators-problem.md`](01-the-creators-problem.md) | 0 | 0 | 7 | 1 | 2 | 0 |
 | [`02-the-factory-is-assembled.md`](02-the-factory-is-assembled.md) | 2 | 0 | 7 | 0 | 12 | 0 |
@@ -43,7 +45,7 @@ One file per chapter of the manuscript, built by `index/tools/chapter_entries.py
 | [`03-one-account-one-project-one-conductor.md`](03-one-account-one-project-one-conductor.md) | 5 | 0 | 5 | 0 | 3 | 0 |
 | [`04-roles-as-a-cast-you-can-read.md`](04-roles-as-a-cast-you-can-read.md) | 0 | 0 | 4 | 0 | 0 | 0 |
 | [`05-the-clock-and-one-wake.md`](05-the-clock-and-one-wake.md) | 2 | 0 | 5 | 0 | 4 | 0 |
-| [`06-talking-through-git.md`](06-talking-through-git.md) | 3 | 1 | 4 | 0 | 4 | 0 |
+| [`06-talking-through-git.md`](06-talking-through-git.md) | 2 | 1 | 4 | 0 | 4 | 0 |
 | [`07-the-rhythm.md`](07-the-rhythm.md) | 3 | 0 | 3 | 0 | 5 | 0 |
 | [`08-the-plumbing.md`](08-the-plumbing.md) | 7 | 0 | 3 | 0 | 1 | 0 |
 | [`09-the-loop-and-the-port.md`](09-the-loop-and-the-port.md) | 0 | 0 | 5 | 0 | 12 | 0 |
