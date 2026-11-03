@@ -31,8 +31,15 @@
    "verdict": "as-planned",
    "comment": "Both items in 9ec9b79d, security conditions held; the inline %% leak fix and chapter 17's QR target unplanned but justified. Noted: the 131 QR count in REALITY and board 007 is dated to its wake (now 132, it grows with the draft); the debrief's commits field follows the team's usual wording.",
    "at": "2026-11-03T07:18:04Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (post_review brief)",
+   "model": "",
+   "verdict": "finding",
+   "comment": "In scope, no %% text in the JSON or pages, no secrets, contacts, em-dashes, religious words or network calls. Finding: two other-host addresses (claude.com/pricing, lovable.dev/pricing) appear as plain-text citations in claim C101's register value; they are not links and were already on the pages, but the guard only checks url fields. Carried to board 007 for the next wake.",
+   "at": "2026-11-03T07:18:40Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T07:18:40Z",
+ "outcome": "ok"
 }
