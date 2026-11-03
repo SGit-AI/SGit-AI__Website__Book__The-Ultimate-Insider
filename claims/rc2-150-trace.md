@@ -230,6 +230,28 @@ Traced on 3 November 2026 at the 18:32 wake, at the writer's letter 122, against
 | 19 | "a second reading, not a second identity", in chapter 7 | holds | `c8f6f8f`, the conductor's debrief of 02:19 |
 | 19 | The valve: the hand-off the only thing that crossed | holds | `team/conductor/handoffs/2026-10-30__cold-read/README.md`; this book's `CLAUDE.md` |
 
+## Chapter 20, and 18's two lines (the 19:32 wake)
+
+Traced on 3 November 2026 at the 19:32 wake, at the writer's letter 127, against C089, this book's own handover for the storyteller and the talk's record at `298be4e`.
+
+**In short:** chapter 20 holds; nothing to change. Chapter 18 now carries both wordings from letter 018, with C112 in its record line.
+
+### What holds
+
+| Ch | Line | Verdict | Source |
+|---|---|---|---|
+| 18 | "six were attempts, each refused or failed, one of them only probable, and nothing acted"; "a reviewer whose tools are for reading and checking only, with no session or message tools" | holds | C112; `.claude/agents/reviewer.md` |
+| 20 | The editor's note: the hold at 18:44, never lifted that day, and silence to the merge at 23:19 | holds | C006, C024; the talk's history after 18:46 at `298be4e` holds only `b859ff0` (23:19:09, the merge) and `298be4e` (23:19:51, its release) |
+| 20 | 31 October, the paper review: the 95% "just a footnote", he could have moved to another session | holds | C089 (editor_31_October); `49c701e`, 31 October 01:48 UTC, after the day |
+| 20 | The handover's first line, "at about 11:45 UTC", committed "at a few minutes past eleven" | holds | `team/conductor/handovers/storyteller.md`, line 3, word for word; `cfcc2951`, 30 October 11:03. The heading is later than the commit, and the chapter says so |
+| 20 | Handovers in the conductor's folder because the storyteller's own is its alone | holds | the same line: "it holds `team/conductor/`; the storyteller's own folder is the storyteller's alone" |
+| 20 | "a new session makes and publishes its own ... and never copies a private half across" | holds | line 8, word for word; the ellipsis drops a path only. The session and key on that line are not printed |
+| 20 | The eight section headings; *Start here* as five steps, in order; the hourly task only when the editor says the team restarts | holds | the file's headings and its steps 1 to 5 |
+| 20 | *Where you stand*: the plan signed, the first draft reviewed against it, the findings in a letter | holds | "The plan (draft 5) is signed. RC1 was reviewed against it (21 findings, ...storyteller__003...)". The chapter prints no count |
+| 20 | *First things to do*: the conductor's letter, cuts as an open decision, the cards drafted in the storyteller's name | holds | its items 1 to 3 (letter 005; the word budgets; the 13 drafted cards). The chapter prints no count |
+| 20 | The ticks become open decisions through the conductor; nothing acted on until he signs | holds | *The companion*: "His ticks become open decisions in `book.json` through the conductor; act on none until he signs it" |
+| 20 | Two sessions of the storyteller, one superseded | holds | `team/storyteller/sessions/` (two folders; the first `SESSION.json` "superseded") |
+
 ## Where this came from
 
-`manuscript/rc2/150/01` to `19` and `90`, each as on dev at the wake that traced it (3 November 2026, from 09:32 to 18:32); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).
+`manuscript/rc2/150/01` to `20` and `90`, each as on dev at the wake that traced it (3 November 2026, from 09:32 to 19:32); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).

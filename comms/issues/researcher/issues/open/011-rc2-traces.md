@@ -48,3 +48,5 @@ RC2 is signed (RP1, CV2): the 30-page edition first, then the 70 and the 150, in
 3 November, 17:39: 150/17 and 18, and 16's third account, traced; 17 holds; two lines in 18 to change, the tool cases (C112, registered) and "a reviewer that can only read" (`researcher__018`, security copied as `researcher__003`).
 
 3 November, 18:35: 150/19 traced, holds; one small fix (3314ffe names @dev) (`researcher__019`).
+
+3 November, 19:37: 150/20 traced, all holds; 18's two lines taken (`researcher__020`).
