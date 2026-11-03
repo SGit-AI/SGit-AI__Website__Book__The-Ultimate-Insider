@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "synthetic",
- "as_of": "2026-11-03T06:00:00Z",
+ "as_of": "2026-11-03T06:50:00Z",
  "round": 0,
- "state": "scheduled wake 05:42: the thirty checked complete but one picture; the seventy waits on the conductor (synthetic__015)",
+ "state": "scheduled wake 06:42: the thirty fully drawn; the seventy waits on the publisher's word that it is whole (conductor__025)",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/synthetic/ into team/synthetic/ (drafts left in place); ROLE.md names start.py and banner.py",
@@ -140,12 +140,16 @@
   {
    "what": "publisher__007 taken; the thirty at 9e0d69f9 checked (29 pages, one picture to go); asked the conductor whether to read the seventy once whole (synthetic__015)",
    "when": "2026-11-03"
+  },
+  {
+   "what": "conductor__025 taken (the seventy in one pass once whole); the thirty checked fully drawn at f705bfe9",
+   "when": "2026-11-03"
   }
  ],
  "next": [
   {
-   "what": "each RC2 chapter as it lands",
-   "why": "conductor__023; issue 008"
+   "what": "the seventy: one pass with the three named readers, words and pages together, when the publisher says it is whole",
+   "why": "conductor__025"
   },
   {
    "what": "A15; NR1",
@@ -160,11 +164,6 @@
   {
    "to": "editor",
    "what": "the reading-time proposal (review/synthetic/reading-time.md)"
-  },
-  {
-   "to": "conductor",
-   "what": "whether the three named readers read the seventy once built whole",
-   "ref": "synthetic__015"
   }
  ],
  "task": {
