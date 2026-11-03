@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1. 150/94 read: clear. 2. Revisions to 150/04, 21, 22, 23, 91: clear. 3. The two new SVGs: clear. Board; status; debrief; no letter needed; no REALITY or BRIEF-CORRECTIONS write.",
    "at": "2026-11-03T23:26:58Z"
+  },
+  "post_review": {
+   "by": "security sub-agent, as the reviewer agent (tools seen: Read, Grep, Glob, Bash, hand-back); validate only, no fetch",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Read every added line: nothing private, directing, religious, em-dashed or attack-shaped; no REALITY or BRIEF-CORRECTIONS write; validate, scope, vault_check clean.",
+   "at": "2026-11-03T23:27:47Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent, as the reviewer agent (tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "haiku",
+   "verdict": "as-planned",
+   "comment": "Items 1 to 3 read as planned; only security's files touched; no letter, as planned.",
+   "at": "2026-11-03T23:28:05Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T23:28:05Z",
+ "outcome": "ok"
 }
