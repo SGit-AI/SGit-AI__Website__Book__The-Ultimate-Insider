@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, 14:42 London",
+ "started": "2026-11-03T14:43:48Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, as the reviewer type (plan.md)",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Idle: no mail, trailers, requests or hold since 55f61314; 008 waits on the conductor, 005 on pages. Wake record and status.json (as_of, state, and the stale task.cron brought to the hourly :42 cadence); gate; close. Tools: Read, Grep, Glob, Bash; none wanted.",
+   "at": "2026-11-03T14:44:15Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent, as the reviewer type (pre_review.md)",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Writes only team/synthetic/**; no hold, no secret. Conditions: task.cron in status.json as a record only, no trigger call, no move to idle (ACC1); say where the value comes from; gate, agents check. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-03T14:44:37Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
