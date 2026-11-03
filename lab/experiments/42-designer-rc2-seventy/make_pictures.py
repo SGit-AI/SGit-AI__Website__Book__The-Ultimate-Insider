@@ -39,6 +39,8 @@
   it carries, the words from the chapter's figure brief (checked there at build).
 - ch8-release-row.svg: one row of the release history, drawn: the day's last release (C005), the commits in it (read
   with git as those after the release before), the files they changed (names only), the page they make.
+- ch-security-card.svg: security's cast card, as this book's member (conductor__054): its figure and moods, its mission
+  verbatim from team/security/ROLE.md, and its label: the second factory's; on the talk's day an empty chair.
 No number is printed but the hold's time, ids, C029's and C087's counts and the chapters' own times. One SVG unit a millimetre, sizes stated, text 9 pt.
 """
 import json, re, subprocess, sys
@@ -524,6 +526,25 @@ def release_row(clone):
     return mc.svg(164, round(H + 6.2, 1), "".join(out), "One row of the release history, drawn: the day's last release, its commit, the files it changed, the page they make")
 
 
+def security_card():
+    import textwrap
+    role = (REPO / "team" / "security" / "ROLE.md").read_text()
+    mission = re.search(r"^- \*\*Mission:\*\* (.+)$", role, re.M).group(1).strip()
+    out = [f'<rect x=".3" y=".3" width="163.4" height="68" rx="2" fill="#fff" stroke="{mc.INK}" stroke-width=".5"/>',
+           f'<rect x=".3" y=".3" width="163.4" height="3" rx="1.5" fill="{mc.COLOUR["security"]}"/>',
+           g(mc.figure("security"), 3, 7, .9),
+           t(44, 13, "security", 800, mc.INK, size=4.6), t(44, 18.6, "this book's team, the second factory", 700, mc.COLOUR["security"])]
+    for j, r in enumerate(textwrap.wrap(mission, 56)):
+        out.append(t(44, 25.4 + j * 4.1, r, 400))
+    for k, mood in enumerate(mc.MOODS):
+        out.append(g(mc.figure("security", mood), 44 + k * 16, 39, .26) + t(44 + k * 16 + 5.2, 56.4, mood, 400, mc.MUTED, "middle"))
+    # on the talk's day: the empty chair
+    out.append(g(mc.line(4, 2, 4, 18, mc.FILL2, .9) + mc.line(4, 11, 14, 11, mc.FILL2, .9) + mc.line(14, 11, 14, 18, mc.FILL2, .9) + mc.line(4, 2, 7, 2, mc.FILL2, .9), 112, 39, .7)
+               + t(125, 45, "on the day of", 400, mc.MUTED) + t(125, 49.1, "the talk:", 400, mc.MUTED) + t(125, 53.2, "an empty chair", 700, mc.MUTED))
+    out.append(t(4, 65, "a proposal: its look follows the storyteller's cast guide entry when it lands", 400, mc.MUTED))
+    return mc.svg(164, 69, "".join(out), "Security's cast card, as this book's member: its figure and moods, its mission; on the talk's day an empty chair")
+
+
 FLOORS = [("the talk", ("src/static/talk/",)),
           ("the workshop of animations", ("src/static/ruv-sgit/", "src/pages/ruv-sgit/", "src/static/motion/", "src/pages/motion/")),
           ("the studio", ("src/pages/studio/", "src/static/studio/", "src/static/studio-ports/", "src/pages/studio-ports/")),
@@ -660,7 +681,8 @@ if __name__ == "__main__":
              "ch7-wakes-card.svg": wakes_card(), "ch3-team-pattern.svg": team_pattern(), "ch3-first-rules.svg": first_rules(), "ch11-five-misses.svg": five_misses(),
              "ch3-first-two-hours.svg": first_two_hours(clone),
              "ch8-check-card.svg": check_card(), "ch8-two-companions.svg": two_companions(),
-             "ch8-plumbing.svg": plumbing(), "ch8-release-row.svg": release_row(clone)}
+             "ch8-plumbing.svg": plumbing(), "ch8-release-row.svg": release_row(clone),
+             "ch-security-card.svg": security_card()}
     if (R70 / "15-principles.md").exists():
         files["ch15-six-principles.svg"] = six_principles()
     else:  # chapter 15 was folded into 16 and removed: the drawing stays as last built from it, not rebuilt

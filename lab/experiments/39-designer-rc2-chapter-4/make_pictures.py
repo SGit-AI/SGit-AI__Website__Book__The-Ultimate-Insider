@@ -155,7 +155,7 @@ def speech_cards(clone):
 
 def book_team_figures():
     out = []
-    for i, m in enumerate(mc.BOOK_TEAM):
+    for i, m in enumerate(["librarian", "historian", "publisher", "writer"]):  # chapter 5's four speakers, as first drawn
         x = i * 41
         out.append(f'<g transform="translate({x + 6} 0) scale(.7)">{mc.figure(m)}</g>' + t(x + 20, 39.4, m, 700, anchor="middle")
                    + t(x + 20, 43.8, mc.BOOK_TEAM[m][2], 400, mc.MUTED, "middle"))

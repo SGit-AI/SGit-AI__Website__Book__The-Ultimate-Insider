@@ -37,6 +37,9 @@ BOOK_TEAM = {
     "historian": ("#8f3b3b", "a mortarboard, an hourglass",           "the day in order"),
     "publisher": ("#56657a", "a printer's eyeshade, a bound book",     "every format"),
     "writer":    ("#d4704f", "a quill",                               "the editions' prose"),
+    # security, as this book's member (conductor__054, at the editor's word): a proposal until the storyteller's cast
+    # guide entry lands. On the talk's day it stays an empty chair (cast guide rule 5): never in the on-stage marker.
+    "security":  ("#1d3a6e", "a guard's peaked cap, a closed padlock", "every control listed with evidence of it firing"),
 }
 COLOUR = {m: v[0] for m, v in {**CAST, **BOOK_TEAM}.items()}
 MOODS = ("happy", "worried", "stressed", "unhappy")
@@ -102,6 +105,8 @@ def headgear(member, col):
                      + f'<circle cx="27.4" cy="13.2" r=".7" fill="{ACCENT}"/>',
         "publisher": path("M9.6 12 Q20 6.6 30.4 12 L32.6 14.2 Q20 9.8 7.4 14.2 z", col, INK, .5),
         "writer": "",
+        "security": path("M11.2 11 a8.8 6 0 0 1 17.6 0 z", col, INK, .5) + path("M9.6 11 h20.8 l-1.6 2.2 h-17.6 z", INK, INK, .4)
+                    + f'<circle cx="20" cy="7.6" r="1" fill="#e3c36b" stroke="{INK}" stroke-width=".3"/>',
     }[member]
 
 
@@ -153,6 +158,9 @@ def prop(member, col):
                      + line(32.4, 28.4, 32.4, 37.4, INK, .4) + f'<rect x="34" y="30.6" width="3.2" height="1.4" fill="{PAPER}"/>'
                      + path("M36.4 37.4 v2 l.7 -.6 l.7 .6 v-2", ACCENT, "none", 0),
         "writer": path("M32 34 C34 30 36.6 25.6 39.4 23.2 C38.8 27.2 36.4 31 32.6 34.4 z", PAPER, INK, .45) + line(32, 34.6, 37.6, 26.6, INK, .35),
+        "security": path("M33.2 30.4 v-2.4 a2.4 2.4 0 0 1 4.8 0 v2.4", "none", INK, .7)
+                    + f'<rect x="32" y="30.2" width="7.2" height="6" rx=".8" fill="#e3c36b" stroke="{INK}" stroke-width=".5"/>'
+                    + f'<circle cx="35.6" cy="32.8" r=".7" fill="{INK}"/>' + line(35.6, 33.2, 35.6, 34.6, INK, .5),
         "studio": path("M32 34 q4 4 6.4 1 q2 -2.6 -.6 -4.6", "none", INK, .5)
                   + f'<rect x="36" y="28.2" width="3.2" height="2.6" rx=".5" fill="{col}" stroke="{INK}" stroke-width=".4"/>'
                   + line(36.8, 28.2, 36.8, 26.8, INK, .4) + line(38.4, 28.2, 38.4, 26.8, INK, .4),

@@ -120,6 +120,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - LAB 42 adds the seventy's chapter 3 first two hours as a stack (four commits read at 298be4e). Two lines given to ruv-sgit at its offer (the ask drawn to the clock, the wake record as a page). 30 of the seventy's 54 slots drawn, 15 the designer's to go. Lab PDF 138 pages.
 - LAB 42 adds the seventy's chapter 8 cards: what the check looked at that first night, and the brief's two companions (words parsed from the Figure lines). 32 of the seventy's 54 slots drawn, 13 the designer's to go. Lab PDF 139 pages.
 - LAB 42 adds the seventy's chapter 8 plumbing (four pipes into the factory floor) and one row of the release history (the day's last release, C005, its commit and files read with git). 34 of the seventy's 54 slots drawn, 11 the designer's to go. Lab PDF 140 pages.
+- Security drawn as this book's member (at the editor's word, conductor__054): four moods in `lab/characters/cast/security-<mood>.svg` and in speakers.css, and its cast card in LAB 42, labelled the second factory's; a proposal until the storyteller's cast guide entry lands. The talk's on-stage marker keeps security's empty chair. Lab PDF 141 pages.
 
 ## The PDF lab, ruv.sgit's runs (ruv.sgit@book.the-ultimate-insider)
 
