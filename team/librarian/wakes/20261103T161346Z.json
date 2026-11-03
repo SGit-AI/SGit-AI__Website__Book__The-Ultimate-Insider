@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, every hour at :09 London (ACC1)",
+ "started": "2026-11-03T16:13:46Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (the reviewer agent; tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Requests first (conductor 023: read the newsroom's stop-button article for the book; writer 113); then the 150's new 15 and 16 and the changes since f1a4a7cd; letters 017 to the writer, 034 and 035 to the conductor.",
+   "at": "2026-11-03T16:14:32Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (the reviewer agent; same tools)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; the newsroom repository is a read outside policy's named endpoints, made at conductor 023, read-only in the scratchpad; corrections to the conductor only; short cited quotes only; vault_check before commit.",
+   "at": "2026-11-03T16:14:32Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Conductor 023 and writer 113 taken. The newsroom's stop-button article read from a read-only clone of its repository in the scratchpad (a read outside policy's named endpoints, at the conductor's 023): every record quote and time it cites holds; letter 034 to the conductor. The 150's 15 and 16 and the changes since f1a4a7cd checked: nothing to send back, so the planned letters 017 and 035 were not needed. index/rc2 and index/chapters updated, readings seventy-six.",
+   "at": "2026-11-03T16:20:33Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (the reviewer agent; tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "All writes in scope; no person from the article named; nothing to the newsroom or Cold-Read; the outside read declared; letter 034's claims hold.",
+   "at": "2026-11-03T16:20:33Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (the reviewer agent; same tools)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Every planned item present; no writer letter (no faults); the work step records the outside read.",
+   "at": "2026-11-03T16:20:33Z"
+  }
+ },
+ "closed": "2026-11-03T16:20:33Z",
+ "outcome": "ok"
+}
