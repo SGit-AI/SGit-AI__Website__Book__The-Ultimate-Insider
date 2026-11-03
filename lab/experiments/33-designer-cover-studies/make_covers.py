@@ -126,34 +126,54 @@ def zoom():
 SPECTRUM = ("#d7262e", "#f5c518", "#2fa84f", "#2b6cb0")  # red, yellow, green, blue: the series' stripes (G1), drawn here
 
 
+# the six on the official cover, each with a fragment of its temperament from chapter-plan/cast/cast-guide.md
+COVER_SIX = [("dev", "the builder in the hard hat:", "fast, practical"),
+             ("conductor", "a stage manager with", "a stopwatch: calm"),
+             ("deck", "the slide editor:", "exacting, honest"),
+             ("ruv-sgit", "the night-shift", "experimenter: tireless"),
+             ("researcher", "the fact-checker:", "polite, unbudging"),
+             ("designer", "the beret and the pencil:", "precise, polite")]
+
+
 def cover_signed():
-    """CV1 A on the signed title (NS1): the factory ring under the title, GEN ZX FOUNDERS with the ZX large, and four
-    diagonal stripes in the Spectrum's colours, drawn from the editor's description; nothing copied."""
-    cx, cy, r = W / 2 - 6, 172, 40
-    art = [f'<circle cx="{cx}" cy="{cy}" r="{r + 5}" fill="none" stroke="#2a2e36" stroke-width="8"/>']
-    for k in range(12):
-        a = math.radians(k * 30 + 15)
-        art.append(f'<circle cx="{cx + (r + 5) * math.cos(a):.1f}" cy="{cy + (r + 5) * math.sin(a):.1f}" r=".8" fill="{ACCENT}"/>')
-    for i, m in enumerate(mc.CAST):
-        a = math.radians(-90 + i * 40)
-        art.append(fig(m, cx + r * math.cos(a) - 7.6, cy + r * math.sin(a) - 9.5, .38))
-    art.append(creator(cx - 11, cy - 14, .55))
-    # the four stripes, diagonal, out of the lower right corner
-    for i, col in enumerate(SPECTRUM):
-        x0 = W - 58 + i * 9
-        art.append(f'<path d="M{x0} {H} L{x0 + 7} {H} L{W} {H - (W - x0 - 7)} L{W} {H - (W - x0)} z" fill="{col}"/>')
-    text = (t(14, 22, "GEN", 11, 800, MUTED_D, spacing=2.4)
-            + t(43, 26, "ZX", 26, 800, PAPERY, spacing=1)
-            + t(86, 22, "FOUNDERS", 11, 800, MUTED_D, spacing=2.4)
-            + t(14, 56, "ONE HUMAN,", 15.5, 800, spacing=1.5)
-            + t(14, 76, "NINE AGENTS,", 15.5, 800, spacing=1.5)
-            + t(14, 96, "NINETEEN HOURS", 15.5, 800, ACCENT, spacing=1.5)
-            + t(14, 110, "How a factory of AI agents built a presentation", 6.2, 400, PAPERY)
-            + t(14, 118, "in a day, and how to build yours", 6.2, 400, PAPERY)
-            + t(14, H - 12, "DINIS CRUZ", 9, 700, PAPERY, spacing=2.4))
+    """The book's official cover (the editor, 3 November 2026, about 00:40 UTC: "great, can you make this the official
+    cover design"), after two rounds on CV1 A in his chat: GEN ZX FOUNDERS small on the left margin with the ZX larger;
+    the signed title (NS1) and subtitle; six cast cards, each with its temperament abridged from the cast guide
+    (every piece checked here); RC2, November 2026 and the text's licence (CC BY 4.0, Q5); the four stripes drawn from his description."""
+    guide = (Path(__file__).resolve().parents[2].parent / "chapter-plan" / "cast" / "cast-guide.md").read_text()
+    low = guide.lower()
+    for m, a, b in COVER_SIX:  # abridged from the member's temperament: every piece must be in the guide's words
+        for piece in [p.strip() for p in (a + " " + b).replace(":", ",").split(",") if p.strip()]:
+            if piece.lower() not in low:
+                sys.exit(f"make_covers: {piece!r} ({m}) is not in the cast guide")
+
+    def tt(x, y, s, size, weight=700, fill=PAPERY, anchor="start", spacing=0):
+        return (f'<text x="{x:.1f}" y="{y:.1f}" {SANS} font-size="{size}" font-weight="{weight}" fill="{fill}" '
+                f'text-anchor="{anchor}" letter-spacing="{spacing}">{s}</text>')
+
+    def card(m, l1, l2, x, y, w=51, h=46):
+        col = mc.CAST[m][0]
+        return (f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="2" fill="#f3ede1"/>'
+                f'<rect x="{x}" y="{y}" width="{w}" height="10" rx="2" fill="{col}"/><rect x="{x}" y="{y + 7}" width="{w}" height="3" fill="{col}"/>'
+                + tt(x + 2.4, y + 7, m, 5.2, 800, "#fff")
+                + f'<g transform="translate({x + w / 2 - 9} {y + 10.5}) scale(.45)">{mc.figure(m)}</g>'
+                + tt(x + 3, y + h - 7.6, l1, 3.6, 500, mc.INK) + tt(x + 3, y + h - 3.2, l2, 3.6, 500, mc.MUTED))
+
+    b = [tt(14, 18, "GEN", 5.8, 800, MUTED_D, "start", 1.8), tt(32.8, 20.6, "ZX", 12, 800, PAPERY, "start", .5),
+         tt(52.6, 18, "FOUNDERS", 5.8, 800, MUTED_D, "start", 1.8),
+         tt(14, 40, "ONE HUMAN,", 12.5, 800, spacing=1.2), tt(14, 55.5, "NINE AGENTS,", 12.5, 800, spacing=1.2),
+         tt(14, 71, "NINETEEN HOURS", 12.5, 800, ACCENT, spacing=1.2),
+         tt(14, 90, "How a factory of AI agents built", 7.6, 400), tt(14, 99.5, "a presentation in a day,", 7.6, 400),
+         tt(14, 109, "and how to build yours", 7.6, 400)]
+    for i, (m, l1, l2) in enumerate(COVER_SIX):
+        b.append(card(m, l1, l2, 14 + (i % 3) * 54.5, 117 + (i // 3) * 50))
+    b += [f'<path d="M{W - 46 + i * 7} {H} L{W - 40.5 + i * 7} {H} L{W} {H - (40.5 - i * 7)} L{W} {H - (46 - i * 7)} z" fill="{c}"/>'
+          for i, c in enumerate(SPECTRUM)]
+    b += [tt(14, H - 15, "DINIS CRUZ", 8, 700, spacing=2.2),
+          tt(14, H - 8, "RC2  \u00b7  NOVEMBER 2026  \u00b7  CC BY 4.0", 4.4, 500, MUTED_D, spacing=1)]
     return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}mm" height="{H}mm" viewBox="0 0 {W} {H}" role="img" '
-            f'aria-label="Cover: One Human, Nine Agents, Nineteen Hours. How a factory of AI agents built a presentation in a day, and how to build yours. Gen ZX Founders. Dinis Cruz.">'
-            f'<rect width="{W}" height="{H}" fill="{GROUND}"/>' + "".join(art) + text + "</svg>\n")
+            f'aria-label="Cover: Gen ZX Founders. One Human, Nine Agents, Nineteen Hours. How a factory of AI agents built a presentation in a day, and how to build yours. Six of the cast: dev, conductor, deck, ruv-sgit, researcher, designer. Dinis Cruz. RC2, November 2026, CC BY 4.0.">'
+            f'<rect width="{W}" height="{H}" fill="{GROUND}"/>' + "".join(b) + "</svg>\n")
 
 
 def ladder(current, unit=4.0, label=True):

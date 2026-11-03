@@ -16,3 +16,5 @@ The editor's PS1: the book is about a creator given a factory of agents; the tal
 2 November 2026, 09:40: CV2, six covers on the signed title (LAB 34, my pick A, E second); the 10-page edition's two figures that are mine drawn (`designer__074`).
 
 2 November 2026, 16:50: CV2 signed, cover A the book's cover; marked on LAB 33 and LAB 34.
+
+3 November 2026, 01:05: the official cover, at the editor's word in the designer's chat, in place at cover-a-signed.svg (`designer__093`, `094`).
