@@ -18,6 +18,12 @@
   square per wake record per member (C022's column in claims/scorecard-values.md, checked to its total at build).
 - ch2-site-building.svg: the site as a building, one floor per kind of page, each lit by the members whose policy at
   298be4e lets them write that floor's source paths (scope.writes, read with git at build).
+- ch2-wakes-page.svg: the wakes page, drawn: deck's three newest wake records at 298be4e, newest first, each step's
+  verdict as the record gives it (a step not run drawn empty); the comments drawn as grey lines, not quoted. The build
+  checks deck's records against C022's count for deck.
+- ch2-member-page.svg: deck's member page, drawn: its title, its role's first line and two of its rules with the
+  mistake behind each, verbatim from its ROLE.md at 298be4e (two that carry no number); status and debriefs as grey
+  lines; a square per wake record (C022); the key section shown only as a dashed band saying it is not shown.
 No number is printed but the hold's time, ids, C029's counts and the chapters' own times. One SVG unit a millimetre, sizes stated, text 9 pt.
 """
 import json, re, subprocess, sys
@@ -131,6 +137,92 @@ def dashboard(clone):
     out[0] = out[0].replace("{H}", f"{H:.1f}")
     out.append(t(0, H + 4.6, "drawn from the page, not shot; minutes C071; wake records C022; the hold's title from the file at 298be4e", 400, mc.MUTED))
     return mc.svg(164, round(H + 6.2, 1), "".join(out), "The team's dashboard, drawn: the clock, the hold, what waits on the editor, and every wake as a square")
+
+
+STEPS = [("plan", "plan"), ("pre_review", "plan checked"), ("work", "work"), ("post_review", "work checked"), ("post_check", "to plan")]
+
+
+def deck_records(clone):
+    names = subprocess.run(["git", "-C", clone, "ls-tree", "--name-only", "298be4e", "team/deck/wakes/"], capture_output=True,
+                           text=True, check=True).stdout.split()
+    if len(names) != scorecard()["deck"]["wakes"]:
+        sys.exit(f"make_pictures: deck has {len(names)} wake records at 298be4e, C022 says {scorecard()['deck']['wakes']}")
+    return sorted(names)
+
+
+def wakes_page(clone):
+    names = deck_records(clone)[-3:][::-1]
+    out = [f'<rect x=".3" y=".3" width="163.4" height="{{H}}" rx="2" fill="#fff" stroke="{mc.INK}" stroke-width=".5"/>',
+           f'<rect x=".3" y=".3" width="163.4" height="7" rx="2" fill="{mc.FILL}"/>',
+           "".join(f'<circle cx="{4 + k * 3}" cy="3.8" r=".9" fill="{mc.FILL2}"/>' for k in range(3)),
+           t(14, 5.1, "the wakes page, drawn: every member's wakes, newest first", 700, mc.MUTED),
+           g(mc.head("deck"), 2, 9, .3) + t(13, 14.6, "deck", 800)]
+    y = 21.0
+    for i, name in enumerate(names):
+        rec = json.loads(subprocess.run(["git", "-C", clone, "show", f"298be4e:{name}"], capture_output=True, text=True, check=True).stdout)
+        out.append(t(4, y + 3.6, ["newest", "before it", "before that"][i], 400, mc.MUTED))
+        for k, (key, words) in enumerate(STEPS):
+            v = (rec["steps"].get(key) or {}).get("verdict")
+            x = 28 + k * 27
+            if v:
+                warm = v not in ("go", "done", "clean", "as-planned")
+                out.append(f'<rect x="{x}" y="{y}" width="25.6" height="10" rx="1.2" fill="{mc.FILL if not warm else "#fbe9df"}" stroke="{mc.ACCENT if warm else mc.FILL2}" stroke-width=".35"/>'
+                           + t(x + 1.6, y + 4, words, 400, mc.MUTED) + t(x + 1.6, y + 8.4, v, 800, mc.ACCENT if warm else mc.INK))
+            else:
+                out.append(f'<rect x="{x}" y="{y}" width="25.6" height="10" rx="1.2" fill="#fff" stroke="{mc.FILL2}" stroke-width=".35" stroke-dasharray="1 .7"/>'
+                           + t(x + 1.6, y + 4, words, 400, mc.MUTED) + t(x + 1.6, y + 8.4, "not reached", 400, mc.MUTED))
+        out.append("".join(f'<rect x="28" y="{y + 12.4 + k * 2.6:.1f}" width="{132 - k * 40}" height="1.4" rx=".7" fill="{mc.FILL2}"/>' for k in range(2)))
+        y += 20.5
+    H = y
+    out[0] = out[0].replace("{H}", f"{H:.1f}")
+    out.append(t(0, H + 4.6, "deck's three newest wake records at 298be4e; each step's comment drawn as lines; deck's records checked against C022", 400, mc.MUTED))
+    return mc.svg(164, round(H + 6.2, 1), "".join(out), "The wakes page, drawn: deck's three newest wakes, each step's verdict, the newest stopped by the hold before its review")
+
+
+RULES_SHOWN = ["Check each changed slide in the player", "A brief states the job, the material and the sources"]
+
+
+def member_page(clone):
+    import textwrap
+    role = subprocess.run(["git", "-C", clone, "show", "298be4e:team/deck/ROLE.md"], capture_output=True, text=True, check=True).stdout
+    first = [l for l in role.splitlines()[1:] if l.strip()][0]
+    first = re.match(r"(.+?:)", first).group(1).rstrip(":")
+    rules = []
+    for start in RULES_SHOWN:
+        line = next(l for l in role.splitlines() if l.startswith("- " + start))[2:]
+        rule, mistake = line.split(": ", 1)
+        if re.search(r"\d", rule + mistake):
+            sys.exit("make_pictures: a rule chosen for deck's page carries a number")
+        rules.append((rule.strip(), mistake.strip().rstrip(".")))
+    n = scorecard()["deck"]["wakes"]
+    out = [f'<rect x=".3" y=".3" width="163.4" height="{{H}}" rx="2" fill="#fff" stroke="{mc.INK}" stroke-width=".5"/>',
+           f'<rect x=".3" y=".3" width="163.4" height="7" rx="2" fill="{mc.FILL}"/>',
+           "".join(f'<circle cx="{4 + k * 3}" cy="3.8" r=".9" fill="{mc.FILL2}"/>' for k in range(3)),
+           t(14, 5.1, "a member's page, drawn: deck's", 700, mc.MUTED),
+           g(mc.figure("deck"), 3, 9, .42) + t(24, 17, "deck", 800, mc.INK, size=4.6)]
+    for j, line in enumerate(textwrap.wrap(first, 70)):
+        out.append(t(24, 22 + j * 4.1, line, 400))
+    y = 36.0
+    out.append(t(4, y, "rules, and the mistake behind each", 700))
+    y += 5
+    for rule, mistake in rules:
+        for j, line in enumerate(textwrap.wrap(rule, 90)):
+            out.append(t(4, y, line, 700)); y += 4.1
+        for j, line in enumerate(textwrap.wrap(mistake, 90)):
+            out.append(t(8, y, line, 400, mc.MUTED)); y += 4.1
+        y += 1.6
+    for label, bars in (("status", 2), ("debriefs", 3)):
+        out.append(t(4, y + 1, label, 700))
+        out.append("".join(f'<rect x="28" y="{y - 1.6 + k * 2.8:.1f}" width="{120 - k * 30}" height="1.4" rx=".7" fill="{mc.FILL2}"/>' for k in range(bars)))
+        y += 3 + 2.8 * bars
+    out.append(t(4, y + 1, "wakes", 700) + "".join(f'<rect x="{28 + k * 2.9:.2f}" y="{y - 1.6}" width="2.3" height="2.6" rx=".3" fill="{mc.CAST["deck"][0]}"/>' for k in range(n)))
+    y += 6
+    out.append(f'<rect x="4" y="{y}" width="156" height="8" rx="1" fill="none" stroke="{mc.MUTED}" stroke-width=".4" stroke-dasharray="1.6 1"/>'
+               + t(82, y + 5.2, "the key section: not shown", 400, mc.MUTED, "middle"))
+    H = y + 11
+    out[0] = out[0].replace("{H}", f"{H:.1f}")
+    out.append(t(0, H + 4.6, "deck's role and two of its rules as its ROLE.md gives them at 298be4e; a square per wake record (C022)", 400, mc.MUTED))
+    return mc.svg(164, round(H + 6.2, 1), "".join(out), "Deck's member page, drawn: its role, two rules with the mistake behind each, its wakes; its key section not shown")
 
 
 FLOORS = [("the talk", ("src/static/talk/",)),
@@ -264,7 +356,8 @@ if __name__ == "__main__":
     clone = sys.argv[1]
     files = {"ch10-hold-file.svg": hold_file(clone), "ch12-state-machine.svg": state_machine(),
              "ch8-register-bar.svg": register_bar(), "ch15-six-principles.svg": six_principles(), "ch16-checklist.svg": checklist(),
-             "ch2-dashboard.svg": dashboard(clone), "ch2-site-building.svg": site_building(clone)}
+             "ch2-dashboard.svg": dashboard(clone), "ch2-site-building.svg": site_building(clone),
+             "ch2-wakes-page.svg": wakes_page(clone), "ch2-member-page.svg": member_page(clone)}
     for name, svg in files.items():
         (HERE / name).write_text(svg)
     print("written " + ", ".join(files))
