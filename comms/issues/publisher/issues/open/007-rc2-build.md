@@ -59,3 +59,5 @@ source: comms/mail/mailroom/publisher/conductor__026-check-taken.eml; publishing
 3 November about 18:51 UTC: the full book to chapter 20 (95 pages); the figure map now rebuilt by publishing/rc2_map.py.
 
 3 November about 19:51 UTC: the full book to chapter 21 (99 pages); the seventy 61 (chapter 9's tree, where-from, the asks card).
+
+3 November about 20:51 UTC: the full book's body complete in the build (chapters 1 to 23, 106 pages); the back matter to come. The seventy 61.

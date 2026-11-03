@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake (20:47 slot)",
+ "started": "2026-11-03T20:49:33Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; Bash read only)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Build only first; rc2_map.py brings the designer's 117; 22 and 23 after 21, before 90, the body complete; rebuild, check; letters to the designer, writer and conductor; records; gates. No HOLD.",
+   "at": "2026-11-03T20:50:02Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope; no HOLD or stop condition; the two ch12 SVGs shapes and text only, no private detail. Conditions: manuscript/rc2 and lab/ left alone; vault_check.",
+   "at": "2026-11-03T20:50:29Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Build-only start check; rc2_map.py after the gate (the designer's 117); 22 and 23 after 21; thirty 29, seventy 61, full 106, the body complete; cover size at 106 pages to conductor and designer; letters 046, 036, 027; inbox, board 007, records; vault_check and gate clean.",
+   "at": "2026-11-03T20:52:23Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Gates clean; 15 staged files in scope; nothing under rc2, lab, chapter-plan, briefs, .github or src; no key, contact, private name, dash, religious, directing or attack text.",
+   "at": "2026-11-03T20:53:15Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Plan kept item by item; conditions met; the cover-size figures in the letters are in the plan's spirit; nothing else unplanned.",
+   "at": "2026-11-03T20:53:15Z"
+  }
+ },
+ "closed": "2026-11-03T20:53:15Z",
+ "outcome": "ok"
+}
