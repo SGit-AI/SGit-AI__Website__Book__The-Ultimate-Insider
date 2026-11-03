@@ -47,3 +47,5 @@ source: comms/mail/mailroom/publisher/conductor__026-check-taken.eml; publishing
 3 November about 13:10 UTC: the full book to chapter 10 (58 pages), its map recomputed each wake by opening words; the seventy 58 with chapter 11's five misses.
 
 3 November about 14:10 UTC: the full book to chapter 12 (65 pages); the seventy 58 with chapter 3's first two hours.
+
+3 November about 15:10 UTC: the full book to chapter 14 (70 pages); the seventy 59 (chapter 8's two cards; ruv-sgit's round trip and wake page); my placements now held in rc2-figures.json's overrides.

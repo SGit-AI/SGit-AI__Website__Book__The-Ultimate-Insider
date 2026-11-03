@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake (14:47 slot)",
+ "started": "2026-11-03T14:49:52Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; Read, Grep, Glob, Bash)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Build all; the designer's 111 copied, then an inert 'overrides' key (the stills, the map slide, one wake, ruv-sgit's round trip and wake page) applied after each copy; the 150 map by exact words; 13 and 14 after 12, before 90; rebuild outside _site, check; letters, records, gates. 'overrides' is inert to build_book.py (it looks up chapter paths only).",
+   "at": "2026-11-03T14:51:03Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; Bash only)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In policy; no stop, secret or harm; the 4 SVGs drawings only, no private detail. Conditions: writes in scope only, lab/ read only, rebuild outside _site, agents check, build and validate, vault_check, dev only.",
+   "at": "2026-11-03T14:51:35Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Lists built first; the designer's 111 copied; an inert overrides key for my own placements (four applied; the map slide's line gone, dropped); the 150 map recomputed (ruv-sgit's two in 02 and 07); 13 and 14 in the list; thirty 29, seventy 59, full 70; letters 013, 030, 021; inbox, board 007, records; vault_check and gate clean.",
+   "at": "2026-11-03T14:52:57Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; Bash only, none refused)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Gate clean; 0 outside scope; vault_check clean; 16 staged paths in scope; every lab/ path exists; no key, contact, em-dash, religious, attack or directing text; 'overrides' never read as a chapter (figure_map.get by chapter path).",
+   "at": "2026-11-03T14:54:01Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Matches the plan item by item; conditions kept; the rebuild outside _site taken from the work step.",
+   "at": "2026-11-03T14:54:01Z"
+  }
+ },
+ "closed": "2026-11-03T14:54:01Z",
+ "outcome": "ok"
+}

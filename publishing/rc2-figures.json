@@ -1,5 +1,5 @@
 {
- "about": "The drawings for RC2's Figure lines, by chapter (path from manuscript/), in the order of the chapter's Figure lines; null where none is drawn yet, or where the Figure line names its own lab/ drawing. Read by build_book.py --cast --figures. From the designer's 088, 089, 091, 095, 096, 098, 099 and 100, and ruv-sgit's 044 and 045 (2 November 2026). The seventy's slots (rc2/70/...) copied from the designer's proposal lab/tools/book/rc2-70-figures.json (its 101 to 103; ruv-sgit's map slide and one wake, its 049; chapter 7's three rounds ruv-sgit's drawn copy, its 048), checked against the chapters and the lab/ rules. Chapters whose Figure lines changed (writer 074) are matched to the designer's notes by each line's opening words, a drawing kept only on an exact match.",
+ "about": "The drawings for RC2's Figure lines, by chapter (path from manuscript/), in the order of the chapter's Figure lines; null where none is drawn yet, or where the Figure line names its own lab/ drawing. Read by build_book.py --cast --figures. From the designer's 088, 089, 091, 095, 096, 098, 099 and 100, and ruv-sgit's 044 and 045 (2 November 2026). The seventy's slots (rc2/70/...) copied from the designer's proposal lab/tools/book/rc2-70-figures.json (its 101 to 103; ruv-sgit's map slide and one wake, its 049; chapter 7's three rounds ruv-sgit's drawn copy, its 048), checked against the chapters and the lab/ rules. Chapters whose Figure lines changed (writer 074) are matched to the designer's notes by each line's opening words, a drawing kept only on an exact match. Overrides: the 'overrides' key holds the publisher's own placements (chapter: {opening words of a Figure line: drawing}), applied after each copy of the designer's list; the build reads chapter keys only.",
  "rc2/30/01-the-creators-problem.md": [
   "lab/experiments/37-designer-rc2-chapters-1-2/ch1-slide.svg",
   null,
@@ -42,7 +42,7 @@
   null,
   null,
   "lab/experiments/37-designer-rc2-chapters-1-2/ch1-loop.svg",
-  null
+  "lab/experiments/29-ruv-the-afternoon-loop/edition/round-trip.svg"
  ],
  "rc2/70/02-the-tour.md": [
   null,
@@ -63,7 +63,7 @@
  ],
  "rc2/70/05-the-clock-and-one-wake.md": [
   "lab/experiments/64-ruv-one-wake-on-the-clock/edition/one-wake.svg",
-  null,
+  "lab/experiments/64-ruv-one-wake-on-the-clock/edition/wake-page.svg",
   "lab/experiments/61-ruv-the-factory-as-a-chain/map.svg"
  ],
  "rc2/70/06-talking-through-git.md": [
@@ -79,9 +79,9 @@
  "rc2/70/08-the-plumbing.md": [
   null,
   "lab/experiments/42-designer-rc2-seventy/ch8-register-bar.svg",
+  "lab/experiments/42-designer-rc2-seventy/ch8-check-card.svg",
   null,
-  null,
-  null
+  "lab/experiments/42-designer-rc2-seventy/ch8-two-companions.svg"
  ],
  "rc2/70/09-the-loop-and-the-port.md": [
   null,
@@ -172,7 +172,7 @@
   "lab/experiments/27-designer-the-cast/cast-row-personas.svg"
  ],
  "rc2/150/07-hour-three-the-five-steps.md": [
-  null,
+  "lab/experiments/64-ruv-one-wake-on-the-clock/edition/wake-page.svg",
   null,
   null
  ],
@@ -187,7 +187,7 @@
   null
  ],
  "rc2/150/02-inventing-on-principle.md": [
-  null,
+  "lab/experiments/29-ruv-the-afternoon-loop/edition/round-trip.svg",
   "lab/experiments/37-designer-rc2-chapters-1-2/ch1-loop.svg",
   "lab/experiments/37-designer-rc2-chapters-1-2/ch1-cast-greyed.svg"
  ],
@@ -205,7 +205,7 @@
  "rc2/150/11-the-plumbing.md": [
   null,
   "lab/experiments/42-designer-rc2-seventy/ch8-register-bar.svg",
-  null,
+  "lab/experiments/42-designer-rc2-seventy/ch8-check-card.svg",
   null,
   null,
   null,
@@ -213,6 +213,28 @@
  ],
  "rc2/150/12-the-creator-comes-back.md": [
   null,
+  null,
+  null,
+  null
+ ],
+ "overrides": {
+  "rc2/70/07-the-rhythm.md": {
+   "one picture's three rounds": "lab/experiments/63-ruv-three-rounds/edition/three-rounds.svg"
+  },
+  "rc2/70/05-the-clock-and-one-wake.md": {
+   "the five-step wake on the clock": "lab/experiments/64-ruv-one-wake-on-the-clock/edition/one-wake.svg",
+   "the wake record as a page": "lab/experiments/64-ruv-one-wake-on-the-clock/edition/wake-page.svg"
+  },
+  "rc2/70/01-slides-as-a-compromise.md": {
+   "one ask's round trip": "lab/experiments/29-ruv-the-afternoon-loop/edition/round-trip.svg"
+  }
+ },
+ "rc2/150/13-the-story-before-the-slides.md": [
+  null,
+  null,
+  null
+ ],
+ "rc2/150/14-port-not-rebuild.md": [
   null,
   null,
   null
