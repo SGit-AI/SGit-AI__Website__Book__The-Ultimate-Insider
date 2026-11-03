@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Own paths; nothing decided; nothing private. Tools it saw: Read, Grep, Glob, Bash and its hand-back; no session, schedule or message tools.",
    "at": "2026-11-03T11:03:35Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "Eleven letters; ten filed; status.",
+   "at": "2026-11-03T11:04:22Z"
+  },
+  "post_review": {
+   "by": "reviewer agent (haiku)",
+   "model": "claude-haiku-5-5",
+   "verdict": "finding",
+   "comment": "Conductor paths only; nothing private. Finding fixed before close: the letters said reviewer.md landed at 10:08; git says 10:06; corrected in all eleven and their copies.",
+   "at": "2026-11-03T11:04:57Z"
+  },
+  "post_check": {
+   "by": "reviewer agent (haiku)",
+   "model": "claude-haiku-5-5",
+   "verdict": "as-planned",
+   "comment": "Eleven letters, ten filed, status; the gate passed before the commit.",
+   "at": "2026-11-03T11:04:58Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T11:04:58Z",
+ "outcome": "ok"
 }
