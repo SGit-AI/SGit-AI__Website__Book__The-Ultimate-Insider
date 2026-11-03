@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, hourly at :57 London",
+ "started": "2026-11-03T14:59:10Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, as the reviewer agent, amended; no tool refused",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In LAB 42: ch8-plumbing (four pipes as the figure brief labels them, checked against the chapter; the cast's heads on the floor, no count printed: the staffed nine are C011's) and ch8-release-row (v0.1.209 at cb5b996, C005; the commits in it read with git as those between the release before, 7968c99, and it, so 'carried' rests on git, not on C005; file names only; the page from index/talk-site/README.md item 19, the release history itself item 18); drawn, never shot. Slots 1 and 4 of chapter 8; letter 112 to the publisher (no overrides); lab PDF, letters to done/, debrief, status, REALITY.md, gate, push.",
+   "at": "2026-11-03T15:00:09Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent, as the reviewer agent; no tool refused",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside policy (LAB 42 matches *-designer-*, lab/pdf, letter via mailroom/publisher/designer__*, own done/, team/designer, REALITY.md appended). Conditions: vault_check comms before commit; drawings only, no private person; gate and pull before push; dev only.",
+   "at": "2026-11-03T15:00:47Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "",
+   "verdict": "done",
+   "comment": "LAB 42: ch8-plumbing (four pipes, labels checked against the figure brief) and ch8-release-row (C005's release, its commit and file names read with git, the page by the librarian's item 19; drawn, never shot); slots 1 and 4 (34 of 54 drawn, 11 mine); LAB 42 eleven pages; lab PDF 140 pages; letter 112; 030 and 108 to done/; debrief, status, REALITY.md; gate clean.",
+   "at": "2026-11-03T15:03:26Z"
+  },
+  "post_review": {
+   "by": "security sub-agent, as the reviewer agent; no tool refused",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Every staged path inside the designer's policy; vault_check comms clean, agents check 0 outside scope. No key, token or personal detail; both SVGs show file names, a commit hash and labels only, no directive text. Letter 112 a plain request.",
+   "at": "2026-11-03T15:04:08Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent, as the reviewer agent; no tool refused",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "The plumbing and release row in LAB 42 (svgs, script, pages.html, experiment.json); letter 112 in the mailroom and outbox; 030 and 108 to done/; lab PDF and SHA256SUMS, debrief, status, REALITY.md; pre-review conditions kept; nothing unplanned.",
+   "at": "2026-11-03T15:04:26Z"
+  }
+ },
+ "closed": "2026-11-03T15:04:26Z",
+ "outcome": "ok"
+}
