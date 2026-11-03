@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake (hourly, ACC1)",
+ "started": "2026-11-03T06:03:18Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (plan; reviewed by the security sub-agent below)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1 synthetic__015: yes, one pass of the 70 with the three named readers when the publisher builds it whole (words and pages together), not before: a reply; 2 the 70 on the site as a PDF draft in review, at his word of 00:55 ('for this phase and review mode It's okay to publish them'): a release step from manuscript/editions/rc2-70/Book.txt with --figures, named one-human-nine-agents-rc2-70-draft, linked from rc2.html with the same note; the online 70 is already there (the developer), and chapter 12's 'how' clause is already cut (line 28 ends at 'something else.'); security's quote point (line 24) stays with the writer; 3 the designer took chapter 3's map: right, no reply needed; 4 file five letters; status; gate, push.",
+   "at": "2026-11-03T06:03:56Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "Chapter 12's how clause gone; the quote is the slide's own; nothing in the 70 attack-shaped, private or a key. Condition: the writer still owes line 80's 'as it lands'; keep the review-stage note.",
+   "at": "2026-11-03T06:04:21Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
