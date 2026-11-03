@@ -155,11 +155,13 @@ The talk team's vaults are named in 10, not cited by path; nothing of them is in
 |---|---|---|---|---|
 | 13:26, 13:28 | "positions, not measurements" | the storyteller's maps | as the seventy's 09 | word for word |
 | 13:65 | "The outside is in balance: he keeps the claim." | the conductor, recording the editor's decision of about 15:00 | `team/conductor/briefs/2026-10-29__editor/1-editor-decisions-1500.md` line 13 (`78d517d`, 15:16:37); the first words bold there | the words hold; the speaker is the conductor's record of his decision, in the third person, not his own words (letter 016) |
-| 14:17 | "if the next agent doesn't pick it up in the run in the same hour, it will pick it up on the next one" | the editor, quoted in the conductor's commit | `545a473` (15:21:31), its message lines 4 and 5 | word for word |
-| 14:65 (note) | "the talk is 90 minutes, and a section on the editor's work: routed to six members"; "the talk in three parts with locks at 18:30, 19:30, 20:00; ..." | the conductor, its commit subjects | `62c6b99` (16:32), `3342cff` (16:59) | word for word |
-| 14:76 | "the player, ported from ruv.sgit.ai"; "what we did at ruv.sgit.ai" | the commit; the brief | `3314ffe`; `BRIEF.md` at `298be4e` | word for word |
+| 14:21 | "if the next agent doesn't pick it up in the run in the same hour, it will pick it up on the next one" | the editor, quoted in the conductor's commit | `545a473` (15:21:31), its message lines 4 and 5 | word for word |
+| 14:69 (note) | "the talk is 90 minutes, and a section on the editor's work: routed to six members"; "the talk in three parts with locks at 18:30, 19:30, 20:00; ..." | the conductor, its commit subjects | `62c6b99` (16:32), `3342cff` (16:59) | word for word |
+| 14:80 | "the player, ported from ruv.sgit.ai"; "what we did at ruv.sgit.ai" | the commit; the brief | `3314ffe`; `BRIEF.md` at `298be4e` | word for word |
 
 **3 November 2026, about 16:25 UTC: the 150's chapters 15 and 16.** My letter 016's note is in (the writer's 113). Sources clean; no voice hit; every commit time the commit's own but seven stated ranges. The editor's asks of hour eighteen ("when in doubt add it", "go build") are the conductor's subjects of 17:29 and 17:39 (`a618b29`, `d252155`); the lock tool's commit (`4a2481b`, 17:54) carries dev's trailer, as 15:45 says; hour nineteen's times (the hold 18:44:13, the designer 18:45:35, the last release 18:46:22, dev's close 18:48:36 on its branch, deck's wake of 18:20:09 never closed) are the record's. "just a footnote" (16:97) is as 13:24 of the seventy. Nothing to send back.
+
+**3 November 2026, about 17:20 UTC: the 150's chapters 17 and 18.** Sources clean (18:140's newsroom address is a website, a known non-fault); no voice hit; every commit time the commit's own but seven stated ranges. Chapter 17's three cards of the editor's reasons are his own words, each dated: "we are at 95% so it is better to pause all actions" (the hold file, `867f8c2`, 18:44, the opening "actually" left out), "just a footnote" (`49c701e`, 31 October, after the day), "The 95%, I think, was the tokens usage." (`briefs/2026-10-31__in-session/02-g1-the-95-and-the-day-in-review.md`, about 19:00 on 31 October, after the day). The storyteller's "is late" is its letter to deck (`team/storyteller/requests/deck__three-parts.md` line 8); the conductor's trailer "To-storyteller: split the arc into three parts of about 30 minutes; to deck by 17:30." is `3342cff`'s, cut where marked; "locked at 18:30 after its check" is the designer's status at `298be4e`. The printed key is told as the event and its rotation only, from the conductor's two debriefs; nothing of it is indexed here. Nothing to send back.
 
 ## The writer's readings, for the editor to keep or drop
 
@@ -235,13 +237,19 @@ Where a sentence in the editor's voice is the writer's reading of his view rathe
 | `150/12-the-creator-comes-back.md:45` | "the thing I would most want a team to do" is the writer's reading of his view; his to keep or drop. |
 | `150/12-the-creator-comes-back.md:103` | "it is the thing I came back for" and "What it could not do was decide" are the writer's reading of his view, the second from the historian's day file for hour fifteen; his to keep or drop. |
 | `150/13-the-story-before-the-slides.md:71` | "the part of the afternoon I would most want a team to copy" and "Not to win. To make sure the decision was a decision." are the writer's reading of his view; his to keep or drop. |
-| `150/14-port-not-rebuild.md:55` | "I think it is the most important plan the team made all day" is the writer's reading of his view; his to keep or drop. |
-| `150/14-port-not-rebuild.md:80` | "the thing I most want you to take from the afternoon" is kept from the 70-page edition's chapter 9; his to keep or drop. |
+| `150/14-port-not-rebuild.md:15` | "every change in it was mine" is the writer's reading of his view, resting on the historian's day file; his to keep or drop. |
+| `150/14-port-not-rebuild.md:59` | "I think it is the most important plan the team made all day" is the writer's reading of his view; his to keep or drop. |
+| `150/14-port-not-rebuild.md:84` | "the thing I most want you to take from the afternoon" is kept from the 70-page edition's chapter 9; his to keep or drop. |
 | `150/15-hour-eighteen-faster-than-the-clock.md:17` | "I outran it" is the writer's reading of the hour; his to keep or drop. |
-| `150/15-hour-eighteen-faster-than-the-clock.md:32` | "the hour I would point to" and "They were what kept the speed from turning into damage" are the writer's reading of his view; his to keep or drop. |
+| `150/15-hour-eighteen-faster-than-the-clock.md:32` | "the hour I would point to" and "The brakes were what kept the speed from turning into damage" are the writer's reading of his view; his to keep or drop. |
 | `150/15-hour-eighteen-faster-than-the-clock.md:58` | "the insider question in miniature" is the writer's reading; his to keep or drop. |
 | `150/15-hour-eighteen-faster-than-the-clock.md:71` | "which I had not been watching" is the writer's; the record has the hold's reason (his usage), not what he watched; his to keep or drop. |
 | `150/16-hour-nineteen-minute-by-minute.md:44` | "I want to be fair to the conductor" and the sentence on lanes are the writer's reading of his view; his to keep or drop. |
+| `150/17-what-did-not-work.md:7` | "I want it at full size ... a brochure." is the writer's reading of his view; his to keep or drop. |
+| `150/17-what-did-not-work.md:19` | "What the three share ... show." is the writer's reading across his three accounts; his to keep or drop. |
+| `150/18-how-do-we-contain-this.md:60` | "If you take one thing ..." and the sentence after it are the writer's reading of his view; his to keep or drop. |
+| `150/18-how-do-we-contain-this.md:78` | "It is also, quite exactly, the situation my talk was warning about." and "The difference between this factory and a dangerous one is not the brakes. It is that nothing pushed on them." are the writer's reading of the talk's argument; his to keep, change or drop. |
+| `150/18-how-do-we-contain-this.md:107` | "the stop belonged to whoever saw the problem; the restart was mine" is the writer's reading of the rule and the record; his to keep or drop. |
 | `150/90-the-tour-at-length.md:69` | "Nobody tidied it." is the writer's reading; his to keep or drop. |
 | `150/90-the-tour-at-length.md:82` | "This is the page I would show anyone who doubts" is the writer's reading of his view; his to keep or drop. |
 | `150/90-the-tour-at-length.md:99` | "What I like about it" is the writer's reading; his to keep or drop. |

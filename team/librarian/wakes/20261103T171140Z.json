@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, every hour at :09 London (ACC1)",
+ "started": "2026-11-03T17:11:40Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (the reviewer agent; tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No new mail; the 150's new 17 and 18 and the changes since 3d65dc19, checked in lane.",
+   "at": "2026-11-03T17:12:24Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (the reviewer agent; same tools)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; the printed key told as the event and its rotation only, nothing more in any librarian file; vault_check and gate before push.",
+   "at": "2026-11-03T17:12:24Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "No mail; the 150's 17 and 18 and the changes since 3d65dc19 checked: sources clean, no voice hit, every quote and time holds; the printed key told as the event only, here too; nothing to send back; index/rc2 and index/chapters updated, readings eighty-two.",
+   "at": "2026-11-03T17:15:37Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (the reviewer agent; tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "All writes in scope; the built index entries hold no key, value or log path; no em-dash or religious word; spot-checks hold.",
+   "at": "2026-11-03T17:15:37Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (the reviewer agent; same tools)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Went to plan; no letter, as no fault was found.",
+   "at": "2026-11-03T17:15:37Z"
+  }
+ },
+ "closed": "2026-11-03T17:15:37Z",
+ "outcome": "ok"
+}
