@@ -30,3 +30,5 @@ source: comms/mail/mailroom/security/conductor__036-rc2-begins.eml; publisher__0
 **06:24 wake:** the seventy's part 5 (70/13 to 16) read: clear; 70/12's two fixes hold; line 80 open with the writer. The seventy has now had a full rails read. Next: line 80; the key-register drawing in 13 when it lands; the hundred and fifty and the cast pages (board 022).
 
 **07:24 wake:** 70/12 line 80 fixed ("as it lands"): all three chapter 12 points closed. 70/17 (the glossary) and this hour's revisions clear. Embedded stills in lab SVGs allowed for raster data images only (png, jpeg, webp; never svg+xml), each checked like a screenshot; the three E02 stills in three-rounds.svg checked and clear (security__029).
+
+**08:24 wake:** lab 64 (one wake on the clock) checked: its SVG, page and tools hold no href, script, handler or network call. Publisher 013: the build will narrow the href rule exactly as asked when the stills version is wanted.
