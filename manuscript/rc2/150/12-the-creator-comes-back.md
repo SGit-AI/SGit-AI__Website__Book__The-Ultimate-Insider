@@ -54,7 +54,7 @@ Band: *Dramatised (the conductor's line). Rests on the conductor's wake of 14:03
 
 `%% figure brief: For the designer, from C087 (hour 14 UTC, which is hour fifteen on the margin clock: 6 scheduled, 7 the editor's). The counts on the card only.`
 
-`%% record: 9a51c28 (14:17, the wake I started in dev's session) team/deck/wakes/ (14:19 to 14:48, the live review; "as given") team/deck/wakes/20261029T144456Z.json (idle by design) c1380c5 364a53b (14:59, several runs at once) timeline/day/14.md C087`
+`%% record: 9a51c28 (14:28, in the wake I started in dev's session at 14:17) team/deck/wakes/ (14:19 to 14:48, the live review; "as given") team/deck/wakes/20261029T144456Z.json (idle by design) c1380c5 364a53b (14:59, several runs at once) timeline/day/14.md C087`
 Band: *Dramatised (deck's line). Rests on deck's live review of 14:19 to 14:48 and its idle scheduled wake; "as given" is deck's own word for how it wrote mine down.*
 
 ## The storyteller arrives
