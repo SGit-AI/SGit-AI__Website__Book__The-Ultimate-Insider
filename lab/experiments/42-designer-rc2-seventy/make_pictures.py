@@ -27,6 +27,8 @@
 - ch7-wakes-card.svg: the day's wakes by trigger as a card: the total and its three parts from C087, checked to add up.
 - ch3-team-pattern.svg: the team pattern as a card: one brief, one board, one hold, a page of rules per member, and each
   member's round in the Figure line's own words (checked in chapter 3 at build).
+- ch3-first-rules.svg: the first page of rules as a card, its six lines exactly as chapter 3 quotes them (backticks
+  dropped, the chapter's own ellipses kept), each tagged with what it protects; the last one marked; checked at build.
 No number is printed but the hold's time, ids, C029's and C087's counts and the chapters' own times. One SVG unit a millimetre, sizes stated, text 9 pt.
 """
 import json, re, subprocess, sys
@@ -43,6 +45,8 @@ REG = {c["id"]: c for c in json.loads((REPO / "claims" / "register.json").read_t
 
 
 def t(x, y, s, weight=400, fill=mc.INK, anchor="start", size=F):
+    from html import escape
+    s = escape(str(s), quote=False)
     return f'<text x="{x:.2f}" y="{y:.2f}" {SANS} font-size="{size}" font-weight="{weight}" fill="{fill}" text-anchor="{anchor}">{s}</text>'
 
 
@@ -294,6 +298,36 @@ def team_pattern():
     return mc.svg(164, 63, defs + "".join(out), "A card, the team pattern: one brief, one board, one hold, a page of rules per member, and each member's round")
 
 
+FIRST_TAGS = ["roles", "the brief", "the check", "the version", "secrets", "instructions"]
+
+
+def first_rules():
+    import textwrap
+    text = (R70 / "03-one-account-one-project-one-conductor.md").read_text()
+    quoted = [l[4:].replace("`", "") for l in text.splitlines() if l.startswith("> - ")]
+    line = next(l for l in text.splitlines() if l.startswith("**Figure:** the first page of rules as a card"))
+    if len(quoted) != len(FIRST_TAGS) or ": " + ", ".join(FIRST_TAGS) not in line:
+        sys.exit("make_pictures: chapter 3's quoted rules or its tags are not as the card expects")
+    out = [f'<rect x=".3" y=".3" width="163.4" height="{{H}}" rx="2" fill="#fff" stroke="{mc.INK}" stroke-width=".45"/>',
+           t(5, 8, "CLAUDE.md, the first page of rules", 800), t(159, 8, "dev's first commit, hour one", 400, mc.MUTED, "end")]
+    y = 15.0
+    for i, (tag, rule) in enumerate(zip(FIRST_TAGS, quoted)):
+        last = i == len(quoted) - 1
+        rows = textwrap.wrap(rule, 76)
+        h = 4.1 * len(rows) + 2.6
+        if last:
+            out.append(f'<rect x="2.6" y="{y - 3.6:.1f}" width="158.8" height="{h + .6:.1f}" rx="1" fill="#fbe9df"/>')
+        out.append(f'<rect x="5" y="{y - 2.9:.1f}" width="21" height="4.2" rx="2.1" fill="{mc.ACCENT if last else mc.FILL}"/>'
+                   + t(15.5, y, tag, 700, "#fff" if last else mc.INK, "middle"))
+        for j, r in enumerate(rows):
+            out.append(t(30, y + j * 4.1, r, 700 if last else 400))
+        y += h + 1.4
+    H = y - 1
+    out[0] = out[0].replace("{H}", f"{H:.1f}")
+    out.append(t(0, H + 4.6, "the six lines as chapter 3 quotes them; the last, there from the first half hour, the one this book leans on", 400, mc.MUTED))
+    return mc.svg(164, round(H + 6.2, 1), "".join(out), "The first page of rules as a card, each line tagged with what it protects, the last marked")
+
+
 FLOORS = [("the talk", ("src/static/talk/",)),
           ("the workshop of animations", ("src/static/ruv-sgit/", "src/pages/ruv-sgit/", "src/static/motion/", "src/pages/motion/")),
           ("the studio", ("src/pages/studio/", "src/static/studio/", "src/static/studio-ports/", "src/pages/studio-ports/")),
@@ -424,10 +458,14 @@ def checklist():
 if __name__ == "__main__":
     clone = sys.argv[1]
     files = {"ch10-hold-file.svg": hold_file(clone), "ch12-state-machine.svg": state_machine(),
-             "ch8-register-bar.svg": register_bar(), "ch15-six-principles.svg": six_principles(), "ch16-checklist.svg": checklist(),
+             "ch8-register-bar.svg": register_bar(), "ch16-checklist.svg": checklist(),
              "ch2-dashboard.svg": dashboard(clone), "ch2-site-building.svg": site_building(clone),
              "ch2-wakes-page.svg": wakes_page(clone), "ch2-member-page.svg": member_page(clone),
-             "ch7-wakes-card.svg": wakes_card(), "ch3-team-pattern.svg": team_pattern()}
+             "ch7-wakes-card.svg": wakes_card(), "ch3-team-pattern.svg": team_pattern(), "ch3-first-rules.svg": first_rules()}
+    if (R70 / "15-principles.md").exists():
+        files["ch15-six-principles.svg"] = six_principles()
+    else:  # chapter 15 was folded into 16 and removed: the drawing stays as last built from it, not rebuilt
+        print("ch15-six-principles.svg kept as built: manuscript/rc2/70/15-principles.md is gone")
     for name, svg in files.items():
         (HERE / name).write_text(svg)
     print("written " + ", ".join(files))

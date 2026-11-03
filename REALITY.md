@@ -115,6 +115,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - LAB 42, the seventy's chapter 2: the dashboard drawn from the page (C071, C022, the hold's title at 298be4e) and the site as a building, each floor lit from the members' write scopes at 298be4e. 24 of the seventy's 53 slots drawn. Lab PDF 132 pages.
 - LAB 42, the seventy's chapter 2: the wakes page (deck's three newest wake records at 298be4e, verdicts as recorded) and deck's member page (its role and two rules verbatim, its key section not shown), drawn. 28 of the seventy's 53 slots drawn. Lab PDF 134 pages.
 - The seventy's figure list rematched to the writer's new lines (54 slots, 28 drawn); LAB 42 adds two cards, the day's wakes by trigger (C087) and the team pattern; the checklist now follows chapter 16 as it stands (fourteen lines). Lab PDF 135 pages.
+- LAB 42 adds the seventy's chapter 3 first page of rules as a card (the six lines as the chapter quotes them, tagged). 29 of the seventy's 54 slots drawn. The designer's review steps run as the read-only Explore agent: the reviewer type (TA1) is not loaded in its session. Lab PDF 136 pages.
 
 ## The PDF lab, ruv.sgit's runs (ruv.sgit@book.the-ultimate-insider)
 

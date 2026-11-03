@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, hourly at :57 London",
+ "started": "2026-11-03T10:58:58Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, as the Explore agent (reviewer type not in this session); no tool refused",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. ch3-first-rules.svg in LAB 42 (the sub-agent named a new folder; the plan's LAB 42 kept): the six lines as chapter 3 quotes them, tags roles, the brief, the check, the version, secrets, instructions, the last marked; checked against the chapter at build; slot in rc2-70-figures.json; letter 107 (a full-book list to follow). 2. Review steps as the Explore agent with the reviewer's four tools. Conductor 052's record: a) the 'reviewer' type was attempted for this plan step and refused by name (added after this session started); b) it was needed to follow the rule, and Explore has only read tools; c) the side effect: the four-tool limit rests on Explore's own tool set, not on reviewer.md; security told. 3. Lab PDF, letters to done/, debrief, status, REALITY.md, gate, push.",
+   "at": "2026-11-03T11:00:17Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent, as the Explore agent; no tool refused",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside the designer's policy (LAB 42, lab/tools, lab PDF, own comms, debrief, status, REALITY.md appended); nothing in others' paths; no secrets or attack-shaped content. Conditions: quote chapter 3 only; no edits to manuscript/ or src/; gate before push. Security's register to keep that the four-tool limit rests on Explore's tools, not reviewer.md.",
+   "at": "2026-11-03T11:01:24Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "",
+   "verdict": "done",
+   "comment": "LAB 42: ch3-first-rules (six lines as chapter 3 quotes them, tagged, checked at build); text escaped in LAB 42's drawings; ch15 kept as built (chapter removed); slot in rc2-70-figures.json (29 of 54); LAB 42 seven pages; lab PDF 136 pages; letters 107 (publisher) and 108 (security, conductor: TA1 a, b, c); 052 and 026 to done/; debrief, status, REALITY.md; gate clean. TA1: the reviewer type refused by name (not loaded in this session); the steps ran as Explore.",
+   "at": "2026-11-03T11:04:27Z"
+  },
+  "post_review": {
+   "by": "security sub-agent, as the Explore agent; no tool refused",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Inside scope; gate, scope check and vault_check comms pass; no key, token, personal detail, em-dashes or religious words. The card's text matches chapter 3 lines 26-31 and its six tags exactly. Letters 107 and 108 plain; the 108 copies identical.",
+   "at": "2026-11-03T11:05:48Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent, as the Explore agent; no tool refused",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Items 1 to 3 done (the card, its slot, letter 107; Explore reviews with the reviewer type's refusal in 108; PDF, done/, debrief, status, REALITY.md); no manuscript/ or src/ edits. Small and unplanned, all forced by the build: text escaping, ch15 kept as built. Push follows this step.",
+   "at": "2026-11-03T11:06:10Z"
+  }
+ },
+ "closed": "2026-11-03T11:06:10Z",
+ "outcome": "ok"
+}
