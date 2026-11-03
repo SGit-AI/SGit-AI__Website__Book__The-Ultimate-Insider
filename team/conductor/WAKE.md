@@ -6,7 +6,7 @@ New member? Start with [`team/conductor/ONBOARDING.md`](ONBOARDING.md) (on the s
 
 ## The five steps (the editor, 29 October 2026)
 
-Every wake, scheduled or from the editor's chat, runs five steps, each with its own verdict and comment in the wake record `start.py` opens (`team/<you>/wakes/<started>.json`, written with `admin/tools/wake.py`). Steps 1, 2, 4 and 5 are sub-agents on a smaller model, briefed from `team/conductor/reviews/`:
+Every wake, scheduled or from the editor's chat, runs five steps, each with its own verdict and comment in the wake record `start.py` opens (`team/<you>/wakes/<started>.json`, written with `admin/tools/wake.py`). Steps 1, 2, 4 and 5 are sub-agents on a smaller model, briefed from `team/conductor/reviews/` and run as the reviewer agent (`.claude/agents/reviewer.md`, tools Read, Grep, Glob and Bash only: TA1, 3 November 2026; any call outside that list goes in the wake record with why, whether needed, and what not running it cost):
 
 | # | Step | By | Verdicts |
 |---|---|---|---|

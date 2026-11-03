@@ -699,15 +699,29 @@
   },
   {
    "id": "TA1",
-   "status": "open",
+   "status": "decided",
    "by": "editor",
    "ask": "A tools allowlist for every review sub-agent?",
-   "detail": "Raised by security (comms/mail/mailroom/conductor/security__030, 3 November 2026): three times, review sub-agents briefed 'read only' called tools that act on a session (interrupt, a message, a session creation); the session's permission check denied each, and nothing acted. Proposal: a reviewer agent definition (.claude/agents/reviewer.md) whose front matter lists only Read, Grep, Glob and Bash, used by every member's review steps, so the step cannot see session, schedule or message tools at all. .claude/ is outside every member's scope today, so it needs his word, and a member to own it (the developer). Until then the review briefs name the allowed tools (team/conductor/reviews/).",
+   "detail": "Raised by security (comms/mail/mailroom/conductor/security__030, 3 November 2026): three times, review sub-agents briefed 'read only' called tools that act on a session (interrupt, a message, a session creation); the session's permission check denied each, and nothing acted. Proposal: a reviewer agent definition (.claude/agents/reviewer.md) whose front matter lists only Read, Grep, Glob and Bash, used by every member's review steps, so the step cannot see session, schedule or message tools at all. .claude/ is outside every member's scope today, so it needs his word, and a member to own it (the developer). Until then the review briefs name the allowed tools (team/conductor/reviews/). Decided by the editor, 3 November 2026, about 09:20 UTC (briefs/2026-11-03__in-session/06-tools-list-full-book-online-print-sonnet.md): \"Yes , add that tool list to the ABP that is used by all books, and it is import to capture those cases and understand a) why they were attempted , b) if they are really needed and c) what was the side effect of not running the tool\". Done as .claude/agents/reviewer.md and a rule in CLAUDE.md (the conductor's reading: CLAUDE.md is the team's behaviour policy).",
    "options": [
     "yes: the developer adds the reviewer agent and WAKE.md says to use it",
     "no: briefs and the permission check are enough"
    ],
    "recommend": "Yes. It moves 'read only' from a request to a limit, and costs one small file."
+  },
+  {
+   "id": "OL1",
+   "status": "decided",
+   "by": "editor",
+   "ask": "The full book online, and every edition's latest version",
+   "detail": "Decided by the editor, 3 November 2026, about 09:20 UTC (briefs/2026-11-03__in-session/06-tools-list-full-book-online-print-sonnet.md): \"Yes our the pull book online, in fact the latest version should always be online\". Every edition, the full book's draft included, is rebuilt and published at every release (release.yml)."
+  },
+  {
+   "id": "PR2",
+   "status": "decided",
+   "by": "editor",
+   "ask": "What gets printed",
+   "detail": "Decided by the editor, 3 November 2026, about 09:20 UTC (briefs/2026-11-03__in-session/06-tools-list-full-book-online-print-sonnet.md): \"We will print the full book , once ready\"."
   }
  ]
 }
