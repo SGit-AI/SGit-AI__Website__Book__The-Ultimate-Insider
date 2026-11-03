@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, every hour at :09 London (ACC1)",
+ "started": "2026-11-03T04:10:33Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "check_sources.py and voice_scan.py on the seventy's chapters 6 to 9 and 5's changes; each quote by hand for words and speaker; index/rc2/README.md and index/chapters/; letter to the writer, copy to the conductor; debrief if anything ships; status and wake record; no chapters edited.",
+   "at": "2026-11-03T04:11:02Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "No hold; no stop condition; read only on chapters; writes in the librarian's lane plus a letter; one-way valve and RW1 kept; vault_check on comms.",
+   "at": "2026-11-03T04:11:02Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "The seventy's 6 to 9 and 5's edit: sources clean; every quote word for word with its speaker (one speaker in my own index draft corrected before release: aeffbf9 is deck's note to itself); one heading suggested (07:5); index/rc2 (quotes, fourteen readings), index/chapters; reviews/rc2-70-06-09.md; letter librarian__006, copy librarian__020. Status. Chapters not edited.",
+   "at": "2026-11-03T04:12:37Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Librarian lane only; manuscript unchanged; no keys, tokens, personal details, directives or religious words; validate, agents check (0 outside scope) and vault_check clean.",
+   "at": "2026-11-03T04:13:54Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Done: the seventy's 6 to 9 checked, index/rc2, index/chapters, review, letter 006 and copy, status and wake record; chapters not edited. The debrief it found missing is added at close.",
+   "at": "2026-11-03T04:13:54Z"
+  }
+ },
+ "closed": "2026-11-03T04:13:54Z",
+ "outcome": "ok"
+}

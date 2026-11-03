@@ -33,4 +33,8 @@ One file per chapter of the manuscript, built by `index/tools/chapter_entries.py
 | [`03-one-account-one-project-one-conductor.md`](03-one-account-one-project-one-conductor.md) | 5 | 0 | 5 | 0 | 3 | 0 |
 | [`04-roles-as-a-cast-you-can-read.md`](04-roles-as-a-cast-you-can-read.md) | 0 | 0 | 4 | 0 | 0 | 0 |
 | [`05-the-clock-and-one-wake.md`](05-the-clock-and-one-wake.md) | 2 | 0 | 5 | 0 | 4 | 0 |
+| [`06-talking-through-git.md`](06-talking-through-git.md) | 3 | 1 | 4 | 0 | 4 | 0 |
+| [`07-the-rhythm.md`](07-the-rhythm.md) | 3 | 0 | 3 | 0 | 5 | 0 |
+| [`08-the-plumbing.md`](08-the-plumbing.md) | 7 | 0 | 3 | 0 | 1 | 0 |
+| [`09-the-loop-and-the-port.md`](09-the-loop-and-the-port.md) | 0 | 0 | 5 | 0 | 12 | 0 |
 | [`first-ten-pages.md`](first-ten-pages.md) | 1 | 0 | 2 | 0 | 2 | 0 |
