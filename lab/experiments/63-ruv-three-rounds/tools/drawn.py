@@ -80,7 +80,8 @@ def main():
             rows.append(f'<text x="{x + .6:.2f}" y="{y:.2f}" font-family="{SANS}" font-size="{PT:.3f}" font-style="italic" fill="{INK}">{html.escape(ln)}</text>'); y += LEAD
         rows.append(f'<text x="{x:.2f}" y="{y + .6:.2f}" font-family="{SANS}" font-size="{PT:.3f}" fill="{MUTED}">deck, {commit}</text>')
         hmax = max(hmax, y + 2)
-    H = round(hmax + 1, 1)
+    rows.append(f'<text x="{W:.2f}" y="{hmax + 3.4:.2f}" font-family="{SANS}" font-size="{PT:.3f}" font-style="italic" fill="{MUTED}" text-anchor="end">drawn after the talk\'s stills</text>')
+    H = round(hmax + 5, 1)
     svg = (f'<svg xmlns="http://www.w3.org/2000/svg" width="{W:g}mm" height="{H:g}mm" viewBox="0 0 {W:g} {H:g}" role="img" '
            'aria-label="One picture\'s three rounds, drawn after the talk\'s stills: a ring and a list apart, then dots at two distances, then dots grouped in arcs; '
            'deck\'s verdict under each in its own words.">\n' + '\n'.join(rows) + '\n</svg>\n')

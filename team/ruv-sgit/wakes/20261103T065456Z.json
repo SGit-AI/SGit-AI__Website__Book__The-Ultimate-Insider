@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Security sub-agent: go; paths in scope; run UNSAFE_SVG on the final file; benign; no key or contact; nothing to Cold-Read; vault_check on comms.",
    "at": "2026-11-03T06:57:06Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "edition/three-rounds-drawn.svg via tools/drawn.py: pure vector, the build's UNSAFE_SVG rule run on it (no match), marks matching C084 and C086, no word from the stills, verdicts word for word; README section; letter 048 to the publisher (copies conductor, security); one filed; status, debrief.",
+   "at": "2026-11-03T06:58:35Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Security sub-agent on c4851049: no UNSAFE_SVG match; no secret, contact, dash or religious word; 0 outside scope; vault_check clean; drawn.py only writes a file.",
+   "at": "2026-11-03T06:59:33Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Conductor sub-agent: the marks match C084 and C086 panel by panel; verdicts identical; letter, filing, notes accurate. Its one note, the 'drawn after the talk's stills' label only in the aria-label, fixed before the push: now printed under the panels.",
+   "at": "2026-11-03T06:59:33Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T06:59:33Z",
+ "outcome": "ok"
 }
