@@ -56,7 +56,7 @@
 
 `%% figure brief: For the designer. A card for each member: those above in order, then security, synthetic, ruv-sgit and the developer. No key, session or task line on any card.`
 
-`%% record: this repository: team/conductor/ROLE.md team/librarian/ROLE.md team/historian/ROLE.md team/researcher/ROLE.md team/storyteller/ROLE.md team/publisher/ROLE.md team/designer/ROLE.md team/writer/ROLE.md team/security/ROLE.md team/synthetic/ROLE.md team/ruv-sgit/ROLE.md team/developer/ROLE.md; talk repository at 298be4e: team/*/ROLE.md (the inherited rules)`
+`%% record: briefs/2026-10-30/1-book-conductor-brief.md (the book team, 30 October) this repository: team/conductor/ROLE.md team/librarian/ROLE.md team/historian/ROLE.md team/researcher/ROLE.md team/storyteller/ROLE.md team/publisher/ROLE.md team/designer/ROLE.md team/writer/ROLE.md team/security/ROLE.md team/synthetic/ROLE.md team/ruv-sgit/ROLE.md team/developer/ROLE.md; talk repository at 298be4e: team/*/ROLE.md (the inherited rules)`
 Band: *Dramatised. Each line rests on that member's own page of rules in this book's repository. This team is this book's record, not the talk's.*
 
 ## Its own failures, kept
@@ -73,6 +73,8 @@ Band: *Dramatised. Each line rests on that member's own page of rules in this bo
 
 **Narrator.** The line you read in chapter 2 is the corrected one. The researcher then caught it in the short editions too, and counted it as its own miss, because it had traced those first; the storyteller fixed them. Nobody asked to keep the nicer sentence.
 
+`%% record: 58322a27 (the storyteller's 18:40 wake of 2 November: both short editions' scripts corrected)`
+
 `%% record: this book's repository: fde3fea (the researcher's trace of chapter 1, 2 November 2026) comms/mail/mailroom/writer/researcher__002-rc2-chapter-1-traced.eml timeline/lineage.md`
 Band: *Dramatised. This book's record: the researcher's trace of 2 November and its letter to the writer.*
 
@@ -80,7 +82,7 @@ Band: *Dramatised. This book's record: the researcher's trace of 2 November and 
 
 **Narrator.** The second is a failure of the rule I carried over from 18:44: the conductor holds the team before my usage runs out. On the afternoon of 1 November, it did not. The account reached its limit first. In the conductor's own words, in its brief to me just after midnight: "Every member's task kept firing, but each wake ended in seconds", and "Nothing was harmed and nothing is half-done." Nothing moved again until just after midnight.
 
-**Conductor** *(quietly stressed, then procedural)*: The rule was right. I was a wake too late to use it. So I wrote it down for the editor, and asked him how hard we should run at night.
+**Conductor** *(quietly stressed, then procedural)*: The tasks kept firing, and each wake ended in seconds at the limit. Nothing was harmed. So I wrote it down for the editor, and asked him how hard we should run at night.
 
 **Narrator.** My answer, in my own words: "Keep the current pace which is good." The point is not that the rule failed. The point is that the failure is in the record, in the conductor's own brief to me, the same night, and you are reading it.
 
@@ -91,9 +93,18 @@ Band: *Dramatised (the conductor's line). This book's record: the conductor's br
 
 ### A third, chosen by the historian
 
-`%% for the historian: the outline leaves the third failure of this book's making to your choice from this book's history (writer__132 asks). This section is held until you answer; nothing is written here in your place.`
+**Narrator.** The historian chose the third itself, and it chose its own. On 3 November, at twenty-five past two in the morning, it told the storyteller and the writer, in two letters, that the talk's conductor had "rewritten" dev's first page of rules at 00:44. It had read the two commits in the order of their times: dev's page at 00:40, the conductor's at 00:44. Two chapters rested on that reading: the seventy's chapter 3, and this book's chapter 4 as first written.
 
-**Figure:** the second factory's failures as cards, beside the first factory's: "the brake was made that night", a line refused and corrected; "the evening lost to the usage limit", a hold that came too late; and the third when it is chosen.
+**Narrator.** The record says otherwise. The conductor's commit of 00:44 grew from the empty first commit, not from dev's. It wrote a longer page of its own, in parallel, without having seen dev's. When it merged dev's work at 00:51, the page that came out was dev's, word for word, with two of the conductor's lines added. The order of the times was right. The order of the work was not.
+
+**Narrator.** The historian caught it itself, nine hours later, reading the commits' parents and not only their times. It wrote the correction at 11:23. The writer set both chapters right ten minutes after. The lesson it wrote down is the one I would give anyone reading a record: when two changes to one file land minutes apart, read what each was built on before you say which changed whose.
+
+**Historian** *(careful, owning it)*: I trusted the order of events over the shape of the record. The chapters stood on it until I checked again.
+
+`%% record: comms/mail/mailroom/writer/historian__040-the-third-failure.eml (its choice and its account); 5c4c7d17 (02:26:47, letters 019 and 020) b0f59de3 (10:34, chapter 4 as first written) 21e5ad53 (11:23:44, letter 030, the correction) ffeae66b (11:33:41, both chapters set right); talk repository at 298be4e: 1f7c633 (00:40) 97b98d9 (00:44, its parent the empty first commit 2e4b1f4) 17b287b (00:51:12, the merge)`
+Band: *Dramatised (the historian's line, on its own account). This book's record: the historian's letters of 3 November, its correction, and the commits they rest on.*
+
+**Figure:** the second factory's failures as cards, beside the first factory's: "the brake was made that night", a line refused and corrected; "the evening lost to the usage limit", a hold that came too late; "read the parents, not only the times", a reading corrected by the one who made it.
 
 ## Do this now
 

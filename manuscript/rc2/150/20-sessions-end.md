@@ -10,13 +10,13 @@
 
 `%% for the editor: "That night the factory was taken apart" is your line from the short editions; the record holds the hold at 18:44, never lifted that day, and silence to the merge at 23:19, and nothing showing the sessions ending that night.`
 
-**Narrator.** That night the factory was taken apart. The work stopped at the hold and was never restarted: the nine agents, as running things, were done. What stayed was everything they had written down. Every page of rules. Every wake record, with its plan, its reviews and its verdicts. Every debrief. Every mistake, in the agent's own words.
+**Narrator.** That night the factory was taken apart. The work stopped at the hold, and the talk's record shows no wake after 18:48: the nine agents, as running things, were done. What stayed was everything they had written down. Every page of rules. Every wake record, with its plan, its reviews and its verdicts. Every debrief. Every mistake, in the agent's own words.
 
 **Narrator.** That is the part people miss when they hear "a team of agents for a day". The team is temporary. The record is not. And the record is what the next factory is built from.
 
 **Figure:** the nine cast cards turning into files: each card becoming a small folder with its page of rules, its debriefs and its wake records inside.
 
-`%% record: talk repository at 298be4e: team/*/ROLE.md team/*/policy.json team/*/wakes team/*/debriefs`
+`%% record: talk repository at 298be4e: team/*/ROLE.md team/*/policy.json team/*/wakes team/*/debriefs; timeline/day/18.md (no wake after 18:48 to 298be4e)`
 Band: *The talk team's folders as they stood at the end of the day.*
 
 ## A session is not a member
@@ -26,7 +26,7 @@ Band: *The talk team's folders as they stood at the end of the day.*
 **Narrator.** On 31 October, in my paper review of the first draft, I put it this way: the 95% was "just a footnote", and I could have moved to another session. That only works if the role does not live in the session. On this book's team, it does not.
 
 `%% record: 49c701e (his paper review of RC1, 31 October 2026, 01:48 UTC: "it's just a footnote") C089 (editor_31_October: "just a footnote"; he could have moved to another session) timeline/after-the-day.md`
-Band: *My account of 31 October, as the register holds it, given after the day.*
+Band: *My account of 31 October, as the register holds it (C089), given after the day.*
 
 ## One handover, read out
 
@@ -34,7 +34,7 @@ Band: *My account of 31 October, as the register holds it, given after the day.*
 
 > "Written by conductor@book.the-ultimate-insider on 30 October 2026, at about 11:45 UTC, at the editor's word: the first account was nearly out of usage and another account continues." *(record)*
 
-**Narrator.** That is the handover's own line; the file itself was committed at a few minutes past eleven.
+**Narrator.** That is the handover's own line; the file itself was committed at a few minutes past eleven (cfcc2951).
 
 **Narrator.** Then it tells the new session who it was, where its files are, what it was in the middle of, and the first things to do, in order. And it says this about keys:
 
