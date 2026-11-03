@@ -26,3 +26,5 @@ source: comms/mail/mailroom/security/conductor__036-rc2-begins.eml; publisher__0
 **04:24 wake:** the seventy's part 3 (70/06 to 09) read in full: clear; the C081 caption in 70/01 holds; one inner-voice line in 09 put to the storyteller to check. Next: the hundred and fifty, and the cast pages (board 022), as they land.
 
 **05:24 wake:** the seventy's part 4 read: 10 and 11 clear; 12 sent back on two points (line 28's last clause and line 24's quote, both how a scope check fails) and one correction (line 80); security's line accepted. The first plan sub-agent said stop on this; not held (a draft finding, not a harm), recorded in the wake and told to the editor.
+
+**06:24 wake:** the seventy's part 5 (70/13 to 16) read: clear; 70/12's two fixes hold; line 80 open with the writer. The seventy has now had a full rails read. Next: line 80; the key-register drawing in 13 when it lands; the hundred and fifty and the cast pages (board 022).
