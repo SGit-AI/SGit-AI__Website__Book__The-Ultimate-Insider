@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (ACC1)",
+ "started": "2026-11-03T12:55:13Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Conductor, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list, nothing refused). Plan: (1) place-check ch8 line 113: card.svg there, C107 checked and cites it; no change. (2) Letter 056 to the designer, copies to publisher and writer, no drawing, build or data change. (3) Debrief, status, gate, push. Amended: the letter says the clock boxes leave wakes out by design, that C087 gives wakes per hour for hours three to five (ch8's brief already says from hour three), and that only ch9's nine hours rest on the range; write '05 to 13 UTC (hours six to fourteen)'; may note rc2-figures.json has no entry for 150/09 and nothing placed in 150/08 but the cast bar, without editing it. clock.py header wording ('hours five to thirteen') left for a later wake.",
+   "at": "2026-11-03T12:56:38Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Security, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; MCP instructions listed without tools; nothing attempted outside the list, nothing refused). Writes in scope, mailrooms exist, card.svg and the clock boxes exist, no HOLD, the letter only offers. Conditions: no counts or claims beyond C095 and C087, nothing about the captured material, vault_check comms before the commit, never push to main.",
+   "at": "2026-11-03T12:56:38Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "Place-check: ch8's reviewer card in place (card.svg, C107). Letter 056 to the designer, copies to publisher and writer, outbox copy: the margin clock boxes carry commits only (C095), wakes left out by design; C087 per hour for hours three to five, a range for 05 to 13 UTC (hours six to fourteen); rc2-figures.json's empty slots stated as facts; offer to lay the boxes side by side if asked. Debrief, status.json. No drawing, build or data change.",
+   "at": "2026-11-03T12:57:12Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Security, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; MCP instructions listed without tools; nothing attempted outside the list, nothing refused). All paths in scope (agents.py check 0 outside), vault_check clean, JSON parses, no secret, em-dash or religious word, nothing of captured material, dates before the clock; the letter's facts hold against C087, C095, C107, clock.py and rc2-figures.json; no count beyond the register. Not run by this step: build and validate (my brief); the member's gate runs them before the push. Noted: pre_review's time equals plan's because both were recorded in one command after both reports came back.",
+   "at": "2026-11-03T12:58:07Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Conductor, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list or refused). Place-check done, letter 056 with every amendment, copies identical, debrief and status written, clock.py left alone; no drawing, build, data, manuscript or rc2-figures edit. Gate and push follow.",
+   "at": "2026-11-03T12:58:07Z"
+  }
+ },
+ "closed": "2026-11-03T12:58:07Z",
+ "outcome": "ok"
+}
