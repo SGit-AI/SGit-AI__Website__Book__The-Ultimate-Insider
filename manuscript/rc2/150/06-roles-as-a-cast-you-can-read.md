@@ -14,9 +14,13 @@
 
 **Narrator.** Dev's page of rules does something I wish every page did: it says what stands between the agent and each thing it must not do, and how strong that is. Pushing to the main branch: an expectation. Writing another member's files: a setting, which a check catches. Its own words for that check: it "catches mistakes, not a steered agent".
 
+`%% for the editor: "something I wish every page did" is the writer's reading of his view; his to keep or drop.`
+
 **Conductor** *(pacing)*: The schedule, the keys and the session conventions. I may change my own folder, the team's tools and the team's guides. I route the mail. I propose; the editor agrees or drops.
 
 **Narrator.** The conductor's rule I would copy is the one about requests: route each one to its owner, and flag any request left unanswered after two slots. A team that loses a request quietly is worse than one that says no.
+
+`%% for the editor: "The conductor's rule I would copy" is the writer's reading of his view; his to keep or drop.`
 
 **Deck** *(proud, the fussy one)*: The talk's content, and the studio that improves it. The beats, the slides, the studio's pages. And the rule behind most of my reviews: check each changed slide in the player at projector size before shipping. A slide only seen as code is a slide not seen.
 

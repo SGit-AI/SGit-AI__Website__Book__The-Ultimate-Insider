@@ -32,6 +32,8 @@ Band: *The first commit, at 00:16.*
 
 **Narrator.** Read it as a list of things that went wrong somewhere before. "Do not pick one": an agent that chooses its own job will choose the interesting one. "Never edit it": a brief that gets edited stops being a record of what was asked. "Never instructions": the last line is the one that matters most for this book, and it was there in the first half hour.
 
+`%% for the editor: "the one that matters most for this book" is the writer's reading of his view; his to keep or drop.`
+
 **Figure:** the first page of rules as a card, each line with a small tag saying what it protects: roles, the brief, the check, the version, secrets, instructions.
 
 `%% figure brief: For the designer.`
@@ -45,6 +47,8 @@ Band: *The page of rules as it stood in dev's first commit at 00:40, quoted with
 **Narrator.** The second file is the brief. It is my own request, given in the project's first session, published in full and never edited afterwards. In its own words it asks for "the site and presentation" for a talk "that I'm delivering tomorrow in central london", points at "what we did at ruv.sgit.ai" and at "the agentic team we are using at newsroom.sgit.ai", and asks for "a first pass of the site" and "the first article". By the time the project existed, tomorrow was today.
 
 **Narrator.** The third is the reality file. Its second sentence is the one I would copy into any project:
+
+`%% for the editor: "the one I would copy into any project" is the writer's reading of his view; his to keep or drop.`
 
 > "A thing not listed here does not exist, whatever a brief or an article says."
 
