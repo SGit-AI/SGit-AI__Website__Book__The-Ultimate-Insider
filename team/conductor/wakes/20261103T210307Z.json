@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Both letters copied to done; status state and done updated; vault_check clean. Files written only after the gate printed.",
    "at": "2026-11-03T21:04:17Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "clean",
+   "comment": "Reviewer agent: 4 files in scope, done copies byte-identical, vault_check and validate clean, status matches publisher__046. Note: wake.py records whole seconds, so gate and writes share 21:04:16 and their order cannot be proved from the record; wake.py refuses work without gate_ok. Sub-second times would make it provable.",
+   "at": "2026-11-03T21:05:36Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "as-planned",
+   "comment": "Reviewer agent: filing and status as planned; the editor told in the reply; nothing unplanned.",
+   "at": "2026-11-03T21:05:36Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T21:05:36Z",
+ "outcome": "ok"
 }
