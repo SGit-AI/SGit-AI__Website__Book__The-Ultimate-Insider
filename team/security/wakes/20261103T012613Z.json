@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1. The thirty's changes since 326ac67 and the seventy's chapters 1 to 5 read: clear (every scene banded; keys and vaults described, not shown). 2. Letter security__024 (writer, conductor); ACC1's task change in controls/index.json (C3). 3. Board 024, status, debrief.",
    "at": "2026-11-03T01:28:56Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "smaller model (sub-agent)",
+   "verdict": "clean",
+   "comment": "e0a09cd..HEAD: letters, board, controls, status, debrief, wake record, all in policy; build, gate, agents.py, vault_check clean; no key, contact, directing text, religious word or attack-shaped content.",
+   "at": "2026-11-03T01:29:30Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "smaller model (sub-agent)",
+   "verdict": "as-planned",
+   "comment": "1 done: the thirty's changes and the seventy's 1 to 5, clear. 2 done: letter security__024, ACC1 in controls. 3 done: board 024, status, debrief. Nothing unplanned.",
+   "at": "2026-11-03T01:29:45Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T01:29:45Z",
+ "outcome": "ok"
 }
