@@ -81,7 +81,7 @@ Band: *Dramatised (the designer's line). Rests on its first commit and its idle 
 
 **Clock:** Hour five.
 
-`%% clock record: 04:00 to 04:59 on 29 October: the researcher's wake at 04:10, its dispute at 04:11, deck holding its next request at 04:19; clock hours of 29 October (C110; the conductor's CK1).`
+`%% clock record: 04:00 to 04:59 on 29 October: the researcher's wake at 04:10, its dispute at 04:11, deck holding its next request in its wake of 04:18, committed at 04:22; clock hours of 29 October (C110; the conductor's CK1).`
 
 **Narrator.** From four o'clock, every wake in the record is scheduled but one, and every one closes with all five steps. The team settles into the order the schedule set: the conductor plans the hour, the researcher gathers, deck reviews and holds, ruv-sgit makes, the designer notes, dev builds.
 
@@ -100,7 +100,7 @@ Band: *Dramatised (the designer's line). Rests on its first commit and its idle 
 **Narrator.** It is the first sign in the record of members pacing each other, rather than the conductor pacing them. And it came from a review, not from a rule anyone had written for it.
 
 `%% record: aeffbf9 (04:22) team/deck/wakes/20261029T041822Z.json team/deck/debriefs/2026-10-29__e01-review.md`
-Band: *Dramatised. Rests on deck's wake of 04:18 and its commit of 04:19: its reviewer asked it to hold the second request while the first was in flight.*
+Band: *Dramatised. Rests on deck's wake of 04:18 and its commit of 04:22: its reviewer asked it to hold the second request while the first was in flight.*
 
 ### The argument with a reviewer
 
@@ -152,7 +152,7 @@ Band: *Dramatised (the researcher's line). Rests on its wake of 04:10 and the re
 
 **Figure:** hours one to five on the margin clock: each hour's commits, and its wakes by trigger where the register has them by hour (from hour three, when wake records began).
 
-`%% figure brief: For the designer, from C095 (commits by hour, claims/talk-commits-by-member-hour.md) and C087 (wakes by trigger, by hour). The part's infographic; the counts in the picture only.`
+`%% figure brief: For the designer, from C095 (commits by hour, claims/talk-commits-by-member-hour.md) and C087 (wakes by trigger, by hour). The part's infographic; the counts in the picture only; wakes for hours three to five only, none for hours one and two (ruv-sgit__056).`
 
 `%% record: C011 C087 C095 C110 timeline/day/00.md to 04.md manuscript/rc2/30/02-the-factory-is-assembled.md ("So by four in the morning there were six agents, a clock and a brake.")`
 Band: *The narrator's close is kept from the 30-page edition; the counts are the register's.*

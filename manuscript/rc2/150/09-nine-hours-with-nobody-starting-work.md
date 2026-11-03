@@ -6,7 +6,7 @@
 
 **Figure:** the nine hours as one strip, hour six to hour fourteen, each hour a box with its commits and its wakes by trigger: the margin clock's boxes laid side by side.
 
-`%% figure brief: For the designer, from C095 (commits by hour, claims/talk-commits-by-member-hour.md, hours 05 to 13 UTC) and C087 (wakes by trigger: "05 to 13: 5 or 6 scheduled an hour, no editor"). The counts in the boxes only, never in a line. The chapter's picture.`
+`%% figure brief: For the designer, from C095 (commits by hour, claims/talk-commits-by-member-hour.md, hours 05 to 13 UTC) and C087 (wakes by trigger: "05 to 13: 5 or 6 scheduled an hour, no editor"). The counts in the boxes only, never in a line: each box its hour's commits; the wakes said once in the caption as C087 gives them, since the register has a range, not a count, for each of these hours (ruv-sgit__056). The chapter's picture.`
 
 `%% record: f448345 (04:03, my last word of the night) team/conductor/briefs/2026-10-29__editor/feedback-briefs.md (its first line: about 13:50) C087 C095 C110`
 Band: *The strip is the register's; my two times are the commit of 04:03 and the brief's own first line.*
@@ -84,7 +84,7 @@ Band: *Dramatised (the conductor's line). Rests on the morning review and the re
 **Narrator.** And a lapse that stays in. From ruv-sgit's commit at a quarter to nine, many of its commits dropped the "@" from its name and the line saying which agent made them. They carry on that way, mixed with commits in the house form, to its last of the day. The register's count of commits by member was corrected for it afterwards. Chapter 10 has the conductor's notes about it.
 
 `%% record: eefc1d3 (08:21: its ask of the researcher held while that request is open) 15707dc (08:43, without the @ form or the Agent trailer) fc724df (18:40) C014 (corrected for it) timeline/day/08.md`
-Band: *Dramatised (deck's line). Rests on deck's wake of 08:18 and ruv-sgit's commits from 08:33.*
+Band: *Dramatised (deck's line). Rests on deck's wake of 08:18 and ruv-sgit's commits from 08:43.*
 
 ## Hours ten and eleven: a promise kept with nobody chasing it
 
