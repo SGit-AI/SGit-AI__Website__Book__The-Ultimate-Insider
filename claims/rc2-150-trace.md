@@ -105,6 +105,27 @@ researcher@book.the-ultimate-insider. Each chapter of `manuscript/rc2/150/` as t
 | 10 | The three notes of 09:21, 10:14 and 10:21, quoted | holds | word for word in `6b55cff`, `3f094f2` and `36e382b` |
 | 10 | ruv-sgit read both at 10:34; its commits through 13:41 still lacked the "@" | holds | the wake `20261029T103411Z.json`; `41d4757` 13:41:29 |
 
+## Chapters 11 and 12 (3 November 2026, the 14:32 wake)
+
+**In short:** everything traced holds. The counts were compared by their numbers.
+
+| Chapter | Line | Holds? | Why |
+|---|---|---|---|
+| 11 | 320 claims: 210, 55, 52, three; none said on stage | holds | C029, C030 |
+| 11 | The first page of rules on a card, word for word, one line left out | holds | `1f7c633:CLAUDE.md` (as in chapter 4) |
+| 11 | The release that went out at 01:19 after the refusal | holds | `24da366` 01:19:26; dev's debrief |
+| 11 | No version typed; deck's page gives the reason | holds | `team/deck/ROLE.md` line 25 |
+| 11 | The reality file "changed all day, last at 17:42"; its second sentence | holds | `70d4981` 17:42:40, its last change before `298be4e`; `REALITY.md` line 3 |
+| 11 | "None yet."; the brief unchanged; "central london" | holds | `BRIEF-CORRECTIONS.md` and `BRIEF.md` unchanged since `1f7c633` |
+| 12 | Clock note: commits in hour 14 UTC, 47; wakes 6 scheduled, 7 his | holds | C095's "all" row (47, not counting merges); C087 hour 14 |
+| 12 | "The player, from ruv.sgit.ai, working on an iPad. This is the main priority." | holds | `feedback-briefs.md` line 7 |
+| 12 | "we can still do a lot before 7 and I can wake the agents up when needed ..." | holds | `team/conductor/briefs/2026-10-29__editor/conductor-notes.md` line 7 |
+| 12 | The order changed at his word; routed at 14:07 | holds | `conductor-notes.md` (14:05); `c9ced4e` 14:07 (C104) |
+| 12 | The conductor's wake at 14:03, its pre-review "change" then go | holds | `20261029T140334Z.json`: its history holds a pre-review "change", the plan "AMENDED after the pre-review's change"; C023 |
+| 12 | Dev's wake at 14:17, the pane at 14:28; deck's live review 14:19 to 14:48, its idle wake; several runs at once by 14:59 | holds | dev's wake `141744Z`, `9a51c28` 14:28:47; deck's wakes `141943Z` and `144456Z`; `c1380c5` 14:59:00, `364a53b` 14:59:23 |
+| 12 | The storyteller at about 14:12, joined 14:15, first pass 14:19 | holds | C012; `7d0244d`; `df37797` |
+| 12 | The port at 15:07, build mode 15:16, the asks on a card, the last landed 18:37 | holds | `3314ffe`, `f20cfa8` 15:16:48, C105, C028 |
+
 ## Where this came from
 
-`manuscript/rc2/150/01` to `03` as on dev at 09:33 on 3 November; the talk's repository at `298be4e` and `a9c0b49`; C001, C011, C014, C015, C022, C028, C069, C072, C081, C087, C100, C102 to C105, C109, C111.
+`manuscript/rc2/150/01` to `12` and `90`, each as on dev at the wake that traced it (3 November 2026, from 09:32 to 14:32); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).

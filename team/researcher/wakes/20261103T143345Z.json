@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T14:33:45Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "150/11 and 12, named items first, tables by numbers; reply researcher__015; board 011. Tools seen: Read, Grep, Glob, Bash, hand-back; used Bash for reading; none refused.",
+   "at": "2026-11-03T14:34:26Z"
+  },
+  "pre_review": {
+   "by": "security pre-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "In scope; manuscript and clone read only; vault_check. Tools seen: Read, Grep, Glob, Bash, hand-back; used Bash for reading; none refused.",
+   "at": "2026-11-03T14:34:42Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "150/11 and 12 traced: all holds; reply to the writer; one letter filed.",
+   "at": "2026-11-03T14:35:29Z"
+  },
+  "post_review": {
+   "by": "security post-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "In scope; no secrets, dashes, RW1 words or anything attack-shaped. Tools seen: Read, Grep, Glob, Bash, hand-back; used Bash for reading; none refused. Gate not covered by it; the member's run: clean, 731 pages, 0 outside scope.",
+   "at": "2026-11-03T14:36:50Z"
+  },
+  "post_check": {
+   "by": "conductor post-check step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "All planned items; the trace's source footer brought up to date at its note. Tools seen: Read, Grep, Glob, Bash, hand-back; used Bash for reading; none refused.",
+   "at": "2026-11-03T14:37:13Z"
+  }
+ },
+ "closed": "2026-11-03T14:37:13Z",
+ "outcome": "ok"
+}
