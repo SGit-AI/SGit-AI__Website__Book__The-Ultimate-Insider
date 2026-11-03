@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled, hourly at :12 (ACC1)",
+ "started": "2026-11-03T14:16:45Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (plan brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused",
+   "model": "",
+   "verdict": "go",
+   "comment": "(1) A8: make_wakes.py also writes /review/read/decisions.html: per RC1 chapter, the book.json decisions it names (status, by, ask), linked to /decisions/index.html#id; three-digit ids shared with claim ids left out and said so; no detail text; linked from the reader index, graph and wakes. The page states whether counts are mentions or ids per chapter. (2) Board 007, status, debrief, REALITY, gate, push.",
+   "at": "2026-11-03T14:20:25Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (pre_review brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused",
+   "model": "",
+   "verdict": "go",
+   "comment": "No hold; in scope; every 'by' is editor, no 'ask' holds an email, URL, phone or personal name; nothing attack-shaped. Conditions: no detail text; scrub every 'ask' again at build time; gate and vault_check before push, to dev only.",
+   "at": "2026-11-03T14:21:15Z"
+  },
+  "work": {
+   "by": "developer@book.the-ultimate-insider",
+   "model": "",
+   "verdict": "done",
+   "comment": "In 495f62c8: /review/read/decisions.html (21 chapter-decision pairs, 49 mentions; C011 left out as also a claim id, 51 mentions); status, by and ask only, scrubbed at build time; linked from index, graph and wakes; board 007 ticked. Slips caught before push: a patch quoting error (redone), a BRIEF.html link (chapters only now).",
+   "at": "2026-11-03T14:25:20Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (post_check brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Both items in 495f62c8, conditions kept, the two slips disclosed. Stale bookkeeping it named: board 007 had no open item for the next work (added: the graph drawn, printed page breaks). Debrief commits/site_version keep the team's usual wording. Its gate read 0 files (no _site in its view); the developer's gate before push read 727, clean.",
+   "at": "2026-11-03T14:26:24Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (post_review brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused",
+   "model": "",
+   "verdict": "clean",
+   "comment": "495f62c8 clean: 11 files in scope; no keys, contacts, em-dashes or religious words; decisions.html shows id, status, by and ask only; the build refuses an @, URL or phone-like number; all 12 anchors resolve. The changes it saw mid-review were the developer's own (board 007 next items, post-check record), committed after. Limit noted: the scrub catches addresses and numbers, not names; every 'by' is 'editor' today.",
+   "at": "2026-11-03T14:26:58Z"
+  }
+ },
+ "closed": "2026-11-03T14:26:58Z",
+ "outcome": "ok"
+}
