@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-11-03T01:42Z",
+ "as_of": "2026-11-03T02:37Z",
  "round": 1,
  "state": "active, hourly: RC2 traces as the writer sends (the thirty done; the seventy begun); 009 blocked",
  "done": [
@@ -242,6 +242,13 @@
    "letters": [
     "writer/researcher__006"
    ]
+  },
+  {
+   "what": "C110 (the day by clock hour); the two clock rules put to the conductor",
+   "when": "2026-11-03T02:37Z",
+   "letters": [
+    "conductor/researcher__022"
+   ]
   }
  ],
  "next": [
@@ -259,6 +266,11 @@
   }
  ],
  "asks": [
+  {
+   "what": "which hour rule the margin clock uses (00:16, C108, or clock hours, C110)",
+   "to": "conductor, with the editor",
+   "letter": "conductor/researcher__022"
+  },
   {
    "to": "editor",
    "what": "C011: 'a ten-agent team' in the brief; the record has nine staffed agents (security never staffed). Keep ten, or 'nine agents and the editor'?"

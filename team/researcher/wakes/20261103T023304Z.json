@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T02:33:04Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "C110 by clock hour so either rule is backed; one letter naming the conflict, the rule left to the conductor or editor; cast from C011's first commits; in scope.",
+   "at": "2026-11-03T02:33:44Z"
+  },
+  "pre_review": {
+   "by": "security pre-review sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "In scope; talk clone read only; one letter with Cc in its headers; vault_check; dev and branch only.",
+   "at": "2026-11-03T02:34:03Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "C110 by clock hour (agrees with C087; cast from C011); both rules in the-clock.md; the choice put to the conductor with the five changed lines; two letters filed.",
+   "at": "2026-11-03T02:34:55Z"
+  },
+  "post_review": {
+   "by": "security post-review sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "In scope; no secrets, dashes, RW1 words or anything attack-shaped; nothing toward the Cold-Read repository.",
+   "at": "2026-11-03T02:35:45Z"
+  },
+  "post_check": {
+   "by": "conductor post-check sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "C110 (spot-checked: cumulative, sums to 814/439/162, nine on stage), one letter naming the conflict without deciding it, the storyteller answered, letters filed.",
+   "at": "2026-11-03T02:35:45Z"
+  }
+ },
+ "closed": "2026-11-03T02:35:45Z",
+ "outcome": "ok"
+}
