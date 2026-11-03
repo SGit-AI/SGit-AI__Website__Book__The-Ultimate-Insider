@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Change taken: the paths named, all in comms/mail/conductor/ and team/conductor/; nothing decided; nothing private.",
    "at": "2026-11-03T13:05:08Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "Three letters filed; status.",
+   "at": "2026-11-03T13:05:58Z"
+  },
+  "post_review": {
+   "by": "reviewer agent (haiku)",
+   "model": "claude-haiku-5-5",
+   "verdict": "clean",
+   "comment": "Only the named paths; nothing private.",
+   "at": "2026-11-03T13:06:29Z"
+  },
+  "post_check": {
+   "by": "reviewer agent (haiku)",
+   "model": "claude-haiku-5-5",
+   "verdict": "as-planned",
+   "comment": "As planned; 'the full book to chapter 10' is from publisher commit f8216752.",
+   "at": "2026-11-03T13:06:29Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T13:06:29Z",
+ "outcome": "ok"
 }
