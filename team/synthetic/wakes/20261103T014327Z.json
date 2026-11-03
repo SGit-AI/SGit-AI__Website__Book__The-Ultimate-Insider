@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, 01:42 London",
+ "started": "2026-11-03T01:43:27Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Take conductor__024 (ACC1 hourly, cron already set by the conductor), writer__029, developer__021. RC2 build fails on dev (3 drawings for chapter 1's 4 Figure lines): build in the scratchpad with a local figures copy, tell the publisher. Pages to images; the three named readers read layout and pictures into review/synthetic/rc2/30/layout-1/; summary, letters to publisher and designer, conductor on Cc; status, debrief, REALITY, issue 008.",
+   "at": "2026-11-03T01:44:20Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Writes in scope; publishing/ untouched; the RC2 PDF not committed; letters to team members only; nothing to the Cold-Read repository; readers labelled synthetic; vault_check before commit.",
+   "at": "2026-11-03T01:44:20Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
