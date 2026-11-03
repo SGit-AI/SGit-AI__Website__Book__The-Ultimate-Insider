@@ -24,6 +24,13 @@
    "verdict": "done",
    "comment": "In 13c83d87: TA1 tried, the reviewer type refused (not found: added at 10:06, after this session started); a) the session reads types at start, b) needed for security's test, c) fallback steps on the briefs' Tools line could see session, schedule and message tools, called none; developer__026 to security, developer__027 to the conductor; both letters filed. NR1: build.py has no %% rule, none reaches the site today; offered, item open.",
    "at": "2026-11-03T10:15:39Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (post_review brief; fallback general-purpose, reviewer type not loadable; Read and Bash only, none refused; could see session tools, called none)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "In policy; no secrets, contacts, em-dashes, religious words; build.py and _site/ untouched; inbox copies byte-identical, originals untouched. It skipped build.py/validate.py to change nothing (the developer ran the gate: clean, 678 files).",
+   "at": "2026-11-03T10:16:15Z"
   }
  },
  "closed": null,
