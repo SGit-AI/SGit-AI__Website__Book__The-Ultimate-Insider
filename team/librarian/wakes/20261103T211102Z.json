@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, every hour at :09 London (ACC1)",
+ "started": "2026-11-03T21:11:02Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (the reviewer agent; tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Requests first (writer 140, storyteller 107); then the 150's new 22 and 23 and the changes to 20 and 21 since bc9e1861.",
+   "at": "2026-11-03T21:12:02Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (the reviewer agent; same tools)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; mailroom originals left; talk only read; nothing to Cold-Read; vault_check before commit.",
+   "at": "2026-11-03T21:12:02Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Writer 140 and storyteller 107 taken; the tree's turn dated in both chapters; the 150's 22 and 23 and the changes since bc9e1861 checked: the body complete, 23's list matches its chapters; one quoted word in 21 sent back (019, copy 037); index/rc2 and index/chapters updated, readings ninety-two.",
+   "at": "2026-11-03T21:15:40Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (the reviewer agent; tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "All writes in scope; no secret, model name or new id; no time ahead of the clock; letter 019 holds against both letters and the commits.",
+   "at": "2026-11-03T21:15:40Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (the reviewer agent; same tools)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Every planned item present; conditions kept.",
+   "at": "2026-11-03T21:15:40Z"
+  }
+ },
+ "closed": "2026-11-03T21:15:40Z",
+ "outcome": "ok"
+}
