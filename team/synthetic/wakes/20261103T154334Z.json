@@ -17,8 +17,30 @@
    "verdict": "go",
    "comment": "Idle; only team/synthetic/**; no hold, no secret. Conditions: gate before push, dev only, nothing beyond the planned files. Tools: Read, Bash; nothing refused.",
    "at": "2026-11-03T15:44:23Z"
+  },
+  "work": {
+   "by": "synthetic",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Idle: status.json updated; gate and scope clean.",
+   "at": "2026-11-03T15:45:30Z"
+  },
+  "post_review": {
+   "by": "security sub-agent, as the reviewer type (post_review.md)",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Only status.json and the wake record, in scope; no key or personal detail; comms unchanged; gate clean (742); 0 outside scope. Tools: Read, Grep, Glob, Bash; nothing refused. It reported writing its build log to /tmp/claude-0/b.log (outside the repository), see tools_note.",
+   "at": "2026-11-03T15:46:25Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent, as the reviewer type (post_check.md)",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Wake record and status in 536647a2; only planned files; push to dev after the close. Tools: Read, Bash; nothing refused.",
+   "at": "2026-11-03T15:46:25Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T15:46:25Z",
+ "outcome": "ok",
+ "tools_note": "The post-review step (reviewer type) said itself that one Bash call redirected the build log to /tmp/claude-0/b.log, outside the repository and the scratchpad. Not a tool outside its list, and nothing refused; but its brief says change no file. a) Why: to read the build's output in parts. b) Needed: no; the gate's last line is enough. c) Side effect of not doing it: none. A temporary file only; the repository is unchanged by it."
 }
