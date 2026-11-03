@@ -57,3 +57,5 @@ The hour's revisions to 150/04 to 08 and 70/03, 04, 06, 08 read after the post-c
 **19:24 wake:** the 150's 20 clear (no key, session id or fingerprint printed; the handover described, its one identifying line left out); 18's two counts now match C112; lab 29's asks card clear. The stuck deploy run recorded under C6 (the conductor's 045). No letter needed.
 
 **20:24 wake:** the 150's 21 clear; the designer's two chapter 12 drawings clear; one candidate for 21's third failure offered to the historian (the TA1 case), its choice (security__043).
+
+**21:24 wake:** the full book's body complete; 22 and 23 clear on the rails (the Web Summit team a plan, not yet run; step 1's "put nothing private in it"; the price traced and dated); the designer's two new drawings clear. The historian keeps its own third failure for 21, as is its call. No letter needed.

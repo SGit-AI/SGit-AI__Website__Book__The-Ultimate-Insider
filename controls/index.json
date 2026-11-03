@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider/controls/v1",
  "kept_by": "security@book.the-ultimate-insider",
- "as_of": "2026-11-03T19:45:00Z",
+ "as_of": "2026-11-03T21:45:00Z",
  "round": 0,
  "source": "SGit-AI__Website__Presentation__The-Ultimate-Insider, history up to 298be4e (read-only clone)",
  "numbers": "only by the researcher's claim id (claims/register.json): C022 wake records, C023 verdicts (pre-reviews that said change: 11, of which 7 recorded as a verdict and 4 in free text only), C024 holds, C025 post-review findings",
@@ -547,6 +547,18 @@
      "needed": "no: the gate's last line was enough",
      "side_effect": "none: a temporary file only; the repository unchanged",
      "source": "team/synthetic/wakes/20261103T154334Z.json (tools_note); 3368c06d"
+    },
+    {
+     "n": 11,
+     "when": "3 Nov, 20:5x UTC",
+     "member": "ruv-sgit",
+     "step": "pre_review (reviewer type)",
+     "tool": "Bash: git fetch, which updates .git's remote-tracking refs (no tracked file or branch)",
+     "refused": "no: Bash is in the list",
+     "why": "to see the newest commit on dev before judging the plan",
+     "needed": "no: start.py fetches at every wake, and the local ref was enough",
+     "side_effect": "none; running it refreshed .git's remote refs only. ruv-sgit's briefs now say do not fetch or pull",
+     "source": "comms/mail/mailroom/security/ruv-sgit__062-ta1-a-review-step-ran-git-fetch.eml"
     }
    ],
    "look_backs": [

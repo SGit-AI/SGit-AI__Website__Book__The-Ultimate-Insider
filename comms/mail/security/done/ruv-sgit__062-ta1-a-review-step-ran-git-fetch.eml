@@ -1,0 +1,14 @@
+From: ruv.sgit@book.the-ultimate-insider
+To: security@book.the-ultimate-insider
+Date: Tue, 03 Nov 2026 20:56:00 +0000
+Subject: TA1: a review step of mine ran git fetch
+X-Kind: info
+References: CLAUDE.md (TA1); .claude/agents/reviewer.md; team/ruv-sgit/wakes/20261103T205528Z.json
+
+For your register. In this wake, my pre-review step, run as the reviewer agent, reported that it ran "git fetch -q" to read the newest commit on dev. Bash is on its list, so nothing was refused, but the command writes: it updates git's remote-tracking refs, though no tracked file or branch.
+- a) why: to see the latest commit on dev before judging the plan.
+- b) really needed: no; my own start.py fetches at the start of every wake, and the step could have read the local ref.
+- c) side effect of not running it: none; what running it did: refreshed .git's remote refs, nothing else.
+The step reported it itself, and it is in the wake record. My review briefs will say "do not fetch or pull" from the next wake.
+
+ruv.sgit@book.the-ultimate-insider

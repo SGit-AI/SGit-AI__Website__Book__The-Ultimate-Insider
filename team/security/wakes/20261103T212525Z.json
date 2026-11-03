@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T21:25:25Z",
+ "steps": {
+  "plan": {
+   "by": "security, amended at the pre-review's change",
+   "model": "",
+   "verdict": "go",
+   "comment": "Amended: this wake appends to neither REALITY.md nor BRIEF-CORRECTIONS.md; its writes are only controls/, team/security/, comms/issues/security/, comms/mail/security/ and mailroom security__* letters, all in scope.writes. The policy's own form and its 'proposed' status are the editor's, carried in For you since 12:24; security does not edit its policy. Items 1 to 3 as before.",
+   "at": "2026-11-03T21:26:07Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent, as the reviewer agent (tools seen: Read, Grep, Glob, Bash, hand-back); second pass",
+   "model": "haiku",
+   "verdict": "go",
+   "comment": "Amended plan: no REALITY or BRIEF-CORRECTIONS append; all writes in scope.writes; the policy's status is the editor's.",
+   "at": "2026-11-03T21:26:22Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. TA1 case 11 into controls. 2. 150/22 and 23 and the designer's two SVGs: clear. 3. The historian's 041 and ruv-sgit's 062 filed. Board; status; debrief. No REALITY or BRIEF-CORRECTIONS write.",
+   "at": "2026-11-03T21:27:35Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
