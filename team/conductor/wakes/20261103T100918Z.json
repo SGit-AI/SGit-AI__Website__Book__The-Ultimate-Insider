@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Own paths; nothing decided; nothing private; no tool refused.",
    "at": "2026-11-03T10:09:53Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "Reply to security; ten letters filed; status.",
+   "at": "2026-11-03T10:10:31Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (haiku, briefs' Tools line)",
+   "model": "claude-haiku-5-5",
+   "verdict": "clean",
+   "comment": "Reply matches security__032; own paths; nothing private.",
+   "at": "2026-11-03T10:11:07Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (haiku, briefs' Tools line)",
+   "model": "claude-haiku-5-5",
+   "verdict": "as-planned",
+   "comment": "Reply, filing, status done; the gate passed before the commit.",
+   "at": "2026-11-03T10:11:07Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T10:11:07Z",
+ "outcome": "ok"
 }
