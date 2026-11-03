@@ -12,6 +12,8 @@
 
 `%% record: timeline/day/15.md ("This is the hour the team changes most, and the change is the editor's")`
 
+`%% for the editor: "every change in it was mine" is the writer's reading of his view, resting on the historian's day file; his to keep or drop.`
+
 **Narrator.** *What the talk is.* At about three I made my decisions on the talk's frame, its third act and its new beats, and the conductor committed and routed them at 15:16. My answer to the researcher's objection, in the last chapter, is one line of that file.
 
 **Narrator.** *How long a member may work.* At 15:21 the conductor raised the limit on a wake's work step, at my word, from the night's short step to a long one. The register has both lengths. My reason, in the commit:

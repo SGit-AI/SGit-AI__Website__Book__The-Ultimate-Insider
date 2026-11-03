@@ -131,7 +131,7 @@ Band: *The commits as they stand, and the register's count of them.*
 
 **Figure:** the misses as cards on one page, each with its cost in a line and its id in small type.
 
-`%% figure brief: For the designer. One card per section above, in order; the ids in small type (C027, C031, C025, C014, C029, C030).`
+`%% figure brief: For the designer. One card per section above, nine in order; under each, its id or record in small type: the lock (C027), the parts (C027), the moment (3342cff), the freeze (C031), the captures (C025, C068), the printed key (the conductor's debrief), the status (C027), the unnamed work (C014), the claims (C029, C030).`
 
 `%% record: C029 C030 (where each of the three was) 78d517d (15:16, my answer to R5)`
 Band: *Dramatised (the researcher's line). Rests on the talk's register of claims.*
