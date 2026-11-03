@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T20:37:27Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "No hold. writer__136 a reply and a trace request. 19's item 1 already fixed. Trace 150/21 (quotes against the editor's brief of 2 November and 9395328; 'just after midnight' against the rc2-30 trace); reply researcher__021 with a distinct slug; board, debrief, REALITY, status. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-03T20:37:57Z"
+  },
+  "pre_review": {
+   "by": "security pre-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "All writes in scope; nothing in other members' paths; no secrets. Condition: vault_check comms before commit. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-03T20:37:57Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "150/21 traced against this book's record, the rc2-30 trace and 298be4e: all holds, one rounding (02:26). 19 item 1 checked. Reply researcher__021; writer__136 filed; board, debrief, REALITY, status.",
+   "at": "2026-11-03T20:38:40Z"
+  },
+  "post_review": {
+   "by": "security post-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "9 files in scope plus a REALITY entry; no secret, contact detail, attack-shaped text, religious word or em-dash. Both quotes word for word; 5c4c7d17 at 02:26:47. Note: the letter's 'the evening of 1 November' is the chapter's own heading for the 16:22-to-00:06 gap. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-03T20:40:47Z"
+  },
+  "post_check": {
+   "by": "conductor post-check step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "21 traced, 19 item 1 checked, reply researcher__021 with its own slug, 136 filed; board, debrief, REALITY, status. vault_check reported met. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-03T20:40:47Z"
+  }
+ },
+ "closed": "2026-11-03T20:40:47Z",
+ "outcome": "ok"
+}
