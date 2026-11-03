@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "150/22, 23 and 91 read (letter 108); the full book whole as a draft, to the conductor (109); mail filed; status and debrief. The line read ran as the reviewer agent; no tool refused. Build and gate clean, 0 outside scope, vault_check clean.",
    "at": "2026-11-03T21:43:06Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (as the reviewer agent, steps 4 and 5 in one call, UL1)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "9 files in scope; 0 outside scope; vault_check clean; no key, token, session id, fingerprint, personal detail, religious word, em-dash or directive text.",
+   "at": "2026-11-03T21:43:34Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (as the reviewer agent, steps 4 and 5 in one call, UL1)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Letters 108 and 109, mail filed, debrief and status. No tool refused.",
+   "at": "2026-11-03T21:43:34Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T21:43:34Z",
+ "outcome": "ok"
 }
