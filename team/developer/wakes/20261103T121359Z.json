@@ -31,8 +31,15 @@
    "verdict": "as-planned",
    "comment": "Both items in 9313b464, pre-review conditions held, rebuilt drafts not hand-edited. Stale status state line corrected before close. (Its gate count of 300 files was from a partly built _site/; the developer's gate before push read 704, clean.)",
    "at": "2026-11-03T12:18:19Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (post_review brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused, none needed",
+   "model": "",
+   "verdict": "clean",
+   "comment": "All 21 paths in scope; no keys, contacts, em-dashes, religious words or %%; links only to github.com/SGit-AI and the book; no network calls; comms only the developer's own board. Ran build and validate (clean, 704), left the tree clean. Not checked against the drafts: three rc2-70 pages and two QR texts regenerated from newer drafts.",
+   "at": "2026-11-03T12:19:00Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T12:19:00Z",
+ "outcome": "ok"
 }
