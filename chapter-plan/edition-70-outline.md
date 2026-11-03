@@ -162,7 +162,7 @@ The study's part 5, chapter 15 (T16, T3), told with this team.
 3. **The reviewer as a second reading:** "a second reading, not a second identity" *(record)*, and what a member standing apart from the team would have added; security's empty chair.
 4. **The locks that never closed:** a control built and not applied (C027) as the most ordinary failure of all.
 5. **The team as the insider:** the talk's argument turned on the factory itself: these agents had an insider's reach, and the brakes were rules, reviews and one file. Said plainly, with the benign team, and nothing that shows how to get round any of it.
-6. **This time, security came:** the book's own team, where a security member reads every chapter on the rails (from part 5).
+6. **This time, security came:** the book's own team, where a security member reads every chapter on the rails as it lands (security's letter 005: chapters go online for review before it reads them).
 
 **Picture:** the state machine (running, held, released) with the one transition marked. **Map:** the two brakes on the value chain (the usage limit outside the team; the hold inside). **Do this now:** the thirty's (who may stop your factory, who may restart it).
 **Rests on:** `manuscript/rc2/30/04-the-stop.md`; `timeline/quotes.md` (18:11); `timeline/after-the-day.md`; the register C005, C006, C024, C027, C029, C030, C031, C065, C089, C100; the strip scripts in `cast/scripts/`. The Cold-Read chapter is not here (D6-6: the full book only).

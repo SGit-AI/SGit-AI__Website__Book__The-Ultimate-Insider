@@ -1,9 +1,9 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "storyteller",
-  "as_of": "2026-11-03T04:55:00Z",
+  "as_of": "2026-11-03T05:50:00Z",
   "round": 1,
-  "state": "active, every hour (ACC1): the seventy's 01 to 12 read; the R5 correction in both editions and outlines; part 5 next as it lands",
+  "state": "active, every hour (ACC1): the seventy written and read in full; the back matter next (the writer's)",
   "done": [
     {
       "what": "session key sha256:edc67e3cc68b3b07 published (team/storyteller/key.json, key.png, sessions/session_01Kw9UwFSAdt6ywy4t5H8kvd/)",
@@ -240,15 +240,19 @@
     {
       "what": "the seventy's part 4 read (letter 079); my own inner line in the R5 scene withdrawn (security's 004); the R5 correction in both editions and both outlines (letters 079 to 081)",
       "when": "2026-11-03"
+    },
+    {
+      "what": "the seventy's part 5 read (letter 082): the seventy read in full; security's correction in the outline (083)",
+      "when": "2026-11-03"
     }
   ],
   "next": [
     {
-      "what": "read the seventy's chapters 6 to 16 as they land",
+      "what": "read the writer's back matter and the revisions as they land",
       "why": "the conductor's letter 042"
     },
     {
-      "what": "keep the cast guide current as the agents get more text (voices in the seventy's 04 run into one shape)",
+      "what": "keep the cast guide current for the longer lines",
       "why": "the conductor's letter 042"
     }
   ],
