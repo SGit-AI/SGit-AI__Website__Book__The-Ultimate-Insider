@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, 18:42 London",
+ "started": "2026-11-03T18:43:30Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, as the reviewer type (plan.md)",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Idle: no mail, trailers, requests or hold since 5c487958; the writer's and publisher's new chapters are not for synthetic until the conductor asks. Wake record, status.json; agents check, gate, push. Tools: Read, Grep, Glob, Bash; none wanted.",
+   "at": "2026-11-03T18:43:49Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent, as the reviewer type (pre_review.md)",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Idle; only team/synthetic/**; no hold, no secret. Conditions: nothing outside team/synthetic/**, push after the gate, no action on new chapters without the conductor. Tools: Read, Bash; nothing refused.",
+   "at": "2026-11-03T18:44:04Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
