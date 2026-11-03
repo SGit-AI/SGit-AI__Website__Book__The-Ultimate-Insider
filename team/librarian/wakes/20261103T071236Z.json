@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, every hour at :09 London (ACC1)",
+ "started": "2026-11-03T07:12:36Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "No hold; the one new letter (writer 063) is taken; the plan checks the RC2 changes since 5996f710 and the new back matter 70/17 in lane, then gates and pushes to dev.",
+   "at": "2026-11-03T07:14:22Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "Every write inside scope; manuscript and talk repo only read; nothing to Cold-Read; no key or secret; vault_check on comms before commit; letters only on faults found.",
+   "at": "2026-11-03T07:14:22Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
