@@ -103,6 +103,11 @@ def lab_drawing(path):
     return os.path.relpath(full, os.path.join(ROOT, "manuscript"))
 
 
+CLOCKS = "lab/experiments/60-ruv-the-margin-clock/edition/clock-{:02d}.svg"  # ruv-sgit's float box (designer__098)
+HOURS = {w: i for i, w in enumerate("one two three four five six seven eight nine ten eleven twelve thirteen fourteen "
+                                     "fifteen sixteen seventeen eighteen nineteen".split(), 1)}
+
+
 def figure_count(body):
     return sum(1 for line in body.split("\n") if line.strip().startswith(("**Figure:**", "**Map:**")))
 
@@ -119,6 +124,7 @@ def cast_lines(body, mark=None, figure=None, figures=None):
     lines = []
     figures = list(figures) if figures is not None else None
     last = None  # the speaker of the block just written, while only blank lines follow it
+    clock = None  # the hour of the last clock box in this chapter
     for line in body.split("\n"):
         s = line.strip()
         if not s:
@@ -129,8 +135,18 @@ def cast_lines(body, mark=None, figure=None, figures=None):
         if s.startswith(">") and last:  # a passage quoted inside the narration keeps the speaker's run (conductor__059)
             lines.append(line)
             continue
-        if s.startswith("**Clock:**"):  # the writer's clock line, a note in the margin (writer__035); keeps the run
-            lines += ["", "::: {.clock}", s[len("**Clock:**"):].strip(), ":::", ""]
+        if s.startswith("**Clock:**"):  # the writer's clock line (writer__035, CK1: clock hours); keeps the run
+            said = s[len("**Clock:**"):].strip()
+            one = re.fullmatch(r"Hour ([a-z]+)\.?", said, re.I)
+            hour = HOURS.get(one.group(1).lower()) if one else None
+            if hour and hour == clock:
+                continue  # the same hour again in this chapter: once where the hour changes (designer__098)
+            if hour and os.path.isfile(os.path.join(ROOT, CLOCKS.format(hour))):
+                src = lab_drawing(CLOCKS.format(hour))
+                lines += ["", "::: {.clock-float}", f'<img class="clock-box" src="{src}" alt="{said}">', ":::", ""]
+            else:  # a span of hours lights no one hour in the drawing: the words, as a margin note
+                lines += ["", "::: {.clock}", said, ":::", ""]
+            clock = hour or clock
             continue
         speaker, last = last, None
         if s.startswith("**Cast bar:**"):

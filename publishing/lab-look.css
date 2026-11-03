@@ -148,3 +148,9 @@ section[id^="where-this-came-from"] { margin-top: 6pt; }
 section[id^="where-this-came-from"] > h2 { font-size: 9pt; margin: 6pt 0 2pt; }
 section[id^="where-this-came-from"] p { font-size: 8pt; line-height: 1.3; margin: 0 0 3pt; }
 nav#TOC > h2#toc-title { font-size: 14pt; margin: 0 0 8pt; }
+
+/* 3 November 2026: ruv-sgit's clock box (LAB 60) floated right in the text column where the hour changes, the text
+   wrapping beside it (the designer's 098; CK1, clock hours); a span of hours stays a margin note (.clock) */
+.clock-float { float: right; clear: right; width: 38mm; margin: 2pt 0 6pt 5mm; }
+.clock-float p { margin: 0; }
+img.clock-box { display: block; width: 38mm; height: auto; }
