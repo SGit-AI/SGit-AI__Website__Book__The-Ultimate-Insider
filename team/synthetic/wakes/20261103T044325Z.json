@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, 04:42 London",
+ "started": "2026-11-03T04:43:25Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1) The runner for gen-z-founder and gen-x-founder on their new review pages at three viewports, the tablet column checked; run note; reply to the developer. 2) RC2 rebuilt in the scratchpad and rechecked (chain map, team cards, five steps, clock, short pages); recheck-3.md; reply to the publisher. 3) status, debrief, issue 008.",
+   "at": "2026-11-03T04:43:45Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Writes in scope; the runner on a local _site with outside requests blocked; PDF to the scratchpad, publishing/ and lab/ untouched; vault_check before commit; dev only.",
+   "at": "2026-11-03T04:43:45Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

@@ -16,3 +16,5 @@ The three readers the editor named, each chapter of the 30-page edition as it la
 3 November 2026, 03:05 UTC: rechecked at `b680aaeb` (`review/synthetic/rc2/30/layout-1/recheck.md`). Three of four cut card rows are not on the real build: withdrawn (synthetic__005). Page 7's is the drawing's viewBox.
 
 3 November 2026, 04:00 UTC: rechecked at `247ec9d6` (`recheck-2.md`): page 7 fixed, chapter 5's three placed; five pictures and the clock to go (synthetic__006).
+
+3 November 2026, 05:05 UTC: rechecked at `bab529dc` (`recheck-3.md`): the clock prints, the chain and team cards placed; three pictures to go (synthetic__007).
