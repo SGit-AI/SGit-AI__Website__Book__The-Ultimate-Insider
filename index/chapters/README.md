@@ -46,6 +46,7 @@ One file per chapter of the manuscript, built by `index/tools/chapter_entries.py
 | [`150__22-the-third-planned.md`](150__22-the-third-planned.md) | 1 | 0 | 4 | 0 | 0 | 0 |
 | [`150__23-principles-and-build-your-own.md`](150__23-principles-and-build-your-own.md) | 0 | 0 | 7 | 0 | 0 | 0 |
 | [`150__90-the-tour-at-length.md`](150__90-the-tour-at-length.md) | 0 | 0 | 9 | 0 | 1 | 0 |
+| [`150__91-the-words-used.md`](150__91-the-words-used.md) | 0 | 0 | 3 | 0 | 0 | 1 |
 | [`01-the-creators-problem.md`](01-the-creators-problem.md) | 0 | 0 | 7 | 1 | 2 | 0 |
 | [`02-the-factory-is-assembled.md`](02-the-factory-is-assembled.md) | 2 | 0 | 7 | 0 | 12 | 0 |
 | [`03-the-factory-runs.md`](03-the-factory-runs.md) | 0 | 0 | 6 | 0 | 14 | 0 |
