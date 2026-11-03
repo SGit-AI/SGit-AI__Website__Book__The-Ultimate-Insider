@@ -251,9 +251,17 @@ def main(talk_path):
         if not HOSTS.match(u):
             sys.exit(f'editions.json: a url off the two public hosts: {u}')
     allowed = {o['address'] for o in outside}
-    for a in addresses(blob):                                        # every address anywhere: on the two hosts, or a register citation listed above
-        if not (a == SITE or HOSTS.match(a)) and a not in allowed:
-            sys.exit(f'editions.json: an address neither on the two hosts nor a listed register citation: {a}')
+    bare = json.loads(blob)                                          # the data with the claims' own register text taken out, and the list itself:
+    bare.pop('outside_citations')                                    # outside it, every address must be on the two hosts (a citation passes only under its claim, checked above)
+    for e in bare['editions']:
+        for c in e['chapters']:
+            for sc in c['scenes']:
+                for t in sc['tokens']:
+                    if t['kind'] == 'claim':
+                        t.pop('claim', None), t.pop('value', None)
+    for a in addresses(json.dumps(bare, ensure_ascii=False)):
+        if not (a == SITE or HOSTS.match(a)):
+            sys.exit(f'editions.json: an address off the two hosts outside its claim\'s register text: {a}')
     for f in PAGES.glob('*/*.html'):                                 # and never a link on the pages
         for h in re.findall(r'href="([^"]+)"', f.read_text()):
             if html.unescape(h).rstrip('.,;:!?') in allowed:
