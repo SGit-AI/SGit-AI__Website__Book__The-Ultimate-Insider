@@ -1,12 +1,14 @@
 # The clock in the margin: the day hour by hour
 
-researcher@book.the-ultimate-insider, 3 November 2026, for the editor's clock in the margin (the conductor's letter 047; the writer's 036). Register entry C108. All times UTC, which was London time on 29 October.
+researcher@book.the-ultimate-insider, 3 November 2026, for the editor's clock in the margin (the conductor's letter 047; the writer's 036). Register entries C110 (clock hours, the book's rule since 3 November, 03:33) and C108 (counted from 00:16, kept for the record). All times UTC, which was London time on 29 October.
 
 ## The rule
 
-Hour N runs from 00:16 plus N minus one hours to 00:16 plus N hours, counted from the empty repository (C001). Hour 1 is 00:16 to 01:16; the hold (18:44) and the talk due at 19:00 (C100) fall in hour 19. Every `%% clock:` line in `manuscript/rc2/30/01` to `04` and `rc2/70/01`, `03`, `05` puts its times in the right hour (checked 3 November, 01:35).
+**The book counts clock hours of 29 October (C110):** hour N is (N minus 1):00 to (N minus 1):59. Hour 1 is 00:00 to 00:59 and holds the first commit (00:16); the hold (18:44) is in hour 19, and the talk is due at 19:00, as hour 19 ends. This is the rule of the register's hourly tables (C087, C095), the storyteller's outlines and ruv-sgit's drawing. The writer moved its 22 `%% clock:` lines to it on 3 November, and all 22 put their times in the right hour (checked 3 November, 03:33). **The designer reads the C110 table below.**
 
-## At the end of each hour
+The first table that follows is C108, the same counts with hours from 00:16. It is kept because it was registered, but the book does not print it.
+
+## Kept for the record: hours from 00:16 (C108), at the end of each hour
 
 | Hour | Ends | All commits | Agents' commits | Agents', not merges | Wakes opened | Members on stage |
 |---|---|---|---|---|---|---|
@@ -35,11 +37,11 @@ At the end of hour 19 these are the register's totals: 814 (C004), 603 (C003), 4
 ## What the designer may print
 
 - One stat per hour is enough. Wakes opened, or agents' commits not counting merges, reads best: it moves every hour, and it is the work. All commits include CI's releases.
-- The quiet morning shows in the numbers: from hour 5 to hour 13, about 13 agents' commits (not merges) and 6 wakes an hour, none started by the editor (C087).
-- The afternoon rush: hours 15 to 18 hold 188 of the 439 agents' commits (not merges) and 68 of the 162 wakes.
-- Label a cell "by the end of hour N", never "at HH:MM" unless it is the hour's end time.
+- The quiet morning shows in the numbers (C110): from hour 6 to hour 14 (05:00 to 13:59), 115 agents' commits (not merges) and 53 wakes in nine hours, about 13 and 6 an hour, none started by the editor (C087).
+- The afternoon rush (C110): hours 15 to 18 (14:00 to 17:59) hold 179 of the 439 agents' commits (not merges) and 67 of the 162 wakes.
+- Label a cell "in hour N" or "by the end of hour N" (the hour ends at :59).
 
-## The same day by clock hour (C110)
+## The book's clock: by clock hour (C110)
 
 Hour N is the clock hour (N minus 1):00 to :59. The first commit (00:16) is in hour 1; the hold (18:44) and the last release (18:46) are in hour 19, on both rules.
 
@@ -67,9 +69,9 @@ Hour N is the clock hour (N minus 1):00 to :59. The first commit (00:16) is in h
 
 Wakes per hour agree with C087 hour for hour. Members on stage come from C011's first commits (the conductor at 00:44 is in hour 1), not from C095's '@member' count.
 
-## Two rules, one book
+## One rule
 
-The writer's clock lines use the 00:16 rule (C108). The storyteller's outlines and ruv-sgit's drawing use clock hours (C110). Both put the hold in hour 19. Under clock hours, five of the writer's lines change: `rc2/30/02` four arrivals (hour 1 becomes hours 1 and 2, as ruv-sgit arrived at 01:08), the researcher and designer (hours 2 to 4 become 2 to 5, as 04:03 is hour 5); `rc2/30/03` the empty chair (hours 4 to 14 become 5 to 14), the 04:11 dispute (hour 4 becomes 5), and R5 (hour 15 becomes hours 15 and 16, as 15:02 is hour 16). The rest are the same on both rules. Which rule the book uses is for the conductor to settle with the editor.
+Two rules were in use on 3 November in the early hours: the writer's count from 00:16 (C108) and clock hours (C110). Both put the hold in hour 19. The team settled on clock hours (the writer's 038; the researcher's 022). Every clock line now uses them.
 
 ## How to rerun
 

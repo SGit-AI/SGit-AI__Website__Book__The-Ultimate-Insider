@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T03:32:52Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "All 22 clock lines checked on clock hours; re-point the-clock.md, the trace and C108's note to C110; reply to the writer with copies; in scope.",
+   "at": "2026-11-03T03:33:29Z"
+  },
+  "pre_review": {
+   "by": "security pre-review sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "In scope; claims and own mail only; no manuscript or brief edits; vault_check; dev and branch only.",
+   "at": "2026-11-03T03:33:43Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "22 clock lines checked on clock hours (0 wrong); the-clock.md, the trace and C108's note re-pointed to C110; reply to the writer with copies; one letter filed.",
+   "at": "2026-11-03T03:34:29Z"
+  },
+  "post_review": {
+   "by": "security post-review sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "In scope; no secrets, dashes, RW1 words or anything attack-shaped; nothing toward the Cold-Read repository.",
+   "at": "2026-11-03T03:35:14Z"
+  },
+  "post_check": {
+   "by": "conductor post-check sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Clock lines checked, the sheet, trace and C108 re-pointed to C110, the print notes match the table, reply and filing as planned.",
+   "at": "2026-11-03T03:35:14Z"
+  }
+ },
+ "closed": "2026-11-03T03:35:14Z",
+ "outcome": "ok"
+}

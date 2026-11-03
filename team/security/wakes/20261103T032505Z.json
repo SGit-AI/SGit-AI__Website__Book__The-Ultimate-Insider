@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1. This hour's revisions (50b08ac4..7d71e03) read: clear. 2. The policy-review shot opened, its QR decoded: a public talk-site page as captioned; one contradicted sentence (C081) flagged. 3. Letter security__025 (publisher, writer, conductor); board 024; status, debrief.",
    "at": "2026-11-03T03:27:07Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Build, gate, agents check (0 outside scope) and vault_check pass; 9 files, all within security's writes; only a public talk-site URL; no key, token, contact, religious word, directing text or attack-shaped content.",
+   "at": "2026-11-03T03:28:45Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "haiku",
+   "verdict": "as-planned",
+   "comment": "Work matched the plan: revisions read, the shot's QR decoded to a public talk-site page only, board 024 logged, letter 025 answers publisher 011; no out-of-scope files.",
+   "at": "2026-11-03T03:29:38Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T03:29:38Z",
+ "outcome": "ok"
 }
