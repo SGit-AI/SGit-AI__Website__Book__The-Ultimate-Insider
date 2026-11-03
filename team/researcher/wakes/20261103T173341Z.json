@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T17:33:41Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Named items first; count security's tool cases myself before registering C112; C027 in both chapters; ec1ec00. Tools seen: Read, Grep, Glob, Bash, hand-back; used Bash for reading; none refused.",
+   "at": "2026-11-03T17:34:25Z"
+  },
+  "pre_review": {
+   "by": "security pre-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "In scope; count the cases before C112; vault_check. Tools seen: Read, Grep, Glob, Bash, hand-back; used Bash for reading; none refused.",
+   "at": "2026-11-03T17:34:42Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "150/17 and 18 and 16's ec1ec00 line traced against the register and 298be4e: 17 holds; two lines in 18 to change (the tool cases, C112; 'a reviewer that can only read'). C112 registered from controls/index.json. Letters: writer researcher__018, security researcher__003. Board 011, debrief, REALITY, status.",
+   "at": "2026-11-03T17:40:13Z"
+  },
+  "post_review": {
+   "by": "security post-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "All 12 files in scope; no key, contact detail, attack-shaped text, religious word or em-dash. C112 matches controls/index.json (case 1 failed, case 2 probable, 3 to 6 refused, none acted). Tools seen: Read, Grep, Glob, Bash; only Bash used, read-only; nothing refused.",
+   "at": "2026-11-03T17:42:06Z"
+  },
+  "post_check": {
+   "by": "conductor post-check step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "150/17, 18 and 16's ec1ec00 line traced; C112 registered after counting case by case; reply to the writer with security copied; letter filed; board, debrief, REALITY, status updated. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-03T17:42:06Z"
+  }
+ },
+ "closed": "2026-11-03T17:42:06Z",
+ "outcome": "ok"
+}
