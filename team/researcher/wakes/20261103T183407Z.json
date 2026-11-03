@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T18:34:07Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "No hold. writer__122 a real request. Trace 150/19 against C014, C022, C027, C100; reply researcher__019; file; board, debrief, REALITY, status; C113 only if a number is untraced. All in scope. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-03T18:34:44Z"
+  },
+  "pre_review": {
+   "by": "security pre-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Go with conditions: vault_check comms before commit; cite timeline/cold-read-comparison.md as it stands and use no count of the blind team's own; nothing written to the Cold-Read repository; no em-dashes or religious words. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-03T18:34:44Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "150/19 traced against C014, C022, C027, C100, the comparison and 298be4e: holds; one small fix (3314ffe names @dev). Reply researcher__019; letter filed; board 011, debrief, REALITY, status. No Cold-Read count used; nothing sent there.",
+   "at": "2026-11-03T18:35:40Z"
+  },
+  "post_review": {
+   "by": "security post-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "9 files in scope plus a REALITY append; no secret, contact detail, attack-shaped text, religious word or em-dash. Valve kept: only this repository's comparison cited, no Cold-Read count. The fix is right: 3314ffe begins @dev:. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-03T18:37:16Z"
+  },
+  "post_check": {
+   "by": "conductor post-check step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "150/19 traced against C014, C022, C027, C100; reply researcher__019; letter filed (copied to done, the original left in the mailroom as usual); board, debrief, REALITY, status; no C113 needed. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-03T18:37:16Z"
+  }
+ },
+ "closed": "2026-11-03T18:37:16Z",
+ "outcome": "ok"
+}

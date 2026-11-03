@@ -202,6 +202,34 @@ Traced on 3 November 2026 at the 17:32 wake, at the writer's letter 117, against
 | 18 | The storyteller's hold of 1 November, lifted at his word in synthetic's session | holds | this book's record: `74749c4e` (1 November 09:45), `daabf92d` (12:42, "the hold lifted at the editor's word ... in synthetic's session") |
 | 18 | Security staffed on this team, with a key and its reads of the chapters | holds | this book's `team/security/`; its letters to the writer |
 
+## Chapter 19 (the 18:32 wake)
+
+Traced on 3 November 2026 at the 18:32 wake, at the writer's letter 122, against the register, this book's `timeline/cold-read-comparison.md` and the talk's record at `298be4e`. Only this repository and the talk's record were read; none of the Cold-Read team's own counts is used.
+
+**In short:** chapter 19 holds. One small fix: one of the four commits cited for item 1 names dev in its subject.
+
+### What needs a change
+
+| Ch | The chapter says | The record says | Change to |
+|---|---|---|---|
+| 19 | "The player's commits of the afternoon and the lock tool name no member in their subjects", and `3314ffe` among the commits cited for it | `3314ffe` (15:07:08, the port of the player) begins "@dev:". `28fe01d` (16:36), `dbd75ad` (18:37) and `4a2481b` (17:54) name no member; all four carry `Agent: dev@the-ultimate-insider` | "Most of the player's commits of the afternoon"; or keep the line and drop `3314ffe` from the `%% record:` as an unnamed one (it can stay as checked) |
+
+### What holds
+
+| Ch | Line | Verdict | Source |
+|---|---|---|---|
+| 19 | The two timelines agree to the second, from the empty project at a quarter past midnight to the record's last commit; the hold read the same way | holds | `timeline/cold-read-comparison.md` ("Where they agree": `2e4b1f4` 00:16:23 to `298be4e`); `867f8c2`; C027 |
+| 19 | Six findings, applied on 30 October at about twenty past one | holds | the comparison: "Applied 30 October 2026, about 13:20 UTC" |
+| 19 | 1: the unnamed commits are dev's by their trailers, session and agent line; C014's current reading | holds, but for `3314ffe` above | the trailers of `28fe01d`, `dbd75ad`, `4a2481b`, `3314ffe` (each `Agent: dev`, dev's session); the comparison, "rechecked at 15:20"; C014 |
+| 19 | 2: a second wake open at the hold, deck's of 18:20, plan recorded, never closed | holds | the wake `182009Z` (started 18:20:09, no close); `89afb77` 18:21; C022 (162 records, 2 incomplete) |
+| 19 | 3: the designer's status, written after the hold, "locked at half past six after its check" | holds | `88b8f00` 18:45:35; `team/designer/status.json` at `298be4e`; `2ed6427`; `team/conductor/HOLD.md`; C027 |
+| 19 | 4: a brief headed about ten past five, committed at 17:08 | holds | `e86b0aa` 17:08:41; the brief's heading "about 17:10 London" |
+| 19 | 5: ruv-sgit's first vault deleted at the editor's go, 02:07 | holds | `f21265b` 02:07:52 ("r1-article's vault deleted on the editor's go"); `timeline/day/02.md` |
+| 19 | 6: up to its last commit the record holds the plan for seven, not the event | holds | C100 ("planned, not a measured start"); `a9c0b49`, added after the day |
+| 19 | What the blind team could not see: the freeze at 02:47 (deck's reply file only), `a082c52` read as policy agreed though it also carried exact corrections, the two commits of 18:48 off the team's branch, everything after the day | holds | the comparison ("What this timeline has that the Cold-Read one lacks"); C031; `a082c52` ("policy agreed by the editor; the talk edits proposed to deck as exact text"); `timeline/unmerged.md` (`39df303` 18:48:36, `93f4706` 18:48:37) |
+| 19 | "a second reading, not a second identity", in chapter 7 | holds | `c8f6f8f`, the conductor's debrief of 02:19 |
+| 19 | The valve: the hand-off the only thing that crossed | holds | `team/conductor/handoffs/2026-10-30__cold-read/README.md`; this book's `CLAUDE.md` |
+
 ## Where this came from
 
-`manuscript/rc2/150/01` to `18` and `90`, each as on dev at the wake that traced it (3 November 2026, from 09:32 to 17:32); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).
+`manuscript/rc2/150/01` to `19` and `90`, each as on dev at the wake that traced it (3 November 2026, from 09:32 to 18:32); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).
