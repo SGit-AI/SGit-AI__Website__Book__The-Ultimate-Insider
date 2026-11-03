@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled, hourly at :12 (ACC1)",
+ "started": "2026-11-03T18:13:12Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (plan brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused",
+   "model": "",
+   "verdict": "go",
+   "comment": "(1) Upkeep: rerun print_pages.py (temp folder removed) and make_editions.py so pages, data and QR targets follow the writer's drafts (the 70-page hash stale since 0f6aa4c1); report counts; nothing new built. (2) Status, short debrief, gate, push.",
+   "at": "2026-11-03T18:14:17Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (pre_review brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused",
+   "model": "",
+   "verdict": "go",
+   "comment": "No hold; in scope. Conditions: make_editions.py against the read-only, non-shallow talk clone at 298be4e; if a guard trips on the new text, push nothing and report, never loosen a guard; gate before push, dev only. It reviewed the plan from the brief (ran alongside the plan step).",
+   "at": "2026-11-03T18:14:17Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
