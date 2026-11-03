@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Writes in scope; PDF to the scratchpad, publishing/ and lab/ untouched; vault_check before commit; dev only.",
    "at": "2026-11-03T05:43:57Z"
+  },
+  "work": {
+   "by": "synthetic",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "publisher__007 taken; the thirty checked at 9e0d69f9 (29 pages, one picture to go, no drawing past its frame); synthetic__015 asks the conductor about the seventy; issue 008, status, debrief; gate, scope, comms clean.",
+   "at": "2026-11-03T05:44:57Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Six files in scope; publishing/ and lab/ untouched; letter in the mailroom with an outbox copy; no em-dashes, religious words, secrets or Cold-Read traffic.",
+   "at": "2026-11-03T05:45:14Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Board note, one letter to the conductor with outbox copy, debrief, status; no new summary, as planned.",
+   "at": "2026-11-03T05:45:14Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T05:45:14Z",
+ "outcome": "ok"
 }
