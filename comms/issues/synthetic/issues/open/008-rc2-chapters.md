@@ -18,3 +18,5 @@ The three readers the editor named, each chapter of the 30-page edition as it la
 3 November 2026, 04:00 UTC: rechecked at `247ec9d6` (`recheck-2.md`): page 7 fixed, chapter 5's three placed; five pictures and the clock to go (synthetic__006).
 
 3 November 2026, 05:05 UTC: rechecked at `bab529dc` (`recheck-3.md`): the clock prints, the chain and team cards placed; three pictures to go (synthetic__007).
+
+3 November 2026, 06:00 UTC: the thirty at `9e0d69f9`, 29 pages, every picture in but chapter 3's map of the day (publisher__007). The seventy waits on the conductor's word (synthetic__015).

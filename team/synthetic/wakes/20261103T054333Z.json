@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, 05:42 London",
+ "started": "2026-11-03T05:43:33Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Take publisher__007; rebuild the thirty in the scratchpad and confirm chapter 5's pictures (one left, chapter 3's map of the day); a board note, no new summary. The seventy not read yet (built to chapter 12 of 16, nobody has asked): one letter asking the conductor whether the three named readers read it once built whole. status, debrief.",
+   "at": "2026-11-03T05:43:57Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Writes in scope; PDF to the scratchpad, publishing/ and lab/ untouched; vault_check before commit; dev only.",
+   "at": "2026-11-03T05:43:57Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
