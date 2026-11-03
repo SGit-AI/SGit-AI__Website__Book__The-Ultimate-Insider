@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "historian",
- "as_of": "2026-11-03T09:45:00Z",
+ "as_of": "2026-11-03T10:31:00Z",
  "round": 1,
- "state": "ok: hourly (ACC1); the 150's one ask followed in full and its tour checked; the look-back sent to security (four attempts by my review sub-agents, all on 3 November)",
+ "state": "ok: hourly (ACC1); TA1 tested: the reviewer agent is not loadable in this session (started 30 October); an Explore step sees every connected tool; reported to security",
  "done": [
   {
    "what": "The session key made and published: key.json, key.png and the session folder",
@@ -174,10 +174,10 @@
  ],
  "asks": [
   {
-   "to": "the editor (TA1, through security and the conductor)",
-   "what": "A tools allowlist for the review sub-agents: four attempts in my wakes on 3 November, the last despite the new brief",
-   "since": "2026-11-03T08:30:00Z",
-   "letter": "historian__025, historian__027"
+   "to": "the editor",
+   "what": "TA1's reviewer agent loads only in sessions started after 10:06 on 3 November; mine started on 30 October. A restart of this session (or a new one) would let my review steps run without session tools",
+   "since": "2026-11-03T10:30:00Z",
+   "letter": "historian__028"
   }
  ],
  "session": "session_01Kw9UwEM61pEqMLtCbUHec7",

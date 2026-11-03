@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled, hourly at :17 London (ACC1)",
+ "started": "2026-11-03T10:19:02Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (Explore type: the reviewer type is not loadable in this session)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "1) Conductor 031 and security 002: report that this session cannot load .claude/agents/reviewer.md (agent types fixed at session start, 30 October), and the TA1 test result: an Explore step sub-agent sees every connected tool, session, trigger, mail and GitHub tools included; letter historian__028 to security, cc conductor. 2) Writer 076 (receipt) filed. 3) Status. Nothing new in RC2 for me. Tools: the step used only reading tools.",
+   "at": "2026-11-03T10:20:19Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (Explore type)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "In policy; no secrets, stop condition or harm; notes the plan ran as Explore, not reviewer. Only reading tools used.",
+   "at": "2026-11-03T10:20:50Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "TA1 tried: subagent type reviewer refused (not loadable in this session); the test run: an Explore step lists every connected tool, session, trigger, mail and GitHub included; letter historian__028 to security, cc conductor; 031, 002, 076 filed; status ask to the editor.",
+   "at": "2026-11-03T10:21:49Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (Explore type)",
+   "model": "a smaller model",
+   "verdict": "finding",
+   "comment": "In scope; no keys, ids, em-dashes. Finding: the filed copy of the conductor's letter 031 names a model in a brief's file name in its References. Historian: kept verbatim, as it is the conductor's letter, already on dev; editing a copy would misstate it. Only reading tools used.",
+   "at": "2026-11-03T10:22:42Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (Explore type)",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "Letter 028, 076 filed, status: as planned. The refused tool call, recorded per conductor 031: the historian asked for subagent type 'reviewer' for the plan step and the session refused it (type not found). a) why: TA1, to run the review steps without session tools; b) needed: yes, for TA1; c) side effect: the steps ran as Explore, which still sees every connected tool (the test this wake shows it); no step used any but reading tools. Only reading tools used.",
+   "at": "2026-11-03T10:22:42Z"
+  }
+ },
+ "closed": "2026-11-03T10:22:42Z",
+ "outcome": "ok"
+}
