@@ -49,6 +49,9 @@
   (checked against the commit) highlighted, and the wake that read both (its record checked to exist).
 - ch6-letter-path.svg: a letter's path on two dials (C071), the letter as a file with its header names only, and one
   board folder with open, blocked and done.
+- ch9-story-tree.svg: the storyteller's tree as it was at 14:19 (df37797), every node verbatim from its own mermaid
+  block, read with git; no turn marked (the tree marks none; asked of the writer and the storyteller).
+- ch9-where-from.svg: each afternoon piece with an arrow back to where it came from, each source checked by git.
 No number is printed but the hold's time, ids, C029's and C087's counts and the chapters' own times. One SVG unit a millimetre, sizes stated, text 9 pt.
 """
 import json, re, subprocess, sys
@@ -676,6 +679,86 @@ def letter_path():
     return mc.svg(164, round(by + 23, 1), defs + "".join(out), "A letter's path on two dials, the letter as a file with its headers, and one board folder with open, blocked and done")
 
 
+def story_tree(clone):
+    import textwrap
+    src = subprocess.run(["git", "-C", clone, "show", "df37797:team/storyteller/story/tree.md"], capture_output=True, text=True, check=True).stdout
+    block = src.split("```mermaid", 1)[1].split("```", 1)[0]
+    nodes = {k: v.replace("<br/>", " ") for k, v in re.findall(r'(\w+)\["(.+?)"\]', block)}
+    edges = re.findall(r"^\s*(\w+) --> (\w+)", block, re.M)
+    dotted = re.findall(r"^\s*(\w+) -\.-> (\w+)", block, re.M)
+    kids = {}
+    for a, b in edges:
+        kids.setdefault(a, []).append(b)
+    root = "P"
+    parts = kids[root]
+    out = []
+    rows = textwrap.wrap(nodes[root], 60)
+    out.append(f'<rect x="20" y=".3" width="124" height="{4.1 * len(rows) + 3:.1f}" rx="2" fill="{mc.INK}"/>')
+    for j, r in enumerate(rows):
+        out.append(t(82, 4.4 + j * 4.1, r, 700, "#fff", "middle"))
+    top = 4.1 * len(rows) + 7
+    H = top
+    for c, p_ in enumerate(parts):
+        x = c * 55
+        y = top
+        prow = textwrap.wrap(nodes[p_], 28)
+        ph = 4.1 * len(prow) + 3
+        out.append(mc.line(82, top - 3.7, x + 26.5, y, mc.FILL2, .5))
+        out.append(f'<rect x="{x + .3:.1f}" y="{y:.1f}" width="53" height="{ph:.1f}" rx="1.6" fill="{mc.ACCENT}"/>')
+        for j, r in enumerate(prow):
+            out.append(t(x + 2.4, y + 4 + j * 4.1, r, 700, "#fff"))
+        y += ph + 2
+        for k in kids.get(p_, []):
+            krow = textwrap.wrap(nodes[k], 29)
+            kh = 4.1 * len(krow) + 2.4
+            out.append(f'<rect x="{x + 2:.1f}" y="{y:.1f}" width="51.3" height="{kh:.1f}" rx="1.2" fill="#fff" stroke="{mc.INK}" stroke-width=".35"/>')
+            for j, r in enumerate(krow):
+                out.append(t(x + 3.6, y + 3.8 + j * 4.1, r, 400))
+            y += kh + 1.4
+            for gk in kids.get(k, []):
+                grow = textwrap.wrap(nodes[gk], 27)
+                gh = 4.1 * len(grow) + 2.2
+                out.append(f'<rect x="{x + 6:.1f}" y="{y:.1f}" width="47.3" height="{gh:.1f}" rx="1" fill="{mc.FILL}"/>')
+                for j, r in enumerate(grow):
+                    out.append(t(x + 7.6, y + 3.7 + j * 4.1, r, 400, mc.MUTED))
+                y += gh + 1
+        H = max(H, y)
+    out.append(t(0, H + 4, "the tree's own nodes at 14:19 (df37797), verbatim; its dotted cross-links left out; no turn marked", 400, mc.MUTED))
+    return mc.svg(164, round(H + 5.8, 1), "".join(out), "The storyteller's story tree as it was at 14:19: the premise, three parts and their beats")
+
+
+WHERE_FROM = [("the player", "ruv.sgit.ai's talk player", "3314ffe", "ported from ruv.sgit.ai"),
+              ("the slide engine", "dev's first pass", "1f7c633", "first pass of the site and the talk"),
+              ("the studio's ports", "ruv.sgit.ai's pieces", "team/studio/ROLE.md", "brings ruv.sgit.ai's best pieces"),
+              ("motion's animations", "new, on the same engine", "team/motion/ROLE.md", "into animations he can start, stop and step through")]
+
+
+def where_from(clone):
+    out = []
+    defs = f'<defs><marker id="wf" viewBox="0 0 6 6" refX="5" refY="3" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0 L6 3 L0 6 z" fill="{mc.ACCENT}"/></marker></defs>'
+    for i, (piece, source, ref, words) in enumerate(WHERE_FROM):
+        if ref.startswith("team/"):
+            txt = subprocess.run(["git", "-C", clone, "show", f"298be4e:{ref}"], capture_output=True, text=True, check=True).stdout
+            when = "its role at 298be4e"
+        else:
+            txt = subprocess.run(["git", "-C", clone, "log", "-1", "--format=%s", ref], capture_output=True, text=True, check=True).stdout
+            when = ref
+        if words not in txt:
+            sys.exit(f"make_pictures: {words!r} is not in {ref}")
+        y = i * 15
+        new = source.startswith("new")
+        out.append(f'<rect x=".3" y="{y + .3:.1f}" width="56" height="12" rx="1.6" fill="#fff" stroke="{mc.INK}" stroke-width=".45"/>' + t(4, y + 7.6, piece, 800))
+        if new:
+            out.append(t(64, y + 7.6, "new, made on the same slide engine (not a port)", 400, mc.MUTED) + t(64, y + 11.4, when, 400, mc.MUTED))
+        else:
+            out.append(f'<path d="M57 {y + 6.3:.1f} H96" stroke="{mc.ACCENT}" stroke-width=".7" marker-end="url(#wf)"/>'
+                       + f'<rect x="98" y="{y + .3:.1f}" width="65.7" height="12" rx="1.6" fill="{mc.FILL}" stroke="{mc.FILL2}" stroke-width=".4"/>'
+                       + t(101, y + 5.6, source, 700) + t(101, y + 9.8, when, 400, mc.MUTED))
+    H = len(WHERE_FROM) * 15
+    out.append(t(0, H + 3, "each arrow points back to where the piece came from, each source checked by git at build", 400, mc.MUTED))
+    return mc.svg(164, round(H + 4.8, 1), defs + "".join(out), "Where the afternoon's pieces came from: the player and the ports from ruv.sgit.ai, the engine from dev's first pass")
+
+
 FLOORS = [("the talk", ("src/static/talk/",)),
           ("the workshop of animations", ("src/static/ruv-sgit/", "src/pages/ruv-sgit/", "src/static/motion/", "src/pages/motion/")),
           ("the studio", ("src/pages/studio/", "src/static/studio/", "src/static/studio-ports/", "src/pages/studio-ports/")),
@@ -815,7 +898,8 @@ if __name__ == "__main__":
              "ch8-plumbing.svg": plumbing(), "ch8-release-row.svg": release_row(clone),
              "ch-security-card.svg": security_card(),
              "ch4-three-greyed.svg": three_greyed(clone), "ch4-security-proposed.svg": security_proposed(clone),
-             "ch6-two-commits.svg": two_commits(clone), "ch6-letter-path.svg": letter_path()}
+             "ch6-two-commits.svg": two_commits(clone), "ch6-letter-path.svg": letter_path(),
+             "ch9-story-tree.svg": story_tree(clone), "ch9-where-from.svg": where_from(clone)}
     if (R70 / "15-principles.md").exists():
         files["ch15-six-principles.svg"] = six_principles()
     else:  # chapter 15 was folded into 16 and removed: the drawing stays as last built from it, not rebuilt
