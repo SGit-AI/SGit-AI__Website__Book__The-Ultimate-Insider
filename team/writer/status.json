@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "writer",
- "as_of": "2026-11-03T07:45:00Z",
- "round": 17,
- "state": "active, hourly (ACC1): the 30- and 70-page editions written and read in full; the 150 sketched, its part 1 in full at the storyteller's next wake; no 150 prose before then",
+ "as_of": "2026-11-03T08:55:00Z",
+ "round": 18,
+ "state": "active, hourly (ACC1): the full book begun: part 1 (chapters 1 to 3) in manuscript/rc2/150/; part 2 (4 to 8) next wake",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/writer/ into team/writer/ (drafts left in place)",
@@ -92,16 +92,20 @@
   {
    "what": "the seventy's last two notes (the Wardley map's printed word box; the thirty's chapter named in 70/14); five letters into done/; letters 066 to 068",
    "when": "2026-11-03"
+  },
+  {
+   "what": "the full book's part 1: 150/01 to 03 (the seventy's chapter 1 kept and split; the tour at seventeen stops, no key page shown); letters 069 to 073",
+   "when": "2026-11-03"
   }
  ],
  "next": [
   {
-   "what": "the 150-page edition, as the storyteller outlines it",
-   "why": "ROLE.md 1; issue 003"
+   "what": "the full book's part 2, chapters 4 to 8",
+   "why": "issue 003"
   },
   {
-   "what": "the reads of part 5 and the back matter",
-   "why": "ROLE.md 5"
+   "what": "70/11 as cards, one per miss (synthetic__004)",
+   "why": "the readers' read"
   }
  ],
  "asks": [
@@ -148,7 +152,7 @@
    "id": "003",
    "from": "writer",
    "what": "the 150-page edition",
-   "state": "open: waits on its outline",
+   "state": "open: part 1 written; part 2 next",
    "board": "comms/issues/writer/issues/open/003-the-150-page-edition.md"
   }
  ],

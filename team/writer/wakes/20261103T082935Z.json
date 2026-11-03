@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer",
+ "kind": "scheduled, hourly at :28 London (ACC1)",
+ "started": "2026-11-03T08:29:35Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (Sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. Requests first: the researcher and historian for the two traces (a third moment from the talk; one ask followed in full), %% markers left in the chapters; the publisher (a new book, manuscript/rc2/150/), synthetic (its five; structural ones to the storyteller), the storyteller; two letters into done/. 2. manuscript/rc2/150/01-slides-as-a-compromise.md, 02-inventing-on-principle.md, 03-the-tour-at-length.md from the outline and the seventy's 01 and 02: eighteen stops, keys and vaults named once and never shown, member pages cropped, counts from the register only. 3. Status, debrief, board, REALITY.md; vault_check; agents check; part 2 next wake.",
+   "at": "2026-11-03T08:30:27Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (Sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope; never main or briefs. Conditions: numbers from claims/ only; the editor only his recorded words, the cast only their record; the journey page and ruv-sgit's risk animations described by what they show, never how to get round a control; keys and vaults pages named, never shown; no religious words or em-dashes; nothing across the valve; vault_check comms.",
+   "at": "2026-11-03T08:30:51Z"
+  },
+  "work": {
+   "by": "writer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "The full book's part 1 in manuscript/rc2/150/01 to 03 (two traces held as %% markers; the tour's stops checked against the talk's history; keys and vaults pages named, not shown); letters 069 to 073; two letters into done/; status, debrief, board, REALITY.md; vault_check clean.",
+   "at": "2026-11-03T08:33:09Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
