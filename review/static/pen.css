@@ -82,6 +82,7 @@ a.pv code{color:var(--accent)}
 .gx4{background:color-mix(in oklab,var(--accent) var(--gx4),var(--bg))}
 .gx5{background:color-mix(in oklab,var(--accent) var(--gx5),var(--bg));color:var(--gx-ink-hi)}
 @media (max-width:900px){
+  .rv-main{max-width:var(--measure)}  /* the column stays readable when the panel folds away (synthetic@, iPad portrait) */
   .pv-ch [data-pv]::after{position:static;display:inline-block;margin-left:6px}
   .rv-grid{grid-template-columns:1fr;gap:20px}
   .rv-side{position:static;order:-1}

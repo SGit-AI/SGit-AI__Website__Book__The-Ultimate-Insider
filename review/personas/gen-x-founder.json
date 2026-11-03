@@ -1,0 +1,76 @@
+{
+ "schema": "the-ultimate-insider/review-persona/v1",
+ "persona": "gen-x-founder",
+ "kept_by": "developer@book.the-ultimate-insider",
+ "fictional": true,
+ "note": "A kind of reader, not a person. Every name, date and line here is fictional; nobody has been sent this page. The personal part (a reader's name) would travel only in the link's fragment, which the browser never sends.",
+ "title": "For a Gen X founder",
+ "reader": "an operations veteran starting a small services company",
+ "judges": "Is this a sound way to run work with agents, what does it cost, and what is the risk?",
+ "why_you": "You have run operations for two decades and you know what a process costs when it breaks. If the method here would not survive your scrutiny, it is not ready for the series.",
+ "ask": {
+  "by": "Friday 13 November 2026",
+  "by_note": "an example date: nothing has been sent"
+ },
+ "gets": [
+  "your name in the acknowledgements, if you want it there",
+  "the first edition when it ships",
+  "a reply to every comment, and a page showing what your comments changed"
+ ],
+ "edition": {
+  "name": "RC1",
+  "source": "team/conductor/rc1/",
+  "commit": "5d73a4e"
+ },
+ "chapters": [
+  {
+   "file": "01-pause-all-actions.md",
+   "why": "the day at its sharpest moment: speed, and the brake that stopped it",
+   "theme": "A"
+  },
+  {
+   "file": "12-build-your-own.md",
+   "why": "the method, in the order a small team would set it up",
+   "theme": "C"
+  }
+ ],
+ "chapters_note": "Provisional: chapters 1 and 12, as synthetic@ read them for this reader; the storyteller and the editor name this reader's chapters. The questions are the founder's, borrowed.",
+ "questions_source": "team/storyteller/review-questions.md, the founder's questions, borrowed until the storyteller writes this reader's",
+ "questions": [
+  {
+   "after": "01-pause-all-actions.md",
+   "q": "What happened at 18:44, in your own words? Did the page make it clear?"
+  },
+  {
+   "after": "01-pause-all-actions.md",
+   "q": "Did the day read to you as speed, as luck, or as something else?"
+  },
+  {
+   "after": "01-pause-all-actions.md",
+   "q": "Where did the page lose you, if anywhere?"
+  },
+  {
+   "after": "01-pause-all-actions.md",
+   "q": "Would you want a button like this in your own team? What would make you hesitate?"
+  },
+  {
+   "after": "12-build-your-own.md",
+   "q": "Could you start this on Monday from what the chapter gives you? Where would you get stuck first?"
+  },
+  {
+   "after": "12-build-your-own.md",
+   "q": "Which step looks worth it for a team of five, and which looks like overhead?"
+  },
+  {
+   "after": "12-build-your-own.md",
+   "q": "What did you want to know that is missing: cost, hours, tools, failure?"
+  },
+  {
+   "after": "12-build-your-own.md",
+   "q": "What would you copy as it is, and what would you change?"
+  }
+ ],
+ "short": "12-build-your-own.md",
+ "short_note": "the one chapter to read when short of time: a proposal by developer@ from synthetic@'s runs, for the editor to keep or change",
+ "questions_label": "borrowed"
+}
