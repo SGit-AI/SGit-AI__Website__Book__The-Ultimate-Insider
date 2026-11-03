@@ -31,8 +31,15 @@
    "verdict": "clean",
    "comment": "7 paths in scope; no key, id, model name, em-dash, religious word or Cold-Read path; 128 filed by identical copy; dates before the clock. Tools: reading list only.",
    "at": "2026-11-03T19:23:57Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "off-plan",
+   "comment": "The sub-agent said drift (not a wake.py verdict; recorded as off-plan). Work as planned, dates before the clock, 128 copy identical. Two drifts: the chapter's talk claim not checked against the talk's clone; rc2-times cited 615b95e6, which does not touch 150/20. Fixed before the first commit: all nine folders at 298be4e hold ROLE, policy, wakes, debriefs; 615b95e6 removed. Tools: reading list only.",
+   "at": "2026-11-03T19:25:25Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T19:25:25Z",
+ "outcome": "ok"
 }
