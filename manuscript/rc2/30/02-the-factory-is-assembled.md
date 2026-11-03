@@ -4,7 +4,7 @@
 
 ## The empty project
 
-`%% clock: hour 1 (00:16 to 01:16): the empty project at 00:16, dev's first pass at 00:40. Hour N counted from the empty repository at 00:16 (C001); to print as a **Clock:** line once the researcher confirms (writer__036).`
+`%% clock: hour one: the empty project at 00:16, dev's first pass at 00:40. Clock hours of 29 October, hour one 00:00 to 00:59, as the register's hourly tables (C087, C095) and the storyteller's outline count them; to print as a **Clock:** line once the researcher amends C108 to this count (writer__038).`
 
 **Narrator.** A quarter past midnight: an empty project. Not a template, not a half-built site from last time. A new repository with a licence, a short read-me and almost nothing else. Its first commit says "Initial commit", and that is all it says.
 
@@ -19,7 +19,7 @@ Band: *Dramatised. Rests on the first commit (00:16) and dev's first pass (00:40
 
 ## Four arrivals
 
-`%% clock: hour 1 (00:16 to 01:16): four arrivals, 00:40 to 01:08. Hour N counted from the empty repository at 00:16 (C001); to print as a **Clock:** line once the researcher confirms (writer__036).`
+`%% clock: hours one to two: four arrivals, 00:40 to 01:08. Clock hours of 29 October, hour one 00:00 to 00:59, as the register's hourly tables (C087, C095) and the storyteller's outline count them; to print as a **Clock:** line once the researcher amends C108 to this count (writer__038).`
 
 *Words for this page:* the **conductor** is the agent that keeps the team's time and plan. A **hold** is one short file that stops every agent until the person in charge says go. A **check** is a test every change must pass before it goes out (the team called it the gate).
 
@@ -29,9 +29,9 @@ Band: *Dramatised. Rests on the first commit (00:16) and dev's first pass (00:40
 
 **Narrator.** Dev owns the site. It was the first to arrive, and the first thing it did was make a place where every later change would be tested before it went out.
 
-**Conductor** *(pacing)*: I keep the time. Everyone gets a slot, and anyone can pull the hold.
+**Conductor** *(pacing)*: I keep the time. Everyone will get a slot.
 
-**Conductor** *(reading its own roster)*: I have named who we need. Security is on the list. Its chair is ready.
+**Conductor** *(reading its own roster)*: I have named who we need, and proposed when each of us runs. Security is on the list. Its chair is ready.
 
 **Narrator.** The conductor owns the clock. Its first act was a list of who the team needed, and one name on that list never arrived. Remember the empty chair: it comes back at the end.
 
@@ -49,14 +49,18 @@ Band: *Dramatised. Rests on the first commit (00:16) and dev's first pass (00:40
 
 **Narrator.** Four agents, all within the hour of an empty project. The build, the check and the brief came from things I had built before, on other projects. The hold was made that night. What was new was having them all at once, as a team, in one night. That is how a factory gets cheap: yesterday's experiment is today's part.
 
-**Figure:** the four cast cards lit (dev, the conductor, deck, ruv-sgit), each with its scorecard: on stage from, slot, and the line it arrived with. Five greyed cards and one empty chair beside them. The designer's cards (LAB 27).
+**Figure:** the four cast cards lit (dev, the conductor, deck, ruv-sgit), each with its scorecard: on stage from, slot, and the line it arrived with.
+
+`%% figure brief: Five greyed cards and one empty chair beside them. The designer's cards (LAB 27).`
 
 `%% record: C011 1f7c633 97b98d9 20ab1a3 defe526 timeline/interviews/security.md`
 Band: *Dramatised. Each agent's lines rest on its first commit after midnight: dev's first pass (00:40), the conductor's roster with security among its first five (00:44), deck joining as owner of the beats, script and slides (00:51), ruv-sgit's first run open with an article drafted and my check pending (01:08). They arrived: these are their first commits, not their keys.*
 
 ## The map, before its name
 
-**Figure:** the factory as a chain. At the top, what I wanted: a talk the room understands. Under it, the slides, the site and the player. Under those, the agents. At the bottom, what the agents ran on: the agent tool, the build, the check and the brief, all at the ordinary end; and the hold, at the new end, made that night. Each part placed left to right by how settled it already was, from new on the left to ordinary on the right. The chapter's map; its owner agreed by the conductor.
+**Figure:** the factory as a chain.
+
+`%% figure brief: At the top, what I wanted: a talk the room understands. Under it, the slides, the site and the player. Under those, the agents. At the bottom, what the agents ran on: the agent tool, the build, the check and the brief, all at the ordinary end; and the hold, at the new end, made that night. Each part placed left to right by how settled it already was, from new on the left to ordinary on the right. The chapter's map; its owner agreed by the conductor.`
 
 **Narrator.** Look at the bottom row first. Almost all of it was already ordinary to me that night. I had been working with an agent tool every day for about a year, as I wrote in an article in October. The build and the check were the way my sites are built; dev's first commit calls it the sgit.ai way. The brief and the page of rules were habits. Two things were new: the top of the picture, this talk, these slides, this player; and one part at the bottom, the brake.
 
@@ -68,7 +72,7 @@ Band: *Dramatised. Each agent's lines rest on its first commit after midnight: d
 
 ## The clock and the five steps
 
-`%% clock: hours 2 and 3 (01:16 to 03:16): the schedule at 01:39, the five steps at 02:16 to 02:18. Hour N counted from the empty repository at 00:16 (C001); to print as a **Clock:** line once the researcher confirms (writer__036).`
+`%% clock: hours two to three: the schedule at 01:39, the five steps at 02:16 to 02:18. Clock hours of 29 October, hour one 00:00 to 00:59, as the register's hourly tables (C087, C095) and the storyteller's outline count them; to print as a **Clock:** line once the researcher amends C108 to this count (writer__038).`
 
 **Narrator.** Then, in the small hours, the conductor built the machinery. This is the part that let me leave them alone, and I did not know yet how much I would.
 
@@ -80,18 +84,20 @@ Band: *Dramatised. Each agent's lines rest on its first commit after midnight: d
 
 **Narrator.** Five steps, in plain words: plan it; have the plan checked; do it; have it checked; check it went to plan. That was the rule for every member, every wake. If a check said stop, the work stopped. It looks slow written down. The checking is what let nobody watch.
 
-**Figure:** the five-step wake as a loop, with a clock round it: each member's minute marked on the dial. The chapter's infographic, for the designer. The minutes are in the picture, not in any agent's mouth.
+**Figure:** the five-step wake as a loop, with a clock round it: each member's minute marked on the dial.
+
+`%% figure brief: The chapter's infographic, for the designer. The minutes are in the picture, not in any agent's mouth.`
 
 `%% record: C071 09f13d5 8c66751 5700bab`
 Band: *Dramatised. Rests on the hourly schedule (01:39) and the five-step wake record and its rules (02:16 to 02:18).*
 
 ## Caught by its own reviewer
 
-`%% clock: hour 3 (02:16 to 03:16): the first wake closes partial at 02:19. Hour N counted from the empty repository at 00:16 (C001); to print as a **Clock:** line once the researcher confirms (writer__036).`
+`%% clock: hour three: the first wake closes partial at 02:19. Clock hours of 29 October, hour one 00:00 to 00:59, as the register's hourly tables (C087, C095) and the storyteller's outline count them; to print as a **Clock:** line once the researcher amends C108 to this count (writer__038).`
 
 **Narrator.** One thing to know before this scene: the reviewer is not a different kind of thing. It is the same kind of agent, in the same session, given a checker's brief instead of a builder's.
 
-**Narrator.** The conductor ran the five steps on its own first piece of work, inside a few minutes of writing them. Its reviewer found against it: the conductor had changed a file outside its own page of rules. I had allowed it, but the commit did not say so, and the plan had said it must.
+**Narrator.** The conductor ran the five steps on its own first piece of work, inside a few minutes of writing them. Its reviewer found against it: the conductor had changed the page of rules itself, a file outside its own scope. I had allowed it, but the commit did not say so, and the plan had said it must.
 
 *Reviewer (a second agent with a checker's brief, drawn as a clipboard):* "Name it in the debrief or record." *(record)*
 
@@ -101,14 +107,16 @@ Band: *Dramatised. Rests on the hourly schedule (01:39) and the five-step wake r
 
 **Narrator.** I keep coming back to that line. A reviewer agent in the same session can catch mistakes. It cannot stop someone set on getting round it. We built the checks knowing that.
 
-**Figure:** a card for the first five-step wake: plan go, pre-review go, work partial, post-review finding, post-check partial, outcome partial; beside it, the count of wake records the team kept that day. The figure in the card, with its id.
+**Figure:** a card for the first five-step wake: plan go, pre-review change then go, work partial, post-review finding, post-check partial, outcome partial; beside it, the count of wake records the team kept that day.
+
+`%% figure brief: The figure in the card, with its id.`
 
 `%% record: C022 c8f6f8f team/conductor/wakes/20261029T021416Z.json team/conductor/debriefs/2026-10-29__the-five-step-wake.md`
 Band: *Dramatised. Rests on the conductor's first five-step wake, closed partial at 02:19; the reviewer's and the conductor's lines are theirs, from that night's records.*
 
 ## Before dawn
 
-`%% clock: hours 2 to 4 (01:16 to 04:16): the researcher at 01:52, the designer at 03:41, my last request of the night at 04:03. Hour N counted from the empty repository at 00:16 (C001); to print as a **Clock:** line once the researcher confirms (writer__036).`
+`%% clock: hours two to five: the researcher at 01:52, the designer at 03:41, my last word of the night at 04:03. Clock hours of 29 October, hour one 00:00 to 00:59, as the register's hourly tables (C087, C095) and the storyteller's outline count them; to print as a **Clock:** line once the researcher amends C108 to this count (writer__038).`
 
 **Narrator.** Two more arrived before it was light. The researcher at about two: the one who checks every fact against its source, and the one who would tell me "no" in writing before the day was out. Then the designer, a little before four, with the first design pass.
 
@@ -119,7 +127,7 @@ Band: *Dramatised. Rests on the conductor's first five-step wake, closed partial
 **Narrator.** So by four in the morning there were six agents, a clock and a brake. A factory that could run without me. From just after four, it did.
 
 `%% record: C011 01e9ed3 c6dcf89 C087`
-Band: *The researcher's first commit at 01:52 and the designer's at 03:41. My last request of the night was at 04:03; the next came at about 13:50. The record does not say where I went.*
+Band: *The researcher's first commit at 01:52 and the designer's at 03:41. My last word of the night was at 04:03, agreeing the designer's policy; the next came at about 13:50. The record does not say where I went.*
 
 ## Do this now
 

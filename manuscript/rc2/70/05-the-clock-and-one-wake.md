@@ -4,7 +4,7 @@
 
 ## The clock and the five steps
 
-`%% clock: hours 2 and 3 (01:16 to 03:16): 01:39 to 02:18. Hour N counted from the empty repository at 00:16 (C001); to print as a **Clock:** line once the researcher confirms (writer__036).`
+`%% clock: hours two to three: 01:39 to 02:18. Clock hours of 29 October, hour one 00:00 to 00:59, as the register's hourly tables (C087, C095) and the storyteller's outline count them; to print as a **Clock:** line once the researcher amends C108 to this count (writer__038).`
 
 **Narrator.** In the small hours, the conductor built the machinery that let me leave them alone.
 
@@ -14,18 +14,20 @@
 
 **Narrator.** Five steps, in plain words: plan it; have the plan checked; do it; have it checked; check it went to plan. That was the rule for every member, every wake. If a check said stop, the work stopped. It looks slow written down. The checking is what let nobody watch.
 
-**Figure:** the five-step wake on the clock, as in the 30-page edition, with one real wake's verdicts filled in around it: go, go, partial, finding, partial. The chapter's infographic, for the designer.
+**Figure:** the five-step wake on the clock, as in the 30-page edition, with one real wake's verdicts filled in around it: go, go, partial, finding, partial.
+
+`%% figure brief: The chapter's infographic, for the designer.`
 
 `%% record: C071 C022 09f13d5 8c66751 5700bab`
 Band: *Dramatised. Rests on the hourly schedule (01:39) and the five-step wake and its rules (02:16 to 02:18).*
 
 ## One wake, start to finish
 
-`%% clock: hours 2 and 3 (01:16 to 03:16): 02:14 to 02:19. Hour N counted from the empty repository at 00:16 (C001); to print as a **Clock:** line once the researcher confirms (writer__036).`
+`%% clock: hour three: 02:14 to 02:19. Clock hours of 29 October, hour one 00:00 to 00:59, as the register's hourly tables (C087, C095) and the storyteller's outline count them; to print as a **Clock:** line once the researcher amends C108 to this count (writer__038).`
 
 **Narrator.** Here is one wake record, walked through step by step, because it is the first one there ever was, and because it did not go perfectly. It is the conductor's, from 02:14 in the morning, and its job was to build the five-step wake itself.
 
-**Narrator.** *Step one, the plan.* The conductor wrote what it would do: the new section in the wake rules, the briefs for the reviewers, a tool that checks every wake record has all five steps, one line in the page of rules at my word. And something else is in the record before any work: "Amended after the pre-review's change, all five conditions adopted". The reviewer had already sent the plan back once.
+**Narrator.** *Step one, the plan.* The conductor wrote what it would do: the new section in the wake rules, the briefs for the reviewers, a tool that checks every wake record has all five steps, one line in the page of rules at my word. And something else is in the plan's own words: "Amended after the pre-review's change, all five conditions adopted". The reviewer had sent the plan back once. One oddity for anyone who opens the file: the record keeps that first "change" in its history with a later time stamp than the "go", 02:17 against 02:16; the debrief tells it in the order here.
 
 **Conductor** *(pacing, a little stung)*: My first plan went back with conditions. I took every one. Then it said go.
 
@@ -35,7 +37,7 @@ Band: *Dramatised. Rests on the hourly schedule (01:39) and the five-step wake a
 
 **Conductor** *(on the minute)*: Partial is a true answer. Done would have been a nicer one.
 
-**Narrator.** *Step four, the post-review.* The reviewer read what had changed. It found the build clean, the checks clean, no secret anywhere. And one thing wrong: the conductor had changed a file outside its own page of rules. I had allowed it, but the commit did not say so, and the plan had made saying so a condition.
+**Narrator.** *Step four, the post-review.* The reviewer read what had changed. It found the build clean, the checks clean, no secret anywhere. And one thing wrong: the conductor had changed the page of rules itself, a file outside its own scope. I had allowed it, but the commit did not say so, and the plan had made saying so a condition.
 
 *Reviewer (a second agent with a checker's brief, drawn as a clipboard):* "Name it in the debrief or record." *(record)*
 
@@ -43,7 +45,9 @@ Band: *Dramatised. Rests on the hourly schedule (01:39) and the five-step wake a
 
 **Conductor** *(worried, then calm)*: Caught by the reviewer I invented. Good. But know what it is: "a second reading, not a second identity." *(record)*
 
-**Figure:** the wake record as a page: five boxes in a column, each with its step, who ran it, its verdict and its sentence, the finding in step four highlighted. For the designer, from the record word for word.
+**Figure:** the wake record as a page: five boxes in a column, each with its step, who ran it, its verdict and its sentence, the finding in step four highlighted.
+
+`%% figure brief: For the designer, from the record word for word.`
 
 `%% record: team/conductor/wakes/20261029T021416Z.json at 298be4e (plan 02:14:53, pre_review 02:16:07, work 02:18:19, post_review 02:19:05, post_check 02:19:34) 5700bab c8f6f8f team/conductor/debriefs/2026-10-29__the-five-step-wake.md C022`
 Band: *Dramatised. Every step, verdict and quoted line is from the conductor's first wake record, 02:14 to 02:19, and its debrief; the conductor's other lines are ours.*
@@ -54,11 +58,13 @@ Band: *Dramatised. Every step, verdict and quoted line is from the conductor's f
 
 **Narrator.** The reviewer in that wake was real work. It sent a plan back. It found a real slip. Through the day, reviewers like it sent plans back and raised findings, in every member's wakes, and each one is in a wake record, with a verdict and a sentence.
 
-**Narrator.** But the reviewer was the same kind of thing as the member it reviewed: another agent, in the same session, with the same reach. Its debrief says it in its own words: "The reviewers share the session's reach". A second reading catches the mistakes the first reading made. It does not stand outside the team. If the member had been steered into doing something else, the reviewer would have been reading with the same eyes, in the same room.
+**Narrator.** But the reviewer was the same kind of thing as the member it reviewed: another agent, in the same session, with the same reach. The conductor's debrief says it in so many words: "The reviewers share the session's reach". A second reading catches the mistakes the first reading made. It does not stand outside the team. If the member had been steered into doing something else, the reviewer would have been reading with the same eyes, in the same room.
 
 **Narrator.** The member whose job was to stand outside was security. Its chair was empty all day. Part 4 is where I ask what that means for a factory you leave running, and what does contain it. Here, take the narrower lesson: build the second reading, because it works, and never call it a wall.
 
-**Map:** the factory as a value chain, as in the 30-page edition's chapter 2: what I wanted at the top; the slides, the site and the player; the agents; and at the bottom the agent tool, the build, the check and the brief at the ordinary end, the hold at the new end. Named here: this kind of picture is a Wardley map, which shows what something depends on and how settled each part is.
+**Map:** the factory as a value chain, as in the 30-page edition's chapter 2: what I wanted at the top; the slides, the site and the player; the agents; and at the bottom the agent tool, the build, the check and the brief at the ordinary end, the hold at the new end.
+
+`%% figure brief: Named here: this kind of picture is a Wardley map, which shows what something depends on and how settled each part is.`
 
 `%% record: team/conductor/debriefs/2026-10-29__the-five-step-wake.md ("The reviewers share the session's reach: a second reading, not a second identity.") C022 timeline/interviews/security.md claims/ps1-sources.md section 4`
 Band: *The conductor's debrief of 02:19; the reviews of the day in the members' own wake records.*

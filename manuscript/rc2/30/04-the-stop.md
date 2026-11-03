@@ -4,21 +4,25 @@
 
 ## The last ten minutes
 
-`%% clock: hour 19 (18:16 to 19:16): 18:36 to 18:46. Hour N counted from the empty repository at 00:16 (C001); to print as a **Clock:** line once the researcher confirms (writer__036).`
+`%% clock: hour nineteen: 18:36 to 18:46. Clock hours of 29 October, hour one 00:00 to 00:59, as the register's hourly tables (C087, C095) and the storyteller's outline count them; to print as a **Clock:** line once the researcher amends C108 to this count (writer__038).`
 
-**Figure:** the last ten minutes, 18:36 to 18:46, minute by minute, every commit a dot: the lock left, the lock asked for, the player's last fix, the hold, the work that landed after it, the last release. The chapter's infographic, for the designer, each dot with its id in small type.
+**Figure:** the last ten minutes, 18:36 to 18:46, minute by minute, every commit a dot: the lock left, the lock asked for, the player's last fix, the hold, the work that landed after it, the last release.
+
+`%% figure brief: The chapter's infographic, for the designer, each dot with its id in small type.`
 
 **Narrator.** Here is what the factory was doing in the ten minutes before I stopped it.
 
 **Narrator.** The talk was planned in three parts, and each part was meant to be locked when it was final, so that nothing could change it on stage. Dev had built a tool for that late in the afternoon.
 
-*Words for this page:* to **lock** a part is to mark it final, so that no agent may change it again. To **freeze** something is the same idea, said in a hurry: nobody touches it until it is unfrozen. A **wake**, as in chapter 2, is one turn of work by one agent. Part 1 was final at half past six. At 18:36 the conductor came to it in its wake, and did not turn it.
+*Words for this page:* to **lock** a part is to mark it final, so that no agent may change it again. To **freeze** something is the same idea, said in a hurry: nobody touches it until it is unfrozen. A **wake**, as in chapter 2, is one turn of work by one agent.
+
+**Narrator.** Part 1 had been unchanged since half past six, the time planned for its lock. At 18:36 the conductor came to it in its wake, and did not turn it.
 
 **Conductor** *(on the minute, hands off)*: The lock is dev's. It is in dev's rules, not mine, and once it is turned it cannot be undone. I leave it to dev.
 
 **Conductor** *(a few minutes later, less calm)*: The first part is still not locked. Dev: lock it now.
 
-**Narrator.** At the same moment, dev was in the middle of my last fixes to the player, in a wake it had opened and never closed. The fix landed. The lock did not.
+**Narrator.** Dev had been in my last fixes to the player all evening, in a wake it had opened and never closed. The last fix landed at 18:37, two minutes before the conductor asked. The lock still did not.
 
 `%% for the editor: "I want to be fair to the conductor here." and this paragraph's last sentence ("A rule that keeps everyone in their lane ... the job waits.") are the writer's reading of his view; his to keep or drop.`
 
@@ -29,7 +33,7 @@ Band: *Dramatised. Rests on the conductor's wake at 18:36 ("Leave the lock to de
 
 ## The hold
 
-`%% clock: hour 19 (18:16 to 19:16): the hold at 18:44, the talk due at 19:00. Hour N counted from the empty repository at 00:16 (C001); to print as a **Clock:** line once the researcher confirms (writer__036).`
+`%% clock: hour nineteen: the hold at 18:44, the talk due at 19:00, as hour nineteen ends. Clock hours of 29 October, hour one 00:00 to 00:59, as the register's hourly tables (C087, C095) and the storyteller's outline count them; to print as a **Clock:** line once the researcher amends C108 to this count (writer__038).`
 
 **Narrator.** At 18:44, sixteen minutes before the talk was due, I said: "actually we are at 95% so it is better to pause all actions". *(record)*
 
@@ -39,7 +43,9 @@ Band: *Dramatised. Rests on the conductor's wake at 18:36 ("Leave the lock to de
 
 **Narrator.** The hold had been there all day. It was written once. Anyone on the team could stop everything. Only I could start it again. That is why I could let them run through the night.
 
-**Figure:** the wake clock from chapter 2, every member's minute greyed, and one small file on top of it. Beside it, a card: what landed after the hold, with its gap in seconds and its id.
+**Figure:** the wake clock from chapter 2, every member's minute greyed, and one small file on top of it.
+
+`%% figure brief: Beside it, a card: what landed after the hold, with its gap in seconds and its id.`
 
 `%% record: C006 C024 C100 C065 C005 867f8c2 88b8f00 cb5b996`
 Band: *Dramatised. Rests on the hold at 18:44:13, in my own words through the conductor; the talk due at 19:00; the designer's commit at 18:45:35 and the last release at 18:46:22.*
@@ -87,7 +93,7 @@ Band: *My three accounts, as the register holds them; the later two were given a
 
 **Storyteller** *(still rueful, then practical)*: A slot every hour is fine until the decisions come faster than the slots.
 
-**Narrator.** And one miss, and what it cost. In the night I froze the slides, and five minutes later the researcher proposed a correction to a figure on them: the average annual cost of insider risk. When the freeze lifted, nobody carried the correction back in, and the out-of-date figure reached a slide in the talk. The checks found it; the freeze hid it.
+**Narrator.** And one miss, and what it cost. In the night I froze the slides, and five minutes later the researcher proposed a correction to a figure on them: the average annual cost of insider risk. The figure had been on the definition slide since the first pass at 00:40. When the freeze lifted, for the framing only, nobody carried the correction back in, and the out-of-date figure stayed on the slide in the talk. The checks found it; the freeze hid it.
 
 **Narrator.** The lesson for your first week: when you freeze something, write down what is waiting to go in when you unfreeze it.
 

@@ -50,7 +50,9 @@ Band: *Dramatised. Rests on the researcher's and the designer's pages of rules a
 
 **Narrator.** Three more came after I was back, and you will meet them properly in part 3. For now, their briefs in a line each.
 
-**Figure:** three greyed cards: the storyteller, the talk's story, the arc, the tree and the maps; motion, the new story's animations, one request at a time from deck; studio, ports of earlier pieces rebuilt on this site's slide engine, working on an iPad. Each card with one rule from its page: the storyteller's "Nothing goes into the talk until the editor has seen it."
+**Figure:** three greyed cards: the storyteller, the talk's story, the arc, the tree and the maps; motion, the new story's animations, one request at a time from deck; studio, ports of earlier pieces rebuilt on this site's slide engine, working on an iPad.
+
+`%% figure brief: Each card with one rule from its page: the storyteller's "Nothing goes into the talk until the editor has seen it."`
 
 `%% record: talk repository at 298be4e: team/storyteller/ROLE.md team/motion/ROLE.md team/studio/ROLE.md and their policy.json`
 
