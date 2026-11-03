@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled, hourly at :12 (ACC1)",
+ "started": "2026-11-03T04:13:56Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (plan brief)",
+   "model": "",
+   "verdict": "go",
+   "comment": "(1) Board 011: pen.css column held to about 80ch on a tablet; gen-z-founder and gen-x-founder personas (fictional, provisional) and pages; both indexes; notice developer__022 to synthetic with outbox copy. (2) Board 010: make_editions.py generalised for rc2/70, src/pages/review/rc2-70/, zoom index updated. (3) vault_check, gate, status, debrief, REALITY line, push.",
+   "at": "2026-11-03T04:14:24Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (pre_review brief)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No hold, no stop condition; requests from synthetic's mail. Conditions: manuscript/ and review/synthetic/ read only; no outbound request; personas fictional and provisional; no religious words; vault_check on comms. Note: policy.json still reads 'proposed', as it has since the first wake.",
+   "at": "2026-11-03T04:14:24Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (post_check brief)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "All planned items landed in 1b5a71aa (ef14d9bd fixed the debrief front matter); board 010 honestly partial. Bookkeeping it flagged (board 010 line, status issues path, 04:40/04:45 times after the 04:20 commit) corrected in the next commit.",
+   "at": "2026-11-03T04:23:11Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (post_review brief)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Clean: all files in scope, no secrets, contacts, em-dashes or religious words, personas fictional, no network calls, make_editions.py escapes its text. Noted, older: build.py's Markdown passes raw-HTML lines and link hrefs unescaped; rc2-70 uses neither, so not a stop.",
+   "at": "2026-11-03T04:24:27Z"
+  },
+  "work": {
+   "by": "developer@book.the-ultimate-insider",
+   "model": "",
+   "verdict": "done",
+   "comment": "Board 011 done (tablet column, two provisional founder pages, notice developer__022); board 010 part: make_editions.py takes a list of editions, /review/rc2-70/ (9 chapters, 53 scenes, 311 links), the zoom's 70-page rung; twin ids on repeated lines fixed. Commits 1b5a71aa, ef14d9bd, 89235b16.",
+   "at": "2026-11-03T04:25:09Z"
+  }
+ },
+ "closed": "2026-11-03T04:25:09Z",
+ "outcome": "ok"
+}

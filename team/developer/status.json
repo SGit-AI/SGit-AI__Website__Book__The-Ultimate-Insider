@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "developer",
- "as_of": "2026-11-03T03:35:00Z",
+ "as_of": "2026-11-03T04:23:00Z",
  "round": 1,
- "state": "hourly (ACC1): RC2 online with its record under each scene, as the printed book promises; the zoom index; next the 3- and 10-page editions' record, the tablet fix and two persona pages",
+ "state": "hourly (ACC1): RC2 and the 70-page draft online with their record; the tablet fix and two provisional founder pages done; next the 3- and 10-page editions' record online",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/developer/ into team/developer/ (drafts left in place; ROLE.md names start.py and banner.py)",
@@ -112,6 +112,14 @@
   {
    "what": "/review/rc2/: RC2's 30-page draft online, each of 33 scenes with its record (253 verified links); /review/zoom.html (board 010)",
    "when": "2026-11-03"
+  },
+  {
+   "what": "board 011 done: the tablet column held to the measure, gen-z-founder and gen-x-founder pages (provisional, fictional); notice developer__022 to synthetic",
+   "when": "2026-11-03"
+  },
+  {
+   "what": "board 010, part: make_editions.py renders every edition in a list; /review/rc2-70/ (9 chapters, 53 scenes, 311 links) and the zoom's 70-page rung; one anchor table per chapter, so repeated lines get unique ids",
+   "when": "2026-11-03"
   }
  ],
  "next": [
@@ -166,7 +174,7 @@
   "comms/issues/developer/issues/blocked/008-questions-and-chapters-per-persona.md",
   "comms/issues/developer/issues/open/009-nr1-augmented-mode.md",
   "comms/issues/developer/issues/open/010-editions-online-zoom.md",
-  "comms/issues/developer/issues/open/011-tablet-and-two-personas.md"
+  "comms/issues/developer/issues/done/011-tablet-and-two-personas.md"
  ],
  "board": "comms/issues/developer/issues/",
  "pages": {
@@ -180,7 +188,10 @@
   "designer": "/review/designer.html",
   "project-manager": "/review/project-manager.html",
   "rc2": "/review/rc2/index.html",
-  "zoom": "/review/zoom.html"
+  "zoom": "/review/zoom.html",
+  "gen-z-founder": "/review/gen-z-founder.html",
+  "gen-x-founder": "/review/gen-x-founder.html",
+  "rc2-70": "/review/rc2-70/"
  },
  "cadence": "active"
 }

@@ -4,7 +4,7 @@
 # every commit, path and register id in it a link where verified (the same lookup as make_reader.py: this repository,
 # a read-only clone of the talk's at 298be4e, claims/register.json). Other `%%` lines are notes for the writers and stay
 # hidden. Paragraph anchors as on the review pages. Also writes the zoom index: the editions from shortest to longest.
-# Writes only src/pages/review/rc2/ and src/pages/review/zoom.html. Kept by developer@book.the-ultimate-insider.
+# Writes only src/pages/review/rc2/, src/pages/review/rc2-70/ and src/pages/review/zoom.html. Kept by developer@book.the-ultimate-insider.
 # Run: python3 review/tools/make_editions.py <path to a full clone of SGit-AI__Website__Presentation__The-Ultimate-Insider>
 
 import html, json, re, subprocess, sys
@@ -14,8 +14,9 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from make_review import ROOT, Markdown, anchored                    # noqa: E402
 from make_reader import Repo, link, value_html, BOOK, TALK, TALK_AT  # noqa: E402
 
-EDITIONS = {'30': ('RC2, the 30-page edition', ROOT / 'manuscript' / 'editions' / 'rc2' / 'Book.txt')}
-OUT = ROOT / 'src' / 'pages' / 'review' / 'rc2'
+EDITIONS = [('rc2', 'RC2, the 30-page edition', ROOT / 'manuscript' / 'editions' / 'rc2' / 'Book.txt'),
+            ('rc2-70', 'the 70-page edition, being written', ROOT / 'manuscript' / 'editions' / 'rc2-70' / 'Book.txt')]
+PAGES = ROOT / 'src' / 'pages' / 'review'
 TOKEN = re.compile(r'(?<![\w/.-])(C\d{3}|[0-9a-f]{7,12}|[\w.-]+(?:/[\w.-]+)+/?|[\w-]+\.md)(?![\w/-])')
 
 
@@ -50,7 +51,7 @@ def chapter_page(path, i, files, book, talk, claims, edition_title):
     raw = path.read_text()
     title = re.match(r'# (.*)', raw).group(1)
     ch = f'r{i + 1:02d}'
-    used, blocks, scene, linked = {}, [], 0, 0
+    used, blocks, scene, linked, seen = {}, [], 0, 0, {}                # seen: one per chapter, so a repeated line gets -2, not a twin id
     for part in re.split(r'(^`?%%[^\n]*$)', raw.split('\n', 1)[1], flags=re.M):
         if re.match(r'^`?%%\s*record:', part):
             scene += 1
@@ -60,7 +61,7 @@ def chapter_page(path, i, files, book, talk, claims, edition_title):
         elif re.match(r'^`?%%', part):
             continue                                                # notes for the writers: not for readers
         elif part.strip():
-            blocks.append(anchored(Markdown().to_html(part), ch, {}, [], path.name))
+            blocks.append(anchored(Markdown().to_html(part), ch, seen, [], path.name))
     claims_list = ''.join(f'<li id="claim-{c}"><b>{c}</b> {html.escape(claims[c]["claim"])}: {value_html(claims[c].get("value", ""))} '
                           f'<span class="pv-state pv-{html.escape(claims[c].get("state", ""))}">{html.escape(claims[c].get("state", ""))}</span></li>'
                           for c in sorted(used))
@@ -83,22 +84,25 @@ def main(talk_path):
             sys.exit(f'{where} is a shallow clone: run git fetch --unshallow there first')
     book, talk = Repo(ROOT, 'HEAD', BOOK, 'dev'), Repo(Path(talk_path), TALK_AT, TALK, TALK_AT)
     claims = {c['id']: c for c in json.loads((ROOT / 'claims' / 'register.json').read_text())['claims']}
-    OUT.mkdir(parents=True, exist_ok=True)
-    edition_title, booktxt = EDITIONS['30']
-    files = [(booktxt.parent / l.strip()).resolve() for l in booktxt.read_text().splitlines() if l.strip() and not l.startswith('#')]
-    toc, scenes, links = [], 0, 0
-    for i, f in enumerate(files):
-        title, n, k, body = chapter_page(f, i, files, book, talk, claims, edition_title)
-        (OUT / f'{f.stem}.html').write_text(body)
-        scenes, links = scenes + n, links + k
-        toc.append(f'<li><a href="{f.stem}.html">{html.escape(title)}</a> <span class="c-dim">{n} scenes with their record, {k} links</span></li>')
-        print(f'rc2: {f.name}: {n} scenes, {k} links')
-    meta = {'title': 'RC2 online, with its record', 'description': 'The 30-page draft of One Human, Nine Agents, Nineteen Hours, online: under each scene, the commits, times and files it rests on.'}
-    (OUT / 'index.html').write_text(
-        f'<!--meta {json.dumps(meta)} -->\n<section class="wrap narrow" data-no-third-party>\n<p class="kicker">RC2 · the 30-page edition · a draft</p>\n'
-        f'<h1>RC2 online, with its record</h1>\n<p class="lead">The book says: "Online, under each scene, you can open the commits, times and files it rests on." Here they are: each scene of the draft with what it rests on, every commit, file and number a link where it could be verified.</p>\n'
-        f'<p class="note">{scenes} scenes, {links} links, from the writer\'s chapters (<code>manuscript/rc2/30/</code>) as they stand on dev; rebuilt with the site. The draft changes at every release.</p>\n'
-        f'<ol>{"".join(toc)}</ol>\n<p><a href="../zoom.html">The zoom</a>: the same story at every length.</p>\n</section>\n')
+    for slug, edition_title, booktxt in EDITIONS:
+        OUT = PAGES / slug
+        OUT.mkdir(parents=True, exist_ok=True)
+        files = [(booktxt.parent / l.strip()).resolve() for l in booktxt.read_text().splitlines() if l.strip() and not l.startswith('#')]
+        files = [f for f in files if f.exists()]
+        toc, scenes, links = [], 0, 0
+        for i, f in enumerate(files):
+            title, n, k, body = chapter_page(f, i, files, book, talk, claims, edition_title)
+            (OUT / f'{f.stem}.html').write_text(body)
+            scenes, links = scenes + n, links + k
+            toc.append(f'<li><a href="{f.stem}.html">{html.escape(title)}</a> <span class="c-dim">{n} scenes with their record, {k} links</span></li>')
+        src = html.escape(str(files[0].parent.relative_to(ROOT))) if files else ''
+        meta = {'title': f'{edition_title[0].upper() + edition_title[1:]} online, with its record', 'description': f'One Human, Nine Agents, Nineteen Hours, {edition_title}, online: under each scene, the commits, times and files it rests on.'}
+        (OUT / 'index.html').write_text(
+            f'<!--meta {json.dumps(meta)} -->\n<section class="wrap narrow" data-no-third-party>\n<p class="kicker">{html.escape(edition_title)} · a draft</p>\n'
+            f'<h1>{html.escape(edition_title[0].upper() + edition_title[1:])}, online, with its record</h1>\n<p class="lead">The book says: "Online, under each scene, you can open the commits, times and files it rests on." Here they are: each scene with what it rests on, every commit, file and number a link where it could be verified.</p>\n'
+            f'<p class="note">{len(files)} chapters, {scenes} scenes, {links} links, from the writer\'s chapters (<code>{src}/</code>) as they stand on dev; rebuilt with the site. The draft changes at every release.</p>\n'
+            f'<ol>{"".join(toc)}</ol>\n<p><a href="../zoom.html">The zoom</a>: the same story at every length.</p>\n</section>\n')
+        print(f'{slug}: {len(files)} chapters, {scenes} scenes, {links} links')
     zmeta = {'title': 'The zoom: the book at every length', 'description': 'One Human, Nine Agents, Nineteen Hours from 3 pages to the full first version: start small, zoom in.'}
     (OUT.parent / 'zoom.html').write_text(
         f'<!--meta {json.dumps(zmeta)} -->\n<section class="wrap narrow" data-no-third-party>\n<p class="kicker">The book · ZM1</p>\n<h1>The zoom: the same story at every length</h1>\n'
@@ -106,9 +110,9 @@ def main(talk_path):
         f'<li><b>3 pages</b>: <a href="{{{{root}}}}manuscript/one-human-nine-agents-edition-03.pdf">the PDF</a></li>\n'
         f'<li><b>10 pages</b>: <a href="{{{{root}}}}manuscript/one-human-nine-agents-edition-10.pdf">the PDF</a></li>\n'
         f'<li><b>30 pages, RC2</b>: <a href="rc2/index.html">online, with the record under each scene</a> · <a href="{{{{root}}}}rc2.html">its page and PDF</a></li>\n'
+        f'<li><b>70 pages, being written</b>: <a href="rc2-70/index.html">the chapters drafted so far, online, with their record</a></li>\n'
         f'<li><b>The full first version, RC1</b>: <a href="read/index.html">online, with every source linked</a></li>\n</ol>\n'
-        f'<p class="note">The 70-page edition is being written; it joins the ladder when it is drafted. Made by <code>review/tools/make_editions.py</code>.</p>\n</section>\n')
-    print(f'rc2: {scenes} scenes, {links} links')
+        f'<p class="note">The 70-page edition grows as the writer drafts it. Made by <code>review/tools/make_editions.py</code>.</p>\n</section>\n')
 
 
 if __name__ == '__main__':

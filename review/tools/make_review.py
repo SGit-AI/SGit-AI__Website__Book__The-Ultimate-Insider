@@ -94,6 +94,8 @@ def page(p):
             qhtml = (f'<section class="rv-qs" aria-label="Questions on this chapter"><h3>Questions on this chapter</h3><ol>{items}</ol>'
                      + (f'<p class="note">The storyteller\'s questions for this kind of reader (<code>team/storyteller/review-questions.md</code>).</p></section>'
                         if p.get('questions_label') == 'storyteller' else
+                        f'<p class="note">The storyteller\'s questions for the founder, borrowed until it writes this reader\'s own (<code>team/storyteller/review-questions.md</code>).</p></section>'
+                        if p.get('questions_label') == 'borrowed' else
                         f'<p class="note">Placeholder questions, from the reviewers study; the storyteller writes the final ones.</p></section>'))
         parts.append(f'<article class="rv-ch" id="c{ch}" data-ch="{ch}"><h2>{esc}</h2>\n{body}\n{qhtml}</article>')
     gets = ''.join(f'<li>{html.escape(g)}</li>' for g in p['gets'])
