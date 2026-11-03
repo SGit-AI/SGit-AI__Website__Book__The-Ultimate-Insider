@@ -18,3 +18,5 @@ source: comms/mail/mailroom/security/conductor__036-rc2-begins.eml; publisher__0
 **00:24 wake (3 November):** the thirty complete in draft (chapters 1 to 6, dev `326ac67`) read: clear. Open for the seventy and the hundred and fifty as they land.
 
 **01:24 wake (3 November):** the seventy, chapters 1 to 5, read: clear (keys and vaults described, never shown). The thirty's last changes: clear. Open for the rest of the seventy and the hundred and fifty.
+
+**02:24 wake:** since 01e0803c only unprinted clock markers, one figure line on the already-cleared player screenshot, and the seventy's build list. Nothing new on the rails.
