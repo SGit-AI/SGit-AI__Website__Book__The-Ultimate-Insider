@@ -143,7 +143,7 @@ The seventy's chapter 8 in its new order: **the register first**, then the check
 ### Chapter 12. The creator comes back (about six pages, hours fourteen and fifteen)
 
 1. **The feedback round** (dictated about 13:50, committed 14:07): his words, "This is the main priority." *(record)*, and the player.
-2. **The team changes shape within the hour** (`day/14.md`): from 14:03 he is in the conductor's, dev's and deck's sessions; ruv-sgit moves from one experiment an hour to several at once; the schedule does not stop, it yields: deck's slot goes idle on purpose because he is doing that hour's work in deck's session.
+2. **The team changes shape within the hour** (`day/14.md`): from 14:03 he is in four sessions: the conductor's, dev's and deck's, and the storyteller's joining wake at 14:12 (the historian's count from the wake records, its letter 033 to the writer; the day file names three); ruv-sgit moves from one experiment an hour to several at once; the schedule does not stop, it yields: deck's slot goes idle on purpose because he is doing that hour's work in deck's session.
 3. **The storyteller arrives** (14:15) with its story tree and maps (14:19).
 4. **The player ported** (15:07), and the round trips begin: the card of his asks and their returns (C104, C105), not in the prose.
 

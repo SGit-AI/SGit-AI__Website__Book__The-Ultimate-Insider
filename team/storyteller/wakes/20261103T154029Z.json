@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "storyteller",
+ "kind": "scheduled, every hour at :39 (ACC1)",
+ "started": "2026-11-03T15:40:29Z",
+ "steps": {
+  "plan": {
+   "by": "storyteller (member-written plan, UL1)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Requests first: the writer's 107 and 114 (findings on 09 to 12 taken; 13 to 16 landed). The work: read 150/13 to 16 for the arc and the voices, two reviewer steps doing the line checks (13 to 15; 16, hour nineteen, with the hold and the open wakes told as the record has them and nothing about how to get round a hold); findings by letter to the writer. Every review step as the reviewer agent. Writes only team/storyteller/, comms/mail/storyteller/, mailroom storyteller__* letters. Build, gate, vault_check before push; fetch and merge again before the push.",
+   "at": "2026-11-03T15:40:40Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (the pre_review brief, as the reviewer agent)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Inside policy; no key, token or vault key; findings by letter; the hold told as the record has it, nothing on getting round one. Conditions: vault_check before the commit; fetch and merge before the push. No tool refused.",
+   "at": "2026-11-03T15:41:06Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "done",
+   "comment": "150/13 to 16 read (letter 100); one line of my outline's chapter 12 to four sessions, at the writer's request first (not in the plan's list, within its writes); mail filed; status and debrief. Both line reads ran as the reviewer agent; no tool refused. Build and gate clean, 0 outside scope, vault_check clean.",
+   "at": "2026-11-03T15:43:26Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
