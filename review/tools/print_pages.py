@@ -1,5 +1,5 @@
-# The printed page of every paragraph of RC2 (A8: "a page-by-page view, like the PDF on an iPad"): builds the 30- and
-# 70-page drafts with the publisher's own command (publishing/build_book.py, run and never changed, with the arguments
+# The printed page of every paragraph of RC2 (A8: "a page-by-page view, like the PDF on an iPad"): builds the 30-page,
+# 70-page and full drafts with the publisher's own command (publishing/build_book.py, run and never changed, with the arguments
 # .github/workflows/release.yml gives it, stamp included so the page breaks are the published ones) into a temporary
 # directory that is removed afterwards (TMPDIR points into it, so the publisher's own temporary folders go with it), reads
 # each page's text with pdftotext, and finds each anchored paragraph of review/anchors/editions.json on its page: by six
@@ -18,6 +18,7 @@ BUILDS = {   # as release.yml: its book list, its name and its stamp
     'rc2': (None, 'one-human-nine-agents-rc2-draft',
             'One Human, Nine Agents, Nineteen Hours: RC2, the 30-page edition, DRAFT IN REVIEW'),
     'rc2-70': (None, 'one-human-nine-agents-rc2-70-draft', 'One Human, Nine Agents, Nineteen Hours: RC2, the 70-page edition, DRAFT IN REVIEW'),
+    'rc2-150': (None, 'one-human-nine-agents-rc2-full-draft', 'One Human, Nine Agents, Nineteen Hours: RC2, the full book, DRAFT IN REVIEW'),
 }
 norm = lambda t: re.sub(r'[^a-z0-9]+', ' ', t.lower()).strip()
 
@@ -32,7 +33,7 @@ def chapters_hash(files):
 def book_files(slug):
     if slug == 'rc2':
         return sorted((ROOT / 'manuscript' / 'rc2' / '30').glob('*.md'))
-    txt = ROOT / 'manuscript' / 'editions' / 'rc2-70' / 'Book.txt'
+    txt = ROOT / 'manuscript' / 'editions' / slug / 'Book.txt'
     return [(txt.parent / l.strip()).resolve() for l in txt.read_text().splitlines() if l.strip() and not l.startswith('#')]
 
 
@@ -49,7 +50,7 @@ def main():
                 book = Path(tmp) / 'rc2-book.txt'
                 book.write_text(''.join(f'{f}\n' for f in files))
             else:
-                book = ROOT / 'manuscript' / 'editions' / 'rc2-70' / 'Book.txt'
+                book = ROOT / 'manuscript' / 'editions' / slug / 'Book.txt'
             r = subprocess.run([sys.executable, 'publishing/build_book.py', '--book', str(book), *COMMON, '--name', name, '--out', tmp, '--stamp', stamp],
                                cwd=ROOT, env=env, capture_output=True, text=True)
             pdf = Path(tmp) / f'{name}.pdf'

@@ -4,7 +4,7 @@
 # every commit, path and register id in it a link where verified (the same lookup as make_reader.py: this repository,
 # a read-only clone of the talk's at 298be4e, claims/register.json). Other `%%` lines are notes for the writers and stay
 # hidden. Paragraph anchors as on the review pages. Also writes the zoom index: the editions from shortest to longest.
-# Writes only each edition's pages.html, review/anchors/qr-targets.json, editions.json (and its copy in src/static/review/), src/pages/review/rc2/, rc2-70/, ed-03/, ed-10/ and src/pages/review/zoom.html. Kept by developer@book.the-ultimate-insider.
+# Writes only each edition's pages.html (rc2, rc2-70, rc2-150, ed-03, ed-10), review/anchors/qr-targets.json, editions.json (and its copy in src/static/review/), src/pages/review/rc2/, rc2-70/, ed-03/, ed-10/ and src/pages/review/zoom.html. Kept by developer@book.the-ultimate-insider.
 # Run: python3 review/tools/make_editions.py <path to a full clone of SGit-AI__Website__Presentation__The-Ultimate-Insider>
 
 import html, json, re, subprocess, sys
@@ -16,7 +16,8 @@ from make_reader import Repo, link, value_html, BOOK, TALK, TALK_AT  # noqa: E40
 from print_pages import chapters_hash, book_files, OUT as PRINT     # noqa: E402
 
 EDITIONS = [('rc2', 'RC2, the 30-page edition', ROOT / 'manuscript' / 'editions' / 'rc2' / 'Book.txt'),
-            ('rc2-70', 'the 70-page edition, being written', ROOT / 'manuscript' / 'editions' / 'rc2-70' / 'Book.txt')]
+            ('rc2-70', 'the 70-page edition, being written', ROOT / 'manuscript' / 'editions' / 'rc2-70' / 'Book.txt'),
+            ('rc2-150', 'the full book, being written', ROOT / 'manuscript' / 'editions' / 'rc2-150' / 'Book.txt')]
 PAGES = ROOT / 'src' / 'pages' / 'review'
 SITE = json.loads((ROOT / 'site.json').read_text())['url'].rstrip('/')   # the book's own domain: the only host a printed code may point at
 QR = ROOT / 'review' / 'anchors' / 'qr-targets.json'
@@ -361,6 +362,7 @@ def main(talk_path):
         f'<li><b>10 pages</b>: <a href="ed-10/index.html">online, with its record</a> · <a href="ed-10/pages.html">page by page</a> · <a href="{{{{root}}}}manuscript/one-human-nine-agents-edition-10.pdf">the PDF</a></li>\n'
         f'<li><b>30 pages, RC2</b>: <a href="rc2/index.html">online, with the record under each scene</a> · <a href="rc2/pages.html">page by page</a> · <a href="{{{{root}}}}rc2.html">its page and PDF</a></li>\n'
         f'<li><b>70 pages, being written</b>: <a href="rc2-70/index.html">the chapters drafted so far, online, with their record</a> · <a href="rc2-70/pages.html">page by page</a></li>\n'
+        f'<li><b>The full book, being written</b>: <a href="rc2-150/index.html">online, with the record under each scene</a> · <a href="rc2-150/pages.html">page by page</a></li>\n'
         f'<li><b>The full first version, RC1</b>: <a href="read/index.html">online, with every source linked</a> · <a href="{{{{root}}}}review/rc1-book.json">as data</a></li>\n</ol>\n'
         f'<p class="note">The 70-page edition grows as the writer drafts it. Made by <code>review/tools/make_editions.py</code>.</p>\n</section>\n')
 
