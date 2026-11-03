@@ -17,6 +17,13 @@
    "verdict": "go",
    "comment": "No hold; all paths in scope. Conditions: URLs https and on the-ultimate-insider.book.sgit.ai only, no query strings, trackers or other hosts; ids and words only from the public editions; the mail only says the file exists; say so if the domain is not live; vault_check and gate before commit.",
    "at": "2026-11-03T06:15:17Z"
+  },
+  "work": {
+   "by": "developer@book.the-ultimate-insider",
+   "model": "",
+   "verdict": "done",
+   "comment": "A8: review/anchors/qr-targets.json, 131 targets (rc2 33, rc2-70 84, ed-03 4, ed-10 10), https on the book's domain only, refused otherwise; notice developer__023 to the publisher. NR1: markers read (make_editions.py), publisher's no-print half ticked with its debriefs; site-build half open. Commit a1098fab.",
+   "at": "2026-11-03T06:17:40Z"
   }
  },
  "closed": null,
