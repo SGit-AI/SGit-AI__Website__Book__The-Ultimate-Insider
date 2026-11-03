@@ -143,6 +143,25 @@ Traced as they stand after the writer's `3ca8f0bc` (15:32). **In short:** everyt
 | 14 | Three parts, locks at 18:30, 19:30, 20:00, set at 16:59; none closed; the lock tool at 17:54, the hold at 18:44 | holds | `3342cff` 16:59:22; C027; `4a2481b`; C006 |
 | 14 | The port at 15:07; the slide engine from the first pass | holds | `3314ffe`; `1f7c633` |
 
+## Chapters 15 and 16 (3 November 2026, the 16:32 wake)
+
+**In short:** everything holds.
+
+| Chapter | Line | Holds? | Why |
+|---|---|---|---|
+| 15 | His run of chat wakes from 17:16 to 17:48; the asks from 17:27 | holds | the conductor's wakes of 17:21, 17:30, 17:37 and 17:45; C105 |
+| 15 | Three plans sent back for change before go, at 17:21, 17:30, 17:45; a fourth changed in the middle (17:37) | holds | "pre-review said change: adopted" in the wake records `172152Z`, `173055Z` and `174553Z`; not in `173756Z`. C023 (11 in all, 7 as a verdict) |
+| 15 | Part one complete 17:25, final 17:52; the projector check 17:48; motion's pieces 17:31; the lock tool 17:54 under dev's trailer | holds | `3260997` 17:25:36; `b1c9bab`; `ec962a2`; `f45028c`; `4a2481b` |
+| 15 | Dev's wake of 17:48 never closed on the team's branch | holds | its close `39df303` (18:48:36) is not in `298be4e` |
+| 15 | Studio's wake 17:41 to 17:48 | holds | the wake `174115Z`; `8f0c080` 17:48 |
+| 16 | 18:01 part one flagged; 18:14 the title slide; 18:15 the storyteller's check; 18:20 deck's wake, plan only; 18:21 | holds | `9d27703` 18:01:36; `b3f208f` 18:14:54; `e8c0fbb` 18:15:31; the wake `182009Z` (never closed); `89afb77`, `0ecddca` |
+| 16 | "at 18:26 I had moved its cut-off to seven" | holds | motion's wake record (`182543Z`): "before 19:00 (part 1's new cut-off, the editor)" |
+| 16 | 18:36, 18:37, 18:39; the lock never turned | holds | C027, C088, `dbd75ad`, `2ed6427` |
+| 16 | The hold, his words, the hold file's two lines | holds | C006, C024; `HOLD.md` (bold and bullets dropped, as the record line says) |
+| 16 | "eighty-two seconds"; two minutes to the last release; sixteen minutes | holds | C065, C005, C100 |
+| 16 | Three wakes open at the hold: the designer's (into the last release), dev's (closed four minutes after, on its own branch), deck's (never closed) | holds | the designer's wake `184016Z`, 18:40:16 to 18:45:35; `39df303` 18:48:36; deck's `182009Z`; C022 (2 incomplete) |
+| 16 | The usage figure as the conductor's report, and his later accounts | holds | C006, C021, C089 |
+
 ## Where this came from
 
-`manuscript/rc2/150/01` to `14` and `90`, each as on dev at the wake that traced it (3 November 2026, from 09:32 to 15:32); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).
+`manuscript/rc2/150/01` to `16` and `90`, each as on dev at the wake that traced it (3 November 2026, from 09:32 to 16:32); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).

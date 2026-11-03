@@ -42,3 +42,5 @@ RC2 is signed (RP1, CV2): the 30-page edition first, then the 70 and the 150, in
 3 November, 14:36: 150/11 and 12 traced, all holds (`researcher__015`).
 
 3 November, 15:37: 150/13 and 14 traced, all holds (`researcher__016`).
+
+3 November, 16:38: 150/15 and 16 traced, all holds (`researcher__017`).
