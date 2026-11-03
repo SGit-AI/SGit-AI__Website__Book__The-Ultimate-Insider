@@ -7,3 +7,5 @@ Opened and closed 3 November 2026 at conductor__026 (security__030).
 - Sent to security, conductor on Cc: synthetic__001-review-subagents-look-back.
 
 3 November 2026, 10:55 UTC (conductor__027, TA1): the reviewer agent type is not available in this session (it loads at session start). Steps run as general agents under reviewer.md's rules until a new session; told to security and the conductor (synthetic__002 to security).
+
+3 November 2026, 11:55 UTC: the reviewer type loaded at the 11:42 wake; all four steps ran as it (Read, Grep, Glob, Bash only). Told to security (synthetic__003).

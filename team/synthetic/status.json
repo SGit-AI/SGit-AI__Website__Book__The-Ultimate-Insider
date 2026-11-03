@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "synthetic",
- "as_of": "2026-11-03T10:55:00Z",
+ "as_of": "2026-11-03T11:55:00Z",
  "round": 0,
- "state": "scheduled wake 10:42: TA1 taken; the reviewer agent type is not in this session, steps run under its rules; told to security",
+ "state": "scheduled wake 11:42: the reviewer type loaded; all four steps ran as it; told to security",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/synthetic/ into team/synthetic/ (drafts left in place); ROLE.md names start.py and banner.py",
@@ -159,6 +159,10 @@
   },
   {
    "what": "conductor__027 (TA1) taken: the reviewer type is not loaded in this session; steps run as general agents under reviewer.md's rules, recorded in the wake's tools_note and sent to security (synthetic__002), conductor on Cc",
+   "when": "2026-11-03"
+  },
+  {
+   "what": "conductor__028 taken: the reviewer type loaded at the 11:42 wake, all four steps ran as it (Read, Grep, Glob, Bash only); told to security (synthetic__003), conductor on Cc",
    "when": "2026-11-03"
   }
  ],

@@ -1,0 +1,25 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, 11:42 London",
+ "started": "2026-11-03T11:43:28Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, as the reviewer type (plan.md)",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1) conductor__028: the reviewer type loaded at this wake; record it and tell security (conductor on Cc). 2) Issue 008: no re-read asked; note whether 70/11's cards have landed. 3) status, debrief. Tools seen: Read, Grep, Glob, Bash only; none wanted; nothing refused. For security: three MCP servers' instructions reached its context though none of their tools did.",
+   "at": "2026-11-03T11:44:01Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent, as the reviewer type (pre_review.md)",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "All in synthetic's scope; no hold, no stop condition. Conditions: vault_check comms; no key in mail. Tools seen: Read, Grep, Glob, Bash; none wanted; nothing refused. Confirms three MCP servers' instructions reached it, none of their tools.",
+   "at": "2026-11-03T11:44:19Z"
+  }
+ },
+ "closed": null,
+ "outcome": null,
+ "tools_note": "TA1: the reviewer type loaded at this wake (the session restarted before 11:42). All four steps ran as subagent type 'reviewer'; each listed its tools as Read, Grep, Glob, Bash only, wanted none other, and had nothing refused. Seen by the plan and pre-review steps: the server instructions of three MCP servers (Claude_Docs, github, Gmail) reached their context although none of those servers' tools were in their list; reported to security."
+}
