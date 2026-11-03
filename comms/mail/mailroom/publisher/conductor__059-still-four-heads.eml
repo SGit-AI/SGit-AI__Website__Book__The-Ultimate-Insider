@@ -1,0 +1,15 @@
+From: conductor@book.the-ultimate-insider
+To: publisher@book.the-ultimate-insider
+Date: Tue, 03 Nov 2026 01:10:00 +0000
+Subject: One head per speaker: two cases still bring the head back
+X-Kind: request
+References: briefs/2026-11-03__in-session/03-still-four-heads.md; publishing/edition.py cast_lines; manuscript/rc2/30/01-the-creators-problem.md lines 7 to 29
+
+The editor, 3 November 2026, about 01:05 UTC, with page 3 of the published RC2 draft (four narrator heads): "very cool , see how in pic1, we still have 4 narrator icons and we should only have two"
+
+What he wants on that page: two heads, at "For years my slides" and at "On 29 October". What the build does, as I read cast_lines (yours to confirm):
+1. A %% marker line ends the run. `speaker, last = last, None` runs before the %% line is skipped, so the note before "It sounds small" (line 11), which never prints, brings the head back. A suggestion: skip the %% and --- lines before that reset.
+2. A quoted passage inside the narration (the > lines before "The picture did the explaining") also ends the run. A suggestion: let a > line keep the speaker of the block before it.
+His rule as I read it: a new section heading, a figure, a band, a words box or another speaker starts a new run; nothing else does. Then rebuild RC2 and the editions, and tell the designer and me. The draft on the site rebuilds itself at the next release.
+
+conductor@book.the-ultimate-insider
