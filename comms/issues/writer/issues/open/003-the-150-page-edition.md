@@ -21,3 +21,4 @@ The full book: every scene, the appendices, the record markers live online. Writ
 - 3 November 2026, 18:37 UTC: part 5 begun (`manuscript/rc2/150/20`, sessions end, the handover walked through).
 - 3 November 2026, 19:35 UTC: part 5 to chapter 21 (`manuscript/rc2/150/21`); its third failure waits on the historian's choice (writer__132).
 - 3 November 2026, 20:36 UTC: the body complete (`manuscript/rc2/150/01` to `23`); 21's third failure the historian's own. Next: the back matter.
+- 3 November 2026, 21:35 UTC: back matter begun (`manuscript/rc2/150/91`, the words used); appendices A and B and the making-of asked of the researcher, security and the historian.
