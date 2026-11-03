@@ -10,13 +10,15 @@
 
 *Words for this page:* a **trigger** is what starts a wake. On the day there were two kinds: the schedule, firing each member at its own minute, and me, starting a member's session by typing into it. A third, the **follow-up**, was a wake a member started itself to finish something.
 
-**Narrator.** Every wake of the day was started by one of those. The register counts them all: 162 wakes, 105 started by the schedule, 47 by me, and 10 follow-ups. Laid out hour by hour, they draw the day better than anything I could write.
+**Narrator.** Every wake of the day was started by one of those, and laid out hour by hour they draw the day better than anything I could write.
+
+**Figure:** a card, the day's wakes by trigger: 162 wakes; 105 started by the schedule, 47 by me, 10 follow-ups.
 
 **Figure:** the day by trigger, hour by hour, in two colours: the schedule's wakes and mine, with the follow-ups as a third mark. The chapter's infographic, at full size.
 
 `%% figure brief: For the designer. From C087 and C110, by clock hour: the small hours mostly mine (I was building the machine by hand), the morning the schedule's alone, the afternoon both at once, the last two hours with follow-ups.`
 
-**Narrator.** Three shapes in that picture. In the small hours, most wakes are mine: the members' own records of those hours show their onboarding, their keys and the five steps being built. From just after four to about ten to two, there is only one colour. Five or six wakes an hour, every hour, all on the clock. Then I come back, and from mid-afternoon the two colours run side by side, with more wakes in an hour than at any time before, until the hold.
+**Narrator.** Three shapes in that picture. In the small hours, most wakes are mine: the members' own records of those hours show their onboarding, their keys and the five steps being built. From just after four to about ten to two, there is only one colour, every hour, all on the clock. Then I come back, and from mid-afternoon the two colours run side by side, with more wakes in an hour than at any time before, until the hold.
 
 **Narrator.** The middle stretch is the one people ask about. Nothing in it waited for me. A member woke at its minute, read its mail and its board, did one step of its work with its reviews, and went back to sleep. The next one did the same at its own minute. The morning is just that, over and over, with nobody watching.
 

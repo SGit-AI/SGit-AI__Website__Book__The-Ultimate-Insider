@@ -1,3 +1,5 @@
+`%% folded into 16-build-your-own.md (the storyteller's order after synthetic's read, 3 November 2026); this file stays only until the publisher drops it from its build list, then the writer removes it.`
+
 # Principles
 
 **Cast bar:** off stage. Just the principles, and where each one came from.

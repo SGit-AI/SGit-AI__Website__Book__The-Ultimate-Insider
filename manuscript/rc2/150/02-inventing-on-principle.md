@@ -49,9 +49,16 @@ Band: *Rests on the player named his main priority (about 13:50), its port (15:0
 
 ## One ask, followed in full
 
-`%% to trace (the historian, writer__070): one of my afternoon asks followed from my words to the commit that answered it, from timeline/day/17.md or 18.md; until then this section waits on the card above.`
+**Narrator.** The card has every ask and its time back. One of them, followed from my words to the change, shows what "immediate" meant, including where it fell short. At 17:27 I asked, in the conductor's session, for the new pieces the other agents had made to go into the deck, and ended: "So when in doubt add it."
 
-**Narrator.** The card has every ask and its time back. One of them, followed from my words to the change, is the clearest way to show what "immediate" meant: what I said, who routed it, who did it, how it was checked, and when I saw it again.
+**Narrator.** Two minutes later the conductor routed it to deck, with the first list of gaps, and kept the searching for itself.
+
+**Conductor** *(on the minute, routing)*: "Deck places; it does not search" *(record)*
+
+**Narrator.** At 17:52 deck placed every new piece into the talk's second and third parts, quoting me. At 18:15 the storyteller's check found one piece still in no beat. And when I saw it again, the record does not say. That is the honest end of the round trip: every hand-off is written down, and the last step, me looking, is not.
+
+`%% record: team/historian/reviews/rc2-times.md (the last section, historian__026) a618b29 (17:29:41) b1c9bab (17:52:15, in no wake record of deck's) e8c0fbb (18:15:31) team/conductor/briefs (brief 7, his words at 17:27)`
+Band: *Dramatised (the conductor's line is its own, from a618b29). Rests on the historian's trace of one ask, from my words at 17:27 to the storyteller's check at 18:15.*
 
 ## What a factory is
 

@@ -29,11 +29,19 @@ Band: *My three accounts, as the register holds them; the later two were given a
 
 **Narrator.** The failures stay in, at full size. Here they are, one at a time.
 
+### The lock never turned
+
+*What it cost:* the first part was never locked, and nothing stopped it changing on stage but the hold.
+
 **Narrator.** The lock, first. Dev built it late in the afternoon so that finished slides could not change on stage.
 
 **Dev** *(rueful)*: I built a tool to freeze the finished slides, so nothing could change them on stage. I never ran it.
 
 **Dev** *(more quietly)*: I was in your player fixes until the end. The last one landed just before the hold. The lock was still waiting.
+
+### Two parts of three unfinished
+
+*What it cost:* two parts of the talk never reached their finished state.
 
 **Narrator.** The parts, second. The talk was planned in three, each with its own time to lock.
 
@@ -41,11 +49,19 @@ Band: *My three accounts, as the register holds them; the later two were given a
 
 **Deck** *(to itself, rearranging slides that will not be shown)*: The second and third were in progress at the hold. I reviewed other agents' work all night. I did not finish my own.
 
+### The moment missed
+
+*What it cost:* the split was made without the storyteller's turn.
+
 **Narrator.** The moment that was missed, third. In the afternoon the talk was split into its parts. The storyteller arrived after two, and its slot came round between the deadlines.
 
 **Storyteller** *(rueful)*: My turn came between deadlines, and I missed the moment the talk was split into its parts.
 
 **Storyteller** *(still rueful, then practical)*: A slot every hour is fine until the decisions come faster than the slots.
+
+### The correction lost in the freeze
+
+*What it cost:* an out-of-date figure on a slide at the end of the day.
 
 **Narrator.** And one miss, and what it cost. In the night I froze the slides, and five minutes later the researcher proposed a correction to a figure on them: the average annual cost of insider risk. The figure had been on the definition slide since the first pass at 00:40. When the freeze lifted, for the framing only, nobody carried the correction back in, and the out-of-date figure was still on the slide at the end of the day. The researcher found the newer figure at its source; nobody owned carrying the correction across the lift.
 
@@ -55,13 +71,17 @@ Band: *My three accounts, as the register holds them; the later two were given a
 
 `%% record: C031 (on stage $17.4M, Ponemon for DTEX, 2025 edition; at source in 2026, US$19.5M; correction proposed a082c52, 02:52; the freeze 02:47)`
 
+### The claims that did not hold
+
+*What it cost:* nothing on stage; the register marked them, and the talk went round them.
+
 **Narrator.** The talk's own register of claims, built that evening, graded every claim it made: 320 of them. 210 held, 55 held in part, 52 were not checked, and three did not hold. No beat of the talk carries any of the three.
 
 **Narrator.** Where they were: one in the article only, one on no beat or slide at all, one in the story tree only.
 
 **Researcher** *(unbudging, ticking a list)*: I marked each one that did not hold. The talk went round them. The day's checks worked, and they also missed. Saying where is part of the method.
 
-**Figure:** a "what did not work" card per miss, each with its id in small type: the lock never turned; two parts of three unfinished; the moment missed; the correction lost in the freeze; the three claims that did not hold.
+**Figure:** the five misses as five cards on one page, each with its cost in a line and its id in small type.
 
 `%% record: C027 C029 C030 C031 4a2481b a082c52 60af587 team/dev/debriefs team/deck/debriefs team/storyteller/debriefs`
 Band: *Dramatised. Rests on the part locks and their state at the hold, the talk's register of claims and its three that did not hold, the freeze at 02:47 and the correction proposed five minutes later, and each member's own debrief.*

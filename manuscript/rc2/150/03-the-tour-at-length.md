@@ -197,7 +197,7 @@ Band: *Dramatised. Rests on the two articles; the second was added after the day
 
 **Dev** *(happy, the fast one)*: I never wrote a version number. The pipeline did, every time.
 
-`%% record: index/talk-site/README.md (item 18) team/deck/ROLE.md at 298be4e`
+`%% record: index/talk-site/README.md (item 18) CLAUDE.md at 298be4e (line 17: "Never write ./version ... CI numbers every release")`
 Band: *Dramatised. Rests on the release history as the site showed it.*
 
 ## Stop 17. The night's brief

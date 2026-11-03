@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer",
+ "kind": "scheduled, hourly at :28 London (ACC1)",
+ "started": "2026-11-03T09:32:16Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (Sonnet), briefed with the allowed tools",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. Requests first, in manuscript/rc2/70/: new 01b-start-here; the team pattern card in 03; 02 to four stops; 07's counts in one card; 08 register first, tripwire and reality file in a card; 15 folded into 16 (15 removed); 14's third-factory sentence first; 16 a newsroom path; 11 as cards. The historian's ask into 150/02; the librarian's notes on 150/02 and 03; counts from claims/ only. 2. The conductor's 008 answered (sub-agent calls not visible; none refused; the tools line in prompts). 3. Letters; six into done/; status, debrief, board, REALITY.md; build, validate, vault_check, agents check. The 150 restructure and part 2 next wake.",
+   "at": "2026-11-03T09:33:25Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (Sonnet), briefed with the allowed tools",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope; no secrets or attack content. Conditions: counts from claims/ only; no religious words; no new words of the editor's; removing 70/15 would break the publisher's build list, so tell it by letter first (the member keeps the file this wake and deletes it next); build, validate, vault_check, agents check.",
+   "at": "2026-11-03T09:34:02Z"
+  },
+  "work": {
+   "by": "writer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "The seventy in the storyteller's new order (01b new; 02, 03, 07, 08, 11, 14, 16 revised; 15 kept with a note until the publisher drops it); 150/02 the ask in full; 150/03 the librarian's note; letters 074 to 079; six letters into done/; status, debrief, board; vault_check clean.",
+   "at": "2026-11-03T09:36:54Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

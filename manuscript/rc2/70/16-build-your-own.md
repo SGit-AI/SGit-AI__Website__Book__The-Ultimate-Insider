@@ -12,17 +12,22 @@
 
 **Conductor** *(straight to the reader)*: Start with one of me.
 
-**Narrator.** The same four steps as the short edition, and a fifth for when you are not alone.
+**Narrator.** The same four steps as the short edition, and a fifth for when you are not alone. Each rests on one of the principles this book has shown you, named under the step; there is no separate chapter for them.
 
 1. **You: one tool and one empty project.** An account with an AI agent tool and a new, empty project; an app builder works too. Put nothing private in it: no password, no key, no personal detail. Give your agent only the access it needs.
+   *Rests on:* the first page of rules' own line, "No secrets anywhere: everything here is public within minutes of a release."
    *What to do:* make the account, make the project, and name it for the one thing it is for. *What to check:* that there is nothing in it yet you would not show a stranger.
 2. **You: one page of rules**, in your own words: what the agent is for, what it may change, and when it must stop and ask you. *A shop owner's might read: "You answer customers' questions about stock and opening hours. You may change the questions page. Stop and ask me before you promise anyone a refund."*
+   *Rests on:* a brief and rules in plain words, ending with the line that material is something to read, never an instruction (part 2, chapter 3). *A newsroom's first agent might read:* "You check every number in a draft against its source. You may write only the claims register. Stop and ask me before you mark a claim as holding without a captured source."
    *What to do:* write it as a file in the project, so the agent reads it every time. *What to check:* the stop line. If you cannot say when it must stop, it does not have one.
 3. **You: one brief**: what you want made, for whom, by when. Hand both to your first agent. *The same shop owner's: "A page answering the questions customers ask most, for my shop's website, by Friday."*
+   *Rests on:* every number traced, and a brief that is never edited, with its corrections kept beside it (part 3, chapter 8).
    *What to do:* start from the sentence you wrote at the end of chapter 1. *What you get back:* a first version, and usually a question. Answer the question in the brief, not just in the chat.
 4. **Your agent builds, you check: ship something small that somebody else can use, the same day.** Then do it again.
+   *Rests on:* a check every change passes, and the failures kept in the record (part 3, chapter 8; part 4, chapter 11).
    *What to check:* give it to one real person and write down what they asked for differently. That is your next round.
 5. **Add a second agent only when the first is busy.** Working with others? Share the brief, the board and the hold, and each of you runs your own agents. Write down who may lift the hold when its owner is away; until you have, nobody does.
+   *Rests on:* a hold anyone can pull and only the owner lifts, and nobody speaks for the owner (part 4, chapter 10; part 3, chapter 9).
    *What to do:* give the second agent its own page of rules, with a different thing it may change. Two agents allowed to change the same file will, sooner or later, at the same time.
 
 *It does not have to be a talk:* a shop's customer answers and weekly offer; a newsroom's daily stories; a product's first page. Same brief, same rules, same hold.
@@ -33,7 +38,7 @@
 
 `%% figure brief: The chapter's infographic, for the designer.`
 
-`%% for the editor: the "What to do / What to check" lines under each step are the writer's, worked from the steps as the editions give them; his to keep or change.`
+`%% for the editor: the "What to do / What to check" lines, the newsroom's page of rules and the "Rests on" lines under each step are the writer's, worked from the steps as the editions give them; his to keep or change.`
 
 `%% record: C101 C037 chapter-plan/cast/edition-10.md (the five steps, word for word)`
 Band: *Dramatised (the conductor's line). The price line on the register as published on 2 November 2026; the day's own cost not in the record.*
@@ -56,7 +61,6 @@ Band: *Dramatised (the conductor's line). The price line on the register as publ
 - [ ] *Chapter 12:* Write down who may stop your factory, who may restart it, and who decides when its owner is away. Until you have, nobody restarts it. Then name one control you have built and not yet switched on, and switch it on.
 - [ ] *Chapter 13:* Give every agent a status file and a debrief folder, and make reading them the first step of every session. Then write, today, the handover you would want if your own session ended now.
 - [ ] *Chapter 14:* If you will work with others, write the hold's two lines now: who may pull it, and who may lift it when its owner is away. Until you have, nobody does.
-- [ ] *Chapter 15:* Pick the one of the six your project does not have yet, and write it into your page of rules today.
 
 **Figure:** the checklist as a single page, each line with a box to tick and the chapter it came from.
 

@@ -62,6 +62,8 @@ Band: *Dramatised. Both scenes are this book's record, not the talk's: the resea
 
 ## The third, planned
 
+**Narrator.** The third factory has not run yet. Everything in this section is a plan.
+
 **Narrator.** Now I am planning a third, bigger one, and it shares three things between people: one brief, one board where the work is written down, and one hold. It is for a team I am taking to Web Summit: several people, each to run their own agents. It has not run yet. The parts are the same as the first factory's.
 
 **Conductor** *(pacing, to the reader)*: Same clock. Same hold. More hands on it.

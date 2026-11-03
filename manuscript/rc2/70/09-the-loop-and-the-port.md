@@ -37,7 +37,7 @@ Band: *Dramatised (dev's line). Rests on the feedback round (dictated about 13:5
 
 **Storyteller** *(scarf, open book, a little breathless)*: I came late, so I came with a map. Here is where everything sits. Change nothing yet; look first.
 
-**Narrator.** The tree put the talk's beats in an order with a reason behind it: what the room must believe first, what follows from it, where the turn comes. The maps put the parts of the argument where they sit relative to each other, with "positions, not measurements" on the slide. You saw one on the tour.
+**Narrator.** The tree put the talk's beats in an order with a reason behind it: what the room must believe first, what follows from it, where the turn comes. The maps put the parts of the argument where they sit relative to each other, with "positions, not measurements" on the slide.
 
 **Figure:** the storyteller's story tree as it was that afternoon: the talk's beats as branches, the turn marked.
 

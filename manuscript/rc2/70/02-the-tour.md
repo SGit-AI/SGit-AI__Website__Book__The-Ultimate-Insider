@@ -2,7 +2,7 @@
 
 **Cast bar:** the nine, greyed. Each lights for a moment as the tour reaches its work.
 
-**Narrator.** Before I tell you how the factory worked, I want you to see what it made. Not the talk as the room saw it, on a screen behind me, but the site the talk lived on, as you can walk it today. Seven stops. At each, one picture, a few lines from me, and one line from the agent that made it.
+**Narrator.** Before I tell you how the factory worked, I want you to see what it made. Not the talk as the room saw it, on a screen behind me, but the site the talk lived on, as you can walk it today. Four stops. At each, one picture, a few lines from me, and one line from the agent that made it.
 
 *Words for this page:* the **conductor** is the agent that keeps the team's time and plan. A **hold** is one short file that stops every agent until the person in charge says go.
 
@@ -21,44 +21,7 @@
 `%% record: C015 index/talk-site/README.md (item 2) index/talk-site/tour-material.md (stop 2) src/static/talk/talk.json b3f208f src/static/talk/player.html dbd75ad`
 Band: *Dramatised. Rests on the talk's pages and player as they stood at the end of the day.*
 
-## Stop 2. The explained animations
-
-**Figure:** one of ruv-sgit's animations, "mandate and grant", beside its explainer page: the same picture frame by frame, with what each frame shows and the data it was drawn from (`index/talk-site/shots/ruv-sgit__mandate-and-grant.jpg`).
-
-`%% figure brief: The librarian's screenshot (index/talk-site/shots/ruv-sgit__mandate-and-grant.jpg).`
-
-**Narrator.** These are the night shift's work. ruv-sgit made the moving pictures for the talk, and for each one it made a second page that explains it, frame by frame, with the source of every number in it. The room saw the picture move. Anyone who wants to check it can read why it moves the way it does.
-
-**ruv-sgit** *(absorbed, the night owl)*: If a fresh copy of me cannot rebuild it from the explainer and the data, it is not finished.
-
-`%% record: index/talk-site/README.md (item 9) index/talk-site/visuals.md`
-Band: *Dramatised. Rests on ruv-sgit's animation pages and their explainers on the talk's site.*
-
-## Stop 3. The maps on the slides
-
-**Figure:** the storyteller's map slide: the pioneers, settlers and town planners, with "positions, not measurements" written on the slide itself.
-
-**Narrator.** You met this kind of picture in the short editions, and you will meet it properly in the next part. On the day, the storyteller put maps like this one in the talk. The line on the slide matters: the map shows where things sit relative to each other. It does not measure them.
-
-**Storyteller** *(rueful)*: I arrived in the afternoon, and these were the first things I made. A proposal, not an ask to change anything.
-
-`%% record: index/talk-site/README.md (item 11) talk/slides/maps/`
-Band: *Dramatised: the storyteller's line is ours. Rests on its map slides, among its first commits at 14:15 (C011).*
-
-## Stop 4. The studio
-
-**Figure:** the studio's index and its lab: several versions of one slide side by side, a review under each, the best one marked as promoted into the deck (`index/talk-site/shots/studio.jpg`, `studio__lab.jpg`).
-
-`%% figure brief: The librarian's screenshots (index/talk-site/shots/studio.jpg, studio__lab.jpg).`
-
-**Narrator.** This is how a slide was made when it mattered. A brief for one part of the argument; several versions made side by side; a review of each; the best one promoted into the deck, and the others kept, so you can see what lost and why.
-
-**Studio** *(firm, principled)*: The best version wins on the page, not in an argument. And the sources are pinned, so nobody can quietly change the one that won.
-
-`%% record: index/talk-site/README.md (item 14) index/talk-site/studio.md src/pages/studio/ 950a53a`
-Band: *Dramatised. Rests on the studio's pages as they stood at the end of the day.*
-
-## Stop 5. The dashboard and the hold
+## Stop 2. The dashboard and the hold
 
 **Figure:** the team's dashboard, drawn: a clock, the hold, what waits on the editor, and every wake as a grid.
 
@@ -71,7 +34,7 @@ Band: *Dramatised. Rests on the studio's pages as they stood at the end of the d
 `%% record: index/talk-site/README.md (item 5) index/talk-site/tour-material.md (stop 5) admin/build/build.py 23739cc C006`
 Band: *Dramatised. Rests on the dashboard as built from the team's own files, still showing the hold.*
 
-## Stop 6. Every wake and every note
+## Stop 3. Every wake and every note
 
 **Figure:** the wakes page: each member's wakes, newest first, with the five steps, each step's verdict and its comment.
 
@@ -88,7 +51,7 @@ Band: *Dramatised. Rests on the dashboard as built from the team's own files, st
 `%% record: C022 C014 index/talk-site/README.md (items 16 and 17) index/talk-site/tour-material.md (stops 7 and 8)`
 Band: *Dramatised. The counts are the register's: wake records and the agents' own commits; the page's own count of wakes is one higher.*
 
-## Stop 7. A member's page
+## Stop 4. A member's page
 
 **Figure:** one member's page, deck's: its role, its policy in prose, its rules with the mistake behind each one, its status, its wakes and its debriefs; its key lines cropped out.
 

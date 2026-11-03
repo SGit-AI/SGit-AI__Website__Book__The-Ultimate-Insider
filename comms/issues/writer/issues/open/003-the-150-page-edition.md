@@ -9,3 +9,4 @@ source: ROLE.md responsibility 1; ZM1
 The full book: every scene, the appendices, the record markers live online. Written part by part in `manuscript/rc2/150/`, in sequence, as the storyteller outlines it.
 - 3 November 2026, 07:45 UTC: the 150 sketched (chapter-plan/edition-150-outline.md); part 1 in full at the storyteller's next wake.
 - 3 November 2026, 08:55 UTC: part 1 written (`manuscript/rc2/150/01` to `03`); two traces asked (writer__069, 070). Part 2 next.
+- 3 November 2026, 09:55 UTC: the seventy in the storyteller's new order after synthetic's read; 150/02's ask in full. Next: the full book's restructure and part 2.

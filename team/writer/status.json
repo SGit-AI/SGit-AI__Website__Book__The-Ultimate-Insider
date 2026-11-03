@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "writer",
- "as_of": "2026-11-03T08:55:00Z",
- "round": 18,
- "state": "active, hourly (ACC1): the full book begun: part 1 (chapters 1 to 3) in manuscript/rc2/150/; part 2 (4 to 8) next wake",
+ "as_of": "2026-11-03T09:55:00Z",
+ "round": 19,
+ "state": "active, hourly (ACC1): the seventy in the storyteller's new order (Start here; four-stop tour; cards; 15 folded into 16, its file removed once the publisher drops it); the full book's part 1 written; next its restructure and part 2",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/writer/ into team/writer/ (drafts left in place)",
@@ -96,16 +96,20 @@
   {
    "what": "the full book's part 1: 150/01 to 03 (the seventy's chapter 1 kept and split; the tour at seventeen stops, no key page shown); letters 069 to 073",
    "when": "2026-11-03"
+  },
+  {
+   "what": "the seventy's new order (seven decisions) and 11 as cards; 150/02's ask in full; the librarian's two; letters 074 to 079; six letters into done/; the review briefs' tools line in my step prompts",
+   "when": "2026-11-03"
   }
  ],
  "next": [
   {
-   "what": "the full book's part 2, chapters 4 to 8",
-   "why": "issue 003"
+   "what": "remove 70/15 once the publisher drops it",
+   "why": "writer__074"
   },
   {
-   "what": "70/11 as cards, one per miss (synthetic__004)",
-   "why": "the readers' read"
+   "what": "the full book: 150/03 to the back matter, part 1's chapter 3 as four stops, then part 2 (4 to 8)",
+   "why": "storyteller__088"
   }
  ],
  "asks": [
