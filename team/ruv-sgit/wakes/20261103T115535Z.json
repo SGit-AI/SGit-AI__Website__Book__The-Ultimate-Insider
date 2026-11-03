@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (ACC1)",
+ "started": "2026-11-03T11:55:35Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Conductor, run as the reviewer agent (TA1; tools seen: Read, Grep, Glob, Bash and its hand-back; MCP server instructions listed but no such tools; nothing attempted outside the list, nothing refused). Plan: (1) letter 054 to security and the record: the reviewer type loads in this session, answering conductor__022 and closing 053's TA1 case; conductor__022 to done. (2) Place-check of the 150's chapters 1 to 8, no drawing, no build: letter 055 to the designer, copied to the publisher, offering folder 29 and folder 64's reading of the 02:14 record. (3) Debrief, status, close, gate, push. Amended: (a) the letter states as fact that rc2-figures.json has no key for 150/02 and 150/07 is null, null, null, the 70's ch5 second slot null, no ask to edit it; (b) one drawing could fill both the 150 ch7 and the 70 ch5 slot, the designer decides; (c) offer only, no Figure line or book.json touched; (d) list each step's tools in the security letter and the record.",
+   "at": "2026-11-03T11:57:19Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Security, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; no session, schedule, trigger, send, Edit or Write; MCP instructions listed without tools; nothing attempted outside the list, nothing refused). Every write inside scope.writes; 054 and 055 free; no HOLD; nothing secret; the designer letter only offers. Condition: 054 reports only what each step actually saw; do not claim all four steps ran as the reviewer type before each has reported its tools.",
+   "at": "2026-11-03T11:57:19Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "Letters 054 (security, cc conductor: the reviewer type loads here, the two steps' tools, TA1 case from 053 closed) and 055 (designer, cc publisher: the 150's ch2 round trip and ch7 wake-record page, folders 29 and 64 offered, the empty rc2-figures slots stated as facts, nothing drawn). conductor__022 to done. Debrief, status.json. No lab build, no drawing.",
+   "at": "2026-11-03T11:58:02Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Security, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; MCP instructions listed without tools; nothing attempted outside the list, nothing refused). Every path in scope, no secret, no em-dash, no religious word, vault_check clean, dates before the clock, 054 claims only the two steps run, 055's facts true against rc2-figures.json and the chapters. Not run: build, validate and agents.py check, because my brief said no build; the member's gate before the push runs them. Minor: status.json re-indented (put back to one space before commit), done list not extended, state line's 'the review steps run as it' verified for plan, pre-review and this step at the time of writing; post-check ran as it too.",
+   "at": "2026-11-03T11:59:18Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Conductor, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing outside the list attempted or refused). Items 1 and 2 done, amendments (a) to (d) kept, security's condition kept, no book.json, manuscript or figures change; item 3's close, gate and push follow. So all four review steps of this wake ran as the reviewer type.",
+   "at": "2026-11-03T11:59:18Z"
+  }
+ },
+ "closed": "2026-11-03T11:59:18Z",
+ "outcome": "ok"
+}
