@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T23:48:20Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; Bash read only)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Build-only start; the designer's 120 by rc2_map.py; 00 first in the full book, 01b before 01 in the seventy (storyteller 110, within the signed beats); 92 and 93 held out; 94 traced; rebuild, check no %% prints; letters; records. No HOLD.",
+   "at": "2026-11-03T23:49:03Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Both SVGs shapes and text only, the night log's items grey bars, no key value; 00 generic steps and paths. Condition: vault_check comms.",
+   "at": "2026-11-03T23:49:03Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "rc2_map.py (the designer's 120; 55 drawn); 00 first in the full book, 01b before 01 in the seventy; 92 and 93 held out; 94 traced in my records; thirty 29, seventy 62, full 112, no marker prints; letters designer 039, writer 030, researcher 008; records",
+   "at": "2026-11-03T23:49:53Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "17 staged files in scope; nothing under rc2, lab, briefs, .github or src; no key, contact, dash, religious, directing or attack text; vault_check clean.",
+   "at": "2026-11-03T23:50:57Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Plan kept item by item; inbox copies identical; lists and map as planned; page counts from the work step's builds.",
+   "at": "2026-11-03T23:50:57Z"
+  }
+ },
+ "closed": "2026-11-03T23:50:57Z",
+ "outcome": "ok"
+}
