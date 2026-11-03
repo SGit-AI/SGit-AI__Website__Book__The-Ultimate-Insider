@@ -46,6 +46,39 @@ researcher@book.the-ultimate-insider. Each chapter of `manuscript/rc2/150/` as t
 | 2 (new) | The 17:27 ask followed: the conductor at 17:29, deck placing the pieces at 17:52, the storyteller's check at 18:15 | holds | `a618b29` 17:29:41; `b1c9bab` 17:52:15 (no wake record of deck's in that hour); `e8c0fbb` 18:15:31 ("the blast-radius piece the editor named is in no beat") |
 | 3, 90 | The four-stop tour and the long tour | holds | unchanged lines from the trace above (58, 162 and 163, 439, nine hours) |
 
+## Chapters 6 to 8 (3 November 2026, the 12:32 wake)
+
+**In short:** every count and every time in the prose holds. A few times in the non-printing `%% record:` lines are a minute off, or give a wake's opening time beside a later commit; they are listed below to tidy, and none changes a printed word.
+
+**The writer's named items:**
+- **C022 by member** (06's card): conductor 43, dev 22, deck 21, ruv-sgit 20, designer 19, researcher 17, storyteller 8, studio 8, motion 4. Holds.
+- **C025's first three entries:** 02:14, CLAUDE.md not named; 03:05, found after the push; 04:10, 28 values and 30 files redacted in the same wake, 0 left. The fourth, at 06:14, is told as "later in the morning". Holds. On the card, told as the team's finding and its rule only, with no value, site or field, as the brief asks.
+- **C031's beginning** (07): the first round at 02:10, deck's first items at 02:20, the freeze at 02:47, the exact text at 02:52. Holds.
+- **C087 hours 02, 03, 04** (cards): 2 scheduled and 5 the editor's; 5 and 10; 6 and 1. Holds. These are margin-clock hours three, four and five (C110).
+- **C095** for the part's infographic. Holds; the table is `claims/talk-commits-by-member-hour.md`.
+
+**Times and quotes in the prose, checked against `298be4e`:**
+- 01:08 ruv-sgit; 00:51 security's page; 02:14:16 the first record; 02:16 and 02:18; the five steps at 02:14:53 to 02:19:34; 02:19 partial; "Name it in the debrief or record"; "a second reading, not a second identity". All hold.
+- 02:48:49 dev's first scheduled wake, 02:51 (`99aaf05`); ruv-sgit's 02:33:28 the first wake the clock started; the conductor's 02:02 wake with only a commit (`c81df64`, 02:05). All hold.
+- 03:03 the conductor's first scheduled wake with a record; 03:10 "Backlog, then schedule, then execute"; deck 03:18; ruv-sgit 03:33 (its wake record, 033305Z). All hold.
+- 03:05 the researcher's finding; 03:07 the hand-typed time; 03:27 to 03:29 the night log; 03:34 "a push is done when the commit is in origin/dev". All hold.
+- 03:41 the designer; its idle first wake "a minute later" (opened 03:42:18); 04:02:56 and 04:03 "my last word of the night". All hold.
+- 04:11 and 04:19 (C107); "A scope is a setting, not a boundary ..." (`admin/build/agents.py`). All hold.
+
+**`%% record:` times to tidy (not printed):**
+
+| Cited | The commit's time |
+|---|---|
+| 9d27703 (18:00) | 18:01:36 |
+| 0ecddca (18:20) | 18:21:58 |
+| 89afb77 (18:20) | 18:21:18 |
+| 8543269 (03:03) | 03:05:50; 03:03 is the wake's opening |
+| e8bd87a (03:33) | 03:42:49; 03:33 is the wake's opening |
+| 09c02ff (03:42) | 03:43:16; 03:42 is the wake's opening |
+| 1ef6675 (04:10) | 04:21:39; 04:10 is the wake's opening |
+
+**Not traced here:** the reconstructed interviews in 06 beyond their cited commits. They are the historian's reconstruction, and the chapter says so.
+
 ## Where this came from
 
 `manuscript/rc2/150/01` to `03` as on dev at 09:33 on 3 November; the talk's repository at `298be4e` and `a9c0b49`; C001, C011, C014, C015, C022, C028, C069, C072, C081, C087, C100, C102 to C105, C109, C111.
