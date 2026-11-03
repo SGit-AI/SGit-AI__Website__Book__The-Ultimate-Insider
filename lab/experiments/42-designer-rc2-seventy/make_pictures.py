@@ -56,6 +56,9 @@
   two reviews each a reviewer inside it; the debrief's line as chapter 12 quotes it (checked there).
 - ch12-book-table.svg: the same table for this book's team, its members read from team/, security's seat filled;
   members with no figure drawn as labelled seats.
+- ch13-two-sessions.svg: one member's two sessions, from team/storyteller/sessions/*/SESSION.json (state and times only;
+  no session id, fingerprint or account printed, and key files never read), and the key register as rows of blank tags.
+- ch1b-start-sheet.svg: the start-here page as one printable sheet, its five steps read from 01b, a box beside each.
 No number is printed but the hold's time, ids, C029's and C087's counts and the chapters' own times. One SVG unit a millimetre, sizes stated, text 9 pt.
 """
 import json, re, subprocess, sys
@@ -687,6 +690,9 @@ def story_tree(clone):
     import textwrap
     src = subprocess.run(["git", "-C", clone, "show", "df37797:team/storyteller/story/tree.md"], capture_output=True, text=True, check=True).stdout
     block = src.split("```mermaid", 1)[1].split("```", 1)[0]
+    later = subprocess.run(["git", "-C", clone, "show", "2afe0d7:team/storyteller/story/tree.md"], capture_output=True, text=True, check=True).stdout
+    if "the turn" in block or '|"the turn:' not in later:
+        sys.exit("make_pictures: the tree's turn is not as the caption says (none at 14:19, one from 16:04)")
     nodes = {k: v.replace("<br/>", " ") for k, v in re.findall(r'(\w+)\["(.+?)"\]', block)}
     edges = re.findall(r"^\s*(\w+) --> (\w+)", block, re.M)
     dotted = re.findall(r"^\s*(\w+) -\.-> (\w+)", block, re.M)
@@ -727,7 +733,7 @@ def story_tree(clone):
                     out.append(t(x + 7.6, y + 3.7 + j * 4.1, r, 400, mc.MUTED))
                 y += gh + 1
         H = max(H, y)
-    out.append(t(0, H + 4, "the tree's own nodes at 14:19 (df37797), verbatim; its dotted cross-links left out; no turn marked", 400, mc.MUTED))
+    out.append(t(0, H + 4, "the tree's own nodes at 14:19 (df37797), verbatim, its dotted links left out; no turn marked at 14:19 (from 16:04 the tree names one, 2afe0d7)", 400, mc.MUTED))
     return mc.svg(164, round(H + 5.8, 1), "".join(out), "The storyteller's story tree as it was at 14:19: the premise, three parts and their beats")
 
 
@@ -826,6 +832,62 @@ def book_table():
                + t(116, 31, "a dashed seat: a member", 400, mc.MUTED) + t(116, 35.1, "not drawn yet", 400, mc.MUTED))
     out.append(t(0, 74, "the members as this book's team/ folders hold them; the same table as the talk's", 400, mc.MUTED))
     return mc.svg(164, 76, "".join(out), "This book's team at the table, the same drawing as the talk's, with security's seat filled")
+
+
+def two_sessions():
+    import datetime
+    sess = [json.loads(p.read_text()) for p in sorted((REPO / "team" / "storyteller" / "sessions").glob("*/SESSION.json"))]
+    old = next(x for x in sess if x["state"] == "superseded")
+    new = next(x for x in sess if x["state"] == "current")
+    if old["until"] != new["from"]:
+        sys.exit("make_pictures: the storyteller's sessions do not hand over at one time")
+    at = datetime.datetime.fromisoformat(old["until"].replace("Z", "+00:00"))
+    when = f"{at:%H:%M}, {at.day} {at:%B}"
+    out = []
+    for i, (label, state, line1, tags) in enumerate([("the old session", "superseded", f"ended {when}", ["its key", "its debriefs"]),
+                                                     ("the new session", "current", f"from {when}", ["its own key", "its first debrief"])]):
+        x = i * 82.4
+        warm = state == "superseded"
+        out.append(f'<rect x="{x + .3:.1f}" y=".3" width="80.6" height="34" rx="2" fill="#fff" stroke="{mc.FILL2 if warm else mc.INK}" stroke-width=".5"/>'
+                   + g(mc.figure("storyteller", "happy"), x + 2, 3, .5) + t(x + 25, 8, label, 800, mc.MUTED if warm else mc.INK)
+                   + f'<rect x="{x + 25}" y="11" width="26" height="5" rx="2.5" fill="{mc.FILL if warm else mc.ACCENT}"/>'
+                   + t(x + 38, 14.6, state, 700, mc.MUTED if warm else "#fff", "middle") + t(x + 25, 21.6, line1, 400, mc.MUTED))
+        for k, tag in enumerate(tags):
+            out.append(f'<rect x="{x + 25 + k * 27}" y="25" width="25" height="6" rx="1" fill="#fff" stroke="{mc.FILL2}" stroke-width=".4" stroke-dasharray="1 .6"/>'
+                       + t(x + 26.4 + k * 27, 29.4, tag, 400, mc.MUTED))
+        if warm:
+            out.append(mc.line(x + 3, 33, x + 78, 2, mc.FILL2, .4))
+    # the key register: each member's public key against its session, drawn as rows of blank tags
+    members = sorted(p.name for p in (REPO / "team").iterdir() if p.is_dir() and (p / "ROLE.md").exists())
+    y0 = 40
+    out.append(t(0, y0 + 3, "the key register, described: each member's public key against its session", 700))
+    for i, m in enumerate(members):
+        x, y = (i % 3) * 55, y0 + 7 + (i // 3) * 7
+        out.append(t(x, y + 3.6, m, 400, mc.INK) + "".join(f'<rect x="{x + 24 + k * 14}" y="{y}" width="12" height="4.6" rx=".8" fill="{mc.FILL}" stroke="{mc.FILL2}" stroke-width=".3"/>' for k in range(2)))
+    H = y0 + 7 + ((len(members) + 2) // 3) * 7
+    out.append(t(0, H + 4, "the role carries on; the key does not. No key, fingerprint or session id printed; the tags are blank on purpose", 400, mc.MUTED))
+    return mc.svg(164, round(H + 5.8, 1), "".join(out), "Two sessions of one member, the old superseded and the new with its own key; the key register as blank tags")
+
+
+def start_sheet():
+    import textwrap
+    text = (R70 / "01b-start-here.md").read_text()
+    steps = re.findall(r"^- \[ \] \*\*(.+?)\*\*(.*)$", text, re.M)
+    if len(steps) != 5:
+        sys.exit(f"make_pictures: the start-here page gives {len(steps)} steps, the sheet expects five")
+    out = [f'<rect x=".3" y=".3" width="163.4" height="{{H}}" rx="1.6" fill="#fff" stroke="{mc.INK}" stroke-width=".45"/>',
+           t(5, 9, "Start here", 800, mc.INK, size=4.6)]
+    y = 18.0
+    for bold, rest in steps:
+        rows = [(bold.rstrip(), 700)] + [(r, 400) for r in textwrap.wrap(rest.strip(), 80)]
+        out.append(f'<rect x="5" y="{y - 3.4:.1f}" width="4.2" height="4.2" rx=".5" fill="#fff" stroke="{mc.INK}" stroke-width=".5"/>')
+        for j, (r, wgt) in enumerate(rows):
+            out.append(t(13, y + j * 4.1, r, wgt))
+        y += 4.1 * len(rows) + 3
+    H = y
+    out[0] = out[0].replace("{H}", f"{H:.1f}")
+    out.append(t(0, H + 4.6, "the five steps as the start-here page gives them; a box beside each, to print and tick", 400, mc.MUTED))
+    return mc.svg(164, round(H + 6.2, 1), "".join(out), "The start-here page as one printable sheet: the five steps, a box beside each")
 
 
 FLOORS = [("the talk", ("src/static/talk/",)),
@@ -969,7 +1031,8 @@ if __name__ == "__main__":
              "ch4-three-greyed.svg": three_greyed(clone), "ch4-security-proposed.svg": security_proposed(clone),
              "ch6-two-commits.svg": two_commits(clone), "ch6-letter-path.svg": letter_path(),
              "ch9-story-tree.svg": story_tree(clone), "ch9-where-from.svg": where_from(clone),
-             "ch12-empty-chair.svg": empty_chair(), "ch12-book-table.svg": book_table()}
+             "ch12-empty-chair.svg": empty_chair(), "ch12-book-table.svg": book_table(),
+             "ch13-two-sessions.svg": two_sessions(), "ch1b-start-sheet.svg": start_sheet()}
     if (R70 / "15-principles.md").exists():
         files["ch15-six-principles.svg"] = six_principles()
     else:  # chapter 15 was folded into 16 and removed: the drawing stays as last built from it, not rebuilt

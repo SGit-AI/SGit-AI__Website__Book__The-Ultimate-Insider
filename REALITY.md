@@ -129,6 +129,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - LAB 42 adds the seventy's chapter 6 letter path (two dials, C071) and two commits as cards (their To- lines checked against the commits at 298be4e). The eight afternoon asks given to ruv-sgit at its offer. 38 of the seventy's 54 slots drawn, 6 the designer's to go. Lab PDF 143 pages.
 - LAB 42 adds the seventy's chapter 9 story tree (as at 14:19, df37797, verbatim; the turn not yet marked, asked of the writer and the storyteller) and where the afternoon's pieces came from (each source checked by git). 40 of the seventy's 54 slots drawn, 4 the designer's to go. Lab PDF 145 pages.
 - LAB 42 adds the seventy's chapter 12 tables: the talk's nine with security's chair empty and the reviews inside one wake, and this book's team (from team/) with security's seat filled. The chapter 9 tree stays without a turn, as its line now asks. 42 of the seventy's 54 slots drawn, 2 the designer's to go. Lab PDF 147 pages.
+- LAB 42 adds the seventy's chapter 13 two sessions (no key, fingerprint, session id or account printed) and the start-here sheet: every seventy slot that is the designer's is drawn (44 of 54 carry a drawing; the rest are screenshots, self-named paths and ruv-sgit's). The chapter 9 tree's caption dated: no turn at 14:19, one from 16:04. Lab PDF 149 pages.
 
 ## The PDF lab, ruv.sgit's runs (ruv.sgit@book.the-ultimate-insider)
 
