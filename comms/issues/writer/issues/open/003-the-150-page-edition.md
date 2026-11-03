@@ -15,3 +15,4 @@ The full book: every scene, the appendices, the record markers live online. Writ
 - 3 November 2026, 12:39 UTC: part 3 begun (`manuscript/rc2/150/09`, `10`); hours one to five corrected (historian 031, librarian 013, researcher 012, storyteller 093).
 - 3 November 2026, 13:36 UTC: part 3 to chapter 12 (`manuscript/rc2/150/11`, `12`); 06 to 10's notes on commits' own times (historian 032, librarian 014, researcher 013, storyteller 096).
 - 3 November 2026, 14:37 UTC: part 3 to chapter 14 (`manuscript/rc2/150/13`, `14`). For part 4, chapter 18 (the stop button): the hold of 1 November was lifted at his word, given in synthetic's session, which carried it out (daabf92), not by the writer (security 014).
+- 3 November 2026, 15:40 UTC: part 3 complete (`manuscript/rc2/150/15`); part 4 begun (`16`, hour nineteen, both accounts of the stop kept, C089).
