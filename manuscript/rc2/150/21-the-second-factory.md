@@ -87,7 +87,7 @@ Band: *Dramatised. This book's record: the researcher's trace of 2 November and 
 `%% for the editor: "The point is not that the rule failed" and the sentence after it are the writer's reading; his to keep or drop.`
 
 `%% record: this book's repository: 9395328 (the conductor's record of the evening of 1 November) team/conductor/editor-briefs/2026-11-02T0015Z.json (quoted as written) briefs/2026-11-02__in-session/01-keep-the-pace.md (his words: "Keep the current pace which is good") book.json UL1 CLAUDE.md (the usage rule) claims/rc2-30-trace.md ("until just after midnight")`
-Band: *Dramatised (the conductor's line). This book's record: the conductor's brief of 2 November, 00:15, on the limit reached on 1 November, and my answer.*
+Band: *Dramatised (the conductor's line). This book's record: the conductor's brief of 2 November, just after midnight, on the limit reached on 1 November, and my answer.*
 
 ### A third, chosen by the historian
 
