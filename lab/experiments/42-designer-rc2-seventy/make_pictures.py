@@ -45,6 +45,10 @@
   and one rule verbatim from its ROLE.md at 298be4e (read with git).
 - ch4-security-proposed.svg: the talk's security page as a card with nothing on it but its title and its status, both
   read from team/security/ROLE.md at 298be4e.
+- ch6-two-commits.svg: two commits as cards, each with its time (git at 298be4e), its "To-" line as chapter 6 quotes it
+  (checked against the commit) highlighted, and the wake that read both (its record checked to exist).
+- ch6-letter-path.svg: a letter's path on two dials (C071), the letter as a file with its header names only, and one
+  board folder with open, blocked and done.
 No number is printed but the hold's time, ids, C029's and C087's counts and the chapters' own times. One SVG unit a millimetre, sizes stated, text 9 pt.
 """
 import json, re, subprocess, sys
@@ -598,6 +602,80 @@ def security_proposed(clone):
     return mc.svg(164, 94, "".join(out), "Security's role page as a card: its title and its status, proposed, and nothing else")
 
 
+NOTES = [("09317d9", "conductor", "not followed"), ("36e382b", "deck", "followed")]
+READ_BY = ("ruv-sgit", "20261029T103411Z")
+
+
+def two_commits(clone):
+    import textwrap
+    text = (R70 / "06-talking-through-git.md").read_text()
+    quotes = re.findall(r'^> "(To-ruv-sgit: .+?)" \*\(record\)\*$', text, re.M)
+    if len(quotes) != len(NOTES):
+        sys.exit("make_pictures: chapter 6 does not quote the two To- lines the cards expect")
+    wake = subprocess.run(["git", "-C", clone, "cat-file", "-e", f"298be4e:team/{READ_BY[0]}/wakes/{READ_BY[1]}.json"])
+    if wake.returncode:
+        sys.exit("make_pictures: the reading wake's record is not at 298be4e")
+    read_at = f"{READ_BY[1][9:11]}:{READ_BY[1][11:13]}"
+    out = []
+    for i, ((h, who, tag), q) in enumerate(zip(NOTES, quotes)):
+        msg = subprocess.run(["git", "-C", clone, "log", "-1", "--format=%cd%n%B", "--date=format:%H:%M:%S", h], capture_output=True, text=True, check=True).stdout
+        when, body = msg.split("\n", 1)
+        if q.rstrip(" .").rstrip(".").replace(" ...", "") not in body.replace("\n", " ") and q.split(" ...")[0] not in body:
+            sys.exit(f"make_pictures: the quote for {h} is not in its commit")
+        x = i * 82.4
+        rows = textwrap.wrap(q, 40)
+        hh = 26 + 4.1 * len(rows)
+        warm = tag == "not followed"
+        out.append(f'<rect x="{x + .3:.1f}" y=".3" width="80.6" height="{{H}}" rx="2" fill="#fff" stroke="{mc.INK}" stroke-width=".45"/>'
+                   + g(mc.head(who), x + 1.4, 1.4, .3) + t(x + 12, 7.6, h, 800) + t(x + 78, 7.6, when, 400, mc.MUTED, "end")
+                   + t(x + 12, 12, "@" + who, 400, mc.MUTED))
+        out.append(f'<rect x="{x + 2.6:.1f}" y="15" width="76" height="{4.1 * len(rows) + 2.6:.1f}" rx="1" fill="#fff3c4"/>')
+        for j, r in enumerate(rows):
+            out.append(t(x + 4, 19 + j * 4.1, r, 400))
+        y = 19 + 4.1 * len(rows) + 4
+        out.append(t(x + 4, y, f"read at {READ_BY[0]}'s wake at {read_at}", 400, mc.MUTED)
+                   + f'<rect x="{x + 52:.1f}" y="{y + 2}" width="26" height="5" rx="2.5" fill="{mc.ACCENT if warm else mc.FILL}"/>'
+                   + t(x + 65, y + 5.6, tag, 700, "#fff" if warm else mc.INK, "middle"))
+        out.append(("H", y + 9))
+    H = max(v for _, v in [o for o in out if isinstance(o, tuple)])
+    out = [o.replace("{H}", f"{H:.1f}") for o in out if isinstance(o, str)]
+    out.append(t(0, H + 5, "each note as chapter 6 quotes it, checked against its commit; times from git at 298be4e", 400, mc.MUTED))
+    return mc.svg(164, round(H + 6.8, 1), "".join(out), "Two commits as cards, each with its To- line highlighted, both read at one wake; one note followed, one not")
+
+
+def letter_path():
+    import math
+    slots = REG["C071"]["value"]
+    a, b = "conductor", "dev"
+    out = []
+    for k, (m, cx) in enumerate(((a, 22), (b, 142))):
+        cy, R = 24, 15
+        out.append(f'<circle cx="{cx}" cy="{cy}" r="{R}" fill="#fff" stroke="{mc.INK}" stroke-width=".5"/>')
+        ang = math.radians(int(slots[m].strip(":")) * 6 - 90)
+        out.append(mc.line(cx, cy, cx + (R - 3) * math.cos(ang), cy + (R - 3) * math.sin(ang), mc.CAST[m][0], 1)
+                   + f'<circle cx="{cx}" cy="{cy}" r="1" fill="{mc.INK}"/>'
+                   + g(mc.head(m), cx - 5, cy + R + 1, .26) + t(cx + 4, cy + R + 6, f"{m}, {slots[m]}", 700))
+    # the letter as a file
+    lx, ly = 58, 4
+    out.append(f'<path d="M{lx} {ly} h40 l6 6 v34 h-46 z" fill="#fff" stroke="{mc.INK}" stroke-width=".5"/>'
+               + f'<path d="M{lx + 40} {ly} v6 h6" fill="none" stroke="{mc.INK}" stroke-width=".4"/>')
+    for j, hname in enumerate(["From", "To", "Date", "Subject", "X-Kind"]):
+        out.append(t(lx + 3, ly + 9 + j * 5.2, hname + ":", 700) + f'<rect x="{lx + 20}" y="{ly + 6.6 + j * 5.2:.1f}" width="{22 - j * 2}" height="1.6" rx=".8" fill="{mc.FILL2}"/>')
+    defs = f'<defs><marker id="lp" viewBox="0 0 6 6" refX="5" refY="3" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0 L6 3 L0 6 z" fill="{mc.ACCENT}"/></marker></defs>'
+    out.append(f'<path d="M38 18 C46 12 50 14 56 16" fill="none" stroke="{mc.ACCENT}" stroke-width=".7" marker-end="url(#lp)"/>'
+               + t(22, 51.4, "written in its outbox", 400, mc.MUTED, "middle"))
+    out.append(f'<path d="M106 16 C114 14 118 12 126 18" fill="none" stroke="{mc.ACCENT}" stroke-width=".7" marker-end="url(#lp)"/>'
+               + t(142, 51.4, "dropped in its mailroom", 400, mc.MUTED, "middle"))
+    out.append(t(82, 51.4, "read at its next minute,", 400, mc.MUTED, "middle") + t(82, 55.5, "answered, and filed", 400, mc.MUTED, "middle"))
+    # one board folder
+    bx, by = 34, 61
+    for j, name in enumerate(["open", "blocked", "done"]):
+        x = bx + j * 34
+        out.append(mc.path(f"M{x} {by + 2} h9 l1.6 -2 h20 v14 h-30.6 z", mc.FILL, mc.INK, .4) + t(x + 15, by + 10, name, 700, mc.INK, "middle"))
+    out.append(t(0, by + 21, "a letter is a file in git; the board is three folders; the minutes are C071's", 400, mc.MUTED))
+    return mc.svg(164, round(by + 23, 1), defs + "".join(out), "A letter's path on two dials, the letter as a file with its headers, and one board folder with open, blocked and done")
+
+
 FLOORS = [("the talk", ("src/static/talk/",)),
           ("the workshop of animations", ("src/static/ruv-sgit/", "src/pages/ruv-sgit/", "src/static/motion/", "src/pages/motion/")),
           ("the studio", ("src/pages/studio/", "src/static/studio/", "src/static/studio-ports/", "src/pages/studio-ports/")),
@@ -736,7 +814,8 @@ if __name__ == "__main__":
              "ch8-check-card.svg": check_card(), "ch8-two-companions.svg": two_companions(),
              "ch8-plumbing.svg": plumbing(), "ch8-release-row.svg": release_row(clone),
              "ch-security-card.svg": security_card(),
-             "ch4-three-greyed.svg": three_greyed(clone), "ch4-security-proposed.svg": security_proposed(clone)}
+             "ch4-three-greyed.svg": three_greyed(clone), "ch4-security-proposed.svg": security_proposed(clone),
+             "ch6-two-commits.svg": two_commits(clone), "ch6-letter-path.svg": letter_path()}
     if (R70 / "15-principles.md").exists():
         files["ch15-six-principles.svg"] = six_principles()
     else:  # chapter 15 was folded into 16 and removed: the drawing stays as last built from it, not rebuilt
