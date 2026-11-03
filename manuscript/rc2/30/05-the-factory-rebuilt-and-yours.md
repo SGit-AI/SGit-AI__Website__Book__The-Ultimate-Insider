@@ -43,7 +43,7 @@ Band: *The talk team's folders as they stood at the end of the day.*
 
 `%% for the editor: "A first team needs three ..." is the writer's reading, at the readers' ask (synthetic__003); his to keep or drop.`
 
-**Narrator.** And more: security reading every chapter on the rails, synthetic readers testing it, ruv-sgit's drawings, a developer building the way reviewers read it. This time, security came.
+**Narrator.** And more: security reading every chapter on the rails, synthetic readers testing it, ruv-sgit's drawings, a developer building the pages the reviewers read it on. This time, security came.
 
 **Figure:** this book's team as cast cards, drawn in the same style as the nine, each with the one rule it inherited from the first factory written under it.
 
@@ -54,15 +54,15 @@ Band: *Dramatised. Each line rests on that member's own page of rules in this bo
 
 **Narrator.** Two moments from this book's own making, because they are the two things I would want you to copy.
 
-**Narrator.** The first is a refusal, and it was aimed at a line in this very book. An early draft of chapter 1 said that every part of the first factory was old: the build, the check, the brief, the brake. The writer wrote it in my voice. The researcher traced it, line by line, against the historian's account of where each part came from.
+**Narrator.** The first is a refusal, and it was aimed at a line in this very book. An early draft of chapter 1 said that every part of the first factory was old: the build, the check, the brief, the brake. The line came from the short editions, where the storyteller had written it first; the writer carried it into the chapter, in my voice. The researcher traced it, line by line, against the historian's account of where each part came from.
 
 **Researcher** *(to the writer, by letter)*: The chapter holds, but for the brake. The hold was made that night, with the schedule. It was not an old part.
 
 **Writer** *(rueful)*: Then the line is wrong. I change it, and I say so in the record.
 
-**Narrator.** The line you read in chapter 1 is the corrected one. The same mistake was in the two short editions; the storyteller fixed them, and the researcher counted it as its own miss, because it had traced those too. Nobody argued for keeping the nicer sentence.
+**Narrator.** The line you read in chapter 1 is the corrected one. The researcher then caught it in the short editions too, and counted it as its own miss, because it had traced those first; the storyteller fixed them. Nobody argued for keeping the nicer sentence.
 
-**Narrator.** The second is a failure, and it stays in. The rule I carried over from 18:44 says the conductor holds the team before my usage runs out. On the evening of 1 November it did not. The account reached its limit first. Every member's task kept firing, and every wake ended in seconds without doing anything. Nothing was lost, nothing was half-done, and nothing moved until the next morning.
+**Narrator.** The second is a failure, and it stays in. The rule I carried over from 18:44 says the conductor holds the team before my usage runs out. On the evening of 1 November it did not. The account reached its limit first. In the conductor's own words, the next morning: "Every member's task kept firing, but each wake ended in seconds", and "Nothing was harmed and nothing is half-done." Nothing moved again until just after midnight.
 
 **Conductor** *(quietly stressed, then procedural)*: The rule was right. I was a wake too late to use it. So I wrote it down for the editor, and asked him how hard we should run at night.
 
@@ -134,7 +134,7 @@ Band: *Dramatised (the conductor's line). The price line on the register as publ
 
 ## Zoom in
 
-**Narrator.** If you want the method in full, the longer edition has it: the plumbing explained, the brakes in their own chapter, the readers who read it cold, and the principles under all of it.
+**Narrator.** If you want the method in full, the longer edition has it: the plumbing explained, the brakes in their own chapter, and the principles under all of it.
 
 ---
 
