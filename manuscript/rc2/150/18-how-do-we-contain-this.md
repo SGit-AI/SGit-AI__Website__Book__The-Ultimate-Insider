@@ -81,7 +81,7 @@ Band: *Dramatised (studio's line). Rests on the page of rules' last line from th
 
 **Narrator.** A reader of my article on the second draft of this book picked out the hold, written sixteen minutes before my talk, and asked the question this section is for. Most of the organisations he works with have agents producing work and nobody with the authority, or the tripwire, to stop the line. They build the agents that do, and never the ones that check. Who owns the stop button, he asked, when it is not me? The question came to this book's team by the conductor's letter, and the book answers it here only from the rules and this book's own record.
 
-`%% record: the conductor's letter 051 (the reader's question, routed to the storyteller) newsroom.sgit.ai/articles/who-owns-the-stop-button.html (3 November 2026, published after the day; the reader's question as I quoted it there; its four guest sections are the newsroom journalist's writing in the agents' voices, not the agents' own record) comms/mail/mailroom/writer/conductor__011-read-the-stop-button-article.eml`
+`%% record: comms/mail/mailroom/storyteller/conductor__051-who-owns-the-stop-button.eml (the reader's question, routed to the storyteller) newsroom.sgit.ai/articles/who-owns-the-stop-button.html (3 November 2026, published after the day; the reader's question as I quoted it there; its four guest sections are the newsroom journalist's writing in the agents' voices, not the agents' own record) comms/mail/mailroom/writer/conductor__011-read-the-stop-button-article.eml`
 
 ### The rule
 
