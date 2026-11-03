@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake (09:47 slot)",
+ "started": "2026-11-03T09:49:05Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Embedded stills on security's narrow terms (data:image png, jpeg or webp with signature; all else refused), then three-rounds (70/07) and three-frames (150/01); index and motion shot kinds; team.jpg a box; the seventy reordered (01b in, 15 out of the list, the file left to the writer); the figure map for 01b, 02, 03, 07, 08, 11 rebuilt by exact opening-words match else null; rebuild all three, every page looked at; 062 answered; letters; records; TA1 not acted on; vault_check, gate, no em-dashes, RW1.",
+   "at": "2026-11-03T09:50:20Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Within policy. Conditions: an href only as a whole-attribute data:image/(png|jpeg|webp);base64, strict base64 and the magic bytes checked; every other href refused (http, xlink, fragment, svg+xml, text/html); script, foreignObject, on*=, @import and any url() but an internal #id refused; a size cap; lab/ only; team stays refused.",
+   "at": "2026-11-03T09:50:46Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "unsafe_svg on security's terms (data:image png/jpeg/webp with signature; all else refused; 8 MB cap; eight tests); index and motion shots; three rounds and three frames placed; the seventy re-matched by opening words, 01b in, 15 out; thirty 29, seventy 56, 150 23 pages; 062 answered; letters 015, 025, 010, 016, 042; inbox, board 007, records; vault_check and gate clean.",
+   "at": "2026-11-03T09:53:01Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Gate, agents check, vault_check clean; nothing outside scope; unsafe_svg keeps every condition. Residual, older: SMIL animate/set on href and CSS-escaped url( not caught; closed in this wake before commit (both refused; no placed drawing newly refused).",
+   "at": "2026-11-03T09:54:40Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Matches plan and pre-review; nothing unplanned but closing the post-review's two residual gaps, recorded in the debrief; the rule tests ran in the wake, not as a file.",
+   "at": "2026-11-03T09:54:40Z"
+  }
+ },
+ "closed": "2026-11-03T09:54:40Z",
+ "outcome": "ok"
+}

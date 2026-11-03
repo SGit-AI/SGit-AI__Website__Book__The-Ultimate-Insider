@@ -75,9 +75,36 @@ def page(title, body, mark=None, figure=None):
 
 LAB_SVG = re.compile(r"\b(?:lab/[A-Za-z0-9_./-]+\.svg|index/talk-site/shots/[A-Za-z0-9_.-]+\.(?:jpg|png))\b")
 SHOTS = "index/talk-site/shots/"
-SHOT_OK = re.compile(r"(?:slide|talk|studio|articles|ruv-sgit)[A-Za-z0-9_.-]*\.(?:jpg|png)$")  # security, 3 Nov 2026
+SHOT_OK = re.compile(r"(?:slide|talk|studio|articles|ruv-sgit|index|motion)[A-Za-z0-9_.-]*\.(?:jpg|png)$")  # security, 3 Nov 2026
 SHOT_NEVER = re.compile(r"admin__|qr|key|vault", re.I)
-UNSAFE_SVG = re.compile(r"<script|<foreignObject|\bhref\s*=|\bon[a-z]+\s*=|@import", re.I)
+UNSAFE_SVG = re.compile(r"<script|<foreignObject|\bon[a-z]+\s*=|@import|url\((?!\s*['\"]?#)"
+                        r"|<(?:animate|animateMotion|animateTransform|set)\b|\\[0-9a-f]", re.I)  # SMIL, CSS escapes
+HREF = re.compile(r"""\b(?:xlink:)?href\s*=\s*(["'])(.*?)\1""", re.I | re.S)
+DATA_IMAGE = re.compile(r"data:image/(png|jpeg|webp);base64,([A-Za-z0-9+/=\s]+)")
+SIGNATURES = {"png": (b"\x89PNG\r\n\x1a\n",), "jpeg": (b"\xff\xd8\xff",), "webp": (b"RIFF",)}
+MAX_DRAWING = 8 * 1024 * 1024  # bytes: a drawing larger than this is refused
+
+
+def unsafe_svg(text):
+    """Why a lab/ drawing is refused, or None (security's conditions, 2 and 3 November 2026): no script, handler,
+    foreignObject, @import or url() but an internal #id; an href only as a whole data:image/png, jpeg or webp in
+    base64 whose decoded bytes carry that type's signature (security__010, 011); every other href refused."""
+    import base64
+    if UNSAFE_SVG.search(text):
+        return "a script, handler, foreignObject, @import or outside url()"
+    if re.search(r"\bhref\s*=\s*[^\"'\s]", text, re.I):
+        return "an unquoted href"
+    for m in HREF.finditer(text):
+        d = DATA_IMAGE.fullmatch(m.group(2).strip())
+        if not d:
+            return "an href that is not an embedded png, jpeg or webp image"
+        try:
+            raw = base64.b64decode(re.sub(r"\s", "", d.group(2)), validate=True)
+        except ValueError:
+            return "an embedded image that is not clean base64"
+        if not raw.startswith(SIGNATURES[d.group(1)]) or (d.group(1) == "webp" and raw[8:12] != b"WEBP"):
+            return f"an embedded {d.group(1)} whose bytes are not a {d.group(1)}"
+    return None
 
 
 def lab_drawing(path):
@@ -98,8 +125,11 @@ def lab_drawing(path):
         sys.exit(f"edition: refused a drawing outside lab/ or not an .svg: {path}")
     if not os.path.isfile(full):
         sys.exit(f"edition: no such drawing: {path}")
-    if UNSAFE_SVG.search(open(full, encoding="utf-8", errors="replace").read()):
-        sys.exit(f"edition: refused a drawing with a script, link or handler in it: {path}")
+    if os.path.getsize(full) > MAX_DRAWING:
+        sys.exit(f"edition: refused a drawing over {MAX_DRAWING // 1048576} MB: {path}")
+    why = unsafe_svg(open(full, encoding="utf-8", errors="replace").read())
+    if why:
+        sys.exit(f"edition: refused a drawing with {why} in it: {path}")
     return os.path.relpath(full, os.path.join(ROOT, "manuscript"))
 
 
