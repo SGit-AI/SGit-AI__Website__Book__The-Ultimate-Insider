@@ -11,7 +11,9 @@
 - ch5-team-cards.svg: this book's team as cast cards, each with the rule it inherited from the first factory written
   under it: the writer's lines exactly as sent (writer__040, from CLAUDE.md), checked against the letter at build; the
   eight speakers with their figures, the four others as a slim row without one.
-No number is printed. One SVG unit a millimetre, sizes stated, text 9 pt.
+- ch5-five-steps.svg: the five steps as a path, each step's bold title from chapter 5, beside steps 2 to 5 the matching
+  "do this now" card from chapters 1 to 4 (a fragment, verbatim), checked against the chapters at build.
+No number is printed but the steps' ordinals. One SVG unit a millimetre, sizes stated, text 9 pt.
 """
 import subprocess, sys
 from pathlib import Path
@@ -204,10 +206,53 @@ def team_cards():
     return mc.svg(164, round(y + sh + 6.8, 1), "".join(out), "This book's team as cast cards, each with the rule it inherited from the first factory")
 
 
+RC2 = REPO / "manuscript" / "rc2" / "30"
+STEPS = [("You: one tool and one empty project.", None, None),
+         ("You: one page of rules", "02", "Write your one page of rules"),
+         ("You: one brief", "01", "That sentence is your first brief."),
+         ("Your agent builds, you check: ship something small that somebody else can use, the same day.", "03",
+          "Give one small thing to somebody else today"),
+         ("Add a second agent only when the first is busy.", "05x", None)]
+STEPS[4] = (STEPS[4][0], "04", "Write down who may stop your factory")
+
+
+def five_steps():
+    import textwrap
+    ch5 = CH5.read_text()
+    for i, (title, ch, frag) in enumerate(STEPS, 1):
+        if f"{i}. **{title}" not in ch5:
+            sys.exit(f"make_pictures: step {i}'s title is not in chapter 5 as given")
+        if frag and frag not in next(RC2.glob(f"{ch}-*.md")).read_text():
+            sys.exit(f"make_pictures: {frag!r} is not in chapter {int(ch)}")
+    row, top, out = 20.0, 3.0, []
+    xs = 10.0
+    out.append(mc.line(xs, top + 4, xs, top + 4 + row * 4, mc.ACCENT, 1.4))
+    for i, (title, ch, frag) in enumerate(STEPS):
+        y = top + i * row
+        out.append(f'<circle cx="{xs}" cy="{y + 4}" r="4" fill="#fff" stroke="{mc.ACCENT}" stroke-width="1.2"/>'
+                   + t(xs, y + 5.2, str(i + 1), 800, mc.ACCENT, "middle"))
+        for j, line in enumerate(textwrap.wrap(title, 34)):
+            out.append(t(18, y + 5.2 + j * 4.2, line, 800))
+        x = 88
+        if frag:
+            out.append(f'<rect x="{x}" y="{y}" width="75.6" height="14.4" rx="1.8" fill="{mc.FILL}" stroke="{mc.FILL2}" stroke-width=".4"/>'
+                       + t(x + 3, y + 5, f"do this now, chapter {int(ch)}", 400, mc.MUTED)
+                       + t(x + 3, y + 10.4, frag, 700))
+            out.append(mc.line(78, y + 4, x - 1, y + 4, mc.FILL2, .4))
+        else:
+            out.append(t(x + 3, y + 5.2, "start here", 700, mc.ACCENT))
+    y4 = top + 3 * row
+    out.append(mc.path(f"M{xs - 4.6} {y4 + 6} C{xs - 7.4} {y4 + 1} {xs - 7.4} {y4 - 6} {xs - 4.6} {y4 - 9}", "none", mc.ACCENT, .6)
+               + mc.path(f"M{xs - 5.6} {y4 - 7.4} l1 -1.6 l1.4 1.2", "none", mc.ACCENT, .6))
+    out.append(t(18, y4 + 18.2, "then do it again", 700, mc.ACCENT))
+    out.append(t(0, top + 5 * row + 1.6, "from an empty project to a second agent; each card a line of that chapter's \u201cdo this now\u201d", 400, mc.MUTED))
+    return mc.svg(164, round(top + 5 * row + 3.4, 1), "".join(out), "The five steps as a path, from an empty project to a second agent, each beside the matching do-this-now card")
+
+
 if __name__ == "__main__":
     clone = sys.argv[1]
     files = {"ch5-cards-into-files.svg": cards_into_files(clone), "ch5-two-cards.svg": two_cards(),
-             "ch5-three-factories.svg": three_factories(), "ch5-team-cards.svg": team_cards()}
+             "ch5-three-factories.svg": three_factories(), "ch5-team-cards.svg": team_cards(), "ch5-five-steps.svg": five_steps()}
     for name, svg in files.items():
         (HERE / name).write_text(svg)
     print("written " + ", ".join(files))

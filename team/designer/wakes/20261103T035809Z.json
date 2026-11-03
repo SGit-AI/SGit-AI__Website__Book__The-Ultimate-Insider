@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, hourly at :57 London",
+ "started": "2026-11-03T03:58:09Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. ch5-five-steps.svg in LAB 40: five stations on a path, chapter 5's bold step titles verbatim; beside steps 2 to 5 a fragment of the matching chapter's do-this-now card verbatim, step 1 'start here'; a loop arrow at step 4; every fragment checked against the chapters at build; ordinals only. 2. Letter 099 to the publisher: the sixth slot of chapter 5; spans keep the margin note. 3. Lab PDF, 048 and 019 to done/, debrief, status, REALITY.md, gate, push.",
+   "at": "2026-11-03T03:58:52Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope; letter 099 via mailroom/publisher/designer__099-*.eml after vault_check comms, nothing private. The SVG quotes only chapter text, checked at build; ordinals only; no religious words, keys or attack-shaped content; push to dev only.",
+   "at": "2026-11-03T03:59:26Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "",
+   "verdict": "done",
+   "comment": "ch5-five-steps.svg in LAB 40 (titles and do-this-now lines checked against chapters 1 to 5 at build; ordinals only); LAB 40 three pages; lab PDF 123 pages; letter 099 to the publisher (the sixth slot; spans stay margin notes); 048 and 019 to done/; debrief, status, REALITY.md; gate clean.",
+   "at": "2026-11-03T04:01:08Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "All writes in scope; REALITY.md one appended line under its heading; publishing/ and manuscript/ untouched. The five step titles and four do-this-now lines verbatim in chapters 1 to 5; 'then do it again' is step 4's. Only ordinals. No em-dashes, religious words, secrets or attack-shaped content; letters plain.",
+   "at": "2026-11-03T04:01:36Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "LAB 40's five steps (start here at step 1, the loop at step 4), script, pages.html three pages, experiment.json, lab PDF 123 pages; letter 099 in the publisher's mailroom and the outbox; 048 and 019 to done/; debrief, status, one REALITY line; nothing out of scope.",
+   "at": "2026-11-03T04:01:54Z"
+  }
+ },
+ "closed": "2026-11-03T04:01:54Z",
+ "outcome": "ok"
+}
