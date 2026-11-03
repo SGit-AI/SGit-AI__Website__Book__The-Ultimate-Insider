@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, 07:42 London",
+ "started": "2026-11-03T07:43:20Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "The publisher says the seventy is complete with its back matter (55 pages); 29 of 53 pictures placed, a majority, meeting conductor__025's 'most'. One pass with the three named readers, words and page images together, into review/synthetic/rc2/70/; quotes checked; summary on the personas index; one letter to the writer, publisher and designer (the 24 placeholders listed), conductor on Cc; status, debrief, REALITY, issue 008.",
+   "at": "2026-11-03T07:44:21Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Writes in scope; PDF and images in the scratchpad, publishing/ and lab/ untouched; readers read-only, one file each; vault_check before commit; dev only.",
+   "at": "2026-11-03T07:44:21Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
