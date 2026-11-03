@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake (18:47 slot)",
+ "started": "2026-11-03T18:49:30Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; Bash, Read)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Go on 1 to 5 in policy. publishing/rc2_map.py reads the designer's json only for slots and takes overrides from publishing/rc2-figures.json; 150/20 after 19 and before the back-matter comment; rebuild; letters; records; gates. No HOLD.",
+   "at": "2026-11-03T18:50:09Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; Bash, Read)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope; no HOLD; both ch6 SVGs drawings only (one internal url), no private detail. Conditions: rc2_map.py reads lab/ and manuscript/ and its own map only, writes only publishing/rc2-figures.json, no network, never ./version.",
+   "at": "2026-11-03T18:50:47Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "publishing/rc2_map.py written and run (writes only rc2-figures.json; stops on mismatch); the designer's 115 in; 150/20 after 19; thirty 29, seventy 60, full 95; letters 034, 025; inbox, board 007, records; vault_check and gate clean.",
+   "at": "2026-11-03T18:52:25Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; Bash only, none refused)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Gates clean; 14 staged paths in scope; no key, contact, directing text, em-dash, religious or attack words; rc2_map.py reads lab/, manuscript/ and its map, imports edition.py for the build's rules, writes only rc2-figures.json, no network or process call.",
+   "at": "2026-11-03T18:53:18Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Items 1 to 5 kept; conditions kept; importing edition.py is a code read, noted; nothing unplanned.",
+   "at": "2026-11-03T18:53:18Z"
+  }
+ },
+ "closed": "2026-11-03T18:53:18Z",
+ "outcome": "ok"
+}
