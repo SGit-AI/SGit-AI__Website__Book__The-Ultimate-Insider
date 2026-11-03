@@ -24,7 +24,10 @@ One file per chapter of the manuscript, built by `index/tools/chapter_entries.py
 | [`99-appendix-a-every-number-rerun.md`](99-appendix-a-every-number-rerun.md) | 1 | 0 | 3 | 0 | 2 | 0 |
 | [`150__01-slides-as-a-compromise.md`](150__01-slides-as-a-compromise.md) | 0 | 0 | 4 | 1 | 1 | 0 |
 | [`150__02-inventing-on-principle.md`](150__02-inventing-on-principle.md) | 0 | 0 | 6 | 0 | 0 | 0 |
-| [`150__03-the-tour-at-length.md`](150__03-the-tour-at-length.md) | 0 | 0 | 9 | 0 | 1 | 0 |
+| [`150__03-the-tour.md`](150__03-the-tour.md) | 0 | 0 | 9 | 0 | 1 | 0 |
+| [`150__04-hour-one-the-empty-project.md`](150__04-hour-one-the-empty-project.md) | 0 | 0 | 5 | 0 | 8 | 0 |
+| [`150__05-hour-two-the-rules-written.md`](150__05-hour-two-the-rules-written.md) | 1 | 0 | 3 | 0 | 10 | 0 |
+| [`150__90-the-tour-at-length.md`](150__90-the-tour-at-length.md) | 0 | 0 | 9 | 0 | 1 | 0 |
 | [`01-the-creators-problem.md`](01-the-creators-problem.md) | 0 | 0 | 7 | 1 | 2 | 0 |
 | [`02-the-factory-is-assembled.md`](02-the-factory-is-assembled.md) | 2 | 0 | 7 | 0 | 12 | 0 |
 | [`03-the-factory-runs.md`](03-the-factory-runs.md) | 0 | 0 | 6 | 0 | 14 | 0 |
@@ -46,7 +49,6 @@ One file per chapter of the manuscript, built by `index/tools/chapter_entries.py
 | [`12-how-do-we-contain-this.md`](12-how-do-we-contain-this.md) | 7 | 0 | 4 | 0 | 6 | 0 |
 | [`13-sessions-end.md`](13-sessions-end.md) | 2 | 0 | 5 | 0 | 1 | 0 |
 | [`14-the-second-factory-and-the-third.md`](14-the-second-factory-and-the-third.md) | 1 | 0 | 7 | 0 | 2 | 0 |
-| [`15-principles.md`](15-principles.md) | 0 | 0 | 7 | 0 | 0 | 0 |
-| [`16-build-your-own.md`](16-build-your-own.md) | 0 | 0 | 6 | 0 | 0 | 0 |
+| [`16-build-your-own.md`](16-build-your-own.md) | 0 | 0 | 5 | 0 | 0 | 1 |
 | [`17-the-words-used.md`](17-the-words-used.md) | 0 | 0 | 2 | 0 | 0 | 0 |
 | [`first-ten-pages.md`](first-ten-pages.md) | 1 | 0 | 2 | 0 | 2 | 0 |
