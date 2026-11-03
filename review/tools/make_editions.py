@@ -4,7 +4,7 @@
 # every commit, path and register id in it a link where verified (the same lookup as make_reader.py: this repository,
 # a read-only clone of the talk's at 298be4e, claims/register.json). Other `%%` lines are notes for the writers and stay
 # hidden. Paragraph anchors as on the review pages. Also writes the zoom index: the editions from shortest to longest.
-# Writes only review/anchors/qr-targets.json, src/pages/review/rc2/, rc2-70/, ed-03/, ed-10/ and src/pages/review/zoom.html. Kept by developer@book.the-ultimate-insider.
+# Writes only review/anchors/qr-targets.json, editions.json (and its copy in src/static/review/), src/pages/review/rc2/, rc2-70/, ed-03/, ed-10/ and src/pages/review/zoom.html. Kept by developer@book.the-ultimate-insider.
 # Run: python3 review/tools/make_editions.py <path to a full clone of SGit-AI__Website__Presentation__The-Ultimate-Insider>
 
 import html, json, re, subprocess, sys
@@ -19,13 +19,14 @@ EDITIONS = [('rc2', 'RC2, the 30-page edition', ROOT / 'manuscript' / 'editions'
 PAGES = ROOT / 'src' / 'pages' / 'review'
 SITE = json.loads((ROOT / 'site.json').read_text())['url'].rstrip('/')   # the book's own domain: the only host a printed code may point at
 QR = ROOT / 'review' / 'anchors' / 'qr-targets.json'
+DATA = [ROOT / 'review' / 'anchors' / 'editions.json', ROOT / 'src' / 'static' / 'review' / 'editions.json']   # the editions as data; the second is published
 SHORT = [('ed-03', 'the 3-page edition', ROOT / 'manuscript' / 'editions' / '03' / 'Book.txt', ROOT / 'chapter-plan' / 'cast' / 'edition-03.md'),
          ('ed-10', 'the 10-page edition', ROOT / 'manuscript' / 'editions' / '10' / 'Book.txt', ROOT / 'chapter-plan' / 'cast' / 'edition-10.md')]
 NO_RECORD = {('ed-03', 'A book about you doing it')}            # pages the script gives no section: named here, so any other miss stops the build
 TOKEN = re.compile(r'(?<![\w/.-])(C\d{3}|[0-9a-f]{7,12}|[\w.-]+(?:/[\w.-]+)+/?|[\w-]+\.md)(?![\w/-])')
 
 
-def record_html(line, book, talk, claims, used):
+def record_html(line, book, talk, claims, used, toks=None):
     text = re.sub(r'^`?%%\s*record:\s*', '', line.strip()).rstrip('`').strip()
     out, last, n = [], 0, 0
     for m in TOKEN.finditer(text):
@@ -44,6 +45,12 @@ def record_html(line, book, talk, claims, used):
             if side:
                 repo = book if side == 'book' else talk
                 rendered = link(repo.path_url(p), f'<code>{html.escape(tok)}</code>', f'{p} in the {side}\'s repository')
+        if toks is not None:
+            kind = 'claim' if re.fullmatch(r'C\d{3}', tok) else 'commit' if re.fullmatch(r'[0-9a-f]{7,12}', tok) else 'path'
+            href = re.search(r'href="([^"]+)"', rendered).group(1) if rendered and kind != 'claim' else None
+            toks.append({'token': tok, 'kind': kind, 'verified': bool(rendered),
+                         **({'repository': 'book' if BOOK in href else 'talk', 'url': html.unescape(href)} if href else {}),
+                         **({'claim': claims[tok]['claim'], 'value': claims[tok].get('value'), 'state': claims[tok].get('state')} if kind == 'claim' and rendered else {})})
         out.append(html.escape(text[last:m.start()]))
         out.append(rendered if rendered else f'<code>{html.escape(tok)}</code>')
         n += 1 if rendered else 0
@@ -95,11 +102,15 @@ def chapter_page(path, i, files, book, talk, claims, edition_title, foot=None):
         raw = web_text(raw, path) + '\n' + '\n'.join(foot)
     title = re.match(r'# (.*)', raw).group(1)
     ch = f'r{i + 1:02d}'
-    used, blocks, scene, linked, seen, recs, first = {}, [], 0, 0, {}, [], ''                # seen: one per chapter, so a repeated line gets -2, not a twin id
+    used, blocks, scene, linked, seen, recs, first = {}, [], 0, 0, {}, [], ''
+    scenes, paras = [], []                                          # the chapter as data: the same filtered text as the page, never a writers' note                # seen: one per chapter, so a repeated line gets -2, not a twin id
     for part in re.split(r'(^`?%%[^\n]*$)', raw.split('\n', 1)[1], flags=re.M):
         if re.match(r'^`?%%\s*record:', part):
             scene += 1
-            inner, k = record_html(part, book, talk, claims, used)
+            toks = []
+            inner, k = record_html(part, book, talk, claims, used, toks)
+            scenes.append({'record_id': f'rec-{ch}-{scene}', 'paragraphs': paras, 'record': re.sub(r'^`?%%\s*record:\s*', '', part.strip()).rstrip('`').strip(), 'tokens': toks})
+            paras = []
             linked += k
             blocks.append(f'<aside class="rc-rec" id="rec-{ch}-{scene}"><b>Rests on</b> {inner}</aside>')
             recs.append((f'rec-{ch}-{scene}', first[:80] or (recs[-1][1] if recs else '')))   # two records in a row: the scene's words are the one before
@@ -107,8 +118,10 @@ def chapter_page(path, i, files, book, talk, claims, edition_title, foot=None):
         elif re.match(r'^`?%%', part):
             continue                                                # notes for the writers: not for readers
         elif part.strip():
+            part = re.sub(r'\s*`%%[^`]*`', '', part)                   # a writers' note inside a paragraph: also not for readers
             done = anchored(Markdown().to_html(part), ch, seen, [], path.name)
             blocks.append(done)
+            paras += [{'id': a, 'text': plain(t)} for a, t in re.findall(r' id="([^"]+)" data-a="[^"]+" tabindex="0">(.*?)</(?:p|li|blockquote|div)>', done)]
             first = first or ' '.join(plain(done).split()[:14])
     claims_list = ''.join(f'<li id="claim-{c}"><b>{c}</b> {html.escape(claims[c]["claim"])}: {value_html(claims[c].get("value", ""))} '
                           f'<span class="pv-state pv-{html.escape(claims[c].get("state", ""))}">{html.escape(claims[c].get("state", ""))}</span></li>'
@@ -123,7 +136,9 @@ def chapter_page(path, i, files, book, talk, claims, edition_title, foot=None):
             f'{nav}\n<article class="rv-ch pv-ch"><h1>{html.escape(title)}</h1>\n' + '\n'.join(blocks) +
             (f'\n<section class="pv-claims"><h2>The numbers in this chapter</h2><p class="note">From the researcher\'s register (<code>claims/register.json</code>).</p><ol>{claims_list}</ol></section>' if used else '') +
             f'\n</article>\n{nav}\n</div>\n')
-    return title, scene, linked, body, recs
+    if paras:
+        scenes.append({'record_id': None, 'paragraphs': paras, 'record': None, 'tokens': []})
+    return title, scene, linked, body, recs, {'file': str(path.relative_to(ROOT)), 'title': title, 'page': f'{ch}', 'scenes': scenes}
 
 
 def main(talk_path):
@@ -132,15 +147,18 @@ def main(talk_path):
             sys.exit(f'{where} is a shallow clone: run git fetch --unshallow there first')
     book, talk = Repo(ROOT, 'HEAD', BOOK, 'dev'), Repo(Path(talk_path), TALK_AT, TALK, TALK_AT)
     claims = {c['id']: c for c in json.loads((ROOT / 'claims' / 'register.json').read_text())['claims']}
-    targets = []
+    targets, editions = [], []
     for slug, edition_title, booktxt in EDITIONS:
         OUT = PAGES / slug
         OUT.mkdir(parents=True, exist_ok=True)
         files = [(booktxt.parent / l.strip()).resolve() for l in booktxt.read_text().splitlines() if l.strip() and not l.startswith('#')]
         files = [f for f in files if f.exists()]
+        chapters = []
+        editions.append({'edition': slug, 'title': edition_title, 'online': f'{SITE}/review/{slug}/index.html', 'chapters': chapters})
         toc, scenes, links = [], 0, 0
         for i, f in enumerate(files):
-            title, n, k, body, recs = chapter_page(f, i, files, book, talk, claims, edition_title)
+            title, n, k, body, recs, data = chapter_page(f, i, files, book, talk, claims, edition_title)
+            chapters.append(data)
             targets += [qr(slug, f, rid, words) for rid, words in recs]
             (OUT / f'{f.stem}.html').write_text(body)
             scenes, links = scenes + n, links + k
@@ -151,13 +169,15 @@ def main(talk_path):
             f'<!--meta {json.dumps(meta)} -->\n<section class="wrap narrow" data-no-third-party>\n<p class="kicker">{html.escape(edition_title)} · a draft</p>\n'
             f'<h1>{html.escape(edition_title[0].upper() + edition_title[1:])}, online, with its record</h1>\n<p class="lead">The book says: "Online, under each scene, you can open the commits, times and files it rests on." Here they are: each scene with what it rests on, every commit, file and number a link where it could be verified.</p>\n'
             f'<p class="note">{len(files)} chapters, {scenes} scenes, {links} links, from the writer\'s chapters (<code>{src}/</code>) as they stand on dev; rebuilt with the site. The draft changes at every release.</p>\n'
-            f'<ol>{"".join(toc)}</ol>\n<p><a href="../zoom.html">The zoom</a>: the same story at every length.</p>\n</section>\n')
+            f'<ol>{"".join(toc)}</ol>\n<p class="note">As data: <a href="{{{{root}}}}review/editions.json">editions.json</a>, every edition\'s chapters, paragraphs and record.</p>\n<p><a href="../zoom.html">The zoom</a>: the same story at every length.</p>\n</section>\n')
         print(f'{slug}: {len(files)} chapters, {scenes} scenes, {links} links')
     for slug, edition_title, booktxt, script in SHORT:
         OUT = PAGES / slug
         OUT.mkdir(parents=True, exist_ok=True)
         files = [booktxt.parent / l.strip() for l in booktxt.read_text().splitlines() if l.strip() and not l.startswith('#')]
         pages, where = script_records(script)
+        chapters = []
+        editions.append({'edition': slug, 'title': edition_title, 'online': f'{SITE}/review/{slug}/index.html', 'record_from': str(script.relative_to(ROOT)), 'chapters': chapters})
         toc, links = [], 0
         for i, f in enumerate(files):
             title = re.match(r'# (.*)', f.read_text()).group(1)
@@ -166,7 +186,8 @@ def main(talk_path):
                 hit = [['`%% record: (the storyteller' + chr(39) + 's script gives this page no record line)`']]
             if len(hit) != 1:
                 sys.exit(f'{f}: "{title}" matches {len(hit)} pages of {script.name}, not one')
-            title, n, k, body, recs = chapter_page(f, i, files, book, talk, claims, edition_title, foot=hit[0])
+            title, n, k, body, recs, data = chapter_page(f, i, files, book, talk, claims, edition_title, foot=hit[0])
+            chapters.append(data)
             targets += [qr(slug, f, rid, words) for rid, words in recs]
             (OUT / f'{f.stem}.html').write_text(body)
             links += k
@@ -183,7 +204,7 @@ def main(talk_path):
             f'<h1>{html.escape(edition_title[0].upper() + edition_title[1:])}, online, with its record</h1>\n'
             f'<p class="lead">The printed pages, each with what it rests on at its foot: the record lines the storyteller wrote under each page of its script, every commit, file and number a link where it could be verified.</p>\n'
             f'<p class="note">{len(files)} chapters, {links} links. The text is the publisher\'s (<code>{rel(booktxt.parent)}/</code>), the record the storyteller\'s (<code>{rel(script)}</code>), as they stand on dev.</p>\n'
-            f'<ol>{"".join(toc)}</ol>\n<h2>Where the whole edition came from</h2>\n{"".join(wh)}\n<p><a href="../zoom.html">The zoom</a>: the same story at every length.</p>\n</section>\n')
+            f'<ol>{"".join(toc)}</ol>\n<p class="note">As data: <a href="{{{{root}}}}review/editions.json">editions.json</a>, every edition\'s chapters, paragraphs and record.</p>\n<h2>Where the whole edition came from</h2>\n{"".join(wh)}\n<p><a href="../zoom.html">The zoom</a>: the same story at every length.</p>\n</section>\n')
         print(f'{slug}: {len(files)} chapters, {links} links')
     for t in targets:                                                # printed codes: https, the book's own host, no query, no tracking
         if not re.fullmatch(r'https://the-ultimate-insider\.book\.sgit\.ai/review/[\w-]+/[\w-]+\.html#rec-r\d\d-\d+', t['url']):
@@ -192,6 +213,18 @@ def main(talk_path):
                                        'for a QR code in print. Written by review/tools/make_editions.py; an id holds while the chapter keeps its place and scenes.',
                               'site': SITE, 'targets': targets}, indent=1, ensure_ascii=False) + '\n')
     print(f'qr targets: {len(targets)} -> {QR.relative_to(ROOT)}')
+    blob = json.dumps({'about': 'The online editions as data: each chapter, its scenes, their paragraphs (with the review pages\' anchors) and the record each rests on, '
+                                'every token resolved to its repository and address, or marked unverified. Writers\' notes are left out, as on the pages. '
+                                'Written by review/tools/make_editions.py from manuscript/ as it stands on dev.', 'site': SITE, 'editions': editions},
+                      indent=1, ensure_ascii=False) + '\n'
+    if '%%' in blob:
+        sys.exit('editions.json would carry a %% line: refused')
+    for u in re.findall(r'"url": "([^"]+)"', blob):
+        if not re.match(r'https://(github\.com/SGit-AI/|the-ultimate-insider\.book\.sgit\.ai/)', u):
+            sys.exit(f'editions.json: an address off the two public hosts: {u}')
+    for d in DATA:
+        d.write_text(blob)
+    print(f'editions.json: {len(editions)} editions, {sum(len(e["chapters"]) for e in editions)} chapters, {len(blob) // 1024} KB')
     zmeta = {'title': 'The zoom: the book at every length', 'description': 'One Human, Nine Agents, Nineteen Hours from 3 pages to the full first version: start small, zoom in.'}
     (OUT.parent / 'zoom.html').write_text(
         f'<!--meta {json.dumps(zmeta)} -->\n<section class="wrap narrow" data-no-third-party>\n<p class="kicker">The book · ZM1</p>\n<h1>The zoom: the same story at every length</h1>\n'

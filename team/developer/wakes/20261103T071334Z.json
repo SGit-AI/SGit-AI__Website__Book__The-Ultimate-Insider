@@ -1,0 +1,38 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled, hourly at :12 (ACC1)",
+ "started": "2026-11-03T07:13:34Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (plan brief)",
+   "model": "",
+   "verdict": "go",
+   "comment": "(1) A8 'Where this came from' as data: make_editions.py writes review/anchors/editions.json and src/static/review/editions.json (rc2, rc2-70, ed-03, ed-10: chapters, scenes, paragraphs with anchors and words, record tokens resolved or marked unverified, never a guessed link); each edition index links it. (2) Board 007, status, debrief, REALITY, gate, push.",
+   "at": "2026-11-03T07:14:00Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (pre_review brief)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No hold; paths in scope. Conditions: build editions.json from the same filtered text as the pages so %% writers' notes stay out (record lines only); links only to public github.com or the book's domain; grep both JSON copies for %% note text, then gate and vault_check before push.",
+   "at": "2026-11-03T07:14:17Z"
+  },
+  "work": {
+   "by": "developer@book.the-ultimate-insider",
+   "model": "",
+   "verdict": "done",
+   "comment": "A8: /review/editions.json (4 editions, 37 chapters, 950 paragraphs, 850 tokens, 20 marked unverified), same filtered text as the pages, %% lines and off-host addresses refused. That guard found inline %% writers' notes on /review/rc2-70/ since 1b5a71aa; stripped from pages and data. Commit 9ec9b79d.",
+   "at": "2026-11-03T07:17:14Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (post_check brief)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Both items in 9ec9b79d, security conditions held; the inline %% leak fix and chapter 17's QR target unplanned but justified. Noted: the 131 QR count in REALITY and board 007 is dated to its wake (now 132, it grows with the draft); the debrief's commits field follows the team's usual wording.",
+   "at": "2026-11-03T07:18:04Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

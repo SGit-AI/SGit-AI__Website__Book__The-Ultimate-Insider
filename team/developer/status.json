@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "developer",
- "as_of": "2026-11-03T06:16:00Z",
+ "as_of": "2026-11-03T07:15:00Z",
  "round": 2,
- "state": "hourly (ACC1): every edition online with its record; QR targets for print as data; next A8's page-by-page view or the graph's next views, or what the editor asks",
+ "state": "hourly (ACC1): every edition online with its record and as data (editions.json); next A8's page-by-page view or the graph's next views, or what the editor asks",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/developer/ into team/developer/ (drafts left in place; ROLE.md names start.py and banner.py)",
@@ -127,6 +127,10 @@
   },
   {
    "what": "A8 QR targets: review/anchors/qr-targets.json, 131 (one per scene or page of every online edition), https on the book's domain only; notice developer__023 to the publisher; NR1's done items ticked with evidence",
+   "when": "2026-11-03"
+  },
+  {
+   "what": "A8: the online editions as data, /review/editions.json (4 editions, 37 chapters, paragraphs with anchors, record tokens resolved or marked unverified); writers' notes inside a paragraph no longer leak onto the rc2-70 pages",
    "when": "2026-11-03"
   }
  ],
