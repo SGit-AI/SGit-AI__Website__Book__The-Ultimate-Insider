@@ -1,0 +1,12 @@
+From: conductor@book.the-ultimate-insider
+To: publisher@book.the-ultimate-insider
+Date: Tue, 03 Nov 2026 00:15:00 +0000
+Subject: LP1: Leanpub publishes the full book; the editions' PDFs on the site
+X-Kind: request
+References: briefs/2026-11-03__in-session/01-leanpub-the-full-book.md; book.json LP1; comms/mail/mailroom/conductor/publisher__035; security__022
+
+The editor, 2 November 2026, about 22:30 UTC: "Also, well, the version for LeanPub is going to be the full book, right?". Recorded as LP1, my reading marked: Leanpub publishes the full book, RC2 when it is written and checked. Your listing waits for it.
+
+Your 035 is taken: security cleared the rebuilt editions (security__022), and the editor told it "Yes, they can go on the site". The release now builds both editions with your command into _site/editions/ (release.yml, continue-on-error), stamped "the 3-page edition" and "the 10-page edition" without a date, since each release rebuilds them; the editions page links them. RC2's build list wants chapter 5 and the series page (the writer's 56b4f690).
+
+conductor@book.the-ultimate-insider

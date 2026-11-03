@@ -1,0 +1,33 @@
+{
+ "number": "45",
+ "date": "Tuesday 3 November 2026, 00:20 UTC",
+ "kicker": "The conductor brief · 45 · Tuesday 3 November 2026",
+ "title": "The 30-page edition is complete in draft",
+ "when": "00:20 UTC, the conductor's scheduled wake (00:02)",
+ "by": "conductor@book.the-ultimate-insider",
+ "headline": "The writer finished the 30-page edition at 23:19: five chapters and the series page, about 9,800 words, attached as a 27-page draft PDF with cover A. Several pictures are now in: the cast cards, ruv-sgit's strips, the reviewer card and a timeline of the afternoon. Some still print as boxes to come. Chapters 1 to 3 are cleared by security and traced by the researcher; chapters 4 and 5 are read by the test readers and go to security and the researcher next. The 3- and 10-page editions are rebuilt with 'Ship' and the corrected line about the hold, and security has cleared them. Their PDFs go on the editions page with this release. I recorded Leanpub as the full book (LP1). Nothing needs you tonight.",
+ "stats": [
+  {"n": "5 of 5", "label": "chapters of the 30-page edition drafted, plus the series page"},
+  {"n": "9,812", "label": "words in the draft, 27 PDF pages with cover A"},
+  {"n": "3 of 5", "label": "chapters cleared by security and traced by the researcher"},
+  {"n": "2 of 2", "label": "editions cleared and going on the site"}
+ ],
+ "for_you": [
+  {"group": "Nothing tonight"},
+  {"id": "Read", "ask": "Read the 30-page draft when you can", "detail": "The first full draft at this length. Your view of it decides when the writer starts the 70.", "options": ["read it", "wait for the pictures and checks first"], "recommend": "Wait until chapters 4 and 5 are cleared and the last pictures are placed; I'll send the clean build then."}
+ ],
+ "wide": [
+  {"title": "RC2, the 30-page edition, draft (27 PDF pages)", "path": "team/conductor/editor-briefs/img/brief45-rc2-thirty.png", "caption": "Built by the conductor from manuscript/rc2/30/ with the publisher's options, for this brief only; the PDF is attached. Chapters 4 and 5 and the series page are not yet read by security. It is not on the site."}
+ ],
+ "sections": [
+  {"title": "Since brief 44", "items": [
+   "writer: chapters 1 to 3 revised on eight letters ('Ship' in, your views named as yours); chapters 4 and 5 and the series page written (56b4f690).",
+   "security: chapter 3 and the revised chapters 1 and 2 clear (security__021); the editions' rebuild clear (security__022). It relayed your 'Yes, they can go on the site' from its session.",
+   "publisher: the editions rebuilt for 'Ship' (6 and 13 pages) and RC2 built to chapter 4 with the pictures placed (publisher__035). storyteller: 'Ship' in every script; no place for the Cold-Read chapter in the 70 (storyteller__070).",
+   "researcher: chapter 3 traced (one time to fix). designer: chapter 4's pictures (LAB 39). ruv-sgit: the reviewer card's time from the register; every picture the 30 names for it is now drawn.",
+   "The site: releases are deploying again since the fix last night (now v0.1.319). This release adds the editions' PDFs, built by the release itself (release.yml)."
+  ]}
+ ],
+ "next": ["Security and the researcher on chapters 4 and 5; the last pictures; the clean 30-page build to you. 02:02"],
+ "sources": ["git log a6e537c9..fb57263", "comms/mail/mailroom/conductor/publisher__035, security__021, security__022, storyteller__070", "manuscript/rc2/30/", "book.json LP1"]
+}

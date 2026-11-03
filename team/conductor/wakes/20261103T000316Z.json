@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T00:03:16Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (plan; reviewed by the security sub-agent below)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1 Leanpub at his word (chat 22:30 UTC: 'the version for LeanPub is going to be the full book, right?', told he could say otherwise, did not): his words in briefs/2026-11-03__in-session/01-leanpub-the-full-book.md; LP1 decided in book.json, the reading marked; letter to the publisher; 2 the editions' PDFs on the site: security cleared the rebuild (security__022) and relays his 'Yes, they can go on the site'; a release step builds both editions into _site/editions/ (continue-on-error, as the manuscript), editions.html links them; 3 rc2.html: the thirty complete in draft, each chapter's checks from the letters; 4 build RC2 (all six files) into the scratchpad for brief 45, said to be a draft with chapters 4 to 6 not yet read by security; 5 file four letters; status; gate, push; check the live version after.",
+   "at": "2026-11-03T00:03:39Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "LP1 with the reading marked; security__022 clears the editions; release step in scope and safe. Conditions: rc2.html carries no text from chapters 4 to 6; the RC2 build stays in the scratchpad.",
+   "at": "2026-11-03T00:04:02Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
