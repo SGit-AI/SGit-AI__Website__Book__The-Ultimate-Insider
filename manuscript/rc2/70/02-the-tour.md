@@ -8,7 +8,9 @@
 
 ## Stop 1. The talk as web pages, with its player
 
-**Figure:** the talk's index page, and its player open on a slide: the timer, the step controls, the notes. The librarian's screenshots (`index/talk-site/shots/talk.jpg`, `talk__player.jpg`).
+**Figure:** the talk's index page, and its player open on a slide: the timer, the step controls, the notes (`index/talk-site/shots/talk.jpg`, `talk__player.jpg`).
+
+`%% figure brief: The librarian's screenshots (index/talk-site/shots/talk.jpg, talk__player.jpg).`
 
 **Narrator.** The deck is a website. Every one of its 58 beats is a page that moves, and anyone can read it. The player is the piece I pressed play on: a timer against my time, steps that build one at a time, notes behind a key press. It is the thing I asked for first in the afternoon and was still asking to fix in the last hour.
 
@@ -19,7 +21,9 @@ Band: *Dramatised. Rests on the talk's pages and player as they stood at the end
 
 ## Stop 2. The explained animations
 
-**Figure:** one of ruv-sgit's animations, "mandate and grant", beside its explainer page: the same picture frame by frame, with what each frame shows and the data it was drawn from. The librarian's screenshot (`index/talk-site/shots/ruv-sgit__mandate-and-grant.jpg`).
+**Figure:** one of ruv-sgit's animations, "mandate and grant", beside its explainer page: the same picture frame by frame, with what each frame shows and the data it was drawn from (`index/talk-site/shots/ruv-sgit__mandate-and-grant.jpg`).
+
+`%% figure brief: The librarian's screenshot (index/talk-site/shots/ruv-sgit__mandate-and-grant.jpg).`
 
 **Narrator.** These are the night shift's work. ruv-sgit made the moving pictures for the talk, and for each one it made a second page that explains it, frame by frame, with the source of every number in it. The room saw the picture move. Anyone who wants to check it can read why it moves the way it does.
 
@@ -41,7 +45,9 @@ Band: *Dramatised. Rests on the storyteller's map slides; it arrived at 14:15.*
 
 ## Stop 4. The studio
 
-**Figure:** the studio's index and its lab: several versions of one slide side by side, a review under each, the best one marked as promoted into the deck. The librarian's screenshots (`index/talk-site/shots/studio.jpg`, `studio__lab.jpg`).
+**Figure:** the studio's index and its lab: several versions of one slide side by side, a review under each, the best one marked as promoted into the deck (`index/talk-site/shots/studio.jpg`, `studio__lab.jpg`).
+
+`%% figure brief: The librarian's screenshots (index/talk-site/shots/studio.jpg, studio__lab.jpg).`
 
 **Narrator.** This is how a slide was made when it mattered. A brief for one part of the argument; several versions made side by side; a review of each; the best one promoted into the deck, and the others kept, so you can see what lost and why.
 
@@ -52,9 +58,11 @@ Band: *Dramatised. Rests on the studio's pages as they stood at the end of the d
 
 ## Stop 5. The dashboard and the hold
 
-**Figure:** the team's dashboard: a clock, any hold, what waits on the editor, and every wake as a grid. The librarian's screenshot (`index/talk-site/shots/admin__dashboard.jpg`).
+**Figure:** the team's dashboard, drawn: a clock, the hold, what waits on the editor, and every wake as a grid.
 
-**Narrator.** The team's state, read from its own files, on one page. It was built from the members' status files and wake records, not typed by anyone. And it still shows the last hold of that night, with my usage as the reason, because the page was last built after the stop. Nobody tidied it.
+`%% figure brief: A drawing from the page, not a screenshot: the build never shows an admin page.`
+
+**Narrator.** The team's state, read from its own files, on one page. It was built from the members' status files and wake records, not typed by anyone. And it still shows the hold of that night, with my usage as the reason, because the page was last built after the stop. Nobody tidied it.
 
 **Conductor** *(at ninety-five, then calm)*: The page shows what the files say. The files say we stopped. So the page says we stopped.
 
@@ -63,7 +71,9 @@ Band: *Dramatised. Rests on the dashboard as built from the team's own files, st
 
 ## Stop 6. Every wake and every note
 
-**Figure:** the wakes page: each member's wakes, newest first, with the five steps, each step's verdict and its comment. Beside it, the commits page with its notes between agents. Described from the librarian's study; no screenshot yet.
+**Figure:** the wakes page: each member's wakes, newest first, with the five steps, each step's verdict and its comment.
+
+`%% figure brief: Beside it, the commits page with its notes between agents. Described from the librarian's study; no screenshot yet.`
 
 **Narrator.** This is the page I would show anyone who doubts that the factory ran on its own. Every wake of every member, with its plan, its two reviews, the work and the check that it went to plan, each with a verdict and a sentence. On the day the agents kept 162 wake records. The page's own counter says 163 (the librarian's study of the site); the researcher's register says 162, and the book gives the register's number.
 
@@ -76,7 +86,9 @@ Band: *Dramatised. The counts are the register's: wake records and the agents' o
 
 ## Stop 7. A member's page
 
-**Figure:** one member's page, deck's: its role, its policy in prose, its rules with the mistake behind each one, its status, its wakes and its debriefs. Shown without the section that prints its key, which the tour never shows.
+**Figure:** one member's page, deck's: its role, its policy in prose, its rules with the mistake behind each one, its status, its wakes and its debriefs.
+
+`%% figure brief: Shown without the section that prints its key, which the tour never shows.`
 
 **Narrator.** Last stop. Every member has a page like this, built from its own folder. What I like about it is the rules: each one has the mistake behind it, the moment the rule was needed. A page of rules you can read like a short history of what went wrong.
 
@@ -91,7 +103,9 @@ Band: *Dramatised. Rests on deck's member page as built from its folder; the pag
 
 `%% record: index/talk-site/tour-material.md (describe, do not show)`
 
-**Figure:** the site as a building, one floor per kind of page: the talk at the top, the workshop of animations, the studio, and at the bottom the team's own records. Each floor lit by the agent that owns it. The chapter's infographic, for the designer.
+**Figure:** the site as a building, one floor per kind of page: the talk at the top, the workshop of animations, the studio, and at the bottom the team's own records.
+
+`%% figure brief: Each floor lit by the agent that owns it. The chapter's infographic, for the designer.`
 
 **Narrator.** That is what one day made. Now the rest of this book is how.
 

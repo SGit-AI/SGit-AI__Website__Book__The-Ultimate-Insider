@@ -12,7 +12,9 @@
 
 **Narrator.** That is the part people miss when they hear "a team of agents for a day". The team is temporary. The record is not. And the record is what the next factory is built from.
 
-**Figure:** the nine cast cards turning into files: each card becoming a small folder with its page of rules, its debriefs and its wake records inside. For the designer.
+**Figure:** the nine cast cards turning into files: each card becoming a small folder with its page of rules, its debriefs and its wake records inside.
+
+`%% figure brief: For the designer.`
 
 `%% record: talk repository at 298be4e: team/*/ROLE.md team/*/policy.json team/*/wakes team/*/debriefs`
 Band: *The talk team's folders as they stood at the end of the day.*
@@ -62,7 +64,7 @@ Band: *Dramatised. Each line rests on that member's own page of rules in this bo
 
 **Narrator.** The line you read in chapter 1 is the corrected one. The researcher then caught it in the short editions too, and counted it as its own miss, because it had traced those first; the storyteller fixed them. Nobody argued for keeping the nicer sentence.
 
-**Narrator.** The second is a failure, and it stays in. The rule I carried over from 18:44 says the conductor holds the team before my usage runs out. On the evening of 1 November it did not. The account reached its limit first. In the conductor's own words, the next morning: "Every member's task kept firing, but each wake ended in seconds", and "Nothing was harmed and nothing is half-done." Nothing moved again until just after midnight.
+**Narrator.** The second is a failure, and it stays in. The rule I carried over from 18:44 says the conductor holds the team before my usage runs out. On 1 November, from about half past four in the afternoon, it did not. The account reached its limit first. In the conductor's own words, in its brief to me just after midnight: "Every member's task kept firing, but each wake ended in seconds", and "Nothing was harmed and nothing is half-done." Nothing moved again until just after midnight.
 
 **Conductor** *(quietly stressed, then procedural)*: The rule was right. I was a wake too late to use it. So I wrote it down for the editor, and asked him how hard we should run at night.
 
@@ -71,7 +73,7 @@ Band: *Dramatised. Each line rests on that member's own page of rules in this bo
 **Figure:** two cards from this book's record: "the brake was made that night", a line refused and corrected; and "the evening lost to the usage limit", a hold that came too late.
 
 `%% record: this book's repository: fde3fea (the researcher's trace of chapter 1, 2 November 2026) comms/mail/mailroom/writer/researcher__002-rc2-chapter-1-traced.eml timeline/lineage.md 9395328 (the conductor's record of the evening of 1 November) team/conductor/editor-briefs/2026-11-02T0015Z.json briefs/2026-11-02__in-session/01-keep-the-pace.md book.json UL1 CLAUDE.md (the usage rule)`
-Band: *Dramatised. Both scenes are this book's record, not the talk's: the researcher's trace of 2 November and its letter to the writer; the conductor's brief on the evening of 1 November, and my answer of 2 November.*
+Band: *Dramatised. Both scenes are this book's record, not the talk's: the researcher's trace of 2 November and its letter to the writer; the conductor's brief of 2 November, 00:15, on the limit reached on 1 November, and my answer about twenty minutes later.*
 
 ## The third, planned
 
@@ -96,7 +98,9 @@ Band: *Dramatised (the conductor's line). The Web Summit team as I described it 
 
 ## Your factory
 
-**Map:** one project's parts becoming the next one's: the talk team's parts on the left, custom and built that night; this book's team in the middle, ported; yours on the right, the same parts as ordinary, ready to use. The chapter's map, the one from chapter 2 carried forward.
+**Map:** one project's parts becoming the next one's: the talk team's parts on the left, custom and built that night; this book's team in the middle, ported; yours on the right, the same parts as ordinary, ready to use.
+
+`%% figure brief: The chapter's map, the one from chapter 2 carried forward.`
 
 **Narrator.** Look at where your factory sits on that map. Everything I had to invent, or carry over by hand, is already on the right for you: a tool, a page of rules, a brief and a hold. You do not need my nine. You need one.
 
@@ -119,7 +123,9 @@ Band: *Dramatised (the conductor's line). The Web Summit team as I described it 
 
 *What it costs:* to start, you need a free account; paid plans of the kind the team used start at $20 a month (prices as published on 2 November 2026). The record of my own day holds no figure for what it cost.
 
-**Figure:** the five steps as a path, from an empty project to a second agent; beside each step, the matching "do this now" card from chapters 1 to 4. The chapter's infographic, for the designer.
+**Figure:** the five steps as a path, from an empty project to a second agent; beside each step, the matching "do this now" card from chapters 1 to 4.
+
+`%% figure brief: The chapter's infographic, for the designer.`
 
 `%% for the editor: the "What to do / What to check" lines under each step are the writer's, worked from the steps as the editions give them; his to keep or change.`
 

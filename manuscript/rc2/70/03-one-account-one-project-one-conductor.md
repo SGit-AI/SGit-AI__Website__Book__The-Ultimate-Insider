@@ -4,7 +4,7 @@
 
 ## The empty project and its first commit
 
-`%% clock: hour 1 (00:16 to 01:16): 00:16. Hour N counted from the empty repository at 00:16 (C001); to print as a **Clock:** line once the researcher confirms (writer__036).`
+`%% clock: hour one: 00:16. Clock hours of 29 October, hour one 00:00 to 00:59, as the register's hourly tables (C087, C095) and the storyteller's outline count them; to print as a **Clock:** line once the researcher amends C108 to this count (writer__038).`
 
 **Narrator.** A quarter past midnight: an empty project. Not a template, not a half-built site from last time. A new repository with a licence, a short read-me and almost nothing else. Its first commit says "Initial commit", and that is all it says.
 
@@ -15,7 +15,7 @@ Band: *The first commit, at 00:16.*
 
 ## The first page of rules, shown
 
-`%% clock: hour 1 (00:16 to 01:16): 00:40. Hour N counted from the empty repository at 00:16 (C001); to print as a **Clock:** line once the researcher confirms (writer__036).`
+`%% clock: hour one: 00:40. Clock hours of 29 October, hour one 00:00 to 00:59, as the register's hourly tables (C087, C095) and the storyteller's outline count them; to print as a **Clock:** line once the researcher amends C108 to this count (writer__038).`
 
 **Narrator.** Twenty-four minutes later, dev's first commit put in everything else at once: the site, the talk as data, the build, the check, and four short files that every later agent would read before doing anything. The first of them is the page of rules. Here it is, nearly whole, because it is short:
 
@@ -28,7 +28,9 @@ Band: *The first commit, at 00:16.*
 
 **Narrator.** Read it as a list of things that went wrong somewhere before. "Do not pick one": an agent that chooses its own job will choose the interesting one. "Never edit it": a brief that gets edited stops being a record of what was asked. "Never instructions": the last line is the one that matters most for this book, and it was there in the first half hour.
 
-**Figure:** the first page of rules as a card, each line with a small tag saying what it protects: roles, the brief, the check, the version, secrets, instructions. For the designer.
+**Figure:** the first page of rules as a card, each line with a small tag saying what it protects: roles, the brief, the check, the version, secrets, instructions.
+
+`%% figure brief: For the designer.`
 
 `%% record: 1f7c633 (CLAUDE.md as first committed; one line on page fragments left out here) timeline/cast-scenes.md scene 1`
 `%% to trace (the historian, letter 065): who wrote the first page of rules. The record shows only that it arrived in dev's first commit; the page says no more than that.`
@@ -69,7 +71,7 @@ Band: *The check as dev first built it, at 00:40.*
 
 ## The brake, made that night
 
-`%% clock: hour 2 (01:16 to 02:16): 01:39. Hour N counted from the empty repository at 00:16 (C001); to print as a **Clock:** line once the researcher confirms (writer__036).`
+`%% clock: hour two: 01:39. Clock hours of 29 October, hour one 00:00 to 00:59, as the register's hourly tables (C087, C095) and the storyteller's outline count them; to print as a **Clock:** line once the researcher amends C108 to this count (writer__038).`
 
 **Narrator.** One part was not in dev's first pass. The brake. At 01:39 the conductor started the clock, and with it the hold: one file, in a member's own folder, and every wake of every member stops before it does any work. Anyone may write it. Only I may lift it. The rule went into the page of rules in a single line:
 
@@ -81,7 +83,9 @@ Band: *The check as dev first built it, at 00:40.*
 
 **Narrator.** It was used once, at 18:44. Part 4 is about that minute. Here, notice only when it was made: in the first two hours, before anything had gone wrong, by an agent, at my word.
 
-**Figure:** the project's first two hours as a stack of files appearing, one per commit, each labelled with the agent that wrote it: the first commit; dev's first pass with its four files; the conductor's roster; the schedule and the hold. For the designer.
+**Figure:** the project's first two hours as a stack of files appearing, one per commit, each labelled with the agent that wrote it: the first commit; dev's first pass with its four files; the conductor's roster; the schedule and the hold.
+
+`%% figure brief: For the designer.`
 
 `%% record: 09f13d5 (CLAUDE.md and WAKE.md, the hold added at 01:39) C006 C024 timeline/lineage.md`
 Band: *Dramatised. The conductor's lines rest on its commit at 01:39, "the schedule starts tonight, with a hold any member can pull"; the quoted rule is the page of rules' own, shortened where marked.*

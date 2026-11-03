@@ -12,17 +12,21 @@
 
 **Narrator.** It sounds small. It is not. Every minute I spend narrating an arrow is a minute the room is listening to me describe a picture instead of thinking about the idea. And the harder the idea, the more of it lives in the movement: how something spreads, where it stops, what changes when you add more of it. Those were exactly the ideas I wanted to get across.
 
-**Figure:** "A slide versus a loop" (left half): a speaker beside a still slide with an arrow from A to B, three speech bubbles explaining the arrow. The infographic of this chapter; its right half is on the next page.
+**Figure:** "A slide versus a loop" (left half): a speaker beside a still slide with an arrow from A to B, three speech bubbles explaining the arrow.
+
+`%% figure brief: The infographic of this chapter; its right half is on the next page.`
 
 `%% record: briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md (the editor's voice note, 1 November 2026, quoted as given)`
 
 ## Pressing play
 
-`%% clock: hour 19 (18:16 to 19:16): the change at 18:26; the talk due at 19:00. Hour N counted from the empty repository at 00:16 (C001); to print as a **Clock:** line once the researcher confirms (writer__036).`
+`%% clock: hour nineteen: the change at 18:26; the talk due at 19:00, as hour nineteen ends. Clock hours of 29 October, hour one 00:00 to 00:59, as the register's hourly tables (C087, C095) and the storyteller's outline count them; to print as a **Clock:** line once the researcher amends C108 to this count (writer__038).`
 
 **Narrator.** On 29 October I gave a talk where I mostly did not have to do that. When a thing had to move, I pressed play and it moved.
 
-**Figure:** the player as I saw it on stage: the slide large, a countdown against my time, the step controls, and my notes behind a key press. From the talk's own player page (the librarian's screenshot, `index/talk-site/shots/talk__player.jpg`); the notes as the page shows them.
+**Figure:** the player as I saw it on stage: the slide large, a countdown against my time, the step controls, and my notes behind a key press (`index/talk-site/shots/talk__player.jpg`).
+
+`%% figure brief: From the talk's own player page (the librarian's screenshot, index/talk-site/shots/talk__player.jpg); the notes as the page shows them.`
 
 **Narrator.** Here is one moment, from the recording. It is an animation the team called the building. In it, ordinary users walk through and stop; agents keep going until they find what should not be there. I did not explain the movement. I let it run, and talked about what it meant:
 
@@ -39,18 +43,20 @@ Band: *The quoted passage is my own, from the transcript of the talk at 15:50 on
 
 ## The loop
 
-`%% clock: hours 14 to 19 (13:16 to 19:16): the player from about 13:50 to the last fix at 18:37. Hour N counted from the empty repository at 00:16 (C001); to print as a **Clock:** line once the researcher confirms (writer__036).`
+`%% clock: hours fourteen to nineteen: the player from about 13:50 to the last fix at 18:37. Clock hours of 29 October, hour one 00:00 to 00:59, as the register's hourly tables (C087, C095) and the storyteller's outline count them; to print as a **Clock:** line once the researcher amends C108 to this count (writer__038).`
 
 **Narrator.** That last change is the real story. Not the animation: the loop.
 
-**Narrator.** In the afternoon of the 29th I came back to the team and started asking for things. The player, the piece that let me press play on stage, was my first priority; I said so at about ten to two. By seven minutes past three a first version was in. From then until the last hour I kept asking, and each time it came back changed, and I looked again. My last request in the record has my own time on it, 18:25: two back steps in a row while playing went wrong, and the first slide should open already built.
+**Narrator.** In the afternoon of the 29th I came back to the team and started asking for things. The player, the piece that let me press play on stage, was my first priority; I said so at about ten to two. By seven minutes past three a first version was in. From then until the last hour I kept asking, and each time it came back changed, and I looked again. My last ask for the player has my own time on it, 18:25: two back steps in a row while playing went wrong, and the first slide should open already built. It landed at 18:37.
 
 **Narrator.** That is a feedback loop. See it, ask for it differently, see it again. With slides, the loop ran through me alone. Here it ran through a team, and it ran as fast as I could look.
 
-**Figure:** "A slide versus a loop" (right half): the same idea as a circle of three arrows, see, ask, see again, with a small factory inside the circle doing the work. The speaker stands outside the circle, looking.
+**Figure:** "A slide versus a loop" (right half): the same idea as a circle of three arrows, see, ask, see again, with a small factory inside the circle doing the work.
+
+`%% figure brief: The speaker stands outside the circle, looking.`
 
 `%% record: c9ced4e 3314ffe dbd75ad C088 timeline/cast-scenes.md (scene 5)`
-Band: *Rests on the player named his main priority (about 13:50), its port (15:07), and the last fixes made at his word, the last at 18:25, inside a wake that was opened and never closed.*
+Band: *Rests on the player named his main priority (about 13:50), its port (15:07), and the last fixes made at my word, the last asked at 18:25 and landed at 18:37, inside a wake that was opened and never closed.*
 
 ## Inventing on principle
 
@@ -75,7 +81,9 @@ Band: *Bret Victor's words as published; the talk named and dated as the registe
 
 **Narrator.** It sounds grander than it is. You will meet each of them in the next chapter, in the order they arrived: the first four within the hour of an empty project, the rest through the day. One chair at the table stays empty all day, and that matters later.
 
-**Figure:** the cast cards, greyed, in a row, each with its job in one line: dev, the site and its build; the conductor, the clock and the plan; deck, the talk's beats and slides; ruv-sgit, the workshop of experiments; the researcher, every fact checked against its source; the designer, how it looks on the projector; the storyteller, the order of the story; motion, the pieces that move; studio, several versions side by side. And an empty chair for security, planned and never staffed. Under each card, its arrival time on the cast bar. The designer's cards (LAB 27 and 37), drawn not yet lit.
+**Figure:** the cast cards, greyed, in a row, each with its job in one line: dev, the site and its build; the conductor, the clock and the plan; deck, the talk's beats and slides; ruv-sgit, the workshop of experiments; the researcher, every fact checked against its source; the designer, how it looks on the projector; the storyteller, the order of the story; motion, the pieces that move; studio, several versions side by side.
+
+`%% figure brief: And an empty chair for security, planned and never staffed. Under each card, its arrival time on the cast bar. The designer's cards (LAB 27 and 37), drawn not yet lit.`
 
 **Narrator.** This book is about the factory. The talk was what it happened to make that day. If you have an idea you keep talking over, the factory is the part you can take home.
 

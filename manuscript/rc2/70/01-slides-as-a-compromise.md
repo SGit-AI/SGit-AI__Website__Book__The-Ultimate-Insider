@@ -18,17 +18,21 @@
 
 **Narrator.** It sounds small. It is not. Every minute I spend narrating an arrow is a minute the room is listening to me describe a picture instead of thinking about the idea. And the harder the idea, the more of it lives in the movement: how something spreads, where it stops, what changes when you add more of it. Those were exactly the ideas I wanted to get across.
 
-**Figure:** "A slide versus a loop" (left half): a speaker beside a still slide with an arrow from A to B, three speech bubbles explaining the arrow. The infographic of this chapter; its right half is on the next page.
+**Figure:** "A slide versus a loop" (left half): a speaker beside a still slide with an arrow from A to B, three speech bubbles explaining the arrow.
+
+`%% figure brief: The infographic of this chapter; its right half is on the next page.`
 
 `%% record: briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md (the editor's voice note, 1 November 2026, quoted as given)`
 
 ## Pressing play
 
-`%% clock: hour 19 (18:16 to 19:16): the change at 18:26; the talk due at 19:00. Hour N counted from the empty repository at 00:16 (C001); to print as a **Clock:** line once the researcher confirms (writer__036).`
+`%% clock: hour nineteen: the change at 18:26; the talk due at 19:00, as hour nineteen ends. Clock hours of 29 October, hour one 00:00 to 00:59, as the register's hourly tables (C087, C095) and the storyteller's outline count them; to print as a **Clock:** line once the researcher amends C108 to this count (writer__038).`
 
 **Narrator.** On 29 October I gave a talk where I mostly did not have to do that. When a thing had to move, I pressed play and it moved.
 
-**Figure:** the player as I saw it on stage: the slide large, a countdown against my time, the step controls, and my notes behind a key press. From the talk's own player page (the librarian's screenshot, `index/talk-site/shots/talk__player.jpg`); the notes as the page shows them.
+**Figure:** the player as I saw it on stage: the slide large, a countdown against my time, the step controls, and my notes behind a key press (`index/talk-site/shots/talk__player.jpg`).
+
+`%% figure brief: From the talk's own player page (the librarian's screenshot, index/talk-site/shots/talk__player.jpg); the notes as the page shows them.`
 
 **Narrator.** Here is one moment, from the recording. It is an animation the team called the building. In it, ordinary users walk through and stop; agents keep going until they find what should not be there. I did not explain the movement. I let it run, and talked about what it meant:
 
@@ -36,7 +40,18 @@
 
 **Narrator.** The picture did the explaining, and I said what it meant. That is what I had wanted from slides for years.
 
-`%% to trace (the researcher, from a9c0b49, added after the day): the second moment from the talk as given, with its time on the recording and my words, word for word. Until it is traced, this section has one moment.`
+**Narrator.** And a second, later in the talk. Not an animation this time: a page I had used for real, the one where I reviewed each agent's policy before it could work. I put it on the screen and talked over it only to say what it was:
+
+> "What you see now is what I did when I was onboarding my team, the team that built this slide deck. This one, for example, is for ruv.sgit, the agent that builds animations. It has a policy. I now use QR codes to communicate: the agent asks for what it wants, and I have to approve it, change it or question it, and in the end I give that to the agent as its mandate."
+
+**Narrator.** The page did the explaining there too. The room saw a real policy page, not my description of one.
+
+**Figure:** the policy review page as it was on the screen: one agent's policy, item by item, with a verdict beside each (`index/talk-site/shots/studio-ports__abp-review.jpg`).
+
+`%% figure brief: The talk's own page, from the librarian's screenshot index/talk-site/shots/studio-ports__abp-review.jpg, if the build's rule for screenshots allows it.`
+
+`%% record: C109 (58:53 on the recording; quoted to "mandate.": the passage goes on to say every agent's scope was defined, and by the end of the day 8 of 10 policies were agreed, C072) a9c0b49 studio-ports/abp-review/`
+Band: *My own words, from the transcript of the talk at 58:53 on the recording's clock (added after the day).*
 
 **Narrator.** And here is the part I like most. That animation was not finished in the morning and left alone. I changed it at 18:26, about half an hour before the talk was due to start. I could do that because the thing that made it was still running, and still listening.
 
@@ -47,18 +62,20 @@ Band: *The quoted passage is my own, from the transcript of the talk at 15:50 on
 
 ## The loop
 
-`%% clock: hours 14 to 19 (13:16 to 19:16): the player from about 13:50 to the last fix at 18:37. Hour N counted from the empty repository at 00:16 (C001); to print as a **Clock:** line once the researcher confirms (writer__036).`
+`%% clock: hours fourteen to nineteen: the player from about 13:50 to the last fix at 18:37. Clock hours of 29 October, hour one 00:00 to 00:59, as the register's hourly tables (C087, C095) and the storyteller's outline count them; to print as a **Clock:** line once the researcher amends C108 to this count (writer__038).`
 
 **Narrator.** That last change is the real story. Not the animation: the loop.
 
-**Narrator.** In the afternoon of the 29th I came back to the team and started asking for things. The player, the piece that let me press play on stage, was my first priority; I said so at about ten to two. By seven minutes past three a first version was in. From then until the last hour I kept asking, and each time it came back changed, and I looked again. My last request in the record has my own time on it, 18:25: two back steps in a row while playing went wrong, and the first slide should open already built.
+**Narrator.** In the afternoon of the 29th I came back to the team and started asking for things. The player, the piece that let me press play on stage, was my first priority; I said so at about ten to two. By seven minutes past three a first version was in. From then until the last hour I kept asking, and each time it came back changed, and I looked again. My last ask for the player has my own time on it, 18:25: two back steps in a row while playing went wrong, and the first slide should open already built. It landed at 18:37.
 
 **Narrator.** That is a feedback loop. See it, ask for it differently, see it again. With slides, the loop ran through me alone. Here it ran through a team, and it ran as fast as I could look.
 
-**Figure:** "A slide versus a loop" (right half): the same idea as a circle of three arrows, see, ask, see again, with a small factory inside the circle doing the work. The speaker stands outside the circle, looking.
+**Figure:** "A slide versus a loop" (right half): the same idea as a circle of three arrows, see, ask, see again, with a small factory inside the circle doing the work.
+
+`%% figure brief: The speaker stands outside the circle, looking.`
 
 `%% record: c9ced4e 3314ffe dbd75ad C088 timeline/cast-scenes.md (scene 5)`
-Band: *Rests on the player named his main priority (about 13:50), its port (15:07), and the last fixes made at his word, the last at 18:25, inside a wake that was opened and never closed.*
+Band: *Rests on the player named his main priority (about 13:50), its port (15:07), and the last fixes made at my word, the last asked at 18:25 and landed at 18:37, inside a wake that was opened and never closed.*
 
 ## Inventing on principle
 
@@ -72,7 +89,9 @@ Band: *Rests on the player named his main priority (about 13:50), its port (15:0
 
 **Narrator.** That is not Victor's keystroke. It is minutes, and sometimes the better part of a quarter of an hour. But it is a round trip I could make while the thing was still mine to change. With slides, I made that trip alone, and usually once.
 
-**Figure:** one ask's round trip drawn to the clock: my ask at 18:25, the commit that answered it at 18:37, and the hold at 18:44 at the edge of the picture. Beside it, the eight asks as a small table, each with its time asked and its time back. For the designer; the times from the register, in the card.
+**Figure:** one ask's round trip drawn to the clock: my ask at 18:25, the commit that answered it at 18:37, and the hold at 18:44 at the edge of the picture.
+
+`%% figure brief: Beside it, the eight asks as a small table, each with its time asked and its time back. For the designer; the times from the register, in the card.`
 
 `%% record: C105 C088 C104 lab/experiments/29-ruv-the-afternoon-loop/`
 Band: *My afternoon asks with my own time in their commit subjects, and when each came back, as the register holds them.*
