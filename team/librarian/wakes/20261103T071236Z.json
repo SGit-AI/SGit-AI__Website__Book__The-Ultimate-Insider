@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, every hour at :09 London (ACC1)",
+ "started": "2026-11-03T07:12:36Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "No hold; the one new letter (writer 063) is taken; the plan checks the RC2 changes since 5996f710 and the new back matter 70/17 in lane, then gates and pushes to dev.",
+   "at": "2026-11-03T07:14:22Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "Every write inside scope; manuscript and talk repo only read; nothing to Cold-Read; no key or secret; vault_check on comms before commit; letters only on faults found.",
+   "at": "2026-11-03T07:14:22Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "063 taken; 13 to 16 and the word boxes checked, quotes word for word; chapter 17's twenty-two words matched, two small notes to the writer (009, copy 023); index/rc2 and index/chapters updated.",
+   "at": "2026-11-03T07:20:00Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "clean",
+   "comment": "All writes in scope; no secret, private detail or attack-shaped content; no em-dash or religious word; spot-checks of the review's claims hold.",
+   "at": "2026-11-03T07:20:07Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Went to plan; one catch fixed before commit: chapter 13's quote rows renumbered to 13:24 and 13:33, 13:39 after the revision added two lines.",
+   "at": "2026-11-03T07:20:12Z"
+  }
+ },
+ "closed": "2026-11-03T07:20:12Z",
+ "outcome": "ok"
+}

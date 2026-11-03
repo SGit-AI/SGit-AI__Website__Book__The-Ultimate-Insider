@@ -42,6 +42,7 @@ One file per chapter of the manuscript, built by `index/tools/chapter_entries.py
 | [`12-how-do-we-contain-this.md`](12-how-do-we-contain-this.md) | 7 | 0 | 4 | 0 | 6 | 0 |
 | [`13-sessions-end.md`](13-sessions-end.md) | 2 | 0 | 5 | 0 | 1 | 0 |
 | [`14-the-second-factory-and-the-third.md`](14-the-second-factory-and-the-third.md) | 1 | 0 | 7 | 0 | 2 | 0 |
-| [`15-principles.md`](15-principles.md) | 0 | 0 | 1 | 0 | 0 | 1 |
-| [`16-build-your-own.md`](16-build-your-own.md) | 0 | 0 | 4 | 0 | 0 | 1 |
+| [`15-principles.md`](15-principles.md) | 0 | 0 | 7 | 0 | 0 | 0 |
+| [`16-build-your-own.md`](16-build-your-own.md) | 0 | 0 | 6 | 0 | 0 | 0 |
+| [`17-the-words-used.md`](17-the-words-used.md) | 0 | 0 | 2 | 0 | 0 | 0 |
 | [`first-ten-pages.md`](first-ten-pages.md) | 1 | 0 | 2 | 0 | 2 | 0 |
