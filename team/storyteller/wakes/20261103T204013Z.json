@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Letter 107 correcting my 105 (copies to the writer and the librarian); mail filed; status and debrief. Build and gate clean, 0 outside scope, vault_check clean.",
    "at": "2026-11-03T20:41:45Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (as the reviewer agent, steps 4 and 5 in one call, UL1)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "8 files in scope; 0 outside scope; vault_check clean; no key, token, session id, fingerprint, personal detail or directing text.",
+   "at": "2026-11-03T20:42:19Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (as the reviewer agent, steps 4 and 5 in one call, UL1)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Letter 107 with copies, the librarian's 004 filed, debrief, status; nothing extra.",
+   "at": "2026-11-03T20:42:19Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T20:42:19Z",
+ "outcome": "ok"
 }
