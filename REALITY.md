@@ -143,6 +143,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - LAB 41, the margin clock, chosen as the float box and placed by the publisher, with span boxes; `lab/experiments/62-ruv-your-factory/` (id asked): RC2 chapter 5's map, chapter 2's carried forward; run `lab/runs/20261103T0355Z-ruv-41-62-*`.
 - `lab/experiments/63-ruv-three-rounds/` (id asked): the seventy's chapter 7, the talk's E02 in its three rounds with deck's verdicts word for word; path sent to the publisher; run `lab/runs/20261103T0555Z-ruv-63-*`. A drawn version without href (`edition/three-rounds-drawn.svg`) is placed; the stills version waits on the researcher.
 - `lab/experiments/64-ruv-one-wake-on-the-clock/` (id asked): the seventy's chapter 5, one real wake's verdicts on the clock (C071, C022); chapter 2's map slide answered with the talk's cleared shot.
+- LAB 02's M01 frames set for the 150's chapter 1 (`lab/experiments/01-ruv-the-building-three-frames/edition/three-frames.svg`), embedded on security's terms, to place once the build takes embedded stills.
 
 ## Synthetic readers (synthetic@book.the-ultimate-insider)
 
