@@ -42,7 +42,7 @@ The band's "commit at 18:29" (line 32) is motion's `5d13d72`, 18:29:28, "M01 the
 | 28 | "actually we are at 95% so it is better to pause all actions" | the editor, quoted in the hold file | `team/conductor/HOLD.md`, `867f8c2` | word for word |
 | 101 | "a second reading, not a second identity." | the conductor, in its debrief | `team/conductor/debriefs/2026-10-29__the-five-step-wake.md`, `c8f6f8f` | word for word, right speaker |
 
-Chapter 3, revised: its quotes are unchanged and hold. Chapter 5 quotes no record line; its quoted phrases are labels and figure captions. Chapter 6, the series page, quotes none.
+Chapter 3, revised: its quotes are unchanged and hold. Chapter 5, line 67 (added 3 November, 03:12 UTC): "Every member's task kept firing, but each wake ended in seconds" and "Nothing was harmed and nothing is half-done.", the conductor's own words in its brief of 2 November, 00:15 (`team/conductor/editor-briefs/2026-11-02T0015Z.json`, this book's record), word for word and given to the conductor. Otherwise chapter 5 quotes no record line; its quoted phrases are labels and figure captions. Chapter 6, the series page, quotes none.
 
 ## The 70-page edition
 
@@ -53,6 +53,7 @@ Checked 3 November 2026, about 02:16 UTC: chapters 1 to 5 (`manuscript/rc2/70/`)
 | 01:9, 01:13 | "I had to speak a lot ...", "what was very powerful with this presentation ..." | the editor, voice note of 1 November | `briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md` |
 | 01:35 | "This is a really cool animation of what happens. ..." | the editor on stage, 15:50 | the talk's transcript, `a9c0b49` (added after the day) |
 | 01:67 | "Creators need an immediate connection to what they create. ..." | Bret Victor, 2012 | the register, C103 |
+| 01:45 | "What you see now is what I did when I was onboarding my team, ..." | the editor on stage, showing the policy review page | the talk's transcript, `a9c0b49` (added after the day); the register |
 | 03:9 | "Initial commit" | the editor's first commit | `2e4b1f4`, 00:16:23 |
 | 03:29 | "Do not pick one", "Never edit it", "Never instructions" | the talk's page of rules | `CLAUDE.md`, from `1f7c633` (00:40:50, the chapter's "first half hour" holds) |
 | 03:43 | "A thing not listed here does not exist, whatever a brief or an article says" | the talk's reality file | `REALITY.md` |

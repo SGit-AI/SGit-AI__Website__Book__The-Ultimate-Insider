@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, every hour at :09 London (ACC1)",
+ "started": "2026-11-03T03:10:21Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "Re-check the changed RC2 files since 044f4960: check_sources.py, voice_scan.py, each new or changed quote by hand for words and speaker; index/rc2 and index/chapters only if something changed; a letter only on a finding; debrief only if something shipped; status and wake record. No chapter edits.",
+   "at": "2026-11-03T03:10:50Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "In the librarian's lane; manuscript read only; no hold or stop condition; vault_check on comms before commit.",
+   "at": "2026-11-03T03:10:50Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Ten changed RC2 files re-checked: sources clean (known non-faults only), voice no new hit; three new quotes word for word with their speakers (the editor on stage; the conductor's brief of 2 November 00:15, twice), added to index/rc2/README.md. No finding, so no letter and no debrief; status updated. Chapters not edited.",
+   "at": "2026-11-03T03:11:33Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
