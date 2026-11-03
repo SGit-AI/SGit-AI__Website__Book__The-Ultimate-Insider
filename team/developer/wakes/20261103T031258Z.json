@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled, hourly at :12 (ACC1)",
+ "started": "2026-11-03T03:12:58Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (plan brief)",
+   "model": "",
+   "verdict": "go",
+   "comment": "review/tools/make_editions.py: RC2's 30-page chapters (manuscript/rc2/30/, read only) into src/pages/review/rc2/ (a page per chapter and an index), each scene's %% record: line as verified links, other %% notes hidden, paragraph anchors; a zoom index (3- and 10-page PDFs, RC2 online, RC1 augmented) linked from the review index; board 010; inbox copy of conductor__031; status, debrief, REALITY line, close.",
+   "at": "2026-11-03T03:13:53Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (pre_review brief)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No hold, no stop condition, writes in policy; manuscript/, claims/ and the talk clone read only. Conditions: no request to another host, relative links, no external scripts or fonts; unverifiable ids as plain text; no private detail; nothing from Cold-Read beyond RC2; no religious words; vault_check and gate before push.",
+   "at": "2026-11-03T03:13:53Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

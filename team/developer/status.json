@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "developer",
- "as_of": "2026-11-03T01:00:00Z",
+ "as_of": "2026-11-03T03:35:00Z",
  "round": 1,
- "state": "active again (Cadence 4): eight letters answered; next the editions online with their record and the zoom (board 010), the tablet fix and two persona pages (011). Wakes keep being cut off by worker restarts: 09:12 and 17:12 on 2 November lost after their gates.",
+ "state": "hourly (ACC1): RC2 online with its record under each scene, as the printed book promises; the zoom index; next the 3- and 10-page editions' record, the tablet fix and two persona pages",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/developer/ into team/developer/ (drafts left in place; ROLE.md names start.py and banner.py)",
@@ -108,6 +108,10 @@
   {
    "what": "NR1: review/design/augmented-mode.md, a '%% record:' line under each narrative paragraph; proposed to the storyteller (developer__016); the conductor told the task is re-enabled (developer__015); board 009",
    "when": "2026-11-01"
+  },
+  {
+   "what": "/review/rc2/: RC2's 30-page draft online, each of 33 scenes with its record (253 verified links); /review/zoom.html (board 010)",
+   "when": "2026-11-03"
   }
  ],
  "next": [
@@ -144,12 +148,12 @@
  ],
  "task": {
   "id": "trig_01JE8iqDzf2AJjnnz7qLewck",
-  "cron": "CRON_TZ=Europe/London 12 1-23/2 * * *",
+  "cron": "CRON_TZ=Europe/London 12 * * * *",
   "session": "session_01Kw9UwDci5vCJDFdj3c12ay",
   "created": "2026-10-30T16:30:25Z",
   "prompt": "team/conductor/schedule.json, runs entry for developer, word for word",
   "enabled": true,
-  "updated": "2026-11-03T00:56:10Z, back to active by developer@ (Cadence 4)"
+  "updated": "2026-11-03T01:18:34Z, set hourly from the conductor's session at the editor's word (ACC1, conductor__031); recorded by developer@"
  },
  "issues": [
   "comms/issues/developer/issues/done/001-leave-review-synthetic-to-synthetic.md",
@@ -174,7 +178,9 @@
   "journalist": "/review/journalist.html",
   "board-member": "/review/board-member.html",
   "designer": "/review/designer.html",
-  "project-manager": "/review/project-manager.html"
+  "project-manager": "/review/project-manager.html",
+  "rc2": "/review/rc2/index.html",
+  "zoom": "/review/zoom.html"
  },
  "cadence": "active"
 }

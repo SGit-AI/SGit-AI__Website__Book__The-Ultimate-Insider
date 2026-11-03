@@ -59,6 +59,10 @@ a.pv code{color:var(--accent)}
 .pv-checked{border-color:var(--accent);color:var(--accent)}
 .pv-corrected{border-color:var(--infra);color:var(--infra)}
 .pv-open{border-color:var(--risk);color:var(--risk)}
+/* RC2 online (make_editions.py): the record under each scene */
+.rc-rec{margin:-4px 0 22px;padding:8px 12px;border-left:3px solid var(--accent);background:var(--panel);border-radius:0 6px 6px 0;font-size:var(--t-s);color:var(--text)}
+.rc-rec b{font-weight:600;color:var(--head);margin-right:6px}
+.zoom li{margin-bottom:8px}
 /* the graph (make_reader.py, graph.html): one hue in five steps, the count always printed; steps and inks set per mode, measured in the browser at 4.5:1 or more */
 :root{--gx1:12%;--gx2:24%;--gx3:40%;--gx4:58%;--gx5:76%;--gx-ink-lo:var(--text);--gx-ink-hi:var(--text)}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--gx1:10%;--gx2:20%;--gx3:32%;--gx4:44%;--gx5:84%;--gx-ink-lo:var(--text);--gx-ink-hi:var(--on-accent)}}
