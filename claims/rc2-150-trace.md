@@ -162,6 +162,46 @@ Traced as they stand after the writer's `3ca8f0bc` (15:32). **In short:** everyt
 | 16 | Three wakes open at the hold: the designer's (into the last release), dev's (closed four minutes after, on its own branch), deck's (never closed) | holds | the designer's wake `184016Z`, 18:40:16 to 18:45:35; `39df303` 18:48:36; deck's `182009Z`; C022 (2 incomplete) |
 | 16 | The usage figure as the conductor's report, and his later accounts | holds | C006, C021, C089 |
 
+## Chapters 17 and 18, and chapter 16's third account (the 17:32 wake)
+
+Traced on 3 November 2026 at the 17:32 wake, at the writer's letter 117, against the register and the talk's record at `298be4e`.
+
+**In short:**
+- Chapter 17 holds throughout, every time and every miss.
+- Chapter 16's third account (`ec1ec00`) holds.
+- Chapter 18 has two lines to change: security's tool cases are not all refusals by the permission check (C112), and the reviewer "that can only read" claims more than its tool list.
+
+### What needs a change
+
+| Ch | The chapter says | The record says | Change to |
+|---|---|---|---|
+| 18 | "By its count, six were calls the session's own permission check refused, one of them only probable, and nothing acted." | Security's register (C112): of the six, four were refused by the permission check (cases 3 to 6), one failed because no such session existed (case 1), and one is probable (case 2). None acted. Security's own summary (its letter 032) says "six attempts, all refused" | "By its count, six such calls were tried; four were refused by the session's own check, one failed, one probably never went, and none acted." Or, shorter: "six such calls, and none acted." The `%% record:` should not say "cases 1 to 6 refused by the permission check" |
+| 18 | "from 3 November, every review step runs as a reviewer that can only read" | TA1 gives the reviewer agent Read, Grep, Glob and Bash (`.claude/agents/reviewer.md`). Bash can write: case 10 in security's register is a reviewer-type step writing a temporary file outside the repository, and case 8 a review writing in the working tree and restoring it | "runs as a reviewer whose tools are only for reading and checking" or "as a reviewer with a short list of tools, none of them for sessions or messages". Not "can only read" |
+
+### What holds
+
+| Ch | Line | Verdict | Source |
+|---|---|---|---|
+| 16 | His third account: 31 October, about 19:00, "The 95%, I think, was the tokens usage" | holds | C089; `ec1ec00`, 31 October 19:09 UTC; the brief gives "about 19:00 UTC" |
+| 17 | The three accounts side by side: 18:44, the paper review, about seven that evening, the later two after the day | holds | C006, C089; `49c701e` (31 October 01:48), `ec1ec00` |
+| 17 | The lock tool at 17:54, never run; the conductor's request at 18:39; dev in the player fixes until 18:37 | holds | `4a2481b` 17:54:45; `2ed6427` 18:39:16; `dbd75ad` 18:37:02; C027 |
+| 17 | Dev's wake opened at 17:48, closed after the hold on its own branch, its post-check listing the player fixes as unplanned | holds | `team/dev/wakes/20261029T174850Z.json`; `39df303` 18:48:36, on `claude/dreamy-mayer-dwprr2`, not in `298be4e`; its comment: "Unplanned, all at the editor's word in session: player fixes". The same close says the editor had moved the lock to 19:00, which chapter 16 tells; "never run" still holds |
+| 17 | Part one final, parts two and three in progress; deck's last wake opened at 18:20 and never closed | holds | C027; the wake `182009Z` (started 18:20:09, no close); `89afb77` 18:21 |
+| 17 | The split asked by half past five; part one set without it; "is late" | holds | `3342cff` 16:59 ("to deck by 17:30"); `3260997` 17:25; `team/storyteller/requests/deck__three-parts.md` |
+| 17 | The freeze, the correction five minutes later, the figure on the slide since 00:40, $17.4M against US$19.5M | holds | C031: the freeze 02:47, `a082c52` 02:52:56, `1f7c633` 00:40 |
+| 17 | Three findings of one kind, two after the push, none a key or personal detail | holds | C025 entries 2 to 4; C068 |
+| 17 | The key printed into a log, rotated | holds | the conductor's debriefs named in the chapter; nothing of the key printed |
+| 17 | The designer's status: part one "locked at 18:30 after its check" | holds | `team/designer/status.json` at `298be4e` ("part 1 locked at 18:30 after its check"); against `2ed6427` and C027 |
+| 17 | Commits with no member's name: the player's, and ruv-sgit's without the "@" from a quarter to nine | holds | C014; `15707dc` 08:43 and `fc724df` 18:40, both "ruv-sgit:" |
+| 17 | Three claims that did not hold, none on a beat | holds | C029, C030 |
+| 18 | The hold: anyone may write it, only the editor lifts it; one hold on the day, not lifted | holds | C006, C024; `team/conductor/WAKE.md` (Stopping) |
+| 18 | The scope quote (studio's slide, 18:11) and "a second reading, not a second identity" (02:19) | holds | `95b09d9`; `c8f6f8f`, as traced for chapter 4 |
+| 18 | Studio's refusal, 17:41 to 17:48 | holds | the wake `174115Z`; `bd3cdad` 17:47:28 |
+| 18 | The locks never turned | holds | C027 |
+| 18 | "Sixteen minutes before my talk" | holds | C100 |
+| 18 | The storyteller's hold of 1 November, lifted at his word in synthetic's session | holds | this book's record: `74749c4e` (1 November 09:45), `daabf92d` (12:42, "the hold lifted at the editor's word ... in synthetic's session") |
+| 18 | Security staffed on this team, with a key and its reads of the chapters | holds | this book's `team/security/`; its letters to the writer |
+
 ## Where this came from
 
-`manuscript/rc2/150/01` to `16` and `90`, each as on dev at the wake that traced it (3 November 2026, from 09:32 to 16:32); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).
+`manuscript/rc2/150/01` to `18` and `90`, each as on dev at the wake that traced it (3 November 2026, from 09:32 to 17:32); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).

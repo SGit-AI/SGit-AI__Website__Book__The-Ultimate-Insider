@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-11-03T16:39Z",
+ "as_of": "2026-11-03T17:40Z",
  "round": 1,
- "state": "active, hourly: the 150 at 01 to 16 traced; review steps as the reviewer agent; 009 blocked",
+ "state": "active, hourly: the 150 at 01 to 18 traced; C112 registered; review steps as the reviewer agent; 009 blocked",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -347,6 +347,14 @@
    "letters": [
     "conductor/researcher__024",
     "writer/researcher__017"
+   ]
+  },
+  {
+   "what": "150/17 and 18 and 16's third account traced: 17 holds, two lines in 18 to change; C112 (the tool cases, case by case)",
+   "when": "2026-11-03T17:40Z",
+   "letters": [
+    "writer/researcher__018",
+    "security/researcher__003"
    ]
   }
  ],

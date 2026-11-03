@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-11-03T13:36Z",
+ "as_of": "2026-11-03T17:36Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -3257,6 +3257,39 @@
    "method": "read the transcript passage at 19:27",
    "command": "git show a9c0b49:content/articles/the-talk-as-given.md | grep -n 'here.s a Wardley map'",
    "note": "His words on stage, from the generated transcript (C069): quote them as said, to 'commodity.'. The passage goes on to his case about open source; quote it only if the chapter wants it, with its own trace. 'Released everything under Creative Commons' is his account of Wardley's licence; the book's own source sheet (claims/ps1-sources.md, section 4) has wardleymaps.com under CC BY-SA 4.0. Registered at the writer's letter 069, the researcher's 09:32 wake, 3 November 2026."
+  },
+  {
+   "id": "C112",
+   "claim": "This book's team: tool calls by review steps outside the read-only brief (TA1), as security's register counts them",
+   "cited_in": [
+    "manuscript/rc2/150/18-how-do-we-contain-this.md",
+    "claims/rc2-150-trace.md"
+   ],
+   "value": {
+    "session_tool_calls": 6,
+    "of_which": {
+     "refused_by_the_permission_check": 4,
+     "failed_no_such_session": 1,
+     "probable_refused_or_never_sent": 1
+    },
+    "acted": 0,
+    "also": "a seventh, a read-only session listing, allowed and kept out of the wake (case 7); cases 8 and 10 are Bash writes within the list; case 9 is the reviewer type not loading in older sessions",
+    "by_member": {
+     "security": "cases 1 to 3",
+     "historian": "cases 4 to 7"
+    },
+    "window": "30 October to 3 November 2026",
+    "as_of": "controls/ at 38b69644 (3 November 2026, 17:27 UTC)"
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Book__The-Ultimate-Insider (this book's record)",
+    "at": "38b69644",
+    "evidence": "controls/index.json (book_team.tool_cases, each case's 'refused' field); controls/README.md, 'Tool cases (TA1)'; comms/mail/mailroom/conductor/security__032 ('six attempts, all refused, and nothing acted')"
+   },
+   "method": "each case's own fields in controls/index.json, counted",
+   "command": "python3 -c \"import json;d=json.load(open('controls/index.json'))['book_team']['tool_cases'];[print(c['n'],c['tool'][:30],c.get('refused')) for c in d['cases']]\"",
+   "note": "This book's record, not the talk's. 'Six refused' is security's own summary (its 032); case by case, four were refused by the permission check, one failed for want of a session, one is probable. Print 'six calls, none of which acted', or the split; not 'six refused by the permission check'. Security keeps the register (C2); this entry counts it as it stood at 17:27 UTC. Registered at the writer's letter 117, the researcher's 17:32 wake, 3 November 2026."
   }
  ]
 }
