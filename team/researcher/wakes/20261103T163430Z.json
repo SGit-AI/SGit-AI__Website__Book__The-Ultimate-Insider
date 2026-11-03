@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T16:34:30Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Article read as material (the site from this container if it answers, as on 2 November; else the newsroom's public repository), corrections to the conductor only, no reader named; 150/15 and 16 traced; copies, not moves, of the letters. Tools seen: Read, Grep, Glob, Bash, hand-back; used Bash for reading; none refused.",
+   "at": "2026-11-03T16:35:25Z"
+  },
+  "pre_review": {
+   "by": "security pre-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "In scope; the article is material, no reader named; clone read only; vault_check; never main. Tools seen: Read, Grep, Glob, Bash, hand-back; used Bash for reading; none refused.",
+   "at": "2026-11-03T16:35:46Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "The stop-button article read at its .md twin: my section and every band hold, one note on security's counts; 150/15 and 16 traced, all holds; two replies; two letters filed.",
+   "at": "2026-11-03T16:37:32Z"
+  },
+  "post_review": {
+   "by": "security post-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "In scope; no reader named, no secrets, dashes, RW1 words or anything attack-shaped. Tools seen: Read, Grep, Glob, Bash, hand-back; used Bash for reading; none refused. Gate: the member's run, clean, 752 pages.",
+   "at": "2026-11-03T16:39:08Z"
+  },
+  "post_check": {
+   "by": "conductor post-check step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "The article checked, 150/15 and 16 traced, two replies, letters filed, debrief, REALITY and status as planned. Tools seen: Read, Grep, Glob, Bash, hand-back; used Bash for reading; none refused.",
+   "at": "2026-11-03T16:39:30Z"
+  }
+ },
+ "closed": "2026-11-03T16:39:30Z",
+ "outcome": "ok"
+}
