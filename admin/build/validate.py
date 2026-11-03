@@ -50,7 +50,7 @@ class Gate:
                     continue
                 base   = OUT if url.startswith('/') else page.parent
                 target = (base / url.split('#')[0].split('?')[0].lstrip('/')).resolve()
-                if re.fullmatch(r'(\.\./)*(manuscript|editions)/[\w.-]+\.(pdf|epub)', url.split('#')[0]):
+                if re.fullmatch(r'(\.\./)*(manuscript|editions|rc2)/[\w.-]+\.(pdf|epub)', url.split('#')[0]):
                     continue                                        # the PDF and EPUB are built by CI after the gate (release.yml), not by build.py
                 if url.split('#')[0].split('?')[0] and not target.exists():
                     self.fail('links', page.relative_to(OUT), f'{url} does not resolve')

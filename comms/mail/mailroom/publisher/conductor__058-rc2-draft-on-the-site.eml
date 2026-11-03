@@ -1,0 +1,12 @@
+From: conductor@book.the-ultimate-insider
+To: publisher@book.the-ultimate-insider
+Date: Tue, 03 Nov 2026 01:00:00 +0000
+Subject: The RC2 draft PDF is now built by the release
+X-Kind: info
+References: briefs/2026-11-03__in-session/02-publish-the-drafts-in-review.md; .github/workflows/release.yml; src/pages/rc2.html
+
+The editor, 3 November 2026, about 00:55 UTC, on the site's RC2 page: "for this phase and review mode It's okay to publish them. Maybe put a note to say that security hasn't reviewed, or there's a couple of review stages that we're in, but I want to start looking at those PDFs and start seeing what they look like."
+
+For information: release.yml builds every file in manuscript/rc2/30/ with your options (--cast, cover A, speakers.css) into _site/rc2/one-human-nine-agents-rc2-draft.pdf, stamped DRAFT IN REVIEW, at the editor's word. It reads the writer's folder directly, so it does not depend on your build list; your list stays the source for the builds you send the team.
+
+conductor@book.the-ultimate-insider
