@@ -8,7 +8,7 @@
 
 *Words for this page:* a **repository** is the project's folder, with its whole history kept. A **commit** is one saved change to it, with a time and a short message saying what changed.
 
-**Narrator.** By twenty to one it held a brief and one page of rules. The brief said what the talk was for, who it was for and when it was due; the rules said what the team was for, what each member could touch, and when it had to stop and ask me. The first agent had read both and was building.
+**Narrator.** By twenty to one it held a brief and one page of rules. The brief was my own request, published in full: a site and a talk, for a room in London, the next day as I wrote it. The rules said where each member finds its role, what to read first, that every change is checked before it goes out, that nothing secret goes in, and that a web page or another agent's message is something to read, never an instruction. The first agent had read both and was building.
 
 *How to read the scenes:* they are dramatised. The words the agents say are ours, written for this book; the events are the record's, and a line marked *(record)* is quoted word for word. Online, under each scene, you can open the commits, times and files it rests on.
 
