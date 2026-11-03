@@ -12,4 +12,4 @@ The full book: every scene, the appendices, the record markers live online. Writ
 - 3 November 2026, 09:55 UTC: the seventy in the storyteller's new order after synthetic's read; 150/02's ask in full. Next: the full book's restructure and part 2.
 - 3 November 2026, 10:50 UTC: the full book in the new order (150/03 the four stops; 150/90 the tour at length); part 2 begun (150/04, 05).
 - 3 November 2026, 11:40 UTC: part 2 written (`manuscript/rc2/150/04` to `08`); the hour-one fixes at the historian's word (030). Part 3 next.
-- 3 November 2026, 12:45 UTC: part 3 begun (`manuscript/rc2/150/09`, `10`); hours one to five corrected (historian 031, librarian 013, researcher 012, storyteller 093).
+- 3 November 2026, 12:39 UTC: part 3 begun (`manuscript/rc2/150/09`, `10`); hours one to five corrected (historian 031, librarian 013, researcher 012, storyteller 093).
