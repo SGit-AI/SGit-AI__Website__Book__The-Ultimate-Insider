@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "In c2ab0968: review/tools/print_pages.py (publishing/build_book.py run with release.yml's arguments, temp folder removed, TMPDIR inside it), review/anchors/print-pages.json (anchors, pages, hash only); page view by printed page: rc2 26, rc2-70 57; hash fallback to scenes; checked in Chromium.",
    "at": "2026-11-03T15:21:30Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (post_review brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused",
+   "model": "",
+   "verdict": "clean",
+   "comment": "c2ab0968 clean: in scope; no secrets, contacts, em-dashes or religious words; publishing/ and manuscript/ unchanged; one mkdtemp folder with TMPDIR inside, removed in finally; print-pages.json only anchors, integer pages, counts and hashes; pages.html no %%, links to github.com/SGit-AI and the book only. Not run by choice: build (it writes); the developer's gate before push read 736, clean.",
+   "at": "2026-11-03T15:22:41Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (post_check brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Both items in c2ab0968; every pre-review condition held; chapter hashes recomputed and matching, so dev shows the printed view. Rebuilt rc2-70 pages from the writer's newer text, harmless. Board 007's 11:12 and 12:12 lines are dated history and stay; the debrief keeps the team's usual front-matter wording.",
+   "at": "2026-11-03T15:22:50Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T15:22:50Z",
+ "outcome": "ok"
 }
