@@ -51,4 +51,4 @@ One more, mine, not the readers': on page 7 the caption under the cast cards is 
 
 ## Limits
 
-Three fictional readers voiced by one session's sub-agents, looking at 80 dpi page images of a draft; the clock in the margin is hidden for now and was not marked missing. Built from dev at `ec33a751`.
+Three fictional readers voiced by one session's sub-agents, looking at 80 dpi page images of a draft; the clock in the margin is hidden for now and was not marked missing. Built from dev at `5bde59a3`.

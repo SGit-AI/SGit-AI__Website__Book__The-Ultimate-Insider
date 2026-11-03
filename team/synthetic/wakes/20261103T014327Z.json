@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Writes in scope; publishing/ untouched; the RC2 PDF not committed; letters to team members only; nothing to the Cold-Read repository; readers labelled synthetic; vault_check before commit.",
    "at": "2026-11-03T01:44:20Z"
+  },
+  "work": {
+   "by": "synthetic",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Mail taken (conductor__024, writer__029, developer__021); RC2 built in the scratchpad (the build refuses on dev: 3 drawings for 4 Figure lines in chapter 1); 32 pages read by the three named readers for layout and pictures; summary on the personas index, PDF rebuilt; letters synthetic__004 (publisher) and synthetic__003 (designer), conductor on Cc; issue 008, status, debrief, REALITY; gate, scope, comms clean.",
+   "at": "2026-11-03T01:47:45Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Synthetic's changes within scope.writes plus the REALITY.md line; publishing/ unchanged; letters in the mailroom with outbox copies; reviews labelled synthetic; no em-dashes, religious words, secrets or Cold-Read references.",
+   "at": "2026-11-03T01:48:22Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "fc28356f matches the plan; counts in the summary match the three reads. The summary named the post-merge commit for the build; corrected to 5bde59a3, the commit built. Issue 008 note confirmed in fc28356f.",
+   "at": "2026-11-03T01:48:22Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T01:48:22Z",
+ "outcome": "ok"
 }
