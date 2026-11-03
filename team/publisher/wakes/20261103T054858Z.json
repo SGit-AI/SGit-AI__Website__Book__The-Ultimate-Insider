@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake (05:47 slot)",
+ "started": "2026-11-03T05:48:58Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "ch3-map-of-the-day in 30/03 slot 5 (path checked; ch2-four-cards on rebuild); 70/13 to 70/16 into the seventy's list; chapter 16's task list printed with empty boxes, a style only if needed; rebuild both outside _site and look; page counts to the conductor, the release builds only rc2/30; letters; records; vault_check, gate, no em-dashes, RW1.",
+   "at": "2026-11-03T05:49:32Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Both SVGs plain drawings, text names, hours and claim ids; no private detail; in scope; no HOLD. Conditions: own writes only (no src/ or lab/ edits), vault_check, gate.",
+   "at": "2026-11-03T05:49:55Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Map of the day in 30/03 slot 5; the seventy's 13 to 16; thirty 29 pages fully drawn, seventy 50 pages; checklist prints with boxes, no style needed; every page looked at; letters 039, 021, 013; inbox, board 007, records; vault_check and gate clean.",
+   "at": "2026-11-03T05:51:39Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Gate clean; 0 outside scope; vault_check clean; all staged files in scope; no keys, contacts, em-dashes, religious words or attack shape.",
+   "at": "2026-11-03T05:52:26Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Map of the day, the seventy's 13 to 16, rebuilds and counts, letters, records; conditions kept; nothing unplanned.",
+   "at": "2026-11-03T05:52:26Z"
+  }
+ },
+ "closed": "2026-11-03T05:52:26Z",
+ "outcome": "ok"
+}
