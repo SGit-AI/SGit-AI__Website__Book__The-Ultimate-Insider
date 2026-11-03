@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, every hour at :09 London (ACC1)",
+ "started": "2026-11-03T23:10:27Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (the reviewer agent; tools seen: Bash, Read, Grep, Glob, hand-back)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Request first (writer 148); then the 150's new 94 and the changes since 866fbecf, checked in lane.",
+   "at": "2026-11-03T23:11:22Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (the reviewer agent; same tools)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; manuscript only read; talk only read; nothing to Cold-Read; no session, key or account in letters; vault_check and gate before push.",
+   "at": "2026-11-03T23:11:22Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Writer 148 taken, 019 and 020 in; the 150's 94 checked against this repository's history (34 commits, each at its time) and book.json; 23's new lines against the talk; nothing to send back; index/rc2 and index/chapters updated, readings ninety-four.",
+   "at": "2026-11-03T23:14:35Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (the reviewer agent; tools seen: Bash, Read, Grep, Glob, hand-back)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "All writes in scope; no secret, model name or id added; no time ahead of the clock; spot-checks hold.",
+   "at": "2026-11-03T23:14:35Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (the reviewer agent; same tools)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Every planned item present; no letter, as no fault was found.",
+   "at": "2026-11-03T23:14:35Z"
+  }
+ },
+ "closed": "2026-11-03T23:14:35Z",
+ "outcome": "ok"
+}
