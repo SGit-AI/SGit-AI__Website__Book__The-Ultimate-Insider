@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1. Four shots viewed and QR-checked: index and motion kinds added, team.jpg only cropped; three M01 frames extracted to the scratchpad and viewed: clear (security__031). 2. Look-backs into C2; the count corrected and TA1 to name tools, by letter (security__032). 3. The 150's part 1 searched only, full read next wake. Letters filed; boards; status; debrief.",
    "at": "2026-11-03T09:28:43Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (briefed: Read, Grep, Glob, Bash)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Build, gate, scope, vault_check clean; 21 files in scope; no key, fingerprint value, contact, image or QR payload, directing text, religious word, em-dash or attack-shaped text. No tool beyond the four.",
+   "at": "2026-11-03T09:29:50Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (briefed: Read, Grep, Glob, Bash)",
+   "model": "haiku",
+   "verdict": "as-planned",
+   "comment": "Plan met: shots and frames (031), look-backs and TA1 (032), boards, debrief; 150 part 1 searched only, as planned. Tools: the four, plus the hand-back delivery.",
+   "at": "2026-11-03T09:30:36Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T09:30:36Z",
+ "outcome": "ok"
 }
