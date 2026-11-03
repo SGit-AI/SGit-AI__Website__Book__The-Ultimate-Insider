@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-11-03T04:36Z",
+ "as_of": "2026-11-03T05:38Z",
  "round": 1,
- "state": "active, hourly: RC2 traces as the writer sends (the thirty done; the seventy parts 1 to 3 done); 009 blocked",
+ "state": "active, hourly: RC2 traces as the writer sends (the thirty done; the seventy parts 1 to 4 done); 009 blocked",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -262,6 +262,13 @@
    "when": "2026-11-03T04:36Z",
    "letters": [
     "writer/researcher__008"
+   ]
+  },
+  {
+   "what": "the seventy's part 4 traced, all holds",
+   "when": "2026-11-03T05:38Z",
+   "letters": [
+    "writer/researcher__009"
    ]
   }
  ],

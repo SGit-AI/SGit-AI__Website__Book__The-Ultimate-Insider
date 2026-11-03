@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T05:33:27Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Disclosed: read-only checks of 70/10 to 12 ran before this plan, nothing written. Plan: write the Part 4 results and 70/07's eighty minutes into rc2-70-trace.md; reply researcher__009; in scope.",
+   "at": "2026-11-03T05:34:20Z"
+  },
+  "pre_review": {
+   "by": "security pre-review sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "In scope; pre-plan reads disclosed; one letter; vault_check; dev and branch only.",
+   "at": "2026-11-03T05:35:00Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Part 4 and 70/07 traced into rc2-70-trace.md: all holds; reply to the writer; one letter filed; the early reading disclosed in the debrief.",
+   "at": "2026-11-03T05:35:00Z"
+  },
+  "post_review": {
+   "by": "security post-review sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "In scope; no secrets, dashes, RW1 words or anything attack-shaped; nothing toward the Cold-Read repository.",
+   "at": "2026-11-03T05:35:44Z"
+  },
+  "post_check": {
+   "by": "conductor post-check sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Part 4 and 70/07 traced, reply, filing, board, debrief, REALITY and status; the early reading stated honestly in the debrief.",
+   "at": "2026-11-03T05:35:44Z"
+  }
+ },
+ "closed": "2026-11-03T05:35:44Z",
+ "outcome": "ok"
+}

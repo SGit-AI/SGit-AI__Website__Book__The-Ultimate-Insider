@@ -24,3 +24,5 @@ RC2 is signed (RP1, CV2): the 30-page edition first, then the 70 and the 150, in
 3 November, 03:34: clock hours settled (C110); all 22 clock lines checked; C108 kept for the record (`researcher__007` to the writer).
 
 3 November, 04:36: the seventy's part 3 (06 to 09) traced, all holds (`claims/rc2-70-trace.md`, `researcher__008`).
+
+3 November, 05:38: the seventy's part 4 (10 to 12) traced, all holds (`researcher__009`).
