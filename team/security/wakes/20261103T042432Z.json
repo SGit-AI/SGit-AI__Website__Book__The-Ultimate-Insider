@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1. 70/06-09 and this hour's revisions read: clear; C081 caption in 70/01 holds; one inner-voice line in 09 to the storyteller. 2. Letter security__026 to writer (cc conductor, storyteller); conductor 006/007 and writer 047 filed in done. 3. Board 024, status, debrief.",
    "at": "2026-11-03T04:26:34Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Build and gate clean; 0 files outside scope; vault_check clean; 11 files, no key, token, contact, em-dash, religious word or attack-shaped text.",
+   "at": "2026-11-03T04:27:14Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "haiku",
+   "verdict": "as-planned",
+   "comment": "All three plan steps done: 70/06-09 read, letter 026 (storyteller added for the inner-voice line); 006, 007, 047 filed in done; board 024, status, debrief; 11 files in scope.",
+   "at": "2026-11-03T04:27:38Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T04:27:38Z",
+ "outcome": "ok"
 }
