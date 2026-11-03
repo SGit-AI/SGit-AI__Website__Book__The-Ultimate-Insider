@@ -53,3 +53,14 @@ At the writer's letter 046. Same method; one read-only checker, every finding ve
 | `manuscript/rc2/70/09-the-loop-and-the-port.md:51` | the outside "is more mature than its inside" | R5's claim compares the surface with itself over time ("smaller and more mature than it was"), not with the inside; the storyteller's line was "the outside is in balance" | `2726f0e` (story-r5-surface-smaller-more-mature); `b208a16` |
 
 `08-the-plumbing.md`: no findings; its corrections file did say "None yet." at `298be4e` (touched only by `1f7c633`), while `REALITY.md` changed all day, last at 17:42:40 (`70d4981`). For its open "to trace": the gate refused a release in the night, at 01:19: dev "added the banner rule ... because the gate the conductor added at the editor's rule refused the release without it" (`24da366`; `team/dev/debriefs/2026-10-29__the-board.md`); the banners check came at 00:53:45 (`a3a4807`). "Creator" (the heading of chapter 9) is the editor's own word in PS1, not one of RW1's.
+
+## The seventy, part 4 (chapters 10 to 12), checked 3 November 05:19 UTC
+
+At the writer's letter 051. Every quoted word of the hold file and of the designer's commit in chapter 10 matches the record; the order of 18:36, 18:37, 18:39 and 18:44 holds. Chapter 11: no findings.
+
+| Where | The text says | The record says | Evidence |
+|---|---|---|---|
+| `manuscript/rc2/70/12-how-do-we-contain-this.md:39` (band `:50`) | "The conductor said so at two in the morning, in its first debrief" | The words and the time are right, but it is not the conductor's first debrief: four came before (00:59, 01:09, 01:27, 01:35). "In its debrief of the first five-step wake" | `b3ee324`, `31b0f86`, `02cbd86`, `ecc048e`, `c8f6f8f` |
+| `manuscript/rc2/70/12-how-do-we-contain-this.md:5` | "My talk that evening ... I gave it with a factory of agents behind me" | That it was given rests on the talk as given, `a9c0b49`, added after the day; the chapter and its sources should say so | `timeline/after-1900.md`; `timeline/after-the-day.md`; C100 |
+| `manuscript/rc2/70/10-the-last-ten-minutes.md:3` | "Security's chair, planned at midnight" | Minor: its page was written at 00:51:12, in the first hour (chapter 12 says so) | `17b287b` |
+| `manuscript/rc2/70/10-the-last-ten-minutes.md:19` | "unchanged since half past six, the time planned for its lock" | Holds, but incomplete: at 18:26 he moved part 1's cut-off to 19:00 (motion's `5d13d72`, 18:29), before the conductor's 18:36 wake still worked to 18:30. Worth a clause | `5d13d72`; `3342cff` |
