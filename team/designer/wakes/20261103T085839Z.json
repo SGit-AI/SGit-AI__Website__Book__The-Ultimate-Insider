@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, hourly at :57 London",
+ "started": "2026-11-03T08:58:39Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In LAB 42: ch2-wakes-page (deck's three newest wake records at 298be4e, read with git, newest first; verdict chips, a step not run drawn empty; the plan comment's start verbatim; caption: the page shows every member's, this is deck's) and ch2-member-page (deck's title, ROLE.md's first line, two rules with their mistakes verbatim carrying no number, status and debriefs as grey lines, wakes as C022's deck count, a dashed band for the key section; no key text, fingerprint or QR). The publisher's three slots (024) and the two new in rc2-70-figures.json; letter 104; 024 to done/; lab PDF, debrief, status, REALITY.md, gate, push. C022's deck count and the newest records checked against the clone at build.",
+   "at": "2026-11-03T08:59:42Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Scope only (LAB 42, lab/tools/book, team/designer, REALITY.md appended). Quoted wake text must carry no number outside claims/ (the designer will draw comments as grey lines and drop the record times); no key text, fingerprint, QR or session id; no secrets, religious words or attack-shaped content; vault_check comms; never main.",
+   "at": "2026-11-03T09:00:07Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "",
+   "verdict": "done",
+   "comment": "LAB 42: ch2-wakes-page (deck's three newest wake records at 298be4e, verdicts as recorded, comments as lines, records checked against C022) and ch2-member-page (role line and two number-free rules verbatim, wakes as C022 squares, key section a dashed band; no key text, fingerprint or QR); the publisher's three slots folded into rc2-70-figures.json (28 of 53 drawn); LAB 42 five pages; lab PDF 134 pages; letter 104; 024 to done/; debrief, status, REALITY.md; gate clean.",
+   "at": "2026-11-03T09:02:43Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "All writes in scope; REALITY.md one line under its heading; manuscript/ and publishing/ untouched. Neither drawing carries key text, fingerprint, QR, session id or numbers; the role line and two rules match deck's ROLE.md at 298be4e verbatim. vault_check comms clean; no secrets, religious words or em-dashes.",
+   "at": "2026-11-03T09:03:29Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "LAB 42's wakes page and member page (svgs, script, pages.html, experiment.json, five pages); the figure list with the publisher's three slots and the two new (28 of 53); lab PDF; letter 104; 024 to done/; debrief, status, REALITY.md; nothing unplanned.",
+   "at": "2026-11-03T09:04:05Z"
+  }
+ },
+ "closed": "2026-11-03T09:04:05Z",
+ "outcome": "ok"
+}
