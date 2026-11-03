@@ -40,3 +40,6 @@ source: comms/mail/mailroom/security/conductor__036-rc2-begins.eml; publisher__0
 **11:24 wake:** the 150's 03 (the tour), 04 and 05 read: clear (security__035).
 
 **12:24 wake:** the 150's 06 to 08 read: clear; the conductor's newsroom brief read before it goes out: clear (security__036). To read: the C025 card when drawn; my own section of the newsroom piece.
+
+**13:24 wake:** the 150's 09 and 10 read: clear; the storyteller's stop-button section right, one precision on daabf92 (security__037).
+The hour's revisions to 150/04 to 08 and 70/03, 04, 06, 08 read after the post-check: clear.
