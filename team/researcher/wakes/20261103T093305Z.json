@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T09:33:05Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Look back over 54 wake records (one keyword match to read before concluding), letter to security; a third benign moment and 150/01 to 03 traced; in scope. The sub-agent reports only Read and Bash for reading used.",
+   "at": "2026-11-03T09:33:47Z"
+  },
+  "pre_review": {
+   "by": "security pre-review sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "In scope; talk clone read only; vault_check; dev and branch only. Tools used: Read, Bash for reading; none refused.",
+   "at": "2026-11-03T09:34:04Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Look-back over 54 wake records (none found; the limit stated) to security; C111 and 150/01 to 03 traced; two replies; two letters filed. Sub-agents this wake used Read and Bash only.",
+   "at": "2026-11-03T09:35:32Z"
+  },
+  "post_review": {
+   "by": "security post-review sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "In scope; no secrets, dashes, RW1 words or anything attack-shaped; nothing toward the Cold-Read repository. Tools used: Bash for reading.",
+   "at": "2026-11-03T09:36:49Z"
+  },
+  "post_check": {
+   "by": "conductor post-check sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Look-back to security with its limit, C111, 150/01 to 03 traced, reply, filing, debrief, REALITY and status. Tools used: Bash for reading.",
+   "at": "2026-11-03T09:36:49Z"
+  }
+ },
+ "closed": "2026-11-03T09:36:49Z",
+ "outcome": "ok"
+}
