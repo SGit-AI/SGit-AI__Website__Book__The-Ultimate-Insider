@@ -1,5 +1,5 @@
 {
- "about": "The drawings for RC2's Figure lines, by chapter (path from manuscript/), in the order of the chapter's Figure lines; null where none is drawn yet, or where the Figure line names its own lab/ drawing. Read by build_book.py --cast --figures. From the designer's 088, 089, 091, 095, 096, 098, 099 and 100, and ruv-sgit's 044 and 045 (2 November 2026).",
+ "about": "The drawings for RC2's Figure lines, by chapter (path from manuscript/), in the order of the chapter's Figure lines; null where none is drawn yet, or where the Figure line names its own lab/ drawing. Read by build_book.py --cast --figures. From the designer's 088, 089, 091, 095, 096, 098, 099 and 100, and ruv-sgit's 044 and 045 (2 November 2026). The seventy's slots (rc2/70/...) copied from the designer's proposal lab/tools/book/rc2-70-figures.json (its 101), checked against the chapters and the lab/ rules.",
  "rc2/30/01-the-creators-problem.md": [
   "lab/experiments/37-designer-rc2-chapters-1-2/ch1-slide.svg",
   null,
@@ -36,5 +36,90 @@
   "lab/experiments/40-designer-rc2-chapter-5/ch5-three-factories.svg",
   "lab/experiments/62-ruv-your-factory/map.svg",
   "lab/experiments/40-designer-rc2-chapter-5/ch5-five-steps.svg"
+ ],
+ "rc2/70/01-slides-as-a-compromise.md": [
+  "lab/experiments/37-designer-rc2-chapters-1-2/ch1-slide.svg",
+  null,
+  null,
+  "lab/experiments/37-designer-rc2-chapters-1-2/ch1-loop.svg",
+  null
+ ],
+ "rc2/70/02-the-tour.md": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null
+ ],
+ "rc2/70/03-one-account-one-project-one-conductor.md": [
+  null,
+  null
+ ],
+ "rc2/70/04-roles-as-a-cast-you-can-read.md": [
+  null,
+  null,
+  "lab/experiments/27-designer-the-cast/cast-row-personas.svg"
+ ],
+ "rc2/70/05-the-clock-and-one-wake.md": [
+  "lab/experiments/36-designer-rc2-pictures-2-3/chapter2-wake-clock.svg",
+  null,
+  "lab/experiments/61-ruv-the-factory-as-a-chain/map.svg"
+ ],
+ "rc2/70/06-talking-through-git.md": [
+  null,
+  null,
+  null
+ ],
+ "rc2/70/07-the-rhythm.md": [
+  "lab/experiments/38-designer-rc2-chapters-2-3/ch3-day-by-trigger.svg",
+  null
+ ],
+ "rc2/70/08-the-plumbing.md": [
+  null,
+  null,
+  null
+ ],
+ "rc2/70/09-the-loop-and-the-port.md": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  "lab/experiments/38-designer-rc2-chapters-2-3/ch3-relayed-word.svg"
+ ],
+ "rc2/70/10-the-last-ten-minutes.md": [
+  "lab/experiments/39-designer-rc2-chapter-4/ch4-last-ten-minutes.svg",
+  "lab/experiments/42-designer-rc2-seventy/ch10-hold-file.svg",
+  "lab/experiments/39-designer-rc2-chapter-4/ch4-clock-stopped.svg"
+ ],
+ "rc2/70/11-what-did-not-work.md": [
+  "lab/experiments/39-designer-rc2-chapter-4/ch4-speech-cards.svg",
+  null,
+  "lab/experiments/39-designer-rc2-chapter-4/ch4-did-not-work.svg"
+ ],
+ "rc2/70/12-how-do-we-contain-this.md": [
+  "lab/experiments/42-designer-rc2-seventy/ch12-state-machine.svg",
+  null,
+  null
+ ],
+ "rc2/70/13-sessions-end.md": [
+  "lab/experiments/40-designer-rc2-chapter-5/ch5-cards-into-files.svg",
+  null
+ ],
+ "rc2/70/14-the-second-factory-and-the-third.md": [
+  "lab/experiments/40-designer-rc2-chapter-5/ch5-team-cards.svg",
+  "lab/experiments/40-designer-rc2-chapter-5/ch5-two-cards.svg",
+  "lab/experiments/40-designer-rc2-chapter-5/ch5-three-factories.svg"
+ ],
+ "rc2/70/15-principles.md": [
+  null
+ ],
+ "rc2/70/16-build-your-own.md": [
+  "lab/experiments/62-ruv-your-factory/map.svg",
+  "lab/experiments/40-designer-rc2-chapter-5/ch5-five-steps.svg",
+  null
  ]
 }

@@ -31,3 +31,5 @@ source: comms/mail/mailroom/publisher/conductor__026-check-taken.eml; publishing
 3 November about 05:10 UTC: the thirty's chapter 5 complete (29 pages); spans stay margin notes (designer, writer); the seventy to chapter 12 (39 pages). Storyteller's 081 noted for the editions (the release rebuilds them from the scripts).
 
 3 November about 06:10 UTC: the thirty fully drawn (29 pages); the seventy whole in chapters (16, 50 pages), many figures still boxes, its back matter next. Asked the conductor whether the release should build the seventy too.
+
+3 November about 07:10 UTC: the seventy complete (17 files, 55 pages) with the designer's figure map; the release builds it too. ruv-sgit's three rounds held on security's answer about embedded stills.
