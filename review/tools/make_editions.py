@@ -106,19 +106,18 @@ def qr(slug, f, rid, words):
     return {'id': f'{slug}/{f.stem}#{rid}', 'edition': slug, 'chapter': f.name, 'url': f'{SITE}/review/{slug}/{f.stem}.html#{rid}', 'starts': words}
 
 
-def printed_view(ed, name, pp):
+def printed_view(ed, name, pp):  # run print_pages.py after make_editions.py has written editions.json, then this again
     """The long editions by printed page (print_pages.py): each page its paragraphs, and the record of each scene ending on it."""
-    pages = {}
+    pages, last = {}, 1                                              # a paragraph the map does not know takes the page before, across scenes
     for c in ed['chapters']:
         for sc in c['scenes']:
-            last = None
             for p in sc['paragraphs']:
-                last = pp['pages'].get(p['id'], last or 1)
+                last = pp['pages'].get(p['id'], last)
                 pages.setdefault(last, {'chapters': [], 'paras': [], 'recs': []})
                 if c['title'] not in pages[last]['chapters']:
                     pages[last]['chapters'].append(c['title'])
                 pages[last]['paras'].append(p['text'])
-            if sc['record'] and last:
+            if sc['record'] and sc['paragraphs']:
                 pages[last]['recs'].append(sc)
     secs = []
     for n in sorted(pages):
@@ -158,6 +157,9 @@ def pages_view(ed):
     pp = (json.loads(PRINT.read_text())['editions'].get(ed['edition']) if PRINT.exists() else None) if not printed else None
     if pp and pp['chapters_hash'] != chapters_hash(book_files(ed['edition'])):
         pp = None                                                    # the chapters changed since the PDF was read: scenes, until print_pages.py runs again
+    if pp and any(p['id'] not in pp['pages'] for c in ed['chapters'] for sc in c['scenes'] for p in sc['paragraphs']):
+        print(f'{ed["edition"]}: the page map lacks some of today\'s paragraphs (print_pages.py ran before editions.json was rebuilt); by scene until it is rerun', file=sys.stderr)
+        pp = None
     if pp:
         return printed_view(ed, name, pp)
     secs, n = [], 0
@@ -354,6 +356,11 @@ def main(talk_path):
     for d in DATA:
         d.write_text(blob)
     print(f'editions.json: {len(editions)} editions, {sum(len(e["chapters"]) for e in editions)} chapters, {len(blob) // 1024} KB')
+    built = {Path(b).parent.name for _, _, b in EDITIONS} | {Path(b).parent.name for _, _, b, _ in SHORT}
+    unbuilt = sorted(d.name for d in (ROOT / 'manuscript' / 'editions').iterdir() if d.is_dir() and (d / 'Book.txt').exists() and d.name not in built)
+    for u in unbuilt:                                                # a new edition is seen at the next run, not when someone happens to notice
+        print(f'warning: manuscript/editions/{u}/ is an edition this tool does not build', file=sys.stderr)
+    unbuilt_note = (f' Not yet online: {", ".join(f"<code>manuscript/editions/{html.escape(u)}/</code>" for u in unbuilt)}, a newer edition this page does not build yet.' if unbuilt else '')
     zmeta = {'title': 'The zoom: the book at every length', 'description': 'One Human, Nine Agents, Nineteen Hours from 3 pages to the full first version: start small, zoom in.'}
     (OUT.parent / 'zoom.html').write_text(
         f'<!--meta {json.dumps(zmeta)} -->\n<section class="wrap narrow" data-no-third-party>\n<p class="kicker">The book · ZM1</p>\n<h1>The zoom: the same story at every length</h1>\n'
@@ -364,7 +371,7 @@ def main(talk_path):
         f'<li><b>70 pages, being written</b>: <a href="rc2-70/index.html">the chapters drafted so far, online, with their record</a> · <a href="rc2-70/pages.html">page by page</a></li>\n'
         f'<li><b>The full book, being written</b>: <a href="rc2-150/index.html">online, with the record under each scene</a> · <a href="rc2-150/pages.html">page by page</a></li>\n'
         f'<li><b>The full first version, RC1</b>: <a href="read/index.html">online, with every source linked</a> · <a href="{{{{root}}}}review/rc1-book.json">as data</a></li>\n</ol>\n'
-        f'<p class="note">The 70-page edition grows as the writer drafts it. Made by <code>review/tools/make_editions.py</code>.</p>\n</section>\n')
+        f'<p class="note">The 70-page edition and the full book grow as the writer drafts them.{unbuilt_note} Made by <code>review/tools/make_editions.py</code>.</p>\n</section>\n')
 
 
 if __name__ == '__main__':
