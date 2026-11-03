@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, every hour at :09 London (ACC1)",
+ "started": "2026-11-03T11:10:59Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (the reviewer agent, TA1: first wake it loads in this session; tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Requests first (022, security 002, writer 083); tell security the type now loads; then the 150's new 03 to 05 and the moves since 71d0363a, checked in lane.",
+   "at": "2026-11-03T11:11:55Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (the reviewer agent; tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Every write in scope; talk repo only read; nothing to Cold-Read; vault_check before commit, gate before push, dev only.",
+   "at": "2026-11-03T11:11:55Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Requests 022, security 002, writer 083 taken; the reviewer type loads here, told security (003, copy 028); the 150's 01, 03, 04, 05 and 90 checked, every quote and time holds; index/rc2 renumbered and extended, readings forty; after the post-check, letter 012 to the writer on 70/16's stale range (copy 029).",
+   "at": "2026-11-03T11:16:48Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (the reviewer agent; tools seen: Read, Grep, Glob, Bash, hand-back; none beyond reading used)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "All writes in scope; no secret or private detail; nothing attack-shaped; no em-dash or religious word; spot-checks hold.",
+   "at": "2026-11-03T11:16:48Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (the reviewer agent; same tools)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Went to plan; one point found: 70/16:83's record note ends at the removed chapter 15, not caught by the check; the librarian then wrote letter 012 to the writer before the commit.",
+   "at": "2026-11-03T11:16:48Z"
+  }
+ },
+ "closed": "2026-11-03T11:16:48Z",
+ "outcome": "ok"
+}
