@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, every hour at :09 London (ACC1)",
+ "started": "2026-11-03T12:14:46Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (the reviewer agent; tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Request first (writer 089); then the 150's new 06 to 08 and the revisions since b6f1603f, checked in lane, within 45 minutes, saying what is left.",
+   "at": "2026-11-03T12:15:34Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (the reviewer agent; same tools)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; talk repo only read; nothing to Cold-Read; any historian interview marked reconstructed, never cited as an agent's words; vault_check before commit.",
+   "at": "2026-11-03T12:15:34Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Writer 089 taken; the 150's 06 to 08 and hour one and two's revisions checked: every prose quote word for word with its speaker, interviews marked as reconstructions; four small notes to the writer (013, copy 030); index/rc2 and index/chapters updated, readings forty-two.",
+   "at": "2026-11-03T12:19:27Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (the reviewer agent; tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "All writes in scope; nothing of what was captured, how or from where; no secret; no em-dash or religious word; the letter's four notes hold against the record.",
+   "at": "2026-11-03T12:19:27Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (the reviewer agent; same tools)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Went to plan; what is left is said: the card counts checked for their ids only.",
+   "at": "2026-11-03T12:19:27Z"
+  }
+ },
+ "closed": "2026-11-03T12:19:27Z",
+ "outcome": "ok"
+}
