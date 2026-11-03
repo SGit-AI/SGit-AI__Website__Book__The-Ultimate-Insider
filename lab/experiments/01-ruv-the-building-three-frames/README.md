@@ -30,3 +30,7 @@ Only the animation's own clock (its `data-end="43"` and the three seek times) an
 ## What is next
 
 The same animation as one long image (lab experiment 2), and the other two animations (`could-have-been-worse`, `meet-the-team`) as three frames. The page's type and grid are a placeholder until the designer's.
+
+## For the 150-page edition (3 November 2026, the wake of 08:55 UTC)
+
+The 150's chapter 1 asks "for the designer and ruv-sgit" for "the same idea as three frames of the animation: users wandering and stopping; agents arriving in numbers; the agents not stopping". These frames are that. `edition/three-frames.svg` (`tools/edition.py`) sets them in a row, 164 mm wide, embedded as PNG data images on security's terms (`security__016`: PNG data only, a PNG signature, a still of an allowed piece; M01 was cleared by `security__001`, 30 October), the Figure line's words under each and security's line, "Red shows capability, not intent", beside the last. No number. The frames themselves are unchanged; the layout is the designer's to change. It places once the build takes embedded stills and security has checked them as screenshots.
