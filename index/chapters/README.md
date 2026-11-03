@@ -42,6 +42,7 @@ One file per chapter of the manuscript, built by `index/tools/chapter_entries.py
 | [`150__18-how-do-we-contain-this.md`](150__18-how-do-we-contain-this.md) | 7 | 0 | 8 | 0 | 6 | 1 |
 | [`150__19-a-second-team-reading-cold.md`](150__19-a-second-team-reading-cold.md) | 3 | 0 | 11 | 0 | 14 | 0 |
 | [`150__20-sessions-end.md`](150__20-sessions-end.md) | 2 | 0 | 7 | 0 | 1 | 0 |
+| [`150__21-the-second-factory.md`](150__21-the-second-factory.md) | 1 | 0 | 6 | 0 | 2 | 0 |
 | [`150__90-the-tour-at-length.md`](150__90-the-tour-at-length.md) | 0 | 0 | 9 | 0 | 1 | 0 |
 | [`01-the-creators-problem.md`](01-the-creators-problem.md) | 0 | 0 | 7 | 1 | 2 | 0 |
 | [`02-the-factory-is-assembled.md`](02-the-factory-is-assembled.md) | 2 | 0 | 7 | 0 | 12 | 0 |
