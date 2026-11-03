@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "In 34646237: maps refreshed (rc2-70 60/58, rc2-150 98/94, 318 QR targets); the unbuilt-edition warning (none today, tested on a fake folder); a bug the refresh showed, fixed before push: print_pages read a stale editions.json and unmapped paragraphs fell onto page 1 (78 of 98 shown); now the last page carries across scenes, a map lacking today's paragraphs falls back to scenes, and the run order is written in both tools; every anchor mapped.",
    "at": "2026-11-03T20:23:13Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (post_review brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused",
+   "model": "",
+   "verdict": "clean",
+   "comment": "34646237 clean: in scope; manuscript/ and publishing/ untouched; no keys, contacts, em-dashes or religious words; the warning prints only folder names, escaped; guards unchanged, 318 QR targets on the book's domain. Not rerun at the developer's word: validate and agents check (pre-push gate covers it). For the TA1 register: it wrote a list of added lines to the scratchpad with Bash (a) to search them, b) not needed, c) none; nothing in the repository written).",
+   "at": "2026-11-03T20:25:02Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (post_check brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "All three items in 34646237; the unplanned fix was needed (rc2-150 paragraphs stacked on page 1) and disclosed everywhere; gate clean (811), 0 outside scope. Stale REALITY counts it named corrected before close: now dated 20:21 UTC, with the note that live counts are on the pages.",
+   "at": "2026-11-03T20:25:24Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T20:25:24Z",
+ "outcome": "ok"
 }
