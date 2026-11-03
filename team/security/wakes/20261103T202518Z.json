@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T20:25:18Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, as the reviewer agent (tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "haiku",
+   "verdict": "go",
+   "comment": "Read only: 1. 150/21 on the rails. 2. ch12-book-table.svg and ch12-empty-chair.svg (no href, script or image found). 3. Board; status; debrief; letter only if needed.",
+   "at": "2026-11-03T20:25:40Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent, as the reviewer agent (tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "haiku",
+   "verdict": "go",
+   "comment": "In scope. 'On the rails' means: nothing private or attack-shaped, Dramatised bands, a character line only what the record supports, numbers traced, no religious word or em-dash. Letters only to mailroom security__*.",
+   "at": "2026-11-03T20:25:56Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. 150/21 read: clear. 2. The two chapter 12 SVGs: clear. 3. A candidate third failure offered to the historian (security__043); board; status; debrief.",
+   "at": "2026-11-03T20:27:08Z"
+  },
+  "post_review": {
+   "by": "security sub-agent, as the reviewer agent (tools seen: Read, Grep, Glob, Bash, hand-back); validate only",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Read every added line: nothing private or attack-shaped; the letter offers, does not direct; validate, scope, vault_check clean.",
+   "at": "2026-11-03T20:27:55Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent, as the reviewer agent (tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "haiku",
+   "verdict": "as-planned",
+   "comment": "Items 1 to 3 match the diff; letter 043 sent as the answer to the chapter's open third failure, reasoned in the debrief.",
+   "at": "2026-11-03T20:28:16Z"
+  }
+ },
+ "closed": "2026-11-03T20:28:16Z",
+ "outcome": "ok"
+}
