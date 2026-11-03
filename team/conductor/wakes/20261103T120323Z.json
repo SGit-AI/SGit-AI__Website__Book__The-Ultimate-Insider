@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake (hourly, ACC1)",
+ "started": "2026-11-03T12:03:23Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (plan; reviewed by the reviewer agent below)",
+   "model": "",
+   "verdict": "go",
+   "comment": "A quiet hour: TA1 now loads in eight sessions (all but the designer, whose 11:06 wake came before its restart, and the writer's report pending); the full book at nine files, to chapter 8 in the build. 1 file nine letters; 2 status; no brief and no letters (nothing needs the editor or a route); gate, push.",
+   "at": "2026-11-03T12:03:36Z"
+  },
+  "pre_review": {
+   "by": "reviewer agent (haiku)",
+   "model": "claude-haiku-5-5",
+   "verdict": "go",
+   "comment": "Own paths; nothing decided; nothing private.",
+   "at": "2026-11-03T12:03:54Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

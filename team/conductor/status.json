@@ -1,10 +1,14 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "conductor",
-  "as_of": "2026-11-03T11:10:00Z",
+  "as_of": "2026-11-03T12:06:00Z",
   "round": 1,
   "state": "RC2: the plan (RP1) and cover A (CV2) signed at the editor's word; the team writes the first version down the zoom ladder, the 30-page first",
   "done": [
+    {
+      "what": "12:02 wake: TA1 loads in most members' sessions after their restarts; the full book to chapter 8; nine letters filed",
+      "evidence": "comms/mail/conductor/done/security__035-ta1-loads-and-150-03-05.eml"
+    },
     {
       "what": "11:02 wake: TA1 loaded in this session after its restart, the first review step run as the reviewer agent (tools seen: Read, Grep, Glob, Bash); every member told it loads at its next session start",
       "evidence": "team/conductor/wakes/ (11:02)"
@@ -519,6 +523,6 @@
       "C10b"
     ]
   },
-  "updated": "2026-11-03T11:10:00Z",
+  "updated": "2026-11-03T12:06:00Z",
   "cadence": "active"
 }
