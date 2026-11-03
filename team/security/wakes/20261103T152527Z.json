@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T15:25:27Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, as the reviewer agent (tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "haiku",
+   "verdict": "go",
+   "comment": "1. The 150's 13 and 14 and revisions on the rails. 2. Lab 60 strips and strip.py: no href, script, handler or network call; hashes match. 3. ruv-sgit's b0ae3845 as C2 process evidence. Board; status; debrief.",
+   "at": "2026-11-03T15:26:06Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent, as the reviewer agent (tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "haiku",
+   "verdict": "go",
+   "comment": "In scope. Condition met: the 150 paths (manuscript/rc2/150/13-the-story-before-the-slides.md, 14-port-not-rebuild.md) are read only, never written; security writes only its own paths.",
+   "at": "2026-11-03T15:26:25Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. The 150's 13 and 14 read (not edited): clear; scope quote holds. 2. Lab 60 strips clear (plan step's check, confirmed by hash). 3. b0ae3845 as C2 evidence. Letter security__039; board; status; debrief.",
+   "at": "2026-11-03T15:28:03Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
