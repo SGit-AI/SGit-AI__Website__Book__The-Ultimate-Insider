@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T17:24:54Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, as the reviewer agent (tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "haiku",
+   "verdict": "go",
+   "comment": "1. The 150's 18 in full first, then 17, on the rails. 2. Verify the conductor's newsroom corrections carry security's two points and the name question. 3. File synthetic 004. Letters; boards; status; debrief.",
+   "at": "2026-11-03T17:25:15Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent, as the reviewer agent (tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "haiku",
+   "verdict": "go",
+   "comment": "In scope. Paths: manuscript/rc2/150/17-what-did-not-work.md and 18-how-do-we-contain-this.md, read only; vault_check before commit; policy 'proposed' is with the editor.",
+   "at": "2026-11-03T17:25:39Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. 150/18 read in full: holds; two counts sent back; 150/17 clear (security__041). 2. The conductor's newsroom corrections sent (its status; the name question put to the editor). 3. Synthetic 004 filed; the post-review brief's change recorded under C2. Board; status; debrief.",
+   "at": "2026-11-03T17:27:13Z"
+  },
+  "post_review": {
+   "by": "security sub-agent, as the reviewer agent (tools seen: Read, Grep, Glob, Bash, hand-back); validate only, no build",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Read every added line: nothing private, directing, religious, em-dashed or attack-shaped; validate, scope, vault_check clean; only 621e5de2 ever added a HOLD.md.",
+   "at": "2026-11-03T17:28:04Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent, as the reviewer agent (tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "haiku",
+   "verdict": "as-planned",
+   "comment": "All three items done; the conductor's routing to the newsroom is in its record only (the message itself is not in this repository).",
+   "at": "2026-11-03T17:28:37Z"
+  }
+ },
+ "closed": "2026-11-03T17:28:37Z",
+ "outcome": "ok"
+}
