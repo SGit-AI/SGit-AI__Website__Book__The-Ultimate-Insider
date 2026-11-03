@@ -191,7 +191,7 @@ def main(talk_path):
 <p class="lead">In print, a commit hash or a file path is dead text. Here each one is a link to the record, each number links to the register entry that checks it, and every paragraph keeps the same anchor as on the review pages.</p>
 <p class="note">{total} sources linked across {len(files)} chapters. Only what was found is linked: a hash or path looked up in this repository and in the talk's at <code>{TALK_AT}</code>; anything found in neither stays plain text. Nothing loads from GitHub until you click.</p>
 <ol>{"".join(toc)}</ol>
-<p><a href="sources.html">What rests on what</a>: every number and commit, with the paragraphs that rest on it.</p>\n<p><a href="graph.html">Whose work each chapter rests on</a>: the commits each chapter cites, by the member who made them.</p>
+<p><a href="sources.html">What rests on what</a>: every number and commit, with the paragraphs that rest on it.</p>\n<p><a href="graph.html">Whose work each chapter rests on</a>: the commits each chapter cites, by the member who made them.</p>\n<p><a href="wakes.html">The wakes behind each chapter</a>: the hourly wakes that made the commits each chapter cites, with their five verdicts.</p>
 <p class="note">Made by <code>review/tools/make_reader.py</code> from <code>team/conductor/rc1/</code> and <code>claims/register.json</code>. Not yet: the graph drawn, QR targets, and a page-by-page view like the PDF.</p>
 </section>
 '''
@@ -260,6 +260,7 @@ def graph_page(provenance, files, talk):                            # the graph 
 <tbody>{"".join(rows)}</tbody>
 <tfoot><tr><th scope="row">All chapters</th>{foot}</tr></tfoot>
 </table></div>
+<p><a href="wakes.html">The wakes behind each chapter</a>: the hourly wakes that made these commits, with their five verdicts.</p>
 <p class="note">Who made a commit is read from the talk's own record at <code>{TALK_AT}</code>: the <code>@member:</code> at the start of its subject, or its <code>Agent:</code> trailer. The first commit is the editor's (register C001); "other" is release merges and commits that name no member. Commits from this book's own repository are not counted here. Made by <code>review/tools/make_reader.py</code> from <code>review/anchors/rc1-provenance.json</code>.</p>
 </section>
 '''
