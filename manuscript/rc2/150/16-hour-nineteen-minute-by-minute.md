@@ -79,7 +79,7 @@ Band: *Dramatised. Rests on the hold at 18:44:13, in my own words through the co
 
 **Narrator.** The hold did exactly what it was built to do. It was also not instant, and the record shows how.
 
-**Narrator.** Three wakes were open when the hold went in. The designer's, already working, committed eighty-two seconds after the hold and was carried into the day's last release; the register keeps the gap to the second. Dev's wake of 17:47 closed four minutes after the hold, on dev's own branch, and that branch never reached the team's. Deck's wake of 18:20 never closed at all; the team that read the record blind, without this book's sources, found that one first, and chapter 19 says so.
+**Narrator.** Three wakes were open when the hold went in. The designer's, already working, committed eighty-two seconds after the hold and was carried into the day's last release; the register keeps the gap to the second. Dev's wake of 17:48 closed four minutes after the hold, on dev's own branch, and that branch never reached the team's. Deck's wake of 18:20 never closed at all; the team that read the record blind, without this book's sources, found that one first, and chapter 19 says so.
 
 **Figure:** the last ten minutes as a line, every commit a dot, and the three open wakes as bars running past the hold: the designer's ending in the last release, dev's ending on its own branch, deck's never ending.
 

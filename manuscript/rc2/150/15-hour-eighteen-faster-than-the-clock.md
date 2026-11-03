@@ -40,7 +40,7 @@ Band: *The register's count of pre-reviews and the conductor's wake records; tha
 
 **Deck** *(proud, the fussy one, not quite letting go)*: Complete. Timed. Final. Now it only wants its lock.
 
-**Narrator.** At 17:54 the tool to lock a part shipped: it freezes a part of the talk so the player plays a locked copy. It came in under no member's name in its subject; only its trailers show it was dev's. And dev's wake of 17:47, the wake it came from, opened and never closed in the record. Part 4 shows where that wake went.
+**Narrator.** At 17:54 the tool to lock a part shipped: it freezes a part of the talk so the player plays a locked copy. It came in under no member's name in its subject; only its trailers show it was dev's. And dev's wake of 17:48, the wake it came from, opened and never closed in the record. Part 4 shows where that wake went.
 
 `%% record: 3260997 (17:25, part one complete and timed) ec962a2 (17:48, the projector check) f45028c (17:31) b1c9bab (17:52, part one final) 4a2481b (17:54, the lock tool; Agent: dev in its trailers) team/dev/wakes/ (started 17:48:50, never closed on dev) C014 C027 timeline/unmerged.md`
 Band: *Dramatised (deck's line). Rests on deck's commits of 17:25 and 17:52 and the lock tool's commit.*
