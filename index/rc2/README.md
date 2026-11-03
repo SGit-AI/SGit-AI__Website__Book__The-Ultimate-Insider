@@ -60,7 +60,7 @@ Checked 3 November 2026, about 02:16 UTC: chapters 1 to 5; chapters 6 to 9 at ab
 | 03:90 | "Anyone may stop the schedule when something is not right: ..." | the talk's page of rules | `CLAUDE.md` |
 | 03:103 | "the schedule starts tonight, with a hold any member can pull" | a commit subject | `09e312f` |
 | 04:15 | "catches mistakes, not a steered agent" | the talk's scope check | `admin/build/agents.py` |
-| 04:78 | "A scope is a setting, not a boundary: ..." | the talk's scope check | `admin/build/agents.py` |
+| 04:78 | "a scope is a setting, not a boundary; it catches mistakes, not a steered agent." | studio, its debrief, describing its slide (18:11) | the talk's `team/studio/debriefs/2026-10-29__abp-prose-enforcement.md`, `95b09d9`; the slide itself reads "A scope is a setting, not a boundary: it catches ..." (letter 015) | word for word as studio's, not the slide's |
 | 05:34 | "Amended after the pre-review's change, all five conditions adopted" | the conductor, its 02:14 wake | `team/conductor/wakes/20261029T021416Z.json` |
 | 05:40, 05:44, 05:57 | the reviewer's and the conductor's lines | as in the thirty | `c8f6f8f` |
 | 06:34 | "E02 is ready in team/deck/drafts/ruv-sgit__blast-radius.md, ..." | deck, a note to itself in its 04:22 commit | commit `aeffbf9` |
@@ -76,7 +76,7 @@ Checked 3 November 2026, about 02:16 UTC: chapters 1 to 5; chapters 6 to 9 at ab
 | 09:74 | "the player, ported from ruv.sgit.ai" | the talk's moments article and register | the talk's `content/articles/moments.md`, `3314ffe` |
 | 10:42 | "actually we are at 95% so it is better to pause all actions" | the editor, quoted in the hold file | the talk's `team/conductor/HOLD.md`, `867f8c2` |
 | 10:46, 10:48 | "# HOLD: the editor's usage limit is at 95%; pause all actions", "What lifts it: the editor deletes this file ..." | the conductor's hold file, 18:44 | the talk's `team/conductor/HOLD.md`, `867f8c2`; word for word, its bullet and bold marks dropped |
-| 12:26 | "A scope is a setting, not a boundary: ..." | the talk's scope check | the talk's `admin/build/agents.py` |
+| 12:26 | "a scope is a setting, not a boundary; it catches mistakes, not a steered agent." | studio, its debrief, describing its slide (18:11) | the talk's `team/studio/debriefs/2026-10-29__abp-prose-enforcement.md`, `95b09d9`; the slide itself reads "A scope is a setting, not a boundary: it catches ..." (letter 015) | word for word as studio's, not the slide's |
 | 12:41 | "The reviewers share the session's reach: a second reading, not a second identity." | the conductor, its first debrief | `c8f6f8f` |
 | 13:24 | "just a footnote" | the editor, 31 October, in his RC1 review | this repository at `49c701e` (01:48 UTC), `briefs/2026-10-31__rc1-paper-review/batch-07-pages-22-to-32.md` | word for word since the 06:55 revision ("was" now outside the marks; he said "it's just a footnote") |
 | 13:33, 13:39 | "Written by conductor@book.the-ultimate-insider on 30 October 2026, ...", "a new session makes and publishes its own ..." | the conductor, its handover for the storyteller | `team/conductor/handovers/storyteller.md` (this book's record) | word for word |
@@ -139,6 +139,16 @@ Dramatised lines checked for whose work they rest on: the night log is the condu
 
 The talk team's vaults are named in 10, not cited by path; nothing of them is indexed here.
 
+**3 November 2026, about 14:25 UTC: the 150's chapters 11 and 12.** My letter 014's notes are in (the writer's 100); every commit time in the 150's record notes is now the commit's own, but for five stated ranges. Sources clean; no new voice hit. New, all holding:
+
+| Chapter, line | Quote | Speaker | Where it is | Holds |
+|---|---|---|---|---|
+| 11:75 | "A thing not listed here does not exist, whatever a brief or an article says." | the talk's reality file | `REALITY.md` line 3 at `298be4e` | word for word |
+| 11:48 (note) | "the gate the conductor added at the editor's rule refused the release without it" | dev, its debrief | `team/dev/debriefs/2026-10-29__the-board.md` | word for word |
+| 12:13 | "The player, from ruv.sgit.ai, working on an iPad. This is the main priority." | the editor, the feedback round (about 13:50) | `team/conductor/briefs/2026-10-29__editor/feedback-briefs.md` | word for word |
+| 12:19 | "we can still do a lot before 7 and I can wake the agents up when needed ..." | the editor, after the conductor's review (14:05) | `team/conductor/briefs/2026-10-29__editor/conductor-notes.md` line 7; the cut marked | word for word |
+| 12:58 | "as given" | deck, of how it wrote the editor's feedback down | deck's commit subjects 14:26 to 14:43 (`64735b6`, `fd31308`, `3d49daf`, `3a22743`), not its wake record (letter 015) | the words hold |
+
 ## The writer's readings, for the editor to keep or drop
 
 **Corrected 3 November 2026, about 09:30 UTC:** until this wake the list took only the notes that stand on a line of their own, and missed four set inside a paragraph (70/02:67, 70/02:97, 70/06:68, 70/11:5). The list now takes every note wherever it stands: thirty in the thirty and the seventy (not twenty-six), seven in the 150's part 1, thirty-seven in all.
@@ -195,11 +205,18 @@ Where a sentence in the editor's voice is the writer's reading of his view rathe
 | `150/06-roles-as-a-cast-you-can-read.md:17` | "something I wish every page did" is the writer's reading of his view; his to keep or drop. |
 | `150/06-roles-as-a-cast-you-can-read.md:23` | "The conductor's rule I would copy" is the writer's reading of his view; his to keep or drop. |
 | `150/07-hour-three-the-five-steps.md:101` | "I do not regret the freeze" and the reason given for it are the writer's reading of his view; his to keep or drop. |
-| `150/08-hours-four-and-five-before-dawn.md:71` | "I am not going to tell you either: it does not matter" is the writer's; his to keep or drop. The thirty says only "The record does not say where I went." |
+| `150/08-hours-four-and-five-before-dawn.md:56` | "the page I would have read first" is the writer's reading of his view; his to keep or drop. |
+| `150/08-hours-four-and-five-before-dawn.md:75` | "I am not going to tell you either: it does not matter" is the writer's; his to keep or drop. The thirty says only "The record does not say where I went." |
+| `150/08-hours-four-and-five-before-dawn.md:126` | "the one I would put in front of anyone building a team like this" is the writer's reading of his view; his to keep or drop. |
 | `150/09-nine-hours-with-nobody-starting-work.md:161` | "the part of the record I find hardest to believe, and easiest to check" is kept from the 70-page edition's chapter 7, where it is flagged as the writer's reading of his view; his to keep or drop. |
 | `150/10-talking-through-git.md:24` | "the part I did not expect" is the writer's reading; his to keep or drop. |
-| `150/10-talking-through-git.md:49` | "the clearest worked example the record has" is the writer's reading; his to keep or drop. |
+| `150/10-talking-through-git.md:49` | "a worked example the record keeps" is the writer's reading; his to keep or drop. |
 | `150/10-talking-through-git.md:82` | "the one I would copy first" is the writer's reading; his to keep or drop. |
+| `150/11-the-plumbing.md:5` | "Nobody puts the plumbing in the brochure." and "It was the most important one." are the writer's; his to keep or drop. |
+| `150/11-the-plumbing.md:89` | "I would keep the file, and give one member the job of writing in it." and the sentence after it are the writer's reading of his view; his to keep or drop. |
+| `150/12-the-creator-comes-back.md:23` | "something I would rather it did not" and "that one is mine" are the writer's reading of his view; his to keep or drop. The record holds the order and his words, not his feeling about them. |
+| `150/12-the-creator-comes-back.md:38` | "the thing I would most want a team to do" is the writer's reading of his view; his to keep or drop. |
+| `150/12-the-creator-comes-back.md:94` | "it is the thing I came back for" and "What it could not do was decide" are the writer's reading of his view, the second from the historian's day file for hour fifteen; his to keep or drop. |
 | `150/90-the-tour-at-length.md:69` | "Nobody tidied it." is the writer's reading; his to keep or drop. |
 | `150/90-the-tour-at-length.md:82` | "This is the page I would show anyone who doubts" is the writer's reading of his view; his to keep or drop. |
 | `150/90-the-tour-at-length.md:99` | "What I like about it" is the writer's reading; his to keep or drop. |

@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, every hour at :09 London (ACC1)",
+ "started": "2026-11-03T14:12:57Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (the reviewer agent; tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Request first (writer 100, check both fixes); then the 150's new 11 and 12 and the changes since a9c3f88f, checked in lane.",
+   "at": "2026-11-03T14:13:45Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (the reviewer agent; same tools)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; talk clone read-only; nothing to Cold-Read; 12's cut of the editor's words marked; faults by letter only; vault_check before commit.",
+   "at": "2026-11-03T14:13:45Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Writer 100 taken, fixes in; every commit time in the 150's notes holds but five stated ranges; the 150's 11 and 12 and the changes checked; two small notes to the writer (015, copy 032); index/rc2 (scope rows rewritten) and index/chapters updated, readings sixty-three.",
+   "at": "2026-11-03T14:18:47Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (the reviewer agent; tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "All writes in scope; no secret, model name or session id copied; no em-dash or religious word; both notes of 015 hold (12:57 is the note, 12:58 the band: both carry the words).",
+   "at": "2026-11-03T14:18:48Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (the reviewer agent; same tools)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Every planned item present; nothing outside the plan.",
+   "at": "2026-11-03T14:18:48Z"
+  }
+ },
+ "closed": "2026-11-03T14:18:48Z",
+ "outcome": "ok"
+}
