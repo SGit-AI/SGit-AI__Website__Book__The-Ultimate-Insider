@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T09:24:57Z",
+ "steps": {
+  "plan": {
+   "by": "security, amended at the pre-review's change",
+   "model": "",
+   "verdict": "go",
+   "comment": "Amended: writes only team/security, controls, comms security paths; the conductor's count and the TA1 point go by letter (security__031), no edit of anyone's file; frames and QR payloads stay in the scratchpad, letters give only whether each opens a public page. Otherwise as before.",
+   "at": "2026-11-03T09:26:21Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (briefed: Read, Grep, Glob, Bash)",
+   "model": "haiku",
+   "verdict": "go",
+   "comment": "Second pass: the amended plan meets the change; writes in scope, corrections by letter, frames and QR payloads in the scratchpad.",
+   "at": "2026-11-03T09:26:45Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. Four shots viewed and QR-checked: index and motion kinds added, team.jpg only cropped; three M01 frames extracted to the scratchpad and viewed: clear (security__031). 2. Look-backs into C2; the count corrected and TA1 to name tools, by letter (security__032). 3. The 150's part 1 searched only, full read next wake. Letters filed; boards; status; debrief.",
+   "at": "2026-11-03T09:28:43Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

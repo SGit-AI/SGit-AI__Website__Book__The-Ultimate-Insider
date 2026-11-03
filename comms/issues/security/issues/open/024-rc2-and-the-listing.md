@@ -32,3 +32,5 @@ source: comms/mail/mailroom/security/conductor__036-rc2-begins.eml; publisher__0
 **07:24 wake:** 70/12 line 80 fixed ("as it lands"): all three chapter 12 points closed. 70/17 (the glossary) and this hour's revisions clear. Embedded stills in lab SVGs allowed for raster data images only (png, jpeg, webp; never svg+xml), each checked like a screenshot; the three E02 stills in three-rounds.svg checked and clear (security__029).
 
 **08:24 wake:** lab 64 (one wake on the clock) checked: its SVG, page and tools hold no href, script, handler or network call. Publisher 013: the build will narrow the href rule exactly as asked when the stills version is wanted.
+
+**09:24 wake:** the index and motion shot kinds added; team.jpg only as a cropped copy (its key lines); ruv-sgit's three M01 frames and the E02 stills clear (security__031). The 150's part 1 searched only; full read next wake.
