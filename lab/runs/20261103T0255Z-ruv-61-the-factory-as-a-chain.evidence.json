@@ -1,0 +1,20 @@
+{
+ "schema": "the-ultimate-insider/lab-run-evidence/v1",
+ "run": "20261103T0255Z-ruv-61-the-factory-as-a-chain",
+ "started": "2026-11-03T02:55:20Z",
+ "wake_record": "team/ruv-sgit/wakes/20261103T025520Z.json",
+ "calls": [
+  {
+   "what": "python3 -B -I tools/map.py, three rounds: two labels crossed by lines moved left, the talk's label set above its dot, the player moved within custom built (right of the site, as map 2); the middle stages named as 00b names them",
+   "tool": "python, playwright"
+  }
+ ],
+ "outputs": {
+  "svg": "lab/experiments/61-ruv-the-factory-as-a-chain/map.svg",
+  "hashes": "lab/experiments/61-ruv-the-factory-as-a-chain/SHA256SUMS"
+ },
+ "time": {
+  "work_started": "2026-11-03T02:56:00Z",
+  "work_ended": "2026-11-03T02:58:00Z"
+ }
+}
