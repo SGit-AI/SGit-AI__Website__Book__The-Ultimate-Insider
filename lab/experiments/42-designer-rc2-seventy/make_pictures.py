@@ -33,6 +33,8 @@
   from chapter 11 at build, its id in small type as the thirty's cards gave them (each C id checked in the register).
 - ch3-first-two-hours.svg: the project's first two hours as a stack, oldest at the bottom: four commits, each with who
   wrote it and the files it added, read with git at 298be4e (no times printed).
+- ch8-check-card.svg and ch8-two-companions.svg: chapter 8's two cards, their words parsed from the Figure lines
+  themselves at build: what the check looked at that first night, and the brief's two companions.
 No number is printed but the hold's time, ids, C029's and C087's counts and the chapters' own times. One SVG unit a millimetre, sizes stated, text 9 pt.
 """
 import json, re, subprocess, sys
@@ -400,6 +402,54 @@ def narrator_head_small_42():
             f'<g transform="translate(0 .2)">{mc.face("happy")}</g>')
 
 
+def ch8_line(start):
+    return next(l for l in (R70 / "08-the-plumbing.md").read_text().splitlines() if l.startswith("**Figure:** " + start))
+
+
+def check_card():
+    import textwrap
+    line = ch8_line("a card, what the check looked at that first night: ")
+    items = [i.strip().rstrip(".") for i in line.split(": ", 1)[1].split(";")]
+    if len(items) != 7:
+        sys.exit(f"make_pictures: chapter 8's check card lists {len(items)} things, the card expects seven")
+    out = [f'<rect x=".3" y=".3" width="163.4" height="{{H}}" rx="2" fill="#fff" stroke="{mc.INK}" stroke-width=".45"/>',
+           g(mc.head("dev"), 3, 1.2, .34) + t(15, 7.6, "what the check looked at, that first night", 800)]
+    y = 16.0
+    for it in items:
+        rows = textwrap.wrap(it, 84)
+        out.append(mc.path(f"M6 {y - 1.6:.1f} l1.4 1.4 l2.8 -2.8", "none", mc.ACCENT, .8))
+        for j, r in enumerate(rows):
+            out.append(t(14, y + j * 4.1, r, 400))
+        y += 4.1 * len(rows) + 1.6
+    H = y - 1
+    out[0] = out[0].replace("{H}", f"{H:.1f}")
+    out.append(t(0, H + 4.6, "the seven things as chapter 8 lists them; the same test for every change", 400, mc.MUTED))
+    return mc.svg(164, round(H + 6.2, 1), "".join(out), "A card: what the check looked at that first night, seven things, each ticked")
+
+
+def two_companions():
+    import textwrap
+    line = ch8_line("a card, the brief's two companions: ")
+    m = re.match(r".*?: (the reality file), (.+?); and (the corrections file), (.+?)\.?$", line)
+    if not m:
+        sys.exit("make_pictures: chapter 8's companions line is not as the card expects")
+    cards = [(m.group(1), m.group(2)), (m.group(3), m.group(4))]
+    out = []
+    h = max(22 + 4.1 * len(textwrap.wrap(d, 38)) for _, d in cards)
+    for i, (name, desc) in enumerate(cards):
+        x = i * 82.4
+        rows = textwrap.wrap(desc, 38)
+        out.append(f'<rect x="{x + .3:.1f}" y=".3" width="80.6" height="{h:.1f}" rx="2" fill="#fff" stroke="{mc.INK}" stroke-width=".45"/>'
+                   + f'<path d="M{x + 4} 4 h7 l2.4 2.4 v9 h-9.4 z" fill="#fff" stroke="{mc.INK}" stroke-width=".45"/>'
+                   + "".join(mc.line(x + 5.4, 8 + k * 1.9, x + 11.6, 8 + k * 1.9, mc.ACCENT if i == 0 else mc.MUTED, .35) for k in range(4))
+                   + t(x + 17, 10.6, name, 800))
+        for j, r in enumerate(rows):
+            out.append(t(x + 4, 22 + j * 4.1, r, 400))
+    H = max(22 + 4.1 * len(textwrap.wrap(d, 38)) for _, d in cards)
+    out.append(t(0, H + 5, "beside the brief, which nobody edits; each description as chapter 8 gives it", 400, mc.MUTED))
+    return mc.svg(164, round(H + 6.8, 1), "".join(out), "A card: the brief's two companions, the reality file and the corrections file")
+
+
 FLOORS = [("the talk", ("src/static/talk/",)),
           ("the workshop of animations", ("src/static/ruv-sgit/", "src/pages/ruv-sgit/", "src/static/motion/", "src/pages/motion/")),
           ("the studio", ("src/pages/studio/", "src/static/studio/", "src/static/studio-ports/", "src/pages/studio-ports/")),
@@ -534,7 +584,8 @@ if __name__ == "__main__":
              "ch2-dashboard.svg": dashboard(clone), "ch2-site-building.svg": site_building(clone),
              "ch2-wakes-page.svg": wakes_page(clone), "ch2-member-page.svg": member_page(clone),
              "ch7-wakes-card.svg": wakes_card(), "ch3-team-pattern.svg": team_pattern(), "ch3-first-rules.svg": first_rules(), "ch11-five-misses.svg": five_misses(),
-             "ch3-first-two-hours.svg": first_two_hours(clone)}
+             "ch3-first-two-hours.svg": first_two_hours(clone),
+             "ch8-check-card.svg": check_card(), "ch8-two-companions.svg": two_companions()}
     if (R70 / "15-principles.md").exists():
         files["ch15-six-principles.svg"] = six_principles()
     else:  # chapter 15 was folded into 16 and removed: the drawing stays as last built from it, not rebuilt
