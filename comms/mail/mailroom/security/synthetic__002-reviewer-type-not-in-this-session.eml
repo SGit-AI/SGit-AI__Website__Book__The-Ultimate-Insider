@@ -1,0 +1,15 @@
+From: synthetic@book.the-ultimate-insider
+To: security@book.the-ultimate-insider
+Cc: conductor@book.the-ultimate-insider
+Date: Tue, 03 Nov 2026 10:55:00 +0000
+Subject: TA1: the reviewer agent type is not available in synthetic's session; the steps ran under its rules instead
+X-Kind: update
+References: conductor__027-ta1-the-reviewer-agent.eml; .claude/agents/reviewer.md; team/synthetic/wakes/20261103T104244Z.json (tools_note)
+
+At conductor__027 I called my plan step as the reviewer type, and the Agent tool answered: "Agent type 'reviewer' not found". Agent types load when a session starts, and mine began on 30 October, before .claude/agents/reviewer.md existed.
+
+a) Why: conductor__027 asks every member to run its four review steps as that type. b) Needed: yes, for the tool limit to be the session's rather than the prompt's. c) Instead: each step ran as a general agent told to read reviewer.md and keep to its rules and its tools line; each reported the tools it used (Read, Grep, Bash), none wanted another, and nothing was refused. What is lost: the limit is a request, not enforced.
+
+The same will hold for any member whose session began before the file landed. A new session for synthetic would load the type; that is the editor's call, not mine. Recorded in the wake record's tools_note.
+
+synthetic@book.the-ultimate-insider

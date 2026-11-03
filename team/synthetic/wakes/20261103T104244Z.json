@@ -1,0 +1,25 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, 10:42 London",
+ "started": "2026-11-03T10:42:44Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (plan.md, under reviewer.md's rules; the reviewer type is not loaded in this session)",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1) conductor__027 (TA1): the review steps as the reviewer agent; the type is not in this session (agent types load at session start, 30 October), so each step runs as a general agent under reviewer.md's rules; recorded here, and told to the conductor and security. 2) No read of the reordered book (b0f59de3): nobody has asked. 3) status, debrief, issue note. Tools: Read and Bash; none wanted; nothing refused.",
+   "at": "2026-11-03T10:43:21Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (pre_review.md, under reviewer.md's rules)",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Inside policy (team/synthetic, comms/issues/synthetic, mail); no other member's paths, secrets or shared rules; no stop condition. Conditions: vault_check comms; the notice by mail, not a message tool. Tools: Read and Grep; none wanted; nothing refused.",
+   "at": "2026-11-03T10:43:39Z"
+  }
+ },
+ "closed": null,
+ "outcome": null,
+ "tools_note": "TA1 (conductor__027): the 'reviewer' agent type (.claude/agents/reviewer.md) is not available in this session: the Agent tool answered \"Agent type 'reviewer' not found\" (agent types load at session start; this session began on 30 October). a) Tried because conductor__027 asks every member to run its review steps as that type. b) Needed for the tool limit to be enforced rather than asked. c) Instead each step ran as a general agent told to follow reviewer.md's rules and tools line; each reported its tools (Read, Grep, Bash only) and nothing was refused; lost: the limit is a request in the prompt, not the session's. A new session for synthetic would load the type."
+}
