@@ -16,7 +16,7 @@
 
 **Narrator.** Then the record keeps something I would rather it did not. The conductor read the round, wrote a review of it, and I answered the review in the same session. Within minutes the order had changed, at my own word: a feedback pane on every page, so I could send notes from the browser, went first; the player went second. The conductor's notes of 14:05 record the new order, and my words after the review:
 
-> "we can still do a lot before 7 and I can wake the agents up when needed" *(record)*
+> "we can still do a lot before 7 and I can wake the agents up when needed ..." *(record)*
 
 **Narrator.** Both things were true. The pane let me talk to the team from the page I was reading, and I used it all afternoon. And the main priority came second, landed in the middle of the afternoon, and was still being fixed in the last hour. The failures stay in, and that one is mine.
 
