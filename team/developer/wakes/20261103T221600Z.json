@@ -31,8 +31,15 @@
    "verdict": "clean",
    "comment": "fa60dadd clean: regenerated output only, 11 files in scope (agents check 0 outside); no tool, manuscript/ or publishing/ change; no %%; links only to github.com/SGit-AI and the book; all 329 QR targets on the book's domain; no secrets or contacts. validate.py not rerun by it (the developer's gate read 835, clean).",
    "at": "2026-11-03T22:20:13Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (post_check brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused; wrote no file",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "The back matter page, the three maps, the edition pages, clean gate (835), 0 outside scope, push to dev, status and debrief all in fa60dadd; every pre-review condition kept; the rc2-70 refresh is upkeep after the publisher's figures change.",
+   "at": "2026-11-03T22:20:40Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T22:20:40Z",
+ "outcome": "ok"
 }
