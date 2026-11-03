@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Owner naming is the conductor's; own paths; nothing decided; nothing private.",
    "at": "2026-11-03T07:05:06Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "ruv-sgit 019 and designer 050; eight letters filed; both drafts built; brief 48; status.",
+   "at": "2026-11-03T07:07:18Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "Nothing private; nothing decided; the brief matches the mail and the 17 files.",
+   "at": "2026-11-03T07:08:01Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "As planned; page counts are the conductor's own builds (54, 28) beside the publisher's (55, 29), a build difference.",
+   "at": "2026-11-03T07:08:01Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T07:08:01Z",
+ "outcome": "ok"
 }
