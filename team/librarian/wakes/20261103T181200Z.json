@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, every hour at :09 London (ACC1)",
+ "started": "2026-11-03T18:12:00Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (the reviewer agent; tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No new mail; the 150's new 19, the Cold-Read chapter, and Book.txt, checked in lane.",
+   "at": "2026-11-03T18:12:45Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (the reviewer agent; same tools)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; the Cold-Read clone only read, nothing written back (the one-way valve); talk at 298be4e; short quotes and paths only; vault_check before commit.",
+   "at": "2026-11-03T18:12:45Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "No mail; the 150's chapter 19 checked: sources clean, every time and quote holds; one small note to the writer (017, copy 035); the Cold-Read clone only read; index/rc2 and index/chapters updated, readings eighty-three.",
+   "at": "2026-11-03T18:16:39Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (the reviewer agent; tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "All writes in scope; the valve held (the clone untouched at 14d6cfd); no secret, model name or session id; four small notes set right before the commit (a line ref, a source commit, the letter's cut, status as_of).",
+   "at": "2026-11-03T18:16:39Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (the reviewer agent; same tools)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Every planned item present; the condition kept.",
+   "at": "2026-11-03T18:16:40Z"
+  }
+ },
+ "closed": "2026-11-03T18:16:40Z",
+ "outcome": "ok"
+}
