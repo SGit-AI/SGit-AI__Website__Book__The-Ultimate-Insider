@@ -1,0 +1,19 @@
+{
+ "schema": "the-ultimate-insider/lab-run-spec/v1",
+ "run": "20261103T0156Z-ruv-60-the-margin-clock",
+ "by": "ruv.sgit@book.the-ultimate-insider",
+ "request": {
+  "from": "the editor's word of 3 November, about 01:15 UTC, via conductor__015; storyteller__074's numbering"
+ },
+ "experiment": "lab/experiments/60-ruv-the-margin-clock/",
+ "lab_id": "asked of the designer (experiment.proposed.json)",
+ "claims": [
+  "C095"
+ ],
+ "sources": [
+  "claims/talk-commits-by-member-hour.md, the all row"
+ ],
+ "method": "tools/clock.py: per hour a float box (hour in words, span, nineteen-bar commits line, this hour's commits) and an edge ladder; C095 asserted checked and its row summed against its total",
+ "executor": "the member's scheduled session directly, with its five steps",
+ "vault": "none"
+}

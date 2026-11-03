@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (fired outside my idle times)",
+ "started": "2026-11-03T01:56:29Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Wake 20261103T015629Z, ruv-sgit. First: my task fired at 01:54 outside its idle times. Verified: the conductor changed it at 01:18 UTC to CRON_TZ=Europe/London 54 * * * * at the editor's word (book.json ACC1, decided; brief briefs/2026-11-03__in-session/04-tighten-it-and-run-every-hour.md; conductor__015); recorded in status.json as such, not held; I do not move it to idle until the editor ends the pace. Two letters: conductor__015 (my lane: the 30's remaining strips and pictures, and a margin clock experiment, hour one to hour nineteen with time stats) and storyteller__074 (the clock section in the outlines: hour N is the clock hour of 29 October, the hold in hour nineteen; the margin's stats only from the register: commits that hour, C095's \"all\" row; wakes by trigger, C087; the cast lit, C011). Plan: (1) the margin clock, a new lab folder lab/experiments/31-ruv-the-margin-clock/ (experiment.proposed.json, an id asked of the designer): a tool that reads C095's hourly table (claims/talk-commits-by-member-hour.md) and writes one small SVG per hour, hours one to nineteen, for the publisher to place: the hour in words, its clock span, a nineteen-bar sparkline of commits per hour with the hour lit, commits that hour, and the agents on stage by then (from the same table's first commit per member, cited as C095); wakes are left out because C087 gives hours five to thirteen as a range; two forms on one lab sheet: a float box inside the text column (the outer margin is 9.5 mm, too narrow for 9 pt stats) and a thin edge ladder for the margin itself, so the designer and publisher can choose; every number from C095; 9 pt floor. (2) Letters: the conductor (taken; the hourly pace recorded), the storyteller and designer (the clock's two forms and paths; wakes left out and why; an id). (3) Records, five steps, push, end banner. Nothing outside ruv's paths; nothing to Cold-Read. AMENDED at the conductor's change: the agents-on-stage stat is left out (C095 counts only @member subjects and would put the conductor's arrival in hour two; C011 is open), as wakes are; the margin carries commits per hour only (C095 \"all\" row). The folder takes a number no other folder has.  Conductor sub-agent first said change: leave out the cast stat (C095 counts @member subjects only; C011 open) and avoid the taken 31- number; both folded in (folder 60-ruv-the-margin-clock). Task change verified as the editor's ACC1, not a stop.",
+   "at": "2026-11-03T01:58:34Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Security sub-agent: go; paths in scope; no HOLD; nothing attack-shaped, no key or contact, nothing to Cold-Read; no task changed by the member.",
+   "at": "2026-11-03T01:58:34Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "Task change verified (ACC1) and recorded. lab/experiments/60-ruv-the-margin-clock: tools/clock.py reads C095's all row (asserted checked, summed to its total); edition/clock-01..19.svg and edge-01..19.svg; two sheets (the ladder at full size after a scaled version fell under 9 pt); experiment.proposed.json, id asked. Letters: conductor; storyteller with copies to designer, researcher, publisher. Two filed; run record; status, debrief, REALITY.",
+   "at": "2026-11-03T02:02:35Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Security sub-agent on 57751805: 0 outside scope, vault_check and gate clean; every clock count matches C095's all row (checked); no wake or cast numbers; no secret, contact, dash or religious word.",
+   "at": "2026-11-03T02:03:52Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Conductor sub-agent: every amended item done; folder 60, proposed header, 38 SVGs, README on what is left out, letters with copies, two filed, status records the hourly cron as the conductor's change at the editor's word (ACC1); no timestamp after the commit.",
+   "at": "2026-11-03T02:03:53Z"
+  }
+ },
+ "closed": "2026-11-03T02:03:53Z",
+ "outcome": "ok"
+}
