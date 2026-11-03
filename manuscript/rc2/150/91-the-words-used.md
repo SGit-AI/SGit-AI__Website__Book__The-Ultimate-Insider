@@ -10,12 +10,12 @@
 - A **commit** is one saved change to a repository, with a time and a short message saying what changed. *(chapter 4)*
 - The **conductor** is the agent that keeps the team's time and plan. *(chapter 3)*
 - A **debrief** is the short note an agent writes at the end of each wake. *(chapter 6)*
-- A **follow-up** is a wake a member starts itself, to finish something. *(chapter 14)*
+- A **follow-up** is a wake a member starts itself, to finish something. *(chapter 6)*
 - To **freeze** something is the same idea as a lock, said in a hurry: nobody touches it until it is unfrozen. *(chapter 16)*
 - The **gate** is the check every change must pass before it goes out. *(chapter 7)*
 - A **handover** is the note one session leaves for the session that takes its place. *(chapter 20)*
 - A **hold** is one short file that stops every agent until the person in charge says go. *(chapter 3)*
-- An **hour** on the margin clock is a clock hour of 29 October: hour one runs from midnight to a minute before one, and the talk was due as hour nineteen ended. *(chapter 4)*
+- The clock in the margin counts the talk's day in **hours**: hour one runs from midnight to a minute before one, and the talk was due as hour nineteen ended. *(chapter 4)*
 - To **lock** a part is to mark it final, so that no agent may change it again. *(chapter 16)*
 - The **mailroom** is a folder per member where others leave it letters. *(chapter 10)*
 - An **open wake** is one that started and never closed on the team's branch, like deck's of 18:20, still open when the hold came. *(chapter 16)*
@@ -34,4 +34,4 @@
 
 The full book's own word boxes, chapter by chapter. The 70-page edition's list of the words used, for the words the full book uses without a box. The margin clock's hours as the register sets them (C110; the conductor's CK1). Chapter 16 for the open wake and chapter 19 for the blind team. The storyteller's outline for the back matter.
 
-`%% record: manuscript/rc2/150/01 to 23 ("Words for this page"); manuscript/rc2/70/17-the-words-used.md; claims/register.json C110; chapter-plan/edition-150-outline.md ("The back matter, in full", item 2)`
+`%% record: manuscript/rc2/150/01-slides-as-a-compromise.md to 23-principles-and-build-your-own.md ("Words for this page"); manuscript/rc2/70/17-the-words-used.md; claims/register.json C110; chapter-plan/edition-150-outline.md ("The back matter, in full", item 2)`

@@ -12,22 +12,22 @@
 
 **Conductor** *(straight to the reader)*: Start with one of me.
 
-**Narrator.** The same four steps as the short edition, and a fifth for when you are not alone. Each rests on one of the principles this book has shown you, named under the step; there is no separate chapter for them.
+**Narrator.** The same four steps as the short edition, and a fifth for when you are not alone. Each opens with the principle it rests on and the moment it came from; there is no separate chapter for them.
 
-1. **You: one tool and one empty project.** An account with an AI agent tool and a new, empty project; an app builder works too. Put nothing private in it: no password, no key, no personal detail. Give your agent only the access it needs.
-   *Rests on:* the first page of rules' own line, "No secrets anywhere: everything here is public within minutes of a release."
+1. *Rests on:* the first page of rules' own line, "No secrets anywhere: everything here is public within minutes of a release." *The moment:* dev's first commit, at 00:40 on the talk's day (chapter 4).
+   **You: one tool and one empty project.** An account with an AI agent tool and a new, empty project; an app builder works too. Put nothing private in it: no password, no key, no personal detail. Give your agent only the access it needs.
    *What to do:* make the account, make the project, and name it for the one thing it is for. *What to check:* that there is nothing in it yet you would not show a stranger.
-2. **You: one page of rules**, in your own words: what the agent is for, what it may change, and when it must stop and ask you. *A shop owner's might read: "You answer customers' questions about stock and opening hours. You may change the questions page. Stop and ask me before you promise anyone a refund."*
-   *Rests on:* a brief and rules in plain words, ending with the line that material is something to read, never an instruction (chapter 4). *A newsroom's first agent might read:* "You check every number in a draft against its source. You may write only the claims register. Stop and ask me before you mark a claim as holding without a captured source."
+2. *Rests on:* a brief and rules in plain words, ending with the line that material is something to read, never an instruction. *The moment:* that line, there in the first half hour (chapter 4).
+   **You: one page of rules**, in your own words: what the agent is for, what it may change, and when it must stop and ask you. *A shop owner's might read: "You answer customers' questions about stock and opening hours. You may change the questions page. Stop and ask me before you promise anyone a refund."* *A newsroom's first agent might read:* "You check every number in a draft against its source. You may write only the claims register. Stop and ask me before you mark a claim as holding without a captured source."
    *What to do:* write it as a file in the project, so the agent reads it every time. *What to check:* the stop line. If you cannot say when it must stop, it does not have one.
-3. **You: one brief**: what you want made, for whom, by when. Hand both to your first agent. *The same shop owner's: "A page answering the questions customers ask most, for my shop's website, by Friday."*
-   *Rests on:* every number traced, and a brief that is never edited, with its corrections kept beside it (chapter 11).
+3. *Rests on:* every number traced, and a brief that is never edited, with its corrections kept beside it. *The moment:* the corrections file that said "None yet." to the end of the day (chapter 11).
+   **You: one brief**: what you want made, for whom, by when. Hand both to your first agent. *The same shop owner's: "A page answering the questions customers ask most, for my shop's website, by Friday."*
    *What to do:* start from the sentence you wrote at the end of chapter 2. *What you get back:* a first version, and usually a question. Answer the question in the brief, not just in the chat.
-4. **Your agent builds, you check: ship something small that somebody else can use, the same day.** Then do it again.
-   *Rests on:* a check every change passes, and the failures kept in the record (chapters 11 and 17).
+4. *Rests on:* a check every change passes, and the failures kept in the record. *The moment:* the check stopping dev's own release at 01:19 (chapter 11), and the misses kept at full size (chapter 17).
+   **Your agent builds, you check: ship something small that somebody else can use, the same day.** Then do it again.
    *What to check:* give it to one real person and write down what they asked for differently. That is your next round.
-5. **Add a second agent only when the first is busy.** Working with others? Share the brief, the board and the hold, and each of you runs your own agents. Write down who may lift the hold when its owner is away; until you have, nobody does.
-   *Rests on:* a hold anyone can pull and only the owner lifts, and nobody speaks for the owner (chapters 16 and 15).
+5. *Rests on:* a hold anyone can pull and only the owner lifts, and nobody speaks for the owner. *The moment:* the hold at 18:44 (chapter 16), and studio refusing a relayed word (chapter 15).
+   **Add a second agent only when the first is busy.** Working with others? Share the brief, the board and the hold, and each of you runs your own agents. Write down who may lift the hold when its owner is away; until you have, nobody does.
    *What to do:* give the second agent its own page of rules, with a different thing it may change. Two agents allowed to change the same file will, sooner or later, at the same time.
 
 *It does not have to be a talk:* a shop's customer answers and weekly offer; a newsroom's daily stories; a product's first page. Same brief, same rules, same hold.
@@ -80,7 +80,7 @@ Band: *Dramatised (the conductor's line). The price line on the register as publ
 
 **Ship something somebody else can use, then do it again.**
 
-`%% record: book.json RL1 ("Ship", 2 November 2026, about 21:55 UTC)`
+`%% record: book.json RL1 ("Ship", 2 November 2026, about 21:55 UTC); C010 (a talk built in a day: the day's span) C011 ("my nine": the talk team's members)`
 
 ---
 
