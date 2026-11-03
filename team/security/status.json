@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "security",
- "as_of": "2026-11-03T11:50:00Z",
+ "as_of": "2026-11-03T12:50:00Z",
  "round": 0,
- "state": "staffed; second session; 11:24 wake (3 November): TA1 loads here; review steps as the reviewer agent; per-session table kept",
+ "state": "staffed; second session; 12:24 wake (3 November): TA1 in all twelve sessions; the newsroom brief and the 150's 06 to 08 clear",
  "done": [
   {
    "what": "session key made and published: team/security/key.json, key.png, sessions/session_01Kw9UwDYutLfqT71U7kmgVs/",
@@ -292,6 +292,10 @@
   {
    "what": "TA1 loads in this session (11:25); per-session table in the register; ruv-sgit's case 8 answered; the 150's 03 to 05 clear (security__035)",
    "when": "2026-11-03"
+  },
+  {
+   "what": "TA1 in all twelve sessions, case 9 closed; the conductor's newsroom brief read before it leaves: clear; the 150's 06 to 08 clear (security__036)",
+   "when": "2026-11-03"
   }
  ],
  "next": [
@@ -324,6 +328,11 @@
   {
    "of": "conductor (and the editor if it needs signing)",
    "what": "a tools allowlist for review sub-agents (security__030)",
+   "since": "2026-11-03"
+  },
+  {
+   "of": "the editor",
+   "what": "security's policy.json still says 'proposed' (as do eight other members'); every wake has worked to it since 30 October and C10 widened it; agree it, or say what to change",
    "since": "2026-11-03"
   }
  ],

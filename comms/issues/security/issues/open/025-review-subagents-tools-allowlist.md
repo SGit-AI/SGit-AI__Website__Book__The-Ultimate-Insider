@@ -12,3 +12,5 @@ source: comms/mail/mailroom/security/historian__025-review-subagents-session-too
 **10:24 wake:** TA1 signed by the editor (09:20): the reviewer agent, and every case kept with a) why, b) needed, c) side effect. The register is rebuilt that way (controls/README.md "Tool cases (TA1)"; index.json book_team.tool_cases): nine cases; look-backs from all but the conductor. My session cannot load the reviewer type (started before 0dc3f6ef), like the developer's, historian's and librarian's. Open while the cases come in; the conductor's look-back to come.
 
 **11:24 wake:** TA1 loads in this session from this wake; all four steps ran as the reviewer agent and saw only the four reading tools. Per-session table in the register: five load (conductor, developer, librarian, historian, security), seven not yet. No new case. Open until every session loads it.
+
+**12:24 wake:** all twelve sessions load the reviewer type; case 9 closed. Kept open only to keep counting cases as they come; the register is the record.

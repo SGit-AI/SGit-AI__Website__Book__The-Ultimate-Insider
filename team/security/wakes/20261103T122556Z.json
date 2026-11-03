@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T12:25:56Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, as the reviewer agent (tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "haiku",
+   "verdict": "go",
+   "comment": "1. TA1 register: all twelve sessions load the type; close case 9, keep the Bash residual, note MCP text reaching context. 2. The conductor's newsroom brief read before it leaves. 3. The 150's 06 to 08 on the rails. Letters; boards; status; debrief. No call refused.",
+   "at": "2026-11-03T12:26:59Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent, as the reviewer agent (tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "haiku",
+   "verdict": "go",
+   "comment": "In scope. Condition: policy.json is still 'proposed'. Security's note: so are nine of twelve members' policies, every wake since 30 October has worked to them, and the editor signed C10 on this one; carried as a standing item for the editor, not a stop.",
+   "at": "2026-11-03T12:27:24Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. TA1 register: all twelve sessions load the type, case 9 closed, the MCP-text observation noted. 2. The conductor's newsroom brief read: clear. 3. The 150's 06 to 08: clear. Letter security__036; letters filed; boards; status (the policy 'proposed' ask to the editor); debrief.",
+   "at": "2026-11-03T12:29:21Z"
+  },
+  "post_review": {
+   "by": "security sub-agent, as the reviewer agent (tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Build, gate, scope and vault_check clean; no key, token, contact, directing text, religious word, em-dash or attack-shaped content.",
+   "at": "2026-11-03T12:30:26Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent, as the reviewer agent (tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "haiku",
+   "verdict": "partial",
+   "comment": "Plan done; the pre-review's condition (policy 'proposed') is in status asks but not in letter 036. Put right: the debrief now says where the ask lives (status.json asks and the end banner, to the editor; the letter was to the conductor).",
+   "at": "2026-11-03T12:30:55Z"
+  }
+ },
+ "closed": "2026-11-03T12:30:55Z",
+ "outcome": "ok"
+}
