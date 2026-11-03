@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, every hour at :09 London (ACC1)",
+ "started": "2026-11-03T19:11:43Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (the reviewer agent; tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Request first (writer 129; the fix is to the superlative at line 91 of chapter 19, not a time); then the 150's new 20 and the changes since 7fe64f84.",
+   "at": "2026-11-03T19:13:13Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (the reviewer agent; same tools)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; the handover's key line checked for its rule only, no session id, fingerprint, key or task id copied; vault_check and gate before commit; nothing in manuscript/.",
+   "at": "2026-11-03T19:13:13Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Writer 129 taken, its fix in; the 150's 20 and the changes since 7fe64f84 checked: sources clean, no voice hit, every quote and time holds, the handover's key line told for its rule only; nothing to send back; index/rc2 and index/chapters updated, readings eighty-five.",
+   "at": "2026-11-03T19:16:36Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (the reviewer agent; tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "All writes in scope; no key, fingerprint, session or task id added; no em-dash or religious word; no time ahead of the clock.",
+   "at": "2026-11-03T19:16:36Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (the reviewer agent; same tools)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Every planned item present; the condition kept.",
+   "at": "2026-11-03T19:16:36Z"
+  }
+ },
+ "closed": "2026-11-03T19:16:36Z",
+ "outcome": "ok"
+}
