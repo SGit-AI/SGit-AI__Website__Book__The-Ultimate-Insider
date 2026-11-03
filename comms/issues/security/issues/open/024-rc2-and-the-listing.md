@@ -22,3 +22,5 @@ source: comms/mail/mailroom/security/conductor__036-rc2-begins.eml; publisher__0
 **02:24 wake:** since 01e0803c only unprinted clock markers, one figure line on the already-cleared player screenshot, and the seventy's build list. Nothing new on the rails.
 
 **03:24 wake:** this hour's revisions clear; the policy-review shot's QR opens a public talk-site page as captioned; one sentence on it (C081, contradicted) flagged to the researcher's lane.
+
+**04:24 wake:** the seventy's part 3 (70/06 to 09) read in full: clear; the C081 caption in 70/01 holds; one inner-voice line in 09 put to the storyteller to check. Next: the hundred and fifty, and the cast pages (board 022), as they land.
