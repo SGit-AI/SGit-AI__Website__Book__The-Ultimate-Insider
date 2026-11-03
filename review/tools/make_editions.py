@@ -4,7 +4,7 @@
 # every commit, path and register id in it a link where verified (the same lookup as make_reader.py: this repository,
 # a read-only clone of the talk's at 298be4e, claims/register.json). Other `%%` lines are notes for the writers and stay
 # hidden. Paragraph anchors as on the review pages. Also writes the zoom index: the editions from shortest to longest.
-# Writes only rc2/pages.html, review/anchors/qr-targets.json, editions.json (and its copy in src/static/review/), src/pages/review/rc2/, rc2-70/, ed-03/, ed-10/ and src/pages/review/zoom.html. Kept by developer@book.the-ultimate-insider.
+# Writes only each edition's pages.html, review/anchors/qr-targets.json, editions.json (and its copy in src/static/review/), src/pages/review/rc2/, rc2-70/, ed-03/, ed-10/ and src/pages/review/zoom.html. Kept by developer@book.the-ultimate-insider.
 # Run: python3 review/tools/make_editions.py <path to a full clone of SGit-AI__Website__Presentation__The-Ultimate-Insider>
 
 import html, json, re, subprocess, sys
@@ -105,7 +105,10 @@ def qr(slug, f, rid, words):
 
 
 def pages_view(ed):
-    """RC2 one scene at a time, as a reader turns the pages: the same filtered text as editions.json, the record under each."""
+    """An edition one page at a time, as a reader turns them: the same filtered text as editions.json, the record under each.
+    In the 3- and 10-page editions a chapter is one printed page (publishing/edition.py); in the longer ones a page here is a scene."""
+    printed = ed['edition'].startswith('ed-')
+    name = ed['title'][0].upper() + ed['title'][1:]
     secs, n = [], 0
     for c in ed['chapters']:
         for sc in c['scenes']:
@@ -120,14 +123,16 @@ def pages_view(ed):
             secs.append(f'<section class="pg" id="p-{n}" data-pg aria-label="Page {n}"><h2>{html.escape(c["title"])} · page {n}</h2>{body}{rec}</section>')
     bar = ('<div class="pg-bar"><button type="button" data-pg-prev>Previous</button> <span data-pg-at></span> '
            '<button type="button" data-pg-next>Next</button> <span class="c-dim">or the arrow keys</span></div>')
-    meta = {'title': 'RC2, page by page', 'description': 'One Human, Nine Agents, Nineteen Hours, RC2, one scene at a time, with what each rests on.'}
-    (PAGES / 'rc2' / 'pages.html').write_text(
+    meta = {'title': f'{name}, page by page', 'description': f'One Human, Nine Agents, Nineteen Hours, {ed["title"]}, one page at a time, with what each rests on.'}
+    what = ('Each page here is a printed page of this edition.' if printed else
+            'A "page" here is a scene: the printed page breaks are not yet read from the PDF, so a printed page and a page here may differ.')
+    (PAGES / ed['edition'] / 'pages.html').write_text(
         f'<!--meta {json.dumps(meta)} -->\n<link rel="stylesheet" href="{{{{root}}}}review/pen.css">\n<section class="wrap narrow" data-no-third-party>\n'
-        f'<p class="kicker">RC2, the 30-page edition · page by page</p>\n<h1>RC2, page by page</h1>\n'
+        f'<p class="kicker">{html.escape(ed["title"])} · page by page</p>\n<h1>{html.escape(name)}, page by page</h1>\n'
         f'<p class="lead">The draft one page at a time, as on a tablet, with what each page rests on beneath it.</p>\n'
-        f'<p class="note">A "page" here is a scene: the printed page breaks are not yet read from the PDF, so a printed page and a page here may differ. {n} pages, from <a href="{{{{root}}}}review/editions.json">editions.json</a>; the same chapters in full are in <a href="index.html">RC2 online</a>.</p>\n'
+        f'<p class="note">{what} {n} pages, from <a href="{{{{root}}}}review/editions.json">editions.json</a>; the same chapters with their links are in <a href="index.html">the edition online</a>.</p>\n'
         f'{bar}\n' + '\n'.join(secs) + f'\n{bar}\n</section>\n<script src="{{{{root}}}}review/pages.js" defer></script>\n')
-    print(f'rc2/pages.html: {n} pages')
+    print(f'{ed["edition"]}/pages.html: {n} pages')
 
 
 def chapter_page(path, i, files, book, talk, claims, edition_title, foot=None):
@@ -203,7 +208,7 @@ def main(talk_path):
             f'<!--meta {json.dumps(meta)} -->\n<section class="wrap narrow" data-no-third-party>\n<p class="kicker">{html.escape(edition_title)} · a draft</p>\n'
             f'<h1>{html.escape(edition_title[0].upper() + edition_title[1:])}, online, with its record</h1>\n<p class="lead">The book says: "Online, under each scene, you can open the commits, times and files it rests on." Here they are: each scene with what it rests on, every commit, file and number a link where it could be verified.</p>\n'
             f'<p class="note">{len(files)} chapters, {scenes} scenes, {links} links, from the writer\'s chapters (<code>{src}/</code>) as they stand on dev; rebuilt with the site. The draft changes at every release.</p>\n'
-            f'<ol>{"".join(toc)}</ol>\n<p class="note">As data: <a href="{{{{root}}}}review/editions.json">editions.json</a>, every edition\'s chapters, paragraphs and record.' + (' <a href="pages.html">Page by page</a>: one scene at a time.' if slug == 'rc2' else '') + '</p>\n<p><a href="../zoom.html">The zoom</a>: the same story at every length.</p>\n</section>\n')
+            f'<ol>{"".join(toc)}</ol>\n<p class="note">As data: <a href="{{{{root}}}}review/editions.json">editions.json</a>, every edition\'s chapters, paragraphs and record.' + ' <a href="pages.html">Page by page</a>: one scene at a time.</p>\n<p><a href="../zoom.html">The zoom</a>: the same story at every length.</p>\n</section>\n')
         print(f'{slug}: {len(files)} chapters, {scenes} scenes, {links} links')
     for slug, edition_title, booktxt, script in SHORT:
         OUT = PAGES / slug
@@ -238,12 +243,13 @@ def main(talk_path):
             f'<h1>{html.escape(edition_title[0].upper() + edition_title[1:])}, online, with its record</h1>\n'
             f'<p class="lead">The printed pages, each with what it rests on at its foot: the record lines the storyteller wrote under each page of its script, every commit, file and number a link where it could be verified.</p>\n'
             f'<p class="note">{len(files)} chapters, {links} links. The text is the publisher\'s (<code>{rel(booktxt.parent)}/</code>), the record the storyteller\'s (<code>{rel(script)}</code>), as they stand on dev.</p>\n'
-            f'<ol>{"".join(toc)}</ol>\n<p class="note">As data: <a href="{{{{root}}}}review/editions.json">editions.json</a>, every edition\'s chapters, paragraphs and record.</p>\n<h2>Where the whole edition came from</h2>\n{"".join(wh)}\n<p><a href="../zoom.html">The zoom</a>: the same story at every length.</p>\n</section>\n')
+            f'<ol>{"".join(toc)}</ol>\n<p class="note">As data: <a href="{{{{root}}}}review/editions.json">editions.json</a>, every edition\'s chapters, paragraphs and record. <a href="pages.html">Page by page</a>: one printed page at a time.</p>\n<h2>Where the whole edition came from</h2>\n{"".join(wh)}\n<p><a href="../zoom.html">The zoom</a>: the same story at every length.</p>\n</section>\n')
         print(f'{slug}: {len(files)} chapters, {links} links')
     for t in targets:                                                # printed codes: https, the book's own host, no query, no tracking
         if not re.fullmatch(r'https://the-ultimate-insider\.book\.sgit\.ai/review/[\w-]+/[\w-]+\.html#rec-r\d\d-\d+', t['url']):
             sys.exit(f'qr target refused: {t["url"]}')
-    pages_view(next(e for e in editions if e['edition'] == 'rc2'))
+    for e in editions:
+        pages_view(e)
     for t in targets:
         for a in addresses(json.dumps(t, ensure_ascii=False)):     # no exception for print: every address in a target on the book's domain
             if not a.startswith(SITE + '/'):
@@ -301,10 +307,10 @@ def main(talk_path):
     (OUT.parent / 'zoom.html').write_text(
         f'<!--meta {json.dumps(zmeta)} -->\n<section class="wrap narrow" data-no-third-party>\n<p class="kicker">The book · ZM1</p>\n<h1>The zoom: the same story at every length</h1>\n'
         f'<p class="lead">Start small and zoom in. Each length is written from the one above it, and the longer ones keep the shorter ones\' lines.</p>\n<ol class="zoom">\n'
-        f'<li><b>3 pages</b>: <a href="ed-03/index.html">online, with its record</a> · <a href="{{{{root}}}}manuscript/one-human-nine-agents-edition-03.pdf">the PDF</a></li>\n'
-        f'<li><b>10 pages</b>: <a href="ed-10/index.html">online, with its record</a> · <a href="{{{{root}}}}manuscript/one-human-nine-agents-edition-10.pdf">the PDF</a></li>\n'
-        f'<li><b>30 pages, RC2</b>: <a href="rc2/index.html">online, with the record under each scene</a> · <a href="{{{{root}}}}rc2.html">its page and PDF</a></li>\n'
-        f'<li><b>70 pages, being written</b>: <a href="rc2-70/index.html">the chapters drafted so far, online, with their record</a></li>\n'
+        f'<li><b>3 pages</b>: <a href="ed-03/index.html">online, with its record</a> · <a href="ed-03/pages.html">page by page</a> · <a href="{{{{root}}}}manuscript/one-human-nine-agents-edition-03.pdf">the PDF</a></li>\n'
+        f'<li><b>10 pages</b>: <a href="ed-10/index.html">online, with its record</a> · <a href="ed-10/pages.html">page by page</a> · <a href="{{{{root}}}}manuscript/one-human-nine-agents-edition-10.pdf">the PDF</a></li>\n'
+        f'<li><b>30 pages, RC2</b>: <a href="rc2/index.html">online, with the record under each scene</a> · <a href="rc2/pages.html">page by page</a> · <a href="{{{{root}}}}rc2.html">its page and PDF</a></li>\n'
+        f'<li><b>70 pages, being written</b>: <a href="rc2-70/index.html">the chapters drafted so far, online, with their record</a> · <a href="rc2-70/pages.html">page by page</a></li>\n'
         f'<li><b>The full first version, RC1</b>: <a href="read/index.html">online, with every source linked</a></li>\n</ol>\n'
         f'<p class="note">The 70-page edition grows as the writer drafts it. Made by <code>review/tools/make_editions.py</code>.</p>\n</section>\n')
 

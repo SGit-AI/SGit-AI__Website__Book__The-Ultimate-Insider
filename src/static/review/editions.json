@@ -5634,7 +5634,7 @@
          "text": "Figure: the first page of rules as a card, each line with a small tag saying what it protects: roles, the brief, the check, the version, secrets, instructions."
         }
        ],
-       "record": "C067 (twenty-four minutes) 1f7c633 (CLAUDE.md as first committed, checked against the commit itself: the six lines quoted are its own, one left out and three shortened, before the conductor rewrote the page at 00:44 in 97b98d9; one line on page fragments left out here) timeline/cast-scenes.md scene 1",
+       "record": "C067 (twenty-four minutes) 1f7c633 (CLAUDE.md as first committed, checked against the commit itself: the six lines quoted are its own, one left out and three shortened, before the conductor's own longer page, written in parallel at 00:44 in 97b98d9, met it in the merge at 00:51 (17b287b); one line on page fragments left out here) timeline/cast-scenes.md scene 1",
        "tokens": [
         {
          "token": "C067",
@@ -5670,6 +5670,13 @@
          "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/97b98d9"
         },
         {
+         "token": "17b287b",
+         "kind": "commit",
+         "verified": true,
+         "repository": "talk",
+         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/17b287b"
+        },
+        {
          "token": "timeline/cast-scenes.md",
          "kind": "path",
          "verified": true,
@@ -5702,8 +5709,8 @@
          "text": "Narrator. A brief says what you want. The reality file says what is there. Agents are very good at believing the first and writing as if it were the second, so the rule is that only the reality file counts, and whoever ships something updates it. The first one ended with a list of what did not exist yet, the agent team among it."
         },
         {
-         "id": "r04-de2d13",
-         "text": "Narrator. The fourth is the corrections file, for when the brief turns out to be wrong. On the first night it said, in full: \"None yet.\""
+         "id": "r04-9c6115",
+         "text": "Narrator. The fourth is the corrections file, for when the brief turns out to be wrong. Under its heading and a line saying what it was for, its only entry on the first night was: \"None yet.\""
         },
         {
          "id": "r04-12979b",
@@ -6124,8 +6131,8 @@
        "record_id": "rec-r05-1",
        "paragraphs": [
         {
-         "id": "r05-b5aee4",
-         "text": "Cast bar: the four within the hour lit; the researcher and the designer lit before dawn; the storyteller, motion and studio greyed; one empty chair."
+         "id": "r05-2f8b4b",
+         "text": "Cast bar: the three within the hour lit, and ruv-sgit just after; the researcher and the designer lit before dawn; the storyteller, motion and studio greyed; one empty chair."
         },
         {
          "id": "r05-380bf7",
@@ -6148,8 +6155,8 @@
          "text": "Narrator. Dev's page of rules does something I wish every page did: it says what stands between the agent and each thing it must not do, and how strong that is. Pushing to the main branch: an expectation. Writing another member's files: a setting, which a check catches. Its own words for that check: it \"catches mistakes, not a steered agent\"."
         },
         {
-         "id": "r05-ef63b5",
-         "text": "Conductor (pacing) : The schedule, the keys and the session conventions. I may change my own folder, the team's tools and the team's guides. I route the mail. I never sign for the editor."
+         "id": "r05-b4ed45",
+         "text": "Conductor (pacing) : The schedule, the keys and the session conventions. I may change my own folder, the team's tools and the team's guides. I route the mail. I propose; the editor agrees or drops."
         },
         {
          "id": "r05-c4e3d9",
@@ -6164,11 +6171,15 @@
          "text": "Deck (fussing with its own page) : And never type a version number. That one is somebody else's scar, from another team's bad day. We inherited it."
         },
         {
+         "id": "r05-ca9793",
+         "text": "Narrator. And one a few minutes into hour two: ruv-sgit joined at 01:08, after the conductor's first roster. Its page belongs with these three."
+        },
+        {
          "id": "r05-d5c5c0",
          "text": "ruv-sgit (absorbed, the night owl, not looking up from the workshop bench) : Animations and moving infographics, made in my own runs. I may change my folder and my pages. One rule I learned the hard way: the container is ephemeral. Seal what you keep, or say what you lost, before the session ends."
         }
        ],
-       "record": "talk repository at 298be4e: team/dev/ROLE.md team/dev/policy.json team/conductor/ROLE.md team/conductor/policy.json team/deck/ROLE.md team/deck/policy.json team/ruv-sgit/ROLE.md team/ruv-sgit/policy.json; index/talk-site/members.md",
+       "record": "talk repository at 298be4e: team/dev/ROLE.md team/dev/policy.json team/conductor/ROLE.md team/conductor/policy.json team/deck/ROLE.md team/deck/policy.json team/ruv-sgit/ROLE.md team/ruv-sgit/policy.json; index/talk-site/members.md; C011 (ruv-sgit's first commit 01:08, defe526); historian__030",
        "tokens": [
         {
          "token": "298be4e",
@@ -6239,6 +6250,48 @@
          "verified": true,
          "repository": "book",
          "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/index/talk-site/members.md"
+        },
+        {
+         "token": "C011",
+         "kind": "claim",
+         "verified": true,
+         "claim": "Members of the talk's team",
+         "value": {
+          "staffed": 9,
+          "proposed_never_staffed": [
+           "security"
+          ],
+          "first_commit": {
+           "dev": "00:40 1f7c633",
+           "conductor": "00:44 97b98d9",
+           "deck": "00:51 20ab1a3",
+           "ruv-sgit": "01:08 defe526",
+           "researcher": "01:52 01e9ed3",
+           "designer": "03:41 c6dcf89",
+           "storyteller": "14:15 7d0244d",
+           "motion": "15:31 f1cbca0",
+           "studio": "15:31 8d208d3"
+          },
+          "first_key": {
+           "conductor": "00:51 17b287b (published at team/keys/conductor.json; moved to team/conductor/key.json at 00:58, 41d38ba)",
+           "researcher": "01:52 01e9ed3",
+           "dev": "01:53 56cbe55",
+           "deck": "02:20 79b6709",
+           "ruv-sgit": "02:36 1c7d22c",
+           "designer": "03:41 c6dcf89",
+           "storyteller": "14:15 7d0244d",
+           "motion": "15:31 f1cbca0",
+           "studio": "15:31 8d208d3"
+          }
+         },
+         "state": "open"
+        },
+        {
+         "token": "defe526",
+         "kind": "commit",
+         "verified": true,
+         "repository": "talk",
+         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/defe526"
         }
        ]
       },
@@ -6564,8 +6617,8 @@
        "record_id": "rec-r06-1",
        "paragraphs": [
         {
-         "id": "r06-53abb7",
-         "text": "Cast bar: the four within the hour, and the researcher from about two (C011). The conductor at the centre of this chapter."
+         "id": "r06-27e45b",
+         "text": "Cast bar: the first four, and the researcher from about two (C011). The conductor at the centre of this chapter."
         },
         {
          "id": "r06-fdee92",
@@ -13171,7 +13224,7 @@
          "text": "The 30-page edition's last chapter, the five steps and their lines, kept as written. The researcher's register for the cost line. The \"do this now\" of every chapter of this edition, gathered. My running line, as I chose it. The storyteller's outline for this chapter."
         }
        ],
-       "record": "claims/register.json C037 C101; book.json RL1; manuscript/rc2/30/05-the-factory-rebuilt-and-yours.md; manuscript/rc2/70/01-slides-as-a-compromise.md to 15-principles.md; chapter-plan/edition-70-outline.md part 5 chapter 16",
+       "record": "claims/register.json C037 C101; book.json RL1; manuscript/rc2/30/05-the-factory-rebuilt-and-yours.md; manuscript/rc2/70/01-slides-as-a-compromise.md to 14-the-second-factory-and-the-third.md (15-principles.md folded into this chapter); chapter-plan/edition-70-outline.md part 5 chapter 16",
        "tokens": [
         {
          "token": "claims/register.json",
@@ -13226,6 +13279,11 @@
          "verified": true,
          "repository": "book",
          "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/manuscript/rc2/70/01-slides-as-a-compromise.md"
+        },
+        {
+         "token": "14-the-second-factory-and-the-third.md",
+         "kind": "path",
+         "verified": false
         },
         {
          "token": "15-principles.md",

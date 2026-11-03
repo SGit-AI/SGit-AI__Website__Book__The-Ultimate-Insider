@@ -3,7 +3,36 @@
  "agent": "developer",
  "kind": "scheduled, hourly at :12 (ACC1)",
  "started": "2026-11-03T12:13:59Z",
- "steps": {},
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (plan brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused",
+   "model": "",
+   "verdict": "go",
+   "comment": "(1) A8: pages_view also writes rc2-70, ed-03 and ed-10 pages.html; 'Page by page' on each index and the zoom; a page is a printed page in ed-03/ed-10 (publishing/edition.py), a scene in rc2/rc2-70, each says which. (2) Board 007, status, debrief, REALITY, agents check, gate, push.",
+   "at": "2026-11-03T12:14:36Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (pre_review brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope, no hold, same filtered data. Conditions: gate (and vault_check if comms touched) before push; other members' paths and REALITY outside my heading untouched. Noted: it ran in parallel with the plan step, so the plan comment was empty and it reviewed the plan from the developer's brief.",
+   "at": "2026-11-03T12:14:36Z"
+  },
+  "work": {
+   "by": "developer@book.the-ultimate-insider",
+   "model": "",
+   "verdict": "done",
+   "comment": "In 9313b464: pages.html for rc2-70 (82 scene-pages), ed-03 (4) and ed-10 (10) printed pages, rc2 (33); linked from each index and the zoom; checked in Chromium: keys, no errors, no outside request, no %%.",
+   "at": "2026-11-03T12:17:37Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (post_check brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Both items in 9313b464, pre-review conditions held, rebuilt drafts not hand-edited. Stale status state line corrected before close. (Its gate count of 300 files was from a partly built _site/; the developer's gate before push read 704, clean.)",
+   "at": "2026-11-03T12:18:19Z"
+  }
+ },
  "closed": null,
  "outcome": null
 }
