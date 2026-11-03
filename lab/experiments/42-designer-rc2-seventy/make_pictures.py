@@ -31,6 +31,8 @@
   dropped, the chapter's own ellipses kept), each tagged with what it protects; the last one marked; checked at build.
 - ch11-five-misses.svg: the five misses as five cards on one page, each its heading and its "What it cost:" line read
   from chapter 11 at build, its id in small type as the thirty's cards gave them (each C id checked in the register).
+- ch3-first-two-hours.svg: the project's first two hours as a stack, oldest at the bottom: four commits, each with who
+  wrote it and the files it added, read with git at 298be4e (no times printed).
 No number is printed but the hold's time, ids, C029's and C087's counts and the chapters' own times. One SVG unit a millimetre, sizes stated, text 9 pt.
 """
 import json, re, subprocess, sys
@@ -358,6 +360,46 @@ def five_misses():
     return mc.svg(164, round(y + 4.6, 1), "".join(out), "The five misses as five cards, each with its cost in a line and where it rests")
 
 
+LAYERS = [("2e4b1f4", "the first commit, the editor's", None, ["README.md", "LICENSE", ".gitignore"]),
+          ("1f7c633", "dev's first pass, with its four files", "dev", ["CLAUDE.md", "BRIEF.md", "REALITY.md", "BRIEF-CORRECTIONS.md"]),
+          ("97b98d9", "the conductor's roster", "conductor", ["data/team.json", "data/schedule.json"]),
+          ("09f13d5", "the schedule and the hold", "conductor", ["team/conductor/WAKE.md", "team/conductor/schedule.json"])]
+
+
+def first_two_hours(clone):
+    out = []
+    n = len(LAYERS)
+    lh, gap = 16.0, 3.0
+    for i, (h, words, who, files) in enumerate(LAYERS):
+        changed = subprocess.run(["git", "-C", clone, "show", "--name-only", "--format=", h], capture_output=True, text=True, check=True).stdout.split()
+        missing = [f for f in files if f not in changed]
+        if missing:
+            sys.exit(f"make_pictures: {h} does not add {missing}")
+        if who is None and subprocess.run(["git", "-C", clone, "log", "-1", "--format=%an", h], capture_output=True, text=True,
+                                          check=True).stdout.strip() != "Dinis Cruz":
+            sys.exit(f"make_pictures: {h} is not the editor's commit")
+        y = (n - 1 - i) * (lh + gap)  # oldest at the bottom
+        x = i * 6.0
+        top = i == n - 1
+        out.append(f'<rect x="{x + .3:.1f}" y="{y + .3:.1f}" width="{163.4 - x - .3 - (n - 1 - i) * 0:.1f}" height="{lh}" rx="1.6" fill="{"#fbe9df" if top else "#fff"}" stroke="{mc.ACCENT if top else mc.INK}" stroke-width=".45"/>')
+        if who:
+            out.append(g(mc.head(who), x + 1, y + 1.4, .34))
+        else:
+            out.append(g(narrator_head_small_42(), x + .4, y + 1.2, .3))
+        out.append(t(x + 13, y + 6, words, 800) + t(163.4 - 2, y + 6, h, 400, mc.MUTED, "end")
+                   + t(x + 13, y + 11.6, " \u00b7 ".join(files), 400, mc.INK))
+        if i < n - 1:
+            out.append(f'<path d="M{x + 9} {y - .6:.1f} v-{gap - 1.2:.1f}" stroke="{mc.FILL2}" stroke-width=".6"/>')
+    H = n * (lh + gap) - gap
+    out.append(t(0, H + 5, "one commit a layer, oldest at the bottom; each layer's files read from its commit at 298be4e", 400, mc.MUTED))
+    return mc.svg(164, round(H + 6.8, 1), "".join(out), "The project's first two hours as a stack of files, one commit a layer, each labelled with who wrote it")
+
+
+def narrator_head_small_42():
+    return (f'<circle cx="20" cy="18" r="8.6" fill="{mc.FILL}" stroke="{mc.INK}" stroke-width="{mc.SW * 1.6}"/>'
+            f'<g transform="translate(0 .2)">{mc.face("happy")}</g>')
+
+
 FLOORS = [("the talk", ("src/static/talk/",)),
           ("the workshop of animations", ("src/static/ruv-sgit/", "src/pages/ruv-sgit/", "src/static/motion/", "src/pages/motion/")),
           ("the studio", ("src/pages/studio/", "src/static/studio/", "src/static/studio-ports/", "src/pages/studio-ports/")),
@@ -491,7 +533,8 @@ if __name__ == "__main__":
              "ch8-register-bar.svg": register_bar(), "ch16-checklist.svg": checklist(),
              "ch2-dashboard.svg": dashboard(clone), "ch2-site-building.svg": site_building(clone),
              "ch2-wakes-page.svg": wakes_page(clone), "ch2-member-page.svg": member_page(clone),
-             "ch7-wakes-card.svg": wakes_card(), "ch3-team-pattern.svg": team_pattern(), "ch3-first-rules.svg": first_rules(), "ch11-five-misses.svg": five_misses()}
+             "ch7-wakes-card.svg": wakes_card(), "ch3-team-pattern.svg": team_pattern(), "ch3-first-rules.svg": first_rules(), "ch11-five-misses.svg": five_misses(),
+             "ch3-first-two-hours.svg": first_two_hours(clone)}
     if (R70 / "15-principles.md").exists():
         files["ch15-six-principles.svg"] = six_principles()
     else:  # chapter 15 was folded into 16 and removed: the drawing stays as last built from it, not rebuilt

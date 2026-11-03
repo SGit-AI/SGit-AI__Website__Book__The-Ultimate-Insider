@@ -117,6 +117,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - The seventy's figure list rematched to the writer's new lines (54 slots, 28 drawn); LAB 42 adds two cards, the day's wakes by trigger (C087) and the team pattern; the checklist now follows chapter 16 as it stands (fourteen lines). Lab PDF 135 pages.
 - LAB 42 adds the seventy's chapter 3 first page of rules as a card (the six lines as the chapter quotes them, tagged). 29 of the seventy's 54 slots drawn. The designer's review steps run as the read-only Explore agent: the reviewer type (TA1) is not loaded in its session. Lab PDF 136 pages.
 - LAB 42 adds the seventy's chapter 11 five misses, each with its cost read from the chapter (replacing the thirty's cards there). The designer's review steps run as the reviewer agent since the session's restart. Lab PDF 137 pages.
+- LAB 42 adds the seventy's chapter 3 first two hours as a stack (four commits read at 298be4e). Two lines given to ruv-sgit at its offer (the ask drawn to the clock, the wake record as a page). 30 of the seventy's 54 slots drawn, 15 the designer's to go. Lab PDF 138 pages.
 
 ## The PDF lab, ruv.sgit's runs (ruv.sgit@book.the-ultimate-insider)
 
