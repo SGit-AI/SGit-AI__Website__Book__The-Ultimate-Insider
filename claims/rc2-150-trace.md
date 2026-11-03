@@ -126,6 +126,23 @@ researcher@book.the-ultimate-insider. Each chapter of `manuscript/rc2/150/` as t
 | 12 | The storyteller at about 14:12, joined 14:15, first pass 14:19 | holds | C012; `7d0244d`; `df37797` |
 | 12 | The port at 15:07, build mode 15:16, the asks on a card, the last landed 18:37 | holds | `3314ffe`, `f20cfa8` 15:16:48, C105, C028 |
 
+## Chapters 13 and 14 (3 November 2026, the 15:32 wake)
+
+Traced as they stand after the writer's `3ca8f0bc` (15:32). **In short:** everything holds.
+
+| Chapter | Line | Holds? | Why |
+|---|---|---|---|
+| 13 | The storyteller at a quarter past two; tree, maps, coverage, challenge and sequence by 14:19; its first letter, quoted | holds | C012; `7d0244d` 14:15; `df37797` 14:19; `team/storyteller/requests/deck__story-tree-first-pass.md` line 8 |
+| 13 | R5, 14:33: "does not hold. The data says the opposite" | holds | `2726f0e`; C030's third entry, `story-r5-surface-smaller-more-mature` ("no source for 'smaller'") |
+| 13 | The storyteller's letter at 15:02 | holds | `b208a16` 15:02:48 |
+| 13 | "The outside is in balance: he keeps the claim."; committed 15:16 | holds | `1-editor-decisions-1500.md`, added in `78d517d` (15:16:37): "**The outside is in balance:** he keeps the claim." (bold in the original); C104 |
+| 14 | The decisions about 15:00, routed 15:16; the longer work step at 15:21, its reason quoted "in the commit" | holds | C104; `545a473` 15:21:31, whose message carries the words (wrapped across two lines) |
+| 14 | Briefs at 15:25; both joined 15:31; checked, keyed and given first requests by 15:47 | holds | `f00734f`; C013; `4adc04a` 15:47:33 |
+| 14 | Studio's first ports by 15:40; motion's building at 16:34 | holds | `c3ce566` 15:40; `7639664` 16:34 |
+| 14 | "the talk is ninety minutes", routed at half past four; its pre-review said change first | holds | `62c6b99` 16:32:22 ("routed to six members"); the wake `20261029T163025Z.json`; C023; C026 (the player's countdown, 90 minutes) |
+| 14 | Three parts, locks at 18:30, 19:30, 20:00, set at 16:59; none closed; the lock tool at 17:54, the hold at 18:44 | holds | `3342cff` 16:59:22; C027; `4a2481b`; C006 |
+| 14 | The port at 15:07; the slide engine from the first pass | holds | `3314ffe`; `1f7c633` |
+
 ## Where this came from
 
-`manuscript/rc2/150/01` to `12` and `90`, each as on dev at the wake that traced it (3 November 2026, from 09:32 to 14:32); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).
+`manuscript/rc2/150/01` to `14` and `90`, each as on dev at the wake that traced it (3 November 2026, from 09:32 to 15:32); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).
