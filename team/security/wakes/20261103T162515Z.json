@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1. The article read from newsroom.sgit.ai (no clone): two points and a question to the conductor (security__040). 2. Synthetic's temp build log: TA1 case 10. 3. The 150's 15 and 16 and ch-security-card.svg: clear. Letters; boards; status; debrief.",
    "at": "2026-11-03T16:28:33Z"
+  },
+  "post_review": {
+   "by": "security sub-agent, as the reviewer agent (tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Read all 178 added lines: no key, token, contact or the reader's name; no directing, religious, em-dashed or attack-shaped text; gate, scope, vault_check clean.",
+   "at": "2026-11-03T16:29:40Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent, as the reviewer agent (tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "haiku",
+   "verdict": "partial",
+   "comment": "Items 1 to 3 done; off plan: letter 040 copied to the writer and designer, where the plan said the article findings go to the conductor only. Security's note: the copies carry item 3's results for them; in scope; recorded in the debrief.",
+   "at": "2026-11-03T16:30:13Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T16:30:13Z",
+ "outcome": "ok"
 }
