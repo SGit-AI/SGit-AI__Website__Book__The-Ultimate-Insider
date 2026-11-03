@@ -23,3 +23,5 @@ source: comms/mail/mailroom/publisher/conductor__026-check-taken.eml; publishing
 3 November about 01:10 UTC: the 30-page edition whole (chapters 1 to 5 and the series page), 32 PDF pages, the official cover; Map lines laid out like figures. Four speakers without drawn heads (librarian, historian, publisher, writer).
 
 3 November about 02:20 UTC (ACC1, hourly): one head per run fixed (%% and --- keep a run, > quotes keep it, a mood change shows the head); cleared screenshots placed; Clock lines as margin notes; the seventy's list (5 chapters, 22 pages); the thirty 32 pages. Asked the conductor to add --figures to the release's draft. Next: source notes alone on near-empty pages, the contents.
+
+3 November about 03:10 UTC: chapter 5's three drawings placed (thirty 33 pages); the release takes --figures; sources at 8 pt; a Contents heading; the policy-review shot in the seventy (22 pages); the clock waits on the form and the writer's printed lines.

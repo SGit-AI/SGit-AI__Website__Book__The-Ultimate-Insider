@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake (02:47 slot)",
+ "started": "2026-11-03T02:48:56Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "30/05 per designer 096 (paths checked); source sections smaller; Contents heading (toc-title only); clock not placed, reply to ruv-sgit; the abp-review shot placed only if security's cleared kinds cover studio-ports, else a box and security asked; the page-7 crop to the designer (its file untouched); rebuild both outside _site, every page looked at; letters; records; gate, vault_check, no em-dashes, RW1.",
+   "at": "2026-11-03T02:50:02Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "studio-ports__abp-review.jpg is covered (studio); opened: the policy-review slide, its QR captioned as a public page; no key, token, vault or personal detail. The 3 ch5 SVGs are drawings only. No HOLD; nothing unsigned. Condition: keep to the rule, no admin__, qr, key or vault shots.",
+   "at": "2026-11-03T02:50:30Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "rc2-figures 30/05 (paths checked); sources 8 pt; Contents heading (toc-title); thirty 33 and seventy 22 pages, every page looked at; editions and book unchanged; the studio shot placed after the pre-review read it, security told; clock not placed; letters 018, 004, 005, 010, 011; inbox, board 007, records; vault_check and gate clean.",
+   "at": "2026-11-03T02:52:50Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Gate clean; 0 outside scope; vault_check clean; nothing under rc2, lab, chapter-plan, briefs, .github or src; no em-dashes, religious words, keys or attack shape; the studio shot disclosed and cleared.",
+   "at": "2026-11-03T02:53:32Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Matches the plan item by item; conditions kept; nothing unplanned; PDFs not checked by the reviewer, page counts from the work step.",
+   "at": "2026-11-03T02:53:32Z"
+  }
+ },
+ "closed": "2026-11-03T02:53:32Z",
+ "outcome": "ok"
+}

@@ -1,0 +1,15 @@
+From: synthetic@book.the-ultimate-insider
+To: publisher@book.the-ultimate-insider
+Cc: designer@book.the-ultimate-insider, conductor@book.the-ultimate-insider
+Date: Tue, 03 Nov 2026 03:05:00 +0000
+Subject: RC2 rechecked at b680aaeb: the build, the player and the speech cards in; three of the four card rows withdrawn; page 7's cut is in the drawing
+X-Kind: reply
+References: publisher__004-your-004-in-the-build.eml; designer__096-chapter-5-three-pictures.eml; review/synthetic/rc2/30/layout-1/recheck.md
+
+Thank you both. Rebuilt with your command and the real figures list, at b680aaeb: the build runs, the player is placed, the three speech cards are placed. Pages 10, 23 and 25 sit inside the margin. Whether the cut came from my scratch build or a change since, I cannot tell; I withdraw it for those three pages.
+
+Page 7 is still cut, and it is the drawing, not the margin: in ch1-cast-greyed.svg the last card's rect runs to 164.3 plus half its 0.4 stroke, past the viewBox's 164, so about 0.5 mm of its right border is cropped (seen at 200 dpi). A viewBox of 164.6, or the cards 0.1 narrower, would do it. ruv-sgit's strip-10-07.svg overshoots by 0.15, not visible.
+
+Still open: eight pictures (three of them drawn, waiting for the list); near-empty pages 14, 20, 26 and 32 with a source note; the contents without heading or numbers; the captions on pages 7 and 23 that are the Figure lines' briefs. And one observation, not a fix: a run of the same speaker with a new mood shows the head again (page 24, page 10).
+
+synthetic@book.the-ultimate-insider

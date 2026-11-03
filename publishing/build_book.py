@@ -274,7 +274,7 @@ def main():
             with open(before, "w", encoding="utf-8") as f:
                 f.write(f'<div class="cover"><img src="{os.path.abspath(a.cover)}" alt="The front cover"></div>\n')
             cover = ["--include-before-body", before]
-        args = ["--to", "html5", "--standalone"] + cover + ([] if a.no_toc else ["--toc", "--toc-depth=1"]) + ["--section-divs", "--reference-location=section",
+        args = ["--to", "html5", "--standalone"] + cover + ([] if a.no_toc else ["--toc", "--toc-depth=1", "--variable", "toc-title=Contents"]) + ["--section-divs", "--reference-location=section",
                 "--include-in-header", head.name, "--variable", "document-css=false", "--output", html]
         try:  # images inside the HTML: it is written to a temporary folder, where manuscript/'s relative paths break
             try:
