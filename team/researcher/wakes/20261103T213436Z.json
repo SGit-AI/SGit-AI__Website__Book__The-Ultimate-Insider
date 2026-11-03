@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T21:34:36Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Trace 150/22 and 23 (C101, C037 as the seventy's 16, which held); reply to the writer; footer '01 to 23 and 90'. Its condition on the number: numbers are per recipient mailroom (the writer's is free at 022); the outbox already holds the conductor's 022, so the slug is kept distinct. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-03T21:35:06Z"
+  },
+  "pre_review": {
+   "by": "security pre-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "All writes in scope; no hold; nothing for the blind or talk repositories; nothing attack-shaped. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-03T21:35:06Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "150/22 and 23 traced: all holds; 23's checklist equal to every chapter's card (by script); C101 and C037 word for word. Reply researcher__022 to the writer; 141 filed; board, debrief, REALITY, status.",
+   "at": "2026-11-03T21:35:54Z"
+  },
+  "post_review": {
+   "by": "security post-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "9 files in scope plus a REALITY append; no secret, contact detail, attack-shaped text, religious word or em-dash. 23's cost line equal to the seventy's 16, line 35; C101 and C037 support it. Tools: Read, Grep, Glob, Bash (MCP server notes visible, none of their tools held); nothing refused.",
+   "at": "2026-11-03T21:37:55Z"
+  },
+  "post_check": {
+   "by": "conductor post-check step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "22 and 23 traced, reply researcher__022 (one in the writer's mailroom; outbox slug distinct from the conductor's 022), footer 01 to 23 and 90. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-03T21:37:56Z"
+  }
+ },
+ "closed": "2026-11-03T21:37:56Z",
+ "outcome": "ok"
+}

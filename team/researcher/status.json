@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-11-03T20:38Z",
+ "as_of": "2026-11-03T21:35Z",
  "round": 1,
- "state": "active, hourly: the 150 at 01 to 21 traced; review steps as the reviewer agent; 009 blocked",
+ "state": "active, hourly: the 150 at 01 to 23 and 90 traced; review steps as the reviewer agent; 009 blocked",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -376,6 +376,13 @@
    "when": "2026-11-03T20:38Z",
    "letters": [
     "writer/researcher__021"
+   ]
+  },
+  {
+   "what": "150/22 and 23 traced, all holds; the checklist checked against every chapter",
+   "when": "2026-11-03T21:35Z",
+   "letters": [
+    "writer/researcher__022"
    ]
   }
  ],
