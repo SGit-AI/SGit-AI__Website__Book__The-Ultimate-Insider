@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake (13:47 slot)",
+ "started": "2026-11-03T13:49:31Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; Bash only)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Lists built first; the designer's list copied (70/03), rechecked; the 150 map recomputed; 11 and 12 after 10, before 90; 056 and 110 acknowledged only, nothing drawn; rebuild outside _site; letters, records, gates. No HOLD; in scope.",
+   "at": "2026-11-03T13:50:16Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; Bash only)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "No HOLD; in scope; rebuild outside _site; the ch3 SVG a drawing only, no private detail; talk__player.jpg already placed. Conditions: lab/ read only; gate before push.",
+   "at": "2026-11-03T13:50:50Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Lists built first; the designer's list copied; the full book's map recomputed; 11 and 12 in the list; thirty 29, seventy 58, full 65 pages, new chapters checked; letters 012, 029, 020; inbox, board 007, records; vault_check and gate clean.",
+   "at": "2026-11-03T13:52:20Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; Bash only, none refused)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Gate clean; 0 outside scope; vault_check clean; 16 staged paths in scope; lab/ referenced only; no key, contact, private name, em-dash, religious, directing or attack text; no HOLD.",
+   "at": "2026-11-03T13:53:37Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Plan kept item by item; pre-review conditions kept; nothing unplanned.",
+   "at": "2026-11-03T13:53:37Z"
+  }
+ },
+ "closed": "2026-11-03T13:53:38Z",
+ "outcome": "ok"
+}

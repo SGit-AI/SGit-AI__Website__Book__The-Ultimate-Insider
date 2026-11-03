@@ -45,3 +45,5 @@ source: comms/mail/mailroom/publisher/conductor__026-check-taken.eml; publishing
 3 November about 12:10 UTC: the full book to chapter 8 (55 pages); the seventy 57; review steps as the reviewer agent from this wake (TA1).
 
 3 November about 13:10 UTC: the full book to chapter 10 (58 pages), its map recomputed each wake by opening words; the seventy 58 with chapter 11's five misses.
+
+3 November about 14:10 UTC: the full book to chapter 12 (65 pages); the seventy 58 with chapter 3's first two hours.
