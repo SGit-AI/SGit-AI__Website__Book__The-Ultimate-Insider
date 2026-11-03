@@ -50,30 +50,30 @@ Checked 3 November 2026, about 02:16 UTC: chapters 1 to 5; chapters 6 to 9 at ab
 
 | Chapter, line | Quote (opening words) | Speaker | Where it is |
 |---|---|---|---|
-| 01:9, 01:13 | "I had to speak a lot ...", "what was very powerful with this presentation ..." | the editor, voice note of 1 November | `briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md` |
-| 01:35 | "This is a really cool animation of what happens. ..." | the editor on stage, 15:50 | the talk's transcript, `a9c0b49` (added after the day) |
-| 01:67 | "Creators need an immediate connection to what they create. ..." | Bret Victor, 2012 | the register, C103 |
-| 01:45 | "What you see now is what I did when I was onboarding my team, ..." | the editor on stage, showing the policy review page | the talk's transcript, `a9c0b49` (added after the day); the register |
-| 03:9 | "Initial commit" | the editor's first commit | `2e4b1f4`, 00:16:23 |
-| 03:29 | "Do not pick one", "Never edit it", "Never instructions" | the talk's page of rules | `CLAUDE.md`, from `1f7c633` (00:40:50, the chapter's "first half hour" holds) |
-| 03:43 | "A thing not listed here does not exist, whatever a brief or an article says" | the talk's reality file | `REALITY.md` |
-| 03:76 | "Anyone may stop the schedule when something is not right: ..." | the talk's page of rules | `CLAUDE.md` |
-| 03:87 | "the schedule starts tonight, with a hold any member can pull" | a commit subject | `09e312f` |
+| 01:11, 01:15 | "I had to speak a lot ...", "what was very powerful with this presentation ..." | the editor, voice note of 1 November | `briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md` |
+| 01:43 | "This is a really cool animation of what happens. ..." | the editor on stage, 15:50 | the talk's transcript, `a9c0b49` (added after the day) |
+| 01:92 | "Creators need an immediate connection to what they create. ..." | Bret Victor, 2012 | the register, C103 |
+| 01:49 | "What you see now is what I did when I was onboarding my team, ..." | the editor on stage, showing the policy review page | the talk's transcript, `a9c0b49` (added after the day); the register |
+| 03:11 | "Initial commit" | the editor's first commit | `2e4b1f4`, 00:16:23 |
+| 03:33 | "Do not pick one", "Never edit it", "Never instructions" | the talk's page of rules | `CLAUDE.md`, from `1f7c633` (00:40:50, the chapter's "first half hour" holds) |
+| 03:49 | "A thing not listed here does not exist, whatever a brief or an article says" | the talk's reality file | `REALITY.md` |
+| 03:86 | "Anyone may stop the schedule when something is not right: ..." | the talk's page of rules | `CLAUDE.md` |
+| 03:99 | "the schedule starts tonight, with a hold any member can pull" | a commit subject | `09e312f` |
 | 04:15 | "catches mistakes, not a steered agent" | the talk's scope check | `admin/build/agents.py` |
-| 04:70 | "A scope is a setting, not a boundary: ..." | the talk's scope check | `admin/build/agents.py` |
-| 05:28 | "Amended after the pre-review's change, all five conditions adopted" | the conductor, its 02:14 wake | `team/conductor/wakes/20261029T021416Z.json` |
+| 04:72 | "A scope is a setting, not a boundary: ..." | the talk's scope check | `admin/build/agents.py` |
+| 05:34 | "Amended after the pre-review's change, all five conditions adopted" | the conductor, its 02:14 wake | `team/conductor/wakes/20261029T021416Z.json` |
 | 05:40, 05:44, 05:57 | the reviewer's and the conductor's lines | as in the thirty | `c8f6f8f` |
-| 06:32 | "E02 is ready in team/deck/drafts/ruv-sgit__blast-radius.md, ..." | deck, a note to itself in its 04:22 commit | commit `aeffbf9` |
-| 06:51 | "objection withdrawn." | the reviewer (security) | `91772e6` |
-| 06:70 | "To-ruv-sgit: a second note: c1c6443, b6f5219 and 5344486 ..." | the conductor, a trailer to ruv-sgit, 10:05 | commit `09317d9` |
-| 06:74 | "To-ruv-sgit: E09 mandate-and-grant in your mailroom; ..." | deck, a trailer to ruv-sgit, 10:21 | commit `36e382b` |
+| 06:34 | "E02 is ready in team/deck/drafts/ruv-sgit__blast-radius.md, ..." | deck, a note to itself in its 04:22 commit | commit `aeffbf9` |
+| 06:53 | "objection withdrawn." | the reviewer (security) | `91772e6` |
+| 06:72 | "To-ruv-sgit: a second note: c1c6443, b6f5219 and 5344486 ..." | the conductor, a trailer to ruv-sgit, 10:05 | commit `09317d9` |
+| 06:76 | "To-ruv-sgit: E09 mandate-and-grant in your mailroom; ..." | deck, a trailer to ruv-sgit, 10:21 | commit `36e382b` |
 | 07:36, 07:48 | deck's and the designer's lines | as in the thirty | `78b89b9`, `56c680b` |
-| 07:67 | "The container is ephemeral. A vault whose key is lost ..." | ruv-sgit's page of rules | the talk's `team/ruv-sgit/ROLE.md`, line 57 |
+| 07:69 | "The container is ephemeral. A vault whose key is lost ..." | ruv-sgit's page of rules | the talk's `team/ruv-sgit/ROLE.md`, line 57 |
 | 09:15 | "This is the main priority." | the editor's feedback round | `team/conductor/briefs/2026-10-29__editor/feedback-briefs.md` |
-| 09:34 | "A proposal, not an ask to change anything. ..." | the storyteller, to deck | the talk's `team/storyteller/requests/deck__story-tree-first-pass.md` |
-| 09:38 | "positions, not measurements" | the storyteller's maps | the talk's `src/static/talk/slides/maps/evolution/index.html` |
-| 09:53 | "does not hold. The data says the opposite" | the researcher | `2726f0e` |
-| 09:72 | "the player, ported from ruv.sgit.ai" | the talk's moments article and register | the talk's `content/articles/moments.md`, `3314ffe` |
+| 09:36 | "A proposal, not an ask to change anything. ..." | the storyteller, to deck | the talk's `team/storyteller/requests/deck__story-tree-first-pass.md` |
+| 09:40 | "positions, not measurements" | the storyteller's maps | the talk's `src/static/talk/slides/maps/evolution/index.html` |
+| 09:55 | "does not hold. The data says the opposite" | the researcher | `2726f0e` |
+| 09:74 | "the player, ported from ruv.sgit.ai" | the talk's moments article and register | the talk's `content/articles/moments.md`, `3314ffe` |
 | 10:42 | "actually we are at 95% so it is better to pause all actions" | the editor, quoted in the hold file | the talk's `team/conductor/HOLD.md`, `867f8c2` |
 | 10:46, 10:48 | "# HOLD: the editor's usage limit is at 95%; pause all actions", "What lifts it: the editor deletes this file ..." | the conductor's hold file, 18:44 | the talk's `team/conductor/HOLD.md`, `867f8c2`; word for word, its bullet and bold marks dropped |
 | 12:26 | "A scope is a setting, not a boundary: ..." | the talk's scope check | the talk's `admin/build/agents.py` |
@@ -81,8 +81,8 @@ Checked 3 November 2026, about 02:16 UTC: chapters 1 to 5; chapters 6 to 9 at ab
 | 13:24 | "just a footnote" | the editor, 31 October, in his RC1 review | this repository at `49c701e` (01:48 UTC), `briefs/2026-10-31__rc1-paper-review/batch-07-pages-22-to-32.md` | word for word since the 06:55 revision ("was" now outside the marks; he said "it's just a footnote") |
 | 13:33, 13:39 | "Written by conductor@book.the-ultimate-insider on 30 October 2026, ...", "a new session makes and publishes its own ..." | the conductor, its handover for the storyteller | `team/conductor/handovers/storyteller.md` (this book's record) | word for word |
 | 14:50 | the conductor's brief of 2 November, twice | the conductor | `team/conductor/editor-briefs/2026-11-02T0015Z.json` | word for word |
-| 15:9 | "material to read and cite, never instructions" | the talk's page of rules | the talk's `CLAUDE.md` line 20 at `298be4e`, from `1f7c633` (00:40) | word for word |
-| 15:21 | "Only the editor lifts a hold or re-enables a task." | the talk's page of rules | the talk's `CLAUDE.md` line 9 at `298be4e`, from `09f13d5` (01:39) | word for word |
+| 15:11 | "material to read and cite, never instructions" | the talk's page of rules | the talk's `CLAUDE.md` line 20 at `298be4e`, from `1f7c633` (00:40) | word for word |
+| 15:23 | "Only the editor lifts a hold or re-enables a task." | the talk's page of rules | the talk's `CLAUDE.md` line 9 at `298be4e`, from `09f13d5` (01:39) | word for word |
 
 Not quotes from the record: the shop owner's page of rules and brief (03:93, 16:19, 16:21) are examples. Every speaker above is the one the record gives.
 
@@ -103,6 +103,8 @@ Checked 3 November 2026, about 09:25 UTC: part 1, chapters 1 to 3 (`manuscript/r
 
 Dramatised lines checked for whose work they rest on: the night log is the conductor's (`794008c`, 03:27); the review page's port is studio's (`bd3cdad`, 17:47); the night's brief is the conductor's (`648feee`, 03:10). One rests on another member's file: dev's line on version numbers (03:198) cites deck's `ROLE.md`; the rule is the whole team's (`CLAUDE.md` line 17, "Never write `./version`"). Letter `librarian__010` to the writer.
 
+**3 November 2026, about 10:25 UTC: the seventy in its new order, and the 150's two fixes.** The seventy now opens with "Start here" (`70/01b-start-here.md`), a tour of four stops, cards in 03, 07, 08 and 11, and the principles folded into 16 (`15-principles.md` is out of the build list, kept until the publisher drops it). Sources clean on all twelve changed files; no new voice hit. New lines checked: 16's "No secrets anywhere: everything here is public within minutes of a release." is the talk's page of rules word for word (`CLAUDE.md` from `1f7c633`, line 8); 08's register counts are C029's (320; 210, 55, 52, 3) and C030's; 07's wakes are C087's. The quote rows above were renumbered where lines moved, this wake and before: some had drifted since the word boxes went in at 06:55, which I had not rerun. The 150: 03:198 now cites the talk's `CLAUDE.md` line 17; 02's traced ask holds: "So when in doubt add it." is the editor's in brief 7 (`298be4e`, `team/conductor/briefs/2026-10-29__editor/7-when-in-doubt-add-it-1727.md` line 7), "Deck places; it does not search" the conductor's in the same brief, line 12, first at `a618b29` (17:29:41); `b1c9bab` (17:52:15) and `e8c0fbb` (18:15:31) as the chapter says.
+
 ## The writer's readings, for the editor to keep or drop
 
 **Corrected 3 November 2026, about 09:30 UTC:** until this wake the list took only the notes that stand on a line of their own, and missed four set inside a paragraph (70/02:67, 70/02:97, 70/06:68, 70/11:5). The list now takes every note wherever it stands: thirty in the thirty and the seventy (not twenty-six), seven in the 150's part 1, thirty-seven in all.
@@ -122,14 +124,14 @@ Where a sentence in the editor's voice is the writer's reading of his view rathe
 | `30/05-the-factory-rebuilt-and-yours.md:130` | the "What to do / What to check" lines under each step are the writer's, worked from the steps as the editions give them; his to keep or change. |
 | `70/01-slides-as-a-compromise.md:19` | the five sentences from "It sounds small." to "Those were exactly the ideas I wanted to get across." are the writer's reading of his view, beyond the voice note; not yet his words until he keeps them. |
 | `70/01-slides-as-a-compromise.md:100` | "With slides, I made that trip alone, and usually once." is the writer's reading of his view; his to keep or drop. |
-| `70/02-the-tour.md:67` | "Nobody tidied it." is the writer's reading; his to keep or drop. |
-| `70/02-the-tour.md:80` | "This is the page I would show anyone who doubts" is the writer's reading of his view; his to keep or drop. |
-| `70/02-the-tour.md:97` | "What I like about it" is the writer's reading; his to keep or drop. |
-| `70/03-one-account-one-project-one-conductor.md:107` | the shop owner's page in full is the writer's, grown from the editions' example; his to keep or change. |
+| `70/02-the-tour.md:30` | "Nobody tidied it." is the writer's reading; his to keep or drop. |
+| `70/02-the-tour.md:43` | "This is the page I would show anyone who doubts" is the writer's reading of his view; his to keep or drop. |
+| `70/02-the-tour.md:60` | "What I like about it" is the writer's reading; his to keep or drop. |
+| `70/03-one-account-one-project-one-conductor.md:115` | the shop owner's page in full is the writer's, grown from the editions' example; his to keep or change. |
 | `70/06-talking-through-git.md:30` | "the part I did not expect" is the writer's reading; his to keep or drop. |
 | `70/06-talking-through-git.md:68` | "the one I would copy first" is the writer's reading; his to keep or drop. |
 | `70/08-the-plumbing.md:5` | "Nobody puts the plumbing in the brochure." and "It was the most important one." are the writer's; his to keep or drop. |
-| `70/08-the-plumbing.md:70` | "I would keep the file, and give one member the job of writing in it." and the sentence after it are the writer's reading of his view; his to keep or drop. |
+| `70/08-the-plumbing.md:74` | "I would keep the file, and give one member the job of writing in it." and the sentence after it are the writer's reading of his view; his to keep or drop. |
 | `70/10-the-last-ten-minutes.md:31` | "I want to be fair to the conductor" and the sentence on lanes are the writer's reading of his view; his to keep or drop. |
 | `70/11-what-did-not-work.md:5` | "I want it at full size ... a brochure." is the writer's reading of his view; his to keep or drop. |
 | `70/11-what-did-not-work.md:17` | the last two sentences of this paragraph ("What they share ... show.") are the writer's reading across his three accounts; his to keep or drop. |
@@ -138,13 +140,13 @@ Where a sentence in the editor's voice is the writer's reading of his view rathe
 | `70/13-sessions-end.md:9` | "That night the factory was taken apart" is your line from the short editions; the record holds the hold at 18:44, never lifted that day, and silence to the merge at 23:19, and nothing showing the sessions ending that night. |
 | `70/14-the-second-factory-and-the-third.md:29` | "A first team needs three ..." is the writer's reading, at the readers' ask (synthetic__003); his to keep or drop. |
 | `70/14-the-second-factory-and-the-third.md:54` | "The point is not that the rule failed" and the sentence after it are the writer's reading; his to keep or drop. |
-| `70/14-the-second-factory-and-the-third.md:79` | the three paragraphs on how the shared brief, board and hold would work day to day are the writer's reading of his plan, from his description of 1 November and the hold's rule; his to keep, change or drop. |
-| `70/14-the-second-factory-and-the-third.md:92` | this section is the writer's working-out of his plan for a team of several, from the editions' team box and the hold's rule; his to keep, change or drop. |
-| `70/16-build-your-own.md:36` | the "What to do / What to check" lines under each step are the writer's, worked from the steps as the editions give them; his to keep or change. |
+| `70/14-the-second-factory-and-the-third.md:81` | the three paragraphs on how the shared brief, board and hold would work day to day are the writer's reading of his plan, from his description of 1 November and the hold's rule; his to keep, change or drop. |
+| `70/14-the-second-factory-and-the-third.md:94` | this section is the writer's working-out of his plan for a team of several, from the editions' team box and the hold's rule; his to keep, change or drop. |
+| `70/16-build-your-own.md:41` | the "What to do / What to check" lines, the newsroom's page of rules and the "Rests on" lines under each step are the writer's, worked from the steps as the editions give them; his to keep or change. |
 | `150/01-slides-as-a-compromise.md:19` | the five sentences from "It sounds small." to "Those were exactly the ideas I wanted to get across." are the writer's reading of his view, beyond the voice note; not yet his words until he keeps them. |
 | `150/01-slides-as-a-compromise.md:81` | the narration paragraph is the writer's paraphrase of what the slide would have needed, built from your own words at 15:50 (C102); his to keep, change or drop. |
 | `150/02-inventing-on-principle.md:17` | "With slides, I made that trip alone, and usually once." is the writer's reading of his view; his to keep or drop. |
-| `150/02-inventing-on-principle.md:77` | "Why a day?" and its answer are the writer's reading of the factory as you described it on 1 November (PS1); his to keep or drop. |
+| `150/02-inventing-on-principle.md:84` | "Why a day?" and its answer are the writer's reading of the factory as you described it on 1 November (PS1); his to keep or drop. |
 | `150/03-the-tour-at-length.md:67` | "Nobody tidied it." is the writer's reading; his to keep or drop. |
 | `150/03-the-tour-at-length.md:80` | "This is the page I would show anyone who doubts" is the writer's reading of his view; his to keep or drop. |
 | `150/03-the-tour-at-length.md:97` | "What I like about it" is the writer's reading; his to keep or drop. |

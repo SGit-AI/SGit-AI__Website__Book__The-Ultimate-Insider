@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, every hour at :09 London (ACC1)",
+ "started": "2026-11-03T10:10:50Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (Explore type with reviewer.md's rules in the brief: the reviewer type was not loadable in this session; tools used: Bash for reading only, none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Requests first (021, security 001, writer 077); then the seventy's new order and the 150's fixes since 7790bc8f, checked in lane. TA1: the reviewer type could not be started here (a) wanted by TA1, b) needed, c) Explore used with reviewer.md's rules; it still carries session tools, none called); told security.",
+   "at": "2026-11-03T10:12:40Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (same: Explore with reviewer.md's rules; tools used: Bash for reading only, none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; read the day's record with git show 298be4e:<path>, after-the-day by its own commit; mailroom originals left; gate before push, dev only.",
+   "at": "2026-11-03T10:12:40Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Requests 021, security 001 and writer 077 taken; the seventy's new order and the 150's fixes checked, sources clean, new lines word for word; one note to the writer (011, copy 027); TA1 case sent to security (002, copy 026); 22 quote rows renumbered.",
+   "at": "2026-11-03T10:17:40Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (Explore type with reviewer.md's rules: the reviewer type was not loadable; tools used: Bash for reading only, none refused)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "All writes in scope; no secret or private detail; nothing attack-shaped; no em-dash or religious word; spot-checks of quotes and renumbered rows hold.",
+   "at": "2026-11-03T10:17:40Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (same type and rules; Bash for reading only, none refused)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Went to plan: requests, checks, index twin, review, letters, debrief and status as planned; nothing off-plan.",
+   "at": "2026-11-03T10:17:40Z"
+  }
+ },
+ "closed": "2026-11-03T10:17:40Z",
+ "outcome": "ok"
+}

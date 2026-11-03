@@ -32,6 +32,7 @@ One file per chapter of the manuscript, built by `index/tools/chapter_entries.py
 | [`05-the-factory-rebuilt-and-yours.md`](05-the-factory-rebuilt-and-yours.md) | 1 | 0 | 8 | 0 | 3 | 0 |
 | [`06-a-book-about-you-doing-it.md`](06-a-book-about-you-doing-it.md) | 0 | 0 | 3 | 0 | 0 | 0 |
 | [`01-slides-as-a-compromise.md`](01-slides-as-a-compromise.md) | 0 | 0 | 5 | 1 | 1 | 0 |
+| [`01b-start-here.md`](01b-start-here.md) | 0 | 0 | 3 | 0 | 0 | 0 |
 | [`02-the-tour.md`](02-the-tour.md) | 0 | 0 | 8 | 0 | 1 | 0 |
 | [`03-one-account-one-project-one-conductor.md`](03-one-account-one-project-one-conductor.md) | 5 | 0 | 5 | 0 | 3 | 0 |
 | [`04-roles-as-a-cast-you-can-read.md`](04-roles-as-a-cast-you-can-read.md) | 0 | 0 | 4 | 0 | 0 | 0 |
