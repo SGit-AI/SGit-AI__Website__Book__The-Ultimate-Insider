@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake (07:47 slot)",
+ "started": "2026-11-03T07:49:26Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Copy the designer's seventy slots (recounted, the lab file read only); rc2/70/07 slot 2 ruv-sgit's pure-vector three-rounds-drawn.svg; the build rule unchanged, the stills wait on the researcher (C084, C086); rebuild outside _site, every page looked at; letters; records; vault_check, gate; no em-dashes, RW1.",
+   "at": "2026-11-03T07:49:59Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "All four SVGs plain drawings, no script, href, handler, @import, url(), image or data; the book's own words and ids; no private detail; no HOLD. Conditions: lab/ read only, vault_check, gate, no em-dashes.",
+   "at": "2026-11-03T07:50:22Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "The designer's seventy slots recopied (three infographics), chapter 7 slot 2 ruv-sgit's drawn three rounds, all rechecked; the rule unchanged; thirty 29, seventy 56 pages, looked at; letters 023, 008, 013; inbox, board 007, records; vault_check and gate clean.",
+   "at": "2026-11-03T07:51:42Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Gate clean; 0 outside scope; vault_check clean; no key, contact, em-dash, religious or attack words; nothing under rc2, lab, chapter-plan, briefs, .github or src; edition.py untouched; only the drawn three rounds in the map.",
+   "at": "2026-11-03T07:52:29Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Matches the plan and conditions; nothing unplanned.",
+   "at": "2026-11-03T07:52:29Z"
+  }
+ },
+ "closed": "2026-11-03T07:52:29Z",
+ "outcome": "ok"
+}
