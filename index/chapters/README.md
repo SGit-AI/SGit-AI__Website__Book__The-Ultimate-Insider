@@ -37,4 +37,7 @@ One file per chapter of the manuscript, built by `index/tools/chapter_entries.py
 | [`07-the-rhythm.md`](07-the-rhythm.md) | 3 | 0 | 3 | 0 | 5 | 0 |
 | [`08-the-plumbing.md`](08-the-plumbing.md) | 7 | 0 | 3 | 0 | 1 | 0 |
 | [`09-the-loop-and-the-port.md`](09-the-loop-and-the-port.md) | 0 | 0 | 5 | 0 | 12 | 0 |
+| [`10-the-last-ten-minutes.md`](10-the-last-ten-minutes.md) | 2 | 0 | 3 | 0 | 6 | 0 |
+| [`11-what-did-not-work.md`](11-what-did-not-work.md) | 3 | 0 | 5 | 0 | 3 | 0 |
+| [`12-how-do-we-contain-this.md`](12-how-do-we-contain-this.md) | 7 | 0 | 4 | 0 | 5 | 0 |
 | [`first-ten-pages.md`](first-ten-pages.md) | 1 | 0 | 2 | 0 | 2 | 0 |
