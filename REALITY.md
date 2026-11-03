@@ -106,6 +106,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - `lab/pdf/talk-site-debrief.pdf`: the talk's site in 10 pages, from the librarian's study (`index/talk-site/` at `2426adc`), built by `lab/tools/debrief/build_debrief.py`; for the conductor's site page and brief.
 - `lab/experiments/39-designer-rc2-chapter-4/ch4-speech-cards.svg`: RC2 chapter 4's three speech cards, the editor's words as the researcher cleared them (letter 006), checked at build against their sources, equal while C089's lead is unsigned; `lab/characters/cast/{librarian,historian,publisher,writer}-<mood>.svg`: figures for this book's four chapter 5 speakers (make_cast.py BOOK_TEAM), in `lab/tools/book/speakers.css` too. Lab PDF 118 pages.
 - `lab/experiments/40-designer-rc2-chapter-5/`: three of RC2 chapter 5's pictures: the nine cards turning into folders (sheets drawn only where the talk's history at 298be4e has them), two cards from this book's record (fde3fea, 9395328), three people with small factories joined by one brief, one board and one hold (a plan). Lab PDF 121 pages.
+- `lab/experiments/40-designer-rc2-chapter-5/ch5-team-cards.svg`: this book's team as cast cards with the rule each carried over (the writer's lines, checked against its letter); `ch1-cast-greyed.svg` redrawn so its last card no longer crops. The margin clock: the designer chose ruv-sgit's float box, floated right at each change of hour. Lab PDF 122 pages.
 
 ## The PDF lab, ruv.sgit's runs (ruv.sgit@book.the-ultimate-insider)
 

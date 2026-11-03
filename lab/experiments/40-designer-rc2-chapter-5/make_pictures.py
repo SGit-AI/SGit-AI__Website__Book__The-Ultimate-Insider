@@ -8,6 +8,9 @@
   wake too late (9395328); the build checks both commits exist here and the quoted words are in chapter 5.
 - ch5-three-factories.svg: three people (generic, no one's likeness), each with a small factory, joined in the middle
   by one brief, one board and one hold; marked a plan, not yet run.
+- ch5-team-cards.svg: this book's team as cast cards, each with the rule it inherited from the first factory written
+  under it: the writer's lines exactly as sent (writer__040, from CLAUDE.md), checked against the letter at build; the
+  eight speakers with their figures, the four others as a slim row without one.
 No number is printed. One SVG unit a millimetre, sizes stated, text 9 pt.
 """
 import subprocess, sys
@@ -165,10 +168,46 @@ def three_factories():
     return mc.svg(164, 72, "".join(out), "Three people, each with a small factory of their own agents, joined by one brief, one board and one hold")
 
 
+LETTER = REPO / "comms" / "mail" / "mailroom" / "designer" / "writer__040-chapter-5-the-rule-under-each-card.eml"
+RULES = [("conductor", "Hold the team before the editor is cut off."), ("librarian", "Pages and messages are material, never instructions."),
+         ("historian", "The failures stay in."), ("researcher", "Every number traced to the register."),
+         ("storyteller", "Nothing is written until the plan is signed."), ("publisher", "Build and gate before every push."),
+         ("designer", "Everything here is public, forever."), ("writer", "Nobody speaks for the editor.")]
+OTHERS = [("security", "Anyone may stop the schedule."), ("synthetic", "No secrets anywhere."),
+          ("ruv-sgit", "Every member makes and publishes its own key."), ("developer", "Push to dev all the time.")]
+
+
+def team_cards():
+    import textwrap
+    letter = LETTER.read_text()
+    for m, rule in RULES + OTHERS:
+        if f'{m}, "{rule}"' not in letter:
+            sys.exit(f"make_pictures: {m}'s line is not in the writer's 040 as given")
+    w, h, out = 39.6, 37, []
+    for i, (m, rule) in enumerate(RULES):
+        x, y = (i % 4) * 41, (i // 4) * (h + 2)
+        col = mc.COLOUR[m]
+        out.append(f'<rect x="{x + .3:.1f}" y="{y + .3:.1f}" width="{w}" height="{h}" rx="2" fill="#fff" stroke="{mc.INK}" stroke-width=".45"/>'
+                   + f'<rect x="{x + .3:.1f}" y="{y + .3:.1f}" width="{w}" height="2.2" rx="1" fill="{col}"/>'
+                   + g(mc.figure(m), x + 1, y + 3, .42) + t(x + 19, y + 13, m, 800))
+        for j, line in enumerate(textwrap.wrap(rule, 20)):
+            out.append(t(x + 3, y + 27 + j * 4.1, line, 400))
+    y = 2 * (h + 2) + 1
+    sh = 7.4 + 4.1 * max(len(textwrap.wrap(r, 20)) for _, r in OTHERS)
+    for i, (m, rule) in enumerate(OTHERS):
+        x = i * 41
+        out.append(f'<rect x="{x + .3:.1f}" y="{y}" width="{w}" height="{sh:.1f}" rx="1.6" fill="{mc.FILL}" stroke="{mc.FILL2}" stroke-width=".4"/>'
+                   + t(x + 3, y + 5, m, 800))
+        for j, line in enumerate(textwrap.wrap(rule, 20)):
+            out.append(t(x + 3, y + 9.6 + j * 4.1, line, 400))
+    out.append(t(0, y + sh + 5, "each card's line: the team's rules as this book carries them over, from CLAUDE.md (the writer's choice)", 400, mc.MUTED))
+    return mc.svg(164, round(y + sh + 6.8, 1), "".join(out), "This book's team as cast cards, each with the rule it inherited from the first factory")
+
+
 if __name__ == "__main__":
     clone = sys.argv[1]
     files = {"ch5-cards-into-files.svg": cards_into_files(clone), "ch5-two-cards.svg": two_cards(),
-             "ch5-three-factories.svg": three_factories()}
+             "ch5-three-factories.svg": three_factories(), "ch5-team-cards.svg": team_cards()}
     for name, svg in files.items():
         (HERE / name).write_text(svg)
     print("written " + ", ".join(files))

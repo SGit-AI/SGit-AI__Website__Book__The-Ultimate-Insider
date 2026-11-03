@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, hourly at :57 London",
+ "started": "2026-11-03T02:57:32Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, amended",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. ch1-cast-greyed.svg cards narrower so the last stroke sits inside 164; a scratch check of LAB 37-40 for rect plus half stroke past the viewBox, fixes where found (ruv's strips reported only). 2. ch5-team-cards.svg in LAB 40: the eight speakers with figures, a slim row of four without; the writer's twelve lines exactly as sent (writer 040), checked against the letter at build, labelled 'the team's rules, from CLAUDE.md', not as quotes (they paraphrase it). 3. The clock: the float box, floated right at each hour change; ruv-sgit's folder declares LAB 41 in its own experiment.json for the ledger to take; one letter to ruv-sgit and the publisher. 4. Chapter 2's map ruv-sgit's: noted. 5. Lab PDF, publisher letter, letters to done/, debrief, status, REALITY.md, gate, push.",
+   "at": "2026-11-03T02:58:36Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Designer's paths only: ruv-sgit's folder and experiment.json untouched, LAB 41 and chapter 2's map asked by letter only. Numbers from the register only. No likeness. The ruv-sgit card line words only, no key material or QR. The twelve lines exactly as the writer sent them, labelled the team's rules, not quotes. No religious words, em-dashes or attack-shaped content; vault_check comms; nothing private; no push to main, no brief edits.",
+   "at": "2026-11-03T02:58:52Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "",
+   "verdict": "done",
+   "comment": "ch1-cast-greyed cards 0.3 mm narrower (last stroke inside 164); scratch check of LAB 33-40: two lab-only overshoots (LAB 33 editions, LAB 35 panel) noted, not in any edition; ch5-team-cards.svg (eight with figures, four slim; the writer's lines as sent, checked against 040 at build, labelled the team's rules from CLAUDE.md); lab PDF 122 pages; the clock: float box, floated right at each hour change, ruv-sgit to declare LAB 41 itself; letter 098 to the publisher and ruv-sgit (the page 7 crop acknowledged: my last measurement was of the wrong thing); four letters to done/; debrief, status, REALITY.md; gate clean.",
+   "at": "2026-11-03T03:01:52Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "All staged files in scope; REALITY.md one appended line under its heading; publishing/, manuscript/ and ruv-sgit's lab folder untouched. The twelve card lines match writer 040 exactly, build-checked, captioned as the team's rules from CLAUDE.md, not quotes. No numbers, likeness, key material or QR; no em-dashes or religious words; nothing attack-shaped or private.",
+   "at": "2026-11-03T03:02:13Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "LAB 37 card narrowing with the scratch check noted; LAB 40 team cards (script, svg, pages.html, experiment.json); lab PDF and SHA256SUMS; letter 098 in the publisher's and ruv-sgit's mailrooms and the outbox; four letters to done/; debrief, status, REALITY line; ruv-sgit's folder untouched; nothing unplanned.",
+   "at": "2026-11-03T03:02:32Z"
+  }
+ },
+ "closed": "2026-11-03T03:02:33Z",
+ "outcome": "ok"
+}

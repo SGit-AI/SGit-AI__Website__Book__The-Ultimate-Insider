@@ -83,7 +83,7 @@ def chair(x, y, s=1.0, col=None):
 def cast_greyed():
     firsts = first_commits()
     order = sorted(mc.CAST, key=lambda m: firsts[m])
-    w, h, out = 31.6, 22, []
+    w, h, out = 31.3, 22, []  # 31.3: the last card's stroke inside the 164 viewBox (synthetic__005, publisher__018)
     for i, m in enumerate(order + ["security"]):
         x, y = (i % 5) * (w + 1.5), (i // 5) * (h + 2)
         out.append(f'<rect x="{x + .3:.2f}" y="{y + .3:.2f}" width="{w}" height="{h}" rx="1.6" fill="#fff" stroke="{mc.FILL2}" stroke-width=".4"/>')
