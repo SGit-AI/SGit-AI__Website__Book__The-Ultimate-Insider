@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Historian's eighteen rows in rc2/30 and rc2/70; C109 in 70/01; the dashboard drawn; 37 captions shortened with briefs in %% lines; 22 clock lines on clock hours, hidden until C108 is amended; letters 038 to 042; eight letters into done/; status, debrief, board; vault_check clean.",
    "at": "2026-11-03T02:32:57Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (Sonnet), steps 4 and 5 in one agent to spare usage",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Build and gate clean (549 pages); 0 outside scope; vault_check clean. C109 word for word to 'mandate.'; no admin__ shot named; clock lines on clock hours; screenshot paths kept in captions; no em-dashes, religious words, keys or personal detail.",
+   "at": "2026-11-03T02:34:03Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (Sonnet), with step 4",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Matches the plan and conditions: the historian's rows, C109, the dashboard drawn, captions, clock lines hidden until C108 is amended, letters 038 to 042, eight letters in done/, status, debrief.",
+   "at": "2026-11-03T02:34:03Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T02:34:03Z",
+ "outcome": "ok"
 }
