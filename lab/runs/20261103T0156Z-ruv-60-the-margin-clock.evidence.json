@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/lab-run-evidence/v1",
+ "run": "20261103T0156Z-ruv-60-the-margin-clock",
+ "started": "2026-11-03T01:56:29Z",
+ "wake_record": "team/ruv-sgit/wakes/20261103T015629Z.json",
+ "calls": [
+  {
+   "what": "python3 -B -I tools/clock.py: thirty-eight SVGs and pages.html",
+   "tool": "python"
+  },
+  {
+   "what": "lab/tools/build_lab.py in scratch copies with a temporary id: first one sheet spilling and a ladder scaled under 9 pt, then two sheets with the ladder at full size: 120 pages, no overflow",
+   "tool": "the designer's build, read only"
+  }
+ ],
+ "outputs": {
+  "edition": "lab/experiments/60-ruv-the-margin-clock/edition/",
+  "hashes": "lab/experiments/60-ruv-the-margin-clock/SHA256SUMS"
+ },
+ "time": {
+  "work_started": "2026-11-03T01:57:00Z",
+  "work_ended": "2026-11-03T02:01:00Z"
+ }
+}
