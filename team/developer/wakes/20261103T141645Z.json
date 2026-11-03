@@ -17,6 +17,13 @@
    "verdict": "go",
    "comment": "No hold; in scope; every 'by' is editor, no 'ask' holds an email, URL, phone or personal name; nothing attack-shaped. Conditions: no detail text; scrub every 'ask' again at build time; gate and vault_check before push, to dev only.",
    "at": "2026-11-03T14:21:15Z"
+  },
+  "work": {
+   "by": "developer@book.the-ultimate-insider",
+   "model": "",
+   "verdict": "done",
+   "comment": "In 495f62c8: /review/read/decisions.html (21 chapter-decision pairs, 49 mentions; C011 left out as also a claim id, 51 mentions); status, by and ask only, scrubbed at build time; linked from index, graph and wakes; board 007 ticked. Slips caught before push: a patch quoting error (redone), a BRIEF.html link (chapters only now).",
+   "at": "2026-11-03T14:25:20Z"
   }
  },
  "closed": null,
