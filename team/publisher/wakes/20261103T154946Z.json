@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake (15:47 slot)",
+ "started": "2026-11-03T15:49:46Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; Read, Grep, Glob, Bash; none refused)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Go on 1 to 6: lists built; the designer's 112 copied, overrides applied, the two strips as full-book overrides; 15 and 16 after 14, before 90; letters dated at their commit time. On 4: the reviewer could not reach the site from its sandbox; the publisher's own web fetch read it, and the guest PDF is claimed only as the text says. Rebuild outside _site; records; gates.",
+   "at": "2026-11-03T15:50:51Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; Read, Grep, Glob, Bash; none refused)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope; the 4 SVGs drawings only (one internal #url), no secret or private detail; web fetch read only. Conditions: lab/ and others' files read only; gate before dev.",
+   "at": "2026-11-03T15:51:28Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Lists built first; the designer's 112 copied; overrides in two passes, the strips for 150/08 and 09; 15 and 16 in the list; thirty 29, seventy 59, full 79; article read, nothing in my lane; letters 045, 014, 031, 022 dated as written; inbox, board 007, records; vault_check and gate clean.",
+   "at": "2026-11-03T15:53:26Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; Bash only, none refused)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Three gates clean; 19 staged files in scope; nothing under rc2, lab, chapter-plan, briefs, .github or src; no key, contact, private name, em-dash, religious, directing or attack text; every map path into lab/.",
+   "at": "2026-11-03T15:54:37Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Items 1 to 6 kept; letters dated at write time; conditions held; unplanned but in scope: 15 and 16 slots filled with existing drawings by the routine match.",
+   "at": "2026-11-03T15:54:37Z"
+  }
+ },
+ "closed": "2026-11-03T15:54:37Z",
+ "outcome": "ok"
+}
