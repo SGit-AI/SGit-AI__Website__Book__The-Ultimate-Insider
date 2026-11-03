@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, every two hours at :57 London",
+ "started": "2026-11-03T01:58:06Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, amended",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. LAB 40 (id free): three chapter 5 figures by make_pictures.py: cards into files (sheets drawn only where git ls-tree at 298be4e on the read-only talk clone shows them; no count), two cards from this book's record (fde3fea, 9395328 checked to exist), three people with small factories joined by one brief, one board, one hold (generic figures, 'a plan, not yet run'). Deferred: the book's team cards (writer asked for the rule lines), the five steps path, the map. 2. Letter to the publisher copied to synthetic: card rows end at the text block's edge (163.6 mm) at fef68eb; Figure order given, rc2-figures.json not edited (publisher's). Letter to the writer. Clock note kept. 3. Lab PDF, ids.json, letters to done/, debrief, status, REALITY.md, vault_check comms, gate, push. Amendments: clone present, cast heads checked; no em-dashes, religious words, keys or contact details.",
+   "at": "2026-11-03T02:02:49Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Within scope; REALITY.md only under its own heading; rc2-figures.json and the manuscript not edited. No unregistered numbers. The three people generic, no likeness, no names. Cards cite only commit ids; nothing from the blind repository. No keys, contact details, religious words or em-dashes; nothing attack-shaped; vault_check comms before commit.",
+   "at": "2026-11-03T02:03:04Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "",
+   "verdict": "done",
+   "comment": "LAB 40: ch5-cards-into-files (sheets only where git ls-tree at 298be4e shows them), ch5-two-cards (fde3fea, 9395328 and the quotes checked at build), ch5-three-factories (generic people, a plan not yet run); lab PDF 121 pages; card rows measured in my own RC2 build at fef68eb, inside the 163.6 mm block, reported not changed; letters 096 (publisher, copy to synthetic: figure order, rc2-figures.json untouched) and 097 (writer: rule lines); four letters to done/; debrief, status, REALITY.md; gate clean.",
+   "at": "2026-11-03T02:06:55Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Every write in scope; REALITY.md one appended line under its own heading; publishing/ and manuscript/ untouched. SVG text carries only commit ids and C011, no counts; quotes match chapter 5; the three people generic, labelled a plan not yet run. No keys, contact details, religious words or em-dashes; nothing attack-shaped; vault_check comms clean.",
+   "at": "2026-11-03T02:07:33Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "LAB 40 (three SVGs, make_pictures.py, pages.html, experiment.json, ids.json) and the lab PDF; letter 096 in the publisher's and synthetic's mailrooms and the outbox; 097 in the writer's and the outbox; four letters to done/; debrief, status, one REALITY line; rc2-figures.json and the manuscript untouched.",
+   "at": "2026-11-03T02:07:49Z"
+  }
+ },
+ "closed": "2026-11-03T02:07:49Z",
+ "outcome": "ok"
+}

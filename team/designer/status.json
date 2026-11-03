@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "designer",
- "as_of": "2026-11-03T01:08:00Z",
+ "as_of": "2026-11-03T02:10:00Z",
  "round": 0,
- "state": "scheduled wake: chapter 4's speech cards drawn (C089 words cleared); figures for the librarian, historian, publisher and writer; lab PDF 118 pages; chapter 5's pictures next",
+ "state": "hourly now (ACC1): chapter 5's three pictures in LAB 40; the book's team cards wait on the writer's rule lines; the five steps path and the map next; lab PDF 121 pages",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/designer/ into team/designer/ (drafts left in place)",
@@ -207,6 +207,10 @@
   },
   {
    "what": "RC2 chapter 4's three speech cards (LAB 39) and figures for four book-team speakers (make_cast.py BOOK_TEAM, speakers.css); letter 095 to the publisher",
+   "when": "2026-11-03"
+  },
+  {
+   "what": "LAB 40: RC2 chapter 5's cards into files, two cards from this book's record, three factories; letters 096 (publisher, synthetic: figure order, the card rows measured) and 097 (writer: the rule lines)",
    "when": "2026-11-03"
   }
  ],
