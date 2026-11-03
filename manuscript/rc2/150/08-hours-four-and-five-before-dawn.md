@@ -25,13 +25,13 @@ Band: *Dramatised (the conductor's line). Rests on its first scheduled wake and 
 
 **Narrator.** Two failures in this hour stay in. Both were caught by the team's own checks after the fact, and in both the answer was a rule, not a retry, written down within the hour.
 
-**Narrator.** The first was the researcher's. In its first round it had captured web pages as evidence for the talk's claims, and pushed them to the team's public repository at 02:22. At 03:05, in a wake I had asked for, its post-review returned a finding: the captured pages had carried other sites' data in with them, small public values those sites publish in their own pages, and a check run to find them had printed several to the session log. The researcher redacted them in the files and told me.
+**Narrator.** The first was the researcher's. In its first round it had captured web pages as evidence for the talk's claims, and pushed them to the team's public repository. At 03:05, in a wake I had asked for, its post-review returned a finding: the captured pages had carried other sites' data in with them, and a check run to find it had printed several to the session log. The researcher redacted it in the files and told me.
 
 **Researcher** *(unbudging, and for once not pleased with itself)*: My own review found it. After the push. A review that runs after the push is a review that runs late.
 
 **Narrator.** That is the lesson the register draws, and it is the right one: redaction does not reach a commit already pushed. The review worked; it worked at the wrong end. Hour five, below, shows what changed.
 
-`%% record: team/researcher/wakes/20261029T030550Z.json (post_review: finding) 59ac8ab C025 (its second entry: "public third-party tokens that sites publish in their pages went out in the 02:22 push inside captured pages, and a check printed several to the session log"; fixed: "redacted in the files ... the editor told"; and its note)`
+`%% record: team/researcher/wakes/20261029T030550Z.json (post_review: finding) 59ac8ab C025 (its second entry, and its note: "a story of the controls catching a leak late, not preventing it")`
 Band: *Dramatised (the researcher's line). Rests on its wake of 03:05 and the register's account of the finding; told as the team's finding and its rule only.*
 
 **Narrator.** The second was dev's. Its release loop had counted a push the server refused as a push that went through, and commits stayed off the team's branch until dev checked. The rule it wrote at 03:34 is one line, and this book's own team still follows it: a push is done when the commit is on the shared branch, not when the command says so.
@@ -117,7 +117,7 @@ Band: *Dramatised. Rests on the researcher's wake at 04:11; the reviewer's words
 
 ### The same failure, caught in time
 
-**Narrator.** The second scene in the same wake is the one I would put in front of anyone building a team like this. The researcher's post-review returned a finding of the same kind as the one at 03:05: more of other sites' data captured along with a page, this time values those sites had issued to the researcher's own fetcher, sitting in the captured headers. The card has the register's count.
+**Narrator.** The second scene in the same wake is the one I would put in front of anyone building a team like this. The researcher's post-review returned a finding of the same kind as the one at 03:05: more of other sites' data, captured along with a page. The card has the register's count.
 
 **Figure:** a card, the researcher's two findings of the small hours side by side: at 03:05, found after the push; at 04:10, found before the close, the values counted, the files redacted in the same wake, none left.
 
@@ -125,11 +125,11 @@ Band: *Dramatised. Rests on the researcher's wake at 04:11; the reviewer's words
 
 **Narrator.** This time the finding came before the close, and the files were redacted in the same wake. The control did not change. The reviewer was the same kind of reviewer, with the same brief, at the same step. What changed was the member's practice: it was looking for the thing it had already been caught on once.
 
-**Researcher** *(unbudging, quietly)*: Same kind of mistake. Caught before it left the room this time.
+**Researcher** *(unbudging, quietly)*: Same kind of mistake. Found before the close this time, and redacted in the same wake.
 
-**Narrator.** Hold on to that difference. A check after the fact catches what has already gone out. A habit, built from the last failure, catches it before. The team needed both, and on the day the second came from the first, inside an hour. There was one more of the same kind later in the morning, caught and fixed in the same way; part 4 counts them all.
+**Narrator.** Hold on to that difference, and to its limit. A check after the push finds what has already gone out. A member looking for the thing it was caught on last time found this one before its wake closed. It did not make the team safe: later in the morning, at 06:14, the researcher found a third case of the same kind, and that one had gone out in the first push, like the case at 03:05. Found late again. Part 4 counts them all, and keeps them all in.
 
-`%% record: team/researcher/wakes/20261029T041003Z.json (post_review: finding) 1ef6675 (04:10) C025 (its third entry: "28 anonymous cookie values, issued to the fetcher, in captured response headers"; fixed: "30 files redacted in the same wake, 0 left"; its fourth entry, 06:14, for the later one) timeline/day/04.md ("The control did not change; the member's practice did.")`
+`%% record: team/researcher/wakes/20261029T041003Z.json (post_review: finding) 1ef6675 (04:10) C025 (its third entry, found before the close, redacted in the same wake; its fourth entry, 06:14, found after the push) timeline/day/04.md ("The control did not change; the member's practice did.")`
 Band: *Dramatised (the researcher's line). Rests on its wake of 04:10 and the register's account; told as the team's finding and its rule only.*
 
 ## Six agents, a clock and a brake

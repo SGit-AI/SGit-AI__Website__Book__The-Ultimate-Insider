@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Six letters taken; the hour-one fixes released first (db8d6973); 150/06, 07, 08 written in sequence; 70/04 and 70/05 carry the same roster fix; seven letters; filing, status, debrief, board, REALITY.md. Gate clean, 0 outside scope.",
    "at": "2026-11-03T11:40:52Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "finding",
+   "comment": "Finding in 150/08 on C025: the 06:14 case was told as caught in time when it went out in the first push; two lines read as prevention; what was captured and where (values, headers, fetcher) named; the 02:22 time with 06's 'history keeps' pointed back into history. All fixed before the push: the later case found late, the register's words only, 'other sites' data', no time. Clean on scope, comms, secrets, key, ruv-sgit framing, interviews, Cold-Read. Ran as the reviewer agent (Read, Grep, Glob, Bash, hand-back); it did not run build.py, which writes files, and relied on the member's gate run (a: the brief asks it; b: not needed for a read-only review; c: no independent gate run).",
+   "at": "2026-11-03T11:44:23Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "partial",
+   "comment": "Items 1, 2, 4, 5 done; 3 done but 06:147 carried a count in a narrator line and a number the register does not hold (fixed: no count); letters and records dated ahead of the clock (fixed to 11:40); 70/04 and 70/05's roster fix unplanned, with the chapters, not first. Gate clean, 0 outside scope. Ran as the reviewer agent; nothing outside its tools.",
+   "at": "2026-11-03T11:44:23Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T11:44:23Z",
+ "outcome": "ok"
 }

@@ -144,7 +144,7 @@ Band: *The historian's reconstruction from the storyteller's record, not the sto
 
 ### Motion
 
-**Narrator.** Four wakes, and three pieces in part one.
+**Narrator.** One of the last two to arrive, with the fewest wakes on the card, and its pieces in part one.
 
 > *The historian's reconstruction:* I arrived late and did not wait to be told: I sent deck a proposed picture with its stages, so its answer could be "go" and not a fresh brief. Every piece I built can be sought and paused in the player, and I checked that directly. When the editor said the building's gap between people and agents was too exaggerated, I changed it in place a minute before part one was final. What did not: I built nothing for parts two and three. One piece mailed to me appears in none of my files. And one piece kept the conductor's counts from an hour that had already passed.
 
