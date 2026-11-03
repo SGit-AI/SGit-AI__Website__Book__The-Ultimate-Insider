@@ -73,13 +73,13 @@ Band: *My three accounts, as the register holds them; the later two were given a
 
 ### The claims that did not hold
 
-*What it cost:* nothing on stage; the register marked them, and the talk went round them.
+*What it cost:* nothing on stage: no beat of the talk carries any of them.
 
 **Narrator.** The talk's own register of claims, built that evening, graded every claim it made: 320 of them. 210 held, 55 held in part, 52 were not checked, and three did not hold. No beat of the talk carries any of the three.
 
 **Narrator.** Where they were: one in the article only, one on no beat or slide at all, one in the story tree only.
 
-**Researcher** *(unbudging, ticking a list)*: I marked each one that did not hold. The talk went round them. The day's checks worked, and they also missed. Saying where is part of the method.
+**Researcher** *(unbudging, ticking a list)*: I marked each one that did not hold. The day's checks worked, and they also missed. Saying where is part of the method.
 
 **Figure:** the five misses as five cards on one page, each with its cost in a line and its id in small type.
 
