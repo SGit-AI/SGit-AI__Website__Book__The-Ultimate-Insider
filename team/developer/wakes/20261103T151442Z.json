@@ -17,6 +17,13 @@
    "verdict": "go",
    "comment": "No hold; in scope; build_book.py and its inputs name no remote URL, Chromium opens only file://. Conditions: --out and the book list in a temp dir removed in a finally block (also build_book_markua_* leftovers); publishing/ and manuscript/ untouched but gitignored __pycache__; print-pages.json holds only anchors, page numbers and hashes, no PDF text, no absolute temp path.",
    "at": "2026-11-03T15:18:06Z"
+  },
+  "work": {
+   "by": "developer@book.the-ultimate-insider",
+   "model": "",
+   "verdict": "done",
+   "comment": "In c2ab0968: review/tools/print_pages.py (publishing/build_book.py run with release.yml's arguments, temp folder removed, TMPDIR inside it), review/anchors/print-pages.json (anchors, pages, hash only); page view by printed page: rc2 26, rc2-70 57; hash fallback to scenes; checked in Chromium.",
+   "at": "2026-11-03T15:21:30Z"
   }
  },
  "closed": null,
