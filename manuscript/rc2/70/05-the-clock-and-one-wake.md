@@ -1,6 +1,6 @@
 # The clock, the five steps, and a reviewer of the same kind
 
-**Cast bar:** the four within the hour, and the researcher from about two (C011). The conductor at the centre of this chapter.
+**Cast bar:** the first four, and the researcher from about two (C011). The conductor at the centre of this chapter.
 
 ## The clock and the five steps
 
