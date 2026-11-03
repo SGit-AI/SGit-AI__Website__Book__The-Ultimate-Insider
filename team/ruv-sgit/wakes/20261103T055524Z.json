@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Security sub-agent: go; paths in scope; the stills are the E02 chart security__005 cleared: capability ids and plain words, no key, token, secret, host or route, honesty labels kept; no mask needed (LAB 07 left E02 unmasked); nothing to Cold-Read.",
    "at": "2026-11-03T05:58:12Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "lab/experiments/63-ruv-three-rounds: tools/rounds.py; three stills from 298be4e downscaled; edition/three-rounds.svg 164 x 58 mm, text at 9 pt, all inside its column (the one red line was italic overhang at x 0); deck's three verdicts word for word; C084, C086 cited, dot numbers as labels, no times, no mask as LAB 07; letter to the publisher (copies conductor, designer); one filed; run record; status, debrief, REALITY.",
+   "at": "2026-11-03T06:01:12Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Security sub-agent on 1b366d93: stills show capability ids, plain words, the public draft name and honesty labels only; every count in C084 or C086, the rest dot labels; 0 outside scope; vault_check and gate clean.",
+   "at": "2026-11-03T06:03:06Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Conductor sub-agent: the three verdicts and commits match the talk at 298be4e word for word; no count in outcome lines, no time printed; letter with copies; one filed; notes accurate; no timestamp after the commit. (The debrief's 05:54 is the schedule's minute; the wake opened 05:55:24.)",
+   "at": "2026-11-03T06:03:06Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T06:03:06Z",
+ "outcome": "ok"
 }
