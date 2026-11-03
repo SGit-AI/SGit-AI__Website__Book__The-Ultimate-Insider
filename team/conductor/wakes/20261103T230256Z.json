@@ -20,12 +20,26 @@
   },
   "work": {
    "by": "conductor",
-   "model": "",
+   "model": "claude-opus-5-5",
    "verdict": "done",
-   "comment": "Both letters copied to done; status done entry added; vault_check clean.",
-   "at": "2026-11-03T23:04:11Z"
+   "comment": "Both letters copied to done; status done entry added; vault_check clean. Re-recorded to add the model, which the first record left empty.",
+   "at": "2026-11-03T23:05:22Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "clean",
+   "comment": "Reviewer agent: 4 files in scope, done copies sha256-identical, vault_check and validate clean, status matches 111, 038, synthetic__005 and storyteller__110. Nit: work.model was empty, now filled.",
+   "at": "2026-11-03T23:05:23Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "as-planned",
+   "comment": "Reviewer agent: both letters filed by copy, status as planned, nothing outside the plan; plan step recorded after the pre-review ran, noted.",
+   "at": "2026-11-03T23:05:23Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T23:05:23Z",
+ "outcome": "ok"
 }
