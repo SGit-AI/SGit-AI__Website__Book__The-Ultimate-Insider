@@ -59,6 +59,28 @@ def float_box(h, vals):
     return '\n'.join(s) + '\n'
 
 
+SPANS = [(1, 2), (2, 3), (2, 5), (5, 11), (5, 14), (14, 19), (15, 16)]   # every span the thirty's Clock lines use (publisher__005)
+
+
+def span_box(a, b, vals):
+    """A span: its hours lit together and named in words; no commit count, since a sum is not in the register."""
+    W, H = 38.0, 30.0
+    peak = max(vals)
+    s = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W:g}mm" height="{H:g}mm" viewBox="0 0 {W:g} {H:g}" role="img" '
+         f'aria-label="The clock: hours {WORDS[a - 1]} to {WORDS[b - 1]} of the day, and the commits each hour, those hours lit.">',
+         f'<rect x=".2" y=".2" width="{W - .4:.2f}" height="{H - .4:.2f}" rx="1.6" fill="{PAPER}" stroke="{FILL2}" stroke-width=".3"/>',
+         t(2, 5.2, f'{a - 1:02d}:00 to {b - 1:02d}:59', PT9, 400, MUTED),
+         t(2, 10.6, f'{WORDS[a - 1]} to {WORDS[b - 1]}', PT9 * 1.08, 800, ACCENT)]
+    bw, x0, base, top = (W - 4) / 19, 2.0, 21.0, 12.6
+    for i, v in enumerate(vals):
+        bh = (base - top) * v / peak
+        s.append(f'<rect x="{x0 + i * bw + .15:.2f}" y="{base - bh:.2f}" width="{bw - .3:.2f}" height="{bh:.2f}" fill="{ACCENT if a - 1 <= i <= b - 1 else FILL2}"/>')
+    s.append(f'<line x1="{x0:.2f}" y1="{base:.2f}" x2="{W - 2:.2f}" y2="{base:.2f}" stroke="{MUTED}" stroke-width=".25"/>')
+    s.append(t(2, 26.6, 'these hours lit', PT9, 400, MUTED))
+    s.append('</svg>')
+    return '\n'.join(s) + '\n'
+
+
 def edge(h):
     W, H = 8.0, 120.0
     s = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W:g}mm" height="{H:g}mm" viewBox="0 0 {W:g} {H:g}" role="img" '
@@ -78,6 +100,8 @@ def main():
     for h in range(19):
         (HERE / 'edition' / f'clock-{h + 1:02d}.svg').write_text(float_box(h, vals))
         (HERE / 'edition' / f'edge-{h + 1:02d}.svg').write_text(edge(h))
+    for a, b in SPANS:
+        (HERE / 'edition' / f'clock-{a:02d}-{b:02d}.svg').write_text(span_box(a, b, vals))
     show = [0, 4, 15, 18]                                          # hours one, five, sixteen, nineteen: the outline's scenes
     boxes = ''.join(f'<img src="{{{{dir}}}}/edition/clock-{h + 1:02d}.svg" alt="The clock at hour {WORDS[h]}" style="width:38mm;display:block">' for h in show)
     edges = ''.join(f'<img src="{{{{dir}}}}/edition/edge-{h + 1:02d}.svg" alt="The edge clock at hour {WORDS[h]}" style="width:8mm;height:120mm;display:block">' for h in show)

@@ -1,0 +1,26 @@
+{
+ "schema": "the-ultimate-insider/lab-run-evidence/v1",
+ "run": "20261103T0355Z-ruv-41-62-spans-and-your-factory",
+ "started": "2026-11-03T03:55:30Z",
+ "wake_record": "team/ruv-sgit/wakes/20261103T035530Z.json",
+ "calls": [
+  {
+   "what": "tools/clock.py: seven span boxes; two texts first ran past the box and the HOURS label met the span, both fixed",
+   "tool": "python, playwright"
+  },
+  {
+   "what": "tools/map.py (chapter 5): no label crossed or out",
+   "tool": "python, playwright"
+  }
+ ],
+ "outputs": {
+  "hashes": [
+   "lab/experiments/60-ruv-the-margin-clock/SHA256SUMS",
+   "lab/experiments/62-ruv-your-factory/SHA256SUMS"
+  ]
+ },
+ "time": {
+  "work_started": "2026-11-03T03:56:00Z",
+  "work_ended": "2026-11-03T03:58:00Z"
+ }
+}
