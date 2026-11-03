@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake (hourly, ACC1)",
+ "started": "2026-11-03T15:03:36Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (plan; reviewed by the reviewer agent below)",
+   "model": "",
+   "verdict": "go",
+   "comment": "A quiet hour: the full book to chapter 14 (15 files); 11 and 12 cleared by every checker; security registered my 14:04 slip. Paths: copy librarian__032-copy-015-the-150-11-and-12.eml and security__037-150-11-12-clear.eml from comms/mail/mailroom/conductor/ to comms/mail/conductor/done/; update team/conductor/status.json; the wake record. Nothing else.",
+   "at": "2026-11-03T15:03:46Z"
+  },
+  "pre_review": {
+   "by": "reviewer agent (haiku)",
+   "model": "claude-haiku-5-5",
+   "verdict": "go",
+   "comment": "Paths in the conductor's writes; nothing decided; nothing private.",
+   "at": "2026-11-03T15:04:05Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
