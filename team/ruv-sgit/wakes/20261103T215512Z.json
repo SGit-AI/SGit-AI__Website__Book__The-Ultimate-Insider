@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (ACC1)",
+ "started": "2026-11-03T21:55:12Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Conductor, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list, nothing refused; no fetch, pull or build). An idle wake: mail all filed, no request, hold or new trailer, the board's ten open items unchanged, security registered last wake's fetch as TA1 case 11 asking nothing, the new back matter names nothing of mine. Debrief, status, close idle, gate, push. Amended: the status ask of the researcher (C084 and C086 against the E02 stills) was answered by researcher__014; remove it from asks.",
+   "at": "2026-11-03T21:56:04Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Security, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list, nothing refused; no fetch, pull or build). Writes in team/ruv-sgit/** only, no hold, no secret. Conditions: the gate first, vault_check comms, dev and my own branch only, no force-push, never main.",
+   "at": "2026-11-03T21:56:04Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "Idle for drawing. Debrief; status as_of, state and the answered researcher ask removed (the amendment).",
+   "at": "2026-11-03T21:56:04Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Security, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list, nothing refused; no fetch, pull or build). Three files, all in team/ruv-sgit/** (agents.py check 0 outside), vault_check clean, no key, token, id or detail added, no em-dash or religious word, dates before the clock; the removed ask was answered by researcher__014. Not run, with a/b/c: validate (a: the brief lists it; b: not needed, the diff is three files in my own folder and my gate runs it; c: nothing lost but a pre-push confirmation).",
+   "at": "2026-11-03T21:56:46Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Conductor, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list or refused; no fetch, pull or build). Debrief written, status as_of and state, the answered ask removed (the amendment), only team/ruv-sgit/** touched. Gate and push follow.",
+   "at": "2026-11-03T21:56:46Z"
+  }
+ },
+ "closed": "2026-11-03T21:56:46Z",
+ "outcome": "idle"
+}
