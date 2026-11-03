@@ -17,6 +17,13 @@
    "verdict": "go",
    "comment": "No hold; in scope; manuscript/editions/ read only; PDF temp folder removed. Conditions: the warning prints folder names only; existing guards and the gate pass on the new text, else push nothing and report. Reviewed the plan from the brief (ran alongside the plan step).",
    "at": "2026-11-03T20:16:47Z"
+  },
+  "work": {
+   "by": "developer@book.the-ultimate-insider",
+   "model": "",
+   "verdict": "done",
+   "comment": "In 34646237: maps refreshed (rc2-70 60/58, rc2-150 98/94, 318 QR targets); the unbuilt-edition warning (none today, tested on a fake folder); a bug the refresh showed, fixed before push: print_pages read a stale editions.json and unmapped paragraphs fell onto page 1 (78 of 98 shown); now the last page carries across scenes, a map lacking today's paragraphs falls back to scenes, and the run order is written in both tools; every anchor mapped.",
+   "at": "2026-11-03T20:23:13Z"
   }
  },
  "closed": null,
