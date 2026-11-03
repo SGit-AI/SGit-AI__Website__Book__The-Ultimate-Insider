@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1. Historian 025: five session-tool attempts by review sub-agents (three the historian's, one or two security's) recorded under C2; letter security__030 asks the conductor for a tools allowlist; board 025. 2. Lab 64 clear. 3. Letters filed; status; debrief.",
    "at": "2026-11-03T08:28:05Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Build, gate, scope and vault_check pass; no key, token, contact, em-dash or religious word; the letters are defensive and give no way round anything. No tool beyond the four reported.",
+   "at": "2026-11-03T08:29:08Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Diff matches the plan: C2 evidence, letter 030, board 025, letters filed, debrief, status; no hold. No tool beyond the four reported.",
+   "at": "2026-11-03T08:29:24Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T08:29:24Z",
+ "outcome": "ok"
 }
