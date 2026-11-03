@@ -22,7 +22,7 @@
 
 **Deck** *(fussing with its own page)*: And never type a version number. That one is somebody else's scar, from another team's bad day. We inherited it.
 
-**Narrator.** And one a few minutes into hour two: ruv-sgit joined at 01:08, after the conductor's first roster. Its page belongs with these three.
+**Narrator.** And one eight minutes into hour two: ruv-sgit joined at 01:08, after the conductor's first roster. Its page belongs with these three.
 
 **ruv-sgit** *(absorbed, the night owl, not looking up from the workshop bench)*: Animations and moving infographics, made in my own runs. I may change my folder and my pages. One rule I learned the hard way: the container is ephemeral. Seal what you keep, or say what you lost, before the session ends.
 

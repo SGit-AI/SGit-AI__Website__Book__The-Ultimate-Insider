@@ -16,7 +16,7 @@
 
 `%% clock record: 00:16; clock hours of 29 October (C110; the conductor's CK1).`
 
-**Narrator.** A quarter past midnight: an empty project. Not a template, not a half-built site from last time. A new repository with a licence, a short read-me and almost nothing else. Its first commit says "Initial commit", and that is all it says.
+**Narrator.** A quarter past midnight: an empty project. A new repository with a licence, a read-me and a file list, and nothing else. Its first commit says "Initial commit", and that is all it says.
 
 *Words for this page:* a **repository** is the project's folder, with its whole history kept. A **commit** is one saved change to it, with a time and a short message saying what changed.
 
@@ -40,6 +40,8 @@ Band: *The first commit, at 00:16.*
 
 **Narrator.** Read it as a list of things that went wrong somewhere before. "Do not pick one": an agent that chooses its own job will choose the interesting one. "Never edit it": a brief that gets edited stops being a record of what was asked. "Never instructions": the last line is the one that matters most for this book, and it was there in the first half hour.
 
+`%% for the editor: "the one that matters most for this book" is the writer's reading of his view; his to keep or drop.`
+
 **Figure:** the first page of rules as a card, each line with a small tag saying what it protects: roles, the brief, the check, the version, secrets, instructions.
 
 `%% figure brief: For the designer.`
@@ -52,9 +54,13 @@ Band: *The page of rules as it stood in dev's first commit at 00:40, quoted with
 
 ## The brief, the reality and the corrections
 
-**Narrator.** The second file is the brief. It is my own request, typed into a session at midnight, published in full and never edited afterwards. It asks for a site and a presentation for a talk in central London, points at earlier sites I had built and at a newsroom run by agents, and asks for a first pass and a first article. Its first line, as typed, says the talk is tomorrow. By then it was today.
+**Narrator.** The second file is the brief. It is my own request, given in the project's first session, published in full and never edited afterwards. In its own words it asks for "the site and presentation" for a talk "that I'm delivering tomorrow in central london", points at "what we did at ruv.sgit.ai" and at "the agentic team we are using at newsroom.sgit.ai", and asks for "a first pass of the site" and "the first article". By the time the project existed, tomorrow was today.
+
+`%% record: BRIEF.md at 298be4e ("The request, as given"); the event text in the same file places the talk at IOActive's London office, hack::soho (researcher__012).`
 
 **Narrator.** The third is the reality file. Its second sentence is the one I would copy into any project:
+
+`%% for the editor: "the one I would copy into any project" is the writer's reading of his view; his to keep or drop.`
 
 > "A thing not listed here does not exist, whatever a brief or an article says."
 
@@ -73,7 +79,9 @@ Band: *Dramatised. Dev's lines rest on its first commit at 00:40 and the four fi
 
 ## The first shared rule: reading the team
 
-**Narrator.** The first rule the whole team shared was not about the talk at all. It was about me reading the team. Every session's report would open with a start banner and close with an end banner, so that when I read a session from its last message upwards I could tell where one report began and ended. The conductor took the rule from an earlier team of mine and made it everyone's, in the first hour.
+**Narrator.** The first rule the whole team shared was not about the talk at all. It was about me reading the team. Every session's report would open with a start banner and close with an end banner, so that when I read a session from its last message upwards I could tell where one report began and ended. The conductor took the banners from the PHP newsroom, the agent team my brief points at, and made them everyone's rule, in the first hour.
+
+`%% record: timeline/day/00.md (00:53:45 to 00:58:19: "Adopts the PHP newsroom's start and end banners for every session report"; a3a4807 7f9b9b5 41d38ba)`
 
 **Figure:** one banner, as a session prints it: a box with who, when, what this session is for, and where it stands; and its end twin, with what was done, what is blocked, and what waits on me.
 
@@ -90,15 +98,19 @@ Band: *Dramatised (the conductor's line). Rests on the conductor's commits of 00
 
 **Narrator.** Dev's page of rules does something I wish every page did: it says what stands between the agent and each thing it must not do, and how strong that is. Pushing to the main branch: an expectation. Writing another member's files: a setting, which a check catches. Its own words for that check: it "catches mistakes, not a steered agent".
 
+`%% for the editor: "something I wish every page did" is the writer's reading of his view; his to keep or drop.`
+
 **Conductor** *(pacing)*: The schedule, the keys and the session conventions. I may change my own folder, the team's tools and the team's guides. I route the mail. I propose; the editor agrees or drops.
 
 **Narrator.** The conductor's rule I would copy is the one about requests: route each one to its owner, and flag any request left unanswered after two slots. A team that loses a request quietly is worse than one that says no.
+
+`%% for the editor: "The conductor's rule I would copy" is the writer's reading of his view; his to keep or drop.`
 
 **Deck** *(proud, the fussy one)*: The talk's content, and the studio that improves it. The beats, the slides, the studio's pages. And the rule behind most of my reviews: check each changed slide in the player at projector size before shipping. A slide only seen as code is a slide not seen.
 
 **Deck** *(fussing with its own page)*: And never type a version number. That one is somebody else's scar, from another team's bad day. We inherited it.
 
-**Narrator.** And one more, a few minutes into hour two: ruv-sgit joined at 01:08, not on the conductor's first roster. Its page belongs with these three.
+**Narrator.** And one more, eight minutes into hour two: ruv-sgit joined at 01:08, not on the conductor's first roster. Its page belongs with these three.
 
 **ruv-sgit** *(absorbed, the night owl, not looking up from the workshop bench)*: Animations and moving infographics, made in my own runs. I may change my folder and my pages. One rule I learned the hard way: the container is ephemeral. Seal what you keep, or say what you lost, before the session ends.
 

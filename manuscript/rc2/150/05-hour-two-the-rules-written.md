@@ -31,12 +31,12 @@ Band: *Dramatised (the conductor's line). Rests on the conductor's commits of 01
 
 **Narrator.** It is the first place in the record where an agent's reach went past what the team meant, and the team pulled it back inside three minutes, by changing a rule rather than by hoping. This book's team inherited the rule unchanged: the writer of these pages made its own task in its own session, from the schedule's own words.
 
-`%% record: d8f3300 (01:40) b620234 (01:43: "Only a member's own session can create its scheduled task: the three the conductor created for dev, deck and ruv.sgit were disabled before any fired") team/conductor/schedule.json ("how_each_task_is_made", this book's)`
-Band: *Dramatised (the conductor's line). Rests on the conductor's commits of 01:40 and 01:43; the rule is this book's team's still.*
+`%% record: the historian's reading, timeline/day/01.md ("What the hour shows"), for "the first place in the record where an agent's reach went past what the team meant"; d8f3300 (01:40) b620234 (01:43: "Only a member's own session can create its scheduled task: the three the conductor created for dev, deck and ruv.sgit were disabled before any fired") team/conductor/schedule.json ("how_each_task_is_made", this book's)`
+Band: *Dramatised (the conductor's line). Rests on the conductor's commits of 01:40 and 01:43; that it is the first place an agent's reach went past what the team meant is the historian's reading of the hour; the rule is this book's team's still.*
 
 ## One build, one check
 
-**Narrator.** The check held its line in this hour too. At about a quarter past one, it stopped dev's own release until two members' pages of rules carried a rule I had just asked for, that every session report opens and closes with a banner. Dev added the lines, and the release went out.
+**Narrator.** The check held its line in this hour too. At about twenty past one, it stopped dev's own release until two members' pages of rules carried a rule I had just asked for, that every session report opens and closes with a banner. Dev added the lines, and the release went out.
 
 **Dev** *(happy, then patient)*: The check said no. It was right. The lines went in, and it said yes.
 
