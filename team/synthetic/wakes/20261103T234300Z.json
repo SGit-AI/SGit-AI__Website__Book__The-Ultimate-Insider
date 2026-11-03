@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Idle; only team/synthetic/**; no hold, no secret. Conditions: nothing secret in status, gate before push. Tools: Read, Bash; nothing refused.",
    "at": "2026-11-03T23:43:38Z"
+  },
+  "work": {
+   "by": "synthetic",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Idle: status.json (as_of the real time); gate and scope clean.",
+   "at": "2026-11-03T23:44:17Z"
+  },
+  "post_review": {
+   "by": "security sub-agent, as the reviewer type (post_review.md)",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Only status.json and the wake record, in scope; no key or personal detail; validate clean (852); 0 outside scope; comms unchanged. Tools: Read, Bash; nothing refused; wrote no file.",
+   "at": "2026-11-03T23:45:03Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent, as the reviewer type (post_check.md)",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Status (as_of the real time) and wake record in 9f642c82; nothing secret; gate before the push follows the close. Tools: Read, Bash; nothing refused.",
+   "at": "2026-11-03T23:45:03Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T23:45:03Z",
+ "outcome": "ok"
 }
