@@ -252,6 +252,26 @@ Traced on 3 November 2026 at the 19:32 wake, at the writer's letter 127, against
 | 20 | The ticks become open decisions through the conductor; nothing acted on until he signs | holds | *The companion*: "His ticks become open decisions in `book.json` through the conductor; act on none until he signs it" |
 | 20 | Two sessions of the storyteller, one superseded | holds | `team/storyteller/sessions/` (two folders; the first `SESSION.json` "superseded") |
 
+## Chapter 21, and 19's item 1 (the 20:32 wake)
+
+Traced on 3 November 2026 at the 20:32 wake, at the writer's letter 136, against this book's own record, `claims/rc2-30-trace.md` and the talk's record at `298be4e`.
+
+**In short:** chapter 21 holds; nothing to change. One time is a rounding: the historian's letters were at 02:26, and the chapter says "twenty-five past two". 19's item 1 now reads "Most of the player's commits of the afternoon, and the lock tool, name no member".
+
+### What holds
+
+| Ch | Line | Verdict | Source |
+|---|---|---|---|
+| 21 | The brake line: refused by the researcher's trace, corrected by the writer, then fixed in the short editions by the storyteller | holds | `fde3fea` (2 November 18:37:46); `58322a27` (18:42:37, the storyteller's 18:40 wake); `researcher__002`; `timeline/lineage.md` |
+| 21 | The account reached its limit on the afternoon of 1 November; nothing moved again until just after midnight | holds | `claims/rc2-30-trace.md`: the last commit before the limit 16:22 on 1 November, the next 00:06 on 2 November (`9395328`) |
+| 21 | "Every member's task kept firing, but each wake ended in seconds"; "Nothing was harmed and nothing is half-done." | holds | `team/conductor/editor-briefs/2026-11-02T0015Z.json`, word for word (the first is cut before "with 'usage_limit_reached'") |
+| 21 | "Keep the current pace which is good." | holds | `briefs/2026-11-02__in-session/01-keep-the-pace.md`, word for word |
+| 21 | The historian's letters on 3 November, "at twenty-five past two" | holds as a rounding | `5c4c7d17`, 02:26:47. If exact: "at twenty-six minutes past two", or "at about half past two" |
+| 21 | The talk's conductor's commit of 00:44 grew from the empty first commit, not from dev's; written in parallel | holds | `97b98d9` (00:44:37), its one parent `2e4b1f4`; dev's `1f7c633` (00:40:50) |
+| 21 | Merged at 00:51; the page that came out was dev's, word for word, with two of the conductor's lines added | holds | `17b287b` (00:51:12), parents `97b98d9` and `ab09186` (dev's release of `1f7c633`, `CLAUDE.md` unchanged); `CLAUDE.md` at `17b287b` against `ab09186`: two lines added (the team folder, and a new session makes its own key) |
+| 21 | Chapter 4 as first written; the correction nine hours later at 11:23; both chapters set right ten minutes after | holds | `b0f59de3` (10:34); `21e5ad53` (11:23:44); `ffeae66b` (11:33:41) |
+| 21 | The team and the inherited rules | not traced | the writer's pairings, flagged for the editor; each rule is on the members' own pages |
+
 ## Where this came from
 
-`manuscript/rc2/150/01` to `20` and `90`, each as on dev at the wake that traced it (3 November 2026, from 09:32 to 19:32); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).
+`manuscript/rc2/150/01` to `21` and `90`, each as on dev at the wake that traced it (3 November 2026, from 09:32 to 20:32); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).
