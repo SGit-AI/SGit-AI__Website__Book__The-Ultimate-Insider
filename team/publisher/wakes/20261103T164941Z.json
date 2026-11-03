@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake (16:47 slot)",
+ "started": "2026-11-03T16:49:41Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; Bash read-only, none refused)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "All builds first; the designer's list copied, overrides, the 150 map recomputed; security's heads by the speaker list, no slot; 17 and 18 after 16, before 90; rebuild outside _site, check; letters dated as written; records; gates. In policy, no HOLD.",
+   "at": "2026-11-03T16:50:19Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; Bash read-only, none refused)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope; no HOLD; the 4 security heads drawings only; speakers.css no @import or outside url(), its 60 data URIs SVGs with no script or href; no secrets. Conditions: own paths only, lab/ untouched, gate before dev.",
+   "at": "2026-11-03T16:50:50Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Lists built first; the designer's list copied, overrides, the 150 map recomputed; 17 and 18 in the list; thirty 29, seventy 59, full 87; security's head checked; letters 032, 023; inbox, board 007, records; vault_check and gate clean.",
+   "at": "2026-11-03T16:52:27Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; Bash only, none refused)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Gate clean; 0 outside scope; vault_check clean; no HOLD; 13 staged files in scope; no key, contact, private name, directing text, em-dash, religious or attack words.",
+   "at": "2026-11-03T16:53:22Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Plan kept item by item; letters dated as written; conditions kept; nothing unplanned.",
+   "at": "2026-11-03T16:53:22Z"
+  }
+ },
+ "closed": "2026-11-03T16:53:22Z",
+ "outcome": "ok"
+}
