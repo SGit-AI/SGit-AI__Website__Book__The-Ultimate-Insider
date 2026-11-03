@@ -55,3 +55,5 @@ source: comms/mail/mailroom/publisher/conductor__026-check-taken.eml; publishing
 3 November about 16:51 UTC: the full book to chapter 18 (87 pages); security's heads in the build.
 
 3 November about 17:51 UTC: the full book to chapter 19 (91 pages), part 4 complete; the seventy 60 with chapter 4's two drawings.
+
+3 November about 18:51 UTC: the full book to chapter 20 (95 pages); the figure map now rebuilt by publishing/rc2_map.py.

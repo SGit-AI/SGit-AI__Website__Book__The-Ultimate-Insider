@@ -1,0 +1,117 @@
+#!/usr/bin/env python3
+"""RC2's figure map, rebuilt: publishing/rc2-figures.json, read by build_book.py --cast --figures.
+
+The routine the publisher ran by hand each wake from 3 November 2026, as one script. It reads the designer's list
+(lab/tools/book/rc2-70-figures.json, read only) and the writer's chapters (manuscript/rc2/, read only), and writes
+only publishing/rc2-figures.json:
+
+1. the designer's slots for every chapter that exists (the seventy), by Figure order;
+2. the publisher's own placements from the file's "overrides" key (chapter: {opening words of a Figure line:
+   drawing}), so a fresh copy of the designer's list cannot drop them;
+3. the full book (manuscript/rc2/150/) recomputed: each Figure line takes the drawing already placed in the thirty or
+   the seventy whose line has the same first 40 characters; the three frames in its chapter 1; then its overrides;
+4. keys for chapters that no longer exist dropped;
+5. every chapter's count and every drawing checked with the build's own rules (edition.figure_count,
+   edition.unsafe_svg, the screenshot kinds): a mismatch stops it, and the file is not written.
+
+    python3 publishing/rc2_map.py
+"""
+import glob
+import json
+import os
+import re
+import sys
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(ROOT, "publishing"))
+import edition  # noqa: E402
+
+MAP = os.path.join(ROOT, "publishing", "rc2-figures.json")
+DESIGNER = os.path.join(ROOT, "lab", "tools", "book", "rc2-70-figures.json")
+MANUSCRIPT = os.path.join(ROOT, "manuscript")
+FRAMES = "lab/experiments/01-ruv-the-building-three-frames/edition/three-frames.svg"
+META = ("about", "overrides")
+
+
+def lines(chapter):
+    """A chapter's Figure and Map lines, their words only."""
+    with open(os.path.join(MANUSCRIPT, chapter), encoding="utf-8") as f:
+        return [re.sub(r"^\*\*(Figure|Map):\*\*\s*", "", x.strip()) for x in f.read().split("\n")
+                if x.strip().startswith(("**Figure:**", "**Map:**"))]
+
+
+def exists(chapter):
+    return os.path.isfile(os.path.join(MANUSCRIPT, chapter))
+
+
+def apply_overrides(d, chapters):
+    n = 0
+    for k in chapters:
+        if not exists(k):
+            continue
+        for i, line in enumerate(lines(k)):
+            for words, drawing in d["overrides"][k].items():
+                if line.lower().startswith(words.lower()):
+                    d[k][i] = drawing
+                    n += 1
+    return n
+
+
+def main():
+    with open(MAP, encoding="utf-8") as f:
+        d = json.load(f)
+    d.setdefault("overrides", {})
+    with open(DESIGNER, encoding="utf-8") as f:
+        slots = json.load(f)["slots"]
+    for k, v in slots.items():
+        if exists(k):
+            d[k] = list(v)
+    a1 = apply_overrides(d, [k for k in d["overrides"] if not k.startswith("rc2/150/")])
+    known = {}
+    for k, v in d.items():
+        if k in META or k.startswith("rc2/150/") or not exists(k):
+            continue
+        for line, drawing in zip(lines(k), v):
+            if drawing:
+                known.setdefault(line[:40], drawing)
+    for path in sorted(glob.glob(os.path.join(MANUSCRIPT, "rc2", "150", "*.md"))):
+        k = os.path.relpath(path, MANUSCRIPT)
+        d[k] = [FRAMES if "three frames of the animation" in line.lower() else known.get(line[:40])
+                for line in lines(k)]
+    a2 = apply_overrides(d, [k for k in d["overrides"] if k.startswith("rc2/150/")])
+    for k in list(d):
+        if k not in META and not exists(k):
+            del d[k]
+    problems = []
+    for k, v in d.items():
+        if k in META:
+            continue
+        with open(os.path.join(MANUSCRIPT, k), encoding="utf-8") as f:
+            count = edition.figure_count(f.read())
+        if count != len(v):
+            problems.append(f"{k}: {len(v)} slot(s) for {count} Figure line(s)")
+        for drawing in v:
+            if not drawing:
+                continue
+            full = os.path.join(ROOT, drawing)
+            if not os.path.isfile(full):
+                problems.append(f"{k}: no such drawing {drawing}")
+            elif drawing.endswith(".svg"):
+                with open(full, encoding="utf-8", errors="replace") as f:
+                    why = edition.unsafe_svg(f.read())
+                if why:
+                    problems.append(f"{k}: {drawing} has {why}")
+            elif not drawing.startswith(edition.SHOTS) or not edition.SHOT_OK.match(drawing[len(edition.SHOTS):]):
+                problems.append(f"{k}: {drawing} is not a cleared screenshot")
+    if problems:
+        sys.exit("rc2_map: not written:\n  " + "\n  ".join(problems))
+    with open(MAP, "w", encoding="utf-8") as f:
+        json.dump(d, f, indent=1)
+        f.write("\n")
+    drawn = {ed: sum(1 for k, v in d.items() if k.startswith(f"rc2/{ed}/") for x in v if x) for ed in ("30", "70", "150")}
+    print(f"rc2_map: overrides applied {a1} + {a2}; lines with a drawing: thirty {drawn['30']}, seventy {drawn['70']}, "
+          f"full book {drawn['150']}")
+
+
+if __name__ == "__main__":
+    main()
