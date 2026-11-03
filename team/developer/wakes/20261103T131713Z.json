@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled, hourly at :12 (ACC1)",
+ "started": "2026-11-03T13:17:13Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (plan brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused",
+   "model": "",
+   "verdict": "go",
+   "comment": "(1) A8: review/tools/make_wakes.py writes /review/read/wakes.html, the wakes behind each RC1 chapter (cited talk commit -> member wake by @member subject and the wake's time window, at 298be4e), method and untraced counts stated, verdicts only from the wake files, decisions later; linked from the reader index and graph. (2) Board 007, status, debrief, REALITY, gate, push.",
+   "at": "2026-11-03T13:19:34Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (pre_review brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused",
+   "model": "",
+   "verdict": "go",
+   "comment": "No hold; in scope; nothing attack-shaped. Conditions: the talk clone stays read-only in the scratchpad at 298be4e, nothing to the talk or blind repositories; the page copies only member id, UTC time, the five verdict words and GitHub links, no comment or subject text or personal detail; vault_check before push.",
+   "at": "2026-11-03T13:20:01Z"
+  },
+  "work": {
+   "by": "developer@book.the-ultimate-insider",
+   "model": "",
+   "verdict": "done",
+   "comment": "In 8285fe49: review/tools/make_wakes.py and /review/read/wakes.html (72 of 115 cited talk commits traced by member and wake window; 27 outside any wake, 16 no member, counted); member, time, verdicts and links only; reader index and graph link it; board 007 ticked, decisions item left open.",
+   "at": "2026-11-03T13:23:20Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (post_check brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Both items in 8285fe49, pre-review conditions kept. Stale bookkeeping it named, corrected before close: the reader index's 'Not yet' note (make_reader.py, rerun), board 007's graph line date, and the debrief's start time (fired 13:15, started 13:17).",
+   "at": "2026-11-03T13:24:27Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (post_review brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused",
+   "model": "",
+   "verdict": "clean",
+   "comment": "8285fe49 clean: in scope, no secrets, contacts, em-dashes or religious words; wakes.html carries only member ids, UTC times, verdict words and links; make_wakes.py only reads the talk clone. It saw the post-check fixes in progress (reader index note with a zoom link, board date, debrief time); those were committed after its review, are text-only and in scope, and are named here rather than reviewed.",
+   "at": "2026-11-03T13:25:27Z"
+  }
+ },
+ "closed": "2026-11-03T13:25:28Z",
+ "outcome": "ok"
+}
