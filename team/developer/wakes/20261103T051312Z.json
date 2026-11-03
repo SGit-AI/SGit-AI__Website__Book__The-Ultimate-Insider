@@ -31,8 +31,15 @@
    "verdict": "clean",
    "comment": "All 45 files in scope; no secrets, contacts, network calls, em-dashes or religious words. Pre-review conditions met: raw HTML and links stop the build, unmatched pages stop it (one named exception), record links only to the public repositories, talk at 298be4e.",
    "at": "2026-11-03T05:18:26Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (post_check brief)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "All three items in b8f516fa, conditions recorded; rc2-70 rebuild disclosed. Stale bookkeeping it named (status as_of and round, board 010's 70-page counts) corrected before close.",
+   "at": "2026-11-03T05:19:01Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T05:19:01Z",
+ "outcome": "ok"
 }
