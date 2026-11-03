@@ -16,4 +16,4 @@ The editor: "this online iPad PDF kind of mode application or view that has that
 - [ ] The graph's next views: wakes and decisions behind a page
 - [x] QR targets for print, pointing at the record under each scene: `review/anchors/qr-targets.json`, 131 targets (RC2, the 70-page draft, the 3- and 10-page editions), https on the book's own domain only; images wait on a QR library (wake of 06:12 UTC, 3 November; notice developer__023 to the publisher)
 - [ ] A page-by-page view, like the PDF on an iPad
-- [ ] "Where this came from" as structured data, not parsed text (the editor: "the content of the entire book should be in JSON")
+- [x] "Where this came from" as structured data, for the online editions: `review/anchors/editions.json`, published at `/review/editions.json` (4 editions, 37 chapters, every paragraph with its anchor and every record token resolved or marked unverified) (wake of 07:12 UTC, 3 November); RC1 still from parsed text
