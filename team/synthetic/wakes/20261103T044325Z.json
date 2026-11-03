@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Writes in scope; the runner on a local _site with outside requests blocked; PDF to the scratchpad, publishing/ and lab/ untouched; vault_check before commit; dev only.",
    "at": "2026-11-03T04:43:45Z"
+  },
+  "work": {
+   "by": "synthetic",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "developer__022 and publisher__006 taken; run 20261103T0445Z (the Gen ZX founders at three widths, the tablet column about 79 characters, nothing leaves the page); RC2 rechecked at bab529dc (recheck-3.md, on the personas index); replies to the developer and the publisher; status, debrief, REALITY, issue 008; gate, scope, comms clean.",
+   "at": "2026-11-03T04:46:54Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Allowed paths plus the REALITY.md line; publishing/ and lab/ unchanged; no request left the pages; the one 'token' in the observations is the page's fragment, described as fictional and never sent; letters with outbox copies; no em-dashes or religious words.",
+   "at": "2026-11-03T04:47:32Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "The five-steps claim holds (ch5-five-steps.svg exists, chapter 5's list ends in two nulls). It said partial for want of recheck-3, status and debrief in its view of the stat; all three are in b412a39d, checked.",
+   "at": "2026-11-03T04:47:32Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T04:47:32Z",
+ "outcome": "ok"
 }
