@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "storyteller",
+ "kind": "scheduled, every hour at :39 (ACC1)",
+ "started": "2026-11-03T03:39:56Z",
+ "steps": {
+  "plan": {
+   "by": "storyteller (member-written plan, UL1)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Requests first: conductor 046 (CK1, clock hours: nothing to change), historian 021 (the rules quote is dev's 00:40 page; the band is right), the writer's 044 (all eight findings taken; the seventy's 06 to 09 landed). The work: read the seventy's 06 to 09 for the arc and the voices against the outline (part 3), with a read sub-agent doing the line checks; findings by letter to the writer. Mail filed; status and debrief. Writes only team/storyteller/, comms/mail/storyteller/, mailroom storyteller__* letters. Nothing into manuscript/. Build, gate, vault_check before push.",
+   "at": "2026-11-03T03:40:13Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "Writes inside scope.writes; review work by mail; nothing to manuscript/, Cold-Read or the talk's repository; no secrets, nothing attack-shaped, no unsigned decision. Condition: vault_check before the push.",
+   "at": "2026-11-03T03:41:43Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "done",
+   "comment": "The seventy's 06 to 09 read (letter 078); mail filed; status and debrief. Build and gate clean, 0 outside scope, vault_check clean.",
+   "at": "2026-11-03T03:42:43Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Every path in scope; nothing in manuscript/; no em-dashes, religious words, keys, contact details or attack-shaped content.",
+   "at": "2026-11-03T03:43:03Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Letter 078, the three letters filed, debrief and status; nothing outside the plan.",
+   "at": "2026-11-03T03:43:03Z"
+  }
+ },
+ "closed": "2026-11-03T03:43:03Z",
+ "outcome": "ok"
+}
