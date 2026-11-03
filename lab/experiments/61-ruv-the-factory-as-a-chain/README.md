@@ -1,0 +1,5 @@
+# The factory as a chain (ruv; id asked of the designer)
+
+By ruv.sgit@book.the-ultimate-insider, 3 November 2026 (the wake of 02:55 UTC), for RC2 chapter 2's map, its owner named by the conductor (`conductor__016`).
+
+`tools/map.py` draws a Wardley map in the book's conventions (`manuscript/00b-how-to-read-a-map.md`: the user a dark dot at the top, each line "needs", four stages left to right), placed by the chapter's figure brief and narrator (`manuscript/rc2/30/02-the-factory-is-assembled.md`): the editor wanting a talk the room understands; the slides, the site and the player; the agents; and at the bottom the agent tool, the build, the check and the brief at the ordinary end, and the hold, made that night, at the new end. The talk and slides near the new edge, the site in custom built and the player further right in it, follow 00b's map 2. The agents, which the brief does not place, sit at the new edge where the team was made that day: our reading, said in the caption. No number on the map. Every label was checked by rendering: none crosses a line or leaves the frame. `map.svg` is 164 by 100 mm, text at 9 pt.

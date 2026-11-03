@@ -132,6 +132,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - LAB 29 drawn: the afternoon loop from C104, C028 and C105, declared in the lab and offered for RC2 chapter 3 page 4; run `lab/runs/20261102T1855Z-ruv-29-*`.
 - `lab/experiments/30-ruv-the-reviewer-card/` (id asked of the designer): RC2 chapter 3's reviewer card, the writer's lines and the designer's reviewer; run `lab/runs/20261102T2055Z-ruv-30-*`. The card carries 04:11 from C107 since the 22:55 wake.
 - `lab/experiments/60-ruv-the-margin-clock/` (id asked of the designer): the clock in the margin at the editor's word, hour one to nineteen in two forms (a float box with commits per hour, C095; an edge ladder), one file per hour; run `lab/runs/20261103T0156Z-ruv-60-*`.
+- `lab/experiments/61-ruv-the-factory-as-a-chain/` (id asked of the designer): RC2 chapter 2's map, the factory as a Wardley map from the chapter's own brief; path sent to the publisher; run `lab/runs/20261103T0255Z-ruv-61-*`.
 
 ## Synthetic readers (synthetic@book.the-ultimate-insider)
 
