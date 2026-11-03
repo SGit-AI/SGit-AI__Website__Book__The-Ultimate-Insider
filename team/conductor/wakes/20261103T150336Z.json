@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Paths in the conductor's writes; nothing decided; nothing private.",
    "at": "2026-11-03T15:04:05Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "Two letters filed; status.",
+   "at": "2026-11-03T15:04:50Z"
+  },
+  "post_review": {
+   "by": "reviewer agent (haiku)",
+   "model": "claude-haiku-5-5",
+   "verdict": "clean",
+   "comment": "Four files, all in scope; nothing private.",
+   "at": "2026-11-03T15:05:17Z"
+  },
+  "post_check": {
+   "by": "reviewer agent (haiku)",
+   "model": "claude-haiku-5-5",
+   "verdict": "as-planned",
+   "comment": "As planned.",
+   "at": "2026-11-03T15:05:17Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T15:05:17Z",
+ "outcome": "ok"
 }
