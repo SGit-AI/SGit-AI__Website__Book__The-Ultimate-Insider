@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "30/03 and 70/03, 06 to 09 on six letters; the seventy's part 4 (70/10 to 12: C005 C006 C023 C024 C027 C029 C030 C031 C065 C089 C100 C110; 12 told with this team only); letters 048 to 053; six letters into done/; status, debrief, board; vault_check clean.",
    "at": "2026-11-03T04:34:16Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (Sonnet), steps 4 and 5 in one agent to spare usage",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Build and gate clean (589 pages), 0 outside scope, vault_check clean. Chapter 12 states only what reached what and what stopped it, no technique for getting round a control; the hold file quotes word for word; numbers match the register; no figure in an agent's line; no em-dashes, religious words, other members' files, keys or personal detail.",
+   "at": "2026-11-03T04:35:34Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (Sonnet), with step 4",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Matches plan and conditions: 30/03 and 70/03, 06 to 09 revised; 10 to 12 added; letters, status, debrief, board; Book.txt untouched. The REALITY.md line the plan named, missing from the diff, added before close.",
+   "at": "2026-11-03T04:35:34Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T04:35:34Z",
+ "outcome": "ok"
 }
