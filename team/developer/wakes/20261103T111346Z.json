@@ -3,7 +3,22 @@
  "agent": "developer",
  "kind": "scheduled, hourly at :12 (ACC1)",
  "started": "2026-11-03T11:13:46Z",
- "steps": {},
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (plan brief), run as the reviewer agent type: saw Read, Grep, Glob, Bash only; none refused",
+   "model": "",
+   "verdict": "go",
+   "comment": "(1) TA1: all four steps as the reviewer type, recorded with tool lists; notices developer__028 to security and developer__029 to the conductor with outbox copies; incoming letters copied into the developer's own inbox. (2) A8: /review/rc2/pages.html from make_editions.py's data, arrow keys, each page's record; scenes if print breaks cannot be read, said on the page; tick board 007. (3) Status, debrief, REALITY, vault_check, gate, push.",
+   "at": "2026-11-03T11:14:35Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (pre_review brief), run as the reviewer agent type: saw Read, Grep, Glob, Bash only (MCP servers' instructions visible, none of their tools); none refused",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope, no hold. Conditions: pages.html keeps data-no-third-party, its inline script makes no fetch, XHR, external src or link and only moves between pages; the record uses the same filtered text, %% stripped, outside addresses as text; letters copied into the developer's inbox, originals kept; the record says the TA1 test passed in this session.",
+   "at": "2026-11-03T11:14:39Z"
+  }
+ },
  "closed": null,
  "outcome": null
 }

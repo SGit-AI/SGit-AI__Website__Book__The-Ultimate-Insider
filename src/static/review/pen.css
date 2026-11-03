@@ -88,3 +88,10 @@ a.pv code{color:var(--accent)}
   .rv-side{position:static;order:-1}
   .rv-facts{grid-template-columns:1fr}
 }
+/* the page-by-page view (make_editions.py, rc2/pages.html): one scene at a time; without the script every scene shows in order */
+.pg-bar{display:flex;gap:8px;align-items:center;margin:16px 0;font-size:var(--t-s)}
+.pg-bar button{font:inherit;border:1px solid var(--line2);background:var(--card);color:var(--text);border-radius:999px;padding:4px 14px;cursor:pointer}
+.pg-bar button:disabled{opacity:.4;cursor:default}
+.pg{border:1px solid var(--line);background:var(--panel);border-radius:8px;padding:20px 24px;margin:16px 0;max-width:var(--measure)}
+.pg h2{margin-top:0;font-size:var(--t-s);text-transform:uppercase;color:var(--dim)}
+.pg .rc-rec{margin:20px 0 0}

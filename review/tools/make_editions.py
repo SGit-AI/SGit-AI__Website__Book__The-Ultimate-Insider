@@ -4,7 +4,7 @@
 # every commit, path and register id in it a link where verified (the same lookup as make_reader.py: this repository,
 # a read-only clone of the talk's at 298be4e, claims/register.json). Other `%%` lines are notes for the writers and stay
 # hidden. Paragraph anchors as on the review pages. Also writes the zoom index: the editions from shortest to longest.
-# Writes only review/anchors/qr-targets.json, editions.json (and its copy in src/static/review/), src/pages/review/rc2/, rc2-70/, ed-03/, ed-10/ and src/pages/review/zoom.html. Kept by developer@book.the-ultimate-insider.
+# Writes only rc2/pages.html, review/anchors/qr-targets.json, editions.json (and its copy in src/static/review/), src/pages/review/rc2/, rc2-70/, ed-03/, ed-10/ and src/pages/review/zoom.html. Kept by developer@book.the-ultimate-insider.
 # Run: python3 review/tools/make_editions.py <path to a full clone of SGit-AI__Website__Presentation__The-Ultimate-Insider>
 
 import html, json, re, subprocess, sys
@@ -104,6 +104,32 @@ def qr(slug, f, rid, words):
     return {'id': f'{slug}/{f.stem}#{rid}', 'edition': slug, 'chapter': f.name, 'url': f'{SITE}/review/{slug}/{f.stem}.html#{rid}', 'starts': words}
 
 
+def pages_view(ed):
+    """RC2 one scene at a time, as a reader turns the pages: the same filtered text as editions.json, the record under each."""
+    secs, n = [], 0
+    for c in ed['chapters']:
+        for sc in c['scenes']:
+            n += 1
+            body = ''.join(f'<p>{html.escape(p["text"])}</p>' for p in sc['paragraphs'])
+            rec = ''
+            if sc['record']:
+                opens = ' · '.join(f'<a class="pv" href="{html.escape(t["url"])}" rel="noopener noreferrer"><code>{html.escape(t["token"])}</code></a>'
+                                   for t in sc['tokens'] if t.get('url'))
+                rec = (f'<aside class="rc-rec"><b>Rests on</b> {html.escape(sc["record"])}'
+                       + (f'<br>Open: {opens}' if opens else '') + '</aside>')
+            secs.append(f'<section class="pg" id="p-{n}" data-pg aria-label="Page {n}"><h2>{html.escape(c["title"])} · page {n}</h2>{body}{rec}</section>')
+    bar = ('<div class="pg-bar"><button type="button" data-pg-prev>Previous</button> <span data-pg-at></span> '
+           '<button type="button" data-pg-next>Next</button> <span class="c-dim">or the arrow keys</span></div>')
+    meta = {'title': 'RC2, page by page', 'description': 'One Human, Nine Agents, Nineteen Hours, RC2, one scene at a time, with what each rests on.'}
+    (PAGES / 'rc2' / 'pages.html').write_text(
+        f'<!--meta {json.dumps(meta)} -->\n<link rel="stylesheet" href="{{{{root}}}}review/pen.css">\n<section class="wrap narrow" data-no-third-party>\n'
+        f'<p class="kicker">RC2, the 30-page edition · page by page</p>\n<h1>RC2, page by page</h1>\n'
+        f'<p class="lead">The draft one page at a time, as on a tablet, with what each page rests on beneath it.</p>\n'
+        f'<p class="note">A "page" here is a scene: the printed page breaks are not yet read from the PDF, so a printed page and a page here may differ. {n} pages, from <a href="{{{{root}}}}review/editions.json">editions.json</a>; the same chapters in full are in <a href="index.html">RC2 online</a>.</p>\n'
+        f'{bar}\n' + '\n'.join(secs) + f'\n{bar}\n</section>\n<script src="{{{{root}}}}review/pages.js" defer></script>\n')
+    print(f'rc2/pages.html: {n} pages')
+
+
 def chapter_page(path, i, files, book, talk, claims, edition_title, foot=None):
     raw = path.read_text()
     if foot is not None:                                            # a short edition: the publisher's text, its page's record at the foot
@@ -177,7 +203,7 @@ def main(talk_path):
             f'<!--meta {json.dumps(meta)} -->\n<section class="wrap narrow" data-no-third-party>\n<p class="kicker">{html.escape(edition_title)} · a draft</p>\n'
             f'<h1>{html.escape(edition_title[0].upper() + edition_title[1:])}, online, with its record</h1>\n<p class="lead">The book says: "Online, under each scene, you can open the commits, times and files it rests on." Here they are: each scene with what it rests on, every commit, file and number a link where it could be verified.</p>\n'
             f'<p class="note">{len(files)} chapters, {scenes} scenes, {links} links, from the writer\'s chapters (<code>{src}/</code>) as they stand on dev; rebuilt with the site. The draft changes at every release.</p>\n'
-            f'<ol>{"".join(toc)}</ol>\n<p class="note">As data: <a href="{{{{root}}}}review/editions.json">editions.json</a>, every edition\'s chapters, paragraphs and record.</p>\n<p><a href="../zoom.html">The zoom</a>: the same story at every length.</p>\n</section>\n')
+            f'<ol>{"".join(toc)}</ol>\n<p class="note">As data: <a href="{{{{root}}}}review/editions.json">editions.json</a>, every edition\'s chapters, paragraphs and record.' + (' <a href="pages.html">Page by page</a>: one scene at a time.' if slug == 'rc2' else '') + '</p>\n<p><a href="../zoom.html">The zoom</a>: the same story at every length.</p>\n</section>\n')
         print(f'{slug}: {len(files)} chapters, {scenes} scenes, {links} links')
     for slug, edition_title, booktxt, script in SHORT:
         OUT = PAGES / slug
@@ -217,6 +243,7 @@ def main(talk_path):
     for t in targets:                                                # printed codes: https, the book's own host, no query, no tracking
         if not re.fullmatch(r'https://the-ultimate-insider\.book\.sgit\.ai/review/[\w-]+/[\w-]+\.html#rec-r\d\d-\d+', t['url']):
             sys.exit(f'qr target refused: {t["url"]}')
+    pages_view(next(e for e in editions if e['edition'] == 'rc2'))
     for t in targets:
         for a in addresses(json.dumps(t, ensure_ascii=False)):     # no exception for print: every address in a target on the book's domain
             if not a.startswith(SITE + '/'):
