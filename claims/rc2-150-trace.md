@@ -291,6 +291,35 @@ Traced on 3 November 2026 at the 21:32 wake, at the writer's letter 141, against
 | 23 | The running line "Ship" | holds | `book.json` RL1, decided, 2 November 2026, about 21:55 UTC |
 | 23 | The chapter numbers under "Rests on" (4, 11, 17, 16 and 15) | holds | the rules' last line (4), the corrections file (11), the misses (17), the hold (16), studio's refusal of a relayed word (15) |
 
+## Chapters 91 and 94, 23's new openings and 21's fix (the 23:32 wake)
+
+Traced on 3 November 2026 at the 23:32 wake, at the writer's letter 147 and the publisher's 007, against the register, this book's own full history (unshallowed for the purpose) and the talk's record at `298be4e`.
+
+**In short:**
+- 94 holds: every time to the second, and every count. Its counts are now registered as C113 (RC1: 13 chapters, an appendix, 42 images) and C114 (when each member was staffed: six inside two minutes, the writer the twelfth). One rounding: "The talk's day lasted nineteen hours"; C010 gives 18 h 44 min.
+- 91's "follow-up" now points to chapter 6, where it is first used in prose. That holds.
+- 23's new openings hold, and so do its C010 and C011. 21 now says 02:26.
+
+### What holds
+
+| Ch | Line | Verdict | Source |
+|---|---|---|---|
+| 94 | Every time in its three tables (30 October to 3 November) | holds | each commit's author date, all 30 checked to the second; this book's record |
+| 94 | Six members staffed "within a minute and a half", "inside two minutes" | holds | C114: 01:41:08 to 01:42:34, 86 seconds |
+| 94 | "Four more staffed" 13:04:04 to 14:14:13; the writer "the twelfth member" | holds | C114 |
+| 94 | RC1: "thirteen chapters, an appendix, 42 images" | holds | C113, at `f6ce7ffa` |
+| 94 | Nothing reached dev after 16:22 on 1 November | holds | `62486dac` 16:22; the next, `9395328b`, 2 November 00:06:38 |
+| 94 | H1 "about 13:00", "Yes that H1 plan is good"; RL1 about 21:55 | holds | `book.json` H1, RL1 |
+| 94 | ACC1 at 01:18 | holds | `book.json` ACC1: the editor's word about 01:15, the schedule set at 01:18 |
+| 94 | "The talk's day lasted nineteen hours" | holds as a rounding | C010: 00:16 to 19:00, 18 h 44 min. Exact: "nearly nineteen hours" |
+| 91 | Follow-up, chapter 6 | holds | first in the prose of 06 (the storyteller's "my last follow-up") |
+| 23 | Step 1's moment: dev's first commit at 00:40 | holds | `1f7c633` 00:40:50; C011 |
+| 23 | Step 3's moment: the corrections file said "None yet." to the end of the day | holds | `BRIEF-CORRECTIONS.md` at `298be4e` |
+| 23 | Step 4's moment: the check stopping dev's own release at 01:19 | holds | `24da366` 01:19:26, as traced for chapters 5 and 11 |
+| 23 | Step 5's moments: the hold at 18:44; studio's refusal | holds | C006; `bd3cdad` |
+| 23 | "a talk in a day", "my nine" | holds | C010, C011 |
+| 21 | "at 02:26", "rewrote it at 00:44" | holds | `5c4c7d17` 02:26:47 |
+
 ## Where this came from
 
-`manuscript/rc2/150/01` to `23` and `90`, each as on dev at the wake that traced it (3 November 2026, from 09:32 to 21:32); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).
+`manuscript/rc2/150/01` to `23`, `90`, `91` and `94`, each as on dev at the wake that traced it (3 November 2026, from 09:32 to 23:32); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).

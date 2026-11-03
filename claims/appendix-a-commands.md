@@ -900,6 +900,22 @@ State: checked.
 git show 38b69644:controls/index.json | python3 -c "import json,sys;d=json.load(sys.stdin)['book_team']['tool_cases'];[print(c['n'],c['tool'][:30],c.get('refused')) for c in d['cases']]"
 ```
 
+## C113: This book's first release candidate (RC1), as handed to the publisher: chapters, an appendix and images
+
+State: checked.
+
+```
+git ls-tree -r --name-only f6ce7ffa team/conductor/rc1 | grep -E '/[0-9]{2}-[^/]*\.md$' | grep -v '/99-' | wc -l; git ls-tree -r --name-only f6ce7ffa team/conductor/rc1/resources/images | wc -l
+```
+
+## C114: This book's team: when each member was staffed, from its first commit as a member
+
+State: checked.
+
+```
+for c in bb1f57c0 19e266fb f3e634f3 81fd2ef8 e69f073b 6d357179 5c2d2f9c afbb50d7 28396879 e36d0e94 8f10a08e 68ffc780; do git show -s --format='%h %ad %s' --date=format:'%d %H:%M:%S' $c | cut -c1-80; done
+```
+
 ## Where this came from
 
-`claims/register.json`, the `command` of each entry, run against `298be4e` (a full clone: `git rev-list --count 298be4e` gives 816) and `d39e717`; spot-checked on 30 October 05:45, 06:45, 07:45, 08:45, 09:40 and 10:50 (C011, C014, C021, C041, C042), each giving the registered value. C031's 2026 figure is read from a web page, fetched 30 October 2026. C043 to C062 were checked at source on 30 October about 13:20 UTC by the researcher's second session (public clones of OSBot-Utils, Memory-FS, Issues-FS, SGit-AI__CLI and myfeeds_ai; PyPI's JSON; the newsroom's wire; four LinkedIn pages' datePublished). C064 to C068, and the additions to C008 and C042, rerun on 30 October about 14:40 UTC. C069 to C072 rerun on 30 October about 16:45 UTC; C069 and C070 run at a9c0b49, material added after the day. C073 rerun on 30 October about 18:40 UTC. C074 checked on 30 October about 18:35 UTC. C011's command reads team/keys/ too since 30 October 20:40. C075 to C077 read from leanpub.com on 30 October about 20:40 UTC. C078 to C081 checked on 30 October about 22:40 UTC. C082 and C083 checked on 31 October about 00:45 UTC. C084 to C086 checked on 31 October about 00:50 UTC. C087 and C088 checked on 31 October about 04:50 UTC. C089 and C090 read on 31 October about 08:45 UTC. C091 and C092 read on 31 October about 14:45 UTC. C093 and C094 read on 31 October about 16:45 UTC. C100 checked on 1 November about 14:40 UTC. C101 read on 2 November about 00:35 UTC. C102 and C103 read on 2 November about 09:40 UTC. C104 checked on 2 November about 16:55 UTC. C105 rerun on 2 November about 18:36 UTC. C106 read on 2 November about 20:35 UTC. C107 checked on 2 November about 22:35 UTC. C108 counted on 3 November about 01:35 UTC. C109 read on 3 November about 01:40 UTC. C110 counted on 3 November about 02:35 UTC. C111 read on 3 November about 09:36 UTC. C112 counted on 3 November about 17:36 UTC.
+`claims/register.json`, the `command` of each entry, run against `298be4e` (a full clone: `git rev-list --count 298be4e` gives 816) and `d39e717`; spot-checked on 30 October 05:45, 06:45, 07:45, 08:45, 09:40 and 10:50 (C011, C014, C021, C041, C042), each giving the registered value. C031's 2026 figure is read from a web page, fetched 30 October 2026. C043 to C062 were checked at source on 30 October about 13:20 UTC by the researcher's second session (public clones of OSBot-Utils, Memory-FS, Issues-FS, SGit-AI__CLI and myfeeds_ai; PyPI's JSON; the newsroom's wire; four LinkedIn pages' datePublished). C064 to C068, and the additions to C008 and C042, rerun on 30 October about 14:40 UTC. C069 to C072 rerun on 30 October about 16:45 UTC; C069 and C070 run at a9c0b49, material added after the day. C073 rerun on 30 October about 18:40 UTC. C074 checked on 30 October about 18:35 UTC. C011's command reads team/keys/ too since 30 October 20:40. C075 to C077 read from leanpub.com on 30 October about 20:40 UTC. C078 to C081 checked on 30 October about 22:40 UTC. C082 and C083 checked on 31 October about 00:45 UTC. C084 to C086 checked on 31 October about 00:50 UTC. C087 and C088 checked on 31 October about 04:50 UTC. C089 and C090 read on 31 October about 08:45 UTC. C091 and C092 read on 31 October about 14:45 UTC. C093 and C094 read on 31 October about 16:45 UTC. C100 checked on 1 November about 14:40 UTC. C101 read on 2 November about 00:35 UTC. C102 and C103 read on 2 November about 09:40 UTC. C104 checked on 2 November about 16:55 UTC. C105 rerun on 2 November about 18:36 UTC. C106 read on 2 November about 20:35 UTC. C107 checked on 2 November about 22:35 UTC. C108 counted on 3 November about 01:35 UTC. C109 read on 3 November about 01:40 UTC. C110 counted on 3 November about 02:35 UTC. C111 read on 3 November about 09:36 UTC. C112 counted on 3 November about 17:36 UTC. C113 and C114 counted on 3 November about 23:35 UTC.

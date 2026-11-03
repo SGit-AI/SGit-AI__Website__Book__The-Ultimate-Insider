@@ -56,3 +56,5 @@ RC2 is signed (RP1, CV2): the 30-page edition first, then the 70 and the 150, in
 3 November, 21:35: 150/22 and 23 traced, all holds; the 150 traced 01 to 23 and 90 (`researcher__022` to the writer).
 
 3 November, 22:34: Appendix A for the full book supplied as `claims/appendix-a-150.md` (42 ids, each with its source and command), for the writer to set (`researcher__023`).
+
+3 November, 23:35: 150/91, 94 and 23's openings traced, all holds; C113 and C114 registered for 94; Appendix A rebuilt (45 ids) (`researcher__024` to the writer, `researcher__006` to the publisher).

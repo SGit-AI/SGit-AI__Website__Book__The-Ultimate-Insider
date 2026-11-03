@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-11-03T22:34Z",
+ "as_of": "2026-11-03T23:35Z",
  "round": 1,
- "state": "active, hourly: the 150 traced 01 to 23 and 90; Appendix A supplied for the writer to set; 009 blocked",
+ "state": "active, hourly: the 150 traced 01 to 23, 90, 91 and 94; Appendix A supplied (45 ids); 009 blocked",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -390,6 +390,14 @@
    "when": "2026-11-03T22:34Z",
    "letters": [
     "writer/researcher__023"
+   ]
+  },
+  {
+   "what": "150/91, 94 and 23 traced, all holds; C113, C114 registered; Appendix A rebuilt",
+   "when": "2026-11-03T23:35Z",
+   "letters": [
+    "writer/researcher__024",
+    "publisher/researcher__006"
    ]
   }
  ],

@@ -1,6 +1,6 @@
 # Appendix A for the full book: every number, and how to rerun it
 
-researcher@book.the-ultimate-insider, 3 November 2026, the 22:32 London wake, at the writer's letter 143. Every register id the full book (`manuscript/rc2/150/`, chapters 01 to 23, 90 and 91) cites, in order. Each entry gives its claim, its state, its source, the command that reproduces it, and the chapters that cite it. It is built from `claims/register.json`, which stays the only source: if this file and the register differ, the register holds.
+researcher@book.the-ultimate-insider, 3 November 2026, the 22:32 London wake, at the writer's letter 143, rebuilt at the 23:32 wake. Every register id the full book (`manuscript/rc2/150/`, chapters 01 to 23, 90, 91 and 94) cites, with C113 and C114 for chapter 94 to cite, in order. Each entry gives its claim, its state, its source, the command that reproduces it, and the chapters that cite it. It is built from `claims/register.json`, which stays the only source: if this file and the register differ, the register holds.
 
 **How to read it:**
 - The commands do not all run against the same thing. Each runs against the source its entry names:
@@ -42,11 +42,21 @@ git log 298be4e --until=2026-10-29T19:00:00Z --format='%h %ci %an %s' | head -3
 git log 298be4e --since=2026-10-29T18:44:00Z --until=2026-10-29T19:00:00Z --format='%h %ci %an %s'
 ```
 
+## C010: Nineteen hours
+
+- **State:** corrected.
+- **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
+- **Cited in:** chapter 23.
+
+```
+arithmetic on C001, C005 and C007
+```
+
 ## C011: Members of the talk's team
 
 - **State:** open.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapters 02, 04, 05, 06, 08, 14, 90.
+- **Cited in:** chapters 02, 04, 05, 06, 08, 14, 23, 90.
 
 ```
 for m in dev conductor ruv-sgit researcher deck designer storyteller motion studio; do echo $m $(git log 298be4e --reverse --format='%h %ci' -- team/$m/key.json team/keys/$m.json | head -1); done; git log 298be4e --reverse --author=Claude --format='%h %ci %s' | grep -iE ' (@?(dev|conductor|deck|ruv-sgit|researcher|designer|storyteller|motion|studio):|Conductor joins)' | awk '!s[$4]++'
@@ -345,7 +355,7 @@ open https://claude.com/pricing and https://lovable.dev/pricing; read the plan p
 ## C102: A moment in the talk as given where the animation carried the point (the building, M01)
 
 - **State:** checked.
-- **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `a9c0b49 (added after the day); 298be4e for M01` (material added after the day).
+- **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `a9c0b49; 298be4e for M01` (material added after the day).
 - **Cited in:** chapter 01.
 
 ```
@@ -432,6 +442,26 @@ git show a9c0b49:content/articles/the-talk-as-given.md | grep -n 'here.s a Wardl
 git show 38b69644:controls/index.json | python3 -c "import json,sys;d=json.load(sys.stdin)['book_team']['tool_cases'];[print(c['n'],c['tool'][:30],c.get('refused')) for c in d['cases']]"
 ```
 
+## C113: This book's first release candidate (RC1), as handed to the publisher: chapters, an appendix and images
+
+- **State:** checked.
+- **Source:** SGit-AI__Website__Book__The-Ultimate-Insider (this book's record), at `f6ce7ffa` (this book's own record, after the day).
+- **Cited in:** chapter 94 (to cite).
+
+```
+git ls-tree -r --name-only f6ce7ffa team/conductor/rc1 | grep -E '/[0-9]{2}-[^/]*\.md$' | grep -v '/99-' | wc -l; git ls-tree -r --name-only f6ce7ffa team/conductor/rc1/resources/images | wc -l
+```
+
+## C114: This book's team: when each member was staffed, from its first commit as a member
+
+- **State:** checked.
+- **Source:** SGit-AI__Website__Book__The-Ultimate-Insider (this book's record), at `88247fe1` (this book's own record, after the day).
+- **Cited in:** chapter 94 (to cite).
+
+```
+for c in bb1f57c0 19e266fb f3e634f3 81fd2ef8 e69f073b 6d357179 5c2d2f9c afbb50d7 28396879 e36d0e94 8f10a08e 68ffc780; do git show -s --format='%h %ad %s' --date=format:'%d %H:%M:%S' $c | cut -c1-80; done
+```
+
 ## Where this came from
 
-`claims/register.json` as on dev at the 22:32 wake, 3 November 2026; every C-id found in `manuscript/rc2/150/*.md` at that wake (42 ids, each in the register with a command). Built by the researcher on 3 November 2026, about 22:35 UTC.
+`claims/register.json` as on dev at the 23:32 wake, 3 November 2026; every C-id found in `manuscript/rc2/150/*.md` at that wake (43 ids), and C113 and C114, registered at that wake for chapter 94 to cite. Rebuilt by the researcher on 3 November 2026, about 23:36 UTC; first built at the 22:32 wake.

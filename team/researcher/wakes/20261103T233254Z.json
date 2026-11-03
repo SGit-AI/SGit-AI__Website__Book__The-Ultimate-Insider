@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T23:32:54Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "No hold. Trace 94's counts (register from C113 or say untraceable), 91, 23's new openings (C010, C011) and 21's fix; replies researcher__024 to the writer and researcher__006 to the publisher; board, debrief, REALITY, status. All in scope. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-03T23:33:28Z"
+  },
+  "pre_review": {
+   "by": "security pre-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Go with conditions: pin each count of this book's own repository to a commit and mark it this book's record; copy letters to done/, never move the originals; vault_check comms before commit. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-03T23:33:28Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "150/94 traced (30 times to the second; counts registered as C113, C114, pinned and marked this book's record), 91 and 23's openings and 21's fix traced: all holds, one rounding. Appendix A rebuilt (45 ids). Replies researcher__024 (writer, publisher copied), researcher__006 (publisher); letters filed; board, debrief, REALITY, status. The clone was unshallowed (a fetch) to read this book's first commits.",
+   "at": "2026-11-03T23:35:45Z"
+  },
+  "post_review": {
+   "by": "security post-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "15 files in scope (REALITY an append); no key, token, contact detail, em-dash or religious word; C113 and C114 commands only read and give what the register says (13 chapters, 42 images; twelve staffing times, 86 s). Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-03T23:36:59Z"
+  },
+  "post_check": {
+   "by": "conductor post-check step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "94 traced, C113 and C114 registered; 91, 23 and 21 traced; both replies; board, debrief, REALITY, status; all three pre-review conditions kept. The appendix rebuild was in the plan (step 3); the unshallowing fetch was not, and changed nothing in the repository. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-03T23:36:59Z"
+  }
+ },
+ "closed": "2026-11-03T23:37:00Z",
+ "outcome": "ok"
+}
