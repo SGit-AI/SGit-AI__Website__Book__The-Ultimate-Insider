@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "The seventy in the storyteller's new order (01b new; 02, 03, 07, 08, 11, 14, 16 revised; 15 kept with a note until the publisher drops it); 150/02 the ask in full; 150/03 the librarian's note; letters 074 to 079; six letters into done/; status, debrief, board; vault_check clean.",
    "at": "2026-11-03T09:36:54Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (Sonnet), briefed with the allowed tools; steps 4 and 5 in one agent",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Build (670 pages), validate, agents check (0 outside), vault_check pass. All mailroom files named writer__*. Quotes word for word (the talk's CLAUDE.md line; a618b29; 'So when in doubt add it'); C087's counts in 70/07's card; scenes banded; no em-dashes, religious words, figures in agent lines or attack content. No refused tool call reported.",
+   "at": "2026-11-03T09:38:39Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (Sonnet), with step 4",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "As planned: the seventy's seven decisions and 11's cards, 150/02's ask, the librarian's note, six letters answered; 70/15 kept per the condition, the publisher told (074). The 150 restructure and part 2 next wake.",
+   "at": "2026-11-03T09:38:39Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T09:38:39Z",
+ "outcome": "ok"
 }
