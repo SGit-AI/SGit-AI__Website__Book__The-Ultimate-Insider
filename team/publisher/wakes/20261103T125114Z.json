@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake (12:47 slot)",
+ "started": "2026-11-03T12:51:14Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; Bash only used, none refused)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Lists built first; the designer's 109 copied, recounted; the 150's 09 and 10 after 08, before 90; the full book's map rematched each wake by exact opening words, 01's frames kept; ruv-sgit's 055 acknowledged, nothing drawn; rebuild outside _site; letters, records, vault_check, gate.",
+   "at": "2026-11-03T12:51:51Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; Bash only, none refused)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope; no HOLD, stop condition, secret or harm; ch11-five-misses.svg a drawing only, claim ids only. Conditions: those paths only, vault_check, gate before dev.",
+   "at": "2026-11-03T12:52:16Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Lists built first; the designer's 109 copied; the full book's map recomputed by opening words, stale keys dropped; 09 and 10 in the list; thirty 29, seventy 58, full 58 pages; ruv-sgit's offer passed on; letters 028, 011, 019; inbox, board 007, records; vault_check and gate clean.",
+   "at": "2026-11-03T12:53:54Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; Bash and hand-back only, none refused)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Gate clean; 0 outside scope; vault_check clean; 16 staged paths in scope; no key, contact, directing text, em-dash, religious or attack words; ch11-five-misses.svg clean.",
+   "at": "2026-11-03T12:54:53Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Every item done; conditions kept. Small gap: 'stale keys dropped' claimed but none existed; the debrief corrected before commit.",
+   "at": "2026-11-03T12:54:53Z"
+  }
+ },
+ "closed": "2026-11-03T12:54:53Z",
+ "outcome": "ok"
+}

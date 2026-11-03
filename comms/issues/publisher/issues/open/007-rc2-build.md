@@ -43,3 +43,5 @@ source: comms/mail/mailroom/publisher/conductor__026-check-taken.eml; publishing
 3 November about 11:10 UTC: the full book's list fixed (the renamed 03) in the writer's new order, 90 at the back; 38 pages, built by the release (OL1). The designer's 106 copied; the seventy 56. Review steps on Explore: the reviewer agent is not loaded in this session (recorded, security told).
 
 3 November about 12:10 UTC: the full book to chapter 8 (55 pages); the seventy 57; review steps as the reviewer agent from this wake (TA1).
+
+3 November about 13:10 UTC: the full book to chapter 10 (58 pages), its map recomputed each wake by opening words; the seventy 58 with chapter 11's five misses.
