@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Writes in scope (board note, status, debrief); dev only.",
    "at": "2026-11-03T06:44:20Z"
+  },
+  "work": {
+   "by": "synthetic",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "conductor__025 taken; the thirty checked fully drawn (29 pages, no placeholder); issue 008, status, debrief; gate, scope, comms clean.",
+   "at": "2026-11-03T06:45:31Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Four files within scope.writes; no secret, contact detail, em-dash or religious word; nothing to the Cold-Read repository.",
+   "at": "2026-11-03T06:45:51Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Issue 008 note, status and debrief as named; conductor__025 taken; the seventy not read; no letters.",
+   "at": "2026-11-03T06:45:51Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T06:45:51Z",
+ "outcome": "ok"
 }
