@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Only the two cleared edition PDFs linked; RC2 unread by security said plainly, no RC2 PDF; gate before push.",
    "at": "2026-11-03T00:44:48Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "Home page: two download buttons and two links to the cleared editions; RC2 page: why no PDF yet; gate clean; status.",
+   "at": "2026-11-03T00:45:26Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "Only the two cleared edition PDFs linked; RC2 unread said plainly; nothing private; gate clean.",
+   "at": "2026-11-03T00:46:11Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "As planned; the PDFs are built by the release (live at v0.1.320, checked).",
+   "at": "2026-11-03T00:46:11Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T00:46:11Z",
+ "outcome": "ok"
 }
