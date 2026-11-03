@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1. controls/appendix-b.md drafted: outcomes only, counts by claim id, two untraced counts dropped. 2. 150/91 and the four hour cards: clear. 3. Letter security__044 to the writer; board; status; debrief.",
    "at": "2026-11-03T22:28:38Z"
+  },
+  "post_review": {
+   "by": "security sub-agent, as the reviewer agent (tools seen: Read, Grep, Glob, Bash, hand-back); validate only, no fetch",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Read every added line and appendix-b.md whole: misses are outcomes only; all six claim ids exist; nothing private, directing, religious or em-dashed; validate, scope, vault_check clean.",
+   "at": "2026-11-03T22:29:31Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent, as the reviewer agent (tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "haiku",
+   "verdict": "as-planned",
+   "comment": "Every planned item in the diff: appendix-b.md (outcomes only, claim ids present), letter 044, board, status, debrief.",
+   "at": "2026-11-03T22:30:00Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T22:30:00Z",
+ "outcome": "ok"
 }
