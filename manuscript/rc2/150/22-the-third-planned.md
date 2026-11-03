@@ -8,9 +8,7 @@
 
 ## Said first: it has not run
 
-**Narrator.** The third factory has not run yet. Everything in this section is a plan.
-
-**Narrator.** Now I am planning a third, bigger one, and it shares three things between people: one brief, one board where the work is written down, and one hold. It is for a team I am taking to Web Summit: several people, each to run their own agents. It has not run yet. The parts are the same as the first factory's.
+**Narrator.** Now I am planning a third, bigger one, and it shares three things between people: one brief, one board where the work is written down, and one hold. It is for a team I am taking to Web Summit: several people, each to run their own agents. The parts are the same as the first factory's.
 
 **Conductor** *(pacing, to the reader)*: Same clock. Same hold. More hands on it.
 
@@ -20,7 +18,7 @@
 
 `%% for the editor: "Two people editing one brief is how a team ends up with two briefs" is the writer's reading of his view; his to keep or drop.`
 
-**Narrator.** The board is read every morning by everyone, before their own agents start. Each person's agents write their work there, so nobody has to ask what anybody else did overnight.
+**Narrator.** The board is read every morning by everyone, before their own agents start. Each person's agents write their work there, so nobody has to ask what anybody else did overnight. It says, for every piece of work, whose it is. And each person's agents wake at their own minutes, so two people's agents are not writing at once.
 
 **Narrator.** The hold can be pulled by anyone, human or agent. Who may lift it is written down before the first day: the owner of the brief, and one named person when the owner is away. Until that is written, nobody lifts it.
 
@@ -30,20 +28,6 @@
 
 `%% record: briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md (the Web Summit team as he described it) chapter-plan/cast/edition-10.md (the team box)`
 Band: *Dramatised (the conductor's line). The Web Summit team as I described it on 1 November: a plan, not yet run.*
-
-## What the three shared things need, day to day
-
-**Narrator.** The three paragraphs above are a plan. Here is what the plan needs before the first day, written down, so that the team does not have to discover it the way the first factory did.
-
-**Narrator.** One brief, one owner. A clock for each person's agents, at their own minutes, so two people's agents are not writing at once. A board that says, for every piece of work, whose it is. And the hold's two lines, written before anything starts: who may pull it, which is everyone; and who may lift it, which is the brief's owner, and one named person when the owner is away.
-
-**Conductor** *(on the minute, to the reader)*: Same clock. Same hold. Write down who lifts it before you need it.
-
-`%% for the editor: this section is the writer's working-out of his plan for a team of several, from the editions' team box and the hold's rule; his to keep, change or drop.`
-
-`%% record: chapter-plan/cast/edition-10.md (the team box); team/conductor/WAKE.md (Stopping: only the editor lifts a hold)`
-Band: *Dramatised (the conductor's line). A plan, not yet run.*
-
 
 ## What the first two factories say to the third
 

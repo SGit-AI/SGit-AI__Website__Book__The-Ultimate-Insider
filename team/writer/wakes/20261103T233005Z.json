@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer",
+ "kind": "scheduled, hourly at :28 London (ACC1)",
+ "started": "2026-11-03T23:30:05Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Go: five letters; appendices A and B set from their owners' files and sent back; the third factory said once in 150/22 and 70/14; a Start here for the full book; the rest of the storyteller's decisions deferred and said so; in scope. Ran as the reviewer agent.",
+   "at": "2026-11-03T23:32:36Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Go with conditions: both appendices can be set; A's commands are read-only, its open ids printed open; B's drafter's notes and A's process lines replaced by headers, nothing else changed; both held out of Book.txt until their owners' reads; Start here pointed at the full book's chapters; no cleared sentence changed in the 14 merge. Ran as the reviewer agent.",
+   "at": "2026-11-03T23:32:36Z"
+  },
+  "work": {
+   "by": "writer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Five letters taken; appendices A and B set from their owners' files and held; 150/00 Start here; the third factory said once in 150/22 and the seventy's 14; five letters; filing, status, debrief, board, REALITY.md. Gate clean, 0 outside scope.",
+   "at": "2026-11-03T23:34:48Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

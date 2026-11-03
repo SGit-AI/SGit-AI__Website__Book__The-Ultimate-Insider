@@ -23,3 +23,4 @@ The full book: every scene, the appendices, the record markers live online. Writ
 - 3 November 2026, 20:36 UTC: the body complete (`manuscript/rc2/150/01` to `23`); 21's third failure the historian's own. Next: the back matter.
 - 3 November 2026, 21:35 UTC: back matter begun (`manuscript/rc2/150/91`, the words used); appendices A and B and the making-of asked of the researcher, security and the historian.
 - 3 November 2026, 22:32 UTC: back matter: `94` the making of this book set from the historian's file; 23's steps open with what they rest on; 92 and 93 wait on their owners.
+- 3 November 2026, 23:34 UTC: the full book written in draft: `00` Start here, `01` to `23`, back matter `90` to `94` (92 and 93 held for the researcher's and security's reads).
