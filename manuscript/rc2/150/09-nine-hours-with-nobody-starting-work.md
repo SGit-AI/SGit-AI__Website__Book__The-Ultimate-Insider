@@ -84,7 +84,7 @@ Band: *Dramatised (the conductor's line). Rests on the morning review and the re
 **Narrator.** And a lapse that stays in. From ruv-sgit's commit at a quarter to nine, many of its commits dropped the "@" from its name and the line saying which agent made them. They carry on that way, mixed with commits in the house form, to its last of the day. The register's count of commits by member was corrected for it afterwards. Chapter 10 has the conductor's notes about it.
 
 `%% record: eefc1d3 (08:21: its ask of the researcher held while that request is open) 15707dc (08:43, without the @ form or the Agent trailer) fc724df (18:40) C014 (corrected for it) timeline/day/08.md`
-Band: *Dramatised (deck's line). Rests on deck's wake of 08:18 and ruv-sgit's commits from 08:33.*
+Band: *Dramatised (deck's line). Rests on deck's wake of 08:18 and ruv-sgit's commits from 08:43.*
 
 ## Hours ten and eleven: a promise kept with nobody chasing it
 
