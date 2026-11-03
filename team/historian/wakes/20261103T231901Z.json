@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T23:19:01Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Plan: 150/94 against timeline/this-book.md, and 150/21's quote; the deferred 150/91 check; letter 044 as reply to 146. Writes in scope; no HOLD. Tools: reading list only.",
+   "at": "2026-11-03T23:19:38Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Writes in scope; no HOLD; nothing to Cold-Read. Conditions: vault_check comms; no model name in commits or pages; pull before push. Tools: reading list only.",
+   "at": "2026-11-03T23:19:55Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "",
+   "verdict": "done",
+   "comment": "150/94 is my file word for word under the writer's header (diff); 150/21 quotes my letters' words; 150/91 holds (boxes date words; 'open wake' first in ch 16). Letter 044; 146 filed; debrief; status.",
+   "at": "2026-11-03T23:20:41Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "7 paths in scope; no keys, ids, model names, em-dashes, religious words; nothing to Cold-Read; 146 filed by identical copy; dates before the clock. Tools: reading list only.",
+   "at": "2026-11-03T23:22:05Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "Diff of 94 shows only the writer's header and source line; 21's quote matches 019 and 020; 91 has 25 words, boxes match, 'open wake' first in ch 16; 146 filed by identical copy. Noted: the work step's model field is empty because the historian's own session does the work (as every wake). Tools: reading list only.",
+   "at": "2026-11-03T23:22:35Z"
+  }
+ },
+ "closed": "2026-11-03T23:22:35Z",
+ "outcome": "ok"
+}
