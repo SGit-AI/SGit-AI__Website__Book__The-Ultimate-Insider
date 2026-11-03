@@ -5579,8 +5579,8 @@
          "text": "Clock: Hour one."
         },
         {
-         "id": "r04-13ae6e",
-         "text": "Narrator. A quarter past midnight: an empty project. Not a template, not a half-built site from last time. A new repository with a licence, a short read-me and almost nothing else. Its first commit says \"Initial commit\", and that is all it says."
+         "id": "r04-5957b2",
+         "text": "Narrator. A quarter past midnight: an empty project. A new repository with a licence, a read-me and a file list, and nothing else. Its first commit says \"Initial commit\", and that is all it says."
         },
         {
          "id": "r04-04848a",
@@ -5693,8 +5693,8 @@
          "text": "Band: The page of rules as it stood in dev's first commit at 00:40, quoted with one line on page layout left out."
         },
         {
-         "id": "r04-604b12",
-         "text": "Narrator. The second file is the brief. It is my own request, typed into a session at midnight, published in full and never edited afterwards. It asks for a site and a presentation for a talk in central London, points at earlier sites I had built and at a newsroom run by agents, and asks for a first pass and a first article. Its first line, as typed, says the talk is tomorrow. By then it was today."
+         "id": "r04-bbde15",
+         "text": "Narrator. The second file is the brief. It is my own request, given in the project's first session, published in full and never edited afterwards. In its own words it asks for \"the site and presentation\" for a talk \"that I'm delivering tomorrow in central london\", points at \"what we did at ruv.sgit.ai\" and at \"the agentic team we are using at newsroom.sgit.ai\", and asks for \"a first pass of the site\" and \"the first article\". By the time the project existed, tomorrow was today."
         },
         {
          "id": "r04-22f0bd",
@@ -5777,8 +5777,8 @@
          "text": "Narrator. The point is not any one of those checks. It is that the agent does not decide whether its own work is fit to ship. The check does, every time, the same way."
         },
         {
-         "id": "r04-b79f47",
-         "text": "Narrator. It held its line from the first night. At about a quarter past one, it stopped dev's own release until two members' pages of rules carried a rule I had just asked for, that every session report opens and closes with a banner. Dev added the lines, and the release went out."
+         "id": "r04-166c4b",
+         "text": "Narrator. It held its line from the first night. At about twenty past one, it stopped dev's own release until two members' pages of rules carried a rule I had just asked for, that every session report opens and closes with a banner. Dev added the lines, and the release went out."
         }
        ],
        "record": "24da366 (about 01:19) team/dev/debriefs (the-board.md: \"the gate the conductor added at the editor's rule refused the release without it\"); historian__022",
@@ -6171,8 +6171,8 @@
          "text": "Deck (fussing with its own page) : And never type a version number. That one is somebody else's scar, from another team's bad day. We inherited it."
         },
         {
-         "id": "r05-ca9793",
-         "text": "Narrator. And one a few minutes into hour two: ruv-sgit joined at 01:08, after the conductor's first roster. Its page belongs with these three."
+         "id": "r05-963e28",
+         "text": "Narrator. And one eight minutes into hour two: ruv-sgit joined at 01:08, after the conductor's first roster. Its page belongs with these three."
         },
         {
          "id": "r05-d5c5c0",
@@ -6488,8 +6488,8 @@
          "text": "Narrator. Early in the evening, studio put a line on a slide, quoting the comment in the team's own scope check, and this whole chapter turns on it:"
         },
         {
-         "id": "r05-61a2ba",
-         "text": "\"A scope is a setting, not a boundary ... It catches mistakes, not a steered agent.\" (record)"
+         "id": "r05-daa75e",
+         "text": "\"A scope is a setting, not a boundary: it catches mistakes, not a steered agent.\" (record)"
         },
         {
          "id": "r05-6efade",
@@ -6508,7 +6508,7 @@
          "text": "Figure: the nine role cards at their full size (the designer's scorecards, LAB 27), and a tenth, empty."
         }
        ],
-       "record": "timeline/quotes.md (the slide's line at 18:11, 95b09d9, quoting admin/build/agents.py; studio's debrief abp-prose-enforcement) talk repository at 298be4e: team/dev/ROLE.md (\"The gap, and what stands in it\")",
+       "record": "timeline/quotes.md (the slide's line at 18:11, 95b09d9; the slide's own words: src/static/studio-ports/lab/abp-enforcement/index.html at 298be4e, quoting admin/build/agents.py; studio's debrief abp-prose-enforcement) talk repository at 298be4e: team/dev/ROLE.md (\"The gap, and what stands in it\")",
        "tokens": [
         {
          "token": "timeline/quotes.md",
@@ -6523,6 +6523,20 @@
          "verified": true,
          "repository": "talk",
          "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/95b09d9"
+        },
+        {
+         "token": "src/static/studio-ports/lab/abp-enforcement/index.html",
+         "kind": "path",
+         "verified": true,
+         "repository": "talk",
+         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/blob/298be4e/src/static/studio-ports/lab/abp-enforcement/index.html"
+        },
+        {
+         "token": "298be4e",
+         "kind": "commit",
+         "verified": true,
+         "repository": "talk",
+         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/298be4e"
         },
         {
          "token": "admin/build/agents.py",
@@ -7164,7 +7178,7 @@
          "text": "Deck (a little put out, then fair) : One at a time, then. I will wait until the first one comes back."
         }
        ],
-       "record": "aeffbf9 (04:22, deck to the conductor) team/deck/wakes/20261029T041822Z.json; the talk team's vaults: team/conductor/vaults.json at 298be4e; comms/README.md (this book's)",
+       "record": "aeffbf9 (04:22, deck to the conductor) team/deck/wakes/20261029T041822Z.json; the talk team's vaults, named and not cited by path; comms/README.md (this book's)",
        "tokens": [
         {
          "token": "aeffbf9",
@@ -7179,20 +7193,6 @@
          "verified": true,
          "repository": "talk",
          "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/blob/298be4e/team/deck/wakes/20261029T041822Z.json"
-        },
-        {
-         "token": "team/conductor/vaults.json",
-         "kind": "path",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/blob/298be4e/team/conductor/vaults.json"
-        },
-        {
-         "token": "298be4e",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/298be4e"
         },
         {
          "token": "comms/README.md",
@@ -7313,8 +7313,8 @@
          "text": "ruv-sgit (absorbed, already at the bench) : E09 first, then E04. In deck's order."
         },
         {
-         "id": "r07-2ede4e",
-         "text": "Narrator. ruv-sgit read both notes at its next wake, at 10:34. It took deck's work in deck's order. It did not fix the \"@\": its next commits, into the early afternoon, still left it off. One note followed, one not. Both are in the record."
+         "id": "r07-178025",
+         "text": "Narrator. ruv-sgit read both notes at its next wake, at 10:34. It took deck's work in deck's order. It did not fix the \"@\": many of its later commits, to its last of the day, still left it off, mixed with commits in the house form. One note followed, one not. Both are in the record."
         },
         {
          "id": "r07-be65f2",
@@ -7354,8 +7354,8 @@
        "record_id": "rec-r07-5",
        "paragraphs": [
         {
-         "id": "r07-b79f9c",
-         "text": "Band: Dramatised (ruv-sgit's line). The two notes are quoted from their commits, 09317d9 (10:05:48) and 36e382b (10:21:12), the first shortened where marked; ruv-sgit's wake at 10:34 read both, and its commits through 13:41 still lacked the \"@\"."
+         "id": "r07-8b8b75",
+         "text": "Band: Dramatised (ruv-sgit's line). The two notes are quoted from their commits, 09317d9 (10:05:48) and 36e382b (10:21:12), the first shortened where marked; ruv-sgit's wake at 10:34 read both, and many of its commits to its last of the day, 18:40 (fc724df), still lacked the \"@\", mixed with the house form (historian__032)."
         },
         {
          "id": "r07-f76908",
@@ -7370,7 +7370,7 @@
          "text": "The talk's repository at the end of the day: deck's wake and its note of 04:22, the researcher's wake of 04:11, the conductor's commit of 10:05 and deck's of 10:21, with their notes; the talk team's vault registry. This book's own comms folder, for the same layout in git. The register for the hours and the trigger counts. ruv-sgit's reviewer card. The librarian's study of the site's commits page. The storyteller's outline for this chapter."
         }
        ],
-       "record": "talk repository at 298be4e: aeffbf9 af0010b 09317d9 36e382b team/deck/wakes/20261029T041822Z.json team/researcher/wakes/20261029T041003Z.json team/conductor/vaults.json; comms/README.md; claims/register.json C087 C107 C110; lab/experiments/30-ruv-the-reviewer-card/; index/talk-site/README.md; chapter-plan/edition-70-outline.md part 3 chapter 6",
+       "record": "talk repository at 298be4e: aeffbf9 af0010b 09317d9 36e382b team/deck/wakes/20261029T041822Z.json team/researcher/wakes/20261029T041003Z.json; comms/README.md; claims/register.json C087 C107 C110; lab/experiments/30-ruv-the-reviewer-card/; index/talk-site/README.md; chapter-plan/edition-70-outline.md part 3 chapter 6",
        "tokens": [
         {
          "token": "298be4e",
@@ -7420,13 +7420,6 @@
          "verified": true,
          "repository": "talk",
          "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/blob/298be4e/team/researcher/wakes/20261029T041003Z.json"
-        },
-        {
-         "token": "team/conductor/vaults.json",
-         "kind": "path",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/blob/298be4e/team/conductor/vaults.json"
         },
         {
          "token": "comms/README.md",
@@ -8749,8 +8742,8 @@
          "text": "Narrator. The check does not care who made the change, or how sure they were. That is the point of it. A member that is certain its work is fine still has to pass the same test as one that is not."
         },
         {
-         "id": "r09-c1ab58",
-         "text": "Narrator. One example from the first night. At about a quarter past one, the check stopped dev's release until two members' pages of rules carried a rule I had just asked for: every session report opens and closes with a banner. Dev added the lines; the release went out."
+         "id": "r09-66cf23",
+         "text": "Narrator. One example from the first night. At about twenty past one, the check stopped dev's release until two members' pages of rules carried a rule I had just asked for: every session report opens and closes with a banner. Dev added the lines; the release went out."
         }
        ],
        "record": "24da366 (about 01:19) team/dev/debriefs (the-board.md: \"the gate the conductor added at the editor's rule refused the release without it\"); historian__022",
@@ -11708,8 +11701,8 @@
          "text": "Narrator. Every member had a page of rules saying what it may change. That is its scope. And every member had a reach: what its session could actually change. They were not the same thing, and the team knew it. Studio put the code's own comment on a slide that evening:"
         },
         {
-         "id": "r13-61a2ba",
-         "text": "\"A scope is a setting, not a boundary ... It catches mistakes, not a steered agent.\" (record)"
+         "id": "r13-daa75e",
+         "text": "\"A scope is a setting, not a boundary: it catches mistakes, not a steered agent.\" (record)"
         },
         {
          "id": "r13-84bf20",
@@ -11720,7 +11713,7 @@
          "text": "Studio (firm, as it says it) : So it went on a slide. If the room is going to trust the factory, it should know exactly what our rules are and are not."
         }
        ],
-       "record": "timeline/quotes.md (18:11, 95b09d9, quoting admin/build/agents.py) team/dev/ROLE.md at 298be4e (\"The gap, and what stands in it\") C025",
+       "record": "timeline/quotes.md (18:11, 95b09d9; the slide's own words: src/static/studio-ports/lab/abp-enforcement/index.html at 298be4e, quoting admin/build/agents.py) team/dev/ROLE.md at 298be4e (\"The gap, and what stands in it\") C025",
        "tokens": [
         {
          "token": "timeline/quotes.md",
@@ -11735,6 +11728,20 @@
          "verified": true,
          "repository": "talk",
          "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/95b09d9"
+        },
+        {
+         "token": "src/static/studio-ports/lab/abp-enforcement/index.html",
+         "kind": "path",
+         "verified": true,
+         "repository": "talk",
+         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/blob/298be4e/src/static/studio-ports/lab/abp-enforcement/index.html"
+        },
+        {
+         "token": "298be4e",
+         "kind": "commit",
+         "verified": true,
+         "repository": "talk",
+         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/298be4e"
         },
         {
          "token": "admin/build/agents.py",

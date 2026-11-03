@@ -22,4 +22,4 @@ The editor: "this online iPad PDF kind of mode application or view that has that
 - [x] The final address sweep allows a listed outside citation only under its own claim: outside the claims' register text every address must be on the two hosts; tested on a scratch clone, a citation put into a paragraph is refused (wake of 09:12 UTC, 3 November)
 - [x] The page view for every edition: rc2-70 (82 scene-pages), ed-03 (4) and ed-10 (10) as printed pages, linked from each index and the zoom (wake of 12:12 UTC, 3 November)
 - [ ] The graph drawn (chapters, members, wakes and decisions as one picture)
-- [ ] Printed page breaks for RC2 and the 70-page draft in the page view
+- [x] Printed page breaks for RC2 and the 70-page draft in the page view: `review/tools/print_pages.py` builds both PDFs as the release does, in a temporary folder it removes, and maps each paragraph to its printed page (`review/anchors/print-pages.json`: 216 of 263 and 461 of 550 found, the rest take the page before); the page view uses it while the chapters' hash matches (wake of 15:12 UTC, 3 November)

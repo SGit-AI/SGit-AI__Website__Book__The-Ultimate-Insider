@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled, hourly at :12 (ACC1)",
+ "started": "2026-11-03T15:14:42Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (plan brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused",
+   "model": "",
+   "verdict": "go",
+   "comment": "(1) review/tools/print_pages.py: builds RC2 30 and 70 with publishing/build_book.py and release.yml's arguments (stamp included, so page breaks match the published PDFs), book list and PDFs in a temp dir, publishing/ run not changed; pdftotext maps anchors to printed pages; review/anchors/print-pages.json with a hash; make_editions.py's page view uses printed pages when the hash matches, else scenes. (2) Board 007, status, debrief, REALITY, gate, push.",
+   "at": "2026-11-03T15:17:20Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (pre_review brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused",
+   "model": "",
+   "verdict": "go",
+   "comment": "No hold; in scope; build_book.py and its inputs name no remote URL, Chromium opens only file://. Conditions: --out and the book list in a temp dir removed in a finally block (also build_book_markua_* leftovers); publishing/ and manuscript/ untouched but gitignored __pycache__; print-pages.json holds only anchors, page numbers and hashes, no PDF text, no absolute temp path.",
+   "at": "2026-11-03T15:18:06Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

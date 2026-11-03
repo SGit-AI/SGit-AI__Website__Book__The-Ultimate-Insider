@@ -13,6 +13,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from make_review import ROOT, Markdown, anchored, plain                   # noqa: E402
 from make_reader import Repo, link, value_html, BOOK, TALK, TALK_AT  # noqa: E402
+from print_pages import chapters_hash, book_files, OUT as PRINT     # noqa: E402
 
 EDITIONS = [('rc2', 'RC2, the 30-page edition', ROOT / 'manuscript' / 'editions' / 'rc2' / 'Book.txt'),
             ('rc2-70', 'the 70-page edition, being written', ROOT / 'manuscript' / 'editions' / 'rc2-70' / 'Book.txt')]
@@ -104,11 +105,60 @@ def qr(slug, f, rid, words):
     return {'id': f'{slug}/{f.stem}#{rid}', 'edition': slug, 'chapter': f.name, 'url': f'{SITE}/review/{slug}/{f.stem}.html#{rid}', 'starts': words}
 
 
+def printed_view(ed, name, pp):
+    """The long editions by printed page (print_pages.py): each page its paragraphs, and the record of each scene ending on it."""
+    pages = {}
+    for c in ed['chapters']:
+        for sc in c['scenes']:
+            last = None
+            for p in sc['paragraphs']:
+                last = pp['pages'].get(p['id'], last or 1)
+                pages.setdefault(last, {'chapters': [], 'paras': [], 'recs': []})
+                if c['title'] not in pages[last]['chapters']:
+                    pages[last]['chapters'].append(c['title'])
+                pages[last]['paras'].append(p['text'])
+            if sc['record'] and last:
+                pages[last]['recs'].append(sc)
+    secs = []
+    for n in sorted(pages):
+        pg = pages[n]
+        body = ''.join(f'<p>{html.escape(t)}</p>' for t in pg['paras'])
+        recs = ''.join(record_aside(sc) for sc in pg['recs'])
+        secs.append(f'<section class="pg" id="p-{n}" data-pg aria-label="Printed page {n}"><h2>{html.escape(" · ".join(pg["chapters"]))} · printed page {n}</h2>{body}{recs}</section>')
+    what = (f'Each page here is a printed page of the PDF ({pp["pdf_pages"]} pages, built as the release builds it). {pp["found"]} paragraphs were found on their page; '
+            f'{pp["carried"]} (figures, clock lines, rules) take the page of the one before. Pages with only a cover or a picture are not shown.')
+    write_pages(ed, name, secs, what)
+    print(f'{ed["edition"]}/pages.html: {len(secs)} printed pages')
+
+
+def record_aside(sc):
+    opens = ' · '.join(f'<a class="pv" href="{html.escape(t["url"])}" rel="noopener noreferrer"><code>{html.escape(t["token"])}</code></a>'
+                       for t in sc['tokens'] if t.get('url'))
+    return f'<aside class="rc-rec"><b>Rests on</b> {html.escape(sc["record"])}' + (f'<br>Open: {opens}' if opens else '') + '</aside>'
+
+
+def write_pages(ed, name, secs, what):
+    bar = ('<div class="pg-bar"><button type="button" data-pg-prev>Previous</button> <span data-pg-at></span> '
+           '<button type="button" data-pg-next>Next</button> <span class="c-dim">or the arrow keys</span></div>')
+    meta = {'title': f'{name}, page by page', 'description': f'One Human, Nine Agents, Nineteen Hours, {ed["title"]}, one page at a time, with what each rests on.'}
+    (PAGES / ed['edition'] / 'pages.html').write_text(
+        f'<!--meta {json.dumps(meta)} -->\n<link rel="stylesheet" href="{{{{root}}}}review/pen.css">\n<section class="wrap narrow" data-no-third-party>\n'
+        f'<p class="kicker">{html.escape(ed["title"])} · page by page</p>\n<h1>{html.escape(name)}, page by page</h1>\n'
+        f'<p class="lead">The draft one page at a time, as on a tablet, with what each page rests on beneath it.</p>\n'
+        f'<p class="note">{what} {len(secs)} pages, from <a href="{{{{root}}}}review/editions.json">editions.json</a>; the same chapters with their links are in <a href="index.html">the edition online</a>.</p>\n'
+        f'{bar}\n' + '\n'.join(secs) + f'\n{bar}\n</section>\n<script src="{{{{root}}}}review/pages.js" defer></script>\n')
+
+
 def pages_view(ed):
     """An edition one page at a time, as a reader turns them: the same filtered text as editions.json, the record under each.
     In the 3- and 10-page editions a chapter is one printed page (publishing/edition.py); in the longer ones a page here is a scene."""
     printed = ed['edition'].startswith('ed-')
     name = ed['title'][0].upper() + ed['title'][1:]
+    pp = (json.loads(PRINT.read_text())['editions'].get(ed['edition']) if PRINT.exists() else None) if not printed else None
+    if pp and pp['chapters_hash'] != chapters_hash(book_files(ed['edition'])):
+        pp = None                                                    # the chapters changed since the PDF was read: scenes, until print_pages.py runs again
+    if pp:
+        return printed_view(ed, name, pp)
     secs, n = [], 0
     for c in ed['chapters']:
         for sc in c['scenes']:
