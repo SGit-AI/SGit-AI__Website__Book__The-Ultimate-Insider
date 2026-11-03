@@ -12,7 +12,7 @@
 
 `%% figure brief: The chapter's infographic, for the designer, each dot with its id in small type (C005, C006, C027, C065).`
 
-*Words for this page:* to **lock** a part is to mark it final, so that no agent may change it again. A **wake**, as in part 2, is one turn of work by one agent.
+*Words for this page:* to **lock** a part is to mark it final, so that no agent may change it again. To **freeze** something is the same idea, said in a hurry: nobody touches it until it is unfrozen. A **wake**, as in part 2, is one turn of work by one agent.
 
 **Narrator.** Here is what the factory was doing in the ten minutes before I stopped it.
 

@@ -10,15 +10,15 @@
 
 **Conductor** *(on the minute, again)*: The schedule, the keys and the decisions. I carry the editor's words, and I never sign for him.
 
-**Librarian** *(cataloguing)*: The index of the source. If you want to know where a line came from, I can tell you the file.
+**Librarian** *(cataloguing, a card in each hand)*: The index of the source. If you want to know where a line came from, I can tell you the file.
 
 **Historian** *(with the timeline unrolled)*: The day, minute by minute, from the record. I say what happened, and I say when the record does not.
 
-**Researcher** *(unbudging, as before)*: Every number in this book is in my register, or it is not in this book.
+**Researcher** *(unbudging, as before, in the long coat)*: Every number in this book is in my register, or it is not in this book.
 
 **Storyteller** *(scarf, open book)*: The arc and the outline. A proposal, not an ask to change anything.
 
-**Publisher** *(at the press)*: The manuscript built, laid out and checked, every time something lands.
+**Publisher** *(at the press, ink on its sleeves)*: The manuscript built, laid out and checked, every time something lands.
 
 **Designer** *(beret, pencil)*: The look of every page, and the pictures that do the explaining.
 
@@ -45,11 +45,13 @@ Band: *Dramatised. Each line rests on that member's own page of rules in this bo
 
 **Writer** *(rueful)*: Then the line is wrong. I change it, and I say so in the record.
 
-**Narrator.** The line you read in chapter 1 is the corrected one. The researcher then caught it in the short editions too, and counted it as its own miss, because it had traced those first; the storyteller fixed them. Nobody argued for keeping the nicer sentence.
+**Narrator.** The line you read in chapter 3 is the corrected one. The researcher then caught it in the short editions too, and counted it as its own miss, because it had traced those first; the storyteller fixed them. Nobody asked to keep the nicer sentence.
 
 **Narrator.** The second is a failure, and it stays in. The rule I carried over from 18:44 says the conductor holds the team before my usage runs out. On 1 November, from about half past four in the afternoon, it did not. The account reached its limit first. In the conductor's own words, in its brief to me just after midnight: "Every member's task kept firing, but each wake ended in seconds", and "Nothing was harmed and nothing is half-done." Nothing moved again until just after midnight.
 
 **Conductor** *(quietly stressed, then procedural)*: The rule was right. I was a wake too late to use it. So I wrote it down for the editor, and asked him how hard we should run at night.
+
+`%% for the editor: "The point is not that the rule failed" and the sentence after it are the writer's reading; his to keep or drop.`
 
 **Narrator.** I said to keep the pace. The point is not that the rule failed. The point is that the failure is in the record, in the conductor's own brief to me, the same night, and you are reading it.
 
@@ -60,7 +62,7 @@ Band: *Dramatised. Both scenes are this book's record, not the talk's: the resea
 
 ## The third, planned
 
-**Narrator.** Now I am planning a third, bigger one, and it shares three things between people: one brief, one board where the work is written down, and one hold. It is for a team I am taking to Web Summit, the technology conference in Lisbon: several people, each to run their own agents. It has not run yet. The parts are the same as the first factory's.
+**Narrator.** Now I am planning a third, bigger one, and it shares three things between people: one brief, one board where the work is written down, and one hold. It is for a team I am taking to Web Summit: several people, each to run their own agents. It has not run yet. The parts are the same as the first factory's.
 
 **Conductor** *(pacing, to the reader)*: Same clock. Same hold. More hands on it.
 

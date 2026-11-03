@@ -76,4 +76,4 @@ Band: *Dramatised (the conductor's line). The price line on the register as publ
 
 The 30-page edition's last chapter, the five steps and their lines, kept as written. The researcher's register for the cost line. The "do this now" of every chapter of this edition, gathered. My running line, as I chose it. The storyteller's outline for this chapter.
 
-`%% record: claims/register.json C037 C101; book.json RL1; manuscript/rc2/30/05-the-factory-rebuilt-and-yours.md; manuscript/rc2/70/01 to 15; chapter-plan/edition-70-outline.md part 5 chapter 16`
+`%% record: claims/register.json C037 C101; book.json RL1; manuscript/rc2/30/05-the-factory-rebuilt-and-yours.md; manuscript/rc2/70/01-slides-as-a-compromise.md to 15-principles.md; chapter-plan/edition-70-outline.md part 5 chapter 16`

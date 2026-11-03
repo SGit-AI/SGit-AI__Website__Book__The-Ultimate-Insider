@@ -4,6 +4,8 @@
 
 **Narrator.** Before I tell you how the factory worked, I want you to see what it made. Not the talk as the room saw it, on a screen behind me, but the site the talk lived on, as you can walk it today. Seven stops. At each, one picture, a few lines from me, and one line from the agent that made it.
 
+*Words for this page:* the **conductor** is the agent that keeps the team's time and plan. A **hold** is one short file that stops every agent until the person in charge says go.
+
 *How to read the scenes:* they are dramatised. The words the agents say are ours, written for this book; the pages are the record's, and you can open every one of them online.
 
 ## Stop 1. The talk as web pages, with its player
