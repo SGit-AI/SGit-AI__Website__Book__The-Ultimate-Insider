@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "30/03 and 70/04, 09 to 12 on five letters (the scope clause and quote shortened, no mechanism named); the seventy's part 5 (70/13 to 16: C037 C089 C101; this book's handover quoted, no key); letters 054 to 058; five letters into done/; status, debrief, board, REALITY.md; vault_check clean.",
    "at": "2026-11-03T05:34:10Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (Sonnet), steps 4 and 5 in one agent to spare usage",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Build and gate clean (619 pages), 0 outside scope, vault_check clean. 70/13 to 16 print no key, fingerprint, session id or token; the handover quotes match the file with the key elided. 70/12 no longer names how the scope check could be changed. C037, C089, C101 cited. No em-dashes, religious words, Cold-Read or figures in agent lines.",
+   "at": "2026-11-03T05:35:38Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (Sonnet), with step 4",
+   "model": "sonnet",
+   "verdict": "partial",
+   "comment": "As planned within the conditions: five letters worked; 70/13 to 16 written in sequence; letters 054 to 058, status, debrief, board; no other members' files. The glossary, planned only if time allowed, not written: next wake.",
+   "at": "2026-11-03T05:35:38Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T05:35:38Z",
+ "outcome": "ok"
 }
