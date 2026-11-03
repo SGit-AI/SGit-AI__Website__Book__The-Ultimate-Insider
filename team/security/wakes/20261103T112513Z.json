@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T11:25:13Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, as the reviewer agent (tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "haiku",
+   "verdict": "go",
+   "comment": "1. TA1 register: per-session load table from each member's own letter (a/b/c as they gave them). 2. Steps as the reviewer type. 3. The 150's 03 (tour), 04, 05 on the rails; letters; board 025; status; debrief. TA1 loads in this session: first wake as the reviewer type; no call refused.",
+   "at": "2026-11-03T11:25:45Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent, as the reviewer agent (tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "haiku",
+   "verdict": "go",
+   "comment": "In scope: reads and letters only; no key, push or other member's path.",
+   "at": "2026-11-03T11:26:09Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. TA1 register: per-session load table from each member's letter; case 8 answered. 2. Steps as the reviewer type (loads here from this wake). 3. The 150's 03 to 05 read: clear; letter security__035; letters filed; boards; status; debrief.",
+   "at": "2026-11-03T11:27:38Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
