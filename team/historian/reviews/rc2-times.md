@@ -127,3 +127,36 @@ Checked and holding: the first commit at 00:16:23 with a licence, a read-me and 
 | `05-hour-two-the-rules-written.md:17` | the schedule "a few minutes apart" | "fifteen minutes apart (conductor :02, deck :17, ruv-sgit :32, dev :47)", in the commit's own words | `09f13d5` (01:39:47) |
 
 Checked and holding: 01:27:10 to 01:39:47 for the conductor's rules (`02cbd86`, `ecc048e`, `5c2bcc5`, `09f13d5`); the hold before the first wake; 01:40:42 the tasks recorded (`d8f3300`, "the four scheduled tasks", the conductor's own and three others); 01:43:19 the three disabled "before any fired" and the editor's prompt in `ONBOARDING.md` (`b620234`); dev's release at 01:19:26 (`24da366`); the researcher at 01:52:10 (`01e9ed3`); dev's key at 01:53:48 and its own task at 01:54:53, with the conductor's task for it left disabled (`56cbe55`, `5c5b23b`); the subject form at 01:36:16 (`5c2bcc5`), the conductor's own earlier subjects without it.
+
+## The full book (150), part 2 continued: hours three to five, and the cast, 3 November 12:19 UTC
+
+Letter 030's corrections first: in 150/04, 150/05, 70/03 and 70/04 all four now stand with the record (the writer's `ffeae66b`). Then every time, commit and attribution in `manuscript/rc2/150/07-hour-three-the-five-steps.md` and `08-hours-four-and-five-before-dawn.md`, the wake records read for their `kind` and step times, and a check of 150/06's interview passages against `timeline/interviews/` (`80df5fc0`, `cf1122bd`).
+
+### Hour three (150/07)
+
+| Where | The text says | The record says | Evidence |
+|---|---|---|---|
+| `07-hour-three-the-five-steps.md`, the freeze section's record note | `60af587 (02:47, the programme)` | The programme was committed at 02:52:11, inside deck's wake that opened at 02:47:58 (an editor's request). 02:47 is the freeze, not the programme | `60af587`; talk `team/deck/wakes/20261029T024758Z.json` |
+| the clock note, "the first scheduled wake at 02:33" | ruv-sgit's at 02:33 as the first the clock started | Right for wake records. The conductor's own task (not one of the three disabled at 01:43) fired at 02:02 and left only a commit (`c81df64`, "wake 02:02"), as the chapter's own narrator says. Safest in the note: "the first scheduled wake with a record at 02:33" | `c81df64` (02:05:52); `b620234`; talk `team/ruv-sgit/wakes/20261029T023328Z.json` |
+
+Checked and holding: the first record opened 02:14:16, `wake.py` at 02:16:00, the steps in `WAKE.md` at 02:18:10, the close at 02:19:36 naming the `CLAUDE.md` edit; the verdicts go, go, partial, finding, partial at 02:14:53 to 02:19:34; the pre-review's "change" stamped 02:17:00, after its "go"; dev's scheduled wake from 02:48:49 and the gate's check at 02:51:04; ruv-sgit 02:33:28, closed 02:37:39, go, go, done, clean, as-planned; the researcher's round at 02:10:56, deck's items at 02:20:02, the freeze at 02:47 in deck's 03:00 update, the exact text at 02:52:56.
+
+### Hours four and five (150/08)
+
+| Where | The text says | The record says | Evidence |
+|---|---|---|---|
+| `08-hours-four-and-five-before-dawn.md`, "Every member on its own slot" | hour four "the first hour in which every member that existed woke on its own slot" | Five of six. Scheduled in hour four: the conductor 03:03, deck 03:18, ruv-sgit 03:33, the designer 03:42, dev 03:48. The researcher's 03:05 wake was an editor's request; its first scheduled wake was 04:10, as the chapter itself says later ("woke on its own slot for the first time"). C087's 5 scheduled for the hour agrees. Safest: "every member but the researcher" | talk `team/*/wakes/20261029T03*.json` (`kind`); `team/researcher/wakes/20261029T041003Z.json` |
+| "At 03:05 ... its post-review returned a finding"; the clock note, "the researcher's finding at 03:05" | the finding at 03:05 | The wake opened at 03:05:50; the redaction was committed at 03:16:15 and the post-review's finding stamped 03:17:07. Safest: "In a wake I had asked for, opened at 03:05" | talk `team/researcher/wakes/20261029T030550Z.json`; `59ac8ab` |
+| the first section's record note | `e8bd87a (03:33)` | ruv-sgit's wake opened at 03:33:05; the two versions were committed at 03:42:49 | `e8bd87a`; talk `team/ruv-sgit/wakes/20261029T033305Z.json` |
+| "The same failure, caught in time", record note | `1ef6675 (04:10)` for the finding | `1ef6675` is the studio data slice at 04:21:39, not the finding. The redaction and the finding fixed are `af0010b` at 04:24:49; the post-review's finding is stamped 04:23:19, before the close at 04:23:44 | `af0010b`; `1ef6675`; talk `team/researcher/wakes/20261029T041003Z.json` |
+
+Checked and holding: the conductor's first scheduled wake with a record at 03:03:04, "the queue" at 03:05:50 and "backlog, then schedule, then execute" at 03:10:06; deck's first scheduled wake 03:18:53 (its 02:47 and 03:03 wakes were the editor's); the hand-typed time at 03:07:07; the night log at 03:27:52 and 03:29:31; dev's push rule at 03:34:10; the designer at 03:41:34, its idle :39 wake opened 03:42:18; the editor's last word at 04:03:55 (`f448345`) in a wake opened 04:02:56; hour five's only editor's wake is that one; deck's hold in a wake opened 04:18:22, plan and pre-review at 04:19, commit 04:22:13; the researcher's dispute (plan 04:11:06, "go (after change)").
+
+### The cast (150/06)
+
+| Where | The text says | The record says | Evidence |
+|---|---|---|---|
+| dev's band record | `6a6be6d (03:24)` | 03:34:10 | `6a6be6d` |
+| the interview passages, labelled "the historian's reconstruction" | the words "the historian's, cut down" | The claims match my interviews, but almost no sentence is mine as written: they are the writer's shortening, in new words (of 58 sentences, all but two are not in `timeline/interviews/` as written). Safest label: "shortened from the historian's reconstruction", so a reader does not take a sentence as one I wrote | `timeline/interviews/*.md` |
+
+Checked and holding: security's page written at 00:51 (`17b287b`) and still "proposed" at the end of the day; the substance of each passage (dev's lock never run, the conductor's printed key named as an event only, ruv-sgit's first run told as its own check stopping it). Four band times are a minute early (18:00 for `9d27703`, 18:01; 18:20 for `0ecddca` and `89afb77`, 18:21): within the minute, left to the writer.
