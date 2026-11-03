@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Own paths only; nothing decided; nothing private.",
    "at": "2026-11-03T04:03:53Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "Three letters filed; status.",
+   "at": "2026-11-03T04:04:22Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (haiku)",
+   "model": "claude-haiku-5-5",
+   "verdict": "clean",
+   "comment": "In scope; nothing private.",
+   "at": "2026-11-03T04:04:50Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (haiku)",
+   "model": "claude-haiku-5-5",
+   "verdict": "as-planned",
+   "comment": "Letters filed, status updated; the gate passed before the commit.",
+   "at": "2026-11-03T04:04:50Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T04:04:50Z",
+ "outcome": "ok"
 }
