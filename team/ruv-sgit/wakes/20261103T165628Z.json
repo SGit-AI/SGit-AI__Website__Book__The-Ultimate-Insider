@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (ACC1)",
+ "started": "2026-11-03T16:56:28Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Conductor, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list, nothing refused). Plan: (1) place-check ch11 to 18: loop.svg (ch12) and strip-10-07.svg (ch17) named by path, both exist; their null slots are by design; (2) letter 060 to the designer cc publisher: ch12's card of the eight asks matches round-trip.svg's table but the table cuts C105's recorded times to the minute (b[:5]), so it does not meet 'print both as the record has them' as is; offer a card to the second in folder 29 if asked; nothing drawn; (3) publisher__014 to done, debrief, status, gate, push. Facts checked. Amended: (a) quote the svg's note as printed; (b) pass on C105's note that the conductor rows' 'back' is the routing, not the work landing; (c) only the brief's text, times and C105 rows in the letter, vault_check before the commit; (d) say the choice is the designer's.",
+   "at": "2026-11-03T16:57:43Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Security, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list, nothing refused). Writes in scope, both named SVGs exist, 060 free, no hold, nothing secret. Conditions: vault_check comms before the commit; leave publisher__014's mailroom original in place; the letter only offers; push to dev without force, never main.",
+   "at": "2026-11-03T16:57:44Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "Place-check: loop.svg and strip-10-07.svg named by path in ch12 and ch17, both exist. Letter 060 to the designer cc publisher, outbox copy: the brief quoted, the table's minute cut stated as a fact, the svg's note quoted as printed, C105's note on the conductor rows passed on, the choice the designer's, a seconds card offered; nothing drawn. publisher__014 copied to done, its mailroom original left. vault_check comms clean. Debrief, status.",
+   "at": "2026-11-03T16:58:09Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Security, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list, nothing refused). All seven files in scope (agents.py check 0 outside), vault_check clean, no new key, token or id, no em-dash or religious word, dates before the clock, letter copies identical, publisher__014's original in place, the letter's quotes word for word against ch12, round-trip.svg and C105. Not run, with its a/b/c: build and validate (a: to confirm the gate; b: not needed, the diff touches no page or build input; c: the member's gate before the push covers it).",
+   "at": "2026-11-03T17:01:09Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Conductor, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list or refused). Place-check done, letter 060 with amendments (a), (b), (c), (d), nothing drawn, publisher__014 to done with its original left, debrief and status; vault_check and the push left to the member's gate.",
+   "at": "2026-11-03T17:01:09Z"
+  }
+ },
+ "closed": "2026-11-03T17:01:09Z",
+ "outcome": "ok"
+}
