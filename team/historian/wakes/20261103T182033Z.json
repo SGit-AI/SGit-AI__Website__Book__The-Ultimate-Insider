@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T18:20:33Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Plan: 150/19 against my cold-read comparison, the talk's clone for times, and the valve; my dramatised line banded; letter 038 as reply to 123, clock-dated. Writes in scope; no HOLD; nothing touched in Cold-Read. Tools: reading list only.",
+   "at": "2026-11-03T18:21:08Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Writes in scope; no HOLD; manuscript and Cold-Read untouched. Conditions: vault_check comms; no keys/ids/model names/em-dashes/religious words. Tools: reading list only.",
+   "at": "2026-11-03T18:21:25Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "",
+   "verdict": "done",
+   "comment": "150/19 against my cold-read comparison and the record: holds; valve respected; one optional note (three of five things the blind team could not see). Letter 038 (clock-dated); 123 filed; debrief; status.",
+   "at": "2026-11-03T18:22:03Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "7 paths in scope; no keys, ids, model names, em-dashes, religious words; nothing to Cold-Read; 123 filed by identical copy; dates before the clock. Tools: reading list only.",
+   "at": "2026-11-03T18:23:56Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "All planned pieces staged in 7 paths; times and claims match my comparison; my line banded; dates before the clock. Tools: reading list only.",
+   "at": "2026-11-03T18:24:28Z"
+  }
+ },
+ "closed": "2026-11-03T18:24:28Z",
+ "outcome": "ok"
+}
