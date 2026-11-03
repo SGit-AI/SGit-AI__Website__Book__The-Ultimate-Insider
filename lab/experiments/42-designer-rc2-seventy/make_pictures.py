@@ -52,6 +52,10 @@
 - ch9-story-tree.svg: the storyteller's tree as it was at 14:19 (df37797), every node verbatim from its own mermaid
   block, read with git; no turn marked (the tree marks none; asked of the writer and the storyteller).
 - ch9-where-from.svg: each afternoon piece with an arrow back to where it came from, each source checked by git.
+- ch12-empty-chair.svg: the talk's nine at a table, security's seat an empty chair; beside it one wake's five steps, the
+  two reviews each a reviewer inside it; the debrief's line as chapter 12 quotes it (checked there).
+- ch12-book-table.svg: the same table for this book's team, its members read from team/, security's seat filled;
+  members with no figure drawn as labelled seats.
 No number is printed but the hold's time, ids, C029's and C087's counts and the chapters' own times. One SVG unit a millimetre, sizes stated, text 9 pt.
 """
 import json, re, subprocess, sys
@@ -759,6 +763,71 @@ def where_from(clone):
     return mc.svg(164, round(H + 4.8, 1), defs + "".join(out), "Where the afternoon's pieces came from: the player and the ports from ruv.sgit.ai, the engine from dev's first pass")
 
 
+def table(seats, cx=50, cy=34, rx=34, ry=18):
+    """A table seen from above, a seat per entry: (kind, member, label), kind one of head, figure, chair, blank."""
+    import math
+    out = [f'<ellipse cx="{cx}" cy="{cy}" rx="{rx}" ry="{ry}" fill="{mc.FILL}" stroke="{mc.INK}" stroke-width=".5"/>']
+    n = len(seats)
+    for i, (kind, m, label) in enumerate(seats):
+        a = math.radians(-90 + i * 360 / n)
+        x, y = cx + (rx + 8) * math.cos(a), cy + (ry + 8) * math.sin(a)
+        if kind == "head":
+            out.append(g(mc.head(m), x - 5, y - 5.6, .25))
+        elif kind == "chair":
+            out.append(g(mc.line(4, 2, 4, 18, mc.ACCENT, .9) + mc.line(4, 11, 14, 11, mc.ACCENT, .9) + mc.line(14, 11, 14, 18, mc.ACCENT, .9)
+                         + mc.line(4, 2, 7, 2, mc.ACCENT, .9), x - 4.5, y - 5.4, .55))
+        else:
+            out.append(f'<rect x="{x - 4:.1f}" y="{y - 3.6:.1f}" width="8" height="6.4" rx="1.4" fill="#fff" stroke="{mc.FILL2}" stroke-width=".4" stroke-dasharray="1 .6"/>')
+        if label:  # outward from the table, clear of its rim
+            ly = y - 6.6 if y < cy else y + 6.4
+            out.append(t(x, ly, label, 400, mc.ACCENT if kind == "chair" else mc.MUTED, "middle"))
+    return "".join(out)
+
+
+def empty_chair():
+    text = (R70 / "12-how-do-we-contain-this.md").read_text()
+    quote = "The reviewers share the session's reach: a second reading, not a second identity."
+    if quote not in text:
+        sys.exit("make_pictures: the debrief's line is not in chapter 12 as quoted")
+    sc = scorecard()
+    order = sorted(mc.CAST, key=lambda m: sc[m]["first"])
+    if len(order) != REG["C011"]["value"]["staffed"]:
+        sys.exit("make_pictures: the cast is not C011's staffed number")
+    seats = [("head", m, None) for m in order] + [("chair", "security", "security")]
+    out = [table(seats)]
+    # one member's wake, its two reviews each a reviewer inside it
+    x0, y0 = 104, 6
+    out.append(f'<rect x="{x0}" y="{y0}" width="58" height="60" rx="2" fill="#fff" stroke="{mc.INK}" stroke-width=".45"/>'
+               + t(x0 + 3, y0 + 6, "one member's wake", 800))
+    for k, (key, words) in enumerate(STEPS):
+        y = y0 + 10 + k * 9.6
+        rev = key in ("pre_review", "post_review")
+        out.append(f'<rect x="{x0 + 3}" y="{y}" width="52" height="8" rx="1" fill="{mc.FILL if rev else "#fff"}" stroke="{mc.FILL2}" stroke-width=".35"/>'
+                   + t(x0 + 5, y + 5.4, words, 700 if rev else 400))
+        if rev:
+            out.append(g(mc.reviewer_figure(None), x0 + 44, y - .6, .2))
+    out.append(t(0, 74, "\u201c" + quote + "\u201d (the conductor's debrief)", 400, mc.MUTED))
+    return mc.svg(164, 76, "".join(out), "The talk's nine at a table with security's chair empty, and one wake with its two reviews inside it")
+
+
+def book_table():
+    members = sorted(p.name for p in (REPO / "team").iterdir() if p.is_dir() and (p / "ROLE.md").exists())
+    drawn = set(mc.CAST) | set(mc.BOOK_TEAM)
+    seats = []
+    for m in members:
+        if m == "security":
+            seats.append(("figure", m, "security"))
+        elif m in drawn:
+            seats.append(("head", m, None))
+        else:
+            seats.append(("blank", m, m))
+    out = [table([(k if k != "figure" else "head", m, l) for k, m, l in seats], cx=54, cy=36, rx=36, ry=18)]
+    out.append(t(116, 20, "this book's team", 800) + t(116, 25, "security's seat filled", 700, mc.COLOUR["security"])
+               + t(116, 31, "a dashed seat: a member", 400, mc.MUTED) + t(116, 35.1, "not drawn yet", 400, mc.MUTED))
+    out.append(t(0, 74, "the members as this book's team/ folders hold them; the same table as the talk's", 400, mc.MUTED))
+    return mc.svg(164, 76, "".join(out), "This book's team at the table, the same drawing as the talk's, with security's seat filled")
+
+
 FLOORS = [("the talk", ("src/static/talk/",)),
           ("the workshop of animations", ("src/static/ruv-sgit/", "src/pages/ruv-sgit/", "src/static/motion/", "src/pages/motion/")),
           ("the studio", ("src/pages/studio/", "src/static/studio/", "src/static/studio-ports/", "src/pages/studio-ports/")),
@@ -899,7 +968,8 @@ if __name__ == "__main__":
              "ch-security-card.svg": security_card(),
              "ch4-three-greyed.svg": three_greyed(clone), "ch4-security-proposed.svg": security_proposed(clone),
              "ch6-two-commits.svg": two_commits(clone), "ch6-letter-path.svg": letter_path(),
-             "ch9-story-tree.svg": story_tree(clone), "ch9-where-from.svg": where_from(clone)}
+             "ch9-story-tree.svg": story_tree(clone), "ch9-where-from.svg": where_from(clone),
+             "ch12-empty-chair.svg": empty_chair(), "ch12-book-table.svg": book_table()}
     if (R70 / "15-principles.md").exists():
         files["ch15-six-principles.svg"] = six_principles()
     else:  # chapter 15 was folded into 16 and removed: the drawing stays as last built from it, not rebuilt
