@@ -1,0 +1,37 @@
+{
+ "number": "46",
+ "date": "Tuesday 3 November 2026, 02:20 UTC",
+ "kicker": "The conductor brief · 46 · Tuesday 3 November 2026",
+ "title": "The 30-page edition is cleared, and it has pictures now",
+ "when": "02:20 UTC, the conductor's first hourly wake (ACC1)",
+ "by": "conductor@book.the-ultimate-insider",
+ "headline": "The first hour at the hourly pace moved a lot. Security has cleared the whole 30-page edition, and the researcher has traced it end to end. The draft now has the player screenshot, the time charts, the clocks and the cards: 31 pages, pictured below. One head per run of a speaker is fixed, and a mood change still shows. The storyteller has set a clock in the margin, hour one to hour nineteen, and the researcher has registered its stats. The writer has started the 70-page edition: five chapters, already cleared by security. The site's draft now shows the drawings too. One thing you should know about printing: KDP cannot print copies today. Its review takes up to 72 hours, then a proof copy is ordered. A local print shop could print from the same two PDFs today.",
+ "stats": [
+  {"n": "31", "label": "PDF pages in the 30-page draft, with pictures"},
+  {"n": "5 of 5", "label": "chapters of the 30-page edition cleared by security and traced"},
+  {"n": "5", "label": "chapters of the 70-page edition drafted, cleared by security"},
+  {"n": "allowed", "label": "usage state on the five-hour window this wake (no warning)"}
+ ],
+ "for_you": [
+  {"group": "Printing"},
+  {"id": "Print", "ask": "What do we print, and how?", "detail": "The publisher (publisher__037): a print needs two PDFs, the inside pages at Crown Quarto and a full cover (back, spine and front, with a 0.125 in margin all round). The designer has the front; the back and spine are still to draw. KDP reviews in up to 72 hours, then a proof copy. A local print shop can print from the same two files today; ask it about its own margin and paper.", "options": ["the 30-page edition, local print shop, today", "the 30-page edition, KDP proof", "wait for the full book"], "recommend": "The 30-page edition from a local shop today if you need copies this week; submit to KDP in parallel."},
+  {"group": "Pace"},
+  {"id": "Sonnet", "ask": "Move five members to Sonnet?", "detail": "librarian, historian, researcher, synthetic and developer (my last message). You switch each one in its own session; I can't.", "options": ["yes, those five", "keep everyone on Opus"], "recommend": "Yes, those five."}
+ ],
+ "wide": [
+  {"title": "RC2, the 30-page edition, draft (31 PDF pages)", "path": "team/conductor/editor-briefs/img/brief46-rc2-thirty.png", "caption": "Built by the conductor from manuscript/rc2/30/ with the publisher's options and its picture map (publishing/rc2-figures.json); the site's draft is built the same way from this release on."}
+ ],
+ "sections": [
+  {"title": "Since your notes", "items": [
+   "publisher: one head per run of a speaker, fixed as you asked; screenshots placed, but only the kinds security cleared, never an admin, key or vault page; KDP and printing notes (publisher__037).",
+   "storyteller: 'The clock in the margin, and what to show' in both outlines: hours by the clock of 29 October, so the hold at 18:44 falls in hour nineteen, and ten moments to show instead of describe, the player's interface first (storyteller__074). It also outlined parts 1 and 2 of the 70 (storyteller__073).",
+   "researcher: the margin clock's stats hour by hour (C108); the 30-page edition traced end to end.",
+   "security: the 30-page edition clear (security__023); the 70's chapters 1 to 5 clear (security__024). Nothing on the site's draft needs to come off.",
+   "designer: the official cover as you approved it in its chat, six of the cast on cards (95bff9ea). The site's home page now shows it too. synthetic: read the pages for layout. Some card rows are cut at the right margin on four pages, and some source notes sit alone on near-empty pages.",
+   "ruv-sgit: named owner of chapter 2's map (conductor__016). Its task had gone back to every two hours before ACC1 reached it; it now runs hourly.",
+   "The writer noticed its task was changed from my session and said so; it keeps hourly at your word. The release now places the drawings in the site's draft (release.yml)."
+  ]}
+ ],
+ "next": ["The tightening (cut card rows, lonely source notes), chapter 2's map, the margin clock drawn; more of the 70. 03:02"],
+ "sources": ["git log since 01:25 UTC", "comms/mail/mailroom/conductor/publisher__037, security__023, security__024, storyteller__073, storyteller__074, writer__037, ruv-sgit__034", "git show fc28356f (synthetic), 95bff9ea (designer)", "the session's usage state (get_session)"]
+}

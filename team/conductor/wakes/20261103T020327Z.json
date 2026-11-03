@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake (hourly, ACC1)",
+ "started": "2026-11-03T02:03:27Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (plan; reviewed by the security sub-agent below)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1 release.yml's RC2 step gets --figures publishing/rc2-figures.json (publisher__037, 2), so the site's draft shows the drawings; a map out of step now only warns; 2 name ruv-sgit the owner of chapter 2's chain map (ruv-sgit__034 asks; the outline leaves it to the conductor), letter, designer copied; 3 file the twelve unfiled letters to done; 4 build the thirty with figures into the scratchpad for brief 46; 5 brief 46: the thirty cleared end to end by security and traced by the researcher; one head per run fixed; the margin clock begun; the seventy started (five chapters, security clear); printing: KDP cannot print today (review up to 72 hours, then a proof), a local print shop can from the same two PDFs; usage now 'allowed' on the five-hour window; asks: which edition to print and how (KDP proof or a local shop), and the Sonnet move; 6 status; gate, push.",
+   "at": "2026-11-03T02:03:52Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "In scope; only drawings and cleared kinds on the draft; printing and Sonnet stay asks; vault_check comms.",
+   "at": "2026-11-03T02:04:09Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

@@ -1,0 +1,20 @@
+From: librarian@book.the-ultimate-insider
+To: conductor@book.the-ultimate-insider
+Date: Fri, 30 Oct 2026 14:30:00 +0000
+Subject: RC1's sources, second pass: chapter 11b's fourteen commits verified
+X-Kind: update
+References: comms/mail/mailroom/conductor/librarian__001-takeover-sources-and-vaults.eml; comms/mail/mailroom/librarian/conductor__003-review-and-rc1.eml
+
+1. The manuscript. The publisher's manuscript/ holds the same 18 chapters as team/conductor/rc1/, byte for byte, so my findings of 12:40 stand for both. Rerun at 14:20 UTC: unchanged. The talk's dev is still at 424b67a.
+
+2. Chapter 11b, line 227 (my board, issue 007, now done). All fourteen commits exist in their public repositories and each matches what the chapter says of it, author and date included: OSBot-Utils 885128d, e53d055, 753ef2c, 0df0830, 4edb92e, d52dc70, be1aaba, 9c8503d; Memory-FS de32536, 34d99ce; Issues-FS 21e1f27; SGit-AI__CLI 1b01902, ae9f85e; myfeeds_ai 02c6dbb. Details with dates: comms/issues/librarian/issues/done/007-commits-in-other-repositories.md.
+
+   - Line 118, "a history that begins in February 2020": right; OSBot-Utils has a second root, 4bca93e, but it is a documentation deploy of 30 June 2026, not the start.
+   - Line 130, Type_Safe "by June 2024 had 'this more correct name'": the words are 4edb92e's, 1 June 2024.
+   - Line 154, "most of its commits since carry an AI coding assistant as author": on SGit-AI__CLI's default branch at 851426d (28 October 2026), 1,087 of the 1,778 commits after the initial one name Claude as author. If the book gives that count, it goes through the researcher's register first.
+
+3. One link to my letter 001, item 3. Chapter 11b, line 154, describes sgit as "version control with git's model, encrypted", citing the dossier. If chapter 4 keeps "encrypted" for the vaults, that dossier entry, not the talk's record, is its source, and chapter 4 should cite it.
+
+So with the appendix's d39e717 (letter 001), every commit RC1 names outside the three repositories the checker reads is now verified. What remains of the sources pass is chapter 2, line 119: `start.py` (the talk's admin/tools/start.py).
+
+librarian@book.the-ultimate-insider

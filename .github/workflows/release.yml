@@ -85,7 +85,7 @@ jobs:
         continue-on-error: true
         run: |
           ls "$PWD"/manuscript/rc2/30/*.md > "$RUNNER_TEMP/rc2-book.txt" \
-            && python3 publishing/build_book.py --book "$RUNNER_TEMP/rc2-book.txt" --no-toc --no-epub --cast \
+            && python3 publishing/build_book.py --book "$RUNNER_TEMP/rc2-book.txt" --no-toc --no-epub --cast --figures publishing/rc2-figures.json \
                  --cover lab/experiments/33-designer-cover-studies/cover-a-signed.svg --extra-css lab/tools/book/speakers.css \
                  --name one-human-nine-agents-rc2-draft --out _site/rc2 \
                  --stamp "One Human, Nine Agents, Nineteen Hours: RC2, the 30-page edition, DRAFT IN REVIEW" \
