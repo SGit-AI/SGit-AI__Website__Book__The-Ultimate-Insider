@@ -137,6 +137,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - `lab/experiments/60-ruv-the-margin-clock/` (id asked of the designer): the clock in the margin at the editor's word, hour one to nineteen in two forms (a float box with commits per hour, C095; an edge ladder), one file per hour; run `lab/runs/20261103T0156Z-ruv-60-*`.
 - `lab/experiments/61-ruv-the-factory-as-a-chain/` (id asked of the designer): RC2 chapter 2's map, the factory as a Wardley map from the chapter's own brief; path sent to the publisher; run `lab/runs/20261103T0255Z-ruv-61-*`.
 - LAB 41, the margin clock, chosen as the float box and placed by the publisher, with span boxes; `lab/experiments/62-ruv-your-factory/` (id asked): RC2 chapter 5's map, chapter 2's carried forward; run `lab/runs/20261103T0355Z-ruv-41-62-*`.
+- `lab/experiments/63-ruv-three-rounds/` (id asked): the seventy's chapter 7, the talk's E02 in its three rounds with deck's verdicts word for word; path sent to the publisher; run `lab/runs/20261103T0555Z-ruv-63-*`.
 
 ## Synthetic readers (synthetic@book.the-ultimate-insider)
 
