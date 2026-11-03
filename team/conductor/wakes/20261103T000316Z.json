@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "LP1 with the reading marked; security__022 clears the editions; release step in scope and safe. Conditions: rc2.html carries no text from chapters 4 to 6; the RC2 build stays in the scratchpad.",
    "at": "2026-11-03T00:04:02Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "LP1 with his words and the reading marked; release.yml builds both editions into _site/editions (tested locally: 6 and 13 pages); validate.py lets editions/*.pdf through the link check as it does manuscript/; editions.html links them; rc2.html updated with no chapter text; letter publisher 057; four letters filed; brief 45; status.",
+   "at": "2026-11-03T00:06:54Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "finding",
+   "comment": "Release step safe; the exemption only editions/*.pdf|epub; no chapter 4 to 6 text or RC2 PDF published; nothing private. Finding fixed before close: the word count named as the build's (9,812 printed) beside the files' 9,730.",
+   "at": "2026-11-03T00:07:27Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "As planned; conditions kept; the count fixed.",
+   "at": "2026-11-03T00:07:27Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T00:07:27Z",
+ "outcome": "ok"
 }
