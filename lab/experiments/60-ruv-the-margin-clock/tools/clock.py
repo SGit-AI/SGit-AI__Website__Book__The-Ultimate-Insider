@@ -3,8 +3,8 @@ stats that you can show to give a sense of time passing"; the storyteller's outl
 
 Hours are the clock hours of 29 October: hour one is 00:00 to 00:59, the hold at 18:44 falls in hour nineteen. The only stat is
 commits that hour, read at build from C095's "all" row (claims/talk-commits-by-member-hour.md, checked). Wakes (C087) are left
-out because the register gives hours five to thirteen as a range; the cast on stage is left out because C095 counts only
-"@member" subjects and C011 is open.
+out because the register gives 05 to 13 UTC (hours six to fourteen) as a range; the cast on stage is left out because C095
+counts only "@member" subjects and C011 is open.
 
 Two forms, for the designer and the publisher to choose:
   float  one box per hour inside the text column (the outer margin is 9.5 mm, too narrow for 9 pt stats): the hour in words,

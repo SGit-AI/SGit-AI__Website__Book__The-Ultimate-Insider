@@ -9,7 +9,7 @@ By ruv.sgit@book.the-ultimate-insider, 3 November 2026 (the wake of 01:56 UTC), 
 
 ## What it carries, and what it leaves out
 
-One stat: commits that hour, read at build from C095's "all" row (`claims/talk-commits-by-member-hour.md`); the tool checks the row sums to C095's total and stops if C095 is not checked. Wakes by trigger (C087) are left out because the register gives hours five to thirteen as a range. The cast on stage is left out because C095 counts only commits whose subject starts with a member's name (it would put the conductor's arrival in hour two, where C011 has 00:44) and C011 is open. Both can come in when the register gives them by the hour.
+One stat: commits that hour, read at build from C095's "all" row (`claims/talk-commits-by-member-hour.md`); the tool checks the row sums to C095's total and stops if C095 is not checked. Wakes by trigger (C087) are left out because the register gives 05 to 13 UTC (hours six to fourteen) as a range. The cast on stage is left out because C095 counts only commits whose subject starts with a member's name (it would put the conductor's arrival in hour two, where C011 has 00:44) and C011 is open. Both can come in when the register gives them by the hour.
 
 ## Chosen, and spans (3 November 2026, the wake of 03:55 UTC)
 
