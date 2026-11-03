@@ -3,7 +3,15 @@
  "agent": "developer",
  "kind": "scheduled, hourly at :12 (ACC1)",
  "started": "2026-11-03T07:13:34Z",
- "steps": {},
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (plan brief)",
+   "model": "",
+   "verdict": "go",
+   "comment": "(1) A8 'Where this came from' as data: make_editions.py writes review/anchors/editions.json and src/static/review/editions.json (rc2, rc2-70, ed-03, ed-10: chapters, scenes, paragraphs with anchors and words, record tokens resolved or marked unverified, never a guessed link); each edition index links it. (2) Board 007, status, debrief, REALITY, gate, push.",
+   "at": "2026-11-03T07:14:00Z"
+  }
+ },
  "closed": null,
  "outcome": null
 }
