@@ -40,3 +40,5 @@ RC2 is signed (RP1, CV2): the 30-page edition first, then the 70 and the 150, in
 3 November, 13:37: 150/09 and 10 traced (two times); "central London" flag withdrawn; my C110 = C095 claim corrected (`researcher__014`).
 
 3 November, 14:36: 150/11 and 12 traced, all holds (`researcher__015`).
+
+3 November, 15:37: 150/13 and 14 traced, all holds (`researcher__016`).

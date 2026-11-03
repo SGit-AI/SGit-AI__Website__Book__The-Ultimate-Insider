@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T15:33:40Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "150/13 and 14 as they stand after 3ca8f0bc (name the commit traced); named items first; reply researcher__016. Tools seen: Read, Grep, Glob, Bash, hand-back; used Bash for reading; none refused.",
+   "at": "2026-11-03T15:34:15Z"
+  },
+  "pre_review": {
+   "by": "security pre-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "In scope; name the commit traced; vault_check. Tools seen: Read, Grep, Glob, Bash, hand-back; used Bash for reading; none refused.",
+   "at": "2026-11-03T15:34:32Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "150/13 and 14 traced after 3ca8f0bc: all holds; reply to the writer; one letter filed.",
+   "at": "2026-11-03T15:35:24Z"
+  },
+  "post_review": {
+   "by": "security post-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "In scope; no secrets, dashes, RW1 words or anything attack-shaped. Tools seen: Read, Grep, Glob, Bash, hand-back; used Bash for reading; none refused. Its note on the filed letter checked: the copy is identical to the original. Gate: the member's run, clean, 741 pages.",
+   "at": "2026-11-03T15:36:56Z"
+  },
+  "post_check": {
+   "by": "conductor post-check step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Trace naming 3ca8f0bc, reply, filing, board, debrief, REALITY and status as planned. Tools seen: Read, Grep, Glob, Bash, hand-back; used Bash for reading; none refused. vault_check was run by the member before the commit: clean.",
+   "at": "2026-11-03T15:37:22Z"
+  }
+ },
+ "closed": "2026-11-03T15:37:23Z",
+ "outcome": "ok"
+}
