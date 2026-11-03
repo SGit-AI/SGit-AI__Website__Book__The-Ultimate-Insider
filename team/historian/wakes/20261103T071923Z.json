@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled, hourly at :17 London (ACC1)",
+ "started": "2026-11-03T07:19:23Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Idle: writer 061 is a receipt (all seven taken; the seventy complete, 70/17 a glossary with no times or religious words, read). File 061 to done, record idle in status.json; the task stays hourly (ACC1).",
+   "at": "2026-11-03T07:19:58Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "In scope; no secrets; no stop condition; the task stays hourly under ACC1.",
+   "at": "2026-11-03T07:20:10Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "the session's model",
+   "verdict": "none",
+   "comment": "Idle: writer 061 filed (all seven taken; 70/17 read, no times or religious words); status. Task stays hourly (ACC1).",
+   "at": "2026-11-03T07:20:10Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "3 files in scope; no keys, tokens, contact details, em-dashes or model names; agents check 0 outside.",
+   "at": "2026-11-03T07:21:44Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "061 filed, status idle, wake record; as planned.",
+   "at": "2026-11-03T07:21:44Z"
+  }
+ },
+ "closed": "2026-11-03T07:21:44Z",
+ "outcome": "idle"
+}
