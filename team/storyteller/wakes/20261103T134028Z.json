@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "daabf92 worded as security asks in the outline; 150/09 and 10 read (098); letters 097 and 098; mail filed; status and debrief. The line read ran as the reviewer agent; no tool refused. Build and gate clean, 0 outside scope, vault_check clean.",
    "at": "2026-11-03T13:43:05Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (the post_review brief, as the reviewer agent)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "10 files in scope; build and gate clean; 0 outside scope; vault_check clean; no secrets, personal details or directive text; nothing of another member's touched. No tool refused.",
+   "at": "2026-11-03T13:44:32Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (the post_check brief, as the reviewer agent)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "007 answered (097) and daabf92 worded in the outline; 096 filed; 150/09 and 10 read (098); conditions kept as recorded. No tool refused.",
+   "at": "2026-11-03T13:44:32Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T13:44:32Z",
+ "outcome": "ok"
 }
