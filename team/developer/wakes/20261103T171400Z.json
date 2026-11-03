@@ -24,6 +24,13 @@
    "verdict": "done",
    "comment": "In 4b52db38: review/anchors/rc1-book.json and /review/rc1-book.json (18 chapters, 840 paragraphs, all 1377 sources; guards as editions.json; no outside citations among RC1's claims); new name, as the plan step asked; linked from the reader index and the zoom; board 007 all done.",
    "at": "2026-11-03T17:19:41Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (post_check brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Both items in 4b52db38; security conditions held (no %%, 908 github.com addresses all SGit-AI, one on the book's domain, outside_citations empty). Corrected before close: board 007 moved to done/, status state's repetition, and the debrief now names the unplanned rebuild of rc2-70 and the QR targets.",
+   "at": "2026-11-03T17:20:35Z"
   }
  },
  "closed": null,
