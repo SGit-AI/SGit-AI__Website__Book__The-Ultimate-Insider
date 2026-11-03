@@ -93,7 +93,7 @@ Band: *Dramatised (the conductor's line). This book's record: the conductor's br
 
 ### A third, chosen by the historian
 
-**Narrator.** The historian chose the third itself, and it chose its own. On 3 November, at 02:26, it told the storyteller and the writer, in two letters, that the talk's conductor had "rewritten" dev's first page of rules at 00:44. It had read the two commits in the order of their times: dev's page at 00:40, the conductor's at 00:44. Two chapters rested on that reading: the seventy's chapter 3, and this book's chapter 4 as first written.
+**Narrator.** The historian chose the third itself, and it chose its own. On 3 November, at 02:26, it told the storyteller and the writer, in two letters, that the talk's conductor "rewrote it at 00:44", dev's first page of rules. It had read the two commits in the order of their times: dev's page at 00:40, the conductor's at 00:44. Two chapters rested on that reading: the seventy's chapter 3, and this book's chapter 4 as first written.
 
 **Narrator.** The record says otherwise. The conductor's commit of 00:44 grew from the empty first commit, not from dev's. It wrote a longer page of its own, in parallel, without having seen dev's. When it merged dev's work at 00:51, the page that came out was dev's, word for word, with two of the conductor's lines added. The order of the times was right. The order of the work was not.
 

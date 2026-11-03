@@ -18,9 +18,9 @@
 
 **Narrator.** A quarter past midnight: an empty project. A new repository with a licence, a read-me and a file list, and nothing else. Its first commit says "Initial commit", and that is all it says.
 
-*Words for this page:* a **repository** is the project's folder, with its whole history kept. A **commit** is one saved change to it, with a time and a short message saying what changed.
+*Words for this page:* the clock in the margin counts the talk's day in **hours**: hour one runs from midnight to a minute before one, and the talk was due as hour nineteen ended. A **repository** is the project's folder, with its whole history kept. A **commit** is one saved change to it, with a time and a short message saying what changed.
 
-`%% record: C001 2e4b1f4`
+`%% record: C001 2e4b1f4; C110 (clock hours of 29 October; the conductor's layout call CK1)`
 Band: *The first commit, at 00:16.*
 
 ## The first page of rules, shown

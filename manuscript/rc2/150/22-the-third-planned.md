@@ -4,6 +4,8 @@
 
 **Narrator.** This chapter is short, and it is all plan. The third factory has not run. Nothing in it is a result, and nothing in it should be read as one. I put it in the book because a plan written down before the first day is the cheapest place to catch a mistake, and because the first two factories taught me what to write down.
 
+`%% for the editor: "a plan written down before the first day is the cheapest place to catch a mistake" and "the first two factories taught me what to write down" is the writer's reading of his view; his to keep or drop.`
+
 ## Said first: it has not run
 
 **Narrator.** The third factory has not run yet. Everything in this section is a plan.
@@ -15,6 +17,8 @@
 **Narrator.** Here is how I expect the three shared things to work day to day, written as a plan, because that is what it is.
 
 **Narrator.** The brief has one owner, who writes it and changes it. Everyone else reads it, and asks for changes in writing. Two people editing one brief is how a team ends up with two briefs.
+
+`%% for the editor: "Two people editing one brief is how a team ends up with two briefs" is the writer's reading of his view; his to keep or drop.`
 
 **Narrator.** The board is read every morning by everyone, before their own agents start. Each person's agents write their work there, so nobody has to ask what anybody else did overnight.
 
