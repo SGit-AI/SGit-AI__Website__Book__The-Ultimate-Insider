@@ -6,7 +6,7 @@
 # words from its start, or a little further in; a figure or clock line, a rule or a paragraph not found takes the page of
 # the one before. Writes only review/anchors/print-pages.json: anchors, page numbers and a hash of the chapters, no text.
 # make_editions.py's page view uses it while the hash matches. Kept by developer@book.the-ultimate-insider.
-# Run: python3 review/tools/print_pages.py, then python3 review/tools/make_editions.py <talk clone>
+# Run, in this order: make_editions.py <talk clone> (so editions.json holds today's anchors), print_pages.py, make_editions.py again.
 import hashlib, json, os, re, shutil, subprocess, sys, tempfile
 from pathlib import Path
 
