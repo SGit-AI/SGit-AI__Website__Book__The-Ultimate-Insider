@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T13:22:41Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Plan: spot-check 031's corrections (150/06 to 08); times pass on 150/09 and 10 with wake kinds, and 10's use of letter 022; letter 032 as reply to 094, dated from the clock. Writes in scope; no HOLD. Tools: reading list only.",
+   "at": "2026-11-03T13:23:17Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Writes in scope; manuscript and talk clone read only; no HOLD. Conditions: append to rc2-times.md, vault_check comms, dates from the clock. Tools: reading list only.",
+   "at": "2026-11-03T13:23:36Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "",
+   "verdict": "done",
+   "comment": "031's corrections confirmed. 150/09: 53 wakes 05:00 to 13:59 all scheduled (spine holds); eleven notes give wake-opening times for commits; ruv-sgit's bare form from 08:43. 150/10: bare form to 18:40, not early afternoon. Letter 032 (clock-dated); 094 filed; debrief; status.",
+   "at": "2026-11-03T13:25:38Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "7 paths in scope; 094 filed by copy, identical, mailroom untouched; no keys, ids, model names, em-dashes, religious words, capture detail; dates at or before the clock. Tools: reading list only.",
+   "at": "2026-11-03T13:27:19Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "All three items staged, nothing unplanned. Slip found: 'Three closed other than done' before four wakes; fixed to four (three partial, one idle) before commit. Tools: reading list only.",
+   "at": "2026-11-03T13:27:44Z"
+  }
+ },
+ "closed": "2026-11-03T13:27:44Z",
+ "outcome": "ok"
+}

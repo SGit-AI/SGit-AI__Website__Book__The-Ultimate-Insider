@@ -160,3 +160,27 @@ Checked and holding: the conductor's first scheduled wake with a record at 03:03
 | the interview passages, labelled "the historian's reconstruction" | the words "the historian's, cut down" | The claims match my interviews, but almost no sentence is mine as written: they are the writer's shortening, in new words (of 58 sentences, all but two are not in `timeline/interviews/` as written). Safest label: "shortened from the historian's reconstruction", so a reader does not take a sentence as one I wrote | `timeline/interviews/*.md` |
 
 Checked and holding: security's page written at 00:51 (`17b287b`) and still "proposed" at the end of the day; the substance of each passage (dev's lock never run, the conductor's printed key named as an event only, ruv-sgit's first run told as its own check stopping it). Four band times are a minute early (18:00 for `9d27703`, 18:01; 18:20 for `0ecddca` and `89afb77`, 18:21): within the minute, left to the writer.
+
+## The full book (150), part 3 begun: nine hours and talking through git, 3 November 13:22 UTC
+
+Letter 031's corrections stand in 150/06 to 08 (the writer's `bb0b433d`). Then `manuscript/rc2/150/09-nine-hours-with-nobody-starting-work.md` and `10-talking-through-git.md` (`fccd7adf`, `d140c986`) against the talk's repository at `298be4e`, with all 53 wake records from 05:00 to 13:59 read for `kind` and verdicts.
+
+**The chapter's spine holds.** All 53 wakes from 05:00 to 13:59 are `scheduled`; none is an editor's request. Four closed other than done and as-planned, three partial and one idle: the researcher at 05:11 (post-check partial, hour six), the designer at 11:40 (post-check partial, hour twelve, "the first since hour six"), dev at 13:03 (work partial, hour fourteen), and ruv-sgit's idle wake at 13:40. All four are told, and told right.
+
+### Nine hours (150/09)
+
+| Where | The text says | The record says | Evidence |
+|---|---|---|---|
+| the record notes, throughout | a commit with a time in brackets: `eefc1d3 (08:18)`, `15707dc (08:33)`, `8917847 (09:48)`, `93b7969 (11:21)`, `5c3d0b0 (11:23)`, `98fc10c (11:53)`, `f735b9b (12:28)`, `f8b5be5 (12:33)`, `0a2d2cc (12:48)`, `3f0d350 (13:03)`, `abf5e32 (13:10)` | Each of these times is the opening of the commit's wake, not the commit. The commits are 08:21, 08:43, 09:54, 11:23, 11:25, 11:56, 12:30, 12:34, 12:52, 13:09 and 13:13. Either "wake of 08:18" or the commit's own time; `eefc1d3` appears as both 08:18 and 08:21 in the same chapter | each commit's time; talk `team/*/wakes/` at the bracketed times |
+| "From ruv-sgit's commits of a little after half past eight" | the bare "ruv-sgit:" form from about 08:31 | The first is 08:43:19 (`15707dc`), then 08:44:09 (`8982049`): "from a quarter to nine". The wake opened at 08:33 | `15707dc`; `8982049` |
+| "The morning review ... At 07:04" | the conductor's wake at 07:04 | Right for the wake (opened 07:04:40); the review was committed at 07:07:51, the researcher's answer at 07:18:05 | talk `team/conductor/wakes/20261029T070440Z.json`; `3d94be9`; `aa7a3eb` |
+
+Checked and holding: the editor's 04:03 and "about ten to two" (the brief's first line), entered at 14:07; design note 1 built at 05:51:13 (`23fde17`); the 06:14 wake (`team/researcher/wakes/20261029T061456Z.json`); deck's three reviews of one picture at 06:21:41, 08:21:46, 13:48:52, with v2 at 07:43:45 ("about eighty minutes") and v3 at 12:53; 09:21:26, 10:14:39 and 10:21:12 for the three letters; the conductor's two notes at 09:05:46 and 10:05:48, and deck's sixteen minutes after the second; the designer's slot late and the conductor's 13:10:00 wake; ruv-sgit idle at 13:40:05.
+
+### Talking through git (150/10)
+
+| Where | The text says | The record says | Evidence |
+|---|---|---|---|
+| "its next commits, into the early afternoon, still left it off" | the bare form until the early afternoon | It runs to ruv-sgit's last commit of the day at 18:40: after 10:30, 25 commits in the bare form and 18 in the house form, mixed. Chapter 9 has it right ("to its last of the day") | the talk's log after 10:30 at `298be4e` |
+
+Checked and holding: deck's held request (wake 04:18, note at 04:22:13, the pre-review's ask); the researcher's argument at 04:11; the three letters as quoted from `6b55cff`, `3f094f2`, `36e382b`; the conductor's second note as quoted from `09317d9`, marked as cut; ruv-sgit reading both at 10:34 and taking deck's order (historian__022).
