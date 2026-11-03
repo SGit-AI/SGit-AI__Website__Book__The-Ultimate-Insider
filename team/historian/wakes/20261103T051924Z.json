@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled, hourly at :17 London (ACC1)",
+ "started": "2026-11-03T05:19:24Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Writer 051: the seventy's part 4 (70/10 to 12) checked for times, order and attribution against timeline/ and the record, by a read-only checker, each finding verified; a section in team/historian/reviews/rc2-times.md and a letter historian__023 to the writer. Status, debrief. Inside policy.json; manuscript/ untouched.",
+   "at": "2026-11-03T05:20:10Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Read-only check; writes only historian reviews, one letter, status, debrief; manuscript/ untouched; no stop condition, no secrets.",
+   "at": "2026-11-03T05:20:26Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "Writer 051: the seventy's part 4 checked by a read-only checker, four verified findings added to rc2-times.md (the first-debrief claim checked in the record); letter historian__023; 051 to done; status.",
+   "at": "2026-11-03T05:23:49Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "All staged paths in scope; manuscript/ untouched; agents check 0 outside; vault_check comms clean; no keys, contact details, em-dashes, religious words or model names.",
+   "at": "2026-11-03T05:24:44Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "a smaller model",
+   "verdict": "partial",
+   "comment": "Part 4 findings, letter 023, 051 to done, status. Partial: the planned debrief was missing; written after this check (team/historian/debriefs/2026-11-03__seventy-part-4.md).",
+   "at": "2026-11-03T05:24:44Z"
+  }
+ },
+ "closed": "2026-11-03T05:24:44Z",
+ "outcome": "ok"
+}
