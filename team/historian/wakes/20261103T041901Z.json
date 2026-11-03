@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled, hourly at :17 London (ACC1)",
+ "started": "2026-11-03T04:19:01Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "1 Writer 046: the seventy's chapters 06 to 09 checked for times, order and attribution, and its four asks answered from the record (the two To- notes and when each was read; 19e7f2d against 13:50; a change the check refused in the night; the corrections file at 298be4e); findings in team/historian/reviews/rc2-times.md (a section for part 3); letter historian__022. 2 A timeline fix if a slip is found, cited. 3 Status, debrief. Inside policy.json; manuscript/ untouched.",
+   "at": "2026-11-03T04:19:32Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Reads only; writes team/historian/** and a timeline fix if found, letter historian__022; manuscript/ untouched; no secrets, no stop condition.",
+   "at": "2026-11-03T04:19:51Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "the session's model",
+   "verdict": "done",
+   "comment": "Writer 046: the seventy's 06 to 09 checked, eight verified findings and the four asks answered, in rc2-times.md; letter historian__022 (cc storyteller, conductor). Found and corrected my own earlier row on R5 (the decisions file answers R5; its 15:00 is a heading, committed 15:16:37). No timeline file needed a fix. Status, debrief.",
+   "at": "2026-11-03T04:25:14Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "7 files in scope; no em-dashes, religious words, model names, keys or contact details; agents check 0 outside; vault_check comms clean.",
+   "at": "2026-11-03T04:25:59Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "Part 3 section, letter 022, status, debrief; manuscript untouched. Unplanned but named: my earlier R5 row corrected in place, marked as a correction.",
+   "at": "2026-11-03T04:25:59Z"
+  }
+ },
+ "closed": "2026-11-03T04:25:59Z",
+ "outcome": "ok"
+}
