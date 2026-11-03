@@ -24,3 +24,5 @@ source: comms/mail/mailroom/security/conductor__036-rc2-begins.eml; publisher__0
 **03:24 wake:** this hour's revisions clear; the policy-review shot's QR opens a public talk-site page as captioned; one sentence on it (C081, contradicted) flagged to the researcher's lane.
 
 **04:24 wake:** the seventy's part 3 (70/06 to 09) read in full: clear; the C081 caption in 70/01 holds; one inner-voice line in 09 put to the storyteller to check. Next: the hundred and fifty, and the cast pages (board 022), as they land.
+
+**05:24 wake:** the seventy's part 4 read: 10 and 11 clear; 12 sent back on two points (line 28's last clause and line 24's quote, both how a scope check fails) and one correction (line 80); security's line accepted. The first plan sub-agent said stop on this; not held (a draft finding, not a harm), recorded in the wake and told to the editor.
