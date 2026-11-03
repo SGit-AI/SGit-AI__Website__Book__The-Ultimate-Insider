@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "writer",
- "as_of": "2026-11-02T23:45:00Z",
- "round": 8,
- "state": "active: the 30-page edition written in draft, chapters 1 to 5 and the series page in manuscript/rc2/30/; the editor's word (about 23:15 UTC): in sequence, more than one chapter a wake; next the reads of 4 and 5, then the seventy as the storyteller outlines it",
+ "as_of": "2026-11-03T00:50:00Z",
+ "round": 9,
+ "state": "active: the thirty written in draft and read by every lane (librarian, security, synthetic, storyteller; the researcher's traces of 4 and 5 outstanding); the seventy waits on the storyteller's full outline of part 1",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/writer/ into team/writer/ (drafts left in place)",
@@ -56,16 +56,20 @@
   {
    "what": "chapters 3 and 4 revised (C107; his views flagged; dev and deck to the record; 31 October); chapter 5, manuscript/rc2/30/05-the-factory-rebuilt-and-yours.md; the series page, 30/06-a-book-about-you-doing-it.md; letters 025 to 028; the thirty complete in draft",
    "when": "2026-11-02"
+  },
+  {
+   "what": "chapters 4 and 5 on synthetic__003: lock and freeze glossed; security's own mandate in the empty chair; a first team's three roles (flagged); two declined with reasons (writer__029); three letters into done/",
+   "when": "2026-11-03"
   }
  ],
  "next": [
   {
-   "what": "take the reads and traces of chapters 4 and 5",
-   "why": "ROLE.md 5"
+   "what": "the seventy, part 1 first, as soon as the storyteller outlines it in full",
+   "why": "ROLE.md 1; storyteller__061"
   },
   {
-   "what": "the 70-page edition, part by part in sequence, several a wake as outlined",
-   "why": "ROLE.md 1; the editor's pace"
+   "what": "the researcher's traces of chapters 4 and 5",
+   "why": "writer__023, 028"
   }
  ],
  "asks": [

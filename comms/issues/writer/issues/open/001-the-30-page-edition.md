@@ -17,3 +17,4 @@ Written chapter by chapter in `manuscript/rc2/30/`, one per beat, from the story
 - 2 November 2026, 21:05 UTC: chapters 1 and 2 revised on ten letters of findings; chapter 3 written (`manuscript/rc2/30/03-the-factory-runs.md`), letters 016 to 020.
 - 2 November 2026, 23:00 UTC: chapters 1 to 3 revised on eight letters; RL1 "Ship" noted; chapter 4 written (`manuscript/rc2/30/04-the-stop.md`), letters 021 to 024.
 - 2 November 2026, 23:45 UTC: chapters 3 and 4 revised; chapter 5 and the series page written: the thirty is complete in draft (`manuscript/rc2/30/01` to `06`). The editor asked, about 23:15 UTC, for more than one chapter a wake, in sequence. Next: the reads, then the seventy as its parts are outlined.
+- 3 November 2026, 00:45 UTC: chapters 4 and 5 revised on synthetic__003 (three of five; two declined with reasons, writer__029). The seventy waits on the storyteller's full outlines.

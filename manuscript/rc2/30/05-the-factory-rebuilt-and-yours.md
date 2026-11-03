@@ -39,6 +39,10 @@ Band: *The talk team's folders as they stood at the end of the day.*
 
 **Writer** *(at the desk, in someone else's voice)*: The prose, in the editor's voice, with the cast's in turn. I write what the record holds and flag what it does not.
 
+**Narrator.** You do not need all of these to start. A first team needs three: one that keeps the time and the plan, one that builds, and one that checks every fact and number. The rest came because a book needed them.
+
+`%% for the editor: "A first team needs three ..." is the writer's reading, at the readers' ask (synthetic__003); his to keep or drop.`
+
 **Narrator.** And more: security reading every chapter on the rails, synthetic readers testing it, ruv-sgit's drawings, a developer building the way reviewers read it. This time, security came.
 
 **Figure:** this book's team as cast cards, drawn in the same style as the nine, each with the one rule it inherited from the first factory written under it.

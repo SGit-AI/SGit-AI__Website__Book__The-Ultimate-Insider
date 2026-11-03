@@ -8,7 +8,9 @@
 
 **Narrator.** Here is what the factory was doing in the ten minutes before I stopped it.
 
-**Narrator.** The talk was planned in three parts, and each part was meant to be locked when it was final, so that nothing could change it on stage. Dev had built a tool for that late in the afternoon. Part 1 was final at half past six. At 18:36 the conductor came to it in its wake, and did not turn it.
+**Narrator.** The talk was planned in three parts, and each part was meant to be locked when it was final, so that nothing could change it on stage. Dev had built a tool for that late in the afternoon.
+
+*Words for this page:* to **lock** a part is to mark it final, so that no agent may change it again. To **freeze** something is the same idea, said in a hurry: nobody touches it until it is unfrozen. A **wake**, as in chapter 2, is one turn of work by one agent. Part 1 was final at half past six. At 18:36 the conductor came to it in its wake, and did not turn it.
 
 **Conductor** *(on the minute, hands off)*: The lock is dev's. It is in dev's rules, not mine, and once it is turned it cannot be undone. I leave it to dev.
 
@@ -98,11 +100,13 @@ Band: *Dramatised. Rests on the part locks and their state at the hold, the talk
 
 **Narrator.** Remember the chair from the first hour. The conductor's first roster named security. It never came.
 
+**Narrator.** Its page of rules was written in that first hour, and it says what the job was: check every run for a hold and for secrets, review the key tool and each new key, and report what it found, never fix it. Its rules were never agreed, and no session ever held the role. The work did not go undone: from the small hours, a security reviewer ran inside every member's own wake, before the work and after it.
+
 **Narrator.** All day, the reviewers were the same kind of agent as the members they read: "a second reading, not a second identity." *(record)* They caught real mistakes. The member planned for the job of standing apart from the team never arrived. I would staff it first, next time.
 
 `%% for the editor: "I would staff it first, next time." is the writer's reading of his view; his to keep or drop.`
 
-`%% record: c8f6f8f team/conductor/debriefs/2026-10-29__the-five-step-wake.md 97b98d9 timeline/interviews/security.md`
+`%% record: c8f6f8f team/conductor/debriefs/2026-10-29__the-five-step-wake.md 97b98d9 timeline/interviews/security.md (team/security/ROLE.md and policy.json at 298be4e: 17b287b 41d38ba 02cbd86; agreed_by null; the five-step wake 8c66751 5700bab)`
 Band: *Dramatised. The strip's lines are ruv-sgit's script, written for this book; the quoted line is the conductor's, from its debrief of 02:19.*
 
 ## Do this now
