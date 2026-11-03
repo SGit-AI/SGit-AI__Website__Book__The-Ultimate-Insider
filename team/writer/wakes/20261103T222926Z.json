@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Twelve letters taken; 150/94 set from the historian's file; corrections in 150/04, 21, 22, 23, 91; synthetic's read passed to the storyteller; five letters; filing, status, debrief, board, REALITY.md. Gate clean, 0 outside scope.",
    "at": "2026-11-03T22:33:02Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "clean",
+   "comment": "Clean: 94 word for word the historian's file, no session, task, key or account, nothing private or to the Cold-Read side, the researcher's note on its counts; 04 credits C110 and the conductor's CK1; 23 keeps nothing private and only the owner lifting a hold. Ran as the reviewer agent; build.py not run.",
+   "at": "2026-11-03T22:34:29Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "as-planned",
+   "comment": "Twelve letters taken (the plan's comment said eleven); each correction made; synthetic's read passed on unchanged; letters identical; records dated before the commit; gate clean. Notes: C010 and C011 sit in the closing record line, not beside their sentences. Ran as the reviewer agent.",
+   "at": "2026-11-03T22:34:29Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T22:34:29Z",
+ "outcome": "ok"
 }
