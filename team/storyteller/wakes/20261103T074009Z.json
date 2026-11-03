@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "The full book's parts 1 and 2 outlined in full; the interviews error in my sketch corrected; letter 086; mail filed; status and debrief. Build and gate clean, 0 outside scope, vault_check clean.",
    "at": "2026-11-03T07:42:58Z"
+  },
+  "post_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Every path in scope; nothing in manuscript/ or to Cold-Read; chapter 8's captured data as the team's finding and rule only, chapter 5's tasks as a process correction with no how; no key, secret, contact, shown key page, em-dash or religious word. One table row's wording fixed after the review (chapter names to match the parts, the interview marked reconstructed): no new content.",
+   "at": "2026-11-03T07:43:25Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Parts 1 and 2 in full, the interviews error corrected, letter 086, status, debrief; the parts table's row brought in line in a second commit.",
+   "at": "2026-11-03T07:43:25Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T07:43:25Z",
+ "outcome": "ok"
 }
