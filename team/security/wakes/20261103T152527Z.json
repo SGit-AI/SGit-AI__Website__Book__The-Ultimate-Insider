@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1. The 150's 13 and 14 read (not edited): clear; scope quote holds. 2. Lab 60 strips clear (plan step's check, confirmed by hash). 3. b0ae3845 as C2 evidence. Letter security__039; board; status; debrief.",
    "at": "2026-11-03T15:28:03Z"
+  },
+  "post_review": {
+   "by": "security sub-agent, as the reviewer agent (tools seen: Read, Grep, Glob, Bash, hand-back); second pass",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "First pass relied on pattern searches; second pass read every added line and b0ae3845's message: nothing private, directing, religious, em-dashed or attack-shaped; letter and register match the commit.",
+   "at": "2026-11-03T15:29:18Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent, as the reviewer agent (tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "haiku",
+   "verdict": "as-planned",
+   "comment": "All three items done; no manuscript writes; lab 60 hash-clean; b0ae3845 in C2; letter, board, status, debrief.",
+   "at": "2026-11-03T15:29:42Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T15:29:42Z",
+ "outcome": "ok"
 }
