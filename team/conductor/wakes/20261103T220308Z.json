@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T22:03:08Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Reviewer agent: file storyteller__109 and librarian__037 (reports, neither asks the conductor to act); status: the full book whole as a draft (01-23, 90, 91), read for the arc; 21's third failure settled by the historian at 63ac635e, 91 placed at 85d224f5; left the writer's 'rewrote' fix in 21, the designer's figures, the build. Nothing since 21:06 asks the conductor to act.",
+   "at": "2026-11-03T22:04:18Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Reviewer agent: in scope, both commits exist and say what is claimed, letters clean; copy not move, gate before push, no key in status. Not verified by this step: run 41664598286 waiting (the conductor's own gh read at 22:03). Side effect noted: the step ran git fetch, updating only a remote-tracking ref.",
+   "at": "2026-11-03T22:04:18Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "Both letters copied to done; status state and done updated; vault_check clean. Gate run as its own call before any write.",
+   "at": "2026-11-03T22:04:27Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

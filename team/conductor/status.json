@@ -1,10 +1,14 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "conductor",
-  "as_of": "2026-11-03T21:04:00Z",
+  "as_of": "2026-11-03T22:04:00Z",
   "round": 1,
-  "state": "RC2 in review: the full book's body (chapters 1 to 23) builds at 106 PDF pages, 44 drawings placed; the back matter next, then the print files (PR2: interior plus a cover sized from the final page count) and Leanpub (LP1). Site live at v0.1.575.",
+  "state": "RC2 in review: the full book is whole as a draft (chapters 1 to 23, the tour at length (90), the words used (91)), read end to end for the arc by the storyteller; 21's third failure settled by the historian (63ac635e). Left: the writer's 'rewrote' fix in 21, the designer's last figures, the build; then the print files (PR2) and Leanpub (LP1). Site live at v0.1.584.",
   "done": [
+    {
+      "what": "storyteller__109 and librarian__037 filed: the full book whole as a draft and read for the arc; 22 and 23 checked; run 41664598286 still waiting, the editor's to cancel",
+      "evidence": "comms/mail/conductor/done/storyteller__109-full-book-whole.eml"
+    },
     {
       "what": "publisher__046 and librarian__036 filed: the full book's body complete at 106 pages; run 41664598286 still waiting, the editor's to cancel",
       "evidence": "comms/mail/conductor/done/publisher__046-the-full-books-body-complete.eml"
@@ -579,6 +583,6 @@
       "C10b"
     ]
   },
-  "updated": "2026-11-03T21:04:00Z",
+  "updated": "2026-11-03T22:04:00Z",
   "cadence": "active"
 }
