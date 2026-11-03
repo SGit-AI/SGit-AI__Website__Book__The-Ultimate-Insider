@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T21:03:07Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Reviewer agent: file publisher__046 and librarian__036 (neither asks the conductor to act; writer and storyteller already took 018); status: body 1-23 at 106 PDF pages, back matter next, PR2 spine at final count, v0.1.575 live, run 41664598286 waiting; tell the editor in the reply. Synthetic's 008 now says nothing waits on the conductor.",
+   "at": "2026-11-03T21:04:16Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Reviewer agent: all writes in scope, sources left in place, no secret; vault_check before commit, gate before push, never main.",
+   "at": "2026-11-03T21:04:16Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "Both letters copied to done; status state and done updated; vault_check clean. Files written only after the gate printed.",
+   "at": "2026-11-03T21:04:17Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "clean",
+   "comment": "Reviewer agent: 4 files in scope, done copies byte-identical, vault_check and validate clean, status matches publisher__046. Note: wake.py records whole seconds, so gate and writes share 21:04:16 and their order cannot be proved from the record; wake.py refuses work without gate_ok. Sub-second times would make it provable.",
+   "at": "2026-11-03T21:05:36Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "as-planned",
+   "comment": "Reviewer agent: filing and status as planned; the editor told in the reply; nothing unplanned.",
+   "at": "2026-11-03T21:05:36Z"
+  }
+ },
+ "closed": "2026-11-03T21:05:36Z",
+ "outcome": "ok"
+}
