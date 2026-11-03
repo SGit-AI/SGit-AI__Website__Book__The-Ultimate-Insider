@@ -78,3 +78,29 @@ At the writer's letter 057. Chapters 13 to 16 tell mostly this book's own team; 
 | `manuscript/rc2/70/14-the-second-factory-and-the-third.md:117` | "The line you read in chapter 1 is the corrected one" | In this edition chapter 1 has no such line; it is the thirty's chapter 1 (`manuscript/rc2/30/01-the-creators-problem.md:82`); here the subject is chapter 3, "The brake, made that night" | `fde3fea`; `58322a27` |
 | `manuscript/rc2/70/15-principles.md:21` | the hold "was used once, sixteen minutes before the talk" | The plan as the event again: "before the talk was due" | C100; `timeline/after-1900.md` |
 | `manuscript/rc2/70/15-principles.md:9` | "Before any agent did anything, there was a brief and a page of rules" | Both arrived in dev's own first commit at 00:40, with the site and the talk; the empty repository held neither. "With the first agent came a brief and a page of rules" | `1f7c633`; `2e4b1f4` |
+
+## The full book (150), chapters 2 and 3: one ask followed in full, and the tour's stops, 3 November 09:18 UTC
+
+At the writer's letter 070.
+
+### One afternoon ask, from his words to the commit
+
+**"When in doubt, add it" (17:27).**
+
+| Step | When (UTC) | Who | The record |
+|---|---|---|---|
+| He says it | 17:27 | the editor, in the conductor's session | "since we don't have a lot of time, can you ask the deck agent put those new materials created by the other agents in the deck, apart from the ones that I then chose not to include. So when in doubt add it." (`team/conductor/briefs/2026-10-29__editor/7-when-in-doubt-add-it-1727.md`) |
+| Routed | 17:29:41 | conductor | Brief 7 and mail 066 to deck, with the first gap list (the studio ports, the SHarness pieces, six explainer pages); the conductor to rerun the sweep at every follow-up and mail only what is new: "Deck places; it does not search" (`a618b29`) |
+| Done | 17:52:15 | deck | "part 1 final for its lock ... every other new piece into parts 2 and 3"; part 2 gains the B01 overlap, the journey, the team's own policies, the PKI showcase; part 3 the SHarness series; the commit quotes him: "The editor, 17:27: when in doubt, add it." (`b1c9bab`). No deck wake record covers this commit: deck's last closed at 17:27:22 and its next opened at 18:20:09 |
+| Checked | 18:15:31 | storyteller | Parts 2 and 3 checked before their locks: "the blast-radius piece the editor named is in no beat" (`e8c0fbb`): one piece still missing, sent to deck |
+| Seen again | (no record) | the editor | The record does not show him looking at the placements; from 18:04 he was fixing the player in dev's session, and part 1 was the part he played. Say "the record does not show when I saw it" |
+
+From word to commit: 25 minutes, through two agents, and the check found one gap. It is a good case for chapter 2 because each hand-off is on the record, and so is the one place it fell short.
+
+### The tour's stops (150/03)
+
+| Where | The text says | The record says | Evidence |
+|---|---|---|---|
+| `manuscript/rc2/150/03-the-tour-at-length.md:112` | the home page given to dev, `5a91607` (16:06) | Dev made the home page in its first pass at 00:40 (`1f7c633`); `5a91607` at 16:06:50 changed its words ("the home page says the perfect storm"). Cite both, or say "dev's home page, its words of 16:06" | `1f7c633`; `5a91607` |
+| `manuscript/rc2/150/03-the-tour-at-length.md:167` | the policy review page given to studio, `bd3cdad` | Right: the page first appears in `bd3cdad` at 17:47:28 | `bd3cdad` |
+| `manuscript/rc2/150/03-the-tour-at-length.md:211` | the night's brief given to the conductor, `648feee` (03:10) | The conductor's, but first written at 02:57:23 (`c531560`), then edited at 03:05 and 03:10 (`648feee`, "dev's two new asks scheduled") | `c531560`, `8543269`, `648feee` |
