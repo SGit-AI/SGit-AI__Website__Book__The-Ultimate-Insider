@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Own paths; the order left to the storyteller; nothing private.",
    "at": "2026-11-03T08:04:13Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "done",
+   "comment": "Storyteller letter on the order; two letters filed; brief 49; status.",
+   "at": "2026-11-03T08:04:59Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "Nothing private; nothing decided; the asks stay his.",
+   "at": "2026-11-03T08:05:32Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "All done; figures and quotes match the summary; the one paraphrased quote set word for word ('40 pages').",
+   "at": "2026-11-03T08:05:32Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T08:05:32Z",
+ "outcome": "ok"
 }
