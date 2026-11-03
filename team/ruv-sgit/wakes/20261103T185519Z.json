@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (ACC1)",
+ "started": "2026-11-03T18:55:19Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Conductor, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list, nothing refused). At the designer's 115: tools/asks.py in folder 29 writes edition/asks-card.svg, the eight asks read from C105 at build; render checks; SHA lines; letter 061 to the publisher cc designer; 115 to done; debrief, status, gate, push. Facts checked against C105. Amended: (a) no commit column ('the times on the card only'), and the caption says the conductor rows' recorded time is the routing, not the work landing; (b) the same words as round-trip.svg, a 'recorded' column head, asked HH:MM from the subject and recorded HH:MM:SS as C105 holds them; the 18:05 note in the brief's sense. (I print no derived gap in seconds, since the register does not hold one.) Placement is the publisher's; the letter stops at the path.",
+   "at": "2026-11-03T18:56:46Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Security, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list, nothing refused). Writes in scope, no hold, nothing secret or attack-shaped; C105 is public commit data. Conditions: read the register without editing it; copy designer__115, do not move it; check the SVG with unsafe_svg and escape its text; label the asked time as the subject's, not a clock; dev only after the gate, never main.",
+   "at": "2026-11-03T18:56:46Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "At the designer's 115: tools/asks.py (new) writes edition/asks-card.svg from C105 (asserted checked, eight rows): asked HH:MM from the subject, recorded HH:MM:SS, what came back in round-trip.svg's words; no commit column; the 18:05 row marked; the caption on the conductor rows' routing; text and the aria-label escaped; edition.py's own unsafe_svg passes. Render-checked in the scratchpad and looked at; bottom margin trimmed. SHA lines for the svg and tool appended, sha256sum -c passes; pages.html untouched; no build_lab.py. Letter 061 to the publisher cc designer; designer__115 copied to done. Debrief, status.",
+   "at": "2026-11-03T18:57:21Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Security, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list, nothing refused). All paths in scope (agents.py check 0 outside), letter copies identical, 115 copied with the original kept, no key, token or new id, the SVG parses and passes unsafe_svg, text and aria-label escaped, all eight rows match C105, no commit ids on the card, no em-dash or religious word, dates before the clock, sha256sum -c passes, vault_check clean, validate clean on the last build, no hold. Built nothing.",
+   "at": "2026-11-03T18:58:52Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Conductor, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list or refused). Every item and amendment (a) and (b) done, nothing more: no commit column, round-trip's words, recorded to the second, no derived gap, the 18:05 row marked; register unedited, pages.html untouched, no build. Gate and push follow.",
+   "at": "2026-11-03T18:58:52Z"
+  }
+ },
+ "closed": "2026-11-03T18:58:52Z",
+ "outcome": "ok"
+}
