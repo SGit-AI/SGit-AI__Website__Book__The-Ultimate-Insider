@@ -3,7 +3,22 @@
  "agent": "developer",
  "kind": "scheduled, hourly at :12 (ACC1)",
  "started": "2026-11-03T22:16:00Z",
- "steps": {},
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (plan brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused; wrote no file",
+   "model": "",
+   "verdict": "go",
+   "comment": "Upkeep: the full book's back matter began (91-the-words-used.md, a new Book.txt line); rerun make_editions, print_pages, make_editions; confirm every paragraph mapped and guards pass; gate, push, status line, debrief. Noted: start.py was cut off once by a 110 s timeout and rerun; tree clean. Nothing else waiting.",
+   "at": "2026-11-03T22:17:11Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (pre_review brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused; wrote no file",
+   "model": "",
+   "verdict": "go",
+   "comment": "No hold; in scope; the new back matter has no address, email or bare %% line (one record note in backticks, the convention). Conditions: only generated paths and team/developer; manuscript/ untouched; if a guard, the gate or agents check trips, push nothing and report; pull before push, dev only.",
+   "at": "2026-11-03T22:17:11Z"
+  }
+ },
  "closed": null,
  "outcome": null
 }
