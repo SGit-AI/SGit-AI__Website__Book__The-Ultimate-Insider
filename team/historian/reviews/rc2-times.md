@@ -200,3 +200,19 @@ No finding. Checked and holding: the gate's checks as first committed (`1f7c633:
 | `12-the-creator-comes-back.md`, "The team changes shape within the hour", and the cast bar | "From 14:03 I was in three sessions at once: the conductor's, dev's and deck's"; "the editor back in three of their sessions" | Four. Hour 14 UTC's editor-started wakes: the conductor at 14:03, 14:09 and 14:52; the storyteller joining at 14:12:52; dev at 14:17:44 and 14:58:10; deck at 14:19:43. Seven in all, which is C087's 7. The storyteller's session is the fourth | talk `team/{conductor,storyteller,dev,deck}/wakes/20261029T14*.json` (`kind`) |
 
 Checked and holding: the feedback round "about 13:50" by its brief, committed and routed at 14:07:04 (`c9ced4e`); the conductor's notes "14:05 UTC" with the order as it then stood; the conductor's 14:03 wake as the first started by the editor since 04:02; dev's pane at 14:28:47 (`9a51c28`) in the wake opened at 14:17; deck's live review from 14:19 and its scheduled wake at 14:44:56 closed idle; ruv-sgit's parallel runs at 14:59:00 and 14:59:23; the storyteller's join at 14:15:17 and first pass at 14:19:39; the port at 15:07:08 (`3314ffe`), build mode at 15:16:48, the last fix at 18:37:02 (`dbd75ad`). The band naming my reading of 14:03 is fair to my day file 14.
+
+## The full book (150), part 3 continued: the story before the slides and port, not rebuild, 3 November 15:18 UTC
+
+Letter 033's correction stands in 150/12 (four sessions, the cast bar the same), and the two readings 09 now cites as mine are quoted as my day files 09 and 11 give them. Then `manuscript/rc2/150/13-the-story-before-the-slides.md` and `14-port-not-rebuild.md` (`4465a80d` to `c8b5f348`): every bracketed commit time matches its commit.
+
+### The story before the slides (150/13)
+
+No finding. Checked and holding: the storyteller's join at 14:15:17 and first pass at 14:19:39, which holds the tree, the three maps, the coverage, the sequence and the challenge (`df37797` adds `story/challenge.md`, `coverage.md`, `sequence.md`), and its letter to deck word for word; "positions, not measurements" on the talk's map slides; R5 at 14:33:00 (`2726f0e`, "does not hold. The data says the opposite"); the storyteller's letter at 15:02:48 (`b208a16`); the editor's answer committed at 15:16:37 (`78d517d`), headed about 15:00, in the order finding, letter, answer.
+
+### Port, not rebuild (150/14)
+
+| Where | The text says | The record says | Evidence |
+|---|---|---|---|
+| `14-port-not-rebuild.md`, "Motion and studio arrive" | "Studio had the pieces I had named rebuilt on this site's engine by 15:40" | By 15:40 studio had its first two ports ("the ABP slide and studio v4, the policy gate"); the rest of what he named came across the afternoon, its showcases from 17:47 to 18:34. Safest: "Studio had its first two pieces rebuilt ... by 15:40" | `c3ce566` (15:40:21); studio's commits to 18:34 |
+
+Checked and holding: the decisions committed at 15:16:37; the work step from 8 to 45 minutes at 15:21:31 (`545a473`) and the editor's words as quoted from it; the briefs at 15:25:40 (`f00734f`); motion and studio joining at 15:31:01 and 15:31:55, "in the same minute"; both checked and keyed at 15:47:33 (`4adc04a`); motion's building at 16:34:39 (`7639664`); the ninety minutes routed at 16:32:22 in the wake opened at 16:30:25 (`62c6b99`); the three parts and their locks at 16:59:22 (`3342cff`); the lock tool at 17:54:45 (`4a2481b`); the player "ported from ruv.sgit.ai" at 15:07:08; the slide engine in dev's first pass at 00:40.

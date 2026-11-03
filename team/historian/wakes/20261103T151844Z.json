@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T15:18:44Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Plan: spot-check 033's correction (150/12) and 09's readings cited as mine; times pass on 150/13 and 14; letter 034 as reply to 105, clock-dated. Writes in scope; no HOLD; vault_check; pull before push. Tools: reading list only.",
+   "at": "2026-11-03T15:19:16Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Writes in scope; manuscript and talk clone read only; no HOLD; nothing to Cold-Read. Conditions: vault_check comms, pull before push, dev only. Tools: reading list only.",
+   "at": "2026-11-03T15:19:33Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "",
+   "verdict": "done",
+   "comment": "033's correction confirmed; 09's readings cited as mine match my day files. 150/13 holds. 150/14: studio's first two ports by 15:40, not all the pieces named. Letter 034 (clock-dated); 105 filed; debrief; status.",
+   "at": "2026-11-03T15:20:46Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "7 paths in scope; 105 filed by identical copy, mailroom untouched; no keys, ids, model names, em-dashes, religious words; dates before the clock. Tools: reading list only.",
+   "at": "2026-11-03T15:22:27Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "All seven paths as planned, nothing extra; times agree across review, letter and debrief; dates before the clock. Tools: reading list only.",
+   "at": "2026-11-03T15:22:49Z"
+  }
+ },
+ "closed": "2026-11-03T15:22:49Z",
+ "outcome": "ok"
+}
