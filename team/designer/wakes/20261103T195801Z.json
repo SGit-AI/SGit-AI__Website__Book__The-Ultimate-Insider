@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, hourly at :57 London",
+ "started": "2026-11-03T19:58:01Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, as the reviewer agent; no tool refused",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. Publisher 035, storyteller 105, writer 133: the tree stays 'no turn marked'; the list's note updated; letters to done/. 2. LAB 42 (the existing folder, LAB 42 in the ledger): ch12-empty-chair (the nine heads in C011's order, checked to be the nine; security's chair empty; one wake's five steps with two reviewer figures; the debrief line as chapter 12 quotes it, checked; no count) and ch12-book-table (members from team/'s folders, security filled, synthetic and the developer as labelled seats). 3. Letter 117 to the publisher; lab PDF, debrief, status, REALITY.md, gate, push.",
+   "at": "2026-11-03T19:59:07Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent, as the reviewer agent; no tool refused",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside scope.writes (LAB 42, lab/pdf, team/designer, REALITY.md appended, letter 117 to the publisher, the designer's own done/: comms/mail/designer/done, its mail board). Conditions: nothing in others' paths; vault_check comms; no key or secret; no em-dashes; no real person in the drawings. No HOLD.",
+   "at": "2026-11-03T19:59:49Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "",
+   "verdict": "done",
+   "comment": "LAB 42: ch12-empty-chair (the nine checked against C011's staffed number, security's chair empty, one wake with two reviewers inside, the debrief's line checked in chapter 12) and ch12-book-table (members from team/, security filled, synthetic and the developer dashed); make_cast.head takes any member's colour (the nine unchanged); slots 2 and 3 of chapter 12 and the ch9 note (42 of 54, 2 mine); LAB 42 seventeen pages; lab PDF 147 pages; letter 117; three letters to done/; debrief, status, REALITY.md; gate clean.",
+   "at": "2026-11-03T20:02:19Z"
+  },
+  "post_review": {
+   "by": "security sub-agent, as the reviewer agent; no tool refused",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Inside scope (LAB 42, lab/pdf, lab/tools, team/designer, comms/mail/designer, a mailroom copy of 117, REALITY.md appended). vault_check comms clean, no em-dashes, agents check 0 outside. Both SVGs match chapter 12: security's chair empty, the debrief quote word for word. No key, personal detail or directive text.",
+   "at": "2026-11-03T20:03:06Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent, as the reviewer agent; no tool refused",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Letters 035, 105, 133 to done/; LAB 42's two tables with make_pictures.py; letter 117 (outbox and mailroom); lab PDF, debrief, status, REALITY.md. Own paths only. Its two 'extras' were planned or needed: the figure list's note (item 3) and make_cast.head taking every colour (needed for the book's table, the nine unchanged).",
+   "at": "2026-11-03T20:03:26Z"
+  }
+ },
+ "closed": "2026-11-03T20:03:26Z",
+ "outcome": "ok"
+}

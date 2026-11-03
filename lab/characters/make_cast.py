@@ -213,7 +213,7 @@ def reviewer_figure(member=None, mood="happy"):
 
 def head(member, lit=True):
     """The head alone (the screen, the headgear), for the on-stage marker: a 40 x 27 box at scale 1."""
-    col = CAST[member][0] if lit else FILL2
+    col = COLOUR[member] if lit else FILL2
     g = (f'<rect x="10" y="10" width="20" height="16" rx="3.2" fill="{FILL if lit else PAPER}" stroke="{INK if lit else FILL2}" stroke-width="{SW * 1.6}"/>'
          + (clock_face("happy") if member == "conductor" and lit else (face("happy") if lit else ""))
          + (headgear(member, col) if member != "conductor" else line(20, 10, 20, 6.4, INK if lit else FILL2, 1.2)
