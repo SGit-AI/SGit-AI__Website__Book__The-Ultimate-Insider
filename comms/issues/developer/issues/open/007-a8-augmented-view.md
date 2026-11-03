@@ -18,3 +18,4 @@ The editor: "this online iPad PDF kind of mode application or view that has that
 - [ ] A page-by-page view, like the PDF on an iPad
 - [x] "Where this came from" as structured data, for the online editions: `review/anchors/editions.json`, published at `/review/editions.json` (4 editions, 37 chapters, every paragraph with its anchor and every record token resolved or marked unverified) (wake of 07:12 UTC, 3 November); RC1 still from parsed text
 - [x] The editions.json guard checks every address in the data, not only `url` fields: other hosts pass only as citations found in the register entry of their claim, listed in `outside_citations` and never linked on a page; QR targets get no exception (wake of 08:12 UTC, 3 November; the two today: C101's pricing pages)
+- [ ] The final address sweep allows a listed outside citation only under its own claim, not anywhere in the data (security, 08:12 UTC wake, 3 November: a small gap)
