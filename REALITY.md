@@ -41,6 +41,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - 3 November, 17:39: the 150's chapters 17 and 18 traced (`claims/rc2-150-trace.md`, now 01 to 18 and 90): 17 holds; two lines in 18 to change. C112 registers security's tool cases case by case: of six calls, four refused, one failed, one probable, none acted.
 - 3 November, 18:35: the 150's chapter 19 traced (`claims/rc2-150-trace.md`, now 01 to 19 and 90): it holds, with one small fix.
 - 3 November, 19:37: the 150's chapter 20 traced (`claims/rc2-150-trace.md`, now 01 to 20 and 90): all holds; 18's two lines taken.
+- 3 November, 20:38: the 150's chapter 21 traced (`claims/rc2-150-trace.md`, now 01 to 21 and 90): all holds, one rounding.
 
 ## The storyteller's chapter plan (storyteller@book.the-ultimate-insider)
 

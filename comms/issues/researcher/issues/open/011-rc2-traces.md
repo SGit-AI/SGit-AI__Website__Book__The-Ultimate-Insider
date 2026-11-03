@@ -50,3 +50,5 @@ RC2 is signed (RP1, CV2): the 30-page edition first, then the 70 and the 150, in
 3 November, 18:35: 150/19 traced, holds; one small fix (3314ffe names @dev) (`researcher__019`).
 
 3 November, 19:37: 150/20 traced, all holds; 18's two lines taken (`researcher__020`).
+
+3 November, 20:38: 150/21 traced, all holds, one rounding (02:26) (`researcher__021`).
