@@ -1,5 +1,5 @@
 {
- "about": "A proposal for the seventy's slots in publishing/rc2-figures.json (the publisher's file), by the designer, 3 November 2026: for every Figure and Map line of manuscript/rc2/70/<chapter> in order, the drawing where one exists (most are the thirty's again), null where the line names its own path or a screenshot or is still to draw. 'notes' says which, and who draws the rest. Written by hand; each chapter's list was checked, when written, against its count of Figure and Map lines, and every path against the disk.",
+ "about": "A proposal for the seventy's slots in publishing/rc2-figures.json (the publisher's file), by the designer, 3 November 2026, rematched at 10:00 UTC to the writer's 074 lines by each line's opening words: for every Figure and Map line of manuscript/rc2/70/<chapter> in order, the drawing where one exists (most are the thirty's again), null where the line names its own path or a screenshot or is still to draw. 'notes' says which, and who draws the rest. Written by hand; each chapter's list was checked, when written, against its count of Figure and Map lines, and every path against the disk.",
  "slots": {
   "rc2/70/01-slides-as-a-compromise.md": [
    "lab/experiments/37-designer-rc2-chapters-1-2/ch1-slide.svg",
@@ -8,10 +8,10 @@
    "lab/experiments/37-designer-rc2-chapters-1-2/ch1-loop.svg",
    null
   ],
+  "rc2/70/01b-start-here.md": [
+   null
+  ],
   "rc2/70/02-the-tour.md": [
-   null,
-   null,
-   "index/talk-site/shots/talk__slides__maps__evolution.jpg",
    null,
    "lab/experiments/42-designer-rc2-seventy/ch2-dashboard.svg",
    "lab/experiments/42-designer-rc2-seventy/ch2-wakes-page.svg",
@@ -20,7 +20,8 @@
   ],
   "rc2/70/03-one-account-one-project-one-conductor.md": [
    null,
-   null
+   null,
+   "lab/experiments/42-designer-rc2-seventy/ch3-team-pattern.svg"
   ],
   "rc2/70/04-roles-as-a-cast-you-can-read.md": [
    null,
@@ -38,13 +39,16 @@
    null
   ],
   "rc2/70/07-the-rhythm.md": [
+   "lab/experiments/42-designer-rc2-seventy/ch7-wakes-card.svg",
    "lab/experiments/38-designer-rc2-chapters-2-3/ch3-day-by-trigger.svg",
-   "lab/experiments/63-ruv-three-rounds/edition/three-rounds-drawn.svg"
+   "lab/experiments/63-ruv-three-rounds/edition/three-rounds.svg"
   ],
   "rc2/70/08-the-plumbing.md": [
    null,
+   "lab/experiments/42-designer-rc2-seventy/ch8-register-bar.svg",
    null,
-   "lab/experiments/42-designer-rc2-seventy/ch8-register-bar.svg"
+   null,
+   null
   ],
   "rc2/70/09-the-loop-and-the-port.md": [
    null,
@@ -78,14 +82,12 @@
    "lab/experiments/40-designer-rc2-chapter-5/ch5-two-cards.svg",
    "lab/experiments/40-designer-rc2-chapter-5/ch5-three-factories.svg"
   ],
-  "rc2/70/15-principles.md": [
-   "lab/experiments/42-designer-rc2-seventy/ch15-six-principles.svg"
-  ],
   "rc2/70/16-build-your-own.md": [
    "lab/experiments/62-ruv-your-factory/map.svg",
    "lab/experiments/40-designer-rc2-chapter-5/ch5-five-steps.svg",
    "lab/experiments/42-designer-rc2-seventy/ch16-checklist.svg"
-  ]
+  ],
+  "rc2/70/17-the-words-used.md": []
  },
  "notes": {
   "rc2/70/01-slides-as-a-compromise.md": [
@@ -95,19 +97,20 @@
    "4. the thirty's | **Figure:** \"A slide versus a loop\" (right half): the same idea as a c",
    "5. to draw: designer (one ask's round trip, 18:25 to 18:37, the hold at 18:44) | **Figure:** one ask's round trip drawn to the clock: my ask at 18:25, "
   ],
+  "rc2/70/01b-start-here.md": [
+   "1. to draw: designer (this page as one printable sheet, the five steps with a box each) | **Figure:** this page as one printable sheet: the five steps, a box be"
+  ],
   "rc2/70/02-the-tour.md": [
    "1. names its own screenshots | **Figure:** the talk's index page, and its player open on a slide: the",
-   "2. names its own screenshot | **Figure:** one of ruv-sgit's animations, \"mandate and grant\", beside ",
-   "3. set by the publisher (publisher__024) | **Figure:** the storyteller's map slide: the pioneers, settlers and to",
-   "4. names its own screenshots | **Figure:** the studio's index and its lab: several versions of one sl",
-   "5. new, LAB 42 | **Figure:** the team's dashboard, drawn: a clock, the hold, what waits",
-   "6. new, LAB 42 | **Figure:** the wakes page: each member's wakes, newest first, with th",
-   "7. new, LAB 42 | **Figure:** one member's page, deck's: its role, its policy in prose, ",
-   "8. new, LAB 42 | **Figure:** the site as a building, one floor per kind of page: the ta"
+   "2. new, LAB 42 | **Figure:** the team's dashboard, drawn: a clock, the hold, what waits",
+   "3. new, LAB 42 | **Figure:** the wakes page: each member's wakes, newest first, with th",
+   "4. new, LAB 42 | **Figure:** one member's page, deck's: its role, its policy in prose, ",
+   "5. new, LAB 42 | **Figure:** the site as a building, one floor per kind of page: the ta"
   ],
   "rc2/70/03-one-account-one-project-one-conductor.md": [
    "1. to draw: designer (the first page of rules as a card) | **Figure:** the first page of rules as a card, each line with a small ",
-   "2. to draw: designer (the first two hours as a stack of files) | **Figure:** the project's first two hours as a stack of files appearin"
+   "2. to draw: designer (the first two hours as a stack of files) | **Figure:** the project's first two hours as a stack of files appearin",
+   "3. new, LAB 42 | **Figure:** a card, the team pattern: one brief, one board, one hold, "
   ],
   "rc2/70/04-roles-as-a-cast-you-can-read.md": [
    "1. to draw: designer (three greyed cards) | **Figure:** three greyed cards: the storyteller, the talk's story, the",
@@ -125,13 +128,16 @@
    "3. to draw: designer (two commits as cards) | **Figure:** two commits as cards, each with its \"To-\" line highlighted"
   ],
   "rc2/70/07-the-rhythm.md": [
-   "1. the thirty's | **Figure:** the day by trigger, hour by hour, in two colours: the sche",
-   "2. set by the publisher (publisher__024) | **Figure:** one picture's three rounds side by side: the first sent ba"
+   "1. new, LAB 42 | **Figure:** a card, the day's wakes by trigger: 162 wakes; 105 started",
+   "2. the thirty's | **Figure:** the day by trigger, hour by hour, in two colours: the sche",
+   "3. set by the publisher | **Figure:** one picture's three rounds side by side: the first sent ba"
   ],
   "rc2/70/08-the-plumbing.md": [
    "1. to draw: designer (the plumbing as a building's services) | **Figure:** the plumbing as a building's services: the site, the check",
-   "2. to draw: designer (one row of the release history) | **Figure:** one row of the release history, drawn: a release number, i",
-   "3. new, LAB 42 | **Figure:** the talk's register as a stacked bar: held, held in part, "
+   "2. new, LAB 42 | **Figure:** the talk's register as a stacked bar: held, held in part, ",
+   "3. to draw: designer (a card, what the check looked at that first night) | **Figure:** a card, what the check looked at that first night: every l",
+   "4. to draw: designer (one row of the release history) | **Figure:** one row of the release history, drawn: a release number, i",
+   "5. to draw: designer (a card, the brief's two companions) | **Figure:** a card, the brief's two companions: the reality file, kept"
   ],
   "rc2/70/09-the-loop-and-the-port.md": [
    "1. names its own screenshot | **Figure:** the player as I used it on stage: a slide mid-animation, t",
@@ -149,7 +155,7 @@
   "rc2/70/11-what-did-not-work.md": [
    "1. the thirty's | **Figure:** three speech cards from the same figure, the editor, each ",
    "2. names its own path (ruv-sgit's strip) | **Figure:** ruv-sgit's strip, the researcher interviewing deck about t",
-   "3. the thirty's | **Figure:** a \"what did not work\" card per miss, each with its id in s"
+   "3. the thirty's five cards for now (the publisher's choice); each with its cost in a line: to redraw, designer | **Figure:** the five misses as five cards on one page, each with its c"
   ],
   "rc2/70/12-how-do-we-contain-this.md": [
    "1. new, LAB 42 | **Figure:** the day as a small state machine: running, held, released.",
@@ -165,13 +171,11 @@
    "2. the thirty's | **Figure:** two cards from this book's record: \"the brake was made tha",
    "3. the thirty's | **Figure:** three people, each with their own small factory, joined in"
   ],
-  "rc2/70/15-principles.md": [
-   "1. new, LAB 42 | **Figure:** the six principles as six cards in a row, each with the ti"
-  ],
   "rc2/70/16-build-your-own.md": [
    "1. ruv-sgit's, as in the thirty | **Map:** one project's parts becoming the next one's: the talk team's ",
    "2. the thirty's | **Figure:** the five steps as a path, from an empty project to a secon",
    "3. new, LAB 42 | **Figure:** the checklist as a single page, each line with a box to ti"
-  ]
+  ],
+  "rc2/70/17-the-words-used.md": []
  }
 }
