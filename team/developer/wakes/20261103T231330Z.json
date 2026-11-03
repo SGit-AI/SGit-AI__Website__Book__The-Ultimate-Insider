@@ -31,8 +31,15 @@
    "verdict": "as-planned",
    "comment": "Everything planned in e20d5d2d, on dev; every paragraph mapped; no inline editor's note on a full-book page; conditions kept; gate clean (846), 0 outside scope; nothing unplanned.",
    "at": "2026-11-03T23:16:37Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (post_review brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; none refused; wrote no file",
+   "model": "",
+   "verdict": "clean",
+   "comment": "e20d5d2d clean: generated output and the developer's own files only; no tool, manuscript/ or publishing/ change; 0 outside scope; no %% or inline editor's note added; links only to github.com/SGit-AI and the book; the new QR target on the book's domain; gate clean (846). C101's register citations as text, unchanged since fea0049b.",
+   "at": "2026-11-03T23:17:07Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T23:17:07Z",
+ "outcome": "ok"
 }
