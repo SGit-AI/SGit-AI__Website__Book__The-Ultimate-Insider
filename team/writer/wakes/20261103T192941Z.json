@@ -31,8 +31,15 @@
    "verdict": "finding",
    "comment": "Minor finding: 21's band gave the brief's own 00:15, a time the register does not hold; now 'just after midnight', as the register's trace supports. Otherwise clean on every rail: no id or fingerprint, security at mission level, the brief quoted as written with no figure, his words only, the third failure a note only, this book's record marked. Ran as the reviewer agent; build.py not run.",
    "at": "2026-11-03T19:36:56Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "as-planned",
+   "comment": "All four items done; corrections released before 21; quotes match the keep-the-pace brief and the conductor's brief; the third failure held; letters identical; records dated before their commit. Note taken: the team's counts out of 21's prose and figure brief. Ran as the reviewer agent.",
+   "at": "2026-11-03T19:38:50Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T19:38:50Z",
+ "outcome": "ok"
 }

@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T19:36:28Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "No hold. writer__127 asks 150/20 against C089; 18 already carries both wordings and C112. Trace, reply researcher__020, file both letters, board, debrief, REALITY, status. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-03T19:36:58Z"
+  },
+  "pre_review": {
+   "by": "security pre-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "All writes in scope; no manuscript edit; no secrets. Conditions: reply copied to the outbox; vault_check comms before commit. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-03T19:36:58Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "150/20 traced against C089, the storyteller's handover and 298be4e: all holds. 18's two wordings checked. Reply researcher__020; writer__127 and security__001 filed; board, debrief, REALITY, status.",
+   "at": "2026-11-03T19:37:44Z"
+  },
+  "post_review": {
+   "by": "security post-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "10 files in scope plus a REALITY append; no key, fingerprint, session id, contact detail, attack-shaped text, religious word or em-dash. Handover line 3 matches word for word; line 8 quoted without its session and key. vault_check comms clean. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-03T19:39:23Z"
+  },
+  "post_check": {
+   "by": "conductor post-check step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Trace, reply researcher__020 (mailroom and outbox identical), both letters filed, board, debrief, REALITY, status. vault_check clean; that it ran before the commit rests on the member's word. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-03T19:39:23Z"
+  }
+ },
+ "closed": "2026-11-03T19:39:23Z",
+ "outcome": "ok"
+}
