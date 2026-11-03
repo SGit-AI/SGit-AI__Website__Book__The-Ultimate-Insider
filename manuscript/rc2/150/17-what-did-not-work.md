@@ -94,7 +94,7 @@ Band: *Dramatised (the researcher's line, on its reconstructed interview's own l
 
 *What it cost:* a vault key in one session's own log, and a rotation. *Whose record:* the conductor's debrief.
 
-**Narrator.** The conductor, checking a format, printed a vault key into its own session log. It rotated the key at once and said so in its debrief. The old vault was never confirmed deleted. It is the conductor's own worst moment, by its own record, and it stays in.
+**Narrator.** The conductor, checking a format, printed a vault key into its own session log. It rotated the key at once and said so in its debrief. It is the conductor's own worst moment, by its own record, and it stays in.
 
 **Conductor** *(worried, then procedural)*: I printed what I should not have. I rotated it, and I wrote it down.
 
