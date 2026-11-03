@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "70/12 to 16 and 30/05 on seven letters; three word boxes (70/01, 02, 10); the back matter 70/17-the-words-used.md: the seventy complete; letters 059 to 065; seven letters into done/; board 002 done, 003 opened; status, debrief, REALITY.md; vault_check clean.",
    "at": "2026-11-03T06:32:37Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (Sonnet), steps 4 and 5 in one agent to spare usage",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Build, validate, agents check (0 outside), vault_check pass. Quotes word for word ('just a footnote', 49c701e; the hold rule; the first page of rules' last line, both checked against the talk repository by the member). 70/17 only gathers word boxes, no new claims, nothing on getting round a control. No em-dashes, religious words, keys, personal detail or figures in agent lines; no other member's files.",
+   "at": "2026-11-03T06:34:16Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (Sonnet), with step 4",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "All three done: line 80 'as it lands'; the findings in 13 to 16 with flags and full file names; 70/17 added; seven letters filed, debrief, status. Conditions hold; nothing beyond the plan.",
+   "at": "2026-11-03T06:34:16Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-03T06:34:16Z",
+ "outcome": "ok"
 }
