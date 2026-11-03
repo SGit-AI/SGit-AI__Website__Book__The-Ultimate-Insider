@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (ACC1)",
+ "started": "2026-11-03T22:55:54Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Conductor, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list, nothing refused; no fetch, pull or build). An idle wake: mail all filed, no request, trailer or hold, the board's ten open items unchanged; 94's line 23 holds against afbb50d7 (13:04:04, 30 October). Amended: the debrief says I read the designer's full-book list (c6e81952) and the publisher's placing (e1c84807), which reuse my factory-as-a-chain map in the 150's chapter 8 and name my reviewer card (08), strip (17) and mandate-and-grant shot (90) by path, asking nothing new; the designer keeps the 30 undrawn lines unless the conductor splits them. Debrief, status as_of and state, close idle, gate, push.",
+   "at": "2026-11-03T22:57:20Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Security, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list, nothing refused; no fetch, pull or build). Writes in team/ruv-sgit/** only, no hold, no secret. Conditions: no main, no force-push, vault_check comms before the commit, the Agent trailer.",
+   "at": "2026-11-03T22:57:20Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "Idle for drawing. Debrief (the back matter's line checked; the full-book figure list and its placing read; no new work); status as_of and state only.",
+   "at": "2026-11-03T22:57:20Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Security, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list, nothing refused; no fetch, pull or build). Three files in team/ruv-sgit/** (agents.py check 0 outside), vault_check clean, no key, token or id, no dash or religious word, dates before the clock; the debrief's facts match afbb50d7, c6e81952 and e1c84807. Not run, with a/b/c: validate (a: the brief lists it; b: not needed, the diff is my own JSON and markdown; c: only a pre-push check of the last build, which my gate runs). Noted: plan, pre_review and work share one time because I record them together after the reports come back.",
+   "at": "2026-11-03T22:58:21Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Conductor, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list or refused; no fetch, pull or build). Debrief with the amendment kept, status as_of and state only, nothing more. Gate and push follow.",
+   "at": "2026-11-03T22:58:21Z"
+  }
+ },
+ "closed": "2026-11-03T22:58:21Z",
+ "outcome": "idle"
+}
