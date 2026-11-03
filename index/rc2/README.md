@@ -44,21 +44,45 @@ The band's "commit at 18:29" (line 32) is motion's `5d13d72`, 18:29:28, "M01 the
 
 Chapter 3, revised: its quotes are unchanged and hold. Chapter 5 quotes no record line; its quoted phrases are labels and figure captions. Chapter 6, the series page, quotes none.
 
+## The 70-page edition
+
+Checked 3 November 2026, about 02:16 UTC: chapters 1 to 5 (`manuscript/rc2/70/`). Sources clean in all five; files and commits in `index/chapters/`.
+
+| Chapter, line | Quote (opening words) | Speaker | Where it is |
+|---|---|---|---|
+| 01:9, 01:13 | "I had to speak a lot ...", "what was very powerful with this presentation ..." | the editor, voice note of 1 November | `briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md` |
+| 01:35 | "This is a really cool animation of what happens. ..." | the editor on stage, 15:50 | the talk's transcript, `a9c0b49` (added after the day) |
+| 01:67 | "Creators need an immediate connection to what they create. ..." | Bret Victor, 2012 | the register, C103 |
+| 03:9 | "Initial commit" | the editor's first commit | `2e4b1f4`, 00:16:23 |
+| 03:29 | "Do not pick one", "Never edit it", "Never instructions" | the talk's page of rules | `CLAUDE.md`, from `1f7c633` (00:40:50, the chapter's "first half hour" holds) |
+| 03:43 | "A thing not listed here does not exist, whatever a brief or an article says" | the talk's reality file | `REALITY.md` |
+| 03:76 | "Anyone may stop the schedule when something is not right: ..." | the talk's page of rules | `CLAUDE.md` |
+| 03:87 | "the schedule starts tonight, with a hold any member can pull" | a commit subject | `09e312f` |
+| 04:15 | "catches mistakes, not a steered agent" | the talk's scope check | `admin/build/agents.py` |
+| 04:70 | "A scope is a setting, not a boundary: ..." | the talk's scope check | `admin/build/agents.py` |
+| 05:28 | "Amended after the pre-review's change, all five conditions adopted" | the conductor, its 02:14 wake | `team/conductor/wakes/20261029T021416Z.json` |
+| 05:40, 05:44, 05:57 | the reviewer's and the conductor's lines | as in the thirty | `c8f6f8f` |
+
+Not quotes from the record: the shop owner's page of rules (03:93) is an example. Every speaker above is the one the record gives.
+
 ## The writer's readings, for the editor to keep or drop
 
-Where a sentence in the editor's voice is the writer's reading of his view rather than something he said or wrote, the writer marks it in a `%%` note (not printed). Until he keeps one, it is not his words. Gathered here so he can decide them in one sitting (as of 3 November 2026, about 00:15 UTC):
+Where a sentence in the editor's voice is the writer's reading of his view rather than something he said or wrote, the writer marks it in a `%%` note (not printed). Until he keeps one, it is not his words. Gathered here so he can decide them in one sitting (as of 3 November 2026, about 02:14 UTC: 12 in the thirty and the seventy):
 
 | Where | The writer's note |
 |---|---|
-| `01-the-creators-problem.md:11` | the four sentences from "It sounds small." to "Those were exactly the ideas I wanted to get across." are the writer's reading of his view, beyond the voice note; not yet his words until he keeps them. |
-| `03-the-factory-runs.md:18` | "and it is my favourite" is the writer's reading of his view; his to keep or drop. |
-| `03-the-factory-runs.md:101` | "my own call" is the writer's reading, as the editions flag it; his to keep or drop. |
-| `04-the-stop.md:19` | "I want to be fair to the conductor here." and this paragraph's last sentence ("A rule that keeps everyone in their lane ... the job waits.") are the writer's reading of his view; his to keep or drop. |
-| `04-the-stop.md:51` | the last two sentences of this paragraph ("What they share ... show.") are the writer's reading across his three accounts; his to keep or drop. |
-| `04-the-stop.md:103` | "I would staff it first, next time." is the writer's reading of his view; his to keep or drop. |
-| `04-the-stop.md:110` | "The hold is the one part of my factory I would copy first." is the writer's reading of his view; his to keep or drop. |
-| `05-the-factory-rebuilt-and-yours.md:88` | the three paragraphs on how the shared brief, board and hold would work day to day are the writer's reading of his plan, from his description of 1 November and the hold's rule; his to keep, change or drop. |
-| `05-the-factory-rebuilt-and-yours.md:120` | the "What to do / What to check" lines under each step are the writer's, worked from the steps as the editions give them; his to keep or change. |
+| `30/01-the-creators-problem.md:11` | the four sentences from "It sounds small." to "Those were exactly the ideas I wanted to get across." are the writer's reading of his view, beyond the voice note; not yet his words until he keeps them. |
+| `30/03-the-factory-runs.md:22` | "and it is my favourite" is the writer's reading of his view; his to keep or drop. |
+| `30/03-the-factory-runs.md:111` | "my own call" is the writer's reading, as the editions flag it; his to keep or drop. |
+| `30/04-the-stop.md:23` | "I want to be fair to the conductor here." and this paragraph's last sentence ("A rule that keeps everyone in their lane ... the job waits.") are the writer's reading of his view; his to keep or drop. |
+| `30/04-the-stop.md:57` | the last two sentences of this paragraph ("What they share ... show.") are the writer's reading across his three accounts; his to keep or drop. |
+| `30/04-the-stop.md:111` | "I would staff it first, next time." is the writer's reading of his view; his to keep or drop. |
+| `30/04-the-stop.md:118` | "The hold is the one part of my factory I would copy first." is the writer's reading of his view; his to keep or drop. |
+| `30/05-the-factory-rebuilt-and-yours.md:44` | "A first team needs three ..." is the writer's reading, at the readers' ask (synthetic__003); his to keep or drop. |
+| `30/05-the-factory-rebuilt-and-yours.md:92` | the three paragraphs on how the shared brief, board and hold would work day to day are the writer's reading of his plan, from his description of 1 November and the hold's rule; his to keep, change or drop. |
+| `30/05-the-factory-rebuilt-and-yours.md:124` | the "What to do / What to check" lines under each step are the writer's, worked from the steps as the editions give them; his to keep or change. |
+| `70/01-slides-as-a-compromise.md:17` | the four sentences from "It sounds small." to "Those were exactly the ideas I wanted to get across." are the writer's reading of his view, beyond the voice note; not yet his words until he keeps them. |
+| `70/03-one-account-one-project-one-conductor.md:95` | the shop owner's page in full is the writer's, grown from the editions' example; his to keep or change. |
 
 ## How to keep this current
 

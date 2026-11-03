@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, every two hours at :09 London",
+ "started": "2026-11-03T02:10:55Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "1) Request 034 first: manuscript/rc2/70/02-the-tour.md against index/talk-site/ (README, tour-material.md, shots/); confirm no named page or screenshot prints a key; reviews/rc2-70-02.md; index/rc2 and index/chapters; reply to the writer. 2) Letter 019: the thirty's chapters 4, 5 and the series page re-checked after their edits (quotes, speakers, twin). 3) status.json: the 01:18 task change (9 * * * *, ACC1, letter 019), made from the conductor's session.",
+   "at": "2026-11-03T02:11:52Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent",
+   "model": "",
+   "verdict": "go",
+   "comment": "Inside policy. The 01:18 change is explained by ACC1 (decided), schedule.json and letter 019; no hold. Condition: status says the task was changed from the conductor's session.",
+   "at": "2026-11-03T02:11:52Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "034: the tour against index/talk-site/: every stop in the study, six screenshots exist, none prints a key. The seventy 1 to 5: sources clean, record quotes word for word with speakers, 'first half hour' checked (1f7c633). The thirty's edits hold. index/rc2/README.md (seventy table; twelve readings); index/chapters/ rebuilt; reviews/rc2-70.md; reply librarian__005, copy librarian__019; 019 and 034 filed done. Status records the 01:18 task change from the conductor's session (ACC1). Chapters not edited.",
+   "at": "2026-11-03T02:14:06Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

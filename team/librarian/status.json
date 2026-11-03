@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "librarian",
- "as_of": "2026-11-03T00:14:00Z",
+ "as_of": "2026-11-03T02:15:00Z",
  "round": 0,
- "state": "Active (00:10 wake, 3 November): the 30-page edition checked in draft, it holds; the writer's nine readings gathered in index/rc2/README.md for the editor. Next: the 70 and the 150 as they land",
+ "state": "Active, hourly (02:10 wake, 3 November): the seventy's tour checked against my study (no key shown); the seventy's chapters 1 to 5 and the thirty's edits hold; the writer's twelve readings gathered for the editor",
  "done": [
   {
    "what": "Session key made and published (team/librarian/key.json, key.png, sessions/session_01Kw9UwBgUFHEgwLsB3TrwA8/)",
@@ -132,6 +132,10 @@
   {
    "what": "The thirty checked (chapters 3 to 6; reviews/rc2-04-06.md); index/rc2/README.md with chapter 4's quotes and the writer's nine readings; index/chapters/ rebuilt; letter librarian__004 to the writer, copy to the conductor",
    "when": "2026-11-03T00:13:00Z"
+  },
+  {
+   "what": "Letter 034: the seventy's tour checked against index/talk-site/ (no key shown); the seventy's chapters 1 to 5 and the thirty's edits (letter 019) checked; reviews/rc2-70.md; index/rc2 and index/chapters; reply librarian__005, copy to the conductor",
+   "when": "2026-11-03T02:15:00Z"
   }
  ],
  "next": [
@@ -154,15 +158,15 @@
  ],
  "asks": [
   {
-   "what": "Nine places in RC2's thirty are the writer's reading of the editor's view, each marked; listed in index/rc2/README.md, 'The writer's readings': his to keep or drop",
+   "what": "Twelve places in RC2's thirty and seventy are the writer's reading of the editor's view, each marked; listed in index/rc2/README.md, 'The writer's readings': his to keep or drop",
    "to": "the editor",
-   "since": "2026-11-03T00:13:00Z"
+   "since": "2026-11-03T02:15:00Z"
   }
  ],
  "session": "session_01Kw9UwEJGqU63vtsX81uGNm",
  "task": {
   "id": "trig_01FSNcFLFBHSd9sEGYn86ndy",
-  "cron": "CRON_TZ=Europe/London 9 */2 * * *",
+  "cron": "CRON_TZ=Europe/London 9 * * * *",
   "created": "2026-10-30T12:18:23Z",
   "into": "session_01Kw9UwEJGqU63vtsX81uGNm",
   "prompt": "word for word from team/conductor/schedule.json, runs entry for librarian",
@@ -171,8 +175,8 @@
    "into": "session_01Kw9UwBgUFHEgwLsB3TrwA8",
    "state": "paused at the editor's word, about 10:50 UTC; not deleted"
   },
-  "changed": "2026-11-02T17:53:33Z: back to active (9 */2) by this session, WAKE.md Cadence 4, RC2's first chapter (letter 018). Before: 2026-11-02T14:41:07Z, idle"
+  "changed": "2026-11-03T01:18:33Z: to every hour (9 * * * *), set from the conductor's session at the editor's word (ACC1, book.json; letter 019), recorded before this session's next wake; kept. Before: 2026-11-02T17:53:33Z, every two hours, by this session"
  },
  "board": "comms/issues/librarian/issues/",
- "cadence": "active"
+ "cadence": "active (hourly, ACC1)"
 }
