@@ -72,9 +72,41 @@ researcher@book.the-ultimate-insider. Each chapter of `manuscript/rc2/30/` as th
 | R5 "soon after the storyteller arrived" (14:33, 15:02) | holds | `2726f0e`, `b208a16` |
 | Studio's refusal, 17:41 to 17:47; "Studio's last debrief of the day still has my confirmation open" | holds | the wake `20261029T174115Z.json`; studio's last commit of the day (`040233f`, 18:34) still lists "the editor's confirmation of studio's policy" as open |
 
+## Chapter 4, "The stop" (3 November 2026, the 00:32 wake)
+
+**In short:** every figure and quote holds. "None of those three was said on stage" holds as written, and the transcript confirms it.
+
+| Line | Holds? | Why |
+|---|---|---|
+| The conductor's "Leave the lock to dev", then "lock it now" | holds | the wake of 18:36; `2ed6427`, 18:39 |
+| "Dev had built a tool for that late in the afternoon" | holds | `4a2481b`, 17:54, with the trailer `Agent: dev@the-ultimate-insider` (the subject has no `@dev`; the trailer settles it) |
+| The player's last fix at 18:37, in a wake never closed; the lock never turned | holds | C028, C088, C027 |
+| The hold, 18:44, his words; "sixteen minutes before the talk was due" | holds | C006, `team/conductor/HOLD.md`; C100 |
+| "a little over a minute later"; "two minutes after the hold" | holds | 82 seconds (C065); 18:46:22, 2 min 9 s (C005) |
+| The three accounts, and their dates | holds | C089, each dated as its source; "two days later" is the early hours of 31 October |
+| "Only the first part was ever finished"; the second and third in progress at the hold | holds | C027 |
+| The freeze, the correction five minutes later, the figure on a slide | holds | C031 (02:47, 02:52) |
+| "Most held. Three did not, and none of those three was said on stage." | holds | C029: 210 of 320 held whole; C030: three did not, none in the talk. The transcript (`a9c0b49`) names Amazon Q once, about a different point ("unsuccessful only because of the syntax"), and never the claim that did not hold ("two days" live). Neither of the other two appears |
+| Security's page of rules: a hold and secrets, the key tool and each key, report and never fix; never agreed; no session | holds | `team/security/ROLE.md` at `298be4e` ("proposed"); C072; C011 |
+| "from the small hours, a security reviewer ran inside every member's own wake" | holds as the rule | C022: 160 of 162 wake records with all five steps |
+
+## Chapter 5, "The factory rebuilt, and yours" (3 November 2026, the 00:32 wake)
+
+**In short:** the cost line is word for word (C101, C037), and the two scenes hold, except for one clock.
+
+| Line | Holds? | Why |
+|---|---|---|
+| The cost line | holds | C101 and C037, word for word as the editions give it |
+| The second factory "the next day", its members | holds | this repository from 30 October; `team/` holds every member named, security among them |
+| Scene 1: the brake refused and corrected | holds | `fde3fea` (2 November, 18:37) and the letter `researcher__002` to the writer; the storyteller's 064 |
+| Scene 2: "every wake ended in seconds" | holds | brief 34 (`team/conductor/editor-briefs/2026-11-02T0015Z.json`): "each wake ended in seconds with 'usage_limit_reached'" |
+| **"nothing moved until the next morning"** | **not quite** | the last commit before the limit was 16:22 on 1 November; the next were at 00:06 on 2 November (`9395328`), and the editor's "Keep the current pace" was about 00:35 (`briefs/2026-11-02__in-session/01-keep-the-pace.md`). Say "until just after midnight" |
+| "I said to keep the pace" | holds | the same brief: "Keep the current pace which is good" |
+| The Web Summit team, "a plan, not yet run" | holds | as in the editions |
+
 ## The same line in the editions (my miss)
 
-The 3-page edition, page 1 ("None of it was new. Each piece came from something I had built before") and the 10-page edition, page 2 ("The build, the check, the brief, the hold: each piece came from something I had built before") make the same claim. I passed both on 2 November (`claims/editions-03-10-trace.md`) without checking it against the lineage. The 10-page line names the hold, so it does not hold. The 3-page line is general, and fails for the same reason. Reported to the storyteller and the publisher (`researcher__008`).
+The 3-page edition, page 1 ("None of it was new. Each piece came from something I had built before") and the 10-page edition, page 2 ("The build, the check, the brief, the hold: each piece came from something I had built before") make the same claim. I passed both on 2 November (`claims/editions-03-10-trace.md`) without checking it against the lineage. The 10-page line names the hold, so it does not hold. The 3-page line is general, and fails for the same reason. Reported to the storyteller and the publisher (`researcher__008`). Fixed in both built editions by 3 November, 00:35 (`8a1cfa3`).
 
 ## Where this came from
 

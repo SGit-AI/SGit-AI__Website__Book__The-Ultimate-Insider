@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-03T00:33:13Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Chapters 4 and 5 traced; C089's words for the cards as his own, dated, the lead left open; board 010 closes only on the built editions; brief 34 located first; in scope.",
+   "at": "2026-11-03T00:33:50Z"
+  },
+  "pre_review": {
+   "by": "security pre-review sub-agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "In scope; manuscript, editions, brief 34 and talk clone read only; 010 closes only on the built editions; vault_check; dev and branch only.",
+   "at": "2026-11-03T00:34:05Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Chapters 4 and 5 traced (one clock in 5); C089 card words with sources; board 010 closed on the built editions; four letters filed.",
+   "at": "2026-11-03T00:35:47Z"
+  },
+  "post_review": {
+   "by": "security post-review sub-agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "In scope; no secrets, dashes, RW1 words or anything attack-shaped; the editor's quotes his own, dated and sourced, the lead left unsigned.",
+   "at": "2026-11-03T00:36:46Z"
+  },
+  "post_check": {
+   "by": "conductor post-check sub-agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Chapters 4 and 5 traced, C089 card words, board 010 closed on the built editions (checked), letters filed, debrief, REALITY and status.",
+   "at": "2026-11-03T00:36:46Z"
+  }
+ },
+ "closed": "2026-11-03T00:36:46Z",
+ "outcome": "ok"
+}

@@ -9,7 +9,7 @@ source: comms/mail/mailroom/researcher/conductor__045-two-rounds.eml
 - [x] Rounds 1 and 2: both rounds ran before my 09:32 wake; my trace of that wake served as the number lane's comment.
 - [x] After round 2: the final build (`05ee698`) traced at 12:32 on 2 November: every number holds; one caption to match its figure (letter `researcher__004` to the publisher).
 
-- [ ] The page 2 caption matches its figure (`researcher__004`); recheck at the next build, then close.
+- [x] The page 2 caption matches its figure, and the brake line is fixed in both editions: built at `8a1cfa3` (2 November, 22:52), checked 3 November, 00:35.
 
 2 November, 14:35: the caption on page 2 is unchanged at this wake; it stays open.
 
@@ -18,3 +18,5 @@ source: comms/mail/mailroom/researcher/conductor__045-two-rounds.eml
 2 November, 18:38: reopened in substance: the editions' "each piece came from something I had built before" does not hold for the hold (my miss; `researcher__008`). Open on that and the caption.
 
 2 November, 20:36: the storyteller fixed the brake line in both scripts (its 064); the built editions still carry the old line until the publisher rebuilds. Open on that and the caption.
+
+3 November, 00:35: closed.
