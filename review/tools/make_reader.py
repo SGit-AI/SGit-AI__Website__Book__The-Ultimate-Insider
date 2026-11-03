@@ -5,14 +5,14 @@
 # point at the same words. Only what is verified gets a link: a hash or path is looked up in this repository and in a
 # read-only clone of the talk's repository (pass its path); one found in neither, or a path found in both with nothing in
 # the paragraph to say which, stays plain text. The page makes no request to another host: links load nothing until clicked.
-# Writes only src/pages/review/read/ and review/anchors/rc1-provenance.json (every anchor's sources, as data). Kept by developer@book.the-ultimate-insider.
+# Writes only src/pages/review/read/, review/anchors/rc1-provenance.json, review/anchors/rc1-book.json (and its copy in src/static/review/) (every anchor's sources, as data). Kept by developer@book.the-ultimate-insider.
 # Run: python3 review/tools/make_reader.py <path to a clone of SGit-AI__Website__Presentation__The-Ultimate-Insider>
 
 import html, json, re, subprocess, sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from make_review import ROOT, Markdown, anchored                    # noqa: E402
+from make_review import ROOT, Markdown, anchored, plain                   # noqa: E402
 
 RC1    = ROOT / 'team' / 'conductor' / 'rc1'
 OUT    = ROOT / 'src' / 'pages' / 'review' / 'read'
@@ -134,18 +134,21 @@ def main(talk_path):
     order = [l.strip() for l in (ROOT / 'manuscript' / 'Book.txt').read_text().splitlines() if l.strip() and not l.startswith('#')]
     files = [f for f in order if (RC1 / f).exists()]
     OUT.mkdir(parents=True, exist_ok=True)
-    toc, total, provenance = [], 0, {}
+    toc, total, provenance, book_data = [], 0, {}, []
     for i, f in enumerate(files):
         text = (RC1 / f).read_text()
         title = re.match(r'# (.*)', text).group(1)
         ch = f.split('-')[0]
         body = re.sub(r'\]\(resources/', '](../../book/resources/', text.split('\n', 1)[1])
         out, used, n_ch = [], {}, 0
+        book_data.append({'file': f, 'title': title, 'paragraphs': []})
 
-        def keep(tag, srcs):                                        # the anchor's sources, as data
+        def keep(tag, srcs, frag=''):                               # the anchor's sources, as data; and every paragraph, for rc1-book.json
             aid = re.search(r'data-a="([^"]+)"', tag)
             if aid and srcs:
                 provenance[aid.group(1)] = {'chapter': f, 'sources': srcs}
+            if aid:
+                book_data[-1]['paragraphs'].append({'id': aid.group(1), 'text': plain(frag), 'sources': list(srcs)})
         for line in anchored(Markdown().to_html(body), ch, {}, [], f).split('\n'):
             m = re.match(r'(<(p|blockquote|li|div)[^>]*data-a="[^"]+"[^>]*>)(.*)$', line)
             if m or line.startswith(('<ul>', '<ol>')):
@@ -154,14 +157,14 @@ def main(talk_path):
                         nonlocal n_ch
                         srcs = []
                         inner, k = augment(mm.group(2), book, talk, claims, used, ch, srcs)
-                        keep(mm.group(1), srcs)
+                        keep(mm.group(1), srcs, mm.group(2))
                         n_ch += k
                         return f'<li{mm.group(1)}{f" data-pv={chr(34)}{k}{chr(34)}" if k else ""}>{inner}</li>'
                     line = re.sub(r'<li([^>]*)>(.*?)</li>', li, line)
                 else:
                     srcs = []
                     inner, k = augment(m.group(3), book, talk, claims, used, ch, srcs)
-                    keep(m.group(1), srcs)
+                    keep(m.group(1), srcs, m.group(3))
                     n_ch += k
                     line = m.group(1)[:-1] + (f' data-pv="{k}"' if k else '') + '>' + inner
             out.append(line)
@@ -192,7 +195,7 @@ def main(talk_path):
 <p class="note">{total} sources linked across {len(files)} chapters. Only what was found is linked: a hash or path looked up in this repository and in the talk's at <code>{TALK_AT}</code>; anything found in neither stays plain text. Nothing loads from GitHub until you click.</p>
 <ol>{"".join(toc)}</ol>
 <p><a href="sources.html">What rests on what</a>: every number and commit, with the paragraphs that rest on it.</p>\n<p><a href="graph.html">Whose work each chapter rests on</a>: the commits each chapter cites, by the member who made them.</p>\n<p><a href="wakes.html">The wakes behind each chapter</a>: the hourly wakes that made the commits each chapter cites, with their five verdicts.</p>\n<p><a href="decisions.html">The decisions behind each chapter</a>: the editor\'s decisions each chapter names, with their status.</p>
-<p class="note">Made by <code>review/tools/make_reader.py</code> from <code>team/conductor/rc1/</code> and <code>claims/register.json</code>. Also: the editions page by page, QR targets and the data (<a href="../zoom.html">the zoom</a>). The graph is drawn on its page.</p>
+<p class="note">Made by <code>review/tools/make_reader.py</code> from <code>team/conductor/rc1/</code> and <code>claims/register.json</code>. As data: <a href="{{{{root}}}}review/rc1-book.json">rc1-book.json</a>, every chapter, paragraph and source. Also: the editions page by page, QR targets and their data (<a href="../zoom.html">the zoom</a>). The graph is drawn on its page.</p>
 </section>
 '''
     (OUT / 'index.html').write_text(index)
@@ -203,7 +206,63 @@ def main(talk_path):
     (ROOT / 'review' / 'anchors' / 'rc1-provenance.json').write_text(json.dumps(data, indent=1, ensure_ascii=False) + '\n')
     (OUT / 'sources.html').write_text(sources_page(provenance, claims, files))
     (OUT / 'graph.html').write_text(graph_page(provenance, files, talk))
+    write_book_data(book_data, book, talk, claims)
     print(f'reader: {total} sources in {len(files)} chapters')
+
+
+ADDR = re.compile(r'https?://[^\s"<>\'`()\\]+')                  # the guards, as make_editions.py reads addresses
+HOSTS = re.compile(r'https://(github\.com/SGit-AI/|the-ultimate-insider\.book\.sgit\.ai/)')
+SITE = 'https://the-ultimate-insider.book.sgit.ai'
+
+
+def addresses(text):
+    return {a.rstrip('.,;:!?') for a in ADDR.findall(text)}
+
+
+def write_book_data(chapters, book, talk, claims):
+    """RC1 as data (the editor: "the content of the entire book should be in JSON"): each chapter, its paragraphs in order with their
+    anchors and words, and the sources each rests on, resolved. Register text may cite other hosts: those are listed in
+    outside_citations under their claim, never links; anything else off the two hosts, or a %% line, stops the write."""
+    outside, out = [], []
+    for c in chapters:
+        paras = []
+        for p in c['paragraphs']:
+            srcs = []
+            for s in p['sources']:
+                if 'claim' in s:
+                    cl = claims.get(s['claim'], {})
+                    srcs.append({'kind': 'claim', 'id': s['claim'], 'claim': cl.get('claim'), 'value': cl.get('value'), 'state': cl.get('state')})
+                    for a in sorted(addresses(json.dumps({k: cl.get(k) for k in ('claim', 'value')}, ensure_ascii=False))):
+                        if not HOSTS.match(a) and {'address': a, 'claim': s['claim']} not in outside:
+                            outside.append({'address': a, 'claim': s['claim']})
+                else:
+                    repo = book if s.get('repository') == 'book' else talk
+                    kind = 'commit' if 'commit' in s else 'path'
+                    srcs.append({'kind': kind, 'id': s[kind], 'repository': s.get('repository'),
+                                 'url': repo.commit_url(s[kind]) if kind == 'commit' else repo.path_url(s[kind])})
+            paras.append({'id': p['id'], 'text': p['text'], 'sources': srcs})
+        out.append({'file': f'team/conductor/rc1/{c["file"]}', 'title': c['title'], 'paragraphs': paras})
+    blob = json.dumps({'about': 'RC1, the first version, as data: each chapter, its paragraphs in order (with the review pages\' anchors) and what each rests on: '
+                                'commits and paths with their repository and address, register ids with their claim. outside_citations: addresses on other hosts '
+                                'that the researcher\'s register cites, under the claim citing them; text, not links. Written by review/tools/make_reader.py.',
+                       'site': SITE, 'edition': 'RC1', 'source': 'team/conductor/rc1/', 'outside_citations': outside, 'chapters': out},
+                      indent=1, ensure_ascii=False) + '\n'
+    if '%%' in blob:
+        sys.exit('rc1-book.json would carry a %% line: refused')
+    bare = json.loads(blob)
+    bare.pop('outside_citations')
+    for c in bare['chapters']:
+        for p in c['paragraphs']:
+            for s in p['sources']:
+                if s['kind'] == 'claim':
+                    s.pop('claim', None), s.pop('value', None)
+    for a in addresses(json.dumps(bare, ensure_ascii=False)):
+        if not (a == SITE or HOSTS.match(a)):
+            sys.exit(f'rc1-book.json: an address off the two hosts outside a claim\'s register text: {a}')
+    for d in (ROOT / 'review' / 'anchors' / 'rc1-book.json', ROOT / 'src' / 'static' / 'review' / 'rc1-book.json'):
+        d.write_text(blob)
+    print(f'rc1-book.json: {len(out)} chapters, {sum(len(c["paragraphs"]) for c in out)} paragraphs, {len(blob) // 1024} KB; '
+          f'outside citations: {len(outside)} ({", ".join(sorted({o["claim"] for o in outside}))})')
 
 
 def member_of(talk, h, roles):                                     # whose commit, by role, from the talk's own record: never an author's name

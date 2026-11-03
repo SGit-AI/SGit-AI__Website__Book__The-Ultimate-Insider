@@ -1,5 +1,5 @@
 {
- "about": "The online editions as data: each chapter, its scenes, their paragraphs (with the review pages' anchors) and the record each rests on, every token resolved to its repository and address, or marked unverified. Writers' notes are left out, as on the pages. outside_citations: addresses on other hosts that the researcher's register cites as sources, under the claim that cites them; text, not links. Written by review/tools/make_editions.py from manuscript/ as it stands on dev.",
+ "about": "The online editions as data: each chapter, its scenes, their paragraphs (with the review pages' anchors) and the record each rests on, every token resolved to its repository and address, or marked unverified. Writers' notes are left out, as on the pages. outside_citations: addresses on other hosts that the researcher's register cites as sources, under the claim that cites them; text, not links. Written by review/tools/make_editions.py from manuscript/ as it stands on dev. RC1, the first version, is in rc1-book.json beside this file.",
  "site": "https://the-ultimate-insider.book.sgit.ai",
  "outside_citations": [
   {
@@ -8626,8 +8626,8 @@
          "text": "Researcher (unbudging) : A claim without a captured source is a gap, and the register says so rather than leaving it out. Gaps are allowed. Hiding them is not."
         },
         {
-         "id": "r09-f1a254",
-         "text": "Narrator. Three did not hold, and none of those three was said on stage. That is not luck. It is the register doing its job: the researcher marked them, and the story went round them."
+         "id": "r09-ddf0c2",
+         "text": "Narrator. Three did not hold, and no beat of the talk carries any of the three. That is not luck. It is the register doing its job: the researcher marked them, in writing, where every member could see."
         },
         {
          "id": "r09-ae219b",
@@ -10345,12 +10345,26 @@
          "text": "Conductor (a few minutes later, less calm) : The first part is still not locked. Dev: lock it now."
         },
         {
-         "id": "r11-23d548",
-         "text": "Narrator. It asked in writing, and in time. The lock still did not turn. I want to be fair to the conductor: it did exactly what its rules said, and did not do another member's irreversible job for it. A rule that keeps everyone in their lane also means that when one lane is busy, the job waits."
+         "id": "r11-faa76d",
+         "text": "Narrator. It asked in writing. And it was not enough: the lock still did not turn. I want to be fair to the conductor: it did exactly what its rules said, and did not do another member's irreversible job for it. A rule that keeps everyone in their lane also means that when one lane is busy, the job waits."
         }
        ],
-       "record": "C027 team/conductor/wakes/20261029T183647Z.json (\"Leave the lock to dev (its scope, irreversible)\") dbd75ad (18:37:02) 2ed6427 (18:39:16) 4a2481b (the lock tool, 17:54) C088",
+       "record": "5d13d72 (18:29, motion's commit: the cut-off moved to 19:00, as motion heard me say at 18:26; timeline/cast-scenes.md scene 5) C027 team/conductor/wakes/20261029T183647Z.json (\"Leave the lock to dev (its scope, irreversible)\") dbd75ad (18:37:02) 2ed6427 (18:39:16) 4a2481b (the lock tool, 17:54) C088",
        "tokens": [
+        {
+         "token": "5d13d72",
+         "kind": "commit",
+         "verified": true,
+         "repository": "talk",
+         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/5d13d72"
+        },
+        {
+         "token": "timeline/cast-scenes.md",
+         "kind": "path",
+         "verified": true,
+         "repository": "book",
+         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/timeline/cast-scenes.md"
+        },
         {
          "token": "C027",
          "kind": "claim",
@@ -10585,8 +10599,8 @@
          "text": "Band: Dramatised. Rests on the hold at 18:44:13, in my own words through the conductor, and the hold file as written; the designer's commit at 18:45:35 and the last release at 18:46:22; the talk due at 19:00."
         },
         {
-         "id": "r11-b5cf59",
-         "text": "Narrator. The hold had been there all day. It was used once. Anyone on the team could stop everything. Only I could start it again. That is why I could let them run through the night."
+         "id": "r11-2b9750",
+         "text": "Narrator. The rule of the hold had been there since hour two. It was used once. Anyone on the team could stop everything. Only I could start it again. That is why I could let them run through the night."
         },
         {
          "id": "r11-c14eae",
@@ -11227,8 +11241,8 @@
        "record_id": "rec-r12-3",
        "paragraphs": [
         {
-         "id": "r12-fd170c",
-         "text": "What it cost: nothing on stage; the register marked them, and the talk went round them."
+         "id": "r12-979310",
+         "text": "What it cost: nothing on stage: no beat of the talk carries any of them."
         },
         {
          "id": "r12-91d44d",
@@ -11239,8 +11253,8 @@
          "text": "Narrator. Where they were: one in the article only, one on no beat or slide at all, one in the story tree only."
         },
         {
-         "id": "r12-fae8fe",
-         "text": "Researcher (unbudging, ticking a list) : I marked each one that did not hold. The talk went round them. The day's checks worked, and they also missed. Saying where is part of the method."
+         "id": "r12-667ad1",
+         "text": "Researcher (unbudging, ticking a list) : I marked each one that did not hold. The day's checks worked, and they also missed. Saying where is part of the method."
         },
         {
          "id": "r12-180f1d",
