@@ -50,9 +50,22 @@ The editor's rule, signed 3 November 2026 at about 09:20 UTC: review steps run a
 | 5 | 3 Nov, 08:2x | historian, post-check | an interrupt, against its brief | not stated | no | none |
 | 6 | 3 Nov, 08:2x | historian, post-review | an archive | not stated | no | none |
 | 7 | 3 Nov, 09:1x | historian, plan | a session listing (read only, allowed) | not stated | no; kept out of the wake | none |
-| 8 | 31 Oct, ten wakes | ruv-sgit, post-review | the lab build by Bash, writing the working tree, then restored | its own brief said so | no; a scratch copy does it | none; nothing committed |
+| 8 | 31 Oct, ten wakes | ruv-sgit, post-review | the lab build by Bash, writing the working tree, then restored | its own brief said so (ruv-sgit__053) | no; a scratch copy does it | none; ruv-sgit builds in a scratch copy before each push |
 | 9 | 3 Nov, from 10:0x | developer, historian, librarian, security | the reviewer type itself | TA1 | yes | not loadable in sessions started before 10:06; steps ran as types that still see every connected tool, held by the brief and the permission check |
 
 Every refused call was refused by the session's permission check; nothing acted. Look-backs: none in the developer's 85, the librarian's 86, the designer's 202 or synthetic's 163 transcripts, or ruv-sgit's 128 beyond case 8; "none seen" in the researcher's, storyteller's, publisher's and writer's records, which hold reports, not calls. The conductor's own is not yet in.
 
 Residual: Bash is in the reviewer's list, so a step can still write files (case 8). The list removes the session, schedule and message tools, not writes; the brief and the post-review's reading of the diff are what catch one.
+
+### Does the reviewer type load? (11:45 UTC, 3 November)
+
+| Member | Loads | Since |
+|---|---|---|
+| conductor | yes | its 11:02 wake, after a restart |
+| developer | yes | its 11:12 wake, after a restart |
+| librarian | yes | its 11:11 wake, without a restart |
+| historian | yes | its 11:18 wake, without a restart |
+| security | yes | its 11:25 wake (not at 10:25) |
+| designer, publisher, ruv-sgit, storyteller, synthetic, writer, researcher | not yet, at their last wakes | steps on the brief's Tools line, as Explore or general sub-agents |
+
+Where it loads, every step reported seeing Read, Grep, Glob and Bash (and its hand-back) only, with no session, schedule or message tool. Where it does not, each member gave the three answers: a) the rule asks it, b) needed, c) the limit rests on the brief and the permission check, and none called another tool. Some sessions gained the type without a restart, so a session not yet listing it may at its next wake.
