@@ -36,11 +36,11 @@
 
 ## One handover, read out
 
-**Narrator.** The day after the talk, the account the book's first storyteller ran on was nearly out of usage, and another account was to take over. So the conductor wrote the storyteller a handover. It is the conductor's job, because handovers live in its folder, and the storyteller's own folder is the storyteller's alone.
+**Narrator.** The day after the talk, the account the book's first storyteller ran on was nearly out of usage, and another account was to take over. So the conductor wrote the storyteller a handover. This is this book's conductor, not the talk's, and this book's storyteller and researcher too; you meet the whole team properly in the next chapter. Writing the handover is the conductor's job, because handovers live in its folder, and the storyteller's own folder is the storyteller's alone.
 
 *Words for this page:* a **handover** is the note one session leaves for the session that takes its place.
 
-`%% record: the handover's first line, "Written by conductor@book.the-ultimate-insider on 30 October 2026, at about 11:45 UTC, at the editor's word: the first account was nearly out of usage and another account continues", out of the reading text (logistics, brief 07); the file committed at cfcc2951`
+`%% record: the handover's first line, "Written by conductor@book.the-ultimate-insider on 30 October 2026, at about 11:45 UTC, at the editor's word: the first account was nearly out of usage and another account continues", out of the reading text (logistics, brief 07); the file committed at cfcc2951 (the commit is 11:03:47, before the time the line names)`
 
 **Narrator.** It tells the new session who it was, where its files are, what it was in the middle of, and the first things to do, in order. And it says this about keys:
 
