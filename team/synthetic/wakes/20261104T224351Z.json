@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, 22:42 London",
+ "started": "2026-11-04T22:43:51Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "board note of the diff check; no readers or letters until the whole-book go; debrief, status. Tools Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T22:44:14Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "inside scope.writes; vault_check before commit. Tools Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T22:44:30Z"
+  },
+  "work": {
+   "by": "synthetic",
+   "model": "claude-sonnet-5-5",
+   "verdict": "done",
+   "comment": "diff check of 00b, 01, 06-09, 16-19, no new problem; board, debrief, status; no readers or letters",
+   "at": "2026-11-04T22:46:09Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "diff clean; scope, validate, vault_check pass. Tools Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T22:46:09Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "all items done; conditions kept (vault_check ran: clean); nothing unplanned. Tools Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T22:46:19Z"
+  }
+ },
+ "closed": "2026-11-04T22:46:19Z",
+ "outcome": "ok"
+}
