@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T23:17:49Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Record lane in scope and read-only against the record; letter 083 to writer4 with Cc conductor is a proper route; check the four-member count counts only staffed members and run vault_check. Tools: Read, Grep, Glob, Bash.",
+   "at": "2026-11-04T23:18:37Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Plan in scope; chapter 21 line 15 does contain 'three came that same first afternoon'; flag, do not edit; keep the letter free of keys, ids, model names, em-dashes, religious words; vault_check. Tools: Read, Grep.",
+   "at": "2026-11-04T23:19:00Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "No secrets, keys, model names, em-dashes, religious words or Cold-Read references; vault_check clean; writes in scope; outbox and mailroom copies identical. Tool: Bash.",
+   "at": "2026-11-04T23:19:22Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "R36, letter 083, filing, debrief and status present; the post steps were still to be recorded, which I am doing now.",
+   "at": "2026-11-04T23:19:22Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "claude-sonnet-5-5",
+   "verdict": "done",
+   "comment": "The changes since 22:17 read; R36; letter 083; one letter filed; the plan step recorded before any file was written",
+   "at": "2026-11-04T23:19:22Z"
+  }
+ },
+ "closed": "2026-11-04T23:19:22Z",
+ "outcome": "ok"
+}
