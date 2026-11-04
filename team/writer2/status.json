@@ -1,9 +1,9 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "writer2",
-  "as_of": "2026-11-04T06:20:00Z",
-  "round": 4,
-  "state": "active, hourly at :50 London (ACC1): all six chapters of part three (10 to 15) rewritten in his voice; critic2's pass 1 taken; next the checks and the critic's full read of 14 and 15, then one read of the six",
+  "as_of": "2026-11-04T07:05:00Z",
+  "round": 5,
+  "state": "active, hourly at :50 London (ACC1): part three (10 to 15) rewritten; this wake critic2's notes on 10, 11, 14 and 15 and synthetic's reader tests on 10 and 14 taken; the policy's own-task line moved (conductor__002)",
   "cadence": "active",
   "task": "trig_01SC19hEpbnGCntjqcDayyUV",
   "session": "session_01Kw9UwFgN9qNFUP7nELjaRj",
@@ -71,16 +71,28 @@
     {
       "what": "letters writer2__011 to 015; critic2's mailroom folder made with my letter in it; copies in done/",
       "when": "2026-11-04"
+    },
+    {
+      "what": "critic2__003 (must and shoulds on 10, 11) and 007 (eight shoulds on 14, 15) taken, one could gone with its line; synthetic__001 and 002: both musts (git said in 10; 'pull again before every push' glossed in 14) and most shoulds; historian__062's two wordings; storyteller__130's caption link",
+      "when": "2026-11-04"
+    },
+    {
+      "what": "policy: create.schedule.tenant into wanted, own hourly task only (conductor__002), scope_changes",
+      "when": "2026-11-04"
+    },
+    {
+      "what": "letters writer2__016 to 021; copies in done/",
+      "when": "2026-11-04"
     }
   ],
   "next": [
     {
-      "what": "take the checks' findings on 14 and 15, and critic2's next note",
-      "why": "ROLE responsibility 4; the review loop"
+      "what": "critic2's pass 2 on 10 to 13, synthetic's reader tests on the rest, and the historian's line-by-line of 12, 13 and 15",
+      "why": "the review loop (RV1, RV2)"
     },
     {
-      "what": "one read of 10 to 15 for one voice, and the sign-off proposals as the critic makes them",
-      "why": "plan.md; RV1"
+      "what": "one read of 10 to 15 for one voice",
+      "why": "plan.md"
     }
   ],
   "asks": [

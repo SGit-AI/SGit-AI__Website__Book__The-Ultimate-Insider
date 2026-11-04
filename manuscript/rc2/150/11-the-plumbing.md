@@ -12,11 +12,11 @@
 
 ## Every number traced
 
-**Narrator.** The talk made claims. Numbers about insiders, about breaches, about what agents do. Every one of them went into a register: a file listing the claim, where it came from, the captured source, and a grade for how well the source supports it. By early evening the register held 320 claims. 210 held. 55 held in part. 52 had not been checked. Three did not hold.
+**Narrator.** The talk made claims. Numbers about insiders, about breaches, about what agents do. Every one of them went into a register: a file listing the claim, where it came from, the captured source, and a grade for how well the source supports it. By early evening the register held over three hundred claims. Most held, some only in part, some had not been checked yet, and three did not hold.
 
 **Researcher**: A claim without a captured source is a gap, and the register says so rather than leaving it out. Gaps are allowed. Hiding them is not.
 
-**Narrator.** Three did not hold, and none of the three made it into the talk. That is not luck. It is the register doing its job, and it is why I now think every team that publishes anything, people or agents, should keep one.
+**Narrator.** None of the three made it into the talk. It was not luck, it was the register doing its job, and it is why I now think every team that publishes anything, people or agents, should keep one.
 
 `%% for the editor: "it is why I now think every team that publishes anything ... should keep one" is the newsroom journalist's line in your voice (part three, chapter 11); yours to keep or change.`
 `%% Check (the newsroom, part three, chapter 11; his to confirm before it prints): "A number without a source is an opinion with a decimal point."`
@@ -41,20 +41,22 @@
 
 `%% record: 1f7c633 (00:40, CLAUDE.md as first committed) manuscript/rc2/150/04-hour-one-the-empty-project.md ("The first files", the page of rules as a card, told there once: the storyteller's ruling 2 for part three)`
 
-**Narrator.** The check does not care who made the change, or how sure they were. That is the point of it. A member that is certain its work is fine still has to pass the same test as one that is not.
+**Narrator.** The check does not care who made the change, or how sure they were. A member that is certain its work is fine still has to pass the same test as one that is not.
 
 **Narrator.** Chapter 5 has the example I like best: on the first night, the check stopped the release of the very member that had built it.
 
 `%% record: 24da366 (01:19, the release that went out after the refusal) team/dev/debriefs (the-board.md); historian__022; manuscript/rc2/150/05-hour-two-the-rules-written.md ("One build, one check", told there once: the storyteller's ruling 2 for part three)`
 
-**Narrator.** And the release history shows the result: each release the pipeline made, the commits it carried, the files they changed and the pages those files produce. Nobody typed a version number all day; the pipeline numbered every release itself. That rule has a story behind it, and deck's page of rules gives it: agents racing for release numbers is how another team, my newsroom, had lost releases on 27 October. The newsroom's lesson was to let the pipeline own the version, and this team started with that lesson on its first page.
+**Narrator.** And the release history shows the result: each release the pipeline made, the commits it carried, the files they changed and the pages those files produce. Nobody typed a version number all day; the pipeline numbered every release itself. The rule came from my newsroom, where agents racing for release numbers had lost releases two days before.
 
 `%% record: C128 (the rule at 20ab1a3, 00:51:53, in deck's and dev's pages of rules; dev's release workflow at 1f7c633, 00:40:50, opening "CI owns the version" with the newsroom's link); researcher__001 to writer2 (write it as the newsroom's lesson, and no more)`
 `%% Check (the newsroom, part three, chapter 11; his to confirm before it prints): "That is what I mean by a factory built from parts: even its scars were borrowed."`
 
 **Deck**: Never type a version number. That one is somebody else's scar, from another team's bad day. We inherited it.
 
-**Figure:** one row of the release history, drawn: a release number, its commits, the files changed and the pages they make. A drawing from the page, not a screenshot: the build never shows an admin page.
+**Figure:** one row of the release history: a release number, its commits, the files changed and the pages they make.
+
+`%% figure brief: drawn from the page; whether the release-history page itself is shown, now AD1 allows the admin pages, is the designer's, with security clearing the image by name (critic2__003, must).`
 
 `%% record: 1f7c633 (admin/build/validate.py) index/talk-site/README.md (item 18) team/deck/ROLE.md at 298be4e ("Never type a version number ...")`
 `%% band: Dramatised (deck's line, kept from chapter 6). The check as first built at 00:40, and the release history as the site showed it; deck's rule is its page's own.`
