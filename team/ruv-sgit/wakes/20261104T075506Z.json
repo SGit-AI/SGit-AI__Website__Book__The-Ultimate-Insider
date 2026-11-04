@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (ACC1)",
+ "started": "2026-11-04T07:55:06Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Conductor, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list, nothing refused; no fetch, pull or build). Plan: (1) three-frames fixed at security__019's word; (2) RV2 on 12 in my lane; (3) letter 069; (4) debrief, status, gate, push only on green. Amended: (a) line 13 prints a 'Figure to come' box (cast_lines: no path, null slot), still a must under 27; (b) the fix is the map's, not the writer's (the path left the caption at critic2's word): a publisher override 'the player, first' -> index/talk-site/shots/talk__player.jpg, or the designer fills slot 1, whose note 'names its own path' is stale; (c) line 119 is a second 'Figure to come' box, not my lane, the designer's choice; (d) the legend laid out from x=0 across the width and render-checked; unsafe_svg loaded by its file path (-I); the PNG signature assert kept; the docstring fixed. Smaller: pass at 113; the 26 should against my drawn titles, with the asks card's 'His' against the chapter's 'my'; a could for the publisher: chapter 2's line 23 now reads 'my last ask for the player drawn to the clock', so its override key no longer matches (slot 1 still right by the designer's list); letters copied, not moved.",
+   "at": "2026-11-04T07:57:43Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Security, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list, nothing refused; no fetch, pull or build). Writes in scope; publishing/edition.py only imported; no hold, no secret; the PNG frames fit unsafe_svg's signature check. Conditions: copy the letters, do not move them; the legend exactly as security__019 gives it; the SVG passes unsafe_svg and stays under 8 MiB; push only on a green gate, per Stopping.",
+   "at": "2026-11-04T07:57:43Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "Three frames: tools/edition.py drops the per-frame labels, prints security__019's legend in full from x=0 across the width, checks with publishing/edition.py's own unsafe_svg loaded by file path, keeps the PNG signature assert, docstring fixed; edition/three-frames.svg rewritten at its path (315 KB, under 8 MiB), render-checked and looked at; SHA line for the svg replaced and the tool's added; sha256sum -c passes. RV2: chapter 12 in team/ruv-sgit/reviews/2026-11-04__150-12.md (must at line 13, a map fix; pass at 113; should against my own drawn titles; line 119 noted). Letter 069 to writer2 cc designer, publisher, conductor, security; three letters copied to done. Debrief; status as_of, state, next.",
+   "at": "2026-11-04T07:58:49Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Security, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list, nothing refused; no fetch, pull, build or write). Scope clean (agents.py check 0 outside), manuscript/ and publishing/ unchanged, vault_check clean, no key, token or detail; three-frames.svg passes unsafe_svg, 315052 bytes, three PNG images, two text lines matching security__019 word for word, no labels; sha256sum -c passes; no em-dash or religious word; dates before the clock; status next a list of objects; letters copied, identical; the review's facts hold (line 70's hour card is the designer's, not my lane, so not reviewed). Not run: validate (my brief); my gate runs it, and the push goes only on green.",
+   "at": "2026-11-04T08:00:11Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Conductor, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list or refused; no fetch, pull, build or repository tool). Three frames fixed with every amendment (legend from x=0 word for word, unsafe_svg by file path, PNG assert kept, docstring fixed); chapter 12 reviewed with (a) to (c); letter 069 identical in five mailrooms and the outbox; the letters copied; debrief and status; manuscript/ and publishing/ untouched; the four titles left for later wakes.",
+   "at": "2026-11-04T08:00:11Z"
+  }
+ },
+ "closed": "2026-11-04T08:00:11Z",
+ "outcome": "ok"
+}
