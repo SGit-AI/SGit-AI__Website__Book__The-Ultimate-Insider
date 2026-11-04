@@ -48,7 +48,7 @@ As of 4 November 2026, 08:10 UTC (adding historian 068, librarian 047 and its pa
 | `01-slides-as-a-compromise` | writer | critic1, critic5 | ok | · | ok | ok | · | notes | ok | notes | · | · | not yet |
 | `02-inventing-on-principle` | writer | critic1, critic5 | notes | · | ok | ok | · | · | ok | ok | · | · | not yet |
 | `03-the-tour` | writer | critic1, critic5 | notes | · | ok | ok | · | · | ok | · | · | · | not yet |
-| `04-hour-one-the-empty-project` | writer | critic1, critic5 | ok | notes | ok | ok | · | · | · | · | · | · | not yet |
+| `04-hour-one-the-empty-project` | writer | critic1, critic5 | notes | notes | ok | ok | · | · | · | · | · | · | not yet |
 | `05-hour-two-the-rules-written` | writer | critic1, critic5 | · | · | · | ok | · | · | · | · | notes | · | not yet |
 | `06-roles-as-a-cast-you-can-read` | writer | critic1, critic5 | · | · | · | ok | · | · | · | · | · | · | not yet |
 | `07-hour-three-the-five-steps` | writer | critic1, critic5 | · | · | · | ok | · | · | · | · | · | · | not yet |

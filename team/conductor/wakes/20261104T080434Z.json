@@ -31,8 +31,15 @@
    "verdict": "as-planned",
    "comment": "as-planned: 039's must and three shoulds met (the upload-set could not planned); fixed before the push: times set to the commit's 08:10, and rc2.html no longer says four writers while writer3 has no task",
    "at": "2026-11-04T08:10:48Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "finding",
+   "comment": "finding, fixed before the push: rc2.html's meta description still said four writers (now 'the writers'); storyteller 04 set to notes (five shoulds open, strict legend). Otherwise clean: all eight conditions met, grid matches the letters, gate clean, scope 0, comms clean",
+   "at": "2026-11-04T08:11:40Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T08:11:40Z",
+ "outcome": "ok"
 }
