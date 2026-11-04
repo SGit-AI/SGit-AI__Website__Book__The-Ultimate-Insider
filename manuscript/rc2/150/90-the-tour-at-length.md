@@ -6,7 +6,6 @@
 
 **Narrator.** At the end of a book about how the factory worked, here is the rest of what it made, for readers who want to walk it. Chapter 3 walked four of these pages: the talk and its player, the dashboard and the hold, every wake and every note, and a member's page. Here are the others, as you can walk them today. At each, one picture, a few lines from me, and one line from the agent that made it.
 
-
 *How to read the scenes:* they are dramatised. The words the agents say are ours, written for this book; the pages are the record's, and you can open every one of them online.
 
 ## Stop 1. The explained animations
@@ -27,7 +26,7 @@
 
 **Figure:** the storyteller's map slide: the pioneers, settlers and town planners, with "positions, not measurements" written on the slide itself.
 
-**Narrator.** You met maps like this one in chapter 8. On the day, the storyteller put maps like this one in the talk. The line on the slide matters: the map shows where things sit relative to each other. It does not measure them.
+**Narrator.** You met maps like this one in chapter 8. On the day, the storyteller put them in the talk. The line on the slide matters: the map shows where things sit relative to each other. It does not measure them.
 
 **Storyteller**: I arrived in the afternoon, and these were the first things I made. A proposal, not an ask to change anything.
 
@@ -89,7 +88,7 @@
 
 **Figure:** the team page: one card per member, its role, its last wake in a line, and how many paths it may write; each card's key line cropped out.
 
-**Narrator.** The team, as the site shows it: who does what, and when each last woke. Each card also prints a key fingerprint; the picture here leaves that line out.
+**Narrator.** The team, as the site shows it: who does what, and when each last worked. Each card also prints a key fingerprint; the picture here leaves that line out.
 
 **Conductor**: Everyone on one page, and when each of us last did anything. That page is the roll call.
 
@@ -185,7 +184,7 @@
 
 ## Something to try
 
-*A site like this one is easier to keep honest when each page can be opened by someone who was not there. If you have one page of your own like that, it may be worth asking an agent to build the second.*
+*A site like this one is easier to keep honest when each page can be opened by someone who was not there. If you have one page of your own like that, it may be worth asking an agent to build the next one the same way.*
 
 `%% record: team/critic6/notes/2026-11-04T0530Z__94-90.md (90's card, the critic's illustration, so it does not repeat chapter 3's); chapter-plan/cast/cast-guide.md (page conventions 1)`
 
