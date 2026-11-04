@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Brief 21 verbatim; six documents and the house PNG saved unchanged (byte-checked); the guide for every chapter written; nine letters with outbox copies, the print rule carried; status; vault_check clean on comms and from-newsroom.",
    "at": "2026-11-04T02:57:48Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "clean",
+   "comment": "Reviewer agent: 29 files in scope; nothing private (PNG chunk scan clean); print rule in writer 028 and the guide; guide items 9, 12, 13, 17, 18 match their briefs; saved part one unchanged; validate and vault_check clean.",
+   "at": "2026-11-04T02:59:43Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "as-planned",
+   "comment": "Reviewer agent: every planned item done; byte-for-byte copies rest on the work step's cmp check; nothing unplanned.",
+   "at": "2026-11-04T02:59:43Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T02:59:43Z",
+ "outcome": "ok"
 }
