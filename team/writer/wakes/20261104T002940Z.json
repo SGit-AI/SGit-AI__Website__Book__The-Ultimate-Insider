@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer",
+ "kind": "scheduled, hourly at :28 London (ACC1)",
+ "started": "2026-11-04T00:29:40Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Go: four letters; 05's quote, 94's register ids and 'nearly nineteen hours' (historian told), 92 re-set from the rebuilt appendix; the seventy's 07 to one scene at the storyteller's decision. Ran as the reviewer agent.",
+   "at": "2026-11-04T00:31:23Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Go with conditions: 07's cut also fixes every line naming the removed beats, the vault quote kept word for word; 92 held until the researcher and security clear it; 05's quote checked against 09f13d5 (it says 'fifteen minutes apart'); the historian told by letter. Ran as the reviewer agent.",
+   "at": "2026-11-04T00:31:23Z"
+  },
+  "work": {
+   "by": "writer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Four letters taken; the seventy's 07 to one scene; 05, 94 fixed; 92 re-set and held; six letters; filing, status, debrief. Gate clean, 0 outside scope.",
+   "at": "2026-11-04T00:32:54Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

@@ -43,11 +43,21 @@ git log 298be4e --until=2026-10-29T19:00:00Z --format='%h %ci %an %s' | head -3
 git log 298be4e --since=2026-10-29T18:44:00Z --until=2026-10-29T19:00:00Z --format='%h %ci %an %s'
 ```
 
+## C010: Nineteen hours
+
+- **State:** corrected.
+- **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
+- **Cited in:** chapter 23.
+
+```
+arithmetic on C001, C005 and C007
+```
+
 ## C011: Members of the talk's team
 
 - **State:** open.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapters 02, 04, 05, 06, 08, 14, 90.
+- **Cited in:** chapters 02, 04, 05, 06, 08, 14, 23, 90.
 
 ```
 for m in dev conductor ruv-sgit researcher deck designer storyteller motion studio; do echo $m $(git log 298be4e --reverse --format='%h %ci' -- team/$m/key.json team/keys/$m.json | head -1); done; git log 298be4e --reverse --author=Claude --format='%h %ci %s' | grep -iE ' (@?(dev|conductor|deck|ruv-sgit|researcher|designer|storyteller|motion|studio):|Conductor joins)' | awk '!s[$4]++'
@@ -346,7 +356,7 @@ open https://claude.com/pricing and https://lovable.dev/pricing; read the plan p
 ## C102: A moment in the talk as given where the animation carried the point (the building, M01)
 
 - **State:** checked.
-- **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `a9c0b49 (added after the day); 298be4e for M01` (material added after the day).
+- **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `a9c0b49; 298be4e for M01` (material added after the day).
 - **Cited in:** chapter 01.
 
 ```
@@ -431,6 +441,26 @@ git show a9c0b49:content/articles/the-talk-as-given.md | grep -n 'here.s a Wardl
 
 ```
 git show 38b69644:controls/index.json | python3 -c "import json,sys;d=json.load(sys.stdin)['book_team']['tool_cases'];[print(c['n'],c['tool'][:30],c.get('refused')) for c in d['cases']]"
+```
+
+## C113: This book's first release candidate (RC1), as handed to the publisher: chapters, an appendix and images
+
+- **State:** checked.
+- **Source:** SGit-AI__Website__Book__The-Ultimate-Insider (this book's record), at `f6ce7ffa` (this book's own record, after the day).
+- **Cited in:** chapter 94 (to cite).
+
+```
+git ls-tree -r --name-only f6ce7ffa team/conductor/rc1 | grep -E '/[0-9]{2}-[^/]*\.md$' | grep -v '/99-' | wc -l; git ls-tree -r --name-only f6ce7ffa team/conductor/rc1/resources/images | wc -l
+```
+
+## C114: This book's team: when each member was staffed, from its first commit as a member
+
+- **State:** checked.
+- **Source:** SGit-AI__Website__Book__The-Ultimate-Insider (this book's record), at `88247fe1` (this book's own record, after the day).
+- **Cited in:** chapter 94 (to cite).
+
+```
+for c in bb1f57c0 19e266fb f3e634f3 81fd2ef8 e69f073b 6d357179 5c2d2f9c afbb50d7 28396879 e36d0e94 8f10a08e 68ffc780; do git show -s --format='%h %ad %s' --date=format:'%d %H:%M:%S' $c | cut -c1-80; done
 ```
 
 ---
