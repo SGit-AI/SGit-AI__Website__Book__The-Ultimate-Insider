@@ -1,4 +1,7 @@
 # RC2, the full book, the 150-page Leanpub edition and the one printed (RP1, LP1, PR2): the writer's chapters in manuscript/rc2/150/ (WR1), in the writer's order (its 080). The publisher's build list; the release builds the full draft from it (OL1).
+# Build lines (the build reads "#!"): the sources left out of the print and full book (WC1, the editor, 4 November 2026); the full book's own measure and spacing (brief 06)
+#! drop-section: Where this came from
+#! extra-css: publishing/full-book.css
 ../../rc2/150/00-start-here.md
 ../../rc2/150/01-slides-as-a-compromise.md
 ../../rc2/150/02-inventing-on-principle.md
@@ -26,4 +29,5 @@
 # Back matter, after the last chapter (the writer's 080)
 ../../rc2/150/90-the-tour-at-length.md
 ../../rc2/150/91-the-words-used.md
+../../rc2/150/93-appendix-b-the-control-register.md
 ../../rc2/150/94-the-making-of-this-book.md

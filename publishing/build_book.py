@@ -47,6 +47,36 @@ def chapters(book=None):
     return [os.path.join(here, n) for n in names]
 
 
+def directives(book=None):
+    """A list's own build lines (the full book's, FB1 and WC1, 4 November 2026), so the release follows the list:
+    "#! drop-section: <heading>" leaves out that "## " section of each chapter, from its heading to the next heading of
+    the same or a higher level (the files are unchanged); "#! extra-css: <path>" adds a stylesheet, only from under
+    publishing/."""
+    book = os.path.abspath(book) if book else os.path.join(MANUSCRIPT, "Book.txt")
+    drop, css = [], []
+    with open(book, encoding="utf-8") as f:
+        for line in f:
+            m = re.match(r"\s*#!\s*(drop-section|extra-css):\s*(.+?)\s*$", line)
+            if not m:
+                continue
+            if m.group(1) == "drop-section":
+                drop.append(m.group(2))
+                continue
+            path = os.path.realpath(os.path.join(ROOT, m.group(2)))
+            if not path.startswith(os.path.join(os.path.realpath(ROOT), "publishing") + os.sep) or not path.endswith(".css") \
+                    or not os.path.isfile(path):
+                sys.exit(f"build_book: {os.path.relpath(book, ROOT)}: extra-css must be a .css file under publishing/: {m.group(2)}")
+            css.append(path)
+    return drop, css
+
+
+def drop_sections(text, headings):
+    """Leave out each named "## " section: from its heading to the next "# " or "## " heading, or the end."""
+    for h in headings:
+        text = re.sub(r"(?ms)^## " + re.escape(h) + r"[ \t]*\n.*?(?=^#{1,2} |\Z)", "", text)
+    return text
+
+
 def words(path):
     """Words a reader sees: prose, not markup, code fences, links' targets or HTML comments."""
     with open(path, encoding="utf-8") as f:
@@ -204,6 +234,7 @@ def main():
     if a.book and os.path.exists(os.path.join(os.path.dirname(os.path.abspath(a.book)), "metadata.yaml")):
         EXTRA_METADATA.extend(["--metadata-file", os.path.join(os.path.dirname(os.path.abspath(a.book)), "metadata.yaml")])
     sources = chapters(a.book)
+    drop, book_css = directives(a.book)
     figure_map = {}
     if a.figures:
         with open(a.figures, encoding="utf-8") as f:
@@ -215,6 +246,8 @@ def main():
     for src in sources:
         with open(src, encoding="utf-8") as f:
             raw = f.read()
+            if drop:
+                raw = drop_sections(raw, drop)
             if a.cast:  # the writer's chapters use the editions' conventions (publisher__003 to the writer)
                 key = os.path.relpath(os.path.abspath(src), MANUSCRIPT)
                 drawings = figure_map.get(key)
@@ -251,7 +284,7 @@ def main():
         for sheet in ("book.css", "lab-look.css"):  # the lab's look after the book's own rules (LK1, signed 31 October 2026)
             with open(os.path.join(HERE, sheet), encoding="utf-8") as f:
                 css += f.read() + "\n"
-        for sheet in a.extra_css:  # read as data: the designer's drawings for the speakers' heads, say
+        for sheet in list(a.extra_css) + book_css:  # read as data: the designer's drawings for the speakers' heads, say
             with open(sheet, encoding="utf-8") as f:
                 css += f"/* {os.path.relpath(os.path.abspath(sheet), ROOT)} */\n" + f.read() + "\n"
         if a.type:
