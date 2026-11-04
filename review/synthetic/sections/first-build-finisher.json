@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/synthetic-section-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "first-build-finisher", "read_at": "f53c6e5a",
+ "would_read_on": {"00-start-here": "yes", "00b-who-is-telling-this-story": "maybe", "10-talking-through-git": "maybe"},
+ "findings": [
+  {"file": "00-start-here.md", "line": 9, "quote": "One tool and one empty project, with nothing private in it.", "principle": "reader", "severity": "should", "why": "As a first-build finisher I do not know which tool, or why 'nothing private' matters, so the first step is one I cannot yet take tomorrow."},
+  {"file": "00-start-here.md", "line": 10, "quote": "when it must stop and ask you", "principle": "reader", "severity": "could", "why": "I like the idea but have no picture of what a page of rules looks like, so I cannot write mine."},
+  {"file": "00-start-here.md", "line": 13, "quote": "share one brief, one board and one hold", "principle": "reader", "severity": "must", "why": "Board and hold are used here with no explanation, and they sound like jargon that makes the book feel meant for programmers."},
+  {"file": "00-start-here.md", "line": 21, "quote": "Read it the whole way through, or take the short way", "principle": "6", "severity": "could", "why": "It tells me how to read; a plain offer of the two routes would not instruct me."},
+  {"file": "00-start-here.md", "line": 35, "quote": "I keep the time and the plan.", "principle": "7", "severity": "could", "why": "Nine one-line hellos in a row read as a list I skim, and I cannot yet tell the roles apart."},
+  {"file": "00-start-here.md", "line": 4, "quote": "These five steps are what I would tell a friend", "principle": "21", "severity": "could", "why": "The five steps are then listed at line 9 and drawn again as a path at line 15, so the same thing is said three times."},
+  {"file": "00b-who-is-telling-this-story.md", "line": 3, "quote": "it is not the usual arrangement", "principle": "reader", "severity": "should", "why": "Two paragraphs of explaining the narrator before any story made me impatient, as I came for the next step."},
+  {"file": "00b-who-is-telling-this-story.md", "line": 5, "quote": "from an empty repository a little after midnight", "principle": "reader", "severity": "must", "why": "'Repository' is used before it is explained and, as a non-coder, it is the word that tells me this may not be for me."},
+  {"file": "00b-who-is-telling-this-story.md", "line": 11, "quote": "the slides became data: one file that the presentation read", "principle": "reader", "severity": "should", "why": "Black Hat Europe, VoiceDebrief and ruv.sgit.ai arrive in one paragraph with no hook for a newcomer, and 'beats' and 'timeline' are unexplained."},
+  {"file": "00b-who-is-telling-this-story.md", "line": 17, "quote": "There is one more thing I want you to see as you read.", "principle": "6", "severity": "could", "why": "It directs what I should see; stating the fact would do."},
+  {"file": "00b-who-is-telling-this-story.md", "line": 25, "quote": "So let us go through it together.", "principle": "21", "severity": "could", "why": "It repeats the invitation already made at line 9 ('what I would do with it if I were you')."},
+  {"file": "10-talking-through-git.md", "line": 1, "quote": "Talking through git", "principle": "reader", "severity": "must", "why": "The chapter title and the 'Words for this page' note never say what git is, and with 'vaults', 'commits', 'slot' and 'wakes' I felt this was for programmers."},
+  {"file": "10-talking-through-git.md", "line": 18, "quote": "It wrote a short letter, as a file, and put it in the other's mailroom.", "principle": "7", "severity": "should", "why": "A run of short sentences describing the letter, one after another, reads as a list; the sequence is clear but choppy."},
+  {"file": "10-talking-through-git.md", "line": 20, "quote": "two public vaults: folders any member could read, synced between their sessions", "principle": "reader", "severity": "should", "why": "Vaults and 'synced' are new words I have to carry, and the next sentence then says the book team does it differently."},
+  {"file": "10-talking-through-git.md", "line": 64, "quote": "No \"just checking in\". No \"any update?\".", "principle": "7", "severity": "could", "why": "A run of short fragments; it is charming, but it is the third such run on the page."},
+  {"file": "10-talking-through-git.md", "line": 94, "quote": "One note followed, one not, and both are in the record.", "principle": "21", "severity": "should", "why": "The deck-to-ruv-sgit note is told in full at line 58 and again at line 90, and the third letter is retold, so I met the scene twice."},
+  {"file": "10-talking-through-git.md", "line": 36, "quote": "which is the point: a disagreement that is written down", "principle": "7", "severity": "could", "why": "It leans on 'the point' and a neat contrast to land the idea, which I would take without the flourish."}
+ ],
+ "what_holds": [
+  "00-start-here.md: five steps on one page is exactly what I wanted, short and doable, and the 'friend' framing is warm.",
+  "00b-who-is-telling-this-story.md: the promise that the agents disagree with the narrator and he keeps the line anyway made me curious.",
+  "10-talking-through-git.md: the three-letters scene is easy to follow, the idea that nobody needs to be awake together is clear, and 'a letter is a file' is something I could do tomorrow."
+ ],
+ "notes": "As a first-build finisher I got the factory idea (agents leaving each other files) but only by ignoring words like repository, git, vault, commit and slot. I would start tomorrow with steps 1 to 4 on page one; chapter 10's 'Something to try' is the only place I felt a step I could take."
+}
