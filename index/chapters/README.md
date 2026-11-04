@@ -24,8 +24,8 @@ One file per chapter of the manuscript, built by `index/tools/chapter_entries.py
 | [`99-appendix-a-every-number-rerun.md`](99-appendix-a-every-number-rerun.md) | 1 | 0 | 3 | 0 | 2 | 0 |
 | [`150__00-start-here.md`](150__00-start-here.md) | 0 | 0 | 5 | 0 | 0 | 0 |
 | [`150__00b-who-is-telling-this-story.md`](150__00b-who-is-telling-this-story.md) | 0 | 0 | 4 | 0 | 0 | 0 |
-| [`150__01-slides-as-a-compromise.md`](150__01-slides-as-a-compromise.md) | 1 | 0 | 9 | 1 | 2 | 0 |
-| [`150__02-inventing-on-principle.md`](150__02-inventing-on-principle.md) | 1 | 0 | 8 | 0 | 6 | 0 |
+| [`150__01-slides-as-a-compromise.md`](150__01-slides-as-a-compromise.md) | 1 | 0 | 10 | 1 | 2 | 0 |
+| [`150__02-inventing-on-principle.md`](150__02-inventing-on-principle.md) | 0 | 0 | 10 | 0 | 3 | 0 |
 | [`150__03-the-tour.md`](150__03-the-tour.md) | 3 | 0 | 9 | 0 | 4 | 0 |
 | [`150__04-hour-one-the-empty-project.md`](150__04-hour-one-the-empty-project.md) | 9 | 0 | 7 | 0 | 9 | 0 |
 | [`150__05-hour-two-the-rules-written.md`](150__05-hour-two-the-rules-written.md) | 2 | 0 | 3 | 0 | 11 | 0 |
@@ -33,8 +33,8 @@ One file per chapter of the manuscript, built by `index/tools/chapter_entries.py
 | [`150__07-hour-three-the-five-steps.md`](150__07-hour-three-the-five-steps.md) | 5 | 0 | 4 | 0 | 13 | 0 |
 | [`150__08-hours-four-and-five-before-dawn.md`](150__08-hours-four-and-five-before-dawn.md) | 9 | 0 | 11 | 0 | 13 | 0 |
 | [`150__09-nine-hours-with-nobody-starting-work.md`](150__09-nine-hours-with-nobody-starting-work.md) | 10 | 0 | 13 | 0 | 38 | 0 |
-| [`150__10-talking-through-git.md`](150__10-talking-through-git.md) | 2 | 1 | 8 | 0 | 7 | 0 |
-| [`150__11-the-plumbing.md`](150__11-the-plumbing.md) | 9 | 0 | 8 | 0 | 4 | 0 |
+| [`150__10-talking-through-git.md`](150__10-talking-through-git.md) | 2 | 1 | 11 | 0 | 7 | 0 |
+| [`150__11-the-plumbing.md`](150__11-the-plumbing.md) | 9 | 0 | 11 | 0 | 4 | 0 |
 | [`150__12-the-creator-comes-back.md`](150__12-the-creator-comes-back.md) | 6 | 0 | 9 | 0 | 14 | 0 |
 | [`150__13-the-story-before-the-slides.md`](150__13-the-story-before-the-slides.md) | 4 | 0 | 6 | 0 | 7 | 0 |
 | [`150__14-port-not-rebuild.md`](150__14-port-not-rebuild.md) | 4 | 0 | 7 | 0 | 12 | 0 |

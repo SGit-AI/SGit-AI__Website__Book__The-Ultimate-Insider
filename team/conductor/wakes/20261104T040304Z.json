@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T04:03:04Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "go with corrections: compare the cover name with cover_size.py --paper white (even-rounded); the count check in its own continue-on-error step after the upload set, guarded, writing _site/rc2/upload/kdp-interior-count.txt; record only writer2's session id, writer3 and writer4 pending adoption; carry writer4's not_wanted wording, researcher 027's two facts, librarian 043's never-list line and historian 050's owner-only log in status",
+   "at": "2026-11-04T04:07:09Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "go: in scope, no secret, nothing to Cold-Read; guard every grep and loop against bash -e; drafts keep their stamps; bare writer2 id only; letters never call the interior final; librarian policy waits for the editor",
+   "at": "2026-11-04T04:07:42Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "filed 11 letters; release.yml: upload interior unstamped, new guarded count step writing rc2/upload/kdp-interior-count.txt; letters publisher 079, designer 073 (cc publisher), librarian 033 (cc security); status: writers' state from their own files, four editor items",
+   "at": "2026-11-04T04:09:05Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "as-planned",
+   "comment": "as-planned: all five items done; pre-review conditions kept; writer3 worded as its folder shows (no key, waiting on 030)",
+   "at": "2026-11-04T04:10:01Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "clean",
+   "comment": "clean: YAML parses; only the upload interior unstamped; new step exits 0 under bash -e for absent, match, mismatch, no cover, counter failing; letters equal outbox, say not final; done copies byte-equal; librarian policy untouched; bare writer2 id only",
+   "at": "2026-11-04T04:10:56Z"
+  }
+ },
+ "closed": "2026-11-04T04:10:56Z",
+ "outcome": "ok"
+}

@@ -6,11 +6,13 @@
 #   gap_page           a page inside a chapter whose content stops well short of the foot of the text block (a figure or heading
 #                      pushed to the next page, or a figure out of proportion to its page), measured on the rendered page, so a
 #                      figure drawn as a vector counts too;
-#   figure_apart       a raster figure whose introducing paragraph is on an earlier page (only where a chapter's figure lines and
-#                      its raster images can be paired by count; most figures are vector drawings that pdfimages cannot see).
-# What it cannot tell is written into the result, not guessed: whether a gap is meant (a divider, an opener), which figure is which
-# in the chapters it cannot pair, and anything about how a page looks beyond how far its content reaches. It also reports, as
-# information and not as a flag, the pages with a raster figure taller than 45% of the text block (the publisher's own warning). It writes only review/anchors/print-check.json: page numbers, chapter titles, counts
+#   figure_apart       a figure whose printed caption begins on a later page than the one its introducing paragraph ends on. Each
+#                      figure is found by its caption (the "Figure:" lines of review/anchors/editions.json are the printed captions),
+#                      so vector drawings count as much as images; the comparison is made in memory and no caption text is kept.
+# What it cannot tell is written into the result, not guessed: whether a gap is meant (a divider, an opener), whether the drawing
+# under a caption is on the caption's page, and anything about how a page looks beyond how far its content reaches. It also
+# reports, as information and not as a flag, the pages with a raster figure taller than 45% of the text block (the publisher's
+# own warning). It writes only review/anchors/print-check.json: page numbers, chapter titles, counts
 # and sizes; no text from the PDF and no path. Kept by developer@book.the-ultimate-insider.
 # Run: python3 review/tools/print_check.py [--stats]    (after make_editions.py, so editions.json holds today's chapters)
 #      python3 -I review/tools/print_check.py --pdf FILE  checks a PDF it is given (the release's own, downloaded by hand into a folder of
@@ -80,6 +82,69 @@ def page_fill(pdf, n, tmp):
     return out
 
 
+def tidy(words):
+    """Each page's tokens without the running head and the page number, so that words broken across a page break read on."""
+    toks = [w.split() for w in words]
+    heads = Counter(tuple(t[:13]) for t in toks if len(t) >= 13)
+    head = list(heads.most_common(1)[0][0]) if heads else []
+    out = []
+    for t in toks:
+        if head and t[:len(head)] == head:
+            t = t[len(head):]
+        if t and t[-1].isdigit() and len(t[-1]) <= 3:
+            t = t[:-1]
+        out.append(t)
+    return out
+
+
+def locate(tokens, key, first, last):
+    """(page of the first word, page of the last word) of the first place, from page `first` to `last`, where the key words run
+    on, even across a page break; or None. A run that begins at the foot of a page and ends on the next is seen as such."""
+    k = len(key)
+    for p in range(first, last + 1):
+        t = tokens[p - 1] + (tokens[p][:k + 4] if p < len(tokens) else [])
+        for i in range(len(tokens[p - 1])):
+            if t[i:i + k] == key:
+                return p, (p if i + k <= len(tokens[p - 1]) else p + 1)
+    return None
+
+
+def figure_placements(chapters, words, where):
+    """Each Figure line found by its printed caption. For the nearest prose paragraph before it: the page it ends on (its last six
+    words, from the page it begins on, at most three pages on); then the page the caption begins on (the first six words after
+    "Figure:", from there, at most three pages on). A figure with a heading between it and that paragraph (a figure straight
+    under a heading, which introduces it) is not checked: a section opening on a new page is not a separation.
+    -> ([(chapter, intro_end_page, caption_page)], not_found, total, under_a_heading)"""
+    n, out, missing, total, under_heading = len(words), [], 0, 0, 0
+    tok = tidy(words)
+    for c in chapters:
+        paras = [p for sc in c['scenes'] for p in sc['paragraphs']]
+        for j, p in enumerate(paras):
+            if not p['text'].startswith('Figure:'):
+                continue
+            total += 1
+            k = j - 1
+            while k >= 0 and (paras[k]['text'].startswith(('Figure:', 'Clock:')) or paras[k].get('in_print') is False):
+                k -= 1                                                  # past another figure, a clock line or a paragraph the print leaves out
+            if any(paras[m].get('after_heading') for m in range(k + 1, j + 1)):
+                under_heading += 1                                      # a heading opens the section the figure is in: it is introduced by the heading
+                continue
+            start = where.get(paras[k]['id']) if k >= 0 else None
+            if not start:
+                continue                                                # a figure with no paragraph before it in its chapter
+            w = norm(re.sub(r'^[\w-]+(\s\([^)]*\))?[.:]\s+', '', paras[k]['text'])).split()
+            hit = locate(tok, w[-6:], start, min(n, start + 3)) if w else None
+            end = hit[1] if hit else start                              # the page the paragraph's LAST word is on
+            capkey = norm(p['text'][len('Figure:'):]).split()[:6]
+            hit = locate(tok, capkey, end, min(n, end + 3)) if capkey else None
+            cap = hit[0] if hit else None                               # the page the caption's FIRST word is on
+            if cap is None:
+                missing += 1
+                continue
+            out.append((c['title'], end, cap))
+    return out, missing, total, under_heading
+
+
 def chapter_starts(chapters, pages):
     """The page each chapter opens on: its title in the first lines of a page, searching on from the last one found."""
     starts, at = [], 1
@@ -143,29 +208,16 @@ def main(stats, given=None):
             flags.append({'kind': 'gap_page', 'page': i, 'chapter': next((t for t, st, e in ranges if st <= i <= e), None),
                           'fill': fill, 'lines': nl, 'raster_figure_here': i in big_on, 'borderline': fill >= GAP_FILL - 0.03})   # within three points of the line: a prompt to look, not a finding
     tall = sorted({p for p, inch in images if inch > LARGE_SHARE * TEXT_HEIGHT})
-    # figures apart from their introducing paragraph, where a chapter's figure lines and large images can be paired in order
-    unpaired = []
-    for k, c in enumerate(chapters):
-        if not starts[k]:
-            cannot.append(f'chapter "{c["title"]}": its opening page was not found, so its figures are not checked')
-            continue
-        end = next((s for s in starts[k + 1:] if s), n + 1) - 1
-        paras = [p for sc in c['scenes'] for p in sc['paragraphs']]
-        figs = [(j, p) for j, p in enumerate(paras) if p['text'].startswith('Figure:') and j > 0]
-        pics = sorted(p for p, inch in images if starts[k] <= p <= end and inch >= BIG_IMAGE_INCHES)
-        if len(figs) != len(pics):
-            if figs or pics:
-                unpaired.append((c['title'], len(figs), len(pics)))
-            continue
-        for (j, _), page in zip(figs, pics):
-            intro = where.get(paras[j - 1]['id'])
-            if intro and page - intro >= 1:
-                flags.append({'kind': 'figure_apart', 'page': page, 'chapter': c['title'], 'intro_page': intro, 'pages_apart': page - intro})
-    if unpaired:
-        cannot.append(f'{len(unpaired)} chapters have a different number of figure lines and large images, so their figures are not paired: '
-                      + '; '.join(f'"{t}" ({a} lines, {b} images)' for t, a, b in unpaired))
+    # figures apart from the paragraph that introduces them, found by their printed captions
+    placed, not_found, fig_total, under_heading = figure_placements(chapters, words, where)
+    for title, intro_end, cap in placed:
+        if cap > intro_end:
+            flags.append({'kind': 'figure_apart', 'page': cap, 'chapter': title, 'intro_page': intro_end, 'pages_apart': cap - intro_end})
+    figures = {'figure_lines': fig_total, 'introduced_by_a_heading_not_checked': under_heading,
+               'with_a_paragraph_before_them_in_the_section': len(placed), 'not_found': not_found,
+               'begin_on_a_later_page_than_that_paragraph_ends': sum(1 for _, e, cp in placed if cp > e)}
     cannot += ['whether a gap or a short page is meant (a divider, an opener, a page left to a drawing): it measures how far the content reaches',
-               'which figure is which in the chapters it could not pair, and the figures drawn as vectors, which pdfimages cannot see: those are judged only by the gaps they leave',
+               f'{not_found} of {fig_total} figure lines could not be found by their printed caption; {under_heading} sit straight under a heading and are not checked; for the rest it finds where the caption begins, not whether the drawing under it is on the same page',
                'how a page looks beyond how far its content reaches']
     # the list in the order it is read: tails emptiest first, then gap pages emptiest first, then the low-confidence figure separations
     flags.sort(key=lambda f: ({'chapter_end_spill': 0, 'gap_page': 1, 'figure_apart': 2}[f['kind']], f.get('fill', f['page'])))   # emptiest first
@@ -183,14 +235,14 @@ def main(stats, given=None):
               'edition': SLUG, 'source': source, 'pdf_pages': n, 'chapters_hash': chapters_hash(book_files(SLUG)),
               'thresholds': {'spill_fill_below': SPILL_FILL, 'gap_fill_below': GAP_FILL, 'tall_figure_share': LARGE_SHARE, 'figure_inches_at_least': BIG_IMAGE_INCHES},
               'chapters_found': sum(1 for s in starts if s), 'chapters': len(chapters),
-              'counts': dict(Counter(f['kind'] for f in flags)), 'flags': flags, 'raster_figures_over_45_percent_on_pages': tall, 'since_last': since, 'cannot_tell': cannot}
+              'counts': dict(Counter(f['kind'] for f in flags)), 'flags': flags, 'raster_figures_over_45_percent_on_pages': tall, 'figures': figures, 'since_last': since, 'cannot_tell': cannot}
     if findable and found < 0.6 * findable:                             # the figure check leans on the paragraph pages: say so when they are not trustworthy
         result['cannot_tell'].insert(0, f'paragraph pages could not be matched well ({found} of {findable}), so the figure separations below are not reliable')
         result['flags'] = [f for f in result['flags'] if f['kind'] != 'figure_apart']
         result['counts'] = dict(Counter(f['kind'] for f in result['flags']))
     result['paragraphs_found_on_a_page'] = {'found': found, 'of': findable}
     OUT.write_text(json.dumps(result, indent=1, ensure_ascii=False) + '\n')
-    print(f'{n} pages; {len(starts) - starts.count(None)} of {len(chapters)} chapters located; flags: {result["counts"] or "none"}')
+    print(f'{n} pages; {len(starts) - starts.count(None)} of {len(chapters)} chapters located; flags: {result["counts"] or "none"}; figures: {figures}')
     for f in flags:
         print(' ', {k: v for k, v in f.items()})
     if since:

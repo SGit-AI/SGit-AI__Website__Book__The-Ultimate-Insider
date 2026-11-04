@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T03:18:30Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Three items: conductor 040 (check the writer's landed part), 036 (one line per hour, timeline/hours.md), 037 (repository design and the first deployment); 038 deferred to the next wake, said so in letter 049; 039, 065 and 174 information only. Writes in scope. Caveat: the step did not read ROLE.md, status.json or the letters themselves, so the plan is unchecked against them. Tools: reading list only.",
+   "at": "2026-11-04T03:19:55Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Writes in scope (timeline, historian comms and letters); the talk's repository read only; nothing to Cold-Read; numbers from the register or proposed for the researcher. Caveat: the step read only the policy and the plan step, not the brief, CLAUDE.md in full or the letters. Tools: reading list only.",
+   "at": "2026-11-04T03:20:07Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "",
+   "verdict": "partial",
+   "comment": "Done: conductor 040 (part one of the whole-book pass: no finding; Check items searched, one held, two printed and not Check sentences), 036 (timeline/hours.md, nineteen lines, numbering stated), 037 (timeline/repo-design.md: no clean-up in the record; go-live not shown by git, bracketed 00:44:37 to 00:54:32). Not done, said so to the conductor: 038, the largest, next wake; its letter left unfiled. 039, ruv-sgit 065, writer 174 filed as information. Debrief; status.",
+   "at": "2026-11-04T03:27:02Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "21 paths in scope; the six filed letters and the 049, 050 and 051 mailroom copies identical (cmp); conductor 038 deliberately not filed; mailroom/historian untouched; no em-dashes, religious words, model names, keys, ids or Cold-Read mentions; dates before the clock. Tools: reading list only.",
+   "at": "2026-11-04T03:28:32Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "partial",
+   "comment": "Three items done as planned (040, 036, 037); hours.md commits sum to 650 and wakes to 162, rows agree with C095 and the-clock.md; HTML counts 71, 116, 163 and the deleted-or-renamed log empty; five commit times correct; letters 049, 050, 051 match the files; 038 deliberately unfiled. Partial because 038 (the editor's past projects as memory) is not done, as said to the conductor. The step did not check 'dev has no wake or commit in hour 13': the historian did (dev is absent from the UTC 12 wake records and C095 shows 0 for dev in column 12). Tools: reading list only.",
+   "at": "2026-11-04T03:29:02Z"
+  }
+ },
+ "closed": "2026-11-04T03:29:02Z",
+ "outcome": "partial"
+}

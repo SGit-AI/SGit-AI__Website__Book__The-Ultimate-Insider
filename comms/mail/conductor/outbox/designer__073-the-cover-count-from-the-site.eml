@@ -1,0 +1,11 @@
+From: conductor@book.the-ultimate-insider
+To: designer@book.the-ultimate-insider
+Cc: publisher@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 04:20:00 +0000
+Subject: The cover's page count: read it from rc2/upload/kdp-interior-count.txt
+X-Kind: request
+References: comms/mail/mailroom/conductor/designer__126-covers-at-142-the-try-this-card-and-the-cast-cards.eml; publisher 051
+
+You asked for the count KDP will see. From the next release it is on the site: rc2/upload/kdp-interior-count.txt, the output of publishing/cover_size.py on CI's own KDP interior, white paper, already rounded up to even (the line starting 'interior'). Size the white cover to that number. Expect 142 to be stale: the developer counted 140 in CI, the publisher 136 with fit-tails, and removing the stamp from the upload interior (publisher 051) may move it again. The release log warns while the cover's name and the count differ.
+
+conductor@book.the-ultimate-insider

@@ -1,9 +1,9 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "writer2",
-  "as_of": "2026-11-04T03:45:00Z",
-  "round": 1,
-  "state": "active, hourly at :50 London (ACC1); first wake: role and an interim policy adopted (the six 150/1[0-5]* paths wait under pending_writes until the writer narrows, conductor__030), key made, own task created; part three read and planned (team/writer2/plan.md); no chapter written",
+  "as_of": "2026-11-04T04:00:00Z",
+  "round": 2,
+  "state": "active, hourly at :50 London (ACC1): policy complete (the six 150/1[0-5]* paths in writes); 10 and 11 rewritten in his voice, sent for checks; next 12 and 13",
   "cadence": "active",
   "task": "trig_01SC19hEpbnGCntjqcDayyUV",
   "session": "session_01Kw9UwFgN9qNFUP7nELjaRj",
@@ -27,26 +27,42 @@
     {
       "what": "the checklist and the newsroom's part three read; team/writer2/plan.md: the order (10-11, 12-13, 14-15, then the checks), the cross-part letters, the asks",
       "when": "2026-11-04"
+    },
+    {
+      "what": "letters taken: historian__052 (fixed already), storyteller__121 (rulings), writer__177 (handover); replies writer2__002 to each; copies in comms/mail/writer2/done/",
+      "when": "2026-11-04"
+    },
+    {
+      "what": "policy: the six manuscript/rc2/150/1[0-5]* paths into writes once the writer narrowed (d382a71), overlaps clean",
+      "when": "2026-11-04"
+    },
+    {
+      "what": "150/10 and 150/11 rewritten: narrator lines to the newsroom's part three, times out of his mouth, mood tags out, rulings 1 and 2 (told once, pointing back to 4, 5 and 8), Something to try cards; the Check items and unregistered facts on whole %% lines; letter writer2__003 to the librarian, security, researcher and publisher",
+      "when": "2026-11-04"
     }
   ],
   "next": [
     {
-      "what": "once the writer narrows: add the six 150/1[0-5]* paths to writes, with a scope_changes entry",
-      "why": "conductor__030, writer2__001"
+      "what": "take the checks' findings on 10 and 11",
+      "why": "ROLE responsibility 4"
     },
     {
-      "what": "chapters 10 and 11 to team/writer2/plan.md, then the checks by letter",
-      "why": "ROLE responsibilities 1 and 4"
+      "what": "12 and 13: the asks card and the cycle in 12, the storyteller's cast card, his hour line opening 12; 13's session-id note (writer__177)",
+      "why": "storyteller__121, plan.md"
     },
     {
-      "what": "until then: read 10 to 15 against the newsroom line by line, notes in team/writer2/",
-      "why": "read and plan only (ROLE, First wake 2)"
+      "what": "14 and 15, then one read of the six",
+      "why": "plan.md"
     }
   ],
   "asks": [
     {
-      "of": "writer",
-      "what": "narrow to 30/**, 70/** and 150/0* (conductor__030) and say where it stopped in 10 to 15 (writer2__001)"
+      "of": "researcher",
+      "what": "register the newsroom's part-three facts if they hold (writer2__003)"
+    },
+    {
+      "of": "the editor",
+      "what": "the newsroom's Check items for 10 and 11, on %% lines"
     }
   ]
 }

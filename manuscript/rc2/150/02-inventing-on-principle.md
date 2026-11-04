@@ -4,85 +4,75 @@
 
 ## Inventing on principle
 
-**Narrator.** When I started this book, one idea I named was not mine. It comes from a talk by Bret Victor, "Inventing on Principle", given at CUSEC in 2012. His principle, in his words:
+**Narrator.** One idea behind all of this is not mine, and I want to give it its due. In 2012 Bret Victor gave a talk called "Inventing on Principle" at CUSEC, and it is worth your time. His principle, in his words:
 
 > "Creators need an immediate connection to what they create. That's my principle."
 
-**Narrator.** I am not claiming the day lived up to that. A change came back within the hour, not with the next keystroke. But the direction is the same. The distance between what I meant and what the room would see got short enough that I stopped compromising and started fine-tuning, round after round.
+`%% record: C103 (Bret Victor, Inventing on Principle, CUSEC 2012)`
 
-**Narrator.** So what did "immediate" mean on the day? Here is the honest version, from the record, and the card below has every time. In the last stretch before the talk, every ask I made came back in minutes: the quickest inside one, the slowest in about a quarter of an hour.
+**Narrator.** I am not going to pretend the day lived up to that. Victor means the next keystroke; I am talking about minutes. In the last stretch before the talk, the fixes to the player came back in minutes; the bigger asks took longer, and the card below has every one. But I think the direction is what matters. The distance between what I meant and what the room would see got short enough that I stopped compromising and started fine-tuning. That is a different way of working, not just a faster one.
 
-**Narrator.** That is not Victor's keystroke. It is minutes. But it is a round trip I could make while the thing was still mine to change.
+`%% for the editor: the newsroom's "between one minute and about a quarter of an hour" became "the fixes to the player came back in minutes; the bigger asks took longer", because C118 holds the work on asks 1 to 4 at longer than that; his to keep or change.`
 
-`%% for the editor: "With slides, I made that trip alone, and usually once." is the writer's reading of his view; his to keep or drop.`
+**Narrator.** With slides, I made that trip alone, and usually once: the night before, tired, deciding what was good enough.
 
-**Narrator.** With slides, I made that trip alone, and usually once.
+`%% for the editor: the two paragraphs above are the newsroom journalist's rewrite (part one, section 6), close to its words; his to keep or change.`
 
-**Figure:** one ask's round trip drawn to the clock: my ask at 18:25, the commit that answered it at 18:37, and the hold at 18:44 at the edge of the picture.
+**Figure:** a card of my afternoon asks: each with the time I asked, what it built, and the time it came back.
 
-`%% figure brief: Beside it, the eight asks as a small table, each with its time asked and its time back. For the designer; the times from the register, in the card.`
+`%% figure brief: For the designer, from C118 (the afternoon asks: what each built, the time asked and the work's time; "the work", not "landed", for rows 1 to 4) and C105. The times on the card only.`
 
-`%% record: the card's times: C105 (the eight asks: 17:27, 17:30, 17:35 and 17:45 routed within minutes; 18:10 back at 18:14; 18:15 within a minute; 18:25 back at 18:37) C104 (the feedback round) C088 lab/experiments/29-ruv-the-afternoon-loop/`
-`%% band: My afternoon asks with my own time in their commit subjects, and when each came back, as the register holds them.`
+`%% record: C105 (the eight asks) C118 (what each built) C104 (the feedback round) C088 lab/experiments/29-ruv-the-afternoon-loop/`
 
-**Narrator.** That is what I mean by control of the medium, as I put it when I started this book: seeing the effect of a change while I could still do something about it.
+**Narrator.** When I started this book I called this control of the medium, and I still think that is the right name: seeing the effect of a change while I can still do something about it. If the talk is code and data, I own the medium, and if I own the medium, I can change it up to the last minute.
 
-`%% record: C103`
-`%% band: Bret Victor's words as published; the talk named and dated as the register holds it (CUSEC 2012).`
+`%% held out of print until it is registered: the newsroom's "It is also why I keep putting my talks in vaults and on their own sites."`
 
 ## The loop
 
 `%% clock record: the player from about 13:50 to the last fix at 18:37; clock hours of 29 October (C110; the conductor's CK1).`
 
-**Narrator.** That last change is the real story. Not the animation: the loop.
+**Narrator.** Looking back, that last change is the real story, more than any one animation. It is the loop.
 
-**Narrator.** In the afternoon of the 29th I came back to the team and started asking for things. The player, the piece that let me press play on stage, was my first priority; I said so at about ten to two. By seven minutes past three a first version was in. From then until the last hour I kept asking, and each time it came back changed, and I looked again. My last ask for the player has my own time on it, 18:25: two back steps in a row while playing went wrong, and the first slide should open already built. It landed at 18:37.
+**Narrator.** When I came back to the team in the afternoon, I started asking for things, and the first was the player, the piece that would let me press play on stage. A first version was in a little after three. From then until the last hour I kept asking, and each time it came back changed, and I looked again. My last ask for the player was about two back-steps in a row going wrong while playing, and it landed twelve minutes later, seven minutes before I stopped everything.
 
-**Narrator.** That is a feedback loop. See it, ask for it differently, see it again. With slides, the loop ran through me alone. Here it ran through a team, and it ran as fast as I could look.
+`%% held out of print until he confirms it (a Check item): the newsroom's "I had left the team to it through the night and the morning." before "When I came back".`
 
-**Figure:** "A slide versus a loop" (right half): the same idea as a circle of three arrows, see, ask, see again, with a small factory inside the circle doing the work.
+**Narrator.** That is a feedback loop: see it, ask for it differently, see it again. With slides, the loop ran through me alone. Here it ran through a team, and it ran as fast as I could look.
 
-`%% figure brief: The speaker stands outside the circle, looking.`
+`%% held out of print until he confirms it (a Check item): the newsroom's "Which, I discovered, moves the bottleneck. By the end of the afternoon, the slowest part of the factory was me."`
 
-`%% record: c9ced4e 3314ffe dbd75ad C088 timeline/cast-scenes.md (scene 5)`
-`%% band: Rests on the player named his main priority (about 13:50), its port (15:07), and the last fixes made at my word, the last asked at 18:25 and landed at 18:37, inside a wake that was opened and never closed.`
+**Figure:** "A slide versus a loop" (right half): the same idea as a circle of arrows with a small factory inside the circle doing the work.
 
-## One ask, followed in full
+`%% figure brief: The speaker stands outside the circle, looking. The arrows' steps as the designer's drawing settles them (designer__061; conductor__020).`
 
-**Narrator.** The card has every ask and its time back. One of them, followed from my words to the change, shows what "immediate" meant, including where it fell short. At 17:27 I asked, in the conductor's session, for the new pieces the other agents had made to go into the deck, and ended: "So when in doubt add it."
-
-**Narrator.** Two minutes later the conductor routed it to deck, with the first list of gaps, and kept the searching for itself.
-
-**Conductor** *(on the minute, routing)*: "Deck places; it does not search" *(record)*
-
-**Narrator.** At 17:52 deck placed every new piece into the talk's second and third parts, quoting me. At 18:15 the storyteller's check found one piece still in no beat. And when I saw it again, the record does not say. That is the honest end of the round trip: every hand-off is written down, and the last step, me looking, is not.
-
-`%% record: team/historian/reviews/rc2-times.md (the last section, historian__026) a618b29 (17:29:41) b1c9bab (17:52:15, in no wake record of deck's) e8c0fbb (18:15:31) team/conductor/briefs (brief 7, his words at 17:27)`
-`%% band: Dramatised (the conductor's line is its own, from a618b29). Rests on the historian's trace of one ask, from my words at 17:27 to the storyteller's check at 18:15.`
-*Dramatised.*
+`%% record: c9ced4e 3314ffe (15:07, the port) dbd75ad (18:37) C028 C105 (18:25 asked, 18:37 back) C006 (the hold, 18:44) C088 timeline/cast-scenes.md (scene 5)`
 
 ## What a factory is
 
-**Narrator.** So what gave me that loop? Not a better slide tool. A factory.
+**Narrator.** So what changed? It was not a better slide tool. What I had, for one day, was a factory: a team of AI agents built around one objective, run as hard as I could run them, and taken apart when the job was done. Nine of them, each with one job and one page of rules.
 
-**Narrator.** By factory I mean something specific, and fairly modest. A team of AI agents, gathered around one objective, run hard for one day, and taken apart when the job was done. Nine of them, each with one job and one page of rules. Most of the parts were not new: the build, the check every change had to pass, the brief. Each came from something I had built before. The brake that could stop them all was made that night. What was new was having all of them at once, as a team.
+**Narrator.** I want to be careful with that word, because it sounds grander than it is. Most of the parts were not new. The build, the check every change had to pass, the brief: each came from something I had built before. The brake that could stop them all was made that night. What was new was having all of it at once, as a team, on one deadline.
 
-*Words on this page:* an **agent**, here, is an AI that works in a loop: it reads, decides, acts with tools, and checks the result. The **player** is the part of the talk's site that let me press play on stage.
+`%% held out of print until it is registered: the newsroom's "for sgit, for the newsroom, for the earlier talks. Even the idea of agents with written rules came from the behaviour policies I had been working on."`
 
-**Narrator.** It sounds grander than it is. You will meet each of them in the chapters that follow, in the order they arrived: the first four within the hour of an empty project, the rest through the day. One chair at the table stays empty all day, and that matters later.
+**Figure:** the factory in action: the nine at work around one objective, the clock above them, the brake within reach.
 
-**Figure:** the cast cards, greyed, in a row, each with its job in one line: dev, the site and its build; the conductor, the clock and the plan; deck, the talk's beats and slides; ruv-sgit, the workshop of experiments; the researcher, every fact checked against its source; the designer, how it looks on the projector; the storyteller, the order of the story; motion, the pieces that move; studio, several versions side by side.
+`%% figure brief: For the designer, at his note (conductor__020): "What a factory is" gets a picture of the factory in action.`
 
-`%% figure brief: And an empty chair for security, planned and never staffed. Under each card, its arrival time on the cast bar. The designer's cards (LAB 27 and 37), drawn not yet lit.`
+**Narrator.** You will meet them in the order they arrived: the first four within an hour of an empty project, the rest through the day. And one chair stays empty all day. I planned a security agent and never staffed it. That was more coincidence than decision, but looking back I think it says something good: this project never needed one. Part of running a team like this is knowing which engines to start; you do not fire them all up every time. The empty chair comes back later, and it matters there.
 
-**Narrator.** This book is about the factory. The talk was what it happened to make that day. If you have an idea you keep talking over, the factory is the part you can take home.
+`%% record: team/conductor/from-newsroom/2026-11-04__narrator-voice-part-one-delta-01.md (section 1, confirmed by him, 4 November 2026); briefs/2026-11-04__in-session/21-the-whole-book-pass.md; C011 (nine staffed, security proposed and never staffed) C001`
 
-`%% record: C011 C001`
-`%% band: Nine staffed agents and security proposed and never staffed; arrival times are each agent's first commit after the empty repository at 00:16.`
+**Figure:** the cast cards, greyed, in a row, each with its job in one line: dev, the site and its build; the conductor, the clock and the plan; deck, the talk's beats and slides; ruv-sgit, the workshop of experiments; the researcher, every fact checked against its source; the designer, how it looks on the projector; the storyteller, the order of the story; motion, the pieces that move; studio, the best of the old sites brought across.
 
-**Narrator.** Why a day? Because the factory was built fast from parts I already had, run hard on one objective, and taken apart when the objective was met. A factory that is meant to be temporary can be built without the ceremony a permanent one needs, as long as everything it does is written down.
+`%% figure brief: And an empty chair for security, planned and never staffed. The designer's cards (LAB 27 and 37), drawn not yet lit.`
 
-`%% for the editor: "Why a day?" and its answer are the writer's reading of the factory as you described it on 1 November (PS1); his to keep or drop.`
+**Narrator.** So this book is about the factory. The talk was what it happened to make that day. If you have an idea you keep talking over, the factory is the part you can take home.
+
+**Narrator.** Why only a day? Because I think that last part, taking it apart, is the interesting one. We tend to think of a team, human or not, as something you build to last, and so we build it slowly and carefully. This one was meant to be temporary. That let me build it fast, from parts I already had, without the ceremony a permanent team needs, as long as everything it did was written down. The writing down is what made this book possible, and it is also what lets you rebuild it, which is what part 5 does.
+
+`%% for the editor: the factory paragraphs are the newsroom journalist's rewrite (part one, section 6), close to its words, its unregistered facts held out; his to keep or change.`
 
 ## Do this now
 
@@ -92,6 +82,6 @@
 
 ## Where this came from
 
-Bret Victor's talk, as the register holds it. My afternoon asks and when each came back, and the player's afternoon, from the register and the historian's day. The cast and its arrivals. My description of the factory, 1 November 2026. The storyteller's outline for this chapter. This chapter grows from the 70-page edition's chapter 1, its last two sections, and the 30-page edition's "What a factory is", kept as written.
+Bret Victor's talk, as the register holds it. My afternoon asks, what each built and when each came back, and the player's afternoon, from the register and the historian's day. The cast and its arrivals. My description of the factory, 1 November 2026, and my correction on the empty chair, 4 November. The newsroom journalist's rewrite of the narrator's lines. The storyteller's outline for this chapter.
 
-`%% record: claims/register.json C001 C011 C088 C103 C104 C105; timeline/cast-scenes.md scene 5; briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md; chapter-plan/edition-150-outline.md part 1 chapter 2; manuscript/rc2/70/01-slides-as-a-compromise.md; manuscript/rc2/30/01-the-creators-problem.md`
+`%% record: claims/register.json C001 C006 C011 C028 C088 C103 C104 C105 C118; team/conductor/from-newsroom/2026-11-04__narrator-voice-part-one.md (section 6) team/conductor/from-newsroom/2026-11-04__narrator-voice-part-one-delta-01.md; timeline/cast-scenes.md scene 5; briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md; chapter-plan/edition-150-outline.md part 1 chapter 2; manuscript/rc2/70/01-slides-as-a-compromise.md; manuscript/rc2/30/01-the-creators-problem.md`
