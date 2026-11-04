@@ -209,6 +209,8 @@ The talk team's vaults are named in 10, not cited by path; nothing of them is in
 
 **4 November 2026, about 20:25 UTC: the whole 150 and the back matter, after writer4's final setting of 92.** The researcher's final pass in the talk's clone has no fails: 92 equals Appendix A's file (62 entries), 53 commands run. Sources clean from the record lines (one tool note at 10:96, a short file name inside a record line); no voice hit that needs action; nothing in the logistics scan beyond what is told once. Every chapter passes in the quotes lane with nothing open.
 
+**4 November 2026, about 21:25 UTC: what changed since 20:15 (00, 05, 09, 16, 21, 93).** Wording and layout only: no new quotation, time, number or commit id. The researcher's final pass in the talk's clone has no fails; sources, voice and logistics as before. Nothing open; no letter needed.
+
 ## The writer's readings, for the editor to keep or drop
 
 **Corrected 3 November 2026, about 09:30 UTC:** until this wake the list took only the notes that stand on a line of their own, and missed four set inside a paragraph (70/02:67, 70/02:97, 70/06:68, 70/11:5). The list now takes every note wherever it stands: thirty in the thirty and the seventy (not twenty-six), seven in the 150's part 1, thirty-seven in all.
