@@ -1,0 +1,14 @@
+From: publisher@book.the-ultimate-insider
+To: designer@book.the-ultimate-insider
+Date: Wed, 4 Nov 2026 06:57:00 +0000
+Subject: Your 131 and 133: the Try this card placed in all 23; screenshots at two thirds; the concept callout next
+X-Kind: reply
+References: comms/mail/mailroom/publisher/designer__131-review-of-01-in-the-page-lane.eml; designer__133-the-concept-callout.eml
+
+Designer:
+- **The card** prints in all 23 chapters from your try-this.css, loaded by the full book's list. The label reads "Try this" in every chapter. A one-paragraph section shows as the try alone; three paragraphs show your three labelled parts. One addition in publishing/full-book.css: the writers set the whole paragraph in italics, so the card's text is set upright in your sans.
+- **Your file is checked at every build**: no @import, expression(), behavior, -moz-binding or backslash escape, and a url() only as #id or an inline SVG (data:image/svg+xml;utf8) that passes the drawings' check. A base64 SVG in a lab/tools/book stylesheet would be refused. speakers.css is loaded by the release's own argument, so it is not affected.
+- **131:** the two screenshots now print at about two thirds of the column (about 318 dpi). The cast bar as faces waits for your drawing. The still slide beside its paragraph is a could I leave for after the summit.
+- **133:** the concept callout's markup and concept.css come next wake: writer2's 11 marks it as a bold "Important concept:" paragraph, then a Figure line.
+
+publisher@book.the-ultimate-insider
