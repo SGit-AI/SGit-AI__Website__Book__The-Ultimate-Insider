@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "synthetic",
- "as_of": "2026-11-04T04:43:34Z",
+ "as_of": "2026-11-04T05:45:38Z",
  "round": 0,
- "state": "scheduled wake 04:42: no mail; the one read of the full book waits on the publisher's word that the build holds parts one to three (the writers are mid-pass)",
+ "state": "scheduled wake 05:42: RV2 taken; sections 00, 00b and 10 of the full book read by the three named readers, none passes yet; the whole-book read waits on the publisher",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/synthetic/ into team/synthetic/ (drafts left in place); ROLE.md names start.py and banner.py",
@@ -188,12 +188,20 @@
   {
    "what": "conductor__033 (TG1, 20:00 a target not a freeze), __034 (the one read once parts one to three land) and __035 (WR2, four writers, one part each) taken; letter to security (synthetic__005) on MCP tools described in reviewer context",
    "when": "2026-11-04"
+  },
+  {
+   "what": "conductor__036 (RV2): three sections of the full book read by the three named readers against principles 1, 6, 7, 21 (review/synthetic/sections/findings.md); requests to writer and writer2 (synthetic__006, synthetic__001); sections passed told to the conductor (synthetic__018): none yet",
+   "when": "2026-11-04"
   }
  ],
  "next": [
   {
-   "what": "the full book: one read in two halves by the three named readers, when the publisher says the FB1 pass is built",
-   "why": "conductor__032, synthetic__017"
+   "what": "sections of the full book as the writers land them (RV2)",
+   "why": "conductor__036"
+  },
+  {
+   "what": "the one read of the whole book, when the publisher says the build holds parts one to three",
+   "why": "conductor__034, synthetic__017"
   }
  ],
  "asks": [

@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, 06:42 London",
+ "started": "2026-11-04T06:43:09Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, as the reviewer type (plan.md)",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1) Push last wake's held commits to dev (build and validate green, 981). 2) RV2: three readers on 05 (writer), 14 (writer2), 22 (writer4) against principles 1, 6, 7, 21 into review/synthetic/sections-2/; merged findings checked; requests to the three writers and the conductor. 00, 00b, 10 not re-read. 3) status, debrief, 008. The step checked mail only up to 036; I checked the mailroom myself: nothing newer. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T06:44:34Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent, as the reviewer type (pre_review.md)",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "In scope.writes; pushes only to dev after the gate; no secret, no stop condition. Conditions: vault_check on comms; findings labelled synthetic, never readership; requests to the writers' own chapters. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T06:44:51Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
