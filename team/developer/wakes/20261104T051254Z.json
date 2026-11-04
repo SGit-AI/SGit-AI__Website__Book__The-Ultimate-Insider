@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled wake, 05:12",
+ "started": "2026-11-04T05:12:54Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Plan step run late, after the first probe and tool edits had begun (uncommitted, own paths only); disclosed as a process deviation, not repeated. Plan: (1) publisher__004 heading counts as introduction, in print_check.py and make_editions.py; (2) page check on the 136-page PDF of 05:11, mail only changes (developer__038); (3) inbox, debrief, status, REALITY, build, push. Reviewer agent: tools Read, Grep, Glob, Bash; connector instructions for Claude_Docs, github, Gmail in context, no tools for them. Watch: renamed key introduced_by_a_heading_not_checked; large pages diff.",
+   "at": "2026-11-04T05:14:54Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions for Claude_Docs, github, Gmail in context, no tools for them). Plan within policy; late plan step accepted as a disclosed deviation; watch the renamed key and the regenerated pages diff.",
+   "at": "2026-11-04T05:16:17Z"
+  },
+  "work": {
+   "by": "developer",
+   "model": "",
+   "verdict": "done",
+   "comment": "Heading figures checked (25 of 26 placed, none apart), page check on the 136-page PDF of 05:11, tools rerun in order, developer__038 sent to publisher and designer (outbox cmp same), inbox copies, debrief, status, REALITY; build and gate clean; scratch PDFs deleted. Process deviation: tool edits began before the plan step; disclosed.",
+   "at": "2026-11-04T05:17:41Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions for Claude_Docs, github, Gmail in context, no tools for them; it first said none, then corrected). As planned. Notes: the mail repeats the full lists beside what changed; its Date header (05:40) and status as_of (05:45) were later than the real time (05:18): corrected to 05:18 in all three mail copies (cmp same) and status. Disclosed plan-step deviation stands.",
+   "at": "2026-11-04T05:18:15Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions for Claude_Docs, github, Gmail in context, no tools for them, none used). Clean: mail numbers match print-check.json; no caption, PDF text or path; heading values are titles only; ids differ only where chapter text changed (text identical for shared ids); outbox cmp same; renamed key read by nothing. Notes: mail Date header and status time were ahead of the clock, since corrected to 05:18; mail's 'last modified 05:11' is the file's release time.",
+   "at": "2026-11-04T05:18:37Z"
+  }
+ },
+ "closed": "2026-11-04T05:18:37Z",
+ "outcome": "ok"
+}
