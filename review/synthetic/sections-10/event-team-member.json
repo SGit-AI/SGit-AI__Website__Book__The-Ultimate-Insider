@@ -1,0 +1,35 @@
+{
+ "schema": "the-ultimate-insider/synthetic-section-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "event-team-member",
+ "read_at": "58e94a82",
+ "would_read_on": {
+  "90-the-tour-at-length": "no",
+  "91-the-words-used": "maybe",
+  "93-appendix-b-the-control-register": "yes"
+ },
+ "findings": [
+  {"file": "90-the-tour-at-length.md", "line": 75, "quote": "The same three circles, drawn in front of the room one by one, so the overlap arrives last.", "principle": "21", "severity": "should", "why": "The figure caption, the narrator and the deck line all say the circles are drawn one at a time, so one slide is told three times."},
+  {"file": "90-the-tour-at-length.md", "line": 147, "quote": "in the first act it is allowed, in the second refused, in the third passed up to a person to decide", "principle": "21", "severity": "should", "why": "The figure line, the narrator and the Studio quote ('Allowed, denied, or asked') all give the same three outcomes."},
+  {"file": "90-the-tour-at-length.md", "line": 60, "quote": "Three things collide; where they overlap is the story.", "principle": "21", "severity": "could", "why": "It reads out the figure line above it, which already says three circles with the scenario in the overlap."},
+  {"file": "90-the-tour-at-length.md", "line": 18, "quote": "These are the night shift's work. ruv-sgit made the moving pictures for the talk", "principle": "1", "severity": "should", "why": "The narrator reports what an agent made, with no 'I' and no hindsight; the same happens at stops 3, 6 and 11."},
+  {"file": "90-the-tour-at-length.md", "line": 45, "quote": "This is how a slide was made when it mattered.", "principle": "1", "severity": "could", "why": "A catalogue sentence in the narrator's voice, with no sign of what the editor thought then or thinks now."},
+  {"file": "90-the-tour-at-length.md", "line": 9, "quote": "How to read the scenes: they are dramatised.", "principle": "6", "severity": "could", "why": "It is an instruction on how to read, and a reader scanning on a phone reaches it before any scene has earned it."},
+  {"file": "90-the-tour-at-length.md", "line": 7, "quote": "At the end of a book about how the factory worked, here is the rest of what it made", "principle": "reader", "severity": "must", "why": "Thirteen stops of pages I cannot open from a phone between meetings, with nothing saying what my team could take from them; I would stop here."},
+  {"file": "90-the-tour-at-length.md", "line": 20, "quote": "If a fresh copy of me cannot rebuild it from the explainer and the data, it is not finished.", "principle": "reader", "severity": "could", "why": "This is the one line that answers my question about agents on a team, but it sits in a quoted aside under a figure I cannot see."},
+  {"file": "91-the-words-used.md", "line": 20, "quote": "like deck's, still open when the hold came", "principle": "reader", "severity": "should", "why": "Deck is a cast member the glossary has not introduced, so the definition leans on a name the entry does not explain."},
+  {"file": "91-the-words-used.md", "line": 16, "quote": "hour one runs from midnight to a minute before one, and the talk was due as hour nineteen ended", "principle": "7", "severity": "could", "why": "It is a clock definition in the middle of an otherwise alphabetical list, and the order breaks here (and at 'mailroom' and 'player')."},
+  {"file": "91-the-words-used.md", "line": 9, "quote": "The check (the team called it the gate)", "principle": "reader", "severity": "should", "why": "Appendix B then says 'the gate before every release' and 'the check' in different rows, so the reader does not know if they are one thing."},
+  {"file": "93-appendix-b-the-control-register.md", "line": 17, "quote": "a pin proves which tool it is, not that the tool is sound", "principle": "reader", "severity": "should", "why": "'Pin' is not in the glossary, and the row is the one I most wanted to follow."},
+  {"file": "93-appendix-b-the-control-register.md", "line": 20, "quote": "Public vaults, checked before every commit", "principle": "reader", "severity": "should", "why": "Vaults are not explained here or in the words list, and the tour says the page of vaults is left out."},
+  {"file": "93-appendix-b-the-control-register.md", "line": 32, "quote": "that same evening the usage limit came before any hold did", "principle": "reader", "severity": "should", "why": "A real cost for a team like mine, but it is written as a clipped aside with no account of what the limit stopped."},
+  {"file": "93-appendix-b-the-control-register.md", "line": 7, "quote": "The difference is the book's point.", "principle": "1", "severity": "could", "why": "A strong claim worth saying as the editor ('I think'), not as a pointer to the book."}
+ ],
+ "what_holds": [
+  "93-appendix-b-the-control-register.md: the setting versus expectation split is the first thing I could take to my own team; the two tables with 'what it missed' are frank and the failures stay in.",
+  "93-appendix-b-the-control-register.md: line 7, 'it held because nothing pushed on it', says in one sentence why expectations are weak.",
+  "91-the-words-used.md: short plain definitions, each pointing to a chapter, which is what I wanted from a glossary on a phone.",
+  "90-the-tour-at-length.md: the 'Never silent' line and the pairing of a figure, a narrator line and one agent line make each stop short enough to scan."
+ ],
+ "notes": "As a team member with my own agent, I came for how a team runs with an agent each. Appendix B answers that; the tour does not, and the stops read as a gallery of pages. Record lines and %% notes skipped as a reader would."
+}

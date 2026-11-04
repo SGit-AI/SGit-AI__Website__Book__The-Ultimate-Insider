@@ -1,0 +1,35 @@
+{
+ "schema": "the-ultimate-insider/synthetic-section-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "first-build-finisher",
+ "read_at": "58e94a82",
+ "would_read_on": {
+  "90-the-tour-at-length": "maybe",
+  "91-the-words-used": "yes",
+  "93-appendix-b-the-control-register": "maybe"
+ },
+ "findings": [
+  {"file": "90-the-tour-at-length.md", "line": 7, "quote": "At the end of a book about how the factory worked, here is the rest of what it made", "principle": "reader", "severity": "should", "why": "A first-build finisher has not been told what the factory or the talk's site is, so the opening assumes the whole book has been read."},
+  {"file": "90-the-tour-at-length.md", "line": 9, "quote": "The words the agents say are ours, written for this book", "principle": "reader", "severity": "should", "why": "Who 'ours' is is unclear, and it is the only warning that the speech is invented; it sits in a small italic line a phone reader may skip."},
+  {"file": "90-the-tour-at-length.md", "line": 18, "quote": "These are the night shift's work.", "principle": "reader", "severity": "should", "why": "The night shift and ruv-sgit appear with no introduction, so a reader without chapters 1 to 3 does not know who is meant."},
+  {"file": "90-the-tour-at-length.md", "line": 30, "quote": "The line on the slide matters: the map shows where things sit relative to each other.", "principle": "6", "severity": "could", "why": "Telling the reader a line matters ranks their attention, and the next sentence repeats what the slide already says."},
+  {"file": "90-the-tour-at-length.md", "line": 30, "quote": "You met maps like this one in chapter 8.", "principle": "1", "severity": "could", "why": "It points at the book rather than speaking as the editor remembering the moment."},
+  {"file": "90-the-tour-at-length.md", "line": 147, "quote": "The point is the receipt at the end of each: every decision leaves a record.", "principle": "21", "severity": "should", "why": "The agent's line below, 'Allowed, denied, or asked. Never silent.', says the same thing again."},
+  {"file": "90-the-tour-at-length.md", "line": 45, "quote": "A brief for one part of the argument; several versions made side by side; a review of each;", "principle": "7", "severity": "could", "why": "A run of fragments strung with semicolons, then the Studio line repeats the winning idea."},
+  {"file": "90-the-tour-at-length.md", "line": 198, "quote": "The page of the team's keys you saw in chapter 3, where every key is public and made for one session.", "principle": "reader", "severity": "should", "why": "A reader meeting keys and vaults for the first time sees something is being withheld but gets no plain reason why."},
+  {"file": "90-the-tour-at-length.md", "line": 211, "quote": "it may be worth asking an agent to build the next one the same way.", "principle": "reader", "severity": "must", "why": "This is the only next step offered to someone who has just built a first app, and it is vague: no first action and no sense of what 'one page of your own' means."},
+  {"file": "91-the-words-used.md", "line": 9, "quote": "The **check** (the team called it the gate)", "principle": "reader", "severity": "could", "why": "The book switches between check and gate, so a newcomer may think they are two things."},
+  {"file": "91-the-words-used.md", "line": 14, "quote": "A **handover** is the note one session leaves for the session that takes its place.", "principle": "reader", "severity": "could", "why": "It leans on 'session', which is defined only a few lines further down, and the list does not link them."},
+  {"file": "91-the-words-used.md", "line": 28, "quote": "A **Wardley map** is a picture that shows what something depends on", "principle": "reader", "severity": "could", "why": "The one outside term is explained in the same flat way as the book's own words and is easy to take as team slang."},
+  {"file": "93-appendix-b-the-control-register.md", "line": 7, "quote": "The difference is the book's point.", "principle": "6", "severity": "should", "why": "It tells the reader what to take away, and 'setting' against 'expectation' is the idea a beginner most needs shown with an example."},
+  {"file": "93-appendix-b-the-control-register.md", "line": 13, "quote": "it reports and does not refuse; it catches mistakes, not a steered agent, as the team's own slide said", "principle": "reader", "severity": "should", "why": "'A steered agent' is never explained here, so the cell is opaque to someone without the earlier chapters."},
+  {"file": "93-appendix-b-the-control-register.md", "line": 33, "quote": "one probably refused or never sent, and none acted", "principle": "reader", "severity": "should", "why": "The cell is a dense count of attempts with no example, and a reader without a coding background cannot tell what a review step reaching a tool means."},
+  {"file": "93-appendix-b-the-control-register.md", "line": 3, "quote": "It never says how a control could be got round", "principle": "reader", "severity": "could", "why": "Reassuring in intent, but 'it' is unclear and the sentence is a careful hedge in the first lines."}
+ ],
+ "what_holds": [
+  "91-the-words-used.md: short plain definitions, each with its chapter, so I can look up an unfamiliar word fast.",
+  "90-the-tour-at-length.md: one figure, one narrator line and one agent line per stop is a pace a phone reader can follow.",
+  "93-appendix-b-the-control-register.md: the setting against expectation split, and the failures listed beside the successes, make it honest about 'how safe was this?'."
+ ],
+ "notes": "Read as a phone reader with five minutes: none of the three sections is a next step after a first build; they are reference material. Only the closing 'Something to try' in section 90 speaks to my situation, and it is thin."
+}
