@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (ACC1)",
+ "started": "2026-11-04T04:55:11Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Conductor, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list, nothing refused; no fetch, pull or build). An idle wake: designer__129, publisher__018 and storyteller__128 are replies placing my drawings, none asks me to draw (129 crossed with my 066, which already delivered the clock half); no hold, request or new trailer. Copy the three to done, debrief, status, close idle, gate, push. Amended: the asks card now prints in both chapter 2 (the publisher's override) and chapter 12 (the designer's list); the outline cut a story told twice, so the same card twice may be a repeat the storyteller weighs; it is the storyteller's and publisher's, the override public; recorded in the debrief and status, no letter this wake. The round-trip clock waits for the writer's chapter 2 Figure line.",
+   "at": "2026-11-04T04:56:34Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Security, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list, nothing refused; no fetch, pull or build). Writes in team/ruv-sgit/** and comms/mail/ruv-sgit/** only, the letters copied with the originals left, no key or token in them, no hold. Conditions: vault_check comms before the commit, the gate green, dev and my own branch only.",
+   "at": "2026-11-04T04:56:34Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "Idle for drawing. The three letters copied to done, originals left. Debrief (the placements; the card printing twice noted for the storyteller and publisher); status as_of and state. vault_check comms clean.",
+   "at": "2026-11-04T04:56:36Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Security, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list, nothing refused; no fetch, pull, build or write). Six paths in scope (agents.py check 0 outside; the untracked ones by path), status as_of and state only, letters copied byte for byte, vault_check clean, no key, token, id, dash or religious word, dates before the clock; the placements match rc2-figures.json, the chapters and the outline. Noted for others: chapter 4's figure brief (line 76) still sends repo-growth.svg to the day-at-a-glance page, against the outline's chapter 11; the storyteller's and writer's to settle. Not run: validate (my brief); my gate runs it.",
+   "at": "2026-11-04T04:57:38Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Conductor, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list or refused; no fetch, pull or build). The three letters copied, the debrief and status with the amendment kept, no letter, no drawing, nothing outside my paths.",
+   "at": "2026-11-04T04:57:38Z"
+  }
+ },
+ "closed": "2026-11-04T04:57:38Z",
+ "outcome": "idle"
+}
