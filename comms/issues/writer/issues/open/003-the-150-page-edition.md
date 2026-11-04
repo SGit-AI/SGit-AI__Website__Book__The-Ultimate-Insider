@@ -33,3 +33,4 @@ The full book: every scene, the appendices, the record markers live online. Writ
 - 4 November 2026, 07:37 UTC: 08 in his voice; the review desk's musts; 06 and 07 at length next (board 006).
 - 4 November 2026, 08:36 UTC: 03b the day at a glance; 03's keys stop; 06 and 07 at length; board 006 next.
 - 4 November 2026, 09:36 UTC: the review desk's musts in 03, 06, 07; part of board 006.
+- 4 November 2026, 10:33 UTC: 07 retitled; plain words in 01 and 04; critic1 003 done.

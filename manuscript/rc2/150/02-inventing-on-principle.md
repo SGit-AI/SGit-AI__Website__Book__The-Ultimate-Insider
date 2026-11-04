@@ -10,7 +10,7 @@
 
 `%% record: C103 (Bret Victor, Inventing on Principle, CUSEC 2012)`
 
-**Narrator.** I am not going to pretend the day lived up to that. Victor means the next keystroke; I am talking about minutes. In the last stretch before the talk, the fixes to the player came back in minutes; the bigger asks took longer. The clock below shows the last of them. The distance between what I meant and what the room would see got short enough that I stopped compromising and started fine-tuning.
+**Narrator.** I am not going to pretend the day lived up to that. Victor means the next keystroke; I am talking about minutes. In the last stretch before the talk, the fixes to the player came back in minutes; the bigger asks took longer. The last of them is drawn in the next section. The distance between what I meant and what the room would see got short enough that I stopped compromising and started fine-tuning.
 
 `%% for the editor: the newsroom's "between one minute and about a quarter of an hour" became "the fixes to the player came back in minutes; the bigger asks took longer", because C118 holds the work on asks 1 to 4 at longer than that; his to keep or change.`
 
@@ -19,12 +19,6 @@
 `%% for the editor: the two paragraphs above are the newsroom journalist's rewrite (part one, section 6), close to its words; the fine-tuning is his own word (briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md); his to keep or change.`
 
 `%% for the editor (his view, held out of print until he confirms it, P30): the newsroom's "But I think the direction is what matters." before "The distance", and "That is a different way of working, not just a faster one." after "started fine-tuning".`
-
-**Figure:** my last ask for the player drawn to the clock: asked, answered twelve minutes later, and the hold seven minutes after that.
-
-`%% figure brief: ruv-sgit's lab/experiments/29-ruv-the-afternoon-loop/edition/round-trip-clock.svg (ruv-sgit__066): the ask at 18:25, the commit that answered it at 18:37, the hold at 18:44 at the edge, with no table; times from C105 and C006. The asks card (asks-card.svg, from C118) stays in chapter 12 (storyteller__126).`
-
-`%% record: C105 (the eight asks; 18:25 asked, 18:37 back) C006 (the hold, 18:44) C118 (what each built) C104 (the feedback round) C088 lab/experiments/29-ruv-the-afternoon-loop/; comms/mail/mailroom/writer/storyteller__126-re-182.eml`
 
 **Narrator.** When I started this book I called this control of the medium: seeing the effect of a change while I can still do something about it. If the talk is code and data, I own the medium, and if I own the medium, I can change it up to the last minute.
 
@@ -38,7 +32,13 @@
 
 `%% for the editor (his view, held out of print until he confirms it, P30): the newsroom's "Looking back, that last change is the real story, more than any one animation. It is the loop." to open the section.`
 
-**Narrator.** When I came back to the team in the afternoon, I started asking for things, and the first was the player, the piece that would let me press play on stage. A first version was in a little after three. From then until the last hour I kept asking, and each time it came back changed, and I looked again. My last ask for the player was about two back-steps in a row going wrong while playing, and it landed twelve minutes later, seven minutes before I stopped everything.
+**Narrator.** When I came back to the team in the afternoon, I started asking for things, and the first was the player, the piece that would let me press play on stage. A first version was in a little after three. From then until the last hour I kept asking, and each time it came back changed, and I looked again. My last ask for the player was about two back-steps in a row going wrong while playing, and it landed just before I stopped everything.
+
+**Figure:** my last ask for the player drawn to the clock: asked, answered twelve minutes later, and the hold seven minutes after that.
+
+`%% figure brief: ruv-sgit's lab/experiments/29-ruv-the-afternoon-loop/edition/round-trip-clock.svg (ruv-sgit__066): the ask at 18:25, the commit that answered it at 18:37, the hold at 18:44 at the edge, with no table; times from C105 and C006. The asks card (asks-card.svg, from C118) stays in chapter 12 (storyteller__126).`
+
+`%% record: C105 (the eight asks; 18:25 asked, 18:37 back) C006 (the hold, 18:44) C118 (what each built) C104 (the feedback round) C088 lab/experiments/29-ruv-the-afternoon-loop/; comms/mail/mailroom/writer/storyteller__126-re-182.eml`
 
 `%% held out of print until he confirms it (a Check item): the newsroom's "I had left the team to it through the night and the morning." before "When I came back".`
 
@@ -82,9 +82,9 @@
 
 ## Something to try
 
-*A first brief can be one sentence: what you want the room to understand, and what they should be able to do afterwards.*
+*Everything in this book started from one sentence: what I wanted the room to understand, and what they should be able to do afterwards.*
 
-*If you try writing yours down, keep it where everyone working with you can see it.*
+*If you try writing yours down, you have your first brief; keep it where everyone working with you can see it.*
 
 `%% record: team/conductor/from-newsroom/2026-11-04__do-this-now-as-invitations.md (chapter 2, the proposed card); chapter-plan/cast/cast-guide.md (page conventions 1)`
 
