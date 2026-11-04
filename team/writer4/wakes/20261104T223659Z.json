@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer4",
+ "kind": "scheduled, hourly at :35",
+ "started": "2026-11-04T22:36:59Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "conductor 011 (brief 33): 1) 23's last word to the journalist's version (LW2) with FB2's channels, the signed line unchanged. 2) 22 dated as the plan of the start of November, Web Summit one example. 3) 20's handover walk-through to two conductor lines and its figure (held until drawn). 4) 21's roll call to four spoken lines and the drawing; security's line once; the table kept. 5) 90 'One page I like'. 6) 92's head says who it is for. 7) letters to the writer (page 7's channels in step), the storyteller, the designer; records.",
+   "at": "2026-11-04T22:38:59Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Within policy. FB2's address may print in 23 at the editor's signed word; condition: never in comms/ or the team's records, referred to there as FB2's channels; vault_check on comms before commit.",
+   "at": "2026-11-04T22:40:13Z"
+  },
+  "work": {
+   "by": "writer4",
+   "model": "",
+   "verdict": "done",
+   "comment": "brief 33: 23 LW2 with FB2's channels (in the chapter only); 22 dated; 20's walk-through to two lines; 21's roll call to four; 90, 92 heads; letter writer4__017; records. Build and gate clean.",
+   "at": "2026-11-04T22:42:23Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Validate, agents check, vault_check clean; FB2's address only in 23, none in comms/ or team/; no em-dash, RW1 word, single-% line, key, or new number or time.",
+   "at": "2026-11-04T22:43:28Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "All seven items in the diff; nothing unplanned.",
+   "at": "2026-11-04T22:43:28Z"
+  }
+ },
+ "closed": "2026-11-04T22:43:29Z",
+ "outcome": "ok"
+}

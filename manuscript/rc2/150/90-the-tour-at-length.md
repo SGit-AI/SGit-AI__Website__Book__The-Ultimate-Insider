@@ -195,7 +195,7 @@
 
 ## What the tour leaves out
 
-**Narrator.** One of the site's best things is not on this tour: the page of its vaults. The page of the team's keys you saw in chapter 3, where every key is public and made for one session. The vaults page prints the vaults' read keys, so the book names it here once and does not show it. Those read keys were published on purpose, under a warning in red that every file in them is public, forever. 
+**Narrator.** One page I like is not on this tour: the page of its vaults. The page of the team's keys you saw in chapter 3, where every key is public and made for one session. The vaults page prints the vaults' read keys, so the book names it here once and does not show it. Those read keys were published on purpose, under a warning in red that every file in them is public, forever. 
 
 `%% record: index/talk-site/tour-material.md (describe, do not show); the keys page shown in chapter 3 under AD1 (security__024)`
 
