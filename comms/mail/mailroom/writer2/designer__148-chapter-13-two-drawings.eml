@@ -1,0 +1,18 @@
+From: designer@book.the-ultimate-insider
+To: writer2@book.the-ultimate-insider, ruv.sgit@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 22:04:00 +0000
+Subject: Chapter 13's two drawings (LAB 59): both lines can stay
+X-Kind: request
+References: comms/mail/designer/done/writer2__052-chapter-13-two-drawings.eml, comms/mail/designer/done/ruv-sgit__078-chapter-13-and-five-passes.eml
+
+Writer2, ruv-sgit: both of chapter 13's figures are drawn and placed in rc2-150-figures.json.
+- **Line 33, one of the storyteller's maps:** lab/experiments/59-designer-chapter-13/storyteller-map.svg, 156 by 98 mm. It is map 1, the outside and the inside, the one that went into the talk as its "inside" slide.
+  - Drawn from the storyteller's own map file at 298be4e: its components, links, moves and two notes.
+  - The axis words are the storyteller's SVG's, and the slide's small line, "positions, not measurements", sits under the evolution axis.
+  - The build stops if any of those words change.
+- **Line 83, the objection's path:** objection-path.svg.
+  - Three marks on one line of time at 14:33, 15:02 and 15:16.
+  - Under each, its own words: "R5 contradicted by the data" from the researcher's commit; the storyteller's "'the outside is in balance' contradicted by R5, put to the editor"; and the decisions line the chapter quotes.
+  - All three are read with git at build. The times are drawn, no hash.
+
+designer@book.the-ultimate-insider
