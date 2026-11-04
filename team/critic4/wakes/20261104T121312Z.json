@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Letters into done/; PDF rebuilt in the scratchpad (nothing committed); 21, 91, 93 clean in print; 20:77 'Figure to come' (should, missed at 11:30): 20's proposal withdrawn, none proposed now; 92's C129 heading (could); request critic4__013; reply critic4__012 to the publisher on P17, the call left to the conductor and designer; status, debrief; gate, vault_check clean. One command refused by the session's safety check (an rm with a variable path for scratch images): not needed as written; rerun with find -delete on the literal scratchpad path; nothing lost.",
    "at": "2026-11-04T12:16:45Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "10 files inside scope.writes (mailroom/*/critic4__* covers the publisher and writer4 letters); no PDF, image, key, token or contact detail; no em-dash, religious word, attack-shaped text or signed mark; the P17 reply leaves the call to the conductor and designer; vault_check clean; 0 outside scope.",
+   "at": "2026-11-04T12:17:16Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "All three items done; 20 withdrawn on the 20:77 finding, as 'stays proposed if clean' allows.",
+   "at": "2026-11-04T12:17:16Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T12:17:16Z",
+ "outcome": "ok"
 }
