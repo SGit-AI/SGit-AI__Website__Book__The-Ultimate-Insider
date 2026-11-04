@@ -1,6 +1,6 @@
 # Appendix A for the full book: every number, and how to rerun it
 
-researcher@book.the-ultimate-insider, 3 November 2026, the 22:32 London wake, at the writer's letter 143, rebuilt at the 23:32 wake. Every register id the full book (`manuscript/rc2/150/`, chapters 01 to 23, 90, 91 and 94) cites, with C113 and C114 for chapter 94 to cite, in order. Each entry gives its claim, its state, its source, the command that reproduces it, and the chapters that cite it. It is built from `claims/register.json`, which stays the only source: if this file and the register differ, the register holds.
+researcher@book.the-ultimate-insider, 3 November 2026, the 22:32 London wake, at the writer's letter 143, rebuilt at the 23:32 and 00:32 wakes. Every register id the full book (`manuscript/rc2/150/`, chapters 00 to 23, 90, 91, 94 and Appendix B) cites, with C113, C114 and C115 for chapters to cite, in order. Each entry gives its claim, its state, its source, the command that reproduces it, and the chapters that cite it. It is built from `claims/register.json`, which stays the only source: if this file and the register differ, the register holds.
 
 **How to read it:**
 - The commands do not all run against the same thing. Each runs against the source its entry names:
@@ -36,7 +36,7 @@ git log 298be4e --until=2026-10-29T19:00:00Z --format='%h %ci %an %s' | head -3
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapters 03, 15, 16, 17, 18, 90.
+- **Cited in:** chapters 03, 15, 16, 17, 18, 90, Appendix B.
 
 ```
 git log 298be4e --since=2026-10-29T18:44:00Z --until=2026-10-29T19:00:00Z --format='%h %ci %an %s'
@@ -89,7 +89,8 @@ git log 298be4e --reverse --format='%ci %h %s' -- team/motion/key.json team/stud
 - **Cited in:** chapters 03, 05, 09, 15, 17, 19, 90.
 
 ```
-git rev-list --merges --count 298be4e; git log 298be4e --merges --author=Claude --format=%h | wc -l; then the attribution script in team/researcher/debriefs/2026-10-30__rc1-numbers-review.md
+git rev-list --merges --count 298be4e; git log 298be4e --merges --author=Claude --format=%h | wc -l
+# then the attribution script in team/researcher/debriefs/2026-10-30__rc1-numbers-review.md
 ```
 
 ## C015: 58 beats in three parts
@@ -126,7 +127,7 @@ python3 -c "import json,subprocess as s;R='298be4e';fs=[f for f in s.run(['git',
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapters 12, 14, 15, 18.
+- **Cited in:** chapters 12, 14, 15, 18, Appendix B.
 
 ```
 method: the script in team/researcher/debriefs/2026-10-30__rc1-numbers-review.md (parses every team/*/wakes/*.json at 298be4e; counts steps.<step>.verdict and history entries)
@@ -136,7 +137,7 @@ method: the script in team/researcher/debriefs/2026-10-30__rc1-numbers-review.md
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapters 15, 16, 18.
+- **Cited in:** chapters 15, 16, 18, Appendix B.
 
 ```
 git log 298be4e --diff-filter=A --format='%h %ci %s' -- 'team/*/HOLD.md'; git log 298be4e --diff-filter=D --format='%h %ci %s' -- 'team/*/HOLD.md'
@@ -146,7 +147,7 @@ git log 298be4e --diff-filter=A --format='%h %ci %s' -- 'team/*/HOLD.md'; git lo
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapters 06, 07, 08, 09, 17, 18.
+- **Cited in:** chapters 06, 07, 08, 09, 17, 18, Appendix B.
 
 ```
 method: the C023 parse, selecting steps.post_review.verdict == 'finding', read with the same record's post_check comment
@@ -209,7 +210,9 @@ git show 298be4e:evidence/claims/claims.json | python3 -c "import json,sys;[prin
 - **Cited in:** chapters 07, 17.
 
 ```
-git log 298be4e -S'data-count="17.4"' --format='%h %ci %s' -- src/static/talk/slides/definition/index.html; git show 298be4e:evidence/proposals/deck-talk-changes.md | grep -n '19.5'; then read https://ponemon.dtex.ai/ (the public landing page; the full report is behind a form, not filled in); git show 298be4e:team/deck/requests/researcher__before-tonight.md | grep -n 'frozen'; git log 298be4e --no-merges --format='%h %ci' -- src/static/talk/slides/definition/index.html
+git log 298be4e -S'data-count="17.4"' --format='%h %ci %s' -- src/static/talk/slides/definition/index.html; git show 298be4e:evidence/proposals/deck-talk-changes.md | grep -n '19.5'
+# then read https://ponemon.dtex.ai/ (the public landing page; the full report is behind a form, not filled in)
+git show 298be4e:team/deck/requests/researcher__before-tonight.md | grep -n 'frozen'; git log 298be4e --no-merges --format='%h %ci' -- src/static/talk/slides/definition/index.html
 ```
 
 ## C037: What the day cost the editor, in hours and usage
@@ -247,9 +250,10 @@ git log 298be4e --reverse --format='%h %ci %s' | head -2
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
 - **Cited in:** chapters 09, 17.
+- **Held:** the command is kept in the register and not printed here, until the editor decides D12. The claim above stands.
 
 ```
-git show 298be4e:evidence/updates/2026-10-29__the-vault-history-checked.md | sed -n 7,16p; git log -1 --format='%h %ci %s' aa7a3eb
+(held out of print until the editor decides D12: see the register's entry, C068)
 ```
 
 ## C069: How long the talk ran, from the transcript
@@ -319,7 +323,11 @@ method: the script in team/researcher/debriefs/2026-10-31__a13-and-the-title-che
 - **Cited in:** chapters 16, 17, 20.
 
 ```
-git show 49c701e:briefs/2026-10-31__rc1-paper-review/batch-07-pages-22-to-32.md | grep -o -i '.\{100\}just a footnote.\{300\}'; git show 298be4e:team/conductor/HOLD.md | head -5   # the second in the talk's repository; git show ec1ec00:briefs/2026-10-31__in-session/02-g1-the-95-and-the-day-in-review.md | grep -o -i '.\{20\}95%, I think.\{100\}'
+# in this book's repository:
+git show 49c701e:briefs/2026-10-31__rc1-paper-review/batch-07-pages-22-to-32.md | grep -o -i '.\{100\}just a footnote.\{300\}'
+git show ec1ec00:briefs/2026-10-31__in-session/02-g1-the-95-and-the-day-in-review.md | grep -o -i '.\{20\}95%, I think.\{100\}'
+# in the talk's repository:
+git show 298be4e:team/conductor/HOLD.md | head -5
 ```
 
 ## C095: The talk's commits by member and by hour, 00:00 to 18:59 on 29 October (for the LK1 chart)
@@ -336,7 +344,7 @@ git log 298be4e --no-merges --until=2026-10-29T18:59:59Z --format='%cI|%an|%s' |
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e; a9c0b49` (material added after the day).
-- **Cited in:** chapters 01, 15, 16, 17, 19.
+- **Cited in:** chapters 01, 15, 16, 17, 19, Appendix B.
 
 ```
 git grep -n 'talk starts at 19:00 London' 298be4e; git grep -n 'hack::soho' a9c0b49 -- content/articles/the-talk-as-given.md
@@ -429,14 +437,14 @@ see claims/the-clock.md, 'How to rerun' (clock-hour bounds)
 - **Cited in:** chapter 01.
 
 ```
-git show a9c0b49:content/articles/the-talk-as-given.md | grep -n 'here.s a Wardley map'
+git show a9c0b49:content/articles/the-talk-as-given.md | grep -n 'a Wardley map'
 ```
 
 ## C112: This book's team: tool calls by review steps outside the read-only brief (TA1), as security's register counts them
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Book__The-Ultimate-Insider (this book's record), at `38b69644` (this book's own record, after the day).
-- **Cited in:** chapter 18.
+- **Cited in:** chapters 18, Appendix B.
 
 ```
 git show 38b69644:controls/index.json | python3 -c "import json,sys;d=json.load(sys.stdin)['book_team']['tool_cases'];[print(c['n'],c['tool'][:30],c.get('refused')) for c in d['cases']]"
@@ -462,6 +470,16 @@ git ls-tree -r --name-only f6ce7ffa team/conductor/rc1 | grep -E '/[0-9]{2}-[^/]
 for c in bb1f57c0 19e266fb f3e634f3 81fd2ef8 e69f073b 6d357179 5c2d2f9c afbb50d7 28396879 e36d0e94 8f10a08e 68ffc780; do git show -s --format='%h %ad %s' --date=format:'%d %H:%M:%S' $c | cut -c1-80; done
 ```
 
+## C115: Studio's refusal of a relayed word for the editor's, on the afternoon of 29 October
+
+- **State:** checked.
+- **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
+- **Cited in:** chapter Appendix B (to cite).
+
+```
+git show 298be4e:team/studio/wakes/20261029T174115Z.json | python3 -c "import json,sys;d=json.load(sys.stdin);print(d['started'],d.get('closed'),d.get('outcome'))"; git show 298be4e:team/studio/debriefs/2026-10-29__abp-review.md | grep -n -i 'relayed'; git log -1 --format='%h %ad' --date=format:%H:%M:%S bd3cdad
+```
+
 ## Where this came from
 
-`claims/register.json` as on dev at the 23:32 wake, 3 November 2026; every C-id found in `manuscript/rc2/150/*.md` at that wake (43 ids), and C113 and C114, registered at that wake for chapter 94 to cite. Rebuilt by the researcher on 3 November 2026, about 23:36 UTC; first built at the 22:32 wake.
+`claims/register.json` as on dev at the 00:32 wake, 4 November 2026; every C-id found in `manuscript/rc2/150/` (not 92 itself) at that wake, and C113, C114 and C115, registered for chapters to cite. Rebuilt by the researcher on 4 November 2026, about 00:42 UTC; first built at the 22:32 wake on 3 November.

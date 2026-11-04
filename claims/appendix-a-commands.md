@@ -113,7 +113,8 @@ git log 298be4e --reverse --format='%ci %h %s' -- team/motion/key.json team/stud
 State: corrected.
 
 ```
-git rev-list --merges --count 298be4e; git log 298be4e --merges --author=Claude --format=%h | wc -l; then the attribution script in team/researcher/debriefs/2026-10-30__rc1-numbers-review.md
+git rev-list --merges --count 298be4e; git log 298be4e --merges --author=Claude --format=%h | wc -l
+# then the attribution script in team/researcher/debriefs/2026-10-30__rc1-numbers-review.md
 ```
 
 ## C015: 58 beats in three parts
@@ -249,7 +250,9 @@ git show 298be4e:evidence/claims/claims.json | python3 -c "import json,sys;[prin
 State: checked.
 
 ```
-git log 298be4e -S'data-count="17.4"' --format='%h %ci %s' -- src/static/talk/slides/definition/index.html; git show 298be4e:evidence/proposals/deck-talk-changes.md | grep -n '19.5'; then read https://ponemon.dtex.ai/ (the public landing page; the full report is behind a form, not filled in); git show 298be4e:team/deck/requests/researcher__before-tonight.md | grep -n 'frozen'; git log 298be4e --no-merges --format='%h %ci' -- src/static/talk/slides/definition/index.html
+git log 298be4e -S'data-count="17.4"' --format='%h %ci %s' -- src/static/talk/slides/definition/index.html; git show 298be4e:evidence/proposals/deck-talk-changes.md | grep -n '19.5'
+# then read https://ponemon.dtex.ai/ (the public landing page; the full report is behind a form, not filled in)
+git show 298be4e:team/deck/requests/researcher__before-tonight.md | grep -n 'frozen'; git log 298be4e --no-merges --format='%h %ci' -- src/static/talk/slides/definition/index.html
 ```
 
 ## C032: graphs.sgit.ai's making-of: 88 releases in 6 days, a median of 31 minutes apart
@@ -713,7 +716,11 @@ method: the script in team/researcher/debriefs/2026-10-31__a13-and-the-title-che
 State: open.
 
 ```
-git show 49c701e:briefs/2026-10-31__rc1-paper-review/batch-07-pages-22-to-32.md | grep -o -i '.\{100\}just a footnote.\{300\}'; git show 298be4e:team/conductor/HOLD.md | head -5   # the second in the talk's repository; git show ec1ec00:briefs/2026-10-31__in-session/02-g1-the-95-and-the-day-in-review.md | grep -o -i '.\{20\}95%, I think.\{100\}'
+# in this book's repository:
+git show 49c701e:briefs/2026-10-31__rc1-paper-review/batch-07-pages-22-to-32.md | grep -o -i '.\{100\}just a footnote.\{300\}'
+git show ec1ec00:briefs/2026-10-31__in-session/02-g1-the-95-and-the-day-in-review.md | grep -o -i '.\{20\}95%, I think.\{100\}'
+# in the talk's repository:
+git show 298be4e:team/conductor/HOLD.md | head -5
 ```
 
 ## C090: The talk's E04 piece: what over-enthusiastic agents did, from published reports
@@ -889,7 +896,7 @@ see claims/the-clock.md, 'How to rerun' (clock-hour bounds)
 State: checked.
 
 ```
-git show a9c0b49:content/articles/the-talk-as-given.md | grep -n 'here.s a Wardley map'
+git show a9c0b49:content/articles/the-talk-as-given.md | grep -n 'a Wardley map'
 ```
 
 ## C112: This book's team: tool calls by review steps outside the read-only brief (TA1), as security's register counts them
@@ -916,6 +923,14 @@ State: checked.
 for c in bb1f57c0 19e266fb f3e634f3 81fd2ef8 e69f073b 6d357179 5c2d2f9c afbb50d7 28396879 e36d0e94 8f10a08e 68ffc780; do git show -s --format='%h %ad %s' --date=format:'%d %H:%M:%S' $c | cut -c1-80; done
 ```
 
+## C115: Studio's refusal of a relayed word for the editor's, on the afternoon of 29 October
+
+State: checked.
+
+```
+git show 298be4e:team/studio/wakes/20261029T174115Z.json | python3 -c "import json,sys;d=json.load(sys.stdin);print(d['started'],d.get('closed'),d.get('outcome'))"; git show 298be4e:team/studio/debriefs/2026-10-29__abp-review.md | grep -n -i 'relayed'; git log -1 --format='%h %ad' --date=format:%H:%M:%S bd3cdad
+```
+
 ## Where this came from
 
-`claims/register.json`, the `command` of each entry, run against `298be4e` (a full clone: `git rev-list --count 298be4e` gives 816) and `d39e717`; spot-checked on 30 October 05:45, 06:45, 07:45, 08:45, 09:40 and 10:50 (C011, C014, C021, C041, C042), each giving the registered value. C031's 2026 figure is read from a web page, fetched 30 October 2026. C043 to C062 were checked at source on 30 October about 13:20 UTC by the researcher's second session (public clones of OSBot-Utils, Memory-FS, Issues-FS, SGit-AI__CLI and myfeeds_ai; PyPI's JSON; the newsroom's wire; four LinkedIn pages' datePublished). C064 to C068, and the additions to C008 and C042, rerun on 30 October about 14:40 UTC. C069 to C072 rerun on 30 October about 16:45 UTC; C069 and C070 run at a9c0b49, material added after the day. C073 rerun on 30 October about 18:40 UTC. C074 checked on 30 October about 18:35 UTC. C011's command reads team/keys/ too since 30 October 20:40. C075 to C077 read from leanpub.com on 30 October about 20:40 UTC. C078 to C081 checked on 30 October about 22:40 UTC. C082 and C083 checked on 31 October about 00:45 UTC. C084 to C086 checked on 31 October about 00:50 UTC. C087 and C088 checked on 31 October about 04:50 UTC. C089 and C090 read on 31 October about 08:45 UTC. C091 and C092 read on 31 October about 14:45 UTC. C093 and C094 read on 31 October about 16:45 UTC. C100 checked on 1 November about 14:40 UTC. C101 read on 2 November about 00:35 UTC. C102 and C103 read on 2 November about 09:40 UTC. C104 checked on 2 November about 16:55 UTC. C105 rerun on 2 November about 18:36 UTC. C106 read on 2 November about 20:35 UTC. C107 checked on 2 November about 22:35 UTC. C108 counted on 3 November about 01:35 UTC. C109 read on 3 November about 01:40 UTC. C110 counted on 3 November about 02:35 UTC. C111 read on 3 November about 09:36 UTC. C112 counted on 3 November about 17:36 UTC. C113 and C114 counted on 3 November about 23:35 UTC.
+`claims/register.json`, the `command` of each entry, run against `298be4e` (a full clone: `git rev-list --count 298be4e` gives 816) and `d39e717`; spot-checked on 30 October 05:45, 06:45, 07:45, 08:45, 09:40 and 10:50 (C011, C014, C021, C041, C042), each giving the registered value. C031's 2026 figure is read from a web page, fetched 30 October 2026. C043 to C062 were checked at source on 30 October about 13:20 UTC by the researcher's second session (public clones of OSBot-Utils, Memory-FS, Issues-FS, SGit-AI__CLI and myfeeds_ai; PyPI's JSON; the newsroom's wire; four LinkedIn pages' datePublished). C064 to C068, and the additions to C008 and C042, rerun on 30 October about 14:40 UTC. C069 to C072 rerun on 30 October about 16:45 UTC; C069 and C070 run at a9c0b49, material added after the day. C073 rerun on 30 October about 18:40 UTC. C074 checked on 30 October about 18:35 UTC. C011's command reads team/keys/ too since 30 October 20:40. C075 to C077 read from leanpub.com on 30 October about 20:40 UTC. C078 to C081 checked on 30 October about 22:40 UTC. C082 and C083 checked on 31 October about 00:45 UTC. C084 to C086 checked on 31 October about 00:50 UTC. C087 and C088 checked on 31 October about 04:50 UTC. C089 and C090 read on 31 October about 08:45 UTC. C091 and C092 read on 31 October about 14:45 UTC. C093 and C094 read on 31 October about 16:45 UTC. C100 checked on 1 November about 14:40 UTC. C101 read on 2 November about 00:35 UTC. C102 and C103 read on 2 November about 09:40 UTC. C104 checked on 2 November about 16:55 UTC. C105 rerun on 2 November about 18:36 UTC. C106 read on 2 November about 20:35 UTC. C107 checked on 2 November about 22:35 UTC. C108 counted on 3 November about 01:35 UTC. C109 read on 3 November about 01:40 UTC. C110 counted on 3 November about 02:35 UTC. C111 read on 3 November about 09:36 UTC. C112 counted on 3 November about 17:36 UTC. C113 and C114 counted on 3 November about 23:35 UTC. C115 counted, and the commands of C014, C031, C089 and C111 corrected, on 4 November about 00:40 UTC.

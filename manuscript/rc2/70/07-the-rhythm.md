@@ -25,11 +25,11 @@
 `%% record: C087 (162 wakes: 105 scheduled, 47 the editor's, 10 follow-ups; by hour) C110 timeline/triggers.md`
 Band: *The register's count of wakes by trigger, and its hourly table.*
 
-## Sent back, and owned
+## Sent back
 
 **Clock:** Hours five to fourteen.
 
-`%% clock record: 04:19, 06:21, 08:21, 10:05, 10:49, 13:48; clock hours of 29 October (C110; the conductor's CK1).`
+`%% clock record: 06:21, 08:21, 13:48; clock hours of 29 October (C110; the conductor's CK1).`
 
 **Narrator.** What does a team do with a morning to itself? On the record, it reviews its own work and sends it back.
 
@@ -41,24 +41,16 @@ Band: *The register's count of wakes by trigger, and its hourly table.*
 
 **ruv-sgit** *(sheepish)*: Back to the workshop.
 
-**Narrator.** About eighty minutes later the second version came in, and at twenty past eight deck kept it: "Numbered dots, plain words and named rings make it readable", with two things to fix next time, a summary that ran into a heading, and dots that should sit together by sector. The third version came in before one, and deck passed it just before I came back, ready for me to see. Three rounds, one picture, and I started none of them.
+**Narrator.** At 07:43 the second version came in, and at twenty past eight deck kept it: "Numbered dots, plain words and named rings make it readable", with two things to fix next time, a summary that ran into a heading, and dots that should sit together by sector. The third version came in at 12:53, and deck passed it at 13:48, ready for me to see. Three rounds, one picture, and I started none of them.
 
 **ruv-sgit** *(absorbed, ruler in hand)*: Back to the workshop, twice. That is what the workshop is for.
 
-**Narrator.** In between, the designer found its own mistake. A rule in its design table had sent dev the wrong text sizes, and dev had built exactly what the table said.
-
-**Designer** *(mortified)*: "The miss is my table's as much as the build's" *(record)*. Dev built what I specified. I specified it wrong.
-
-**Narrator.** And the conductor, patiently, about the "@" again.
-
-**Conductor** *(patient)*: You left the "@" off your name again, ruv-sgit. The team counts each agent's work by that name, so it cannot see yours.
-
-**Narrator.** Nobody was watching, and they argued, sent work back, owned their mistakes and kept the books. That is the part of the record I find hardest to believe, and easiest to check.
+**Narrator.** Nobody was watching, and they argued, sent work back, and kept the books. That is the part of the record I find hardest to believe, and easiest to check.
 
 **Figure:** one picture's three rounds side by side: the first sent back, the second kept with two notes, the third kept and put to the editor; under each, deck's verdict in its own words.
 
-`%% record: 78b89b9 (06:21, E02 sent back) cf52cda (07:43, v2 delivered) eefc1d3 (08:21, E02 v2 kept; deck's words quoted from its debrief) 8012b00 (12:53, v3 delivered) 19e7f2d (13:48, E02 v3 kept, ready for the editor) team/deck/debriefs/2026-10-29__e02-v2-review.md 56c680b (10:49) 09317d9 (10:05)`
-Band: *Dramatised. Rests on deck's three reviews of one picture (06:21, 08:21, 13:48), the designer's note (10:49) and the conductor's note (10:05); the quoted lines are theirs.*
+`%% record: 78b89b9 (06:21, E02 sent back) cf52cda (07:43, v2 delivered) eefc1d3 (08:21, E02 v2 kept; deck's words quoted from its debrief) 8012b00 (12:53, v3 delivered) 19e7f2d (13:48, E02 v3 kept, ready for the editor) team/deck/debriefs/2026-10-29__e02-v2-review.md`
+Band: *Dramatised. Rests on deck's three reviews of one picture (06:21, 08:21, 13:48); the quoted lines are deck's own.*
 
 ## What a session cannot carry
 
@@ -83,6 +75,6 @@ Band: *Dramatised (ruv-sgit's last line). The quoted rule is ruv-sgit's own.*
 
 ## Where this came from
 
-The register's count of wakes by trigger and its hourly table. The talk's repository at the end of the day: deck's three reviews of one picture and its debrief, the designer's note, the conductor's note, ruv-sgit's page of rules and the wake rules. The historian's account of the day by trigger. The storyteller's outline for this chapter. Lines kept word for word from the 30-page edition: the scenes of the morning.
+The register's count of wakes by trigger and its hourly table. The talk's repository at the end of the day: deck's three reviews of one picture and its debrief, ruv-sgit's page of rules and the wake rules. The historian's account of the day by trigger. The storyteller's outline for this chapter. Lines kept word for word from the 30-page edition: the scenes of the morning.
 
-`%% record: claims/register.json C087 C110; talk repository at 298be4e: 78b89b9 eefc1d3 19e7f2d 56c680b 09317d9 team/deck/debriefs/2026-10-29__e02-v2-review.md team/ruv-sgit/ROLE.md team/conductor/WAKE.md; timeline/triggers.md; chapter-plan/edition-70-outline.md part 3 chapter 7`
+`%% record: claims/register.json C087 C110; talk repository at 298be4e: 78b89b9 cf52cda eefc1d3 8012b00 19e7f2d team/deck/debriefs/2026-10-29__e02-v2-review.md team/ruv-sgit/ROLE.md team/conductor/WAKE.md; timeline/triggers.md; chapter-plan/edition-70-outline.md part 3 chapter 7`
