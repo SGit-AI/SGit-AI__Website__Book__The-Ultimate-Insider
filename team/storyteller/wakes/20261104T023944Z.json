@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Conventions in the cast guide (rules 2 and 7 for WC1; Page conventions); the outline section for chapters 1 to 4; my ROLE.md line for WC1; letters 117 to 119; mail filed; status and debrief. Build and gate clean, 0 outside scope, vault_check clean.",
    "at": "2026-11-04T02:42:14Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (as the reviewer agent, steps 4 and 5 in one call, UL1)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "0 outside scope; vault_check clean; no em-dash, religious word, key, token, session id, personal detail or directing text; keys-page shots left to security, public keys only; 'push those things' left uninterpreted.",
+   "at": "2026-11-04T02:42:42Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (as the reviewer agent, steps 4 and 5 in one call, UL1)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Conventions, outline section, ROLE.md line, letters 117 to 119, mail filed, debrief and status; nothing in manuscript/. No tool refused.",
+   "at": "2026-11-04T02:42:42Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T02:42:42Z",
+ "outcome": "ok"
 }
