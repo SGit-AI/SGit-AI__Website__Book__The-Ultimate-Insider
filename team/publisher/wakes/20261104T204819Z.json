@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T20:48:19Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; Bash read only)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; nothing signed fixes the 4.6 in. Keep a lower height only if holes do not rise and no drawing's text drops below about 9 pt, else revert and ask the designer; tell the designer if its drawings shrink.",
+   "at": "2026-11-04T20:50:01Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Both LAB 57 drawings pass unsafe_svg; no HOLD; vault_check; rc2_map must exit clean.",
+   "at": "2026-11-04T20:50:01Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "03b override gone (no override left); 4.0 in height test measured and reverted (type under 9 pt; dashboard not height-bound); designer asked for a shorter dashboard and house; 21 told; 141 pages, 13 boxes, 9 holes; letters conductor 064, designer 053 (cc critic3), writer4 012; records",
+   "at": "2026-11-04T20:51:45Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "20 staged in scope; no image; full-book.css unchanged (4.6 in); every drawing and shot passes; letters clean; vault_check clean.",
+   "at": "2026-11-04T20:53:08Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Every item to plan; the height test reverted; 13 boxes in the letter.",
+   "at": "2026-11-04T20:53:09Z"
+  }
+ },
+ "closed": "2026-11-04T20:53:09Z",
+ "outcome": "ok"
+}
