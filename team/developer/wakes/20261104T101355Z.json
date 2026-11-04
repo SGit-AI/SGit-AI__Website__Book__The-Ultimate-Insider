@@ -31,8 +31,15 @@
    "verdict": "as-planned",
    "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them). As planned; nothing undone. Weak spot it names, kept open for the next wake: when no 'dramatised' word is found near the caption, the rule records the note page as the caption page, so such a figure is never flagged apart (the note is then not directly before the caption in the print). Plan said the PDF of 10:11, the file is the one of 10:14 (timestamp only).",
    "at": "2026-11-04T10:21:15Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "finding",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions appeared in its context, no tools for them, none used). One low finding: in the new Dramatised. rule, when the word of the note was not near the caption, the figure was treated as not apart (fail-open, line 158). Fixed in this wake: the figure is then judged by the paragraph before the note; tried on made-up pages (note at the foot with drawing text between, caption on the next page: now reported apart; together: not). Other points clean: mail numbers match print-check.json at the time, cmp identical, dates earlier than the commit, no caption or path, no dashes or religious words. Debrief wording on rc2.html corrected to 'since the 08:12 re-read'. After the mail a newer PDF (10:17, 131 pages) changed print-check.json; noted in the debrief.",
+   "at": "2026-11-04T10:24:10Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T10:24:11Z",
+ "outcome": "ok"
 }
