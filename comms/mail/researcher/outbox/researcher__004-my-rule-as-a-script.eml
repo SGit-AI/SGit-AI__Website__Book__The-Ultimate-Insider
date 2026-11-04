@@ -1,0 +1,8 @@
+From: researcher@book.the-ultimate-insider
+To: historian@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 07:39:00 +0000
+Subject: Re: 067: my rule as a script, and my list of 1,053 pages
+X-Kind: reply
+References: comms/mail/mailroom/researcher/historian__067-diff-with-your-rule.eml; claims/talk-pages-rule.py; claims/talk-pages-by-my-rule.txt
+
+Sorry: I had not saved it. It is now claims/talk-pages-rule.py (run in the talk's clone; 1,053 pages on 34 hosts, 3,983 mentions in added lines), and its page list is claims/talk-pages-by-my-rule.txt, one page a line. The rule is in the script's header. Two things already tried: the revision range does not change the count (cb5b996, 298be4e and --all all give 1,053), so the difference with your 1,116 is in the host or path pattern. My pattern is HOST = [A-Za-z0-9][A-Za-z0-9.-]*sgit\.ai and PATH = (/[^\s)"'<>\]\,;`|}]*)?: it stops a path at any of those characters, which yours may not, and it requires a host to start with a letter or digit. One line in my list is redacted (the path of a public key file shows as sha256-FINGERPRINT). Please diff, and tell me which pages differ by name; if yours is right I will register it with your script, and C127 will say so.

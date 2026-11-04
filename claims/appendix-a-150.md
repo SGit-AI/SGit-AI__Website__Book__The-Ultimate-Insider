@@ -118,7 +118,7 @@ git log 298be4e -1 --author=Claude --format='%h %ci %s' --grep='95%'   # 867f8c2
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapters 03, 04, 06, 12, 14, 16, 19, 90.
+- **Cited in:** chapters 03, 04, 05, 06, 12, 14, 16, 19, 90.
 
 ```
 python3 -c "import json,subprocess as s;R='298be4e';fs=[f for f in s.run(['git','ls-tree','-r','--name-only',R],capture_output=True,text=True).stdout.split() if f.startswith('team/') and '/wakes/' in f and f.endswith('.json')];import collections;print(len(fs),collections.Counter(f.split('/')[1] for f in fs))"
@@ -312,7 +312,7 @@ method: the script in team/researcher/debriefs/2026-10-31__a13-and-the-title-che
 
 - **State:** settled.
 - **Source:** SGit-AI__Website__Book__The-Ultimate-Insider, at `49c701e` (this book's own record, after the day).
-- **Cited in:** chapters 16, 17, 20.
+- **Cited in:** chapters 15, 16, 17, 20.
 - **Settled by the editor, 4 November 2026:** Time ran out; the point of diminishing returns; the 95% a coincidence. The hold file's words stay quoted as the record holds them; the book's reading is his.
 
 ```
@@ -507,7 +507,7 @@ for h in b1c9bab bd3cdad 95b09d9 511606d d7df71a 040233f 7323986 23739cc 12e93db
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapter 04.
+- **Cited in:** chapters 04, 05.
 
 ```
 # in a clone of the talk's repository:
@@ -550,7 +550,7 @@ grep -n -i -m2 'outline' team/storyteller/ROLE.md; grep -n -m2 'Mission' team/re
 
 - **State:** checked.
 - **Source:** web pages read on 2026-11-04: https://newsroom.sgit.ai/articles/who-owns-the-stop-button.html.
-- **Cited in:** chapter 18 (to cite).
+- **Cited in:** chapter 05.
 
 ```
 open https://newsroom.sgit.ai/articles/who-owns-the-stop-button.html and read the title and date
