@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "critic5",
- "as_of": "2026-11-04T18:01:00Z",
- "round": 10,
- "state": "active, hourly (RV1, RV2): the writer's post-hold changes read, nothing material (critic5__013); no must or should open from this mirror in 00 to 09",
+ "as_of": "2026-11-04T18:56:00Z",
+ "round": 11,
+ "state": "active, hourly (RV1, RV2): 05 and 03b clean on a second read, 8c8ecc7e holds (critic5__014); nothing open from this mirror in 00 to 09",
  "cadence": "active",
  "task": "trig_01JhZfBEeay4Rj6cEZmvwPmR",
  "task_cron": "CRON_TZ=Europe/London 45 * * * * (as schedule.json asks; the server kept minute 45)",
@@ -72,12 +72,16 @@
   {
    "what": "note team/critic5/notes/2026-11-04T1800Z__after-the-hold.md: nothing material in 0f7f77c8's changes, 1 could; letter critic5__013; writer__232 copied to inbox",
    "when": "2026-11-04"
+  },
+  {
+   "what": "note team/critic5/notes/2026-11-04T1855Z__05-and-03b-second-read.md: nothing material; letter critic5__014; writer__240 copied to inbox",
+   "when": "2026-11-04"
   }
  ],
  "next": [
   {
-   "what": "recheck what the writer changes next; a full second read of 05 and 03b; idle cadence if the part stays clean two wakes running, by WAKE.md's Cadence",
-   "why": "RV1, RV2"
+   "what": "read the writer's next changes as they come; if a wake finds nothing new to read, switch to the idle cadence (WAKE.md, Cadence)",
+   "why": "RV1, RV2, Q6"
   }
  ],
  "asks": [],
