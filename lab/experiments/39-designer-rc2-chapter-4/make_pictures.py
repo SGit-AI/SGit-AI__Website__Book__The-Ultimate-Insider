@@ -85,20 +85,21 @@ def clock_stopped(clone):
     gap = times[work[0]] - times[hold[0]]
     if gap != REG["C065"]["value"]["gap_seconds"]:
         sys.exit(f"make_pictures: the commits give {gap} s, C065 says {REG['C065']['value']['gap_seconds']}")
-    cx, cy, R = 44, 40, 30
-    out = [f'<circle cx="{cx}" cy="{cy}" r="{R}" fill="none" stroke="{mc.FILL2}" stroke-width="1"/>']
+    # sized to its content (conductor 055): 134 mm wide, the dial smaller, the gap at 18 pt so it sits inside its card
+    cx, cy, R = 32, 32, 23
+    out = [f'<circle cx="{cx}" cy="{cy}" r="{R}" fill="none" stroke="{mc.FILL2}" stroke-width=".9"/>']
     for member, mm in slots.items():
         a = math.radians(int(mm.strip(":")) * 6 - 90)
-        out.append(f'<g transform="translate({cx + (R + 6) * math.cos(a) - 2.8:.2f} {cy + (R + 6) * math.sin(a) - 2.5:.2f}) scale(.14)">{mc.head(member, False)}</g>')
-    out.append(f'<path d="M{cx - 8} {cy - 10} h12 l4 4 v16 h-16 z" fill="#fff" stroke="{mc.INK}" stroke-width=".6"/>'
-               f'<path d="M{cx + 4} {cy - 10} v4 h4" fill="none" stroke="{mc.INK}" stroke-width=".5"/>'
+        out.append(f'<g transform="translate({cx + (R + 5) * math.cos(a) - 2.8:.2f} {cy + (R + 5) * math.sin(a) - 2.5:.2f}) scale(.14)">{mc.head(member, False)}</g>')
+    out.append(f'<path d="M{cx - 7} {cy - 9} h10 l4 4 v14 h-14 z" fill="#fff" stroke="{mc.INK}" stroke-width=".55"/>'
+               f'<path d="M{cx + 3} {cy - 9} v4 h4" fill="none" stroke="{mc.INK}" stroke-width=".45"/>'
                + t(cx, cy + 1.2, "HOLD", 800, mc.ACCENT, "middle"))
-    out.append(f'<rect x="92" y="18" width="70" height="40" rx="2" fill="#fff" stroke="{mc.INK}" stroke-width=".45"/>'
-               + t(96, 26, "what landed after the hold", 800)
-               + f'<text x="96" y="40" {SANS} font-size="11" font-weight="800" fill="{mc.ACCENT}">{gap} seconds</text>'
-               + t(96, 47, "the designer's work, already in flight", 400)
-               + t(96, 53, f"{hold[0]} to {work[0]} (C065)", 400, mc.MUTED))
-    return mc.svg(164, 80, "".join(out), "The wake clock greyed, the hold on top of it, and what landed after it")
+    out.append(f'<rect x="70" y="14" width="63.5" height="36" rx="2" fill="#fff" stroke="{mc.INK}" stroke-width=".45"/>'
+               + t(74, 21.5, "what landed after the hold", 800)
+               + f'<text x="74" y="32" {SANS} font-size="6.4" font-weight="800" fill="{mc.ACCENT}">{gap} seconds</text>'
+               + t(74, 39.5, "the designer's work, already in flight", 400)
+               + t(74, 45.5, f"{hold[0]} to {work[0]} (C065)", 400, mc.MUTED))
+    return mc.svg(134, 64, "".join(out), "The wake clock greyed, the hold on top of it, and what landed after it")
 
 
 CARDS = [("the lock never turned", "C027"), ("two parts of three unfinished", "C027"), ("the moment missed", "the storyteller's debrief"),

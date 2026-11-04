@@ -90,17 +90,19 @@ def hold_file(clone):
     if not m or not title.startswith("HOLD:"):
         sys.exit("make_pictures: the hold file's title or its 'What lifts it' line is not as expected")
     lifts, last = m.group(1), m.group(2)
-    x, w = 22, 120
-    out = [f'<path d="M{x} 2 h{w - 12} l12 12 v76 h-{w} z" fill="#fff" stroke="{mc.INK}" stroke-width=".6"/>',
-           f'<path d="M{x + w - 12} 2 v12 h12" fill="none" stroke="{mc.INK}" stroke-width=".5"/>']
+    # sized to its content (conductor 055, the editor's "too big and out of proportion"): 140 mm wide, the title at
+    # 11 pt and the last line at 13 pt against the body's 10 pt, four ruled lines standing for the body
+    x, w = .5, 139
+    out = [f'<path d="M{x} .5 h{w - 10} l10 10 v46 h-{w} z" fill="#fff" stroke="{mc.INK}" stroke-width=".5"/>',
+           f'<path d="M{x + w - 10} .5 v10 h10" fill="none" stroke="{mc.INK}" stroke-width=".45"/>']
     head, rest = title.split(";", 1)
-    out.append(t(x + 7, 15, head + ";", 800, mc.ACCENT, size=4.6) + t(x + 7, 21.4, rest.strip(), 800, mc.ACCENT, size=4.6))
-    for k, (dy, ww) in enumerate([(30, 92), (35, 70), (41, 100), (46, 96), (51, 60), (57, 98), (62, 84)]):
-        out.append(f'<rect x="{x + 7}" y="{dy}" width="{ww}" height="2" rx="1" fill="{mc.FILL2}"/>')
-    out.append(t(x + 7, 72, "What lifts it: " + lifts, 400, mc.INK))
-    out.append(t(x + 7, 84.6, last, 800, mc.INK, size=7.4))
-    out.append(t(x, 97.4, "team/conductor/HOLD.md at 298be4e, written 18:44:13 (C006); never lifted that day (C024)", 400, mc.MUTED))
-    return mc.svg(164, 100, "".join(out), "The hold file as a page: its title, and its last line large: No member lifts it.")
+    out.append(t(x + 6, 9.4, head + ";", 800, mc.ACCENT, size=3.9) + t(x + 6, 14.4, rest.strip(), 800, mc.ACCENT, size=3.9))
+    for dy, ww in [(20, 86), (24, 64), (28, 92), (32, 74)]:
+        out.append(f'<rect x="{x + 6}" y="{dy}" width="{ww}" height="1.6" rx=".8" fill="{mc.FILL2}"/>')
+    out.append(t(x + 6, 41.5, "What lifts it: " + lifts, 400, mc.INK))
+    out.append(t(x + 6, 50.5, last, 800, mc.INK, size=4.6))
+    out.append(t(x, 61.6, "team/conductor/HOLD.md at 298be4e, written 18:44:13 (C006); never lifted that day (C024)", 400, mc.MUTED))
+    return mc.svg(140, 63, "".join(out), "The hold file as a page: its title, and its last line large: No member lifts it.")
 
 
 def state_machine():
@@ -878,16 +880,36 @@ def start_sheet():
     out = [f'<rect x=".3" y=".3" width="163.4" height="{{H}}" rx="1.6" fill="#fff" stroke="{mc.INK}" stroke-width=".45"/>',
            t(5, 9, "Start here", 800, mc.INK, size=4.6)]
     y = 18.0
+    from html import escape
     for bold, rest in steps:
-        rows = [(bold.rstrip(), 700)] + [(r, 400) for r in textwrap.wrap(rest.strip(), 80)]
+        # one run per step: the bold title and its rest wrap together, so ", in your own words" stays on the title's line;
+        # no drawn-in caption, the book's own Figure line is the caption (conductor 056)
+        words = [(w, 700) for w in bold.split()] + [(w, 400) for w in rest.split()]
+        lines, cur, width = [], [], 0
+        for w, wgt in words:
+            if cur and width + 1 + len(w) > 94:
+                lines.append(cur)
+                cur, width = [], 0
+            width += len(w) + (1 if cur else 0)
+            cur.append((w, wgt))
+        lines.append(cur)
         out.append(f'<rect x="5" y="{y - 3.4:.1f}" width="4.2" height="4.2" rx=".5" fill="#fff" stroke="{mc.INK}" stroke-width=".5"/>')
-        for j, (r, wgt) in enumerate(rows):
-            out.append(t(13, y + j * 4.1, r, wgt))
-        y += 4.1 * len(rows) + 3
+        for j, line in enumerate(lines):
+            runs = []
+            for w, wgt in line:
+                if runs and runs[-1][1] == wgt:
+                    runs[-1][0].append(w)
+                else:
+                    runs.append(([w], wgt))
+            # a run that opens on punctuation (", in your own words") follows the bold with no space
+            spans = "".join((" " if k and not ws[0][0] in ",.;:" else "")
+                            + f'<tspan font-weight="{wgt}">{escape(" ".join(ws), quote=False)}</tspan>'
+                            for k, (ws, wgt) in enumerate(runs))
+            out.append(f'<text x="13" y="{y + j * 4.1:.2f}" {SANS} font-size="{F}" fill="{mc.INK}">{spans}</text>')
+        y += 4.1 * len(lines) + 3
     H = y
     out[0] = out[0].replace("{H}", f"{H:.1f}")
-    out.append(t(0, H + 4.6, "the five steps as the start-here page gives them; a box beside each, to print and tick", 400, mc.MUTED))
-    return mc.svg(164, round(H + 6.2, 1), "".join(out), "The start-here page as one printable sheet: the five steps, a box beside each")
+    return mc.svg(164, round(H + .6, 1), "".join(out), "The start-here page as one printable sheet: the five steps, a box beside each")
 
 
 FLOORS = [("the talk", ("src/static/talk/",)),
