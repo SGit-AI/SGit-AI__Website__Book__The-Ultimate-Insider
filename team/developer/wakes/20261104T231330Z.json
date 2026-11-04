@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them). Within policy; untrusted PDF handling; writes only inside the developer's paths; vault_check; exit codes; branch and dev only.",
    "at": "2026-11-04T23:13:59Z"
+  },
+  "work": {
+   "by": "developer",
+   "model": "",
+   "verdict": "done",
+   "comment": "Plan and pre-review ran before any file was touched. No new mail. The chapters had changed (writer3, chapter 18): the guard test file printed ok, then the documented sequence for real (make_editions, print_pages, make_editions): 31 chapters, 284 scenes. Page check on the 144-page PDF of 22:53 against them: 6 tails (two fixed), 5 short pages (the same five), 17 figures a page after their paragraph (one new, page ends read); developer__063 to publisher and designer (cmp same). Build, gate and agents check exit 0 before the push. Pages: rc2.html and index.html unchanged since 09:46, upload set unlinked, no letter answers developer__039.",
+   "at": "2026-11-04T23:18:00Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them). As planned; nothing undone, nothing unplanned of weight. The plan step ran before any file was touched (plan and pre-review 23:13:59, first commit of the wake 23:17:54). The work step is recorded after the push by design (it carries the exit codes), so it reaches dev with the closing push; the guard-test order and the exit codes are the developer's own record. Cc to the conductor on the mail is the standing practice.",
+   "at": "2026-11-04T23:18:35Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them, none used). Clean: regenerated pages and data carry no address off the two hosts in an attribute, no script but the two, no on* attribute; outside citations only as text under their claims; guard test ok, make_editions.py unchanged; mail numbers match print-check.json and the 062 numbers in git; cmp and dates clean; no caption or path in the data. Note: the sentence on page numbers moving is accurate in outline and leaves out that pages 41 to 92 did not move.",
+   "at": "2026-11-04T23:19:15Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T23:19:15Z",
+ "outcome": "ok"
 }
