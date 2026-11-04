@@ -2,6 +2,33 @@
 
 storyteller@book.the-ultimate-insider, 3 November 2026, the 06:40 UTC wake, for the writer's letter 060 (the seventy is complete). **An outline, not prose.** Parts 1 and 2 in full since the 07:40 UTC wake of 3 November, part 3 since the 09:40 UTC wake, parts 4 and 5 and the back matter since the 10:40 UTC wake. All outlined. This is the book Leanpub publishes (LP1, the conductor's reading of the editor's words of 2 November, about 22:30 UTC). It rests on RP1 (the zoom ladder, signed 2 November) and D6-6 (the Cold-Read chapter in the full book only). Each part is outlined in full one or two per wake, in order; the writer writes behind them. The arc, the ladder and the rules are in `zoom-ladder.md`; the thirty and the seventy are its spine (`manuscript/rc2/30/`, `manuscript/rc2/70/`).
 
+## Before chapter 1: Start here, and who is telling this story (briefs, 4 November 2026)
+
+Written at the 01:40 UTC wake of 4 November, for the editor's first read of the full book (`briefs/2026-11-04__in-session/03`, `04`, `07`; the conductor's letters 053, 054, 057). The full book only (FB1), for the print by Thursday 5 November. The two pages must not repeat each other: **Start here is what to do and where everything is; "Who is telling this story" is who speaks, and why the book is made this way.**
+
+### Start here (the first page after the title; a spread if the designer needs it)
+
+What it holds, in this order:
+1. **One narrator line.** The newsroom's: "If you only read one page, read this one. These five steps are what I would tell a friend who wanted to try this tomorrow. The rest of the book is how I learned them, mostly by getting them wrong first." Its "mostly" is one of his Check items: the writer flags it for him.
+2. **The formula, once.** The five steps said once, as a formula, not a checklist: a line each, drawn as a path from an empty project to a second agent. The words appear in the picture or the text, never both (his note: "there's repeated content"). The printable checklist stays at the end of chapter 23, where a reader who wants to tick boxes will find it.
+3. **The book as a map.** The five parts as stops on a route ("you go here, you go there"): each stop one line and its chapters beneath it, with two routes marked: the whole way through, and the short way (Start here, then part 5, then back to part 1). This is the index, done as a picture.
+4. **The cast says hello.** The nine faces in a row, each with a one-line hello in its own voice (dramatised, marked lightly), and security's empty chair. Lines from the cast guide, no figure in any.
+5. **Zero to presentation.** A thin strip from the empty project to the talk: the empty project, the first agent, the five steps, the six alone, his return, the hold. One number on it at most, and from the register: nineteen hours is the title's rounding of 18 hours 44 minutes (C010), never his spoken "18 hours".
+
+**For the designer:** two or three variations for him to choose from, as he asked: (a) blocks, one per item above, on one page; (b) one large picture where the map carries the formula and the cast stand along the route; (c) a graph, the map as nodes and arrows, the formula along its main path. Also his note on the title page's second page ("quite empty"): two of the cast and a line of preview, from the same drawings.
+
+### Who is telling this story (straight after Start here; one page, two at most)
+
+The base is the newsroom's section 3 (`team/conductor/from-newsroom/2026-11-04__narrator-voice-part-one.md`), close to its words, in his voice and in the style sheet's (cast guide). It says who the narrator is, that the agents are the cast and their scenes are dramatised, where the day came from (his earlier talks), that this book's own team made it the same way, and why the book is creative and not only correct. To it, what his brief 04 asks and it lacks:
+1. **"Let's go on this journey together"**: the reader empowered, in one or two sentences, without over-explaining ("this is what we're doing, this is why we're doing it. Here's the cast of characters").
+2. **A request for feedback**, plainly. The channel is his to name; the writer leaves a marked gap for it until he does.
+3. **The companion website**, with a screenshot of it: the librarian's, placed once security clears it (the conductor's letter 024).
+4. **The promise line kept**: "Where the agents disagree with me, they will say so too." The book already keeps it: the researcher's objection to his own part one (chapter 13), and the reviewers who found against the conductor (chapter 7). Name one of them in a clause, so the promise points at a page.
+
+**Facts to trace before it prints** (the newsroom's section 8 lists its sources; the researcher registers them): the Black Hat Europe keynote of 9 December 2025 that made the slides data; the VoiceDebrief pitch; the talk at ruv.sgit.ai of 15 October 2026; the designer drawing the nine and their moods in code; "sixteen minutes past midnight" (C001) and "nine AI agents" (C011). Its *Check* items and its three questions stay with him.
+
+**Picture**, if there is room: the newsroom's idea of two voices on the page, a small key showing how the narrator (looking back) and the agents (on the day) look different, so the reader learns the convention once.
+
 ## How the full book grows from the seventy
 
 The same five beats, in the same order, with the same cast bar, running line and margin clock (hour one to hour nineteen, CK1). Each of the seventy's parts roughly doubles. What the full book adds is the whole record, not new argument:
