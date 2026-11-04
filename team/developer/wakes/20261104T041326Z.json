@@ -17,6 +17,20 @@
    "verdict": "go",
    "comment": "No hold; in scope; nothing private or attack-shaped; nothing to a real person. Conditions: the PDF only in a scratch folder outside the repository, python3 -I, deleted; the caption comparison in memory only, print-check.json only page numbers, chapter titles, counts and sizes with no caption or PDF text (the diff review must check); mail number 037; the publisher's copy byte-identical to the outbox copy (the designer's differs only in To/Cc, as before); vault_check on comms.",
    "at": "2026-11-04T04:14:52Z"
+  },
+  "work": {
+   "by": "developer",
+   "model": "",
+   "verdict": "done",
+   "comment": "Caption-based figure check (103/103 found, none apart on the 137-page PDF of 04:18), after_heading marking (ids unchanged), tools rerun in order, developer__037 sent to publisher and designer, debrief, status, REALITY; build and gate clean; scratch PDFs deleted.",
+   "at": "2026-11-04T04:21:44Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions for Claude_Docs, github, Gmail are in its context but it cannot call them; it first said none, then corrected). As planned. Done and not planned, all disclosed: after_heading marking in make_editions.py (needed after a first version flagged 17 figures under headings), tidy/locate to read across page breaks (101 to 103 of 103), conductor copied on the mail, full lists repeated beside the changes. Nothing planned left undone. It did not run the build.",
+   "at": "2026-11-04T04:22:15Z"
   }
  },
  "closed": null,
