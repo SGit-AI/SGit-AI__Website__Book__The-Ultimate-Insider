@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T22:48:31Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; Bash read only)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; designer2's two lines match the manuscript; the Dramatised answer an answer only (NR1); gate before push.",
+   "at": "2026-11-04T22:50:12Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "two-brakes and two-rooms pass unsafe_svg; designer2 a published member writing its own lab folders; map only those two; vault_check. No HOLD.",
+   "at": "2026-11-04T22:50:12Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "13 (LAB 59), house at 112 mm, designer2's 18 and 19 by override; 142 pages, 8 boxes, 8 holes; Dramatised counted (92; 22 narrator-only) and options sent, no change; letters conductor 066, designer2 001/002, writer3 004, writer4 014; records",
+   "at": "2026-11-04T22:51:27Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "22 staged in scope; no image; no build or stylesheet change; figure check []; letters clean; vault_check clean.",
+   "at": "2026-11-04T22:52:54Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Every item to plan; only the two new overrides; the Dramatised options with no change.",
+   "at": "2026-11-04T22:52:54Z"
+  }
+ },
+ "closed": "2026-11-04T22:52:54Z",
+ "outcome": "ok"
+}
