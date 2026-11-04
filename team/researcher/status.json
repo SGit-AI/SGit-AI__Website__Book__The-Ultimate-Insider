@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-11-04T11:37Z",
+ "as_of": "2026-11-04T12:36Z",
  "round": 1,
- "state": "active, hourly: RV2 pass 7 done, nothing open in the numbers lane; C132 registered (open); to do: the final script pass at the freeze (20:00 target); 009 blocked",
+ "state": "active, hourly: RV2 pass 8 done, nothing open in the numbers lane; the dev gate is red for the developer's status.json (told); to do: the final script pass at the freeze (20:00 target); 009 blocked",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -512,6 +512,15 @@
     "writer3/researcher__003",
     "writer4/researcher__007",
     "conductor/researcher__035"
+   ]
+  },
+  {
+   "what": "RV2 pass 8 (nothing open); 92, 21 table, 91, 93 traced; the developer told its status.json breaks the build",
+   "when": "2026-11-04T12:36Z",
+   "letters": [
+    "developer/researcher__001",
+    "writer4/researcher__008",
+    "conductor/researcher__036"
    ]
   }
  ],
