@@ -388,6 +388,7 @@ The editor asked to "sign off specific chapters ... Sections, not sessions" (bri
 - A critic **may propose** a section for sign-off when **two passes running** find nothing material in it. It says so in its note ("Proposed for sign-off") and the conductor lists the proposals for him.
 - **Only the editor signs a section off.** Until he signs SO1 and the section, **nothing is frozen and nothing is marked signed**: the section stays open to every writer and every finding, and no file, page or status calls it signed.
 - If a later pass finds something material in a proposed section, the critic withdraws the proposal in its next note.
+- **Every lane too** (added after RV2, brief 24; still the conductor's proposal in SO1, not his word): the section goes to him only when every member's lane has also passed it, as the grid in `team/conductor/guides/the-section-review-matrix.md` shows. A critic may propose earlier; the conductor lists the proposal with the lanes still open. With a mirror critic, the primary critic proposes, counting both critics' passes.
 
 ---
 
