@@ -1,0 +1,38 @@
+<section class="page" data-claims="C010">
+ <figure class="fig"><p class="fig-title">Start here: the five steps as numbered stones</p>
+  {{file:experiments/52-designer-start-here/start-stones.svg}}
+  <figcaption><b>Numbers only: the words stay in the text above.</b> <span class="src">00-start-here, line 17</span></figcaption></figure>
+ <figure class="fig"><p class="fig-title">Start here: the five parts as one route</p>
+  {{file:experiments/52-designer-start-here/start-route.svg}}
+  <figcaption><b>The whole way along the line; the short way over the top to part five and back.</b> <span class="src">the chapter ranges and the short way read from the page at build</span></figcaption></figure>
+ <figure class="fig"><p class="fig-title">Start here: zero to presentation</p>
+  {{file:experiments/52-designer-start-here/start-strip.svg}}
+  <figcaption><b>Each stop at its time in the record, no time printed; one number.</b> <span class="src">C001, C010; the stops' times from the record</span></figcaption></figure>
+</section>
+<section class="page" data-claims="">
+ <style>
+figure.pair-beside { float: right; width: 55%; margin: .2em 0 .6em 1em; break-inside: avoid; page-break-inside: avoid; }
+figure.pair-beside img, figure.pair-beside svg { display: block; width: 100%; height: auto; max-height: none; }
+figure.pair-beside + p, figure.pair-beside + p + p { hyphens: auto; }
+figure.pair-full { clear: both; width: 100%; margin: .6em 0 .9em; break-inside: avoid; page-break-inside: avoid; break-before: avoid; page-break-before: avoid; }
+figure.pair-full img, figure.pair-full svg { display: block; width: 100%; height: auto; max-height: 4.6in; object-fit: contain; }
+/* a heading never waits alone at the foot for the pair below it */
+h2 + figure.pair-full, h3 + figure.pair-full { break-before: avoid; page-break-before: avoid; }
+h2, h3 { break-after: avoid; page-break-after: avoid; }
+
+/* the words box: a small mark, an open book, so it reads as one of the page's visuals (as the version he liked did) */
+.words-box { position: relative; padding-left: 22pt; }
+.words-box::before { content: ""; position: absolute; left: 7pt; top: 7pt; width: 10pt; height: 10pt;
+  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'><path d='M6 3 C4.6 2 2.6 1.8 1 2.2 V10 C2.6 9.6 4.6 9.8 6 10.8 C7.4 9.8 9.4 9.6 11 10 V2.2 C9.4 1.8 7.4 2 6 3 Z M6 3 V10.8' fill='none' stroke='%231f2933' stroke-width='1' stroke-linejoin='round'/></svg>") no-repeat center / contain; }
+
+ .pair-demo p { font-family: "Bitstream Charter", Charter, "DejaVu Serif", Georgia, serif; font-size: 9.5pt; line-height: 1.42; margin: 0 0 6pt; }
+ .pair-demo .words-box { background: #eef2f6; padding-top: 6pt; padding-bottom: 6pt; padding-right: 9pt; margin: 8pt 0; font-family: Inter, Helvetica, Arial, sans-serif; font-size: 10pt; line-height: 1.35; }</style>
+ <div class="pair-demo">
+  <p class="fig-title">A picture paired with its text (pair.css): beside, and a words box with its mark</p>
+  <div class="words-box"><b>Words</b>: a still slide is the picture you explain over; an animation is the picture that explains itself.</div>
+  <figure class="pair-beside">{{file:experiments/37-designer-rc2-chapters-1-2/ch2-loop-wordless.svg}}</figure>
+  <p>Sample words for the look only. A picture marked "%% layout: beside" sits on the right at about 55 percent of the measure, and its paragraphs run alongside it, so the page has no hole above or below it.</p>
+  <p>A picture marked "%% layout: full" crosses the measure and stays on the page of the paragraph that introduces it; a heading never waits alone at the foot of a page for the picture under it.</p>
+  <p>The words box keeps its fill and gains a small mark, an open book, so it reads as one of the page's visuals, as the boxes did in the version the editor liked.</p>
+ </div>
+</section>

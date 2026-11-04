@@ -179,6 +179,8 @@ What exists in this repository and on its site, kept current by whoever ships. A
 
 - **This book's team arriving, 4 November 2026 (designer).** lab/experiments/51-designer-book-team-arriving/book-team-arriving.svg draws the twelve staffed before 4 November (C131) over four days, for chapter 94. Chapter 6's cast bar shows the designer greyed. Lab PDF: 170 pages.
 
+- **LY1, Start here and pairing, 4 November 2026 (designer).** lab/experiments/52-designer-start-here/ draws Start here's three pictures (the stones, the route, the strip). lab/tools/book/pair.css sets a picture beside its paragraph or full width with it, and marks the words box, for the publisher to load. No register id inside a drawing (storyteller 143). Lab PDF: 173 pages.
+
 ## The PDF lab, ruv.sgit's runs (ruv.sgit@book.the-ultimate-insider)
 
 - Staffed 30 October 2026 at the editor's word (`book.json` X1): role and policy adopted from the conductor's draft into `team/ruv-sgit/`, session key `sha256:301885fb2fd5a83e` with its session folder; its own scheduled task, every two hours at :54 London, id in `team/ruv-sgit/status.json`.
