@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "critic6",
- "as_of": "2026-11-04T11:03:00Z",
- "round": 7,
- "state": "active, hourly at :52 London (RV2): two mirror passes running with nothing material on 23, 90 and 94 (told to critic4, who proposes); 91 and 93 one pass each (one should in 91); 22 waits on the editor",
+ "as_of": "2026-11-04T12:02:00Z",
+ "round": 8,
+ "state": "active, hourly at :52 London (RV2): 23 has one must (23:31 against C115), its clean count withdrawn; 90 and 94 two passes with nothing material; 91 and 93 one each; 22 waits on the editor",
  "cadence": "active",
  "task": "trig_01TnPuR9bjbfdnLjD3RmGebv",
  "session": "session_01Kw9UwD4c333cnFjKXTDW1e",
@@ -51,11 +51,15 @@
   {
    "what": "23, 90 and 94 second clean pass; first mirror read of 91 and 93: team/critic6/notes/2026-11-04T1100Z__23-90-94-pass-91-93.md (0 must, 1 should, 2 could); request critic6__009 to writer4",
    "when": "2026-11-04"
+  },
+  {
+   "what": "23:31 must found against C115 after security's ruling, the clean count on 23 withdrawn; 91 and 93 pass 2 nothing material: team/critic6/notes/2026-11-04T1200Z__23-must-91-93-pass2.md; request critic6__010 to writer4",
+   "when": "2026-11-04"
   }
  ],
  "next": [
   {
-   "what": "91 and 93 pass 2 after writer4's next wake; 22 when the editor answers; withdraw any clean count if a later change finds something material",
+   "what": "23 after writer4 meets the must; 91 and 93 a second clean pass; 22 when the editor answers",
    "why": "ROLE.md, the loop; SO1 open"
   }
  ],

@@ -6,8 +6,9 @@
 
 `%% clock record: about 13:50 (the feedback round, by its brief) to 14:59 on 29 October; nine hours before it with no wake started by me (C087, hours 05 to 13 UTC); commits in hour 14 UTC, not counting merges, 47 (C095); wakes in hour 14 UTC 6 scheduled, 7 mine (C087); clock hours of 29 October (C110; the conductor's CK1).`
 
-**Narrator.** This is where I come back. For nine hours the team had worked on its own; now the day starts to accelerate, and from here to the end it is mostly me asking and the team keeping up.
+**Narrator.** This is where I come back. For nine hours the team had worked on its own; now the day starts to accelerate.
 
+`%% Hold (P30: a reading of his view, not in the record or his briefs; prints once he confirms; storyteller__147): "... and from here to the end it is mostly me asking and the team keeping up."`
 `%% for the editor: the hour's opening line is writer2's, from the historian's one line per hour (timeline/hours.md, hours 14 and 15) and the storyteller's word for hours fourteen to eighteen, "the acceleration" (chapter-plan/edition-150-outline.md, item 3); yours to keep or change.`
 
 **Figure:** the player, first: a slide mid-animation, the timer counting against my time, the step controls. Everything in this chapter is on the way to it.
@@ -24,9 +25,9 @@
 `%% band: Dramatised (the conductor's line). Rests on the brief's first line and the commit that routed it.`
 *Dramatised.*
 
-**Narrator.** Then the record keeps something I would rather it did not. Within a quarter of an hour of that round I changed the order myself. A feedback pane on every page, so I could send notes from the browser, went first, and the player went second. My reasoning was that there was still time before seven, and I could wake the agents when I needed them.
+**Narrator.** Within a quarter of an hour of that round I changed the order myself. A feedback pane on every page, so I could send notes from the browser, went first, and the player went second. My reasoning was that there was still time before seven, and I could wake the agents when I needed them.
 
-**Narrator.** Both things were true. The pane did let me send notes from the page I was reading. And the main priority came second, landed in the middle of the afternoon, and was still being fixed in the last hour. This book keeps its failures, and that one is mine.
+**Narrator.** Both things were true. The pane did let me send notes from the page I was reading. And the main priority came second, landed in the middle of the afternoon, and was still being fixed in the last hour. That failure stays in the book.
 
 *Words for this page:* the **feedback pane** is a box on every page of the team's site where I could write, or speak, a note that went straight to the team. A **feedback round** is one list of notes from me, a brief for each member, routed by the conductor.
 
@@ -34,22 +35,22 @@
 
 `%% Check (the newsroom, part three, chapter 12; his to confirm, or its softer form, before it prints): "Looking back, I did what most people do when they come back to a team with fresh energy: I added a new idea in front of the one I had just said mattered most." (softer: "I did what I often do when I come back with fresh energy")`
 
-`%% for the editor: "something I would rather it did not" and "that one is mine" are the writer's reading of his view; his to keep or drop. The record holds the order and his words, not his feeling about them.`
+`%% Hold (P30: a reading of his view, not in the record or his briefs; prints once he confirms; storyteller__147): "Then the record keeps something I would rather it did not." and "This book keeps its failures, and that one is mine." The record holds the order and his words, not his feeling about them.`
 
 `%% record: team/conductor/briefs/2026-10-29__editor/feedback-briefs.md (its first line: "about 13:50 London, dictated in a claude.ai chat"; item 1) team/conductor/briefs/2026-10-29__editor/conductor-notes.md (line 11: the pane, with voice; 14:05: "The editor's word after the review"; "The order, as it now stands") c9ced4e (14:07, committed and routed) C104 (the feedback round: given about 13:50, recorded 14:07:04) C028 (the port at 15:07, the last fix landed 18:37)`
 `%% band: My first item and my reasoning are paraphrased from the brief and the conductor's notes (no quoting him to justify the text, the newsroom's pass); the order is the notes'.`
 
 ## A change sent back, at the moment of most pressure
 
-**Narrator.** The first session I started after the night was the conductor's, and the first thing that happened in it is something I want every team to have when its creator walks back in with a list.
+**Narrator.** The first session I started after the night was the conductor's, and the first thing that happened in it was its own check turning a plan down.
 
-**Narrator.** The conductor had my fresh words, and a plan for them that its own check turned down.
+**Narrator.** The conductor had my fresh words, and a plan for them.
 
 **Conductor**: I planned to write your words straight into the others' folders. My check said no: those folders aren't mine to write, and the feedback pane needed rules for its keys before anyone built it. So I sent each of them a request instead, from my own outbox, and the check said go. Your words, yes. Their folders, no.
 
 **Narrator.** The pressure in that hour was me. I was back, with a list, and the talk was due that evening. The checks did not soften because I was in the room. That is what they are for.
 
-`%% for the editor: "something I want every team to have" is writer2's reading of your view (the superlative is kept for the storyteller's scene in chapter 13, critic2__001); yours to keep or drop.`
+`%% Hold (P30: a reading of his view, not in the record or his briefs; prints once he confirms; storyteller__147): "... and the first thing that happened in it is something I want every team to have when its creator walks back in with a list."`
 
 `%% record: team/conductor/wakes/20261029T140334Z.json (pre_review: change, then go, in its history) timeline/day/14.md ("the controls holding at the moment of most pressure") C023 (pre-reviews that said change and were amended)`
 `%% band: Dramatised (the conductor's line). Rests on the conductor's wake of 14:03 and its pre-review; that it was the controls holding under pressure is the historian's reading of the hour.`
@@ -63,13 +64,15 @@
 
 **Narrator.** In dev's I started a session for the feedback pane, with voice. In deck's I went through the studio's pieces live, one by one, and spoke my feedback, and deck wrote it down as given.
 
-**Deck** *(writing fast)*: As given. Your words, not mine. Then the next one.
+**Deck** *(writing)*: As given. Your words, not mine. Then the next one.
 
 **Narrator.** In one sitting, that cleared a queue that had been building all night and all morning: every piece marked ready for me got its answer. Then, at my word, deck sent the rest of the programme to ruv-sgit to build in parallel, and ruv-sgit went from one run an hour to several at once. That was the moment the team stopped waiting for me and started keeping up with me.
 
 `%% for the editor: "That was the moment the team stopped waiting for me and started keeping up with me" is the newsroom journalist's reading of your view (part three, chapter 12); yours to keep or drop.`
 
 **Narrator.** And the schedule did not stop. It yielded. Deck's own scheduled session started in the middle of my live review and closed with nothing done, by design: my session was doing deck's work that hour, so the schedule had nothing of its own to give it. A schedule that knows when to step aside is a better schedule than one that insists.
+
+`%% for the editor: "A schedule that knows when to step aside ..." is the writer's line the newsroom kept as yours (part three, chapter 12, "keep; it is good"); brief 21 lets it print.`
 
 **Figure:** a card, hour fifteen's sessions by who started them, the first hour since the small hours with mine among them: those the schedule started and those I started.
 
@@ -118,7 +121,7 @@
 
 `%% figure brief: ruv-sgit's redrawn asks card (lab/experiments/29-ruv-the-afternoon-loop/edition/asks-card.svg, ruv-sgit__065 to the designer), every value read from C118; its caption's rules kept (the time runs to the work, not to the conductor's routing; "major" is the historian's rule). The times on the card only. Told here, not in chapter 2 (the storyteller's ruling 3). The older line-of-time figure (lab/experiments/29-ruv-the-afternoon-loop/loop.svg) is dropped: the card shows the same asks (critic2__001, P21).`
 
-**Narrator.** That is the loop, and it is what I came back for. I think of it as a cycle: think, explain, create, review, and round to think again. It looks a lot like an OODA loop, and maybe it is a variation on it, for making things. The factory had done what it could do without me. What it could not do was decide. From two o'clock, I decided, it built, I looked, and it built again.
+**Narrator.** That is the loop. I think of it as a cycle: think, explain, create, review, and round to think again. It looks a lot like an OODA loop, and maybe it is a variation on it, for making things. Then the factory waited for me: from two o'clock, I decided, it built, I looked, and it built again.
 
 **Figure:** the loop from chapter 2, now with its names: think, explain, create, review, and round again, with the factory inside it.
 
@@ -129,11 +132,11 @@
 `%% band: Dramatised (dev's line, kept from the 70-page edition). Rests on the port at 15:07 and my asks with my own time in their commit subjects, and when each came back (C105).`
 *Dramatised.*
 
-`%% for the editor: "it is the thing I came back for" and "What it could not do was decide" are the writer's reading of his view, the second from the historian's day file for hour fifteen; his to keep or drop.`
+`%% Hold (P30: a reading of his view, not in the record or his briefs; prints once he confirms; storyteller__147): "... and it is what I came back for." and "The factory had done what it could do without me. What it could not do was decide." (the second is the historian's reading in timeline/day/14.md, not his words; that the queue waited for his answer is the record's).`
 
 ## Something to try
 
-*Within minutes of giving the team my list, I had changed its order, and the record kept the change, so later I could see what I had really wanted. If you try this, write your list down with the most important thing first, and keep a note each time you reorder it.*
+*My list changed order within minutes, and the record kept the change. If you try this, write your list with the most important thing first, and note each time you reorder it.*
 
 `%% record: team/conductor/from-newsroom/2026-11-04__do-this-now-as-invitations.md (chapter 12, its suggestion; its "kept changing order" is a Check, so the why rests on this chapter's one recorded reorder instead) chapter-plan/cast/cast-guide.md (page conventions 1)`
 
