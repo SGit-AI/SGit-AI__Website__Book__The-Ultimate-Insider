@@ -13,7 +13,7 @@
 **Narrator.** One rule first, said plainly, because the whole value of the second reading rests on it. Material flowed one way. This team reads the blind team's published record. Nothing from this book ever went to it: no brief, no chapter, no decision, no finding. The only thing that ever crossed was the hand-off that started it, and that hand-off is kept, whole, in this repository, so anyone can check what the blind team was given. The blind team is finished now. This chapter speaks about it, never to it.
 
 `%% record: book.json D6-6 (signed) the two repositories (this one, and SGit-AI__Website__Cold-Read__The-Ultimate-Insider, read from this side only) team/conductor/handoffs/2026-10-30__cold-read/README.md (the hand-off, the only thing that crossed) CLAUDE.md (this book's: "The one-way valve"), the full book only by D6-6`
-Band: *The rule as this book's page of rules writes it, and the hand-off as kept.*
+`%% band: The rule as this book's page of rules writes it, and the hand-off as kept.`
 
 ## Where the two readings agree
 
@@ -28,7 +28,8 @@ Band: *The rule as this book's page of rules writes it, and the hand-off as kept
 `%% figure brief: For the designer, from timeline/cold-read-comparison.md ("Where they agree": 2e4b1f4 at 00:16:23 to 298be4e). The six marks numbered as below; no counts of the blind team's in the picture.`
 
 `%% record: timeline/cold-read-comparison.md ("Where they agree") 867f8c2 C027 d8f3300 b620234 c8f6f8f`
-Band: *Dramatised (the historian's line, its last sentence the comparison's own words). Rests on its comparison of 30 October.*
+`%% band: Dramatised (the historian's line, its last sentence the comparison's own words). Rests on its comparison of 30 October.`
+*Dramatised.*
 
 ## What the blind team saw that this one did not
 
@@ -75,7 +76,7 @@ Band: *Dramatised (the historian's line, its last sentence the comparison's own 
 `%% figure brief: For the designer. Six rows: the finding in a line, and the timeline day file where this book applied it, as the comparison's "Applied" line lists them.`
 
 `%% record: timeline/cold-read-comparison.md ("What the Cold-Read timeline has that this one lacks"; "Applied 30 October 2026, about 13:20 UTC")`
-Band: *The six findings as this book's historian compared them, each applied here on 30 October.*
+`%% band: The six findings as this book's historian compared them, each applied here on 30 October.`
 
 ## What this book has that the blind team could not see
 
@@ -88,7 +89,7 @@ Band: *The six findings as this book's historian compared them, each applied her
 **Narrator.** None of that went to it. It stays here, as the valve requires.
 
 `%% record: timeline/cold-read-comparison.md ("What this timeline has that the Cold-Read one lacks") team/deck/requests/researcher__before-tonight.md (deck's 03:00 update) a082c52 timeline/unmerged.md timeline/after-the-day.md`
-Band: *What this book's timeline holds and the Cold-Read reading could not, as the comparison lists it.*
+`%% band: What this book's timeline holds and the Cold-Read reading could not, as the comparison lists it.`
 
 ## What it means
 
@@ -101,7 +102,7 @@ Band: *What this book's timeline holds and the Cold-Read reading could not, as t
 **Figure:** the two teams as two rooms, one arrow from the record into each, and one arrow, the hand-off, from this room to the other, drawn once and never again.
 
 `%% record: team/conductor/debriefs/2026-10-29__the-five-step-wake.md at 298be4e ("a second reading, not a second identity") manuscript/rc2/150/07-hour-three-the-five-steps.md timeline/cold-read-comparison.md`
-Band: *The conductor's line from its debrief of 02:19; the comparison's findings.*
+`%% band: The conductor's line from its debrief of 02:19; the comparison's findings.`
 
 ## Do this now
 

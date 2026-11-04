@@ -23,7 +23,8 @@
 **Figure:** the talk's register as a stacked bar: held, held in part, not checked, did not hold. The counts in the bar, with its id in small type.
 
 `%% record: C029 (320 claims, built 18:20: 210 hold, 55 hold in part, 52 not checked, 3 do not hold) C030 (the three, none on stage) team/researcher/ROLE.md at 298be4e claims/README.md (this book's register)`
-Band: *Dramatised (the researcher's line). The talk's own register of claims, as the book's register counts it.*
+`%% band: Dramatised (the researcher's line). The talk's own register of claims, as the book's register counts it.`
+*Dramatised.*
 
 ## The check that keeps it true
 
@@ -46,7 +47,8 @@ Band: *Dramatised (the researcher's line). The talk's own register of claims, as
 **Dev** *(happy, then patient)*: The check said no. It was right. The lines went in, and it said yes.
 
 `%% record: 24da366 (01:19, the release that went out after the refusal) team/dev/debriefs (the-board.md: "the gate the conductor added at the editor's rule refused the release without it"); historian__022; manuscript/rc2/150/05-hour-two-the-rules-written.md ("One build, one check")`
-Band: *Dramatised (dev's line, kept from chapter 5). Rests on dev's release of 01:19 and its debrief.*
+`%% band: Dramatised (dev's line, kept from chapter 5). Rests on dev's release of 01:19 and its debrief.`
+*Dramatised.*
 
 **Narrator.** And the release history shows the result: each release the pipeline made, the commits it carried, the files they changed and the pages those files produce. Nobody typed a version number all day. The pipeline numbered every release itself. Deck's page of rules gives the reason: agents racing for release numbers is how another team, the newsroom, had lost releases on 27 October.
 
@@ -55,7 +57,8 @@ Band: *Dramatised (dev's line, kept from chapter 5). Rests on dev's release of 0
 **Figure:** one row of the release history, drawn: a release number, its commits, the files changed and the pages they make. A drawing from the page, not a screenshot: the build never shows an admin page.
 
 `%% record: 1f7c633 (admin/build/validate.py) index/talk-site/README.md (item 18) team/deck/ROLE.md at 298be4e ("Never type a version number ...")`
-Band: *Dramatised (deck's line, kept from chapter 6). The check as first built at 00:40, and the release history as the site showed it; deck's rule is its page's own.*
+`%% band: Dramatised (deck's line, kept from chapter 6). The check as first built at 00:40, and the release history as the site showed it; deck's rule is its page's own.`
+*Dramatised.*
 
 ## The site is the scaffolding
 
@@ -66,7 +69,8 @@ Band: *Dramatised (deck's line, kept from chapter 6). The check as first built a
 **Dev** *(happy, the fast one)*: Every page is a file, so every page has a history and a check before it goes out. You never have to ask what changed. You look.
 
 `%% record: index/talk-site/README.md (items 2, 5, 16 to 18); talk repository at 298be4e: admin/build/build.py`
-Band: *Dramatised (dev's line). Rests on the talk's site as it stood at the end of the day.*
+`%% band: Dramatised (dev's line). Rests on the talk's site as it stood at the end of the day.`
+*Dramatised.*
 
 ## The brief and its corrections
 
@@ -93,7 +97,7 @@ Band: *Dramatised (dev's line). Rests on the talk's site as it stood at the end 
 `%% for the editor: "I would keep the file, and give one member the job of writing in it." and the sentence after it are the writer's reading of his view; his to keep or drop.`
 
 `%% record: fde3fea (this book: the researcher's trace refusing a line) talk repository at 298be4e: BRIEF.md BRIEF-CORRECTIONS.md (unchanged since 1f7c633) REALITY.md (changed through the day, last at 17:42, 70d4981); BRIEF.md's request: "presentation that I'm delivering tomorrow in central london"; C104 (the afternoon's decisions)`
-Band: *The brief, the reality file and the corrections file as they stood at the end of the day.*
+`%% band: The brief, the reality file and the corrections file as they stood at the end of the day.`
 
 ## Do this now
 

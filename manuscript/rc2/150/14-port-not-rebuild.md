@@ -31,7 +31,8 @@
 `%% figure brief: For the designer, from C104 (the decisions round, about 15:00 and 15:16:37; the longer work step, 15:21:31, "the work step's limit is 45 minutes, at the editor's word (it was 8)"; the two members, about 15:25). The lengths on the card only.`
 
 `%% record: 78d517d (15:16:37) 545a473 (15:21:31) f00734f (15:25) 4adc04a (15:47) C104 C013 timeline/day/15.md ("three decisions in twenty minutes"; "the stale copy the start rule was written against becomes a live risk")`
-Band: *Dramatised (the conductor's line). Rests on the conductor's commits of 15:16 to 15:47; my words are the 15:21 commit's own; the reading of the start rule as a live risk is the historian's.*
+`%% band: Dramatised (the conductor's line). Rests on the conductor's commits of 15:16 to 15:47; my words are the 15:21 commit's own; the reading of the start rule as a live risk is the historian's.`
+*Dramatised.*
 
 ## Motion and studio arrive
 
@@ -44,7 +45,8 @@ Band: *Dramatised (the conductor's line). Rests on the conductor's commits of 15
 **Narrator.** Studio had its first two pieces rebuilt on this site's engine by 15:40, each with its notice, its source commit and its data pinned unchanged. Motion did not wait to be told: it sent deck a proposed picture with its stages, so deck's answer could be "go" and not a fresh brief, and its first piece, the building, was in by 16:34.
 
 `%% record: f00734f (15:25, the briefs) f1cbca0 8d208d3 (15:31) c3ce566 (15:40, studio's first ports) 7639664 (16:34, motion's building) team/motion/requests/deck__the-building.md C013 timeline/interviews/motion.md studio.md`
-Band: *Dramatised (studio's and motion's lines, kept from the 70-page edition). Rests on the briefs, the first commits and the first pieces.*
+`%% band: Dramatised (studio's and motion's lines, kept from the 70-page edition). Rests on the briefs, the first commits and the first pieces.`
+*Dramatised.*
 
 ## The talk doubles
 
@@ -67,7 +69,8 @@ Band: *Dramatised (studio's and motion's lines, kept from the 70-page edition). 
 **Narrator.** Remember those gates. Not one of them closed. The tool to lock a part shipped at 17:54, and the hold came at 18:44, and part 4 is where the record shows what happened between.
 
 `%% record: 62c6b99 (16:32:22, "the talk is 90 minutes, and a section on the editor's work: routed to six members") team/conductor/wakes/ (16:30, pre-review change then go) 3342cff (16:59:22, "the talk in three parts with locks at 18:30, 19:30, 20:00; tonight only, members keep themselves going between hourly wakes") C026 (the player counted down ninety minutes) C027 (planned locks; locked by end of day: 0; the lock tool 4a2481b at 17:54) C023`
-Band: *Dramatised (the conductor's line). Rests on its commits of 16:32 and 16:59; the plan's times are C027's.*
+`%% band: Dramatised (the conductor's line). Rests on its commits of 16:32 and 16:59; the plan's times are C027's.`
+*Dramatised.*
 
 ## Port, not rebuild
 
@@ -86,7 +89,7 @@ Band: *Dramatised (the conductor's line). Rests on its commits of 16:32 and 16:5
 **Figure:** where the afternoon's pieces came from: each piece in the talk, with an arrow back to the earlier site or the earlier commit it was ported from.
 
 `%% record: 3314ffe (15:07, "the player, ported from ruv.sgit.ai") BRIEF.md ("what we did at ruv.sgit.ai") 1f7c633 (00:40, the slide engine) c3ce566 7639664 team/studio/debriefs/2026-10-29__first-ports.md C011 C104`
-Band: *The port at 15:07, the brief's own words, and the first pieces of studio and motion.*
+`%% band: The port at 15:07, the brief's own words, and the first pieces of studio and motion.`
 
 ## Do this now
 

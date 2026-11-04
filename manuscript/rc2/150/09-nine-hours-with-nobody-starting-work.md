@@ -11,7 +11,7 @@
 `%% figure brief: For the designer, from C095 (commits by hour, claims/talk-commits-by-member-hour.md, hours 05 to 13 UTC) and C087 (wakes by trigger: "05 to 13: 5 or 6 scheduled an hour, no editor"). The counts in the boxes only, never in a line: each box its hour's commits, not counting merges (C095's "all" row); the wakes shown once, in C087's own words, as a band laid over the boxes, never as a count in each, since the register has a range, not a count, for each of these hours (ruv-sgit__056, designer__111). The chapter's picture.`
 
 `%% record: f448345 (04:03, my last word of the night) team/conductor/briefs/2026-10-29__editor/feedback-briefs.md (its first line: about 13:50) C087 C095 C110`
-Band: *The strip is the register's; my two times are the commit of 04:03 and the brief's own first line.*
+`%% band: The strip is the register's; my two times are the commit of 04:03 and the brief's own first line.`
 
 ## Hour six: every wake on the clock
 
@@ -32,7 +32,8 @@ Band: *The strip is the register's; my two times are the commit of 04:03 and the
 **Narrator.** The hour holds one more sign of the schedule working. The designer's first note, written at 03:41, was built by dev at 05:51, through the conductor's schedule: set for dev's slot in hour five, it landed in the one in hour six. A request not picked up in one slot is picked up in the next. Nobody chased it.
 
 `%% record: timeline/day/05.md (and "What the hour shows") 65482b3 team/researcher/wakes/20261029T051108Z.json (post_check: partial) c7d0ef8 7e5fd3b 130d6c3 23fde17 39a0e20 95d1f66 C087`
-Band: *Dramatised (the researcher's line). Rests on its wake of 05:11 and the hour's commits.*
+`%% band: Dramatised (the researcher's line). Rests on its wake of 05:11 and the hour's commits.`
+*Dramatised.*
 
 ## Hours seven to nine: the morning's rhythm
 
@@ -51,7 +52,7 @@ Band: *Dramatised (the researcher's line). Rests on its wake of 05:11 and the ho
 **Narrator.** Three findings of one kind, each found because the last redaction prompted a wider look. The check that caught them ran after the push every time; what got better was what the member looked for, not the order of the steps. Part 4 keeps all three, and asks what that order should have been.
 
 `%% record: team/researcher/wakes/20261029T061456Z.json (post_review: finding) C025 (its fourth entry, 06:14: found after the push, redacted in the same wake) C068 ("none a key, an account credential, a vault key or a personal detail") timeline/day/06.md ("what improved was the pattern, not the order of the steps")`
-Band: *The register's account of the finding, told as the team's finding only.*
+`%% band: The register's account of the finding, told as the team's finding only.`
 
 ### Deck's review, and a picture sent back
 
@@ -66,7 +67,8 @@ Band: *The register's account of the finding, told as the team's finding only.*
 **Narrator.** At 07:43 the second version came in, and at twenty past eight deck kept it, with two things to fix next time. The third version came in at 12:53, and deck passed it at 13:48, ready for me to see, a couple of minutes before my feedback round. Three rounds, one picture, and I started none of them.
 
 `%% record: the three rounds: 78b89b9 (06:21, E02 sent back) cf52cda (07:43, v2 delivered) eefc1d3 (08:21, E02 v2 kept) 8012b00 (12:53, v3 delivered) 19e7f2d (13:48, E02 v3 kept, ready for the editor) team/deck/debriefs/2026-10-29__e02-v2-review.md manuscript/rc2/70/07-the-rhythm.md`
-Band: *Dramatised. Rests on deck's three reviews of one picture (06:21, 08:21, 13:48); the quoted line is deck's own. Kept from the 70-page edition.*
+`%% band: Dramatised. Rests on deck's three reviews of one picture (06:21, 08:21, 13:48); the quoted line is deck's own. Kept from the 70-page edition.`
+*Dramatised.*
 
 ### The morning review
 
@@ -77,7 +79,8 @@ Band: *Dramatised. Rests on deck's three reviews of one picture (06:21, 08:21, 1
 **Narrator.** It is the first thing the team wrote in order to hand itself back to a person. Read the last part again: what only you can decide. A team that runs on its own still has to know what it may not decide on its own, and say so in writing, at the top of the page.
 
 `%% record: 3d94be9 (07:07, the morning review) aa7a3eb (07:18, the researcher's answer; "a decision put to the editor") team/conductor/debriefs/2026-10-29__the-morning-review.md C068 (the values in the vault's pushed history) timeline/day/07.md`
-Band: *Dramatised (the conductor's line). Rests on the morning review and the researcher's answer; the vaults are named, never shown.*
+`%% band: Dramatised (the conductor's line). Rests on the morning review and the researcher's answer; the vaults are named, never shown.`
+*Dramatised.*
 
 ### Holding one ask while another is open
 
@@ -88,7 +91,8 @@ Band: *Dramatised (the conductor's line). Rests on the morning review and the re
 **Narrator.** And a lapse that stays in. From ruv-sgit's commit at a quarter to nine, many of its commits dropped the "@" from its name and the line saying which agent made them. They carry on that way, mixed with commits in the house form, to its last of the day. The register's count of commits by member was corrected for it afterwards. Chapter 10 has the conductor's notes about it.
 
 `%% record: eefc1d3 (08:21: its ask of the researcher held while that request is open) 15707dc (08:43, without the @ form or the Agent trailer) fc724df (18:40) C014 (corrected for it) timeline/day/08.md`
-Band: *Dramatised (deck's line). Rests on deck's wake of 08:18 and ruv-sgit's commits from 08:43.*
+`%% band: Dramatised (deck's line). Rests on deck's wake of 08:18 and ruv-sgit's commits from 08:43.`
+*Dramatised.*
 
 ## Hours ten and eleven: a promise kept with nobody chasing it
 
@@ -101,7 +105,8 @@ Band: *Dramatised (deck's line). Rests on deck's wake of 08:18 and ruv-sgit's co
 **Conductor** *(on the minute, procedural)*: Next hour's order is set. Each of you has one thing in it, and the next after that.
 
 `%% record: cf7d742 (09:05) 09317d9 (10:05): the conductor's scheduled wakes setting the next experiment and dev's next build an hour ahead (timeline/day/09.md, 10.md)`
-Band: *Dramatised (the conductor's line). Rests on its scheduled wakes of 09:03 and 10:03.*
+`%% band: Dramatised (the conductor's line). Rests on its scheduled wakes of 09:03 and 10:03.`
+*Dramatised.*
 
 **Narrator.** Here is the schedule's promise, kept. At 09:21 deck asked the researcher for plain descriptions of what each capability in a picture could do. At 10:14, at its own next slot, the researcher answered, in the source's own words. At 10:21, at its own next slot, deck used the answer and sent the next piece to ruv-sgit. A request written in one hour, answered at the recipient's next slot, used at the asker's next. No reminder. No chasing. Nobody awake who needed to be. Chapter 10 has the three notes word for word.
 
@@ -112,7 +117,8 @@ Band: *Dramatised (the conductor's line). Rests on its scheduled wakes of 09:03 
 `%% figure brief: For the designer. Three marks on a line of time, the times in the picture, not in any line.`
 
 `%% record: 6b55cff (09:21, deck's ask) 3f094f2 (10:14, the researcher's answer) 36e382b (10:21, deck uses it) timeline/day/10.md ("a request written in one hour is answered by the next slot of its recipient")`
-Band: *Dramatised (the researcher's line). Rests on the three commits.*
+`%% band: Dramatised (the researcher's line). Rests on the three commits.`
+*Dramatised.*
 
 **Narrator.** In the same hours, two of the day's quieter turns. In its wake of 09:48 dev built the designer's type scale and put a check into the gate that fails any text size off the scale. The historian counts it the second time in the day that one member's decision became a setting every member's work must pass; the first was the record check at 02:51. This one is about style, not safety, and it works the same way. And at ten to eleven the designer owned its own mistake. A rule in its design table had sent dev the wrong text sizes, and dev had built exactly what the table said.
 
@@ -121,7 +127,8 @@ Band: *Dramatised (the researcher's line). Rests on the three commits.*
 **Narrator.** The conductor's two notes to ruv-sgit about the "@" fall here too, one at five past nine and one at five past ten, with deck's note to ruv-sgit a quarter of an hour after the second. ruv-sgit followed deck's and not the conductor's. Chapter 10 tells that pair in full, because it is an example the record keeps of how the team talked.
 
 `%% record: 8917847 (09:54, in the wake of 09:48: the type-scale check in the gate) timeline/day/09.md (the historian's reading: "the second time in the day a member's note became a gate rule for everyone") 99aaf05 (02:51) 56c680b (10:49, the designer's note) team/designer/debriefs/2026-10-29__note-3-checked.md cf7d742 (09:05) 09317d9 (10:05) 36e382b (10:21) historian__022 timeline/day/09.md`
-Band: *Dramatised (the designer's line). The quoted words are its own, from its note of 10:49.*
+`%% band: Dramatised (the designer's line). The quoted words are its own, from its note of 10:49.`
+*Dramatised.*
 
 ## Hours twelve and thirteen: quiet, and piling up at one door
 
@@ -140,7 +147,7 @@ Band: *Dramatised (the designer's line). The quoted words are its own, from its 
 **Narrator.** In these hours, too, the first sign of the schedule's minutes not being met: the designer's slot at twenty to the hour started late, and the conductor's at two minutes past started at ten past. Nothing broke. The record just shows the clock and the wakes beginning to drift apart.
 
 `%% record: timeline/day/11.md (the historian's reading: "the first wake since the researcher's at 05:11 to close as anything but ok") 93b7969 (11:23) 5c3d0b0 (11:25) 90de1fa team/designer/wakes/20261029T114053Z.json (post_check: partial) 98fc10c (11:56) f735b9b (12:30, ready for the editor) f8b5be5 (12:34) 0a2d2cc (12:52, the first pass checked in full) team/designer/wakes/ (started 12:48) team/conductor/wakes/ (started 13:10) timeline/day/11.md 12.md`
-Band: *The hours' commits and wake records, as the historian's day files give them.*
+`%% band: The hours' commits and wake records, as the historian's day files give them.`
 
 ## Hour fourteen: the empty queue
 
@@ -161,7 +168,8 @@ Band: *The hours' commits and wake records, as the historian's day files give th
 **Figure:** the cast bar at the end of hour fourteen: six cards lit, the editor's chair filling, one empty chair still.
 
 `%% record: aa2785c 3f0d350 (13:09, dev's partial) ebf63ca abf5e32 (13:13, the pre-review brief names scope.holds) 41d4757 team/ruv-sgit/wakes/20261029T134005Z.json (13:40, idle) 19e7f2d (13:46 wake, committed 13:48, ready for the editor) team/conductor/briefs/2026-10-29__editor/feedback-briefs.md (first line: about 13:50) c9ced4e (14:07) timeline/day/13.md`
-Band: *Dramatised (ruv-sgit's line). Rests on its idle wake of 13:40; the feedback round is dated by its brief's first line and entered the record at 14:07.*
+`%% band: Dramatised (ruv-sgit's line). Rests on its idle wake of 13:40; the feedback round is dated by its brief's first line and entered the record at 14:07.`
+*Dramatised.*
 
 ## What nine hours show
 

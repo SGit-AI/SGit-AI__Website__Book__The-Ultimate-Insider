@@ -21,7 +21,7 @@
 `%% for the editor: "What the three share ... show." is the writer's reading across his three accounts; his to keep or drop.`
 
 `%% record: C089 (three accounts; state open) C006 C027 C100 timeline/after-the-day.md 49c701e ec1ec00 (both after the day)`
-Band: *My three accounts, as the register holds them; the later two were given after the day.*
+`%% band: My three accounts, as the register holds them; the later two were given after the day.`
 
 ## The misses, one at a time
 
@@ -40,7 +40,8 @@ Band: *My three accounts, as the register holds them; the later two were given a
 **Dev** *(more quietly)*: I was in your player fixes until the end. The lock was still waiting.
 
 `%% record: 4a2481b (17:54) 2ed6427 (18:39) dbd75ad (18:37) team/dev/wakes/20261029T174850Z.json 39df303 (18:48, on a branch) timeline/unmerged.md C027 C088 timeline/interviews/dev.md`
-Band: *Dramatised (dev's lines). Rests on the lock tool, the conductor's request, dev's last wake and its close on a branch.*
+`%% band: Dramatised (dev's lines). Rests on the lock tool, the conductor's request, dev's last wake and its close on a branch.`
+*Dramatised.*
 
 ### Two parts of three unfinished
 
@@ -53,7 +54,8 @@ Band: *Dramatised (dev's lines). Rests on the lock tool, the conductor's request
 **Deck** *(to itself, rearranging slides that will not be shown)*: I reviewed other agents' work all night. I did not finish my own.
 
 `%% record: team/deck/status.json at 298be4e ("next": parts 2 and 3) team/deck/wakes/20261029T182009Z.json (never closed) 89afb77 (18:21) C027 timeline/interviews/deck.md`
-Band: *Dramatised (deck's lines). Rests on deck's status and its last wake.*
+`%% band: Dramatised (deck's lines). Rests on deck's status and its last wake.`
+*Dramatised.*
 
 ### The moment missed
 
@@ -66,7 +68,8 @@ Band: *Dramatised (deck's lines). Rests on deck's status and its last wake.*
 **Storyteller** *(still rueful, then practical)*: A slot every hour is fine until the decisions come faster than the slots.
 
 `%% record: 3342cff (16:59, "To-storyteller: split the arc into three parts ... to deck by 17:30") team/storyteller/debriefs/2026-10-29__three-parts.md team/storyteller/requests/deck__three-parts.md ("is late") 3260997 (17:25, part one set) timeline/interviews/storyteller.md`
-Band: *Dramatised (the storyteller's lines). Rests on the conductor's brief, the storyteller's debrief and its letter to deck.*
+`%% band: Dramatised (the storyteller's lines). Rests on the conductor's brief, the storyteller's debrief and its letter to deck.`
+*Dramatised.*
 
 ### The correction lost in the freeze
 
@@ -79,7 +82,7 @@ Band: *Dramatised (the storyteller's lines). Rests on the conductor's brief, the
 **Narrator.** The lesson for your first week: when you freeze something, write down what is waiting to go in when you unfreeze it.
 
 `%% record: C031 (on stage $17.4M, Ponemon for DTEX, 2025 edition; at source in 2026, US$19.5M; correction proposed a082c52, 02:52; the freeze 02:47; lifted 14:07 for the framing only; the slide file has no commit after 00:40) team/deck/requests/researcher__before-tonight.md (deck's 03:00 update)`
-Band: *The register's account of the figure, the freeze and the correction.*
+`%% band: The register's account of the figure, the freeze and the correction.`
 
 ### Other sites' data, pushed before it was stripped
 
@@ -90,7 +93,8 @@ Band: *The register's account of the figure, the freeze and the correction.*
 **Researcher** *(unbudging, and not pleased with itself)*: I would build the redaction before the first push, not after the findings.
 
 `%% record: team/researcher/status.json at 298be4e (asks: D12, keep the evidence vault's history or rotate it) aa7a3eb (07:18, "a decision put to the editor") C025 (entries 2 to 4: two found after the push, one before the close) C068 ("none a key, an account credential, a vault key or a personal detail") team/researcher/debriefs/2026-10-29__the-first-evidence-round.md timeline/interviews/researcher.md (its "what could we do better", reconstructed)`
-Band: *Dramatised (the researcher's line, on its reconstructed interview's own lesson). Told as the team's finding only: nothing of what was captured, how, or from where.*
+`%% band: Dramatised (the researcher's line, on its reconstructed interview's own lesson). Told as the team's finding only: nothing of what was captured, how, or from where.`
+*Dramatised.*
 
 ### A key printed into a log
 
@@ -101,7 +105,8 @@ Band: *Dramatised (the researcher's line, on its reconstructed interview's own l
 **Conductor** *(worried, then procedural)*: I printed what I should not have. I rotated it, and I wrote it down.
 
 `%% record: team/conductor/debriefs/2026-10-29__hourly-and-handover.md team/conductor/debriefs/2026-10-29__two-public-vaults.md timeline/interviews/conductor.md`
-Band: *Dramatised (the conductor's line). The event and the rotation only; nothing of the key is printed.*
+`%% band: Dramatised (the conductor's line). The event and the rotation only; nothing of the key is printed.`
+*Dramatised.*
 
 ### A record that says what did not happen
 
@@ -112,7 +117,8 @@ Band: *Dramatised (the conductor's line). The event and the rotation only; nothi
 **Designer** *(mortified)*: I wrote the plan down as if it were the fact. A status is the wrong place for a guess.
 
 `%% record: team/designer/status.json at 298be4e ("locked at 18:30 after its check") 2ed6427 team/conductor/HOLD.md C027 timeline/interviews/designer.md`
-Band: *Dramatised (the designer's line, on its reconstructed interview's own lesson). Rests on its status file and the conductor's record.*
+`%% band: Dramatised (the designer's line, on its reconstructed interview's own lesson). Rests on its status file and the conductor's record.`
+*Dramatised.*
 
 ### Work with no name on it
 
@@ -121,7 +127,7 @@ Band: *Dramatised (the designer's line, on its reconstructed interview's own les
 **Narrator.** Two kinds. In the afternoon, the player's commits went out with no member named in their subjects; only the trailers show they were dev's. And from a quarter to nine, many of ruv-sgit's commits left off the "@" in front of its name. Anything counting work by the subject line saw work landing with nobody's name on it. The register's count of commits by member was corrected for both, afterwards.
 
 `%% record: C014 (commits by member, with or without @, and its correction) 28fe01d fb355d3 23739cc 12e93db 013d97e dbd75ad c33e86a 4a2481b (Agent: dev in their trailers) 15707dc (08:43) fc724df (18:40) timeline/day/08.md 16.md`
-Band: *The commits as they stand, and the register's count of them.*
+`%% band: The commits as they stand, and the register's count of them.`
 
 ### The claims that did not hold
 
@@ -136,7 +142,8 @@ Band: *The commits as they stand, and the register's count of them.*
 `%% figure brief: For the designer. One card per section above, nine in order; under each, its id or record in small type: the lock (C027), the parts (C027), the moment (3342cff), the freeze (C031), the captures (C025, C068), the printed key (the conductor's debrief), the status (C027), the unnamed work (C014), the claims (C029, C030).`
 
 `%% record: C029 C030 (where each of the three was) 78d517d (15:16, my answer to R5)`
-Band: *Dramatised (the researcher's line). Rests on the talk's register of claims.*
+`%% band: Dramatised (the researcher's line). Rests on the talk's register of claims.`
+*Dramatised.*
 
 ## Do this now
 

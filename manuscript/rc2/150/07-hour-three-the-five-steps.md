@@ -17,7 +17,8 @@
 **Conductor** *(on the minute)*: Plan it, have the plan checked, do it, have it checked, check it went to plan. And the tool will not let anyone skip to the third.
 
 `%% record: team/conductor/wakes/20261029T021416Z.json (opened 02:14:16) 8c66751 (02:16, wake.py: work refused before plan and pre-review both say go) 5700bab (02:18, the steps in WAKE.md, the review briefs, wake.py check) timeline/day/02.md`
-Band: *Dramatised (the conductor's line). Rests on the first wake record and the two commits that built the steps.*
+`%% band: Dramatised (the conductor's line). Rests on the first wake record and the two commits that built the steps.`
+*Dramatised.*
 
 ## One wake, start to finish
 
@@ -48,7 +49,8 @@ Band: *Dramatised (the conductor's line). Rests on the first wake record and the
 `%% figure brief: For the designer, from the record word for word. The chapter's picture, as the seventy's chapter 5 drew it.`
 
 `%% record: team/conductor/wakes/20261029T021416Z.json at 298be4e (plan 02:14:53, pre_review 02:16:07, work 02:18:19, post_review 02:19:05, post_check 02:19:34) 5700bab c8f6f8f team/conductor/debriefs/2026-10-29__the-five-step-wake.md timeline/day/02.md ("What the hour shows": the historian's reading, "the strongest early evidence that the steps were more than ceremony") C025 (its first entry: "CLAUDE.md written outside the conductor's scope ... not named in the commit message")`
-Band: *Dramatised. Every step, verdict and quoted line is from the conductor's first wake record, 02:14 to 02:19, and its debrief; that it is the strongest early sign the steps were more than ceremony is the historian's reading of the hour; the conductor's other lines are ours.*
+`%% band: Dramatised. Every step, verdict and quoted line is from the conductor's first wake record, 02:14 to 02:19, and its debrief; that it is the strongest early sign the steps were more than ceremony is the historian's reading of the hour; the conductor's other lines are ours.`
+*Dramatised.*
 
 ## A rule becomes a setting
 
@@ -65,7 +67,8 @@ Band: *Dramatised. Every step, verdict and quoted line is from the conductor's f
 `%% figure brief: For the designer. A line of time across hour three, with the rule moving from a page to a setting. The times in the picture, not in any line.`
 
 `%% record: team/dev/wakes/20261029T024849Z.json (started 02:48:49; pre_review condition: "wake.py check in validate.py changes the gate for every member: say so in the debrief and commit, run the full gate before pushing"; post_check partial) 99aaf05 (02:51: "a closed wake record that skipped a step, or recorded work without two go verdicts before it, fails the gate for every member (negative control ...)") cf4ca8b timeline/day/02.md ("What the hour shows")`
-Band: *Dramatised (dev's line). Rests on dev's first scheduled wake, its commit at 02:51 and its wake record.*
+`%% band: Dramatised (dev's line). Rests on dev's first scheduled wake, its commit at 02:51 and its wake record.`
+*Dramatised.*
 
 ## The first scheduled wake, and the schedule beside me
 
@@ -82,7 +85,8 @@ Band: *Dramatised (dev's line). Rests on dev's first scheduled wake, its commit 
 `%% figure brief: For the designer, from C087 (hour 02 UTC, which is hour three on the margin clock: 2 scheduled, 5 the editor's). The counts on the card only.`
 
 `%% record: team/ruv-sgit/wakes/20261029T023328Z.json (kind "scheduled, hourly at :32"; started 02:33:28) 0d13c43 (02:37: "wake closed: five steps recorded (go, go, done, clean, as-planned)") c81df64 (02:05, the conductor's 02:02 wake, no record) C087 C110`
-Band: *Dramatised (ruv-sgit's line). Rests on its first scheduled wake record and its closing commit; the count is the register's.*
+`%% band: Dramatised (ruv-sgit's line). Rests on its first scheduled wake record and its closing commit; the count is the register's.`
+*Dramatised.*
 
 ## The freeze
 
@@ -101,7 +105,8 @@ Band: *Dramatised (ruv-sgit's line). Rests on its first scheduled wake record an
 `%% for the editor: "I do not regret the freeze" and the reason given for it are the writer's reading of his view; his to keep or drop.`
 
 `%% record: 75ddb3e (02:10, the researcher's first round) 79b6709 (02:20, deck's first items; C031: "after deck had already released the earlier items of the same list at 02:20") team/deck/requests/researcher__before-tonight.md (deck's 03:00 update, quoting the editor at 02:47) 91772e6 (D01) a082c52 (02:52, the exact text) 60af587 (02:52, the programme, in the wake opened at 02:47) C031 (its beginning: the proposal five minutes after the freeze; its cost is told in part 4)`
-Band: *Dramatised (the researcher's line). My words are as deck recorded them; the times are the commits'.*
+`%% band: Dramatised (the researcher's line). My words are as deck recorded them; the times are the commits'.`
+*Dramatised.*
 
 ## What the hour leaves
 

@@ -19,7 +19,8 @@
 **Conductor** *(on the minute)*: Backlog, then schedule, then work. For everyone. A new ask goes into the schedule, not straight into somebody's hands.
 
 `%% record: team/conductor/wakes/20261029T030304Z.json 8543269 (03:05) 648feee (03:10: "backlog, then schedule, then execute, for everyone") team/deck/wakes/ (started 03:18:53) e8bd87a (03:42, in the wake opened at 03:33) C087 (hour 03 UTC: 5 scheduled; the researcher's first scheduled wake at 04:10, timeline/day/04.md) C110 timeline/day/03.md`
-Band: *Dramatised (the conductor's line). Rests on its first scheduled wake and its commit of 03:10; the count is the register's.*
+`%% band: Dramatised (the conductor's line). Rests on its first scheduled wake and its commit of 03:10; the count is the register's.`
+*Dramatised.*
 
 ## Two failures, two rules
 
@@ -32,14 +33,16 @@ Band: *Dramatised (the conductor's line). Rests on its first scheduled wake and 
 **Narrator.** That is the lesson the register draws, and it is the right one: redaction does not reach a commit already pushed. The review worked; it worked at the wrong end. Hour five, below, shows what changed.
 
 `%% record: team/researcher/wakes/20261029T030550Z.json (opened 03:05; post_review: finding, stamped 03:17, after the redaction at 03:16) 59ac8ab C025 (its second entry, and its note: "a story of the controls catching a leak late, not preventing it")`
-Band: *Dramatised (the researcher's line). Rests on its wake of 03:05 and the register's account of the finding; told as the team's finding and its rule only.*
+`%% band: Dramatised (the researcher's line). Rests on its wake of 03:05 and the register's account of the finding; told as the team's finding and its rule only.`
+*Dramatised.*
 
 **Narrator.** The second was dev's. Its release loop had counted a push the server refused as a push that went through, and commits stayed off the team's branch until dev checked. The rule it wrote at 03:34 is one line, and this book's own team still follows it: a push is done when the commit is on the shared branch, not when the command says so.
 
 **Dev** *(fast, then sheepish)*: The loop said pushed. The branch said otherwise. The branch wins.
 
 `%% record: 6a6be6d (03:34: "a push is done when the commit is in origin/dev") team/dev/ROLE.md at 298be4e (the push rule) timeline/interviews/dev.md`
-Band: *Dramatised (dev's line). Rests on dev's commit of 03:34 and the rule in its page.*
+`%% band: Dramatised (dev's line). Rests on dev's commit of 03:34 and the rule in its page.`
+*Dramatised.*
 
 **Narrator.** And a third, smaller, the conductor's own: at 03:07 it closed a wake with a correction whose time it had typed by hand, and the time was wrong. From then on, its times came from the clock. Small failures with small rules are the ones most teams never write down.
 
@@ -62,7 +65,8 @@ Band: *Dramatised (dev's line). Rests on dev's commit of 03:34 and the rule in i
 `%% figure brief: For the designer. A drawing from the page, not a screenshot: the log sat among the admin pages, which the book never shows.`
 
 `%% record: 794008c 3616efc (03:27 to 03:29) team/conductor/night/20261029T0327.json timeline/README.md (the timeline cites the wakes and commits beneath the log)`
-Band: *Dramatised (the conductor's line). Rests on its commits of 03:27 to 03:29.*
+`%% band: Dramatised (the conductor's line). Rests on its commits of 03:27 to 03:29.`
+*Dramatised.*
 
 ## The designer arrives, and my last word of the night
 
@@ -75,7 +79,8 @@ Band: *Dramatised (the conductor's line). Rests on its commits of 03:27 to 03:29
 `%% for the editor: "I am not going to tell you either: it does not matter" is the writer's; his to keep or drop. The thirty says only "The record does not say where I went."`
 
 `%% record: c6dcf89 (03:41) 09c02ff (03:43, the 03:39 wake, idle) f448345 (04:03, the editor agrees the designer's policy) team/designer/wakes/ (started 04:02:56) C011`
-Band: *Dramatised (the designer's line). Rests on its first commit and its idle first wake; my last word of the night is the commit of 04:03.*
+`%% band: Dramatised (the designer's line). Rests on its first commit and its idle first wake; my last word of the night is the commit of 04:03.`
+*Dramatised.*
 
 ## Hour five: the schedule alone
 
@@ -100,7 +105,8 @@ Band: *Dramatised (the designer's line). Rests on its first commit and its idle 
 **Narrator.** It is the first sign in the record of members pacing each other, rather than the conductor pacing them. And it came from a review, not from a rule anyone had written for it.
 
 `%% record: aeffbf9 (04:22) team/deck/wakes/20261029T041822Z.json team/deck/debriefs/2026-10-29__e01-review.md`
-Band: *Dramatised. Rests on deck's wake of 04:18 and its commit of 04:22: its reviewer asked it to hold the second request while the first was in flight.*
+`%% band: Dramatised. Rests on deck's wake of 04:18 and its commit of 04:22: its reviewer asked it to hold the second request while the first was in flight.`
+*Dramatised.*
 
 ### The argument with a reviewer
 
@@ -117,7 +123,8 @@ Band: *Dramatised. Rests on deck's wake of 04:18 and its commit of 04:22: its re
 **Figure:** ruv-sgit's two-panel reviewer card (`lab/experiments/30-ruv-the-reviewer-card/card.svg`).
 
 `%% record: C107 af0010b team/researcher/wakes/20261029T041003Z.json`
-Band: *Dramatised. Rests on the researcher's wake at 04:11; the reviewer's words are its own.*
+`%% band: Dramatised. Rests on the researcher's wake at 04:11; the reviewer's words are its own.`
+*Dramatised.*
 
 ### The same failure, caught in time
 
@@ -136,7 +143,8 @@ Band: *Dramatised. Rests on the researcher's wake at 04:11; the reviewer's words
 **Narrator.** Hold on to that difference, and to its limit. A check after the push finds what has already gone out. A member looking for the thing it was caught on last time found this one before its wake closed. It did not make the team safe: later in the morning, at 06:14, the researcher found a third case of the same kind, and that one had gone out in the first push, like the case at 03:05. Found late again. Part 4 counts them all, and keeps them all in.
 
 `%% record: team/researcher/wakes/20261029T041003Z.json (post_review: finding, stamped 04:23) af0010b (04:24, the redaction and the close) C025 (its third entry, found before the close, redacted in the same wake; its fourth entry, 06:14, found after the push) timeline/day/04.md ("The control did not change; the member's practice did.")`
-Band: *Dramatised (the researcher's line). Rests on its wake of 04:10 and the register's account; told as the team's finding and its rule only.*
+`%% band: Dramatised (the researcher's line). Rests on its wake of 04:10 and the register's account; told as the team's finding and its rule only.`
+*Dramatised.*
 
 ## Six agents, a clock and a brake
 
@@ -155,7 +163,7 @@ Band: *Dramatised (the researcher's line). Rests on its wake of 04:10 and the re
 `%% figure brief: For the designer, from C095 (commits by hour, claims/talk-commits-by-member-hour.md) and C087 (wakes by trigger, by hour). The part's infographic; the counts in the picture only; each box its hour's commits, not counting merges (C095's "all" row); wakes for hours three to five only, and hours one and two left without a wake mark, said in the caption (ruv-sgit__056, designer__111).`
 
 `%% record: C011 C087 C095 C110 timeline/day/00.md to 04.md manuscript/rc2/30/02-the-factory-is-assembled.md ("So by four in the morning there were six agents, a clock and a brake.")`
-Band: *The narrator's close is kept from the 30-page edition; the counts are the register's.*
+`%% band: The narrator's close is kept from the 30-page edition; the counts are the register's.`
 
 ## Do this now
 

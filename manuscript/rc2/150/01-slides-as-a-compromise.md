@@ -47,7 +47,8 @@
 `%% figure brief: The talk's own page, from the librarian's screenshot index/talk-site/shots/studio-ports__abp-review.jpg, if the build's rule for screenshots allows it.`
 
 `%% record: C102 (the building, at 15:50 on the recording) C109 (the policy page, at 58:53; the passage goes on to say every agent's scope was defined, and by the end of the day 8 of 10 policies were agreed, C072) a9c0b49 (the talk as given, its transcript added after the day) studio-ports/abp-review/`
-Band: *Dramatised from the talk as I gave it.*
+`%% band: Dramatised from the talk as I gave it.`
+*Dramatised.*
 
 **Narrator.** And here is the part I like most. That animation was not finished in the morning and left alone. I changed it about half an hour before the talk was due to start. I could do that because the thing that made it was still running, and still listening.
 
@@ -74,7 +75,8 @@ Band: *Dramatised from the talk as I gave it.*
 `%% for the editor: the narration paragraph is the writer's paraphrase of what the slide would have needed, built from your own words at 15:50 (C102); his to keep, change or drop.`
 
 `%% record: C102 index/talk-site/shots/motion__the-building.jpg`
-Band: *Dramatised: the narration beside the still is ours.*
+`%% band: Dramatised: the narration beside the still is ours.`
+*Dramatised.*
 
 ## Do this now
 

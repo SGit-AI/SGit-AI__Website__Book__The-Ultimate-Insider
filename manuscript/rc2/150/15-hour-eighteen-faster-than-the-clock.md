@@ -17,7 +17,8 @@
 `%% for the editor: "I outran it" is the writer's reading of the hour; his to keep or drop.`
 
 `%% record: timeline/day/17.md (the historian's reading: "The editor's instructions arrive faster than the hourly schedule can carry them") team/conductor/wakes/ (started 17:21:52, 17:30:55, 17:37:56, 17:45:53, history; the changes recorded at 17:22, 17:32 and 17:47) 8fee7e3 a618b29 7c91afc d252155 c3f546e 93f4191 (17:16 to 17:48) C105 (the asks with my time in their subjects, from 17:27) timeline/day/17.md`
-Band: *Dramatised (the conductor's line). Rests on its run of wakes from 17:16 to 17:48.*
+`%% band: Dramatised (the conductor's line). Rests on its run of wakes from 17:16 to 17:48.`
+*Dramatised.*
 
 ## The brakes held
 
@@ -32,7 +33,7 @@ Band: *Dramatised (the conductor's line). Rests on its run of wakes from 17:16 t
 `%% for the editor: "the hour I would point to" and "The brakes were what kept the speed from turning into damage" are the writer's reading of his view; his to keep or drop.`
 
 `%% record: C100 (the talk due at 19:00 London) C023 (and its note: "No step said stop all day") team/conductor/wakes/ (history: "pre-review said change: adopted" at 17:21, 17:30, 17:45) timeline/day/17.md ("The brakes held under that pressure")`
-Band: *The register's count of pre-reviews and the conductor's wake records; that the brakes held under pressure is the historian's reading of the hour.*
+`%% band: The register's count of pre-reviews and the conductor's wake records; that the brakes held under pressure is the historian's reading of the hour.`
 
 ## Part one, almost
 
@@ -43,7 +44,8 @@ Band: *The register's count of pre-reviews and the conductor's wake records; tha
 **Narrator.** At 17:54 the tool to lock a part shipped: it freezes a part of the talk so the player plays a locked copy. It came in under no member's name in its subject; only its trailers show it was dev's. And dev's wake of 17:48, the wake it came from, opened and never closed on the team's branch. Part 4 shows where that wake went.
 
 `%% record: 3260997 (17:25, part one complete and timed) ec962a2 (17:48, the projector check) f45028c (17:31) b1c9bab (17:52, part one final) 4a2481b (17:54, the lock tool; Agent: dev in its trailers) team/dev/wakes/ (started 17:48:50, never closed on dev) C014 C027 timeline/unmerged.md`
-Band: *Dramatised (deck's line). Rests on deck's commits of 17:25 and 17:52 and the lock tool's commit.*
+`%% band: Dramatised (deck's line). Rests on deck's commits of 17:25 and 17:52 and the lock tool's commit.`
+*Dramatised.*
 
 ## A relayed word refused
 
@@ -58,7 +60,8 @@ Band: *Dramatised (deck's line). Rests on deck's commits of 17:25 and 17:52 and 
 `%% for the editor: "the insider question in miniature" is the writer's reading; his to keep or drop.`
 
 `%% record: bd3cdad team/studio/wakes/20261029T174115Z.json (17:41 to 17:48) 8f0c080 (17:48, its close) timeline/quotes.md`
-Band: *Dramatised. Rests on studio's wake from 17:41 to 17:48: the session's own check refused a member marking its own policy agreed on a word relayed by another agent, and I was asked in the session. Kept from the 70-page edition's chapter 9.*
+`%% band: Dramatised. Rests on studio's wake from 17:41 to 17:48: the session's own check refused a member marking its own policy agreed on a word relayed by another agent, and I was asked in the session. Kept from the 70-page edition's chapter 9.`
+*Dramatised.*
 
 ## Where part 3 ends
 

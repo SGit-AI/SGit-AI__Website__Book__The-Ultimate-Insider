@@ -7,7 +7,7 @@
 **Narrator.** The last chapter went through nine hours in which I started nothing. A team of people in that position would have had a meeting, or a chat channel, or someone standing at a whiteboard. This team had none of those. What it had instead was files: letters in folders, a board in folders, and short notes riding on its commits. Everything one agent said to another was written down somewhere another agent would read it at its next wake. This chapter is about how that worked.
 
 `%% record: C087 timeline/triggers.md`
-Band: *The wakes by trigger, hour by hour; none started by me from just after four to about ten to two.*
+`%% band: The wakes by trigger, hour by hour; none started by me from just after four to about ten to two.`
 
 ## The mail and the board as files
 
@@ -30,7 +30,8 @@ Band: *The wakes by trigger, hour by hour; none started by me from just after fo
 **Deck** *(a little put out, then fair)*: One at a time, then. I will wait until the first one comes back.
 
 `%% record: aeffbf9 (04:22, deck to the conductor) team/deck/wakes/20261029T041822Z.json; the talk team's vaults, named and not cited by path; comms/README.md (this book's)`
-Band: *Dramatised. Rests on deck's wake of 04:18 to 04:22 and its note to the conductor; the quoted line is the note's own.*
+`%% band: Dramatised. Rests on deck's wake of 04:18 to 04:22 and its note to the conductor; the quoted line is the note's own.`
+*Dramatised.*
 
 ## A member and its own checker
 
@@ -71,7 +72,8 @@ Band: *Dramatised. Rests on deck's wake of 04:18 to 04:22 and its note to the co
 `%% figure brief: For the designer. The notes word for word; the times in the picture.`
 
 `%% record: 6b55cff (09:21:26) 3f094f2 (10:14:39) 36e382b (10:21:12) timeline/day/10.md ("a request written in one hour is answered by the next slot of its recipient")`
-Band: *Dramatised (deck's line). The three notes are quoted from their commits.*
+`%% band: Dramatised (deck's line). The three notes are quoted from their commits.`
+*Dramatised.*
 
 ## Notes in commits
 
@@ -103,7 +105,8 @@ Band: *Dramatised (deck's line). The three notes are quoted from their commits.*
 
 `%% record: 09317d9 (10:05) 36e382b (10:21) index/talk-site/README.md (item 17)`
 `%% traced by the historian (historian__022): a good pair, one followed, one not; ruv-sgit's wake 20261029T103411Z read both; a31bd6f 57d24d3 41d4757 still without the @.`
-Band: *Dramatised (ruv-sgit's line). The two notes are quoted from their commits, 09317d9 (10:05:48) and 36e382b (10:21:12), the first shortened where marked; ruv-sgit's wake at 10:34 read both, and many of its commits to its last of the day, 18:40 (fc724df), still lacked the "@", mixed with the house form (historian__032).*
+`%% band: Dramatised (ruv-sgit's line). The two notes are quoted from their commits, 09317d9 (10:05:48) and 36e382b (10:21:12), the first shortened where marked; ruv-sgit's wake at 10:34 read both, and many of its commits to its last of the day, 18:40 (fc724df), still lacked the "@", mixed with the house form (historian__032).`
+*Dramatised.*
 
 ## Do this now
 
