@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Letters into done/; PDF rebuilt in the scratchpad (nothing committed); 20, 91, 92, 93, 94 clean in print; 20, 91, 92 proposed (critic4__017, proposed, not signed); one could on 21's layout line (critic4__016); 21's proposal stands; status, debrief; gate, vault_check clean; 0 outside scope.",
    "at": "2026-11-04T18:10:44Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "10 files under critic4's paths; no PDF or image; no key, token, contact detail, attack-shaped content, em-dash or religious word; proposals 'proposed, not signed' (SO1); vault_check clean; 0 outside scope.",
+   "at": "2026-11-04T18:11:22Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "All items done; proposing 91 and 92 goes beyond the plan's wording (20 only) but within its intent: both clean twice counting the mirror, unsigned.",
+   "at": "2026-11-04T18:11:22Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T18:11:22Z",
+ "outcome": "ok"
 }
