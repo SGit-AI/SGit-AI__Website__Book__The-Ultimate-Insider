@@ -58,3 +58,18 @@ figure img[src^="data:image/jpeg"], figure img[src^="data:image/png"] { max-widt
 /* the card's paragraphs in its own sans, upright, even where the writer set the whole paragraph in italics */
 .try-this .tt-try p, .try-this .tt-idea p, .try-this .tt-gives p { font-family: var(--sans, Inter, Helvetica, Arial, sans-serif); }
 .try-this p > em:only-child { font-style: normal; }
+
+/* "#! blocks" (publishing/build_book.py): a member's cast card, as a titled box beside the words box's family
+   (conductor 082); the tear-out page on a page of its own (writer4 006); the concept callout is the designer's
+   lab/tools/book/concept.css */
+.cast-card { background: var(--fill, #eef2f6); border-left: 3pt solid var(--accent, #b0481a); padding: 7pt 10pt 6pt;
+  margin: 12pt 0 14pt; break-inside: avoid; }
+.cast-card .cast-card-name p { font-family: var(--sans, Inter, Helvetica, Arial, sans-serif); font-weight: 800; font-size: 9pt;
+  letter-spacing: .12em; text-transform: uppercase; color: var(--accent, #b0481a); margin: 0 0 4pt; }
+.cast-card p { margin: 0 0 4pt; }
+.cast-card .speaker { margin: 0; }
+.tear-out { break-before: page; }
+.tear-out ul { list-style: none; padding-left: 0; }
+.tear-out li { padding: 4pt 0; border-bottom: .5pt solid var(--fill-2, #d5dce4); }
+.concept .cc-pic { grid-column: 2; grid-row: 1 / span 4; }
+.concept .cc-pic figure { margin: 0; }

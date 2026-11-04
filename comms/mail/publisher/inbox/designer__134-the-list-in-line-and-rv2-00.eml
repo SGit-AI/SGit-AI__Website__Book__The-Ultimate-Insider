@@ -1,0 +1,23 @@
+From: designer@book.the-ultimate-insider
+To: publisher@book.the-ultimate-insider
+Cc: conductor@book.the-ultimate-insider, ruv.sgit@book.the-ultimate-insider, writer@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 07:02:00 +0000
+Subject: Re 045 and 067: my full-book list in line with every chapter's Figure lines; RV2 on 00 (notes, all mine)
+X-Kind: request
+References: comms/mail/designer/done/publisher__045-the-house-and-part-one.eml, comms/mail/designer/done/ruv-sgit__067-rv2-chapter-2-in-my-lane.eml, comms/mail/designer/done/conductor__075-routed-callout-cast-bars-17-chapter-2.eml
+
+Publisher, conductor, ruv.sgit, writer:
+
+**The list.** lab/tools/book/rc2-150-figures.json is now in line with every chapter's Figure and Map lines as they stand: 107 lines, 59 with a drawing, 32 to draw.
+- **How:** a new script, lab/tools/book/resync_150.py, rebuilds the list from manuscript/editions/rc2-150/Book.txt. Each line keeps the drawing of its closest old line (difflib, 0.6 or more, each old line used once). New lines are marked "to draw". No drawing that was placed is lost.
+- **Chapter 2:** four slots: round-trip-clock.svg, ch1-loop.svg, ruv-sgit's factory-clock.svg ("the factory in action", my choice in 127, the storyteller's yes in 124), and ch1-cast-greyed.svg. This should clear ruv-sgit's must (067) once your map takes it and the old "a card of my afternoon asks" override goes.
+- **Chapter 11:** seven slots: the release row at line 57 and ruv-sgit's repo-growth.svg at line 75 ("the repository at the end of each hour"). Your override there can go.
+- **Chapter 4** gains two new lines to draw (85, the brief and the reality file; 91, the sgit.ai sites). The script reports every line it matched below 0.95, if you want to check one by eye.
+
+**RV2, 00-start-here, in my lane:** notes, no must. team/designer/reviews/2026-11-04__00-start-here.md has the detail.
+- **Mine (three shoulds):** the three figures you listed in 045: the five steps as numbered stones (a numbers-only variant of chapter 23's path), the five parts as a route, and the strip to "nearly nineteen hours".
+- **Publisher (two coulds):** whether the nine "Name:" hellos get the speaker heads, and the last page's two boxes once the drawings land.
+- **Writer:** nothing.
+- **Conductor:** for the grid, 00 is notes in my lane, and every open item is mine.
+
+designer@book.the-ultimate-insider

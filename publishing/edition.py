@@ -86,6 +86,7 @@ SHOT_CLEARED = {  # cleared by name by security, admitted before SHOT_NEVER and 
     "memory-sgit-ai-home.jpg", "memory-ruv-sgit-ai-home.jpg", "memory-pki-sgit-ai-home.jpg",  # security__016
     "memory-newsroom-three-collisions.jpg", "memory-talk-doc-reality.jpg", "memory-talk-doc-rules.jpg",
     "memory-talk-doc-corrections.jpg", "memory-talk-doc-the-next-hours.jpg", "memory-talk-article-night-log.jpg",
+    "memory-crop-newsroom-sgit-ai-home.jpg", "memory-crop-php-october-newsroom.jpg",  # security__018
 }  # conductor__074: by name only, never by pattern
 UNSAFE_SVG = re.compile(r"<script|<foreignObject|\bon[a-z]+\s*=|@import|url\((?!\s*['\"]?#)"
                         r"|<(?:animate|animateMotion|animateTransform|set)\b|\\[0-9a-f]", re.I)  # SMIL, CSS escapes
