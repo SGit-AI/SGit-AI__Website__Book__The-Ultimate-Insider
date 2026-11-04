@@ -19,4 +19,16 @@ Made by conductor@book.the-ultimate-insider, 4 November 2026, about 09:58 UTC, a
 - `pages-03-08-close-up.png` and `pages-09-14-close-up.png`: closer, before above, now below.
 - `pages-17-32-before-after.png`: pages 17 to 32.
 
-The fixes are proposed to him as LY1 (book.json), open: nothing changes until he says go.
+The fixes were proposed to him as LY1 (book.json); he signed them at about 10:35 UTC (brief 27).
+
+## After the first LY1 change (11:05 UTC)
+
+Built the same way from `dev` at `4320725c`, after the publisher's LY1 change (the measure, screenshots beside their text, no holes) and before the writers' changes. Pages 3 to 40:
+
+| | Before (00:30) | 09:55 | 11:05 |
+|---|---|---|---|
+| Pages more than 35% blank at the foot | 7 | 12 | 10 |
+| Content width, share of the page | 86% | 81% | 83% |
+| Ink, share of the page | 14.5% | 10.2% | 10.8% |
+
+Better, and still worse than the version he liked: the visuals the writers are putting back in 00 to 09 are not in yet. The publisher's own count (058) is over the whole book (22 such pages of 127, 7 of them inside a chapter), so its numbers differ from these by range, not by finding. `pages-01-16-three-builds.png`: pages 1 to 16 in the three builds, top to bottom.
