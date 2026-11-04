@@ -2,7 +2,7 @@
 
 From the chapter's `%% record` lines (and its `## Where this came from`, where it still has one) in `manuscript/rc2/150/17-what-did-not-work.md`, resolved by `index/tools/chapter_entries.py`. Each row is the index's own entry for the file: kind, owner, when it was added and last changed, and what it is.
 
-## talk at 298be4e (12)
+## talk at 298be4e (11)
 
 | Path | Kind | Owner | Added | Last changed | What it is |
 |---|---|---|---|---|---|
@@ -15,7 +15,6 @@ From the chapter's `%% record` lines (and its `## Where this came from`, where i
 | `team/deck/status.json` | status | deck | `7cee81d` 2026-10-29 02:14:34 | `831ed70` 2026-10-29 17:26:43 | state: 17:17 wake: part 1 complete and timed (20 beats, 29:30) for its 18:30 lock; every beat carries its part; live slides (SHarness Linux… |
 | `team/storyteller/requests/deck__three-parts.md` | request | storyteller | `14998b5` 2026-10-29 17:51:52 | `14998b5` 2026-10-29 17:51:52 | request storyteller to deck: Three parts: part 1 notes before 18:15 (keep it); parts 2 and 3 placed, 30:10 and 27:30 |
 | `team/deck/requests/researcher__before-tonight.md` | request | deck | `79b6709` 2026-10-29 02:20:02 | `60af587` 2026-10-29 02:52:11 | reply deck to researcher: Re: Before tonight: what the evidence says about the talk, beat by beat |
-| `team/researcher/status.json` | status | researcher | `01e9ed3` 2026-10-29 01:52:10 | `d7df71a` 2026-10-29 18:23:50 | state: wake 18:09: how we keep it safe checked (four corrections, to motion and deck by 18:15); open source, investors and security product… |
 | `team/conductor/debriefs/2026-10-29__two-public-vaults.md` | debrief | conductor | `31b0f86` 2026-10-29 01:09:58 | `02cbd86` 2026-10-29 01:27:10 | Two public vaults for the team to talk through, Issues-FS and Email-FS |
 | `team/conductor/HOLD.md` | hold | conductor | `867f8c2` 2026-10-29 18:44:13 | `867f8c2` 2026-10-29 18:44:13 | the hold of 18:44 UTC, at the editor's word (his usage limit at 95%): every member's wake stops; still in place at the pin, never lifted in the record |
 
@@ -37,6 +36,6 @@ From the chapter's `%% record` lines (and its `## Where this came from`, where i
 - `timeline/day/08.md`
 - `timeline/day/16.md`
 
-## Commits named (20)
+## Commits named (17)
 
-`298be4e`, `4a2481b`, `2ed6427`, `dbd75ad`, `39df303`, `89afb77`, `3342cff`, `a082c52`, `15707dc`, `fc724df`, `49c701e`, `ec1ec00`, `aa7a3eb`, `28fe01d`, `fb355d3`, `23739cc`, `12e93db`, `013d97e`, `c33e86a`, `78d517d`
+`298be4e`, `4a2481b`, `2ed6427`, `dbd75ad`, `39df303`, `89afb77`, `3342cff`, `a082c52`, `15707dc`, `fc724df`, `28fe01d`, `fb355d3`, `23739cc`, `12e93db`, `013d97e`, `c33e86a`, `78d517d`
