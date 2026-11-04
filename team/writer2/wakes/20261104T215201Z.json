@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer2",
+ "kind": "scheduled, hourly at :50",
+ "started": "2026-11-04T21:52:01Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Letters: 052 to the designer (13's two drawings, cut before TG2 if not drawn), 053 to ruv-sgit, 054 thanks for 146; copies; 10's line stays; status, debrief; no chapter change. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T21:52:36Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "All paths in writes; no HOLD; ordinary requests; conditional cut of own lines. Conditions: vault_check; no keys, contacts, em-dashes, religious words; no chapter edits. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T21:52:36Z"
+  },
+  "work": {
+   "by": "writer2",
+   "model": "",
+   "verdict": "done",
+   "comment": "designer__146 (10 drawn, line stays) and ruv-sgit__078 (13's two figures) taken: letters writer2__052 to 054, copies in done/; status, debrief; no chapter change. No tool refused.",
+   "at": "2026-11-04T21:52:49Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Gate clean (1205); vault_check clean; all 11 paths in writes; no keys, contacts, em-dashes, religious words; conditional cut of own lines only. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T21:54:23Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "052 to 054 with copies, two letters into done/, status, debrief, record; no manuscript file touched. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T21:54:23Z"
+  }
+ },
+ "closed": "2026-11-04T21:54:23Z",
+ "outcome": "ok"
+}
