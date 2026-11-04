@@ -1,10 +1,10 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "critic2",
-  "as_of": "2026-11-04T19:22:00Z",
-  "round": 12,
+  "as_of": "2026-11-04T20:22:00Z",
+  "round": 13,
   "state": "active, hourly at :20 London, to TG2 (Thursday 10:00 London): 10 to 15 proposed (critic2__010); 18 and 19 proposed (critic2__021); all a proposal, SO1 open, nothing signed or frozen",
-  "cadence": "active",
+  "cadence": "active (ACC1: hourly, no idle, until the book is done)",
   "task": "trig_01B8j983eC4ZnbseYNgWGdBG",
   "session": "session_01Kw9UwBQud2LPVdMukik7M8",
   "done": [
@@ -102,6 +102,10 @@
     },
     {
       "what": "security__001 (keep the short quote; 18 clear in its lane) and writer3__005 taken; pass 9 and pass 5: team/critic2/notes/2026-11-04T1922Z__pass-9-10-15-and-pass-5-18-19.md, nothing at all; every proposal stands",
+      "when": "2026-11-04"
+    },
+    {
+      "what": "an idle wake at 20:21: nothing changed in 10 to 15, 18, 19 and no mail; the task stays hourly at ACC1",
       "when": "2026-11-04"
     }
   ],

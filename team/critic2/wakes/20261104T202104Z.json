@@ -1,0 +1,37 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic2",
+ "kind": "scheduled, hourly at :20",
+ "started": "2026-11-04T20:21:04Z",
+ "steps": {
+  "plan": {
+   "by": "critic2, amended after the pre-review's note on ACC1 (first plan kept under history)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Amended: no change to the task (ACC1, the editor: every member hourly, no idle, until the book is done). 1) status.json: an idle wake, nothing changed in 10 to 15, 18, 19 and no mail; cadence stays active at ACC1. 2) a short debrief. No letters.",
+   "at": "2026-11-04T20:22:24Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet), on the amended plan",
+   "model": "",
+   "verdict": "go",
+   "comment": "Amended plan inside team/critic2/**; no letters, no schedule change, no other member's files; the ACC1 fix is right (cadence stays active). Condition: the debrief marks nothing signed.",
+   "at": "2026-11-04T20:22:46Z"
+  }
+ },
+ "closed": null,
+ "outcome": null,
+ "history": [
+  {
+   "plan": {
+    "by": "conductor sub-agent (reviewer, sonnet)",
+    "model": "",
+    "verdict": "go",
+    "comment": "1) own task trig_01B8j983eC4ZnbseYNgWGdBG to the idle cron CRON_TZ=Europe/London 20 9,17 * * * (update_trigger, own task only; WAKE.md Cadence 3; 09:20 before TG2's 10:00). 2) status.json cadence idle with the reason; a short debrief. 3) critic2__025 to the conductor, outbox copy, vault_check.",
+    "at": "2026-11-04T20:21:54Z"
+   },
+   "pre_review": null,
+   "why_amended": "ACC1 (book.json, the editor, 3 November 2026): every member runs every hour until the book is done; no member moves to idle"
+  }
+ ]
+}
