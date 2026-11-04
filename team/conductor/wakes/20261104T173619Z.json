@@ -31,8 +31,15 @@
    "verdict": "partial",
    "comment": "partial: TG2, HL1 for the book, letters done; the WAKE.md/CLAUDE.md alignment not done (refused by the session's permission check as self-modification, not worked around, with the editor). Fixed before the push: HL1's detail and status now name the refusal, and security has it for the C2 register (letter)",
    "at": "2026-11-04T17:41:15Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "clean",
+   "comment": "clean: WAKE.md and CLAUDE.md untouched; scope 0; TG2 and HL1 quote his words, readings labelled; C132 asked again; letters public, none asks a change to the hold rule; comms clean; gate clean (1122). Nits fixed before the push: status's opening aim line now says TG2; synthetic 039 says HL1 covers the book's present-tense text",
+   "at": "2026-11-04T17:41:42Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T17:41:42Z",
+ "outcome": "ok"
 }
