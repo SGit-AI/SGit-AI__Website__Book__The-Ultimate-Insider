@@ -1,0 +1,147 @@
+{
+ "about": "The full book's printed pages checked for pages that may not look right (conductor__036). Written by review/tools/print_check.py: page numbers, chapter titles, counts and sizes only.",
+ "edition": "rc2-150",
+ "pdf_pages": 132,
+ "chapters_hash": "8e0ac0ff6824c192",
+ "thresholds": {
+  "spill_fill_below": 0.25,
+  "gap_fill_below": 0.7,
+  "tall_figure_share": 0.45,
+  "figure_inches_at_least": 1.0
+ },
+ "chapters_found": 27,
+ "chapters": 27,
+ "counts": {
+  "gap_page": 6,
+  "chapter_end_spill": 5,
+  "figure_apart": 3
+ },
+ "flags": [
+  {
+   "kind": "gap_page",
+   "page": 6,
+   "chapter": "Slides as a compromise",
+   "fill": 0.49,
+   "lines": 21,
+   "raster_figure_here": false
+  },
+  {
+   "kind": "gap_page",
+   "page": 34,
+   "chapter": "Hour three: the five steps, and the first to be caught",
+   "fill": 0.55,
+   "lines": 23,
+   "raster_figure_here": false
+  },
+  {
+   "kind": "gap_page",
+   "page": 39,
+   "chapter": "Hours four and five: before dawn",
+   "fill": 0.67,
+   "lines": 26,
+   "raster_figure_here": false
+  },
+  {
+   "kind": "chapter_end_spill",
+   "page": 64,
+   "chapter": "The creator comes back",
+   "lines": 7,
+   "fill": 0.12
+  },
+  {
+   "kind": "chapter_end_spill",
+   "page": 72,
+   "chapter": "Port, not rebuild",
+   "lines": 2,
+   "fill": 0.03
+  },
+  {
+   "kind": "chapter_end_spill",
+   "page": 86,
+   "chapter": "What did not work",
+   "lines": 8,
+   "fill": 0.14
+  },
+  {
+   "kind": "chapter_end_spill",
+   "page": 96,
+   "chapter": "A second team, reading cold",
+   "lines": 10,
+   "fill": 0.21
+  },
+  {
+   "kind": "gap_page",
+   "page": 98,
+   "chapter": "Sessions end",
+   "fill": 0.6,
+   "lines": 23,
+   "raster_figure_here": false
+  },
+  {
+   "kind": "gap_page",
+   "page": 119,
+   "chapter": "The tour, at length",
+   "fill": 0.69,
+   "lines": 7,
+   "raster_figure_here": true
+  },
+  {
+   "kind": "gap_page",
+   "page": 126,
+   "chapter": "The tour, at length",
+   "fill": 0.53,
+   "lines": 15,
+   "raster_figure_here": false
+  },
+  {
+   "kind": "chapter_end_spill",
+   "page": 129,
+   "chapter": "The words used",
+   "lines": 4,
+   "fill": 0.07
+  },
+  {
+   "kind": "figure_apart",
+   "page": 5,
+   "chapter": "Slides as a compromise",
+   "intro_page": 4,
+   "pages_apart": 1
+  },
+  {
+   "kind": "figure_apart",
+   "page": 7,
+   "chapter": "Slides as a compromise",
+   "intro_page": 5,
+   "pages_apart": 2
+  },
+  {
+   "kind": "figure_apart",
+   "page": 8,
+   "chapter": "Slides as a compromise",
+   "intro_page": 6,
+   "pages_apart": 2
+  }
+ ],
+ "raster_figures_over_45_percent_on_pages": [
+  5,
+  7,
+  13,
+  60,
+  113,
+  114,
+  115,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125
+ ],
+ "cannot_tell": [
+  "24 chapters have a different number of figure lines and large images, so their figures are not paired: \"Start here\" (1 lines, 0 images); \"Inventing on principle\" (3 lines, 0 images); \"The tour: what a factory made in a day\" (5 lines, 1 images); \"Hour one: the empty project\" (2 lines, 0 images); \"Hour two: the rules written\" (1 lines, 0 images); \"Roles as a cast you can read\" (4 lines, 0 images); \"Hour three: the five steps, and the first to be caught\" (3 lines, 0 images); \"Hours four and five: before dawn\" (7 lines, 0 images); \"Nine hours with nobody starting work\" (4 lines, 0 images); \"Talking through git\" (3 lines, 0 images); \"The plumbing\" (7 lines, 0 images); \"The creator comes back\" (4 lines, 1 images); \"The story before the slides, and the objection kept\" (3 lines, 0 images); \"Port, not rebuild\" (3 lines, 0 images); \"Hour eighteen: faster than the clock\" (3 lines, 0 images); \"Hour nineteen, minute by minute\" (5 lines, 0 images); \"What did not work\" (3 lines, 0 images); \"How do we contain this\" (4 lines, 0 images); \"A second team, reading cold\" (3 lines, 0 images); \"Sessions end\" (3 lines, 0 images); \"The second factory\" (2 lines, 0 images); \"The third, planned\" (1 lines, 0 images); \"Principles, and build your own\" (2 lines, 0 images); \"The tour, at length\" (18 lines, 10 images)",
+  "whether a gap or a short page is meant (a divider, an opener, a page left to a drawing): it measures how far the content reaches",
+  "which figure is which in the chapters it could not pair, and the figures drawn as vectors, which pdfimages cannot see: those are judged only by the gaps they leave",
+  "how a page looks beyond how far its content reaches"
+ ]
+}
