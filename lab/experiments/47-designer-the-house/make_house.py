@@ -24,14 +24,14 @@ SANS = 'font-family="Inter, Helvetica, Arial, sans-serif"'
 F = 3.18
 # room: (title, what the paths say, members, the path each member must hold for the placement, x, y, w, h)
 ROOMS = [
-    ("the talk", "the slides and talk.json", ["deck"], {"deck": "src/static/talk/slides/**"}, 4, 16, 84, 30),
-    ("the story and the look", "own folders only: placed by their work", ["storyteller", "designer"], {}, 88, 16, 63, 30),
-    ("the workshop", "the animations", ["motion", "ruv-sgit"], {"motion": "src/static/motion/**", "ruv-sgit": "src/static/ruv-sgit/**"}, 4, 46, 96, 30),
-    ("the studio", "the ported pages", ["studio"], {"studio": "src/static/studio-ports/**"}, 100, 46, 51, 30),
-    ("the evidence room", "evidence", ["researcher"], {"researcher": "evidence/**"}, 4, 76, 52, 30),
-    ("the office", "the team's tools and notes", ["conductor"], {"conductor": "admin/tools/**"}, 56, 76, 56, 30),
-    ("the guard room", "planned, never staffed", ["security"], {}, 112, 76, 39, 30),
-    ("the foundations", "the build, the workflows, the engine", ["dev"], {"dev": "admin/build/**"}, 4, 106, 147, 24),
+    ("the talk", "the slides and talk.json", ["deck"], {"deck": "src/static/talk/slides/**"}, 4, 11, 84, 25),
+    ("the story and the look", "own folders only: placed by their work", ["storyteller", "designer"], {}, 88, 11, 63, 25),
+    ("the workshop", "the animations", ["motion", "ruv-sgit"], {"motion": "src/static/motion/**", "ruv-sgit": "src/static/ruv-sgit/**"}, 4, 36, 96, 25),
+    ("the studio", "the ported pages", ["studio"], {"studio": "src/static/studio-ports/**"}, 100, 36, 51, 25),
+    ("the evidence room", "evidence", ["researcher"], {"researcher": "evidence/**"}, 4, 61, 52, 25),
+    ("the office", "the team's tools and notes", ["conductor"], {"conductor": "admin/tools/**"}, 56, 61, 56, 25),
+    ("the guard room", "planned, never staffed", ["security"], {}, 112, 61, 39, 25),
+    ("the foundations", "the build, the workflows, the engine", ["dev"], {"dev": "admin/build/**"}, 4, 86, 147, 16),
 ]
 
 
@@ -69,8 +69,8 @@ def chair(x, y, s):
 def house():
     out = []
     # the roof: a shallow gable over the top floor, the house's name under it
-    out.append(mc.path("M2 16 L77.5 3 L153 16 Z", mc.FILL, mc.INK, .5))
-    out.append(t(77.5, 13.2, "the talk's repository, as a house", 700, mc.INK, "middle"))
+    out.append(mc.path("M2 11 L77.5 1 L153 11 Z", mc.FILL, mc.INK, .5))
+    out.append(t(77.5, 9.4, "the talk's repository, as a house", 700, mc.INK, "middle"))
     for title, note, members, _, x, y, w, h in ROOMS:
         guard = title == "the guard room"
         fill = "#fff" if not guard else mc.FILL
@@ -82,19 +82,19 @@ def house():
         for k, m in enumerate(members):
             cx = x + 3 + slot * k + slot / 2
             if m == "security":
-                out.append(chair(cx - 5, y + 11, .62) + t(cx, y + h - 2.2, "security", 700, mc.MUTED, "middle"))
+                out.append(chair(cx - 4, y + 10.4, .5) + t(cx, y + h - 1.3, "security", 700, mc.MUTED, "middle"))
             else:
-                s = .3 if h >= 30 else .24
-                out.append(f'<g transform="translate({cx - 20 * s:.2f} {y + 10.6:.2f}) scale({s})">{mc.figure(m)}</g>'
-                           + t(cx + 9, y + h - 6, m, 700, mc.INK, "start") if title == "the foundations" else
-                           f'<g transform="translate({cx - 20 * s:.2f} {y + 10.2:.2f}) scale({s})">{mc.figure(m)}</g>'
-                           + t(cx, y + h - 2.2, m, 700, mc.INK, "middle"))
+                s = .22
+                out.append(f'<g transform="translate({cx - 20 * s:.2f} {y + 3:.2f}) scale({s})">{mc.figure(m)}</g>'
+                           + t(cx + 8, y + 9.4, m, 700, mc.INK, "start") if title == "the foundations" else
+                           f'<g transform="translate({cx - 20 * s:.2f} {y + 9.8:.2f}) scale({s})">{mc.figure(m)}</g>'
+                           + t(cx, y + h - 1.3, m, 700, mc.INK, "middle"))
     # the ground: the record, drawn once
-    out.append(f'<rect x="0" y="130" width="155" height="10" fill="{mc.INK}"/>'
-               + t(77.5, 136.4, "the ground: every member writes its own records, team/<name>/, in one repository", 700, "#fff", "middle"))
+    out.append(f'<rect x="0" y="102" width="155" height="10" fill="{mc.INK}"/>'
+               + t(77.5, 108.4, "the ground: every member writes its own records, team/<name>/, in one repository", 700, "#fff", "middle"))
     # no caption drawn in: one caption per figure, set by the publisher at the top (cast guide convention 8); the
     # source line it needs is in LAB 47's pages.html and the designer's letter
-    return mc.svg(155, 140, "".join(out), "The talk's team as a house: the talk and the story at the top, the workshop and the studio, the evidence room, the office and an empty guard room, dev in the foundations, and every member's records as the ground")
+    return mc.svg(155, 112, "".join(out), "The talk's team as a house: the talk and the story at the top, the workshop and the studio, the evidence room, the office and an empty guard room, dev in the foundations, and every member's records as the ground")
 
 
 if __name__ == "__main__":
