@@ -1,0 +1,53 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "the editor's chat",
+ "started": "2026-11-04T00:34:21Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; Bash read only)",
+   "model": "",
+   "verdict": "go",
+   "comment": "The editor's chat: conductor__066 items 4 and 5 as one setup sheet (every field he named, K1 his, $14.99 as signed, the cost moving with the count) and one reply saying items 1 to 3 follow in a later letter; records.",
+   "at": "2026-11-04T00:37:00Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No HOLD. Conditions: Leanpub's Upload mode only as an option against L2, sent to the conductor to open, nothing done until signed; the AI question as facts, his answer; no account, bank, tax, login or contact detail; the test interior stays in the scratchpad.",
+   "at": "2026-11-04T00:37:00Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "publishing/SETUP-SHEET.md (every KDP field, Kindle differences, Leanpub steps under the Upload option, the print files' state from a scratchpad test interior); reply conductor 047; inbox, board 007, status, REALITY, debrief. rc2_map.py slip before the plan, reverted, in tool_notes",
+   "at": "2026-11-04T00:38:11Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "In scope; nothing under rc2, lab, briefs, .github or src; no account, bank, tax, login, contact, key, dash, religious or directing text; arithmetic right; conditions met. One fix before commit: letter 047's price read 4.99 (shell ate the dollar sign); corrected to $14.99 in both copies.",
+   "at": "2026-11-04T00:39:28Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Every item to plan; the one drift (047's price) corrected before the commit, so as-planned.",
+   "at": "2026-11-04T00:39:28Z"
+  }
+ },
+ "closed": "2026-11-04T00:39:28Z",
+ "outcome": "ok",
+ "tool_notes": [
+  {
+   "tool": "Bash: python3 publishing/rc2_map.py, run before the plan step",
+   "why": "to build a test print interior with the current figure map",
+   "needed": "no: the committed map was enough for a test build",
+   "side_effect": "it rewrote publishing/rc2-figures.json; reverted at once with git checkout, before any commit; nothing left (git status showed only this record). The same slip as 3 November 19:47: the script runs only after the gate."
+  }
+ ]
+}

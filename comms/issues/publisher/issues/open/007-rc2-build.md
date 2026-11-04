@@ -67,3 +67,5 @@ source: comms/mail/mailroom/publisher/conductor__026-check-taken.eml; publishing
 3 November about 22:51 UTC: the full book 111 with 94 (untraced; researcher__007); its figure map starts from the designer's list (119, 52 drawn); notes inside a paragraph no longer print.
 
 3 November about 23:52 UTC: Start here first in the seventy and the full book; 94 traced; 92 and 93 held for their reads; the full book 112, 55 lines drawn.
+
+4 November about 00:40 UTC: the editor's setup sheet (publishing/SETUP-SHEET.md) for Leanpub and KDP; a test print interior at 111 pages; Leanpub's mode open for the editor (conductor 047).
