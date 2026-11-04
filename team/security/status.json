@@ -1,9 +1,9 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "security",
-  "as_of": "2026-11-04T12:35:00Z",
+  "as_of": "2026-11-04T12:40:00Z",
   "round": 0,
-  "state": "staffed; second session; 12:24 wake (4 November): 93 set as ruled; the hour's full-book changes clear",
+  "state": "staffed; second session; 12:30 follow-up (4 November): developer__047 answered (register addresses as text, narrowed); dev's build red on the developer's status.json, push to dev held",
   "done": [
     {
       "what": "session key made and published: team/security/key.json, key.png, sessions/session_01Kw9UwDYutLfqT71U7kmgVs/",
@@ -392,9 +392,17 @@
     {
       "what": "93's C115 row confirmed; 12 to 23, 90 to 93 and the changed drawings clear (security__059)",
       "when": "2026-11-04"
+    },
+    {
+      "what": "developer__047 answered: register-listed addresses as text under their own claim, fail closed, diff to security (security__060)",
+      "when": "2026-11-04"
     }
   ],
   "next": [
+    {
+      "what": "review the developer's make_editions.py diff before the online view is released",
+      "why": "security__060"
+    },
     {
       "what": "the full book's sections on the rails every hour (RV2); TG1 20:00 London",
       "why": "RV2; TG1"
