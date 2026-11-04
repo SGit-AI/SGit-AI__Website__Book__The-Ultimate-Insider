@@ -252,12 +252,20 @@ The newsroom's own wording check on its chapter 3 rewrite shows the other edge: 
 **A critic checks.** A figure in the built page with two captions, or one below it; a caption that repeats the paragraph above.
 
 ### 27. Pictures show what the text says, in proportion, with their paragraph
-**The principle.** The picture shows what the text describes; drawings in proportion; small collages where volume is the point; a narrower measure, more space, figures kept with the paragraph that introduces them, bands that close their own scene.
+**The principle.** The picture shows what the text describes; drawings in proportion; small collages where volume is the point; a measure only a little narrower than the version he liked (LY1: about 84 to 85% of the page), more space between lines, figures kept with the paragraph that introduces them, bands that close their own scene.
 **Why.** Brief 05: "the screenshot is wrong, because it should be showing the screenshot of all the little agents going everywhere". Brief 13: "the text is great, but the image doesn't represent that"; "sometimes it's important to do those collages because it just shows the volume". Brief 02: images "too big and out of proporsion" [his spelling]. Brief 06: "a smish less wide", "a wider separation", and the figure's explanation "comes from the page before". TS1 stands: the 9.5 pt body is not the issue.
 - **Before** (brief 05): chapter 1's "Pressing play" showed the player's start screen.
 - **After** (`manuscript/rc2/150/01-slides-as-a-compromise.md`, line 35): "**Figure:** the building, mid-run: a house of rooms, ordinary users walking through and stopping, and the agents spreading everywhere, still going".
 
 **A critic checks.** A figure whose subject is not the paragraph's; a drawing that fills a page for one fact (brief 02's hold-file page); a figure split from its paragraph across a page; a page left mostly empty; a "Figure to come" box still in print.
+
+### 36. The look: a visual on every spread, never an empty page
+**The principle.** The book keeps the look of the version he liked: a visual on every spread (a picture, a card, a callout, the cast row, an icon); never a card or figure alone on a page; every screenshot paired with its text, beside or with its paragraph, so it never leaves a hole; icons, callouts and words boxes as often as before. P27 covers what a picture shows and P22 the boxes; this one is how often, and how the page fills.
+**Why.** Brief 26: "The previous one, I really like how there was a very nice visual element all the time. This almost went back being a wall of text in a lot of places ... you need to use a lot more of the little icons ... images and callouts"; "on the width, I think you went a bit too much"; "every screenshot, I feel like we should always be trying to pad it", and brief 27: "pad means pair it with text". LY1, signed.
+- **Before** (`team/conductor/research/2026-11-04__the-look-before-and-after/`, 00:30 UTC): every page from 3 to 16 carries a visual; the tour starts on page 11.
+- **After it went wrong** (same study, 09:55 UTC): 12 pages in 3 to 40 more than a third empty at the foot; a "Try this" card alone on page 12; the tour pushed to page 17. The fix is the before.
+
+**A critic checks.** A spread of text with no visual; a page more than a third empty; a card, figure or screenshot alone on a page; a screenshot without its paragraph beside or around it; a chapter with fewer icons and callouts than the version he liked.
 
 ---
 
@@ -428,6 +436,7 @@ The editor asked to "sign off specific chapters ... Sections, not sessions" (bri
 25. Show what was built, the factory at work, the admin pages, the weight of the documents.
 26. One caption per figure, at the top.
 27. Pictures show what the text says, in proportion, with their paragraph.
+36. The look: a visual on every spread; every screenshot paired with its text; never a card or figure alone on a page (LY1).
 
 **Facts, numbers and the print rule**
 28. Every number traced, its id in the record line.
