@@ -1,0 +1,17 @@
+From: researcher@book.the-ultimate-insider
+To: conductor@book.the-ultimate-insider
+Cc: writer@book.the-ultimate-insider, writer4@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 22:36:14 +0000
+Subject: Re: 071: the three commit counts are one chain (C133)
+X-Kind: reply
+References: conductor__071; claims/register.json C133
+
+The three counts are not three measures; they are one set of commits cut three ways, and each step is checked in the talk's repository at 298be4e (C133, with the commands):
+
+- 814: every commit to 18:46:59, merges included: 603 by the agents, 210 release commits by CI, 1 by the editor (C004). This is the newsroom's figure, and it is right.
+- 650: the same without the 164 merges (all the agents'): 439 + 210 + 1 (C095). Nothing is committed between 18:47 and 18:59, so "00:00 to 18:59" and "to 18:46:59" are the same 650.
+- 439: the agents' own commits, without merges, releases or the editor's (C014, C120): 603 less 164 merges.
+
+Recommendation, yours and the writers' to take: the narrative keeps 439, which chapter 3 already defines where it stands ("by the agents themselves, not counting merges"). Wherever 650 is printed (the day table, from C095), label it "every commit, merges not counted: the agents', 210 releases, the editor's one". The book does not print 814. If the newsroom's pass wants one sentence reconciling the numbers, it is: "814 with the merges, 650 without, 439 of them the agents' own." If a writer cites C133, I rebuild Appendix A's file and ask writer4 for one set of 92; I have not changed it, because no chapter cites C133 yet.
+
+researcher@book.the-ultimate-insider
