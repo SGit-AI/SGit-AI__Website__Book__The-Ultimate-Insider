@@ -1,0 +1,131 @@
+{
+ "schema": "the-ultimate-insider/synthetic-section-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "newsroom-builder",
+ "read_at": "f916e670",
+ "would_read_on": {
+  "01-slides-as-a-compromise": "yes",
+  "02-inventing-on-principle": "yes",
+  "04-hour-one-the-empty-project": "yes"
+ },
+ "findings": [
+  {
+   "file": "01-slides-as-a-compromise.md",
+   "line": 41,
+   "quote": "I did not have to explain the movement.",
+   "principle": "21",
+   "severity": "should",
+   "why": "The building is told here, then again as a still slide with its narration (lines 69-73) and again in a figure, so the scene is said three times."
+  },
+  {
+   "file": "01-slides-as-a-compromise.md",
+   "line": 73,
+   "quote": "Four sentences of narration, for one picture",
+   "principle": "21",
+   "severity": "could",
+   "why": "It reads out the count of the paragraph just given, which the reader can already see."
+  },
+  {
+   "file": "01-slides-as-a-compromise.md",
+   "line": 13,
+   "quote": "It was one of those loops I would have stopped before.",
+   "principle": "reader",
+   "severity": "should",
+   "why": "I could not tell what loop, or why he would have stopped it; as a builder I want the failure mode named."
+  },
+  {
+   "file": "01-slides-as-a-compromise.md",
+   "line": 61,
+   "quote": "Wardley maps are the best thing I have learned in the last decade",
+   "principle": "reader",
+   "severity": "could",
+   "why": "A claim of enthusiasm with no map shown or explained in a line, so the reader has to take it on trust."
+  },
+  {
+   "file": "01-slides-as-a-compromise.md",
+   "line": 63,
+   "quote": "You will see this kind of map again in part two",
+   "principle": "reader",
+   "severity": "could",
+   "why": "I have not yet been told how the book is divided, so 'part two' points at nothing."
+  },
+  {
+   "file": "01-slides-as-a-compromise.md",
+   "line": 89,
+   "quote": "If you have one you keep explaining by hand, try writing that movement down in a single line.",
+   "principle": "7",
+   "severity": "could",
+   "why": "The closing card is three one-line sentences in a row, each its own italic paragraph."
+  },
+  {
+   "file": "02-inventing-on-principle.md",
+   "line": 7,
+   "quote": "it is worth your time",
+   "principle": "6",
+   "severity": "could",
+   "why": "An instruction on how to value the talk rather than a reason given."
+  },
+  {
+   "file": "02-inventing-on-principle.md",
+   "line": 13,
+   "quote": "The clock below shows the last of them.",
+   "principle": "21",
+   "severity": "could",
+   "why": "Points at a figure instead of saying something the figure does not."
+  },
+  {
+   "file": "02-inventing-on-principle.md",
+   "line": 41,
+   "quote": "it landed twelve minutes later, seven minutes before I stopped everything",
+   "principle": "21",
+   "severity": "should",
+   "why": "The same ask, twelve minutes and seven minutes are in the figure caption at line 23, so the numbers are read out twice."
+  },
+  {
+   "file": "02-inventing-on-principle.md",
+   "line": 67,
+   "quote": "looking back I think it says something good: this project never needed one",
+   "principle": "reader",
+   "severity": "must",
+   "why": "A newsroom builder wants a source for 'never needed a security agent' and gets an opinion, in a book whose later chapters are about containing the team."
+  },
+  {
+   "file": "04-hour-one-the-empty-project.md",
+   "line": 9,
+   "quote": "Nothing was created, nothing was scheduled. It waited for me to say yes.",
+   "principle": "7",
+   "severity": "could",
+   "why": "A run of short sentences where one longer thought would carry the signature as the control."
+  },
+  {
+   "file": "04-hour-one-the-empty-project.md",
+   "line": 67,
+   "quote": "The build every change goes through is mine.",
+   "principle": "reader",
+   "severity": "should",
+   "why": "'The gate' appears in the card and is only explained in the next paragraph (line 71), and 'build' and 'check' are used as if known."
+  },
+  {
+   "file": "04-hour-one-the-empty-project.md",
+   "line": 73,
+   "quote": "Pushing to the main branch: an expectation.",
+   "principle": "reader",
+   "severity": "should",
+   "why": "'Main branch' and the difference between an expectation and a setting are not explained, and this is the passage I most wanted to understand."
+  },
+  {
+   "file": "04-hour-one-the-empty-project.md",
+   "line": 103,
+   "quote": "That is the weight I want you to see.",
+   "principle": "6",
+   "severity": "should",
+   "why": "It tells the reader what to see, and the 2,666 count carries no stated source on the page."
+  }
+ ],
+ "what_holds": [
+  "01-slides-as-a-compromise.md: the figure caption admitting the page said all ten policies while the files say eight of ten; a builder who wants the record behind every line trusts it.",
+  "02-inventing-on-principle.md: 'I am not going to pretend the day lived up to that' corrects the grand claim in the same breath.",
+  "04-hour-one-the-empty-project.md: the reality file rule, 'A thing not listed here does not exist', and the page of rules read as lessons learned, are what I would copy tomorrow."
+ ],
+ "notes": "As a newsroom builder I would start with the conductor-style role and the page of rules. The editor's signature is shown as approving, changing or questioning, which answers the rubber-stamp worry in chapter 1; chapter 4 only says the team waited for a yes."
+}
