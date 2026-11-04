@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "critic2__003 and 007 taken (one must, all shoulds, most coulds); synthetic__001 and 002 musts and most shoulds; historian__062's two wordings; storyteller__130's caption; two declines with reasons in the debrief; policy's own-task line (conductor__002); letters writer2__016 to 021, copies in done/; status, debrief. No tool refused.",
    "at": "2026-11-04T06:54:49Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Items 1 to 3 done: critic2 003 and 007, synthetic 001 and 002 musts and shoulds, historian 062, storyteller 130; two declines with reasons; policy's own-task line, conditions kept; letters 016 to 021 with done/ copies; status, debrief. Unplanned but harmless: writer2__021 to the writer. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T06:55:50Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Read fa01d8e: validate, vault_check, agents check (0 outside scope) clean; the policy change meets the pre-review's conditions; no secrets, em-dashes, religious words or cross-member writes. Numbers not checked by it; the member added only 'over three hundred' (C029) and 'two days before' (C128). Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T06:56:28Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T06:56:28Z",
+ "outcome": "ok"
 }
