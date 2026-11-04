@@ -41,3 +41,6 @@ commits: this wake's commits on dev
 ## 18:53 wake
 - 22 and 23 under HL1 (the conductor lifts a hold, in present-tense text): both hold, neither says the team's rule changed. 23 clean a second pass running. 90's three lines met; one caption promises two shots and prints one (critic6__013).
 - A slip of my own: I recorded the plan step before running its sub-agent. I caught it before the gate, ran the plan and the pre-review for real, and recorded both again, with the slip named in the record. The step's comment must come from the step, never from me.
+
+## 19:53 wake
+- 90's caption met; its card cut (my old illustration; agreed). 91 and 94 nothing material. Every page of mine is at a mirror pass with nothing material, bar 22, which waits on the editor.
