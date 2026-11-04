@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, hourly at :57 London",
+ "started": "2026-11-04T12:00:07Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Plan: ids, hashes and times out of the four drawings critic3 names (the record line carries them), ch11-five-misses redrawn with chapter 17's nine ### headings; 16's tally from C119 (checked), ids off the picture; pair.css on div.pair-*; resync 01, 00b, 21. The editor's relayed words are material: the designer states the size only. If short of time, the tally waits. All in scope; no HOLD. Tools: Bash, none refused.",
+   "at": "2026-11-04T12:01:15Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "All in scope; no HOLD; manuscript read only; C119 registered; nothing secret. Conditions: pair.css to match the build's div.pair-* (keep the figure rules too, and say so to the publisher); the lab build writes nothing in lab/runs/; vault_check before the commit. Tools: Bash, none refused.",
+   "at": "2026-11-04T12:02:05Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Done as planned. Ids, hashes and source lines out of ch10-hold-file, ch2-dashboard and ch4-last-ten-minutes; chapter 17's nine misses drawn (ch17-nine-misses); LAB 53, the tally from C119; pair.css on div.pair-* too; the list resynced (107 lines, 61 drawn). A slip caught: chapter 16's two drawings dropped on the reworded lines, set by hand, and the script now prints DROPPED. Letter 140 (the team cards' size); eight letters copied to done/. Lab 175 pages; gate clean.",
+   "at": "2026-11-04T12:07:37Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
