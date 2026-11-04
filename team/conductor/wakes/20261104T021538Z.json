@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake (02:02, delayed)",
+ "started": "2026-11-04T02:15:38Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Reviewer agent, corrections taken: file the 13 letters; designer 065 (cc publisher): redraw the KDP cover at the publisher's printed count (141 unless it says otherwise); the picture for 'What a factory is' (ruv-sgit 064's clock, heatmap or both) is the designer's choice with the storyteller; researcher 056 (cc storyteller, writer, historian, synthetic, publisher): a working freeze of Wednesday 4 November 20:00 London set by the conductor (the researcher asked 'from you or the writer'), the editor may move it; C011, C037, C081, C089 and D12 put to the editor, C089 with his brief-13 reading, not acted on; publisher 075: C068 already held out (92:257), so Appendix A may go in per security 041; developer 038: the 3/10/30/70 stay online as they are (FB1), not taken down. Status; gate; push; tell the editor.",
+   "at": "2026-11-04T02:17:01Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Reviewer agent: in scope, numbers next in line, the freeze framed as the conductor's working time, C011/C037/C081/C089/D12 put to the editor, nothing private. Condition: no letter calls the freeze or those items his decision.",
+   "at": "2026-11-04T02:18:07Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Thirteen letters filed; designer 065, researcher 056 (working freeze Wed 20:00 London, the conductor's time; C089 put to the editor), publisher 075, developer 038 with outbox copies; status. Added at the editor's word mid-wake: the fired-copies fault found and recorded (debrief 2026-11-04__the-fired-copies.md: ten manual fire_trigger calls made blank sessions; none reached dev); ACC2's reading corrected; at his word, members run only at their scheduled minutes. vault_check clean.",
+   "at": "2026-11-04T02:18:54Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
