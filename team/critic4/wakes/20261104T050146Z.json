@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Role copied into team/critic4/ (draft left; ROLE.md logo link fixed for the built page); key published, public halves only; own task trig_011eHUNLL3PDGEHaXYDbLXmZ at :07 London; pass 1 on chapter 20 (1 must, 5 should, 4 could); request critic4__001 to writer4; notice critic4__002 to the conductor (WC1 in the build; policy's not_wanted schedule line), outside the plan's one letter but inside scope; status.json and debrief; gate clean.",
    "at": "2026-11-04T05:07:55Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "15 files, all in critic4 scope or its comms folders (agents.py: 0 outside scope). vault_check comms clean; build and validate clean, no tracked changes. No private key, token, em-dash or religious word; public halves only. Nothing attack-shaped, no other member's files touched.",
+   "at": "2026-11-04T05:08:51Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "partial",
+   "comment": "Done: letter to writer4 (named critic4__001-chapter-20-pass-1), role and policy copied, key, session, own task, status, debrief, plus the extra notice to the conductor (in scope). Short of plan: the first pass covered chapter 20 only, not 20-23 and 90-94 (ROLE.md: a chapter or two per wake; 21 and 22 wait on writer4's rewrite).",
+   "at": "2026-11-04T05:08:51Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T05:08:51Z",
+ "outcome": "partial"
 }
