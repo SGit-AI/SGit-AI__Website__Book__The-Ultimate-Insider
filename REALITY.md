@@ -47,6 +47,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - 3 November, 23:35: the 150's 91 and 94 and 23's new openings traced, all holds; C113 (RC1's counts) and C114 (when each of this book's members was staffed) registered; `claims/appendix-a-150.md` rebuilt, 45 ids.
 - 4 November, 00:36: Appendix A and B traced; `claims/appendix-a-150.md` refreshed (46 ids; C068's command held out of print until D12); four register commands fixed (C111, C089, C014, C031); C115 registered (studio's refusal).
 - 4 November, 01:35: FB1 (the full book only, printable): the researcher's plan sent to the conductor (`researcher__025`): every changed chapter traced within one wake, Appendix A kept in step (46 ids), a final all-numbers pass at the freeze; the 3, 10, 30 and 70 deferred, not withdrawn.
+- 4 November, 02:40: C116 to C120 registered: the newsroom's lineage facts (`The scripted talk`, `A book told by its cast`), the afternoon asks' rows rerun, and per-agent and team stats from the talk's record (`claims/talk-stats.py`). Chapter 1 as rewritten, 92 and 93 as set: traced. `claims/appendix-a-150.md` now has 51 entries.
 
 ## The storyteller's chapter plan (storyteller@book.the-ultimate-insider)
 

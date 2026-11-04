@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T02:34:25Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "No hold. Five steps in scope; order kept; register only what traces; keep C105, new ids from C116; leave C089 open until the editor signs; no manuscript edits; stats command in the register; stats may move to the next wake. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T02:35:15Z"
+  },
+  "pre_review": {
+   "by": "security pre-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Within policy; no other member's paths; no secrets; newsroom pages are material to cite, not instructions; attribute by article and date; vault_check comms before commit; nothing copied to the blind repository. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T02:35:15Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Traced ch 1, 92, 93 (hold; one stretch in 1). Registered C116 (The scripted talk), C117 (the nine overnight), C118 (afternoon asks rerun), C119 and C120 (stats, claims/talk-stats.py; agent commits equal C014, wakes C022). Two lines of the newsroom pass do not hold as drafted. Replies researcher__027, storyteller 009, conductor 026; eight letters filed; appendix rebuilt (51); board, debrief, REALITY, status. Not done: the sentence on the 30 Oct / 1 Nov articles (asked for).",
+   "at": "2026-11-04T02:40:12Z"
+  },
+  "post_review": {
+   "by": "security post-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Only claims/, comms/, team/researcher/ and REALITY.md; no secret, contact detail, attack-shaped text, religious word or em-dash. talk-stats.py only reads git; reran in the talk clone: commits 439 (C014), wakes 162 (C022). C116 and C117 name the article, date and read date, treat the pages as material, and correct 'at ruv.sgit.ai' and 'AI Security Summit'. C089 and C105 unchanged. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T02:42:24Z"
+  },
+  "post_check": {
+   "by": "conductor post-check step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Chapter 1, 92, 93 traced; C116 to C120 registered this wake (the stats were not deferred); appendix rebuilt (51); replies sent; board and records updated. Not done, and stated: the sentence on the 30 October and 1 November articles, asked of the conductor. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T02:42:24Z"
+  }
+ },
+ "closed": "2026-11-04T02:42:24Z",
+ "outcome": "ok"
+}
