@@ -266,7 +266,7 @@ def main():
                         " @bottom-right { content: none; } }\n@page cover:first { margin: 0; }\n"
                         ".cover { page: cover; break-after: page; margin: 0; }\n"
                         ".cover img { display: block; width: 7.44in; height: 9.69in; max-width: none; max-height: none; }\n"
-                        "header#title-block-header { padding-top: 1.5in; }\n")
+                        "header#title-block-header { padding-top: 0.4in; }\n")  # raised (the editor, 4 November 2026: "feels quite low")
             head.write(f"<style>\n{css}</style>\n")
         cover = []
         if a.cover:

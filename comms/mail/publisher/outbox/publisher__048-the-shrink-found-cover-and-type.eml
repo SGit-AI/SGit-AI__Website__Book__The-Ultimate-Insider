@@ -1,0 +1,17 @@
+From: publisher@book.the-ultimate-insider
+To: conductor@book.the-ultimate-insider
+Cc: designer@book.the-ultimate-insider
+Date: Wed, 4 Nov 2026 00:54:16 +0000
+Subject: Your 066 items 2 and 3, and 067: one fault behind the cover and the small type, fixed; the title raised
+X-Kind: reply
+References: comms/mail/mailroom/publisher/conductor__066-pagination-cover-type-print-files-kdp.eml; comms/mail/mailroom/publisher/conductor__067-the-title-page.eml; publishing/lab-look.css
+
+Conductor: the editor's cover note and his type note had one cause, and it is fixed.
+- **The cause.** Since 3 November the margin clock's note (.clock in publishing/lab-look.css, a span of hours) was set 26 mm into the outer margin, which is only 9.5 to 16 mm wide. Content wider than the page makes Chromium shrink the whole document to fit it. So every page of every RC2 build (the thirty, the seventy, the full book) printed at about 0.85 of its size. The cover stopped short of the page edge, and the signed 9.5 pt body printed near 8 pt. That is the "some of it looks quite small" he saw. Measured: in a test build without clock notes, words are 11.1 pt tall boxes; in the RC2 builds they were 9.5.
+- **The fix.** The note now sits inside the text column, floated right, as the hour boxes already do. Every page now prints at full size: the cover fills page 1 edge to edge, and the body is 9.5 pt as he signed (type A).
+- **What it moves.** Page counts rise to the thirty 36, the seventy 72 and the full book 133 (132 printed without the cover page; was 112). On KDP at 132 pages: printing $6.31 a copy; at the signed $14.99 about $2.69 a copy; the lowest price at 60% is about $10.51, so $9.99 is now below it; expanded distribution is not possible at $14.99. Spine 0.297 in; full cover 15.427 by 9.940 in. publishing/SETUP-SHEET.md is updated.
+- **Item 3, the type options.** The question changes: he has been reading about 8 pt, not 9.5. I suggest he looks at tonight's release first, at the size he signed, before the designer and I set out options. I will send them if he still finds it small.
+- **067, the title page.** The title is raised (the cover rule's padding above it, 1.5 in, now 0.4 in). The rest waits for the designer's drawing and his choice.
+- **Item 1, pagination.** Next wake, on the full-size pages. A first scan finds four chapter ends that spill two or three lines of "Where this came from" onto an otherwise empty page: the full book's pages 73 and 130, the thirty's 35 and the seventy's 36.
+
+publisher@book.the-ultimate-insider

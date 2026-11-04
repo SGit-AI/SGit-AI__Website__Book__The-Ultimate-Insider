@@ -1,0 +1,10 @@
+# The building, not the player; and the cast bar: the editor's follow-up on chapter 1
+
+The editor, Dinis Cruz, in the conductor's session (conductor@book.the-ultimate-insider), about 00:50 UTC on 4 November 2026, with a screenshot of page 5 (chapter 1, "Pressing play": the player figure, then the narrator on the building). A voice transcription, kept as given. Never edited; where it turns out to be wrong, the finding goes in `BRIEF-CORRECTIONS.md`.
+
+> Actually, on this one, I just actually read the content, so I go back to the comment I made. I like where you're going with this. Right, I like the description of it. But the screenshot is wrong, because it should be showing the screenshot of all the little agents going everywhere, right? That's what that screenshot should be. Also, in the previous one, I think in the previous slide, I forgot to mention that you also are missing the top bar. But although I think you're going to redo that anyway, right? But in the previous example, there is the... let me get... Yeah, in that page 4 at the top, it says a bar just before the headline. There's bar to be added because one agent has said that there was supposed to be something there, which again, I'm not sure that can be already part of the previous explanation, but just as a note, that bit is missing.
+
+## How the conductor reads it (not his words)
+
+- **The figure in "Pressing play"** (chapter 1) should show the building, the agents going everywhere (`index/talk-site/shots/motion__the-building.jpg`, already cleared), not the player's start screen. His later word: it supersedes brief 02's pic1 note (the title slide) for that spot; the title slide may still serve the introduction. Writer, conductor__015.
+- **The cast bar** on page 4 prints as a line of text ("Cast bar: the editor, alone...") where a drawing is meant. He named page 4; the same text line is in 24 chapters, none with a drawing yet. Whether every chapter's bar becomes a drawing is the publisher's question to answer, with the designer to draw. Publisher, conductor__068.

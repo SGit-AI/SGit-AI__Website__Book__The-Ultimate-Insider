@@ -139,7 +139,9 @@ ol > li { padding-top: 3pt; padding-bottom: 3pt; margin-bottom: 4pt; }
 .band { margin-top: 6pt; }
 
 /* 3 November 2026: the writer's clock line (writer__035), a small note in the outside margin giving the hour of the day */
-.clock { float: right; clear: right; width: 22mm; margin: 0 -26mm 4pt 4pt; }
+/* inside the text column since 4 November 2026: hung 26 mm into a 9.5 to 16 mm margin, it made Chromium shrink every
+   page of the book to about 0.85 to fit it (the cover short of the page edge, 9.5 pt type printed near 8 pt) */
+.clock { float: right; clear: right; width: 22mm; margin: 0 0 4pt 4pt; }
 .clock p { font-family: var(--sans); font-size: 8pt; line-height: 1.2; color: var(--accent); font-weight: 700; margin: 0; }
 
 /* 3 November 2026: a chapter's "Where this came from" set smaller and tighter, so it more often stays on the chapter's
