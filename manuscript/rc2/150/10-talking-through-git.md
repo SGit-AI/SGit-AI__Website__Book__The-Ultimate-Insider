@@ -25,9 +25,9 @@
 
 `%% figure brief: For the designer. Show one letter as a file, with its headers (From, To, Date, Subject, the kind of letter), and one board folder with open, blocked and done.`
 
-`%% for the editor: "the part I did not expect" is the writer's reading; his to keep or drop.`
+`%% Hold (P30: a reading of his view, not in the record or his briefs; prints once he confirms; storyteller__147): "And here is the part I did not expect."`
 
-**Narrator.** And here is the part I did not expect. Because asking was cheap and answering was scheduled, a check could also hold a request back: in chapter 8, deck's own reviewer asked it to wait, because one of its requests was already in flight, and deck held the second.
+**Narrator.** Because asking was cheap and answering was scheduled, a check could also hold a request back: in chapter 8, deck's own reviewer asked it to wait, because one of its requests was already in flight, and deck held the second.
 
 `%% record: aeffbf9 (04:22, deck to the conductor) team/deck/wakes/20261029T041822Z.json manuscript/rc2/150/08-hours-four-and-five-before-dawn.md (deck holds itself back); the talk team's vaults, named and not cited by path; comms/README.md (this book's); the storyteller's ruling 1 for part three (chapter-plan/edition-150-outline.md): the hold told in 8, one line here`
 
@@ -61,6 +61,8 @@
 
 **Deck**: I asked at my session, the researcher answered at its own, and I used the answer at my next, without ever asking twice.
 
+`%% for the editor: "What I like most is what is missing" is the newsroom journalist's line in your voice (part three, chapter 10, rule 11); brief 21 lets it print.`
+
 **Narrator.** What I like most is what is missing. No "just checking in". No "any update?". No message sent because somebody was anxious. A letter is a file in a folder, and the folder is read at a known minute, so a request only needs saying once. The whole exchange took an hour and three sessions, and every word of it is still where it was written.
 
 `%% Check (the newsroom, part three, chapter 10; his to confirm before it prints): "I would happily work that way with people too."`
@@ -79,9 +81,9 @@
 
 `%% clock record: 10:05 and 10:21; clock hours of 29 October (C110; the conductor's CK1).`
 
-`%% for the editor: "the one I would copy first" is the writer's reading; his to keep or drop.`
+`%% Hold (P30: a reading of his view, not in the record or his briefs; prints once he confirms; storyteller__147): "... and the one I would copy first."`
 
-**Narrator.** The third channel was the smallest, and the one I would copy first. Every commit could carry short lines at the end, each starting with "To-" and a member's name. They were read at that member's next session. They are the team's notes to each other, and the history is full of them.
+**Narrator.** The third channel was the smallest. Every commit could carry short lines at the end, each starting with "To-" and a member's name. They were read at that member's next session. They are the team's notes to each other, and the history is full of them.
 
 **Narrator.** Two, from the middle of the morning. The conductor, to ruv-sgit, about the "@" it kept leaving off:
 
@@ -91,28 +93,26 @@
 
 `%% record: the elided commits in the conductor's note: c1c6443 b6f5219 5344486 (researcher__002 to writer2: the hashes off the page); the note goes on "so agents.py check counts none of them", put in plain words above (synthetic__001)`
 
-**Narrator.** And deck, soon after, to ruv-sgit again: its third letter, above.
+**ruv-sgit** *(already at the bench)*: I read both notes at my next session. Deck's third letter came first: E09, then E04, in deck's order. The "@" I left as it was.
 
-**ruv-sgit** *(already at the bench)*: E09 first, then E04. In deck's order.
-
-**Narrator.** ruv-sgit read both notes at its next session. It took deck's work, in deck's order. It did not fix the "@", and many of its later commits still left it off. One note followed, one not, and both are in the record.
+**Narrator.** Many of its later commits still left it off. One note followed, one not, and both are in the record.
 
 `%% Check (the newsroom, part three, chapter 10; his to confirm before it prints, the newsroom's question 1): "I find that oddly reassuring: the agents ignored the boring housekeeping request and acted on the one about real work, which is very much what people do too."`
 
-**Narrator.** In order, those notes are the team talking: a second note about the same mistake, a request with its order of work. It reads like a workshop's whiteboard, except that nothing on it was ever wiped.
+**Narrator.** In order, those notes are the team talking: a second note about the same mistake, a request with its order of work, and nothing on it ever wiped.
 
-`%% for the editor: "It reads like a workshop's whiteboard" is the writer's reading of his view; his to keep or drop.`
+`%% Hold (P30: a reading of his view, not in the record or his briefs; prints once he confirms; storyteller__147): "It reads like a workshop's whiteboard, except that nothing on it was ever wiped."`
 
 **Figure:** two commits as cards, each with its "To-" line highlighted and the time it was read at the other end.
 
 `%% record: 09317d9 (10:05) 36e382b (10:21) index/talk-site/README.md (item 17)`
 `%% traced by the historian (historian__022): a good pair, one followed, one not; ruv-sgit's wake 20261029T103411Z read both; a31bd6f 57d24d3 41d4757 still without the @.`
-`%% band: Dramatised (ruv-sgit's line). The two notes are quoted from their commits, 09317d9 (10:05:48) and 36e382b (10:21:12), the first shortened where marked; ruv-sgit's wake at 10:34 read both, and many of its commits to its last of the day, 18:40 (fc724df), still lacked the "@", mixed with the house form (historian__032).`
+`%% band: Dramatised (ruv-sgit's line, now telling what it did: storyteller__147, S3; deck's third letter told once, S2). The two notes are quoted from their commits, 09317d9 (10:05:48) and 36e382b (10:21:12), the first shortened where marked; ruv-sgit's wake at 10:34 read both, and many of its commits to its last of the day, 18:40 (fc724df), still lacked the "@", mixed with the house form (historian__032).`
 *Dramatised.*
 
 ## Something to try
 
-*The team talked through files, so every request and every answer could be read later, by them and by me. If you have more than one agent, a single folder for their requests to each other, and a rule that a request is a file and so is its answer, gives you the same record.*
+*The team talked through files, so every request and answer could be read later. If you have more than one agent, try one folder for their requests, and a rule: a request is a file, and so is its answer.*
 
 `%% record: team/conductor/from-newsroom/2026-11-04__do-this-now-as-invitations.md (chapter 10, the proposed card); chapter-plan/cast/cast-guide.md (page conventions 1)`
 

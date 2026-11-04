@@ -12,11 +12,11 @@
 
 `%% for the editor: the hour's opening line, kept as the newsroom advised; it is the chapter's line for the hour (the storyteller's convention 4), inside "the acceleration" of hours fourteen to eighteen.`
 
-**Narrator.** I sat in the conductor's session and gave it instruction after instruction: answers on the live slides, the new pieces into the deck, the team's own policies into the talk, "go build", the remaining policies agreed, how the team keeps itself safe. Each one became a session of its own. I was giving instructions faster than the hourly clock could carry them, and the conductor carried them anyway, one at a time, each with the five steps of chapter 7.
+**Narrator.** I sat in the conductor's session and gave it instruction after instruction: answers on the live slides, the new pieces into the deck, the team's own policies into the talk, "go build", the remaining policies agreed, how the team keeps itself safe. Each one became a session of its own. I was giving instructions faster than the hourly clock could carry them, and the conductor carried them anyway, one at a time, each with the five stages of chapter 7.
 
 **Conductor**: Another one. Plan it, have it checked, route it. Then the next.
 
-`%% for the editor: "I outran it" is the writer's reading of the hour, and the historian's day file agrees; his to keep or drop. The pointer to chapter 2's "One ask, followed in full" is gone with that section (the storyteller's ruling 4).`
+`%% for the editor: "I outran it" rests on the historian's day file for hour eighteen ("instructions arrive faster than the hourly schedule can carry them"), a record, not a feeling; his to keep or drop. The pointer to chapter 2's "One ask, followed in full" is gone with that section (the storyteller's ruling 4).`
 
 `%% record: timeline/day/17.md (the historian's reading: "The editor's instructions arrive faster than the hourly schedule can carry them") team/conductor/wakes/ (started 17:21:52, 17:30:55, 17:37:56, 17:45:53, history; the changes recorded at 17:22, 17:32 and 17:47) 8fee7e3 a618b29 7c91afc d252155 c3f546e 93f4191 (17:16 to 17:48) C105 (the asks with my time in their subjects, from 17:27) timeline/day/17.md`
 `%% band: Dramatised (the conductor's line). Rests on its run of wakes from 17:16 to 17:48.`
@@ -24,15 +24,16 @@
 
 ## The brakes held
 
-**Narrator.** This is the hour I would point to if someone asked whether the checks only work when nobody is in a hurry. The talk was due at seven, I was pushing as hard as I could, and in the middle of it the conductor's own reviewer sent three of its plans back before it said go. A fourth changed halfway through because I changed my mind, and the record says so honestly, rather than dressing it up as a review.
+**Narrator.** This hour is a test of whether the checks only work when nobody is in a hurry. The talk was due at seven, I was pushing as hard as I could, and in the middle of it the conductor's own reviewer sent three of its plans back before it said go. A fourth changed halfway through because I changed my mind, and the record says so honestly, rather than dressing it up as a review.
 
 **Figure:** a card, the day's pre-reviews that said change and the plans amended after them, with this hour's three marked.
 
 `%% figure brief: The three sent back in the conductor's sessions of 17:21, 17:30 and 17:45 (the first a follow-up under that evening's rule); the fourth, at 17:37, changed in its work when I agreed the remaining policies. For the designer, from C023 (pre_review_change_then_amended: 11 in all, 7 recorded as a verdict; the conductor's free-text entries at 17:21, 17:30, 17:45; the 17:37 entry not counted, being the editor changing course). The counts on the card only.`
 
-**Narrator.** Every one of those sessions still closed with all five steps. Plans were sent back to be changed, but no step, all day, halted the team. I used to think of checks as the thing that slows you down. That hour taught me the opposite: the brakes are what let you go fast.
+**Narrator.** Every one of those sessions still closed with all five stages. Plans were sent back to be changed, but no step, all day, halted the team. I used to think of checks as the thing that slows you down. That hour taught me the opposite: the brakes are what let you go fast.
 
-`%% for the editor: "the hour I would point to" is the writer's reading of your view; "I used to think of checks as the thing that slows you down ... the brakes are what let you go fast" is the newsroom journalist's (part three, chapter 15); yours to keep or drop.`
+`%% Hold (P30: a reading of his view, not in the record or his briefs; prints once he confirms; storyteller__147): "This is the hour I would point to if someone asked whether the checks only work when nobody is in a hurry."`
+`%% for the editor: "I used to think of checks as the thing that slows you down ... the brakes are what let you go fast" is the newsroom journalist's (part three, chapter 15); yours to keep or drop.`
 `%% Check (the newsroom, part three, chapter 15, its question 3: Rania Khalaf's keel image, quoted in the newsroom's WSO2 article of 3 November; his to borrow or leave): "... the same way a keel lets a boat go fast without capsizing."`
 
 `%% record: C100 (the talk due at 19:00 London) C023 (and its note: "No step said stop all day") team/conductor/wakes/ (history: "pre-review said change: adopted" at 17:21, 17:30, 17:45) timeline/day/17.md ("The brakes held under that pressure")`

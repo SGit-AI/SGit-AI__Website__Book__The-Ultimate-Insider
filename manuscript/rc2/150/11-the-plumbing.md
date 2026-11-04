@@ -27,7 +27,7 @@
 
 **Figure:** the talk's register as a stacked bar: held, held in part, not checked, did not hold.
 
-`%% figure brief: the counts in the bar, with its id in small type, as the conductor rules on ids inside drawings (ruv-sgit__070's question; conductor__003: no production notes on the Figure line).`
+`%% figure brief: the counts in the bar, no register id inside the drawing (storyteller__143; the cast guide's convention 8): the record line carries C029.`
 
 `%% record: C029 (320 claims, built 18:20: 210 hold, 55 hold in part, 52 not checked, 3 do not hold) C030 (the three, none on stage) team/researcher/ROLE.md at 298be4e claims/README.md (this book's register)`
 `%% band: Dramatised (the researcher's line). The talk's own register of claims, as the book's register counts it.`
@@ -40,6 +40,8 @@
 **Figure:** a card, what the check looked at that first night: every link resolves; every page has its plain-text twin; no code loaded from elsewhere; every script parses; every beat has a slide; no long dash in the prose; a tripwire over every file for anything that looks like a secret.
 
 **Narrator.** The check had a twin, in words: the team's first page of rules, from chapter 4. Put the two side by side and half of the page is the check said in words. The other half is what no check could hold, and that is the half I find more interesting, because it is where trust lives.
+
+`%% for the editor: "the half I find more interesting, because it is where trust lives" is the newsroom journalist's line in your voice (part three, chapter 11); brief 21 lets it print.`
 
 `%% record: 1f7c633 (00:40, CLAUDE.md as first committed) manuscript/rc2/150/04-hour-one-the-empty-project.md ("The first files", the page of rules as a card, told there once: the storyteller's ruling 2 for part three)`
 
@@ -72,7 +74,7 @@
 
 **Narrator.** A website gives an agent somewhere to put things that stays put. Its work is a file with a history, not a message that scrolls away. And a site can show the team its own state: the dashboard, the wakes page, the release history, all built from the files the agents wrote. The site remembered for them, and it showed me what they had done, on pages built from their own files.
 
-**Important concept: the repository growing.** The site was the repository, and it grew every hour: 53 files at the end of the first hour, 1,313 at the day's last release, and its pages from 23 to 163. The biggest jump in pages came in the afternoon hour when the last two agents joined, the two you meet in chapter 14. Nothing was tidied away as it grew. What changed was the design around it: pages built from the team's own files, one frame for every page, and side navigation, so a site that kept getting bigger stayed one I could read.
+**Important concept: the repository growing.** The site was the repository, and it grew every hour: 53 files at the end of the first hour, 1,313 at the day's last release, and its pages from 23 to 163. The biggest jump in pages came in the afternoon hour when the last two agents joined, the two you meet in chapter 14. Nothing was tidied away as it grew. What changed was the design around it: pages built from the team's own files, one frame for every page, and side navigation.
 
 **Figure:** the repository at the end of each hour, files by kind.
 
@@ -80,7 +82,8 @@
 
 `%% figure brief: For the designer: ruv-sgit's repo-growth.svg (lab/experiments/60-ruv-the-margin-clock/edition/repo-growth.svg), its caption's rule kept (the first-parent line is dev as merged, so a late-merged branch makes an hour look quieter); the cast guide's convention 5, his brief 18.`
 `%% record: C124 (files and pages at the end of each clock hour: hour 00, 53 files, 23 HTML; hour 14 to hour 15, 75 to 116 HTML, the biggest step; C013, motion and studio joined at 15:31; hour 18, 1,313 files, 163 HTML, at 18:46:22) timeline/repo-design.md (historian__050: no page deleted or renamed all day; the frames dated: team pages built from team/ 00:51, admin side navigation 01:52, the studio's side navigation 04:51, design note 1, one frame for every page, 05:51) comms/mail/mailroom/writer2/storyteller__127-repo-growth-callout.eml`
-`%% for the editor: the callout is writer2's, from your brief 18 and the registered counts; "stayed one I could read" is my reading of your view; yours to keep or change.`
+`%% for the editor: the callout is writer2's, from your brief 18 and the registered counts.`
+`%% Hold (P30: a reading of his view, not in the record or his briefs; prints once he confirms; storyteller__147): "... so a site that kept getting bigger stayed one I could read."`
 `%% Check (his brief 18, "a time where we had more HTML files than we needed"; prints only if he confirms it is this project, since the record shows no page removed, historian__050): "For a while there were more pages than we needed, and the design caught up with them."`
 
 **Dev**: Every page is a file, so every page has a history and a check before it goes out. You never have to ask what changed. You look.
@@ -109,9 +112,11 @@
 
 `%% for the editor: "The rule was right, and nobody used it, me included." is the newsroom journalist's reading of your view (part three, chapter 11); yours to keep or drop.`
 
-**Narrator.** I would keep the file, and give one member the job of writing in it. A brief that is never corrected becomes a story about what you thought you wanted.
+`%% Hold (P30: a reading of his view, not in the record or his briefs; prints once he confirms; storyteller__147): "I would keep the file, and give one member the job of writing in it. A brief that is never corrected becomes a story about what you thought you wanted."`
 
-`%% for the editor: "I would keep the file, and give one member the job of writing in it." and the sentence after it are the writer's reading of his view; his to keep or drop.`
+**Narrator.** All of that ran under every scene, and for nine hours it ran without me. In hour fourteen, I came back.
+
+`%% record: C087 (hours 05 to 13 UTC, no wake started by me: nine hours) C110 (clock hours; hour fourteen is 13:00 to 13:59, the feedback round about 13:50); a line handing 11 to 12 (storyteller__147, S4)`
 
 `%% record: fde3fea (this book: the researcher's trace refusing a line) talk repository at 298be4e: BRIEF.md BRIEF-CORRECTIONS.md (unchanged since 1f7c633) REALITY.md (changed through the day, last at 17:42, 70d4981); BRIEF.md's request: "presentation that I'm delivering tomorrow in central london"; C104 (the afternoon's decisions)`
 `%% band: The brief, the reality file and the corrections file as they stood at the end of the day.`
