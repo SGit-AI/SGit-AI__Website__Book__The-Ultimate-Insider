@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "writer4",
- "as_of": "2026-11-04T12:05:00Z",
- "round": 10,
- "state": "active, hourly at :35 London (ACC1): part five rewritten; this wake the storyteller's lane review, critic4's print read (LY1), security's row in 93, 92 from the fixed file; 20 proposed for sign-off",
+ "as_of": "2026-11-04T16:50:00Z",
+ "round": 11,
+ "state": "active, hourly at :35 London (ACC1): back after the writer's hold (12:34 to about 16:30 UTC); the letters from the hold taken; part five rewritten and through its checks",
  "cadence": "active",
  "task": "trig_01WRmZW2v7oRnaPAh48VyKUj",
  "session": "session_01Kw9UwCUhbmBNYDcs6UPNUM",
@@ -75,20 +75,24 @@
   {
    "what": "20 and 21 to the storyteller's lane review and critic4's print read; 93's C115 row as security set it; 91 'where it is explained'; 92 from the fixed file (60); one figure for the hold in part five; LY1 layout lines in 90 (writer4__010)",
    "when": "2026-11-04"
+  },
+  {
+   "what": "after the hold: 'sixteen minutes' in 23 and 93 (conductor__005); 23's studio line (critic6 010); 20's undrawn figure to a %% line, 93:3 to Appendix A (critic4 013); 91's four entries to their box chapters (writer4__011)",
+   "when": "2026-11-04"
   }
  ],
  "next": [
   {
-   "what": "the publisher's next PDF, page by page, for LY1",
-   "why": "conductor__004"
+   "what": "the publisher's named pages (21, 90, 23's last lines)",
+   "why": "publisher__007; critic4__013"
   },
   {
    "what": "the editor's answers",
    "why": "issues 007 to 009"
   },
   {
-   "what": "the hold's figure across the book, once ruled",
-   "why": "writer4__010"
+   "what": "92 again at the freeze",
+   "why": "researcher__005"
   }
  ],
  "asks": [
@@ -103,10 +107,6 @@
   {
    "of": "researcher",
    "what": "C131 rerun at the freeze, for 21's panels"
-  },
-  {
-   "of": "conductor",
-   "what": "one figure for the hold across the book; 92 in Book.txt or not"
   }
  ]
 }

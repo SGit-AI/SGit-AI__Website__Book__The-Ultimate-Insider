@@ -6,7 +6,7 @@
 
 `%% clock record: about 13:50 (the feedback round, by its brief) to 14:59 on 29 October; nine hours before it with no wake started by me (C087, hours 05 to 13 UTC); commits in hour 14 UTC, not counting merges, 47 (C095); wakes in hour 14 UTC 6 scheduled, 7 mine (C087); clock hours of 29 October (C110; the conductor's CK1).`
 
-**Narrator.** This is where I come back. For nine hours the team had worked on its own; now the day starts to accelerate.
+**Narrator.** Hours fourteen and fifteen are where the day starts to accelerate, with me back in it.
 
 `%% Hold (P30: a reading of his view, not in the record or his briefs; prints once he confirms; storyteller__147): "... and from here to the end it is mostly me asking and the team keeping up."`
 `%% for the editor: the hour's opening line is writer2's, from the historian's one line per hour (timeline/hours.md, hours 14 and 15) and the storyteller's word for hours fourteen to eighteen, "the acceleration" (chapter-plan/edition-150-outline.md, item 3); yours to keep or change.`
@@ -17,7 +17,7 @@
 
 ## The feedback round
 
-**Narrator.** At about ten to two I came back. I did not open a session and start typing at an agent. I dictated a round of feedback, in a chat, with a brief for each member, and gave it to the conductor to route. The first item was the one that mattered most: the player, from ruv.sgit.ai, working on an iPad, because that was what I would be pressing play on that evening. The rest was corrections to the morning review, the framing of the talk, the story of the animations, and a new member, a storyteller.
+**Narrator.** At about ten to two I came back. I did not open a session and start typing at an agent. I dictated a round of feedback, in a chat, with a brief for each member, and gave it to the conductor to route. The first item was the one that mattered most: the player, the page that runs the talk on stage one step at a time, from ruv.sgit.ai, an earlier site of mine, working on an iPad, because that was what I would be pressing play on that evening. The rest was corrections to the morning review, the framing of the talk, the story of the animations, and a new member, a storyteller.
 
 **Conductor**: Routed. Each section to its owner's mailroom, read at its next session.
 
@@ -48,7 +48,7 @@
 
 **Conductor**: I planned to write your words straight into the others' folders. My check said no: those folders aren't mine to write, and the feedback pane needed rules for its keys before anyone built it. So I sent each of them a request instead, from my own outbox, and the check said go. Your words, yes. Their folders, no.
 
-**Narrator.** The pressure in that hour was me. I was back, with a list, and the talk was due that evening. The checks did not soften because I was in the room. That is what they are for.
+**Narrator.** The pressure in that hour was me. I was back, with a list, and the talk was due that evening. The checks did not soften because I was in the room.
 
 `%% Hold (P30: a reading of his view, not in the record or his briefs; prints once he confirms; storyteller__147): "... and the first thing that happened in it is something I want every team to have when its creator walks back in with a list."`
 
@@ -66,13 +66,13 @@
 
 **Deck** *(writing)*: As given. Your words, not mine. Then the next one.
 
-**Narrator.** In one sitting, that cleared a queue that had been building all night and all morning: every piece marked ready for me got its answer. Then, at my word, deck sent the rest of the programme to ruv-sgit to build in parallel, and ruv-sgit went from one run an hour to several at once. That was the moment the team stopped waiting for me and started keeping up with me.
+**Narrator.** In one sitting, that cleared a queue that had been building all night and all morning: every piece marked ready for me got its answer. Then, at my word, deck sent the rest of the programme to ruv-sgit to build in parallel, and ruv-sgit went from one run an hour to several at once.
 
-`%% for the editor: "That was the moment the team stopped waiting for me and started keeping up with me" is the newsroom journalist's reading of your view (part three, chapter 12); yours to keep or drop.`
+`%% Hold (P30: an opinion in his voice, the newsroom's; prints once he confirms; storyteller__150): "That was the moment the team stopped waiting for me and started keeping up with me."`
 
-**Narrator.** And the schedule did not stop. It yielded. Deck's own scheduled session started in the middle of my live review and closed with nothing done, by design: my session was doing deck's work that hour, so the schedule had nothing of its own to give it. A schedule that knows when to step aside is a better schedule than one that insists.
+**Narrator.** And the schedule did not stop. It yielded. Deck's own scheduled session started in the middle of my live review and closed with nothing done, by design: my session was doing deck's work that hour, so the schedule had nothing of its own to give it.
 
-`%% for the editor: "A schedule that knows when to step aside ..." is the writer's line the newsroom kept as yours (part three, chapter 12, "keep; it is good"); brief 21 lets it print.`
+`%% Hold (P30: an opinion in his voice, the newsroom's; prints once he confirms; storyteller__150): "A schedule that knows when to step aside is a better schedule than one that insists."`
 
 **Figure:** a card, hour fifteen's sessions by who started them, the first hour since the small hours with mine among them: those the schedule started and those I started.
 
@@ -109,7 +109,9 @@
 
 `%% clock record: 15:07, the port; clock hours of 29 October (C110; the conductor's CK1).`
 
-**Narrator.** A little after three, dev ported the player. Not built: ported, from ruv.sgit.ai, the timeline I had built for a talk two weeks earlier, and its commit says so in its first words. That is the whole idea of this book in one commit: yesterday's experiment became today's part.
+**Narrator.** A little after three, dev ported the player. Not built: ported, from ruv.sgit.ai, the timeline I had built for a talk two weeks earlier, and its commit says so in its first words.
+
+`%% Hold (P30: an opinion in his voice, the newsroom's; prints once he confirms; storyteller__150): "That is the whole idea of this book in one commit: yesterday's experiment became today's part."`
 
 `%% record: C028 (3314ffe, 15:07:08, "the player, ported from ruv.sgit.ai") C116 (the newsroom's "The scripted talk": a timeline for ruv.sgit.ai, the talk due 15 October; researcher__001: a talk for ruv.sgit.ai, not at it); the port told once, here (the storyteller's ruling 5 for part three); "yesterday's experiment became today's part" is the newsroom journalist's line in your voice, yours to keep or change`
 

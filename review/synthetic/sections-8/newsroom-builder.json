@@ -1,0 +1,164 @@
+{
+ "schema": "the-ultimate-insider/synthetic-section-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "newsroom-builder",
+ "read_at": "c23c60e4",
+ "would_read_on": {
+  "11-the-plumbing": "yes",
+  "12-the-creator-comes-back": "maybe",
+  "13-the-story-before-the-slides": "yes"
+ },
+ "findings": [
+  {
+   "file": "11-the-plumbing.md",
+   "line": 7,
+   "quote": "Nobody puts the plumbing in the brochure.",
+   "principle": "reader",
+   "severity": "could",
+   "why": "A strong opening, but 'brochure' and 'plumbing' are not tied to my own newsroom until the four pipes are named, so I only half see what I would copy."
+  },
+  {
+   "file": "11-the-plumbing.md",
+   "line": 15,
+   "quote": "Most held, some only in part, some had not been checked yet, and three did not hold.",
+   "principle": "21",
+   "severity": "should",
+   "why": "The sentence reads out the register's counts, which the stacked-bar figure at line 28 then shows again."
+  },
+  {
+   "file": "11-the-plumbing.md",
+   "line": 17,
+   "quote": "Gaps are allowed. Hiding them is not.",
+   "principle": "7",
+   "severity": "could",
+   "why": "Three short sentences in a row (with the one before) in the researcher's line give a slogan rhythm; this is the practical rule I wanted and it would land better as one sentence."
+  },
+  {
+   "file": "11-the-plumbing.md",
+   "line": 42,
+   "quote": "Put the two side by side and half of the page is the check said in words.",
+   "principle": "6",
+   "severity": "should",
+   "why": "It tells me how to read the pair and I cannot do it, because the page of rules from chapter 4 is not in front of me."
+  },
+  {
+   "file": "11-the-plumbing.md",
+   "line": 48,
+   "quote": "A member that is certain its work is fine still has to pass the same test as one that is not.",
+   "principle": "reader",
+   "severity": "could",
+   "why": "'Member' is used for an agent without ever being explained here; a reader who skipped earlier chapters stalls on it."
+  },
+  {
+   "file": "11-the-plumbing.md",
+   "line": 54,
+   "quote": "The rule came from my newsroom, where agents racing for release numbers had lost releases two days before.",
+   "principle": "reader",
+   "severity": "should",
+   "why": "As a newsroom builder I want this story, but 'my newsroom' is never introduced in these sections, so the scar is credited to someone I have not met."
+  },
+  {
+   "file": "11-the-plumbing.md",
+   "line": 77,
+   "quote": "53 files at the end of the first hour, 1,313 at the day's last release",
+   "principle": "21",
+   "severity": "could",
+   "why": "The figures are read out in the paragraph and then drawn in the growth figure at line 79."
+  },
+  {
+   "file": "11-the-plumbing.md",
+   "line": 111,
+   "quote": "The rule was right, and nobody used it, me included.",
+   "principle": "reader",
+   "severity": "could",
+   "why": "This is the honest admission I most value; it is slightly undercut because the corrections-file idea is not turned into a concrete instruction for me until the held line is released."
+  },
+  {
+   "file": "12-the-creator-comes-back.md",
+   "line": 9,
+   "quote": "now the day starts to accelerate.",
+   "principle": "1",
+   "severity": "should",
+   "why": "It reports the hour with no 'I' of hindsight: the narrator announces the acceleration rather than saying what it meant to him looking back."
+  },
+  {
+   "file": "12-the-creator-comes-back.md",
+   "line": 20,
+   "quote": "the player, from ruv.sgit.ai, working on an iPad",
+   "principle": "reader",
+   "severity": "must",
+   "why": "'The player' and 'ruv.sgit.ai' are used before anyone says what they are, and the chapter's whole stake rests on them, so I lose the thread."
+  },
+  {
+   "file": "12-the-creator-comes-back.md",
+   "line": 30,
+   "quote": "That failure stays in the book.",
+   "principle": "6",
+   "severity": "could",
+   "why": "It signals how I should take the admission instead of letting it stand; the sentence before already makes the failure plain."
+  },
+  {
+   "file": "12-the-creator-comes-back.md",
+   "line": 51,
+   "quote": "That is what they are for.",
+   "principle": "7",
+   "severity": "should",
+   "why": "A 'That is the point' closing after two short sentences before it ('The pressure in that hour was me.' ... 'The checks did not soften'), which tells me the lesson I had already drawn."
+  },
+  {
+   "file": "12-the-creator-comes-back.md",
+   "line": 73,
+   "quote": "A schedule that knows when to step aside is a better schedule than one that insists.",
+   "principle": "6",
+   "severity": "could",
+   "why": "It states the moral for me, and 'schedule' and 'yielded' are stretched over a mechanism (scheduled wakes) that I have not been shown."
+  },
+  {
+   "file": "12-the-creator-comes-back.md",
+   "line": 112,
+   "quote": "That is the whole idea of this book in one commit",
+   "principle": "7",
+   "severity": "could",
+   "why": "A big claim opened with 'That is' and followed by a short punchline; a commit is a thin thing to carry the book's whole idea."
+  },
+  {
+   "file": "12-the-creator-comes-back.md",
+   "line": 124,
+   "quote": "It looks a lot like an OODA loop, and maybe it is a variation on it",
+   "principle": "reader",
+   "severity": "should",
+   "why": "OODA is not explained for a writer who has not met it, and the loop was already drawn in chapter 2, so I skim the section."
+  },
+  {
+   "file": "13-the-story-before-the-slides.md",
+   "line": 21,
+   "quote": "It is the shape of an argument, drawn before anyone drew a slide for it.",
+   "principle": "21",
+   "severity": "could",
+   "why": "It restates the opening claim that the story came before the slides, which the section title and line 11 already say."
+  },
+  {
+   "file": "13-the-story-before-the-slides.md",
+   "line": 29,
+   "quote": "The line is the honest heart of a map like that",
+   "principle": "reader",
+   "severity": "should",
+   "why": "Maps and 'positions, not measurements' are explained only by a gesture; I cannot picture a map of an argument, and the figure is a brief, not a picture."
+  },
+  {
+   "file": "13-the-story-before-the-slides.md",
+   "line": 79,
+   "quote": "its job was to make sure he saw the strongest case against it",
+   "principle": "21",
+   "severity": "should",
+   "why": "This repeats what lines 61 to 63 and 75 already told, so the best section in the three chapters ends by saying its own point again."
+  }
+ ],
+ "what_holds": [
+  "11-the-plumbing.md: four pipes named in one paragraph, with a concrete thing each carries; I could build my own newsroom check list from it, and the research register with gaps allowed is directly usable.",
+  "11-the-plumbing.md: the corrections file that still said 'None yet.' is an honest failure and tells me what to watch for.",
+  "13-the-story-before-the-slides.md: the researcher cannot change a slide, only write that a line does not hold, and the editor reads it, answers and keeps his claim; this is exactly the 'editor who signs' arrangement I am after.",
+  "12-the-creator-comes-back.md: the conductor's plan turned down by its own check when the editor walked in with a list shows the controls hold under the person at the top."
+ ],
+ "notes": "Each chapter ends in a 'Something to try' that is usable, which a newsroom builder would take away. The weakest point for me is that the book's own newsroom is referred to as 'my newsroom' without an introduction in these three sections, and the player in chapter 12 needs one plain sentence."
+}

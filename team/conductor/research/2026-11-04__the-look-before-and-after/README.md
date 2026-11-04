@@ -36,3 +36,7 @@ Better, and still worse than the version he liked: the visuals the writers are p
 ## At v0.1.785 (12:05 UTC), the site's live full draft
 
 Measured the same way on the PDF the site serves (142 pages; the earlier columns are local builds): pages 3 to 40, 9 pages more than 35% blank at the foot (7 before, 12 at 09:55, 10 at 11:05); width 83%. The writers' visuals are in, but 36 of them still print as "Figure to come" boxes (8 in pages 3 to 40), asked of the designer and the publisher. The publisher's own count (059) is over the whole book (8 holes in 141 pages).
+
+## At v0.1.799 (17:05 UTC), the site's live full draft
+
+The same way, on the PDF the site serves (143 pages), before the writer's work held during the hold (12:34 to 16:30) lands at its 17:28 wake: pages 3 to 40, 9 pages more than 35% blank at the foot (no gain since 12:05; 7 in the version he liked); width 83%; "Figure to come" boxes 26 in all (36 at 12:05), 7 of them in pages 3 to 40 (8 at 12:05). The publisher's own counts (060: 26 of 36 boxes filled, 9 holes in 142 pages) are over the whole book on its local build, not this range.

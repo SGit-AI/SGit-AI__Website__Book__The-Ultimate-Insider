@@ -18,9 +18,9 @@
 
 **Narrator.** *How long a member may work.* I told the conductor to let each member work for much longer in a single session. My reasoning was simple: if the next agent did not pick something up in the same hour, it would pick it up in the next.
 
-**Narrator.** The morning in chapter 9 had already shown that was true. But it had a price, and I did not see it at the time. From then on sessions could overlap, so every member had to pull again before every push, that is, fetch everyone else's latest work just before sending its own, or it would be working from a stale copy. The rule the team had written in the second hour, pull first, stopped being a habit and became a live risk.
+**Narrator.** The morning in chapter 9 had already shown that was true. But it had a price. From then on sessions could overlap, so every member had to pull again before every push, that is, fetch everyone else's latest work just before sending its own, or it would be working from a stale copy. The rule the team had written in the second hour, pull first, stopped being a habit and became a live risk.
 
-`%% for the editor: "and I did not see it at the time" is the newsroom journalist's reading of your view (part three, chapter 14); yours to keep or drop.`
+`%% Hold (P30: an opinion in his voice, the newsroom's; prints once he confirms; storyteller__150): "... and I did not see it at the time."`
 `%% Check (the newsroom, part three, chapter 14; his to confirm before it prints): "Every change that makes a team faster changes what can go wrong, and that one is worth remembering."`
 
 **Conductor**: Longer work, then. And pull again before every push, every one of you, because now you overlap.
@@ -60,7 +60,7 @@
 `%% record: C011 (motion and studio, 15:31: f1cbca0, 8d208d3) C014 (commits: studio 26, motion 9) C022 (wakes: studio 8, motion 4); timeline/interviews/studio.md timeline/interviews/motion.md (reconstructed by the historian: studio's pinned sources and its one-line fix to dev, 0fe0fff; motion's proposal to deck first, its pieces seekable on the slide engine) chapter-plan/cast/cast-guide.md (page conventions 2: motion and studio in chapter 14)`
 `%% for the editor: the cards are writer2's, in each agent's first person, from the historian's reconstructions and the register; "the two I work with most" and "the one I work with most" are writer2's reading of their requests and commits, not counted.`
 
-**Studio**: My first two pieces were rebuilt within minutes, each with its source and its data pinned unchanged. If it worked there, it can work here.
+**Studio**: My first pieces were rebuilt within minutes, each with its source and its data pinned unchanged. If it worked there, it can work here.
 
 **Motion** *(already rolling)*: I didn't wait to be told. I sent deck a picture of the stages first, so its answer could be "go" and not a fresh brief.
 
@@ -78,9 +78,9 @@
 
 **Narrator.** Then I made the talk twice as big: ninety minutes, with a section on my own work. And even with that much change at once, the conductor's own reviewer sent its plan back once before it routed anything.
 
-**Narrator.** The conductor's answer, a little over half an hour later, was structural, and I think it was one of the most important plans the team made all day.
+**Narrator.** The conductor's answer, a little over half an hour later, was structural.
 
-`%% for the editor: "one of the most important plans the team made all day" is the newsroom journalist's softening of the writer's reading of your view; yours to keep or drop.`
+`%% Hold (P30: an opinion in his voice, the newsroom's; prints once he confirms; storyteller__150): "... and I think it was one of the most important plans the team made all day."`
 
 **Conductor**: The talk in three parts, each with its own deadline and its own lock. Each part done, timed, then locked, so a late change cannot reach a finished part. And for tonight only, at the editor's word, each of us may follow our own session with quick follow-ups until nothing is left or the evening runs out.
 
@@ -102,9 +102,9 @@
 
 **Narrator.** Almost nothing in the afternoon was built from nothing.
 
-**Narrator.** The player was not new; chapter 12 has where it came from. The slides ran on one slide engine dev had built just after midnight. Studio's pieces came from my earlier sites, pinned to their sources. Motion's ran on the same engine as everyone else's, so I could start and pause each one in the player.
+**Narrator.** The player came from an earlier site, as chapter 12 tells, and every other piece ran on the slide engine dev had built just after midnight.
 
-**Narrator.** Those are the factory's economics in one afternoon: a team that knows where its parts came from can move very fast without breaking much.
+`%% Hold (P30: an opinion in his voice, the newsroom's; prints once he confirms; storyteller__150): "Those are the factory's economics in one afternoon: a team that knows where its parts came from can move very fast without breaking much."`
 
 `%% Check (the newsroom, part three, chapter 14; his to confirm before it prints): "It is also why I keep everything I build in the open, with its history: I never know which experiment will be the part I need on the afternoon of a talk."`
 
@@ -117,7 +117,7 @@
 
 ## Something to try
 
-*Most of what the factory used, I had built before. Looking at the last few things you made and asking where each could be reused is a quick way to find your own parts. The next build gets faster when it starts from them.*
+*Most of what the factory used, I had built before. If you try this, look at the last few things you made and ask where each could be reused. The next build gets faster when it starts from them.*
 
 `%% record: team/conductor/from-newsroom/2026-11-04__do-this-now-as-invitations.md (chapter 14, the proposed card) chapter-plan/cast/cast-guide.md (page conventions 1)`
 

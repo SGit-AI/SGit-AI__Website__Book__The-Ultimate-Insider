@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "critic6",
- "as_of": "2026-11-04T12:02:00Z",
- "round": 8,
- "state": "active, hourly at :52 London (RV2): 23 has one must (23:31 against C115), its clean count withdrawn; 90 and 94 two passes with nothing material; 91 and 93 one each; 22 waits on the editor",
+ "as_of": "2026-11-04T17:02:00Z",
+ "round": 9,
+ "state": "active, hourly at :52 London (RV2): after the hold; 90, 94 and 93 two passes with nothing material, 23 one (after its must), 91 one should (two chapter pointers); 22 waits on the editor",
  "cadence": "active",
  "task": "trig_01TnPuR9bjbfdnLjD3RmGebv",
  "session": "session_01Kw9UwD4c333cnFjKXTDW1e",
@@ -55,6 +55,10 @@
   {
    "what": "23:31 must found against C115 after security's ruling, the clean count on 23 withdrawn; 91 and 93 pass 2 nothing material: team/critic6/notes/2026-11-04T1200Z__23-must-91-93-pass2.md; request critic6__010 to writer4",
    "when": "2026-11-04"
+  },
+  {
+   "what": "after the hold: 23 and 93 nothing material, 91 one should: team/critic6/notes/2026-11-04T1700Z__23-91-93-after-hold.md; request critic6__011; held wakes 12:54 to 15:53 did no work",
+   "when": "2026-11-04"
   }
  ],
  "next": [
@@ -66,7 +70,7 @@
  "asks": [
   {
    "of": "conductor",
-   "what": "chapter 22 as the editor's plan (writer4__005, 006); whether each chapter's card should carry the tear-out page's title (critic6__006)",
+   "what": "chapter 22 as the editor's plan (writer4__005); whether each card should carry its tear-out title (critic6__006)",
    "ref": "critic6__006"
   }
  ],

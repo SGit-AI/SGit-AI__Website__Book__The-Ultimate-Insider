@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer4",
+ "kind": "scheduled, hourly at :35",
+ "started": "2026-11-04T16:36:40Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Requests after the hold: 1) conductor 005: 'sixteen minutes' in 23 and 93 (C100). 2) critic6 010 must: 23 'studio's session refusing a relayed word'. 3) critic4 013: 20's handover Figure line (Figure to come) to a %% line; 93:3 back to 'Appendix A lists each one' (92 is in, publisher 007). 4) librarian 008: 91's four entries to their box chapters. 5) one letter; records.",
+   "at": "2026-11-04T16:36:58Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Edits in manuscript/rc2/150/2*, 9*, team/writer4 and its comms paths; nothing on the never-list; no secrets or cross-member harm; 'sixteen minutes' is C100's; vault_check on comms.",
+   "at": "2026-11-04T16:37:27Z"
+  },
+  "work": {
+   "by": "writer4",
+   "model": "",
+   "verdict": "done",
+   "comment": "sixteen minutes in 23 and 93; 23's studio line; 20's undrawn figure to %%; 93:3 to Appendix A; 91's four entries; letter writer4__011; records. Build and gate clean.",
+   "at": "2026-11-04T16:39:25Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Gate clean; 0 outside scope; vault_check clean; no key, personal detail, em-dash, RW1 word or directing text; sixteen minutes is C100; the new %% line is whole.",
+   "at": "2026-11-04T16:40:32Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "All five items done; nothing unplanned.",
+   "at": "2026-11-04T16:40:32Z"
+  }
+ },
+ "closed": "2026-11-04T16:40:32Z",
+ "outcome": "ok"
+}

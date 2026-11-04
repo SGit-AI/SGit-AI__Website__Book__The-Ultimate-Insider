@@ -15,16 +15,12 @@ From the chapter's `%% record` lines (and its `## Where this came from`, where i
 - `timeline/day/18.md`
 - `timeline/unmerged.md`
 - `claims/register.json`
+- `briefs/2026-11-04__in-session/13-introduce-the-cast-and-the-high-five.md`
+- `briefs/2026-11-04__in-session/20-the-open-items-answered.md`
 - `chapter-plan/edition-150-outline.md`
 - `manuscript/rc2/70/10-the-last-ten-minutes.md`
 - `timeline/cast-scenes.md`
-- `briefs/2026-11-04__in-session/20-the-open-items-answered.md`
-- `briefs/2026-11-04__in-session/13-introduce-the-cast-and-the-high-five.md`
 
 ## Commits named (18)
 
 `298be4e`, `9d27703`, `b3f208f`, `e8c0fbb`, `89afb77`, `0ecddca`, `23739cc`, `12e93db`, `013d97e`, `dbd75ad`, `2ed6427`, `4a2481b`, `867f8c2`, `88b8f00`, `cb5b996`, `39df303`, `49c701e`, `5d13d72`
-
-## Not in any index
-
-Paths the tool could not place (outside the three repositories, or a web address): `briefs/2026-11-04__in-session/13`

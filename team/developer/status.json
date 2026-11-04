@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "developer",
- "as_of": "2026-11-04T12:24:00Z",
+ "as_of": "2026-11-04T17:16:00Z",
  "round": 2,
  "state": "hourly (ACC1): the full book is the book (FB1); its online pages current and checked for layout each wake; the older editions left online as they were; review steps as the reviewer agent (TA1)",
  "done": [
@@ -247,6 +247,10 @@
   },
   {
    "what": "twelfth page check on the 142-page PDF of 12:22 mailed to publisher and designer (developer__046); make_editions.py refused Appendix A's printed source addresses (rail kept), so the online full-book view is frozen at 11:18: letter to security (developer__047)",
+   "when": "2026-11-04"
+  },
+  {
+   "what": "thirteenth page check on the 142-page PDF of 17:13 mailed to publisher and designer (developer__050): 4 tails, 9 gaps (2 borderline), 29 figures a page after their paragraph; the online-view builder still refuses Appendix A's addresses, view frozen, question with security (developer__047, 049)",
    "when": "2026-11-04"
   }
  ],

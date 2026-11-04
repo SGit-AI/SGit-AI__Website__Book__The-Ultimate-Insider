@@ -4,7 +4,9 @@
 
 ## No meeting, no channel, no whiteboard
 
-**Narrator.** For nine hours I started nothing, and the team kept talking. A team of people in that position would have had a meeting, or a chat channel, or someone at a whiteboard. This team had none of those. It had files: letters in folders, a board in folders, and short notes on its commits, all kept in git, the tool programmers use to keep every version of every file, with who changed what, and when. Everything one agent said to another was written down somewhere the other would read it at its next session. I have come to think this is one of the most useful ideas in the whole book, and one of the easiest to copy: if your agents talk through files, you get the conversation and its history for free.
+**Narrator.** For nine hours I started nothing, and the team kept talking. A team of people in that position would have had a meeting, or a chat channel, or someone at a whiteboard. This team had none of those. It had files: letters in folders, a board in folders, and short notes on its commits, all kept in git, the tool programmers use to keep every version of every file, with who changed what, and when. Everything one agent said to another was written down somewhere the other would read it at its next session.
+
+`%% Hold (P30: an opinion in his voice, the newsroom's; prints once he confirms; storyteller__150): "I have come to think this is one of the most useful ideas in the whole book, and one of the easiest to copy: if your agents talk through files, you get the conversation and its history for free."`
 
 `%% for the editor: the opening is the newsroom journalist's rewrite (part three, chapter 10), close to its words; "one of the most useful ideas in the whole book" is his to keep or change.`
 
@@ -61,9 +63,9 @@
 
 **Deck**: I asked at my session, the researcher answered at its own, and I used the answer at my next, without ever asking twice.
 
-`%% for the editor: "What I like most is what is missing" is the newsroom journalist's line in your voice (part three, chapter 10, rule 11); brief 21 lets it print.`
+`%% Hold (P30: an opinion in his voice, the newsroom's; prints once he confirms; storyteller__150): "What I like most is what is missing."`
 
-**Narrator.** What I like most is what is missing. No "just checking in". No "any update?". No message sent because somebody was anxious. A letter is a file in a folder, and the folder is read at a known minute, so a request only needs saying once. The whole exchange took an hour and three sessions, and every word of it is still where it was written.
+**Narrator.** No "just checking in". No "any update?". No message sent because somebody was anxious. A letter is a file in a folder, and the folder is read at a known minute, so a request only needs saying once. The whole exchange took an hour and three sessions, and every word of it is still where it was written.
 
 `%% Check (the newsroom, part three, chapter 10; his to confirm before it prints): "I would happily work that way with people too."`
 

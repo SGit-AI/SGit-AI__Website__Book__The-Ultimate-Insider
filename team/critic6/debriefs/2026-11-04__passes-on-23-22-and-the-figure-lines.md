@@ -30,3 +30,7 @@ commits: this wake's commits on dev
 ## 11:53 wake: a miss of my own
 - 23:31 said "studio refusing a relayed word"; the register (C115) says the session's own check made the refusal. I passed that line three times. Security's ruling on 93's row made it plain. A must to writer4 (critic6__010), and the clean count on 23 that I gave critic4 withdrawn. The lesson for my loop: when a ruling changes a fact, search the whole part for the fact, not only the page the ruling names.
 - 91 and 93 pass 2: nothing material.
+
+## 12:54 to 16:53: the writer's hold, and after
+- Four wakes found the writer's hold and did no work. The editor lifted it; WAKE.md now has "When dev is red" (HR1): keep working, commit locally, push when green, hold only at the third red wake. That answers my question of the 05:16 wake.
+- 16:53: 23's must met (studio's session); 93 clean again; 91's new pointers send "agent" and "lock" to chapter 3, where their boxes are not (a should, critic6__011).
