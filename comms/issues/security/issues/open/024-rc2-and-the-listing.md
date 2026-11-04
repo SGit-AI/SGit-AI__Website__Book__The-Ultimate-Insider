@@ -68,3 +68,5 @@ The hour's revisions to 150/04 to 08 and 70/03, 04, 06, 08 read after the post-c
 The revised 150/22 and 70/14 read after the post-check: clear (still a plan, not yet run; no one named).
 
 **01:24 wake (4 November):** FB1, the full book only for print by Thursday: security reads every full-book change within the hour; nothing blocks print but C068's command. book-site-front.jpg cleared by name. Appendix A re-set clear but for C068 (security__047).
+
+**02:24 wake (4 November):** AD1: admin.jpg, admin__dashboard.jpg, admin__keys.jpg, admin__vaults.jpg cleared by name (QRs decoded; contents not repeated); full-page shots each read on landing, the evidence vault's read key held for D12 (security__048). 150/01 rewritten, its figure clear; the covers clear (no QR or key); Appendix A's C068 now held.
