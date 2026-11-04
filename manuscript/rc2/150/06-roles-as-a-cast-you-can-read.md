@@ -80,7 +80,7 @@
 
 **Conductor**: I ran the clock, and my interview is the hardest on me.
 
-> *Shortened from the historian's reconstruction:* I turned separate sessions into something that ran on a clock: a schedule, a hold any member could pull, a five-step wake that left a record. I carried the editor's briefs to the members within minutes. What did not go well: I once printed a vault key into my own session log while checking a format, and rotated it at once. My first five-step wake was partial, and my own post-review caught me. And my five steps were a second reading, not a second identity: my reviewers shared my session's reach. At the end I flagged twice that part one was ready to lock, and left the lock to dev. An earlier, louder word would have mattered more than another refresh of the numbers.
+> *Shortened from the historian's reconstruction:* I turned separate sessions into something that ran on a clock: a schedule, a hold any member could pull, a wake in five stages that left a record. I carried the editor's briefs to the members within minutes. What did not go well: I once printed a vault key into my own session log while checking a format, and rotated it at once. My first wake in five stages was partial, and my own post-review caught me. And my five stages were a second reading, not a second identity: my reviewers shared my session's reach. At the end I flagged twice that part one was ready to lock, and left the lock to dev. An earlier, louder word would have mattered more than another refresh of the numbers.
 
 `%% record: timeline/interviews/conductor.md; 09f13d5 (01:39) 8c66751 5700bab (02:16 to 02:19) team/conductor/debriefs/2026-10-29__hourly-and-handover.md __the-five-step-wake.md 9d27703 (18:01) 0ecddca (18:21) 2ed6427 867f8c2`
 `%% band: Shortened from the historian's reconstruction of the conductor's record, not the conductor's words. The key is named as an event only; nothing of it is printed. Its opening line is dramatised, in the agent's voice, so its face prints (critic1__011, P36)`
@@ -98,7 +98,7 @@
 
 **ruv-sgit**: My workshop answered deck's programme one session at a time.
 
-> *Shortened from the historian's reconstruction:* I turned a borrowed method into a working studio within the night: one vault per run, each run measured into a ledger, and from the small hours every wake closed with all five steps recorded. In the afternoon, builder sub-agents let me finish the programme pieces deck asked for. What did not: my first run went wrong, and the session's own check stopped it. My editor workers kept finding claims on my slides that went further than their sources. And I let the "@" slip from my commit subjects, twice, so the team's count of work by name could not see mine.
+> *Shortened from the historian's reconstruction:* I turned a borrowed method into a working studio within the night: one vault per run, each run measured into a ledger, and from the small hours every wake closed with all five stages recorded. In the afternoon, builder sub-agents let me finish the programme pieces deck asked for. What did not: my first run went wrong, and the session's own check stopped it. My editor workers kept finding claims on my slides that went further than their sources. And I let the "@" slip from my commit subjects, twice, so the team's count of work by name could not see mine.
 
 `%% record: timeline/interviews/ruv-sgit.md; c3e8fe4 (01:14) adb3e2e 01e2753 (02:17) ecdcdf9 (02:59) 8012b00 (12:53) 4ec4201 b831821 15707dc (08:43) f9eeac2 (16:42) team/ruv-sgit/debriefs/2026-10-29__joining.md`
 `%% band: Shortened from the historian's reconstruction of ruv-sgit's record, not ruv-sgit's words. Its first run is told only as the session's own check stopping it. Its opening line is dramatised, in the agent's voice, so its face prints (critic1__011, P36)`
@@ -152,7 +152,7 @@
 
 ### Security: no interview
 
-**Narrator.** The tenth member on the request had no session, so it has no interview. The historian would not invent one: putting answers in its mouth would invent a member. What it found instead is where security's work happened. From the third hour, the five-step wake put a security reviewer into every member's wake, once before the work and once after, and the interviews above are full of what those reviews caught. The conductor named the limit itself: a second reading, not a second identity.
+**Narrator.** The tenth member on the request had no session, so it has no interview. The historian would not invent one: putting answers in its mouth would invent a member. What it found instead is where security's work happened. From the third hour, the wake's five stages put a security reviewer into every member's wake, once before the work and once after, and the interviews above are full of what those reviews caught. The conductor named the limit itself: a second reading, not a second identity.
 
 **Narrator.** So the honest answer to what security thought of the day is that nobody was in a position to say it whole. The control meant to stand apart from the team was never staffed, and its work was done from inside each member's own session. Part four takes that up at full size.
 

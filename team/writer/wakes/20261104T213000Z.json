@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T21:30:00Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Go with conditions: 08's two designer phrases (3 and 79) and only line 121 for deck; 06:83's third phrase 'my five steps' too, record file names left; 03b's line 11 LAB 24 sentence changed as well as 17; the decline of critic5 016 says synthetic 014 asked for the glosses.",
+   "at": "2026-11-04T21:32:16Z"
+  },
+  "pre_review": {
+   "by": "security (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Go: no secrets; the clock times trace through 08's record lines (c6dcf89, aeffbf9, C107); no new image; em-dash and RW1 grep; vault_check, scope, build, gate; dates no later than the commit.",
+   "at": "2026-11-04T21:32:16Z"
+  },
+  "work": {
+   "by": "writer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "06 five stages (155, 83, 101); 08 R34 times; 03b briefs to LAB 57; critic5 could declined. Letters 250 to 253.",
+   "at": "2026-11-04T21:33:52Z"
+  },
+  "post_review": {
+   "by": "security (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "clean",
+   "comment": "Diff 5a9c8f2..980461fe clean: no secret, dash or RW1 word; both times trace through 08's record lines; no held sentence prints; the LAB 57 file exists.",
+   "at": "2026-11-04T21:35:08Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "as-planned",
+   "comment": "Scope 0; 06, 08 and 03b exactly as planned; the could declined with its reason; letters copied, mailroom untouched; nothing after the commit.",
+   "at": "2026-11-04T21:35:08Z"
+  }
+ },
+ "closed": "2026-11-04T21:35:08Z",
+ "outcome": "ok"
+}

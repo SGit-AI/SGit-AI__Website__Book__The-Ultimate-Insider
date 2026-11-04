@@ -39,3 +39,4 @@ The full book: every scene, the appendices, the record markers live online. Writ
 - 4 November 2026, 18:33 UTC: 05, 06 and 09 small fixes; last landing to the researcher.
 - 4 November 2026, 19:31 UTC: 01's masked shot, HL1 in 00, 09 loosened.
 - 4 November 2026, 20:33 UTC: 05, 00 and 09 to the review desk; the seventy's 01 masked.
+- 4 November 2026, 21:33 UTC: 06's five stages, 08's two times, 03b's figure aligned.
