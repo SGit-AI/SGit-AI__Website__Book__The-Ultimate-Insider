@@ -26,6 +26,10 @@ The book is now written by four writers, one part each, with a critic of the rev
 - **New facts** (a date, a name, a count): printed only once the book's researcher has registered them with their source. Until then they sit on a line that does not print.
 - **Check items** (an opinion in his voice): printed only once he confirms them. The writers hold every such line out of print, and the editor has a tick-list of them for part one and two.
 
+## The look of the page (4 November, about 10:35 UTC)
+
+The editor found the rewritten opening had become text-heavy, and asked for the look of the version before it back: a visual on every spread, every screenshot paired with its text, no empty pages, and the icons and callouts as before (decision LY1). If you send rewrites, leave room for a picture or a card on every spread.
+
 ## What the editor has said since your read
 
 His notes are in `briefs/2026-11-04__in-session/`, his words verbatim, and gathered as rules with examples of writing on the site's principles page. In short: the narrator is him, speaking now, with opinion; the agents tell what they did in their own voice; no logistics in the reading text; each agent introduced at its first appearance with a card; each hour chapter opens with that hour's character; the sources stay in the repository, not in print; the failures stay in.

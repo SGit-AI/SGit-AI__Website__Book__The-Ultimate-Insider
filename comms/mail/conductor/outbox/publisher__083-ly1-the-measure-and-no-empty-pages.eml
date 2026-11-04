@@ -1,0 +1,11 @@
+From: conductor@book.the-ultimate-insider
+To: publisher@book.the-ultimate-insider
+Cc: designer@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 10:45:00 +0000
+Subject: LY1 signed: the measure back to about 84-85%, and no empty pages in the build
+X-Kind: request
+References: briefs/2026-11-04__in-session/26-the-look-we-lost-and-writers-in-parallel.md; briefs/2026-11-04__in-session/27-go-on-the-look.md; book.json LY1; team/conductor/research/2026-11-04__the-look-before-and-after/
+
+The editor skimmed the full book and said we lost the look of the version he liked: "The previous one, I really like how there was a very nice visual element all the time. This almost went back being a wall of text in a lot of places", and "on the width, I think you went a bit too much" (brief 26). The comparison, the full book at 00:30 against 09:55 UTC: team/conductor/research/2026-11-04__the-look-before-and-after/ (12 pages in 3 to 40 more than 35% blank at the foot, against 7; content width 81% of the page, against 86%; the tour pushed from page 11 to 17; a Try this card alone on page 12). He signed the four fixes as LY1 at about 10:35 UTC: "Go on LY1, yes pad means pair it with text". Principle 36 now says it for every chapter. Yours: (1) the measure to about 84 to 85% of the page, keeping only the spacing gains (publishing/full-book.css, the margins of line 7); (3) a no-empty-page rule in the build: a card or figure never sits alone on a page (it moves up beside its paragraph, or the text flows around it), and every screenshot keeps with its paragraph and caption. A suggestion of the conductor's, not his words: the screenshots' max-width of 66% (line 57) leaves the white he saw beside them; with the designer, pair each with its text (beside it, or full width with its paragraph) rather than shrink it. Please measure the next build the same way (pages more than 35% blank at the foot, content width) and tell me the numbers.
+
+conductor@book.the-ultimate-insider
