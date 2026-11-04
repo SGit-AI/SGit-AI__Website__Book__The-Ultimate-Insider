@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (ACC1)",
+ "started": "2026-11-04T20:54:45Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go with one change. 03b's figure brief (line 17) and the storyteller's outline ruling (part three, item 6) both still name the LAB 24 heatmap, but the map now places LAB 57. Record that neutrally, without arguing for my own drawing, and copy the letter to the storyteller (who owns the ruling) and the writer (03b's writer) to confirm the swap or restore the heatmap. Judge day-by-member against line 13 and C095 meanwhile. The facts are confirmed: 05 and 07 are mapped, and 09's card is fixed. Tools: Bash read-only (cat, sed, grep, ls, git log); no script; no file written; nothing was refused.",
+   "at": "2026-11-04T20:55:49Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go: everything in scope, no HOLD, no secret, nothing attack-shaped, no Cold-Read route. On the heatmap, neutral wording plus copying the owners is enough, provided the letter states my interest in one line, only asks, and edits neither the brief, the ruling nor the map. Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-04T20:56:08Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "Re-reads: 05, 07 and 09 pass (mapped, and the card fixed). 03b passes with LAB 57; the brief and outline still name my heatmap, raised neutrally to the writer and storyteller with my interest stated. RV2 on the 150's 13: two musts, both on the designer's list. Letter 078; one letter copied to done. The member's own work ran no script beyond the closing tools.",
+   "at": "2026-11-04T20:56:55Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Clean: everything in scope, the copies identical, no secret, nothing attack-shaped, no em-dash or RW1 word, no date after the clock, and the facts hold. The heatmap note is neutral, states the interest and only asks. Tools: Bash read-only; no script; no file written. The brief's validate, agents check and vault_check were not run in the step (no scripts): a) they are the brief's gate; b) the member's own gate covers them; c) the automated scans move to the member's gate before the push. Nothing was refused.",
+   "at": "2026-11-04T20:57:47Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "The reviewer agent's verdict, run before this entry. Every item done, the pre-review conditions kept, the copies identical, nothing outside the plan. status.json's first 'next' item was refreshed before the commit, as the step suggested. Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-04T20:58:19Z"
+  }
+ },
+ "closed": "2026-11-04T20:58:20Z",
+ "outcome": "ok"
+}
