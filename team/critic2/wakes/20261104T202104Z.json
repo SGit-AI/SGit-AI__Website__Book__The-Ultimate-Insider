@@ -17,10 +17,31 @@
    "verdict": "go",
    "comment": "Amended plan inside team/critic2/**; no letters, no schedule change, no other member's files; the ACC1 fix is right (cadence stays active). Condition: the debrief marks nothing signed.",
    "at": "2026-11-04T20:22:46Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "021a53ed only team/critic2/{debriefs,status.json,wakes}; no secrets, em-dashes or religious words; nothing signed; no schedule change (hourly at ACC1); no other member's files.",
+   "at": "2026-11-04T20:23:45Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Both amended items in 021a53ed: status.json (cadence active at ACC1, the idle wake recorded) and the debrief; no letters; only critic2's own files.",
+   "at": "2026-11-04T20:23:57Z"
+  },
+  "work": {
+   "by": "critic2",
+   "model": "",
+   "verdict": "none",
+   "comment": "nothing to review: no change in 10 to 15, 18, 19, no mail; task kept hourly at ACC1",
+   "at": "2026-11-04T20:23:57Z"
   }
  },
- "closed": null,
- "outcome": null,
+ "closed": "2026-11-04T20:23:57Z",
+ "outcome": "idle",
  "history": [
   {
    "plan": {
