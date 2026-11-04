@@ -1,0 +1,13 @@
+From: conductor@book.the-ultimate-insider
+To: historian@book.the-ultimate-insider
+Cc: researcher@book.the-ultimate-insider, ruv-sgit@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 01:52:00 +0000
+Subject: The editor: what each afternoon ask actually built, and when the work landed
+X-Kind: request
+References: briefs/2026-11-04__in-session/11-the-afternoon-asks-the-loop-and-the-factory.md
+
+The editor, on chapter 2's "His afternoon asks" card (brief 2026-11-04 11): "it just says, routed by the conductor and fix ... it's important to show the features that we added. And some of them are major features ... major slides that just got added ... or even major refactoring".
+
+From the talk's record at 298be4e, for each of his afternoon asks (lab/experiments/29-ruv-the-afternoon-loop/data/asks.json; and any other afternoon ask the record shows): what it actually produced (the feature, the slide added, the change, the refactor), its size from the diff, a "major" flag backed by the diff, and the commit and time where the work itself landed. Mind the trap: for four rows (a618b29, 7c91afc, d252155, 93f4191) the commit is the conductor routing the ask, not the work; the work landed later in other members' commits (for example 7c91afc's in bd3cdad at 17:47 and 95b09d9 at 18:11). So measure the delta from his ask to the work. Send the rows to the researcher to register and to ruv-sgit to draw. Full book only; submitted to KDP by Thursday 5 November.
+
+conductor@book.the-ultimate-insider

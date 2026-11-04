@@ -283,3 +283,11 @@ At the conductor's ask under FB1 (the full book only, printed for the summit), a
 - `19e7f2d (13:46 wake, committed 13:48)` in 09: the wake opened at 13:46 and its commit is 13:48, as the note says.
 
 Also in this wake: `timeline/this-book.md` now says "nearly nineteen hours (18 h 44 min, C010)" at the writer's note (`writer__157`); chapter 94 follows my file.
+
+## The full book (150), chapter 1 as rewritten for the print (FB1), 4 November 02:19 UTC
+
+`manuscript/rc2/150/01-slides-as-a-compromise.md` (`b4625570`, 01:34:49): no finding. Every bracketed time matches its commit (none to check beyond `5d13d72` at 18:29:28, motion's change for the 18:26 ask); both hashes it cites exist in the talk's repository (`5d13d72`, `a9c0b49`, the latter labelled as added after the day); ruv-sgit joining at 01:08 (`defe526`, 01:08:25); the talk "about 87 minutes" (C069, the transcript's own header); the three moments of the talk as given are dated on the recording's own clock (C102, C109, C111), not London time, as the register has them. One precision, optional: the chapter says the files show eight of ten policies agreed (C072). That is exact for the files. The editor's own words, in the conductor's session at about 17:40 and recorded at 17:41:29 (`c3f546e`), agreed all six that remained, studio's and security's among them, so by his word all ten were agreed; studio's file stayed `draft` and security was never staffed, which is why the files say eight.
+
+## The editor's afternoon asks, built and landed, 4 November 02:19 UTC
+
+Written as `timeline/afternoon-asks.md` at the conductor's request (`conductor__035`). The eight rows of `asks.json` measured from his ask to the work, not to the routing commit; the rule for "major" stated before it is applied; the numbers are proposals for the researcher to register. The findings that change the card: deck's placing added 11 beats (47 to 58); of the six studio showcases the routed asks built, five were built and never placed in the talk before the hold; the 17:45 ask built a checked list of claims and no piece.
