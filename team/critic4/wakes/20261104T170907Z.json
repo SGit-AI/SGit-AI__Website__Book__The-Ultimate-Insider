@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Letters into done/; PDF rebuilt in the scratchpad (nothing committed); 20, 21, 93, 94 clean in print; 21, 93, 94 proposed for sign-off (critic4__015, proposed, not signed); 90 held back (four Figure to come); request critic4__014; status, debrief; gate, vault_check clean; 0 outside scope.",
    "at": "2026-11-04T17:12:28Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "10 files inside scope.writes; 0 outside scope; vault_check clean; no PDF or image; no em-dash, religious word, key, contact detail or attack-shaped text; sign-off only proposed (SO1 open).",
+   "at": "2026-11-04T17:13:01Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "All items done; 93 and 94 proposed on the critic's and mirror's counts together, within the plan; 20 and 90 held back.",
+   "at": "2026-11-04T17:13:01Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T17:13:01Z",
+ "outcome": "ok"
 }
