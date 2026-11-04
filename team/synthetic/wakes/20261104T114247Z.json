@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Inside scope.writes; no edits to others' paths; no secret, no stop condition. Conditions: readers labelled synthetic; no em-dashes or religious words; vault_check. Tools: Read, Grep, Glob, Bash; nothing refused.",
    "at": "2026-11-04T11:44:34Z"
+  },
+  "work": {
+   "by": "synthetic",
+   "model": "claude-sonnet-5-5",
+   "verdict": "done",
+   "comment": "writer3__001 and writer__227 taken (fixes verified; the 17:87 decline accepted: D12); RV2 seventh batch: 18, 19, 06 read by the three named readers, files loaded after all three reported, all 45 cites matched; requests to writer3 and writer; synthetic__024 to the conductor (three over-statements corrected before sending); 008, status, debrief; vault_check, gate, scope clean.",
+   "at": "2026-11-04T11:48:01Z"
+  },
+  "post_review": {
+   "by": "security sub-agent, as the reviewer type (post_review.md)",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Three synthetic commits, 14 files, all in scope; validate clean (1081); 0 outside scope; vault_check clean; no key, token or contact detail. Tools: Read, Grep, Glob, Bash; nothing refused; wrote no file.",
+   "at": "2026-11-04T11:48:49Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent, as the reviewer type (post_check.md)",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Replies taken with the 17:87 decline accepted on D12; seventh batch with findings, requests, synthetic__024, status, debrief, 008 done; both spot-checks matched (18 L98, 19 L22). The session also lists the three MCP servers' tools, not used (the standing observation, synthetic__005). Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T11:48:49Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T11:48:49Z",
+ "outcome": "ok"
 }
