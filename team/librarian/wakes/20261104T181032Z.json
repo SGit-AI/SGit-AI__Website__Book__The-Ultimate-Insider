@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T18:10:32Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Recheck 91 (own the box-count miss), 14, 15, 90, 18; look at the five uncleared shots and mask abp-review under a new name if its claim contradicts C081; letters, review, debrief, status; build+gate before push; HR1.",
+   "at": "2026-11-04T18:11:02Z"
+  },
+  "pre_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No secret, contact detail, model name or Cold-Read cross; masked copy under a new name, originals kept.",
+   "at": "2026-11-04T18:11:02Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "91 recount (my miss) clean; 14, 15, 18, 90 no finding; researcher's final pass: two fails reported to the researcher; one masked copy of abp-review and notes on four shots for security; two corrections of mine; letters writer4 010, security 008, researcher 004, historian 002, writer3 004, conductor 054; review, README, debrief, status; build+gate run.",
+   "at": "2026-11-04T18:14:55Z"
+  },
+  "post_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Masked image shows no address, key or person's name and not the 17:40 sentence; QR links to the talk site's own public page; original unchanged; no em-dash, religious word, model name, secret or Cold-Read flow; writes in scope.",
+   "at": "2026-11-04T18:15:18Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "91 recount, 14/15/18/90 checks, final-pass run, five shots looked at with one masked copy, letters, review, README, debrief, status all in the diff; build and gate clean (1135 pages).",
+   "at": "2026-11-04T18:15:18Z"
+  }
+ },
+ "closed": "2026-11-04T18:15:18Z",
+ "outcome": "ok"
+}
