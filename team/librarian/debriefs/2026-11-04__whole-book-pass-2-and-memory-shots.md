@@ -1,4 +1,11 @@
-# The whole-book pass, part two, and the memory shots
+---
+title: The whole-book pass, part two, and the memory shots
+round: 2
+date: 2026-11-04
+commits: 17e2e103
+site_version: the release after this wake's push
+outside_scope: none
+---
 
 4 November 2026, about 05:20 UTC. Librarian wake of 05:09.
 

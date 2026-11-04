@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T05:29:17Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Change first: item 3 narrowed to P30 as written (any view of his no record or brief holds leaves print, newsroom-marked or not); P4 for 05 to 09 carried, not declined; R4 with no unregistered count; R3 as the historian worded it; keys page described. Re-checked: go.",
+   "at": "2026-11-04T05:33:18Z"
+  },
+  "pre_review": {
+   "by": "security (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Go with conditions: held lines on whole %% lines only; nothing unregistered prints (R4); banner brief no model line or session id; no keys or admin image; vault_check and em-dash/RW1 grep before commit; letters in team folders only.",
+   "at": "2026-11-04T05:33:18Z"
+  },
+  "work": {
+   "by": "writer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "critic1 musts (C087; P4 carried), critic5 must (09 off the page); P30 swept 00b to 09; 03 and 04 to critic1's shoulds and historian R1-R4; 06 R6, R7; 02 clock figure; letters 186 to 192; keys page declined pending security. Build stops on the librarian's debrief (not mine): gated with a local fix, restored, reported.",
+   "at": "2026-11-04T05:38:14Z"
+  },
+  "post_review": {
+   "by": "security (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "clean",
+   "comment": "Diff 404af3b..b24556de clean: no new image, no inline %% left in 00 to 09, 42 held phrases checked not printing; new numbers (twelve, seven minutes) match C105 and C006; R4 with no unregistered count; valve held. The librarian's debrief build break is pre-existing and handled correctly.",
+   "at": "2026-11-04T05:41:59Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "as-planned",
+   "comment": "Letters taken, musts applied or carried, P30 swept, 03/04/06/02 as planned, scope 0 outside, no record after the commit, debrief lists applied and declined. Note: validate's one reachability finding on review/rc2-70/15-principles.html is pre-existing (not this diff).",
+   "at": "2026-11-04T05:41:59Z"
+  }
+ },
+ "closed": "2026-11-04T05:41:59Z",
+ "outcome": "ok"
+}

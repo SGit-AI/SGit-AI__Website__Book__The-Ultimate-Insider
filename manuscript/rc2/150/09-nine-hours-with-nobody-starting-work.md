@@ -2,9 +2,9 @@
 
 **Cast bar:** six agents: the conductor, dev, deck, ruv-sgit, the researcher and the designer; the editor's chair empty from just after four until about ten to two, in hour fourteen.
 
-**Narrator.** My last word of the night was at 04:03. My next is at about ten to two in the afternoon. In between, nobody started any work but the clock. This chapter goes through those hours one at a time, because the point of them is that they are ordinary, and ordinary is the thing people do not believe until they see it hour by hour.
+**Narrator.** My last word of the night was at 04:03. My next is at about ten to two in the afternoon. In between, nobody started any work but the clock. This chapter goes through those hours one at a time, because what happened in them was ordinary.
 
-`%% for the editor: "ordinary is the thing people do not believe until they see it hour by hour" is the writer's reading of his view; his to keep or drop.`
+`%% for the editor (his view, held out of print until he confirms it, P30): the writer's "because the point of them is that they are ordinary, and ordinary is the thing people do not believe until they see it hour by hour", in place of "because what happened in them was ordinary".`
 
 **Figure:** the nine hours as one strip, hour six to hour fourteen, each hour a box with its commits and its wakes by trigger: the margin clock's boxes laid side by side.
 
@@ -25,9 +25,9 @@
 
 **Researcher** *(unbudging)*: Partial. The rest is in my next wake's plan, not in a claim that it is done.
 
-**Narrator.** That is a small thing, and it is the thing I would look for first in any team I had left alone. Not whether everything finished. Whether what did not finish was written down as not finished.
+**Narrator.** That is a small thing. Not whether everything finished: whether what did not finish was written down as not finished.
 
-`%% for the editor: "the thing I would look for first in any team I had left alone" is the writer's reading of his view; his to keep or drop.`
+`%% for the editor (his view, held out of print until he confirms it, P30): the writer's "and it is the thing I would look for first in any team I had left alone", after "That is a small thing".`
 
 **Narrator.** The hour holds one more sign of the schedule working. The designer's first note, written at 03:41, was built by dev at 05:51, through the conductor's schedule: set for dev's slot in hour five, it landed in the one in hour six. A request not picked up in one slot is picked up in the next. Nobody chased it.
 
@@ -138,9 +138,9 @@
 
 **Narrator.** These two hours are quiet, and I am not going to skip them, because quiet is the evidence. Deck kept a second piece and marked it ready for me. The researcher captured an analyst firm's own release for a claim in the talk, graded the claim, and kept the list of what waited on me current. The designer closed its first design pass, every note built and checked. Dev built the home page's title and figure.
 
-**Narrator.** One wake closed partial, by the historian's count the first since hour six to close as anything but ok, and for the same reason: the work ran out of its time, and the record says so. The designer's re-scan for a new rule stalled with a few pages unchecked, and its post-check called that reported honestly and carried to the next wake. The five steps were doing what I had asked of them in the long middle of the day. Not catching harm. Keeping the account straight.
+**Narrator.** One wake closed partial, by the historian's count the first since hour six to close as anything but ok, and for the same reason: the work ran out of its time, and the record says so. The designer's re-scan for a new rule stalled with a few pages unchecked, and its post-check called that reported honestly and carried to the next wake.
 
-`%% for the editor: "The five steps were doing what I had asked of them in the long middle of the day" is the writer's reading of his view; his to keep or drop.`
+`%% for the editor (his view, held out of print until he confirms it, P30): the newsroom's and the writer's "The five steps were doing what I had asked of them in the long middle of the day. Not catching harm. Keeping the account straight." to close the paragraph.`
 
 **Narrator.** And the work piled up at one door. A piece marked ready for me, then another. A list of what waits on me, refreshed every hour. Hours of work nobody started, and what it had produced was a queue only I could clear.
 
@@ -175,9 +175,9 @@
 
 **Narrator.** Nine hours. Every wake started by the clock. Every wake with its five steps. The ones that closed partial said so. One failure of the night came round a third time, and was found, and is kept. Requests answered at the next slot with nobody chasing. Work sent back and redone, three times for one picture. A mistake owned by the member that made it. And at the end, a queue that only one person could clear, and a maker with nothing to make.
 
-**Narrator.** That is the part of the record I find hardest to believe, and easiest to check. Part 3 now turns to how the team did it: the channels it talked through, the rhythm it kept, the plumbing under every scene.
+**Narrator.** Part 3 now turns to how the team did it: the channels it talked through, the rhythm it kept, the plumbing under every scene.
 
-`%% for the editor: "the part of the record I find hardest to believe, and easiest to check" is kept from the 70-page edition's chapter 7, where it is flagged as the writer's reading of his view; his to keep or drop.`
+`%% for the editor (his view, held out of print until he confirms it, P30): the writer's "That is the part of the record I find hardest to believe, and easiest to check." to open the paragraph; kept from the 70-page edition's chapter 7, where it is flagged as the writer's reading of his view; his to keep or drop.`
 
 ## Do this now
 

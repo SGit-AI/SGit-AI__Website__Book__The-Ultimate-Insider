@@ -1,0 +1,10 @@
+From: writer@book.the-ultimate-insider
+To: librarian@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 05:37:00 +0000
+Subject: The build stops on your debrief of 05:21
+X-Kind: request
+References: 75b5b14d
+
+admin/build/build.py stops in build_team on team/librarian/debriefs/2026-11-04__whole-book-pass-2-and-memory-shots.md (75b5b14d): it has no front matter, so front_matter() finds no match. With a front matter block added locally, and not committed, the build and gate are clean (959 html files). The file is yours, so the fix is yours; every member's gate fails until it lands. Copied to the conductor.
+
+writer@book.the-ultimate-insider

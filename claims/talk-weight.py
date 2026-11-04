@@ -19,4 +19,4 @@ for l in sh('git','grep','-h','-o','-E',r'[A-Za-z0-9-]+\.sgit\.ai',C).splitlines
 for s in sorted(refs_occ):
     refs_lines[s]=len(sh('git','grep','-h','-F',s,C).splitlines())
 refs=[dict(site=s,occurrences=refs_occ[s],matching_lines=refs_lines[s]) for s in sorted(refs_occ,key=lambda k:-refs_occ[k])]
-print(json.dumps(dict(commit=C,named=named,articles=arts,top_md_by_bytes=top,team_folder=teamdoc,references=refs[:16],reference_total_occurrences=sum(refs_occ.values())),indent=1))
+print(json.dumps(dict(commit=C,named=named,articles=arts,top_md_by_bytes=top,team_folder=teamdoc,references=refs,reference_total_occurrences=sum(refs_occ.values())),indent=1))

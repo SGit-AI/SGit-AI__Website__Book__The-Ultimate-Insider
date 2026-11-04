@@ -10,29 +10,33 @@
 
 `%% record: C103 (Bret Victor, Inventing on Principle, CUSEC 2012)`
 
-**Narrator.** I am not going to pretend the day lived up to that. Victor means the next keystroke; I am talking about minutes. In the last stretch before the talk, the fixes to the player came back in minutes; the bigger asks took longer, and the card below has every one. But I think the direction is what matters. The distance between what I meant and what the room would see got short enough that I stopped compromising and started fine-tuning. That is a different way of working, not just a faster one.
+**Narrator.** I am not going to pretend the day lived up to that. Victor means the next keystroke; I am talking about minutes. In the last stretch before the talk, the fixes to the player came back in minutes; the bigger asks took longer. The clock below shows the last of them. The distance between what I meant and what the room would see got short enough that I stopped compromising and started fine-tuning.
 
 `%% for the editor: the newsroom's "between one minute and about a quarter of an hour" became "the fixes to the player came back in minutes; the bigger asks took longer", because C118 holds the work on asks 1 to 4 at longer than that; his to keep or change.`
 
 **Narrator.** With slides, I made that trip alone, and usually once: the night before, tired, deciding what was good enough.
 
-`%% for the editor: the two paragraphs above are the newsroom journalist's rewrite (part one, section 6), close to its words; his to keep or change.`
+`%% for the editor: the two paragraphs above are the newsroom journalist's rewrite (part one, section 6), close to its words; the fine-tuning is his own word (briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md); his to keep or change.`
 
-**Figure:** a card of my afternoon asks: each with the time I asked, what it built, and the time it came back.
+`%% for the editor (his view, held out of print until he confirms it, P30): the newsroom's "But I think the direction is what matters." before "The distance", and "That is a different way of working, not just a faster one." after "started fine-tuning".`
 
-`%% figure brief: For the designer, from C118 (the afternoon asks: what each built, the time asked and the work's time; "the work", not "landed", for rows 1 to 4) and C105. The times on the card only.`
+**Figure:** my last afternoon ask drawn to the clock: asked, answered twelve minutes later, and the hold seven minutes after that.
 
-`%% record: C105 (the eight asks) C118 (what each built) C104 (the feedback round) C088 lab/experiments/29-ruv-the-afternoon-loop/`
+`%% figure brief: ruv-sgit's lab/experiments/29-ruv-the-afternoon-loop/edition/round-trip-clock.svg (ruv-sgit__066): the ask at 18:25, the commit that answered it at 18:37, the hold at 18:44 at the edge, with no table; times from C105 and C006. The asks card (asks-card.svg, from C118) stays in chapter 12 (storyteller__126).`
 
-**Narrator.** When I started this book I called this control of the medium, and I still think that is the right name: seeing the effect of a change while I can still do something about it. If the talk is code and data, I own the medium, and if I own the medium, I can change it up to the last minute.
+`%% record: C105 (the eight asks; 18:25 asked, 18:37 back) C006 (the hold, 18:44) C118 (what each built) C104 (the feedback round) C088 lab/experiments/29-ruv-the-afternoon-loop/; comms/mail/mailroom/writer/storyteller__126-re-182.eml`
+
+**Narrator.** When I started this book I called this control of the medium: seeing the effect of a change while I can still do something about it. If the talk is code and data, I own the medium, and if I own the medium, I can change it up to the last minute.
 
 `%% held out of print until it is registered: the newsroom's "It is also why I keep putting my talks in vaults and on their own sites."`
+
+`%% for the editor (his view, held out of print until he confirms it, P30): the newsroom's "and I still think that is the right name" after "control of the medium".`
 
 ## The loop
 
 `%% clock record: the player from about 13:50 to the last fix at 18:37; clock hours of 29 October (C110; the conductor's CK1).`
 
-**Narrator.** Looking back, that last change is the real story, more than any one animation. It is the loop.
+`%% for the editor (his view, held out of print until he confirms it, P30): the newsroom's "Looking back, that last change is the real story, more than any one animation. It is the loop." to open the section.`
 
 **Narrator.** When I came back to the team in the afternoon, I started asking for things, and the first was the player, the piece that would let me press play on stage. A first version was in a little after three. From then until the last hour I kept asking, and each time it came back changed, and I looked again. My last ask for the player was about two back-steps in a row going wrong while playing, and it landed twelve minutes later, seven minutes before I stopped everything.
 
@@ -52,7 +56,7 @@
 
 **Narrator.** So what changed? It was not a better slide tool. What I had, for one day, was a factory: a team of AI agents built around one objective, run as hard as I could run them, and taken apart when the job was done. Nine of them, each with one job and one page of rules.
 
-**Narrator.** I want to be careful with that word, because it sounds grander than it is. Most of the parts were not new. The build, the check every change had to pass, the brief: each came from something I had built before. The brake that could stop them all was made that night. What was new was having all of it at once, as a team, on one deadline.
+**Narrator.** Most of the parts were not new. The build, the check every change had to pass, the brief: each came from something I had built before. The brake that could stop them all was made that night. What was new was having all of it at once, as a team, on one deadline.
 
 `%% held out of print until it is registered: the newsroom's "for sgit, for the newsroom, for the earlier talks. Even the idea of agents with written rules came from the behaviour policies I had been working on."`
 
@@ -70,9 +74,11 @@
 
 **Narrator.** So this book is about the factory. The talk was what it happened to make that day. If you have an idea you keep talking over, the factory is the part you can take home.
 
-**Narrator.** Why only a day? Because I think that last part, taking it apart, is the interesting one. We tend to think of a team, human or not, as something you build to last, and so we build it slowly and carefully. This one was meant to be temporary. That let me build it fast, from parts I already had, without the ceremony a permanent team needs, as long as everything it did was written down. The writing down is what made this book possible, and it is also what lets you rebuild it, which is what part 5 does.
+**Narrator.** Why only a day? This one was meant to be temporary: assembled quickly around one objective, from parts I already had, and taken apart at the end. Everything it did was written down. The writing down is what made this book possible, and it is also what lets you rebuild it, which is what part 5 does.
 
-`%% for the editor: the factory paragraphs are the newsroom journalist's rewrite (part one, section 6), close to its words, its unregistered facts held out; his to keep or change.`
+`%% for the editor: the factory paragraphs are the newsroom journalist's rewrite (part one, section 6), close to its words, its unregistered facts held out; the factory assembled and taken apart is your own account (briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md); his to keep or change.`
+
+`%% for the editor (his view, held out of print until he confirms it, P30): the newsroom's "I want to be careful with that word, because it sounds grander than it is." to open the parts paragraph; and "Because I think that last part, taking it apart, is the interesting one. We tend to think of a team, human or not, as something you build to last, and so we build it slowly and carefully." and "That let me build it fast ... without the ceremony a permanent team needs, as long as everything it did was written down." in the last paragraph.`
 
 ## Something to try
 

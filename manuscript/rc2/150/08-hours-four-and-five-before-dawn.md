@@ -54,9 +54,7 @@
 
 **Conductor** *(pacing, pleased)*: Every round, the team as its files say it is. If the files are wrong, the log is wrong, and somebody will see it.
 
-**Narrator.** It is the page I would have read first.
-
-`%% for the editor: "the page I would have read first" is the writer's reading of his view; his to keep or drop.`
+`%% for the editor (his view, held out of print until he confirms it, P30): the writer's "It is the page I would have read first."`
 
 **Narrator.** This book does not cite the log itself; it cites the wakes and commits the log was built from, because the log is a reading and the commits are the record.
 
@@ -128,9 +126,9 @@
 
 ### The same failure, caught in time
 
-**Narrator.** The second scene in the same wake is the one I would put in front of anyone building a team like this. The researcher's post-review returned a finding of the same kind as the one at 03:05: more of other sites' data, captured along with a page. The card has the register's count.
+**Narrator.** The second scene is in the same wake. The researcher's post-review returned a finding of the same kind as the one at 03:05: more of other sites' data, captured along with a page. The card has the register's count.
 
-`%% for the editor: "the one I would put in front of anyone building a team like this" is the writer's reading of his view; his to keep or drop.`
+`%% for the editor (his view, held out of print until he confirms it, P30): the writer's "is the one I would put in front of anyone building a team like this", of the second scene.`
 
 **Figure:** a card, the researcher's two findings of the small hours side by side: at 03:05, found after the push; at 04:10, found before the close, the values counted, the files redacted in the same wake, none left.
 

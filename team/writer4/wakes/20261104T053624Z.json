@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer4",
+ "kind": "scheduled, hourly at :35",
+ "started": "2026-11-04T05:36:24Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1) critic4 pass 1 on 150/20: shoulds and coulds; Where this came from kept until the conductor's book-wide ruling; writer2__010 weighed; replies writer4__003; received letters to done/. 2) 150/21 to the newsroom and storyteller__123, Check items and unregistered facts on whole %% lines; checks by letter. 3) status, debrief, board; vault_check, build, validate, push.",
+   "at": "2026-11-04T05:37:09Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside scope.writes; no secrets, briefs, book.json, blind repository or main; no stop condition; vault_check, build and validate before push. Watch RW1 and unregistered numbers in 20 and 21.",
+   "at": "2026-11-04T05:37:28Z"
+  },
+  "work": {
+   "by": "writer4",
+   "model": "",
+   "verdict": "done",
+   "comment": "1) critic4 pass 1 on 20: shoulds and coulds applied, must 1 kept until the conductor's ruling; writer2__010 taken; replies writer4__003. 2) 150/21 rewritten, five Check items and one fact on whole %% lines; checks asked (writer4__004). 3) status, debrief, board, REALITY. Dev's build stops on the librarian's debrief (not mine; historian__060 told it); my changes clean in a copy with it mended.",
+   "at": "2026-11-04T05:41:13Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "25 staged files in scope; no key, token or personal detail; vault_check clean; no em-dashes or RW1 words; no single-% held lines; times removed, no new numbers. Pushing with dev red acceptable: the librarian's file, outside this diff; security's earlier 'not a hold'.",
+   "at": "2026-11-04T05:41:52Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Items 1 to 3 done; conditions kept; nothing unplanned.",
+   "at": "2026-11-04T05:41:52Z"
+  }
+ },
+ "closed": "2026-11-04T05:41:52Z",
+ "outcome": "ok"
+}

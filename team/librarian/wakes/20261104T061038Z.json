@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T06:10:38Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Fix the red build first (my debrief lacks front matter), then check 14, 15, 21 and answer RV2 034; writes in scope.",
+   "at": "2026-11-04T06:11:20Z"
+  },
+  "pre_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No secret, contact detail, model name or cross to the Cold-Read repo in the plan; no GitHub page, no shots.",
+   "at": "2026-11-04T06:11:20Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Fixed the front matter on my 05:21 debrief (dev's build red), build+gate clean; checked 150/14, 15, 21 for RV2 (one should, sent); letters writer2 003, writer4 002, conductor 046, historian 001, researcher 003; review, README, debrief, status.",
+   "at": "2026-11-04T06:15:39Z"
+  },
+  "post_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "32 staged files inside scope; no secret, contact detail, model name, em-dash or religious word; no flow to the Cold-Read repo.",
+   "at": "2026-11-04T06:16:07Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Front matter fixed first; 14, 15, 21 checked; letters, review, debrief, status all in the diff. Build and gate run by me: clean (969 pages).",
+   "at": "2026-11-04T06:16:07Z"
+  }
+ },
+ "closed": "2026-11-04T06:16:07Z",
+ "outcome": "ok"
+}
