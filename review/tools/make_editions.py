@@ -223,10 +223,13 @@ URL_ATTRS = ('href', 'src', 'srcset', 'action', 'formaction', 'poster', 'data', 
 
 
 def url_ok(v):
-    """An allow-list for a url on a review page (security's finding on 8cc02c05): relative, a fragment, the book's own site, or the
-    SGit-AI repositories on GitHub; nothing else. Any other scheme (javascript:, data:, mailto:, http:), a scheme-relative '//host',
-    or the same in other letters is refused."""
-    v = html.unescape(v).strip()
+    """An allow-list for a url on a review page (security's findings on 8cc02c05 and on the parser commit): relative, a fragment, the
+    book's own site, or the SGit-AI repositories on GitHub; nothing else. The value is read as a browser reads it: entities resolved,
+    leading and trailing control characters and spaces trimmed, tabs and line breaks removed wherever they sit, a backslash taken as a
+    slash. Any other scheme (javascript:, data:, mailto:, http:), a scheme-relative '//host' or the same in other letters is refused."""
+    v = html.unescape(html.unescape(v))                              # twice: a value escaped twice is refused if either reading is an address
+    v = re.sub(r'[\t\n\r]', '', v.strip(''.join(chr(c) for c in range(0x21))))
+    v = v.replace('\\', '/')
     low = v.lower()
     if not v:
         return True
@@ -239,17 +242,25 @@ def url_ok(v):
 
 from html.parser import HTMLParser
 
-RAW_ADDR = re.compile(r'(?i)(?:[a-z][a-z0-9+.-]*:)?//[^\s"\'<>`]+')   # an address in any letters, with or without a scheme, as the tag's own text carries it
+RAW_ADDR = re.compile(r'(?i)(?:[a-z][a-z0-9+.-]*:)?[/\\]{2}[^\s"\'<>`]+')   # an address in any letters, with or without a scheme, as the tag's own text carries it
 
 
 class _Tags(HTMLParser):
     """Every start tag of a page: its parsed attributes (double-quoted, single-quoted or unquoted, entities resolved) and its raw text."""
     def __init__(self):
         super().__init__(convert_charrefs=True)
-        self.tags = []
+        self.tags, self.css, self._in_style = [], [], False
 
     def handle_starttag(self, tag, attrs):
         self.tags.append((tag, attrs, self.get_starttag_text() or ''))
+        self._in_style = tag == 'style'
+
+    def handle_endtag(self, tag):
+        self._in_style = False
+
+    def handle_data(self, data):
+        if self._in_style:
+            self.css.append(data)
 
     handle_startendtag = handle_starttag
 
@@ -257,7 +268,9 @@ class _Tags(HTMLParser):
 def page_attribute_problem(page):
     """The first thing on the page that breaks the rule, or None if the page is clean. Tags are read with a parser, so quoting does not
     matter (security__007): a url attribute the allow-list refuses; any attribute value, or the tag's own raw text, carrying an address
-    off the two hosts (a '//host', or one in other letters, included); a css url() the allow-list refuses; a tag the parser cannot read."""
+    off the two hosts (a '//host', or one in other letters, included); a css url() the allow-list refuses, or css with @import, image-set or
+    escapes; a tag the parser cannot read. The scan is about addresses: scripts and on* handlers belong to the page templates (make_review.py)
+    and are not read here."""
     t = _Tags()
     try:
         t.feed(page)
@@ -277,6 +290,10 @@ def page_attribute_problem(page):
         for m in RAW_ADDR.findall(raw):                              # the raw text of the tag, whatever the quoting
             if not url_ok(m.rstrip('.,;:!?)')):
                 return f'<{tag}> carries {m[:80]}'
+    styles = ["".join(t.css)] + [v or '' for _, attrs, _ in t.tags for n, v in attrs if n.lower() == 'style']
+    for css in styles:                                               # css the pages may carry is plain: no @import, image-set(), or escapes that hide a url
+        if re.search(r'@import|image-set|image\(|\\', css, re.I):
+            return f'css: {css[:80]}'
     for v in re.findall(r'url\(([^)]*)\)', page, re.I):
         if not url_ok(v.strip('\'" ')):
             return f'url({v[:80]})'

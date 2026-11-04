@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them). Within policy. Conditions kept: a real parser (html.parser) with malformed tags refused, same allow-list and address checks, tests incl. unquoted and mixed-case and entity-escaped, builder not run for real, untrusted PDF handling, vault_check, exit codes, branch and dev only.",
    "at": "2026-11-04T19:13:38Z"
+  },
+  "work": {
+   "by": "developer",
+   "model": "",
+   "verdict": "done",
+   "comment": "Plan and pre-review ran before any file was touched. security__007 done: the attribute scan reads tags with html.parser (every quoting, raw tag text, any letters, unreadable pages refused), tried on 9 good and 20 bad cases and a dry run on the real tree; letter developer__054 to security with the commit; builder not run for real, no regenerated page or data pushed. Page check on the 142-page PDF of 19:11 against today's chapters (5 tails, 7 gaps, 18 figures a page after their paragraph), developer__055 to publisher and designer (outbox cmp same). security__007 filed. Build, gate and agents check all exit 0 before the push. Pages: rc2.html and index.html unchanged since 09:46, no answer to developer__039, upload set unlinked.",
+   "at": "2026-11-04T19:16:40Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them). As planned. The plan step ran before any file was touched (plan and pre-review 19:13:38, first edit 19:14:42). Its one point, answered: the tests were run by hand and not kept; now committed as review/tools/test_make_editions_guards.py (29 tag cases and 9 address-gate cases, prints ok), run in this close. Exit codes are the developer's own record.",
+   "at": "2026-11-04T19:18:01Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "finding",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them; it tested about 190 cases from git archive copies). Finding: url_ok read the value as written, not as a browser does: tab/newline/control characters inside or before a scheme, a backslash for a slash, and css @import, image-set() and escaped url() passed; nothing in the real run could hit them (the builder escapes what it writes), but 054 overstated ('quoting does not matter', 'other letters'). Fixed in this close: url_ok resolves entities twice, trims control characters and spaces, removes tabs and line breaks, takes a backslash as a slash; the raw-text search takes backslashes; css with @import, image-set or escapes refused; the docstring states what the scan does not read; the cases are now review/tools/test_make_editions_guards.py (45 tag cases, 9 address-gate cases, prints ok), dry run on the real tree passes; letter developer__056 to security. Everything else clean: mail numbers in 055, cmp, dates, data files, text rules, no regenerated page or data in the diff, builder not run for real.",
+   "at": "2026-11-04T19:21:38Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T19:21:38Z",
+ "outcome": "ok"
 }

@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T19:18:09Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Plan sound and in scope; no HOLD; the letter asks nothing. It could not verify the commit hashes (its git check errored); I list them from git log. Tools: Read, Grep, Glob, Bash.",
+   "at": "2026-11-04T19:18:36Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Writes inside historian scope; no HOLD; the talk clone read-only; nothing to Cold-Read; keep the review file an append and run vault_check. Tools: Read, Bash.",
+   "at": "2026-11-04T19:18:49Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "Diff touches only historian files and its own mail; mailroom copies match; vault_check clean; no em-dashes, religious words, key material or model names. Tools: Bash, Read, Grep.",
+   "at": "2026-11-04T19:20:58Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "Chapter 7 check, letters 078 and 079, R32, the filed letter, debrief and status present.",
+   "at": "2026-11-04T19:20:58Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "claude-sonnet-5-5",
+   "verdict": "done",
+   "comment": "Chapter 7 and the changes since 18:18 checked; R32; letters 078 and 079; one letter filed",
+   "at": "2026-11-04T19:20:58Z"
+  }
+ },
+ "closed": "2026-11-04T19:20:58Z",
+ "outcome": "ok"
+}
