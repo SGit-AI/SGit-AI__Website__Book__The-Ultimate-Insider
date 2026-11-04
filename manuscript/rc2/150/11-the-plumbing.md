@@ -2,7 +2,7 @@
 
 **Cast bar:** all of them, all day: this chapter is about what ran under every scene.
 
-`%% for the editor: "Nobody puts the plumbing in the brochure." is the writer's, and the newsroom keeps it as his; "one of the most important choices of the day" is the newsroom's; his to keep or drop.`
+`%% for the editor: "Nobody puts the plumbing in the brochure." is the writer's, and the newsroom keeps it as his; it prints as a figure of speech, not a view (storyteller__150). "One of the most important choices of the day" is now held, below.`
 
 **Narrator.** Nobody puts the plumbing in the brochure. But every story in this book ran through four pipes, and if you build your own factory you will need all four: a register for every number, a check every change passes, a site to work on, and a brief with a file beside it for what turned out to be true. The register first.
 
@@ -16,9 +16,9 @@
 
 **Researcher**: A claim without a captured source is a gap, and the register says so rather than leaving it out. Gaps are allowed. Hiding them is not.
 
-**Narrator.** None of the three made it into the talk. It was not luck, it was the register doing its job, and it is why I now think every team that publishes anything, people or agents, should keep one.
+**Narrator.** None of the three made it into the talk. It was not luck, it was the register doing its job.
 
-`%% for the editor: "it is why I now think every team that publishes anything ... should keep one" is the newsroom journalist's line in your voice (part three, chapter 11); yours to keep or change.`
+`%% Hold (P30: an opinion in his voice, the newsroom's; prints once he confirms; storyteller__150): "... and it is why I now think every team that publishes anything, people or agents, should keep one."`
 `%% Check (the newsroom, part three, chapter 11; his to confirm before it prints): "A number without a source is an opinion with a decimal point."`
 
 **Narrator.** This book works the same way. Its researcher keeps a register, and no number goes on a page unless it is there. When an early draft of this book carried a line the record could not support, it came back by letter, and the line was changed.
@@ -39,9 +39,9 @@
 
 **Figure:** a card, what the check looked at that first night: every link resolves; every page has its plain-text twin; no code loaded from elsewhere; every script parses; every beat has a slide; no long dash in the prose; a tripwire over every file for anything that looks like a secret.
 
-**Narrator.** The check had a twin, in words: the team's first page of rules, from chapter 4. Put the two side by side and half of the page is the check said in words. The other half is what no check could hold, and that is the half I find more interesting, because it is where trust lives.
+**Narrator.** The check had a twin, in words: the team's first page of rules, from chapter 4. Put the two side by side and half of the page is the check said in words. The other half is what no check could hold.
 
-`%% for the editor: "the half I find more interesting, because it is where trust lives" is the newsroom journalist's line in your voice (part three, chapter 11); brief 21 lets it print.`
+`%% Hold (P30: an opinion in his voice, the newsroom's; prints once he confirms; storyteller__150): "... and that is the half I find more interesting, because it is where trust lives."`
 
 `%% record: 1f7c633 (00:40, CLAUDE.md as first committed) manuscript/rc2/150/04-hour-one-the-empty-project.md ("The first files", the page of rules as a card, told there once: the storyteller's ruling 2 for part three)`
 
@@ -68,7 +68,9 @@
 
 ## The site is the scaffolding
 
-**Narrator.** The agents did not work in a chat window. They worked on a website: every slide a page, every member a page, every session and every commit a row on a page. That sounds like an odd choice for a talk, and I think it was one of the most important choices of the day.
+**Narrator.** The agents did not work in a chat window. They worked on a website: every slide a page, every member a page, every session and every commit a row on a page. That sounds like an odd choice for a talk.
+
+`%% Hold (P30: an opinion in his voice, the newsroom's; prints once he confirms; storyteller__150): "... and I think it was one of the most important choices of the day."`
 
 `%% Check (the newsroom, part three, chapter 11; prints once the researcher registers the earlier talks as sites and vaults and he confirms): "It is the same choice I made for the newsroom, and for the talks before this one: if the work is a site, it has an address, a history and a check."`
 
@@ -108,9 +110,9 @@
 
 > "None yet." *(record)*
 
-**Narrator.** The brief was wrong in places. It says the talk is "tomorrow"; by the time the project existed, it was that same day. And the talk it asks for became something quite different in the afternoon, by my own decisions. None of that went into the corrections file. It went into the reality file, the decisions and the debriefs instead. The rule was right, and nobody used it, me included.
+**Narrator.** The brief was wrong in places. It says the talk is "tomorrow"; by the time the project existed, it was that same day. And the talk it asks for became something quite different in the afternoon, by my own decisions. None of that went into the corrections file. It went into the reality file, the decisions and the debriefs instead. Nobody used it, me included.
 
-`%% for the editor: "The rule was right, and nobody used it, me included." is the newsroom journalist's reading of your view (part three, chapter 11); yours to keep or drop.`
+`%% Hold (P30: an opinion in his voice, the newsroom's; prints once he confirms; storyteller__150): "The rule was right, and nobody used it, me included."`
 
 `%% Hold (P30: a reading of his view, not in the record or his briefs; prints once he confirms; storyteller__147): "I would keep the file, and give one member the job of writing in it. A brief that is never corrected becomes a story about what you thought you wanted."`
 
@@ -123,7 +125,7 @@
 
 ## Something to try
 
-*One check that every change has to pass is where all of this begins. The one to start with is usually the one that would have saved you last time.*
+*One check that every change has to pass is where all of this begins. If you try this, start with the one that would have saved you last time: a check that every link works, say, or that no file holds a password.*
 
 `%% record: team/conductor/from-newsroom/2026-11-04__do-this-now-as-invitations.md (chapter 11, the proposed card); chapter-plan/cast/cast-guide.md (page conventions 1)`
 
