@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T02:48:30Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; Bash read only)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope: 00b after 00; rc2_map.py; 92 held; AD1 by an explicit list before SHOT_NEVER (conductor 074); captions above in the full book; the designer's cover checked and the upload set refreshed; letters incl. the writer on chapter 13's session ids, the designer on the RC2 line, the developer's figure-name suggestion.",
+   "at": "2026-11-04T02:49:44Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Conditions: cleared names by exact set lookup, the five only, / and .. checks kept; admin__vaults is the board vault's read key, not D12's; the cover marked sized for 132, not for upload; upload set out of git. No HOLD.",
+   "at": "2026-11-04T02:49:44Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "AD1: SHOT_CLEARED (five names, exact) before SHOT_NEVER; captions above (full-book.css); 00b in; rc2_map.py (58); 92 held; the designer's cover checked (132, Type 3 fonts, no images); upload set round two to the editor, not committed; letters conductor 050, designer 042, developer 002, ruv-sgit 017, writer 033; records",
+   "at": "2026-11-04T02:51:37Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "28 staged files in scope; no PDF or PNG; SHOT_CLEARED exactly five names by exact membership, / and .. checks first, SHOT_NEVER and SHOT_OK unchanged; py_compile passes; letters clean; vault_check clean.",
+   "at": "2026-11-04T02:52:53Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Every item to plan; upload set not committed; 92 still out.",
+   "at": "2026-11-04T02:52:53Z"
+  }
+ },
+ "closed": "2026-11-04T02:52:53Z",
+ "outcome": "ok"
+}

@@ -29,3 +29,8 @@ li { break-inside: avoid; }
 /* the print interior has no cover page, so its first page is the title page: the title raised there too (conductor__067) */
 @page :first { margin-top: 0.9in; }
 header#title-block-header { padding-top: 0.4in; }
+
+/* each figure's caption once, above it (the editor, 4 November 2026: "only one at the top"; conductor__073); the
+   drawn-in captions are the designer's to drop */
+figure { display: flex; flex-direction: column; align-items: center; }
+figure figcaption { order: -1; align-self: stretch; margin: 0 0 5pt; font-style: normal; }
