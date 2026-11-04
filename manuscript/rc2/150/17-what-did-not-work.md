@@ -27,11 +27,9 @@
 
 *What it cost:* the first part was never locked; nothing stopped it changing on stage but the hold. *Whose record:* dev's last wake, and the conductor's request.
 
-**Narrator.** Chapter 16 told this one. In a line: the tool to lock the finished slides was built that afternoon and never run, because the one member allowed to run it was busy with my fixes until the end.
+**Narrator.** Told in chapter 16.
 
-**Dev**: I built a tool to freeze the finished slides, so nothing could change them on stage. I never ran it.
-
-**Dev**: I was in your player fixes until the end. The lock was still waiting.
+**Dev**: I built the lock, and I never turned it. Every time I looked up, there was one more fix.
 
 `%% record: 4a2481b (17:54) 2ed6427 (18:39) dbd75ad (18:37) team/dev/wakes/20261029T174850Z.json 39df303 (18:48, on a branch) timeline/unmerged.md C027 C088 timeline/interviews/dev.md`
 `%% band: Dramatised (dev's lines). Rests on the lock tool, the conductor's request, dev's last wake and its close on a branch.`
@@ -57,9 +55,7 @@
 
 **Narrator.** The conductor asked the storyteller to split the story into three parts by a deadline in the late afternoon. The request landed between the storyteller's sessions, its next turn came after the deadline, and deck had set part one before the split reached it. The storyteller's own letter to deck says the split "is late".
 
-**Storyteller**: My turn came between deadlines, and I missed the moment the talk was split into its parts.
-
-**Storyteller**: A slot every hour is fine until the decisions come faster than the slots.
+**Storyteller**: My turn came after the deadline. A slot every hour is fine until the decisions come faster than the slots.
 
 `%% record: 3342cff (16:59, "To-storyteller: split the arc into three parts ... to deck by 17:30") team/storyteller/debriefs/2026-10-29__three-parts.md team/storyteller/requests/deck__three-parts.md ("is late") 3260997 (17:25, part one set) timeline/interviews/storyteller.md`
 `%% band: Dramatised (the storyteller's lines). Rests on the conductor's brief, the storyteller's debrief and its letter to deck.`
@@ -86,7 +82,7 @@
 
 *What it cost:* values from other sites' pages went out in a public push, and the history keeps what was pushed. *Whose record:* the researcher's debrief and the post-reviews.
 
-**Narrator.** Chapter 8 told this one as it happened. Pages the researcher captured as evidence carried other sites' data in with them, three times in the night, and each time the team's own checks caught it, two of them after the push. None of it was a key, a credential or anything personal. Looking back, it was nothing sensitive, an agent that got a bit excited, and I keep it here as an example of the checks catching things.
+**Narrator.** Told in chapter 8. Pages the researcher captured as evidence carried other sites' data in with them, three times in the night, and each time the team's own checks caught it, two of them after the push. None of it was a key, a credential or anything personal. Looking back, it was nothing sensitive, an agent that got a bit excited, and I keep it here as an example of the checks catching things.
 
 **Researcher**: I would build the redaction before the first push, not after the findings.
 

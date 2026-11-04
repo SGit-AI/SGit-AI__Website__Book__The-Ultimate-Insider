@@ -87,15 +87,15 @@
 
 **Narrator.** After I published an article about the second draft of this book, a reader picked out the hold and asked the question this section is for. In most of the organisations he works with, agents produce work and nobody has the authority, or the tripwire, to stop the line. They build the agents that do, and never the ones that check. Who owns the stop button, he asked, when it is not me? I wrote an article about it, and this book answers it from its own rules and record.
 
-`%% for the editor: the newsroom's question 2: name the reader (Dan Sorensen, named in the newsroom's article with his comment) or keep "a reader"; "a reader" until you say.`
+`%% record: "a reader", unnamed, at the editor's NM1 (briefs/2026-11-04__in-session/33-answers-to-the-newsroom-passes.md: the book names almost nobody).`
 
 `%% record: comms/mail/mailroom/storyteller/conductor__051-who-owns-the-stop-button.eml (the reader's question, routed to the storyteller) newsroom.sgit.ai/articles/who-owns-the-stop-button.html (3 November 2026, published after the day; the reader's question as I quoted it there; its four guest sections are the newsroom journalist's writing in the agents' voices, not the agents' own record) comms/mail/mailroom/writer/conductor__011-read-the-stop-button-article.eml`
 
 ### The rule
 
-**Narrator.** Any member may write a hold. Only I lift it, and only I restart a member's work. That is in this book's own page of rules. In order: a member sees something wrong and writes the hold; every member's next session stops; I read it, fix or decide, delete the file and restart the members' work. And one more line: who may lift it when I am away has to be written down before it is needed. On this team it is not yet, so until it is, nobody does.
+**Narrator.** Any member may write a hold. Only I lift it, and only I restart a member's work. That is in this book's own page of rules. In order: a member sees something wrong and writes the hold; every member's next session stops; I read it, fix or decide, delete the file and restart the members' work. And one more line: who may lift it when I am away has to be decided before it is needed. I have decided that the conductor lifts it when I am away; the team's own page of rules still says only I do, until I change it.
 
-`%% record: CLAUDE.md (this book's, line 13: "Anyone may stop the schedule when something is not right"; "Only the editor lifts a hold or re-enables a task") team/conductor/WAKE.md (Stopping: how to stop, in this order; "The editor lifts a hold by deleting the file and re-enabling the paused tasks"); the stand-in, unnamed: no rule in CLAUDE.md or WAKE.md names who lifts a hold in his absence`
+`%% record: CLAUDE.md (this book's, line 13: "Anyone may stop the schedule when something is not right"; "Only the editor lifts a hold or re-enables a task") team/conductor/WAKE.md (Stopping: how to stop, in this order; "The editor lifts a hold by deleting the file and re-enabling the paused tasks"); the stand-in: his decision HL1 (briefs/2026-11-04__in-session/31-the-conductor-lifts-the-hold.md, about 17:40 UTC 4 November, added after the day: the conductor lifts the hold), not yet in CLAUDE.md or WAKE.md, which the editor edits or approves (brief 31)`
 
 ### The day
 

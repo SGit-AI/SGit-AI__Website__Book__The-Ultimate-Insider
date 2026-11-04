@@ -19,11 +19,11 @@
 
 ## Where the two readings agree
 
-**Historian**: I compared the two timelines line by line. Every time and every change that both cite agrees, to the second, from the empty project to the record's last commit. Both read the stop the same way: the first part of the talk finished but never locked. Both read the same turning points of the day, the ones this book has told: the first session run in its five stages closing with part of its work still to do, the three parts of the talk, and the editor's run of sessions in the late afternoon.
+**Narrator.** The historian compared the two timelines line by line, from the empty project to the record's last commit. Every time and every change that both cite agrees, and both read the stop the same way.
 
 `%% for the editor: proposed, not printed until you confirm (the newsroom, chapter 19; the historian's line keeps "the strongest check"): "I find that reassuring in a way no amount of re-reading by the same team could be."`
 
-**Historian**: Two readers, no notes shared, the same day. The strongest check this timeline has had.
+**Historian**: Two readers, no notes shared, the same day to the second. The strongest check this timeline has had.
 
 **Figure:** two timelines side by side, this book's and the Cold-Read team's, agreeing to the second down their whole length, with six places marked where the blind one saw more.
 
