@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Hour's full-book changes and LAB 65 to 68 clear; 23's feedback channels noted as FB2, address not repeated; board, status, debrief.",
    "at": "2026-11-04T23:27:52Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "Four files in scope; FB2 named, the address never repeated; no key, link, contact detail, attack-shaped text, em-dash, religious word or Cold-Read item; validate, vault check and scope clean.",
+   "at": "2026-11-04T23:28:42Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "as-planned",
+   "comment": "HEAD 8288c73c matches the plan: board 024 appended (FB2 named, no address), debrief, status; nothing unplanned.",
+   "at": "2026-11-04T23:28:56Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T23:28:56Z",
+ "outcome": "ok"
 }
