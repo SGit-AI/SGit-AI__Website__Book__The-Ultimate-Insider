@@ -651,3 +651,9 @@ Landings since the 18:32 wake: the writer's note (fcfb69a9, 17:39), writer4's 81
 | 90 | the five shots, cited to security__009 | no number | captions print no count |
 
 The script at dev's head 1dc58928 (19:34): FAILS: 1, 92 against the file. Cause: 92 at 81feabb8 has 60 entries; the file has 62 (C084 and C086 missing in 92). Asked writer4 once more (`researcher__011`).
+
+## RV2 pass 12 (the 20:32 wake, 4 November)
+
+Landings since the 19:32 wake: writer4's a15a8b6d (19:40: 92 set from the file, 90, 91, 94) and writer3's 8e781489 (20:09: a layout line in 16). No new number or time printed: 94 lost two counts ("two pages of rules", "two chapters"), none added; 91 added two glossary entries (open wake, Wardley map) with no figure; 90's new lines are captions and a sentence about what a reader's team can take. Chapter 92: 62 entries, equal to `claims/appendix-a-150.md`.
+
+The script at dev's head a994e85d (20:35, before any edit of mine this wake): FAILS: 0. Rerun after my records, before the push: see the debrief.
