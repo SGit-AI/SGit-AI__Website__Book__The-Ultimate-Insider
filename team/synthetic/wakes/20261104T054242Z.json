@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "In scope.writes (review/synthetic/sections, letters to writer, writer2, conductor, team/synthetic); no secret, no stop condition; 'signed' left to the editor. Condition: vault_check before commit. Tools: Read, Grep, Glob, Bash; nothing refused.",
    "at": "2026-11-04T05:43:46Z"
+  },
+  "work": {
+   "by": "synthetic",
+   "model": "claude-sonnet-5-5",
+   "verdict": "done",
+   "comment": "RV2: three sections read by the three named readers; findings.md merged, 46 of 47 cites matched, one corrected; requests to writer (synthetic__006) and writer2 (synthetic__001); synthetic__018 to the conductor (none passes); 008, status, debrief. vault_check and agents check clean. The site build and validate could not run: build.py crashes on the librarian's debrief 2026-11-04__whole-book-pass-2-and-memory-shots.md (no front matter; security and critic6 have already told it); my files do not touch the build. Dev push held until the gate is green.",
+   "at": "2026-11-04T05:46:04Z"
+  },
+  "post_review": {
+   "by": "security sub-agent, as the reviewer type (post_review.md)",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Synthetic's commits touch only review/synthetic/sections, comms and team/synthetic; 0 outside scope; vault_check clean; no key or personal detail. validate.py on the existing _site reports findings from a stale or crashed build: build.py crashes on the librarian's debrief (no front matter), not a synthetic file. Tools: Read, Grep, Glob, Bash; wrote no file; nothing refused.",
+   "at": "2026-11-04T05:46:37Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent, as the reviewer type (post_check.md)",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Readers, merged findings (46 of 47 cites matched, one corrected), requests to writer and writer2, letter to the conductor all done; two cites spot-checked; the dev push is held while the librarian's debrief breaks build.py. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T05:46:37Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T05:46:37Z",
+ "outcome": "ok"
 }
