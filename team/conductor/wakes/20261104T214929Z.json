@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "editor chat",
+ "started": "2026-11-04T21:49:29Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "go with corrections: copy the passes redacted (the reader's name to [a reader, NM1], the religious word for the cast guide to [the cast guide, RW1]) with a header note; the address only in brief 33, FB2 (quoted as transcribed, reading apart) and the manuscript, never in comms; unanswered items (Dramatised density, high five, two conductors, motion, interlude, interviews move, further-reading page in Book.txt, Check lines) sent as proposals or held; p95 cites HL1; brief 33 records that item 7 was confirmed in chat; RC2 recorded as his definition, not claimed met; no fire_trigger; a second designer only at his word",
+   "at": "2026-11-04T21:53:15Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "go: in scope; the address only in brief 33, FB2 (quoted, reading labelled) and later the manuscript, grep comms/from-newsroom/requests-out empty; the redacted copies carry neither the name nor the word; decided only where his words sign; RC2 recorded as his definition, not met; no fire_trigger",
+   "at": "2026-11-04T21:54:06Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "brief 33; FB2, NM1, TH1, PN1, EI2, LW2, RC2D decided with his words (the address only in brief 33 and FB2); the three passes copied redacted (name, religious word, address) with a header note; requests to writer 044, writer2 013, writer3 012, writer4 011, storyteller 075, publisher 089, researcher 071, designer 086, open items marked as his; address grep of comms, from-newsroom, requests-out empty; status with the RC2 checklist",
+   "at": "2026-11-04T21:56:04Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "partial",
+   "comment": "partial, fixed before the push: the 16 new letters had the body in the Cc line and the headers after it (the letter helper's arguments swapped); rebuilt in order (From, To, Cc, Date, Subject, X-Kind, References, body), outbox and mailroom copies identical, comms clean. All else as planned with corrections C1 to C7",
+   "at": "2026-11-04T21:57:13Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "finding",
+   "comment": "finding, fixed before the push: this wake record's plan comment and status.json named the reader and used the religious word; both now say 'the reader's name' and 'the religious word'. Otherwise clean: 23 files in scope; the address only in brief 33 and FB2; the passes redacted; seven decisions signed by his words; RC2D not met; no fire_trigger; letters to owners; comms clean; gate clean (1204)",
+   "at": "2026-11-04T21:57:37Z"
+  }
+ },
+ "closed": "2026-11-04T21:57:37Z",
+ "outcome": "ok"
+}
