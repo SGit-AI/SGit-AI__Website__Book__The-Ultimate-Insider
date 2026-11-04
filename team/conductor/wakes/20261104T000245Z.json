@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T00:02:45Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Reviewer agent: record the editor's 23:50 words verbatim as briefs/2026-11-04__in-session/01 in brief 07's format, 07 untouched, the reader's LinkedIn comment still not quoted; status: drop 'ask whether to name the reader', the run item says waiting not running, 'likely' an environment rule (inference); add the Sonnet five awaiting the editor's switch (matches brief 06). All in scope.",
+   "at": "2026-11-04T00:03:34Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Reviewer agent: in scope, 07 untouched, first name only and already public. Conditions: no surname, handle, link or contact; his comment not quoted; words verbatim; 'likely an environment rule' marked as inference; the new brief says plainly it records the editor's call that 07 left open; vault_check and gate before push.",
+   "at": "2026-11-04T00:04:00Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Brief 2026-11-04 01 written (his words verbatim, 07 untouched, first name only, comment not quoted, inference marked); status next items updated and the Sonnet five added; no em-dash or religious word.",
+   "at": "2026-11-04T00:04:19Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
