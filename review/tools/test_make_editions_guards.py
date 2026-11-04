@@ -20,6 +20,9 @@ BAD_TAGS += ['<a href="java&amp;#9;script:alert(1)">', '<a href="java&Tab;script
              '<a href="&bsol;&bsol;h">', '<meta http-equiv=refresh content="0;url=\\\\h">',
              '<style>@import "//h/x.css";</style>', '<style>@import "https://evil.com/x.css";</style>', '<div style="background:image-set(\'http://h/x\' 1x)">',
              '<div style="background:u\\72l(//h/x)">']
+GOOD_TAGS += ['<script src="{{root}}review/pages.js" defer></script>', '<script src="{{root}}review/pen.js" defer></script>']
+BAD_TAGS += ['<script>alert(1)</script>', '<script src="https://cdn.example/x.js"></script>', '<script src="{{root}}review/evil.js"></script>',
+             '<script src="//h/x.js"></script>', '<img src=a.png onerror=alert(1)>', '<A ONCLICK="x">t</A>', '<body onload=x>', '<div OnMouseOver=x>']
 CLAIMS = {'C001': {'source': 'web https://example.org/a'}, 'C002': {'source': 'nothing'}}
 
 

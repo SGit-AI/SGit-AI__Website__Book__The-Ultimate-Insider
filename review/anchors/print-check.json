@@ -1,9 +1,9 @@
 {
  "about": "The full book's printed pages checked for pages that may not look right (conductor__036). Written by review/tools/print_check.py: page numbers, chapter titles, counts and sizes only.",
  "edition": "rc2-150",
- "source": "a PDF given by hand (full.pdf, created Wed Nov  4 19:09:18 2026 UTC); its chapters are taken to be today's",
- "pdf_pages": 142,
- "chapters_hash": "ee58bde405d93255",
+ "source": "a PDF given by hand (full.pdf, created Wed Nov  4 20:15:20 2026 UTC); its chapters are taken to be today's",
+ "pdf_pages": 143,
+ "chapters_hash": "14b19538ca6a0bfc",
  "thresholds": {
   "spill_fill_below": 0.25,
   "gap_fill_below": 0.7,
@@ -13,11 +13,25 @@
  "chapters_found": 31,
  "chapters": 31,
  "counts": {
-  "chapter_end_spill": 5,
+  "chapter_end_spill": 6,
   "gap_page": 7,
-  "figure_apart": 18
+  "figure_apart": 16
  },
  "flags": [
+  {
+   "kind": "chapter_end_spill",
+   "page": 121,
+   "chapter": "The tour, at length",
+   "lines": 1,
+   "fill": 0.04
+  },
+  {
+   "kind": "chapter_end_spill",
+   "page": 139,
+   "chapter": "Appendix A: every number, and how to rerun it",
+   "lines": 3,
+   "fill": 0.06
+  },
   {
    "kind": "chapter_end_spill",
    "page": 90,
@@ -47,18 +61,20 @@
    "fill": 0.17
   },
   {
-   "kind": "chapter_end_spill",
-   "page": 138,
-   "chapter": "Appendix A: every number, and how to rerun it",
-   "lines": 9,
-   "fill": 0.23
-  },
-  {
    "kind": "gap_page",
    "page": 49,
    "chapter": "Hours four and five: before dawn",
    "fill": 0.23,
    "lines": 6,
+   "raster_figure_here": false,
+   "borderline": false
+  },
+  {
+   "kind": "gap_page",
+   "page": 84,
+   "chapter": "Hour nineteen, minute by minute",
+   "fill": 0.55,
+   "lines": 15,
    "raster_figure_here": false,
    "borderline": false
   },
@@ -77,15 +93,6 @@
    "chapter": "Hour three: every wake read twice, and the first to be caught",
    "fill": 0.56,
    "lines": 24,
-   "raster_figure_here": false,
-   "borderline": false
-  },
-  {
-   "kind": "gap_page",
-   "page": 84,
-   "chapter": "Hour nineteen, minute by minute",
-   "fill": 0.57,
-   "lines": 16,
    "raster_figure_here": false,
    "borderline": false
   },
@@ -182,13 +189,6 @@
   },
   {
    "kind": "figure_apart",
-   "page": 85,
-   "chapter": "Hour nineteen, minute by minute",
-   "intro_page": 84,
-   "pages_apart": 1
-  },
-  {
-   "kind": "figure_apart",
    "page": 93,
    "chapter": "How do we contain this",
    "intro_page": 92,
@@ -238,14 +238,6 @@
    "intro_page": 118,
    "pages_apart": 1,
    "introduced_by": "a heading"
-  },
-  {
-   "kind": "figure_apart",
-   "page": 120,
-   "chapter": "The tour, at length",
-   "intro_page": 119,
-   "pages_apart": 1,
-   "introduced_by": "a heading"
   }
  ],
  "raster_figures_over_45_percent_on_pages": [],
@@ -255,41 +247,47 @@
   "heading_checked": 17,
   "heading_page_not_found": 0,
   "introduced_by_the_dramatised_note": 0,
-  "begin_on_a_later_page_than_their_heading": 5,
+  "begin_on_a_later_page_than_their_heading": 4,
   "with_a_paragraph_before_them_in_the_section": 82,
   "not_found": 0,
-  "begin_on_a_later_page_than_that_paragraph_ends": 13
+  "begin_on_a_later_page_than_that_paragraph_ends": 12
  },
  "since_last": {
-  "previous_pdf_pages": 141,
+  "previous_pdf_pages": 142,
   "previous_counts": {
-   "chapter_end_spill": 7,
+   "chapter_end_spill": 5,
    "gap_page": 7,
-   "figure_apart": 16
+   "figure_apart": 18
   },
   "fixed": [
    {
-    "kind": "chapter_end_spill",
-    "chapter": "Hour one: the empty project",
+    "kind": "figure_apart",
+    "chapter": "Hour nineteen, minute by minute",
     "before": 1,
     "now": 0
    },
    {
-    "kind": "chapter_end_spill",
+    "kind": "figure_apart",
     "chapter": "The tour, at length",
-    "before": 1,
-    "now": 0
+    "before": 4,
+    "now": 3
    }
   ],
   "new": [
    {
-    "kind": "figure_apart",
+    "kind": "chapter_end_spill",
     "chapter": "The tour, at length",
-    "before": 2,
-    "now": 4
+    "before": 0,
+    "now": 1
    }
   ],
   "remaining": [
+   {
+    "kind": "chapter_end_spill",
+    "chapter": "Appendix A: every number, and how to rerun it",
+    "before": 1,
+    "now": 1
+   },
    {
     "kind": "chapter_end_spill",
     "chapter": "What did not work",
@@ -315,14 +313,14 @@
     "now": 1
    },
    {
-    "kind": "chapter_end_spill",
-    "chapter": "Appendix A: every number, and how to rerun it",
+    "kind": "gap_page",
+    "chapter": "Hours four and five: before dawn",
     "before": 1,
     "now": 1
    },
    {
     "kind": "gap_page",
-    "chapter": "Hours four and five: before dawn",
+    "chapter": "Hour nineteen, minute by minute",
     "before": 1,
     "now": 1
    },
@@ -335,12 +333,6 @@
    {
     "kind": "gap_page",
     "chapter": "Hour three: every wake read twice, and the first to be caught",
-    "before": 1,
-    "now": 1
-   },
-   {
-    "kind": "gap_page",
-    "chapter": "Hour nineteen, minute by minute",
     "before": 1,
     "now": 1
    },
@@ -394,12 +386,6 @@
    },
    {
     "kind": "figure_apart",
-    "chapter": "Hour nineteen, minute by minute",
-    "before": 1,
-    "now": 1
-   },
-   {
-    "kind": "figure_apart",
     "chapter": "How do we contain this",
     "before": 2,
     "now": 2
@@ -415,12 +401,6 @@
     "chapter": "Principles, and build your own",
     "before": 1,
     "now": 1
-   },
-   {
-    "kind": "figure_apart",
-    "chapter": "The tour, at length",
-    "before": 2,
-    "now": 4
    }
   ]
  },
@@ -430,7 +410,7 @@
   "how a page looks beyond how far its content reaches"
  ],
  "paragraphs_found_on_a_page": {
-  "found": 985,
-  "of": 997
+  "found": 992,
+  "of": 1004
  }
 }

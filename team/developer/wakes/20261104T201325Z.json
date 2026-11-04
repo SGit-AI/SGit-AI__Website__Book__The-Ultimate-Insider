@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled wake, 20:12",
+ "started": "2026-11-04T20:13:25Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions for Claude_Docs, github, Gmail in context, no tools for them). Plan run before any file was touched. (1) security__008: the Should (refuse other scripts than review/pages.js and review/pen.js and any on* attribute) with tests, guard test file run before every real build, --dry first, then the documented sequence for real and push; (2) page check on the PDF of 20:03 against the real run's editions.json, mail changes counted from 055 (developer__057); (3) housekeeping with exit codes. Conditions: tests for a third-party script, an inline script, on* in any case, the two allowed scripts; no stray scratch output.",
+   "at": "2026-11-04T20:14:32Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them). Within policy. Conditions: Should and its tests before the real run; guard tests run immediately before each real build; --dry first; exit codes before any push; vault_check; branch and dev only.",
+   "at": "2026-11-04T20:14:32Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
