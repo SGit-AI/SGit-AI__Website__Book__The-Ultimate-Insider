@@ -56,7 +56,7 @@
 
 `%% figure brief: the image: index/talk-site/shots/studio-ports__abp-review__masked.jpg (moved out of the caption, which prints: conductor__033).`
 
-`%% record: PN1 (signed, brief 33: name Agent Behaviour Policies, RiskMandate and SHarness); C061 (SHarness, from 24 October 2026); manuscript/11b (RiskMandate's Agent Behaviour Policy); C072 (eight of ten agreed) C081 (the page's "all ten" contradicted by the files); security__006 (the QR opens a public page of the talk's site)`
+`%% record: PN1 (signed, brief 33: name Agent Behaviour Policies, RiskMandate and SHarness); C061 (SHarness, from 24 October 2026); manuscript/11b-what-was-already-there.md (RiskMandate's Agent Behaviour Policy); C072 (eight of ten agreed) C081 (the page's "all ten" contradicted by the files); security__006 (the QR opens a public page of the talk's site)`
 
 `%% figure brief: The talk's own page, from the librarian's screenshot index/talk-site/shots/studio-ports__abp-review__masked.jpg, if the build's rule for screenshots allows it.`
 

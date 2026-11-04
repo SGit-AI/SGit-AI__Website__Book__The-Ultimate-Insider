@@ -41,3 +41,4 @@ The full book: every scene, the appendices, the record markers live online. Writ
 - 4 November 2026, 20:33 UTC: 05, 00 and 09 to the review desk; the seventy's 01 masked.
 - 4 November 2026, 21:33 UTC: 06's five stages, 08's two times, 03b's figure aligned.
 - 4 November 2026, 22:34 UTC: brief 33 in 00 to 09 (FB2, TH1, PN1, EI2).
+- 4 November 2026, 23:37 UTC: SC1, 06's interviews out to writer3.

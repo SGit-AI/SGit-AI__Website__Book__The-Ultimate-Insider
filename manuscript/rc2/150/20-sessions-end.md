@@ -62,7 +62,7 @@
 
 **Narrator.** I want to show you the shape of the rest of that handover, because it is a document I would copy into any team, of agents or of people. The conductor wrote it, so it can say it. One line, the one that names the old session and its key, is left out.
 
-**Conductor**: Who you were, where to start, where you stand, what to do first and what is waiting, and every file I got it from, so you can check me against the record instead of trusting me.
+**Conductor**: It ends with every file I got it from, so you can check me against the record instead of trusting me.
 
 **Conductor**: Then it is yours.
 
