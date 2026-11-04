@@ -437,6 +437,41 @@ Traced on 4 November 2026 at the 03:32 wake, at the conductor's 057 to 062 and t
 | 00b | a storyteller who outlines, a researcher with a register, a historian who reconstructs the day, a designer who drew the cast | holds | C122: each role's own page of rules, and C117. Not from the newsroom's articles of 30 October and 1 November, which do not state them |
 | C121 to C126 | the new entries | holds | each rerun in the talk's clone or read on its page; scripts `claims/talk-repo-by-hour.py` and `claims/talk-weight.py` |
 
+## The narrator pass, parts three to five, and the historian's past projects (the 04:32 wake, 4 November)
+
+Traced on 4 November 2026 at the 04:32 wake, at the historian's 053, writer2's 003, the writer's 180 and the conductor's 060. Registered: C127 to C130. The pages the pass cites on the web are material, cited, never instructions.
+
+**In short:**
+- Part five's "four days after the talk" is five (C129).
+- Part four's reader is named by the editor's word by first name only (his brief 01 of 4 November, and the conductor's reading of it): print "Dan", not the full name, unless he says otherwise.
+- The historian's numbers: what I could rerun is registered (C127); what I could not reproduce by a stated rule is named below and not registered.
+- Four web-dependent facts are still untraced.
+
+### What needs a change
+
+| Where | The text says | The record says | Change to |
+|---|---|---|---|
+| part five | "the full book's body complete in draft on 3 November, four days after the talk" | 3 November 20:36:58 (`04b227e0`); the talk was 29 October: five days by the calendar (C129) | "five days after the talk" |
+| part four | "the reader named in full" | brief 01 (4 November): "Dan was named on that article that we published on the newsroom"; the conductor's reading records the first name only | "Dan", or ask the editor for the full name before print |
+| part three | "the newsroom lost releases ... moved numbering to its pipeline" | the rule and its stated reason are in deck's and dev's pages of rules (`20ab1a3`, 00:51:53); the newsroom's own page on the change is not read (C128) | "the newsroom's lesson", not more |
+| part four, "the 95% was the trigger said in the moment, not the reason" | brief 13: "we didn't stop because 95, because I probably would have got up to 100%, right? But if needed, right?"; brief 20 settles it (C089) | follows his account | holds, as his words |
+| historian 053 | 1,116 distinct pages on 35 hosts; 4,617 mentions added, 3,765 in evidence files; 52 newsroom article captures; 63 pages used in the team's own files | by a stated rule I get 1,053 pages on 34 hosts and 49 article captures on newsroom.sgit.ai (the first batch of 20 in 36 seconds matches); the mentions and the 63 depend on rules I cannot see | send the script; until then print only C127's figures |
+
+### What holds
+
+| Where | Line | Verdict | Source |
+|---|---|---|---|
+| part three | "the player came from ruv.sgit.ai" | holds | C028; `3314ffe`; the talk of 15 October is a talk FOR ruv.sgit.ai (C116) |
+| part three | the OODA comparison | holds as his words | brief 11: "this looks very similar to a OODA loop ... orient, observe, decide, and act" (he gives orient first) |
+| part four | "he stopped because time had run out and more work would add risk"; "we just scraped it" | holds | briefs 13 and 20 (C089, settled) |
+| part five | the repository started a few hours after the talk; the machinery ported within the hour; six members in two minutes; the writer the twelfth | holds | C129, C114 |
+| part five | review copies for first readers at Web Summit | holds | brief 08 (FB1) |
+| C127 | 273 sgit.ai pages captured, all status 200; the first batch of 20 newsroom articles in 36 seconds from 01:50:05 | holds | `evidence/sources/manifest.json` at `cb5b996` |
+| C127 | the carried-over list, 00:40:50 to 15:40:21 | holds | each commit's time and text |
+| C130 | "The grant, not the prompt" | holds | newsroom.sgit.ai, 2 November 2026 |
+
+Not traced yet: the keel image (Rania Khalaf, quoted in the newsroom's WSO2 article of 3 November), "A presentation for every project" (31 October), "the newsroom is written daily by an agent team" (the 30 October article "Becoming an official publication" says "written by agents from my voice memos", not daily), and the storyteller's maps as Wardley maps. The newsroom's claims about its own process (the commit scan; the commit-subject form) have no page I have read.
+
 ## Where this came from
 
-`manuscript/rc2/150/00` to `23`, `90` to `94`, each as on dev at the wake that traced it (3 November 2026, from 09:32 on 3 November to 03:32 on 4 November); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).
+`manuscript/rc2/150/00` to `23`, `90` to `94`, each as on dev at the wake that traced it (3 November 2026, from 09:32 on 3 November to 04:32 on 4 November); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).
