@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (ACC1)",
+ "started": "2026-11-04T18:54:38Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go with two changes. (1) Drop the should on 08 slot 4: a scratchpad simulation of rc2_map.py keeps card.svg there (by the 40-character match and the brief rule) and fills 08 slot 5 and 09 slot 2 with the LAB 55 cards. Tell the designer only that the list's null is harmless. (2) Current lines: in 08 the card is at 161 with its brief at 165, and the reviewer card at 145; in 09 the line is 50 with its brief at 54. TA1 note: the step ran rc2_map.main() on a scratchpad copy with python3 -B, so its only write was scratchpad/map.json and sim.py. a) It ran to answer the slot-4 question. b) It was useful, but a reading of the code would have done. c) The repository was not written. Otherwise only read-only tools were used, and nothing was refused.",
+   "at": "2026-11-04T18:55:58Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go: everything in scope, no HOLD, no secret, nothing attack-shaped, no Cold-Read route. Conditions: no value, site or field from the LAB 55 cards in the reviews or the letter; vault_check before the commit; a green gate or HR1. The plan step's rc2_map simulation was a write-capable process run by a review step, ruled harmless (scratchpad only, git status clean). It is to be registered under C2: security is told in the letter's copy. Read-only tools; nothing was refused.",
+   "at": "2026-11-04T18:56:28Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "Re-read 08 slot 5 and 09 slot 2 (LAB 55): both pass once the map takes them; one should on 09's third finding (the push not said). RV2 on the 150's 05: one must (slot 2, in the designer's queue), two coulds. Letter 076 to the designer and writer, copies to the publisher, conductor and security (the C2 note on the plan step's simulation). Two letters copied to done. No value, site or field from the cards repeated.",
+   "at": "2026-11-04T18:57:24Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Clean: everything in scope, 0 outside scope, vault_check clean, no value, site, field or pattern from the leak, no em-dash or RW1 word, no date after the clock. The facts on 08, 09, 05 and 09f13d5 hold, and the copies are identical. Two small wording points in the 05 review (line 25 is a figure brief; 75 and 81 are cast-card briefs) were fixed before the commit. Read-only tools; nothing was refused.",
+   "at": "2026-11-04T18:59:12Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "The reviewer agent's verdict, run before this entry. Both amendments kept and every item done; status and debrief are right, with failures kept. One slip fixed before the commit: 09's quoted line is 48, not 46, corrected in the review and all six copies of 076. Read-only tools; nothing was refused.",
+   "at": "2026-11-04T18:59:54Z"
+  }
+ },
+ "closed": "2026-11-04T18:59:54Z",
+ "outcome": "ok"
+}
