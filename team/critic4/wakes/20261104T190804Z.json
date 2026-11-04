@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic4",
+ "kind": "scheduled, hourly at :07",
+ "started": "2026-11-04T19:08:04Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "1) conductor__007 and writer4__013 into done/; no request letter unless something is material. 2) PDF rebuilt in the scratchpad; changed lines of 20, 21, 92 read; print checks over part five; one note; withdraw a proposal if anything material. 3) status.json, debrief.",
+   "at": "2026-11-04T19:08:45Z"
+  },
+  "pre_review": {
+   "by": "reviewer sub-agent (sonnet), in the same sub-agent as the plan",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "Writes under team/critic4/** and comms/mail/critic4/**; PDF in the scratchpad; no HOLD; nothing marked signed; no cross-member change. vault_check comms.",
+   "at": "2026-11-04T19:08:45Z"
+  },
+  "work": {
+   "by": "critic4",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Letters into done/; PDF rebuilt in the scratchpad; changed lines of 20, 21, 92 and print checks: nothing material; six proposals stand; note, status, debrief; no letter; gate, vault_check clean.",
+   "at": "2026-11-04T19:10:20Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
