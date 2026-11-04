@@ -1,0 +1,29 @@
+{
+ "schema": "the-ultimate-insider/synthetic-section-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "first-build-finisher", "read_at": "66a7ac35",
+ "would_read_on": {"16-hour-nineteen-minute-by-minute": "maybe", "17-what-did-not-work": "yes", "07-hour-three-the-five-steps": "maybe"},
+ "findings": [
+  {"file": "07-hour-three-the-five-steps.md", "line": 57, "quote": "put the check for wake records into the gate", "principle": "reader", "severity": "must", "why": "\"gate\" and \"wake record\" arrive in one sentence with no meaning yet, and a first-time builder feels this is for programmers."},
+  {"file": "07-hour-three-the-five-steps.md", "line": 11, "quote": "the team had a clock and a hold", "principle": "reader", "severity": "should", "why": "\"hold\" and \"wake\" are used as if known; the definitions only come on line 19, after I have already lost the thread."},
+  {"file": "07-hour-three-the-five-steps.md", "line": 29, "quote": "Amended after the pre-review's change, all five conditions adopted", "principle": "reader", "severity": "should", "why": "A string of internal terms (amended, pre-review, conditions) that I cannot follow as a story."},
+  {"file": "07-hour-three-the-five-steps.md", "line": 17, "quote": "Plan it, have the plan checked, do it, have it checked, check it went to plan.", "principle": "21", "severity": "should", "why": "The five stages are already given on line 13 and again in the walk-through that follows, so I read the same list three times."},
+  {"file": "07-hour-three-the-five-steps.md", "line": 41, "quote": "Good. But know what it is:", "principle": "6", "severity": "could", "why": "It tells me how to take the line; and the \"second reading, not a second identity\" quote comes back on line 115."},
+  {"file": "07-hour-three-the-five-steps.md", "line": 73, "quote": "that the clock started, and not me, is not the conductor's", "principle": "reader", "severity": "could", "why": "The sentence needs two reads to untangle who started what."},
+  {"file": "16-hour-nineteen-minute-by-minute.md", "line": 17, "quote": "I flagged it ready for its lock. Deck put the title slide in front of it.", "principle": "reader", "severity": "must", "why": "\"flagged\", \"lock\" and \"parts\" are unexplained here, the gloss for lock only comes on line 45, and I cannot tell who is doing what."},
+  {"file": "16-hour-nineteen-minute-by-minute.md", "line": 13, "quote": "the team was doing what it had done all afternoon, only faster.", "principle": "1", "severity": "could", "why": "The narrator reports from outside with no \"I\" and no hindsight about what faster meant."},
+  {"file": "16-hour-nineteen-minute-by-minute.md", "line": 81, "quote": "four hundred and thirty-nine commits by the agents, a hundred and sixty-two sessions", "principle": "21", "severity": "should", "why": "A wall of figures with commits, sessions and releases undefined, then the tally figure on line 91 shows them again."},
+  {"file": "16-hour-nineteen-minute-by-minute.md", "line": 103, "quote": "Three sessions were already running when the hold went in.", "principle": "1", "severity": "should", "why": "A run of reporting lines about who closed what, with no \"I\" and no sense of what the editor felt looking back."},
+  {"file": "16-hour-nineteen-minute-by-minute.md", "line": 109, "quote": "a hold stops the next session; it does not stop one already running.", "principle": "21", "severity": "should", "why": "Said again in the \"Something to try\" card on line 135, and the locks losing the race is told on lines 37 and 118."},
+  {"file": "17-what-did-not-work.md", "line": 76, "quote": "Not a disaster on stage. A small, true error that the record caught", "principle": "7", "severity": "could", "why": "Short clipped sentences after a paragraph that already gave the figure on line 72."},
+  {"file": "17-what-did-not-work.md", "line": 30, "quote": "Chapter 16 told this one. In a line:", "principle": "21", "severity": "should", "why": "The lock story is retold straight after chapter 16, and the Dev lines then say it a third time."},
+  {"file": "17-what-did-not-work.md", "line": 132, "quote": "One was in the article only, one on no beat or slide at all", "principle": "reader", "severity": "should", "why": "\"beat\" and \"story tree\" are never explained, so the claims that did not hold stay vague."},
+  {"file": "17-what-did-not-work.md", "line": 99, "quote": "I printed a vault key into my own session log.", "principle": "reader", "severity": "could", "why": "\"vault key\" and \"session log\" are unexplained, though the lesson to rotate and report is clear."}
+ ],
+ "what_holds": [
+  "17-what-did-not-work.md: the cards, with what it cost and whose record, are easy to follow; the agents admitting misses in their own voices is what I would start tomorrow with, a short list of misses.",
+  "16-hour-nineteen-minute-by-minute.md: the editor's own reason for stopping (\"diminishing returns\", the 95% a coincidence) is human and honest, and \"I could keep going. That is exactly why I am stopping\" sticks.",
+  "07-hour-three-the-five-steps.md: the reviewer catching its own author on the first run is a clear, followable story with a person-like cast."
+ ],
+ "notes": "As a no-code reader I could take the Something to try cards as steps, but the chapters assume the team's words (wake, gate, hold, lock) before teaching them. Chapter 17 is the most readable of the three."
+}

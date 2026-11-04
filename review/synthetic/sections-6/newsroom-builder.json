@@ -1,0 +1,147 @@
+{
+ "schema": "the-ultimate-insider/synthetic-section-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "newsroom-builder",
+ "read_at": "66a7ac35",
+ "would_read_on": {
+  "16-hour-nineteen-minute-by-minute": "yes",
+  "17-what-did-not-work": "yes",
+  "07-hour-three-the-five-steps": "maybe"
+ },
+ "findings": [
+  {
+   "file": "16-hour-nineteen-minute-by-minute.md",
+   "line": 17,
+   "quote": "Part one is final, and nothing misses it: I flagged it ready for its lock.",
+   "principle": "reader",
+   "severity": "should",
+   "why": "The opening conductor speech uses lock, flag and part before any is explained (the glossary comes at line 45), and 'nothing misses it' is opaque, so a first reader stalls at the top of the chapter."
+  },
+  {
+   "file": "16-hour-nineteen-minute-by-minute.md",
+   "line": 13,
+   "quote": "In its last hour, the team was doing what it had done all afternoon, only faster.",
+   "principle": "1",
+   "severity": "could",
+   "why": "The narrator reports the team from outside with no 'I' and no hindsight, where the editor could say what he saw from the player."
+  },
+  {
+   "file": "16-hour-nineteen-minute-by-minute.md",
+   "line": 17,
+   "quote": "Deck put the title slide in front of it. The storyteller checked parts two and three",
+   "principle": "reader",
+   "severity": "should",
+   "why": "Quoted dialogue for the conductor is shown as speech and only marked Dramatised after the scene, so a reader who cares about sources takes invented lines as record until the tag arrives."
+  },
+  {
+   "file": "16-hour-nineteen-minute-by-minute.md",
+   "line": 81,
+   "quote": "four hundred and thirty-nine commits by the agents, a hundred and sixty-two sessions on the record",
+   "principle": "21",
+   "severity": "should",
+   "why": "The scene reads the tally aloud and the figure at line 91 then draws the same tally; as a sourcing-minded reader I also want the register id beside a number this prominent."
+  },
+  {
+   "file": "16-hour-nineteen-minute-by-minute.md",
+   "line": 118,
+   "quote": "The thing that actually stopped the factory came from outside it: me, deciding that the day's work was done.",
+   "principle": "21",
+   "severity": "should",
+   "why": "The reason for stopping was already told at line 49 and is told again in chapter 17 line 11, so the same account appears three times."
+  },
+  {
+   "file": "17-what-did-not-work.md",
+   "line": 5,
+   "quote": "what is left is the accounting, at full size: the failures stay in.",
+   "principle": "21",
+   "severity": "should",
+   "why": "The same promise is made again at line 24 (The failures stay in, at full size), so the reader hears it twice within twenty lines."
+  },
+  {
+   "file": "17-what-did-not-work.md",
+   "line": 30,
+   "quote": "Chapter 16 told this one. In a line:",
+   "principle": "21",
+   "severity": "should",
+   "why": "The lock is retold here as narration and then a third time in the two dev lines that follow, after it filled most of chapter 16."
+  },
+  {
+   "file": "17-what-did-not-work.md",
+   "line": 58,
+   "quote": "The conductor asked the storyteller to split the story into three parts by a deadline in the late afternoon.",
+   "principle": "1",
+   "severity": "should",
+   "why": "A narrator line that reports the record with no 'I' and no hindsight, repeated across the cards (lines 44, 111, 123) so the card format reads like a log."
+  },
+  {
+   "file": "17-what-did-not-work.md",
+   "line": 87,
+   "quote": "it was nothing sensitive, an agent that got a bit excited",
+   "principle": "reader",
+   "severity": "must",
+   "why": "As an editor who needs sources I would stop here: data from other sites went into a public push, and the text waves it away with no description of what it was or how it was checked."
+  },
+  {
+   "file": "17-what-did-not-work.md",
+   "line": 132,
+   "quote": "One was in the article only, one on no beat or slide at all, one in the story tree only.",
+   "principle": "reader",
+   "severity": "should",
+   "why": "Article, beat and story tree are used as if known and the three claims are never named, so the reader cannot see which claims failed."
+  },
+  {
+   "file": "17-what-did-not-work.md",
+   "line": 76,
+   "quote": "Not a disaster on stage. A small, true error that the record caught and the freeze kept in.",
+   "principle": "7",
+   "severity": "could",
+   "why": "Two clipped fragments that could run into one sentence with the thought that the record caught it."
+  },
+  {
+   "file": "07-hour-three-the-five-steps.md",
+   "line": 11,
+   "quote": "the first wake to follow it was the wake that wrote it.",
+   "principle": "reader",
+   "severity": "should",
+   "why": "Wake is used from the first lines and only defined at line 19, and pre-review and post-review appear before the stages are laid out."
+  },
+  {
+   "file": "07-hour-three-the-five-steps.md",
+   "line": 73,
+   "quote": "The first wake in the record that the clock started, and not me, is not the conductor's.",
+   "principle": "reader",
+   "severity": "could",
+   "why": "A double negative that I had to read twice before I knew whose wake it was."
+  },
+  {
+   "file": "07-hour-three-the-five-steps.md",
+   "line": 57,
+   "quote": "And not only for the member that skipped. For every member.",
+   "principle": "7",
+   "severity": "could",
+   "why": "Fragments that could join the previous sentence so it keeps its thought."
+  },
+  {
+   "file": "07-hour-three-the-five-steps.md",
+   "line": 17,
+   "quote": "Plan it, have the plan checked, do it, have it checked, check it went to plan.",
+   "principle": "21",
+   "severity": "could",
+   "why": "The five stages are listed here, explained at line 13, and walked through again step by step, and the Something to try repeats the point about a record you know is wrong."
+  },
+  {
+   "file": "07-hour-three-the-five-steps.md",
+   "line": 113,
+   "quote": "every piece of work on the team went the same way, and a skipped step stopped the release",
+   "principle": "reader",
+   "severity": "should",
+   "why": "In this chapter the editor's signature as a control is not shown, only reviewers who are the same kind of agent, and a reader worried about a rubber-stamping editor wants to see where he signs."
+  }
+ ],
+ "what_holds": [
+  "16-hour-nineteen-minute-by-minute.md: the hold file quoted as written and the plain admission that the 95% was a coincidence; a stop button that stops the next session and not one already running is the finding I would take away.",
+  "17-what-did-not-work.md: each failure is a card with its cost and whose record says so, which is the discipline I want in my own newsroom; the freeze and the key rotation read as honest.",
+  "07-hour-three-the-five-steps.md: the walk through one real wake record, including the review catching its own author, shows the check working and not only being described."
+ ],
+ "notes": "The prose itself is mostly clean. For the newsroom question, the clearest gap is where the editor signs as a control: chapters 16 and 7 show agents checking agents, and the editor appears as the person who stops, not yet as the person who signs."
+}
