@@ -17,6 +17,13 @@
    "verdict": "go",
    "comment": "(1) Fidelity confirmed: release.yml's full-book step and print_pages.py's COMMON/BUILDS match; the publisher's extra-css and drop-section lines are in Book.txt, which the build reads. (2) Run the three tools in order, then print_check.py; compare the page count with the publisher's 142. (3) print_check.py diffs each run against the last by kind and chapter (fixed, new, remaining) and sorts gap pages emptiest first. (4) developer__034 to the publisher and designer (what changed) and developer__035 to the publisher (reply), outbox copies byte-identical. (5) Status, debrief, REALITY, vault_check, gate, push.",
    "at": "2026-11-04T02:15:30Z"
+  },
+  "work": {
+   "by": "developer@book.the-ultimate-insider (claude-sonnet-5-5)",
+   "model": "",
+   "verdict": "done",
+   "comment": "In e43a5380: the page check on CI's published full-book PDF (140 pages): 8 tails under a quarter full (the emptiest page 116, one line), 5 gap pages (emptiest page 61, 40%), 3 low-confidence figure separations; second list to the publisher and designer (developer__034) and a reply to the publisher (developer__035), generated from the result files, outbox copies cmp-identical. Found and fixed my own bug: after the publisher's re-layout the paragraph matching fell to 81 of 1019 (a repeated passage on page 122 stranded the forward-only search), nothing wrong committed; the search is now bounded to 8 pages and no map is written below 60% found (841 of 868 now). Found a fidelity gap: this container's build is 141 pages against CI's 140 from the same inputs, agreeing page for page to about 137; print_check.py --pdf checks a given file (the tool never fetches; I downloaded the published PDF into a scratch folder and deleted it). print_check.py compares runs by chapter. Beyond the plan: --pdf, the matching fix and the guard. publishing/ and manuscript/ untouched; no temp folder left.",
+   "at": "2026-11-04T02:22:22Z"
   }
  },
  "closed": null,
