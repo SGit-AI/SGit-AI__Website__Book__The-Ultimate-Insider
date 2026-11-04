@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled wake, 12:12",
+ "started": "2026-11-04T12:20:02Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions for Claude_Docs, github, Gmail in context, no tools for them). Plan: page check on the PDF of 12:19, keep reporting the figures a page after their paragraph as the layout's trade (publisher__006); housekeeping; look at the pages for an answer to developer__039. Note: conductor__039 is a different letter (TG1) from my developer__039; no reply to mine found.",
+   "at": "2026-11-04T12:21:22Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them). Within policy: untrusted PDF in a fresh folder, python3 -I, deleted; mail to team members only, vault_check before commit; the figures list goes to the publisher and designer as information, not as a request to the writers; push to branch and dev only.",
+   "at": "2026-11-04T12:21:22Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
