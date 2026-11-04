@@ -2,7 +2,7 @@
 
 From the chapter's `%% record` lines (and its `## Where this came from`, where it still has one) in `manuscript/rc2/150/08-hours-four-and-five-before-dawn.md`, resolved by `index/tools/chapter_entries.py`. Each row is the index's own entry for the file: kind, owner, when it was added and last changed, and what it is.
 
-## talk at 298be4e (9)
+## talk at 298be4e (11)
 
 | Path | Kind | Owner | Added | Last changed | What it is |
 |---|---|---|---|---|---|
@@ -13,10 +13,12 @@ From the chapter's `%% record` lines (and its `## Where this came from`, where i
 | `team/deck/wakes` | folder |  | ``  | ``  |  |
 | `team/dev/ROLE.md` | role | dev | `1f7c633` 2026-10-29 00:40:50 | `6a6be6d` 2026-10-29 03:34:10 | Role: dev@the-ultimate-insider |
 | `team/conductor/night/20261029T0327.json` | night log | conductor | `794008c` 2026-10-29 03:27:52 | `794008c` 2026-10-29 03:27:52 | night log snapshot 01:40 to 03:27 UTC: 15 wakes, 56 commits, 12 made, 38 mail, 3 problems, 0 holds |
+| `team/designer/ROLE.md` | role | designer | `c6dcf89` 2026-10-29 03:41:34 | `72025ae` 2026-10-29 15:54:11 | Role: designer@the-ultimate-insider |
+| `team/designer/policy.json` | policy | designer | `c6dcf89` 2026-10-29 03:41:34 | `f448345` 2026-10-29 04:03:55 | title: Layout, width, type and the design system |
 | `team/designer/wakes` | folder |  | ``  | ``  |  |
 | `team/deck/debriefs/2026-10-29__e01-review.md` | debrief | deck | `aeffbf9` 2026-10-29 04:22:13 | `aeffbf9` 2026-10-29 04:22:13 | E01 reviewed: keep, v2 leads; E02 held for the pace |
 
-## this repository (11)
+## this repository (12)
 
 - `timeline/day/03.md`
 - `timeline/day/04.md`
@@ -29,6 +31,7 @@ From the chapter's `%% record` lines (and its `## Where this came from`, where i
 - `timeline/interviews/dev.md`
 - `timeline/README.md`
 - `timeline/day/00.md`
+- `chapter-plan/cast/cast-guide.md`
 
 ## Commits named (13)
 

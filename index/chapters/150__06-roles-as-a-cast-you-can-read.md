@@ -37,7 +37,7 @@ From the chapter's `%% record` lines (and its `## Where this came from`, where i
 | `admin/build/agents.py` | site build | dev | `f00101e` 2026-10-29 00:54:32 | `24da366` 2026-10-29 01:19:26 | builds the team pages from team/<id>/ and checks each member's writes against its policy (agents.py check) |
 | `team/dev/ROLE.md` | role | dev | `1f7c633` 2026-10-29 00:40:50 | `6a6be6d` 2026-10-29 03:34:10 | Role: dev@the-ultimate-insider |
 
-## this repository (18)
+## this repository (20)
 
 - `timeline/interviews`
 - `claims/register.json`
@@ -57,6 +57,8 @@ From the chapter's `%% record` lines (and its `## Where this came from`, where i
 - `timeline/interviews/storyteller.md`
 - `timeline/interviews/motion.md`
 - `timeline/interviews/studio.md`
+- `team/conductor/from-newsroom/2026-11-04__do-this-now-as-invitations.md`
+- `chapter-plan/cast/cast-guide.md`
 
 ## Commits named (45)
 

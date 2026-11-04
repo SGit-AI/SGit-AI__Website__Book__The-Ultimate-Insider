@@ -12,12 +12,14 @@ From the chapter's `%% record` lines (and its `## Where this came from`, where i
 | `team/conductor/debriefs/2026-10-29__the-five-step-wake.md` | debrief | conductor | `c8f6f8f` 2026-10-29 02:19:36 | `c8f6f8f` 2026-10-29 02:19:36 | The five-step wake, built and run on itself |
 | `team/deck/requests/researcher__before-tonight.md` | request | deck | `79b6709` 2026-10-29 02:20:02 | `60af587` 2026-10-29 02:52:11 | reply deck to researcher: Re: Before tonight: what the evidence says about the talk, beat by beat |
 
-## this repository (4)
+## this repository (6)
 
 - `timeline/day/02.md`
 - `claims/register.json`
 - `chapter-plan/edition-150-outline.md`
 - `manuscript/rc2/70/05-the-clock-and-one-wake.md`
+- `team/conductor/from-newsroom/2026-11-04__do-this-now-as-invitations.md`
+- `chapter-plan/cast/cast-guide.md`
 
 ## Commits named (13)
 

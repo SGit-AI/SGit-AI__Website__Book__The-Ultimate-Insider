@@ -191,6 +191,8 @@ The talk team's vaults are named in 10, not cited by path; nothing of them is in
 
 **4 November 2026, about 07:25 UTC: the 150's 22; 20 and 21 as changed (RV2); the two crops.** Sources clean; no voice hit; nothing in the logistics scan. 22 prints no quotation, time, number or commit id; its record lines name files that exist here. 21's figure now sets the book's own card titles in italics (my letter 002 taken). Security cleared nine of the eleven memory shots and asked for crops of the other two: `memory-crop-newsroom-sgit-ai-home.jpg` and `memory-crop-php-october-newsroom.jpg`, uncropped originals removed.
 
+**4 November 2026, about 08:25 UTC: the 150's 23 and 21's roll call (RV2).** Voice and logistics clean; sources clean but one tracing line in 23 (a shorthand path, letter writer4 004). Every figure in 21's cast cards is C131's (as of `05a9510d`); 23's one quotation of the record, the talk's rule about secrets, is word for word in the talk's `CLAUDE.md`, and "None yet." is the corrections file's. The crops are cleared by name (security's 008, the publisher's 003).
+
 ## The writer's readings, for the editor to keep or drop
 
 **Corrected 3 November 2026, about 09:30 UTC:** until this wake the list took only the notes that stand on a line of their own, and missed four set inside a paragraph (70/02:67, 70/02:97, 70/06:68, 70/11:5). The list now takes every note wherever it stands: thirty in the thirty and the seventy (not twenty-six), seven in the 150's part 1, thirty-seven in all.

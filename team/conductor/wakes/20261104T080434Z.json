@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T08:04:34Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "go with corrections: no duplicate editor asks (cite researcher 031, writer4 006 on existing lines); new asks: critic1 005 held-views tick-list (compiled next wake), writer4 006 last word A or B, synthetic 020 one answer for 22 and 23 step 5; editions.html:16 too; no chapter or page counts on the pages; grid strict (historian 14, 21 stay notes until it says pass); cite synthetic 020 by commit 1b2bbc63",
+   "at": "2026-11-04T08:08:31Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "go: in scope; PDF called a draft in review, never final, submitted or checked; no Leanpub or print date; no counts; keep the personas note; RV1 cited as signed; grid only from letters; nothing to Cold-Read; gate before push",
+   "at": "2026-11-04T08:08:53Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "12 letters filed; rc2.html rewritten as the full book's page (full draft first, online view, 30/70 secondary, principles kept, stale table and As-of line removed, no counts, draft in review only); index.html 16/48/49 and editions.html:16 fixed; grid from 9 letters, strict; three new editor asks, no duplicates; critic1 batch next wake",
+   "at": "2026-11-04T08:10:11Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "as-planned",
+   "comment": "as-planned: 039's must and three shoulds met (the upload-set could not planned); fixed before the push: times set to the commit's 08:10, and rc2.html no longer says four writers while writer3 has no task",
+   "at": "2026-11-04T08:10:48Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "finding",
+   "comment": "finding, fixed before the push: rc2.html's meta description still said four writers (now 'the writers'); storyteller 04 set to notes (five shoulds open, strict legend). Otherwise clean: all eight conditions met, grid matches the letters, gate clean, scope 0, comms clean",
+   "at": "2026-11-04T08:11:40Z"
+  }
+ },
+ "closed": "2026-11-04T08:11:40Z",
+ "outcome": "ok"
+}
