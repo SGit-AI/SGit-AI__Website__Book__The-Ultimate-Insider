@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "critic3",
- "as_of": "2026-11-04T21:47:00Z",
- "round": 9,
- "state": "16 and 17: six clean passes running (4 to 9), and nothing open outside the writer's lane either; proposed to the editor for sign-off (critic3__011), SO1 open, nothing signed",
+ "as_of": "2026-11-04T22:47:00Z",
+ "round": 10,
+ "state": "16 and 17: seven clean passes running (4 to 10), nothing open in or outside the writer's lane; proposed to the editor for sign-off (critic3__011), SO1 open, nothing signed",
  "cadence": "active: CRON_TZ=Europe/London 37 * * * *",
  "task": "trig_01G7aPmX4evQiUTYtXVjncqN",
  "key": "sha256:44f11e099399dd16 (team/critic3/key.json)",
@@ -48,6 +48,10 @@
   {
    "what": "pass 9 on 16 and 17: the shorter dashboard drawing closes page 83; nothing open in or outside the writer's lane; the proposal stands",
    "when": "2026-11-04"
+  },
+  {
+   "what": "pass 10 on 16 and 17: writer3's newsroom items (9264f4c7) checked in text and PDF; nothing material; the proposal stands",
+   "when": "2026-11-04"
   }
  ],
  "next": [
@@ -79,7 +83,7 @@
  ],
  "board": "comms/issues/critic3/issues/ (none yet)",
  "clean_passes": {
-  "16": 6,
-  "17": 6
+  "16": 7,
+  "17": 7
  }
 }
