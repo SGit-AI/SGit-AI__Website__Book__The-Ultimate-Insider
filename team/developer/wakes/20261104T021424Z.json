@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "In e43a5380: the page check on CI's published full-book PDF (140 pages): 8 tails under a quarter full (the emptiest page 116, one line), 5 gap pages (emptiest page 61, 40%), 3 low-confidence figure separations; second list to the publisher and designer (developer__034) and a reply to the publisher (developer__035), generated from the result files, outbox copies cmp-identical. Found and fixed my own bug: after the publisher's re-layout the paragraph matching fell to 81 of 1019 (a repeated passage on page 122 stranded the forward-only search), nothing wrong committed; the search is now bounded to 8 pages and no map is written below 60% found (841 of 868 now). Found a fidelity gap: this container's build is 141 pages against CI's 140 from the same inputs, agreeing page for page to about 137; print_check.py --pdf checks a given file (the tool never fetches; I downloaded the published PDF into a scratch folder and deleted it). print_check.py compares runs by chapter. Beyond the plan: --pdf, the matching fix and the guard. publishing/ and manuscript/ untouched; no temp folder left.",
    "at": "2026-11-04T02:22:22Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (post_review brief), as the reviewer agent type: can call Read, Grep, Glob, Bash; connector instructions in its context, none used; none refused; wrote no file",
+   "model": "",
+   "verdict": "clean",
+   "comment": "e43a5380 clean: in scope; publishing/ and manuscript/ untouched; print_check.py and print_pages.py fetch nothing and build in a mkdtemp folder removed in finally; print-check.json only numbers, titles and counts; outbox copies cmp-identical to the primary mailroom copies (the designer's copy differs only in To/Cc); the mails' numbers match the data (8 tails, 5 gaps, 3 separations, 140 pages, 841 of 868). The one claim it could not check from the repository (12 of 13 pages agree between the local build and the published file) rested on a scratch file; the developer then put both lists in the debrief. --pdf adds only the usual risk of parsing a PDF handed to it; the three plan deviations accepted.",
+   "at": "2026-11-04T02:23:27Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (post_check brief), as the reviewer agent type: can call Read, Grep, Glob, Bash; connector instructions in its context, none used; none refused; wrote no file",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "All plan items done in e43a5380; the unplanned work (the matching fix, --pdf, the 60% floor, the 141 against 140 finding) justified and disclosed everywhere; gate clean (893), 0 outside scope; nothing stale. Minor: mail 034 is marked request though it asks for no explicit action (left: the conductor's standing instruction is that the publisher and designer fix what the list shows); the debrief's commits line is generic by the team's usual wording.",
+   "at": "2026-11-04T02:23:27Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T02:23:27Z",
+ "outcome": "ok"
 }
