@@ -46,7 +46,7 @@
 
 ## The hold
 
-**Narrator.** A quarter of an hour before the talk, I told the conductor to pause everything. What I said in the moment was that we were at 95% of my usage. The real reason was time. We had run out of it: there was nothing left to do that would make much difference without adding risk to what was finished, and I had got everything I wanted to do. That is the point of diminishing returns, and it is the moment to stop. The 95% was a coincidence. I would have gone to 100 if it had been needed.
+**Narrator.** Sixteen minutes before the talk, I told the conductor to pause everything. What I said in the moment was that we were at 95% of my usage. The real reason was time. We had run out of it: there was nothing left to do that would make much difference without adding risk to what was finished, and I had got everything I wanted to do. That is the point of diminishing returns, and it is the moment to stop. The 95% was a coincidence. I would have gone to 100 if it had been needed.
 
 `%% for the editor: proposed, not printed until you confirm (his words in briefs 13 and 20, 4 November; the newsroom's question 1): "We scraped in, a little like the last scene of a Bond film, flying close to the sun, and it was good."`
 
@@ -72,7 +72,7 @@
 
 `%% figure brief: its title and its last line large.`
 
-`%% record: C006 C024 C100 C065 C005 C089 (the editor's account of 4 November: time ran out, diminishing returns, the 95% a coincidence; briefs/2026-11-04__in-session/20-the-open-items-answered.md and 13-introduce-the-cast-and-the-high-five.md, added after the day) 867f8c2 (18:44:13; his words through the conductor: "actually we are at 95% so it is better to pause all actions") team/conductor/HOLD.md at 298be4e (its title line and its line "What lifts it", quoted with the file's bold and bullet marks dropped) 88b8f00 (18:45:35, the designer: "part 2 on a projector, checked before the 19:30 lock: ready") cb5b996 (18:46:22)`
+`%% record: C006 C024 C100 (the talk due at 19:00; sixteen minutes, the register's round figure for 15 min 47 s, one figure across the book: conductor__007) C065 C005 C089 (the editor's account of 4 November: time ran out, diminishing returns, the 95% a coincidence; briefs/2026-11-04__in-session/20-the-open-items-answered.md and 13-introduce-the-cast-and-the-high-five.md, added after the day) 867f8c2 (18:44:13; his words through the conductor: "actually we are at 95% so it is better to pause all actions") team/conductor/HOLD.md at 298be4e (its title line and its line "What lifts it", quoted with the file's bold and bullet marks dropped) 88b8f00 (18:45:35, the designer: "part 2 on a projector, checked before the 19:30 lock: ready") cb5b996 (18:46:22)`
 `%% band: Dramatised (the conductor's and the designer's lines). Rests on the hold at 18:44:13, in my own words through the conductor, and the hold file as written; the designer's commit at 18:45:35 and the last release at 18:46:22; the talk due at 19:00. The reason is my account given after the day (C089).`
 *Dramatised.*
 

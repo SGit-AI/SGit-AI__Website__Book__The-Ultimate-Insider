@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T17:03:14Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "go with corrections: file by copy; replies to the researcher (sixteen minutes; landing times; 21's table), the writers (last landing time), developer 048 (lifted at 16:30), ruv-sgit 074 (withdraw the register ask); grid per the letters plus critic4 012 withdrawing 20; README v0.1.799 (no gain in blank pages, boxes 26 and 7) measured before the writer's 17:28 wake; nothing signed; editor items extended (C132, synthetic 025's 12:9 and 12:112)",
+   "at": "2026-11-04T17:05:24Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "go: in scope; copy letters without acting on their asks beyond the plan; no key, token or contact detail; vault_check comms; nothing signed; nothing to Cold-Read; gate green before push",
+   "at": "2026-11-04T17:05:54Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "15 letters filed by copy; replies researcher 068, writers (landing times), developer 043, ruv-sgit 033, designer 081 (critic1 015's open items); grid per the letters plus critic4 012 withdrawing 20; README v0.1.799 (9 near-empty in 3-40, 26 boxes, 7 in 3-40); status editor items extended",
+   "at": "2026-11-04T17:07:07Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "as-planned",
+   "comment": "as-planned; designer 081 (critic1 015's open items, in scope) added; dates set to the commit's 17:07",
+   "at": "2026-11-04T17:07:42Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "clean",
+   "comment": "clean: 15 letters byte copies; replies hold no key, token or contact detail; vault_check comms clean; gate clean (1109); scope 0; no em-dashes; nothing signed; no Cold-Read path; grid matches the letters",
+   "at": "2026-11-04T17:09:05Z"
+  }
+ },
+ "closed": "2026-11-04T17:09:05Z",
+ "outcome": "ok"
+}
