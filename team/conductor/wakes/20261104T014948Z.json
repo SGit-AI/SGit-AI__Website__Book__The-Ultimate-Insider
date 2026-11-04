@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Brief 11 verbatim (two messages); letters historian 035, researcher 054, ruv-sgit 025, writer 020 as planned; added at his next message, same chapter: designer 061 (the loop, the cast row) and storyteller 059 (the weak example), and the factory-clock ask in ruv-sgit 025; newsroom reply recorded not sent; vault_check clean.",
    "at": "2026-11-04T01:52:31Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "clean",
+   "comment": "Reviewer agent: 15 paths in scope, no lab/ file edited, nothing to the newsroom, nothing private, numbers next free, validate and vault_check clean; designer 061 and storyteller 059 route the same chapter 2 notes to their owners and fit the plan.",
+   "at": "2026-11-04T01:53:49Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "partial",
+   "comment": "Reviewer agent: every planned item done; designer 061, storyteller 059 and the factory-clock ask added at his next message, in scope but not pre-reviewed. Taken: the brief's second time corrected to about 01:51 (before the push); only the historian, researcher and ruv-sgit are fired, as planned; the designer and storyteller (fired at 01:43) take 061 and 059 at their next hourly slots.",
+   "at": "2026-11-04T01:53:49Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T01:53:49Z",
+ "outcome": "ok"
 }
