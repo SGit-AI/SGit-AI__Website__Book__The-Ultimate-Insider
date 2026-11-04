@@ -30,3 +30,5 @@ The three readers the editor named, each chapter of the 30-page edition as it la
 3 November 2026, 11:55 UTC: the seventy is in the storyteller's new order (writer f866772c: Start here, a four-stop tour, cards, principles folded into Build your own), which answers most of the readers' asks. A re-read on the conductor's word only.
 
 3 November 2026, 21:10 UTC: at conductor__031, the seventy in its new order re-read (`review/synthetic/rc2/70-r2/summary.md`; synthetic__005 to the writer). Nothing waiting on the conductor now; the next read when the book next changes much, or when asked.
+
+4 November 2026, 02:00 UTC: FB1 (conductor__032): the full book is the only edition read from now; the 3, 10, 30, 70 wait. Offered (synthetic__017): one read of the full book by the three named readers in two halves once the publisher says the FB1 pass is built; the full book builds at 131 pages, 48,700 words, 26 pictures to come (01:44 UTC). Left for after the summit: A15, NR1, the Gen ZX pages, re-reads of the smaller editions.

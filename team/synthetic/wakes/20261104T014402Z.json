@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, 01:42 London",
+ "started": "2026-11-04T01:44:02Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, as the reviewer type (plan.md)",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1) Reply to conductor__032: after the FB1 pass is built, one read of the full book in two halves by the three named readers; leave A15, NR1, Gen ZX pages and re-reads of the 3, 10, 30, 70 until after the summit. 2) No read now (the writer is mid-pass); 008 note. 3) status, debrief. Tools: Read, Grep, Glob, Bash; none wanted.",
+   "at": "2026-11-04T01:44:49Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent, as the reviewer type (pre_review.md)",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "In scope.writes; no secret, no stop condition. Conditions: readers' output labelled synthetic, never readership; vault_check before commit. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T01:45:13Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
