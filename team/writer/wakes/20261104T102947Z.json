@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T10:29:47Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Go: in scope; the decline of synthetic 010's 02:67 must is grounded (delta 01 s1 'Confirmed by Dinis', brief 21, P30's own example); record it in debrief, wake and reply, sentence unchanged, synthetic's worry left for the editor on board 006. 07 retitle inside 07 only; no 19, Book.txt or book.json. Letters copied (mailroom/writer is not in scope.writes, so copies, as before).",
+   "at": "2026-11-04T10:31:04Z"
+  },
+  "pre_review": {
+   "by": "security (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Go: no secrets; glosses descriptive, nothing on getting round a control; scope check before commit; 2,666 only with its register id; no images; em-dash and RW1 grep over every changed file and letter.",
+   "at": "2026-11-04T10:31:04Z"
+  },
+  "work": {
+   "by": "writer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Musts: 07 retitled and its stages; 08 hands to part three; synthetic 010 in 01 and 04. Declined with sources: synthetic 010's 02:67 (his confirmed sentence: delta 01 s1, brief 21, P30). Shoulds: 07 box, 04:103, 02 card, critic1 003 finished. Letters 217 to 220; board 006 updated.",
+   "at": "2026-11-04T10:33:53Z"
+  },
+  "post_review": {
+   "by": "security (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "finding",
+   "comment": "One inaccurate gloss, fixed before the push: 04:73 'the copy of the project that goes out' became 'the copy of the project that only I merge into' (dev releases too; release.yml). Otherwise clean: numbers trace (C105, C006, C126), no held sentence prints, no image, scope 0, 02:67 unchanged. Gate re-run green.",
+   "at": "2026-11-04T10:35:49Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "as-planned",
+   "comment": "Letters filed, board 006 updated, scope 0, nothing dated after the commit, debrief with applied, declined (sourced) and carried; 02:67 unchanged. Leftovers taken: 07's 'five-step wake' and 'step four' now stages; 02's double blank line.",
+   "at": "2026-11-04T10:35:49Z"
+  }
+ },
+ "closed": "2026-11-04T10:35:49Z",
+ "outcome": "ok"
+}
