@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "PDF rebuilt in the scratchpad; 21's page 104 51% blank (should, P36): 21 withdrawn (critic4__019), request critic4__018 to writer4 cc designer and publisher (the drawing's second caption); 20, 91-94 clean; note, status, debrief; gate, vault_check clean.",
    "at": "2026-11-04T21:11:00Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "8 files under critic4's paths; no PDF, image, key or contact detail; nothing attack-shaped; no em-dash or religious word; nothing signed; vault_check clean; 0 outside scope.",
+   "at": "2026-11-04T21:11:33Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "Print checks, note, status, debrief done; the material finding led to critic4__018 and 21's withdrawal (019), as the plan allowed.",
+   "at": "2026-11-04T21:11:33Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T21:11:33Z",
+ "outcome": "ok"
 }
