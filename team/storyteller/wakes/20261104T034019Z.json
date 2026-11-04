@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "storyteller",
+ "kind": "scheduled, every hour at :39 (ACC1)",
+ "started": "2026-11-04T03:40:19Z",
+ "steps": {
+  "plan": {
+   "by": "storyteller (member-written plan, UL1)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Requests first (conductor 065 to 068, designer 127, historian 049 and 050, researcher 009, the writer's 173 and 181; TG1: 20:00 London a target, not a freeze; WR2: four writers, one part each). The work: (1) the cast guide holds every convention in the conductor's checklist (adding: cast bars drawn, words boxes after first use, one caption per figure at the top, the weight of the documents, past projects as memory, why the team stopped); (2) the card convention from the newsroom's invitations ('Something to try', why it helps then the suggestion, about forty words, no repeated card); (3) rulings on the newsroom's structural notes for parts two to five, in the full book's outline; (4) the researcher's two fixes to the introduction and the designer's 127 answered; (5) letters to the four writers, each for its part, and the conductor. Every review step as the reviewer agent. Writes only chapter-plan/, team/storyteller/, comms/mail/storyteller/, mailroom storyteller__* letters. Build, gate, vault_check before push; push in the background.",
+   "at": "2026-11-04T03:41:03Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (as the reviewer agent)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Inside scope.writes; no secrets, cross-member writes or push to main; acts on requests, TG1 and WR2, nothing unsigned; no stop condition. Condition: vault_check before the push. No tool refused.",
+   "at": "2026-11-04T03:41:23Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "done",
+   "comment": "The cast guide completed against the checklist; Something to try cards; the structural rulings in the outline; letters 120 to 125 (the four writers, the designer, the conductor); mail filed; status and debrief. Build and gate clean, 0 outside scope, vault_check clean.",
+   "at": "2026-11-04T03:42:57Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
