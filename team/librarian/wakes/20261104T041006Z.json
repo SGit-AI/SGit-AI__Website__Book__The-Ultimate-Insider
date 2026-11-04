@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, every hour at :09 London (ACC1)",
+ "started": "2026-11-04T04:10:06Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (the reviewer agent; tools seen: Read, Grep, Glob, Bash)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No hold; 028 stays blocked (policy.json unchanged since e7d3d3d1), 029 waits, 032 and the publisher's 001 are info; writer2's 10 and 11 rewritten, and 00b, 01, 02, checked in lane.",
+   "at": "2026-11-04T04:10:51Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (the reviewer agent; same tools)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; no manuscript edit, faults to the owners by letter (writer2 for 10 and 11, writer for 00b, 01 and 02); talk read only; policy.json and SHOT_CLEARED are not the librarian's; vault_check and gate before commit.",
+   "at": "2026-11-04T04:10:51Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Plan and pre-review ran first. Mail taken (conductor 032, publisher 001, writer2 003). writer2's 10 and 11 as rewritten, and the writer's 00b, 01 and 02, checked: sources clean from the record lines, quotes and times the record's, seven Check sentences held on whole lines, registered facts match the printed lines; nothing to send back but one tiny suggestion (025); replies 001 to writer2 and 044 to the conductor. 028 stays blocked (policy.json unchanged, no GitHub shot), 029 waits. index/rc2 and index/chapters updated; two quote rows marked gone with writer2's rewrite.",
+   "at": "2026-11-04T04:13:45Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (the reviewer agent; tools seen: Read, Grep, Glob, Bash)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "All changes in scope; policy.json unchanged and no GitHub shot added; no model name, em-dash, religious word or secret; letter numbering unique, writer2's folder new; the Check sentences not printed; no time ahead of the clock.",
+   "at": "2026-11-04T04:13:45Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (the reviewer agent; same tools)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Everything in the plan present, nothing extra.",
+   "at": "2026-11-04T04:13:45Z"
+  }
+ },
+ "closed": "2026-11-04T04:13:45Z",
+ "outcome": "ok"
+}

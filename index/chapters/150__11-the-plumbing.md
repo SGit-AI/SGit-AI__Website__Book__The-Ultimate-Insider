@@ -16,16 +16,19 @@ From the chapter's `%% record` lines (and its `## Where this came from`, where i
 | `team/dev/debriefs/2026-10-29__the-board.md` | debrief | dev | `24da366` 2026-10-29 01:19:26 | `24da366` 2026-10-29 01:19:26 | The team's branches carried into dev, and the board, read live from the public Issues-FS vault |
 | `team/dev/debriefs` | folder |  | ``  | ``  |  |
 
-## this repository (8)
+## this repository (11)
 
 - `claims/register.json`
 - `index/talk-site/README.md`
 - `comms/mail/writer/done/historian__022-seventy-part-3-and-a-correction.eml`
 - `chapter-plan/edition-150-outline.md`
+- `team/conductor/from-newsroom/2026-11-04__narrator-voice-part-three.md`
+- `team/conductor/from-newsroom/2026-11-04__do-this-now-as-invitations.md`
 - `manuscript/rc2/70/08-the-plumbing.md`
 - `claims/README.md`
 - `manuscript/rc2/150/04-hour-one-the-empty-project.md`
 - `manuscript/rc2/150/05-hour-two-the-rules-written.md`
+- `chapter-plan/cast/cast-guide.md`
 
 ## Commits named (4)
 

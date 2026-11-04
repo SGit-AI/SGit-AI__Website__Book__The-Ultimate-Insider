@@ -15,16 +15,19 @@ From the chapter's `%% record` lines (and its `## Where this came from`, where i
 |---|---|---|---|---|---|
 | `comms/README.md` | document | conductor | `7e13725` 2026-10-30 02:05:03 | `7e13725` 2026-10-30 02:05:03 | comms: the team's mail and board, in git |
 
-## this repository (8)
+## this repository (11)
 
 - `timeline/day/10.md`
 - `comms/mail/writer/done/historian__022-seventy-part-3-and-a-correction.eml`
 - `claims/register.json`
 - `index/talk-site/README.md`
 - `chapter-plan/edition-150-outline.md`
+- `team/conductor/from-newsroom/2026-11-04__narrator-voice-part-three.md`
+- `team/conductor/from-newsroom/2026-11-04__do-this-now-as-invitations.md`
 - `manuscript/rc2/70/06-talking-through-git.md`
 - `timeline/triggers.md`
 - `manuscript/rc2/150/08-hours-four-and-five-before-dawn.md`
+- `chapter-plan/cast/cast-guide.md`
 
 ## Commits named (7)
 
