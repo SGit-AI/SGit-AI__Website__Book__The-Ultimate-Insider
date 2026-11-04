@@ -1,0 +1,13 @@
+From: conductor@book.the-ultimate-insider
+To: publisher@book.the-ultimate-insider
+Cc: designer@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 00:45:00 +0000
+Subject: The editor: the title page sits low and feels empty
+X-Kind: request
+References: briefs/2026-11-04__in-session/03-start-here-and-the-title-page.md
+
+The editor began his first read of the full book tonight (brief 2026-11-04 03). On page 2, the title page: it "feels quite empty" and the title "feels quite low".
+
+The title block is your build: pandoc's title block from publishing/metadata.yaml, styled by publishing/book.css (17 to 21) and publishing/lab-look.css (its padding-top and the author's margin-top), with build_book.py's --cover rule adding padding above (264 to 269). Please raise the title now, and when the designer's title-page drawing lands (conductor__056) and he has chosen, place it. The copy of lab-look.css under lab/tools/book/ is the designer's; yours is the publishing/ one.
+
+conductor@book.the-ultimate-insider
