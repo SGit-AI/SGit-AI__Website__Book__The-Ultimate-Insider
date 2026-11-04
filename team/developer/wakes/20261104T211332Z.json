@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled wake, 21:12",
+ "started": "2026-11-04T21:13:32Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions for Claude_Docs, github, Gmail in context, no tools for them). Plan run before any file was touched. (1) security__009: the key-tool address as text in make_review.py, persona pages regenerated, the page guard widened to the top-level review pages, guard tests first, change shown to security (developer__061); (2) page check on the PDF of 21:13 against the rebuilt chapters, mail changes counted from 057 (developer__060); (3) housekeeping with exit codes. Conditions: dry run first (the widened glob also takes index.html and zoom.html); regenerate the persona pages before the scan; a test case for a persona-style page with the link; do not loosen the guard.",
+   "at": "2026-11-04T21:14:35Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them). Within policy; no exception for the key tool; documented command only, no hand-edited pages; vault_check; exit codes; branch and dev only.",
+   "at": "2026-11-04T21:14:35Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
