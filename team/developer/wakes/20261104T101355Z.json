@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled wake, 10:12",
+ "started": "2026-11-04T10:13:55Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions for Claude_Docs, github, Gmail in context, no tools for them). Plan: (1) publisher__005 rule for the one-line Dramatised. note, exact match only; (2) page check on the PDF of 10:11, mail changes (developer__044); (3) housekeeping, git log on the pages. Condition: do not loosen the check beyond that exact note.",
+   "at": "2026-11-04T10:16:37Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them). Within policy. Conditions: the rule matches only the one-line note directly before the figure and must not hide a figure with no introduction (check this); PDF fetched from the book's own site only, a refusal recorded, no way round; vault_check before commit.",
+   "at": "2026-11-04T10:16:37Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

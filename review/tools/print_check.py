@@ -116,7 +116,7 @@ def figure_placements(chapters, words, where):
     under a heading, which introduces it) is not checked: a section opening on a new page is not a separation.
     -> ([(chapter, intro_end_page, caption_page)], not_found, total, under_a_heading)"""
     n, out, missing, total, under_heading = len(words), [], 0, 0, 0
-    by_heading, unplaced = [], 0
+    by_heading, unplaced, note_rule = [], 0, 0
     tok = tidy(words)
     for c in chapters:
         paras = [p for sc in c['scenes'] for p in sc['paragraphs']]
@@ -143,6 +143,24 @@ def figure_placements(chapters, words, where):
                 else:
                     unplaced += 1                                       # the heading's page could not be found: not checked
                 continue
+            if k >= 0 and paras[k]['text'].strip() == 'Dramatised.':
+                # publisher__005: the one-line "Dramatised." note directly before a figure is the figure's introduction, and the build
+                # keeps the two together. Only this exact note counts; any other figure is checked as before.
+                before = next((where[paras[m]['id']] for m in range(k - 1, -1, -1) if paras[m]['id'] in where), None)
+                capkey = norm(p['text'][len('Figure:'):]).split()[:6]
+                hit = locate(tok, capkey, before, min(n, before + 4)) if before and capkey else None   # the caption (a "Figure to come:" box may print in front of it)
+                if hit:
+                    cp = hit[0]
+                    line = tok[cp - 1]
+                    at = next((i for i in range(len(line) - len(capkey) + 1) if line[i:i + len(capkey)] == capkey), 0)
+                    near = line[max(0, at - 6):at]                      # the few words just before the caption on its page
+                    prev = tok[cp - 2][-3:] if cp >= 2 and at < 6 else []   # or the last words of the page before, when the caption opens its page
+                    note = cp if 'dramatised' in near else (cp - 1 if 'dramatised' in prev else cp)   # a note nowhere near the caption: not separated, judged as on its page
+                    out.append((c['title'], note, cp))
+                    note_rule += 1
+                else:
+                    missing += 1
+                continue
             start = where.get(paras[k]['id']) if k >= 0 else None
             if not start:
                 continue                                                # a figure with no paragraph before it in its chapter
@@ -156,7 +174,7 @@ def figure_placements(chapters, words, where):
                 missing += 1
                 continue
             out.append((c['title'], end, cap))
-    return out, missing, total, under_heading, by_heading, unplaced
+    return out, missing, total, under_heading, by_heading, unplaced, note_rule
 
 
 def chapter_starts(chapters, pages):
@@ -223,14 +241,14 @@ def main(stats, given=None):
                           'fill': fill, 'lines': nl, 'raster_figure_here': i in big_on, 'borderline': fill >= GAP_FILL - 0.03})   # within three points of the line: a prompt to look, not a finding
     tall = sorted({p for p, inch in images if inch > LARGE_SHARE * TEXT_HEIGHT})
     # figures apart from the paragraph that introduces them, found by their printed captions
-    placed, not_found, fig_total, under_heading, by_heading, unplaced = figure_placements(chapters, words, where)
+    placed, not_found, fig_total, under_heading, by_heading, unplaced, note_rule = figure_placements(chapters, words, where)
     for title, intro_end, cap in placed:
         if cap > intro_end:
             flags.append({'kind': 'figure_apart', 'page': cap, 'chapter': title, 'intro_page': intro_end, 'pages_apart': cap - intro_end})
     for title, head, cap in by_heading:
         if cap > head:
             flags.append({'kind': 'figure_apart', 'page': cap, 'chapter': title, 'intro_page': head, 'pages_apart': cap - head, 'introduced_by': 'a heading'})
-    figures = {'figure_lines': fig_total, 'introduced_by_a_heading': under_heading, 'heading_checked': len(by_heading), 'heading_page_not_found': unplaced,
+    figures = {'figure_lines': fig_total, 'introduced_by_a_heading': under_heading, 'heading_checked': len(by_heading), 'heading_page_not_found': unplaced, 'introduced_by_the_dramatised_note': note_rule,
                'begin_on_a_later_page_than_their_heading': sum(1 for _, e, cp in by_heading if cp > e),
                'with_a_paragraph_before_them_in_the_section': len(placed), 'not_found': not_found,
                'begin_on_a_later_page_than_that_paragraph_ends': sum(1 for _, e, cp in placed if cp > e)}

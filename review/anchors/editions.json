@@ -13796,8 +13796,8 @@
          "text": "Figure: the five steps as a path, from an empty project to a second agent, numbered stones only; the words stay in the text above."
         },
         {
-         "id": "r01-36efee",
-         "text": "Narrator. The book has five parts. Read it the whole way through, or take the short way: this page, then part five, then back to the start.",
+         "id": "r01-c6a0fe",
+         "text": "Narrator. After this page and a short introduction from me, the book has five parts, and at the back the tour at length, the words used, every number rerun, the team's controls, and the making of the book. Read it the whole way through, or take the short way: this page, then part five, then back to the start.",
          "after_heading": true,
          "heading": "The book as a map"
         },
@@ -13826,10 +13826,14 @@
          "text": "Figure: the five parts as stops on one route, the chapters beneath each stop, with two routes marked: the whole way through, and the short way."
         },
         {
-         "id": "r01-a62db2",
-         "text": "Conductor: I keep the time and the plan.",
+         "id": "r01-7d2061",
+         "text": "Narrator. These are the nine AI agents of the talk's team, each in a line of its own. You meet each one properly when it arrives.",
          "after_heading": true,
          "heading": "The cast says hello"
+        },
+        {
+         "id": "r01-a62db2",
+         "text": "Conductor: I keep the time and the plan."
         },
         {
          "id": "r01-2922db",
@@ -14318,14 +14322,10 @@
          "text": "Cast bar: the editor, alone. The nine are greyed: they have not arrived yet."
         },
         {
-         "id": "r03-eb30c6",
-         "text": "Words on this page: an agent , here, is an AI that works in a loop: it reads, decides, acts with tools, and checks the result. The player is the part of the talk's site that let me press play on stage.",
+         "id": "r03-f32c7d",
+         "text": "Narrator. I have been trying to present better for a long time. My slides were always a compromise. I usually read my talks, with the slides behind me as a backdrop, and I knew they could not do what I needed. They do not move, and they do not answer back. So I spent my talks explaining what the slides could not show: this goes from here to there, this grows, this breaks. The room had to imagine the movement in their heads while I described it. I talked over my own pictures.",
          "after_heading": true,
          "heading": "The old way"
-        },
-        {
-         "id": "r03-f32c7d",
-         "text": "Narrator. I have been trying to present better for a long time. My slides were always a compromise. I usually read my talks, with the slides behind me as a backdrop, and I knew they could not do what I needed. They do not move, and they do not answer back. So I spent my talks explaining what the slides could not show: this goes from here to there, this grows, this breaks. The room had to imagine the movement in their heads while I described it. I talked over my own pictures."
         },
         {
          "id": "r03-bd1388",
@@ -14338,6 +14338,10 @@
         {
          "id": "r03-9efab5",
          "text": "Narrator. The talk before this one, built for ruv.sgit.ai, had come out well and given me the confidence to try. And a lot of the technology this talk ran on was first built there: the player I pressed play on, and the first pieces the team ported into this talk, came from ruv.sgit.ai."
+        },
+        {
+         "id": "r03-eb30c6",
+         "text": "Words on this page: an agent , here, is an AI that works in a loop: it reads, decides, acts with tools, and checks the result. The player is the part of the talk's site that let me press play on stage."
         }
        ],
        "record": "team/conductor/from-newsroom/2026-11-04__narrator-voice-part-one-delta-01.md (section 2, his correction of the opening line) C116 (\"I usually read my talks, with the slides behind me\") briefs/2026-11-04__in-session/04-introduce-the-narrator-and-chapter-1.md (his account, given after the day); index/talk-site/crawl.json (the player's debrief, \"The player, ported from ruv.sgit.ai\"; studio's first debrief, \"the first two ports from ruv.sgit.ai\"); timeline/day/01.md (ruv-sgit joining at 01:08); briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md (his voice note of 1 November on talking over the slides)",
@@ -15742,10 +15746,14 @@
          "text": "Narrator. Why only a day? This one was meant to be temporary: assembled quickly around one objective, from parts I already had, and taken apart at the end. Everything it did was written down. The writing down is what made this book possible, and it is also what lets you rebuild it, which is what part five does."
         },
         {
-         "id": "r04-e8fe6c",
-         "text": "Everything in this book started from one sentence: what I wanted the room to understand, and what they should be able to do afterwards. If you write yours down, you already have your first brief. If others are working with you, it helps to write it together and keep it where everyone can see it.",
+         "id": "r04-3e368e",
+         "text": "A first brief can be one sentence: what you want the room to understand, and what they should be able to do afterwards.",
          "after_heading": true,
          "heading": "Something to try"
+        },
+        {
+         "id": "r04-3086fa",
+         "text": "If you try writing yours down, keep it where everyone working with you can see it."
         }
        ],
        "record": "team/conductor/from-newsroom/2026-11-04__do-this-now-as-invitations.md (chapter 2, the proposed card); chapter-plan/cast/cast-guide.md (page conventions 1)",
@@ -16172,6 +16180,68 @@
          "text": "Narrator. Before I tell you how the factory worked, I want you to see what it made. Not the talk as the room saw it, on a screen behind me, but the site the talk lived on, which you can walk today. Four stops. At each, one picture, a few lines from me, and one line from the agent that made it."
         },
         {
+         "id": "r05-4bfc3d",
+         "text": "Narrator. By the factory I mean what chapter 2 described: a team of nine AI agents built around one objective, each with one job and one page of rules, woken by a clock, with one file that could stop them all, and taken apart when the job was done."
+        },
+        {
+         "id": "r05-13f521",
+         "text": "Words for this page: a wake is one turn of work by one agent, started by the clock or by me. The conductor is the agent that keeps the team's time and plan. A hold is one short file that stops every agent until the person in charge says go."
+        }
+       ],
+       "record": "C011 (nine staffed); manuscript/rc2/150/02-inventing-on-principle.md (\"What a factory is\"); synthetic__009 (03:5, the factory in plain words before the tour)",
+       "tokens": [
+        {
+         "token": "C011",
+         "kind": "claim",
+         "verified": true,
+         "claim": "Members of the talk's team",
+         "value": {
+          "staffed": 9,
+          "proposed_never_staffed": [
+           "security"
+          ],
+          "first_commit": {
+           "dev": "00:40 1f7c633",
+           "conductor": "00:44 97b98d9",
+           "deck": "00:51 20ab1a3",
+           "ruv-sgit": "01:08 defe526",
+           "researcher": "01:52 01e9ed3",
+           "designer": "03:41 c6dcf89",
+           "storyteller": "14:15 7d0244d",
+           "motion": "15:31 f1cbca0",
+           "studio": "15:31 8d208d3"
+          },
+          "first_key": {
+           "conductor": "00:51 17b287b (published at team/keys/conductor.json; moved to team/conductor/key.json at 00:58, 41d38ba)",
+           "researcher": "01:52 01e9ed3",
+           "dev": "01:53 56cbe55",
+           "deck": "02:20 79b6709",
+           "ruv-sgit": "02:36 1c7d22c",
+           "designer": "03:41 c6dcf89",
+           "storyteller": "14:15 7d0244d",
+           "motion": "15:31 f1cbca0",
+           "studio": "15:31 8d208d3"
+          },
+          "editor_4_November_settles": {
+           "words": "'Team size, yeah, is 9 staffed agent, right? So, although it's 10 with me, right? Surely, right? So, 9 agents.'",
+           "reading": "nine staffed agents; ten with him. Security was proposed and never staffed"
+          }
+         },
+         "state": "settled"
+        },
+        {
+         "token": "manuscript/rc2/150/02-inventing-on-principle.md",
+         "kind": "path",
+         "verified": true,
+         "repository": "book",
+         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/manuscript/rc2/150/02-inventing-on-principle.md"
+        }
+       ]
+      },
+      {
+       "record_id": "rec-r05-2",
+       "paragraphs": [
+        {
          "id": "r05-31f46f",
          "text": "How to read the scenes: they are dramatised. The words the agents say are written for this book; the pages are the record's, and you can open every one of them online."
         },
@@ -16254,7 +16324,7 @@
        ]
       },
       {
-       "record_id": "rec-r05-2",
+       "record_id": "rec-r05-3",
        "paragraphs": [
         {
          "id": "r05-91af00",
@@ -16273,10 +16343,6 @@
         {
          "id": "r05-f3d453",
          "text": "Conductor : The page shows what the files say. The files say we stopped. So the page says we stopped."
-        },
-        {
-         "id": "r05-13f521",
-         "text": "Words for this page: a wake is one turn of work by one agent, started by the clock or by me. The conductor is the agent that keeps the team's time and plan. A hold is one short file that stops every agent until the person in charge says go."
         }
        ],
        "record": "index/talk-site/README.md (item 5) index/talk-site/tour-material.md (stop 5) admin/build/build.py 23739cc C006",
@@ -16320,7 +16386,7 @@
        ]
       },
       {
-       "record_id": "rec-r05-3",
+       "record_id": "rec-r05-4",
        "paragraphs": [
         {
          "id": "r05-91af00-2",
@@ -16484,7 +16550,7 @@
        ]
       },
       {
-       "record_id": "rec-r05-4",
+       "record_id": "rec-r05-5",
        "paragraphs": [
         {
          "id": "r05-91af00-3",
@@ -16531,17 +16597,25 @@
        ]
       },
       {
-       "record_id": "rec-r05-5",
+       "record_id": "rec-r05-6",
        "paragraphs": [
         {
          "id": "r05-91af00-4",
          "text": "Dramatised."
         },
         {
-         "id": "r05-7d2b09",
-         "text": "Narrator. Two more pages before we leave, from behind the scenes. The first is the team's keys. Every member published its own key from its own session, and every key on the page is public, made for one session, and published on purpose. A key's fingerprint is a short code that identifies it. The second, the page of its vaults, the team's shared stores of files, I describe and do not show: their read keys were published on purpose too, under a warning in red that every file in them is public, forever.",
+         "id": "r05-482eba",
+         "text": "Narrator. Two more pages before we leave, from behind the scenes. The first is the team's keys. A key here is a session's public identity: others can use it to check that something came from that session, or to send it something only it can open. Every member published its own key from its own session, and every key on the page is public, made for one session, and published on purpose.",
          "after_heading": true,
          "heading": "The keys, and the house they live in"
+        },
+        {
+         "id": "r05-941781",
+         "text": "Narrator. Each key is listed by its fingerprint: a short code that identifies it, the way a name identifies a person."
+        },
+        {
+         "id": "r05-094357",
+         "text": "Narrator. The second page I describe and do not show. It lists the team's vaults, its shared stores of files. Each vault has a read key, which lets anyone open it, and those were published on purpose too, under a warning in red that every file in them is public, forever."
         },
         {
          "id": "r05-3a215c",
@@ -16552,8 +16626,15 @@
          "text": "Figure: the same kind of key as a QR code: a few of this book's own team, each code holding one member's public key and nothing else."
         }
        ],
-       "record": "index/talk-site/tour-material.md (the keys page; the vaults described, not shown) briefs/2026-11-04__in-session/14-show-the-admin-pages-and-the-keys.md comms/mail/mailroom/writer/security__024-keys-page-and-keys.eml",
+       "record": "admin/tools/pki-agent.README.md (each session's key: a signing and an encryption fingerprint, public halves only) index/talk-site/tour-material.md (the keys page; the vaults described, not shown) briefs/2026-11-04__in-session/14-show-the-admin-pages-and-the-keys.md comms/mail/mailroom/writer/security__024-keys-page-and-keys.eml",
        "tokens": [
+        {
+         "token": "admin/tools/pki-agent.README.md",
+         "kind": "path",
+         "verified": true,
+         "repository": "book",
+         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/admin/tools/pki-agent.README.md"
+        },
         {
          "token": "index/talk-site/tour-material.md",
          "kind": "path",
@@ -16578,7 +16659,7 @@
        ]
       },
       {
-       "record_id": "rec-r05-6",
+       "record_id": "rec-r05-7",
        "paragraphs": [
         {
          "id": "r05-615911",
@@ -16633,7 +16714,7 @@
        ]
       },
       {
-       "record_id": "rec-r05-7",
+       "record_id": "rec-r05-8",
        "paragraphs": [
         {
          "id": "r05-33c9a8",
@@ -16665,7 +16746,7 @@
        ]
       },
       {
-       "record_id": "rec-r05-8",
+       "record_id": "rec-r05-9",
        "paragraphs": [
         {
          "id": "r05-cb3f91",
@@ -16902,23 +16983,27 @@
        "record_id": "rec-r06-1",
        "paragraphs": [
         {
-         "id": "r06-cb7754",
-         "text": "Narrator. Before the hours one at a time, here is the whole day on one page, so you can see how far into it each chapter is. It falls into four parts, and I will name them the way I remember them."
+         "id": "r06-90bf21",
+         "text": "Narrator. Before the hours one at a time, here is the whole day on one page, so you can see how far into it each chapter is. When I look back at it, I see four parts."
         },
         {
-         "id": "r06-628729",
-         "text": "Narrator. The setup, hours one to five: the empty project, the rules, the five steps, and the team running before dawn. The flow, hours six to thirteen: the team alone, steady, every wake started by the clock. The acceleration, hours fourteen to eighteen: my return, the talk growing, my words arriving faster than the clock. And the crunch and the stop, hour nineteen."
+         "id": "r06-ec8a64",
+         "text": "Narrator. The setup, hours one to five: the empty project, the rules, the five steps, and the team at work before dawn while I was still in the sessions. The flow, hours six to thirteen: the team alone, steady, every session started by the clock and none by me. The acceleration, hours fourteen to eighteen: my return, the talk growing, my words arriving faster than the clock. And the crunch and the stop, hour nineteen."
         },
         {
-         "id": "r06-b9e299",
-         "text": "Figure: the talk's day as one picture: nineteen hours in a row, grouped into the setup, the flow, the acceleration and the crunch and the stop, with each hour's commits and its wakes marked on it, and the chapters of this book beneath the hours they tell."
+         "id": "r06-6ca9ec",
+         "text": "Figure: the talk's day as one picture, each hour's work marked on it, and the chapters of this book beneath the hours they tell."
         },
         {
          "id": "r06-dde4be",
          "text": "Figure: the same day by member: each agent a row, each hour a column, darker where it did more."
+        },
+        {
+         "id": "r06-347fce",
+         "text": "Narrator. Chapter 4 starts at the beginning, with an empty project a quarter past midnight."
         }
        ],
-       "record": "chapter-plan/edition-150-outline.md (\"From the editor's read\", item 3; \"Rulings on the newsroom's structural notes\", part three item 6) claims/register.json C010 C087 C095; comms/mail/mailroom/writer/storyteller__135-request-03-and-04.eml; comms/mail/mailroom/writer/ruv-sgit__066-the-round-trip-clock-and-the-repository-by-the-hour.eml",
+       "record": "chapter-plan/edition-150-outline.md (\"From the editor's read\", item 3; \"Rulings on the newsroom's structural notes\", part three item 6) claims/register.json C001 C010 C087 C095; comms/mail/mailroom/writer/storyteller__135-request-03-and-04.eml; comms/mail/mailroom/writer/ruv-sgit__066-the-round-trip-clock-and-the-repository-by-the-hour.eml",
        "tokens": [
         {
          "token": "chapter-plan/edition-150-outline.md",
@@ -16933,6 +17018,14 @@
          "verified": true,
          "repository": "book",
          "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/claims/register.json"
+        },
+        {
+         "token": "C001",
+         "kind": "claim",
+         "verified": true,
+         "claim": "First commit of the day",
+         "value": "00:16:23 UTC, 29 Oct 2026 (London was on GMT: UTC = London)",
+         "state": "checked"
         },
         {
          "token": "C010",
@@ -19415,8 +19508,8 @@
          "text": "Clock: Hour two."
         },
         {
-         "id": "r08-d2324f",
-         "text": "Narrator. The second hour was the rules. Almost all of them were written by one member, in about a quarter of an hour: how every session starts (fetch the team's latest work first, then print a banner saying who is working and on what), the checklist every turn of work follows, the form of the short message saved with every change, the schedule that wakes each agent at its own minute, and the hold, one file that stops them all.",
+         "id": "r08-8dd0d2",
+         "text": "Narrator. The second hour was the rules, and I was in the sessions for it, asking for some of them as they were written. Almost all of them were written by one member, in about a quarter of an hour: how every session starts (fetch the team's latest work first, then print a banner saying who is working and on what), the checklist every turn of work follows, the form of the short message saved with every change, the schedule that wakes each agent at its own minute, and the hold, one file that stops them all.",
          "after_heading": true,
          "heading": "The hour the rules were written"
         },
@@ -19425,8 +19518,22 @@
          "text": "Narrator. The hold existed before the first scheduled session did. Nothing ran on the clock until there was a way to stop it."
         }
        ],
-       "record": "02cbd86 (01:27) to 09f13d5 (01:39) and d8f3300 (01:40): thirteen minutes; timeline/day/01.md",
+       "record": "in the sessions: 24da366 (the banner rule I had just asked for) b620234 (the prompts I pasted into each member's session); storyteller__138 S7; 02cbd86 (01:27) to 09f13d5 (01:39) and d8f3300 (01:40): thirteen minutes; timeline/day/01.md",
        "tokens": [
+        {
+         "token": "24da366",
+         "kind": "commit",
+         "verified": true,
+         "repository": "talk",
+         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/24da366"
+        },
+        {
+         "token": "b620234",
+         "kind": "commit",
+         "verified": true,
+         "repository": "talk",
+         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/b620234"
+        },
         {
          "token": "02cbd86",
          "kind": "commit",
@@ -19643,8 +19750,8 @@
          "text": "Cast card: the researcher."
         },
         {
-         "id": "r08-8948af",
-         "text": "Researcher (already reading) : Hey, I'm the researcher, and this is where I arrive. Sources and evidence are mine: every source captured and kept, every number checked against where it came from. Give me a slot and a folder. Everything else, I will check."
+         "id": "r08-ecd8f5",
+         "text": "Researcher (already reading) : Hey, I'm the researcher, and this is where I arrive. Sources and evidence are mine: every source captured and kept, every number checked against where it came from. On this project I graded the talk's claims against their sources and kept the list of what waited on the editor. I worked most with deck, which took my corrections to the slides. Give me a slot and a folder. Everything else, I will check."
         },
         {
          "id": "r08-01916e",
@@ -19655,8 +19762,69 @@
          "text": "Narrator. A minute later dev became the first to follow the new rule on tasks: it made and published its own key, created its own hourly task from its own session, and told the conductor that the task made for it would stay switched off."
         }
        ],
-       "record": "01e9ed3 (01:52) 56cbe55 5c5b23b (01:53 to 01:54) C011 C014 C022 C119; talk repository at 298be4e: team/researcher/ROLE.md team/researcher/policy.json",
+       "record": "the researcher's work and who it worked with: team/researcher/debriefs at 298be4e, manuscript/rc2/150/07-hour-three-the-five-steps.md (its first round: the talk's claims graded), timeline/day/09.md (its list of what waited on the editor; its work with deck) timeline/day/02.md, C014 (its commits), storyteller__138 S6; 01e9ed3 (01:52) 56cbe55 5c5b23b (01:53 to 01:54) C011 C014 C022 C119; talk repository at 298be4e: team/researcher/ROLE.md team/researcher/policy.json",
        "tokens": [
+        {
+         "token": "team/researcher/debriefs",
+         "kind": "path",
+         "verified": true,
+         "repository": "book",
+         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/tree/dev/team/researcher/debriefs"
+        },
+        {
+         "token": "298be4e",
+         "kind": "commit",
+         "verified": true,
+         "repository": "talk",
+         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/298be4e"
+        },
+        {
+         "token": "manuscript/rc2/150/07-hour-three-the-five-steps.md",
+         "kind": "path",
+         "verified": true,
+         "repository": "book",
+         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/manuscript/rc2/150/07-hour-three-the-five-steps.md"
+        },
+        {
+         "token": "timeline/day/09.md",
+         "kind": "path",
+         "verified": true,
+         "repository": "book",
+         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/timeline/day/09.md"
+        },
+        {
+         "token": "timeline/day/02.md",
+         "kind": "path",
+         "verified": true,
+         "repository": "book",
+         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/timeline/day/02.md"
+        },
+        {
+         "token": "C014",
+         "kind": "claim",
+         "verified": true,
+         "claim": "Commits by member (Claude commits whose subject names a member, with or without @)",
+         "value": {
+          "non_merge_claude_commits": 439,
+          "by_member": {
+           "conductor": 106,
+           "ruv-sgit": 84,
+           "dev": 64,
+           "deck": 59,
+           "researcher": 57,
+           "studio": 26,
+           "designer": 19,
+           "storyteller": 15,
+           "motion": 9
+          },
+          "merges": {
+           "all": 165,
+           "by_claude": 164
+          },
+          "unattributed": 0
+         },
+         "state": "corrected"
+        },
         {
          "token": "01e9ed3",
          "kind": "commit",
@@ -19996,10 +20164,14 @@
        "record_id": "rec-r08-7",
        "paragraphs": [
         {
-         "id": "r08-ea54fc",
-         "text": "Letting an agent run while you sleep is easier when you already know how you would stop it. One line is enough. It is worth writing before the first scheduled run, not after.",
+         "id": "r08-d13e5d",
+         "text": "Letting an agent run while you sleep is easier when you already know how you would stop it. One line is enough.",
          "after_heading": true,
          "heading": "Something to try"
+        },
+        {
+         "id": "r08-a73d38",
+         "text": "If you set one up, try writing that one line first, before the first scheduled run."
         }
        ],
        "record": "team/conductor/from-newsroom/2026-11-04__do-this-now-as-invitations.md (chapter 5, the proposed card); chapter-plan/cast/cast-guide.md (page conventions 1)",
@@ -20653,16 +20825,12 @@
        "record_id": "rec-r09-1",
        "paragraphs": [
         {
-         "id": "r09-04fbb4",
-         "text": "Cast bar: the three within the hour lit, and ruv-sgit just after; the researcher lit, and the designer as the day will have it, before dawn; the storyteller, motion and studio greyed; one empty chair."
+         "id": "r09-3b6210",
+         "text": "Cast bar: the three within the hour lit, and ruv-sgit just after; the researcher lit before dawn; the designer greyed, arriving in chapter 8; the storyteller, motion and studio greyed; one empty chair."
         },
         {
          "id": "r09-380bf7",
          "text": "Narrator. Every member of the team had two files about itself. A page of rules, in words, saying what it is for and what it must not do. And a policy, in a form a program can check, listing the exact paths it may write. You can read both. That is the point: a team of agents you cannot read is a team you cannot trust."
-        },
-        {
-         "id": "r09-7e1062",
-         "text": "Words for this page: a member's scope is the list of files and folders it may change. Everything else, it may read and not touch."
         },
         {
          "id": "r09-ddeefd",
@@ -20697,14 +20865,10 @@
        "record_id": "rec-r09-2",
        "paragraphs": [
         {
-         "id": "r09-fa6e26",
-         "text": "Narrator. The two who came before dawn are as interesting for what they could not do as for what they could.",
+         "id": "r09-f3a44c",
+         "text": "Narrator. The researcher, met in chapter 5, is as interesting for what it could not do as for what it could.",
          "after_heading": true,
-         "heading": "Before dawn: the researcher and the designer"
-        },
-        {
-         "id": "r09-ab1d26",
-         "text": "Researcher : Sources and evidence. Every source captured and hashed. My folder and the evidence folder, and I will not be talked out of either. Nothing else."
+         "heading": "Before dawn: the researcher"
         },
         {
          "id": "r09-30879f",
@@ -20715,19 +20879,15 @@
          "text": "Narrator. The researcher could not change a slide. It could only say that a number on one did not hold. That is a strong position precisely because it is a narrow one: nobody could accuse it of changing the story to suit its findings."
         },
         {
-         "id": "r09-3ec210",
-         "text": "Designer : Layout, width, type, the design system. One folder, mine. I prefer it that way: every line I draw has a second pair of eyes."
+         "id": "r09-8615ce",
+         "text": "Narrator. One more arrives before dawn, the designer, with the smallest scope on the team; chapter 8 has it, beside its card."
         },
         {
-         "id": "r09-50d4c5",
-         "text": "Designer : So I do not change a page. I write a note, with before and after, and dev builds it. At my next wake I check: as designed, or what to fix."
-        },
-        {
-         "id": "r09-d981a3",
-         "text": "Narrator. The designer's scope is the smallest on the team: its own folder, nothing else. Every change it wanted went through someone else's hands. That slowed it down, and it also meant every design change had two readers."
+         "id": "r09-7e1062",
+         "text": "Words for this page: a member's scope is the list of files and folders it may change. Everything else, it may read and not touch."
         }
        ],
-       "record": "talk repository at 298be4e: team/researcher/ROLE.md team/researcher/policy.json team/designer/ROLE.md team/designer/policy.json",
+       "record": "talk repository at 298be4e: team/researcher/ROLE.md team/researcher/policy.json; the designer's lines moved to chapter 8 (storyteller__138 S1); the researcher's first line, which repeated its chapter 5 card, cut (S3)",
        "tokens": [
         {
          "token": "298be4e",
@@ -20749,20 +20909,6 @@
          "verified": true,
          "repository": "book",
          "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/team/researcher/policy.json"
-        },
-        {
-         "token": "team/designer/ROLE.md",
-         "kind": "path",
-         "verified": true,
-         "repository": "book",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/team/designer/ROLE.md"
-        },
-        {
-         "token": "team/designer/policy.json",
-         "kind": "path",
-         "verified": true,
-         "repository": "book",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/team/designer/policy.json"
         }
        ]
       },
@@ -21817,8 +21963,8 @@
          "text": "Narrator. A scope is a list in a file. A check reads the list and flags any change outside it. That catches an agent that wanders by mistake, and on the day it caught some. It does not stop an agent that has been talked into doing something else, because the agent has the same hands either way. Dev's page said the same thing in the first hours, about its own check."
         },
         {
-         "id": "r09-54e68b",
-         "text": "Narrator. It is the question part four asks, at full size: if every member of the team is an insider, what actually contains it?"
+         "id": "r09-d450f6",
+         "text": "Narrator. That difference is the question part four asks, at full size: if every member of the team is an insider, what actually contains it?"
         },
         {
          "id": "r09-141f20",
@@ -22696,8 +22842,8 @@
          "heading": "The freeze"
         },
         {
-         "id": "r10-9ac7e6",
-         "text": "Narrator. The researcher had delivered its first round of evidence at ten past two: the talk's claims graded, the incidents gathered, and a list of changes to make to the talk before I gave it. Deck took the first items on it. Then, in deck's session, I froze the talk. My words, as deck wrote them down:"
+         "id": "r10-f6bcac",
+         "text": "Narrator. The researcher had delivered its first round of evidence earlier in the hour: the talk's claims graded, the incidents gathered, and a list of changes to make to the talk before I gave it. Deck took the first items on it. Then, in deck's session, I froze the talk. My words, as deck wrote them down:"
         },
         {
          "id": "r10-90cec5",
@@ -23887,6 +24033,43 @@
          "text": "On stage from 03:41. Commits: 19. Wakes: 19."
         },
         {
+         "id": "r11-e21484",
+         "text": "Designer : One folder, mine. I prefer it that way: every line I draw has a second pair of eyes. At my next wake I check what was built: as designed, or what to fix."
+        },
+        {
+         "id": "r11-d981a3",
+         "text": "Narrator. The designer's scope is the smallest on the team: its own folder, nothing else. Every change it wanted went through someone else's hands. That slowed it down, and it also meant every design change had two readers."
+        }
+       ],
+       "record": "talk repository at 298be4e: team/designer/ROLE.md team/designer/policy.json (moved here from chapter 6, storyteller__138 S1)",
+       "tokens": [
+        {
+         "token": "298be4e",
+         "kind": "commit",
+         "verified": true,
+         "repository": "talk",
+         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/298be4e"
+        },
+        {
+         "token": "team/designer/ROLE.md",
+         "kind": "path",
+         "verified": true,
+         "repository": "book",
+         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/team/designer/ROLE.md"
+        },
+        {
+         "token": "team/designer/policy.json",
+         "kind": "path",
+         "verified": true,
+         "repository": "book",
+         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/team/designer/policy.json"
+        }
+       ]
+      },
+      {
+       "record_id": "rec-r11-7",
+       "paragraphs": [
+        {
          "id": "r11-3ebf1a",
          "text": "Narrator. Just after four I asked for one more wake, in the designer's session, and agreed its policy. That commit is my last word of the night. The next is early in the afternoon. The record does not say where I went. What matters is what happened while I was gone."
         }
@@ -24185,7 +24368,7 @@
        ]
       },
       {
-       "record_id": "rec-r11-7",
+       "record_id": "rec-r11-8",
        "paragraphs": [
         {
          "id": "r11-91af00-5",
@@ -24475,7 +24658,7 @@
        ]
       },
       {
-       "record_id": "rec-r11-8",
+       "record_id": "rec-r11-9",
        "paragraphs": [
         {
          "id": "r11-f1149c",
@@ -24518,7 +24701,7 @@
        ]
       },
       {
-       "record_id": "rec-r11-9",
+       "record_id": "rec-r11-10",
        "paragraphs": [
         {
          "id": "r11-91af00-6",
@@ -24590,7 +24773,7 @@
        ]
       },
       {
-       "record_id": "rec-r11-10",
+       "record_id": "rec-r11-11",
        "paragraphs": [
         {
          "id": "r11-91af00-7",
@@ -24674,7 +24857,7 @@
        ]
       },
       {
-       "record_id": "rec-r11-11",
+       "record_id": "rec-r11-12",
        "paragraphs": [
         {
          "id": "r11-91af00-8",
@@ -25049,7 +25232,7 @@
        ]
       },
       {
-       "record_id": "rec-r11-12",
+       "record_id": "rec-r11-13",
        "paragraphs": [
         {
          "id": "r11-0c9810",
@@ -25081,7 +25264,7 @@
        ]
       },
       {
-       "record_id": "rec-r11-13",
+       "record_id": "rec-r11-14",
        "paragraphs": [
         {
          "id": "r11-cb3f91",
@@ -28413,8 +28596,8 @@
          "text": "Narrator. This book works the same way. Its researcher keeps a register, and no number goes on a page unless it is there. When an early draft of this book carried a line the record could not support, it came back by letter, and the line was changed."
         },
         {
-         "id": "r14-7ae926",
-         "text": "Figure: the talk's register as a stacked bar: held, held in part, not checked, did not hold. The counts in the bar, with its id in small type."
+         "id": "r14-3cb974",
+         "text": "Figure: the talk's register as a stacked bar: held, held in part, not checked, did not hold."
         }
        ],
        "record": "C029 (320 claims, built 18:20: 210 hold, 55 hold in part, 52 not checked, 3 do not hold) C030 (the three, none on stage) team/researcher/ROLE.md at 298be4e claims/README.md (this book's register)",
@@ -28701,8 +28884,8 @@
          "text": "Important concept: the repository growing. The site was the repository, and it grew every hour: 53 files at the end of the first hour, 1,313 at the day's last release, and its pages from 23 to 163. The biggest jump in pages came in the afternoon hour when the last two agents joined, the two you meet in chapter 14. Nothing was tidied away as it grew. What changed was the design around it: pages built from the team's own files, one frame for every page, and side navigation, so a site that kept getting bigger stayed one I could read."
         },
         {
-         "id": "r14-efa364",
-         "text": "Figure: the repository at the end of each hour, files by kind, from ruv-sgit's drawing."
+         "id": "r14-efce79",
+         "text": "Figure: the repository at the end of each hour, files by kind."
         }
        ],
        "record": "C124 (files and pages at the end of each clock hour: hour 00, 53 files, 23 HTML; hour 14 to hour 15, 75 to 116 HTML, the biggest step; C013, motion and studio joined at 15:31; hour 18, 1,313 files, 163 HTML, at 18:46:22) timeline/repo-design.md (historian__050: no page deleted or renamed all day; the frames dated: team pages built from team/ 00:51, admin side navigation 01:52, the studio's side navigation 04:51, design note 1, one frame for every page, 05:51) comms/mail/mailroom/writer2/storyteller__127-repo-growth-callout.eml",
@@ -34028,8 +34211,8 @@
        "record_id": "rec-r18-6",
        "paragraphs": [
         {
-         "id": "r18-f177a1",
-         "text": "The loop only works when someone else is looking. Giving one small thing to somebody today, and changing it from what they say, is the smallest version of that loop. Doing it twice is where it starts to feel different. If you try it, pick one small thing you made this week, show it to one person, change it from what they say, and show them again.",
+         "id": "r18-c8796e",
+         "text": "The loop only works when someone else is looking. If you try it, pick one small thing you made this week, show it to one person, change it from what they say, and show them again. The second time is where it starts to feel different.",
          "after_heading": true,
          "heading": "Something to try"
         }
@@ -41088,119 +41271,34 @@
        "record_id": "rec-r27-1",
        "paragraphs": [
         {
-         "id": "r27-259379",
-         "text": "Back matter: the whole tour of the talk's site, for readers who want every page; part 1, chapter 3 has its four stops."
+         "id": "r27-dde805",
+         "text": "Back matter: the rest of the tour of the talk's site, for readers who want every page; chapter 3 has its first four stops."
         },
         {
          "id": "r27-d1c039",
          "text": "Cast bar: the nine, greyed. Each lights for a moment as the tour reaches its work."
         },
         {
-         "id": "r27-901881",
-         "text": "Narrator. Before I tell you how the factory worked, I want you to see what it made. Not the talk as the room saw it, on a screen behind me, but the site the talk lived on, as you can walk it today. Seventeen stops, eighteen of the site's best things. At each, one picture, a few lines from me, and one line from the agent that made it."
-        },
-        {
-         "id": "r27-4e1f93",
-         "text": "Words for this page: the conductor is the agent that keeps the team's time and plan. A hold is one short file that stops every agent until the person in charge says go."
+         "id": "r27-04915e",
+         "text": "Narrator. At the end of a book about how the factory worked, here is the rest of what it made, for readers who want to walk it. Chapter 3 walked four of these pages: the talk and its player, the dashboard and the hold, every wake and every note, and a member's page. Here are the others, as you can walk them today. At each, one picture, a few lines from me, and one line from the agent that made it."
         },
         {
          "id": "r27-da7bad",
          "text": "How to read the scenes: they are dramatised. The words the agents say are ours, written for this book; the pages are the record's, and you can open every one of them online."
         },
         {
-         "id": "r27-8ca2d5",
-         "text": "Figure: the talk's index page, and its player open on a slide: the timer, the step controls, the notes ( index/talk-site/shots/talk.jpg , talk__player.jpg ).",
+         "id": "r27-0ed452",
+         "text": "Figure: one of ruv-sgit's animations, \"mandate and grant\", beside its explainer page: the same picture frame by frame, with what each frame shows and the data it was drawn from.",
          "after_heading": true,
-         "heading": "Stop 1. The talk as web pages, with its player"
-        },
-        {
-         "id": "r27-f9ae5d",
-         "text": "Narrator. The deck is a website. Every one of its 58 beats is a page that moves, and anyone can read it. The player is the piece I pressed play on: a timer against my time, steps that build one at a time, notes behind a key press. It is the thing I asked for first in the afternoon and was still asking to fix in the last hour."
-        },
-        {
-         "id": "r27-253bd7",
-         "text": "Dev (happy, the fast one) : Every slide is a page, so every slide has a link, a history and a check before it goes out. The player just walks them in order."
-        }
-       ],
-       "record": "C015 index/talk-site/README.md (item 2) index/talk-site/tour-material.md (stop 2) src/static/talk/talk.json b3f208f src/static/talk/player.html dbd75ad",
-       "tokens": [
-        {
-         "token": "C015",
-         "kind": "claim",
-         "verified": true,
-         "claim": "58 beats in three parts",
-         "value": {
-          "beats": 58,
-          "part_1": 22,
-          "part_2": 16,
-          "part_3": 20
-         },
-         "state": "checked"
-        },
-        {
-         "token": "index/talk-site/README.md",
-         "kind": "path",
-         "verified": true,
-         "repository": "book",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/index/talk-site/README.md"
-        },
-        {
-         "token": "index/talk-site/tour-material.md",
-         "kind": "path",
-         "verified": true,
-         "repository": "book",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/index/talk-site/tour-material.md"
-        },
-        {
-         "token": "src/static/talk/talk.json",
-         "kind": "path",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/blob/298be4e/src/static/talk/talk.json"
-        },
-        {
-         "token": "b3f208f",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/b3f208f"
-        },
-        {
-         "token": "src/static/talk/player.html",
-         "kind": "path",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/blob/298be4e/src/static/talk/player.html"
-        },
-        {
-         "token": "dbd75ad",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/dbd75ad"
-        }
-       ]
-      },
-      {
-       "record_id": "rec-r27-2",
-       "paragraphs": [
-        {
-         "id": "r27-91af00",
-         "text": "Dramatised."
-        },
-        {
-         "id": "r27-c3d1cd",
-         "text": "Figure: one of ruv-sgit's animations, \"mandate and grant\", beside its explainer page: the same picture frame by frame, with what each frame shows and the data it was drawn from ( index/talk-site/shots/ruv-sgit__mandate-and-grant.jpg ).",
-         "after_heading": true,
-         "heading": "Stop 2. The explained animations"
+         "heading": "Stop 1. The explained animations"
         },
         {
          "id": "r27-134b3c",
          "text": "Narrator. These are the night shift's work. ruv-sgit made the moving pictures for the talk, and for each one it made a second page that explains it, frame by frame, with the source of every number in it. The room saw the picture move. Anyone who wants to check it can read why it moves the way it does."
         },
         {
-         "id": "r27-e74aff",
-         "text": "ruv-sgit (absorbed, the night owl) : If a fresh copy of me cannot rebuild it from the explainer and the data, it is not finished."
+         "id": "r27-3dfd85",
+         "text": "ruv-sgit : If a fresh copy of me cannot rebuild it from the explainer and the data, it is not finished."
         }
        ],
        "record": "index/talk-site/README.md (item 9) index/talk-site/visuals.md",
@@ -41222,25 +41320,25 @@
        ]
       },
       {
-       "record_id": "rec-r27-3",
+       "record_id": "rec-r27-2",
        "paragraphs": [
         {
-         "id": "r27-91af00-2",
+         "id": "r27-91af00",
          "text": "Dramatised."
         },
         {
          "id": "r27-2ceaf7",
          "text": "Figure: the storyteller's map slide: the pioneers, settlers and town planners, with \"positions, not measurements\" written on the slide itself.",
          "after_heading": true,
-         "heading": "Stop 3. The maps on the slides"
+         "heading": "Stop 2. The maps on the slides"
         },
         {
-         "id": "r27-7f9766",
-         "text": "Narrator. You met this kind of picture in the short editions, and you will meet it properly in the next part. On the day, the storyteller put maps like this one in the talk. The line on the slide matters: the map shows where things sit relative to each other. It does not measure them."
+         "id": "r27-959d77",
+         "text": "Narrator. You met maps like this one in chapter 8. On the day, the storyteller put maps like this one in the talk. The line on the slide matters: the map shows where things sit relative to each other. It does not measure them."
         },
         {
-         "id": "r27-010f6b",
-         "text": "Storyteller (rueful) : I arrived in the afternoon, and these were the first things I made. A proposal, not an ask to change anything."
+         "id": "r27-2f6014",
+         "text": "Storyteller : I arrived in the afternoon, and these were the first things I made. A proposal, not an ask to change anything."
         }
        ],
        "record": "index/talk-site/README.md (item 11) talk/slides/maps/",
@@ -41260,25 +41358,25 @@
        ]
       },
       {
-       "record_id": "rec-r27-4",
+       "record_id": "rec-r27-3",
        "paragraphs": [
         {
-         "id": "r27-91af00-3",
+         "id": "r27-91af00-2",
          "text": "Dramatised."
         },
         {
-         "id": "r27-5196f1",
-         "text": "Figure: the studio's index and its lab: several versions of one slide side by side, a review under each, the best one marked as promoted into the deck ( index/talk-site/shots/studio.jpg , studio__lab.jpg ).",
+         "id": "r27-aafd7f",
+         "text": "Figure: the studio's index and its lab: several versions of one slide side by side, a review under each, the best one marked as promoted into the deck.",
          "after_heading": true,
-         "heading": "Stop 4. The studio"
+         "heading": "Stop 3. The studio"
         },
         {
          "id": "r27-5c5784",
          "text": "Narrator. This is how a slide was made when it mattered. A brief for one part of the argument; several versions made side by side; a review of each; the best one promoted into the deck, and the others kept, so you can see what lost and why."
         },
         {
-         "id": "r27-6c7ee7",
-         "text": "Studio (firm, principled) : The best version wins on the page, not in an argument. And the sources are pinned, so nobody can quietly change the one that won."
+         "id": "r27-8e1aa2",
+         "text": "Studio : The best version wins on the page, not in an argument. And the sources are pinned, so nobody can quietly change the one that won."
         }
        ],
        "record": "index/talk-site/README.md (item 14) index/talk-site/studio.md src/pages/studio/ 950a53a",
@@ -41314,229 +41412,25 @@
        ]
       },
       {
-       "record_id": "rec-r27-5",
+       "record_id": "rec-r27-4",
        "paragraphs": [
         {
-         "id": "r27-91af00-4",
+         "id": "r27-91af00-3",
          "text": "Dramatised."
         },
         {
-         "id": "r27-ed0771",
-         "text": "Figure: the team's dashboard, drawn: a clock, the hold, what waits on the editor, and every wake as a grid.",
+         "id": "r27-da0c61",
+         "text": "Figure: the home page: three circles, the insider, the infrastructure and the decision, with \"the scenario\" in the overlap.",
          "after_heading": true,
-         "heading": "Stop 5. The dashboard and the hold"
-        },
-        {
-         "id": "r27-42e1f5",
-         "text": "Narrator. The team's state, read from its own files, on one page. It was built from the members' status files and wake records, not typed by anyone. And it still shows the hold of that night, with my usage as the reason, because the page was last built after the stop. Nobody tidied it."
-        },
-        {
-         "id": "r27-748c87",
-         "text": "Conductor (at ninety-five, then calm) : The page shows what the files say. The files say we stopped. So the page says we stopped."
-        }
-       ],
-       "record": "index/talk-site/README.md (item 5) index/talk-site/tour-material.md (stop 5) admin/build/build.py 23739cc C006",
-       "tokens": [
-        {
-         "token": "index/talk-site/README.md",
-         "kind": "path",
-         "verified": true,
-         "repository": "book",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/index/talk-site/README.md"
-        },
-        {
-         "token": "index/talk-site/tour-material.md",
-         "kind": "path",
-         "verified": true,
-         "repository": "book",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/index/talk-site/tour-material.md"
-        },
-        {
-         "token": "admin/build/build.py",
-         "kind": "path",
-         "verified": true,
-         "repository": "book",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/admin/build/build.py"
-        },
-        {
-         "token": "23739cc",
-         "kind": "commit",
-         "verified": true,
-         "repository": "talk",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/23739cc"
-        },
-        {
-         "token": "C006",
-         "kind": "claim",
-         "verified": true,
-         "claim": "The hold",
-         "value": "18:44:13, 867f8c2 '@conductor: hold: the editor's usage limit is at 95%, pause all actions'; released as v0.1.208 at 18:44:49 (7968c99)",
-         "state": "checked"
-        }
-       ]
-      },
-      {
-       "record_id": "rec-r27-6",
-       "paragraphs": [
-        {
-         "id": "r27-91af00-5",
-         "text": "Dramatised."
-        },
-        {
-         "id": "r27-cdaf87",
-         "text": "Figure: the wakes page: each member's wakes, newest first, with the five steps, each step's verdict and its comment.",
-         "after_heading": true,
-         "heading": "Stop 6. Every wake and every note"
-        },
-        {
-         "id": "r27-c4b224",
-         "text": "Narrator. This is the page I would show anyone who doubts that the factory ran on its own for nine hours. Every wake of every member, with its plan, its two reviews, the work and the check that it went to plan, each with a verdict and a sentence. On the day the agents kept 162 wake records. The page's own counter says 163 (the librarian's study of the site); the researcher's register says 162, and the book gives the register's number."
-        },
-        {
-         "id": "r27-5fac64",
-         "text": "Narrator. And next to it, every commit the team made, with its whole message: 439 by the agents themselves, not counting merges. Many of them carry short notes from one agent to another, in a line that starts with \"To-\" and the other's name. Read in order, they are the team talking."
-        },
-        {
-         "id": "r27-76b6d0",
-         "text": "Researcher (unbudging) : The page has a counter. I have a register. When they differ, the book uses mine and says why."
-        }
-       ],
-       "record": "C022 C014 index/talk-site/README.md (items 16 and 17) index/talk-site/tour-material.md (stops 7 and 8)",
-       "tokens": [
-        {
-         "token": "C022",
-         "kind": "claim",
-         "verified": true,
-         "claim": "Wake records on the day",
-         "value": {
-          "records": 162,
-          "by_member": {
-           "conductor": 43,
-           "dev": 22,
-           "deck": 21,
-           "ruv-sgit": 20,
-           "designer": 19,
-           "researcher": 17,
-           "storyteller": 8,
-           "studio": 8,
-           "motion": 4
-          },
-          "first_started": "02:14:16",
-          "last_started": "18:40:16",
-          "all_five_steps": 160,
-          "incomplete": 2
-         },
-         "state": "checked"
-        },
-        {
-         "token": "C014",
-         "kind": "claim",
-         "verified": true,
-         "claim": "Commits by member (Claude commits whose subject names a member, with or without @)",
-         "value": {
-          "non_merge_claude_commits": 439,
-          "by_member": {
-           "conductor": 106,
-           "ruv-sgit": 84,
-           "dev": 64,
-           "deck": 59,
-           "researcher": 57,
-           "studio": 26,
-           "designer": 19,
-           "storyteller": 15,
-           "motion": 9
-          },
-          "merges": {
-           "all": 165,
-           "by_claude": 164
-          },
-          "unattributed": 0
-         },
-         "state": "corrected"
-        },
-        {
-         "token": "index/talk-site/README.md",
-         "kind": "path",
-         "verified": true,
-         "repository": "book",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/index/talk-site/README.md"
-        },
-        {
-         "token": "index/talk-site/tour-material.md",
-         "kind": "path",
-         "verified": true,
-         "repository": "book",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/index/talk-site/tour-material.md"
-        }
-       ]
-      },
-      {
-       "record_id": "rec-r27-7",
-       "paragraphs": [
-        {
-         "id": "r27-91af00-6",
-         "text": "Dramatised."
-        },
-        {
-         "id": "r27-14d8a3",
-         "text": "Figure: one member's page, deck's: its role, its policy in prose, its rules with the mistake behind each one, its status, its wakes and its debriefs; its key lines cropped out.",
-         "after_heading": true,
-         "heading": "Stop 7. A member's page"
-        },
-        {
-         "id": "r27-fff33f",
-         "text": "Narrator. Last stop. Every member has a page like this, built from its own folder. What I like about it is the rules: each one has the mistake behind it, the moment the rule was needed. A page of rules you can read like a short history of what went wrong."
-        },
-        {
-         "id": "r27-1d779d",
-         "text": "Deck (proud, the fussy one) : Every rule on my page cost somebody a slide. That is why it is there."
-        }
-       ],
-       "record": "index/talk-site/README.md (item 19) index/talk-site/tour-material.md (stop 12, shown without its key section) index/talk-site/members.md",
-       "tokens": [
-        {
-         "token": "index/talk-site/README.md",
-         "kind": "path",
-         "verified": true,
-         "repository": "book",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/index/talk-site/README.md"
-        },
-        {
-         "token": "index/talk-site/tour-material.md",
-         "kind": "path",
-         "verified": true,
-         "repository": "book",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/index/talk-site/tour-material.md"
-        },
-        {
-         "token": "index/talk-site/members.md",
-         "kind": "path",
-         "verified": true,
-         "repository": "book",
-         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/index/talk-site/members.md"
-        }
-       ]
-      },
-      {
-       "record_id": "rec-r27-8",
-       "paragraphs": [
-        {
-         "id": "r27-91af00-7",
-         "text": "Dramatised."
-        },
-        {
-         "id": "r27-bd8f9d",
-         "text": "Figure: the home page: three circles, the insider, the infrastructure and the decision, with \"the scenario\" in the overlap ( index/talk-site/shots/index.jpg ).",
-         "after_heading": true,
-         "heading": "Stop 8. The three circles"
+         "heading": "Stop 4. The three circles"
         },
         {
          "id": "r27-bfbb76",
          "text": "Narrator. The talk's whole argument in one picture, on the front door of the site. Three things collide; where they overlap is the story."
         },
         {
-         "id": "r27-d608e5",
-         "text": "Dev (happy, the fast one) : The home page says the perfect storm. And it fits on an iPad."
+         "id": "r27-3dc631",
+         "text": "Dev : The home page says the perfect storm. And it fits on an iPad."
         }
        ],
        "record": "index/talk-site/README.md (item 1) src/pages/index.html (5a91607, 16:06, @dev: \"the home page says the perfect storm\")",
@@ -41565,25 +41459,25 @@
        ]
       },
       {
-       "record_id": "rec-r27-9",
+       "record_id": "rec-r27-5",
        "paragraphs": [
         {
-         "id": "r27-91af00-8",
+         "id": "r27-91af00-4",
          "text": "Dramatised."
         },
         {
-         "id": "r27-29145a",
-         "text": "Figure: \"Three known problems. One perfect storm.\": the opening slide, its circles drawn one at a time ( index/talk-site/shots/talk__slides__three.jpg ).",
+         "id": "r27-3edf00",
+         "text": "Figure: \"Three known problems. One perfect storm.\": the opening slide, its circles drawn one at a time.",
          "after_heading": true,
-         "heading": "Stop 9. The opening slide"
+         "heading": "Stop 5. The opening slide"
         },
         {
          "id": "r27-b628aa",
          "text": "Narrator. The same three circles, drawn in front of the room one by one, so the overlap arrives last."
         },
         {
-         "id": "r27-106948",
-         "text": "Deck (proud, the fussy one) : One circle at a time. A room reads a slide that builds; it skims a slide that arrives whole."
+         "id": "r27-78a511",
+         "text": "Deck : One circle at a time. A room reads a slide that builds; it skims a slide that arrives whole."
         }
        ],
        "record": "index/talk-site/README.md (item 3) talk/slides/three/",
@@ -41603,25 +41497,25 @@
        ]
       },
       {
-       "record_id": "rec-r27-10",
+       "record_id": "rec-r27-6",
        "paragraphs": [
         {
-         "id": "r27-91af00-9",
+         "id": "r27-91af00-5",
          "text": "Dramatised."
         },
         {
-         "id": "r27-d6fcda",
-         "text": "Figure: \"A reasoning engine in a loop, with tools\": three boxes on a circle, with its sources named on the slide ( index/talk-site/shots/talk__slides__loop.jpg ).",
+         "id": "r27-f3a4d0",
+         "text": "Figure: \"A reasoning engine in a loop, with tools\": three boxes on a circle, with its sources named on the slide.",
          "after_heading": true,
-         "heading": "Stop 10. What an agent is, on a slide"
+         "heading": "Stop 6. What an agent is, on a slide"
         },
         {
          "id": "r27-fafe28",
          "text": "Narrator. The definition this book uses, on a slide, with the sources it came from printed under it, as the slide names them: Anthropic, December 2024, and Simon Willison, June 2025."
         },
         {
-         "id": "r27-26ed61",
-         "text": "Researcher (unbudging) : A definition is a claim. This one has its sources on the slide."
+         "id": "r27-0a7098",
+         "text": "Researcher : A definition is a claim. This one has its sources on the slide."
         }
        ],
        "record": "index/talk-site/README.md (item 4) talk/slides/loop/",
@@ -41641,25 +41535,25 @@
        ]
       },
       {
-       "record_id": "rec-r27-11",
+       "record_id": "rec-r27-7",
        "paragraphs": [
         {
-         "id": "r27-91af00-10",
+         "id": "r27-91af00-6",
          "text": "Dramatised."
         },
         {
-         "id": "r27-0fa7d8",
-         "text": "Figure: the team page: one card per member, its role, its last wake in a line, and how many paths it may write; each card's key line cropped out ( index/talk-site/shots/team.jpg ).",
+         "id": "r27-b637b3",
+         "text": "Figure: the team page: one card per member, its role, its last wake in a line, and how many paths it may write; each card's key line cropped out.",
          "after_heading": true,
-         "heading": "Stop 11. Who builds this site"
+         "heading": "Stop 7. Who builds this site"
         },
         {
          "id": "r27-40d590",
          "text": "Narrator. The team, as the site shows it: who does what, and when each last woke. Each card also prints a key fingerprint; the picture here leaves that line out."
         },
         {
-         "id": "r27-ea8e0a",
-         "text": "Conductor (pacing) : Everyone on one page, and when each of us last did anything. That page is the roll call."
+         "id": "r27-04a7b9",
+         "text": "Conductor : Everyone on one page, and when each of us last did anything. That page is the roll call."
         }
        ],
        "record": "index/talk-site/README.md (item 8) index/talk-site/tour-material.md (stop 11, show cropped)",
@@ -41681,17 +41575,17 @@
        ]
       },
       {
-       "record_id": "rec-r27-12",
+       "record_id": "rec-r27-8",
        "paragraphs": [
         {
-         "id": "r27-91af00-11",
+         "id": "r27-91af00-7",
          "text": "Dramatised."
         },
         {
-         "id": "r27-466a4d",
-         "text": "Figure: \"Meet the team\": nine agents and one editor as an orbit, the prelude to the talk's first part ( index/talk-site/shots/motion__meet-the-team.jpg ).",
+         "id": "r27-18c0db",
+         "text": "Figure: \"Meet the team\": nine agents and one editor as an orbit, the prelude to the talk's first part.",
          "after_heading": true,
-         "heading": "Stop 12. Meet the team"
+         "heading": "Stop 8. Meet the team"
         },
         {
          "id": "r27-7c5827",
@@ -41719,17 +41613,17 @@
        ]
       },
       {
-       "record_id": "rec-r27-13",
+       "record_id": "rec-r27-9",
        "paragraphs": [
         {
-         "id": "r27-91af00-12",
+         "id": "r27-91af00-8",
          "text": "Dramatised."
         },
         {
-         "id": "r27-039036",
-         "text": "Figure: the page I used to review each agent's policy, item by item, as a slide ( index/talk-site/shots/studio-ports__abp-review.jpg ). One line on the page says I had agreed all ten policies by 17:40; the files say eight of ten by the end of the day.",
+         "id": "r27-8c375c",
+         "text": "Figure: the page I used to review each agent's policy, item by item, as a slide.",
          "after_heading": true,
-         "heading": "Stop 13. The policy review page"
+         "heading": "Stop 9. The policy review page"
         },
         {
          "id": "r27-4f0822",
@@ -41818,25 +41712,25 @@
        ]
       },
       {
-       "record_id": "rec-r27-14",
+       "record_id": "rec-r27-10",
        "paragraphs": [
         {
-         "id": "r27-91af00-13",
+         "id": "r27-91af00-9",
          "text": "Dramatised."
         },
         {
-         "id": "r27-38488b",
-         "text": "Figure: an agent's request, its policy row, the decision and its receipt, in three acts: allowed, denied, sent to a human ( index/talk-site/shots/studio-ports__journey.jpg ).",
+         "id": "r27-322f9c",
+         "text": "Figure: an agent's request, its policy row, the decision and its receipt, in three acts: allowed, denied, sent to a human.",
          "after_heading": true,
-         "heading": "Stop 14. One action's journey"
+         "heading": "Stop 10. One action's journey"
         },
         {
          "id": "r27-1fb920",
          "text": "Narrator. One request, followed through the rules: in the first act it is allowed, in the second refused, in the third passed up to a person to decide. The point is the receipt at the end of each: every decision leaves a record."
         },
         {
-         "id": "r27-7db5b2",
-         "text": "Studio (firm) : Allowed, denied, or asked. Never silent."
+         "id": "r27-7a6637",
+         "text": "Studio : Allowed, denied, or asked. Never silent."
         }
        ],
        "record": "index/talk-site/README.md (item 13) studio-ports/journey/",
@@ -41856,25 +41750,25 @@
        ]
       },
       {
-       "record_id": "rec-r27-15",
+       "record_id": "rec-r27-11",
        "paragraphs": [
         {
-         "id": "r27-91af00-14",
+         "id": "r27-91af00-10",
          "text": "Dramatised."
         },
         {
-         "id": "r27-b8d5a1",
-         "text": "Figure: the two long articles side by side: the night hour by hour, and the talk as given ( index/talk-site/shots/articles__the-night-hour-by-hour.jpg , articles__the-talk-as-given.jpg ).",
+         "id": "r27-61db74",
+         "text": "Figure: the two long articles side by side: the night hour by hour, and the talk as given.",
          "after_heading": true,
-         "heading": "Stop 15. The night, and the talk, in pictures"
+         "heading": "Stop 11. The night, and the talk, in pictures"
         },
         {
-         "id": "r27-4cd900",
-         "text": "Narrator. Two long articles with the record in pictures. The first walks the night hour by hour. The second is the talk as I gave it, added to the site after the day."
+         "id": "r27-aeb9a0",
+         "text": "Narrator. Two long articles with the record in pictures. The first walks the night hour by hour. The second is the talk as I gave it."
         },
         {
-         "id": "r27-794342",
-         "text": "Conductor (on the minute) : The night log was mine. Every hour, what happened, with the pictures."
+         "id": "r27-0580fd",
+         "text": "Conductor : The night log was mine. Every hour, what happened, with the pictures."
         }
        ],
        "record": "index/talk-site/README.md (item 15) articles/the-night-hour-by-hour.html; articles/the-talk-as-given.html (a9c0b49, added after the day)",
@@ -41906,25 +41800,25 @@
        ]
       },
       {
-       "record_id": "rec-r27-16",
+       "record_id": "rec-r27-12",
        "paragraphs": [
         {
-         "id": "r27-91af00-15",
+         "id": "r27-91af00-11",
          "text": "Dramatised."
         },
         {
-         "id": "r27-32f4cc",
-         "text": "Figure: the release history, drawn: each release the pipeline made, the commits it carried, the files they changed and the pages they make. A drawing, not a screenshot: the build never shows an admin page.",
+         "id": "r27-36c01f",
+         "text": "Figure: the release history, drawn: each release the pipeline made, the commits it carried, the files they changed and the pages they make.",
          "after_heading": true,
-         "heading": "Stop 16. The release history"
+         "heading": "Stop 12. The release history"
         },
         {
-         "id": "r27-a5a322",
-         "text": "Narrator. Every release of the day, numbered by the pipeline and never by hand, with what changed in each. Part 3 tells why nobody typed a number."
+         "id": "r27-1d1785",
+         "text": "Narrator. Every release of the day, numbered by the pipeline and never by hand, with what changed in each. Part three tells why nobody typed a number."
         },
         {
-         "id": "r27-b60c7a",
-         "text": "Dev (happy, the fast one) : I never wrote a version number. The pipeline did, every time."
+         "id": "r27-45e490",
+         "text": "Dev : I never wrote a version number. The pipeline did, every time."
         }
        ],
        "record": "index/talk-site/README.md (item 18) CLAUDE.md at 298be4e (line 17: \"Never write ./version ... CI numbers every release\")",
@@ -41958,25 +41852,25 @@
        ]
       },
       {
-       "record_id": "rec-r27-17",
+       "record_id": "rec-r27-13",
        "paragraphs": [
         {
-         "id": "r27-91af00-16",
+         "id": "r27-91af00-12",
          "text": "Dramatised."
         },
         {
          "id": "r27-786daa",
          "text": "Figure: the conductor's brief for the hours I was away: who does what each hour, and an idea's path from backlog to the conductor to a member, as a graph.",
          "after_heading": true,
-         "heading": "Stop 17. The night's brief"
+         "heading": "Stop 13. The night's brief"
         },
         {
          "id": "r27-a582d0",
          "text": "Narrator. Written for the night, for the hours I would not be there: who does what each hour, and how an idea moves from a list to a member's hands."
         },
         {
-         "id": "r27-9e0ead",
-         "text": "Conductor (pacing, a little smug about the schedule) : The editor goes to sleep. The plan does not."
+         "id": "r27-a3455e",
+         "text": "Conductor : The editor goes to sleep. The plan does not."
         }
        ],
        "record": "index/talk-site/README.md (item 20) team/conductor/briefs/2026-10-29__the-next-hours.md (648feee, 03:10)",
@@ -42005,20 +41899,221 @@
        ]
       },
       {
-       "record_id": "rec-r27-18",
+       "record_id": "rec-r27-14",
        "paragraphs": [
         {
-         "id": "r27-91af00-17",
+         "id": "r27-91af00-13",
          "text": "Dramatised."
+        }
+       ],
+       "record": "the stops chapter 3 walks (the talk and its player, the dashboard and the hold, every wake and every note, a member's page), cut here so they are said once (critic6, pass 1); their record lines kept: record: C015 index/talk-site/README.md (item 2) index/talk-site/tour-material.md (stop 2) src/static/talk/talk.json b3f208f src/static/talk/player.html dbd75ad | record: index/talk-site/README.md (item 5) index/talk-site/tour-material.md (stop 5) admin/build/build.py 23739cc C006 | record: C022 C014 index/talk-site/README.md (items 16 and 17) index/talk-site/tour-material.md (stops 7 and 8) | record: index/talk-site/README.md (item 19) index/talk-site/tour-material.md (stop 12, shown without its key section) index/talk-site/members.md; the policy review page's own line (all ten by 17:40) against the files (eight of ten by the end of the day), C081; the talk as given, added to the site after the day; the release history drawn, never a screenshot of an admin page",
+       "tokens": [
+        {
+         "token": "C015",
+         "kind": "claim",
+         "verified": true,
+         "claim": "58 beats in three parts",
+         "value": {
+          "beats": 58,
+          "part_1": 22,
+          "part_2": 16,
+          "part_3": 20
+         },
+         "state": "checked"
         },
         {
-         "id": "r27-80db01",
-         "text": "Narrator. Two of the site's best things are not on this tour: the page of the team's keys, and the page of its vaults. They exist, and they print keys, so the book names them here once and does not show them. Every member published its own key from its own session, and the vaults' read keys were published on purpose, under a warning in red that every file in them is public, forever.",
+         "token": "index/talk-site/README.md",
+         "kind": "path",
+         "verified": true,
+         "repository": "book",
+         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/index/talk-site/README.md"
+        },
+        {
+         "token": "index/talk-site/tour-material.md",
+         "kind": "path",
+         "verified": true,
+         "repository": "book",
+         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/index/talk-site/tour-material.md"
+        },
+        {
+         "token": "src/static/talk/talk.json",
+         "kind": "path",
+         "verified": true,
+         "repository": "talk",
+         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/blob/298be4e/src/static/talk/talk.json"
+        },
+        {
+         "token": "b3f208f",
+         "kind": "commit",
+         "verified": true,
+         "repository": "talk",
+         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/b3f208f"
+        },
+        {
+         "token": "src/static/talk/player.html",
+         "kind": "path",
+         "verified": true,
+         "repository": "talk",
+         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/blob/298be4e/src/static/talk/player.html"
+        },
+        {
+         "token": "dbd75ad",
+         "kind": "commit",
+         "verified": true,
+         "repository": "talk",
+         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/dbd75ad"
+        },
+        {
+         "token": "index/talk-site/README.md",
+         "kind": "path",
+         "verified": true,
+         "repository": "book",
+         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/index/talk-site/README.md"
+        },
+        {
+         "token": "index/talk-site/tour-material.md",
+         "kind": "path",
+         "verified": true,
+         "repository": "book",
+         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/index/talk-site/tour-material.md"
+        },
+        {
+         "token": "admin/build/build.py",
+         "kind": "path",
+         "verified": true,
+         "repository": "book",
+         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/admin/build/build.py"
+        },
+        {
+         "token": "23739cc",
+         "kind": "commit",
+         "verified": true,
+         "repository": "talk",
+         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/23739cc"
+        },
+        {
+         "token": "C006",
+         "kind": "claim",
+         "verified": true,
+         "claim": "The hold",
+         "value": "18:44:13, 867f8c2 '@conductor: hold: the editor's usage limit is at 95%, pause all actions'; released as v0.1.208 at 18:44:49 (7968c99)",
+         "state": "checked"
+        },
+        {
+         "token": "C022",
+         "kind": "claim",
+         "verified": true,
+         "claim": "Wake records on the day",
+         "value": {
+          "records": 162,
+          "by_member": {
+           "conductor": 43,
+           "dev": 22,
+           "deck": 21,
+           "ruv-sgit": 20,
+           "designer": 19,
+           "researcher": 17,
+           "storyteller": 8,
+           "studio": 8,
+           "motion": 4
+          },
+          "first_started": "02:14:16",
+          "last_started": "18:40:16",
+          "all_five_steps": 160,
+          "incomplete": 2
+         },
+         "state": "checked"
+        },
+        {
+         "token": "C014",
+         "kind": "claim",
+         "verified": true,
+         "claim": "Commits by member (Claude commits whose subject names a member, with or without @)",
+         "value": {
+          "non_merge_claude_commits": 439,
+          "by_member": {
+           "conductor": 106,
+           "ruv-sgit": 84,
+           "dev": 64,
+           "deck": 59,
+           "researcher": 57,
+           "studio": 26,
+           "designer": 19,
+           "storyteller": 15,
+           "motion": 9
+          },
+          "merges": {
+           "all": 165,
+           "by_claude": 164
+          },
+          "unattributed": 0
+         },
+         "state": "corrected"
+        },
+        {
+         "token": "index/talk-site/README.md",
+         "kind": "path",
+         "verified": true,
+         "repository": "book",
+         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/index/talk-site/README.md"
+        },
+        {
+         "token": "index/talk-site/tour-material.md",
+         "kind": "path",
+         "verified": true,
+         "repository": "book",
+         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/index/talk-site/tour-material.md"
+        },
+        {
+         "token": "index/talk-site/README.md",
+         "kind": "path",
+         "verified": true,
+         "repository": "book",
+         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/index/talk-site/README.md"
+        },
+        {
+         "token": "index/talk-site/tour-material.md",
+         "kind": "path",
+         "verified": true,
+         "repository": "book",
+         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/index/talk-site/tour-material.md"
+        },
+        {
+         "token": "index/talk-site/members.md",
+         "kind": "path",
+         "verified": true,
+         "repository": "book",
+         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/index/talk-site/members.md"
+        },
+        {
+         "token": "C081",
+         "kind": "claim",
+         "verified": true,
+         "claim": "The talk's abp-review piece: 'By 17:40 the editor had agreed all ten'",
+         "value": {
+          "piece_says": "By 17:40 the editor had agreed all ten (bd3cdad, 17:47)",
+          "files_at_bd3cdad": "5 agreed, 4 draft, 1 proposed",
+          "files_at_298be4e": "8 agreed, 1 draft (studio), 1 proposed (security), C072",
+          "editor_4_November_settles": {
+           "words": "'I approved a number of them, you know, throughout the stuff. I maybe skipped a couple.'",
+           "reading": "say it in prose, not as a figure: he approved a number of the policies through the day and may have skipped a couple. The record: 5 agreed at bd3cdad, 8 by the end of the day (C072)"
+          }
+         },
+         "state": "settled"
+        }
+       ]
+      },
+      {
+       "record_id": "rec-r27-15",
+       "paragraphs": [
+        {
+         "id": "r27-b6d3ce",
+         "text": "Narrator. One of the site's best things is not on this tour: the page of its vaults. The page of the team's keys you saw in chapter 3, where every key is public and made for one session. The vaults page prints the vaults' read keys, so the book names it here once and does not show it. Those read keys were published on purpose, under a warning in red that every file in them is public, forever.",
          "after_heading": true,
          "heading": "What the tour leaves out"
         }
        ],
-       "record": "index/talk-site/tour-material.md (describe, do not show)",
+       "record": "index/talk-site/tour-material.md (describe, do not show); the keys page shown in chapter 3 under AD1 (security__024)",
        "tokens": [
         {
          "token": "index/talk-site/tour-material.md",
@@ -42030,22 +42125,44 @@
        ]
       },
       {
-       "record_id": "rec-r27-19",
+       "record_id": "rec-r27-16",
        "paragraphs": [
         {
-         "id": "r27-e11cc1",
-         "text": "Figure: the site as a building, one floor per kind of page: the talk at the top, the workshop of animations, the studio, and at the bottom the team's own records, all seventeen stops marked."
+         "id": "r27-0bd7e1",
+         "text": "Figure: the site as a building, one floor per kind of page: the talk at the top, the workshop of animations, the studio, and at the bottom the team's own records, every stop marked."
         },
         {
-         "id": "r27-9e3b5e",
-         "text": "Narrator. That is what one day made. Now the rest of this book is how."
+         "id": "r27-ddefc3",
+         "text": "Narrator. That is what one day made."
         },
         {
-         "id": "r27-dfbd1b",
-         "text": "Look at one thing you made last month. Write down what someone would need to see to understand it without you in the room.",
+         "id": "r27-756d7a",
+         "text": "A site like this one is easier to keep honest when each page can be opened by someone who was not there. If you have one page of your own like that, it may be worth asking an agent to build the second.",
          "after_heading": true,
-         "heading": "Do this now"
+         "heading": "Something to try"
+        }
+       ],
+       "record": "team/critic6/notes/2026-11-04T0530Z__94-90.md (90's card, the critic's illustration, so it does not repeat chapter 3's); chapter-plan/cast/cast-guide.md (page conventions 1)",
+       "tokens": [
+        {
+         "token": "team/critic6/notes/2026-11-04T0530Z__94-90.md",
+         "kind": "path",
+         "verified": true,
+         "repository": "book",
+         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/team/critic6/notes/2026-11-04T0530Z__94-90.md"
         },
+        {
+         "token": "chapter-plan/cast/cast-guide.md",
+         "kind": "path",
+         "verified": true,
+         "repository": "book",
+         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/chapter-plan/cast/cast-guide.md"
+        }
+       ]
+      },
+      {
+       "record_id": "rec-r27-17",
+       "paragraphs": [
         {
          "id": "r27-cb3f91",
          "text": "---"
@@ -42714,24 +42831,24 @@
          "text": "Narrator. I promised at the start that this book was made the same way as the talk, and here is how."
         },
         {
-         "id": "r30-a98fe4",
-         "text": "Narrator. It started a few hours after the talk, in a new, empty repository, with the talk team's machinery copied in, rule for rule, within the hour. The conductor came first. Within two minutes of each other, six more joined, each in its own session, each with its own key; you met them, and the ones who came after, in chapter 21. Before the others arrived, the conductor had written the hand-off to a second team that would read the talk cold, the only thing that ever crossed to it. The first job of the rest was to read the first factory's record."
+         "id": "r30-60873a",
+         "text": "Narrator. It started a few hours after the talk, in a new, empty repository, with the talk team's machinery copied in within the hour: its rules, its build and its check, rule for rule. The conductor came first. Within two minutes of each other, six more joined, each in its own session (its own run of an agent) and with its own key; you met them, and the ones who came after, in chapter 21. Before the others arrived, the conductor had written the hand-off to a second team that would read the talk cold, the only thing that ever crossed to it. The first job of the rest was to read the first factory's record."
         },
         {
-         "id": "r30-ef3caf",
-         "text": "Narrator. I gave them the plan that same morning, and before noon the first draft was with the publisher. Soon after, the first account I ran them on was nearly out of usage, so every member got a handover and moved to a second account, which is the handover you read in chapter 20."
+         "id": "r30-95d9dd",
+         "text": "Narrator. I gave them the plan that morning, and before noon the first draft was with the publisher. Soon after, the first account I ran them on was nearly out of usage, so every member got a handover and moved to a second account, which is the handover you read in chapter 20."
         },
         {
-         "id": "r30-78ca39",
-         "text": "Narrator. Then came my review on paper, the editions from one page up to this one, and the failures. A member wrote a hold on its own judgement when the build went red for everyone, and only I lifted it. The team lost an evening to the usage limit, which chapter 21 tells. And the historian made an error, and caught it itself. Five days after the talk, the whole body of the full book was in draft, chapters 1 to 23."
+         "id": "r30-d8098b",
+         "text": "Narrator. Then came my review on paper, the editions of the book from a single page up to this one, and the failures. A member wrote a hold on its own judgement when the check every change must pass started failing for everyone, and only I lifted it. The team lost an evening to the usage limit, which chapter 21 tells. And the historian made an error about which of two pages of rules came first, told the writer, and two chapters stood on it until the historian caught it itself and wrote the correction; chapter 21 tells it in its own words. Five days after the talk, the whole body of the full book was in draft, chapters 1 to 23."
         },
         {
-         "id": "r30-df92cf",
-         "text": "Narrator. Every one of those steps is in the book's repository, with its time and its evidence, for anyone who wants to check. I left the times out of this page on purpose."
+         "id": "r30-c0a478",
+         "text": "Narrator. Every one of those steps is in the book's repository, with its time and its evidence, for anyone who wants to check; the times are kept there, not on this page."
         },
         {
-         "id": "r30-9c4d41",
-         "text": "Figure: this book's team arriving, drawn like the talk's cast bar but over five days instead of nineteen hours."
+         "id": "r30-99e2a2",
+         "text": "Figure: this book's team arriving, drawn like the talk's cast bar but over four days instead of nearly nineteen hours."
         }
        ],
        "record": "30 October: built from the talk's parts, and the plan signed: 00:35:46: The repository's first commit (`f3cea028`)",
@@ -43127,7 +43244,7 @@
       {
        "record_id": "rec-r30-24",
        "paragraphs": [],
-       "record": "2 and 3 November: the writer, RC2, and the full book: 3 November, 01:18: ACC1: every member hourly, at its own minute, until the book is done (`book.json` ACC1)",
+       "record": "2 and 3 November: the writer, RC2, and the full book: 3 November, about 01:15 (his brief), recorded 01:19:42: ACC1: every member hourly, at its own minute, until the book is done (`book.json` ACC1)",
        "tokens": []
       },
       {
