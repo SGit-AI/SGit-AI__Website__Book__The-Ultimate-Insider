@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "All writes in scope.writes; mail in git; no manuscript or other member's files; no secrets or stop condition. Conditions: vault_check before comms commits; nothing private in letters; logo-path and schedule items as proposals only.",
    "at": "2026-11-04T05:22:16Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "All three items done in 5294a9a: critic2__002 with outbox copy; note on 10 and 11 and critic2__003 with outbox copy; first note's time corrected, status.json, debrief. Off-plan but harmless: the must on 12:9 withdrawn and recorded in both notes (C087).",
+   "at": "2026-11-04T05:25:21Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "All 9 files of 5294a9a in scope.writes; vault_check clean; gate clean (956 html); no em-dashes or religious words; letters only propose and report; nothing attack-shaped or toward the blind repository.",
+   "at": "2026-11-04T05:25:46Z"
+  },
+  "work": {
+   "by": "critic2",
+   "model": "",
+   "verdict": "done",
+   "comment": "pass 1 on 10 and 11 (1 must, 6 should, 4 could), critic2__003; must on 12:9 withdrawn; critic2__002 to the conductor",
+   "at": "2026-11-04T05:25:46Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T05:25:46Z",
+ "outcome": "ok"
 }
