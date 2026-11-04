@@ -1,0 +1,28 @@
+{
+ "schema": "the-ultimate-insider/synthetic-section-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "event-team-member", "read_at": "3a1ad0a6",
+ "would_read_on": {"08-hours-four-and-five-before-dawn": "maybe", "15-hour-eighteen-faster-than-the-clock": "maybe", "23-principles-and-build-your-own": "yes"},
+ "findings": [
+  {"file": "08-hours-four-and-five-before-dawn.md", "line": 11, "quote": "every member that existed but the researcher woke at its own minute", "principle": "reader", "severity": "should", "why": "A busy first reader meets 'wake', 'member' and 'own minute' as if known, and has to stop and decode the opening paragraph."},
+  {"file": "08-hours-four-and-five-before-dawn.md", "line": 13, "quote": "The card has the hour.", "principle": "6", "severity": "could", "why": "It directs the reader to a figure instead of letting the sentence carry the point."},
+  {"file": "08-hours-four-and-five-before-dawn.md", "line": 33, "quote": "That is the lesson the register draws: redaction does not reach a commit already pushed.", "principle": "1", "severity": "should", "why": "The narrator reports what the register says with no 'I' and no hindsight, where the editor could say what he took from it."},
+  {"file": "08-hours-four-and-five-before-dawn.md", "line": 129, "quote": "The argument is in the wake record, both halves of it", "principle": "21", "severity": "should", "why": "It restates the scene the reader has just read, and reports it rather than speaking as the editor."},
+  {"file": "08-hours-four-and-five-before-dawn.md", "line": 153, "quote": "Same kind of mistake. Found before the close this time, and redacted in the same wake.", "principle": "21", "severity": "should", "why": "The narrator has just said this in the previous paragraph, so the researcher's line tells the same thing twice."},
+  {"file": "08-hours-four-and-five-before-dawn.md", "line": 163, "quote": "six agents, a clock and a brake", "principle": "reader", "severity": "could", "why": "'Brake' is not yet pinned down as the hold for a reader arriving at this chapter, and the Wardley map arrives only afterwards."},
+  {"file": "15-hour-eighteen-faster-than-the-clock.md", "line": 15, "quote": "answers on the live slides, the new pieces into the deck, the team's own policies into the talk", "principle": "reader", "severity": "should", "why": "A list of insider shorthand with no example; a team member cannot picture what one instruction looked like or copy it."},
+  {"file": "15-hour-eighteen-faster-than-the-clock.md", "line": 61, "quote": "It is a small scene, and it is the whole of my talk in miniature.", "principle": "21", "severity": "should", "why": "The scene is told, then explained, then Studio's answer is repeated in a third form; the takeaway survives with one of them."},
+  {"file": "15-hour-eighteen-faster-than-the-clock.md", "line": 75, "quote": "Part one was final and not yet locked. The lock tool existed. One session was open", "principle": "7", "severity": "should", "why": "A run of short sentences where one running sentence would carry the thought and the forward references."},
+  {"file": "15-hour-eighteen-faster-than-the-clock.md", "line": 87, "quote": "Giving one small thing to somebody today, and changing it from what they say", "principle": "reader", "severity": "should", "why": "The try-this card is abstract; a team member wants a concrete first action with their own agent, not a feeling that 'it starts to feel different'."},
+  {"file": "23-principles-and-build-your-own.md", "line": 32, "quote": "Add a second agent only when the first is busy.", "principle": "reader", "severity": "must", "why": "My case is a team where each person already has an agent; the steps only half answer who holds the shared brief, the board and the hold, and 'who may lift the hold when its owner is away' is left as advice."},
+  {"file": "23-principles-and-build-your-own.md", "line": 17, "quote": "the ones Start here gave you as a formula", "principle": "reader", "severity": "could", "why": "Points back to a page the reader may not have read, so the steps lean on memory instead of standing alone."},
+  {"file": "23-principles-and-build-your-own.md", "line": 84, "quote": "A brief and rules in plain words. A check every change passes. A hold anyone can pull", "principle": "7", "severity": "should", "why": "Seven short sentences in a row, a triad-style list that reads as a slogan rather than the thought running."},
+  {"file": "23-principles-and-build-your-own.md", "line": 86, "quote": "But build it the same way, and then do it again.", "principle": "21", "severity": "could", "why": "The bold line two lines later says the same thing again."}
+ ],
+ "what_holds": [
+  "08-hours-four-and-five-before-dawn.md: the two failures, each with a one-line rule (the branch wins), and the closing Something to try about where 'done' is measured is a copyable check.",
+  "15-hour-eighteen-faster-than-the-clock.md: the brakes held under pressure, and Studio refusing a relayed word, give a concrete pattern a team could adopt.",
+  "23-principles-and-build-your-own.md: the five steps with what to do and what to check, the shop owner and newsroom examples, and the tear-out checklist are the most directly copyable part of the book."
+ ],
+ "notes": "As a team member I would start tomorrow with step 2 (a page of rules with a stop line). What I would still need is how several people share one brief, one board and one hold, each with their own agent; the chapters mostly tell one editor's day and so lean on one central person, which is a deal-breaker unless chapter 23 answers it more fully."
+}

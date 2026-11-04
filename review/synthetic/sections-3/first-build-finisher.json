@@ -1,0 +1,139 @@
+{
+ "schema": "the-ultimate-insider/synthetic-section-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "first-build-finisher",
+ "read_at": "3a1ad0a6",
+ "would_read_on": {
+  "08-hours-four-and-five-before-dawn": "maybe",
+  "15-hour-eighteen-faster-than-the-clock": "maybe",
+  "23-principles-and-build-your-own": "yes"
+ },
+ "findings": [
+  {
+   "file": "08-hours-four-and-five-before-dawn.md",
+   "line": 11,
+   "quote": "The conductor's first scheduled wake with a record made deck's programme of experiments the team's queue.",
+   "principle": "reader",
+   "severity": "must",
+   "why": "As a newcomer I do not know what a wake, a scheduled wake or a record is yet, and the sentence stacks all three with names I have not met."
+  },
+  {
+   "file": "08-hours-four-and-five-before-dawn.md",
+   "line": 29,
+   "quote": "gone out with its first push. The researcher redacted it in the files",
+   "principle": "reader",
+   "severity": "should",
+   "why": "Push and redacted are programmer words used with no gloss, and this is the first failure I am meant to care about."
+  },
+  {
+   "file": "08-hours-four-and-five-before-dawn.md",
+   "line": 33,
+   "quote": "That is the lesson the register draws: redaction does not reach a commit already pushed.",
+   "principle": "reader",
+   "severity": "should",
+   "why": "Register, redaction and commit are all unexplained, so the lesson lands as jargon for someone who has only used an app builder."
+  },
+  {
+   "file": "08-hours-four-and-five-before-dawn.md",
+   "line": 113,
+   "quote": "It is the first sign in the record of members pacing each other",
+   "principle": "1",
+   "severity": "should",
+   "why": "The narrator reports from the record with no I and no hindsight, where the editor could say what he made of it."
+  },
+  {
+   "file": "08-hours-four-and-five-before-dawn.md",
+   "line": 129,
+   "quote": "The argument is in the wake record, both halves of it",
+   "principle": "21",
+   "severity": "should",
+   "why": "The scene has just been played out line by line and this sentence tells it again as a summary."
+  },
+  {
+   "file": "08-hours-four-and-five-before-dawn.md",
+   "line": 167,
+   "quote": "the factory as a value chain: what I wanted at the top",
+   "principle": "reader",
+   "severity": "should",
+   "why": "The map is described before the Wardley map is explained two lines later, and value chain is a word I have to guess."
+  },
+  {
+   "file": "15-hour-eighteen-faster-than-the-clock.md",
+   "line": 15,
+   "quote": "each with its five steps.",
+   "principle": "reader",
+   "severity": "should",
+   "why": "The five steps are mentioned as if known, yet a reader of this chapter alone has not been told what they are."
+  },
+  {
+   "file": "15-hour-eighteen-faster-than-the-clock.md",
+   "line": 49,
+   "quote": "opened and never closed on the team's branch",
+   "principle": "reader",
+   "severity": "should",
+   "why": "Session, branch and closed are programmer talk with no gloss, and it is the sort of line that makes this feel written for coders."
+  },
+  {
+   "file": "15-hour-eighteen-faster-than-the-clock.md",
+   "line": 61,
+   "quote": "The record shows exactly that: the refusal, and the question sent to me in its place.",
+   "principle": "21",
+   "severity": "should",
+   "why": "Studio's line just above has already told the refusal and the question, so this tells the scene twice."
+  },
+  {
+   "file": "15-hour-eighteen-faster-than-the-clock.md",
+   "line": 75,
+   "quote": "Part one was final and not yet locked. The lock tool existed. One session was open",
+   "principle": "7",
+   "severity": "should",
+   "why": "Three short sentences in a row, each leaning on terms (locked, session) I only half understood."
+  },
+  {
+   "file": "23-principles-and-build-your-own.md",
+   "line": 11,
+   "quote": "You do not need my nine. You need one.",
+   "principle": "reader",
+   "severity": "should",
+   "why": "Nine of what is never said on this page, so the best line for a beginner starts with a small stall."
+  },
+  {
+   "file": "23-principles-and-build-your-own.md",
+   "line": 17,
+   "quote": "the ones Start here gave you as a formula",
+   "principle": "reader",
+   "severity": "should",
+   "why": "It assumes I read an earlier page and remember its formula; as a first-build finisher dropping in here I did not."
+  },
+  {
+   "file": "23-principles-and-build-your-own.md",
+   "line": 19,
+   "quote": "dev's first commit (chapter 4)",
+   "principle": "reader",
+   "severity": "must",
+   "why": "The Rests on and The moment lines are full of commits, briefs and chapter references, which is the moment I feel this is for programmers."
+  },
+  {
+   "file": "23-principles-and-build-your-own.md",
+   "line": 32,
+   "quote": "Share the brief, the board and the hold, and each of you runs your own agents.",
+   "principle": "reader",
+   "severity": "should",
+   "why": "Board and hold are team vocabulary I have not been given a plain meaning for, and the step is otherwise easy to take."
+  },
+  {
+   "file": "23-principles-and-build-your-own.md",
+   "line": 84,
+   "quote": "That is the whole method. A brief and rules in plain words. A check every change passes.",
+   "principle": "7",
+   "severity": "should",
+   "why": "A chain of short sentences and a list in a row; it sounds like a slogan rather than the editor thinking aloud."
+  }
+ ],
+ "what_holds": [
+  "08-hours-four-and-five-before-dawn.md: the two failures kept in, with Dev's 'The branch wins.' and the researcher owning its late review, are characters I can follow.",
+  "15-hour-eighteen-faster-than-the-clock.md: 'the brakes are what let you go fast' and Studio asking the editor instead of trusting a relayed word are the clearest ideas so far.",
+  "23-principles-and-build-your-own.md: the shop owner and newsroom examples, 'An app builder works too', and the stop-line check are a step I could take tomorrow."
+ ],
+ "notes": "Chapters 8 and 15 read as a log of a team I have not met; chapter 23 is where I could start. The Rests on lines are the part most likely to make a non-programmer feel the book is not for them. None."
+}
