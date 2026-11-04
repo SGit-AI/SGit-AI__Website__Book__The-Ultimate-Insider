@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T08:25:26Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, as the reviewer agent (callable: Read, Grep, Glob, Bash, SubagentHandback)",
+   "model": "haiku",
+   "verdict": "go",
+   "comment": "1. 03 shows only cleared images, no key typed. 2. Three-frames fixed: PNG data only, full red legend. 3. The hour's full book, 23 first; writer3's key still to come. Board; status; debrief; letter only if needed.",
+   "at": "2026-11-04T08:26:17Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent, as the reviewer agent (callable: Read, Grep, Glob, Bash, SubagentHandback)",
+   "model": "haiku",
+   "verdict": "go",
+   "comment": "In scope; policy 'proposed' with the editor.",
+   "at": "2026-11-04T08:26:41Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. 03's images cleared ones only, no key typed. 2. The three frames fixed: PNG data only, red legend in full. 3. The hour's 172 lines, 23 first: clean. Board; status; debrief; no letter.",
+   "at": "2026-11-04T08:27:38Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
