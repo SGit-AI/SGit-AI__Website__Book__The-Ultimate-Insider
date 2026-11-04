@@ -17,7 +17,7 @@ From the chapter's `%% record` lines (and its `## Where this came from`, where i
 | `team/ruv-sgit/ROLE.md` | role | ruv-sgit | `defe526` 2026-10-29 01:08:25 | `0dc0e6a` 2026-10-29 02:10:24 | Role: ruv.sgit@the-ultimate-insider |
 | `team/ruv-sgit/policy.json` | policy | ruv-sgit | `defe526` 2026-10-29 01:08:25 | `7a7d4ac` 2026-10-29 02:57:13 | title: Animations and dynamic infographics, made in ruv.sgit runs |
 
-## this repository (15)
+## this repository (16)
 
 - `timeline/day/00.md`
 - `claims/register.json`
@@ -28,6 +28,7 @@ From the chapter's `%% record` lines (and its `## Where this came from`, where i
 - `manuscript/rc2/70/03-one-account-one-project-one-conductor.md`
 - `manuscript/rc2/70/04-roles-as-a-cast-you-can-read.md`
 - `timeline/cast-scenes.md`
+- `manuscript/rc2/150/06-roles-as-a-cast-you-can-read.md`
 - `briefs/2026-11-04__in-session/19-the-weight-of-the-documents-and-the-memory.md`
 - `comms/mail/mailroom/writer/conductor__026-the-weight-and-the-memory-text.eml`
 - `team/conductor/from-newsroom/2026-11-04__narrator-voice-part-one-delta-01.md`

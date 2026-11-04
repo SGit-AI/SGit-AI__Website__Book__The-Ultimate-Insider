@@ -27,7 +27,8 @@ One file per chapter of the manuscript, built by `index/tools/chapter_entries.py
 | [`150__01-slides-as-a-compromise.md`](150__01-slides-as-a-compromise.md) | 1 | 0 | 12 | 1 | 2 | 0 |
 | [`150__02-inventing-on-principle.md`](150__02-inventing-on-principle.md) | 0 | 0 | 13 | 0 | 3 | 0 |
 | [`150__03-the-tour.md`](150__03-the-tour.md) | 3 | 0 | 14 | 0 | 4 | 0 |
-| [`150__04-hour-one-the-empty-project.md`](150__04-hour-one-the-empty-project.md) | 10 | 0 | 15 | 0 | 10 | 0 |
+| [`150__03b-the-day-at-a-glance.md`](150__03b-the-day-at-a-glance.md) | 0 | 0 | 4 | 0 | 0 | 0 |
+| [`150__04-hour-one-the-empty-project.md`](150__04-hour-one-the-empty-project.md) | 10 | 0 | 16 | 0 | 10 | 0 |
 | [`150__05-hour-two-the-rules-written.md`](150__05-hour-two-the-rules-written.md) | 4 | 0 | 6 | 0 | 11 | 0 |
 | [`150__06-roles-as-a-cast-you-can-read.md`](150__06-roles-as-a-cast-you-can-read.md) | 30 | 0 | 20 | 0 | 45 | 0 |
 | [`150__07-hour-three-the-five-steps.md`](150__07-hour-three-the-five-steps.md) | 5 | 0 | 6 | 0 | 13 | 0 |
@@ -46,12 +47,12 @@ One file per chapter of the manuscript, built by `index/tools/chapter_entries.py
 | [`150__20-sessions-end.md`](150__20-sessions-end.md) | 2 | 0 | 10 | 0 | 3 | 0 |
 | [`150__21-the-second-factory.md`](150__21-the-second-factory.md) | 7 | 1 | 17 | 0 | 10 | 0 |
 | [`150__22-the-third-planned.md`](150__22-the-third-planned.md) | 2 | 0 | 10 | 0 | 1 | 0 |
-| [`150__23-principles-and-build-your-own.md`](150__23-principles-and-build-your-own.md) | 0 | 0 | 10 | 0 | 0 | 1 |
+| [`150__23-principles-and-build-your-own.md`](150__23-principles-and-build-your-own.md) | 0 | 0 | 10 | 0 | 0 | 0 |
 | [`150__90-the-tour-at-length.md`](150__90-the-tour-at-length.md) | 14 | 0 | 9 | 1 | 5 | 0 |
 | [`150__91-the-words-used.md`](150__91-the-words-used.md) | 0 | 0 | 5 | 0 | 0 | 0 |
 | [`150__92-appendix-a-every-number.md`](150__92-appendix-a-every-number.md) | 0 | 0 | 2 | 0 | 0 | 0 |
 | [`150__93-appendix-b-the-control-register.md`](150__93-appendix-b-the-control-register.md) | 0 | 0 | 5 | 0 | 0 | 0 |
-| [`150__94-the-making-of-this-book.md`](150__94-the-making-of-this-book.md) | 0 | 0 | 3 | 0 | 1 | 0 |
+| [`150__94-the-making-of-this-book.md`](150__94-the-making-of-this-book.md) | 0 | 0 | 4 | 0 | 1 | 0 |
 | [`01-the-creators-problem.md`](01-the-creators-problem.md) | 0 | 0 | 7 | 1 | 5 | 0 |
 | [`02-the-factory-is-assembled.md`](02-the-factory-is-assembled.md) | 2 | 0 | 7 | 0 | 13 | 0 |
 | [`03-the-factory-runs.md`](03-the-factory-runs.md) | 6 | 0 | 6 | 0 | 15 | 0 |
