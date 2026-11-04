@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic4",
+ "kind": "scheduled, hourly at :07",
+ "started": "2026-11-04T22:08:56Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "Light wake: writer4__016 into done/; PDF rebuilt in the scratchpad; print checks on part five and 21's page; one note; 21 counts a clean pass if clean; letter only if material; status.json, debrief.",
+   "at": "2026-11-04T22:09:23Z"
+  },
+  "pre_review": {
+   "by": "reviewer sub-agent (sonnet), in the same sub-agent as the plan",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "Writes under scope.writes; no HOLD; build in the scratchpad; nothing signed; no secret or cross-member write.",
+   "at": "2026-11-04T22:09:23Z"
+  },
+  "work": {
+   "by": "critic4",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "writer4__016 into done/; PDF rebuilt in the scratchpad; 21's page closed, first clean pass since withdrawal; 20, 91-94 clean; note, status, debrief; no letter; gate, vault_check clean.",
+   "at": "2026-11-04T22:11:26Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
