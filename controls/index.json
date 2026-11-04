@@ -476,6 +476,11 @@
     "control": "C2",
     "what": "the developer's own post-reviews found three holes in the online-view builder's address checks on 4 November (a pattern instead of an allow-list; one quoting only; a value not read as a browser reads it), each reported and fixed before any real build (developer__053, 054, 056; c0ff7708, 1f051f09, 0af5bb78); the guard cases are now a test file. A step that stopped something before it shipped",
     "wake": "team/security/wakes/20261104T192443Z.json"
+   },
+   {
+    "control": "C4",
+    "what": "designer2's key (published at 1ff64b35, 4 November, staffed at the editor's word, DS1): public halves only, consistent with its session folder and the publishing commit's session trailer; its key.png holds that key's fingerprint and nothing private, checked in memory; cleared for print under AD1",
+    "wake": "team/security/wakes/20261104T222457Z.json"
    }
   ],
   "tool_cases": {

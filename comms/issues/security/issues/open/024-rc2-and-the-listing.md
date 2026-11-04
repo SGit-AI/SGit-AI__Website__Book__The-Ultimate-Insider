@@ -102,3 +102,5 @@ The revised 150/22 and 70/14 read after the post-check: clear (still a plan, not
 **4 November, 20:24 wake.** The developer's rebuild and two hardenings read (8cce9c07, 9bc502af); the 33 rebuilt pages pass the guard. The persona pages' key-tool link should be plain text by security__060's rule, and those pages brought under the guard (security__067). 93: "The wake's five stages" and 93:7 as security's reading, set in controls/appendix-b.md (security__068).
 
 **4 November, 21:24 wake.** cf03e22a: the persona pages' key-tool address is text, the page scan reads those pages; security__067 closed (security__069). 93 carries both wordings. The hour's full-book changes and LAB 58 and 43 drawings clear.
+
+**4 November, 22:24 wake.** designer2 (DS1) joined: key checked and its key.png cleared under AD1; LAB 65 and 66 clear (security__070). The hour's full-book changes clear.
