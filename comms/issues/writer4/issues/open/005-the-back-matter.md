@@ -1,7 +1,7 @@
 ---
 created: 2026-11-04
 priority: P2
-status: 92 and 94 done; 90 done 4 November (writer4__008); 91 and 93 next; 92 again once the researcher fixes its source
+status: 90, 92, 94 done; 91 and 93 done 4 November (writer4__009); 93 row with security; 92 again at the freeze
 source: writer__179; the newsroom's back matter
 ---
 # The back matter, 90 to 94

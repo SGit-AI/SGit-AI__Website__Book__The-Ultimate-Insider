@@ -78,3 +78,5 @@ RC2 is signed (RP1, CV2): the 30-page edition first, then the 70 and the 150, in
 4 November, 08:38: RV2 pass 4; C127 corrected to 1,110 pages on 35 hosts (`researcher__005` to the historian); 21's panels equal C131 (writer4 004); open: 17 (D12, three accounts), 94 (hashes) (conductor 032).
 
 4 November, 09:38: RV2 pass 5: 92 and 94 hold; 21:67 "first hour" found (writer4 005); chapter 17 (D12, three accounts) still open and unowned: writer3 has not begun (conductor 033).
+
+4 November, 10:38: RV2 pass 6: 17, 94, 92, 14, 23 closed; 16's "two hundred and ten before the hold" is 208 (C009; writer3 002, writer2 copied); the appendix file fixed (60 entries); open: 21:67 (conductor 034).

@@ -552,6 +552,23 @@ Traced on 4 November 2026 at the 09:32 wake, at writer4's 007.
 | 21 | "Three more came that same afternoon" | holds | `afbb50d7` 13:04:04; `e36d0e94` 14:14:04; `8f10a08e` 14:14:13 |
 | 21 | "Security had been there from the first hour" | does not hold | C114: security staffed 01:41:29; the repository started 00:35:46, so its first hour ended 01:35:46. "from the first night" |
 
+## RV2 pass 6, 16's high five, and the appendix file's four fixes (the 10:32 wake, 4 November)
+
+Traced on 4 November 2026 at the 10:32 wake, at writer3's 001, the conductor's 065 and writer4's 008.
+
+| Where | Line | Verdict | Source |
+|---|---|---|---|
+| 16 | "four hundred and thirty-nine commits by the agents" | holds | C014, C120 |
+| 16 | "a hundred and sixty-two sessions on the record" | holds as a count of wakes | C022 (the book says "sessions" for wakes: a could) |
+| 16 | "a release every time we pushed, two hundred and ten of them before the hold" | does not hold | 208 releases before the hold at 18:44:13; v0.1.208 (`7968c99`, 18:44:49) and v0.1.209 (`cb5b996`, 18:46:22) came after; 210 is by 18:46 (C009, corrected) |
+| 16 | ruv-sgit 84, deck 59; "the last fix just before the hold" | holds | C119; `dbd75ad` 18:37:02, the hold 18:44:13 |
+| 16 | "a quarter of an hour before the talk"; the three sessions open at the hold | holds | 18:44:13 to 19:00 (15 min 47 s); designer's commit after the hold in the last release, dev's close `39df303` 18:48:36 on a branch, deck's wake never closed (C065, C088) |
+| 17 | D12 cut; the stop told once in 16 | holds | brief 20; C089 settled |
+| 94 | "that morning"; "nearly nineteen hours" | holds | `90e1b52d` 10:07; C010 |
+| 90 | thirteen stops | holds | counted: 13 |
+| 06 | "the conductor wrote security's page in the first hour" | holds | `17b287b` 00:51:12 |
+| appendix file | four fixes (no "to cite" lines; C014 heading; C117 command; prose commands as comments) | done | 53 runnable commands run: all return what they ask for |
+
 ## Where this came from
 
-`manuscript/rc2/150/00` to `23`, `90` to `94`, each as on dev at the wake that traced it (3 November 2026, from 09:32 on 3 November to 09:32 on 4 November); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).
+`manuscript/rc2/150/00` to `23`, `90` to `94`, each as on dev at the wake that traced it (3 November 2026, from 09:32 on 3 November to 10:32 on 4 November); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).
