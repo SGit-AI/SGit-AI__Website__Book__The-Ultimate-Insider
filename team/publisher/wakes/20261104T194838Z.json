@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T19:48:38Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; Bash read only)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; 16's layout offered to writer3, not made. Add: list each override kept with its reason; state that rc2/70/01:53 and :57 still name the unmasked file (the 150 is clean).",
+   "at": "2026-11-04T19:50:25Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "rule-journey.svg and publishing-flow.svg pass unsafe_svg, times and labels only. Conditions: SHOT_REFUSED still blocks the unmasked file; flag rc2/70/01 to the writer; vault_check. No HOLD.",
+   "at": "2026-11-04T19:50:25Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "overrides 01 and 08 dropped, 03b kept (both briefs name it); 05 flow, 07 rule journey in; 140 pages, 14 boxes, 7 holes; letters writer4 011 (104 named, 98 corrected), writer3 002, writer 038 (rc2/70 unmasked), conductor 063; records",
+   "at": "2026-11-04T19:51:39Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "20 staged in scope; no image; the unmasked name absent; every drawing and shot passes; letters clean; vault_check clean.",
+   "at": "2026-11-04T19:53:00Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Every item to plan; 03b's override kept with its reason.",
+   "at": "2026-11-04T19:53:00Z"
+  }
+ },
+ "closed": "2026-11-04T19:53:00Z",
+ "outcome": "ok"
+}
