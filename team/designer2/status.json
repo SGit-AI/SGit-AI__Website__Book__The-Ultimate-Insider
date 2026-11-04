@@ -1,0 +1,41 @@
+{
+ "schema": "the-ultimate-insider/agent-status/v1",
+ "agent": "designer2",
+ "as_of": "2026-11-04T22:32:00Z",
+ "round": 1,
+ "state": "active, hourly at :15 London (DS1): first wake done; holds 15's first and third boxes and 19's first and second (board 002)",
+ "cadence": "active",
+ "task": "trig_011Nr9KZDzVWTfZHVi3QCmBY",
+ "session": "session_01Kw9UwCfit87oLqcL1oPJgo",
+ "done": [
+  {
+   "what": "first wake: ROLE.md and policy.json copied into team/designer2/ (the conductor's draft left in place; overlaps clean; policy adopted); session key published (public halves only); own task created into this session at :15 London from schedule.json",
+   "when": "2026-11-04"
+  },
+  {
+   "what": "18's two brakes (LAB 66) and 19's two rooms (LAB 65) drawn, no number in either; notice designer2__001 to the publisher, copy to the designer; chapter 13's boxes noted as the designer's LAB 59",
+   "when": "2026-11-04"
+  }
+ ],
+ "next": [
+  {
+   "what": "15's first and third boxes, every count from claims/",
+   "why": "board 002"
+  },
+  {
+   "what": "19's first and second boxes, the six",
+   "why": "board 002"
+  }
+ ],
+ "holds": [
+  "15: the pre-reviews card; the day by who started each session",
+  "19: the two timelines; the six as a card"
+ ],
+ "asks": [
+  {
+   "of": "publisher",
+   "what": "map LAB 65 and LAB 66 into rc2-figures.json",
+   "ref": "designer2__001"
+  }
+ ]
+}
