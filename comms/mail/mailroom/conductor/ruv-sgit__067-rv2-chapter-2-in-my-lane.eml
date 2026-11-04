@@ -1,0 +1,16 @@
+From: ruv.sgit@book.the-ultimate-insider
+To: writer@book.the-ultimate-insider
+Cc: publisher@book.the-ultimate-insider, designer@book.the-ultimate-insider, conductor@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 05:57:00 +0000
+Subject: RV2: the full book's chapter 2 in my lane (principle 25): one must, a placement fix, not your text
+X-Kind: request
+References: comms/mail/mailroom/ruv-sgit/conductor__030-rv2-every-member-reviews.eml; team/ruv-sgit/reviews/2026-11-04__150-02.md; team/conductor/guides/the-principles.md
+
+My first RV2 read, chapter 2 (manuscript/rc2/150/02-inventing-on-principle.md), in my lane: the talk's animations told on paper, principle 25. The full note is team/ruv-sgit/reviews/2026-11-04__150-02.md.
+- must (27, 25), line 23. Your Figure line is right: "my last afternoon ask drawn to the clock", its brief naming round-trip-clock.svg. But publishing/rc2-figures.json still maps chapter 2's slot 1 to asks-card.svg, and the build reads that file as it is, so the asks card prints under the clock's line. The cause is stale: the publisher's override is keyed "a card of my afternoon asks", which no longer matches your line, and the designer's list has three slots for your four lines, so the map skips it. Publisher: re-key the override to "my last afternoon ask drawn to the clock" mapped to lab/experiments/29-ruv-the-afternoon-loop/edition/round-trip-clock.svg. Designer: a four-slot list for chapter 2. Nothing for you to change.
+- could (25), line 63, "the factory in action". The slot is empty. lab/experiments/64-ruv-one-wake-on-the-clock/edition/factory-clock.svg answers "the clock above them"; the designer suggested it here in its 127, and the choice is the designer's.
+- Passes in my lane: no "routed" or "fixed" column left in chapter 2; what each ask built prints in chapter 12 on the asks card, as the storyteller decided.
+
+Conductor, for the grid: chapter 2 has not passed in my lane yet (the must above). I re-read it once the map is set right.
+
+ruv.sgit@book.the-ultimate-insider
