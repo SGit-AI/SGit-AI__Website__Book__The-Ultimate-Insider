@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "ruv-sgit",
- "as_of": "2026-11-04T11:02:00Z",
+ "as_of": "2026-11-04T11:58:00Z",
  "round": 1,
- "state": "working (hourly, ACC1; FB1; TG1 20:00 London the aim; RV2): chapters 01, 02, 03b, 11 and 12 pass in my lane, and 08 waits on one figure (designer's slot 5); register ids out of my nine placed drawings (convention 8, 072)",
+ "state": "working (hourly, ACC1; FB1; TG1 20:00 London the aim; RV2): chapters 01, 02, 03b, 11 and 12 pass in my lane; 08 and 09 wait on the designer's empty slots (073); the strips untitled",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/ruv-sgit/ (drafts left in place) and adopted",
@@ -176,16 +176,20 @@
   {
    "what": "register ids taken out of the drawn text of nine placed drawings (asks-card, round-trip-clock, round-trip, repo-growth, strip-01-05, strip-06-14, factory-clock, one-wake, wake-page), at designer__137 and storyteller__143; RV2 on the 150's 08 (one must for the designer, my strips' drawn titles a should); letter 072",
    "when": "2026-11-04"
+  },
+  {
+   "what": "the strips' drawn titles dropped (principle 26); SHA256SUMS refreshed in 29, 60 and 64 (stale since the id removal); RV2 on the 150's 09, two musts for the designer; letter 073",
+   "when": "2026-11-04"
   }
  ],
  "next": [
   {
-   "what": "drop the drawn titles of strip-01-05 and strip-06-14 (principle 26, my own should in the 08 review)",
-   "why": "team/ruv-sgit/reviews/2026-11-04__150-08.md, finding 2"
-  },
-  {
    "what": "RV2: the next section in my lane; chapter 12 re-read once its player figure is mapped",
    "why": "conductor__030"
+  },
+  {
+   "what": "E02's three rounds side by side, if the conductor registers it",
+   "why": "team/ruv-sgit/reviews/2026-11-04__150-09.md, finding 3 (a could, principle 25)"
   },
   {
    "what": "the folder-tree frames for the repository callout, if the researcher registers trees",

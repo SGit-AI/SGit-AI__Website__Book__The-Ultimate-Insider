@@ -63,14 +63,17 @@ def boxes(hours, vals, y0, bh, gap):
     return s, bw
 
 
+SHIFT = 6.0                                                          # the title's band, dropped
+
+
 def strip_01_05(vals, wk, first):
     hours = [1, 2, 3, 4, 5]
     y0, bh, gap = 8.0, 28.0, 2.0
     H = 58.0
-    s = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W:g}mm" height="{H:g}mm" viewBox="0 0 {W:g} {H:g}" role="img" '
+    s = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W:g}mm" height="{H - SHIFT:g}mm" viewBox="0 0 {W:g} {H - SHIFT:g}" role="img" '
          'aria-label="Hours one to five on the margin clock: each hour\'s commits, and under hours three to five the wakes by '
          'trigger, scheduled and the editor\'s; hours one and two have no wake records.">',
-         t(0, 5.0, 'Hours one to five: commits each hour, and wakes where the register has them', PT, 700, INK)]
+         f'<g transform="translate(0,-{SHIFT:g})">']                  # no drawn title: the Figure line is the caption (26)
     b, bw = boxes(hours, vals, y0, bh, gap)
     s += b
     for i, h in enumerate(hours):
@@ -93,10 +96,10 @@ def strip_06_14(vals, wk, first):
     y0, bh, gap = 8.0, 28.0, 1.2
     H = 56.0
     band = wk['05 to 13']
-    s = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W:g}mm" height="{H:g}mm" viewBox="0 0 {W:g} {H:g}" role="img" '
+    s = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W:g}mm" height="{H - SHIFT:g}mm" viewBox="0 0 {W:g} {H - SHIFT:g}" role="img" '
          f'aria-label="Hours six to fourteen on the margin clock, side by side: each hour\'s commits; over all nine, one band '
          f'for the wakes in the register\'s words: {escape(band, quote=True)}.">',
-         t(0, 5.0, 'Hours six to fourteen: commits each hour', PT, 700, INK)]
+         f'<g transform="translate(0,-{SHIFT:g})">']                  # no drawn title: the Figure line is the caption (26)
     b, bw = boxes(hours, vals, y0, bh, gap)
     s += b
     by = y0 + bh + 2.0
@@ -112,7 +115,7 @@ def main():
     wk, first = claims()
     for name, fn in (('strip-01-05.svg', strip_01_05), ('strip-06-14.svg', strip_06_14)):
         s, _ = fn(vals, wk, first)
-        svg = '\n'.join(s + ['</svg>']) + '\n'
+        svg = '\n'.join(s + ['</g>', '</svg>']) + '\n'
         why = unsafe_svg(svg)
         if why:
             sys.exit(f"refused by the build's rule: {why}")
