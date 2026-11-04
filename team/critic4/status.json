@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "critic4",
- "as_of": "2026-11-04T05:20:00Z",
- "round": 1,
- "state": "active, hourly at :07 London (RV1): role adopted; first pass on chapter 20 sent to writer4; next 21 and 22 once writer4 has rewritten them, then 23 and the back matter",
+ "as_of": "2026-11-04T05:27:00Z",
+ "round": 2,
+ "state": "active, hourly at :07 London (RV1): pass 1 on chapter 20 and on the back matter's 91 and 93 sent to writer4; next 21 and 22 after writer4's rewrite, then 23, 90, 92 and 94",
  "cadence": "active",
  "task": "trig_011eHUNLL3PDGEHaXYDbLXmZ",
  "session": "session_01Kw9UwEQg43JXepeJu9LCBD",
@@ -15,6 +15,10 @@
   {
    "what": "pass 1 on chapter 20: team/critic4/notes/2026-11-04T0515Z__20-sessions-end.md (1 must, 5 should, 4 could); request critic4__001 to writer4; notice critic4__002 to the conductor (WC1 in the build, a line in the policy)",
    "when": "2026-11-04"
+  },
+  {
+   "what": "pass 1 on 91 and 93: team/critic4/notes/2026-11-04T0525Z__91-93-back-matter.md (3 must, 5 should, 3 could; 93's C115 row credits the wrong control); request critic4__003 to writer4",
+   "when": "2026-11-04"
   }
  ],
  "next": [
@@ -23,7 +27,7 @@
    "why": "critic4__001"
   },
   {
-   "what": "pass 1 on 21 and 22 after writer4's rewrite, then 23 and 90 to 94",
+   "what": "pass 1 on 21 and 22 after writer4's rewrite, then 23, 90, 92 and 94",
    "why": "ROLE.md, the loop"
   }
  ],
