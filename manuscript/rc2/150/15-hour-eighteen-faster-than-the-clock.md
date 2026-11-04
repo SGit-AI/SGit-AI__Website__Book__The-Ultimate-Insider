@@ -84,7 +84,7 @@
 
 ## Something to try
 
-*The loop only works when someone else is looking. Giving one small thing to somebody today, and changing it from what they say, is the smallest version of that loop. Doing it twice is where it starts to feel different. If you try it, pick one small thing you made this week, show it to one person, change it from what they say, and show them again.*
+*The loop only works when someone else is looking. If you try it, pick one small thing you made this week, show it to one person, change it from what they say, and show them again. The second time is where it starts to feel different.*
 
 `%% record: team/conductor/from-newsroom/2026-11-04__do-this-now-as-invitations.md (chapter 15, the proposed card) chapter-plan/cast/cast-guide.md (page conventions 1)`
 
