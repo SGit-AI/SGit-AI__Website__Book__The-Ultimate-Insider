@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "In scope.writes; the grid letter goes by the mail route; no secret, nothing to the blind repository, no stop condition. Readers labelled synthetic, never readership. Tools: Read, Grep, Glob, Bash (it also mentions 'deferred tools that are not listed': the standing observation, synthetic__005); nothing refused.",
    "at": "2026-11-04T10:44:38Z"
+  },
+  "work": {
+   "by": "synthetic",
+   "model": "claude-sonnet-5-5",
+   "verdict": "done",
+   "comment": "writer__218 taken (fixes verified, the 02 decline accepted as the editor's wording); RV2 sixth batch: 07, 16, 17 read by the three named readers, files loaded after all three reported, all 46 cites matched; requests to writer and writer3; synthetic__023 to the conductor (two over-statements corrected before sending); 008, status, debrief; vault_check, gate, scope clean.",
+   "at": "2026-11-04T10:48:14Z"
+  },
+  "post_review": {
+   "by": "security sub-agent, as the reviewer type (post_review.md)",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Three synthetic commits, 14 files, all in scope; validate clean (1062); 0 outside scope; vault_check clean; no key, token, contact detail, religious word or em-dash in the added lines; the diff not read line by line. Tools: Read, Grep, Glob, Bash (it also mentions the deferred MCP tools in its context, not used: the standing observation); nothing refused; wrote no file.",
+   "at": "2026-11-04T10:49:09Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent, as the reviewer type (post_check.md)",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Replies taken, sixth batch with findings, requests, synthetic__023, status, debrief, 008 done; both spot-checks matched (16 L17, 17 L87); conditions kept. It did not check the manuscript fixes (I did, in the files, before saying so). Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T10:49:09Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T10:49:09Z",
+ "outcome": "ok"
 }
