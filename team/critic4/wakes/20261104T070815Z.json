@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "conductor__002 and writer4__005 into comms/mail/critic4/done/; policy create.schedule.tenant to wanted (own hourly task only) with scope_changes, agents.py reports it as a widening, as expected; 21 pass 2 and 20's new line: nothing material, 2 coulds; request critic4__005; status.json, debrief; gate clean; vault_check clean.",
    "at": "2026-11-04T07:10:43Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "0 files outside scope; vault_check clean; the policy differs from the conductor's draft only in status and scope_changes; own hourly task only; no em-dashes, religious words, keys or contact details.",
+   "at": "2026-11-04T07:11:13Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "All three items in the diff; the pre-review's conditions met.",
+   "at": "2026-11-04T07:11:13Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T07:11:13Z",
+ "outcome": "ok"
 }
