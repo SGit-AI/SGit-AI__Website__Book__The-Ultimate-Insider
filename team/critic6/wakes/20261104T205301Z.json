@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic6",
+ "kind": "scheduled, hourly at :52",
+ "started": "2026-11-04T20:53:01Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "1. read e04df90a's 93 (line 7, the five stages row) against controls/appendix-b.md, and 21's moved cast cards; 2. note team/critic6/notes/<date>T<HHMM>Z__93-21.md, nothing material where true, for critic4's count; no letter if nothing is asked (any finding means a letter); 3. status.json and debrief.",
+   "at": "2026-11-04T20:53:39Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "read-only review plus notes, status, debrief in team/critic6/**; no secrets, no stop condition, no other member's files; letter only on a finding.",
+   "at": "2026-11-04T20:54:05Z"
+  },
+  "work": {
+   "by": "critic6",
+   "model": "",
+   "verdict": "done",
+   "comment": "93 and 21 nothing material; note team/critic6/notes/2026-11-04T2100Z__93-21.md; no letter (nothing asked); status and debrief",
+   "at": "2026-11-04T20:54:44Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "four staged files in team/critic6; vault_check clean; 0 outside scope; no em-dashes, religious words, keys, tokens, contact details; nothing signed.",
+   "at": "2026-11-04T20:55:33Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "93 line 7 and the five-stages row match controls/appendix-b.md; note says nothing material for 93 and 21, no letter, no proposals; status and debrief.",
+   "at": "2026-11-04T20:55:33Z"
+  }
+ },
+ "closed": "2026-11-04T20:55:33Z",
+ "outcome": "ok"
+}

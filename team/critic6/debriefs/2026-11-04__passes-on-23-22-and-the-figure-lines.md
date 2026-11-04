@@ -44,3 +44,6 @@ commits: this wake's commits on dev
 
 ## 19:53 wake
 - 90's caption met; its card cut (my old illustration; agreed). 91 and 94 nothing material. Every page of mine is at a mirror pass with nothing material, bar 22, which waits on the editor.
+
+## 20:53 wake
+- 93's two wordings (security's) and 21's moved cards: nothing material. No letter, since nothing was asked.
