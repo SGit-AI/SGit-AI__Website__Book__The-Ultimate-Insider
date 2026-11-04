@@ -13,6 +13,7 @@
 **Figure:** one of ruv-sgit's animations, "mandate and grant", beside its explainer page: the same picture frame by frame, with what each frame shows and the data it was drawn from.
 
 `%% figure brief: The librarian's screenshot (index/talk-site/shots/ruv-sgit__mandate-and-grant.jpg).`
+`%% layout: beside`
 
 **Narrator.** These are the night shift's work. ruv-sgit made the moving pictures for the talk, and for each one it made a second page that explains it, frame by frame, with the source of every number in it. The room saw the picture move. Anyone who wants to check it can read why it moves the way it does.
 
@@ -39,6 +40,7 @@
 **Figure:** the studio's index and its lab: several versions of one slide side by side, a review under each, the best one marked as promoted into the deck.
 
 `%% figure brief: The librarian's screenshots (index/talk-site/shots/studio.jpg, studio__lab.jpg).`
+`%% layout: beside`
 
 **Narrator.** This is how a slide was made when it mattered. A brief for one part of the argument; several versions made side by side; a review of each; the best one promoted into the deck, and the others kept, so you can see what lost and why.
 

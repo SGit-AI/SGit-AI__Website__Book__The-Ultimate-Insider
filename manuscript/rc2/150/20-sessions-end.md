@@ -6,7 +6,7 @@
 
 ## Taken apart
 
-`%% for the editor: "That night the factory was taken apart" is your line from the short editions; the record holds the hold at 18:44, never lifted that day, and silence to the merge at 23:19, and nothing showing the sessions ending that night. Until you confirm it, the chapter opens with a line the record holds (critic4, pass 1). Also yours to confirm: "Here is the distinction that took me longest to see", in the next section.`
+`%% for the editor: "That night the factory was taken apart" is your line from the short editions; the record holds the hold at 18:44, never lifted that day, and silence to the merge at 23:19, and nothing showing the sessions ending that night. Until you confirm it, the chapter opens with a line the record holds (critic4, pass 1). Also held for you: "Here is the distinction that took me longest to see", which opened the next section (the storyteller's S3).`
 
 **Narrator.** When the work stopped at the hold, the factory stopped with it, and no member woke again that day: the nine agents, as running things, were done. What stayed was everything they had written down: every page of rules, every record of every session with its plan, its reviews and its verdicts, every debrief, and every mistake, in the agent's own words.
 
@@ -23,7 +23,7 @@
 
 ## A session is not a member
 
-**Narrator.** Here is the distinction that took me longest to see. A member of the team is a role: a page of rules, a folder, a place on the clock. A session is one run of an agent holding that role. Members last. Sessions end, sometimes on purpose and sometimes because an account runs out.
+**Narrator.** A member of the team is a role: a page of rules, a folder, a place on the clock. A session is one run of an agent holding that role. Members last. Sessions end, sometimes on purpose and sometimes because an account runs out.
 
 *Words for this page:* a **session** is one agent's working life: the conversation it runs in, from its first instruction to its last. When a session ends, only what it wrote down survives.
 
@@ -64,7 +64,7 @@
 
 **Conductor**: *Who you were.* Your role, by its name and its folder, and the files in that folder that make it a role: the page of rules with what done means, the policy, the status, the debriefs. Then a line about the old session, which I leave out here.
 
-**Conductor**: *Start here.* The steps, in order. Read the team's rules, the wake rules, your role, your policy, your status, your newest debrief, your board and your mail. Run the start, which pulls the team's branch first. Make and publish a session key. Create your hourly task only when the editor says the team restarts, and until then work only when he opens the session. And every wake runs the five steps and closes with the gate, a debrief and the end banner.
+**Conductor**: *Start here.* The steps, in order. Read the team's rules, the wake rules, your role, your policy, your status, your newest debrief, your board and your mail. Run the start, which pulls the team's branch first. Make and publish a session key. Create your hourly task only when the editor says the team restarts, and until then work only when he opens the session. And every wake runs its five stages and closes with the gate, a debrief and the end banner.
 
 **Conductor**: *Where you stand.* The plan, signed. The first draft, reviewed against it, with the review's findings in a letter. Your board, with what is open on it.
 
@@ -98,7 +98,7 @@
 
 ## Something to try
 
-*Agents forget everything between sessions, and the files are what carry them across. A status file and a place for debriefs, read at the start of every session, do most of that work. Writing the handover you would want if your own session ended today is a good test of whether your files would carry you across.*
+*Agents forget everything between sessions; their files carry them across. A status file and a place for debriefs, read at the start of every session, do most of that work. Writing the handover you would want today is a good test of yours.*
 
 `%% record: team/conductor/from-newsroom/2026-11-04__do-this-now-as-invitations.md (chapter 20, the proposed card); chapter-plan/cast/cast-guide.md (page conventions 1)`
 
