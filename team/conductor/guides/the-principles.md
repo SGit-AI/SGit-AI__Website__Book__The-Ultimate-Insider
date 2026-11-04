@@ -263,9 +263,9 @@ The newsroom's own wording check on its chapter 3 rewrite shows the other edge: 
 **The principle.** The book keeps the look of the version he liked: a visual on every spread (a picture, a card, a callout, the cast row, an icon); never a card or figure alone on a page; every screenshot paired with its text, beside or with its paragraph, so it never leaves a hole; icons, callouts and words boxes as often as before. P27 covers what a picture shows and P22 the boxes; this one is how often, and how the page fills.
 **Why.** Brief 26: "The previous one, I really like how there was a very nice visual element all the time. This almost went back being a wall of text in a lot of places ... you need to use a lot more of the little icons ... images and callouts"; "on the width, I think you went a bit too much"; "every screenshot, I feel like we should always be trying to pad it", and brief 27: "pad means pair it with text". LY1, signed.
 - **Before** (`team/conductor/research/2026-11-04__the-look-before-and-after/`, 00:30 UTC): every page from 3 to 16 carries a visual; the tour starts on page 11.
-- **After it went wrong** (same study, 09:55 UTC): 12 pages in 3 to 40 more than a third empty at the foot; a "Try this" card alone on page 12; the tour pushed to page 17. The fix is the before.
+- **After it went wrong** (same study, 09:55 UTC): 12 pages in 3 to 40 more than 35% blank at the foot; a "Try this" card alone on page 12; the tour pushed to page 17. The fix is the before.
 
-**A critic checks.** A spread of text with no visual; a page more than a third empty; a card, figure or screenshot alone on a page; a screenshot without its paragraph beside or around it; a chapter with fewer icons and callouts than the version he liked.
+**A critic checks.** A spread of text with no visual; a page more than 35% blank at the foot; a card, figure or screenshot alone on a page; a screenshot without its paragraph beside or around it; a chapter with fewer icons and callouts than the version he liked.
 
 ---
 
