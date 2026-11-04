@@ -77,3 +77,5 @@ source: comms/mail/mailroom/publisher/conductor__026-check-taken.eml; publishing
 4 November about 03:00 UTC: 00b in; captions above; AD1 shots by name; the upload set, round two (the KDP cover at 132, to be redrawn at 142); tails next wake.
 
 4 November about 04:00 UTC: fit-tails in the full book's build (five of nine tails gone); chapter 2's asks card; an EPUB trial (1.2 MB); 136 pages.
+
+4 November about 05:00 UTC: the EPUB with a cover and cast styling (trial to the editor, unchecked); six full-page admin shots by name; 134 pages.

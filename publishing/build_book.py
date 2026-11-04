@@ -248,6 +248,7 @@ def main():
                    help="the type size: A, 9.5 pt body, the editor's choice (TS1, 1 November 2026), by default; B, 9 pt, kept to compare")
     p.add_argument("--stamp", help="a line printed at the top of every page, such as a sample's name and date")
     p.add_argument("--chrome", help="path to a Chromium or Chrome binary")
+    p.add_argument("--epub-cover", help="the EPUB's cover image: a .png or .jpg under lab/ or publishing/ (LP2: our own EPUB)")
     p.add_argument("--cover", help="an SVG or image printed full bleed as the first page, before the title page (ED1: cover A)")
     p.add_argument("--extra-css", action="append", default=[],
                    help="a stylesheet added after lab-look.css, such as the designer's lab/tools/book/speakers.css (repeatable)")
@@ -294,8 +295,6 @@ def main():
                           f"{edition.figure_count(raw)} Figure line(s): its figures print as boxes until the map is "
                           f"brought up to date", file=sys.stderr)
                     drawings = None
-                if drawings:  # for the developer's page check (developer__036): each chapter's drawings, in order
-                    print(f"build_book: figures {key}: " + ", ".join(d or "-" for d in drawings), file=sys.stderr)
                 raw = edition.cast_lines(raw, figures=drawings if drawings is not None else [])
             text = figure_kinds(markua.translate(raw))
         files.append(os.path.join(marked, os.path.basename(src)))
@@ -309,7 +308,19 @@ def main():
         with open(os.path.join(HERE, "epub.css"), encoding="utf-8") as f, open(css, "w", encoding="utf-8") as out:
             out.write(default + "\n" + f.read())
         smaller = epub_images(marked, a.epub_image_width)
-        pandoc(["--to", "epub3", "--toc", "--toc-depth=1", "--reference-location=section", "--css", css,
+        with open(css, encoding="utf-8") as fh:
+            if re.search(r"url\(|@import", fh.read(), re.I):
+                sys.exit("build_book: publishing/epub.css may hold no url() or @import")
+        cover_arg = []
+        if a.epub_cover:  # by realpath, under lab/ or publishing/, a real PNG or JPEG (security, 4 November 2026)
+            real = os.path.realpath(a.epub_cover)
+            under = any(real.startswith(os.path.join(os.path.realpath(ROOT), d) + os.sep) for d in ("lab", "publishing"))
+            with open(real, "rb") as fh:
+                head = fh.read(8)
+            if not under or not re.search(r"\.(png|jpe?g)$", real, re.I) or not (head.startswith(b"\x89PNG\r\n\x1a\n") or head.startswith(b"\xff\xd8\xff")):
+                sys.exit(f"build_book: --epub-cover must be a PNG or JPEG under lab/ or publishing/: {a.epub_cover}")
+            cover_arg = ["--epub-cover-image", real]
+        pandoc(["--to", "epub3", "--toc", "--toc-depth=1", "--reference-location=section", "--css", css] + cover_arg + [
                 "--resource-path", os.pathsep.join([smaller, MANUSCRIPT]), "--output", epub] + files)
         made.append(epub)
 
