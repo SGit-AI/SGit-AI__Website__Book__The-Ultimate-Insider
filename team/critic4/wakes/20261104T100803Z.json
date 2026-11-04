@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "writer4__008 into done/; 20 and 21 pass 5 nothing material; proposed for sign-off (status.json sign_off_proposed 'proposed, not signed (SO1 open)'; request critic4__008 to the conductor; notice critic4__009 to writer4; other lanes and 92 named as outside the proposal); debrief; gate, vault_check clean; 0 outside scope.",
    "at": "2026-11-04T10:10:18Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "9 files inside scope.writes; vault_check clean; 'proposed, not signed (SO1 open)' in status, note and letters; nothing marked signed or frozen; no em-dash, religious word, key or contact detail.",
+   "at": "2026-11-04T10:10:52Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "Every item present. Minor: the conductor letter does not say 92 is outside the proposal (note and status do); left as is, since a mailroom letter is never edited and the letter names only 20 and 21.",
+   "at": "2026-11-04T10:10:52Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T10:10:52Z",
+ "outcome": "ok"
 }
