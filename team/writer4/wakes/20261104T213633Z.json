@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer4",
+ "kind": "scheduled, hourly at :35",
+ "started": "2026-11-04T21:36:33Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1) critic4 018 and publisher 012: 21's cast-card drawing moved before the members' table (no text changed); the designer told of its drawn second caption. 2) researcher 011: noted. 3) one letter; records.",
+   "at": "2026-11-04T21:36:43Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope; no stop condition, secret or cross-member harm; the designer note as a mailroom/designer/writer4__ letter.",
+   "at": "2026-11-04T21:37:08Z"
+  },
+  "work": {
+   "by": "writer4",
+   "model": "",
+   "verdict": "done",
+   "comment": "21's drawing block moved before the members' table, no text changed; letter writer4__016 (critic4, publisher, designer, researcher); records.",
+   "at": "2026-11-04T21:38:38Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Validate, agents check, vault_check pass; 21 only moves the figure block; no secrets, em-dash, RW1 word or single-% line.",
+   "at": "2026-11-04T21:39:41Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Items 1 to 3 done; nothing beyond the plan.",
+   "at": "2026-11-04T21:39:41Z"
+  }
+ },
+ "closed": "2026-11-04T21:39:41Z",
+ "outcome": "ok"
+}
