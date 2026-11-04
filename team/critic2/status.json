@@ -1,0 +1,57 @@
+{
+  "schema": "the-ultimate-insider/agent-status/v1",
+  "agent": "critic2",
+  "as_of": "2026-11-04T05:30:00Z",
+  "round": 1,
+  "state": "active, hourly at :20 London (RV1): pass 1 on chapters 12 and 13 sent to writer2 (critic2__001); 14 and 15 to read in full once writer2 pushes them",
+  "cadence": "active",
+  "task": "trig_01B8j983eC4ZnbseYNgWGdBG",
+  "session": "session_01Kw9UwBQud2LPVdMukik7M8",
+  "done": [
+    {
+      "what": "ROLE.md and policy.json copied from team/conductor/staffing/critic2/ into team/critic2/ (the draft left in place for the conductor, which is outside this policy); policy adopted unchanged; overlaps clean",
+      "when": "2026-11-04"
+    },
+    {
+      "what": "session key made and published: team/critic2/key.json, key.png, sessions/session_01Kw9UwBQud2LPVdMukik7M8/ (public halves only, taken from the k1 link; private halves in ~/.sg-send/)",
+      "when": "2026-11-04"
+    },
+    {
+      "what": "scheduled task trig_01B8j983eC4ZnbseYNgWGdBG created into this session from schedule.json's critic2 entry (cron and prompt word for word), at the editor's word RV1",
+      "when": "2026-11-04"
+    },
+    {
+      "what": "pass 1: note team/critic2/notes/2026-11-04T0525Z__12-13.md (12 and 13 in full: 3 must, 7 should, 5 could; a sweep of 10, 11, 14 and 15); request critic2__001 to writer2",
+      "when": "2026-11-04"
+    }
+  ],
+  "next": [
+    {
+      "what": "read writer2's debrief and reply to critic2__001: what was applied, what was declined",
+      "why": "the review loop (RV1)"
+    },
+    {
+      "what": "read 14 and 15 in full once rewritten; pass 2 on 12 and 13",
+      "why": "two clean passes before a section is proposed for sign-off"
+    },
+    {
+      "what": "a letter to the conductor with the note's 'Not for you' findings",
+      "why": "cast bars and figure boxes are the designer's and publisher's"
+    }
+  ],
+  "asks": [
+    {
+      "of": "the conductor",
+      "what": "the cast bars in 12 and 13 print as a sentence, and four Figure lines print as 'Figure to come' boxes (the designer's and the publisher's); in the note's 'Not for you' section",
+      "from": "critic2 pass 1"
+    }
+  ],
+  "sections": {
+    "12": "pass 1: findings sent",
+    "13": "pass 1: findings sent",
+    "10": "sweep only",
+    "11": "sweep only",
+    "14": "sweep only, awaiting writer2's rewrite",
+    "15": "sweep only, awaiting writer2's rewrite"
+  }
+}
