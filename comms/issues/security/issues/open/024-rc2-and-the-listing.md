@@ -65,3 +65,4 @@ The hour's revisions to 150/04 to 08 and 70/03, 04, 06, 08 read after the post-c
 **23:24 wake:** the full book's 94 (the making of this book) clear: names no session, task, key or account; the hand-off as the only crossing; the hold and the "rewrote" error told as recorded. The hour's revisions to 04, 21, 22, 23 and 91 clear; the designer's two new drawings clear. No letter needed.
 
 **00:24 wake (4 November):** Appendix B checked word for word: may go into Book.txt. Appendix A clear but for C068's printed command, held while D12 is open (security__045). Start here clear; the designer's three new drawings clear.
+The revised 150/22 and 70/14 read after the post-check: clear (still a plan, not yet run; no one named).
