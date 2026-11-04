@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic3",
+ "kind": "scheduled, hourly at :37",
+ "started": "2026-11-04T11:38:05Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. Pass 3 on 16 and 17: writer3__002 against the text, principle 36 against the built PDF. 2. The publisher's remap (publisher__001, conductor__005) and no register ids in drawings. 3. Note team/critic3/notes/<ts>__16-17-pass3.md, letter to writer3 (critic3__006), outbox copy, status, debrief; handled mail to done/. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T11:38:37Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Writes only team/critic3/** and critic3's comms paths; no manuscript, src, book.json or other member's files; PDF build to untracked output only; no secrets or stop conditions; handled mail copied within critic3's own folders. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T11:38:52Z"
+  },
+  "work": {
+   "by": "critic3",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "1. writer3__002 checked against text and register; full book PDF built locally (scratchpad, untracked), pages 80 to 88 read for P36. 2. Remap checked in the PDF; ids inside four drawings found. 3. Note pass 3 (0 must, 1 should, 1 could), letter critic3__006 to writer3, critic3__007 to conductor with copies in designer's and publisher's mailrooms (the drawings, page 83); status, debrief; handled mail to done/. Gate clean 1080; vault_check clean.",
+   "at": "2026-11-04T11:42:11Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "14 staged files inside scope.writes; no manuscript, publishing/, lab/ or other member's file; no dash, religious word, key, token or contact; vault_check clean; 0 outside scope; letters within each recipient's role; nothing attack-shaped or toward the blind repository. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T11:42:57Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Note, letters 006 and 007 with copies, status, debrief, mail to done/; no manuscript, src or book.json edits; nothing marked signed. Note mapped with principle and severity. Spot-check holds: 17:138 and 16:111 ask for ids in small type, against P28. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T11:42:58Z"
+  }
+ },
+ "closed": "2026-11-04T11:42:58Z",
+ "outcome": "ok"
+}

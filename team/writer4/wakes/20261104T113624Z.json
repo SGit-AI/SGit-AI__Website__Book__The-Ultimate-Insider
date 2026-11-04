@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer4",
+ "kind": "scheduled, hourly at :35",
+ "started": "2026-11-04T11:36:24Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1) 93: security's two cells (17:47 on the record line only); critic4's holding line for the Appendix A pointer; critic6's could; 'a quarter of an hour' to match 16 (writer3__001). 2) 91: 'where it is explained', wake to chapter 3, entries squared with the librarian's counts, freeze into lock, gate line out, critic6's could. 3) 20: S3 held, 'five stages', card shorter. 21: S6 held, S7 three hellos, panels in one row, Inherited lines to the drawing, S9, S10, the 'Figure to come' line cut. 4) LY1: %% layout lines where a picture pairs with its text. 5) 92 from the fixed file. 6) one letter; records.",
+   "at": "2026-11-04T11:37:04Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside scope.writes; nothing on the never-list. 93 copies security's ruling as written; 92 the researcher's fixed file; numbers from the register; no dramatised scene as fact; RW1, em-dashes, vault_check before commit.",
+   "at": "2026-11-04T11:37:56Z"
+  },
+  "work": {
+   "by": "writer4",
+   "model": "",
+   "verdict": "done",
+   "comment": "93 security's cells and critic4's holding line; 91 squared with the boxes and two lines shorter; 20 and 21 to the storyteller's lane review and critic4's print read; 92 from the fixed file (60); one figure for the hold in part five; LY1 layout lines in 90. Letter writer4__010; records. Build and gate clean.",
+   "at": "2026-11-04T11:41:46Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "validate, agents check, vault_check pass; no key, token, personal detail, em-dash or RW1 word; no single-% line; 93's cells match security__007; 21's table matches C131; the hellos fit the ROLE.md files; held sentences only on %% lines.",
+   "at": "2026-11-04T11:43:03Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Items 1 to 6 present; the extra --- before 92's source section is the page's own separator, as in every chapter; nothing unplanned.",
+   "at": "2026-11-04T11:43:03Z"
+  }
+ },
+ "closed": "2026-11-04T11:43:03Z",
+ "outcome": "ok"
+}
