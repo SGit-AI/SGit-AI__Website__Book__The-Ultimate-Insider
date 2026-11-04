@@ -1,9 +1,9 @@
 {
  "about": "The full book's printed pages checked for pages that may not look right (conductor__036). Written by review/tools/print_check.py: page numbers, chapter titles, counts and sizes only.",
  "edition": "rc2-150",
- "source": "a PDF given by hand (full.pdf, created Wed Nov  4 22:04:28 2026 UTC); its chapters are taken to be today's",
- "pdf_pages": 145,
- "chapters_hash": "58f8653f04562c9d",
+ "source": "a PDF given by hand (full.pdf, created Wed Nov  4 22:53:08 2026 UTC); its chapters are taken to be today's",
+ "pdf_pages": 144,
+ "chapters_hash": "659ac79e97fc3649",
  "thresholds": {
   "spill_fill_below": 0.25,
   "gap_fill_below": 0.7,
@@ -13,45 +13,24 @@
  "chapters_found": 31,
  "chapters": 31,
  "counts": {
-  "chapter_end_spill": 8,
+  "chapter_end_spill": 6,
   "gap_page": 5,
-  "figure_apart": 16
+  "figure_apart": 17
  },
  "flags": [
   {
    "kind": "chapter_end_spill",
-   "page": 123,
+   "page": 122,
    "chapter": "The tour, at length",
    "lines": 1,
    "fill": 0.04
   },
   {
    "kind": "chapter_end_spill",
-   "page": 141,
+   "page": 140,
    "chapter": "Appendix A: every number, and how to rerun it",
    "lines": 3,
    "fill": 0.06
-  },
-  {
-   "kind": "chapter_end_spill",
-   "page": 92,
-   "chapter": "What did not work",
-   "lines": 3,
-   "fill": 0.12
-  },
-  {
-   "kind": "chapter_end_spill",
-   "page": 116,
-   "chapter": "Principles, and build your own",
-   "lines": 5,
-   "fill": 0.12
-  },
-  {
-   "kind": "chapter_end_spill",
-   "page": 39,
-   "chapter": "Roles as a cast you can read",
-   "lines": 4,
-   "fill": 0.14
   },
   {
    "kind": "chapter_end_spill",
@@ -75,6 +54,13 @@
    "fill": 0.17
   },
   {
+   "kind": "chapter_end_spill",
+   "page": 115,
+   "chapter": "Principles, and build your own",
+   "lines": 8,
+   "fill": 0.19
+  },
+  {
    "kind": "gap_page",
    "page": 50,
    "chapter": "Hours four and five: before dawn",
@@ -94,7 +80,7 @@
   },
   {
    "kind": "gap_page",
-   "page": 19,
+   "page": 20,
    "chapter": "The tour: what a factory made in a day",
    "fill": 0.69,
    "lines": 8,
@@ -103,7 +89,7 @@
   },
   {
    "kind": "gap_page",
-   "page": 94,
+   "page": 93,
    "chapter": "How do we contain this",
    "fill": 0.69,
    "lines": 25,
@@ -112,7 +98,7 @@
   },
   {
    "kind": "gap_page",
-   "page": 103,
+   "page": 102,
    "chapter": "Sessions end",
    "fill": 0.69,
    "lines": 23,
@@ -121,16 +107,9 @@
   },
   {
    "kind": "figure_apart",
-   "page": 9,
-   "chapter": "Slides as a compromise",
-   "intro_page": 8,
-   "pages_apart": 1
-  },
-  {
-   "kind": "figure_apart",
-   "page": 10,
-   "chapter": "Slides as a compromise",
-   "intro_page": 9,
+   "page": 8,
+   "chapter": "Who is telling this story",
+   "intro_page": 7,
    "pages_apart": 1
   },
   {
@@ -149,9 +128,23 @@
   },
   {
    "kind": "figure_apart",
-   "page": 16,
+   "page": 11,
+   "chapter": "Slides as a compromise",
+   "intro_page": 10,
+   "pages_apart": 1
+  },
+  {
+   "kind": "figure_apart",
+   "page": 12,
+   "chapter": "Slides as a compromise",
+   "intro_page": 11,
+   "pages_apart": 1
+  },
+  {
+   "kind": "figure_apart",
+   "page": 17,
    "chapter": "The tour: what a factory made in a day",
-   "intro_page": 15,
+   "intro_page": 16,
    "pages_apart": 1,
    "introduced_by": "a heading"
   },
@@ -185,31 +178,39 @@
   },
   {
    "kind": "figure_apart",
-   "page": 95,
+   "page": 94,
    "chapter": "How do we contain this",
-   "intro_page": 94,
+   "intro_page": 93,
    "pages_apart": 1
   },
   {
    "kind": "figure_apart",
-   "page": 97,
+   "page": 96,
    "chapter": "How do we contain this",
-   "intro_page": 96,
+   "intro_page": 95,
    "pages_apart": 1
   },
   {
    "kind": "figure_apart",
-   "page": 104,
+   "page": 103,
    "chapter": "Sessions end",
-   "intro_page": 103,
+   "intro_page": 102,
    "pages_apart": 1
   },
   {
    "kind": "figure_apart",
-   "page": 114,
+   "page": 113,
    "chapter": "Principles, and build your own",
-   "intro_page": 113,
+   "intro_page": 112,
    "pages_apart": 1
+  },
+  {
+   "kind": "figure_apart",
+   "page": 118,
+   "chapter": "The tour, at length",
+   "intro_page": 117,
+   "pages_apart": 1,
+   "introduced_by": "a heading"
   },
   {
    "kind": "figure_apart",
@@ -226,14 +227,6 @@
    "intro_page": 119,
    "pages_apart": 1,
    "introduced_by": "a heading"
-  },
-  {
-   "kind": "figure_apart",
-   "page": 121,
-   "chapter": "The tour, at length",
-   "intro_page": 120,
-   "pages_apart": 1,
-   "introduced_by": "a heading"
   }
  ],
  "raster_figures_over_45_percent_on_pages": [],
@@ -246,24 +239,37 @@
   "begin_on_a_later_page_than_their_heading": 4,
   "with_a_paragraph_before_them_in_the_section": 82,
   "not_found": 0,
-  "begin_on_a_later_page_than_that_paragraph_ends": 12
+  "begin_on_a_later_page_than_that_paragraph_ends": 13
  },
  "since_last": {
   "previous_pdf_pages": 145,
   "previous_counts": {
    "chapter_end_spill": 8,
-   "gap_page": 6,
+   "gap_page": 5,
    "figure_apart": 16
   },
   "fixed": [
    {
-    "kind": "gap_page",
-    "chapter": "The second factory",
+    "kind": "chapter_end_spill",
+    "chapter": "What did not work",
+    "before": 1,
+    "now": 0
+   },
+   {
+    "kind": "chapter_end_spill",
+    "chapter": "Roles as a cast you can read",
     "before": 1,
     "now": 0
    }
   ],
-  "new": [],
+  "new": [
+   {
+    "kind": "figure_apart",
+    "chapter": "Who is telling this story",
+    "before": 0,
+    "now": 1
+   }
+  ],
   "remaining": [
    {
     "kind": "chapter_end_spill",
@@ -274,24 +280,6 @@
    {
     "kind": "chapter_end_spill",
     "chapter": "Appendix A: every number, and how to rerun it",
-    "before": 1,
-    "now": 1
-   },
-   {
-    "kind": "chapter_end_spill",
-    "chapter": "What did not work",
-    "before": 1,
-    "now": 1
-   },
-   {
-    "kind": "chapter_end_spill",
-    "chapter": "Principles, and build your own",
-    "before": 1,
-    "now": 1
-   },
-   {
-    "kind": "chapter_end_spill",
-    "chapter": "Roles as a cast you can read",
     "before": 1,
     "now": 1
    },
@@ -310,6 +298,12 @@
    {
     "kind": "chapter_end_spill",
     "chapter": "Hours four and five: before dawn",
+    "before": 1,
+    "now": 1
+   },
+   {
+    "kind": "chapter_end_spill",
+    "chapter": "Principles, and build your own",
     "before": 1,
     "now": 1
    },
@@ -405,7 +399,7 @@
   "how a page looks beyond how far its content reaches"
  ],
  "paragraphs_found_on_a_page": {
-  "found": 987,
-  "of": 1002
+  "found": 979,
+  "of": 993
  }
 }

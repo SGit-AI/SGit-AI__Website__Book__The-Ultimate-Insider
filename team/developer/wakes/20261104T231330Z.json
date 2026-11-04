@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled wake, 23:12",
+ "started": "2026-11-04T23:13:30Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions for Claude_Docs, github, Gmail in context, no tools for them). Plan run before any file was touched: page check on the PDF of 22:53, online view rebuilt for real only because the chapters changed, after the guard test prints ok, mail only changes counted from 062 (developer__063); housekeeping with exit codes; the conductor's pages read only.",
+   "at": "2026-11-04T23:13:59Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them). Within policy; untrusted PDF handling; writes only inside the developer's paths; vault_check; exit codes; branch and dev only.",
+   "at": "2026-11-04T23:13:59Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
