@@ -45,7 +45,7 @@ def record_tokens(note):
         if t.endswith("'s"):
             t = t[:-2]
         if t and re.search(r"[A-Za-z0-9]", t) and "$" not in t and not re.fullmatch(r"[0-9.]+", t) \
-                and not re.fullmatch(r"[a-z0-9.-]+\.(com|ai|dev|io|org)(/.*)?", t):
+                and not re.fullmatch(r"[a-z0-9.-]+\.(com|ai|dev|io|org)(/.*)?", t) and not re.fullmatch(r"[\w.+-]+@[\w.-]+", t):   # an address is not a path
             out.append(t)
     return out
 
