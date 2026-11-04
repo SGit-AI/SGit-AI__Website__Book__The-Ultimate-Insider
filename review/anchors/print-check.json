@@ -1,9 +1,9 @@
 {
  "about": "The full book's printed pages checked for pages that may not look right (conductor__036). Written by review/tools/print_check.py: page numbers, chapter titles, counts and sizes only.",
  "edition": "rc2-150",
- "source": "a PDF given by hand (full.pdf, created Wed Nov  4 18:18:46 2026 UTC); its chapters are taken to be today's",
- "pdf_pages": 141,
- "chapters_hash": "82ebc1e0fc810537",
+ "source": "a PDF given by hand (full.pdf, created Wed Nov  4 19:09:18 2026 UTC); its chapters are taken to be today's",
+ "pdf_pages": 142,
+ "chapters_hash": "ee58bde405d93255",
  "thresholds": {
   "spill_fill_below": 0.25,
   "gap_fill_below": 0.7,
@@ -13,18 +13,11 @@
  "chapters_found": 31,
  "chapters": 31,
  "counts": {
-  "chapter_end_spill": 7,
+  "chapter_end_spill": 5,
   "gap_page": 7,
-  "figure_apart": 16
+  "figure_apart": 18
  },
  "flags": [
-  {
-   "kind": "chapter_end_spill",
-   "page": 114,
-   "chapter": "Principles, and build your own",
-   "lines": 3,
-   "fill": 0.07
-  },
   {
    "kind": "chapter_end_spill",
    "page": 90,
@@ -34,17 +27,17 @@
   },
   {
    "kind": "chapter_end_spill",
-   "page": 27,
-   "chapter": "Hour one: the empty project",
-   "lines": 4,
-   "fill": 0.14
+   "page": 114,
+   "chapter": "Principles, and build your own",
+   "lines": 5,
+   "fill": 0.12
   },
   {
    "kind": "chapter_end_spill",
-   "page": 120,
-   "chapter": "The tour, at length",
-   "lines": 5,
-   "fill": 0.16
+   "page": 38,
+   "chapter": "Roles as a cast you can read",
+   "lines": 4,
+   "fill": 0.14
   },
   {
    "kind": "chapter_end_spill",
@@ -55,14 +48,7 @@
   },
   {
    "kind": "chapter_end_spill",
-   "page": 38,
-   "chapter": "Roles as a cast you can read",
-   "lines": 6,
-   "fill": 0.19
-  },
-  {
-   "kind": "chapter_end_spill",
-   "page": 137,
+   "page": 138,
    "chapter": "Appendix A: every number, and how to rerun it",
    "lines": 9,
    "fill": 0.23
@@ -105,15 +91,6 @@
   },
   {
    "kind": "gap_page",
-   "page": 101,
-   "chapter": "Sessions end",
-   "fill": 0.67,
-   "lines": 22,
-   "raster_figure_here": false,
-   "borderline": true
-  },
-  {
-   "kind": "gap_page",
    "page": 19,
    "chapter": "The tour: what a factory made in a day",
    "fill": 0.69,
@@ -127,6 +104,15 @@
    "chapter": "How do we contain this",
    "fill": 0.69,
    "lines": 25,
+   "raster_figure_here": false,
+   "borderline": true
+  },
+  {
+   "kind": "gap_page",
+   "page": 101,
+   "chapter": "Sessions end",
+   "fill": 0.69,
+   "lines": 23,
    "raster_figure_here": false,
    "borderline": true
   },
@@ -244,16 +230,32 @@
    "intro_page": 117,
    "pages_apart": 1,
    "introduced_by": "a heading"
+  },
+  {
+   "kind": "figure_apart",
+   "page": 119,
+   "chapter": "The tour, at length",
+   "intro_page": 118,
+   "pages_apart": 1,
+   "introduced_by": "a heading"
+  },
+  {
+   "kind": "figure_apart",
+   "page": 120,
+   "chapter": "The tour, at length",
+   "intro_page": 119,
+   "pages_apart": 1,
+   "introduced_by": "a heading"
   }
  ],
  "raster_figures_over_45_percent_on_pages": [],
  "figures": {
-  "figure_lines": 94,
-  "introduced_by_a_heading": 12,
-  "heading_checked": 12,
+  "figure_lines": 99,
+  "introduced_by_a_heading": 17,
+  "heading_checked": 17,
   "heading_page_not_found": 0,
   "introduced_by_the_dramatised_note": 0,
-  "begin_on_a_later_page_than_their_heading": 3,
+  "begin_on_a_later_page_than_their_heading": 5,
   "with_a_paragraph_before_them_in_the_section": 82,
   "not_found": 0,
   "begin_on_a_later_page_than_that_paragraph_ends": 13
@@ -263,37 +265,31 @@
   "previous_counts": {
    "chapter_end_spill": 7,
    "gap_page": 7,
-   "figure_apart": 17
+   "figure_apart": 16
   },
   "fixed": [
    {
     "kind": "chapter_end_spill",
-    "chapter": "The words used",
+    "chapter": "Hour one: the empty project",
     "before": 1,
     "now": 0
    },
    {
-    "kind": "figure_apart",
-    "chapter": "The story before the slides, and the objection kept",
-    "before": 2,
-    "now": 1
+    "kind": "chapter_end_spill",
+    "chapter": "The tour, at length",
+    "before": 1,
+    "now": 0
    }
   ],
   "new": [
    {
-    "kind": "chapter_end_spill",
-    "chapter": "Appendix A: every number, and how to rerun it",
-    "before": 0,
-    "now": 1
+    "kind": "figure_apart",
+    "chapter": "The tour, at length",
+    "before": 2,
+    "now": 4
    }
   ],
   "remaining": [
-   {
-    "kind": "chapter_end_spill",
-    "chapter": "Principles, and build your own",
-    "before": 1,
-    "now": 1
-   },
    {
     "kind": "chapter_end_spill",
     "chapter": "What did not work",
@@ -302,13 +298,13 @@
    },
    {
     "kind": "chapter_end_spill",
-    "chapter": "Hour one: the empty project",
+    "chapter": "Principles, and build your own",
     "before": 1,
     "now": 1
    },
    {
     "kind": "chapter_end_spill",
-    "chapter": "The tour, at length",
+    "chapter": "Roles as a cast you can read",
     "before": 1,
     "now": 1
    },
@@ -320,7 +316,7 @@
    },
    {
     "kind": "chapter_end_spill",
-    "chapter": "Roles as a cast you can read",
+    "chapter": "Appendix A: every number, and how to rerun it",
     "before": 1,
     "now": 1
    },
@@ -350,12 +346,6 @@
    },
    {
     "kind": "gap_page",
-    "chapter": "Sessions end",
-    "before": 1,
-    "now": 1
-   },
-   {
-    "kind": "gap_page",
     "chapter": "The tour: what a factory made in a day",
     "before": 1,
     "now": 1
@@ -363,6 +353,12 @@
    {
     "kind": "gap_page",
     "chapter": "How do we contain this",
+    "before": 1,
+    "now": 1
+   },
+   {
+    "kind": "gap_page",
+    "chapter": "Sessions end",
     "before": 1,
     "now": 1
    },
@@ -392,6 +388,12 @@
    },
    {
     "kind": "figure_apart",
+    "chapter": "The story before the slides, and the objection kept",
+    "before": 1,
+    "now": 1
+   },
+   {
+    "kind": "figure_apart",
     "chapter": "Hour nineteen, minute by minute",
     "before": 1,
     "now": 1
@@ -418,13 +420,13 @@
     "kind": "figure_apart",
     "chapter": "The tour, at length",
     "before": 2,
-    "now": 2
+    "now": 4
    }
   ]
  },
  "cannot_tell": [
   "whether a gap or a short page is meant (a divider, an opener, a page left to a drawing): it measures how far the content reaches",
-  "0 of 94 figure lines could not be found by their printed caption; 12 sit straight under a heading (0 of them with the page of the heading not found, not checked), which counts as what introduces them; for the rest it finds where the caption begins, not whether the drawing under it is on the same page",
+  "0 of 99 figure lines could not be found by their printed caption; 17 sit straight under a heading (0 of them with the page of the heading not found, not checked), which counts as what introduces them; for the rest it finds where the caption begins, not whether the drawing under it is on the same page",
   "how a page looks beyond how far its content reaches"
  ],
  "paragraphs_found_on_a_page": {

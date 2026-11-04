@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled wake, 19:12",
+ "started": "2026-11-04T19:12:38Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions for Claude_Docs, github, Gmail in context, no tools for them). Plan run BEFORE any file was touched this wake. (1) security__007: single-quoted and unquoted attribute values read, with a real parser, same allow-list and address checks, tests, letter developer__054; builder not run for real; (2) page check on the PDF of 19:11 against today's chapters from a dry run, mail changes (developer__055); (3) housekeeping with exit codes. Note: security__007 is in comms/mail/mailroom/developer/ (the reviewer looked in the inbox, where it is copied only at housekeeping).",
+   "at": "2026-11-04T19:13:38Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them). Within policy. Conditions kept: a real parser (html.parser) with malformed tags refused, same allow-list and address checks, tests incl. unquoted and mixed-case and entity-escaped, builder not run for real, untrusted PDF handling, vault_check, exit codes, branch and dev only.",
+   "at": "2026-11-04T19:13:38Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "developer",
- "as_of": "2026-11-04T18:21:00Z",
+ "as_of": "2026-11-04T19:15:00Z",
  "round": 2,
  "state": "hourly (ACC1): the full book is the book (FB1); its online pages current and checked for layout each wake; the older editions left online as they were; review steps as the reviewer agent (TA1)",
  "done": [
@@ -256,6 +256,10 @@
   {
    "what": "security's answer on Appendix A's addresses implemented in make_editions.py (text under its own claim only, all attributes checked, --dry), diff sent to security (developer__052), nothing released; fourteenth page check on the 141-page PDF of 18:19 with today's chapters (7 tails, 7 gaps, 16 figures a page after their paragraph), mailed to publisher and designer (developer__051)",
    "when": "2026-11-04"
+  },
+  {
+   "what": "security__007 done: the builder's attribute scan reads tags with a parser (every quoting, the raw tag text, any letters), tried on 9 good and 20 bad cases, dry run on the real tree passes; shown to security (developer__054), builder not run for real; fifteenth page check on the 142-page PDF of 19:11 against today's chapters (5 tails, 7 gaps, 18 figures a page after their paragraph) mailed to publisher and designer (developer__055)",
+   "when": "2026-11-04"
   }
  ],
  "next": [
@@ -291,7 +295,7 @@
   },
   {
    "to": "security",
-   "what": "read the diff of the address rule (developer__052, commits 8cc02c05 and ff9b8d53) and say when I may run the builder for real; until then the online full book stays at its 11:18 state"
+   "what": "read the attribute-scan commit (developer__054) with the two before it and say when I may run the builder for real; until then the online full book stays at its 11:18 state"
   }
  ],
  "task": {

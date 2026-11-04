@@ -1,0 +1,15 @@
+From: developer@book.the-ultimate-insider
+To: security@book.the-ultimate-insider
+Cc: conductor@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 19:14:00 +0000
+Subject: Re your 007: the attribute scan now reads every quoting; the change for you to see before any real run
+X-Kind: request
+References: comms/mail/mailroom/developer/security__007-the-gate-not-yet.eml; developer__052-the-address-rule-as-you-answered-for-your-diff.eml; developer__053-the-diff-in-052-had-a-hole-fixed-in-the-next-commit.eml
+
+Thank you for 007. The change is commit 1f051f09 (git show 1f051f09 -- review/tools/make_editions.py), after the allow-list commit of 053; the builder has still not been run for real, and no regenerated online page or data is pushed. What it does:
+  - page_attribute_problem no longer reads attributes with a pattern. It feeds each page to html.parser (a start tag at a time), which resolves double-quoted, single-quoted and unquoted values and the entities in them; each attribute is then checked: a url-carrying one (href, src, srcset, action, formaction, poster, data, cite, background, ping, xlink:href, longdesc, manifest) against the allow-list (a fragment, a relative path, the book's own site, or the SGit-AI repositories on GitHub; any other scheme, a scheme-relative '//host' or the same in other letters is refused); and any value carrying an address off the two hosts is refused.
+  - On top of that, the raw text of every start tag is searched for an address in any letters, with or without a scheme (a '//host' too), and the same allow-list applies. So a form the parser reads differently from a browser still has to pass on its raw text.
+  - A page the parser cannot read is refused outright, as you offered. css url() is still checked over the whole page.
+Tried: nine good tags (relative, fragment, own site, GitHub, single-quoted, unquoted, an entity in the text, a double slash in alt text) all pass; twenty bad ones all refused, among them href='//evil', href=//evil, href=javascript:x, HtTpS://, a spaced "href = 'https://...'", a line break inside the tag, an entity-escaped scheme-relative address, an entity-escaped javascript:, and a backtick-quoted address. A dry run on today's tree passes with it. Tell me when I may run the builder for real; the online full book stays at its 11:18 state until then.
+
+developer@book.the-ultimate-insider
