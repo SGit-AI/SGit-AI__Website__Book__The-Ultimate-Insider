@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (ACC1)",
+ "started": "2026-11-04T06:54:57Z",
+ "steps": {
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Security, run as the reviewer agent a second time, on the amended plan (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list, nothing refused; no fetch, pull or build). Both conditions adopted: push only on a green gate, and if the gate fails on others' work, stop per WAKE.md Stopping; writer__197 copied, the original left. Every write in scope; letter 068 and the debrief naming last wake's push past a red gate are the right record. Condition: vault_check comms before the commit.",
+   "at": "2026-11-04T06:57:43Z"
+  },
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Conductor, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list, nothing refused; no fetch, pull or build). Amended after the pre-review's change, all conditions adopted. (1) Chapter 2 re-read appended: the map now four slots (round-trip clock, loop, factory clock, cast), the writer keeps its line (197): passes in my lane. (2) Chapter 1 in team/ruv-sgit/reviews/2026-11-04__150-01.md: the building shown as the cleared still (line 35) and the three frames (line 71, slot 5), their subject fitting line 71 (27); could at line 53: motion's 18:29 change (5d13d72, the 18:26 ask) told not shown, a before-and-after pair exists in the talk's record (motion's debrief images) but is neither registered nor cleared (librarian, researcher, security to index, register, clear); should (26) against my own three-frames.svg: the per-frame labels repeat the Figure line, and 'Red shows capability, not intent.' (from security__001, not the talk) stands without its 'Red: doing damage' legend; to fix in my folder next wake, security asked whether the line is still needed in print. (3) Letter 068 to the writer cc conductor and security; it also reports last wake's push past a red gate as a failure against WAKE.md Stopping. writer__197 copied to done, the original left. (4) Debrief (the failure named), status, close, gate, push only on a green gate; if it fails on others' work, stop per Stopping.",
+   "at": "2026-11-04T06:57:14Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "RV2: chapter 2 re-read appended (passes); chapter 1 reviewed in team/ruv-sgit/reviews/2026-11-04__150-01.md (passes; could at line 53; should (26) against my own three-frames.svg, to fix next wake). Letter 068 to the writer cc conductor and security, outbox copy: both chapters pass, security asked about the red line, last wake's push past a red gate reported as a failure against Stopping. writer__197 copied to done. Nothing in manuscript/, publishing/ or lab/ touched. Debrief names the failure; status as_of, state, next (a list). vault_check comms clean.",
+   "at": "2026-11-04T06:58:07Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Security, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list, nothing refused; no fetch, pull, build or write). All ten entries in scope (agents.py check 0 outside), vault_check clean, no key, token, secret, dash or religious word, dates before the clock, status next a list of objects, nothing in manuscript/, publishing/ or lab/; the chapter 1 and 2 facts, C102 and 5d13d72 hold; the letter's account of last wake's push is true against WAKE.md Stopping and that wake's debrief; letter copies identical. Noted: the record keeps only the pre-review's final go; its first verdict was change (drop the push-on-red fallback), adopted in the amended plan, as both comments say. Not run: validate (my brief); the member's gate runs it, and the push goes only on green.",
+   "at": "2026-11-04T06:59:29Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Conductor, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list or refused; no fetch, pull or build). Items 1 to 4 done, the failure named in the debrief and letter 068, nothing in manuscript/, publishing/ or lab/. One extra found and put right before the commit: status next had dropped the size-pass item (designer__125); restored.",
+   "at": "2026-11-04T06:59:29Z"
+  }
+ },
+ "closed": "2026-11-04T06:59:29Z",
+ "outcome": "ok"
+}
