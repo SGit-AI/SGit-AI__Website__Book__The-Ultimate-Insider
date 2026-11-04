@@ -17,6 +17,20 @@
    "verdict": "go",
    "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them). Within policy. Conditions: the rule matches only the one-line note directly before the figure and must not hide a figure with no introduction (check this); PDF fetched from the book's own site only, a refusal recorded, no way round; vault_check before commit.",
    "at": "2026-11-04T10:16:37Z"
+  },
+  "work": {
+   "by": "developer",
+   "model": "",
+   "verdict": "done",
+   "comment": "publisher__005 done (exact Dramatised. note rule in print_check.py, tried on made-up pages, a figure after another line is still reported apart); page check on the 133-page PDF of 10:14 (8 tails, 8 gaps, 1 borderline, none apart), tools rerun in order, developer__044 sent to publisher and designer (outbox cmp same), debrief, status; build and gate clean; scratch PDFs deleted; pages read by git log: no answer to developer__039, upload set unlinked.",
+   "at": "2026-11-04T10:20:26Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them). As planned; nothing undone. Weak spot it names, kept open for the next wake: when no 'dramatised' word is found near the caption, the rule records the note page as the caption page, so such a figure is never flagged apart (the note is then not directly before the caption in the print). Plan said the PDF of 10:11, the file is the one of 10:14 (timestamp only).",
+   "at": "2026-11-04T10:21:15Z"
   }
  },
  "closed": null,

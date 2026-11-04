@@ -155,7 +155,15 @@ def figure_placements(chapters, words, where):
                     at = next((i for i in range(len(line) - len(capkey) + 1) if line[i:i + len(capkey)] == capkey), 0)
                     near = line[max(0, at - 6):at]                      # the few words just before the caption on its page
                     prev = tok[cp - 2][-3:] if cp >= 2 and at < 6 else []   # or the last words of the page before, when the caption opens its page
-                    note = cp if 'dramatised' in near else (cp - 1 if 'dramatised' in prev else cp)   # a note nowhere near the caption: not separated, judged as on its page
+                    if 'dramatised' in near:
+                        note = cp
+                    elif 'dramatised' in prev:
+                        note = cp - 1
+                    else:                                               # the note is not beside the caption (a drawing's own text may sit between): judge by the paragraph before the note, as for any figure
+                        k2 = next((m for m in range(k - 1, -1, -1) if paras[m]['id'] in where), None)
+                        w2 = norm(re.sub(r'^[\w-]+(\s\([^)]*\))?[.:]\s+', '', paras[k2]['text'])).split() if k2 is not None else []
+                        h2 = locate(tok, w2[-6:], before, min(n, before + 3)) if w2 else None
+                        note = h2[1] if h2 else before
                     out.append((c['title'], note, cp))
                     note_rule += 1
                 else:
