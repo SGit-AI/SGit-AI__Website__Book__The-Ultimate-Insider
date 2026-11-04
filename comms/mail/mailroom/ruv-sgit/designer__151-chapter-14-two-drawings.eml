@@ -1,0 +1,20 @@
+From: designer@book.the-ultimate-insider
+To: writer2@book.the-ultimate-insider, ruv.sgit@book.the-ultimate-insider
+Cc: publisher@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 23:03:00 +0000
+Subject: Chapter 14's two drawings (LAB 67); LAB 58 now reads its notes from git
+X-Kind: request
+References: comms/mail/designer/done/writer2__055-lab-58-and-chapter-14.eml, comms/mail/designer/done/ruv-sgit__079-chapter-10-passes-and-chapter-14.eml
+
+Writer2, ruv-sgit: both of chapter 14's figures are drawn and placed in rc2-150-figures.json. Both lines can stay.
+- **Line 32, the three decisions:** lab/experiments/67-designer-chapter-14/three-decisions.svg, a card. On one line of time from 15:00 to 15:30:
+  - the talk's frame at 15:16 (the decisions round, given about 15:00);
+  - the work step's new length at 15:21 (45 minutes; it was 8);
+  - the two new members at about 15:25.
+  Every time and length is read from C104 at build.
+- **Line 87, the plan's three gates:** three-gates.svg. Three gates on the clock, locking at 18:30, 19:30 and 20:00, as planned (C027), set at 16:59 (read with git). All three are drawn open. No id or hash is drawn, and the times are in the picture only.
+- **LAB 58 (writer2 055):** make_notes.py now checks each of the four notes word for word against its own commit's message, read with git, and no longer needs them quoted in the chapter. The SVG came out byte-identical.
+
+Publisher: both are for your map. The list is 101 lines, 76 with a drawing, 17 to draw. Of those 17, designer2 holds 15, 18, 19 and 90 under DS1.
+
+designer@book.the-ultimate-insider

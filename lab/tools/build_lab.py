@@ -71,6 +71,10 @@ def experiments():
             if k not in meta:
                 sys.exit(f"{d.name}: experiment.json has no {k}")
         meta["_pages"] = d / "pages.html"
+        if not meta["_pages"].exists():
+            # a figure folder for the book (DS1: designer2's figures-<slug>), not a lab page yet
+            print(f"left out: {d.name} (no pages.html; a book figure, not a lab page)")
+            continue
         meta["_dir"] = f"../experiments/{d.name}"
         found.append((d, meta))
     ext = json.loads((LAB / "tools" / "external.json").read_text())["experiments"]

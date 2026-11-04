@@ -39,6 +39,10 @@ PLACED = {
         "one of the storyteller's maps as it went into the talk": ("lab/experiments/59-designer-chapter-13/storyteller-map.svg", "the designer's map 1 (LAB 59)"),
         "the objection's path in one line of time": ("lab/experiments/59-designer-chapter-13/objection-path.svg", "the designer's objection's path (LAB 59)"),
     },
+    "rc2/150/14-port-not-rebuild.md": {
+        "a card, the three decisions on one line of time": ("lab/experiments/67-designer-chapter-14/three-decisions.svg", "the designer's card (LAB 67), C104"),
+        "the plan of three parts, drawn as three gates": ("lab/experiments/67-designer-chapter-14/three-gates.svg", "the designer's gates (LAB 67), C027"),
+    },
     "rc2/150/04-hour-one-the-empty-project.md": {
         "one banner, as a session prints it": ("lab/experiments/55-designer-findings-cards/ch4-banner-pair.svg",
                                                "the writer's own banners (its debrief of 4 November), drawn (LAB 55)"),
