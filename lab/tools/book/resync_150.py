@@ -35,6 +35,10 @@ PLACED = {
     "rc2/150/10-talking-through-git.md": {
         "the three notes as three cards on a line of time": ("lab/experiments/58-designer-three-notes/three-notes.svg", "the designer's three notes (LAB 58)"),
     },
+    "rc2/150/13-the-story-before-the-slides.md": {
+        "one of the storyteller's maps as it went into the talk": ("lab/experiments/59-designer-chapter-13/storyteller-map.svg", "the designer's map 1 (LAB 59)"),
+        "the objection's path in one line of time": ("lab/experiments/59-designer-chapter-13/objection-path.svg", "the designer's objection's path (LAB 59)"),
+    },
     "rc2/150/04-hour-one-the-empty-project.md": {
         "one banner, as a session prints it": ("lab/experiments/55-designer-findings-cards/ch4-banner-pair.svg",
                                                "the writer's own banners (its debrief of 4 November), drawn (LAB 55)"),
