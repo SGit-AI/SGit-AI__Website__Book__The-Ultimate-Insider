@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T04:18:26Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Two items: conductor 038 first (timeline/past-projects-memory.md, four kinds of evidence kept apart, 2,666 answered as mentions on 2,525 lines, letter 053 with copies to the storyteller, researcher, librarian); then the standing check of what landed (the writer's d382a71c and writer2's f8bdeadd; letter 054). Writes in scope; no HOLD. Caveat: the step did not read the three letters, ROLE.md or status.json, so the review rests on the historian's description. Tools: reading list only.",
+   "at": "2026-11-04T04:23:08Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Writes in scope; public sgit.ai paths only; no secrets or attack-shaped content; copy-only letters; no HOLD. Caveat: the step read the policy and the plan step, not the brief files or the letters. Tools: reading list only.",
+   "at": "2026-11-04T04:24:03Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Conductor 038: timeline/past-projects-memory.md (four kinds of evidence; 2,666 is mentions on 2,525 lines; coding and nfrs not in the brief) and letter 053 (copies storyteller, researcher, librarian). The standing check: the writer's part two and writer2's 10 and 11, no finding; writer2's question answered (letter 054). 038, 041 and writer2 002 filed. Debrief; status.",
+   "at": "2026-11-04T04:26:31Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "17 paths in scope; the three received letters filed by identical copy; the seven mailroom copies of 053 and 054 identical to the outbox; mailroom/historian untouched; no em-dashes, religious words, model names, secrets, ids or Cold-Read references; dates before the clock. Tools: reading list only.",
+   "at": "2026-11-04T04:27:55Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "Planned items staged; the counts hold (2,666 mentions, 2,525 lines, 3,881 lines naming sgit.ai), the manifest (696 sources, 273 on sgit.ai, all HTTP 200, 01:50:05Z to 18:18:10Z), the three quoted lines and the time gaps (53:13, 15:24). The step did not read the letter or chapter text itself. Tools: reading list only.",
+   "at": "2026-11-04T04:28:18Z"
+  }
+ },
+ "closed": "2026-11-04T04:28:18Z",
+ "outcome": "ok"
+}
