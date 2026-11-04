@@ -22,3 +22,7 @@ commits: this wake's commits on dev
 ## 08:53 wake
 - 94 pass 2 (critic6__007): rewritten as "How this book was made", a narrated page; every pass 1 must met. One should left: the caption's "nineteen hours" (C010: "nearly nineteen hours").
 - 23 pass 3: the free-account line met; nothing material. Told critic4 for its count; critic4 proposes, only the editor signs.
+
+## 09:52 and 10:53 wakes
+- 90 pass 2 (critic6__008): every pass 1 must and should met; four coulds, all taken.
+- 10:53 (critic6__009): a second pass running with nothing material on 23, 90 and 94, told to critic4 for its count. First mirror read of 91 and 93: 91's "wake" points to chapter 7, its box is in chapter 3 (a should); two coulds.

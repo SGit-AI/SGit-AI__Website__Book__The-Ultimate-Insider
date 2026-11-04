@@ -28,6 +28,10 @@
 
 **Narrator.** Both things were true. The pane did let me send notes from the page I was reading. And the main priority came second, landed in the middle of the afternoon, and was still being fixed in the last hour. This book keeps its failures, and that one is mine.
 
+*Words for this page:* the **feedback pane** is a box on every page of the team's site where I could write, or speak, a note that went straight to the team. A **feedback round** is one list of notes from me, a brief for each member, routed by the conductor.
+
+`%% record: team/conductor/briefs/2026-10-29__editor/conductor-notes.md (line 11: the pane, with voice) 9a51c28 (14:28, the pane built); LY1 and principle 36 (a visual on every spread: this run of the chapter had none); the cast guide's convention 7 (the box after the words' first use)`
+
 `%% Check (the newsroom, part three, chapter 12; his to confirm, or its softer form, before it prints): "Looking back, I did what most people do when they come back to a team with fresh energy: I added a new idea in front of the one I had just said mattered most." (softer: "I did what I often do when I come back with fresh energy")`
 
 `%% for the editor: "something I would rather it did not" and "that one is mine" are the writer's reading of his view; his to keep or drop. The record holds the order and his words, not his feeling about them.`

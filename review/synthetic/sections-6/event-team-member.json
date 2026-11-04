@@ -1,0 +1,139 @@
+{
+ "schema": "the-ultimate-insider/synthetic-section-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "event-team-member",
+ "read_at": "66a7ac35",
+ "would_read_on": {
+  "16-hour-nineteen-minute-by-minute": "maybe",
+  "17-what-did-not-work": "yes",
+  "07-hour-three-the-five-steps": "yes"
+ },
+ "findings": [
+  {
+   "file": "16-hour-nineteen-minute-by-minute.md",
+   "line": 17,
+   "quote": "I flagged it ready for its lock. Deck put the title slide in front of it.",
+   "principle": "reader",
+   "severity": "should",
+   "why": "The chapter opens in the team's private shorthand (flagged, lock, parts) before any of it is explained, which a phone reader in a gap between meetings will skim past."
+  },
+  {
+   "file": "16-hour-nineteen-minute-by-minute.md",
+   "line": 27,
+   "quote": "Dev had built the tool to do it that afternoon.",
+   "principle": "reader",
+   "severity": "should",
+   "why": "Lock is used from here on and only defined at line 45, after the scene that depends on it."
+  },
+  {
+   "file": "16-hour-nineteen-minute-by-minute.md",
+   "line": 37,
+   "quote": "The team was racing its own locks, and the locks lost.",
+   "principle": "1",
+   "severity": "could",
+   "why": "A reporter's verdict with no I and no hindsight, and it is said again at line 118."
+  },
+  {
+   "file": "16-hour-nineteen-minute-by-minute.md",
+   "line": 118,
+   "quote": "its own locks lost the race",
+   "principle": "21",
+   "severity": "should",
+   "why": "Repeats the line at 37 and the same hold-versus-locks point already made at 49 and 63."
+  },
+  {
+   "file": "16-hour-nineteen-minute-by-minute.md",
+   "line": 49,
+   "quote": "That is the point of diminishing returns, and it is the moment to stop.",
+   "principle": "7",
+   "severity": "could",
+   "why": "This is the best takeaway in the chapter, but it comes as a 'That is the point' opening followed by two short sentences."
+  },
+  {
+   "file": "16-hour-nineteen-minute-by-minute.md",
+   "line": 81,
+   "quote": "four hundred and thirty-nine commits by the agents, a hundred and sixty-two sessions",
+   "principle": "21",
+   "severity": "should",
+   "why": "The conductor reads out the tally in words and a Figure card at line 91 then shows it again; a busy reader gets numbers with no use for them."
+  },
+  {
+   "file": "16-hour-nineteen-minute-by-minute.md",
+   "line": 131,
+   "quote": "It was used once. Anyone on the team could stop everything",
+   "principle": "7",
+   "severity": "should",
+   "why": "A run of three short sentences closes the chapter; and 'only I could start it again' is the thing a team copying this most needs, so it deserves a longer sentence."
+  },
+  {
+   "file": "16-hour-nineteen-minute-by-minute.md",
+   "line": 122,
+   "quote": "There was one thing we did not have, and stopping was the only safe move without it.",
+   "principle": "21",
+   "severity": "could",
+   "why": "Teases a miss that chapter 17 opens by saying again, so the reader is told twice and given the substance only in the second."
+  },
+  {
+   "file": "17-what-did-not-work.md",
+   "line": 30,
+   "quote": "Chapter 16 told this one. In a line:",
+   "principle": "21",
+   "severity": "should",
+   "why": "The lock card retells chapter 16 and then two Dev lines (32, 34) retell it a third time."
+  },
+  {
+   "file": "17-what-did-not-work.md",
+   "line": 72,
+   "quote": "In the night I froze the slides, and five minutes later the researcher sent a correction",
+   "principle": "21",
+   "severity": "should",
+   "why": "The freeze and the five-minutes-late correction are told in chapter 7 (line 99) and here in near-identical terms."
+  },
+  {
+   "file": "17-what-did-not-work.md",
+   "line": 76,
+   "quote": "Not a disaster on stage. A small, true error that the record caught",
+   "principle": "7",
+   "severity": "could",
+   "why": "Short fragments in a row where one running sentence would carry the thought."
+  },
+  {
+   "file": "17-what-did-not-work.md",
+   "line": 87,
+   "quote": "it was nothing sensitive, an agent that got a bit excited",
+   "principle": "reader",
+   "severity": "should",
+   "why": "A team weighing this pattern wants to know what stopped data leaving other sites' pages; the shrug undercuts a failure the chapter says stays in at full size."
+  },
+  {
+   "file": "17-what-did-not-work.md",
+   "line": 24,
+   "quote": "The failures stay in, at full size.",
+   "principle": "21",
+   "severity": "could",
+   "why": "Nearly the same sentence as line 5, within a screen of it."
+  },
+  {
+   "file": "07-hour-three-the-five-steps.md",
+   "line": 11,
+   "quote": "By two in the morning the team had a clock and a hold.",
+   "principle": "reader",
+   "severity": "should",
+   "why": "Wake, clock and hold are all used as known things in the opening; wake record is only defined at line 19."
+  },
+  {
+   "file": "07-hour-three-the-five-steps.md",
+   "line": 41,
+   "quote": "Good. But know what it is:",
+   "principle": "6",
+   "severity": "could",
+   "why": "An instruction on how to take the line, spoken by the conductor in a way that reads as the book instructing the reader."
+  }
+ ],
+ "what_holds": [
+  "17-what-did-not-work.md: each miss gets a card with its cost and whose record says so, and the key-in-a-log card gives a response to copy (rotate first, report, do not hide it); that is a takeaway I could use tomorrow.",
+  "07-hour-three-the-five-steps.md: the five stages are plain (plan, check the plan, do, check the work, check against plan), the record that fails the gate is a pattern I could copy with my own agents, and 'Partial is a true answer' is memorable.",
+  "16-hour-nineteen-minute-by-minute.md: the hold file and its one rule ('No member lifts it'), plus the finding that a hold stops the next session, not the one running, answer how it stops."
+ ],
+ "notes": "As a team lead I worry about the deal-breaker of one central person: in all three sections the conductor and the editor are the hub (only the editor lifts the hold, the conductor routes everything), and the sections do not say how a team without that hub would copy it. Chapter 16 is the weakest for a 5-minute phone read because its first half is insider shorthand and its tally is not tied to a takeaway until line 109. The Something to try boxes are short and usable."
+}
