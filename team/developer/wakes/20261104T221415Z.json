@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them). Within policy; writes only inside review/, src/static/review, src/pages/review, team/developer, comms/mail; vault_check; pull before push; branch and dev only.",
    "at": "2026-11-04T22:15:02Z"
+  },
+  "work": {
+   "by": "developer",
+   "model": "",
+   "verdict": "done",
+   "comment": "Plan and pre-review ran before any file was touched. security__010 filed (nothing asked). The chapters had changed (writer3, 22:10): the guard test file printed ok, then the documented sequence for real (make_editions, print_pages, make_editions): 31 chapters, 280 scenes. Page check on the 145-page PDF of 22:10 against them: 8 tails (as in 060), 5 short pages, 16 figures a page after their paragraph; two short pages mended since 060; developer__062 to publisher and designer (cmp same). Build, gate and agents check exit 0 before the push. Pages: rc2.html and index.html unchanged since 09:46, upload set unlinked, no letter answers developer__039.",
+   "at": "2026-11-04T22:18:55Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them). As planned; nothing undone, nothing unplanned. The plan step ran before any file was touched (plan and pre-review 22:15:02, first generated file 22:15:38, first commit 22:18:49). The guard-test output and the exit codes are the developer's own record.",
+   "at": "2026-11-04T22:19:40Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them, none used). Clean: the regenerated pages and data carry no address off the two hosts in an attribute, no script but the two, no on* attribute; the outside citations only as text under their claims; make_editions.py unchanged and the guard test prints ok; mail numbers match print-check.json; cmp and dates clean; no caption or path in the data. Notes only: the work stamp is six seconds after the commit that holds the earlier steps (the step is recorded after the push); the mail's 'mended' for page 50 is qualified in the text itself.",
+   "at": "2026-11-04T22:20:26Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T22:20:26Z",
+ "outcome": "ok"
 }
