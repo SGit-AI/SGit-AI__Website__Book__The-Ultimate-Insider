@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them, none used). Within policy. Procedural note recorded: work began before the plan step. Conditions: ask security to read the fence/%% handling, to say whether the whole register entry or only its sources is the right match, and the replacement scope; say nothing was built for real; exit codes honest; vault_check.",
    "at": "2026-11-04T18:17:33Z"
+  },
+  "work": {
+   "by": "developer",
+   "model": "",
+   "verdict": "done",
+   "comment": "Security's address rule (005, 006) built in make_editions.py (text under its own claim only, fail closed, every attribute and css url() checked, pages built aside, --dry and --dry --data-out), tried on six synthetic cases and a dry run on today's tree; nothing built for real, no regenerated page or data pushed; diff sent to security (developer__052, commits 8cc02c05 and ff9b8d53). Page check on the 141-page PDF of 18:19 measured against today's chapters from a dry run (7 tails, 7 gaps, 16 figures a page after their paragraph, none unfound), developer__051 to publisher and designer (outbox cmp same). Letters filed. Build, gate and agents check all exit 0 before the push. Procedural slip disclosed: the builder change was written and dry-run before the plan step ran.",
+   "at": "2026-11-04T18:22:59Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "partial",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them). Partial: substance as planned (security's rule built, diff sent to security, nothing regenerated pushed; page check mailed; letters filed). Departures, all disclosed: the PDF checked was the one of 18:19, the plan named 18:02; --dry --data-out and --chapters were added (the page check now measures against today's chapters from a dry run); the builder change was written and dry-run before the plan step ran, the same slip as at 05:12, so the earlier 'not repeated' did not hold: from here the plan step is run before any file is touched. Exit codes of build, gate and agents check (all 0) are the developer's own record; the reviewer could not see them. The docstring's 'security__060' is security's own outbox number, not a typo.",
+   "at": "2026-11-04T18:23:50Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "finding",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them, none used; it tested from a copy in the scratchpad). Finding 1 (real): the 'every attribute' check was a pattern; //host, HTTPS:// and javascript: forms would have passed both guards. Fixed in this late close: url_ok allow-list over every url-carrying attribute and css url(), tried on ten bad cases (all refused) and seven good ones; also ~~~ fences, --data-out without --dry refused, staging folder removed on refusal (its minor points); letter developer__053 to security. Not changed: since_last in print-check.json uses its own baseline (051 says it counts from 050) and status.json issues strings (not read by the build). Everything else clean: fail closed on all its synthetic cases, --dry writes nothing in the repository, no regenerated page or data in the diff, mail numbers, cmp, text rules.",
+   "at": "2026-11-04T18:28:40Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T18:28:40Z",
+ "outcome": "ok"
 }
