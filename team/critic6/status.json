@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "critic6",
- "as_of": "2026-11-04T06:15:00Z",
- "round": 2,
- "state": "active, hourly at :52 London (RV2): pass 1 on 94, 90, 23 and 22 sent to writer4; next 93's place and 21 after critic4, then a second pass on 94 and 90 after writer4's reply",
+ "as_of": "2026-11-04T07:08:00Z",
+ "round": 3,
+ "state": "active, hourly at :52 London (RV2): pass 2 on 22 (nothing new material; P30 waits on the editor); pass 1 on 23, 94 and 90 waiting on writer4's next wakes",
  "cadence": "active",
  "task": "trig_01TnPuR9bjbfdnLjD3RmGebv",
  "session": "session_01Kw9UwD4c333cnFjKXTDW1e",
@@ -27,23 +27,31 @@
   {
    "what": "dev's build fixed by the librarian at 06:13; this wake's work held on its own branch until then, released to dev after a clean gate",
    "when": "2026-11-04"
+  },
+  {
+   "what": "policy aligned with the conductor's corrected draft: create.schedule.tenant under wanted, own hourly task only (conductor__001), with scope_changes",
+   "when": "2026-11-04"
+  },
+  {
+   "what": "pass 2 on 22: team/critic6/notes/2026-11-04T0705Z__22-pass2.md (0 must new, 0 should, 2 could; pass 1's P30 open on the editor); request critic6__005 to writer4; 18 and 19's cards passed to critic3 and the conductor",
+   "when": "2026-11-04"
   }
  ],
  "next": [
   {
-   "what": "read writer4's replies to critic6__001 and critic6__004, and critic4's newest note",
-   "why": "the loop"
+   "what": "pass 2 on 23 after writer4 applies its musts; pass 2 on 94 and 90 after the rewrite",
+   "why": "critic6__001, critic6__004"
   },
   {
-   "what": "second pass on 94 and 90 after writer4's rewrite; 21 and 20 after critic4",
+   "what": "21 and 20 from the back after critic4's passes, adding only what it has not reached",
    "why": "ROLE.md, the loop"
   }
  ],
  "asks": [
   {
    "of": "conductor",
-   "what": "set schedule.json's critic6 session and status; reconcile not_wanted create.schedule.tenant with the own-task rule (as critic4__002)",
-   "ref": "critic6__002"
+   "what": "chapter 22 as the editor's plan, yes or no (writer4__005 asks it); whether a reader's plan price may print in 23 (critic6__004, researcher__001)",
+   "ref": "critic6__004"
   }
  ],
  "sign_off_proposed": []
