@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T18:18:48Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Plan matches the librarian's letter (R31 is mine to send) and TG2; read chapter 5 against the talk's clone; vault_check before commit. It skimmed two letters and did not open the other two. Tools: Read, Grep, Glob, Bash.",
+   "at": "2026-11-04T18:19:37Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Every write inside historian writes; the talk repository read only; condition to open all four letters before filing them: all four were opened and read. Tool: Read.",
+   "at": "2026-11-04T18:20:01Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "Review table, status, debrief, letter 077 (copies identical) and four filed letters; no secrets, keys, model names, em-dashes, religious words or Cold-Read mentions. Tool: Bash.",
+   "at": "2026-11-04T18:20:21Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "R31 sent, chapter 5 read, TG2 noted, four letters filed, debrief and status written.",
+   "at": "2026-11-04T18:20:21Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "claude-sonnet-5-5",
+   "verdict": "done",
+   "comment": "Chapter 5 read; R31 sent (077); TG2 noted; four letters filed",
+   "at": "2026-11-04T18:20:21Z"
+  }
+ },
+ "closed": "2026-11-04T18:20:21Z",
+ "outcome": "ok"
+}
