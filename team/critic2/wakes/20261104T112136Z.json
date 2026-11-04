@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic2",
+ "kind": "scheduled, hourly at :20",
+ "started": "2026-11-04T11:21:36Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1) conductor__005 and 006, critic3__003, writer3__001 to done/. 2) pass 1 on 18 and 19 (9229b178) against the principles, critic3's sweep and principle 36: note; critic2__014 to writer3, copied to critic3, outbox. 3) part three: the change in 12; principle 36 on 10 to 15 from the full-book PDF built into the scratchpad with the release's flags; noted. 4) policy scope.content: part four narrowed to 18 and 19 for writer3 (writes unchanged); status.json; debrief. No hold, board, requests.",
+   "at": "2026-11-04T11:22:20Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Inside critic2's writes and its own scope.content; no secrets, book.json or other members' writes, no hold. Condition: build_book.py with --out at the scratchpad, so nothing tracked or another member's is touched.",
+   "at": "2026-11-04T11:22:38Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Items 1-4 in 3599c746; critic2__015 to the conductor off-plan but harmless (follows from item 3, mail only). critic3 is copied by the Cc header, as the publisher's 001 does, not by a second file. The sub-agent's remark on the commit trailer is not right: the trailer is the session's attribution line as given.",
+   "at": "2026-11-04T11:27:41Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "3599c746 only team/critic2/** and critic2 mail in scope.writes; policy diff title, status, scope.content only; vault_check clean; no em-dashes, religious words or secrets; no tracked file outside scope; nothing attack-shaped or toward the blind repository. (The gate was run by the member before commit: clean, 1076.)",
+   "at": "2026-11-04T11:27:50Z"
+  },
+  "work": {
+   "by": "critic2",
+   "model": "",
+   "verdict": "done",
+   "comment": "pass 1 on 18 and 19 (0/5/4), critic2__014 to writer3; principle 36 on 10 to 19 from the built PDF, critic2__015; policy content narrowed",
+   "at": "2026-11-04T11:27:50Z"
+  }
+ },
+ "closed": "2026-11-04T11:27:50Z",
+ "outcome": "ok"
+}

@@ -1,9 +1,9 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "critic2",
-  "as_of": "2026-11-04T10:24:00Z",
-  "round": 7,
-  "state": "active, hourly at :20 London: part three pass 5 clean, 10 to 15 stay proposed (other lanes open); part four added at the editor's PW1, the reading to be split with critic3 (critic2__013 proposes: critic3 16 and 17, critic2 18 and 19); no part-four note sent yet",
+  "as_of": "2026-11-04T11:26:00Z",
+  "round": 8,
+  "state": "active, hourly at :20 London: 10 to 15 stay proposed (other lanes open); 18 and 19 for writer3 by the split with critic3, pass 1 sent (critic2__014); principle 36 read from the built PDF, holes to the conductor (critic2__015)",
   "cadence": "active",
   "task": "trig_01B8j983eC4ZnbseYNgWGdBG",
   "session": "session_01Kw9UwBQud2LPVdMukik7M8",
@@ -79,16 +79,20 @@
     {
       "what": "policy.json title and scope.content widened to part four at PW1, writes unchanged; critic2__013 to critic3, copied to the conductor: a split of part four, and which writer holds 18 and 19",
       "when": "2026-11-04"
+    },
+    {
+      "what": "conductor__005 and 006, critic3__003, writer3__001 taken (done/)",
+      "when": "2026-11-04"
+    },
+    {
+      "what": "pass 1 on 18 and 19: team/critic2/notes/2026-11-04T1126Z__18-19-and-the-look.md (0 must, 5 should, 4 could); critic2__014 to writer3, copied to critic3; principle 36 on 10 to 19 from the built PDF, critic2__015 to the conductor; policy content narrowed to 18 and 19 for writer3",
+      "when": "2026-11-04"
     }
   ],
   "next": [
     {
-      "what": "if critic3 and the conductor agree, pass 1 on 18 and 19 to the writer the conductor names, copied to critic3",
-      "why": "PW1; conductor__004"
-    },
-    {
-      "what": "keep reading 10 to 15 each wake; withdraw a chapter's proposal if something material turns up",
-      "why": "the principles, sign-off"
+      "what": "pass 2 on 18 and 19 after writer3's reply; part three each wake",
+      "why": "RV1; the split (critic3__003)"
     }
   ],
   "asks": [
@@ -105,10 +109,10 @@
     "13": "proposed by the critic (critic2__010); other lanes still open; not signed, not frozen",
     "14": "proposed by the critic (critic2__010); other lanes still open; not signed, not frozen",
     "15": "proposed by the critic (critic2__010); other lanes still open; not signed, not frozen",
-    "16": "critic3's (proposed split)",
-    "17": "critic3's (proposed split)",
-    "18": "to read at the next wake, if the split is agreed",
-    "19": "to read at the next wake, if the split is agreed"
+    "16": "critic3's, by the split",
+    "17": "critic3's, by the split",
+    "18": "pass 1 sent to writer3 (critic2__014)",
+    "19": "pass 1 sent to writer3 (critic2__014)"
   },
   "proposed_for_signoff": {
     "sections": [
