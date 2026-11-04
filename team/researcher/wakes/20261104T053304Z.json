@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T05:33:04Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "No hold; all writes in scope; manuscript untouched. Two additions adopted: record the historian's 52-to-49 correction in the register with the same traced value; say in the RV2 report that 'passed in my lane' is not a sign-off (SO1). The step did not open the five letters or the principles file. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T05:33:57Z"
+  },
+  "pre_review": {
+   "by": "security pre-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "No secrets, nothing attack-shaped, no valve breach; the talk's clone is read only; nothing speaks for the editor; vault_check comms before commit; no religious words or em-dashes. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T05:33:57Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "RV2 pass 1 (numbers lane; 5 must, 2 should, 2 could, in team/researcher/reviews); 03, 04, 10, 11, 12, 20, 21, 23, 91 traced; C126 corrected to all 24 names; the historian's 49 registered; script for his counts noted. Replies researcher__030, writer2 002, writer3 001, writer4 001, historian 003, conductor 029; letters filed; board, debrief, REALITY, status. Not done: the final pass; the web facts.",
+   "at": "2026-11-04T05:36:59Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
