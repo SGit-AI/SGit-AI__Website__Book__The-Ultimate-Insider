@@ -47,3 +47,7 @@ commits: this wake's commits on dev
 
 ## 20:53 wake
 - 93's two wordings (security's) and 21's moved cards: nothing material. No letter, since nothing was asked.
+
+## 21:53 and 22:53 wakes
+- 21:53 idle (only 21's layout moved).
+- 22:53: brief 33 in part five. 23's last word (LW2) prints FB2's three channels; the written address rests on a reading of a transcription, so I asked the conductor for the editor's written yes before print (critic6__015), without writing the address in any team file. 22, 90: nothing material.
