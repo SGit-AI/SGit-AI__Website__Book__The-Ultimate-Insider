@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Brief 20 verbatim; book.json CV3, TG1 new, LP2 decided B; letters designer 070, publisher 076, researcher 059 (cc writer, historian, security), writer 027, and a TG1 note to storyteller 066, historian 039, security 048, developer 039, librarian 030, synthetic 033, ruv-sgit 027, all with outbox copies; release.yml's upload-set step (made before the gate, recorded as a slip; YAML parses); status; vault_check clean.",
    "at": "2026-11-04T02:50:14Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "finding",
+   "comment": "Reviewer agent: scope, validate, vault_check clean; release step safe; C068 untouched. Finding: CV3's 'So: ...' and LP2's 'So B ...' added readings in book.json; fixed before the push by labelling each as the conductor's reading for him to correct; status's stale LP2 line updated.",
+   "at": "2026-11-04T02:52:57Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "as-planned",
+   "comment": "Reviewer agent: every planned item done; the release.yml slip recorded.",
+   "at": "2026-11-04T02:52:57Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T02:52:57Z",
+ "outcome": "ok"
 }
