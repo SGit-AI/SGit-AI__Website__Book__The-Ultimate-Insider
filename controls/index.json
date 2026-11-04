@@ -604,6 +604,18 @@
      "needed": "no: start.py fetches at every wake, and the local ref was enough",
      "side_effect": "none; running it refreshed .git's remote refs only. ruv-sgit's briefs now say do not fetch or pull",
      "source": "comms/mail/mailroom/security/ruv-sgit__062-ta1-a-review-step-ran-git-fetch.eml"
+    },
+    {
+     "n": 12,
+     "when": "4 Nov, about 17:40 UTC",
+     "member": "conductor",
+     "step": "work",
+     "tool": "an edit of team/conductor/WAKE.md and CLAUDE.md so the conductor may lift a member's hold (after the editor's HL1)",
+     "refused": "yes: the session's auto-mode check, as self-modification",
+     "why": "to align the team's rule with the editor's HL1, with the pre-review's safeguards",
+     "needed": "for the team's rule, yes; for the book's text, no",
+     "side_effect": "the written rule still says only the editor lifts a hold until he makes or approves the edit; not worked around",
+     "source": "comms/mail/mailroom/security/conductor__055-a-refused-call-for-the-c2-register.eml"
     }
    ],
    "look_backs": [

@@ -53,6 +53,7 @@ The editor's rule, signed 3 November 2026 at about 09:20 UTC: review steps run a
 | 7 | 3 Nov, 09:1x | historian, plan | a session listing (read only, allowed) | not stated | no; kept out of the wake | none |
 | 8 | 31 Oct, ten wakes | ruv-sgit, post-review | the lab build by Bash, writing the working tree, then restored | its own brief said so (ruv-sgit__053) | no; a scratch copy does it | none; ruv-sgit builds in a scratch copy before each push |
 | 9 | 3 Nov, from 10:0x | developer, historian, librarian, security | the reviewer type itself | TA1 | yes | not loadable in sessions started before 10:06; steps ran as types that still see every connected tool, held by the brief and the permission check |
+| 12 | 4 Nov, about 17:40 | conductor, work (not a review step) | an edit of WAKE.md and CLAUDE.md after the editor's HL1 | to align the rule on who lifts a hold | for the rule, yes; for the book, no | refused by the session's check as self-modification and not worked around; the written rule waits on the editor (cases 10 and 11 are in index.json) |
 
 Every refused call was refused by the session's permission check; nothing acted. Look-backs: none in the developer's 85, the librarian's 86, the designer's 202 or synthetic's 163 transcripts, or ruv-sgit's 128 beyond case 8; "none seen" in the researcher's, storyteller's, publisher's and writer's records, which hold reports, not calls. The conductor's own is not yet in.
 
