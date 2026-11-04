@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T06:24:46Z",
+ "steps": {
+  "plan": {
+   "by": "security, amended at the pre-review's change",
+   "model": "",
+   "verdict": "go",
+   "comment": "Amended: decoded QR text stays in the scratchpad, never in a letter, file or record; each key.png recorded only as 'public key alone: yes or no'; any private-key-shaped content is a stop and a hold. Otherwise as before.",
+   "at": "2026-11-04T06:26:06Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent, as the reviewer agent (callable: Read, Grep, Glob, Bash, SubagentHandback); second pass",
+   "model": "haiku",
+   "verdict": "go",
+   "comment": "Amended plan meets the change; in scope under AD1.",
+   "at": "2026-11-04T06:26:24Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. Twenty key.png decoded: public key alone, yes for all; two register shots named. 2. critic6's key consistent. 3. The hour's 189 lines (14, 15, 21 first) clean. Letter security__054; C4, C6 evidence; board; status; debrief.",
+   "at": "2026-11-04T06:27:39Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
