@@ -150,29 +150,28 @@ def dashboard(clone):
            "".join(f'<circle cx="{4 + k * 3}" cy="3.8" r=".9" fill="{mc.FILL2}"/>' for k in range(3)),
            t(14, 5.1, "the dashboard, drawn from the page", 700, mc.MUTED)]
     # the clock: every member's minute on the dial (C071)
-    cx, cy, R = 18, 26, 11
+    cx, cy, R = 14, 19, 9
     out.append(f'<circle cx="{cx}" cy="{cy}" r="{R}" fill="#fff" stroke="{mc.INK}" stroke-width=".5"/>')
     for m, mm in REG["C071"]["value"].items():
         a = math.radians(int(mm.strip(":")) * 6 - 90)
         out.append(f'<circle cx="{cx + (R - 2) * math.cos(a):.2f}" cy="{cy + (R - 2) * math.sin(a):.2f}" r=".9" fill="{mc.CAST[m][0]}"/>')
-    out.append(mc.line(cx, cy, cx, cy - 6, mc.INK, .6) + mc.line(cx, cy, cx + 4, cy + 1.5, mc.INK, .6) + t(cx, cy + R + 4.4, "the clock", 400, mc.MUTED, "middle"))
+    out.append(mc.line(cx, cy, cx, cy - 5, mc.INK, .6) + mc.line(cx, cy, cx + 3.4, cy + 1.3, mc.INK, .6) + t(cx, cy + R + 4.2, "the clock", 400, mc.MUTED, "middle"))
     # the hold banner, its title as the file gives it
-    out.append(f'<rect x="36" y="13" width="74" height="17" rx="1.4" fill="{mc.ACCENT}"/>' + t(39, 18.6, "HOLD", 800, "#fff")
-               + t(39, 23.2, title.split(";")[0].replace("HOLD: ", ""), 400, "#fff") + t(39, 27.6, title.split(";")[1].strip(), 400, "#fff"))
+    out.append(f'<rect x="30" y="10" width="80" height="15.6" rx="1.4" fill="{mc.ACCENT}"/>' + t(33, 14.8, "HOLD", 800, "#fff")
+               + t(33, 19, title.split(";")[0].replace("HOLD: ", ""), 400, "#fff") + t(33, 23.2, title.split(";")[1].strip(), 400, "#fff"))
     # what waits on the editor: lines, no items invented
-    out.append(f'<rect x="114" y="13" width="46" height="24" rx="1.4" fill="{mc.FILL}"/>' + t(117, 18.6, "waits on the editor", 700)
-               + "".join(f'<rect x="117" y="{22 + k * 4}" width="{36 - k * 6}" height="1.6" rx=".8" fill="{mc.FILL2}"/>' for k in range(3)))
+    out.append(f'<rect x="114" y="10" width="46" height="15.6" rx="1.4" fill="{mc.FILL}"/>' + t(117, 14.8, "waits on the editor", 700)
+               + "".join(f'<rect x="117" y="{17.4 + k * 2.6}" width="{36 - k * 6}" height="1.4" rx=".7" fill="{mc.FILL2}"/>' for k in range(3)))
     # every wake as a grid: a square per wake record
-    y = 48.0
-    out.append(t(4, y, "every wake, one square each", 700))
-    y += 4
+    out.append(t(30, 31.6, "every wake, one square each", 700))
+    y = 34.4
     for m in order:
         n = sc[m]["wakes"]
-        out.append(t(4, y + 2.6, m, 400, mc.INK))
+        out.append(t(4, y + 2.4, m, 400, mc.INK))
         for k in range(n):
-            out.append(f'<rect x="{26 + k * 2.9:.2f}" y="{y}" width="2.3" height="2.6" rx=".3" fill="{mc.CAST[m][0]}"/>')
-        y += 4.2
-    H = y + 2
+            out.append(f'<rect x="{26 + k * 2.9:.2f}" y="{y:.2f}" width="2.3" height="2.4" rx=".3" fill="{mc.CAST[m][0]}"/>')
+        y += 3.7
+    H = y + 1.4
     out[0] = out[0].replace("{H}", f"{H:.1f}")
     # no source line drawn in: the record line carries C071, C022 and the commit (P28, convention 8; critic3 007)
     return mc.svg(164, round(H + .6, 1), "".join(out), "The team's dashboard, drawn: the clock, the hold, what waits on the editor, and every wake as a square")
@@ -651,7 +650,7 @@ def two_commits(clone):
         out.append(("H", y + 9))
     H = max(v for _, v in [o for o in out if isinstance(o, tuple)])
     out = [o.replace("{H}", f"{H:.1f}") for o in out if isinstance(o, str)]
-    out.append(t(0, H + 5, "each note as chapter 6 quotes it, checked against its commit; times from git at 298be4e", 400, mc.MUTED))
+    out.append(t(0, H + 5, "each note as chapter 10 quotes it, checked against its commit; times from git at 298be4e", 400, mc.MUTED))
     return mc.svg(164, round(H + 6.8, 1), "".join(out), "Two commits as cards, each with its To- line highlighted, both read at one wake; one note followed, one not")
 
 
@@ -684,7 +683,7 @@ def letter_path():
     for j, name in enumerate(["open", "blocked", "done"]):
         x = bx + j * 34
         out.append(mc.path(f"M{x} {by + 2} h9 l1.6 -2 h20 v14 h-30.6 z", mc.FILL, mc.INK, .4) + t(x + 15, by + 10, name, 700, mc.INK, "middle"))
-    out.append(t(0, by + 21, "a letter is a file in git; the board is three folders; the minutes are C071's", 400, mc.MUTED))
+    out.append(t(0, by + 21, "a letter is a file in git; the board is three folders; the minutes are each member's slot", 400, mc.MUTED))
     return mc.svg(164, round(by + 23, 1), defs + "".join(out), "A letter's path on two dials, the letter as a file with its headers, and one board folder with open, blocked and done")
 
 
