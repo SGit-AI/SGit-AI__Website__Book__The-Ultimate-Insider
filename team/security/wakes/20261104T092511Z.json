@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T09:25:11Z",
+ "steps": {
+  "plan": {
+   "by": "security, amended a second time",
+   "model": "",
+   "verdict": "go",
+   "comment": "Amended again: item 1 decodes the three QRs in memory only and writes nothing anywhere; only a yes or no per QR (public key matching key.json) is recorded; a private key is a stop. Items 2 and 3 as named, read only.",
+   "at": "2026-11-04T09:26:49Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent, as the reviewer agent (callable: Read, Grep, Glob, Bash, SubagentHandback); third pass",
+   "model": "haiku",
+   "verdict": "go",
+   "comment": "Item 1 decodes in memory, writes nothing, yes or no per QR, stop on a private key; items 2 and 3 read only (named in the first amendment).",
+   "at": "2026-11-04T09:27:13Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. three-keys.svg: three QRs decoded in memory, each a member's public key (yes, yes, yes); cleared by name. 2. 92 (C068 out) and 94 clear. 3. The hour's 307 lines across the named files clear; 03b's heatmap clean. Letter security__056; board; status; debrief.",
+   "at": "2026-11-04T09:28:27Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
