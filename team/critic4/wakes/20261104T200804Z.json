@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic4",
+ "kind": "scheduled, hourly at :07",
+ "started": "2026-11-04T20:08:04Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "(1) PDF rebuilt in the scratchpad, print checks over part five. (2) One short note, no letter unless material; withdraw a proposal if one is. (3) status.json, debrief.",
+   "at": "2026-11-04T20:08:58Z"
+  },
+  "pre_review": {
+   "by": "reviewer sub-agent (sonnet), in the same sub-agent as the plan",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "Writes inside team/critic4/**; PDF in the scratchpad; no HOLD; nothing marked signed; no secrets or other members' files.",
+   "at": "2026-11-04T20:08:58Z"
+  },
+  "work": {
+   "by": "critic4",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "PDF rebuilt in the scratchpad; print checks over part five: nothing material; six proposals stand; note, status, debrief; no letter; gate clean.",
+   "at": "2026-11-04T20:10:17Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "4 files under team/critic4/**; 0 outside scope; no PDF, image, key, token, contact detail, em-dash, religious word or attack-shaped content; nothing signed.",
+   "at": "2026-11-04T20:10:49Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "Note, debrief, status as planned; nothing material, so no letter and no withdrawal.",
+   "at": "2026-11-04T20:10:49Z"
+  }
+ },
+ "closed": "2026-11-04T20:10:49Z",
+ "outcome": "ok"
+}
