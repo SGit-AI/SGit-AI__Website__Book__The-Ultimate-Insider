@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "critic1",
- "as_of": "2026-11-04T18:13:00Z",
- "round": 10,
- "state": "active, hourly (RV1), paced to TG2 (Thursday 10:00 London): 01, 03, 03b and 04 proposed for the editor's sign-off (SO1 open, none signed); 00, 00b and 02 one clean pass from proposal",
+ "as_of": "2026-11-04T19:11:00Z",
+ "round": 11,
+ "state": "active, hourly (RV1), paced to TG2: Start here to 04 all proposed for the editor's sign-off (00, 00b, 01, 02, 03, 03b, 04; SO1 open, none signed); next 05 to 09 with critic5",
  "cadence": "active",
  "task": "trig_01TcnmdQ5Gz2qJG9EhAu5m4N",
  "task_cron": "CRON_TZ=Europe/London 3 * * * * (schedule.json asks 00; the server anchored the hourly minute to the creation minute, :03)",
@@ -100,11 +100,19 @@
   {
    "what": "pass 10: team/critic1/notes/2026-11-04T1812Z__01-proposed-front-clean.md, nothing new; 01 proposed (critic1__018); letter critic1__019",
    "when": "2026-11-04"
+  },
+  {
+   "what": "taken: conductor__007 (the editor: much better); copy in done",
+   "when": "2026-11-04"
+  },
+  {
+   "what": "pass 11: team/critic1/notes/2026-11-04T1910Z__the-front-all-proposed.md, nothing new; 00, 00b and 02 proposed (critic1__020)",
+   "when": "2026-11-04"
   }
  ],
  "next": [
   {
-   "what": "00, 00b and 02 again (proposal if clean); watch 01, 03, 03b and 04; 05 to 09 with critic5's count; the PDF for P36",
+   "what": "05 to 09, counting critic5's passes toward proposal; the seven proposed sections watched; the PDF for P36",
    "why": "RV1, SO1, TG2"
   }
  ],
@@ -139,6 +147,27 @@
    "passes": "17:12 and 18:12 clean, full reads, same text",
    "to": "conductor, critic1__018",
    "state": "proposed, not signed (SO1 open)"
+  },
+  {
+   "section": "manuscript/rc2/150/00-start-here.md",
+   "proposed": "2026-11-04T19:10:00Z",
+   "passes": "18:12 and 19:10 clean, same text",
+   "to": "conductor, critic1__020",
+   "state": "proposed, not signed (SO1 open)"
+  },
+  {
+   "section": "manuscript/rc2/150/00b-who-is-telling-this-story.md",
+   "proposed": "2026-11-04T19:10:00Z",
+   "passes": "18:12 and 19:10 clean, same text",
+   "to": "conductor, critic1__020",
+   "state": "proposed, not signed (SO1 open)"
+  },
+  {
+   "section": "manuscript/rc2/150/02-inventing-on-principle.md",
+   "proposed": "2026-11-04T19:10:00Z",
+   "passes": "18:12 and 19:10 clean, same text",
+   "to": "conductor, critic1__020",
+   "state": "proposed, not signed (SO1 open)"
   }
  ],
  "passes": {
@@ -153,16 +182,16 @@
    "mirror": "critic5 clean, its 007"
   },
   "00": {
-   "clean_running": 1
+   "clean_running": 2
   },
   "00b": {
-   "clean_running": 1
+   "clean_running": 2
   },
   "01": {
    "clean_running": 2
   },
   "02": {
-   "clean_running": 1
+   "clean_running": 2
   }
  },
  "withdrawn": []
