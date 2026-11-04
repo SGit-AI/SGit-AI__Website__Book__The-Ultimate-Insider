@@ -141,7 +141,7 @@ def main(stats, given=None):
             flags.append({'kind': 'chapter_end_spill', 'page': i, 'chapter': last_of[i], 'lines': nl, 'fill': fill})
         elif i >= first_ch and i not in last_of and fill is not None and fill < GAP_FILL and not any(i == s for s in starts if s):
             flags.append({'kind': 'gap_page', 'page': i, 'chapter': next((t for t, st, e in ranges if st <= i <= e), None),
-                          'fill': fill, 'lines': nl, 'raster_figure_here': i in big_on})
+                          'fill': fill, 'lines': nl, 'raster_figure_here': i in big_on, 'borderline': fill >= GAP_FILL - 0.03})   # within three points of the line: a prompt to look, not a finding
     tall = sorted({p for p, inch in images if inch > LARGE_SHARE * TEXT_HEIGHT})
     # figures apart from their introducing paragraph, where a chapter's figure lines and large images can be paired in order
     unpaired = []

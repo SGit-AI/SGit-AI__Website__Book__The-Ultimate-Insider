@@ -70,6 +70,9 @@ def map_paragraphs(chapters, pages, window=8):
     for c in chapters:
         for sc in c['scenes']:
             for p in sc['paragraphs']:
+                if p.get('in_print') is False:                      # in a section the print leaves out: it has no page, and is neither found nor missed
+                    where[p['id']] = last
+                    continue
                 t = p['text']
                 hit = None
                 if not re.match(r'(Figure|Clock):', t) and norm(t):
