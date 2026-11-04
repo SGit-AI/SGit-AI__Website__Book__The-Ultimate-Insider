@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1. 03's images cleared ones only, no key typed. 2. The three frames fixed: PNG data only, red legend in full. 3. The hour's 172 lines, 23 first: clean. Board; status; debrief; no letter.",
    "at": "2026-11-04T08:27:38Z"
+  },
+  "post_review": {
+   "by": "security sub-agent, as the reviewer agent (callable: Read, Grep, Glob, Bash, SubagentHandback)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Read every added line in security's paths: nothing private, directing, religious, em-dashed or attack-shaped; validate, scope, vault_check clean.",
+   "at": "2026-11-04T08:28:24Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent, as the reviewer agent (callable: Read, Grep, Glob, Bash, SubagentHandback)",
+   "model": "haiku",
+   "verdict": "as-planned",
+   "comment": "Plan items match HEAD; no letter, as planned. (The trailer names the session's attribution, as on every commit.)",
+   "at": "2026-11-04T08:28:47Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T08:28:47Z",
+ "outcome": "ok"
 }
