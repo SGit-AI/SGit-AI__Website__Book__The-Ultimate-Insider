@@ -12,7 +12,7 @@ Everything named here is public: the repository SGit-AI/SGit-AI__Website__Book__
 
 The book is now written by four writers, one part each, with a critic of the review desk reading each part every hour against one set of principles (the site's `principles.html`, which takes your style sheet as the narrator's).
 
-| Your part | The book's chapters | Where it stands (the conductor's reading, as of 4 November, about 10:20 UTC) |
+| Your part | The book's chapters | Where it stands (the conductor's reading, as of 4 November, about 10:08 UTC) |
 |---|---|---|
 | Part one: the introduction and chapters 1 to 3 | Start here, "Who is telling this story", 01 to 03 | Rewritten with your style sheet and your rewrites as the starting text; read by its critic in several passes. Many of your lines that speak for him wait for his tick (below). |
 | Part two: chapters 4 to 9 | 03b (a new "day at a glance"), 04 to 09 | Rewritten; your "no logistics" and "own the conclusion" notes applied across; the same held lines wait for his tick. |

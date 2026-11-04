@@ -31,8 +31,15 @@
    "verdict": "as-planned",
    "comment": "as-planned: PW1, LY1 open, writer2's own policy, writer3 told, matrix, sheets, grid, editor items. Gap recorded: the pre-review's 'decode every QR' could not be kept as written (no decoder installed); substituted by the size check (codes under 15 px) and security 019's clearance of chapter 3's public key codes",
    "at": "2026-11-04T10:09:21Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "finding",
+   "comment": "finding, fixed before the push: the study's README said chapter 3's key QRs were the only codes; page 6 before also shows the talk's policy-page screenshot QR (about 22 px, unreadable, already published); README corrected. Letter and page dates set to the commit's 10:08. Otherwise clean: gate, scope 0, comms clean, no layout ask, writer2 untouched, PW1 and LY1 match brief 26",
+   "at": "2026-11-04T10:09:48Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T10:09:48Z",
+ "outcome": "ok"
 }
