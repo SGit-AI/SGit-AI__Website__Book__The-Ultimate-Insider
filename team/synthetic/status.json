@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "synthetic",
- "as_of": "2026-11-04T00:44:43Z",
+ "as_of": "2026-11-04T01:45:13Z",
  "round": 0,
- "state": "scheduled wake 00:42: idle; no mail; the next read when the book next changes much or when asked; A15 and NR1 on pages",
+ "state": "scheduled wake 01:42: FB1 taken (the full book only); offered one two-half read of it once the FB1 pass is built (synthetic__017)",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/synthetic/ into team/synthetic/ (drafts left in place); ROLE.md names start.py and banner.py",
@@ -180,12 +180,16 @@
   {
    "what": "conductor__031 taken: the seventy in its new order re-read in one pass by the three named readers (review/synthetic/rc2/70-r2/); letter synthetic__005 to the writer, conductor on Cc",
    "when": "2026-11-03"
+  },
+  {
+   "what": "conductor__032 (FB1) taken: the full book is the only edition read; offered one read of it by the three named readers in two halves once the publisher says the FB1 pass is built (synthetic__017); the smaller editions, A15, NR1 and the Gen ZX pages left until after the summit",
+   "when": "2026-11-04"
   }
  ],
  "next": [
   {
-   "what": "A15; NR1",
-   "why": "issue 005"
+   "what": "the full book: one read in two halves by the three named readers, when the publisher says the FB1 pass is built",
+   "why": "conductor__032, synthetic__017"
   }
  ],
  "asks": [
