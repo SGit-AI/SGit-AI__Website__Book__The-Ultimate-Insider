@@ -1,0 +1,28 @@
+{
+ "schema": "the-ultimate-insider/synthetic-section-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "newsroom-builder", "read_at": "3a1ad0a6",
+ "would_read_on": {"08-hours-four-and-five-before-dawn": "yes", "15-hour-eighteen-faster-than-the-clock": "yes", "23-principles-and-build-your-own": "maybe"},
+ "findings": [
+  {"file": "08-hours-four-and-five-before-dawn.md", "line": 11, "quote": "made deck's programme of experiments the team's queue", "principle": "reader", "severity": "should", "why": "Deck and its programme of experiments are named before a first reader knows what either is, so the opening paragraph of the hour is a stall."},
+  {"file": "08-hours-four-and-five-before-dawn.md", "line": 29, "quote": "had carried other sites' data in with them", "principle": "reader", "severity": "could", "why": "As a writer who is exacting about sources I want to know what kind of data leaked, and the chapter says only that it was 'other sites' data'."},
+  {"file": "08-hours-four-and-five-before-dawn.md", "line": 33, "quote": "redaction does not reach a commit already pushed", "principle": "21", "severity": "should", "why": "The late review is told by the researcher at line 31, again here, and again at line 155, so the lesson is said three times."},
+  {"file": "08-hours-four-and-five-before-dawn.md", "line": 57, "quote": "Not from memory, and not from what anyone said. From the files.", "principle": "7", "severity": "could", "why": "Three fragments in a row where one sentence could carry the thought, and the conductor repeats it in the next line."},
+  {"file": "08-hours-four-and-five-before-dawn.md", "line": 113, "quote": "It is the first sign in the record of members pacing each other", "principle": "1", "severity": "could", "why": "The narrator reports from the record with no 'I' and no hindsight, where the editor could say what he made of it."},
+  {"file": "08-hours-four-and-five-before-dawn.md", "line": 155, "quote": "A check after the push finds what has already gone out.", "principle": "21", "severity": "should", "why": "Restates the first failure's lesson from line 33 instead of letting the two scenes stand side by side."},
+  {"file": "15-hour-eighteen-faster-than-the-clock.md", "line": 33, "quote": "Not one step said stop all day.", "principle": "reader", "severity": "should", "why": "Three plans were sent back, yet this sentence sounds like a reviewer that never refused, which is my rubber-stamp worry; it needs the count of stops set against it."},
+  {"file": "15-hour-eighteen-faster-than-the-clock.md", "line": 61, "quote": "Studio would not. It asked me.", "principle": "21", "severity": "should", "why": "The refusal and the question to the editor are told in Studio's own line at 59 and then again, with the same words, in the narrator's summary."},
+  {"file": "15-hour-eighteen-faster-than-the-clock.md", "line": 75, "quote": "Part one was final and not yet locked. The lock tool existed.", "principle": "7", "severity": "should", "why": "A run of five short sentences closes the chapter in a list of facts, and the 'Part one' and 'lock' it summarises have barely been explained."},
+  {"file": "23-principles-and-build-your-own.md", "line": 11, "quote": "You do not need my nine. You need one.", "principle": "reader", "severity": "should", "why": "'My nine' is never spelled out here, so a reader arriving at the last chapter has to guess which nine are meant."},
+  {"file": "23-principles-and-build-your-own.md", "line": 11, "quote": "Everything I had to invent, or carry over by hand, is already there for you", "principle": "reader", "severity": "could", "why": "A strong claim with no source beside it, and unsourced claims are what I would not trust in a newsroom."},
+  {"file": "23-principles-and-build-your-own.md", "line": 32, "quote": "Add a second agent only when the first is busy.", "principle": "reader", "severity": "could", "why": "The bold step is about a second agent but the text under it is mostly about working with other people, and I lost which one the step is."},
+  {"file": "23-principles-and-build-your-own.md", "line": 84, "quote": "A brief and rules in plain words. A check every change passes.", "principle": "7", "severity": "should", "why": "Seven fragments in a row recite the five steps again, one after another."},
+  {"file": "23-principles-and-build-your-own.md", "line": 86, "quote": "But build it the same way, and then do it again.", "principle": "21", "severity": "could", "why": "'Then do it again' closes step 4, this paragraph and the bold last line, so the same instruction lands three times."}
+ ],
+ "what_holds": [
+  "08-hours-four-and-five-before-dawn.md: two failures kept in at full size, each with a rule, and the researcher's own line 'A review that runs after the push is a review that runs late' is exactly the kind of control I want to see.",
+  "15-hour-eighteen-faster-than-the-clock.md: the brakes held under a deadline, with three plans sent back, and Studio refusing a relayed word makes the editor's signature a real control rather than a stamp.",
+  "23-principles-and-build-your-own.md: the newsroom's first-agent page of rules (check numbers against sources, write only the claims register, stop before marking a claim as holding without a captured source) is something I would start with tomorrow."
+ ],
+ "notes": "Role I would start with tomorrow: the researcher who checks every number against its source, with me signing. Where I would not trust it: reviews that run after the push (chapter 8) and any 'no step said stop' count without the number of stops beside it. None of the Principle 6 phrases were found in these three sections."
+}
