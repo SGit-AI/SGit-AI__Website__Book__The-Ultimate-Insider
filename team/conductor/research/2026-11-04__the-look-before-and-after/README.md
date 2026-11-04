@@ -49,6 +49,6 @@ The same way, on the PDF the site serves (141 pages), after the writer's held wo
 
 The same way, on the PDF the site serves (142 pages): pages 3 to 40, 6 pages more than 35% blank at the foot (7 in the version he liked); width 83%; "Figure to come" boxes 16 in all (36 at 12:05), 4 in pages 3 to 40. The publisher's own local build (062): 141 pages, 16 boxes, 8 near-empty pages over the whole book.
 
-## At v0.1.860 (21:08 UTC), the site's live full draft
+## At v0.1.860 (21:05 UTC), the site's live full draft
 
 The same way, on the PDF the site serves (145 pages): pages 3 to 40, 6 pages more than 35% blank at the foot (7 in the version he liked); width 83%; "Figure to come" boxes 13 in all (36 at 12:05), 2 in pages 3 to 40. The publisher's own local build (064): 141 pages, 13 boxes, 9 pages more than 35% blank over the whole book.
