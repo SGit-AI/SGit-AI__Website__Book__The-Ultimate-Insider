@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, 20:42 London",
+ "started": "2026-11-04T20:43:05Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "record greps of writer__249 and writer4__015, accept declines, no new letters; diff check of 09 and 21; board, debrief, status. Tools Read, Bash; none refused.",
+   "at": "2026-11-04T20:43:32Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "inside scope.writes; diff checks read-only. Tools Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T20:43:47Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
