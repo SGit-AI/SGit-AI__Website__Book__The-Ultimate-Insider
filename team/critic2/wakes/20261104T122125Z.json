@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic2",
+ "kind": "scheduled, hourly at :20",
+ "started": "2026-11-04T12:21:25Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1) writer3__002 to done/. 2) read only: pass 2 on 18 and 19, pass 6 on 10 to 15 after b86aab91; one note (keep or withdraw part three's proposal by chapter); critic2__016 to writer3 and critic2__017 to writer2 with outbox copies. 3) status.json, debrief. No hold, requests, board.",
+   "at": "2026-11-04T12:22:27Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reads 18, 19 and 10 to 15, in scope.content; writes in team/critic2 and critic2 mail; no manuscript, book.json or other members' files; proposes only. Conditions: vault_check; no em-dashes or religious words; numbers only from claims/.",
+   "at": "2026-11-04T12:22:40Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
