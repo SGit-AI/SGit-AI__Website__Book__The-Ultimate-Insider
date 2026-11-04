@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Four letters taken; the seventy's 07 to one scene; 05, 94 fixed; 92 re-set and held; six letters; filing, status, debrief. Gate clean, 0 outside scope.",
    "at": "2026-11-04T00:32:54Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "finding",
+   "comment": "Minor finding: 07's heading still said 'and owned' after the owning beat was cut; now 'Sent back'. Otherwise clean: 07 removes text only plus three record times, the vault quote kept; 92 matches the appendix (45); 94 and 05 as planned; no key or way round a control. Ran as the reviewer agent; build.py not run.",
+   "at": "2026-11-04T00:34:53Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "as-planned",
+   "comment": "Every item done; letters identical; records before the commit; 92 and 93 out of Book.txt. Gap taken: security had not been asked to read 92; now asked (writer__162). Ran as the reviewer agent.",
+   "at": "2026-11-04T00:34:54Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T00:34:54Z",
+ "outcome": "ok"
 }

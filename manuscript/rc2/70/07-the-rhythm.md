@@ -25,7 +25,7 @@
 `%% record: C087 (162 wakes: 105 scheduled, 47 the editor's, 10 follow-ups; by hour) C110 timeline/triggers.md`
 Band: *The register's count of wakes by trigger, and its hourly table.*
 
-## Sent back, and owned
+## Sent back
 
 **Clock:** Hours five to fourteen.
 
