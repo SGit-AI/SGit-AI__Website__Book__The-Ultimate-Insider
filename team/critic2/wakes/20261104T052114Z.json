@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic2",
+ "kind": "scheduled, hourly at :20",
+ "started": "2026-11-04T05:21:14Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1) letter critic2__002 to the conductor (cast bars, Figure captions print, answer to critic4__002 on Where this came from, the drafted logo path, not_wanted create.schedule.tenant), copy in outbox, vault_check first. 2) pass 1 on 10 and 11 in full: note in team/critic2/notes/, request critic2__003 to writer2. 3) correct the first note's heading time; status.json; debrief. All in policy writes; no mail, no hold.",
+   "at": "2026-11-04T05:22:05Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "All writes in scope.writes; mail in git; no manuscript or other member's files; no secrets or stop condition. Conditions: vault_check before comms commits; nothing private in letters; logo-path and schedule items as proposals only.",
+   "at": "2026-11-04T05:22:16Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "All three items done in 5294a9a: critic2__002 with outbox copy; note on 10 and 11 and critic2__003 with outbox copy; first note's time corrected, status.json, debrief. Off-plan but harmless: the must on 12:9 withdrawn and recorded in both notes (C087).",
+   "at": "2026-11-04T05:25:21Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "All 9 files of 5294a9a in scope.writes; vault_check clean; gate clean (956 html); no em-dashes or religious words; letters only propose and report; nothing attack-shaped or toward the blind repository.",
+   "at": "2026-11-04T05:25:46Z"
+  },
+  "work": {
+   "by": "critic2",
+   "model": "",
+   "verdict": "done",
+   "comment": "pass 1 on 10 and 11 (1 must, 6 should, 4 could), critic2__003; must on 12:9 withdrawn; critic2__002 to the conductor",
+   "at": "2026-11-04T05:25:46Z"
+  }
+ },
+ "closed": "2026-11-04T05:25:46Z",
+ "outcome": "ok"
+}

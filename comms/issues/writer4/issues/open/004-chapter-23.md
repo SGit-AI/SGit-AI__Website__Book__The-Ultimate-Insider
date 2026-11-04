@@ -1,7 +1,7 @@
 ---
 created: 2026-11-04
 priority: P1
-status: after 21 and 22
+status: next wake, with critic6__004 musts 1 and 2 and the researcher's price question
 source: storyteller__123 rulings 1 to 3
 ---
 # Chapter 23, Principles, and build your own

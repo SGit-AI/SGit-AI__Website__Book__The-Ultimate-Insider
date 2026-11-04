@@ -20,7 +20,7 @@ From the chapter's `%% record` lines (and its `## Where this came from`, where i
 |---|---|---|---|---|---|
 | `team/historian/ROLE.md` | role | historian | `bba3e5e` 2026-10-30 01:19:12 | `7e13725` 2026-10-30 02:05:03 | Role: historian@cold-read.the-ultimate-insider |
 
-## this repository (15)
+## this repository (17)
 
 - `team/conductor/editor-briefs/2026-11-02T0015Z.json`
 - `briefs/2026-11-02__in-session/01-keep-the-pace.md`
@@ -37,6 +37,8 @@ From the chapter's `%% record` lines (and its `## Where this came from`, where i
 - `comms/mail/mailroom/writer/researcher__002-rc2-chapter-1-traced.eml`
 - `claims/rc2-30-trace.md`
 - `comms/mail/mailroom/writer/historian__040-the-third-failure.eml`
+- `team/conductor/from-newsroom/2026-11-04__do-this-now-as-invitations.md`
+- `chapter-plan/cast/cast-guide.md`
 
 ## Commits named (10)
 

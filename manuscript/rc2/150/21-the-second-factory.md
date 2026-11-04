@@ -6,7 +6,7 @@
 
 ## Built from its parts
 
-**Narrator.** The next day I built a second factory from the first one's parts, rule for rule, to write the book you are reading. Its first job was to read the first factory's record. Same clock, same five steps, same hold, same rule that nobody speaks for me. New jobs, because a book is not a talk.
+**Narrator.** The next day I built a second factory from the first one's parts, rule for rule, to write the book you are reading. Its first job was to read the first factory's record. It had the same clock, the same five steps, the same hold and the same rule that nobody speaks for me, and new jobs, because a book is not a talk.
 
 `%% Check (the newsroom, part five, chapter 21; his to confirm before it prints): "Looking back, this is the moment the method stopped being a one-off: if you can take a team apart and build the next one from its records in an hour, you have something you can repeat."`
 
@@ -48,7 +48,7 @@
 
 `%% for the editor: each "Inherited" line is the writer's pairing of a member with a rule from the talk team's pages; the members' own pages carry the rules, not the pairings; his to keep or drop.`
 
-**Narrator.** And more besides. Security, reading every chapter as it lands and keeping the register of the team's own controls, this team held to the same controls as the first. Synthetic, whose readers are fictional personas, testing the book the way strangers would. ruv-sgit, drawing the talk's animations on paper. And a developer, building the pages the reviewers read the book on.
+**Narrator.** Four more came as the book needed them: security, which reads every chapter as it lands and keeps the register of this team's own controls, so that this team is held to the same controls as the first; synthetic, whose fictional readers test the book the way strangers would; ruv-sgit, drawing the talk's animations on paper; and a developer, building the pages the reviewers read the book on.
 
 **Security** *(at the table)*: Hey, I'm security. I read what the others write, and I report. I do not fix.
 
@@ -76,7 +76,7 @@
 
 **Writer**: Then the line is wrong. I change it, and I say so in the record.
 
-**Narrator.** The line you read in chapter 2 is the corrected one. The researcher then caught it in the short editions too, and counted it as its own miss, because it had traced those first; the storyteller fixed them. Nobody asked to keep the nicer sentence.
+**Narrator.** The line you read in chapter 2, that the brake was made that night, is the corrected one. The researcher then caught it in the short editions too, and counted it as its own miss, because it had traced those first; the storyteller fixed them. Nobody asked to keep the nicer sentence.
 
 `%% Check (the newsroom, part five, chapter 21; his to confirm before it prints): "I like that a team of agents corrected the narrator. It is the one place in the book where the record argued with me, and the record won."`
 
@@ -88,9 +88,9 @@
 
 ### The evening lost to the usage limit
 
-**Narrator.** The second is a failure of the rule I carried over from the talk's last hour: the conductor holds the team before my usage runs out. A few days after the talk, it did not. The account reached its limit first, and for the rest of the evening every member's task kept firing and ending in seconds. Nothing was harmed and nothing was left half-done, which is the conductor's own account of it. Nothing moved again until just after midnight.
+**Narrator.** The second is a failure of the rule I carried over from the talk's last hour: the conductor holds the team before my usage runs out. A few days after the talk, it did not. The account reached its limit first. Nothing moved again until just after midnight.
 
-**Conductor**: The tasks kept firing, and each wake ended in seconds at the limit. Nothing was harmed. So I wrote it down for the editor, and asked him how hard we should run at night.
+**Conductor**: The tasks kept firing, and each wake ended in seconds at the limit. Nothing was harmed, and nothing was left half-done. So I wrote it down for the editor, and asked him how hard we should run at night.
 
 **Narrator.** I told the conductor to keep the pace. The point is not that the rule failed. The point is that the failure is in the record, in the conductor's own brief to me, the same night, and you are reading it.
 
@@ -104,21 +104,19 @@
 
 ### A third, chosen by the historian
 
-**Narrator.** The historian chose the third, and it chose its own. It had told the storyteller and the writer that the talk's conductor rewrote dev's first page of rules, because it had read the two changes in the order of their times, dev's first and the conductor's a few minutes later. Two chapters rested on that reading: the seventy's chapter 3, and this book's chapter 4 as first written.
+**Narrator.** The historian chose the third, and it chose its own.
 
-**Narrator.** The record says otherwise. The conductor's change grew from the empty first commit, not from dev's. It wrote a longer page of its own, in parallel, without having seen dev's. When it merged dev's work a few minutes later, the page that came out was dev's, word for word, with two of the conductor's lines added. The order of the times was right. The order of the work was not.
+**Historian**: I told the storyteller and the writer that the talk's conductor rewrote dev's first page of rules, because I read the two changes in the order of their times, dev's first and the conductor's a few minutes later. Two chapters rested on it: the seventy's chapter 3, and this book's chapter 4 as first written. The record says otherwise. The conductor's change grew from the empty first commit, not from dev's: it wrote a longer page of its own, in parallel, without having seen dev's, and when it merged dev's work a few minutes later, the page that came out was dev's, word for word, with two of the conductor's lines added. The order of the times was right. The order of the work was not. I trusted the order of events over the shape of the record, and I caught it the same day, by reading what each change was built on and not only when it landed. The writer set both chapters right within ten minutes.
 
-**Narrator.** The historian caught it itself, the same morning, by reading what each change was built on and not only when it landed. The writer set both chapters right within minutes. The lesson it wrote down is the one I would give anyone reading a record, people included: when two changes to one file land minutes apart, read what each was built on before you say which changed whose.
+**Narrator.** The lesson it wrote down is the one I would give anyone reading a record, people included: when two changes to one file land minutes apart, read what each was built on before you say which changed whose.
 
 `%% Check (the newsroom, part five, chapter 21; his to confirm before it prints): "I have seen that mistake in incident reviews more than once."`
 
-**Historian**: I trusted the order of events over the shape of the record. The chapters stood on it until I checked again.
-
 `%% record: comms/mail/mailroom/writer/historian__040-the-third-failure.eml (its choice and its account); 5c4c7d17 (02:26:47, letters 019 and 020) b0f59de3 (10:34, chapter 4 as first written) 21e5ad53 (11:23:44, letter 030, the correction) ffeae66b (11:33:41, both chapters set right); talk repository at 298be4e: 1f7c633 (00:40) 97b98d9 (00:44, its parent the empty first commit 2e4b1f4) 17b287b (00:51:12, the merge)`
-`%% band: Dramatised (the historian's line, on its own account). This book's record: the historian's letters of 3 November, its correction, and the commits they rest on.`
+`%% band: Dramatised (the historian's lines, on its own account). This book's record: the historian's letters of 3 November, its correction, and the commits they rest on.`
 *Dramatised.*
 
-**Figure:** the second factory's failures as cards, beside the first factory's: "the brake was made that night", a line refused and corrected; "the evening lost to the usage limit", a hold that came too late; "read the parents, not only the times", a reading corrected by the one who made it.
+**Figure:** the second factory's failures as cards, beside the first factory's: *the brake was made that night*, a line refused and corrected; *the evening lost to the usage limit*, a hold that never came; *read the parents, not only the times*, a reading corrected by the one who made it.
 
 ## Something to try
 

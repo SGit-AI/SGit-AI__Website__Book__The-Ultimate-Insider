@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-11-04T05:36Z",
+ "as_of": "2026-11-04T06:37Z",
  "round": 1,
- "state": "active, hourly: RV2 pass 1 done (numbers lane); the 150 traced; C121 to C130 registered; to do: pass 2 when the writers' fixes land, the final script pass, 92 reset; 009 blocked",
+ "state": "active, hourly: RV2 pass 2 done; C131 registered; the 150 traced; to do: pass 3 when the writers' fixes land (09, 17, 94, 16), 92 reset, the final script pass; 009 blocked",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -455,6 +455,16 @@
     "writer4/researcher__001",
     "historian/researcher__003",
     "conductor/researcher__029"
+   ]
+  },
+  {
+   "what": "RV2 pass 2; C131 (this book's team in numbers); 04, 12, 14, 15, 21 traced",
+   "when": "2026-11-04T06:37Z",
+   "letters": [
+    "writer4/researcher__002",
+    "writer/researcher__031",
+    "writer2/researcher__003",
+    "conductor/researcher__030"
    ]
   }
  ],

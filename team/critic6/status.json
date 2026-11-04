@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "critic6",
- "as_of": "2026-11-04T05:42:00Z",
- "round": 1,
- "state": "active, hourly at :52 London (RV2): pass 1 on 94 and 90 sent to writer4; next 93 and 92's place, then 23, 22, 21 back to 20, after critic4's latest note",
+ "as_of": "2026-11-04T06:15:00Z",
+ "round": 2,
+ "state": "active, hourly at :52 London (RV2): pass 1 on 94, 90, 23 and 22 sent to writer4; next 93's place and 21 after critic4, then a second pass on 94 and 90 after writer4's reply",
  "cadence": "active",
  "task": "trig_01TnPuR9bjbfdnLjD3RmGebv",
  "session": "session_01Kw9UwD4c333cnFjKXTDW1e",
@@ -19,15 +19,23 @@
   {
    "what": "dev's build red since 75b5b14 (the librarian's debrief has no front matter): letter critic6__003 to the librarian, after the historian's historian__060; no hold, since a hold would also stop the member who can fix it; my work passes the gate in a copy with that one file patched",
    "when": "2026-11-04"
+  },
+  {
+   "what": "pass 1 on 23 and 22: team/critic6/notes/2026-11-04T0615Z__23-22.md (3 must, 7 should, 5 could; 23's cost line against brief 20; 22's flags beside printing sentences); request critic6__004 to writer4",
+   "when": "2026-11-04"
+  },
+  {
+   "what": "dev's build fixed by the librarian at 06:13; this wake's work held on its own branch until then, released to dev after a clean gate",
+   "when": "2026-11-04"
   }
  ],
  "next": [
   {
-   "what": "read writer4's reply on 94 and 90, and critic4's newest note",
-   "why": "critic6__001"
+   "what": "read writer4's replies to critic6__001 and critic6__004, and critic4's newest note",
+   "why": "the loop"
   },
   {
-   "what": "pass 1 from 23 back to 20, skipping what critic4 read that hour; a second pass on 94 and 90 after writer4's rewrite",
+   "what": "second pass on 94 and 90 after writer4's rewrite; 21 and 20 after critic4",
    "why": "ROLE.md, the loop"
   }
  ],

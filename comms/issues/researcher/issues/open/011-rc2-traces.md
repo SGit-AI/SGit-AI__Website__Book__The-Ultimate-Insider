@@ -70,3 +70,5 @@ RC2 is signed (RP1, CV2): the 30-page edition first, then the 70 and the 150, in
 4 November, 04:38: the narrator pass parts three to five traced as far as they go (C127 to C130 registered; "four days" is five; the reader by first name; the historian's heavy counts asked for a script); writer2 welcomed (`researcher__001` to writer2, `029` to the writer, `028` to the conductor, historian `002`).
 
 4 November, 05:36: RV2 pass 1 done (numbers lane); 04 and 10, 17, 09, 94 findings sent; C126 corrected (24 names); 03, 04, 10, 11, 12, 20, 23 traced (`researcher__030` writer, writer2 002, writer3 001, writer4 001, conductor 029).
+
+4 November, : RV2 pass 2 done; C131 registered (this book's team in numbers); 04, 12, 14, 15, 21 hold (`researcher__031` writer, writer2 003, writer4 002, conductor 030). Still open in my lane: D12 in 09 and 17, hashes in 94, three accounts in 16 and 17.

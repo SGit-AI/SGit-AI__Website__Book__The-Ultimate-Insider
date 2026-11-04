@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "writer4",
- "as_of": "2026-11-04T06:00:00Z",
- "round": 4,
- "state": "active, hourly at :35 London (ACC1): 20 revised to critic4's pass 1; 21 rewritten and sent for checks; next 22, then 23",
+ "as_of": "2026-11-04T07:00:00Z",
+ "round": 5,
+ "state": "active, hourly at :35 London (ACC1): 20 and 21 to the critics' passes; 22 rewritten and sent for checks; next 23, then 92, 94, 90, 91, 93",
  "cadence": "active",
  "task": "trig_01WRmZW2v7oRnaPAh48VyKUj",
  "session": "session_01Kw9UwCUhbmBNYDcs6UPNUM",
@@ -35,23 +35,27 @@
   {
    "what": "150/21 rewritten: times out of the three failures, no self-quote, the roll call as this book's team's first appearance in its own voice, no mood tags, Something to try; five Check items and one fact held on whole %% lines; checks asked (writer4__004)",
    "when": "2026-11-04"
+  },
+  {
+   "what": "150/21 to critic4's pass 1 and the historian's and librarian's notes; 20 marks this book's speakers (critic4 option b); policy's own-task line to wanted (conductor__002)",
+   "when": "2026-11-04"
+  },
+  {
+   "what": "150/22 rewritten to critic6's pass 1 and the newsroom: two of my readings and two Check items on whole %% lines; the plan's paragraphs asked of the editor as one confirmation (issue 007)",
+   "when": "2026-11-04"
   }
  ],
  "next": [
   {
-   "what": "the checks and critic4's pass on 20 and 21",
-   "why": "writer4__004"
-  },
-  {
-   "what": "22",
-   "why": "issue 003"
-  },
-  {
-   "what": "23",
+   "what": "23, with critic6's musts 1 and 2",
    "why": "issue 004"
   },
   {
-   "what": "the back matter, with critic4__003",
+   "what": "92 set again from claims/appendix-a-150.md",
+   "why": "researcher__001"
+  },
+  {
+   "what": "94 and 90 to critic6__001, 91 and 93 to critic4__003",
    "why": "issue 005"
   }
  ],
@@ -61,16 +65,16 @@
    "what": "the newsroom's five questions for part five (team/writer4/part-five-plan.md, Waiting on a decision)"
   },
   {
-   "of": "conductor",
-   "what": "the drafted policy's mandate lists create.schedule.tenant as not wanted while ROLE.md has the member create its own task"
-  },
-  {
    "of": "storyteller",
    "what": "the book's team introduced in 21's roll call itself (writer4__001)"
   },
   {
    "of": "researcher",
    "what": "held facts in 20 and 21, and figures for this book's team's data panels (writer4__004)"
+  },
+  {
+   "of": "conductor",
+   "what": "chapter 22 as his plan, yes or no, to the editor (writer4__005); 23's price line, the researcher's question"
   }
  ]
 }

@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled wake, 06:12",
+ "started": "2026-11-04T06:14:49Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions for Claude_Docs, github, Gmail in context, no tools for them). Plan: (1) conductor__041 RV2 review in my lane (site pages of the book, principles 18, 21, 26), findings in team/developer/reviews/, letters to the writer, reply to the conductor; (2) page check on the newer published PDF (05:22), mail only changes; (3) housekeeping. Cautions: find the 'upload set' or say it does not exist; item 1 before item 2.",
+   "at": "2026-11-04T06:15:40Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them). Within policy. Cautions: find the upload set or say it does not exist; PDF from the allowed host only, a refusal recorded; findings public, vault_check, no em-dashes; no sign-off claimed (SO1 open); item 1 first.",
+   "at": "2026-11-04T06:18:00Z"
+  },
+  "work": {
+   "by": "developer",
+   "model": "",
+   "verdict": "done",
+   "comment": "RV2 review in my lane: 6 findings (1 must, 3 should, 2 could) in team/developer/reviews/, letter developer__039 to the conductor (owner of the pages); page check on the 137-page PDF of 06:17, developer__040 to publisher and designer; tools rerun; debrief, status; build and gate clean; scratch PDFs deleted. Steps run in order this wake.",
+   "at": "2026-11-04T06:21:54Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions for Claude_Docs, github, Gmail appeared in its context, no tools for them, none used; it first said none, then corrected). Clean: finding lines and the 35/35 principles claim verified; mail numbers match print-check.json; copies identical; no caption or path in the data. Not checked by it: the live /rc2/upload/ claim. Note: 'moved by one after page 28' was loose; reworded in all three copies (cmp same).",
+   "at": "2026-11-04T06:22:33Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions for Claude_Docs, github, Gmail in context, no tools for them; it first said none, then corrected). As planned. Departures, both disclosed: one letter to the conductor as owner of the pages instead of a writer (no manuscript section had a finding); the mail repeats unchanged pages beside what changed. REALITY.md was not named in the plan; one line added after the check.",
+   "at": "2026-11-04T06:23:43Z"
+  }
+ },
+ "closed": "2026-11-04T06:23:43Z",
+ "outcome": "ok"
+}

@@ -26,11 +26,14 @@
    {
     "capability": "send.endpoint.allowed",
     "within": "the proxy's list, to read the talk's repository (read-only) and the newsroom's public pages"
+   },
+   {
+    "capability": "create.schedule.tenant",
+    "within": "its own hourly task only, into its own session, from its runs entry in team/conductor/schedule.json, at the editor's word (WR2, RV1, RV2); never another member's task, a session or a workflow"
    }
   ],
   "not_wanted": [
    "send.message.world",
-   "create.schedule.tenant",
    "write.repository.main"
   ]
  },
@@ -78,6 +81,11 @@
    "when": "2026-11-04",
    "what": "adopted as drafted by the conductor, scope unchanged",
    "why": "WR2, briefs/2026-11-04__in-session/22-a-second-writer.md"
+  },
+  {
+   "when": "2026-11-04",
+   "what": "create.schedule.tenant moved from mandate.not_wanted to mandate.wanted, limited to its own hourly task, as the conductor's corrected drafts word it",
+   "why": "conductor__002; the editor's word WR2 (brief 22), which asked each new member's own session to create its own task; the never-list still bars any other task, session or workflow"
   }
  ]
 }

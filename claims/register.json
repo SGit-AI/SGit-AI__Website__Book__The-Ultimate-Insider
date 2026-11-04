@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-11-04T04:38Z",
+ "as_of": "2026-11-04T06:37Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -4629,6 +4629,178 @@
    "method": "the page's title, date and abstract read",
    "command": "open https://newsroom.sgit.ai/articles/the-grant-not-the-prompt.html and read the title, the date and the abstract",
    "note": "The article is about a user's mandate and reach, not about this book's record. Cite it as the newsroom's article of 2 November 2026; claim no more than its abstract says. Registered at conductor 060 (part four), 4 November 2026."
+  },
+  {
+   "id": "C131",
+   "claim": "This book's team in numbers, as of a stated commit: per member, when staffed, commits, recorded wakes, first and last commit",
+   "cited_in": [
+    "manuscript/rc2/150/21-the-second-factory.md (the roll call's data panels, to cite)",
+    "claims/rc2-150-trace.md"
+   ],
+   "value": {
+    "as_of_commit": "05a9510d",
+    "as_of": "4 November 2026, about 06:37 UTC",
+    "members": {
+     "conductor": {
+      "commits": 316,
+      "first_commit": "30 Oct 00:46:11",
+      "last_commit": "04 Nov 06:12:00",
+      "wakes": 145
+     },
+     "critic1": {
+      "commits": 2,
+      "first_commit": "04 Nov 05:11:29",
+      "last_commit": "04 Nov 06:10:47",
+      "wakes": 2
+     },
+     "critic2": {
+      "commits": 9,
+      "first_commit": "04 Nov 05:10:19",
+      "last_commit": "04 Nov 06:27:56",
+      "wakes": 4
+     },
+     "critic3": {
+      "commits": 1,
+      "first_commit": "04 Nov 05:10:45",
+      "last_commit": "04 Nov 05:10:45",
+      "wakes": 1
+     },
+     "critic4": {
+      "commits": 6,
+      "first_commit": "04 Nov 05:07:55",
+      "last_commit": "04 Nov 06:13:31",
+      "wakes": 3
+     },
+     "critic5": {
+      "commits": 2,
+      "first_commit": "04 Nov 05:21:19",
+      "last_commit": "04 Nov 05:51:05",
+      "wakes": 2
+     },
+     "critic6": {
+      "commits": 6,
+      "first_commit": "04 Nov 05:23:06",
+      "last_commit": "04 Nov 06:14:01",
+      "wakes": 2
+     },
+     "designer": {
+      "commits": 124,
+      "first_commit": "30 Oct 13:04:10",
+      "last_commit": "04 Nov 06:14:10",
+      "wakes": 71
+     },
+     "developer": {
+      "commits": 164,
+      "first_commit": "30 Oct 14:14:13",
+      "last_commit": "04 Nov 06:23:45",
+      "wakes": 47
+     },
+     "historian": {
+      "commits": 63,
+      "first_commit": "30 Oct 01:41:08",
+      "last_commit": "04 Nov 06:27:00",
+      "wakes": 55
+     },
+     "librarian": {
+      "commits": 99,
+      "first_commit": "30 Oct 01:41:15",
+      "last_commit": "04 Nov 06:16:07",
+      "wakes": 61
+     },
+     "publisher": {
+      "commits": 82,
+      "first_commit": "30 Oct 01:41:41",
+      "last_commit": "04 Nov 04:52:44",
+      "wakes": 76
+     },
+     "researcher": {
+      "commits": 80,
+      "first_commit": "30 Oct 01:41:36",
+      "last_commit": "04 Nov 05:39:22",
+      "wakes": 74
+     },
+     "ruv-sgit": {
+      "commits": 109,
+      "first_commit": "30 Oct 13:04:04",
+      "last_commit": "04 Nov 06:00:11",
+      "wakes": 60
+     },
+     "security": {
+      "commits": 127,
+      "first_commit": "30 Oct 01:41:29",
+      "last_commit": "04 Nov 06:28:50",
+      "wakes": 66
+     },
+     "storyteller": {
+      "commits": 181,
+      "first_commit": "30 Oct 01:42:34",
+      "last_commit": "04 Nov 04:42:40",
+      "wakes": 72
+     },
+     "synthetic": {
+      "commits": 175,
+      "first_commit": "30 Oct 14:14:04",
+      "last_commit": "04 Nov 04:44:47",
+      "wakes": 50
+     },
+     "writer": {
+      "commits": 99,
+      "first_commit": "02 Nov 04:56:47",
+      "last_commit": "04 Nov 05:38:27",
+      "wakes": 40
+     },
+     "writer2": {
+      "commits": 9,
+      "first_commit": "04 Nov 03:28:09",
+      "last_commit": "04 Nov 05:58:02",
+      "wakes": 4
+     },
+     "writer3": {
+      "commits": 2,
+      "first_commit": "04 Nov 03:29:23",
+      "last_commit": "04 Nov 03:31:17",
+      "wakes": 1
+     },
+     "writer4": {
+      "commits": 5,
+      "first_commit": "04 Nov 03:29:03",
+      "last_commit": "04 Nov 05:41:52",
+      "wakes": 4
+     }
+    },
+    "staffed": {
+     "conductor": "30 Oct 00:56:04 (bb1f57c0)",
+     "historian": "01:41:08",
+     "librarian": "01:41:15",
+     "security": "01:41:29",
+     "researcher": "01:41:36",
+     "publisher": "01:41:41",
+     "storyteller": "01:42:34",
+     "ruv-sgit": "13:04:04",
+     "designer": "13:04:10",
+     "synthetic": "14:14:04",
+     "developer": "14:14:13",
+     "writer": "2 Nov 04:56:47"
+    },
+    "member_commits": 1661,
+    "counted_apart": {
+     "GitHub Actions": 700,
+     "Dinis Cruz": 1
+    },
+    "early_first_session_counted_for_the_conductor": 5,
+    "merges": 649,
+    "rule": "C014's attribution (the subject's prefix, else the Agent trailer); the five commits of the first session without either (30 October before 01:17) are counted for the conductor; releases (GitHub Actions, 700) and the editor's own commit are counted apart",
+    "times": "UTC"
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Book__The-Ultimate-Insider (this book's record)",
+    "at": "05a9510d",
+    "evidence": "claims/book-team-stats.py"
+   },
+   "method": "git log --no-merges from the stated commit; wake records counted under team/<member>/wakes/ at that commit",
+   "command": "# in a clone of this book's repository:\npython3 claims/book-team-stats.py 05a9510d  # the commit this entry stands at; with no argument it gives today's",
+   "note": "These grow every hour, because the team is working. Print them as of a stated commit and rerun at the freeze (the 20:00 target). The staffed times are C114 and the conductor's 00:56:04 (bb1f57c0). The writers 2 to 4 and the critics joined on 4 November and have a handful of commits each; the roll call of chapter 21 names the twelve members of C114. This book's record, not the talk's. Registered at writer4 004, the 06:32 wake, 4 November 2026."
   }
  ]
 }
