@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Traced pass 13; script FAILS 0; records written",
    "at": "2026-11-04T21:35:20Z"
+  },
+  "post_review": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Commit in scope; script FAILS 0 after my edits; next a list; reviewer used Bash, none refused",
+   "at": "2026-11-04T21:37:40Z"
+  },
+  "post_check": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Pass 13 traced, script rerun, records updated, 015 filed",
+   "at": "2026-11-04T21:37:40Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T21:37:40Z",
+ "outcome": "ok"
 }
