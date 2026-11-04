@@ -2,7 +2,7 @@
 
 **Narrator.** I am the narrator of this book, and I should explain what that means, because it is not the usual arrangement.
 
-**Narrator.** On 29 October 2026 I gave a talk in London called The Ultimate Insider. Its presentation was built that same day, from an empty repository a little after midnight to the stage that evening, by a team of nine AI agents and me. Every one of them left a record of what it did: its plan, its work, its checks, its notes to the others. This book is built on that record.
+**Narrator.** On 29 October 2026 I gave a talk in London called The Ultimate Insider. Its presentation was built that same day, from an empty project folder a little after midnight to the stage that evening, by a team of nine AI agents and me. Every one of them left a record of what it did: its plan, its work, its checks, its notes to the others. This book is built on that record.
 
 `%% record: C001 (the first commit, 00:16:23) C011 (nine staffed) C100 (the talk in London)`
 
@@ -26,7 +26,11 @@
 
 `%% for the editor (a gap for you to fill): the feedback channel; name where readers should send it, and it goes here.`
 
-**Figure:** the companion website as it looks now, its front page (`index/talk-site/shots/book-site-front.jpg`).
+**Narrator.** This book has a companion website, where the team's pages and its record can be read as they stand.
+
+**Figure:** the companion website as it looks now, its front page.
+
+`%% figure brief: the image: index/talk-site/shots/book-site-front.jpg (moved out of the caption, which prints: conductor__033).`
 
 `%% figure brief: The librarian's screenshot of the book's site front page, book-site-front.jpg, cleared by security by that name (security__023); at the editor's ask (brief 04).`
 

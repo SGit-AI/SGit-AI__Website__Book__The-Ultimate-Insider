@@ -18,15 +18,15 @@
 
 **Narrator.** The two who came before dawn are as interesting for what they could not do as for what they could.
 
-**Researcher** *(unbudging, in a long coat)*: Sources and evidence. Every source captured and hashed. My folder and the evidence folder, and I will not be talked out of either. Nothing else.
+**Researcher**: Sources and evidence. Every source captured and hashed. My folder and the evidence folder, and I will not be talked out of either. Nothing else.
 
 **Researcher** *(to the rest of the team)*: A claim without a captured source is a gap, and my register says so rather than leaving it out. And a measured finding, a position and a guess are not the same thing. I label each.
 
 **Narrator.** The researcher could not change a slide. It could only say that a number on one did not hold. That is a strong position precisely because it is a narrow one: nobody could accuse it of changing the story to suit its findings.
 
-**Designer** *(beret and pencil, exacting)*: Layout, width, type, the design system. One folder, mine. I prefer it that way: every line I draw has a second pair of eyes.
+**Designer**: Layout, width, type, the design system. One folder, mine. I prefer it that way: every line I draw has a second pair of eyes.
 
-**Designer** *(firm about whose word counts)*: So I do not change a page. I write a note, with before and after, and dev builds it. At my next wake I check: as designed, or what to fix.
+**Designer**: So I do not change a page. I write a note, with before and after, and dev builds it. At my next wake I check: as designed, or what to fix.
 
 **Narrator.** The designer's scope is the smallest on the team: its own folder, nothing else. Every change it wanted went through someone else's hands. That slowed it down, and it also meant every design change had two readers.
 
@@ -165,19 +165,27 @@
 
 **Narrator.** A scope is a list in a file. A check reads the list and flags any change outside it. That catches an agent that wanders by mistake, and on the day it caught some. It does not stop an agent that has been talked into doing something else, because the agent has the same hands either way. Dev's page said the same thing in the first hours, about its own check.
 
-**Studio** *(firm, as it says it)*: So you write the scope, and you check it, and you never confuse the check with a wall.
+**Studio**: So you write the scope, and you check it, and you never confuse the check with a wall.
 
 **Narrator.** Hold on to that. It is the question part 4 asks, at full size: if every member of the team is an insider, what actually contains it?
 
-**Figure:** the nine role cards at their full size (the designer's scorecards, LAB 27), and a tenth, empty.
+**Figure:** the nine role cards at their full size, and a tenth, empty.
+
+`%% figure brief: the designer's scorecards, LAB 27 (moved out of the caption: conductor__033).`
 
 `%% record: timeline/quotes.md (the slide's line at 18:11, 95b09d9; the slide's own words: src/static/studio-ports/lab/abp-enforcement/index.html at 298be4e, quoting admin/build/agents.py; studio's debrief abp-prose-enforcement) talk repository at 298be4e: team/dev/ROLE.md ("The gap, and what stands in it")`
 `%% band: Dramatised (studio's line). The quoted line is the slide's own, from 18:11; dev's page made the same point in the first hours.`
 *Dramatised.*
 
-## Do this now
+## Something to try
 
-*Write a second page of rules for a second agent, with a different thing it may change. Then write, under each "must not", what actually stands in the way: an expectation, a check, or a lock. Be honest about which.*
+*A rule is only as strong as what holds it.*
+
+*If you have a second agent, look at each of its "must not" lines and note what actually stops it: something you expect, something that checks, or something that locks.*
+
+`%% for the editor (his view, held out of print until he confirms it, P30): the newsroom's "Most of mine, on the day, were expectations, and seeing that was useful." (unregistered too).`
+
+`%% record: team/conductor/from-newsroom/2026-11-04__do-this-now-as-invitations.md (chapter 6, the proposed card); chapter-plan/cast/cast-guide.md (page conventions 1)`
 
 ---
 
