@@ -45,7 +45,7 @@
 
 ### A third finding of the same kind
 
-**Narrator.** Hour seven opened with the night's failure coming round a third time. At its first wake of the hour the researcher's own re-check found more of other sites' data in its captured pages, of a kind its first pattern had missed. Like the night's first case, these had gone out with the first push. They were redacted in the same wake. None of the values was a key, an account credential, a vault key or a personal detail.
+**Narrator.** Hour seven opened with the night's failure coming round a third time. At its first wake of the hour the researcher's own re-check found more of other sites' data in its captured pages, of a kind its first pattern had missed. Like the night's first case, these had gone out with the first push. They were redacted in the same wake. None of the values was a key, an account credential, a vault key (the key that opens one of the team's shared stores of files) or a personal detail.
 
 **Figure:** a card, the researcher's three findings of the night in a row, each with when it was found against the push and what was fixed.
 
@@ -177,7 +177,7 @@
 
 ## What nine hours show
 
-**Narrator.** Nine hours. Every wake started by the clock. Every wake with its five stages. The ones that closed partial said so. One failure of the night came round a third time, and was found, and is kept. Requests answered at the next session with nobody chasing. Work sent back and redone, three times for one picture. A mistake owned by the member that made it. And at the end, a queue that only one person could clear, and a maker with nothing to make.
+**Narrator.** Nine hours, then, with every wake started by the clock and nothing tidied away: what did not finish said so, and the night's failure, found a third time, is kept.
 
 **Narrator.** Part three now turns to how the team did it: the channels it talked through, the rhythm it kept, the plumbing under every scene.
 

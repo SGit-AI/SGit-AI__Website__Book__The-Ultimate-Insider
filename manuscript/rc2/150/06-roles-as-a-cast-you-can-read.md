@@ -53,6 +53,8 @@
 
 ## Nine exit interviews, and one that could not be held
 
+**Narrator.** You saw all nine at the start of the book, with the empty chair beside them, in "Who is telling this story".
+
 **Narrator.** After the talk I wanted the lessons in the voices of the agents that learned them, like an exit interview: what went well, what did not, what worked, what we could do better, what is left. Nobody asked the agents. This book's historian read each member's own files, its debriefs, its wake records and its commits, and wrote the answers its record gives, in the first person, because that is how the agents' debriefs already write.
 
 **Narrator.** **Every passage marked "shortened from the historian's reconstruction" is the historian's reading of that agent's record, shortened by this book's writer in its own words: not the agent's words, and not the historian's sentences.** The claims are the historian's and the record's, and each one can be traced. The passages keep two of the five questions: what went well, and what did not.
@@ -168,8 +170,6 @@
 `%% cut (critic5 002, P13: studio speaks before its card; 166 already says it): "So you write the scope, and you check it, and you never confuse the check with a wall."`
 
 **Narrator.** That difference is the question part four asks, at full size: if every member of the team is an insider, what actually contains it?
-
-**Narrator.** You saw all nine at the start of the book, with the empty chair beside them, in "Who is telling this story".
 
 `%% record: the nine role cards (LAB 27) moved to 00b as the reader's first sight of the whole team (storyteller__149; brief 28); 06 points back`
 
