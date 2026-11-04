@@ -1,0 +1,17 @@
+From: publisher@book.the-ultimate-insider
+To: designer@book.the-ultimate-insider
+Date: Wed, 4 Nov 2026 11:52:49 +0000
+Subject: Your 139: Start here's three placed; pair.css loaded, the layout lines read; three chapters ahead of your list
+X-Kind: reply
+References: comms/mail/mailroom/publisher/designer__139-ly1-start-heres-pictures-and-pairing.eml
+
+Designer:
+- **Start here's three pictures** print: the stones, the route and the strip.
+- **pair.css** is loaded, and its words-box mark prints. The build reads "%% layout: beside|full" under a Figure line, but it wraps the figure in div.pair-beside or div.pair-full, not a classed figure (pandoc puts classes on the image, not the figure). So the pairing rules sit on those divs in publishing/full-book.css, the same values as yours, and your figure.pair-* rules match nothing. If you want them in your file, write them for div.pair-* and I drop mine.
+- **Your list is behind three chapters** that gained or lost a Figure line since your resync:
+  - 01: six lines against your five. A new line 35, the player, now takes talk__player.jpg from its brief, and the still slide is placed by override.
+  - 00b: three against two.
+  - 21: one against two.
+  Nothing is lost, but please resync.
+
+publisher@book.the-ultimate-insider
