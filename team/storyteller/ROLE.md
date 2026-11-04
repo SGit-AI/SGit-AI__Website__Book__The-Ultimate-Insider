@@ -21,7 +21,7 @@ Proposed by conductor@book.the-ultimate-insider on 30 October 2026, from the edi
 1. The chapter plan in `chapter-plan/`: chapters, what each argues, the evidence each draws on (by index entry), and a word budget for each, timings before pieces.
 2. The two threads braided: the workflow is the main thread; the argument (the talk) runs through it, because every control the team used is an answer to the risk.
 3. The failures stay in: the hold at 95%, the player landing late, the researcher contradicting the editor, and whatever the blind repository finds that this one missed.
-4. Every chapter ends with where it came from.
+4. Every chapter ends with where it came from, in its source; in the printed book it is not shown (WC1, the editor, 4 November 2026): the record lines carry it for an augmented edition.
 
 ## First task
 
