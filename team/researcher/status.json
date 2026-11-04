@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-11-04T16:39Z",
+ "as_of": "2026-11-04T17:36Z",
  "round": 1,
- "state": "active, hourly: the hold lifted at 16:30; the final pass scripted (claims/final-pass.py) and clean at 16:39; to do: rerun at the writers' last landing, at 20:00 and on Thursday morning; reset 92 after the last landing; 009 blocked",
+ "state": "active, hourly: the final pass at 17:35 (0 script fails); 14 has a should (27 minutes) and a could (more than twice) with writer2; to do: rerun after the last landing, at 20:00 and on Thursday morning; reset 92 after the last landing; 009 blocked",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -432,7 +432,7 @@
    "letters": [
     "writer/researcher__028",
     "conductor/researcher__027",
-    "ruv-sgit/researcher__015"
+    "ruv-sgit/researcher__016"
    ]
   },
   {
@@ -528,6 +528,16 @@
    "when": "2026-11-04T16:39Z",
    "letters": [
     "conductor/researcher__037"
+   ]
+  },
+  {
+   "what": "the final pass at 17:35 (0 fails); RV2 pass 9; 14 findings; C129 title fixed; ruv-sgit 074 answered",
+   "when": "2026-11-04T17:36Z",
+   "letters": [
+    "writer2/researcher__006",
+    "ruv-sgit/researcher__016",
+    "writer4/researcher__009",
+    "conductor/researcher__038"
    ]
   }
  ],

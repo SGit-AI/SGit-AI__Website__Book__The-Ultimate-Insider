@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T17:33:14Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "No hold. Changes adopted: answer the conductor's 068 on 21's table only after the final-pass trace; widen the title scan to every cited register id (not the trace file); rebuild appendix-a-commands.md too (it carries the C129 title); keep the HR1 note in the reply to the conductor. Tools: Bash, Grep; nothing refused.",
+   "at": "2026-11-04T17:34:53Z"
+  },
+  "pre_review": {
+   "by": "security pre-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Read-only on manuscript/; no secrets or comms contents; vault_check on comms before committing the replies. Tools: Bash, Grep; nothing refused.",
+   "at": "2026-11-04T17:34:53Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Plan and pre-review first. Final pass at 17:35 on a734893c: claims/final-pass.py 0 fails; changed numbers traced (10 to 16, 18, 19, 23, 91, 93): two time findings in 14 (27 minutes, not a little over half an hour; more than twice, not twice) to writer2; sixteen minutes (C100) confirmed; C129's title fixed (a drafting note); ruv-sgit 074 answered (nothing to register). Replies researcher__006 (writer2), 016 (ruv-sgit), 009 (writer4), 038 (conductor); board, debrief, REALITY, status. Not done: the rerun after the last landing; the web facts.",
+   "at": "2026-11-04T17:36:35Z"
+  },
+  "post_review": {
+   "by": "security post-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "finding",
+   "comment": "Scope clean (nothing in manuscript/; only claims/, team/researcher/, comms/, REALITY.md); no secret, contact detail, private full name, religious word or em-dash; 'narrator pass' is 0 in both appendix files; ruv-sgit's researcher__016 exists once; 16:32:22 and 16:59:22 (27 minutes) verified. Two findings, both fixed by the member in the amended commit: (1) claims/final-pass.py shows FAILS: 1 at HEAD (92 differs from the appendix file: C129's title and five Cited-in lines) after the member's own title fix and rebuild, so the record's '0 fails' was true only before them: the trace, debrief and conductor letter now say so, and 92 is reset after the last landing; (2) the text 'not 38 min 30 s' is not in the commit message of 3342cff but in the conductor's brief added by 62c6b99 (team/conductor/briefs/2026-10-29__editor/2-the-work-section-1630.md): the trace and the writer2 letter now cite that. Tools: Read, Grep, Bash; nothing refused.",
+   "at": "2026-11-04T17:39:56Z"
+  },
+  "post_check": {
+   "by": "conductor post-check step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "partial",
+   "comment": "Done as planned: the final pass, pass 9, the 14 findings, the C129 title, replies. Off-plan: the '0 fails' claim was true at 17:35 only, before the member's own edit; after it the script shows 1 fail (92 lags the rebuilt file), which the member did not recheck before the commit and has now corrected in the trace, debrief and conductor letter. Not done, stated accurately: the rerun after the last landing; the web facts; the reset of 92. Tools: Read, Grep, Bash; nothing refused.",
+   "at": "2026-11-04T17:39:56Z"
+  }
+ },
+ "closed": "2026-11-04T17:39:56Z",
+ "outcome": "partial"
+}

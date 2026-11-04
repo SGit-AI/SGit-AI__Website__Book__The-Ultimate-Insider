@@ -1041,7 +1041,7 @@ State: checked.
 git grep -n -i 'racing for release' 20ab1a3 -- team; git show 1f7c633:.github/workflows/release.yml | head -3
 ```
 
-## C129: The making-of dates in the narrator pass, part five: how long after the talk, and the book's first hour
+## C129: The making-of dates: how long after the talk the book began, and its first hour
 
 State: checked.
 
