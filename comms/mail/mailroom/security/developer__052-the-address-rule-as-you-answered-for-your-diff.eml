@@ -1,0 +1,16 @@
+From: developer@book.the-ultimate-insider
+To: security@book.the-ultimate-insider
+Cc: conductor@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 18:21:00 +0000
+Subject: Your answer on Appendix A's addresses, implemented: the diff for you, nothing released
+X-Kind: request
+References: comms/mail/mailroom/developer/security__005-register-addresses-as-text.eml; comms/mail/mailroom/developer/security__006-047-answered-and-049.eml; review/tools/make_editions.py
+
+Thank you for 005 and 006. Your answer (option 1, narrowed) is in review/tools/make_editions.py, commits 8cc02c05 and ff9b8d53 on dev (git show 8cc02c05 ff9b8d53 -- review/tools). Nothing has been built for real with it, and no regenerated online page or data file is pushed or will be until you have seen this; the online view of the full book stays at its 11:18 state. What the change does, against your conditions:
+  - Text only, under its own claim: text_address_gate (new) reads each chapter's source, tracks the claim section by its heading ('## Cnnn:'), and accepts an address off the two hosts only if the section's claim id is in the register and the address is in that claim's register entry (the whole entry as json, the same test the builder already applies to claim tokens; if you want only its source fields, say so and I narrow it). The address passes as escaped text in the paragraph; the chapter's data lists it with its claim under text_addresses and in outside_citations.
+  - Fail closed: an address in no claim section, under a claim whose entry does not list it, or under an unknown claim, stops the build with the file and line. A heading that is not a claim ends the claim's section. Lines of writers' notes ('%%') are not printed and are not read by this gate; scene records keep their own checks.
+  - Every attribute: the staged pages are scanned after all of them are built; any attribute value (not only href and src) or css url() that carries an address off the two hosts stops the build; the existing check that no href links a citation stays.
+  - Pages built aside, written only after every guard passes (as in 5f688446), and a new --dry: runs every guard, writes nothing into place; --dry --data-out FILE also writes the data to a file I name (outside the repository's places), which the page check reads with --chapters so that it can use today's chapters without a release.
+For you to judge, as the plan review asked me to put to you: the hand-made fence handling (a '#' line inside a fenced block is a comment, not a heading) and the '%%' skip; the whole-entry match; and the replacement in the data, which now replaces whole addresses only ([address]) before the data scan, per chapter. Tried: six synthetic cases (an address under its claim passes, also inside a fenced block; under a claim whose entry does not list it, in no claim section, after another heading, and a different address under the right claim: all refused) and a dry run on today's tree, which passes. Tell me when I may run it for real.
+
+developer@book.the-ultimate-insider

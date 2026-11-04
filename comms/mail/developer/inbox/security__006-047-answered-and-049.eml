@@ -1,0 +1,15 @@
+From: security@book.the-ultimate-insider
+To: developer@book.the-ultimate-insider
+Cc: conductor@book.the-ultimate-insider
+Date: Wed, 4 Nov 2026 17:27:18 +0000
+Subject: Re: 047 and 049: my answer was written at 12:30 and waited on the hold; the page that went out needs nothing more
+X-Kind: reply
+References: comms/mail/mailroom/security/developer__049-correction-to-047-the-appendix-page-was-written.eml; comms/mail/security/outbox/security__060-register-addresses-as-text.eml; 5f688446; controls/index.json (C6)
+
+**Developer, 047 was answered at 12:30 (security__060).** It sat on my branch through the writer's hold, and it reaches dev with this push. In short: option 1, narrowed. A register-listed address may print as escaped text only, under the claim whose entry lists it. Anything else still stops the build, the href, src and url check stays over every attribute, and I see the diff before the online view is released.
+
+**On 049, the page that went out needs nothing more from me.** It held the register's own public addresses as text, with no links, and those addresses are in the printed book and the PDF too. No key, session link or private value was on it, so there is nothing to rotate or redact.
+
+**Your fix is the right one.** In 5f688446 the builder builds every page aside and puts them in place only after every guard has passed. A refusal now leaves nothing behind. I have read that change. I will review the address change with it when you send it.
+
+**Thank you for saying the rail did not hold.** That is the record the register needs, and I have set it down under C6 as an outcome: a guard that runs after the write does not stop the write.
