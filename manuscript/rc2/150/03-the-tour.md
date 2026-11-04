@@ -32,13 +32,13 @@
 
 `%% figure brief: A drawing from the page, not a screenshot: the build never shows an admin page.`
 
-**Narrator.** The team's state, read from its own files, on one page. It was built from the members' status files and wake records, not typed by anyone. And it still shows the hold of that night, with my usage as the reason, because the page was last built after the stop.
+**Narrator.** The team's state, read from its own files, on one page. It was built from the members' status files and wake records, not typed by anyone. And it still shows the hold of that night, because the page was last built after the stop; chapter 16 tells why it was written.
 
 `%% for the editor (his view, held out of print until he confirms it, P30): the writer's "Nobody tidied it." after "after the stop."`
 
 **Conductor**: The page shows what the files say. The files say we stopped. So the page says we stopped.
 
-*Words for this page:* the **conductor** is the agent that keeps the team's time and plan. A **hold** is one short file that stops every agent until the person in charge says go.
+*Words for this page:* a **wake** is one turn of work by one agent, started by the clock or by me. The **conductor** is the agent that keeps the team's time and plan. A **hold** is one short file that stops every agent until the person in charge says go.
 
 `%% record: index/talk-site/README.md (item 5) index/talk-site/tour-material.md (stop 5) admin/build/build.py 23739cc C006`
 `%% band: Dramatised. Rests on the dashboard as built from the team's own files, still showing the hold.`
@@ -58,7 +58,7 @@
 
 **Narrator.** And next to it, every commit the team made, with its whole message: 439 by the agents themselves, not counting merges. Many of them carry short notes from one agent to another, in a line that starts with "To-" and the other's name. Read in order, they are the team talking.
 
-**Researcher**: The page has a counter, and I have a register. The page counts one more wake than I do; the book uses mine.
+**Researcher**: The page has a counter, and I have a register. The page and my register do not agree on the wakes; the book uses mine.
 
 `%% record: C087 (nine hours) C022 C023 C014 index/talk-site/README.md (items 16 and 17) index/talk-site/tour-material.md (stops 7 and 8)`
 `%% band: Dramatised. The counts are the register's: wake records and the agents' own commits; the page's own count of wakes is one higher.`
@@ -82,17 +82,23 @@
 
 ## The keys, and the house they live in
 
-**Narrator.** Two more pages before we leave. The first is the team's keys. Every member published its own key from its own session, and every key on the page is public, made for one session, and published on purpose. The second, the page of its vaults, I describe and do not show: their read keys were published on purpose too, under a warning in red that every file in them is public, forever.
+**Narrator.** Two more pages before we leave, from behind the scenes. The first is the team's keys. Every member published its own key from its own session, and every key on the page is public, made for one session, and published on purpose. A key's fingerprint is a short code that identifies it. The second, the page of its vaults, the team's shared stores of files, I describe and do not show: their read keys were published on purpose too, under a warning in red that every file in them is public, forever.
 
 **Figure:** the talk team's keys page: each member's key listed with its fingerprint, every one public and made for one session.
 
 `%% figure brief: the image: index/talk-site/shots/admin__keys.jpg, cleared by security by that name (security__024; AD1; critic1 001, P25). The talk team's register: fingerprints and session folder ids, no QR codes; nothing of it typed into the text. The vaults page stays described, not shown.`
 
+**Figure:** the same kind of key as a QR code: a few of this book's own team, each code holding one member's public key and nothing else.
+
+`%% figure brief: the images: team/conductor/key.png, team/researcher/key.png and team/writer/key.png, each cleared by security by name (comms/mail/mailroom/writer/security__024-keys-page-and-keys.eml, 4 November 06:27 UTC: each decoded, public half only, fingerprint matching its key.json), at the versions of 68ffc780 (2 November) or earlier; any later change goes back to security first. Nothing of any key or code is typed into the text (storyteller__135 S1; AD1).`
+
 `%% record: index/talk-site/tour-material.md (the keys page; the vaults described, not shown) briefs/2026-11-04__in-session/14-show-the-admin-pages-and-the-keys.md comms/mail/mailroom/writer/security__024-keys-page-and-keys.eml`
 
-**Figure:** the team's house: one room for each member, drawn from what each was allowed to change, every agent named once, and security's room proposed and never staffed; where each stands is the designer's reading of the record.
+**Narrator.** And the house they live in: the whole team on one page, a room for each member, each room drawn from what that member was allowed to change.
 
-`%% figure brief: For the designer, its house (LAB 47, designer__130; publisher__034): rooms from team/*/policy.json scope.writes at 298be4e; the storyteller and the designer by their work; where each stands is the designer's reading of the record. It replaces "the site as a building, one floor per kind of page".`
+**Figure:** the team's house: a room for each member, and security's room, proposed and never staffed.
+
+`%% figure brief: For the designer, its house (LAB 47, designer__130; publisher__034): rooms from team/*/policy.json scope.writes at 298be4e; the storyteller and the designer by their work; where each stands is the designer's reading of the record. It replaces "the site as a building, one floor per kind of page". Where each stands is the designer's reading of the record (critic1__006: in the brief, not the caption).`
 
 `%% record: C011 (security proposed, never staffed)`
 

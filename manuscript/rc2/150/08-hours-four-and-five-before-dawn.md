@@ -8,9 +8,9 @@
 
 ## Every member on its own minute
 
-**Narrator.** Hour four was the clock taking over. It is the first hour in which every member that existed but the researcher woke at its own minute; the researcher's first came early in hour five. The conductor's first scheduled wake with a record made deck's programme of experiments the team's queue. Deck's first scheduled wake followed, then ruv-sgit's second, with deck's first experiment delivered in two versions.
+**Narrator.** Hour four was the clock taking over. It is the first hour in which every member that existed but the researcher woke at its own minute, still with me in the sessions; the researcher's first came early in hour five. When the conductor woke on the clock for the first time, it took the list of experiments deck had planned and made it the whole team's to-do list. Deck's first scheduled wake followed, then ruv-sgit's second, with deck's first experiment delivered in two versions.
 
-**Narrator.** And yet most of the hour's wakes were still mine. I was in the sessions, asking. The schedule ran beside a present editor, not instead of one. The card has the hour.
+`%% for the designer: chapter 7 tells the editor still in the sessions (critic5 002, P21); the two cards of wakes by trigger could become one strip across hours three and four, the designer's call.`
 
 **Figure:** a card, hour four's wakes by trigger: those the schedule started and those I started.
 

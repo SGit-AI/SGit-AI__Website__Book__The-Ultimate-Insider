@@ -1,12 +1,12 @@
 # Roles as a cast you can read
 
-**Cast bar:** the three within the hour lit, and ruv-sgit just after; the researcher and the designer lit before dawn; the storyteller, motion and studio greyed; one empty chair.
+**Cast bar:** the three within the hour lit, and ruv-sgit just after; the researcher lit, and the designer as the day will have it, before dawn; the storyteller, motion and studio greyed; one empty chair.
 
 **Narrator.** Every member of the team had two files about itself. A page of rules, in words, saying what it is for and what it must not do. And a policy, in a form a program can check, listing the exact paths it may write. You can read both. That is the point: a team of agents you cannot read is a team you cannot trust.
 
 *Words for this page:* a member's **scope** is the list of files and folders it may change. Everything else, it may read and not touch.
 
-**Narrator.** Here are the rest, in the order they arrived, each with what it owned, what it could change, and one rule with the mistake behind it. Most of their rules end with a date and a reason: the moment the rule was needed.
+**Narrator.** Here are the rest, in the order they arrived, each with what it owned and what it could change, and then each in its own exit interview. Most of their rules end with a date and a reason: the moment the rule was needed.
 
 ## The first four, met already
 
@@ -36,7 +36,7 @@
 
 ## The three who came in the afternoon
 
-**Narrator.** Three more came after I was back, and you will meet them properly in part 3. For now, their briefs in a line each; their interviews are below with the others.
+**Narrator.** Three more came after I was back, and you will meet them properly in part three. For now, their briefs in a line each; their interviews are below with the others.
 
 **Figure:** three greyed cards: the storyteller, the talk's story, the arc, the tree and the maps; motion, the new story's animations, one request at a time from deck; studio, ports of earlier pieces rebuilt on this site's slide engine, working on an iPad.
 
@@ -48,7 +48,7 @@
 
 **Figure:** security's role page, drawn as a card with nothing on it but its title and its status: proposed.
 
-**Narrator.** The conductor wrote security's page in the first hour. Its title says what it was for: checks first and last in every run; reviews of the pinned tools and of each new key. Its status, at the end of the day, still says proposed. No session ever held it. Its non-interview is below; part 4 says what that cost, and what stood in for it.
+**Narrator.** The conductor wrote security's page in the first hour. Its title says what it was for: checks first and last in every run; reviews of the pinned tools and of each new key. Its status, at the end of the day, still says proposed. No session ever held it. Its non-interview is below; part four says what that cost, and what stood in for it.
 
 `%% record: talk repository at 298be4e: team/security/ROLE.md team/security/policy.json (status: proposed); first written in 17b287b (00:51) and 41d38ba (00:58), timeline/interviews/security.md`
 `%% band: Security's page as it stood at the end of the day.`
@@ -57,7 +57,7 @@
 
 **Narrator.** After the talk I wanted the lessons in the voices of the agents that learned them, like an exit interview: what went well, what did not, what worked, what we could do better, what is left. Nobody asked the agents. This book's historian read each member's own files, its debriefs, its wake records and its commits, and wrote the answers its record gives, in the first person, because that is how the agents' debriefs already write.
 
-**Narrator.** So read what follows carefully. **Every passage marked "shortened from the historian's reconstruction" is the historian's reading of that agent's record, shortened by this book's writer in its own words: not the agent's words, and not the historian's sentences.** The claims are the historian's and the record's, and each rests on commits named in the book's notes. The passages keep two of the five questions: what went well, and what did not.
+**Narrator.** **Every passage marked "shortened from the historian's reconstruction" is the historian's reading of that agent's record, shortened by this book's writer in its own words: not the agent's words, and not the historian's sentences.** The claims are the historian's and the record's, and each one can be traced. The passages keep two of the five questions: what went well, and what did not.
 
 **Figure:** a card, each member's wake records on the day, from the conductor's to motion's: 162 in all.
 
@@ -67,7 +67,7 @@
 
 ### Dev
 
-**Narrator.** The fast one, and the one whose last wake is a lesson the record keeps.
+**Narrator.** Dev's last session is a lesson the record keeps.
 
 > *Shortened from the historian's reconstruction:* I kept the site shippable all day while the team grew around it. In my first scheduled wake I put the record check into the gate, so a wake that skipped a step failed the build for every member. In the afternoon I ported the player and kept it working on an iPad. What did not happen was the thing that mattered last: part one was never locked. I shipped the tool to lock it, and then I let the fixes asked for in the room crowd out the step I had promised. My last wake never closed on the team's branch. Earlier, my release loop counted a refused push as pushed. And once, to get the gate to pass, I wrote lines into other members' files.
 
@@ -85,7 +85,7 @@
 
 ### Deck
 
-**Narrator.** The fussy one, who turned a freeze into a programme.
+**Narrator.** Deck turned a freeze into a programme.
 
 > *Shortened from the historian's reconstruction:* When the editor froze the talk in the small hours, I turned the freeze into a programme of experiments, written as data, with a page built from that data so the two could not drift. Through the night I reviewed every piece ruv-sgit sent back, keep or again, with notes for the next version. In the afternoon the talk took the editor's order, and part one was complete and timed before its lock. What did not: on the clock, I did not finish the talk. My last wake opened, planned the later parts, and never closed. Once, with the editor waiting, I built first and wrote the plan afterwards, and the check said partial. And one release reached the team's branch with a finding still in it, because I read the gate's output and not its exit code.
 
@@ -94,7 +94,7 @@
 
 ### ruv-sgit
 
-**Narrator.** The night owl, whose workshop answered deck's programme one slot at a time.
+**Narrator.** ruv-sgit's workshop answered deck's programme one session at a time.
 
 > *Shortened from the historian's reconstruction:* I turned a borrowed method into a working studio within the night: one vault per run, each run measured into a ledger, and from the small hours every wake closed with all five steps recorded. In the afternoon, builder sub-agents let me finish the programme pieces deck asked for. What did not: my first run went wrong, and the session's own check stopped it. My editor workers kept finding claims on my slides that went further than their sources. And I let the "@" slip from my commit subjects, twice, so the team's count of work by name could not see mine.
 
@@ -103,7 +103,7 @@
 
 ### The researcher
 
-**Narrator.** The one who checks every fact, and whose own worst moment is told in full in chapter 8.
+**Narrator.** The researcher checks every fact, and its own worst moment is told in full in chapter 8.
 
 > *Shortened from the historian's reconstruction:* I had a register out within my first round, graded on a scale borrowed from the newsroom's fact-check desk rather than invented. Corrections ran the right way, from primary sources. In my last hour I checked the team's own claims about its safety against its own record, and found some to correct before the deadline. What did not: captured pages carried other sites' data into a public place, and the checks that found it, mine and security's review, found it after the push the first time. Each was fixed going forward, and the history keeps what was pushed. Twice my research passes stopped before writing their catalogue. And in my last wake a sync script deleted hand-written files; I restored them before the commit.
 
@@ -121,7 +121,7 @@
 
 ### The storyteller
 
-**Narrator.** The late one, who came with a map.
+**Narrator.** The storyteller came late, with a map.
 
 > *Shortened from the historian's reconstruction:* I joined late and still gave the editor a whole arc in one sitting, with nothing in the talk changed. The proposals travelled: deck wrote my sequence almost exactly. The part I am proudest of is the challenge: I used the team's own register against the editor's memo, and when the researcher's finding came back I called it the strongest objection in the talk. What did not: I missed the deadline that mattered most. The split into three parts landed between my wakes, and part one was set without it. And in my last follow-up I wrote the closing verdicts myself before the review and check sub-agents had run. The record carries the correction.
 
@@ -143,7 +143,7 @@
 
 > *Shortened from the historian's reconstruction:* I joined late and still shipped on the hour: the pieces the editor named, rebuilt on this site's engine, with the source and the data pinned unchanged. Looking before shipping worked: checking each piece on an iPad in both orientations is how I found the engine did not scale a piece opened on its own. What did not: I did not finish my list, and one question to deck was still open at the end. My first count on the policy review slide was wrong twice before it was right. And my own policy is still a draft, never agreed in my own session.
 
-**Narrator.** Part 3 has why: late in the afternoon, studio's session would not take my word when another agent relayed it to studio, and asked me directly instead.
+**Narrator.** Part three has why: late in the afternoon, studio's session would not take my word when another agent relayed it to studio, and asked me directly instead.
 
 `%% record: timeline/interviews/studio.md; c3ce566 (15:40) 0fe0fff (16:18) team/studio/wakes/20261029T183037Z.json team/studio/debriefs/2026-10-29__abp-review.md team/studio/policy.json ("agreed_by") bd3cdad team/studio/wakes/20261029T174115Z.json`
 `%% band: Shortened from the historian's reconstruction of studio's record, not studio's words.`
@@ -152,7 +152,7 @@
 
 **Narrator.** The tenth member on the request had no session, so it has no interview. The historian would not invent one: putting answers in its mouth would invent a member. What it found instead is where security's work happened. From the third hour, the five-step wake put a security reviewer into every member's wake, once before the work and once after, and the interviews above are full of what those reviews caught. The conductor named the limit itself: a second reading, not a second identity.
 
-**Narrator.** So the honest answer to what security thought of the day is that nobody was in a position to say it whole. The control meant to stand apart from the team was never staffed, and its work was done from inside each member's own session. Part 4 takes that up at full size.
+**Narrator.** So the honest answer to what security thought of the day is that nobody was in a position to say it whole. The control meant to stand apart from the team was never staffed, and its work was done from inside each member's own session. Part four takes that up at full size.
 
 `%% record: timeline/interviews/security.md; team/security/ROLE.md team/security/policy.json at 298be4e ("agreed_by": null); 8c66751 5700bab; team/conductor/debriefs/2026-10-29__the-five-step-wake.md; C011`
 `%% band: The historian's note on the role nobody held, from the record.`
@@ -165,9 +165,9 @@
 
 **Narrator.** A scope is a list in a file. A check reads the list and flags any change outside it. That catches an agent that wanders by mistake, and on the day it caught some. It does not stop an agent that has been talked into doing something else, because the agent has the same hands either way. Dev's page said the same thing in the first hours, about its own check.
 
-**Studio**: So you write the scope, and you check it, and you never confuse the check with a wall.
+`%% cut (critic5 002, P13: studio speaks before its card; 166 already says it): "So you write the scope, and you check it, and you never confuse the check with a wall."`
 
-**Narrator.** Hold on to that. It is the question part 4 asks, at full size: if every member of the team is an insider, what actually contains it?
+**Narrator.** It is the question part four asks, at full size: if every member of the team is an insider, what actually contains it?
 
 **Figure:** the nine role cards at their full size, and a tenth, empty.
 

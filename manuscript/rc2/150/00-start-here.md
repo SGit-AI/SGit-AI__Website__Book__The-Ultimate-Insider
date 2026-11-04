@@ -12,19 +12,21 @@
 4. Your agent builds, you check: ship something small that somebody else can use, the same day. Then do it again.
 5. A second agent only when the first is busy; and if others join, share one brief, one board (a shared list of who is doing what) and one hold (a single file that stops every agent until you say go).
 
+**Narrator.** Chapter 23 gives the five steps in full, with what each rests on.
+
 **Figure:** the five steps as a path, from an empty project to a second agent, numbered stones only; the words stay in the text above.
 
 `%% figure brief: For the designer. The path carries the numbers 1 to 5 and no words, so nothing is said twice (his note, brief 03). The printable checklist is at the end of chapter 23.`
 
 ## The book as a map
 
-**Narrator.** The book has five parts. Read it the whole way through, or take the short way: this page, then part 5, then back to the start.
+**Narrator.** The book has five parts. Read it the whole way through, or take the short way: this page, then part five, then back to the start.
 
-- **Part 1. The creator's problem** (chapters 1 to 3): why slides were never enough, and what a factory of agents made in a day.
-- **Part 2. The factory is assembled** (chapters 4 to 8): the first five hours, the rules written and the cast arriving.
-- **Part 3. The factory runs** (chapters 9 to 15): nine hours with nobody starting work, then my return and the afternoon.
-- **Part 4. The factory is stopped** (chapters 16 to 19): the hold, what did not work, what contains a team of insiders, and a second team reading cold.
-- **Part 5. The factory rebuilt, and yours** (chapters 20 to 23): this book's own team, the next one, and the steps for yours.
+- **Part one. The creator's problem** (chapters 1 to 3): why slides were never enough, and what a factory of agents made in a day.
+- **Part two. The factory is assembled** (chapters 4 to 8): the first five hours, the rules written and the cast arriving.
+- **Part three. The factory runs** (chapters 9 to 15): nine hours with nobody starting work, then my return and the afternoon.
+- **Part four. The factory is stopped** (chapters 16 to 19): the hold, what did not work, what contains a team of insiders, and a second team reading cold.
+- **Part five. The factory rebuilt, and yours** (chapters 20 to 23): this book's own team, the next one, and the steps for yours.
 
 **Figure:** the five parts as stops on one route, the chapters beneath each stop, with two routes marked: the whole way through, and the short way.
 

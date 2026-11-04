@@ -6,7 +6,7 @@
 
 `%% clock record: 00:00 to 00:59 on 29 October; the empty repository at 00:16, dev's first pass at 00:40, the conductor at 00:44, deck at 00:51; clock hours of 29 October (C110; the conductor's CK1).`
 
-**Narrator.** The first hour was setup. Then the first pass of the talk arrived in one go, and a few minutes later an agent proposed the team that would carry it. Everything it proposed was marked "proposed". Nothing was created, nothing was scheduled. It waited for me to say yes.
+**Narrator.** The first hour was setup, before anyone slept. The project stayed empty for less than half an hour; then the first pass of the talk arrived in one go, and a few minutes later an agent proposed the team that would carry it. Everything it proposed was marked "proposed". Nothing was created, nothing was scheduled. It waited for me to say yes.
 
 `%% for the editor (his view, held out of print until he confirms it, P30): the newsroom's "Every project I have started begins the same way: an empty folder and a decision about what goes in first." before the paragraph; "I like that" before "everything it proposed"; and "which is exactly what I want from an agent on the first night" after "to say yes".`
 
@@ -49,6 +49,14 @@
 
 `%% for the editor (his view, held out of print until he confirms it, P30): the newsroom's "The shorter page winning is a small thing, and a good sign. Rules people actually read are short."`
 
+**Important concept: the team's folder.** Every member had a folder of its own in the project: its page of rules, its policy (the paths it may change, written so a program can check them), its status, its notes, and the record of every session it ran. Everything the team knew about itself lived in those folders, in the open, where anyone could read it, me included.
+
+**Figure:** one member's folder, opened: its page of rules, its policy, its status, its notes and its session records.
+
+`%% figure brief: For the designer, the folder concept callout (LAB 48, the cast guide's convention 5; storyteller__135 S10), the picture in its column. No key, session or task line. The publishing flow's callout belongs where the first release lands (chapter 5 or 7); not here.`
+
+`%% record: talk repository at 298be4e: team/*/ (ROLE.md, policy.json, status.json, debriefs/, wakes/); 17b287b (the conductor's line: the team lives in its own folder); manuscript/rc2/150/06-roles-as-a-cast-you-can-read.md (two files about itself)`
+
 `%% traced (historian__020, 021, corrected in 030; rechecked in 056): dev committed the first page at 00:40; the conductor wrote its own in parallel at 00:44 (97b98d9); at the merge of 00:51 (17b287b) dev's page stayed, word for word, with two of the conductor's lines added; nothing shows the editor writing it.`
 `%% band: The page of rules as it stood in dev's first commit at 00:40, shown as a card with one line on page layout left out.`
 
@@ -60,6 +68,8 @@
 
 *On stage from 00:40. Commits: 64. Wakes: 22.*
 
+*Words for this page:* the **gate** is the check every change must pass before it goes out.
+
 **Narrator.** Dev's page of rules says what stands between the agent and each thing it must not do, and how strong that is. Pushing to the main branch: an expectation. Writing another member's files: a setting, which a check catches. Its own words for that check: it "catches mistakes, not a steered agent".
 
 `%% for the editor (his view, held out of print until he confirms it, P30): the writer's "does something I wish every page did:" after "Dev's page of rules".`
@@ -68,7 +78,7 @@
 
 `%% figure brief: the card's placing: beside its first scene (writer2__021: the stage label would print).`
 
-**Conductor**: Hey, I'm the conductor. I joined just after dev, and by the end of the hour I had a key and the banners. The schedule, the keys and the session conventions are mine. I may change my own folder, the team's tools and the team's guides. I route the mail. I propose; the editor agrees or drops.
+**Conductor**: Hey, I start as the session that proposes the team, just after dev; by the end of the hour I am the conductor, with a key and the banners. The schedule, the keys and the session conventions are mine. I may change my own folder, the team's tools and the team's guides. I route the mail. I propose; the editor agrees or drops.
 
 *On stage from 00:44. Commits: 106. Wakes: 43.*
 
@@ -170,7 +180,7 @@
 
 `%% figure brief: the card's placing: beside its first scene, at the workshop bench (writer2__021: the stage label would print).`
 
-**ruv-sgit** *(not looking up from the workshop bench)*: Hey, I'm ruv-sgit, and I arrive just after the first hour. Animations and moving infographics, made in my own runs. I may change my folder and my pages. One rule I learned the hard way: the container is ephemeral. Seal what you keep, or say what you lost, before the session ends.
+**ruv-sgit** *(not looking up from the workshop bench)*: Hey, I'm ruv-sgit, and I arrive after the others, at the workshop bench. Animations and moving infographics, made in my own runs. I may change my folder and my pages. One rule I learned the hard way: the container is ephemeral. Seal what you keep, or say what you lost, before the session ends.
 
 *On stage from 01:08. Commits: 84. Wakes: 20.*
 
