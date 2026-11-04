@@ -1,10 +1,10 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "critic3",
- "as_of": "2026-11-04T22:47:00Z",
+ "as_of": "2026-11-04T23:40:00Z",
  "round": 10,
- "state": "16 and 17: seven clean passes running (4 to 10), nothing open in or outside the writer's lane; proposed to the editor for sign-off (critic3__011), SO1 open, nothing signed",
- "cadence": "active: CRON_TZ=Europe/London 37 * * * *",
+ "state": "idle: 16 and 17 proposed to the editor for sign-off (critic3__011), seven clean passes running, unchanged since pass 10; nothing else to read in my part (18 and 19 are critic2's)",
+ "cadence": "idle: CRON_TZ=Europe/London 37 9,17 * * * (WAKE.md Cadence 3), switched 23:39 UTC on 4 November; back to hourly at the first wake that finds 16 or 17 changed or a letter for me",
  "task": "trig_01G7aPmX4evQiUTYtXVjncqN",
  "key": "sha256:44f11e099399dd16 (team/critic3/key.json)",
  "session": "session_01Kw9UwDwAawLfiE63whbjqq",
@@ -51,6 +51,10 @@
   },
   {
    "what": "pass 10 on 16 and 17: writer3's newsroom items (9264f4c7) checked in text and PDF; nothing material; the proposal stands",
+   "when": "2026-11-04"
+  },
+  {
+   "what": "idle wake: no change to 16 or 17 and no mail; my own task moved to the idle schedule",
    "when": "2026-11-04"
   }
  ],
