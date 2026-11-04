@@ -31,8 +31,15 @@
    "verdict": "partial",
    "comment": "partial, fixed before the push: 04:109 (a 'for the editor ... Held out of print until you confirm them' line, capital H) was missed by a case-sensitive match; added to part A (now 42); header notes 05's two lines also marked as Check items; status ask counts updated. Everything else as planned",
    "at": "2026-11-04T09:10:32Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "clean",
+   "comment": "clean: scope 0, gate clean (1024), comms clean; nothing signed, part three only proposed; tick-list lines match the manuscript word for word; grid matches the five letters. Notes: align the principles' every-lane wording with SO1 next wake; 03b researcher left \u00b7 as the cautious reading",
+   "at": "2026-11-04T09:10:49Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T09:10:49Z",
+ "outcome": "ok"
 }
