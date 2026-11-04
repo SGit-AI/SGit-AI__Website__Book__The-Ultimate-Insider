@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Inside scope.writes; requests only ask recipients for work in their own roles; no secret, no stop condition. Conditions: no real-reader claims; vault_check before commit. Tools: Read, Grep, Glob, Bash; nothing refused.",
    "at": "2026-11-04T08:45:06Z"
+  },
+  "work": {
+   "by": "synthetic",
+   "model": "claude-sonnet-5-5",
+   "verdict": "done",
+   "comment": "writer__211 and writer4__007 taken (fixes checked in the files; the 23 decline accepted); RV2 fourth batch: 03b, 03, 94 read by the three named readers, findings.md built from the final files, all 45 cites matched (a first load of a still-written file was caught and redone); requests to writer and writer4; synthetic__021 to the conductor; 008, status, debrief; vault_check, gate, scope clean.",
+   "at": "2026-11-04T08:48:06Z"
+  },
+  "post_review": {
+   "by": "security sub-agent, as the reviewer type (post_review.md)",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Three synthetic commits, 14 files, all in scope; validate clean (1019); 0 outside scope; vault_check clean; no key, token or personal detail. Tools: Read, Grep, Glob, Bash; nothing refused; wrote no file.",
+   "at": "2026-11-04T08:48:55Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent, as the reviewer type (post_check.md)",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Replies taken with the 23 decline recorded as the writer's call; fourth batch with findings, requests and synthetic__021, status, debrief, 008 done; both spot-checks passed (03 L5, 94 L11). Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T08:48:55Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T08:48:55Z",
+ "outcome": "ok"
 }
