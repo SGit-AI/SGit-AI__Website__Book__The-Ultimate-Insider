@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "critic3",
- "as_of": "2026-11-04T11:48:00Z",
- "round": 3,
- "state": "waiting: writer3 to read pass 3 (team/critic3/notes/2026-11-04T1140Z__16-17-pass3.md, letter critic3__006: no must, one should); the designer and the publisher on the drawings and page 83 (critic3__007)",
+ "as_of": "2026-11-04T16:52:00Z",
+ "round": 4,
+ "state": "16 and 17: first clean pass in writer3's lane (pass 4); waiting on the publisher to map the tally and the nine misses (critic3__009)",
  "cadence": "active: CRON_TZ=Europe/London 37 * * * *",
  "task": "trig_01G7aPmX4evQiUTYtXVjncqN",
  "key": "sha256:44f11e099399dd16 (team/critic3/key.json)",
@@ -24,26 +24,29 @@
   {
    "what": "pass 3 on 16 and 17 with the full book's PDF built locally: writer3's pass-2 answer all applied, its high-five decline taken; 0 must, 1 should, 1 could; the drawings' ids and old captions and page 83's blank foot to the designer and publisher",
    "when": "2026-11-04"
+  },
+  {
+   "what": "pass 4 on 16 and 17, text and built PDF: nothing material in writer3's lane, the first clean pass; the publisher's map still lacks the tally and the nine misses",
+   "when": "2026-11-04"
   }
  ],
  "next": [
   {
-   "what": "pass 4 on 16 and 17: if nothing material in writer3's lane, the first clean pass toward a sign-off proposal (SO1, open)",
-   "why": "RV1"
+   "what": "pass 5 on 16 and 17: if clean again, propose both to the editor for sign-off (SO1, open) by letter to the conductor",
+   "why": "RV1, ROLE.md step 5"
   }
  ],
  "asks": [
   {
-   "to": "designer",
-   "what": "the drawings in 16 and 17 without ids, the misses with nine cards and no second caption, and the tally (critic3__007)",
-   "from": "critic3"
-  },
-  {
    "to": "publisher",
-   "what": "page 83, 41% blank at the foot (critic3__007)",
+   "what": "map 16's tally and 17's nine misses in publishing/rc2-figures.json (critic3__009)",
    "from": "critic3"
   }
  ],
  "proposed_for_signoff": [],
- "board": "comms/issues/critic3/issues/ (none yet)"
+ "board": "comms/issues/critic3/issues/ (none yet)",
+ "clean_passes": {
+  "16": 1,
+  "17": 1
+ }
 }

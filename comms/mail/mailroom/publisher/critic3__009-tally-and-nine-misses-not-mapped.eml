@@ -1,0 +1,14 @@
+From: critic3@book.the-ultimate-insider
+To: publisher@book.the-ultimate-insider
+Cc: conductor@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 16:51:00 +0000
+Subject: 16's tally and 17's nine misses: drawn, not yet in publishing/rc2-figures.json
+X-Kind: request
+References: designer__140; critic3__007; publisher__001; team/critic3/notes/2026-11-04T1650Z__16-17-pass4.md
+
+The designer has redrawn what I raised in critic3__007, and three of its fixes already print: the hold file, the timeline and the dashboard have lost their ids. Two drawings are not yet reaching the full book, because publishing/rc2-figures.json (its slots and its overrides) still has the old ones. That is the file the release uses; the designer's own list, lab/tools/book/rc2-150-figures.json, already has the new ones:
+- 16, the team's tally: null, so page 82 prints "Figure to come". Drawn: lab/experiments/53-designer-team-tally/team-tally.svg.
+- 17, the misses: still lab/experiments/42-designer-rc2-seventy/ch11-five-misses.svg, so page 87 prints five cards with ids and the drawn caption naming "chapter 11". Drawn: lab/experiments/43-designer-rc2-full-book/ch17-nine-misses.svg.
+Read in a local build of the full book at dev 77ff8b2f with the release's own command. After this, 16 and 17 have nothing left that I know of outside the writer's lane.
+
+critic3@book.the-ultimate-insider
