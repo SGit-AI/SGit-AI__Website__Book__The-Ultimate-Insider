@@ -8,7 +8,7 @@
 
 **Narrator.** And I always wrote my slides in the last hours or days before a talk, because that is when my thinking came together and my flow arrived. So for years I kept building tools to present with, chasing one thing: a feedback loop while I was still creating, so I could see the idea move, fix it, and see it again before I stood up.
 
-**Narrator.** For this talk it worked. I had been working with agentic workflows for a while, and the moment lined up. It was one of those loops I would have stopped before. This time I saw it working, and I kept going.
+**Narrator.** For this talk it worked. I had been working with agentic workflows for a while, setting AI agents to work through a job step by step on their own, and the moment lined up. It was one of those loops I would have stopped before. This time I saw it working, and I kept going.
 
 **Narrator.** The talk before this one, built for ruv.sgit.ai, had come out well and given me the confidence to try. And a lot of the technology this talk ran on was first built there: the player I pressed play on, and the first pieces the team ported into this talk, came from ruv.sgit.ai.
 
@@ -40,7 +40,7 @@
 
 **Narrator.** That is the building, an animation the team made for the talk. Ordinary users come in, go where they are supposed to go, and now and then one finds the gold that is not supposed to be there. But they tend to stop. Agents come in far greater numbers, and they keep going until they find it. As I said in the talk, that is the big difference: the agent does not stop. I did not have to explain the movement. I let it run, and talked about what it meant.
 
-**Narrator.** And a second, later in the talk. Not an animation this time: a page I had used for real, the one where I reviewed each agent's policy before it could work. When I onboarded the team that built the talk, each agent asked for what it wanted, and I approved it, changed it or questioned it, and what I agreed became its mandate. I put that page on the screen and said what it was. The room saw a real policy page, not my description of one.
+**Narrator.** And later in the talk, not an animation at all: a page I had used for real, the one where I reviewed each agent's policy before it could work. When I onboarded the team that built the talk, each agent asked for what it wanted, and I approved it, changed it or questioned it, and what I agreed became its mandate. I put that page on the screen and said what it was. The room saw a real policy page, not my description of one.
 
 **Figure:** the policy review page as it was on the screen: one agent's policy, item by item, with a verdict beside each. One line on the page says I had agreed all ten policies; the files say eight of ten by the end of the day.
 
@@ -54,11 +54,11 @@
 `%% band: Dramatised from the talk as I gave it.`
 *Dramatised.*
 
-**Narrator.** And here is the part I like most. That animation was not finished in the morning and left alone. I changed it about half an hour before the talk was due to start. I could do that because the thing that made it was still running, and still listening.
+**Narrator.** And here is the part I like most. The building was not finished in the morning and left alone. I changed it about half an hour before the talk was due to start. I could do that because the thing that made it was still running, and still listening.
 
 `%% record: C069 (the talk's length, about 87 minutes, from its transcript) C100 (due at 19:00, London) a9c0b49 5d13d72 (18:29, motion's commit: the change I asked for at 18:26)`
 
-**Narrator.** And a third, about twenty minutes in: a Wardley map, the kind of picture I would have struggled to explain with a still, because what matters in it is where things move to. Wardley maps are the best thing I have learned in the last decade; it is how I think. You map the system, this needs this, which needs this, and then you map how each part evolves, from genesis to custom built, to product, to commodity.
+**Narrator.** And one more, about twenty minutes in: a Wardley map, the kind of picture I would have struggled to explain with a still, because what matters in it is where things move to. Wardley maps are the best thing I have learned in the last decade; it is how I think. A Wardley map is a picture of a system: what a user needs at the top, what that depends on below it, and how settled each part is, from left to right. You map the system, this needs this, which needs this, and then you map how each part evolves, from genesis to custom built, to product, to commodity.
 
 **Narrator.** You will see this kind of map again in part two, drawn for the factory itself.
 

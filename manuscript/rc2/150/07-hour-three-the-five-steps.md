@@ -1,4 +1,4 @@
-# Hour three: the five steps, and the first to be caught
+# Hour three: every wake read twice, and the first to be caught
 
 **Cast bar:** the conductor at the centre; dev, deck, ruv-sgit and the researcher around it; the editor in every session.
 
@@ -10,13 +10,13 @@
 
 **Narrator.** By two in the morning the team had a clock and a hold. What it did not have was a rule for what happens inside a wake. In this hour the conductor wrote one, and the first wake to follow it was the wake that wrote it.
 
-*Words for this page:* a **reviewer** is a second agent that reads the plan before the work and the result after it. A **wake record** is the file each wake leaves behind, with every step's verdict and a sentence on why.
-
-**Narrator.** I asked for a rule for what happens inside a session, and the conductor wrote one within the hour. Within minutes its tool would refuse work until both the plan and its review said go, and the steps were in the wake rules, with a brief for each reviewer.
+**Narrator.** I asked for a rule for what happens inside a session, and the conductor wrote one within the hour: the wake's five stages. Within minutes its tool would refuse work until both the plan and its review said go, and the stages were in the wake rules, with a brief for each reviewer.
 
 `%% for the editor (his view, held out of print until he confirms it, P30): the newsroom's "not because I expected the agents to misbehave" (critic5 002).`
 
 **Conductor** *(on the minute)*: Plan it, have the plan checked, do it, have it checked, check it went to plan. And the tool will not let anyone skip to the third.
+
+*Words for this page:* a **reviewer** is a second agent that reads the plan before the work and the result after it. A **wake record** is the file each wake leaves behind, with every stage's verdict and a sentence on why.
 
 `%% record: team/conductor/wakes/20261029T021416Z.json (opened 02:14:16) 8c66751 (02:16, wake.py: work refused before plan and pre-review both say go) 5700bab (02:18, the steps in WAKE.md, the review briefs, wake.py check) timeline/day/02.md`
 `%% band: Dramatised (the conductor's line). Rests on the first wake record and the two commits that built the steps.`
@@ -24,25 +24,25 @@
 
 ## One wake, start to finish
 
-**Narrator.** Here is that first wake record, walked through, because it is the first one there ever was and because it did not go perfectly. Its job was to build the five-step wake itself.
+**Narrator.** Here is that first wake record, walked through, because it is the first one there ever was and because it did not go perfectly. Its job was to build the wake's five stages themselves.
 
-**Conductor**: Step one, the plan. I wrote what I would do: the new section in the wake rules, the briefs for the reviewers, a tool that checks every wake record has all five steps, and one line in the page of rules about the five steps, at the editor's word. My first plan went back with conditions. I took every one: "Amended after the pre-review's change, all five conditions adopted". Then it said go.
+**Conductor**: Stage one, the plan. I wrote what I would do: the new section in the wake rules, the briefs for the reviewers, a tool that checks every wake record has all five stages, and one line in the page of rules about the wake's five stages, at the editor's word. My first plan went back with conditions. I took every one: "Amended after the pre-review's change, all five conditions adopted". Then it said go.
 
 `%% record: the record keeps that first "change" with a later time stamp than the "go", 02:17 against 02:16; the debrief tells it in the order here (moved out of the reading text, P4).`
 
-**Narrator.** *Step two, the pre-review.* A second agent, briefed as security, read the amended plan against the conductor's scope and the rules. Its verdict was go, with conditions of its own: keep the line in the page of rules named as outside the conductor's scope, check before touching any vault, ask dev rather than editing dev's gate.
+**Narrator.** *Stage two, the pre-review.* A second agent, briefed as security, read the amended plan against the conductor's scope and the rules. Its verdict was go, with conditions of its own: keep the line in the page of rules named as outside the conductor's scope, check before touching any vault, ask dev rather than editing dev's gate.
 
-**Conductor** *(on the minute)*: Step three, the work: partial. One vault I was meant to register was not on the server yet, so I could not check it, so I did not touch it. The condition held. Partial is a true answer; done would have been a nicer one.
+**Conductor** *(on the minute)*: Stage three, the work: partial. One vault I was meant to register was not on the server yet, so I could not check it, so I did not touch it. The condition held. Partial is a true answer; done would have been a nicer one.
 
-**Narrator.** *Step four, the post-review.* The reviewer read what had changed. It found the build clean, the checks clean, no secret anywhere. And one thing wrong: the conductor had changed the page of rules, a file every member follows and one outside the conductor's own scope. I had allowed it, but the commit did not say so, and the plan had made saying so a condition.
+**Narrator.** *Stage four, the post-review.* The reviewer read what had changed. It found the build clean, the checks clean, no secret anywhere. And one thing wrong: the conductor had changed the page of rules, a file every member follows and one outside the conductor's own scope. I had allowed it, but the commit did not say so, and the plan had made saying so a condition.
 
 *Reviewer (a second agent with a checker's brief, drawn as a clipboard):* "Name it in the debrief or record." *(record)*
 
-**Conductor**: Step five, my own check against my own plan, item by item: the finding answered in the debrief and the closing commit, every condition kept. Verdict: partial, not "as planned". The wake closed partial, and the next commit named the edit. Caught by the reviewer I invented. Good. But know what it is: "a second reading, not a second identity." *(record)*
+**Conductor**: Stage five, my own check against my own plan, item by item: the finding answered in the debrief and the closing commit, every condition kept. Verdict: partial, not "as planned". The wake closed partial, and the next commit named the edit. Caught by the reviewer I invented. Good. But know what it is: "a second reading, not a second identity." *(record)*
 
 **Narrator.** The review caught its own author on the first run. It is also the first entry in the register's list of what the day's post-reviews found and what each fixed.
 
-**Figure:** the wake record as a page: five boxes in a column, each with its step, who ran it, its verdict and its sentence, the finding in step four highlighted; the verdicts of this hour's first wake filled in: go, go, partial, finding, partial.
+**Figure:** the wake record as a page: five boxes in a column, each with its stage, who ran it, its verdict and its sentence, the finding in stage four highlighted; the verdicts of this hour's first wake filled in: go, go, partial, finding, partial.
 
 `%% figure brief: For the designer, from the record word for word. The chapter's picture, as the seventy's chapter 5 drew it.`
 
@@ -116,7 +116,7 @@
 
 ## Something to try
 
-*The five steps only mattered because a check read them.*
+*The wake's five stages only mattered because a check read them.*
 
 *If your agents keep a record of each run, a check that reads it can stop a release when a step is missing. One way to test that check is with a record you know is wrong.*
 
