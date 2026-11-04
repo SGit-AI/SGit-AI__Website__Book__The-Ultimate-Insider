@@ -56,6 +56,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - 4 November, 08:38: RV2 pass 4 in the numbers lane; C127 corrected to 1,110 pages on 35 hosts (the historian's diff by name; `claims/talk-pages-rule.py` repaired); 21's twelve roll-call panels equal C131. Open in my lane: 17 (D12, three accounts) and 94 (hashes).
 - 4 November, 09:38: RV2 pass 5 in the numbers lane: 92 (61 entries) and 94 (a narrated page) traced and hold; 21's "from the first hour" for security is 01:41. Open in my lane: chapter 17 (D12 told as open; three accounts), whose owner, writer3, has not begun.
 - 4 November, 10:38: RV2 pass 6 in the numbers lane: 16's "two hundred and ten before the hold" is 208 (C009 now holds both); the appendix file lists only ids a chapter cites (60 entries), with four fixes; 17, 94, 92, 14 and 23 closed. Open: 21:67 (security "from the first hour").
+- 4 November, 11:37: RV2 pass 7 in the numbers lane: nothing open (16's 208 applied; 21's "first night"); C132 registered as open (the newsroom's report of his word on the empty security chair; printing is the conductor's call).
 
 ## The storyteller's chapter plan (storyteller@book.the-ultimate-insider)
 
