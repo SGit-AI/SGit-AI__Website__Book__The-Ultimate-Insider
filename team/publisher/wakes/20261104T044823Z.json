@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T04:48:23Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; Bash read only)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope: six cleared shots; Something to try kept; fit2 paragraph gaps; --epub-cover and epub.css; trial EPUB to the editor; letters. The round-trip clock waits for a Figure line and the conductor; 'Something to try' as the card's name flagged to the conductor; line height and LAB 46 and try-this.css routed to the editor through the conductor.",
+   "at": "2026-11-04T04:49:51Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Conditions: the six by name only; --epub-cover by realpath under lab/ or publishing/, .png/.jpg, signature checked; epub.css free of url( and @import, checked in the build; the trial EPUB only in the publisher's own session, unchecked (E3), nothing committed. No HOLD.",
+   "at": "2026-11-04T04:49:51Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "--epub-cover (checked) and epub.css cast styles; a trial EPUB to the editor, unchecked, not committed; SHOT_CLEARED plus security 015's six; Something to try kept; fit2 paragraph gaps; figure-name print removed; letters conductor 052, designer 044, developer 004, writer2 001, writer4 001; records",
+   "at": "2026-11-04T04:51:25Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "28 staged in scope; no EPUB, PDF or PNG; --epub-cover by realpath and signature, no escape (a missing file gives a traceback, not the message: cosmetic); the url/@import check reads the combined css; six names exact; letters clean; vault_check clean.",
+   "at": "2026-11-04T04:52:44Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Every item to plan; questions routed to the editor through the conductor; the round trip waits.",
+   "at": "2026-11-04T04:52:44Z"
+  }
+ },
+ "closed": "2026-11-04T04:52:44Z",
+ "outcome": "ok"
+}

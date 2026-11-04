@@ -23,7 +23,7 @@ figure, .figure-todo { break-before: avoid; }
 .figure-todo { break-inside: avoid; }
 
 /* a chapter's "Do this now" stays with the text before it, so a chapter does not end on a page holding only that line */
-section[id^="do-this-now"] { break-before: avoid; break-inside: avoid; }
+section[id^="do-this-now"], section[id^="something-to-try"] { break-before: avoid; break-inside: avoid; }
 /* a list's last item does not go over a page alone (the words used, the checklist) */
 li:last-child { break-before: avoid; }
 li { break-inside: avoid; }
@@ -48,4 +48,4 @@ section.fit2 .band { margin-top: 5pt; margin-bottom: 9pt; }
 section.fit2 .words-box { margin: 6pt 0 6pt; padding: 4pt 7pt; }
 section.fit2 h2 { margin-top: 11pt; }
 section.fit2 .speaker p { margin-bottom: 2pt; }
-section.fit2 p { orphans: 2; widows: 2; }
+section.fit2 p { orphans: 2; widows: 2; margin-bottom: 0.5em; }
