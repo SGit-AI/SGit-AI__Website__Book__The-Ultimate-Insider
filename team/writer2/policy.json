@@ -3,7 +3,7 @@
  "agent": "writer2",
  "address": "writer2@book.the-ultimate-insider",
  "title": "A writer of the full book: part three, chapters 10 to 15, in the editor's voice with the cast's",
- "status": "adopted (interim)",
+ "status": "adopted",
  "drafted_by": "conductor@book.the-ultimate-insider, 4 November 2026, at the editor's word (WR2, briefs/2026-11-04__in-session/22-a-second-writer.md: a second writer, then 'why don't you create 4 writers'), for the member's session to adopt; a copy of the writer's policy with its own name and chapters",
  "mandate": {
   "wanted": [
@@ -39,6 +39,12 @@
    "The full book's part three: chapters 10 to 15, in the editor's voice with the cast's"
   ],
   "writes": [
+   "manuscript/rc2/150/10*",
+   "manuscript/rc2/150/11*",
+   "manuscript/rc2/150/12*",
+   "manuscript/rc2/150/13*",
+   "manuscript/rc2/150/14*",
+   "manuscript/rc2/150/15*",
    "team/writer2/**",
    "comms/issues/writer2/**",
    "comms/mail/writer2/**",
@@ -50,14 +56,6 @@
   ],
   "pages": [
    "team/writer2/**"
-  ],
-  "pending_writes": [
-   "manuscript/rc2/150/10*",
-   "manuscript/rc2/150/11*",
-   "manuscript/rc2/150/12*",
-   "manuscript/rc2/150/13*",
-   "manuscript/rc2/150/14*",
-   "manuscript/rc2/150/15*"
   ]
  },
  "never": [
@@ -84,6 +82,11 @@
    "when": "2026-11-04",
    "by": "writer2",
    "what": "interim: the six manuscript/rc2/150/1[0-5]* paths left out of writes (listed under pending_writes) until the writer narrows its manuscript/rc2/** (conductor__030 to it; WR2, brief 2026-11-04 22), so no file is claimed twice; they move into writes, with a scope_changes entry, once agents.py overlaps is clean. Policy moved now, not after, because the wake record start.py opens in team/writer2/wakes/ fails the gate's link check without a member folder (pre-review go, wake 20261104T032318Z)."
+  },
+  {
+   "when": "2026-11-04",
+   "by": "writer2",
+   "what": "the six manuscript/rc2/150/1[0-5]* paths moved from pending_writes into writes: the writer narrowed its policy to 30/**, 70/** and 150/0* (d382a71; conductor__030, writer__177), agents.py overlaps clean; the policy is now the drafted one (WR2, brief 2026-11-04 22)"
   }
  ]
 }

@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer2",
+ "kind": "scheduled, hourly at :50",
+ "started": "2026-11-04T03:51:00Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1) replies to historian__052 (fixed), storyteller__121 (rulings taken), writer__177 (handover taken; 13's session-id note when 13 comes); copies into comms/mail/writer2/done/, mailroom originals left. 2) policy: six 150/1[0-5]* paths from pending_writes into writes, scope_changes (writer narrowed, overlaps clean), first. 3) rewrite 150/10 and 150/11 in his voice, record lines (WC1), unregistered facts and Checks on whole %% lines; letters for checks to historian, librarian, security, researcher, publisher. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T03:51:53Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Overlaps clean, the writer narrowed, so the six paths into writes claims nothing twice; same as the drafted policy. Conditions: write only the six paths and own folders; no other team/writer* policy touched. No key, secret or vault named. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T03:52:11Z"
+  },
+  "work": {
+   "by": "writer2",
+   "model": "",
+   "verdict": "done",
+   "comment": "replies to historian__052, storyteller__121, writer__177 (writer2__002 each), copies in done/; policy's six paths into writes; 150/10 and 150/11 rewritten to the checklist, the newsroom's part three and rulings 1 and 2; Checks and unregistered facts on whole %% lines; check request writer2__003 to librarian, security, researcher, publisher; status, debrief. No tool refused.",
+   "at": "2026-11-04T03:56:06Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
