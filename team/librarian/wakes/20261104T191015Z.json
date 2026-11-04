@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T19:10:15Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Recheck 92 (60 vs 62), 20-23, 90's cleared shots; final pass; letters, review, debrief, status; build+gate before push.",
+   "at": "2026-11-04T19:10:36Z"
+  },
+  "pre_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No secret, contact detail, model name or Cold-Read cross; 90 may name only the cleared shots.",
+   "at": "2026-11-04T19:10:36Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "20-23 and 90 checked, no finding; the final pass in the talk's clone has one fail (92 lacks C084 and C086), with writer4; letters writer4 011, researcher 005, conductor 055; review, README, debrief, status; build+gate clean.",
+   "at": "2026-11-04T19:12:43Z"
+  },
+  "post_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "16 staged files in scope; no secret, contact detail, model name, em-dash or religious word; no Cold-Read flow; the unmasked original stays unnamed in 90.",
+   "at": "2026-11-04T19:13:08Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "20-23, 90 and 92 checked; the final pass's one fail (92 60 entries vs file 62) counted and reported; letters, review, README, debrief, status in the diff; build and gate clean (1154 pages).",
+   "at": "2026-11-04T19:13:08Z"
+  }
+ },
+ "closed": "2026-11-04T19:13:08Z",
+ "outcome": "ok"
+}

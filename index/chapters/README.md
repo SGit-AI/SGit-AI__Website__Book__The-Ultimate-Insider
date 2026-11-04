@@ -29,7 +29,7 @@ One file per chapter of the manuscript, built by `index/tools/chapter_entries.py
 | [`150__03-the-tour.md`](150__03-the-tour.md) | 4 | 0 | 15 | 0 | 4 | 0 |
 | [`150__03b-the-day-at-a-glance.md`](150__03b-the-day-at-a-glance.md) | 0 | 0 | 4 | 0 | 0 | 0 |
 | [`150__04-hour-one-the-empty-project.md`](150__04-hour-one-the-empty-project.md) | 10 | 0 | 16 | 0 | 10 | 0 |
-| [`150__05-hour-two-the-rules-written.md`](150__05-hour-two-the-rules-written.md) | 5 | 0 | 9 | 0 | 11 | 0 |
+| [`150__05-hour-two-the-rules-written.md`](150__05-hour-two-the-rules-written.md) | 5 | 0 | 10 | 0 | 11 | 0 |
 | [`150__06-roles-as-a-cast-you-can-read.md`](150__06-roles-as-a-cast-you-can-read.md) | 28 | 0 | 20 | 0 | 45 | 0 |
 | [`150__07-hour-three-the-five-steps.md`](150__07-hour-three-the-five-steps.md) | 5 | 0 | 6 | 0 | 13 | 0 |
 | [`150__08-hours-four-and-five-before-dawn.md`](150__08-hours-four-and-five-before-dawn.md) | 11 | 0 | 12 | 0 | 13 | 0 |
