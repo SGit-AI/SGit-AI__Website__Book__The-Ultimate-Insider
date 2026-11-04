@@ -23,6 +23,17 @@ PLACED = {
         "the five parts as stops on one route": ("lab/experiments/52-designer-start-here/start-route.svg", "the designer's route (LAB 52)"),
         "a thin strip from the empty project to the talk": ("lab/experiments/52-designer-start-here/start-strip.svg", "the designer's strip (LAB 52)"),
     },
+    "rc2/150/00b-who-is-telling-this-story.md": {
+        "the cast row": ("lab/experiments/37-designer-rc2-chapters-1-2/ch1-cast-greyed.svg",
+                         "the greyed cast row until the line takes LAB 27's role cards (storyteller 149)"),
+        "two voices on the page": ("lab/experiments/54-designer-first-pages/two-voices.svg", "the designer's two voices (LAB 54)"),
+    },
+    "rc2/150/04-hour-one-the-empty-project.md": {
+        "one member's folder, opened": ("lab/experiments/54-designer-first-pages/member-folder.svg", "the designer's folder (LAB 54)"),
+    },
+    "rc2/150/06-roles-as-a-cast-you-can-read.md": {
+        "a card, each member's wake records": ("lab/experiments/54-designer-first-pages/wake-records.svg", "the designer's card (LAB 54), C022"),
+    },
     "rc2/150/02-inventing-on-principle.md": {
         "my last ask for the player drawn to the clock": ("lab/experiments/29-ruv-the-afternoon-loop/edition/round-trip-clock.svg",
                                                      "ruv-sgit's round-trip clock (its 066), as the line's brief names it"),

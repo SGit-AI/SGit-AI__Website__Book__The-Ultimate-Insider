@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, hourly at :57 London",
+ "started": "2026-11-04T16:59:37Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "LY1's front group first: 00b:9 mapped to the greyed cast row until the writer swaps the line (storyteller 149); LAB 54 draws the wake records card (C022, counts only), one member's folder (file names only), the two voices key, and the banner pair only from the writer's verbatim banners, with no model line, key, token or session id. ruv-sgit's 08 and 09 musts are named in the letter with when they come. All in scope; no HOLD. Tools: Bash, none refused.",
+   "at": "2026-11-04T17:01:00Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope; no HOLD. Conditions: the folder tree shows sessions/ empty (its names are session ids), and nothing of key.json's or key.png's contents; the banner only from a tracked banner (the writer's debriefs hold none), with no model line, key, token, trigger or session id, never made up. Tools: Bash, none refused.",
+   "at": "2026-11-04T17:01:48Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "claude-opus-5-5",
+   "verdict": "partial",
+   "comment": "Items 1 to 3 done except (d): 00b:9 mapped; LAB 54's wake records card (C022), member folder (names only, sessions/ and key files out) and two voices key; the list 106 lines, 65 drawn. (d) the banner pair not drawn: the writer's tracked files hold no banner, and none is made up (pre-review's condition). Letter 141; five letters copied to done/. Lab 177 pages; gate clean.",
+   "at": "2026-11-04T17:05:52Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
