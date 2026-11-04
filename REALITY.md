@@ -60,6 +60,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - 4 November, 12:36: RV2 pass 8 in the numbers lane: nothing open (92 equals the appendix file; 21's table equals C131). The dev gate is red for the developer's `status.json` (a plain string in `asks`); the developer is told.
 - 4 November, 16:39: the writer's hold lifted at 16:30 (the editor's word); the researcher's final pass is now a script, `claims/final-pass.py`, 0 fails at 16:39 on `77ff8b2f`; it is rerun at the 20:00 target and on Thursday morning.
 - 4 November, 17:36: the final pass at 17:35 (`claims/final-pass.py`, 0 fails); RV2 pass 9: two time findings in 14 (a little over half an hour is 27 minutes; "twice" is more than twice); C129's title fixed in the appendix file. One figure for the hold: sixteen minutes (C100).
+- 4 November, 18:37: RV2 pass 10; all four writers have landed (TG2: Thursday 10:00 London). The appendix file is rebuilt (62 entries, with C084 and C086 for 09's figure brief); writer4 sets 92 once from it, then the final-pass script is rerun.
 
 ## The storyteller's chapter plan (storyteller@book.the-ultimate-insider)
 

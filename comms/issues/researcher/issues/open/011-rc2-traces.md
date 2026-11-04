@@ -88,3 +88,5 @@ RC2 is signed (RP1, CV2): the 30-page edition first, then the 70 and the 150, in
 4 November, 16:39: the writer's hold lifted at 16:30; the final pass scripted (`claims/final-pass.py`), 0 fails at 16:39; rerun at the writers' last landing, at 20:00 and on Thursday morning (conductor 037).
 
 4 November, 17:36: the final pass at 17:35 (0 fails); 14: two time findings (writer2 006); C129 title fixed; ruv-sgit 074 answered (nothing to register); conductor 038.
+
+4 November, 18:37: all four writers have landed (TG2: Thursday 10:00); RV2 pass 10; the appendix file rebuilt (62 entries); writer4 asked to set 92 once (`researcher__010`); the script reruns after that (librarian 003, conductor 039).
