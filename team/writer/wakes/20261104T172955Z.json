@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T17:29:55Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Go with conditions: held work taken in, reviewed here; 12:30 closed 'hold', and the debrief says HR1 now replaces that response; 18 letters; synthetic 012's must named; 00b's brief no longer says 06 keeps a copy; critic5 011 in 00:69; three-rounds in the seventy's words; sixteen minutes per C100; push on green only (HR1); critic1's newest note read.",
+   "at": "2026-11-04T17:32:41Z"
+  },
+  "pre_review": {
+   "by": "security (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Go: the held diff is clean (scope, images, numbers, valve, RW1, em-dash). Banners in the debrief: the model line dropped whole; no session, task id, key or token; grep the debrief for session_, claude.ai, claude-, opus before commit.",
+   "at": "2026-11-04T17:32:42Z"
+  },
+  "work": {
+   "by": "writer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "The held 12:30 work taken in (00b's role cards, 05's callout, 02/06/09 cuts, layout lines, 06's gloss), plus 00's strip caption, 09's three rounds, the banners for the designer. 18 letters; letters 228 to 235.",
+   "at": "2026-11-04T17:35:29Z"
+  },
+  "post_review": {
+   "by": "security (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "clean",
+   "comment": "Diff 8267247..ebfd4c3e clean: no secret, session id, model line or key in the debrief's banners; numbers trace; no held sentence prints; only the designer's and ruv-sgit's drawings. Note: 09's three-rounds brief cites C086 (open); check the drawing rests on C084 before it builds.",
+   "at": "2026-11-04T17:39:36Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "as-planned",
+   "comment": "18 letters, board 006 and 003, scope 0, nothing after the commit, debrief complete. Fixed before the push: 'Chapter 16 already says it' (not 3); the start banner's time 17:29; the 12:30 record says it was written at this wake. Gate re-run green before the push (HR1).",
+   "at": "2026-11-04T17:39:36Z"
+  }
+ },
+ "closed": "2026-11-04T17:39:36Z",
+ "outcome": "ok"
+}

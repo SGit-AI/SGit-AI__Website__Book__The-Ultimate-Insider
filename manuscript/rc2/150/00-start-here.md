@@ -66,7 +66,7 @@
 
 ## Zero to presentation
 
-**Figure:** a thin strip from the empty project to the talk: the empty project, the first agent, the five steps, the six alone through the morning, my return, the hold, the talk. One number on it: nearly nineteen hours.
+**Figure:** a thin strip from the empty project to the talk: the empty project, the first agent, the wake's five stages, the six alone through the morning, my return, the hold, the talk. One number on it: nearly nineteen hours.
 
 `%% layout: full`
 

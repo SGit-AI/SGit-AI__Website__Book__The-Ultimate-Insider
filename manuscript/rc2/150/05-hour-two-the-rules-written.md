@@ -20,6 +20,8 @@
 
 **Figure:** the schedule as the conductor wrote it: each member at its own minute past the hour, "fifteen minutes apart" in its commit's own words, round the clock.
 
+`%% layout: full`
+
 `%% figure brief: For the designer, from C071 and the commit 09f13d5 (conductor :02, deck :17, ruv-sgit :32, dev :47 at first; the others joined their slots later). The minutes in the picture, not in any line.`
 
 `%% record: 02cbd86 (01:27) ecc048e (01:35) 5c2bcc5 (01:36) 09f13d5 (01:39) C071 timeline/day/01.md ("What the hour shows")`
@@ -49,6 +51,14 @@
 `%% for the editor (his view, held out of print until he confirms it, P30): the newsroom's "A check that its own author cannot get past is the only kind worth having." to close the paragraph.`
 
 **Dev**: The check said no. It was right. The lines went in, and it said yes.
+
+**Important concept: the publishing flow.** Every change went out the same way. A member saved its work as a commit. The build turned the project's files into the site's pages. The gate checked the result. Only then did the release go out, numbered by the pipeline and never by hand. If the gate said no, nothing went out, for anyone, the member who built the gate included.
+
+**Figure:** the publishing flow: a commit, the build, the gate, the release, and the gate's no sending the change back.
+
+`%% layout: full`
+
+`%% figure brief: For the designer, the publishing flow concept callout (the cast guide's convention 5; LAB 48's callout, its second drawing; storyteller__135 S10). No key, session or version number drawn.`
 
 `%% record: 24da366 (about 01:19) team/dev/debriefs (the-board.md: "the gate the conductor added at the editor's rule refused the release without it"); historian__022`
 `%% band: Dramatised (dev's line). Rests on dev's release of about 01:19 and its debrief.`

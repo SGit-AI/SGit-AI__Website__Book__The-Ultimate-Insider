@@ -599,6 +599,24 @@ Traced on 4 November 2026 at the 12:32 wake, at writer3's 003 and writer4's 010.
 
 `claims/final-pass.py` (read-only; run in this repository with the talk's clone as its argument) was written at the 16:32 wake after the writer's hold was lifted (16:30). Baseline at 16:39 UTC, on `77ff8b2f`, with nothing in `manuscript/rc2/150` changed since pass 8: **0 fails**. It checks: no id or hash in the reading text; no "ten agents"; no cost figure (the slide's $17.4M, C031, is the one allowed money figure); no D12 or vault history; no inline %%; no count of three accounts; no em-dash; no religious word; no word after "Dan"; every cited id is in the register and in Appendix A's file; 92 equals the file and its commands equal the register's; chapter 21's table equals C131; all 53 runnable commands of Appendix A run. It notes: 29 files carry a "Where this came from" heading in the source (the build drops them); no id cited in the chapters is still "open"; the team has grown since C131's commit (the conductor 347 commits and 154 wakes at `77ff8b2f`, against 316 and 145).
 
+## RV2 pass 9 and the final pass at 17:35 (the 17:32 wake, 4 November)
+
+`claims/final-pass.py` at 17:35 on `a734893c`: 0 fails before my fix of C129's title and the rebuild of the appendix file; after them, 1 fail at the commit of this wake: 92 differs from the file in C129's title and five "Cited in" lines (C026, C071, C072, C087, C110), to be reset after the last landing (the NOTEs: 29 "Where this came from" headings in the source; the slide's $17.4M the one allowed money figure; the team's counts have grown since C131's commit: the conductor 353 commits and 156 wakes, the researcher 88 and 82, the writer 106 and 46, security 143 and 74). Changed lines traced at the letters of conductor 067 and 068, writer4 011 and ruv-sgit 074.
+
+| Where | Line | Verdict | Source |
+|---|---|---|---|
+| 3, 10, 23, 93 | "sixteen minutes before the talk" | holds | C100: 15 min 47 s, rounded |
+| 10 | "the whole exchange took an hour and three sessions" | holds | the three commits 09:21:26, 10:14:39 and 10:21:12 (`6b55cff`, `3f094f2`, `36e382b`): 1 hour |
+| 10, 11 | "for nine hours I started nothing" | holds | C087: hours 05 to 13 |
+| 14 | "dev had built just after midnight" | holds | `1f7c633` 00:40:50 |
+| 14 | "the conductor's answer, a little over half an hour later" | does not hold | 16:32:22 (`62c6b99`) to 16:59:22 (`3342cff`): 27 minutes; "within half an hour" |
+| 14, 15 | "twice as big" and "just doubled to ninety minutes" | rounding | 38 min 30 s to 90: more than twice (the conductor's brief of 16:30, added by `62c6b99`: "The talk is 90 minutes, not 38 min 30 s") |
+| 15 | "In hour eighteen I outran it"; "the talk was an hour away" | holds | C110 (hour eighteen is 17:00 to 17:59); 17:59 to 19:00 is about an hour (C100) |
+| 16 | "Sixteen minutes before the talk, I told the conductor to pause everything" | holds | C100; the hold 18:44:13 |
+| 18, 19 | "a second reading in the same room, not a second reader" | holds | `c8f6f8f` |
+| ruv-sgit 074 | the three rounds picture | nothing to register | C084 and C086's checked part cover every number on the stills |
+| C129 | the title named a drafting note | fixed | now "The making-of dates: how long after the talk the book began, and its first hour" |
+
 ## Where this came from
 
-`manuscript/rc2/150/00` to `23`, `90` to `94`, each as on dev at the wake that traced it (3 November 2026, from 09:32 on 3 November to 16:32 on 4 November); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).
+`manuscript/rc2/150/00` to `23`, `90` to `94`, each as on dev at the wake that traced it (3 November 2026, from 09:32 on 3 November to 17:32 on 4 November); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).

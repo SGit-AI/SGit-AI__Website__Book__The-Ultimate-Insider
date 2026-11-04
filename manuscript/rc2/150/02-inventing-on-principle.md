@@ -36,6 +36,8 @@
 
 **Figure:** my last ask for the player drawn to the clock: asked, answered twelve minutes later, and the hold seven minutes after that.
 
+`%% layout: full`
+
 `%% figure brief: ruv-sgit's lab/experiments/29-ruv-the-afternoon-loop/edition/round-trip-clock.svg (ruv-sgit__066): the ask at 18:25, the commit that answered it at 18:37, the hold at 18:44 at the edge, with no table; times from C105 and C006. The asks card (asks-card.svg, from C118) stays in chapter 12 (storyteller__126).`
 
 `%% record: C105 (the eight asks; 18:25 asked, 18:37 back) C006 (the hold, 18:44) C118 (what each built) C104 (the feedback round) C088 lab/experiments/29-ruv-the-afternoon-loop/; comms/mail/mailroom/writer/storyteller__126-re-182.eml`
@@ -47,6 +49,8 @@
 `%% held out of print until he confirms it (a Check item): the newsroom's "Which, I discovered, moves the bottleneck. By the end of the afternoon, the slowest part of the factory was me."`
 
 **Figure:** "A slide versus a loop" (right half): the same idea as a circle of arrows with a small factory inside the circle doing the work.
+
+`%% layout: full`
 
 `%% figure brief: The speaker stands outside the circle, looking. The arrows' steps as the designer's drawing settles them (designer__061; conductor__020).`
 
@@ -62,6 +66,8 @@
 
 **Figure:** the factory in action: the nine at work around one objective, the clock above them, the brake within reach.
 
+`%% layout: full`
+
 `%% figure brief: For the designer, at his note (conductor__020): "What a factory is" gets a picture of the factory in action. ruv-sgit's factory-clock.svg is placed here; it rests on C071 (ruv-sgit__072).`
 
 `%% record: C071`
@@ -70,9 +76,7 @@
 
 `%% record: team/conductor/from-newsroom/2026-11-04__narrator-voice-part-one-delta-01.md (section 1, confirmed by him, 4 November 2026); briefs/2026-11-04__in-session/21-the-whole-book-pass.md; C011 (nine staffed, security proposed and never staffed) C001`
 
-**Figure:** the cast cards, greyed, in a row, and one empty chair.
-
-`%% figure brief: And an empty chair for security, planned and never staffed. The designer's cards (LAB 27 and 37), drawn not yet lit.`
+`%% cut: the cast cards' greyed row, pictured in 00b as the whole team (critic1__014; brief 28).`
 
 **Narrator.** So this book is about the factory. The talk was what it happened to make that day. If you have an idea you keep talking over, the factory is the part you can take home.
 

@@ -8,6 +8,8 @@
 
 **Figure:** the nine hours as one strip, hour six to hour fourteen, each hour a box with its commits and its wakes by trigger: the margin clock's boxes laid side by side.
 
+`%% layout: full`
+
 `%% figure brief: For the designer, from C095 (commits by hour, claims/talk-commits-by-member-hour.md, hours 05 to 13 UTC) and C087 (wakes by trigger: "05 to 13: 5 or 6 scheduled an hour, no editor"). The counts in the boxes only, never in a line: each box its hour's commits, not counting merges (C095's "all" row); the wakes shown once, in C087's own words, as a band laid over the boxes, never as a count in each, since the register has a range, not a count, for each of these hours (ruv-sgit__056, designer__111). The chapter's picture.`
 
 `%% record: f448345 (04:03, my last word of the night) team/conductor/briefs/2026-10-29__editor/feedback-briefs.md (its first line: about 13:50) C087 C095 C110`
@@ -47,6 +49,8 @@
 
 **Figure:** a card, the researcher's three findings of the night in a row, each with when it was found against the push and what was fixed.
 
+`%% layout: full`
+
 `%% figure brief: For the designer, from C025 (entries 2 to 4) and C068. The counts on the card only. Rail: nothing of what was captured, how, or from where; no value, site, field or pattern shown.`
 
 **Narrator.** Three findings of one kind, each found because the last redaction prompted a wider look. The check that caught them ran after the push every time; what got better was what the member looked for, not the order of the stages. Part four keeps all three, and asks what that order should have been.
@@ -65,6 +69,12 @@
 **ruv-sgit**: Back to the workshop.
 
 **Narrator.** The second version came in within two hours, and deck kept it, with two things to fix next time. The third came in just before one, and deck passed it, ready for me to see, minutes before my feedback round. Three rounds, one picture, and I started none of them.
+
+**Figure:** one picture's three rounds side by side: the first sent back, the second kept with two notes, the third kept and put to the editor; under each, deck's verdict in its own words.
+
+`%% layout: full`
+
+`%% figure brief: ruv-sgit's lab/experiments/63-ruv-three-rounds/edition/three-rounds.svg, placed in the seventy's chapter 7 (ruv-sgit__074); its numbers are only those on the talk's own stills (C084, C086). The words are the seventy's (manuscript/rc2/70/07-the-rhythm.md).`
 
 `%% record: the three rounds: 78b89b9 (06:21, E02 sent back) cf52cda (07:43, v2 delivered) eefc1d3 (08:21, E02 v2 kept) 8012b00 (12:53, v3 delivered) 19e7f2d (13:48, E02 v3 kept, ready for the editor) team/deck/debriefs/2026-10-29__e02-v2-review.md manuscript/rc2/70/07-the-rhythm.md`
 `%% band: Dramatised. Rests on deck's three reviews of one picture (06:21, 08:21, 13:48); the quoted line is deck's own. Kept from the 70-page edition.`
@@ -159,7 +169,7 @@
 
 **Narrator.** Not long after ruv-sgit's idle wake, I dictated a round of feedback in a chat, for the conductor's session: the morning review's corrections, the talk's framing, the story of the animations, the player, and a storyteller to join the team.
 
-**Figure:** the cast bar at the end of hour fourteen: six cards lit, the editor's chair filling, one empty chair still.
+`%% cut: the cast bar at the end of hour fourteen, an empty slot (ruv-sgit__073); 08's cast bar at four in the morning is the part's last.`
 
 `%% record: aa2785c 3f0d350 (13:09, dev's partial) ebf63ca abf5e32 (13:13, the pre-review brief names scope.holds) 41d4757 team/ruv-sgit/wakes/20261029T134005Z.json (13:40, idle) 19e7f2d (13:46 wake, committed 13:48, ready for the editor) team/conductor/briefs/2026-10-29__editor/feedback-briefs.md (first line: about 13:50) c9ced4e (14:07) timeline/day/13.md`
 `%% band: Dramatised (ruv-sgit's line). Rests on its idle wake of 13:40; the feedback round is dated by its brief's first line and entered the record at 14:07.`
