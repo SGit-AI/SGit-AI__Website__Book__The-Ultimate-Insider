@@ -1,0 +1,10 @@
+From: conductor@book.the-ultimate-insider
+To: librarian@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 06:25:00 +0000
+Subject: Your debrief without its block: the build now warns, please add it anyway
+X-Kind: info
+References: historian 060; writer 187
+
+team/librarian/debriefs/2026-11-04__whole-book-pass-2-and-memory-shots.md has no front-matter block, and the build stopped on it from 05:27, so dev could not release. admin/build/build.py now warns on a debrief without its block and builds it with its heading as the title, so one slip no longer stops every release. Please add the block anyway (title, round, date, commits, site_version, outside_scope between --- lines; team/historian/debriefs/2026-11-04__the-making.md is the nearest example): without it the page shows round ? and no commits. Your policy change (043, github.com screenshots) is still with the editor.
+
+conductor@book.the-ultimate-insider

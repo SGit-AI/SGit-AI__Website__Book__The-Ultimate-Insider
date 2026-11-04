@@ -1,0 +1,53 @@
+<style>
+.concept { position: relative; background: var(--fill, #eef2f6); border-radius: 2pt; padding: 13pt 10pt 8pt;
+  margin: 14pt 0 10pt; break-inside: avoid; page-break-inside: avoid;
+  display: grid; grid-template-columns: 1fr 38%; column-gap: 10pt; align-items: start; }
+.concept .cc-label { position: absolute; top: -6pt; left: 10pt; margin: 0; padding: 1.5pt 6pt 1.5pt 16pt;
+  background: var(--ink, #1f2933); color: #fff; border-radius: 2pt;
+  font-family: var(--sans, Inter, Helvetica, Arial, sans-serif); font-weight: 800; font-size: 9pt; letter-spacing: .14em; text-transform: uppercase; }
+/* the mark: a key, white on the ink tab */
+.concept .cc-label::before { content: ""; position: absolute; left: 5pt; top: 50%; width: 8pt; height: 8pt; margin-top: -4pt;
+  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'><circle cx='3.6' cy='6' r='2.6' fill='none' stroke='%23fff' stroke-width='1.3'/><path d='M6.2 6 H11.4 M9.4 6 V8.4 M11 6 V7.6' fill='none' stroke='%23fff' stroke-width='1.3' stroke-linecap='round'/></svg>") no-repeat center / contain; }
+.concept .cc-title { grid-column: 1; font-family: var(--sans, Inter, Helvetica, Arial, sans-serif); font-weight: 800; font-size: 11pt;
+  line-height: 1.2; color: var(--ink, #1f2933); margin: 0 0 4pt; }
+.concept p { grid-column: 1; font-family: var(--sans, Inter, Helvetica, Arial, sans-serif); font-size: 9.5pt; line-height: 1.38; margin: 0 0 4pt; }
+.concept .cc-pic { grid-column: 2; grid-row: 1 / span 4; background: #fff; border-radius: 1.5pt; padding: 4pt; }
+.concept .cc-pic svg, .concept .cc-pic img { display: block; width: 100%; height: auto; }
+
+.try-this { background: #fff; border: .6pt solid var(--fill-2, #d5dce4); border-top: 3pt solid var(--accent, #b0481a);
+  border-radius: 2pt; padding: 6pt 10pt 7pt; margin: 12pt 0 10pt; break-inside: avoid; page-break-inside: avoid; }
+.try-this p { font-family: var(--sans, Inter, Helvetica, Arial, sans-serif); font-size: 9.5pt; line-height: 1.38; margin: 0 0 4pt; }
+.try-this p:last-child { margin-bottom: 0; }
+.try-this .tt-label { font-weight: 800; font-size: 9pt; letter-spacing: .14em; text-transform: uppercase;
+  color: var(--accent, #b0481a); margin-bottom: 5pt; padding-left: 15pt; position: relative; }
+/* the mark: an arrow stepping out of a box, "your turn", drawn inline, accent ink */
+.try-this .tt-label::before { content: ""; position: absolute; left: 0; top: 50%; width: 11pt; height: 11pt; margin-top: -5.5pt;
+  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'><rect x='.6' y='3' width='7.4' height='8.4' rx='1' fill='none' stroke='%23b0481a' stroke-width='1.2'/><path d='M4.6 7.4 L10.6 1.4 M7 1.4 H10.6 V5' fill='none' stroke='%23b0481a' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'/></svg>") no-repeat center / contain; }
+.try-this p span { display: block; font-weight: 700; font-size: 9pt; color: var(--muted, #5b6670); margin-bottom: .5pt; }
+.try-this .tt-idea { font-weight: 700; font-size: 10.5pt; color: var(--ink, #1f2933); }
+.try-this .tt-idea span { font-size: 9pt; }
+.try-this .tt-gives { border-top: .5pt solid var(--fill-2, #d5dce4); padding-top: 4pt; }
+
+.cc-demo { --ink: #1f2933; --muted: #5b6670; --fill: #eef2f6; --fill-2: #d5dce4; --accent: #b0481a; --sans: Inter, Helvetica, Arial, "DejaVu Sans", sans-serif; }
+.cc-demo .body { font-family: "Bitstream Charter", Charter, "DejaVu Serif", Georgia, serif; font-size: 9.5pt; line-height: 1.42; margin: 0 0 8pt; }
+.cc-demo .wb { background: var(--fill); padding: 6pt 9pt; margin: 8pt 0; font-family: var(--sans); font-size: 10pt; line-height: 1.35; }
+</style>
+<section class="page" data-claims="">
+ <div class="cc-demo">
+  <p class="fig-title">The concept callout beside its siblings: a words box above, a Try this card below</p>
+  <div class="wb"><b>Words</b>: a <b>scope</b> is the list of folders an agent may write to.</div>
+  <p class="body">... and each agent wrote only where its scope let it. Drawn as a house, the team's structure is easier to hold than as a list.</p>
+  <aside class="concept">
+   <p class="cc-label">Concept</p>
+   <p class="cc-title">Each agent writes in its own room</p>
+   <div class="cc-pic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 98 34" role="img" aria-label="Three rooms, an agent in each, on one ground"><path d="M0 6 L49 0 L98 6 Z" fill="#eef2f6" stroke="#1f2933" stroke-width=".7"/><rect x="2" y="6" width="30" height="24" fill="#fff" stroke="#1f2933" stroke-width=".7"/><g transform="translate(7 9) scale(.5)"><rect x="10" y="10" width="20" height="16" rx="3.2" fill="#eef2f6" stroke="#1f2933" stroke-width="1.1199999999999999"/><circle cx="17" cy="18" r=".9" fill="#1f2933"/><circle cx="23" cy="18" r=".9" fill="#1f2933"/><path d="M17.4 21.3 Q20 23.9 22.6 21.3" fill="none" stroke="#1f2933" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round"/></g><rect x="34" y="6" width="30" height="24" fill="#fff" stroke="#1f2933" stroke-width=".7"/><g transform="translate(39 9) scale(.5)"><rect x="10" y="10" width="20" height="16" rx="3.2" fill="#eef2f6" stroke="#1f2933" stroke-width="1.1199999999999999"/><circle cx="17" cy="18" r=".9" fill="#1f2933"/><circle cx="23" cy="18" r=".9" fill="#1f2933"/><path d="M17.4 21.3 Q20 23.9 22.6 21.3" fill="none" stroke="#1f2933" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round"/><rect x="9.6" y="12.2" width="20.8" height="1.9" fill="#4a56a6" stroke="#1f2933" stroke-width=".4"/><path d="M30.4 13.2 l2.4 -1.6 M30.4 13.4 l2.6 .8" fill="none" stroke="#4a56a6" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round"/></g><rect x="66" y="6" width="30" height="24" fill="#fff" stroke="#1f2933" stroke-width=".7"/><g transform="translate(71 9) scale(.5)"><rect x="10" y="10" width="20" height="16" rx="3.2" fill="#eef2f6" stroke="#1f2933" stroke-width="1.1199999999999999"/><circle cx="17" cy="18" r=".9" fill="#1f2933"/><circle cx="23" cy="18" r=".9" fill="#1f2933"/><path d="M17.4 21.3 Q20 23.9 22.6 21.3" fill="none" stroke="#1f2933" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round"/><path d="M11.2 11.4 a8.8 6.4 0 0 1 17.6 0 z" fill="#3d7a3d" stroke="#1f2933" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/><line x1="8.60" y1="11.40" x2="31.40" y2="11.40" stroke="#1f2933" stroke-width="1.1" stroke-linecap="round"/></g><rect x="0" y="30" width="98" height="4" fill="#1f2933"/></svg></div>
+   <p>Every agent had a list of the folders it could change. Drawn as rooms, you can see who worked where, and that everyone kept its own records on the same ground.</p>
+   <p>When you set up your own team, write that list down before the first agent starts.</p>
+  </aside>
+  <aside class="try-this">
+   <p class="tt-label">Try this</p>
+   <p class="tt-try">I would write down, for my first agent, the folders it may change and the ones it may not.</p>
+  </aside>
+  <p class="body" style="color:#5b6670;font-family:Inter,Helvetica,Arial,sans-serif;font-size:9pt">Sample words for the look only; the writers' own lines replace them. The callout is CSS (lab/tools/book/concept.css), the same wherever a concept first matters. The Try this card here holds one paragraph, as the writers' sections do today.</p>
+ </div>
+</section>

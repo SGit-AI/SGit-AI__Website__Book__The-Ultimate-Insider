@@ -1,0 +1,27 @@
+/* The concept callout (conductor 068, item 1; the cast guide's page conventions, item 5; principle 22), by the designer,
+   4 November 2026: "an important concept", explained where it first matters, with its picture. A sibling of the words box
+   (the same fill) and the Try this card (the same type), told apart by its ink tab, its title, and the picture beside the
+   words. The publisher places it.
+
+   Markup the build gives it (from a titled callout in the chapter; the picture is a lab/ drawing, its id in the record line):
+     <aside class="concept">
+       <p class="cc-label">Concept</p>
+       <p class="cc-title">the concept, in a few words</p>
+       <div class="cc-pic"> the drawing (svg or img) </div>
+       <p>two or three lines in his voice</p>
+     </aside>
+*/
+.concept { position: relative; background: var(--fill, #eef2f6); border-radius: 2pt; padding: 13pt 10pt 8pt;
+  margin: 14pt 0 10pt; break-inside: avoid; page-break-inside: avoid;
+  display: grid; grid-template-columns: 1fr 38%; column-gap: 10pt; align-items: start; }
+.concept .cc-label { position: absolute; top: -6pt; left: 10pt; margin: 0; padding: 1.5pt 6pt 1.5pt 16pt;
+  background: var(--ink, #1f2933); color: #fff; border-radius: 2pt;
+  font-family: var(--sans, Inter, Helvetica, Arial, sans-serif); font-weight: 800; font-size: 9pt; letter-spacing: .14em; text-transform: uppercase; }
+/* the mark: a key, white on the ink tab */
+.concept .cc-label::before { content: ""; position: absolute; left: 5pt; top: 50%; width: 8pt; height: 8pt; margin-top: -4pt;
+  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'><circle cx='3.6' cy='6' r='2.6' fill='none' stroke='%23fff' stroke-width='1.3'/><path d='M6.2 6 H11.4 M9.4 6 V8.4 M11 6 V7.6' fill='none' stroke='%23fff' stroke-width='1.3' stroke-linecap='round'/></svg>") no-repeat center / contain; }
+.concept .cc-title { grid-column: 1; font-family: var(--sans, Inter, Helvetica, Arial, sans-serif); font-weight: 800; font-size: 11pt;
+  line-height: 1.2; color: var(--ink, #1f2933); margin: 0 0 4pt; }
+.concept p { grid-column: 1; font-family: var(--sans, Inter, Helvetica, Arial, sans-serif); font-size: 9.5pt; line-height: 1.38; margin: 0 0 4pt; }
+.concept .cc-pic { grid-column: 2; grid-row: 1 / span 4; background: #fff; border-radius: 1.5pt; padding: 4pt; }
+.concept .cc-pic svg, .concept .cc-pic img { display: block; width: 100%; height: auto; }

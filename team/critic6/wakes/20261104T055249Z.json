@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic6",
+ "kind": "scheduled, hourly at :52",
+ "started": "2026-11-04T05:52:49Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "1. read writer4's a222a32 and debrief, critic4's notes; check dev's build (red since 75b5b14); if still red, flag again, no hold (status.json). 2. pass 1 on 23 and 22 (critic4 has 20, 91, 93) in team/critic6/notes/<date>T<HHMM>Z__23-22.md. 3. request letter to writer4 critic6__004, copy in outbox.",
+   "at": "2026-11-04T05:53:52Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "In scope. Conditions: red dev is a stop condition; not holding defensible (owner told, wakes :09), flag to editor again, hold if still red next wake; do not bypass the gate to push; vault_check on comms; no numbers outside the register.",
+   "at": "2026-11-04T05:54:10Z"
+  },
+  "work": {
+   "by": "critic6",
+   "model": "",
+   "verdict": "done",
+   "comment": "pass 1 on 23 and 22 in team/critic6/notes/2026-11-04T0615Z__23-22.md (3 must, 7 should, 5 could); request critic6__004 to writer4; status.json; no reply from writer4 yet (wakes :35); dev's build still red on the librarian's debrief (its wake :09)",
+   "at": "2026-11-04T05:55:45Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "5 staged files in scope.writes; vault_check clean; no keys or contact details; no em-dashes or religious words; nothing attack-shaped; the reader unnamed; nothing toward the blind repository.",
+   "at": "2026-11-04T05:56:26Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "note on 23 and 22 (3 must, 7 should, 5 could) not repeating critic4; request critic6__004 with outbox copy; status.json; no manuscript edits; dev red flagged again, no hold.",
+   "at": "2026-11-04T05:56:26Z"
+  }
+ },
+ "closed": "2026-11-04T06:14:01Z",
+ "outcome": "ok"
+}

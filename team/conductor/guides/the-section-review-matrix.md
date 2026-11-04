@@ -37,37 +37,39 @@ Each member reviews the sections in its own lane only, writes its findings in it
 
 ## The grid
 
+As of 4 November 2026, 06:20 UTC, from the letters: historian 056 to 059 (a first read, not a sign-off; only 04 read line by line), researcher 029, ruv-sgit 067, security 045, the librarian's pass 2 (team/librarian/reviews/rc2-150-whole-book-pass-2.md). The critics' notes are in their own folders (team/critic1/notes/ and so on).
+
 `·` not yet read in that lane; `ok` passed (no must or should open); `notes` findings open; `n/a` the lane has nothing in this section. The conductor updates it from the members' letters; nobody else edits it. "Sign-off" stays "not yet" until the editor signs (SO1).
 
 | Section | Writer | Critic(s) | story | hist | lib | res | sec | des | pub | ruv | syn | Sign-off |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| `00-start-here` | writer | critic1, critic5 | · | · | · | · | · | · | · | · | · | not yet |
-| `00b-who-is-telling-this-story` | writer | critic1, critic5 | · | · | · | · | · | · | · | · | · | not yet |
-| `01-slides-as-a-compromise` | writer | critic1, critic5 | · | · | · | · | · | · | · | · | · | not yet |
-| `02-inventing-on-principle` | writer | critic1, critic5 | · | · | · | · | · | · | · | · | · | not yet |
-| `03-the-tour` | writer | critic1, critic5 | · | · | · | · | · | · | · | · | · | not yet |
-| `04-hour-one-the-empty-project` | writer | critic1, critic5 | · | · | · | · | · | · | · | · | · | not yet |
-| `05-hour-two-the-rules-written` | writer | critic1, critic5 | · | · | · | · | · | · | · | · | · | not yet |
-| `06-roles-as-a-cast-you-can-read` | writer | critic1, critic5 | · | · | · | · | · | · | · | · | · | not yet |
-| `07-hour-three-the-five-steps` | writer | critic1, critic5 | · | · | · | · | · | · | · | · | · | not yet |
-| `08-hours-four-and-five-before-dawn` | writer | critic1, critic5 | · | · | · | · | · | · | · | · | · | not yet |
-| `09-nine-hours-with-nobody-starting-work` | writer | critic1, critic5 | · | · | · | · | · | · | · | · | · | not yet |
-| `10-talking-through-git` | writer2 | critic2 | · | · | · | · | · | · | · | · | · | not yet |
-| `11-the-plumbing` | writer2 | critic2 | · | · | · | · | · | · | · | · | · | not yet |
-| `12-the-creator-comes-back` | writer2 | critic2 | · | · | · | · | · | · | · | · | · | not yet |
-| `13-the-story-before-the-slides` | writer2 | critic2 | · | · | · | · | · | · | · | · | · | not yet |
-| `14-port-not-rebuild` | writer2 | critic2 | · | · | · | · | · | · | · | · | · | not yet |
-| `15-hour-eighteen-faster-than-the-clock` | writer2 | critic2 | · | · | · | · | · | · | · | · | · | not yet |
-| `16-hour-nineteen-minute-by-minute` | writer3 | critic3 | · | · | · | · | · | · | · | · | · | not yet |
-| `17-what-did-not-work` | writer3 | critic3 | · | · | · | · | · | · | · | · | · | not yet |
-| `18-how-do-we-contain-this` | writer3 | critic3 | · | · | · | · | · | · | · | · | · | not yet |
-| `19-a-second-team-reading-cold` | writer3 | critic3 | · | · | · | · | · | · | · | · | · | not yet |
-| `20-sessions-end` | writer4 | critic4, critic6 | · | · | · | · | · | · | · | · | · | not yet |
-| `21-the-second-factory` | writer4 | critic4, critic6 | · | · | · | · | · | · | · | · | · | not yet |
-| `22-the-third-planned` | writer4 | critic4, critic6 | · | · | · | · | · | · | · | · | · | not yet |
-| `23-principles-and-build-your-own` | writer4 | critic4, critic6 | · | · | · | · | · | · | · | · | · | not yet |
-| `90-the-tour-at-length` | writer4 | critic4, critic6 | · | · | · | · | · | · | · | · | · | not yet |
-| `91-the-words-used` | writer4 | critic4, critic6 | · | · | · | · | · | · | · | · | · | not yet |
+| `00-start-here` | writer | critic1, critic5 | · | · | · | ok | · | · | · | · | · | not yet |
+| `00b-who-is-telling-this-story` | writer | critic1, critic5 | · | · | · | ok | · | · | · | · | · | not yet |
+| `01-slides-as-a-compromise` | writer | critic1, critic5 | · | · | · | ok | · | · | · | · | · | not yet |
+| `02-inventing-on-principle` | writer | critic1, critic5 | · | · | · | ok | · | · | · | notes | · | not yet |
+| `03-the-tour` | writer | critic1, critic5 | · | ok | ok | ok | · | · | · | · | · | not yet |
+| `04-hour-one-the-empty-project` | writer | critic1, critic5 | · | notes | notes | notes | · | · | · | · | · | not yet |
+| `05-hour-two-the-rules-written` | writer | critic1, critic5 | · | · | · | ok | · | · | · | · | · | not yet |
+| `06-roles-as-a-cast-you-can-read` | writer | critic1, critic5 | · | notes | · | ok | · | · | · | · | · | not yet |
+| `07-hour-three-the-five-steps` | writer | critic1, critic5 | · | · | · | ok | · | · | · | · | · | not yet |
+| `08-hours-four-and-five-before-dawn` | writer | critic1, critic5 | · | · | · | ok | · | · | · | · | · | not yet |
+| `09-nine-hours-with-nobody-starting-work` | writer | critic1, critic5 | · | · | · | notes | · | · | · | · | · | not yet |
+| `10-talking-through-git` | writer2 | critic2 | · | · | · | notes | ok | · | · | · | · | not yet |
+| `11-the-plumbing` | writer2 | critic2 | · | ok | ok | ok | ok | · | · | · | · | not yet |
+| `12-the-creator-comes-back` | writer2 | critic2 | · | ok | notes | ok | · | · | · | · | · | not yet |
+| `13-the-story-before-the-slides` | writer2 | critic2 | · | notes | ok | notes | · | · | · | · | · | not yet |
+| `14-port-not-rebuild` | writer2 | critic2 | · | · | · | ok | · | · | · | · | · | not yet |
+| `15-hour-eighteen-faster-than-the-clock` | writer2 | critic2 | · | · | · | ok | · | · | · | · | · | not yet |
+| `16-hour-nineteen-minute-by-minute` | writer3 | critic3 | · | · | · | notes | · | · | · | · | · | not yet |
+| `17-what-did-not-work` | writer3 | critic3 | · | · | · | notes | · | · | · | · | · | not yet |
+| `18-how-do-we-contain-this` | writer3 | critic3 | · | · | · | ok | · | · | · | · | · | not yet |
+| `19-a-second-team-reading-cold` | writer3 | critic3 | · | · | · | ok | · | · | · | · | · | not yet |
+| `20-sessions-end` | writer4 | critic4, critic6 | · | ok | ok | ok | · | · | · | · | · | not yet |
+| `21-the-second-factory` | writer4 | critic4, critic6 | · | · | · | ok | · | · | · | · | · | not yet |
+| `22-the-third-planned` | writer4 | critic4, critic6 | · | · | · | ok | · | · | · | · | · | not yet |
+| `23-principles-and-build-your-own` | writer4 | critic4, critic6 | · | · | · | notes | · | · | · | · | · | not yet |
+| `90-the-tour-at-length` | writer4 | critic4, critic6 | · | · | · | ok | · | · | · | · | · | not yet |
+| `91-the-words-used` | writer4 | critic4, critic6 | · | · | · | ok | · | · | · | · | · | not yet |
 | `92-appendix-a-every-number` | writer4 | critic4, critic6 | · | · | · | · | · | · | · | · | · | not yet |
-| `93-appendix-b-the-control-register` | writer4 | critic4, critic6 | · | · | · | · | · | · | · | · | · | not yet |
-| `94-the-making-of-this-book` | writer4 | critic4, critic6 | · | · | · | · | · | · | · | · | · | not yet |
+| `93-appendix-b-the-control-register` | writer4 | critic4, critic6 | · | · | · | ok | · | · | · | · | · | not yet |
+| `94-the-making-of-this-book` | writer4 | critic4, critic6 | · | · | · | notes | · | · | · | · | · | not yet |

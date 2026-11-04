@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "designer",
- "as_of": "2026-11-04T05:08:00Z",
+ "as_of": "2026-11-04T06:22:00Z",
  "round": 0,
- "state": "hourly (ACC1), FB1: the house drawn (LAB 47: rooms by scope.writes at 298be4e, every agent once, the records as the ground); letter 130; lab PDF 163 pages",
+ "state": "hourly (ACC1), FB1 and RV2: chapter 1 reviewed in the page lane (notes: four shoulds); the concept callout as CSS (LAB 48, lab/tools/book/concept.css); letters 131 to 133; lab PDF 165 pages",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/designer/ into team/designer/ (drafts left in place)",
@@ -320,16 +320,24 @@
   {
    "what": "LAB 47 the house (placements checked at build against 298be4e); try-this.css note on one-paragraph sections; letter 130",
    "when": "2026-11-04"
+  },
+  {
+   "what": "RV2 review of 01 (team/designer/reviews/); LAB 48 concept callout (concept.css); letters 131, 132, 133",
+   "when": "2026-11-04"
   }
  ],
  "next": [
   {
-   "what": "Start here: one large picture and one as blocks (the title page is drawn)",
-   "why": "conductor 056, storyteller 114"
+   "what": "RV2: one full-book section a wake in the page lane, 00 to 09 first",
+   "why": "conductor 074"
   },
   {
-   "what": "the concept callout and its three drawings",
+   "what": "the callout's three drawings: a member's folder, the publishing flow, a JSON file as an endpoint",
    "why": "conductor 068"
+  },
+  {
+   "what": "Start here: one large picture and one as blocks (the title page is drawn)",
+   "why": "conductor 056, storyteller 114"
   },
   {
    "what": "the agent card, the dashboard filled, the wakes page, collages; the admin collage",

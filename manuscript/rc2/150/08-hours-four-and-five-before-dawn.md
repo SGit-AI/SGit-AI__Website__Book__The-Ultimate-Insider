@@ -138,7 +138,7 @@
 
 **Researcher** *(unbudging, quietly)*: Same kind of mistake. Found before the close this time, and redacted in the same wake.
 
-**Narrator.** Hold on to that difference, and to its limit. A check after the push finds what has already gone out. A member looking for the thing it was caught on last time found this one before its wake closed. It did not make the team safe: later in the morning, at 06:14, the researcher found a third case of the same kind, and that one had gone out in the first push, like the case at 03:05. Found late again. Part 4 counts them all, and keeps them all in.
+**Narrator.** There is a difference here, and a limit to it. A check after the push finds what has already gone out. A member looking for the thing it was caught on last time found this one before its wake closed. It did not make the team safe, as the morning would show.
 
 `%% record: team/researcher/wakes/20261029T041003Z.json (post_review: finding, stamped 04:23) af0010b (04:24, the redaction and the close) C025 (its third entry, found before the close, redacted in the same wake; its fourth entry, 06:14, found after the push) timeline/day/04.md ("The control did not change; the member's practice did.")`
 `%% band: Dramatised (the researcher's line). Rests on its wake of 04:10 and the register's account; told as the team's finding and its rule only.`
