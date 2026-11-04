@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "C061 added to Appendix A's file (63); writer4 asked; script FAILS 1 (92) after my edits; records written",
    "at": "2026-11-04T23:36:00Z"
+  },
+  "post_review": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Commit in scope, manuscript untouched; the changed Cited-in line is C129; script FAILS 1 (92 vs the file: C061 and C129), as expected; reviewer used Bash, none refused",
+   "at": "2026-11-04T23:38:20Z"
+  },
+  "post_check": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "C061 added (63), writer4 asked, librarian thanked, records, script rerun",
+   "at": "2026-11-04T23:38:20Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T23:38:20Z",
+ "outcome": "ok"
 }
