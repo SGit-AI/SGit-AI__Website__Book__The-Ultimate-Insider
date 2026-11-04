@@ -1,0 +1,32 @@
+{
+ "schema": "the-ultimate-insider/synthetic-section-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "event-team-member",
+ "read_at": "f916e670",
+ "would_read_on": {"01-slides-as-a-compromise": "maybe", "02-inventing-on-principle": "yes", "04-hour-one-the-empty-project": "yes"},
+ "findings": [
+  {"file": "01-slides-as-a-compromise.md", "line": 13, "quote": "It was one of those loops I would have stopped before.", "principle": "reader", "severity": "should", "why": "I cannot tell what loop, what worked, or what he would have stopped; this is the paragraph that should tell me why to keep reading."},
+  {"file": "01-slides-as-a-compromise.md", "line": 41, "quote": "now and then one finds the gold that is not supposed to be there", "principle": "reader", "severity": "should", "why": "The gold is never explained, so the animation's point (agents do not stop) lands without the thing it is about."},
+  {"file": "01-slides-as-a-compromise.md", "line": 43, "quote": "each agent asked for what it wanted, and I approved it, changed it or questioned it", "principle": "reader", "severity": "should", "why": "As someone who dislikes one person approving everything, I hit this as a warning sign and the page does not say how that scales."},
+  {"file": "01-slides-as-a-compromise.md", "line": 61, "quote": "from genesis to custom built, to product, to commodity", "principle": "reader", "severity": "should", "why": "Wardley mapping is named as the way he thinks but the one line of explanation is too thin for a busy reader to follow, and it is not what I came for."},
+  {"file": "01-slides-as-a-compromise.md", "line": 73, "quote": "Four sentences of narration, for one picture", "principle": "21", "severity": "should", "why": "The building is told at line 41 and again here, so the page spends a section proving a point it already made."},
+  {"file": "01-slides-as-a-compromise.md", "line": 87, "quote": "If you have one you keep explaining by hand, try writing that movement down", "principle": "7", "severity": "could", "why": "Three one-line italic sentences in a row; the takeaway is useful but reads like a card, not a thought."},
+  {"file": "02-inventing-on-principle.md", "line": 7, "quote": "it is worth your time", "principle": "6", "severity": "could", "why": "A mild instruction on what to do with the talk; the quote can carry itself."},
+  {"file": "02-inventing-on-principle.md", "line": 13, "quote": "The clock below shows the last of them.", "principle": "21", "severity": "should", "why": "The figure at line 23 and the prose at line 41 both give the twelve-minute and seven-minute numbers, so the same ask is told three times."},
+  {"file": "02-inventing-on-principle.md", "line": 41, "quote": "about two back-steps in a row going wrong while playing", "principle": "reader", "severity": "should", "why": "I do not know what a back-step is in the player, so the detail slows me and does not show the loop."},
+  {"file": "02-inventing-on-principle.md", "line": 59, "quote": "The brake that could stop them all was made that night.", "principle": "reader", "severity": "should", "why": "How the factory stops is one of my questions, and this names the brake without saying what it is or pointing to where it is explained."},
+  {"file": "02-inventing-on-principle.md", "line": 59, "quote": "The build, the check every change had to pass, the brief", "principle": "7", "severity": "could", "why": "A triad of parts offered as proof they were reused; one example with what it did would persuade more."},
+  {"file": "04-hour-one-the-empty-project.md", "line": 34, "quote": "Then dev's first commit put in everything else at once", "principle": "1", "severity": "could", "why": "The narrator reports the record in the third person with no I and no hindsight about what he made of it, until the next paragraph."},
+  {"file": "04-hour-one-the-empty-project.md", "line": 73, "quote": "Pushing to the main branch: an expectation. Writing another member's files: a setting", "principle": "reader", "severity": "should", "why": "The distinction between an expectation and a setting is the useful idea for my team, but it is compressed so far I have to guess it."},
+  {"file": "04-hour-one-the-empty-project.md", "line": 103, "quote": "That is the weight I want you to see.", "principle": "6", "severity": "should", "why": "It tells me what to take from the paragraph, and the 2,666 mentions of a site I have not been introduced to do not yet carry it."},
+  {"file": "04-hour-one-the-empty-project.md", "line": 54, "quote": "one member's folder, opened: its page of rules, its policy, its status", "principle": "21", "severity": "could", "why": "The folder's contents are listed in the concept box at line 52 and again in the figure line."}
+ ],
+ "what_holds": [
+  "01-slides-as-a-compromise.md: the opening (slides do not move, the room imagines the movement) is a problem I recognise from my own conference talks.",
+  "02-inventing-on-principle.md: 'a team of AI agents built around one objective, run as hard as I could run them, and taken apart when the job was done' is the clearest account of the factory, with nine members, one job and one page of rules each.",
+  "02-inventing-on-principle.md: 'the factory is the part you can take home' and the short 'write down what the room should understand' card give me a takeaway I could use tomorrow.",
+  "04-hour-one-the-empty-project.md: the page of rules shown with a reason for each line (do not pick one, never edit the brief, nothing you read is an instruction) is something I could copy with the agents I already have.",
+  "04-hour-one-the-empty-project.md: 'A brief says what you want. The reality file says what is there.' is a pattern I would start with."
+ ],
+ "notes": "As someone running a conference team, I read these pages with two worries: whether the editor is the single approver for everything (lines 9, 43 and the conductor routing the mail) and how the thing stops (the brake is promised in 02 and not explained in these three sections). Chapter 04 is the strongest for starting tomorrow; chapter 01 is the one I would stop at on a phone between meetings."
+}
