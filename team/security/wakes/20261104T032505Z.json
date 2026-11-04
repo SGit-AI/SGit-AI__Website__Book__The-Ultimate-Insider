@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T03:25:05Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, as the reviewer agent (callable: Read, Grep, Glob, Bash, SubagentHandback)",
+   "model": "haiku",
+   "verdict": "go",
+   "comment": "Note: security opened and QR-decoded the six fullpage shots before this plan (reading only). 1. Clear or hold each by name within AD1, decoded text in the scratchpad. 2. Answer librarian 028: its policy is not security's to edit. 3. New writers' keys reviewed as they land; whole-book pass read within time. Letters; board; status; debrief.",
+   "at": "2026-11-04T03:26:49Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent, as the reviewer agent (callable: Read, Grep, Glob, Bash, SubagentHandback)",
+   "model": "haiku",
+   "verdict": "go",
+   "comment": "In scope; images viewed before the plan recorded as reading only; policy 'proposed' with the editor.",
+   "at": "2026-11-04T03:27:05Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. Six fullpage shots QR-decoded and viewed: cleared by name within AD1. 2. Librarian 028 answered: not security's file. 3. Whole-book pass's 190 added lines scanned clean; new writers' keys next. Letter security__049; board; status; debrief.",
+   "at": "2026-11-04T03:28:16Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
