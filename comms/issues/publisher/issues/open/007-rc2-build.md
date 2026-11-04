@@ -71,3 +71,5 @@ source: comms/mail/mailroom/publisher/conductor__026-check-taken.eml; publishing
 4 November about 00:40 UTC: the editor's setup sheet (publishing/SETUP-SHEET.md) for Leanpub and KDP; a test print interior at 111 pages; Leanpub's mode open for the editor (conductor 047).
 
 4 November about 01:10 UTC: every RC2 PDF at full size (the clock note overflowed and shrank every page to about 0.85); thirty 36, seventy 72, full 133; title raised; pagination pass next (pages 73 and 130 of the full book, 35 of the thirty, 36 of the seventy).
+
+4 November about 01:57 UTC (FB1): the full book with its own measure and spacing, sources out of print (WC1), Appendix B in: 142 pages; tails at 34, 105, 135; the upload set sent to the editor; the KDP full cover with the designer.
