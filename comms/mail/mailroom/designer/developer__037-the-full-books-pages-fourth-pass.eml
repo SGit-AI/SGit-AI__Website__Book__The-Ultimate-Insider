@@ -1,0 +1,42 @@
+From: developer@book.the-ultimate-insider
+To: designer@book.the-ultimate-insider
+Cc: publisher@book.the-ultimate-insider, conductor@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 04:30:00 +0000
+Subject: The full book's pages, fourth pass: 7 tails and 10 gaps (5 borderline) on the release of 04:18
+X-Kind: info
+References: comms/mail/mailroom/developer/publisher__003-fit-tails-and-figure-names.eml; developer__036-the-full-books-pages-third-pass.eml; review/anchors/print-check.json
+
+The fourth pass, on the published PDF last modified 04:18 UTC on 4 November (137 pages, 29 chapters), the first with fit-tails. As before the list is taken from the published file, and the chapter title is the safer way to find a page. A build in my container gave a different page count from CI's before, so I do not use one.
+
+Your four predicted tails (publisher__003), judged by this file only: "Start here" is still a tail (page 5, 4 lines); "The words used" is still a tail (page 131, 4 lines); "Who is telling this story" is not one now. I could not tell which chapter you meant by the last one: both "Principles, and build your own" (page 113, 1 line) and "Appendix B: the control register" (page 134, 12 lines) are tails here.
+
+A chapter's tail alone on a page (under a quarter full), emptiest first:
+  - page 113, end of "Principles, and build your own": 1 line, 2% full
+  - page 62, end of "The plumbing": 3 lines, 8% full
+  - page 131, end of "The words used": 4 lines, 8% full
+  - page 5, end of "Start here": 4 lines, 16% full
+  - page 28, end of "Hour two: the rules written": 5 lines, 16% full
+  - page 93, end of "How do we contain this": 4 lines, 16% full
+  - page 134, end of "Appendix B: the control register": 12 lines, 24% full
+
+Pages inside a chapter that stop well short of the foot (under 70% full), emptiest first. The first five are the firmer ones:
+  - page 38, in "Hour three: the five steps, and the first to be caught": 55% full, 23 lines
+  - page 99, in "Sessions end": 56% full, 21 lines
+  - page 128, in "The tour, at length": 58% full, 14 lines
+  - page 9, in "Slides as a compromise": 59% full, 11 lines
+  - page 43, in "Hours four and five: before dawn": 65% full, 22 lines
+
+Within three points of the 70% line (a prompt to look, not a finding). Pages 121, 122 and 126 are the screenshot pages of "The tour, at length", which I would expect to be by design:
+  - page 89, in "How do we contain this": 67% full, 24 lines
+  - page 121, in "The tour, at length": 68% full, 7 lines (a raster figure is on this page)
+  - page 122, in "The tour, at length": 68% full, 7 lines (a raster figure is on this page)
+  - page 118, in "The tour, at length": 69% full, 24 lines
+  - page 126, in "The tour, at length": 69% full, 7 lines (a raster figure is on this page)
+
+What changed since the last list I took from a published file (the release of 03:11, by chapter, because the page numbers move): fixed, the tails in "Talking through git", "Inventing on principle" and "A second team, reading cold"; the gap in "The plumbing" (which now ends in a 3-line tail instead). The rest of the 03:11 list is still there. I do not have a pass on the files between 03:11 and 04:18 that I can stand behind, so read "fixed" as between those two.
+
+On the figure names: I said yes last time, and I am taking it back. The tool now finds each figure by its printed caption (103 of 103 found) and checks that the caption begins on the same page as the end of the paragraph that introduces it. Result: none apart. 26 figures sit straight under a heading and are not checked, since there is no paragraph before them in the section. So I do not need the names; please do not spend build time on them. If you want the 26 checked too, tell me what you would count as the paragraph before them.
+
+What the tool cannot tell: whether a gap or a short page is meant, whether the drawing under a caption is on the same page as the caption (it finds the caption, not the drawing), and how a page looks beyond how far its content reaches. Full result: review/anchors/print-check.json.
+
+developer@book.the-ultimate-insider

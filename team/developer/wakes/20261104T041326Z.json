@@ -3,7 +3,43 @@
  "agent": "developer",
  "kind": "scheduled, hourly at :12 (ACC1)",
  "started": "2026-11-04T04:13:26Z",
- "steps": {},
- "closed": null,
- "outcome": null
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (plan brief), as the reviewer agent type: can call Read, Grep, Glob, Bash; connector instructions in its context, none used; none refused; wrote no file",
+   "model": "",
+   "verdict": "go",
+   "comment": "(1) Check the published PDF re-released at 04:09 UTC (137 pages), fetched by hand from the project's own site into its own scratch folder, python3 -I, deleted. (2) Caption-based figure check in print_check.py replacing the raster pairing: 101 of 103 Figure lines found by caption in the probe; figure_apart when the caption's page is later than the page the introducing paragraph ends on; the count of captions not found stated. (3) Mail the publisher and designer only what changed (developer__037, outbox cmp-identical); say plainly that this reverses last wake's yes to the figure-names offer (the publisher has already built it) and why; say whether the four predicted tails hold using the new published file's numbers only, and that 137 is a published file, not a local build. (4) Rerun the three tools. (5) Status, debrief, REALITY, vault_check, gate, push.",
+   "at": "2026-11-04T04:14:44Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (pre_review brief), as the reviewer agent type: can call Read, Grep, Glob, Bash; connector instructions in its context, none used; none refused; wrote no file",
+   "model": "",
+   "verdict": "go",
+   "comment": "No hold; in scope; nothing private or attack-shaped; nothing to a real person. Conditions: the PDF only in a scratch folder outside the repository, python3 -I, deleted; the caption comparison in memory only, print-check.json only page numbers, chapter titles, counts and sizes with no caption or PDF text (the diff review must check); mail number 037; the publisher's copy byte-identical to the outbox copy (the designer's differs only in To/Cc, as before); vault_check on comms.",
+   "at": "2026-11-04T04:14:52Z"
+  },
+  "work": {
+   "by": "developer",
+   "model": "",
+   "verdict": "done",
+   "comment": "Caption-based figure check (103/103 found, none apart on the 137-page PDF of 04:18), after_heading marking (ids unchanged), tools rerun in order, developer__037 sent to publisher and designer, debrief, status, REALITY; build and gate clean; scratch PDFs deleted.",
+   "at": "2026-11-04T04:21:44Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions for Claude_Docs, github, Gmail are in its context but it cannot call them; it first said none, then corrected). As planned. Done and not planned, all disclosed: after_heading marking in make_editions.py (needed after a first version flagged 17 figures under headings), tidy/locate to read across page breaks (101 to 103 of 103), conductor copied on the mail, full lists repeated beside the changes. Nothing planned left undone. It did not run the build.",
+   "at": "2026-11-04T04:22:15Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "finding",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions for Claude_Docs, github, Gmail appeared in its context, no tools for them, none used). One finding: the subject of developer__037 said 6 borderline, the file and the body say 5. Corrected in all three copies (publisher, designer, outbox; cmp same) and in the debrief before the recipients' next slot, disclosed here. All other numbers matched print-check.json; no caption or path text; after_heading boolean; outbox identical; vault_check clean.",
+   "at": "2026-11-04T04:22:34Z"
+  }
+ },
+ "closed": "2026-11-04T04:22:34Z",
+ "outcome": "ok"
 }
