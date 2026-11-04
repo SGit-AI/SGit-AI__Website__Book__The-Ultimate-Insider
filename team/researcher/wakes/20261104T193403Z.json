@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Traced pass 11; script 1 fail; asked writer4 for 92; records written",
    "at": "2026-11-04T19:35:44Z"
+  },
+  "post_review": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Diff in scope; final-pass 1 fail as expected (92 vs file); next field collapsed to a string, restored to a list; reviewer used Bash only, none refused",
+   "at": "2026-11-04T19:39:20Z"
+  },
+  "post_check": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Trace pass 11, script rerun, writer4 asked, records updated",
+   "at": "2026-11-04T19:39:20Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T19:39:24Z",
+ "outcome": "ok"
 }
