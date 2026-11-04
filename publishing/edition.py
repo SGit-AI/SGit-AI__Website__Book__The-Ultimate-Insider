@@ -88,6 +88,15 @@ SHOT_CLEARED = {  # cleared by name by security, admitted before SHOT_NEVER and 
     "memory-talk-doc-corrections.jpg", "memory-talk-doc-the-next-hours.jpg", "memory-talk-article-night-log.jpg",
     "memory-crop-newsroom-sgit-ai-home.jpg", "memory-crop-php-october-newsroom.jpg",  # security__018
 }  # conductor__074: by name only, never by pattern
+SHOT_REFUSED = {"studio-ports__abp-review.jpg"}  # security__020: the unmasked original stays unplaceable; checked first
+
+
+def shot_allowed(name):
+    """A screenshot's file name, by the one rule both the build and rc2_map.py use: refused by name first, then cleared by
+    name, then the cleared kinds unless never-allowed."""
+    if "/" in name or ".." in name or name in SHOT_REFUSED:
+        return False
+    return name in SHOT_CLEARED or (not SHOT_NEVER.search(name) and bool(SHOT_OK.match(name)))
 UNSAFE_SVG = re.compile(r"<script|<foreignObject|\bon[a-z]+\s*=|@import|url\((?!\s*['\"]?#)"
                         r"|<(?:animate|animateMotion|animateTransform|set)\b|\\[0-9a-f]", re.I)  # SMIL, CSS escapes
 HREF = re.compile(r"""\b(?:xlink:)?href\s*=\s*(["'])(.*?)\1""", re.I | re.S)
@@ -124,7 +133,7 @@ def lab_drawing(path):
     full = os.path.normpath(os.path.join(ROOT, path))
     if path.startswith(SHOTS):  # the librarian's screenshots of the talk's site: only the named kinds, never a key
         name = path[len(SHOTS):]
-        if "/" in name or ".." in name or (name not in SHOT_CLEARED and (SHOT_NEVER.search(name) or not SHOT_OK.match(name))):
+        if not shot_allowed(name):
             print(f"edition: not placed, a screenshot outside the cleared kinds (security, 3 November): {path}",
                   file=sys.stderr)
             return None

@@ -97,3 +97,5 @@ source: comms/mail/mailroom/publisher/conductor__026-check-taken.eml; publishing
 4 November about 17:00 UTC: after the hold; boxes 36 to 26; 142 pages.
 
 4 November about 18:00 UTC: the team's cards in 00b; 137 pages; 19 boxes.
+
+4 November about 19:00 UTC: the unmasked policy page refused by name; 141 pages, 16 boxes.
