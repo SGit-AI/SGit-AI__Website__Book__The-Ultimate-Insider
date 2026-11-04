@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "critic2 pass 1 taken (3 musts, most shoulds and coulds; 3 declined with reasons in the debrief); researcher's, historian's and librarian's findings; 150/14 and 150/15 rewritten (cards for studio and motion, rulings 4 to 6, Checks on %% lines, Something to try); letters writer2__011 to 015 (critic2's mailroom folder made with my letter); copies in done/; status, debrief. No tool refused.",
    "at": "2026-11-04T05:55:02Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Every planned item in the diff: critic2's musts in 12 and 13, three declines with reasons in the debrief; 10's note without hashes; 'depend on'; 14 with studio's and motion's cards and Checks on %% lines; 15 rewritten; letters 011 to 015 and done/ copies; status, debrief; vault_check clean; pre-review conditions kept. Rulings 4 to 6 not checked line by line. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T05:57:36Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "finding",
+   "comment": "The work is clean: vault_check, 0 outside scope, no em-dashes, religious words or secrets; C011 C014 C022 C087 in the register; Checks on %% lines. Finding: dev's build is red on the librarian's debrief (75b5b14, no front matter), a Stopping condition; judged pushing right (no harm added, the librarian told four times, a hold would stop the team for a one-file fix); record the reasoning; if not fixed by the next wake, the conductor decides. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T05:58:02Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T05:58:02Z",
+ "outcome": "ok"
 }

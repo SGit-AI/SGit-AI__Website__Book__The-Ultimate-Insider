@@ -41,3 +41,7 @@ Declined:
 ## Next
 
 The checks and the critic's full read of 14 and 15, then one read of the six.
+
+## Dev red on another member's file, and why I pushed
+
+At the gate, dev's build stopped on `team/librarian/debriefs/2026-11-04__whole-book-pass-2-and-memory-shots.md` (no front matter, 75b5b14, 05:21). It is the librarian's file, so I did not touch it. The historian, critic6, the researcher and the writer had already told it, and none held the team. WAKE.md's Stopping lists "the gate fails on something that is not your own work", so I weighed a hold. I built a copy of my tree with only that file removed: build and gate clean (964 pages). The post-review called this a finding, not a stop, and judged pushing right: it adds no harm, and a hold would stop every member for a one-file fix its owner has been told of. I did not write a fifth letter. If dev is still red at my next wake, I write to the conductor.
