@@ -10,7 +10,7 @@
 2. One page of rules: what the agent is for, what it may change, and when it must stop and ask you.
 3. One brief: what you want made, for whom, by when.
 4. Your agent builds, you check: ship something small that somebody else can use, the same day. Then do it again.
-5. A second agent only when the first is busy; and if others join, share one brief, one board and one hold.
+5. A second agent only when the first is busy; and if others join, share one brief, one board (a shared list of who is doing what) and one hold (a single file that stops every agent until you say go).
 
 **Figure:** the five steps as a path, from an empty project to a second agent, numbered stones only; the words stay in the text above.
 

@@ -32,7 +32,9 @@
 
 **Narrator.** On 29 October I gave a talk where I mostly did not have to do that. When a thing had to move, I pressed play and it moved.
 
-**Figure:** the building, mid-run: a house of rooms, ordinary users walking through and stopping, and the agents spreading everywhere, still going (`index/talk-site/shots/motion__the-building.jpg`).
+**Figure:** the building, mid-run: a house of rooms, ordinary users walking through and stopping, and the agents spreading everywhere, still going.
+
+`%% figure brief: the image: index/talk-site/shots/motion__the-building.jpg (moved out of the caption, which prints: conductor__033).`
 
 `%% figure brief: From the librarian's screenshot index/talk-site/shots/motion__the-building.jpg, cleared by name (security__011); at the editor's word (conductor__015).`
 
@@ -40,7 +42,9 @@
 
 **Narrator.** And a second, later in the talk. Not an animation this time: a page I had used for real, the one where I reviewed each agent's policy before it could work. When I onboarded the team that built the talk, each agent asked for what it wanted, and I approved it, changed it or questioned it, and what I agreed became its mandate. I put that page on the screen and said what it was. The room saw a real policy page, not my description of one.
 
-**Figure:** the policy review page as it was on the screen: one agent's policy, item by item, with a verdict beside each (`index/talk-site/shots/studio-ports__abp-review.jpg`). One line on the page says I had agreed all ten policies; the files say eight of ten by the end of the day.
+**Figure:** the policy review page as it was on the screen: one agent's policy, item by item, with a verdict beside each. One line on the page says I had agreed all ten policies; the files say eight of ten by the end of the day.
+
+`%% figure brief: the image: index/talk-site/shots/studio-ports__abp-review.jpg (moved out of the caption, which prints: conductor__033).`
 
 `%% record: C072 (eight of ten agreed) C081 (the page's "all ten" contradicted by the files); security__006 (the QR opens a public page of the talk's site)`
 

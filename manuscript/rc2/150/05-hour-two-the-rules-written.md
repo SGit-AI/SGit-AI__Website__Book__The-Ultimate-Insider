@@ -8,7 +8,7 @@
 
 ## The hour the rules were written
 
-**Narrator.** In the second hour, almost all of the team's rules were written by one member, in about a quarter of an hour: how every session starts (pull first, then the banner), the checklist every turn of work follows, the form of every commit message, the schedule, and the hold.
+**Narrator.** The second hour was the rules. Almost all of them were written by one member, in about a quarter of an hour: how every session starts (fetch the team's latest work first, then print a banner saying who is working and on what), the checklist every turn of work follows, the form of the short message saved with every change, the schedule that wakes each agent at its own minute, and the hold, one file that stops them all.
 
 **Narrator.** The hold existed before the first scheduled session did. Nothing ran on the clock until there was a way to stop it.
 
@@ -30,7 +30,7 @@
 
 **Narrator.** This hour also holds the first time the team corrected its own way of working.
 
-**Narrator.** The conductor had created scheduled tasks for three other members, so that any of them could be switched off from one place. A few minutes later it switched them off itself and rewrote the rule: a member's task belongs to the session it runs in, and only that member makes it. None of the three had run. I pasted a short prompt into each member's own session, and each made its own.
+**Narrator.** The conductor had created scheduled tasks for three other members, so that any of them could be switched off from one place. A few minutes later it switched them off itself and rewrote the rule: a member's task belongs to the session it runs in, and only that member makes it. None of the three had run. Each member then made its own, in its own session.
 
 **Conductor**: I made their tasks for them. That was a reach too far. Each of you makes your own; I write down how.
 
@@ -60,7 +60,9 @@
 
 `%% for the editor (his view, held out of print until he confirms it, P30): the newsroom's "Of all the members, it is the one I would hire first for any team, because everything else rests on its work." (also a Check item).`
 
-**Cast card: the researcher.** *(beside its first scene)*
+**Cast card: the researcher.**
+
+`%% figure brief: the card's placing: beside its first scene (writer2__021: the stage label would print).`
 
 **Researcher** *(already reading)*: Hey, I'm the researcher, and this is where I arrive. Sources and evidence are mine: every source captured and kept, every number checked against where it came from. Give me a slot and a folder. Everything else, I will check.
 

@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T07:29:37Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Go with conditions: 13 letters; carried letters to inbox/, done/ only when acted on; researcher 031's D12 item already done last wake (say so); brief 15 holds 'the first hour was setup' and 'lessons learned' as his reading only, cited, C121's held line stays; admin__keys.jpg is the talk team's register, no QR promised; publisher's 00:15 could answered; P4 times from the register; designer card from C122.",
+   "at": "2026-11-04T07:32:37Z"
+  },
+  "pre_review": {
+   "by": "security (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Go: only images cleared by name, paths in briefs only, no fingerprint or session id typed; no unregistered number (not the twenty key.png); scope only; prompt-injection line as is; build, validate, scope, vault_check, em-dash and RW1 grep; push only on a green gate.",
+   "at": "2026-11-04T07:32:37Z"
+  },
+  "work": {
+   "by": "writer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Musts: 09 ruv-sgit, 02 caption, 00 board and hold, 00b project folder, 05 rules glossed. Shoulds: critic1 004 both, critic5 003, storyteller S1/S2, publisher house, writer2 card labels, conductor 033 Figure lines. 03 keys page (admin__keys.jpg, cleared). 08 in full with the designer's card; moods and cards in 06 to 08. Board 006 carried; letters 198 to 205.",
+   "at": "2026-11-04T07:37:22Z"
+  },
+  "post_review": {
+   "by": "security (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "clean",
+   "comment": "Diff a31e3cf..83975487 clean: no key, fingerprint or session id typed; admin__keys.jpg only, cleared by name; designer card traces to C011, C014, C022; no inline %%; views held; no em-dash or RW1 word; valve held.",
+   "at": "2026-11-04T07:40:44Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "as-planned",
+   "comment": "13 letters filed (9 done, 4 inbox with board 006); musts and shoulds as planned; scope 0 outside; nothing dated after the commit. Optional fixes taken: 08's 'quietly' out, the house caption's reading line, 'Declined: none'. Gate re-run green (997).",
+   "at": "2026-11-04T07:40:44Z"
+  }
+ },
+ "closed": "2026-11-04T07:40:44Z",
+ "outcome": "ok"
+}
