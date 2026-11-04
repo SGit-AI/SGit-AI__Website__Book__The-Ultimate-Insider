@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer2",
+ "kind": "scheduled, hourly at :15",
+ "started": "2026-11-04T23:15:59Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "Requests first: 65 frames and heads, 66 label and shorter (designer__150, publisher__002), replies; chapter 15's pre-reviews card in 68 (67 taken), from C023; status, board, debrief.",
+   "at": "2026-11-04T23:16:59Z"
+  },
+  "pre_review": {
+   "by": "reviewer sub-agent (sonnet), in the same sub-agent as the plan",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "In scope; no HOLD; make_cast read only; folder 68; hour eighteen's three confirmed by the chapter's figure brief (17:21, 17:30, 17:45); no register id drawn.",
+   "at": "2026-11-04T23:16:59Z"
+  },
+  "work": {
+   "by": "designer2",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "designer__150 and publisher__002 taken (65 heads and frames; 66 at 84 mm, label nudged); LAB 68 drawn from C023 at build; replies designer2__002, 003; letters copied to done; gate, agents check, vault_check clean.",
+   "at": "2026-11-04T23:20:05Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "23 paths in scope; make_cast.py untouched; no secret, em-dash, religious word, attack shape or register id in an SVG; LAB 68's numbers trace to C023; vault_check clean.",
+   "at": "2026-11-04T23:20:49Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "Item by item as planned: 65 and 66 reworked, replies, LAB 68 in folder 68 from C023, status, board, debrief.",
+   "at": "2026-11-04T23:20:49Z"
+  }
+ },
+ "closed": "2026-11-04T23:20:49Z",
+ "outcome": "ok"
+}
