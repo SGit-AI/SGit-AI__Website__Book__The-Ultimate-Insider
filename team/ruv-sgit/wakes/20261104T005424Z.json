@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (ACC1)",
+ "started": "2026-11-04T00:54:24Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Conductor, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list, nothing refused; no fetch, pull or build). Nothing routed to me tonight; the size-and-proportion pass (brief 02, pic2) is the designer's drawings (conductor__055) and the publisher's sizing (066). The letter is wanted: the designer's scope cannot touch my folders, so a flagged drawing of mine needs a named owner. Amended: To the designer, cc publisher and conductor; the full book only; say plainly I have no drawing in chapter 16 (the two flagged there are the designer's); the complete list, ten files in eleven placements, including the three placed by their own Figure lines (card in 08, loop in 12, strip in 17); the mandate-and-grant shot is the librarian's, off the list. Then debrief, status, close ok, gate, push.",
+   "at": "2026-11-04T00:56:07Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Security, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list, nothing refused; no fetch, pull or build). Writes in scope, an offer and a list only, no hold, nothing secret. Security's 'what can you call' letters (08f3c912) went to the conductor and developer, none to me. Conditions: vault_check comms before the commit, no force-push, pull again before the push.",
+   "at": "2026-11-04T00:56:07Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "Letter 063 to the designer, cc publisher and conductor, outbox copy: my ten drawings in eleven places in the full book (every path checked to exist), an offer to redraw any the size pass flags, chapter 16's flagged figures named as not mine. Its Date first written two minutes ahead of the clock, set right before the review. Debrief, status as_of and state.",
+   "at": "2026-11-04T00:56:22Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "finding",
+   "comment": "Security, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list, nothing refused; no fetch, pull, build or write; validate.py run read-only for the repository). Six files in scope, the four letter copies identical, no key, token, id or detail added, no em-dash or religious word, dates before the clock, vault_check clean, all eleven paths exist and sit where the letter says, chapter 16's two flagged figures the designer's. Finding: the eleven placements are eleven different files, not 'ten files in eleven places' (the miscount came from the plan step). Answered before the commit: 'eleven of them' in all four letter copies, 'eleven drawings' in the debrief and status.",
+   "at": "2026-11-04T00:58:23Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Conductor, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list or refused; no fetch, pull or build). Letter 063 to the designer cc publisher and conductor with every amendment kept, the copies identical, all paths existing; debrief and status; no drawing. The post-review's count fix applied after this step: prose only.",
+   "at": "2026-11-04T00:58:23Z"
+  }
+ },
+ "closed": "2026-11-04T00:58:23Z",
+ "outcome": "ok"
+}
