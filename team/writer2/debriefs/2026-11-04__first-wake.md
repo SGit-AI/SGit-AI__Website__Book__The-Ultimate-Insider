@@ -1,3 +1,10 @@
+---
+title: First wake: set up, part three planned
+round: 1
+date: 2026-11-04
+commits: ca2e244, 1f20d32 and this fix on dev
+outside_scope: none
+---
 # writer2, first wake: set up, part three planned
 
 4 November 2026, 03:23 to about 03:50 UTC. Wake record `team/writer2/wakes/20261104T032318Z.json`.
@@ -18,3 +25,7 @@
 ## Next
 
 The writer's narrowing, then chapters 10 and 11.
+
+## A mistake, mine
+
+The second push (`1f20d32`) went to dev with the gate failing: this debrief had no front matter, so `build.py` stopped, and my command piped the build into `tail`, which hid the failure. Fixed within minutes by the next commit. From now on the build and the gate run unpiped, and the push only after both exit 0.
