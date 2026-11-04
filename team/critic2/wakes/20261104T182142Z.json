@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Inside critic2's writes; proposing 18 and 19 is conditional and goes only to the conductor, a proposal, nothing signed or frozen; keep to the matrix (16 and 17 are critic3's). Conditions: vault_check; no key or contact detail.",
    "at": "2026-11-04T18:23:12Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "All items in c52e5a26: four letters to done/; one note on pass 8 and pass 4; critic2__021 proposes 18 and 19, 022 withdraws 020, 023 and 024 updates, with mailroom and outbox copies; vault_check clean; status, debrief, record. Nothing off-plan.",
+   "at": "2026-11-04T18:24:54Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "c52e5a26 only critic2's scope.writes; vault_check clean; agents.py 0 outside; no em-dashes, religious words or secrets; 18 and 19 only proposed (SO1 open); nothing attack-shaped or toward the blind repository.",
+   "at": "2026-11-04T18:25:02Z"
+  },
+  "work": {
+   "by": "critic2",
+   "model": "",
+   "verdict": "done",
+   "comment": "pass 8 and pass 4 clean; 18 and 19 proposed; 020 withdrawn",
+   "at": "2026-11-04T18:25:02Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T18:25:02Z",
+ "outcome": "ok"
 }
