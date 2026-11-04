@@ -32,6 +32,9 @@ PLACED = {
         "the talk's day as one picture": ("lab/experiments/57-designer-day-at-a-glance/day-at-a-glance.svg", "the designer's day (LAB 57), C095"),
         "the same day by member": ("lab/experiments/57-designer-day-at-a-glance/day-by-member.svg", "the designer's day by member (LAB 57), C095"),
     },
+    "rc2/150/10-talking-through-git.md": {
+        "the three notes as three cards on a line of time": ("lab/experiments/58-designer-three-notes/three-notes.svg", "the designer's three notes (LAB 58)"),
+    },
     "rc2/150/04-hour-one-the-empty-project.md": {
         "one banner, as a session prints it": ("lab/experiments/55-designer-findings-cards/ch4-banner-pair.svg",
                                                "the writer's own banners (its debrief of 4 November), drawn (LAB 55)"),

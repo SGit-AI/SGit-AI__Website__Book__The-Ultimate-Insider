@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, hourly at :57 London",
+ "started": "2026-11-04T20:59:20Z",
+ "steps": {
+  "plan": {
+   "by": "conductor-planner",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope: lab, team/designer, comms/mail/designer and mailroom designer__ letters, REALITY.md append; letters 146 and 147 follow 145 and every named incoming letter is in the inbox. Conditions: the LAB 58 card words must be checked at build against the chapter text, with no register id, hash or version drawn (the times only in the picture), per 143. The edits in item 3 (C071 out of ch6-letter-path and ch5-schedule, ch6-two-commits 'chapter 10') must stay inside lab/experiments/*-designer-* files and not touch manuscript. The 'leave for one drawing over the limit' in 147 is only an offer to the publisher, not a rule change, and letter dates must be no later than the commit. Do items in order, and put anything not reached in next.",
+   "at": "2026-11-04T21:00:08Z"
+  },
+  "pre_review": {
+   "by": "security-reviewer",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Read the chapter 10 quotes of the three notes (lines 50 to 62): they hold only member names, file names, a mailroom reference and site-relative paths (/studio/reviews/e03.html, e04.html); no secret, key, token, session id or external URL. Plan stays in designer scope (lab designer experiments, team/designer, comms/mail/designer) and touches nothing of chapter 9 or the manuscript. Conditions: draw the notes word for word with times only, no commit hash or register id (C107, C110 etc.) in the picture; keep the C071 and ch6-two-commits edits inside lab/experiments/*-designer-* files; run vault_check on comms before committing letters 146 and 147.",
+   "at": "2026-11-04T21:00:31Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "claude-opus-5-5",
+   "verdict": "partial",
+   "comment": "Done: LAB 58 three-notes (chapter 10 slot 2, quotes checked at build, no hash or id drawn), placed (101 lines, 72 drawn); ch2-dashboard 164x69.7 mm (publisher 053); ch6-two-commits says chapter 10, C071 out of ch6-letter-path and ch5-schedule drawn text (ruv-sgit 077), other LAB 42/43 drawings byte-identical; lab PDF 185 pages; letters 146, 147 (00b's key found already mapped since 20:53); six letters to done/; vault_check, agents check, build and gate clean. Not done: 3's house shorter, in next.",
+   "at": "2026-11-04T21:06:55Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
