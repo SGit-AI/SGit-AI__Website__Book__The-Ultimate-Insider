@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Done as planned. LAB 44: KDP full cover at 132 white pages (page box exactly 15.427x9.940 in; back with listing.md's description, barcode area clear; spine text inside the margin; cover A with its stripes into the bleed) plus a guides preview; Leanpub 1800x2700 from cover_signed(height), LAB 33's default byte-identical (cmp). 057: ch1-still-slide drawn in LAB 43 and listed. Letters 124 and 125; eight letters copied to done/. Lab 159 pages; gate clean.",
    "at": "2026-11-04T02:09:04Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "1950e3d2: all five conditions met. cover_signed() at its default equals cover-a-signed.svg exactly. The back carries only listing.md's traced description: no price, contact or link. The 132 pages are sourced to SETUP-SHEET. vault_check, agents.py and validate are clean. The script renders a file:// page with node playwright, then pypdf; no network, no upload. The PDF's metadata carries no ids. No em-dashes, no religious words. Tools: Bash only, none refused.",
+   "at": "2026-11-04T02:10:41Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "1950e3d2: 059 done (LAB 44 KDP full cover, 15.427x9.940 in checked with pypdf; Leanpub 1800x2700 checked); 057 done (still slide drawn and listed); the rest acknowledged and queued in letter 124's list; letter 125 sent; eight letters filed. Conditions kept. Nit: the letters' Date headers come after the commit time. Tools: Bash, none refused.",
+   "at": "2026-11-04T02:11:17Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T02:11:17Z",
+ "outcome": "ok"
 }
