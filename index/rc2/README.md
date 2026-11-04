@@ -131,11 +131,11 @@ Dramatised lines checked for whose work they rest on: the night log is the condu
 
 | Chapter, line | Quote | Speaker | Where it is | Holds |
 |---|---|---|---|---|
-| 10:28 | "E02 is ready in team/deck/drafts/ruv-sgit__blast-radius.md, to go once B01 v1 is delivered." | deck, a trailer to the conductor, 04:22 | commit `aeffbf9` | word for word |
-| 10:54 | "To-ruv-sgit: E03 kept (/studio/reviews/e03.html); E04 over-enthusiastic-agent in your mailroom." | deck, 09:21 | commit `6b55cff` | word for word |
-| 10:56 | "To-researcher: a plain description per capability in the grant rows, in your mailroom." | deck, 09:21 | commit `6b55cff` | word for word |
-| 10:60 | "To-deck: delivered: evidence/studio/studio-e02-e09-capabilities.json; reply 013 in your mailroom" | the researcher, 10:14 | commit `3f094f2` | word for word |
-| 10:64 | "To-ruv-sgit: E09 mandate-and-grant in your mailroom; E04 again ..." | deck, 10:21 | commit `36e382b` | as the seventy's 06 |
+| 10:28 | "E02 is ready in team/deck/drafts/ruv-sgit__blast-radius.md, to go once B01 v1 is delivered." | deck, a trailer to the conductor, 04:22 | commit `aeffbf9` | word for word (no longer in the chapter: gone in writer2's rewrite of 4 November; not carried) |
+| 10:50 | "To-ruv-sgit: E03 kept (/studio/reviews/e03.html); E04 over-enthusiastic-agent in your mailroom." | deck, 09:21 | commit `6b55cff` | word for word |
+| 10:52 | "To-researcher: a plain description per capability in the grant rows, in your mailroom." | deck, 09:21 | commit `6b55cff` | word for word |
+| 10:56 | "To-deck: delivered: evidence/studio/studio-e02-e09-capabilities.json; reply 013 in your mailroom" | the researcher, 10:14 | commit `3f094f2` | word for word |
+| 10:60 | "To-ruv-sgit: E09 mandate-and-grant in your mailroom; E04 again ..." | deck, 10:21 | commit `36e382b` | as the seventy's 06 |
 
 The talk team's vaults are named in 10, not cited by path; nothing of them is indexed here.
 
@@ -143,8 +143,8 @@ The talk team's vaults are named in 10, not cited by path; nothing of them is in
 
 | Chapter, line | Quote | Speaker | Where it is | Holds |
 |---|---|---|---|---|
-| 11:81 | "A thing not listed here does not exist, whatever a brief or an article says." | the talk's reality file | `REALITY.md` line 3 at `298be4e` | word for word |
-| 11:49 (note) | "the gate the conductor added at the editor's rule refused the release without it" | dev, its debrief | `team/dev/debriefs/2026-10-29__the-board.md` | word for word |
+| 11:82 | "A thing not listed here does not exist, whatever a brief or an article says." | the talk's reality file | `REALITY.md` line 3 at `298be4e` | word for word |
+| 11:49 (note) | "the gate the conductor added at the editor's rule refused the release without it" | dev, its debrief | `team/dev/debriefs/2026-10-29__the-board.md` | word for word (no longer in the chapter: gone in writer2's rewrite of 4 November; not carried) |
 | 12:15 | "The player, from ruv.sgit.ai, working on an iPad. This is the main priority." | the editor, the feedback round (about 13:50) | `team/conductor/briefs/2026-10-29__editor/feedback-briefs.md` | word for word |
 | 12:27 | "we can still do a lot before 7 and I can wake the agents up when needed ..." | the editor, after the conductor's review (14:05) | `team/conductor/briefs/2026-10-29__editor/conductor-notes.md` line 7; the cut marked | word for word |
 | 12:58 | "as given" | deck, of how it wrote the editor's feedback down | deck's commit subjects 14:26 to 14:43 (`64735b6`, `fd31308`, `3d49daf`, `3a22743`), not its wake record (letter 015) | the words hold |
@@ -182,6 +182,8 @@ The talk team's vaults are named in 10, not cited by path; nothing of them is in
 **4 November 2026, about 02:17 UTC: WC1, and the 150's chapter 1 as the editor's account.** The editor's decision WC1 (no "Where this came from" in the printed book; sources kept as `%% record` lines): `index/tools/check_sources.py` and `index/tools/chapter_entries.py` now read every `%% record` and `%% clock record` line anywhere in a chapter, as well as the section and the inline lines; the new check finds nothing the old did not on the 30, the 70 and the 150 as they stand, and negative controls (a chapter with no section and three bad record lines; one with no sources) are flagged. Appendix A as re-set (46 entries): every id is in the register; "Cited in" matches the chapters but C010's (94 cites it); all twenty plain-git command lines return what they ask for. 150/01 was rewritten as the editor's own account (his brief 04 of 4 November): its claims follow that brief, and the two quoted debrief titles in its record note are in `index/talk-site/crawl.json`; the quoted voice-note passages are gone from it. My letter 022's point on "fifteen minutes apart" was wrong (the commit messages of `09f13d5` and `02cbd86` do say it, wrapped over two lines); corrected in letter 023.
 
 **4 November 2026, about 03:17 UTC: the whole-book pass, part one, checked (the conductor's 031).** Sources clean; the pass adds no new quotation to a reading text, no new time, number or commit id; no new voice hit; the "Check" items in 00 and 00b are held on whole `%%` lines and print without the unconfirmed words. 00 (Start here) and 00b (Who is telling this story) are new: their five-part map matches the chapters (1 to 3, 4 to 8, 9 to 15, 16 to 19, 20 to 23); 00b's line on chapter 13 is what 13 says. The logistics scan finds eight reading-text lines, all already told. The full-page admin shots (the conductor's 027, AD1) are in `index/talk-site/shots/` as `fullpage-*.jpg`; the vaults page and the talk's keys page below its registry are held (they print the evidence vault's read key, held while D12 is open); `index/talk-site/tour-material.md` is updated to AD1.
+
+**4 November 2026, about 04:13 UTC: the 150's 10 and 11 as writer2 rewrote them, and 00b, 01 and 02 as the writer's pass leaves them.** WR2: four writers now (the writer 00 to 09 and the 30 and 70; writer2 10 to 15; writer3 16 to 19; writer4 20 to 23 and the back matter). Sources clean on all five, read from the record lines (WC1); no voice hit; the logistics scan finds nothing in them. In 10 and 11 every trailer and quoted line is the record's (the five trailers of 10; 11's reality-file line and "None yet."; "tomorrow" is in the talk's `BRIEF.md`), every commit time the commit's own; the two "Something to try" cards' record lines name the newsroom's file and the cast guide. The "Check" rule: seven sentences (three in 10, four in 11) sit on whole `%%` lines and none prints. In 02 the registered facts say what the printed lines say (C116 the scripted talk "due on 15 October", C117 the nine drawn "overnight", C118 the asks); the empty-chair lines are his correction of 4 November (brief 21); Bret Victor's line is C103's. Nothing to send back; one tiny suggestion on 01's record line (letter 025).
 
 ## The writer's readings, for the editor to keep or drop
 
@@ -230,8 +232,9 @@ Where a sentence in the editor's voice is the writer's reading of his view rathe
 | `150/01-slides-as-a-compromise.md:17` | the four paragraphs above tell his account of 4 November (brief 04) in his voice, with the continuum from the record; "It did not come from nowhere" and "This is a continuum, not a lucky day" are the writer's; his to keep or drop. |
 | `150/01-slides-as-a-compromise.md:23` | the paragraph above is the writer's reading of his view, beyond the voice note; his to keep or drop. |
 | `150/01-slides-as-a-compromise.md:75` | the narration paragraph is the writer's paraphrase of what the slide would have needed, built from your own words at 15:50 (C102); his to keep, change or drop. |
-| `150/02-inventing-on-principle.md:17` | "With slides, I made that trip alone, and usually once." is the writer's reading of his view; his to keep or drop. |
-| `150/02-inventing-on-principle.md:85` | "Why a day?" and its answer are the writer's reading of the factory as you described it on 1 November (PS1); his to keep or drop. |
+| `150/02-inventing-on-principle.md:15` | the newsroom's "between one minute and about a quarter of an hour" became "the fixes to the player came back in minutes; the bigger asks took longer", because C118 holds the work on asks 1 to 4 at longer than that; his to keep or change. |
+| `150/02-inventing-on-principle.md:19` | the two paragraphs above are the newsroom journalist's rewrite (part one, section 6), close to its words; his to keep or change. |
+| `150/02-inventing-on-principle.md:75` | the factory paragraphs are the newsroom journalist's rewrite (part one, section 6), close to its words, its unregistered facts held out; his to keep or change. |
 | `150/03-the-tour.md:31` | "Nobody tidied it." is the writer's reading; his to keep or drop. |
 | `150/03-the-tour.md:45` | "This is the page I would show anyone who doubts" is the writer's reading of his view; his to keep or drop. |
 | `150/03-the-tour.md:63` | "What I like about it" is the writer's reading; his to keep or drop. |
@@ -249,13 +252,14 @@ Where a sentence in the editor's voice is the writer's reading of his view rathe
 | `150/09-nine-hours-with-nobody-starting-work.md:30` | "the thing I would look for first in any team I had left alone" is the writer's reading of his view; his to keep or drop. |
 | `150/09-nine-hours-with-nobody-starting-work.md:143` | "The five steps were doing what I had asked of them in the long middle of the day" is the writer's reading of his view; his to keep or drop. |
 | `150/09-nine-hours-with-nobody-starting-work.md:180` | "the part of the record I find hardest to believe, and easiest to check" is kept from the 70-page edition's chapter 7, where it is flagged as the writer's reading of his view; his to keep or drop. |
-| `150/10-talking-through-git.md:24` | "the part I did not expect" is the writer's reading; his to keep or drop. |
-| `150/10-talking-through-git.md:50` | "a worked example the record keeps" is the writer's reading; his to keep or drop. |
-| `150/10-talking-through-git.md:84` | "the one I would copy first" is the writer's reading; his to keep or drop. |
-| `150/10-talking-through-git.md:102` | "It reads like a workshop's whiteboard" is the writer's reading of his view; his to keep or drop. |
-| `150/11-the-plumbing.md:5` | "Nobody puts the plumbing in the brochure." and "It was the most important one." are the writer's; his to keep or drop. |
-| `150/11-the-plumbing.md:93` | "The rule was right; nobody used it." is the writer's reading of his view; his to keep or drop. |
-| `150/11-the-plumbing.md:97` | "I would keep the file, and give one member the job of writing in it." and the sentence after it are the writer's reading of his view; his to keep or drop. |
+| `150/10-talking-through-git.md:9` | the opening is the newsroom journalist's rewrite (part three, chapter 10), close to its words; "one of the most useful ideas in the whole book" is his to keep or change. |
+| `150/10-talking-through-git.md:28` | "the part I did not expect" is the writer's reading; his to keep or drop. |
+| `150/10-talking-through-git.md:82` | "the one I would copy first" is the writer's reading; his to keep or drop. |
+| `150/10-talking-through-git.md:100` | "It reads like a workshop's whiteboard" is the writer's reading of his view; his to keep or drop. |
+| `150/11-the-plumbing.md:5` | "Nobody puts the plumbing in the brochure." is the writer's, and the newsroom keeps it as his; "one of the most important choices of the day" is the newsroom's; his to keep or drop. |
+| `150/11-the-plumbing.md:21` | "it is why I now think every team that publishes anything ... should keep one" is the newsroom journalist's line in your voice (part three, chapter 11); yours to keep or change. |
+| `150/11-the-plumbing.md:94` | "The rule was right, and nobody used it, me included." is the newsroom journalist's reading of your view (part three, chapter 11); yours to keep or drop. |
+| `150/11-the-plumbing.md:98` | "I would keep the file, and give one member the job of writing in it." and the sentence after it are the writer's reading of his view; his to keep or drop. |
 | `150/12-the-creator-comes-back.md:31` | "something I would rather it did not" and "that one is mine" are the writer's reading of his view; his to keep or drop. The record holds the order and his words, not his feeling about them. |
 | `150/12-the-creator-comes-back.md:46` | "the thing I would most want a team to do" is the writer's reading of his view; his to keep or drop. |
 | `150/12-the-creator-comes-back.md:108` | "it is the thing I came back for" and "What it could not do was decide" are the writer's reading of his view, the second from the historian's day file for hour fifteen; his to keep or drop. |
