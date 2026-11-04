@@ -2,14 +2,12 @@
 
 From the chapter's `%% record` lines (and its `## Where this came from`, where it still has one) in `manuscript/rc2/150/06-roles-as-a-cast-you-can-read.md`, resolved by `index/tools/chapter_entries.py`. Each row is the index's own entry for the file: kind, owner, when it was added and last changed, and what it is.
 
-## talk at 298be4e (30)
+## talk at 298be4e (28)
 
 | Path | Kind | Owner | Added | Last changed | What it is |
 |---|---|---|---|---|---|
 | `team/researcher/ROLE.md` | role | researcher | `02cbd86` 2026-10-29 01:27:10 | `01e9ed3` 2026-10-29 01:52:10 | researcher@the-ultimate-insider |
 | `team/researcher/policy.json` | policy | researcher | `01e9ed3` 2026-10-29 01:52:10 | `a082c52` 2026-10-29 02:52:56 | title: Sources and evidence: every source captured and hashed, the claims register and the ideas map, new agent incidents |
-| `team/designer/ROLE.md` | role | designer | `c6dcf89` 2026-10-29 03:41:34 | `72025ae` 2026-10-29 15:54:11 | Role: designer@the-ultimate-insider |
-| `team/designer/policy.json` | policy | designer | `c6dcf89` 2026-10-29 03:41:34 | `f448345` 2026-10-29 04:03:55 | title: Layout, width, type and the design system |
 | `team/storyteller/ROLE.md` | role | storyteller | `7d0244d` 2026-10-29 14:15:17 | `2afe0d7` 2026-10-29 16:04:05 | storyteller@the-ultimate-insider |
 | `team/motion/ROLE.md` | role | motion | `f1cbca0` 2026-10-29 15:31:01 | `f1cbca0` 2026-10-29 15:31:01 | Role: motion@the-ultimate-insider |
 | `team/studio/ROLE.md` | role | studio | `8d208d3` 2026-10-29 15:31:55 | `c3ce566` 2026-10-29 15:40:21 | Role: studio@the-ultimate-insider |
