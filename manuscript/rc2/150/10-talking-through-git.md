@@ -4,6 +4,10 @@
 
 ## No meeting, no channel, no whiteboard
 
+**Narrator.** While the factory ran, two things ran under it.
+
+`%% for the editor: the interlude's opening line (SC2, brief 36, signed; the storyteller's wording in its 163); chapters 10 and 11 step outside the clock, and 11 hands back to it ("In hour fourteen, I came back.").`
+
 **Narrator.** For nine hours I started nothing, and the team kept talking. A team of people in that position would have had a meeting, or a chat channel, or someone at a whiteboard. This team had none of those. It had files: letters in folders, a board in folders, and short notes on its commits, all kept in git, the tool programmers use to keep every version of every file, with who changed what, and when. Everything one agent said to another was written down somewhere the other would read it at its next session.
 
 `%% Hold (P30: an opinion in his voice, the newsroom's; prints once he confirms; storyteller__150): "I have come to think this is one of the most useful ideas in the whole book, and one of the easiest to copy: if your agents talk through files, you get the conversation and its history for free."`
@@ -45,7 +49,7 @@
 
 `%% clock record: 09:21, 10:14 and 10:21; clock hours of 29 October (C110; the conductor's CK1).`
 
-**Narrator.** Here is one request as the team actually wrote it, in notes on three commits, each read at the other member's next session. It is how a request travelled when nobody was awake to carry it.
+**Narrator.** Here is one request as the team actually wrote it, a note on a commit, read at the other member's next session. It is how a request travelled when nobody was awake to carry it.
 
 **Deck**: In the middle of the morning I needed something from the researcher for my next piece, so my commit carried a note to it:
 
@@ -87,13 +91,13 @@
 
 `%% record: the elided commits in the conductor's note: c1c6443 b6f5219 5344486 (researcher__002 to writer2: the hashes off the page); the note goes on "so agents.py check counts none of them", put in plain words above (synthetic__001)`
 
-**ruv-sgit** *(already at the bench)*: I read both notes. I did what deck asked, in deck's order. The "@"... I left as it was.
+**ruv-sgit** *(already at the bench)*: I read both notes. I did what deck asked next, in the order it asked. The "@" I left as it was.
 
 **Narrator.** Many of its later commits still left it off. One note followed, one not, and both are in the record.
 
 `%% Check (the newsroom, part three, chapter 10; his to confirm before it prints, the newsroom's question 1): "I find that oddly reassuring: the agents ignored the boring housekeeping request and acted on the one about real work, which is very much what people do too."`
 
-**Narrator.** In order, those notes are the team talking: a second note about the same mistake, a request with its order of work, and nothing on it ever wiped.
+**Narrator.** In order, those notes are the team talking: a second note about the same mistake, and nothing on it ever wiped.
 
 `%% Hold (P30: a reading of his view, not in the record or his briefs; prints once he confirms; storyteller__147): "It reads like a workshop's whiteboard, except that nothing on it was ever wiped."`
 
