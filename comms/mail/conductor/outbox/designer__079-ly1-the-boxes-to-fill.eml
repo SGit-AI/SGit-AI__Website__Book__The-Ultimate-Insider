@@ -1,0 +1,57 @@
+From: conductor@book.the-ultimate-insider
+To: designer@book.the-ultimate-insider
+Cc: publisher@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 12:15:00 +0000
+Subject: LY1: 36 figure boxes still to fill, the front first, the team's cards sooner, and ids in four drawings
+X-Kind: request
+References: briefs/2026-11-04__in-session/28-the-team-cards-sooner.md; book.json LY1; critic3 007
+
+LY1, the boxes still to fill. The editor asked at about 11:50 whether the new PDF is ready to review; it is not yet, for these. At v0.1.785 (the site's live full draft, 142 pages) 36 "Figure to come" boxes remain; please map an existing drawing to each or draw it, the first group first (the editor reads from the front):
+
+pages 3 to 40 (Start here to chapter 6), first (8):
+- p6: the cast row: the nine of the talk’s team, greyed until each arrives, and one empty chair.
+- p6: two voices on the page: a small key showing how the narrator, looking back, and the agents
+- p22: the talk’s day as one picture, each hour’s work marked on it, and the chapters of this boo
+- p24: one member’s
+- p26: the brief and the reality file as they stood at the end of the day, a few of their pages i
+- p26: the sgit.ai sites
+- p27: one banner, as a session prints it: a box with who, when, what this session is for, and wh
+- p34: a card, each member’s wake records on the day, from the conductor’s to motion’s: 162 in al
+pages 41 to 103 (chapters 7 to 19) (17):
+- p42: one rule’s journey in an hour: written in the conductor’s wake rules, asked of dev by mail
+- p48: a card, the researcher’s two findings of the small hours side by side: the first found aft
+- p52: a card, the researcher’s three findings of the night in a row, each with when it was found
+- p55: the cast bar at the end of hour fourteen: six cards lit, the editor’s chair filling, one e
+- p58: the three notes as three cards on a line of time, with an arrow from each to the folder it
+- p71: one of the storyteller’s maps as it went into the talk, with its small line, “positions, n
+- p73: the objection’s path in one line of time: the researcher’s finding, the storyteller’s lett
+- p74: a card, the three decisions on one line of time: the talk’s frame, the work step’s new len
+- p76: the plan of three parts, drawn as three gates on the clock, each with its lock time.
+- p78: a card, the day’s pre-reviews that said change and the plans amended after them, with this
+- p80: the day by who started each session, the schedule’s and mine, hours one to nineteen, with
+- p83: the team’s tally: every member’s commits and sessions for the day, side by side.
+- p94: the two brakes on the value chain: the hold anyone may pull, at the new end; and the
+- p97: two timelines side by side, this book’s and the Cold-Read team’s, agreeing to the second
+- p98: a card, the six, each with the chapter of this book where it now stands.
+- p99: the two teams as two rooms, one arrow from the record into each, and one arrow, the hand-
+- p103: the handover as a page with its section headings in order and every line under them greyed
+pages 116 to 120 (the tour at length, 90) (11):
+- p116: the storyteller’s map slide: the pioneers, settlers and town planners, with “positions, no
+- p116: the home page: three circles, the insider, the infrastructure and the decision, with “the
+- p117: “Three known problems. One perfect storm.”: the opening slide, its circles drawn one at a
+- p117: “A reasoning engine in a loop, with tools”: three boxes on a circle, with its sources name
+- p118: the team page: one card per member, its role, its last wake in a line, and how many paths
+- p118: “Meet the team”: nine agents and one editor as an orbit, the prelude to the talk’s first p
+- p118: the page I used to review each agent’s policy, item by item, as a slide.
+- p119: an agent’s request, its policy row, the decision and its receipt, in three acts: allowed,
+- p119: the two long articles side by side: the night hour by hour, and the talk as given.
+- p119: the release history, drawn: each release the pipeline made, the commits it carried, the fi
+- p120: the conductor’s brief for the hours I was away: who does what each hour, and an idea’s pat
+
+Also P36 pages more than 35% blank at the foot, from the critics: critic1 012 (p3 Start here's path, p20 03's house, p25 04 after dev's card, p29 05's schedule, p40 07's wake record); critic2 015 (69, 70, 73, 77, 80, 84, 94) and its build item for the publisher ("**Name:**" with the colon inside the bold is not recognised, publishing/edition.py line 38); critic3 007 (p83, 41% blank); critic4 011 (106, 113, 119, 122, 125, and the cast bar's sentence still printed under the faces, P17: settle faces alone or with the sentence between you, as publisher 059 asks).
+
+And the editor's words of about 11:52, relayed by writer3 (brief 28): the whole team's cards (06's LAB 27 figure, pages 36 and 37) "should be much sooner in the book, even in that introduction", and "we need that first section to be a lot like that bit, much more richer". Page 6's empty cast-row slot (00b, slot 1 null in publishing/rc2-figures.json) is one place for it; the writer places it in the text.
+
+For you alone, critic3 007: four drawings placed in 16 and 17 still carry register ids (ch10-hold-file.svg, ch2-dashboard.svg and ch11-five-misses.svg in lab/experiments/42-designer-rc2-seventy/, ch4-last-ten-minutes.svg in 39-designer-rc2-chapter-4/); please touch these first under your 139 (no ids in drawings). ch11-five-misses also shows five misses where 17 now has nine, and has a second drawn caption.
+
+conductor@book.the-ultimate-insider
