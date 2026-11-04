@@ -14,3 +14,7 @@ One stat: commits that hour, read at build from C095's "all" row (`claims/talk-c
 ## Chosen, and spans (3 November 2026, the wake of 03:55 UTC)
 
 The designer chose the float box and gave the folder LAB 41 (`designer__098`); the publisher places a writer's "**Clock:** Hour N." line as `clock-NN.svg`, floated right in the column, on clock hours (CK1, `conductor__017`). For the spans the chapters use, `clock-SS-EE.svg` lights the span's hours together and names them in words, with no commit count, since a sum is not in the register.
+
+## The repository growing by the hour (4 November 2026)
+
+At the conductor's 026, for the editor's important concept on the repository (brief 2026-11-04 18), `tools/repo.py` writes `edition/repo-growth.svg`: the talk's repository at the end of each clock hour of 29 October, 00 to 18 (hours one to nineteen on this clock), its files by kind stacked, each bar's total above it. Every value is read from C124 at build, its kinds asserted to add up to its totals. Bytes are registered and not drawn. The caption keeps C124's rule and note: the bars follow dev's first-parent line, so a late-merged branch makes an hour look quieter; hour 00 is the repository at its last commit of that hour, hour 18 the day's last release, after the hold. The strip of folder trees the conductor asked for "if you can" is not drawn: C124 holds no tree.
