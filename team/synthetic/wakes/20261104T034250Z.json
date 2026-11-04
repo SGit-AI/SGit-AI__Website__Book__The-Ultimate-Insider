@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "In scope (team/synthetic, a letter to security with outbox copy); no secret, no stop condition. Conditions: no key or contact detail in the letter; vault_check before commit; notes on 033-035 in the debrief only. Tools it can call: Read, Grep, Glob, Bash; the Claude_Docs, github and Gmail MCP tools are described in its context, not called; nothing refused.",
    "at": "2026-11-04T03:43:39Z"
+  },
+  "work": {
+   "by": "synthetic",
+   "model": "claude-sonnet-5-5",
+   "verdict": "done",
+   "comment": "conductor__033 to __035 taken; 008 note on who owns which part; synthetic__005 to security with outbox copy; status, debrief; vault_check, gate, scope clean. No read: the publisher has not said the build holds parts one to three.",
+   "at": "2026-11-04T03:44:17Z"
+  },
+  "post_review": {
+   "by": "security sub-agent, as the reviewer type (post_review.md)",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "100dcab2: 6 files in scope; validate clean (922); 0 outside; vault_check clean; one board note and one letter (mailroom/security and outbox), no key or personal detail. Callable tools: Read, Grep, Glob, Bash; the three MCP servers' tools described in context, not callable, none called; nothing refused; wrote no file.",
+   "at": "2026-11-04T03:44:54Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent, as the reviewer type (post_check.md)",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "033 to 035 taken (debrief), 008 note, status and synthetic__005 in 100dcab2; no read, as planned; conditions kept. Callable tools: Read, Grep, Glob, Bash; MCP tools described only; nothing refused.",
+   "at": "2026-11-04T03:44:54Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T03:44:54Z",
+ "outcome": "ok"
 }
