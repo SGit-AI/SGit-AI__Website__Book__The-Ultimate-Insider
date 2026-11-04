@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T22:10:48Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Read the diff since 21:15 (03b, 06, 08, 21); check 08's new times against the talk's commits; rerun the final pass; review, debrief, status; build+gate before push.",
+   "at": "2026-11-04T22:11:10Z"
+  },
+  "pre_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No secret, contact detail, model name or Cold-Read cross.",
+   "at": "2026-11-04T22:11:10Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Read the diff since 21:15 (03b, 06, 08, 19, 21); final pass no fails; two new times in 08 checked (a should and a could) and sent to the writer; review, README, debrief, status; build+gate run.",
+   "at": "2026-11-04T22:13:23Z"
+  },
+  "post_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Nine files in scope; no secret, model name, em-dash or religious word; no Cold-Read flow.",
+   "at": "2026-11-04T22:13:43Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Diff since 21:15 read; 08's two times checked (deck's wake started 04:18:22, confirmed); final pass no fails; letter 027, review, README, debrief, status in the diff; build and gate clean (1212 pages, my run).",
+   "at": "2026-11-04T22:13:43Z"
+  }
+ },
+ "closed": "2026-11-04T22:13:43Z",
+ "outcome": "ok"
+}
