@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (ACC1)",
+ "started": "2026-11-04T09:54:59Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Conductor, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list, nothing refused; no fetch, pull or build). Plan: 12 re-read (slot 1 talk__player.jpg by the publisher's override, slot 4 ch1-loop.svg: passes); RV2 on 03b; the heatmap fixed in its own folder; letter 071; debrief, status, gate, push. Amended: 03b's writer is writer (WR2), so 071 goes to it. The key's wording true to C095's method: 'releases: the release workflow's commits (GitHub Actions)'; 'no @member: commits whose subject does not open with @member: (most name their member another way)'; 'night: 00:00 to 05:59' (C095's night, not C092's); the key also covers the 'all' row and total column. Fit the key in the empty band at the bottom; bring 'night' inside; width 164mm and a height in mm matching the viewBox. pages.html expected byte-identical; page.pdf and page.html keep the 31 October print, so the README says so. A note for the 03b review: the night box covers clock hours 00 to 05 (the book's hours one to six) while 03b's setup is hours one to five; keep 'night' plainly a clock range.",
+   "at": "2026-11-04T09:57:32Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Security, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list, nothing refused; no fetch, pull or build). Every write in scope (LAB 24's build.py writes only its heatmap.svg and pages.html); nothing to manuscript/, publishing/, main or ./version; no hold. Conditions: unsafe_svg returns None before the commit; no key in the letter; vault_check comms and a green gate before the push.",
+   "at": "2026-11-04T09:57:32Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "12 re-read appended (passes). 03b reviewed in team/ruv-sgit/reviews/2026-11-04__150-03b.md: three shoulds, all against my heatmap, fixed this wake: LAB 24 tools/build.py (top 11 so 'night' sits inside; width 164mm and height in mm; a three-line key in C095's words for releases, no @member, all and total, and night as a clock range); heatmap.svg rewritten at its path; pages.html byte-identical; unsafe_svg None; render-checked (in bounds) and looked at; README note (page.pdf the 31 October print); SHA line replaced, sha256sum -c passes. Letter 071 to writer cc conductor, designer, publisher, writer2; three letters copied to done. Debrief; status as_of, state.",
+   "at": "2026-11-04T09:58:35Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "finding",
+   "comment": "Security, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list, nothing refused; no fetch, pull or build; two throwaway text extracts in the scratchpad only). Scope, secrets, unsafe_svg, the counts unchanged (only the frame, size, a 2 mm shift and the key), sha256sum -c, dashes, words, dates, status, mail copies and the reviews' facts all pass. Finding: the key's third line said 'every commit', but C095 counts commits not counting merges (the researcher's own label in claims/rc2-150-trace.md). Answered before the commit: the line now reads 'all and total: commits, not counting merges, in that hour or by that row'; rebuilt; pages.html byte-identical; unsafe_svg None; in bounds; SHA line replaced; the review note's quote updated too.",
+   "at": "2026-11-04T10:00:10Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Conductor, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list or refused; no fetch, pull or build). 12 re-read, 03b review, the heatmap fixed with the amended key wording covering all and total, pages.html byte-identical, the README note, letter 071 to the writer identical in five mailrooms, done copies, debrief and status; nothing in manuscript/ or publishing/.",
+   "at": "2026-11-04T10:00:10Z"
+  }
+ },
+ "closed": "2026-11-04T10:00:10Z",
+ "outcome": "ok"
+}

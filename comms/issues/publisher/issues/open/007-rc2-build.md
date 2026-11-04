@@ -87,3 +87,5 @@ source: comms/mail/mailroom/publisher/conductor__026-check-taken.eml; publishing
 4 November about 08:05 UTC: cast cards, the concept callout and the tear-out page laid out; chapter 3's house and keys page placed; 135 pages.
 
 4 November about 09:05 UTC: drawn cast bars in all 24 chapters; seven placements restored from figure briefs; 03b in; 92 held; 136 pages.
+
+4 November about 10:05 UTC: the three keys in 03; RV2 part two (05 passes); 132 pages.

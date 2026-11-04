@@ -204,6 +204,10 @@ def book_blocks(text):
             out += [":::", ""]
             i = j
             continue
+        if s == "*Dramatised.*":  # the band's note: kept with what follows it, a figure most of all (developer__043)
+            out += ["", "::: dramatised", lines[i], ":::", ""]
+            i += 1
+            continue
         if s.startswith("**Tear-out page:**"):
             out += ["", "::: tear-out", lines[i], ""]
             j = i + 1
