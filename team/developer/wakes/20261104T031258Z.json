@@ -3,7 +3,22 @@
  "agent": "developer",
  "kind": "scheduled, hourly at :12 (ACC1)",
  "started": "2026-11-04T03:12:58Z",
- "steps": {},
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (plan brief), as the reviewer agent type: can call Read, Grep, Glob, Bash; connector instructions in its context, none used; none refused; wrote no file",
+   "model": "",
+   "verdict": "go",
+   "comment": "(1) Check the published full-book PDF re-released at 03:11 UTC (v0.1.657, 140 pages), by hand into its own scratch folder (fetched from the project's own site, https://the-ultimate-insider.book.sgit.ai/rc2/one-human-nine-agents-rc2-full-draft.pdf), python3 -I, deleted afterwards; mail the publisher and designer only what changed (developer__036, outbox cmp-identical), answering the publisher's offer of figure names. (2) Rerun make_editions, print_pages, make_editions. (3) The online page view shows only what prints: mirror build_book.py's drop_sections rule, mark paragraphs of dropped sections in_print:false (only when false), leave them out of the view and the matching count, say how many and where to read them; check every other paragraph id is unchanged. (4) TG1: 20:00 London is the aim, not a freeze; the last page check on the last published PDF around then. (5) Status, debrief, REALITY, vault_check, gate, push.",
+   "at": "2026-11-04T03:14:51Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (pre_review brief), as the reviewer agent type: can call Read, Grep, Glob, Bash; connector instructions in its context, none used; none refused; wrote no file",
+   "model": "",
+   "verdict": "go",
+   "comment": "No hold; in scope. Fetching the PDF from the project's own public site is acceptable on four conditions: its own new empty folder, scripts outside it, the path passed as an argument (print_check.py --pdf FILE) and python3 -I, only poppler tools reading it; deleted afterwards; the proxy used without disabling TLS verification. Also: vault_check before committing; outbox copies byte-identical to the mailroom copies; in_print:false only on the paragraphs of the sections named in the #! drop-section: line of Book.txt (currently 'Where this came from').",
+   "at": "2026-11-04T03:15:00Z"
+  }
+ },
  "closed": null,
  "outcome": null
 }
