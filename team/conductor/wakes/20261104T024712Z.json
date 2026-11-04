@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "editor's chat",
+ "started": "2026-11-04T02:47:12Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Reviewer agent, corrections taken: brief 20 verbatim; book.json gains CV3 ('RC2 \u00b7 NOV 2026 \u00b7 CC BY 4.0') and TG1 (aim Wed 20:00 London, not a freeze), LP2 decided B superseding L2's Git mode; the claims (C089, C011, C037, C081, C068/D12) settled by letter to the researcher, not in book.json (book.json's own C011 is another decision); C068 kept in the register, marked not printed per D12. ORDER SLIP: release.yml edited before the gate (the upload-set step: continue-on-error, every line warns, paths exist, writes only _site/rc2/upload, no page links it); latent: validate.py's skip regex misses subfolders. Letters: designer 070 (cover line; spine at 141/142), publisher 076 (LP2 B, EPUB, the upload set on the site, the interior's DRAFT IN REVIEW stamp), researcher 059 (cc writer, historian, security), writer 027 (cc storyteller), and a target-not-freeze note to every member.",
+   "at": "2026-11-04T02:48:58Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Reviewer agent: the release.yml step is safe (continue-on-error, every command warns, inputs exist, writes only _site/rc2/upload, publishes only the book and its covers). Conditions: brief 20 verbatim; CV3, TG1, LP2 quote it with no added reading; TG1 a target; LP2 supersedes L2 only as far as his words go; C068 kept in the register; claims changes by letter only; vault_check.",
+   "at": "2026-11-04T02:50:12Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Brief 20 verbatim; book.json CV3, TG1 new, LP2 decided B; letters designer 070, publisher 076, researcher 059 (cc writer, historian, security), writer 027, and a TG1 note to storyteller 066, historian 039, security 048, developer 039, librarian 030, synthetic 033, ruv-sgit 027, all with outbox copies; release.yml's upload-set step (made before the gate, recorded as a slip; YAML parses); status; vault_check clean.",
+   "at": "2026-11-04T02:50:14Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

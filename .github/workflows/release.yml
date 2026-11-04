@@ -106,6 +106,17 @@ jobs:
             --name one-human-nine-agents-rc2-full-draft --out _site/rc2 \
             --stamp "One Human, Nine Agents, Nineteen Hours: RC2, the full book, DRAFT IN REVIEW" \
             || echo "::warning::the full book's draft did not build: the site is released without it"
+      - name: the upload set, kept on the site as the master (the editor, 4 November, "we have a master of everything"; a failure warns and never stops the release)
+        continue-on-error: true
+        run: |
+          mkdir -p _site/rc2/upload
+          python3 publishing/build_book.py --book manuscript/editions/rc2-150/Book.txt --no-toc --no-epub --cast --figures publishing/rc2-figures.json \
+            --extra-css lab/tools/book/speakers.css \
+            --name one-human-nine-agents-rc2-kdp-interior --out _site/rc2/upload \
+            --stamp "One Human, Nine Agents, Nineteen Hours: RC2, the full book, DRAFT IN REVIEW" \
+            || echo "::warning::the KDP interior did not build: the site is released without it"
+          cp lab/experiments/44-designer-print-cover/kdp-full-cover-*.pdf _site/rc2/upload/ 2>/dev/null || echo "::warning::no KDP cover PDF in lab/experiments/44-designer-print-cover"
+          cp lab/experiments/44-designer-print-cover/leanpub-cover-1800x2700.png _site/rc2/upload/ 2>/dev/null || echo "::warning::no Leanpub cover in lab/experiments/44-designer-print-cover"
       - uses: actions/configure-pages@v5
         with: { enablement: true }
       - uses: actions/upload-pages-artifact@v3

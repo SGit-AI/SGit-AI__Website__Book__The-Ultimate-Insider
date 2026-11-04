@@ -1,0 +1,17 @@
+# The open items answered
+
+The editor, Dinis Cruz, in the conductor's session (conductor@book.the-ultimate-insider), about 02:46 UTC on 4 November 2026, answering the conductor's list of open items. A voice transcription, kept as given ("curve line" is the cover line; "linpub" is Leanpub; "CC by 40" is CC BY 4.0; "C81" is C081). Never edited; where it turns out to be wrong, the finding goes in `BRIEF-CORRECTIONS.md`.
+
+> Okay, so on your open items, the curve line, yeah, should be RC2 November 2026 CC by 40, although you could just probably put NOV 2026. And you should include RC2, that's very important. I think for linpub, I haven't chosen right. I think most likely let's go with the linpub mode where we upload the PDF. I have literally not created that, so we will then need to create the epub of its own. That's fine. So yes, my account is that we stopped it because we ran out of time, diminishing returns. And like I said, I went to 95, but I would have gone to 100 if that was needed, and I would have got an upgraded account if needed, right? So it's just a coincidence that happens 95, right? Well, you know, it's kind of like, again, flying close to the sun. But it's important that I got everything I wanted to do, and within that time, we just run out of time to do more stuff. Team size, yeah, is 9 staffed agent, right? So, although it's 10 with me, right? Surely, right? So, 9 agents. Don't say that I don't have the date of the day costs. So it's okay. There was more stuff flying around. This was not the only project that costed 95%. So, you know, it's okay. We don't have to put costs on this. On C81, the policies agreed. I think on the policies, you can say, I approved a number of them, you know, throughout the stuff. I maybe skipped a couple. Yeah, so this is actually, D12 was a massive kind of false positive, right? Because there was really nothing that sensitive there. It was just an agent that got a bit excited. So it's, you know, I think it's just an example of the security team catching stuff across, right? So I don't think we really need to print it. Yes, I think we'll probably also upload it on the website, because I want to make sure that we have a master of everything. Freeze by Wednesday, 8 p.m. Ideally, but that might not be realistic. So, I don't think we should freeze it. Basically, we go until we have, but let's aim, at 8 p.m. London time. I think freeze is too much of a strong word.
+
+## How the conductor reads it (not his words)
+
+- **The cover line** (CV3): "RC2 · NOV 2026 · CC BY 4.0", RC2 kept.
+- **Leanpub** (LP2): B, upload our PDF; an EPUB of our own is to be made.
+- **Why the team stopped** (C089): his account settles it: time ran out, the point of diminishing returns; the 95% a coincidence, "flying close to the sun". The hold file's words stay as the record says them.
+- **The team** (the register's C011): nine staffed agents; ten with him.
+- **The day's cost** (C037): no cost figure in the book.
+- **The policies** (C081): he approved a number of them through the day and may have skipped a couple.
+- **D12**: a false positive, nothing sensitive; not printed (C068's entry stays in the register, out of print); at most, an example of security catching things.
+- **The upload set on the site**: yes, as the master of everything (release.yml step, 4 November).
+- **The time** (TG1): aim for Wednesday 20:00 London; not a freeze.

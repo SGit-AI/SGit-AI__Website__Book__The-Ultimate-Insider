@@ -1,10 +1,14 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "conductor",
-  "as_of": "2026-11-04T02:40:00Z",
+  "as_of": "2026-11-04T02:50:00Z",
   "round": 1,
   "state": "FB1 (4 November): the full book only, toward a printable first pass for first readers and review copies at Web Summit (from 9 November); print files submitted to KDP by Thursday 5 November at the latest. The publisher fixed a fault that shrank every RC2 page to 0.85 (the full book now 133 pages, 9.5 pt as signed, cover to the edge). Open for the editor: LP2 (Leanpub, Git or Upload). Site live at v0.1.623.",
   "done": [
+    {
+      "what": "the editor's answers recorded: CV3 (cover line), LP2 B (upload our PDF; an EPUB of our own), TG1 (aim Wed 20:00 London, not a freeze); C089, C011, C037, C081 and D12 settled by his word and sent to the researcher; the upload set published on the site by a release.yml step",
+      "evidence": "briefs/2026-11-04__in-session/20-the-open-items-answered.md"
+    },
     {
       "what": "the weight of the documents and the sgit.ai past projects as memory routed: historian 038, researcher 058, librarian 029, storyteller 065, designer 069, writer 026",
       "evidence": "briefs/2026-11-04__in-session/19-the-weight-of-the-documents-and-the-memory.md"
@@ -654,10 +658,6 @@
     {
       "what": "propose to the editor a CLAUDE.md wording for WC1 ('Every chapter ends with where it came from' becomes: every chapter's sources are kept in its record lines; the printed book does not show them)",
       "when": "his sign"
-    },
-    {
-      "what": "for the editor: the freeze time (working: Wed 4 Nov 20:00 London); the cover line 'RC2 · NOVEMBER 2026'; LP2; C089 and the open claims (C011, C037, C081, D12); the upload set on the site",
-      "when": "his call"
     }
   ],
   "asks": [
@@ -691,6 +691,6 @@
       "C10b"
     ]
   },
-  "updated": "2026-11-04T02:40:00Z",
+  "updated": "2026-11-04T02:50:00Z",
   "cadence": "active"
 }
