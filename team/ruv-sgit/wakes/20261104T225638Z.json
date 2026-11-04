@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (ACC1)",
+ "started": "2026-11-04T22:56:38Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go with notes. Read LAB 59's text as it stands, with no script run (case 13), and check for hash or id. Chapter 10's band line (69) now says one note is quoted in the text and three are drawn, so correct the 21:56 re-read. The next letter is 080. The step's note that rc2-150-figures.json does not exist is mistaken: it is the designer's list at lab/tools/book/, and publishing/rc2-figures.json is the map. Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-04T22:57:32Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go: everything in scope, no HOLD, no secret, nothing attack-shaped, no Cold-Read route. Conditions: vault_check before the commit; push on green after the gate (HR1); nothing in other members' paths. Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-04T22:57:54Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "Chapter 13 passes with LAB 59 (mapped, matching its lines and the record). Chapter 10's note corrected: the drawing's three notes match their commits (read in the talk's clone), and it still passes, with one could. RV2 on the 150's 15: two musts and one should for the designer. Letter 080; three letters copied to done.",
+   "at": "2026-11-04T22:58:56Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "One finding, fixed before the commit: the 10 could was wrong as written. ch6-two-commits also shortens the conductor's note (at its end, the chapter at its start). The review and all four copies of 080 now suggest 'each note checked against its commit, shortened where marked'. Otherwise clean: scope, copies, dates and facts hold, and the three notes match their commits. Tools: Bash read-only (sed -n and head beyond the list, only to print lines); no script; no file written; the brief's python checks were left to the member's gate. Nothing was refused.",
+   "at": "2026-11-04T23:00:02Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "The reviewer agent's verdict, run before this entry. Every item is done: 13 passes, 10 is corrected and passes, 15 is reviewed. The corrected could is in all four identical copies of 080, and the letters are copied (not moved). Status and debrief are right, with failures kept. Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-04T23:00:46Z"
+  }
+ },
+ "closed": "2026-11-04T23:00:46Z",
+ "outcome": "ok"
+}
