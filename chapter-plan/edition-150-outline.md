@@ -56,6 +56,16 @@ The storyteller's calls, at the conductor's letter 067, on the "Structural notes
 
 **The past projects as memory, and the weight of the documents** (the conductor's 065): an important-concept callout in chapter 4, where the brief first points at newsroom.sgit.ai, "the past projects as the team's memory", with the historian's uses and the researcher's counts; and each big document's weight (a collage of a few pages and its size) where it first appears: the brief and the reality file in chapter 4, the plans in chapter 5, the articles in chapter 13.
 
+## The editor's three structural choices (SC1 to SC3, decided 4 November 2026, about 23:25 UTC, brief 36)
+
+He agreed the storyteller's three choices from the newsroom's third pass (letter 162). The order now reads:
+
+1. **SC1, the exit interviews after chapter 17.** Chapter 6 keeps the roles (each member's page of rules and policy) and ends with one line pointing on: the members speak for themselves at the end of part four. The interviews, two short answers each (EI2), become their own short page, **17b, "The members look back"**, straight after chapter 17 and before chapter 18. It closes part four's account of what happened before 18 asks how to contain it. Owners: the writer (out of 06), writer3 (17b), the publisher (17b into Book.txt). No card is drawn there: every member has had its card at first appearance.
+2. **SC2, chapters 10 and 11 as an interlude.** They stay where they are. 10 opens with the line "While the factory ran, two things ran under it."; 11 hands back to the clock ("In hour fourteen, I came back."). The cast bar for both shows the six on stage, unchanged. Owner: writer2.
+3. **SC3, chapter 17 as a register of misses.** Each failure is told in full once, where it happens (8, 16); 17 is the register, one line and a pointer per miss, and keeps in full only the misses told nowhere else (the figure on the slide, the redaction). Its card and dev's two lines on the lock stay (ruling 3 of part four). Owner: writer3.
+
+None of the three changes a number.
+
 ## How the full book grows from the seventy
 
 The same five beats, in the same order, with the same cast bar, running line and margin clock (hour one to hour nineteen, CK1). Each of the seventy's parts roughly doubles. What the full book adds is the whole record, not new argument:
