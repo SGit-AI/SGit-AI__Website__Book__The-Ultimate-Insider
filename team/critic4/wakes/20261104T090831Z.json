@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "writer4__007 into done/; 20 and 21 pass 4 nothing material (first clean pass each); 92 pass 1 (2 should, 1 could: stale and working-note Cited in lines; C120, C127, C130 cited by no chapter); request critic4__007 cc researcher and critic6; status.json, debrief; gate, vault_check clean; 0 outside scope.",
    "at": "2026-11-04T09:11:02Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "7 files inside scope.writes; vault_check clean; no key, token, contact detail, em-dash, religious word or attack-shaped content; the researcher is asked by mail to fix its own claims: a request, inside both roles.",
+   "at": "2026-11-04T09:11:30Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "All three items in the diff; no sign-off marked; no manuscript or book.json touched.",
+   "at": "2026-11-04T09:11:31Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T09:11:31Z",
+ "outcome": "ok"
 }
