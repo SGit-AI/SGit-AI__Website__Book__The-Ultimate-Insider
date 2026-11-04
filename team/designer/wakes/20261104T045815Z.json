@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Done as planned. LAB 47 the house: rooms by scope.writes at 298be4e (checked at build), the storyteller and the designer by their work (commits checked), security's empty chair, the records as the ground, no drawn caption (convention 8). try-this.css notes one-paragraph sections. The KDP cover waits (no count file in the tree). Letter 130; four letters copied to done/. Lab 163 pages; gate clean.",
    "at": "2026-11-04T05:03:04Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "dde7e0b3: 0 files outside scope; vault_check and validate clean (940); the-house.svg passes unsafe_svg and shows only role names and paths, with no session id, key, prompt or private person; the newsroom image is not in the diff; the KDP cover untouched; no em-dashes or religious words; no other member's files changed. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T05:04:19Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "dde7e0b3: the house done (nine named once in eight rooms, checked at build; security's empty chair; the records as the ground). The caption is not drawn in (convention 8): its 'designer's reading' line is in pages.html and letter 130, a justified change. The KDP cover waits. Letter 130 and four letters copied to done/. Not in the plan but in scope: the try-this.css note. Tools: Bash and Grep, none refused.",
+   "at": "2026-11-04T05:05:05Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T05:05:05Z",
+ "outcome": "ok"
 }
