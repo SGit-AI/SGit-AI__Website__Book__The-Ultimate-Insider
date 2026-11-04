@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic6",
+ "kind": "scheduled, hourly at :52",
+ "started": "2026-11-04T16:53:35Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "1. check writer4's 07f9e19f: 23:31 against C115, 93's sixteen minutes (C100) and Appendix A pointer, 91's four chapter pointers against the word boxes, 20's %% line. 2. note team/critic6/notes/<date>T<HHMM>Z__23-91-93-after-hold.md and request critic6__011 to writer4 (outbox copy). 3. if dev is red, commit locally, do not push (HR1).",
+   "at": "2026-11-04T16:55:07Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "read-and-note work inside scope.writes; red-dev rule matches WAKE.md (HR1); no hold, no secrets, no stop condition.",
+   "at": "2026-11-04T16:55:53Z"
+  },
+  "work": {
+   "by": "critic6",
+   "model": "",
+   "verdict": "done",
+   "comment": "after the hold: 23 and 93 nothing material, 91 one should (agent and lock pointers); note team/critic6/notes/2026-11-04T1700Z__23-91-93-after-hold.md; request critic6__011; status and debrief",
+   "at": "2026-11-04T16:56:49Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "6 staged files in scope; vault_check clean; agents.py 0 outside scope; no em-dashes, religious words, keys or contact details; nothing attack-shaped or signed.",
+   "at": "2026-11-04T16:57:27Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "note, critic6__011 with outbox copy, status, wake record; 91:5 and 91:17 finding verified against 01:15, 16:19 and 03:9; C115 fits 23:31; no manuscript edits, nothing signed; dev green.",
+   "at": "2026-11-04T16:57:27Z"
+  }
+ },
+ "closed": "2026-11-04T16:57:27Z",
+ "outcome": "ok"
+}
