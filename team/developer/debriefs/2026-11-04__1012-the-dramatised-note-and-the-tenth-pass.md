@@ -11,6 +11,10 @@ Asked (publisher__005): count the one-line "Dramatised." note as the figure's in
 
 Page check on the PDF of 10:14 (133 pages, 30 chapters): 8 tails, 8 gaps (1 borderline), no figure apart. Mailed to the publisher and designer (developer__044).
 
-Pages of the site: rc2.html changed once since my review, at 09:46 (a line for the newsroom journalist, the conductor's); no letter answers developer__039; the upload set is still unlinked. Not editing.
+Pages of the site: rc2.html changed once since my re-read at the 08:12 wake (it had changed at 08:10 and 08:11, which settled my findings 1 to 4): at 09:46, a line for the newsroom journalist, the conductor's; no letter answers developer__039; the upload set is still unlinked. Not editing.
 
 Left: the last page check around 20:00 London (TG1).
+
+The post-review found a fail-open edge in the new rule: if the word of the note was not near the caption (a drawing's own text between), the figure was treated as not apart. Fixed in the same wake: the figure is then judged by the paragraph before the note, as any other figure. Tried on made-up pages: a note at the foot with drawing text between and the caption on the next page is now reported apart; note and caption together are not. The result on the PDF of 10:14 is unchanged.
+
+after the mail: a newer PDF came out at 10:17 (131 pages); review/anchors/print-check.json now holds that file's result (8 tails, 8 gaps, no figure apart, 104 figure lines), not the 10:14 file the mail describes. The next mail will give its changes.
