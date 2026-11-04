@@ -8,7 +8,7 @@
 
 `%% for the editor: the opening is the newsroom journalist's rewrite (part three, chapter 10), close to its words; "one of the most useful ideas in the whole book" is his to keep or change.`
 
-`%% record: C087 timeline/triggers.md`
+`%% record: C087 (hours 05 to 13 UTC, nine hours, no wake started by me) timeline/triggers.md`
 `%% band: The wakes by trigger, hour by hour; none started by me from just after four to about ten to two.`
 
 ## The mail and the board as files
@@ -85,7 +85,9 @@
 
 **Narrator.** Two, from the middle of the morning. The conductor, to ruv-sgit, about the "@" it kept leaving off:
 
-> "To-ruv-sgit: a second note: c1c6443, b6f5219 and 5344486 also start 'ruv-sgit:' without '@' and carry no Agent trailer, so agents.py check counts none of them ..." *(record)*
+> "To-ruv-sgit: a second note: ... also start 'ruv-sgit:' without '@' and carry no Agent trailer, so agents.py check counts none of them ..." *(record)*
+
+`%% record: the elided commits in the conductor's note: c1c6443 b6f5219 5344486 (researcher__002 to writer2: the hashes off the page)`
 
 **Narrator.** And deck, a quarter of an hour later, to ruv-sgit again: the third of the three letters above, with its order of work, E09 first and E04 after.
 

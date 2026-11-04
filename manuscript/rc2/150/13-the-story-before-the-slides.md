@@ -20,9 +20,11 @@
 
 `%% Check (the newsroom, part three, chapter 13; his to confirm before it prints): "I have always started talks from slides and found the story afterwards. This was the first time I had the story first, and I would not go back."`
 
-**Figure:** the storyteller's story tree as it was that afternoon: the talk's beats as branches, as its own text has them, with no turn marked, since the tree marks none at 14:19 (df37797); a later version, after my decisions of 15:00 (2afe0d7, 16:04), labels one edge as the turn.
+**Figure:** the storyteller's story tree as it was that afternoon: the talk's beats as branches, as its own text has them, with no turn marked yet.
 
-**Narrator.** The maps did something different. They put the parts of my argument where they sit relative to each other: what depends on what, and how settled each piece is. The slide that carried one said, in small type, "positions, not measurements". That line is the honest heart of a map like that: it shows you where things are, not how big they are.
+`%% figure brief: no turn marked at 14:19 (df37797); a later version, after my decisions of 15:00 (2afe0d7, 16:04), labels one edge as the turn (critic2__001, historian__057: off the caption).`
+
+**Narrator.** The maps did something different. They put the parts of my argument where they sit relative to each other: what depends on what, and how settled each piece is. The slide that carried one said, in small type, "positions, not measurements". The line is the honest heart of a map like that: it shows you where things are, not how big they are.
 
 `%% Check (the newsroom, part three, chapter 13; prints once he confirms the storyteller's maps were Wardley maps, and the researcher registers it): "If you have seen me talk, these will look familiar: they are Wardley maps, the kind I use for everything."`
 
@@ -32,7 +34,7 @@
 
 **Narrator.** And they were used. Deck took the storyteller's sequence into the talk's order that afternoon, almost exactly. The tree became the spine the slides hung on.
 
-**Storyteller** *(turning a page)*: The order went in. The words stayed deck's. That is the right way round.
+**Storyteller**: The order went in. The words stayed deck's. That is the right way round.
 
 `%% record: df37797 team/storyteller/story/ (tree, maps, coverage) at 298be4e ca59986 (16:36, the talk in the editor's order) team/storyteller/story/coverage.md ("almost exactly", citing ca59986) timeline/interviews/storyteller.md`
 `%% band: Dramatised (the storyteller's lines). Rests on its first pass and its coverage file; that deck's order took the sequence almost exactly is the storyteller's own account.`
@@ -44,17 +46,17 @@
 
 `%% clock record: 14:33, 15:02 and 15:16; clock hours of 29 October (C110; the conductor's CK1).`
 
-**Narrator.** My story for the talk leaned on a claim: that the outside of an organisation, the part facing the internet, had become smaller and more mature than it was. The claim compared the outside with itself, then and now. The storyteller asked the researcher for the facts behind its beats, and the researcher checked that claim against the published breach data, and found the opposite.
+**Narrator.** My story for the talk leaned on a claim: that the outside of an organisation, the part facing the internet, had become smaller and more mature than it was. The claim compared the outside with itself, then and now.
 
-**Researcher** *(to the new storyteller)*: "does not hold. The data says the opposite" *(record)*
+**Researcher** *(to the new storyteller)*: You asked for the facts behind your beats, so I checked that one against the published breach data. It "does not hold. The data says the opposite" *(record)*.
 
-**Narrator.** That is the researcher doing what it is for. It could not change a slide. It could only say, in writing, that a line did not hold, with the source beside it.
+**Narrator.** The researcher was doing what it was for. It could not change a slide. It could only say, in writing, that a line did not hold, with the source beside it.
 
 `%% record: 2726f0e (14:33; R5, in the outline's words: "smaller and more mature than it was") C030 (story-r5-surface-smaller-more-mature: "no source for 'smaller'")`
-`%% band: Dramatised (the researcher's line). The quoted words are its finding's own.`
+`%% band: Dramatised (the researcher's line). The quoted words are its finding's own; the words around them are ours (critic2__001, P11).`
 *Dramatised.*
 
-**Narrator.** Then the storyteller had a choice, and an awkward one: the finding contradicted a line of mine that its own tree depended on. It folded the researcher's facts into the tree and sent the finding to me, in a letter, as the strongest objection to my own part one.
+**Narrator.** Then the storyteller had a choice, and an awkward one: the finding contradicted a line of mine that its own tree depended on. It folded the researcher's facts into the tree, and then it had to decide what to do with the finding.
 
 **Storyteller**: Then it goes to the editor, as the strongest objection to his own part one. Not buried.
 
@@ -68,7 +70,7 @@
 
 > "The outside is in balance: he keeps the claim." *(record)*
 
-**Narrator.** I kept the claim. The line stayed in the talk, and the researcher's finding went on the record beside it. The book keeps both: my line, the objection to it, and the fact that I read the objection and chose. Neither is withdrawn. If you think I was wrong, the researcher's sources are in the register, and you can check.
+**Narrator.** I kept the claim. The line stayed in the talk, and the researcher's finding went on the record beside it. The book keeps all three: my line, the objection to it, and the fact that I read the objection and chose. Neither is withdrawn. If you think I was wrong, the researcher's sources are in the register, and you can check.
 
 `%% Check (the newsroom, part three, chapter 13, its question 2; prints only once he confirms he still holds it, historian__054): "I still think the outside is in balance, and that the story needed that line." And: "I would rather be argued with on the record than agreed with in silence."`
 
@@ -76,7 +78,9 @@
 
 `%% for the editor: "the part of the afternoon I would most want a team to copy" and "Not to win. To make sure the decision was a decision." are the writer's reading of his view; his to keep or drop.`
 
-**Figure:** the objection's path in one line of time: the researcher's finding at 14:33, the storyteller's letter at 15:02, my answer committed at 15:16; under each, its own words.
+**Figure:** the objection's path in one line of time: the researcher's finding, the storyteller's letter, my answer; under each, its own words.
+
+`%% figure brief (times for the picture's scale only): the finding 14:33 (2726f0e), the letter 15:02 (b208a16), the answer committed 15:16 (78d517d) (historian__057, R10).`
 
 `%% figure brief: For the designer. Three marks, the words under each from the record; the times in the picture.`
 
