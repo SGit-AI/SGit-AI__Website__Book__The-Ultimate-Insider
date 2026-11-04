@@ -28,6 +28,10 @@ PLACED = {
                                        "LAB 27's role cards, moved here from 06 (storyteller 149, writer 228)"),
         "two voices on the page": ("lab/experiments/54-designer-first-pages/two-voices.svg", "the designer's two voices (LAB 54)"),
     },
+    "rc2/150/03b-the-day-at-a-glance.md": {
+        "the talk's day as one picture": ("lab/experiments/57-designer-day-at-a-glance/day-at-a-glance.svg", "the designer's day (LAB 57), C095"),
+        "the same day by member": ("lab/experiments/57-designer-day-at-a-glance/day-by-member.svg", "the designer's day by member (LAB 57), C095"),
+    },
     "rc2/150/04-hour-one-the-empty-project.md": {
         "one banner, as a session prints it": ("lab/experiments/55-designer-findings-cards/ch4-banner-pair.svg",
                                                "the writer's own banners (its debrief of 4 November), drawn (LAB 55)"),

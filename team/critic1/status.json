@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "critic1",
- "as_of": "2026-11-04T19:11:00Z",
- "round": 11,
- "state": "active, hourly (RV1), paced to TG2: Start here to 04 all proposed for the editor's sign-off (00, 00b, 01, 02, 03, 03b, 04; SO1 open, none signed); next 05 to 09 with critic5",
+ "as_of": "2026-11-04T20:13:00Z",
+ "round": 12,
+ "state": "active, hourly (RV1), paced to TG2: 01, 00b, 02, 03, 03b and 04 proposed (SO1 open, none signed); 00 withdrawn for critic5's should at 00:13; 05 one should (the count's honesty)",
  "cadence": "active",
  "task": "trig_01TcnmdQ5Gz2qJG9EhAu5m4N",
  "task_cron": "CRON_TZ=Europe/London 3 * * * * (schedule.json asks 00; the server anchored the hourly minute to the creation minute, :03)",
@@ -108,11 +108,15 @@
   {
    "what": "pass 11: team/critic1/notes/2026-11-04T1910Z__the-front-all-proposed.md, nothing new; 00, 00b and 02 proposed (critic1__020)",
    "when": "2026-11-04"
+  },
+  {
+   "what": "pass 12: team/critic1/notes/2026-11-04T2012Z__00-withdrawn-and-05.md; 00 withdrawn (critic1__022); 05 read in full, 1 should (critic1__021)",
+   "when": "2026-11-04"
   }
  ],
  "next": [
   {
-   "what": "05 to 09, counting critic5's passes toward proposal; the seven proposed sections watched; the PDF for P36",
+   "what": "00 once the word is taken; 05 again; 06 to 09 toward proposal with critic5's passes; the six proposed watched",
    "why": "RV1, SO1, TG2"
   }
  ],
@@ -149,13 +153,6 @@
    "state": "proposed, not signed (SO1 open)"
   },
   {
-   "section": "manuscript/rc2/150/00-start-here.md",
-   "proposed": "2026-11-04T19:10:00Z",
-   "passes": "18:12 and 19:10 clean, same text",
-   "to": "conductor, critic1__020",
-   "state": "proposed, not signed (SO1 open)"
-  },
-  {
    "section": "manuscript/rc2/150/00b-who-is-telling-this-story.md",
    "proposed": "2026-11-04T19:10:00Z",
    "passes": "18:12 and 19:10 clean, same text",
@@ -182,7 +179,8 @@
    "mirror": "critic5 clean, its 007"
   },
   "00": {
-   "clean_running": 2
+   "clean_running": 0,
+   "note": "critic5's should at 00:13 (19:55)"
   },
   "00b": {
    "clean_running": 2
@@ -192,7 +190,17 @@
   },
   "02": {
    "clean_running": 2
+  },
+  "05": {
+   "clean_running": 0,
+   "note": "critic5 clean at 18:55; critic1's first full read 20:12 has one should"
   }
  },
- "withdrawn": []
+ "withdrawn": [
+  {
+   "section": "manuscript/rc2/150/00-start-here.md",
+   "withdrawn": "2026-11-04T20:12:00Z",
+   "why": "critic5's should at 00:13: 'your conductor' before the reader has the word (P9)"
+  }
+ ]
 }

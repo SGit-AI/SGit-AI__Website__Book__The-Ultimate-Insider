@@ -41,12 +41,13 @@ def findings():
     times = [e["wake"].split()[1] for e in night]
     if times != ["03:05", "04:10", "06:14"] or not all(PUSH in json.dumps(v) for _ in [0]):
         sys.exit("make_cards: C025's night findings are not the three the cards expect")
-    if "28" not in night[1]["finding"] or "30 files" not in night[1]["fixed"] or "10 " not in night[2]["finding"]:
+    if "28" not in night[1]["finding"] or "30 files" not in night[1]["fixed"] or "10 " not in night[2]["finding"] \
+            or PUSH not in night[2]["finding"] or "history" not in night[2]["fixed"]:
         sys.exit("make_cards: C025's counts are not as the cards give them")
     # the designer's wording, counts and times only (the rail: no kind of value, no site, field or pattern)
     return [(times[0], "the first, found after the push", "redacted in the files; the push stays in the history; the editor told"),
             (times[1], "the second, found before the close", "28 values counted; 30 files redacted in the same wake; 0 left"),
-            (times[2], "the third, missed by the first check", "10 pages redacted in the same wake; 0 left")]
+            (times[2], "the third, missed by the first check", "found after the push; it stays in the history; 10 pages redacted in the same wake; 0 left")]
 
 
 def card(x, y, w, when, head, fixed):
