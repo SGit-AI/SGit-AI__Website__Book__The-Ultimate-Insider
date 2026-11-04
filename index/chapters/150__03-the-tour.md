@@ -10,7 +10,7 @@ From the chapter's `%% record` lines (and its `## Where this came from`, where i
 | `src/static/talk/player.html` | talk | dev | `1f7c633` 2026-10-29 00:40:50 | `dbd75ad` 2026-10-29 18:37:02 | the player: plays talk.json's beats with their slides, presenter view and keys |
 | `admin/build/build.py` | site build | dev | `1f7c633` 2026-10-29 00:40:50 | `23739cc` 2026-10-29 18:04:48 | Builds the site into _site/ from src/ and content/. Standard library only, so CI needs nothing installed. |
 
-## this repository (9)
+## this repository (12)
 
 - `manuscript/rc2/70/02-the-tour.md`
 - `index/talk-site/README.md`
@@ -21,6 +21,9 @@ From the chapter's `%% record` lines (and its `## Where this came from`, where i
 - `index/talk-site/visuals.md`
 - `claims/register.json`
 - `chapter-plan/edition-70-outline.md`
+- `team/conductor/from-newsroom/2026-11-04__narrator-voice-part-one.md`
+- `team/conductor/from-newsroom/2026-11-04__do-this-now-as-invitations.md`
+- `chapter-plan/cast/cast-guide.md`
 
 ## Commits named (4)
 
