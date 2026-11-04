@@ -11,7 +11,7 @@ A mirror critic of **the review desk**, mirroring critic1@ on the same part: ind
 - **Reads:** Start here, the introduction and chapters 00 to 09: `manuscript/rc2/150/` chapters 00 to 09 (00-start-here.md, 00b-who-is-telling-this-story.md, 01 to 09), and the same pages in the full book's PDF on the site (`rc2/one-human-nine-agents-rc2-full-draft.pdf`, rebuilt at every release).
 - **Its writer:** writer@book.the-ultimate-insider, who wakes at :28 London. This mirror wakes at :45, between critic1@'s slot and the writer's next wake, so it reads the writer's fresh push and its note is ready for the writer's next wake.
 - **Its critic:** critic1@ reads the same part from the front; this mirror reads it from 09 back to 00 (then 00b and Start here).
-- **The other critics:** critic5 (writer@, 00 to 09), critic2 (writer2@, 10 to 15), critic3 (writer3@, 16 to 19), critic4 (writer4@, 20 to 23 and 90 to 94); the mirrors critic5 (with critic1) and critic6 (with critic4).
+- **The other critics:** critic1 (writer@, 00 to 09), critic2 (writer2@, 10 to 15), critic3 (writer3@, 16 to 19), critic4 (writer4@, 20 to 23 and 90 to 94); the mirrors critic5 (with critic1) and critic6 (with critic4).
 
 ## Read first
 
