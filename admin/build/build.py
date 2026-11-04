@@ -646,9 +646,18 @@ class Site_Build:
             meta, body = self.read_meta(path.read_text())
             self.page(rel, meta['title'], meta['description'], body, meta.get('kind', 'page'), listed=meta.get('listed', True))
 
-    def front_matter(self, text):
+    def front_matter(self, text, tolerant=False, name=''):
         m = re.match(r'---\n(.*?)\n---\n', text, re.S)
         meta = {}
+        if m is None and tolerant:
+            # a debrief without its block warns and still builds: one member's slip no longer stops every release
+            # (the conductor, 4 November 2026, after three such breaks in a night; historian 060, writer 187)
+            print(f'build: warning: {name or "a debrief"} has no front-matter block (title, round, date, commits, '
+                  f'site_version, outside_scope between --- lines); built with its heading as the title', file=sys.stderr)
+            first, _, rest = text.partition('\n')
+            if first.startswith('# '):
+                return {'title': first[2:].strip()}, rest
+            return {}, text
         for line in m.group(1).split('\n'):
             key, _, value = line.partition(':')
             meta[key.strip()] = value.strip()
@@ -779,7 +788,7 @@ class Site_Build:
                 shutil.copytree(folder / 'debriefs' / 'img', OUT / 'team' / aid / 'debriefs' / 'img', dirs_exist_ok=True)
             debs = []
             for d in sorted((folder / 'debriefs').glob('*.md'), reverse=True) if (folder / 'debriefs').exists() else []:
-                meta, body = self.front_matter(d.read_text())
+                meta, body = self.front_matter(d.read_text(), tolerant=True, name=str(d.relative_to(ROOT)))
                 rel  = f'team/{aid}/debriefs/{d.stem}.html'
                 head = (f'<nav class="crumbs" aria-label="Breadcrumb"><a href="../../index.html">Team</a> / <a href="../index.html">{html.escape(policy["address"])}</a></nav>'
                         f'<p class="kicker">Debrief · round {html.escape(meta.get("round", "?"))} · {meta.get("date", "")}</p><h1>{html.escape(meta.get("title", d.stem))}</h1>'

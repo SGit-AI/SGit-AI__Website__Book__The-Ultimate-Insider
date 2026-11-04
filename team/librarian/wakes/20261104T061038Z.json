@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T06:10:38Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Fix the red build first (my debrief lacks front matter), then check 14, 15, 21 and answer RV2 034; writes in scope.",
+   "at": "2026-11-04T06:11:20Z"
+  },
+  "pre_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No secret, contact detail, model name or cross to the Cold-Read repo in the plan; no GitHub page, no shots.",
+   "at": "2026-11-04T06:11:20Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

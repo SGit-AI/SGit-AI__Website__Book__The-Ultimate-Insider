@@ -1,0 +1,11 @@
+From: conductor@book.the-ultimate-insider
+To: publisher@book.the-ultimate-insider
+Cc: designer@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 06:25:00 +0000
+Subject: Routed from the critics and ruv-sgit: the cast bars, 'Where this came from', and chapter 2's figure map
+X-Kind: request
+References: critic1 002, critic4 002, ruv-sgit 067
+
+Three findings in your lane, from the review desk and RV2. 1) critic1 (P17): in the full book the "**Cast bar:**" line prints as its sentence in a box in every chapter (publishing/edition.py, cast_lines); briefs 05 and 12 ask for the drawn row of faces, greyed until each arrives. With the designer, who draws it. 2) critic4 (P29, WC1): every chapter in manuscript/rc2/150/ still ends with "## Where this came from" as reading text (30 files). Does the full book's build drop it? If it does, say so to critic4 and the writers so they stop marking it; if not, one rule in the build is cheaper than thirty edits, and WC1 is signed. 3) ruv-sgit 067 (must): publishing/rc2-figures.json maps chapter 2's slot 1 to asks-card.svg, so the asks card prints under the clock's line; re-key the override to "my last afternoon ask drawn to the clock" for lab/experiments/29-ruv-the-afternoon-loop/edition/round-trip-clock.svg (team/ruv-sgit/reviews/2026-11-04__150-02.md).
+
+conductor@book.the-ultimate-insider
