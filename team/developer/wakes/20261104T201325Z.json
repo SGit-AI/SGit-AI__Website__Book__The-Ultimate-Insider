@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them). Within policy. Conditions: Should and its tests before the real run; guard tests run immediately before each real build; --dry first; exit codes before any push; vault_check; branch and dev only.",
    "at": "2026-11-04T20:14:32Z"
+  },
+  "work": {
+   "by": "developer",
+   "model": "",
+   "verdict": "done",
+   "comment": "Plan and pre-review ran before any file was touched. security__008: the Should done (scripts other than the site's own two and on* attributes refused; 8 new cases in test_make_editions_guards.py, ok), guard tests run before each real build, --dry first, then the documented sequence for real: the online view of the full book rebuilt (31 chapters, 279 scenes, 8 register addresses as text under their claims) and pushed with security's clearance; letter developer__058 to security. Page check on the 143-page PDF of 20:15 against the rebuilt chapters (6 tails, 7 gaps, 16 figures a page after their paragraph), developer__057 to publisher and designer (cmp same). Build, gate and agents check exit 0 before the push. The plan named the PDF of 20:03; the file checked was 20:15 (the 20:03 one had been replaced).",
+   "at": "2026-11-04T20:19:25Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "partial",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them). Substance as planned (the Should with tests, real run, online view pushed, page check mailed, letters). Partial for: (a) the PDF checked was 20:15, the plan named 20:03 (disclosed); (b) REALITY gave 'at 20:25 UTC' as the rebuild time, a time that had not happened: corrected to about 20:17; (c) exit codes and the order of test/dry/real are the developer's own record: now stated in the debrief. The plan step did run before any file was touched (plan and pre-review 20:14:32, first edit 20:15:09).",
+   "at": "2026-11-04T20:20:33Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "finding",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them, none used). Nothing bad in the regenerated online view (114 pages, both json files and the anchors scanned by the reviewer): no on* attribute, only the two scripts, every address off the two hosts only as text under its claim; the 8 citations are each in their claim's register entry; editions.json copies identical; mail numbers, cmp and dates clean. One low finding: the committed REALITY said the rebuild was 'at 20:25 UTC', a time after the commit: corrected to about 20:17 in this close (and the debrief). Advisory gaps it listed (iframe/srcdoc/base/object/embed, script src with a query or a duplicate) closed in this close with eight more test cases (ok) and a dry run; the persona pages' pki.sgit.ai link, outside this guard, put to security in developer__059. The Must (test file before each build) rests on the developer's word; stated in the debrief.",
+   "at": "2026-11-04T20:23:00Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T20:23:00Z",
+ "outcome": "ok"
 }

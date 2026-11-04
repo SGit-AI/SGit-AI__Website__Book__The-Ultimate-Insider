@@ -14,3 +14,5 @@ Page check on the PDF of 20:15 (143 pages; the 20:03 file was replaced before I 
 TG2: the aim is Thursday 5 November, 10:00 London; the last full page check is the 09:12 wake. Pages of the site (the conductor's): rc2.html and index.html unchanged since 09:46 (git log); the upload set is still unlinked (grep); no letter answers developer__039.
 
 Left: the last page check at 09:12 on Thursday.
+
+Evidence the post-check asked for: before the push build.py, validate.py and agents.py check each exited 0 (gate: clean, 1176 html files); the guard test file printed ok before the dry run, before the first real build and again before the second; the page check read review/anchors/editions.json, which the first real build had just rewritten (the check's own source line says it takes the chapters to be today's). The REALITY entry first gave 20:25 as the rebuild time, which had not yet happened; corrected to about 20:17.

@@ -278,6 +278,8 @@ def page_attribute_problem(page):
     except Exception as e:                                           # a page the parser cannot read is refused, not guessed at
         return f'unreadable markup: {e}'
     for tag, attrs, raw in t.tags:
+        if tag.lower() in ('iframe', 'frame', 'base', 'object', 'embed'):   # post-review: nothing on a review page frames, embeds or re-bases a page
+            return f'<{tag}>: not allowed on a review page'
         if tag.lower() == 'script':                                  # security__008: only the site's own two scripts, by their source; no inline script
             src = next((v for n, v in attrs if n.lower() == 'src'), None)
             if src not in SCRIPTS_OK:
@@ -285,6 +287,8 @@ def page_attribute_problem(page):
         for name, v in attrs:
             n = name.lower()
             v = v or ''
+            if n == 'srcdoc':
+                return f'<{tag} srcdoc=...>: not allowed'
             if n.startswith('on'):                                   # an event handler, in any letters
                 return f'<{tag} {name}=...>: an event handler'
             urls = [x.split()[0] for x in v.split(',') if x.strip()] if n == 'srcset' else [v]
