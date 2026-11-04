@@ -31,8 +31,15 @@
    "verdict": "finding",
    "comment": "finding: clean on address, reader, religious words, em-dashes, keys, scope; FB2 address absent; vault_check clean. 23:10 stamps ran ~2 min ahead of the 23:07:47 commit; restamped to 23:07 in the follow-up commit. Tools: none lacked.",
    "at": "2026-11-04T23:08:46Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "partial",
+   "comment": "partial: letters, replies, grid, look README as planned; status.json asks duplicated four RC2D items and the running state was cut to one line; fixed in the follow-up commit (state restored with the 23:02 line first, duplicates folded, critic6 015 and publisher 066 kept; the 8 holes recorded in the look README). Tools: none lacked.",
+   "at": "2026-11-04T23:09:05Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T23:09:05Z",
+ "outcome": "ok"
 }

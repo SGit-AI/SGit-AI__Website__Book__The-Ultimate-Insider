@@ -55,4 +55,4 @@ The same way, on the PDF the site serves (145 pages): pages 3 to 40, 6 pages mor
 
 ## At v0.1.882 (23:07 UTC), the site's live full draft
 
-The same way, on the PDF the site serves (144 pages, built 22:53 UTC): pages 3 to 40, 6 pages more than 35% blank at the foot, the folio excluded (pages 5, 8, 22, 30, 33 and 39; 7 in the version he liked); width 84% (83% before, the same median measure); "Figure to come" boxes 12 in all (36 at 12:05, 13 at 21:05), 2 in pages 3 to 40. The publisher's 066 counts 8 boxes left in its own later build; designer2 draws those in 13 and 15 to 19 and after (DS1).
+The same way, on the PDF the site serves (144 pages, built 22:53 UTC): pages 3 to 40, 6 pages more than 35% blank at the foot, the folio excluded (pages 5, 8, 22, 30, 33 and 39; 7 in the version he liked); width 84% (83% before, the same median measure); "Figure to come" boxes 12 in all (36 at 12:05, 13 at 21:05), 2 in pages 3 to 40. The publisher's 066 counts 8 boxes and 8 holes left in its own later build; designer2 draws those in 13 and 15 to 19 and after (DS1).
