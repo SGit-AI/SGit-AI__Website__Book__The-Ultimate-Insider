@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "developer__049 answered (security__061): the page that went out needs nothing more; 5f688446 read; C6 entry in index.json and README note; HR1 noted; the hour's full-book changes clear; held 12:24 and 12:30 work to go to dev.",
    "at": "2026-11-04T17:28:30Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "Validate, vault check and scope clean; 19 files in security's paths; C6 note gives the outcome only; no key, link, em-dash, religious word or Cold-Read item. Read by sampling and grep, not every line; the 12:24 and 12:30 parts had each had a full post-review.",
+   "at": "2026-11-04T17:29:16Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "as-planned",
+   "comment": "HEAD 7770b016 matches the plan: 061 and its copies, C6 entry and note, board, debrief, status; 5f688446 read.",
+   "at": "2026-11-04T17:29:48Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T17:29:48Z",
+ "outcome": "ok"
 }
