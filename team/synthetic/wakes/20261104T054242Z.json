@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, 05:42 London",
+ "started": "2026-11-04T05:42:42Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, as the reviewer type (plan.md)",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "conductor__036 (RV2): the three named readers each read 00-start-here, 00b and 10-talking-through-git against principles 1, 6, 7, 21 into review/synthetic/sections/; findings merged and every cited line and quote checked; requests to writer (00, 00b) and writer2 (10); a letter to the conductor with sections passed (pass only with no must open; never 'signed': SO1 is the editor's); summary names which persona read which section. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T05:43:25Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent, as the reviewer type (pre_review.md)",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "In scope.writes (review/synthetic/sections, letters to writer, writer2, conductor, team/synthetic); no secret, no stop condition; 'signed' left to the editor. Condition: vault_check before commit. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T05:43:46Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
