@@ -2,7 +2,7 @@
 
 **Cast bar:** all nine lit: motion and studio the last two in; security's chair still empty.
 
-## Three decisions in twenty minutes
+## Three decisions, close together
 
 **Clock:** Hour sixteen.
 
@@ -18,7 +18,7 @@
 
 **Narrator.** *How long a member may work.* I told the conductor to let each member work for much longer in a single session. My reasoning was simple: if the next agent did not pick something up in the same hour, it would pick it up in the next.
 
-**Narrator.** The morning had already shown that was true. But it had a price, and I did not see it at the time. From then on sessions could overlap, so every member had to pull again before every push, or work from a stale copy. The rule the team had written in the first hour, pull first, stopped being a habit and became a live risk.
+**Narrator.** The morning in chapter 9 had already shown that was true. But it had a price, and I did not see it at the time. From then on sessions could overlap, so every member had to pull again before every push, that is, fetch everyone else's latest work just before sending its own, or it would be working from a stale copy. The rule the team had written in the first hour, pull first, stopped being a habit and became a live risk.
 
 `%% for the editor: "and I did not see it at the time" is the newsroom journalist's reading of your view (part three, chapter 14); yours to keep or drop.`
 `%% Check (the newsroom, part three, chapter 14; his to confirm before it prints): "Every change that makes a team faster changes what can go wrong, and that one is worth remembering."`
@@ -39,15 +39,19 @@
 
 ## Motion and studio arrive
 
-**Narrator.** I brought on two members whose whole job was porting: motion, to turn my new story into animations I could start and stop on stage, and studio, to take pieces from my earlier sites and rebuild them on this one, so they worked in the player and on an iPad. They joined in the same minute, and they can introduce themselves.
+**Narrator.** I brought on two members whose whole job was porting: motion, to turn my new story into animations I could start and stop on stage, and studio, to take pieces from my earlier sites and rebuild them on this one, so they worked in the player and on an iPad. They joined together, and they can introduce themselves.
 
-**Cast card: studio.** *(beside its first scene)*
+**Cast card: studio.**
+
+`%% figure brief: the card beside studio's first scene (critic2__007: the placement note off the page).`
 
 **Studio**: Hey, I'm studio, and this is where I first appear. I take the best pieces from the editor's earlier sites and rebuild them on this one: the slide, its source commit and its data, copied unchanged and pinned to where they came from. I check each one on a projector-sized screen and on an iPad before it ships. I write only my own folder; when a fix belongs in someone else's file, I send them the one-line fix. Deck and dev are the two I work with most.
 
 *On stage from 15:31. Commits: 26. Wakes: 8.*
 
-**Cast card: motion.** *(beside its first scene)*
+**Cast card: motion.**
+
+`%% figure brief: the card beside motion's first scene.`
 
 **Motion**: Hey, I'm motion, and this is where I first appear. I turn the editor's story into animations he can start, pause and seek in the player on stage, built on the same slide engine as every other piece. I take one request at a time from deck, and I send deck a proposed picture first, so its answer can be "go". Deck is the one I work with most, and dev's engine is what I build on.
 
@@ -56,11 +60,11 @@
 `%% record: C011 (motion and studio, 15:31: f1cbca0, 8d208d3) C014 (commits: studio 26, motion 9) C022 (wakes: studio 8, motion 4); timeline/interviews/studio.md timeline/interviews/motion.md (reconstructed by the historian: studio's pinned sources and its one-line fix to dev, 0fe0fff; motion's proposal to deck first, its pieces seekable on the slide engine) chapter-plan/cast/cast-guide.md (page conventions 2: motion and studio in chapter 14)`
 `%% for the editor: the cards are writer2's, in each agent's first person, from the historian's reconstructions and the register; "the two I work with most" and "the one I work with most" are writer2's reading of their requests and commits, not counted.`
 
-**Studio**: Not new. Ported, tested, and pinned to where it came from. If it worked there, it can work here.
+**Studio**: My first two pieces were rebuilt within minutes, each with its source and its data pinned unchanged. If it worked there, it can work here.
 
-**Motion** *(already rolling)*: One request at a time from deck. Each one moves when you press play, and stops when you stop.
+**Motion** *(already rolling)*: I didn't wait to be told. I sent deck a picture of the stages first, so its answer could be "go" and not a fresh brief.
 
-**Narrator.** Studio had its first two pieces rebuilt within minutes, each with its source and its data pinned unchanged. Motion did not wait to be told: it sent deck a proposed picture with its stages, so deck's answer could be "go" and not a fresh brief. Its first piece was the building, the animation I described at the start of this book.
+**Narrator.** Motion's first piece was the building, the animation I described at the start of this book.
 
 `%% record: f00734f (15:25, the briefs) f1cbca0 8d208d3 (15:31) c3ce566 (15:40, studio's first ports) 7639664 (16:34, motion's building) team/motion/requests/deck__the-building.md C013 timeline/interviews/motion.md studio.md`
 `%% band: Dramatised (studio's and motion's lines, kept from the 70-page edition). Rests on the briefs, the first commits (studio's first ports at 15:40, c3ce566) and the first pieces (motion's building at 16:34, 7639664; chapter 1's building, motion__the-building.jpg).`
@@ -72,19 +76,19 @@
 
 `%% clock record: 16:30 to 16:59; clock hours of 29 October (C110; the conductor's CK1).`
 
-**Narrator.** Then I made the talk twice as big: ninety minutes, with a section on my own work. Even then, the conductor's own reviewer sent its plan back once before it routed anything.
+**Narrator.** Then I made the talk twice as big: ninety minutes, with a section on my own work. And even with that much change at once, the conductor's own reviewer sent its plan back once before it routed anything.
 
-**Narrator.** The conductor's answer, half an hour later, was structural, and I think it was one of the most important plans the team made all day: the talk in three parts, each with its own deadline and its own lock, so a late change could not reach a finished part. And for that evening only, at my word, a change to the schedule itself: each member could follow its own session with quick follow-ups until nothing was left or the evening ran out.
+**Narrator.** The conductor's answer, a little over half an hour later, was structural, and I think it was one of the most important plans the team made all day.
 
 `%% for the editor: "one of the most important plans the team made all day" is the newsroom journalist's softening of the writer's reading of your view; yours to keep or drop.`
 
-**Conductor**: The talk in parts, each with its own lock. Each part done, timed, then locked, so a late change cannot reach a finished part.
+**Conductor**: The talk in three parts, each with its own deadline and its own lock. Each part done, timed, then locked, so a late change cannot reach a finished part. And for tonight only, at the editor's word, each of us may follow our own session with quick follow-ups until nothing is left or the evening runs out.
 
 **Figure:** the plan of three parts, drawn as three gates on the clock, each with its lock time.
 
 `%% figure brief: For the designer, from C027 (set at 16:59; planned: part one complete by 18:15 and locked at 18:30, part two at 19:30, part three at 20:00). Draw the gates as planned, not as they turned out; part 4 pays this off. The times in the picture, not the caption.`
 
-**Narrator.** Not one of those gates closed. The tool to lock a part shipped less than an hour before I stopped everything, and part 4 is what happened in between.
+**Narrator.** Not one of those gates closed. The tool to lock a part shipped less than an hour before I stopped everything, and part four of this book is what happened in between.
 
 `%% record: 62c6b99 (16:32:22, "the talk is 90 minutes, and a section on the editor's work: routed to six members") team/conductor/wakes/ (16:30, pre-review change then go) 3342cff (16:59:22, "the talk in three parts with locks at 18:30, 19:30, 20:00; tonight only, members keep themselves going between hourly wakes") C026 (the player counted down ninety minutes) C027 (planned locks; locked by end of day: 0; the lock tool 4a2481b at 17:54) C023`
 `%% band: Dramatised (the conductor's line). Rests on its commits of 16:32 and 16:59; the plan's times are C027's.`
@@ -96,15 +100,15 @@
 
 `%% clock record: 15:07, 15:25 and 15:31; clock hours of 29 October (C110; the conductor's CK1).`
 
-**Narrator.** Here is the thing I most want you to take from the afternoon. Almost nothing in it was built from nothing.
+**Narrator.** Almost nothing in the afternoon was built from nothing.
 
 **Narrator.** The player was not new; chapter 12 has where it came from. The slides ran on one slide engine dev had built just after midnight. Studio's pieces came from my earlier sites, pinned to their sources. Motion's ran on the same engine as everyone else's, so I could start and pause each one in the player.
 
-**Narrator.** That is the factory's economics in one afternoon. Yesterday's experiment is today's part, and a team that knows where its parts came from can move very fast without breaking much.
+**Narrator.** Those are the factory's economics in one afternoon: a team that knows where its parts came from can move very fast without breaking much.
 
 `%% Check (the newsroom, part three, chapter 14; his to confirm before it prints): "It is also why I keep everything I build in the open, with its history: I never know which experiment will be the part I need on the afternoon of a talk."`
 
-`%% for the editor: "the thing I most want you to take from the afternoon" is kept from the 70-page edition's chapter 9; his to keep or drop.`
+`%% for the editor: the signpost "the thing I most want you to take from the afternoon" is cut (critic2__007, synthetic__002: one "most want" in the book, the storyteller's in 13); "Yesterday's experiment is today's part" is said once, in 12.`
 
 **Figure:** where the afternoon's pieces came from: each piece in the talk, with an arrow back to the earlier site or the earlier commit it was ported from.
 

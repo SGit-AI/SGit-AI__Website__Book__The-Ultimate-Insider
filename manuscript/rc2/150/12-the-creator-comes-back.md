@@ -79,7 +79,9 @@
 
 **Narrator.** Soon after, the first new member of the afternoon joined, at my request: the storyteller, with its role, a draft policy, its key and its own slot. Within minutes it had a story tree and its maps on the team's branch, and had changed nothing in the talk. Chapter 13 has what it did next, and the objection it would not bury.
 
-**Cast card: the storyteller.** *(beside its first scene)*
+**Cast card: the storyteller.**
+
+`%% figure brief: the card beside the storyteller's first scene (critic2__007).`
 
 **Storyteller**: Hey, I'm the storyteller, and this is where I first appear, late, in the afternoon. The order of the story is mine: a story tree, maps of where everything sits, and the sequence of the talk's beats. I may write only my own folder; every idea of mine goes to deck as a request, never as an edit, and any fact without a number in the register goes to the researcher first. Deck and the researcher are the two I depend on.
 
@@ -114,7 +116,7 @@
 
 **Narrator.** That is the loop, and it is what I came back for. I think of it as a cycle: think, explain, create, review, and round to think again. It looks a lot like an OODA loop, and maybe it is a variation on it, for making things. The factory had done what it could do without me. What it could not do was decide. From two o'clock, I decided, it built, I looked, and it built again.
 
-**Figure:** the cycle, drawn: think, explain, create, review, and round again, with the factory inside it.
+**Figure:** the loop from chapter 2, now with its names: think, explain, create, review, and round again, with the factory inside it.
 
 `%% figure brief: For the designer: the cycle in his words (brief 11), as the designer redrew chapter 1's loop (lab/experiments/37-designer-rc2-chapters-1-2/ch1-loop.svg, 6590786); here, where the afternoon happens, the storyteller's ruling 3. If chapter 1 keeps the same drawing, one of the two goes (no repeated content).`
 `%% record: briefs/2026-11-04__in-session/11-the-afternoon-asks-the-loop-and-the-factory.md (his words: "this looks very similar to a OODA loop ... think, explain, create, review"); researcher__001 to writer2 (print it as his comparison)`
