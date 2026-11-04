@@ -23,7 +23,7 @@ From the chapter's `%% record` lines (and its `## Where this came from`, where i
 |---|---|---|---|---|---|
 | `team/security/key.json` | key (public) | security | `6fbc02f` 2026-10-30 01:52:57 | `f10b40b` 2026-10-30 03:35:38 | public key record of a member session |
 
-## this repository (13)
+## this repository (15)
 
 - `claims/register.json`
 - `timeline/quotes.md`
@@ -35,8 +35,10 @@ From the chapter's `%% record` lines (and its `## Where this came from`, where i
 - `manuscript/rc2/70/12-how-do-we-contain-this.md`
 - `timeline/day/18.md`
 - `manuscript/rc2/150/16-hour-nineteen-minute-by-minute.md`
+- `briefs/2026-11-04__in-session/33-answers-to-the-newsroom-passes.md`
 - `comms/mail/mailroom/storyteller/conductor__051-who-owns-the-stop-button.eml`
 - `comms/mail/mailroom/writer/conductor__011-read-the-stop-button-article.eml`
+- `briefs/2026-11-04__in-session/31-the-conductor-lifts-the-hold.md`
 - `comms/mail/mailroom/writer/security__001-rc2-chapter-1.eml`
 
 ## Commits named (7)
