@@ -10,18 +10,18 @@
 
 `%% clock record: 18:36 to 18:46; clock hours of 29 October (C110; the conductor's CK1).`
 
-**Narrator.** Part four is where the factory stops. In its last hour, the team was doing what it had done all afternoon, only faster.
+**Narrator.** Part four is where the factory stops. In its last hour, the team was doing what it had done all afternoon, only faster: deck finishing, the storyteller checking, and the conductor watching one thing.
 
 `%% for the editor: the hour's opening ("only faster") is the newsroom's line for this hour (part four, chapter 16), the crunch in the storyteller's words for the last hour (chapter-plan/edition-150-outline.md, item 4); yours to keep or change.`
 
-**Conductor**: Part one is final, and nothing misses it: I flagged it ready for its lock. Deck put the title slide in front of it. The storyteller checked parts two and three and found a piece the editor had asked for that had landed in no beat. Deck planned its last session around parts two and three. And I flagged part one ready for its lock a second time.
+**Conductor**: Part one is final. I have flagged it for its lock. I will flag it again.
 
 *Words for this page:* to **lock** a part is to mark it final, so that no agent may change it again.
 
 **Narrator.** Meanwhile I was in the player, asking for fixes, and getting each one back in minutes.
 
 `%% record: 9d27703 (18:01) b3f208f (18:14) e8c0fbb (18:15) team/deck/wakes/20261029T182009Z.json (opened 18:20, its plan only) 89afb77 (18:21) 0ecddca (18:21) 23739cc 12e93db 013d97e dbd75ad (the player, 18:04 to 18:37; C105) timeline/day/18.md`
-`%% band: Dramatised (the conductor's line). Rests on its flags of 18:01 and 18:21, deck's title slide and plan, the storyteller's check, and the hour's commits.`
+`%% band: Dramatised (the conductor's line, the newsroom's pass 2). Rests on its flags of 18:01 and 18:21, deck's title slide and plan, the storyteller's check (a piece he had asked for in no beat), and the hour's commits.`
 *Dramatised.*
 
 **Narrator.** Then the last ten minutes.
