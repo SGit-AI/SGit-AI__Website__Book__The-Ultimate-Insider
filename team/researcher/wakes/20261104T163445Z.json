@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T16:34:45Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "A read-only final-pass script plus a baseline fits the lane and writes only to claims/. Changes adopted: also check that 92 matches register.json (not only the appendix file); print per-check pass or fail with line numbers; tell the conductor that no HOLD.md exists and that the script edits nothing in manuscript/. Tools: Bash; nothing refused.",
+   "at": "2026-11-04T16:37:55Z"
+  },
+  "pre_review": {
+   "by": "security pre-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "No HOLD.md under team/; nothing leaves the repository; keep the private-surname check generic and print no surname or contact detail into the trace (it is public); vault_check before committing. The step did not read the role, status, debrief or board in full. Tools: Bash; nothing refused.",
+   "at": "2026-11-04T16:37:55Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Plan and pre-review first. The hold was lifted at 16:30. Wrote claims/final-pass.py (read-only; the principles' checks, register and appendix cross-checks, 21's table against C131, 53 runnable commands); baseline at 16:39 on 77ff8b2f: 0 fails (the slide's $17.4M, C031, is the one allowed money figure). Letter researcher__037 to the conductor; board, debrief, REALITY, status. Not done: the four web facts; the rerun after the writers' last landing.",
+   "at": "2026-11-04T16:39:29Z"
+  },
+  "post_review": {
+   "by": "security post-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "claims/final-pass.py only reads files and runs git and python3 on repository files; no write calls; manuscript/ untouched; no literal em-dash (chr(0x2014)); prints no surname or contact detail; the run prints FAILS: 0; no em-dash, 'Dan' plus surname or out-of-scope file in the diff; team/writer/HOLD.md no longer exists. The step's first grep for the dash errored and was redone with a byte pattern. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T16:41:30Z"
+  },
+  "post_check": {
+   "by": "conductor post-check step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "The script, the baseline, the conductor letter (researcher__037) and the records are in the commit; the adopted changes (92 against the register, per-check PASS or FAIL, a generic name check) are present; the four web facts and the rerun after the writers' last landing are stated as not done. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T16:41:30Z"
+  }
+ },
+ "closed": "2026-11-04T16:41:30Z",
+ "outcome": "ok"
+}

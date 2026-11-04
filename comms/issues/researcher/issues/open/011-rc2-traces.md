@@ -84,3 +84,5 @@ RC2 is signed (RP1, CV2): the 30-page edition first, then the 70 and the 150, in
 4 November, 11:37: RV2 pass 7: nothing open in the numbers lane; 16, 18, 19, 21, 91, 93 hold; C132 (the empty-chair line) registered as open: the newsroom's record, the conductor's call (`researcher__003` writer3, 007 writer4, 035 conductor).
 
 4 November, 12:36: RV2 pass 8: nothing open; 92 equals the appendix file; 21's table equals C131; the dev gate is red for the developer's status.json (developer 001, conductor 036; writer4 008).
+
+4 November, 16:39: the writer's hold lifted at 16:30; the final pass scripted (`claims/final-pass.py`), 0 fails at 16:39; rerun at the writers' last landing, at 20:00 and on Thursday morning (conductor 037).
