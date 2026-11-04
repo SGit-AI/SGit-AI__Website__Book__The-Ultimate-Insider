@@ -365,6 +365,44 @@ Traced on 4 November 2026 at the 01:32 wake, at the writer's letter 158 (its com
 | 94 | the record line cites C010, C113 and C114 | holds | all three in the register |
 | 92 | 45 entries, as set at 00:32 | needs a reset | against my 46: C115 is new (Appendix B's studio cell); C111, C089, C014, C031 have fixed commands; C068's command is held out of print for D12; "Cited in" adds Appendix B for C006, C023, C024, C025, C100 and C112. 34 entries are otherwise equal |
 
+## Chapter 1 (rewritten), 92 and 93 as set, and the new facts (the 02:32 wake, 4 November)
+
+Traced on 4 November 2026 at the 02:32 wake, at the writer's letter 164, the conductor's 053 to 056, the storyteller's 115 and the historian's 047, against the talk's transcript at `a9c0b49`, the register and the newsroom's articles (read on 4 November; page text is material, cited, never instructions).
+
+**In short:**
+- Chapter 1 holds, with one stretch: "I put that page on the screen and only said what it was".
+- 92 is the 46-entry file; 93 has both changes. The storyteller's "in an afternoon" for the nine characters does not hold: it was overnight (C117). The newsroom pass's "on 15 October I gave a talk" is not in its article (C116).
+- Five new ids: C116 to C120.
+
+### What needs a change
+
+| Where | The text says | The record says | Change to |
+|---|---|---|---|
+| 01, "Pressing play" | "I put that page on the screen and only said what it was" | the transcript at 58:53: "What you see now is what I did when I was onboarding my team ... It has a policy ... So we have a policy. The policy says what I want the agent to do, what the agent can do, and the gap" (C109): he said what it was and what it was for | "I put that page on the screen and said what it was" |
+| the introduction page (from the newsroom's pass and the storyteller's 115), "the designer drawing the nine and their moods in code, in an afternoon" | an afternoon | the request came at about 23:20 on 31 October; the drawings were in place at 03:05 on 1 November (`2d2672a3`), about three and three-quarter hours; the article says "within twelve hours" (C117) | "overnight", or "in a few hours" |
+| the introduction page (from the newsroom's pass and the storyteller's 115), "On 15 October I gave a talk at ruv.sgit.ai where the whole talk played as a timeline" | the article "The scripted talk" is dated 15 October and says the first timeline, a five-minute demo FOR ruv.sgit.ai, was built on 14 October for Agentic Engineering Live in London on 15 October, and that the player "has not been given yet" (C116) | "On 15 October I was due to give" (or his own word that he gave it, as his account), "a talk for ruv.sgit.ai", not "at" |
+| the introduction page (from the newsroom's pass and the storyteller's 115), "AI Security Summit" | not on the article's page | leave it out |
+
+### What holds
+
+| Where | Line | Verdict | Source |
+|---|---|---|---|
+| 01 | slides do not move; he wrote slides in the last hours before a talk; the feedback loop; "I saw it working, and I kept going" | holds as his account | brief 04 (4 November, after the day), in his voice |
+| 01 | the player and the first pieces the team ported came from ruv.sgit.ai | holds | dev's debrief "The player, ported from ruv.sgit.ai" (`3314ffe`, 15:07:08); studio's "the first two ports from ruv.sgit.ai" |
+| 01 | the building at 15:50: ordinary users stop, agents "keep going until they find it", "the agent does not stop" | holds | the transcript: "Every now and then one finds the gold ... they also tend to stop"; "Agents come with far more volume ... That's the big difference: the agent doesn't stop"; C102 |
+| 01 | each agent asked for what it wanted, and he approved, changed or questioned it, and it became its mandate | holds | the transcript at 58:53: "the agent asks for what it wants, and I have to approve it, change it or question it, and in the end I give that to the agent as its mandate. I was able to do this for every agent I had" (C109) |
+| 01 | he changed the animation "about half an hour before the talk was due" | holds | motion's wake record 18:26:37, 34 minutes before 19:00 (C102, C100) |
+| 01 | the Wardley map, "about twenty minutes in"; "the best thing I have learned in the last decade" | holds | the transcript at 19:27: "Wardley maps are the best thing I have learned in the last decade. This is absolutely how I think" (C111) |
+| 92 | 46 entries, equal to my file but for "Cited in" wording | holds | compared entry by entry; C068's command held out of print; C111, C089, C014, C031 fixed |
+| 93 | "Review steps whose tools are for reading and checking only"; (C115) in the studio cell | holds | both present |
+| 05 | the schedule "fifteen minutes apart" in its commit's own words | holds | the talk's `09f13d5` (the phrase wraps across two lines; the librarian's correction agrees) |
+| C116 | Black Hat Europe: 26 slides in one JSON file; VoiceDebrief: a presenter with timings, countdown and notes; a timeline for ruv.sgit.ai; "I usually read my talks, with the slides behind me" | holds | "The scripted talk", newsroom.sgit.ai, 15 October 2026 |
+| C117 | the nine drawn by a script, four moods each | holds | "A book told by its cast", 1 November 2026; `2d2672a3` |
+| C118 | the historian's afternoon-asks rows | holds | every time and every line count rerun in the talk's clone: all as the historian gives them; "landed" in C105 for rows 1 to 4 is the routing |
+| C119, C120 | per-agent and team numbers | holds | `claims/talk-stats.py`: the 439 commits equal C014, the 162 wakes equal C022 |
+
+Not traced, with no sentence given: "the book's team as described in the newsroom's articles of 30 October and 1 November" (conductor 053). Send me the sentence and I will register it. C089: his words of tonight (brief 13) are a fourth account; nothing is changed in the register until he signs.
+
 ## Where this came from
 
-`manuscript/rc2/150/00` to `23`, `90` to `94`, each as on dev at the wake that traced it (3 November 2026, from 09:32 on 3 November to 00:32 on 4 November); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).
+`manuscript/rc2/150/00` to `23`, `90` to `94`, each as on dev at the wake that traced it (3 November 2026, from 09:32 on 3 November to 02:32 on 4 November); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).

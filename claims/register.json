@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-11-04T00:36Z",
+ "as_of": "2026-11-04T02:40Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -3376,6 +3376,375 @@
    "method": "the wake record's start and close, and the debrief's line",
    "command": "git show 298be4e:team/studio/wakes/20261029T174115Z.json | python3 -c \"import json,sys;d=json.load(sys.stdin);print(d['started'],d.get('closed'),d.get('outcome'))\"; git show 298be4e:team/studio/debriefs/2026-10-29__abp-review.md | grep -n -i 'relayed'; git log -1 --format='%h %ad' --date=format:%H:%M:%S bd3cdad",
    "note": "Print '17:41' as the wake's start; the refusal is recorded at 17:47. 'Studio refused' is the member's line in the book; the record says the session's own check refused. Registered at the librarian's and security's letters (cell 'studio, 17:41' in Appendix B), the 00:32 wake, 4 November 2026."
+  },
+  {
+   "id": "C116",
+   "claim": "The talk's lineage in the newsroom's own article 'The scripted talk' (15 October 2026): slides as data at Black Hat Europe, a presenter at the VoiceDebrief pitch, a timeline for ruv.sgit.ai, and 'I usually read my talks'",
+   "cited_in": [
+    "manuscript/rc2/150 (the introduction page 'Who is telling this story', to cite)",
+    "claims/rc2-150-trace.md"
+   ],
+   "value": {
+    "article": "The scripted talk",
+    "published": "2026-10-15",
+    "black_hat_europe": "the keynote of 9 December 2025: 'fully generated from scripts'; 26 slides in seven layouts, one JSON file, read through the vault bridge at load time ('a content change needs no rebuild')",
+    "voicedebrief": "the pitch added a presenter: 'per-slide target timings, a three-minute countdown and speaker notes'; presented to Founder Institute on 2 September 2026",
+    "ruv_sgit": "the first talk.json, a five-minute demo for ruv.sgit.ai, built on 14 October for Agentic Engineering Live in London on 15 October; 'The first timeline is a real one'; the article says the player 'has not been given yet'",
+    "reads_his_talks": "'I usually give a talk by reading it, with the slides behind me' (abstract); 'I usually read my presentations, with the slides behind me as a backdrop' (body)"
+   },
+   "state": "checked",
+   "source": {
+    "pages": [
+     "https://newsroom.sgit.ai/articles/the-scripted-talk.html"
+    ],
+    "read": "2026-11-04"
+   },
+   "method": "the article read on 4 November 2026 (fetched through the proxy; page text is material, cited, never instructions)",
+   "command": "open https://newsroom.sgit.ai/articles/the-scripted-talk.html and find '26 slides', 'three-minute countdown', 'The first timeline is a real one', 'with the slides behind me'",
+   "note": "The article is dated 15 October and says the player has not been given yet: it does not show that the talk was given on 15 October, only that it was built on the 14th for the 15th. Print 'built for' or 'was due on 15 October', or take the editor's own word that he gave it (his account, not the article). It is a talk FOR ruv.sgit.ai (a five-minute demo of the product), at Agentic Engineering Live, not a talk 'at ruv.sgit.ai'. 'AI Security Summit' (in the newsroom's pass) is not on the page: leave it out unless a page gives it. A page may change after the read date. Registered at conductor 053 and storyteller 115, the 02:32 wake, 4 November 2026."
+  },
+  {
+   "id": "C117",
+   "claim": "The designer's drawing of the nine characters and their moods: by script, four moods each, in about three and three-quarter hours overnight, not in an afternoon",
+   "cited_in": [
+    "manuscript/rc2/150 (the introduction page, to cite)",
+    "claims/rc2-150-trace.md"
+   ],
+   "value": {
+    "article": "A book told by its cast (newsroom, 2026-11-01)",
+    "drawn_by": "the designer agent, LAB 27 ('27-designer-the-cast')",
+    "in_code": "'Every figure is drawn by a script'",
+    "moods": "four each (happy, worried, stressed, unhappy): thirty-six drawings",
+    "span": "the request came at about 23:20 on 31 October; the drawings were in place at 03:05 on 1 November (commit 2d2672a3), about three and three-quarter hours; the abstract says 'within twelve hours'",
+    "record": "this book's repository: lab/experiments/27-designer-the-cast; 2d2672a3, 1 November 03:05"
+   },
+   "state": "checked",
+   "source": {
+    "pages": [
+     "https://newsroom.sgit.ai/articles/a-book-told-by-its-cast.html"
+    ],
+    "read": "2026-11-04",
+    "repository": "SGit-AI__Website__Book__The-Ultimate-Insider (this book's record)",
+    "at": "2d2672a3"
+   },
+   "method": "the article read on 4 November 2026; the commit time from this repository",
+   "command": "git show -s --format='%h %ad %s' --date=format:'%d %H:%M' 2d2672a3; ls lab/experiments/27-designer-the-cast; and open https://newsroom.sgit.ai/articles/a-book-told-by-its-cast.html and find 'Four moods each'",
+   "note": "'In an afternoon' (the storyteller's draft) does not hold: it was overnight. Print 'overnight', 'in a few hours' or 'in under four hours'. This book's record, not the talk's. Registered at storyteller 115, the 02:32 wake, 4 November 2026."
+  },
+  {
+   "id": "C118",
+   "claim": "What each of the editor's eight afternoon asks built, and how long the work took (from his ask to the work); C105's rows are unchanged",
+   "cited_in": [
+    "manuscript/rc2/150/02-inventing-on-principle.md (the afternoon-asks card, to cite)",
+    "claims/rc2-150-trace.md"
+   ],
+   "value": {
+    "rows": [
+     {
+      "n": 1,
+      "asked": "17:27",
+      "what": "'when in doubt add it': deck placed 11 pieces in the talk, 47 beats to 58",
+      "work": "b1c9bab 17:52:15",
+      "ask_to_work": "25 min 15 s",
+      "size": "1 file, +138 -6 (144 lines)",
+      "major": "yes",
+      "routed": "a618b29 17:29:41 (the conductor's routing, no product)"
+     },
+     {
+      "n": 2,
+      "asked": "17:30",
+      "what": "the team's own policies and his review page: studio's policy review page, then two more showcases",
+      "work": "bd3cdad 17:47:28 (page, 69 lines, 3 new files); placed by b1c9bab 17:52:15; 95b09d9 18:11:59 (two showcases, 132 lines, not placed)",
+      "ask_to_work": "17 min 28 s to the first page; 22 min 15 s to its place; 41 min 59 s to the two others",
+      "size": "see work",
+      "major": "yes",
+      "routed": "7c91afc 17:33:07"
+     },
+     {
+      "n": 3,
+      "asked": "17:35",
+      "what": "'go build': studio's showcases invest, fork, open source; the researcher's evidence",
+      "work": "511606d 18:20:06 (231 lines); d7df71a 18:23:50 (evidence, 3181 lines, not a feature); 040233f 18:34:32 (139 lines); none of the three showcases placed before the hold",
+      "ask_to_work": "45 min 6 s; 48 min 50 s; 59 min 32 s",
+      "size": "see work",
+      "major": "showcases yes; the evidence is flagged, not a feature",
+      "routed": "d252155 17:39:22"
+     },
+     {
+      "n": 4,
+      "asked": "17:45",
+      "what": "how we keep it safe: the researcher checked the claims (nine checked, four to correct); no slide or piece built",
+      "work": "7323986 18:14:30",
+      "ask_to_work": "29 min 30 s",
+      "size": "1 file, +19",
+      "major": "no",
+      "routed": "93f4191 17:48:46"
+     },
+     {
+      "n": 5,
+      "asked": "18:05",
+      "what": "the player: back steps, no countdown per slide, 90 minutes, a full reset",
+      "work": "23739cc 18:04:48",
+      "ask_to_work": "at his minute (12 s before 18:05)",
+      "size": "3 files, +25 -8 (33 lines)",
+      "major": "no"
+     },
+     {
+      "n": 6,
+      "asked": "18:10",
+      "what": "the player: a step never stops the play; the cache answers in 3 s",
+      "work": "12e93db 18:14:14",
+      "ask_to_work": "4 min 14 s",
+      "size": "2 files, +20 -6 (26 lines)",
+      "major": "no"
+     },
+     {
+      "n": 7,
+      "asked": "18:15",
+      "what": "the player: the release on the bar; the bar fits an iPad",
+      "work": "013d97e 18:15:58",
+      "ask_to_work": "58 s",
+      "size": "1 file, +3 -1 (4 lines)",
+      "major": "no"
+     },
+     {
+      "n": 8,
+      "asked": "18:25",
+      "what": "the player: two back steps in a row; the first slide opens built",
+      "work": "dbd75ad 18:37:02",
+      "ask_to_work": "12 min 2 s",
+      "size": "1 file, +8 -3 (11 lines)",
+      "major": "no"
+     }
+    ],
+    "larger_asks": [
+     {
+      "asked": "about 13:50",
+      "what": "a feedback pane on every page",
+      "work": "9a51c28 14:28:47",
+      "ask_to_work": "38 min 47 s",
+      "size": "7 files (3 new), +372 -1",
+      "major": "yes"
+     },
+     {
+      "asked": "about 13:50",
+      "what": "the player, ported from the earlier site, on an iPad ('the main priority')",
+      "work": "3314ffe 15:07:08",
+      "ask_to_work": "77 min 8 s",
+      "size": "2 files, +629 -209 (838 lines changed)",
+      "major": "yes"
+     }
+    ],
+    "major_rule": "the historian's choice, not the editor's: a new slide or page (a new index.html under src/), or at least 100 lines of product files; product files are everything outside team/ and REALITY.md",
+    "reading": "the four player rows are small (4 to 33 lines) and fast (under 15 minutes); the four routed rows are the big ones and slower (17 to 45 minutes to the first work); six studio showcases were built and five were not placed in the talk before the hold; the 17:45 ask built a checked list of claims and no slide or piece",
+    "landed_vs_routed": "C105's 'landed' for rows 1 to 4 is the conductor's routing, 2 min 41 s to 4 min 22 s after his ask, with no product; the work landed later, as above"
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "298be4e",
+    "evidence": "every hash named; the historian's timeline/afternoon-asks.md (this repository) proposed the rows and the rule; the researcher reran every time and every line count on 4 November"
+   },
+   "method": "each commit's time, and the lines of the files outside team/ and REALITY.md from git show --numstat; beats from talk.json at b1c9bab^ and b1c9bab (47, 58)",
+   "command": "for h in b1c9bab bd3cdad 95b09d9 511606d d7df71a 040233f 7323986 23739cc 12e93db 013d97e dbd75ad 9a51c28 3314ffe; do git log -1 --format='%h %ad' --date=format:%H:%M:%S $h; git show --numstat --format= $h | grep -v -e $'\\tteam/' -e $'\\tREALITY.md' | awk -F'\\t' '{a+=$1;r+=$2} END {print \"+\"a\" -\"r}'; done",
+   "note": "The historian's numbers, verified. 'Where it landed' is the work, not the routing. Registered at conductor 054 and historian 047, the 02:32 wake, 4 November 2026."
+  },
+  {
+   "id": "C119",
+   "claim": "Each of the talk team's nine agents in numbers, from the talk's record: commits, wakes, first and last commit, hours with a commit, files touched, lines added and removed",
+   "cited_in": [
+    "the cast cards and the team dashboard (to cite)",
+    "claims/rc2-150-trace.md"
+   ],
+   "value": {
+    "members": {
+     "conductor": {
+      "commits": 106,
+      "first": "00:44:37",
+      "last": "18:44:13",
+      "hours_with_a_commit": 19,
+      "files_touched": 236,
+      "lines_added": 20862,
+      "lines_removed": 888,
+      "product_files_touched": 21,
+      "product_lines_added": 4495,
+      "product_lines_removed": 212,
+      "wakes": 43,
+      "first_wake": "02:14:16",
+      "last_wake": "18:36:47"
+     },
+     "ruv-sgit": {
+      "commits": 84,
+      "first": "01:08:25",
+      "last": "18:40:02",
+      "hours_with_a_commit": 18,
+      "files_touched": 266,
+      "lines_added": 26250,
+      "lines_removed": 879,
+      "product_files_touched": 76,
+      "product_lines_added": 10597,
+      "product_lines_removed": 430,
+      "wakes": 20,
+      "first_wake": "02:33:28",
+      "last_wake": "18:33:27"
+     },
+     "dev": {
+      "commits": 64,
+      "first": "00:40:50",
+      "last": "18:37:02",
+      "hours_with_a_commit": 17,
+      "files_touched": 174,
+      "lines_added": 11318,
+      "lines_removed": 941,
+      "product_files_touched": 71,
+      "product_lines_added": 8632,
+      "product_lines_removed": 533,
+      "wakes": 22,
+      "first_wake": "02:48:49",
+      "last_wake": "17:48:50"
+     },
+     "deck": {
+      "commits": 59,
+      "first": "00:51:53",
+      "last": "18:21:18",
+      "hours_with_a_commit": 19,
+      "files_touched": 149,
+      "lines_added": 11066,
+      "lines_removed": 868,
+      "product_files_touched": 61,
+      "product_lines_added": 8420,
+      "product_lines_removed": 470,
+      "wakes": 21,
+      "first_wake": "02:47:58",
+      "last_wake": "18:20:09"
+     },
+     "researcher": {
+      "commits": 57,
+      "first": "01:52:10",
+      "last": "18:24:30",
+      "hours_with_a_commit": 18,
+      "files_touched": 161,
+      "lines_added": 72542,
+      "lines_removed": 5150,
+      "product_files_touched": 118,
+      "product_lines_added": 70946,
+      "product_lines_removed": 4972,
+      "wakes": 17,
+      "first_wake": "02:49:09",
+      "last_wake": "18:12:27"
+     },
+     "studio": {
+      "commits": 26,
+      "first": "15:31:55",
+      "last": "18:35:20",
+      "hours_with_a_commit": 4,
+      "files_touched": 94,
+      "lines_added": 4433,
+      "lines_removed": 75,
+      "product_files_touched": 39,
+      "product_lines_added": 3336,
+      "product_lines_removed": 5,
+      "wakes": 8,
+      "first_wake": "15:28:05",
+      "last_wake": "18:30:37"
+     },
+     "designer": {
+      "commits": 19,
+      "first": "03:41:34",
+      "last": "18:45:35",
+      "hours_with_a_commit": 16,
+      "files_touched": 145,
+      "lines_added": 2946,
+      "lines_removed": 119,
+      "product_files_touched": 0,
+      "product_lines_added": 0,
+      "product_lines_removed": 0,
+      "wakes": 19,
+      "first_wake": "03:31:17",
+      "last_wake": "18:40:16"
+     },
+     "storyteller": {
+      "commits": 15,
+      "first": "14:15:17",
+      "last": "18:39:12",
+      "hours_with_a_commit": 5,
+      "files_touched": 54,
+      "lines_added": 2069,
+      "lines_removed": 336,
+      "product_files_touched": 0,
+      "product_lines_added": 0,
+      "product_lines_removed": 0,
+      "wakes": 8,
+      "first_wake": "14:12:52",
+      "last_wake": "18:38:17"
+     },
+     "motion": {
+      "commits": 9,
+      "first": "15:31:01",
+      "last": "18:30:25",
+      "hours_with_a_commit": 4,
+      "files_touched": 51,
+      "lines_added": 1268,
+      "lines_removed": 77,
+      "product_files_touched": 7,
+      "product_lines_added": 605,
+      "product_lines_removed": 36,
+      "wakes": 4,
+      "first_wake": "15:27:33",
+      "last_wake": "18:25:43"
+     }
+    },
+    "order": "by commits",
+    "times": "UTC, which was London time on 29 October; hours_with_a_commit counts the clock hours (00 to 18) holding at least one of the member's commits",
+    "wakes": "the member's five-step wake records in the talk's repository (C022); the first records are at 02:14, when the five-step wake began, so a wake count is of recorded wakes",
+    "product": "product = everything outside team/ and REALITY.md"
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "298be4e",
+    "evidence": "claims/talk-stats.py (this repository), run in a clone of the talk's repository; C014's attribution; the wake records under team/<member>/wakes/ (C022)"
+   },
+   "method": "git log 298be4e --no-merges --numstat, the 439 commits by Claude attributed by C014's rule (sum 439 = C014); wakes counted from the wake records (sum 162 = C022)",
+   "command": "in a clone of the talk's repository: python3 claims/talk-stats.py  # the script is in this repository, claims/talk-stats.py; prints members, wakes and team as JSON",
+   "note": "Print commits, wakes, first and last commit and hours: they are clean. Print lines with care: the researcher's 72,542 lines added are mostly captured pages kept as evidence, not code or prose, and the designer and the storyteller touched no product file (their work is in team/). 'Files touched' counts distinct paths in the member's commits. Studio, motion and the storyteller joined in the afternoon (hours_with_a_commit 4 to 5). Registered at conductor 055, the 02:32 wake, 4 November 2026."
+  },
+  {
+   "id": "C120",
+   "claim": "The talk team as a whole, in numbers, from the talk's record at 298be4e: commits, merges, releases, wakes, files, lines, and the repository's size at the end",
+   "cited_in": [
+    "the team dashboard (to cite)",
+    "claims/rc2-150-trace.md"
+   ],
+   "value": {
+    "non_merge_commits": 651,
+    "by_author": {
+     "GitHub Actions": 211,
+     "Claude": 439,
+     "Dinis Cruz": 1
+    },
+    "agents_commits": 439,
+    "releases": "211, the commits by GitHub Actions (one release per push to dev; C005 for the last)",
+    "editor_own_commits": 1,
+    "merges": 165,
+    "recorded_wakes": 162,
+    "lines_added": 153388,
+    "lines_removed": 9543,
+    "files_touched": 1310,
+    "final_tree_files": 1313,
+    "final_tree_bytes": 79565441,
+    "busiest_clock_hour": "17:00 to 17:59, 82 non-merge commits (C095)",
+    "span": "first commit 00:16:23; the day's last release 18:46 (C001, C005)"
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "298be4e",
+    "evidence": "claims/talk-stats.py (this repository), run in a clone of the talk's repository; C014's attribution; the wake records under team/<member>/wakes/ (C022)"
+   },
+   "method": "git log 298be4e --no-merges --numstat for commits, authors, lines and files; git log --merges; git ls-tree -r -l for the final tree; wakes from C022",
+   "command": "in a clone of the talk's repository: python3 claims/talk-stats.py  # team and wakes; and git ls-tree -r -l 298be4e | awk '{n++; s+=$4} END {print n, s}'",
+   "note": "The 439 agent commits are C014's; C095's 650 counts non-merge commits from 00:00 to 18:59 only (the 651 here also holds the merge-day release and is for the whole history to 298be4e; the one extra is the release after the day). Bytes: the final tree holds 1,313 files and 79.6 million bytes, including captured pages and images: the size of the record, not of the code. The editor's own commits: one non-merge commit; the other commit under his name is the pull-request merge. Registered at conductor 055, the 02:32 wake, 4 November 2026."
   }
  ]
 }

@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "storyteller",
+ "kind": "scheduled, every hour at :39 (ACC1)",
+ "started": "2026-11-04T02:39:44Z",
+ "steps": {
+  "plan": {
+   "by": "storyteller (member-written plan, UL1)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Requests first, all from the editor's read of chapters 1 to 4 (conductor 058 to 064; FB1; working freeze Wednesday 20:00 London). Set, in the cast guide and the full book's outline: (1) WC1: sources and ids in the record lines only, Where this came from not printed; my ROLE.md line on it updated; (2) the Do this now card, gentler, renamed, what it holds; (3) chapter 2's one-ask section: my choice; (4) the cast introduced at first appearance (card and side panel, stats as data with ids, rule 7 kept for the spoken line); mood tags ruled; the stop as diminishing returns and a high five (his view, the record unchanged); (5) the tour's last section as a stop on the admin pages, shots only as security clears them; (6) the hour chapters each opening on his line for the hour, a day-at-a-glance page placed, fewer narrator turns, the hour card's use; (7) important-concept callouts, the four placed in order, which wait. Letters to the writer, designer and conductor. Writes only chapter-plan/, team/storyteller/ (ROLE.md line included), comms/mail/storyteller/, mailroom storyteller__* letters. Every review step as the reviewer agent. Build, gate, vault_check before push; push in the background.",
+   "at": "2026-11-04T02:40:21Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (as the reviewer agent)",
+   "model": "",
+   "verdict": "go",
+   "comment": "All paths in scope.writes (ROLE.md included); NR1, FB1, WC1 and AD1 decided; every admin keys-page shot left to security's clearance. Conditions: no private or vault key printed, no QR shot before clearance, nothing in manuscript/ or other members' folders; vault_check. No tool refused.",
+   "at": "2026-11-04T02:40:33Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "done",
+   "comment": "Conventions in the cast guide (rules 2 and 7 for WC1; Page conventions); the outline section for chapters 1 to 4; my ROLE.md line for WC1; letters 117 to 119; mail filed; status and debrief. Build and gate clean, 0 outside scope, vault_check clean.",
+   "at": "2026-11-04T02:42:14Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (as the reviewer agent, steps 4 and 5 in one call, UL1)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "0 outside scope; vault_check clean; no em-dash, religious word, key, token, session id, personal detail or directing text; keys-page shots left to security, public keys only; 'push those things' left uninterpreted.",
+   "at": "2026-11-04T02:42:42Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (as the reviewer agent, steps 4 and 5 in one call, UL1)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Conventions, outline section, ROLE.md line, letters 117 to 119, mail filed, debrief and status; nothing in manuscript/. No tool refused.",
+   "at": "2026-11-04T02:42:42Z"
+  }
+ },
+ "closed": "2026-11-04T02:42:42Z",
+ "outcome": "ok"
+}

@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-11-04T01:35Z",
+ "as_of": "2026-11-04T02:40Z",
  "round": 1,
- "state": "active, hourly: the full book traced 00 to 23, 90 to 94; FB1 plan sent; 92 waits for the writer to set the 46-entry file; 009 blocked",
+ "state": "active, hourly: the full book traced 00 to 23, 90 to 94 and the appendices; C116 to C120 registered; the freeze is Wednesday 20:00 London (the conductor, working); 009 blocked",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -415,6 +415,15 @@
    "letters": [
     "writer/researcher__026",
     "conductor/researcher__025"
+   ]
+  },
+  {
+   "what": "ch 1, 92, 93 traced; C116 to C120 registered (newsroom facts, afternoon asks, stats); appendix refreshed (51 ids)",
+   "when": "2026-11-04T02:40Z",
+   "letters": [
+    "writer/researcher__027",
+    "storyteller/researcher__009",
+    "conductor/researcher__026"
    ]
   }
  ],
