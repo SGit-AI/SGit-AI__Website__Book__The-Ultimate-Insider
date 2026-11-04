@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer2",
+ "kind": "editor's request: first wake",
+ "started": "2026-11-04T22:12:57Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "First wake: role, policy, status, key, own task; two boxes drawn (19's two rooms, 18's two brakes); notice to publisher cc designer; 13 already drawn (LAB 59).",
+   "at": "2026-11-04T22:14:58Z"
+  },
+  "pre_review": {
+   "by": "reviewer sub-agent (sonnet), in the same sub-agent as the plan",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "All writes in scope.writes; drafts untouched; public halves only; one task only; no HOLD.",
+   "at": "2026-11-04T22:14:58Z"
+  },
+  "work": {
+   "by": "designer2",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Role, policy, status, key (public halves), own task trig at :15 London; LAB 65 two rooms, LAB 66 two brakes, no number; board 001 done, 002 open; notice designer2__001; gate, agents check, vault_check clean.",
+   "at": "2026-11-04T22:19:06Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "All staged paths in scope.writes; no private key, token or contact; no em-dash, religious word, attack shape or register id in an SVG; drafts untouched; vault_check clean.",
+   "at": "2026-11-04T22:19:45Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "Every planned item in the diff; the task from status.json, not visible in the diff, as expected.",
+   "at": "2026-11-04T22:19:45Z"
+  }
+ },
+ "closed": "2026-11-04T22:19:45Z",
+ "outcome": "ok"
+}
