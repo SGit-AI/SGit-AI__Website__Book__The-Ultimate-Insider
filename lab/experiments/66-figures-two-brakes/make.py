@@ -7,20 +7,23 @@ INK, GREY, RULE, ACC, READ = "#1f2933", "#5b6670", "#d5dce4", "#b0481a", "#23807
 F = 'font-family="Inter, Helvetica, Arial, sans-serif"'
 def t(x, y, s, size=3.18, w=400, fill=INK, a="start"):
     return f'<text x="{x:.2f}" y="{y:.2f}" {F} font-size="{size}" font-weight="{w}" fill="{fill}" text-anchor="{a}">{s}</text>'
-W, H = 164, 100
+W, H = 164, 84
+SY = 69 / 87  # the chain's vertical span, 4 to 91 in LAB 61, into 4 to 73 here
+def Y(y): return 4 + (y - 4) * SY
 o = []
 # the axis, as LAB 61 draws it
 for x, name in [(32.5, "new"), (69.5, "custom built"), (106.5, "product"), (143.5, "ordinary")]:
-    o.append(t(x, 97.6, name, fill=GREY, a="middle"))
+    o.append(t(x, 81.6, name, fill=GREY, a="middle"))
 for x in (51, 88, 125):
-    o.append(f'<line x1="{x}" y1="4" x2="{x}" y2="91" stroke="{RULE}" stroke-width=".3" stroke-dasharray="1 1"/>')
-o.append(f'<line x1="14" y1="92" x2="162" y2="92" stroke="{GREY}" stroke-width=".35"/>')
-o.append(f'<path d="M160.4 91 L162 92 L160.4 93" fill="none" stroke="{GREY}" stroke-width=".35"/>')
-o.append(t(1, 8, "seen", fill=GREY)); o.append(t(1, 88, "unseen", fill=GREY))
+    o.append(f'<line x1="{x}" y1="4" x2="{x}" y2="76" stroke="{RULE}" stroke-width=".3" stroke-dasharray="1 1"/>')
+o.append(f'<line x1="14" y1="77" x2="162" y2="77" stroke="{GREY}" stroke-width=".35"/>')
+o.append(f'<path d="M160.4 76 L162 77 L160.4 78" fill="none" stroke="{GREY}" stroke-width=".35"/>')
+o.append(t(1, 8, "seen", fill=GREY)); o.append(t(1, 73, "unseen", fill=GREY))
 N = {  # name: (x, y, label side)
     "editor": (27.32, 6.00), "talk": (24.36, 19.94), "slides": (36.20, 37.16), "site": (67.28, 37.16),
     "player": (73.20, 47.00), "agents": (49.52, 60.12), "hold": (25.84, 83.90), "brief": (111.68, 83.90),
     "check": (126.48, 76.52), "build": (135.36, 83.90), "tool": (117.60, 71.60)}
+N = {k: (x, round(Y(y), 2)) for k, (x, y) in N.items()}
 for a, b in [("editor", "talk"), ("talk", "slides"), ("talk", "site"), ("talk", "player"), ("slides", "agents"),
              ("site", "agents"), ("player", "agents"), ("agents", "tool"), ("agents", "build"), ("agents", "check"),
              ("agents", "brief"), ("agents", "hold")]:
@@ -40,16 +43,16 @@ L = [("editor", 3, 1.1, "the editor", 700, "start"), ("talk", 3.6, -2.2, "a talk
      ("slides", -3.6, 1.1, "the slides", 400, "end"), ("site", 3.6, 1.1, "the site", 400, "start"),
      ("player", 3.6, 1.1, "the player", 400, "start"), ("agents", -3.6, 1.1, "the agents", 400, "end"),
      ("tool", 3.6, 1.1, "the agent tool", 400, "start"), ("check", 3.6, 1.1, "the check", 400, "start"),
-     ("build", 3.6, 1.1, "the build", 400, "start"), ("brief", -3.6, 1.1, "the brief", 400, "end")]
+     ("build", 3.6, 1.1, "the build", 400, "start"), ("brief", -4.6, 1.1, "the brief", 400, "end")]
 for k, dx, dy, s, w, a in L:
     o.append(t(N[k][0] + dx, N[k][1] + dy, s, w=w, a=a))
 # brake one: the hold, at the new end
 hx, hy = N["hold"]
 o.append(f'<circle cx="{hx}" cy="{hy}" r="3.4" fill="#fff" stroke="{ACC}" stroke-width="1.1"/>')
 o.append(f'<circle cx="{hx}" cy="{hy}" r="1.6" fill="{ACC}"/>')
-o.append(t(hx + 5, hy - 2.4, "the hold", 3.5, 800, ACC))
-o.append(t(hx + 5, hy + 1.8, "anyone stops,", fill=ACC))
-o.append(t(hx + 5, hy + 5.6, "the editor restarts", fill=ACC))
+o.append(t(hx + 4.6, hy + 0.9, "the hold", 3.5, 800, ACC))
+o.append(t(hx + 4.6, hy + 4.8, "anyone stops,", fill=ACC))
+o.append(t(hx + 4.6, hy + 8.6, "the editor restarts", fill=ACC))
 # the key to the two brakes, top right, in the free space
 kx, ky = 104, 10
 o.append(f'<circle cx="{kx}" cy="{ky}" r="1.6" fill="{ACC}"/><circle cx="{kx}" cy="{ky}" r="3.0" fill="none" stroke="{ACC}" stroke-width="1"/>')
