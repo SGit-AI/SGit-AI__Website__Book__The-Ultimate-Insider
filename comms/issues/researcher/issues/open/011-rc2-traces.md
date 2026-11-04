@@ -62,3 +62,5 @@ RC2 is signed (RP1, CV2): the 30-page edition first, then the 70 and the 150, in
 4 November, 00:36: Appendix A (92) and B (93) traced; the refreshed file (46 ids) for the writer to set; C111, C089, C014, C031 commands fixed; C115 registered; C068 held out of print for D12 (`researcher__025`, librarian 001, publisher 007).
 
 4 November, 01:35: the new lines in 05 and 94 hold; 92 to be set once more from the 46-entry file (`researcher__026`); what I can land for FB1 sent to the conductor (`researcher__025`).
+
+4 November, 02:40: chapter 1 (rewritten), 92 and 93 as set traced: hold, one stretch in 1; C116 to C120 registered (newsroom facts, afternoon asks, per-agent and team stats); two lines in the introduction facts do not hold as drafted (`researcher__027`, storyteller 009, conductor 026).

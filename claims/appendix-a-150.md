@@ -474,12 +474,62 @@ for c in bb1f57c0 19e266fb f3e634f3 81fd2ef8 e69f073b 6d357179 5c2d2f9c afbb50d7
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** Appendix B (to cite).
+- **Cited in:** Appendix B.
 
 ```
 git show 298be4e:team/studio/wakes/20261029T174115Z.json | python3 -c "import json,sys;d=json.load(sys.stdin);print(d['started'],d.get('closed'),d.get('outcome'))"; git show 298be4e:team/studio/debriefs/2026-10-29__abp-review.md | grep -n -i 'relayed'; git log -1 --format='%h %ad' --date=format:%H:%M:%S bd3cdad
 ```
 
+## C116: The talk's lineage in the newsroom's own article 'The scripted talk' (15 October 2026): slides as data at Black Hat Europe, a presenter at the VoiceDebrief pitch, a timeline for ruv.sgit.ai, and 'I usually read my talks'
+
+- **State:** checked.
+- **Source:** web pages read on 2026-11-04: https://newsroom.sgit.ai/articles/the-scripted-talk.html.
+- **Cited in:** the introduction page (to cite).
+
+```
+open https://newsroom.sgit.ai/articles/the-scripted-talk.html and find '26 slides', 'three-minute countdown', 'The first timeline is a real one', 'with the slides behind me'
+```
+
+## C117: The designer's drawing of the nine characters and their moods: by script, four moods each, in about three and three-quarter hours overnight, not in an afternoon
+
+- **State:** checked.
+- **Source:** web pages read on 2026-11-04: https://newsroom.sgit.ai/articles/a-book-told-by-its-cast.html.
+- **Cited in:** the introduction page (to cite).
+
+```
+git show -s --format='%h %ad %s' --date=format:'%d %H:%M' 2d2672a3; ls lab/experiments/27-designer-the-cast; and open https://newsroom.sgit.ai/articles/a-book-told-by-its-cast.html and find 'Four moods each'
+```
+
+## C118: What each of the editor's eight afternoon asks built, and how long the work took (from his ask to the work); C105's rows are unchanged
+
+- **State:** checked.
+- **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
+- **Cited in:** chapter 2 (to cite).
+
+```
+for h in b1c9bab bd3cdad 95b09d9 511606d d7df71a 040233f 7323986 23739cc 12e93db 013d97e dbd75ad 9a51c28 3314ffe; do git log -1 --format='%h %ad' --date=format:%H:%M:%S $h; git show --numstat --format= $h | grep -v -e $'\tteam/' -e $'\tREALITY.md' | awk -F'\t' '{a+=$1;r+=$2} END {print "+"a" -"r}'; done
+```
+
+## C119: Each of the talk team's nine agents in numbers, from the talk's record: commits, wakes, first and last commit, hours with a commit, files touched, lines added and removed
+
+- **State:** checked.
+- **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
+- **Cited in:** the cast cards and the dashboard (to cite).
+
+```
+in a clone of the talk's repository: python3 claims/talk-stats.py  # the script is in this repository, claims/talk-stats.py; prints members, wakes and team as JSON
+```
+
+## C120: The talk team as a whole, in numbers, from the talk's record at 298be4e: commits, merges, releases, wakes, files, lines, and the repository's size at the end
+
+- **State:** checked.
+- **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
+- **Cited in:** the dashboard (to cite).
+
+```
+in a clone of the talk's repository: python3 claims/talk-stats.py  # team and wakes; and git ls-tree -r -l 298be4e | awk '{n++; s+=$4} END {print n, s}'
+```
+
 ## Where this came from
 
-`claims/register.json` as on dev at the 01:32 wake, 4 November 2026; every C-id found in `manuscript/rc2/150/` (not 92 itself) at that wake, and C113, C114 and C115, registered for chapters to cite. Rebuilt by the researcher on 4 November 2026, about 01:35 UTC; first built at the 22:32 wake on 3 November.
+`claims/register.json` as on dev at the 02:32 wake, 4 November 2026; every C-id found in `manuscript/rc2/150/` (not 92 itself) at that wake, and C115 to C120, registered for chapters and pages to cite. Rebuilt by the researcher on 4 November 2026, about 02:42 UTC; first built at the 22:32 wake on 3 November.
