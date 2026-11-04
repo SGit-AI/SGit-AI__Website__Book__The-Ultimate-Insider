@@ -17,10 +17,31 @@
    "verdict": "go",
    "comment": "The amendment meets the three asks: policy title and scope.content name part four at PW1, writes unchanged; no part-four review to writer2 while critic3's work is open; critic2__013 to critic3, copied to the conductor, only proposes a split. Conditions: cite PW1 and the editor's date in the policy's status; nothing outside critic2's paths; the split unsettled until critic3 and the conductor agree.",
    "at": "2026-11-04T10:24:09Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "All four amended items in 213317ae; no part-four review to writer2; policy title and content at PW1, writes unchanged; status and debrief. Minor: the scope text's 'as agreed with it and the conductor' reads as settled; it is meant as the condition, nothing is agreed yet (status.json says proposed).",
+   "at": "2026-11-04T10:26:25Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "213317ae: all files under team/critic2/ or critic2 mail; policy diff only title, status, scope.content, writes untouched, PW1 and date cited; critic2__013 only proposes; agents.py, gate, vault_check clean; no em-dashes, religious words or key-like strings; nothing attack-shaped or toward the blind repository.",
+   "at": "2026-11-04T10:26:55Z"
+  },
+  "work": {
+   "by": "critic2",
+   "model": "",
+   "verdict": "done",
+   "comment": "part three pass 5 clean; part four split proposed to critic3 (critic2__013); policy content at PW1",
+   "at": "2026-11-04T10:26:55Z"
   }
  },
- "closed": null,
- "outcome": null,
+ "closed": "2026-11-04T10:26:55Z",
+ "outcome": "ok",
  "history": [
   {
    "plan": {
