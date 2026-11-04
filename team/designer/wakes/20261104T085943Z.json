@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, hourly at :57 London",
+ "started": "2026-11-04T08:59:43Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Requests first: chapter 12's empty slot 1 (talk__player.jpg, cited at line 124, cleared by security 024's 08:24 entry) through PLACED; 03's three key QRs as one SVG (each key.png cleared by name in security__024 as public halves only), labelled by name only, passing unsafe_svg; RV2 on 00b. 03b, 94, Start here and the 10 to 13 boxes wait. All in scope; no HOLD. Tools: Bash, none refused.",
+   "at": "2026-11-04T09:01:17Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope; no HOLD. talk__player.jpg cleared (security 024, 08:24). The three key.png files are public halves, cleared by name in security__024; a public key QR is not printing a key. Conditions: embed the committed bytes unchanged (no re-encoding from key.json), no fingerprint or key text, names only, vault_check before the commit; a key.png changed before the commit needs its own read. Tools: Bash, none refused.",
+   "at": "2026-11-04T09:02:14Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Done as planned. LAB 50: the three key.png files embedded as committed (checked byte for byte), 48 mm each, names only, passing unsafe_svg. PLACED sets 03's keys line and 12's player (talk__player.jpg); the list resynced (112 lines, 61 drawn). RV2 on 00b: notes, both items mine. Letter 136; five letters copied to done/. Lab 169 pages; gate clean.",
+   "at": "2026-11-04T09:05:53Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "ed0182aa clean: the three embedded PNGs decode byte for byte to the committed key.png files (IHDR, IDAT and IEND only, each at or before 68ffc780 as security__024 cleared); the SVG's text is the three names only; unsafe_svg finds nothing; talk__player.jpg cleared at 024's 08:24 entry; 0 files out of scope; vault_check and validate clean; no secrets, em-dashes or religious words. Tools: Bash, none refused.",
+   "at": "2026-11-04T09:09:16Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "ed0182aa does all three items: 12's slot 1 maps to talk__player.jpg; LAB 50's three PNGs decode to the committed key.png files, names only; RV2 on 00b notes, both items the designer's. Conditions kept. Routine extras: letter 136, done/ copies, the resync adding 03b's and 94's lines, the lab PDF. The record's later steps are committed at close. Tools: Bash, none refused.",
+   "at": "2026-11-04T09:10:02Z"
+  }
+ },
+ "closed": "2026-11-04T09:10:02Z",
+ "outcome": "ok"
+}

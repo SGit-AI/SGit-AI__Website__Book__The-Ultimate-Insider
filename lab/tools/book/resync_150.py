@@ -27,9 +27,13 @@ PLACED = {
                                   "ruv-sgit's factory clock, the designer's choice (127), the storyteller's yes (124)"),
     },
     "rc2/150/03-the-tour.md": {
+        "the same kind of key as a qr code": ("lab/experiments/50-designer-three-keys/three-keys.svg",
+                                              "the designer's three QR codes (LAB 50, publisher 048), cleared by name (security__024)"),
         "the team's house": ("lab/experiments/47-designer-the-house/the-house.svg", "the designer's house (LAB 47, conductor 067)"),
     },
     "rc2/150/12-the-creator-comes-back.md": {
+        "the player, first": ("index/talk-site/shots/talk__player.jpg",
+                              "the librarian's screenshot, cleared (security 024), cited in the chapter's record line"),
         "the loop from chapter 2": ("lab/experiments/37-designer-rc2-chapters-1-2/ch1-loop.svg",
                                     "the named cycle, think, explain, create, review (writer2 022)"),
     },
