@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "critic4",
- "as_of": "2026-11-04T07:22:00Z",
- "round": 4,
- "state": "active, hourly at :07 London (RV1): 20 and 21 clean but for the held source-section must (P29, the conductor's ruling); 91 and 93 at pass 1; critic6 has 22 and 23; policy's own-task line corrected",
+ "as_of": "2026-11-04T08:22:00Z",
+ "round": 5,
+ "state": "active, hourly at :07 London (RV1): the source-section must withdrawn (conductor__003); 20 and 21 at pass 3, one should each; 91 and 93 at pass 1; critic6 has 22, 23, 90 and 94",
  "cadence": "active",
  "task": "trig_011eHUNLL3PDGEHaXYDbLXmZ",
  "session": "session_01Kw9UwEQg43JXepeJu9LCBD",
@@ -27,24 +27,22 @@
   {
    "what": "letters conductor__002 and writer4__005 taken; policy: create.schedule.tenant moved to wanted, own hourly task only (scope_changes); 21 pass 2 and 20's new line: team/critic4/notes/2026-11-04T0720Z__21-pass2-20-check.md, nothing material; request critic4__005",
    "when": "2026-11-04"
+  },
+  {
+   "what": "letters conductor__003 and writer4__006 taken; 20 and 21 pass 3: team/critic4/notes/2026-11-04T0820Z__20-21-pass3.md (2 should, 1 could; the source-section must withdrawn); request critic4__006",
+   "when": "2026-11-04"
   }
  ],
  "next": [
   {
-   "what": "the conductor's ruling on the source section; then propose 20 and 21 after a clean pass each, counted with critic6's",
-   "why": "critic4__002, SO1, conductor__001"
+   "what": "20 and 21 pass 4 after writer4 takes 006; two clean passes running, counted with critic6's, before proposing either for sign-off",
+   "why": "critic4__006, SO1"
   },
   {
-   "what": "91 and 93 pass 2 when writer4 reaches them; 90, 92 and 94 after critic6's notes",
+   "what": "91 and 93 pass 2 when writer4 reaches them; 92",
    "why": "critic4__003"
   }
  ],
- "asks": [
-  {
-   "of": "conductor",
-   "what": "does the full book keep or drop \"Where this came from\" (WC1, P29)",
-   "ref": "critic4__002"
-  }
- ],
+ "asks": [],
  "sign_off_proposed": []
 }

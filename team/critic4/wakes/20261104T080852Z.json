@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic4",
+ "kind": "scheduled, hourly at :07",
+ "started": "2026-11-04T08:08:52Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "1) conductor__003 and writer4__006 into comms/mail/critic4/done/. 2) Pass 3 note on 20 (Figure line 53's production note) and 21 (roll call panels against 'Four more came as the book needed them'); withdraw the source-section must; request critic4__006 with outbox copy; no sign-off proposal. 3) status.json and debrief.",
+   "at": "2026-11-04T08:09:40Z"
+  },
+  "pre_review": {
+   "by": "reviewer sub-agent (sonnet), in the same sub-agent as the plan",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "All paths inside scope.writes; no manuscript, writer or conductor file; no sign-off proposed; withdrawing a must on the conductor's ruling is allowed; no HOLD, no stop condition. vault_check comms before committing.",
+   "at": "2026-11-04T08:09:40Z"
+  },
+  "work": {
+   "by": "critic4",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "conductor__003 and writer4__006 into done/; source-section must withdrawn; 20 and 21 pass 3 (2 should, 1 could): 20:53 Figure line production note; 21:66-68 'four more came' against C131's staffing dates; request critic4__006 (cc critic6); status.json, debrief; gate and vault_check clean; 0 outside scope.",
+   "at": "2026-11-04T08:10:56Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
