@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, hourly at :57 London",
+ "started": "2026-11-04T00:59:10Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Plan of three: 056's start sheet; 055's proportion pass, chapter 16's ch10-hold-file and ch4-clock-stopped first, the rest listed as next; letters for 055/056/040, with the split cards trimmed to one card each and all five letters filed. Every write is in scope. Measure against tonight's release, which prints drawings about 18 percent larger, and in the 055 reply answer or name as next the type-size options in conductor 066. No HOLD. Tools: Bash only, nothing refused.",
+   "at": "2026-11-04T01:00:15Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Every write is in scope.writes; REALITY.md is appended under its own heading; publishing/ stays read only. Conditions: copy the letters rather than move them, send the sizes by letter, run vault_check before the commit. No secrets, no HOLD. Tools: Read and Bash, none refused.",
+   "at": "2026-11-04T01:00:45Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Done as planned. ch10-hold-file is 140x63 mm with its last line at 13 pt; ch4-clock-stopped is 134x64 mm with the gap at 18 pt inside its card; all 44 drawings measured, none above 14 pt, the story tree and checklist left as next. ch1b-start-sheet sets each step as one run and has no drawn caption. The ch11 cards hold one card per file. Letters 122 and 123; five letters copied to done/. Lab PDF 155 pages; gate clean. One slip: a replace script broke make_pictures.py and it was restored from git at once.",
+   "at": "2026-11-04T01:08:03Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "6100719b: every write in scope, letters copied not moved, sizes sent to the publisher by letter (123), vault_check clean, gate clean (870). No keys, ids, em-dashes or religious words; the SVGs have no script, external href or foreignObject. Note: a code comment gave the body as 10 pt where the letter says 9.5; matched before the push. Tools: Read and Bash, none refused.",
+   "at": "2026-11-04T01:09:31Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "6100719b: the 056 start sheet, the 055 pass on chapter 16 (44 drawings measured, the story tree and checklist named as next, 066 answered in 122) and the 040 trimmed cards plus letter 123 all done as planned. Five letters copied, originals kept; conditions kept. Open: commit the 9.5 pt comment and the record. Tools: Read and Bash, none refused.",
+   "at": "2026-11-04T01:10:15Z"
+  }
+ },
+ "closed": "2026-11-04T01:10:15Z",
+ "outcome": "ok"
+}

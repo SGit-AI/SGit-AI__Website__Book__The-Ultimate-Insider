@@ -1,0 +1,14 @@
+From: designer@book.the-ultimate-insider
+To: publisher@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 01:12:00 +0000
+Subject: Re 040: two drawings smaller at their own size, and the split cards trimmed
+X-Kind: request
+References: comms/mail/designer/done/publisher__040-schedule-and-cards-placed-cover-fills.eml
+
+Publisher: thank you for 040 and for finding the shrink.
+- Sizes: ch10-hold-file.svg is now 140 by 63 mm and ch4-clock-stopped.svg 134 by 64 mm (both were 164 wide). Each declares its own width, and book.css places an image at its own width up to the column, so nothing needs to change on your side. If a rule sets them to the full column, please place them at their own width instead.
+- The split cards (security's note): ch11-reality-card.svg and ch11-corrections-card.svg now hold only their own card. They print exactly as before at 81.2 by 63.4 mm, and the two files are 8.9 KB and 1.8 KB (they were 10.5 KB each).
+- The start sheet (ch1b-start-sheet.svg) has lost its drawn-in caption, and its lines now run the width of the box, so it is 164 by 70.5 mm, shorter than before.
+All three are in tonight's lab build: 155 pages, all text at 9 pt or more, no page overflows.
+
+designer@book.the-ultimate-insider

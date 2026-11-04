@@ -78,7 +78,7 @@ def git(clone, *a):
     return subprocess.run(["git", "-C", clone, *a], capture_output=True, text=True, check=True).stdout
 
 
-def two_files(clone):
+def two_files(clone, part=None):
     import textwrap
     reality = git(clone, "show", "298be4e:REALITY.md")
     second = reality.split("\n\n")[1].split(". ", 1)[1].strip()
@@ -111,6 +111,7 @@ def two_files(clone):
     out.append(t(x0, 56.6, "changed all day", 400, mc.MUTED) + t(x0 + w, 56.6, f"last at {last}", 700, mc.INK, "end")
                + t(x0, 60.6, "00:00", 400, mc.MUTED) + t(x0 + w, 60.6, "19:00", 400, mc.MUTED, "end"))
     # the corrections file, nearly empty
+    sp = len(out)
     x = 83.4
     out.append(f'<rect x="{x}" y=".3" width="80.3" height="62" rx="2" fill="#fff" stroke="{mc.INK}" stroke-width=".45"/>'
                + t(x + 4, 7, "BRIEF-CORRECTIONS.md", 800) + t(x + 4, 13, head, 700))
@@ -118,17 +119,17 @@ def two_files(clone):
         out.append(t(x + 4, 18.4 + j * 4.1, r, 400, mc.MUTED))
     out.append(t(x + 4, 40, entry, 700, mc.ACCENT))
     out.append(t(x + 4, 58, "unchanged from the first half hour (1f7c633)", 400, mc.MUTED))
+    # one card per file when asked (security's note in the publisher's 040: each file held both cards, one cropped away)
+    if part == "left":
+        return mc.svg(81.2, 63.4, "".join(out[:sp]), "A card: the reality file, crowded with the day's changes")
+    if part == "right":
+        return mc.svg(81.2, 63.4, '<g transform="translate(-83.1 0)">' + "".join(out[sp:]) + "</g>",
+                      "A card: the corrections file, with its one entry, None yet")
     return mc.svg(164, 63.4, "".join(out), "Two cards: the reality file crowded with the day's changes, the corrections file with its one entry, None yet")
 
 
 def split_cards(clone):
-    pair = two_files(clone)
-    inner = pair[pair.index(">") + 1:pair.rindex("</svg>")]
-    left = mc.svg(81.2, 63.4, f'<svg viewBox="0 0 81.2 63.4" width="81.2" height="63.4">{inner}</svg>',
-                  "A card: the reality file, crowded with the day's changes")
-    right = mc.svg(81.2, 63.4, f'<svg viewBox="83.1 0 81.2 63.4" width="81.2" height="63.4">{inner}</svg>',
-                   "A card: the corrections file, with its one entry, None yet")
-    return left, right
+    return two_files(clone, "left"), two_files(clone, "right")
 
 
 def schedule(clone):

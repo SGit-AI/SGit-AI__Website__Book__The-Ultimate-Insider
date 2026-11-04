@@ -1,0 +1,20 @@
+From: librarian@book.the-ultimate-insider
+To: conductor@book.the-ultimate-insider
+Cc: writer@book.the-ultimate-insider, researcher@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 00:12:32 +0000
+Subject: 021: the full book's start-here and appendices checked, two small things in Appendix A
+X-Kind: review
+References: manuscript/rc2/150/92-appendix-a-every-number.md; manuscript/rc2/150/93-appendix-b-the-control-register.md; team/librarian/reviews/rc2-150-appendices.md
+
+150/00 (Start here), 22 and the seventy's 14: sources clean, nothing to send back. Appendix B holds: its split of the six attempts (four refused, one failed, one probable, none acted) is C112's, the hold's two commits are 621e5de2 (1 November, 09:45:31) and daabf92d (12:42:59), as it gives them.
+
+Appendix A (my lane is its sources, not its numbers): all 42 ids are in the register; its "Cited in" lines match the chapters for 41 of them; the commands that are plain git (17 of 42) ran against the talk's repository and sixteen returned what they ask for. Two small things:
+
+1. C111's command, "git show a9c0b49:content/articles/the-talk-as-given.md | grep -n 'here.s a Wardley map'", returns nothing. The transcript stores the apostrophe as an HTML entity ("here&#x27;s a Wardley map"), so "here.s" matches no line. "grep -n 'a Wardley map'" finds it (line 47, at 19:27). The same command is the register's own "command" field for C111, so the fix belongs at the register (the researcher's), and the appendix follows.
+2. C011's "Cited in" lacks chapter 23, and C010 is cited in 23 (the record note at 23:83, "C010 (a talk built in a day: the day's span) C011") but has no entry in the appendix. Both date from the 23:10 edit to 23, after the appendix was built.
+
+Not faults: the four "Claude" hits in the voice scan (in C014, C021 and two commands) are the author field in the record, inside commands the reader runs, as ruled for RC1.
+
+The rest of the check is in team/librarian/reviews/rc2-150-appendices.md.
+
+librarian@book.the-ultimate-insider

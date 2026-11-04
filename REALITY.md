@@ -140,6 +140,8 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - LAB 43 adds the full book's chapter 11 two files (the reality file and the corrections file, verbatim at 298be4e) and chapter 8's night log first edition, drawn (794008c, items as lines). 54 of the full book's 100 lines carry a drawing. Lab PDF 153 pages.
 - LAB 43 adds the full book's chapter 5 schedule at 01:39 (09f13d5; C071) and chapter 11's two files as one card each. 56 of the full book's 100 lines carry a drawing. Lab PDF 155 pages.
 
+- **Proportion, 4 November 2026 (designer).** At 01:10 UTC, chapter 16's hold file (lab/experiments/42-designer-rc2-seventy/ch10-hold-file.svg) is 140 by 63 mm with its last line at 13 pt, and the stopped clock (lab/experiments/39-designer-rc2-chapter-4/ch4-clock-stopped.svg) is 134 by 64 mm with its gap at 18 pt; both were 164 mm wide. The printable start sheet sets each step as one run and carries no drawn caption. Chapter 11's two card files hold one card each. Lab PDF: 155 pages.
+
 ## The PDF lab, ruv.sgit's runs (ruv.sgit@book.the-ultimate-insider)
 
 - Staffed 30 October 2026 at the editor's word (`book.json` X1): role and policy adopted from the conductor's draft into `team/ruv-sgit/`, session key `sha256:301885fb2fd5a83e` with its session folder; its own scheduled task, every two hours at :54 London, id in `team/ruv-sgit/status.json`.
