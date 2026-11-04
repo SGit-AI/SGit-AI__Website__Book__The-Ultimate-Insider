@@ -4,9 +4,12 @@ line of time" figure). The notes word for word, as the chapter quotes them from 
 the mailroom it pointed at; beneath, deck's and the researcher's dials with the minutes they wrote at. The times are the
 chapter's record line's, and appear in the picture only; no hash and no register id is drawn (storyteller 143).
 
-    python3 lab/experiments/58-designer-three-notes/make_notes.py
+    python3 lab/experiments/58-designer-three-notes/make_notes.py <the talk's clone, read only>
+
+Since the newsroom's pass 2 the chapter quotes one note and draws the three (writer2 055), so each note is checked word
+for word against its own commit's message, read with git, and the record line's times against the chapter.
 """
-import re, sys, math, textwrap
+import re, subprocess, sys, math, textwrap
 from html import escape
 from pathlib import Path
 
@@ -31,13 +34,20 @@ def t(x, y, s, weight=400, fill=mc.INK, anchor="middle", size=3.18, mono=False):
             f'text-anchor="{anchor}">{escape(str(s), quote=False)}</text>')
 
 
-def check():
+SHAS = ["6b55cff", "3f094f2", "36e382b"]  # one per card, in RECORD's order; used to read, never drawn
+
+
+def check(clone):
     if RECORD not in CH:
         sys.exit("make_notes: the chapter's record line for the three notes has changed")
-    for _, _, notes in CARDS:
+    for sha, (when, _, notes) in zip(SHAS, CARDS):
+        msg = subprocess.run(["git", "-C", clone, "show", "-s", "--format=%cI%n%B", sha], capture_output=True, text=True, check=True).stdout
+        if msg[11:16] != when:
+            sys.exit(f"make_notes: the commit for the {when} card is not at {when}")
+        lines = [l.strip() for l in msg.splitlines()]
         for note, _ in notes:
-            if f'> "{note}" *(record)*' not in CH:
-                sys.exit(f"make_notes: the chapter no longer quotes '{note[:40]}...' word for word")
+            if note not in lines:
+                sys.exit(f"make_notes: '{note[:40]}...' is not word for word a note on its commit")
 
 
 def folder(x, y, who):
@@ -68,7 +78,7 @@ def dial(cx, cy, r, who, minutes, label):
 
 
 def main():
-    check()
+    check(sys.argv[1])
     cw, gap, x0 = 49.6, 3.0, .3
     out = []
     # the line of time, the three minutes on it
