@@ -3,7 +3,22 @@
  "agent": "developer",
  "kind": "scheduled, hourly at :12 (ACC1)",
  "started": "2026-11-04T01:14:28Z",
- "steps": {},
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (plan brief), as the reviewer agent type: can call Read, Grep, Glob, Bash; connector instructions in its context, none called; none refused; wrote no file",
+   "model": "",
+   "verdict": "go",
+   "comment": "(1) conductor__036: a layout check on the full book's PDF only (built as release.yml does, temp folder removed); flags short pages, chapter-end spill, out-of-proportion figures, separated figures where tellable, and says what it cannot tell; print-check.json holds only page numbers, titles and counts; the list by mail to the publisher and designer. (2) conductor__037 (FB1): a letter to the conductor with what can land by Wednesday night and what is left; print_pages.py builds only the full book by default; the other editions stay online as they are, no longer refreshed, falling back to scenes when stale (FB1: deferred, not withdrawn), said to the conductor. (3) Security's wording in my briefs. (4) Status, debrief, REALITY, vault_check, gate, push.",
+   "at": "2026-11-04T01:15:36Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (pre_review brief), as the reviewer agent type: can call Read, Grep, Glob, Bash; connector instructions in its context, none used; none refused; wrote no file",
+   "model": "",
+   "verdict": "go",
+   "comment": "No hold; in scope (review/tools, review/anchors, team/developer, comms/mail/mailroom/*/developer__*). Conditions: print-check.json only page numbers, chapter titles and counts, no PDF text, no temp path; vault_check before committing the mails; edit only my own files, not the publisher's or designer's; the mails are requests to team members.",
+   "at": "2026-11-04T01:15:41Z"
+  }
+ },
  "closed": null,
  "outcome": null
 }

@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "developer",
- "as_of": "2026-11-04T00:14:00Z",
+ "as_of": "2026-11-04T01:23:00Z",
  "round": 2,
- "state": "hourly (ACC1): every edition online with its record, as data, page by page; RC1 with its sources, graph (drawn), wakes, decisions and as data; review steps as the reviewer agent (TA1); A8's board done; next what the editor or the conductor asks",
+ "state": "hourly (ACC1): the full book is the book (FB1); its online pages current and checked for layout each wake; the older editions left online as they were; review steps as the reviewer agent (TA1)",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/developer/ into team/developer/ (drafts left in place; ROLE.md names start.py and banner.py)",
@@ -200,6 +200,10 @@
   {
    "what": "upkeep: maps and edition pages refreshed; the full book 27 chapters, 111 printed pages (107 shown); the 70-page draft 61 (59 shown), four paragraphs fewer; 328 QR targets; every paragraph mapped",
    "when": "2026-11-04"
+  },
+  {
+   "what": "FB1 and conductor__036: review/tools/print_check.py, the full book's layout check (5 chapter tails alone, 6 gap pages, 3 low-confidence figure separations; first list to the publisher and designer, developer__032); print_pages.py builds the full book only by default; reply to the conductor on what can land by Wednesday night (developer__033); security__004 answered by adopting 'list the tools you can call' in my briefs",
+   "when": "2026-11-04"
   }
  ],
  "next": [
@@ -208,8 +212,8 @@
    "why": "conductor__025; board 009"
   },
   {
-   "what": "A8: the board's items are done; next what the editor or the conductor asks (QR images if a library is chosen; the sealed note and the pen lane wait on the editor)",
-   "why": "the conductor's letter conductor__005 (A8)"
+   "what": "Each wake: run print_check.py on the build as it stands, mail the publisher and designer what changed, keep the full book's online pages current; the older editions are deferred (FB1)",
+   "why": "conductor__036, conductor__037 (FB1)"
   },
   {
    "what": "the sealed note, version 1, fictional notes only, under security's conditions",
