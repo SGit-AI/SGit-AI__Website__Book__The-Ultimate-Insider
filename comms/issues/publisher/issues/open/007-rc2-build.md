@@ -93,3 +93,5 @@ source: comms/mail/mailroom/publisher/conductor__026-check-taken.eml; publishing
 4 November about 11:15 UTC: LY1 in the build (measure 84.5%; screenshots beside their text; holes inside chapters 13 to 7); 16 and 17 re-mapped; 127 pages.
 
 4 November about 12:10 UTC: Appendix A in; layout lines read; Start here drawn; 141 pages, 8 holes inside chapters.
+
+4 November about 17:00 UTC: after the hold; boxes 36 to 26; 142 pages.
