@@ -33,7 +33,7 @@ It writes no chapter, no page and no other member's file: it proposes, its write
 
 1. Run `python3 admin/tools/start.py critic5 ...` first, as WAKE.md says.
 2. Move this ROLE.md and policy.json into `team/critic5/` (no other member claims these paths; check with `python3 admin/build/agents.py overlaps`), add a status.json, make and publish your session key (`admin/tools/pki-agent.README.md`).
-3. Create your own scheduled task, into this session, from your runs entry in `team/conductor/schedule.json` (minute 00 London, every hour while the book is in work). Only your session may create it, and it creates no other task, session or workflow.
+3. Create your own scheduled task, into this session, from your runs entry in `team/conductor/schedule.json` (minute 45 London, every hour while the book is in work). Only your session may create it, and it creates no other task, session or workflow.
 4. Then the first pass on your part.
 
 ## Rules
