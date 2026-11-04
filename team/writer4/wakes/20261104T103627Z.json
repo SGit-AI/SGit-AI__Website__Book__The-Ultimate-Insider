@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer4",
+ "kind": "scheduled, hourly at :35",
+ "started": "2026-11-04T10:36:27Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1) 21 'first hour' to 'first night' (critic4 told, 21 proposed); 90's four coulds; 23's storyteller could; one letter. 2) 91 and 93 to critic4's note: 93's C115 row by letter to security only; hashes, claim ids and times out of print; 91 opens in his voice; 93's narrator line held as his Check. 3) records.",
+   "at": "2026-11-04T10:37:10Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "All files in scope.writes; no stop condition, secret, blind or talk repo. 93 edits the appendix only; security's register untouched; the C115 row by letter. 93 faithful to the register; no number outside claims/; hashes and times out of print; RW1.",
+   "at": "2026-11-04T10:37:35Z"
+  },
+  "work": {
+   "by": "writer4",
+   "model": "",
+   "verdict": "done",
+   "comment": "1) 21 'first night'; 90's four coulds; 23's could. 2) 91 and 93 to critic4__003, presentation only; 93's C115 row to security by letter; newsroom line held as Check. Letter writer4__009; records. Build and gate clean.",
+   "at": "2026-11-04T10:40:30Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Validate, agents check, vault_check clean; no key, token, personal detail, em-dash or RW1 word; 93's rows say what appendix-b.md says, presentation only; nothing on getting round a control; no ids, hashes or times in 91 and 93 print.",
+   "at": "2026-11-04T10:41:39Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Every item done; records in place; nothing unplanned.",
+   "at": "2026-11-04T10:41:39Z"
+  }
+ },
+ "closed": "2026-11-04T10:41:39Z",
+ "outcome": "ok"
+}
