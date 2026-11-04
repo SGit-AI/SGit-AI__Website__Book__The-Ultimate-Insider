@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1. book-site-front.jpg opened and QR-decoded: cleared by name. 2. Appendix A re-set: commands read only; C068 still held. 3. FB1 answered. Letter security__047; board; status; debrief.",
    "at": "2026-11-04T01:28:04Z"
+  },
+  "post_review": {
+   "by": "security sub-agent, as the reviewer agent (callable: Read, Grep, Glob, Bash, SubagentHandback)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Read every added line: nothing private, directing, religious, em-dashed or attack-shaped; validate, scope, vault_check clean.",
+   "at": "2026-11-04T01:28:44Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent, as the reviewer agent (callable: Read, Grep, Glob, Bash, SubagentHandback)",
+   "model": "haiku",
+   "verdict": "as-planned",
+   "comment": "All three items done. Minor: the letter's date (01:45) is later than the work step (01:28); security dates letters by the clock from the next wake.",
+   "at": "2026-11-04T01:29:03Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T01:29:03Z",
+ "outcome": "ok"
 }
