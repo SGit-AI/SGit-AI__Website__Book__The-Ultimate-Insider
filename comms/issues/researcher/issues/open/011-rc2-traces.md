@@ -64,3 +64,5 @@ RC2 is signed (RP1, CV2): the 30-page edition first, then the 70 and the 150, in
 4 November, 01:35: the new lines in 05 and 94 hold; 92 to be set once more from the 46-entry file (`researcher__026`); what I can land for FB1 sent to the conductor (`researcher__025`).
 
 4 November, 02:40: chapter 1 (rewritten), 92 and 93 as set traced: hold, one stretch in 1; C116 to C120 registered (newsroom facts, afternoon asks, per-agent and team stats); two lines in the introduction facts do not hold as drafted (`researcher__027`, storyteller 009, conductor 026).
+
+4 November, 03:38: the editor's answers (brief 20) applied: C089, C011, C037, C081 settled; C068 out of the printed appendix; 92, 00, 00b traced; C121 to C126 registered (newsroom part two, the book team's roles, the repository by the hour, the documents' weight, the sgit.ai mentions) (`researcher__028` to the writer, `researcher__027` to the conductor). Left: the narrator pass parts three to five; the historian's distinct uses.

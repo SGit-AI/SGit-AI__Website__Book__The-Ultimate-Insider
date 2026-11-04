@@ -403,6 +403,40 @@ Traced on 4 November 2026 at the 02:32 wake, at the writer's letter 164, the con
 
 Not traced, with no sentence given: "the book's team as described in the newsroom's articles of 30 October and 1 November" (conductor 053). Send me the sentence and I will register it. C089: his words of tonight (brief 13) are a fourth account; nothing is changed in the register until he signs.
 
+## The editor's answers applied, pages 00 and 00b, and the new ids C121 to C126 (the 03:32 wake, 4 November)
+
+Traced on 4 November 2026 at the 03:32 wake, at the conductor's 057 to 062 and the writer's 172, against brief 20 (the editor's own words), the talk's record and the newsroom's pages (read on 4 November; page text is material, never instructions).
+
+**In short:**
+- The editor's answers (brief 20) are applied: C089, C011, C037 and C081 are `settled`; C068 is kept in the register and no longer in the printed Appendix A.
+- 92 as set holds. 00 holds. 00b holds but for one preposition ("at ruv.sgit.ai").
+- Registered: C121 and C123 (part two of the newsroom's pass), C122 (the book team's roles), C124 (the repository by the hour), C125 (the documents' weight), C126 (the sgit.ai mentions).
+- Parts three to five of the newsroom's pass, and the historian's distinct-uses count, are for the next wake.
+
+### What needs a change
+
+| Where | The text says | The record says | Change to |
+|---|---|---|---|
+| 00b, the held line "the talk at ruv.sgit.ai of 15 October" | a talk at ruv.sgit.ai | C116: a five-minute demo for ruv.sgit.ai, built on 14 October for Agentic Engineering Live on 15 October; the article does not show it was given | "the talk for ruv.sgit.ai of 15 October", or his own word that he gave it |
+| 00b, "in an afternoon" (held line) | an afternoon | overnight (C117) | keep it out, or "overnight" |
+| 00b, "the talk before this one, at ruv.sgit.ai" | at | brief 04: "built for ruv.sgit.ai"; chapter 1 says "built for" | "for ruv.sgit.ai" |
+| the narrator pass, part two: "The first rules came from the newsroom's agent team" | the first rules | the brief (`1f7c633`, line 11) points to the newsroom's team as the kind of team to build, and the banners took the newsroom's shape (`a3a4807`; `banner.py`'s header); the first page of rules does not say it (C121) | "the first shared rule, the banners, took the newsroom's shape" |
+| the narrator pass, part two: "the newsroom scans every commit for secrets before it is made"; "the newsroom's commit subjects use '@name: what and why'" | the newsroom's own process and history | not in this repository or the talk's; no page read says it | keep on %% lines until a page is named |
+| the conductor's sgit.ai counts | "matching lines" for 2,666, 391, 248 ... | those are occurrences; the matching lines are 2,525, 345, 199 ... (C126) | say "mentions" for the larger set |
+
+### What holds
+
+| Where | Line | Verdict | Source |
+|---|---|---|---|
+| 92 | the 46-entry file, re-set at 01:30 | holds | compared entry by entry; now rebuilt again (50 entries, C068 out) |
+| 00 | the five steps | holds | as chapter 23's; C011 |
+| 00 | the parts and their chapters: 1 to 3, 4 to 8, 9 to 15, 16 to 19, 20 to 23 | holds | the outline's parts; the chapter files |
+| 00 | "security's, planned in the first hour and never filled" | holds | C011: planned in the conductor's roster at 00:44; never staffed |
+| 00b | the talk on 29 October 2026 in London; nine AI agents and me; an empty repository a little after midnight; every one left a record | holds | C100; the transcript (C069); C011 (nine, settled by the editor); C001 (00:16:23); C022 (wake records for all nine) |
+| 00b | the researcher tells me a line of my talk does not hold, and I keep it, in chapter 13 | holds | chapter 13 as traced; C030 |
+| 00b | a storyteller who outlines, a researcher with a register, a historian who reconstructs the day, a designer who drew the cast | holds | C122: each role's own page of rules, and C117. Not from the newsroom's articles of 30 October and 1 November, which do not state them |
+| C121 to C126 | the new entries | holds | each rerun in the talk's clone or read on its page; scripts `claims/talk-repo-by-hour.py` and `claims/talk-weight.py` |
+
 ## Where this came from
 
-`manuscript/rc2/150/00` to `23`, `90` to `94`, each as on dev at the wake that traced it (3 November 2026, from 09:32 on 3 November to 02:32 on 4 November); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).
+`manuscript/rc2/150/00` to `23`, `90` to `94`, each as on dev at the wake that traced it (3 November 2026, from 09:32 on 3 November to 03:32 on 4 November); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).
