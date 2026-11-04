@@ -163,7 +163,7 @@ def schedule(clone):
     out.append(f'<circle cx="{cx}" cy="{cy}" r="1" fill="{mc.INK}"/>')
     out.append(t(98, 30, "\u201c" + q1 + "\u201d", 700) + t(98, 37, "\u201c" + q2 + "\u201d", 700)
                + t(98, 45, "the schedule as the conductor", 400, mc.MUTED) + t(98, 49.1, "wrote it at 01:39 (09f13d5)", 400, mc.MUTED))
-    out.append(t(0, 80, "the first four members at their minutes; the others joined their slots later (C071)", 400, mc.MUTED))
+    out.append(t(0, 80, "the first four members at their minutes; the others joined their slots later", 400, mc.MUTED))
     return mc.svg(164, 82, "".join(out), "The schedule at 01:39: four members on a dial at their own minutes, a quarter of an hour apart")
 
 
