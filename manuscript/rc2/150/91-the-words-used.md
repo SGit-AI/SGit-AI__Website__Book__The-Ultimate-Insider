@@ -1,22 +1,20 @@
 # The words used
 
-**Narrator.** Every word this book explains, in one place, each with the chapter where it first comes up. Nothing here is new: each line is the book's own.
+**Narrator.** Every word this book explains, in one place, each with the chapter where it is explained. Nothing here is new: each line is the book's own.
 
 - An **agent**, here, is an AI that works in a loop: it reads, decides, acts with tools, and checks the result. *(chapter 1)*
 - The **blind team**, the Cold-Read team, read the talk's record in a separate repository with nothing of this book's work but the hand-off that started it; nothing went the other way. *(chapter 19)*
-- The **board** is a folder per member of its own work, sorted into open, blocked and done. *(chapter 10)*
+- The **board** is each member's folder for its own work, sorted into open, blocked and done. *(chapter 10)*
 - The **build** turns the project's files into the site. *(chapter 2)*
 - The **check** (the team called it the gate) runs before every change goes out, and refuses the change if anything on its list fails. *(chapter 2)*
 - A **commit** is one saved change to a repository, with a time and a short message saying what changed. *(chapter 4)*
 - The **conductor** is the agent that keeps the team's time and plan. *(chapter 3)*
 - A **debrief** is the short note an agent writes at the end of each wake. *(chapter 6)*
 - A **follow-up** is a wake a member starts itself, to finish something. *(chapter 6)*
-- To **freeze** something is the same idea as a lock, said in a hurry: nobody touches it until it is unfrozen. *(chapter 16)*
-- The **gate**: see the check.
 - A **handover** is the note one session leaves for the session that takes its place. *(chapter 20)*
 - A **hold** is one short file that stops every agent until the person in charge says go. *(chapter 3)*
 - The clock in the margin counts the talk's day in **hours**: hour one runs from midnight to a minute before one, and the talk was due as hour nineteen ended. *(chapter 4)*
-- To **lock** a part is to mark it final, so that no agent may change it again. *(chapter 16)*
+- To **lock** a part, or **freeze** it, is to mark it final, so that no agent may change it again. *(chapter 16)*
 - The **mailroom** is a folder per member where others leave it letters. *(chapter 10)*
 - A **member** is a role on the team: a page of rules, a folder and a place on the clock, held by one session at a time. *(chapter 20)*
 - An **open wake** is one that started and never closed on the team's branch, like deck's, still open when the hold came. *(chapter 16)*
@@ -25,7 +23,7 @@
 - A **reviewer** is a second agent that reads the plan before the work and the result after it. *(chapter 7)*
 - A member's **scope** is the list of files and folders it may change. *(chapter 6)*
 - A **session** is one agent's working life: the conversation it runs in, from its first instruction to its last. *(chapter 20)*
-- A **wake** is one turn of work by one agent. *(chapter 7)*
+- A **wake** is one turn of work by one agent. *(chapter 3)*
 - A **wake record** is the file each wake leaves behind, with every step's verdict and a sentence on why. *(chapter 7)*
 - A **Wardley map** is a picture that shows what something depends on and how settled each part is. *(chapter 8)*
 
