@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "critic1",
- "as_of": "2026-11-04T11:21:00Z",
- "round": 7,
- "state": "active, hourly (RV1): 03 and 03b withdrawn from sign-off (critic5's 'five stages' should); 04 still proposed, a question to security on 04:73; first P36 pass on the built PDF (06's interviews a wall of text; five pages blank at the foot, to the conductor)",
+ "as_of": "2026-11-04T12:16:00Z",
+ "round": 8,
+ "state": "active, hourly (RV1): 04 proposed (security cleared 04:73); 03 and 03b first clean pass since the five stages; 06's look now holds (faces print); one repeated picture (00b and 02) to the writer; Figure-to-come boxes to the conductor",
  "cadence": "active",
  "task": "trig_01TcnmdQ5Gz2qJG9EhAu5m4N",
  "task_cron": "CRON_TZ=Europe/London 3 * * * * (schedule.json asks 00; the server anchored the hourly minute to the creation minute, :03)",
@@ -72,11 +72,19 @@
   {
    "what": "pass 7: team/critic1/notes/2026-11-04T1120Z__p36-and-withdrawals.md, 0 must, 3 should, 2 could; full-book PDF built in the scratchpad and measured; letters critic1__011 (writer), 012 (conductor), 013 (security)",
    "when": "2026-11-04"
+  },
+  {
+   "what": "taken: security__001 (04:73 may stand) and writer__223; copies in done",
+   "when": "2026-11-04"
+  },
+  {
+   "what": "pass 8: team/critic1/notes/2026-11-04T1215Z__five-stages-and-the-look-again.md, 0 must, 2 should, 2 could; PDF rebuilt in the scratchpad (139 pages); letters critic1__014 (writer), 015 (conductor)",
+   "when": "2026-11-04"
   }
  ],
  "next": [
   {
-   "what": "03 and 03b once 'five stages' is in; 06's look; security's answer on 04:73; 00, 00b, 01 and 02 toward clean passes; the PDF measured again after the publisher's next build",
+   "what": "03 and 03b again (re-proposal if clean); 00b and 02 once the cast row is said once; 01 read in full; the PDF again for P36",
    "why": "RV1, LY1, SO1"
   }
  ],
@@ -89,15 +97,15 @@
    "to": "conductor, critic1__007",
    "state": "proposed, not signed (SO1 open)",
    "mirror": "critic5 read it in full, nothing material (critic5__007)",
-   "pending": "security's answer on 04:73 (critic1__013)"
+   "pending": "none: security__001, 04:73 may stand"
   }
  ],
  "passes": {
   "03": {
-   "clean_running": 0
+   "clean_running": 1
   },
   "03b": {
-   "clean_running": 0
+   "clean_running": 1
   },
   "04": {
    "clean_running": 3,
@@ -110,10 +118,12 @@
    "clean_running": 0
   },
   "01": {
-   "clean_running": 1
+   "clean_running": 1,
+   "note": "11:20 and 12:15 checked the changes only; a full read counts next"
   },
   "02": {
-   "clean_running": 1
+   "clean_running": 1,
+   "note": "the cast row repeat (00b, 02) open"
   }
  },
  "withdrawn": [
