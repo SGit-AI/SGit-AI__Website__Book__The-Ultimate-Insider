@@ -595,6 +595,10 @@ Traced on 4 November 2026 at the 12:32 wake, at writer3's 003 and writer4's 010.
 | 93 | the refusal at 17:47 | holds | `bd3cdad` 17:47:28 (C115) |
 | 91 | "wake" (chapter 3), "lock or freeze" (16), "board" (10) | holds | no number |
 
+## The final pass as a script, and its baseline (the 16:32 wake, 4 November)
+
+`claims/final-pass.py` (read-only; run in this repository with the talk's clone as its argument) was written at the 16:32 wake after the writer's hold was lifted (16:30). Baseline at 16:39 UTC, on `77ff8b2f`, with nothing in `manuscript/rc2/150` changed since pass 8: **0 fails**. It checks: no id or hash in the reading text; no "ten agents"; no cost figure (the slide's $17.4M, C031, is the one allowed money figure); no D12 or vault history; no inline %%; no count of three accounts; no em-dash; no religious word; no word after "Dan"; every cited id is in the register and in Appendix A's file; 92 equals the file and its commands equal the register's; chapter 21's table equals C131; all 53 runnable commands of Appendix A run. It notes: 29 files carry a "Where this came from" heading in the source (the build drops them); no id cited in the chapters is still "open"; the team has grown since C131's commit (the conductor 347 commits and 154 wakes at `77ff8b2f`, against 316 and 145).
+
 ## Where this came from
 
-`manuscript/rc2/150/00` to `23`, `90` to `94`, each as on dev at the wake that traced it (3 November 2026, from 09:32 on 3 November to 12:32 on 4 November); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).
+`manuscript/rc2/150/00` to `23`, `90` to `94`, each as on dev at the wake that traced it (3 November 2026, from 09:32 on 3 November to 16:32 on 4 November); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).

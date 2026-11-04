@@ -30,6 +30,38 @@ TEXT_TYPES = {'.html', '.js', '.css', '.json', '.txt', '.md', '.svg', '.xml'}
 PENDING    = 'pending'
 
 
+
+def read_member_json(path, kind='status'):
+    """A member's status.json or policy.json, read so that one member's slip never stops the build for everyone
+    (HR1, the editor, 4 November 2026): a file that does not parse warns on stderr, naming it, and reads as empty;
+    a done/next/asks entry that is not an object becomes {"what": its text}. Only structure is forgiven: the
+    scope gate (admin/build/agents.py), vault_check and validate stay strict."""
+    try:
+        data = json.loads(Path(path).read_text())
+    except (json.JSONDecodeError, OSError) as e:
+        print(f'build: warning: {path} does not parse ({e}); built without it', file=sys.stderr)
+        return {}
+    if not isinstance(data, dict):
+        print(f'build: warning: {path} is not an object; built without it', file=sys.stderr)
+        return {}
+    if kind == 'status':
+        for key in ('done', 'next', 'asks'):
+            vals = data.get(key)
+            if vals is None:
+                continue
+            if not isinstance(vals, list):
+                print(f'build: warning: {path}: "{key}" is not a list; built without it', file=sys.stderr)
+                data[key] = []
+                continue
+            fixed = []
+            for v in vals:
+                if not isinstance(v, dict):
+                    print(f'build: warning: {path}: a "{key}" entry is not an object; built as its text', file=sys.stderr)
+                    v = {'what': str(v)}
+                fixed.append(v)
+            data[key] = fixed
+    return data
+
 class Markdown:                                                     # just enough markdown for articles written here
     INLINE = [(re.compile(r'`([^`]+)`'),                    lambda m: '<code>' + m.group(1) + '</code>'),
               (re.compile(r'\*\*([^*]+)\*\*'),              lambda m: '<strong>' + m.group(1) + '</strong>'),
@@ -282,7 +314,7 @@ class Site_Build:
 
 
     def side_nav(self):
-        team = [(f'team/{p.name}/index.html', json.loads((p / 'policy.json').read_text()).get('address', p.name).split('@')[0])
+        team = [(f'team/{p.name}/index.html', read_member_json(p / 'policy.json', 'policy').get('address', p.name).split('@')[0])
                 for p in sorted((ROOT / 'team').iterdir()) if p.is_dir() and (p / 'policy.json').exists()]
         docs = [(f'admin/docs/{slug}.html', label) for slug, src, label, _ in self.DOCS if (ROOT / src).exists()]
         docs += [('admin/docs/pace.html', 'The pace (pace.json)')] if (ROOT / 'team/conductor/pace.json').exists() else []
@@ -410,7 +442,7 @@ class Site_Build:
         wakes = self.wakes()
         members, asks = [], []
         for folder in sorted(p for p in team.iterdir() if p.is_dir()):
-            st = json.loads((folder / 'status.json').read_text()) if (folder / 'status.json').exists() else {}
+            st = read_member_json(folder / 'status.json') if (folder / 'status.json').exists() else {}
             for a in st.get('asks', []):
                 if 'editor' in str(a.get('from', '')).lower():
                     asks.append((folder.name, a.get('what', '')))
@@ -780,8 +812,11 @@ class Site_Build:
         md, cards, keys = Markdown(), [], {}
         for folder in sorted(p for p in (ROOT / 'team').iterdir() if p.is_dir() and (p / 'policy.json').exists()):
             aid    = folder.name
-            policy = json.loads((folder / 'policy.json').read_text())
-            status = json.loads((folder / 'status.json').read_text()) if (folder / 'status.json').exists() else {}
+            policy = read_member_json(folder / 'policy.json', 'policy')
+            if 'address' not in policy:
+                print(f'build: warning: {folder}/policy.json has no address; the member\'s page is skipped this build', file=sys.stderr)
+                continue
+            status = read_member_json(folder / 'status.json') if (folder / 'status.json').exists() else {}
             role   = (folder / 'ROLE.md').read_text() if (folder / 'ROLE.md').exists() else '# ' + aid + '\n'
             role_t = role.split('\n', 1)[0].lstrip('# ').strip()
             if (folder / 'debriefs' / 'img').exists():

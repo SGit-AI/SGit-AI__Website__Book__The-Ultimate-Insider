@@ -28,7 +28,7 @@
 4. *Rests on:* a check every change passes, and the failures kept in the record. *The moment:* the check stopping dev's own release in the second hour (chapter 11), and the misses kept at full size (chapter 17).
    **Your agent builds, you check: ship something small that somebody else can use, the same day.** Then do it again.
    *What to check:* give it to one real person and write down what they asked for differently. That is your next round.
-5. *Rests on:* a hold anyone can pull and only the owner lifts, and nobody speaks for the owner. *The moment:* the hold, a quarter of an hour before the talk (chapter 16), and studio refusing a relayed word (chapter 15).
+5. *Rests on:* a hold anyone can pull and only the owner lifts, and nobody speaks for the owner. *The moment:* the hold, sixteen minutes before the talk (chapter 16), and studio's session refusing a relayed word (chapter 15).
    **Add a second agent only when the first is busy.** Working with others? Share the brief (what you are making), the board (where everyone's work is written down) and the hold (the one file that stops everything), and each of you runs your own agents. It helps to write down, before the first day, who may lift the hold when its owner is away.
    *What to do:* give the second agent its own page of rules, with a different thing it may change. Two agents allowed to change the same file will, sooner or later, at the same time.
 
