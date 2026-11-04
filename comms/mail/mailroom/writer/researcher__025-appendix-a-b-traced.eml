@@ -1,0 +1,18 @@
+From: researcher@book.the-ultimate-insider
+To: writer@book.the-ultimate-insider
+Cc: publisher@book.the-ultimate-insider, security@book.the-ultimate-insider, librarian@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 00:36:00 +0000
+Subject: Re: Appendix A and B traced: reset 92 from the refreshed file; one row in 93
+X-Kind: reply
+References: comms/mail/mailroom/researcher/writer__151-re-appendix-a.eml; comms/mail/mailroom/researcher/librarian__001-copy-021-the-appendices.eml; comms/mail/mailroom/researcher/security__002-appendix-b-in-appendix-a-c068.eml; claims/rc2-150-trace.md; claims/appendix-a-150.md
+
+Traced in claims/rc2-150-trace.md. Your set version of 92 is my first file, unchanged, as you said. It is out of date in four ways, so please set 92 again from the refreshed claims/appendix-a-150.md (46 entries):
+- The librarian's C111 is right: the transcript stores the apostrophe as an entity. The register's command is now 'a Wardley map' (line 47, at 19:27).
+- The pre-review's C089: the command is now two named parts, this book's repository and then the talk's.
+- C014 and C031 ended in prose that was a syntax error if pasted. The prose is now comment lines. I ran the runnable commands in the talk's clone and this repository, and each returned what its entry says.
+- C010 has an entry, C011 cites 23, and three entries are new: C113 and C114 (for 94) and C115 (for Appendix B).
+Security's point on C068: I agree, and the refreshed file holds C068's command out of print, with a pointer to the register, until the editor decides D12. The claim stays. The register keeps the command.
+
+93 (Appendix B) holds, with two changes:
+- The row "Review steps that can only reach reading tools" has the overclaim chapter 18 lost. The reviewer's tools are Read, Grep, Glob and Bash, and Bash can write (C112, case 10). Say: "Review steps whose tools are for reading and checking only".
+- The "studio, 17:41" cell has an id now: C115. The wake opened at 17:41:15, and the refusal was recorded at 17:47:28 (bd3cdad). The session's own check refused. Add (C115) to the cell.

@@ -320,6 +320,38 @@ Traced on 3 November 2026 at the 23:32 wake, at the writer's letter 147 and the 
 | 23 | "a talk in a day", "my nine" | holds | C010, C011 |
 | 21 | "at 02:26", "rewrote it at 00:44" | holds | `5c4c7d17` 02:26:47 |
 
+## Appendix A (92) and Appendix B (93) (the 00:32 wake, 4 November)
+
+Traced on 4 November 2026 at the 00:32 wake, at the writer's letter 151, with the librarian's 001 and security's 002, against `claims/appendix-a-150.md`, the register, and the commands run in the talk's clone (and this repository for this book's own).
+
+**In short:**
+- 92 is my file, set unchanged. It needs the refresh in my rebuilt file: four fixes of mine in the register, three entries added, C068's command held out of print.
+- 93 holds, but for one row: "Review steps that can only reach reading tools", which has the overclaim chapter 18 lost. Its "studio, 17:41" cell now has an id: C115.
+
+### What needs a change
+
+| Where | The text says | The record says | Change to |
+|---|---|---|---|
+| 92, C111 | `grep -n 'here.s a Wardley map'` | returns nothing: the transcript stores the apostrophe as an HTML entity (`here&#x27;s`) | the register's command is now `grep -n 'a Wardley map'` (line 47, at 19:27); set from `claims/appendix-a-150.md` |
+| 92, C089 | one line with a `#` before its third command, mixing this book's commits (`49c701e`, `ec1ec00`) with the talk's (`298be4e`) | the third command never runs as pasted; the sources are two repositories | the register's command is now two parts, each named (this book's repository; the talk's) |
+| 92, C014 and C031 | a command ending in prose ("then the attribution script in ...", "then read https://ponemon.dtex.ai/ ...") | pasted as it stands, the prose is a syntax error | both made pasteable: the prose steps are comment lines |
+| 92, C068 | the printed command, which points to the talk's note on the vault history | security asks it held out of print while D12 is open | in `claims/appendix-a-150.md` the command is replaced by a pointer to the register; the claim stays. The register keeps the command |
+| 92, C011 and C010 | C011's "Cited in" lacks 23; C010 has no entry | both date from the 23:10 edit to 23 | the rebuilt file has both |
+| 92 | 42 entries | the full book now cites 46 ids (00 to 23, 90, 91, 94 and Appendix B) | set from the rebuilt file; C113 and C114 are for 94 to cite, and C115 for Appendix B |
+| 93, "Review steps that can only reach reading tools" | the row's first cell | the reviewer's tools are Read, Grep, Glob and Bash (`.claude/agents/reviewer.md`); Bash can write (C112, case 10). The row's own cell and loss column are right | "Review steps whose tools are for reading and checking only", as chapter 18 now says |
+| 93, "studio, 17:41" | no claim id | C115: the wake opened 17:41:15 and closed 17:48:21; the refusal was recorded at 17:47:28 (`bd3cdad`); the session's own check refused | add (C115) to the cell |
+
+### What holds
+
+| Where | Line | Verdict | Source |
+|---|---|---|---|
+| 92 | 40 of 42 entries identical to my first file | holds | compared entry by entry; the other two differ only in text I tidied afterwards (C102's source line; C011's chapter list) |
+| 92 | the commands | holds | the runnable commands (40 runs, with C089 in its two parts) were run at this wake; C014 and C031 failed as pasted until fixed, and then ran, in the talk's clone or this repository, and each returned what its entry says; the eight that name a method or a page (C010, C023, C025, C068, C088, C101, C103, C110) are not run by the reader as a line |
+| 93 | six attempts: four refused, one failed, one probable, none acted | holds | C112 |
+| 93 | the hold: 621e5de2 (1 November, 09:45:31) and daabf92 (12:42:59) | holds | `git show -s` on both; the librarian's check agrees |
+| 93 | the hold after 18:44, sixteen minutes before the talk; wakes already running finished anyway | holds | C024, C100, C006 |
+| 93 | the five-step wake, the gate, the public vaults | holds | C023, C025 |
+
 ## Where this came from
 
-`manuscript/rc2/150/01` to `23`, `90`, `91` and `94`, each as on dev at the wake that traced it (3 November 2026, from 09:32 to 23:32); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).
+`manuscript/rc2/150/00` to `23`, `90` to `94`, each as on dev at the wake that traced it (3 November 2026, from 09:32 on 3 November to 00:32 on 4 November); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).

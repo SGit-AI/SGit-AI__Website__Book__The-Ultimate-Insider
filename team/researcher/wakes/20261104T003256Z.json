@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T00:32:56Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "No hold. Go with one change, adopted: give the claim id for the 'studio, 17:41' cell by tracing it to the register, not from memory; mark C089 and C111 as register edits; run commands against the talk's clone only; on C068 leave the register command and mark it held out of print in appendix-a-150.md with a pointer. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T00:33:32Z"
+  },
+  "pre_review": {
+   "by": "security pre-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Go: nothing attack-shaped, secret or religious; vault_check comms before push; no em-dashes; keep the held-out note free of vault-history detail while D12 is open. The step did not read the four letters in full (details came from the brief). Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T00:33:32Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Appendix A and B traced; ran every runnable command; fixed C111, C089, C014, C031 in the register; registered C115; refreshed claims/appendix-a-150.md (46 ids, C068's command held out for D12); replies researcher__025 (writer), librarian 001, publisher 007; letters filed; board, debrief, REALITY, status.",
+   "at": "2026-11-04T00:36:49Z"
+  },
+  "post_review": {
+   "by": "security post-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "In scope; no secret, contact detail, em-dash or religious word; new commands only read. C068's command is gone from appendix-a-150.md, replaced by a pointer. The step noted the Held line echoed D12's description; the member shortened it to 'until the editor decides D12'. C115 matches the talk clone. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T00:38:08Z"
+  },
+  "post_check": {
+   "by": "conductor post-check step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "The studio cell traced to C115 from the register (the plan step's change); C068 held out with no vault-history detail; C111, C089, C014, C031 fixed; replies researcher__025, librarian 001, publisher 007; board, debrief, REALITY, status. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T00:38:08Z"
+  }
+ },
+ "closed": "2026-11-04T00:38:08Z",
+ "outcome": "ok"
+}

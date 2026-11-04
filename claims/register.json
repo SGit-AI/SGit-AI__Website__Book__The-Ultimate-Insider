@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-11-03T23:35Z",
+ "as_of": "2026-11-04T00:36Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -312,8 +312,8 @@
     "evidence": "commit subjects"
    },
    "method": "merges counted by parents (git log --merges); every non-merge Claude commit attributed by its subject's '<id>:' or '@<id>:' prefix, else by its 'Agent: <id>@' trailer, else by its subject naming the member",
-   "note": "Corrected twice. 05:40, at the historian's note: subjects opening '<id>:' without the @ were missed (ruv-sgit 84, not 54). 10:50, at the RC1 drafting's finding: merges were counted by subject (162) where parents give 165, 164 of them Claude's; and the 13 'unattributed' commits all carry an Agent: dev@the-ultimate-insider trailer except one, 'Conductor joins' (97b98d9, 00:44), which names the conductor in its subject. With merges excluded and trailers read: conductor 106, ruv-sgit 84, dev 64 (52 by prefix, 12 by trailer), deck 59, researcher 57, studio 26, designer 19, storyteller 15, motion 9; 439 in all, none unattributed. The Cold-Read analyst's 99 (the @ prefix only) and 105 (any prefix, merges excluded) are both right for their methods; this register's 106 adds the one commit whose subject names the conductor without a prefix. The earlier '107 and 162' and '13 unattributed' are withdrawn.",
-   "command": "git rev-list --merges --count 298be4e; git log 298be4e --merges --author=Claude --format=%h | wc -l; then the attribution script in team/researcher/debriefs/2026-10-30__rc1-numbers-review.md"
+   "note": "Corrected twice. 05:40, at the historian's note: subjects opening '<id>:' without the @ were missed (ruv-sgit 84, not 54). 10:50, at the RC1 drafting's finding: merges were counted by subject (162) where parents give 165, 164 of them Claude's; and the 13 'unattributed' commits all carry an Agent: dev@the-ultimate-insider trailer except one, 'Conductor joins' (97b98d9, 00:44), which names the conductor in its subject. With merges excluded and trailers read: conductor 106, ruv-sgit 84, dev 64 (52 by prefix, 12 by trailer), deck 59, researcher 57, studio 26, designer 19, storyteller 15, motion 9; 439 in all, none unattributed. The Cold-Read analyst's 99 (the @ prefix only) and 105 (any prefix, merges excluded) are both right for their methods; this register's 106 adds the one commit whose subject names the conductor without a prefix. The earlier '107 and 162' and '13 unattributed' are withdrawn. Command made pasteable 4 November: the prose steps are now comment lines.",
+   "command": "git rev-list --merges --count 298be4e; git log 298be4e --merges --author=Claude --format=%h | wc -l\n# then the attribution script in team/researcher/debriefs/2026-10-30__rc1-numbers-review.md"
   },
   {
    "id": "C015",
@@ -771,8 +771,8 @@
     "evidence": "1f7c633; a082c52; evidence/proposals/deck-talk-changes.md; https://www.dtex.ai/blog/2025-cost-insider-risks-takeaways/ and https://ponemon.dtex.ai/, fetched 30 October 2026; team/deck/requests/researcher__before-tonight.md; 91772e6; c9ced4e"
    },
    "method": "the claim's register entry read; grep of src/ at 298be4e for 17.4 and 19.5",
-   "note": "Checked at source on 30 October: the 2025 edition gives $17.4M and the 2026 edition US$19.5M. The timeline, verified at 09:40 from the historian's reply (team/historian/requests/researcher__re-c031-c040.md): the line was written at 00:40; the editor froze talk.json and the slides at 02:47; the talk's researcher committed the exact replacement five minutes later, at 02:52 (a082c52), after deck had already released the earlier items of the same list at 02:20. Deck recorded the rest as not acted on because of the freeze. The freeze was lifted at 14:07 for the framing only, and nobody returned to the line: the slide file has no commit after 00:40. So the correction was not lost by a careless member; it arrived just after a freeze the editor set, and no one owned carrying it across the lift. The book may cite $19.5M (2026 edition) for the present and $17.4M only as the figure the talk used; both are a sponsor-commissioned survey (Ponemon for DTEX).",
-   "command": "git log 298be4e -S'data-count=\"17.4\"' --format='%h %ci %s' -- src/static/talk/slides/definition/index.html; git show 298be4e:evidence/proposals/deck-talk-changes.md | grep -n '19.5'; then read https://ponemon.dtex.ai/ (the public landing page; the full report is behind a form, not filled in); git show 298be4e:team/deck/requests/researcher__before-tonight.md | grep -n 'frozen'; git log 298be4e --no-merges --format='%h %ci' -- src/static/talk/slides/definition/index.html"
+   "note": "Checked at source on 30 October: the 2025 edition gives $17.4M and the 2026 edition US$19.5M. The timeline, verified at 09:40 from the historian's reply (team/historian/requests/researcher__re-c031-c040.md): the line was written at 00:40; the editor froze talk.json and the slides at 02:47; the talk's researcher committed the exact replacement five minutes later, at 02:52 (a082c52), after deck had already released the earlier items of the same list at 02:20. Deck recorded the rest as not acted on because of the freeze. The freeze was lifted at 14:07 for the framing only, and nobody returned to the line: the slide file has no commit after 00:40. So the correction was not lost by a careless member; it arrived just after a freeze the editor set, and no one owned carrying it across the lift. The book may cite $19.5M (2026 edition) for the present and $17.4M only as the figure the talk used; both are a sponsor-commissioned survey (Ponemon for DTEX). Command made pasteable 4 November: the prose steps are now comment lines.",
+   "command": "git log 298be4e -S'data-count=\"17.4\"' --format='%h %ci %s' -- src/static/talk/slides/definition/index.html; git show 298be4e:evidence/proposals/deck-talk-changes.md | grep -n '19.5'\n# then read https://ponemon.dtex.ai/ (the public landing page; the full report is behind a form, not filled in)\ngit show 298be4e:team/deck/requests/researcher__before-tonight.md | grep -n 'frozen'; git log 298be4e --no-merges --format='%h %ci' -- src/static/talk/slides/definition/index.html"
   },
   {
    "id": "C032",
@@ -2192,8 +2192,8 @@
     "evidence": "briefs/2026-10-31__rc1-paper-review/batch-07-pages-22-to-32.md, his dictated review of page 29, committed 31 October 01:48 UTC"
    },
    "method": "his words read in the brief; set beside the hold file's reason and the locks",
-   "command": "git show 49c701e:briefs/2026-10-31__rc1-paper-review/batch-07-pages-22-to-32.md | grep -o -i '.\\{100\\}just a footnote.\\{300\\}'; git show 298be4e:team/conductor/HOLD.md | head -5   # the second in the talk's repository; git show ec1ec00:briefs/2026-10-31__in-session/02-g1-the-95-and-the-day-in-review.md | grep -o -i '.\\{20\\}95%, I think.\\{100\\}'",
-   "note": "Two accounts, both kept, as ROLE.md asks for a contradiction. The day's record gives usage as the reason for the hold; the editor, after the day, calls usage a footnote and names the missing way to take changes safely during the talk. The record supports his account in part: lock.py was built for exactly that and never applied (C027). Quote his as his, dated 31 October 2026, never as the day's record. Open: the book chooses how to tell it, and the editor signs. Registered at the conductor's letter 021 (T12), the researcher's 08:32 wake, 31 October 2026. 31 October 20:40, at the conductor's letter 031: a third account, the editor's at about 19:00: the 95% was 'the tokens usage'. It agrees with the hold file (usage) and does not withdraw his account of the early hours of 31 October (batch 7, committed 01:48) that usage was a footnote to the real reason. The unit is his account; the record holds only the percentage (C021)."
+   "command": "# in this book's repository:\ngit show 49c701e:briefs/2026-10-31__rc1-paper-review/batch-07-pages-22-to-32.md | grep -o -i '.\\{100\\}just a footnote.\\{300\\}'\ngit show ec1ec00:briefs/2026-10-31__in-session/02-g1-the-95-and-the-day-in-review.md | grep -o -i '.\\{20\\}95%, I think.\\{100\\}'\n# in the talk's repository:\ngit show 298be4e:team/conductor/HOLD.md | head -5",
+   "note": "Two accounts, both kept, as ROLE.md asks for a contradiction. The day's record gives usage as the reason for the hold; the editor, after the day, calls usage a footnote and names the missing way to take changes safely during the talk. The record supports his account in part: lock.py was built for exactly that and never applied (C027). Quote his as his, dated 31 October 2026, never as the day's record. Open: the book chooses how to tell it, and the editor signs. Registered at the conductor's letter 021 (T12), the researcher's 08:32 wake, 31 October 2026. 31 October 20:40, at the conductor's letter 031: a third account, the editor's at about 19:00: the 95% was 'the tokens usage'. It agrees with the hold file (usage) and does not withdraw his account of the early hours of 31 October (batch 7, committed 01:48) that usage was a footnote to the real reason. The unit is his account; the record holds only the percentage (C021). Command corrected 4 November: the third command was behind a '#' on one line, and the line mixed this book's commits with the talk's; now two parts, each named."
   },
   {
    "id": "C090",
@@ -3255,8 +3255,8 @@
     "evidence": "content/articles/the-talk-as-given.md, the passage at 19:27 in section id 'inside'"
    },
    "method": "read the transcript passage at 19:27",
-   "command": "git show a9c0b49:content/articles/the-talk-as-given.md | grep -n 'here.s a Wardley map'",
-   "note": "His words on stage, from the generated transcript (C069): quote them as said, to 'commodity.'. The passage goes on to his case about open source; quote it only if the chapter wants it, with its own trace. 'Released everything under Creative Commons' is his account of Wardley's licence; the book's own source sheet (claims/ps1-sources.md, section 4) has wardleymaps.com under CC BY-SA 4.0. Registered at the writer's letter 069, the researcher's 09:32 wake, 3 November 2026."
+   "command": "git show a9c0b49:content/articles/the-talk-as-given.md | grep -n 'a Wardley map'",
+   "note": "His words on stage, from the generated transcript (C069): quote them as said, to 'commodity.'. The passage goes on to his case about open source; quote it only if the chapter wants it, with its own trace. 'Released everything under Creative Commons' is his account of Wardley's licence; the book's own source sheet (claims/ps1-sources.md, section 4) has wardleymaps.com under CC BY-SA 4.0. Registered at the writer's letter 069, the researcher's 09:32 wake, 3 November 2026. Command corrected 4 November: the transcript stores the apostrophe as an HTML entity, so the search is for 'a Wardley map' (found at line 47, at 19:27), at the librarian's report."
   },
   {
    "id": "C112",
@@ -3351,6 +3351,31 @@
    "method": "each commit's author date",
    "command": "for c in bb1f57c0 19e266fb f3e634f3 81fd2ef8 e69f073b 6d357179 5c2d2f9c afbb50d7 28396879 e36d0e94 8f10a08e 68ffc780; do git show -s --format='%h %ad %s' --date=format:'%d %H:%M:%S' $c | cut -c1-80; done",
    "note": "This book's record, not the talk's. 'Six inside two minutes' holds: 01:41:08 to 01:42:34 is 86 seconds; 'within a minute and a half' also holds. Needs a full clone. Registered at the 23:32 wake, 3 November 2026."
+  },
+  {
+   "id": "C115",
+   "claim": "Studio's refusal of a relayed word for the editor's, on the afternoon of 29 October",
+   "cited_in": [
+    "manuscript/rc2/150/93-appendix-b-the-control-register.md",
+    "manuscript/rc2/150/15-hour-eighteen-faster-than-the-clock.md",
+    "claims/rc2-150-trace.md"
+   ],
+   "value": {
+    "wake_started": "17:41:15",
+    "wake_closed": "17:48:21 (8f0c080), partial",
+    "refusal_recorded": "17:47:28 (bd3cdad), in studio's debrief",
+    "what": "the session's own safety check refused a member marking its own policy agreed on a word relayed by another agent; the editor was asked in the session",
+    "not_shown": "the record does not show studio deciding it: the check made the refusal"
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "298be4e",
+    "evidence": "team/studio/wakes/20261029T174115Z.json; team/studio/debriefs/2026-10-29__abp-review.md ('Not done, on purpose'); bd3cdad"
+   },
+   "method": "the wake record's start and close, and the debrief's line",
+   "command": "git show 298be4e:team/studio/wakes/20261029T174115Z.json | python3 -c \"import json,sys;d=json.load(sys.stdin);print(d['started'],d.get('closed'),d.get('outcome'))\"; git show 298be4e:team/studio/debriefs/2026-10-29__abp-review.md | grep -n -i 'relayed'; git log -1 --format='%h %ad' --date=format:%H:%M:%S bd3cdad",
+   "note": "Print '17:41' as the wake's start; the refusal is recorded at 17:47. 'Studio refused' is the member's line in the book; the record says the session's own check refused. Registered at the librarian's and security's letters (cell 'studio, 17:41' in Appendix B), the 00:32 wake, 4 November 2026."
   }
  ]
 }
