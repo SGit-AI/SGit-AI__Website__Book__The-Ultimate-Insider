@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T07:25:23Z",
+ "steps": {
+  "plan": {
+   "by": "security, amended at the pre-review's change",
+   "model": "",
+   "verdict": "go",
+   "comment": "Clarified: item 2 records ruv-sgit's own past push on a red gate (its 068) as evidence; security pushes nothing until its own gate is green, today's build is green. Item 1: the crops are judged by letter only, no file outside security's paths changed, and nothing decoded is printed. Otherwise as before.",
+   "at": "2026-11-04T07:26:30Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent, as the reviewer agent (callable: Read, Grep, Glob, Bash, SubagentHandback); second pass",
+   "model": "haiku",
+   "verdict": "go",
+   "comment": "Clarified plan meets the change; in scope.",
+   "at": "2026-11-04T07:26:46Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. Two crops viewed and decoded: cleared by name. 2. The red line kept with its full legend; ruv-sgit's push on a red gate recorded (C6). 3. 22 and the hour's 137 lines clean. Letter security__055; board; status; debrief.",
+   "at": "2026-11-04T07:28:07Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
