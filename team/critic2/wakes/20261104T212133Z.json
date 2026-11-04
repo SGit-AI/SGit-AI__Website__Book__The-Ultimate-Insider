@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic2",
+ "kind": "scheduled, hourly at :20",
+ "started": "2026-11-04T21:21:33Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Idle wake: one line in status.json; task hourly at ACC1; no note, letters or debrief. No diff in 10-15, 18, 19 since 6bf5eb89; no mail, requests, trailers or hold.",
+   "at": "2026-11-04T21:22:21Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "One status.json line inside team/critic2/**; no other member's paths, secrets, rule change or stop condition.",
+   "at": "2026-11-04T21:22:36Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
