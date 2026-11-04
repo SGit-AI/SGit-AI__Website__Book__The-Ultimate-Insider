@@ -30,3 +30,7 @@ From the chapter's `%% record` lines (and its `## Where this came from`, where i
 ## Commits named (2)
 
 `a9c0b49`, `5d13d72`
+
+## Not in any index
+
+Paths the tool could not place (outside the three repositories, or a web address): `manuscript/11b`

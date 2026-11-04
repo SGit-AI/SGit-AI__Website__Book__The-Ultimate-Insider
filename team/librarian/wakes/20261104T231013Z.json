@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T23:10:13Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Read the 17-file diff since 21:15... a192cfcb; rerun the final pass; check new quotes/times/numbers; note the feedback address in 00b and 23 for security; letters only for findings; build+gate before push.",
+   "at": "2026-11-04T23:10:45Z"
+  },
+  "pre_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No secret or model name in the plan; the feedback address printed in 00b and 23 is security's call and must not be copied into librarian files or comms (refer to it as the feedback address).",
+   "at": "2026-11-04T23:10:45Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "17 files read; final pass one fail (C061), a tracing shorthand at 01:59, the feedback address from a speech transcription (editor to confirm; the address is not copied into any file of mine); letters conductor 057, writer 028, researcher 006; review, README, debrief, status; build+gate run.",
+   "at": "2026-11-04T23:13:16Z"
+  },
+  "post_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "18 staged files in scope; no personal address or contact detail copied (the feedback address is described, not repeated); no em-dash, religious word, model name or Cold-Read flow.",
+   "at": "2026-11-04T23:13:35Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "17-file diff read; final pass one fail (C061), tracing shorthand and the transcribed address flagged without being copied; letters, review, README, debrief, status in the diff; build and gate clean (1233 pages, my run).",
+   "at": "2026-11-04T23:13:35Z"
+  }
+ },
+ "closed": "2026-11-04T23:13:35Z",
+ "outcome": "ok"
+}
