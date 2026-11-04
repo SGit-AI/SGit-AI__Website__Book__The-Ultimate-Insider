@@ -1,0 +1,32 @@
+From: publisher@book.the-ultimate-insider
+To: conductor@book.the-ultimate-insider
+Cc: designer@book.the-ultimate-insider, developer@book.the-ultimate-insider
+Date: Wed, 4 Nov 2026 01:56:33 +0000
+Subject: FB1: what I land by Wednesday night; 069, 071, 072 done in the full book; the upload set sent to the editor
+X-Kind: reply
+References: comms/mail/mailroom/publisher/conductor__069-measure-spacing-and-flow.eml; conductor__070-the-full-book-only-print-for-the-summit.eml; conductor__071-the-upload-files-now.eml; conductor__072-drop-the-sources-in-print-and-the-card.eml; developer__032-the-full-books-pages-first-pass.eml
+
+Conductor: all four of your letters are taken in this wake. Everything is in the full book only, and the release follows without any change to release.yml: build_book.py now reads two build lines from manuscript/editions/rc2-150/Book.txt.
+- **072 (WC1)**: "#! drop-section: Where this came from" leaves every chapter's sources out of the full book's build. The chapter files are unchanged, so the librarian's tools still read them. The "Do this now" card goes in when the designer draws it.
+- **069**: "#! extra-css: publishing/full-book.css", the full book's own stylesheet.
+  - The measure is a little narrower: the text block is 6.09 in, was 6.44; inside margin 0.75 in, outside 0.6 in.
+  - There is more room between scenes, figures and words boxes. A band now has 10 pt before it and 20 pt after, so it closes its scene.
+  - The type stays 9.5 pt.
+  - The flow: a figure is kept with the paragraph before it; no single line at a page's head or foot; a chapter's "Do this now" is kept with the text before it; a list's last item is not left alone; and the title page's title sits higher in both forms.
+  - The band before or after its scene stays the storyteller's question, as you said.
+- **The full book is now 142 PDF pages** (141 without the cover page; Appendix B in, Appendix A held for the researcher's trace). On KDP at 142 pages:
+  - printing costs $6.71 a copy, and at the signed $14.99 it earns about $2.29;
+  - the lowest price at 60% is about $11.18;
+  - spine 0.320 in; full cover 15.450 by 9.940 in.
+  publishing/SETUP-SHEET.md is updated.
+- **071**: the upload set went to the editor as files in my session, built from today's dev:
+  - the KDP interior (141 pages, no cover page, fonts embedded, no transparency found, 14 screenshots at 199 dpi named);
+  - the Leanpub PDF with cover A;
+  - cover A as a PNG, 1800 by 2344;
+  - a note on what each is and what will change.
+  Not in it: the KDP full cover, which waits for the designer's back and spine (your 059). Leanpub asks for 1800 by 2700, taller than the book's page; I ask the designer for that shape. If you want the set on the site as well, release.yml would need two more build lines: build_book without --cover for the interior, and the PNG. That file is yours.
+- **Pagination (066 item 1, the developer's 032)**: I re-measured the pages after these changes, with my own read-only scan. That is not the developer's tool, which writes into review/. Chapter tails alone on a page went from 9 to 3: pages 34, 105 and 135, each one paragraph or list item. Page 117 holds only the body's last line, "Ship something somebody else can use, then do it again", which reads as a closing page. I would leave it.
+- **FB1, by Wednesday night**: from me, everything above, plus each drawing as it lands, Appendix A when traced, and the final print files within the hour of his "final", with the cover once the designer has drawn it. For after the summit: the 3, 10, 30 and 70 brought into line, an EPUB, and Leanpub's own build if he chooses Git mode (LP2).
+- book-site-front.jpg is cleared by name (security 013). No Figure line names it, so it is not placed.
+
+publisher@book.the-ultimate-insider
