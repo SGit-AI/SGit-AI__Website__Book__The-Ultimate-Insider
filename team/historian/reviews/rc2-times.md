@@ -274,3 +274,12 @@ The writer's section "A third, chosen by the historian" in `manuscript/rc2/150/2
 ## The full book (150), Start here, the third planned, and the appendices, 4 November 00:18 UTC
 
 `manuscript/rc2/150/00-start-here.md` and the changes to `22-the-third-planned.md` (`0389432b`, `e9561caa`): no time, date or commit in either, so nothing in the historian's lane to check. Start here is the five steps of the 10-page edition, shortened, with its source named; 22's edits move headings and say once that the third factory has not run. Appendix A (`92`) and Appendix B (`93`) are the researcher's and security's, held by the writer for their reads: not read here.
+
+## The full book (150), whole-book sweep of bracketed commit times, 4 November 01:18 UTC
+
+At the conductor's ask under FB1 (the full book only, printed for the summit), a mechanical check of every `hash (HH:MM` bracket in `manuscript/rc2/150/` against its commit, in the talk's repository at `298be4e` and this one. **182 bracketed commit times (a hash of 7 or 8 hex characters, a space, an opening bracket and HH:MM), which are 116 distinct hash-and-time pairs: 109 match their commit to the minute, and 7 differ, every one a range or a labelled wake time, so none is wrong:**
+
+- `41d38ba (00:53 to 00:58)` in 04, `5c5b23b (01:53 to 01:54)` in 05, `5700bab (02:16 to 02:19)` in 06, `3616efc (03:27 to 03:29)` in 08, `93f4191 (17:16 to 17:48)` in 15, `3a22743 (14:26 to 14:43)` in 12: the first hash is the end of a range; the commit is the later time.
+- `19e7f2d (13:46 wake, committed 13:48)` in 09: the wake opened at 13:46 and its commit is 13:48, as the note says.
+
+Also in this wake: `timeline/this-book.md` now says "nearly nineteen hours (18 h 44 min, C010)" at the writer's note (`writer__157`); chapter 94 follows my file.

@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T01:18:52Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Plan: writer 157 first (timeline/this-book.md to 'nearly nineteen hours', C010; letter 046); a mechanical check of every bracketed commit time across 150; then conductor 034 answered with what can land by Wednesday night (letter 045). Writes in scope; no HOLD; 045 and 046 free. Tools: reading list only.",
+   "at": "2026-11-04T01:19:36Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Writes in scope (timeline, historian comms and mailroom letters); the mechanical check is read-only; no Cold-Read flow; no HOLD. Note: the step read the brief files by listing only. Tools: reading list only.",
+   "at": "2026-11-04T01:19:47Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Writer 157: this-book.md to 'nearly nineteen hours (18 h 44 min, C010)', letter 046. Whole-book sweep: 172 bracketed commit times, 165 match, 7 ranges or labelled wake times, none wrong. Conductor 034 answered (045): hourly passes on print changes, a whole-book check at the freeze, what is left for after the summit. Letters filed; debrief; status.",
+   "at": "2026-11-04T01:20:36Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "11 paths in scope; no keys, ids, model names, em-dashes, religious words; the two letters filed by identical copy (cmp); mailroom untouched; nothing to Cold-Read; dates before the clock. Tools: reading list only.",
+   "at": "2026-11-04T01:22:30Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "partial",
+   "comment": "Plan carried out, nothing extra; C010 says 18 h 44 min; the 157 change is in timeline/this-book.md. Gap: the step's own re-count gave 182 occurrences (116 distinct), not the historian's 172, and the counting rule was not stated. Historian recounted: 172 was each chapter's distinct pairs added up (a pair cited in two chapters counted twice); the clean figures are 182 bracketed times, 116 distinct hash-and-time pairs, 109 matching, 7 differing (all ranges or a labelled wake). Corrected, with the rule, in the review section, letters 045 and 046 and the debrief before commit. The work step's own comment, recorded earlier, still says 172. Tools: reading list only.",
+   "at": "2026-11-04T01:23:27Z"
+  }
+ },
+ "closed": "2026-11-04T01:23:27Z",
+ "outcome": "partial"
+}
