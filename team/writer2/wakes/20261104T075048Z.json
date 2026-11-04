@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer2",
+ "kind": "scheduled, hourly at :50",
+ "started": "2026-11-04T07:50:48Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1) requests in 150/12 to 15 (10, 11 if hits): critic2's two coulds, the historian's 'within a quarter of an hour', the researcher's 'second hour', rule 13 (parts in words), a sweep of Figure lines for ids, times, paths, notes. 2) letter to the designer, cc publisher: 12's fourth figure slot is now the cycle, no drawing (rc2-figures.json not edited); replies writer2__022 on, copies in done/. 3) one voice read of 10 to 15, small fixes; status, debrief. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T07:51:29Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside policy; rc2-figures.json left alone; no secrets, no HOLD, nothing on the rules or the gate. Conditions: vault_check before commit, numbers in the Figure sweep only from the register, no religious words. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T07:51:45Z"
+  },
+  "work": {
+   "by": "writer2",
+   "model": "",
+   "verdict": "done",
+   "comment": "critic2__009's two coulds; historian__065's quarter of an hour; researcher__004's second hour; storyteller__136's rule 13; Figure lines swept (none left), 15's 'wake' to 'session'; writer2__022 to designer and publisher on 12's fourth figure slot; replies 023 to 025, copies in done/; status, debrief. No tool refused.",
+   "at": "2026-11-04T07:52:25Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "validate clean (1003), vault_check clean, 0 outside scope; only 150/12 to 15, team/writer2 and own comms; rc2-figures.json untouched; no em-dashes, religious words, secrets or directives; new time words from the historian's and researcher's letters. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T07:53:55Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Items 1 to 3 done; pre-review conditions kept; nothing unplanned. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T07:53:55Z"
+  }
+ },
+ "closed": "2026-11-04T07:53:55Z",
+ "outcome": "ok"
+}
