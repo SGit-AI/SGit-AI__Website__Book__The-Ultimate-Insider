@@ -1,0 +1,148 @@
+{
+ "schema": "the-ultimate-insider/synthetic-section-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "event-team-member",
+ "read_at": "2d460f26",
+ "would_read_on": {
+  "03b-the-day-at-a-glance": "maybe",
+  "03-the-tour": "yes",
+  "94-the-making-of-this-book": "maybe"
+ },
+ "findings": [
+  {
+   "file": "03b-the-day-at-a-glance.md",
+   "line": 5,
+   "quote": "the team running before dawn",
+   "principle": "reader",
+   "severity": "should",
+   "why": "I have not been told yet what the team or its wakes are, so the four phases give me hours but nothing I can picture."
+  },
+  {
+   "file": "03b-the-day-at-a-glance.md",
+   "line": 7,
+   "quote": "with each hour's commits and its wakes marked on it",
+   "principle": "reader",
+   "severity": "should",
+   "why": "Wakes and commits are used here, but the word wake is only explained on the tour page, so a phone reader stalls on the first figure."
+  },
+  {
+   "file": "03b-the-day-at-a-glance.md",
+   "line": 7,
+   "quote": "grouped into the setup, the flow, the acceleration and the crunch and the stop",
+   "principle": "21",
+   "severity": "should",
+   "why": "The figure line tells the four parts a second time, straight after the paragraph that names them."
+  },
+  {
+   "file": "03b-the-day-at-a-glance.md",
+   "line": 5,
+   "quote": "my return, the talk growing, my words arriving faster than the clock",
+   "principle": "reader",
+   "severity": "could",
+   "why": "The acceleration is the part a team like mine wants to understand, but it is described in a phrase I cannot decode yet."
+  },
+  {
+   "file": "03-the-tour.md",
+   "line": 5,
+   "quote": "Before I tell you how the factory worked",
+   "principle": "reader",
+   "severity": "should",
+   "why": "I am not told what the factory is, who is in it or how it stops, which are the three things I came to learn."
+  },
+  {
+   "file": "03-the-tour.md",
+   "line": 7,
+   "quote": "How to read the scenes:",
+   "principle": "6",
+   "severity": "should",
+   "why": "This tells me how to read, where saying the agents' words are written for this book would do."
+  },
+  {
+   "file": "03-the-tour.md",
+   "line": 11,
+   "quote": "You meet each of them properly when they arrive, in the chapters that follow.",
+   "principle": "21",
+   "severity": "could",
+   "why": "Line 5 has already said one line from the agent that made each stop, so this repeats the promise."
+  },
+  {
+   "file": "03-the-tour.md",
+   "line": 53,
+   "quote": "This is the page that shows the factory running on its own for nine hours.",
+   "principle": "1",
+   "severity": "could",
+   "why": "The narrator reports what the page shows, with no I and no view from now about why it matters."
+  },
+  {
+   "file": "03-the-tour.md",
+   "line": 59,
+   "quote": "Read in order, they are the team talking.",
+   "principle": "6",
+   "severity": "could",
+   "why": "It is an instruction on how to read the commits and stands in for saying what I would find."
+  },
+  {
+   "file": "03-the-tour.md",
+   "line": 73,
+   "quote": "Last stop. Every agent has a page like this, built from its own folder.",
+   "principle": "1",
+   "severity": "could",
+   "why": "Reporting with no I and no hindsight, and two short sentences open it."
+  },
+  {
+   "file": "03-the-tour.md",
+   "line": 85,
+   "quote": "A key's fingerprint is a short code that identifies it.",
+   "principle": "reader",
+   "severity": "should",
+   "why": "Keys, fingerprints and vaults arrive in one dense paragraph, and as a busy reader with a team to run I cannot see why I need them."
+  },
+  {
+   "file": "03-the-tour.md",
+   "line": 91,
+   "quote": "the same kind of key as a QR code",
+   "principle": "21",
+   "severity": "should",
+   "why": "The keys page figure and the QR figure show the same thing twice, and the paragraph above already says every key is public and on purpose."
+  },
+  {
+   "file": "03-the-tour.md",
+   "line": 109,
+   "quote": "That list is often shorter than you expect",
+   "principle": "6",
+   "severity": "should",
+   "why": "It predicts how the reader will find the exercise, and the takeaway is about explaining pages, not about running a team with agents, so I get a story but no pattern to copy."
+  },
+  {
+   "file": "94-the-making-of-this-book.md",
+   "line": 11,
+   "quote": "And the historian made an error, and caught it itself.",
+   "principle": "7",
+   "severity": "could",
+   "why": "A run of short sentences lists failures one after another, with no sentence that runs on into what each taught."
+  },
+  {
+   "file": "94-the-making-of-this-book.md",
+   "line": 11,
+   "quote": "the editions from one page up to this one",
+   "principle": "reader",
+   "severity": "should",
+   "why": "I do not know what the editions are or which one I am reading, so the line stops me."
+  },
+  {
+   "file": "94-the-making-of-this-book.md",
+   "line": 13,
+   "quote": "I left the times out of this page on purpose.",
+   "principle": "reader",
+   "severity": "could",
+   "why": "It ends the page on what is missing, and a team member learns nothing here they could copy tomorrow."
+  }
+ ],
+ "what_holds": [
+  "03-the-tour.md: four stops, each with one picture and one line from an agent, is quick to take in on a phone and shows a finished thing first.",
+  "03-the-tour.md: the plain definitions of wake, conductor and hold (line 41) are what I needed, and the researcher admitting the counts disagree (line 61) builds trust.",
+  "03-the-tour.md: the rules-carry-their-mistakes idea at Stop 4 is something I could copy tomorrow.",
+  "94-the-making-of-this-book.md: the failures stay in (the hold, the lost evening, the historian's error), which makes the account believable."
+ ],
+ "notes": "The three sections never say how the team stops or what one person would start with tomorrow; the hold is mentioned in the tour, but only as a dashboard item. The makers-of-this-book page would serve me better with one takeaway line I could act on."
+}
