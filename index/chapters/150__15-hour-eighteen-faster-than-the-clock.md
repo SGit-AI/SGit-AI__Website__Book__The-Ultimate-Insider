@@ -10,14 +10,17 @@ From the chapter's `%% record` lines (and its `## Where this came from`, where i
 | `team/dev/wakes` | folder |  | ``  | ``  |  |
 | `team/studio/wakes/20261029T174115Z.json` | wake record | studio | `bd3cdad` 2026-10-29 17:47:28 | `8f0c080` 2026-10-29 17:48:21 | follow-up, tonight every 15 min (the editor's word); outcome partial; work done: 1 done: deck 071 and correction 072, conductor 043, board 004; |
 
-## this repository (6)
+## this repository (9)
 
 - `timeline/day/17.md`
 - `timeline/quotes.md`
 - `timeline/unmerged.md`
 - `claims/register.json`
 - `chapter-plan/edition-150-outline.md`
+- `team/conductor/from-newsroom/2026-11-04__narrator-voice-part-three.md`
+- `team/conductor/from-newsroom/2026-11-04__do-this-now-as-invitations.md`
 - `manuscript/rc2/70/09-the-loop-and-the-port.md`
+- `chapter-plan/cast/cast-guide.md`
 
 ## Commits named (13)
 

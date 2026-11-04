@@ -29,6 +29,6 @@ From the chapter's `%% record` lines (and its `## Where this came from`, where i
 - `manuscript/rc2/150/08-hours-four-and-five-before-dawn.md`
 - `chapter-plan/cast/cast-guide.md`
 
-## Commits named (7)
+## Commits named (9)
 
-`298be4e`, `aeffbf9`, `af0010b`, `6b55cff`, `3f094f2`, `36e382b`, `09317d9`
+`298be4e`, `aeffbf9`, `af0010b`, `6b55cff`, `3f094f2`, `36e382b`, `09317d9`, `c1c6443`, `b6f5219`
