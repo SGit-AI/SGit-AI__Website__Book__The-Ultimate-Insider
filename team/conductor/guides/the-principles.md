@@ -276,6 +276,8 @@ The newsroom's own wording check on its chapter 3 rewrite shows the other edge: 
 **Why.** CLAUDE.md: "The researcher's register (`claims/`) is the only place a number in the book may come from." Cast guide rule 7. Brief 03: "any count on the page comes from the researcher's register" (the conductor's reading of his "18 hours").
 - **Example** (`manuscript/rc2/150/00b-who-is-telling-this-story.md`, lines 5 and 7): the prose says "from an empty repository a little after midnight to the stage that evening, by a team of nine AI agents and me", and the record line beneath holds "C001 (the first commit, 00:16:23) C011 (nine staffed) C100 (the talk in London)".
 
+**No ids inside drawings** (the designer's and the storyteller's ruling, designer 137 and storyteller 143, convention 8 of the cast guide; not the editor's words): a drawing carries no register id, not even in small type; the id stays in the chapter's `%% record:` line like every other.
+
 **A critic checks.** A figure in the text with no id in a record line near it; an id or hash printed in the reading text; a number the register does not hold (ask the researcher, do not guess).
 
 ### 29. No "Where this came from" in print

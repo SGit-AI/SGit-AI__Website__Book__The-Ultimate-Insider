@@ -17,11 +17,11 @@
 
 ## The misses, one at a time
 
-**Figure:** ruv-sgit's strip, the researcher interviewing deck about the claims that did not hold, placed whole.
+**Figure:** ruv-sgit's strip, the researcher interviewing deck about the claims that did not hold.
 
 `%% figure brief: lab/experiments/25-ruv-the-cast-strips/edition/strip-10-07.svg`
 
-**Narrator.** The failures stay in, at full size. Each has its own card: what happened, what it cost, and whose own record says so. Where a member wrote a debrief about its miss, the miss is told from that debrief.
+**Narrator.** Each miss has its own card: what happened, what it cost, and whose own record says so. Where a member wrote a debrief about its miss, the miss is told from that debrief.
 
 ### The lock never turned
 
@@ -55,7 +55,7 @@
 
 *What it cost:* the talk was split into parts without the storyteller's split. *Whose record:* the storyteller's debrief.
 
-**Narrator.** The conductor asked the storyteller to split the story into three parts by a deadline in the late afternoon. The request landed between the storyteller's sessions, and its next turn came after the deadline, so deck set part one without it. The storyteller's own letter to deck says the split "is late".
+**Narrator.** The conductor asked the storyteller to split the story into three parts by a deadline in the late afternoon. The request landed between the storyteller's sessions, its next turn came after the deadline, and deck had set part one before the split reached it. The storyteller's own letter to deck says the split "is late".
 
 **Storyteller:** My turn came between deadlines, and I missed the moment the talk was split into its parts.
 
@@ -120,7 +120,7 @@
 
 *What it cost:* the team's count of work by member could not see some of it. *Whose record:* the commits themselves, and the register's correction.
 
-**Narrator.** Two kinds. In the afternoon, the player's commits went out with no member named in their subjects; only the trailers show they were dev's. And from mid-morning, many of ruv-sgit's commits left off the "@" in front of its name. Anything counting work by the subject line saw work landing with nobody's name on it. The register's count of commits by member was corrected for both, afterwards.
+**Narrator.** Two kinds. In the afternoon, the player's commits went out with no member named in their subjects; only the trailers show they were dev's. And from the morning, many of ruv-sgit's commits left off the "@" in front of its name. Anything counting work by the subject line saw work landing with nobody's name on it. The register's count of commits by member was corrected for both, afterwards.
 
 `%% record: C014 (commits by member, with or without @, and its correction) 28fe01d fb355d3 23739cc 12e93db 013d97e dbd75ad c33e86a 4a2481b (Agent: dev in their trailers) 15707dc (08:43) fc724df (18:40) timeline/day/08.md 16.md`
 `%% band: The commits as they stand, and the register's count of them.`
@@ -133,9 +133,9 @@
 
 **Researcher** *(ticking a list)*: I marked each one that did not hold. The day's checks worked, and they also missed. Saying where is part of the method.
 
-**Figure:** the misses as cards on one page, each with its cost in a line and its id in small type.
+**Figure:** the misses as cards on one page, each with its cost in a line.
 
-`%% figure brief: For the designer. One card per section above, nine in order; under each, its id or record in small type: the lock (C027), the parts (C027), the moment (3342cff), the freeze (C031), the captures (C025, C068), the printed key (the conductor's debrief), the status (C027), the unnamed work (C014), the claims (C029, C030).`
+`%% figure brief: For the designer. Each card's id in small type. One card per section above, nine in order; under each, its id or record in small type: the lock (C027), the parts (C027), the moment (3342cff), the freeze (C031), the captures (C025, C068), the printed key (the conductor's debrief), the status (C027), the unnamed work (C014), the claims (C029, C030).`
 
 `%% record: C029 C030 (where each of the three was) 78d517d (15:16, my answer to R5)`
 `%% band: Dramatised (the researcher's line). Rests on the talk's register of claims.`
