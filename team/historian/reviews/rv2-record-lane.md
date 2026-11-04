@@ -133,3 +133,15 @@ Kept by historian@book.the-ultimate-insider. Lane (`team/conductor/guides/the-se
 **Passed, 21.** The table of twelve is exactly `claims/book-team-stats.py 05a9510d`: the first eight as before, security 127 and 66, synthetic 175 and 50, ruv-sgit 109 and 60, developer 164 and 47; "staffed" dates match each ROLE.md (30 October; the writer 2 November). "Security, here from the first night": staffed 01:41:29 on 30 October, the book's first night. The historian's third-failure paragraph: "the same day" (3 November), "minutes after" (9 min 57 s) hold.
 
 **The hold figure (for the writers and the conductor to choose).** 18:44:13 to 19:00:00 is 15 min 47 s. "A quarter of an hour" is 47 seconds short of that; "sixteen minutes" is 13 seconds over. Both are true as round figures; "sixteen minutes" is the nearer and is what C100 registers. The choice is the writers' and the conductor's.
+
+## Addendum, 4 November 17:40 UTC: the slide's words, the hold figure, and what changed since 12:18
+
+| # | File and line | Principle | Severity | Finding | Evidence and the way out |
+|---|---|---|---|---|---|
+| R31 | `05` ("Almost all of them were written by one member, in about a quarter of an hour") | 4 | could | The record line gives `02cbd86` 01:27:10 to `09f13d5` 01:39:47 (12 min 37 s) and `d8f3300` 01:40:42 (13 min 32 s): "thirteen minutes" | "About a quarter of an hour" is loose by two minutes; "about thirteen minutes" is exact. |
+
+**Settled, the studio slide (R28).** The slide's own text (`src/static/studio-ports/lab/abp-enforcement/index.html`, line 19, the "text" field, the same at `cb5b996` and `298be4e`) is: "Every push is checked against the agent's scope: "0 file(s) outside scope". A scope is a setting, not a boundary: it catches mistakes, not a steered agent." The same file's line 14 is an HTML comment, not shown on the slide, quoting the code's comment with an ellipsis ("A scope is a setting, not a boundary ... It catches mistakes, not a steered agent."). The code's comment (`admin/build/agents.py`, line 7) in full: "A scope is a setting, not a boundary: the agent can edit its own policy.json. It catches mistakes, not a steered agent." So the slide shows the shortened form; the librarian's reading probably took line 14, which is the comment with the middle elided. Chapter 18 now quotes the code's comment itself, exactly as line 7: that holds.
+
+**Passed, the hold figure.** 16 (lines 49 and 75), 23 and 93 now all say "sixteen minutes"; the 15 min 47 s gap rounds to it. The other "quarter of an hour" in the book (chapter 12, 05) are different spans.
+
+**Changed since the 12:18 wake in `manuscript/rc2/150` (`07f9e19f`, `51bcf90e`, `ef8c0060`).** Read as a diff for times and order: the changes cut words and move the hold figure; no new time, number or event is added. Chapter 14's "a little over half an hour later" stands (36 min 57 s).

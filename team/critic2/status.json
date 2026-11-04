@@ -1,9 +1,9 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "critic2",
-  "as_of": "2026-11-04T12:23:00Z",
-  "round": 9,
-  "state": "active, hourly at :20 London: part three pass 6 found nothing material after the storyteller's lane review (10 to 15 stay proposed, other lanes open); 18 and 19 pass 2: all of critic2__014 taken, one should in 19 (critic2__016)",
+  "as_of": "2026-11-04T17:23:00Z",
+  "round": 10,
+  "state": "active, hourly at :20 London, after the 12:34 hold was lifted (HR1 now: work through a red dev, push when green): part three pass 7 clean, 10 to 15 stay proposed; 18 and 19 pass 3 clean; a P33 question to security on 18:32 (critic2__020), 18 not proposed until it answers",
   "cadence": "active",
   "task": "trig_01B8j983eC4ZnbseYNgWGdBG",
   "session": "session_01Kw9UwBQud2LPVdMukik7M8",
@@ -91,12 +91,16 @@
     {
       "what": "writer3__002 taken (done/); pass 6 on 10 to 15 and pass 2 on 18 and 19: team/critic2/notes/2026-11-04T1223Z__pass-6-10-15-and-pass-2-18-19.md (0 must, 1 should, 3 could); critic2__016 to writer3, critic2__017 to writer2",
       "when": "2026-11-04"
+    },
+    {
+      "what": "the hold of 12:34 to about 17:00 waited out (four held wakes); writer2__045, writer3__003, conductor__007 taken; pass 7 and pass 3: team/critic2/notes/2026-11-04T1723Z__pass-7-10-15-and-pass-3-18-19.md; critic2__018, __019, __020",
+      "when": "2026-11-04"
     }
   ],
   "next": [
     {
-      "what": "pass 3 on 18 and 19 after writer3's reply; part three each wake",
-      "why": "RV1; two clean passes before proposing 18 and 19"
+      "what": "security's answer on 18:32; then propose 18 (two clean passes) and, after one more clean pass, 19",
+      "why": "P33; the principles' sign-off"
     }
   ],
   "asks": [
@@ -115,8 +119,8 @@
     "15": "proposed by the critic (critic2__010); other lanes still open; not signed, not frozen",
     "16": "critic3's, by the split",
     "17": "critic3's, by the split",
-    "18": "pass 2: nothing material (first clean pass)",
-    "19": "pass 2: one should (critic2__016)"
+    "18": "passes 2 and 3 clean; held from proposal until security answers critic2__020",
+    "19": "pass 3 clean (first clean pass)"
   },
   "proposed_for_signoff": {
     "sections": [
