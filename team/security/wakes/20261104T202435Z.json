@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T20:24:35Z",
+ "steps": {
+  "plan": {
+   "by": "security (amended after pre-review change)",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Amended item 2: the pki.sgit.ai link becomes plain text (same rule as security__060: off the two hosts, text only, never a link); the developer changes the template, and the persona pages come under a guard. Rest unchanged.",
+   "at": "2026-11-04T20:26:58Z"
+  },
+  "pre_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "go",
+   "comment": "The amended item 2 fixes the change: pki.sgit.ai becomes text on the persona pages; the template and guard are the developer's, outside security's writes.",
+   "at": "2026-11-04T20:27:16Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Rebuild and hardenings read, 33 pages pass the guard; the key-tool link to become text and the persona pages under the guard (067); 93 S1 and S4 set in controls/appendix-b.md (068); hour's changes clear.",
+   "at": "2026-11-04T20:28:35Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
