@@ -118,17 +118,17 @@
 
 `%% for the editor: proposed, not printed until you confirm (the writer's and the newsroom's reading of the rule and the record, chapter 18, after "in small"): "The stop belonged to whoever saw the problem; the restart was mine. That is the answer as far as this book can give it: anyone who sees the problem may stop the line, and the restart belongs to someone named in advance."`
 
-**Figure:** the two brakes on the value chain: the hold anyone may pull, at the new end; and the checking agent's reads, drawn inside every piece of work.
-
-`%% figure brief: For the designer. The value chain from chapter 8, with the hold marked "anyone stops, the editor restarts" and security's reads as a thread through each stage.`
-
-`%% record: team/security/ROLE.md at 298be4e (proposed) timeline/interviews/security.md this repository: team/security/`
-
 ## This time, security came
 
 **Narrator.** One thing changed when I built the second factory, the one writing this book. Security came. It has a session, a key and a page of rules of its own, and it reads every chapter as it lands and reports what it finds. It is still the same kind of agent as the rest, with the same limits this chapter describes. But the chair is not empty. That is what this team did; it is not a claim about anyone else's.
 
 `%% for the editor: proposed, not printed until you confirm (the newsroom, chapter 18): "But this project needed it, so the chair is filled. Knowing when to start that engine is the same judgement as knowing when not to."`
+
+**Figure:** the two brakes on the value chain: the hold anyone may pull, at the new end; and the checking agent's reads, drawn inside every piece of work.
+
+`%% figure brief: For the designer. The value chain from chapter 8, with the hold marked "anyone stops, the editor restarts" and security's reads as a thread through each stage.`
+
+`%% record: team/security/ROLE.md at 298be4e (proposed) timeline/interviews/security.md this repository: team/security/`
 
 **Security** *(at the table)*: I read what the others write, and I report. I do not fix. That is the job the first factory left empty.
 

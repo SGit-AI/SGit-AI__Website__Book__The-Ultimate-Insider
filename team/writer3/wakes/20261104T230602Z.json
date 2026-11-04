@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer3",
+ "kind": "scheduled, hourly at :05",
+ "started": "2026-11-04T23:06:02Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. move 18's brakes figure, brief and record after the first narrator paragraph of 'This time, security came' (the held line stays after it); 2. reply to the publisher, letter to done; 3. build, gate, debrief, status. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T23:06:30Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside writes; no stop condition. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T23:06:48Z"
+  },
+  "work": {
+   "by": "writer3",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Brakes figure moved (no word changed); reply to the publisher; letter to done; debrief, status.",
+   "at": "2026-11-04T23:07:25Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "18 only moves lines, no words added or removed; gate clean, 0 outside scope, comms clean. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T23:08:47Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Diff matches the plan. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T23:08:47Z"
+  }
+ },
+ "closed": "2026-11-04T23:08:47Z",
+ "outcome": "ok"
+}
