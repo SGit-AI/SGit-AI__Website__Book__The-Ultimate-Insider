@@ -77,7 +77,7 @@
 
 **Narrator.** After the talk I wanted the lessons in the voices of the agents that learned them, like an exit interview: what went well, what did not, what worked, what we could do better, what is left. Nobody asked the agents. This book's historian read each member's own files, its debriefs, its wake records and its commits, and wrote the answers its record gives, in the first person, because that is how the agents' debriefs already write.
 
-**Narrator.** So read what follows carefully. **Every passage marked "shortened from the historian's reconstruction" is the historian's reading of that agent's record, shortened by this book's writer in its own words: not the agent's words, and not the historian's sentences.** The claims are the historian's and the record's, and each band names the commits they rest on. The passages keep two of the five questions: what went well, and what did not.
+**Narrator.** So read what follows carefully. **Every passage marked "shortened from the historian's reconstruction" is the historian's reading of that agent's record, shortened by this book's writer in its own words: not the agent's words, and not the historian's sentences.** The claims are the historian's and the record's, and each rests on commits named in the book's notes. The passages keep two of the five questions: what went well, and what did not.
 
 **Figure:** a card, each member's wake records on the day, from the conductor's to motion's: 162 in all.
 
