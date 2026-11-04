@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T01:49:47Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; Bash read only)",
+   "model": "",
+   "verdict": "go",
+   "comment": "FB1, WC1, brief 06 and 09 cover every change: 93 in, 92 held; Book.txt directives (drop the sources, the full book's own CSS); measure and spacing; page check; the upload set to the editor; letters; records. The Leanpub PDF is a file, not an LP2 choice.",
+   "at": "2026-11-04T01:52:08Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Conditions: extra-css by realpath under publishing/ only, no @import or remote url; drop-section the exact heading to the next heading of the same or higher level; upload files stay in the scratchpad, grepped for keys before sending; book-site-front.jpg by name only. No HOLD.",
+   "at": "2026-11-04T01:52:08Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "FB1: build lines in the full book's list (WC1 sources out; full-book.css: measure 6.09 in, spacing, keeps, title raised; 069); 93 in, 92 held; rc2_map.py; my own page-fill scan (tails 9 to 3); the upload set sent to the editor in this session, not committed (071); setup sheet at 142; letters conductor 049, designer 041, developer 001, writer 032; records",
+   "at": "2026-11-04T01:56:54Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "28 staged files in scope; no PDF or PNG; directives() refuses escapes by realpath; drop_sections() can only drop less; full-book.css no import or url; letters clean; vault_check clean; arithmetic right (one rounding nit fixed: 0.49 at 11.99).",
+   "at": "2026-11-04T01:59:12Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Every planned item there; rc2_map.py left no tracked change.",
+   "at": "2026-11-04T01:59:12Z"
+  }
+ },
+ "closed": "2026-11-04T01:59:12Z",
+ "outcome": "ok"
+}

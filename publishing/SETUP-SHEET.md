@@ -2,7 +2,7 @@
 
 Kept by publisher@book.the-ultimate-insider. Written 4 November 2026, about 00:40 UTC, for the editor's ask in the publisher's session ("can you help me setting up KDP and Leanpub?") and the conductor's 066, items 4 and 5. **Every account step is his, by hand**: nobody on the team logs in, uploads, submits or pays, and no account number, login, bank or tax detail ever goes in this repository. Where a screen and this sheet disagree, the screen wins; tell the publisher so the sheet is corrected.
 
-The book is the full book (LP1), the one printed (PR2). It is not final yet: the page count, and with it the spine, the cover's width and the printing cost, move until the editor calls it final. Figures below are at today's count, **the interior 132 pages** (133 with the cover page; KDP prints an even count). They rose from 112 on 4 November about 01:10 UTC, when a fault that had shrunk every page to about 0.85 was fixed: the body now prints at the 9.5 pt the editor signed.
+The book is the full book (LP1), the one printed (PR2). It is not final yet: the page count, and with it the spine, the cover's width and the printing cost, move until the editor calls it final. Figures below are at today's count, **the interior 141 pages, printed as 142** (142 with the cover page). They rose from 112 on 4 November: about 01:10 UTC a fault that had shrunk every page to about 0.85 was fixed (the body now prints at the 9.5 pt the editor signed), and about 01:55 UTC the full book took its own measure and spacing and left its sources out of print (the editor's notes 06 and 10).
 
 ## 1. Leanpub
 
@@ -75,9 +75,9 @@ The conductor opens this as a decision; nothing changes until he signs. The step
 | Territories | worldwide rights | his choice |
 | Primary marketplace | Amazon.com | proposal |
 | List price | **$14.99**, signed on 1 November ("price is ok") at 192 pages, to be confirmed on the final count | ours (KDP.md) |
-| What it earns, today's count | printing at large trim, standard colour: $1.00 + $0.0402 x 132 = **$6.31** a copy; at $14.99 and 60%, about **$2.69** a copy | KDP's printing-cost page, read 1 November; moves with the final count |
-| A lower price, sales first | the floor at 60% is $6.31 / 0.6 = about **$10.51**; at $10.99, about $0.29 a copy; $9.99 is now below the floor | proposal, his choice |
-| Expanded distribution | at 40%, the floor is $6.31 / 0.4 = about **$15.77**: not possible at $14.99 | his choice |
+| What it earns, today's count | printing at large trim, standard colour: $1.00 + $0.0402 x 142 = **$6.71** a copy; at $14.99 and 60%, about **$2.29** a copy | KDP's printing-cost page, read 1 November; moves with the final count |
+| A lower price, sales first | the floor at 60% is $6.71 / 0.6 = about **$11.18**; at $11.99, about $0.49 a copy; $9.99 and $10.99 are below the floor | proposal, his choice |
+| Expanded distribution | at 40%, the floor is $6.71 / 0.4 = about **$16.77**: not possible at $14.99 | his choice |
 | Proof copy | order one before publishing (his brief) | ours |
 
 Two checks only his screen can do (`KDP.md`): standard colour offered at 7.44 x 9.69 in, and KDP's own minimum price at or below the price he sets.
@@ -94,9 +94,9 @@ Two checks only his screen can do (`KDP.md`): standard colour offered at 7.44 x 
 
 | File | State today | Against KDP's rules |
 |---|---|---|
-| **Interior PDF** (the full book without its cover page) | test build: 132 pages, 7.44 x 9.69 in (`build_book.py` without `--cover`), in the publisher's scratchpad, not committed; the final one at the final count | fonts: all 34 embedded; transparency: none found at page level (KDP's previewer is the last word); size: well under 650 MB |
+| **Interior PDF** (the full book without its cover page) | test build: 141 pages, 7.44 x 9.69 in (`build_book.py` without `--cover`), in the publisher's scratchpad, not committed; the final one at the final count | fonts: all 34 embedded; transparency: none found at page level (KDP's previewer is the last word); size: well under 650 MB |
 | Its images | 17 raster images; **14 screenshots of the talk's site at 199 dots per inch** (1280 by 800 pixels at the printed width); the drawings are vector and print sharp | below KDP's "at least 300 DPI", and KDP says not to enlarge to reach it. Options for him: print the screenshots smaller (at 300 dpi a 1280-pixel shot is 4.27 in wide), or accept KDP's warning on the proof (KDP's pages read do not say whether it refuses or only warns) |
-| **Cover PDF** (back, spine, front, 0.125 in bleed) | the front is cover A; **the back and the spine are not drawn**: the designer draws them from the final count | at 132 printed pages, white paper: spine **0.297 in** (7.6 mm), spine text allowed; full cover **15.427 x 9.940 in**, 4628 x 2982 px at 300 dpi (`publishing/cover_size.py --pages 132 --paper white`) |
+| **Cover PDF** (back, spine, front, 0.125 in bleed) | the front is cover A; **the back and the spine are not drawn**: the designer draws them from the final count | at 142 printed pages, white paper: spine **0.320 in** (8.1 mm), spine text allowed; full cover **15.450 x 9.940 in**, 4635 x 2982 px at 300 dpi (`publishing/cover_size.py --pages 142 --paper white`) |
 | **EPUB** (Kindle; Leanpub if wanted) | not built for RC2 (`--no-epub`): the cast layout has not been tried in an EPUB | to build and check in Kindle Previewer once the book is final |
 | Leanpub's own print-ready export | a Leanpub feature for books it generates (Git mode); not ours under option B | our interior is the print file |
 
