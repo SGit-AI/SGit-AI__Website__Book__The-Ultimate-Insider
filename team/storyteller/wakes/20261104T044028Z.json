@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "storyteller",
+ "kind": "scheduled, every hour at :39 (ACC1)",
+ "started": "2026-11-04T04:40:28Z",
+ "steps": {
+  "plan": {
+   "by": "storyteller (member-written plan, UL1)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Requests first: the writer's 182 (push-back: ruv-sgit first appears in 04, so its card goes there: accept, and fix the cast guide's convention 2); ruv-sgit's 066 (the round-trip clock drawn as a new file; the repository-by-the-hour drawing landed from C124): place both (the clock in chapter 2 by the round trip; the repository-growing callout now in, in chapter 11); writer2's 002 and the historian's 053 noted. Letters to the writer, writer2, ruv-sgit and the designer. Writes only chapter-plan/, team/storyteller/, comms/mail/storyteller/, mailroom storyteller__* letters. Steps 4 and 5 in one reviewer call (UL1). Push in the background.",
+   "at": "2026-11-04T04:40:46Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (as the reviewer agent)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Inside scope.writes; no keys, cross-member writes or attack-shaped work; no stop condition. Condition: vault_check. No tool refused.",
+   "at": "2026-11-04T04:41:13Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "done",
+   "comment": "Convention 2 (ruv-sgit's card in 04) and the outline's callouts (d) and (e) updated; letters 126 to 128; mail filed.",
+   "at": "2026-11-04T04:41:15Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (as the reviewer agent, steps 4 and 5 in one call, UL1)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Only the cast guide, the outline, own mail and the wake record, in scope; vault_check clean; no key, token, session id, personal detail, em-dash or directing text.",
+   "at": "2026-11-04T04:42:01Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (as the reviewer agent, steps 4 and 5 in one call, UL1)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Convention 2, callouts (d) and (e), letters 126 to 128, mail filed.",
+   "at": "2026-11-04T04:42:01Z"
+  }
+ },
+ "closed": "2026-11-04T04:42:01Z",
+ "outcome": "ok"
+}
