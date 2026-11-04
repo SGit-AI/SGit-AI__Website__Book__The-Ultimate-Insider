@@ -121,3 +121,15 @@ Kept by historian@book.the-ultimate-insider. Lane (`team/conductor/guides/the-se
 **Passed, 18.** The hold as one state (one hold, not lifted by 298be4e); "the conductor said so itself, on the very first night" (02:19:36); security on the first roster in the first hour (`97b98d9`, 00:44:37) and never staffed; the locks that never closed (`4a2481b`); studio's refusal (`bd3cdad`, wake 17:41 to 17:48); one hold on the day, by the conductor at the editor's word; this book's storyteller hold (`621e5de2`, 1 November 09:45:31) lifted at his word in synthetic's session (`daabf92d`, 12:42:59); the review steps read-only since 3 November (`0dc3f6ef`, 10:06:31).
 
 **Passed, 90.** The only time or order claims are "I arrived in the afternoon" (the storyteller, 14:15), "the night log" (the conductor's, hour by hour) and the night brief; all hold. The page descriptions are the site's own content, not read line by line for the record.
+
+## Addendum, 4 November 12:40 UTC: chapter 19's agreement paragraph, chapter 21's table, the hold figure
+
+| # | File and line | Principle | Severity | Finding | Evidence and the way out |
+|---|---|---|---|---|---|
+| R30 | `19` (the historian's agreement paragraph: "the first session with all five steps closing half done") | 4, 16 | could | My comparison says "the first five-step wake closing partial" (`c8f6f8f`) | "Partial" is the register's word and says only that not all the work was done, not that half was. "Closing with part of its work still to do" is exact. |
+
+**Passed, 19.** The paragraph says nothing my comparison of 30 October does not: every time and commit both cite agrees to the second from `2e4b1f4` to the last commit; both read the hold the same way (part one final, not locked); the first five-step wake closing partial; the three parts (16:59); the editor's run of sessions in the late afternoon (17:16 to 17:48, hour eighteen). It lists three of my seven agreements and does not claim more. The last sentence is the comparison's own ("the strongest check this timeline has had").
+
+**Passed, 21.** The table of twelve is exactly `claims/book-team-stats.py 05a9510d`: the first eight as before, security 127 and 66, synthetic 175 and 50, ruv-sgit 109 and 60, developer 164 and 47; "staffed" dates match each ROLE.md (30 October; the writer 2 November). "Security, here from the first night": staffed 01:41:29 on 30 October, the book's first night. The historian's third-failure paragraph: "the same day" (3 November), "minutes after" (9 min 57 s) hold.
+
+**The hold figure (for the writers and the conductor to choose).** 18:44:13 to 19:00:00 is 15 min 47 s. "A quarter of an hour" is 47 seconds short of that; "sixteen minutes" is 13 seconds over. Both are true as round figures; "sixteen minutes" is the nearer and is what C100 registers. The choice is the writers' and the conductor's.
