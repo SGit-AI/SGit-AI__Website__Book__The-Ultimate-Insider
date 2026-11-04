@@ -1,0 +1,34 @@
+{
+ "schema": "the-ultimate-insider/synthetic-section-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "first-build-finisher",
+ "read_at": "45049878",
+ "would_read_on": {
+  "09-nine-hours-with-nobody-starting-work": "maybe",
+  "20-sessions-end": "yes",
+  "21-the-second-factory": "maybe"
+ },
+ "findings": [
+  {"file": "09-nine-hours-with-nobody-starting-work.md", "line": 24, "quote": "The designer wrote a third note. Dev built the designer's first.", "principle": "7", "severity": "should", "why": "A run of short sentences with unexplained names (dev, deck, ruv-sgit, wake) reads as a log, and a newcomer cannot tell who does what."},
+  {"file": "09-nine-hours-with-nobody-starting-work.md", "line": 48, "quote": "Hour seven opened with the night's failure coming round a third time.", "principle": "1", "severity": "could", "why": "The narrator reports what the record shows in the third person of events, with no I and no hindsight about why it matters."},
+  {"file": "09-nine-hours-with-nobody-starting-work.md", "line": 48, "quote": "None of the values was a key, an account credential, a vault key or a personal detail.", "principle": "reader", "severity": "should", "why": "I have not been told what a vault key is or what was captured, so this sounds alarming and then is left unexplained."},
+  {"file": "09-nine-hours-with-nobody-starting-work.md", "line": 71, "quote": "Three rounds, one picture, and I started none of them.", "principle": "21", "severity": "could", "why": "It restates the three rounds the paragraph and the figure have just shown, as a triad."},
+  {"file": "09-nine-hours-with-nobody-starting-work.md", "line": 127, "quote": "put a check into the gate that fails any text size off the scale", "principle": "reader", "severity": "should", "why": "Gate, type scale and check are used without explanation, and the paragraph packs two events into one block that I skim."},
+  {"file": "09-nine-hours-with-nobody-starting-work.md", "line": 149, "quote": "A piece marked ready for me, then another. A list of what waits on me, refreshed every hour.", "principle": "7", "severity": "should", "why": "Fragments stacked on one another where one sentence could carry the thought of the queue piling up."},
+  {"file": "09-nine-hours-with-nobody-starting-work.md", "line": 180, "quote": "Nine hours. Every wake started by the clock. Every wake with its five stages.", "principle": "21", "severity": "should", "why": "The closing recap tells the whole chapter a second time in clipped sentences, and I would rather be told what it means for me."},
+  {"file": "09-nine-hours-with-nobody-starting-work.md", "line": 188, "quote": "the temptation is to start asking straight away", "principle": "6", "severity": "could", "why": "It assigns me a temptation, and the card never says what I should actually read or do, which is the step I was looking for."},
+  {"file": "20-sessions-end.md", "line": 39, "quote": "This is this book's conductor, not the talk's, and this book's storyteller and researcher too", "principle": "reader", "severity": "must", "why": "Two teams, two conductors and two storytellers in one sentence is where a reader with no background loses the thread; a plain one-line orientation is needed before this scene."},
+  {"file": "20-sessions-end.md", "line": 45, "quote": "who it was, where its files are, what it was in the middle of, and the first things to do", "principle": "21", "severity": "should", "why": "The handover's contents are listed here and then walked through again heading by heading under the next section."},
+  {"file": "20-sessions-end.md", "line": 47, "quote": "a new session makes and publishes its own ... and never copies a private half across.", "principle": "reader", "severity": "should", "why": "Key, public key and private half arrive with no word on what the key is for, so the point of the line is lost on someone new."},
+  {"file": "21-the-second-factory.md", "line": 19, "quote": "Hey, I'm the librarian. The index of the source.", "principle": "reader", "severity": "should", "why": "Twelve near-identical self-introductions in a row is a wall I would skim, and I could not tell which two or three matter for starting out."},
+  {"file": "21-the-second-factory.md", "line": 82, "quote": "An early draft of the 30-page edition's chapter 1", "principle": "reader", "severity": "should", "why": "Editions and draft numbering are not explained, so the first failure begins with a reference I cannot place."},
+  {"file": "21-the-second-factory.md", "line": 116, "quote": "when it merged dev's work, the page that came out was dev's, word for word", "principle": "reader", "severity": "should", "why": "The third failure depends on merges, parents and commit order, which a non-coder cannot follow in one long paragraph."},
+  {"file": "21-the-second-factory.md", "line": 132, "quote": "rebuilding it from its parts and its record will show you what the record was missing", "principle": "reader", "severity": "could", "why": "Good idea, but for someone with one finished app it does not say what the parts or the record would be."}
+ ],
+ "what_holds": [
+  "09-nine-hours-with-nobody-starting-work.md: the partial wake that says so, and the empty queue with the maker waiting on the editor, make the idea of an unattended team feel real and checkable.",
+  "20-sessions-end.md: the distinction between a member and a session, and the handover read out section by section, is something I could copy tomorrow for my own project.",
+  "21-the-second-factory.md: 'You do not need all of these to start' answers my question directly, and the failures kept in at full size build trust."
+ ],
+ "notes": "As a first-build finisher I wanted the next step I can take; chapter 20 gives it (a handover and a debrief), chapters 9 and 21 mostly show the team's insides. Words used before explained: wake, gate, session (explained in 20 only), debrief, vault key, factory (after ch 2 presumably)."
+}
