@@ -74,9 +74,11 @@
 
 `%% for the editor: the factory paragraphs are the newsroom journalist's rewrite (part one, section 6), close to its words, its unregistered facts held out; his to keep or change.`
 
-## Do this now
+## Something to try
 
-*Write down the one idea you want somebody to understand, and what they should be able to do after. That sentence is your first brief. Working with others? Write it together, and keep one copy everyone can see.*
+*Everything in this book started from one sentence: what I wanted the room to understand, and what they should be able to do afterwards. If you write yours down, you already have your first brief. If others are working with you, it helps to write it together and keep it where everyone can see it.*
+
+`%% record: team/conductor/from-newsroom/2026-11-04__do-this-now-as-invitations.md (chapter 2, the proposed card); chapter-plan/cast/cast-guide.md (page conventions 1)`
 
 ---
 

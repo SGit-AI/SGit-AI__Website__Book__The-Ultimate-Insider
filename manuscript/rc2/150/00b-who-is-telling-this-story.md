@@ -16,7 +16,7 @@
 
 **Narrator.** There is one more thing I want you to see as you read. This book is being made the same way the talk was. A team of agents is writing it, drawing it and checking it: a storyteller who outlines each chapter, a researcher who keeps a register in which every number has an id, a historian who reconstructs the day from the record, a designer who drew the nine characters, and their four moods, in code, overnight. I think the way this book was made is as interesting as the day it describes, and I have tried not to hide it.
 
-`%% record: C117 (the nine, four moods each, drawn by a script overnight, about three and three-quarter hours; this book's record)`
+`%% record: C122 (the book team's roles, as their own pages of rules state them; this book's record) C117 (the nine, four moods each, drawn by a script overnight, about three and three-quarter hours; this book's record)`
 
 **Narrator.** I wanted this to be a creative book, not only a correct one. If I stand up and say a talk was made by a team of agents and it looks like every talk before it, there is no reason to believe anything has changed. A book is the same. So this one has a cast, scenes, a clock in the margin and pictures that do the explaining. And it has me, saying what I think. Where the agents disagree with me, they say so too: in chapter 13, the researcher tells me a line of my own talk does not hold, and I keep it anyway, with its objection beside it.
 

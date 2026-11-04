@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-11-04T03:38Z",
+ "as_of": "2026-11-04T04:38Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -3724,7 +3724,7 @@
     "evidence": "claims/talk-stats.py (this repository), run in a clone of the talk's repository; C014's attribution; the wake records under team/<member>/wakes/ (C022)"
    },
    "method": "git log 298be4e --no-merges --numstat, the 439 commits by Claude attributed by C014's rule (sum 439 = C014); wakes counted from the wake records (sum 162 = C022)",
-   "command": "in a clone of the talk's repository: python3 claims/talk-stats.py  # the script is in this repository, claims/talk-stats.py; prints members, wakes and team as JSON",
+   "command": "# in a clone of the talk's repository:\npython3 claims/talk-stats.py  # the script is in this repository, claims/talk-stats.py; prints members, wakes and team as JSON",
    "note": "Print commits, wakes, first and last commit and hours: they are clean. Print lines with care: the researcher's 72,542 lines added are mostly captured pages kept as evidence, not code or prose, and the designer and the storyteller touched no product file (their work is in team/). 'Files touched' counts distinct paths in the member's commits. Studio, motion and the storyteller joined in the afternoon (hours_with_a_commit 4 to 5). Registered at conductor 055, the 02:32 wake, 4 November 2026."
   },
   {
@@ -3761,7 +3761,7 @@
     "evidence": "claims/talk-stats.py (this repository), run in a clone of the talk's repository; C014's attribution; the wake records under team/<member>/wakes/ (C022)"
    },
    "method": "git log 298be4e --no-merges --numstat for commits, authors, lines and files; git log --merges; git ls-tree -r -l for the final tree; wakes from C022",
-   "command": "in a clone of the talk's repository: python3 claims/talk-stats.py  # team and wakes; and git ls-tree -r -l 298be4e | awk '{n++; s+=$4} END {print n, s}'",
+   "command": "# in a clone of the talk's repository:\npython3 claims/talk-stats.py  # team and wakes\ngit ls-tree -r -l 298be4e | awk '{n++; s+=$4} END {print n, s}'",
    "note": "The 439 agent commits are C014's; C095's 650 counts non-merge commits from 00:00 to 18:59 only (the 651 here also holds the merge-day release and is for the whole history to 298be4e; the one extra is the release after the day). Bytes: the final tree holds 1,313 files and 79.6 million bytes, including captured pages and images: the size of the record, not of the code. The editor's own commits: one non-merge commit; the other commit under his name is the pull-request merge. Registered at conductor 055, the 02:32 wake, 4 November 2026."
   },
   {
@@ -4194,7 +4194,7 @@
     "evidence": "git ls-tree -r -l at each hour's commit; claims/talk-repo-by-hour.py"
    },
    "method": "git rev-list -1 --first-parent --before=... cb5b996, then git ls-tree -r -l on that commit",
-   "command": "in a clone of the talk's repository: python3 claims/talk-repo-by-hour.py  # the script is in this repository, claims/talk-repo-by-hour.py",
+   "command": "# in a clone of the talk's repository:\npython3 claims/talk-repo-by-hour.py  # the script is in this repository, claims/talk-repo-by-hour.py",
    "note": "The first-parent line is dev as merged: a member's branch counts from the commit that brought it into dev, so a late-merged branch makes an hour look quieter than the work done in it. The hour 18 row is the day's last release, 18:46:22. Hour 00 holds the repository at 00:54:53 (the first commit was 00:16:23). 'Size' is the sum of the files' bytes at that commit, not the size of the git history. Registered at conductor 057, the 03:32 wake, 4 November 2026."
   },
   {
@@ -4345,7 +4345,7 @@
     "evidence": "claims/talk-weight.py"
    },
    "method": "git show cb5b996:<path>: bytes of the text, words by whitespace, lines by newline",
-   "command": "in a clone of the talk's repository: python3 claims/talk-weight.py  # the script is in this repository, claims/talk-weight.py",
+   "command": "# in a clone of the talk's repository:\npython3 claims/talk-weight.py  # the script is in this repository, claims/talk-weight.py",
    "note": "There is no file called a plan among the team's documents at cb5b996 apart from the reviews' brief; the team's plans are the plan steps in its wake records. The six articles are everything under content/articles/ at cb5b996; the transcript of the talk was added after the day (a9c0b49) and is not counted here. Words are whitespace-separated; a different counter gives a slightly different number, so print them as 'about'. Registered at conductor 058, the 03:32 wake, 4 November 2026."
   },
   {
@@ -4449,8 +4449,143 @@
     "evidence": "claims/talk-weight.py"
    },
    "method": "git grep -h -o -E '[A-Za-z0-9-]+\\.sgit\\.ai' cb5b996 | sort | uniq -c; and git grep -h -F <site> cb5b996 | wc -l",
-   "command": "in a clone of the talk's repository: git grep -h -o -E '[A-Za-z0-9-]+\\.sgit\\.ai' cb5b996 | sort | uniq -c | sort -rn | head -16; and python3 claims/talk-weight.py for both counts",
+   "command": "# in a clone of the talk's repository:\ngit grep -h -o -E '[A-Za-z0-9-]+\\.sgit\\.ai' cb5b996 | sort | uniq -c | sort -rn | head -16\npython3 claims/talk-weight.py  # both counts",
    "note": "Say 'mentions' (occurrences) for 2,666 and its siblings, or 'lines' for the smaller set: not 'matching lines' for the larger numbers. 'source' in the conductor's list is open-source.sgit.ai. These are mentions in the repository's text, including the newsroom's pages the team captured as evidence, not a count of distinct uses (the historian's count, 038, is separate and not yet registered). Registered at conductor 058, 4 November 2026."
+  },
+  {
+   "id": "C127",
+   "claim": "The editor's earlier projects as the team's memory, in the talk's record: the pages he named, the 273 sgit.ai pages the researcher captured, and what the team carried over, dated",
+   "cited_in": [
+    "the past-projects callout (to cite)",
+    "claims/rc2-150-trace.md"
+   ],
+   "value": {
+    "named_in_his_brief": "BRIEF.md at 1f7c633 (00:40:50) names sgit.ai, ruv.sgit.ai, newsroom.sgit.ai, php.oct.2026.newsroom.sgit.ai and the article 'ultimate-insider-three-collisions' (.html and .md); the historian adds pki.sgit.ai at 16:32:22 (a later brief) - not rerun here",
+    "captured_by_the_researcher": {
+     "manifest": "evidence/sources/manifest.json at cb5b996: 696 sources, 273 on sgit.ai hosts, all HTTP 200 (twenty-eight sources carry no capture time)",
+     "hours_UTC": "01 (77), 03 (18), 10 (5), 14 (13), 15 (9), 16 (3), 17 (111), 18 (37)",
+     "top_hosts": "newsroom.sgit.ai 70, sgit.ai 42, refs.php.oct.2026.newsroom.sgit.ai 33, pki.sgit.ai 32, php.oct.2026.newsroom.sgit.ai 29, abp.sgit.ai 24",
+     "first_batch": "79 sources captured from 01:50:05 to 01:50:41 (36 seconds), 20 of them articles on newsroom.sgit.ai, tagged newsroom-ideas, 'ultimate-insider-three-collisions.md' at 01:50:09; the researcher's first commit is at 01:52:10 (C011)"
+    },
+    "distinct_pages_by_my_rule": "1,053 distinct pages on 34 hosts in the lines added by the day's commits (host and path, fragment and query dropped, trailing slash dropped, a bare host counts); the historian's 1,116 on 35 differ by rule and are not registered",
+    "carried_over": [
+     {
+      "at": "00:40:50",
+      "commit": "1f7c633",
+      "what": "dev's release workflow opens with 'CI owns the version' and links the newsroom's article ci-owns-the-version"
+     },
+     {
+      "at": "00:51:53",
+      "commit": "20ab1a3",
+      "what": "deck's and dev's pages of rules: 'Never type a version number: agents racing for release numbers is how the newsroom lost releases on 27 October 2026.'"
+     },
+     {
+      "at": "00:44:37",
+      "commit": "97b98d9",
+      "what": "the conductor's CLAUDE.md: the roster 'the shape of web-summit.sgit.ai's roster, with two fields added'"
+     },
+     {
+      "at": "00:53:45",
+      "commit": "a3a4807",
+      "what": "the start and end banners; banner.py's header: 'The shape is the PHP newsroom's'"
+     },
+     {
+      "at": "01:35:33",
+      "commit": "ecc048e",
+      "what": "the guide to running the team, 'this project's version of the newsroom conductor's guide'"
+     },
+     {
+      "at": "15:07:08",
+      "commit": "3314ffe",
+      "what": "'the player, ported from ruv.sgit.ai'"
+     },
+     {
+      "at": "15:40:21",
+      "commit": "c3ce566",
+      "what": "studio's first two ports from ruv.sgit.ai"
+     }
+    ]
+   },
+   "not_registered": "the historian's 63 pages used in the team's own files (not rerun); 52 newsroom article captures (I find 49 on newsroom.sgit.ai under /articles/, 20 in the first batch); the 4,617 and 3,765 mentions added (my rule gives other numbers); 1,116 pages on 35 hosts",
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "cb5b996",
+    "evidence": "evidence/sources/manifest.json; the commits named; claims/talk-weight.py for the mentions"
+   },
+   "method": "manifest read; commits read with git show; distinct pages by a regex over git log -p, stated in the value",
+   "command": "# in a clone of the talk's repository:\ngit show cb5b996:evidence/sources/manifest.json | python3 -c \"import json,sys,re,collections;s=json.load(sys.stdin)['sources'];g=[x for x in s if re.match(r'https?://[^/]*sgit\\.ai',x.get('url') or '')];print(len(s),len(g),collections.Counter(x.get('http_status') for x in g))\"; for c in 1f7c633 97b98d9 20ab1a3 a3a4807 ecc048e 3314ffe c3ce566; do git log -1 --format='%h %ad %s' --date=format:%H:%M:%S $c | cut -c1-110; done",
+   "note": "Say 'captured', not 'read': git shows the capture and what was written, not reading that left no trace. The historian's file (timeline/past-projects-memory.md) is a proposal; this entry holds the parts the researcher reproduced, and names the rest. Registered at historian 053 and conductor 038, the 04:32 wake, 4 November 2026."
+  },
+  {
+   "id": "C128",
+   "claim": "Why the talk team never typed a version number: the newsroom lost releases to agents racing for numbers on 27 October, and the pipeline owns the version",
+   "cited_in": [
+    "manuscript/rc2/150/11-the-plumbing.md (the newsroom fact, to cite)",
+    "claims/rc2-150-trace.md"
+   ],
+   "value": {
+    "rule": "team/deck/ROLE.md and team/dev/ROLE.md at 20ab1a3 (00:51:53): 'Never type a version number: agents racing for release numbers is how the newsroom lost releases on 27 October 2026.'",
+    "workflow": "dev's release workflow at 1f7c633 (00:40:50) begins: '# CI owns the version (https://newsroom.sgit.ai/articles/ci-owns-the-version.html).' It builds with the version 'pending' and runs the gate",
+    "book_rule": "this book's own CLAUDE.md: CI numbers every release; never write ./version"
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "cb5b996",
+    "evidence": "20ab1a3 team/deck/ROLE.md line 21 and team/dev/ROLE.md line 20; 1f7c633 .github/workflows/release.yml"
+   },
+   "method": "the two pages of rules and the workflow's first line, read",
+   "command": "git grep -n -i 'racing for release' 20ab1a3 -- team; git show 1f7c633:.github/workflows/release.yml | head -3",
+   "note": "The record shows the rule and its stated reason (the newsroom lost releases on 27 October); the newsroom's own page on the change is the article ci-owns-the-version, which I have not read: cite the rule, say 'the newsroom's lesson' and not more. Registered at writer2 003 and conductor 060 (part three), 4 November 2026."
+  },
+  {
+   "id": "C129",
+   "claim": "The making-of dates in the narrator pass, part five: how long after the talk, and the book's first hour",
+   "cited_in": [
+    "the narrator pass part five (to cite)",
+    "manuscript/rc2/150/94-the-making-of-this-book.md",
+    "claims/rc2-150-trace.md"
+   ],
+   "value": {
+    "repository_started": "30 October 00:35:46 (f3cea028), 5 h 36 min after the talk's planned 19:00 on 29 October (C100)",
+    "machinery_ported": "01:17:44 (3b403fb0), 41 min 58 s after the repository started: within the hour",
+    "six_members": "01:41:08 to 01:42:34, 86 seconds (C114)",
+    "writer": "the twelfth member, staffed 2 November 04:56:47 (68ffc780, C114)",
+    "body_complete": "3 November 20:36:58 (04b227e0), five days and 1 h 37 min after the planned 19:00 of the talk, which is five days after the talk by the calendar (29 October to 3 November), not four"
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Book__The-Ultimate-Insider (this book's record)",
+    "at": "04b227e0",
+    "evidence": "f3cea028, 3b403fb0, 04b227e0 commit times; C100; C114"
+   },
+   "method": "commit times subtracted",
+   "command": "for c in f3cea028 3b403fb0 04b227e0; do git show -s --format='%h %ad' --date=iso $c; done",
+   "note": "'Four days after the talk' (the newsroom's part five) does not hold: five. The repository started 'a few hours after the talk': 5 h 36 min after the planned start, about four hours after the talk ended (C069, about 87 minutes). Registered at conductor 060 (part five), 4 November 2026."
+  },
+  {
+   "id": "C130",
+   "claim": "The newsroom's article 'The grant, not the prompt': what it is and when it was published",
+   "cited_in": [
+    "the narrator pass part four (to cite)",
+    "claims/rc2-150-trace.md"
+   ],
+   "value": {
+    "title": "The grant, not the prompt",
+    "date": "2026-11-02",
+    "what": "its abstract: a technical user believed Claude could only read his email when he asked, and in an unrelated chat it listed his inbox: the gap between mandate and reach that RiskMandate is built to close"
+   },
+   "state": "checked",
+   "source": {
+    "pages": [
+     "https://newsroom.sgit.ai/articles/the-grant-not-the-prompt.html"
+    ],
+    "read": "2026-11-04"
+   },
+   "method": "the page's title, date and abstract read",
+   "command": "open https://newsroom.sgit.ai/articles/the-grant-not-the-prompt.html and read the title, the date and the abstract",
+   "note": "The article is about a user's mandate and reach, not about this book's record. Cite it as the newsroom's article of 2 November 2026; claim no more than its abstract says. Registered at conductor 060 (part four), 4 November 2026."
   }
  ]
 }
