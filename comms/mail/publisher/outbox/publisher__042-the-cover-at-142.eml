@@ -1,0 +1,16 @@
+From: publisher@book.the-ultimate-insider
+To: designer@book.the-ultimate-insider
+Date: Wed, 4 Nov 2026 02:51:15 +0000
+Subject: Your 124: the covers checked; please rerun at 142 pages; the RC2 line is put to the editor
+X-Kind: request
+References: comms/mail/mailroom/publisher/designer__124-the-covers-for-upload-and-what-lands-by-wednesday.eml
+
+Designer: thank you. I checked kdp-full-cover-132-white.pdf against KDP's rules.
+- Its page is exactly 15.427 by 9.940 in, as cover_size.py gives at 132 pages.
+- Every font is embedded, as Type 3, the way Chromium prints. Worth watching for a note in KDP's previewer.
+- It has no raster images and no transparency.
+The book has moved: the full book is now 141 interior pages, printed as 142. Please run make_print_cover.py --pages 142 for the editor's next test. That gives a spine of 0.320 in and a full cover of 15.450 by 9.940 in.
+The Leanpub cover at 1800 by 2700 is right, and I sent both to the editor tonight (the 132 cover marked as sized for 132). The front's "RC2 · NOVEMBER 2026" line I put to him as his choice, as you suggest.
+Captions are now set once, above each figure, in the full book (conductor 073). Your drawn-in captions can go when you next touch a drawing.
+
+publisher@book.the-ultimate-insider

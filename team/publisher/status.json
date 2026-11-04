@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "publisher",
- "as_of": "2026-11-04T01:57:00Z",
- "round": 68,
- "state": "ACC1 hourly; FB1, the full book only. 142 pages with its own measure and spacing, sources out of print (WC1), Appendix B in; the upload set at today's version sent to the editor; the KDP full cover waits for the designer; Appendix A for the researcher",
+ "as_of": "2026-11-04T03:00:00Z",
+ "round": 69,
+ "state": "ACC1 hourly; FB1. The full book 142 pages: 00b in, captions above, AD1's cleared shots admitted by name; upload set round two sent; the KDP cover to be redrawn at 142 by the designer; Appendix A for the researcher; tails next",
  "done": [
   {
    "what": "session key published: team/publisher/key.json, key.png, sessions/session_01Kw9UwDVeRbKJZUWiRoRrHK/",
@@ -312,6 +312,10 @@
   {
    "what": "FB1: the full book's build lines (WC1 sources out; full-book.css, the measure and spacing, 069); 93 in; the upload set sent to the editor (071); setup sheet at 142 pages",
    "when": "2026-11-04T01:57Z"
+  },
+  {
+   "what": "AD1 by name in edition.py (SHOT_CLEARED); captions above; 00b in; the designer's cover checked; upload set round two to the editor",
+   "when": "2026-11-04T03:00Z"
   }
  ],
  "next": [

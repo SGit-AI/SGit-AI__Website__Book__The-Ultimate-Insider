@@ -77,6 +77,10 @@ LAB_SVG = re.compile(r"\b(?:lab/[A-Za-z0-9_./-]+\.svg|index/talk-site/shots/[A-Z
 SHOTS = "index/talk-site/shots/"
 SHOT_OK = re.compile(r"(?:slide|talk|studio|articles|ruv-sgit|index|motion)[A-Za-z0-9_.-]*\.(?:jpg|png)$")  # security, 3 Nov 2026
 SHOT_NEVER = re.compile(r"admin__|qr|key|vault", re.I)
+SHOT_CLEARED = {  # cleared by name by security, admitted before SHOT_NEVER and SHOT_OK (AD1, the editor, 4 November 2026;
+    "admin.jpg", "admin__dashboard.jpg", "admin__keys.jpg", "admin__vaults.jpg",  # security__014 to the publisher
+    "book-site-front.jpg",  # security__013
+}  # conductor__074: by name only, never by pattern
 UNSAFE_SVG = re.compile(r"<script|<foreignObject|\bon[a-z]+\s*=|@import|url\((?!\s*['\"]?#)"
                         r"|<(?:animate|animateMotion|animateTransform|set)\b|\\[0-9a-f]", re.I)  # SMIL, CSS escapes
 HREF = re.compile(r"""\b(?:xlink:)?href\s*=\s*(["'])(.*?)\1""", re.I | re.S)
@@ -113,7 +117,7 @@ def lab_drawing(path):
     full = os.path.normpath(os.path.join(ROOT, path))
     if path.startswith(SHOTS):  # the librarian's screenshots of the talk's site: only the named kinds, never a key
         name = path[len(SHOTS):]
-        if "/" in name or ".." in name or SHOT_NEVER.search(name) or not SHOT_OK.match(name):
+        if "/" in name or ".." in name or (name not in SHOT_CLEARED and (SHOT_NEVER.search(name) or not SHOT_OK.match(name))):
             print(f"edition: not placed, a screenshot outside the cleared kinds (security, 3 November): {path}",
                   file=sys.stderr)
             return None
