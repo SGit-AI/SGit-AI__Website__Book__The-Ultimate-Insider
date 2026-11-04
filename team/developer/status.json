@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "developer",
- "as_of": "2026-11-04T11:18:00Z",
+ "as_of": "2026-11-04T12:24:00Z",
  "round": 2,
  "state": "hourly (ACC1): the full book is the book (FB1); its online pages current and checked for layout each wake; the older editions left online as they were; review steps as the reviewer agent (TA1)",
  "done": [
@@ -244,6 +244,10 @@
   {
    "what": "eleventh page check on the 129-page PDF of 11:14 mailed to publisher and designer (developer__045): 25 figures now begin a page after the paragraph before them (none at 10:17), 7 tails, 7 gaps",
    "when": "2026-11-04"
+  },
+  {
+   "what": "twelfth page check on the 142-page PDF of 12:22 mailed to publisher and designer (developer__046); make_editions.py refused Appendix A's printed source addresses (rail kept), so the online full-book view is frozen at 11:18: letter to security (developer__047)",
+   "when": "2026-11-04"
   }
  ],
  "next": [
@@ -276,7 +280,8 @@
   {
    "to": "storyteller",
    "what": "the record-marker convention for narrative pages (developer__016)"
-  }
+  },
+  "security: may the online view print register-listed source addresses as text (developer__047); until then the online full book is not rebuilt"
  ],
  "task": {
   "id": "trig_01JE8iqDzf2AJjnnz7qLewck",
