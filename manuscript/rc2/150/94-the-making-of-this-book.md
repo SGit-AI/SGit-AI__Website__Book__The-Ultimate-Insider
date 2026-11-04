@@ -4,19 +4,19 @@
 
 **Narrator.** I promised at the start that this book was made the same way as the talk, and here is how.
 
-**Narrator.** It started a few hours after the talk, in a new, empty repository, with the talk team's machinery copied in, rule for rule, within the hour. The conductor came first. Within two minutes of each other, six more joined, each in its own session, each with its own key; you met them, and the ones who came after, in chapter 21. Before the others arrived, the conductor had written the hand-off to a second team that would read the talk cold, the only thing that ever crossed to it. The first job of the rest was to read the first factory's record.
+**Narrator.** It started a few hours after the talk, in a new, empty repository, with the talk team's machinery copied in within the hour: its rules, its build and its check, rule for rule. The conductor came first. Within two minutes of each other, six more joined, each in its own session (its own run of an agent) and with its own key; you met them, and the ones who came after, in chapter 21. Before the others arrived, the conductor had written the hand-off to a second team that would read the talk cold, the only thing that ever crossed to it. The first job of the rest was to read the first factory's record.
 
-**Narrator.** I gave them the plan that same morning, and before noon the first draft was with the publisher. Soon after, the first account I ran them on was nearly out of usage, so every member got a handover and moved to a second account, which is the handover you read in chapter 20.
+**Narrator.** I gave them the plan that morning, and before noon the first draft was with the publisher. Soon after, the first account I ran them on was nearly out of usage, so every member got a handover and moved to a second account, which is the handover you read in chapter 20.
 
-**Narrator.** Then came my review on paper, the editions from one page up to this one, and the failures. A member wrote a hold on its own judgement when the build went red for everyone, and only I lifted it. The team lost an evening to the usage limit, which chapter 21 tells. And the historian made an error, and caught it itself. Five days after the talk, the whole body of the full book was in draft, chapters 1 to 23.
+**Narrator.** Then came my review on paper, the editions of the book from a single page up to this one, and the failures. A member wrote a hold on its own judgement when the check every change must pass started failing for everyone, and only I lifted it. The team lost an evening to the usage limit, which chapter 21 tells. And the historian made an error about which of two pages of rules came first, told the writer, and two chapters stood on it until the historian caught it itself and wrote the correction; chapter 21 tells it in its own words. Five days after the talk, the whole body of the full book was in draft, chapters 1 to 23.
 
-**Narrator.** Every one of those steps is in the book's repository, with its time and its evidence, for anyone who wants to check. I left the times out of this page on purpose.
+**Narrator.** Every one of those steps is in the book's repository, with its time and its evidence, for anyone who wants to check; the times are kept there, not on this page.
 
 `%% Check (the newsroom, part five, the back matter; his to confirm before it prints): "What I want you to take from it is the shape: the same team, the same rules, a different job, and the same record left behind."`
 
-**Figure:** this book's team arriving, drawn like the talk's cast bar but over five days instead of nineteen hours.
+**Figure:** this book's team arriving, drawn like the talk's cast bar but over four days instead of nearly nineteen hours.
 
-`%% figure brief: For the designer. The same visual language as the talk's cast bar (picture idea 3 in the newsroom's part one pass, "the book's own factory"); one mark per member at the day it was staffed, from C131's staffed dates; no key, session or task.`
+`%% figure brief: For the designer. The same visual language as the talk's cast bar (picture idea 3 in the newsroom's part one pass, "the book's own factory"); one mark per member at the day it was staffed, from C131's staffed dates: the twelve of chapter 21, from the conductor on 30 October to the writer on 2 November (four days; with the members of 4 November it would be five, historian__071); no key, session or task.`
 
 `%% record: 30 October: built from the talk's parts, and the plan signed: 00:35:46: The repository's first commit (`f3cea028`)`
 `%% record: 30 October: built from the talk's parts, and the plan signed: 00:46:11: The book's site, on the talk site's build, gate and release pipeline (`79f0eb81`)`
@@ -41,7 +41,7 @@
 `%% record: 2 and 3 November: the writer, RC2, and the full book: 2 November, 15:34:07: RC2 begins on the signed ladder of editions (`4056d2b9`)`
 `%% record: 2 and 3 November: the writer, RC2, and the full book: 2 November, 18:38:06: The researcher's trace refuses a line in chapter 1 (the brake was not an old part) (`fde3fea4`)`
 `%% record: 2 and 3 November: the writer, RC2, and the full book: 2 November, about 21:55: RL1 decided: "Ship something somebody else can use, then do it again" (`book.json` RL1)`
-`%% record: 2 and 3 November: the writer, RC2, and the full book: 3 November, 01:18: ACC1: every member hourly, at its own minute, until the book is done (`book.json` ACC1)`
+`%% record: 2 and 3 November: the writer, RC2, and the full book: 3 November, about 01:15 (his brief), recorded 01:19:42: ACC1: every member hourly, at its own minute, until the book is done (`book.json` ACC1)`
 `%% record: 2 and 3 November: the writer, RC2, and the full book: 3 November, 02:26:47: The historian's letters saying the talk conductor "rewrote" dev's page: an error, two chapters resting on it (`5c4c7d17`)`
 `%% record: 2 and 3 November: the writer, RC2, and the full book: 3 November, 10:06:31: TA1: the review steps run as a read-only reviewer, by tool list (`0dc3f6ef`; `book.json` TA1)`
 `%% record: 2 and 3 November: the writer, RC2, and the full book: 3 November, 11:23:44: The historian corrects its own "rewrote" (the writer sets the chapters right at 11:33:41) (`21e5ad53`; `ffeae66b`)`
