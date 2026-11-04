@@ -79,7 +79,7 @@
 
 ### The brake line, refused and corrected
 
-**Narrator.** The first is a refusal, and it was aimed at a line in this very book, written in my voice. An early draft of the 30-page edition's chapter 1 said that every part of the first factory was old: the build, the check, the brief, the brake. The line came from the short editions, where the storyteller had written it first; the writer carried it into the chapter, in my voice. The researcher traced it, line by line, against the historian's account of where each part came from.
+**Narrator.** The first is a refusal, and it was aimed at a line in this very book, written in my voice. An early draft of the shortest version of this book, its first chapter, said that every part of the first factory was old: the build, the check, the brief, the brake. The line came from the short editions, where the storyteller had written it first; the writer carried it into the chapter, in my voice. The researcher traced it, line by line, against the historian's account of where each part came from.
 
 **Researcher** *(to the writer, by letter)*: The chapter holds, but for the brake. The hold was made that night, with the schedule. It was not an old part.
 

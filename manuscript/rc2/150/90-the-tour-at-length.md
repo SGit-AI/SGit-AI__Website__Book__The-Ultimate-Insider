@@ -4,7 +4,7 @@
 
 **Cast bar:** the nine, greyed. Each lights for a moment as the tour reaches its work.
 
-**Narrator.** At the end of a book about how the factory worked, here is the rest of what it made, for readers who want to walk it. Chapter 3 walked four of these pages: the talk and its player, the dashboard and the hold, every wake and every note, and a member's page. Here are the others, as you can walk them today. At each, one picture, a few lines from me, and one line from the agent that made it.
+**Narrator.** At the end of a book about how the factory worked, here is the rest of what it made, for readers who want to walk it. Chapter 3 walked four of these pages: the talk and its player, the dashboard and the hold, every wake and every note, and a member's page. Here are the others, as you can walk them today. At each, a few lines from me, one line from the agent that made it, and, where I can show it, a picture.
 
 *How to read the scenes:* they are dramatised. The words the agents say are ours, written for this book; the pages are the record's, and you can open every one of them online.
 
@@ -67,7 +67,10 @@
 
 ## Stop 5. The opening slide
 
-`%% figure, held from print (talk__slides__three.jpg not yet cleared by name; asked of security, writer4__012): "Three known problems. One perfect storm.": the opening slide, its circles drawn one at a time.`
+**Figure:** "Three known problems. One perfect storm.": the opening slide, its circles drawn one at a time.
+
+`%% figure brief: the image: index/talk-site/shots/talk__slides__three.jpg, cleared by security by name (security__009).`
+`%% layout: beside`
 
 **Narrator.** The same three circles, drawn in front of the room one by one, so the overlap arrives last.
 
@@ -79,7 +82,10 @@
 
 ## Stop 6. What an agent is, on a slide
 
-`%% figure, held from print (talk__slides__loop.jpg not yet cleared by name; asked of security, writer4__012): "A reasoning engine in a loop, with tools": three boxes on a circle, with its sources named on the slide.`
+**Figure:** "A reasoning engine in a loop, with tools": three boxes on a circle, with its sources named on the slide.
+
+`%% figure brief: the image: index/talk-site/shots/talk__slides__loop.jpg, cleared by security by name (security__009).`
+`%% layout: beside`
 
 **Narrator.** The definition this book uses, on a slide, with the sources it came from printed under it, as the slide names them: Anthropic, December 2024, and Simon Willison, June 2025.
 
@@ -93,7 +99,7 @@
 
 `%% figure, held from print (team.jpg never cleared; only a cropped copy security has read may print): the team page: one card per member, its role, its last wake in a line, and how many paths it may write; each card's key line cropped out.`
 
-**Narrator.** The team, as the site shows it: who does what, and when each last worked. Each card also prints a key fingerprint; the picture here leaves that line out.
+**Narrator.** The team, as the site shows it: who does what, and when each last worked. Each card also prints a key fingerprint, which this book does not show.
 
 **Conductor**: Everyone on one page, and when each of us last did anything. That page is the roll call.
 
@@ -118,7 +124,10 @@
 
 ## Stop 9. The policy review page
 
-`%% figure, held from print (studio-ports__abp-review.jpg carries the page's 'all ten' line the files contradict, C081; a masked copy, or C072's eight of ten, asked of security, writer4__012): the page I used to review each agent's policy, item by item, as a slide.`
+**Figure:** the page I used to review each agent's policy, item by item, as a slide.
+
+`%% figure brief: the image: index/talk-site/shots/studio-ports__abp-review__masked.jpg, cleared by security by name (security__009) (the masked copy: the page's own 'all ten' line is covered, C081).`
+`%% layout: beside`
 
 **Narrator.** You heard me talk over this one in chapter 1. Here it is on its own: each thing the agent asked to be allowed, and my verdict beside it.
 
@@ -130,7 +139,10 @@
 
 ## Stop 10. One action's journey
 
-`%% figure, held from print (studio-ports__journey.jpg not yet cleared by name; asked of security, writer4__012): an agent's request, its policy row, the decision and its receipt, in three acts: allowed, denied, sent to a human.`
+**Figure:** an agent's request, its policy row, the decision and its receipt, in three acts: allowed, denied, sent to a human.
+
+`%% figure brief: the image: index/talk-site/shots/studio-ports__journey.jpg, cleared by security by name (security__009).`
+`%% layout: beside`
 
 **Narrator.** One request, followed through the rules: in the first act it is allowed, in the second refused, in the third passed up to a person to decide. The point is the receipt at the end of each: every decision leaves a record.
 
@@ -142,7 +154,10 @@
 
 ## Stop 11. The night, and the talk, in pictures
 
-`%% figure, held from print (articles__the-night-hour-by-hour.jpg not yet cleared by name; asked of security, writer4__012): the two long articles side by side: the night hour by hour, and the talk as given.`
+**Figure:** the two long articles side by side: the night hour by hour, and the talk as given.
+
+`%% figure brief: the image: index/talk-site/shots/articles__the-night-hour-by-hour.jpg, cleared by security by name (security__009).`
+`%% layout: beside`
 
 **Narrator.** Two long articles with the record in pictures. The first walks the night hour by hour. The second is the talk as I gave it.
 

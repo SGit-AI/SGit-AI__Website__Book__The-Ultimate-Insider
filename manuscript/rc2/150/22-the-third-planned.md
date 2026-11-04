@@ -22,7 +22,7 @@ The brief has one owner, who writes it and changes it. Everyone else reads it, a
 
 The board is read every morning by everyone, before their own agents start. Each person's agents write their work there, so nobody has to ask what anybody else did overnight. It says, for every piece of work, whose it is. And each person's agents start at their own minutes, so two people's agents are not writing at once.
 
-The hold can be pulled by anyone, human or agent. Who may lift it is written down before the first day: the owner of the brief, and one named person when the owner is away.
+The hold can be pulled by anyone, human or agent. Who may lift it is written down before the first day: the owner of the brief, and the conductor when the owner is away.
 
 `%% Check (the newsroom, part five, chapter 22; his to confirm before it prints): "I want that written before the first day, so nobody has to decide it in a hurry." (in place of "Until that is written, nobody lifts it.")`
 
@@ -36,7 +36,7 @@ The hold can be pulled by anyone, human or agent. Who may lift it is written dow
 
 ## What the first two factories say to the third
 
-**Narrator.** Everything in the plan above comes from something the first two factories did, or failed to do. The hold anyone may pull came from the talk's first night. The rule that only one person lifts it came from the talk's own hold and this book's rules. Naming someone for when that person is away is the plan's own addition, from a reader's question about who owns the stop button. The board read every morning came from the nine hours in which I started nothing and the team still knew what everyone had done. One owner for the brief came from the brief that was wrong in places and was never corrected.
+**Narrator.** Everything in the plan above comes from something the first two factories did, or failed to do. The hold anyone may pull came from the talk's first night. The rule that only one person lifts it came from the talk's own hold and this book's rules. That the conductor lifts it when that person is away is the plan's own answer to a reader's question about who owns the stop button. The board read every morning came from the nine hours in which I started nothing and the team still knew what everyone had done. One owner for the brief came from the brief that was wrong in places and was never corrected.
 
 **Narrator.** None of that proves the plan will work. It only says where each part of it was learned.
 
