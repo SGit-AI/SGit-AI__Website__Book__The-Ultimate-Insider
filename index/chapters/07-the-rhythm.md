@@ -18,4 +18,4 @@ From the chapter's `## Where this came from` in `manuscript/rc2/70/07-the-rhythm
 
 ## Commits named (5)
 
-`78b89b9`, `eefc1d3`, `19e7f2d`, `56c680b`, `09317d9`
+`78b89b9`, `cf52cda`, `eefc1d3`, `8012b00`, `19e7f2d`

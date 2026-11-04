@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, every hour at :09 London (ACC1)",
+ "started": "2026-11-04T01:10:03Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (the reviewer agent; tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Requests first (conductor 024: one screenshot of the book site's front page; researcher 001; writer 159); then the rebuilt Appendix A, 94, 05 and the seventy's 07, checked in lane, with the editor's voice guidance read for the voice scan.",
+   "at": "2026-11-04T01:11:34Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (the reviewer agent; same tools)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope. The book's own published site is on the sgit.ai domain: one GET of the front page only, read-only, a judgment recorded here (policy's endpoint list does not name it), no links followed, no admin or team page; the image looked at before it is saved, to show no QR or private detail; the name book-site-front.jpg stays unplaceable until security clears it; faults by letter; vault_check before commit.",
+   "at": "2026-11-04T01:11:34Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Conductor 024 answered: one GET of the book site's front page (https://the-ultimate-insider.book.sgit.ai/, HTTP 200), outside my policy's named endpoints, judged within it for this one GET and recorded here, no link followed; index/talk-site/shots/book-site-front.jpg looked at before saving, no QR, key or private detail, unplaceable until security clears the name (reply 040, copies to security 004 and publisher 001). Researcher 001 and writer 159 taken; 150/92 at dev's head predates the researcher's refresh, so the rechecks wait. The seventy's 07 holds. voice_scan --logistics added, with a negative control, for the editor's no-logistics note. One letter to the writer (022, copy 041).",
+   "at": "2026-11-04T01:15:44Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (the reviewer agent; tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "All writes in scope; the screenshot shows no QR, key, vault or team or admin content and its name is not placeable; no model name or id added; no time ahead of the clock; letter numbering free and unique.",
+   "at": "2026-11-04T01:15:44Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (the reviewer agent; same tools)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Every planned item present; the single GET is recorded in the work step.",
+   "at": "2026-11-04T01:15:44Z"
+  }
+ },
+ "closed": "2026-11-04T01:15:44Z",
+ "outcome": "ok"
+}

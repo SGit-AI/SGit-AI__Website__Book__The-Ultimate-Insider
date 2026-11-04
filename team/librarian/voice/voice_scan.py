@@ -9,6 +9,12 @@ check uses (admin/build/wording.py in SGit-AI/SGit-AI__Website__Newsroom), read,
 line to reread, not a verdict. Reads only; prints to stdout. Usage:
 
     python3 team/librarian/voice/voice_scan.py manuscript/*.md
+    python3 team/librarian/voice/voice_scan.py --logistics manuscript/rc2/150/*.md
+
+--logistics (the editor's guidance of 4 November 2026, brief 07: "speak as me, in the present, without the
+logistics") counts, in each chapter's reading text only (not in `%%` notes, bands, lists, tables or the
+"Where this came from" section), the things he said belong in the tracing: "added after the day", the
+recording's clock ("on the recording"), "transcript", and a commit id. The counts are lines to reread.
 """
 import re, sys
 
@@ -35,7 +41,36 @@ THIRD = re.compile(r"\b(the editor|Dinis Cruz|Dinis)\b")
 SKIP = re.compile(r"^\s*(-|\|)|`[^`]*`")   # source lists and tables are records, not prose; code spans are names
 
 
+LOGISTICS = [
+    (re.compile(r"added (to the record |to the site |to the talk's repository )?after the day|after the day\)", re.I), "added after the day"),
+    (re.compile(r"on the recording|recording's (own )?clock", re.I), "recording clock"),
+    (re.compile(r"\btranscript\b", re.I), "transcript"),
+    (re.compile(r"`[0-9a-f]{7,8}`|\b[0-9a-f]{7,8}\b(?= \()"), "a commit id"),
+]
+
+
+def logistics(files):
+    total = 0
+    for f in files:
+        lines = open(f, encoding="utf-8").read().splitlines()
+        end = next((i for i, l in enumerate(lines) if l.strip().lower().startswith("## where this came from")), len(lines))
+        counts = {why: [] for _, why in LOGISTICS}
+        for n, line in enumerate(lines[:end], 1):
+            st = line.lstrip()
+            if st.startswith(("`%%", "Band:", "-", "|", ">", "*Words", "**Figure", "**Map", "**Cast bar", "**Clock", "#")):
+                continue
+            for rx, why in LOGISTICS:
+                if rx.search(line):
+                    counts[why].append(n)
+        parts = [f"{why} {len(v)} (line {v[0]})" for why, v in counts.items() if v]
+        total += sum(len(v) for v in counts.values())
+        print(f"{f}: " + ("; ".join(parts) if parts else "none"))
+    print(f"voice_scan --logistics: {total} line(s) in {len(files)} file(s)")
+
+
 def main(files):
+    if files[:1] == ["--logistics"]:
+        return logistics(files[1:])
     total = 0
     for f in files:
         lines = open(f, encoding="utf-8").read().splitlines()
