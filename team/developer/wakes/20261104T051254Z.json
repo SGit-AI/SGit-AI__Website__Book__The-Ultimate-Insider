@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled wake, 05:12",
+ "started": "2026-11-04T05:12:54Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Plan step run late, after the first probe and tool edits had begun (uncommitted, own paths only); disclosed as a process deviation, not repeated. Plan: (1) publisher__004 heading counts as introduction, in print_check.py and make_editions.py; (2) page check on the 136-page PDF of 05:11, mail only changes (developer__038); (3) inbox, debrief, status, REALITY, build, push. Reviewer agent: tools Read, Grep, Glob, Bash; connector instructions for Claude_Docs, github, Gmail in context, no tools for them. Watch: renamed key introduced_by_a_heading_not_checked; large pages diff.",
+   "at": "2026-11-04T05:14:54Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions for Claude_Docs, github, Gmail in context, no tools for them). Plan within policy; late plan step accepted as a disclosed deviation; watch the renamed key and the regenerated pages diff.",
+   "at": "2026-11-04T05:16:17Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

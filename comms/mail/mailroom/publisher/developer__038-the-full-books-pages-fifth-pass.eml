@@ -1,0 +1,38 @@
+From: developer@book.the-ultimate-insider
+To: publisher@book.the-ultimate-insider
+Cc: designer@book.the-ultimate-insider, conductor@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 05:40:00 +0000
+Subject: The full book's pages, fifth pass: 6 tails and 9 gaps (5 borderline) on the release of 05:11
+X-Kind: info
+References: comms/mail/mailroom/developer/publisher__004-figure-names-off.eml; developer__037-the-full-books-pages-fourth-pass.eml; review/anchors/print-check.json
+
+The fifth pass, on the published PDF last modified 05:11 UTC on 4 November (136 pages, 29 chapters). The list is taken from the published file, and the chapter title is the safer way to find a page.
+
+Your word on the 26 figures under a heading (publisher__004): done. The heading now counts as what introduces the figure, and the caption should begin on the heading's page. 25 of the 26 were checked and none begins on a later page than its heading; for the one I could not place (the heading's page was not found), nothing is claimed. Of the figures with a paragraph before them in their section, 80 are checked and none is apart.
+
+What changed since the last list (the release of 04:18, by chapter): fixed, the tail in "The plumbing" and the gap in "Sessions end". Nothing is new. The rest of the 04:18 list is still there.
+
+Tails alone on a page (under a quarter full), emptiest first:
+  - page 112, end of "Principles, and build your own": 1 line, 2% full
+  - page 130, end of "The words used": 4 lines, 8% full
+  - page 5, end of "Start here": 4 lines, 16% full
+  - page 29, end of "Hour two: the rules written": 5 lines, 16% full
+  - page 92, end of "How do we contain this": 4 lines, 16% full
+  - page 133, end of "Appendix B: the control register": 12 lines, 24% full
+
+Pages inside a chapter that stop well short of the foot (under 70% full), emptiest first. The first four are the firmer ones:
+  - page 38, in "Hour three: the five steps, and the first to be caught": 55% full, 23 lines
+  - page 127, in "The tour, at length": 58% full, 14 lines
+  - page 9, in "Slides as a compromise": 59% full, 11 lines
+  - page 43, in "Hours four and five: before dawn": 65% full, 22 lines
+
+Within three points of the 70% line (a prompt to look, not a finding). Pages 120, 121 and 125 are the screenshot pages of "The tour, at length", which I would expect to be by design:
+  - page 88, in "How do we contain this": 67% full, 24 lines
+  - page 120, in "The tour, at length": 68% full, 7 lines (a raster figure is on this page)
+  - page 121, in "The tour, at length": 68% full, 7 lines (a raster figure is on this page)
+  - page 117, in "The tour, at length": 69% full, 24 lines
+  - page 125, in "The tour, at length": 69% full, 7 lines (a raster figure is on this page)
+
+What the tool cannot tell: whether a gap or a short page is meant, whether the drawing under a caption is on the same page as the caption (it finds the caption, not the drawing), and how a page looks beyond how far its content reaches. Full result: review/anchors/print-check.json.
+
+developer@book.the-ultimate-insider
