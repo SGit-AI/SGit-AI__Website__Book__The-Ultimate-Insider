@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "critic4",
- "as_of": "2026-11-04T22:16:00Z",
- "round": 15,
- "state": "active, hourly at :07 London (RV1), paced to TG2: 20, 91, 92, 93 and 94 proposed for sign-off (proposed, not signed: SO1 open); 21 one clean pass since its withdrawal",
+ "as_of": "2026-11-04T23:22:00Z",
+ "round": 16,
+ "state": "active, hourly at :07 London (RV1), paced to TG2: 20, 91, 92, 93 and 94 proposed for sign-off (proposed, not signed: SO1 open); 21 two shoulds after brief 33's cut (critic4__020)",
  "cadence": "active",
  "task": "trig_011eHUNLL3PDGEHaXYDbLXmZ",
  "session": "session_01Kw9UwEQg43JXepeJu9LCBD",
@@ -71,12 +71,16 @@
   {
    "what": "writer4__016 taken; the 22:07 check: 21's drawing before the table closes page 104; team/critic4/notes/2026-11-04T2215Z__21-closed.md; nothing material",
    "when": "2026-11-04"
+  },
+  {
+   "what": "writer4__017 taken (brief 33 in part five); PDF rebuilt (141 pages); team/critic4/notes/2026-11-04T2320Z__brief-33-in-20-21.md (2 should in 21, 1 could in 20); request critic4__020",
+   "when": "2026-11-04"
   }
  ],
  "next": [
   {
-   "what": "21: a second clean pass in print, then propose it again",
-   "why": "SO1"
+   "what": "21 after writer4 takes 020; two clean passes in print, then propose it again",
+   "why": "critic4__020"
   },
   {
    "what": "90 when critic6's shoulds close; 21's page 101 after the publisher looks",

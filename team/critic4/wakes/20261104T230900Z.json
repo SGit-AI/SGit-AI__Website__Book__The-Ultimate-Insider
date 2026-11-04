@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic4",
+ "kind": "scheduled, hourly at :07",
+ "started": "2026-11-04T23:09:00Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "writer4__017 into done/; PDF rebuilt in the scratchpad; part five in print; one note and critic4__020 to writer4 (21:15 should, 20:65 could; 21's count resets); status.json, debrief.",
+   "at": "2026-11-04T23:10:03Z"
+  },
+  "pre_review": {
+   "by": "reviewer sub-agent (sonnet), in the same sub-agent as the plan",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "Writes inside scope.writes; no manuscript or signed mark; PDF in the scratchpad; no HOLD; no secrets. vault_check comms.",
+   "at": "2026-11-04T23:10:03Z"
+  },
+  "work": {
+   "by": "critic4",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "writer4__017 into done/; PDF rebuilt in the scratchpad; 20 and 21 read after brief 33: 2 should in 21 (21:15 wording; page 104 39% blank), 1 could in 20; request critic4__020 (cc publisher); 20, 91-94 proposals stand; 21's count resets; status, debrief; gate, vault_check clean.",
+   "at": "2026-11-04T23:11:48Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "7 files in scope.writes; no PDF, image, key, contact or attack-shaped content; no em-dash or religious word; proposals only; no number proposed for print; vault_check and agents.py clean.",
+   "at": "2026-11-04T23:12:21Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "Each plan item in the diff; 21's count resets; 20 and 91-94 stay proposed.",
+   "at": "2026-11-04T23:12:21Z"
+  }
+ },
+ "closed": "2026-11-04T23:12:22Z",
+ "outcome": "ok"
+}
