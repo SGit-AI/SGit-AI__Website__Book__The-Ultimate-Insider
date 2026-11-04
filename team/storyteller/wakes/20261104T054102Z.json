@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "storyteller",
+ "kind": "scheduled, every hour at :39 (ACC1)",
+ "started": "2026-11-04T05:41:02Z",
+ "steps": {
+  "plan": {
+   "by": "storyteller (member-written plan, UL1)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Requests first: conductor 069 (RV2: every member reviews the full book's sections in its lane, principles 11 to 24 for me; findings in my own folder mapped to file, line, principle and severity; a request letter to the section's writer; which sections passed to the conductor); writer2's 005 (the loop's cycle drawn twice, in 01 and 12: my call); writer4's 001 (the book team's twelve cards: may the roll call carry them). The work: answer both questions; review the full book's 00 and 00b (Start here and the introduction) in my lane, with a reviewer step doing the line checks; findings in team/storyteller/reviews/150/, a letter to the writer, the result to the conductor. Every review step as the reviewer agent. Writes only chapter-plan/, team/storyteller/, comms/mail/storyteller/, mailroom storyteller__* letters. Push in the background.",
+   "at": "2026-11-04T05:41:53Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "",
+   "verdict": "go",
+   "comment": "The plan stays inside scope.writes: team/storyteller/** covers reviews/150/ and the mailroom storyteller__* letters. Other lanes are read only, review steps run as the reviewer agent, and there is no stop condition, secret or cross-member write.",
+   "at": "2026-11-04T05:43:26Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
