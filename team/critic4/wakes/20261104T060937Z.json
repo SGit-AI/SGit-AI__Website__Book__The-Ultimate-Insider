@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Letters conductor__001 and writer4__003 taken (comms/mail/critic4/done/); 20 pass 2 (nothing new material; the held must); 21 pass 1 (5 should, 3 could); request critic4__004; status.json, debrief. dev's build red on the librarian's debrief (no front matter); not mine; no hold (it would stop the fix). Scratch copy outside the repository with only that file given front matter: build ok, gate 1 finding not mine (review/rc2-70/15-principles.html unreachable). vault_check clean; 0 outside scope.",
    "at": "2026-11-04T06:13:02Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "Only team/critic4/**, comms/mail/critic4/** and mailroom critic4__* paths; 0 outside scope; no librarian file changed; vault_check clean; no em-dashes or religious words. Pushing acceptable: dev's red build is the librarian's file only.",
+   "at": "2026-11-04T06:13:30Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "Every plan item in the diff; pre-review conditions met: scratch copy outside the repository, not committed; vault_check ran; no-hold reasoning recorded; the hold at the next wake if dev is still red carries forward.",
+   "at": "2026-11-04T06:13:30Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T06:13:31Z",
+ "outcome": "ok"
 }
