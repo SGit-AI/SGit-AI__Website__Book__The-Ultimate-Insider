@@ -125,7 +125,7 @@ def printed_view(ed, name, pp):  # run print_pages.py after make_editions.py has
         body = ''.join(f'<p>{html.escape(t)}</p>' for t in pg['paras'])
         recs = ''.join(record_aside(sc) for sc in pg['recs'])
         secs.append(f'<section class="pg" id="p-{n}" data-pg aria-label="Printed page {n}"><h2>{html.escape(" · ".join(pg["chapters"]))} · printed page {n}</h2>{body}{recs}</section>')
-    what = (f'Each page here is a printed page of the PDF ({pp["pdf_pages"]} pages, built as the release builds it). {pp["found"]} paragraphs were found on their page; '
+    what = (f'Each page here is a printed page of the PDF ({pp["pdf_pages"]} pages, built here as the release builds it; on 4 November this build was a page longer than the published file, so near the end a page number may sit one off). {pp["found"]} paragraphs were found on their page; '
             f'{pp["carried"]} (figures, clock lines, rules) take the page of the one before. Pages with only a cover or a picture are not shown.')
     write_pages(ed, name, secs, what)
     print(f'{ed["edition"]}/pages.html: {len(secs)} printed pages')

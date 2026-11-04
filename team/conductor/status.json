@@ -1,10 +1,18 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "conductor",
-  "as_of": "2026-11-04T02:12:00Z",
+  "as_of": "2026-11-04T02:25:00Z",
   "round": 1,
   "state": "FB1 (4 November): the full book only, toward a printable first pass for first readers and review copies at Web Summit (from 9 November); print files submitted to KDP by Thursday 5 November at the latest. The publisher fixed a fault that shrank every RC2 page to 0.85 (the full book now 133 pages, 9.5 pt as signed, cover to the edge). Open for the editor: LP2 (Leanpub, Git or Upload). Site live at v0.1.623.",
   "done": [
+    {
+      "what": "the editor's notes on the hour chapters routed: storyteller 063 (each hour opened by its character, a day at a glance, agents introduced as they arrive), historian 036 (one line per hour), designer 066 (the day-at-a-glance picture), writer 023",
+      "evidence": "briefs/2026-11-04__in-session/15-the-hours-each-with-its-character.md"
+    },
+    {
+      "what": "the fired copies found and stopped: ten manual fires made blank sessions, none reached dev; members now run at their own hourly minutes only, at the editor's word; thirteen FB1 answers filed; designer 065 (cover at the printed count; the factory picture), researcher 056 (working freeze Wed 20:00 London), publisher 075 (Appendix A may go in), developer 038 (the short editions stay online as they are)",
+      "evidence": "team/conductor/debriefs/2026-11-04__the-fired-copies.md"
+    },
     {
       "what": "AD1 recorded and routed: security 047 (clear each admin shot by name), publisher 074 (admit cleared names), storyteller 062 (the admin section as a stop, introduced early), librarian 027 (full-page shots, tour-material note), designer 064 (an admin collage)",
       "evidence": "briefs/2026-11-04__in-session/14-show-the-admin-pages-and-the-keys.md"
@@ -630,6 +638,10 @@
     {
       "what": "propose to the editor a CLAUDE.md wording for WC1 ('Every chapter ends with where it came from' becomes: every chapter's sources are kept in its record lines; the printed book does not show them)",
       "when": "his sign"
+    },
+    {
+      "what": "for the editor: archive the ten blank copies?; the freeze time (working: Wed 4 Nov 20:00 London); the cover line 'RC2 · NOVEMBER 2026'; LP2; C011, C037, C081, C089 (his brief 13 reading), D12; the upload set on the site (release.yml)",
+      "when": "his call"
     }
   ],
   "asks": [
@@ -663,6 +675,6 @@
       "C10b"
     ]
   },
-  "updated": "2026-11-04T02:12:00Z",
+  "updated": "2026-11-04T02:25:00Z",
   "cadence": "active"
 }

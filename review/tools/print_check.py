@@ -13,6 +13,9 @@
 # information and not as a flag, the pages with a raster figure taller than 45% of the text block (the publisher's own warning). It writes only review/anchors/print-check.json: page numbers, chapter titles, counts
 # and sizes; no text from the PDF and no path. Kept by developer@book.the-ultimate-insider.
 # Run: python3 review/tools/print_check.py [--stats]    (after make_editions.py, so editions.json holds today's chapters)
+#      python3 -I review/tools/print_check.py --pdf FILE  checks a PDF it is given (the release's own, downloaded by hand into a folder of
+#      its own) instead of building one: this container's build was one page longer than CI's on 4 November (141 against 140, from the
+#      same inputs), so page numbers from a local build can sit a page off the published file. The tool itself never fetches anything.
 
 import json, os, re, shutil, subprocess, sys, tempfile
 from collections import Counter
@@ -89,12 +92,21 @@ def chapter_starts(chapters, pages):
     return starts
 
 
-def main(stats):
+def main(stats, given=None):
     data = next(e for e in json.loads((ROOT / 'review' / 'anchors' / 'editions.json').read_text())['editions'] if e['edition'] == SLUG)
     chapters = data['chapters']
     tmp = tempfile.mkdtemp(prefix='print_check_')
     try:
-        pdf = build_pdf(SLUG, tmp, dict(os.environ, TMPDIR=tmp))
+        if given:
+            pdf = Path(given)
+            if not pdf.is_file():
+                sys.exit(f'{pdf}: no such file')
+            created = next((l.split(':', 1)[1].strip() for l in subprocess.run(['pdfinfo', str(pdf)], capture_output=True, text=True).stdout.splitlines()
+                            if l.startswith('CreationDate')), 'unknown')
+            source = f'a PDF given by hand ({pdf.name}, created {created}); its chapters are taken to be today\'s'
+        else:
+            pdf = build_pdf(SLUG, tmp, dict(os.environ, TMPDIR=tmp))
+            source = 'built here as release.yml builds it (this container\'s build may differ from CI\'s by a page or so)'
         if not pdf:
             sys.exit('the full book did not build: nothing checked')
         n, words = read_pdf(pdf)
@@ -103,7 +115,7 @@ def main(stats):
         fills = page_fill(pdf, n, tmp)
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
-    where, _, _ = map_paragraphs(chapters, words)
+    where, found, _, findable = map_paragraphs(chapters, words)
     starts = chapter_starts(chapters, [' '.join(w.split()[:80]) for w in words])               # each page's first words
     big_on = {}
     for p, inch in images:
@@ -155,18 +167,41 @@ def main(stats):
     cannot += ['whether a gap or a short page is meant (a divider, an opener, a page left to a drawing): it measures how far the content reaches',
                'which figure is which in the chapters it could not pair, and the figures drawn as vectors, which pdfimages cannot see: those are judged only by the gaps they leave',
                'how a page looks beyond how far its content reaches']
+    # the list in the order it is read: tails emptiest first, then gap pages emptiest first, then the low-confidence figure separations
+    flags.sort(key=lambda f: ({'chapter_end_spill': 0, 'gap_page': 1, 'figure_apart': 2}[f['kind']], f.get('fill', f['page'])))   # emptiest first
+    # what changed since the last run, by kind and chapter (page numbers move whenever the layout does, so they cannot be compared)
+    since = None
+    if OUT.exists():
+        prev = json.loads(OUT.read_text())
+        a, b = Counter((f['kind'], f['chapter']) for f in prev['flags']), Counter((f['kind'], f['chapter']) for f in flags)
+        row = lambda k, c: {'kind': k, 'chapter': c, 'before': a.get((k, c), 0), 'now': b.get((k, c), 0)}
+        since = {'previous_pdf_pages': prev['pdf_pages'], 'previous_counts': prev['counts'],
+                 'fixed': [row(*key) for key in a if b.get(key, 0) < a[key]],
+                 'new': [row(*key) for key in b if b[key] > a.get(key, 0)],
+                 'remaining': [row(*key) for key in b if key in a and b[key] >= a[key]]}
     result = {'about': 'The full book\'s printed pages checked for pages that may not look right (conductor__036). Written by review/tools/print_check.py: page numbers, chapter titles, counts and sizes only.',
-              'edition': SLUG, 'pdf_pages': n, 'chapters_hash': chapters_hash(book_files(SLUG)),
+              'edition': SLUG, 'source': source, 'pdf_pages': n, 'chapters_hash': chapters_hash(book_files(SLUG)),
               'thresholds': {'spill_fill_below': SPILL_FILL, 'gap_fill_below': GAP_FILL, 'tall_figure_share': LARGE_SHARE, 'figure_inches_at_least': BIG_IMAGE_INCHES},
               'chapters_found': sum(1 for s in starts if s), 'chapters': len(chapters),
-              'counts': dict(Counter(f['kind'] for f in flags)), 'flags': flags, 'raster_figures_over_45_percent_on_pages': tall, 'cannot_tell': cannot}
+              'counts': dict(Counter(f['kind'] for f in flags)), 'flags': flags, 'raster_figures_over_45_percent_on_pages': tall, 'since_last': since, 'cannot_tell': cannot}
+    if findable and found < 0.6 * findable:                             # the figure check leans on the paragraph pages: say so when they are not trustworthy
+        result['cannot_tell'].insert(0, f'paragraph pages could not be matched well ({found} of {findable}), so the figure separations below are not reliable')
+        result['flags'] = [f for f in result['flags'] if f['kind'] != 'figure_apart']
+        result['counts'] = dict(Counter(f['kind'] for f in result['flags']))
+    result['paragraphs_found_on_a_page'] = {'found': found, 'of': findable}
     OUT.write_text(json.dumps(result, indent=1, ensure_ascii=False) + '\n')
     print(f'{n} pages; {len(starts) - starts.count(None)} of {len(chapters)} chapters located; flags: {result["counts"] or "none"}')
     for f in flags:
         print(' ', {k: v for k, v in f.items()})
+    if since:
+        print(f'since the last run ({since["previous_pdf_pages"]} pages, {since["previous_counts"]}):')
+        for name in ('fixed', 'new', 'remaining'):
+            for x in since[name]:
+                print(f'  {name}: {x["kind"]} in "{x["chapter"]}": {x["before"]} -> {x["now"]}')
     for c in cannot:
         print('  cannot tell:', c)
 
 
 if __name__ == '__main__':
-    main('--stats' in sys.argv[1:])
+    args = sys.argv[1:]
+    main('--stats' in args, args[args.index('--pdf') + 1] if '--pdf' in args else None)

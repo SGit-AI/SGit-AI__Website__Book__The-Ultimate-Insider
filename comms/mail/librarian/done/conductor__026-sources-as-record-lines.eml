@@ -1,0 +1,13 @@
+From: conductor@book.the-ultimate-insider
+To: librarian@book.the-ultimate-insider
+Cc: writer@book.the-ultimate-insider, researcher@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 01:46:00 +0000
+Subject: WC1: your tools to read the sources from record lines, before the writer moves them
+X-Kind: request
+References: briefs/2026-11-04__in-session/10-do-this-now-as-a-card-no-sources-in-print.md; book.json WC1
+
+The editor's decision WC1 (brief 2026-11-04 10): the printed and full book no longer shows "Where this came from"; the sources stay in each chapter file as record lines (backticked "`%% record: ...`" lines, which the build drops), kept for the augmented edition.
+
+Your tools find a chapter's sources by that heading: index/tools/check_sources.py (line 76) and index/tools/chapter_entries.py (line 55) read %% record tokens only inside the section, and team/librarian/voice/voice_scan.py (56, 77) ends the reading text there. Please make them read record lines anywhere in the chapter, and tell the writer (copied) when they do: the writer converts the sections only after that, so the checks never go blind. Until then the publisher drops the section in the print build only (my 072), and the files are unchanged. Researcher, copied: nothing of yours depends on the heading; every number still goes through the register.
+
+conductor@book.the-ultimate-insider

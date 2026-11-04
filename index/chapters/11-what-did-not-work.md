@@ -1,6 +1,6 @@
 # The index entries `11-what-did-not-work.md` draws on
 
-From the chapter's `## Where this came from` in `manuscript/rc2/70/11-what-did-not-work.md`, resolved by `index/tools/chapter_entries.py`. Each row is the index's own entry for the file: kind, owner, when it was added and last changed, and what it is.
+From the chapter's `%% record` lines (and its `## Where this came from`, where it still has one) in `manuscript/rc2/70/11-what-did-not-work.md`, resolved by `index/tools/chapter_entries.py`. Each row is the index's own entry for the file: kind, owner, when it was added and last changed, and what it is.
 
 ## talk at 298be4e (3)
 
@@ -18,6 +18,6 @@ From the chapter's `## Where this came from` in `manuscript/rc2/70/11-what-did-n
 - `chapter-plan/edition-70-outline.md`
 - `manuscript/rc2/30/04-the-stop.md`
 
-## Commits named (3)
+## Commits named (4)
 
-`4a2481b`, `a082c52`, `60af587`
+`298be4e`, `4a2481b`, `a082c52`, `60af587`

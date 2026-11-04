@@ -23,20 +23,49 @@ import argparse, fnmatch, json, os, re, subprocess, sys
 PIN = "298be4e"
 TICK = re.compile(r"`([^`\n]+)`")
 
+def record_tokens(note):
+    """The paths, commits and ids a `%% record: ...` note lists. Since WC1 (4 Nov 2026) the notes are the only
+    sources in a chapter, and they carry quoted words and descriptions in parentheses: those are dropped (a
+    parenthesis is a comment, not a source), the rest split on spaces and stripped of punctuation."""
+    text = note.split(":", 1)[-1]
+    out = []
+    comments = text
+    while True:   # a path with an extension inside a parenthesis is still a source: check it, quoted words aside
+        inner = re.findall(r"\(([^()]*)\)", comments)
+        for c in inner:
+            c = re.sub(r"\"[^\"]*\"", " ", c)
+            out += re.findall(r"(?<![\w/.-])[\w.-]+(?:/[\w.*<>-]+)+\.(?:md|json|py|html|eml|jpg|png)\b", c)
+        t = re.sub(r"\([^()]*\)", " ", comments)
+        if t == comments:
+            break
+        comments = t
+    text = comments
+    for t in re.split(r"[;,\s]+", text):
+        t = t.strip("()\"'\u201c\u201d.:")
+        if t.endswith("'s"):
+            t = t[:-2]
+        if t and re.search(r"[A-Za-z0-9]", t) and "$" not in t and not re.fullmatch(r"[0-9.]+", t) \
+                and not re.fullmatch(r"[a-z0-9.-]+\.(com|ai|dev|io|org)(/.*)?", t):
+            out.append(t)
+    return out
+
+
 def tokens(line):
     """The backticked tokens of a line; a `%% record: ...` note (RC2's exact sources, kept out of print) is split
     into the paths, commits and ids it lists."""
     out = []
     for tok in TICK.findall(line):
         if tok.lstrip().startswith("%% record"):
-            out += [t.strip("()") for t in re.split(r"[;,\s]+", tok.split(":", 1)[-1]) if t.strip("()")]
+            out += record_tokens(tok)
         else:
             out.append(tok)
     return out
 
+
 HEX = re.compile(r"^[0-9a-f]{7,40}$")
 REG = re.compile(r"\bC\d{3}\b")
 INLINE = re.compile(r"^\s*\*Where this came from:?\*", re.I)
+RECORD = re.compile(r"^\s*`%% (?:clock )?record\b")   # WC1 (4 Nov 2026): sources are record lines, anywhere in the chapter
 CODE = re.compile(r"^[A-Z][A-Za-z_]*\.[a-z_]+\(?\)?$")   # Class.method: code, not a path
 
 
@@ -76,13 +105,13 @@ def main():
         start = next((i for i, l in enumerate(lines) if l.strip().lower().startswith("## where this came from")), None)
         report = []
         inline = {i for i, l in enumerate(lines) if INLINE.match(l)}   # RC2: a sources line closing each section
-        if start is None and not inline:
-            report.append(("-", "no `## Where this came from` section and no `*Where this came from:*` line"))
+        if start is None and not inline and not any(RECORD.match(l) for l in lines):
+            report.append(("-", "no `## Where this came from` section, no `*Where this came from:*` line and no `%% record` line"))
         for i, line in enumerate(lines):
             for cid in REG.findall(line):
                 if cid not in reg:
                     report.append((i + 1, f"register id {cid} is not in claims/register.json"))
-            if (start is None or i < start) and i not in inline:
+            if (start is None or i < start) and i not in inline and not RECORD.match(line):
                 continue
             ctx = []   # folders of the paths found earlier on this line, nearest first
             for tok in tokens(line):
@@ -97,13 +126,28 @@ def main():
                 found = t
                 if not where and ("<" in t or "*" in t):
                     pat = re.sub(r"<[^>]+>", "*", t)
-                    where = [k for k in sources if any(fnmatch.fnmatchcase(x, pat) or fnmatch.fnmatchcase(x, "*/" + pat) for x in sources[k])]
+                    where = [k for k in sources if any(fnmatch.fnmatchcase(x, pat) or fnmatch.fnmatchcase(x, "*/" + pat) for x in sources[k] | dirs[k])]
+                    found = None
+                if not where:   # WC1 shorthand in record notes: a page of the talk's site, its source folder, a mail's number
+                    for pre in ("src/static/", "src/pages/", "content/"):
+                        cand = pre + (t[:-5] + ".md" if t.endswith(".html") and pre == "content/" else t)
+                        where = [k for k in sources if cand in sources[k] or cand in dirs[k]]
+                        if where:
+                            found = cand
+                            break
+                if not where and re.fullmatch(r"[a-z./-]+__\d{3}", t):   # a letter by its number: security__001
+                    where = [k for k in sources if any(x.startswith(t) for x in sources[k])]
                     found = None
                 for d in ctx if not where else []:
                     where = [k for k in sources if d + "/" + t in sources[k] or d + "/" + t in dirs[k]]
                     if where:
                         found = d + "/" + t
                         break
+                if not where and t.startswith("__"):   # a file name shortened to its tail, beside a path named earlier
+                    tail = {(k, x) for k in sources for x in sources[k] if os.path.basename(x).endswith(t) and os.path.dirname(x) in ctx}
+                    if len(tail) == 1:
+                        where = [next(iter(tail))[0]]
+                        found = next(iter(tail))[1]
                 if not where and "/" not in t:
                     near = {h for h in names.get(t, set()) if os.path.dirname(h[1]) in ctx}
                     hits = near if len(near) == 1 else names.get(t, set())
@@ -117,7 +161,7 @@ def main():
                     ctx = [x for x in (full.rsplit("/", j)[0] for j in range(1, full.count("/") + 1))] + ctx
                 if not where:
                     report.append((i + 1, f"path `{t}` not found in this repository, the talk's or the Cold-Read's"))
-                elif where == ["talk, added after the day"] and "after the day" not in line.lower():
+                elif where == ["talk, added after the day"] and "after the day" not in (line + " " + (lines[i + 1] if i + 1 < len(lines) else "")).lower():
                     report.append((i + 1, f"`{t}` was added after the day: check the chapter says so"))
         problems += len(report)
         print(f"{ch}: {'clean' if not report else str(len(report)) + ' finding(s)'}")

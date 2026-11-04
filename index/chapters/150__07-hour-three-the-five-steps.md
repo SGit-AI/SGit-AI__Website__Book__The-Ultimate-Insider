@@ -1,6 +1,6 @@
 # The index entries `150__07-hour-three-the-five-steps.md` draws on
 
-From the chapter's `## Where this came from` in `manuscript/rc2/150/07-hour-three-the-five-steps.md`, resolved by `index/tools/chapter_entries.py`. Each row is the index's own entry for the file: kind, owner, when it was added and last changed, and what it is.
+From the chapter's `%% record` lines (and its `## Where this came from`, where it still has one) in `manuscript/rc2/150/07-hour-three-the-five-steps.md`, resolved by `index/tools/chapter_entries.py`. Each row is the index's own entry for the file: kind, owner, when it was added and last changed, and what it is.
 
 ## talk at 298be4e (5)
 
@@ -19,6 +19,6 @@ From the chapter's `## Where this came from` in `manuscript/rc2/150/07-hour-thre
 - `chapter-plan/edition-150-outline.md`
 - `manuscript/rc2/70/05-the-clock-and-one-wake.md`
 
-## Commits named (12)
+## Commits named (13)
 
-`8c66751`, `5700bab`, `c8f6f8f`, `99aaf05`, `cf4ca8b`, `0d13c43`, `c81df64`, `75ddb3e`, `79b6709`, `a082c52`, `60af587`, `91772e6`
+`298be4e`, `8c66751`, `5700bab`, `c8f6f8f`, `99aaf05`, `cf4ca8b`, `0d13c43`, `c81df64`, `75ddb3e`, `79b6709`, `a082c52`, `60af587`, `91772e6`

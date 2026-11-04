@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "developer",
- "as_of": "2026-11-04T01:23:00Z",
+ "as_of": "2026-11-04T02:21:00Z",
  "round": 2,
  "state": "hourly (ACC1): the full book is the book (FB1); its online pages current and checked for layout each wake; the older editions left online as they were; review steps as the reviewer agent (TA1)",
  "done": [
@@ -203,6 +203,10 @@
   },
   {
    "what": "FB1 and conductor__036: review/tools/print_check.py, the full book's layout check (5 chapter tails alone, 6 gap pages, 3 low-confidence figure separations; first list to the publisher and designer, developer__032); print_pages.py builds the full book only by default; reply to the conductor on what can land by Wednesday night (developer__033); security__004 answered by adopting 'list the tools you can call' in my briefs",
+   "when": "2026-11-04"
+  },
+  {
+   "what": "the page check on the full book's published PDF (140 pages): 8 tails, 5 gap pages; second list to the publisher and designer (developer__034) and a reply to the publisher (developer__035); print_check.py compares runs and checks a given PDF; a matching bug fixed (938 of 1019 paragraphs lost to a false jump after the publisher's re-layout; bounded search and a floor before a map is written); the local build found a page longer than CI's",
    "when": "2026-11-04"
   }
  ],

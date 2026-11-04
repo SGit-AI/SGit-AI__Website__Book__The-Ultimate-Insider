@@ -10,7 +10,8 @@ earlier on its line, and a bare name among the files in those folders. Writes
 
     python3 index/tools/chapter_entries.py [--talk <talk clone>] manuscript/*.md
 
-With --talk, a file added to the talk's repository after 298be4e (`index/after-the-day.md`) is
+Since WC1 (4 November 2026: no "Where this came from" in the printed book) it also reads every
+`%% record` and `%% clock record` line anywhere in the chapter. With --talk, a file added to the talk's repository after 298be4e (`index/after-the-day.md`) is
 placed too, marked as added after the day. A folder a chapter names is placed as a folder.
 """
 import json, os, re, subprocess, sys
@@ -18,16 +19,44 @@ import json, os, re, subprocess, sys
 HERE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 TICK = re.compile(r"`([^`\n]+)`")
 
+def record_tokens(note):
+    """The paths, commits and ids a `%% record: ...` note lists. Since WC1 (4 Nov 2026) the notes are the only
+    sources in a chapter, and they carry quoted words and descriptions in parentheses: those are dropped (a
+    parenthesis is a comment, not a source), the rest split on spaces and stripped of punctuation."""
+    text = note.split(":", 1)[-1]
+    out = []
+    comments = text
+    while True:   # a path with an extension inside a parenthesis is still a source: check it, quoted words aside
+        inner = re.findall(r"\(([^()]*)\)", comments)
+        for c in inner:
+            c = re.sub(r"\"[^\"]*\"", " ", c)
+            out += re.findall(r"(?<![\w/.-])[\w.-]+(?:/[\w.*<>-]+)+\.(?:md|json|py|html|eml|jpg|png)\b", c)
+        t = re.sub(r"\([^()]*\)", " ", comments)
+        if t == comments:
+            break
+        comments = t
+    text = comments
+    for t in re.split(r"[;,\s]+", text):
+        t = t.strip("()\"'\u201c\u201d.:")
+        if t.endswith("'s"):
+            t = t[:-2]
+        if t and re.search(r"[A-Za-z0-9]", t) and "$" not in t and not re.fullmatch(r"[0-9.]+", t) \
+                and not re.fullmatch(r"[a-z0-9.-]+\.(com|ai|dev|io|org)(/.*)?", t):
+            out.append(t)
+    return out
+
+
 def tokens(line):
     """The backticked tokens of a line; a `%% record: ...` note (RC2's exact sources, kept out of print) is split
     into the paths, commits and ids it lists."""
     out = []
     for tok in TICK.findall(line):
         if tok.lstrip().startswith("%% record"):
-            out += [t.strip("()") for t in re.split(r"[;,\s]+", tok.split(":", 1)[-1]) if t.strip("()")]
+            out += record_tokens(tok)
         else:
             out.append(tok)
     return out
+
 
 HEX = re.compile(r"^[0-9a-f]{7,40}$")
 
@@ -55,7 +84,8 @@ def main():
         start = next((i for i, l in enumerate(lines) if l.strip().lower().startswith("## where this came from")), None)
         found, commits, unresolved = {}, [], []
         inline = [l for l in lines if re.match(r"^\s*\*Where this came from:?\*", l, re.I)]   # RC2's per-section lines
-        for line in (lines[start + 1:] if start is not None else []) + inline:
+        records = [l for l in lines if re.match(r"^\s*`%% (?:clock )?record\b", l)]   # WC1 (4 Nov 2026): record lines, anywhere
+        for line in (lines[start + 1:] if start is not None else []) + inline + records:
             ctx = []
             for tok in tokens(line):
                 t = tok.strip().rstrip("/")
@@ -69,9 +99,24 @@ def main():
                     hit = next(((name, cand) for name, s in sources if cand in s or cand in dirs[name]), None)
                     if hit:
                         break
+                if not hit:   # WC1 shorthand in record notes: a page of the talk's site, or the number of a letter
+                    for pre in ("src/static/", "src/pages/", "content/"):
+                        cand = pre + (t[:-5] + ".md" if t.endswith(".html") and pre == "content/" else t)
+                        hit = next(((name, cand) for name, s in sources if cand in s or cand in dirs[name]), None)
+                        if hit:
+                            break
+                if not hit and re.fullmatch(r"[a-z./-]+__\d{3}", t):   # a letter by its number: security__001
+                    many = [(name, x) for name, s in sources for x in s if x.startswith(t)]
+                    hit = many[0] if len(many) == 1 else None
+                if not hit and t.startswith("__"):   # a file name shortened to its tail, beside a path named earlier
+                    tails = [(name, x) for name, s in sources for x in s if os.path.basename(x).endswith(t) and os.path.dirname(x) in ctx]
+                    hit = tails[0] if len(tails) == 1 else None
                 if not hit and "/" not in t:
                     near = [(name, p) for name, s in sources for p in s if os.path.basename(p) == t and os.path.dirname(p) in ctx]
                     hit = near[0] if len(near) == 1 else None
+                if not hit and "/" not in t:   # a file name that only one file in the three repositories has
+                    only = [(name, x) for name, s in sources for x in s if os.path.basename(x) == t]
+                    hit = only[0] if len(only) == 1 else None
                 if hit:
                     found.setdefault(hit, None)
                     ctx = [hit[1].rsplit("/", j)[0] for j in range(1, hit[1].count("/") + 1)] + ctx
@@ -81,7 +126,7 @@ def main():
         if "/rc2/150/" in ch:   # the 150 reuses the seventy's file names: keep both entries
             name = "150__" + name
         L = [f"# The index entries `{name}` draws on", "",
-             f"From the chapter's `## Where this came from` in `{ch}`, resolved by `index/tools/chapter_entries.py`. "
+             f"From the chapter's `%% record` lines (and its `## Where this came from`, where it still has one) in `{ch}`, resolved by `index/tools/chapter_entries.py`. "
              "Each row is the index's own entry for the file: kind, owner, when it was added and last changed, and what it is.", ""]
         for src, table in sources:
             hits = [p for (s, p) in found if s == src]

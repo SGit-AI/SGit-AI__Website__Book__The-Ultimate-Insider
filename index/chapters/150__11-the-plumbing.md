@@ -1,8 +1,8 @@
 # The index entries `150__11-the-plumbing.md` draws on
 
-From the chapter's `## Where this came from` in `manuscript/rc2/150/11-the-plumbing.md`, resolved by `index/tools/chapter_entries.py`. Each row is the index's own entry for the file: kind, owner, when it was added and last changed, and what it is.
+From the chapter's `%% record` lines (and its `## Where this came from`, where it still has one) in `manuscript/rc2/150/11-the-plumbing.md`, resolved by `index/tools/chapter_entries.py`. Each row is the index's own entry for the file: kind, owner, when it was added and last changed, and what it is.
 
-## talk at 298be4e (8)
+## talk at 298be4e (9)
 
 | Path | Kind | Owner | Added | Last changed | What it is |
 |---|---|---|---|---|---|
@@ -14,15 +14,19 @@ From the chapter's `## Where this came from` in `manuscript/rc2/150/11-the-plumb
 | `team/deck/ROLE.md` | role | deck | `20ab1a3` 2026-10-29 00:51:53 | `02cbd86` 2026-10-29 01:27:10 | deck@the-ultimate-insider |
 | `team/researcher/ROLE.md` | role | researcher | `02cbd86` 2026-10-29 01:27:10 | `01e9ed3` 2026-10-29 01:52:10 | researcher@the-ultimate-insider |
 | `team/dev/debriefs/2026-10-29__the-board.md` | debrief | dev | `24da366` 2026-10-29 01:19:26 | `24da366` 2026-10-29 01:19:26 | The team's branches carried into dev, and the board, read live from the public Issues-FS vault |
+| `team/dev/debriefs` | folder |  | ``  | ``  |  |
 
-## this repository (5)
+## this repository (8)
 
 - `claims/register.json`
 - `index/talk-site/README.md`
 - `comms/mail/writer/done/historian__022-seventy-part-3-and-a-correction.eml`
 - `chapter-plan/edition-150-outline.md`
 - `manuscript/rc2/70/08-the-plumbing.md`
+- `claims/README.md`
+- `manuscript/rc2/150/04-hour-one-the-empty-project.md`
+- `manuscript/rc2/150/05-hour-two-the-rules-written.md`
 
-## Commits named (2)
+## Commits named (4)
 
-`1f7c633`, `24da366`
+`298be4e`, `1f7c633`, `24da366`, `fde3fea`

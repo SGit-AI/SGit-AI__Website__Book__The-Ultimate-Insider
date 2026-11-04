@@ -1,6 +1,6 @@
 # The index entries `01-the-creators-problem.md` draws on
 
-From the chapter's `## Where this came from` in `manuscript/rc2/30/01-the-creators-problem.md`, resolved by `index/tools/chapter_entries.py`. Each row is the index's own entry for the file: kind, owner, when it was added and last changed, and what it is.
+From the chapter's `%% record` lines (and its `## Where this came from`, where it still has one) in `manuscript/rc2/30/01-the-creators-problem.md`, resolved by `index/tools/chapter_entries.py`. Each row is the index's own entry for the file: kind, owner, when it was added and last changed, and what it is.
 
 ## this repository (7)
 
@@ -16,6 +16,6 @@ From the chapter's `## Where this came from` in `manuscript/rc2/30/01-the-creato
 
 - `content/articles/the-talk-as-given.md`
 
-## Commits named (2)
+## Commits named (5)
 
-`a9c0b49`, `09f13d5`
+`a9c0b49`, `5d13d72`, `c9ced4e`, `3314ffe`, `dbd75ad`
