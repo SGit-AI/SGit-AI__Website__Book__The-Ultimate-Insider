@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled wake, 17:12",
+ "started": "2026-11-04T17:14:24Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions for Claude_Docs, github, Gmail in context, no tools for them). Plan: page check on the PDF of 17:13, mail only changes counted from developer__046 (developer__050); try the online-view builder once, leave it frozen if it refuses; housekeeping with build and gate exit codes checked before any push (HR1); read the pages for an answer to developer__039.",
+   "at": "2026-11-04T17:15:16Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them). Within policy: untrusted PDF in a fresh folder, python3 -I, deleted; the guard is not weakened and no refused page published; no Appendix A address in comms; vault_check; exit codes checked before push; branch and dev only.",
+   "at": "2026-11-04T17:15:16Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
