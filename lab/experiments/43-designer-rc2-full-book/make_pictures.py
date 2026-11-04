@@ -222,6 +222,36 @@ def still_slide():
     return mc.svg(112, 63, "".join(out), "A still slide: a box of rooms, a few dots inside, an arrow, and a label saying agents")
 
 
+R150 = REPO / "manuscript" / "rc2" / "150"
+
+
+def nine_misses():
+    """Chapter 17's misses as cards (critic3 007: the seventy's five against the full book's nine), each heading and its
+    cost as the chapter gives them, read at build; two columns; no id, no caption drawn in (P28, convention 8)."""
+    import textwrap
+    text = (R150 / "17-what-did-not-work.md").read_text()
+    misses = re.findall(r"^### (.+?)\n\n\*What it cost:\* (.+?) \*Whose record:\*", text, re.M)
+    heads = re.findall(r"^### (.+?)$", text, re.M)
+    if len(misses) != len(heads) or len(misses) < 2:
+        sys.exit(f"make_pictures: chapter 17 gives {len(heads)} misses and {len(misses)} costs")
+    cw, gap, out, y = 80.0, 2.8, [], 0.3
+    for i in range(0, len(misses), 2):  # rows of two, read left to right, each row as tall as its taller card
+        pair = misses[i:i + 2]
+        wrapped = [(textwrap.wrap(hd, 34), textwrap.wrap(c, 40)) for hd, c in pair]
+        h = max(4.6 + 4.1 * len(hr) + 4.1 * len(cr) + 1.2 for hr, cr in wrapped)
+        for c, (hrows, rows) in enumerate(wrapped):
+            x = c * (cw + gap) + .3
+            out.append(f'<rect x="{x:.1f}" y="{y:.1f}" width="{cw}" height="{h:.1f}" rx="1.8" fill="#fff" stroke="{mc.INK}" stroke-width=".45"/>'
+                       f'<path d="M{x + 3:.1f} {y + 2.4:.1f} l3 3 M{x + 6:.1f} {y + 2.4:.1f} l-3 3" stroke="{mc.ACCENT}" stroke-width=".8"/>')
+            for j, r in enumerate(hrows):
+                out.append(t(x + 9, y + 5.4 + j * 4.1, r, 800))
+            for j, r in enumerate(rows):
+                out.append(t(x + 3, y + 5.4 + 4.1 * len(hrows) + j * 4.1 + .6, r, 400, mc.INK))
+        y += h + 2.4
+    col_y = [y]
+    return mc.svg(164, round(max(col_y), 1), "".join(out), f"The {len(misses)} misses as cards, each with its cost in a line, as chapter 17 gives them")
+
+
 if __name__ == "__main__":
     clone = sys.argv[1]
     files = {f"ch-hour-{h:02d}.svg": hour_card(h) for h in WORDS}
@@ -230,6 +260,7 @@ if __name__ == "__main__":
     files["ch11-reality-card.svg"], files["ch11-corrections-card.svg"] = split_cards(clone)
     files["ch5-schedule.svg"] = schedule(clone)
     files["ch1-still-slide.svg"] = still_slide()
+    files["ch17-nine-misses.svg"] = nine_misses()
     for name, svg in files.items():
         (HERE / name).write_text(svg)
     print("written " + ", ".join(files))
