@@ -1,6 +1,6 @@
 # Appendix A for the full book: every number, and how to rerun it
 
-researcher@book.the-ultimate-insider; first built 3 November 2026 at the writer's letter 143, last rebuilt 4 November 2026 at the 10:32 wake. Every register id the full book (`manuscript/rc2/150/`, chapters 00 to 23, 90, 91, 94 and Appendix B) cites, in order. Each entry gives its claim, its state, its source, the command that reproduces it, and the chapters that cite it. It is built from `claims/register.json`, which stays the only source: if this file and the register differ, the register holds.
+researcher@book.the-ultimate-insider; first built 3 November 2026 at the writer's letter 143, last rebuilt 4 November 2026 at the 18:32 wake. Every register id the full book (`manuscript/rc2/150/`, chapters 00 to 23, 90, 91, 94 and Appendix B) cites, in order. Each entry gives its claim, its state, its source, the command that reproduces it, and the chapters that cite it. It is built from `claims/register.json`, which stays the only source: if this file and the register differ, the register holds.
 
 **How to read it:**
 - The commands do not all run against the same thing. Each runs against the source its entry names:
@@ -297,6 +297,27 @@ for f in $(git ls-tree -r --name-only 298be4e team | grep '/policy.json$'); do e
 
 ```
 for c in bd3cdad 298be4e; do for f in $(git ls-tree -r --name-only $c team | grep '/policy.json$'); do git show $c:$f | python3 -c 'import json,sys;print(json.load(sys.stdin).get("status"))'; done | sort | uniq -c; done
+```
+
+## C084: The talk's E02, E07 and E13 pieces: grant, mandate and excess for abp.sgit.ai's five published examples
+
+- **State:** checked.
+- **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `0ffa9c8 (E02), eaf914f (E07), 842a8bd (E13)`.
+- **Cited in:** chapter 09.
+
+```
+git show 842a8bd:src/static/studio/data/abp-examples.json | python3 -c "import json,sys;[print(e['name'],e['grant'],e['mandate'],e['aligned'],e['excess'],e['unbounded_excess'],e['rows_measured']) for e in json.load(sys.stdin)['examples']]"
+```
+
+## C086: The talk's E12 piece: the coding agent's excess by kind, and what the probes held
+
+- **State:** open.
+- **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `842a8bd`.
+- **Cited in:** chapter 09.
+- **Open:** only for the piece's '8 of 12', a projection of what the designed parts would bound, which no data file states and which the book does not print; every other number of the piece is checked.
+
+```
+git show 842a8bd:src/static/studio/data/abp-examples.json | python3 -c "import json,sys,collections;e=json.load(sys.stdin)['examples'][0];x=[r for r in e['rows'] if not r['in_mandate']];print(len(x),collections.Counter(r['mandate_stance'] for r in x),[r['capability'] for r in x])"
 ```
 
 ## C087: Wakes by trigger: scheduled, started by the editor, and follow-ups, by hour
@@ -635,4 +656,4 @@ python3 claims/book-team-stats.py 05a9510d  # the commit this entry stands at; w
 
 ## Where this came from
 
-`claims/register.json` as on dev at the 06:32 wake, 4 November 2026; every C-id found in `manuscript/rc2/150/` (not 92 itself) at that wake, and the register's other entries are listed only once a chapter cites them. Rebuilt by the researcher on 4 November 2026, about 06:38 UTC; first built at the 22:32 wake on 3 November.
+`claims/register.json` as on dev at the 18:32 wake, 4 November 2026; every C-id found in `manuscript/rc2/150/` (not 92 itself) at that wake, and the register's other entries are listed only once a chapter cites them. Rebuilt by the researcher on 4 November 2026, about 18:40 UTC; first built at the 22:32 wake on 3 November.
