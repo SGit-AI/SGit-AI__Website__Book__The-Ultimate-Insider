@@ -2,7 +2,7 @@
 
 **Narrator.** Before the hours one at a time, here is the whole day on one page, so you can see how far into it each chapter is. When I look back at it, I see four parts.
 
-**Narrator.** The setup, hours one to five: the empty project, the rules, the five steps, and the team at work before dawn while I was still in the sessions. The flow, hours six to thirteen: the team alone, steady, every session started by the clock and none by me. The acceleration, hours fourteen to eighteen: my return, the talk growing, my words arriving faster than the clock. And the crunch and the stop, hour nineteen.
+**Narrator.** The setup, hours one to five: the empty project, the rules, the wake's five stages, and the team at work before dawn while I was still in the sessions. The flow, hours six to thirteen: the team alone, steady, every session started by the clock and none by me. The acceleration, hours fourteen to eighteen: my return, the talk growing, my words arriving faster than the clock. And the crunch and the stop, hour nineteen.
 
 **Figure:** the talk's day as one picture, each hour's work marked on it, and the chapters of this book beneath the hours they tell.
 

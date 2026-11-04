@@ -16,6 +16,8 @@
 
 **Figure:** the five steps as a path, from an empty project to a second agent, numbered stones only; the words stay in the text above.
 
+`%% layout: full`
+
 `%% figure brief: For the designer. The path carries the numbers 1 to 5 and no words, so nothing is said twice (his note, brief 03). The printable checklist is at the end of chapter 23.`
 
 ## The book as a map
@@ -29,6 +31,8 @@
 - **Part five. The factory rebuilt, and yours** (chapters 20 to 23): this book's own team, the next one, and the steps for yours.
 
 **Figure:** the five parts as stops on one route, the chapters beneath each stop, with two routes marked: the whole way through, and the short way.
+
+`%% layout: full`
 
 `%% figure brief: For the designer, in one of the variations the storyteller listed (blocks, one large picture, or a graph). The index, done as a picture.`
 
@@ -63,6 +67,8 @@
 ## Zero to presentation
 
 **Figure:** a thin strip from the empty project to the talk: the empty project, the first agent, the five steps, the six alone through the morning, my return, the hold, the talk. One number on it: nearly nineteen hours.
+
+`%% layout: full`
 
 `%% figure brief: For the designer. Nineteen hours is the title's rounding of 18 hours 44 minutes (C010); print it as "nearly nineteen hours", never as eighteen.`
 
