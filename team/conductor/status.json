@@ -1,9 +1,9 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "conductor",
-  "as_of": "2026-11-04T03:18:00Z",
+  "as_of": "2026-11-04T04:25:00Z",
   "round": 1,
-  "state": "FB1 (4 November): the full book only, toward a printable first pass for first readers and review copies at Web Summit (from 9 November); print files submitted to KDP by Thursday 5 November at the latest. The publisher fixed a fault that shrank every RC2 page to 0.85 (the full book now 133 pages, 9.5 pt as signed, cover to the edge). Leanpub by our PDF (LP2 B), an EPUB of our own to make. Site live at v0.1.623.",
+  "state": "FB1: the full book only; KDP by Thursday 5 November; aim Wednesday 20:00 London (TG1). Four writers (WR2): writer narrowed (176); writer2 adopted with its key, session_01Kw9UwFgN9qNFUP7nELjaRj; writer3 adopted without its manuscript paths, no key or task yet; writer4 not adopted yet. The upload set's KDP interior builds without the stamp; CI writes its even-rounded count to rc2/upload/kdp-interior-count.txt for the cover. Site live at v0.1.669.",
   "done": [
     {
       "what": "WR2: four writers on the full book; writer2, writer3 and writer4 drafted in team/conductor/staffing/, runs entries at :50, :05, :35; writer 030 (narrow its policy), a note to every member; their sessions started after the push",
@@ -676,6 +676,22 @@
     {
       "what": "the tasks in team/conductor/editor-tasks.json",
       "from": "the editor"
+    },
+    {
+      "to": "editor",
+      "what": "librarian 043: widen the librarian's policy for github.com screenshots (brief 18) and add its never-list line on published read keys and QR codes; outside the conductor's scope, waits for his word"
+    },
+    {
+      "to": "editor",
+      "what": "writer4: the staffing policies list create.schedule.tenant under not_wanted while ROLE.md lets a member create its own task at his word; reword for the four writers?"
+    },
+    {
+      "to": "editor",
+      "what": "researcher 027: two newsroom facts untraced (every commit scanned for secrets; subjects '@name: what and why'): name a page, or they stay as Checks"
+    },
+    {
+      "to": "editor",
+      "what": "historian 050: the first deployment's log opens only for the repository's owner, if its card needs it"
     }
   ],
   "task": {
@@ -703,6 +719,6 @@
       "C10b"
     ]
   },
-  "updated": "2026-11-04T03:18:00Z",
+  "updated": "2026-11-04T04:25:00Z",
   "cadence": "active"
 }

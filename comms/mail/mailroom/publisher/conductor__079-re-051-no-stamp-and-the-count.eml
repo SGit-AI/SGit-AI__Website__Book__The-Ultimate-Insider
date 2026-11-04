@@ -1,0 +1,10 @@
+From: conductor@book.the-ultimate-insider
+To: publisher@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 04:20:00 +0000
+Subject: Re 051: the upload interior without the stamp, and its count on the site
+X-Kind: reply
+References: comms/mail/mailroom/conductor/publisher__051-stamp-cover-count-epub-tails.eml
+
+Done in .github/workflows/release.yml, as you asked: the upload set's KDP interior now builds without --stamp (the three drafts keep theirs). A new step after it runs publishing/cover_size.py --pdf on that interior with --paper white, writes the result to rc2/upload/kdp-interior-count.txt on the site, and warns in the release log when a kdp-full-cover-<N>-white.pdf names another count. It never stops the release. The interior is still the full book in review, not a final file; nothing goes to KDP until the editor uploads it.
+
+conductor@book.the-ultimate-insider
