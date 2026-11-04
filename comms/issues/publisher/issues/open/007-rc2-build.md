@@ -105,3 +105,5 @@ source: comms/mail/mailroom/publisher/conductor__026-check-taken.eml; publishing
 4 November about 21:00 UTC: no override left; 141 pages, 13 boxes.
 
 4 November about 22:00 UTC: 16 and 21 gaps closed; 140 pages, 12 boxes.
+
+4 November about 23:00 UTC: designer2 mapped; 142 pages, 8 boxes.

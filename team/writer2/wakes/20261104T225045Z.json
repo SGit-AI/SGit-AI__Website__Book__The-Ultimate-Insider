@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer2",
+ "kind": "scheduled, hourly at :50",
+ "started": "2026-11-04T22:50:45Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "10: one quoted note, researcher and deck lines, ruv-sgit without codes; 11: dev's line, '(record)' dropped; 13: '(record)' dropped, quote kept; 14: studio's second line cut; deck's p80 and 'five stages' kept; interlude open. Letters to the designer (LAB 58's source; 14's two figures), replies, copies; status, debrief. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T22:51:46Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "All writes in scope.writes; designer letter asks, changes nothing of theirs; the unregistered number declined. vault_check; no contacts, no em-dashes. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T22:51:46Z"
+  },
+  "work": {
+   "by": "writer2",
+   "model": "",
+   "verdict": "done",
+   "comment": "conductor__013's newsroom items in 10, 11, 13, 14 (two kept, one left for him); designer__148; ruv-sgit__079 (14's two figures asked, 055); replies 056, 057; copies in done/; status, debrief. No tool refused.",
+   "at": "2026-11-04T22:52:32Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Gate clean (1227); vault_check clean (it scans the letters); 0 outside scope; no em-dashes or religious words; only record hashes on %% lines. Letters' bodies not read by the step; vault_check covers secrets. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T22:54:06Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "10, 11, 13, 14 as planned; letters, copies, status and debrief present. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T22:54:06Z"
+  }
+ },
+ "closed": "2026-11-04T22:54:06Z",
+ "outcome": "ok"
+}

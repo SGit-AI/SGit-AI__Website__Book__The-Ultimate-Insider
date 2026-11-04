@@ -60,14 +60,12 @@
 `%% record: C011 (motion and studio, 15:31: f1cbca0, 8d208d3) C014 (commits: studio 26, motion 9) C022 (wakes: studio 8, motion 4); timeline/interviews/studio.md timeline/interviews/motion.md (reconstructed by the historian: studio's pinned sources and its one-line fix to dev, 0fe0fff; motion's proposal to deck first, its pieces seekable on the slide engine) chapter-plan/cast/cast-guide.md (page conventions 2: motion and studio in chapter 14)`
 `%% for the editor: the cards are writer2's, in each agent's first person, from the historian's reconstructions and the register; "the two I work with most" and "the one I work with most" are writer2's reading of their requests and commits, not counted.`
 
-**Studio**: My first pieces were rebuilt within minutes, each with its source and its data pinned unchanged. If it worked there, it can work here.
-
 **Motion** *(already rolling)*: I didn't wait to be told. I sent deck a picture of the stages first, so its answer could be "go" and not a fresh brief.
 
 **Narrator.** Motion's first piece was the building, the animation I described at the start of this book.
 
 `%% record: f00734f (15:25, the briefs) f1cbca0 8d208d3 (15:31) c3ce566 (15:40, studio's first ports) 7639664 (16:34, motion's building) team/motion/requests/deck__the-building.md C013 timeline/interviews/motion.md studio.md`
-`%% band: Dramatised (studio's and motion's lines, kept from the 70-page edition). Rests on the briefs, the first commits (studio's first ports at 15:40, c3ce566) and the first pieces (motion's building at 16:34, 7639664; chapter 1's building, motion__the-building.jpg).`
+`%% band: Dramatised (motion's line; studio's second line cut as its card's repeat, the newsroom's pass 2, p77). Rests on the briefs, the first commits (studio's first ports at 15:40, c3ce566) and the first pieces (motion's building at 16:34, 7639664; chapter 1's building, motion__the-building.jpg).`
 *Dramatised.*
 
 ## The talk doubles
