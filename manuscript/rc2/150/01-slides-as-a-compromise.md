@@ -80,7 +80,11 @@
 
 ## Something to try
 
-*The ideas that are hardest to put on a slide are usually the ones that move. If you have one you keep explaining by hand, try writing that movement down in a single line. It makes a good first job for an animation, or for your first agent.*
+*The ideas that are hardest to put on a slide are usually the ones that move.*
+
+*If you have one you keep explaining by hand, try writing that movement down in a single line.*
+
+*It makes a good first job for an animation, or for your first agent.*
 
 `%% record: team/conductor/from-newsroom/2026-11-04__do-this-now-as-invitations.md (chapter 1, the proposed card); chapter-plan/cast/cast-guide.md (page conventions 1)`
 

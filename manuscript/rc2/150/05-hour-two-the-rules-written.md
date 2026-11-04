@@ -1,6 +1,6 @@
 # Hour two: the rules written
 
-**Cast bar:** the editor; dev, the conductor, deck, ruv-sgit; the researcher from 01:52.
+**Cast bar:** the editor; dev, the conductor, deck, ruv-sgit; the researcher just before two.
 
 **Clock:** Hour two.
 
@@ -8,13 +8,17 @@
 
 ## The hour the rules were written
 
-**Narrator.** This is the hour the team's rules were written, and almost all of them by one member. In thirteen minutes, between 01:27 and 01:40, the conductor wrote how every session starts (pull first, then the banner), the checklist every wake follows, the form every commit subject takes, the schedule, and the hold.
+**Narrator.** In the second hour, almost all of the team's rules were written by one member, in about a quarter of an hour: how every session starts (pull first, then the banner), the checklist every turn of work follows, the form of every commit message, the schedule, and the hold.
 
-**Narrator.** Read the order of that list again. The hold existed before the first scheduled wake did. Nothing ran on the clock until there was a way to stop it.
+**Narrator.** The hold existed before the first scheduled session did. Nothing ran on the clock until there was a way to stop it.
+
+`%% for the editor (his view, held out of print until he confirms it, P30): the newsroom's "The order of that list is the part I would point at." to open the paragraph, and "I have since written about who should own that stop, because it turned out to matter more than anything else on the list, but on the night it was simply there first, and I am glad it was." to close it (also a Check item: it rests on the newsroom's "Who owns the stop button", C123).`
+
+`%% record: 02cbd86 (01:27) to 09f13d5 (01:39) and d8f3300 (01:40): thirteen minutes; timeline/day/01.md`
 
 **Conductor** *(on the minute)*: A clock: each member wakes at its own minute. A hold anyone can pull. And every piece of work goes the same way.
 
-**Figure:** the schedule as the conductor wrote it at 01:39: each member at its own minute past the hour, "fifteen minutes apart" in its commit's own words, round the clock.
+**Figure:** the schedule as the conductor wrote it: each member at its own minute past the hour, "fifteen minutes apart" in its commit's own words, round the clock.
 
 `%% figure brief: For the designer, from C071 and the commit 09f13d5 (conductor :02, deck :17, ruv-sgit :32, dev :47 at first; the others joined their slots later). The minutes in the picture, not in any line.`
 
@@ -24,13 +28,15 @@
 
 ## The first correction of the team's own process
 
-**Narrator.** The hour also holds the day's first correction of how the team worked, and it stays in.
+**Narrator.** This hour also holds the first time the team corrected its own way of working.
 
-**Narrator.** At 01:40 the conductor recorded scheduled tasks it had created for three other members, so that any member could switch them off. Three minutes later it switched them off itself and rewrote the rule: a member's task belongs to the session it fires into, and only that member's own session makes it. None of the three had fired. I pasted a short prompt into each member's own session instead, and each made its own.
+**Narrator.** The conductor had created scheduled tasks for three other members, so that any of them could be switched off from one place. A few minutes later it switched them off itself and rewrote the rule: a member's task belongs to the session it runs in, and only that member makes it. None of the three had run. I pasted a short prompt into each member's own session, and each made its own.
 
-**Conductor** *(worried, then procedural)*: I made their tasks for them. That was a reach too far. Each of you makes your own; I write down how.
+**Conductor**: I made their tasks for them. That was a reach too far. Each of you makes your own; I write down how.
 
-**Narrator.** It is the first place in the record where an agent's reach went past what the team meant, and the team pulled it back inside three minutes, by changing a rule rather than by hoping. This book's team inherited the rule unchanged: the writer of these pages made its own task in its own session, from the schedule's own words.
+**Narrator.** An agent reached further than the team meant, and the team pulled it back within three minutes by changing a rule, not by hoping it would not happen again. The team writing this book still follows that rule: each of its members made its own task in its own session.
+
+`%% for the editor (his view, held out of print until he confirms it, P30): the newsroom's "Looking back, this is the moment I would show anyone who asks whether agents can be trusted with each other." to open the paragraph, and "which will always happen" after "further than the team meant".`
 
 `%% record: the historian's reading, timeline/day/01.md ("What the hour shows"), for "the first place in the record where an agent's reach went past what the team meant"; d8f3300 (01:40) b620234 (01:43: "Only a member's own session can create its scheduled task: the three the conductor created for dev, deck and ruv.sgit were disabled before any fired") team/conductor/schedule.json ("how_each_task_is_made", this book's)`
 `%% band: Dramatised (the conductor's line). Rests on the conductor's commits of 01:40 and 01:43; that it is the first place an agent's reach went past what the team meant is the historian's reading of the hour; the rule is this book's team's still.`
@@ -38,9 +44,11 @@
 
 ## One build, one check
 
-**Narrator.** The check held its line in this hour too. At about twenty past one, it stopped dev's own release until two members' pages of rules carried a rule I had just asked for, that every session report opens and closes with a banner. Dev added the lines, and the release went out.
+**Narrator.** The check held its line in this hour too, against the member who built it. It stopped dev's own release until two pages of rules carried the banner rule I had just asked for. Dev added the lines, and the release went out.
 
-**Dev** *(happy, then patient)*: The check said no. It was right. The lines went in, and it said yes.
+`%% for the editor (his view, held out of print until he confirms it, P30): the newsroom's "A check that its own author cannot get past is the only kind worth having." to close the paragraph.`
+
+**Dev**: The check said no. It was right. The lines went in, and it said yes.
 
 `%% record: 24da366 (about 01:19) team/dev/debriefs (the-board.md: "the gate the conductor added at the editor's rule refused the release without it"); historian__022`
 `%% band: Dramatised (dev's line). Rests on dev's release of about 01:19 and its debrief.`
@@ -48,26 +56,38 @@
 
 ## The researcher arrives, and dev goes first
 
-**Narrator.** At 01:52 the researcher arrived: its own key, its role, its policy for the evidence it would keep, and a request to the conductor for a slot. The one who checks every fact.
+**Narrator.** Just before two, the researcher arrived, with its own key, its role, its policy for the evidence it would keep, and a request for a slot.
 
-**Researcher** *(unbudging, already reading)*: Give me a slot and a folder. Everything else, I will check.
+`%% for the editor (his view, held out of print until he confirms it, P30): the newsroom's "Of all the members, it is the one I would hire first for any team, because everything else rests on its work." (also a Check item).`
 
-**Narrator.** A minute later dev became the first member to follow the new rule on tasks: it made and published its own key, then created its own hourly task from its own session, and told the conductor that the task made for it would stay switched off.
+**Cast card: the researcher.** *(beside its first scene)*
 
-`%% record: 01e9ed3 (01:52) 56cbe55 5c5b23b (01:53 to 01:54) C011`
-`%% band: Dramatised (the researcher's line). Rests on the researcher's first commit and dev's key and task.`
+**Researcher** *(already reading)*: Hey, I'm the researcher, and this is where I arrive. Sources and evidence are mine: every source captured and kept, every number checked against where it came from. Give me a slot and a folder. Everything else, I will check.
+
+*On stage from 01:52. Commits: 57. Wakes: 17.*
+
+`%% figure brief: For the designer, the researcher's cast card at first appearance (the cast guide's convention 2), its data panel from C011, C014 and C022 (the same as C119). No key, session or task line.`
+
+**Narrator.** A minute later dev became the first to follow the new rule on tasks: it made and published its own key, created its own hourly task from its own session, and told the conductor that the task made for it would stay switched off.
+
+`%% record: 01e9ed3 (01:52) 56cbe55 5c5b23b (01:53 to 01:54) C011 C014 C022 C119; talk repository at 298be4e: team/researcher/ROLE.md team/researcher/policy.json`
+`%% band: Dramatised (the researcher's lines). Rest on the researcher's first commit, its page of rules, and dev's key and task.`
 *Dramatised.*
 
 ## The house subject form
 
-**Narrator.** One small thing, because the rest of this book counts on it. At 01:36 the conductor set the form every commit subject would take: the member's name with an "@", then what changed and why. From then on the team's count of its own work could be read from the subjects. The commits before it, the conductor's own among them, do not all carry the form, and every count of the day by member has to allow for that.
+**Narrator.** One small rule, because the rest of this book counts on it. The conductor set the form of every commit message: the member's name with an "@", then what changed and why. From then on, the team's own history could be read like a conversation, with every line signed by who said it, and that is why this book can count the day by member at all.
+
+`%% held out of print until it is registered (a Check item): the newsroom's "It is the same form my newsroom uses" (researcher__029: the newsroom's commit-subject form, not yet traced).`
 
 `%% record: 5c2bcc5 (01:36) C014 (its caveat: commits whose subject names a member, with or without @)`
-`%% band: The house subject form, and the register's count of commits by member.`
+`%% band: The house subject form, and the register's count of commits by member. The commits before 01:36, the conductor's own among them, do not all carry the form, and every count of the day by member allows for that (C014).`
 
-## Do this now
+## Something to try
 
-*Before your first agent runs on a schedule, write the line that stops it. Then let it run.*
+*Letting an agent run while you sleep is easier when you already know how you would stop it. One line is enough. It is worth writing before the first scheduled run, not after.*
+
+`%% record: team/conductor/from-newsroom/2026-11-04__do-this-now-as-invitations.md (chapter 5, the proposed card); chapter-plan/cast/cast-guide.md (page conventions 1)`
 
 ---
 
@@ -75,4 +95,4 @@
 
 The talk's repository at the end of the day: the conductor's commits of the second hour (the start, the checklist, the subject form, the schedule and the hold, the tasks made and unmade), dev's release refused and made, the researcher's arrival, dev's own key and task. The historian's account of hour two. This book's own schedule file, for the rule it inherited. The register for the times and the counts. The storyteller's outline for this chapter.
 
-`%% record: talk repository at 298be4e: 02cbd86 ecc048e 5c2bcc5 09f13d5 d8f3300 b620234 24da366 01e9ed3 56cbe55 5c5b23b; timeline/day/01.md; this repository: team/conductor/schedule.json; claims/register.json C011 C014 C071 C110; chapter-plan/edition-150-outline.md part 2 chapter 5`
+`%% record: talk repository at 298be4e: 02cbd86 ecc048e 5c2bcc5 09f13d5 d8f3300 b620234 24da366 01e9ed3 56cbe55 5c5b23b; timeline/day/01.md; this repository: team/conductor/schedule.json; claims/register.json C011 C014 C022 C071 C110 C119; team/conductor/from-newsroom/2026-11-04__narrator-voice-part-two.md (chapter 5); chapter-plan/edition-150-outline.md part 2 chapter 5`

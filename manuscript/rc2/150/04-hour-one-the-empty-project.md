@@ -86,15 +86,15 @@
 
 `%% figure brief: For the designer, the weight of the documents (the cast guide's convention 9; his brief 19). Sizes from C125 (BRIEF.md 646 words, 43 lines; REALITY.md 2,508 words, 92 lines, at the end of the day). Pages from the talk's repository at 298be4e; no admin or team page.`
 
-**Important concept: the past projects as the team's memory.** This team did not start from nothing, and neither did I. The brief pointed it at sites I had built before, the newsroom above all. By the end of the day the talk's repository mentions newsroom.sgit.ai 2,666 times, with fifteen others among the sgit.ai sites it names most. I had a lot of power on the day because I was benefiting from all those past projects. That is the weight I want you to see.
+**Important concept: the past projects as the team's memory.** This team did not start from nothing, and neither did I. The brief pointed it at sites I had built before, the newsroom above all. By the end of the day the talk's repository mentions newsroom.sgit.ai 2,666 times, and twenty-three other sgit.ai sites besides. I had a lot of power on the day because I was benefiting from all those past projects. That is the weight I want you to see.
 
 **Figure:** the sgit.ai sites the talk's repository names, newsroom.sgit.ai largest, each sized by how often it is named.
 
-`%% figure brief: For the designer, the callout's picture (the cast guide's convention 5): the sixteen sites C126 lists, each sized by its occurrences; ruv-sgit's repo-growth.svg (lab/experiments/60-ruv-the-margin-clock/edition/) is for the day-at-a-glance page, not here.`
+`%% figure brief: For the designer, the callout's picture (the cast guide's convention 5): the twenty-four sites C126 lists, each sized by its mentions; ruv-sgit's repo-growth.svg (lab/experiments/60-ruv-the-margin-clock/edition/) is for the day-at-a-glance page, not here.`
 
 `%% for the editor: the callout is the writer's, from your brief 19 ("I'm benefiting from all those past projects. So we need to show that weight here") and the registered counts. Held out of print until you confirm them (P30): "and the agents kept going back to them" after "the newsroom above all", and "A team like this is only as good as the memory you can point it at" to close. The historian's list of where the agents read the newsroom (historian__038) is for the augmented edition's links.`
 
-`%% record: C121 C126 (newsroom.sgit.ai, 2,666 occurrences; the sixteen sites the register lists are the top sixteen by its own command, "head -16": historian__055) briefs/2026-11-04__in-session/19-the-weight-of-the-documents-and-the-memory.md comms/mail/mailroom/writer/conductor__026-the-weight-and-the-memory-text.eml chapter-plan/edition-150-outline.md ("The past projects as memory")`
+`%% record: C121 C126 (newsroom.sgit.ai, 2,666 mentions; 24 sgit.ai names in all, 23 besides the newsroom, as corrected on 4 November at historian__055; researcher__030) briefs/2026-11-04__in-session/19-the-weight-of-the-documents-and-the-memory.md comms/mail/mailroom/writer/conductor__026-the-weight-and-the-memory-text.eml chapter-plan/edition-150-outline.md ("The past projects as memory")`
 
 **Narrator.** The third is the reality file. Its second sentence:
 
@@ -142,7 +142,7 @@
 
 ## Three within the hour, and one just after
 
-**Narrator.** The conductor's first roster had one more chair on it: security. The first roster proposed a security agent, and I never staffed it. The chair stays empty all day.
+**Narrator.** The conductor's first roster had one more chair on it: security, the empty chair from chapter 2.
 
 **Cast card: security, the empty chair.** *(an outline only, on the conductor's first roster, never staffed)*
 
