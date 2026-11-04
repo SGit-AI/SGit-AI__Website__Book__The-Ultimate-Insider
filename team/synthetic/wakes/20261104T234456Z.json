@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, 23:42 London",
+ "started": "2026-11-04T23:44:56Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "board note: readers held while the structure moves; debrief, status. Tools Read, Grep, Glob, Bash; none refused. Observation: MCP tools listed in the step's context.",
+   "at": "2026-11-04T23:45:24Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "inside scope.writes; vault_check before commit. Tools Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T23:45:41Z"
+  },
+  "work": {
+   "by": "synthetic",
+   "model": "claude-sonnet-5-5",
+   "verdict": "done",
+   "comment": "readers held while the structure moves; board note, debrief, status; no letters",
+   "at": "2026-11-04T23:48:20Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "diff clean; scope, validate, vault_check pass. Tools Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T23:48:20Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "all items done; conditions kept; nothing unplanned. Tools Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T23:48:30Z"
+  }
+ },
+ "closed": "2026-11-04T23:48:30Z",
+ "outcome": "ok"
+}
