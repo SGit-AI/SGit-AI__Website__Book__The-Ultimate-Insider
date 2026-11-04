@@ -1,0 +1,147 @@
+{
+ "schema": "the-ultimate-insider/synthetic-section-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "first-build-finisher",
+ "read_at": "f916e670",
+ "would_read_on": {
+  "01-slides-as-a-compromise": "yes",
+  "02-inventing-on-principle": "yes",
+  "04-hour-one-the-empty-project": "maybe"
+ },
+ "findings": [
+  {
+   "file": "01-slides-as-a-compromise.md",
+   "line": 13,
+   "quote": "I had been working with agentic workflows for a while, and the moment lined up.",
+   "principle": "reader",
+   "severity": "must",
+   "why": "'Agentic workflows' is unexplained jargon at the first real claim of the chapter, so a non-coder feels the book is for programmers."
+  },
+  {
+   "file": "01-slides-as-a-compromise.md",
+   "line": 15,
+   "quote": "a lot of the technology this talk ran on was first built there: the player I pressed play on",
+   "principle": "reader",
+   "severity": "should",
+   "why": "'ruv.sgit.ai' and 'ported' arrive with no explanation of who or what they are, so the reader cannot follow where the parts came from."
+  },
+  {
+   "file": "01-slides-as-a-compromise.md",
+   "line": 41,
+   "quote": "As I said in the talk, that is the big difference: the agent does not stop.",
+   "principle": "21",
+   "severity": "should",
+   "why": "The same contrast (users stop, agents do not) is told in the sentences just before it and again at line 73 and in the figure."
+  },
+  {
+   "file": "01-slides-as-a-compromise.md",
+   "line": 43,
+   "quote": "each agent asked for what it wanted, and I approved it, changed it or questioned it, and what I agreed became its mandate.",
+   "principle": "reader",
+   "severity": "should",
+   "why": "'Policy' and 'mandate' are used without being explained, and the page the reader is asked to picture is a figure they cannot yet follow."
+  },
+  {
+   "file": "01-slides-as-a-compromise.md",
+   "line": 61,
+   "quote": "Wardley maps are the best thing I have learned in the last decade; it is how I think.",
+   "principle": "reader",
+   "severity": "must",
+   "why": "A whole concept ('genesis to custom built, to product, to commodity') is dropped in for a reader who does not know it, with no picture and no gloss."
+  },
+  {
+   "file": "01-slides-as-a-compromise.md",
+   "line": 73,
+   "quote": "Four sentences of narration, for one picture, and the room would still be imagining the movement",
+   "principle": "21",
+   "severity": "should",
+   "why": "The scene of the building is told a third time (line 41, the figure, then here) so the point lands on a reader who already has it."
+  },
+  {
+   "file": "01-slides-as-a-compromise.md",
+   "line": 9,
+   "quote": "They do not move, and they do not answer back.",
+   "principle": "7",
+   "severity": "could",
+   "why": "A run of short sentences opens the book; a longer sentence would carry the thought as well and sound less clipped."
+  },
+  {
+   "file": "02-inventing-on-principle.md",
+   "line": 7,
+   "quote": "it is worth your time",
+   "principle": "6",
+   "severity": "could",
+   "why": "Tells the reader what to value; the editor's own enthusiasm without the instruction would serve better."
+  },
+  {
+   "file": "02-inventing-on-principle.md",
+   "line": 13,
+   "quote": "I stopped compromising and started fine-tuning.",
+   "principle": "reader",
+   "severity": "could",
+   "why": "'Fine-tuning' has a technical meaning for AI that a newcomer may half-know, so the reader may think something else is meant."
+  },
+  {
+   "file": "02-inventing-on-principle.md",
+   "line": 45,
+   "quote": "That is a feedback loop: see it, ask for it differently, see it again.",
+   "principle": "21",
+   "severity": "should",
+   "why": "The loop was already told in the paragraph above and then the figure draws it a third time; the definition arrives after the example."
+  },
+  {
+   "file": "02-inventing-on-principle.md",
+   "line": 57,
+   "quote": "What I had, for one day, was a factory: a team of AI agents built around one objective",
+   "principle": "reader",
+   "severity": "should",
+   "why": "The word 'factory' carries the whole book yet is first defined mid-chapter after being used loosely; a first reader wants it sooner and in plainer words."
+  },
+  {
+   "file": "02-inventing-on-principle.md",
+   "line": 67,
+   "quote": "Part of running a team like this is knowing which engines to start; you do not fire them all up every time.",
+   "principle": "reader",
+   "severity": "should",
+   "why": "'Engines' is a new image for agents and the security chair is explained by a reason the reader cannot yet judge."
+  },
+  {
+   "file": "04-hour-one-the-empty-project.md",
+   "line": 42,
+   "quote": "In security we call the failure it prevents prompt injection",
+   "principle": "reader",
+   "severity": "should",
+   "why": "The term is named for a reader who has not been told what an agent reads or why a web page could steer it; it feels aimed at professionals."
+  },
+  {
+   "file": "04-hour-one-the-empty-project.md",
+   "line": 34,
+   "quote": "the site, the talk as data, the build, the check, and four short files",
+   "principle": "reader",
+   "severity": "must",
+   "why": "Five technical nouns in one line, none explained, at the point where the newcomer needs the most help; 'build' and 'check' are only glossed much later."
+  },
+  {
+   "file": "04-hour-one-the-empty-project.md",
+   "line": 73,
+   "quote": "Pushing to the main branch: an expectation. Writing another member's files: a setting, which a check catches.",
+   "principle": "reader",
+   "severity": "must",
+   "why": "'Main branch', 'push' and the expectation/setting distinction are programmer vocabulary, and a reader with no coding background stalls here."
+  },
+  {
+   "file": "04-hour-one-the-empty-project.md",
+   "line": 99,
+   "quote": "the brief 646 words, the reality file 2,508",
+   "principle": "21",
+   "severity": "could",
+   "why": "The figure reads out numbers the prose does not need, and it adds two more counts (2,666 mentions, twenty-three sites) at line 103."
+  }
+ ],
+ "what_holds": [
+  "01-slides-as-a-compromise.md: the building animation, with ordinary users stopping and agents that do not, is a picture I can follow and want to see.",
+  "02-inventing-on-principle.md: the idea that I see a change, ask again and see it again is something I recognise from my own first build.",
+  "04-hour-one-the-empty-project.md: the cast cards (dev, the conductor, deck) give characters I can follow, and the closing 'Something to try' is a step I could take tomorrow."
+ ],
+ "notes": "I felt for the first two sections that this was for me; the third starts to feel like it is for programmers (build, gate, branch, repository). The glossaries ('Words for this page') help but arrive after the word is used. Line numbers refer to cat -n of the files."
+}
