@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T05:48:29Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; Bash read only)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In lane: inbox; rc2_map and build; RV2 on part one (00 to 03) for build and print; the house asked of the designer and writer. Conditions: never patch the librarian's file, test in a scratchpad copy; dev only on a clean gate, else the branch; no hold now (one file, 25 minutes old), hold if dev is still broken at the next wake.",
+   "at": "2026-11-04T05:50:04Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No HOLD. None of the memory- shots is cleared or placeable; do not place, embed, describe or name their contents in comms. vault_check before commit.",
+   "at": "2026-11-04T05:50:04Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "RV2 part one reviewed (team/publisher/reviews/...; 01 to 03 pass, 00 and 00b wait); chapter 2's clock half and factory clock by override; the house asked of writer and designer; letters conductor 053 (cc librarian), writer 034, designer 045, writer2 002, writer4 002; records. Gate broken by the librarian's debrief: tested in a scratchpad copy",
+   "at": "2026-11-04T05:51:54Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "24 staged in scope; the librarian's debrief untouched; both override drawings pass unsafe_svg (and repo-growth.svg, added after, checked by the publisher); letters clean; vault_check clean.",
+   "at": "2026-11-04T05:55:51Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "",
+   "verdict": "off-plan",
+   "comment": "As planned, with one addition after the post-check's own question: chapter 11 listed the release row twice (the designer's list a slot behind the writer's new line 73); ruv-sgit's repo-growth.svg placed there by override and the designer told in 045.",
+   "at": "2026-11-04T05:55:51Z"
+  }
+ },
+ "closed": "2026-11-04T05:55:51Z",
+ "outcome": "ok"
+}

@@ -26,11 +26,14 @@
    {
     "capability": "send.endpoint.allowed",
     "within": "the proxy's list, to read the book's live site, the talk's repository (read-only) and the newsroom's public pages"
+   },
+   {
+    "capability": "create.schedule.tenant",
+    "within": "its own hourly task only, into its own session, from its runs entry in team/conductor/schedule.json, at the editor's word (WR2, RV1, RV2); never another member's task, a session or a workflow"
    }
   ],
   "not_wanted": [
    "send.message.world",
-   "create.schedule.tenant",
    "write.repository.main"
   ]
  },
@@ -71,5 +74,5 @@
   "mark a section signed, settled or frozen: it may only propose a section for sign-off to the editor (SO1, open)",
   "create a session or a workflow"
  ],
- "adopted": "critic5's first session, 4 November 2026, 05:18 UTC, from team/conductor/staffing/critic5/policy.json, unchanged but for this line and its status; the never-list as drafted"
+ "adopted": "critic5's first session, 4 November 2026, 05:18 UTC, from team/conductor/staffing/critic5/policy.json, unchanged but for this line and its status; the never-list as drafted. Realigned at 06:50 UTC with the conductor's redraft (conductor__001): create.schedule.tenant moved from not_wanted to wanted, within its own hourly task only; nothing else changed"
 }

@@ -79,3 +79,5 @@ source: comms/mail/mailroom/publisher/conductor__026-check-taken.eml; publishing
 4 November about 04:00 UTC: fit-tails in the full book's build (five of nine tails gone); chapter 2's asks card; an EPUB trial (1.2 MB); 136 pages.
 
 4 November about 05:00 UTC: the EPUB with a cover and cast styling (trial to the editor, unchecked); six full-page admin shots by name; 134 pages.
+
+4 November about 06:00 UTC: RV2 part one (01 to 03 pass; 00, 00b wait on drawings); chapter 2 fully drawn; 136 pages; dev's build broken by one file (not mine).

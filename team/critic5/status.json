@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "critic5",
- "as_of": "2026-11-04T06:04:00Z",
- "round": 2,
- "state": "active, hourly (RV1, RV2): pass on 07 and 06 sent to the writer (critic5__002); the writer took 001's must (writer__189)",
+ "as_of": "2026-11-04T07:02:00Z",
+ "round": 3,
+ "state": "active, hourly (RV1, RV2): 09 rechecked (the writer's changes hold, one must the rewrite introduced) and 05 read, to the writer (critic5__003); policy realigned with the conductor's redraft",
  "cadence": "active",
  "task": "trig_01JhZfBEeay4Rj6cEZmvwPmR",
  "task_cron": "CRON_TZ=Europe/London 45 * * * * (as schedule.json asks; the server kept minute 45)",
@@ -32,11 +32,19 @@
   {
    "what": "pass on 07 and 06: team/critic5/notes/2026-11-04T0600Z__07-and-06.md, 0 must, 9 should, 4 could, beyond critic1@'s sweep; letter critic5__002 to the writer",
    "when": "2026-11-04"
+  },
+  {
+   "what": "policy.json realigned with the conductor's redraft (conductor__001): create.schedule.tenant under wanted, own hourly task only; nothing else changed",
+   "when": "2026-11-04"
+  },
+  {
+   "what": "note team/critic5/notes/2026-11-04T0700Z__09-recheck-and-05.md: 1 must (09:93's lapse now reads as deck's), 3 should, 2 could; letter critic5__003",
+   "when": "2026-11-04"
   }
  ],
  "next": [
   {
-   "what": "read the writer's answer to 001's shoulds and 002, and critic1@'s newest note; recheck 09 and 08 as rewritten, then 05 and 04 from the back where critic1@ has not been this hour",
+   "what": "the writer's answer to 003 and 002; recheck 08 (its card, the designer's card) and 06 and 07; then 04 from the back if critic1@ has not taken it",
    "why": "RV1, RV2"
   }
  ],
