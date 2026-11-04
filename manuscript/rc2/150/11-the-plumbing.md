@@ -47,9 +47,10 @@
 
 `%% record: 24da366 (01:19, the release that went out after the refusal) team/dev/debriefs (the-board.md); historian__022; manuscript/rc2/150/05-hour-two-the-rules-written.md ("One build, one check", told there once: the storyteller's ruling 2 for part three)`
 
-**Narrator.** And the release history shows the result: each release the pipeline made, the commits it carried, the files they changed and the pages those files produce. Nobody typed a version number all day; the pipeline numbered every release itself. That rule has a story behind it, and deck's page of rules gives it: agents racing for release numbers is how another team, my newsroom, had lost releases on 27 October.
+**Narrator.** And the release history shows the result: each release the pipeline made, the commits it carried, the files they changed and the pages those files produce. Nobody typed a version number all day; the pipeline numbered every release itself. That rule has a story behind it, and deck's page of rules gives it: agents racing for release numbers is how another team, my newsroom, had lost releases on 27 October. The newsroom's lesson was to let the pipeline own the version, and this team started with that lesson on its first page.
 
-`%% Check (the newsroom, part three, chapter 11; prints once the researcher registers the newsroom's move to pipeline-owned versions and he confirms the last sentence): "The newsroom's answer was to let the pipeline own the version, and this team started with that answer on its first page. That is what I mean by a factory built from parts: even its scars were borrowed."`
+`%% record: C128 (the rule at 20ab1a3, 00:51:53, in deck's and dev's pages of rules; dev's release workflow at 1f7c633, 00:40:50, opening "CI owns the version" with the newsroom's link); researcher__001 to writer2 (write it as the newsroom's lesson, and no more)`
+`%% Check (the newsroom, part three, chapter 11; his to confirm before it prints): "That is what I mean by a factory built from parts: even its scars were borrowed."`
 
 **Deck**: Never type a version number. That one is somebody else's scar, from another team's bad day. We inherited it.
 
@@ -66,6 +67,15 @@
 `%% Check (the newsroom, part three, chapter 11; prints once the researcher registers the earlier talks as sites and vaults and he confirms): "It is the same choice I made for the newsroom, and for the talks before this one: if the work is a site, it has an address, a history and a check."`
 
 **Narrator.** A website gives an agent somewhere to put things that stays put. Its work is a file with a history, not a message that scrolls away. And a site can show the team its own state: the dashboard, the wakes page, the release history, all built from the files the agents wrote. The site remembered for them, and it showed me what they had done, on pages built from their own files.
+
+**Important concept: the repository growing.** The site was the repository, and it grew every hour: 53 files at the end of the first hour, 1,313 at the day's last release, and its pages from 23 to 163. The biggest jump in pages came in the afternoon hour when the last two agents joined, the two you meet in chapter 14. Nothing was tidied away as it grew. What changed was the design around it: pages built from the team's own files, one frame for every page, and side navigation, so a site that kept getting bigger stayed one I could read.
+
+**Figure:** the repository at the end of each hour, files by kind, from ruv-sgit's drawing.
+
+`%% figure brief: For the designer: ruv-sgit's repo-growth.svg (lab/experiments/60-ruv-the-margin-clock/edition/repo-growth.svg), its caption's rule kept (the first-parent line is dev as merged, so a late-merged branch makes an hour look quieter); the cast guide's convention 5, his brief 18.`
+`%% record: C124 (files and pages at the end of each clock hour: hour 00, 53 files, 23 HTML; hour 14 to hour 15, 75 to 116 HTML, the biggest step; C013, motion and studio joined at 15:31; hour 18, 1,313 files, 163 HTML, at 18:46:22) timeline/repo-design.md (historian__050: no page deleted or renamed all day; the frames dated: team pages built from team/ 00:51, admin side navigation 01:52, the studio's side navigation 04:51, design note 1, one frame for every page, 05:51) comms/mail/mailroom/writer2/storyteller__127-repo-growth-callout.eml`
+`%% for the editor: the callout is writer2's, from your brief 18 and the registered counts; "stayed one I could read" is my reading of your view; yours to keep or change.`
+`%% Check (his brief 18, "a time where we had more HTML files than we needed"; prints only if he confirms it is this project, since the record shows no page removed, historian__050): "For a while there were more pages than we needed, and the design caught up with them."`
 
 **Dev**: Every page is a file, so every page has a history and a check before it goes out. You never have to ask what changed. You look.
 
