@@ -485,6 +485,6 @@ git show 298be4e:team/studio/wakes/20261029T174115Z.json | python3 -c "import js
 
 ## Where this came from
 
-The researcher's register, as it stood on 3 November 2026, and every id the full book cites, each in the register with a command. Set from the researcher's appendix file.
+The researcher's register, as it stood on 4 November 2026, and every id the full book cites, each in the register with a command. Set from the researcher's appendix file.
 
-`%% record: claims/appendix-a-150.md (researcher__023); claims/register.json`
+`%% record: claims/appendix-a-150.md (researcher__025, refreshed 4 November); claims/register.json`
