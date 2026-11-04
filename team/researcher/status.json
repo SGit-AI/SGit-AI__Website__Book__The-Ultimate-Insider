@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-11-04T06:37Z",
+ "as_of": "2026-11-04T07:39Z",
  "round": 1,
- "state": "active, hourly: RV2 pass 2 done; C131 registered; the 150 traced; to do: pass 3 when the writers' fixes land (09, 17, 94, 16), 92 reset, the final script pass; 009 blocked",
+ "state": "active, hourly: RV2 pass 3 done; the page rule saved for the historian; to do: pass 4 when the writers' fixes land (17, 94, 16, 14), 92 reset, the final script pass; 009 blocked",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -465,6 +465,17 @@
     "writer/researcher__031",
     "writer2/researcher__003",
     "conductor/researcher__030"
+   ]
+  },
+  {
+   "what": "RV2 pass 3; the page rule saved (claims/talk-pages-rule.py); 04, 09, 15, 21, 22 traced; 14:21 found",
+   "when": "2026-11-04T07:39Z",
+   "letters": [
+    "historian/researcher__004",
+    "writer2/researcher__004",
+    "writer/researcher__032",
+    "writer4/researcher__003",
+    "conductor/researcher__031"
    ]
   }
  ],

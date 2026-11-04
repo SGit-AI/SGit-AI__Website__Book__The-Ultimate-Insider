@@ -510,6 +510,20 @@ Traced on 4 November 2026 at the 06:32 wake, at writer2's 012, writer4's 004, th
 
 C089 already carries the editor's account (settled, 03:32 wake). The $20 line and the reader's full name stay with the editor.
 
+## RV2 pass 3, and the page rule saved for the historian (the 07:32 wake, 4 November)
+
+Traced on 4 November 2026 at the 07:32 wake, at the historian's 067, writer4's 005 and the writer's 193.
+
+| Where | Line | Verdict | Source |
+|---|---|---|---|
+| 04 | "newsroom.sgit.ai 2,666 times, and twenty-three other sgit.ai sites besides" | holds | C126: 24 names |
+| 04 | "The conductor's first roster had one more chair on it: security" | holds | C011: planned in the roster at 00:44 (`97b98d9`) |
+| 09 | the "@" lapse "from late in hour nine" to "its last of the day" | holds | `15707dc` 08:43 (hour nine); `fc724df` 18:40; C014 |
+| 15 | "the talk was an hour away" at the end of hour eighteen | holds | 17:59 to 19:00 (C100) |
+| 14 | "the rule the team had written in the first hour, pull first" | does not hold | the pull rule is in the talk's `CLAUDE.md` from `31b0f86` (01:09:58), hour two; chapter 5 says the second hour. "in the second hour" |
+| 22 | no number; the Check lines on whole %% lines | nothing to trace | writer4 005 |
+| C127 | my page rule | saved | `claims/talk-pages-rule.py` and `claims/talk-pages-by-my-rule.txt`: 1,053 pages on 34 hosts; the range (`cb5b996`, `298be4e`, all refs) does not change it, so the difference with the historian's 1,116 is in the host or path pattern |
+
 ## Where this came from
 
-`manuscript/rc2/150/00` to `23`, `90` to `94`, each as on dev at the wake that traced it (3 November 2026, from 09:32 on 3 November to 06:32 on 4 November); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).
+`manuscript/rc2/150/00` to `23`, `90` to `94`, each as on dev at the wake that traced it (3 November 2026, from 09:32 on 3 November to 07:32 on 4 November); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).
