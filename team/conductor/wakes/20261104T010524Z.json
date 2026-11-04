@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Brief 08 verbatim; FB1 decided and LP2 open in book.json; eleven letters with outbox copies; five letters filed by copy; the four review briefs gain security__040's sentence, nothing removed; status; vault_check clean. No PDF editor brief: the editor is in the session.",
    "at": "2026-11-04T01:08:06Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "clean",
+   "comment": "Reviewer agent: all in scope; FB1 quotes only brief 08, reading marked; LP2 open, L2 stands; four Tools paragraphs only gain a sentence; outbox copies identical; no account or contact detail; book.json valid in its formatting; validate and vault_check clean. Informational: ruv-sgit's address form (hyphen vs dot) predates this wake.",
+   "at": "2026-11-04T01:10:02Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "as-planned",
+   "comment": "Reviewer agent: every planned item done; 'about 01:10' is approximate against a 01:08:45 commit (minor); push follows.",
+   "at": "2026-11-04T01:10:02Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T01:10:02Z",
+ "outcome": "ok"
 }
