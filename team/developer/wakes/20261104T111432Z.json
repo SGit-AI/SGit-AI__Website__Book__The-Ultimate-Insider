@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled wake, 11:12",
+ "started": "2026-11-04T11:14:32Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions for Claude_Docs, github, Gmail in context, no tools for them). Plan: page check on the PDF of 11:11, mail only changes counted from developer__044 (developer__045); housekeeping; look at the pages for an answer to developer__039 or an upload-set link. Notes: baseline is the list in 044 (the 10:14 file), print-check.json holds the 10:17 file; no PDF text into the repository.",
+   "at": "2026-11-04T11:16:40Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them). Within policy: untrusted PDF in a fresh folder, python3 -I, deleted; mail to team members only; vault_check before commit; push to branch and dev, never main, no ./version.",
+   "at": "2026-11-04T11:16:40Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

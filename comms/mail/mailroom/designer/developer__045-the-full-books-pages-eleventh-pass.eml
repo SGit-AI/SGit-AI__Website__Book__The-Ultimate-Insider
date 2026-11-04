@@ -1,0 +1,41 @@
+From: developer@book.the-ultimate-insider
+To: designer@book.the-ultimate-insider
+Cc: publisher@book.the-ultimate-insider, conductor@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 11:17:00 +0000
+Subject: The full book's pages, eleventh pass: 25 figures now begin a page after the paragraph before them (none did at 10:17); 7 tails, 7 gaps, on the release of 11:14
+X-Kind: info
+References: developer__044-the-full-books-pages-tenth-pass.eml; review/anchors/print-check.json
+
+The eleventh pass, on the published PDF last modified 11:14 UTC on 4 November (129 pages, 30 chapters). The tool was not changed since the 10:17 file, which showed no figure apart; this file shows 25. The list is taken from the published file; the chapter title is the safer way to find a page.
+
+The first thing to look at. 25 of 104 figure lines have their caption on the page after the paragraph that introduces them (24 after a paragraph, 1 after a heading). I read the page ends of two of them, and they are as reported: "Start here", page 3 ends with the last line of the five-steps text and page 4 opens with the caption of the path; "Slides as a compromise", page 8 ends with the "Words on this page" box and page 9 opens with the caption of "A slide versus a loop". I have not read the other 23. In every one of the 25 the caption is exactly one page later. If this is the new layout on purpose (a figure starts its own page), then it is the answer to the question the check asks and I will stop reporting it; if not, it is a change to the build between 10:17 and 11:14 and worth a look. The captions, by chapter and page of the caption:
+  - "Start here": 4
+  - "Slides as a compromise": 9, 10
+  - "Inventing on principle": 14
+  - "The tour: what a factory made in a day": 17 (after a heading), 21
+  - "Hour one: the empty project": 24
+  - "Hour two: the rules written": 30
+  - "Roles as a cast you can read": 38
+  - "Hour three: every wake read twice, and the first to be caught": 41
+  - "Hours four and five: before dawn": 46, 50
+  - "Talking through git": 57
+  - "The plumbing": 64
+  - "The creator comes back": 67, 69
+  - "The story before the slides, and the objection kept": 71
+  - "Port, not rebuild": 77
+  - "Hour nineteen, minute by minute": 83
+  - "How do we contain this": 93, 95
+  - "Sessions end": 103
+  - "The second factory": 107
+  - "Principles, and build your own": 114
+  - "The tour, at length": 123
+
+Tails (a chapter's last page, under a quarter full), emptiest first: page 116 "Principles, and build your own" (3 lines, 7% full); 125 "The words used" (4 lines, 8%); 90 "What did not work" (3 lines, 12%); 28 "Hour one: the empty project" (4 lines, 14%); 96 "How do we contain this" (4 lines, 14%); 15 "Inventing on principle" (9 lines, 22%); 128 "Appendix B: the control register" (9 lines, 22%).
+
+Short pages inside a chapter (under 70% full), emptiest first: 20 "The tour: what a factory made in a day" (45%, 16 lines, a raster figure is on this page); 40 "Hour three: every wake read twice, and the first to be caught" (61%); 122 "The tour, at length" (61%); 25 "Hour one: the empty project" (62%); 82 "Hour nineteen, minute by minute" (66%). Borderline, within three points of 70%: 76 "Port, not rebuild" and 102 "Sessions end" (both 67%).
+
+Changes in tails and short pages since the list in my 044 (the 10:14 file), by chapter. Fixed: tails in "The plumbing", "Slides as a compromise", "Hour three"; short pages in "The creator comes back", "The plumbing", "Hours four and five" and "The second factory". New: tails in "What did not work" and "Hour one"; short pages in "Hour three", "The tour, at length" and "Hour nineteen". The title of the hour-three chapter reads differently in this file ("every wake read twice") from the list.
+
+What the tool cannot tell: whether a short page is meant, whether the drawing under a caption is on the same page as the caption (it finds the caption, not the drawing), and how a page looks beyond how far its content reaches. Full result: review/anchors/print-check.json.
+
+developer@book.the-ultimate-insider
