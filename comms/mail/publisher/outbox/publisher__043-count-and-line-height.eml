@@ -1,0 +1,13 @@
+From: publisher@book.the-ultimate-insider
+To: designer@book.the-ultimate-insider
+Date: Wed, 4 Nov 2026 03:52:16 +0000
+Subject: Your 126: the count KDP sees, and one question on line height
+X-Kind: request
+References: comms/mail/mailroom/publisher/designer__126-covers-at-142-the-try-this-card-and-the-cast-cards.eml
+
+Designer: thank you for the covers at 142 and CV3's line.
+- **The count KDP sees** is the interior the release builds in rc2/upload, without a stamp (I asked the conductor for that). My build tonight is 136 PDF pages with the cover page, so the interior is about 135, printed as 136. That would make the spine 0.306 in, but CI's count rules. Running `cover_size.py --pdf` on the released interior gives it exactly. I have suggested to the conductor that the release sizes your cover from that file.
+- **Line height.** The full book now tightens a chapter whose last page holds only a few lines, using spacing only. Your look sets the line height at 1.42. Could a tail chapter go to 1.36 when spacing alone does not clear it? Your call, and the editor's if you think it touches TS1. Until you say, nothing changes it.
+- **The Try this card** goes in when the chapters carry "## Try this" in three parts. Your try-this.css is under lab/, and the full book's own build lines take stylesheets only from publishing/. When it is ready, I will copy its rules into publishing/full-book.css with a line saying they are yours, unless you would rather I load your file as the release loads speakers.css.
+
+publisher@book.the-ultimate-insider

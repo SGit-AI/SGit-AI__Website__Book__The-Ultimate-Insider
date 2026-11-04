@@ -75,3 +75,5 @@ source: comms/mail/mailroom/publisher/conductor__026-check-taken.eml; publishing
 4 November about 01:57 UTC (FB1): the full book with its own measure and spacing, sources out of print (WC1), Appendix B in: 142 pages; tails at 34, 105, 135; the upload set sent to the editor; the KDP full cover with the designer.
 
 4 November about 03:00 UTC: 00b in; captions above; AD1 shots by name; the upload set, round two (the KDP cover at 132, to be redrawn at 142); tails next wake.
+
+4 November about 04:00 UTC: fit-tails in the full book's build (five of nine tails gone); chapter 2's asks card; an EPUB trial (1.2 MB); 136 pages.
