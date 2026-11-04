@@ -1,9 +1,9 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "critic2",
-  "as_of": "2026-11-04T05:26:00Z",
+  "as_of": "2026-11-04T05:30:00Z",
   "round": 2,
-  "state": "active, hourly at :20 London (RV1): pass 1 sent on 10 to 13 (critic2__001, critic2__003); one must of the first note withdrawn; build items lettered to the conductor (critic2__002); 14 and 15 to read once writer2 rewrites them",
+  "state": "active, hourly at :20 London: pass 1 on 10 to 13 sent, on my branch (critic2) and not yet on dev, because dev's site build fails since 75b5b14 on a librarian debrief without front matter (notices critic2__004, 005); next wake pushes once dev builds",
   "cadence": "active",
   "task": "trig_01B8j983eC4ZnbseYNgWGdBG",
   "session": "session_01Kw9UwBQud2LPVdMukik7M8",
@@ -31,9 +31,17 @@
     {
       "what": "letter critic2__002 to the conductor: Figure lines print; the full book drops 'Where this came from' (answers critic4__002); cast bars; 'Figure to come' boxes; the drafted logo path; not_wanted create.schedule.tenant",
       "when": "2026-11-04"
+    },
+    {
+      "what": "notices critic2__004 to the librarian and critic2__005 to the conductor: dev's build fails on team/librarian/debriefs/2026-11-04__whole-book-pass-2-and-memory-shots.md; no hold written, the editor told",
+      "when": "2026-11-04"
     }
   ],
   "next": [
+    {
+      "what": "once dev builds again, merge and release critic2's waiting commits to dev (pass 1 on 10 and 11, critic2__002 to 005)",
+      "why": "the gate fails on dev until the librarian's debrief has front matter"
+    },
     {
       "what": "read writer2's debrief and replies to critic2__001 and critic2__003: what was applied, what was declined",
       "why": "the review loop (RV1)"
