@@ -88,7 +88,7 @@
 `%% Hold (P30: a reading of his view, not in the record or his briefs; prints once he confirms; storyteller__147): "... so a site that kept getting bigger stayed one I could read."`
 `%% Check (his brief 18, "a time where we had more HTML files than we needed"; prints only if he confirms it is this project, since the record shows no page removed, historian__050): "For a while there were more pages than we needed, and the design caught up with them."`
 
-**Dev**: Every page is a file, so every page has a history and a check before it goes out. You never have to ask what changed. You look.
+**Dev**: Nobody asks me what changed. They look.
 
 `%% record: index/talk-site/README.md (items 2, 5, 16 to 18); talk repository at 298be4e: admin/build/build.py`
 `%% band: Dramatised (dev's line). Rests on the talk's site as it stood at the end of the day.`
@@ -108,7 +108,7 @@
 
 **Narrator.** At the end of the day, the corrections file still said what it said in the first half hour:
 
-> "None yet." *(record)*
+> "None yet."
 
 **Narrator.** The brief was wrong in places. It says the talk is "tomorrow"; by the time the project existed, it was that same day. And the talk it asks for became something quite different in the afternoon, by my own decisions. None of that went into the corrections file. It went into the reality file, the decisions and the debriefs instead. Nobody used it, me included.
 

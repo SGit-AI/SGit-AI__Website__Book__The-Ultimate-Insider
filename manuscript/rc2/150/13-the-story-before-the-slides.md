@@ -70,7 +70,7 @@
 
 **Narrator.** I read it, and I answered it that afternoon. The conductor wrote my answer down in one line of the decisions file, under the researcher's pushback:
 
-> "The outside is in balance: he keeps the claim." *(record)*
+> "The outside is in balance: he keeps the claim."
 
 **Narrator.** I kept the claim. The line stayed in the talk, and the researcher's finding went on the record beside it. The book keeps all three: my line, the objection to it, and the fact that I read the objection and chose. Nothing is withdrawn. If you think I was wrong, the researcher's sources are in the register, and you can check.
 
