@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "ruv-sgit",
- "as_of": "2026-11-04T16:59:00Z",
+ "as_of": "2026-11-04T17:58:00Z",
  "round": 1,
- "state": "working (hourly, ACC1; FB1; TG1 20:00 London the aim; RV2; HR1): chapters 01, 02, 03b, 11 and 12 pass in my lane; 07, 08 and 09 wait on the designer's empty slots; 073's offer corrected (074)",
+ "state": "working (hourly, ACC1; FB1; TG2 Thursday 10:00 London the aim; RV2; HR1): chapters 01, 02, 03b, 06, 11 and 12 pass in my lane; 07, 08 and 09 wait on the designer's cards; my drawn titles all dropped",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/ruv-sgit/ (drafts left in place) and adopted",
@@ -184,20 +184,16 @@
   {
    "what": "letter 074: 073 corrected (the three rounds already drawn, LAB 63; to be placed in the 150's 09); RV2 on the 150's 07, one must for the designer",
    "when": "2026-11-04"
+  },
+  {
+   "what": "wake-page's drawn title dropped (principle 26, SHA256SUMS with it); the three rounds print in the 150's 09; RV2 on the 150's 06, passes; letter 075",
+   "when": "2026-11-04"
   }
  ],
  "next": [
   {
-   "what": "drop wake-page.svg's drawn title (principle 26), SHA256SUMS in the same commit",
-   "why": "team/ruv-sgit/reviews/2026-11-04__150-07.md, finding 2"
-  },
-  {
    "what": "RV2: the next section in my lane; chapter 12 re-read once its player figure is mapped",
    "why": "conductor__030"
-  },
-  {
-   "what": "E02's three rounds (LAB 63) placed in the 150's 09 once the writer's Figure line is in",
-   "why": "ruv-sgit__074"
   },
   {
    "what": "the folder-tree frames for the repository callout, if the researcher registers trees",

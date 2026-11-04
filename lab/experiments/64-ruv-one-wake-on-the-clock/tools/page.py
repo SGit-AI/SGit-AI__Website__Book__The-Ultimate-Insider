@@ -82,14 +82,16 @@ def main():
         if i < 4:
             body.append(f'<line x1="8" y1="{y - 2.0:.2f}" x2="8" y2="{y:.2f}" stroke="{MUTED}" stroke-width=".35"/>')
     H = y + 9.0
-    s = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W:g}mm" height="{H:.1f}mm" viewBox="0 0 {W:g} {H:.1f}" role="img" '
+    SHIFT = 6.0                                                      # the title's band, dropped
+    s = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W:g}mm" height="{H - SHIFT:.1f}mm" viewBox="0 0 {W:g} {H - SHIFT:.1f}" role="img" '
          'aria-label="The wake record as a page: the conductor\'s first wake, five boxes in a column, each with its step, who ran it '
          'as the record names it, its verdict and a sentence from the record; the verdicts go, go, partial, finding, partial, '
          'the finding in step four highlighted.">',
-         t(1, 6.5, f'The conductor\'s first wake record, started {started}', 700, INK)]
+         f'<g transform="translate(0,-{SHIFT:g})">']                  # no drawn title: the Figure line is the caption (26)
     s += body
     s.append(t(1, H - 5.2, '"by" as the record names it. Security was never staffed: its two steps were reviews', 400, MUTED, 'start', SMALL))
     s.append(t(1, H - 1.8, f'the conductor\'s own wake ran. The record: {RECORD}, at the talk\'s 298be4e.', 400, MUTED, 'start', SMALL))
+    s.append('</g>')
     s.append('</svg>')
     svg = '\n'.join(s) + '\n'
     if UNSAFE.search(svg):
