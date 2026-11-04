@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Brief 10 verbatim; WC1 in book.json; letters publisher 072, librarian 026, writer 019, storyteller 058, designer 060 with outbox copies (researcher and security cc'd); status; CLAUDE.md untouched (wording to propose); vault_check clean.",
    "at": "2026-11-04T01:46:24Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "clean",
+   "comment": "Reviewer agent: 14 files in scope; traceability kept (print-only drop, files unchanged, conversion after the librarian's tools); no ROLE.md or CLAUDE.md edited; cited lines accurate; nothing private; validate and vault_check clean.",
+   "at": "2026-11-04T01:48:20Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "as-planned",
+   "comment": "Reviewer agent: every planned item in d2be8293; push follows.",
+   "at": "2026-11-04T01:48:20Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T01:48:20Z",
+ "outcome": "ok"
 }
