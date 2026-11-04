@@ -1,0 +1,34 @@
+{
+ "schema": "the-ultimate-insider/synthetic-section-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "newsroom-builder",
+ "read_at": "7dc69de7",
+ "would_read_on": {
+  "09-nine-hours-with-nobody-starting-work": "yes",
+  "90-the-tour-at-length": "maybe",
+  "91-the-words-used": "maybe"
+ },
+ "findings": [
+  {"file": "09-nine-hours-with-nobody-starting-work.md", "line": 24, "quote": "the designer wrote a third note, and dev built the designer's first", "principle": "reader", "severity": "should", "why": "Four members and their separate tasks are packed into one sentence, so a first reader cannot tell who did what to whose work."},
+  {"file": "09-nine-hours-with-nobody-starting-work.md", "line": 30, "quote": "What the record shows is not whether everything finished, but whether", "principle": "1", "severity": "should", "why": "The narrator reports what the record shows with no I and no hindsight, at the very point a newsroom builder wants his judgement."},
+  {"file": "09-nine-hours-with-nobody-starting-work.md", "line": 48, "quote": "Like the night's first case, these had gone out with the first push.", "principle": "reader", "severity": "should", "why": "It leans on a failure from an earlier chapter without a half-line saying what it was, so this chapter stalls for anyone who opened it directly."},
+  {"file": "09-nine-hours-with-nobody-starting-work.md", "line": 34, "quote": "A request not picked up at one session is picked up at the next. Nobody chased it.", "principle": "21", "severity": "could", "why": "The same 'nobody chased it' idea comes again in the section title at line 109 and in line 123."},
+  {"file": "09-nine-hours-with-nobody-starting-work.md", "line": 123, "quote": "answered at the next and used at the one after, with nobody chasing it.", "principle": "21", "severity": "should", "why": "This is the third telling of the same point (lines 34 and 109), and the record note itself says it is told once in chapter 10."},
+  {"file": "09-nine-hours-with-nobody-starting-work.md", "line": 151, "quote": "A piece marked ready for me, then another. A list of what waits on me, refreshed every hour.", "principle": "7", "severity": "could", "why": "A run of clipped sentences ends the section, where one running sentence would carry the queue building up better."},
+  {"file": "09-nine-hours-with-nobody-starting-work.md", "line": 182, "quote": "what did not finish said so, and the night's failure, found a third time, is kept.", "principle": "21", "severity": "should", "why": "It restates the partial-wake point of line 30 and the third finding of line 48 almost word for word as a close."},
+  {"file": "09-nine-hours-with-nobody-starting-work.md", "line": 190, "quote": "the temptation is to start asking straight away.", "principle": "6", "severity": "could", "why": "It tells the reader what they will be tempted to do; for me the card is also the only takeaway, and it is two lines against nine hours."},
+  {"file": "90-the-tour-at-length.md", "line": 7, "quote": "What your own team can take from them is the same at every stop", "principle": "reader", "severity": "should", "why": "The takeaway is promised once and then never made at any stop, so a builder who wants something to copy gets only descriptions."},
+  {"file": "90-the-tour-at-length.md", "line": 9, "quote": "The words the agents say are ours, written for this book", "principle": "1", "severity": "could", "why": "'Ours' replaces the narrator's I with a plural that nothing else in the section uses."},
+  {"file": "90-the-tour-at-length.md", "line": 75, "quote": "The same three circles, drawn in front of the room one by one, so the overlap arrives last.", "principle": "21", "severity": "should", "why": "Stop 4 (line 60) has already told the three circles and their overlap, so stop 5 repeats the scene."},
+  {"file": "90-the-tour-at-length.md", "line": 62, "quote": "The home page says the perfect storm.", "principle": "reader", "severity": "could", "why": "'The perfect storm' is used as a known phrase before the section has said what the storm is."},
+  {"file": "91-the-words-used.md", "line": 9, "quote": "The **check** (the team called it the gate)", "principle": "reader", "severity": "should", "why": "Chapter 9 says 'gate' and 'post_check' without a gloss, and the gloss here sits in the back matter under a different headword, so a reader looking up 'gate' finds nothing."},
+  {"file": "91-the-words-used.md", "line": 16, "quote": "The clock in the margin counts the talk's day in **hours**", "principle": "reader", "severity": "could", "why": "It is the only entry not starting with its headword, so it sits between 'hold' and 'lock' out of order and is easy to miss when scanning."}
+ ],
+ "what_holds": [
+  "09-nine-hours-with-nobody-starting-work.md: the partial wake that says it is partial and the morning review's 'what only you can decide' are exactly the editor-who-signs pattern a newsroom builder wants to copy.",
+  "09-nine-hours-with-nobody-starting-work.md: the narrator's 'I am not going to skip them, because quiet is the evidence' and the empty bench at hour fourteen give the nine hours a human voice; the failures stay in.",
+  "90-the-tour-at-length.md: each stop is short and carries one line from the agent that made the page, so it can be walked quickly.",
+  "91-the-words-used.md: plain one-line definitions with a chapter pointer each; 'hold', 'wake' and 'scope' are usable as they stand."
+ ],
+ "notes": "Clean overall; no finding rises to must. For this persona chapter 9 is the one to keep; the tour is a catalogue with no step I could take tomorrow, which is why it is a maybe. Bare agent names such as ruv-sgit and deck appear before a reader of this section alone knows who they are; the cast bar helps."
+}
