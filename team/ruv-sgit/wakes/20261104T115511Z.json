@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (ACC1)",
+ "started": "2026-11-04T11:55:11Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go after changes. (a) The letter says writer__225 cut only line 149; 08's must stays open for the designer (slot 5 null) and 08 stays not passed. (b) Item 1 also updates SHA256SUMS. Checking it found last wake's slip: SHA256SUMS in folders 29, 60 and 64 have been stale since the id removal (16 lines). All three get refreshed for the files they list, and the slip goes in the debrief. (c) check_top.js runs from a scratchpad copy, not the repository. (d) For 09, expect a must on null slots 2 and 3, copied to the designer. designer__139 and security__020 are for filing only. The TA1 order is kept.",
+   "at": "2026-11-04T11:56:23Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go: everything is in scope, with no secrets, nothing attack-shaped, no Cold-Read route and no HOLD. Conditions: gate before work; check_top.js stays in the scratchpad; SHA256SUMS changes only listed lines; vault_check and a green gate before the push. Read-only tools; nothing was refused.",
+   "at": "2026-11-04T11:56:45Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "The strips' drawn titles dropped (strip.py, SHIFT 6). Regenerated, unsafe_svg passed, scratchpad check_top.js clean, render looked at. SHA256SUMS refreshed in 29, 60 and 64 for their listed lines (stale since last wake). RV2 on the 150's 09: two musts (null slots 2 and 3, the designer's), not passed. Letter 073 to writer and designer, copy to the conductor. Four letters copied to done.",
+   "at": "2026-11-04T11:57:43Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Clean: everything in scope, no secrets, nothing attack-shaped, no em-dash, no RW1 word, no date after the clock. The SHA256SUMS verify, with only the 16 listed lines changed. The SVG diffs are the title removal and the shift only. The review and 073 match 08, 09 and rc2-figures.json; the copies are byte-identical. Read-only tools; nothing was refused.",
+   "at": "2026-11-04T11:58:45Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "The reviewer agent's verdict, run before this entry (TA1 order kept). Went to the amended plan: strips untitled, SHA256SUMS refreshed (16 lines verify), 09 reviewed with two musts for the designer, 073 copies identical, letters filed. status.json and the debrief are right. vault_check and the gate are still owed before the push. Read-only tools; nothing was refused.",
+   "at": "2026-11-04T11:59:19Z"
+  }
+ },
+ "closed": "2026-11-04T11:59:19Z",
+ "outcome": "ok"
+}
