@@ -46,7 +46,7 @@ git log 298be4e --since=2026-10-29T18:44:00Z --until=2026-10-29T19:00:00Z --form
 
 - **State:** corrected.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapters 00, 23, 94.
+- **Cited in:** chapters 00, 04, 23, 94.
 
 ```
 arithmetic on C001, C005 and C007
@@ -56,7 +56,7 @@ arithmetic on C001, C005 and C007
 
 - **State:** settled.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapters 00, 00b, 02, 04, 05, 06, 08, 14, 23, 90.
+- **Cited in:** chapters 00, 00b, 02, 04, 05, 06, 08, 12, 14, 23, 90.
 - **Settled by the editor, 4 November 2026:** Nine staffed agents; ten with him. Security was proposed and never staffed.
 
 ```
@@ -77,7 +77,7 @@ git show 298be4e:team/storyteller/wakes/20261029T141252Z.json | head -6; git log
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapter 14.
+- **Cited in:** chapters 11, 14.
 
 ```
 git log 298be4e --reverse --format='%ci %h %s' -- team/motion/key.json team/studio/key.json | head -2
@@ -87,7 +87,7 @@ git log 298be4e --reverse --format='%ci %h %s' -- team/motion/key.json team/stud
 
 - **State:** corrected.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapters 03, 05, 09, 15, 17, 19, 90.
+- **Cited in:** chapters 03, 04, 05, 09, 12, 15, 17, 19, 90.
 
 ```
 git rev-list --merges --count 298be4e; git log 298be4e --merges --author=Claude --format=%h | wc -l
@@ -118,7 +118,7 @@ git log 298be4e -1 --author=Claude --format='%h %ci %s' --grep='95%'   # 867f8c2
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapters 03, 06, 16, 19, 90.
+- **Cited in:** chapters 03, 04, 06, 12, 16, 19, 90.
 
 ```
 python3 -c "import json,subprocess as s;R='298be4e';fs=[f for f in s.run(['git','ls-tree','-r','--name-only',R],capture_output=True,text=True).stdout.split() if f.startswith('team/') and '/wakes/' in f and f.endswith('.json')];import collections;print(len(fs),collections.Counter(f.split('/')[1] for f in fs))"
@@ -128,7 +128,7 @@ python3 -c "import json,subprocess as s;R='298be4e';fs=[f for f in s.run(['git',
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapters 12, 14, 15, 18 and Appendix B.
+- **Cited in:** chapters 03, 12, 14, 15, 18 and Appendix B.
 
 ```
 method: the script in team/researcher/debriefs/2026-10-30__rc1-numbers-review.md (parses every team/*/wakes/*.json at 298be4e; counts steps.<step>.verdict and history entries)
@@ -477,7 +477,7 @@ git show 298be4e:team/studio/wakes/20261029T174115Z.json | python3 -c "import js
 
 - **State:** checked.
 - **Source:** web pages read on 2026-11-04: https://newsroom.sgit.ai/articles/the-scripted-talk.html.
-- **Cited in:** chapters 00b, 01.
+- **Cited in:** chapters 00b, 01, 12.
 
 ```
 open https://newsroom.sgit.ai/articles/the-scripted-talk.html and find '26 slides', 'three-minute countdown', 'The first timeline is a real one', 'with the slides behind me'
@@ -497,7 +497,7 @@ git show -s --format='%h %ad %s' --date=format:'%d %H:%M' 2d2672a3; ls lab/exper
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapter 02.
+- **Cited in:** chapters 02, 12.
 
 ```
 for h in b1c9bab bd3cdad 95b09d9 511606d d7df71a 040233f 7323986 23739cc 12e93db 013d97e dbd75ad 9a51c28 3314ffe; do git log -1 --format='%h %ad' --date=format:%H:%M:%S $h; git show --numstat --format= $h | grep -v -e $'\tteam/' -e $'\tREALITY.md' | awk -F'\t' '{a+=$1;r+=$2} END {print "+"a" -"r}'; done
@@ -507,7 +507,7 @@ for h in b1c9bab bd3cdad 95b09d9 511606d d7df71a 040233f 7323986 23739cc 12e93db
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** the cast cards and the dashboard (to cite).
+- **Cited in:** chapter 04.
 
 ```
 # in a clone of the talk's repository:
@@ -530,7 +530,7 @@ git ls-tree -r -l 298be4e | awk '{n++; s+=$4} END {print n, s}'
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** part two of the narrator pass (to cite).
+- **Cited in:** chapter 04.
 
 ```
 git show 1f7c633:BRIEF.md | sed -n 11p; git log -1 --format='%h %ad %s' --date=format:%H:%M:%S a3a4807; git show 298be4e:admin/tools/banner.py | sed -n 8p
@@ -540,7 +540,7 @@ git show 1f7c633:BRIEF.md | sed -n 11p; git log -1 --format='%h %ad %s' --date=f
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Book__The-Ultimate-Insider (this book's record), at `cee7466d` (this book's own record, after the day).
-- **Cited in:** chapter 00b (to cite).
+- **Cited in:** chapter 00b.
 
 ```
 grep -n -i -m2 'outline' team/storyteller/ROLE.md; grep -n -m2 'Mission' team/researcher/ROLE.md; grep -n -m1 'timeline of 29 October' team/historian/ROLE.md
@@ -560,7 +560,7 @@ open https://newsroom.sgit.ai/articles/who-owns-the-stop-button.html and read th
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `cb5b996`.
-- **Cited in:** the repository-by-the-hour card (to cite).
+- **Cited in:** chapter 11.
 
 ```
 # in a clone of the talk's repository:
@@ -571,7 +571,7 @@ python3 claims/talk-repo-by-hour.py  # the script is in this repository, claims/
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `cb5b996`.
-- **Cited in:** the weight card (to cite).
+- **Cited in:** chapter 04.
 
 ```
 # in a clone of the talk's repository:
@@ -582,11 +582,11 @@ python3 claims/talk-weight.py  # the script is in this repository, claims/talk-w
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `cb5b996`.
-- **Cited in:** the references card (to cite).
+- **Cited in:** chapter 04.
 
 ```
 # in a clone of the talk's repository:
-git grep -h -o -E '[A-Za-z0-9-]+\.sgit\.ai' cb5b996 | sort | uniq -c | sort -rn | head -16
+git grep -h -o -E '[A-Za-z0-9-]+\.sgit\.ai' cb5b996 | sort | uniq -c | sort -rn
 python3 claims/talk-weight.py  # both counts
 ```
 
@@ -605,7 +605,7 @@ git show cb5b996:evidence/sources/manifest.json | python3 -c "import json,sys,re
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `cb5b996`.
-- **Cited in:** chapter 11 (to cite).
+- **Cited in:** chapter 11.
 
 ```
 git grep -n -i 'racing for release' 20ab1a3 -- team; git show 1f7c633:.github/workflows/release.yml | head -3

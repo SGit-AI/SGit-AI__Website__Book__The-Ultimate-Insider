@@ -1,7 +1,7 @@
 ---
 created: 2026-11-04
 priority: P1
-status: next wake
+status: 21 done 4 November (writer4__004); 22 next wake
 source: team/writer4/ROLE.md, responsibility 1; storyteller__123 ruling 4
 ---
 # Chapters 21 and 22

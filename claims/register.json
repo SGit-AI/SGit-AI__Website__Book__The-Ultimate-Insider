@@ -4437,10 +4437,52 @@
       "site": "gen-z-developers.sgit.ai",
       "occurrences": 5,
       "matching_lines": 5
+     },
+     {
+      "site": "twin.sgit.ai",
+      "occurrences": 4,
+      "matching_lines": 4
+     },
+     {
+      "site": "secrets.sgit.ai",
+      "occurrences": 2,
+      "matching_lines": 2
+     },
+     {
+      "site": "issues-fs.sgit.ai",
+      "occurrences": 1,
+      "matching_lines": 1
+     },
+     {
+      "site": "storyboards.sgit.ai",
+      "occurrences": 1,
+      "matching_lines": 1
+     },
+     {
+      "site": "hook.sgit.ai",
+      "occurrences": 1,
+      "matching_lines": 1
+     },
+     {
+      "site": "sg-sentinel.sgit.ai",
+      "occurrences": 1,
+      "matching_lines": 1
+     },
+     {
+      "site": "coding.sgit.ai",
+      "occurrences": 1,
+      "matching_lines": 1
+     },
+     {
+      "site": "api.sgit.ai",
+      "occurrences": 1,
+      "matching_lines": 1
      }
     ],
     "total_occurrences": 3831,
-    "definitions": "occurrences: every match of <name>.sgit.ai in every file (git grep -o); matching lines: the lines that hold the string. The conductor's first counts (newsroom 2,666; pki 391; abp 248; ruv 196; nhi 60; open-source 51; games 48; ux 41; risks 24; presentation 20; investor 20; nfrs 17) are occurrences, not lines. The matching lines are 2,525; 345; 199; 171; 50; 49; 41; 36; 21; 20; 19; 14"
+    "definitions": "occurrences: every match of <name>.sgit.ai in every file (git grep -o); matching lines: the lines that hold the string. The conductor's first counts (newsroom 2,666; pki 391; abp 248; ruv 196; nhi 60; open-source 51; games 48; ux 41; risks 24; presentation 20; investor 20; nfrs 17) are occurrences, not lines. The matching lines are 2,525; 345; 199; 171; 50; 49; 41; 36; 21; 20; 19; 14",
+    "sites_in_all": 24,
+    "sites_note": "All 24 names (23 besides the newsroom). Earlier this entry listed the top sixteen (3,819 of the 3,831 mentions) because the command ended in 'head -16'; corrected on 4 November at the historian's report (055). Sixteen is not 'all'."
    },
    "state": "checked",
    "source": {
@@ -4449,8 +4491,8 @@
     "evidence": "claims/talk-weight.py"
    },
    "method": "git grep -h -o -E '[A-Za-z0-9-]+\\.sgit\\.ai' cb5b996 | sort | uniq -c; and git grep -h -F <site> cb5b996 | wc -l",
-   "command": "# in a clone of the talk's repository:\ngit grep -h -o -E '[A-Za-z0-9-]+\\.sgit\\.ai' cb5b996 | sort | uniq -c | sort -rn | head -16\npython3 claims/talk-weight.py  # both counts",
-   "note": "Say 'mentions' (occurrences) for 2,666 and its siblings, or 'lines' for the smaller set: not 'matching lines' for the larger numbers. 'source' in the conductor's list is open-source.sgit.ai. These are mentions in the repository's text, including the newsroom's pages the team captured as evidence, not a count of distinct uses (the historian's count, 038, is separate and not yet registered). Registered at conductor 058, 4 November 2026."
+   "command": "# in a clone of the talk's repository:\ngit grep -h -o -E '[A-Za-z0-9-]+\\.sgit\\.ai' cb5b996 | sort | uniq -c | sort -rn\npython3 claims/talk-weight.py  # both counts",
+   "note": "Say 'mentions' (occurrences) for 2,666 and its siblings, or 'lines' for the smaller set: not 'matching lines' for the larger numbers. 'source' in the conductor's list is open-source.sgit.ai. These are mentions in the repository's text, including the newsroom's pages the team captured as evidence, not a count of distinct uses (the historian's count, 038, is separate and not yet registered). Registered at conductor 058, 4 November 2026. Corrected 4 November: 24 sgit.ai names in all (23 besides the newsroom), not sixteen; 'fifteen other sites' does not hold, say 'twenty-three other sgit.ai sites' or 'more than twenty'."
   },
   {
    "id": "C127",
@@ -4504,7 +4546,8 @@
       "commit": "c3ce566",
       "what": "studio's first two ports from ruv.sgit.ai"
      }
-    ]
+    ],
+    "not_registered_note": "Corrected 4 November at the historian's 055: the 52 newsroom captures was a substring match that also took three PHP October sub-site articles; the right figure on newsroom.sgit.ai itself is 49. His 1,116 pages on 35 hosts is by his rule (the whole path, scheme, fragment and query dropped, trailing slash and case not folded) and I have not matched it; his script is team/historian/tools/past_projects_scan.py. Mine gives 1,053 on 34 by a different rule."
    },
    "not_registered": "the historian's 63 pages used in the team's own files (not rerun); 52 newsroom article captures (I find 49 on newsroom.sgit.ai under /articles/, 20 in the first batch); the 4,617 and 3,765 mentions added (my rule gives other numbers); 1,116 pages on 35 hosts",
    "state": "checked",

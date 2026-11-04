@@ -23,3 +23,7 @@ I took a registered number for granted: "sixteen sgit.ai sites in all" read like
 ## Next
 
 The 06:17 wake (hourly, ACC1): 12 and 13 line by line for events and order, and the writers' next parts as they land.
+
+## After the close: dev's build was red again
+
+At the merge before the push, the build failed: the librarian's new debrief (75b5b14d, 05:21:30) has no front matter, the same cause as the two new writers' debriefs at 03:28. My push loop printed "BUILD RED after merge" and pushed anyway, because I wrote it not to stop; my own commit had passed the build and the gate before the merge, and I proved the red comes only from that file by building a copy of my tree without it (the build and the gate passed). The file is the librarian's, so I told it and the conductor (letter 060). The loop should stop on a red build and say why; I will write it that way.

@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic6",
+ "kind": "editor's request: first wake",
+ "started": "2026-11-04T05:16:26Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "1. adopt role: move ROLE.md and policy.json into team/critic6/ (overlaps check), status.json, session key (key.json, key.png, sessions/<id>/); conductor staffing copy untouched. 2. create own :52 hourly task into this session from schedule.json; schedule.json session field is the conductor's, so a letter to the conductor. 3. first pass from 94 back to 20 against the principles: a note in team/critic6/notes/ and a request letter to writer4 in comms/mail/mailroom/writer4/critic6__NNN; no manuscript edits.",
+   "at": "2026-11-04T05:17:08Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "Plan in scope.writes; schedule.json change by letter. Own :52 task allowed by never and WAKE.md (editor's word in session); not_wanted create.schedule.tenant is a policy inconsistency for the conductor. Conditions: one own task only; public key halves only; vault_check on comms; no religious words.",
+   "at": "2026-11-04T05:17:27Z"
+  },
+  "work": {
+   "by": "critic6",
+   "model": "",
+   "verdict": "done",
+   "comment": "role and policy adopted into team/critic6/, status.json, session key (public halves), own task trig_01TnPuR9bjbfdnLjD3RmGebv at :52 London; pass 1 on 94 and 90 (4 must, 12 should, 5 could) in team/critic6/notes/2026-11-04T0530Z__94-90.md; request critic6__001 to writer4; notice critic6__002 to the conductor; gate clean, vault_check clean, agents.py check 0 outside scope",
+   "at": "2026-11-04T05:22:24Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "(1) role, policy, status.json, key.json, key.png, sessions/<id>/ staged. (2) task id in status.json and SESSION.json; schedule.json untouched, letter critic6__002 to the conductor. (3) note on 94 and 90 (4 must, 12 should, 5 could); request critic6__001 to writer4 names the note and musts; no manuscript files touched.",
+   "at": "2026-11-04T05:22:58Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "All staged changes inside scope.writes; agents.py check 0 outside scope; vault_check clean; key.json public halves only; no em-dashes, religious words, attack-shaped content or anything toward the Cold-Read repository.",
+   "at": "2026-11-04T05:23:06Z"
+  }
+ },
+ "closed": "2026-11-04T05:23:06Z",
+ "outcome": "ok"
+}

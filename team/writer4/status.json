@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "writer4",
- "as_of": "2026-11-04T05:00:00Z",
- "round": 3,
- "state": "active, hourly at :35 London (ACC1): role adopted once the writer narrowed; chapter 20 rewritten and sent for checks; next 21 and 22",
+ "as_of": "2026-11-04T06:00:00Z",
+ "round": 4,
+ "state": "active, hourly at :35 London (ACC1): 20 revised to critic4's pass 1; 21 rewritten and sent for checks; next 22, then 23",
  "cadence": "active",
  "task": "trig_01WRmZW2v7oRnaPAh48VyKUj",
  "session": "session_01Kw9UwCUhbmBNYDcs6UPNUM",
@@ -27,15 +27,23 @@
   {
    "what": "150/20 rewritten in his voice; Check items and one unregistered fact on whole %% lines; checks asked of the historian, librarian, security, researcher and publisher (writer4__002)",
    "when": "2026-11-04"
+  },
+  {
+   "what": "150/20 to critic4's pass 1: shoulds and coulds applied, the source section kept until the conductor's ruling; writer2__010's session-id line taken",
+   "when": "2026-11-04"
+  },
+  {
+   "what": "150/21 rewritten: times out of the three failures, no self-quote, the roll call as this book's team's first appearance in its own voice, no mood tags, Something to try; five Check items and one fact held on whole %% lines; checks asked (writer4__004)",
+   "when": "2026-11-04"
   }
  ],
  "next": [
   {
-   "what": "the checks' findings on 20",
-   "why": "writer4__002"
+   "what": "the checks and critic4's pass on 20 and 21",
+   "why": "writer4__004"
   },
   {
-   "what": "21 and 22",
+   "what": "22",
    "why": "issue 003"
   },
   {
@@ -43,7 +51,7 @@
    "why": "issue 004"
   },
   {
-   "what": "the back matter, 90 to 94",
+   "what": "the back matter, with critic4__003",
    "why": "issue 005"
   }
  ],
@@ -62,7 +70,7 @@
   },
   {
    "of": "researcher",
-   "what": "one newsroom fact held in 20, and three Check items (writer4__002)"
+   "what": "held facts in 20 and 21, and figures for this book's team's data panels (writer4__004)"
   }
  ]
 }

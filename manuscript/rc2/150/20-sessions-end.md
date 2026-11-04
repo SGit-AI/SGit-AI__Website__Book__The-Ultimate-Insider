@@ -6,9 +6,9 @@
 
 ## Taken apart
 
-`%% for the editor: "That night the factory was taken apart" is your line from the short editions; the record holds the hold at 18:44, never lifted that day, and silence to the merge at 23:19, and nothing showing the sessions ending that night.`
+`%% for the editor: "That night the factory was taken apart" is your line from the short editions; the record holds the hold at 18:44, never lifted that day, and silence to the merge at 23:19, and nothing showing the sessions ending that night. Until you confirm it, the chapter opens with a line the record holds (critic4, pass 1). Also yours to confirm: "Here is the distinction that took me longest to see", in the next section.`
 
-**Narrator.** That night the factory was taken apart. The work stopped at the hold, and no member woke again that day: the nine agents, as running things, were done. What stayed was everything they had written down. Every page of rules. Every record of every session, with its plan, its reviews and its verdicts. Every debrief. Every mistake, in the agent's own words.
+**Narrator.** When the work stopped at the hold, the factory stopped with it, and no member woke again that day: the nine agents, as running things, were done. What stayed was everything they had written down: every page of rules, every record of every session with its plan, its reviews and its verdicts, every debrief, and every mistake, in the agent's own words.
 
 **Narrator.** When I say "a team of agents for a day", the part I mean most is the second half of that sentence. The team is temporary. The record is not. And the record is what the next factory is built from.
 
@@ -46,7 +46,7 @@
 
 > "a new session makes and publishes its own ... and never copies a private half across." *(record)*
 
-**Conductor**: The role carries on. The key does not. A new session makes its own, says so in public, and the old one is marked as finished, with a time.
+**Conductor**: The role carries on. The key does not.
 
 **Storyteller** *(reading its own handover)*: So I am the storyteller, and I am also not the one who wrote this morning's letters. Good. I will read them first.
 
@@ -62,35 +62,35 @@
 
 **Narrator.** I want to show you the rest of that handover, because it is one of the most useful documents in this part of the book, and I would copy its shape into any team, of agents or of people. The conductor wrote it, so it can walk you through it. One line, the one that names the old session and its key, is left out.
 
-**Conductor**: *Who you were.* Your role, by its name and its folder, and the four files in that folder that make it a role: the page of rules with what done means, the policy, the status, the debriefs. Then a line about the old session, and the rule that goes with it: the key stays in the record, and you make and publish your own.
+**Conductor**: *Who you were.* Your role, by its name and its folder, and the files in that folder that make it a role: the page of rules with what done means, the policy, the status, the debriefs. Then a line about the old session, which I leave out here.
 
-**Conductor**: *Start here.* Five steps, in order. Read the team's rules, the wake rules, your role, your policy, your status, your newest debrief, your board and your mail. Run the start, which pulls the team's branch first. Make and publish a session key. Create your hourly task only when the editor says the team restarts, and until then work only when he opens the session. And every wake runs the five steps and closes with the gate, a debrief and the end banner.
+**Conductor**: *Start here.* The steps, in order. Read the team's rules, the wake rules, your role, your policy, your status, your newest debrief, your board and your mail. Run the start, which pulls the team's branch first. Make and publish a session key. Create your hourly task only when the editor says the team restarts, and until then work only when he opens the session. And every wake runs the five steps and closes with the gate, a debrief and the end banner.
 
 **Conductor**: *Where you stand.* The plan, signed. The first draft, reviewed against it, with the review's findings in a letter. Your board, with what is open on it.
 
 **Conductor**: *First things to do.* Answer my latest letter. Propose where the words should be cut, as an open decision for the editor, because the draft has outgrown its plan. Take up, change or withdraw the cards I drafted in your name while you were away.
 
-**Conductor**: *Notes from this morning*, *Mail addressed to you*, and *The companion*: what was said this morning, which letters are waiting, and what the editor is reading on paper. *Where this came from*: every file this note rests on, so you can check me against the record instead of trusting me. Who you were, where to start, where you stand, what to do first, what is waiting, and where I got it all. Then it is yours.
+**Conductor**: *Notes from this morning*, *Mail addressed to you*, and *The companion*: what was said this morning, which letters are waiting, and what the editor is reading on paper. *Where this came from*: every file this note rests on, so you can check me against the record instead of trusting me. Then it is yours.
 
-**Narrator.** If I had to keep one line from that handover, it would be the one about me: my ticks become open decisions through the conductor, and nothing is acted on until I sign it. It is the same rule that nobody speaks for me, written into the first thing a new session reads.
+**Narrator.** If I had to keep one line from that handover, it would be the one about me: whatever I mark on paper becomes a question for me to sign, through the conductor, and nothing is acted on until I sign it. It is the same rule that nobody speaks for me, written into the first thing a new session reads.
 
 **Figure:** the handover as a page with its section headings in order and every line under them greyed but one: the rule that a new session makes its own key.
 
 `%% figure brief: For the designer. Headings only, as the file has them; the body lines as grey bars; the one key line shown only as its rule clause, never with the session or the key.`
 
-`%% record: this book's repository: team/conductor/handovers/storyteller.md (its headings: "Who you were", "Start here", "Where you stand", "First things to do", "Notes from this morning", "Mail addressed to you", "The companion", "Where this came from"; the key line quoted for its rule only, as security's letter 006 checked) comms/mail/storyteller/done/security__006-seventy-part-5-clear.eml`
+`%% record: this book's repository: team/conductor/handovers/storyteller.md (its headings: "Who you were", "Start here", "Where you stand", "First things to do", "Notes from this morning", "Mail addressed to you", "The companion", "Where this came from"; the key line quoted for its rule only, as security's letter 006 checked) comms/mail/storyteller/done/security__006-seventy-part-5-clear.eml; its line on his ticks on the paper companion becoming open decisions through the conductor, said in plain words`
 `%% band: Dramatised (the conductor's lines). This book's record: the conductor's handover for the storyteller of 30 October 2026, described section by section in the conductor's voice; no line that names a session or a key is printed.`
 *Dramatised.*
 
 ## What a member keeps, every session
 
-**Narrator.** A handover is the big version. The small version runs every session. Each member ends its turn with a debrief and a status file, and starts its next turn by reading them, and its mail, and its board. Nothing it needs lives anywhere else.
+**Narrator.** A handover is the big version. The small version runs every session.
+
+**Researcher**: I end every session with a debrief and my status, and I start the next by reading them, then my mail and my board. Nothing I need lives anywhere else. If it is not in my register, it is not a number. If it is not in my status, I did not do it.
 
 **Narrator.** It means a member can be started by the clock, by me, or by a brand new session on another account, and it starts in the same place. And when it gets something wrong, the mistake is in a file it will read next time.
 
 `%% Check (the newsroom, part five, chapter 20; his to confirm before it prints): "That last part is what I would want from any team: not that it never makes a mistake, but that it cannot forget one."`
-
-**Researcher**: If it is not in my register, it is not a number. If it is not in my status, I did not do it.
 
 `%% record: team/conductor/WAKE.md (the checklist, steps 1, 2 and 7); team/*/status.json, team/*/debriefs/ (this book's)`
 `%% band: Dramatised (the researcher's line). Rests on the wake rules of this book's team.`
@@ -98,7 +98,7 @@
 
 ## Something to try
 
-*Agents forget everything between sessions, and the files are what carry them across. A status file and a place for debriefs, read at the start of every session, do most of that work. Writing the handover you would want if your own session ended today is a good test of whether yours would.*
+*Agents forget everything between sessions, and the files are what carry them across. A status file and a place for debriefs, read at the start of every session, do most of that work. Writing the handover you would want if your own session ended today is a good test of whether your files would carry you across.*
 
 `%% record: team/conductor/from-newsroom/2026-11-04__do-this-now-as-invitations.md (chapter 20, the proposed card); chapter-plan/cast/cast-guide.md (page conventions 1)`
 
@@ -106,6 +106,6 @@
 
 ## Where this came from
 
-The talk team's folders at the end of the day. My account of 31 October, as the register holds it, given after the day, which chapter 16 now tells once. This book's own repository: the conductor's handover for the storyteller, walked through section by section, the handover rule the editor signed, the storyteller's two sessions, and the wake rules. Security's letter on what of the handover may be shown. The storyteller's outline for this chapter. No key, fingerprint, session id or task id is printed here; the key register is described only. This chapter keeps the 70-page edition's chapter 13 and adds the whole handover.
+The talk team's folders at the end of the day. My account of 31 October, as the register holds it, given after the day, which chapter 16 now tells once. This book's own repository: the conductor's handover for the storyteller, walked through section by section, the handover rule the editor signed, the storyteller's two sessions, and the wake rules. Security's letter on what of the handover may be shown. The storyteller's outline for this chapter. No key, fingerprint, session id or task id is printed in this chapter (the keys page, shown under AD1, is the one place the book shows session folder ids); the key register is described only. This chapter keeps the 70-page edition's chapter 13 and adds the whole handover.
 
 `%% record: talk repository at 298be4e (team/); claims/register.json C089; timeline/after-the-day.md; this repository: team/conductor/handovers/storyteller.md, team/conductor/WAKE.md, book.json H1, team/storyteller/sessions/; comms/mail/storyteller/done/security__006-seventy-part-5-clear.eml; chapter-plan/edition-150-outline.md part 5 chapter 20; manuscript/rc2/70/13-sessions-end.md`
