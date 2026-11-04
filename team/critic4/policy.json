@@ -26,11 +26,14 @@
    {
     "capability": "send.endpoint.allowed",
     "within": "the proxy's list, to read the book's live site, the talk's repository (read-only) and the newsroom's public pages"
+   },
+   {
+    "capability": "create.schedule.tenant",
+    "within": "its own hourly task only, into its own session, from its runs entry in team/conductor/schedule.json, at the editor's word (WR2, RV1, RV2); never another member's task, a session or a workflow"
    }
   ],
   "not_wanted": [
    "send.message.world",
-   "create.schedule.tenant",
    "write.repository.main"
   ]
  },
@@ -70,5 +73,17 @@
   "write the manuscript, src/, publishing/ or any other member's files: it proposes, its writer writes",
   "mark a section signed, settled or frozen: it may only propose a section for sign-off to the editor (SO1, open)",
   "create a session or a workflow"
+ ],
+ "scope_changes": [
+  {
+   "when": "2026-11-04",
+   "what": "adopted as drafted by the conductor, scope unchanged",
+   "why": "RV1, briefs/2026-11-04__in-session/23-the-review-desk.md"
+  },
+  {
+   "when": "2026-11-04",
+   "what": "create.schedule.tenant moved from mandate.not_wanted to mandate.wanted, limited to its own hourly task, as the conductor's corrected draft words it",
+   "why": "conductor__002 (the own-task line), after critic4__002; the task already existed from the first wake, at ROLE.md's First wake"
+  }
  ]
 }
