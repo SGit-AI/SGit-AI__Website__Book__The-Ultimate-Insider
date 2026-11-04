@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Read-and-verify work; writes within scope.writes; no secrets, no other member's files, no blind-repo flow; no HOLD.md.",
    "at": "2026-11-04T19:40:42Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "done",
+   "comment": "Done as planned at 99b2b63f: every must reported done searched for in the printed lines of its chapter; all on the page; 93's still open (not yet reported). Result lines updated in team/storyteller/reviews/150/, the second-pass table written; letter 157 to the conductor for the grid.",
+   "at": "2026-11-04T19:42:41Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "All 16 files in 99b2b63f inside scope.writes; no em-dashes, religious words, keys, tokens or contact details; nothing aimed at Cold-Read.",
+   "at": "2026-11-04T19:43:06Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Matches the plan: second-pass table, result lines, letter 157; 93 and 22 open. Spot-checks pass (93 still prints the must; 17's held line gone; 21's three hellos).",
+   "at": "2026-11-04T19:43:06Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T19:43:06Z",
+ "outcome": "ok"
 }
