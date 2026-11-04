@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T17:12:56Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Recheck 18, 16, 19, 23, 91, 93, 20, 21, 92 as changed; letters, review, debrief, status; build+gate before push.",
+   "at": "2026-11-04T17:13:19Z"
+  },
+  "pre_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No secret, contact detail, model name or Cold-Read cross; writes in scope.",
+   "at": "2026-11-04T17:13:19Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Rechecked 16, 18-21, 23, 91-93 after the hold: 18's must closed, nothing open; researcher's final pass run in the talk's clone, no fails; letters writer3 003, writer4 009, conductor 053; review, README, debrief, status; build+gate clean.",
+   "at": "2026-11-04T17:16:27Z"
+  },
+  "post_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "17 files in scope; no em-dash, religious word, model name, contact detail, key or Cold-Read flow.",
+   "at": "2026-11-04T17:16:44Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Rechecks, letters, review, README, debrief, status all in the diff; 18's blockquote matches agents.py line 7 at 298be4e word for word; the debrief's wake count slip (three for four) corrected.",
+   "at": "2026-11-04T17:16:44Z"
+  }
+ },
+ "closed": "2026-11-04T17:16:44Z",
+ "outcome": "ok"
+}

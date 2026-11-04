@@ -40,7 +40,7 @@ One file per chapter of the manuscript, built by `index/tools/chapter_entries.py
 | [`150__13-the-story-before-the-slides.md`](150__13-the-story-before-the-slides.md) | 4 | 0 | 9 | 0 | 7 | 0 |
 | [`150__14-port-not-rebuild.md`](150__14-port-not-rebuild.md) | 4 | 0 | 10 | 0 | 12 | 0 |
 | [`150__15-hour-eighteen-faster-than-the-clock.md`](150__15-hour-eighteen-faster-than-the-clock.md) | 3 | 0 | 9 | 0 | 13 | 0 |
-| [`150__16-hour-nineteen-minute-by-minute.md`](150__16-hour-nineteen-minute-by-minute.md) | 3 | 0 | 8 | 0 | 18 | 1 |
+| [`150__16-hour-nineteen-minute-by-minute.md`](150__16-hour-nineteen-minute-by-minute.md) | 3 | 0 | 8 | 0 | 18 | 0 |
 | [`150__17-what-did-not-work.md`](150__17-what-did-not-work.md) | 11 | 0 | 15 | 0 | 17 | 0 |
 | [`150__18-how-do-we-contain-this.md`](150__18-how-do-we-contain-this.md) | 10 | 1 | 13 | 0 | 7 | 0 |
 | [`150__19-a-second-team-reading-cold.md`](150__19-a-second-team-reading-cold.md) | 7 | 0 | 14 | 0 | 17 | 0 |
