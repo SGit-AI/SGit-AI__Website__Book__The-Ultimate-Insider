@@ -69,3 +69,5 @@ source: comms/mail/mailroom/publisher/conductor__026-check-taken.eml; publishing
 3 November about 23:52 UTC: Start here first in the seventy and the full book; 94 traced; 92 and 93 held for their reads; the full book 112, 55 lines drawn.
 
 4 November about 00:40 UTC: the editor's setup sheet (publishing/SETUP-SHEET.md) for Leanpub and KDP; a test print interior at 111 pages; Leanpub's mode open for the editor (conductor 047).
+
+4 November about 01:10 UTC: every RC2 PDF at full size (the clock note overflowed and shrank every page to about 0.85); thirty 36, seventy 72, full 133; title raised; pagination pass next (pages 73 and 130 of the full book, 35 of the thirty, 36 of the seventy).

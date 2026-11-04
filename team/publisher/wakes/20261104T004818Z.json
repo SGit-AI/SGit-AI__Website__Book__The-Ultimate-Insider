@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T00:48:18Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; Bash read only)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope and in order: inbox, rc2_map.py after the gate (121), .clock inside the text column (a layout fix in my lane), the title raised (067), rebuild and check scale and breaks, setup sheet's counts, letters conductor, designer and a line to the writer; 93 stays out. No HOLD.",
+   "at": "2026-11-04T00:52:22Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "The three LAB 43 SVGs shapes and text only, public record; each card file holds both cards, cropped by viewBox (harmless, tell the designer). Condition: vault_check comms.",
+   "at": "2026-11-04T00:52:22Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Found and fixed the shrink: .clock hung 26 mm into the margin, Chromium shrank every RC2 page to ~0.85 (cover short, 9.5 pt printed ~8 pt); now in the column; title raised (067); rc2_map.py (121, 57 drawn); 93 held; setup sheet counts (interior 132); letters conductor 048, designer 040, writer 031; records",
+   "at": "2026-11-04T00:54:37Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "18 staged files in scope; build_book.py compiles, padding only; arithmetic and every dollar figure right; inbox copies identical; no key, contact, dash, religious or directing text; vault_check clean.",
+   "at": "2026-11-04T00:55:55Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Every item to plan; the scale and break checks rest on the work step's builds.",
+   "at": "2026-11-04T00:55:55Z"
+  }
+ },
+ "closed": "2026-11-04T00:55:55Z",
+ "outcome": "ok"
+}
