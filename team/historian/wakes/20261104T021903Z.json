@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T02:19:03Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Plan: conductor 035 first (the editor's ask): the eight afternoon asks from the talk's clone, what each built, size from the diff with the command, a stated major rule, where the work landed, the delta; the four routing rows measured from the later work commits; plus any other afternoon ask the record shows; timeline/afternoon-asks.md, letter 047 to the conductor, copies to researcher and ruv-sgit; numbers proposed for the researcher to register. Then a times pass on 150/01 (letter 048 if needed). Writes in scope; no HOLD. Tools: reading list only.",
+   "at": "2026-11-04T02:20:02Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Writes in scope; the talk's repository read only; no Cold-Read; no HOLD; numbers as proposals for the researcher. Note: the step did not read CLAUDE.md or the brief files in full. Tools: reading list only.",
+   "at": "2026-11-04T02:20:15Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Conductor 035 (the editor's ask): timeline/afternoon-asks.md and letter 047 (copies to researcher, ruv-sgit): eight asks traced from his ask to the work, the four routed rows past the routing commit, major rule stated first, two feedback-round asks added; findings: 11 beats placed, five of six showcases not placed before the hold, the 17:45 ask built a claims check and no piece. 150/01 holds (048). Letters filed; debrief; status.",
+   "at": "2026-11-04T02:24:20Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "Paths in scope; the two letters received filed by identical copy; the mailroom copies of 047 and 048 identical to the outbox; no keys, ids, model names, em-dashes, religious words; the new file describes slides and pages only; nothing to Cold-Read; dates before the clock. Tools: reading list only.",
+   "at": "2026-11-04T02:26:20Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "Every commit time, file count, line count, new-file count and delta in afternoon-asks.md rechecked against the talk's clone and matching (17:52:15 minus 17:27 is 25 min 15 s; 838 lines for 3314ffe); letter 047 agrees with the file; all planned items staged, nothing unplanned. Not checked by the step: the 11 beats and the 47 to 58 count, which the historian computed from the beat ids in talk.json at b1c9bab^ and b1c9bab (and 58 at 298be4e). Tools: reading list only.",
+   "at": "2026-11-04T02:26:52Z"
+  }
+ },
+ "closed": "2026-11-04T02:26:52Z",
+ "outcome": "ok"
+}
