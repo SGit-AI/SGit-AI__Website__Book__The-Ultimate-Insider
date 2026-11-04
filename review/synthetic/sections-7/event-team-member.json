@@ -1,0 +1,34 @@
+{
+ "schema": "the-ultimate-insider/synthetic-section-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "event-team-member",
+ "read_at": "6acbd5a5",
+ "would_read_on": {
+  "18-how-do-we-contain-this": "yes",
+  "19-a-second-team-reading-cold": "maybe",
+  "06-roles-as-a-cast-you-can-read": "maybe"
+ },
+ "findings": [
+  {"file": "19-a-second-team-reading-cold.md", "line": 22, "quote": "Both read the hold the same way: part one final, not locked.", "principle": "reader", "severity": "must", "why": "A run of talk-team shorthand (hold, locked, five-step session, hour eighteen) in one paragraph, before the book's own terms are placed for a busy reader on a phone."},
+  {"file": "18-how-do-we-contain-this.md", "line": 19, "quote": "any member, in any session, can write the file.", "principle": "reader", "severity": "should", "why": "'The file' is never named here, so the one mechanism a team could copy (a hold file anyone may write) is not clear until much later."},
+  {"file": "18-how-do-we-contain-this.md", "line": 98, "quote": "Any member may write a hold. Only I lift it, and only I restart a member's work.", "principle": "reader", "severity": "should", "why": "A reader whose deal-breaker is one central person needs the book to say plainly that this is a single point of failure and what the named stand-in would be, not only that one is missing."},
+  {"file": "18-how-do-we-contain-this.md", "line": 34, "quote": "That line is the whole chapter in one sentence.", "principle": "7", "severity": "should", "why": "A 'that is the point' style opening that tells me what to take from the quote instead of letting the next sentences do it."},
+  {"file": "18-how-do-we-contain-this.md", "line": 17, "quote": "Draw the day as states and it is very simple.", "principle": "21", "severity": "should", "why": "The figure on line 13 already draws running, held, released, and these paragraphs then read the same picture out again."},
+  {"file": "06-roles-as-a-cast-you-can-read.md", "line": 158, "quote": "\"A scope is a setting, not a boundary: it catches mistakes, not a steered agent.\"", "principle": "21", "severity": "should", "why": "The same slide line is quoted at length in chapter 18 line 32 with the same gloss, so the best idea in the pair is spent twice."},
+  {"file": "18-how-do-we-contain-this.md", "line": 54, "quote": "No session ever held it. Part five is where it gets its chair.", "principle": "reader", "severity": "should", "why": "Chapter 6 says part four covers security's empty chair and this chapter fills the chair at its own end, so 'part five' sends me looking for the wrong place."},
+  {"file": "06-roles-as-a-cast-you-can-read.md", "line": 5, "quote": "That is the point: a team of agents you cannot read is a team you cannot trust.", "principle": "7", "severity": "could", "why": "A 'that is the point' opening that announces the lesson, and the preceding two short sentences make it a run of three."},
+  {"file": "18-how-do-we-contain-this.md", "line": 110, "quote": "It was lifted at my word, given in another member's session, and that session carried it out", "principle": "reader", "severity": "should", "why": "I cannot tell who did what; a team copying the pattern needs the stop and restart steps spelled out in order."},
+  {"file": "19-a-second-team-reading-cold.md", "line": 46, "quote": "Most of the player's commits of the afternoon, and the lock tool, name no member", "principle": "reader", "severity": "should", "why": "'The player' and 'the lock tool' are used as if known; as a first reader I stall on what they are."},
+  {"file": "19-a-second-team-reading-cold.md", "line": 24, "quote": "Two readers who never compared notes reached the same sequence.", "principle": "21", "severity": "should", "why": "The historian's line two paragraphs on (line 28) says the same thing again, and the paragraph before it already showed the agreement."},
+  {"file": "18-how-do-we-contain-this.md", "line": 104, "quote": "The record does not say whether one would have; it only shows that none had to.", "principle": "1", "severity": "could", "why": "The narrator reports what the record shows instead of saying from now, in the first person, what the editor makes of it."},
+  {"file": "19-a-second-team-reading-cold.md", "line": 15, "quote": "no brief, no chapter, no decision, no finding.", "principle": "7", "severity": "could", "why": "A short list of four after the same device on line 9 (no timeline, no register, no chapter), so the pattern starts to feel like a habit."},
+  {"file": "06-roles-as-a-cast-you-can-read.md", "line": 178, "quote": "something you expect, something that checks, or something that locks.", "principle": "reader", "severity": "could", "why": "A good takeaway, but it comes after nine long interviews and is the only thing a busy reader can act on tomorrow, so it is late and thin."}
+ ],
+ "what_holds": [
+  "18-how-do-we-contain-this.md: the running, held, released picture is a copyable pattern for my own team, and the chapter says plainly how thin some of the controls were.",
+  "18-how-do-we-contain-this.md: the 'Something to try' card (write down who stops and who restarts before you need it) is something I could do this week.",
+  "19-a-second-team-reading-cold.md: the idea of giving finished work to someone with none of your context is simple and transferable, and the six things the blind team found make it concrete.",
+  "06-roles-as-a-cast-you-can-read.md: the plain-words page plus a checkable policy for every agent is a pattern I could copy with the agents I already have, and the list of what did not go well in each interview is honest."
+ ],
+ "notes": "Read on a phone in five minutes, chapter 6 is too long for me (nine interviews) and chapter 19 leans on talk-team shorthand; chapter 18 is the one I would act on. The stop-and-restart rule depends on the editor alone, which is the deal-breaker for my team unless a named stand-in is spelled out."
+}

@@ -1,0 +1,156 @@
+{
+ "schema": "the-ultimate-insider/synthetic-section-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "first-build-finisher",
+ "read_at": "6acbd5a5",
+ "would_read_on": {
+  "18-how-do-we-contain-this": "yes",
+  "19-a-second-team-reading-cold": "maybe",
+  "06-roles-as-a-cast-you-can-read": "maybe"
+ },
+ "findings": [
+  {
+   "file": "18-how-do-we-contain-this.md",
+   "line": 19,
+   "quote": "One transition anyone can take: any member, in any session, can write the file.",
+   "principle": "reader",
+   "severity": "should",
+   "why": "Transition, session and the file are all new words to someone who has only built one app, and the hold file has not been shown yet."
+  },
+  {
+   "file": "18-how-do-we-contain-this.md",
+   "line": 19,
+   "quote": "That is the whole design of the brake.",
+   "principle": "7",
+   "severity": "could",
+   "why": "A short declarative opening that announces its own importance, followed by short sentences."
+  },
+  {
+   "file": "18-how-do-we-contain-this.md",
+   "line": 23,
+   "quote": "The one limit is the one chapter 16 found",
+   "principle": "reader",
+   "severity": "should",
+   "why": "A forward-looking pointer to a chapter I may not have read, with no hint of what the limit means for me."
+  },
+  {
+   "file": "18-how-do-we-contain-this.md",
+   "line": 34,
+   "quote": "That line is the whole chapter in one sentence.",
+   "principle": "21",
+   "severity": "should",
+   "why": "The same line was already quoted in chapter 6 and is the section's second 'whole' claim after line 19, so it tells me twice what to take away."
+  },
+  {
+   "file": "18-how-do-we-contain-this.md",
+   "line": 76,
+   "quote": "rules in plain words, a scope check that catches mistakes, a second reading in the same room",
+   "principle": "21",
+   "severity": "should",
+   "why": "This re-lists the three sections I have just read, so the argument is said again before it is turned on the factory."
+  },
+  {
+   "file": "18-how-do-we-contain-this.md",
+   "line": 112,
+   "quote": "six attempts, each refused or failed, one of them only probable, and nothing acted",
+   "principle": "reader",
+   "severity": "should",
+   "why": "Review step, attempt and register are not explained, so I cannot tell what was attempted or why it matters."
+  },
+  {
+   "file": "18-how-do-we-contain-this.md",
+   "line": 104,
+   "quote": "The record does not say whether one would have; it only shows that none had to.",
+   "principle": "1",
+   "severity": "could",
+   "why": "This reports the record in the third person, where I want the editor saying what he makes of it now."
+  },
+  {
+   "file": "18-how-do-we-contain-this.md",
+   "line": 129,
+   "quote": "It has a session, a key and a page of rules of its own",
+   "principle": "reader",
+   "severity": "could",
+   "why": "A key is never explained for someone without a coding background."
+  },
+  {
+   "file": "19-a-second-team-reading-cold.md",
+   "line": 22,
+   "quote": "Both read the hold the same way: part one final, not locked.",
+   "principle": "reader",
+   "severity": "should",
+   "why": "A dense run of agreements (hold, locked, tasks switched off, sessions closing partial) that I cannot follow without the earlier chapters."
+  },
+  {
+   "file": "19-a-second-team-reading-cold.md",
+   "line": 24,
+   "quote": "Two readers who never compared notes reached the same sequence.",
+   "principle": "21",
+   "severity": "should",
+   "why": "The historian's next line says the same thing again in different words."
+  },
+  {
+   "file": "19-a-second-team-reading-cold.md",
+   "line": 46,
+   "quote": "each carries dev's session line, and, as this book then found on rechecking, dev's agent line too",
+   "principle": "reader",
+   "severity": "should",
+   "why": "Commits, subjects and trailers are used as if known, and the point of the finding is lost on me."
+  },
+  {
+   "file": "19-a-second-team-reading-cold.md",
+   "line": 93,
+   "quote": "the two commits that never reached the team's branch",
+   "principle": "reader",
+   "severity": "must",
+   "why": "This paragraph is a stack of unexplained internals (reply file, branch, commits) that would make a non-programmer stop reading."
+  },
+  {
+   "file": "06-roles-as-a-cast-you-can-read.md",
+   "line": 5,
+   "quote": "You can read both. That is the point:",
+   "principle": "7",
+   "severity": "could",
+   "why": "'That is the point' opening, and 'You can read both' sends me to files I am not shown."
+  },
+  {
+   "file": "06-roles-as-a-cast-you-can-read.md",
+   "line": 54,
+   "quote": "shortened by this book's writer in its own words: not the agent's words",
+   "principle": "reader",
+   "severity": "should",
+   "why": "Three layers of authorship (agent, historian, writer) in one bold sentence is hard to hold before I have read a single interview."
+  },
+  {
+   "file": "06-roles-as-a-cast-you-can-read.md",
+   "line": 66,
+   "quote": "I put the record check into the gate, so a wake that skipped a step failed the build for every member.",
+   "principle": "reader",
+   "severity": "must",
+   "why": "Gate, wake, build and record check are all jargon in one sentence; this is the first interview and it reads as written for programmers."
+  },
+  {
+   "file": "06-roles-as-a-cast-you-can-read.md",
+   "line": 147,
+   "quote": "The conductor named the limit itself: a second reading, not a second identity.",
+   "principle": "21",
+   "severity": "should",
+   "why": "The same conductor line is quoted at chapter 6 line 75, in chapter 18 and in chapter 19, so I meet it four times."
+  },
+  {
+   "file": "06-roles-as-a-cast-you-can-read.md",
+   "line": 160,
+   "quote": "That catches an agent that wanders by mistake, and on the day it caught some.",
+   "principle": "21",
+   "severity": "should",
+   "why": "Chapter 18 gives the same scope explanation at its line 34, nearly sentence for sentence."
+  }
+ ],
+ "what_holds": [
+  "18-how-do-we-contain-this.md: the three states of the hold, 'running, held, released', are something I can picture, and 'a second reading, not a second reader' is a line I can keep.",
+  "18-how-do-we-contain-this.md: the 'Something to try' card is a step I could take tomorrow without code: write down who may stop the team and who restarts it.",
+  "19-a-second-team-reading-cold.md: the idea of handing finished work to someone with no context is something a beginner can do, and the closing card says so simply.",
+  "06-roles-as-a-cast-you-can-read.md: each member speaking in the first person, with what went wrong left in, makes the cast easy to follow."
+ ],
+ "notes": "The two chapters about the factory's own team (19 and the interviews in 06) lean on the book's internal vocabulary; the opening chapter 18 is the most welcoming. Counts: see findings."
+}

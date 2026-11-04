@@ -1,0 +1,131 @@
+{
+ "schema": "the-ultimate-insider/synthetic-section-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "newsroom-builder",
+ "read_at": "6acbd5a5",
+ "would_read_on": {
+  "18-how-do-we-contain-this": "yes",
+  "19-a-second-team-reading-cold": "maybe",
+  "06-roles-as-a-cast-you-can-read": "yes"
+ },
+ "findings": [
+  {
+   "file": "18-how-do-we-contain-this.md",
+   "line": 17,
+   "quote": "Draw the day as states and it is very simple.",
+   "principle": "7",
+   "severity": "should",
+   "why": "Lines 17 to 19 run short declaratives together ('That is the whole design of the brake. One transition anyone can take...'), where one longer sentence could carry the thought."
+  },
+  {
+   "file": "18-how-do-we-contain-this.md",
+   "line": 46,
+   "quote": "That is real defence. It had plans amended. It found slips.",
+   "principle": "7",
+   "severity": "should",
+   "why": "Three short sentences in a row, and for a reader who wants the record behind every line, 'found slips' gives no count or pointer."
+  },
+  {
+   "file": "18-how-do-we-contain-this.md",
+   "line": 76,
+   "quote": "These agents had an insider's reach.",
+   "principle": "21",
+   "severity": "should",
+   "why": "Line 5 already asked 'These agents had an insider's reach. What contained them?'; the same sentence is told again as if new."
+  },
+  {
+   "file": "18-how-do-we-contain-this.md",
+   "line": 34,
+   "quote": "That line is the whole chapter in one sentence.",
+   "principle": "21",
+   "severity": "should",
+   "why": "Chapter 6 (line 156) says 'this whole chapter turns on it' about the same slide quote, so the line is introduced and praised twice across the book."
+  },
+  {
+   "file": "18-how-do-we-contain-this.md",
+   "line": 98,
+   "quote": "who may lift it when I am away is written down before it is needed. Until it is, nobody does.",
+   "principle": "reader",
+   "severity": "should",
+   "why": "I cannot tell whether such a name is written down in this team or not; for a builder deciding who signs, this is the key control and it reads as a conditional."
+  },
+  {
+   "file": "18-how-do-we-contain-this.md",
+   "line": 110,
+   "quote": "that session carried it out at my instruction",
+   "principle": "reader",
+   "severity": "should",
+   "why": "Who held the lift is blurred ('another member's session'); a reader worried about a rubber-stamping editor cannot tell whether the editor himself signed."
+  },
+  {
+   "file": "18-how-do-we-contain-this.md",
+   "line": 112,
+   "quote": "six attempts, each refused or failed, one of them only probable, and nothing acted",
+   "principle": "reader",
+   "severity": "could",
+   "why": "'Only probable' is unexplained in the text; the count is sourced in the notes but the sentence alone leaves me unsure what a probable attempt is."
+  },
+  {
+   "file": "19-a-second-team-reading-cold.md",
+   "line": 24,
+   "quote": "Two readers who never compared notes reached the same sequence.",
+   "principle": "21",
+   "severity": "should",
+   "why": "The historian line at 28 ('Two readers, no notes shared, the same day to the second') and the figure at 30 say the same finding a third time, and line 106 a fourth."
+  },
+  {
+   "file": "19-a-second-team-reading-cold.md",
+   "line": 22,
+   "quote": "Both read the hold the same way: part one final, not locked.",
+   "principle": "reader",
+   "severity": "should",
+   "why": "'The hold', 'part one final' and 'locked' are used here as settled terms; a newcomer to the book (or this chapter on its own) has not been given them."
+  },
+  {
+   "file": "19-a-second-team-reading-cold.md",
+   "line": 93,
+   "quote": "the two commits that never reached the team's branch",
+   "principle": "reader",
+   "severity": "could",
+   "why": "Jargon without a gloss ('commits', 'team's branch') in a paragraph that is a list of things the blind team could not see; I skim it."
+  },
+  {
+   "file": "06-roles-as-a-cast-you-can-read.md",
+   "line": 5,
+   "quote": "That is the point: a team of agents you cannot read is a team you cannot trust.",
+   "principle": "7",
+   "severity": "should",
+   "why": "A 'That is the point' opening, and it states a claim that the chapter then shows rather than needs saying."
+  },
+  {
+   "file": "06-roles-as-a-cast-you-can-read.md",
+   "line": 54,
+   "quote": "Every passage marked \"shortened from the historian's reconstruction\" is the historian's reading of that agent's record",
+   "principle": "reader",
+   "severity": "should",
+   "why": "This bold paragraph tangles three authors (agent, historian, writer) in one sentence; I stall on whose words the first-person interviews are, which matters to someone exacting about sources."
+  },
+  {
+   "file": "06-roles-as-a-cast-you-can-read.md",
+   "line": 160,
+   "quote": "It does not stop an agent that has been talked into doing something else",
+   "principle": "21",
+   "severity": "should",
+   "why": "Chapter 18 (line 34) explains the same scope-versus-steered-agent point in almost the same words, so the explanation is given twice."
+  },
+  {
+   "file": "06-roles-as-a-cast-you-can-read.md",
+   "line": 118,
+   "quote": "The storyteller came late, with a map.",
+   "principle": "1",
+   "severity": "could",
+   "why": "The narrator introduces members as a reporter would (lines 109, 118, 127, 136), with no 'I' and no hindsight."
+  }
+ ],
+ "what_holds": [
+  "18-how-do-we-contain-this.md: the hold with 'anyone stops, only the editor restarts' answers my question about who signs, and the chapter admits what was thin (the empty security chair, the locks never turned).",
+  "06-roles-as-a-cast-you-can-read.md: saying plainly that nobody asked the agents and that the interviews are the historian's reconstruction is the sourcing honesty I look for.",
+  "19-a-second-team-reading-cold.md: the one-way valve and the six things the blind team found that this team missed make the checking credible."
+ ],
+ "notes": "Quotes checked against the files before writing. As a newsroom builder I want the signature as control: the editor-only restart is clear, but the stand-in when the editor is away is left open."
+}
