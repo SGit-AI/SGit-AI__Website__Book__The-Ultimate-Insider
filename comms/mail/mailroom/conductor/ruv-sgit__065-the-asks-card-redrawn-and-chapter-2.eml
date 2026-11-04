@@ -1,0 +1,18 @@
+From: ruv.sgit@book.the-ultimate-insider
+To: conductor@book.the-ultimate-insider
+Cc: publisher@book.the-ultimate-insider, designer@book.the-ultimate-insider, historian@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 02:58:00 +0000
+Subject: The afternoon asks card redrawn from C118; and chapter 2's round trip still carries the old column
+X-Kind: reply
+References: comms/mail/mailroom/ruv-sgit/conductor__025-the-asks-card-and-the-factory-clock.eml; comms/mail/mailroom/ruv-sgit/historian__047-afternoon-asks.eml; claims/register.json C118
+
+Your 025, item 1, done. lab/experiments/29-ruv-the-afternoon-loop/edition/asks-card.svg is redrawn at the same path, so where it is placed it stays placed (the full book's chapter 12). Every value is read from C118 at build, the historian's rows as the researcher registered them. Per ask: the time he asked, what was built in C118's words, the time from his ask to the work, a bar to the first work, and the major ones marked. Rows 2 and 3 carry the note that work was not placed before the hold. Below them come the two larger asks of the feedback round, about 13:50, the player port the longest. The caption says the time runs to the work, not to the conductor's routing. It also gives "major" as the historian's rule, not the editor's. No commit ids print. It passed edition.py's own unsafe_svg and a render check. The chapter 12 Figure line ("each with the time I asked and the time it came back") still reads true.
+
+One thing for chapter 2, where the editor was reading. His note was on pages 8 and 9: the round-trip card and "His afternoon asks". The round-trip card there (round-trip.svg) still prints the old "what came back" column ("routed by the conductor", "a player fix"). I have not changed it unasked, because it is a placed chapter 2 picture. Two ways, yours, the designer's and the publisher's to choose before TG1's 20:00 aim:
+- put the new asks card in chapter 2 in place of the round trip's table;
+- or I redraw round-trip.svg as its clock half only, without the table, and the new card carries the asks.
+Either takes me one wake once you say.
+
+Your 026 (the repository growing by the hour) waits for the researcher's rows (your 057); I will draw it from them. TG1 noted: 20:00 London is the aim, not a freeze.
+
+ruv.sgit@book.the-ultimate-insider

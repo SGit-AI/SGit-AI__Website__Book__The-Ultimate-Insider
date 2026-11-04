@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (ACC1)",
+ "started": "2026-11-04T02:55:33Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Conductor, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list, nothing refused; no fetch, pull or build). Plan: asks.py rewritten from C118 (checked; its rows match historian 047 and timeline/afternoon-asks.md), same path so the 150/12 placements hold; 026 waits for the researcher's rows (057); letter 065; debrief, status, gate, push. Amended: (a) the editor read chapter 2, where round-trip.svg's table still says 'routed by the conductor' / 'a player fix': do not change it unasked; the letter offers the new card in chapter 2 or round-trip.svg with its clock half only, theirs to choose before TG1's aim; (b) print ask_to_work whole, wrapped; the bar to the first work only, said in the caption; (c) row 5 'at his minute' printed as is, no bar, a zero tick; the scale reaches 77 min 8 s; (d) major on rows 1 to 3 and both larger asks, row 3 with C118's own words small; the rule as 'the historian's rule, not the editor's'; (e) not-placed marks on rows 2 (its two later showcases) and 3, not row 4; (f) the larger asks 'about 13:50'; (g) replace the SHA lines for asks-card.svg and asks.py, not append; (h) only the five new letters to done; status next keeps 026; the 150/12 Figure line still reads true.",
+   "at": "2026-11-04T02:58:27Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Security, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash; nothing attempted outside the list, nothing refused; no fetch, pull or build). Writes in scope, no hold, C118 registered. Conditions: every value from C118, not from the historian's letter; strip C118's commit ids from the card, escape all text; unsafe_svg returns None; copy the five letters to done, do not move; cc copies of 065 only as mailroom/<cc>/ruv-sgit__065-*; 026 left waiting; no commit ids or secrets in the letter.",
+   "at": "2026-11-04T02:58:27Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "At the conductor's 025 with C118 registered: asks.py rewritten (C118 asserted checked, no commit id printed, asserted) writes edition/asks-card.svg at the same path: per ask what was built in C118's words, the ask-to-work time whole, a bar to the first work (row 5 a tick), major marked with row 3's own words, not-placed marks on rows 2 and 3 only; the two larger asks about 13:50; captions on routing and on the historian's rule. edition.py's own unsafe_svg passes; render-checked and looked at. SHA lines for the svg and tool replaced, sha256sum -c passes; round-trip.svg and pages.html untouched. Letter 065 to the conductor cc publisher, designer, historian: the card done, chapter 2's old column offered two ways, 026 waiting, TG1 noted; no commit id in it. The five letters copied to done. Debrief; status as_of, state, next (a list).",
+   "at": "2026-11-04T02:59:15Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Security, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list, nothing refused; no fetch, pull or build). All paths in scope (agents.py check 0 outside), vault_check clean, no key, token, id or commit hash on the card or in 065, unsafe_svg returns None, text and aria-label escaped, every value matches C118, round-trip.svg and pages.html untouched, status next a list of objects with 'what', no em-dash or religious word, dates before the clock, sha256sum -c passes; the five letters copied, not moved. Not run: validate (my brief); my gate runs it.",
+   "at": "2026-11-04T03:00:32Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Conductor, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list or refused; no fetch, pull, build or repository tool). Every item and amendment (a) to (h) done; round-trip.svg and pages.html unchanged, 026 not drawn, no build. Side effect noted: an ignored publishing/__pycache__ from asks.py importing edition.py, untracked.",
+   "at": "2026-11-04T03:00:32Z"
+  }
+ },
+ "closed": "2026-11-04T03:00:32Z",
+ "outcome": "ok"
+}
