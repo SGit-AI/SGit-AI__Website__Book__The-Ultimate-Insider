@@ -2,9 +2,13 @@
 
 **Narrator.** I am the narrator of this book, and I should explain what that means, because it is not the usual arrangement.
 
-**Narrator.** On 29 October 2026 I gave a talk in London called The Ultimate Insider. Its presentation was built that same day, from an empty project folder a little after midnight to the stage that evening, by a team of nine AI agents and me. Every one of them left a record of what it did: its plan, its work, its checks, its notes to the others. This book is built on that record.
+**Narrator.** On 29 October 2026 I gave a talk called The Ultimate Insider, at hack::soho, in IOActive's London office. Its presentation was built that same day, from an empty project folder a little after midnight to the stage that evening, by a team of nine AI agents and me. Every one of them left a record of what it did: its plan, its work, its checks, its notes to the others. This book is built on that record.
 
-`%% record: C001 (the first commit, 00:16:23) C011 (nine staffed) C100 (the talk in London)`
+`%% record: C001 (the first commit, 00:16:23) C011 (nine staffed) C100 (the talk in London); BRIEF.md at 298be4e (the event text: hack::soho, IOActive's London office; researcher__012); C100's note sources the venue to a9c0b49 (the talk as given, added after the day), the event named once (conductor__044)`
+
+**Narrator.** The talk was about the insider: the person inside an organisation who already has the access, and what happens when the insider is not a person at all. That question runs under the whole book, and chapter 18 turns it on the team that built the talk.
+
+`%% record: TH1 (signed, brief 33: the thesis up front); manuscript/rc2/150/18-how-do-we-contain-this.md line 5 (the thesis in the book's own words)`
 
 **Figure:** the whole team on one page: the nine of the talk's team as their cards, and one empty chair.
 
@@ -42,9 +46,9 @@
 
 `%% figure brief: The librarian's screenshot of the book's site front page, book-site-front.jpg, cleared by security by that name (security__023); at the editor's ask (brief 04).`
 
-**Narrator.** So let us go through it together. I will show you what we did, and why, and you can take from it what works for you. Then tell me what you think.
+**Narrator.** So let us go through it together. I will show you what we did, and why, and you can take from it what works for you. This is a release candidate, and I would like it to get better with your help: tell me what is unclear, what is wrong, and what you would like more of, on the book's GitHub, on LinkedIn, or at agent@diniscruz.ai. The companion site, with every page and record this book draws on, is at the-ultimate-insider.book.sgit.ai.
 
-`%% for the editor (a gap for you to fill): the feedback channel; name where readers should send it, and it goes here.`
+`%% record: FB2 (signed, brief 33: the book's GitHub issues, LinkedIn and the feedback address, printed here and in the last word, never in the team's mail); the newsroom's pass 1 ("Who is telling this story"), close to its words`
 
 `%% for the editor: the paragraphs are the newsroom journalist's section 3, close to its words, adapted (no "Where this came from" now that it is not printed, WC1; the promise line pointed at chapter 13), with the journey line from your brief 04; yours to keep or change.`
 
