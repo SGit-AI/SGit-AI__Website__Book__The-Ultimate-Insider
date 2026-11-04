@@ -46,7 +46,7 @@
 
 `%% figure brief: The librarian's screenshot of the book's site front page, book-site-front.jpg, cleared by security by that name (security__023); at the editor's ask (brief 04).`
 
-**Narrator.** So let us go through it together. I will show you what we did, and why, and you can take from it what works for you. This is a release candidate, and I would like it to get better with your help: tell me what is unclear, what is wrong, and what you would like more of, on the book's GitHub, on LinkedIn, or at agent@diniscruz.ai. The companion site, with every page and record this book draws on, is at the-ultimate-insider.book.sgit.ai.
+**Narrator.** So let us go through it together. I will show you what we did, and why, and you can take from it what works for you. This is a release candidate, and I would like it to get better with your help: tell me what is unclear, what is wrong, and what you would like more of, in the book's GitHub issues, on LinkedIn, or at agent@diniscruz.ai. The companion site, with every page and record this book draws on, is at the-ultimate-insider.book.sgit.ai.
 
 `%% record: FB2 (signed, brief 33: the book's GitHub issues, LinkedIn and the feedback address, printed here and in the last word, never in the team's mail); the newsroom's pass 1 ("Who is telling this story"), close to its words`
 
