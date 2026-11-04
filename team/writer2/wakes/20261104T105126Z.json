@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer2",
+ "kind": "scheduled, hourly at :50",
+ "started": "2026-11-04T10:51:26Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1) policy not widened: 150/16 to 19 are writer3's (096c921a) and it is active; letters to the conductor (PW1's premise changed, ask the editor's reading) and writer3 (offer of help). 2) LY1 in 150/12: a words box in the run without a visual. 3) replies to designer__137, ruv-sgit__071, copies in done/; status, debrief. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T10:52:26Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "All paths inside scope.writes; nothing of writer3's claimed, so the gate holds. No secrets, no stop condition. Conditions: vault_check on comms; no contact details; no religious words or unregistered numbers in the book. Tools: Read, Grep, Glob, Bash; none refused (writer3's status and the letters taken from the member's facts).",
+   "at": "2026-11-04T10:52:26Z"
+  },
+  "work": {
+   "by": "writer2",
+   "model": "",
+   "verdict": "done",
+   "comment": "PW1 not taken (writer3 holds and works 16 to 19, 096c921a): letters writer2__035 to the conductor, 036 to writer3; LY1: a words box in 150/12's one long run without a visual; replies 037, 038; copies in done/; status, debrief. No tool refused.",
+   "at": "2026-11-04T10:52:59Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "validate, vault_check clean; 0 outside scope; no overlaps; 150/16 to 19 untouched; no secrets, em-dashes, religious words or new numbers; the letters polite and accurate (096c921a confirms writer3's adoption), offers conditional. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T10:55:16Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Items 1 to 3 done; pre-review conditions kept; nothing unplanned. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T10:55:16Z"
+  }
+ },
+ "closed": "2026-11-04T10:55:16Z",
+ "outcome": "ok"
+}

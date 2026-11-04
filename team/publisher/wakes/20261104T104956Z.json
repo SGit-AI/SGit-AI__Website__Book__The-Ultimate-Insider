@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T10:49:56Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; Bash read only)",
+   "model": "",
+   "verdict": "go",
+   "comment": "LY1 and P36 cover pairing a screenshot beside its paragraph. Conditions: the float is my build rule, the designer told, its CSS untouched; numbers against the study's baseline (7 pages over 35% blank at 86% width; 12 at 81%), the tour's page, any card or figure alone; the tally's box named to the designer.",
+   "at": "2026-11-04T10:53:16Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No HOLD; the five mapped drawings pass unsafe_svg; P28 answer as my reading; vault_check, build and validate before push.",
+   "at": "2026-11-04T10:53:16Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "LY1: margins to 6.29 in (84.5%); screenshots floated beside their text; the figure-keep rule dropped after measuring (holes inside chapters 13 to 7, width 84%); 16 and 17 overrides; letters conductor 058, designer 050, critic3 001, writer3 001; records",
+   "at": "2026-11-04T10:56:33Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "23 staged in scope; no image; no import or url in the CSS; margins above KDP's minimums; 94's arrivals SVG clean; letters clean; vault_check clean.",
+   "at": "2026-11-04T10:58:11Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Every item done; the dropped figure-keep rule fits LY1 and P36 (measured, its cost told); 94's arrivals the designer's own placement, disclosed.",
+   "at": "2026-11-04T10:58:11Z"
+  }
+ },
+ "closed": "2026-11-04T10:58:11Z",
+ "outcome": "ok"
+}
