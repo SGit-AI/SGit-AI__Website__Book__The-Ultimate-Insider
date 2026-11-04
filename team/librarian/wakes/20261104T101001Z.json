@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T10:10:01Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Check 90 and 94 as changed; letter, review, debrief, status; build+gate before push.",
+   "at": "2026-11-04T10:10:38Z"
+  },
+  "pre_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No secret, contact detail, model name or Cold-Read cross; check 90's figure lines for held-crop paths.",
+   "at": "2026-11-04T10:10:38Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "90 and 94 as changed checked, clean, nothing to send back; letters writer4 006, conductor 050; review, README, debrief, status; build+gate clean.",
+   "at": "2026-11-04T10:12:14Z"
+  },
+  "post_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "15 staged files in scope; no secret, contact detail, model name, em-dash or religious word; no Cold-Read flow.",
+   "at": "2026-11-04T10:12:40Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "90 and 94 checked; letters, review, README, debrief, status in the diff; build and gate run by me, clean (1050 pages).",
+   "at": "2026-11-04T10:12:40Z"
+  }
+ },
+ "closed": "2026-11-04T10:12:40Z",
+ "outcome": "ok"
+}
