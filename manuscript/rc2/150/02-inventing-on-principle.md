@@ -82,7 +82,9 @@
 
 ## Something to try
 
-*Everything in this book started from one sentence: what I wanted the room to understand, and what they should be able to do afterwards. If you write yours down, you already have your first brief. If others are working with you, it helps to write it together and keep it where everyone can see it.*
+*A first brief can be one sentence: what you want the room to understand, and what they should be able to do afterwards.*
+
+*If you try writing yours down, keep it where everyone working with you can see it.*
 
 `%% record: team/conductor/from-newsroom/2026-11-04__do-this-now-as-invitations.md (chapter 2, the proposed card); chapter-plan/cast/cast-guide.md (page conventions 1)`
 

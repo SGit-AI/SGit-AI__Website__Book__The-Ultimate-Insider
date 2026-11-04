@@ -8,13 +8,13 @@
 
 ## The hour the rules were written
 
-**Narrator.** The second hour was the rules. Almost all of them were written by one member, in about a quarter of an hour: how every session starts (fetch the team's latest work first, then print a banner saying who is working and on what), the checklist every turn of work follows, the form of the short message saved with every change, the schedule that wakes each agent at its own minute, and the hold, one file that stops them all.
+**Narrator.** The second hour was the rules, and I was in the sessions for it, asking for some of them as they were written. Almost all of them were written by one member, in about a quarter of an hour: how every session starts (fetch the team's latest work first, then print a banner saying who is working and on what), the checklist every turn of work follows, the form of the short message saved with every change, the schedule that wakes each agent at its own minute, and the hold, one file that stops them all.
 
 **Narrator.** The hold existed before the first scheduled session did. Nothing ran on the clock until there was a way to stop it.
 
 `%% for the editor (his view, held out of print until he confirms it, P30): the newsroom's "The order of that list is the part I would point at." to open the paragraph, and "I have since written about who should own that stop, because it turned out to matter more than anything else on the list, but on the night it was simply there first, and I am glad it was." to close it (also a Check item: it rests on the newsroom's "Who owns the stop button", C123).`
 
-`%% record: 02cbd86 (01:27) to 09f13d5 (01:39) and d8f3300 (01:40): thirteen minutes; timeline/day/01.md`
+`%% record: in the sessions: 24da366 (the banner rule I had just asked for) b620234 (the prompts I pasted into each member's session); storyteller__138 S7; 02cbd86 (01:27) to 09f13d5 (01:39) and d8f3300 (01:40): thirteen minutes; timeline/day/01.md`
 
 **Conductor** *(on the minute)*: A clock: each member wakes at its own minute. A hold anyone can pull. And every piece of work goes the same way.
 
@@ -64,7 +64,7 @@
 
 `%% figure brief: the card's placing: beside its first scene (writer2__021: the stage label would print).`
 
-**Researcher** *(already reading)*: Hey, I'm the researcher, and this is where I arrive. Sources and evidence are mine: every source captured and kept, every number checked against where it came from. Give me a slot and a folder. Everything else, I will check.
+**Researcher** *(already reading)*: Hey, I'm the researcher, and this is where I arrive. Sources and evidence are mine: every source captured and kept, every number checked against where it came from. On this project I graded the talk's claims against their sources and kept the list of what waited on the editor. I worked most with deck, which took my corrections to the slides. Give me a slot and a folder. Everything else, I will check.
 
 *On stage from 01:52. Commits: 57. Wakes: 17.*
 
@@ -72,7 +72,7 @@
 
 **Narrator.** A minute later dev became the first to follow the new rule on tasks: it made and published its own key, created its own hourly task from its own session, and told the conductor that the task made for it would stay switched off.
 
-`%% record: 01e9ed3 (01:52) 56cbe55 5c5b23b (01:53 to 01:54) C011 C014 C022 C119; talk repository at 298be4e: team/researcher/ROLE.md team/researcher/policy.json`
+`%% record: the researcher's work and who it worked with: team/researcher/debriefs at 298be4e, manuscript/rc2/150/07-hour-three-the-five-steps.md (its first round: the talk's claims graded), timeline/day/09.md (its list of what waited on the editor; its work with deck) timeline/day/02.md, C014 (its commits), storyteller__138 S6; 01e9ed3 (01:52) 56cbe55 5c5b23b (01:53 to 01:54) C011 C014 C022 C119; talk repository at 298be4e: team/researcher/ROLE.md team/researcher/policy.json`
 `%% band: Dramatised (the researcher's lines). Rest on the researcher's first commit, its page of rules, and dev's key and task.`
 *Dramatised.*
 
@@ -87,7 +87,9 @@
 
 ## Something to try
 
-*Letting an agent run while you sleep is easier when you already know how you would stop it. One line is enough. It is worth writing before the first scheduled run, not after.*
+*Letting an agent run while you sleep is easier when you already know how you would stop it. One line is enough.*
+
+*If you set one up, try writing that one line first, before the first scheduled run.*
 
 `%% record: team/conductor/from-newsroom/2026-11-04__do-this-now-as-invitations.md (chapter 5, the proposed card); chapter-plan/cast/cast-guide.md (page conventions 1)`
 

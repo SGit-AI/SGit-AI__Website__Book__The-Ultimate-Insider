@@ -20,7 +20,7 @@
 
 ## The book as a map
 
-**Narrator.** The book has five parts. Read it the whole way through, or take the short way: this page, then part five, then back to the start.
+**Narrator.** After this page and a short introduction from me, the book has five parts, and at the back the tour at length, the words used, every number rerun, the team's controls, and the making of the book. Read it the whole way through, or take the short way: this page, then part five, then back to the start.
 
 - **Part one. The creator's problem** (chapters 1 to 3): why slides were never enough, and what a factory of agents made in a day.
 - **Part two. The factory is assembled** (chapters 4 to 8): the first five hours, the rules written and the cast arriving.
@@ -33,6 +33,8 @@
 `%% figure brief: For the designer, in one of the variations the storyteller listed (blocks, one large picture, or a graph). The index, done as a picture.`
 
 ## The cast says hello
+
+**Narrator.** These are the nine AI agents of the talk's team, each in a line of its own. You meet each one properly when it arrives.
 
 **Conductor:** I keep the time and the plan.
 

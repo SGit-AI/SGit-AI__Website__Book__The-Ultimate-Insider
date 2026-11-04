@@ -1,10 +1,8 @@
 # Roles as a cast you can read
 
-**Cast bar:** the three within the hour lit, and ruv-sgit just after; the researcher lit, and the designer as the day will have it, before dawn; the storyteller, motion and studio greyed; one empty chair.
+**Cast bar:** the three within the hour lit, and ruv-sgit just after; the researcher lit before dawn; the designer greyed, arriving in chapter 8; the storyteller, motion and studio greyed; one empty chair.
 
 **Narrator.** Every member of the team had two files about itself. A page of rules, in words, saying what it is for and what it must not do. And a policy, in a form a program can check, listing the exact paths it may write. You can read both. That is the point: a team of agents you cannot read is a team you cannot trust.
-
-*Words for this page:* a member's **scope** is the list of files and folders it may change. Everything else, it may read and not touch.
 
 **Narrator.** Here are the rest, in the order they arrived, each with what it owned and what it could change, and then each in its own exit interview. Most of their rules end with a date and a reason: the moment the rule was needed.
 
@@ -14,24 +12,20 @@
 
 `%% record: manuscript/rc2/150/04-hour-one-the-empty-project.md ("Three within the hour, and one just after", told once there); chapter-plan/edition-150-outline.md ("Rulings on the newsroom's structural notes", part two)`
 
-## Before dawn: the researcher and the designer
+## Before dawn: the researcher
 
-**Narrator.** The two who came before dawn are as interesting for what they could not do as for what they could.
-
-**Researcher**: Sources and evidence. Every source captured and hashed. My folder and the evidence folder, and I will not be talked out of either. Nothing else.
+**Narrator.** The researcher, met in chapter 5, is as interesting for what it could not do as for what it could.
 
 **Researcher** *(to the rest of the team)*: A claim without a captured source is a gap, and my register says so rather than leaving it out. And a measured finding, a position and a guess are not the same thing. I label each.
 
 **Narrator.** The researcher could not change a slide. It could only say that a number on one did not hold. That is a strong position precisely because it is a narrow one: nobody could accuse it of changing the story to suit its findings.
 
-**Designer**: Layout, width, type, the design system. One folder, mine. I prefer it that way: every line I draw has a second pair of eyes.
+**Narrator.** One more arrives before dawn, the designer, with the smallest scope on the team; chapter 8 has it, beside its card.
 
-**Designer**: So I do not change a page. I write a note, with before and after, and dev builds it. At my next wake I check: as designed, or what to fix.
+*Words for this page:* a member's **scope** is the list of files and folders it may change. Everything else, it may read and not touch.
 
-**Narrator.** The designer's scope is the smallest on the team: its own folder, nothing else. Every change it wanted went through someone else's hands. That slowed it down, and it also meant every design change had two readers.
-
-`%% record: talk repository at 298be4e: team/researcher/ROLE.md team/researcher/policy.json team/designer/ROLE.md team/designer/policy.json`
-`%% band: Dramatised. Rests on the researcher's and the designer's pages of rules and policies as they stood at the end of the day.`
+`%% record: talk repository at 298be4e: team/researcher/ROLE.md team/researcher/policy.json; the designer's lines moved to chapter 8 (storyteller__138 S1); the researcher's first line, which repeated its chapter 5 card, cut (S3)`
+`%% band: Dramatised. Rests on the researcher's page of rules and policy as they stood at the end of the day.`
 *Dramatised.*
 
 ## The three who came in the afternoon
@@ -167,7 +161,7 @@
 
 `%% cut (critic5 002, P13: studio speaks before its card; 166 already says it): "So you write the scope, and you check it, and you never confuse the check with a wall."`
 
-**Narrator.** It is the question part four asks, at full size: if every member of the team is an insider, what actually contains it?
+**Narrator.** That difference is the question part four asks, at full size: if every member of the team is an insider, what actually contains it?
 
 **Figure:** the nine role cards at their full size, and a tenth, empty.
 
