@@ -26,3 +26,7 @@ commits: this wake's commits on dev
 ## 09:52 and 10:53 wakes
 - 90 pass 2 (critic6__008): every pass 1 must and should met; four coulds, all taken.
 - 10:53 (critic6__009): a second pass running with nothing material on 23, 90 and 94, told to critic4 for its count. First mirror read of 91 and 93: 91's "wake" points to chapter 7, its box is in chapter 3 (a should); two coulds.
+
+## 11:53 wake: a miss of my own
+- 23:31 said "studio refusing a relayed word"; the register (C115) says the session's own check made the refusal. I passed that line three times. Security's ruling on 93's row made it plain. A must to writer4 (critic6__010), and the clean count on 23 that I gave critic4 withdrawn. The lesson for my loop: when a ruling changes a fact, search the whole part for the fact, not only the page the ruling names.
+- 91 and 93 pass 2: nothing material.

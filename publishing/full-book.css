@@ -87,3 +87,13 @@ h1, h2, h3, .band, .try-this, .cast-card, .concept, .tear-out, .words-box { clea
 /* the one-line "Dramatised." note keeps with what follows it, so a figure is not parted from it (developer__043) */
 .dramatised { break-after: avoid; }
 .dramatised + figure, .dramatised + .figure-todo { break-before: avoid; }
+
+/* the writers' "%% layout:" lines (the designer's pair.css, 139; LY1): the build wraps the figure in div.pair-beside or
+   div.pair-full, so the pairing is set here on the wrapper; pair.css's figure.pair-* rules describe the same */
+div.pair-beside { float: right; clear: right; width: 55%; margin: .2em 0 .6em 1em; break-inside: avoid; }
+div.pair-beside figure { float: none; width: 100%; margin: 0; }
+div.pair-beside figure img { width: 100%; max-width: 100%; }
+div.pair-full { clear: both; width: 100%; margin: .6em 0 .9em; break-inside: avoid; break-before: avoid; }
+div.pair-full figure { float: none; width: 100%; margin: 0; }
+div.pair-full figure img { width: auto; max-width: 100%; max-height: 4.6in; }
+h2 + div.pair-full, h3 + div.pair-full { break-before: avoid; }
