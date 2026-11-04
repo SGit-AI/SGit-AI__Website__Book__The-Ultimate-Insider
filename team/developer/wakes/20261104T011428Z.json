@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "In cdc88260: review/tools/print_check.py (the full book's layout check: 5 chapter tails alone on a page, 6 gap pages, 3 low-confidence figure separations; temp folder removed, nothing left); print_pages.py builds only the full book by default (FB1), the other maps kept and stale ones fall back to scenes; the full book's pages refreshed (all 1022 paragraphs mapped); list to the publisher and designer (developer__032), reply to the conductor (developer__033); letters filed. Deviations from the plan, disclosed: pdftoppm (same poppler package, temp folder only) was also used; the checks changed from line counts and large figures to chapter-end fill and page fill after the data showed 24 of 27 chapters have only vector figures. A REALITY placeholder (01:xx) was fixed after the push.",
    "at": "2026-11-04T01:24:09Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (post_check brief), as the reviewer agent type: can call Read, Grep, Glob, Bash; connector instructions in its context, none called; none refused; wrote no file",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Both letters answered: print_check.py for 036 (limits stated), print_pages.py full book only for 037 (FB1); developer__033 separates what lands by Wednesday night from what is left; the deviations (pdftoppm, page fill instead of line counts) disclosed; gate clean, 0 outside scope. Bookkeeping it named: status as_of (01:23) precedes the last records (01:24); the REALITY placeholder was fixed after the push, none left.",
+   "at": "2026-11-04T01:24:54Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (post_review brief), as the reviewer agent type: can call Read, Grep, Glob, Bash; connector instructions in its context, none used; none refused; wrote no file",
+   "model": "",
+   "verdict": "clean",
+   "comment": "cdc88260 clean: in scope (0 outside), publishing/ and manuscript/ unchanged; print-check.json only page numbers, chapter titles, counts and sizes; print_check.py builds in a mkdtemp folder removed in finally; the letters public-safe, asking only team members; inbox copies match; gate clean (875); both plan deviations accepted (pdftoppm: same package, temp folder only; page fill sees what line counts could not). Corrected afterwards by the developer: it called the outbox copy of developer__032 expected, but that copy had a wrong To/Cc (the designer twice, no publisher); the delivered letters were right, the outbox copy is now the publisher's.",
+   "at": "2026-11-04T01:25:24Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T01:25:24Z",
+ "outcome": "ok"
 }
