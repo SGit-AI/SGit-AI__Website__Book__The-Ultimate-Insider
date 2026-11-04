@@ -198,7 +198,8 @@ def chapter_starts(chapters, pages):
 
 
 def main(stats, given=None):
-    data = next(e for e in json.loads((ROOT / 'review' / 'anchors' / 'editions.json').read_text())['editions'] if e['edition'] == SLUG)
+    chap_file = Path(sys.argv[sys.argv.index('--chapters') + 1]) if '--chapters' in sys.argv else ROOT / 'review' / 'anchors' / 'editions.json'   # --chapters FILE: today's chapters from make_editions.py --dry --data-out
+    data = next(e for e in json.loads(chap_file.read_text())['editions'] if e['edition'] == SLUG)
     chapters = data['chapters']
     tmp = tempfile.mkdtemp(prefix='print_check_')
     try:

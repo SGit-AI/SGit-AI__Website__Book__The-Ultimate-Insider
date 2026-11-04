@@ -439,7 +439,10 @@ def main(talk_path):
                 if not (a_ == SITE or HOSTS.match(a_)):
                     sys.exit(f'{f}: an attribute or url() carries an address off the two hosts: {a_}')
     if '--dry' in sys.argv:                                          # every guard passed; nothing is put in place (for a diff to be reviewed before a release)
-        print('dry run: every guard passed; no file written'); shutil.rmtree(PAGES); return
+        out = next((sys.argv[k + 1] for k, a_ in enumerate(sys.argv) if a_ == '--data-out' and k + 1 < len(sys.argv)), None)
+        if out:                                                      # the data, for a check that needs today's chapters (print_check.py --chapters); to a file the caller names, never into the repository's places
+            Path(out).write_text(blob)
+        print('dry run: every guard passed; nothing put in place' + (f'; the data written to {out}' if out else '')); shutil.rmtree(PAGES); return
     QR.write_text(json.dumps({'about': 'One target per scene (RC2, the 70-page draft) or page (the 3- and 10-page editions): the public URL of the record under it, '
                                        'for a QR code in print. Written by review/tools/make_editions.py; an id holds while the chapter keeps its place and scenes.',
                               'site': SITE, 'targets': targets}, indent=1, ensure_ascii=False) + '\n')
@@ -470,7 +473,8 @@ def main(talk_path):
 
 
 if __name__ == '__main__':
-    args = [a for a in sys.argv[1:] if a != '--dry']                 # --dry: run every guard, write nothing
+    argv = sys.argv[1:]                                              # --dry: run every guard, write nothing into place; --dry --data-out FILE also writes the editions data to FILE
+    args = [a for k, a in enumerate(argv) if a != '--dry' and a != '--data-out' and not (k and argv[k - 1] == '--data-out')]
     if len(args) != 1:
-        sys.exit('usage: make_editions.py <path to a clone of the talk\'s repository> [--dry]')
+        sys.exit('usage: make_editions.py <path to a clone of the talk\'s repository> [--dry [--data-out FILE]]')
     main(args[0])
