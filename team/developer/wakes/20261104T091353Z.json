@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled wake, 09:12",
+ "started": "2026-11-04T09:13:53Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions for Claude_Docs, github, Gmail in context, no tools for them). Plan: page check on the PDF of 09:13, mail only changes (developer__043); housekeeping; git log on the pages for an answer to developer__039 and the upload-set link. Reviewer found no reply yet and the upload set still unlinked.",
+   "at": "2026-11-04T09:16:11Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them). Within policy: untrusted PDF in a fresh folder, python3 -I, deleted; mail to team members only, vault_check before commit; push to branch and dev only.",
+   "at": "2026-11-04T09:16:11Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
