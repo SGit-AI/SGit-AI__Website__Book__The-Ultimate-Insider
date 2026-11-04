@@ -3,7 +3,29 @@
  "agent": "conductor",
  "kind": "editor chat",
  "started": "2026-11-04T21:49:29Z",
- "steps": {},
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "go with corrections: copy the passes redacted (Dan's name to [a reader, NM1], 'the bible' to [the cast guide, RW1]) with a header note; the address only in brief 33, FB2 (quoted as transcribed, reading apart) and the manuscript, never in comms; unanswered items (Dramatised density, high five, two conductors, motion, interlude, interviews move, further-reading page in Book.txt, Check lines) sent as proposals or held; p95 cites HL1; brief 33 records that item 7 was confirmed in chat; RC2 recorded as his definition, not claimed met; no fire_trigger; a second designer only at his word",
+   "at": "2026-11-04T21:53:15Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "go: in scope; the address only in brief 33, FB2 (quoted, reading labelled) and later the manuscript, grep comms/from-newsroom/requests-out empty; the redacted copies carry neither the name nor the word; decided only where his words sign; RC2 recorded as his definition, not met; no fire_trigger",
+   "at": "2026-11-04T21:54:06Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "brief 33; FB2, NM1, TH1, PN1, EI2, LW2, RC2D decided with his words (the address only in brief 33 and FB2); the three passes copied redacted (name, religious word, address) with a header note; requests to writer 044, writer2 013, writer3 012, writer4 011, storyteller 075, publisher 089, researcher 071, designer 086, open items marked as his; address grep of comms, from-newsroom, requests-out empty; status with the RC2 checklist",
+   "at": "2026-11-04T21:56:04Z"
+  }
+ },
  "closed": null,
  "outcome": null
 }
