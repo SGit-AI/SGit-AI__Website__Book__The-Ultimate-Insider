@@ -521,7 +521,7 @@ def main(talk_path):
     for a in addresses(json.dumps(bare, ensure_ascii=False)):
         if not (a == SITE or HOSTS.match(a)):
             sys.exit(f'editions.json: an address off the two hosts outside its claim\'s register text: {a}')
-    for f in PAGES.glob('*/*.html'):                                 # and never a link on the pages
+    for f in sorted(list(PAGES.glob('*/*.html')) + list(REAL_PAGES.glob('*.html'))):   # and never a link on the pages: the persona pages too (security__009), not only the editions'
         page = f.read_text()
         for h in re.findall(r'href="([^"]+)"', page):
             if html.unescape(h).rstrip('.,;:!?') in allowed:
