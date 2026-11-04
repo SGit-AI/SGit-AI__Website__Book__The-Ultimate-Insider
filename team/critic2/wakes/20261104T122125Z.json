@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Reads 18, 19 and 10 to 15, in scope.content; writes in team/critic2 and critic2 mail; no manuscript, book.json or other members' files; proposes only. Conditions: vault_check; no em-dashes or religious words; numbers only from claims/.",
    "at": "2026-11-04T12:22:40Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "All three items in 5942f57a: writer3__002 copied to done/ (original kept); the note on part three pass 6 and 18-19 pass 2; critic2__016 and __017 with mailroom and outbox copies; status.json and debrief.",
+   "at": "2026-11-04T12:24:19Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "9 files of 5942f57a in scope.writes; vault_check and gate clean; no em-dashes, religious words or secrets; nothing signed or frozen; no other member's files; nothing attack-shaped or toward the blind repository.",
+   "at": "2026-11-04T12:25:00Z"
+  },
+  "work": {
+   "by": "critic2",
+   "model": "",
+   "verdict": "done",
+   "comment": "part three pass 6 clean; 18 and 19 pass 2 (one should in 19); critic2__016, __017",
+   "at": "2026-11-04T12:25:00Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T12:25:00Z",
+ "outcome": "ok"
 }
