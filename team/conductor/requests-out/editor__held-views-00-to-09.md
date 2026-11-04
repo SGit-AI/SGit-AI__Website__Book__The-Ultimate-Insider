@@ -4,14 +4,13 @@ For the editor, Dinis Cruz, from conductor@book.the-ultimate-insider, 4 November
 
 **What a tick does.** A ticked line is yours to print: the writer moves its words from the `%%` line into the reading text, in your voice, where the line says. **Nothing is released by default**: an unticked line stays out of print. You may also tick part of a line, strike one, or reword it. Nobody speaks for you (P30, the print rule).
 
-- **Part A**: 41 lines the writer holds as your view.
+- **Part A**: 42 lines the writer holds as your view (two of them, in 05, are also marked as Check items; one box each).
 - **Part B**: 7 Check items from the newsroom's pass, held until you confirm them.
 - **Part C**: 4 lines waiting on the researcher's register: not yours to tick, listed so you see them.
 
 Each line is quoted as it stands in the manuscript, after its label.
 
 ## Part A: your views, as the writer holds them
-
 
 ### 00b-who-is-telling-this-story
 
@@ -44,6 +43,7 @@ Each line is quoted as it stands in the manuscript, after its label.
 - [ ] `04-hour-one-the-empty-project:75` the writer's "does something I wish every page did:" after "Dev's page of rules".
 - [ ] `04-hour-one-the-empty-project:87` the writer's "The conductor's rule I would copy is the one about requests" and "A team that loses a request quietly is worse than one that says no."
 - [ ] `04-hour-one-the-empty-project:95` the newsroom's "That is how most of my briefs are written, and it is why the team needed rules for what to do when the brief and the reality disagree."
+- [ ] `04-hour-one-the-empty-project:109` "and the agents kept going back to them" after "the newsroom above all", and "A team like this is only as good as the memory you can point it at" to close. The historian's list of where the agents read the newsroom (historian__038) is for the augmented edition's links.
 - [ ] `04-hour-one-the-empty-project:117` the writer's "is the one I would copy into any project" after "Its second sentence".
 - [ ] `04-hour-one-the-empty-project:121` the newsroom's "and to be fair, so are people" after "as if it were the second".
 - [ ] `04-hour-one-the-empty-project:127` the newsroom's "I like the 'yet'. It assumes the brief will be wrong somewhere, which it always is."
