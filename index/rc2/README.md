@@ -92,7 +92,7 @@ Checked 3 November 2026, about 09:25 UTC: part 1, chapters 1 to 3 (`manuscript/r
 
 | Chapter, line | Quote (opening words) | Speaker | Where it is | Holds |
 |---|---|---|---|---|
-| 01:15, 01:41, 01:47 | as in the seventy's 01:13, 01:35, 01:45 | the editor | the voice note; the transcript, `a9c0b49` (added after the day) | as there |
+| 01 (rewritten 4 Nov) | the editor's voice-note and transcript quotes | the editor | gone from the 150's chapter 1: it now tells his account of 4 November (`briefs/2026-11-04__in-session/04-introduce-the-narrator-and-chapter-1.md`) in his voice, without quotation | paraphrase checked against that brief |
 | 02:9 | "Creators need an immediate connection to what they create. ..." | Bret Victor, 2012 | the register, C103 | as there |
 | 90:108 | "the scenario" | the talk's home page | the talk's `src/pages/index.html` line 22 at `298be4e` | word for word |
 | 90:114 (note) | "the home page says the perfect storm" | dev, its commit subject | `5a91607`, 16:06 | word for word |
@@ -109,7 +109,7 @@ Dramatised lines checked for whose work they rest on: the night log is the condu
 
 | Chapter, line | Quote or fact | Speaker | Where it is | Holds |
 |---|---|---|---|---|
-| 01:69 | "So, as you would expect, here's a Wardley map. ..." to "commodity." | the editor on stage, 19:27 on the recording | the talk's transcript, `a9c0b49` (added after the day); C111 | word for word |
+| 01:56 | the Wardley passage, now told in the narrator's voice, no quotation marks ("the best thing I have learned in the last decade; it is how I think"; genesis, custom built, product, commodity) | the editor on stage, 19:27 on the recording | the talk's transcript, `a9c0b49` (added after the day); C111 | the paraphrase matches the transcript's words |
 | 04 | the page of rules, in part | the talk's page of rules | `CLAUDE.md` at `1f7c633`, lines 3 to 8, each cut marked "..." | word for word; the reality file's line is `REALITY.md` line 3 |
 | 04 | the hour: 00:16, 00:40, 00:44 ("proposed"), 00:51, the banners 00:53 to 00:58 | the record | `2e4b1f4`, `1f7c633`, `97b98d9`, `20ab1a3`, `a3a4807`, `7f9b9b5`, `41d38ba` | yes |
 | 05 | "Only a member's own session can create its scheduled task: the three the conductor created for dev, deck and ruv.sgit were disabled before any fired" | the conductor, its commit body | `b620234` (01:43), lines 7 to 9 | word for word |
@@ -179,6 +179,8 @@ The talk team's vaults are named in 10, not cited by path; nothing of them is in
 
 **4 November 2026, about 01:14 UTC: Appendix A re-set, the seventy's 07 in one scene, and the book's front page.** My letters 021's fixes are taken (the researcher's 001, the writer's 159): C111's command is corrected in the register and in `claims/appendix-a-150.md`; 150/92 at dev's head (45 entries, set at 00:32) still carries the old command, because the researcher's refreshed file landed at 00:37; both rechecks wait for 92 to be set again. All forty-five ids are in the register; every "Cited in" line matches but C010's (94 now cites it); sixteen of the plain-git commands return what they ask for, and C111's does not yet. The seventy's 07, now one scene, keeps deck's quote word for word and its times (06:21, 07:43, 08:21, 13:48) are the commits'. New for the editor's note of 4 November (brief 07, no logistics in the reading text): `team/librarian/voice/voice_scan.py --logistics` counts "added after the day", the recording's clock, "transcript" and commit ids in reading text only; over 150/00 to 23 it finds four lines (01:62, 16:101, 18:5, 19:69). The conductor's request for the book site's front page is answered: `index/talk-site/shots/book-site-front.jpg`, one GET of the front page (release v0.1.624 in its header), unplaceable until security clears its name.
 
+**4 November 2026, about 02:17 UTC: WC1, and the 150's chapter 1 as the editor's account.** The editor's decision WC1 (no "Where this came from" in the printed book; sources kept as `%% record` lines): `index/tools/check_sources.py` and `index/tools/chapter_entries.py` now read every `%% record` and `%% clock record` line anywhere in a chapter, as well as the section and the inline lines; the new check finds nothing the old did not on the 30, the 70 and the 150 as they stand, and negative controls (a chapter with no section and three bad record lines; one with no sources) are flagged. Appendix A as re-set (46 entries): every id is in the register; "Cited in" matches the chapters but C010's (94 cites it); all twenty plain-git command lines return what they ask for. 150/01 was rewritten as the editor's own account (his brief 04 of 4 November): its claims follow that brief, and the two quoted debrief titles in its record note are in `index/talk-site/crawl.json`; the quoted voice-note passages are gone from it. My letter 022's point on "fifteen minutes apart" was wrong (the commit messages of `09f13d5` and `02cbd86` do say it, wrapped over two lines); corrected in letter 023.
+
 ## The writer's readings, for the editor to keep or drop
 
 **Corrected 3 November 2026, about 09:30 UTC:** until this wake the list took only the notes that stand on a line of their own, and missed four set inside a paragraph (70/02:67, 70/02:97, 70/06:68, 70/11:5). The list now takes every note wherever it stands: thirty in the thirty and the seventy (not twenty-six), seven in the 150's part 1, thirty-seven in all.
@@ -220,8 +222,9 @@ Where a sentence in the editor's voice is the writer's reading of his view rathe
 | `70/14-the-second-factory-and-the-third.md:54` | "The point is not that the rule failed" and the sentence after it are the writer's reading; his to keep or drop. |
 | `70/14-the-second-factory-and-the-third.md:81` | the three paragraphs on how the shared brief, board and hold would work day to day are the writer's reading of his plan, from his description of 1 November and the hold's rule; his to keep, change or drop. |
 | `70/16-build-your-own.md:41` | the "What to do / What to check" lines, the newsroom's page of rules and the "Rests on" lines under each step are the writer's, worked from the steps as the editions give them; his to keep or change. |
-| `150/01-slides-as-a-compromise.md:19` | the five sentences from "It sounds small." to "Those were exactly the ideas I wanted to get across." are the writer's reading of his view, beyond the voice note; not yet his words until he keeps them. |
-| `150/01-slides-as-a-compromise.md:88` | the narration paragraph is the writer's paraphrase of what the slide would have needed, built from your own words at 15:50 (C102); his to keep, change or drop. |
+| `150/01-slides-as-a-compromise.md:17` | the four paragraphs above tell his account of 4 November (brief 04) in his voice, with the continuum from the record; "It did not come from nowhere" and "This is a continuum, not a lucky day" are the writer's; his to keep or drop. |
+| `150/01-slides-as-a-compromise.md:23` | the paragraph above is the writer's reading of his view, beyond the voice note; his to keep or drop. |
+| `150/01-slides-as-a-compromise.md:74` | the narration paragraph is the writer's paraphrase of what the slide would have needed, built from your own words at 15:50 (C102); his to keep, change or drop. |
 | `150/02-inventing-on-principle.md:17` | "With slides, I made that trip alone, and usually once." is the writer's reading of his view; his to keep or drop. |
 | `150/02-inventing-on-principle.md:84` | "Why a day?" and its answer are the writer's reading of the factory as you described it on 1 November (PS1); his to keep or drop. |
 | `150/03-the-tour.md:30` | "Nobody tidied it." is the writer's reading; his to keep or drop. |

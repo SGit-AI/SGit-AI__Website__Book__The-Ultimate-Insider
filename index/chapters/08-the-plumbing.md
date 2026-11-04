@@ -1,8 +1,8 @@
 # The index entries `08-the-plumbing.md` draws on
 
-From the chapter's `## Where this came from` in `manuscript/rc2/70/08-the-plumbing.md`, resolved by `index/tools/chapter_entries.py`. Each row is the index's own entry for the file: kind, owner, when it was added and last changed, and what it is.
+From the chapter's `%% record` lines (and its `## Where this came from`, where it still has one) in `manuscript/rc2/70/08-the-plumbing.md`, resolved by `index/tools/chapter_entries.py`. Each row is the index's own entry for the file: kind, owner, when it was added and last changed, and what it is.
 
-## talk at 298be4e (7)
+## talk at 298be4e (8)
 
 | Path | Kind | Owner | Added | Last changed | What it is |
 |---|---|---|---|---|---|
@@ -13,13 +13,15 @@ From the chapter's `## Where this came from` in `manuscript/rc2/70/08-the-plumbi
 | `REALITY.md` | document | dev | `1f7c633` 2026-10-29 00:40:50 | `70d4981` 2026-10-29 17:42:40 | what actually existed, kept by whoever shipped, one section per member; dev kept the file as a whole |
 | `team/deck/ROLE.md` | role | deck | `20ab1a3` 2026-10-29 00:51:53 | `02cbd86` 2026-10-29 01:27:10 | deck@the-ultimate-insider |
 | `team/researcher/ROLE.md` | role | researcher | `02cbd86` 2026-10-29 01:27:10 | `01e9ed3` 2026-10-29 01:52:10 | researcher@the-ultimate-insider |
+| `team/dev/debriefs` | folder |  | ``  | ``  |  |
 
-## this repository (3)
+## this repository (4)
 
 - `claims/register.json`
 - `index/talk-site/README.md`
 - `chapter-plan/edition-70-outline.md`
+- `claims/README.md`
 
-## Commits named (1)
+## Commits named (4)
 
-`1f7c633`
+`298be4e`, `1f7c633`, `24da366`, `fde3fea`

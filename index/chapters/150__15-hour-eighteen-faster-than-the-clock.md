@@ -1,6 +1,6 @@
 # The index entries `150__15-hour-eighteen-faster-than-the-clock.md` draws on
 
-From the chapter's `## Where this came from` in `manuscript/rc2/150/15-hour-eighteen-faster-than-the-clock.md`, resolved by `index/tools/chapter_entries.py`. Each row is the index's own entry for the file: kind, owner, when it was added and last changed, and what it is.
+From the chapter's `%% record` lines (and its `## Where this came from`, where it still has one) in `manuscript/rc2/150/15-hour-eighteen-faster-than-the-clock.md`, resolved by `index/tools/chapter_entries.py`. Each row is the index's own entry for the file: kind, owner, when it was added and last changed, and what it is.
 
 ## talk at 298be4e (3)
 
@@ -21,4 +21,4 @@ From the chapter's `## Where this came from` in `manuscript/rc2/150/15-hour-eigh
 
 ## Commits named (13)
 
-`8fee7e3`, `a618b29`, `7c91afc`, `d252155`, `c3f546e`, `93f4191`, `3260997`, `ec962a2`, `f45028c`, `b1c9bab`, `4a2481b`, `bd3cdad`, `8f0c080`
+`298be4e`, `8fee7e3`, `a618b29`, `7c91afc`, `d252155`, `c3f546e`, `93f4191`, `ec962a2`, `f45028c`, `b1c9bab`, `4a2481b`, `bd3cdad`, `8f0c080`

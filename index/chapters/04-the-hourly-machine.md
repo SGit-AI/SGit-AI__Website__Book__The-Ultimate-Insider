@@ -1,6 +1,6 @@
 # The index entries `04-the-hourly-machine.md` draws on
 
-From the chapter's `## Where this came from` in `manuscript/04-the-hourly-machine.md`, resolved by `index/tools/chapter_entries.py`. Each row is the index's own entry for the file: kind, owner, when it was added and last changed, and what it is.
+From the chapter's `%% record` lines (and its `## Where this came from`, where it still has one) in `manuscript/04-the-hourly-machine.md`, resolved by `index/tools/chapter_entries.py`. Each row is the index's own entry for the file: kind, owner, when it was added and last changed, and what it is.
 
 ## talk at 298be4e (19)
 

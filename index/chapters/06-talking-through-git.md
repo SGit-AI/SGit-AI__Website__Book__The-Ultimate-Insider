@@ -1,6 +1,6 @@
 # The index entries `06-talking-through-git.md` draws on
 
-From the chapter's `## Where this came from` in `manuscript/rc2/70/06-talking-through-git.md`, resolved by `index/tools/chapter_entries.py`. Each row is the index's own entry for the file: kind, owner, when it was added and last changed, and what it is.
+From the chapter's `%% record` lines (and its `## Where this came from`, where it still has one) in `manuscript/rc2/70/06-talking-through-git.md`, resolved by `index/tools/chapter_entries.py`. Each row is the index's own entry for the file: kind, owner, when it was added and last changed, and what it is.
 
 ## talk at 298be4e (2)
 
@@ -15,13 +15,14 @@ From the chapter's `## Where this came from` in `manuscript/rc2/70/06-talking-th
 |---|---|---|---|---|---|
 | `comms/README.md` | document | conductor | `7e13725` 2026-10-30 02:05:03 | `7e13725` 2026-10-30 02:05:03 | comms: the team's mail and board, in git |
 
-## this repository (4)
+## this repository (5)
 
 - `claims/register.json`
 - `lab/experiments/30-ruv-the-reviewer-card`
 - `index/talk-site/README.md`
 - `chapter-plan/edition-70-outline.md`
+- `timeline/triggers.md`
 
-## Commits named (4)
+## Commits named (5)
 
-`aeffbf9`, `af0010b`, `09317d9`, `36e382b`
+`298be4e`, `aeffbf9`, `af0010b`, `09317d9`, `36e382b`

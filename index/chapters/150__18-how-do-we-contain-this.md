@@ -1,8 +1,8 @@
 # The index entries `150__18-how-do-we-contain-this.md` draws on
 
-From the chapter's `## Where this came from` in `manuscript/rc2/150/18-how-do-we-contain-this.md`, resolved by `index/tools/chapter_entries.py`. Each row is the index's own entry for the file: kind, owner, when it was added and last changed, and what it is.
+From the chapter's `%% record` lines (and its `## Where this came from`, where it still has one) in `manuscript/rc2/150/18-how-do-we-contain-this.md`, resolved by `index/tools/chapter_entries.py`. Each row is the index's own entry for the file: kind, owner, when it was added and last changed, and what it is.
 
-## talk at 298be4e (7)
+## talk at 298be4e (10)
 
 | Path | Kind | Owner | Added | Last changed | What it is |
 |---|---|---|---|---|---|
@@ -13,8 +13,17 @@ From the chapter's `## Where this came from` in `manuscript/rc2/150/18-how-do-we
 | `team/conductor/debriefs/2026-10-29__the-five-step-wake.md` | debrief | conductor | `c8f6f8f` 2026-10-29 02:19:36 | `c8f6f8f` 2026-10-29 02:19:36 | The five-step wake, built and run on itself |
 | `team/security/ROLE.md` | role | security | `02cbd86` 2026-10-29 01:27:10 | `02cbd86` 2026-10-29 01:27:10 | the security role the talk's conductor proposed and nobody staffed: checks first and last in every run, a review of the pinned tools and each new key |
 | `team/security` | folder |  | ``  | ``  |  |
+| `src/static/studio-ports/lab/abp-enforcement/index.html` | site asset | studio | `95b09d9` 2026-10-29 18:11:59 | `95b09d9` 2026-10-29 18:11:59 | Showcase: how a policy is held, wake by wake |
+| `team/dev/ROLE.md` | role | dev | `1f7c633` 2026-10-29 00:40:50 | `6a6be6d` 2026-10-29 03:34:10 | Role: dev@the-ultimate-insider |
+| `team/studio/wakes/20261029T174115Z.json` | wake record | studio | `bd3cdad` 2026-10-29 17:47:28 | `8f0c080` 2026-10-29 17:48:21 | follow-up, tonight every 15 min (the editor's word); outcome partial; work done: 1 done: deck 071 and correction 072, conductor 043, board 004; |
 
-## this repository (8)
+## Cold-Read (1)
+
+| Path | Kind | Owner | Added | Last changed | What it is |
+|---|---|---|---|---|---|
+| `team/security/key.json` | key (public) | security | `6fbc02f` 2026-10-30 01:52:57 | `f10b40b` 2026-10-30 03:35:38 | public key record of a member session |
+
+## this repository (13)
 
 - `claims/register.json`
 - `timeline/quotes.md`
@@ -24,11 +33,12 @@ From the chapter's `## Where this came from` in `manuscript/rc2/150/18-how-do-we
 - `comms/mail/mailroom/writer/security__014-stop-button-and-150-09-10.eml`
 - `chapter-plan/edition-150-outline.md`
 - `manuscript/rc2/70/12-how-do-we-contain-this.md`
+- `timeline/day/18.md`
+- `manuscript/rc2/150/16-hour-nineteen-minute-by-minute.md`
+- `comms/mail/mailroom/storyteller/conductor__051-who-owns-the-stop-button.eml`
+- `comms/mail/mailroom/writer/conductor__011-read-the-stop-button-article.eml`
+- `comms/mail/mailroom/writer/security__001-rc2-chapter-1.eml`
 
-## Commits named (6)
+## Commits named (7)
 
-`a9c0b49`, `1f7c633`, `95b09d9`, `c8f6f8f`, `4a2481b`, `bd3cdad`
-
-## Not in any index
-
-Paths the tool could not place (outside the three repositories, or a web address): `newsroom.sgit.ai/articles/who-owns-the-stop-button.html`
+`a9c0b49`, `298be4e`, `95b09d9`, `c8f6f8f`, `4a2481b`, `bd3cdad`, `621e5de2`

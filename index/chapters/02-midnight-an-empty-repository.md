@@ -1,8 +1,8 @@
 # The index entries `02-midnight-an-empty-repository.md` draws on
 
-From the chapter's `## Where this came from` in `manuscript/02-midnight-an-empty-repository.md`, resolved by `index/tools/chapter_entries.py`. Each row is the index's own entry for the file: kind, owner, when it was added and last changed, and what it is.
+From the chapter's `%% record` lines (and its `## Where this came from`, where it still has one) in `manuscript/02-midnight-an-empty-repository.md`, resolved by `index/tools/chapter_entries.py`. Each row is the index's own entry for the file: kind, owner, when it was added and last changed, and what it is.
 
-## talk at 298be4e (13)
+## talk at 298be4e (14)
 
 | Path | Kind | Owner | Added | Last changed | What it is |
 |---|---|---|---|---|---|
@@ -13,6 +13,7 @@ From the chapter's `## Where this came from` in `manuscript/02-midnight-an-empty
 | `admin/build/validate.py` | site build | dev | `1f7c633` 2026-10-29 00:40:50 | `28fe01d` 2026-10-29 16:36:27 | The gate. Fails the build (exit 1) on any finding; CI runs it before every release and on the built tree. |
 | `team/dev/ROLE.md` | role | dev | `1f7c633` 2026-10-29 00:40:50 | `6a6be6d` 2026-10-29 03:34:10 | Role: dev@the-ultimate-insider |
 | `admin/notes/2026-10-29__first-agents-and-schedule.md` | admin note | Claude | `97b98d9` 2026-10-29 00:44:37 | `97b98d9` 2026-10-29 00:44:37 | the conductor's first proposal of agents and schedule, corrected the same day after it read BRIEF.md; the original left below |
+| `src/static/talk/talk.json` | talk | dev | `1f7c633` 2026-10-29 00:40:50 | `b3f208f` 2026-10-29 18:14:54 | the talk itself: 58 beats, each with its act, duration, slide, what the editor says and his cue (title, event and speaker at the top) |
 | `team/security/ROLE.md` | role | security | `02cbd86` 2026-10-29 01:27:10 | `02cbd86` 2026-10-29 01:27:10 | the security role the talk's conductor proposed and nobody staffed: checks first and last in every run, a review of the pinned tools and each new key |
 | `team/conductor/debriefs/img/2026-10-29__banners-and-keys__1-team.png` | debrief image | conductor | `b3ee324` 2026-10-29 00:59:19 | `b3ee324` 2026-10-29 00:59:19 | image |
 | `team/motion/debriefs/img/the-building__1280__t3.png` | debrief image | motion | `7639664` 2026-10-29 16:34:39 | `7639664` 2026-10-29 16:34:39 | image |
@@ -37,4 +38,4 @@ From the chapter's `## Where this came from` in `manuscript/02-midnight-an-empty
 
 ## Not in any index
 
-Paths the tool could not place (outside the three repositories, or a web address): `start.py`, `WAKE.md`, `talk.json`
+Paths the tool could not place (outside the three repositories, or a web address): `start.py`, `WAKE.md`
