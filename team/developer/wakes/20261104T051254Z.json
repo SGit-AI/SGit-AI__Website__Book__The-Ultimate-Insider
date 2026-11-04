@@ -17,6 +17,20 @@
    "verdict": "go",
    "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions for Claude_Docs, github, Gmail in context, no tools for them). Plan within policy; late plan step accepted as a disclosed deviation; watch the renamed key and the regenerated pages diff.",
    "at": "2026-11-04T05:16:17Z"
+  },
+  "work": {
+   "by": "developer",
+   "model": "",
+   "verdict": "done",
+   "comment": "Heading figures checked (25 of 26 placed, none apart), page check on the 136-page PDF of 05:11, tools rerun in order, developer__038 sent to publisher and designer (outbox cmp same), inbox copies, debrief, status, REALITY; build and gate clean; scratch PDFs deleted. Process deviation: tool edits began before the plan step; disclosed.",
+   "at": "2026-11-04T05:17:41Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions for Claude_Docs, github, Gmail in context, no tools for them; it first said none, then corrected). As planned. Notes: the mail repeats the full lists beside what changed; its Date header (05:40) and status as_of (05:45) were later than the real time (05:18): corrected to 05:18 in all three mail copies (cmp same) and status. Disclosed plan-step deviation stands.",
+   "at": "2026-11-04T05:18:15Z"
   }
  },
  "closed": null,
