@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T06:03:25Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "go with corrections: tolerant front matter for debriefs only (flag from build_team), articles strict, drop the heading line from the body, warn on stderr; file by copy only; answer in-scope asks (schedule entries, routing critic1/3/4 notes to publisher, designer, researcher; the grid only from what letters state, sign-off not yet); the critics' create.schedule.tenant contradiction: fix the staffing drafts, members' own policies are theirs; the rest to the editor (TS1 line height, LAB 46 title page, Try this card, EPUB in upload, the reader's full name, the $20 line, the librarian's policy)",
+   "at": "2026-11-04T06:05:48Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "go: in scope; tolerant only in the debrief loop with a stderr warning; no trigger created or updated; only staffing drafts edited, and the letter says so; no unsigned decision; vault_check comms",
+   "at": "2026-11-04T06:06:36Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "build.py: tolerant front matter for debriefs only, stderr warning (dev green); 25 letters filed; letters publisher 081, designer 075, researcher 064, librarian 035, historian 043, writer 032, own-task letters to critic1-6, writer2-4; staffing drafts critic1-6, writer2-4: create.schedule.tenant to wanted, own task only (older drafts reverted, untouched); schedule.json: critic1 :03, tasks recorded, critic3 and writer3 without; grid marks from letters only; status: editor items",
+   "at": "2026-11-04T06:09:38Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
