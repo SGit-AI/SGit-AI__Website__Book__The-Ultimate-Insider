@@ -31,8 +31,15 @@
    "verdict": "as-planned",
    "comment": "Upkeep done in e82eb6d7 as planned; conditions held; gate clean (857), 0 outside scope. It did not independently check vault_check or the temp folder (the developer's run left none). It explains the plan step's note: the session carries MCP servers' instructions, but no tool from them is callable by a review step.",
    "at": "2026-11-04T00:15:49Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (post_review brief), as the reviewer agent type: saw Read, Grep, Glob, Bash and, it reported, three MCP servers' tools (Claude_Docs, github, Gmail); called none; none refused; wrote no file. Its report disagrees with the pre-review's and post-check's: sent to security as developer__031",
+   "model": "",
+   "verdict": "clean",
+   "comment": "e82eb6d7 clean: 41 files in scope, 0 outside; no %% or inline editor's note; manuscript/, publishing/, admin/ and .claude/ unchanged; every link to github.com/SGit-AI or the book; all 329 QR targets on the book's domain; no key, token or email; gate clean (857). Tool report disagrees with the other steps' (see developer__031); the control's status is for security to test, not settled here.",
+   "at": "2026-11-04T00:16:34Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T00:16:34Z",
+ "outcome": "ok"
 }
