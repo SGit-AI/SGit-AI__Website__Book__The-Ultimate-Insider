@@ -11,15 +11,18 @@ From the chapter's `%% record` lines (and its `## Where this came from`, where i
 | `team/studio/debriefs/2026-10-29__first-ports.md` | debrief | studio | `4b547e6` 2026-10-29 15:42:00 | `4b547e6` 2026-10-29 15:42:00 | Joining, and the first two ports from ruv.sgit.ai (the ABP slide and studio v4) |
 | `team/conductor/wakes` | folder |  | ``  | ``  |  |
 
-## this repository (7)
+## this repository (10)
 
 - `timeline/day/15.md`
 - `timeline/day/16.md`
 - `timeline/interviews/motion.md`
 - `timeline/interviews/studio.md`
 - `claims/register.json`
+- `team/conductor/from-newsroom/2026-11-04__narrator-voice-part-three.md`
+- `team/conductor/from-newsroom/2026-11-04__do-this-now-as-invitations.md`
 - `chapter-plan/edition-150-outline.md`
 - `manuscript/rc2/70/09-the-loop-and-the-port.md`
+- `chapter-plan/cast/cast-guide.md`
 
 ## Commits named (12)
 
