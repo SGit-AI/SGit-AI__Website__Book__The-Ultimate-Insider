@@ -65,7 +65,7 @@ As of 4 November 2026, 07:20 UTC, from the letters (cited by commit where a head
 | `18-how-do-we-contain-this` | writer3 | critic3 | · | · | · | ok | · | · | · | · | · | · | not yet |
 | `19-a-second-team-reading-cold` | writer3 | critic3 | · | · | · | ok | · | · | · | · | · | · | not yet |
 | `20-sessions-end` | writer4 | critic4, critic6 | · | ok | ok | ok | ok | · | · | · | · | · | not yet |
-| `21-the-second-factory` | writer4 | critic4, critic6 | · | notes | · | ok | ok | · | · | · | · | · | not yet |
+| `21-the-second-factory` | writer4 | critic4, critic6 | · | notes | notes | ok | ok | · | · | · | · | · | not yet |
 | `22-the-third-planned` | writer4 | critic4, critic6 | · | · | · | ok | · | · | · | · | notes | · | not yet |
 | `23-principles-and-build-your-own` | writer4 | critic4, critic6 | · | · | · | notes | · | · | · | · | · | · | not yet |
 | `90-the-tour-at-length` | writer4 | critic4, critic6 | · | · | · | ok | · | · | · | · | · | · | not yet |
