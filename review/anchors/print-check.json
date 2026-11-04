@@ -1,9 +1,9 @@
 {
  "about": "The full book's printed pages checked for pages that may not look right (conductor__036). Written by review/tools/print_check.py: page numbers, chapter titles, counts and sizes only.",
  "edition": "rc2-150",
- "source": "a PDF given by hand (full.pdf, created Wed Nov  4 21:15:25 2026 UTC); its chapters are taken to be today's",
+ "source": "a PDF given by hand (full.pdf, created Wed Nov  4 22:04:28 2026 UTC); its chapters are taken to be today's",
  "pdf_pages": 145,
- "chapters_hash": "19fc2685d3bd5d74",
+ "chapters_hash": "58f8653f04562c9d",
  "thresholds": {
   "spill_fill_below": 0.25,
   "gap_fill_below": 0.7,
@@ -14,7 +14,7 @@
  "chapters": 31,
  "counts": {
   "chapter_end_spill": 8,
-  "gap_page": 6,
+  "gap_page": 5,
   "figure_apart": 16
  },
  "flags": [
@@ -78,17 +78,8 @@
    "kind": "gap_page",
    "page": 50,
    "chapter": "Hours four and five: before dawn",
-   "fill": 0.23,
-   "lines": 6,
-   "raster_figure_here": false,
-   "borderline": false
-  },
-  {
-   "kind": "gap_page",
-   "page": 107,
-   "chapter": "The second factory",
-   "fill": 0.52,
-   "lines": 17,
+   "fill": 0.38,
+   "lines": 12,
    "raster_figure_here": false,
    "borderline": false
   },
@@ -258,34 +249,21 @@
   "begin_on_a_later_page_than_that_paragraph_ends": 12
  },
  "since_last": {
-  "previous_pdf_pages": 143,
+  "previous_pdf_pages": 145,
   "previous_counts": {
-   "chapter_end_spill": 6,
-   "gap_page": 7,
+   "chapter_end_spill": 8,
+   "gap_page": 6,
    "figure_apart": 16
   },
   "fixed": [
    {
     "kind": "gap_page",
-    "chapter": "Hour nineteen, minute by minute",
+    "chapter": "The second factory",
     "before": 1,
     "now": 0
    }
   ],
-  "new": [
-   {
-    "kind": "chapter_end_spill",
-    "chapter": "Hour nineteen, minute by minute",
-    "before": 0,
-    "now": 1
-   },
-   {
-    "kind": "chapter_end_spill",
-    "chapter": "Nine hours with nobody starting work",
-    "before": 0,
-    "now": 1
-   }
-  ],
+  "new": [],
   "remaining": [
    {
     "kind": "chapter_end_spill",
@@ -319,6 +297,18 @@
    },
    {
     "kind": "chapter_end_spill",
+    "chapter": "Hour nineteen, minute by minute",
+    "before": 1,
+    "now": 1
+   },
+   {
+    "kind": "chapter_end_spill",
+    "chapter": "Nine hours with nobody starting work",
+    "before": 1,
+    "now": 1
+   },
+   {
+    "kind": "chapter_end_spill",
     "chapter": "Hours four and five: before dawn",
     "before": 1,
     "now": 1
@@ -326,12 +316,6 @@
    {
     "kind": "gap_page",
     "chapter": "Hours four and five: before dawn",
-    "before": 1,
-    "now": 1
-   },
-   {
-    "kind": "gap_page",
-    "chapter": "The second factory",
     "before": 1,
     "now": 1
    },
@@ -421,7 +405,7 @@
   "how a page looks beyond how far its content reaches"
  ],
  "paragraphs_found_on_a_page": {
-  "found": 992,
-  "of": 1004
+  "found": 987,
+  "of": 1002
  }
 }
