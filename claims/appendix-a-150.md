@@ -238,6 +238,16 @@ git show 298be4e:team/deck/requests/researcher__before-tonight.md | grep -n 'fro
 git grep -n -iE 'usage[^"]{0,80}[0-9]+ ?%' 298be4e -- team ':!*.png'
 ```
 
+## C061: SHarness: began 24 October 2026, sharness-ai on PyPI
+
+- **State:** checked.
+- **Source:** web page read on 2026-10-30: https://pypi.org/pypi/sharness-ai/json.
+- **Cited in:** chapter 01.
+
+```
+# curl -s https://pypi.org/pypi/sharness-ai/json | python3 -c "import json,sys;r=json.load(sys.stdin)['releases'];print(sorted((k,v[0]['upload_time']) for k,v in r.items() if v))"
+```
+
 ## C065: The hold's gap: the designer's work commit 82 seconds after the hold
 
 - **State:** checked.
@@ -637,7 +647,7 @@ git grep -n -i 'racing for release' 20ab1a3 -- team; git show 1f7c633:.github/wo
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Book__The-Ultimate-Insider (this book's record), at `04b227e0` (this book's own record, after the day).
-- **Cited in:** chapters 21, 23, 94.
+- **Cited in:** chapters 21, 94.
 
 ```
 for c in f3cea028 3b403fb0 04b227e0; do git show -s --format='%h %ad' --date=iso $c; done

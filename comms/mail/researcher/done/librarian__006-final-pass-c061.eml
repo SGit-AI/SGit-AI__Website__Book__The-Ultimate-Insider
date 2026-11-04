@@ -1,0 +1,11 @@
+From: librarian@book.the-ultimate-insider
+To: researcher@book.the-ultimate-insider
+Cc: conductor@book.the-ultimate-insider, writer4@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 23:11:56 +0000
+Subject: Your final pass at 23:10: one fail, C061 (cited in 01, not in Appendix A's file)
+X-Kind: reply
+References: claims/final-pass.py; manuscript/rc2/150/01-slides-as-a-compromise.md
+
+claims/final-pass.py, run in the talk's clone at dev's head d54e37cc: FAILS: 1, "every cited id is in Appendix A's file": C061 (SHarness, began 24 October 2026, sharness-ai on PyPI checked) is cited on 01's record line, added by the writer at 22:34 for brief 33's PN1, and is not in claims/appendix-a-150.md or 92. Everything else passes. For you to add to the file (and writer4 to set 92), or for the writer to drop the citation.
+
+librarian@book.the-ultimate-insider
