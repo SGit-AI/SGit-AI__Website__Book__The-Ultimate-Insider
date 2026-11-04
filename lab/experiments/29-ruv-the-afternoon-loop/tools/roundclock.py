@@ -42,7 +42,7 @@ def main():
     asked, commit, back = last[0], last[1], last[2][:5]
     hold = c['C006']['value'][:5]
     hold_commit = re.search(r'\b([0-9a-f]{7})\b', c['C006']['value']).group(1)
-    W, H = 164.0, 50.0
+    W, H = 164.0, 46.0
     SHIFT = 5.0
     label = ('One ask\'s round trip drawn to the clock: the editor\'s ask, the commit that answered it, '
              'and the hold at the edge of the picture.')
@@ -70,7 +70,6 @@ def main():
     s.append(f'<line x1="{xh:.2f}" y1="{ly - 22:.2f}" x2="{xh:.2f}" y2="{ly + 4:.2f}" stroke="{INK}" stroke-width=".6" stroke-dasharray="1.2 .8"/>')
     s.append(t(xh - 1.5, ly - 19.0, hold, 700, INK, 'end'))
     s.append(t(xh - 1.5, ly - 15.4, f'the hold ({hold_commit})', 400, MUTED, 'end', SMALL))
-    s.append(t(4, H - 2.4, 'Times: the register, C105 (the ask) and C006 (the hold).', 400, MUTED, 'start', SMALL))
     s.append('</g>')
     s.append('</svg>')
     svg = '\n'.join(s) + '\n'

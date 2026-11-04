@@ -83,8 +83,8 @@ def strip_01_05(vals, wk, first):
         assert len(nums) == 2 and all(n.isdigit() for n in nums), wk[key]
         s.append(t(x + 1.6, y0 + bh + 5.0, f'wakes: {nums[0]} scheduled,', SMALL, 400, INK))
         s.append(t(x + 1.6, y0 + bh + 8.4, f'{nums[1]} the editor\'s', SMALL, 400, INK))
-    s.append(t(0, H - 5.6, f'Commits: C095, the "all" row; the bar: this hour against the day\'s busiest hour. Wakes by trigger: C087,', SMALL, 400, MUTED))
-    s.append(t(0, H - 2.2, f'which has no entry for hours one and two: wake records began at {first}, in hour three (C022).', SMALL, 400, MUTED))
+    s.append(t(0, H - 5.6, f'Commits: the "all" row of the day\'s counts; the bar: this hour against the day\'s busiest hour. Wakes by trigger:', SMALL, 400, MUTED))
+    s.append(t(0, H - 2.2, f'the register has no entry for hours one and two: wake records began at {first}, in hour three.', SMALL, 400, MUTED))
     return s, H
 
 
@@ -102,7 +102,7 @@ def strip_06_14(vals, wk, first):
     by = y0 + bh + 2.0
     s.append(f'<rect x="0" y="{by:.2f}" width="{W:g}" height="6.4" rx="1.4" fill="{FILL}" stroke="{ACCENT}" stroke-width=".35"/>')
     s.append(t(W / 2, by + 4.4, f'wakes in these nine hours, in the register\'s words: "{band}"', SMALL, 700, INK, 'middle'))
-    s.append(t(0, H - 5.6, 'Commits: C095, the "all" row; the bar: this hour against the day\'s busiest hour. Wakes: C087 gives one range', SMALL, 400, MUTED))
+    s.append(t(0, H - 5.6, 'Commits: the "all" row of the day\'s counts; the bar: this hour against the day\'s busiest hour. Wakes: one range', SMALL, 400, MUTED))
     s.append(t(0, H - 2.2, 'for 05:00 to 13:59, not a count for each hour; every wake that started in those hours was scheduled.', SMALL, 400, MUTED))
     return s, H
 

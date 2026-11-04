@@ -88,7 +88,6 @@ def main():
     ny = ty + 11.0 + len(rows) * rh + 1.0
     s.append(t(tx, ny, '"Asked" is the time written in the commit,', 400, MUTED, 'start', SMALL, 'italic'))
     s.append(t(tx, ny + 3.4, 'not a clock: one came back before it.', 400, MUTED, 'start', SMALL, 'italic'))
-    s.append(t(x0, H - 2.4, 'Times: the register, C105 (the asks) and C006 (the hold).', 400, MUTED, 'start', SMALL))
     s.append('</svg>')
     svg = '\n'.join(s) + '\n'
     if UNSAFE.search(svg):

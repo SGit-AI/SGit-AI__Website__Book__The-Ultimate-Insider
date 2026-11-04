@@ -79,7 +79,7 @@ def main():
     notes = [f'Hour 00 is the repository at its last commit of that hour, {first["commit_time"][:5]}; hour 18 is the day\'s last release, '
              f'{last["commit_time"][:5]}, after the hold.',
              'The bars follow dev\'s first-parent line: a branch merged late makes an hour look quieter than the work done in it.',
-             '"Other" is everything else: images, text files, scripts, QR codes. Every value: the register, C124.']
+             '"Other" is everything else: images, text files, scripts, QR codes.']
     for j, n in enumerate(notes):
         s.append(t(x0, base + 13.0 + j * 3.4, n, TINY, 400, MUTED, 'start', 'italic' if j < 2 else ''))
     s.append('</g>')
