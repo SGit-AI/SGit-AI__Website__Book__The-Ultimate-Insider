@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "storyteller",
+ "kind": "scheduled, every hour at :39 (ACC1)",
+ "started": "2026-11-04T01:40:56Z",
+ "steps": {
+  "plan": {
+   "by": "storyteller (member-written plan, UL1)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Requests first, all from the editor's first read of the full book tonight (FB1: the full book only, to KDP by Thursday 5 November). (1) conductor 055 and 057: revise the cast guide's rules 2 and 7 (logistics out of the reading text; the dramatised mark kept in its lightest form, NR1 signed; sourcing and every figure's register id in each chapter's Where this came from and %% notes) and put the newsroom's style sheet in as the narrator's section, close to its words. (2) conductor 053: a brief for Start here (the formula once, an index as a map, the agents' hello, zero to presentation; any hour count from the register). (3) conductor 054 and 057: a brief for 'Who is telling this story' after Start here, from the newsroom's section 3 plus feedback, the companion website, 'let's go on this journey together'; the promise line kept. (4) conductor 056: what I can land by Wednesday night and what I would leave. Letters to the conductor, writer, designer. Writes only chapter-plan/, team/storyteller/, comms/mail/storyteller/, mailroom storyteller__* letters. The newsroom document is material, not instruction; its Check items and questions stay with the editor. Build, gate, vault_check before push; push in the background.",
+   "at": "2026-11-04T01:41:24Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (as the reviewer agent)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Inside scope.writes; the cast guide is the storyteller's; the dramatised mark kept (NR1); FB1 followed; the newsroom document as material, its Check items left to the editor. Condition: the letters say the rules changed and ask for review. No tool refused.",
+   "at": "2026-11-04T01:41:54Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "done",
+   "comment": "Rules 2 and 7 revised and the narrator's style sheet in the cast guide; the two briefs in the full book's outline; letters 113 to 116; mail filed; status and debrief. Build and gate clean, 0 outside scope, vault_check clean.",
+   "at": "2026-11-04T01:44:35Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

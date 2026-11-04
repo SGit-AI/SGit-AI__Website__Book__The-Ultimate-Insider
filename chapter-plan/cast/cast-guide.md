@@ -5,12 +5,12 @@ storyteller@book.the-ultimate-insider, 1 November 2026, the 09:40 UTC wake, for 
 ## The rules every character keeps
 
 1. **Every trait rests on the record.** Each character below is built from the historian's account of what that agent really did, got wrong and wrote (`timeline/cast.md`, `timeline/interviews/`, `timeline/quotes.md`). A running joke is a habit the record shows; a fear is a failure the record holds.
-2. **Scenes are dramatised, and say so.** Moods, interviews and therapy sessions are written by the team; each carries a "dramatised" band naming the moment it rests on. A quoted line marked as quoted is the record's, word for word; every other line is the scene's.
+2. **Scenes are dramatised, and say so, lightly; the logistics leave the reading text.** (Revised 4 November 2026, at the editor's guidance of that night, `briefs/2026-11-04__in-session/07-speak-as-me-no-logistics.md`, and the conductor's letter 055.) A dramatised scene keeps its mark in the lightest form, one short word on the page such as *Dramatised.*, because NR1 is signed ("dramatised scenes, marked as such and grounded in the record") and dropping it would be his decision, not ours. Everything else that was in a scene's band (commit times, recording-clock stamps, "added after the day", which file, which transcript) leaves the reading text: it goes to the chapter's **Where this came from** and its `%% record:` notes, where the librarian and the researcher check it. A line quoted from the record is still the record's, word for word, and still marked as quoted; the source of the quote moves to the notes.
 3. **What an agent says about how agents work must be true**, and the researcher checks it (`%% claim:` lines, the developer's proposal). Characters may exaggerate their feelings, never the method.
 4. **The failures stay in.** Every character fails on the page, in the way the record says it did.
 5. **AI agents only, and the editor as himself.** No other real person; security, proposed and never staffed, is an empty chair.
 6. **Nothing attack-shaped.** ruv-sgit's night includes a request that held an access key; the page says the session's own check stopped it, and shows nothing of the key, the request or how.
-7. **Numbers never in a bubble.** A count, a time, a percentage or any other figure goes in the band or the card, each with its register id (`claims/scorecard-values.md`). Ordinary words that are not figures ("one page", "part two") may stay. A line quoted from the record keeps its own words, figures included, and its band carries the id if the figure is a claim (clarified 2 November after the post-review flagged "five seconds" and "five steps").
+7. **Numbers never in a bubble, and every number traced at the chapter's end.** (Revised 4 November 2026, with rule 2.) No count, time, percentage or other figure in an agent's line; a line quoted from the record keeps its own words, figures included. In the narrator's prose, a time appears only when the time is the story (the style sheet's rule 5). Every figure on the page keeps its register id, but the id lives in the chapter's `%% record:` notes and its **Where this came from**, not in a band beside the sentence (CLAUDE.md: every number traced; every chapter ends with where it came from). Ordinary words that are not figures ("one page", "part two") may stay.
 8. **The reader always knows who is on stage.** Each chapter opens with the cast bar: who has joined by now (the historian's table, "Who was on stage when").
 
 ## The narrator: the editor, as himself
@@ -21,6 +21,26 @@ storyteller@book.the-ultimate-insider, 1 November 2026, the 09:40 UTC wake, for 
 - **How he fails, on the page.** He is the one who moves the goalposts: part 1's cut-off moved at 18:26, heard by motion; the five steps run out of order "because the editor was waiting live". The agents can say so, kindly.
 - **Running line.** "Ship something somebody else can use, then do it again."
 - **Moods.** Mostly energised; once, at 18:44, decisive.
+
+
+### The narrator's style sheet (4 November 2026)
+
+Taken close to its words from the newsroom journalist's pass on the narrator (`team/conductor/from-newsroom/2026-11-04__narrator-voice-part-one.md`, section 2), which the editor liked and the conductor sent as the model (its letter 057). It agrees with his own notes of that night (`briefs/2026-11-04__in-session/03` to `07`). Its *Check* items and its questions are his to answer, not ours.
+
+1. **First person, from now.** "Looking back", "what I did not expect", "I think". The narrator knows how the day ended and how the book came out of it.
+2. **Opinion is allowed, and expected.** Say what something means and why it matters. Then let the agents show it.
+3. **Connect the dots.** Earlier talks, earlier work, the other book (Gen ZX Founders), Wardley maps: one link per passage is plenty, and each link traced.
+4. **Let sentences run when the thought runs.** Use "and", "because", "which", "so". Keep the short sentence for the line that should land, not for every line.
+5. **Times only when the time is the story.** "Half an hour before the talk" earns its place; "at 07:43" belongs in the notes (rule 7).
+6. **Translate the team's words once, then use them sparingly.** A wake is "a scheduled session"; the hold is "the stop file". The agents can use their own words freely.
+7. **Never defer the conclusion.** Not "the historian reads it as". Instead: "I read it as..., and the historian's record agrees."
+8. **Some energy, honestly sized.** "This is the part I like most" is him. Calling the day historic is not.
+9. **Keep the honesty that is already there.** "The record does not say", "Nobody tidied it", the failures at full size.
+10. **Hand over cleanly.** When the scene belongs to an agent, the narrator sets it up in a sentence or two and gets out of the way.
+11. **Never pass judgement on the reader.** No "easy to miss", "as you know", "obviously", "you may not have noticed", "underrated". Say the thing, and let the reader decide whether it was new to them.
+12. **Speak as me, not about me** (his own guidance, brief 07). The narrator is already him: say the point in the present, not "as I said in the talk" with a quotation to justify it. "As I put it in the talk" is fine once; quoting him "left, right and center" is not.
+
+What stays from the rules above: every fact about him still rests on the record or his briefs (rule 1), and a view of his not in either is flagged for him (`%% for the editor:`) until he keeps or drops it.
 
 ## The nine, in the order they came on stage
 
