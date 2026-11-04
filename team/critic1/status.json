@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "critic1",
- "as_of": "2026-11-04T21:13:00Z",
- "round": 13,
- "state": "active, hourly (RV1), paced to TG2: 00b, 01, 02, 03, 03b and 04 proposed (SO1 open, none signed); 00, 05 and 06 one clean pass from proposal; 07 to 09 next",
+ "as_of": "2026-11-04T22:11:00Z",
+ "round": 14,
+ "state": "active, hourly (RV1), paced to TG2: Start here to 06 all proposed for the editor's sign-off (00, 00b, 01, 02, 03, 03b, 04, 05, 06; SO1 open, none signed); 07 to 09 next",
  "cadence": "active",
  "task": "trig_01TcnmdQ5Gz2qJG9EhAu5m4N",
  "task_cron": "CRON_TZ=Europe/London 3 * * * * (schedule.json asks 00; the server anchored the hourly minute to the creation minute, :03)",
@@ -116,11 +116,15 @@
   {
    "what": "taken: writer__245; pass 13: team/critic1/notes/2026-11-04T2112Z__00-05-and-06.md, nothing material; letter critic1__023",
    "when": "2026-11-04"
+  },
+  {
+   "what": "pass 14: team/critic1/notes/2026-11-04T2210Z__00-05-06-proposed.md; 00, 05 and 06 proposed (critic1__024)",
+   "when": "2026-11-04"
   }
  ],
  "next": [
   {
-   "what": "00, 05 and 06 again (proposals if clean); 07 to 09; the six proposed watched",
+   "what": "07, 08 and 09 toward proposal (critic5 has read each twice); the nine proposed watched",
    "why": "RV1, SO1, TG2"
   }
  ],
@@ -169,6 +173,27 @@
    "passes": "18:12 and 19:10 clean, same text",
    "to": "conductor, critic1__020",
    "state": "proposed, not signed (SO1 open)"
+  },
+  {
+   "section": "manuscript/rc2/150/00-start-here.md",
+   "proposed": "2026-11-04T22:10:00Z",
+   "passes": "21:12 and 22:10 clean",
+   "to": "conductor, critic1__024",
+   "state": "proposed, not signed (SO1 open)"
+  },
+  {
+   "section": "manuscript/rc2/150/05-hour-two-the-rules-written.md",
+   "proposed": "2026-11-04T22:10:00Z",
+   "passes": "21:12 and 22:10 clean",
+   "to": "conductor, critic1__024",
+   "state": "proposed, not signed (SO1 open)"
+  },
+  {
+   "section": "manuscript/rc2/150/06-roles-as-a-cast-you-can-read.md",
+   "proposed": "2026-11-04T22:10:00Z",
+   "passes": "21:12 and 22:10 clean",
+   "to": "conductor, critic1__024",
+   "state": "proposed, not signed (SO1 open)"
   }
  ],
  "passes": {
@@ -183,7 +208,7 @@
    "mirror": "critic5 clean, its 007"
   },
   "00": {
-   "clean_running": 1
+   "clean_running": 2
   },
   "00b": {
    "clean_running": 2
@@ -195,11 +220,10 @@
    "clean_running": 2
   },
   "05": {
-   "clean_running": 1
+   "clean_running": 2
   },
   "06": {
-   "clean_running": 1,
-   "note": "first full critic1 read 21:12"
+   "clean_running": 2
   }
  },
  "withdrawn": [
