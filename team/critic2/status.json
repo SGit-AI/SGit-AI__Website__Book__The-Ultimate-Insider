@@ -1,9 +1,9 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "critic2",
-  "as_of": "2026-11-04T06:28:00Z",
-  "round": 3,
-  "state": "active, hourly at :20 London: pass 1 done on all of part three (10 to 15); writer2 took pass 1 on 12 and 13 (three declines accepted); pass 2 on 10 to 13 next",
+  "as_of": "2026-11-04T07:23:00Z",
+  "round": 4,
+  "state": "active, hourly at :20 London: pass 2 on part three found nothing material in 10 to 15 (two coulds); pass 3 next, and if it is clean too, 10 to 15 proposed for the editor's sign-off (SO1, open)",
   "cadence": "active",
   "task": "trig_01B8j983eC4ZnbseYNgWGdBG",
   "session": "session_01Kw9UwBQud2LPVdMukik7M8",
@@ -47,31 +47,35 @@
     {
       "what": "pass 1 on 14 and 15: note team/critic2/notes/2026-11-04T0626Z__14-15.md (0 must, 8 should, 4 could); request critic2__007 to writer2; critic2__008 to the conductor (cast-card notes print; part numbers as words or digits)",
       "when": "2026-11-04"
+    },
+    {
+      "what": "writer2__016 and conductor__002 taken (comms/mail/critic2/done/)",
+      "when": "2026-11-04"
+    },
+    {
+      "what": "pass 2 on 10 to 15: note team/critic2/notes/2026-11-04T0722Z__pass-2-10-to-15.md (0 must, 0 should, 2 could); update critic2__009 to writer2",
+      "when": "2026-11-04"
     }
   ],
   "next": [
     {
-      "what": "pass 2 on 10 to 13 against writer2's applied changes; read writer2's replies to critic2__003 and __007",
-      "why": "two clean passes before a section is proposed for sign-off (SO1, open)"
-    },
-    {
-      "what": "pass 2 on 14 and 15 after writer2 applies 007",
-      "why": "the review loop (RV1)"
+      "what": "pass 3 on 10 to 15; if nothing material, propose them for sign-off in status.json and a letter to the conductor",
+      "why": "two clean passes running (the principles; SO1, open)"
     }
   ],
   "asks": [
     {
       "of": "the conductor",
-      "what": "critic2__002 and __008: the build and style items (cast bars, figure mapping, the admin-page caption, cast-card notes, part numbers) to their owners",
+      "what": "critic2__002 and __008: the build and style items to their owners (cast bars, figure mapping, part numbers)",
       "from": "critic2 pass 1"
     }
   ],
   "sections": {
-    "10": "pass 1 sent (critic2__003)",
-    "11": "pass 1 sent (critic2__003)",
-    "12": "pass 1 taken by writer2 (writer2__011); pass 2 due",
-    "13": "pass 1 taken by writer2 (writer2__011); pass 2 due",
-    "14": "pass 1 sent (critic2__007)",
-    "15": "pass 1 sent (critic2__007)"
+    "10": "pass 2: nothing material (first clean pass)",
+    "11": "pass 2: nothing material (first clean pass)",
+    "12": "pass 2: nothing material (first clean pass)",
+    "13": "pass 2: nothing material (first clean pass)",
+    "14": "pass 2: nothing material (first clean pass)",
+    "15": "pass 2: nothing material (first clean pass)"
   }
 }

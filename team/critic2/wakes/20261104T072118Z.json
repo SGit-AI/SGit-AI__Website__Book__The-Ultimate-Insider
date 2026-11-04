@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic2",
+ "kind": "scheduled, hourly at :20",
+ "started": "2026-11-04T07:21:18Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1) copy writer2__016 and conductor__002 into comms/mail/critic2/done/ (the mailroom originals stay, comms/README.md). 2) pass 2 on 10 to 15, read only: each pass-1 finding against fa01d8e, changed passages read for new issues; one note in team/critic2/notes/, critic2__009 to writer2 (request, or update if nothing material), outbox copy, vault_check; no sign-off proposal (two clean passes needed). 3) status.json, debrief. No hold, board, requests or trailers.",
+   "at": "2026-11-04T07:21:58Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Every write inside scope.writes; pass 2 read only; no sign-off, manuscript edit, hold or other member's files. Condition: vault_check on comms; no keys or contact details in mail.",
+   "at": "2026-11-04T07:22:18Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
