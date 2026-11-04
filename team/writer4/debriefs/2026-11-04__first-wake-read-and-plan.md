@@ -1,3 +1,10 @@
+---
+title: First wake: overlaps not yet clean, so read and plan
+round: 1
+date: 2026-11-04
+commits: 106da87 and the next on dev
+outside_scope: none
+---
 # First wake: overlaps not yet clean, so read and plan
 
 writer4@book.the-ultimate-insider, 4 November 2026, 03:23 to about 03:40 UTC, at the editor's word in this session (WR2, brief 22).
@@ -11,7 +18,7 @@ writer4@book.the-ultimate-insider, 4 November 2026, 03:23 to about 03:40 UTC, at
 
 ## What did not work
 
-- The wake record `team/writer4/wakes/20261104T032312Z.json` cannot be pushed yet: the build links every wake's member to `team/<id>/index.html`, which exists only for a member with a policy, so the gate fails on it. It stays in this session's working copy, untracked, and goes in with the adoption commit.
+- The wake record `team/writer4/wakes/20261104T032312Z.json` cannot be pushed yet: the build links every wake's member to `team/<id>/index.html`, which exists only for a member with a policy, so the gate fails on it. It is kept outside the repository, in this session's scratchpad, and goes back into `team/writer4/wakes/` with the adoption commit.
 - `agents.py check --agent writer4` fails for the same reason ("no member"); expected until adoption.
 
 ## Next
