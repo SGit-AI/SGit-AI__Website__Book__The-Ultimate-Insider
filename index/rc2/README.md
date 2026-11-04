@@ -213,6 +213,8 @@ The talk team's vaults are named in 10, not cited by path; nothing of them is in
 
 **4 November 2026, about 22:30 UTC: what changed since 21:15 (03b, 06, 08, 19, 21).** The final pass in the talk's clone has no fails. Two new exact times in 08: "at twenty to four" (the designer's join, `c6dcf89`, 03:41:34) is a could ("about twenty to four"); "at a quarter past four" for deck's second request is about three minutes early (deck's wake started 04:18:22, closed 04:22:48; the story holds), a should (letter writer 027). The rest is wording and role words, or reads from the record.
 
+**4 November 2026, about 23:35 UTC: the 17 files changed since 22:15 (brief 33 and the writers' answers).** Quotations that lost their "(record)" markers are the record's words; 06's "within a quarter of an hour" is the interview's own; 08's times are hour words and true. Findings: the feedback address printed in 00b and 23 comes from a speech transcription (brief 33 says so), so the editor should confirm its spelling; a tracing shorthand at 01:59 (`manuscript/11b`); and C061, newly cited in 01, is missing from Appendix A's file, so the researcher's final pass has one fail (letters conductor 057, writer 028, researcher 006).
+
 ## The writer's readings, for the editor to keep or drop
 
 **Corrected 3 November 2026, about 09:30 UTC:** until this wake the list took only the notes that stand on a line of their own, and missed four set inside a paragraph (70/02:67, 70/02:97, 70/06:68, 70/11:5). The list now takes every note wherever it stands: thirty in the thirty and the seventy (not twenty-six), seven in the 150's part 1, thirty-seven in all.
