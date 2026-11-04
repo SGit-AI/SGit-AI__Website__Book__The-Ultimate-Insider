@@ -25,7 +25,9 @@
 
 `%% Check (the newsroom, part three, chapter 11; his to confirm before it prints): "My newsroom works the same way, and so, now, does almost everything I publish."`
 
-**Figure:** the talk's register as a stacked bar: held, held in part, not checked, did not hold. The counts in the bar, with its id in small type.
+**Figure:** the talk's register as a stacked bar: held, held in part, not checked, did not hold.
+
+`%% figure brief: the counts in the bar, with its id in small type, as the conductor rules on ids inside drawings (ruv-sgit__070's question; conductor__003: no production notes on the Figure line).`
 
 `%% record: C029 (320 claims, built 18:20: 210 hold, 55 hold in part, 52 not checked, 3 do not hold) C030 (the three, none on stage) team/researcher/ROLE.md at 298be4e claims/README.md (this book's register)`
 `%% band: Dramatised (the researcher's line). The talk's own register of claims, as the book's register counts it.`
@@ -72,7 +74,9 @@
 
 **Important concept: the repository growing.** The site was the repository, and it grew every hour: 53 files at the end of the first hour, 1,313 at the day's last release, and its pages from 23 to 163. The biggest jump in pages came in the afternoon hour when the last two agents joined, the two you meet in chapter 14. Nothing was tidied away as it grew. What changed was the design around it: pages built from the team's own files, one frame for every page, and side navigation, so a site that kept getting bigger stayed one I could read.
 
-**Figure:** the repository at the end of each hour, files by kind, from ruv-sgit's drawing.
+**Figure:** the repository at the end of each hour, files by kind.
+
+`%% figure brief: ruv-sgit's drawing, made on 4 November from C124, not on the day (ruv-sgit__070).`
 
 `%% figure brief: For the designer: ruv-sgit's repo-growth.svg (lab/experiments/60-ruv-the-margin-clock/edition/repo-growth.svg), its caption's rule kept (the first-parent line is dev as merged, so a late-merged branch makes an hour look quieter); the cast guide's convention 5, his brief 18.`
 `%% record: C124 (files and pages at the end of each clock hour: hour 00, 53 files, 23 HTML; hour 14 to hour 15, 75 to 116 HTML, the biggest step; C013, motion and studio joined at 15:31; hour 18, 1,313 files, 163 HTML, at 18:46:22) timeline/repo-design.md (historian__050: no page deleted or renamed all day; the frames dated: team pages built from team/ 00:51, admin side navigation 01:52, the studio's side navigation 04:51, design note 1, one frame for every page, 05:51) comms/mail/mailroom/writer2/storyteller__127-repo-growth-callout.eml`
