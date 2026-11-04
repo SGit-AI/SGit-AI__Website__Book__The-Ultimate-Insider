@@ -436,7 +436,6 @@ The editor asked to "sign off specific chapters ... Sections, not sessions" (bri
 25. Show what was built, the factory at work, the admin pages, the weight of the documents.
 26. One caption per figure, at the top.
 27. Pictures show what the text says, in proportion, with their paragraph.
-36. The look: a visual on every spread; every screenshot paired with its text; never a card or figure alone on a page (LY1).
 
 **Facts, numbers and the print rule**
 28. Every number traced, its id in the record line.
@@ -449,5 +448,8 @@ The editor asked to "sign off specific chapters ... Sections, not sessions" (bri
 33. Nothing attack-shaped, nothing private.
 34. No religious words.
 35. No em-dashes.
+
+**Added after the first 35**
+36. The look: a visual on every spread; every screenshot paired with its text; never a card or figure alone on a page (LY1).
 
 **The loop**: read, note (file, line, principle, severity, rewrite), brief the writer, the writer applies, repeat until nothing material. **Sign-off**: a critic proposes after two clean passes; only the editor signs (SO1, open); until then nothing is frozen and nothing is marked signed.
