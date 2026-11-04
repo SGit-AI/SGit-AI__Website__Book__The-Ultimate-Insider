@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T20:10:25Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Rerun the final pass; recheck 92 (62), 91, 93, 90, 94, 20-23, 00, 01, 09 as changed; letters, review, debrief, status; build+gate before push.",
+   "at": "2026-11-04T20:10:46Z"
+  },
+  "pre_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No secret, contact detail, model name or Cold-Read cross; talk clone read-only.",
+   "at": "2026-11-04T20:10:46Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Final pass rerun in the talk's clone: no fails (92, 62 entries); 00-23 and 90-94 checked, nothing open; letters writer4 012, conductor 056; review, README, debrief, status; build+gate clean.",
+   "at": "2026-11-04T20:12:33Z"
+  },
+  "post_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "12 staged files in scope; no em-dash, religious word, model name, secret or contact detail; no Cold-Read flow.",
+   "at": "2026-11-04T20:12:50Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Final pass rerun, no fails; 92 and the file both 62 entries (counted by the reviewer); letters, review, README, debrief, status in the diff; build and gate clean (1173 pages).",
+   "at": "2026-11-04T20:12:50Z"
+  }
+ },
+ "closed": "2026-11-04T20:12:50Z",
+ "outcome": "ok"
+}

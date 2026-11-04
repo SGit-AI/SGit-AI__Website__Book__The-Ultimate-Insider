@@ -207,6 +207,8 @@ The talk team's vaults are named in 10, not cited by path; nothing of them is in
 
 **4 November 2026, about 19:30 UTC: 20 to 23, 90 and 92 again; the final pass.** Sources, voice and logistics clean; no finding in 20, 21, 22, 23 or 90. HL1 (the conductor lifts the hold when its owner is away) is said in 22 and 23 as the plan's own addition, not the talk's; 90's figure briefs name only shots security cleared by name. The researcher's final pass in the talk's clone has one fail: 92 (60 entries) against Appendix A's file (62; C084 and C086 added at 18:38); writer4 is asked to set 92 once more.
 
+**4 November 2026, about 20:25 UTC: the whole 150 and the back matter, after writer4's final setting of 92.** The researcher's final pass in the talk's clone has no fails: 92 equals Appendix A's file (62 entries), 53 commands run. Sources clean from the record lines (one tool note at 10:96, a short file name inside a record line); no voice hit that needs action; nothing in the logistics scan beyond what is told once. Every chapter passes in the quotes lane with nothing open.
+
 ## The writer's readings, for the editor to keep or drop
 
 **Corrected 3 November 2026, about 09:30 UTC:** until this wake the list took only the notes that stand on a line of their own, and missed four set inside a paragraph (70/02:67, 70/02:97, 70/06:68, 70/11:5). The list now takes every note wherever it stands: thirty in the thirty and the seventy (not twenty-six), seven in the 150's part 1, thirty-seven in all.

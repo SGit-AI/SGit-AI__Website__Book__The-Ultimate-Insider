@@ -48,7 +48,7 @@ One file per chapter of the manuscript, built by `index/tools/chapter_entries.py
 | [`150__21-the-second-factory.md`](150__21-the-second-factory.md) | 7 | 1 | 17 | 0 | 10 | 0 |
 | [`150__22-the-third-planned.md`](150__22-the-third-planned.md) | 2 | 0 | 10 | 0 | 1 | 0 |
 | [`150__23-principles-and-build-your-own.md`](150__23-principles-and-build-your-own.md) | 0 | 0 | 10 | 0 | 0 | 0 |
-| [`150__90-the-tour-at-length.md`](150__90-the-tour-at-length.md) | 14 | 0 | 11 | 1 | 5 | 0 |
+| [`150__90-the-tour-at-length.md`](150__90-the-tour-at-length.md) | 14 | 0 | 9 | 1 | 5 | 0 |
 | [`150__91-the-words-used.md`](150__91-the-words-used.md) | 0 | 0 | 5 | 0 | 0 | 0 |
 | [`150__92-appendix-a-every-number.md`](150__92-appendix-a-every-number.md) | 0 | 0 | 2 | 0 | 0 | 0 |
 | [`150__93-appendix-b-the-control-register.md`](150__93-appendix-b-the-control-register.md) | 0 | 0 | 4 | 0 | 2 | 0 |

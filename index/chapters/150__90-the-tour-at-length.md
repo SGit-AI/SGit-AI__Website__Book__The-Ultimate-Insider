@@ -21,7 +21,7 @@ From the chapter's `%% record` lines (and its `## Where this came from`, where i
 | `src/static/talk/player.html` | talk | dev | `1f7c633` 2026-10-29 00:40:50 | `dbd75ad` 2026-10-29 18:37:02 | the player: plays talk.json's beats with their slides, presenter view and keys |
 | `admin/build/build.py` | site build | dev | `1f7c633` 2026-10-29 00:40:50 | `23739cc` 2026-10-29 18:04:48 | Builds the site into _site/ from src/ and content/. Standard library only, so CI needs nothing installed. |
 
-## this repository (11)
+## this repository (9)
 
 - `index/talk-site/README.md`
 - `index/talk-site/tour-material.md`
@@ -32,8 +32,6 @@ From the chapter's `%% record` lines (and its `## Where this came from`, where i
 - `claims/register.json`
 - `chapter-plan/edition-150-outline.md`
 - `manuscript/rc2/70/02-the-tour.md`
-- `team/critic6/notes/2026-11-04T0530Z__94-90.md`
-- `chapter-plan/cast/cast-guide.md`
 
 ## talk, added after the day (1)
 
