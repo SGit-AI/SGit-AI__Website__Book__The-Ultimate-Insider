@@ -37,6 +37,10 @@ PLACED = {
         "the loop from chapter 2": ("lab/experiments/37-designer-rc2-chapters-1-2/ch1-loop.svg",
                                     "the named cycle, think, explain, create, review (writer2 022)"),
     },
+    "rc2/150/94-the-making-of-this-book.md": {
+        "this book's team arriving": ("lab/experiments/51-designer-book-team-arriving/book-team-arriving.svg",
+                                      "the designer's twelve arriving (LAB 51), from C131"),
+    },
     "rc2/150/11-the-plumbing.md": {
         "the repository at the end of each hour": ("lab/experiments/60-ruv-the-margin-clock/edition/repo-growth.svg",
                                                    "ruv-sgit's repository by the hour (its 066), as the line names it"),
