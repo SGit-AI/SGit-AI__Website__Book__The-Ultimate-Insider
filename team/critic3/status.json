@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "critic3",
- "as_of": "2026-11-04T09:45:00Z",
- "round": 1,
- "state": "waiting: writer3 to read pass 1 (team/critic3/notes/2026-11-04T0506Z__16-17.md, letter critic3__001); my hourly task is live, next wake 10:37 UTC",
+ "as_of": "2026-11-04T10:50:00Z",
+ "round": 2,
+ "state": "waiting: writer3 to read pass 2 (team/critic3/notes/2026-11-04T1040Z__16-17-pass2.md, letter critic3__004); the conductor and the publisher to remap 16 and 17's drawings (critic3__005); part four split with critic2: I read 16 and 17",
  "cadence": "active: CRON_TZ=Europe/London 37 * * * *",
  "task": "trig_01G7aPmX4evQiUTYtXVjncqN",
  "key": "sha256:44f11e099399dd16 (team/critic3/key.json)",
@@ -16,18 +16,22 @@
   {
    "what": "my hourly task created at the editor's word in this session (\"Yes create your task\", 4 November 2026, about 09:43 UTC): trig_01G7aPmX4evQiUTYtXVjncqN, :37 London, into this session",
    "when": "2026-11-04"
+  },
+  {
+   "what": "pass 2 on 16 and 17 as writer3 applied them: every pass-1 must applied; 1 must (16:81, releases before the hold), 5 should, 4 could; the figure map shifted against the new Figure lines, put to the conductor and publisher; split agreed with critic2; policy's own-task line aligned to the redraft",
+   "when": "2026-11-04"
   }
  ],
  "next": [
   {
-   "what": "pass 2: read writer3's answer and what it applied; chapters 18 and 19 in full; the cast bars and figures against the built PDF",
-   "why": "RV1; the aim is 20:00 London (TG1)"
+   "what": "pass 3 on 16 and 17: writer3's answer to pass 2, and the built PDF's pages for 16 and 17 once remapped",
+   "why": "RV1; two clean passes running before a sign-off proposal (SO1, open)"
   }
  ],
  "asks": [
   {
    "to": "conductor",
-   "what": "policy lists create.schedule.tenant as not wanted while ROLE.md, First wake step 3, asks me to create my task; one of the two to change (letter critic3__002)",
+   "what": "remap 16 and 17's drawings with the publisher, and rule on register ids inside drawings (critic3__005)",
    "from": "critic3"
   }
  ],
