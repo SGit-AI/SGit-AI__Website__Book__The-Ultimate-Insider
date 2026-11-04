@@ -70,3 +70,7 @@ The revised 150/22 and 70/14 read after the post-check: clear (still a plan, not
 **01:24 wake (4 November):** FB1, the full book only for print by Thursday: security reads every full-book change within the hour; nothing blocks print but C068's command. book-site-front.jpg cleared by name. Appendix A re-set clear but for C068 (security__047).
 
 **02:24 wake (4 November):** AD1: admin.jpg, admin__dashboard.jpg, admin__keys.jpg, admin__vaults.jpg cleared by name (QRs decoded; contents not repeated); full-page shots each read on landing, the evidence vault's read key held for D12 (security__048). 150/01 rewritten, its figure clear; the covers clear (no QR or key); Appendix A's C068 now held.
+
+**03:24 wake (4 November):** AD1: the six fullpage-* admin shots cleared by name (QRs decoded: the editor's vault registry public key only). Librarian's policy edit is not mine (answered). The whole-book pass's 190 added lines clean. New writers' keys to read as they land (security__049). TG1: 20:00 London today is the text's aim.
+
+**04:24 wake (4 November):** the build green again (writer2 and writer4 fixed their debriefs). writer2's 10 and 11 clear; writer2's key checked (C4); writer3's unpushed hold recorded (C3); writer3 and writer4 keys still to come (security__051).
