@@ -57,21 +57,35 @@ def slide():
 
 
 def loop():
-    """Right half: the same idea as a loop of three arrows, see, ask, see again; a small factory inside; the speaker outside."""
-    cx, cy, r = 70, 33, 25
+    """Right half: the loop as a cycle in the editor's words (brief 2026-11-04 11, conductor 061: "think, explain, create,
+    review, think"), four arrows round, so the last runs back into the first; the factory inside it larger, the nine in a
+    ring round a small house; the speaker outside, looking in."""
+    cx, cy, r = 74, 38, 30
     out = []
-    for i, word in enumerate(["see", "ask", "see again"]):
-        a0, a1 = math.radians(-90 + i * 120 + 12), math.radians(-90 + (i + 1) * 120 - 12)
+    words = ["think", "explain", "create", "review"]
+    # each arc leaves room for the word at either end: along the circle a word at the top or the foot takes its
+    # half-width, one at the side only its height (degrees)
+    gap = [math.degrees(math.asin((len(w) * 1.05 + 3) / r)) if k % 2 == 0 else 8 for k, w in enumerate(words)]
+    for i, word in enumerate(words):
+        a0, a1 = math.radians(-90 + i * 90 + gap[i]), math.radians(-90 + (i + 1) * 90 - gap[(i + 1) % 4] - 2)
         out.append(f'<path d="M{cx + r * math.cos(a0):.2f} {cy + r * math.sin(a0):.2f} A{r} {r} 0 0 1 {cx + r * math.cos(a1):.2f} {cy + r * math.sin(a1):.2f}" '
-                   f'fill="none" stroke="{mc.ACCENT}" stroke-width="1" marker-end="url(#b)"/>')
-        am = math.radians(-90 + i * 120 + 60)
-        out.append(t(cx + (r + 7) * math.cos(am), cy + (r + 7) * math.sin(am) + 1.1, word, 700, anchor="middle"))
-    for i, m in enumerate(mc.CAST):  # the factory: the nine, small, in a ring
+                   f'fill="none" stroke="{mc.ACCENT}" stroke-width="1.1" marker-end="url(#b)"/>')
+    # the words sit on the circle's four points, each between the arrow that ends there and the one that starts
+    for i, word in enumerate(words):
+        a = math.radians(-90 + i * 90)
+        x, y = cx + r * math.cos(a), cy + r * math.sin(a)
+        out.append(f'<rect x="{x - len(word) * 1.05 - 2:.2f}" y="{y - 3.1:.2f}" width="{len(word) * 2.1 + 4:.2f}" height="5.4" rx="2.7" fill="#fff"/>'
+                   + t(x, y + 1.15, word, 700, mc.INK, "middle"))
+    # the factory: a small house, and the nine round it, larger than before
+    out.append(mc.path(f"M{cx - 7} {cy - 1} L{cx} {cy - 7} L{cx + 7} {cy - 1} Z", mc.FILL, mc.INK, .4)
+               + f'<rect x="{cx - 6}" y="{cy - 1}" width="12" height="8" fill="#fff" stroke="{mc.INK}" stroke-width=".4"/>'
+               + mc.line(cx, cy - 1, cx, cy + 7, mc.INK, .3))
+    for i, m in enumerate(mc.CAST):
         a = math.radians(-90 + i * 40)
-        out.append(g(mc.head(m), cx + 11 * math.cos(a) - 2.4, cy + 11 * math.sin(a) - 2.2, .12))
-    out.append(g(mc.editor_figure("A"), 2, 30, .62))
+        out.append(g(mc.head(m), cx + 17.5 * math.cos(a) - 5.2, cy + 1.5 + 17.5 * math.sin(a) - 4.6, .26))
+    out.append(g(mc.editor_figure("A"), 0, 34, .62))
     defs = f'<defs><marker id="b" viewBox="0 0 6 6" refX="5" refY="3" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0 L6 3 L0 6 z" fill="{mc.ACCENT}"/></marker></defs>'
-    return mc.svg(110, 66, defs + "".join(out), "The same idea as a loop of three arrows, see, ask, see again, with a small factory inside and the speaker outside looking")
+    return mc.svg(116, 76, defs + "".join(out), "The same idea as a loop: think, explain, create, review, and round to think again, with the factory of nine inside it and the speaker outside looking")
 
 
 def chair(x, y, s=1.0, col=None):
