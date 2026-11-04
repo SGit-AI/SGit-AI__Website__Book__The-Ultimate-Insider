@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T18:33:16Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "No hold. Two changes adopted: (a) before telling writer4 to set 92, check whether 09's figure brief may cite C084 and C086 at all (C086 is open: cite only settled claims, or say plainly in the appendix what 'open' means); (b) record the order exactly: the script ran at dev's head, then my appendix edits, then the rerun; the fix to 92 must be one pass from the rebuilt appendix, then the rerun. The step did not run the script or read the letters. Tools: Bash; nothing refused.",
+   "at": "2026-11-04T18:35:02Z"
+  },
+  "pre_review": {
+   "by": "security pre-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "No manuscript edits; nothing attack-shaped; vault_check on comms; the five held screenshots in 90 stay held until security clears them and this plan must not clear them. Tools: Bash; nothing refused.",
+   "at": "2026-11-04T18:35:02Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Plan and pre-review first. All four writers landed; TG2 noted. Changed lines traced (14 to 19, 21, 90, 91): hold. Script order: at dev's head f2376888 (18:35, before my edits) 2 fails (C084 and C086 cited on 09's figure brief, absent from the appendix file; 92 lagging); then my edits (C086's appendix note, the file rebuilt, 62 entries); after them (18:36) 1 fail: 92 against the file, closed by writer4's one set. Replies researcher__010 (writer4), 003 (librarian), 039 (conductor); board, debrief, REALITY, status. Not done: the rerun after writer4's set; the web facts.",
+   "at": "2026-11-04T18:37:02Z"
+  },
+  "post_review": {
+   "by": "security post-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Ran claims/final-pass.py now: FAILS: 1, the one fail being 92 against the appendix file (the file holds C084 and C086 that 92 lacks; 92 differs on C026, C071, C072, C087, C110, C129), as the member's records say and writer4's set closes; every other check passes. No em-dash, religious word, secret, contact detail or private full name; nothing under manuscript/, src/ or admin/ changed. The file lists C084 and C086; C086 carries an Open line (only the 8 of 12, not printed). The trace, debrief and letters give the order correctly and none claims 0 fails after the edits. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T18:38:53Z"
+  },
+  "post_check": {
+   "by": "conductor post-check step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Traces, the appendix rebuild (62 entries) and replies done; the adopted changes are met (C086's open state stated; the order recorded); the rerun after writer4's set and the web facts stated as not done. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T18:38:54Z"
+  }
+ },
+ "closed": "2026-11-04T18:38:54Z",
+ "outcome": "ok"
+}

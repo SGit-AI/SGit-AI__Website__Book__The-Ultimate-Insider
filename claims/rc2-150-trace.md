@@ -617,6 +617,22 @@ Traced on 4 November 2026 at the 12:32 wake, at writer3's 003 and writer4's 010.
 | ruv-sgit 074 | the three rounds picture | nothing to register | C084 and C086's checked part cover every number on the stills |
 | C129 | the title named a drafting note | fixed | now "The making-of dates: how long after the talk the book began, and its first hour" |
 
+## RV2 pass 10 and the last landings (the 18:32 wake, 4 November)
+
+All four writers reported their last landing of this round (the writer 17:34, writer2 and writer4 about 18:00, writer3 about 18:20); the editor moved the aim to Thursday 10:00 London (TG2). Order of the script runs: at dev's head `f2376888` (18:35, before my edits): 2 fails, C084 and C086 cited on 09's figure brief and absent from the appendix file, and 92 lagging the file. Then my edits: C086 given an appendix note ("open only for the 8 of 12, which the book does not print"), the file rebuilt (62 entries). After them (18:36): 1 fail, 92 against the file, which writer4's one set closes; to be rerun after that set.
+
+| Where | Line | Verdict | Source |
+|---|---|---|---|
+| 14 | "within half an hour"; "more than twice as big" | holds | `62c6b99` 16:32:22 to `3342cff` 16:59:22 (27 minutes); 38 min 30 s to 90 |
+| 15 | "just more than doubled, to ninety minutes"; "In hour eighteen I outran it" | holds | the same; C110 |
+| 16 | "the rule of the hold had been there since hour two. It was used once." | holds | `09f13d5` 01:39:47; C024 |
+| 16 | "Studio's last debrief of the day still has my confirmation open" | holds | studio's debrief (the session's check refused; the editor was asked): C115, C081 |
+| 17 | the slide's $17.4M and US$19.5M | holds | C031 |
+| 18 | six attempts, one only probable | holds | C112 |
+| 19 | "every time and every change both cite agrees, to the second" | holds | `timeline/cold-read-comparison.md` |
+| 91 | the agent box in chapter 1, the lock box in 16 | holds | 01:15 and 16:19 |
+| 09 | the figure brief cites C084 and C086 | holds | ruv-sgit 074: the three stills' numbers; C084 checked; C086 open only for the 8 of 12, which is not in the picture |
+
 ## Where this came from
 
-`manuscript/rc2/150/00` to `23`, `90` to `94`, each as on dev at the wake that traced it (3 November 2026, from 09:32 on 3 November to 17:32 on 4 November); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).
+`manuscript/rc2/150/00` to `23`, `90` to `94`, each as on dev at the wake that traced it (3 November 2026, from 09:32 on 3 November to 18:32 on 4 November); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).
