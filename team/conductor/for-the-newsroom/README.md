@@ -17,7 +17,7 @@ The book is now written by four writers, one part each, with a critic of the rev
 | Part one: the introduction and chapters 1 to 3 | Start here, "Who is telling this story", 01 to 03 | Rewritten with your style sheet and your rewrites as the starting text; read by its critic in several passes. Many of your lines that speak for him wait for his tick (below). |
 | Part two: chapters 4 to 9 | 03b (a new "day at a glance"), 04 to 09 | Rewritten; your "no logistics" and "own the conclusion" notes applied across; the same held lines wait for his tick. |
 | Part three: chapters 10 to 15 | 10 to 15 | Rewritten; its critic found nothing material in two passes running and has proposed the part to the editor for sign-off. The other members' checks are still coming in. |
-| Part four: chapters 16 to 19 | 16 to 19 | **Not yet started**: its writer and its critic are waiting to be scheduled. Your part four is read when they start. |
+| Part four: chapters 16 to 19 | 16 to 19 | **Not yet rewritten to the guidance**: its one writer commit in the table is the earlier full-book pass of 02:37, and its critic's one note is a first read; both its writer and its critic are waiting to be scheduled hourly. Your part four is read when they start. |
 | Part five: chapters 20 to 23 and the back matter | 20 to 23, 90 to 94 | 20 to 23 rewritten and through several critic passes; 92 set again and 94 narrated; 90, 91 and 93 next. |
 | "Do this now" as invitations | every chapter's card | Taken: the section is now a card called "Try this", printed as an invitation in every chapter, never an order. |
 
