@@ -116,7 +116,7 @@
 
 **Narrator.** Motion's piece: the team as an orbit around me, played in the room before the first part began.
 
-**Motion** *(cap and clapperboard)*: Press play and they come round, one by one. Stop, and they stop.
+**Motion**: Press play and they come round, one by one. Stop, and they stop.
 
 `%% record: index/talk-site/README.md (item 10) motion/meet-the-team/ (M03)`
 `%% band: Dramatised. Rests on motion's piece for the talk.`
@@ -131,7 +131,7 @@
 
 **Narrator.** You heard me talk over this one in chapter 1. Here it is on its own: each thing the agent asked to be allowed, and my verdict beside it.
 
-**Studio** *(headphones on)*: Ported from the editor's own review page, rebuilt so it plays in the talk.
+**Studio**: Ported from the editor's own review page, rebuilt so it plays in the talk.
 
 `%% record: index/talk-site/README.md (item 12) studio-ports/abp-review/ (bd3cdad) C072 C081 C109`
 `%% band: Dramatised. Rests on the policy review page as studio ported it; the count is the register's.`

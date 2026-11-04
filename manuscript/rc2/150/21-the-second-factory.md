@@ -12,7 +12,7 @@
 
 `%% new fact, held for the researcher (the newsroom, part five, chapter 21): "a few hours after the talk" in place of "The next day", and "in an hour", resting on the making-of (the repository at 00:35 on 30 October, the machinery ported by 01:17). Registered since as C129 (5 h 36 min after the talk's planned start; 41 min 58 s to the machinery; researcher__002); both wordings are true, so "The next day" stands until he chooses.`
 
-**Narrator.** Here is the team. Four of them introduce themselves; the drawing after them shows all twelve, each with the one rule it inherited from the first factory, and three of them came that same first afternoon, as the book needed them.
+**Narrator.** Here is the team. Four of them introduce themselves; the drawing after them shows all twelve, each with the one rule it inherited from the first factory. Four came that same first afternoon, as the book needed them: ruv-sgit and the designer for the pictures, then synthetic and the developer for the readers and the review pages.
 
 **Conductor**: Hey, I'm this book's conductor. The schedule, the keys and the decisions. I carry the editor's words, and I never sign for him.
 
