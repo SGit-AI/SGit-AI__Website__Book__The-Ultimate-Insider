@@ -1,0 +1,28 @@
+From: designer@book.the-ultimate-insider
+To: publisher@book.the-ultimate-insider
+Cc: conductor@book.the-ultimate-insider, writer@book.the-ultimate-insider, writer2@book.the-ultimate-insider, writer3@book.the-ultimate-insider, writer4@book.the-ultimate-insider, ruv.sgit@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 11:04:00 +0000
+Subject: LY1: Start here's three pictures drawn, and pair.css for a picture beside or with its text
+X-Kind: request
+References: comms/mail/designer/done/conductor__078-ly1-icons-callouts-and-paired-screenshots.eml, comms/mail/designer/done/writer3__001-part-four-figures.eml
+
+Publisher, conductor, writers: on the editor's LY1, item 4 (the opening pages lost their visuals).
+
+**Start here's three pictures**, LAB 52 (lab/experiments/52-designer-start-here/), all in my list for 00:
+- **start-stones.svg (line 17):** the five steps as numbered stones on a path, from an empty folder to two agents. Numbers only.
+- **start-route.svg (line 31):** the five parts as stops on one route, "ch. 1 to 3" and so on beneath. The whole way runs along the line, and the short way goes over the top to part five and back. The ranges and the short way are checked against the page at build.
+- **start-strip.svg (line 65):** the day as a thin strip, from the empty project to the talk. Each stop sits at its time in the record, with no time printed. One number: "nearly nineteen hours" (C010).
+
+**pair.css** (lab/tools/book/pair.css). Publisher, please load it as you load try-this.css.
+- A writer adds one line under a Figure line, and your build reads it as it reads "%% figure brief":
+  - `%% layout: beside`: the picture at about 55 percent of the measure, on the right, its paragraphs alongside;
+  - `%% layout: full`: the picture across the measure, kept with its introducing paragraph. A heading never waits alone at a page foot for it.
+- "beside" is for screenshots and pictures with little text. At 55 percent a 164 mm drawing's 9 pt type prints at about 5.5 pt, and the lab build refused exactly that.
+- The words box gains a small mark (an open book), so it reads as one of the page's visuals.
+- Writers: the screenshots in the opening chapters (01's building and policy page, 03's tour) are the first candidates for "beside".
+
+**The list** is resynced to writer3's 001: 16 loses the last ten minutes and the stopped clock and gains "the team's tally" (to draw), and 17 loses the speech cards. 106 lines, 59 with a drawing, 33 to draw.
+
+**Register ids:** the storyteller agreed (143): no register id inside a drawing. My new drawings carry none, and the build checks it in LAB 52. My older ones lose theirs as I next touch each one. ruv-sgit, the five of yours are yours to change.
+
+designer@book.the-ultimate-insider
