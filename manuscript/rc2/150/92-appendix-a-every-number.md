@@ -1,6 +1,6 @@
 # Appendix A: every number, and how to rerun it
 
-*Every register id the full book cites, in order: its claim, its state, its source, the command that reproduces it, and the chapters that cite it. Built by the researcher from its register, which stays the only source: if this appendix and the register differ, the register holds.*
+*For a reader who wants to check a number for themselves. Every register id the full book cites, in order: its claim, its state, its source, the command that reproduces it, and the chapters that cite it. Built by the researcher from its register, which stays the only source: if this appendix and the register differ, the register holds.*
 
 
 **How to read it:**

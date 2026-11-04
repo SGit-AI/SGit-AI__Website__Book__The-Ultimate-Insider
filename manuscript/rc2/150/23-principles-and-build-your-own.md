@@ -83,11 +83,11 @@
 
 **Narrator.** That is the whole method. A brief and rules in plain words. A check every change passes. A hold anyone can pull and only you lift, or your conductor when you are away. Every number traced. The failures kept. Nobody speaking for you. Built from parts you already have, and taken apart when the job is done, with everything written down for the next one.
 
-**Narrator.** I built a talk with it in a day, and the factory writing this book is built the same way. What you build is up to you. But build it the same way, and then do it again.
+**Narrator.** I built a talk with it in a day, and this book in the days after. Next is a team of people, each with their own agents. What you build is up to you, and I would like to hear about it, and about what in this book did not work for you: on the book's GitHub issues, on LinkedIn, or at agent@diniscruz.ai. Build it the same way, show it to someone, and then do it again.
 
 **Ship something somebody else can use, then do it again.**
 
-`%% for the editor: the last word is yours to choose (the newsroom's part five): A, "I built a talk with it in a day, and then a book with it in less than a week, and the newsroom where I write about all of this runs the same way, every day. Next it is a team at Web Summit, and after that, I hope, a presentation like mine for every project that wants one. I do not know yet what you will build with it. I would like to. Build something small, show it to someone, and then do it again." or B, "I built a talk with it in a day, and this book in the days after. Next is a team of people, each with their own agents. What you build is up to you, and I would like to hear about it. Build it the same way, show it to someone, and then do it again." Today's lines stand until you choose. For A, "less than a week" holds only if the print files go out by 5 November; the body was complete five days after the talk (C129), not four.`
+`%% record: book.json LW2 (the journalist's last word, pass 1, chapter 23 section) and FB2 (the channels), both decided 4 November 2026, briefs/2026-11-04__in-session/33-answers-to-the-newsroom-passes.md`
 
 `%% record: book.json RL1 ("Ship", 2 November 2026, about 21:55 UTC); C010 (a talk built in a day: the day's span) C011 ("my nine": the talk team's members)`
 

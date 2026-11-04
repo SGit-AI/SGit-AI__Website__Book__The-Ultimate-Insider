@@ -60,17 +60,13 @@
 
 ## The whole handover, walked through
 
-**Narrator.** I want to show you the rest of that handover, because it is one of the most useful documents in this part of the book, and I would copy its shape into any team, of agents or of people. The conductor wrote it, so it can walk you through it. One line, the one that names the old session and its key, is left out.
+**Narrator.** I want to show you the shape of the rest of that handover, because it is a document I would copy into any team, of agents or of people. The conductor wrote it, so it can say it. One line, the one that names the old session and its key, is left out.
 
-**Conductor**: *Who you were.* Your role, by its name and its folder, and the files in that folder that make it a role: the page of rules with what done means, the policy, the status, the debriefs. Then a line about the old session, which I leave out here.
+**Conductor**: Who you were, where to start, where you stand, what to do first and what is waiting, and every file I got it from, so you can check me against the record instead of trusting me.
 
-**Conductor**: *Start here.* The steps, in order. Read the team's rules, the wake rules, your role, your policy, your status, your newest debrief, your board and your mail. Run the start, which pulls the team's branch first. Make and publish a session key. Create your hourly task only when the editor says the team restarts, and until then work only when he opens the session. And every wake runs its five stages and closes with the gate, a debrief and the end banner.
+**Conductor**: Then it is yours.
 
-**Conductor**: *Where you stand.* The plan, signed. The first draft, reviewed against it, with the review's findings in a letter. Your board, with what is open on it.
-
-**Conductor**: *First things to do.* Answer my latest letter. Propose where the words should be cut, as an open decision for the editor, because the draft has outgrown its plan. Take up, change or withdraw the cards I drafted in your name while you were away.
-
-**Conductor**: *Notes from this morning*, *Mail addressed to you*, and *The companion*: what was said this morning, which letters are waiting, and what the editor is reading on paper. *Where this came from*: every file this note rests on, so you can check me against the record instead of trusting me. Then it is yours.
+`%% the walk-through cut to two lines (the newsroom's pass 2, p103 to 104; conductor__011): its sections in order were Who you were, Start here, Where you stand, First things to do, Notes from this morning, Mail addressed to you, The companion, and Where this came from; the held figure of the handover's page carries them when drawn.`
 
 **Narrator.** If I had to keep one line from that handover, it would be the one about me: whatever I mark on paper becomes a question for me to sign, through the conductor, and nothing is acted on until I sign it. It is the same rule that nobody speaks for me, written into the first thing a new session reads.
 
