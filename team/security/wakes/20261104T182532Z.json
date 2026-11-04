@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "18 keeps the short quote (062); the developer's gate not yet, attribute quoting (063); five tour shots cleared by name, masked abp-review only, QR checked in memory (064); tool case 12 in index.json and README; TG2 noted.",
    "at": "2026-11-04T18:30:48Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "Every added line read; validate, vault check and scope clean; no secret, decoded QR, em-dash, religious word or Cold-Read item; the 18 letter does not say which file; the developer letter names the gap without a how-to.",
+   "at": "2026-11-04T18:31:40Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "as-planned",
+   "comment": "All four items as planned: 062 short quote, 063 not yet, 064 five shots (masked abp-review only), case 12; debrief and status written.",
+   "at": "2026-11-04T18:32:08Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T18:32:08Z",
+ "outcome": "ok"
 }
