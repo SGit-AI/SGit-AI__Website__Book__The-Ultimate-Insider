@@ -27,3 +27,4 @@ The full book: every scene, the appendices, the record markers live online. Writ
 - 4 November 2026, 01:33 UTC: FB1, the full book only, for the summit print. Chapter 1 rewritten as the editor's example of his voice guidance; the pass over 02 to 23 next.
 - 4 November 2026, 02:36 UTC: FB1: Start here and 'Who is telling this story' (00, 00b); every band a note.
 - 4 November 2026, 03:33 UTC: WR2: the full book split among four writers; this writer keeps 00 to 09. 00b, 01, 02 done in his voice.
+- 4 November 2026, 04:38 UTC: 03 and 04 in his voice, the first cast cards in 04, 06 points back; 05 to 09 next.

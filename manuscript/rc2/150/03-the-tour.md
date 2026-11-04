@@ -2,9 +2,7 @@
 
 **Cast bar:** the nine, greyed. Each lights for a moment as the tour reaches its work.
 
-**Narrator.** Before I tell you how the factory worked, I want you to see what it made. Not the talk as the room saw it, on a screen behind me, but the site the talk lived on, as you can walk it today. Four stops. At each, one picture, a few lines from me, and one line from the agent that made it.
-
-*Words for this page:* the **conductor** is the agent that keeps the team's time and plan. A **hold** is one short file that stops every agent until the person in charge says go.
+**Narrator.** Before I tell you how the factory worked, I want you to see what it made, because I think the result is a good argument for the method. Not the talk as the room saw it, on a screen behind me, but the site the talk lived on, which you can walk today. Four stops. At each, one picture, a few lines from me, and one line from the agent that made it.
 
 *How to read the scenes:* they are dramatised. The words the agents say are ours, written for this book; the pages are the record's, and you can open every one of them online.
 
@@ -16,7 +14,7 @@
 
 **Narrator.** The deck is a website. Every one of its 58 beats is a page that moves, and anyone can read it. The player is the piece I pressed play on: a timer against my time, steps that build one at a time, notes behind a key press. It is the thing I asked for first in the afternoon and was still asking to fix in the last hour.
 
-**Dev** *(happy, the fast one)*: Every slide is a page, so every slide has a link, a history and a check before it goes out. The player just walks them in order.
+**Dev**: Every slide is a page, so every slide has a link, a history and a check before it goes out. The player just walks them in order.
 
 `%% record: C015 index/talk-site/README.md (item 2) index/talk-site/tour-material.md (stop 2) src/static/talk/talk.json b3f208f src/static/talk/player.html dbd75ad`
 `%% band: Dramatised. Rests on the talk's pages and player as they stood at the end of the day.`
@@ -30,7 +28,9 @@
 
 **Narrator.** The team's state, read from its own files, on one page. It was built from the members' status files and wake records, not typed by anyone. And it still shows the hold of that night, with my usage as the reason, because the page was last built after the stop. `%% for the editor: "Nobody tidied it." is the writer's reading; his to keep or drop.` Nobody tidied it.
 
-**Conductor** *(at ninety-five, then calm)*: The page shows what the files say. The files say we stopped. So the page says we stopped.
+**Conductor**: The page shows what the files say. The files say we stopped. So the page says we stopped.
+
+*Words used here:* the **conductor** is the agent that keeps the team's time and plan. A **hold** is one short file that stops every agent until the person in charge says go.
 
 `%% record: index/talk-site/README.md (item 5) index/talk-site/tour-material.md (stop 5) admin/build/build.py 23739cc C006`
 `%% band: Dramatised. Rests on the dashboard as built from the team's own files, still showing the hold.`
@@ -44,13 +44,17 @@
 
 `%% for the editor: "This is the page I would show anyone who doubts" is the writer's reading of his view; his to keep or drop.`
 
-**Narrator.** This is the page I would show anyone who doubts that the factory ran on its own for nine hours. Every wake of every member, with its plan, its two reviews, the work and the check that it went to plan, each with a verdict and a sentence. On the day the agents kept 162 wake records. The page's own counter says 163 (the librarian's study of the site); the researcher's register says 162, and the book gives the register's number.
+**Narrator.** This is the page I would show anyone who doubts that the factory ran on its own for nine hours. Every session of every agent, with its plan, its two reviews, the work and the check that it went to plan, each with a verdict and a sentence. On the day the agents kept 162 of these records. Reading them now, what strikes me is how boring most of them are, and I mean that as praise: plan, go, done, clean, as planned. A team you can trust is a team whose records are mostly dull.
+
+`%% held out of print until he confirms it (a Check item): the newsroom's "while I slept and then worked on other things", after "for nine hours".`
+
+`%% for the editor: "how boring most of them are ... mostly dull" is the newsroom's reading of your view, on C023's verdicts (most plans go, most work done); yours to keep or cut. The page's own counter says 163 (the librarian's study); the book gives the register's 162 (C022).`
 
 **Narrator.** And next to it, every commit the team made, with its whole message: 439 by the agents themselves, not counting merges. Many of them carry short notes from one agent to another, in a line that starts with "To-" and the other's name. Read in order, they are the team talking.
 
-**Researcher** *(unbudging)*: The page has a counter. I have a register. When they differ, the book uses mine and says why.
+**Researcher**: The page has a counter. I have a register. When they differ, the book uses mine and says why.
 
-`%% record: C022 C014 index/talk-site/README.md (items 16 and 17) index/talk-site/tour-material.md (stops 7 and 8)`
+`%% record: C022 C023 C014 index/talk-site/README.md (items 16 and 17) index/talk-site/tour-material.md (stops 7 and 8)`
 `%% band: Dramatised. The counts are the register's: wake records and the agents' own commits; the page's own count of wakes is one higher.`
 *Dramatised.*
 
@@ -60,9 +64,11 @@
 
 `%% figure brief: Shown without the section that prints its key, which the tour never shows.`
 
-**Narrator.** Last stop. Every member has a page like this, built from its own folder. `%% for the editor: "What I like about it" is the writer's reading; his to keep or drop.` What I like about it is the rules: each one has the mistake behind it, the moment the rule was needed. A page of rules you can read like a short history of what went wrong.
+**Narrator.** Last stop. Every agent has a page like this, built from its own folder. What I like about it is the rules, because each one carries the mistake behind it, the moment the rule was needed. It is how I think rules should be written for people too: not a list of what you must not do, but a short history of what went wrong, so you know why.
 
-**Deck** *(proud, the fussy one)*: Every rule on my page cost somebody a slide. That is why it is there.
+`%% for the editor: Stop 4's lines are the newsroom's section 7, close to its words, a reading of your view; yours to keep or change.`
+
+**Deck**: Every rule on my page cost somebody a slide. That is why it is there.
 
 `%% record: index/talk-site/README.md (item 19) index/talk-site/tour-material.md (stop 12, shown without its key section) index/talk-site/members.md`
 `%% band: Dramatised. Rests on deck's member page as built from its folder; the page's key section is not shown.`
@@ -78,11 +84,13 @@
 
 `%% figure brief: Each floor lit by the agent that owns it. The chapter's infographic, for the designer.`
 
-**Narrator.** That is what one day made. Now the rest of this book is how.
+**Narrator.** That is what one day made. The rest of this book is how, told by the agents who did it, with me interrupting.
 
-## Do this now
+## Something to try
 
-*Look at one thing you made last month. Write down what someone would need to see to understand it without you in the room.*
+*The tour works because every page explains itself. Pick something you made recently and ask what someone would need to see to understand it without you there. That list is often shorter than you expect, and it is what an agent can build for you.*
+
+`%% record: team/conductor/from-newsroom/2026-11-04__do-this-now-as-invitations.md (chapter 3, the proposed card); chapter-plan/cast/cast-guide.md (page conventions 1)`
 
 ---
 
@@ -90,4 +98,4 @@
 
 The librarian's study of the talk's site: its list of the site's best things, its tour material, its screenshots and its notes on the members' pages, the studio and the visuals. The talk's site as it stood at the end of the day. The researcher's register for the slides, the wakes and the commits. Security's condition, kept: no page that prints a key. The storyteller's outline for this chapter.
 
-`%% record: manuscript/rc2/70/02-the-tour.md (kept as written); index/talk-site/README.md tour-material.md pages.md members.md studio.md visuals.md shots/; talk repository at 298be4e; claims/register.json C006 C014 C015 C022; chapter-plan/edition-70-outline.md part 1 chapter 2`
+`%% record: manuscript/rc2/70/02-the-tour.md (kept as written); index/talk-site/README.md tour-material.md pages.md members.md studio.md visuals.md shots/; talk repository at 298be4e; claims/register.json C006 C014 C015 C022 C023; chapter-plan/edition-70-outline.md part 1 chapter 2; team/conductor/from-newsroom/2026-11-04__narrator-voice-part-one.md (section 7: the opening, Stop 3, Stop 4 and the close, all four taken)`

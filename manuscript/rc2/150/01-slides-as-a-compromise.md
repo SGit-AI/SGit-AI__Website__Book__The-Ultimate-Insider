@@ -78,9 +78,11 @@
 `%% band: Dramatised: the narration beside the still is ours.`
 *Dramatised.*
 
-## Do this now
+## Something to try
 
-*Think of one idea you have had to explain over a still picture. Write down, in one line, the movement you were describing. That line is what your first animation, or your first agent, is for.*
+*The ideas that are hardest to put on a slide are usually the ones that move. If you have one you keep explaining by hand, try writing that movement down in a single line. It makes a good first job for an animation, or for your first agent.*
+
+`%% record: team/conductor/from-newsroom/2026-11-04__do-this-now-as-invitations.md (chapter 1, the proposed card); chapter-plan/cast/cast-guide.md (page conventions 1)`
 
 ---
 
@@ -88,4 +90,4 @@
 
 My account of 4 November of how I came to present this way, and my voice note of 1 November, both given after the day. The record of the talk's team for where the player and the first ports came from. The talk as given, from its transcript, added to the record after the day: the building, the policy page and the Wardley map. The researcher's register for the building, the policy page, the map, and the talk's length and place. The storyteller's outline for this chapter. This chapter grows from the 70-page edition's chapter 1.
 
-`%% record: briefs/2026-11-04__in-session/04-introduce-the-narrator-and-chapter-1.md; briefs/2026-11-04__in-session/07-speak-as-me-no-logistics.md (the guidance); briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md; index/talk-site/crawl.json; timeline/day/01.md; content/articles/the-talk-as-given.md at a9c0b49 (talk repository); claims/register.json C069 C072 C081 C100 C102 C109 C110 C111; chapter-plan/edition-150-outline.md part 1 chapter 1; manuscript/rc2/70/01-slides-as-a-compromise.md`
+`%% record: briefs/2026-11-04__in-session/04-introduce-the-narrator-and-chapter-1.md; briefs/2026-11-04__in-session/07-speak-as-me-no-logistics.md (the guidance); briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md; index/talk-site/crawl.json; timeline/day/01.md; content/articles/the-talk-as-given.md at a9c0b49 (talk repository, added after the day); claims/register.json C069 C072 C081 C100 C102 C109 C110 C111; chapter-plan/edition-150-outline.md part 1 chapter 1; manuscript/rc2/70/01-slides-as-a-compromise.md`
