@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic2",
+ "kind": "scheduled, hourly at :20",
+ "started": "2026-11-04T23:21:33Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Verified: 10 has dangling references at 48, 90 and 96 after 5754fd3f. 1) pass 10 on part three, pass 7 on 18 and 19: one note, a should on 10; withdraw 10 only from the proposal; critic2__025 to writer2; critic2__026 to the conductor. 2) status.json, debrief.",
+   "at": "2026-11-04T23:22:19Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Inside critic2's policy; withdrawing 10 only changes a proposal; no secrets or other members' paths. Condition: vault_check before commit.",
+   "at": "2026-11-04T23:22:30Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
