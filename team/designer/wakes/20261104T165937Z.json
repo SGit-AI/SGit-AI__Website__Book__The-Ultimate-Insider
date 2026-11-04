@@ -24,8 +24,22 @@
    "verdict": "partial",
    "comment": "Items 1 to 3 done except (d): 00b:9 mapped; LAB 54's wake records card (C022), member folder (names only, sessions/ and key files out) and two voices key; the list 106 lines, 65 drawn. (d) the banner pair not drawn: the writer's tracked files hold no banner, and none is made up (pre-review's condition). Letter 141; five letters copied to done/. Lab 177 pages; gate clean.",
    "at": "2026-11-04T17:05:52Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "2fcf4f2e: 0 files outside scope; vault_check and validate clean (1109). The three LAB 54 SVGs pass unsafe_svg and draw no session id, key, Cnnn or hash; the folder shows names only (no sessions/, no key files); the wake card matches C022 exactly; no banner drawn. Chapter 20's row shrank to match writer4's 07f9e19f. No secrets, em-dashes or religious words. Tools: Bash, none refused.",
+   "at": "2026-11-04T17:07:33Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "partial",
+   "comment": "2fcf4f2e: 1 done (00b:9 mapped); 2(a), (b) and (c) done (wake records from C022, the folder with names only, the two voices); 2(d) not done as its condition allowed (no tracked banner, nothing made up); 3 done (letter 141 names ruv-sgit's 08 and 09 musts). Conditions kept. Unplanned: chapter 20's row resynced to writer4's 07f9e19f. Tools: Bash, none refused.",
+   "at": "2026-11-04T17:08:03Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T17:08:03Z",
+ "outcome": "ok"
 }
