@@ -1,10 +1,14 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "conductor",
-  "as_of": "2026-11-04T02:50:00Z",
+  "as_of": "2026-11-04T02:57:00Z",
   "round": 1,
   "state": "FB1 (4 November): the full book only, toward a printable first pass for first readers and review copies at Web Summit (from 9 November); print files submitted to KDP by Thursday 5 November at the latest. The publisher fixed a fault that shrank every RC2 page to 0.85 (the full book now 133 pages, 9.5 pt as signed, cover to the edge). Leanpub by our PDF (LP2 B), an EPUB of our own to make. Site live at v0.1.623.",
   "done": [
+    {
+      "what": "the whole-book pass set going in parallel: the newsroom's parts kept as material, the editor's checklist written (guides/2026-11-04__the-editors-guidance-for-the-full-book.md), letters to writer 028, storyteller 067, designer 071, researcher 060, historian 040, librarian 031, security 049, synthetic 034, publisher 077",
+      "evidence": "briefs/2026-11-04__in-session/21-the-whole-book-pass.md"
+    },
     {
       "what": "the editor's answers recorded: CV3 (cover line), LP2 B (upload our PDF; an EPUB of our own), TG1 (aim Wed 20:00 London, not a freeze); C089, C011, C037, C081 and D12 settled by his word and sent to the researcher; the upload set published on the site by a release.yml step",
       "evidence": "briefs/2026-11-04__in-session/20-the-open-items-answered.md"
@@ -658,6 +662,10 @@
     {
       "what": "propose to the editor a CLAUDE.md wording for WC1 ('Every chapter ends with where it came from' becomes: every chapter's sources are kept in its record lines; the printed book does not show them)",
       "when": "his sign"
+    },
+    {
+      "what": "for the editor in the morning: the newsroom's questions (feelings marked Check, Dan in chapter 18, the last word A or B, the checklist page, the long tour in print, the making-of page, the keel image, the storyteller's objection); whether to staff a second writer",
+      "when": "his morning"
     }
   ],
   "asks": [
@@ -691,6 +699,6 @@
       "C10b"
     ]
   },
-  "updated": "2026-11-04T02:50:00Z",
+  "updated": "2026-11-04T02:57:00Z",
   "cadence": "active"
 }
