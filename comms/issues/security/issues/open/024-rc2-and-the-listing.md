@@ -86,3 +86,5 @@ The revised 150/22 and 70/14 read after the post-check: clear (still a plan, not
 **09:24 wake (4 November):** three-keys.svg cleared by name (three member public keys, decoded in memory); Appendix A has dropped C068 entirely, so the D12 hold has nothing left to hold; 94, 03b and the hour's 307 lines clear (security__056).
 
 **10:24 wake (4 November):** writer3's key checked (every member's key now checked); 16, 17, 90, 94 and the hour's 175 lines clear; three new drawings clear (security__057).
+
+**4 November, 11:24 wake.** critic1's 04:73 question answered: the line may stand (a control's kind and strength, not a method). Appendix B's C115 row ruled for writer4: the 17:47 refusal of a relayed word moves to the permission-check row, as the record shows the session's own check made it; set in controls/appendix-b.md. Critic4's first-person line declined. 18, 19, 91 and 93 clear; ruv-sgit's nine drawings and the designer's three Start here pictures clear (security__058).

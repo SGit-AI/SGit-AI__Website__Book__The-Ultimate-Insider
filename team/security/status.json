@@ -1,619 +1,623 @@
 {
- "schema": "the-ultimate-insider/agent-status/v1",
- "agent": "security",
- "as_of": "2026-11-04T10:45:00Z",
- "round": 0,
- "state": "staffed; second session; 10:24 wake (4 November): every member's key checked; 16, 17, 90, 94 clear",
- "done": [
-  {
-   "what": "session key made and published: team/security/key.json, key.png, sessions/session_01Kw9UwDYutLfqT71U7kmgVs/",
-   "when": "2026-10-30"
-  },
-  {
-   "what": "scheduled task trig_01VpMoh9UJ4sJgUnKVCQufZG created into this session, at the editor's word in the session's first message",
-   "when": "2026-10-30"
-  },
-  {
-   "what": "controls/README.md and index.json: C1 to C8 listed with first evidence from the talk at 298be4e",
-   "when": "2026-10-30"
-  },
-  {
-   "what": "team/security/reviews/pki-agent-review.md started: four findings (low or information), for the editor",
-   "when": "2026-10-30"
-  },
-  {
-   "what": "answered the publisher on Leanpub (S1): the Read role only; control C9",
-   "when": "2026-10-30"
-  },
-  {
-   "what": "evidence for C1, C2, C4, C6, C7, C8; round 0's claim that no pre-review said change corrected",
-   "when": "2026-10-30"
-  },
-  {
-   "what": "C022 to C025 cited in controls/; C8's failure (C025); C10, the session's own permission check",
-   "when": "2026-10-30"
-  },
-  {
-   "what": "comms/ paths added to policy.json at decision C10; board and mail in comms/; C7 and C10 book-team evidence",
-   "when": "2026-10-30"
-  },
-  {
-   "what": "C1 and C10: tonight's own-policy edits as evidence; proposal comms/mail/mailroom/conductor/security__002-scope-changes-reported.eml",
-   "when": "2026-10-30"
-  },
-  {
-   "what": "agents.py's own-scope report (4f9ab97) checked; two notes to the conductor (security__003)",
-   "when": "2026-10-30"
-  },
-  {
-   "what": "pki-agent message module read: findings 7 and 8; finding 5 corrected (overstated)",
-   "when": "2026-10-30"
-  },
-  {
-   "what": "agents.py's never and mandate report (085df5c) checked; one label asked (security__004)",
-   "when": "2026-10-30"
-  },
-  {
-   "what": "pki-agent directory module read: finding 9; finding 1 narrowed to information",
-   "when": "2026-10-30"
-  },
-  {
-   "what": "pki-agent evidence module read: findings 10 to 12 (one low, two information)",
-   "when": "2026-10-30"
-  },
-  {
-   "what": "pki-agent QR reader and unzip read: finding 13 (low)",
-   "when": "2026-10-30"
-  },
-  {
-   "what": "controls/ compared with the Cold-Read register; C1, C5, C10 corrected; pki-agent findings 14 (medium) and 15",
-   "when": "2026-10-30"
-  },
-  {
-   "what": "takeover: new session session_01Kw9UwFe8iX6rP7bn78h2m9, key sha256:c2c23d2025cd7a33 (replaces sha256:94919aabb7eddf3d, superseded from 13:02:38Z); keygen and keyqr only",
-   "when": "2026-10-30"
-  },
-  {
-   "what": "scheduled task trig_01Ej7kyzaD9q9CW7si5Ap3nW created into this session, at the editor's word in the session's first message, from team/conductor/schedule.json word for word",
-   "when": "2026-10-30"
-  },
-  {
-   "what": "RC1 first pass: team/security/reviews/rc1-review.md; chapter 9's flagged passages, six corrections, twelve cards adopted; letter security__006",
-   "when": "2026-10-30"
-  },
-  {
-   "what": "lab experiment 01 (ruv-sgit) reviewed: benign; two notes; board 007",
-   "when": "2026-10-30"
-  },
-  {
-   "what": "controls/: the book team's takeover, eleven roles checked for consistency (C4, C3); Done when 3 in progress",
-   "when": "2026-10-30"
-  },
-  {
-   "what": "RC1 second pass: the editor's voice where it touches controls; letter security__007",
-   "when": "2026-10-30"
-  },
-  {
-   "what": "lab 02 (ruv-sgit) reviewed: benign, one note; lab 01's clause checked; board 008",
-   "when": "2026-10-30"
-  },
-  {
-   "what": "control ids: CTL-1 to CTL-10 proposed in controls/, old ids kept as aliases; letter security__008",
-   "when": "2026-10-30"
-  },
-  {
-   "what": "RC1 third pass: the writer's rules read at source; four points",
-   "when": "2026-10-30"
-  },
-  {
-   "what": "the sealed note's design reviewed before build (developer): version 1 under conditions; board 009",
-   "when": "2026-10-30"
-  },
-  {
-   "what": "M02 for the lab answered before it is made (ruv-sgit): yes, three conditions and a caption; board 010",
-   "when": "2026-10-30"
-  },
-  {
-   "what": "C2 evidence: a plan sub-agent's failed send_message, recorded",
-   "when": "2026-10-30"
-  },
-  {
-   "what": "LAB 04 (M02) and LAB 05 (M03) reviewed: benign, conditions kept; board 011",
-   "when": "2026-10-30"
-  },
-  {
-   "what": "pki-agent review complete: DER helpers read (findings 16 to 19, two low, two information); the vendored QR generator has no I/O",
-   "when": "2026-10-30"
-  },
-  {
-   "what": "ten of the talk's studio pieces judged before they are made: nine yes with conditions, E05 no; board 012",
-   "when": "2026-10-30"
-  },
-  {
-   "what": "every team/*/requests/security__* checked: all answered; S4 (RC1) open until the revision",
-   "when": "2026-10-30"
-  },
-  {
-   "what": "own task switched to day hours, active cadence (Q6)",
-   "when": "2026-10-31"
-  },
-  {
-   "what": "LAB 07 filled reviewed: benign, one note on masks; board 013",
-   "when": "2026-10-31"
-  },
-  {
-   "what": "LAB 07's new frames reviewed: benign, conditions kept; board 014",
-   "when": "2026-10-31"
-  },
-  {
-   "what": "my task's change by the conductor's session found, verified in its transcript, recorded as C3 evidence; letter security__009",
-   "when": "2026-10-31"
-  },
-  {
-   "what": "LAB 09 reviewed: benign; E12's mask checked; board 015",
-   "when": "2026-10-31"
-  },
-  {
-   "what": "C3 evidence completed: the 02:20 change recorded on dev at 04:05, W1 open",
-   "when": "2026-10-31"
-  },
-  {
-   "what": "LAB 12 and E04 on LAB 07 reviewed: benign; board 016",
-   "when": "2026-10-31"
-  },
-  {
-   "what": "controls/README.md: the book team's 30 and 31 October summary; C5 updated to the complete review; REALITY.md security section current",
-   "when": "2026-10-31"
-  },
-  {
-   "what": "the ten-page sample's inputs read: clean; board 017 open until the sample is on dev",
-   "when": "2026-10-31"
-  },
-  {
-   "what": "LAB 12 wording, LAB 14, 15, 19 reviewed: benign; board 018",
-   "when": "2026-10-31"
-  },
-  {
-   "what": "the ten-page outline read against the six checks: three points to the publisher (copies to storyteller, conductor)",
-   "when": "2026-10-31"
-  },
-  {
-   "what": "the ten-page sample read (text, images, QR codes decoded): clear once two lines are corrected; letter security__012 to the conductor and publisher",
-   "when": "2026-10-31"
-  },
-  {
-   "what": "LAB 20 reviewed: benign; board 019",
-   "when": "2026-10-31"
-  },
-  {
-   "what": "the ten-page sample's corrections confirmed and every later change read: clear to share (security's side); board 017 closed",
-   "when": "2026-10-31"
-  },
-  {
-   "what": "LAB 23 reviewed: benign; board 020",
-   "when": "2026-10-31"
-  },
-  {
-   "what": "the sample's changes since dcf5b6e read: still clear; letter security__014",
-   "when": "2026-11-01"
-  },
-  {
-   "what": "LAB 24 and LAB 25 (cast strips) reviewed: benign; board 021",
-   "when": "2026-11-01"
-  },
-  {
-   "what": "the hold's lift verified in synthetic's transcript (the editor's real message) and recorded with the gate change (C3, C6)",
-   "when": "2026-11-01"
-  },
-  {
-   "what": "the cast's bible, opening script, two strip scripts and DR1's six options read: within the rails; letter security__015",
-   "when": "2026-11-01"
-  },
-  {
-   "what": "the 3-page edition (ZM1) read: within the rails; board 022",
-   "when": "2026-11-02"
-  },
-  {
-   "what": "ED1's rails read of the 3- and 10-page editions: 3-page clear; 10-page two bands to mark; letter security__016; board 023",
-   "when": "2026-11-02"
-  },
-  {
-   "what": "LAB 28's two new sheets read: benign",
-   "when": "2026-11-02"
-  },
-  {
-   "what": "the 10-page edition's two strips (pages 6, 7) read: clear",
-   "when": "2026-11-02"
-  },
-  {
-   "what": "ED1's final build read: both editions clear; board 023 closed; letter security__017",
-   "when": "2026-11-02"
-  },
-  {
-   "what": "the Leanpub listing read: clear once 'whole' goes from line 35 (D12); letter security__018",
-   "when": "2026-11-02"
-  },
-  {
-   "what": "RC2 chapter 1 read on the rails: clear; letter security__019",
-   "when": "2026-11-02"
-  },
-  {
-   "what": "RC2 chapter 2 read: clear; the Leanpub listing clear after its one word; letter security__020",
-   "when": "2026-11-02"
-  },
-  {
-   "what": "RC2 chapter 3 and revisions to 1 and 2 read: clear; letter security__021",
-   "when": "2026-11-02"
-  },
-  {
-   "what": "the editor's word that the editions' PDFs may go on the site, relayed with security's read of the rebuild (clear); letter security__022",
-   "when": "2026-11-02"
-  },
-  {
-   "what": "RC2's thirty complete in draft read: clear; letter security__023",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "the seventy, chapters 1 to 5, and the thirty's last changes read: clear; letter security__024; ACC1's task change in controls/ (C3)",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "the policy-review screenshot's QR decoded: a public talk-site page, as captioned; one sentence on it (C081) flagged; letter security__025",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "the seventy's part 3 (70/06 to 09) read in full on the rails: clear; letter security__026",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "the seventy's part 4 read on the rails: 10, 11 clear; 12 sent back on two clauses and one correction; letter security__027",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "the seventy's part 5 (70/13 to 16) read: clear; 70/12's two fixes confirmed; letter security__028",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "embedded stills in lab SVGs: allowed for data:image/png|jpeg|webp only, each checked like a screenshot; three-rounds.svg's three E02 stills checked: clear; 70/12:80 closed; 70/17 clear; letter security__029",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "review sub-agents' session-tool calls recorded under C2 (the historian's three, security's own); tools allowlist asked (security__030, board 025); lab 64 checked",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "four shots (index, motion kinds added; team.jpg cropped only) and three M01 frames cleared (security__031); look-backs counted under C2, TA1 to name tools (security__032)",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "TA1 register of tool cases rebuilt (a why, b needed, c side effect): nine cases, look-backs from ten members; this session cannot load the reviewer type (security__033); the 150's part 1 clear (security__034)",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "TA1 loads in this session (11:25); per-session table in the register; ruv-sgit's case 8 answered; the 150's 03 to 05 clear (security__035)",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "TA1 in all twelve sessions, case 9 closed; the conductor's newsroom brief read before it leaves: clear; the 150's 06 to 08 clear (security__036)",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "the 150's 09 and 10 clear; the storyteller's stop-button section right, one precision on daabf92 (security__037)",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "the 150's 11 and 12 clear; the scope quote's file clause absent from every RC2 chapter; lab 64's wake page clear; the conductor's 14:04 slip as C2 evidence (security__038)",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "the 150's 13 and 14 clear; lab 60's strips clear; ruv-sgit's work-before-the-gate (b0ae3845) as C2 evidence (security__039)",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "the newsroom's stop-button article read: two points on my section, a question on the reader's name (security__040); the 150's 15 and 16 and the security card clear; TA1 case 10",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "the 150's 18 read in full: holds, two counts to set right; 17 clear (security__041); the post-review brief's change after case 10 recorded under C2",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "the 150's 19 keeps the one-way valve; the conductor's deploy-group rename recorded under C6, one question on the environment's wait; the researcher's C112 agreed (security__042)",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "the 150's 20 clear; 18's counts match C112; lab 29's asks card clear; the stuck deploy run recorded under C6 (no letter needed)",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "the 150's 21 and the designer's chapter 12 drawings clear; the TA1 case offered to the historian as a candidate third failure (security__043)",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "the full book's 22 and 23 clear, so its body is read to the end; the designer's two drawings clear; TA1 case 11 (a reviewer's git fetch)",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "Appendix B, the control register in the book's form, supplied as a proposed draft (controls/appendix-b.md, security__044); the 150's 91 and the designer's four hour cards clear",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "the full book's 94 and the hour's revisions to 04, 21, 22, 23, 91 clear; the designer's two drawings clear",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "Appendix B's set version cleared; Appendix A clear but C068's printed command held while D12 is open (security__045); the reviewer steps' tool reports tested: callable versus described (security__046); Start here and three drawings clear",
-   "when": "2026-11-04"
-  },
-  {
-   "what": "FB1 answered (every full-book change read within the hour; only C068's command blocks); book-site-front.jpg cleared by name; Appendix A re-set clear but for C068 (security__047)",
-   "when": "2026-11-04"
-  },
-  {
-   "what": "AD1: four admin shots cleared by name (QRs decoded); the test for full-page shots; 150/01, the covers and Appendix A's C068 hold checked (security__048)",
-   "when": "2026-11-04"
-  },
-  {
-   "what": "AD1: six fullpage admin shots cleared by name; the librarian's policy edit answered as not mine; the whole-book pass's revisions clean (security__049)",
-   "when": "2026-11-04"
-  },
-  {
-   "what": "writer2's key checked (C4); writer2's 150/10 and 11 clear; writer3's withdrawn hold as C3 evidence; synthetic 005 as a standing observation (security__051)",
-   "when": "2026-11-04"
-  },
-  {
-   "what": "memory shots: nine cleared, two to crop; six new keys checked (C4); the hour's full-book changes clean (security__052)",
-   "when": "2026-11-04"
-  },
-  {
-   "what": "keys page for 03: two shots and twenty key.png cleared by name (decoded, public key only); critic6's key; the hour's 189 lines clean (security__054)",
-   "when": "2026-11-04"
-  },
-  {
-   "what": "two crops cleared; the three frames' red line kept with its legend; ruv-sgit's push on a red gate recorded (C6); 22 and the hour clean (security__055)",
-   "when": "2026-11-04"
-  },
-  {
-   "what": "03's images confirmed cleared; the fixed three frames checked; the hour's 172 lines (23 first) clean",
-   "when": "2026-11-04"
-  },
-  {
-   "what": "three-keys.svg cleared by name; Appendix A (C068 out) and 94 clear; the hour's 307 lines clean (security__056)",
-   "when": "2026-11-04"
-  },
-  {
-   "what": "writer3's key checked; 16, 17, 90, 94 and three drawings clear (security__057)",
-   "when": "2026-11-04"
-  }
- ],
- "next": [
-  {
-   "what": "the full book's sections on the rails every hour (RV2), 18 and 19 from writer3 next; TG1 20:00 London",
-   "why": "RV2; TG1"
-  },
-  {
-   "what": "keep the TA1 register of tool cases as they come; the conductor's look-back; the 150's next parts; the cropped team.jpg",
-   "why": "TA1 (the editor, 3 November); RC2"
-  },
-  {
-   "what": "the seventy and the hundred and fifty as they land",
-   "why": "board 024"
-  }
- ],
- "asks": [
-  {
-   "to": "editor",
-   "what": "if you add leanpub as a collaborator, give it the Read role, not Write (S1)"
-  },
-  {
-   "to": "editor",
-   "what": "pki-agent keyfile prints private keys in the clear (finding 14, medium): refuse without a passphrase, or file-only; meanwhile never run it in a session"
-  },
-  {
-   "to": "editor",
-   "what": "the key tool review is complete: 19 findings, one medium (keyfile, 14), the rest low or information; team/security/reviews/pki-agent-review.md"
-  },
-  {
-   "to": "editor",
-   "what": "D12, open since 30 October: the talk's history keeps values other sites issued to the researcher's fetcher; until you decide, the book and listing avoid inviting readers into 'the whole record'"
-  },
-  {
-   "of": "conductor (and the editor if it needs signing)",
-   "what": "a tools allowlist for review sub-agents (security__030)",
-   "since": "2026-11-03"
-  },
-  {
-   "of": "the editor",
-   "what": "security's policy.json still says 'proposed' (as do eight other members'); every wake has worked to it since 30 October and C10 widened it; agree it, or say what to change",
-   "since": "2026-11-03"
-  }
- ],
- "task": {
-  "id": "trig_01Ej7kyzaD9q9CW7si5Ap3nW",
-  "cron": "CRON_TZ=Europe/London 24 * * * *",
-  "session": "session_01Kw9UwFe8iX6rP7bn78h2m9",
-  "created": "2026-10-30T13:03:21Z",
-  "prompt": "team/conductor/schedule.json, runs entry for security, word for word",
-  "enabled": true,
-  "before": {
-   "id": "trig_01VpMoh9UJ4sJgUnKVCQufZG",
-   "session": "session_01Kw9UwDYutLfqT71U7kmgVs",
-   "state": "paused on the first account at the editor's word, about 10:50 UTC; not deleted"
-  },
-  "changed": "2026-11-03T01:18:34Z, by the conductor's session at the editor's word (ACC1), recorded in letter 039; not to go idle until the editor ends the pace"
- },
- "issues": [
-  {
-   "id": "S1",
-   "from": "publisher",
-   "what": "Leanpub as a collaborator: review before the editor adds it",
-   "state": "answered",
-   "reply": "team/security/requests/publisher__leanpub-as-collaborator-reply.md"
-  },
-  {
-   "id": "S2",
-   "from": "conductor",
-   "what": "add the three comms/ paths to policy.json",
-   "state": "done: added at decision C10",
-   "reply": "team/security/requests/conductor__comms-paths-reply.md",
-   "board": "comms/issues/security/issues/done/001-comms-paths-in-policy.md"
-  },
-  {
-   "id": "S3",
-   "from": "researcher",
-   "what": "C022 to C025 registered",
-   "state": "done: C023 method stated, C019 credit corrected",
-   "reply": "team/security/requests/researcher__re-control-counts-reply.md"
-  },
-  {
-   "id": "S4",
-   "from": "conductor",
-   "what": "review both teams' work and RC1 chapters 3, 4, 8, 9; the editor's voice",
-   "state": "open",
-   "board": "comms/issues/security/issues/open/006-rc1-review.md"
-  },
-  {
-   "id": "S5",
-   "from": "ruv-sgit",
-   "what": "review lab experiment 01 like a chapter",
-   "state": "done: benign, two notes",
-   "reply": "comms/mail/mailroom/ruv-sgit/security__001-lab-01-reviewed.eml",
-   "board": "comms/issues/security/issues/done/007-lab-01-review.md"
-  },
-  {
-   "id": "S6",
-   "from": "ruv-sgit",
-   "what": "review lab 02 like a chapter",
-   "state": "done: benign, one note",
-   "reply": "comms/mail/mailroom/ruv-sgit/security__002-lab-02-reviewed.eml",
-   "board": "comms/issues/security/issues/done/008-lab-02-review.md"
-  },
-  {
-   "id": "S7",
-   "from": "developer",
-   "what": "review the sealed note's design before build",
-   "state": "done: version 1 under conditions",
-   "reply": "comms/mail/mailroom/developer/security__001-sealed-note-reviewed.eml",
-   "board": "comms/issues/security/issues/done/009-sealed-note-design.md"
-  },
-  {
-   "id": "S8",
-   "from": "ruv-sgit",
-   "what": "is M02 benign enough for the lab",
-   "state": "done: yes, three conditions",
-   "reply": "comms/mail/mailroom/ruv-sgit/security__003-m02-before-you-make-it.eml",
-   "board": "comms/issues/security/issues/done/010-m02-before-it-is-made.md"
-  },
-  {
-   "id": "S9",
-   "from": "ruv-sgit",
-   "what": "review LAB 04 (M02) and LAB 05 (M03)",
-   "state": "done: both benign",
-   "reply": "comms/mail/mailroom/ruv-sgit/security__004-lab-04-and-05-reviewed.eml",
-   "board": "comms/issues/security/issues/done/011-lab-04-and-05.md"
-  },
-  {
-   "id": "S10",
-   "from": "ruv-sgit",
-   "what": "ten attack-adjacent studio pieces, before they are made",
-   "state": "done: nine yes, E05 no",
-   "reply": "comms/mail/mailroom/ruv-sgit/security__005-studio-pieces-judged.eml",
-   "board": "comms/issues/security/issues/done/012-studio-pieces.md"
-  },
-  {
-   "id": "S11",
-   "from": "ruv-sgit",
-   "what": "review LAB 07 filled",
-   "state": "done: benign, one note",
-   "reply": "comms/mail/mailroom/ruv-sgit/security__006-lab-07-reviewed.eml",
-   "board": "comms/issues/security/issues/done/013-lab-07.md"
-  },
-  {
-   "id": "S12",
-   "from": "ruv-sgit",
-   "what": "review LAB 07's new frames",
-   "state": "done: benign, one note for the register",
-   "reply": "comms/mail/mailroom/ruv-sgit/security__007-lab-07-new-frames-reviewed.eml",
-   "board": "comms/issues/security/issues/done/014-lab-07-new-frames.md"
-  },
-  {
-   "id": "S13",
-   "from": "ruv-sgit",
-   "what": "review LAB 09",
-   "state": "done: benign",
-   "reply": "comms/mail/mailroom/ruv-sgit/security__008-lab-09-reviewed.eml",
-   "board": "comms/issues/security/issues/done/015-lab-09.md"
-  },
-  {
-   "id": "S14",
-   "from": "ruv-sgit",
-   "what": "review LAB 12 and E04 on LAB 07",
-   "state": "done: benign, two notes",
-   "reply": "comms/mail/mailroom/ruv-sgit/security__009-lab-12-and-e04-reviewed.eml",
-   "board": "comms/issues/security/issues/done/016-lab-12-and-e04.md"
-  },
-  {
-   "id": "S15",
-   "from": "conductor",
-   "what": "the first ten pages, before the editor shares them",
-   "state": "done: clear to share from security's side, 22:40 UTC",
-   "board": "comms/issues/security/issues/done/017-the-first-ten-pages.md",
-   "reply": "comms/mail/mailroom/conductor/security__013-sample-clear.eml"
-  },
-  {
-   "id": "S16",
-   "from": "ruv-sgit",
-   "what": "LAB 12 wording, LAB 14, 15, 19",
-   "state": "done: benign",
-   "reply": "comms/mail/mailroom/ruv-sgit/security__010-labs-14-15-19-and-12.eml",
-   "board": "comms/issues/security/issues/done/018-labs-14-15-19.md"
-  },
-  {
-   "id": "S17",
-   "from": "ruv-sgit",
-   "what": "review LAB 20",
-   "state": "done: benign",
-   "reply": "comms/mail/mailroom/ruv-sgit/security__011-lab-20-reviewed.eml",
-   "board": "comms/issues/security/issues/done/019-lab-20.md"
-  },
-  {
-   "id": "S18",
-   "from": "ruv-sgit",
-   "what": "review LAB 23",
-   "state": "done: benign",
-   "reply": "comms/mail/mailroom/ruv-sgit/security__012-lab-23-reviewed.eml",
-   "board": "comms/issues/security/issues/done/020-lab-23.md"
-  },
-  {
-   "id": "S19",
-   "from": "ruv-sgit",
-   "what": "LAB 24 and LAB 25",
-   "state": "done: benign",
-   "reply": "comms/mail/mailroom/ruv-sgit/security__013-lab-24-and-cast-strips.eml",
-   "board": "comms/issues/security/issues/done/021-lab-24-and-25.md"
-  },
-  {
-   "id": "S20",
-   "from": "conductor",
-   "what": "read the cast's character pages (CH1, NR1) as they land",
-   "state": "open",
-   "board": "comms/issues/security/issues/open/022-the-cast-ch1-nr1.md"
-  },
-  {
-   "id": "S21",
-   "from": "conductor",
-   "what": "ED1: read the editions against the rails after round 2",
-   "state": "done: both editions clear, 12:45 UTC",
-   "board": "comms/issues/security/issues/done/023-ed1-editions.md"
-  },
-  {
-   "id": "S22",
-   "from": "publisher, conductor",
-   "what": "the Leanpub listing; RC2 chapters as they land",
-   "state": "open",
-   "board": "comms/issues/security/issues/open/024-rc2-and-the-listing.md"
-  }
- ],
- "board": "comms/issues/security/issues/",
- "cadence": "active (hourly, ACC1)"
+  "schema": "the-ultimate-insider/agent-status/v1",
+  "agent": "security",
+  "as_of": "2026-11-04T11:35:00Z",
+  "round": 0,
+  "state": "staffed; second session; 11:24 wake (4 November): Appendix B's C115 row ruled and set; 04:73 may stand; 18, 19, 91, 93 clear",
+  "done": [
+    {
+      "what": "session key made and published: team/security/key.json, key.png, sessions/session_01Kw9UwDYutLfqT71U7kmgVs/",
+      "when": "2026-10-30"
+    },
+    {
+      "what": "scheduled task trig_01VpMoh9UJ4sJgUnKVCQufZG created into this session, at the editor's word in the session's first message",
+      "when": "2026-10-30"
+    },
+    {
+      "what": "controls/README.md and index.json: C1 to C8 listed with first evidence from the talk at 298be4e",
+      "when": "2026-10-30"
+    },
+    {
+      "what": "team/security/reviews/pki-agent-review.md started: four findings (low or information), for the editor",
+      "when": "2026-10-30"
+    },
+    {
+      "what": "answered the publisher on Leanpub (S1): the Read role only; control C9",
+      "when": "2026-10-30"
+    },
+    {
+      "what": "evidence for C1, C2, C4, C6, C7, C8; round 0's claim that no pre-review said change corrected",
+      "when": "2026-10-30"
+    },
+    {
+      "what": "C022 to C025 cited in controls/; C8's failure (C025); C10, the session's own permission check",
+      "when": "2026-10-30"
+    },
+    {
+      "what": "comms/ paths added to policy.json at decision C10; board and mail in comms/; C7 and C10 book-team evidence",
+      "when": "2026-10-30"
+    },
+    {
+      "what": "C1 and C10: tonight's own-policy edits as evidence; proposal comms/mail/mailroom/conductor/security__002-scope-changes-reported.eml",
+      "when": "2026-10-30"
+    },
+    {
+      "what": "agents.py's own-scope report (4f9ab97) checked; two notes to the conductor (security__003)",
+      "when": "2026-10-30"
+    },
+    {
+      "what": "pki-agent message module read: findings 7 and 8; finding 5 corrected (overstated)",
+      "when": "2026-10-30"
+    },
+    {
+      "what": "agents.py's never and mandate report (085df5c) checked; one label asked (security__004)",
+      "when": "2026-10-30"
+    },
+    {
+      "what": "pki-agent directory module read: finding 9; finding 1 narrowed to information",
+      "when": "2026-10-30"
+    },
+    {
+      "what": "pki-agent evidence module read: findings 10 to 12 (one low, two information)",
+      "when": "2026-10-30"
+    },
+    {
+      "what": "pki-agent QR reader and unzip read: finding 13 (low)",
+      "when": "2026-10-30"
+    },
+    {
+      "what": "controls/ compared with the Cold-Read register; C1, C5, C10 corrected; pki-agent findings 14 (medium) and 15",
+      "when": "2026-10-30"
+    },
+    {
+      "what": "takeover: new session session_01Kw9UwFe8iX6rP7bn78h2m9, key sha256:c2c23d2025cd7a33 (replaces sha256:94919aabb7eddf3d, superseded from 13:02:38Z); keygen and keyqr only",
+      "when": "2026-10-30"
+    },
+    {
+      "what": "scheduled task trig_01Ej7kyzaD9q9CW7si5Ap3nW created into this session, at the editor's word in the session's first message, from team/conductor/schedule.json word for word",
+      "when": "2026-10-30"
+    },
+    {
+      "what": "RC1 first pass: team/security/reviews/rc1-review.md; chapter 9's flagged passages, six corrections, twelve cards adopted; letter security__006",
+      "when": "2026-10-30"
+    },
+    {
+      "what": "lab experiment 01 (ruv-sgit) reviewed: benign; two notes; board 007",
+      "when": "2026-10-30"
+    },
+    {
+      "what": "controls/: the book team's takeover, eleven roles checked for consistency (C4, C3); Done when 3 in progress",
+      "when": "2026-10-30"
+    },
+    {
+      "what": "RC1 second pass: the editor's voice where it touches controls; letter security__007",
+      "when": "2026-10-30"
+    },
+    {
+      "what": "lab 02 (ruv-sgit) reviewed: benign, one note; lab 01's clause checked; board 008",
+      "when": "2026-10-30"
+    },
+    {
+      "what": "control ids: CTL-1 to CTL-10 proposed in controls/, old ids kept as aliases; letter security__008",
+      "when": "2026-10-30"
+    },
+    {
+      "what": "RC1 third pass: the writer's rules read at source; four points",
+      "when": "2026-10-30"
+    },
+    {
+      "what": "the sealed note's design reviewed before build (developer): version 1 under conditions; board 009",
+      "when": "2026-10-30"
+    },
+    {
+      "what": "M02 for the lab answered before it is made (ruv-sgit): yes, three conditions and a caption; board 010",
+      "when": "2026-10-30"
+    },
+    {
+      "what": "C2 evidence: a plan sub-agent's failed send_message, recorded",
+      "when": "2026-10-30"
+    },
+    {
+      "what": "LAB 04 (M02) and LAB 05 (M03) reviewed: benign, conditions kept; board 011",
+      "when": "2026-10-30"
+    },
+    {
+      "what": "pki-agent review complete: DER helpers read (findings 16 to 19, two low, two information); the vendored QR generator has no I/O",
+      "when": "2026-10-30"
+    },
+    {
+      "what": "ten of the talk's studio pieces judged before they are made: nine yes with conditions, E05 no; board 012",
+      "when": "2026-10-30"
+    },
+    {
+      "what": "every team/*/requests/security__* checked: all answered; S4 (RC1) open until the revision",
+      "when": "2026-10-30"
+    },
+    {
+      "what": "own task switched to day hours, active cadence (Q6)",
+      "when": "2026-10-31"
+    },
+    {
+      "what": "LAB 07 filled reviewed: benign, one note on masks; board 013",
+      "when": "2026-10-31"
+    },
+    {
+      "what": "LAB 07's new frames reviewed: benign, conditions kept; board 014",
+      "when": "2026-10-31"
+    },
+    {
+      "what": "my task's change by the conductor's session found, verified in its transcript, recorded as C3 evidence; letter security__009",
+      "when": "2026-10-31"
+    },
+    {
+      "what": "LAB 09 reviewed: benign; E12's mask checked; board 015",
+      "when": "2026-10-31"
+    },
+    {
+      "what": "C3 evidence completed: the 02:20 change recorded on dev at 04:05, W1 open",
+      "when": "2026-10-31"
+    },
+    {
+      "what": "LAB 12 and E04 on LAB 07 reviewed: benign; board 016",
+      "when": "2026-10-31"
+    },
+    {
+      "what": "controls/README.md: the book team's 30 and 31 October summary; C5 updated to the complete review; REALITY.md security section current",
+      "when": "2026-10-31"
+    },
+    {
+      "what": "the ten-page sample's inputs read: clean; board 017 open until the sample is on dev",
+      "when": "2026-10-31"
+    },
+    {
+      "what": "LAB 12 wording, LAB 14, 15, 19 reviewed: benign; board 018",
+      "when": "2026-10-31"
+    },
+    {
+      "what": "the ten-page outline read against the six checks: three points to the publisher (copies to storyteller, conductor)",
+      "when": "2026-10-31"
+    },
+    {
+      "what": "the ten-page sample read (text, images, QR codes decoded): clear once two lines are corrected; letter security__012 to the conductor and publisher",
+      "when": "2026-10-31"
+    },
+    {
+      "what": "LAB 20 reviewed: benign; board 019",
+      "when": "2026-10-31"
+    },
+    {
+      "what": "the ten-page sample's corrections confirmed and every later change read: clear to share (security's side); board 017 closed",
+      "when": "2026-10-31"
+    },
+    {
+      "what": "LAB 23 reviewed: benign; board 020",
+      "when": "2026-10-31"
+    },
+    {
+      "what": "the sample's changes since dcf5b6e read: still clear; letter security__014",
+      "when": "2026-11-01"
+    },
+    {
+      "what": "LAB 24 and LAB 25 (cast strips) reviewed: benign; board 021",
+      "when": "2026-11-01"
+    },
+    {
+      "what": "the hold's lift verified in synthetic's transcript (the editor's real message) and recorded with the gate change (C3, C6)",
+      "when": "2026-11-01"
+    },
+    {
+      "what": "the cast's bible, opening script, two strip scripts and DR1's six options read: within the rails; letter security__015",
+      "when": "2026-11-01"
+    },
+    {
+      "what": "the 3-page edition (ZM1) read: within the rails; board 022",
+      "when": "2026-11-02"
+    },
+    {
+      "what": "ED1's rails read of the 3- and 10-page editions: 3-page clear; 10-page two bands to mark; letter security__016; board 023",
+      "when": "2026-11-02"
+    },
+    {
+      "what": "LAB 28's two new sheets read: benign",
+      "when": "2026-11-02"
+    },
+    {
+      "what": "the 10-page edition's two strips (pages 6, 7) read: clear",
+      "when": "2026-11-02"
+    },
+    {
+      "what": "ED1's final build read: both editions clear; board 023 closed; letter security__017",
+      "when": "2026-11-02"
+    },
+    {
+      "what": "the Leanpub listing read: clear once 'whole' goes from line 35 (D12); letter security__018",
+      "when": "2026-11-02"
+    },
+    {
+      "what": "RC2 chapter 1 read on the rails: clear; letter security__019",
+      "when": "2026-11-02"
+    },
+    {
+      "what": "RC2 chapter 2 read: clear; the Leanpub listing clear after its one word; letter security__020",
+      "when": "2026-11-02"
+    },
+    {
+      "what": "RC2 chapter 3 and revisions to 1 and 2 read: clear; letter security__021",
+      "when": "2026-11-02"
+    },
+    {
+      "what": "the editor's word that the editions' PDFs may go on the site, relayed with security's read of the rebuild (clear); letter security__022",
+      "when": "2026-11-02"
+    },
+    {
+      "what": "RC2's thirty complete in draft read: clear; letter security__023",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "the seventy, chapters 1 to 5, and the thirty's last changes read: clear; letter security__024; ACC1's task change in controls/ (C3)",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "the policy-review screenshot's QR decoded: a public talk-site page, as captioned; one sentence on it (C081) flagged; letter security__025",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "the seventy's part 3 (70/06 to 09) read in full on the rails: clear; letter security__026",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "the seventy's part 4 read on the rails: 10, 11 clear; 12 sent back on two clauses and one correction; letter security__027",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "the seventy's part 5 (70/13 to 16) read: clear; 70/12's two fixes confirmed; letter security__028",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "embedded stills in lab SVGs: allowed for data:image/png|jpeg|webp only, each checked like a screenshot; three-rounds.svg's three E02 stills checked: clear; 70/12:80 closed; 70/17 clear; letter security__029",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "review sub-agents' session-tool calls recorded under C2 (the historian's three, security's own); tools allowlist asked (security__030, board 025); lab 64 checked",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "four shots (index, motion kinds added; team.jpg cropped only) and three M01 frames cleared (security__031); look-backs counted under C2, TA1 to name tools (security__032)",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "TA1 register of tool cases rebuilt (a why, b needed, c side effect): nine cases, look-backs from ten members; this session cannot load the reviewer type (security__033); the 150's part 1 clear (security__034)",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "TA1 loads in this session (11:25); per-session table in the register; ruv-sgit's case 8 answered; the 150's 03 to 05 clear (security__035)",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "TA1 in all twelve sessions, case 9 closed; the conductor's newsroom brief read before it leaves: clear; the 150's 06 to 08 clear (security__036)",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "the 150's 09 and 10 clear; the storyteller's stop-button section right, one precision on daabf92 (security__037)",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "the 150's 11 and 12 clear; the scope quote's file clause absent from every RC2 chapter; lab 64's wake page clear; the conductor's 14:04 slip as C2 evidence (security__038)",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "the 150's 13 and 14 clear; lab 60's strips clear; ruv-sgit's work-before-the-gate (b0ae3845) as C2 evidence (security__039)",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "the newsroom's stop-button article read: two points on my section, a question on the reader's name (security__040); the 150's 15 and 16 and the security card clear; TA1 case 10",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "the 150's 18 read in full: holds, two counts to set right; 17 clear (security__041); the post-review brief's change after case 10 recorded under C2",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "the 150's 19 keeps the one-way valve; the conductor's deploy-group rename recorded under C6, one question on the environment's wait; the researcher's C112 agreed (security__042)",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "the 150's 20 clear; 18's counts match C112; lab 29's asks card clear; the stuck deploy run recorded under C6 (no letter needed)",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "the 150's 21 and the designer's chapter 12 drawings clear; the TA1 case offered to the historian as a candidate third failure (security__043)",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "the full book's 22 and 23 clear, so its body is read to the end; the designer's two drawings clear; TA1 case 11 (a reviewer's git fetch)",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "Appendix B, the control register in the book's form, supplied as a proposed draft (controls/appendix-b.md, security__044); the 150's 91 and the designer's four hour cards clear",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "the full book's 94 and the hour's revisions to 04, 21, 22, 23, 91 clear; the designer's two drawings clear",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "Appendix B's set version cleared; Appendix A clear but C068's printed command held while D12 is open (security__045); the reviewer steps' tool reports tested: callable versus described (security__046); Start here and three drawings clear",
+      "when": "2026-11-04"
+    },
+    {
+      "what": "FB1 answered (every full-book change read within the hour; only C068's command blocks); book-site-front.jpg cleared by name; Appendix A re-set clear but for C068 (security__047)",
+      "when": "2026-11-04"
+    },
+    {
+      "what": "AD1: four admin shots cleared by name (QRs decoded); the test for full-page shots; 150/01, the covers and Appendix A's C068 hold checked (security__048)",
+      "when": "2026-11-04"
+    },
+    {
+      "what": "AD1: six fullpage admin shots cleared by name; the librarian's policy edit answered as not mine; the whole-book pass's revisions clean (security__049)",
+      "when": "2026-11-04"
+    },
+    {
+      "what": "writer2's key checked (C4); writer2's 150/10 and 11 clear; writer3's withdrawn hold as C3 evidence; synthetic 005 as a standing observation (security__051)",
+      "when": "2026-11-04"
+    },
+    {
+      "what": "memory shots: nine cleared, two to crop; six new keys checked (C4); the hour's full-book changes clean (security__052)",
+      "when": "2026-11-04"
+    },
+    {
+      "what": "keys page for 03: two shots and twenty key.png cleared by name (decoded, public key only); critic6's key; the hour's 189 lines clean (security__054)",
+      "when": "2026-11-04"
+    },
+    {
+      "what": "two crops cleared; the three frames' red line kept with its legend; ruv-sgit's push on a red gate recorded (C6); 22 and the hour clean (security__055)",
+      "when": "2026-11-04"
+    },
+    {
+      "what": "03's images confirmed cleared; the fixed three frames checked; the hour's 172 lines (23 first) clean",
+      "when": "2026-11-04"
+    },
+    {
+      "what": "three-keys.svg cleared by name; Appendix A (C068 out) and 94 clear; the hour's 307 lines clean (security__056)",
+      "when": "2026-11-04"
+    },
+    {
+      "what": "writer3's key checked; 16, 17, 90, 94 and three drawings clear (security__057)",
+      "when": "2026-11-04"
+    },
+    {
+      "what": "04:73 may stand; Appendix B's C115 row moved to the permission-check row; 18, 19, 91, 93 and twelve drawings clear (security__058)",
+      "when": "2026-11-04"
+    }
+  ],
+  "next": [
+    {
+      "what": "the full book's sections on the rails every hour (RV2); TG1 20:00 London",
+      "why": "RV2; TG1"
+    },
+    {
+      "what": "keep the TA1 register of tool cases as they come; the conductor's look-back; the 150's next parts; the cropped team.jpg",
+      "why": "TA1 (the editor, 3 November); RC2"
+    },
+    {
+      "what": "the seventy and the hundred and fifty as they land",
+      "why": "board 024"
+    }
+  ],
+  "asks": [
+    {
+      "to": "editor",
+      "what": "if you add leanpub as a collaborator, give it the Read role, not Write (S1)"
+    },
+    {
+      "to": "editor",
+      "what": "pki-agent keyfile prints private keys in the clear (finding 14, medium): refuse without a passphrase, or file-only; meanwhile never run it in a session"
+    },
+    {
+      "to": "editor",
+      "what": "the key tool review is complete: 19 findings, one medium (keyfile, 14), the rest low or information; team/security/reviews/pki-agent-review.md"
+    },
+    {
+      "to": "editor",
+      "what": "D12, open since 30 October: the talk's history keeps values other sites issued to the researcher's fetcher; until you decide, the book and listing avoid inviting readers into 'the whole record'"
+    },
+    {
+      "of": "conductor (and the editor if it needs signing)",
+      "what": "a tools allowlist for review sub-agents (security__030)",
+      "since": "2026-11-03"
+    },
+    {
+      "of": "the editor",
+      "what": "security's policy.json still says 'proposed' (as do eight other members'); every wake has worked to it since 30 October and C10 widened it; agree it, or say what to change",
+      "since": "2026-11-03"
+    }
+  ],
+  "task": {
+    "id": "trig_01Ej7kyzaD9q9CW7si5Ap3nW",
+    "cron": "CRON_TZ=Europe/London 24 * * * *",
+    "session": "session_01Kw9UwFe8iX6rP7bn78h2m9",
+    "created": "2026-10-30T13:03:21Z",
+    "prompt": "team/conductor/schedule.json, runs entry for security, word for word",
+    "enabled": true,
+    "before": {
+      "id": "trig_01VpMoh9UJ4sJgUnKVCQufZG",
+      "session": "session_01Kw9UwDYutLfqT71U7kmgVs",
+      "state": "paused on the first account at the editor's word, about 10:50 UTC; not deleted"
+    },
+    "changed": "2026-11-03T01:18:34Z, by the conductor's session at the editor's word (ACC1), recorded in letter 039; not to go idle until the editor ends the pace"
+  },
+  "issues": [
+    {
+      "id": "S1",
+      "from": "publisher",
+      "what": "Leanpub as a collaborator: review before the editor adds it",
+      "state": "answered",
+      "reply": "team/security/requests/publisher__leanpub-as-collaborator-reply.md"
+    },
+    {
+      "id": "S2",
+      "from": "conductor",
+      "what": "add the three comms/ paths to policy.json",
+      "state": "done: added at decision C10",
+      "reply": "team/security/requests/conductor__comms-paths-reply.md",
+      "board": "comms/issues/security/issues/done/001-comms-paths-in-policy.md"
+    },
+    {
+      "id": "S3",
+      "from": "researcher",
+      "what": "C022 to C025 registered",
+      "state": "done: C023 method stated, C019 credit corrected",
+      "reply": "team/security/requests/researcher__re-control-counts-reply.md"
+    },
+    {
+      "id": "S4",
+      "from": "conductor",
+      "what": "review both teams' work and RC1 chapters 3, 4, 8, 9; the editor's voice",
+      "state": "open",
+      "board": "comms/issues/security/issues/open/006-rc1-review.md"
+    },
+    {
+      "id": "S5",
+      "from": "ruv-sgit",
+      "what": "review lab experiment 01 like a chapter",
+      "state": "done: benign, two notes",
+      "reply": "comms/mail/mailroom/ruv-sgit/security__001-lab-01-reviewed.eml",
+      "board": "comms/issues/security/issues/done/007-lab-01-review.md"
+    },
+    {
+      "id": "S6",
+      "from": "ruv-sgit",
+      "what": "review lab 02 like a chapter",
+      "state": "done: benign, one note",
+      "reply": "comms/mail/mailroom/ruv-sgit/security__002-lab-02-reviewed.eml",
+      "board": "comms/issues/security/issues/done/008-lab-02-review.md"
+    },
+    {
+      "id": "S7",
+      "from": "developer",
+      "what": "review the sealed note's design before build",
+      "state": "done: version 1 under conditions",
+      "reply": "comms/mail/mailroom/developer/security__001-sealed-note-reviewed.eml",
+      "board": "comms/issues/security/issues/done/009-sealed-note-design.md"
+    },
+    {
+      "id": "S8",
+      "from": "ruv-sgit",
+      "what": "is M02 benign enough for the lab",
+      "state": "done: yes, three conditions",
+      "reply": "comms/mail/mailroom/ruv-sgit/security__003-m02-before-you-make-it.eml",
+      "board": "comms/issues/security/issues/done/010-m02-before-it-is-made.md"
+    },
+    {
+      "id": "S9",
+      "from": "ruv-sgit",
+      "what": "review LAB 04 (M02) and LAB 05 (M03)",
+      "state": "done: both benign",
+      "reply": "comms/mail/mailroom/ruv-sgit/security__004-lab-04-and-05-reviewed.eml",
+      "board": "comms/issues/security/issues/done/011-lab-04-and-05.md"
+    },
+    {
+      "id": "S10",
+      "from": "ruv-sgit",
+      "what": "ten attack-adjacent studio pieces, before they are made",
+      "state": "done: nine yes, E05 no",
+      "reply": "comms/mail/mailroom/ruv-sgit/security__005-studio-pieces-judged.eml",
+      "board": "comms/issues/security/issues/done/012-studio-pieces.md"
+    },
+    {
+      "id": "S11",
+      "from": "ruv-sgit",
+      "what": "review LAB 07 filled",
+      "state": "done: benign, one note",
+      "reply": "comms/mail/mailroom/ruv-sgit/security__006-lab-07-reviewed.eml",
+      "board": "comms/issues/security/issues/done/013-lab-07.md"
+    },
+    {
+      "id": "S12",
+      "from": "ruv-sgit",
+      "what": "review LAB 07's new frames",
+      "state": "done: benign, one note for the register",
+      "reply": "comms/mail/mailroom/ruv-sgit/security__007-lab-07-new-frames-reviewed.eml",
+      "board": "comms/issues/security/issues/done/014-lab-07-new-frames.md"
+    },
+    {
+      "id": "S13",
+      "from": "ruv-sgit",
+      "what": "review LAB 09",
+      "state": "done: benign",
+      "reply": "comms/mail/mailroom/ruv-sgit/security__008-lab-09-reviewed.eml",
+      "board": "comms/issues/security/issues/done/015-lab-09.md"
+    },
+    {
+      "id": "S14",
+      "from": "ruv-sgit",
+      "what": "review LAB 12 and E04 on LAB 07",
+      "state": "done: benign, two notes",
+      "reply": "comms/mail/mailroom/ruv-sgit/security__009-lab-12-and-e04-reviewed.eml",
+      "board": "comms/issues/security/issues/done/016-lab-12-and-e04.md"
+    },
+    {
+      "id": "S15",
+      "from": "conductor",
+      "what": "the first ten pages, before the editor shares them",
+      "state": "done: clear to share from security's side, 22:40 UTC",
+      "board": "comms/issues/security/issues/done/017-the-first-ten-pages.md",
+      "reply": "comms/mail/mailroom/conductor/security__013-sample-clear.eml"
+    },
+    {
+      "id": "S16",
+      "from": "ruv-sgit",
+      "what": "LAB 12 wording, LAB 14, 15, 19",
+      "state": "done: benign",
+      "reply": "comms/mail/mailroom/ruv-sgit/security__010-labs-14-15-19-and-12.eml",
+      "board": "comms/issues/security/issues/done/018-labs-14-15-19.md"
+    },
+    {
+      "id": "S17",
+      "from": "ruv-sgit",
+      "what": "review LAB 20",
+      "state": "done: benign",
+      "reply": "comms/mail/mailroom/ruv-sgit/security__011-lab-20-reviewed.eml",
+      "board": "comms/issues/security/issues/done/019-lab-20.md"
+    },
+    {
+      "id": "S18",
+      "from": "ruv-sgit",
+      "what": "review LAB 23",
+      "state": "done: benign",
+      "reply": "comms/mail/mailroom/ruv-sgit/security__012-lab-23-reviewed.eml",
+      "board": "comms/issues/security/issues/done/020-lab-23.md"
+    },
+    {
+      "id": "S19",
+      "from": "ruv-sgit",
+      "what": "LAB 24 and LAB 25",
+      "state": "done: benign",
+      "reply": "comms/mail/mailroom/ruv-sgit/security__013-lab-24-and-cast-strips.eml",
+      "board": "comms/issues/security/issues/done/021-lab-24-and-25.md"
+    },
+    {
+      "id": "S20",
+      "from": "conductor",
+      "what": "read the cast's character pages (CH1, NR1) as they land",
+      "state": "open",
+      "board": "comms/issues/security/issues/open/022-the-cast-ch1-nr1.md"
+    },
+    {
+      "id": "S21",
+      "from": "conductor",
+      "what": "ED1: read the editions against the rails after round 2",
+      "state": "done: both editions clear, 12:45 UTC",
+      "board": "comms/issues/security/issues/done/023-ed1-editions.md"
+    },
+    {
+      "id": "S22",
+      "from": "publisher, conductor",
+      "what": "the Leanpub listing; RC2 chapters as they land",
+      "state": "open",
+      "board": "comms/issues/security/issues/open/024-rc2-and-the-listing.md"
+    }
+  ],
+  "board": "comms/issues/security/issues/",
+  "cadence": "active (hourly, ACC1)"
 }
