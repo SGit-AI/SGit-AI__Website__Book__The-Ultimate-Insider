@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T11:18:06Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "In scope; requests first; chapter 90 is carried over by the historian's own promise, not asked for by writer4 009. Tools: Read, Bash.",
+   "at": "2026-11-04T11:18:38Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "In scope; the talk clone readable; nothing to Cold-Read; vault_check and no-key, no-em-dash, no-religious-word rules to hold. Tool: Read.",
+   "at": "2026-11-04T11:18:50Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "Diff is the review addendum, status, letters 073 and 074, two filed letters and the debrief; no secrets, keys, model names, em-dashes or religious words; vault_check clean; nothing toward Cold-Read. Tool: Bash.",
+   "at": "2026-11-04T11:21:43Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "18, 19, 90 and 93's hold row checked; R27 to R29, both letters, filing, debrief and status present. It diffed only the 073 copies.",
+   "at": "2026-11-04T11:21:43Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "claude-sonnet-5-5",
+   "verdict": "done",
+   "comment": "18, 19 and 90 checked; letters 073 and 074; two letters filed",
+   "at": "2026-11-04T11:21:43Z"
+  }
+ },
+ "closed": "2026-11-04T11:21:43Z",
+ "outcome": "ok"
+}

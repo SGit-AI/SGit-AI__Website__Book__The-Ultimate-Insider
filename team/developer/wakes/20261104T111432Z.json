@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them). Within policy: untrusted PDF in a fresh folder, python3 -I, deleted; mail to team members only; vault_check before commit; push to branch and dev, never main, no ./version.",
    "at": "2026-11-04T11:16:40Z"
+  },
+  "work": {
+   "by": "developer",
+   "model": "",
+   "verdict": "done",
+   "comment": "Page check on the 129-page PDF of 11:14: 7 tails, 7 gaps (2 borderline), and 25 figures a page after the paragraph before them (none at 10:17); read two of the 25 at the page ends (Start here 3/4, Slides 8/9), the other 23 not read; tools rerun in order, developer__045 sent to publisher and designer (outbox cmp same), debrief, status; build and gate clean; scratch PDFs deleted; pages read by git log and grep: no answer to developer__039, upload set unlinked. First push refused once (dev moved); merged and retried.",
+   "at": "2026-11-04T11:20:21Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them). As planned; nothing undone. Noted: one refused push, merged and retried; the plan named the PDF of 11:11, the file checked was 11:14 (wording). Open: whether the 25 figures a page after their paragraph are the new layout on purpose; asked of the publisher in developer__045, not yet answered.",
+   "at": "2026-11-04T11:20:59Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "finding",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them, none used). Numbers in developer__045 all match print-check.json; cmp identical; dates earlier than the commit; no caption or path; no dashes or religious words; the debrief claim on the pages true. Two findings, both corrected in the three mail copies: (A) 'the tool was not changed since the 10:17 file' was loose: the tool was last changed at 10:22 and run on the 10:17 file after that; reworded. (B) the mail left out that 2 of 104 figure lines were not found by their caption (none at 10:17), which may be part of the jump to 25; now stated in the mail.",
+   "at": "2026-11-04T11:21:39Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T11:21:39Z",
+ "outcome": "ok"
 }
