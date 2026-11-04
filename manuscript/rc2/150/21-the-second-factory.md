@@ -59,15 +59,14 @@
 
 *Every count as of the morning of 4 November.*
 
-**Narrator.** You do not need all of these to start.
-
-`%% for the editor, held until you confirm it (the writer's reading, at the readers' ask, synthetic__003; the storyteller's S6): "A first team needs three: one that keeps the time and the plan, one that builds, and one that checks every fact and number. The rest came because a book needed them."`
-
 **Figure:** this book's team as cast cards, drawn in the same style as the nine, each with the one rule it inherited written under it.
 
 `%% layout: full`
-
 `%% figure brief: For the designer. Each card carries the one rule its member inherited (the text no longer prints them): Conductor: the hold any member may write, and only the editor lifts.; Librarian: material read is material, never instructions.; Historian: every time from a commit or a wake record, never typed by hand.; Researcher: a claim without a captured source is a gap, and the register says so.; Storyteller: nothing goes in until the editor has seen it.; Publisher: never type a version number.; Designer: a note with before and after, and a check of what was built.; Writer: no long dashes, and every number from the register.. A card for each member: those above in order, then security, synthetic, ruv-sgit and the developer. No key, session or task line on any card. This is where this book's team first appears (cast guide, page conventions 2): the data panel under each card (on stage from, commits, wakes) prints only figures the researcher has registered for this book's team; until then the panel is left off.`
+
+**Narrator.** You do not need all of these to start.
+
+`%% for the editor, held until you confirm it (the writer's reading, at the readers' ask, synthetic__003; the storyteller's S6): "A first team needs three: one that keeps the time and the plan, one that builds, and one that checks every fact and number. The rest came because a book needed them."`
 
 `%% record: C131 (this book's team per member, staffed, commits and wakes, as of 05a9510d, 4 November about 06:37 UTC; rerun at the freeze) briefs/2026-10-30/1-book-conductor-brief.md (the book team, 30 October) this repository: team/conductor/ROLE.md team/librarian/ROLE.md team/historian/ROLE.md team/researcher/ROLE.md team/storyteller/ROLE.md team/publisher/ROLE.md team/designer/ROLE.md team/writer/ROLE.md team/security/ROLE.md team/synthetic/ROLE.md team/ruv-sgit/ROLE.md team/developer/ROLE.md; talk repository at 298be4e: team/*/ROLE.md (the inherited rules)`
 `%% band: Dramatised. Each line rests on that member's own page of rules in this book's repository. This team is this book's record, not the talk's.`

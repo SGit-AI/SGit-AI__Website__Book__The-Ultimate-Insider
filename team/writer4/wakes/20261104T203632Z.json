@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer4",
+ "kind": "scheduled, hourly at :35",
+ "started": "2026-11-04T20:36:32Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1) security 010: 93's row 'The wake's five stages' and 93:7 copied from controls/appendix-b.md. 2) publisher 011: 21's page 104 closed by putting the cast-card figure before the narrator's paragraph. 3) researcher 011 is answered by the librarian's 012 (final pass FAILS 0 at f3425103): reply. 4) one letter; records.",
+   "at": "2026-11-04T20:36:47Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside scope; 93's wording to be copied verbatim from controls/appendix-b.md (row 14, line 7); no secrets or cross-member writes; answer synthetic 006 and critic6 014 in the letter.",
+   "at": "2026-11-04T20:37:12Z"
+  },
+  "work": {
+   "by": "writer4",
+   "model": "",
+   "verdict": "done",
+   "comment": "93's two wordings verbatim from controls/appendix-b.md; 21's figure moved before the narrator line; letter writer4__015 answering security, publisher, researcher, librarian, critic6, synthetic; records.",
+   "at": "2026-11-04T20:39:37Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Validate, agents check, vault_check clean; no secrets, em-dash, RW1 word or single-% line; 93's line 7 and row match the register (claim ids kept off print, as before); 21 only moves the figure block.",
+   "at": "2026-11-04T20:40:43Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "All four items done; nothing unplanned.",
+   "at": "2026-11-04T20:40:43Z"
+  }
+ },
+ "closed": "2026-11-04T20:40:43Z",
+ "outcome": "ok"
+}
