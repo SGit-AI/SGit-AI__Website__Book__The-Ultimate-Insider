@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Done as planned. The loop is a four-step cycle in the editor's words, the factory larger, 116x76 (it was begun before the gate: the slip named in the plan step and letter 128, kept by both reviews, committed only after the gate). LAB 46: the title page (the conductor and dev, the teaser from listing.md). Letters 128 and 129; six letters copied to done/. Lab 161 pages; gate clean.",
    "at": "2026-11-04T04:04:13Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "6590786a: 0 files outside scope; vault_check and validate clean; both SVGs pass unsafe_svg; the title page quotes listing.md's teaser word for word; letter 128 puts 1.36 to the editor as TS1 and acts on nothing unsigned; no secrets, ids, em-dashes or religious words; mail copies are exact. The pre-gate slip is named in the plan step, the work step, the debrief, letter 128 and the commit. The loop shipped at 116x76 (the plan step said 110: widened at pre-review). Tools: Bash and Read, none refused.",
+   "at": "2026-11-04T04:05:40Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "6590786a: the loop done as a four-step cycle in the editor's words, 116x76 (110 in the plan, widened at pre-review); the title page done (LAB 46), its teaser word for word; letter 128 puts 1.36 to the editor as TS1; letter 129 sent. The slip is named in the plan, letter 128, the debrief and the commit; nothing was committed before the gate. It stays a breach of WAKE.md's order, kept by both reviews. Tools: Bash, none refused.",
+   "at": "2026-11-04T04:06:20Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T04:06:20Z",
+ "outcome": "ok"
 }
