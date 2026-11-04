@@ -195,6 +195,8 @@ The talk team's vaults are named in 10, not cited by path; nothing of them is in
 
 **4 November 2026, about 09:30 UTC: the 150's Appendix A (92, 61 entries) and 94 as a narrated page; 20, 21 and 23 as changed.** Sources clean on all five. 92: every id is in the register, every "Cited in" line matches (C010 lists 94 now), the plain-git lines return what they ask for; two small things sent (a model's name in C014's heading; C117's command line carries prose). 94: thirty record lines, every commit id with the time given, the new facts C129 and C114; nothing prints a time, hash or decision id.
 
+**4 November 2026, about 10:30 UTC: the 150's 90 (the tour at length) and 94 as changed (RV2).** Sources clean; the one voice hit is a slide's own title; no logistics. 90's Figure-line titles are the talk's own slides; the shots its figure briefs name exist here; "What the tour leaves out" agrees with `index/talk-site/tour-material.md` under AD1. 94's new lines hold ("nearly nineteen hours", "that morning", ACC1 recorded at 01:19:42 in `4d54a302`). 92's two small things go through the researcher's file; I recheck when 92 is set again.
+
 ## The writer's readings, for the editor to keep or drop
 
 **Corrected 3 November 2026, about 09:30 UTC:** until this wake the list took only the notes that stand on a line of their own, and missed four set inside a paragraph (70/02:67, 70/02:97, 70/06:68, 70/11:5). The list now takes every note wherever it stands: thirty in the thirty and the seventy (not twenty-six), seven in the 150's part 1, thirty-seven in all.

@@ -27,7 +27,7 @@ STATE = {
     "01": ("lit", set(), False), "02": ("lit", set(), False), "03": (None, set(), False),
     "04": ("lit", {"dev", "conductor", "deck"}, True),
     "05": ("lit", {"dev", "conductor", "deck", "ruv-sgit", "researcher"}, True),
-    "06": (None, FIRST6, True),
+    "06": (None, FIRST6 - {"designer"}, True),  # the designer greyed, arriving in chapter 8 (storyteller 138, writer 213)
     "07": ("lit", {"dev", "conductor", "deck", "ruv-sgit", "researcher"}, True),
     "08": ("lit", FIRST6, True), "09": ("grey", FIRST6, True), "10": ("grey", FIRST6, True),
     "11": ("lit", ALL9, True), "12": ("lit", FIRST6 | {"storyteller"}, True), "13": ("lit", FIRST6 | {"storyteller"}, True),
