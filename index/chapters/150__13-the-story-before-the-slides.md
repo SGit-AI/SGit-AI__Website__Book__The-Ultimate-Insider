@@ -11,14 +11,17 @@ From the chapter's `%% record` lines (and its `## Where this came from`, where i
 | `team/storyteller/story/coverage.md` | story work | storyteller | `df37797` 2026-10-29 14:19:39 | `34b06f6` 2026-10-29 16:57:56 | The arc against the beats |
 | `team/storyteller/story/challenge.md` | story work | storyteller | `df37797` 2026-10-29 14:19:39 | `2afe0d7` 2026-10-29 16:04:05 | The challenge: where the team's own material pushes back on the memo |
 
-## this repository (6)
+## this repository (9)
 
 - `claims/register.json`
 - `comms/mail/writer/done/historian__022-seventy-part-3-and-a-correction.eml`
 - `timeline/cast-scenes.md`
 - `timeline/interviews/storyteller.md`
 - `chapter-plan/edition-150-outline.md`
+- `team/conductor/from-newsroom/2026-11-04__narrator-voice-part-three.md`
+- `team/conductor/from-newsroom/2026-11-04__do-this-now-as-invitations.md`
 - `manuscript/rc2/70/09-the-loop-and-the-port.md`
+- `chapter-plan/cast/cast-guide.md`
 
 ## Commits named (7)
 

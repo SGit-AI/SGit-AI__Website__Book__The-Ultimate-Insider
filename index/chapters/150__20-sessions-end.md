@@ -9,7 +9,7 @@ From the chapter's `%% record` lines (and its `## Where this came from`, where i
 | `team/conductor/WAKE.md` | document | conductor | `ecc048e` 2026-10-29 01:35:33 | `3342cff` 2026-10-29 16:59:22 | the wake protocol every member followed: the five steps, the checklist, when and how to stop; ported to the book unchanged in substance |
 | `team/storyteller/sessions` | folder |  | ``  | ``  |  |
 
-## this repository (8)
+## this repository (10)
 
 - `claims/register.json`
 - `timeline/after-the-day.md`
@@ -19,7 +19,9 @@ From the chapter's `%% record` lines (and its `## Where this came from`, where i
 - `chapter-plan/edition-150-outline.md`
 - `manuscript/rc2/70/13-sessions-end.md`
 - `timeline/day/18.md`
+- `team/conductor/from-newsroom/2026-11-04__do-this-now-as-invitations.md`
+- `chapter-plan/cast/cast-guide.md`
 
-## Commits named (2)
+## Commits named (3)
 
-`298be4e`, `49c701e`
+`298be4e`, `49c701e`, `cfcc2951`

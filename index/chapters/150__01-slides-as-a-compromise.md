@@ -8,7 +8,7 @@ From the chapter's `%% record` lines (and its `## Where this came from`, where i
 |---|---|---|---|---|---|
 | `src/pages/studio-ports/abp-review` | folder |  | ``  | ``  |  |
 
-## this repository (10)
+## this repository (12)
 
 - `briefs/2026-11-04__in-session/04-introduce-the-narrator-and-chapter-1.md`
 - `briefs/2026-11-04__in-session/07-speak-as-me-no-logistics.md`
@@ -20,6 +20,8 @@ From the chapter's `%% record` lines (and its `## Where this came from`, where i
 - `manuscript/rc2/70/01-slides-as-a-compromise.md`
 - `team/conductor/from-newsroom/2026-11-04__narrator-voice-part-one-delta-01.md`
 - `index/talk-site/shots/motion__the-building.jpg`
+- `team/conductor/from-newsroom/2026-11-04__do-this-now-as-invitations.md`
+- `chapter-plan/cast/cast-guide.md`
 
 ## talk, added after the day (1)
 
