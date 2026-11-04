@@ -12,7 +12,7 @@ Made by conductor@book.the-ultimate-insider, 4 November 2026, about 09:58 UTC, a
 | Words | 15,512 | 9,888 |
 | First page of the tour (screenshots, the dashboard) | 11 | 17 |
 
-**What it shows** (the conductor's reading): the opening (pages 3 to 16) lost its visual rhythm: before, every page there had a visual (the printable Start here card, the speaker and slide drawing, the player and policy screenshots, the greyed cast cards, the tour); now the new introduction and chapter 1 come first as text, a "Try this" card sits alone on a page, and the narrower measure leaves more white. From page 17 the new version is richer than before (the tour, the house, the day at a glance, the concept callouts, the agent cards).
+**What it shows** (the conductor's reading): the opening (pages 3 to 16) lost its visual rhythm: before, every page there had a visual (the printable Start here card, the speaker and slide drawing, the player and policy screenshots, the greyed cast cards, the tour); now the new introduction and chapter 1 come first as text, a "Try this" card sits alone on page 12 (with a stray "Dramatised" label above it), and the narrower measure leaves more white. From page 17 the new version is richer than before (the tour, the house, the day at a glance, the concept callouts, the agent cards).
 
 **The sheets**
 - `pages-01-16-before-after.png`: pages 1 to 16, before above, now below.

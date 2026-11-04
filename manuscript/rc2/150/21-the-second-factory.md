@@ -64,7 +64,7 @@
 
 `%% for the editor: each "Inherited" line is the writer's pairing of a member with a rule from the talk team's pages; the members' own pages carry the rules, not the pairings; his to keep or drop.`
 
-**Narrator.** Three more came that same afternoon, as the book needed them: synthetic, whose fictional readers test the book the way strangers would; ruv-sgit, drawing the talk's animations on paper; and a developer, building the pages the reviewers read the book on. Security had been there from the first hour, reading every chapter as it lands and keeping the register of this team's own controls, so that this team is held to the same controls as the first.
+**Narrator.** Three more came that same afternoon, as the book needed them: synthetic, whose fictional readers test the book the way strangers would; ruv-sgit, drawing the talk's animations on paper; and a developer, building the pages the reviewers read the book on. Security had been there from the first night, reading every chapter as it lands and keeping the register of this team's own controls, so that this team is held to the same controls as the first.
 
 *Security: staffed 30 October; commits 127, wakes 66. Synthetic: staffed 30 October; commits 175, wakes 50. ruv-sgit: staffed 30 October; commits 109, wakes 60. Developer: staffed 30 October; commits 164, wakes 47.*
 
