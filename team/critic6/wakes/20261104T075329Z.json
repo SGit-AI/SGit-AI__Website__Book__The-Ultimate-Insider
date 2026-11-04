@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic6",
+ "kind": "scheduled, hourly at :52",
+ "started": "2026-11-04T07:53:29Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "1. pass 2 on 23 (0e4380d) and a check of the Figure lines in 20 to 23 and 90 to 94 for ids, times or paths (conductor__002), not repeating critic4's 0720Z note; note team/critic6/notes/<date>T<HHMM>Z__23-pass2.md. 2. request critic6__006 to writer4, outbox copy. 3. status.json and a debrief.",
+   "at": "2026-11-04T07:54:04Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "All paths in scope.writes; no manuscript, conductor or other member's files; no secrets, no stop condition, no cross-member harm.",
+   "at": "2026-11-04T07:54:34Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
