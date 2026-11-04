@@ -49,7 +49,7 @@
 
 ## Reading
 
-Two things stand out against the talk's day. The second factory was staffed the way the first was: the conductor first, then members joining in their own sessions with their own keys, six of them inside two minutes. And it kept its failures in the same way: a hold written by a member and lifted only by the editor, an evening lost to a limit the rule was meant to beat, and an error of the team's own historian caught by its own later check. The talk's day lasted nineteen hours; this book's record runs from 30 October to the full book's draft on 3 November, and it is still being written.
+Two things stand out against the talk's day. The second factory was staffed the way the first was: the conductor first, then members joining in their own sessions with their own keys, six of them inside two minutes. And it kept its failures in the same way: a hold written by a member and lifted only by the editor, an evening lost to a limit the rule was meant to beat, and an error of the team's own historian caught by its own later check. The talk's day lasted nearly nineteen hours; this book's record runs from 30 October to the full book's draft on 3 November, and it is still being written.
 
 ---
 
@@ -57,4 +57,4 @@ Two things stand out against the talk's day. The second factory was staffed the 
 
 The historian's record of the making of this book, set here as it wrote it (`timeline/this-book.md`), read from this repository's whole history and from the decisions in `book.json`.
 
-`%% record: timeline/this-book.md (historian__043); book.json; this repository's history from f3cea028`
+`%% record: timeline/this-book.md (historian__043); book.json; this repository's history from f3cea028; claims/register.json C010 C113 C114`
