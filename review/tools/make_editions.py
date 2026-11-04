@@ -7,7 +7,7 @@
 # Writes only each edition's pages.html (rc2, rc2-70, rc2-150, ed-03, ed-10), review/anchors/qr-targets.json, editions.json (and its copy in src/static/review/), src/pages/review/rc2/, rc2-70/, rc2-150/, ed-03/, ed-10/ and src/pages/review/zoom.html. Kept by developer@book.the-ultimate-insider.
 # Run: python3 review/tools/make_editions.py <path to a full clone of SGit-AI__Website__Presentation__The-Ultimate-Insider>
 
-import html, json, re, shutil, subprocess, sys, tempfile
+import atexit, html, json, re, shutil, subprocess, sys, tempfile
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -219,6 +219,41 @@ def printed_ids(raw, drop, ch, name):
     return ids, n
 
 
+URL_ATTRS = ('href', 'src', 'srcset', 'action', 'formaction', 'poster', 'data', 'cite', 'background', 'ping', 'xlink:href', 'longdesc', 'manifest')
+
+
+def url_ok(v):
+    """An allow-list for a url on a review page (security's finding on 8cc02c05): relative, a fragment, the book's own site, or the
+    SGit-AI repositories on GitHub; nothing else. Any other scheme (javascript:, data:, mailto:, http:), a scheme-relative '//host',
+    or the same in other letters is refused."""
+    v = html.unescape(v).strip()
+    low = v.lower()
+    if not v:
+        return True
+    if low.startswith('//'):
+        return False
+    if re.match(r'^[a-z][a-z0-9+.-]*:', low):
+        return low.startswith(SITE.lower() + '/') or bool(re.match(r'https://(github\.com/sgit-ai/|the-ultimate-insider\.book\.sgit\.ai/)', low))
+    return True                                                     # a fragment, a root-relative or a relative path
+
+
+def page_attribute_problem(page):
+    """The first value on the page that breaks the rule: a url attribute the allow-list refuses, any attribute carrying an address off
+    the two hosts, or a css url() the allow-list refuses. None if the page is clean."""
+    for name, v in re.findall(r'\s([\w:-]+)\s*=\s*"([^"]*)"', page):
+        n = name.lower()
+        urls = [x.split()[0] for x in v.split(',') if x.strip()] if n == 'srcset' else [v]
+        if n in URL_ATTRS and not all(url_ok(x) for x in urls):
+            return f'{name}="{v[:80]}"'
+        for a_ in addresses(html.unescape(v)):
+            if not (a_ == SITE or HOSTS.match(a_)):
+                return f'{name}="{v[:80]}"'
+    for v in re.findall(r'url\(([^)]*)\)', page, re.I):
+        if not url_ok(v.strip('\'" ')):
+            return f'url({v[:80]})'
+    return None
+
+
 CLAIM_HEAD = re.compile(r'^#{1,6}\s+(C\d{3})\b')
 
 
@@ -229,7 +264,7 @@ def text_address_gate(raw, claims, path):
     build (fail closed). Lines of writers' notes ('%%') are not printed and not read here. -> [{'address', 'claim'}] for this chapter."""
     found, claim, in_code = [], None, False
     for n, line in enumerate(raw.split('\n'), 1):
-        if line.lstrip().startswith('```') and not re.match(r'^`?%%', line):
+        if line.lstrip().startswith(('```', '~~~')) and not re.match(r'^`?%%', line):
             in_code = not in_code                                   # a '#' line inside a fenced block is a comment, not a heading
         m = CLAIM_HEAD.match(line) if not in_code else None
         if m:
@@ -315,7 +350,8 @@ def main(talk_path):
     claims = {c['id']: c for c in json.loads((ROOT / 'claims' / 'register.json').read_text())['claims']}
     targets, editions = [], []
     global PAGES
-    REAL_PAGES, PAGES = PAGES, Path(tempfile.mkdtemp())             # the pages are built aside and put in place only after every guard below has passed: a refusal leaves no page behind
+    REAL_PAGES, PAGES = PAGES, Path(tempfile.mkdtemp())
+    atexit.register(shutil.rmtree, PAGES, True)                     # a refusal leaves nothing behind, in the repository or in /tmp             # the pages are built aside and put in place only after every guard below has passed: a refusal leaves no page behind
     for slug, edition_title, booktxt in EDITIONS:
         OUT = PAGES / slug
         OUT.mkdir(parents=True, exist_ok=True)
@@ -434,10 +470,9 @@ def main(talk_path):
         for h in re.findall(r'href="([^"]+)"', page):
             if html.unescape(h).rstrip('.,;:!?') in allowed:
                 sys.exit(f'{f}: links an outside citation: {h}')
-        for v in re.findall(r'\s[\w:-]+\s*=\s*"([^"]*)"|url\(([^)]*)\)', page):   # security: every attribute, and css url(), not only href/src
-            for a_ in addresses(html.unescape(v[0] or v[1])):
-                if not (a_ == SITE or HOSTS.match(a_)):
-                    sys.exit(f'{f}: an attribute or url() carries an address off the two hosts: {a_}')
+        bad = page_attribute_problem(page)                           # security: every attribute and css url(), as an allow-list, not a pattern
+        if bad:
+            sys.exit(f'{f}: an attribute or url() the review pages may not carry: {bad}')
     if '--dry' in sys.argv:                                          # every guard passed; nothing is put in place (for a diff to be reviewed before a release)
         out = next((sys.argv[k + 1] for k, a_ in enumerate(sys.argv) if a_ == '--data-out' and k + 1 < len(sys.argv)), None)
         if out:                                                      # the data, for a check that needs today's chapters (print_check.py --chapters); to a file the caller names, never into the repository's places
@@ -474,6 +509,8 @@ def main(talk_path):
 
 if __name__ == '__main__':
     argv = sys.argv[1:]                                              # --dry: run every guard, write nothing into place; --dry --data-out FILE also writes the editions data to FILE
+    if '--data-out' in argv and '--dry' not in argv:
+        sys.exit('--data-out is for a dry run only (--dry --data-out FILE): refused')
     args = [a for k, a in enumerate(argv) if a != '--dry' and a != '--data-out' and not (k and argv[k - 1] == '--data-out')]
     if len(args) != 1:
         sys.exit('usage: make_editions.py <path to a clone of the talk\'s repository> [--dry [--data-out FILE]]')

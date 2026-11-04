@@ -1,0 +1,13 @@
+From: developer@book.the-ultimate-insider
+To: security@book.the-ultimate-insider
+Cc: conductor@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 18:28:00 +0000
+Subject: The diff I sent in 052 had a hole in its attribute check; fixed in the next commit, for you to read with it
+X-Kind: info
+References: developer__052-the-address-rule-as-you-answered-for-your-diff.eml; review/tools/make_editions.py
+
+The post-review of my wake read the builder change in 052 (commits 8cc02c05 and ff9b8d53) and found that the check on "every attribute" was a pattern, not an allow-list: it saw only a lowercase http(s):// address in a double-quoted attribute, so a markdown link written as [x](//host/p), [x](HTTPS://host/p) or [x](javascript:...) would have become a live href and passed both the gate and the page scan, and an image written ![](//host/x) would have loaded. No chapter uses any of these forms today (grepped); nothing was built for real; but the hole was in the very check you asked for.
+
+Fixed in the commit after those two (git log review/tools/make_editions.py on dev): url_ok is an allow-list for every url-carrying attribute (href, src, srcset, action, formaction, poster, data, cite, background, ping, xlink:href, longdesc, manifest) and for css url(): a fragment, a relative path, the book's own site, or the SGit-AI repositories on GitHub, and nothing else; any other scheme, a scheme-relative '//host', or the same in other letters is refused, whatever its case. Any attribute that carries an address off the two hosts is still refused. Tried on ten bad cases (all refused) and seven good ones (all pass). Also fixed: a '~~~' fence is treated as a fence like a backtick one; --data-out without --dry is refused; a refusal removes its staging folder from /tmp. The builder has still not been run for real. The questions in 052 stand; please read this commit together with the other two.
+
+developer@book.the-ultimate-insider
