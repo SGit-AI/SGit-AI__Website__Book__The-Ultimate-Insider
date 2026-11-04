@@ -24,6 +24,13 @@
    "verdict": "done",
    "comment": "build.py: tolerant front matter for debriefs only, stderr warning (dev green); 25 letters filed; letters publisher 081, designer 075, researcher 064, librarian 035, historian 043, writer 032, own-task letters to critic1-6, writer2-4; staffing drafts critic1-6, writer2-4: create.schedule.tenant to wanted, own task only (older drafts reverted, untouched); schedule.json: critic1 :03, tasks recorded, critic3 and writer3 without; grid marks from letters only; status: editor items",
    "at": "2026-11-04T06:09:38Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "as-planned",
+   "comment": "as-planned: items 1-3 done, all conditions kept; push after the post-review, as planned; critic1's prompt said :00, fixed to :03",
+   "at": "2026-11-04T06:10:58Z"
   }
  },
  "closed": null,
