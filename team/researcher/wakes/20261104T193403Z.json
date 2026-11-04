@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T19:34:03Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Plan inside scope.writes; trace 05's thirteen minutes and chapter 9's new hour lines; rerun the script; no hold. Reviewer used Read, Bash, SubagentHandback; none refused.",
+   "at": "2026-11-04T19:34:58Z"
+  },
+  "pre_review": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Plan inside policy; 12 min 37 s rounds to thirteen; reviewer used Read, Grep, Bash; none refused. It could not find chapter 9 lines (looked in the wrong file); I traced them myself.",
+   "at": "2026-11-04T19:35:23Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Traced pass 11; script 1 fail; asked writer4 for 92; records written",
+   "at": "2026-11-04T19:35:44Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
