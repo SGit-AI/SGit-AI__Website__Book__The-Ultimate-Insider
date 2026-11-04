@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "designer2's key checked (C4) and key.png cleared under AD1; LAB 65 and 66 clear (070); hour's changes clear.",
    "at": "2026-11-04T22:29:08Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "No key value, token, session link, decoded QR or attack-shaped text; no em-dash or religious word; nothing to Cold-Read; paths in scope; validate, vault check and scope (0 outside) clean. The commit was amended once to add designer2's mailroom copy; a scope check run mid-amend counted it once, and the rerun on the committed tree says 0.",
+   "at": "2026-11-04T22:30:17Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "as-planned",
+   "comment": "817410a8 matches the plan: designer2's key and image (C4), LAB 65 and 66, 070 with copies, board, debrief; no out-of-scope file.",
+   "at": "2026-11-04T22:30:41Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T22:30:42Z",
+ "outcome": "ok"
 }
