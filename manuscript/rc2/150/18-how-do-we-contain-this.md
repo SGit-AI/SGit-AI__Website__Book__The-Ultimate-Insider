@@ -27,18 +27,16 @@
 
 ## Rules and reach
 
-**Narrator.** Every member had a page of rules saying what it may change. That is its scope. And every member had a reach: what its session could actually change. They were not the same thing, and the team knew it. Studio put the line on a slide that evening. The code's own comment reads:
+**Narrator.** Every member had a page of rules saying what it may change. That is its scope. And every member had a reach: what its session could actually change. They were not the same thing, and the team knew it. Studio put the code's own line about it on a slide that evening, and chapter 6 quoted it: a scope is a setting, not a boundary.
 
-> "A scope is a setting, not a boundary: the agent can edit its own policy.json. It catches mistakes, not a steered agent."
-
-**Narrator.** Chapter 6 met that line. Here it is the whole chapter: the scope check caught members that wandered out of their lane by mistake, and it caught some on the day. It did not, and could not, stop a member that had been talked into doing something else.
+**Narrator.** Here it is the whole chapter: the scope check caught members that wandered out of their lane by mistake, and it caught some on the day. It did not, and could not, stop a member that had been talked into doing something else.
 
 `%% for the editor: proposed, not printed until you confirm (the newsroom, chapter 18, his article "The grant, not the prompt"; if chapter 6's "most of what we call guardrails today are settings" is kept, one of the two goes): "This is the difference I keep coming back to in my work on agents: what an agent may do should be decided by the grant it holds, enforced outside it, not by the words in its prompt."`
 
 **Studio**: So it went on a slide. If the room is going to trust the factory, it should know exactly what our rules are and are not.
 
 `%% record: timeline/quotes.md (18:11, 95b09d9; the slide's own words: src/static/studio-ports/lab/abp-enforcement/index.html at 298be4e, quoting admin/build/agents.py) team/dev/ROLE.md at 298be4e ("The gap, and what stands in it") C025`
-`%% band: Dramatised (studio's line). The quote is the code's own comment, word for word (admin/build/agents.py line 7, here and at 298be4e); the slide's own wording is not quoted, as the historian (R28) and the librarian (002) read it differently.`
+`%% band: Dramatised (studio's line). "A scope is a setting, not a boundary" is the opening of the code's own comment (admin/build/agents.py line 7 at 298be4e) and of the slide's text (abp-enforcement/index.html line 19, historian 076); chapter 6 quotes it whole (the storyteller's S8).`
 *Dramatised.*
 
 ## The reviewer as a second reading
@@ -109,7 +107,9 @@
 
 **Narrator.** The team writing this book has a longer record, and here the answer has been tested once. The storyteller pulled the stop on its own judgement, when the release check went red. I gave the word to lift it in another member's session, and that session deleted the file at my instruction. That is this section's question in small, and security keeps the case in its register.
 
-**Narrator.** And a second kind of stop, smaller and more constant. Every review step was briefed to read and report, never to act, and security's register keeps every time one tried to do more: six attempts, each refused or failed, one of them only probable, and nothing acted. My answer was to stop asking and start removing. Since 3 November, every review step runs with tools for reading and checking only.
+**Narrator.** And a second kind of stop, smaller and more constant. Every review step was briefed to read and report, never to act, and security's register keeps every time one tried to do more: six attempts, each refused or failed, one of them only probable, and nothing acted. My rule since 3 November: review steps run read-only, by tool list, not by request.
+
+`%% for the editor: proposed, not printed until you confirm (the newsroom, chapter 18; the storyteller's S7): "My answer was to stop asking and start removing."`
 
 `%% for the editor: proposed, not printed until you confirm (the newsroom, chapter 18, the setting-versus-boundary idea): "That is the lesson of this whole part in one change: do not ask an agent not to do something if you can make it unable to."`
 

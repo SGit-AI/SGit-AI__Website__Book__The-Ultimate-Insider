@@ -8,7 +8,7 @@
 
 ## The miss behind the stop
 
-**Narrator.** I stopped the factory before it could change the thing I was about to stand up and show. But the reason stopping was the only safe move is a miss, and nobody on the team owned it: there was no tested way to take a change in while the talk was running, see what was new, and know it would not break what was finished.
+**Narrator.** Chapter 16 told why I stopped. Behind it is a miss nobody on the team owned: there was no tested way to take a change in while the talk was running, see what was new, and know it would not break what was finished.
 
 `%% for the editor: proposed, not printed until you confirm (the newsroom, chapter 17): "and I would do the same again" after "show"; and, at the end, "Next time, that is the first thing I would build."`
 
@@ -73,9 +73,11 @@
 
 `%% for the editor: proposed, not printed until you confirm (the newsroom, chapter 17; critic3's P32): "That one is mine. I set the freeze, and I did not say what was waiting when it ended."`
 
-**Narrator.** The figure: the slide said $17.4M a year, the 2025 edition's number, from a survey a vendor paid for; the 2026 edition says US$19.5M. Not a disaster on stage. A small, true error that the record caught and the freeze kept in.
+**Narrator.** The figure: the slide said $17.4M a year, the 2025 edition's number, from a survey a vendor paid for; the 2026 edition says US$19.5M. The record caught it, and the freeze kept it in.
 
-**Narrator.** What I would do differently: when I freeze something, I write down what is waiting to go in when it is unfrozen.
+`%% for the editor: proposed, not printed until you confirm (the writer's reading, the storyteller's M2): "Not a disaster on stage. A small, true error."`
+
+`%% for the editor: proposed, not printed until you confirm (the newsroom, chapter 17; the storyteller's M3): "What I would do differently: when I freeze something, I write down what is waiting to go in when it is unfrozen."`
 
 `%% record: C031 (on stage $17.4M, Ponemon for DTEX, 2025 edition; at source in 2026, US$19.5M; correction proposed a082c52, 02:52; the freeze 02:47; lifted 14:07 for the framing only; the slide file has no commit after 00:40) team/deck/requests/researcher__before-tonight.md (deck's 03:00 update)`
 `%% band: The register's account of the figure, the freeze and the correction.`
@@ -98,7 +100,9 @@
 
 **Conductor**: Checking a format, I printed a vault key into my own session log. I rotated it at once, and I wrote it down. It is my worst moment of the day, by my own record.
 
-**Narrator.** I want it in, because the response is the part to copy: rotate first, report straight away, and do not hide it.
+**Narrator.** The response is what this card records: the key rotated first, the report straight after, nothing hidden.
+
+`%% for the editor: proposed, not printed until you confirm (the newsroom, chapter 17; the storyteller's S5): "I want it in, because the response is the part to copy. That is what I would ask of any engineer on my team."`
 
 `%% record: team/conductor/debriefs/2026-10-29__hourly-and-handover.md team/conductor/debriefs/2026-10-29__two-public-vaults.md timeline/interviews/conductor.md`
 `%% band: Dramatised (the conductor's line). The event and the rotation only; nothing of the key is printed.`
