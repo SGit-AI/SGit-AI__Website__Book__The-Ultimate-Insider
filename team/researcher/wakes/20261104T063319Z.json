@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T06:33:19Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Fits the role; no hold; C131 is the next free id. The editor's items (the reader's full name, the $20 line) stay out. Conditions: no edits in manuscript/; each figure cites the commit it stands at; say the figures grow hourly and are rerun at the freeze. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T06:35:28Z"
+  },
+  "pre_review": {
+   "by": "security pre-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "All paths inside scope; nothing in other members' paths; the C131 script must read git history only and print names and counts, no email, contact detail or key; vault_check comms before commit; nothing from the blind repository. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T06:35:29Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "RV2 pass 2 (3 must, 2 should open in my lane; 04, 10, 13 and the gate fixed); 04, 12, 14, 15, 21 traced; C131 registered (this book's team as of 05a9510d, claims/book-team-stats.py, reproduces at that commit); appendix rebuilt (61). Replies researcher__002 (writer4), 031 (writer), 003 (writer2), 030 (conductor); six letters filed; board, debrief, REALITY, status. Not done: the final pass; the web facts.",
+   "at": "2026-11-04T06:37:30Z"
+  },
+  "post_review": {
+   "by": "security post-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "No secret, contact detail or email; claims/book-team-stats.py reads git only and prints names and counts; no surname after 'Dan', attack-shaped content, religious word or em-dash; nothing in manuscript/ or src/. Rerun at 05a9510d: member_commits 1661, researcher 80 commits and 74 wakes, as C131 says. Pass 2's count (3 must, 2 should) matches the lines it names. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T06:39:22Z"
+  },
+  "post_check": {
+   "by": "conductor post-check step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Pass 2, 04/12/14/15/21 traced, C131 and replies done; the final pass, the web facts and the writers' open items (09, 17, 94, 16) stated as not done; no manuscript edits; the editor's items passed on as questions. The step did not check that the C131 text itself cites its commit (it does: as_of_commit 05a9510d, and the note says the figures grow hourly). Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T06:39:22Z"
+  }
+ },
+ "closed": "2026-11-04T06:39:22Z",
+ "outcome": "ok"
+}

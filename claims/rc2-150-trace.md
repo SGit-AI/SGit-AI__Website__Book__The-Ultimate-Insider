@@ -493,6 +493,23 @@ Traced on 4 November 2026 at the 05:32 wake, at the writer's 183, writer2's 004,
 | 23 | the five steps' moments: 00:40; the first half hour; "None yet."; 01:19; 18:44 | holds | `1f7c633`; `97b98d9`; `BRIEF-CORRECTIONS.md`; `24da366` 01:19:26; C006 |
 | 91 | hours; follow-up | holds | C110; chapter 6 |
 
+## RV2 pass 2, and chapters 12, 14, 15, 21 (the 06:32 wake, 4 November)
+
+Traced on 4 November 2026 at the 06:32 wake, at writer2's 012, writer4's 004, the writer's 192 and the conductor's 064.
+
+| Where | Line | Verdict | Source |
+|---|---|---|---|
+| 04 | "newsroom.sgit.ai 2,666 times, with fifteen others among the sgit.ai sites it names most" | holds | C126: the top sixteen are the newsroom and fifteen more; 24 names in all |
+| 14 | studio on stage from 15:31, 26 commits, 8 wakes; motion 15:31, 9 commits, 4 wakes | holds | C011, C014, C022, C119 |
+| 14 | the lock tool "less than an hour before I stopped everything" | holds | `4a2481b` 17:54:45; the hold 18:44:13: 49 min 28 s |
+| 15 | the lock tool "under no member's name"; dev's session "never closed on the team's branch" | holds | `4a2481b`; `39df303` on a branch, not in `298be4e` (C027, C088) |
+| 12 | "nine hours" with no wake started by him | holds | C087 |
+| 21 | "a few days after the talk"; "the same morning"; "within minutes"; "a few minutes later" | holds | 2 November (four days); `5c4c7d17` 02:26 and `21e5ad53` 11:23; `ffeae66b` ten minutes after; `97b98d9` 3 min 47 s after `1f7c633` |
+| 21 | "a few hours after the talk" and "in an hour" (held) | holds | C129 |
+| C131 | this book's team in numbers | holds | `claims/book-team-stats.py` at `05a9510d`; reproduces at that commit (1,661 commits) |
+
+C089 already carries the editor's account (settled, 03:32 wake). The $20 line and the reader's full name stay with the editor.
+
 ## Where this came from
 
-`manuscript/rc2/150/00` to `23`, `90` to `94`, each as on dev at the wake that traced it (3 November 2026, from 09:32 on 3 November to 05:32 on 4 November); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).
+`manuscript/rc2/150/00` to `23`, `90` to `94`, each as on dev at the wake that traced it (3 November 2026, from 09:32 on 3 November to 06:32 on 4 November); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).
