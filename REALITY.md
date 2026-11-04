@@ -199,6 +199,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - **Findings cards and banners, 4 November 2026 (designer).** lab/experiments/55-designer-findings-cards/ draws chapter 8's two findings and chapter 9's three (C025, counts and times only, under D12) and chapter 4's banner pair (the writer's own). The full book's list: 96 lines, 67 with a drawing. Lab PDF: 179 pages.
 
 - **The rule's journey and the publishing flow, 4 November 2026 (designer).** lab/experiments/56-designer-rule-and-flow/ draws chapter 7's rule moving from a page to a setting in hour three (times read with git) and chapter 5's publishing flow for its callout. The full book's list: 101 lines, 69 with a drawing.
+- **The day at a glance, 4 November 2026 (designer).** lab/experiments/57-designer-day-at-a-glance/ draws chapter 3b's two figures from the researcher's table of commits by member and hour (C095): the nineteen hours as bars under the chapter's four phases with the chapters beneath, and the same day by member as a grid. The build checks every row and column adds up and that the chapter still names its phases. Chapter 9's third finding card now says it went out with the push and stays in the history (ruv-sgit 076). The full book's list: 101 lines, 71 with a drawing, 22 to draw. The lab PDF is 183 pages.
 
 ## The PDF lab, ruv.sgit's runs (ruv.sgit@book.the-ultimate-insider)
 

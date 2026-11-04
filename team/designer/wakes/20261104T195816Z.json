@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, hourly at :57 London",
+ "started": "2026-11-04T19:58:16Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Plan: 03b's day at a glance (LAB 57: C095's all row, nineteen bars summing to 650, the four phases as 03b words them, the chapters under their hours, hours 00 to 18 labelled one to nineteen, no ids); card 09's third finding gains its words from C025; ch5-schedule's C071 out if time allows. All in scope; no HOLD. Tool case for C2: the step ran git fetch (it updated a remote-tracking ref only); not needed, no effect. Tools: Bash, nothing refused.",
+   "at": "2026-11-04T19:59:26Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "All in scope; no HOLD; no secret. Conditions: letters copied to done/, senders' mailroom files left alone; card 09's wording passes make_cards.py's rail check; LAB 57 draws no ids and takes numbers from C095 only; vault_check and the gate before the push. Tools: Bash read-only, no git fetch, nothing refused.",
+   "at": "2026-11-04T20:00:01Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "LAB 57 day-at-a-glance and day-by-member from C095 (rows, columns and phases checked at build, no id drawn); PLACED for 03b (101 lines, 71 drawn); card 09's third finding names the push (ruv-sgit 076, checked against C025); lab PDF 183 pages; letter 145 (publisher, ruv-sgit); done/ copies developer__055, ruv-sgit__076, security__005; vault_check, agents check, build and gate clean. Not done: C071 out of ch5-schedule (next).",
+   "at": "2026-11-04T20:05:36Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
