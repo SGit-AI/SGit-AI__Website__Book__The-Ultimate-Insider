@@ -237,17 +237,46 @@ def url_ok(v):
     return True                                                     # a fragment, a root-relative or a relative path
 
 
+from html.parser import HTMLParser
+
+RAW_ADDR = re.compile(r'(?i)(?:[a-z][a-z0-9+.-]*:)?//[^\s"\'<>`]+')   # an address in any letters, with or without a scheme, as the tag's own text carries it
+
+
+class _Tags(HTMLParser):
+    """Every start tag of a page: its parsed attributes (double-quoted, single-quoted or unquoted, entities resolved) and its raw text."""
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.tags = []
+
+    def handle_starttag(self, tag, attrs):
+        self.tags.append((tag, attrs, self.get_starttag_text() or ''))
+
+    handle_startendtag = handle_starttag
+
+
 def page_attribute_problem(page):
-    """The first value on the page that breaks the rule: a url attribute the allow-list refuses, any attribute carrying an address off
-    the two hosts, or a css url() the allow-list refuses. None if the page is clean."""
-    for name, v in re.findall(r'\s([\w:-]+)\s*=\s*"([^"]*)"', page):
-        n = name.lower()
-        urls = [x.split()[0] for x in v.split(',') if x.strip()] if n == 'srcset' else [v]
-        if n in URL_ATTRS and not all(url_ok(x) for x in urls):
-            return f'{name}="{v[:80]}"'
-        for a_ in addresses(html.unescape(v)):
-            if not (a_ == SITE or HOSTS.match(a_)):
-                return f'{name}="{v[:80]}"'
+    """The first thing on the page that breaks the rule, or None if the page is clean. Tags are read with a parser, so quoting does not
+    matter (security__007): a url attribute the allow-list refuses; any attribute value, or the tag's own raw text, carrying an address
+    off the two hosts (a '//host', or one in other letters, included); a css url() the allow-list refuses; a tag the parser cannot read."""
+    t = _Tags()
+    try:
+        t.feed(page)
+        t.close()
+    except Exception as e:                                           # a page the parser cannot read is refused, not guessed at
+        return f'unreadable markup: {e}'
+    for tag, attrs, raw in t.tags:
+        for name, v in attrs:
+            n = name.lower()
+            v = v or ''
+            urls = [x.split()[0] for x in v.split(',') if x.strip()] if n == 'srcset' else [v]
+            if n in URL_ATTRS and not all(url_ok(x) for x in urls):
+                return f'<{tag} {name}="{v[:80]}">'
+            for a_ in addresses(v):
+                if not (a_ == SITE or HOSTS.match(a_)):
+                    return f'<{tag} {name}="{v[:80]}">'
+        for m in RAW_ADDR.findall(raw):                              # the raw text of the tag, whatever the quoting
+            if not url_ok(m.rstrip('.,;:!?)')):
+                return f'<{tag}> carries {m[:80]}'
     for v in re.findall(r'url\(([^)]*)\)', page, re.I):
         if not url_ok(v.strip('\'" ')):
             return f'url({v[:80]})'
