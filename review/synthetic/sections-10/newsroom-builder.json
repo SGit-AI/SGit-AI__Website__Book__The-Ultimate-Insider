@@ -1,0 +1,34 @@
+{
+ "schema": "the-ultimate-insider/synthetic-section-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "newsroom-builder",
+ "read_at": "58e94a82",
+ "would_read_on": {
+  "90-the-tour-at-length": "maybe",
+  "91-the-words-used": "maybe",
+  "93-appendix-b-the-control-register": "yes"
+ },
+ "findings": [
+  {"file": "90-the-tour-at-length.md", "line": 5, "quote": "the nine, greyed. Each lights for a moment", "principle": "reader", "severity": "should", "why": "Starting the tour, I do not yet know who the nine are or why they light; the cast is named only in chapters I may not have read."},
+  {"file": "90-the-tour-at-length.md", "line": 9, "quote": "How to read the scenes:", "principle": "6", "severity": "could", "why": "An instruction on how to read; the dramatised note could simply be said in the editor's voice, as what I did."},
+  {"file": "90-the-tour-at-length.md", "line": 30, "quote": "The line on the slide matters: the map shows where things sit relative to each other.", "principle": "21", "severity": "should", "why": "The figure line already carries 'positions, not measurements', so this tells the same thing a second time and tells me it matters."},
+  {"file": "90-the-tour-at-length.md", "line": 62, "quote": "The home page says the perfect storm.", "principle": "reader", "severity": "should", "why": "The phrase 'perfect storm' is used before I am told what the storm is, and the three circles are explained only in the next stop."},
+  {"file": "90-the-tour-at-length.md", "line": 104, "quote": "The team, as the site shows it: who does what", "principle": "1", "severity": "could", "why": "A narrator line that reports the page with no 'I' and no hindsight; what the editor made of the roll call is missing."},
+  {"file": "90-the-tour-at-length.md", "line": 147, "quote": "The point is the receipt at the end of each: every decision leaves a record.", "principle": "21", "severity": "should", "why": "The agent's line, 'Allowed, denied, or asked. Never silent.', says the same thing straight after, and 'the point is' is the opening the book avoids."},
+  {"file": "90-the-tour-at-length.md", "line": 162, "quote": "The first walks the night hour by hour. The second is the talk as I gave it.", "principle": "7", "severity": "could", "why": "Short sentences in a run with stops 10 and 11 that all end on a one-line agent quip; the stops read as a repeating template."},
+  {"file": "90-the-tour-at-length.md", "line": 207, "quote": "That is what one day made.", "principle": "7", "severity": "could", "why": "A closing line of the 'that is the point' family, after thirteen stops that already said it."},
+  {"file": "90-the-tour-at-length.md", "line": 211, "quote": "it may be worth asking an agent to build the next one the same way", "principle": "reader", "severity": "should", "why": "As a newsroom builder I want one concrete thing to copy, and this is vague; the roll call page or the receipt is the thing I would try first."},
+  {"file": "91-the-words-used.md", "line": 20, "quote": "like deck's, still open when the hold came", "principle": "reader", "severity": "should", "why": "A glossary entry leans on 'deck', a member I have not met if I jumped here, so the definition does not stand alone."},
+  {"file": "91-the-words-used.md", "line": 16, "quote": "hour one runs from midnight to a minute before one, and the talk was due as hour nineteen ended", "principle": "reader", "severity": "could", "why": "A story detail in a glossary line; a word box should only define the clock."},
+  {"file": "93-appendix-b-the-control-register.md", "line": 7, "quote": "The difference is the book's point.", "principle": "6", "severity": "could", "why": "It ranks the idea for me instead of letting the next sentence carry it; the sentence after it is the strong one."},
+  {"file": "93-appendix-b-the-control-register.md", "line": 13, "quote": "as the team's own slide said", "principle": "reader", "severity": "could", "why": "A reference to a slide I have not seen inside a table cell."},
+  {"file": "93-appendix-b-the-control-register.md", "line": 32, "quote": "that same evening the usage limit came before any hold did", "principle": "reader", "severity": "should", "why": "The 'usage limit' is not explained in this appendix and the cell is cryptic for a reader who skipped the chapter."},
+  {"file": "93-appendix-b-the-control-register.md", "line": 33, "quote": "four refused, one failed because the session did not exist, one probably refused or never sent", "principle": "7", "severity": "should", "why": "The longest cell packs six outcomes and the term 'review steps' without a plain account of what they were trying to reach."}
+ ],
+ "what_holds": [
+  "90-the-tour-at-length.md: the policy review page and the one-action journey (allowed, denied, asked, never silent) are things I could rebuild for my own newsroom.",
+  "91-the-words-used.md: short plain definitions with the chapter named; I can look a word up and go back.",
+  "93-appendix-b-the-control-register.md: the setting versus expectation split and the 'what it missed' column are the honest answer I want; this is the most useful of the three for an editor who signs."
+ ],
+ "notes": "Read as a five-minute reader. The tour is pleasant but repeats one shape thirteen times; the register is the section I would keep open while setting up my own agents."
+}
