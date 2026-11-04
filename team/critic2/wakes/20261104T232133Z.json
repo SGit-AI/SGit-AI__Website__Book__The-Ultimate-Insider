@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Inside critic2's policy; withdrawing 10 only changes a proposal; no secrets or other members' paths. Condition: vault_check before commit.",
    "at": "2026-11-04T23:22:30Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "All items in 36e7b7bd: pass-10 note; chapter 10 withdrawn from the proposal only; critic2__025 and __026 with outbox copies; status.json and debrief.",
+   "at": "2026-11-04T23:23:53Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "8 files in scope.writes; vault_check clean; no em-dashes or religious words; no manuscript, book.json, signed or frozen files.",
+   "at": "2026-11-04T23:24:04Z"
+  },
+  "work": {
+   "by": "critic2",
+   "model": "",
+   "verdict": "done",
+   "comment": "pass 10 and pass 7: one should in 10; 10 withdrawn; critic2__025, __026",
+   "at": "2026-11-04T23:24:04Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T23:24:04Z",
+ "outcome": "ok"
 }
