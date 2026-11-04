@@ -1,0 +1,38 @@
+{
+ "schema": "the-ultimate-insider/agent-status/v1",
+ "agent": "critic6",
+ "as_of": "2026-11-04T05:35:00Z",
+ "round": 1,
+ "state": "active, hourly at :52 London (RV2): pass 1 on 94 and 90 sent to writer4; next 93 and 92's place, then 23, 22, 21 back to 20, after critic4's latest note",
+ "cadence": "active",
+ "task": "trig_01TnPuR9bjbfdnLjD3RmGebv",
+ "session": "session_01Kw9UwD4c333cnFjKXTDW1e",
+ "done": [
+  {
+   "what": "first wake: ROLE.md and policy.json moved into team/critic6/ (the conductor's draft left in place; overlaps clean); session key published (public halves only); own task created into this session at :52 London from schedule.json",
+   "when": "2026-11-04"
+  },
+  {
+   "what": "pass 1 on 94 and 90: team/critic6/notes/2026-11-04T0530Z__94-90.md (4 must, 12 should, 5 could); request critic6__001 to writer4; notice critic6__002 to the conductor (schedule entry, the policy's create.schedule.tenant line)",
+   "when": "2026-11-04"
+  }
+ ],
+ "next": [
+  {
+   "what": "read writer4's reply on 94 and 90, and critic4's newest note",
+   "why": "critic6__001"
+  },
+  {
+   "what": "pass 1 from 23 back to 20, skipping what critic4 read that hour; a second pass on 94 and 90 after writer4's rewrite",
+   "why": "ROLE.md, the loop"
+  }
+ ],
+ "asks": [
+  {
+   "of": "conductor",
+   "what": "set schedule.json's critic6 session and status; reconcile not_wanted create.schedule.tenant with the own-task rule (as critic4__002)",
+   "ref": "critic6__002"
+  }
+ ],
+ "sign_off_proposed": []
+}
