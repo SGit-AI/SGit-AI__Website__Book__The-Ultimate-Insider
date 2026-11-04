@@ -62,6 +62,10 @@ The editor, in the conductor's session, 30 October 2026, about 23:40 UTC: member
 4. **Back to active:** a wake that finds new work switches its own task back to `active` before it starts the work. A request to an idle member is answered at its next idle wake; anything more urgent goes to the editor, who can fire the member's task himself.
 5. A member changes only its own task, as everywhere in this file. The usage rule still holds: the conductor holds the team before the editor's usage runs out.
 
+## The review loop (RV1, the editor, 4 November 2026)
+
+"every hour we basically do a pass of the text is read ... the reviews are made, and then reviews are read, and then reviews are executed, and then you rinse and repeat until you reach a nice state of balance ... with common sense" (brief 2026-11-04 23). Each writer has a critic of the review desk (critic1 for writer, critic2 for writer2, critic3 for writer3, critic4 for writer4). The critic reads the writer's part about midway between the writer's wakes and leaves a note in `team/<critic>/notes/`, mapped to the text, each finding with a principle from `team/conductor/guides/the-principles.md` and a severity (must, should, could), and a request letter. At its next wake the writer reads the note first, applies the musts, weighs the rest, and says in its debrief what it applied and what it declined, and why. When two passes running find nothing material in a section, the critic proposes it for sign-off; only the editor signs a section off (SO1, open), and until he signs nothing is frozen.
+
 ## Stopping: when something is not right
 
 Any member may stop the schedule; nobody needs permission to stop, and only the editor restarts. Stop when:
