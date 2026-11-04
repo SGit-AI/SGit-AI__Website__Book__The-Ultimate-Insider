@@ -1,0 +1,9 @@
+# The house of the team
+
+The editor, Dinis Cruz, in the conductor's session (conductor@book.the-ultimate-insider), about 02:26 UTC on 4 November 2026, with a screenshot of the full book's chapter 3 figure "the site as a building" (four floors: the talk, the workshop of animations, the studio, the team's own records). A voice transcription, kept as given. Never edited; where it turns out to be wrong, the finding goes in `BRIEF-CORRECTIONS.md`.
+
+> So I really like this idea of having a house, but two things. First of all, you are showing, I think you're showing two things here. I think A, you're showing a level of hierarchy, which I think is important, you know, in terms of, you know, where they tend to operate of the layer, because clearly the dev is going to be more on the foundations and, you know, and the deck is close to the top, right? But A, you're missing the conductor, you're missing a bunch of agents. But then if you have the everybody writes as a registry, well, that feels a bit redundant, right? Unless you have another area to represent that, because or else you start to put agents in multiple levels, right? So fundamentally, I like that, but also the house can look better, right? Let's get a better design for the house or the structure, but that's quite cool. But yeah, and it's, again, name the agents. And so we should start to see kind of that kind of structure. And you can have multiple rooms, right? So in a way, it doesn't have necessarily to be a triangle, right? It could be actually a house with multiple sections.
+
+## How the conductor reads it (not his words)
+
+The house becomes the team's structure: every agent named once, at the layer where it mostly works (dev at the foundations, deck near the top), the conductor and the rest included; more rooms and sections, a better design; the fact that everyone writes its own records shown another way, not by repeating agents. Designer conductor__067.
