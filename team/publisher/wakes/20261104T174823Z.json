@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T17:48:23Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; Bash read only)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; all seven 90 overrides go (two now in briefs, five wait on security by name); 00b and 09 keys match. Add: the debrief says 90's five return only when security clears each; check 06 no longer places the LAB 27 drawing.",
+   "at": "2026-11-04T17:50:05Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Both drawings pass unsafe_svg; three-rounds.svg embeds only the talk's three E02 stills cleared in security 010, its sha256 unchanged. No HOLD.",
+   "at": "2026-11-04T17:50:05Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "00b team cards; 09 three rounds; 90 overrides dropped; 02, 05, 06 held by overrides; 137 pages, 19 boxes, 7 holes; letters conductor 061, designer 052, writer4 009, critic3 003; records",
+   "at": "2026-11-04T17:51:25Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "22 staged in scope; no image; every drawing passes unsafe_svg; every shot cleared; letters clean; vault_check clean.",
+   "at": "2026-11-04T17:52:56Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "",
+   "verdict": "off-plan",
+   "comment": "Planned items done; four extra overrides hold drawings already placed (disclosed, acceptable); the missing ruv-sgit letter sent after the check (021).",
+   "at": "2026-11-04T17:52:56Z"
+  }
+ },
+ "closed": "2026-11-04T17:52:56Z",
+ "outcome": "ok"
+}
