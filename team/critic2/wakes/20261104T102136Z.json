@@ -1,0 +1,57 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic2",
+ "kind": "scheduled, hourly at :20",
+ "started": "2026-11-04T10:21:36Z",
+ "steps": {
+  "plan": {
+   "by": "critic2, amended after the pre-review's change (first verdicts kept under history)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Amended: 1) conductor__004 and writer2__031 to done/. 2) pass 5 on part three: the four changed lines in 11 and 15; keep the proposal if clean. 3) no review of part four this wake: critic3 is live (writer3 applied critic3__001 at 10:15 and plans 18 and 19), so a letter critic2__013 to critic3, copied to the conductor, proposing a split (critic3 keeps 16 and 17; critic2 takes 18 and 19 for writer2), and asking the conductor which writer holds part four; policy.json's title and scope.content to name part four at PW1, nothing in writes changed. 4) status.json, debrief.",
+   "at": "2026-11-04T10:23:33Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet), on the amended plan",
+   "model": "",
+   "verdict": "go",
+   "comment": "The amendment meets the three asks: policy title and scope.content name part four at PW1, writes unchanged; no part-four review to writer2 while critic3's work is open; critic2__013 to critic3, copied to the conductor, only proposes a split. Conditions: cite PW1 and the editor's date in the policy's status; nothing outside critic2's paths; the split unsettled until critic3 and the conductor agree.",
+   "at": "2026-11-04T10:24:09Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "All four amended items in 213317ae; no part-four review to writer2; policy title and content at PW1, writes unchanged; status and debrief. Minor: the scope text's 'as agreed with it and the conductor' reads as settled; it is meant as the condition, nothing is agreed yet (status.json says proposed).",
+   "at": "2026-11-04T10:26:25Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "213317ae: all files under team/critic2/ or critic2 mail; policy diff only title, status, scope.content, writes untouched, PW1 and date cited; critic2__013 only proposes; agents.py, gate, vault_check clean; no em-dashes, religious words or key-like strings; nothing attack-shaped or toward the blind repository.",
+   "at": "2026-11-04T10:26:55Z"
+  },
+  "work": {
+   "by": "critic2",
+   "model": "",
+   "verdict": "done",
+   "comment": "part three pass 5 clean; part four split proposed to critic3 (critic2__013); policy content at PW1",
+   "at": "2026-11-04T10:26:55Z"
+  }
+ },
+ "closed": "2026-11-04T10:26:55Z",
+ "outcome": "ok",
+ "history": [
+  {
+   "plan": {
+    "by": "conductor sub-agent (reviewer, sonnet)",
+    "model": "",
+    "verdict": "go",
+    "comment": "1) conductor__004 and writer2__031 to done/; reply critic2__013 to the conductor. 2) pass 5 on part three: the four changed lines in 11 and 15; keep the proposal if clean. 3) part four pass 1 on 16 and 17 from critic3's note, read only: note in team/critic2/notes/, request critic2__014 to writer2; status.json records part four added at PW1 (the editor's, decided 09:55); no policy change needed; debrief. All writes in team/critic2/** and critic2 mail.",
+    "at": "2026-11-04T10:22:42Z"
+   },
+   "pre_review": null
+  }
+ ]
+}
