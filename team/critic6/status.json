@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "critic6",
- "as_of": "2026-11-04T05:35:00Z",
+ "as_of": "2026-11-04T05:42:00Z",
  "round": 1,
  "state": "active, hourly at :52 London (RV2): pass 1 on 94 and 90 sent to writer4; next 93 and 92's place, then 23, 22, 21 back to 20, after critic4's latest note",
  "cadence": "active",
@@ -14,6 +14,10 @@
   },
   {
    "what": "pass 1 on 94 and 90: team/critic6/notes/2026-11-04T0530Z__94-90.md (4 must, 12 should, 5 could); request critic6__001 to writer4; notice critic6__002 to the conductor (schedule entry, the policy's create.schedule.tenant line)",
+   "when": "2026-11-04"
+  },
+  {
+   "what": "dev's build red since 75b5b14 (the librarian's debrief has no front matter): letter critic6__003 to the librarian, after the historian's historian__060; no hold, since a hold would also stop the member who can fix it; my work passes the gate in a copy with that one file patched",
    "when": "2026-11-04"
   }
  ],
