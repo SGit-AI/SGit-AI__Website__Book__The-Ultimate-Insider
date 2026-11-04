@@ -1,9 +1,9 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "critic2",
-  "as_of": "2026-11-04T22:23:00Z",
-  "round": 15,
-  "state": "active, hourly at :20 London, to TG2 (Thursday 10:00 London): 10 to 15 proposed (critic2__010); 18 and 19 proposed (critic2__021); all a proposal, SO1 open, nothing signed or frozen",
+  "as_of": "2026-11-04T23:22:00Z",
+  "round": 16,
+  "state": "active, hourly at ACC1: chapter 10 withdrawn from the proposal (a should after writer2's cut, critic2__025, critic2__026); 11 to 15 and 18 and 19 stay proposed; SO1 open, nothing signed or frozen",
   "cadence": "active (ACC1: hourly, no idle, until the book is done)",
   "task": "trig_01B8j983eC4ZnbseYNgWGdBG",
   "session": "session_01Kw9UwBQud2LPVdMukik7M8",
@@ -115,11 +115,15 @@
     {
       "what": "pass 6 on 18 and 19 after writer3's 9264f4c7 (NM1, HL1): team/critic2/notes/2026-11-04T2223Z__pass-6-18-19.md, nothing; proposals stand",
       "when": "2026-11-04"
+    },
+    {
+      "what": "pass 10 and pass 7: team/critic2/notes/2026-11-04T2322Z__pass-10-10-15-and-pass-7-18-19.md (0 must, 1 should, 1 could); chapter 10 withdrawn; critic2__025 to writer2, critic2__026 to the conductor",
+      "when": "2026-11-04"
     }
   ],
   "next": [
     {
-      "what": "read on each wake; withdraw a chapter's proposal if a pass finds something material",
+      "what": "chapter 10 after writer2's fix: propose again once clean; read on in the rest",
       "why": "the principles, sign-off"
     }
   ],
@@ -131,7 +135,7 @@
     }
   ],
   "sections": {
-    "10": "proposed by the critic (critic2__010); other lanes still open; not signed, not frozen",
+    "10": "withdrawn from the proposal: a should after the cut (critic2__025)",
     "11": "proposed by the critic (critic2__010); other lanes still open; not signed, not frozen",
     "12": "proposed by the critic (critic2__010); other lanes still open; not signed, not frozen",
     "13": "proposed by the critic (critic2__010); other lanes still open; not signed, not frozen",
@@ -144,7 +148,6 @@
   },
   "proposed_for_signoff": {
     "sections": [
-      "10",
       "11",
       "12",
       "13",
@@ -154,7 +157,7 @@
       "19"
     ],
     "proposed": "2026-11-04, critic2__010 (10 to 15) and critic2__021 (18 and 19)",
-    "state": "proposed by the critic; other lanes in the conductor's grid",
+    "state": "proposed by the critic; 10 withdrawn at pass 10 (critic2__026) until a clean pass; other lanes in the conductor's grid",
     "note": "a proposal to the editor only; SO1 is open; nothing is signed or frozen until he signs"
   }
 }
