@@ -65,6 +65,15 @@ def directives(book=None):
             if re.match(r"\s*#!\s*blocks\s*$", line):
                 FIT["blocks"] = True
                 continue
+            m = re.match(r"\s*#!\s*cast-bars:\s*(.+?)\s*$", line)
+            if m:  # the designer's map of a drawn cast bar per chapter (designer 135): a .json directly in lab/tools/book/
+                path = os.path.realpath(os.path.join(ROOT, m.group(1)))
+                if os.path.dirname(path) != os.path.join(os.path.realpath(ROOT), "lab", "tools", "book") \
+                        or not path.endswith(".json") or not os.path.isfile(path):
+                    sys.exit(f"build_book: cast-bars must be a .json directly in lab/tools/book/: {m.group(1)}")
+                with open(path, encoding="utf-8") as fh:
+                    FIT["bars"] = json.load(fh).get("bars", {})
+                continue
             m = re.match(r"\s*#!\s*(drop-section|extra-css):\s*(.+?)\s*$", line)
             if not m:
                 continue
@@ -401,7 +410,9 @@ def main():
                           f"{edition.figure_count(raw)} Figure line(s): its figures print as boxes until the map is "
                           f"brought up to date", file=sys.stderr)
                     drawings = None
-                raw = edition.cast_lines(raw, figures=drawings if drawings is not None else [])
+                bar = FIT.get("bars", {}).get(key)
+                mark = (edition.lab_drawing(bar), "the cast") if bar else None  # each drawing passes the drawings' check
+                raw = edition.cast_lines(raw, mark=mark, figures=drawings if drawings is not None else [])
             text = figure_kinds(markua.translate(raw))
         files.append(os.path.join(marked, os.path.basename(src)))
         with open(files[-1], "w", encoding="utf-8") as f:

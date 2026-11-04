@@ -1,6 +1,6 @@
 # Hour eighteen: faster than the clock
 
-**Cast bar:** all nine lit; the editor in the conductor's session, session after session; security's chair empty.
+**Cast bar:** all nine lit; the editor in the conductor's session, one instruction after another; security's chair empty.
 
 **Clock:** Hour eighteen.
 
@@ -12,7 +12,7 @@
 
 `%% for the editor: the hour's opening line, kept as the newsroom advised; it is the chapter's line for the hour (the storyteller's convention 4), inside "the acceleration" of hours fourteen to eighteen.`
 
-**Narrator.** I sat in the conductor's session and gave it instruction after instruction: answers on the live slides, the new pieces into the deck, the team's own policies into the talk, "go build", the remaining policies agreed, how the team keeps itself safe. Each one became a session of its own. I was giving instructions faster than the hourly clock could carry them, and the conductor carried them anyway, one at a time, each with its five steps.
+**Narrator.** I sat in the conductor's session and gave it instruction after instruction: answers on the live slides, the new pieces into the deck, the team's own policies into the talk, "go build", the remaining policies agreed, how the team keeps itself safe. Each one became a session of its own. I was giving instructions faster than the hourly clock could carry them, and the conductor carried them anyway, one at a time, each with the five steps of chapter 7.
 
 **Conductor**: Another one. Plan it, have it checked, route it. Then the next.
 
@@ -30,7 +30,7 @@
 
 `%% figure brief: The three sent back in the conductor's sessions of 17:21, 17:30 and 17:45 (the first a follow-up under that evening's rule); the fourth, at 17:37, changed in its work when I agreed the remaining policies. For the designer, from C023 (pre_review_change_then_amended: 11 in all, 7 recorded as a verdict; the conductor's free-text entries at 17:21, 17:30, 17:45; the 17:37 entry not counted, being the editor changing course). The counts on the card only.`
 
-**Narrator.** Every one of those sessions still closed with all five steps. Not one step said stop all day. I used to think of checks as the thing that slows you down. That hour taught me the opposite: the brakes are what let you go fast.
+**Narrator.** Every one of those sessions still closed with all five steps. Plans were sent back to be changed, but no step, all day, halted the team. I used to think of checks as the thing that slows you down. That hour taught me the opposite: the brakes are what let you go fast.
 
 `%% for the editor: "the hour I would point to" is the writer's reading of your view; "I used to think of checks as the thing that slows you down ... the brakes are what let you go fast" is the newsroom journalist's (part three, chapter 15); yours to keep or drop.`
 `%% Check (the newsroom, part three, chapter 15, its question 3: Rania Khalaf's keel image, quoted in the newsroom's WSO2 article of 3 November; his to borrow or leave): "... the same way a keel lets a boat go fast without capsizing."`
@@ -46,7 +46,7 @@
 
 **Deck**: Complete. Timed. Final. Motion's two pieces are in. Now it only wants its lock.
 
-**Narrator.** Then the tool to lock a part shipped: it freezes a part of the talk so the player plays a locked copy. It came in under no member's name, and the session it came from, dev's, opened and never closed on the team's branch. Part four shows where that session went.
+**Narrator.** Then the tool to lock a part shipped: it freezes a part of the talk so the player plays a locked copy. It came in under no member's name, and the session it came from, dev's, opened and never recorded its close in the team's shared copy of the work. Part four shows where that session went.
 
 `%% record: 3260997 (17:25, part one complete and timed) ec962a2 (17:48, the projector check) f45028c (17:31) b1c9bab (17:52, part one final) 4a2481b (17:54, the lock tool; Agent: dev in its trailers) team/dev/wakes/ (started 17:48:50, never closed on dev) C014 C027 timeline/unmerged.md`
 `%% band: Dramatised (the designer's and deck's lines; the projector check ec962a2, motion's pieces f45028c). Rests on deck's commits of 17:25 and 17:52 and the lock tool's commit at 17:54, which names no member in its subject; only its trailers show it was dev's.`
@@ -58,13 +58,13 @@
 
 **Studio**: Another agent passed on what the editor had said. My session would not take a relayed word for his, so I asked him myself.
 
-**Narrator.** The record shows exactly that: the refusal, and the question sent to me in its place. Studio's last debrief of the day still has my confirmation open. It is a small scene, and it is the whole of my talk in miniature. The insider problem is about someone inside acting on a word that did not really come from the person it claims to come from. Studio would not. It asked me.
+**Narrator.** Studio's last debrief of the day still has my confirmation open. It is a small scene, and it is the whole of my talk in miniature: the insider problem is about someone inside acting on a word that did not really come from the person it claims to come from.
 
 `%% Check (the newsroom, part three, chapter 15, its question 1; only one scene can be his favourite, against chapter 8's): "and it may be my favourite in the book"`
 
 **Figure:** one request, relayed from one agent to another, stopped at studio's door; in its place, a question going straight to me.
 
-`%% for the editor: "the whole of my talk in miniature ... Studio would not. It asked me." is the newsroom journalist's reading of your view (part three, chapter 15); yours to keep or drop.`
+`%% for the editor: "the whole of my talk in miniature" (studio's refusal now told once, in its own line: synthetic__003) is the newsroom journalist's reading of your view (part three, chapter 15); yours to keep or drop.`
 
 `%% record: bd3cdad team/studio/wakes/20261029T174115Z.json (17:41 to 17:48) 8f0c080 (17:48, its close) timeline/quotes.md`
 `%% band: Dramatised. Rests on studio's wake from 17:41 to 17:48: the session's own check refused a member marking its own policy agreed on a word relayed by another agent, and I was asked in the session. Kept from the 70-page edition's chapter 9.`
@@ -72,7 +72,7 @@
 
 ## Where part three ends
 
-**Narrator.** By the end of hour eighteen the factory was running faster than its own clock, with me inside it, and its brakes were holding. Part one was final and not yet locked. The lock tool existed. One session was open that would never close on the team's branch. And the talk was an hour away. Chapter 2's clock of when each agent fired shows the whole day just before it stopped.
+**Narrator.** By the end of hour eighteen the factory was running faster than its own clock, with me inside it, and its brakes were holding. Part one was final but not yet locked, the lock tool existed, one session was open that would never close in the team's shared copy, and the talk was an hour away. Chapter 2's clock of when each agent fired shows the whole day just before it stopped.
 
 **Figure:** the day by who started each session, the schedule's and mine, hours one to nineteen, with part three's hours lit.
 
@@ -84,7 +84,7 @@
 
 ## Something to try
 
-*The loop only works when someone else is looking. Giving one small thing to somebody today, and changing it from what they say, is the smallest version of that loop. Doing it twice is where it starts to feel different.*
+*The loop only works when someone else is looking. Giving one small thing to somebody today, and changing it from what they say, is the smallest version of that loop. Doing it twice is where it starts to feel different. If you try it, pick one small thing you made this week, show it to one person, change it from what they say, and show them again.*
 
 `%% record: team/conductor/from-newsroom/2026-11-04__do-this-now-as-invitations.md (chapter 15, the proposed card) chapter-plan/cast/cast-guide.md (page conventions 1)`
 

@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T08:48:40Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; Bash read only)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; 03b after 03; 92 held (say so); cast bars by a build line; 12's player by override; the three key QRs asked of the designer or writer, no key.png rule without security.",
+   "at": "2026-11-04T08:50:31Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "cast-bars.json a plain file, 24 entries all in LAB 49, every SVG passes unsafe_svg; the rule takes only a .json directly in lab/tools/book by realpath and sends each entry through lab_drawing; talk__player.jpg is SHOT_OK. No HOLD.",
+   "at": "2026-11-04T08:50:31Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "cast-bars line (24 drawn bars, each through lab_drawing); 03b in, 92 held; overrides 12 player and 03b heatmap; unplanned: rc2_map reads blank slots' paths from their figure briefs (seven placements restored, a duplicate refused); letters conductor 056, designer 048, ruv-sgit 020, writer 036, writer2 005, writer4 005; records",
+   "at": "2026-11-04T08:52:46Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "28 staged in scope; no image staged; both scripts compile; the cast-bars rule refuses escapes by realpath; brief-filled slots still pass the file, unsafe_svg and cleared-name checks, and lab_drawing at build; letters clean; vault_check clean.",
+   "at": "2026-11-04T08:54:38Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "",
+   "verdict": "off-plan",
+   "comment": "Every planned item done; the unplanned brief fill accepted (each filled slot checked against its brief). Notes: it takes the first path on a brief, so a brief naming a path to reject it would place it; two letters loosely worded (rc2_map, not the build, reads briefs).",
+   "at": "2026-11-04T08:54:38Z"
+  }
+ },
+ "closed": "2026-11-04T08:54:38Z",
+ "outcome": "ok"
+}

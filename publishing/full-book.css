@@ -73,3 +73,6 @@ figure img[src^="data:image/jpeg"], figure img[src^="data:image/png"] { max-widt
 .tear-out li { padding: 4pt 0; border-bottom: .5pt solid var(--fill-2, #d5dce4); }
 .concept .cc-pic { grid-column: 2; grid-row: 1 / span 4; }
 .concept .cc-pic figure { margin: 0; }
+
+/* the drawn cast bar (the designer's 135): its own width, never wider than the column, the chapter's line under it */
+.cast-bar.with-marker img.marker { width: auto; max-width: 100%; }
