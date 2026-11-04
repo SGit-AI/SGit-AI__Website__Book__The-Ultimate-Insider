@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Done as planned. resync_150.py rebuilds the full-book list from every chapter's Figure lines (closest match, nothing placed lost): 107 lines, 59 drawn, 32 to draw; chapter 2 has four slots (the factory clock among them), chapter 11 seven (repo-growth at 75). RV2 on 00-start-here: notes, all three shoulds mine (its figures), two coulds for the publisher. Letter 134; five letters copied to done/. Gate clean.",
    "at": "2026-11-04T07:04:35Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "fa362134: 0 writes outside scope; validate (988) and vault_check clean; nothing changed in manuscript/ or publishing/. resync_150.py reads only Book.txt and the chapters and writes its own list, only with --write. Every placed drawing survives except chapter 2's round-trip.svg, swapped for round-trip-clock.svg as ruv-sgit 067 asked. No secrets, em-dashes or religious words. Risk for later: a chapter that leaves Book.txt loses its entries on the next --write. Tools: Read and Bash, none refused.",
+   "at": "2026-11-04T07:06:02Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "fa362134 did all of it: the list rebuilt (107 lines, 59 drawn), chapter 2 with four slots (the factory clock among them), chapter 11 with seven (repo-growth at 75); RV2 on 00 done; letter 134 and the done/ copies; records. Conditions kept. Nits fixed at close: the docstring said 40-character match; the list's time said 07:10. For later: notes keep 60 characters, so every match reports near 0.86. Tools: Bash, none refused.",
+   "at": "2026-11-04T07:07:06Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T07:07:06Z",
+ "outcome": "ok"
 }

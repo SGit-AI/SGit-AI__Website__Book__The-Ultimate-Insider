@@ -5,8 +5,8 @@ chapters' Figure and Map lines as they stand (publisher 045, ruv-sgit 067, condu
     python3 lab/tools/book/resync_150.py [--write]
 
 For every chapter in manuscript/editions/rc2-150/Book.txt (read only), each Figure or Map line in order becomes a slot. A
-slot keeps the drawing and note of the old slot whose line opened with the same words (the first 40 characters after
-the label), as the publisher's own map matches them; a line with no match is "to draw". PLACED sets a drawing by hand
+slot keeps the drawing and note of the closest old slot (difflib on the line's first 80 characters, 0.6 or more, each
+old slot used once); a line with no match is "to draw". PLACED sets a drawing by hand
 where a line is new and the designer has chosen. Without --write it only reports what would change.
 """
 import difflib, json, re, sys
