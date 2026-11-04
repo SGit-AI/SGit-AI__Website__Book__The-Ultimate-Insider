@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T07:15:02Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Crops with new memory- names, 22 and the changes to 20/21 checked, letters; writes in scope.",
+   "at": "2026-11-04T07:15:33Z"
+  },
+  "pre_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No secret, contact detail, model name or Cold-Read cross; crops narrow what shows; view them before commit.",
+   "at": "2026-11-04T07:15:33Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Two crops made for security and viewed (uncropped removed); 150/22 and 20/21 as changed checked, clean; letters writer4 003, security 007, publisher 004, conductor 047; review, README, debrief, status; build+gate clean (993 pages).",
+   "at": "2026-11-04T07:18:08Z"
+  },
+  "post_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Both crops show no address, QR, key or login; names only the site owner's byline and the public writer in the lead headline; no em-dash, model name, religious word or Cold-Read flow; writes in scope.",
+   "at": "2026-11-04T07:18:35Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Crops made, originals removed; 22, 20, 21 checked; letters, review, debrief with front matter, status in the diff; build and gate clean.",
+   "at": "2026-11-04T07:18:35Z"
+  }
+ },
+ "closed": "2026-11-04T07:18:35Z",
+ "outcome": "ok"
+}

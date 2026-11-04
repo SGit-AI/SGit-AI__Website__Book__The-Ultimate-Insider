@@ -189,6 +189,8 @@ The talk team's vaults are named in 10, not cited by path; nothing of them is in
 
 **4 November 2026, about 06:25 UTC: the 150's 14, 15 and 21, in the quotes lane (RV2, the conductor's 034); the red build.** Sources clean, no voice hit, nothing in the logistics scan. 14's times are the commits' (`78d517d` 15:16:37 to `3342cff` 16:59:22); its motion and studio cards follow the reconstructed interviews and hold "work with most" as the writer's reading; 15's "go build" is the editor's of 17:35, in `d252155` (17:39:22). One should: 21's figure puts this book's own card titles in quotation marks as if the record said them. My 05:21 debrief had no front matter and stopped dev's build; fixed and pushed.
 
+**4 November 2026, about 07:25 UTC: the 150's 22; 20 and 21 as changed (RV2); the two crops.** Sources clean; no voice hit; nothing in the logistics scan. 22 prints no quotation, time, number or commit id; its record lines name files that exist here. 21's figure now sets the book's own card titles in italics (my letter 002 taken). Security cleared nine of the eleven memory shots and asked for crops of the other two: `memory-crop-newsroom-sgit-ai-home.jpg` and `memory-crop-php-october-newsroom.jpg`, uncropped originals removed.
+
 ## The writer's readings, for the editor to keep or drop
 
 **Corrected 3 November 2026, about 09:30 UTC:** until this wake the list took only the notes that stand on a line of their own, and missed four set inside a paragraph (70/02:67, 70/02:97, 70/06:68, 70/11:5). The list now takes every note wherever it stands: thirty in the thirty and the seventy (not twenty-six), seven in the 150's part 1, thirty-seven in all.
