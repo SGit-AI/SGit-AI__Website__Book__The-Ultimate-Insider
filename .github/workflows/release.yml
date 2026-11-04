@@ -113,10 +113,27 @@ jobs:
           python3 publishing/build_book.py --book manuscript/editions/rc2-150/Book.txt --no-toc --no-epub --cast --figures publishing/rc2-figures.json \
             --extra-css lab/tools/book/speakers.css \
             --name one-human-nine-agents-rc2-kdp-interior --out _site/rc2/upload \
-            --stamp "One Human, Nine Agents, Nineteen Hours: RC2, the full book, DRAFT IN REVIEW" \
             || echo "::warning::the KDP interior did not build: the site is released without it"
           cp lab/experiments/44-designer-print-cover/kdp-full-cover-*.pdf _site/rc2/upload/ 2>/dev/null || echo "::warning::no KDP cover PDF in lab/experiments/44-designer-print-cover"
           cp lab/experiments/44-designer-print-cover/leanpub-cover-1800x2700.png _site/rc2/upload/ 2>/dev/null || echo "::warning::no Leanpub cover in lab/experiments/44-designer-print-cover"
+      - name: the interior's printed page count, for the cover (publisher 051; written to the site so every member can read it; warns, never stops the release)
+        continue-on-error: true
+        run: |
+          PDF=_site/rc2/upload/one-human-nine-agents-rc2-kdp-interior.pdf
+          [ -f "$PDF" ] || { echo "::warning::no KDP interior to count"; exit 0; }
+          python3 publishing/cover_size.py --pdf "$PDF" --paper white > _site/rc2/upload/kdp-interior-count.txt \
+            || { echo "::warning::cover_size.py could not count the interior"; exit 0; }
+          cat _site/rc2/upload/kdp-interior-count.txt
+          N=$(awk '/^interior/ {print $2; exit}' _site/rc2/upload/kdp-interior-count.txt || true)
+          FOUND=0
+          for c in lab/experiments/44-designer-print-cover/kdp-full-cover-*-white.pdf; do
+            [ -f "$c" ] || continue
+            FOUND=1
+            M=$(basename "$c" | sed -E 's/^kdp-full-cover-([0-9]+)-white\.pdf$/\1/' || true)
+            if [ "$M" = "$N" ]; then echo "cover $c matches the interior: $N pages"
+            else echo "::warning::cover $c is for $M pages; the interior prints $N: the designer resizes it"; fi
+          done
+          [ "$FOUND" = 1 ] || echo "::warning::no white KDP cover to compare with the interior's $N pages"
       - uses: actions/configure-pages@v5
         with: { enablement: true }
       - uses: actions/upload-pages-artifact@v3
