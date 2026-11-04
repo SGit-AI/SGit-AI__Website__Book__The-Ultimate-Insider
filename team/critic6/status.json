@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "critic6",
- "as_of": "2026-11-04T06:00:00Z",
+ "as_of": "2026-11-04T06:15:00Z",
  "round": 2,
  "state": "active, hourly at :52 London (RV2): pass 1 on 94, 90, 23 and 22 sent to writer4; next 93's place and 21 after critic4, then a second pass on 94 and 90 after writer4's reply",
  "cadence": "active",
@@ -22,6 +22,10 @@
   },
   {
    "what": "pass 1 on 23 and 22: team/critic6/notes/2026-11-04T0615Z__23-22.md (3 must, 7 should, 5 could; 23's cost line against brief 20; 22's flags beside printing sentences); request critic6__004 to writer4",
+   "when": "2026-11-04"
+  },
+  {
+   "what": "dev's build fixed by the librarian at 06:13; this wake's work held on its own branch until then, released to dev after a clean gate",
    "when": "2026-11-04"
   }
  ],
