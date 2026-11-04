@@ -8,13 +8,13 @@
 
 `%% layout: full`
 
-`%% figure brief: For the designer, the day at a glance (chapter-plan/edition-150-outline.md, "From the editor's read", item 3; storyteller__135 S2). The four phases and their hour ranges as written; figures only from C087 (wakes by trigger, by hour) and C095 (commits by hour), on the picture and never in a line; nineteen is the title's rounding (C010). The LAB 24 heatmap goes here too (the outline's ruling 6 for part three): lab/experiments/24-ruv-the-day-by-member-and-hour/heatmap.svg, the day by member and hour. The chapters beneath: 4 and 5 (hours one and two), 7 (three), 8 (four and five), 9 (six to thirteen, and the start of fourteen), 12 (fourteen and fifteen), 14 (sixteen and seventeen), 15 (eighteen), 16 (nineteen).`
+`%% figure brief: For the designer, the day at a glance (chapter-plan/edition-150-outline.md, "From the editor's read", item 3; storyteller__135 S2). The four phases and their hour ranges as written; figures only from C087 (wakes by trigger, by hour) and C095 (commits by hour), on the picture and never in a line; nineteen is the title's rounding (C010). The day by member is the second figure, below (LAB 57). The chapters beneath: 4 and 5 (hours one and two), 7 (three), 8 (four and five), 9 (six to thirteen, and the start of fourteen), 12 (fourteen and fifteen), 14 (sixteen and seventeen), 15 (eighteen), 16 (nineteen).`
 
 **Figure:** the same day by member: each agent a row, each hour a column, darker where it did more.
 
 `%% layout: full`
 
-`%% figure brief: ruv-sgit's lab/experiments/24-ruv-the-day-by-member-and-hour/heatmap.svg, its counts from C095 as the lab's README gives them; no count in the caption.`
+`%% figure brief: the designer's lab/experiments/57-designer-day-at-a-glance/day-by-member.svg, as the map places it (ruv-sgit__078), its counts from C095; no count in the caption. ruv-sgit's LAB 24 heatmap was the first candidate (the outline's ruling 6 for part three, which the storyteller is asked to align).`
 
 **Narrator.** Chapter 4 starts at the beginning, with an empty project a quarter past midnight.
 

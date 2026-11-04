@@ -1,6 +1,6 @@
 # Hours four and five: before dawn
 
-**Cast bar:** six agents: the conductor, dev, deck, ruv-sgit, the researcher, and the designer from just before four; the editor in the sessions until just after four, then his chair empty.
+**Cast bar:** six agents: the conductor, dev, deck, ruv-sgit, the researcher, and the designer from twenty to four; the editor in the sessions until just after four, then his chair empty.
 
 **Clock:** Hour four.
 
@@ -76,7 +76,7 @@
 
 ## The designer arrives, and my last word of the night
 
-**Narrator.** Just before four the sixth member joined: the designer, with its role, its policy, its key, its own task, and a first design note, all in its first session. Its first scheduled wake had nothing to do: the session that made it had already done the hour's work. It said so, and closed idle.
+**Narrator.** At twenty to four the sixth member joined: the designer, with its role, its policy, its key, its own task, and a first design note, all in its first session. Its first scheduled wake had nothing to do: the session that made it had already done the hour's work. It said so, and closed idle.
 
 **Cast card: the designer.**
 
@@ -118,7 +118,7 @@
 
 ### Deck holds itself back
 
-**Narrator.** Just after four, deck had a second request ready for ruv-sgit and planned to send it. Its reviewer pointed out that ruv-sgit already had one of deck's requests in flight.
+**Narrator.** At a quarter past four, deck had a second request ready for ruv-sgit and planned to send it. Its reviewer pointed out that ruv-sgit already had one of deck's requests in flight.
 
 **Deck**: One at a time, then. I will wait until the first one comes back.
 
