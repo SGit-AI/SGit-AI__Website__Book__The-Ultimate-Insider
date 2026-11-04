@@ -46,7 +46,7 @@ git log 298be4e --since=2026-10-29T18:44:00Z --until=2026-10-29T19:00:00Z --form
 
 - **State:** corrected.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapters 00, 04, 23, 94.
+- **Cited in:** chapters 00, 03b, 04, 23, 94.
 
 ```
 arithmetic on C001, C005 and C007
@@ -292,7 +292,7 @@ for c in bd3cdad 298be4e; do for f in $(git ls-tree -r --name-only $c team | gre
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapters 03, 07, 08, 09, 10, 12, 15.
+- **Cited in:** chapters 03, 03b, 07, 08, 09, 10, 12, 15.
 
 ```
 for f in $(git ls-tree -r --name-only 298be4e team | grep -E '^team/[^/]+/wakes/[^/]+\.json$'); do git show 298be4e:$f | python3 -c 'import json,sys;d=json.load(sys.stdin);print(d["started"][11:13],d["kind"])'; done | python3 -c "import sys,collections;c=collections.Counter();[c.update([(l[:2],'scheduled' if l[3:].lower().startswith('scheduled') else 'follow-up' if ('follow' in l.lower() or 'tonight' in l.lower()) else 'editor')]) for l in sys.stdin];[print(k,v) for k,v in sorted(c.items())]"
@@ -327,7 +327,7 @@ git show 298be4e:team/conductor/HOLD.md | head -5
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapters 08, 09, 12.
+- **Cited in:** chapters 03b, 08, 09, 12.
 
 ```
 git log 298be4e --no-merges --until=2026-10-29T18:59:59Z --format='%cI|%an|%s' | python3 -c "import sys,re,collections;c=collections.Counter();[c.update([(('releases' if a=='GitHub Actions' else (re.match(r'@([a-z.-]+):',s).group(1) if re.match(r'@([a-z.-]+):',s) else 'other')),t[11:13])]) for t,a,s in (l.rstrip().split('|',2) for l in sys.stdin)];[print(k,v) for k,v in sorted(c.items())]"
@@ -615,7 +615,7 @@ git grep -n -i 'racing for release' 20ab1a3 -- team; git show 1f7c633:.github/wo
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Book__The-Ultimate-Insider (this book's record), at `04b227e0` (this book's own record, after the day).
-- **Cited in:** chapters 21, 23.
+- **Cited in:** chapters 21, 23, 94.
 
 ```
 for c in f3cea028 3b403fb0 04b227e0; do git show -s --format='%h %ad' --date=iso $c; done
@@ -635,7 +635,7 @@ open https://newsroom.sgit.ai/articles/the-grant-not-the-prompt.html and read th
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Book__The-Ultimate-Insider (this book's record), at `05a9510d` (this book's own record, after the day).
-- **Cited in:** chapter 21.
+- **Cited in:** chapters 21, 94.
 
 ```
 # in a clone of this book's repository:

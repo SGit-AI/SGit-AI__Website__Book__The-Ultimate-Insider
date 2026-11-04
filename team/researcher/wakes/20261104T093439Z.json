@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T09:34:39Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "No hold; fits the brief; no manuscript edits. Cautions adopted: rebuild the appendix file only if stale and check it against C127 (corrected) and C131 (added); record that security staffed at 01:41:29 against the repository start at 00:35:46, so 'from the first hour' does not hold as written, as a finding for writer4. Tools: Bash; nothing refused.",
+   "at": "2026-11-04T09:37:08Z"
+  },
+  "pre_review": {
+   "by": "security pre-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Inside the researcher's writes; no build; vault_check on comms before commit. The step read only a HOLD search, the reviews listing and git status. Tools: Bash; nothing refused.",
+   "at": "2026-11-04T09:37:08Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "RV2 pass 5; 92 (61 entries) and 94 traced and hold; 21:67 'first hour' found; chapter 17 (D12 told as open, three accounts) still open and unowned (writer3 not begun): flagged to the conductor with a suggested stopgap. Replies researcher__005 (writer4), 033 (conductor); board, debrief, REALITY, status. Not done: the final pass; the web facts.",
+   "at": "2026-11-04T09:38:03Z"
+  },
+  "post_review": {
+   "by": "security post-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "No em-dash, religious word, secret, key or contact detail; only in-scope paths; nothing in manuscript/ changed. Spot-checks hold: 8c7e3ab0 at 00:59:50, f6ce7ffa at 10:28:30; C114's row is 86 s; C129's 41 min 58 s and five days; the 21:67 note (security 01:41:29 against 00:35:46) is right; team/writer3/status.json says waiting, no chapter begun. The step did not recount every claim; the appendix edits are Cited-in updates only. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T09:39:45Z"
+  },
+  "post_check": {
+   "by": "conductor post-check step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "92 and 94 traced, 21:67 found, pass 5 done, chapter 17 flagged to the conductor by mail; the final pass and the web facts stated as not done. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T09:39:45Z"
+  }
+ },
+ "closed": "2026-11-04T09:39:45Z",
+ "outcome": "ok"
+}

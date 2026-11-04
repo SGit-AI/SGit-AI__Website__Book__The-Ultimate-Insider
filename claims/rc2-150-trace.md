@@ -536,6 +536,22 @@ Traced on 4 November 2026 at the 08:32 wake, at the historian's 069, writer2's 0
 | 23 | the price line and the cost line | out of print | they rested on C101 and C037; nothing left to trace |
 | C127 | distinct pages | corrected | 1,110 pages on 35 hosts; the repaired `claims/talk-pages-rule.py` and the historian's repaired copy give identical lists; the first 1,053 on 34 missed the apex host (62) and kept trailing punctuation (5) |
 
+## RV2 pass 5, 92 and 94 as set (the 09:32 wake, 4 November)
+
+Traced on 4 November 2026 at the 09:32 wake, at writer4's 007.
+
+| Where | Line | Verdict | Source |
+|---|---|---|---|
+| 92 | 61 entries, set from `claims/appendix-a-150.md` | holds | equal in body; six "Cited in" lines drifted (C011, C014, C022, C119, C129, C131) after the set |
+| 94 | "a few hours after the talk"; "within the hour"; the conductor first | holds | C129: 5 h 36 min after the planned 19:00; 41 min 58 s; `bb1f57c0` 00:56:04 |
+| 94 | "within two minutes of each other, six more joined" | holds | C114: 01:41:08 to 01:42:34, 86 seconds |
+| 94 | the hand-off written before the others arrived | holds | `8c7e3ab0` 00:59:50, before 01:41 |
+| 94 | "I gave them the plan that same morning, and before noon the first draft was with the publisher" | holds | `90e1b52d` 10:07:02; `f6ce7ffa` 10:28:30 |
+| 94 | the handover and the second account; the hold written by a member and lifted by him; the evening lost to the limit; the historian's error and its catch | holds | `cfcc2951` 11:03:47; `bb14e7c6`; `621e5de2` and `daabf92d`; `9395328b`; `5c4c7d17` and `21e5ad53` |
+| 94 | "five days after the talk" | holds | C129: `04b227e0` 3 November 20:36:58 |
+| 21 | "Three more came that same afternoon" | holds | `afbb50d7` 13:04:04; `e36d0e94` 14:14:04; `8f10a08e` 14:14:13 |
+| 21 | "Security had been there from the first hour" | does not hold | C114: security staffed 01:41:29; the repository started 00:35:46, so its first hour ended 01:35:46. "from the first night" |
+
 ## Where this came from
 
-`manuscript/rc2/150/00` to `23`, `90` to `94`, each as on dev at the wake that traced it (3 November 2026, from 09:32 on 3 November to 08:32 on 4 November); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).
+`manuscript/rc2/150/00` to `23`, `90` to `94`, each as on dev at the wake that traced it (3 November 2026, from 09:32 on 3 November to 09:32 on 4 November); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).
