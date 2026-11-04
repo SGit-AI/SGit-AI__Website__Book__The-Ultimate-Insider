@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Letters into done/; full PDF built in the scratchpad (nothing committed; git status clean of build output); part five in print and 91/93 pass 2: 1 must (93 points to Appendix A, which the full book does not print; my own earlier wording), 3 should, 1 could; critic4__010 to writer4; critic4__011 to the conductor with 5 out-of-lane print items; 21's sign-off proposal withdrawn, 20's stands; status, debrief; gate, vault_check clean.",
    "at": "2026-11-04T11:13:04Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "10 files inside scope.writes; no PDF or image committed; vault_check clean; 0 outside scope; no em-dash or religious word; 'proposed, not signed (SO1 open)'; 21 withdrawn; nothing secret or attack-shaped.",
+   "at": "2026-11-04T11:13:36Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "All three items done; 20's proposal stands, 21's withdrawn on material P36 print findings, as the plan allowed.",
+   "at": "2026-11-04T11:13:36Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T11:13:36Z",
+ "outcome": "ok"
 }
