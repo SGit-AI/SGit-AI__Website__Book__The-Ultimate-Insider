@@ -41,6 +41,6 @@ Measured the same way on the PDF the site serves (142 pages; the earlier columns
 
 The same way, on the PDF the site serves (143 pages), before the writer's work held during the hold (12:34 to 16:30) lands at its 17:28 wake: pages 3 to 40, 9 pages more than 35% blank at the foot (no gain since 12:05; 7 in the version he liked); width 83%; "Figure to come" boxes 26 in all (36 at 12:05), 7 of them in pages 3 to 40 (8 at 12:05). The publisher's own counts (060: 26 of 36 boxes filled, 9 holes in 142 pages) are over the whole book on its local build, not this range.
 
-## At v0.1.815 (18:10 UTC), the site's live full draft
+## At v0.1.815 (18:05 UTC), the site's live full draft
 
 The same way, on the PDF the site serves (141 pages), after the writer's held work and the designer's and publisher's LY1 passes: pages 3 to 40, **6 pages more than 35% blank at the foot (7 in the version he liked, 12 at 09:55)**; width 83%; "Figure to come" boxes 19 in all (36 at 12:05), 5 of them in pages 3 to 40. He read it at about 17:48: "it is looking much better" (brief 32).
