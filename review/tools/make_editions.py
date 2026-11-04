@@ -7,7 +7,7 @@
 # Writes only each edition's pages.html (rc2, rc2-70, rc2-150, ed-03, ed-10), review/anchors/qr-targets.json, editions.json (and its copy in src/static/review/), src/pages/review/rc2/, rc2-70/, rc2-150/, ed-03/, ed-10/ and src/pages/review/zoom.html. Kept by developer@book.the-ultimate-insider.
 # Run: python3 review/tools/make_editions.py <path to a full clone of SGit-AI__Website__Presentation__The-Ultimate-Insider>
 
-import html, json, re, subprocess, sys
+import html, json, re, shutil, subprocess, sys, tempfile
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -284,6 +284,8 @@ def main(talk_path):
     book, talk = Repo(ROOT, 'HEAD', BOOK, 'dev'), Repo(Path(talk_path), TALK_AT, TALK, TALK_AT)
     claims = {c['id']: c for c in json.loads((ROOT / 'claims' / 'register.json').read_text())['claims']}
     targets, editions = [], []
+    global PAGES
+    REAL_PAGES, PAGES = PAGES, Path(tempfile.mkdtemp())             # the pages are built aside and put in place only after every guard below has passed: a refusal leaves no page behind
     for slug, edition_title, booktxt in EDITIONS:
         OUT = PAGES / slug
         OUT.mkdir(parents=True, exist_ok=True)
@@ -351,10 +353,6 @@ def main(talk_path):
         for a in addresses(json.dumps(t, ensure_ascii=False)):     # no exception for print: every address in a target on the book's domain
             if not a.startswith(SITE + '/'):
                 sys.exit(f'qr target carries an outside address: {a}')
-    QR.write_text(json.dumps({'about': 'One target per scene (RC2, the 70-page draft) or page (the 3- and 10-page editions): the public URL of the record under it, '
-                                       'for a QR code in print. Written by review/tools/make_editions.py; an id holds while the chapter keeps its place and scenes.',
-                              'site': SITE, 'targets': targets}, indent=1, ensure_ascii=False) + '\n')
-    print(f'qr targets: {len(targets)} -> {QR.relative_to(ROOT)}')
     outside = []                                                     # addresses the register itself cites, under the claim that cites them: kept as text, never a link
     for e in editions:
         for c in e['chapters']:
@@ -396,6 +394,13 @@ def main(talk_path):
         for h in re.findall(r'href="([^"]+)"', f.read_text()):
             if html.unescape(h).rstrip('.,;:!?') in allowed:
                 sys.exit(f'{f}: links an outside citation: {h}')
+    QR.write_text(json.dumps({'about': 'One target per scene (RC2, the 70-page draft) or page (the 3- and 10-page editions): the public URL of the record under it, '
+                                       'for a QR code in print. Written by review/tools/make_editions.py; an id holds while the chapter keeps its place and scenes.',
+                              'site': SITE, 'targets': targets}, indent=1, ensure_ascii=False) + '\n')
+    print(f'qr targets: {len(targets)} -> {QR.relative_to(ROOT)}')
+    shutil.copytree(PAGES, REAL_PAGES, dirs_exist_ok=True)           # every guard has passed
+    shutil.rmtree(PAGES)
+    PAGES, OUT = REAL_PAGES, REAL_PAGES / OUT.name
     print(f'outside citations: ' + (', '.join(f"{o['address']} ({o['claim']})" for o in outside) or 'none'))
     for d in DATA:
         d.write_text(blob)
