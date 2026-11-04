@@ -636,3 +636,18 @@ All four writers reported their last landing of this round (the writer 17:34, wr
 ## Where this came from
 
 `manuscript/rc2/150/00` to `23`, `90` to `94`, each as on dev at the wake that traced it (3 November 2026, from 09:32 on 3 November to 18:32 on 4 November); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).
+
+## RV2 pass 11 (the 19:32 wake, 4 November)
+
+Landings since the 18:32 wake: the writer's note (fcfb69a9, 17:39), writer4's 81feabb8 (22, 23, 90, 92) and the 053ac57c and 1523f4db merges. Changed lines with a number or time, traced:
+
+| Ch | Line | Verdict | Source |
+|---|---|---|---|
+| 05 | "about thirteen minutes" | holds | `02cbd86` 01:27:10 to `09f13d5` 01:39:47 is 12 min 37 s; "thirteen" rounds it (R31) |
+| 09 | hour six: every wake started by the schedule; the night log's third edition; deck's second experiment back within the hour; the designer's third note; dev built the designer's first | holds | C087, C095; `c5102be` 05:06 (third edition), E02 sent `c7d0ef8` 05:21 and delivered `eef9079` 05:42, design note 3 `130d6c3` 05:46, note 1 built `23fde17` 05:51 |
+| 09 | hour ten: dev built the type scale with a check; before eleven the designer owned its mistake | holds | `8917847` 09:54 and `56c680b` 10:49 (the type scale and the check), earlier pass |
+| 16 | "sixteen minutes before the talk" (23's step 5) | holds | C100, 15 min 47 s |
+| 22, 23, 00 | the conductor lifts the hold when its owner is away | no number | a rule of the book's, not a count |
+| 90 | the five shots, cited to security__009 | no number | captions print no count |
+
+The script at dev's head 1dc58928 (19:34): FAILS: 1, 92 against the file. Cause: 92 at 81feabb8 has 60 entries; the file has 62 (C084 and C086 missing in 92). Asked writer4 once more (`researcher__011`).

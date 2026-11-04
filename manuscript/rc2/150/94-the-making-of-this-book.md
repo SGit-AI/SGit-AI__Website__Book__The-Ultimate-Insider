@@ -8,7 +8,7 @@
 
 **Narrator.** I gave them the plan that morning, and before noon the first draft was with the publisher. Soon after, the first account I ran them on was nearly out of usage, so every member got a handover and moved to a second account, which is the handover you read in chapter 20.
 
-**Narrator.** Then came my review on paper, the editions of the book from a single page up to this one, and the failures. A member wrote a hold on its own judgement when the check every change must pass started failing for everyone, and only I lifted it. The team lost an evening to the usage limit, which chapter 21 tells. And the historian made an error about which of two pages of rules came first, told the writer, and two chapters stood on it until the historian caught it itself and wrote the correction; chapter 21 tells it in its own words. Five days after the talk, the whole body of the full book was in draft, chapters 1 to 23.
+**Narrator.** Then came my review on paper, the editions of the book from a single page up to this one, and the failures. A member wrote a hold on its own judgement when the check every change must pass started failing for everyone, and only I lifted it. The team lost an evening to the usage limit, which chapter 21 tells. And the historian made an error and caught it itself, which chapter 21 tells in the historian's own words. Five days after the talk, the whole body of the full book was in draft, chapters 1 to 23.
 
 **Narrator.** Every one of those steps is in the book's repository, with its time and its evidence, for anyone who wants to check; the times are kept there, not on this page.
 

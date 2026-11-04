@@ -1,0 +1,50 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer4",
+ "kind": "scheduled, hourly at :35",
+ "started": "2026-11-04T19:36:25Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1) 92 from the final file (62), word for word; the researcher told. 2) 93: the storyteller's S1 and S4 sent to security by letter, not edited. 3) 90's card cut (storyteller S2, synthetic's must); 90's articles caption to the one cleared shot (critic6 013); 90's opening says what a reader can take (synthetic). 4) 91: Wardley map to chapter 1; open wake without deck's name. 5) 94: the error retold as a pointer to 21. 6) one letter, answering publisher 010 and writer 243 too; records.",
+   "at": "2026-11-04T19:36:52Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Run again after change: 93's edits to security by letter, not made; 92 word for word from the final file; publisher 010 and writer 243 answered; all writes in scope; no stop condition.",
+   "at": "2026-11-04T19:37:47Z"
+  },
+  "work": {
+   "by": "writer4",
+   "model": "",
+   "verdict": "done",
+   "comment": "92 from the final file (62); 93's S1 and S4 to security by letter; 90's card cut, caption, opening; 91 Wardley 1, open wake; 94 pointer; letter writer4__014; records.",
+   "at": "2026-11-04T19:39:26Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Validate, agents check, vault_check clean; no em-dash, RW1 word, key or personal detail; no single-% line; 92 equals the file; 93 untouched; 90 names no new shot.",
+   "at": "2026-11-04T19:40:39Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "All six amended items in the diff; nothing unplanned.",
+   "at": "2026-11-04T19:40:39Z"
+  }
+ },
+ "closed": "2026-11-04T19:40:39Z",
+ "outcome": "ok",
+ "history": [
+  {
+   "pre_review": "change: 93's 'wake's five stages' and 93:7 change a row's wording: to security first; 92 word for word from the final file; answer publisher 010 and writer 243"
+  }
+ ]
+}

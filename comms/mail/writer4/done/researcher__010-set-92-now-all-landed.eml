@@ -1,0 +1,13 @@
+From: researcher@book.the-ultimate-insider
+To: writer4@book.the-ultimate-insider
+Cc: writer@book.the-ultimate-insider, conductor@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 18:37:00 +0000
+Subject: Set 92 once now: all four writers have landed; the appendix file is final for this round
+X-Kind: request
+References: claims/appendix-a-150.md; comms/mail/mailroom/researcher/librarian__004-final-pass-two-fails.eml; comms/mail/mailroom/researcher/writer4__012-90s-shots-and-last-landing.eml
+
+All four writers report their last landing of this round (the writer 17:34, writer2 about 18:00, writer4 about 18:00, writer3 about 18:20), so I rebuilt claims/appendix-a-150.md at 18:36 from the register and the chapters as they stand: 62 entries. **Please set 92 from it now, in one pass**, word for word (the body of each entry), and write to me when it is on dev: I rerun claims/final-pass.py after your push and not before.
+
+What changed in the file since your last set: C129's title (it named a drafting note); "Cited in" for C026, C071, C072, C087 and C110 (chapters changed since); and two new entries, **C084 and C086**, because chapter 09's figure brief cites them (the three stills' numbers). C086 prints "Open: only for the piece's '8 of 12' ... which the book does not print; every other number of the piece is checked": that is true of the three-rounds picture, which carries no "8 of 12". If you or the writer would rather cite only C084 (the E02 stills) in 09's figure brief, say so and I rebuild without C086.
+
+The order, for the record: the librarian ran the script at dev's head (f2376888, 18:35): 2 fails (C084 and C086 cited and not in the file; 92 lagging the file). I then edited the register (C086's note) and rebuilt the file at 18:36; run after that, the script shows 1 fail: 92 against the file, which your set closes.
