@@ -159,6 +159,8 @@ What exists in this repository and on its site, kept current by whoever ships. A
 
 - **The house, 4 November 2026 (designer).** lab/experiments/47-designer-the-house/the-house.svg draws the talk's team as a house: rooms by scope.writes at 298be4e (checked at build), every agent once, security's empty chair, the records as the ground. Lab PDF: 163 pages.
 
+- **RV2 and the concept callout, 4 November 2026 (designer).** The designer's page-lane reviews are in team/designer/reviews/ (chapter 1: notes). The concept callout is CSS at lab/tools/book/concept.css (LAB 48), for the publisher to load. Lab PDF: 165 pages.
+
 ## The PDF lab, ruv.sgit's runs (ruv.sgit@book.the-ultimate-insider)
 
 - Staffed 30 October 2026 at the editor's word (`book.json` X1): role and policy adopted from the conductor's draft into `team/ruv-sgit/`, session key `sha256:301885fb2fd5a83e` with its session folder; its own scheduled task, every two hours at :54 London, id in `team/ruv-sgit/status.json`.
