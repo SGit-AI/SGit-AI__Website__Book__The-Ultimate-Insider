@@ -1,9 +1,9 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "conductor",
-  "as_of": "2026-11-04T05:16:00Z",
+  "as_of": "2026-11-04T06:25:00Z",
   "round": 1,
-  "state": "FB1: the full book only; KDP by Thursday 5 November; aim Wednesday 20:00 London (TG1). Four writers (WR2): writer narrowed (176); writer2 adopted with its key, session_01Kw9UwFgN9qNFUP7nELjaRj; writer3 adopted without its manuscript paths, no key or task yet; writer4 not adopted yet. The upload set's KDP interior builds without the stamp; CI writes its even-rounded count to rc2/upload/kdp-interior-count.txt for the cover. Site live at v0.1.669. RV1 (04:44 UTC): the review desk, four critics (critic1 to critic4) at :00, :20, :37, :07, one per writer; the principles in team/conductor/guides/the-principles.md and principles.html; SO1 (section sign-off) open with the editor. The four critics' sessions started 05:01 UTC: critic1 session_01Kw9UwFdgvDexRAuPLGqNZg, critic2 session_01Kw9UwBQud2LPVdMukik7M8, critic3 session_01Kw9UwDwAawLfiE63whbjqq, critic4 session_01Kw9UwEQg43JXepeJu9LCBD; each adopts its role and creates its own task at its first wake. RV2 (05:03 UTC): every member reviews the sections in its lane (team/conductor/guides/the-section-review-matrix.md, kept by the conductor); two mirror critics, critic5 (:45, with critic1) and critic6 (:52, with critic4), to start after this push. The mirrors' sessions started 05:15 UTC: critic5 session_01Kw9UwBxLjcmZyJoeievpFP, critic6 session_01Kw9UwD4c333cnFjKXTDW1e.",
+  "state": "FB1: the full book only; KDP by Thursday 5 November; aim Wednesday 20:00 London (TG1). Four writers (WR2): writer narrowed (176); writer2 adopted with its key, session_01Kw9UwFgN9qNFUP7nELjaRj; writer3 adopted without its manuscript paths, no key or task yet; writer4 not adopted yet. The upload set's KDP interior builds without the stamp; CI writes its even-rounded count to rc2/upload/kdp-interior-count.txt for the cover. Site live at v0.1.669. RV1 (04:44 UTC): the review desk, four critics (critic1 to critic4) at :00, :20, :37, :07, one per writer; the principles in team/conductor/guides/the-principles.md and principles.html; SO1 (section sign-off) open with the editor. The four critics' sessions started 05:01 UTC: critic1 session_01Kw9UwFdgvDexRAuPLGqNZg, critic2 session_01Kw9UwBQud2LPVdMukik7M8, critic3 session_01Kw9UwDwAawLfiE63whbjqq, critic4 session_01Kw9UwEQg43JXepeJu9LCBD; each adopts its role and creates its own task at its first wake. RV2 (05:03 UTC): every member reviews the sections in its lane (team/conductor/guides/the-section-review-matrix.md, kept by the conductor); two mirror critics, critic5 (:45, with critic1) and critic6 (:52, with critic4), to start after this push. The mirrors' sessions started 05:15 UTC: critic5 session_01Kw9UwBxLjcmZyJoeievpFP, critic6 session_01Kw9UwD4c333cnFjKXTDW1e. 06:02 wake: dev was red from 05:27 (a debrief without its block); the build now warns instead of stopping. The section grid has its first marks.",
   "done": [
     {
       "what": "WR2: four writers on the full book; writer2, writer3 and writer4 drafted in team/conductor/staffing/, runs entries at :50, :05, :35; writer 030 (narrow its policy), a note to every member; their sessions started after the push",
@@ -700,6 +700,26 @@
     {
       "to": "editor",
       "what": "SO1: how a section is signed off (a critic proposes after two clean passes; you sign; the writers focus on the rest)"
+    },
+    {
+      "to": "editor",
+      "what": "critic3 and writer3 have no hourly task: their sessions declined to create one without your word in that session; tell those sessions yourself, or create the tasks (:37 and :05 London)"
+    },
+    {
+      "to": "editor",
+      "what": "TS1 (designer 128, publisher 052): line height 1.42 everywhere, or 1.36 on the tail chapters to fit"
+    },
+    {
+      "to": "editor",
+      "what": "publisher 052: the title page (LAB 46), the Try this card's name and form, and whether rc2/upload carries the EPUB (its check is your E3)"
+    },
+    {
+      "to": "editor",
+      "what": "researcher 028: the reader's full name in print, or first name only"
+    },
+    {
+      "to": "editor",
+      "what": "researcher 029: the $20 line in chapter 23 (C101 against C037)"
     }
   ],
   "task": {
@@ -727,6 +747,6 @@
       "C10b"
     ]
   },
-  "updated": "2026-11-04T05:16:00Z",
+  "updated": "2026-11-04T06:25:00Z",
   "cadence": "active"
 }
