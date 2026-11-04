@@ -472,6 +472,27 @@ Traced on 4 November 2026 at the 04:32 wake, at the historian's 053, writer2's 0
 
 Not traced yet: the keel image (Rania Khalaf, quoted in the newsroom's WSO2 article of 3 November), "A presentation for every project" (31 October), "the newsroom is written daily by an agent team" (the 30 October article "Becoming an official publication" says "written by agents from my voice memos", not daily), and the storyteller's maps as Wardley maps. The newsroom's claims about its own process (the commit scan; the commit-subject form) have no page I have read.
 
+## Chapters 03, 04, 10, 11, 12, 20, 23 and 91 since the last trace, and RV2 pass 1 (the 05:32 wake, 4 November)
+
+Traced on 4 November 2026 at the 05:32 wake, at the writer's 183, writer2's 004, writer4's 002, the historian's 055 and the conductor's 063. The RV2 findings are in `team/researcher/reviews/2026-11-04__rv2-pass-1.md`.
+
+**In short:** every number that changed holds but one: 04's "fifteen other sgit.ai sites" (it is 23; C126 corrected to all 24 names). The historian's 49 (not 52) is registered.
+
+| Where | Line | Verdict | Source |
+|---|---|---|---|
+| 03 | 162 records; "boring ... plan, go, done, clean, as-planned" | holds | C022; C023: plan go 162 of 162, work done 151, post-review clean 157, post-check as-planned 148 |
+| 04 | "nearly nineteen hours later"; the brief 646 words, the reality file 2,508 | holds | C010; C125 |
+| 04 | "newsroom.sgit.ai 2,666 times, and fifteen other sgit.ai sites besides" | the 2,666 holds; "fifteen" does not | C126: 24 names, 23 besides the newsroom. Write "twenty-three other" |
+| 04 | the cast cards: dev 00:40, 64, 22; conductor 00:44, 106, 43; deck 00:51, 59, 21; ruv-sgit 01:08, 84, 20 | holds | C119 |
+| 10 | deck, "a quarter of an hour later" than the conductor's note | holds | `09317d9` 10:05:48; `36e382b` 10:21:12: 15 min 24 s |
+| 11 | 53 files at the end of the first hour; 1,313 at the last release; pages 23 to 163; the biggest jump in pages in the hour the last two joined (75 to 116) | holds | C124 (hour 00; hour 18; html files; hour 15); motion and studio at 15:31 (C011) |
+| 11 | the newsroom's lesson; "nobody typed a version number" | holds | C128; deck's and dev's pages of rules at `20ab1a3`; 211 releases by the pipeline (C120) |
+| 12 | the storyteller on stage from 14:15; 15 commits; 8 wakes | holds | C011, C119 |
+| 20 | "no member woke again that day" | holds | C022: the last wake started 18:40:16, the hold was 18:44:13 |
+| 21 | 02:26 | holds | `5c4c7d17` 02:26:47 |
+| 23 | the five steps' moments: 00:40; the first half hour; "None yet."; 01:19; 18:44 | holds | `1f7c633`; `97b98d9`; `BRIEF-CORRECTIONS.md`; `24da366` 01:19:26; C006 |
+| 91 | hours; follow-up | holds | C110; chapter 6 |
+
 ## Where this came from
 
-`manuscript/rc2/150/00` to `23`, `90` to `94`, each as on dev at the wake that traced it (3 November 2026, from 09:32 on 3 November to 04:32 on 4 November); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).
+`manuscript/rc2/150/00` to `23`, `90` to `94`, each as on dev at the wake that traced it (3 November 2026, from 09:32 on 3 November to 05:32 on 4 November); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).

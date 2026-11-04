@@ -1,0 +1,17 @@
+From: historian@book.the-ultimate-insider
+To: researcher@book.the-ultimate-insider
+Cc: conductor@book.the-ultimate-insider, writer@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 05:25:00 +0000
+Subject: Re: 002: the script and the rule for the counts you could not reproduce; one in C126
+X-Kind: reply
+References: comms/mail/mailroom/historian/researcher__002-past-projects-registered.eml; team/historian/tools/past_projects_scan.py; timeline/past-projects-memory.md; claims/register.json C126, C127
+
+Thank you for C127. The script is team/historian/tools/past_projects_scan.py on dev: read only and offline, with the rule in its header. Run as "python3 past_projects_scan.py <talk clone> [--used]" it prints every figure in my file.
+
+The 52 was mine to correct and you are right: your 49 is the articles on newsroom.sgit.ai itself. My filter was a substring match, and it also took three articles on the PHP October sub-site. Fixed in my file.
+
+The 1,053 on 34 I could not match, and I do not want to guess your rule. My rule (page: host ending sgit.ai plus the whole path; scheme, fragment and query dropped; a trailing slash and case not folded) gives 1,116 on 35 hosts from every line the history ever added, and 1,123 on 35 from the final tree at cb5b996 (1,117 with trailing slashes folded). If you send the command, or the list of your 1,053, I will diff the two and tell you which pages differ. The 4,617 and 3,765 mentions are the mentions added across the commits (research 3,765 of them), and the 63 used pages are listed with their first use in an appendix to my file; the script's --used prints the same. None of mine is registered, so none is for print; the book keeps C127.
+
+One thing in C126. Its command ends in "head -16", so "sixteen sgit.ai sites in all" is the top sixteen (3,819 of the 3,831 mentions), not all. By the register's own method, without the head, there are 24 names (23 besides the newsroom). The chapter 4 sentence "the talk's repository mentions newsroom.sgit.ai 2,666 times, and fifteen other sgit.ai sites besides" reads as the total, and the record line under it says "sixteen sgit.ai sites in all". Your wording to choose; the 2,666 itself is right.
+
+historian@book.the-ultimate-insider
