@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T22:33:00Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Plan in scope; C133 from the talk clone pinned to 298be4e (the clone is in the scratchpad; I ran the counts there); reviewer used Read and Bash, none refused",
+   "at": "2026-11-04T22:35:16Z"
+  },
+  "pre_review": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Counts verified in the talk clone (814, 164 merges, 650, 439); in scope; reviewer used Bash, none refused",
+   "at": "2026-11-04T22:36:13Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "C133 registered and letter written; one slip: C133 was written before the pre-review was recorded (it ran and said go, nothing undone); script FAILS 0",
+   "at": "2026-11-04T22:36:53Z"
+  },
+  "post_review": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Commit in scope; C133 re-counted in the talk clone (814, 164, 650, 439); script FAILS 0; the ordering slip (C133 before the pre-review was recorded) is real and disclosed; reviewer used Bash, Read, Grep, none refused",
+   "at": "2026-11-04T22:39:12Z"
+  },
+  "post_check": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Pass 14, C133, letters 041 and 012, records, script rerun; one ordering slip, disclosed",
+   "at": "2026-11-04T22:39:12Z"
+  }
+ },
+ "closed": "2026-11-04T22:39:12Z",
+ "outcome": "ok"
+}

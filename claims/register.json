@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-11-04T18:38Z",
+ "as_of": "2026-11-04T22:35:31Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -4832,6 +4832,38 @@
    "method": "read the newsroom's files; grepped his in-session briefs",
    "command": "grep -n 'Confirmed by Dinis' team/conductor/from-newsroom/*.md; grep -rn -i 'coincid' briefs/2026-11-04__in-session/ | cut -c1-120",
    "note": "This registers what the newsroom's files record, not a signed word of his: the only source is the newsroom's report of his word to it. The conductor's principle 30 treats the delta file as a confirmation; whether this line prints is the conductor's call under that principle (or his word in a brief). The facts it rests on hold: the page was proposed at 00:51:12 and never staffed (C011). Registered at writer3 002, the 11:32 wake, 4 November 2026."
+  },
+  {
+   "id": "C133",
+   "claim": "The talk's three commit counts are one chain: 814 (every commit to 18:46:59), 650 (the same without merges), 439 (the agents' own, without merges, releases or the editor's)",
+   "cited_in": [
+    "claims/rc2-150-trace.md",
+    "comms/mail/mailroom/conductor/researcher__041-three-commit-counts.eml"
+   ],
+   "value": {
+    "all_commits_to_18_46_59": 814,
+    "by_author": {
+     "Claude": 603,
+     "GitHub Actions": 210,
+     "Dinis Cruz": 1
+    },
+    "merges": {
+     "all": 164,
+     "by_Claude": 164
+    },
+    "without_merges": 650,
+    "without_merges_by_author": {
+     "Claude": 439,
+     "GitHub Actions": 210,
+     "Dinis Cruz": 1
+    },
+    "chain": "814 - 164 merges = 650; 650 - 210 releases - 1 editor = 439; 603 - 164 = 439"
+   },
+   "state": "checked",
+   "source": "SGit-AI__Website__Presentation__The-Ultimate-Insider, at 298be4e, commits up to 2026-10-29T18:46:59Z (the last release, cb5b996, is 18:46:22)",
+   "method": "git log over the same range three ways: all commits, --no-merges, --merges, counted by author",
+   "command": "# in a clone of the talk's repository:\ngit log 298be4e --until=2026-10-29T18:46:59Z --format=%an | sort | uniq -c\ngit log 298be4e --until=2026-10-29T18:46:59Z --no-merges --format=%an | sort | uniq -c\ngit log 298be4e --until=2026-10-29T18:46:59Z --merges --format=%an | sort | uniq -c",
+   "note": "Added at the 22:32 wake, 4 November 2026, for the newsroom's pass 3 (section 4, point 1) via conductor 071. The three numbers agree: 814 is C004 (all commits, merges in); 650 is C095 (non-merge commits, 00:00 to 18:59, whose range to 18:59:59 holds the same commits, because none is made between 18:47 and 18:59 (checked); the two after 19:00 are outside both); 439 is C014 and C120 (the agents' own non-merge commits). The book's chapter 3 prints 439 with its definition ('by the agents themselves, not counting merges'); 650 sits in the day table's data (C095, 210 releases, 50 with no member's prefix); 814 is the newsroom's own case-study figure (603 by the agents, 210 release commits by CI, and the editor's first). Registered as settled arithmetic: no new claim about the day, a bridge between three registered numbers."
   }
  ]
 }
