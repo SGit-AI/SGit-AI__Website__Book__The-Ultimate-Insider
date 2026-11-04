@@ -19,7 +19,7 @@
 
 ## Where the two readings agree
 
-**Historian**: I compared the two timelines line by line. Every time and every change that both cite agrees, to the second, from the empty project to the record's last commit. Both read the stop the same way: the first part of the talk finished but never locked. Both read the same turning points of the day, the ones this book has told: the first session with all five steps closing with part of its work still to do, the three parts of the talk, and the editor's run of sessions in the late afternoon.
+**Historian**: I compared the two timelines line by line. Every time and every change that both cite agrees, to the second, from the empty project to the record's last commit. Both read the stop the same way: the first part of the talk finished but never locked. Both read the same turning points of the day, the ones this book has told: the first session run in its five stages closing with part of its work still to do, the three parts of the talk, and the editor's run of sessions in the late afternoon.
 
 `%% for the editor: proposed, not printed until you confirm (the newsroom, chapter 19; the historian's line keeps "the strongest check"): "I find that reassuring in a way no amount of re-reading by the same team could be."`
 
@@ -99,11 +99,11 @@
 
 ## What it means
 
-**Narrator.** Chapter 18 gave the conductor's own words for its reviewers: a second reading in the same room, not a second reader.
+**Narrator.** Chapter 18 gave the conductor's own words for its reviewers, and the difference between a second reading and a second identity.
 
-**Narrator.** The blind team is the nearest this book has to a second identity. It shared nothing with this team but the record itself and the hand-off: no session, no timeline, no member. And it saw six things this team had missed, and every time and commit both of us cite agreed to the second. That is a finding about this book and this record, not a claim about every review. But it answers the question chapter 18 left open: what stands outside the team? Here, for one reading of one day, something did.
+**Narrator.** The blind team is the nearest this book has to a second identity. It shared nothing with this team but the record itself and the hand-off: no session, no timeline, no member. And it saw six things this team had missed, and every time and commit both of us cite agreed to the second. That is a finding about this book and this record, not a claim about every review. Chapter 18 left a question open: what stands outside the team? This answers it. Here, for one reading of one day, something did. Part five is where the sessions end, and the record stays.
 
-`%% for the editor: the close now says "it answers the question", the book's own structure, not "my answer", his view; his to make it his again.`
+`%% for the editor: the close says the book's structure ("Chapter 18 left a question open; this answers it", the storyteller's S12), not "my answer", your view; yours to make it yours again.`
 
 `%% for the editor: proposed, not printed until you confirm (the newsroom, chapter 19, his recommendation): "If I were building a factory for anything that mattered, this is the part I would keep: a second team that reads cold, and a one-way valve between them."`
 

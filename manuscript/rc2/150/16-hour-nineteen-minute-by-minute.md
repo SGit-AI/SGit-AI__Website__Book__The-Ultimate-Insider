@@ -60,7 +60,7 @@
 
 `%% for the editor: proposed, not printed until you confirm (the newsroom, chapter 16): "I think it is one of the most important lines anyone wrote that day."`
 
-**Conductor**: I could keep going. That is exactly why I am stopping.
+**Conductor**: The editor says pause. I write the hold, and I name the only one who lifts it.
 
 **Narrator.** What was already in flight still landed. A minute or so after the hold, the designer finished checking part two on a projector, found nothing to change, and said so. Then the day's last release went out.
 
@@ -119,11 +119,11 @@
 
 ## The locks overtaken from outside
 
-**Narrator.** One more thing about this hour. The team had built its own brakes, the locks and the hold any member could pull, and its own locks lost the race. The thing that actually stopped the factory came from outside it: me, deciding that the day's work was done.
+**Narrator.** One more thing about this hour. The team had built its own brakes, the locks and the hold any member could pull, and its own locks lost the race. What stopped the factory was my word, for the reason above.
 
 `%% for the editor: proposed, not printed until you confirm (the newsroom, chapter 16): "I think that is the right order. The team's brakes are for the team's mistakes. The decision that the work is finished belongs to the person who has to stand up and give the talk."`
 
-**Narrator.** There was one thing we did not have, and stopping was the only safe move without it. Chapter 17 keeps it as a miss.
+**Narrator.** Chapter 17 keeps the one thing we did not have as a miss.
 
 `%% record: C089 (settled: his account of 4 November, time ran out, diminishing returns, the 95% a coincidence; his accounts of 31 October, after the day, kept in the register: ec1ec00, about 19:00, "The 95%, I think, was the tokens usage"; "just a footnote"; the missing way to take in changes during the talk, "the reason why I was thinking about let's lock V1"; 49c701e, his paper review, 31 October 01:48 UTC) C006 (the hold's subject) C021 (95% is the conductor's words, reporting the editor) C027 (locked by end of day: 0)`
 `%% band: His one account, given after the day (C089, settled 4 November); the hold file's words as the record holds them; his dated accounts of 31 October stay in the register, not in the reading text.`
@@ -132,7 +132,9 @@
 
 `%% figure brief: Drawn, as the page was last built after the stop. A drawing from the page, not a screenshot: the build never shows an admin page. The reason the page shows is the hold file's (the 95%), as the record has it.`
 
-**Narrator.** The rule of the hold had been there since hour two. It was used once. Anyone on the team could stop everything and only I could start it again, which is why I could let them run through the night.
+**Narrator.** The rule of the hold had been there since hour two. It was used once. Anyone on the team could stop everything, and only I could start it again.
+
+`%% for the editor: proposed, not printed until you confirm (the writer's reading, the storyteller's M1): "which is why I could let them run through the night."`
 
 ## Something to try
 

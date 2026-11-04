@@ -24,11 +24,13 @@ PLACED = {
         "a thin strip from the empty project to the talk": ("lab/experiments/52-designer-start-here/start-strip.svg", "the designer's strip (LAB 52)"),
     },
     "rc2/150/00b-who-is-telling-this-story.md": {
-        "the cast row": ("lab/experiments/37-designer-rc2-chapters-1-2/ch1-cast-greyed.svg",
-                         "the greyed cast row until the line takes LAB 27's role cards (storyteller 149)"),
+        "the whole team on one page": ("lab/experiments/27-designer-the-cast/cast-row-personas.svg",
+                                       "LAB 27's role cards, moved here from 06 (storyteller 149, writer 228)"),
         "two voices on the page": ("lab/experiments/54-designer-first-pages/two-voices.svg", "the designer's two voices (LAB 54)"),
     },
     "rc2/150/04-hour-one-the-empty-project.md": {
+        "one banner, as a session prints it": ("lab/experiments/55-designer-findings-cards/ch4-banner-pair.svg",
+                                               "the writer's own banners (its debrief of 4 November), drawn (LAB 55)"),
         "one member's folder, opened": ("lab/experiments/54-designer-first-pages/member-folder.svg", "the designer's folder (LAB 54)"),
     },
     "rc2/150/06-roles-as-a-cast-you-can-read.md": {
@@ -67,6 +69,14 @@ PLACED = {
     "rc2/150/94-the-making-of-this-book.md": {
         "this book's team arriving": ("lab/experiments/51-designer-book-team-arriving/book-team-arriving.svg",
                                       "the designer's twelve arriving (LAB 51), from C131"),
+    },
+    "rc2/150/08-hours-four-and-five-before-dawn.md": {
+        "a card, the researcher's two findings": ("lab/experiments/55-designer-findings-cards/ch8-two-findings.svg", "LAB 55, C025 under the rail"),
+    },
+    "rc2/150/09-nine-hours-with-nobody-starting-work.md": {
+        "one picture's three rounds side by side": ("lab/experiments/63-ruv-three-rounds/edition/three-rounds.svg",
+                                                    "ruv-sgit's three rounds (its 074), as the seventy places it"),
+        "a card, the researcher's three findings": ("lab/experiments/55-designer-findings-cards/ch9-three-findings.svg", "LAB 55, C025 under the rail"),
     },
     "rc2/150/11-the-plumbing.md": {
         "the repository at the end of each hour": ("lab/experiments/60-ruv-the-margin-clock/edition/repo-growth.svg",

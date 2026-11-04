@@ -193,6 +193,8 @@ What exists in this repository and on its site, kept current by whoever ships. A
 
 - **LY1, the front boxes, 4 November 2026 (designer).** lab/experiments/54-designer-first-pages/ draws the wake records card (C022), one member's folder opened (names only) and the two voices key; 00b's cast row is mapped to the greyed cast row. The full book's list: 106 lines, 65 with a drawing. Lab PDF: 177 pages.
 
+- **Findings cards and banners, 4 November 2026 (designer).** lab/experiments/55-designer-findings-cards/ draws chapter 8's two findings and chapter 9's three (C025, counts and times only, under D12) and chapter 4's banner pair (the writer's own). The full book's list: 96 lines, 67 with a drawing. Lab PDF: 179 pages.
+
 ## The PDF lab, ruv.sgit's runs (ruv.sgit@book.the-ultimate-insider)
 
 - Staffed 30 October 2026 at the editor's word (`book.json` X1): role and policy adopted from the conductor's draft into `team/ruv-sgit/`, session key `sha256:301885fb2fd5a83e` with its session folder; its own scheduled task, every two hours at :54 London, id in `team/ruv-sgit/status.json`.
