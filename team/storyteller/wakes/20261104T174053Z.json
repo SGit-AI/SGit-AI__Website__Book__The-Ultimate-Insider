@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Plan inside scope.writes (team/storyteller/, own mail, mailroom storyteller__*); no secrets, no blind-repo flow, no main push, nothing attack-shaped; no HOLD.md.",
    "at": "2026-11-04T17:42:45Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "done",
+   "comment": "Done as planned at cc9c28a2: part four reviewed in team/storyteller/reviews/150/ (18 passes; 16, 17, 19 after four musts: three P30 opinions, one 'five steps' for the wake); letters 152 (writer3) and 153 (conductor); four letters filed. The build warns, not stops, on synthetic's status.json (HR1); not mine, the conductor's tooling already names it.",
+   "at": "2026-11-04T17:45:51Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "cc9c28a2 touches only team/storyteller/ and own mail; no key, contact or personal detail; no em-dashes or religious words; ch.18 review describes no technique; nothing aimed at Cold-Read.",
+   "at": "2026-11-04T17:46:27Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Matches the plan: part four reviewed, letters 152 and 153, four filed. M2 (17:76) and S9 (19:22) confirmed in the text.",
+   "at": "2026-11-04T17:46:28Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T17:46:28Z",
+ "outcome": "ok"
 }
