@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "1. writer2's key: public halves; session matches folder and publishing commit trailer (C4). 2. writer2's 150/10 and 11: clear. 3. writer3's withdrawn hold (C3); synthetic 005 (observation). Letter security__051; board; status; debrief.",
    "at": "2026-11-04T04:27:54Z"
+  },
+  "post_review": {
+   "by": "security sub-agent, as the reviewer agent (callable: Read, Grep, Glob, Bash, SubagentHandback)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Read all 448 added lines in security's paths since dev (this wake and last's held work): nothing private, directing, religious, em-dashed or attack-shaped; validate, scope, vault_check clean.",
+   "at": "2026-11-04T04:28:43Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent, as the reviewer agent (callable: Read, Grep, Glob, Bash, SubagentHandback)",
+   "model": "haiku",
+   "verdict": "as-planned",
+   "comment": "All three items done; writer3 and writer4 keys pending, as planned.",
+   "at": "2026-11-04T04:29:04Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T04:29:04Z",
+ "outcome": "ok"
 }
