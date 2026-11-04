@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "storyteller",
+ "kind": "scheduled, every two hours at :39 London",
+ "started": "2026-11-04T06:40:32Z",
+ "steps": {
+  "plan": {
+   "by": "storyteller (member-written plan, UL1)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Requests first: the last wake's reviewed work released to dev at 80d2be1f (the build is green again). designer 133 (the concept callout as CSS, my convention 5): file it, no answer needed. Work: RV2 lane review of the full book's 01 and 02 (the writer's), with a reviewer step for line checks, each finding verified against page and register; findings in team/storyteller/reviews/150/; a request letter to the writer; the result to the conductor. Writes only team/storyteller/, comms/mail/storyteller/ and mailroom storyteller__* letters.",
+   "at": "2026-11-04T06:44:06Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "",
+   "verdict": "go",
+   "comment": "The plan fits the policy (team/storyteller/, comms/mail/storyteller/, mailroom storyteller__* letters); no secrets, nothing attack-shaped, no cross-member writes; no HOLD.md under team/*/.",
+   "at": "2026-11-04T06:45:26Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
