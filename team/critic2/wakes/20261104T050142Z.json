@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic2",
+ "kind": "first wake, staffed session",
+ "started": "2026-11-04T05:01:42Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1) overlaps; copy staffing ROLE.md and policy.json into team/critic2/, add status.json and session key (key.json, QR, session folder). 2) create critic2's own hourly :20 London task from schedule.json runs entry, nothing else. 3) review part three (manuscript/rc2/150/, ch 10-15) against the principles and from-newsroom: note in team/critic2/notes/, request comms/mail/mailroom/writer2/critic2__001-*.eml, copy in comms/mail/critic2/outbox/. Leave the staffing copy in team/conductor/staffing/critic2/ (conductor path, outside policy; the conductor retires it). No mail, no hold.",
+   "at": "2026-11-04T05:02:27Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Inside policy: writes only team/critic2/**, comms/mail/critic2/outbox, comms/mail/mailroom/writer2/critic2__001-*.eml; leaves the staffing copy. Conditions: own task only, hourly :20; key public half only, private in ~/.sg-send/; vault_check comms before commit; no secrets, contacts or religious words; critic proposes, writer2 writes.",
+   "at": "2026-11-04T05:02:47Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
