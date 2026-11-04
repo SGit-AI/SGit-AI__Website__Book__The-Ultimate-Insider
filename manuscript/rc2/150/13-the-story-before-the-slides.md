@@ -8,7 +8,9 @@
 
 `%% clock record: 14:12 to 14:19; clock hours of 29 October (C110; the conductor's CK1).`
 
-**Narrator.** The first thing the storyteller did was the thing I had asked for and not done myself: it put the story before the slides. Within minutes it had a story tree, a set of maps, a map of what the talk already covered, a challenge, and a sequence. And it had changed nothing in the talk. I like how it said so to deck:
+**Narrator.** The first thing the storyteller did was the thing I had asked for and not done myself: it put the story before the slides, with the tree and the maps it arrived with in chapter 12, and nothing in the talk changed. I like how it said so to deck:
+
+`%% for the editor: "I like how it said so to deck" is the newsroom journalist's (part three, chapter 13); brief 21 lets it print.`
 
 > "A proposal, not an ask to change anything. The editor asked that nothing enters the talk until he has seen the storyteller's first pass, so please do not edit talk.json from this mail." *(record)*
 
@@ -74,9 +76,9 @@
 
 `%% Check (the newsroom, part three, chapter 13, its question 2; prints only once he confirms he still holds it, historian__054): "I still think the outside is in balance, and that the story needed that line." And: "I would rather be argued with on the record than agreed with in silence."`
 
-**Narrator.** This is the part of the afternoon I would most want a team to copy, and it is not my part. It is the storyteller's. A member found that the person it worked for had a weak line, and its job was to make sure he saw the strongest case against it, in writing, before the slides were cut. Not to win. To make sure the decision was a decision.
+**Narrator.** The storyteller found that the person it worked for had a weak line, and its job was to make sure he saw the strongest case against it, in writing, before the slides were cut.
 
-`%% for the editor: "the part of the afternoon I would most want a team to copy" and "Not to win. To make sure the decision was a decision." are the writer's reading of his view; his to keep or drop.`
+`%% Hold (P30: a reading of his view, not in the record or his briefs; prints once he confirms; storyteller__147): "This is the part of the afternoon I would most want a team to copy, and it is not my part. It is the storyteller's." and "Not to win. To make sure the decision was a decision." (the newsroom kept the second as his voice; held with the first, since both rest on the writer's reading).`
 
 **Figure:** the objection's path in one line of time: the researcher's finding, the storyteller's letter, my answer; under each, its own words.
 
@@ -89,7 +91,7 @@
 
 ## Something to try
 
-*The storyteller was useful because it argued with the plan before anything was built. Asking one of your agents to argue against your plan, in writing, costs very little. You still decide; it just helps to have decided with the argument in front of you.*
+*The storyteller argued with the plan before anything was built. If you try this, ask one of your agents to argue against your plan, in writing. You still decide, with the argument in front of you.*
 
 `%% record: team/conductor/from-newsroom/2026-11-04__do-this-now-as-invitations.md (chapter 13, the proposed card) chapter-plan/cast/cast-guide.md (page conventions 1)`
 
