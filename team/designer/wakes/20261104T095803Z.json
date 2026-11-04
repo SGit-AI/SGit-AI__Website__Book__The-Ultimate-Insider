@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, hourly at :57 London",
+ "started": "2026-11-04T09:58:03Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Plan: chapter 6's row with the designer greyed (STATE used FIRST6, so a real change); LAB 51, the twelve heads at C131's first-commit times (exactly twelve before 4 November, as chapter 21 says); 03b only if its phases' names and ranges have a source beyond the chapter's own words, else defer; the register-id letter a proposal only, needing the storyteller's yes. All in scope; no HOLD. Tools: read-only, none refused.",
+   "at": "2026-11-04T09:59:33Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope: LAB 49 and 51, the designer's list, the lab build, team/designer, the designer's letters and done/, a REALITY append. No HOLD. C131's twelve are role names only, none a private person. Conditions: no manuscript/ edits; 03b as a lab drawing only; the register-id letter stays a proposal; vault_check before the commit. Tools: Bash, none refused.",
+   "at": "2026-11-04T10:00:02Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Items 1, 2 and 4 done; item 3 (03b) deferred as the plan allowed. Chapter 6's bar has the designer greyed. LAB 51: the twelve arriving from C131, checked at build, names only, placed for 94. Letter 137 proposes register ids out of drawings, nothing changed before the storyteller's yes; letter 138; seven letters copied to done/. The list resynced (108 lines, 59 drawn; 90's removed lines checked). Lab 170 pages; gate clean.",
+   "at": "2026-11-04T10:03:05Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "fec891bb: 0 files outside scope; vault_check and validate clean (1046); no manuscript/ edits; 03b deferred; 137 only proposes. unsafe_svg passes LAB 51 and cast-bar-06. The drawn text is twelve names and four dates: no key, session, task or per-member count. 06 greys the designer only. No secrets, em-dashes or religious words. Tools: Bash, none refused.",
+   "at": "2026-11-04T10:04:27Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "fec891bb: item 1 done (06 is FIRST6 minus the designer, redrawn); item 2 done (LAB 51 reads C131 at build and stops unless twelve, names only); item 3 (03b) deferred as allowed; item 4 done (137 only proposes; 138 sent; copies match their To and Cc lines). Conditions kept. For next wake: when 03b is planned, check that the outline counts as a source beyond the chapter. Tools: Bash, none refused.",
+   "at": "2026-11-04T10:04:58Z"
+  }
+ },
+ "closed": "2026-11-04T10:04:58Z",
+ "outcome": "ok"
+}
