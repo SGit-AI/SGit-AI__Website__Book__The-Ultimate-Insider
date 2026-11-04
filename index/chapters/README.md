@@ -50,7 +50,7 @@ One file per chapter of the manuscript, built by `index/tools/chapter_entries.py
 | [`150__91-the-words-used.md`](150__91-the-words-used.md) | 0 | 0 | 5 | 0 | 0 | 0 |
 | [`150__92-appendix-a-every-number.md`](150__92-appendix-a-every-number.md) | 0 | 0 | 2 | 0 | 0 | 0 |
 | [`150__93-appendix-b-the-control-register.md`](150__93-appendix-b-the-control-register.md) | 0 | 0 | 5 | 0 | 0 | 0 |
-| [`150__94-the-making-of-this-book.md`](150__94-the-making-of-this-book.md) | 0 | 0 | 2 | 0 | 1 | 0 |
+| [`150__94-the-making-of-this-book.md`](150__94-the-making-of-this-book.md) | 0 | 0 | 3 | 0 | 1 | 0 |
 | [`01-the-creators-problem.md`](01-the-creators-problem.md) | 0 | 0 | 7 | 1 | 2 | 0 |
 | [`02-the-factory-is-assembled.md`](02-the-factory-is-assembled.md) | 2 | 0 | 7 | 0 | 12 | 0 |
 | [`03-the-factory-runs.md`](03-the-factory-runs.md) | 0 | 0 | 6 | 0 | 14 | 0 |
