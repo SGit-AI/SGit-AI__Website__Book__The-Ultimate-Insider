@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, hourly at :57 London",
+ "started": "2026-11-04T21:59:16Z",
+ "steps": {
+  "plan": {
+   "by": "conductor-planner",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Plan fits designer scope: lab 59-designer-chapter-13 is free (58 is the last) and matches scope.writes, as do lab/tools resync_150.py, comms outbox and team/designer. All seven named letters are in the designer mailroom, and letters 148 and 149 follow designer 147. Conditions: read the talk clone at 298be4e read only, and draw only the times and the record's own words, with no hash, register id or version. Keep the order 1a, 1b, 2, 3. Item 3 and writer4 016 may go to next. Put the unreached work in next, and copy incoming letters to done/ only after answering. No em-dashes and no religious words. Run vault_check before the commit, and write status as_of no later than the commit. No tool call was refused.",
+   "at": "2026-11-04T21:59:56Z"
+  },
+  "pre_review": {
+   "by": "security-reviewer",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Go. The two figures use public, in-record words (commits 2726f0e and b208a16, the quoted decisions line, the storyteller's maps and the maps slide at 298be4e); my search of the maps SVGs and tree.md found only the SVG xmlns attribute, no URL, key, token, session id or contact detail. Nothing touches the chapter 9 rail, nothing is attack-shaped, nothing goes to the blind repository, and the work is in designer scope. Conditions: draw times and the record's own words only, with no commit hash, session id or version in the drawings (item 1b's old-hash removal fits this); the map must not carry the tree.md incident rows (token or key examples) beyond what the slide shows; read the clone read only; run vault_check on comms before commit. No tool call was refused.",
+   "at": "2026-11-04T22:00:30Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "claude-opus-5-5",
+   "verdict": "partial",
+   "comment": "Done in order: LAB 59 objection-path (14:33, 15:02, 15:16, words read with git from the talk's commits, no hash drawn) and storyteller-map (map 1 from team/storyteller/maps at 298be4e, the slide's 'positions, not measurements'), both placed (101 lines, 74 drawn); the-house 155x112 mm (publisher 053), placements still checked; lab PDF 187 pages (the map's rotated label set level after the 9 pt check refused it); letters 148, 149; seven letters to done/; vault_check, agents check, build and gate clean. Not done (item 3, in next): the tally faces, ch5-team-cards' caption, old hashes in ch6-two-commits and ch5-schedule.",
+   "at": "2026-11-04T22:06:41Z"
+  },
+  "post_review": {
+   "by": "security-reviewer",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "The commit (22:06:41Z) touches only designer scope plus the REALITY.md append. The visible text of the three SVGs holds times and the record's own words only: no register id, hash, version, URL (only the xmlns attribute), key, session id or contact detail. The map shows map 1 with no tree.md incident rows, nothing is attack-shaped, the chapter 9 rail is untouched, and the added prose has no em-dashes or religious words. Letters 148 and 149 are dated 22:04:00Z and status as_of is 22:04:00Z, both before the commit. No tool call was refused.",
+   "at": "2026-11-04T22:07:17Z"
+  },
+  "post_check": {
+   "by": "conductor-reviewer",
+   "model": "sonnet",
+   "verdict": "partial",
+   "comment": "Items 1a (chapter 13 map and objection path, LAB 59), 1b (the house at 155x112 mm) and 2 (letters 148, 149, seven to done/) were done in order, as the plan allowed. Item 3 (tally faces, ch5-team-cards caption, old hashes) was not reached and is named in status next and in the debrief, with writer4 016 and conductor 086. The REALITY.md append matches the work (101 lines, 74 drawn, 19 to draw, 187 pages, house 155x112). as_of and the letter Dates (22:04:00Z) are before the commit (22:06:41Z). No tool call was refused.",
+   "at": "2026-11-04T22:07:46Z"
+  }
+ },
+ "closed": "2026-11-04T22:07:59Z",
+ "outcome": "ok"
+}
