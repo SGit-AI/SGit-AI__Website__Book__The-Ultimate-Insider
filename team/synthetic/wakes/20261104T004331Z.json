@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Idle; only team/synthetic/**; no hold, no secret. Conditions: status.json limited to as_of and state; gate before push. Tools: Read, Grep; nothing refused.",
    "at": "2026-11-04T00:44:43Z"
+  },
+  "work": {
+   "by": "synthetic",
+   "model": "claude-sonnet-5-5",
+   "verdict": "done",
+   "comment": "Idle: status.json (as_of, state only); gate and scope clean.",
+   "at": "2026-11-04T00:45:19Z"
+  },
+  "post_review": {
+   "by": "security sub-agent, as the reviewer type (post_review.md)",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Two files in team/synthetic/**; 0 outside scope; validate clean (865); comms unchanged; no key or personal detail. Tools: Read, Grep, Glob, Bash; nothing refused; wrote no file.",
+   "at": "2026-11-04T00:45:55Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent, as the reviewer type (post_check.md)",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Wake record and status (as_of and state only) done; both pre-review conditions kept; gate taken from the work step. Tools: Read, Bash; nothing refused.",
+   "at": "2026-11-04T00:45:55Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T00:45:55Z",
+ "outcome": "ok"
 }
