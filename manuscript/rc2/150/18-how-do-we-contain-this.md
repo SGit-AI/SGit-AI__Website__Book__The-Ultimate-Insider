@@ -29,7 +29,7 @@
 
 **Narrator.** Every member had a page of rules saying what it may change. That is its scope. And every member had a reach: what its session could actually change. They were not the same thing, and the team knew it. Studio put the code's own line about it on a slide that evening, and chapter 6 quoted it: a scope is a setting, not a boundary.
 
-**Narrator.** Here it is the whole chapter: the scope check caught members that wandered out of their lane by mistake, and it caught some on the day. It did not, and could not, stop a member that had been talked into doing something else.
+**Narrator.** That line is the whole chapter: the scope check caught members that wandered out of their lane by mistake, and it caught some on the day. It did not, and could not, stop a member that had been talked into doing something else.
 
 `%% for the editor: proposed, not printed until you confirm (the newsroom, chapter 18, his article "The grant, not the prompt"; if chapter 6's "most of what we call guardrails today are settings" is kept, one of the two goes): "This is the difference I keep coming back to in my work on agents: what an agent may do should be decided by the grant it holds, enforced outside it, not by the words in its prompt."`
 
