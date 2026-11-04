@@ -86,7 +86,7 @@ def main():
     s.append(t(nx0, 30.0 + len(lines) * 4.6 + 3.0, 'Work did not pass round the', 400, MUTED, 'start', SMALL, 'italic'))
     s.append(t(nx0, 30.0 + len(lines) * 4.6 + 6.6, 'face: it went by letter,', 400, MUTED, 'start', SMALL, 'italic'))
     s.append(t(nx0, 30.0 + len(lines) * 4.6 + 10.2, 'read at the next turn.', 400, MUTED, 'start', SMALL, 'italic'))
-    s.append(t(2, H - 5.4, 'The schedule as it stood at the end of the day (C071); it ran every hour, and members joined it', 400, MUTED, 'start', SMALL))
+    s.append(t(2, H - 5.4, 'The schedule as it stood at the end of the day; it ran every hour, and members joined it', 400, MUTED, 'start', SMALL))
     s.append(t(2, H - 1.8, 'through the day. Each dot is a slot on the schedule, not a wake that ran.', 400, MUTED, 'start', SMALL))
     s.append('</g>')
     s.append('</svg>')

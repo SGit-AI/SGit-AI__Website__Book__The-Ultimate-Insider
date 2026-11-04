@@ -118,8 +118,7 @@ def main():
         out, y = row(r, y + 1.4, '13:50')
         body += out
     notes = ['The time runs from his ask to the work, not to the conductor\'s routing; each bar runs to the first work.',
-             '"Major", the historian\'s rule, not the editor\'s: a new slide or page, or at least 100 lines of product files.',
-             'Every value: the register, C118.']
+             '"Major", the historian\'s rule, not the editor\'s: a new slide or page, or at least 100 lines of product files.']
     y += 1.0
     for j, n in enumerate(notes):
         body.append(t(x0, y + j * 3.5, n, TINY, 400, MUTED, 'start', 'italic' if j < 2 else ''))
