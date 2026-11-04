@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer4",
+ "kind": "scheduled, hourly at :35",
+ "started": "2026-11-04T09:35:53Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1) 94 to critic6 007, historian 071, synthetic 003. 2) 92's print shoulds and the librarian's two passed to the researcher's source file. 3) 90 to critic6 pass 1 and its Figure-line musts (whole-line %%, mood tags out, Figure lines without paths, repeats pointed to 3, place-words, logistics, the card); cutting 90 left to the editor and storyteller. 4) one letter; records.",
+   "at": "2026-11-04T09:36:44Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside scope; cutting 90 left to the editor and storyteller; no stop condition, secret or harm. Condition on 90: Figure lines without paths; only images security cleared by name; nothing revealing a key or session. Researcher's items as requests only.",
+   "at": "2026-11-04T09:37:09Z"
+  },
+  "work": {
+   "by": "writer4",
+   "model": "",
+   "verdict": "done",
+   "comment": "1) 94 to critic6 007, historian 071, synthetic 003 (declines with reasons). 2) 92's four print notes passed to the researcher's source. 3) 90 rewritten to critic6 pass 1 and the Figure-line musts; the keys line squared with AD1. Letter writer4__008; records. Build and gate clean.",
+   "at": "2026-11-04T09:40:17Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Gate clean; 0 outside scope; vault_check clean; no key, token, personal detail, em-dash or RW1 word. 90's Figure lines without paths or notes; no single-% or inline %%; no clock time in 90 or 94 print; 94 without hash or id, span four days; 90's keys line matches chapter 3.",
+   "at": "2026-11-04T09:41:36Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "All four items present; conditions met; nothing unplanned.",
+   "at": "2026-11-04T09:41:36Z"
+  }
+ },
+ "closed": "2026-11-04T09:41:36Z",
+ "outcome": "ok"
+}

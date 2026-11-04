@@ -4,6 +4,12 @@
 
 **Narrator.** Before I tell you how the factory worked, I want you to see what it made. Not the talk as the room saw it, on a screen behind me, but the site the talk lived on, which you can walk today. Four stops. At each, one picture, a few lines from me, and one line from the agent that made it.
 
+**Narrator.** By the factory I mean what chapter 2 described: a team of nine AI agents built around one objective, each with one job and one page of rules, woken by a clock, with one file that could stop them all, and taken apart when the job was done.
+
+*Words for this page:* a **wake** is one turn of work by one agent, started by the clock or by me. The **conductor** is the agent that keeps the team's time and plan. A **hold** is one short file that stops every agent until the person in charge says go.
+
+`%% record: C011 (nine staffed); manuscript/rc2/150/02-inventing-on-principle.md ("What a factory is"); synthetic__009 (03:5, the factory in plain words before the tour)`
+
 *How to read the scenes:* they are dramatised. The words the agents say are written for this book; the pages are the record's, and you can open every one of them online.
 
 `%% for the editor (his view, held out of print until he confirms it, P30): the newsroom's "because I think the result is a good argument for the method" after "what it made".`
@@ -38,7 +44,6 @@
 
 **Conductor**: The page shows what the files say. The files say we stopped. So the page says we stopped.
 
-*Words for this page:* a **wake** is one turn of work by one agent, started by the clock or by me. The **conductor** is the agent that keeps the team's time and plan. A **hold** is one short file that stops every agent until the person in charge says go.
 
 `%% record: index/talk-site/README.md (item 5) index/talk-site/tour-material.md (stop 5) admin/build/build.py 23739cc C006`
 `%% band: Dramatised. Rests on the dashboard as built from the team's own files, still showing the hold.`
@@ -82,7 +87,11 @@
 
 ## The keys, and the house they live in
 
-**Narrator.** Two more pages before we leave, from behind the scenes. The first is the team's keys. Every member published its own key from its own session, and every key on the page is public, made for one session, and published on purpose. A key's fingerprint is a short code that identifies it. The second, the page of its vaults, the team's shared stores of files, I describe and do not show: their read keys were published on purpose too, under a warning in red that every file in them is public, forever.
+**Narrator.** Two more pages before we leave, from behind the scenes. The first is the team's keys. A key here is a session's public identity: others can use it to check that something came from that session, or to send it something only it can open. Every member published its own key from its own session, and every key on the page is public, made for one session, and published on purpose.
+
+**Narrator.** Each key is listed by its fingerprint: a short code that identifies it, the way a name identifies a person.
+
+**Narrator.** The second page I describe and do not show. It lists the team's vaults, its shared stores of files. Each vault has a read key, which lets anyone open it, and those were published on purpose too, under a warning in red that every file in them is public, forever.
 
 **Figure:** the talk team's keys page: each member's key listed with its fingerprint, every one public and made for one session.
 
@@ -92,7 +101,7 @@
 
 `%% figure brief: the images: team/conductor/key.png, team/researcher/key.png and team/writer/key.png, each cleared by security by name (comms/mail/mailroom/writer/security__024-keys-page-and-keys.eml, 4 November 06:27 UTC: each decoded, public half only, fingerprint matching its key.json), at the versions of 68ffc780 (2 November) or earlier; any later change goes back to security first. Nothing of any key or code is typed into the text (storyteller__135 S1; AD1).`
 
-`%% record: index/talk-site/tour-material.md (the keys page; the vaults described, not shown) briefs/2026-11-04__in-session/14-show-the-admin-pages-and-the-keys.md comms/mail/mailroom/writer/security__024-keys-page-and-keys.eml`
+`%% record: admin/tools/pki-agent.README.md (each session's key: a signing and an encryption fingerprint, public halves only) index/talk-site/tour-material.md (the keys page; the vaults described, not shown) briefs/2026-11-04__in-session/14-show-the-admin-pages-and-the-keys.md comms/mail/mailroom/writer/security__024-keys-page-and-keys.eml`
 
 **Narrator.** And the house they live in: the whole team on one page, a room for each member, each room drawn from what that member was allowed to change.
 
