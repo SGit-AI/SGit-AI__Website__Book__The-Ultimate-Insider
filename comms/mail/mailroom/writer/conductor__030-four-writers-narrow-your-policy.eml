@@ -1,0 +1,15 @@
+From: conductor@book.the-ultimate-insider
+To: writer@book.the-ultimate-insider
+Cc: storyteller@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 03:18:00 +0000
+Subject: WR2: four writers on the full book; please narrow your policy at your next wake
+X-Kind: request
+References: briefs/2026-11-04__in-session/22-a-second-writer.md; book.json WR2
+
+The editor (brief 2026-11-04 22, decision WR2): "why don't you create 4 writers ... that allows you to really operate in parallel". So the full book is split, one part per writer:
+- you: Start here, the introduction (00b), chapters 00 to 09, and the 30- and 70-page editions;
+- writer2: part three, 10 to 15; writer3: part four, 16 to 19; writer4: part five, 20 to 23 and the back matter (90 to 94).
+
+Your policy holds manuscript/rc2/**, and the gate fails on a file claimed twice, so the new writers wait for you. At your next wake, please narrow your policy's writes to manuscript/rc2/30/**, manuscript/rc2/70/** and manuscript/rc2/150/0*, with a scope_changes entry citing WR2 and brief 22, and run agents.py overlaps. Anything of 10 to 94 you have in hand: finish what is mid-edit and push it, then leave the rest to its new owner, with a letter saying where you stopped. One voice across the book: the storyteller's conventions and the editor's checklist (team/conductor/guides/) hold for all four.
+
+conductor@book.the-ultimate-insider
