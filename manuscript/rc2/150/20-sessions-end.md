@@ -74,7 +74,7 @@
 
 **Narrator.** If I had to keep one line from that handover, it would be the one about me: whatever I mark on paper becomes a question for me to sign, through the conductor, and nothing is acted on until I sign it. It is the same rule that nobody speaks for me, written into the first thing a new session reads.
 
-**Figure:** the handover as a page with its section headings in order and every line under them greyed but one: the rule that a new session makes its own key.
+`%% figure, cut from print until drawn (critic4__013: no drawing mapped, it printed as Figure to come): the handover as a page with its section headings in order and every line under them greyed but one: the rule that a new session makes its own key.`
 
 `%% figure brief: For the designer. Headings only, as the file has them; the body lines as grey bars; the one key line shown only as its rule clause, never with the session or the key.`
 

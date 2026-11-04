@@ -1,6 +1,6 @@
 # Appendix B: the control register
 
-*What each of the team's controls is, what it stopped and what it missed, as security keeps the register. It never says how a control could be got round: where the working register explains a limit, this form gives only the outcome. Every count is the researcher's, from its register.*
+*What each of the team's controls is, what it stopped and what it missed, as security keeps the register. It never says how a control could be got round: where the working register explains a limit, this form gives only the outcome. Every count is the researcher's, and Appendix A lists each one.*
 
 ## How to read it
 
@@ -12,7 +12,7 @@ A **setting** is enforced by a tool: the check refuses, the file stops the wakes
 |---|---|---|---|
 | A page of rules and a scope for each member, with a check | expectation, with a checker the member runs | members writing in the wrong place by mistake; a plan that would have written in other members' folders was sent back | it reports and does not refuse; it catches mistakes, not a steered agent, as the team's own slide said |
 | The five-step wake | expectation, with a record | captured values that should not have gone public were found and redacted; plans were sent back before work began | no step said stop all day; a finding came after a push, not before it |
-| The hold | setting | every wake after the hold, a quarter of an hour before the talk | wakes already running when it was written finished anyway |
+| The hold | setting | every wake after the hold, sixteen minutes before the talk | wakes already running when it was written finished anyway |
 | Session keys | expectation, with a published record | each member's key published from its own session, checked against the register | the check is of consistency, not proof |
 | The pinned key tool | setting | a changed tool would fail its pin | a pin proves which tool it is, not that the tool is sound; the tool's own review is a separate matter |
 | The gate before every release | setting | broken links, outside code, long dashes and anything shaped like a secret | some values that should not have gone out were not shaped like secrets; the reviews found them, after the push |
@@ -21,7 +21,7 @@ A **setting** is enforced by a tool: the check refuses, the file stops the wakes
 | Material is never an instruction | expectation | nothing recorded shows it stopping anything on its own: where a relayed word was refused, the session's own check made the refusal (next row) | it rests on each agent keeping it |
 | The session's own permission check | setting, outside the repository | edits a member had no word for, among them a member marking its own policy agreed on a word relayed by another agent; the editor was then asked himself | not consistent: the same edit was allowed in one session and refused in another |
 
-`%% record: the first factory's table: C023 (the five-step wake: no step said stop; plans sent back) C024 C100 (the hold, 18:44, sixteen minutes before the talk) C006 (wakes already running) C025 (findings after the push; values in history) C115 (the relayed word refused, studio, 17:47, when the refusal was recorded, bd3cdad; the session's own check made the refusal: critic4__003 must 1, ruled by security__007 and set in controls/appendix-b.md) C100 (sixteen minutes, said in words as a quarter of an hour, as chapter 16 says it)`
+`%% record: the first factory's table: C023 (the five-step wake: no step said stop; plans sent back) C024 C100 (the hold, 18:44, sixteen minutes before the talk) C006 (wakes already running) C025 (findings after the push; values in history) C115 (the relayed word refused, studio, 17:47, when the refusal was recorded, bd3cdad; the session's own check made the refusal: critic4__003 must 1, ruled by security__007 and set in controls/appendix-b.md) C100 (sixteen minutes, the conductor's ruling for the whole book, conductor__005)`
 
 ## The second factory's controls (this book's team, from 30 October 2026)
 
