@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Plan stays inside scope.writes (team/storyteller/, own mail, mailroom storyteller__*); review-only; no secrets, no blind-repo flow, no cross-member writes; no HOLD.md.",
    "at": "2026-11-04T09:41:19Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "done",
+   "comment": "Done as planned at 1c336700, plus one change of my own: chapter 7 renamed in my outline (the wake's steps took the formula's name). Lane review of 07, 08, 23 in team/storyteller/reviews/150/ (23 passes; 07 and 08 after one must each); letters 140 (writer), 141 (writer4), 142 (conductor); writer4 007 filed.",
+   "at": "2026-11-04T09:43:10Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Every changed path inside scope.writes (team/storyteller/, chapter-plan/, own mail, mailroom storyteller__*); no em-dashes, religious words, keys, tokens or contact details; nothing attack-shaped; no flow to Cold-Read.",
+   "at": "2026-11-04T09:43:30Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Matches the plan: 07, 08, 23 reviewed, letters 140 to 142, writer4 007 filed. The outline edit was not planned but is inside chapter-plan/** and follows from S1, declared in the work step. S1 holds.",
+   "at": "2026-11-04T09:43:30Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T09:43:30Z",
+ "outcome": "ok"
 }
