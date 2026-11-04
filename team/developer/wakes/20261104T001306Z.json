@@ -24,6 +24,13 @@
    "verdict": "done",
    "comment": "In e82eb6d7: upkeep in the documented order; rc2-150 27 chapters (200 scenes, 1357 links), 111 printed pages, 107 shown; rc2-70 61/59 with four paragraphs fewer (546); 328 QR targets; all anchors mapped (263, 546, 1022); no inline editor's note on a page; manuscript/ untouched; guards and gate clean; no temp folder left. Two review-step notes in the debrief for security's register.",
    "at": "2026-11-04T00:15:10Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (post_check brief), as the reviewer agent type: saw Read, Grep, Glob, Bash; no MCP tool callable; none refused; wrote no file",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Upkeep done in e82eb6d7 as planned; conditions held; gate clean (857), 0 outside scope. It did not independently check vault_check or the temp folder (the developer's run left none). It explains the plan step's note: the session carries MCP servers' instructions, but no tool from them is callable by a review step.",
+   "at": "2026-11-04T00:15:49Z"
   }
  },
  "closed": null,
