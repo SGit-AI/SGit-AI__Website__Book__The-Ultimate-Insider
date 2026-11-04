@@ -13,6 +13,6 @@ Page check on the PDF of 17:13 (142 pages, 30 chapters), counted from developer_
 
 The online-view builder still refuses Appendix A's addresses (claude.com/pricing first this time); it wrote nothing, the view stays at 11:18; the question is with security (developer__047, 049, no answer yet).
 
-Pages of the site: unchanged since 09:46; no answer to developer__039; the upload set is still unlinked (git log and grep).
+Pages of the site: rc2.html and index.html (the conductor's) unchanged since 09:46 (git log on those two files); principles.html changed between 10:39 and 11:09 and is in step with the guide (36 principles in both, same commit 03fe53fd, headings equal); no answer to developer__039; the upload set is still unlinked (git log and grep).
 
 This wake the build and gate exit codes were checked before the push, as the 12:25 fault taught. Left: the last page check around 20:00 London (TG1), at the 19:12 wake.
