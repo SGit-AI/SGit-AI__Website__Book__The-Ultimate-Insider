@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, hourly at :57 London",
+ "started": "2026-11-04T04:58:15Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Plan: the house (067, with 071's newsroom draft) in a new LAB 47: nine named once, placed by scope.writes at 298be4e or by commit paths, security as the empty chair, the records once as the ground, rooms, and a caption saying it is the designer's reading. The KDP cover only if kdp-interior-count.txt is in the tree (it is not; it waits). Letters and records. All in scope; no HOLD; the talk's repository is only read. Tools: Bash, none refused.",
+   "at": "2026-11-04T04:59:10Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Every path in scope; no HOLD; the talk's repository read only. Conditions: draw only role names and paths from the policies, no session ids, keys, prompts or private people; use the newsroom image as a draft, never edit it; the KDP cover waits (CI writes the count to _site, not the tree); gate before pushing. Tools: Bash, none refused.",
+   "at": "2026-11-04T04:59:40Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Done as planned. LAB 47 the house: rooms by scope.writes at 298be4e (checked at build), the storyteller and the designer by their work (commits checked), security's empty chair, the records as the ground, no drawn caption (convention 8). try-this.css notes one-paragraph sections. The KDP cover waits (no count file in the tree). Letter 130; four letters copied to done/. Lab 163 pages; gate clean.",
+   "at": "2026-11-04T05:03:04Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
