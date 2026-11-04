@@ -24,6 +24,13 @@
    "verdict": "done",
    "comment": "brief 33; FB2, NM1, TH1, PN1, EI2, LW2, RC2D decided with his words (the address only in brief 33 and FB2); the three passes copied redacted (name, religious word, address) with a header note; requests to writer 044, writer2 013, writer3 012, writer4 011, storyteller 075, publisher 089, researcher 071, designer 086, open items marked as his; address grep of comms, from-newsroom, requests-out empty; status with the RC2 checklist",
    "at": "2026-11-04T21:56:04Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "partial",
+   "comment": "partial, fixed before the push: the 16 new letters had the body in the Cc line and the headers after it (the letter helper's arguments swapped); rebuilt in order (From, To, Cc, Date, Subject, X-Kind, References, body), outbox and mailroom copies identical, comms clean. All else as planned with corrections C1 to C7",
+   "at": "2026-11-04T21:57:13Z"
   }
  },
  "closed": null,
