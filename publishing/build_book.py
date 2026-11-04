@@ -204,6 +204,17 @@ def book_blocks(text):
             out += [":::", ""]
             i = j
             continue
+        if s.startswith(("**Figure:**", "**Map:**")):  # a writer's "%% layout: beside|full" under it (designer 139, LY1)
+            j, kind = i + 1, None
+            while j < len(lines) and (not lines[j].strip() or lines[j].strip().startswith(("%%", "`%%"))):
+                m = re.match(r"`?%%\s*layout:\s*(beside|full)\b", lines[j].strip())
+                if m:
+                    kind = m.group(1)
+                j += 1
+            if kind:
+                out += ["", f"::: pair-{kind}", lines[i], ":::", ""]
+                i += 1
+                continue
         if s == "*Dramatised.*":  # the band's note: kept with what follows it, a figure most of all (developer__043)
             out += ["", "::: dramatised", lines[i], ":::", ""]
             i += 1
