@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, 22:42 London",
+ "started": "2026-11-04T22:43:51Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "board note of the diff check; no readers or letters until the whole-book go; debrief, status. Tools Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T22:44:14Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "inside scope.writes; vault_check before commit. Tools Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T22:44:30Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
