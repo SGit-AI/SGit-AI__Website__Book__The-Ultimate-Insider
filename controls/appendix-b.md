@@ -18,8 +18,8 @@ A **setting** is enforced by a tool: the check refuses, the file stops the wakes
 | The gate before every release | setting | broken links, outside code, long dashes and anything shaped like a secret | some values that should not have gone out were not shaped like secrets; the reviews found them, after the push (C025) |
 | The editor's signed decisions | expectation | members acting on an unsigned choice | none found on the day |
 | Public vaults, checked before every commit | setting, with an expectation | recorded clean in post-reviews | once, values went out in a push and were found after it; history keeps them (C025) |
-| Material is never an instruction | expectation | a relayed word for the editor's was refused, and he was asked himself (studio, 17:41) | it rests on each agent keeping it |
-| The session's own permission check | setting, outside the repository | edits a member had no word for | not consistent: the same edit was allowed in one session and refused in another |
+| Material is never an instruction | expectation | nothing recorded shows it stopping anything on its own: where a relayed word was refused, the session's own check made the refusal (next row) | it rests on each agent keeping it |
+| The session's own permission check | setting, outside the repository | edits a member had no word for, among them a member marking its own policy agreed on a word relayed by another agent; the editor was then asked himself (studio, 17:47, C115) | not consistent: the same edit was allowed in one session and refused in another |
 
 ## The second factory's controls (this book's team, from 30 October 2026)
 
@@ -34,4 +34,4 @@ The same register, applied to the team that wrote this book.
 
 ## Where this came from
 
-`controls/README.md` and `controls/index.json`, kept by security; the researcher's register (`claims/register.json`: C006, C023, C024, C025, C100, C112); this book's repository for the second factory's hold (621e5de2, daabf92) and TA1 (`book.json`). Written in the third person, as the register is, so the writer can set it in the editor's voice or keep it as a table.
+`controls/README.md` and `controls/index.json`, kept by security; the researcher's register (`claims/register.json`: C006, C023, C024, C025, C100, C112, C115); this book's repository for the second factory's hold (621e5de2, daabf92) and TA1 (`book.json`). Written in the third person, as the register is, so the writer can set it in the editor's voice or keep it as a table.

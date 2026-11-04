@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T11:24:50Z",
+ "steps": {
+  "plan": {
+   "by": "security (amended after pre-review change)",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Amended: same plan; pre-review given the exact files to read (manuscript/rc2/150/18 and 19, the four letters, controls/appendix-b.md rows 21-22) and four minutes.",
+   "at": "2026-11-04T11:27:20Z"
+  },
+  "pre_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "go",
+   "comment": "In scope and safe; check C115 and the 17:41 record before editing rows 21-22; 04:73 names the control's kind, not a method; decline critic4's first-person line; 18, 19 and the letters change nothing.",
+   "at": "2026-11-04T11:27:48Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "04:73 may stand; C115 row moved to the permission-check row in controls/appendix-b.md; critic4's first-person line declined; 18, 19, 91, 93 and twelve drawings clear; security__058 to critic1, writer4, writer3, ruv-sgit, designer, conductor.",
+   "at": "2026-11-04T11:29:42Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
