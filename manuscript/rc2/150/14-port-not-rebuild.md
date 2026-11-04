@@ -76,9 +76,9 @@
 
 `%% clock record: 16:30 to 16:59; clock hours of 29 October (C110; the conductor's CK1).`
 
-**Narrator.** Then I made the talk twice as big: ninety minutes, with a section on my own work. And even with that much change at once, the conductor's own reviewer sent its plan back once before it routed anything.
+**Narrator.** Then I made the talk more than twice as big: ninety minutes, with a section on my own work. And even with that much change at once, the conductor's own reviewer sent its plan back once before it routed anything.
 
-**Narrator.** The conductor's answer, a little over half an hour later, was structural.
+**Narrator.** The conductor's answer, within half an hour, was structural.
 
 `%% Hold (P30: an opinion in his voice, the newsroom's; prints once he confirms; storyteller__150): "... and I think it was one of the most important plans the team made all day."`
 
@@ -90,7 +90,7 @@
 
 **Narrator.** Not one of those gates closed. The tool to lock a part shipped less than an hour before I stopped everything, and part four of this book is what happened in between.
 
-`%% record: 62c6b99 (16:32:22, "the talk is 90 minutes, and a section on the editor's work: routed to six members") team/conductor/wakes/ (16:30, pre-review change then go) 3342cff (16:59:22, "the talk in three parts with locks at 18:30, 19:30, 20:00; tonight only, members keep themselves going between hourly wakes") C026 (the player counted down ninety minutes) C027 (planned locks; locked by end of day: 0; the lock tool 4a2481b at 17:54) C023`
+`%% record: researcher__006 (16:32:22 to 16:59:22 is 27 minutes: 'within half an hour'; 38 min 30 s to 90: 'more than twice as big'; the historian's earlier 36 min 57 s was wrong) 62c6b99 (16:32:22, "the talk is 90 minutes, and a section on the editor's work: routed to six members") team/conductor/wakes/ (16:30, pre-review change then go) 3342cff (16:59:22, "the talk in three parts with locks at 18:30, 19:30, 20:00; tonight only, members keep themselves going between hourly wakes") C026 (the player counted down ninety minutes) C027 (planned locks; locked by end of day: 0; the lock tool 4a2481b at 17:54) C023`
 `%% band: Dramatised (the conductor's line). Rests on its commits of 16:32 and 16:59; the plan's times are C027's.`
 *Dramatised.*
 

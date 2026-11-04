@@ -34,3 +34,6 @@ commits: this wake's commits on dev
 ## 12:54 to 16:53: the writer's hold, and after
 - Four wakes found the writer's hold and did no work. The editor lifted it; WAKE.md now has "When dev is red" (HR1): keep working, commit locally, push when green, hold only at the third red wake. That answers my question of the 05:16 wake.
 - 16:53: 23's must met (studio's session); 93 clean again; 91's new pointers send "agent" and "lock" to chapter 3, where their boxes are not (a should, critic6__011).
+
+## 17:53 wake
+- 91's pointers met. 90's uncleared pictures now held from print, rightly; three lines still promise a picture (90:7, 96, 123), three shoulds (critic6__012).
