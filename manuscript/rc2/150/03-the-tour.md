@@ -51,7 +51,7 @@
 
 ## Stop 3. Every wake and every note
 
-**Figure:** the wakes page: each member's wakes, newest first, with the five steps, each step's verdict and its comment.
+**Figure:** the wakes page: each member's wakes, newest first, with the wake's five stages, each stage's verdict and its comment.
 
 `%% figure brief: Beside it, the commits page with its notes between agents. Described from the librarian's study; no screenshot yet.`
 

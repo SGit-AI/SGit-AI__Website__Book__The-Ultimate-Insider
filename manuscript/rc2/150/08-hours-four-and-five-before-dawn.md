@@ -146,7 +146,7 @@
 
 ### The same failure, caught in time
 
-**Narrator.** The second scene is in the same wake. The researcher's review after the work returned a finding of the same kind as the first: more of other sites' data, captured along with a page. The card has the register's count.
+**Narrator.** The second scene is in the same wake. The researcher's review after the work returned a finding of the same kind as the first: more of other sites' data, captured along with a page.
 
 `%% for the editor (his view, held out of print until he confirms it, P30): the writer's "is the one I would put in front of anyone building a team like this", of the second scene.`
 

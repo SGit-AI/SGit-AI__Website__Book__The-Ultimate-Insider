@@ -90,7 +90,7 @@
 
 **Deck**: One thing in flight at a time. The other waits its turn.
 
-**Narrator.** And a lapse that stays in. From late in hour nine, many of ruv-sgit's commits dropped the "@" from its name and the line saying which agent made them. They carry on that way, mixed with commits in the house form, to its last of the day. The register's count of commits by member was corrected for it afterwards. Chapter 10 has the conductor's notes about it.
+**Narrator.** And a lapse that stays in. From late in hour nine, many of ruv-sgit's commits dropped the "@" from its name and the line saying which agent made them. They carry on that way, mixed with commits in the house form, to its last of the day. The register's count of commits by member was corrected for it afterwards.
 
 `%% record: eefc1d3 (08:21: its ask of the researcher held while that request is open) 15707dc (08:43, without the @ form or the Agent trailer) fc724df (18:40) C014 (corrected for it) timeline/day/08.md`
 `%% band: Dramatised (deck's line). Rests on deck's wake of 08:18 and ruv-sgit's commits from 08:43.`
@@ -110,7 +110,7 @@
 `%% band: Dramatised (the conductor's line). Rests on its scheduled wakes of 09:03 and 10:03.`
 *Dramatised.*
 
-**Narrator.** In these hours a request asked at one session was answered at the next and used at the one after, with nobody chasing it. Chapter 10 tells it, with the notes.
+**Narrator.** In these hours a request asked at one session was answered at the next and used at the one after, with nobody chasing it.
 
 `%% record: 6b55cff (09:21, deck's ask) 3f094f2 (10:14, the researcher's answer) 36e382b (10:21, deck uses it) timeline/day/10.md ("a request written in one hour is answered by the next slot of its recipient"); told once, in chapter 10 (the storyteller's ruling 1 for part three; writer2__002; critic5's note, P21)`
 
@@ -118,7 +118,7 @@
 
 **Designer**: "The miss is my table's as much as the build's" *(record)*. Dev built what I specified. I specified it wrong.
 
-**Narrator.** The conductor's two notes to ruv-sgit about the "@" fall in these hours too, and deck's after them. ruv-sgit followed deck's and not the conductor's. Chapter 10 tells them in full.
+**Narrator.** The conductor's two notes to ruv-sgit about the "@" fall in these hours too, and deck's after them. Chapter 10 tells both, the request and the notes, with how each turned out.
 
 `%% record: 8917847 (09:54, in the wake of 09:48: the type-scale check in the gate) timeline/day/09.md (the historian's reading: "the second time in the day a member's note became a gate rule for everyone") 99aaf05 (02:51) 56c680b (10:49, the designer's note) team/designer/debriefs/2026-10-29__note-3-checked.md cf7d742 (09:05) 09317d9 (10:05) 36e382b (10:21) historian__022 timeline/day/09.md`
 `%% band: Dramatised (the designer's line). The quoted words are its own, from its note of 10:49.`

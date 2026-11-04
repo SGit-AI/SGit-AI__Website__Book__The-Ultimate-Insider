@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T11:33:44Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Plan first this time; no hold. One change adopted: record the chair word as the newsroom's record only ('Confirmed by Dinis, 4 November 2026' in part two:175, part four:258, part-one-delta-01:22; part four:401 sources it 'Dinis, 4 November 2026, to the newsroom'); say so, and put printing it under principle 30 to the conductor; do not give it as his signed word. Check brief 20 before saying 'not in his briefs' (its 'coincidence' is about the 95%, not the chair: the member checked). The step read the newsroom files only. Tools: Bash; nothing refused.",
+   "at": "2026-11-04T11:36:10Z"
+  },
+  "pre_review": {
+   "by": "security pre-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Read-only plan; no manuscript edits; no secrets; letters stay in public comms; vault_check on comms before commit; the security-row ruling stays with security; no religious words or em-dashes. Tools: Bash; nothing refused.",
+   "at": "2026-11-04T11:36:10Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Plan and pre-review first. RV2 pass 7: 16 (208 applied), 21 (first night), 18, 19, 91, 93 hold; nothing open in the numbers lane. C132 registered as open (the newsroom's record of his word on the empty chair; not in his briefs; printing is the conductor's call). Replies researcher__003 (writer3), 007 (writer4), 035 (conductor); three letters filed; board, debrief, REALITY, status. Not done: the final pass; the web facts.",
+   "at": "2026-11-04T11:37:35Z"
+  },
+  "post_review": {
+   "by": "security post-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "No em-dash, religious word, secret, contact detail or private full name; all in scope; nothing in manuscript/ or src/ changed. C132 is state open, says the only source is the newsroom's files and that it is not his signed word, and leaves printing to the conductor (principle 30); its command prints the three 'Confirmed by Dinis' lines and brief 20's 'coincid' line. The letters do not speak for the editor. 16 says 'two hundred and eight'; 21 says 'first night'. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T11:39:28Z"
+  },
+  "post_check": {
+   "by": "conductor post-check step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Pass 7, 16/18/19/21/91/93 traced, C132 and replies done; the final pass and the web facts stated as not done; the adopted pre-review change is in (the chair word registered as the newsroom's record, printing left to the conductor). Plan and pre-review ran first this wake. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T11:39:28Z"
+  }
+ },
+ "closed": "2026-11-04T11:39:28Z",
+ "outcome": "ok"
+}

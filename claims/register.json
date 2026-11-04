@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-11-04T10:37Z",
+ "as_of": "2026-11-04T11:38Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -4804,6 +4804,33 @@
    "method": "git log --no-merges from the stated commit; wake records counted under team/<member>/wakes/ at that commit",
    "command": "# in a clone of this book's repository:\npython3 claims/book-team-stats.py 05a9510d  # the commit this entry stands at; with no argument it gives today's",
    "note": "These grow every hour, because the team is working. Print them as of a stated commit and rerun at the freeze (the 20:00 target). The staffed times are C114 and the conductor's 00:56:04 (bb1f57c0). The writers 2 to 4 and the critics joined on 4 November and have a handful of commits each; the roll call of chapter 21 names the twelve members of C114. This book's record, not the talk's. Registered at writer4 004, the 06:32 wake, 4 November 2026."
+  },
+  {
+   "id": "C132",
+   "claim": "The empty security chair, in the editor's reading as the newsroom records it: more coincidence than decision, the project did not need it, not starting every engine a sign of maturity",
+   "cited_in": [
+    "manuscript/rc2/150/18-how-do-we-contain-this.md (held on a %% line)",
+    "claims/rc2-150-trace.md"
+   ],
+   "value": {
+    "what_the_newsroom_records": "'Confirmed by Dinis, 4 November 2026: not embarrassment; a coincidence, the project did not need it, and not starting every engine is a sign of maturity.'",
+    "where": [
+     "team/conductor/from-newsroom/2026-11-04__narrator-voice-part-two.md line 175",
+     "team/conductor/from-newsroom/2026-11-04__narrator-voice-part-four.md line 258 (sourced at line 401 as 'Dinis, 4 November 2026, to the newsroom')",
+     "team/conductor/from-newsroom/2026-11-04__narrator-voice-part-one-delta-01.md line 22"
+    ],
+    "the_record": "security's page was written at 00:51:12 (17b287b) and its status at the end of the day says proposed; no session held it (C011)",
+    "not_in_his_briefs": "none of his briefs in this repository (briefs/2026-11-04__in-session/) records the chair word; brief 20's 'coincidence' is about the 95%, not the chair"
+   },
+   "state": "open",
+   "source": {
+    "repository": "SGit-AI__Website__Book__The-Ultimate-Insider (this book's record)",
+    "at": "a85244b5",
+    "evidence": "the three newsroom files named in 'where'; team/security/ROLE.md and C011 for the record"
+   },
+   "method": "read the newsroom's files; grepped his in-session briefs",
+   "command": "grep -n 'Confirmed by Dinis' team/conductor/from-newsroom/*.md; grep -rn -i 'coincid' briefs/2026-11-04__in-session/ | cut -c1-120",
+   "note": "This registers what the newsroom's files record, not a signed word of his: the only source is the newsroom's report of his word to it. The conductor's principle 30 treats the delta file as a confirmation; whether this line prints is the conductor's call under that principle (or his word in a brief). The facts it rests on hold: the page was proposed at 00:51:12 and never staffed (C011). Registered at writer3 002, the 11:32 wake, 4 November 2026."
   }
  ]
 }

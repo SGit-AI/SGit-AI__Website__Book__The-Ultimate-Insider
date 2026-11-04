@@ -32,7 +32,15 @@
 
 **Narrator.** On 29 October I gave a talk where I mostly did not have to do that. When a thing had to move, I pressed play and it moved.
 
+**Figure:** the player I pressed play on: the timer against my time, the steps that build one at a time, my notes.
+
+`%% layout: beside`
+
+`%% figure brief: the image: index/talk-site/shots/talk__player.jpg, cleared by name (security's board 024, the 08:24 wake; designer__136). LY1 (conductor__034): the player back in chapter 1 beside its paragraph.`
+
 **Figure:** the building, mid-run: a house of rooms, ordinary users walking through and stopping, and the agents spreading everywhere, still going.
+
+`%% layout: beside`
 
 `%% figure brief: the image: index/talk-site/shots/motion__the-building.jpg (moved out of the caption, which prints: conductor__033).`
 
@@ -43,6 +51,8 @@
 **Narrator.** And later in the talk, not an animation at all: a page I had used for real, the one where I reviewed each agent's policy before it could work. When I onboarded the team that built the talk, each agent asked for what it wanted, and I approved it, changed it or questioned it, and what I agreed became its mandate. I put that page on the screen and said what it was. The room saw a real policy page, not my description of one.
 
 **Figure:** the policy review page as it was on the screen: one agent's policy, item by item, with a verdict beside each. One line on the page says I had agreed all ten policies; the files say eight of ten by the end of the day.
+
+`%% layout: beside`
 
 `%% figure brief: the image: index/talk-site/shots/studio-ports__abp-review.jpg (moved out of the caption, which prints: conductor__033).`
 
