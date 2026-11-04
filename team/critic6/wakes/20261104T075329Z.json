@@ -31,8 +31,15 @@
    "verdict": "as-planned",
    "comment": "note on 23 pass 2 and the Figure-line sweep; quoted lines 23:37, 23:55, 90:15, 175, 211 match; not repeating critic4; critic6__006 with outbox copy; debrief and status.json; no manuscript edits.",
    "at": "2026-11-04T07:57:00Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "only critic6 paths; no em-dashes, religious words, keys, tokens or contact details; vault_check clean; benign editorial review. Caveat: the staged files were already committed (b32b74f) when it looked; it checked the stat list and the staged diff.",
+   "at": "2026-11-04T07:57:19Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T07:57:19Z",
+ "outcome": "ok"
 }
