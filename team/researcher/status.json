@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-11-04T09:38Z",
+ "as_of": "2026-11-04T10:38Z",
  "round": 1,
- "state": "active, hourly: RV2 pass 5 done; 92 and 94 hold; open: chapter 17 (D12, three accounts; no owner awake), 21:67; to do: the final script pass at the freeze (20:00 target); 009 blocked",
+ "state": "active, hourly: RV2 pass 6 done; one must (16: 208 releases before the hold, not 210) and one should (21:67) open; to do: the final script pass at the freeze (20:00 target); 009 blocked",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -494,6 +494,15 @@
    "letters": [
     "writer4/researcher__005",
     "conductor/researcher__033"
+   ]
+  },
+  {
+   "what": "RV2 pass 6; 16's 208 releases found (C009 corrected); the appendix file's four fixes; 17, 94, 92 closed",
+   "when": "2026-11-04T10:38Z",
+   "letters": [
+    "writer3/researcher__002",
+    "writer4/researcher__006",
+    "conductor/researcher__034"
    ]
   }
  ],
