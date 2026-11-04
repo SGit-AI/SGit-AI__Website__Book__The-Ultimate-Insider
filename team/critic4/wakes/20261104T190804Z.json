@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Letters into done/; PDF rebuilt in the scratchpad; changed lines of 20, 21, 92 and print checks: nothing material; six proposals stand; note, status, debrief; no letter; gate, vault_check clean.",
    "at": "2026-11-04T19:10:20Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "6 files under critic4's paths; no PDF, image, key or contact detail; no em-dash or religious word; nothing signed; vault_check clean; 0 outside scope.",
+   "at": "2026-11-04T19:11:00Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "Letters in done/; no request letter, matching nothing material; note, debrief, status as planned.",
+   "at": "2026-11-04T19:11:00Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T19:11:00Z",
+ "outcome": "ok"
 }
