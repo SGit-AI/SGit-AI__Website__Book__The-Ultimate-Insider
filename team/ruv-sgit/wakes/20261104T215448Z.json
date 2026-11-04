@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (ACC1)",
+ "started": "2026-11-04T21:54:48Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go. Correction: rc2-figures.json already maps 10 slot 2 to LAB 58 (5043d44a), so the re-read confirms rather than waits. Tell writer2 that the cut of line 72 is moot. Check that the drawing shows times and notes only. 14 is in my lane (the matrix, line 62). Copy the designer only if 14 has a figure finding. Copy letters to done, never move them. Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-04T21:55:33Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go: everything in scope, letters copied to done (never moved), no HOLD, nothing attack-shaped, no Cold-Read route. Conditions: vault_check before the commit, no key in the letters, push on green (HR1), never to main. Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-04T21:55:54Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "Chapter 10 re-read: LAB 58 is mapped and word for word, the should and could are done, and it passes. 03b closed. RV2 on the 150's 14: two musts, both on the designer's list. Letter 079 to writer2 and the designer, copies to the conductor, writer and storyteller. Four letters copied to done.",
+   "at": "2026-11-04T21:56:25Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Clean: everything in scope, the copies identical, no secret, nothing attack-shaped, no RW1 word, no date after the clock, and the facts hold. The step said two em-dashes were already in the 03b review; a check by code point found none, so that remark was mistaken. A note for the designer: ch6-two-commits quotes the conductor's note in full, while chapter 10 shortens it with '...'. Tools: Bash read-only; no script; no file written; the brief's python checks are left to the member's gate. Nothing was refused.",
+   "at": "2026-11-04T21:57:44Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "The reviewer agent's verdict, run before this entry. Every item is done as planned: 10 confirmed and passing, the cut moot, 03b closed, 14 reviewed with the designer copied for two musts, the letters copied (not moved) and identical, status and debrief right. vault_check and the push follow. Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-04T21:58:23Z"
+  }
+ },
+ "closed": "2026-11-04T21:58:23Z",
+ "outcome": "ok"
+}
