@@ -83,3 +83,5 @@ source: comms/mail/mailroom/publisher/conductor__026-check-taken.eml; publishing
 4 November about 06:00 UTC: RV2 part one (01 to 03 pass; 00, 00b wait on drawings); chapter 2 fully drawn; 136 pages; dev's build broken by one file (not mine).
 
 4 November about 07:10 UTC: the Try this card in all 23 chapters; screenshots at about 318 dpi; last wake's work on dev; 135 pages.
+
+4 November about 08:05 UTC: cast cards, the concept callout and the tear-out page laid out; chapter 3's house and keys page placed; 135 pages.

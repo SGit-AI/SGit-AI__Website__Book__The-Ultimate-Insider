@@ -62,6 +62,9 @@ def directives(book=None):
             if re.match(r"\s*#!\s*try-this-card\s*$", line):
                 FIT["card"] = True
                 continue
+            if re.match(r"\s*#!\s*blocks\s*$", line):
+                FIT["blocks"] = True
+                continue
             m = re.match(r"\s*#!\s*(drop-section|extra-css):\s*(.+?)\s*$", line)
             if not m:
                 continue
@@ -155,6 +158,55 @@ def try_this_cards(text):
                 out += ["::: tt-try", p, ":::", ""]
         return "\n".join(out + [":::", "", ""])
     return re.sub(r"(?ms)^## (?:Something to try|Try this|Do this now)[ \t]*\n(.*?)(?=^#{1,2} |\Z)", card, text)
+
+
+def book_blocks(text):
+    """"#! blocks": the full book's own blocks, laid out in the build only (the files are unchanged):
+    a "**Cast card: <name>.**" line as a titled box holding the "**Name**: ..." hello and the "*On stage from ...*" line
+    that follow it, if they do (conductor 082); "**Important concept: <title>.** <text>" as the designer's concept
+    callout, with the Figure line that follows it as its picture (designer 133); "**Tear-out page:**" and the list after
+    it on a page of their own (writer4 006)."""
+    lines, out, i = text.split("\n"), [], 0
+    def next_para(j):  # the index of the next paragraph's first line, skipping blanks and %% lines
+        while j < len(lines) and (not lines[j].strip() or lines[j].strip().startswith(("%%", "`%%"))):
+            j += 1
+        return j
+    while i < len(lines):
+        s = lines[i].strip()
+        m = re.match(r"\*\*Cast card: (.+?)\.?\*\*", s)
+        if m:
+            out += ["", "::: cast-card", "::: cast-card-name", m.group(1).rstrip("."), ":::", ""]
+            j = next_para(i + 1)
+            for pat in (r"\*\*[A-Z][\w-]*\*\*\s*:", r"\*On stage from"):
+                if j < len(lines) and re.match(pat, lines[j].strip()):
+                    out += [lines[j], ""]
+                    j = next_para(j + 1)
+            out += [":::", ""]
+            i = j
+            continue
+        m = re.match(r"\*\*Important concept: (.+?)\.\*\*\s*(.*)$", s)
+        if m:
+            out += ["", "::: concept", "::: cc-label", "Concept", ":::", "", "::: cc-title", m.group(1), ":::", "",
+                    m.group(2), ""]
+            j = next_para(i + 1)
+            if j < len(lines) and lines[j].strip().startswith("**Figure:**"):
+                out += ["::: cc-pic", lines[j], ":::", ""]
+                j += 1
+            out += [":::", ""]
+            i = j
+            continue
+        if s.startswith("**Tear-out page:**"):
+            out += ["", "::: tear-out", lines[i], ""]
+            j = i + 1
+            while j < len(lines) and (not lines[j].strip() or lines[j].lstrip().startswith(("- ", "* "))):
+                out.append(lines[j])
+                j += 1
+            out += ["", ":::", ""]
+            i = j
+            continue
+        out.append(lines[i])
+        i += 1
+    return "\n".join(out)
 
 
 def drop_sections(text, headings):
@@ -338,6 +390,8 @@ def main():
                 raw = drop_sections(raw, drop)
             if FIT.get("card"):
                 raw = try_this_cards(raw)
+            if FIT.get("blocks"):
+                raw = book_blocks(raw)
             if a.cast:  # the writer's chapters use the editions' conventions (publisher__003 to the writer)
                 key = os.path.relpath(os.path.abspath(src), MANUSCRIPT)
                 drawings = figure_map.get(key)

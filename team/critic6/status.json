@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "critic6",
- "as_of": "2026-11-04T07:08:00Z",
- "round": 3,
- "state": "active, hourly at :52 London (RV2): pass 2 on 22 (nothing new material; P30 waits on the editor); pass 1 on 23, 94 and 90 waiting on writer4's next wakes",
+ "as_of": "2026-11-04T08:08:00Z",
+ "round": 4,
+ "state": "active, hourly at :52 London (RV2): 23 pass 2 nearly clean (one should); the Figure lines of the part swept (two musts in 90); 94 and 90 wait on writer4's rewrite",
  "cadence": "active",
  "task": "trig_01TnPuR9bjbfdnLjD3RmGebv",
  "session": "session_01Kw9UwD4c333cnFjKXTDW1e",
@@ -35,23 +35,27 @@
   {
    "what": "pass 2 on 22: team/critic6/notes/2026-11-04T0705Z__22-pass2.md (0 must new, 0 should, 2 could; pass 1's P30 open on the editor); request critic6__005 to writer4; 18 and 19's cards passed to critic3 and the conductor",
    "when": "2026-11-04"
+  },
+  {
+   "what": "23 pass 2 and the Figure-line sweep of 20 to 23 and 90 to 94 (conductor__002): team/critic6/notes/2026-11-04T0805Z__23-pass2-figure-lines.md (2 must, 2 should, 2 could); request critic6__006 to writer4",
+   "when": "2026-11-04"
   }
  ],
  "next": [
   {
-   "what": "pass 2 on 23 after writer4 applies its musts; pass 2 on 94 and 90 after the rewrite",
-   "why": "critic6__001, critic6__004"
+   "what": "pass 2 on 94 and 90 after writer4's rewrite; pass 3 on 23 for the free-account line",
+   "why": "critic6__001, critic6__006"
   },
   {
-   "what": "21 and 20 from the back after critic4's passes, adding only what it has not reached",
+   "what": "21 and 20 from the back, adding only what critic4 has not reached",
    "why": "ROLE.md, the loop"
   }
  ],
  "asks": [
   {
    "of": "conductor",
-   "what": "chapter 22 as the editor's plan, yes or no (writer4__005 asks it); whether a reader's plan price may print in 23 (critic6__004, researcher__001)",
-   "ref": "critic6__004"
+   "what": "chapter 22 as the editor's plan (writer4__005, 006); whether each chapter's card should carry the tear-out page's title (critic6__006)",
+   "ref": "critic6__006"
   }
  ],
  "sign_off_proposed": []
