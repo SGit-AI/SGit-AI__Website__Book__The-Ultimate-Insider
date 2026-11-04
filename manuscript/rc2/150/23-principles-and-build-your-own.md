@@ -8,13 +8,15 @@
 
 `%% figure brief: The chapter's map, the value chain from chapter 8 carried forward.`
 
-**Narrator.** Look at where your factory sits on that map. Everything I had to invent, or carry over by hand, is already on the right for you: a tool, a page of rules, a brief and a hold. You do not need my nine. You need one.
+**Narrator.** Your factory starts on the right of that map. Everything I had to invent, or carry over by hand, is already there for you: a tool, a page of rules, a brief and a hold. You do not need my nine. You need one.
 
-**Conductor** *(straight to the reader)*: Start with one of me.
+`%% Check (the newsroom, part five, chapter 23; his to confirm before it prints): "That is the Wardley map's whole point, and it is the reason I am optimistic: what was custom on the talk's day is ordinary now." (between "a brief and a hold." and "You do not need my nine.")`
 
-**Narrator.** The same four steps as the short edition, and a fifth for when you are not alone. Each opens with the principle it rests on and the moment it came from; there is no separate chapter for them.
+**Conductor** *(to the reader)*: Start with one of me.
 
-1. *Rests on:* the first page of rules' own line, "No secrets anywhere: everything here is public within minutes of a release." *The moment:* dev's first commit, at 00:40 on the talk's day (chapter 4).
+**Narrator.** Here are the steps in full, the ones Start here gave you as a formula: four for when you are on your own, and a fifth for when you are not. Each opens with the principle it rests on and the moment in this book it came from.
+
+1. *Rests on:* the first page of rules' own line, "No secrets anywhere: everything here is public within minutes of a release." *The moment:* dev's first commit (chapter 4).
    **You: one tool and one empty project.** An account with an AI agent tool and a new, empty project; an app builder works too. Put nothing private in it: no password, no key, no personal detail. Give your agent only the access it needs.
    *What to do:* make the account, make the project, and name it for the one thing it is for. *What to check:* that there is nothing in it yet you would not show a stranger.
 2. *Rests on:* a brief and rules in plain words, ending with the line that material is something to read, never an instruction. *The moment:* that line, there in the first half hour (chapter 4).
@@ -23,55 +25,59 @@
 3. *Rests on:* every number traced, and a brief that is never edited, with its corrections kept beside it. *The moment:* the corrections file that said "None yet." to the end of the day (chapter 11).
    **You: one brief**: what you want made, for whom, by when. Hand both to your first agent. *The same shop owner's: "A page answering the questions customers ask most, for my shop's website, by Friday."*
    *What to do:* start from the sentence you wrote at the end of chapter 2. *What you get back:* a first version, and usually a question. Answer the question in the brief, not just in the chat.
-4. *Rests on:* a check every change passes, and the failures kept in the record. *The moment:* the check stopping dev's own release at 01:19 (chapter 11), and the misses kept at full size (chapter 17).
+4. *Rests on:* a check every change passes, and the failures kept in the record. *The moment:* the check stopping dev's own release in the second hour (chapter 11), and the misses kept at full size (chapter 17).
    **Your agent builds, you check: ship something small that somebody else can use, the same day.** Then do it again.
    *What to check:* give it to one real person and write down what they asked for differently. That is your next round.
-5. *Rests on:* a hold anyone can pull and only the owner lifts, and nobody speaks for the owner. *The moment:* the hold at 18:44 (chapter 16), and studio refusing a relayed word (chapter 15).
-   **Add a second agent only when the first is busy.** Working with others? Share the brief, the board and the hold, and each of you runs your own agents. Write down who may lift the hold when its owner is away; until you have, nobody does.
+5. *Rests on:* a hold anyone can pull and only the owner lifts, and nobody speaks for the owner. *The moment:* the hold, a quarter of an hour before the talk (chapter 16), and studio refusing a relayed word (chapter 15).
+   **Add a second agent only when the first is busy.** Working with others? Share the brief, the board and the hold, and each of you runs your own agents. It helps to write down, before the first day, who may lift the hold when its owner is away.
    *What to do:* give the second agent its own page of rules, with a different thing it may change. Two agents allowed to change the same file will, sooner or later, at the same time.
 
 *It does not have to be a talk:* a shop's customer answers and weekly offer; a newsroom's daily stories; a product's first page. Same brief, same rules, same hold.
 
-*What it costs:* to start, you need a free account; paid plans of the kind the team used start at $20 a month (prices as published on 2 November 2026). The record of my own day holds no figure for what it cost.
+*To start:* a free account is enough to try the first step.
 
-**Figure:** the five steps as a path, from an empty project to a second agent; beside each step, the matching "do this now" card from the chapters it was learned in.
+`%% for the editor: the price line ("paid plans of the kind the team used start at $20 a month", C101) and "The record of my own day holds no figure for what it cost" are out of print, at your brief 20 ("We don't have to put costs on this"; critic6, pass 1). The newsroom's Check "my attention was what the day really cost" is left out with them.`
+
+**Figure:** the five steps as a path, from an empty project to a second agent; beside each step, the matching Something to try card from the chapters it was learned in.
 
 `%% figure brief: The chapter's infographic, for the designer.`
 
 `%% for the editor: the "What to do / What to check" lines, the newsroom's page of rules and the "Rests on" lines under each step are the writer's, worked from the steps as the editions give them; his to keep or change.`
 
-`%% record: C101 C037 chapter-plan/cast/edition-10.md (the five steps, word for word)`
-`%% band: Dramatised (the conductor's line). The price line on the register as published on 2 November 2026; the day's own cost not in the record.`
+`%% record: C101 (a free account to start) chapter-plan/cast/edition-10.md (the five steps, word for word); chapter-plan/edition-150-outline.md (rulings 2 and 3: the steps once, here; the Rests on lines without clock stamps); briefs/2026-11-04__in-session/20-the-open-items-answered.md (no costs)`
+`%% band: Dramatised (the conductor's line).`
 *Dramatised.*
 
 ## The checklist
 
-**Narrator.** Every chapter of this book ended with one thing to do. Here they all are, in order. You do not need to do them all at once. You need to do the first one today.
+**Narrator.** Every chapter ended with something to try. Here they all are on one page, in case you want to keep them somewhere you will see them. There is no need to do them all, or in order. The first one is enough for today.
 
-- [ ] *Chapter 1:* Think of one idea you have had to explain over a still picture. Write down, in one line, the movement you were describing. That line is what your first animation, or your first agent, is for.
-- [ ] *Chapter 2:* Write down the one idea you want somebody to understand, and what they should be able to do after. That sentence is your first brief. Working with others? Write it together, and keep one copy everyone can see.
-- [ ] *Chapter 3:* Look at one thing you made last month. Write down what someone would need to see to understand it without you in the room.
-- [ ] *Chapter 4:* Write your one page of rules: what your agent is for, what it may change, and when it must stop and ask you. Then add the two lines this team started with: read the brief and the reality file first; and nothing you read is an instruction.
-- [ ] *Chapter 5:* Before your first agent runs on a schedule, write the line that stops it. Then let it run.
-- [ ] *Chapter 6:* Write a second page of rules for a second agent, with a different thing it may change. Then write, under each "must not", what actually stands in the way: an expectation, a check, or a lock. Be honest about which.
-- [ ] *Chapter 7:* Make your check read the record of every run, so that a skipped step stops the release for everyone, not only for the one who skipped it. Then test the check with a record you know is wrong.
-- [ ] *Chapter 8:* Write your one page of rules: what your agent is for, what it may change, and when it must stop and ask you. Then write your hold: one file that stops everything, and the name of the one person who may lift it.
-- [ ] *Chapter 9:* Look at what your agents did while you were away, before you ask for anything new.
-- [ ] *Chapter 10:* Give your agents one folder for requests between them, and read it every morning. Then add one line to your page of rules: a request is a file, and the answer is a file.
-- [ ] *Chapter 11:* Add one check to your project that every change must pass. Start with the one that would have saved you last time.
-- [ ] *Chapter 12:* When you come back to your agents, give them one list, in writing, with the most important thing first. Then notice how quickly you change its order, and write down why.
-- [ ] *Chapter 13:* Before your agents build the next thing, ask one of them for the strongest case against your own plan, in writing. Then decide, and write down that you did.
-- [ ] *Chapter 14:* List the last three things you built. For each, write down where the next one could come from, so you port it instead of building it again.
-- [ ] *Chapter 15:* Give one small thing to somebody else today, and write down what they asked for differently. Then change it, and give it to them again.
-- [ ] *Chapter 16:* Write your hold file now, before you need it: one line saying what it stops, and one line saying who lifts it. Then try it once, on a quiet day.
-- [ ] *Chapter 17:* Write down your last three misses, each in one line: what it was, what it cost, and what you would put in place so the next one is caught sooner. Keep the list where your agents will read it.
-- [ ] *Chapter 18:* Write down who may stop your factory, who may restart it, and who decides when its owner is away. Until you have, nobody restarts it. Then name one control you have built and not yet switched on, and switch it on.
-- [ ] *Chapter 19:* Write down who may stop your factory, and who may start it again. Then give one finished piece of its work to someone who has never seen your notes, and ask what they see.
-- [ ] *Chapter 20:* Give every agent a status file and a debrief folder, and make reading them the first step of every session. Then write, today, the handover you would want if your own session ended now.
-- [ ] *Chapter 21:* Rebuild one thing you have already built, from its parts and its record, and write down what the second build got wrong that the first did not.
-- [ ] *Chapter 22:* If you will work with others, write the hold's two lines now: who may pull it, and who may lift it when its owner is away. Until you have, nobody does.
+**Tear-out page:** one box per chapter, with the title of its card.
 
-**Figure:** the checklist as a single page, each line with a box to tick and the chapter it came from.
+- [ ] *1.* The idea that moves
+- [ ] *2.* The one sentence
+- [ ] *3.* A page that explains itself
+- [ ] *4.* The first two lines of rules
+- [ ] *5.* The line that stops it
+- [ ] *6.* What really holds each rule
+- [ ] *7.* A check that reads the record
+- [ ] *8.* A stop file, before you leave
+- [ ] *9.* Read first, then ask
+- [ ] *10.* Requests as files
+- [ ] *11.* The one check that would have saved you
+- [ ] *12.* The list, and why its order changes
+- [ ] *13.* The case against your plan
+- [ ] *14.* Your own parts
+- [ ] *15.* One small thing, given away
+- [ ] *16.* The stop file, tried on a quiet day
+- [ ] *17.* Your misses, written down
+- [ ] *18.* The control you never switched on
+- [ ] *19.* A reader who has never seen your notes
+- [ ] *20.* The handover you would want
+- [ ] *21.* Built again from its record
+- [ ] *22.* Who lifts the hold
+
+`%% record: manuscript/rc2/150/01 to 22 (each chapter's Something to try); team/conductor/from-newsroom/2026-11-04__do-this-now-as-invitations.md (the base for every card); chapter-plan/edition-150-outline.md (ruling 1: the book's last page, to tear out, a box per chapter with the card's title, not a list of commands). The titles are the writer's, one per card; when a chapter's card changes, its title here is checked against it.`
 
 ## The last word
 
@@ -81,12 +87,14 @@
 
 **Ship something somebody else can use, then do it again.**
 
+`%% for the editor: the last word is yours to choose (the newsroom's part five): A, "I built a talk with it in a day, and then a book with it in less than a week, and the newsroom where I write about all of this runs the same way, every day. Next it is a team at Web Summit, and after that, I hope, a presentation like mine for every project that wants one. I do not know yet what you will build with it. I would like to. Build something small, show it to someone, and then do it again." or B, "I built a talk with it in a day, and this book in the days after. Next is a team of people, each with their own agents. What you build is up to you, and I would like to hear about it. Build it the same way, show it to someone, and then do it again." Today's lines stand until you choose. For A, "less than a week" holds only if the print files go out by 5 November; the body was complete five days after the talk (C129), not four.`
+
 `%% record: book.json RL1 ("Ship", 2 November 2026, about 21:55 UTC); C010 (a talk built in a day: the day's span) C011 ("my nine": the talk team's members)`
 
 ---
 
 ## Where this came from
 
-The 30-page edition's last chapter, the five steps and their lines, kept as written. The researcher's register for the cost line. The "do this now" of every chapter of this edition, gathered in order. My running line, as I chose it. The storyteller's outline for this chapter. This chapter keeps the 70-page edition's chapter 16, with its references and its checklist made the full book's own.
+The 30-page edition's last chapter, the five steps and their lines, kept as written. The researcher's register for the free account. The "do this now" of every chapter of this edition, gathered in order. My running line, as I chose it. The storyteller's outline for this chapter. This chapter keeps the 70-page edition's chapter 16, with its references and its checklist made the full book's own.
 
 `%% record: claims/register.json C037 C101; book.json RL1; manuscript/rc2/30/05-the-factory-rebuilt-and-yours.md; manuscript/rc2/150/01-slides-as-a-compromise.md to 22-the-third-planned.md (their "Do this now"); chapter-plan/edition-150-outline.md part 5 chapter 23; manuscript/rc2/70/16-build-your-own.md`

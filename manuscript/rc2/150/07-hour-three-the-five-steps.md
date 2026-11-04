@@ -26,7 +26,7 @@
 
 **Narrator.** *Step one, the plan.* The conductor wrote what it would do: the new section in the wake rules, the briefs for the reviewers, a tool that checks every wake record has all five steps, one line in the page of rules about the five steps, at my word. The plan's own words carry something else: "Amended after the pre-review's change, all five conditions adopted". The reviewer had sent the plan back once. One oddity for anyone who opens the file: the record keeps that first "change" with a later time stamp than the "go", 02:17 against 02:16; the debrief tells it in the order here.
 
-**Conductor** *(pacing, a little stung)*: My first plan went back with conditions. I took every one. Then it said go.
+**Conductor**: My first plan went back with conditions. I took every one. Then it said go.
 
 **Narrator.** *Step two, the pre-review.* A second agent, briefed as security, read the amended plan against the conductor's scope and the rules. Its verdict was go, with conditions of its own: keep the line in the page of rules named as outside the conductor's scope, check before touching any vault, ask dev rather than editing dev's gate.
 
@@ -40,7 +40,7 @@
 
 **Narrator.** *Step five, the post-check.* The conductor's own check, against its own plan, item by item: the finding answered in the debrief and the closing commit, every condition kept. Verdict: partial. Not "as planned". At 02:19 the wake closed partial, and the next commit named the edit.
 
-**Conductor** *(worried, then calm)*: Caught by the reviewer I invented. Good. But know what it is: "a second reading, not a second identity." *(record)*
+**Conductor**: Caught by the reviewer I invented. Good. But know what it is: "a second reading, not a second identity." *(record)*
 
 **Narrator.** The review caught its own author on the first run. The historian reads it as the strongest early sign in the record of the small hours that the steps were more than ceremony. It is also the first entry in the register's list of what the day's post-reviews found and what each fixed.
 
@@ -58,11 +58,11 @@
 
 **Narrator.** At 02:48 dev's first scheduled wake began, at its own minute, and the conductor's request was in its mail: put the check for wake records into the gate. Dev did. From 02:51, a closed wake record that skipped a step, or recorded work without two go verdicts before it, failed the gate, and not only for the member that skipped. For every member. Dev tested it the way a check should be tested, with a record it knew was wrong, and the gate found every missing step.
 
-**Dev** *(fast, then careful)*: It changes the gate for everyone. I said so in the commit, and I ran the whole gate before I pushed.
+**Dev**: It changes the gate for everyone. I said so in the commit, and I ran the whole gate before I pushed.
 
 **Narrator.** That last line is the pre-review's, made into dev's habit: the reviewer had set it as a condition, because a change to the gate is a change to every member's day. And dev's own post-check, run by a sub-agent briefed as the conductor, still closed the wake partial, because one file it had planned to change was not in the diff when it looked. The check that had just become everyone's was applied, the same minute, to the one who built it.
 
-**Figure:** one rule's journey in an hour: written in the conductor's wake rules at 02:18, asked of dev by mail, in the gate at 02:51, and from then on a red mark on any member's release whose wake skipped a step.
+**Figure:** one rule's journey in an hour: written in the conductor's wake rules, asked of dev by mail, in the gate within the hour, and from then on a red mark on any member's release whose wake skipped a step.
 
 `%% figure brief: For the designer. A line of time across hour three, with the rule moving from a page to a setting. The times in the picture, not in any line.`
 
@@ -76,7 +76,7 @@
 
 **Narrator.** ruv-sgit's first scheduled wake was small and complete: answer the conductor's onboarding request, make and publish its session key, add a second-pass mode to its runner. Every step is recorded, and every verdict is the one you would want: go, go, done, clean, as planned.
 
-**ruv-sgit** *(absorbed, not looking up)*: The clock said go. So I went. Small things, every step, then back to the bench.
+**ruv-sgit** *(not looking up)*: The clock said go. So I went. Small things, every step, then back to the bench.
 
 **Narrator.** But read the hour as a whole and the clock is not yet in charge. Most of the hour's wakes were mine: I was awake and in the sessions, asking. The card has the hour's count. The schedule ran beside me, not instead of me. That changes in hour five.
 
@@ -98,7 +98,7 @@
 
 **Narrator.** Five minutes later, at 02:52, the researcher proposed the rest of its list to deck, as exact replacement text. One of the items was a number on the talk's definition slide, which the researcher now had a newer source for. It arrived just after a freeze I had set. Deck recorded the rest of the list as not acted on, because of the freeze.
 
-**Researcher** *(unbudging)*: The text is exact. Apply it, or say why not. It is in the record either way.
+**Researcher**: The text is exact. Apply it, or say why not. It is in the record either way.
 
 **Narrator.** Deck turned the freeze into a programme of experiments within the hour. What it cost is a story for part 4, because the cost did not show until the afternoon. Here, note only the shape of it: a correction that was right, delivered on time by its own clock, and five minutes late by mine.
 
@@ -114,9 +114,13 @@
 
 **Narrator.** Keep the reviewer's line from this hour in mind: a second reading, not a second identity. Through the day, reviewers like it sent plans back and found real things, and each one is in a wake record. But the reviewer was the same kind of thing as the member it reviewed, sharing the same session's reach. Part 4 asks what that means.
 
-## Do this now
+## Something to try
 
-*Make your check read the record of every run, so that a skipped step stops the release for everyone, not only for the one who skipped it. Then test the check with a record you know is wrong.*
+*The five steps only mattered because a check read them.*
+
+*If your agents keep a record of each run, a check that reads it can stop a release when a step is missing. One way to test that check is with a record you know is wrong.*
+
+`%% record: team/conductor/from-newsroom/2026-11-04__do-this-now-as-invitations.md (chapter 7, the proposed card); chapter-plan/cast/cast-guide.md (page conventions 1)`
 
 ---
 

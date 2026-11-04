@@ -20,7 +20,7 @@
 
 `%% for the editor (his view, held out of print until he confirms it, P30): the newsroom's "But I think the direction is what matters." before "The distance", and "That is a different way of working, not just a faster one." after "started fine-tuning".`
 
-**Figure:** my last afternoon ask drawn to the clock: asked, answered twelve minutes later, and the hold seven minutes after that.
+**Figure:** my last ask for the player drawn to the clock: asked, answered twelve minutes later, and the hold seven minutes after that.
 
 `%% figure brief: ruv-sgit's lab/experiments/29-ruv-the-afternoon-loop/edition/round-trip-clock.svg (ruv-sgit__066): the ask at 18:25, the commit that answered it at 18:37, the hold at 18:44 at the edge, with no table; times from C105 and C006. The asks card (asks-card.svg, from C118) stays in chapter 12 (storyteller__126).`
 
@@ -68,7 +68,7 @@
 
 `%% record: team/conductor/from-newsroom/2026-11-04__narrator-voice-part-one-delta-01.md (section 1, confirmed by him, 4 November 2026); briefs/2026-11-04__in-session/21-the-whole-book-pass.md; C011 (nine staffed, security proposed and never staffed) C001`
 
-**Figure:** the cast cards, greyed, in a row, each with its job in one line: dev, the site and its build; the conductor, the clock and the plan; deck, the talk's beats and slides; ruv-sgit, the workshop of experiments; the researcher, every fact checked against its source; the designer, how it looks on the projector; the storyteller, the order of the story; motion, the pieces that move; studio, the best of the old sites brought across.
+**Figure:** the cast cards, greyed, in a row, and one empty chair.
 
 `%% figure brief: And an empty chair for security, planned and never staffed. The designer's cards (LAB 27 and 37), drawn not yet lit.`
 

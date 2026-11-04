@@ -30,3 +30,4 @@ The full book: every scene, the appendices, the record markers live online. Writ
 - 4 November 2026, 04:38 UTC: 03 and 04 in his voice, the first cast cards in 04, 06 points back; 05 to 09 next.
 - 4 November 2026, 05:37 UTC: the review desk's first notes taken; P30 across 00b to 09; 04 reshaped; 05 to 09 next.
 - 4 November 2026, 06:33 UTC: 05 and 09 in his voice; the researcher's two musts; 06 to 08 next.
+- 4 November 2026, 07:37 UTC: 08 in his voice; the review desk's musts; 06 and 07 at length next (board 006).

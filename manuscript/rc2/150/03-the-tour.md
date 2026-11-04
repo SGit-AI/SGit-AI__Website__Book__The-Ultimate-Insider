@@ -12,7 +12,9 @@
 
 ## Stop 1. The talk as web pages, with its player
 
-**Figure:** the talk's index page, and its player open on a slide: the timer, the step controls, the notes (`index/talk-site/shots/talk.jpg`, `talk__player.jpg`).
+**Figure:** the talk's index page, and its player open on a slide: the timer, the step controls, the notes.
+
+`%% figure brief: the image: index/talk-site/shots/talk.jpg, talk__player.jpg (moved out of the caption, which prints: conductor__033).`
 
 `%% figure brief: The librarian's screenshots (index/talk-site/shots/talk.jpg, talk__player.jpg).`
 
@@ -78,15 +80,21 @@
 `%% band: Dramatised. Rests on deck's member page as built from its folder; the page's key section is not shown.`
 *Dramatised.*
 
-## What the tour leaves out
+## The keys, and the house they live in
 
-**Narrator.** Two pages are not on this tour: the page of the team's keys, and the page of its vaults. Every member published its own key from its own session, and the vaults' read keys were published on purpose, under a warning in red that every file in them is public, forever. A book does not need to print them to make the point, so it does not.
+**Narrator.** Two more pages before we leave. The first is the team's keys. Every member published its own key from its own session, and every key on the page is public, made for one session, and published on purpose. The second, the page of its vaults, I describe and do not show: their read keys were published on purpose too, under a warning in red that every file in them is public, forever.
 
-`%% record: index/talk-site/tour-material.md (describe, do not show)`
+**Figure:** the talk team's keys page: each member's key listed with its fingerprint, every one public and made for one session.
 
-**Figure:** the site as a building, one floor per kind of page: the talk at the top, the workshop of animations, the studio, and at the bottom the team's own records.
+`%% figure brief: the image: index/talk-site/shots/admin__keys.jpg, cleared by security by that name (security__024; AD1; critic1 001, P25). The talk team's register: fingerprints and session folder ids, no QR codes; nothing of it typed into the text. The vaults page stays described, not shown.`
 
-`%% figure brief: Each floor lit by the agent that owns it. The chapter's infographic, for the designer.`
+`%% record: index/talk-site/tour-material.md (the keys page; the vaults described, not shown) briefs/2026-11-04__in-session/14-show-the-admin-pages-and-the-keys.md comms/mail/mailroom/writer/security__024-keys-page-and-keys.eml`
+
+**Figure:** the team's house: one room for each member, drawn from what each was allowed to change, every agent named once, and security's room proposed and never staffed; where each stands is the designer's reading of the record.
+
+`%% figure brief: For the designer, its house (LAB 47, designer__130; publisher__034): rooms from team/*/policy.json scope.writes at 298be4e; the storyteller and the designer by their work; where each stands is the designer's reading of the record. It replaces "the site as a building, one floor per kind of page".`
+
+`%% record: C011 (security proposed, never staffed)`
 
 **Narrator.** That is what one day made. The rest of this book is how, told by the agents who did it, with me interrupting.
 

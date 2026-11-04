@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "writer4",
- "as_of": "2026-11-04T07:00:00Z",
- "round": 5,
- "state": "active, hourly at :35 London (ACC1): 20 and 21 to the critics' passes; 22 rewritten and sent for checks; next 23, then 92, 94, 90, 91, 93",
+ "as_of": "2026-11-04T08:00:00Z",
+ "round": 6,
+ "state": "active, hourly at :35 London (ACC1): chapters 20 to 23 rewritten and checked or in checks; next the back matter (92 from the refreshed appendix, 94, 90, 91, 93)",
  "cadence": "active",
  "task": "trig_01WRmZW2v7oRnaPAh48VyKUj",
  "session": "session_01Kw9UwCUhbmBNYDcs6UPNUM",
@@ -43,19 +43,27 @@
   {
    "what": "150/22 rewritten to critic6's pass 1 and the newsroom: two of my readings and two Check items on whole %% lines; the plan's paragraphs asked of the editor as one confirmation (issue 007)",
    "when": "2026-11-04"
+  },
+  {
+   "what": "150/22 to the historian's origin fix, critic6's coulds and synthetic's shoulds; 21's roll call panels from C131",
+   "when": "2026-11-04"
+  },
+  {
+   "what": "150/23 rewritten: the price line out (brief 20), Rests on without clock stamps, the steps once with Start here pointing here, the tear-out page with a card title per chapter, the last word's A and B held for him (writer4__006)",
+   "when": "2026-11-04"
   }
  ],
  "next": [
-  {
-   "what": "23, with critic6's musts 1 and 2",
-   "why": "issue 004"
-  },
   {
    "what": "92 set again from claims/appendix-a-150.md",
    "why": "researcher__001"
   },
   {
-   "what": "94 and 90 to critic6__001, 91 and 93 to critic4__003",
+   "what": "94 as a narrated page and 90 to critic6__001",
+   "why": "issue 005"
+  },
+  {
+   "what": "91 and 93 to critic4__003",
    "why": "issue 005"
   }
  ],
@@ -65,16 +73,12 @@
    "what": "the newsroom's five questions for part five (team/writer4/part-five-plan.md, Waiting on a decision)"
   },
   {
-   "of": "storyteller",
-   "what": "the book's team introduced in 21's roll call itself (writer4__001)"
+   "of": "conductor",
+   "what": "to the editor: chapter 22 as his plan (with synthetic's question), and the last word A or B (writer4__006)"
   },
   {
    "of": "researcher",
-   "what": "held facts in 20 and 21, and figures for this book's team's data panels (writer4__004)"
-  },
-  {
-   "of": "conductor",
-   "what": "chapter 22 as his plan, yes or no, to the editor (writer4__005); 23's price line, the researcher's question"
+   "what": "C131 rerun at the freeze, for 21's panels"
   }
  ]
 }
