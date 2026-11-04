@@ -17,6 +17,13 @@
    "verdict": "go",
    "comment": "No hold; the recent manuscript changes hold no outside addresses or bare %% lines. Conditions: commit only paths in scope; PDF build in a temp folder only; vault_check before push. It also said make_editions.py writes manuscript/editions/: that is a misreading, checked by the developer (every write in make_editions.py and print_pages.py goes to src/pages/review/, review/anchors/, src/static/review/ or a removed temp folder; manuscript/ is only read; git shows no change under manuscript/).",
    "at": "2026-11-04T00:13:38Z"
+  },
+  "work": {
+   "by": "developer@book.the-ultimate-insider (claude-sonnet-5-5)",
+   "model": "",
+   "verdict": "done",
+   "comment": "In e82eb6d7: upkeep in the documented order; rc2-150 27 chapters (200 scenes, 1357 links), 111 printed pages, 107 shown; rc2-70 61/59 with four paragraphs fewer (546); 328 QR targets; all anchors mapped (263, 546, 1022); no inline editor's note on a page; manuscript/ untouched; guards and gate clean; no temp folder left. Two review-step notes in the debrief for security's register.",
+   "at": "2026-11-04T00:15:10Z"
   }
  },
  "closed": null,
