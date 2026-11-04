@@ -1,0 +1,50 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer4",
+ "kind": "scheduled, hourly at :35",
+ "started": "2026-11-04T17:35:55Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1) publisher 008: 90's figure briefs name only shots security cleared by name (index.jpg, motion__meet-the-team.jpg, security__010); the other five shots asked of security by letter, the publisher told; %% layout: full under 21's and 90's figures. 2) critic4 014: 90's figures with no image or uncleared (team page and others) to %% lines. 3) 91's agent and lock checked against the boxes. 4) the researcher told the last landing; one letter; records.",
+   "at": "2026-11-04T17:36:17Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Run again after change. Amended plan fits: only index.jpg and motion__meet-the-team.jpg named (security__010); the other five to security by letter; uncleared figures to %% lines. Conditions: team.jpg only as a cropped copy security has read; no abp-review caption carrying 'all ten'.",
+   "at": "2026-11-04T17:38:31Z"
+  },
+  "work": {
+   "by": "writer4",
+   "model": "",
+   "verdict": "done",
+   "comment": "90: index.jpg and motion__meet-the-team.jpg named (cleared); five shots held and asked of security; four undrawn figures held; layout lines; 91 agent 1, lock 16; letter writer4__012 with the last landing; records.",
+   "at": "2026-11-04T17:41:05Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "validate, agents check, vault_check pass; no key, token, personal detail, em-dash or RW1 word; in 90 only index.jpg and motion__meet-the-team.jpg named, both citing security__010; team.jpg and abp-review only inside held lines; pre-review conditions met.",
+   "at": "2026-11-04T17:42:26Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Amended plan items 1 to 4 in the diff; nothing unplanned (91's chapters checked by the member against the boxes: agent 01 line 15, lock 16 line 19).",
+   "at": "2026-11-04T17:42:26Z"
+  }
+ },
+ "closed": "2026-11-04T17:42:26Z",
+ "outcome": "ok",
+ "history": [
+  {
+   "pre_review": "change: only index.jpg and motion__meet-the-team.jpg are cleared by name (security__010); the other five need security first"
+  }
+ ]
+}

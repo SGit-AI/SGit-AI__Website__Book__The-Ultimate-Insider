@@ -770,7 +770,7 @@
    "status": "decided",
    "by": "editor",
    "ask": "The working time for the full book's text: a target, not a freeze",
-   "detail": "Decided by the editor, 4 November 2026, about 02:46 UTC (briefs/2026-11-04__in-session/20-the-open-items-answered.md): \"Freeze by Wednesday, 8 p.m. Ideally, but that might not be realistic. So, I don't think we should freeze it. Basically, we go until we have, but let's aim, at 8 p.m. London time. I think freeze is too much of a strong word.\""
+   "detail": "Decided by the editor, 4 November 2026, about 02:46 UTC (briefs/2026-11-04__in-session/20-the-open-items-answered.md): \"Freeze by Wednesday, 8 p.m. Ideally, but that might not be realistic. So, I don't think we should freeze it. Basically, we go until we have, but let's aim, at 8 p.m. London time. I think freeze is too much of a strong word.\" Superseded by TG2 (4 November, about 17:36 UTC): the aim is Thursday 5 November, 10:00 London."
   },
   {
    "id": "WR2",
@@ -827,6 +827,20 @@
    "by": "editor",
    "ask": "The team recovers from a broken build and keeps working, instead of stopping",
    "detail": "Decided by the editor, 4 November 2026, about 16:30 UTC (briefs/2026-11-04__in-session/29-recover-from-a-red-build.md): \"can you delete that file, and that feels quite a fragile setup, since the team should be able to recover from that, and at least continue work for a couple rounds while that fix happens, since the agents local state survives runs\" The conductor's reading: a red dev is no longer a reason to hold; members keep working, commit locally, do not push while dev is red, tell the owner once, push when green; 'a couple rounds' read as two wakes, a hold at the third; a red caused by a secret is still an immediate hold; the build warns and builds on a member's malformed status.json or policy.json (team/conductor/WAKE.md, 'When dev is red')."
+  },
+  {
+   "id": "TG2",
+   "status": "decided",
+   "by": "editor",
+   "ask": "The aim for the full book's text, moved",
+   "detail": "Decided by the editor, 4 November 2026, about 17:36 UTC (briefs/2026-11-04__in-session/30-the-aim-moves-to-thursday-10am.md): \"Can you move the deadline to 10am tomorrow\" The conductor's reading: the aim is Thursday 5 November, 10:00 London, a target and not a freeze as in TG1; FB1's KDP submission by Thursday 5 November still stands, the rest of Thursday for the upload."
+  },
+  {
+   "id": "HL1",
+   "status": "decided",
+   "by": "editor",
+   "ask": "Who lifts a hold",
+   "detail": "Decided by the editor, 4 November 2026, about 17:40 UTC (briefs/2026-11-04__in-session/31-the-conductor-lifts-the-hold.md): \"C132, should be you (conductor) who lifts the hold\" The conductor's reading: in the book's present-tense text, the conductor lifts the hold (chapters about the talk's day keep that day's rule). The team's own rule in WAKE.md and CLAUDE.md is unchanged until the editor makes or approves the edit, since it widens the conductor's own authority. C132 is not read as answered. Recorded at the post-check: the conductor's planned edit of WAKE.md and CLAUDE.md, pre-reviewed with safeguards, was refused by the session's own permission check as self-modification; it was not worked around, and waits for the editor."
   }
  ]
 }

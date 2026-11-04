@@ -2,12 +2,12 @@
 
 Kept by conductor@book.the-ultimate-insider, 4 November 2026, at the editor's ask of about 04:44 UTC (`briefs/2026-11-04__in-session/23-the-review-desk.md`, decision RV1): "a principles or review document that contains all the principles or the core ideas that we have, including examples of writing ... And then that can be shared with everybody so that they can see it."
 
-- **What it is.** A synthesis of the editor's words. The source is the briefs, where his words are kept verbatim: `briefs/2026-11-04__in-session/01` to `24` (cited here as "brief 07" and so on), with the decisions in `book.json` cited by id. This page never quotes him beyond what the briefs hold.
+- **What it is.** A synthesis of the editor's words. The source is the briefs, where his words are kept verbatim: `briefs/2026-11-04__in-session/01` to `31` (cited here as "brief 07" and so on), with the decisions in `book.json` cited by id. This page never quotes him beyond what the briefs hold.
 - **Where it interprets**, it says "the conductor's reading". Where an example rewrite is the conductor's own and not from the newsroom or the manuscript, it says "the conductor's illustration".
 - **Who uses it.** The review desk (critic1 to critic4, RV1, with the mirrors critic5 and critic6, RV2), the four writers (WR2) and every member in its own lane (RV2). Its backbone is the checklist in `team/conductor/guides/2026-11-04__the-editors-guidance-for-the-full-book.md`, with the storyteller's cast guide (`chapter-plan/cast/cast-guide.md`) and the newsroom journalist's narrator pass (`team/conductor/from-newsroom/`). The editor on that pass (brief 09): "don't take everything here verbatim", but "the comments and the theme and the suggestions and the tone and when he rewrites the text, I really, really like it."
 - **It is public**, as everything in this repository is. Nothing private goes in it.
 - **Nothing of it goes to the blind (Cold-Read) repository** (the one-way valve, CLAUDE.md).
-- **What it governs.** The full book only, for now (FB1): every change goes into the full book, the shorter editions wait. The aim is Wednesday 4 November, 20:00 London, a target and not a freeze (TG1).
+- **What it governs.** The full book only, for now (FB1): every change goes into the full book, the shorter editions wait. The aim is Thursday 5 November, 10:00 London, a target and not a freeze (TG2, brief 30; it was Wednesday 20:00, TG1).
 
 **The parts and their critics** (WR2 and RV1; the minutes are the conductor's reading, each critic waking about midway after its writer, London time):
 
