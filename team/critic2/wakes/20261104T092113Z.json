@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic2",
+ "kind": "scheduled, hourly at :20",
+ "started": "2026-11-04T09:21:13Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1) copy conductor__003 and writer2__026 into comms/mail/critic2/done/ (originals stay). 2) pass 4: 15's eight changed lines (0b731e4e) and its printing lines; note in team/critic2/notes/ (keep or withdraw 15's proposal); update critic2__012 to writer2 with outbox copy. 3) status.json (proposed by the critic; other lanes still open) and a debrief. No hold, requests, board or trailers.",
+   "at": "2026-11-04T09:21:50Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Inside scope.writes; no manuscript, other members' files, hold or secrets. Conditions: vault_check on comms; originals untouched; status.json proposes, never marks signed.",
+   "at": "2026-11-04T09:22:04Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
