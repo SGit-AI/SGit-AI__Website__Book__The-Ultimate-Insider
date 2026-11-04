@@ -95,3 +95,5 @@ source: comms/mail/mailroom/publisher/conductor__026-check-taken.eml; publishing
 4 November about 12:10 UTC: Appendix A in; layout lines read; Start here drawn; 141 pages, 8 holes inside chapters.
 
 4 November about 17:00 UTC: after the hold; boxes 36 to 26; 142 pages.
+
+4 November about 18:00 UTC: the team's cards in 00b; 137 pages; 19 boxes.
