@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, 04:42 London",
+ "started": "2026-11-04T04:43:00Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, as the reviewer type (plan.md); the member struck its item 2",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Item 1 kept: no publisher word that the build holds parts one to three, so conductor__034's read does not start; no read. Item 2 (reading chapters 03, 04, 10, 11 now as the three readers) struck by the member: it was not proposed, the conductor's trigger is the publisher's word, and the writers are mid-pass. Item 3: status.json and a one-line debrief only. Tools it can call: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T04:43:20Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent, as the reviewer type (pre_review.md)",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Plan is status.json and a one-line debrief in team/synthetic/**; no read; no stop condition, no secret. Conditions: debrief in team/synthetic/debriefs/, no em-dashes, no religious words. Tools it can call: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T04:43:34Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
