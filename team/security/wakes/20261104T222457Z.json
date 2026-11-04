@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T22:24:57Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "go",
+   "comment": "designer2's policy is the adopted draft, scope unchanged; key.json public fields only; 1ff64b35 matches the session folder; plan in scope.",
+   "at": "2026-11-04T22:27:33Z"
+  },
+  "pre_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "go",
+   "comment": "designer2's key public halves only; session folder matches 1ff64b35's trailer; account field as on the other keys; the QR check is security's, in memory.",
+   "at": "2026-11-04T22:28:13Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "designer2's key checked (C4) and key.png cleared under AD1; LAB 65 and 66 clear (070); hour's changes clear.",
+   "at": "2026-11-04T22:29:08Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "No key value, token, session link, decoded QR or attack-shaped text; no em-dash or religious word; nothing to Cold-Read; paths in scope; validate, vault check and scope (0 outside) clean. The commit was amended once to add designer2's mailroom copy; a scope check run mid-amend counted it once, and the rerun on the committed tree says 0.",
+   "at": "2026-11-04T22:30:17Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "as-planned",
+   "comment": "817410a8 matches the plan: designer2's key and image (C4), LAB 65 and 66, 070 with copies, board, debrief; no out-of-scope file.",
+   "at": "2026-11-04T22:30:41Z"
+  }
+ },
+ "closed": "2026-11-04T22:30:42Z",
+ "outcome": "ok"
+}
