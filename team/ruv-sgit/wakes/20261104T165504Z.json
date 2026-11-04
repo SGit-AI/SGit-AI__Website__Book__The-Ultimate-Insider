@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (ACC1)",
+ "started": "2026-11-04T16:55:04Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go, with item 1 amended. C086's 3 Nov note already says the stills carry only checked numbers, so 074 cites that note and asks the researcher only to drop conductor__031's registration request. The writer uses the 70's words (07, line 50); the SVG stays the publisher's mapping. RV2 on 07 and the closing routine as proposed. Facts checked: LAB 63 exists, its sums verify, and it is placed in the 70. Read-only tools; nothing was refused.",
+   "at": "2026-11-04T16:56:13Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go: everything in scope, manuscript only asked for, no secrets, nothing attack-shaped, no Cold-Read route, no HOLD. vault_check before the comms commit; green gate or HR1. Read-only tools; nothing was refused.",
+   "at": "2026-11-04T16:56:36Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "Letter 074 corrects 073: the three rounds are already drawn (LAB 63, placed in the 70). The researcher drops the registration; the writer and the publisher place it in 09. RV2 on the 150's 07: one must (slot 2 null, the designer's), my wake-page's drawn title a should for next wake, not passed. Two letters copied to done.",
+   "at": "2026-11-04T16:57:17Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Clean: everything in scope, 0 files outside scope, vault_check clean, nothing attack-shaped, no em-dash or RW1 word, no date after the clock. The 07 review matches the chapter and the map, 074's claims hold (LAB 63 placed in the 70, C086's note, the 70's line 50 word for word), and the copies are identical. The status and debrief appeared during the review and were only spot-checked. Read-only tools; nothing was refused.",
+   "at": "2026-11-04T17:00:38Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "The reviewer agent's verdict, run before this entry. As the amended plan said: 074 cites C086's note and quotes the 70's line 50, the copies are identical, the 07 review has one must for the designer and one should of my own, and the letters are filed. status.json and the debrief are right, with both failures kept. vault_check and the gate are still owed. Read-only tools; nothing was refused.",
+   "at": "2026-11-04T17:01:05Z"
+  }
+ },
+ "closed": "2026-11-04T17:01:05Z",
+ "outcome": "ok"
+}
