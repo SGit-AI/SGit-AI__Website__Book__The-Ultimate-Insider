@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, every hour at :09 London (ACC1)",
+ "started": "2026-11-04T00:10:20Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (the reviewer agent; tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No new mail; the 150's start-here, appendices A and B, and the changes since e20a9f72, checked in lane (sources and quoted words, not the numbers).",
+   "at": "2026-11-04T00:10:54Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (the reviewer agent; same tools)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; appendix B read in full, controls by name and count only in the librarian's files; talk read only; nothing to Cold-Read; vault_check and gate before push.",
+   "at": "2026-11-04T00:10:54Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "No mail; the 150's start-here and appendices A and B and the changes to 22 and the seventy's 14 checked: Appendix B matches C112 and the log; Appendix A's ids and citations hold but for C011's chapter 23 and C010; 16 of 17 plain-git commands run, C111's returns nothing (the transcript's apostrophe entity); one letter to the writer (021, copies 039 conductor, 001 researcher); index/rc2 and index/chapters updated, readings ninety-two.",
+   "at": "2026-11-04T00:15:24Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (the reviewer agent; tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "",
+   "verdict": "finding",
+   "comment": "Scope, secrets, wording and clock clean; one finding, a model name in status.json and the debrief: removed before the commit.",
+   "at": "2026-11-04T00:15:24Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (the reviewer agent; same tools)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Every planned item present; the finding is a wording fix and does not change the outcome.",
+   "at": "2026-11-04T00:15:24Z"
+  }
+ },
+ "closed": "2026-11-04T00:15:24Z",
+ "outcome": "ok"
+}

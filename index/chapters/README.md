@@ -22,6 +22,7 @@ One file per chapter of the manuscript, built by `index/tools/chapter_entries.py
 | [`12-build-your-own.md`](12-build-your-own.md) | 14 | 0 | 5 | 0 | 10 | 0 |
 | [`13-concepts-and-principles.md`](13-concepts-and-principles.md) | 0 | 0 | 6 | 0 | 0 | 0 |
 | [`99-appendix-a-every-number-rerun.md`](99-appendix-a-every-number-rerun.md) | 1 | 0 | 3 | 0 | 2 | 0 |
+| [`150__00-start-here.md`](150__00-start-here.md) | 0 | 0 | 4 | 0 | 0 | 0 |
 | [`150__01-slides-as-a-compromise.md`](150__01-slides-as-a-compromise.md) | 0 | 0 | 4 | 1 | 1 | 0 |
 | [`150__02-inventing-on-principle.md`](150__02-inventing-on-principle.md) | 0 | 0 | 6 | 0 | 0 | 0 |
 | [`150__03-the-tour.md`](150__03-the-tour.md) | 0 | 0 | 9 | 0 | 1 | 0 |
@@ -47,6 +48,8 @@ One file per chapter of the manuscript, built by `index/tools/chapter_entries.py
 | [`150__23-principles-and-build-your-own.md`](150__23-principles-and-build-your-own.md) | 0 | 0 | 7 | 0 | 0 | 0 |
 | [`150__90-the-tour-at-length.md`](150__90-the-tour-at-length.md) | 0 | 0 | 9 | 0 | 1 | 0 |
 | [`150__91-the-words-used.md`](150__91-the-words-used.md) | 0 | 0 | 5 | 0 | 0 | 0 |
+| [`150__92-appendix-a-every-number.md`](150__92-appendix-a-every-number.md) | 0 | 0 | 2 | 0 | 0 | 0 |
+| [`150__93-appendix-b-the-control-register.md`](150__93-appendix-b-the-control-register.md) | 0 | 0 | 5 | 0 | 0 | 0 |
 | [`150__94-the-making-of-this-book.md`](150__94-the-making-of-this-book.md) | 0 | 0 | 2 | 0 | 1 | 0 |
 | [`01-the-creators-problem.md`](01-the-creators-problem.md) | 0 | 0 | 7 | 1 | 2 | 0 |
 | [`02-the-factory-is-assembled.md`](02-the-factory-is-assembled.md) | 2 | 0 | 7 | 0 | 12 | 0 |
