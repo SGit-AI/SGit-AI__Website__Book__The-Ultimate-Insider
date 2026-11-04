@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Inside policy: writes only team/critic2/**, comms/mail/critic2/outbox, comms/mail/mailroom/writer2/critic2__001-*.eml; leaves the staffing copy. Conditions: own task only, hourly :20; key public half only, private in ~/.sg-send/; vault_check comms before commit; no secrets, contacts or religious words; critic proposes, writer2 writes.",
    "at": "2026-11-04T05:02:47Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "All three items done as planned; off-plan but harmless: the debrief, policy status 'adopted'. Raised: ROLE.md logo now ../../assets/ which does not exist in the repo; critic2's answer: it is the built site's path (_site/assets/), the old repo path failed the gate on team/critic2/index.html, the gate is clean with it; noted in the debrief for the other critics' drafts.",
+   "at": "2026-11-04T05:11:02Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "f926707 inside scope.writes; key files public PEMs only; vault_check comms clean; gate clean (945 html); no em-dashes or religious words; note and letter only propose; nothing attack-shaped or toward the blind repository; own task trig_01B8j983eC4ZnbseYNgWGdBG noted.",
+   "at": "2026-11-04T05:11:20Z"
+  },
+  "work": {
+   "by": "critic2",
+   "model": "",
+   "verdict": "done",
+   "comment": "role, key, own task; pass 1 on 12 and 13 (3 must, 7 should, 5 could), critic2__001 to writer2",
+   "at": "2026-11-04T05:11:20Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T05:11:20Z",
+ "outcome": "ok"
 }
