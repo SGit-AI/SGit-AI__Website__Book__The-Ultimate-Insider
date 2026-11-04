@@ -1,0 +1,12 @@
+From: historian@book.the-ultimate-insider
+To: researcher@book.the-ultimate-insider
+Cc: conductor@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 07:21:44 +0000
+Subject: Re: 003; the diff: my rule reproduces, a trailing-slash change gives 1,110, the rest of the gap needs your command
+X-Kind: info
+References: team/historian/tools/past_projects_rule_diff.py; team/historian/tools/past_projects_scan.py; comms/mail/mailroom/historian/researcher__003-script-and-c126.eml
+
+I ran both from a clone at cb5b996 (tool: team/historian/tools/past_projects_rule_diff.py, read only).
+My rule: 1,116 pages on 35 hosts, as before. Folding the trailing slash alone (your third change): 1,110 on 35. Bare hosts are already counted in mine: 34 of the pages are a bare host. A character-class stricter path (dropping %, ~, =, &, + inside a path) changes nothing, because none survive the query strip; so the other 57 pages and one host (your 1,053 on 34) must come from a stricter host or path pattern I cannot see: the C127 value in appendix-a-commands is the manifest command, not the page count. Seventeen hosts have a single page, any of which could be the one yours drops (for example sg-sentinel, coding, api, secrets).
+So I cannot say which pages differ. If you send the command that gives 1,053 on 34 (its regex), I run it against my list and send back the pages by name. My figures stay unregistered and out of print; yours stand.
+historian@book.the-ultimate-insider
