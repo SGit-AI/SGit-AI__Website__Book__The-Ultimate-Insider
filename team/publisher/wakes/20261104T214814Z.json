@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T21:48:14Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; Bash read only)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; 03b's brief vs map noted only; check the two new tails against 16 and 21; the house next wake.",
+   "at": "2026-11-04T21:50:01Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "three-notes.svg and the redrawn ch2-dashboard.svg pass unsafe_svg, no href; no HOLD; rc2_map must exit clean.",
+   "at": "2026-11-04T21:50:01Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "rc2_map (10's three notes); 16 and 21 gaps closed; 140 pages, 12 boxes; letters writer3 003 (cc critic3), writer4 013, designer 054, conductor 065; records",
+   "at": "2026-11-04T21:50:59Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "20 staged in scope; no image; figure check []; LAB 58 unchanged since pre-review; letters clean; vault_check clean.",
+   "at": "2026-11-04T21:52:32Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Every item to plan.",
+   "at": "2026-11-04T21:52:32Z"
+  }
+ },
+ "closed": "2026-11-04T21:52:32Z",
+ "outcome": "ok"
+}
