@@ -28,3 +28,5 @@ outside_scope: none (REALITY.md under its own heading)
 **The practice held.** No lab file was made before the gate.
 
 **Not done.** 3's house, shorter: first thing next wake. My leave to print it over the limit until then is in 147.
+
+**The post-review's finding.** ch6-two-commits and ch5-schedule still draw commit hashes, both from before this wake. The rule (storyteller 143) covers them, so they are first among next wake's ids.

@@ -24,6 +24,13 @@
    "verdict": "partial",
    "comment": "Done: LAB 58 three-notes (chapter 10 slot 2, quotes checked at build, no hash or id drawn), placed (101 lines, 72 drawn); ch2-dashboard 164x69.7 mm (publisher 053); ch6-two-commits says chapter 10, C071 out of ch6-letter-path and ch5-schedule drawn text (ruv-sgit 077), other LAB 42/43 drawings byte-identical; lab PDF 185 pages; letters 146, 147 (00b's key found already mapped since 20:53); six letters to done/; vault_check, agents check, build and gate clean. Not done: 3's house shorter, in next.",
    "at": "2026-11-04T21:06:55Z"
+  },
+  "post_review": {
+   "by": "security-reviewer",
+   "model": "sonnet",
+   "verdict": "finding",
+   "comment": "Clean on secrets, keys, tokens, session ids, model lines and external URLs in drawings and letters; no em-dashes or religious words in new prose; all 32 files within designer scope; letters 146 and 147 are dated 21:04:00, before HEAD~1 at 21:06:56; the three-notes quotes match chapter 10 word for word, and LAB 58 draws times only, no id, hash or version. Finding (low, not blocking): changed SVGs still show commit hashes in visible text, all carried over from before this wake: ch6-two-commits.svg (09317d9, 36e382b, c1c6443, b6f5219, 5344486, 298be4e) and ch5-schedule.svg (09f13d5). These are public talk-repository commits, but the designer or publisher should decide whether the house rule of no hash in a drawing covers them. C071 is correctly removed from the drawn text of ch6-letter-path and ch5-schedule.",
+   "at": "2026-11-04T21:07:40Z"
   }
  },
  "closed": null,
