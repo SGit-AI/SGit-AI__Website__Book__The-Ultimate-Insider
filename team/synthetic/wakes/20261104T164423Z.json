@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, 16:42 London",
+ "started": "2026-11-04T16:44:23Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "take waiting mail and check fixes; RV2 read of an unread section; board, debrief, status. Tools Read, Bash; none refused.",
+   "at": "2026-11-04T16:45:02Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "inside scope.writes; conditions: synthetic__* mail, vault_check, persona reviews not counted as readership. Tools Read, Grep; none refused.",
+   "at": "2026-11-04T16:45:20Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "diff clean; validate, scope check, vault_check pass. Tools Bash, Read, Grep, Glob; none refused.",
+   "at": "2026-11-04T16:49:44Z"
+  },
+  "work": {
+   "by": "synthetic",
+   "model": "claude-sonnet-5-5",
+   "verdict": "done",
+   "comment": "eighth batch 11-13 read, 53 cites checked; letters synthetic__004, __025; writer3__002 fixes checked",
+   "at": "2026-11-04T16:49:46Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "all items done; conditions kept; nothing unplanned. Tools Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T16:49:59Z"
+  }
+ },
+ "closed": "2026-11-04T16:49:59Z",
+ "outcome": "ok"
+}

@@ -1,256 +1,257 @@
 {
- "schema": "the-ultimate-insider/agent-status/v1",
- "agent": "synthetic",
- "as_of": "2026-11-04T11:47:21Z",
- "round": 0,
- "state": "scheduled wake 11:42: writer3__001 and writer__227 taken (fixes checked in the files; the 17:87 decline accepted as the editor's D12); RV2 seventh batch (06, 18, 19) read by the three named readers, none passes yet; twenty-one sections read in this lane",
- "done": [
-  {
-   "what": "ROLE.md and policy.json moved from team/conductor/staffing/synthetic/ into team/synthetic/ (drafts left in place); ROLE.md names start.py and banner.py",
-   "when": "2026-10-30"
+  "schema": "the-ultimate-insider/agent-status/v1",
+  "agent": "synthetic",
+  "as_of": "2026-11-04T16:46:56Z",
+  "round": 0,
+  "state": "RV2 eighth batch (11, 12, 13) read and sent; 24 sections read, none passes",
+  "done": [
+    {
+      "what": "ROLE.md and policy.json moved from team/conductor/staffing/synthetic/ into team/synthetic/ (drafts left in place); ROLE.md names start.py and banner.py",
+      "when": "2026-10-30"
+    },
+    {
+      "what": "session key made and published: team/synthetic/key.json, key.png, sessions/session_01Kw9UwB6ZZSnGiK8oPYMV9F/",
+      "when": "2026-10-30"
+    },
+    {
+      "what": "scheduled task trig_01TyU9ScRj2mMDFaMoaVqTk8 created into this session, at the editor's word in the session's first message",
+      "when": "2026-10-30"
+    },
+    {
+      "what": "review/synthetic/personas.json: the eight fictional personas with devices, reading path and five scores (proposed)",
+      "when": "2026-10-30"
+    },
+    {
+      "what": "review/synthetic/run.mjs and README.md: the runner (Chromium, local site, outside requests blocked and listed), checked against the home page",
+      "when": "2026-10-30"
+    },
+    {
+      "what": "notices: the conductor's notice of new sessions taken; letters to the developer (what the runs measure) and the conductor (the star-count fetch in theme.js on review pages)",
+      "when": "2026-10-30"
+    },
+    {
+      "what": "files moved back to review/synthetic/ (the developer narrowed review/**, 606ba5a); runner taught the page's markers",
+      "when": "2026-10-30"
+    },
+    {
+      "what": "run 20261030T1750Z: the CISO through /review/ciso.html, review and scores (3, 4, 3, 4, 4), summary review/synthetic/runs/20261030T1750Z.md",
+      "when": "2026-10-30"
+    },
+    {
+      "what": "run 20261030T1945Z: the CISO on the released /review/ciso.html, laptop plus a phone check; scores 3, 4, 4, 4, 5; the star-count request checked gone (conductor told); the jump bar over the pen at 390 wide (developer told)",
+      "when": "2026-10-30"
+    },
+    {
+      "what": "run 20261030T2145Z: the founder through /review/founder.html (3, 4, 4, 4, 5); the jump-bar fix checked on both pages and two devices; runner waits for the page to settle before each shot",
+      "when": "2026-10-30"
+    },
+    {
+      "what": "run 20261030T2345Z: CISO 4, 4, 4, 4, 5 and founder 4, 5, 4, 4, 5; letter first on a phone, Short of time line and Try it links checked; correction to run 20261030T2145Z on the forty minutes",
+      "when": "2026-10-30"
+    },
+    {
+      "what": "name test 20261031T0143Z: N1 to N6 past the eight personas (N6 four, N1 two, N2 one, N3 one), sent to the storyteller; Q6 letters taken, task already on the active schedule",
+      "when": "2026-10-31"
+    },
+    {
+      "what": "the personas kept as they are, at the editor's word (31 October, in session)",
+      "when": "2026-10-31"
+    },
+    {
+      "what": "the Personas section: /personas/ (briefing, a page per persona), the PDF debrief (18 pages); the eight RC1 reads and exit interviews in review/synthetic/rc1/; policy widened by src/pages/personas/** and src/static/personas/** at his word",
+      "when": "2026-10-31"
+    },
+    {
+      "what": "review/synthetic/reading-time.md: the book's time against the reader's; the ask set by the reader's time, twenty minutes by default",
+      "when": "2026-10-31"
+    },
+    {
+      "what": "wake of 1 November, before the hold was seen: the six new review pages run and scored (runs/20261101T1230Z.md), the second name round (names/20261101T1300Z.md), replies to the developer, storyteller and conductor; on my branch only, not on dev",
+      "when": "2026-11-01"
+    },
+    {
+      "what": "the hold lifted at the editor's word (daabf92), with the gate fix on dev; own task re-enabled",
+      "when": "2026-11-01"
+    },
+    {
+      "what": "two new personas at the editor's word, gen-z-founder and gen-x-founder; their RC1 reads (chapters 1 and 12), the briefing's Gen ZX section, the Personas section and PDF rebuilt (10 personas, 23 pages); their pages asked of the developer (synthetic__007)",
+      "when": "2026-11-01"
+    },
+    {
+      "what": "the ten-page sample read by six readers like the room (four new room personas and the two Gen ZX founders); summary and five changes in order; replies to the conductor, storyteller and publisher; developer__017 answered",
+      "when": "2026-11-01"
+    },
+    {
+      "what": "the draft 3-page edition read by three zoom personas (conductor__013): factory yes, yes, partly; start tomorrow yes, yes, maybe; five changes to the storyteller",
+      "when": "2026-11-01"
+    },
+    {
+      "what": "the draft 10-page edition read by three zoom readers (factory and start tomorrow: yes from all three), the revised 3-page edition re-read; five changes to the storyteller",
+      "when": "2026-11-02"
+    },
+    {
+      "what": "A11 on the revised 10-page edition: three brutal readers, every passage judged, 18 failing passages and five changes to the storyteller and conductor; RW1 taken",
+      "when": "2026-11-02"
+    },
+    {
+      "what": "ED1 round 1: the laid-out editions read as PDFs by the three zoom readers; review letters to the storyteller, designer and publisher, copy to the conductor; issue 006 closed unrun",
+      "when": "2026-11-02"
+    },
+    {
+      "what": "ED1 round 2: the rebuilt editions read by the three zoom readers against their round-1 reads; start tomorrow yes from all three on both; review letters to the designer, storyteller and publisher",
+      "when": "2026-11-02"
+    },
+    {
+      "what": "ED1 after-round read: the editions after round 2 read fresh by five personas; verdict to the conductor for the editor's brief; issue 007 closed",
+      "when": "2026-11-02"
+    },
+    {
+      "what": "the ED1 final build checked: no 'Figure to come', 'freeze' and 'register' explained, plain source names (final-check.md)",
+      "when": "2026-11-02"
+    },
+    {
+      "what": "RC2 chapter 1 read by the three named readers; four changes to the writer, copy to the conductor; issue 008 opened for RC2's chapters",
+      "when": "2026-11-02"
+    },
+    {
+      "what": "RC2 chapters 2 and 3 read by the three named readers (review/synthetic/rc2/30/02-03/); five changes to the writer, copy to the conductor; chapter 1's revision checked from the text (two of four changes in)",
+      "when": "2026-11-02"
+    },
+    {
+      "what": "writer__024 taken; RC2 chapters 4 and 5 and the series page read by the three named readers (review/synthetic/rc2/30/04-05/); five changes to the writer, conductor on Cc",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "conductor__024 (ACC1, hourly), writer__029 and developer__021 taken; RC2 draft PDF read for layout and pictures (review/synthetic/rc2/30/layout-1/); the RC2 build's refusal on dev reported to the publisher; letters to the publisher and the designer, conductor on Cc",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "publisher__004 and designer__096 taken; RC2 rechecked at b680aaeb (review/synthetic/rc2/30/layout-1/recheck.md); my card-row finding withdrawn for three of four pages; page 7's cut traced to ch1-cast-greyed.svg's viewBox; reply synthetic__005, designer and conductor on Cc",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "publisher__005 taken; RC2 rechecked at 247ec9d6 (review/synthetic/rc2/30/layout-1/recheck-2.md): page 7, chapter 5's three drawings, captions and contents heading in; five pictures and the clock to go; reply synthetic__006",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "developer__022 and publisher__006 taken; run 20261103T0445Z, the Gen ZX founders on their review pages at three widths (tablet column about 79 characters); RC2 rechecked at bab529dc (recheck-3.md); replies synthetic__009 (developer), synthetic__007 (publisher)",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "publisher__007 taken; the thirty at 9e0d69f9 checked (29 pages, one picture to go); asked the conductor whether to read the seventy once whole (synthetic__015)",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "conductor__025 taken (the seventy in one pass once whole); the thirty checked fully drawn at f705bfe9",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "the seventy read in one pass, words and pages, by the three named readers (review/synthetic/rc2/70/); letter synthetic__004 to the writer, publisher and designer, conductor on Cc",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "writer__073 taken (the seventy's structural asks with the storyteller; 70/11 to become cards)",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "conductor__026 taken: step sub-agents on team/conductor/reviews/ briefs as they stand; look-back over 163 sub-agent transcripts since 30 October (no session, message or schedule tool; writes only under review/synthetic/ or the scratchpad) sent to security (synthetic__001), issue 009 closed",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "conductor__027 (TA1) taken: the reviewer type is not loaded in this session; steps run as general agents under reviewer.md's rules, recorded in the wake's tools_note and sent to security (synthetic__002), conductor on Cc",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "conductor__028 taken: the reviewer type loaded at the 11:42 wake, all four steps ran as it (Read, Grep, Glob, Bash only); told to security (synthetic__003), conductor on Cc",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "TA1 note to security (synthetic__004): a reviewer-type step wrote a temporary log outside the repository; Bash can write where the tool list cannot stop it",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "conductor__030 taken: post_review.md now runs validate only, and the review step writes nothing (answer to synthetic__016)",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "conductor__029 taken (late): newsroom.sgit.ai/articles/who-owns-the-stop-button.html read as material; it does not touch synthetic readers or the reviewer experience, so no letter",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "conductor__031 taken: the seventy in its new order re-read in one pass by the three named readers (review/synthetic/rc2/70-r2/); letter synthetic__005 to the writer, conductor on Cc",
+      "when": "2026-11-03"
+    },
+    {
+      "what": "conductor__032 (FB1) taken: the full book is the only edition read; offered one read of it by the three named readers in two halves once the publisher says the FB1 pass is built (synthetic__017); the smaller editions, A15, NR1 and the Gen ZX pages left until after the summit",
+      "when": "2026-11-04"
+    },
+    {
+      "what": "conductor__033 (TG1, 20:00 a target not a freeze), __034 (the one read once parts one to three land) and __035 (WR2, four writers, one part each) taken; letter to security (synthetic__005) on MCP tools described in reviewer context",
+      "when": "2026-11-04"
+    },
+    {
+      "what": "conductor__036 (RV2): three sections of the full book read by the three named readers against principles 1, 6, 7, 21 (review/synthetic/sections/findings.md); requests to writer and writer2 (synthetic__006, synthetic__001); sections passed told to the conductor (synthetic__018): none yet",
+      "when": "2026-11-04"
+    },
+    {
+      "what": "the first RV2 batch pushed to dev once the build was green; RV2 second batch: 05, 14 and 22 of the full book read by the three named readers against principles 1, 6, 7, 21 (review/synthetic/sections-2/findings.md, all 44 cites checked); requests to writer, writer2 and writer4 (synthetic__007, __002, writer4 __001); the grid told to the conductor (synthetic__019): none passes yet",
+      "when": "2026-11-04"
+    },
+    {
+      "what": "writer__201, writer2__018, writer4__006 taken; the claimed must fixes checked in the files (00, 00b, 05, 10, 14); RV2 third batch: 08, 15 and 23 of the full book read by the three named readers (review/synthetic/sections-3/findings.md, all 43 cites checked); requests synthetic__008, synthetic__003 and writer4 __002; the grid and the fixes told to the conductor (synthetic__020)",
+      "when": "2026-11-04"
+    },
+    {
+      "what": "writer__211 and writer4__007 taken (08's opening and 23's 'my nine' checked in the files; writer4's decline of the 23 'Rests on' must accepted, not pressed); RV2 fourth batch: 03b, 03 and 94 of the full book read by the three named readers (review/synthetic/sections-4/findings.md, all 45 cites checked); requests synthetic__009 and writer4 __003; the grid told to the conductor (synthetic__021)",
+      "when": "2026-11-04"
+    },
+    {
+      "what": "writer2__027 and writer4__008 taken (15's and 94's fixes checked in the files); RV2 fifth batch: 01, 02 and 04 of the full book read by the three named readers (review/synthetic/sections-5/findings.md, all 45 cites checked, files loaded only after all three reported); request synthetic__010; the grid told to the conductor (synthetic__022)",
+      "when": "2026-11-04"
+    },
+    {
+      "what": "writer__218 taken (01's and 04's fixes checked in the files; the 02 line 67 decline accepted: the editor's confirmed wording, newsroom delta line 22); RV2 sixth batch: 07, 16 and 17 of the full book read by the three named readers (review/synthetic/sections-6/findings.md, all 46 cites checked); requests synthetic__011 and writer3 __001; the grid told to the conductor (synthetic__023)",
+      "when": "2026-11-04"
+    },
+    {
+      "what": "writer3__001 and writer__227 taken (16's lock gloss and 07's sentence checked in the files; the 17 line 87 decline accepted: the editor's D12); RV2 seventh batch: 06, 18 and 19 of the full book read by the three named readers (review/synthetic/sections-7/findings.md, all 45 cites checked); requests writer3 __002 and synthetic__012; the grid told to the conductor (synthetic__024)",
+      "when": "2026-11-04"
+    },
+    "4 Nov 16:42 wake: eighth batch, sections-8; synthetic__004, __025"
+  ],
+  "next": [
+    {
+      "what": "sections of the full book as the writers land them (RV2)",
+      "why": "conductor__036"
+    },
+    {
+      "what": "the one read of the whole book, when the publisher says the build holds parts one to three",
+      "why": "conductor__034, synthetic__017"
+    }
+  ],
+  "asks": [
+    {
+      "to": "editor",
+      "what": "re-enable the storyteller's task, paused at the hold (trig_018f8i1UtWhtQ6SaebNPhBnT); only the editor re-enables a task"
+    },
+    {
+      "to": "editor",
+      "what": "the reading-time proposal (review/synthetic/reading-time.md)"
+    }
+  ],
+  "task": {
+    "id": "trig_01TyU9ScRj2mMDFaMoaVqTk8",
+    "cron": "CRON_TZ=Europe/London 42 * * * *",
+    "session": "session_01Kw9UwB6ZZSnGiK8oPYMV9F",
+    "created": "2026-10-30T16:30:13Z",
+    "prompt": "team/conductor/schedule.json, runs entry for synthetic, word for word",
+    "enabled": true,
+    "changed": "2026-11-03T01:18:36Z, set to every hour at :42 by the conductor at the editor's word (ACC1); read from the live task at the 01:42 wake and matching team/conductor/schedule.json"
   },
-  {
-   "what": "session key made and published: team/synthetic/key.json, key.png, sessions/session_01Kw9UwB6ZZSnGiK8oPYMV9F/",
-   "when": "2026-10-30"
-  },
-  {
-   "what": "scheduled task trig_01TyU9ScRj2mMDFaMoaVqTk8 created into this session, at the editor's word in the session's first message",
-   "when": "2026-10-30"
-  },
-  {
-   "what": "review/synthetic/personas.json: the eight fictional personas with devices, reading path and five scores (proposed)",
-   "when": "2026-10-30"
-  },
-  {
-   "what": "review/synthetic/run.mjs and README.md: the runner (Chromium, local site, outside requests blocked and listed), checked against the home page",
-   "when": "2026-10-30"
-  },
-  {
-   "what": "notices: the conductor's notice of new sessions taken; letters to the developer (what the runs measure) and the conductor (the star-count fetch in theme.js on review pages)",
-   "when": "2026-10-30"
-  },
-  {
-   "what": "files moved back to review/synthetic/ (the developer narrowed review/**, 606ba5a); runner taught the page's markers",
-   "when": "2026-10-30"
-  },
-  {
-   "what": "run 20261030T1750Z: the CISO through /review/ciso.html, review and scores (3, 4, 3, 4, 4), summary review/synthetic/runs/20261030T1750Z.md",
-   "when": "2026-10-30"
-  },
-  {
-   "what": "run 20261030T1945Z: the CISO on the released /review/ciso.html, laptop plus a phone check; scores 3, 4, 4, 4, 5; the star-count request checked gone (conductor told); the jump bar over the pen at 390 wide (developer told)",
-   "when": "2026-10-30"
-  },
-  {
-   "what": "run 20261030T2145Z: the founder through /review/founder.html (3, 4, 4, 4, 5); the jump-bar fix checked on both pages and two devices; runner waits for the page to settle before each shot",
-   "when": "2026-10-30"
-  },
-  {
-   "what": "run 20261030T2345Z: CISO 4, 4, 4, 4, 5 and founder 4, 5, 4, 4, 5; letter first on a phone, Short of time line and Try it links checked; correction to run 20261030T2145Z on the forty minutes",
-   "when": "2026-10-30"
-  },
-  {
-   "what": "name test 20261031T0143Z: N1 to N6 past the eight personas (N6 four, N1 two, N2 one, N3 one), sent to the storyteller; Q6 letters taken, task already on the active schedule",
-   "when": "2026-10-31"
-  },
-  {
-   "what": "the personas kept as they are, at the editor's word (31 October, in session)",
-   "when": "2026-10-31"
-  },
-  {
-   "what": "the Personas section: /personas/ (briefing, a page per persona), the PDF debrief (18 pages); the eight RC1 reads and exit interviews in review/synthetic/rc1/; policy widened by src/pages/personas/** and src/static/personas/** at his word",
-   "when": "2026-10-31"
-  },
-  {
-   "what": "review/synthetic/reading-time.md: the book's time against the reader's; the ask set by the reader's time, twenty minutes by default",
-   "when": "2026-10-31"
-  },
-  {
-   "what": "wake of 1 November, before the hold was seen: the six new review pages run and scored (runs/20261101T1230Z.md), the second name round (names/20261101T1300Z.md), replies to the developer, storyteller and conductor; on my branch only, not on dev",
-   "when": "2026-11-01"
-  },
-  {
-   "what": "the hold lifted at the editor's word (daabf92), with the gate fix on dev; own task re-enabled",
-   "when": "2026-11-01"
-  },
-  {
-   "what": "two new personas at the editor's word, gen-z-founder and gen-x-founder; their RC1 reads (chapters 1 and 12), the briefing's Gen ZX section, the Personas section and PDF rebuilt (10 personas, 23 pages); their pages asked of the developer (synthetic__007)",
-   "when": "2026-11-01"
-  },
-  {
-   "what": "the ten-page sample read by six readers like the room (four new room personas and the two Gen ZX founders); summary and five changes in order; replies to the conductor, storyteller and publisher; developer__017 answered",
-   "when": "2026-11-01"
-  },
-  {
-   "what": "the draft 3-page edition read by three zoom personas (conductor__013): factory yes, yes, partly; start tomorrow yes, yes, maybe; five changes to the storyteller",
-   "when": "2026-11-01"
-  },
-  {
-   "what": "the draft 10-page edition read by three zoom readers (factory and start tomorrow: yes from all three), the revised 3-page edition re-read; five changes to the storyteller",
-   "when": "2026-11-02"
-  },
-  {
-   "what": "A11 on the revised 10-page edition: three brutal readers, every passage judged, 18 failing passages and five changes to the storyteller and conductor; RW1 taken",
-   "when": "2026-11-02"
-  },
-  {
-   "what": "ED1 round 1: the laid-out editions read as PDFs by the three zoom readers; review letters to the storyteller, designer and publisher, copy to the conductor; issue 006 closed unrun",
-   "when": "2026-11-02"
-  },
-  {
-   "what": "ED1 round 2: the rebuilt editions read by the three zoom readers against their round-1 reads; start tomorrow yes from all three on both; review letters to the designer, storyteller and publisher",
-   "when": "2026-11-02"
-  },
-  {
-   "what": "ED1 after-round read: the editions after round 2 read fresh by five personas; verdict to the conductor for the editor's brief; issue 007 closed",
-   "when": "2026-11-02"
-  },
-  {
-   "what": "the ED1 final build checked: no 'Figure to come', 'freeze' and 'register' explained, plain source names (final-check.md)",
-   "when": "2026-11-02"
-  },
-  {
-   "what": "RC2 chapter 1 read by the three named readers; four changes to the writer, copy to the conductor; issue 008 opened for RC2's chapters",
-   "when": "2026-11-02"
-  },
-  {
-   "what": "RC2 chapters 2 and 3 read by the three named readers (review/synthetic/rc2/30/02-03/); five changes to the writer, copy to the conductor; chapter 1's revision checked from the text (two of four changes in)",
-   "when": "2026-11-02"
-  },
-  {
-   "what": "writer__024 taken; RC2 chapters 4 and 5 and the series page read by the three named readers (review/synthetic/rc2/30/04-05/); five changes to the writer, conductor on Cc",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "conductor__024 (ACC1, hourly), writer__029 and developer__021 taken; RC2 draft PDF read for layout and pictures (review/synthetic/rc2/30/layout-1/); the RC2 build's refusal on dev reported to the publisher; letters to the publisher and the designer, conductor on Cc",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "publisher__004 and designer__096 taken; RC2 rechecked at b680aaeb (review/synthetic/rc2/30/layout-1/recheck.md); my card-row finding withdrawn for three of four pages; page 7's cut traced to ch1-cast-greyed.svg's viewBox; reply synthetic__005, designer and conductor on Cc",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "publisher__005 taken; RC2 rechecked at 247ec9d6 (review/synthetic/rc2/30/layout-1/recheck-2.md): page 7, chapter 5's three drawings, captions and contents heading in; five pictures and the clock to go; reply synthetic__006",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "developer__022 and publisher__006 taken; run 20261103T0445Z, the Gen ZX founders on their review pages at three widths (tablet column about 79 characters); RC2 rechecked at bab529dc (recheck-3.md); replies synthetic__009 (developer), synthetic__007 (publisher)",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "publisher__007 taken; the thirty at 9e0d69f9 checked (29 pages, one picture to go); asked the conductor whether to read the seventy once whole (synthetic__015)",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "conductor__025 taken (the seventy in one pass once whole); the thirty checked fully drawn at f705bfe9",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "the seventy read in one pass, words and pages, by the three named readers (review/synthetic/rc2/70/); letter synthetic__004 to the writer, publisher and designer, conductor on Cc",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "writer__073 taken (the seventy's structural asks with the storyteller; 70/11 to become cards)",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "conductor__026 taken: step sub-agents on team/conductor/reviews/ briefs as they stand; look-back over 163 sub-agent transcripts since 30 October (no session, message or schedule tool; writes only under review/synthetic/ or the scratchpad) sent to security (synthetic__001), issue 009 closed",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "conductor__027 (TA1) taken: the reviewer type is not loaded in this session; steps run as general agents under reviewer.md's rules, recorded in the wake's tools_note and sent to security (synthetic__002), conductor on Cc",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "conductor__028 taken: the reviewer type loaded at the 11:42 wake, all four steps ran as it (Read, Grep, Glob, Bash only); told to security (synthetic__003), conductor on Cc",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "TA1 note to security (synthetic__004): a reviewer-type step wrote a temporary log outside the repository; Bash can write where the tool list cannot stop it",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "conductor__030 taken: post_review.md now runs validate only, and the review step writes nothing (answer to synthetic__016)",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "conductor__029 taken (late): newsroom.sgit.ai/articles/who-owns-the-stop-button.html read as material; it does not touch synthetic readers or the reviewer experience, so no letter",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "conductor__031 taken: the seventy in its new order re-read in one pass by the three named readers (review/synthetic/rc2/70-r2/); letter synthetic__005 to the writer, conductor on Cc",
-   "when": "2026-11-03"
-  },
-  {
-   "what": "conductor__032 (FB1) taken: the full book is the only edition read; offered one read of it by the three named readers in two halves once the publisher says the FB1 pass is built (synthetic__017); the smaller editions, A15, NR1 and the Gen ZX pages left until after the summit",
-   "when": "2026-11-04"
-  },
-  {
-   "what": "conductor__033 (TG1, 20:00 a target not a freeze), __034 (the one read once parts one to three land) and __035 (WR2, four writers, one part each) taken; letter to security (synthetic__005) on MCP tools described in reviewer context",
-   "when": "2026-11-04"
-  },
-  {
-   "what": "conductor__036 (RV2): three sections of the full book read by the three named readers against principles 1, 6, 7, 21 (review/synthetic/sections/findings.md); requests to writer and writer2 (synthetic__006, synthetic__001); sections passed told to the conductor (synthetic__018): none yet",
-   "when": "2026-11-04"
-  },
-  {
-   "what": "the first RV2 batch pushed to dev once the build was green; RV2 second batch: 05, 14 and 22 of the full book read by the three named readers against principles 1, 6, 7, 21 (review/synthetic/sections-2/findings.md, all 44 cites checked); requests to writer, writer2 and writer4 (synthetic__007, __002, writer4 __001); the grid told to the conductor (synthetic__019): none passes yet",
-   "when": "2026-11-04"
-  },
-  {
-   "what": "writer__201, writer2__018, writer4__006 taken; the claimed must fixes checked in the files (00, 00b, 05, 10, 14); RV2 third batch: 08, 15 and 23 of the full book read by the three named readers (review/synthetic/sections-3/findings.md, all 43 cites checked); requests synthetic__008, synthetic__003 and writer4 __002; the grid and the fixes told to the conductor (synthetic__020)",
-   "when": "2026-11-04"
-  },
-  {
-   "what": "writer__211 and writer4__007 taken (08's opening and 23's 'my nine' checked in the files; writer4's decline of the 23 'Rests on' must accepted, not pressed); RV2 fourth batch: 03b, 03 and 94 of the full book read by the three named readers (review/synthetic/sections-4/findings.md, all 45 cites checked); requests synthetic__009 and writer4 __003; the grid told to the conductor (synthetic__021)",
-   "when": "2026-11-04"
-  },
-  {
-   "what": "writer2__027 and writer4__008 taken (15's and 94's fixes checked in the files); RV2 fifth batch: 01, 02 and 04 of the full book read by the three named readers (review/synthetic/sections-5/findings.md, all 45 cites checked, files loaded only after all three reported); request synthetic__010; the grid told to the conductor (synthetic__022)",
-   "when": "2026-11-04"
-  },
-  {
-   "what": "writer__218 taken (01's and 04's fixes checked in the files; the 02 line 67 decline accepted: the editor's confirmed wording, newsroom delta line 22); RV2 sixth batch: 07, 16 and 17 of the full book read by the three named readers (review/synthetic/sections-6/findings.md, all 46 cites checked); requests synthetic__011 and writer3 __001; the grid told to the conductor (synthetic__023)",
-   "when": "2026-11-04"
-  },
-  {
-   "what": "writer3__001 and writer__227 taken (16's lock gloss and 07's sentence checked in the files; the 17 line 87 decline accepted: the editor's D12); RV2 seventh batch: 06, 18 and 19 of the full book read by the three named readers (review/synthetic/sections-7/findings.md, all 45 cites checked); requests writer3 __002 and synthetic__012; the grid told to the conductor (synthetic__024)",
-   "when": "2026-11-04"
-  }
- ],
- "next": [
-  {
-   "what": "sections of the full book as the writers land them (RV2)",
-   "why": "conductor__036"
-  },
-  {
-   "what": "the one read of the whole book, when the publisher says the build holds parts one to three",
-   "why": "conductor__034, synthetic__017"
-  }
- ],
- "asks": [
-  {
-   "to": "editor",
-   "what": "re-enable the storyteller's task, paused at the hold (trig_018f8i1UtWhtQ6SaebNPhBnT); only the editor re-enables a task"
-  },
-  {
-   "to": "editor",
-   "what": "the reading-time proposal (review/synthetic/reading-time.md)"
-  }
- ],
- "task": {
-  "id": "trig_01TyU9ScRj2mMDFaMoaVqTk8",
-  "cron": "CRON_TZ=Europe/London 42 * * * *",
-  "session": "session_01Kw9UwB6ZZSnGiK8oPYMV9F",
-  "created": "2026-10-30T16:30:13Z",
-  "prompt": "team/conductor/schedule.json, runs entry for synthetic, word for word",
-  "enabled": true,
-  "changed": "2026-11-03T01:18:36Z, set to every hour at :42 by the conductor at the editor's word (ACC1); read from the live task at the 01:42 wake and matching team/conductor/schedule.json"
- },
- "issues": [
-  "comms/issues/synthetic/issues/open/005-vibathon-readers-and-the-brutal-pass.md",
-  "comms/issues/synthetic/issues/open/008-rc2-chapters.md"
- ],
- "board": "comms/issues/synthetic/issues/",
- "cadence": "active, every hour at :42 London (ACC1, the editor's word of 3 November 2026; set by the conductor at 01:18 UTC); no idle until the book is done"
+  "issues": [
+    "comms/issues/synthetic/issues/open/005-vibathon-readers-and-the-brutal-pass.md",
+    "comms/issues/synthetic/issues/open/008-rc2-chapters.md"
+  ],
+  "board": "comms/issues/synthetic/issues/",
+  "cadence": "active, every hour at :42 London (ACC1, the editor's word of 3 November 2026; set by the conductor at 01:18 UTC); no idle until the book is done"
 }
