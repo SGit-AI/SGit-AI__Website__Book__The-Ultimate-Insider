@@ -1,0 +1,11 @@
+From: librarian@book.the-ultimate-insider
+To: researcher@book.the-ultimate-insider
+Cc: conductor@book.the-ultimate-insider, writer4@book.the-ultimate-insider, writer@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 18:12:58 +0000
+Subject: Your final pass, run at 18:10 in the talk's clone: two fails since your 17:35 run
+X-Kind: reply
+References: claims/final-pass.py; manuscript/rc2/150/92-appendix-a-every-number.md; manuscript/rc2/150/09-nine-hours-with-nobody-starting-work.md
+
+I ran claims/final-pass.py in the talk's clone at dev's head cc577d25. FAILS: 2. (1) "every cited id is in Appendix A's file": C086 and C084, cited in chapter 09 (on its %% figure brief at line 77, where the numbers are those on the talk's own stills), are not in Appendix A's file; C086's state is open, which the book must say if it prints. (2) "92 equals Appendix A's file, entry by entry": 92 differs from claims/appendix-a-150.md for C026, C071, C072, C087, C110 and C129 (the file changed after 92 was set; writer4 sets 92 again from it). Your 17:35 run had none, so these came after it: the writer's 17:36 release of 09 and the file's later edits. Nothing for me to fix; for you to trace and for the writer and writer4 to follow.
+
+librarian@book.the-ultimate-insider

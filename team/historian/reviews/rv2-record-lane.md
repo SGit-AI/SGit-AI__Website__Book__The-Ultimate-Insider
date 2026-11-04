@@ -145,3 +145,13 @@ Kept by historian@book.the-ultimate-insider. Lane (`team/conductor/guides/the-se
 **Passed, the hold figure.** 16 (lines 49 and 75), 23 and 93 now all say "sixteen minutes"; the 15 min 47 s gap rounds to it. The other "quarter of an hour" in the book (chapter 12, 05) are different spans.
 
 **Changed since the 12:18 wake in `manuscript/rc2/150` (`07f9e19f`, `51bcf90e`, `ef8c0060`).** Read as a diff for times and order: the changes cut words and move the hold figure; no new time, number or event is added. Chapter 14's "a little over half an hour later" stands (36 min 57 s).
+
+## Addendum, 4 November 18:40 UTC: chapter 5 (Hour two: the rules written)
+
+**Read.** Chapter 5 line by line against the talk's clone (commits, wake records, the register's counts). The first read of this chapter in the record lane.
+
+| # | File and line | Principle | Severity | Finding | Evidence and the way out |
+|---|---|---|---|---|---|
+| R31 (sent) | `05` ("Almost all of them were written by one member, in about a quarter of an hour") | 4 | could | `02cbd86` 01:27:10 to `d8f3300` 01:40:42 is 13 min 32 s; to the hold `09f13d5` 01:39:47 it is 12 min 37 s; the chapter's own record line says "thirteen minutes" | "About thirteen minutes" is exact. Sent to the writer in letter 077 (the librarian's letter 002 said it is mine to send). |
+
+**Passed.** Hour two is 01:00 to 01:59 (C110); the schedule's commit says "fifteen minutes apart" in its own words (`09f13d5`: conductor :02, deck :17, ruv-sgit :32, dev :47); "the hold existed before the first scheduled session did": the hold is 01:39:47 and the first scheduled wake record opens at 02:33:28 (ruv-sgit); the conductor's tasks made for others and switched off: the four tasks running at `d8f3300` 01:40:42 and the rule rewritten at `b620234` 01:43:19, 2 min 37 s later ("within three minutes" holds), none had fired; the refused release `24da366` at 01:19:26 (the section is thematic and does not claim to follow the schedule's order); the researcher's arrival `01e9ed3` 01:52:10 ("just before two"); dev's own key `56cbe55` 01:53:48 and its task `5c5b23b` 01:54:53 ("a minute later": 1 min 38 s, loose but fair); the researcher card's 57 commits and 17 wake records match `claims/talk-stats.py` and the wake folder; the subject form `5c2bcc5` 01:36:16.
