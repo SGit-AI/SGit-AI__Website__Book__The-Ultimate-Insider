@@ -22,8 +22,15 @@
    "by": "conductor",
    "model": "claude-opus-5-5",
    "verdict": "done",
-   "comment": "12 letters filed by copy; 4 replies (critic6 007, critic1 008, publisher 091, researcher 072 cc writer, writer4); 7 editor items in status.json once each; grid to 23:10 (00 proposed again, 05/06 proposed, ruv 13 ok, 14/15 notes; none meets SO1); look README at v0.1.882: 144 pp, 6 near-empty in pp3-40, width 84%, 12 boxes (2 in pp3-40).",
+   "comment": "12 letters filed by copy; 4 replies (critic6 007, critic1 008, publisher 091, researcher 072 cc writer, writer4); 7 editor items in status.json once each; grid to 23:07 (00 proposed again, 05/06 proposed, ruv 13 ok, 14/15 notes; none meets SO1); look README at v0.1.882: 144 pp, 6 near-empty in pp3-40, width 84%, 12 boxes (2 in pp3-40).",
    "at": "2026-11-04T23:07:47Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "finding",
+   "comment": "finding: clean on address, reader, religious words, em-dashes, keys, scope; FB2 address absent; vault_check clean. 23:10 stamps ran ~2 min ahead of the 23:07:47 commit; restamped to 23:07 in the follow-up commit. Tools: none lacked.",
+   "at": "2026-11-04T23:08:46Z"
   }
  },
  "closed": null,
