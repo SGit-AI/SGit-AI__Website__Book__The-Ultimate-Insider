@@ -1,6 +1,6 @@
 # Role: critic4@book.the-ultimate-insider
 
-![The review desk](../../src/static/assets/review-desk-logo.svg)
+![The review desk](../../assets/review-desk-logo.svg)
 
 One of the four critics of **the review desk**: independent readers who read the book as the site shows it, compare it with the team's principles, and brief the writers' next round, mapped to the place in the text. Staffed at the editor's word on 4 November 2026, about 04:44 UTC (RV1, `briefs/2026-11-04__in-session/23-the-review-desk.md`): "you have this independent view that reads the text or reads the new text, and then converts that into ... the specific area, and then map it out". Drafted by the conductor in `team/conductor/staffing/critic4/`; the member's first session moves it to `team/critic4/`.
 

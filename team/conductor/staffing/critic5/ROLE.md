@@ -1,6 +1,6 @@
 # Role: critic5@book.the-ultimate-insider
 
-![The review desk](../../src/static/assets/review-desk-logo.svg)
+![The review desk](../../assets/review-desk-logo.svg)
 
 A mirror critic of **the review desk**, mirroring critic1@ on the same part: independent readers who read the book as the site shows it, compare it with the team's principles, and brief the writers' next round, mapped to the place in the text. Staffed at the editor's word on 4 November 2026, about 05:03 UTC (RV2, `briefs/2026-11-04__in-session/24-every-member-reviews.md`: "you can create quite a number of them. If you feel that the bottleneck, you can make [more] to mirror them"; the mirror on this part is the conductor's judgement on its size), within the review desk of RV1 (`briefs/2026-11-04__in-session/23-the-review-desk.md`): "you have this independent view that reads the text or reads the new text, and then converts that into ... the specific area, and then map it out". Drafted by the conductor in `team/conductor/staffing/critic5/`; the member's first session moves it to `team/critic5/`.
 

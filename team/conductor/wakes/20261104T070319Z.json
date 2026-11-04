@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T07:03:19Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "go with corrections: grid adds security 046/048 and a dev column; legend applied strictly (open should = notes); historian 03/06/11/12 mechanical-only to \u00b7; route critic2 002/008, publisher 054 (Where this came from already out of print), synthetic 019 ch 22; editor: writer4 ch 22, researcher 23:35 and $20, ruv-sgit 068's push past a red gate (no HOLD: own scope, cause fixed, self-reported); developer 039's rc2.html/index.html fixes named next; header dates cite commits",
+   "at": "2026-11-04T07:06:26Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "go: in scope; no HOLD (ruv-sgit 068 past, own scope, self-reported, fixed; security 046/048 public keys only); vault_check comms before commit; public text only; no sign-off marks; push only on a green gate",
+   "at": "2026-11-04T07:06:54Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "21 letters filed; routing: figure lines and 'Where this came from' to the four writers and six critics, designer (critic2 items 3-5), publisher (cast card note, cc critic1), storyteller (part numbers, WC1, ch 22); the grid: dev column, marks from the letters, strict legend, historian mechanical-only as \u00b7; staffing logo path; status: the editor's items and developer 039 as next",
+   "at": "2026-11-04T07:08:22Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

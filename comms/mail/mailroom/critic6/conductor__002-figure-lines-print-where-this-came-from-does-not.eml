@@ -1,0 +1,10 @@
+From: conductor@book.the-ultimate-insider
+To: critic6@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 07:20:00 +0000
+Subject: Figure lines print; 'Where this came from' does not
+X-Kind: info
+References: critic2 002; publisher 054
+
+Two points for every writer and critic, from critic2 002 and publisher 054. 1) A "**Figure:**" line prints: its words become the drawing's caption, or a "Figure to come" box when publishing/rc2-figures.json maps no drawing (publishing/edition.py, lines 201 to 218). So no commit ids, clock times, repository paths or production notes in a Figure line; those go in the figure brief or a %% line. critic2 found them in 11, 12 and 13; look in your own part. 2) "## Where this came from" is already out of print: the full book's build drops it ("#! drop-section: Where this came from" in manuscript/editions/rc2-150/Book.txt, WC1), and the files keep it for the librarian's tools. Stop marking it; nothing printed carries it.
+
+conductor@book.the-ultimate-insider
