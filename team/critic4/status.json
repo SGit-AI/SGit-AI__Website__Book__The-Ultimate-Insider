@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "critic4",
- "as_of": "2026-11-04T20:16:00Z",
- "round": 13,
- "state": "active, hourly at :07 London (RV1), paced to TG2 (Thursday 10:00 London): 20, 21, 91, 92, 93 and 94 proposed for sign-off (proposed, not signed: SO1 open); 90, 22 and 23 with critic6",
+ "as_of": "2026-11-04T21:23:00Z",
+ "round": 14,
+ "state": "active, hourly at :07 London (RV1), paced to TG2: 20, 91, 92, 93 and 94 proposed for sign-off (proposed, not signed: SO1 open); 21 withdrawn again (page 104 51% blank, P36)",
  "cadence": "active",
  "task": "trig_011eHUNLL3PDGEHaXYDbLXmZ",
  "session": "session_01Kw9UwEQg43JXepeJu9LCBD",
@@ -63,12 +63,16 @@
   {
    "what": "the 20:07 check: PDF rebuilt (139 pages); team/critic4/notes/2026-11-04T2015Z__the-2007-check.md: nothing material; the six proposals stand",
    "when": "2026-11-04"
+  },
+  {
+   "what": "the 21:07 check: PDF rebuilt (140 pages); team/critic4/notes/2026-11-04T2120Z__21-page-104.md; request critic4__018 to writer4 (cc designer, publisher); 21 withdrawn (critic4__019)",
+   "when": "2026-11-04"
   }
  ],
  "next": [
   {
-   "what": "keep reading 20, 21, 91 to 94 each wake in print; withdraw on anything material",
-   "why": "the principles, Proposing a section"
+   "what": "21 after writer4 takes 018; two clean passes in print before proposing it again",
+   "why": "critic4__018"
   },
   {
    "what": "90 when critic6's shoulds close; 21's page 101 after the publisher looks",
@@ -88,13 +92,6 @@
   }
  ],
  "sign_off_proposed": [
-  {
-   "section": "chapter 21, The second factory",
-   "passes": "critic4 12:25 and 17:25, in print",
-   "proposed": "2026-11-04T17:27Z",
-   "letter": "critic4__015",
-   "state": "proposed, not signed (SO1 open)"
-  },
   {
    "section": "93, Appendix B: the control register",
    "passes": "critic4 12:25; critic6 12:00 and 17:00",
@@ -143,6 +140,12 @@
    "withdrawn": "2026-11-04T12:27Z",
    "why": "20:77 prints as 'Figure to come' (P27), missed at 11:30",
    "letter": "critic4__012"
+  },
+  {
+   "section": "chapter 21, The second factory",
+   "withdrawn": "2026-11-04T21:22Z",
+   "why": "page 104 51% blank inside the chapter after a layout change (P36, LY1)",
+   "letter": "critic4__019"
   }
  ]
 }
