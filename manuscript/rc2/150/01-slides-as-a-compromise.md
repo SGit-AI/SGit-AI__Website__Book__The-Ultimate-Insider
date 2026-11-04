@@ -6,7 +6,7 @@
 
 *Words on this page:* an **agent**, here, is an AI that works in a loop: it reads, decides, acts with tools, and checks the result. The **player** is the part of the talk's site that let me press play on stage.
 
-**Narrator.** I have been trying to present better for a long time. For me, slides were always an inefficient way to communicate. They do not move, and they do not answer back. So I spent my talks explaining what the slides could not show: this goes from here to there, this grows, this breaks. The room had to imagine the movement in their heads while I described it. I talked over my own pictures.
+**Narrator.** I have been trying to present better for a long time. My slides were always a compromise. I usually read my talks, with the slides behind me as a backdrop, and I knew they could not do what I needed. They do not move, and they do not answer back. So I spent my talks explaining what the slides could not show: this goes from here to there, this grows, this breaks. The room had to imagine the movement in their heads while I described it. I talked over my own pictures.
 
 **Narrator.** And I always wrote my slides in the last hours or days before a talk, because that is when my thinking came together and my flow arrived. So for years I kept building tools to present with, chasing one thing: a feedback loop while I was still creating, so I could see the idea move, fix it, and see it again before I stood up.
 
@@ -16,7 +16,7 @@
 
 `%% for the editor: the four paragraphs above tell his account of 4 November (brief 04) in his voice, with the continuum from the record; "It did not come from nowhere" and "This is a continuum, not a lucky day" are the writer's; his to keep or drop.`
 
-`%% record: briefs/2026-11-04__in-session/04-introduce-the-narrator-and-chapter-1.md (his account, given after the day); index/talk-site/crawl.json (the player's debrief, "The player, ported from ruv.sgit.ai"; studio's first debrief, "the first two ports from ruv.sgit.ai"); timeline/day/01.md (ruv-sgit joining at 01:08); briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md (his voice note of 1 November on talking over the slides)`
+`%% record: team/conductor/from-newsroom/2026-11-04__narrator-voice-part-one-delta-01.md (section 2, his correction of the opening line) C116 ("I usually read my talks, with the slides behind me") briefs/2026-11-04__in-session/04-introduce-the-narrator-and-chapter-1.md (his account, given after the day); index/talk-site/crawl.json (the player's debrief, "The player, ported from ruv.sgit.ai"; studio's first debrief, "the first two ports from ruv.sgit.ai"); timeline/day/01.md (ruv-sgit joining at 01:08); briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md (his voice note of 1 November on talking over the slides)`
 
 **Narrator.** It sounds small. It is not. Every minute I spend narrating an arrow is a minute the room is listening to me describe a picture instead of thinking about the idea. And the harder the idea, the more of it lives in the movement: how something spreads, where it stops, what changes when you add more of it. Those were exactly the ideas I wanted to get across.
 
@@ -38,7 +38,7 @@
 
 **Narrator.** That is the building, an animation the team made for the talk. Ordinary users come in, go where they are supposed to go, and now and then one finds the gold that is not supposed to be there. But they tend to stop. Agents come in far greater numbers, and they keep going until they find it. As I said in the talk, that is the big difference: the agent does not stop. I did not have to explain the movement. I let it run, and talked about what it meant.
 
-**Narrator.** And a second, later in the talk. Not an animation this time: a page I had used for real, the one where I reviewed each agent's policy before it could work. When I onboarded the team that built the talk, each agent asked for what it wanted, and I approved it, changed it or questioned it, and what I agreed became its mandate. I put that page on the screen and only said what it was. The room saw a real policy page, not my description of one.
+**Narrator.** And a second, later in the talk. Not an animation this time: a page I had used for real, the one where I reviewed each agent's policy before it could work. When I onboarded the team that built the talk, each agent asked for what it wanted, and I approved it, changed it or questioned it, and what I agreed became its mandate. I put that page on the screen and said what it was. The room saw a real policy page, not my description of one.
 
 **Figure:** the policy review page as it was on the screen: one agent's policy, item by item, with a verdict beside each (`index/talk-site/shots/studio-ports__abp-review.jpg`). One line on the page says I had agreed all ten policies; the files say eight of ten by the end of the day.
 

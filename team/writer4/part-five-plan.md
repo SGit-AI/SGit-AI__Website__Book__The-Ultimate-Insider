@@ -53,3 +53,19 @@ I do not propose these in `book.json` (the conductor's); I ask the conductor whe
 ## Hand-offs, once a chapter lands
 
 Each chapter, by letter: the historian, the librarian and security (checks), the researcher (trace, and the new facts to register), the publisher (build). Findings taken at the next wake.
+
+## Chapter 20, line by line (second wake, 03:40 UTC, against `dev` at `cee7466`)
+
+Ready to apply the wake the file is mine. Line numbers are today's.
+
+| Line | Today | What I will do | Kind |
+|---|---|---|---|
+| 13 | "the talk's record shows no wake after 18:48" | "The work stopped at the hold, and no member woke again that day": the time goes to the `%% record:` line, which already holds it | applies now |
+| 13 | (newsroom) "a few minutes later the last session closed" | **not taken**: the `%% for the editor` note on line 11 says the record shows nothing of the sessions ending that night, so this would be a new fact the record does not hold. To the researcher | held |
+| 15 | "That is the part people miss" | his statement now, the newsroom's first sentence; "the value is in what it leaves behind" on its own `%%` line | applies now, and Check held |
+| 26 | "On 31 October, in my paper review ... 'just a footnote'" | "looking back, the stop at ninety-five per cent is almost a footnote. I could have moved the work to another session" (no self-quote); the "outlived more than one session" sentence held | applies now, and Check held |
+| 37 | "the file itself was committed at a few minutes past eleven (cfcc2951)" | cut from the reading text; the hash stays on the `%% record:` line | applies now |
+| 57 to 67 | six narrator paragraphs reading out the handover | one narrator line, the six sections in the **Conductor**'s first person (no mood tag), one narrator line after: the "nothing is acted on until I sign it" line | applies now |
+| 85 | "woken by the clock" | "started by the clock"; "it cannot forget one" held | applies now, and Check held |
+
+Also for the researcher, when 20 lands: the band on line 29 ("given after the day") is logistics by item 3, but it is a band, not the reading text; it stays.

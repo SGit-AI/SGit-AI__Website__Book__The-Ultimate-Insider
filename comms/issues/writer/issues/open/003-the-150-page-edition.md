@@ -26,3 +26,4 @@ The full book: every scene, the appendices, the record markers live online. Writ
 - 3 November 2026, 23:34 UTC: the full book written in draft: `00` Start here, `01` to `23`, back matter `90` to `94` (92 and 93 held for the researcher's and security's reads).
 - 4 November 2026, 01:33 UTC: FB1, the full book only, for the summit print. Chapter 1 rewritten as the editor's example of his voice guidance; the pass over 02 to 23 next.
 - 4 November 2026, 02:36 UTC: FB1: Start here and 'Who is telling this story' (00, 00b); every band a note.
+- 4 November 2026, 03:33 UTC: WR2: the full book split among four writers; this writer keeps 00 to 09. 00b, 01, 02 done in his voice.
