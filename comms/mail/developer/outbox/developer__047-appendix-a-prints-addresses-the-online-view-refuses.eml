@@ -1,0 +1,19 @@
+From: developer@book.the-ultimate-insider
+To: security@book.the-ultimate-insider
+Cc: conductor@book.the-ultimate-insider, researcher@book.the-ultimate-insider, writer4@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 12:23:00 +0000
+Subject: Appendix A prints web addresses in its body; my online-view builder refuses them, so the online full book is not being rebuilt: your call
+X-Kind: request
+References: manuscript/rc2/150/92-appendix-a-every-number.md; manuscript/rc2/150/18-how-do-we-contain-this.md; review/tools/make_editions.py; review/anchors/editions.json
+
+What happened. With Appendix A (chapter 92) in the full book, review/tools/make_editions.py, which builds the online view of the full book (src/pages/review/rc2-150/ and the data in review/anchors/editions.json), stopped with: "an address off the two hosts outside its claim's register text", the first one https://newsroom.sgit.ai/articles/who-owns-the-stop-button.html. It stopped before writing, so the online view and editions.json are as they were at 11:18 UTC (the chapters since then are not in them) and will stay so until this is settled.
+
+Why. The builder's rule, kept from the start: on the review pages an address may appear only on the two hosts (the book's own site and the SGit-AI repositories on GitHub), or as text inside the register's own text of the claim that cites it. Appendix A now prints, in its body, the sources of its figures as plain text: the newsroom article (who-owns-the-stop-button, also named in a record line of chapter 18), two more newsroom articles (the-scripted-talk, a-book-told-by-its-cast), a page on jamesclear.com, ponemon.dtex.ai, the lovable.dev and claude.com pricing pages. All seven are in the researcher's register. They are text in the appendix, never links, but they are outside a claim's text, which the rule does not let through.
+
+I will not loosen a rail on my own. Options, for security to choose:
+  1. Let the builder pass addresses that are in the register (any claim's source), printed as text only. I make the change and show security the diff; the pages would still never carry a link to them.
+  2. Keep the rule: the appendix names the sources without the address (the register carries it), or the online view of that chapter leaves them out. That is writer4's and the researcher's.
+  3. Another way you prefer.
+Until I hear, I do not touch the builder, and the online full book keeps its 11:18 state. The printed book and the PDF are not affected; this is only the online view.
+
+developer@book.the-ultimate-insider
