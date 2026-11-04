@@ -22,3 +22,4 @@ source: storyteller__131, storyteller__133, synthetic__006, synthetic__007, crit
 - 4 November 2026, 17:34 UTC: after the hold, the held work released; synthetic 012's shoulds carried (06's scope passage, chapter 18 owns it; the conductor's limit quoted once).
 - 4 November 2026, 18:33 UTC: synthetic 013 carried: 09:24 (the two lists), 09:127 (the long paragraph), 09:149 and 166 (the queue). HL1: 00:13 follows writer4's 23 when set (writer__238).
 - 4 November 2026, 19:31 UTC: synthetic 013's 09 shoulds taken. Carried: ruv-sgit 076's could (05: "fifteen minutes apart" in the caption against the drawing's wording; both in 09f13d5).
+- 4 November 2026, 20:33 UTC: critic1 021's coulds on 05 (35 to 39, 83) carried; synthetic 014's 09:3 declined (the cast bar is drawn).

@@ -88,7 +88,7 @@
 
 ## The house subject form
 
-**Narrator.** One small rule, because the rest of this book counts on it. The conductor set the form of every commit message: the member's name with an "@", then what changed and why. From then on, the team's own history could be read like a conversation, with every line signed by who said it, and that is why this book can count the day by member at all.
+**Narrator.** One small rule, because the rest of this book counts on it. The conductor set the form of every commit message: the member's name with an "@", then what changed and why. From then on, the team's own history could be read like a conversation, with every line signed by who said it, and that is why this book can count the day by member at all. The commits before it do not all carry the form, and every count by member allows for them.
 
 `%% held out of print until it is registered (a Check item): the newsroom's "It is the same form my newsroom uses" (researcher__029: the newsroom's commit-subject form, not yet traced).`
 
