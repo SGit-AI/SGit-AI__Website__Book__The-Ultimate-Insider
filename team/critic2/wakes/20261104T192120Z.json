@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic2",
+ "kind": "scheduled, hourly at :20",
+ "started": "2026-11-04T19:21:20Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1) security__001 and writer3__005 to done/. 2) pass 9 on 10 to 15 and pass 5 on 18 and 19 (the changed 18:32 line); a short note keeping every proposal; no letters, nothing is asked of anyone. 3) status.json and a debrief. No hold, board or requests.",
+   "at": "2026-11-04T19:22:12Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Inside critic2's policy; no letters, no manuscript, book.json, other members' files or blind repo; no secret or stop condition. Condition: no em-dashes, religious words or unregistered numbers.",
+   "at": "2026-11-04T19:22:47Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
