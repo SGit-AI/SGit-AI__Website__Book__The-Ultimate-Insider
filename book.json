@@ -806,6 +806,20 @@
    "by": "editor",
    "ask": "Feedback to the newsroom journalist, as a page always up to date, with the earlier documents in one folder",
    "detail": "Decided by the editor, 4 November 2026, about 09:40 UTC (briefs/2026-11-04__in-session/25-feedback-to-the-newsroom.md): \"Great work. Can you give me that infographic now with a view of how much of these changes have been done and how much you still need to do, i.e. of the book based on the rewriting that we're doing based on the comments that I provide and based on the feedback from the other agent. And confirm that the markdown file that I see from the files from 0 to 9, chapters from 0 to 9, they are the only documents so far for me to give to the other agent. In fact, let's do this, right? Do even better. Why don't you add your feedback to a web page so that it's always up to date? And you just add it as a section for the other agent. You can even call it feedback to the newsroom journalist. In fact, also update the previous documents, that the couple of documents I sent to that section, you know, that folder, you know, in our code base. And then I can just literally point the journalist there, and that's always going to be up to date with the work you've done. And and then just give me a sense of how much more work we still need to do to implement again this first phase or phases. And I'm assuming that I can now start reading from the top again, right?\" The conductor's reading: the page is /newsroom/ on the site, built from team/conductor/for-the-newsroom/ (a README kept current by the conductor, and copies of the hand-over, the reply on part one and the stop-button note); its table of where the book stands is rebuilt at every release from the manuscript, git and the section grid."
+  },
+  {
+   "id": "PW1",
+   "status": "decided",
+   "by": "editor",
+   "ask": "Writers and critics work in parallel; a stalled part is picked up by another",
+   "detail": "Decided by the editor, 4 November 2026, about 09:55 UTC (briefs/2026-11-04__in-session/26-the-look-we-lost-and-writers-in-parallel.md): \"first of all, on the tasks, you have multiple writers and multiple reviewers. They can work in parallel. So, for example, if the writer 3 was stuck, the writer 2 could have picked it up, right?\" The conductor's reading: part four (16 to 19) goes now to writer2 and critic2, whose part three is proposed for sign-off, while writer3 and critic3 have no task; writer2 widens its own policy; reversible at his word."
+  },
+  {
+   "id": "LY1",
+   "status": "open",
+   "by": "editor",
+   "ask": "Bring back the look of the version he liked: width, visuals on every spread, no empty pages, icons and callouts as often as before",
+   "detail": "Asked by the editor, 4 November 2026, about 09:55 UTC (brief 26): \"I think we lost the feel that existed in the previous one ... can you just, before you do any changes, can you see what I mean?\" The comparison: team/conductor/research/2026-11-04__the-look-before-and-after/. Proposed by the conductor (not his words), for his go: (1) a measure of about 84 to 85% of the page, keeping only the spacing gains; (2) a visual on every spread in the opening pages: the player and policy screenshots back in chapter 1 beside their paragraphs, the cast cards early, 'Who is telling this story' broken with the cast row and a small figure; (3) a no-empty-page rule in the build: a card or figure never alone on a page, each screenshot with its paragraph and caption; (4) icons, callouts and 'Words on this page' boxes as often as the version he liked, as a principle the critics check. Nothing changes until he says go."
   }
  ]
 }

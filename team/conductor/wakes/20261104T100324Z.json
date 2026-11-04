@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T10:03:24Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "go with corrections: PW1 quotes his whole passage, the part-four pickup labelled the conductor's reading and reversible (he has not answered 'unless you'd rather wait'); writer2 changes its own policy; writer3 told not to move writes_pending while writer2 holds 16-19; matrix part table updated; LY1 open, no letter asks a layout change; images 3.6 MB (downscale the two big ones), README says why images; grid strictly (librarian 92 notes, publisher 04/06-08 notes, researcher 16/21 notes, storyteller 07/08 notes, synthetic 01/02/04 notes, critic1 007 a proposal); editor items: hold-lifter (synthetic 022), 90 print at all, the phone scan of chapter 3's codes",
+   "at": "2026-11-04T10:05:32Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "go: in scope; decode every QR in the PNGs before commit (only security 019's cleared public keys); no letter asks a layout change; writer2's policy left to writer2; nothing to Cold-Read; vault_check comms then the gate",
+   "at": "2026-11-04T10:06:11Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "brief 26; PW1 decided (part four to writer2/critic2 as the conductor's reading, reversible), LY1 open; research folder with README and 4 downscaled sheets (1.4 MB; no QR decoder installed, codes under 15 px, only cleared public keys); 9 letters filed; letters writer2 004, critic2 004, writer3 004, critic3 003, researcher 065; grid strictly incl. critic1 007 proposal and part four rows; status; newsroom README part four",
+   "at": "2026-11-04T10:08:09Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
