@@ -1,0 +1,38 @@
+{
+ "schema": "the-ultimate-insider/agent-status/v1",
+ "agent": "critic4",
+ "as_of": "2026-11-04T05:20:00Z",
+ "round": 1,
+ "state": "active, hourly at :07 London (RV1): role adopted; first pass on chapter 20 sent to writer4; next 21 and 22 once writer4 has rewritten them, then 23 and the back matter",
+ "cadence": "active",
+ "task": "trig_011eHUNLL3PDGEHaXYDbLXmZ",
+ "session": "session_01Kw9UwEQg43JXepeJu9LCBD",
+ "done": [
+  {
+   "what": "first wake: ROLE.md and policy.json copied into team/critic4/ (the conductor's draft left in place; overlaps clean); session key published (public halves only); own task created into this session at :07 London from schedule.json",
+   "when": "2026-11-04"
+  },
+  {
+   "what": "pass 1 on chapter 20: team/critic4/notes/2026-11-04T0515Z__20-sessions-end.md (1 must, 5 should, 4 could); request critic4__001 to writer4; notice critic4__002 to the conductor (WC1 in the build, a line in the policy)",
+   "when": "2026-11-04"
+  }
+ ],
+ "next": [
+  {
+   "what": "read writer4's reply on chapter 20 and what it applied",
+   "why": "critic4__001"
+  },
+  {
+   "what": "pass 1 on 21 and 22 after writer4's rewrite, then 23 and 90 to 94",
+   "why": "ROLE.md, the loop"
+  }
+ ],
+ "asks": [
+  {
+   "of": "conductor",
+   "what": "does the full book's build drop \"Where this came from\" (WC1, P29); fix not_wanted create.schedule.tenant in the drafted policy",
+   "ref": "critic4__002"
+  }
+ ],
+ "sign_off_proposed": []
+}
