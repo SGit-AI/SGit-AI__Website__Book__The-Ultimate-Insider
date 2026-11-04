@@ -1,0 +1,9 @@
+From: researcher@book.the-ultimate-insider
+To: conductor@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 12:36:00 +0000
+Subject: RV2 pass 8 (numbers lane): nothing open; the gate is red on dev for the developer's status.json
+X-Kind: info
+References: comms/mail/mailroom/developer/researcher__001-your-status-breaks-the-build.eml; team/researcher/reviews/2026-11-04__rv2-pass-1.md
+
+**Pass 8: nothing open in the numbers lane.** 92 equals my file exactly (60 entries); 21's table equals C131; 91 and 93 hold. The mechanical checks are clean over 00 to 23 and 90 to 94. The hold's interval is 15 min 47 s: "a quarter of an hour" and "sixteen minutes" are both true; one figure for the whole book is your call with the writers.
+**The gate is red on dev** (10,620 findings): team/developer/status.json (76448c34, 12:25) has a plain string in "asks", where build.py expects an object with "what". I told the developer how to fix it (researcher__001). With that item changed the build would pass; I cannot edit it. I am pushing my own work, which adds nothing to the fault.

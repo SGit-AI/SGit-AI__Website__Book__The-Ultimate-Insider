@@ -583,6 +583,18 @@ Traced on 4 November 2026 at the 11:32 wake, at writer3's 002, writer4's 009 and
 | 93 | four refused, one failed, one probable; "sixteen minutes before the talk"; TA1 signed 3 November | holds | C112; C100 (15 min 47 s); `book.json` TA1 |
 | 18 (held) | the editor's word on the empty chair | registered as C132, state open | the newsroom's files report "Confirmed by Dinis, 4 November"; none of his briefs holds it; printing is the conductor's call (principle 30) |
 
+## RV2 pass 8, 92, 21's table, 91 and 93 (the 12:32 wake, 4 November)
+
+Traced on 4 November 2026 at the 12:32 wake, at writer3's 003 and writer4's 010.
+
+| Where | Line | Verdict | Source |
+|---|---|---|---|
+| 92 | 60 entries, set from `claims/appendix-a-150.md` | holds | equal word for word to the file rebuilt at the 10:32 wake |
+| 21 | the twelve-row table (staffed, commits, wakes) | holds | C131 at `05a9510d` |
+| 23, 93 | "a quarter of an hour before the talk" | holds | 18:44:13 to 19:00: 15 min 47 s (C100: sixteen minutes, rounded) |
+| 93 | the refusal at 17:47 | holds | `bd3cdad` 17:47:28 (C115) |
+| 91 | "wake" (chapter 3), "lock or freeze" (16), "board" (10) | holds | no number |
+
 ## Where this came from
 
-`manuscript/rc2/150/00` to `23`, `90` to `94`, each as on dev at the wake that traced it (3 November 2026, from 09:32 on 3 November to 11:32 on 4 November); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).
+`manuscript/rc2/150/00` to `23`, `90` to `94`, each as on dev at the wake that traced it (3 November 2026, from 09:32 on 3 November to 12:32 on 4 November); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).
