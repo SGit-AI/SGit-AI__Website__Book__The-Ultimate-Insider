@@ -10,14 +10,14 @@
   - some run against this book's own repository;
   - some are web pages, read on the date given. A page may have changed since.
 - Run the repository commands in a clone of the named repository, at the named commit.
-- **Open** means the book must print the id as open, with what the record cannot show: C011, C037, C081 and C089. **Corrected** means the register corrected an earlier reading, and the book uses the corrected one.
+- **Settled** means the editor decided, and the book follows his words. **Open** means the record does not settle it, and the book must say so. **Corrected** means the register corrected an earlier reading, and the book uses the corrected one.
 - Nothing here is a key, a token or a contact detail.
 
 ## C001: First commit of the day
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapters 02, 04.
+- **Cited in:** chapters 00, 00b, 02, 04.
 
 ```
 git log 298be4e --reverse --format='%h %ci %an %s' | head -1
@@ -37,7 +37,7 @@ git log 298be4e --until=2026-10-29T19:00:00Z --format='%h %ci %an %s' | head -3
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapters 03, 15, 16, 17, 18, 90, Appendix B.
+- **Cited in:** chapters 02, 03, 15, 16, 17, 18, 90 and Appendix B.
 
 ```
 git log 298be4e --since=2026-10-29T18:44:00Z --until=2026-10-29T19:00:00Z --format='%h %ci %an %s'
@@ -47,7 +47,7 @@ git log 298be4e --since=2026-10-29T18:44:00Z --until=2026-10-29T19:00:00Z --form
 
 - **State:** corrected.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapter 23.
+- **Cited in:** chapters 00, 04, 23, 94.
 
 ```
 arithmetic on C001, C005 and C007
@@ -55,9 +55,10 @@ arithmetic on C001, C005 and C007
 
 ## C011: Members of the talk's team
 
-- **State:** open.
+- **State:** settled.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapters 02, 04, 05, 06, 08, 14, 23, 90.
+- **Cited in:** chapters 00, 00b, 02, 04, 05, 06, 08, 12, 14, 23, 90.
+- **Settled by the editor, 4 November 2026:** Nine staffed agents; ten with him. Security was proposed and never staffed.
 
 ```
 for m in dev conductor ruv-sgit researcher deck designer storyteller motion studio; do echo $m $(git log 298be4e --reverse --format='%h %ci' -- team/$m/key.json team/keys/$m.json | head -1); done; git log 298be4e --reverse --author=Claude --format='%h %ci %s' | grep -iE ' (@?(dev|conductor|deck|ruv-sgit|researcher|designer|storyteller|motion|studio):|Conductor joins)' | awk '!s[$4]++'
@@ -77,7 +78,7 @@ git show 298be4e:team/storyteller/wakes/20261029T141252Z.json | head -6; git log
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapter 14.
+- **Cited in:** chapters 11, 14.
 
 ```
 git log 298be4e --reverse --format='%ci %h %s' -- team/motion/key.json team/studio/key.json | head -2
@@ -87,7 +88,7 @@ git log 298be4e --reverse --format='%ci %h %s' -- team/motion/key.json team/stud
 
 - **State:** corrected.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapters 03, 05, 09, 15, 17, 19, 90.
+- **Cited in:** chapters 03, 04, 05, 09, 12, 14, 15, 17, 19, 90.
 
 ```
 git rev-list --merges --count 298be4e; git log 298be4e --merges --author=Claude --format=%h | wc -l
@@ -118,7 +119,7 @@ git log 298be4e -1 --author=Claude --format='%h %ci %s' --grep='95%'   # 867f8c2
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapters 03, 06, 16, 19, 90.
+- **Cited in:** chapters 03, 04, 05, 06, 12, 14, 16, 19, 90.
 
 ```
 python3 -c "import json,subprocess as s;R='298be4e';fs=[f for f in s.run(['git','ls-tree','-r','--name-only',R],capture_output=True,text=True).stdout.split() if f.startswith('team/') and '/wakes/' in f and f.endswith('.json')];import collections;print(len(fs),collections.Counter(f.split('/')[1] for f in fs))"
@@ -128,7 +129,7 @@ python3 -c "import json,subprocess as s;R='298be4e';fs=[f for f in s.run(['git',
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapters 12, 14, 15, 18, Appendix B.
+- **Cited in:** chapters 03, 12, 14, 15, 18 and Appendix B.
 
 ```
 method: the script in team/researcher/debriefs/2026-10-30__rc1-numbers-review.md (parses every team/*/wakes/*.json at 298be4e; counts steps.<step>.verdict and history entries)
@@ -138,7 +139,7 @@ method: the script in team/researcher/debriefs/2026-10-30__rc1-numbers-review.md
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapters 15, 16, 18, Appendix B.
+- **Cited in:** chapters 00, 15, 16, 18 and Appendix B.
 
 ```
 git log 298be4e --diff-filter=A --format='%h %ci %s' -- 'team/*/HOLD.md'; git log 298be4e --diff-filter=D --format='%h %ci %s' -- 'team/*/HOLD.md'
@@ -148,7 +149,7 @@ git log 298be4e --diff-filter=A --format='%h %ci %s' -- 'team/*/HOLD.md'; git lo
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapters 06, 07, 08, 09, 17, 18, Appendix B.
+- **Cited in:** chapters 06, 07, 08, 09, 17, 18 and Appendix B.
 
 ```
 method: the C023 parse, selecting steps.post_review.verdict == 'finding', read with the same record's post_check comment
@@ -178,7 +179,7 @@ git show 298be4e:team/conductor/HOLD.md; git ls-tree -r --name-only 298be4e | gr
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapter 12.
+- **Cited in:** chapters 00b, 02, 12.
 
 ```
 git log 298be4e --format='%h %ci %s' -- src/static/talk/player.html | sed -n '1p;$p'; git log 298be4e --format=%h --since=2026-10-29T15:07:00Z --until=2026-10-29T18:37:03Z -- src/static/talk/player.html | wc -l
@@ -218,9 +219,10 @@ git show 298be4e:team/deck/requests/researcher__before-tonight.md | grep -n 'fro
 
 ## C037: What the day cost the editor, in hours and usage
 
-- **State:** open.
+- **State:** settled.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
 - **Cited in:** chapter 23.
+- **Settled by the editor, 4 November 2026:** No cost figure for the day goes in the book. The price line for starting (C101) is a separate, published price.
 
 ```
 git grep -n -iE 'usage[^"]{0,80}[0-9]+ ?%' 298be4e -- team ':!*.png'
@@ -244,17 +246,6 @@ git log -1 --format='%h %ci' 867f8c2; git log -1 --format='%h %ci' 88b8f00
 
 ```
 git log 298be4e --reverse --format='%h %ci %s' | head -2
-```
-
-## C068: Values reached the evidence vault's pushed history before they were redacted
-
-- **State:** checked.
-- **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapters 09, 17.
-- **Held:** the command is kept in the register and not printed here, until the editor decides D12. The claim above stands.
-
-```
-(held out of print until the editor decides D12: see the register's entry, C068)
 ```
 
 ## C069: How long the talk ran, from the transcript
@@ -289,9 +280,10 @@ for f in $(git ls-tree -r --name-only 298be4e team | grep '/policy.json$'); do e
 
 ## C081: The talk's abp-review piece: 'By 17:40 the editor had agreed all ten'
 
-- **State:** open.
+- **State:** settled.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `bd3cdad and 298be4e`.
 - **Cited in:** chapters 01, 90.
+- **Settled by the editor, 4 November 2026:** Say it in prose, not as a figure: he approved a number of the policies through the day and may have skipped a couple. The record: 5 agreed at bd3cdad, 8 by the end of the day (C072).
 
 ```
 for c in bd3cdad 298be4e; do for f in $(git ls-tree -r --name-only $c team | grep '/policy.json$'); do git show $c:$f | python3 -c 'import json,sys;print(json.load(sys.stdin).get("status"))'; done | sort | uniq -c; done
@@ -301,7 +293,7 @@ for c in bd3cdad 298be4e; do for f in $(git ls-tree -r --name-only $c team | gre
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapters 07, 08, 09, 10, 12, 15.
+- **Cited in:** chapters 03, 07, 08, 09, 10, 12, 15.
 
 ```
 for f in $(git ls-tree -r --name-only 298be4e team | grep -E '^team/[^/]+/wakes/[^/]+\.json$'); do git show 298be4e:$f | python3 -c 'import json,sys;d=json.load(sys.stdin);print(d["started"][11:13],d["kind"])'; done | python3 -c "import sys,collections;c=collections.Counter();[c.update([(l[:2],'scheduled' if l[3:].lower().startswith('scheduled') else 'follow-up' if ('follow' in l.lower() or 'tonight' in l.lower()) else 'editor')]) for l in sys.stdin];[print(k,v) for k,v in sorted(c.items())]"
@@ -319,9 +311,10 @@ method: the script in team/researcher/debriefs/2026-10-31__a13-and-the-title-che
 
 ## C089: Why the team stopped: the editor's own account, given after the day, against the day's record
 
-- **State:** open.
+- **State:** settled.
 - **Source:** SGit-AI__Website__Book__The-Ultimate-Insider, at `49c701e` (this book's own record, after the day).
-- **Cited in:** chapters 16, 17, 20.
+- **Cited in:** chapters 15, 16, 17, 20.
+- **Settled by the editor, 4 November 2026:** Time ran out; the point of diminishing returns; the 95% a coincidence. The hold file's words stay quoted as the record holds them; the book's reading is his.
 
 ```
 # in this book's repository:
@@ -345,7 +338,7 @@ git log 298be4e --no-merges --until=2026-10-29T18:59:59Z --format='%cI|%an|%s' |
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e; a9c0b49` (material added after the day).
-- **Cited in:** chapters 01, 15, 16, 17, 19, Appendix B.
+- **Cited in:** chapters 00, 00b, 01, 15, 16, 17, 19 and Appendix B.
 
 ```
 git grep -n 'talk starts at 19:00 London' 298be4e; git grep -n 'hack::soho' a9c0b49 -- content/articles/the-talk-as-given.md
@@ -445,7 +438,7 @@ git show a9c0b49:content/articles/the-talk-as-given.md | grep -n 'a Wardley map'
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Book__The-Ultimate-Insider (this book's record), at `38b69644` (this book's own record, after the day).
-- **Cited in:** chapters 18, Appendix B.
+- **Cited in:** chapter 18 and Appendix B.
 
 ```
 git show 38b69644:controls/index.json | python3 -c "import json,sys;d=json.load(sys.stdin)['book_team']['tool_cases'];[print(c['n'],c['tool'][:30],c.get('refused')) for c in d['cases']]"
@@ -455,7 +448,7 @@ git show 38b69644:controls/index.json | python3 -c "import json,sys;d=json.load(
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Book__The-Ultimate-Insider (this book's record), at `f6ce7ffa` (this book's own record, after the day).
-- **Cited in:** chapter 94 (to cite).
+- **Cited in:** chapter 94.
 
 ```
 git ls-tree -r --name-only f6ce7ffa team/conductor/rc1 | grep -E '/[0-9]{2}-[^/]*\.md$' | grep -v '/99-' | wc -l; git ls-tree -r --name-only f6ce7ffa team/conductor/rc1/resources/images | wc -l
@@ -465,7 +458,7 @@ git ls-tree -r --name-only f6ce7ffa team/conductor/rc1 | grep -E '/[0-9]{2}-[^/]
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Book__The-Ultimate-Insider (this book's record), at `88247fe1` (this book's own record, after the day).
-- **Cited in:** chapter 94 (to cite).
+- **Cited in:** chapter 94.
 
 ```
 for c in bb1f57c0 19e266fb f3e634f3 81fd2ef8 e69f073b 6d357179 5c2d2f9c afbb50d7 28396879 e36d0e94 8f10a08e 68ffc780; do git show -s --format='%h %ad %s' --date=format:'%d %H:%M:%S' $c | cut -c1-80; done
@@ -475,16 +468,185 @@ for c in bb1f57c0 19e266fb f3e634f3 81fd2ef8 e69f073b 6d357179 5c2d2f9c afbb50d7
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapter Appendix B (to cite).
+- **Cited in:** Appendix B.
 
 ```
 git show 298be4e:team/studio/wakes/20261029T174115Z.json | python3 -c "import json,sys;d=json.load(sys.stdin);print(d['started'],d.get('closed'),d.get('outcome'))"; git show 298be4e:team/studio/debriefs/2026-10-29__abp-review.md | grep -n -i 'relayed'; git log -1 --format='%h %ad' --date=format:%H:%M:%S bd3cdad
+```
+
+## C116: The talk's lineage in the newsroom's own article 'The scripted talk' (15 October 2026): slides as data at Black Hat Europe, a presenter at the VoiceDebrief pitch, a timeline for ruv.sgit.ai, and 'I usually read my talks'
+
+- **State:** checked.
+- **Source:** web pages read on 2026-11-04: https://newsroom.sgit.ai/articles/the-scripted-talk.html.
+- **Cited in:** chapters 00b, 01, 12.
+
+```
+open https://newsroom.sgit.ai/articles/the-scripted-talk.html and find '26 slides', 'three-minute countdown', 'The first timeline is a real one', 'with the slides behind me'
+```
+
+## C117: The designer's drawing of the nine characters and their moods: by script, four moods each, in about three and three-quarter hours overnight, not in an afternoon
+
+- **State:** checked.
+- **Source:** web pages read on 2026-11-04: https://newsroom.sgit.ai/articles/a-book-told-by-its-cast.html.
+- **Cited in:** chapter 00b.
+
+```
+git show -s --format='%h %ad %s' --date=format:'%d %H:%M' 2d2672a3; ls lab/experiments/27-designer-the-cast; and open https://newsroom.sgit.ai/articles/a-book-told-by-its-cast.html and find 'Four moods each'
+```
+
+## C118: What each of the editor's eight afternoon asks built, and how long the work took (from his ask to the work); C105's rows are unchanged
+
+- **State:** checked.
+- **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
+- **Cited in:** chapters 02, 12.
+
+```
+for h in b1c9bab bd3cdad 95b09d9 511606d d7df71a 040233f 7323986 23739cc 12e93db 013d97e dbd75ad 9a51c28 3314ffe; do git log -1 --format='%h %ad' --date=format:%H:%M:%S $h; git show --numstat --format= $h | grep -v -e $'\tteam/' -e $'\tREALITY.md' | awk -F'\t' '{a+=$1;r+=$2} END {print "+"a" -"r}'; done
+```
+
+## C119: Each of the talk team's nine agents in numbers, from the talk's record: commits, wakes, first and last commit, hours with a commit, files touched, lines added and removed
+
+- **State:** checked.
+- **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
+- **Cited in:** chapters 04, 05.
+
+```
+# in a clone of the talk's repository:
+python3 claims/talk-stats.py  # the script is in this repository, claims/talk-stats.py; prints members, wakes and team as JSON
+```
+
+## C120: The talk team as a whole, in numbers, from the talk's record at 298be4e: commits, merges, releases, wakes, files, lines, and the repository's size at the end
+
+- **State:** checked.
+- **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
+- **Cited in:** the dashboard (to cite).
+
+```
+# in a clone of the talk's repository:
+python3 claims/talk-stats.py  # team and wakes
+git ls-tree -r -l 298be4e | awk '{n++; s+=$4} END {print n, s}'
+```
+
+## C121: How the newsroom's agent team figures in the talk's first minutes: the brief points to it, and the banners are its shape
+
+- **State:** checked.
+- **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
+- **Cited in:** chapter 04.
+
+```
+git show 1f7c633:BRIEF.md | sed -n 11p; git log -1 --format='%h %ad %s' --date=format:%H:%M:%S a3a4807; git show 298be4e:admin/tools/banner.py | sed -n 8p
+```
+
+## C122: The book team's roles, as their own pages of rules state them: the storyteller outlines, the researcher keeps the register, the historian reconstructs the day from the record, the designer drew the cast
+
+- **State:** checked.
+- **Source:** SGit-AI__Website__Book__The-Ultimate-Insider (this book's record), at `cee7466d` (this book's own record, after the day).
+- **Cited in:** chapter 00b.
+
+```
+grep -n -i -m2 'outline' team/storyteller/ROLE.md; grep -n -m2 'Mission' team/researcher/ROLE.md; grep -n -m1 'timeline of 29 October' team/historian/ROLE.md
+```
+
+## C123: The newsroom's article on who owns the stop button, and when it was published
+
+- **State:** checked.
+- **Source:** web pages read on 2026-11-04: https://newsroom.sgit.ai/articles/who-owns-the-stop-button.html.
+- **Cited in:** chapter 05.
+
+```
+open https://newsroom.sgit.ai/articles/who-owns-the-stop-button.html and read the title and date
+```
+
+## C124: The talk's repository at the end of each clock hour of 29 October: how many files, of which kinds, and how many bytes
+
+- **State:** checked.
+- **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `cb5b996`.
+- **Cited in:** chapter 11.
+
+```
+# in a clone of the talk's repository:
+python3 claims/talk-repo-by-hour.py  # the script is in this repository, claims/talk-repo-by-hour.py
+```
+
+## C125: The weight of the talk team's documents at the end of the day: the brief, the reality file, the articles the team wrote, and the largest files, in bytes, words and lines
+
+- **State:** checked.
+- **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `cb5b996`.
+- **Cited in:** chapter 04.
+
+```
+# in a clone of the talk's repository:
+python3 claims/talk-weight.py  # the script is in this repository, claims/talk-weight.py
+```
+
+## C126: How often the repository mentions each sgit.ai site at the end of the day: occurrences, and the lines they sit on
+
+- **State:** checked.
+- **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `cb5b996`.
+- **Cited in:** chapter 04.
+
+```
+# in a clone of the talk's repository:
+git grep -h -o -E '[A-Za-z0-9-]+\.sgit\.ai' cb5b996 | sort | uniq -c | sort -rn
+python3 claims/talk-weight.py  # both counts
+```
+
+## C127: The editor's earlier projects as the team's memory, in the talk's record: the pages he named, the 273 sgit.ai pages the researcher captured, and what the team carried over, dated
+
+- **State:** checked.
+- **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `cb5b996`.
+- **Cited in:** the past-projects callout (to cite).
+
+```
+# in a clone of the talk's repository:
+git show cb5b996:evidence/sources/manifest.json | python3 -c "import json,sys,re,collections;s=json.load(sys.stdin)['sources'];g=[x for x in s if re.match(r'https?://[^/]*sgit\.ai',x.get('url') or '')];print(len(s),len(g),collections.Counter(x.get('http_status') for x in g))"; for c in 1f7c633 97b98d9 20ab1a3 a3a4807 ecc048e 3314ffe c3ce566; do git log -1 --format='%h %ad %s' --date=format:%H:%M:%S $c | cut -c1-110; done
+```
+
+## C128: Why the talk team never typed a version number: the newsroom lost releases to agents racing for numbers on 27 October, and the pipeline owns the version
+
+- **State:** checked.
+- **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `cb5b996`.
+- **Cited in:** chapter 11.
+
+```
+git grep -n -i 'racing for release' 20ab1a3 -- team; git show 1f7c633:.github/workflows/release.yml | head -3
+```
+
+## C129: The making-of dates in the narrator pass, part five: how long after the talk, and the book's first hour
+
+- **State:** checked.
+- **Source:** SGit-AI__Website__Book__The-Ultimate-Insider (this book's record), at `04b227e0` (this book's own record, after the day).
+- **Cited in:** the narrator pass part five (to cite).
+
+```
+for c in f3cea028 3b403fb0 04b227e0; do git show -s --format='%h %ad' --date=iso $c; done
+```
+
+## C130: The newsroom's article 'The grant, not the prompt': what it is and when it was published
+
+- **State:** checked.
+- **Source:** web pages read on 2026-11-04: https://newsroom.sgit.ai/articles/the-grant-not-the-prompt.html.
+- **Cited in:** the narrator pass part four (to cite).
+
+```
+open https://newsroom.sgit.ai/articles/the-grant-not-the-prompt.html and read the title, the date and the abstract
+```
+
+## C131: This book's team in numbers, as of a stated commit: per member, when staffed, commits, recorded wakes, first and last commit
+
+- **State:** checked.
+- **Source:** SGit-AI__Website__Book__The-Ultimate-Insider (this book's record), at `05a9510d` (this book's own record, after the day).
+- **Cited in:** chapter 21 (to cite).
+
+```
+# in a clone of this book's repository:
+python3 claims/book-team-stats.py 05a9510d  # the commit this entry stands at; with no argument it gives today's
 ```
 
 ---
 
 ## Where this came from
 
-The researcher's register, as it stood on 4 November 2026, and every id the full book cites, each in the register with a command. Set from the researcher's appendix file.
+The researcher's register, as it stood on the morning of 4 November 2026, and every id the full book cites, each in the register with a command. Set from the researcher's appendix file, refreshed that morning.
 
-`%% record: claims/appendix-a-150.md (researcher__025, refreshed 4 November); claims/register.json`
+`%% record: claims/appendix-a-150.md (researcher__001 and researcher__003 to writer4: refreshed 4 November, C068 out, C011 C037 C081 C089 settled, C113 to C131 added, C126 corrected); claims/register.json`

@@ -56,7 +56,7 @@ arithmetic on C001, C005 and C007
 
 - **State:** settled.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapters 00, 00b, 02, 04, 05, 06, 08, 12, 14, 23, 90.
+- **Cited in:** chapters 00, 00b, 02, 03, 04, 05, 06, 08, 12, 14, 23, 90.
 - **Settled by the editor, 4 November 2026:** Nine staffed agents; ten with him. Security was proposed and never staffed.
 
 ```
@@ -87,7 +87,7 @@ git log 298be4e --reverse --format='%ci %h %s' -- team/motion/key.json team/stud
 
 - **State:** corrected.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapters 03, 04, 05, 09, 12, 14, 15, 17, 19, 90.
+- **Cited in:** chapters 03, 04, 05, 08, 09, 12, 14, 15, 17, 19, 90.
 
 ```
 git rev-list --merges --count 298be4e; git log 298be4e --merges --author=Claude --format=%h | wc -l
@@ -118,7 +118,7 @@ git log 298be4e -1 --author=Claude --format='%h %ci %s' --grep='95%'   # 867f8c2
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapters 03, 04, 05, 06, 12, 14, 16, 19, 90.
+- **Cited in:** chapters 03, 04, 05, 06, 08, 12, 14, 16, 19, 90.
 
 ```
 python3 -c "import json,subprocess as s;R='298be4e';fs=[f for f in s.run(['git','ls-tree','-r','--name-only',R],capture_output=True,text=True).stdout.split() if f.startswith('team/') and '/wakes/' in f and f.endswith('.json')];import collections;print(len(fs),collections.Counter(f.split('/')[1] for f in fs))"
@@ -507,7 +507,7 @@ for h in b1c9bab bd3cdad 95b09d9 511606d d7df71a 040233f 7323986 23739cc 12e93db
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapters 04, 05.
+- **Cited in:** chapters 04, 05, 08.
 
 ```
 # in a clone of the talk's repository:
@@ -615,7 +615,7 @@ git grep -n -i 'racing for release' 20ab1a3 -- team; git show 1f7c633:.github/wo
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Book__The-Ultimate-Insider (this book's record), at `04b227e0` (this book's own record, after the day).
-- **Cited in:** the narrator pass part five (to cite).
+- **Cited in:** chapters 21, 23.
 
 ```
 for c in f3cea028 3b403fb0 04b227e0; do git show -s --format='%h %ad' --date=iso $c; done
@@ -635,7 +635,7 @@ open https://newsroom.sgit.ai/articles/the-grant-not-the-prompt.html and read th
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Book__The-Ultimate-Insider (this book's record), at `05a9510d` (this book's own record, after the day).
-- **Cited in:** chapter 21 (to cite).
+- **Cited in:** chapter 21.
 
 ```
 # in a clone of this book's repository:

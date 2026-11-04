@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-11-04T07:39Z",
+ "as_of": "2026-11-04T08:38Z",
  "round": 1,
- "state": "active, hourly: RV2 pass 3 done; the page rule saved for the historian; to do: pass 4 when the writers' fixes land (17, 94, 16, 14), 92 reset, the final script pass; 009 blocked",
+ "state": "active, hourly: RV2 pass 4 done; C127 repaired (1,110 on 35); to do: pass 5 when the writers' fixes land (17, 94), 92 reset, the final script pass at the freeze; 009 blocked",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -476,6 +476,16 @@
     "writer/researcher__032",
     "writer4/researcher__003",
     "conductor/researcher__031"
+   ]
+  },
+  {
+   "what": "RV2 pass 4; C127 corrected to 1,110 pages on 35 hosts; 21's twelve panels equal C131; 14, 23 confirmed",
+   "when": "2026-11-04T08:38Z",
+   "letters": [
+    "historian/researcher__005",
+    "writer4/researcher__004",
+    "writer2/researcher__005",
+    "conductor/researcher__032"
    ]
   }
  ],
