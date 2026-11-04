@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "critic4",
- "as_of": "2026-11-04T09:22:00Z",
- "round": 6,
- "state": "active, hourly at :07 London (RV1): 20 and 21 one clean pass running (pass 4); 92 at pass 1 (2 should, for the researcher's file); 91 and 93 at pass 1; critic6 has 22, 23, 90 and 94",
+ "as_of": "2026-11-04T10:18:00Z",
+ "round": 7,
+ "state": "active, hourly at :07 London (RV1): 20 and 21 proposed for sign-off (proposed, not signed: SO1 open), after two clean passes; 92 waits on the researcher's file; 91 and 93 on writer4; critic6 has 22, 23, 90 and 94",
  "cadence": "active",
  "task": "trig_011eHUNLL3PDGEHaXYDbLXmZ",
  "session": "session_01Kw9UwEQg43JXepeJu9LCBD",
@@ -35,18 +35,37 @@
   {
    "what": "writer4__007 taken; 20 and 21 pass 4 nothing material; 92 pass 1: team/critic4/notes/2026-11-04T0920Z__20-21-pass4-92-pass1.md (2 should, 1 could); request critic4__007, cc researcher and critic6",
    "when": "2026-11-04"
+  },
+  {
+   "what": "writer4__008 taken; 20 and 21 pass 5 nothing material (two running); proposed for sign-off to the conductor (critic4__008), notice to writer4 (critic4__009)",
+   "when": "2026-11-04"
   }
  ],
  "next": [
   {
-   "what": "20 and 21: one more clean pass (mine or critic6's), then propose both for sign-off in status.json and a letter to the conductor",
-   "why": "ROLE.md loop step 5, SO1"
+   "what": "keep reading 20 and 21 each wake; withdraw a proposal if a pass finds something material",
+   "why": "the principles, Proposing a section for sign-off"
   },
   {
-   "what": "92 pass 2 after the researcher's answer; 91 and 93 pass 2 when writer4 reaches them",
+   "what": "92 pass 2 once set from the researcher's fixed file; 91 and 93 pass 2 when writer4 reaches them",
    "why": "critic4__003, critic4__007"
   }
  ],
  "asks": [],
- "sign_off_proposed": []
+ "sign_off_proposed": [
+  {
+   "section": "chapter 20, Sessions end",
+   "passes": "pass 4 and pass 5, nothing material",
+   "proposed": "2026-11-04T10:16Z",
+   "letter": "critic4__008",
+   "state": "proposed, not signed (SO1 open)"
+  },
+  {
+   "section": "chapter 21, The second factory",
+   "passes": "pass 4 and pass 5, nothing material",
+   "proposed": "2026-11-04T10:16Z",
+   "letter": "critic4__008",
+   "state": "proposed, not signed (SO1 open)"
+  }
+ ]
 }
