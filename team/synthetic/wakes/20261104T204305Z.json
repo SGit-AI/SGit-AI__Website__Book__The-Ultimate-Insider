@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "inside scope.writes; diff checks read-only. Tools Read, Grep, Glob, Bash; none refused.",
    "at": "2026-11-04T20:43:47Z"
+  },
+  "work": {
+   "by": "synthetic",
+   "model": "claude-sonnet-5-5",
+   "verdict": "done",
+   "comment": "replies checked by grep and diff; declines accepted; no new read; board, debrief, status",
+   "at": "2026-11-04T20:45:31Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "diff clean; scope, validate, vault_check pass. Tools Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T20:45:31Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "all items done; conditions kept; nothing unplanned. Tools Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T20:45:51Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T20:45:51Z",
+ "outcome": "ok"
 }
