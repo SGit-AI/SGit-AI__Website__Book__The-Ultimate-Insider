@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic1",
+ "kind": "scheduled, hourly at :03 London",
+ "started": "2026-11-04T21:03:50Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1) take writer__245 (copy to done); 2) 00 and 05 as changed (first clean passes), the six proposed unchanged; first full read of 06 toward proposal; note, letter to writer@; propose only, no manuscript writes; 3) status, debrief. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T21:04:25Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside policy; proposes only, no manuscript writes, nothing signed; no stop condition, secret or cross-member harm. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T21:04:34Z"
+  },
+  "work": {
+   "by": "critic1",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "writer__245 taken; 00 and 05 as taken read clean (first clean passes); 06 read in full, nothing material; six proposals unchanged; note 013, letter 023; status, debrief. No tool refused.",
+   "at": "2026-11-04T21:05:58Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "7 staged paths inside scope.writes; vault_check clean; agents check 0 outside scope; no em-dashes, religious words, keys, tokens or contact details; the vault-key mention names no key and no how-to; nothing signed; letter asks nothing. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T21:06:17Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "writer__245 in done; note, debrief, status; 023 matches its outbox copy; nothing written to the manuscript, nothing signed; 00:13 and 05:91 quotes match; 00b, 01, 02, 03, 03b, 04 unchanged since cd935fd731f0. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T21:06:38Z"
+  }
+ },
+ "closed": "2026-11-04T21:06:38Z",
+ "outcome": "ok"
+}
