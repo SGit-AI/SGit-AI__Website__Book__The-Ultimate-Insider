@@ -124,12 +124,14 @@ def main():
     for j, n in enumerate(notes):
         body.append(t(x0, y + j * 3.5, n, TINY, 400, MUTED, 'start', 'italic' if j < 2 else ''))
     H = y + len(notes) * 3.5 + 1.5
+    SHIFT = 7.0
     label = ('His afternoon asks: for each, what was built, the major ones marked, and the time from his ask to the work; '
              'then the two larger asks of the feedback round.')
-    s = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W:g}mm" height="{H:.1f}mm" viewBox="0 0 {W:g} {H:.1f}" role="img" '
+    s = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W:g}mm" height="{H - SHIFT:.1f}mm" viewBox="0 0 {W:g} {H - SHIFT:.1f}" role="img" '
          f'aria-label="{escape(label, quote=True)}">',
-         t(x0, 6.2, 'His afternoon asks, and what each one built', PT * 1.15, 800, INK)]
+         f'<g transform="translate(0,-{SHIFT})">']                    # no drawn title: the Figure line is the caption (26)
     s += body
+    s.append('</g>')
     s.append('</svg>')
     svg = '\n'.join(s) + '\n'
     assert not HASH.search(re.sub(r'#[0-9a-f]{6}', '', svg)), 'a commit id would print'

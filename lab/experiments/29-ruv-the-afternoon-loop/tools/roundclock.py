@@ -43,11 +43,12 @@ def main():
     hold = c['C006']['value'][:5]
     hold_commit = re.search(r'\b([0-9a-f]{7})\b', c['C006']['value']).group(1)
     W, H = 164.0, 50.0
+    SHIFT = 5.0
     label = ('One ask\'s round trip drawn to the clock: the editor\'s ask, the commit that answered it, '
              'and the hold at the edge of the picture.')
-    s = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W:g}mm" height="{H:g}mm" viewBox="0 0 {W:g} {H:g}" role="img" '
+    s = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W:g}mm" height="{H - SHIFT:g}mm" viewBox="0 0 {W:g} {H - SHIFT:g}" role="img" '
          f'aria-label="{escape(label, quote=True)}">',
-         t(4, 7.0, 'One ask, drawn to the clock', 700, INK)]
+         f'<g transform="translate(0,-{SHIFT})">']                    # no drawn title: the Figure line is the caption (26)
     x0, x1, ly = 8.0, 150.0, 30.0
     m0, m1 = mins(asked) - 5, mins(hold)
     X = lambda m: x0 + (x1 - x0) * (m - m0) / (m1 - m0)
@@ -70,6 +71,7 @@ def main():
     s.append(t(xh - 1.5, ly - 19.0, hold, 700, INK, 'end'))
     s.append(t(xh - 1.5, ly - 15.4, f'the hold ({hold_commit})', 400, MUTED, 'end', SMALL))
     s.append(t(4, H - 2.4, 'Times: the register, C105 (the ask) and C006 (the hold).', 400, MUTED, 'start', SMALL))
+    s.append('</g>')
     s.append('</svg>')
     svg = '\n'.join(s) + '\n'
     why = unsafe_svg(svg)
