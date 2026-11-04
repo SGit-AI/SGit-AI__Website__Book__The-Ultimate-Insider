@@ -37,7 +37,7 @@ The manifest names what each batch was for (its `recorded_by` tag):
 | 17:15 on | the newsroom's pages | studio's showcases of the newsrooms | `studio-work-newsrooms` (54) |
 | through the afternoon | pki, the SHarness series, open source and investors, the capability pages | studio's showcases and the studio's pieces | `studio-work-pki` (36), `studio-work-sgit-sharness` (21), `studio-open-source-investors` (37), `studio-e02-e09` (17 and 5) |
 
-Fifty-two of the captures are newsroom articles, each with its title in the manifest.
+Forty-nine of the captures are articles on `newsroom.sgit.ai` itself (three more are on its PHP October sub-site), each with its title in the manifest. The first batch is 79 sources in the 36 seconds from 01:50:05, 20 of them newsroom articles.
 
 ## Three: pages used in the team's own files
 
@@ -58,12 +58,86 @@ Dated from commits and role pages. These are the clearest cases of "I'm benefiti
 |---|---|---|---|
 | 00:40:50 | `1f7c633` | dev's release workflow opens with "CI owns the version" and links the article | newsroom: `ci-owns-the-version` |
 | 00:44:37 | `97b98d9` | the conductor's `CLAUDE.md` "modelled on web-summit.sgit.ai"; the roster "the shape of web-summit.sgit.ai's roster, with two fields added" | web-summit.sgit.ai |
-| 00:51:53 | `20ab1a3` | deck's role: "Never type a version number: agents racing for release numbers is how the newsroom lost releases on 27 October 2026"; "The editor's abstract and the newsroom article set the argument" | newsroom |
+| 00:51:53 | `20ab1a3` | deck's role (dev's page carries the same line): "Never type a version number: agents racing for release numbers is how the newsroom lost releases on 27 October 2026"; "The editor's abstract and the newsroom article set the argument" | newsroom |
 | 00:53:45 | `a3a4807` | "Adopts the PHP newsroom's wake banners (its brief of 27 October 2026)" | PHP October newsroom |
 | 01:35:33 | `ecc048e` | "This project's version of the newsroom conductor's guide, published as an article" | newsroom |
 | 15:07:08 | `3314ffe` | "the player, ported from ruv.sgit.ai" | ruv.sgit.ai |
 | 15:25:40 | `f00734f` | briefs for studio: "ports from ruv.sgit.ai" | ruv.sgit.ai |
 | 15:40:21 | `c3ce566` | "first two ports from ruv.sgit.ai: the ABP slide and studio v4, the policy gate" | ruv.sgit.ai |
+
+## How the counts were made, and which are registered
+
+The script is `team/historian/tools/past_projects_scan.py` (read only, offline; its header states the rule: a page is a host ending in `sgit.ai` and a path, scheme, fragment and query dropped, a trailing slash not folded, case not folded). Run against the talk's repository it gives exactly the figures above. The researcher registered what it could rerun as **C127**: the manifest figures (696 sources, 273 on sgit.ai, all status 200, by hour), the first batch, and the carried-over list. **The book prints C127's figures only.** Not registered, and so not for print: the 1,116 pages on 35 hosts (read from the history, every page ever added; read from the final tree the same rule gives 1,123 on 35, and 1,117 with trailing slashes folded; the researcher's own rule gives 1,053 on 34, which I could not match, and have asked for its command), the 4,617 and 3,765 mentions, and the 63 used pages. On sites: the register's method (`git grep -o` for the name before `sgit.ai`, C126) gives **24 names**, of which its "sixteen" is the top sixteen (the command ends in `head -16`); my 35 hosts tell sub-domains such as `php.oct.2026.newsroom.sgit.ai` apart from the newsroom. The 49 newsroom article captures is the researcher's figure and is right: my first count of 52 used a substring match that also took three articles on the PHP October sub-site.
+
+## The 63 pages used in the team's own files
+
+Each page's first use outside the researcher's capture lists, by the rule above (the editor's quoted words, a brief's text, a member's own note, a page of the site, a slide or the talk's data).
+
+| First used | By | In | Page |
+|---|---|---|---|
+| 00:40:50 | dev | a slide or the talk's data | `the-ultimate-insider.presentation.sgit.ai/` |
+| 00:40:50 | dev | a page of the site | `newsroom.sgit.ai/articles/ci-owns-the-version.html` |
+| 00:40:50 | dev | the editor's quoted words | `sgit.ai/` |
+| 00:40:50 | dev | the editor's quoted words | `ruv.sgit.ai/` |
+| 00:40:50 | dev | the editor's quoted words | `newsroom.sgit.ai/` |
+| 00:40:50 | dev | the editor's quoted words | `php.oct.2026.newsroom.sgit.ai/` |
+| 00:40:50 | dev | the editor's quoted words | `newsroom.sgit.ai/articles/ultimate-insider-three-collisions.html` |
+| 00:40:50 | dev | the editor's quoted words | `newsroom.sgit.ai/articles/ultimate-insider-three-collisions.md` |
+| 00:40:50 | dev | a page of the site | `sgit.ai/docs/guidance/repositories.html` |
+| 00:40:50 | dev | a page of the site | `nhi.sgit.ai/` |
+| 00:40:50 | dev | a page of the site | `pki.sgit.ai/` |
+| 00:40:50 | dev | a page of the site | `nfrs.sgit.ai/` |
+| 00:40:50 | dev | a page of the site | `sgit.ai/demos/vaults/kit-bag/index.html` |
+| 00:54:32 | dev | a member's own note | `sgit.ai/llms.txt` |
+| 01:08:25 | ruv-sgit | a page of the site | `ruv.sgit.ai/articles/how-it-was-made.html` |
+| 01:08:25 | ruv-sgit | a page of the site | `ruv.sgit.ai/articles/the-studio.html` |
+| 01:08:25 | ruv-sgit | a page of the site | `ruv.sgit.ai/studio/index.html` |
+| 01:08:25 | ruv-sgit | a page of the site | `ruv.sgit.ai/articles/studio-setup-brief.html` |
+| 01:08:25 | ruv-sgit | a member's own note | `dev.sgraph.sgit.ai/` |
+| 01:09:58 | conductor | a member's own note | `web-summit.sgit.ai/` |
+| 01:19:26 | dev | a page of the site | `sgit.ai/assets/vault-embed.js` |
+| 01:27:10 | conductor | a member's own note | `web-summit.sgit.ai/keys/sha256-956934e47063ceaa.json` |
+| 01:27:10 | conductor | a member's own note | `pki.sgit.ai/send/` |
+| 02:52:11 | deck | a page of the site | `abp.sgit.ai/` |
+| 02:52:11 | deck | a page of the site | `abp.sgit.ai/data/barriers.json` |
+| 02:52:11 | deck | a page of the site | `abp.sgit.ai/examples` |
+| 04:45:26 | designer | a member's own note | `presentation.sgit.ai/` |
+| 07:54:47 | dev | a page of the site | `sgit.ai/assets/vault-ui-embed.js` |
+| 10:14:39 | researcher | a member's own note | `what-can-it-do.games.sgit.ai/data/primitives.json` |
+| 10:14:39 | researcher | a member's own note | `what-can-it-do.games.sgit.ai/data/` |
+| 14:07:04 | conductor | a brief's text | `ux.sgit.ai/` |
+| 14:07:04 | conductor | a brief's text | `ruv.sgit.ai/articles/the-talk-player.html` |
+| 14:07:04 | conductor | a brief's text | `ruv.sgit.ai/llms.txt` |
+| 14:28:47 | dev | a member's own note | `sgit.ai/api/append-lanes.md` |
+| 15:07:08 | dev | a slide or the talk's data | `newsroom.sgit.ai/articles/the-scripted-talk` |
+| 15:40:21 | studio | a page of the site | `ruv.sgit.ai/talk/slides/abp/index.html` |
+| 15:40:21 | studio | a page of the site | `ruv.sgit.ai/studio/v4/index.html` |
+| 15:40:21 | studio | a page of the site | `ruv.sgit.ai/data/abp.json` |
+| 15:40:21 | studio | a page of the site | `ruv.sgit.ai/data/rules.json` |
+| 15:40:21 | studio | a page of the site | `ruv.sgit.ai/data/report.json` |
+| 15:44:56 | deck | a page of the site | `team.php.oct.2026.newsroom.sgit.ai/` |
+| 16:18:57 | studio | a page of the site | `ruv.sgit.ai/ruv-sgit/define/journey/index.html` |
+| 16:18:57 | studio | a page of the site | `ruv.sgit.ai/data/state-abp.json` |
+| 17:03:28 | conductor | a brief's text | `api.newsroom.sgit.ai/` |
+| 17:20:06 | studio | a page of the site | `pki.sgit.ai/people/how.html` |
+| 17:21:29 | deck | a slide or the talk's data | `what-can-it-do.games.sgit.ai/` |
+| 17:21:29 | deck | a slide or the talk's data | `sgit.ai/demos/index.html` |
+| 17:21:29 | deck | a slide or the talk's data | `sgit.ai/demos/vaults/risk-mandate/index.html` |
+| 17:25:36 | deck | a slide or the talk's data | `the-ultimate-insider.presentation.sgit.ai/articles/how-this-talk-was-b` |
+| 17:47:28 | studio | a page of the site | `the-ultimate-insider.presentation.sgit.ai/ruv-sgit/policy-review.html` |
+| 18:11:59 | studio | a page of the site | `the-ultimate-insider.presentation.sgit.ai/admin/wakes.html` |
+| 18:11:59 | studio | a page of the site | `the-ultimate-insider.presentation.sgit.ai/team/ruv-sgit/index.html` |
+| 18:20:06 | studio | a page of the site | `newsroom.sgit.ai/articles/where-to-invest-in-sgit.html` |
+| 18:20:06 | studio | a page of the site | `newsroom.sgit.ai/articles/the-fork-next-door.html` |
+| 18:23:50 | researcher | a member's own note | `newsroom.sgit.ai/articles/investor-sgit-ai.html` |
+| 18:23:50 | researcher | a member's own note | `investor.sgit.ai/` |
+| 18:23:50 | researcher | a member's own note | `newsroom.sgit.ai/articles/what-open-source-is-and-is-not.html` |
+| 18:23:50 | researcher | a member's own note | `php.oct.2026.newsroom.sgit.ai/articles/dream-research-rooted-25-server` |
+| 18:23:50 | researcher | a member's own note | `open-source.sgit.ai/index.html` |
+| 18:23:50 | researcher | a member's own note | `refs.php.oct.2026.newsroom.sgit.ai/pulse/cve-2026-102764/` |
+| 18:23:50 | researcher | a member's own note | `updates.php.oct.2026.newsroom.sgit.ai/views/state/v1/` |
+| 18:23:50 | researcher | a member's own note | `sgit.ai/investors/index.html` |
+| 18:34:32 | studio | a page of the site | `open-source.sgit.ai/` |
 
 ## coding.sgit.ai and nfrs.sgit.ai
 
