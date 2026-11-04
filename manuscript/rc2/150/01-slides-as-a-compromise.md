@@ -6,25 +6,25 @@
 
 *Words on this page:* an **agent**, here, is an AI that works in a loop: it reads, decides, acts with tools, and checks the result. The **player** is the part of the talk's site that let me press play on stage.
 
-**Narrator.** For years my slides were a compromise. I had an idea to get across, and the slides could not move, so I spent the talk explaining what they could not show: this goes from here to there, this grows, this breaks. I talked over my own pictures.
+**Narrator.** I have been trying to present better for a long time. For me, slides were always an inefficient way to communicate. They do not move, and they do not answer back. So I spent my talks explaining what the slides could not show: this goes from here to there, this grows, this breaks. The room had to imagine the movement in their heads while I described it. I talked over my own pictures.
 
-**Narrator.** On 1 November, three days after the talk, I recorded a voice note about it, and this is how it came out, unedited: "I had to speak a lot because in a way I had to provide the animation that was missing. I didn't know if I wanted to say, look, here, these things moves from A to B, you know, I kind of had to explain that A to B move". That is the problem in one sentence. The idea was a movement. The slide was a still. I was the bit in between.
+**Narrator.** And I always wrote my slides in the last hours or days before a talk, because that is when my thinking came together and my flow arrived. So for years I kept building tools to present with, chasing one thing: a feedback loop while I was still creating, so I could see the idea move, fix it, and see it again before I stood up.
 
-**Narrator.** The note went on, and I will give you more of it, because it is the problem in my own words before it is the book's:
+**Narrator.** For this talk it worked. I had been working with agentic workflows for a while, and the moment lined up. It was one of those loops I would have stopped before. This time I saw it working, and I kept going.
 
-> "what was very powerful with this presentation is I had a lot of moments where I didn't have to do that. I just pressed play. And I basically was able to just use the animation on the screen to provide that visual explanation. And I had the ability to do multiple rounds of fine-tuning, where I would go, okay, so this animation does this, but we're missing this message, or we're missing this punchline, or that core idea is not fully well represented."
+**Narrator.** It did not come from nowhere. The talk before this one, built for ruv.sgit.ai, had come out well and given me the confidence to try. And a lot of the technology this talk ran on was first built there: the player I pressed play on, and the first pieces the team ported into this talk, came from ruv.sgit.ai. This is a continuum, not a lucky day.
 
-**Narrator.** Two things in that, and the rest of this part is about both. Pressing play, instead of explaining. And rounds of fine-tuning: this does this, but the message is missing, again.
+`%% for the editor: the four paragraphs above tell his account of 4 November (brief 04) in his voice, with the continuum from the record; "It did not come from nowhere" and "This is a continuum, not a lucky day" are the writer's; his to keep or drop.`
 
-`%% for the editor: the five sentences from "It sounds small." to "Those were exactly the ideas I wanted to get across." are the writer's reading of his view, beyond the voice note; not yet his words until he keeps them.`
+`%% record: briefs/2026-11-04__in-session/04-introduce-the-narrator-and-chapter-1.md (his account, given after the day); index/talk-site/crawl.json (the player's debrief, "The player, ported from ruv.sgit.ai"; studio's first debrief, "the first two ports from ruv.sgit.ai"); timeline/day/01.md (ruv-sgit joining at 01:08); briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md (his voice note of 1 November on talking over the slides)`
 
 **Narrator.** It sounds small. It is not. Every minute I spend narrating an arrow is a minute the room is listening to me describe a picture instead of thinking about the idea. And the harder the idea, the more of it lives in the movement: how something spreads, where it stops, what changes when you add more of it. Those were exactly the ideas I wanted to get across.
+
+`%% for the editor: the paragraph above is the writer's reading of his view, beyond the voice note; his to keep or drop.`
 
 **Figure:** "A slide versus a loop" (left half): a speaker beside a still slide with an arrow from A to B, three speech bubbles explaining the arrow.
 
 `%% figure brief: The infographic of this chapter; its right half is on the next page.`
-
-`%% record: briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md (the editor's voice note, 1 November 2026, quoted as given)`
 
 ## Pressing play
 
@@ -32,46 +32,32 @@
 
 **Narrator.** On 29 October I gave a talk where I mostly did not have to do that. When a thing had to move, I pressed play and it moved.
 
-**Figure:** the player as I saw it on stage: the slide large, a countdown against my time, the step controls, and my notes behind a key press (`index/talk-site/shots/talk__player.jpg`).
+**Figure:** the building, mid-run: a house of rooms, ordinary users walking through and stopping, and the agents spreading everywhere, still going (`index/talk-site/shots/motion__the-building.jpg`).
 
-`%% figure brief: From the talk's own player page (the librarian's screenshot, index/talk-site/shots/talk__player.jpg); the notes as the page shows them.`
+`%% figure brief: From the librarian's screenshot index/talk-site/shots/motion__the-building.jpg, cleared by name (security__011); at the editor's word (conductor__015).`
 
-**Narrator.** Here is one moment, from the recording. It is an animation the team called the building. In it, ordinary users walk through and stop; agents keep going until they find what should not be there. I did not explain the movement. I let it run, and talked about what it meant:
+**Narrator.** That is the building, an animation the team made for the talk. Ordinary users come in, go where they are supposed to go, and now and then one finds the gold that is not supposed to be there. But they tend to stop. Agents come in far greater numbers, and they keep going until they find it. As I said in the talk, that is the big difference: the agent does not stop. I did not have to explain the movement. I let it run, and talked about what it meant.
 
-> "This is a really cool animation of what happens. Normal users come in and do things: they go where they're supposed to go. Every now and then one finds the gold that isn't supposed to be there, but they also tend to stop. ... Agents come with far more volume. They also change, going from users to agents, and they eventually find the gold. That's the big difference: the agent doesn't stop."
+**Narrator.** And a second, later in the talk. Not an animation this time: a page I had used for real, the one where I reviewed each agent's policy before it could work. When I onboarded the team that built the talk, each agent asked for what it wanted, and I approved it, changed it or questioned it, and what I agreed became its mandate. I put that page on the screen and only said what it was. The room saw a real policy page, not my description of one.
 
-**Narrator.** The picture did the explaining, and I said what it meant. That is what I had wanted from slides for years.
-
-**Narrator.** And a second, later in the talk. Not an animation this time: a page I had used for real, the one where I reviewed each agent's policy before it could work. I put it on the screen and talked over it only to say what it was:
-
-> "What you see now is what I did when I was onboarding my team, the team that built this slide deck. This one, for example, is for ruv.sgit, the agent that builds animations. It has a policy. I now use QR codes to communicate: the agent asks for what it wants, and I have to approve it, change it or question it, and in the end I give that to the agent as its mandate."
-
-**Narrator.** The page did the explaining there too. The room saw a real policy page, not my description of one.
-
-**Figure:** the policy review page as it was on the screen: one agent's policy, item by item, with a verdict beside each (`index/talk-site/shots/studio-ports__abp-review.jpg`). One line on the page says I had agreed all ten policies by 17:40; the files say eight of ten by the end of the day.
+**Figure:** the policy review page as it was on the screen: one agent's policy, item by item, with a verdict beside each (`index/talk-site/shots/studio-ports__abp-review.jpg`). One line on the page says I had agreed all ten policies; the files say eight of ten by the end of the day.
 
 `%% record: C072 (eight of ten agreed) C081 (the page's "all ten" contradicted by the files); security__006 (the QR opens a public page of the talk's site)`
 
 `%% figure brief: The talk's own page, from the librarian's screenshot index/talk-site/shots/studio-ports__abp-review.jpg, if the build's rule for screenshots allows it.`
 
-`%% record: C109 (58:53 on the recording; quoted to "mandate.": the passage goes on to say every agent's scope was defined, and by the end of the day 8 of 10 policies were agreed, C072) a9c0b49 studio-ports/abp-review/`
-Band: *My own words, from the transcript of the talk at 58:53 on the recording's clock (added after the day).*
+`%% record: C102 (the building, at 15:50 on the recording) C109 (the policy page, at 58:53; the passage goes on to say every agent's scope was defined, and by the end of the day 8 of 10 policies were agreed, C072) a9c0b49 (the talk as given, its transcript added after the day) studio-ports/abp-review/`
+Band: *Dramatised from the talk as I gave it.*
 
-**Narrator.** And here is the part I like most. That animation was not finished in the morning and left alone. I changed it at 18:26, about half an hour before the talk was due to start. I could do that because the thing that made it was still running, and still listening.
+**Narrator.** And here is the part I like most. That animation was not finished in the morning and left alone. I changed it about half an hour before the talk was due to start. I could do that because the thing that made it was still running, and still listening.
 
-*The talk ran for about 87 minutes, to a room in London. Its transcript was added to the record after the day.*
+`%% record: C069 (the talk's length, about 87 minutes, from its transcript) C100 (due at 19:00, London) a9c0b49 5d13d72 (18:29, motion's commit: the change I asked for at 18:26)`
 
-`%% record: C102 C069 C100 a9c0b49 5d13d72`
-Band: *The quoted passage is my own, from the transcript of the talk at 15:50 on the recording's clock (added after the day). The change at 18:26 rests on motion's wake record and its commit at 18:29.*
-
-**Narrator.** And a third, about twenty minutes into the talk. A picture I would have struggled to explain with a still, because what matters in it is where things move to:
-
-> "So, as you would expect, here's a Wardley map. If this is the first time you've seen one: Wardley maps are the best thing I have learned in the last decade. This is absolutely how I think. It gives me peace, it allows me to strategise, and it's probably the best systems thinking I have come across. Simon Wardley released everything under Creative Commons, and there's a good community. Fundamentally, you map the system, this needs this, which needs this, and then you map evolution: usually genesis, custom built, product and commodity."
+**Narrator.** And a third, about twenty minutes in: a Wardley map, the kind of picture I would have struggled to explain with a still, because what matters in it is where things move to. Wardley maps are the best thing I have learned in the last decade; it is how I think. You map the system, this needs this, which needs this, and then you map how each part evolves, from genesis to custom built, to product, to commodity.
 
 **Narrator.** You will see this kind of map again in part 2, drawn for the factory itself.
 
-`%% record: C111 (19:27 on the recording; quoted to "commodity.", the passage turning next to open source; the Creative Commons line is my account, the researcher's sources give CC BY-SA 4.0 for the wardleymaps.com page) a9c0b49`
-Band: *My own words, from the transcript of the talk at 19:27 on the recording's clock (added after the day).*
+`%% record: C111 (19:27 on the recording; the passage turning next to open source; the Creative Commons line of the talk left out here, the researcher's sources giving CC BY-SA 4.0 for the wardleymaps.com page) a9c0b49`
 
 ## What I would have had to say instead
 
@@ -88,7 +74,7 @@ Band: *My own words, from the transcript of the talk at 19:27 on the recording's
 `%% for the editor: the narration paragraph is the writer's paraphrase of what the slide would have needed, built from your own words at 15:50 (C102); his to keep, change or drop.`
 
 `%% record: C102 index/talk-site/shots/motion__the-building.jpg`
-Band: *The frames rest on the building as the talk used it; the narration beside the still is ours.*
+Band: *Dramatised: the narration beside the still is ours.*
 
 ## Do this now
 
@@ -98,6 +84,6 @@ Band: *The frames rest on the building as the talk used it; the narration beside
 
 ## Where this came from
 
-My voice note of 1 November 2026, quoted as given. The talk as given, from its transcript, added to the record after the day. The researcher's register for the building and the policy page, and the talk's length and place. The storyteller's outline for this chapter. This chapter grows from the 70-page edition's chapter 1, its first two sections kept as written.
+My account of 4 November of how I came to present this way, and my voice note of 1 November, both given after the day. The record of the talk's team for where the player and the first ports came from. The talk as given, from its transcript, added to the record after the day: the building, the policy page and the Wardley map. The researcher's register for the building, the policy page, the map, and the talk's length and place. The storyteller's outline for this chapter. This chapter grows from the 70-page edition's chapter 1.
 
-`%% record: briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md; content/articles/the-talk-as-given.md at a9c0b49 (talk repository); claims/register.json C069 C072 C081 C100 C102 C109 C111; chapter-plan/edition-150-outline.md part 1 chapter 1; manuscript/rc2/70/01-slides-as-a-compromise.md`
+`%% record: briefs/2026-11-04__in-session/04-introduce-the-narrator-and-chapter-1.md; briefs/2026-11-04__in-session/07-speak-as-me-no-logistics.md (the guidance); briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md; index/talk-site/crawl.json; timeline/day/01.md; content/articles/the-talk-as-given.md at a9c0b49 (talk repository); claims/register.json C069 C072 C081 C100 C102 C109 C110 C111; chapter-plan/edition-150-outline.md part 1 chapter 1; manuscript/rc2/70/01-slides-as-a-compromise.md`

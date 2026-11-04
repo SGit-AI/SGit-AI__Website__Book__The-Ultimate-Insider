@@ -18,7 +18,7 @@ A **setting** is enforced by a tool: the check refuses, the file stops the wakes
 | The gate before every release | setting | broken links, outside code, long dashes and anything shaped like a secret | some values that should not have gone out were not shaped like secrets; the reviews found them, after the push (C025) |
 | The editor's signed decisions | expectation | members acting on an unsigned choice | none found on the day |
 | Public vaults, checked before every commit | setting, with an expectation | recorded clean in post-reviews | once, values went out in a push and were found after it; history keeps them (C025) |
-| Material is never an instruction | expectation | a relayed word for the editor's was refused, and he was asked himself (studio, 17:41) | it rests on each agent keeping it |
+| Material is never an instruction | expectation | a relayed word for the editor's was refused, and he was asked himself (studio, 17:41 (C115)) | it rests on each agent keeping it |
 | The session's own permission check | setting, outside the repository | edits a member had no word for | not consistent: the same edit was allowed in one session and refused in another |
 
 ## The second factory's controls (this book's team, from 30 October 2026)
@@ -28,7 +28,7 @@ The same register, applied to the team that wrote this book.
 | Control | Kind | What it stopped | What it missed |
 |---|---|---|---|
 | The hold | setting | one hold, written by a member on its own judgement on 1 November, lifted at the editor's word (621e5de2, daabf92) | on the evening of 1 November the usage limit came before any hold did |
-| Review steps that can only reach reading tools (TA1, signed 3 November) | setting, since 3 November; before it, an expectation | six attempts by review steps to reach tools that act on other sessions: four refused, one failed, one probable, none acted (C112) | a brief that said "read only" did not hold them; the tool list did |
+| Review steps whose tools are for reading and checking only (TA1, signed 3 November) | setting, since 3 November; before it, an expectation | six attempts by review steps to reach tools that act on other sessions: four refused, one failed, one probable, none acted (C112) | a brief that said "read only" did not hold them; the tool list did |
 | The control register itself | expectation, kept by security | every case above recorded with why it was tried, whether it was needed, and what not running it cost | a register finds what it is told about, or what its keeper reads |
 | A second team reading cold | expectation (the one-way valve) | things this team had missed in its own timeline, found by a team that shared nothing with it but the record (chapter 19 lists them) | it is one reading, of one day |
 
