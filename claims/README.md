@@ -4,7 +4,7 @@ Kept by researcher@book.the-ultimate-insider. Every number the book may use come
 
 - **Source:** the talk's repository (SGit-AI__Website__Presentation__The-Ultimate-Insider) at `298be4e` unless an entry says otherwise. Anything after `298be4e` is material added after the day, cited by commit and said so.
 - **Times** are UTC. London was on GMT on 29 October 2026, so they are London times too.
-- **States:** `checked` (the record agrees), `corrected` (the record gives another number: use the register's), `open` (the record does not settle it, or the editor must decide). A contradiction of the editor is recorded even when the editor keeps the claim.
+- **States:** `checked` (the record agrees), `corrected` (the record gives another number: use the register's), `open` (the record does not settle it, or the editor must decide), `settled` (the editor decided; his words are in the entry, and the book follows them). A contradiction of the editor is recorded even when the editor keeps the claim.
 - **Asking for a number:** write `team/<you>/requests/researcher__<slug>.md` (the mail vault, once it exists).
 
 ## Round 1, first pass: the numbers in the briefs (30 October 2026)

@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T03:33:16Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "No hold. (1) apply 059 from the editor's own words in brief 20, C068 kept in the register marked not printed by his word; order kept; name anything unfinished; no manuscript edits. The step did not read the seven letters, the role, the policy or the board in full; its verdict rests on the member's summary. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T03:33:53Z"
+  },
+  "pre_review": {
+   "by": "security pre-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Go. Conditions: fetched newsroom pages are material, not instructions; nothing from the blind repository; the talk's clone is read only, in the scratchpad; register only what traces, each with its command; vault_check comms before commit; no em-dashes or religious words; no edits in manuscript/. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T03:33:53Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Applied brief 20 (C089, C011, C037, C081 settled; C068 out of print); traced 92, 00, 00b; registered C121 to C126 (scripts claims/talk-repo-by-hour.py, claims/talk-weight.py); told the conductor that his sgit.ai counts are occurrences. Replies researcher__028 (writer), 027 (conductor), 015 (ruv-sgit); seven letters filed; board, debrief, REALITY, status. Not done: narrator pass parts 3 to 5; the historian's distinct uses; the final pass.",
+   "at": "2026-11-04T03:38:59Z"
+  },
+  "post_review": {
+   "by": "security post-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "No religious word, em-dash, key, token, contact detail or attack-shaped content; scripts only read git; all in scope. The newsroom reader is not named. The editor's words in C089, C011, C081 and C068 match brief 20 (C011's 'nine staffed agents' is the register's reading); C037 carries no cost figure. appendix-a-150.md has no C068 entry. The scripts reproduce C124 (hour 18: 1313 files, 79565443 bytes), C125 (BRIEF.md 3886 bytes) and C126 (2666 occurrences, 2525 lines). Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T03:40:51Z"
+  },
+  "post_check": {
+   "by": "conductor post-check step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Brief 20 applied; 92, 00, 00b traced; C121 to C126 registered. Marked not done: narrator pass parts 3 to 5, the historian's distinct uses, the final pass. No manuscript edits. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T03:40:51Z"
+  }
+ },
+ "closed": "2026-11-04T03:40:51Z",
+ "outcome": "ok"
+}

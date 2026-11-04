@@ -971,6 +971,54 @@ State: checked.
 in a clone of the talk's repository: python3 claims/talk-stats.py  # team and wakes; and git ls-tree -r -l 298be4e | awk '{n++; s+=$4} END {print n, s}'
 ```
 
+## C121: How the newsroom's agent team figures in the talk's first minutes: the brief points to it, and the banners are its shape
+
+State: checked.
+
+```
+git show 1f7c633:BRIEF.md | sed -n 11p; git log -1 --format='%h %ad %s' --date=format:%H:%M:%S a3a4807; git show 298be4e:admin/tools/banner.py | sed -n 8p
+```
+
+## C122: The book team's roles, as their own pages of rules state them: the storyteller outlines, the researcher keeps the register, the historian reconstructs the day from the record, the designer drew the cast
+
+State: checked.
+
+```
+grep -n -i -m2 'outline' team/storyteller/ROLE.md; grep -n -m2 'Mission' team/researcher/ROLE.md; grep -n -m1 'timeline of 29 October' team/historian/ROLE.md
+```
+
+## C123: The newsroom's article on who owns the stop button, and when it was published
+
+State: checked.
+
+```
+open https://newsroom.sgit.ai/articles/who-owns-the-stop-button.html and read the title and date
+```
+
+## C124: The talk's repository at the end of each clock hour of 29 October: how many files, of which kinds, and how many bytes
+
+State: checked.
+
+```
+in a clone of the talk's repository: python3 claims/talk-repo-by-hour.py  # the script is in this repository, claims/talk-repo-by-hour.py
+```
+
+## C125: The weight of the talk team's documents at the end of the day: the brief, the reality file, the articles the team wrote, and the largest files, in bytes, words and lines
+
+State: checked.
+
+```
+in a clone of the talk's repository: python3 claims/talk-weight.py  # the script is in this repository, claims/talk-weight.py
+```
+
+## C126: How often the repository mentions each sgit.ai site at the end of the day: occurrences, and the lines they sit on
+
+State: checked.
+
+```
+in a clone of the talk's repository: git grep -h -o -E '[A-Za-z0-9-]+\.sgit\.ai' cb5b996 | sort | uniq -c | sort -rn | head -16; and python3 claims/talk-weight.py for both counts
+```
+
 ## Where this came from
 
-`claims/register.json`, the `command` of each entry, run against `298be4e` (a full clone: `git rev-list --count 298be4e` gives 816) and `d39e717`; spot-checked on 30 October 05:45, 06:45, 07:45, 08:45, 09:40 and 10:50 (C011, C014, C021, C041, C042), each giving the registered value. C031's 2026 figure is read from a web page, fetched 30 October 2026. C043 to C062 were checked at source on 30 October about 13:20 UTC by the researcher's second session (public clones of OSBot-Utils, Memory-FS, Issues-FS, SGit-AI__CLI and myfeeds_ai; PyPI's JSON; the newsroom's wire; four LinkedIn pages' datePublished). C064 to C068, and the additions to C008 and C042, rerun on 30 October about 14:40 UTC. C069 to C072 rerun on 30 October about 16:45 UTC; C069 and C070 run at a9c0b49, material added after the day. C073 rerun on 30 October about 18:40 UTC. C074 checked on 30 October about 18:35 UTC. C011's command reads team/keys/ too since 30 October 20:40. C075 to C077 read from leanpub.com on 30 October about 20:40 UTC. C078 to C081 checked on 30 October about 22:40 UTC. C082 and C083 checked on 31 October about 00:45 UTC. C084 to C086 checked on 31 October about 00:50 UTC. C087 and C088 checked on 31 October about 04:50 UTC. C089 and C090 read on 31 October about 08:45 UTC. C091 and C092 read on 31 October about 14:45 UTC. C093 and C094 read on 31 October about 16:45 UTC. C100 checked on 1 November about 14:40 UTC. C101 read on 2 November about 00:35 UTC. C102 and C103 read on 2 November about 09:40 UTC. C104 checked on 2 November about 16:55 UTC. C105 rerun on 2 November about 18:36 UTC. C106 read on 2 November about 20:35 UTC. C107 checked on 2 November about 22:35 UTC. C108 counted on 3 November about 01:35 UTC. C109 read on 3 November about 01:40 UTC. C110 counted on 3 November about 02:35 UTC. C111 read on 3 November about 09:36 UTC. C112 counted on 3 November about 17:36 UTC. C113 and C114 counted on 3 November about 23:35 UTC. C115 counted, and the commands of C014, C031, C089 and C111 corrected, on 4 November about 00:40 UTC. C116 to C120 counted on 4 November about 02:40 UTC (the script is claims/talk-stats.py).
+`claims/register.json`, the `command` of each entry, run against `298be4e` (a full clone: `git rev-list --count 298be4e` gives 816) and `d39e717`; spot-checked on 30 October 05:45, 06:45, 07:45, 08:45, 09:40 and 10:50 (C011, C014, C021, C041, C042), each giving the registered value. C031's 2026 figure is read from a web page, fetched 30 October 2026. C043 to C062 were checked at source on 30 October about 13:20 UTC by the researcher's second session (public clones of OSBot-Utils, Memory-FS, Issues-FS, SGit-AI__CLI and myfeeds_ai; PyPI's JSON; the newsroom's wire; four LinkedIn pages' datePublished). C064 to C068, and the additions to C008 and C042, rerun on 30 October about 14:40 UTC. C069 to C072 rerun on 30 October about 16:45 UTC; C069 and C070 run at a9c0b49, material added after the day. C073 rerun on 30 October about 18:40 UTC. C074 checked on 30 October about 18:35 UTC. C011's command reads team/keys/ too since 30 October 20:40. C075 to C077 read from leanpub.com on 30 October about 20:40 UTC. C078 to C081 checked on 30 October about 22:40 UTC. C082 and C083 checked on 31 October about 00:45 UTC. C084 to C086 checked on 31 October about 00:50 UTC. C087 and C088 checked on 31 October about 04:50 UTC. C089 and C090 read on 31 October about 08:45 UTC. C091 and C092 read on 31 October about 14:45 UTC. C093 and C094 read on 31 October about 16:45 UTC. C100 checked on 1 November about 14:40 UTC. C101 read on 2 November about 00:35 UTC. C102 and C103 read on 2 November about 09:40 UTC. C104 checked on 2 November about 16:55 UTC. C105 rerun on 2 November about 18:36 UTC. C106 read on 2 November about 20:35 UTC. C107 checked on 2 November about 22:35 UTC. C108 counted on 3 November about 01:35 UTC. C109 read on 3 November about 01:40 UTC. C110 counted on 3 November about 02:35 UTC. C111 read on 3 November about 09:36 UTC. C112 counted on 3 November about 17:36 UTC. C113 and C114 counted on 3 November about 23:35 UTC. C115 counted, and the commands of C014, C031, C089 and C111 corrected, on 4 November about 00:40 UTC. C116 to C120 counted on 4 November about 02:40 UTC (the script is claims/talk-stats.py). C121 to C126 counted on 4 November about 03:38 UTC (the scripts are claims/talk-repo-by-hour.py and claims/talk-weight.py). C089, C011, C037, C081 and C068 settled by the editor (brief 20).

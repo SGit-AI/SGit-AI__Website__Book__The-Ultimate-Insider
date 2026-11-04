@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-11-04T02:40Z",
+ "as_of": "2026-11-04T03:38Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -238,16 +238,20 @@
      "storyteller": "14:15 7d0244d",
      "motion": "15:31 f1cbca0",
      "studio": "15:31 8d208d3"
+    },
+    "editor_4_November_settles": {
+     "words": "'Team size, yeah, is 9 staffed agent, right? So, although it's 10 with me, right? Surely, right? So, 9 agents.'",
+     "reading": "nine staffed agents; ten with him. Security was proposed and never staffed"
     }
    },
-   "state": "open",
+   "state": "settled",
    "source": {
     "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
     "at": "298be4e",
     "evidence": "first commit adding team/<id>/key.json (dev: its first commit, 1f7c633); team/security has no key.json at 298be4e"
    },
    "method": "two columns, kept apart: a member's first commit naming it (subject or Agent: trailer), and the first commit adding team/<id>/key.json",
-   "note": "Corrected 30 October 10:50 at the RC1 drafting's finding (comms/mail/mailroom/researcher/conductor__005-the-editors-voice.eml): the first version mixed the two methods (first commit for dev and ruv-sgit, first key for the others). Now both are given. Nine staffed holds either way; security was proposed and never staffed. The brief's 'ten-agent team' stays open for the editor: 'nine agents and the editor' is what the record supports. Corrected 30 October about 20:40 (the second session), at the historian's note (trailer on eb96b15): the conductor's key was first published at 00:51:12 in 17b287b, at team/keys/conductor.json, and moved to team/conductor/key.json at 00:58:19 (41d38ba); 00:58 was the move. Only the conductor is affected: every other member's first key was at team/<id>/key.json.",
+   "note": "Corrected 30 October 10:50 at the RC1 drafting's finding (comms/mail/mailroom/researcher/conductor__005-the-editors-voice.eml): the first version mixed the two methods (first commit for dev and ruv-sgit, first key for the others). Now both are given. Nine staffed holds either way; security was proposed and never staffed. The brief's 'ten-agent team' stays open for the editor: 'nine agents and the editor' is what the record supports. Corrected 30 October about 20:40 (the second session), at the historian's note (trailer on eb96b15): the conductor's key was first published at 00:51:12 in 17b287b, at team/keys/conductor.json, and moved to team/conductor/key.json at 00:58:19 (41d38ba); 00:58 was the move. Only the conductor is affected: every other member's first key was at team/<id>/key.json. Settled by the editor on 4 November 2026 (about 02:46 UTC, brief 20), applied at the 03:32 wake at the conductor's 059.",
    "command": "for m in dev conductor ruv-sgit researcher deck designer storyteller motion studio; do echo $m $(git log 298be4e --reverse --format='%h %ci' -- team/$m/key.json team/keys/$m.json | head -1); done; git log 298be4e --reverse --author=Claude --format='%h %ci %s' | grep -iE ' (@?(dev|conductor|deck|ruv-sgit|researcher|designer|storyteller|motion|studio):|Conductor joins)' | awk '!s[$4]++'"
   },
   {
@@ -911,9 +915,13 @@
    "value": {
     "span": "00:16 to 19:00, 18 h 44 min (C010)",
     "usage": "95% of the editor's 5-hour usage limit at 18:44, resetting at 20:20 London (HOLD.md, the editor's words reported by the conductor)",
-    "tokens_or_money": "not in the record"
+    "tokens_or_money": "not in the record",
+    "editor_4_November_settles": {
+     "words": "'We don't have to put costs on this.' (the day's cost; 'This was not the only project that costed 95%')",
+     "reading": "no cost figure for the day goes in the book. The price line for starting (C101) is a separate, published price"
+    }
    },
-   "state": "open",
+   "state": "settled",
    "source": {
     "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
     "at": "298be4e",
@@ -921,7 +929,7 @@
    },
    "method": "git grep for usage figures across team/ at 298be4e: the hold is the only one",
    "command": "git grep -n -iE 'usage[^\"]{0,80}[0-9]+ ?%' 298be4e -- team ':!*.png'",
-   "note": "The record holds one usage reading, 95% of a 5-hour window, and no total for the day, no weekly figure, and no cost in money. The editor's hours at the keyboard are not recorded either: the span is the agents' day, not the editor's. A cost figure for chapter 12 has to come from the editor (their usage page, or the transcripts of decision Q4), added after the day and cited as such."
+   "note": "The record holds one usage reading, 95% of a 5-hour window, and no total for the day, no weekly figure, and no cost in money. The editor's hours at the keyboard are not recorded either: the span is the agents' day, not the editor's. A cost figure for chapter 12 has to come from the editor (their usage page, or the transcripts of decision Q4), added after the day and cited as such. Settled by the editor on 4 November 2026 (about 02:46 UTC, brief 20), applied at the 03:32 wake at the conductor's 059."
   },
   {
    "id": "C038",
@@ -1597,7 +1605,7 @@
     "form_tokens_until": "redacted in the 06:23 push; still present in the 05:23 push",
     "history": "every earlier commit stays readable with the published read key"
    },
-   "state": "checked",
+   "state": "settled",
    "source": {
     "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
     "at": "298be4e",
@@ -1605,7 +1613,8 @@
    },
    "method": "the talk researcher's per-commit count, read; this register does not reopen the vault",
    "command": "git show 298be4e:evidence/updates/2026-10-29__the-vault-history-checked.md | sed -n 7,16p; git log -1 --format='%h %ci %s' aa7a3eb",
-   "note": "At the level the book uses it, as the handover asks: that values reached a pushed, public history and when, never the values, the vault's commits or how to reach them. Contradicts 'caught before its commit' where a chapter says so (form tokens went out again at 05:23). Whether the history was replaced was the editor's decision D12; its state at 19:00 is not checked here. Registered at the conductor's letter 006 part 2 (card researcher-05), 30 October 2026, the researcher's 14:32 wake."
+   "note": "At the level the book uses it, as the handover asks: that values reached a pushed, public history and when, never the values, the vault's commits or how to reach them. Contradicts 'caught before its commit' where a chapter says so (form tokens went out again at 05:23). Whether the history was replaced was the editor's decision D12; its state at 19:00 is not checked here. Registered at the conductor's letter 006 part 2 (card researcher-05), 30 October 2026, the researcher's 14:32 wake. Settled by the editor on 4 November 2026 (about 02:46 UTC, brief 20), applied at the 03:32 wake at the conductor's 059. The entry and its command stay in the register for the record; the printed Appendix A does not carry C068. At most, the book may tell it as the security team catching something, with no detail of what or where.",
+   "print": "not printed, by the editor's word (D12, 4 November 2026): 'a massive kind of false positive ... nothing that sensitive ... I don't think we really need to print it'"
   },
   {
    "id": "C069",
@@ -1953,9 +1962,13 @@
    "value": {
     "piece_says": "By 17:40 the editor had agreed all ten (bd3cdad, 17:47)",
     "files_at_bd3cdad": "5 agreed, 4 draft, 1 proposed",
-    "files_at_298be4e": "8 agreed, 1 draft (studio), 1 proposed (security), C072"
+    "files_at_298be4e": "8 agreed, 1 draft (studio), 1 proposed (security), C072",
+    "editor_4_November_settles": {
+     "words": "'I approved a number of them, you know, throughout the stuff. I maybe skipped a couple.'",
+     "reading": "say it in prose, not as a figure: he approved a number of the policies through the day and may have skipped a couple. The record: 5 agreed at bd3cdad, 8 by the end of the day (C072)"
+    }
    },
-   "state": "open",
+   "state": "settled",
    "source": {
     "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
     "at": "bd3cdad and 298be4e",
@@ -1963,7 +1976,7 @@
    },
    "method": "the piece's sentence read; every policy.json's status counted at the piece's commit and at the end",
    "command": "for c in bd3cdad 298be4e; do for f in $(git ls-tree -r --name-only $c team | grep '/policy.json$'); do git show $c:$f | python3 -c 'import json,sys;print(json.load(sys.stdin).get(\"status\"))'; done | sort | uniq -c; done",
-   "note": "Contradicted by the files: at the piece's own commit five of ten policies were marked agreed, and at the end of the day eight. The editor may have agreed in his session before the files caught up; the record does not show it. Print the frame only with the sentence masked or corrected, never as fact. A contradiction recorded, as ROLE.md asks. Registered at ruv-sgit's request (ruv-sgit__002), the researcher's 22:32 wake, 30 October 2026; the last frame rendered headless at the piece's data-end and read."
+   "note": "Contradicted by the files: at the piece's own commit five of ten policies were marked agreed, and at the end of the day eight. The editor may have agreed in his session before the files caught up; the record does not show it. Print the frame only with the sentence masked or corrected, never as fact. A contradiction recorded, as ROLE.md asks. Registered at ruv-sgit's request (ruv-sgit__002), the researcher's 22:32 wake, 30 October 2026; the last frame rendered headless at the piece's data-end and read. Settled by the editor on 4 November 2026 (about 02:46 UTC, brief 20), applied at the 03:32 wake at the conductor's 059."
   },
   {
    "id": "C082",
@@ -2183,9 +2196,14 @@
     "editor_31_October": "the 95% was 'just a footnote': he could have moved to another session; the main reason was that there was no tested way to take in changes during the talk, no UX to see what was new and no workflow that made sure nothing would break, 'the reason why I was thinking about let's lock V1'",
     "editor_31_October_19:00": "'The 95%, I think, was the tokens usage. That there was a token that we stopped, and there was a big thing about 95%.' (briefs/2026-10-31__in-session/02-g1-the-95-and-the-day-in-review.md, ec1ec00)",
     "what_the_record_shows": "the hold's subject: 'the editor's usage limit is at 95%, pause all actions' (867f8c2); C021: 95% is the conductor's words reporting the editor, about a 5-hour usage window resetting at 20:20 London (C037); no usage page, no token count",
-    "what_the_record_cannot_show": "whether the 95% was of tokens, of a message allowance or of anything else: the record holds the percentage as reported and nothing it was measured in"
+    "what_the_record_cannot_show": "whether the 95% was of tokens, of a message allowance or of anything else: the record holds the percentage as reported and nothing it was measured in",
+    "editor_4_November_settles": {
+     "words": "'we stopped it because we ran out of time, diminishing returns. And like I said, I went to 95, but I would have gone to 100 if that was needed, and I would have got an upgraded account if needed, right? So it's just a coincidence that happens 95 ... flying close to the sun'",
+     "source": "briefs/2026-11-04__in-session/20-the-open-items-answered.md (about 02:46 UTC, 4 November); his earlier words of the same evening in briefs/2026-11-04__in-session/13-introduce-the-cast-and-the-high-five.md: 'the point that is not that we hit 95% ... we ran out of time'",
+     "reading": "time ran out; the point of diminishing returns; the 95% a coincidence. The hold file's words stay quoted as the record holds them; the book's reading is his"
+    }
    },
-   "state": "open",
+   "state": "settled",
    "source": {
     "repository": "SGit-AI__Website__Book__The-Ultimate-Insider",
     "at": "49c701e",
@@ -2193,7 +2211,7 @@
    },
    "method": "his words read in the brief; set beside the hold file's reason and the locks",
    "command": "# in this book's repository:\ngit show 49c701e:briefs/2026-10-31__rc1-paper-review/batch-07-pages-22-to-32.md | grep -o -i '.\\{100\\}just a footnote.\\{300\\}'\ngit show ec1ec00:briefs/2026-10-31__in-session/02-g1-the-95-and-the-day-in-review.md | grep -o -i '.\\{20\\}95%, I think.\\{100\\}'\n# in the talk's repository:\ngit show 298be4e:team/conductor/HOLD.md | head -5",
-   "note": "Two accounts, both kept, as ROLE.md asks for a contradiction. The day's record gives usage as the reason for the hold; the editor, after the day, calls usage a footnote and names the missing way to take changes safely during the talk. The record supports his account in part: lock.py was built for exactly that and never applied (C027). Quote his as his, dated 31 October 2026, never as the day's record. Open: the book chooses how to tell it, and the editor signs. Registered at the conductor's letter 021 (T12), the researcher's 08:32 wake, 31 October 2026. 31 October 20:40, at the conductor's letter 031: a third account, the editor's at about 19:00: the 95% was 'the tokens usage'. It agrees with the hold file (usage) and does not withdraw his account of the early hours of 31 October (batch 7, committed 01:48) that usage was a footnote to the real reason. The unit is his account; the record holds only the percentage (C021). Command corrected 4 November: the third command was behind a '#' on one line, and the line mixed this book's commits with the talk's; now two parts, each named."
+   "note": "Two accounts, both kept, as ROLE.md asks for a contradiction. The day's record gives usage as the reason for the hold; the editor, after the day, calls usage a footnote and names the missing way to take changes safely during the talk. The record supports his account in part: lock.py was built for exactly that and never applied (C027). Quote his as his, dated 31 October 2026, never as the day's record. Open: the book chooses how to tell it, and the editor signs. Registered at the conductor's letter 021 (T12), the researcher's 08:32 wake, 31 October 2026. 31 October 20:40, at the conductor's letter 031: a third account, the editor's at about 19:00: the 95% was 'the tokens usage'. It agrees with the hold file (usage) and does not withdraw his account of the early hours of 31 October (batch 7, committed 01:48) that usage was a footnote to the real reason. The unit is his account; the record holds only the percentage (C021). Command corrected 4 November: the third command was behind a '#' on one line, and the line mixed this book's commits with the talk's; now two parts, each named. Settled by the editor on 4 November 2026 (about 02:46 UTC, brief 20), applied at the 03:32 wake at the conductor's 059. Four accounts now: the hold (29 October), 31 October (the paper review), 31 October about 19:00, and 4 November (this one). The 4 November account is the one the book's reading follows; chapters 16, 17 and 20, which count three accounts, need a line for the fourth."
   },
   {
    "id": "C090",
@@ -3745,6 +3763,694 @@
    "method": "git log 298be4e --no-merges --numstat for commits, authors, lines and files; git log --merges; git ls-tree -r -l for the final tree; wakes from C022",
    "command": "in a clone of the talk's repository: python3 claims/talk-stats.py  # team and wakes; and git ls-tree -r -l 298be4e | awk '{n++; s+=$4} END {print n, s}'",
    "note": "The 439 agent commits are C014's; C095's 650 counts non-merge commits from 00:00 to 18:59 only (the 651 here also holds the merge-day release and is for the whole history to 298be4e; the one extra is the release after the day). Bytes: the final tree holds 1,313 files and 79.6 million bytes, including captured pages and images: the size of the record, not of the code. The editor's own commits: one non-merge commit; the other commit under his name is the pull-request merge. Registered at conductor 055, the 02:32 wake, 4 November 2026."
+  },
+  {
+   "id": "C121",
+   "claim": "How the newsroom's agent team figures in the talk's first minutes: the brief points to it, and the banners are its shape",
+   "cited_in": [
+    "claims/rc2-150-trace.md (the narrator pass, part two)"
+   ],
+   "value": {
+    "brief": "the editor's brief, BRIEF.md at 1f7c633 (00:40:50), line 11: 'also see the agentic team we are using at newsroom.sgit.ai ... for the kind of multi agent team we will be creating here'",
+    "banners": "a3a4807 (00:53:45), 'conductor: start and end banners for every session's report'; admin/tools/banner.py's header: 'The shape is the PHP newsroom's (records/briefs/2026-10-27__brief__wake-banners.md in its team repository)'",
+    "not_shown": "that 'the first rules' (CLAUDE.md, the page of rules) came from the newsroom's team: the first CLAUDE.md does not say so"
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "298be4e",
+    "evidence": "1f7c633 BRIEF.md line 11; a3a4807; admin/tools/banner.py (header comment)"
+   },
+   "method": "read the brief and the banner script's own header",
+   "command": "git show 1f7c633:BRIEF.md | sed -n 11p; git log -1 --format='%h %ad %s' --date=format:%H:%M:%S a3a4807; git show 298be4e:admin/tools/banner.py | sed -n 8p",
+   "note": "Print: 'the brief pointed to the newsroom's team as the kind of team to build, and the first shared rule, the banners, took the newsroom's shape'. Not: 'the first rules came from the newsroom's team'. Registered at conductor 060 (part two's first fact), the 03:32 wake, 4 November 2026."
+  },
+  {
+   "id": "C122",
+   "claim": "The book team's roles, as their own pages of rules state them: the storyteller outlines, the researcher keeps the register, the historian reconstructs the day from the record, the designer drew the cast",
+   "cited_in": [
+    "manuscript/rc2/150/00b-who-is-telling-this-story.md",
+    "claims/rc2-150-trace.md"
+   ],
+   "value": {
+    "storyteller": "team/storyteller/ROLE.md: 'writing the chapters: writer ... from the storyteller's outlines and scripts; the structure and the cast stay the storyteller's'",
+    "researcher": "team/researcher/ROLE.md: 'Mission: every number in the book comes from the record or a source, through one register'; 'The claims register in claims/'",
+    "historian": "team/historian/ROLE.md: 'The timeline of 29 October in timeline/, from the talk's git log, its wake records ... from the first commit at 00:16'",
+    "designer": "the nine drawn as personas with four moods, by script (C117; this book's record, 2d2672a3)"
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Book__The-Ultimate-Insider (this book's record)",
+    "at": "cee7466d",
+    "evidence": "team/<role>/ROLE.md for storyteller, researcher, historian, designer"
+   },
+   "method": "each role's own page of rules, read",
+   "command": "grep -n -i -m2 'outline' team/storyteller/ROLE.md; grep -n -m2 'Mission' team/researcher/ROLE.md; grep -n -m1 'timeline of 29 October' team/historian/ROLE.md",
+   "note": "The sentence the newsroom's pass uses ('a storyteller who outlines each chapter, a researcher who keeps a register in which every number has an id, a historian who reconstructs the day from the record, a designer who drew the nine') holds on this book's own pages of rules, not on the newsroom's articles of 30 October and 1 November: the 30 October article does not describe those roles (it says every number is tied to the register), and the 1 November article gives the nine drawn by script and their moods (C117) but, by the page, over a night, not an afternoon. Cite this book's record. Registered at conductor 061, the 03:32 wake, 4 November 2026."
+  },
+  {
+   "id": "C123",
+   "claim": "The newsroom's article on who owns the stop button, and when it was published",
+   "cited_in": [
+    "manuscript/rc2/150/18-how-do-we-contain-this.md",
+    "claims/rc2-150-trace.md"
+   ],
+   "value": {
+    "title": "Who owns the stop button when it is not you?",
+    "date": "2026-11-03",
+    "what": "a reader asked about the hold written sixteen minutes before the talk; four of the book's agents answer as guest writers, in their own voices, from their own records"
+   },
+   "state": "checked",
+   "source": {
+    "pages": [
+     "https://newsroom.sgit.ai/articles/who-owns-the-stop-button.html"
+    ],
+    "read": "2026-11-04"
+   },
+   "method": "the page's title and date read",
+   "command": "open https://newsroom.sgit.ai/articles/who-owns-the-stop-button.html and read the title and date",
+   "note": "The article names its reader; the book does not (chapter 18 says 'a reader'); keep it so. Its guest sections are the newsroom journalist's writing in the agents' voices, not the agents' own record. Registered at conductor 060 (part two's last fact), 4 November 2026."
+  },
+  {
+   "id": "C124",
+   "claim": "The talk's repository at the end of each clock hour of 29 October: how many files, of which kinds, and how many bytes",
+   "cited_in": [
+    "the repository-by-the-hour card (to cite)",
+    "claims/rc2-150-trace.md"
+   ],
+   "value": {
+    "hours": [
+     {
+      "hour": "00",
+      "to": "00:59",
+      "commit": "aff69af",
+      "commit_time": "00:54:53",
+      "files": 53,
+      "bytes": 401841,
+      "by_kind": {
+       "other": 12,
+       "md": 8,
+       "json": 4,
+       "html": 23,
+       "svg": 1,
+       "css": 3,
+       "js": 2
+      }
+     },
+     {
+      "hour": "01",
+      "to": "01:59",
+      "commit": "c3e8fe4",
+      "commit_time": "01:14:31",
+      "files": 67,
+      "bytes": 1062334,
+      "by_kind": {
+       "other": 17,
+       "md": 12,
+       "json": 9,
+       "html": 23,
+       "svg": 1,
+       "css": 3,
+       "js": 2
+      }
+     },
+     {
+      "hour": "02",
+      "to": "02:59",
+      "commit": "ecdcdf9",
+      "commit_time": "02:59:42",
+      "files": 209,
+      "bytes": 6730214,
+      "by_kind": {
+       "other": 69,
+       "md": 54,
+       "json": 46,
+       "html": 31,
+       "js": 5,
+       "svg": 1,
+       "css": 3
+      }
+     },
+     {
+      "hour": "03",
+      "to": "03:59",
+      "commit": "f6b69cb",
+      "commit_time": "03:54:24",
+      "files": 302,
+      "bytes": 11828544,
+      "by_kind": {
+       "other": 98,
+       "md": 76,
+       "json": 79,
+       "html": 38,
+       "js": 6,
+       "svg": 1,
+       "css": 4
+      }
+     },
+     {
+      "hour": "04",
+      "to": "04:59",
+      "commit": "a281906",
+      "commit_time": "04:52:55",
+      "files": 347,
+      "bytes": 13970740,
+      "by_kind": {
+       "other": 116,
+       "md": 84,
+       "json": 90,
+       "html": 44,
+       "js": 7,
+       "svg": 1,
+       "css": 5
+      }
+     },
+     {
+      "hour": "05",
+      "to": "05:59",
+      "commit": "de944e3",
+      "commit_time": "05:52:15",
+      "files": 386,
+      "bytes": 16307124,
+      "by_kind": {
+       "other": 133,
+       "md": 91,
+       "json": 101,
+       "html": 48,
+       "js": 7,
+       "svg": 1,
+       "css": 5
+      }
+     },
+     {
+      "hour": "06",
+      "to": "06:59",
+      "commit": "a729da6",
+      "commit_time": "06:45:45",
+      "files": 428,
+      "bytes": 18707874,
+      "by_kind": {
+       "other": 153,
+       "md": 95,
+       "json": 111,
+       "html": 55,
+       "js": 8,
+       "svg": 1,
+       "css": 5
+      }
+     },
+     {
+      "hour": "07",
+      "to": "07:59",
+      "commit": "bab9bcf",
+      "commit_time": "07:56:23",
+      "files": 473,
+      "bytes": 21672601,
+      "by_kind": {
+       "other": 171,
+       "md": 104,
+       "json": 122,
+       "html": 57,
+       "js": 12,
+       "svg": 1,
+       "css": 6
+      }
+     },
+     {
+      "hour": "08",
+      "to": "08:59",
+      "commit": "592e290",
+      "commit_time": "08:53:36",
+      "files": 512,
+      "bytes": 24141694,
+      "by_kind": {
+       "other": 187,
+       "md": 113,
+       "json": 131,
+       "html": 61,
+       "js": 12,
+       "svg": 1,
+       "css": 7
+      }
+     },
+     {
+      "hour": "09",
+      "to": "09:59",
+      "commit": "fa143d6",
+      "commit_time": "09:55:25",
+      "files": 547,
+      "bytes": 26916453,
+      "by_kind": {
+       "other": 205,
+       "md": 117,
+       "json": 140,
+       "html": 65,
+       "js": 12,
+       "svg": 1,
+       "css": 7
+      }
+     },
+     {
+      "hour": "10",
+      "to": "10:59",
+      "commit": "6053bb1",
+      "commit_time": "10:55:00",
+      "files": 581,
+      "bytes": 30076127,
+      "by_kind": {
+       "other": 219,
+       "md": 122,
+       "json": 151,
+       "html": 69,
+       "js": 12,
+       "svg": 1,
+       "css": 7
+      }
+     },
+     {
+      "hour": "11",
+      "to": "11:59",
+      "commit": "0d1831a",
+      "commit_time": "11:58:07",
+      "files": 610,
+      "bytes": 32203347,
+      "by_kind": {
+       "other": 232,
+       "md": 127,
+       "json": 160,
+       "html": 71,
+       "js": 12,
+       "svg": 1,
+       "css": 7
+      }
+     },
+     {
+      "hour": "12",
+      "to": "12:59",
+      "commit": "94998a4",
+      "commit_time": "12:54:36",
+      "files": 637,
+      "bytes": 34338863,
+      "by_kind": {
+       "other": 245,
+       "md": 131,
+       "json": 168,
+       "html": 73,
+       "js": 12,
+       "svg": 1,
+       "css": 7
+      }
+     },
+     {
+      "hour": "13",
+      "to": "13:59",
+      "commit": "7d2626c",
+      "commit_time": "13:52:57",
+      "files": 660,
+      "bytes": 36340117,
+      "by_kind": {
+       "other": 256,
+       "md": 135,
+       "json": 175,
+       "html": 74,
+       "js": 12,
+       "svg": 1,
+       "css": 7
+      }
+     },
+     {
+      "hour": "14",
+      "to": "14:59",
+      "commit": "2c465f1",
+      "commit_time": "14:57:38",
+      "files": 733,
+      "bytes": 38367848,
+      "by_kind": {
+       "other": 277,
+       "md": 157,
+       "json": 199,
+       "html": 75,
+       "js": 13,
+       "svg": 4,
+       "css": 8
+      }
+     },
+     {
+      "hour": "15",
+      "to": "15:59",
+      "commit": "0e6176b",
+      "commit_time": "15:59:26",
+      "files": 924,
+      "bytes": 46538586,
+      "by_kind": {
+       "other": 328,
+       "md": 192,
+       "json": 261,
+       "html": 116,
+       "js": 14,
+       "svg": 4,
+       "css": 9
+      }
+     },
+     {
+      "hour": "16",
+      "to": "16:59",
+      "commit": "3342cff",
+      "commit_time": "16:59:22",
+      "files": 1033,
+      "bytes": 51592976,
+      "by_kind": {
+       "other": 362,
+       "md": 212,
+       "json": 287,
+       "html": 135,
+       "js": 16,
+       "svg": 10,
+       "css": 11
+      }
+     },
+     {
+      "hour": "17",
+      "to": "17:59",
+      "commit": "a88f244",
+      "commit_time": "17:58:52",
+      "files": 1220,
+      "bytes": 68204140,
+      "by_kind": {
+       "other": 472,
+       "md": 238,
+       "json": 321,
+       "html": 152,
+       "js": 16,
+       "svg": 10,
+       "css": 11
+      }
+     },
+     {
+      "hour": "18",
+      "to": "18:59",
+      "commit": "cb5b996",
+      "commit_time": "18:46:22",
+      "files": 1313,
+      "bytes": 79565443,
+      "by_kind": {
+       "other": 523,
+       "md": 251,
+       "json": 339,
+       "html": 163,
+       "js": 16,
+       "svg": 10,
+       "css": 11
+      }
+     }
+    ],
+    "day_end": {
+     "commit": "cb5b996",
+     "files": 1313,
+     "bytes": 79565443,
+     "by_kind": {
+      "other": 523,
+      "md": 251,
+      "json": 339,
+      "html": 163,
+      "js": 16,
+      "svg": 10,
+      "css": 11
+     }
+    },
+    "final_state": {
+     "commit": "298be4e",
+     "files": 1313,
+     "bytes": 79565441,
+     "note": "after the merge to main at 23:19; two bytes fewer than cb5b996"
+    },
+    "kinds": "md, json, html, svg, js, css; everything else (images, text files, scripts, QR codes) is 'other'",
+    "rule": "for hour H (00 to 18), the last commit on the first-parent line of cb5b996 made at or before H:59:59 UTC (London time that day)"
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "cb5b996",
+    "evidence": "git ls-tree -r -l at each hour's commit; claims/talk-repo-by-hour.py"
+   },
+   "method": "git rev-list -1 --first-parent --before=... cb5b996, then git ls-tree -r -l on that commit",
+   "command": "in a clone of the talk's repository: python3 claims/talk-repo-by-hour.py  # the script is in this repository, claims/talk-repo-by-hour.py",
+   "note": "The first-parent line is dev as merged: a member's branch counts from the commit that brought it into dev, so a late-merged branch makes an hour look quieter than the work done in it. The hour 18 row is the day's last release, 18:46:22. Hour 00 holds the repository at 00:54:53 (the first commit was 00:16:23). 'Size' is the sum of the files' bytes at that commit, not the size of the git history. Registered at conductor 057, the 03:32 wake, 4 November 2026."
+  },
+  {
+   "id": "C125",
+   "claim": "The weight of the talk team's documents at the end of the day: the brief, the reality file, the articles the team wrote, and the largest files, in bytes, words and lines",
+   "cited_in": [
+    "the weight card (to cite)",
+    "claims/rc2-150-trace.md"
+   ],
+   "value": {
+    "named": [
+     {
+      "path": "BRIEF.md",
+      "bytes": 3886,
+      "words": 646,
+      "lines": 43
+     },
+     {
+      "path": "REALITY.md",
+      "bytes": 17261,
+      "words": 2508,
+      "lines": 92
+     },
+     {
+      "path": "BRIEF-CORRECTIONS.md",
+      "bytes": 181,
+      "words": 30,
+      "lines": 5
+     },
+     {
+      "path": "CLAUDE.md",
+      "bytes": 6053,
+      "words": 902,
+      "lines": 20
+     }
+    ],
+    "articles": [
+     {
+      "path": "content/articles/how-ruv-sgit-works.md",
+      "bytes": 20635,
+      "words": 3106,
+      "lines": 121
+     },
+     {
+      "path": "content/articles/how-this-talk-was-built.md",
+      "bytes": 56554,
+      "words": 4365,
+      "lines": 52
+     },
+     {
+      "path": "content/articles/introducing-this-site.md",
+      "bytes": 9097,
+      "words": 1584,
+      "lines": 63
+     },
+     {
+      "path": "content/articles/moments.md",
+      "bytes": 84047,
+      "words": 6691,
+      "lines": 43
+     },
+     {
+      "path": "content/articles/running-this-agent-team.md",
+      "bytes": 27085,
+      "words": 4516,
+      "lines": 294
+     },
+     {
+      "path": "content/articles/the-night-hour-by-hour.md",
+      "bytes": 232968,
+      "words": 32150,
+      "lines": 1834
+     }
+    ],
+    "largest_markdown_files": [
+     {
+      "path": "content/articles/the-night-hour-by-hour.md",
+      "bytes": 232968,
+      "words": 32150,
+      "lines": 1834
+     },
+     {
+      "path": "evidence/sources/README.md",
+      "bytes": 127817,
+      "words": 13028,
+      "lines": 702
+     },
+     {
+      "path": "content/articles/moments.md",
+      "bytes": 84047,
+      "words": 6691,
+      "lines": 43
+     },
+     {
+      "path": "evidence/claims/README.md",
+      "bytes": 80279,
+      "words": 12174,
+      "lines": 230
+     },
+     {
+      "path": "evidence/ideas/README.md",
+      "bytes": 63275,
+      "words": 8505,
+      "lines": 754
+     },
+     {
+      "path": "content/articles/how-this-talk-was-built.md",
+      "bytes": 56554,
+      "words": 4365,
+      "lines": 52
+     },
+     {
+      "path": "content/articles/running-this-agent-team.md",
+      "bytes": 27085,
+      "words": 4516,
+      "lines": 294
+     },
+     {
+      "path": "content/articles/how-ruv-sgit-works.md",
+      "bytes": 20635,
+      "words": 3106,
+      "lines": 121
+     },
+     {
+      "path": "evidence/incidents/README.md",
+      "bytes": 18449,
+      "words": 2675,
+      "lines": 53
+     },
+     {
+      "path": "REALITY.md",
+      "bytes": 17261,
+      "words": 2508,
+      "lines": 92
+     }
+    ],
+    "team_folder": {
+     "files": 929,
+     "bytes": 61716183,
+     "what": "every file under team/ at cb5b996 (members' pages of rules, wake records, debriefs, status, keys, night logs)"
+    },
+    "commit": "cb5b996"
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "cb5b996",
+    "evidence": "claims/talk-weight.py"
+   },
+   "method": "git show cb5b996:<path>: bytes of the text, words by whitespace, lines by newline",
+   "command": "in a clone of the talk's repository: python3 claims/talk-weight.py  # the script is in this repository, claims/talk-weight.py",
+   "note": "There is no file called a plan among the team's documents at cb5b996 apart from the reviews' brief; the team's plans are the plan steps in its wake records. The six articles are everything under content/articles/ at cb5b996; the transcript of the talk was added after the day (a9c0b49) and is not counted here. Words are whitespace-separated; a different counter gives a slightly different number, so print them as 'about'. Registered at conductor 058, the 03:32 wake, 4 November 2026."
+  },
+  {
+   "id": "C126",
+   "claim": "How often the repository mentions each sgit.ai site at the end of the day: occurrences, and the lines they sit on",
+   "cited_in": [
+    "the references card (to cite)",
+    "claims/rc2-150-trace.md"
+   ],
+   "value": {
+    "commit": "cb5b996",
+    "sites": [
+     {
+      "site": "newsroom.sgit.ai",
+      "occurrences": 2666,
+      "matching_lines": 2525
+     },
+     {
+      "site": "pki.sgit.ai",
+      "occurrences": 391,
+      "matching_lines": 345
+     },
+     {
+      "site": "abp.sgit.ai",
+      "occurrences": 248,
+      "matching_lines": 199
+     },
+     {
+      "site": "ruv.sgit.ai",
+      "occurrences": 196,
+      "matching_lines": 171
+     },
+     {
+      "site": "nhi.sgit.ai",
+      "occurrences": 60,
+      "matching_lines": 50
+     },
+     {
+      "site": "open-source.sgit.ai",
+      "occurrences": 51,
+      "matching_lines": 49
+     },
+     {
+      "site": "games.sgit.ai",
+      "occurrences": 48,
+      "matching_lines": 41
+     },
+     {
+      "site": "ux.sgit.ai",
+      "occurrences": 41,
+      "matching_lines": 36
+     },
+     {
+      "site": "risks.sgit.ai",
+      "occurrences": 24,
+      "matching_lines": 21
+     },
+     {
+      "site": "presentation.sgit.ai",
+      "occurrences": 20,
+      "matching_lines": 20
+     },
+     {
+      "site": "investor.sgit.ai",
+      "occurrences": 20,
+      "matching_lines": 19
+     },
+     {
+      "site": "nfrs.sgit.ai",
+      "occurrences": 17,
+      "matching_lines": 14
+     },
+     {
+      "site": "graphs.sgit.ai",
+      "occurrences": 16,
+      "matching_lines": 14
+     },
+     {
+      "site": "sgraph.sgit.ai",
+      "occurrences": 11,
+      "matching_lines": 11
+     },
+     {
+      "site": "web-summit.sgit.ai",
+      "occurrences": 5,
+      "matching_lines": 5
+     },
+     {
+      "site": "gen-z-developers.sgit.ai",
+      "occurrences": 5,
+      "matching_lines": 5
+     }
+    ],
+    "total_occurrences": 3831,
+    "definitions": "occurrences: every match of <name>.sgit.ai in every file (git grep -o); matching lines: the lines that hold the string. The conductor's first counts (newsroom 2,666; pki 391; abp 248; ruv 196; nhi 60; open-source 51; games 48; ux 41; risks 24; presentation 20; investor 20; nfrs 17) are occurrences, not lines. The matching lines are 2,525; 345; 199; 171; 50; 49; 41; 36; 21; 20; 19; 14"
+   },
+   "state": "checked",
+   "source": {
+    "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
+    "at": "cb5b996",
+    "evidence": "claims/talk-weight.py"
+   },
+   "method": "git grep -h -o -E '[A-Za-z0-9-]+\\.sgit\\.ai' cb5b996 | sort | uniq -c; and git grep -h -F <site> cb5b996 | wc -l",
+   "command": "in a clone of the talk's repository: git grep -h -o -E '[A-Za-z0-9-]+\\.sgit\\.ai' cb5b996 | sort | uniq -c | sort -rn | head -16; and python3 claims/talk-weight.py for both counts",
+   "note": "Say 'mentions' (occurrences) for 2,666 and its siblings, or 'lines' for the smaller set: not 'matching lines' for the larger numbers. 'source' in the conductor's list is open-source.sgit.ai. These are mentions in the repository's text, including the newsroom's pages the team captured as evidence, not a count of distinct uses (the historian's count, 038, is separate and not yet registered). Registered at conductor 058, 4 November 2026."
   }
  ]
 }
