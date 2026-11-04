@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer3",
+ "kind": "scheduled, hourly at :05",
+ "started": "2026-11-04T10:05:57Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. policy: writes_pending 16*-19* into scope.writes, create.schedule.tenant wanted for own task only, scope_changes; session key; board issues and replies to critic3 001, researcher 001, storyteller 122 and 136, writer 178. 2. chapter 16 on critic3's musts and storyteller 122's rulings, parts in words. 3. if time 17's musts; hand-off letters, debrief, status. The step says its read was thinner than the brief (policy and mailroom listing only). Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T10:07:00Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Fits policy; 16*-19* overlap no one (writer holds 30, 70, 150/0*). create.schedule.tenant only for its own hourly task at the editor's word; no new task this wake. Write only team/writer3, own comms, 16*-19*, REALITY.md heading. Public key and QR only; private half in ~/.sg-send/. vault_check on comms. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T10:07:16Z"
+  },
+  "work": {
+   "by": "writer3",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "1 done: policy 16*-19* adopted and create.schedule.tenant wanted (own task), key sha256:baab3fb43c6ebe89, five issues, five replies, letters to done. 2 done: 16 rewritten (stop once, brief 20; hold limit and lock once; high five, C119 C120 C009; stamps, moods out; views on %% lines). 3 done: 17's musts and most shoulds; hand-off letters to historian, librarian, security, researcher, publisher, designer (cc conductor); debrief, status, REALITY.md heading.",
+   "at": "2026-11-04T10:12:54Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "validate clean; 0 outside scope; vault_check comms clean; key.json public halves only; no em-dashes or religious words; 17's captures say nothing of what, how or where; the policy widening (16*-19*, create.schedule.tenant) flagged for the conductor to note. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T10:13:37Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "1 done (policy, key, issues, letters to done); 2 done (16); 3 done (17, hand-offs, debrief, status, REALITY.md). Conditions kept; 18 and 19 untouched; no private key staged. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T10:13:37Z"
+  }
+ },
+ "closed": "2026-11-04T10:13:37Z",
+ "outcome": "ok"
+}
