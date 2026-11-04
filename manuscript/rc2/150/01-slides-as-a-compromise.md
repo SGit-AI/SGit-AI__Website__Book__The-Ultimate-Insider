@@ -60,7 +60,7 @@
 
 **Narrator.** And a third, about twenty minutes in: a Wardley map, the kind of picture I would have struggled to explain with a still, because what matters in it is where things move to. Wardley maps are the best thing I have learned in the last decade; it is how I think. You map the system, this needs this, which needs this, and then you map how each part evolves, from genesis to custom built, to product, to commodity.
 
-**Narrator.** You will see this kind of map again in part 2, drawn for the factory itself.
+**Narrator.** You will see this kind of map again in part two, drawn for the factory itself.
 
 `%% record: C111 (19:27 on the recording; the passage turning next to open source; the Creative Commons line of the talk left out here, the researcher's sources giving CC BY-SA 4.0 for the wardleymaps.com page) a9c0b49`
 

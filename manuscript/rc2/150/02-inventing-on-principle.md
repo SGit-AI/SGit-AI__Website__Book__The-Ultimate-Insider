@@ -74,7 +74,7 @@
 
 **Narrator.** So this book is about the factory. The talk was what it happened to make that day. If you have an idea you keep talking over, the factory is the part you can take home.
 
-**Narrator.** Why only a day? This one was meant to be temporary: assembled quickly around one objective, from parts I already had, and taken apart at the end. Everything it did was written down. The writing down is what made this book possible, and it is also what lets you rebuild it, which is what part 5 does.
+**Narrator.** Why only a day? This one was meant to be temporary: assembled quickly around one objective, from parts I already had, and taken apart at the end. Everything it did was written down. The writing down is what made this book possible, and it is also what lets you rebuild it, which is what part five does.
 
 `%% for the editor: the factory paragraphs are the newsroom journalist's rewrite (part one, section 6), close to its words, its unregistered facts held out; the factory assembled and taken apart is your own account (briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md); his to keep or change.`
 

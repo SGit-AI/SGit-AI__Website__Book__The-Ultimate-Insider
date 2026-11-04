@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T08:30:21Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Go with conditions: 03b in scope (150/0*); Book.txt by letter to the publisher; day at a glance in the outline's four phases (setup 1-5, flow 6-13, acceleration 14-18, crunch and stop 19), words and brief only, figures from C087/C095 on the picture; key.png names with their cleared version; S9 taken or carried by name.",
+   "at": "2026-11-04T08:32:13Z"
+  },
+  "pre_review": {
+   "by": "security (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Go: paths in briefs only, nothing of a key or QR typed; no counts in prose; scope only, no Book.txt; glosses say what, not how round; bands kept; vault_check, em-dash and RW1 grep, build and gate, push on green after post-review.",
+   "at": "2026-11-04T08:32:13Z"
+  },
+  "work": {
+   "by": "writer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Musts: 03 keys QR (cleared key.png), 03b day at a glance (Book.txt asked), 08:11 glossed. Shoulds: critic1 006, storyteller 135 S3-S8 and S10, rule 13, 00 to 23, critic5 002 across 06 and 07; 07 times out. Board 006 carried; letters 206 to 211.",
+   "at": "2026-11-04T08:36:15Z"
+  },
+  "post_review": {
+   "by": "security (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "clean",
+   "comment": "Diff 9158570..89699ee7 clean: only the three cleared key.png named, paths in briefs only, nothing of a key typed; glosses say what, not how; no counts in 03b's prose; Book.txt not edited; no em-dash or RW1 word; valve held.",
+   "at": "2026-11-04T08:39:13Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "as-planned",
+   "comment": "Eight letters filed (6 done, 2 inbox with board 006); musts and shoulds as planned; 03b follows the outline's item 3; scope 0; nothing dated after the commit. Optional nit taken: 03b's brief says chapter 9 covers the start of hour fourteen.",
+   "at": "2026-11-04T08:39:13Z"
+  }
+ },
+ "closed": "2026-11-04T08:39:13Z",
+ "outcome": "ok"
+}
