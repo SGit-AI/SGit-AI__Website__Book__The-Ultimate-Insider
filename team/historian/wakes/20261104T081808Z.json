@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T08:18:08Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Plan sound; script read-only, run only in a scratchpad clone; check chapter 21's panels against commits and wake records; no HOLD. Tools: Read, Grep, Glob, Bash only.",
+   "at": "2026-11-04T08:18:43Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Plan fits historian writes; the researcher's script only runs git log -p and prints, no writes or network; run in the scratchpad clone only. Tools: Read only.",
+   "at": "2026-11-04T08:18:52Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "Diff touches only historian files; no em-dashes, religious words, model names, keys or Cold-Read mentions; vault_check clean; the script only runs git log -p. Tool: Bash only.",
+   "at": "2026-11-04T08:21:51Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "Diff by name, 21's panels, chapter 23, findings, letters, debrief and status present. It did not open the letter bodies or the debrief.",
+   "at": "2026-11-04T08:21:51Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "claude-sonnet-5-5",
+   "verdict": "done",
+   "comment": "Diff by name done; 21 panels and 23 checked; letters 069 and 070; three letters filed",
+   "at": "2026-11-04T08:21:51Z"
+  }
+ },
+ "closed": "2026-11-04T08:21:51Z",
+ "outcome": "ok"
+}
