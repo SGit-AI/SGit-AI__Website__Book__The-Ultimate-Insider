@@ -68,7 +68,7 @@
 
 ## The site is the scaffolding
 
-**Narrator.** The agents did not work in a chat window. They worked on a website: every slide a page, every member a page, every session and every commit a row on a page. That sounds like an odd choice for a talk.
+**Narrator.** The agents did not work in a chat window. They worked on a website: every slide a page, every member a page, every session and every commit a row on a page.
 
 `%% Hold (P30: an opinion in his voice, the newsroom's; prints once he confirms; storyteller__150): "... and I think it was one of the most important choices of the day."`
 
