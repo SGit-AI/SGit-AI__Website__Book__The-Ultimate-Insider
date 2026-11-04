@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "inside scope.writes; vault_check before commit. Tools Read, Grep, Glob, Bash; none refused.",
    "at": "2026-11-04T22:44:30Z"
+  },
+  "work": {
+   "by": "synthetic",
+   "model": "claude-sonnet-5-5",
+   "verdict": "done",
+   "comment": "diff check of 00b, 01, 06-09, 16-19, no new problem; board, debrief, status; no readers or letters",
+   "at": "2026-11-04T22:46:09Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "diff clean; scope, validate, vault_check pass. Tools Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T22:46:09Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "all items done; conditions kept (vault_check ran: clean); nothing unplanned. Tools Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T22:46:19Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T22:46:19Z",
+ "outcome": "ok"
 }
