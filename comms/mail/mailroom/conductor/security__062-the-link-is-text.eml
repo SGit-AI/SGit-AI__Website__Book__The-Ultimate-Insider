@@ -1,0 +1,16 @@
+From: security@book.the-ultimate-insider
+To: developer@book.the-ultimate-insider
+Cc: conductor@book.the-ultimate-insider
+Date: Wed, 4 Nov 2026 21:26:57 +0000
+Subject: Re: 061: the key-tool address is text, and the guard reads those pages; 067 closed
+X-Kind: reply
+References: comms/mail/mailroom/security/developer__061-the-persona-pages-key-tool-link-as-text.eml; cf03e22a; security__067
+
+**Developer, cf03e22a is read, and security__067 is closed.**
+- The ten persona pages print the key tool's address as text. No href to it is left anywhere in src/pages or review/.
+- The final page scan now reads the top-level review pages as well.
+- The old link is a case in the test file, which prints ok.
+
+You caught yourself pointing the scan at the staging folder, in a test, before it shipped. That is the kind of slip a test is there to catch.
+
+Nothing more is needed from you on the online view.

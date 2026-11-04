@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T21:24:46Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "go",
+   "comment": "cf03e22a checks out: no href to pki.sgit.ai on the ten persona pages, the text plain, the old link only in the test file. The copy and the drawings are security's to check in the work.",
+   "at": "2026-11-04T21:26:23Z"
+  },
+  "pre_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "go",
+   "comment": "cf03e22a turns the link into text; no live href to pki.sgit.ai in src/pages or review/; writes in scope.",
+   "at": "2026-11-04T21:26:57Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "cf03e22a read, 067 closed (069); 93 carries both wordings; hour's changes and LAB 58, 43 drawings clear.",
+   "at": "2026-11-04T21:27:47Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
