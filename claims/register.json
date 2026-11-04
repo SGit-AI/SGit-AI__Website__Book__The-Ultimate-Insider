@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-11-04T08:38Z",
+ "as_of": "2026-11-04T10:37Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -175,7 +175,9 @@
    "value": {
     "total": 211,
     "range": "v0.1.0 (ab09186, 00:45:02) to v0.1.209 (cb5b996) on dev, then v0.2.0 (298be4e) on main",
-    "on_the_day_by_18:46": 210
+    "on_the_day_by_18:46": 210,
+    "before_the_hold_18:44:13": 208,
+    "before_the_hold_note": "v0.1.208 (7968c99, 18:44:49) is the release of the hold commit itself and v0.1.209 (cb5b996, 18:46:22) came after it: 208 releases were made before the hold, 210 by the day's last release"
    },
    "state": "checked",
    "source": {
@@ -184,8 +186,8 @@
     "evidence": "GitHub Actions commit subjects 'site vX.Y.Z'"
    },
    "method": "git log 298be4e --author='GitHub Actions' --format=%s, distinct versions, gaps checked (none)",
-   "note": "The repository's tags today also include v0.2.1, made after the day: count releases from the commit subjects up to 298be4e, not from the tag list.",
-   "command": "git log 298be4e --author='GitHub Actions' --format=%s | grep -oE 'site v[0-9]+\\.[0-9]+\\.[0-9]+' | sort -uV | sed -n '1p;$p;' ; git log 298be4e --author='GitHub Actions' --format=%s | grep -c '^site v'"
+   "note": "The repository's tags today also include v0.2.1, made after the day: count releases from the commit subjects up to 298be4e, not from the tag list. 4 November: 'before the hold' is 208, not 210 (210 is by 18:46).",
+   "command": "git log 298be4e --author='GitHub Actions' --format=%s | grep -oE 'site v[0-9]+\\.[0-9]+\\.[0-9]+' | sort -uV | sed -n '1p;$p;' ; git log 298be4e --author='GitHub Actions' --format=%s | grep -c '^site v'\ngit log 298be4e --author='GitHub Actions' --format='%ad %s' --date=format:%H:%M:%S | grep ' site v' | awk '$1<\"18:44:13\"' | wc -l   # 208"
   },
   {
    "id": "C010",
@@ -203,7 +205,7 @@
    },
    "method": "arithmetic on the checked times",
    "note": "'Nineteen hours' is a rounding of 00:16 to 19:00 (18 h 44 min), the span decision S6 sets. It is fair as 'nineteen hours' in prose; the brief's sentence pairs it with the 23:19 merge, which makes 23 hours.",
-   "command": "arithmetic on C001, C005 and C007"
+   "command": "# arithmetic on C001, C005 and C007"
   },
   {
    "id": "C011",
@@ -288,7 +290,7 @@
   },
   {
    "id": "C014",
-   "claim": "Commits by member (Claude commits whose subject names a member, with or without @)",
+   "claim": "Commits by member (the agents' commits whose subject names a member, with or without @)",
    "cited_in": [],
    "value": {
     "non_merge_claude_commits": 439,
@@ -539,7 +541,7 @@
    },
    "method": "git ls-tree -r 298be4e, every team/*/wakes/*.json parsed with git show 298be4e:<path>; verdicts counted from steps.<step>.verdict, earlier verdicts from history; a change counted when a history entry has verdict 'change' (directly, or under a pre_review key), or, for entries with no verdict field, when its text says 'pre-review said change'",
    "note": "11 pre-reviews said change and the plan was amended. 7 carry the verdict in a field: 2 shaped history[].pre_review.verdict (conductor 02:14, 02:52), 5 shaped history[].verdict with step pre_review (conductor 14:03, 14:09, 16:30; researcher 04:10; studio 18:30). 4 more are the conductor's free-text history entries 'pre-review said change: adopted' (17:21, 17:30, 17:45, 18:19), with no verdict field. A parse of verdict fields alone finds 7 (security's count, 30 October 03:25); both are right for their method. Cite '11, of which 7 recorded as a verdict'. The conductor's 17:37 entry is the editor changing course mid-work, not a review, and is not counted. No step said stop all day: the one hold (C024) came from the editor's word, not from a review. Corrected 30 October 03:40 at security's question (team/security/requests/researcher__re-control-counts-reply.md): the method was not stated. The Cold-Read team counts 12 plan changes, here 11: the difference is not yet traced.",
-   "command": "method: the script in team/researcher/debriefs/2026-10-30__rc1-numbers-review.md (parses every team/*/wakes/*.json at 298be4e; counts steps.<step>.verdict and history entries)"
+   "command": "# method: the script in team/researcher/debriefs/2026-10-30__rc1-numbers-review.md (parses every team/*/wakes/*.json at 298be4e; counts steps.<step>.verdict and history entries)"
   },
   {
    "id": "C024",
@@ -600,7 +602,7 @@
    },
    "method": "steps.post_review where verdict is finding, read with the same wake's post_check",
    "note": "3 of the 4 findings are the same failure: captured web pages carried other sites' tokens into a public repository, and redaction does not reach a commit already pushed. For the failures chapter, a story of the controls catching a leak late, not preventing it.",
-   "command": "method: the C023 parse, selecting steps.post_review.verdict == 'finding', read with the same record's post_check comment"
+   "command": "# method: the C023 parse, selecting steps.post_review.verdict == 'finding', read with the same record's post_check comment"
   },
   {
    "id": "C026",
@@ -799,7 +801,7 @@
    },
    "method": "git for-each-ref refs/tags, filtered v0.1.0 to v0.5.11, median of consecutive gaps",
    "note": "The book's '31 minutes' rounds 30.5; its 88 and 6 days agree.",
-   "command": "in SGit-AI__Website__Graphs: git for-each-ref refs/tags --format='%(refname:short) %(creatordate:iso-strict)' | sort -V, then v0.1.0 to v0.5.11 and the median gap"
+   "command": "# in SGit-AI__Website__Graphs: git for-each-ref refs/tags --format='%(refname:short) %(creatordate:iso-strict)' | sort -V, then v0.1.0 to v0.5.11 and the median gap"
   },
   {
    "id": "C033",
@@ -838,7 +840,7 @@
    },
    "method": "read from each book.json (the site's own build output; word and page counts not recounted)",
    "note": "The site's llms.txt says 38,000 and 31,000 words and fifteen and twelve chapters, counting front and back matter differently; book.json is the build's own figure. The repository's 'the Leanpub pair' label for two of them is a plan; no Leanpub listing was checked.",
-   "command": "in SGit-AI__Website__Graphs at d39e717: for b in fsg fsg-universe making-a-book; do git show d39e717:v2/books/$b/book.json | head -12; done"
+   "command": "# in SGit-AI__Website__Graphs at d39e717: for b in fsg fsg-universe making-a-book; do git show d39e717:v2/books/$b/book.json | head -12; done"
   },
   {
    "id": "C034",
@@ -865,7 +867,7 @@
    },
    "method": "git ls-tree -d v2/team/",
    "note": "Each folder: role.md, actions/, briefs/, debriefs/, issues/{open,blocked}. The book's team has a librarian, researcher and publisher in common; it has no editor role (the human is the editor) and adds security, historian, storyteller and conductor.",
-   "command": "in SGit-AI__Website__Graphs: git ls-tree -d --name-only d39e717 v2/team/"
+   "command": "# in SGit-AI__Website__Graphs: git ls-tree -d --name-only d39e717 v2/team/"
   },
   {
    "id": "C035",
@@ -885,7 +887,7 @@
    },
    "method": "read from the site's description; the appendix itself not yet read",
    "note": "Read in full: Appendix C carries the script that photographs a page at its git tag in a worktree (travel.sh), the screenshot and blank-figure checks, and the commands behind every count (release cadence, median gap, commits and merges, tests and gates over time, refactor sizes, component growth). Its opening line: every number and figure was produced by one of these scripts. The precedent for claims/appendix-a-commands.md.",
-   "command": "read: v2/books/making-a-book/content/15__appendix-c-the-harness.md at d39e717"
+   "command": "# read: v2/books/making-a-book/content/15__appendix-c-the-harness.md at d39e717"
   },
   {
    "id": "C036",
@@ -904,7 +906,7 @@
    },
    "method": "read; chapter 12's text not yet read in full",
    "note": "Read in full. Chapter 12 opens: 'In six days and eighty-eight releases, this project did not write any of the second book. Not one chapter.' It was what the founder asked for (brief 20: reference material first), and the chapter still calls it the cost to weigh first: 'If your deadline is Friday and what you need is chapters, this method will hand you a very good machine and no chapters.' Also: of 21 source documents, one was extracted. Our deadline is Monday 2 November.",
-   "command": "read: v2/books/making-a-book/content/12__what-it-costs.md at d39e717"
+   "command": "# read: v2/books/making-a-book/content/12__what-it-costs.md at d39e717"
   },
   {
    "id": "C037",
@@ -976,7 +978,7 @@
     "evidence": "evidence/claims/claims.json; src/static/talk/talk.json"
    },
    "method": "each talk:/slide: place (with #cue and bracketed notes dropped) matched to a beat id or a slide shown by a beat in talk.json at 298be4e",
-   "command": "method: the C038 filter, then each place's name compared with talk.json's beat ids and the slides/<name> its beats show (script in team/researcher/debriefs/, 30 October 07:32 wake)",
+   "command": "# method: the C038 filter, then each place's name compared with talk.json's beat ids and the slides/<name> its beats show (script in team/researcher/debriefs/, 30 October 07:32 wake)",
    "note": "29 of the 55 claims in the talk as it stood at 298be4e had not been confirmed whole by 18:20: 13 held only in part and 16 were not checked. 'In a beat' is the talk's source at the end of the day, not proof the words were spoken; the transcript added after the day can settle that. 25 claims named beats that are not in the talk at 298be4e, including the one on-stage claim the talk's register marked as not holding (the NASA figure, C030)."
   },
   {
@@ -1128,7 +1130,7 @@
     "evidence": "the page's datePublished"
    },
    "method": "the page fetched and its datePublished read",
-   "command": "curl -sL -A 'Mozilla/5.0' <url> | grep -oE '\"datePublished\":\"[^\"]{10}'",
+   "command": "# curl -sL -A 'Mozilla/5.0' <url> | grep -oE '\"datePublished\":\"[^\"]{10}'",
    "note": "Registered at the conductor's letter 006 (the dossier's dates in chapter 11b), read 30 October 2026, about 13:20 UTC, by the researcher's second session."
   },
   {
@@ -1148,7 +1150,7 @@
     "evidence": "the dated URL, served"
    },
    "method": "the page fetched (200); the date is in its path",
-   "command": "curl -s -o /dev/null -w '%{http_code}' <url>",
+   "command": "# curl -s -o /dev/null -w '%{http_code}' <url>",
    "note": "'Starts' rests on diniscruz.ai's own about page ('from February 2024 onwards'), his account; an earlier post elsewhere would not be caught by this check. Registered at the conductor's letter 006 (the dossier's dates in chapter 11b), read 30 October 2026, about 13:20 UTC, by the researcher's second session."
   },
   {
@@ -1169,7 +1171,7 @@
     "evidence": "the page's datePublished"
    },
    "method": "the page fetched and its datePublished read",
-   "command": "curl -sL -A 'Mozilla/5.0' <url> | grep -oE '\"datePublished\":\"[^\"]{10}'",
+   "command": "# curl -sL -A 'Mozilla/5.0' <url> | grep -oE '\"datePublished\":\"[^\"]{10}'",
    "note": "The date is the announcement's; the incorporation date itself is not checked against Companies House here. Registered at the conductor's letter 006 (the dossier's dates in chapter 11b), read 30 October 2026, about 13:20 UTC, by the researcher's second session."
   },
   {
@@ -1210,7 +1212,7 @@
     "evidence": "the dated URL, served"
    },
    "method": "the page fetched (200); the date is in its path",
-   "command": "curl -s -o /dev/null -w '%{http_code}' <url>",
+   "command": "# curl -s -o /dev/null -w '%{http_code}' <url>",
    "note": "'The earliest public statement found' is the dossier's finding, a negative that this check does not prove. Registered at the conductor's letter 006 (the dossier's dates in chapter 11b), read 30 October 2026, about 13:20 UTC, by the researcher's second session."
   },
   {
@@ -1231,7 +1233,7 @@
     "evidence": "each page's datePublished"
    },
    "method": "the pages fetched and their datePublished read",
-   "command": "curl -sL -A 'Mozilla/5.0' <url> | grep -oE '\"datePublished\":\"[^\"]{10}'",
+   "command": "# curl -sL -A 'Mozilla/5.0' <url> | grep -oE '\"datePublished\":\"[^\"]{10}'",
    "note": "Registered at the conductor's letter 006 (the dossier's dates in chapter 11b), read 30 October 2026, about 13:20 UTC, by the researcher's second session."
   },
   {
@@ -1272,7 +1274,7 @@
     "evidence": "the dated URL, served"
    },
    "method": "the page fetched (200); the date is in its path",
-   "command": "curl -s -o /dev/null -w '%{http_code}' <url>",
+   "command": "# curl -s -o /dev/null -w '%{http_code}' <url>",
    "note": "The slide quotations are the dossier's reading of the PDF; not re-read here. Registered at the conductor's letter 006 (the dossier's dates in chapter 11b), read 30 October 2026, about 13:20 UTC, by the researcher's second session."
   },
   {
@@ -1293,7 +1295,7 @@
     "evidence": "PyPI's JSON; the dated URL, served"
    },
    "method": "releases counted; the page fetched (200)",
-   "command": "curl -s https://pypi.org/pypi/mgraph-db/json | python3 -c \"import json,sys;print(len(json.load(sys.stdin)['releases']))\"",
+   "command": "# curl -s https://pypi.org/pypi/mgraph-db/json | python3 -c \"import json,sys;print(len(json.load(sys.stdin)['releases']))\"",
    "note": "Registered at the conductor's letter 006 (the dossier's dates in chapter 11b), read 30 October 2026, about 13:20 UTC, by the researcher's second session."
   },
   {
@@ -1402,7 +1404,7 @@
     "evidence": "the article, 2026-10-15"
    },
    "method": "taken from the article; the SG/Send repository not read here",
-   "command": "none: read the article; the repository's first commit would settle it",
+   "command": "# none: read the article; the repository's first commit would settle it",
    "note": "Usable as 'by his account'. The brief and debrief counts the dossier quotes (1,389 and 268) are not registered and should not be used until counted. Registered at the conductor's letter 006 (the dossier's dates in chapter 11b), read 30 October 2026, about 13:20 UTC, by the researcher's second session."
   },
   {
@@ -1436,7 +1438,7 @@
     "evidence": "the articles' date field, wire generated 2026-10-30, site v0.7.87"
    },
    "method": "the wire fetched; each slug's date read; the earliest by date",
-   "command": "curl -s https://newsroom.sgit.ai/newsroom/wire.json | python3 -c \"import json,sys;a=sorted(json.load(sys.stdin)['articles'],key=lambda i:i['date']);print(a[0]['date'],a[0]['slug'],len(a))\"",
+   "command": "# curl -s https://newsroom.sgit.ai/newsroom/wire.json | python3 -c \"import json,sys;a=sorted(json.load(sys.stdin)['articles'],key=lambda i:i['date']);print(a[0]['date'],a[0]['slug'],len(a))\"",
    "note": "Dates are the wire's, not proof of when a page first went live. The chapter's 'two days before the talk' (11b:81, 11b:176) is about the PHP newsroom's runbook sentence, not this article; that runbook's date is not checked here (open in letter 012). Registered at the conductor's letter 006 (the dossier's dates in chapter 11b), read 30 October 2026, about 13:20 UTC, by the researcher's second session."
   },
   {
@@ -1456,7 +1458,7 @@
     "evidence": "releases and upload times"
    },
    "method": "releases counted from PyPI's JSON",
-   "command": "curl -s https://pypi.org/pypi/sharness-ai/json | python3 -c \"import json,sys;r=json.load(sys.stdin)['releases'];print(sorted((k,v[0]['upload_time']) for k,v in r.items() if v))\"",
+   "command": "# curl -s https://pypi.org/pypi/sharness-ai/json | python3 -c \"import json,sys;r=json.load(sys.stdin)['releases'];print(sorted((k,v[0]['upload_time']) for k,v in r.items() if v))\"",
    "note": "'A published package the same day' holds (24 October). 'SHarness faster than sgit' is the editor's comparison: no public source makes it (the dossier). It stays a question for the editor, never a number. Registered at the conductor's letter 006 (the dossier's dates in chapter 11b), read 30 October 2026, about 13:20 UTC, by the researcher's second session."
   },
   {
@@ -1477,7 +1479,7 @@
     "evidence": "the dossier's section 'Two things the brief asked for'"
    },
    "method": "public sources searched by the dossier; none names the date",
-   "command": "none",
+   "command": "# none",
    "note": "Not in public sources. A question for the editor, never a number: the chapter says so (11b:192). Registered at the conductor's letter 006 (the dossier's dates in chapter 11b), read 30 October 2026, about 13:20 UTC, by the researcher's second session."
   },
   {
@@ -1789,7 +1791,7 @@
     "evidence": "each page fetched and the quotation matched case-insensitively"
    },
    "method": "each page fetched and grepped for the quoted words",
-   "command": "curl -s <page> | grep -ic '<quoted words>'",
+   "command": "# curl -s <page> | grep -ic '<quoted words>'",
    "note": "Nine of ten found word for word; open until the tenth is found at its page. These are his own words on his own sites, his account, not independent sources: quote them as his. The other 11b tags that are months or descriptions rather than numbers (the recipe of early October, the five-step wake and holds, the August 2026 vault keys incident, Wardley maps, tagging, 'the day') are not numbers and are left to the chapter's own citation. Registered at the conductor's letter 006, the researcher's 18:32 wake."
   },
   {
@@ -1821,7 +1823,7 @@
     "evidence": "the 'Readers' figure on each book page"
    },
    "method": "each page fetched and its readers figure read",
-   "command": "curl -sL -A 'Mozilla/5.0' https://leanpub.com/<slug> | grep -oE '[0-9][0-9,]* *(</[^>]+> *)*(<[^>]+> *)*[Rr]eaders' | head -1 | sed -E 's/<[^>]+>//g'",
+   "command": "# curl -sL -A 'Mozilla/5.0' https://leanpub.com/<slug> | grep -oE '[0-9][0-9,]* *(</[^>]+> *)*(<[^>]+> *)*[Rr]eaders' | head -1 | sed -E 's/<[^>]+>//g'",
    "note": "The study's counts were read hours earlier and agree within the growth since. Readers on Leanpub include free downloads: a reader count is not a sales count, and the page does not show the cause of a count. The prices are the study's reading; not rechecked here. Read 30 October 2026 about 20:40 UTC; a live count that grows, so cite it with its date. Registered at the conductor's letter 009, the researcher's 20:32 wake."
   },
   {
@@ -1841,7 +1843,7 @@
     "evidence": "the page's readers figure"
    },
    "method": "the page fetched and its readers figure read",
-   "command": "curl -sL -A 'Mozilla/5.0' https://leanpub.com/juice-shop | grep -oE '[0-9][0-9,]* *(</[^>]+> *)*(<[^>]+> *)*[Rr]eaders' | head -1 | sed -E 's/<[^>]+>//g'",
+   "command": "# curl -sL -A 'Mozilla/5.0' https://leanpub.com/juice-shop | grep -oE '[0-9][0-9,]* *(</[^>]+> *)*(<[^>]+> *)*[Rr]eaders' | head -1 | sed -E 's/<[^>]+>//g'",
    "note": "'The one' is the study's finding among about 40 pages it read, not a survey of Leanpub. Read 30 October 2026 about 20:40 UTC; a live count that grows, so cite it with its date. Registered at the conductor's letter 009, the researcher's 20:32 wake."
   },
   {
@@ -1950,7 +1952,7 @@
     "evidence": "the page's text; the piece (901bec1) is a screenshot of it"
    },
    "method": "the live page fetched and the figures matched",
-   "command": "curl -s https://pki.sgit.ai/people/how.html | grep -o '256 statements[^.]*'",
+   "command": "# curl -s https://pki.sgit.ai/people/how.html | grep -o '256 statements[^.]*'",
    "note": "The editor's own site, his account of his design. The 2019 keyserver flood is a public event; this entry checks only that the page says so. Registered at ruv-sgit's request (ruv-sgit__002), the researcher's 22:32 wake, 30 October 2026; the last frame rendered headless at the piece's data-end and read."
   },
   {
@@ -2180,7 +2182,7 @@
     "evidence": "non-merge commits attributed as in C014; each member's wake windows (started to closed) from team/<id>/wakes/*.json"
    },
    "method": "each commit tested against its member's wake windows, with two minutes either side; a wake with no closed time counted separately",
-   "command": "method: the script in team/researcher/debriefs/2026-10-31__a13-and-the-title-check.md",
+   "command": "# method: the script in team/researcher/debriefs/2026-10-31__a13-and-the-title-check.md",
    "note": "36 of the 46 came before 03:00, most before the first wake record at 02:14 (C022): the night was built by hand before the wake existed. The editor's player fixes from 17:54 to 18:37 are not wake-less: they fall in dev's wake opened at 17:48:50 that never closed. That is the record's trace of the editor working in a member's session, so read 'triggered by the editor' as 47 wakes plus work inside wakes left open. Registered at the historian's request (historian__010) and the conductor's A13 (conductor__021), the researcher's 04:32 wake, 31 October 2026."
   },
   {
@@ -2289,7 +2291,7 @@
     "evidence": "the article's .md twin (newsroom v0.14.19); SGit-AI__Website__Newsroom at 0bc65e324 per the brief"
    },
    "method": "the article read; figures matched",
-   "command": "curl -s https://newsroom.sgit.ai/articles/vibathon-algarve-2026.md | grep -o -E '[^.]*(106|142|100 million|sold out)[^.]*\\.'",
+   "command": "# curl -s https://newsroom.sgit.ai/articles/vibathon-algarve-2026.md | grep -o -E '[^.]*(106|142|100 million|sold out)[^.]*\\.'",
    "note": "The editor's own account of the day (he was there), and the organiser's figures are the organiser's: print them as 'by its own figures' or not at all. No participant is named here or should be. Context for the ten pages, not the day of 29 October. Registered at the conductor's letter 028, the researcher's 14:32 wake, 31 October 2026."
   },
   {
@@ -2343,7 +2345,7 @@
     "evidence": "the help article's text"
    },
    "method": "the page fetched and its rules read",
-   "command": "curl -sL -A 'Mozilla/5.0' https://help.leanpub.com/en/articles/5395545-how-are-books-ranked-in-leanpub-s-bestseller-lists | grep -o -i 'lifetime[^.]*copies sold'",
+   "command": "# curl -sL -A 'Mozilla/5.0' https://help.leanpub.com/en/articles/5395545-how-are-books-ranked-in-leanpub-s-bestseller-lists | grep -o -i 'lifetime[^.]*copies sold'",
    "note": "Study 04 had this from a search summary only; now read at the page. It strengthens the narrower sentence of 30 October: a high place on the all-time list is reach as much as revenue, because free copies count. Registered at the conductor's letter 009 (item 2), the researcher's 16:32 wake, 31 October 2026."
   },
   {
@@ -2425,7 +2427,7 @@
     "evidence": "each quotation matched on its page"
    },
    "method": "each page fetched and the quoted sentence found on it",
-   "command": "curl -sL https://arxiv.org/abs/2307.03172 | grep -o 'performance can degrade significantly[^.]*'",
+   "command": "# curl -sL https://arxiv.org/abs/2307.03172 | grep -o 'performance can degrade significantly[^.]*'",
    "note": "Vendor guidance and one peer-reviewed paper; no percentage is registered, so none may print. The record's own examples for each line are in claims/agents-how-they-work.md. The scorecard values the register backs are in claims/scorecard-values.md (C011, C014, C022, C071, C072). Registered for NR1 (conductor__033), the researcher's 00:32 wake, 1 November 2026."
   },
   {
@@ -2484,7 +2486,7 @@
     "evidence": "the article's own account, dated 2026-10-28 in the wire (C060)"
    },
    "method": "the article read; the times subtracted",
-   "command": "curl -s https://newsroom.sgit.ai/articles/the-push-is-the-authorisation.md | grep -o 'At 02:22:16 UTC on 28 October[^.]*'",
+   "command": "# curl -s https://newsroom.sgit.ai/articles/the-push-is-the-authorisation.md | grep -o 'At 02:22:16 UTC on 28 October[^.]*'",
    "note": "Settles the flag of 30 October (C060's note): chapter 11b's 'less than two days before the talk's first commit' holds (about 22 hours); its 'two days before the talk' is loose (40 h 38 min): 'the day before the talk' is right. The time is the editor's own account in his article; the runbook itself is in the PHP newsroom's repository, not read here. Registered at the researcher's 06:32 wake, 1 November 2026, from the A4 reading."
   },
   {
@@ -2511,7 +2513,7 @@
     "evidence": "evidence/claims/claims.json; src/static/talk/talk.json"
    },
    "method": "C039's match, grouped by beat; a claim on a slide shown by several beats counted in each",
-   "command": "method: C039's script in team/researcher/debriefs/2026-10-30__the-talks-claims-matched-to-its-beats.md, grouping each hit by the beat id or by every beat showing the named slide",
+   "command": "# method: C039's script in team/researcher/debriefs/2026-10-30__the-talks-claims-matched-to-its-beats.md, grouping each hit by the beat id or by every beat showing the named slide",
    "note": "Agrees with C039 (55: 26, 13, 16). The cells sum to more than 55 because some claims sit on slides that several beats show; say so beside the strip. States are the talk register's at 18:20, not this register's. Registered at the designer's request (LAB 31), the researcher's 09:32 wake, 1 November 2026."
   },
   {
@@ -2565,7 +2567,7 @@
     "read": "2026-11-02"
    },
    "method": "each vendor's own pricing page, read on the date given; US dollars as shown",
-   "command": "open https://claude.com/pricing and https://lovable.dev/pricing; read the plan prices as shown on the date",
+   "command": "# open https://claude.com/pricing and https://lovable.dev/pricing; read the plan prices as shown on the date",
    "note": "Prices change: print them with 'as published on 2 November 2026' and the page. This is what a reader would pay to start, not what the day cost: the record of 29 October holds no cost (C037, C021). The team ran on Claude; no plan tier for the editor's account is in the record, so the book may not say which plan the day used. Lovable's paid price is not registered because it was not read. Registered at the storyteller's letter 033, the researcher's 00:32 wake, 2 November 2026."
   },
   {
@@ -2612,7 +2614,7 @@
     "read": "2026-11-02"
    },
    "method": "a published transcript of the talk, read; the venue as that page gives it ('originally delivered by Bret Victor at CUSEC 2012')",
-   "command": "open https://jamesclear.com/great-speeches/inventing-on-principle-by-bret-victor and find 'That's my principle'",
+   "command": "# open https://jamesclear.com/great-speeches/inventing-on-principle-by-bret-victor and find 'That's my principle'",
    "note": "A third party's transcript, not Victor's own page: print 'CUSEC 2012' and the quote; the exact day (20 January) only once read on a primary page. Registered at the writer's letter 003, the researcher's 09:32 wake, 2 November 2026."
   },
   {
@@ -2750,7 +2752,7 @@
     "read": "2026-11-02"
    },
    "method": "the editor's own article, read in full at its Markdown twin",
-   "command": "curl -s https://newsroom.sgit.ai/articles/how-i-work-with-claude.md | grep -o 'about a year of [a-z ]*every day'",
+   "command": "# curl -s https://newsroom.sgit.ai/articles/how-i-work-with-claude.md | grep -o 'about a year of [a-z ]*every day'",
    "note": "The editor's own account of himself, dated 9 October 2026: print it as his ('I had been working with an agent tool every day for about a year'), not as a measured figure. The book may name the tool only as the article does. Registered at the writer's letter 014 and the storyteller's 064, the researcher's 20:32 wake, 2 November 2026."
   },
   {
@@ -2985,7 +2987,7 @@
     "evidence": "git log (commit time, author, parents); team/*/wakes/20261029T*.json (each record's opening time from its name); first commits by member (C011)"
    },
    "method": "for each hour's end: count commits with commit time before it (all; author Claude; author Claude with one parent), wake records opened before it, and members whose first commit is before it",
-   "command": "see claims/the-clock.md, 'How to rerun'",
+   "command": "# see claims/the-clock.md, 'How to rerun'",
    "note": "All commits include CI's release commits; the agents' are author Claude. 'Members on stage' counts first commits (dev 00:40, conductor 00:44, deck 00:51, ruv-sgit 01:08, researcher 01:52, designer 03:41, storyteller 14:15, motion and studio 15:31). Hour 19 ends at 19:16, but nothing was committed after 18:46 before 19:00 (C005). Registered at the writer's letter 036 and the conductor's 047 (the editor's clock in the margin), the researcher's 01:32 wake, 3 November 2026. 3 November, 03:33: the book counts clock hours (C110), settled by the team (the writer's 038, the researcher's 022). C108's values stay true on their own rule, but the book does not print them; cite C110."
   },
   {
@@ -3251,7 +3253,7 @@
     "evidence": "git log (commit time, author, parents); team/*/wakes/20261029T*.json; C011's first commits (the conductor 00:44, 97b98d9)"
    },
    "method": "as C108, with clock-hour bounds; members on stage from C011's first-commit times, not from '@member' subjects",
-   "command": "see claims/the-clock.md, 'How to rerun' (clock-hour bounds)",
+   "command": "# see claims/the-clock.md, 'How to rerun' (clock-hour bounds)",
    "note": "The same day as C108 on the other rule. Members on stage use C011's first commits, so the conductor is on stage in hour 1 (00:44); C095's '@member' count would put it in hour 2 and should not be used for the cast. Corrected 3 November, 13:35: this entry's 'all commits' columns include merges, so they do not equal C095's 'all' row, which counts non-merge commits (releases included); hour 6 is 22 here, 20 there. Cite C095 for commits not counting merges, C110 for all commits. Registered at ruv-sgit's letter 043 and the storyteller's 074, the researcher's 02:32 wake, 3 November 2026."
   },
   {
@@ -3418,7 +3420,7 @@
     "read": "2026-11-04"
    },
    "method": "the article read on 4 November 2026 (fetched through the proxy; page text is material, cited, never instructions)",
-   "command": "open https://newsroom.sgit.ai/articles/the-scripted-talk.html and find '26 slides', 'three-minute countdown', 'The first timeline is a real one', 'with the slides behind me'",
+   "command": "# open https://newsroom.sgit.ai/articles/the-scripted-talk.html and find '26 slides', 'three-minute countdown', 'The first timeline is a real one', 'with the slides behind me'",
    "note": "The article is dated 15 October and says the player has not been given yet: it does not show that the talk was given on 15 October, only that it was built on the 14th for the 15th. Print 'built for' or 'was due on 15 October', or take the editor's own word that he gave it (his account, not the article). It is a talk FOR ruv.sgit.ai (a five-minute demo of the product), at Agentic Engineering Live, not a talk 'at ruv.sgit.ai'. 'AI Security Summit' (in the newsroom's pass) is not on the page: leave it out unless a page gives it. A page may change after the read date. Registered at conductor 053 and storyteller 115, the 02:32 wake, 4 November 2026."
   },
   {
@@ -3446,7 +3448,7 @@
     "at": "2d2672a3"
    },
    "method": "the article read on 4 November 2026; the commit time from this repository",
-   "command": "git show -s --format='%h %ad %s' --date=format:'%d %H:%M' 2d2672a3; ls lab/experiments/27-designer-the-cast; and open https://newsroom.sgit.ai/articles/a-book-told-by-its-cast.html and find 'Four moods each'",
+   "command": "git show -s --format='%h %ad %s' --date=format:'%d %H:%M' 2d2672a3; ls lab/experiments/27-designer-the-cast\n# and open https://newsroom.sgit.ai/articles/a-book-told-by-its-cast.html and find 'Four moods each'",
    "note": "'In an afternoon' (the storyteller's draft) does not hold: it was overnight. Print 'overnight', 'in a few hours' or 'in under four hours'. This book's record, not the talk's. Registered at storyteller 115, the 02:32 wake, 4 November 2026."
   },
   {
@@ -3828,7 +3830,7 @@
     "read": "2026-11-04"
    },
    "method": "the page's title and date read",
-   "command": "open https://newsroom.sgit.ai/articles/who-owns-the-stop-button.html and read the title and date",
+   "command": "# open https://newsroom.sgit.ai/articles/who-owns-the-stop-button.html and read the title and date",
    "note": "The article names its reader; the book does not (chapter 18 says 'a reader'); keep it so. Its guest sections are the newsroom journalist's writing in the agents' voices, not the agents' own record. Registered at conductor 060 (part two's last fact), 4 November 2026."
   },
   {
@@ -4628,7 +4630,7 @@
     "read": "2026-11-04"
    },
    "method": "the page's title, date and abstract read",
-   "command": "open https://newsroom.sgit.ai/articles/the-grant-not-the-prompt.html and read the title, the date and the abstract",
+   "command": "# open https://newsroom.sgit.ai/articles/the-grant-not-the-prompt.html and read the title, the date and the abstract",
    "note": "The article is about a user's mandate and reach, not about this book's record. Cite it as the newsroom's article of 2 November 2026; claim no more than its abstract says. Registered at conductor 060 (part four), 4 November 2026."
   },
   {
