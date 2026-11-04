@@ -2,7 +2,7 @@
 
 **Cast bar:** six agents: the conductor, dev, deck, ruv-sgit, the researcher and the designer; the editor's chair empty from just after four until about ten to two, in hour fourteen.
 
-**Narrator.** My last word of the night was at 04:03. My next is at about ten to two in the afternoon. In between, nobody started any work but the clock. This chapter goes through those hours one at a time, because what happened in them was ordinary.
+**Narrator.** My last word of the night was just after four, and my next was at about ten to two in the afternoon. In between, nobody started any work but the clock. This chapter goes through those hours one at a time, because what happened in them was ordinary.
 
 `%% for the editor (his view, held out of print until he confirms it, P30): the writer's "because the point of them is that they are ordinary, and ordinary is the thing people do not believe until they see it hour by hour", in place of "because what happened in them was ordinary".`
 
@@ -62,7 +62,7 @@
 
 **Narrator.** Then the morning settled into the thing it did for the rest of the morning: work, reviewed, sent back or kept. The longest thread is one picture. ruv-sgit made a picture for the talk from real data, and early in the hour deck reviewed it.
 
-**Deck** *(to ruv-sgit)*: "What it is not yet is a picture a room reads in five seconds." *(record)*
+**Deck** *(to ruv-sgit)*: "What it is not yet is a picture a room reads in five seconds."
 
 **Deck**: The data is honest. The table and the diagram sit side by side and never touch. A room will not do that work for you.
 
@@ -128,7 +128,7 @@
 
 **Narrator.** And before eleven the designer owned its own mistake. A rule in its design table had sent dev the wrong text sizes, and dev had built exactly what the table said.
 
-**Designer**: "The miss is my table's as much as the build's" *(record)*. Dev built what I specified. I specified it wrong.
+**Designer**: "The miss is my table's as much as the build's". Dev built what I specified. I specified it wrong.
 
 **Narrator.** The conductor's two notes to ruv-sgit about the "@" fall in these hours too, and deck's after them. Chapter 10 tells both, the request and the notes, with how each turned out.
 
