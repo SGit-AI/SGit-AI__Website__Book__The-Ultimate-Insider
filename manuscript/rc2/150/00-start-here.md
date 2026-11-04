@@ -1,19 +1,73 @@
 # Start here
 
-**Narrator.** If you want to start now, this page is all you need. The rest of this book is why it works.
+**Narrator.** If you only read one page, read this one. These five steps are what I would tell a friend who wanted to try this tomorrow. The rest of the book is how I learned them.
 
-- [ ] **One tool and one empty project.** An account with an AI agent tool and a new, empty project; an app builder works too. Put nothing private in it.
-- [ ] **One page of rules**, in your own words: what the agent is for, what it may change, and when it must stop and ask you.
-- [ ] **One brief**: what you want made, for whom, by when. Hand both to your first agent.
-- [ ] **Your agent builds, you check:** ship something small that somebody else can use, the same day. Then do it again.
-- [ ] **A second agent only when the first is busy.** Working with others? Share the brief, the board and the hold, and write down who may lift the hold when its owner is away.
+`%% for the editor (a Check item, held out of print until you confirm it): the newsroom's line ends "The rest of the book is how I learned them, mostly by getting them wrong first." Say if "mostly by getting them wrong first" holds for you.`
 
-**Figure:** this page as one printable sheet: the five steps, a box beside each.
+## The formula
+
+1. One tool and one empty project, with nothing private in it.
+2. One page of rules: what the agent is for, what it may change, and when it must stop and ask you.
+3. One brief: what you want made, for whom, by when.
+4. Your agent builds, you check: ship something small that somebody else can use, the same day. Then do it again.
+5. A second agent only when the first is busy; and if others join, share one brief, one board and one hold.
+
+**Figure:** the five steps as a path, from an empty project to a second agent, numbered stones only; the words stay in the text above.
+
+`%% figure brief: For the designer. The path carries the numbers 1 to 5 and no words, so nothing is said twice (his note, brief 03). The printable checklist is at the end of chapter 23.`
+
+## The book as a map
+
+**Narrator.** The book has five parts. Read it the whole way through, or take the short way: this page, then part 5, then back to the start.
+
+- **Part 1. The creator's problem** (chapters 1 to 3): why slides were never enough, and what a factory of agents made in a day.
+- **Part 2. The factory is assembled** (chapters 4 to 8): the first five hours, the rules written and the cast arriving.
+- **Part 3. The factory runs** (chapters 9 to 15): nine hours with nobody starting work, then my return and the afternoon.
+- **Part 4. The factory is stopped** (chapters 16 to 19): the hold, what did not work, what contains a team of insiders, and a second team reading cold.
+- **Part 5. The factory rebuilt, and yours** (chapters 20 to 23): this book's own team, the next one, and the steps for yours.
+
+**Figure:** the five parts as stops on one route, the chapters beneath each stop, with two routes marked: the whole way through, and the short way.
+
+`%% figure brief: For the designer, in one of the variations the storyteller listed (blocks, one large picture, or a graph). The index, done as a picture.`
+
+## The cast says hello
+
+**Conductor:** I keep the time and the plan.
+
+**Dev:** I build it, and the check says if it can go out.
+
+**Deck:** I make the slides, and I send back what is not ready.
+
+**ruv-sgit:** I make the moving pictures in my workshop.
+
+**Researcher:** I check every fact against its source.
+
+**Designer:** I make every page look like it means it.
+
+**Storyteller:** I find the story before the slides.
+
+**Motion:** I make it move when you press play.
+
+**Studio:** I bring the best of the old sites across.
+
+*And one chair at the table stays empty: security's, planned in the first hour and never filled on the day.*
+
+*Dramatised.*
+
+`%% record: chapter-plan/cast/ (the cast guide); C011 (the talk's members: nine staffed, security proposed and never staffed)`
+
+## Zero to presentation
+
+**Figure:** a thin strip from the empty project to the talk: the empty project, the first agent, the five steps, the six alone through the morning, my return, the hold, the talk. One number on it: nearly nineteen hours.
+
+`%% figure brief: For the designer. Nineteen hours is the title's rounding of 18 hours 44 minutes (C010); print it as "nearly nineteen hours", never as eighteen.`
+
+`%% record: C001 (the first commit, 00:16) C011 (the six alone: the members by the morning) C010 (the day's span) C024 (the hold) C100 (the talk due at 19:00)`
 
 ---
 
 ## Where this came from
 
-The five steps as the 10-page edition gives them, shortened; the full version, with what each step rests on and what to do and check under it, is chapter 23.
+The storyteller's brief for this page (the outline's "Before chapter 1"), the newsroom journalist's proposed narrator line, the five steps as chapter 23 gives them, the cast guide for the hellos.
 
-`%% record: chapter-plan/cast/edition-10.md (the five steps); manuscript/rc2/150/23-principles-and-build-your-own.md; manuscript/rc2/70/01b-start-here.md; comms/mail/mailroom/writer/storyteller__110-synthetic-005-decided.eml ("In the full book: Start here first")`
+`%% record: chapter-plan/edition-150-outline.md ("Before chapter 1: Start here"); team/conductor/from-newsroom/2026-11-04__narrator-voice-part-one.md (section 4); manuscript/rc2/150/23-principles-and-build-your-own.md; briefs/2026-11-04__in-session/03-start-here-and-the-title-page.md`

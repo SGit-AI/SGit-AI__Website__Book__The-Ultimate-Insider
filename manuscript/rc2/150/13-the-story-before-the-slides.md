@@ -15,7 +15,8 @@
 **Storyteller** *(scarf, open book, a little breathless)*: I came late, so I came with a map. Here is where everything sits. Change nothing yet; look first.
 
 `%% record: 7d0244d (14:15) df37797 (14:19) team/storyteller/requests/deck__story-tree-first-pass.md C012 timeline/cast-scenes.md scene 4`
-Band: *Dramatised (the storyteller's line). Rests on its arrival and its first letter to deck; the quoted line is the letter's own.*
+`%% band: Dramatised (the storyteller's line). Rests on its arrival and its first letter to deck; the quoted line is the letter's own.`
+*Dramatised.*
 
 ### The tree and the maps, as they were used
 
@@ -34,7 +35,8 @@ Band: *Dramatised (the storyteller's line). Rests on its arrival and its first l
 **Storyteller** *(quietly pleased, turning a page)*: The order went in. The words stayed deck's. That is the right way round.
 
 `%% record: df37797 team/storyteller/story/ (tree, maps, coverage) at 298be4e ca59986 (16:36, the talk in the editor's order) team/storyteller/story/coverage.md ("almost exactly", citing ca59986) timeline/interviews/storyteller.md`
-Band: *Dramatised (the storyteller's lines). Rests on its first pass and its coverage file; that deck's order took the sequence almost exactly is the storyteller's own account.*
+`%% band: Dramatised (the storyteller's lines). Rests on its first pass and its coverage file; that deck's order took the sequence almost exactly is the storyteller's own account.`
+*Dramatised.*
 
 ## The objection kept
 
@@ -49,7 +51,8 @@ Band: *Dramatised (the storyteller's lines). Rests on its first pass and its cov
 **Narrator.** That is the researcher doing what it is for. It could not change a slide. It could only say, in writing, that a line did not hold, with the source beside it.
 
 `%% record: 2726f0e (14:33; R5: the surface smaller and more mature than it was) C030 (story-r5-surface-smaller-more-mature: "no source for 'smaller'")`
-Band: *Dramatised (the researcher's line). The quoted words are its finding's own.*
+`%% band: Dramatised (the researcher's line). The quoted words are its finding's own.`
+*Dramatised.*
 
 **Narrator.** Then the storyteller had a choice. The finding contradicted a line of mine that the storyteller's own tree depended on. At 15:02 it folded the researcher's facts into the tree and put the finding to me, as the strongest objection to my own part one, in a letter.
 
@@ -58,7 +61,8 @@ Band: *Dramatised (the researcher's line). The quoted words are its finding's ow
 **Storyteller** *(to itself)*: He decides; I just make sure he sees it.
 
 `%% record: b208a16 (15:02:48, the storyteller's pass and its letter) team/storyteller/story/challenge.md at 298be4e`
-Band: *Dramatised. The storyteller's lines rest on its letter of 15:02 only; the words are ours.*
+`%% band: Dramatised. The storyteller's lines rest on its letter of 15:02 only; the words are ours.`
+*Dramatised.*
 
 **Narrator.** It came to me, and I answered it in my answers of that afternoon, committed at 15:16. The conductor wrote my answer down in one line of the decisions file, under the researcher's pushback:
 
@@ -75,7 +79,7 @@ Band: *Dramatised. The storyteller's lines rest on its letter of 15:02 only; the
 `%% figure brief: For the designer. Three marks, the words under each from the record; the times in the picture.`
 
 `%% record: 78d517d (15:16:37, my decisions, headed about 15:00: "The outside is in balance: he keeps the claim.") C104 (the decisions round: given about 15:00, recorded 15:16:37) historian__022 (the correction: he answered R5 directly, in his decisions file)`
-Band: *The answer is the decisions file's own line, in the conductor's words. The finding, the letter and the answer are in that order in the record.*
+`%% band: The answer is the decisions file's own line, in the conductor's words. The finding, the letter and the answer are in that order in the record.`
 
 ## Do this now
 

@@ -57,7 +57,8 @@
 `%% figure brief: For the designer. A card for each member: those above in order, then security, synthetic, ruv-sgit and the developer. No key, session or task line on any card.`
 
 `%% record: briefs/2026-10-30/1-book-conductor-brief.md (the book team, 30 October) this repository: team/conductor/ROLE.md team/librarian/ROLE.md team/historian/ROLE.md team/researcher/ROLE.md team/storyteller/ROLE.md team/publisher/ROLE.md team/designer/ROLE.md team/writer/ROLE.md team/security/ROLE.md team/synthetic/ROLE.md team/ruv-sgit/ROLE.md team/developer/ROLE.md; talk repository at 298be4e: team/*/ROLE.md (the inherited rules)`
-Band: *Dramatised. Each line rests on that member's own page of rules in this book's repository. This team is this book's record, not the talk's.*
+`%% band: Dramatised. Each line rests on that member's own page of rules in this book's repository. This team is this book's record, not the talk's.`
+*Dramatised.*
 
 ## Its own failures, kept
 
@@ -76,7 +77,8 @@ Band: *Dramatised. Each line rests on that member's own page of rules in this bo
 `%% record: 58322a27 (the storyteller's 18:40 wake of 2 November: both short editions' scripts corrected)`
 
 `%% record: this book's repository: fde3fea (the researcher's trace of chapter 1, 2 November 2026) comms/mail/mailroom/writer/researcher__002-rc2-chapter-1-traced.eml timeline/lineage.md`
-Band: *Dramatised. This book's record: the researcher's trace of 2 November and its letter to the writer.*
+`%% band: Dramatised. This book's record: the researcher's trace of 2 November and its letter to the writer.`
+*Dramatised.*
 
 ### The evening lost to the usage limit
 
@@ -89,7 +91,8 @@ Band: *Dramatised. This book's record: the researcher's trace of 2 November and 
 `%% for the editor: "The point is not that the rule failed" and the sentence after it are the writer's reading; his to keep or drop.`
 
 `%% record: this book's repository: 9395328 (the conductor's record of the evening of 1 November) team/conductor/editor-briefs/2026-11-02T0015Z.json (quoted as written) briefs/2026-11-02__in-session/01-keep-the-pace.md (his words: "Keep the current pace which is good") book.json UL1 CLAUDE.md (the usage rule) claims/rc2-30-trace.md ("until just after midnight")`
-Band: *Dramatised (the conductor's line). This book's record: the conductor's brief of 2 November, just after midnight, on the limit reached on 1 November, and my answer.*
+`%% band: Dramatised (the conductor's line). This book's record: the conductor's brief of 2 November, just after midnight, on the limit reached on 1 November, and my answer.`
+*Dramatised.*
 
 ### A third, chosen by the historian
 
@@ -102,7 +105,8 @@ Band: *Dramatised (the conductor's line). This book's record: the conductor's br
 **Historian** *(careful, owning it)*: I trusted the order of events over the shape of the record. The chapters stood on it until I checked again.
 
 `%% record: comms/mail/mailroom/writer/historian__040-the-third-failure.eml (its choice and its account); 5c4c7d17 (02:26:47, letters 019 and 020) b0f59de3 (10:34, chapter 4 as first written) 21e5ad53 (11:23:44, letter 030, the correction) ffeae66b (11:33:41, both chapters set right); talk repository at 298be4e: 1f7c633 (00:40) 97b98d9 (00:44, its parent the empty first commit 2e4b1f4) 17b287b (00:51:12, the merge)`
-Band: *Dramatised (the historian's line, on its own account). This book's record: the historian's letters of 3 November, its correction, and the commits they rest on.*
+`%% band: Dramatised (the historian's line, on its own account). This book's record: the historian's letters of 3 November, its correction, and the commits they rest on.`
+*Dramatised.*
 
 **Figure:** the second factory's failures as cards, beside the first factory's: "the brake was made that night", a line refused and corrected; "the evening lost to the usage limit", a hold that came too late; "read the parents, not only the times", a reading corrected by the one who made it.
 

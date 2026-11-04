@@ -19,7 +19,8 @@
 **Conductor** *(on the minute)*: Routed. Each section to its owner's mailroom, read at its next slot.
 
 `%% record: feedback-briefs.md's first line ("The conductor routes each section to its member's mailroom at the 14:02 wake") c9ced4e (14:07)`
-Band: *Dramatised (the conductor's line). Rests on the brief's first line and the commit that routed it.*
+`%% band: Dramatised (the conductor's line). Rests on the brief's first line and the commit that routed it.`
+*Dramatised.*
 
 **Narrator.** Then the record keeps something I would rather it did not. The conductor read the round, wrote a review of it, and I answered the review in the same session. Within minutes the order had changed, at my own word: a feedback pane on every page, so I could send notes from the browser, went first; the player went second. The conductor's notes of 14:05 record the new order, and my words after the review:
 
@@ -30,7 +31,7 @@ Band: *Dramatised (the conductor's line). Rests on the brief's first line and th
 `%% for the editor: "something I would rather it did not" and "that one is mine" are the writer's reading of his view; his to keep or drop. The record holds the order and his words, not his feeling about them.`
 
 `%% record: team/conductor/briefs/2026-10-29__editor/feedback-briefs.md (its first line: "about 13:50 London, dictated in a claude.ai chat"; item 1) team/conductor/briefs/2026-10-29__editor/conductor-notes.md (line 11: the pane, with voice; 14:05: "The editor's word after the review"; "The order, as it now stands") c9ced4e (14:07, committed and routed) C104 (the feedback round: given about 13:50, recorded 14:07:04) C028 (the port at 15:07, the last fix landed 18:37)`
-Band: *My words are the brief's and the conductor's notes' own; the order is the notes'.*
+`%% band: My words are the brief's and the conductor's notes' own; the order is the notes'.`
 
 ## A change sent back, at the moment of most pressure
 
@@ -45,7 +46,8 @@ Band: *My words are the brief's and the conductor's notes' own; the order is the
 `%% for the editor: "the thing I would most want a team to do" is the writer's reading of his view; his to keep or drop.`
 
 `%% record: team/conductor/wakes/20261029T140334Z.json (pre_review: change, then go, in its history) timeline/day/14.md ("the controls holding at the moment of most pressure") C023 (pre-reviews that said change and were amended)`
-Band: *Dramatised (the conductor's line). Rests on the conductor's wake of 14:03 and its pre-review; that it was the controls holding under pressure is the historian's reading of the hour.*
+`%% band: Dramatised (the conductor's line). Rests on the conductor's wake of 14:03 and its pre-review; that it was the controls holding under pressure is the historian's reading of the hour.`
+*Dramatised.*
 
 ## The team changes shape within the hour
 
@@ -66,7 +68,8 @@ Band: *Dramatised (the conductor's line). Rests on the conductor's wake of 14:03
 `%% figure brief: For the designer, from C087 (hour 14 UTC, which is hour fifteen on the margin clock: 6 scheduled, 7 the editor's). The counts on the card only.`
 
 `%% record: 9a51c28 (14:28, in the wake I started in dev's session at 14:17) team/deck/wakes/ (14:19 to 14:48, the live review) 64735b6 fd31308 3d49daf 3a22743 (14:26 to 14:43, deck's commits "recorded as given") team/deck/wakes/20261029T144456Z.json (idle by design) c1380c5 364a53b (14:59, several runs at once) timeline/day/14.md C087`
-Band: *Dramatised (deck's line). Rests on deck's live review of 14:19 to 14:48 and its idle scheduled wake; "as given" is deck's own word for how it wrote mine down.*
+`%% band: Dramatised (deck's line). Rests on deck's live review of 14:19 to 14:48 and its idle scheduled wake; "as given" is deck's own word for how it wrote mine down.`
+*Dramatised.*
 
 ## The storyteller arrives
 
@@ -75,7 +78,8 @@ Band: *Dramatised (deck's line). Rests on deck's live review of 14:19 to 14:48 a
 **Storyteller** *(scarf, open book, a little breathless)*: I came late, so I came with a map. Here is where everything sits. Change nothing yet; look first.
 
 `%% record: 7d0244d (14:15) df37797 (14:19) team/storyteller/wakes/ (started 14:12:52) C012`
-Band: *Dramatised (the storyteller's line, kept from the 70-page edition). Rests on its join and its first pass.*
+`%% band: Dramatised (the storyteller's line, kept from the 70-page edition). Rests on its join and its first pass.`
+*Dramatised.*
 
 ## The player ported, and the loop begins
 
@@ -98,7 +102,8 @@ Band: *Dramatised (the storyteller's line, kept from the 70-page edition). Rests
 **Narrator.** That is the loop, and it is the thing I came back for. The factory had done what it could do without me. What it could not do was decide. From two o'clock, I decided, and it built, and I looked, and it built again.
 
 `%% record: 3314ffe (15:07, "the player, ported from ruv.sgit.ai") f20cfa8 (15:16, its build mode) dbd75ad (18:37, the last fix) C028 C105 lab/experiments/29-ruv-the-afternoon-loop/ index/talk-site/shots/talk__player.jpg`
-Band: *Dramatised (dev's line, kept from the 70-page edition). Rests on the port at 15:07 and my asks with my own time in their commit subjects, and when each came back (C105).*
+`%% band: Dramatised (dev's line, kept from the 70-page edition). Rests on the port at 15:07 and my asks with my own time in their commit subjects, and when each came back (C105).`
+*Dramatised.*
 
 `%% for the editor: "it is the thing I came back for" and "What it could not do was decide" are the writer's reading of his view, the second from the historian's day file for hour fifteen; his to keep or drop.`
 

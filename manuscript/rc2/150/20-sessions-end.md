@@ -17,7 +17,7 @@
 **Figure:** the nine cast cards turning into files: each card becoming a small folder with its page of rules, its debriefs and its wake records inside.
 
 `%% record: talk repository at 298be4e: team/*/ROLE.md team/*/policy.json team/*/wakes team/*/debriefs; timeline/day/18.md (no wake after 18:48 to 298be4e)`
-Band: *The talk team's folders as they stood at the end of the day.*
+`%% band: The talk team's folders as they stood at the end of the day.`
 
 ## A session is not a member
 
@@ -26,7 +26,7 @@ Band: *The talk team's folders as they stood at the end of the day.*
 **Narrator.** On 31 October, in my paper review of the first draft, I put it this way: the 95% was "just a footnote", and I could have moved to another session. That only works if the role does not live in the session. On this book's team, it does not.
 
 `%% record: 49c701e (his paper review of RC1, 31 October 2026, 01:48 UTC: "it's just a footnote") C089 (editor_31_October: "just a footnote"; he could have moved to another session) timeline/after-the-day.md`
-Band: *My account of 31 October, as the register holds it (C089), given after the day.*
+`%% band: My account of 31 October, as the register holds it (C089), given after the day.`
 
 ## One handover, read out
 
@@ -49,7 +49,8 @@ Band: *My account of 31 October, as the register holds it (C089), given after th
 `%% figure brief: For the designer. No key, fingerprint or session id printed; the register drawn as rows of blank tags.`
 
 `%% record: this book's repository: team/conductor/handovers/storyteller.md; team/conductor/WAKE.md (Handing over, H1, signed 30 October 2026); book.json H1; team/storyteller/sessions/ (two SESSION.json files, one superseded)`
-Band: *Dramatised (the conductor's and the storyteller's lines). This book's record, not the talk's: the conductor's handover for the storyteller, 30 October 2026, and the handover rule the editor signed that day.*
+`%% band: Dramatised (the conductor's and the storyteller's lines). This book's record, not the talk's: the conductor's handover for the storyteller, 30 October 2026, and the handover rule the editor signed that day.`
+*Dramatised.*
 
 ## The whole handover, walked through
 
@@ -74,7 +75,8 @@ Band: *Dramatised (the conductor's and the storyteller's lines). This book's rec
 `%% figure brief: For the designer. Headings only, as the file has them; the body lines as grey bars; the one key line shown only as its rule clause, never with the session or the key.`
 
 `%% record: this book's repository: team/conductor/handovers/storyteller.md (its headings: "Who you were", "Start here", "Where you stand", "First things to do", "Notes from this morning", "Mail addressed to you", "The companion", "Where this came from"; the key line quoted for its rule only, as security's letter 006 checked) comms/mail/storyteller/done/security__006-seventy-part-5-clear.eml`
-Band: *Dramatised (the conductor's line). This book's record: the conductor's handover for the storyteller of 30 October 2026, described section by section; no line that names a session or a key is printed.*
+`%% band: Dramatised (the conductor's line). This book's record: the conductor's handover for the storyteller of 30 October 2026, described section by section; no line that names a session or a key is printed.`
+*Dramatised.*
 
 ## What a member keeps, every wake
 
@@ -85,7 +87,8 @@ Band: *Dramatised (the conductor's line). This book's record: the conductor's ha
 **Researcher** *(unbudging)*: If it is not in my register, it is not a number. If it is not in my status, I did not do it.
 
 `%% record: team/conductor/WAKE.md (the checklist, steps 1, 2 and 7); team/*/status.json, team/*/debriefs/ (this book's)`
-Band: *Dramatised (the researcher's line). Rests on the wake rules of this book's team.*
+`%% band: Dramatised (the researcher's line). Rests on the wake rules of this book's team.`
+*Dramatised.*
 
 ## Do this now
 

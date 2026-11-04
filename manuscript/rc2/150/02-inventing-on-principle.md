@@ -23,12 +23,12 @@
 `%% figure brief: Beside it, the eight asks as a small table, each with its time asked and its time back. For the designer; the times from the register, in the card.`
 
 `%% record: the card's times: C105 (the eight asks: 17:27, 17:30, 17:35 and 17:45 routed within minutes; 18:10 back at 18:14; 18:15 within a minute; 18:25 back at 18:37) C104 (the feedback round) C088 lab/experiments/29-ruv-the-afternoon-loop/`
-Band: *My afternoon asks with my own time in their commit subjects, and when each came back, as the register holds them.*
+`%% band: My afternoon asks with my own time in their commit subjects, and when each came back, as the register holds them.`
 
 **Narrator.** That is what I mean by control of the medium, as I put it when I started this book: seeing the effect of a change while I could still do something about it.
 
 `%% record: C103`
-Band: *Bret Victor's words as published; the talk named and dated as the register holds it (CUSEC 2012).*
+`%% band: Bret Victor's words as published; the talk named and dated as the register holds it (CUSEC 2012).`
 
 ## The loop
 
@@ -45,7 +45,7 @@ Band: *Bret Victor's words as published; the talk named and dated as the registe
 `%% figure brief: The speaker stands outside the circle, looking.`
 
 `%% record: c9ced4e 3314ffe dbd75ad C088 timeline/cast-scenes.md (scene 5)`
-Band: *Rests on the player named his main priority (about 13:50), its port (15:07), and the last fixes made at my word, the last asked at 18:25 and landed at 18:37, inside a wake that was opened and never closed.*
+`%% band: Rests on the player named his main priority (about 13:50), its port (15:07), and the last fixes made at my word, the last asked at 18:25 and landed at 18:37, inside a wake that was opened and never closed.`
 
 ## One ask, followed in full
 
@@ -58,7 +58,8 @@ Band: *Rests on the player named his main priority (about 13:50), its port (15:0
 **Narrator.** At 17:52 deck placed every new piece into the talk's second and third parts, quoting me. At 18:15 the storyteller's check found one piece still in no beat. And when I saw it again, the record does not say. That is the honest end of the round trip: every hand-off is written down, and the last step, me looking, is not.
 
 `%% record: team/historian/reviews/rc2-times.md (the last section, historian__026) a618b29 (17:29:41) b1c9bab (17:52:15, in no wake record of deck's) e8c0fbb (18:15:31) team/conductor/briefs (brief 7, his words at 17:27)`
-Band: *Dramatised (the conductor's line is its own, from a618b29). Rests on the historian's trace of one ask, from my words at 17:27 to the storyteller's check at 18:15.*
+`%% band: Dramatised (the conductor's line is its own, from a618b29). Rests on the historian's trace of one ask, from my words at 17:27 to the storyteller's check at 18:15.`
+*Dramatised.*
 
 ## What a factory is
 
@@ -77,7 +78,7 @@ Band: *Dramatised (the conductor's line is its own, from a618b29). Rests on the 
 **Narrator.** This book is about the factory. The talk was what it happened to make that day. If you have an idea you keep talking over, the factory is the part you can take home.
 
 `%% record: C011 C001`
-Band: *Nine staffed agents and security proposed and never staffed; arrival times are each agent's first commit after the empty repository at 00:16.*
+`%% band: Nine staffed agents and security proposed and never staffed; arrival times are each agent's first commit after the empty repository at 00:16.`
 
 **Narrator.** Why a day? Because the factory was built fast from parts I already had, run hard on one objective, and taken apart when the objective was met. A factory that is meant to be temporary can be built without the ceremony a permanent one needs, as long as everything it does is written down.
 

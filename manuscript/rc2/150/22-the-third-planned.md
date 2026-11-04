@@ -27,7 +27,8 @@
 `%% for the editor: the three paragraphs on how the shared brief, board and hold would work day to day are the writer's reading of his plan, from his description of 1 November and the hold's rule; his to keep, change or drop.`
 
 `%% record: briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md (the Web Summit team as he described it) chapter-plan/cast/edition-10.md (the team box)`
-Band: *Dramatised (the conductor's line). The Web Summit team as I described it on 1 November: a plan, not yet run.*
+`%% band: Dramatised (the conductor's line). The Web Summit team as I described it on 1 November: a plan, not yet run.`
+*Dramatised.*
 
 ## What the first two factories say to the third
 

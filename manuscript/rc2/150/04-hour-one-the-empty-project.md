@@ -21,7 +21,7 @@
 *Words for this page:* the clock in the margin counts the talk's day in **hours**: hour one runs from midnight to a minute before one, and the talk was due as hour nineteen ended. A **repository** is the project's folder, with its whole history kept. A **commit** is one saved change to it, with a time and a short message saying what changed.
 
 `%% record: C001 2e4b1f4; C110 (clock hours of 29 October; the conductor's layout call CK1)`
-Band: *The first commit, at 00:16.*
+`%% band: The first commit, at 00:16.`
 
 ## The first page of rules, shown
 
@@ -50,7 +50,7 @@ Band: *The first commit, at 00:16.*
 **Narrator.** Four minutes later the conductor, working in parallel and without having seen dev's page, wrote a longer page of its own as it joined and proposed the team. When it merged dev's work at 00:51, dev's page is the one that stayed, with two lines of the conductor's added: the team lives in its own folder, and each session makes its own key.
 
 `%% traced (historian__020, 021, corrected in 030): dev committed the first page at 00:40; the conductor wrote its own in parallel at 00:44 (97b98d9); at the merge of 00:51 (17b287b) dev's page stayed, word for word, with two of the conductor's lines added; nothing shows the editor writing it.`
-Band: *The page of rules as it stood in dev's first commit at 00:40, quoted with one line on page layout left out.*
+`%% band: The page of rules as it stood in dev's first commit at 00:40, quoted with one line on page layout left out.`
 
 ## The brief, the reality and the corrections
 
@@ -75,7 +75,8 @@ Band: *The page of rules as it stood in dev's first commit at 00:40, quoted with
 **Dev** *(pointing at the reality file's last section)*: And a list of what does not exist yet. The team is on it. That list is the plan.
 
 `%% record: 1f7c633 (BRIEF.md, REALITY.md, BRIEF-CORRECTIONS.md as first committed)`
-Band: *Dramatised. Dev's lines rest on its first commit at 00:40 and the four files in it; the quoted lines are the files' own.*
+`%% band: Dramatised. Dev's lines rest on its first commit at 00:40 and the four files in it; the quoted lines are the files' own.`
+*Dramatised.*
 
 ## The first shared rule: reading the team
 
@@ -90,7 +91,8 @@ Band: *Dramatised. Dev's lines rest on its first commit at 00:40 and the four fi
 **Conductor** *(pacing, a little smug about the paperwork)*: If you cannot tell where a report starts, you cannot tell what it says. A box at the top, a box at the bottom.
 
 `%% record: a3a4807 7f9b9b5 41d38ba (00:53 to 00:58) timeline/day/00.md`
-Band: *Dramatised (the conductor's line). Rests on the conductor's commits of 00:53 to 00:58, which made the banners every member's rule.*
+`%% band: Dramatised (the conductor's line). Rests on the conductor's commits of 00:53 to 00:58, which made the banners every member's rule.`
+*Dramatised.*
 
 ## Three within the hour, and one just after
 
@@ -115,7 +117,8 @@ Band: *Dramatised (the conductor's line). Rests on the conductor's commits of 00
 **ruv-sgit** *(absorbed, the night owl, not looking up from the workshop bench)*: Animations and moving infographics, made in my own runs. I may change my folder and my pages. One rule I learned the hard way: the container is ephemeral. Seal what you keep, or say what you lost, before the session ends.
 
 `%% record: talk repository at 298be4e: team/dev/ROLE.md team/dev/policy.json team/conductor/ROLE.md team/conductor/policy.json team/deck/ROLE.md team/deck/policy.json team/ruv-sgit/ROLE.md team/ruv-sgit/policy.json; index/talk-site/members.md`
-Band: *Dramatised. Each line rests on that member's page of rules and policy as they stood at the end of the day; the rules quoted in the narrator's lines are their own.*
+`%% band: Dramatised. Each line rests on that member's page of rules and policy as they stood at the end of the day; the rules quoted in the narrator's lines are their own.`
+*Dramatised.*
 
 ## Do this now
 
