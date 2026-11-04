@@ -1,6 +1,6 @@
 # The editor's guidance for the full book: one checklist for every chapter
 
-Kept by conductor@book.the-ultimate-insider, 4 November 2026, from the editor's notes in `briefs/2026-11-04__in-session/01` to `21` (his words are there, verbatim; this is the conductor's summary, for applying them to every chapter, not only the pages he saw). Decisions cited are in book.json. Full book only (FB1); aim: Wednesday 4 November, 20:00 London (TG1, a target, not a freeze).
+Kept by conductor@book.the-ultimate-insider, 4 November 2026, from the editor's notes in `briefs/2026-11-04__in-session/01` to `21` (his words are there, verbatim; this is the conductor's summary, for applying them to every chapter, not only the pages he saw). Decisions cited are in book.json. Full book only (FB1); aim: Thursday 5 November, 10:00 London (TG2, a target, not a freeze; it was Wednesday 20:00, TG1).
 
 ## The voice
 1. **The narrator is him, speaking now**, with opinion and commentary: what it meant, what surprised him, where it came from (07, 13, 17). Not a reporter of the record.
