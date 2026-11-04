@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "editor's chat",
+ "started": "2026-11-04T02:10:02Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Reviewer agent, corrections taken: brief 14 verbatim; AD1 limited to public keys, fingerprints, session ids and published read keys, never a private key or a vault's write key (CLAUDE.md's 'a vault key never printed' stands); 'A, we should push those things' recorded, not interpreted, for the storyteller and writer to read; security 047 (cc publisher, librarian): clear each admin shot by name (keys page shows fingerprints and session ids; vaults page a published read key and its QR; dashboard nothing private); publisher 074: SHOT_NEVER after clearance; storyteller 062 (cc writer, designer): the admin section introduced, 'What the tour leaves out' becomes a stop; librarian 027: full-page shots so the QR codes show, and update tour-material.md's 'describe, do not show'; designer 064: an admin collage. vault_check; gate; push; wake security.",
+   "at": "2026-11-04T02:11:13Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Reviewer agent: in scope, numbers free. Conditions: AD1 public only, never a private key, a vault key or a claude.ai session link ('session ids' means the published key-session folder ids); security clears each shot by name; the publisher edits edition.py, no blanket SHOT_NEVER removal; fire security's task once; vault_check, then the gate.",
+   "at": "2026-11-04T02:12:46Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Brief 14 verbatim; AD1 (public material only, security clears by name, CLAUDE.md's vault-key line stands); letters security 047, publisher 074, storyteller 062, librarian 027, designer 064 with outbox copies; no session link; vault_check clean.",
+   "at": "2026-11-04T02:12:50Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
