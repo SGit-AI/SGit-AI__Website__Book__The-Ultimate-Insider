@@ -31,8 +31,15 @@
    "verdict": "finding",
    "comment": "Clean on secrets, keys, tokens, session ids, model lines and external URLs in drawings and letters; no em-dashes or religious words in new prose; all 32 files within designer scope; letters 146 and 147 are dated 21:04:00, before HEAD~1 at 21:06:56; the three-notes quotes match chapter 10 word for word, and LAB 58 draws times only, no id, hash or version. Finding (low, not blocking): changed SVGs still show commit hashes in visible text, all carried over from before this wake: ch6-two-commits.svg (09317d9, 36e382b, c1c6443, b6f5219, 5344486, 298be4e) and ch5-schedule.svg (09f13d5). These are public talk-repository commits, but the designer or publisher should decide whether the house rule of no hash in a drawing covers them. C071 is correctly removed from the drawn text of ch6-letter-path and ch5-schedule.",
    "at": "2026-11-04T21:07:40Z"
+  },
+  "post_check": {
+   "by": "conductor-reviewer",
+   "model": "sonnet",
+   "verdict": "partial",
+   "comment": "Work went to plan: LAB 58 (three notes), the dashboard at 70 mm, then C071 out of two drawings and ch6-two-commits saying chapter 10, with letters 146 and 147; item 3's house shorter was not reached and is first in status next and the debrief's Not done. The post-review's hash finding (ch6-two-commits, ch5-schedule) is in status next and the debrief. status as_of and both letters are 21:04:00, before the commits (21:06 to 21:07). The REALITY.md append matches the work (101 lines, 72 drawn, 21 to draw, 185 pages, 70 mm dashboard, C071 out).",
+   "at": "2026-11-04T21:08:15Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T21:08:29Z",
+ "outcome": "ok"
 }
