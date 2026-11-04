@@ -8,7 +8,7 @@
 
 ## The plan
 
-**Narrator.** The third is bigger, and for the first time it is not just me. It is for a team I am taking to Web Summit: several people, each running their own agents. The parts are the same as the first factory's. What changes is what the people share: one brief, one board where the work is written down, and one hold.
+**Narrator.** This is the plan as it stood at the start of November. The third is bigger, and for the first time it is not just me: several people, each running their own agents. A team I am taking to Web Summit is one example of where it goes, and not the only one. The parts are the same as the first factory's. What changes is what the people share: one brief, one board where the work is written down, and one hold.
 
 `%% Check (the newsroom, part five, chapter 22; his to confirm before it prints): "I find it a more interesting step than the first two, because everything so far has had one person at the top, and that person was me."`
 

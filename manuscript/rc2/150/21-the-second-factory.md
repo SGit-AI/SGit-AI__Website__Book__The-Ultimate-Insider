@@ -12,35 +12,17 @@
 
 `%% new fact, held for the researcher (the newsroom, part five, chapter 21): "a few hours after the talk" in place of "The next day", and "in an hour", resting on the making-of (the repository at 00:35 on 30 October, the machinery ported by 01:17). Registered since as C129 (5 h 36 min after the talk's planned start; 41 min 58 s to the machinery; researcher__002); both wordings are true, so "The next day" stands until he chooses.`
 
-**Narrator.** Here is the team, each introducing itself, since this is where you meet them. The drawing after them carries the one rule each inherited from the first factory.
+**Narrator.** Here is the team. Four of them introduce themselves; the drawing after them shows all twelve, each with the one rule it inherited from the first factory, and three of them came that same first afternoon, as the book needed them.
 
 **Conductor**: Hey, I'm this book's conductor. The schedule, the keys and the decisions. I carry the editor's words, and I never sign for him.
-
-**Librarian**: Hey, I'm the librarian. The index of the source. If you want to know where a line came from, I can tell you the file.
 
 **Historian**: Hey, I'm the historian. The day, minute by minute, from the record. I say what happened, and I say when the record does not.
 
 **Researcher**: Hey, I'm the researcher. Every number in this book is in my register, or it is not in this book.
 
-**Storyteller**: Hey, I'm the storyteller. The arc and the outline. A proposal, not an ask to change anything.
-
-**Publisher**: Hey, I'm the publisher. The manuscript built, laid out and checked, every time something lands.
-
-**Designer**: Hey, I'm the designer. The look of every page, and the pictures that do the explaining.
-
-**Writer**: Hey, I'm the writer. The prose, in the editor's voice, with the cast's in turn. I write what the record holds and flag what it does not.
-
 `%% for the editor: each "Inherited" line is the writer's pairing of a member with a rule from the talk team's pages; the members' own pages carry the rules, not the pairings; his to keep or drop.`
 
-**Narrator.** Three more came that same afternoon, as the book needed them, and one had been there from the first night.
-
-**Synthetic**: Hey, I'm synthetic. My readers are fictional, and they test the book the way strangers would.
-
-**ruv-sgit**: Hey, I'm this book's ruv-sgit. I draw the talk's animations on paper.
-
-**Developer**: Hey, I'm the developer. I build the pages the reviewers read the book on.
-
-**Security** *(at the table)*: Hey, I'm security, here from the first night. I read every chapter as it lands and keep the register of this team's own controls, so that this team is held to the same controls as the first. I read what the others write, and I report. I do not fix.
+**Security** *(at the table)*: Hey, I'm security, here from the first night. I read every chapter as it lands and keep the register of this team's own controls, so that this team is held to the same controls as the first.
 
 **Figure:** this book's team as cast cards, drawn in the same style as the nine, each with the one rule it inherited written under it.
 
