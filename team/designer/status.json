@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "designer",
- "as_of": "2026-11-04T07:03:00Z",
+ "as_of": "2026-11-04T08:05:00Z",
  "round": 0,
- "state": "hourly (ACC1), FB1 and RV2: the full book's figure list resynced to every chapter's Figure lines (107 lines, 59 drawn, 32 to draw); 00-start-here reviewed in the page lane (notes, all mine); letter 134",
+ "state": "hourly (ACC1), FB1: the cast bar drawn for all 24 chapters (LAB 49, cast-bars.json); the loop wordless in 2, named in 12; the list resynced (107 lines, 59 drawn); lab PDF 168 pages",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/designer/ into team/designer/ (drafts left in place)",
@@ -328,9 +328,17 @@
   {
    "what": "resync_150.py and rc2-150-figures.json in line (chapters 2 and 11 as asked); RV2 review of 00; letter 134",
    "when": "2026-11-04"
+  },
+  {
+   "what": "LAB 49 cast bars (24) and lab/tools/book/cast-bars.json; ch2-loop-wordless; resync PLACED for 02, 03, 12; letter 135",
+   "when": "2026-11-04"
   }
  ],
  "next": [
+  {
+   "what": "the figure-to-come boxes in 10 to 13; the release history as the admin page (11:57, AD1)",
+   "why": "conductor 076"
+  },
   {
    "what": "RV2: one full-book section a wake in the page lane, 00 to 09 first",
    "why": "conductor 074"

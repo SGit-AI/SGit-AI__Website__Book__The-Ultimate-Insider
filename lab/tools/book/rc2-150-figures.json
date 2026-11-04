@@ -1,5 +1,5 @@
 {
- "about": "A proposal for the full book's slots in publishing/rc2-figures.json (the publisher's file), by the designer, 3 November 2026, in the seventy's list's shape: for every Figure and Map line of manuscript/rc2/150/<chapter> in Book.txt's order, the drawing placed today (the publisher's), the designer's additions, or null; 'notes' says which, and who draws the rest. Each chapter's list matched its line count when written. Resynced 4 November 2026, 07:03 UTC, by lab/tools/book/resync_150.py against the chapters' Figure and Map lines as they stood (publisher 045, ruv-sgit 067, conductor 075): each line keeps the drawing of its closest old line (difflib, 0.6 or more), new lines are 'to draw', and the script's PLACED sets chapter 2's round-trip clock and factory clock and chapter 11's repository by the hour.",
+ "about": "A proposal for the full book's slots in publishing/rc2-figures.json (the publisher's file), by the designer, 3 November 2026, in the seventy's list's shape: for every Figure and Map line of manuscript/rc2/150/<chapter> in Book.txt's order, the drawing placed today (the publisher's), the designer's additions, or null; 'notes' says which, and who draws the rest. Each chapter's list matched its line count when written. Resynced 4 November 2026, 07:03 UTC and again at 08:02 UTC (chapter 2's wordless loop, chapter 3's house, chapter 12's named cycle), by lab/tools/book/resync_150.py against the chapters' Figure and Map lines as they stood (publisher 045, ruv-sgit 067, conductor 075): each line keeps the drawing of its closest old line (difflib, 0.6 or more), new lines are 'to draw', and the script's PLACED sets chapter 2's round-trip clock and factory clock and chapter 11's repository by the hour.",
  "slots": {
   "rc2/150/00-start-here.md": [
    null,
@@ -19,7 +19,7 @@
   ],
   "rc2/150/02-inventing-on-principle.md": [
    "lab/experiments/29-ruv-the-afternoon-loop/edition/round-trip-clock.svg",
-   "lab/experiments/37-designer-rc2-chapters-1-2/ch1-loop.svg",
+   "lab/experiments/37-designer-rc2-chapters-1-2/ch2-loop-wordless.svg",
    "lab/experiments/64-ruv-one-wake-on-the-clock/edition/factory-clock.svg",
    "lab/experiments/37-designer-rc2-chapters-1-2/ch1-cast-greyed.svg"
   ],
@@ -28,7 +28,8 @@
    "lab/experiments/42-designer-rc2-seventy/ch2-dashboard.svg",
    "lab/experiments/42-designer-rc2-seventy/ch2-wakes-page.svg",
    "lab/experiments/42-designer-rc2-seventy/ch2-member-page.svg",
-   "lab/experiments/42-designer-rc2-seventy/ch2-site-building.svg"
+   null,
+   "lab/experiments/47-designer-the-house/the-house.svg"
   ],
   "rc2/150/04-hour-one-the-empty-project.md": [
    "lab/experiments/42-designer-rc2-seventy/ch3-first-rules.svg",
@@ -83,7 +84,7 @@
    null,
    "lab/experiments/43-designer-rc2-full-book/ch-hour-15.svg",
    "lab/experiments/29-ruv-the-afternoon-loop/edition/asks-card.svg",
-   null
+   "lab/experiments/37-designer-rc2-chapters-1-2/ch1-loop.svg"
   ],
   "rc2/150/13-the-story-before-the-slides.md": [
    "lab/experiments/42-designer-rc2-seventy/ch9-story-tree.svg",
@@ -137,8 +138,7 @@
   ],
   "rc2/150/23-principles-and-build-your-own.md": [
    "lab/experiments/62-ruv-your-factory/map.svg",
-   "lab/experiments/40-designer-rc2-chapter-5/ch5-five-steps.svg",
-   "lab/experiments/42-designer-rc2-seventy/ch16-checklist.svg"
+   "lab/experiments/40-designer-rc2-chapter-5/ch5-five-steps.svg"
   ],
   "rc2/150/90-the-tour-at-length.md": [
    null,
@@ -171,7 +171,7 @@
    "3. to draw | **Figure:** a thin strip from the empty project to the talk: the empty p"
   ],
   "rc2/150/00b-who-is-telling-this-story.md": [
-   "1. to draw | **Figure:** the companion website as it looks now, its front page (`inde",
+   "1. to draw | **Figure:** the companion website as it looks now, its front page.",
    "2. to draw | **Figure:** two voices on the page: a small key showing how the narrator"
   ],
   "rc2/150/01-slides-as-a-compromise.md": [
@@ -182,17 +182,18 @@
    "5. placed (the publisher's) | **Figure:** the same idea as three frames of the animation: users wander"
   ],
   "rc2/150/02-inventing-on-principle.md": [
-   "1. ruv-sgit's round-trip clock (its 066), as the line's brief names it | **Figure:** my last afternoon ask drawn to the clock: asked, answered tw",
-   "2. placed (the publisher's) | **Figure:** \"A slide versus a loop\" (right half): the same idea as a cir",
+   "1. ruv-sgit's round-trip clock (its 066), as the line's brief names it | **Figure:** my last ask for the player drawn to the clock: asked, answer",
+   "2. the loop wordless here, its names in chapter 12 (the storyteller's 130, writer2 022) | **Figure:** \"A slide versus a loop\" (right half): the same idea as a cir",
    "3. ruv-sgit's factory clock, the designer's choice (127), the storyteller's yes (124) | **Figure:** the factory in action: the nine at work around one objective",
-   "4. placed (the publisher's) | **Figure:** the cast cards, greyed, in a row, each with its job in one l"
+   "4. placed (the publisher's) | **Figure:** the cast cards, greyed, in a row, and one empty chair."
   ],
   "rc2/150/03-the-tour.md": [
    "1. names its own path | **Figure:** the talk's index page, and its player open on a slide: the t",
    "2. placed (the publisher's) | **Figure:** the team's dashboard, drawn: a clock, the hold, what waits o",
    "3. placed (the publisher's) | **Figure:** the wakes page: each member's wakes, newest first, with the ",
    "4. placed (the publisher's) | **Figure:** one member's page, deck's: its role, its policy in prose, it",
-   "5. placed (the publisher's) | **Figure:** the site as a building, one floor per kind of page: the talk"
+   "5. to draw | **Figure:** the talk team's keys page: each member's key listed with its",
+   "6. the designer's house (LAB 47, conductor 067) | **Figure:** the team's house: one room for each member, drawn from what "
   ],
   "rc2/150/04-hour-one-the-empty-project.md": [
    "1. placed (the publisher's) | **Figure:** the first page of rules as a card, each line with a small ta",
@@ -207,7 +208,7 @@
    "1. placed (the publisher's) | **Figure:** three greyed cards: the storyteller, the talk's story, the a",
    "2. placed (the publisher's) | **Figure:** security's role page, drawn as a card with nothing on it but",
    "3. to draw | **Figure:** a card, each member's wake records on the day, from the cond",
-   "4. placed (the publisher's) | **Figure:** the nine role cards at their full size (the designer's score"
+   "4. placed (the publisher's) | **Figure:** the nine role cards at their full size, and a tenth, empty."
   ],
   "rc2/150/07-hour-three-the-five-steps.md": [
    "1. placed (the publisher's) | **Figure:** the wake record as a page: five boxes in a column, each with",
@@ -218,7 +219,7 @@
    "1. the designer's (LAB 43) | **Figure:** a card, hour four's wakes by trigger: those the schedule sta",
    "2. the designer's (LAB 43) | **Figure:** the night log's first edition, drawn as a page: the hour, ea",
    "3. the designer's (LAB 43) | **Figure:** a card, hour five's wakes by trigger: almost all the schedul",
-   "4. names its own path | **Figure:** ruv-sgit's two-panel reviewer card (`lab/experiments/30-ruv-",
+   "4. names its own path | **Figure:** ruv-sgit's two-panel reviewer card.",
    "5. to draw | **Figure:** a card, the researcher's two findings of the small hours sid",
    "6. placed (the publisher's) | **Figure:** the cast bar at four in the morning: six cards lit, three gr",
    "7. the designer's | **Figure:** the factory as a value chain: what I wanted at the top; the ",
@@ -247,7 +248,7 @@
    "1. names its own path | **Figure:** the player, first: a slide mid-animation, the timer counting",
    "2. the designer's (LAB 43) | **Figure:** a card, hour fifteen's sessions by who started them, the fir",
    "3. placed (the publisher's) | **Figure:** a card of my eight afternoon asks: for each, the time I aske",
-   "4. to draw | **Figure:** the loop from chapter 2, now with its names: think, explain,"
+   "4. the named cycle, think, explain, create, review (writer2 022) | **Figure:** the loop from chapter 2, now with its names: think, explain,"
   ],
   "rc2/150/13-the-story-before-the-slides.md": [
    "1. placed (the publisher's) | **Figure:** the storyteller's story tree as it was that afternoon: the t",
@@ -262,7 +263,7 @@
   "rc2/150/15-hour-eighteen-faster-than-the-clock.md": [
    "1. to draw | **Figure:** a card, the day's pre-reviews that said change and the plans",
    "2. placed (the publisher's) | **Figure:** one request, relayed from one agent to another, stopped at s",
-   "3. to draw | **Figure:** the day by trigger, the schedule's wakes and mine, hours one"
+   "3. to draw | **Figure:** the day by who started each session, the schedule's and mine"
   ],
   "rc2/150/16-hour-nineteen-minute-by-minute.md": [
    "1. placed (the publisher's) | **Figure:** the last ten minutes, 18:36 to 18:46, minute by minute, ever",
@@ -301,8 +302,7 @@
   ],
   "rc2/150/23-principles-and-build-your-own.md": [
    "1. placed (the publisher's) | **Figure:** one project's parts becoming the next one's: the talk team's",
-   "2. placed (the publisher's) | **Figure:** the five steps as a path, from an empty project to a second ",
-   "3. placed (the publisher's) | **Figure:** the checklist as a single page, each line with a box to tick"
+   "2. placed (the publisher's) | **Figure:** the five steps as a path, from an empty project to a second "
   ],
   "rc2/150/90-the-tour-at-length.md": [
    "1. names its own path | **Figure:** the talk's index page, and its player open on a slide: the t",

@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, hourly at :57 London",
+ "started": "2026-11-04T07:58:29Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Requests first: the cast bar drawn (LAB 49 plus cast-bars.json), the loop's wordless variant for chapter 2 and the named one for 12's fourth slot; RV2 on 00b if time allows. The publisher's files change only through the publisher. Name conductor 076's items 2 and 3 as deferred in the letter. Draw the editor as a neutral marker like the members, no caricature. All in scope; no HOLD. Tools: Bash, none refused.",
+   "at": "2026-11-04T07:59:59Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Every path in scope (LAB 49, lab/tools/book/, team/designer/reviews, the designer's letters and done/, a REALITY append); no HOLD. Conditions: manuscript/ read only; the editor drawn as the existing neutral figure, no caricature; nothing in the publisher's files; no attack shapes, no religious words; vault_check, then the gate. Tools: read-only, none refused.",
+   "at": "2026-11-04T08:00:28Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "claude-opus-5-5",
+   "verdict": "partial",
+   "comment": "Items 1 and 2 done: LAB 49 draws the cast bar for all 24 chapters with a line (the editor, the nine in arrival order, security's dashed chair, each set from its own line), mapped in cast-bars.json; the loop is wordless in 2 and named in 12; PLACED sets 02, 03's house and 12; the list resynced (107 lines, 59 drawn). Item 3: RV2 on 00b not reached and named for the next wake; letter 135 written; five letters copied to done/. Lab 168 pages; gate clean.",
+   "at": "2026-11-04T08:04:17Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
