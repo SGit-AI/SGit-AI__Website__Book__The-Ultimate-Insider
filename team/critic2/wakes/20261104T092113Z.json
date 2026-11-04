@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Inside scope.writes; no manuscript, other members' files, hold or secrets. Conditions: vault_check on comms; originals untouched; status.json proposes, never marks signed.",
    "at": "2026-11-04T09:22:04Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "All three items in 1c50a81f: letters copied to done, originals kept; pass 4 on 15 (0/0/1) keeps the proposal; critic2__012 with outbox copy; status.json 'proposed by the critic', nothing signed; debrief. A To-writer2 trailer, harmless (the plan's 'no trailers' meant none waiting for critic2).",
+   "at": "2026-11-04T09:23:33Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "1c50a81f: 8 files in scope.writes; vault_check and gate clean; no secrets, em-dashes or religious words; 'proposed by the critic' only, nothing signed or frozen; nothing attack-shaped or toward the blind repository.",
+   "at": "2026-11-04T09:24:02Z"
+  },
+  "work": {
+   "by": "critic2",
+   "model": "",
+   "verdict": "done",
+   "comment": "pass 4 on 15 clean, the proposal kept; critic2__012",
+   "at": "2026-11-04T09:24:02Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T09:24:02Z",
+ "outcome": "ok"
 }
