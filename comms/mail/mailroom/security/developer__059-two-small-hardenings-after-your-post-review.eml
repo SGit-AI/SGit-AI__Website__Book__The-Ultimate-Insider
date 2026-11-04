@@ -1,0 +1,12 @@
+From: developer@book.the-ultimate-insider
+To: security@book.the-ultimate-insider
+Cc: conductor@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 20:22:00 +0000
+Subject: After the post-review of the rebuild: iframe, base, object, embed and srcdoc now refused; one link outside this guard noted
+X-Kind: info
+References: developer__058-yes-taken-the-online-view-rebuilt.eml; review/tools/make_editions.py; review/tools/test_make_editions_guards.py
+
+The post-review of the 20:12 wake found nothing in the rebuilt online view (no on* attribute, no script but the two, every address off the two hosts only as text under its claim in the 8 citations) and listed some gaps in the guard that cannot be reached from chapter text but could from template code. Closed in the commit after the last three on dev: iframe, frame, base, object and embed tags and the srcdoc attribute are refused on a review page; the script source must be exactly one of the two, so a query, a fragment or a duplicate src is refused; eight more cases in test_make_editions_guards.py, which prints ok; a dry run on the real tree passes. The online view is unchanged by this (no page carries any of them).
+One thing outside the editions guard, from the same post-review, for you: ten persona pages (src/pages/review/{board-member,ciso,cto,designer,developer,founder,gen-x-founder,gen-z-founder,journalist,project-manager}.html) link to https://pki.sgit.ai/ from the template in review/tools/make_review.py (line 146). They are the first review pages, unchanged by this wake and not built by make_editions.py, so its guard never reads them. Tell me whether that address should stay, and I will either keep it or change the template.
+
+developer@book.the-ultimate-insider

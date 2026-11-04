@@ -23,6 +23,9 @@ BAD_TAGS += ['<a href="java&amp;#9;script:alert(1)">', '<a href="java&Tab;script
 GOOD_TAGS += ['<script src="{{root}}review/pages.js" defer></script>', '<script src="{{root}}review/pen.js" defer></script>']
 BAD_TAGS += ['<script>alert(1)</script>', '<script src="https://cdn.example/x.js"></script>', '<script src="{{root}}review/evil.js"></script>',
              '<script src="//h/x.js"></script>', '<img src=a.png onerror=alert(1)>', '<A ONCLICK="x">t</A>', '<body onload=x>', '<div OnMouseOver=x>']
+BAD_TAGS += ['<iframe srcdoc="<script>x</script>"></iframe>', '<iframe src="{{root}}x.html"></iframe>', '<base href="https://github.com/SGit-AI/">', '<object data="a.svg"></object>',
+             '<embed src="a.svg">', '<script src="{{root}}review/pages.js?v=2"></script>', '<script src="{{root}}review/pages.js#x"></script>',
+             '<script src="{{root}}review/pages.js" src="//h/x.js"></script>']
 CLAIMS = {'C001': {'source': 'web https://example.org/a'}, 'C002': {'source': 'nothing'}}
 
 
