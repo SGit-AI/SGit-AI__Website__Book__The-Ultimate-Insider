@@ -19,13 +19,11 @@
 
 ## Where the two readings agree
 
-**Narrator.** The historian compared the two timelines line by line. Every time and every change that both cite agrees, to the second, from the empty project to the record's last commit. Both read the hold the same way: part one final, not locked. Both read the conductor's tasks for others switched off before they fired, the first five-step session closing partial, my briefs of the afternoon, the longer work step, the three parts, and my run of sessions in hour eighteen.
-
-**Narrator.** Two readers who never compared notes reached the same sequence.
+**Historian**: I compared the two timelines line by line. Every time and every change that both cite agrees, to the second, from the empty project to the record's last commit. Both read the stop the same way: the first part of the talk finished but never locked. Both read the same turning points of the day, the ones this book has told: the first session with all five steps closing half done, the three parts of the talk, and the editor's run of sessions in the late afternoon.
 
 `%% for the editor: proposed, not printed until you confirm (the newsroom, chapter 19; the historian's line keeps "the strongest check"): "I find that reassuring in a way no amount of re-reading by the same team could be."`
 
-**Historian:** Two readers, no notes shared, the same day to the second. The strongest check this timeline has had.
+**Historian**: Two readers, no notes shared, the same day to the second. The strongest check this timeline has had.
 
 **Figure:** two timelines side by side, this book's and the Cold-Read team's, agreeing to the second down their whole length, with six places marked where the blind one saw more.
 
@@ -90,7 +88,7 @@
 
 **Narrator.** The other way round, the comparison lists four, each for a reason the blind team could do nothing about. It read the record with every later reference removed, so it could not see what was added after the day or what never merged.
 
-**Narrator.** It could not see my freeze in the night, which is recorded only in deck's reply file, so it read the researcher's corrections as a policy agreed. It could not see the two commits that never reached the team's branch, or my feedback round of the afternoon before the commit that carried it, or, as events, the reviews' findings about other sites' data and their changes to plans that afternoon.
+**Narrator.** It could not see my freeze in the night, which is recorded only in deck's reply file, so it read the researcher's corrections as a policy agreed. It could not see dev's two last commits, which stayed on dev's own copy and never joined the team's, or my feedback round of the afternoon before the commit that carried it, or, as events, the reviews' findings about other sites' data and their changes to plans that afternoon.
 
 **Narrator.** Beyond the comparison's list, and by the same cause, it could not see anything added after the day: the transcript of the talk, my account of why I stopped, the interviews.
 
@@ -101,7 +99,7 @@
 
 ## What it means
 
-**Narrator.** In chapter 7 the conductor said of its own reviewers that they were "a second reading, not a second identity". They shared the session's reach; they read with the same eyes in the same room.
+**Narrator.** Chapter 18 ended on the conductor's own words for its reviewers: a second reading in the same room, not a second reader.
 
 **Narrator.** The blind team is the nearest this book has to a second identity. It shared nothing with this team but the record itself and the hand-off: no session, no timeline, no member. And it saw six things this team had missed, and every time and commit both of us cite agreed to the second. That is a finding about this book and this record, not a claim about every review. But it answers the question chapter 18 left open: what stands outside the team? Here, for one reading of one day, something did.
 

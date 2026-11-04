@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T12:04:09Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "go with corrections: counts 8/17/11; critic3 007 to the designer only; record the editor's 11:52 words relayed by writer3 as brief 28, not a decision; honest for-you (8 boxes and 9 deep holes in 3-40 at v0.1.785); README names its source (live PDF, 142 pages); grid per the letters (03, 03b, 21 withdrawn; lib, res, ruv, sec, story, syn marks); answer or carry the asks in 015, 024, 035, 059, 073, 148, 010; C132 and the hold stand-in to the editor",
+   "at": "2026-11-04T12:07:25Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "go: in scope; the study under team/conductor/; brief 28 marked relayed by writer3, not heard, no decision; requests only, no member files edited; nothing to Cold-Read; vault_check comms before commit",
+   "at": "2026-11-04T12:08:13Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "18 letters filed; brief 28 (relayed by writer3, not heard); publisher 085 and designer 079: the 36 boxes by section, the critics' P36 pages, his 11:52 words, critic3 007 to the designer; writer 036 (team cards sooner); the hold is sixteen minutes (C100) to the four writers; storyteller 071 (P30 as written); study README at v0.1.785; grid per the letters (03, 03b, 21 withdrawn); status with an honest for-you",
+   "at": "2026-11-04T12:09:49Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "partial",
+   "comment": "partial, fixed before the push: ruv-sgit 073's could (chapter 9's picture reviewed three times) answered: yes, the researcher registers it, ruv-sgit draws, the writer places it; dates set to the commit's 12:09",
+   "at": "2026-11-04T12:11:11Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "clean",
+   "comment": "clean: 39 files in scope; the study under team/conductor/research/; brief 28 relayed, not heard, no decision; requests only; Cold-Read only as the book's own caption; vault_check comms clean; validate clean (1090); grid matches the 9 letters; C100 holds 16 minutes",
+   "at": "2026-11-04T12:11:21Z"
+  }
+ },
+ "closed": "2026-11-04T12:11:21Z",
+ "outcome": "ok"
+}

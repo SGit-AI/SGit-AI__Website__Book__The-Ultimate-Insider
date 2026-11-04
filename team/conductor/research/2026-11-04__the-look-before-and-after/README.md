@@ -32,3 +32,7 @@ Built the same way from `dev` at `4320725c`, after the publisher's LY1 change (t
 | Ink, share of the page | 14.5% | 10.2% | 10.8% |
 
 Better, and still worse than the version he liked: the visuals the writers are putting back in 00 to 09 are not in yet. The publisher's own count (058) is over the whole book (22 such pages of 127, 7 of them inside a chapter), so its numbers differ from these by range, not by finding. `pages-01-16-three-builds.png`: pages 1 to 16 in the three builds, top to bottom.
+
+## At v0.1.785 (12:05 UTC), the site's live full draft
+
+Measured the same way on the PDF the site serves (142 pages; the earlier columns are local builds): pages 3 to 40, 9 pages more than 35% blank at the foot (7 before, 12 at 09:55, 10 at 11:05); width 83%. The writers' visuals are in, but 36 of them still print as "Figure to come" boxes (8 in pages 3 to 40), asked of the designer and the publisher. The publisher's own count (059) is over the whole book (8 holes in 141 pages).

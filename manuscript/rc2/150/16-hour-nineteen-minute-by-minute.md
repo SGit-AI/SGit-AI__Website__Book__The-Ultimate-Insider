@@ -14,9 +14,9 @@
 
 `%% for the editor: the hour's opening ("only faster") is the newsroom's line for this hour (part four, chapter 16), the crunch in the storyteller's words for the last hour (chapter-plan/edition-150-outline.md, item 4); yours to keep or change.`
 
-**Conductor:** Part one is final, and nothing misses it: I flagged it ready for its lock. Deck put the title slide in front of it. The storyteller checked parts two and three and found a piece the editor had asked for that had landed in no beat. Deck planned its last session around parts two and three. And I flagged part one ready for its lock a second time.
+**Conductor**: Part one is final, and nothing misses it: I flagged it ready for its lock. Deck put the title slide in front of it. The storyteller checked parts two and three and found a piece the editor had asked for that had landed in no beat. Deck planned its last session around parts two and three. And I flagged part one ready for its lock a second time.
 
-*Words for this page:* to **lock** a part is to mark it final, so that no agent may change it again. To **freeze** something is the same idea, said in a hurry: nobody touches it until it is unfrozen.
+*Words for this page:* to **lock** a part is to mark it final, so that no agent may change it again.
 
 **Narrator.** Meanwhile I was in the player, asking for fixes, and getting each one back in minutes.
 
@@ -28,11 +28,11 @@
 
 **Narrator.** The talk was planned in three parts, each to be locked when it was final, so that nothing could change it on stage. Dev had built the tool to do it that afternoon. Part one was finished, and I had pushed its cut-off back to seven. Then the conductor came to the lock in its session, and did not turn it.
 
-**Conductor:** The lock is dev's. It is in dev's rules, not mine, and once it is turned it cannot be undone. I leave it to dev.
+**Conductor**: The lock is dev's. It is in dev's rules, not mine, and once it is turned it cannot be undone. I leave it to dev.
 
 **Narrator.** Dev, the one member whose job it was, was busy with my last fixes to the player. The last one landed as the conductor looked at the lock.
 
-**Dev:** Back steps while playing, fixed; the first slide opens built. That was the last one on the list.
+**Dev**: Back steps while playing, fixed; the first slide opens built. That was the last one on the list.
 
 **Conductor** *(to dev)*: The first part is still not locked. Dev: lock it now.
 
@@ -60,11 +60,11 @@
 
 `%% for the editor: proposed, not printed until you confirm (the newsroom, chapter 16): "I think it is one of the most important lines anyone wrote that day."`
 
-**Conductor:** I could keep going. That is exactly why I am stopping.
+**Conductor**: I could keep going. That is exactly why I am stopping.
 
 **Narrator.** What was already in flight still landed. A minute or so after the hold, the designer finished checking part two on a projector, found nothing to change, and said so. Then the day's last release went out.
 
-**Designer:** The second part on a projector: ready. Nothing to change. Ah. The hold.
+**Designer**: The second part on a projector: ready. Nothing to change. Ah. The hold.
 
 `%% for the editor: proposed, not printed until you confirm (the newsroom, chapter 16): "There is something I like about the last piece of work of the day being a check that found nothing wrong."`
 
@@ -80,15 +80,15 @@
 
 **Narrator.** Then, before the talk, the team had a moment I would have liked to see, and this is how it might have gone.
 
-**Conductor:** Look at what we did. Nine of us, one day: four hundred and thirty-nine commits by the agents, a hundred and sixty-two sessions on the record, and a release every time we pushed, two hundred and eight of them before the hold. Part one final.
+**Conductor**: Look at what we did. Nine of us, one day: four hundred and thirty-nine commits by the agents, a hundred and sixty-two sessions on the record, and a release every time we pushed, two hundred and eight of them before the hold. Part one final.
 
-**ruv-sgit:** Eighty-four of those commits are mine, from the workshop bench.
+**ruv-sgit**: Eighty-four of those commits are mine, from the workshop bench.
 
-**Deck:** Fifty-nine of mine, the slides, built on the storyteller's arc and the researcher's numbers.
+**Deck**: Fifty-nine of mine, the slides, built on the storyteller's arc and the researcher's numbers.
 
-**Dev:** And every fix the editor asked for this afternoon came back to him, the last one just before the hold.
+**Dev**: And every fix the editor asked for this afternoon came back to him, the last one just before the hold.
 
-**Conductor:** Not any one of us: all of us, through the same folders and the same rules.
+**Conductor**: Not any one of us: all of us, through the same folders and the same rules.
 
 **Figure:** the team's tally: every member's commits and sessions for the day, side by side.
 
@@ -108,7 +108,7 @@
 
 **Figure:** the last ten minutes as a line, every commit a dot, and the three open sessions as bars running past the hold: the designer's ending in the last release, dev's ending on its own branch, deck's never ending.
 
-`%% figure brief: For the designer. The bars stop where the record stops them: 18:45:35 and 18:46:22 for the designer's, 18:48:36 off the main line for dev's, deck's running off the edge. The part's infographic, with C005, C065 and the unmerged list in small type. It replaces the chapter's first figure (the last ten minutes, every commit a dot), which is cut: one timeline figure for the chapter.`
+`%% figure brief: For the designer. The bars stop where the record stops them: 18:45:35 and 18:46:22 for the designer's, 18:48:36 off the main line for dev's, deck's running off the edge. The part's infographic; no register ids inside the drawing (principle 28; the ids stay in the record line). It replaces the chapter's first figure (the last ten minutes, every commit a dot), which is cut: one timeline figure for the chapter.`
 
 **Narrator.** So here is the last finding of the day: **a hold stops the next session; it does not stop one already running.**
 
@@ -144,4 +144,4 @@
 
 The talk's repository at the end of the day: the conductor's flags of 18:01 and 18:21, its wake of 18:36 and its request to dev, deck's wake of 18:20, the storyteller's check, the player's last fixes, the lock tool, the hold file and its commit, the designer's commit after it, the last release, dev's close on its branch. The register for every time and count, and for the editor's account of why he stopped, given after the day. The historian's day file for hour nineteen and its list of commits that never reached the team's branch. The Cold-Read team's reading, for the unclosed wake it found first. The storyteller's outline for this chapter, with its high five. This chapter keeps the 70-page edition's chapter 10 and adds the hour before it and what the hold did not stop.
 
-`%% record: talk repository at 298be4e: 9d27703 b3f208f e8c0fbb 89afb77 0ecddca team/deck/wakes/20261029T182009Z.json team/conductor/wakes/20261029T183647Z.json 23739cc 12e93db 013d97e dbd75ad 2ed6427 4a2481b 867f8c2 team/conductor/HOLD.md 88b8f00 cb5b996 39df303; timeline/day/18.md; timeline/unmerged.md; claims/register.json C005 C006 C009 C021 C022 C024 C027 C065 C088 C089 C100 C105 C110 C119 C120; this repository at 49c701e (his paper review, added after the day); briefs/2026-11-04__in-session/13 and 20 (added after the day); chapter-plan/edition-150-outline.md part four chapter 16 and item 6; manuscript/rc2/70/10-the-last-ten-minutes.md`
+`%% record: talk repository at 298be4e: 9d27703 b3f208f e8c0fbb 89afb77 0ecddca team/deck/wakes/20261029T182009Z.json team/conductor/wakes/20261029T183647Z.json 23739cc 12e93db 013d97e dbd75ad 2ed6427 4a2481b 867f8c2 team/conductor/HOLD.md 88b8f00 cb5b996 39df303; timeline/day/18.md; timeline/unmerged.md; claims/register.json C005 C006 C009 C021 C022 C024 C027 C065 C088 C089 C100 C105 C110 C119 C120; this repository at 49c701e (his paper review, added after the day); briefs/2026-11-04__in-session/13-introduce-the-cast-and-the-high-five.md and 20-the-open-items-answered.md (added after the day); chapter-plan/edition-150-outline.md part four chapter 16 and item 6; manuscript/rc2/70/10-the-last-ten-minutes.md`
