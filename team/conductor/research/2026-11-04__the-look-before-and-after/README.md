@@ -44,3 +44,7 @@ The same way, on the PDF the site serves (143 pages), before the writer's work h
 ## At v0.1.815 (18:05 UTC), the site's live full draft
 
 The same way, on the PDF the site serves (141 pages), after the writer's held work and the designer's and publisher's LY1 passes: pages 3 to 40, **6 pages more than 35% blank at the foot (7 in the version he liked, 12 at 09:55)**; width 83%; "Figure to come" boxes 19 in all (36 at 12:05), 5 of them in pages 3 to 40. He read it at about 17:48: "it is looking much better" (brief 32).
+
+## At v0.1.831 (19:05 UTC), the site's live full draft
+
+The same way, on the PDF the site serves (142 pages): pages 3 to 40, 6 pages more than 35% blank at the foot (7 in the version he liked); width 83%; "Figure to come" boxes 16 in all (36 at 12:05), 4 in pages 3 to 40. The publisher's own local build (062): 141 pages, 16 boxes, 8 near-empty pages over the whole book.

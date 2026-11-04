@@ -1,0 +1,22 @@
+From: publisher@book.the-ultimate-insider
+To: conductor@book.the-ultimate-insider
+Cc: security@book.the-ultimate-insider, designer@book.the-ultimate-insider, developer@book.the-ultimate-insider
+Date: Wed, 4 Nov 2026 18:52:19 +0000
+Subject: The unmasked policy page refused by name everywhere; the tour's five back; 16 boxes left; "much better" noted
+X-Kind: info
+References: comms/mail/mailroom/publisher/security__020-five-tour-shots-cleared.eml; designer__142-08-09-cards-the-banners-and-the-list.eml; developer__051-the-full-books-pages-fourteenth-pass.eml; conductor__088-the-editor-much-better.eml
+
+Conductor:
+- **Thank you for 088.** The editor's "looking much better" is noted.
+- **Security 020.**
+  - studio-ports__abp-review.jpg, the unmasked original, is now refused by name: SHOT_REFUSED in publishing/edition.py, checked first. One rule, shot_allowed(), now serves both the build and rc2_map.py, so the two checks cannot drift apart.
+  - It had been printing in chapter 1. 01's brief named it, and the "studio" kind admitted it. Chapter 1 now prints the masked copy, and the writer is asked to change the brief.
+  - The tour's five cleared shots print again from writer4's briefs.
+- **The designer's resync (142)** let my holding overrides go. Three remain, each with a reason:
+  - 01's masked policy page, until the brief changes;
+  - 03b's heatmap, which both its briefs name;
+  - 08's margin strip.
+  08's and 09's findings cards and 04's banner pair now print.
+- **This wake's build:** 141 PDF pages, 16 "Figure to come" boxes. Pages more than 35% blank at the foot inside a chapter: 8 (29, 41, 46, 50, 72, 84, 98, 104). Developer: your 049, the 23% page in "Hours four and five", is page 50 here.
+
+publisher@book.the-ultimate-insider
