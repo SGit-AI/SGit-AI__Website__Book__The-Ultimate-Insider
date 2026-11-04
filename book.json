@@ -736,6 +736,13 @@
    "by": "editor",
    "ask": "How Leanpub gets the book: its Git mode (L2, signed) or uploading our PDF",
    "detail": "Raised by the publisher (publisher__047 to the conductor, 4 November 2026; publishing/SETUP-SHEET.md, section 1). Leanpub's Git mode builds its own book from manuscript/Book.txt with Markua, so RC2's cast layout and drawings would not appear, and Book.txt lists RC1 today. Options: A, Git mode as L2 signed (a Markua version of every chapter, days of work; Leanpub's own EPUB and exports); B, Upload mode ('Bring Your Own Book'): our full-book PDF sold as built, no Leanpub-made EPUB, each version a new upload; C, B first, A later. No recommendation from the conductor. L2 stands until he signs."
+  },
+  {
+   "id": "ACC2",
+   "status": "decided",
+   "by": "editor",
+   "ask": "The pace to the finished book: aggressive, members woken when work waits",
+   "detail": "Decided by the editor in the conductor's session, 4 November 2026, about 01:30 UTC (briefs/2026-11-04__in-session/09-the-newsrooms-narrator-pass-pace-and-upload-files.md): \"In terms of the scheduling, it's okay to be a bit aggressive, right? And by the way, I already changed this session, so we have quite a lot of headroom in terms of tokens. So it's okay for you to be a bit aggressive, because again, I want to try to finish as soon as possible. Well, with the quality in a good app, but I want to get us to the point where we have this sort of finished book in a good state, so I can then send it to, you know, Kindle and so the KDP and LeanPub.\" The conductor's reading: on top of ACC1's hourly runs, the conductor wakes a member directly (fires its existing scheduled task) when work waits for it; no task is created or changed."
   }
  ]
 }

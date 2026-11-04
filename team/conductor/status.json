@@ -1,10 +1,14 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "conductor",
-  "as_of": "2026-11-04T01:08:00Z",
+  "as_of": "2026-11-04T01:33:00Z",
   "round": 1,
   "state": "FB1 (4 November): the full book only, toward a printable first pass for first readers and review copies at Web Summit (from 9 November); print files submitted to KDP by Thursday 5 November at the latest. The publisher fixed a fault that shrank every RC2 page to 0.85 (the full book now 133 pages, 9.5 pt as signed, cover to the edge). Open for the editor: LP2 (Leanpub, Git or Upload). Site live at v0.1.623.",
   "done": [
+    {
+      "what": "the newsroom's narrator pass kept as material and answered (requests-out reply); routed: storyteller 057 (style sheet, the introduction), writer 018 (the rewrites, chapters 1 to 3), researcher 053 (new facts), designer 059 (the KDP and Leanpub covers now, then pictures), publisher 071 (the upload set now); ACC2 recorded",
+      "evidence": "briefs/2026-11-04__in-session/09-the-newsrooms-narrator-pass-pace-and-upload-files.md"
+    },
     {
       "what": "FB1 recorded and sent to all eleven members; LP2 opened; publisher__047 (setup sheet), 048 (the shrink fixed), security__040, ruv-sgit__063, librarian__039 filed; the review briefs ask for the tools a step can call (security__040)",
       "evidence": "briefs/2026-11-04__in-session/08-the-full-book-only-print-for-the-summit.md"
@@ -598,6 +602,10 @@
     {
       "what": "each member's answer to FB1 (what lands by Wednesday night); the editor's LP2; the print files submitted by Thursday 5 November",
       "when": "next wakes"
+    },
+    {
+      "what": "the upload set for KDP and Leanpub at today's version (publisher 071, designer 059); the journalist's next parts if the editor agrees",
+      "when": "next wakes"
     }
   ],
   "asks": [
@@ -631,6 +639,6 @@
       "C10b"
     ]
   },
-  "updated": "2026-11-04T01:08:00Z",
+  "updated": "2026-11-04T01:33:00Z",
   "cadence": "active"
 }
