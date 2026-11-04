@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Rules 2 and 7 revised and the narrator's style sheet in the cast guide; the two briefs in the full book's outline; letters 113 to 116; mail filed; status and debrief. Build and gate clean, 0 outside scope, vault_check clean.",
    "at": "2026-11-04T01:44:35Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (as the reviewer agent, steps 4 and 5 in one call, UL1)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "19 files in scope; vault_check clean; no key, token, session id, personal detail, em-dash or religious word; the dramatised mark kept (NR1); no newsroom Check item decided; the letters ask for push-back on the changed rules.",
+   "at": "2026-11-04T01:45:10Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (as the reviewer agent, steps 4 and 5 in one call, UL1)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Rules 2 and 7, the style sheet, the two briefs, letters 113 to 116, debrief and status. No tool refused.",
+   "at": "2026-11-04T01:45:10Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T01:45:10Z",
+ "outcome": "ok"
 }
