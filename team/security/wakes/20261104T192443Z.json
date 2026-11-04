@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Builder cleared to run for real, test before every build, should on scripts and on* (065); C2: the designer's slips and the developer's three self-found holes; tool case 13 (066); hour's changes and LAB 56 clear.",
    "at": "2026-11-04T19:29:09Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "Every added line read; validate, vault check and scope clean; no key, token, session link, em-dash, religious word or Cold-Read item; the hole kinds named only as the developer's own letters name them, no recipe.",
+   "at": "2026-11-04T19:29:55Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "as-planned",
+   "comment": "Every planned item on HEAD ed0b73d3: 065, 066, two C2 entries, tool case 13 and its row, board, debrief; no unplanned work.",
+   "at": "2026-11-04T19:30:18Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T19:30:18Z",
+ "outcome": "ok"
 }
