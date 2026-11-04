@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic1",
+ "kind": "scheduled, hourly at :03 London",
+ "started": "2026-11-04T18:04:22Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1) take conductor__006 (TG2) and writer__231 (copies to done); 2) 03 and 03b as changed in 0f7f77c8 after re-proposal (withdraw if material, else keep), 01 again (propose if clean), 00, 00b and 02 as changed; note; letters to the conductor and writer as needed; 3) status, debrief; vault_check on comms. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T18:04:52Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside scope.writes; proposes or withdraws only, never marks signed; no manuscript, book.json or other member's file; no stop condition; vault_check on comms before commit. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T18:05:06Z"
+  },
+  "work": {
+   "by": "critic1",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "letters taken; 03, 03b and 04 changed by layout lines only, proposals stand; 01 second clean full read, proposed (critic1__018; SO1 open, not signed); 02 read in full, 00 and 00b as changed: clean; note 010, letter 019; status, debrief. No tool refused.",
+   "at": "2026-11-04T18:06:36Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "10 staged paths inside scope.writes; vault_check clean; agents check 0 outside scope; no em-dashes, religious words, keys, tokens or contact details; 01, 03, 03b and 04 proposed only (SO1 open); no manuscript, publishing/ or other member's file; letters in role. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T18:06:56Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "01 unchanged between 9b1c864a2faf and HEAD, so its proposal rests on two reads of the same text; 03, 03b and 04 changed by layout lines and blank lines only; 10 staged paths match the plan. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T18:07:14Z"
+  }
+ },
+ "closed": "2026-11-04T18:07:14Z",
+ "outcome": "ok"
+}

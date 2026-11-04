@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (ACC1)",
+ "started": "2026-11-04T17:54:32Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go. Item 1 (wake-page title, with SHA256SUMS) matches the 07 review's should. Item 2 is supported: 09 has the three rounds and its cast bar is cut, leaving slot 2, the designer's. Cautions: keep the 06 findings to my lane, and do not soften my own portrait's record (lines 95 to 102). Copy letters to done and leave the originals. The TG2 reading is right. Read-only tools; nothing was refused.",
+   "at": "2026-11-04T17:55:20Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go: everything in scope, no Cold-Read route, nothing attack-shaped, no HOLD, no key. Conditions: originals left in the mailroom; talk clone read-only; unsafe_svg and vault_check before the commit; a green gate or HR1. Read-only tools; nothing was refused.",
+   "at": "2026-11-04T17:55:41Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "wake-page's drawn title dropped (page.py, SHIFT 6); regenerated, unsafe_svg passed, check_top clean, render looked at; SHA256SUMS refreshed. RV2 on the 150's 06: passes in my lane. Letter 075 to writer, copies to the conductor and designer. Six letters copied to done.",
+   "at": "2026-11-04T17:56:32Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Clean: everything in scope, vault_check clean, nothing attack-shaped, no em-dash or RW1 word, no date after the clock. The SVG diff is the title removal and the shift only, and the 7 SHA256SUMS lines verify. The 06 review and 075's claims match the chapters and the map; the copies are identical. Read-only tools; nothing was refused.",
+   "at": "2026-11-04T17:58:05Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "The reviewer agent's verdict, run before this entry. Both items done as planned: wake-page untitled with SHA256SUMS verifying, and the 06 review passes. 075's copies are identical, the letters are filed, and status and debrief are right. vault_check and the gate are owed before the push. Read-only tools; nothing was refused.",
+   "at": "2026-11-04T17:58:31Z"
+  }
+ },
+ "closed": "2026-11-04T17:58:31Z",
+ "outcome": "ok"
+}
