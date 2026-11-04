@@ -657,3 +657,11 @@ The script at dev's head 1dc58928 (19:34): FAILS: 1, 92 against the file. Cause:
 Landings since the 19:32 wake: writer4's a15a8b6d (19:40: 92 set from the file, 90, 91, 94) and writer3's 8e781489 (20:09: a layout line in 16). No new number or time printed: 94 lost two counts ("two pages of rules", "two chapters"), none added; 91 added two glossary entries (open wake, Wardley map) with no figure; 90's new lines are captions and a sentence about what a reader's team can take. Chapter 92: 62 entries, equal to `claims/appendix-a-150.md`.
 
 The script at dev's head a994e85d (20:35, before any edit of mine this wake): FAILS: 0. Rerun after my records, before the push: see the debrief.
+
+## RV2 pass 13 (the 21:32 wake, 4 November)
+
+Landings since the 20:32 wake: the writer's 05e814de (20:33), writer4's e04df90a (20:40: 93's two wordings as security set them, 21's cast cards under the table) and writer3's eeaae4ee (21:08: a layout line in 16). No new number or time. The changed lines: Start here's step 5 and chapter 9's hour six now say "the agent that keeps your team's time" (and "the conductor, which keeps the team's time"), no figure; 93's glossary line reads "In security's reading", no figure.
+
+One new claim, chapter 9, hour fourteen: "the first idle wake caused by an empty queue". Holds: ruv-sgit's wake of 13:32 (the schedule's minute, named in the commit subject; its record `20261029T134005Z` opened 13:40, so the book prints no time for it) found nothing in its mailroom (`41d4757` 13:41:29, closed `c6ff2e4` 13:41:51); the only earlier idle wake in the record is the designer's of 03:39 (`09c02ff`), idle because the onboarding session did the hour's work, so "caused by an empty queue" is the accurate qualifier.
+
+Chapter 92: 62 entries, equal to `claims/appendix-a-150.md` (writer4 015: since 7dc69de7). The script at dev's head c6a960c6 (21:36, before any edit of mine): FAILS: 0. Rerun after my records: see the debrief.

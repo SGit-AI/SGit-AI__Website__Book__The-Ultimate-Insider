@@ -94,3 +94,5 @@ RC2 is signed (RP1, CV2): the 30-page edition first, then the 70 and the 150, in
 4 November, 19:35: pass 11: landings traced (05, 09, 22, 23, 90 hold); script 1 fail (92 has 60 of 62 entries); writer4 asked (`researcher__011`).
 
 4 November, 20:36: pass 12: writer4 set 92 (62 entries); script FAILS 0 at a994e85d; 16, 90, 91, 94 carry no new number. Next: rerun on Thursday before 10:00.
+
+4 November, 21:34: pass 13: landings of the writer, writer4 and writer3 traced (no new number; the idle-wake line holds); script FAILS 0 at c6a960c6. Next: Thursday before 10:00.
