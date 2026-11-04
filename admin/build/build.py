@@ -1178,6 +1178,60 @@ class Site_Build:
                 f'They are studies, not the register: a number from them reaches the book only through <a href="../plan/index.html">the researcher\'s register</a>.</p>{"".join(sections)}</section>')
         self.page('research/index.html', 'Research for the editor', 'Studies the editor asked for: Leanpub, the market, and what the best books do.', body)
 
+    def build_newsroom(self):                                       # feedback to the newsroom journalist (the editor, 4 November 2026, brief 25), its table rebuilt at every release
+        root = ROOT / 'team' / 'conductor' / 'for-the-newsroom'
+        if not (root / 'README.md').exists():
+            return
+        md = Markdown()
+        parts = [('Start here, the introduction and part one and two', ('00', '01', '02', '03', '04', '05', '06', '07', '08', '09')),
+                 ('Part three', ('10', '11', '12', '13', '14', '15')), ('Part four', ('16', '17', '18', '19')),
+                 ('Part five and the back matter', ('20', '21', '22', '23', '90', '91', '92', '93', '94'))]
+        man   = ROOT / 'manuscript' / 'rc2' / '150'
+        grid  = {}
+        try:
+            for line in (ROOT / 'team' / 'conductor' / 'guides' / 'the-section-review-matrix.md').read_text().split('\n'):
+                if line.startswith('| `'):
+                    c = [x.strip() for x in line.split('|')]
+                    grid[c[1].strip('`')] = c[4:14]
+        except OSError:
+            pass
+        notes = []
+        for d in sorted((ROOT / 'team').glob('critic*/notes')):
+            notes += [n.name for n in d.glob('*.md')]
+        rows = []
+        for name, prefixes in parts:
+            files  = sorted(f for f in man.glob('*.md') if f.name[:2] in prefixes) if man.is_dir() else []
+            words  = sum(len(f.read_text().split()) for f in files)
+            held   = sum(f.read_text().lower().count('held out of print') for f in files)
+            log = self.git('log', '--since=2026-11-04T02:30:00Z', '--format=%h %s', '--', *(str(f.relative_to(ROOT)) for f in files)) if files else ''
+            commits = len({l.split(' ', 1)[0] for l in log.split('\n') if ' @writer' in l})      # distinct commits, each counted once per part
+            cnotes = sum(1 for n in notes if any(re.search(rf'(?<![0-9]){p}(?![0-9])', n.split('__', 1)[-1]) for p in prefixes))
+            ok = sum(v.count('ok') for k, v in grid.items() if k[:2] in prefixes)
+            nt = sum(v.count('notes') for k, v in grid.items() if k[:2] in prefixes)
+            cells = sum(len(v) for k, v in grid.items() if k[:2] in prefixes)
+            rows.append(f'<tr><td>{html.escape(name)}</td><td>{len(files)}</td><td>{words:,}</td><td>{commits}</td><td>{cnotes}</td>'
+                        f'<td>{ok} of {cells}</td><td>{nt}</td><td>{held}</td></tr>')
+        built = 'pending' if self.version == PENDING else self.version
+        live = ('<h2>Where the book stands, rebuilt at every release</h2>'
+                f'<p class="note">Built with the site, version {html.escape(built)}. These counts measure activity, not how much of the book is finished.</p>'
+                '<div class="tbl"><table><thead><tr><th>Part</th><th>Chapters</th><th>Words</th><th>Writer commits since 4 Nov, 02:30 UTC</th>'
+                '<th>Critic notes</th><th>Review lanes passed</th><th>Lanes with notes open</th><th>Lines held out of print</th></tr></thead>'
+                f'<tbody>{"".join(rows)}</tbody></table></div>'
+                '<p class="note">How each number is counted: chapters and words from <code>manuscript/rc2/150/</code>; writer commits from git log (distinct commits whose subject starts with a writer\'s name, each counted once per part); '
+                'critic notes are the files in <code>team/critic*/notes/</code> naming one of the part\'s chapters; review lanes from the grid in '
+                '<code>team/conductor/guides/the-section-review-matrix.md</code> (ten lanes per section, "ok" where its owner has passed it); '
+                'lines held out of print are the "held out of print" markers: views waiting for the editor\'s word, or facts waiting for the register.</p>')
+        for p in sorted(root.glob('*.md')):
+            text  = p.read_text()
+            title = text.split('\n', 1)[0].lstrip('# ').strip()
+            body  = text.split('\n', 1)[1] if '\n' in text else ''
+            index = p.name == 'README.md'
+            rel   = f'newsroom/{"index" if index else p.stem}.html'
+            nav   = '<nav class="crumbs" aria-label="Breadcrumb"><a href="../index.html">Home</a>' + ('' if index else ' / <a href="index.html">Feedback to the newsroom</a>') + '</nav>'
+            self.page(rel, title, 'Feedback to the newsroom journalist: what the book does with the newsroom\'s pass, kept current.' if index else f'{title}: for the newsroom journalist.',
+                      f'<article class="prose wrap narrow">{nav}<p class="kicker">For the newsroom · <code>team/conductor/for-the-newsroom/{p.name}</code></p>'
+                      f'<h1>{html.escape(title)}</h1>{md.to_html(body)}{live if index else ""}</article>', kind='article', body_md=body)
+
     def build_lab(self):                                            # the PDF lab and the talk-site debrief (designer@'s lab/pdf/), on /lab/
         src = ROOT / 'lab' / 'pdf'
         if src.is_dir():
@@ -1276,6 +1330,7 @@ class Site_Build:
         self.build_decisions()
         self.build_briefs()
         self.build_research()
+        self.build_newsroom()
         self.build_updates()
         self.build_lab()
         self.build_book()

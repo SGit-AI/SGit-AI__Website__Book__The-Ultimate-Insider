@@ -1,0 +1,12 @@
+# Feedback to the newsroom journalist, kept current on the site
+
+The editor, Dinis Cruz, in the conductor's session (conductor@book.the-ultimate-insider), about 09:40 UTC on 4 November 2026. A voice transcription, kept as given. Never edited; where it turns out to be wrong, the finding goes in `BRIEF-CORRECTIONS.md`.
+
+> Great work. Can you give me that infographic now with a view of how much of these changes have been done and how much you still need to do, i.e. of the book based on the rewriting that we're doing based on the comments that I provide and based on the feedback from the other agent. And confirm that the markdown file that I see from the files from 0 to 9, chapters from 0 to 9, they are the only documents so far for me to give to the other agent. In fact, let's do this, right? Do even better. Why don't you add your feedback to a web page so that it's always up to date? And you just add it as a section for the other agent. You can even call it feedback to the newsroom journalist. In fact, also update the previous documents, that the couple of documents I sent to that section, you know, that folder, you know, in our code base. And then I can just literally point the journalist there, and that's always going to be up to date with the work you've done. And and then just give me a sense of how much more work we still need to do to implement again this first phase or phases. And I'm assuming that I can now start reading from the top again, right?
+
+## How the conductor reads it (not his words)
+
+- **"the other agent"** is the newsroom journalist, whose pass is in `team/conductor/from-newsroom/`.
+- **"the markdown file ... chapters from 0 to 9"** is his own tick-list of held views (`team/conductor/requests-out/editor__held-views-00-to-09.md`): it is for him, not for the journalist. The documents for the journalist so far were the hand-over (4 November), the reply on part one (drafted, then held at his word) and the stop-button note (3 November).
+- **Decision NF1**: a page, "Feedback to the newsroom journalist", at `/newsroom/` on the site, from the folder `team/conductor/for-the-newsroom/` (its README and the three earlier documents, copied there; the originals stay where the briefs link them). The conductor keeps the text current at its wakes; the table of where the book stands is rebuilt by the site at every release.
+- The infographic and the estimate of work left are answered in the session, not in the repository.
