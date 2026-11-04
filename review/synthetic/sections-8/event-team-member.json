@@ -1,0 +1,33 @@
+{
+ "schema": "the-ultimate-insider/synthetic-section-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "event-team-member",
+ "read_at": "c23c60e4",
+ "would_read_on": {"11-the-plumbing": "yes", "12-the-creator-comes-back": "maybe", "13-the-story-before-the-slides": "maybe"},
+ "findings": [
+  {"file": "11-the-plumbing.md", "line": 7, "quote": "a register for every number, a check every change passes, a site to work on", "principle": "reader", "severity": "should", "why": "The four pipes are a strong takeaway for a busy reader, but the brief and its file are only named here and never say what to start with on Monday until the very end."},
+  {"file": "11-the-plumbing.md", "line": 42, "quote": "Put the two side by side and half of the page is the check said in words.", "principle": "6", "severity": "could", "why": "It instructs the reader to do an exercise with a chapter 4 card they may not have in front of them on a phone."},
+  {"file": "11-the-plumbing.md", "line": 40, "quote": "every link resolves; every page has its plain-text twin; no code loaded from elsewhere", "principle": "reader", "severity": "should", "why": "A conference team reads a list of site-specific checks and cannot tell which ones apply to a stand and talks, and 'plain-text twin' is unexplained."},
+  {"file": "11-the-plumbing.md", "line": 19, "quote": "None of the three made it into the talk. It was not luck, it was the register doing its job", "principle": "7", "severity": "could", "why": "Short declaratives stacked before the lesson; the thought could run in one sentence."},
+  {"file": "11-the-plumbing.md", "line": 50, "quote": "Chapter 5 has the example I like best: on the first night, the check stopped the release", "principle": "21", "severity": "should", "why": "It points to an example told elsewhere and gives only the punchline here, so the reader gets neither the story nor a reason to turn back."},
+  {"file": "11-the-plumbing.md", "line": 77, "quote": "53 files at the end of the first hour, 1,313 at the day's last release", "principle": "21", "severity": "should", "why": "The text reads out the figure the growth chart then draws, and the numbers do little for a team deciding whether to copy this."},
+  {"file": "11-the-plumbing.md", "line": 97, "quote": "The last pipe is the simplest, and on the day it was the one that did not quite work.", "principle": "1", "severity": "could", "why": "Good, but the following lines return to reporting the files with no I and no hindsight about what he would do now."},
+  {"file": "11-the-plumbing.md", "line": 111, "quote": "The rule was right, and nobody used it, me included.", "principle": "7", "severity": "could", "why": "A neat triad of short beats; it lands, but the chapter ends on failure with the fix held back in a team note."},
+  {"file": "12-the-creator-comes-back.md", "line": 9, "quote": "For nine hours the team had worked on its own; now the day starts to accelerate.", "principle": "reader", "severity": "must", "why": "For a reader worried about needing one central person, the chapter title and this opening make the editor the hero, and the method looks like it depends on him coming back."},
+  {"file": "12-the-creator-comes-back.md", "line": 14, "quote": "Everything in this chapter is on the way to it.", "principle": "6", "severity": "could", "why": "It tells the reader how to read the chapter before the reader has any reason to care about the player."},
+  {"file": "12-the-creator-comes-back.md", "line": 30, "quote": "That failure stays in the book.", "principle": "7", "severity": "could", "why": "A short declarative closing a run of short sentences; the admission is stronger if folded into the thought before it."},
+  {"file": "12-the-creator-comes-back.md", "line": 51, "quote": "The checks did not soften because I was in the room. That is what they are for.", "principle": "7", "severity": "should", "why": "A 'that is the point' style closer that explains the moral the scene had already shown."},
+  {"file": "12-the-creator-comes-back.md", "line": 69, "quote": "That was the moment the team stopped waiting for me and started keeping up with me.", "principle": "reader", "severity": "should", "why": "It again centres one person as the bottleneck, which is the deal-breaker for a team with an agent each."},
+  {"file": "12-the-creator-comes-back.md", "line": 112, "quote": "That is the whole idea of this book in one commit", "principle": "reader", "severity": "should", "why": "A large claim the reader cannot yet weigh, since the ruv.sgit.ai experiment was never explained."},
+  {"file": "12-the-creator-comes-back.md", "line": 124, "quote": "It looks a lot like an OODA loop, and maybe it is a variation on it", "principle": "reader", "severity": "should", "why": "OODA is used without a gloss, and a busy practical reader will stall or skip."},
+  {"file": "13-the-story-before-the-slides.md", "line": 29, "quote": "The line is the honest heart of a map like that: it shows you where things are", "principle": "6", "severity": "could", "why": "It ranks the line as honest and tells the reader what to take from it, where the maps themselves are never shown in words."},
+  {"file": "13-the-story-before-the-slides.md", "line": 53, "quote": "It \"does not hold. The data says the opposite\"", "principle": "21", "severity": "should", "why": "The finding is quoted, then restated two paragraphs later as the researcher saying the line did not hold."},
+  {"file": "13-the-story-before-the-slides.md", "line": 75, "quote": "If you think I was wrong, the researcher's sources are in the register, and you can check.", "principle": "reader", "severity": "could", "why": "A useful invitation, but this reader has no access to the register on a phone and the actual claim is never stated plainly enough to judge."}
+ ],
+ "what_holds": [
+  "11-the-plumbing.md: four pipes as a copyable starting kit (register, check, site, brief) and the admission that the corrections file stayed at 'None yet'.",
+  "12-the-creator-comes-back.md: the conductor refusing to write into other members' folders while the editor stood there, which is the part a team could copy.",
+  "13-the-story-before-the-slides.md: asking an agent to argue against the plan in writing while the person still decides, a one-line takeaway I would try tomorrow."
+ ],
+ "notes": "Overall practical and usable. Main worry for this persona is that chapters 12 and 13 lean on the editor as the one decision point; the Something to try cards are the best part and could come earlier."
+}
