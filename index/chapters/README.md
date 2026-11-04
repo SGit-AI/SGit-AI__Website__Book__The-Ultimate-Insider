@@ -26,12 +26,12 @@ One file per chapter of the manuscript, built by `index/tools/chapter_entries.py
 | [`150__00b-who-is-telling-this-story.md`](150__00b-who-is-telling-this-story.md) | 0 | 0 | 4 | 0 | 0 | 0 |
 | [`150__01-slides-as-a-compromise.md`](150__01-slides-as-a-compromise.md) | 1 | 0 | 12 | 1 | 2 | 0 |
 | [`150__02-inventing-on-principle.md`](150__02-inventing-on-principle.md) | 0 | 0 | 13 | 0 | 3 | 0 |
-| [`150__03-the-tour.md`](150__03-the-tour.md) | 3 | 0 | 12 | 0 | 4 | 0 |
+| [`150__03-the-tour.md`](150__03-the-tour.md) | 3 | 0 | 14 | 0 | 4 | 0 |
 | [`150__04-hour-one-the-empty-project.md`](150__04-hour-one-the-empty-project.md) | 10 | 0 | 15 | 0 | 10 | 0 |
 | [`150__05-hour-two-the-rules-written.md`](150__05-hour-two-the-rules-written.md) | 4 | 0 | 6 | 0 | 11 | 0 |
-| [`150__06-roles-as-a-cast-you-can-read.md`](150__06-roles-as-a-cast-you-can-read.md) | 30 | 0 | 18 | 0 | 45 | 0 |
-| [`150__07-hour-three-the-five-steps.md`](150__07-hour-three-the-five-steps.md) | 5 | 0 | 4 | 0 | 13 | 0 |
-| [`150__08-hours-four-and-five-before-dawn.md`](150__08-hours-four-and-five-before-dawn.md) | 9 | 0 | 11 | 0 | 13 | 0 |
+| [`150__06-roles-as-a-cast-you-can-read.md`](150__06-roles-as-a-cast-you-can-read.md) | 30 | 0 | 20 | 0 | 45 | 0 |
+| [`150__07-hour-three-the-five-steps.md`](150__07-hour-three-the-five-steps.md) | 5 | 0 | 6 | 0 | 13 | 0 |
+| [`150__08-hours-four-and-five-before-dawn.md`](150__08-hours-four-and-five-before-dawn.md) | 11 | 0 | 12 | 0 | 13 | 0 |
 | [`150__09-nine-hours-with-nobody-starting-work.md`](150__09-nine-hours-with-nobody-starting-work.md) | 10 | 0 | 15 | 0 | 38 | 0 |
 | [`150__10-talking-through-git.md`](150__10-talking-through-git.md) | 2 | 1 | 11 | 0 | 9 | 1 |
 | [`150__11-the-plumbing.md`](150__11-the-plumbing.md) | 9 | 0 | 13 | 0 | 4 | 0 |
@@ -45,8 +45,8 @@ One file per chapter of the manuscript, built by `index/tools/chapter_entries.py
 | [`150__19-a-second-team-reading-cold.md`](150__19-a-second-team-reading-cold.md) | 7 | 0 | 14 | 0 | 17 | 0 |
 | [`150__20-sessions-end.md`](150__20-sessions-end.md) | 2 | 0 | 10 | 0 | 3 | 0 |
 | [`150__21-the-second-factory.md`](150__21-the-second-factory.md) | 7 | 1 | 17 | 0 | 10 | 0 |
-| [`150__22-the-third-planned.md`](150__22-the-third-planned.md) | 1 | 0 | 11 | 0 | 0 | 0 |
-| [`150__23-principles-and-build-your-own.md`](150__23-principles-and-build-your-own.md) | 0 | 0 | 8 | 0 | 0 | 0 |
+| [`150__22-the-third-planned.md`](150__22-the-third-planned.md) | 2 | 0 | 10 | 0 | 1 | 0 |
+| [`150__23-principles-and-build-your-own.md`](150__23-principles-and-build-your-own.md) | 0 | 0 | 10 | 0 | 0 | 1 |
 | [`150__90-the-tour-at-length.md`](150__90-the-tour-at-length.md) | 14 | 0 | 9 | 1 | 5 | 0 |
 | [`150__91-the-words-used.md`](150__91-the-words-used.md) | 0 | 0 | 5 | 0 | 0 | 0 |
 | [`150__92-appendix-a-every-number.md`](150__92-appendix-a-every-number.md) | 0 | 0 | 2 | 0 | 0 | 0 |
