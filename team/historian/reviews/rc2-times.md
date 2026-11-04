@@ -270,3 +270,7 @@ The writer's section "A third, chosen by the historian" in `manuscript/rc2/150/2
 ## The full book (150), back matter: the making of this book and the words used, 3 November 23:19 UTC
 
 `manuscript/rc2/150/94-the-making-of-this-book.md` (`97052b8a`) against `timeline/this-book.md`: the body is my file word for word (a diff shows only the writer's header, its note to the researcher, and its "Where this came from"). 150/21 now quotes letters 019 and 020 in their own words, "rewrote it at 00:44". `manuscript/rc2/150/91-the-words-used.md`: no finding. Each of its 25 words is dated by the chapter of its word box where it has one (commit 4, conductor 3, gate 7, wake and wake record 7, freeze and lock 16, mailroom 10, reviewer 7, session 20, Wardley map 8, and the rest), as its own first line says; "open wake", with no box, first appears in the prose of chapter 16, as listed.
+
+## The full book (150), Start here, the third planned, and the appendices, 4 November 00:18 UTC
+
+`manuscript/rc2/150/00-start-here.md` and the changes to `22-the-third-planned.md` (`0389432b`, `e9561caa`): no time, date or commit in either, so nothing in the historian's lane to check. Start here is the five steps of the 10-page edition, shortened, with its source named; 22's edits move headings and say once that the third factory has not run. Appendix A (`92`) and Appendix B (`93`) are the researcher's and security's, held by the writer for their reads: not read here.

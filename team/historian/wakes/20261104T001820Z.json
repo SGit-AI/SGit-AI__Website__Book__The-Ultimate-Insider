@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T00:18:20Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Short wake: file 155; check 150/00 and 22's changes for the historian's lane; leave appendices A and B to their owners; no new letter unless a finding needs one. Writes in scope; no HOLD. Note: the step did not read WAKE.md, ROLE.md, status or the debrief in full, so the plan is not checked against them. Tools: reading list only.",
+   "at": "2026-11-04T00:18:55Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Writes in scope; appendices left to their owners; 155 filed by copy. Note: the step did not read its brief or CLAUDE.md in full. Tools: reading list only.",
+   "at": "2026-11-04T00:19:11Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "",
+   "verdict": "done",
+   "comment": "155 filed; 150/00 and 22's edits hold no time, date or commit (nothing in my lane); appendices A and B left to their owners; debrief; status.",
+   "at": "2026-11-04T00:19:12Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "5 paths in scope; no keys, ids, model names, em-dashes, religious words; nothing to Cold-Read; mailroom untouched; dates before the clock. The step did not diff the copy; the historian did (identical). Tools: reading list only.",
+   "at": "2026-11-04T00:21:04Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "155 filed (identical copy, diffed by the historian); 150/00 and 22's edits hold no time, date or commit; section, debrief and status staged. Gap fixed before commit: the debrief now names all three review steps' caveats. Tools: reading list only.",
+   "at": "2026-11-04T00:21:27Z"
+  }
+ },
+ "closed": "2026-11-04T00:21:27Z",
+ "outcome": "ok"
+}
