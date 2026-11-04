@@ -36,3 +36,4 @@ The full book: every scene, the appendices, the record markers live online. Writ
 - 4 November 2026, 10:33 UTC: 07 retitled; plain words in 01 and 04; critic1 003 done.
 - 4 November 2026, 11:34 UTC: LY1 in 00 to 09; 06's interviews with faces; the wake's five stages.
 - 4 November 2026, 17:35 UTC: after the hold, the held work released; 00b's nine role cards.
+- 4 November 2026, 18:33 UTC: 05, 06 and 09 small fixes; last landing to the researcher.

@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T18:30:15Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Go with conditions: the HL1 reply names 00:13 and 03:9 and why each stays; writer4 copied for 23's step 5; the conductor told 01 has no hold box; 06 ends on its question after the pointer moves; synthetic 013's untaken shoulds carried by name.",
+   "at": "2026-11-04T18:31:36Z"
+  },
+  "pre_review": {
+   "by": "security (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Go: thirteen minutes traces to claims/rc2-150-trace.md:37 (R31), cited on 05's record line; the vault key gloss says only what it is; no secrets, images or valve issue; em-dash and RW1 grep over 05, 06, 09 and letters; push on green after the post-review.",
+   "at": "2026-11-04T18:31:36Z"
+  },
+  "work": {
+   "by": "writer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "05 thirteen minutes (R31); 06 pointer moved; 09 vault key glossed and close shortened; HL1 checked (00:13 waits on 23, 03:9 stays); last landing to the researcher; letters 236 to 241.",
+   "at": "2026-11-04T18:33:11Z"
+  },
+  "post_review": {
+   "by": "security (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "clean",
+   "comment": "Diff b37897c..c358e0ee clean: scope 0, no secret, dash or RW1 word; the vault key gloss says what it is; thirteen minutes traced (R31, trace line 37); no held sentence prints.",
+   "at": "2026-11-04T18:35:13Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "as-planned",
+   "comment": "Every condition met; nothing dated after the commit. Optional fix taken: 05's record line cites the trace's line 37 for 'thirteen' and R31 for 13 min 32 s.",
+   "at": "2026-11-04T18:35:13Z"
+  }
+ },
+ "closed": "2026-11-04T18:35:13Z",
+ "outcome": "ok"
+}

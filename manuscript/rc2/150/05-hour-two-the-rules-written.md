@@ -8,13 +8,13 @@
 
 ## The hour the rules were written
 
-**Narrator.** The second hour was the rules, and I was in the sessions for it, asking for some of them as they were written. Almost all of them were written by one member, in about a quarter of an hour: how every session starts (fetch the team's latest work first, then print a banner saying who is working and on what), the checklist every turn of work follows, the form of the short message saved with every change, the schedule that wakes each agent at its own minute, and the hold, one file that stops them all.
+**Narrator.** The second hour was the rules, and I was in the sessions for it, asking for some of them as they were written. Almost all of them were written by one member, in about thirteen minutes: how every session starts (fetch the team's latest work first, then print a banner saying who is working and on what), the checklist every turn of work follows, the form of the short message saved with every change, the schedule that wakes each agent at its own minute, and the hold, one file that stops them all.
 
 **Narrator.** The hold existed before the first scheduled session did. Nothing ran on the clock until there was a way to stop it.
 
 `%% for the editor (his view, held out of print until he confirms it, P30): the newsroom's "The order of that list is the part I would point at." to open the paragraph, and "I have since written about who should own that stop, because it turned out to matter more than anything else on the list, but on the night it was simply there first, and I am glad it was." to close it (also a Check item: it rests on the newsroom's "Who owns the stop button", C123).`
 
-`%% record: in the sessions: 24da366 (the banner rule I had just asked for) b620234 (the prompts I pasted into each member's session); storyteller__138 S7; 02cbd86 (01:27) to 09f13d5 (01:39) and d8f3300 (01:40): thirteen minutes; timeline/day/01.md`
+`%% record: in the sessions: 24da366 (the banner rule I had just asked for) b620234 (the prompts I pasted into each member's session); storyteller__138 S7; 02cbd86 (01:27:10) to 09f13d5 (01:39) and d8f3300 (01:40:42): 13 min 32 s to d8f3300 by R31 and historian__077; claims/rc2-150-trace.md line 37 for "thirteen" (12 min 37 s to the hold): thirteen minutes; timeline/day/01.md`
 
 **Conductor** *(on the minute)*: A clock: each member wakes at its own minute. A hold anyone can pull. And every piece of work goes the same way.
 
