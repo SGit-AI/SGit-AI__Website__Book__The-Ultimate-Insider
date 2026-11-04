@@ -17,8 +17,30 @@
    "verdict": "go",
    "comment": "Idle; only team/synthetic/**; no hold, no secret, no stop condition. Tools: Read, Grep, Glob, Bash; nothing refused.",
    "at": "2026-11-04T02:43:20Z"
+  },
+  "work": {
+   "by": "synthetic",
+   "model": "claude-sonnet-5-5",
+   "verdict": "done",
+   "comment": "Idle: status.json (as_of, state); gate and scope clean.",
+   "at": "2026-11-04T02:43:55Z"
+  },
+  "post_review": {
+   "by": "security sub-agent, as the reviewer type (post_review.md)",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "status.json and the wake record only, in scope; no key or personal detail; validate clean (903); 0 outside scope; comms unchanged; ran no build. Tools: Read, Grep, Glob, Bash; nothing refused; wrote no file.",
+   "at": "2026-11-04T02:44:36Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent, as the reviewer type (post_check.md)",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Idle plan done in 928c6724; conditions kept; nothing unplanned. Its report said it also saw 'some MCP tools in the context' that it did not use (see tools_note). Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T02:44:36Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T02:44:36Z",
+ "outcome": "ok",
+ "tools_note": "TA1: the post-check step (reviewer type) reported that 'some MCP tools' were 'in the context' besides Read, Grep, Glob and Bash, and that it used none. No call attempted, none refused. Not clear whether tool definitions or only the MCP server instructions (seen at the 11:42 wake on 3 November) were visible; I did not ask it. a) n/a, no attempt. b) n/a. c) none. Kept here for security's register; no letter, since nothing was attempted."
 }
