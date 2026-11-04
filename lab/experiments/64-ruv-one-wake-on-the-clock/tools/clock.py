@@ -74,7 +74,7 @@ def main():
     am = 2 * math.pi * slots['conductor'] / 60 - math.pi / 2       # from the conductor's own dot, over the top, to the first step
     dx, dy = cx + (R - 3.2) * math.cos(am), cy + (R - 3.2) * math.sin(am)
     s.append(f'<path d="M{dx + 1.6:.2f} {dy - .6:.2f} C{dx + 14:.2f} {dy - 16:.2f} {x0 - 14:.2f} {y0 + 3:.2f} {x0 - .4:.2f} {y0 + 3:.2f}" fill="none" stroke="{ACCENT}" stroke-width=".4"/>')
-    s.append(t(x0, H - 2.4, 'the clock face: the day\'s schedule (C071)', 400, MUTED))
+    s.append(t(x0, H - 2.4, 'the clock face: the day\'s schedule', 400, MUTED))
     s.append('</svg>')
     svg = '\n'.join(s) + '\n'
     if UNSAFE.search(svg):

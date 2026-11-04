@@ -88,7 +88,7 @@ def main():
          'the finding in step four highlighted.">',
          t(1, 6.5, f'The conductor\'s first wake record, started {started}', 700, INK)]
     s += body
-    s.append(t(1, H - 5.2, '"by" as the record names it. Security was never staffed (C072): its two steps were reviews', 400, MUTED, 'start', SMALL))
+    s.append(t(1, H - 5.2, '"by" as the record names it. Security was never staffed: its two steps were reviews', 400, MUTED, 'start', SMALL))
     s.append(t(1, H - 1.8, f'the conductor\'s own wake ran. The record: {RECORD}, at the talk\'s 298be4e.', 400, MUTED, 'start', SMALL))
     s.append('</svg>')
     svg = '\n'.join(s) + '\n'

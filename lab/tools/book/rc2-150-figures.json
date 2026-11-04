@@ -2,9 +2,9 @@
  "about": "A proposal for the full book's slots in publishing/rc2-figures.json (the publisher's file), by the designer, 3 November 2026, in the seventy's list's shape: for every Figure and Map line of manuscript/rc2/150/<chapter> in Book.txt's order, the drawing placed today (the publisher's), the designer's additions, or null; 'notes' says which, and who draws the rest. Each chapter's list matched its line count when written. Resynced 4 November 2026, 07:03 UTC and again at 08:02 UTC (chapter 2's wordless loop, chapter 3's house, chapter 12's named cycle), by lab/tools/book/resync_150.py against the chapters' Figure and Map lines as they stood (publisher 045, ruv-sgit 067, conductor 075): each line keeps the drawing of its closest old line (difflib, 0.6 or more), new lines are 'to draw', and the script's PLACED sets chapter 2's round-trip clock and factory clock and chapter 11's repository by the hour.",
  "slots": {
   "rc2/150/00-start-here.md": [
-   null,
-   null,
-   null
+   "lab/experiments/52-designer-start-here/start-stones.svg",
+   "lab/experiments/52-designer-start-here/start-route.svg",
+   "lab/experiments/52-designer-start-here/start-strip.svg"
   ],
   "rc2/150/00b-who-is-telling-this-story.md": [
    null,
@@ -108,14 +108,12 @@
    null
   ],
   "rc2/150/16-hour-nineteen-minute-by-minute.md": [
-   "lab/experiments/39-designer-rc2-chapter-4/ch4-last-ten-minutes.svg",
    "lab/experiments/42-designer-rc2-seventy/ch10-hold-file.svg",
-   "lab/experiments/39-designer-rc2-chapter-4/ch4-clock-stopped.svg",
+   null,
    null,
    "lab/experiments/42-designer-rc2-seventy/ch2-dashboard.svg"
   ],
   "rc2/150/17-what-did-not-work.md": [
-   "lab/experiments/39-designer-rc2-chapter-4/ch4-speech-cards.svg",
    null,
    "lab/experiments/42-designer-rc2-seventy/ch11-five-misses.svg"
   ],
@@ -170,9 +168,9 @@
  },
  "notes": {
   "rc2/150/00-start-here.md": [
-   "1. to draw | **Figure:** the five steps as a path, from an empty project to a second ",
-   "2. to draw | **Figure:** the five parts as stops on one route, the chapters beneath e",
-   "3. to draw | **Figure:** a thin strip from the empty project to the talk: the empty p"
+   "1. the designer's stones, numbers only (LAB 52) | **Figure:** the five steps as a path, from an empty project to a second ",
+   "2. the designer's route (LAB 52) | **Figure:** the five parts as stops on one route, the chapters beneath e",
+   "3. the designer's strip (LAB 52) | **Figure:** a thin strip from the empty project to the talk: the empty p"
   ],
   "rc2/150/00b-who-is-telling-this-story.md": [
    "1. to draw | **Figure:** the companion website as it looks now, its front page.",
@@ -276,16 +274,14 @@
    "3. to draw | **Figure:** the day by who started each session, the schedule's and mine"
   ],
   "rc2/150/16-hour-nineteen-minute-by-minute.md": [
-   "1. placed (the publisher's) | **Figure:** the last ten minutes, 18:36 to 18:46, minute by minute, ever",
-   "2. placed (the publisher's) | **Figure:** the hold file as a page, its title and its last line large: ",
-   "3. placed (the publisher's) | **Figure:** the wake clock from part 2, every member's minute greyed, an",
-   "4. to draw | **Figure:** the last ten minutes as a line, every commit a dot, and the ",
-   "5. the designer's | **Figure:** the dashboard, drawn, still showing the hold with my usage a"
+   "1. placed (the publisher's) | **Figure:** the hold file as a page, its title and its last line large: ",
+   "2. to draw | **Figure:** the team's tally, drawn as a card each: every member's commi",
+   "3. to draw | **Figure:** the last ten minutes as a line, every commit a dot, and the ",
+   "4. the designer's | **Figure:** the dashboard, drawn, as it was last built after the stop: t"
   ],
   "rc2/150/17-what-did-not-work.md": [
-   "1. placed (the publisher's) | **Figure:** three speech cards from the same figure, the editor, each wi",
-   "2. names its own path | **Figure:** ruv-sgit's strip, the researcher interviewing deck about the",
-   "3. the designer's | **Figure:** the misses as cards on one page, each with its cost in a lin"
+   "1. names its own path | **Figure:** ruv-sgit's strip, the researcher interviewing deck about the",
+   "2. the designer's | **Figure:** the misses as cards on one page, each with its cost in a lin"
   ],
   "rc2/150/18-how-do-we-contain-this.md": [
    "1. placed (the publisher's) | **Figure:** the day as a small state machine: running, held, released. O",
