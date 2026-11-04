@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T17:18:45Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Plan fits HR1 and the letters; name the rc2/150 commits since 12:18 (ef8c0060, 07f9e19f, 95c77281); letter 076 cites file and line at both commits; any red dev reported once. Tools: Read, Grep, Glob, Bash.",
+   "at": "2026-11-04T17:19:28Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Fits historian writes; vault_check before commit; HR1 for a red dev. Tools: Read, Grep, Glob, Bash.",
+   "at": "2026-11-04T17:19:39Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "No secrets, keys, model names, em-dashes or religious words; nothing toward Cold-Read; writes in scope; the three copies of letter 076 match. Tool: Bash.",
+   "at": "2026-11-04T17:21:12Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "Slide, hold figure, HR1, three letters, debrief and status present. It noted 95c77281 named by the plan step is not in the rc2/150 log since 12:18 (my log shows 07f9e19f, 51bcf90e, ef8c0060); the letter cites those three.",
+   "at": "2026-11-04T17:21:12Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "claude-sonnet-5-5",
+   "verdict": "done",
+   "comment": "Slide words settled (letter 076), changes since 12:18 read, HR1 noted, three letters filed",
+   "at": "2026-11-04T17:21:12Z"
+  }
+ },
+ "closed": "2026-11-04T17:21:12Z",
+ "outcome": "ok"
+}
