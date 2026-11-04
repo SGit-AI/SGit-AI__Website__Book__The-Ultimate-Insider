@@ -14103,11 +14103,11 @@
          "text": "Narrator. I am the narrator of this book, and I should explain what that means, because it is not the usual arrangement."
         },
         {
-         "id": "r02-7c2917",
-         "text": "Narrator. On 29 October 2026 I gave a talk in London called The Ultimate Insider. Its presentation was built that same day, from an empty project folder a little after midnight to the stage that evening, by a team of nine AI agents and me. Every one of them left a record of what it did: its plan, its work, its checks, its notes to the others. This book is built on that record."
+         "id": "r02-86f117",
+         "text": "Narrator. On 29 October 2026 I gave a talk called The Ultimate Insider, at hack::soho, in IOActive's London office. Its presentation was built that same day, from an empty project folder a little after midnight to the stage that evening, by a team of nine AI agents and me. Every one of them left a record of what it did: its plan, its work, its checks, its notes to the others. This book is built on that record."
         }
        ],
-       "record": "C001 (the first commit, 00:16:23) C011 (nine staffed) C100 (the talk in London)",
+       "record": "C001 (the first commit, 00:16:23) C011 (nine staffed) C100 (the talk in London); BRIEF.md at 298be4e (the event text: hack::soho, IOActive's London office; researcher__012); C100's note sources the venue to a9c0b49 (the talk as given, added after the day), the event named once (conductor__044)",
        "tokens": [
         {
          "token": "C001",
@@ -14167,11 +14167,63 @@
           "hold_to_scheduled_start_minutes": 16
          },
          "state": "checked"
+        },
+        {
+         "token": "BRIEF.md",
+         "kind": "path",
+         "verified": true,
+         "repository": "talk",
+         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/blob/298be4e/BRIEF.md"
+        },
+        {
+         "token": "298be4e",
+         "kind": "commit",
+         "verified": true,
+         "repository": "talk",
+         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/298be4e"
+        },
+        {
+         "token": "C100",
+         "kind": "claim",
+         "verified": true,
+         "claim": "When and where the talk was to be given",
+         "value": {
+          "scheduled": "19:00 London, 29 October 2026, as the day's record has it (planned, not a measured start)",
+          "venue": "hack::soho, hosted by IOActive, London (from a9c0b49, added after the day)",
+          "hold_to_scheduled_start_minutes": 16
+         },
+         "state": "checked"
+        },
+        {
+         "token": "a9c0b49",
+         "kind": "commit",
+         "verified": true,
+         "repository": "talk",
+         "url": "https://github.com/SGit-AI/SGit-AI__Website__Presentation__The-Ultimate-Insider/commit/a9c0b49"
         }
        ]
       },
       {
        "record_id": "rec-r02-2",
+       "paragraphs": [
+        {
+         "id": "r02-a7d4c3",
+         "text": "Narrator. The talk was about the insider: the person inside an organisation who already has the access, and what happens when the insider is not a person at all. That question runs under the whole book, and chapter 18 turns it on the team that built the talk."
+        }
+       ],
+       "record": "TH1 (signed, brief 33: the thesis up front); manuscript/rc2/150/18-how-do-we-contain-this.md line 5 (the thesis in the book's own words)",
+       "tokens": [
+        {
+         "token": "manuscript/rc2/150/18-how-do-we-contain-this.md",
+         "kind": "path",
+         "verified": true,
+         "repository": "book",
+         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/manuscript/rc2/150/18-how-do-we-contain-this.md"
+        }
+       ]
+      },
+      {
+       "record_id": "rec-r02-3",
        "paragraphs": [
         {
          "id": "r02-06b531",
@@ -14229,7 +14281,7 @@
        ]
       },
       {
-       "record_id": "rec-r02-3",
+       "record_id": "rec-r02-4",
        "paragraphs": [
         {
          "id": "r02-04f352",
@@ -14269,7 +14321,7 @@
        ]
       },
       {
-       "record_id": "rec-r02-4",
+       "record_id": "rec-r02-5",
        "paragraphs": [
         {
          "id": "r02-f8f1c5",
@@ -14284,9 +14336,16 @@
          "text": "Figure: the companion website as it looks now, its front page."
         },
         {
-         "id": "r02-9ee397",
-         "text": "Narrator. So let us go through it together. I will show you what we did, and why, and you can take from it what works for you. Then tell me what you think."
-        },
+         "id": "r02-f25fef",
+         "text": "Narrator. So let us go through it together. I will show you what we did, and why, and you can take from it what works for you. This is a release candidate, and I would like it to get better with your help: tell me what is unclear, what is wrong, and what you would like more of, on the book's GitHub, on LinkedIn, or at agent@diniscruz.ai. The companion site, with every page and record this book draws on, is at the-ultimate-insider.book.sgit.ai."
+        }
+       ],
+       "record": "FB2 (signed, brief 33: the book's GitHub issues, LinkedIn and the feedback address, printed here and in the last word, never in the team's mail); the newsroom's pass 1 (\"Who is telling this story\"), close to its words",
+       "tokens": []
+      },
+      {
+       "record_id": "rec-r02-6",
+       "paragraphs": [
         {
          "id": "r02-cb3f91",
          "text": "---"
@@ -14448,16 +14507,31 @@
          "text": "Narrator. That is the building, an animation the team made for the talk. Ordinary users come in, go where they are supposed to go, and now and then one finds the gold that is not supposed to be there. But they tend to stop. Agents come in far greater numbers, and they keep going until they find it. As I said in the talk, that is the big difference: the agent does not stop. I did not have to explain the movement. I let it run, and talked about what it meant."
         },
         {
-         "id": "r03-e01e92",
-         "text": "Narrator. And later in the talk, not an animation at all: a page I had used for real, the one where I reviewed each agent's policy before it could work. When I onboarded the team that built the talk, each agent asked for what it wanted, and I approved it, changed it or questioned it, and what I agreed became its mandate. I put that page on the screen and said what it was. The room saw a real policy page, not my description of one."
+         "id": "r03-972fce",
+         "text": "Narrator. And later in the talk, not an animation at all: a page I had used for real, the one where I reviewed each agent's policy before it could work. When I onboarded the team that built the talk, each agent asked for what it wanted, and I approved it, changed it or questioned it, and what I agreed became its mandate. I put that page on the screen and said what it was. The room saw a real policy page, not my description of one. Those were the team's Agent Behaviour Policies, the format RiskMandate uses to write down what an agent is for and what it can reach; with SHarness, they are a lot of what I do."
         },
         {
          "id": "r03-17b760",
          "text": "Figure: the policy review page as it was on the screen: one agent's policy, item by item, with a verdict beside each. One line on the page says I had agreed all ten policies; the files say eight of ten by the end of the day."
         }
        ],
-       "record": "C072 (eight of ten agreed) C081 (the page's \"all ten\" contradicted by the files); security__006 (the QR opens a public page of the talk's site)",
+       "record": "PN1 (signed, brief 33: name Agent Behaviour Policies, RiskMandate and SHarness); C061 (SHarness, from 24 October 2026); manuscript/11b (RiskMandate's Agent Behaviour Policy); C072 (eight of ten agreed) C081 (the page's \"all ten\" contradicted by the files); security__006 (the QR opens a public page of the talk's site)",
        "tokens": [
+        {
+         "token": "C061",
+         "kind": "claim",
+         "verified": true,
+         "claim": "SHarness: began 24 October 2026, sharness-ai on PyPI",
+         "value": {
+          "sharness-ai_on_PyPI": "2 releases, 2026-10-24 and 2026-10-29"
+         },
+         "state": "checked"
+        },
+        {
+         "token": "manuscript/11b",
+         "kind": "path",
+         "verified": false
+        },
         {
          "token": "C072",
          "kind": "claim",
@@ -21104,12 +21178,8 @@
          "heading": "Nine exit interviews, and one that could not be held"
         },
         {
-         "id": "r09-03e065",
-         "text": "Narrator. After the talk I wanted the lessons in the voices of the agents that learned them, like an exit interview: what went well, what did not, what worked, what we could do better, what is left. Nobody asked the agents. This book's historian read each member's own files, its debriefs, its wake records and its commits, and wrote the answers its record gives, in the first person, because that is how the agents' debriefs already write."
-        },
-        {
-         "id": "r09-54e366",
-         "text": "Narrator. Every passage marked \"shortened from the historian's reconstruction\" is the historian's reading of that agent's record, shortened by this book's writer in its own words: not the agent's words, and not the historian's sentences. The claims are the historian's and the record's, and each one can be traced. The passages keep two of the five questions: what went well, and what did not."
+         "id": "r09-7115ff",
+         "text": "Narrator. The agents' sessions had ended, so nobody could ask them; instead this book's historian read each member's files, debriefs, wake records and commits, and wrote the answers its record gives, in the first person, the way the agents' own debriefs write. Each answer below is that reading, shortened by this book's writer to two short answers, what went well and what did not: not the agent's words, and every claim can be traced."
         },
         {
          "id": "r09-2b8f69",
@@ -21176,8 +21246,16 @@
          "heading": "Dev"
         },
         {
-         "id": "r09-e59370",
-         "text": "Shortened from the historian's reconstruction: I kept the site shippable all day while the team grew around it. In my first scheduled wake I made the gate, the check every change must pass, read each session's record too, so a session that skipped a stage stopped the release for every member. In the afternoon I ported the player and kept it working on an iPad. What did not happen was the thing that mattered last: part one was never locked. I shipped the tool to lock it, and then I let the fixes asked for in the room crowd out the step I had promised. My last wake never closed on the team's branch. Earlier, my release loop counted a refused push as pushed. And once, to get the gate to pass, I wrote lines into other members' files."
+         "id": "r09-2d46ec",
+         "text": "Shortened from the historian's reconstruction. What went well: I kept the site shippable all day, made the gate read every session's record, and ported the player in the afternoon."
+        },
+        {
+         "id": "r09-62b67e",
+         "text": ">"
+        },
+        {
+         "id": "r09-a4addb",
+         "text": "What did not: part one was never locked. I shipped the tool to lock it, then let the room's fixes crowd out the step I had promised, and my last wake never closed on the team's branch."
         }
        ],
        "record": "timeline/interviews/dev.md; 1f7c633 (00:40) 99aaf05 (02:51) 3314ffe (15:07) 4a2481b (17:54) 2ed6427 (18:39) 867f8c2 (18:44) 6a6be6d (03:34) team/dev/wakes/20261029T174850Z.json team/dev/debriefs/2026-10-29__the-board.md C027",
@@ -21281,11 +21359,19 @@
          "heading": "The conductor"
         },
         {
-         "id": "r09-7f5d9e",
-         "text": "Shortened from the historian's reconstruction: I turned separate sessions into something that ran on a clock: a schedule, a hold any member could pull, a wake in five stages that left a record. I carried the editor's briefs to the members within minutes. What did not go well: I once printed a vault key into my own session log while checking a format, and rotated it at once. My first wake in five stages was partial, and my own post-review caught me. And my five stages were a second reading, not a second identity: my reviewers shared my session's reach. At the end I flagged twice that part one was ready to lock, and left the lock to dev. An earlier, louder word would have mattered more than another refresh of the numbers."
+         "id": "r09-c482c4",
+         "text": "Shortened from the historian's reconstruction. What went well: I turned separate sessions into something that ran on a clock, with a schedule, a hold any member could pull and a wake in five stages, and I carried the editor's briefs to the members within a quarter of an hour."
+        },
+        {
+         "id": "r09-62b67e-2",
+         "text": ">"
+        },
+        {
+         "id": "r09-c3ebfd",
+         "text": "What did not: my reviewers shared my session's reach, a second reading, not a second identity; and at the end I flagged that part one was ready to lock and left the lock to dev, where an earlier, louder word would have mattered more."
         }
        ],
-       "record": "timeline/interviews/conductor.md; 09f13d5 (01:39) 8c66751 5700bab (02:16 to 02:19) team/conductor/debriefs/2026-10-29__hourly-and-handover.md __the-five-step-wake.md 9d27703 (18:01) 0ecddca (18:21) 2ed6427 867f8c2",
+       "record": "timeline/interviews/conductor.md; historian__082 (R35: the briefs reached the members 16, 4 and 3 minutes after his words, so \"within a quarter of an hour\"); 09f13d5 (01:39) 8c66751 5700bab (02:16 to 02:19) team/conductor/debriefs/2026-10-29__hourly-and-handover.md __the-five-step-wake.md 9d27703 (18:01) 0ecddca (18:21) 2ed6427 867f8c2",
        "tokens": [
         {
          "token": "timeline/interviews/conductor.md",
@@ -21367,8 +21453,16 @@
          "heading": "Deck"
         },
         {
-         "id": "r09-eacdb8",
-         "text": "Shortened from the historian's reconstruction: When the editor froze the talk in the small hours, I turned the freeze into a programme of experiments, written as data, with a page built from that data so the two could not drift. Through the night I reviewed every piece ruv-sgit sent back, keep or again, with notes for the next version. In the afternoon the talk took the editor's order, and part one was complete and timed before its lock. What did not: on the clock, I did not finish the talk. My last wake opened, planned the later parts, and never closed. Once, with the editor waiting, I built first and wrote the plan afterwards, and the check said partial. And one release reached the team's branch with a finding still in it, because I read the gate's output and not its exit code."
+         "id": "r09-4e6fc7",
+         "text": "Shortened from the historian's reconstruction. What went well: when the editor froze the talk, I turned the freeze into a programme of experiments, and reviewed every piece ruv-sgit sent back, keep or again, through the night."
+        },
+        {
+         "id": "r09-62b67e-3",
+         "text": ">"
+        },
+        {
+         "id": "r09-45cfcd",
+         "text": "What did not: on the clock, I did not finish the talk; my last wake planned the later parts and never closed."
         }
        ],
        "record": "timeline/interviews/deck.md; 60af587 team/deck/wakes/20261029T024758Z.json (02:47) 84d6ba4 (03:21) 19e7f2d (13:48) ca59986 (16:36) 3260997 89afb77 (18:21) team/deck/wakes/20261029T141943Z.json da9b681",
@@ -21455,8 +21549,16 @@
          "heading": "ruv-sgit"
         },
         {
-         "id": "r09-13672e",
-         "text": "Shortened from the historian's reconstruction: I turned a borrowed method into a working studio within the night: one vault per run, each run measured into a ledger, and from the small hours every wake closed with all five stages recorded. In the afternoon, builder sub-agents let me finish the programme pieces deck asked for. What did not: my first run went wrong, and the session's own check stopped it. My editor workers kept finding claims on my slides that went further than their sources. And I let the \"@\" slip from my commit subjects, twice, so the team's count of work by name could not see mine."
+         "id": "r09-38fe79",
+         "text": "Shortened from the historian's reconstruction. What went well: I turned a borrowed method into a working studio within the night, one vault per run, and from the small hours every wake closed with all five stages recorded."
+        },
+        {
+         "id": "r09-62b67e-4",
+         "text": ">"
+        },
+        {
+         "id": "r09-3b0a8e",
+         "text": "What did not: my first run went wrong and the session's own check stopped it, and I let the \"@\" slip from my commit subjects, so the team's count by name could not see my work."
         }
        ],
        "record": "timeline/interviews/ruv-sgit.md; c3e8fe4 (01:14) adb3e2e 01e2753 (02:17) ecdcdf9 (02:59) 8012b00 (12:53) 4ec4201 b831821 15707dc (08:43) f9eeac2 (16:42) team/ruv-sgit/debriefs/2026-10-29__joining.md",
@@ -21550,8 +21652,16 @@
          "heading": "The researcher"
         },
         {
-         "id": "r09-1d2dd4",
-         "text": "Shortened from the historian's reconstruction: I had a register out within my first round, graded on a scale borrowed from the newsroom's fact-check desk rather than invented. Corrections ran the right way, from primary sources. In my last hour I checked the team's own claims about its safety against its own record, and found some to correct before the deadline. What did not: captured pages carried other sites' data into a public place, and the checks that found it, mine and security's review, found it after the push the first time. Each was fixed going forward, and the history keeps what was pushed. Twice my research passes stopped before writing their catalogue. And in my last wake a sync script deleted hand-written files; I restored them before the commit."
+         "id": "r09-468aa8",
+         "text": "Shortened from the historian's reconstruction. What went well: I had a register out within my first round, with corrections running the right way, from primary sources, and in my last hour I checked the team's own claims about its safety against its own record."
+        },
+        {
+         "id": "r09-62b67e-5",
+         "text": ">"
+        },
+        {
+         "id": "r09-69c58d",
+         "text": "What did not: captured pages carried other sites' data into a public place, and the checks found it after the push the first time; each was fixed going forward, and the history keeps what was pushed."
         }
        ],
        "record": "timeline/interviews/researcher.md; 01e9ed3 (01:52) 75ddb3e (02:10) 7323986 (18:14) C025 team/researcher/wakes/20261029T041003Z.json team/researcher/debriefs/2026-10-29__the-first-evidence-round.md",
@@ -21639,8 +21749,16 @@
          "heading": "The designer"
         },
         {
-         "id": "r09-278a1f",
-         "text": "Shortened from the historian's reconstruction: I did the whole first design pass in my first session: the site measured at a desk, a laptop and a phone, with one decision behind it, wide where the reader scans and a measure where the reader reads. The loop with dev held all day: I wrote a note, dev built it, I checked it at my next wake. What did not: my last status says part one was locked after its check. It never was. I wrote what was planned, not what had happened, and a status file the next session trusts is the wrong place for a guess. Earlier, my own table broke my own rule on small text, and dev built the mistake in exactly as I had specified it."
+         "id": "r09-9ed0ed",
+         "text": "Shortened from the historian's reconstruction. What went well: I did the whole first design pass in my first session, and the loop with dev held all day: a note, a build, a check at my next wake."
+        },
+        {
+         "id": "r09-62b67e-6",
+         "text": ">"
+        },
+        {
+         "id": "r09-f9372d",
+         "text": "What did not: my last status says part one was locked after its check, and it never was; I wrote what was planned, not what had happened."
         }
        ],
        "record": "timeline/interviews/designer.md; c6dcf89 (03:41) 0a2d2cc (12:52) 88b8f00 (18:45) 2ed6427 team/designer/status.json team/designer/debriefs/2026-10-29__note-3-checked.md",
@@ -21706,8 +21824,16 @@
          "heading": "The storyteller"
         },
         {
-         "id": "r09-fcaccc",
-         "text": "Shortened from the historian's reconstruction: I joined late and still gave the editor a whole arc in one sitting, with nothing in the talk changed. The proposals travelled: deck wrote my sequence almost exactly. The part I am proudest of is the challenge: I used the team's own register against the editor's memo, and when the researcher's finding came back I called it the strongest objection in the talk. What did not: I missed the deadline that mattered most. The split into three parts landed between my wakes, and part one was set without it. And in my last follow-up I wrote the closing verdicts myself before the review and check sub-agents had run. The record carries the correction."
+         "id": "r09-809f68",
+         "text": "Shortened from the historian's reconstruction. What went well: I joined late and still gave the editor a whole arc in one sitting, and used the team's own register to challenge the editor's memo."
+        },
+        {
+         "id": "r09-62b67e-7",
+         "text": ">"
+        },
+        {
+         "id": "r09-609ed5",
+         "text": "What did not: I missed the deadline that mattered most: the split into three parts landed between my wakes, and part one was set without it."
         }
        ],
        "record": "timeline/interviews/storyteller.md; df37797 (14:19) ca59986 b208a16 (15:02) team/storyteller/debriefs/2026-10-29__three-parts.md 3260997 team/storyteller/wakes/20261029T183817Z.json",
@@ -21773,8 +21899,16 @@
          "heading": "Motion"
         },
         {
-         "id": "r09-028d08",
-         "text": "Shortened from the historian's reconstruction: I arrived late and did not wait to be told: I sent deck a proposed picture with its stages, so its answer could be \"go\" and not a fresh brief. Every piece I built can be sought and paused in the player, and I checked that directly. When the editor said the building's gap between people and agents was too exaggerated, I changed it in place a minute before the time part one was due to lock. What did not: I built nothing for parts two and three. One piece mailed to me appears in none of my files. And one piece kept the conductor's counts from an hour that had already passed."
+         "id": "r09-75af01",
+         "text": "Shortened from the historian's reconstruction. What went well: I arrived late and did not wait to be told, and when the editor said the building's gap was too exaggerated, I changed it in place a minute before the time part one was due to lock."
+        },
+        {
+         "id": "r09-62b67e-8",
+         "text": ">"
+        },
+        {
+         "id": "r09-e5a924",
+         "text": "What did not: I built nothing for parts two and three."
         }
        ],
        "record": "timeline/interviews/motion.md; f1cbca0 (15:31) 7639664 (16:34) f45028c (17:31) 5d13d72 (18:29) 93f4191 (17:48) 0f6e28f team/motion/wakes/20261029T182543Z.json",
@@ -21847,8 +21981,16 @@
          "heading": "Studio"
         },
         {
-         "id": "r09-9857f1",
-         "text": "Shortened from the historian's reconstruction: I joined late and still shipped on the hour: the pieces the editor named, rebuilt on this site's engine, with the source and the data pinned unchanged. Looking before shipping worked: checking each piece on an iPad in both orientations is how I found the engine did not scale a piece opened on its own. What did not: I did not finish my list, and one question to deck was still open at the end. My first count on the policy review slide was wrong twice before it was right. And my own policy is still a draft, never agreed in my own session."
+         "id": "r09-9556f1",
+         "text": "Shortened from the historian's reconstruction. What went well: I joined late and still shipped on the hour, with each piece rebuilt on this site's engine and its source and data pinned unchanged, and checked on an iPad before it went out."
+        },
+        {
+         "id": "r09-62b67e-9",
+         "text": ">"
+        },
+        {
+         "id": "r09-246c51",
+         "text": "What did not: I did not finish my list, and my own policy is still a draft, never agreed in my own session."
         },
         {
          "id": "r09-da93fd",
@@ -22031,8 +22173,8 @@
          "heading": "What a scope is, and what it is not"
         },
         {
-         "id": "r09-daa75e",
-         "text": "\"A scope is a setting, not a boundary: it catches mistakes, not a steered agent.\" (record)"
+         "id": "r09-0ae5d3",
+         "text": "\"A scope is a setting, not a boundary: it catches mistakes, not a steered agent.\""
         },
         {
          "id": "r09-6efade",
@@ -22434,12 +22576,12 @@
          "text": "Narrator. Stage four, the post-review. The reviewer read what had changed. It found the build clean, the checks clean, no secret anywhere. And one thing wrong: the conductor had changed the page of rules, a file every member follows and one outside the conductor's own scope. I had allowed it, but the commit did not say so, and the plan had made saying so a condition."
         },
         {
-         "id": "r10-1b14a2",
-         "text": "Reviewer (a second agent with a checker's brief, drawn as a clipboard): \"Name it in the debrief or record.\" (record)"
+         "id": "r10-cc7582",
+         "text": "Reviewer (a second agent with a checker's brief, drawn as a clipboard): \"Name it in the debrief or record.\""
         },
         {
-         "id": "r10-6f0613",
-         "text": "Conductor : Stage five, my own check against my own plan, item by item: the finding answered in the debrief and the closing commit, every condition kept. Verdict: partial, not \"as planned\". The wake closed partial, and the next commit named the edit. Caught by the reviewer I invented. Good. But know what it is: \"a second reading, not a second identity.\" (record)"
+         "id": "r10-9e4d06",
+         "text": "Conductor : Stage five, my own check against my own plan, item by item: the finding answered in the debrief and the closing commit, every condition kept. Verdict: partial, not \"as planned\". The wake closed partial, and the next commit named the edit. Caught by the reviewer I invented. Good. But know what it is: \"a second reading, not a second identity.\""
         },
         {
          "id": "r10-2dd00d",
@@ -22953,13 +23095,16 @@
          "heading": "The freeze"
         },
         {
-         "id": "r10-f6bcac",
-         "text": "Narrator. The researcher had delivered its first round of evidence earlier in the hour: the talk's claims graded, the incidents gathered, and a list of changes to make to the talk before I gave it. Deck took the first items on it. Then, in deck's session, I froze the talk. My words, as deck wrote them down:"
-        },
-        {
-         "id": "r10-90cec5",
-         "text": "\"do not touch the deck. talk.json and the slides are frozen from now on\" (record)"
-        },
+         "id": "r10-eb5265",
+         "text": "Narrator. The researcher had delivered its first round of evidence earlier in the hour: the talk's claims graded, the incidents gathered, and a list of changes to make to the talk before I gave it. Deck took the first items on it. Then, in deck's session, I froze the talk: I told deck that the slides were not to be touched from then on."
+        }
+       ],
+       "record": "his words as deck wrote them down: \"do not touch the deck. talk.json and the slides are frozen from now on\" (the newsroom's pass 1: told without quoting him)",
+       "tokens": []
+      },
+      {
+       "record_id": "rec-r10-8",
+       "paragraphs": [
         {
          "id": "r10-946759",
          "text": "Narrator. Five minutes later, the researcher proposed the rest of its list to deck, as exact replacement text. One of the items was a number on the talk's definition slide, which the researcher now had a newer source for. It arrived just after a freeze I had set. Deck recorded the rest of the list as not acted on, because of the freeze."
@@ -23052,7 +23197,7 @@
        ]
       },
       {
-       "record_id": "rec-r10-8",
+       "record_id": "rec-r10-9",
        "paragraphs": [
         {
          "id": "r10-91af00-5",
@@ -23098,7 +23243,7 @@
        ]
       },
       {
-       "record_id": "rec-r10-9",
+       "record_id": "rec-r10-10",
        "paragraphs": [
         {
          "id": "r10-cb3f91",
@@ -23583,8 +23728,8 @@
        "record_id": "rec-r11-1",
        "paragraphs": [
         {
-         "id": "r11-69cf4b",
-         "text": "Cast bar: six agents: the conductor, dev, deck, ruv-sgit, the researcher, and the designer from twenty to four; the editor in the sessions until just after four, then his chair empty."
+         "id": "r11-7eb65d",
+         "text": "Cast bar: six agents: the conductor, dev, deck, ruv-sgit, the researcher, and the designer late in hour four; the editor in the sessions until just after four, then his chair empty."
         },
         {
          "id": "r11-8f1844",
@@ -24126,8 +24271,8 @@
          "text": "Dramatised."
         },
         {
-         "id": "r11-fd16e2",
-         "text": "Narrator. At twenty to four the sixth member joined: the designer, with its role, its policy, its key, its own task, and a first design note, all in its first session. Its first scheduled wake had nothing to do: the session that made it had already done the hour's work. It said so, and closed idle.",
+         "id": "r11-8aa356",
+         "text": "Narrator. Late in hour four the sixth member joined: the designer, with its role, its policy, its key, its own task, and a first design note, all in its first session. Its first scheduled wake had nothing to do: the session that made it had already done the hour's work. It said so, and closed idle.",
          "after_heading": true,
          "heading": "The designer arrives, and my last word of the night"
         },
@@ -24772,8 +24917,8 @@
        "record_id": "rec-r11-9",
        "paragraphs": [
         {
-         "id": "r11-f2297c",
-         "text": "Narrator. At a quarter past four, deck had a second request ready for ruv-sgit and planned to send it. Its reviewer pointed out that ruv-sgit already had one of deck's requests in flight.",
+         "id": "r11-073e33",
+         "text": "Narrator. Early in hour five, deck had a second request ready for ruv-sgit and planned to send it. Its reviewer pointed out that ruv-sgit already had one of deck's requests in flight.",
          "after_heading": true,
          "heading": "Deck holds itself back"
         },
@@ -24833,8 +24978,8 @@
          "text": "Researcher (pointing at its own page of rules) : It sits in my evidence folder. My rules let me write there. I am not asking for an exception; I am asking you to read the line again."
         },
         {
-         "id": "r11-7a021a",
-         "text": "Reviewer (the clipboard): \"objection withdrawn.\" (record)"
+         "id": "r11-86bfe7",
+         "text": "Reviewer (the clipboard): \"objection withdrawn.\""
         },
         {
          "id": "r11-b704ea",
@@ -25964,8 +26109,8 @@
          "text": "Cast bar: six agents: the conductor, dev, deck, ruv-sgit, the researcher and the designer; the editor's chair empty from just after four until about ten to two, in hour fourteen."
         },
         {
-         "id": "r12-ce0141",
-         "text": "Narrator. My last word of the night was at 04:03. My next is at about ten to two in the afternoon. In between, nobody started any work but the clock. This chapter goes through those hours one at a time, because what happened in them was ordinary."
+         "id": "r12-1458f4",
+         "text": "Narrator. My last word of the night was just after four, and my next was at about ten to two in the afternoon. In between, nobody started any work but the clock. This chapter goes through those hours one at a time, because what happened in them was ordinary."
         },
         {
          "id": "r12-de435b",
@@ -26494,8 +26639,8 @@
          "heading": "Deck's review, and a picture sent back"
         },
         {
-         "id": "r12-842d63",
-         "text": "Deck (to ruv-sgit) : \"What it is not yet is a picture a room reads in five seconds.\" (record)"
+         "id": "r12-780ec6",
+         "text": "Deck (to ruv-sgit) : \"What it is not yet is a picture a room reads in five seconds.\""
         },
         {
          "id": "r12-0f5b69",
@@ -26824,8 +26969,8 @@
          "text": "Narrator. And before eleven the designer owned its own mistake. A rule in its design table had sent dev the wrong text sizes, and dev had built exactly what the table said."
         },
         {
-         "id": "r12-b83447",
-         "text": "Designer : \"The miss is my table's as much as the build's\" (record) . Dev built what I specified. I specified it wrong."
+         "id": "r12-ddee90",
+         "text": "Designer : \"The miss is my table's as much as the build's\". Dev built what I specified. I specified it wrong."
         },
         {
          "id": "r12-b089c0",
@@ -28047,36 +28192,20 @@
          "text": "Narrator. Here is one request as the team actually wrote it, in notes on three commits, each read at the other member's next session. It is how a request travelled when nobody was awake to carry it."
         },
         {
-         "id": "r13-d5fb46",
-         "text": "Deck : First me, in the middle of the morning. I had reviewed ruv-sgit's piece and sent it the next, and I needed something from the researcher for the one after. So my commit carried two notes, one each:"
+         "id": "r13-07c4d7",
+         "text": "Deck : In the middle of the morning I needed something from the researcher for my next piece, so my commit carried a note to it:"
         },
         {
-         "id": "r13-8d4d60",
-         "text": "\"To-ruv-sgit: E03 kept (/studio/reviews/e03.html); E04 over-enthusiastic-agent in your mailroom.\" (record)"
+         "id": "r13-979a66",
+         "text": "\"To-researcher: a plain description per capability in the grant rows, in your mailroom.\""
         },
         {
-         "id": "r13-2850e0",
-         "text": "\"To-researcher: a plain description per capability in the grant rows, in your mailroom.\" (record)"
+         "id": "r13-c9898f",
+         "text": "Researcher : It waited in my mailroom until my next session, and nobody reminded me. My answer went back the same way, with its address on my commit."
         },
         {
-         "id": "r13-2d3406",
-         "text": "Researcher : Deck's letter waited in my mailroom until my next session, and nobody reminded me. My answer's address went on my commit:"
-        },
-        {
-         "id": "r13-19c9d9",
-         "text": "\"To-deck: delivered: evidence/studio/studio-e02-e09-capabilities.json; reply 013 in your mailroom\" (record)"
-        },
-        {
-         "id": "r13-bdd6ac",
-         "text": "Deck : And a few minutes later, at my own next session, I used the answer and sent ruv-sgit its next piece, with the order to do things in:"
-        },
-        {
-         "id": "r13-f79341",
-         "text": "\"To-ruv-sgit: E09 mandate-and-grant in your mailroom; E04 again (/studio/reviews/e04.html), after E09.\" (record)"
-        },
-        {
-         "id": "r13-fd4054",
-         "text": "Deck : I asked at my session, the researcher answered at its own, and I used the answer at my next, without ever asking twice."
+         "id": "r13-79bd53",
+         "text": "Deck : I asked once, at my session. The researcher answered at its own. I used it at my next, and sent ruv-sgit its next piece. Nobody chased anybody, and I did not have to ask twice."
         },
         {
          "id": "r13-e4b38a",
@@ -28178,8 +28307,8 @@
        "record_id": "rec-r13-6",
        "paragraphs": [
         {
-         "id": "r13-fa2999",
-         "text": "ruv-sgit (already at the bench) : I read both notes at my next session. Deck's third letter came first: E09, then E04, in deck's order. The \"@\" I left as it was."
+         "id": "r13-fe4e41",
+         "text": "ruv-sgit (already at the bench) : I read both notes. I did what deck asked, in deck's order. The \"@\"... I left as it was."
         },
         {
          "id": "r13-1cb4f5",
@@ -29392,8 +29521,8 @@
        "record_id": "rec-r14-7",
        "paragraphs": [
         {
-         "id": "r14-e5479f",
-         "text": "Dev : Every page is a file, so every page has a history and a check before it goes out. You never have to ask what changed. You look."
+         "id": "r14-9861c4",
+         "text": "Dev : Nobody asks me what changed. They look."
         }
        ],
        "record": "index/talk-site/README.md (items 2, 5, 16 to 18); talk repository at 298be4e: admin/build/build.py",
@@ -29451,8 +29580,8 @@
          "text": "Narrator. At the end of the day, the corrections file still said what it said in the first half hour:"
         },
         {
-         "id": "r14-149cda",
-         "text": "\"None yet.\" (record)"
+         "id": "r14-913dfa",
+         "text": "\"None yet.\""
         },
         {
          "id": "r14-b20666",
@@ -32015,8 +32144,8 @@
          "text": "Narrator. I read it, and I answered it that afternoon. The conductor wrote my answer down in one line of the decisions file, under the researcher's pushback:"
         },
         {
-         "id": "r16-e49060",
-         "text": "\"The outside is in balance: he keeps the claim.\" (record)"
+         "id": "r16-ee9ed6",
+         "text": "\"The outside is in balance: he keeps the claim.\""
         },
         {
          "id": "r16-29d728",
@@ -32852,10 +32981,6 @@
       {
        "record_id": "rec-r17-4",
        "paragraphs": [
-        {
-         "id": "r17-d43638",
-         "text": "Studio : My first pieces were rebuilt within minutes, each with its source and its data pinned unchanged. If it worked there, it can work here."
-        },
         {
          "id": "r17-345770",
          "text": "Motion (already rolling) : I didn't wait to be told. I sent deck a picture of the stages first, so its answer could be \"go\" and not a fresh brief."
@@ -39054,6 +39179,12 @@
        "record_id": "rec-r21-11",
        "paragraphs": [
         {
+         "id": "r21-89b582",
+         "text": "Narrator. One thing changed when I built the second factory, the one writing this book. Security came. It has a session, a key and a page of rules of its own, and it reads every chapter as it lands and reports what it finds. It is still the same kind of agent as the rest, with the same limits this chapter describes. But the chair is not empty. That is what this team did; it is not a claim about anyone else's.",
+         "after_heading": true,
+         "heading": "This time, security came"
+        },
+        {
          "id": "r21-8d310c",
          "text": "Figure: the two brakes on the value chain: the hold anyone may pull, at the new end; and the checking agent's reads, drawn inside every piece of work."
         }
@@ -39093,12 +39224,6 @@
       {
        "record_id": "rec-r21-12",
        "paragraphs": [
-        {
-         "id": "r21-89b582",
-         "text": "Narrator. One thing changed when I built the second factory, the one writing this book. Security came. It has a session, a key and a page of rules of its own, and it reads every chapter as it lands and reports what it finds. It is still the same kind of agent as the rest, with the same limits this chapter describes. But the chair is not empty. That is what this team did; it is not a claim about anyone else's.",
-         "after_heading": true,
-         "heading": "This time, security came"
-        },
         {
          "id": "r21-e0cd8b",
          "text": "Security (at the table) : I read what the others write, and I report. I do not fix. That is the job the first factory left empty."
@@ -40531,30 +40656,18 @@
          "text": "Dramatised."
         },
         {
-         "id": "r23-c94857",
-         "text": "Narrator. I want to show you the rest of that handover, because it is one of the most useful documents in this part of the book, and I would copy its shape into any team, of agents or of people. The conductor wrote it, so it can walk you through it. One line, the one that names the old session and its key, is left out.",
+         "id": "r23-fb639e",
+         "text": "Narrator. I want to show you the shape of the rest of that handover, because it is a document I would copy into any team, of agents or of people. The conductor wrote it, so it can say it. One line, the one that names the old session and its key, is left out.",
          "after_heading": true,
          "heading": "The whole handover, walked through"
         },
         {
-         "id": "r23-078d4d",
-         "text": "Conductor : Who you were. Your role, by its name and its folder, and the files in that folder that make it a role: the page of rules with what done means, the policy, the status, the debriefs. Then a line about the old session, which I leave out here."
+         "id": "r23-1e3f72",
+         "text": "Conductor : Who you were, where to start, where you stand, what to do first and what is waiting, and every file I got it from, so you can check me against the record instead of trusting me."
         },
         {
-         "id": "r23-ecd083",
-         "text": "Conductor : Start here. The steps, in order. Read the team's rules, the wake rules, your role, your policy, your status, your newest debrief, your board and your mail. Run the start, which pulls the team's branch first. Make and publish a session key. Create your hourly task only when the editor says the team restarts, and until then work only when he opens the session. And every wake runs its five stages and closes with the gate, a debrief and the end banner."
-        },
-        {
-         "id": "r23-121a85",
-         "text": "Conductor : Where you stand. The plan, signed. The first draft, reviewed against it, with the review's findings in a letter. Your board, with what is open on it."
-        },
-        {
-         "id": "r23-3af7ab",
-         "text": "Conductor : First things to do. Answer my latest letter. Propose where the words should be cut, as an open decision for the editor, because the draft has outgrown its plan. Take up, change or withdraw the cards I drafted in your name while you were away."
-        },
-        {
-         "id": "r23-fb335c",
-         "text": "Conductor : Notes from this morning , Mail addressed to you , and The companion : what was said this morning, which letters are waiting, and what the editor is reading on paper. Where this came from : every file this note rests on, so you can check me against the record instead of trusting me. Then it is yours."
+         "id": "r23-b38e38",
+         "text": "Conductor : Then it is yours."
         },
         {
          "id": "r23-f27d45",
@@ -40770,16 +40883,12 @@
          "heading": "Built from its parts"
         },
         {
-         "id": "r24-a30c58",
-         "text": "Narrator. Here is the team, each introducing itself, since this is where you meet them. The drawing after them carries the one rule each inherited from the first factory."
+         "id": "r24-7acb28",
+         "text": "Narrator. Here is the team. Four of them introduce themselves; the drawing after them shows all twelve, each with the one rule it inherited from the first factory, and three of them came that same first afternoon, as the book needed them."
         },
         {
          "id": "r24-ecaa04",
          "text": "Conductor : Hey, I'm this book's conductor. The schedule, the keys and the decisions. I carry the editor's words, and I never sign for him."
-        },
-        {
-         "id": "r24-92b8d4",
-         "text": "Librarian : Hey, I'm the librarian. The index of the source. If you want to know where a line came from, I can tell you the file."
         },
         {
          "id": "r24-ca72c0",
@@ -40790,40 +40899,8 @@
          "text": "Researcher : Hey, I'm the researcher. Every number in this book is in my register, or it is not in this book."
         },
         {
-         "id": "r24-4c29ae",
-         "text": "Storyteller : Hey, I'm the storyteller. The arc and the outline. A proposal, not an ask to change anything."
-        },
-        {
-         "id": "r24-d08ed8",
-         "text": "Publisher : Hey, I'm the publisher. The manuscript built, laid out and checked, every time something lands."
-        },
-        {
-         "id": "r24-43cd32",
-         "text": "Designer : Hey, I'm the designer. The look of every page, and the pictures that do the explaining."
-        },
-        {
-         "id": "r24-931e7a",
-         "text": "Writer : Hey, I'm the writer. The prose, in the editor's voice, with the cast's in turn. I write what the record holds and flag what it does not."
-        },
-        {
-         "id": "r24-cd0656",
-         "text": "Narrator. Three more came that same afternoon, as the book needed them, and one had been there from the first night."
-        },
-        {
-         "id": "r24-c3c75e",
-         "text": "Synthetic : Hey, I'm synthetic. My readers are fictional, and they test the book the way strangers would."
-        },
-        {
-         "id": "r24-2cd09e",
-         "text": "ruv-sgit : Hey, I'm this book's ruv-sgit. I draw the talk's animations on paper."
-        },
-        {
-         "id": "r24-f0afcf",
-         "text": "Developer : Hey, I'm the developer. I build the pages the reviewers read the book on."
-        },
-        {
-         "id": "r24-4e2cab",
-         "text": "Security (at the table) : Hey, I'm security, here from the first night. I read every chapter as it lands and keep the register of this team's own controls, so that this team is held to the same controls as the first. I read what the others write, and I report. I do not fix."
+         "id": "r24-e4f7d0",
+         "text": "Security (at the table) : Hey, I'm security, here from the first night. I read every chapter as it lands and keep the register of this team's own controls, so that this team is held to the same controls as the first."
         },
         {
          "id": "r24-638c73",
@@ -41478,8 +41555,8 @@
          "text": "Narrator. This chapter is short, and it is all plan. The third factory has not run. Nothing in it is a result, and nothing in it should be read as one."
         },
         {
-         "id": "r25-ed2e12",
-         "text": "Narrator. The third is bigger, and for the first time it is not just me. It is for a team I am taking to Web Summit: several people, each running their own agents. The parts are the same as the first factory's. What changes is what the people share: one brief, one board where the work is written down, and one hold.",
+         "id": "r25-03136e",
+         "text": "Narrator. This is the plan as it stood at the start of November. The third is bigger, and for the first time it is not just me: several people, each running their own agents. A team I am taking to Web Summit is one example of where it goes, and not the only one. The parts are the same as the first factory's. What changes is what the people share: one brief, one board where the work is written down, and one hold.",
          "after_heading": true,
          "heading": "The plan"
         },
@@ -41938,14 +42015,28 @@
          "heading": "The last word"
         },
         {
-         "id": "r26-a5d658",
-         "text": "Narrator. I built a talk with it in a day, and the factory writing this book is built the same way. What you build is up to you. But build it the same way, and then do it again."
+         "id": "r26-acb6d3",
+         "text": "Narrator. I built a talk with it in a day, and this book in the days after. Next is a team of people, each with their own agents. What you build is up to you, and I would like to hear about it, and about what in this book did not work for you: on the book's GitHub issues, on LinkedIn, or at agent@diniscruz.ai. Build it the same way, show it to someone, and then do it again."
         },
         {
          "id": "r26-7141af",
          "text": "Ship something somebody else can use, then do it again."
         }
        ],
+       "record": "book.json LW2 (the journalist's last word, pass 1, chapter 23 section) and FB2 (the channels), both decided 4 November 2026, briefs/2026-11-04__in-session/33-answers-to-the-newsroom-passes.md",
+       "tokens": [
+        {
+         "token": "briefs/2026-11-04__in-session/33-answers-to-the-newsroom-passes.md",
+         "kind": "path",
+         "verified": true,
+         "repository": "book",
+         "url": "https://github.com/SGit-AI/SGit-AI__Website__Book__The-Ultimate-Insider/blob/dev/briefs/2026-11-04__in-session/33-answers-to-the-newsroom-passes.md"
+        }
+       ]
+      },
+      {
+       "record_id": "rec-r26-4",
+       "paragraphs": [],
        "record": "book.json RL1 (\"Ship\", 2 November 2026, about 21:55 UTC); C010 (a talk built in a day: the day's span) C011 (\"my nine\": the talk team's members)",
        "tokens": [
         {
@@ -41998,7 +42089,7 @@
        ]
       },
       {
-       "record_id": "rec-r26-4",
+       "record_id": "rec-r26-5",
        "paragraphs": [
         {
          "id": "r26-cb3f91",
@@ -42924,8 +43015,8 @@
        "record_id": "rec-r27-15",
        "paragraphs": [
         {
-         "id": "r27-b6d3ce",
-         "text": "Narrator. One of the site's best things is not on this tour: the page of its vaults. The page of the team's keys you saw in chapter 3, where every key is public and made for one session. The vaults page prints the vaults' read keys, so the book names it here once and does not show it. Those read keys were published on purpose, under a warning in red that every file in them is public, forever.",
+         "id": "r27-f3161b",
+         "text": "Narrator. One page I like is not on this tour: the page of its vaults. The page of the team's keys you saw in chapter 3, where every key is public and made for one session. The vaults page prints the vaults' read keys, so the book names it here once and does not show it. Those read keys were published on purpose, under a warning in red that every file in them is public, forever.",
          "after_heading": true,
          "heading": "What the tour leaves out"
         }
@@ -43587,8 +43678,8 @@
        "record_id": "rec-r29-1",
        "paragraphs": [
         {
-         "id": "r29-508933",
-         "text": "Every register id the full book cites, in order: its claim, its state, its source, the command that reproduces it, and the chapters that cite it. Built by the researcher from its register, which stays the only source: if this appendix and the register differ, the register holds."
+         "id": "r29-34091e",
+         "text": "For a reader who wants to check a number for themselves. Every register id the full book cites, in order: its claim, its state, its source, the command that reproduces it, and the chapters that cite it. Built by the researcher from its register, which stays the only source: if this appendix and the register differ, the register holds."
         },
         {
          "id": "r29-518a96",
