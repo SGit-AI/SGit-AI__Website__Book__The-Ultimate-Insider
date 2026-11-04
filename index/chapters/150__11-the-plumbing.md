@@ -16,7 +16,7 @@ From the chapter's `%% record` lines (and its `## Where this came from`, where i
 | `team/dev/debriefs/2026-10-29__the-board.md` | debrief | dev | `24da366` 2026-10-29 01:19:26 | `24da366` 2026-10-29 01:19:26 | The team's branches carried into dev, and the board, read live from the public Issues-FS vault |
 | `team/dev/debriefs` | folder |  | ``  | ``  |  |
 
-## this repository (11)
+## this repository (13)
 
 - `claims/register.json`
 - `index/talk-site/README.md`
@@ -28,6 +28,8 @@ From the chapter's `%% record` lines (and its `## Where this came from`, where i
 - `claims/README.md`
 - `manuscript/rc2/150/04-hour-one-the-empty-project.md`
 - `manuscript/rc2/150/05-hour-two-the-rules-written.md`
+- `timeline/repo-design.md`
+- `comms/mail/mailroom/writer2/storyteller__127-repo-growth-callout.eml`
 - `chapter-plan/cast/cast-guide.md`
 
 ## Commits named (4)

@@ -116,6 +116,7 @@ def figure_placements(chapters, words, where):
     under a heading, which introduces it) is not checked: a section opening on a new page is not a separation.
     -> ([(chapter, intro_end_page, caption_page)], not_found, total, under_a_heading)"""
     n, out, missing, total, under_heading = len(words), [], 0, 0, 0
+    by_heading, unplaced = [], 0
     tok = tidy(words)
     for c in chapters:
         paras = [p for sc in c['scenes'] for p in sc['paragraphs']]
@@ -126,8 +127,21 @@ def figure_placements(chapters, words, where):
             k = j - 1
             while k >= 0 and (paras[k]['text'].startswith(('Figure:', 'Clock:')) or paras[k].get('in_print') is False):
                 k -= 1                                                  # past another figure, a clock line or a paragraph the print leaves out
-            if any(paras[m].get('after_heading') for m in range(k + 1, j + 1)):
-                under_heading += 1                                      # a heading opens the section the figure is in: it is introduced by the heading
+            h = next((m for m in range(k + 1, j + 1) if paras[m].get('after_heading')), None)
+            if h is not None:
+                under_heading += 1                                      # a heading opens the section the figure is in: the heading introduces it (publisher__004)
+                hs = next((where[paras[m]['id']] for m in range(h, len(paras)) if paras[m]['id'] in where and not paras[m]['text'].startswith(('Figure:', 'Clock:'))), None)   # the first printed paragraph at or after the heading's section
+                hk = norm(paras[h].get('heading') or '').split()[:6] if isinstance(paras[h].get('heading'), str) else []
+                hit = locate(tok, hk, max(1, hs - 2), hs) if hs and hk else None
+                if hit:
+                    capkey = norm(p['text'][len('Figure:'):]).split()[:6]
+                    cp = locate(tok, capkey, hit[1], min(n, hit[1] + 3)) if capkey else None
+                    if cp:
+                        by_heading.append((c['title'], hit[1], cp[0]))
+                    else:
+                        missing += 1
+                else:
+                    unplaced += 1                                       # the heading's page could not be found: not checked
                 continue
             start = where.get(paras[k]['id']) if k >= 0 else None
             if not start:
@@ -142,7 +156,7 @@ def figure_placements(chapters, words, where):
                 missing += 1
                 continue
             out.append((c['title'], end, cap))
-    return out, missing, total, under_heading
+    return out, missing, total, under_heading, by_heading, unplaced
 
 
 def chapter_starts(chapters, pages):
@@ -209,15 +223,19 @@ def main(stats, given=None):
                           'fill': fill, 'lines': nl, 'raster_figure_here': i in big_on, 'borderline': fill >= GAP_FILL - 0.03})   # within three points of the line: a prompt to look, not a finding
     tall = sorted({p for p, inch in images if inch > LARGE_SHARE * TEXT_HEIGHT})
     # figures apart from the paragraph that introduces them, found by their printed captions
-    placed, not_found, fig_total, under_heading = figure_placements(chapters, words, where)
+    placed, not_found, fig_total, under_heading, by_heading, unplaced = figure_placements(chapters, words, where)
     for title, intro_end, cap in placed:
         if cap > intro_end:
             flags.append({'kind': 'figure_apart', 'page': cap, 'chapter': title, 'intro_page': intro_end, 'pages_apart': cap - intro_end})
-    figures = {'figure_lines': fig_total, 'introduced_by_a_heading_not_checked': under_heading,
+    for title, head, cap in by_heading:
+        if cap > head:
+            flags.append({'kind': 'figure_apart', 'page': cap, 'chapter': title, 'intro_page': head, 'pages_apart': cap - head, 'introduced_by': 'a heading'})
+    figures = {'figure_lines': fig_total, 'introduced_by_a_heading': under_heading, 'heading_checked': len(by_heading), 'heading_page_not_found': unplaced,
+               'begin_on_a_later_page_than_their_heading': sum(1 for _, e, cp in by_heading if cp > e),
                'with_a_paragraph_before_them_in_the_section': len(placed), 'not_found': not_found,
                'begin_on_a_later_page_than_that_paragraph_ends': sum(1 for _, e, cp in placed if cp > e)}
     cannot += ['whether a gap or a short page is meant (a divider, an opener, a page left to a drawing): it measures how far the content reaches',
-               f'{not_found} of {fig_total} figure lines could not be found by their printed caption; {under_heading} sit straight under a heading and are not checked; for the rest it finds where the caption begins, not whether the drawing under it is on the same page',
+               f'{not_found} of {fig_total} figure lines could not be found by their printed caption; {under_heading} sit straight under a heading ({unplaced} of them with the page of the heading not found, not checked), which counts as what introduces them; for the rest it finds where the caption begins, not whether the drawing under it is on the same page',
                'how a page looks beyond how far its content reaches']
     # the list in the order it is read: tails emptiest first, then gap pages emptiest first, then the low-confidence figure separations
     flags.sort(key=lambda f: ({'chapter_end_spill': 0, 'gap_page': 1, 'figure_apart': 2}[f['kind']], f.get('fill', f['page'])))   # emptiest first

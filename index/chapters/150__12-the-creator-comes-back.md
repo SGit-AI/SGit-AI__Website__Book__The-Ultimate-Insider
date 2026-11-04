@@ -13,17 +13,25 @@ From the chapter's `%% record` lines (and its `## Where this came from`, where i
 | `team/deck/wakes` | folder |  | ``  | ``  |  |
 | `team/storyteller/wakes` | folder |  | ``  | ``  |  |
 
-## this repository (9)
+## this repository (17)
 
 - `timeline/day/13.md`
 - `timeline/day/14.md`
 - `timeline/day/15.md`
 - `claims/register.json`
+- `timeline/hours.md`
+- `timeline/interviews/storyteller.md`
+- `team/conductor/from-newsroom/2026-11-04__narrator-voice-part-three.md`
+- `lab/experiments/29-ruv-the-afternoon-loop/edition/asks-card.svg`
+- `lab/experiments/37-designer-rc2-chapters-1-2/ch1-loop.svg`
 - `lab/experiments/29-ruv-the-afternoon-loop`
 - `index/talk-site/shots`
 - `chapter-plan/edition-150-outline.md`
 - `manuscript/rc2/70/09-the-loop-and-the-port.md`
+- `chapter-plan/cast/cast-guide.md`
+- `briefs/2026-11-04__in-session/11-the-afternoon-asks-the-loop-and-the-factory.md`
 - `index/talk-site/shots/talk__player.jpg`
+- `team/conductor/from-newsroom/2026-11-04__do-this-now-as-invitations.md`
 
 ## Commits named (14)
 
