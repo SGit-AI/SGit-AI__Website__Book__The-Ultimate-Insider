@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T20:19:16Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Plan sound: read-only review of 9, 0, 0b and 1, then the letter, filing, findings, debrief, status. It did not re-read the files and rests on my summary. Keep the 'caused by an empty queue' fix in the findings. Tools: Read, Grep, Glob, Bash.",
+   "at": "2026-11-04T20:20:47Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Plan fits scope; nothing to Cold-Read; vault_check before commit; no keys, ids, model names, em-dashes or religious words. Tools: Read, Grep, Glob, Bash.",
+   "at": "2026-11-04T20:21:08Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "No keys, secrets, model names, em-dashes or religious words; nothing toward Cold-Read; vault_check clean; copies of letter 080 match; writes in scope. Tools: Bash and Read.",
+   "at": "2026-11-04T20:21:55Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "R33 addendum, letter 080, conductor 047 filed, debrief and status present; the wake record's closed field is filled by close.",
+   "at": "2026-11-04T20:21:55Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "claude-sonnet-5-5",
+   "verdict": "done",
+   "comment": "Chapter 9 read in full, 0, 0b and 1 for times; letter 080; conductor 047 filed",
+   "at": "2026-11-04T20:21:55Z"
+  }
+ },
+ "closed": "2026-11-04T20:21:55Z",
+ "outcome": "ok"
+}
