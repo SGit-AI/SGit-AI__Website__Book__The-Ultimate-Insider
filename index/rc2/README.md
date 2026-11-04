@@ -211,6 +211,8 @@ The talk team's vaults are named in 10, not cited by path; nothing of them is in
 
 **4 November 2026, about 21:25 UTC: what changed since 20:15 (00, 05, 09, 16, 21, 93).** Wording and layout only: no new quotation, time, number or commit id. The researcher's final pass in the talk's clone has no fails; sources, voice and logistics as before. Nothing open; no letter needed.
 
+**4 November 2026, about 22:30 UTC: what changed since 21:15 (03b, 06, 08, 19, 21).** The final pass in the talk's clone has no fails. Two new exact times in 08: "at twenty to four" (the designer's join, `c6dcf89`, 03:41:34) is a could ("about twenty to four"); "at a quarter past four" for deck's second request is about three minutes early (deck's wake started 04:18:22, closed 04:22:48; the story holds), a should (letter writer 027). The rest is wording and role words, or reads from the record.
+
 ## The writer's readings, for the editor to keep or drop
 
 **Corrected 3 November 2026, about 09:30 UTC:** until this wake the list took only the notes that stand on a line of their own, and missed four set inside a paragraph (70/02:67, 70/02:97, 70/06:68, 70/11:5). The list now takes every note wherever it stands: thirty in the thirty and the seventy (not twenty-six), seven in the 150's part 1, thirty-seven in all.
