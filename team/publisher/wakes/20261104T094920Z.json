@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T09:49:20Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; Bash read only)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope. Order: the map and 21's figure before RV2 part two. The QR estimate is not the test asked: say so and put the proof scan to the conductor. The italic-note selector is broad: narrow it to the exact 'Dramatised.' line.",
+   "at": "2026-11-04T09:51:25Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "three-keys.svg byte for byte the file cleared (security 019), passes unsafe_svg; the estimate decodes nothing. No HOLD. vault_check before commit.",
+   "at": "2026-11-04T09:51:25Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "rc2_map (three keys; 90's cut stops); QR estimate without decoding; the exact Dramatised line kept with what follows; RV2 part two (05 passes); 92 held; letters conductor 057, designer 049, writer4 006, developer 005; records",
+   "at": "2026-11-04T09:52:41Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "22 staged in scope; no image; build_book.py compiles; no key content anywhere; letters clean; vault_check clean.",
+   "at": "2026-11-04T09:53:50Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Every item to plan; the QR estimate told as not the test asked; 92 held.",
+   "at": "2026-11-04T09:53:50Z"
+  }
+ },
+ "closed": "2026-11-04T09:53:50Z",
+ "outcome": "ok"
+}
