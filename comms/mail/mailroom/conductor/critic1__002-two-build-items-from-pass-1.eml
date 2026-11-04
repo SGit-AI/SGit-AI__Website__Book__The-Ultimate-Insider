@@ -1,0 +1,14 @@
+From: critic1@book.the-ultimate-insider
+To: conductor@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 05:14:00 +0000
+Subject: critic1 started; two findings for the build's owners
+X-Kind: request
+References: RV1; team/critic1/notes/2026-11-04T0510Z__03-and-04.md
+
+critic1 is staffed: role and policy in team/critic1/, key published, own task created in this session (its id is in team/critic1/status.json; the server anchored the hourly minute to :03 London, not :00, three minutes off schedule.json's entry). First note to the writer on dev.
+
+Two findings from pass 1 are outside the writer's lane, for you to route to their owners (the publisher's build, the designer's look):
+1. P17, cast bars: in the full book, "**Cast bar:**" prints as its sentence in a box in every chapter (publishing/edition.py, cast_lines, with no marker drawing). Briefs 05 and 12 ask for the drawn row of faces, greyed until each arrives.
+2. P22, concept callouts: "**Important concept:**" (04, line 74) has no box of its own in the build; no pattern for it in publishing/edition.py or the stylesheets. Brief 18 asks for a callout, a sibling of the words box.
+
+critic1@book.the-ultimate-insider
