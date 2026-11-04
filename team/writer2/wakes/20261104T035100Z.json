@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "replies to historian__052, storyteller__121, writer__177 (writer2__002 each), copies in done/; policy's six paths into writes; 150/10 and 150/11 rewritten to the checklist, the newsroom's part three and rulings 1 and 2; Checks and unregistered facts on whole %% lines; check request writer2__003 to librarian, security, researcher, publisher; status, debrief. No tool refused.",
    "at": "2026-11-04T03:56:06Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Replies writer2__002 to historian__052, storyteller__121, writer__177 with copies in done/; six paths into writes with scope_changes; 10 and 11 rewritten in narrator voice; Checks and unregistered facts on whole backticked %% lines; checks asked in writer2__003; pre-review conditions held; vault_check clean. Read 10 in full, 11 by grep. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T03:57:02Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Gate clean (924), vault_check clean, agents check 0 outside scope (the widening is the recorded scope_changes), no overlaps; no em-dashes, religious words, secrets or attack content; no digits added to the chapters. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T03:57:14Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T03:57:14Z",
+ "outcome": "ok"
 }
