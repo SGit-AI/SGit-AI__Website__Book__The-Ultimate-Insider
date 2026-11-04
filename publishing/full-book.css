@@ -76,3 +76,6 @@ figure img[src^="data:image/jpeg"], figure img[src^="data:image/png"] { max-widt
 
 /* the drawn cast bar (the designer's 135): its own width, never wider than the column, the chapter's line under it */
 .cast-bar.with-marker img.marker { width: auto; max-width: 100%; }
+/* the one-line "Dramatised." note keeps with what follows it, so a figure is not parted from it (developer__043) */
+.dramatised { break-after: avoid; }
+.dramatised + figure, .dramatised + .figure-todo { break-before: avoid; }

@@ -36,9 +36,9 @@ def main():
     peak = max(int(v) for _, vs, _ in body for v in vs)
     W, LAB, TOT = 164, 30, 10
     cw = (W - LAB - TOT) / 19
-    rh, top = 6.2, 9
-    H = top + rh * (len(rows)) + 14
-    s = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H:.1f}" role="img" aria-label="The talk\'s commits by member and hour, 29 October, 00:00 to 18:59: every cell counted, one hue light to dark.">']
+    rh, top = 6.2, 11                                             # 11, not 9: the 'night' label sits inside the frame
+    H = top + rh * (len(rows)) + 16
+    s = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}mm" height="{H:.1f}mm" viewBox="0 0 {W} {H:.1f}" role="img" aria-label="The talk\'s commits by member and hour, 29 October, 00:00 to 18:59: every cell counted, one hue light to dark.">']
     s.append(f'<rect x="{LAB:.2f}" y="{top - 6.5}" width="{6 * cw:.2f}" height="{rh * len(rows) + 6.5:.2f}" fill="none" stroke="{MUTED}" stroke-width=".3" stroke-dasharray="1 .7"/>')
     s.append(t(LAB + 3 * cw, top - 2.6 - 4.2, 'night', 3.2, 700, MUTED))
     for h in range(19):
@@ -64,6 +64,11 @@ def main():
         s.append(t(LAB + 19 * cw + TOT / 2, y + rh / 2 + 1.1, total, 3.3, 700, INK))
         if name == 'other (no @member prefix)':
             s.append(f'<line x1="{LAB}" y1="{y + rh:.2f}" x2="{W}" y2="{y + rh:.2f}" stroke="{INK}" stroke-width=".35"/>')
+    KEY = ['releases: the release workflow\'s commits (GitHub Actions).',
+           'no @member: commits whose subject does not open with @member: (most name their member another way).',
+           'all and total: commits, not counting merges, in that hour or by that row. night: 00:00 to 05:59, a clock range.']
+    for j, k in enumerate(KEY):                                     # a key for the rows that are not agents; not a title
+        s.append(t(0, top + rh * len(rows) + 5.2 + j * 3.6, k, 2.6, 400, MUTED, 'start'))
     s.append('</svg>')
     (HERE / 'heatmap.svg').write_text('\n'.join(s) + '\n')
     (HERE / 'pages.html').write_text(
