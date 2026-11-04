@@ -44,7 +44,9 @@
 
 **Figure:** the wake record as a page: five boxes in a column, each with its stage, who ran it, its verdict and its sentence, the finding in stage four highlighted; the verdicts of this hour's first wake filled in: go, go, partial, finding, partial.
 
-`%% figure brief: For the designer, from the record word for word. The chapter's picture, as the seventy's chapter 5 drew it.`
+`%% figure brief: For the designer, from the record word for word. The chapter's picture, as the seventy's chapter 5 drew it. ruv-sgit's wake-page drawing rests on C072 (ruv-sgit__072: no register id inside a drawing).`
+
+`%% record: C072`
 
 `%% record: team/conductor/wakes/20261029T021416Z.json at 298be4e (plan 02:14:53, pre_review 02:16:07, work 02:18:19, post_review 02:19:05, post_check 02:19:34) 5700bab c8f6f8f team/conductor/debriefs/2026-10-29__the-five-step-wake.md timeline/day/02.md ("What the hour shows": the historian's reading, "the strongest early evidence that the steps were more than ceremony") C025 (its first entry: "CLAUDE.md written outside the conductor's scope ... not named in the commit message")`
 `%% band: Dramatised. Every step, verdict and quoted line is from the conductor's first wake record, 02:14 to 02:19, and its debrief; that it is the strongest early sign the steps were more than ceremony is the historian's reading of the hour; the conductor's other lines are ours.`
@@ -54,7 +56,7 @@
 
 **Narrator.** A rule one member writes is a rule one member follows. What happened next turned it into something else.
 
-**Narrator.** Later in the hour dev's first scheduled wake began, at its own minute, and the conductor's request was in its mail: put the check for wake records into the gate. Dev did. From then on, a closed wake record that skipped a step, or recorded work without two go verdicts before it, failed the gate, and not only for the member that skipped. For every member. Dev tested it the way a check should be tested, with a record it knew was wrong, and the gate found every missing step.
+**Narrator.** Later in the hour dev's first scheduled wake began, at its own minute, and the conductor's request was in its mail: make the gate, the check every change must pass before it goes out, also read every wake record, the file each session leaves behind with its stages. Dev did. From then on, a closed wake record that skipped a step, or recorded work without two go verdicts before it, failed the gate, and not only for the member that skipped. For every member. Dev tested it the way a check should be tested, with a record it knew was wrong, and the gate found every missing step.
 
 **Dev**: It changes the gate for everyone. I said so in the commit, and I ran the whole gate before I pushed.
 

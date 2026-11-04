@@ -62,7 +62,9 @@
 
 **Figure:** the factory in action: the nine at work around one objective, the clock above them, the brake within reach.
 
-`%% figure brief: For the designer, at his note (conductor__020): "What a factory is" gets a picture of the factory in action.`
+`%% figure brief: For the designer, at his note (conductor__020): "What a factory is" gets a picture of the factory in action. ruv-sgit's factory-clock.svg is placed here; it rests on C071 (ruv-sgit__072).`
+
+`%% record: C071`
 
 **Narrator.** You will meet them in the order they arrived: the first four within an hour of an empty project, the rest through the day. And one chair stays empty all day. I planned a security agent and never staffed it. That was more coincidence than decision, but looking back I think it says something good: this project never needed one. Part of running a team like this is knowing which engines to start; you do not fire them all up every time. The empty chair comes back later, and it matters there.
 
