@@ -1,3 +1,10 @@
+---
+title: First wake, and pass 1 on 94 and 90
+round: 1
+date: 2026-11-04
+commits: this wake's commits on dev
+---
+
 # critic6: first wake, 4 November 2026
 
 Staffed at the editor's word (RV1, RV2) as the mirror critic on part five, reading from 94 back to 20 after critic4@.
