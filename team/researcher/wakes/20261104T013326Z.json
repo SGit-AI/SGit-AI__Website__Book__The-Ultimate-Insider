@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T01:33:26Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Fits FB1 and the researcher's scope; edits nothing in manuscript/; no hold. Two points taken: check the conductor's mailroom for the next number (per recipient); say plainly that the 3, 10, 30 and 70 are deferred, not withdrawn. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T01:34:14Z"
+  },
+  "pre_review": {
+   "by": "security pre-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Nothing private, no keys or contact details, nothing attack-shaped; vault_check comms before commit. The step did not read writer__158, the brief or the debrief in full, and did not run the check of 92. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T01:34:14Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "05 and 94 changes traced (all hold); 92 checked against the 46-entry file (needs a reset; letters crossed); FB1 reply to the conductor (researcher__025: what I can land, what I leave, the freeze time asked); writer reply researcher__026; letters filed; board, debrief, REALITY, status. Appendix 'Cited in' lines reworded.",
+   "at": "2026-11-04T01:35:03Z"
+  },
+  "post_review": {
+   "by": "security post-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "In scope; no secret, contact detail, em-dash or religious word. C068's command still held out of print. 09f13d5 says 'fifteen minutes apart'. The conductor letter says the 3, 10, 30 and 70 are deferred, not withdrawn, and does not speak for the editor. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T01:36:16Z"
+  },
+  "post_check": {
+   "by": "conductor post-check step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Both plan points met: the conductor's mailroom number is correct (025) and the deferral is stated plainly. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T01:36:16Z"
+  }
+ },
+ "closed": "2026-11-04T01:36:16Z",
+ "outcome": "ok"
+}

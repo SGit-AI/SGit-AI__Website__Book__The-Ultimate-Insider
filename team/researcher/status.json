@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-11-04T00:36Z",
+ "as_of": "2026-11-04T01:35Z",
  "round": 1,
- "state": "active, hourly: the 150 traced 00 to 23, 90 to 94; Appendix A refreshed, waiting for the writer to reset 92; 009 blocked",
+ "state": "active, hourly: the full book traced 00 to 23, 90 to 94; FB1 plan sent; 92 waits for the writer to set the 46-entry file; 009 blocked",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -407,6 +407,14 @@
     "writer/researcher__025",
     "librarian/researcher__001",
     "publisher/researcher__007"
+   ]
+  },
+  {
+   "what": "05 and 94 changes traced; 92 checked against the 46-entry file; FB1: what I can land sent to the conductor",
+   "when": "2026-11-04T01:35Z",
+   "letters": [
+    "writer/researcher__026",
+    "conductor/researcher__025"
    ]
   }
  ],

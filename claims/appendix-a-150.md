@@ -36,7 +36,7 @@ git log 298be4e --until=2026-10-29T19:00:00Z --format='%h %ci %an %s' | head -3
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapters 03, 15, 16, 17, 18, 90, Appendix B.
+- **Cited in:** chapters 03, 15, 16, 17, 18, 90 and Appendix B.
 
 ```
 git log 298be4e --since=2026-10-29T18:44:00Z --until=2026-10-29T19:00:00Z --format='%h %ci %an %s'
@@ -46,7 +46,7 @@ git log 298be4e --since=2026-10-29T18:44:00Z --until=2026-10-29T19:00:00Z --form
 
 - **State:** corrected.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapter 23.
+- **Cited in:** chapters 23, 94.
 
 ```
 arithmetic on C001, C005 and C007
@@ -127,7 +127,7 @@ python3 -c "import json,subprocess as s;R='298be4e';fs=[f for f in s.run(['git',
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapters 12, 14, 15, 18, Appendix B.
+- **Cited in:** chapters 12, 14, 15, 18 and Appendix B.
 
 ```
 method: the script in team/researcher/debriefs/2026-10-30__rc1-numbers-review.md (parses every team/*/wakes/*.json at 298be4e; counts steps.<step>.verdict and history entries)
@@ -137,7 +137,7 @@ method: the script in team/researcher/debriefs/2026-10-30__rc1-numbers-review.md
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapters 15, 16, 18, Appendix B.
+- **Cited in:** chapters 15, 16, 18 and Appendix B.
 
 ```
 git log 298be4e --diff-filter=A --format='%h %ci %s' -- 'team/*/HOLD.md'; git log 298be4e --diff-filter=D --format='%h %ci %s' -- 'team/*/HOLD.md'
@@ -147,7 +147,7 @@ git log 298be4e --diff-filter=A --format='%h %ci %s' -- 'team/*/HOLD.md'; git lo
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapters 06, 07, 08, 09, 17, 18, Appendix B.
+- **Cited in:** chapters 06, 07, 08, 09, 17, 18 and Appendix B.
 
 ```
 method: the C023 parse, selecting steps.post_review.verdict == 'finding', read with the same record's post_check comment
@@ -344,7 +344,7 @@ git log 298be4e --no-merges --until=2026-10-29T18:59:59Z --format='%cI|%an|%s' |
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e; a9c0b49` (material added after the day).
-- **Cited in:** chapters 01, 15, 16, 17, 19, Appendix B.
+- **Cited in:** chapters 01, 15, 16, 17, 19 and Appendix B.
 
 ```
 git grep -n 'talk starts at 19:00 London' 298be4e; git grep -n 'hack::soho' a9c0b49 -- content/articles/the-talk-as-given.md
@@ -444,7 +444,7 @@ git show a9c0b49:content/articles/the-talk-as-given.md | grep -n 'a Wardley map'
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Book__The-Ultimate-Insider (this book's record), at `38b69644` (this book's own record, after the day).
-- **Cited in:** chapters 18, Appendix B.
+- **Cited in:** chapter 18 and Appendix B.
 
 ```
 git show 38b69644:controls/index.json | python3 -c "import json,sys;d=json.load(sys.stdin)['book_team']['tool_cases'];[print(c['n'],c['tool'][:30],c.get('refused')) for c in d['cases']]"
@@ -454,7 +454,7 @@ git show 38b69644:controls/index.json | python3 -c "import json,sys;d=json.load(
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Book__The-Ultimate-Insider (this book's record), at `f6ce7ffa` (this book's own record, after the day).
-- **Cited in:** chapter 94 (to cite).
+- **Cited in:** chapter 94.
 
 ```
 git ls-tree -r --name-only f6ce7ffa team/conductor/rc1 | grep -E '/[0-9]{2}-[^/]*\.md$' | grep -v '/99-' | wc -l; git ls-tree -r --name-only f6ce7ffa team/conductor/rc1/resources/images | wc -l
@@ -464,7 +464,7 @@ git ls-tree -r --name-only f6ce7ffa team/conductor/rc1 | grep -E '/[0-9]{2}-[^/]
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Book__The-Ultimate-Insider (this book's record), at `88247fe1` (this book's own record, after the day).
-- **Cited in:** chapter 94 (to cite).
+- **Cited in:** chapter 94.
 
 ```
 for c in bb1f57c0 19e266fb f3e634f3 81fd2ef8 e69f073b 6d357179 5c2d2f9c afbb50d7 28396879 e36d0e94 8f10a08e 68ffc780; do git show -s --format='%h %ad %s' --date=format:'%d %H:%M:%S' $c | cut -c1-80; done
@@ -474,7 +474,7 @@ for c in bb1f57c0 19e266fb f3e634f3 81fd2ef8 e69f073b 6d357179 5c2d2f9c afbb50d7
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapter Appendix B (to cite).
+- **Cited in:** Appendix B (to cite).
 
 ```
 git show 298be4e:team/studio/wakes/20261029T174115Z.json | python3 -c "import json,sys;d=json.load(sys.stdin);print(d['started'],d.get('closed'),d.get('outcome'))"; git show 298be4e:team/studio/debriefs/2026-10-29__abp-review.md | grep -n -i 'relayed'; git log -1 --format='%h %ad' --date=format:%H:%M:%S bd3cdad
@@ -482,4 +482,4 @@ git show 298be4e:team/studio/wakes/20261029T174115Z.json | python3 -c "import js
 
 ## Where this came from
 
-`claims/register.json` as on dev at the 00:32 wake, 4 November 2026; every C-id found in `manuscript/rc2/150/` (not 92 itself) at that wake, and C113, C114 and C115, registered for chapters to cite. Rebuilt by the researcher on 4 November 2026, about 00:42 UTC; first built at the 22:32 wake on 3 November.
+`claims/register.json` as on dev at the 01:32 wake, 4 November 2026; every C-id found in `manuscript/rc2/150/` (not 92 itself) at that wake, and C113, C114 and C115, registered for chapters to cite. Rebuilt by the researcher on 4 November 2026, about 01:35 UTC; first built at the 22:32 wake on 3 November.
