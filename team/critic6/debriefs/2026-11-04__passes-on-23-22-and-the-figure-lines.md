@@ -37,3 +37,7 @@ commits: this wake's commits on dev
 
 ## 17:53 wake
 - 91's pointers met. 90's uncleared pictures now held from print, rightly; three lines still promise a picture (90:7, 96, 123), three shoulds (critic6__012).
+
+## 18:53 wake
+- 22 and 23 under HL1 (the conductor lifts a hold, in present-tense text): both hold, neither says the team's rule changed. 23 clean a second pass running. 90's three lines met; one caption promises two shots and prints one (critic6__013).
+- A slip of my own: I recorded the plan step before running its sub-agent. I caught it before the gate, ran the plan and the pre-review for real, and recorded both again, with the slip named in the record. The step's comment must come from the step, never from me.

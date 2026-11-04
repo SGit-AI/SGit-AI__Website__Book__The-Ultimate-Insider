@@ -141,8 +141,7 @@ def main():
                     why = edition.unsafe_svg(f.read())
                 if why:
                     problems.append(f"{k}: {drawing} has {why}")
-            elif not drawing.startswith(edition.SHOTS) or not (drawing[len(edition.SHOTS):] in edition.SHOT_CLEARED
-                                                                or edition.SHOT_OK.match(drawing[len(edition.SHOTS):])):
+            elif not drawing.startswith(edition.SHOTS) or not edition.shot_allowed(drawing[len(edition.SHOTS):]):
                 problems.append(f"{k}: {drawing} is not a cleared screenshot")
     if problems:
         sys.exit("rc2_map: not written:\n  " + "\n  ".join(problems))
