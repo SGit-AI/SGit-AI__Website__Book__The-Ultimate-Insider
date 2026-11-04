@@ -39,7 +39,9 @@
    "The editions' prose, in the editor's voice with the cast's"
   ],
   "writes": [
-   "manuscript/rc2/**",
+   "manuscript/rc2/30/**",
+   "manuscript/rc2/70/**",
+   "manuscript/rc2/150/0*",
    "team/writer/**",
    "comms/issues/writer/**",
    "comms/mail/writer/**",
@@ -70,5 +72,12 @@
   "use religious words (RW1)",
   "build or describe anything attack-shaped",
   "contact a real person"
+ ],
+ "scope_changes": [
+  {
+   "when": "2026-11-04T03:33Z",
+   "what": "writes narrowed: manuscript/rc2/** becomes manuscript/rc2/30/**, manuscript/rc2/70/** and manuscript/rc2/150/0* (a narrowing: the three are subsets of the one removed)",
+   "why": "WR2, the editor's brief 2026-11-04 22 (\"why don't you create 4 writers ... that allows you to really operate in parallel\"): the full book split one part per writer; this writer keeps Start here, the introduction, chapters 00 to 09, and the 30- and 70-page editions (conductor__030)"
+  }
  ]
 }

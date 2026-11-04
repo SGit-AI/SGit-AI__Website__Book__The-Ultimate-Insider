@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer",
+ "kind": "scheduled, hourly at :28 London (ACC1)",
+ "started": "2026-11-04T03:28:51Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Go: ten letters; WR2 first (the writer's writes narrowed to rc2/30, rc2/70 and rc2/150/0*), letters to writer2 to 4 and the conductor; then 00b, 01 and 02 in the writer's part; 03, cast cards and Try this in later wakes as the storyteller's conventions land. Ran as the reviewer agent.",
+   "at": "2026-11-04T03:31:36Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Go with conditions: the policy change a strict narrowing (only scope.writes and a scope_changes entry; the three new globs are subsets of the removed rc2/**, not a widening); 00b prints only what C116 and C117 hold (for ruv.sgit.ai, not at; overnight; no Summit); 01 per delta 01 and the researcher; 02's security-chair text cited to brief 21 and delta 01, its other Checks held, the cut section's figure and band with it. Ran as the reviewer agent.",
+   "at": "2026-11-04T03:31:36Z"
+  },
+  "work": {
+   "by": "writer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Eleven letters taken; WR2: writes narrowed to rc2/30, rc2/70, rc2/150/0* (agents.py check prints the three as additions; they are subsets of the removed rc2/**, a narrowing); 00b, 01, 02 in his voice; six letters including the hand-overs; filing, status, debrief, board, REALITY.md. Gate clean, no overlaps.",
+   "at": "2026-11-04T03:34:32Z"
+  },
+  "post_review": {
+   "by": "security (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "clean",
+   "comment": "Diff 6d70bba8..d593f603 clean: policy narrowing only (the three new globs are subsets of the removed rc2/**; agents.py's 'widening' label is its naive comparison), 00b prints only C116/C117, 01 follows delta 01, 02's chair text word for word with Check items on whole %% lines; scope 0 outside, no overlaps, vault_check clean.",
+   "at": "2026-11-04T03:38:55Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "as-planned",
+   "comment": "Partial at first: policy scope_changes 'when' 03:40Z was after the commit; set to 03:33Z. Also fixed: 02's 'one minute to a quarter of an hour' reworded to agree with C118 (flagged for the editor), and 'the one thing made that night' back to 'was made that night'. Rebuilt, gate clean; as planned after the fixes.",
+   "at": "2026-11-04T03:38:59Z"
+  }
+ },
+ "closed": "2026-11-04T03:38:59Z",
+ "outcome": "ok"
+}
