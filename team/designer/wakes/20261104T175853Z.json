@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Done as the amended plan says. LAB 55: 08's two findings and 09's three, counts and times against 02:22 from C025, under the rail and D12 (the build refuses the rail's words); 04's banner pair as the writer gave it (the build refuses a model line, session id or key-like run). Resync with every DROPPED checked (00b takes the role cards, 09 the three rounds; 02 and 06 lose cut rows): 96 lines, 67 drawn. Letter 142; seven letters copied to done/; vault_check and gate clean.",
    "at": "2026-11-04T18:06:37Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "85db72d: the ch8 and ch9 cards show only times (02:22, 03:05, 04:10, 06:14) and C025's counts, with no value, site, field, kind of value, vault, read key, C068 times or 05:23; ch4 matches the writer's debrief, with no model line, session, key or URL; unsafe_svg passes all three; seven letters copied byte-identical, none moved; vault_check, agents check (0 outside) and validate clean. Tools: Bash, none refused.",
+   "at": "2026-11-04T18:08:09Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "85db72d: (1) resync done (00b takes LAB 27's cards, 02 and 06 drop cut rows, 09 takes the three rounds); (2) the 08 and 09 cards show only 02:22 and C025's times and counts, nothing of the rail; (3) the ch4 banner matches the writer's debrief; (4) letter 142 sent (a cc to the conductor, harmless); seven letters copied, originals kept; vault_check clean. Tools: Bash, none refused.",
+   "at": "2026-11-04T18:09:06Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T18:09:06Z",
+ "outcome": "ok"
 }
