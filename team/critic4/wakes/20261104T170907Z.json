@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic4",
+ "kind": "scheduled, hourly at :07",
+ "started": "2026-11-04T17:09:07Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "1. conductor__005 (HR1) and writer4__011 into done/. 2. Full PDF rebuilt in the scratchpad (nothing committed); 20, 21, 91, 92, 93 read in print and files; one note; critic4__014 to writer4; if 21 has a second clean print pass, critic4__015 to the conductor, proposed, not signed (SO1 open); 20 waits. 3. status.json, debrief.",
+   "at": "2026-11-04T17:09:50Z"
+  },
+  "pre_review": {
+   "by": "reviewer sub-agent (sonnet), in the same sub-agent as the plan",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "All writes inside scope.writes; PDF kept in the scratchpad; only proposes sign-off; no secrets or cross-member writes. vault_check comms; push only if dev is green (HR1).",
+   "at": "2026-11-04T17:09:50Z"
+  },
+  "work": {
+   "by": "critic4",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Letters into done/; PDF rebuilt in the scratchpad (nothing committed); 20, 21, 93, 94 clean in print; 21, 93, 94 proposed for sign-off (critic4__015, proposed, not signed); 90 held back (four Figure to come); request critic4__014; status, debrief; gate, vault_check clean; 0 outside scope.",
+   "at": "2026-11-04T17:12:28Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "10 files inside scope.writes; 0 outside scope; vault_check clean; no PDF or image; no em-dash, religious word, key, contact detail or attack-shaped text; sign-off only proposed (SO1 open).",
+   "at": "2026-11-04T17:13:01Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "All items done; 93 and 94 proposed on the critic's and mirror's counts together, within the plan; 20 and 90 held back.",
+   "at": "2026-11-04T17:13:01Z"
+  }
+ },
+ "closed": "2026-11-04T17:13:01Z",
+ "outcome": "ok"
+}
