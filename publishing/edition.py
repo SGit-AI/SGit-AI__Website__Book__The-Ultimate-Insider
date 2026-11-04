@@ -80,6 +80,9 @@ SHOT_NEVER = re.compile(r"admin__|qr|key|vault", re.I)
 SHOT_CLEARED = {  # cleared by name by security, admitted before SHOT_NEVER and SHOT_OK (AD1, the editor, 4 November 2026;
     "admin.jpg", "admin__dashboard.jpg", "admin__keys.jpg", "admin__vaults.jpg",  # security__014 to the publisher
     "book-site-front.jpg",  # security__013
+    "fullpage-talk-admin-engineering.jpg", "fullpage-book-admin-engineering.jpg",  # security__015
+    "fullpage-talk-admin-dashboard.jpg", "fullpage-book-admin-dashboard.jpg",
+    "fullpage-talk-admin-key-register-top.jpg", "fullpage-book-admin-key-register.jpg",
 }  # conductor__074: by name only, never by pattern
 UNSAFE_SVG = re.compile(r"<script|<foreignObject|\bon[a-z]+\s*=|@import|url\((?!\s*['\"]?#)"
                         r"|<(?:animate|animateMotion|animateTransform|set)\b|\\[0-9a-f]", re.I)  # SMIL, CSS escapes

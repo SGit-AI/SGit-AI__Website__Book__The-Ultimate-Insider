@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer4",
+ "kind": "scheduled, hourly at :35",
+ "started": "2026-11-04T04:36:06Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1) replies writer4__NNN to writer 179, storyteller 123, security 001 (fixed at 466312b), outbox copies, received letters into comms/mail/writer4/done/, vault_check comms. 2) adopt: ROLE.md, policy.json (adopted; 2* and 9*, no overlap), status.json with the task id, session key and QR (public halves only), the earlier wake records restored. 3) chapter 20 to the line map and rulings, Check items and unregistered facts on whole %% lines; checks asked by letter. Then build, validate, agents check, debrief, push to dev.",
+   "at": "2026-11-04T04:37:03Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "No overlap (writer 0*, writer2 10-15, writer3 16-19, writer4 2*, 9*); writes inside team/writer4 and its comms paths; received letters copied, not moved; only public key halves, nothing from ~/.sg-send/, never keyfile; vault_check on comms before commit.",
+   "at": "2026-11-04T04:37:21Z"
+  },
+  "work": {
+   "by": "writer4",
+   "model": "",
+   "verdict": "done",
+   "comment": "1) letters taken and answered: writer4__001 (writer, storyteller), writer4__002 (checks, five members; security 001 and historian 052 answered); board issues 001 to 005; copies in comms/mail/writer4/done/. 2) role adopted (ROLE.md, policy.json adopted, status.json, key public halves, session folder; earlier wake records restored). 3) 150/20 rewritten; three Check items and one fact held on whole %% lines. REALITY.md appended. Build and gate clean (935).",
+   "at": "2026-11-04T04:42:52Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "finding",
+   "comment": "No PRIVATE, em-dashes or religious words; writes in scope; vault_check clean; gate clean (935); no new numbers in 20. Finding: four held lines in 20 (15, 17, 32, 91) began with a single % and would have printed: fixed before the commit (a % format ate the %%); grep confirms none left. Mandate's write.repository.tenant was in the draft as staffed, not a widening by the member.",
+   "at": "2026-11-04T04:44:49Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "partial",
+   "comment": "Items 1 to 3 done; conditions kept; partial for the four single-% held lines, fixed before the commit. Unplanned: board issues 001 to 005, harmless.",
+   "at": "2026-11-04T04:44:49Z"
+  }
+ },
+ "closed": "2026-11-04T04:44:49Z",
+ "outcome": "ok"
+}

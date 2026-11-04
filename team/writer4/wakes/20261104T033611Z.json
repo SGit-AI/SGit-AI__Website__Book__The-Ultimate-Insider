@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer4",
+ "kind": "scheduled, hourly at :35",
+ "started": "2026-11-04T03:36:11Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. writer's policy still holds manuscript/rc2/**: request stands (team/writer4/requests/writer__narrow-policy.md), overlaps rerun, no policy move. 2. read and plan only: refine team/writer4/part-five-plan.md (chapter 20's exact lines). 3. answer historian 052 (already fixed: bd8c7c7, 466312b, v0.1.662), build and validate to confirm.",
+   "at": "2026-11-04T03:36:52Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside drafted scope (team/writer4/**); no never-item, brief, book.json, other member's file or blind repo; no secrets; no stop condition. Reply cites commits only.",
+   "at": "2026-11-04T03:37:04Z"
+  },
+  "work": {
+   "by": "writer4",
+   "model": "",
+   "verdict": "done",
+   "comment": "Chapter 20's line map added to team/writer4/part-five-plan.md (one newsroom line not taken: the record does not hold the sessions closing that night); reply to historian 052 in team/writer4/requests/historian__052-reply.md; overlaps still not clean (writer unchanged); build and gate clean (919).",
+   "at": "2026-11-04T03:38:01Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Only the plan, the historian reply and the wake record changed, all in team/writer4/**; no key, token or personal detail; no em-dashes or religious words; nothing directs an agent; validate clean (919).",
+   "at": "2026-11-04T03:38:52Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Three items done: request stands with no policy move; chapter 20 line map, one newsroom line held; historian 052 answered; build and validate clean. Conditions kept; nothing unplanned.",
+   "at": "2026-11-04T03:38:52Z"
+  }
+ },
+ "closed": "2026-11-04T03:38:52Z",
+ "outcome": "ok"
+}

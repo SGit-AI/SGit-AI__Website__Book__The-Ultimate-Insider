@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer4",
+ "kind": "first wake, staffed at the editor's word (WR2)",
+ "started": "2026-11-04T03:23:12Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. request to the writer: team/writer4/requests/writer__narrow-policy.md (team/writer4/** is in the drafted policy, not yet adopted: flagged) to act on conductor 030 so overlaps run clean. 2. read and plan part five (20-23, 90-94): no manuscript edits, no policy move. 3. create own scheduled task from schedule.json's writer4 entry (own session only).",
+   "at": "2026-11-04T03:24:09Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside the drafted policy; request file under team/writer4/**; no manuscript, book.json or other-member writes; no secrets. Task creation: never-list allows its own at the editor's word in its session (WR2, the editor's word in this session), but mandate not_wanted lists create.schedule.tenant: record the word and the conflict; create only writer4's task.",
+   "at": "2026-11-04T03:24:32Z"
+  },
+  "work": {
+   "by": "writer4",
+   "model": "",
+   "verdict": "partial",
+   "comment": "Request to the writer filed; own task created (trig id in debrief only after adoption; conflict create.schedule.tenant not_wanted vs ROLE.md step 4 recorded, at the editor's word in this session); part five planned in team/writer4/part-five-plan.md; no chapter touched (overlaps not clean). This record stays untracked until adoption: the gate's link check fails on a wake for a member with no page.",
+   "at": "2026-11-04T03:27:20Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "All four untracked files inside the drafted scope; no key, token or personal detail; no em-dashes or religious words; no directives to agents; validate clean (914). Own-task conflict recorded; conductor to reword the mandate line for the writers. agents.py 'no member' expected before adoption.",
+   "at": "2026-11-04T03:28:07Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "(1) request to the writer done; (2) part five planned, no manuscript edits; (3) own task per the debrief (schedules not visible to the step). Pre-review conditions kept. Nothing unplanned; wake record untracked until adoption, noted.",
+   "at": "2026-11-04T03:28:24Z"
+  }
+ },
+ "closed": "2026-11-04T03:28:24Z",
+ "outcome": "partial"
+}

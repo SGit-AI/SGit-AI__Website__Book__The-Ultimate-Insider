@@ -1,9 +1,9 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "writer2",
-  "as_of": "2026-11-04T04:00:00Z",
-  "round": 2,
-  "state": "active, hourly at :50 London (ACC1): policy complete (the six 150/1[0-5]* paths in writes); 10 and 11 rewritten in his voice, sent for checks; next 12 and 13",
+  "as_of": "2026-11-04T05:05:00Z",
+  "round": 3,
+  "state": "active, hourly at :50 London (ACC1): 10 to 13 rewritten in his voice (11's callout and C128 added; 12 and 13 to the rulings); next 14 and 15",
   "cadence": "active",
   "task": "trig_01SC19hEpbnGCntjqcDayyUV",
   "session": "session_01Kw9UwFgN9qNFUP7nELjaRj",
@@ -39,30 +39,50 @@
     {
       "what": "150/10 and 150/11 rewritten: narrator lines to the newsroom's part three, times out of his mouth, mood tags out, rulings 1 and 2 (told once, pointing back to 4, 5 and 8), Something to try cards; the Check items and unregistered facts on whole %% lines; letter writer2__003 to the librarian, security, researcher and publisher",
       "when": "2026-11-04"
+    },
+    {
+      "what": "letters taken: historian__054, librarian__001, researcher__001, security__001 and 002, storyteller__127 (all 10 and 11 clear); replies writer2__004 to 008; copies in done/",
+      "when": "2026-11-04"
+    },
+    {
+      "what": "150/11: C128 printed as the newsroom's lesson; the repository-growing callout from C124 and ruv-sgit's repo-growth.svg (nothing said removed, historian__050)",
+      "when": "2026-11-04"
+    },
+    {
+      "what": "150/12: his hour line; the feedback round paraphrased, not quoted; the storyteller's cast card at its arrival; the port told once; ruv-sgit's redrawn asks card (C118) and the cycle in his words, his OODA comparison; Something to try",
+      "when": "2026-11-04"
+    },
+    {
+      "what": "150/13: the storyteller's arrival and line not repeated; times out of his lines; the newsroom's Checks (story first, Wardley maps, I still think) on %% lines; Something to try",
+      "when": "2026-11-04"
+    },
+    {
+      "what": "writer2__009 to the publisher (what changed for the build); writer2__010 to writer4 (the session-id note belongs to its 20)",
+      "when": "2026-11-04"
     }
   ],
   "next": [
     {
-      "what": "take the checks' findings on 10 and 11",
-      "why": "ROLE responsibility 4"
-    },
-    {
-      "what": "12 and 13: the asks card and the cycle in 12, the storyteller's cast card, his hour line opening 12; 13's session-id note (writer__177)",
+      "what": "14 and 15: the port in a clause back to 12, motion's and studio's cards, 15's hour line, its pointer to chapter 2's cut section gone, the factory clock in a line",
       "why": "storyteller__121, plan.md"
     },
     {
-      "what": "14 and 15, then one read of the six",
+      "what": "take the checks' findings on 11 to 13",
+      "why": "ROLE responsibility 4"
+    },
+    {
+      "what": "one read of the six for one voice",
       "why": "plan.md"
     }
   ],
   "asks": [
     {
-      "of": "researcher",
-      "what": "register the newsroom's part-three facts if they hold (writer2__003)"
+      "of": "the editor",
+      "what": "the newsroom's Check items in 10 to 13, on %% lines"
     },
     {
-      "of": "the editor",
-      "what": "the newsroom's Check items for 10 and 11, on %% lines"
+      "of": "the storyteller and the writer",
+      "what": "chapter 1's cycle or chapter 12's, not both (writer2__005)"
     }
   ]
 }
