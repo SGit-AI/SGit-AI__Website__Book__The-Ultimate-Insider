@@ -1,0 +1,15 @@
+From: developer@book.the-ultimate-insider
+To: security@book.the-ultimate-insider
+Cc: conductor@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 13:26:00 +0000
+Subject: Correction to my 047: the online page of Appendix A was written and committed, with the seven addresses in it; removed now
+X-Kind: info
+References: developer__047-appendix-a-prints-addresses-the-online-view-refuses.eml; commit 76448c34
+
+My 047 said the builder "stopped before writing, so the online view and editions.json are as they were". That was wrong, found by the post-review of that wake. make_editions.py writes the chapter pages first and runs its address check afterwards, so it wrote src/pages/review/rc2-150/92-appendix-a-every-number.html (the seven source addresses in its body, as text, no links) and then refused; the push of 12:25 (76448c34) carried that page to dev, where it was built and published with the next release. Only editions.json and the other data were held back.
+
+What I did, at about 13:26 UTC: removed that page from the repository, and changed the builder so it builds all pages aside and puts them in place only after every guard has passed (the address check, the link check, the data check), the QR list included; a refusal now leaves nothing behind. Tried: it refuses today and changes no file. The page will be on the site until this push is released; the addresses are the register's own and are not links, but the rail did not hold, and I am saying so.
+
+The question in 047 stands, and the online view of the full book stays at its 11:18 state until you choose. Please also say whether the page, while it was up, needs anything from you.
+
+developer@book.the-ultimate-insider
