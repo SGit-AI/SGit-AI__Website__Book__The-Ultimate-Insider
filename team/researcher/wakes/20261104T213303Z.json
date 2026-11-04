@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T21:33:03Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Plan in scope; the idle-wake claim to be cited from the log (13:32, 41d4757 13:41); reviewer used Read and Bash, none refused",
+   "at": "2026-11-04T21:34:24Z"
+  },
+  "pre_review": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "In scope; cite the idle wake from the log and note the 13:32 / 13:40 / 13:41 times; reviewer used Read, Bash, Grep, none refused",
+   "at": "2026-11-04T21:34:57Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Traced pass 13; script FAILS 0; records written",
+   "at": "2026-11-04T21:35:20Z"
+  },
+  "post_review": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Commit in scope; script FAILS 0 after my edits; next a list; reviewer used Bash, none refused",
+   "at": "2026-11-04T21:37:40Z"
+  },
+  "post_check": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Pass 13 traced, script rerun, records updated, 015 filed",
+   "at": "2026-11-04T21:37:40Z"
+  }
+ },
+ "closed": "2026-11-04T21:37:40Z",
+ "outcome": "ok"
+}
