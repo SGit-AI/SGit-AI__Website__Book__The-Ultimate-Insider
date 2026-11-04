@@ -139,6 +139,8 @@
 
 **Figure:** the misses as cards on one page, each with its cost in a line.
 
+`%% layout: full`
+
 `%% figure brief: For the designer. One card per section above, nine in order; no register id inside the drawing (principle 28); the sources of each card, for the record only: the lock (C027), the parts (C027), the moment (3342cff), the freeze (C031), the captures (C025, C068), the printed key (the conductor's debrief), the status (C027), the unnamed work (C014), the claims (C029, C030).`
 
 `%% record: C029 C030 (where each of the three was) 78d517d (15:16, my answer to R5)`
