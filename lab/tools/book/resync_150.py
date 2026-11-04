@@ -42,6 +42,17 @@ PLACED = {
         "the loop from chapter 2": ("lab/experiments/37-designer-rc2-chapters-1-2/ch1-loop.svg",
                                     "the named cycle, think, explain, create, review (writer2 022)"),
     },
+    "rc2/150/16-hour-nineteen-minute-by-minute.md": {
+        "the hold file as a page": ("lab/experiments/42-designer-rc2-seventy/ch10-hold-file.svg", "the designer's hold file"),
+        "the last ten minutes as a line": ("lab/experiments/39-designer-rc2-chapter-4/ch4-last-ten-minutes.svg",
+                                           "the designer's last ten minutes (the publisher's 050, critic3's proposal)"),
+        "the team's tally": ("lab/experiments/53-designer-team-tally/team-tally.svg", "the designer's tally (LAB 53), from C119"),
+        "the dashboard after the stop": ("lab/experiments/42-designer-rc2-seventy/ch2-dashboard.svg", "the designer's dashboard"),
+    },
+    "rc2/150/17-what-did-not-work.md": {
+        "the misses as cards on one page": ("lab/experiments/43-designer-rc2-full-book/ch17-nine-misses.svg",
+                                             "the designer's nine misses, read from chapter 17 at build (critic3 007)"),
+    },
     "rc2/150/94-the-making-of-this-book.md": {
         "this book's team arriving": ("lab/experiments/51-designer-book-team-arriving/book-team-arriving.svg",
                                       "the designer's twelve arriving (LAB 51), from C131"),
@@ -94,6 +105,9 @@ def main(write):
                     drawing, status = None, "to draw"
             slots.append(drawing)
             notes.append(f"{j + 1}. {status} | **Figure:** {text[:60]}")
+        gone = [x for x in old_s if x and x not in slots]
+        if gone:  # a drawing that was placed and is placed no longer: say so, so a reworded line never drops one silently
+            report.append(f"  DROPPED from {k}: " + ", ".join(Path(x).name for x in gone))
         if slots != old_s or len(notes) != len(old_n):
             report.append(f"{k}: {len(old_s)} slots -> {len(slots)}; " +
                           "; ".join(f"{i + 1} {Path(s).name if s else '-'}" for i, s in enumerate(slots)))

@@ -10,15 +10,16 @@
    its 9 pt text at about 5.5 pt. A drawing with text goes beside only if it is drawn about 85 mm wide (its type then stays
    9 pt); otherwise "full". The lab build's 9 pt check catches it.
 
-   Markup the build gives it: <figure class="pair-beside"> or <figure class="pair-full"> around the image and caption.
+   Markup the build gives it: <div class="pair-beside"> or <div class="pair-full"> around the figure (pandoc puts a
+   figure's classes on the image, so the publisher's build wraps it in a div, its 051); the figure.pair-* forms are kept.
 */
-figure.pair-beside { float: right; width: 55%; margin: .2em 0 .6em 1em; break-inside: avoid; page-break-inside: avoid; }
-figure.pair-beside img, figure.pair-beside svg { display: block; width: 100%; height: auto; max-height: none; }
-figure.pair-beside + p, figure.pair-beside + p + p { hyphens: auto; }
-figure.pair-full { clear: both; width: 100%; margin: .6em 0 .9em; break-inside: avoid; page-break-inside: avoid; break-before: avoid; page-break-before: avoid; }
-figure.pair-full img, figure.pair-full svg { display: block; width: 100%; height: auto; max-height: 4.6in; object-fit: contain; }
+figure.pair-beside, div.pair-beside { float: right; width: 55%; margin: .2em 0 .6em 1em; break-inside: avoid; page-break-inside: avoid; }
+figure.pair-beside img, figure.pair-beside svg, div.pair-beside img, div.pair-beside svg { display: block; width: 100%; height: auto; max-height: none; }
+figure.pair-beside + p, figure.pair-beside + p + p, div.pair-beside + p, div.pair-beside + p + p { hyphens: auto; }
+figure.pair-full, div.pair-full { clear: both; width: 100%; margin: .6em 0 .9em; break-inside: avoid; page-break-inside: avoid; break-before: avoid; page-break-before: avoid; }
+figure.pair-full img, figure.pair-full svg, div.pair-full img, div.pair-full svg { display: block; width: 100%; height: auto; max-height: 4.6in; object-fit: contain; }
 /* a heading never waits alone at the foot for the pair below it */
-h2 + figure.pair-full, h3 + figure.pair-full { break-before: avoid; page-break-before: avoid; }
+h2 + figure.pair-full, h3 + figure.pair-full, h2 + div.pair-full, h3 + div.pair-full { break-before: avoid; page-break-before: avoid; }
 h2, h3 { break-after: avoid; page-break-after: avoid; }
 
 /* the words box: a small mark, an open book, so it reads as one of the page's visuals (as the version he liked did) */

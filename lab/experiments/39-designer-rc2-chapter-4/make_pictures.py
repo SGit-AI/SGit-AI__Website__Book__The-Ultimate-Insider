@@ -73,9 +73,9 @@ def last_ten(clone):
         lx, ly = place[h]
         x = sx(by_hash[h])
         out.append(mc.line(x, base - 3, lx, ly + 1.4, mc.FILL2, .3))
-        out.append(t(lx, ly - 2.6, words, 700, anchor="middle") + t(lx, ly + 1.2, ids, 400, mc.MUTED, "middle"))
-    out.append(t(x0, base + 11, "every commit from 18:36 to 18:46 at 298be4e, one dot each; the named ones in the accent", 400, mc.MUTED))
-    return mc.svg(164, base + 13, "".join(out), "The last ten minutes before the talk was due, every commit a dot, the named moments labelled")
+        # the moment's words only: its hashes and ids live on the record line (P28, convention 8; critic3 007)
+        out.append(t(lx, ly - .6, words, 700, anchor="middle"))
+    return mc.svg(164, base + 7, "".join(out), "The last ten minutes before the talk was due, every commit a dot, the named moments labelled")
 
 
 def clock_stopped(clone):
