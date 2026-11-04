@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T03:47:56Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; Bash read only)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope. Condition: fit-tails stops at spacing; line height 1.42 is the designer's look, asked of the designer before any change. The librarian's policy is not mine: the librarian through the conductor, the editor to agree.",
+   "at": "2026-11-04T03:49:37Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No HOLD; asks-card.svg passes unsafe_svg. Conditions: the loop capped at two rebuilds, a tail left reported; stderr only repo-relative lab paths and chapter names; EPUB trial in the scratchpad only; vault_check and gate.",
+   "at": "2026-11-04T03:49:37Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "fit-tails (spacing only, two rebuilds at most; five of nine tails gone; four reported); figure-to-come boxes kept with the text before; figure names printed; chapter 2's asks card (override); EPUB trial in the scratchpad; letters conductor 051, designer 043, developer 003, ruv-sgit 018, librarian 001; records",
+   "at": "2026-11-04T03:52:32Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "26 staged in scope; no PDF, EPUB or PNG; at most three renders; the fit classes only on the temporary copies; fit rules margins and padding only (orphans/widows in fit2); letters clean; vault_check clean.",
+   "at": "2026-11-04T03:54:13Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "",
+   "verdict": "off-plan",
+   "comment": "Drifted, minor: every item delivered; three small extras outside the plan's words: the figure-to-come boxes kept with the text before, fit2's orphans and widows at 2 (pagination, not spacing), and rc2_map's own regenerated slots for chapter 2 (its new fourth line). None a hold; told in the debrief.",
+   "at": "2026-11-04T03:54:55Z"
+  }
+ },
+ "closed": "2026-11-04T03:54:55Z",
+ "outcome": "ok"
+}

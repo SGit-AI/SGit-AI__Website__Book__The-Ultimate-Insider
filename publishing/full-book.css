@@ -19,7 +19,8 @@ h2 { margin-top: 22pt; }
 
 /* the flow: no line left alone at a page's foot or head; a figure stays with the paragraph before it */
 p { orphans: 3; widows: 3; }
-figure { break-before: avoid; }
+figure, .figure-todo { break-before: avoid; }
+.figure-todo { break-inside: avoid; }
 
 /* a chapter's "Do this now" stays with the text before it, so a chapter does not end on a page holding only that line */
 section[id^="do-this-now"] { break-before: avoid; break-inside: avoid; }
@@ -34,3 +35,17 @@ header#title-block-header { padding-top: 0.4in; }
    drawn-in captions are the designer's to drop */
 figure { display: flex; flex-direction: column; align-items: center; }
 figure figcaption { order: -1; align-self: stretch; margin: 0 0 5pt; font-style: normal; }
+
+/* fit-tails ("#! fit-tails" in the list; publishing/build_book.py): a chapter whose last page held only a few lines is
+   set a little tighter, spacing only (the type and the line height stay); level 2 if a tail is still left */
+section.fit1 figure, section.fit1 .figure-todo { margin: 9pt 0 10pt; }
+section.fit1 .band { margin-top: 7pt; margin-bottom: 13pt; }
+section.fit1 .words-box { margin: 8pt 0 9pt; padding: 5pt 8pt; }
+section.fit1 h2 { margin-top: 15pt; }
+section.fit1 .speaker p { margin-bottom: 3pt; }
+section.fit2 figure, section.fit2 .figure-todo { margin: 6pt 0 7pt; }
+section.fit2 .band { margin-top: 5pt; margin-bottom: 9pt; }
+section.fit2 .words-box { margin: 6pt 0 6pt; padding: 4pt 7pt; }
+section.fit2 h2 { margin-top: 11pt; }
+section.fit2 .speaker p { margin-bottom: 2pt; }
+section.fit2 p { orphans: 2; widows: 2; }
