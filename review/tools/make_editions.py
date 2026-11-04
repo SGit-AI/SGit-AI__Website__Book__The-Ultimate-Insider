@@ -551,6 +551,7 @@ def main(talk_path):
         print(f'warning: manuscript/editions/{u}/ is an edition this tool does not build', file=sys.stderr)
     unbuilt_note = (f' Not yet online: {", ".join(f"<code>manuscript/editions/{html.escape(u)}/</code>" for u in unbuilt)}, a newer edition this page does not build yet.' if unbuilt else '')
     zmeta = {'title': 'The zoom: the book at every length', 'description': 'One Human, Nine Agents, Nineteen Hours from 3 pages to the full first version: start small, zoom in.'}
+    zoom_old = (OUT.parent / 'zoom.html').read_text() if (OUT.parent / 'zoom.html').exists() else None
     (OUT.parent / 'zoom.html').write_text(
         f'<!--meta {json.dumps(zmeta)} -->\n<section class="wrap narrow" data-no-third-party>\n<p class="kicker">The book · ZM1</p>\n<h1>The zoom: the same story at every length</h1>\n'
         f'<p class="lead">Start small and zoom in. Each length is written from the one above it, and the longer ones keep the shorter ones\' lines.</p>\n<ol class="zoom">\n'
@@ -561,6 +562,11 @@ def main(talk_path):
         f'<li><b>The full book, being written</b>: <a href="rc2-150/index.html">online, with the record under each scene</a> · <a href="rc2-150/pages.html">page by page</a></li>\n'
         f'<li><b>The full first version, RC1</b>: <a href="read/index.html">online, with every source linked</a> · <a href="{{{{root}}}}review/rc1-book.json">as data</a></li>\n</ol>\n'
         f'<p class="note">The 70-page edition and the full book grow as the writer drafts them.{unbuilt_note} Made by <code>review/tools/make_editions.py</code>.</p>\n</section>\n')
+    bad = page_attribute_problem((OUT.parent / 'zoom.html').read_text())   # the zoom page is written last, so it is read last (post-review): a refusal puts the old page back
+    if bad:
+        if zoom_old is not None:
+            (OUT.parent / 'zoom.html').write_text(zoom_old)
+        sys.exit(f'zoom.html: an attribute or url() the review pages may not carry: {bad}')
 
 
 if __name__ == '__main__':
