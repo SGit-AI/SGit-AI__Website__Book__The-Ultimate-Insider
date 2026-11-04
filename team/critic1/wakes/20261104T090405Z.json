@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic1",
+ "kind": "scheduled, hourly at :03 London",
+ "started": "2026-11-04T09:04:05Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1) take writer__208 (copy to done); 2) 04 a fourth time (one clean pass so far: if clean, propose it in status.json and a letter to the conductor, nothing marked signed), 03 as rewritten, 03b first read (P20); note; letter to writer@ only with findings; 3) status.json, debrief. Inside policy. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T09:04:37Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside scope.writes and the never-list; 04 only proposed in status.json and a letter, nothing marked signed (SO1); no secrets, no cross-member writes, no stop condition. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T09:04:48Z"
+  },
+  "work": {
+   "by": "critic1",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "letter taken (copy to done); 04 second clean pass running, proposed for sign-off to the conductor (critic1__007; SO1 open, not signed); 03 first clean pass; 03b first read clean; note 005 (3 could), letter critic1__008 to the writer; status (proposed_for_signoff), debrief. No tool refused.",
+   "at": "2026-11-04T09:06:47Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "9 staged paths inside scope.writes; vault_check clean; agents check 0 outside scope; no em-dashes, religious words, keys, tokens or contact details; no manuscript or other member's file; 04 proposed only (status.json 'proposed, not signed, SO1 open', the note, 007 and 008); letters in role. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T09:07:08Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "writer__208 taken; 04 a second clean pass running (07:15 two shoulds, 08:15 and 09:15 clean), proposed only, not signed, SO1 open (status.json, 007); 03 and 03b read; 008 copies identical; status and debrief; quotes at 04:9 and 03b:3 match. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T09:07:32Z"
+  }
+ },
+ "closed": "2026-11-04T09:07:32Z",
+ "outcome": "ok"
+}

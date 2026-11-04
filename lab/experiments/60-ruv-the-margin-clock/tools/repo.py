@@ -47,14 +47,15 @@ def main():
     first, last = hours[0], hours[-1]
     peak = max(h['files'] for h in hours)
     W, H = 164.0, 92.0
+    SHIFT = 6.0
     x0, x1, base, top = 6.0, 158.0, 66.0, 16.0
     step = (x1 - x0) / len(hours)
     bw = step * .7
     label = ('The talk\'s repository at the end of each hour of 29 October: its files by kind, stacked, '
              'one bar per hour from 00 to 18.')
-    s = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W:g}mm" height="{H:g}mm" viewBox="0 0 {W:g} {H:g}" role="img" '
+    s = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W:g}mm" height="{H - SHIFT:g}mm" viewBox="0 0 {W:g} {H - SHIFT:g}" role="img" '
          f'aria-label="{escape(label, quote=True)}">',
-         t(x0, 6.0, 'The repository growing by the hour: its files by kind', PT * 1.1, 800, INK)]
+         f'<g transform="translate(0,-{SHIFT})">']                    # no drawn title: the Figure line is the caption (26)
     for i, h in enumerate(hours):
         x = x0 + i * step + (step - bw) / 2
         y = base
@@ -81,6 +82,7 @@ def main():
              '"Other" is everything else: images, text files, scripts, QR codes. Every value: the register, C124.']
     for j, n in enumerate(notes):
         s.append(t(x0, base + 13.0 + j * 3.4, n, TINY, 400, MUTED, 'start', 'italic' if j < 2 else ''))
+    s.append('</g>')
     s.append('</svg>')
     svg = '\n'.join(s) + '\n'
     why = unsafe_svg(svg)

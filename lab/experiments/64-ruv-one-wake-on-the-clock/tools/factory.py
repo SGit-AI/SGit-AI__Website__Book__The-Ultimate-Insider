@@ -42,12 +42,13 @@ def main():
     assert c['state'] == 'checked'
     slots = sorted(((int(v.strip(':')), m) for m, v in c['value'].items()))
     W, H = 164.0, 92.0
+    SHIFT = 10.0
     cx, cy, R = 60.0, 47.0, 30.0
     label = ('The factory\'s hour as a clock face: each member\'s turn at its own minute past the hour, '
              'the turn passing round the face, every hour of the day.')
-    s = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W:g}mm" height="{H:g}mm" viewBox="0 0 {W:g} {H:g}" role="img" '
+    s = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W:g}mm" height="{H - SHIFT:g}mm" viewBox="0 0 {W:g} {H - SHIFT:g}" role="img" '
          f'aria-label="{escape(label, quote=True)}">',
-         t(2, 6.0, 'The factory\'s hour: each member wakes at its own minute', 800, INK, 'start', PT * 1.1),
+         f'<g transform="translate(0,-{SHIFT})">',                   # no drawn title: the Figure line is the caption (26)
          f'<circle cx="{cx}" cy="{cy}" r="{R}" fill="{FILL}" stroke="{FILL2}" stroke-width=".4"/>']
     for m in range(60):
         x0, y0, _ = pol(cx, cy, R - (2.6 if m % 15 == 0 else 1.2), m)
@@ -87,6 +88,7 @@ def main():
     s.append(t(nx0, 30.0 + len(lines) * 4.6 + 10.2, 'read at the next turn.', 400, MUTED, 'start', SMALL, 'italic'))
     s.append(t(2, H - 5.4, 'The schedule as it stood at the end of the day (C071); it ran every hour, and members joined it', 400, MUTED, 'start', SMALL))
     s.append(t(2, H - 1.8, 'through the day. Each dot is a slot on the schedule, not a wake that ran.', 400, MUTED, 'start', SMALL))
+    s.append('</g>')
     s.append('</svg>')
     svg = '\n'.join(s) + '\n'
     why = unsafe_svg(svg)

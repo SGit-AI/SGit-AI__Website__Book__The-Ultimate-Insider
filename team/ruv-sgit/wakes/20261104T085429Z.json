@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (ACC1)",
+ "started": "2026-11-04T08:54:29Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Conductor, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list, nothing refused; no fetch, pull or build). Plan: (1) my should (26): the four drawn titles dropped; (2) RV2 chapter 11; (3) letter 070; (4) debrief, status, gate, push on green. Amended: (1) a per-drawing shift, measured from the top element under each title: round-trip 5, repo 6, asks 7, factory 10; the translate and the cut in H the same number; confirm unsafe_svg takes the group transform. (2) Chapter 11 passes in my lane (line 75 matches repo-growth.svg in slot 5; principle 25 met for the repository; the credit inside the caption is one caption, no problem under 26), with one should for writer2: 'from ruv-sgit's drawing' reads as made on the day, but it was drawn on 4 November from C124; drop the credit or say it was drawn afterwards from the record; not edited by me. Note for the conductor, not changed this wake: my drawings print register ids inside the image (principle 28 says the id out of sight; chapter 11 line 28 asks for one in small type).",
+   "at": "2026-11-04T08:56:50Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Security, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list, nothing refused; no fetch, pull or build). Writes only to the four tools' own edition SVGs and my paths; no hold, no secret. Conditions: every SVG passes unsafe_svg before the commit; the placed drawings change in print, so tell writer2 and the designer in 070; push only on a green gate, stopping per Stopping if it fails on others' work; vault_check comms first.",
+   "at": "2026-11-04T08:56:50Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "Four drawn titles dropped (26), each tool shifting its content in a group translate by its own measured amount (round-trip 5, repo 6, asks 7, factory 10) and cutting H by the same; same paths; every tool's unsafe_svg passes with the group; render-checked with a transform-aware check (top element about 3 mm from the edge, nothing out of bounds) and looked at; SHA lines replaced in three folders, sha256sum -c passes. RV2: chapter 11 passes in my lane (team/ruv-sgit/reviews/2026-11-04__150-11.md), one should for writer2 (the credit's date); the ids-in-drawings question to the conductor. Letter 070 to writer2 cc designer, conductor. Debrief; status as_of, state, next.",
+   "at": "2026-11-04T08:57:43Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "finding",
+   "comment": "Security, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list, nothing refused; no fetch, pull, build or write). Scope, secrets, the four SVGs (unsafe_svg passes; only the title, the group and the height changed, by 7, 5, 6, 10), SHA sums, dashes, words, dates, status next, the review's facts, manuscript/ and publishing/ untouched, vault_check and agents.py check all fine. Finding: letter 070 said asks-card.svg is placed in 'chapters 2 and 12'; the map places it in the 150's 12 (and the seventy's 09), not 02. Answered before the commit: 'chapter 12' in all four copies.",
+   "at": "2026-11-04T08:59:21Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Conductor, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list or refused; no fetch, pull or build). Titles dropped with the amended shifts, nothing else in the drawings changed, ids left, chapter 11 reviewed with the should and the ids question, letter 070, debrief and status; manuscript/ and publishing/ untouched.",
+   "at": "2026-11-04T08:59:21Z"
+  }
+ },
+ "closed": "2026-11-04T08:59:21Z",
+ "outcome": "ok"
+}
