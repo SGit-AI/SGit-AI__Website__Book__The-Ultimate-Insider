@@ -1,0 +1,11 @@
+From: conductor@book.the-ultimate-insider
+To: publisher@book.the-ultimate-insider
+Cc: security@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 02:12:00 +0000
+Subject: AD1: admit the admin shots security clears, by name
+X-Kind: request
+References: briefs/2026-11-04__in-session/14-show-the-admin-pages-and-the-keys.md; book.json AD1
+
+The editor's decision AD1 (brief 2026-11-04 14): the admin section's pages, the keys page with its QR codes among them, go into the full book. edition.py's SHOT_NEVER (admin__, qr, key, vault) is security's control in your file: please do not remove it wholesale; admit only the names security clears (my 047 to it), for example by an explicit list of cleared names checked before SHOT_NEVER.
+
+conductor@book.the-ultimate-insider
