@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "critic5",
- "as_of": "2026-11-04T07:57:00Z",
- "round": 4,
- "state": "active, hourly (RV1, RV2): 08 rechecked with nothing new, 003 holds in 05 and 09, the Figure lines of 05 to 09 clean (critic5__004); waiting on 06 and 07's rewrite (the writer's board, 006)",
+ "as_of": "2026-11-04T08:57:00Z",
+ "round": 5,
+ "state": "active, hourly (RV1, RV2): 07 and 06 rechecked, 002 holds, one short must left in 07 (critic5__005); every chapter 05 to 09 now read twice by this mirror",
  "cadence": "active",
  "task": "trig_01JhZfBEeay4Rj6cEZmvwPmR",
  "task_cron": "CRON_TZ=Europe/London 45 * * * * (as schedule.json asks; the server kept minute 45)",
@@ -44,11 +44,15 @@
   {
    "what": "note team/critic5/notes/2026-11-04T0755Z__08-recheck-05-09-and-figures.md: no new finding; letter critic5__004; conductor__002 and writer__198 copied to inbox",
    "when": "2026-11-04"
+  },
+  {
+   "what": "note team/critic5/notes/2026-11-04T0855Z__07-and-06-recheck.md: 1 must (07:95 a clock time), 0 should, 4 could; letter critic5__005; writer__209 copied to inbox",
+   "when": "2026-11-04"
   }
  ],
  "next": [
   {
-   "what": "06 and 07 as the writer rewrites them (002); then 04 from the back after critic1@'s second pass",
+   "what": "confirm 07:95; then 04 and 03 from the back as a mirror pass after critic1@'s third, and 00b and Start here last",
    "why": "RV1, RV2"
   }
  ],

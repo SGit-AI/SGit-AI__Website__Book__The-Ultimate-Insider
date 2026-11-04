@@ -1,0 +1,30 @@
+{
+ "schema": "the-ultimate-insider/synthetic-section-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "first-build-finisher", "read_at": "2d460f26",
+ "would_read_on": {"03b-the-day-at-a-glance": "yes", "03-the-tour": "maybe", "94-the-making-of-this-book": "no"},
+ "findings": [
+  {"file": "03-the-tour.md", "line": 5, "quote": "Before I tell you how the factory worked", "principle": "reader", "severity": "must", "why": "The factory is the book's central idea and it is never said in plain words what it is (a team of AI agents?) before the tour starts, so a new reader cannot tell what they are being shown."},
+  {"file": "03-the-tour.md", "line": 35, "quote": "it still shows the hold of that night", "principle": "reader", "severity": "should", "why": "Hold and wake are used here and the plain definitions only arrive at line 41, after the reader has already stumbled."},
+  {"file": "03-the-tour.md", "line": 39, "quote": "The page shows what the files say. The files say we stopped. So the page says we stopped.", "principle": "7", "severity": "could", "why": "Three short sentences in a row, and the Conductor speaks before the reader has been told who the conductor is."},
+  {"file": "03-the-tour.md", "line": 21, "quote": "Every one of its 58 beats is a page that moves", "principle": "reader", "severity": "should", "why": "Beats is unexplained jargon and a page that moves is not something I can picture; a non-programmer wants slide, simply."},
+  {"file": "03-the-tour.md", "line": 23, "quote": "every slide has a link, a history and a check before it goes out", "principle": "reader", "severity": "should", "why": "History and check mean version control and automated testing to a programmer, and nothing to me; it makes the tour feel written for developers."},
+  {"file": "03-the-tour.md", "line": 7, "quote": "*How to read the scenes:* they are dramatised.", "principle": "6", "severity": "could", "why": "A label that tells the reader how to read, where a plain sentence from the narrator saying the lines are written for the book would do."},
+  {"file": "03-the-tour.md", "line": 53, "quote": "plan, go, done, clean, as planned", "principle": "reader", "severity": "should", "why": "A string of five bare words with no explanation of what each one marks, so the sentence about 162 records tells me nothing."},
+  {"file": "03-the-tour.md", "line": 85, "quote": "their read keys were published on purpose too", "principle": "reader", "severity": "must", "why": "Vaults, read keys and fingerprints are the densest jargon in the chapter, arrive in one paragraph, and make it feel like security work for programmers."},
+  {"file": "03-the-tour.md", "line": 59, "quote": "Read in order, they are the team talking.", "principle": "6", "severity": "could", "why": "An instruction on how to read; the thought (the commits are the agents talking to each other) can be said as a plain fact."},
+  {"file": "03-the-tour.md", "line": 61, "quote": "The page and my register do not agree on the wakes", "principle": "reader", "severity": "should", "why": "Register and the mismatch of one count is bookkeeping a first reader skims, and it interrupts the stop before they get to the point."},
+  {"file": "03b-the-day-at-a-glance.md", "line": 5, "quote": "every wake started by the clock", "principle": "reader", "severity": "should", "why": "Wake is used with no explanation on the first page that uses it; the sentence about the four parts is otherwise a clear, followable map."},
+  {"file": "03-the-tour.md", "line": 109, "quote": "That list is often shorter than you expect", "principle": "6", "severity": "could", "why": "It guesses what the reader expects; the invitation itself, the one step I could take tomorrow, is the best thing here and needs no forecast."},
+  {"file": "94-the-making-of-this-book.md", "line": 7, "quote": "with the talk team's machinery copied in, rule for rule", "principle": "reader", "severity": "must", "why": "Machinery, session, key and hand-off arrive in one paragraph with no definition, and the page reads as a project log for people who already run such teams."},
+  {"file": "94-the-making-of-this-book.md", "line": 11, "quote": "when the build went red for everyone", "principle": "reader", "severity": "should", "why": "Build and went red are programmer shorthand, and hold on its own judgement leans on a definition that sits in another chapter."},
+  {"file": "94-the-making-of-this-book.md", "line": 11, "quote": "The team lost an evening to the usage limit, which chapter 21 tells.", "principle": "21", "severity": "could", "why": "The usage limit and the handover are told in lines 9 and 11 and sent to chapters 20 and 21 as well, so the page points elsewhere for what it half tells."}
+ ],
+ "what_holds": [
+  "03b-the-day-at-a-glance.md: the four parts with hour ranges give me a map of the day in three short paragraphs, and the figure promises a picture I can follow.",
+  "03-the-tour.md: four stops, each with one picture, a few lines and one line from an agent, are characters I can follow; the Deck line about every rule costing somebody a slide is vivid.",
+  "03-the-tour.md: the closing Something to try is a step I could take tomorrow with something I already made.",
+  "03-the-tour.md: the Words for this page note that defines wake, conductor and hold in plain terms is exactly what I need, just too late."
+ ],
+ "notes": "As a first-build finisher: I get that there is a team of agents that built a talk in a day, but the word factory is never pinned down in these pages, and the making-of page (94) feels like it is for programmers, so I would stop there. Would start tomorrow: only the Something to try, not the rest."
+}
