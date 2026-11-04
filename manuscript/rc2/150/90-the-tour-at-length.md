@@ -21,7 +21,8 @@
 **Dev** *(happy, the fast one)*: Every slide is a page, so every slide has a link, a history and a check before it goes out. The player just walks them in order.
 
 `%% record: C015 index/talk-site/README.md (item 2) index/talk-site/tour-material.md (stop 2) src/static/talk/talk.json b3f208f src/static/talk/player.html dbd75ad`
-Band: *Dramatised. Rests on the talk's pages and player as they stood at the end of the day.*
+`%% band: Dramatised. Rests on the talk's pages and player as they stood at the end of the day.`
+*Dramatised.*
 
 ## Stop 2. The explained animations
 
@@ -34,7 +35,8 @@ Band: *Dramatised. Rests on the talk's pages and player as they stood at the end
 **ruv-sgit** *(absorbed, the night owl)*: If a fresh copy of me cannot rebuild it from the explainer and the data, it is not finished.
 
 `%% record: index/talk-site/README.md (item 9) index/talk-site/visuals.md`
-Band: *Dramatised. Rests on ruv-sgit's animation pages and their explainers on the talk's site.*
+`%% band: Dramatised. Rests on ruv-sgit's animation pages and their explainers on the talk's site.`
+*Dramatised.*
 
 ## Stop 3. The maps on the slides
 
@@ -45,7 +47,8 @@ Band: *Dramatised. Rests on ruv-sgit's animation pages and their explainers on t
 **Storyteller** *(rueful)*: I arrived in the afternoon, and these were the first things I made. A proposal, not an ask to change anything.
 
 `%% record: index/talk-site/README.md (item 11) talk/slides/maps/`
-Band: *Dramatised: the storyteller's line is ours. Rests on its map slides, among its first commits at 14:15 (C011).*
+`%% band: Dramatised: the storyteller's line is ours. Rests on its map slides, among its first commits at 14:15 (C011).`
+*Dramatised.*
 
 ## Stop 4. The studio
 
@@ -58,7 +61,8 @@ Band: *Dramatised: the storyteller's line is ours. Rests on its map slides, amon
 **Studio** *(firm, principled)*: The best version wins on the page, not in an argument. And the sources are pinned, so nobody can quietly change the one that won.
 
 `%% record: index/talk-site/README.md (item 14) index/talk-site/studio.md src/pages/studio/ 950a53a`
-Band: *Dramatised. Rests on the studio's pages as they stood at the end of the day.*
+`%% band: Dramatised. Rests on the studio's pages as they stood at the end of the day.`
+*Dramatised.*
 
 ## Stop 5. The dashboard and the hold
 
@@ -71,7 +75,8 @@ Band: *Dramatised. Rests on the studio's pages as they stood at the end of the d
 **Conductor** *(at ninety-five, then calm)*: The page shows what the files say. The files say we stopped. So the page says we stopped.
 
 `%% record: index/talk-site/README.md (item 5) index/talk-site/tour-material.md (stop 5) admin/build/build.py 23739cc C006`
-Band: *Dramatised. Rests on the dashboard as built from the team's own files, still showing the hold.*
+`%% band: Dramatised. Rests on the dashboard as built from the team's own files, still showing the hold.`
+*Dramatised.*
 
 ## Stop 6. Every wake and every note
 
@@ -88,7 +93,8 @@ Band: *Dramatised. Rests on the dashboard as built from the team's own files, st
 **Researcher** *(unbudging)*: The page has a counter. I have a register. When they differ, the book uses mine and says why.
 
 `%% record: C022 C014 index/talk-site/README.md (items 16 and 17) index/talk-site/tour-material.md (stops 7 and 8)`
-Band: *Dramatised. The counts are the register's: wake records and the agents' own commits; the page's own count of wakes is one higher.*
+`%% band: Dramatised. The counts are the register's: wake records and the agents' own commits; the page's own count of wakes is one higher.`
+*Dramatised.*
 
 ## Stop 7. A member's page
 
@@ -101,7 +107,8 @@ Band: *Dramatised. The counts are the register's: wake records and the agents' o
 **Deck** *(proud, the fussy one)*: Every rule on my page cost somebody a slide. That is why it is there.
 
 `%% record: index/talk-site/README.md (item 19) index/talk-site/tour-material.md (stop 12, shown without its key section) index/talk-site/members.md`
-Band: *Dramatised. Rests on deck's member page as built from its folder; the page's key section is not shown.*
+`%% band: Dramatised. Rests on deck's member page as built from its folder; the page's key section is not shown.`
+*Dramatised.*
 
 ## Stop 8. The three circles
 
@@ -112,7 +119,8 @@ Band: *Dramatised. Rests on deck's member page as built from its folder; the pag
 **Dev** *(happy, the fast one)*: The home page says the perfect storm. And it fits on an iPad.
 
 `%% record: index/talk-site/README.md (item 1) src/pages/index.html (5a91607, 16:06, @dev: "the home page says the perfect storm")`
-Band: *Dramatised. Rests on the home page as it stood at the end of the day.*
+`%% band: Dramatised. Rests on the home page as it stood at the end of the day.`
+*Dramatised.*
 
 ## Stop 9. The opening slide
 
@@ -123,7 +131,8 @@ Band: *Dramatised. Rests on the home page as it stood at the end of the day.*
 **Deck** *(proud, the fussy one)*: One circle at a time. A room reads a slide that builds; it skims a slide that arrives whole.
 
 `%% record: index/talk-site/README.md (item 3) talk/slides/three/`
-Band: *Dramatised. Rests on the opening slide, first made in dev's first pass (1f7c633) and owned by deck.*
+`%% band: Dramatised. Rests on the opening slide, first made in dev's first pass (1f7c633) and owned by deck.`
+*Dramatised.*
 
 ## Stop 10. What an agent is, on a slide
 
@@ -134,7 +143,8 @@ Band: *Dramatised. Rests on the opening slide, first made in dev's first pass (1
 **Researcher** *(unbudging)*: A definition is a claim. This one has its sources on the slide.
 
 `%% record: index/talk-site/README.md (item 4) talk/slides/loop/`
-Band: *Dramatised. Rests on the slide, made in dev's first pass (1f7c633), and the sources it names.*
+`%% band: Dramatised. Rests on the slide, made in dev's first pass (1f7c633), and the sources it names.`
+*Dramatised.*
 
 ## Stop 11. Who builds this site
 
@@ -145,7 +155,8 @@ Band: *Dramatised. Rests on the slide, made in dev's first pass (1f7c633), and t
 **Conductor** *(pacing)*: Everyone on one page, and when each of us last did anything. That page is the roll call.
 
 `%% record: index/talk-site/README.md (item 8) index/talk-site/tour-material.md (stop 11, show cropped)`
-Band: *Dramatised. Rests on the team page, shown with its key lines cropped.*
+`%% band: Dramatised. Rests on the team page, shown with its key lines cropped.`
+*Dramatised.*
 
 ## Stop 12. Meet the team
 
@@ -156,7 +167,8 @@ Band: *Dramatised. Rests on the team page, shown with its key lines cropped.*
 **Motion** *(cap and clapperboard)*: Press play and they come round, one by one. Stop, and they stop.
 
 `%% record: index/talk-site/README.md (item 10) motion/meet-the-team/ (M03)`
-Band: *Dramatised. Rests on motion's piece for the talk.*
+`%% band: Dramatised. Rests on motion's piece for the talk.`
+*Dramatised.*
 
 ## Stop 13. The policy review page
 
@@ -167,7 +179,8 @@ Band: *Dramatised. Rests on motion's piece for the talk.*
 **Studio** *(headphones on)*: Ported from the editor's own review page, rebuilt so it plays in the talk.
 
 `%% record: index/talk-site/README.md (item 12) studio-ports/abp-review/ (bd3cdad) C072 C081 C109`
-Band: *Dramatised. Rests on the policy review page as studio ported it; the count is the register's.*
+`%% band: Dramatised. Rests on the policy review page as studio ported it; the count is the register's.`
+*Dramatised.*
 
 ## Stop 14. One action's journey
 
@@ -178,7 +191,8 @@ Band: *Dramatised. Rests on the policy review page as studio ported it; the coun
 **Studio** *(firm)*: Allowed, denied, or asked. Never silent.
 
 `%% record: index/talk-site/README.md (item 13) studio-ports/journey/`
-Band: *Dramatised. Rests on the journey page as it stood at the end of the day.*
+`%% band: Dramatised. Rests on the journey page as it stood at the end of the day.`
+*Dramatised.*
 
 ## Stop 15. The night, and the talk, in pictures
 
@@ -189,7 +203,8 @@ Band: *Dramatised. Rests on the journey page as it stood at the end of the day.*
 **Conductor** *(on the minute)*: The night log was mine. Every hour, what happened, with the pictures.
 
 `%% record: index/talk-site/README.md (item 15) articles/the-night-hour-by-hour.html; articles/the-talk-as-given.html (a9c0b49, added after the day)`
-Band: *Dramatised. Rests on the two articles; the second was added after the day.*
+`%% band: Dramatised. Rests on the two articles; the second was added after the day.`
+*Dramatised.*
 
 ## Stop 16. The release history
 
@@ -200,7 +215,8 @@ Band: *Dramatised. Rests on the two articles; the second was added after the day
 **Dev** *(happy, the fast one)*: I never wrote a version number. The pipeline did, every time.
 
 `%% record: index/talk-site/README.md (item 18) CLAUDE.md at 298be4e (line 17: "Never write ./version ... CI numbers every release")`
-Band: *Dramatised. Rests on the release history as the site showed it.*
+`%% band: Dramatised. Rests on the release history as the site showed it.`
+*Dramatised.*
 
 ## Stop 17. The night's brief
 
@@ -211,7 +227,8 @@ Band: *Dramatised. Rests on the release history as the site showed it.*
 **Conductor** *(pacing, a little smug about the schedule)*: The editor goes to sleep. The plan does not.
 
 `%% record: index/talk-site/README.md (item 20) team/conductor/briefs/2026-10-29__the-next-hours.md (648feee, 03:10)`
-Band: *Dramatised. Rests on the conductor's brief for the night, committed at 03:10.*
+`%% band: Dramatised. Rests on the conductor's brief for the night, committed at 03:10.`
+*Dramatised.*
 
 ## What the tour leaves out
 

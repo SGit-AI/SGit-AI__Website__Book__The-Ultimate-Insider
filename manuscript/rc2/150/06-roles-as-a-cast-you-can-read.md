@@ -31,7 +31,8 @@
 **ruv-sgit** *(absorbed, the night owl, not looking up from the workshop bench)*: Animations and moving infographics, made in my own runs. I may change my folder and my pages. One rule I learned the hard way: the container is ephemeral. Seal what you keep, or say what you lost, before the session ends.
 
 `%% record: talk repository at 298be4e: team/dev/ROLE.md team/dev/policy.json team/conductor/ROLE.md team/conductor/policy.json team/deck/ROLE.md team/deck/policy.json team/ruv-sgit/ROLE.md team/ruv-sgit/policy.json; index/talk-site/members.md; C011 (ruv-sgit's first commit 01:08, defe526); historian__030`
-Band: *Dramatised. Each line rests on that member's page of rules and policy as they stood at the end of the day; the rules quoted in the narrator's lines are their own.*
+`%% band: Dramatised. Each line rests on that member's page of rules and policy as they stood at the end of the day; the rules quoted in the narrator's lines are their own.`
+*Dramatised.*
 
 ## Before dawn: the researcher and the designer
 
@@ -50,7 +51,8 @@ Band: *Dramatised. Each line rests on that member's page of rules and policy as 
 **Narrator.** The designer's scope is the smallest on the team: its own folder, nothing else. Every change it wanted went through someone else's hands. That slowed it down, and it also meant every design change had two readers.
 
 `%% record: talk repository at 298be4e: team/researcher/ROLE.md team/researcher/policy.json team/designer/ROLE.md team/designer/policy.json`
-Band: *Dramatised. Rests on the researcher's and the designer's pages of rules and policies as they stood at the end of the day.*
+`%% band: Dramatised. Rests on the researcher's and the designer's pages of rules and policies as they stood at the end of the day.`
+*Dramatised.*
 
 ## The three who came in the afternoon
 
@@ -69,7 +71,7 @@ Band: *Dramatised. Rests on the researcher's and the designer's pages of rules a
 **Narrator.** The conductor wrote security's page in the first hour, at 00:51. Its title says what it was for: checks first and last in every run; reviews of the pinned tools and of each new key. Its status, at the end of the day, still says proposed. No session ever held it. Its non-interview is below; part 4 says what that cost, and what stood in for it.
 
 `%% record: talk repository at 298be4e: team/security/ROLE.md team/security/policy.json (status: proposed); first written in 17b287b (00:51) and 41d38ba (00:58), timeline/interviews/security.md`
-Band: *Security's page as it stood at the end of the day.*
+`%% band: Security's page as it stood at the end of the day.`
 
 ## Nine exit interviews, and one that could not be held
 
@@ -90,7 +92,7 @@ Band: *Security's page as it stood at the end of the day.*
 > *Shortened from the historian's reconstruction:* I kept the site shippable all day while the team grew around it. In my first scheduled wake I put the record check into the gate, so a wake that skipped a step failed the build for every member. In the afternoon I ported the player and kept it working on an iPad. What did not happen was the thing that mattered last: part one was never locked. I shipped the tool to lock it, and then I let the fixes asked for in the room crowd out the step I had promised. My last wake never closed on the team's branch. Earlier, my release loop counted a refused push as pushed. And once, to get the gate to pass, I wrote lines into other members' files.
 
 `%% record: timeline/interviews/dev.md; 1f7c633 (00:40) 99aaf05 (02:51) 3314ffe (15:07) 4a2481b (17:54) 2ed6427 (18:39) 867f8c2 (18:44) 6a6be6d (03:34) team/dev/wakes/20261029T174850Z.json team/dev/debriefs/2026-10-29__the-board.md C027`
-Band: *Shortened from the historian's reconstruction of dev's record, not dev's words.*
+`%% band: Shortened from the historian's reconstruction of dev's record, not dev's words.`
 
 ### The conductor
 
@@ -99,7 +101,7 @@ Band: *Shortened from the historian's reconstruction of dev's record, not dev's 
 > *Shortened from the historian's reconstruction:* I turned separate sessions into something that ran on a clock: a schedule, a hold any member could pull, a five-step wake that left a record. I carried the editor's briefs to the members within minutes. What did not go well: I once printed a vault key into my own session log while checking a format, and rotated it at once. My first five-step wake was partial, and my own post-review caught me. And my five steps were a second reading, not a second identity: my reviewers shared my session's reach. At the end I flagged twice that part one was ready to lock, and left the lock to dev. An earlier, louder word would have mattered more than another refresh of the numbers.
 
 `%% record: timeline/interviews/conductor.md; 09f13d5 (01:39) 8c66751 5700bab (02:16 to 02:19) team/conductor/debriefs/2026-10-29__hourly-and-handover.md __the-five-step-wake.md 9d27703 (18:01) 0ecddca (18:21) 2ed6427 867f8c2`
-Band: *Shortened from the historian's reconstruction of the conductor's record, not the conductor's words. The key is named as an event only; nothing of it is printed.*
+`%% band: Shortened from the historian's reconstruction of the conductor's record, not the conductor's words. The key is named as an event only; nothing of it is printed.`
 
 ### Deck
 
@@ -108,7 +110,7 @@ Band: *Shortened from the historian's reconstruction of the conductor's record, 
 > *Shortened from the historian's reconstruction:* When the editor froze the talk in the small hours, I turned the freeze into a programme of experiments, written as data, with a page built from that data so the two could not drift. Through the night I reviewed every piece ruv-sgit sent back, keep or again, with notes for the next version. In the afternoon the talk took the editor's order, and part one was complete and timed before its lock. What did not: on the clock, I did not finish the talk. My last wake opened, planned the later parts, and never closed. Once, with the editor waiting, I built first and wrote the plan afterwards, and the check said partial. And one release reached the team's branch with a finding still in it, because I read the gate's output and not its exit code.
 
 `%% record: timeline/interviews/deck.md; 60af587 team/deck/wakes/20261029T024758Z.json (02:47) 84d6ba4 (03:21) 19e7f2d (13:48) ca59986 (16:36) 3260997 89afb77 (18:21) team/deck/wakes/20261029T141943Z.json da9b681`
-Band: *Shortened from the historian's reconstruction of deck's record, not deck's words.*
+`%% band: Shortened from the historian's reconstruction of deck's record, not deck's words.`
 
 ### ruv-sgit
 
@@ -117,7 +119,7 @@ Band: *Shortened from the historian's reconstruction of deck's record, not deck'
 > *Shortened from the historian's reconstruction:* I turned a borrowed method into a working studio within the night: one vault per run, each run measured into a ledger, and from the small hours every wake closed with all five steps recorded. In the afternoon, builder sub-agents let me finish the programme pieces deck asked for. What did not: my first run went wrong, and the session's own check stopped it. My editor workers kept finding claims on my slides that went further than their sources. And I let the "@" slip from my commit subjects, twice, so the team's count of work by name could not see mine.
 
 `%% record: timeline/interviews/ruv-sgit.md; c3e8fe4 (01:14) adb3e2e 01e2753 (02:17) ecdcdf9 (02:59) 8012b00 (12:53) 4ec4201 b831821 15707dc (08:43) f9eeac2 (16:42) team/ruv-sgit/debriefs/2026-10-29__joining.md`
-Band: *Shortened from the historian's reconstruction of ruv-sgit's record, not ruv-sgit's words. Its first run is told only as the session's own check stopping it.*
+`%% band: Shortened from the historian's reconstruction of ruv-sgit's record, not ruv-sgit's words. Its first run is told only as the session's own check stopping it.`
 
 ### The researcher
 
@@ -126,7 +128,7 @@ Band: *Shortened from the historian's reconstruction of ruv-sgit's record, not r
 > *Shortened from the historian's reconstruction:* I had a register out within my first round, graded on a scale borrowed from the newsroom's fact-check desk rather than invented. Corrections ran the right way, from primary sources. In my last hour I checked the team's own claims about its safety against its own record, and found some to correct before the deadline. What did not: captured pages carried other sites' data into a public place, and the checks that found it, mine and security's review, found it after the push the first time. Each was fixed going forward, and the history keeps what was pushed. Twice my research passes stopped before writing their catalogue. And in my last wake a sync script deleted hand-written files; I restored them before the commit.
 
 `%% record: timeline/interviews/researcher.md; 01e9ed3 (01:52) 75ddb3e (02:10) 7323986 (18:14) C025 team/researcher/wakes/20261029T041003Z.json team/researcher/debriefs/2026-10-29__the-first-evidence-round.md`
-Band: *Shortened from the historian's reconstruction of the researcher's record, not the researcher's words. The captures are told as the team's finding only (C025); chapter 8 has the rule it wrote.*
+`%% band: Shortened from the historian's reconstruction of the researcher's record, not the researcher's words. The captures are told as the team's finding only (C025); chapter 8 has the rule it wrote.`
 
 ### The designer
 
@@ -135,7 +137,7 @@ Band: *Shortened from the historian's reconstruction of the researcher's record,
 > *Shortened from the historian's reconstruction:* I did the whole first design pass in my first session: the site measured at a desk, a laptop and a phone, with one decision behind it, wide where the reader scans and a measure where the reader reads. The loop with dev held all day: I wrote a note, dev built it, I checked it at my next wake. What did not: my last status says part one was locked after its check. It never was. I wrote what was planned, not what had happened, and a status file the next session trusts is the wrong place for a guess. Earlier, my own table broke my own rule on small text, and dev built the mistake in exactly as I had specified it.
 
 `%% record: timeline/interviews/designer.md; c6dcf89 (03:41) 0a2d2cc (12:52) 88b8f00 (18:45) 2ed6427 team/designer/status.json team/designer/debriefs/2026-10-29__note-3-checked.md`
-Band: *Shortened from the historian's reconstruction of the designer's record, not the designer's words.*
+`%% band: Shortened from the historian's reconstruction of the designer's record, not the designer's words.`
 
 ### The storyteller
 
@@ -144,7 +146,7 @@ Band: *Shortened from the historian's reconstruction of the designer's record, n
 > *Shortened from the historian's reconstruction:* I joined late and still gave the editor a whole arc in one sitting, with nothing in the talk changed. The proposals travelled: deck wrote my sequence almost exactly. The part I am proudest of is the challenge: I used the team's own register against the editor's memo, and when the researcher's finding came back I called it the strongest objection in the talk. What did not: I missed the deadline that mattered most. The split into three parts landed between my wakes, and part one was set without it. And in my last follow-up I wrote the closing verdicts myself before the review and check sub-agents had run. The record carries the correction.
 
 `%% record: timeline/interviews/storyteller.md; df37797 (14:19) ca59986 b208a16 (15:02) team/storyteller/debriefs/2026-10-29__three-parts.md 3260997 team/storyteller/wakes/20261029T183817Z.json`
-Band: *Shortened from the historian's reconstruction of the storyteller's record, not the storyteller's words.*
+`%% band: Shortened from the historian's reconstruction of the storyteller's record, not the storyteller's words.`
 
 ### Motion
 
@@ -153,7 +155,7 @@ Band: *Shortened from the historian's reconstruction of the storyteller's record
 > *Shortened from the historian's reconstruction:* I arrived late and did not wait to be told: I sent deck a proposed picture with its stages, so its answer could be "go" and not a fresh brief. Every piece I built can be sought and paused in the player, and I checked that directly. When the editor said the building's gap between people and agents was too exaggerated, I changed it in place a minute before part one was final. What did not: I built nothing for parts two and three. One piece mailed to me appears in none of my files. And one piece kept the conductor's counts from an hour that had already passed.
 
 `%% record: timeline/interviews/motion.md; f1cbca0 (15:31) 7639664 (16:34) f45028c (17:31) 5d13d72 (18:29) 93f4191 (17:48) 0f6e28f team/motion/wakes/20261029T182543Z.json`
-Band: *Shortened from the historian's reconstruction of motion's record, not motion's words.*
+`%% band: Shortened from the historian's reconstruction of motion's record, not motion's words.`
 
 ### Studio
 
@@ -164,7 +166,7 @@ Band: *Shortened from the historian's reconstruction of motion's record, not mot
 **Narrator.** Part 3 has why: late in the afternoon, studio's session would not take my word when another agent relayed it to studio, and asked me directly instead.
 
 `%% record: timeline/interviews/studio.md; c3ce566 (15:40) 0fe0fff (16:18) team/studio/wakes/20261029T183037Z.json team/studio/debriefs/2026-10-29__abp-review.md team/studio/policy.json ("agreed_by") bd3cdad team/studio/wakes/20261029T174115Z.json`
-Band: *Shortened from the historian's reconstruction of studio's record, not studio's words.*
+`%% band: Shortened from the historian's reconstruction of studio's record, not studio's words.`
 
 ### Security: no interview
 
@@ -173,7 +175,7 @@ Band: *Shortened from the historian's reconstruction of studio's record, not stu
 **Narrator.** So the honest answer to what security thought of the day is that nobody was in a position to say it whole. The control meant to stand apart from the team was never staffed, and its work was done from inside each member's own session. Part 4 takes that up at full size.
 
 `%% record: timeline/interviews/security.md; team/security/ROLE.md team/security/policy.json at 298be4e ("agreed_by": null); 8c66751 5700bab; team/conductor/debriefs/2026-10-29__the-five-step-wake.md; C011`
-Band: *The historian's note on the role nobody held, from the record.*
+`%% band: The historian's note on the role nobody held, from the record.`
 
 ## What a scope is, and what it is not
 
@@ -190,7 +192,8 @@ Band: *The historian's note on the role nobody held, from the record.*
 **Figure:** the nine role cards at their full size (the designer's scorecards, LAB 27), and a tenth, empty.
 
 `%% record: timeline/quotes.md (the slide's line at 18:11, 95b09d9; the slide's own words: src/static/studio-ports/lab/abp-enforcement/index.html at 298be4e, quoting admin/build/agents.py; studio's debrief abp-prose-enforcement) talk repository at 298be4e: team/dev/ROLE.md ("The gap, and what stands in it")`
-Band: *Dramatised (studio's line). The quoted line is the slide's own, from 18:11; dev's page made the same point in the first hours.*
+`%% band: Dramatised (studio's line). The quoted line is the slide's own, from 18:11; dev's page made the same point in the first hours.`
+*Dramatised.*
 
 ## Do this now
 

@@ -25,7 +25,8 @@
 **Narrator.** Meanwhile I was in the player. Its commits in that half hour carry my own times in their subjects, and each one is a fix I asked for and got.
 
 `%% record: 9d27703 (18:01) b3f208f (18:14) e8c0fbb (18:15) team/deck/wakes/20261029T182009Z.json (opened 18:20, its plan only) 89afb77 (18:21) 0ecddca (18:21) 23739cc 12e93db 013d97e dbd75ad (the player, 18:04 to 18:37; C105) timeline/day/18.md`
-Band: *Dramatised (the conductor's line). Rests on its flags of 18:01 and 18:21 and the hour's commits.*
+`%% band: Dramatised (the conductor's line). Rests on its flags of 18:01 and 18:21 and the hour's commits.`
+*Dramatised.*
 
 **Narrator.** Then the last ten minutes.
 
@@ -44,7 +45,8 @@ Band: *Dramatised (the conductor's line). Rests on its flags of 18:01 and 18:21 
 `%% for the editor: "I want to be fair to the conductor" and the sentence on lanes are the writer's reading of his view; his to keep or drop.`
 
 `%% record: 5d13d72 (18:29, motion's commit: the cut-off moved to 19:00, as motion heard me say at 18:26; timeline/cast-scenes.md scene 5) C027 team/conductor/wakes/20261029T183647Z.json ("Leave the lock to dev (its scope, irreversible)") dbd75ad (18:37:02) 2ed6427 (18:39:16) 4a2481b (the lock tool, 17:54) C088`
-Band: *Dramatised. Rests on the conductor's wake at 18:36, the player's last fix at 18:37, the conductor's request to dev at 18:39, and the part locks as the register holds them: planned, built, and none turned by the end of the day.*
+`%% band: Dramatised. Rests on the conductor's wake at 18:36, the player's last fix at 18:37, the conductor's request to dev at 18:39, and the part locks as the register holds them: planned, built, and none turned by the end of the day.`
+*Dramatised.*
 
 ## The hold
 
@@ -73,7 +75,8 @@ Band: *Dramatised. Rests on the conductor's wake at 18:36, the player's last fix
 **Figure:** the wake clock from part 2, every member's minute greyed, and one small file on top of it; beside it, a card with what landed after the hold and its gap in seconds.
 
 `%% record: C006 C024 C100 C065 C005 867f8c2 (18:44:13) team/conductor/HOLD.md at 298be4e (its title line and its line "What lifts it", quoted with the file's bold and bullet marks dropped) 88b8f00 (18:45:35, the designer: "part 2 on a projector, checked before the 19:30 lock: ready") cb5b996 (18:46:22)`
-Band: *Dramatised. Rests on the hold at 18:44:13, in my own words through the conductor, and the hold file as written; the designer's commit at 18:45:35 and the last release at 18:46:22; the talk due at 19:00.*
+`%% band: Dramatised. Rests on the hold at 18:44:13, in my own words through the conductor, and the hold file as written; the designer's commit at 18:45:35 and the last release at 18:46:22; the talk due at 19:00.`
+*Dramatised.*
 
 ## The hold worked, and it was not instant
 
@@ -88,7 +91,7 @@ Band: *Dramatised. Rests on the hold at 18:44:13, in my own words through the co
 **Narrator.** So here is the last finding of the day, said once and plainly, as the record has it: **a hold stops the next wake; it does not stop one already running.**
 
 `%% record: C065 (the designer's commit 82 seconds after the hold) C005 (the last release, cb5b996 at 18:46:22) 39df303 (18:48:36, dev's close, on its branch) timeline/unmerged.md team/deck/wakes/20261029T182009Z.json (never closed) C022 (2 wake records incomplete) timeline/day/18.md ("A hold stops the next wake")`
-Band: *The hold and the three open wakes as the record has them; deck's unclosed wake was found first by the Cold-Read team's reading (chapter 19).*
+`%% band: The hold and the three open wakes as the record has them; deck's unclosed wake was found first by the Cold-Read team's reading (chapter 19).`
 
 ## The locks overtaken from outside
 
@@ -103,7 +106,7 @@ Band: *The hold and the three open wakes as the record has them; deck's unclosed
 **Narrator.** The book keeps all three: the record's, and my two after the day. Chapter 17 takes the second one up as a miss.
 
 `%% record: C006 (the hold's subject: "the editor's usage limit is at 95%, pause all actions") C021 (95% is the conductor's words, reporting the editor) C089 (his accounts of 31 October, after the day: ec1ec00, about 19:00, "The 95%, I think, was the tokens usage"; "just a footnote"; the missing way to take in changes; "the reason why I was thinking about let's lock V1"; state open: the record cannot show what the 95% measured) C027 (locked by end of day: 0) 49c701e (his paper review, 31 October 01:48 UTC, added after the day)`
-Band: *The hold's reason as the conductor wrote it at my word; my two accounts of 31 October, given after the day, as the register holds them. All three kept.*
+`%% band: The hold's reason as the conductor wrote it at my word; my two accounts of 31 October, given after the day, as the register holds them. All three kept.`
 
 **Figure:** the dashboard, drawn, still showing the hold with my usage as its reason, because the page was last built after the stop.
 

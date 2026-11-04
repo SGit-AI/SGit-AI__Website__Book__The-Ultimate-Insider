@@ -41,7 +41,8 @@
 `%% for the editor: the "What to do / What to check" lines, the newsroom's page of rules and the "Rests on" lines under each step are the writer's, worked from the steps as the editions give them; his to keep or change.`
 
 `%% record: C101 C037 chapter-plan/cast/edition-10.md (the five steps, word for word)`
-Band: *Dramatised (the conductor's line). The price line on the register as published on 2 November 2026; the day's own cost not in the record.*
+`%% band: Dramatised (the conductor's line). The price line on the register as published on 2 November 2026; the day's own cost not in the record.`
+*Dramatised.*
 
 ## The checklist
 

@@ -19,7 +19,8 @@
 **Dev** *(happy, the fast one)*: Every slide is a page, so every slide has a link, a history and a check before it goes out. The player just walks them in order.
 
 `%% record: C015 index/talk-site/README.md (item 2) index/talk-site/tour-material.md (stop 2) src/static/talk/talk.json b3f208f src/static/talk/player.html dbd75ad`
-Band: *Dramatised. Rests on the talk's pages and player as they stood at the end of the day.*
+`%% band: Dramatised. Rests on the talk's pages and player as they stood at the end of the day.`
+*Dramatised.*
 
 ## Stop 2. The dashboard and the hold
 
@@ -32,7 +33,8 @@ Band: *Dramatised. Rests on the talk's pages and player as they stood at the end
 **Conductor** *(at ninety-five, then calm)*: The page shows what the files say. The files say we stopped. So the page says we stopped.
 
 `%% record: index/talk-site/README.md (item 5) index/talk-site/tour-material.md (stop 5) admin/build/build.py 23739cc C006`
-Band: *Dramatised. Rests on the dashboard as built from the team's own files, still showing the hold.*
+`%% band: Dramatised. Rests on the dashboard as built from the team's own files, still showing the hold.`
+*Dramatised.*
 
 ## Stop 3. Every wake and every note
 
@@ -49,7 +51,8 @@ Band: *Dramatised. Rests on the dashboard as built from the team's own files, st
 **Researcher** *(unbudging)*: The page has a counter. I have a register. When they differ, the book uses mine and says why.
 
 `%% record: C022 C014 index/talk-site/README.md (items 16 and 17) index/talk-site/tour-material.md (stops 7 and 8)`
-Band: *Dramatised. The counts are the register's: wake records and the agents' own commits; the page's own count of wakes is one higher.*
+`%% band: Dramatised. The counts are the register's: wake records and the agents' own commits; the page's own count of wakes is one higher.`
+*Dramatised.*
 
 ## Stop 4. A member's page
 
@@ -62,7 +65,8 @@ Band: *Dramatised. The counts are the register's: wake records and the agents' o
 **Deck** *(proud, the fussy one)*: Every rule on my page cost somebody a slide. That is why it is there.
 
 `%% record: index/talk-site/README.md (item 19) index/talk-site/tour-material.md (stop 12, shown without its key section) index/talk-site/members.md`
-Band: *Dramatised. Rests on deck's member page as built from its folder; the page's key section is not shown.*
+`%% band: Dramatised. Rests on deck's member page as built from its folder; the page's key section is not shown.`
+*Dramatised.*
 
 ## What the tour leaves out
 

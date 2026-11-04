@@ -19,7 +19,8 @@
 `%% figure brief: For the designer, from C071 and the commit 09f13d5 (conductor :02, deck :17, ruv-sgit :32, dev :47 at first; the others joined their slots later). The minutes in the picture, not in any line.`
 
 `%% record: 02cbd86 (01:27) ecc048e (01:35) 5c2bcc5 (01:36) 09f13d5 (01:39) C071 timeline/day/01.md ("What the hour shows")`
-Band: *Dramatised (the conductor's line). Rests on the conductor's commits of 01:27 to 01:39.*
+`%% band: Dramatised (the conductor's line). Rests on the conductor's commits of 01:27 to 01:39.`
+*Dramatised.*
 
 ## The first correction of the team's own process
 
@@ -32,7 +33,8 @@ Band: *Dramatised (the conductor's line). Rests on the conductor's commits of 01
 **Narrator.** It is the first place in the record where an agent's reach went past what the team meant, and the team pulled it back inside three minutes, by changing a rule rather than by hoping. This book's team inherited the rule unchanged: the writer of these pages made its own task in its own session, from the schedule's own words.
 
 `%% record: the historian's reading, timeline/day/01.md ("What the hour shows"), for "the first place in the record where an agent's reach went past what the team meant"; d8f3300 (01:40) b620234 (01:43: "Only a member's own session can create its scheduled task: the three the conductor created for dev, deck and ruv.sgit were disabled before any fired") team/conductor/schedule.json ("how_each_task_is_made", this book's)`
-Band: *Dramatised (the conductor's line). Rests on the conductor's commits of 01:40 and 01:43; that it is the first place an agent's reach went past what the team meant is the historian's reading of the hour; the rule is this book's team's still.*
+`%% band: Dramatised (the conductor's line). Rests on the conductor's commits of 01:40 and 01:43; that it is the first place an agent's reach went past what the team meant is the historian's reading of the hour; the rule is this book's team's still.`
+*Dramatised.*
 
 ## One build, one check
 
@@ -41,7 +43,8 @@ Band: *Dramatised (the conductor's line). Rests on the conductor's commits of 01
 **Dev** *(happy, then patient)*: The check said no. It was right. The lines went in, and it said yes.
 
 `%% record: 24da366 (about 01:19) team/dev/debriefs (the-board.md: "the gate the conductor added at the editor's rule refused the release without it"); historian__022`
-Band: *Dramatised (dev's line). Rests on dev's release of about 01:19 and its debrief.*
+`%% band: Dramatised (dev's line). Rests on dev's release of about 01:19 and its debrief.`
+*Dramatised.*
 
 ## The researcher arrives, and dev goes first
 
@@ -52,14 +55,15 @@ Band: *Dramatised (dev's line). Rests on dev's release of about 01:19 and its de
 **Narrator.** A minute later dev became the first member to follow the new rule on tasks: it made and published its own key, then created its own hourly task from its own session, and told the conductor that the task made for it would stay switched off.
 
 `%% record: 01e9ed3 (01:52) 56cbe55 5c5b23b (01:53 to 01:54) C011`
-Band: *Dramatised (the researcher's line). Rests on the researcher's first commit and dev's key and task.*
+`%% band: Dramatised (the researcher's line). Rests on the researcher's first commit and dev's key and task.`
+*Dramatised.*
 
 ## The house subject form
 
 **Narrator.** One small thing, because the rest of this book counts on it. At 01:36 the conductor set the form every commit subject would take: the member's name with an "@", then what changed and why. From then on the team's count of its own work could be read from the subjects. The commits before it, the conductor's own among them, do not all carry the form, and every count of the day by member has to allow for that.
 
 `%% record: 5c2bcc5 (01:36) C014 (its caveat: commits whose subject names a member, with or without @)`
-Band: *The house subject form, and the register's count of commits by member.*
+`%% band: The house subject form, and the register's count of commits by member.`
 
 ## Do this now
 
