@@ -1,6 +1,6 @@
 # Hour eighteen: faster than the clock
 
-**Cast bar:** all nine lit; the editor in the conductor's session, wake after wake; security's chair empty.
+**Cast bar:** all nine lit; the editor in the conductor's session, session after session; security's chair empty.
 
 **Clock:** Hour eighteen.
 
@@ -74,7 +74,7 @@
 
 **Narrator.** By the end of hour eighteen the factory was running faster than its own clock, with me inside it, and its brakes were holding. Part one was final and not yet locked. The lock tool existed. One session was open that would never close on the team's branch. And the talk was an hour away. Chapter 2's clock of when each agent fired shows the whole day just before it stopped.
 
-**Figure:** the day by trigger, the schedule's wakes and mine, hours one to nineteen, with part 3's hours lit.
+**Figure:** the day by who started each session, the schedule's and mine, hours one to nineteen, with part three's hours lit.
 
 `%% figure brief: For the designer, from C087 (by hour) and C110. The part's infographic; the counts in the picture only.`
 

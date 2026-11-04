@@ -70,7 +70,7 @@
 
 > "The outside is in balance: he keeps the claim." *(record)*
 
-**Narrator.** I kept the claim. The line stayed in the talk, and the researcher's finding went on the record beside it. The book keeps all three: my line, the objection to it, and the fact that I read the objection and chose. Neither is withdrawn. If you think I was wrong, the researcher's sources are in the register, and you can check.
+**Narrator.** I kept the claim. The line stayed in the talk, and the researcher's finding went on the record beside it. The book keeps all three: my line, the objection to it, and the fact that I read the objection and chose. Nothing is withdrawn. If you think I was wrong, the researcher's sources are in the register, and you can check.
 
 `%% Check (the newsroom, part three, chapter 13, its question 2; prints only once he confirms he still holds it, historian__054): "I still think the outside is in balance, and that the story needed that line." And: "I would rather be argued with on the record than agreed with in silence."`
 

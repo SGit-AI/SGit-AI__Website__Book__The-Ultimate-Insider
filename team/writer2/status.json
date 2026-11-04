@@ -1,9 +1,9 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "writer2",
-  "as_of": "2026-11-04T07:05:00Z",
-  "round": 5,
-  "state": "active, hourly at :50 London (ACC1): part three (10 to 15) rewritten; this wake critic2's notes on 10, 11, 14 and 15 and synthetic's reader tests on 10 and 14 taken; the policy's own-task line moved (conductor__002)",
+  "as_of": "2026-11-04T08:00:00Z",
+  "round": 6,
+  "state": "active, hourly at :50 London (ACC1): part three (10 to 15) rewritten and reviewed; critic2's pass 2 found nothing material; next pass 3 and, if clean, the critic proposes 10 to 15 for the editor's sign-off (SO1)",
   "cadence": "active",
   "task": "trig_01SC19hEpbnGCntjqcDayyUV",
   "session": "session_01Kw9UwFgN9qNFUP7nELjaRj",
@@ -83,16 +83,20 @@
     {
       "what": "letters writer2__016 to 021; copies in done/",
       "when": "2026-11-04"
+    },
+    {
+      "what": "critic2__009's two coulds, the historian's 'within a quarter of an hour' (065), the researcher's 'in the second hour' (004), the storyteller's rule 13 (136), the Figure lines swept (conductor__003); letter writer2__022 to the designer and publisher on 12's fourth figure slot; replies 023 to 025",
+      "when": "2026-11-04"
     }
   ],
   "next": [
     {
-      "what": "critic2's pass 2 on 10 to 13, synthetic's reader tests on the rest, and the historian's line-by-line of 12, 13 and 15",
+      "what": "critic2's pass 3, and any reader tests still to come on 11, 12, 13 and 15",
       "why": "the review loop (RV1, RV2)"
     },
     {
-      "what": "one read of 10 to 15 for one voice",
-      "why": "plan.md"
+      "what": "the editor's answers on the Check items, when he gives them",
+      "why": "the print rule"
     }
   ],
   "asks": [
