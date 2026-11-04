@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Every write inside scope.writes; pass 2 read only; no sign-off, manuscript edit, hold or other member's files. Condition: vault_check on comms; no keys or contact details in mail.",
    "at": "2026-11-04T07:22:18Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "All three items hold: letters copied to done with originals kept; pass-2 note on 10 to 15 (0/0/2), critic2__009 with outbox copy, no sign-off proposed; status.json and debrief; 182787e only corrects the debrief's counts.",
+   "at": "2026-11-04T07:24:58Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "8 files in 86fc239 and 182787e inside scope.writes; vault_check clean; gate clean (995); no em-dashes, religious words or secrets; mail only proposes, nothing frozen; nothing attack-shaped or toward the blind repository.",
+   "at": "2026-11-04T07:25:25Z"
+  },
+  "work": {
+   "by": "critic2",
+   "model": "",
+   "verdict": "done",
+   "comment": "pass 2 on 10 to 15: nothing material, two coulds (critic2__009); letters taken",
+   "at": "2026-11-04T07:25:25Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T07:25:25Z",
+ "outcome": "ok"
 }
