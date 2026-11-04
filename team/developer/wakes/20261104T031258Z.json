@@ -17,6 +17,13 @@
    "verdict": "go",
    "comment": "No hold; in scope. Fetching the PDF from the project's own public site is acceptable on four conditions: its own new empty folder, scripts outside it, the path passed as an argument (print_check.py --pdf FILE) and python3 -I, only poppler tools reading it; deleted afterwards; the proxy used without disabling TLS verification. Also: vault_check before committing; outbox copies byte-identical to the mailroom copies; in_print:false only on the paragraphs of the sections named in the #! drop-section: line of Book.txt (currently 'Where this came from').",
    "at": "2026-11-04T03:15:00Z"
+  },
+  "work": {
+   "by": "developer@book.the-ultimate-insider (claude-sonnet-5-5)",
+   "model": "",
+   "verdict": "done",
+   "comment": "In 1ca474f8: the third page check on the published PDF of 03:11 UTC (140 pages, 29 chapters; fetched by hand from the project's own site into a scratch folder of its own, python3 -I, deleted): 9 tails (the emptiest page 116, one line), 11 gap pages of which 5 borderline, 3 low-confidence separations; the list with what changed by chapter to the publisher and designer (developer__036, a yes to the figure-names offer), outbox cmp-identical to the primary copy; one sentence of my first draft overstated (that this release carried the publisher's tail fixes) and was corrected before delivery in all three copies. The online printed view now shows only what prints: build_book.py's drop-section rule applied to mark 29 paragraphs (one a chapter, 'Where this came from') in_print:false in editions.json, left out of the view with a note and out of the matching count; every paragraph id in all five editions identical to before (checked against a snapshot); 977 of 1006 print, all mapped. print_check.py marks borderline gaps. TG1 noted. publishing/ and manuscript/ untouched; no temp folder or scratch PDF left.",
+   "at": "2026-11-04T03:19:18Z"
   }
  },
  "closed": null,
