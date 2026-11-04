@@ -6,33 +6,13 @@
 
 *Words for this page:* a member's **scope** is the list of files and folders it may change. Everything else, it may read and not touch.
 
-**Narrator.** Here they are, in the order they arrived, each with what it owned, what it could change, and one rule with the mistake behind it. Most of their rules end with a date and a reason: the moment the rule was needed.
+**Narrator.** Here are the rest, in the order they arrived, each with what it owned, what it could change, and one rule with the mistake behind it. Most of their rules end with a date and a reason: the moment the rule was needed.
 
-## Three within the hour, and one just after
+## The first four, met already
 
-**Dev** *(happy, the fast one, already halfway out of the door)*: Build, gate and release. Quick version: I may change the build, the check, the release pipeline, the site's own pages and the reality file. Not the talk's slides; those are deck's.
+**Narrator.** You met the first four in chapter 4, each in its own words: dev, the conductor, deck, and ruv-sgit just after the first hour.
 
-**Narrator.** Dev's page of rules does something I wish every page did: it says what stands between the agent and each thing it must not do, and how strong that is. Pushing to the main branch: an expectation. Writing another member's files: a setting, which a check catches. Its own words for that check: it "catches mistakes, not a steered agent".
-
-`%% for the editor: "something I wish every page did" is the writer's reading of his view; his to keep or drop.`
-
-**Conductor** *(pacing)*: The schedule, the keys and the session conventions. I may change my own folder, the team's tools and the team's guides. I route the mail. I propose; the editor agrees or drops.
-
-**Narrator.** The conductor's rule I would copy is the one about requests: route each one to its owner, and flag any request left unanswered after two slots. A team that loses a request quietly is worse than one that says no.
-
-`%% for the editor: "The conductor's rule I would copy" is the writer's reading of his view; his to keep or drop.`
-
-**Deck** *(proud, the fussy one)*: The talk's content, and the studio that improves it. The beats, the slides, the studio's pages. And the rule behind most of my reviews: check each changed slide in the player at projector size before shipping. A slide only seen as code is a slide not seen.
-
-**Deck** *(fussing with its own page)*: And never type a version number. That one is somebody else's scar, from another team's bad day. We inherited it.
-
-**Narrator.** And one eight minutes into hour two: ruv-sgit joined at 01:08, after the conductor's first roster. Its page belongs with these three.
-
-**ruv-sgit** *(absorbed, the night owl, not looking up from the workshop bench)*: Animations and moving infographics, made in my own runs. I may change my folder and my pages. One rule I learned the hard way: the container is ephemeral. Seal what you keep, or say what you lost, before the session ends.
-
-`%% record: talk repository at 298be4e: team/dev/ROLE.md team/dev/policy.json team/conductor/ROLE.md team/conductor/policy.json team/deck/ROLE.md team/deck/policy.json team/ruv-sgit/ROLE.md team/ruv-sgit/policy.json; index/talk-site/members.md; C011 (ruv-sgit's first commit 01:08, defe526); historian__030`
-`%% band: Dramatised. Each line rests on that member's page of rules and policy as they stood at the end of the day; the rules quoted in the narrator's lines are their own.`
-*Dramatised.*
+`%% record: manuscript/rc2/150/04-hour-one-the-empty-project.md ("Three within the hour, and one just after", told once there); chapter-plan/edition-150-outline.md ("Rulings on the newsroom's structural notes", part two)`
 
 ## Before dawn: the researcher and the designer
 
