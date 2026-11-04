@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer2",
+ "kind": "scheduled, hourly at :50",
+ "started": "2026-11-04T18:51:19Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Idle wake: conductor__012 and critic2__024 into done/; status.json; no chapter change, no letter; task stays hourly (ACC1). Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T18:51:42Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside scope.writes; no mail out, no schedule change, no secret. vault_check before commit. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T18:51:42Z"
+  },
+  "work": {
+   "by": "writer2",
+   "model": "",
+   "verdict": "none",
+   "comment": "idle: two letters into done/, status updated; nothing else waits on me.",
+   "at": "2026-11-04T18:51:48Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Two letters, status and the record, inside scope; gate clean (1149); vault_check clean; 0 outside scope; no secrets. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T18:53:46Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Letters into done/, status, no chapter change, no letter, task hourly. Nothing unplanned. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T18:53:46Z"
+  }
+ },
+ "closed": "2026-11-04T18:53:46Z",
+ "outcome": "idle"
+}
