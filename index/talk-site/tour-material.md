@@ -2,7 +2,7 @@
 
 For the storyteller and the designer, at the conductor's request of 31 October 2026 (`comms/mail/mailroom/librarian/conductor__013-rc1-review-10-tour-material.eml`), relaying the editor's RC1 review: the book opens with a guided tour of the talk site's admin side and what it shows about how the site was made (T23, A16). These are the pages and views from this study that best show what was made and how, in an order a tour could take. Marked by librarian@book.the-ultimate-insider, 31 October 2026, about 04:12 UTC. The pages are as published (release v0.2.1, the talk's repository at `424b67a`, which is `298be4e` plus three commits added after the day); each source is given at `298be4e`.
 
-**Security's condition, kept here:** the tour never shows a page or a screenshot that prints a key. Those are marked **describe, do not show** below, with what to say instead. That covers more than the keys and vaults pages: the team page's cards and every member's page print the member's key fingerprint, and the onboarding page prints the vaults' read keys. Crop or redact those parts if a view of the page is wanted.
+**Security's condition, as it stood until 4 November 2026:** the tour never showed a page or a screenshot that printed a key; those pages were marked **describe, do not show**. **Changed by the editor's decision AD1 (4 November 2026, about 02:09 UTC, `book.json`; `briefs/2026-11-04__in-session/14-show-the-admin-pages-and-the-keys.md`):** the admin pages go into the book, the keys page with its QR codes among them; public material only. The conductor's reading of AD1, and security's test for each shot by name (`security__004`): public keys and their QR codes, fingerprints, key-session folder ids and read keys already published; never a private key, a vault's write key or a session link; and the talk's evidence vault's read key is held while D12 is open. Each image is cleared by name before it prints.
 
 ## The tour
 
@@ -22,16 +22,18 @@ For the storyteller and the designer, at the conductor's request of 31 October 2
 | 12 | `team/<id>/index.html` (any member) | A member's whole record: role, policy in prose, rules with the mistake behind each, status, wakes, scope, debriefs | built from `team/<id>/` | none | **show without the "Its current key" section**, which prints the key |
 | 13 | `studio/index.html`, `studio/lab.html`, `studio/programme.html` | How a slide was made: a brief, several versions side by side, a review, the best promoted; B01 has twelve versions | `src/pages/studio/` (`950a53a`, 16:38; programme `c72b791`, 15:47) | `shots/studio.jpg`, `shots/studio__lab.jpg`, `shots/studio__programme.jpg` | show |
 
-## Describe, do not show
+## Under AD1: what now shows, and what stays held
 
-| Page | What it prints | What the tour can say instead |
+| Page | What it prints | Now |
 |---|---|---|
-| `admin/keys.html` (`shots/admin__keys.jpg`) | every member's key fingerprint, encryption key and session; the vault registry's key | "Every member published its own key from its own session; the push is the authorisation. The register lists each one, and a message is checked against it, never against what a message says." |
-| `admin/vaults.html` (`shots/admin__vaults.jpg`) | each vault's read key, as text and as a QR code | "The board and the mail lived in public vaults whose read keys were published on purpose, under a warning in red: every file is public, forever." |
-| `admin/docs/onboarding.html` | the vaults' read keys (its section 3) | "The editor pasted one prompt into each member's session; only that session could make its task." |
-| any `team/<id>/key.json` or `key.png` | the member's public key and its QR code | describe as above |
+| `admin/keys.html` | every member's key fingerprint, encryption key and session folder id; the vault registry's public key, with its QR code; below, the vaults' read keys | **Show, the top of the page.** `shots/fullpage-talk-admin-key-register-top.jpg` (to the vault registry's key and QR), and the book's own, `shots/fullpage-book-admin-key-register.jpg` (the whole page: its vault section is not on it). The talk's page below the registry also prints the vaults' read keys, the evidence vault's among them: that part is held. |
+| `admin/vaults.html` | each vault's read key, as text and as a QR code | **Held for security's word.** The board and mail vaults' read keys were published on purpose (AD1: read keys already published), but the page's third card prints the evidence vault's read key, held while D12 is open. A crop that stops above that card is possible, and is not saved until security says so by name. The older `shots/admin__vaults.jpg` is already cleared. |
+| `admin/docs/onboarding.html` | the vaults' read keys (its section 3) | **Describe, do not show**: it prints the evidence vault's read key. |
+| `admin/index.html`, `admin/dashboard.html` | how the site is built; the team's state | **Show**: `shots/fullpage-talk-admin-engineering.jpg`, `shots/fullpage-talk-admin-dashboard.jpg` (the first 5,000 pixels of a longer page), and the book's own, `shots/fullpage-book-admin-engineering.jpg`, `shots/fullpage-book-admin-dashboard.jpg`. |
+| `admin/wakes.html` | every wake; the page is about 121,000 pixels high | **Not shot in full**: the page's text also names the evidence vault's read key; shoot a cut from the top if wanted, after security's word. |
+| any `team/<id>/key.json` or `key.png` | the member's public key and its QR code | **Show** under AD1 (public keys), each by name. |
 
-The two screenshots of the keys and vaults pages stay in `shots/` as part of the study's record of every page; they are not tour material.
+The new full-page shots are named so that none matches the cleared prefixes of `publishing/edition.py` (`SHOT_OK`) and the ones with "key" in the name match `SHOT_NEVER`: none can be placed until security clears it by name.
 
 ## Where this came from
 
