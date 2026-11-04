@@ -1,0 +1,30 @@
+{
+ "schema": "the-ultimate-insider/synthetic-section-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "event-team-member",
+ "read_at": "f53c6e5a",
+ "would_read_on": {"00-start-here": "yes", "00b-who-is-telling-this-story": "maybe", "10-talking-through-git": "yes"},
+ "findings": [
+  {"file": "00-start-here.md", "line": 13, "quote": "share one brief, one board and one hold", "principle": "reader", "severity": "should", "why": "Board and hold are used in the five steps before anything has said what they are, and the formula is the page I would act on."},
+  {"file": "00-start-here.md", "line": 41, "quote": "I make the moving pictures in my workshop.", "principle": "reader", "severity": "should", "why": "Nine one-line hellos use names (ruv-sgit, Studio, Motion) that mean nothing yet, so I skim the list instead of learning who is in the team."},
+  {"file": "00-start-here.md", "line": 53, "quote": "security's, planned in the first hour and never filled on the day", "principle": "reader", "severity": "could", "why": "It hints at a gap in the team, which interests me, but gives no reason and no pointer to where it is explained."},
+  {"file": "00-start-here.md", "line": 21, "quote": "Read it the whole way through, or take the short way", "principle": "6", "severity": "could", "why": "It tells me how to read the book, which a busy reader may take as being managed."},
+  {"file": "00b-who-is-telling-this-story.md", "line": 11, "quote": "The VoiceDebrief pitch added the presenter", "principle": "reader", "severity": "should", "why": "Three earlier projects are named with dates and no explanation, which a reader with a conference to prepare will skip."},
+  {"file": "00b-who-is-telling-this-story.md", "line": 17, "quote": "There is one more thing I want you to see as you read.", "principle": "6", "severity": "could", "why": "It directs what I should look at, and the paragraph after it is a list of roles that I cannot yet place."},
+  {"file": "00b-who-is-telling-this-story.md", "line": 23, "quote": "this one has a cast, scenes, a clock in the margin and pictures that do the explaining", "principle": "7", "severity": "could", "why": "A triad that sells the book's style instead of telling me what a team like mine would take from it."},
+  {"file": "00b-who-is-telling-this-story.md", "line": 25, "quote": "Then tell me what you think.", "principle": "reader", "severity": "should", "why": "The page ends on an invitation with no channel (the note says it is a gap), and with no takeaway on this page I would not read on from it."},
+  {"file": "10-talking-through-git.md", "line": 18, "quote": "At the other's next slot on the clock", "principle": "reader", "severity": "should", "why": "The slot is the idea that makes the mail work, and it is used here before I am told that each agent wakes at set times."},
+  {"file": "10-talking-through-git.md", "line": 19, "quote": "The talk's team kept its mail and its board in two public vaults", "principle": "reader", "severity": "should", "why": "Vaults appear without explanation and next to this book's own repository, and I cannot tell which setup I should copy."},
+  {"file": "10-talking-through-git.md", "line": 20, "quote": "a letter is a file, an answer is a file", "principle": "21", "severity": "should", "why": "The same line is said again at 64 (a letter is a file in a folder) and again in the closing card."},
+  {"file": "10-talking-through-git.md", "line": 62, "quote": "Asked at my slot. Answered at the researcher's. Used at my next. I never had to ask twice.", "principle": "7", "severity": "should", "why": "A run of four short sentences that restates what the three notes just showed."},
+  {"file": "10-talking-through-git.md", "line": 64, "quote": "No \"just checking in\". No \"any update?\". No message sent because somebody was anxious.", "principle": "7", "severity": "should", "why": "Three short fragments in a row, and the reason for them is given in the next sentence anyway."},
+  {"file": "10-talking-through-git.md", "line": 88, "quote": "carry no Agent trailer, so agents.py check counts none of them", "principle": "reader", "severity": "should", "why": "Jargon from the talk team's tooling in a quoted note, with no gloss, so the example about a housekeeping request loses me."},
+  {"file": "10-talking-through-git.md", "line": 90, "quote": "the third of the three letters above, with its order of work, E09 first and E04 after", "principle": "21", "severity": "should", "why": "The third letter and its order of work were told in full at line 60 and again in the ruv-sgit line that follows."}
+ ],
+ "what_holds": [
+  "00-start-here.md: five steps on one page, short enough to try tomorrow with the agent I already have, and the line 'If you only read one page, read this one' respects my five minutes.",
+  "00b-who-is-telling-this-story.md: the narrator saying plainly that he speaks from now, with hindsight, and that the agents' scenes are dramatised.",
+  "10-talking-through-git.md: files as the way agents talk is a pattern I could copy this week, the three-letter example is concrete, and the closing 'Something to try' gives me a first step."
+ ],
+ "notes": "Deal-breaker check: 'a story with no takeaway' is nearly tripped by 00b, which is about the book itself; the other two sections pass. 'One central person' is not tripped, since nothing in 10 needs the editor awake. As an event team I miss, in these three sections, how the factory stops (only a hint, 'the hold') and who owns the brief when several people share it."
+}

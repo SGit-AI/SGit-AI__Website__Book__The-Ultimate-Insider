@@ -1,0 +1,29 @@
+{
+ "schema": "the-ultimate-insider/synthetic-section-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "newsroom-builder", "read_at": "f53c6e5a",
+ "would_read_on": {"00-start-here": "yes", "00b-who-is-telling-this-story": "yes", "10-talking-through-git": "maybe"},
+ "findings": [
+  {"file": "00-start-here.md", "line": 3, "quote": "If you only read one page, read this one.", "principle": "6", "severity": "could", "why": "It tells the reader how to read and ranks the page for them before they have a reason to agree."},
+  {"file": "00-start-here.md", "line": 13, "quote": "share one brief, one board and one hold", "principle": "reader", "severity": "should", "why": "A newsroom builder meets 'board' and 'hold' as bare jargon here, and nothing on the page says what a hold is or who may call one."},
+  {"file": "00-start-here.md", "line": 4, "quote": "4. Your agent builds, you check", "principle": "reader", "severity": "should", "why": "The steps never say what the editor's check or signature is, which is the control this reader most wants to see, so the formula reads as rubber-stamping."},
+  {"file": "00-start-here.md", "line": 21, "quote": "Read it the whole way through, or take the short way", "principle": "6", "severity": "could", "why": "A direction on how to read the book; the map and figure already offer the two routes."},
+  {"file": "00-start-here.md", "line": 41, "quote": "**ruv-sgit:** I make the moving pictures in my workshop.", "principle": "reader", "severity": "should", "why": "A name with a hyphen and a dot-like feel, never explained, and nine hellos arrive before the reader knows why a cast exists."},
+  {"file": "00-start-here.md", "line": 61, "quote": "the six alone through the morning", "principle": "reader", "severity": "could", "why": "The figure brief uses 'the six alone' as if known; it is only explained later, if at all."},
+  {"file": "00b-who-is-telling-this-story.md", "line": 17, "quote": "There is one more thing I want you to see as you read.", "principle": "6", "severity": "could", "why": "It directs the reader's attention instead of simply saying that the book is made the same way as the talk."},
+  {"file": "00b-who-is-telling-this-story.md", "line": 33, "quote": "so you learn the convention once", "principle": "21", "severity": "could", "why": "The two voices are already explained in prose at line 9, so a key card asks what the paragraph has answered."},
+  {"file": "00b-who-is-telling-this-story.md", "line": 5, "quote": "Every one of them left a record of what it did", "principle": "reader", "severity": "could", "why": "A strong promise for a source-minded reader, but no pointer yet to where the record can be checked, which is what would earn trust."},
+  {"file": "10-talking-through-git.md", "line": 18, "quote": "At the other's next slot on the clock", "principle": "reader", "severity": "should", "why": "'Slot' is used as settled vocabulary but is never explained, and 'session' and 'wake' appear loosely beside it."},
+  {"file": "10-talking-through-git.md", "line": 18, "quote": "It wrote a short letter, as a file", "principle": "1", "severity": "should", "why": "A run of reporting sentences in the past tense with no 'I' and no hindsight, unlike the opening paragraph."},
+  {"file": "10-talking-through-git.md", "line": 62, "quote": "Asked at my slot. Answered at the researcher's. Used at my next.", "principle": "7", "severity": "should", "why": "Four short sentences in a row, and the narrator's next paragraph then says the same thing again."},
+  {"file": "10-talking-through-git.md", "line": 64, "quote": "No \"just checking in\". No \"any update?\".", "principle": "7", "severity": "should", "why": "A string of fragments where one sentence could carry the thought, and it restates the request-needs-saying-once point already made at line 46."},
+  {"file": "10-talking-through-git.md", "line": 90, "quote": "the third of the three letters above, with its order of work", "principle": "21", "severity": "should", "why": "This tells again the deck note and ruv-sgit's order that the three-letters scene gave in full thirty lines earlier."},
+  {"file": "10-talking-through-git.md", "line": 94, "quote": "One note followed, one not, and both are in the record.", "principle": "7", "severity": "could", "why": "Three short clipped sentences close the paragraph; the useful point (an agent ignored housekeeping) could run as one."}
+ ],
+ "what_holds": [
+  "00-start-here.md: five numbered steps at the top, in a friend's voice, that a builder could act on tomorrow.",
+  "00b-who-is-telling-this-story.md: the researcher 'who will not move without a source' and the promise that agents disagree with the editor on the page speak directly to a source-minded reader.",
+  "10-talking-through-git.md: the three quoted commit notes with times are exactly the record behind a line that this reader wants, and the ignored housekeeping note is an honest failure left in."
+ ],
+ "notes": "As a would-be editor I looked in all three sections for where the editor signs and how a rubber-stamp is prevented; the formula says 'you check' but not what checking is. That is where I would not yet trust it. I would start with the researcher role if it is explained in a later chapter."
+}
