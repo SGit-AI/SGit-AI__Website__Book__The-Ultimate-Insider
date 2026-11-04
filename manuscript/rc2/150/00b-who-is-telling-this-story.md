@@ -14,7 +14,9 @@
 
 `%% held out of print until he confirms it (a Check item): the newsroom's 'Each earlier experiment fixed one thing and showed me the next'.`
 
-**Narrator.** There is one more thing I want you to see as you read. This book is being made the same way the talk was. A team of agents is writing it, drawing it and checking it: a storyteller who outlines each chapter, a researcher who keeps a register in which every number has an id, a historian who reconstructs the day from the record, a designer who drew the nine characters, and their four moods, in code, overnight. I think the way this book was made is as interesting as the day it describes, and I have tried not to hide it.
+**Narrator.** There is one more thing I want you to see as you read. This book is being made the same way the talk was. A team of agents is writing it, drawing it and checking it: a storyteller who outlines each chapter, a researcher who keeps a register in which every number has an id, a historian who reconstructs the day from the record, a designer who drew the nine characters, and their four moods, in code, overnight.
+
+`%% for the editor (his view, held out of print until he confirms it, P30): the newsroom's "I think the way this book was made is as interesting as the day it describes, and I have tried not to hide it." to close the paragraph.`
 
 `%% record: C122 (the book team's roles, as their own pages of rules state them; this book's record) C117 (the nine, four moods each, drawn by a script overnight, about three and three-quarter hours; this book's record)`
 

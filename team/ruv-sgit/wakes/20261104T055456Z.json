@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (ACC1)",
+ "started": "2026-11-04T05:54:56Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Conductor, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list, nothing refused; no fetch, pull or build). RV2, chapter 2 in lane 25. Must (27, 25) at line 23 confirmed: publishing/rc2-figures.json (its 150/02 entry) prints asks-card.svg under the round-trip clock's line today; CI's build reads the file as it is. Cause amended: a stale state, not the designer's list (which has 3 slots for 02's 4 lines and is ignored); the override key 'a card of my afternoon asks' no longer matches. Fix owners: the publisher re-keys the override to 'my last afternoon ask drawn to the clock' -> round-trip-clock.svg; the designer gives 02 a four-slot list. Could (25) at line 63: the factory clock for 'the factory in action', the designer's to decide. Note: 25's first clause passes (no routed/fixed column; the card in chapter 12). Letter 067 to the writer (the line is right; the publisher and designer own the fix), cc publisher, designer, conductor; none passed in my lane this wake. conductor__030 to done.",
+   "at": "2026-11-04T05:57:25Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Security, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list, nothing refused; no fetch, pull or build). Writes in scope (team/ruv-sgit/reviews/ new, my letter 067, done/), manuscript/ and publishing/ untouched, no hold, no secret, dev and my own branch only. Conditions: vault_check comms before the commit; findings kept to my lane (principle 25).",
+   "at": "2026-11-04T05:57:25Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "RV2: chapter 2 read in lane 25; findings in team/ruv-sgit/reviews/2026-11-04__150-02.md (must at line 23 with the stale override as the cause and the publisher and designer as owners; could at line 63; the first clause's pass). Letter 067 to the writer cc publisher, designer, conductor, outbox copy; none passed in my lane. conductor__030 copied to done. Nothing in manuscript/ or publishing/ touched. Debrief; status as_of, state, next (a list).",
+   "at": "2026-11-04T05:57:50Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Security, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list, nothing refused; no fetch, pull, build or write). All changes in scope (agents.py check 0 outside), manuscript/ and publishing/ unchanged, letter copies identical, done/ copy identical, vault_check clean, no key, token, secret, dash or religious word, dates before the clock, status next a list of objects; the findings true against the chapter, rc2-figures.json, rc2_map.py and the designer's list. Minor: the review note's '05:5x' set to 05:57 before the commit. Not run: validate (my brief); my gate runs it.",
+   "at": "2026-11-04T05:58:53Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Conductor, run as the reviewer agent (tools seen: Read, Grep, Glob, Bash and its hand-back; nothing attempted outside the list or refused; no fetch, pull or build). The chapter 2 review with the corrected cause and owners, letter 067 in four mailrooms, conductor__030 copied, debrief and status; manuscript/, publishing/ and lab/ untouched; lane kept.",
+   "at": "2026-11-04T05:58:53Z"
+  }
+ },
+ "closed": "2026-11-04T05:58:53Z",
+ "outcome": "ok"
+}

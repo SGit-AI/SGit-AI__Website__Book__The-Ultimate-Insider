@@ -1021,7 +1021,7 @@ State: checked.
 
 ```
 # in a clone of the talk's repository:
-git grep -h -o -E '[A-Za-z0-9-]+\.sgit\.ai' cb5b996 | sort | uniq -c | sort -rn | head -16; and python3 claims/talk-weight.py for both counts
+git grep -h -o -E '[A-Za-z0-9-]+\.sgit\.ai' cb5b996 | sort | uniq -c | sort -rn; and python3 claims/talk-weight.py for both counts
 ```
 
 ## C127: The editor's earlier projects as the team's memory, in the talk's record: the pages he named, the 273 sgit.ai pages the researcher captured, and what the team carried over, dated

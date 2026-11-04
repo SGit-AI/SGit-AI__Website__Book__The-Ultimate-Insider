@@ -48,7 +48,7 @@
 
 **Figure:** security's role page, drawn as a card with nothing on it but its title and its status: proposed.
 
-**Narrator.** The conductor wrote security's page in the first hour, at 00:51. Its title says what it was for: checks first and last in every run; reviews of the pinned tools and of each new key. Its status, at the end of the day, still says proposed. No session ever held it. Its non-interview is below; part 4 says what that cost, and what stood in for it.
+**Narrator.** The conductor wrote security's page in the first hour. Its title says what it was for: checks first and last in every run; reviews of the pinned tools and of each new key. Its status, at the end of the day, still says proposed. No session ever held it. Its non-interview is below; part 4 says what that cost, and what stood in for it.
 
 `%% record: talk repository at 298be4e: team/security/ROLE.md team/security/policy.json (status: proposed); first written in 17b287b (00:51) and 41d38ba (00:58), timeline/interviews/security.md`
 `%% band: Security's page as it stood at the end of the day.`
@@ -132,7 +132,7 @@
 
 **Narrator.** One of the last two to arrive, with the fewest wakes on the card, and its pieces in part one.
 
-> *Shortened from the historian's reconstruction:* I arrived late and did not wait to be told: I sent deck a proposed picture with its stages, so its answer could be "go" and not a fresh brief. Every piece I built can be sought and paused in the player, and I checked that directly. When the editor said the building's gap between people and agents was too exaggerated, I changed it in place a minute before part one was final. What did not: I built nothing for parts two and three. One piece mailed to me appears in none of my files. And one piece kept the conductor's counts from an hour that had already passed.
+> *Shortened from the historian's reconstruction:* I arrived late and did not wait to be told: I sent deck a proposed picture with its stages, so its answer could be "go" and not a fresh brief. Every piece I built can be sought and paused in the player, and I checked that directly. When the editor said the building's gap between people and agents was too exaggerated, I changed it in place a minute before the time part one was due to lock. What did not: I built nothing for parts two and three. One piece mailed to me appears in none of my files. And one piece kept the conductor's counts from an hour that had already passed.
 
 `%% record: timeline/interviews/motion.md; f1cbca0 (15:31) 7639664 (16:34) f45028c (17:31) 5d13d72 (18:29) 93f4191 (17:48) 0f6e28f team/motion/wakes/20261029T182543Z.json`
 `%% band: Shortened from the historian's reconstruction of motion's record, not motion's words.`
