@@ -219,12 +219,42 @@ def printed_ids(raw, drop, ch, name):
     return ids, n
 
 
+CLAIM_HEAD = re.compile(r'^#{1,6}\s+(C\d{3})\b')
+
+
+def text_address_gate(raw, claims, path):
+    """Security's answer (security__060 and 006): an address off the two hosts may be printed in the online view as escaped text only
+    when it stands under its own claim, that is, in a section whose heading names the claim id (Appendix A's '## C101: ...') and the
+    address is in that claim's own register entry. An address anywhere else, or under a claim whose entry does not list it, stops the
+    build (fail closed). Lines of writers' notes ('%%') are not printed and not read here. -> [{'address', 'claim'}] for this chapter."""
+    found, claim, in_code = [], None, False
+    for n, line in enumerate(raw.split('\n'), 1):
+        if line.lstrip().startswith('```') and not re.match(r'^`?%%', line):
+            in_code = not in_code                                   # a '#' line inside a fenced block is a comment, not a heading
+        m = CLAIM_HEAD.match(line) if not in_code else None
+        if m:
+            claim = m.group(1)
+        elif not in_code and re.match(r'^#{1,6}\s', line):
+            claim = None                                            # any other heading ends the claim's section
+        if re.match(r'^`?%%', line):
+            continue
+        for a in sorted(addresses(line)):
+            if a == SITE or HOSTS.match(a):
+                continue
+            if claim is None or claim not in claims or a not in addresses(json.dumps(claims[claim], ensure_ascii=False)):
+                sys.exit(f'{path.name}:{n}: an address off the two hosts that is not under a claim whose register entry lists it: {a}')
+            if {'address': a, 'claim': claim} not in found:
+                found.append({'address': a, 'claim': claim})
+    return found
+
+
 def chapter_page(path, i, files, book, talk, claims, edition_title, foot=None, drop=()):
     raw = path.read_text()
     if foot is not None:                                            # a short edition: the publisher's text, its page's record at the foot
         raw = web_text(raw, path) + '\n' + '\n'.join(foot)
     title = re.match(r'# (.*)', raw).group(1)
     ch = f'r{i + 1:02d}'
+    text_addresses = text_address_gate(raw, claims, path)          # security's answer to developer__047: a register address may print as text under its own claim, nothing else off the two hosts
     used, blocks, scene, linked, seen, recs, first = {}, [], 0, 0, {}, [], ''
     kept, kept_n = printed_ids(raw, drop, ch, path.name) if drop else (None, 0)             # which paragraphs print (build_book.py's drop-section rule)
     after_heading = False                                           # set by a heading, taken by the next block (a figure under a heading is introduced by it)
@@ -274,7 +304,7 @@ def chapter_page(path, i, files, book, talk, claims, edition_title, foot=None, d
             print(f'warning: {path.name}: the paragraphs that print do not add up ({len(every) - kept_n} expected left out, {sum(1 for p in every if p.get("in_print") is False)} marked)', file=sys.stderr)
     if paras:
         scenes.append({'record_id': None, 'paragraphs': paras, 'record': None, 'tokens': []})
-    return title, scene, linked, body, recs, {'file': str(path.relative_to(ROOT)), 'title': title, 'page': f'{ch}', 'scenes': scenes}
+    return title, scene, linked, body, recs, {'file': str(path.relative_to(ROOT)), 'title': title, 'page': f'{ch}', **({'text_addresses': text_addresses} if text_addresses else {}), 'scenes': scenes}
 
 
 def main(talk_path):
@@ -368,6 +398,11 @@ def main(talk_path):
                             sys.exit(f'editions.json: {a} under {t["token"]} is not in the register entry for it')
                         if {'address': a, 'claim': t['token']} not in outside:
                             outside.append({'address': a, 'claim': t['token']})
+    for e in editions:                                               # the gate in chapter_page has passed for these: listed with their claim, as text, never a link
+        for c in e['chapters']:
+            for x in c.get('text_addresses', []):
+                if x not in outside:
+                    outside.append(x)
     blob = json.dumps({'about': 'The online editions as data: each chapter, its scenes, their paragraphs (with the review pages\' anchors) and the record each rests on, '
                                 'every token resolved to its repository and address, or marked unverified. Writers\' notes are left out, as on the pages. '
                                 'outside_citations: addresses on other hosts that the researcher\'s register cites as sources, under the claim that cites them; text, not links. '
@@ -383,7 +418,11 @@ def main(talk_path):
     bare.pop('outside_citations')                                    # outside it, every address must be on the two hosts (a citation passes only under its claim, checked above)
     for e in bare['editions']:
         for c in e['chapters']:
+            ok = [x['address'] for x in c.pop('text_addresses', [])]  # passed the gate in chapter_page, under their claim: out of the scan, in this chapter's paragraphs only
             for sc in c['scenes']:
+                for p_ in sc['paragraphs']:
+                    if ok:                                           # whole addresses only, never a piece of a longer one
+                        p_['text'] = ADDR.sub(lambda m_: '[address]' if m_.group(0).rstrip('.,;:!?') in ok else m_.group(0), p_['text'])
                 for t in sc['tokens']:
                     if t['kind'] == 'claim':
                         t.pop('claim', None), t.pop('value', None)
@@ -391,9 +430,16 @@ def main(talk_path):
         if not (a == SITE or HOSTS.match(a)):
             sys.exit(f'editions.json: an address off the two hosts outside its claim\'s register text: {a}')
     for f in PAGES.glob('*/*.html'):                                 # and never a link on the pages
-        for h in re.findall(r'href="([^"]+)"', f.read_text()):
+        page = f.read_text()
+        for h in re.findall(r'href="([^"]+)"', page):
             if html.unescape(h).rstrip('.,;:!?') in allowed:
                 sys.exit(f'{f}: links an outside citation: {h}')
+        for v in re.findall(r'\s[\w:-]+\s*=\s*"([^"]*)"|url\(([^)]*)\)', page):   # security: every attribute, and css url(), not only href/src
+            for a_ in addresses(html.unescape(v[0] or v[1])):
+                if not (a_ == SITE or HOSTS.match(a_)):
+                    sys.exit(f'{f}: an attribute or url() carries an address off the two hosts: {a_}')
+    if '--dry' in sys.argv:                                          # every guard passed; nothing is put in place (for a diff to be reviewed before a release)
+        print('dry run: every guard passed; no file written'); shutil.rmtree(PAGES); return
     QR.write_text(json.dumps({'about': 'One target per scene (RC2, the 70-page draft) or page (the 3- and 10-page editions): the public URL of the record under it, '
                                        'for a QR code in print. Written by review/tools/make_editions.py; an id holds while the chapter keeps its place and scenes.',
                               'site': SITE, 'targets': targets}, indent=1, ensure_ascii=False) + '\n')
@@ -424,6 +470,7 @@ def main(talk_path):
 
 
 if __name__ == '__main__':
-    if len(sys.argv) != 2:
-        sys.exit('usage: make_editions.py <path to a clone of the talk\'s repository>')
-    main(sys.argv[1])
+    args = [a for a in sys.argv[1:] if a != '--dry']                 # --dry: run every guard, write nothing
+    if len(args) != 1:
+        sys.exit('usage: make_editions.py <path to a clone of the talk\'s repository> [--dry]')
+    main(args[0])
