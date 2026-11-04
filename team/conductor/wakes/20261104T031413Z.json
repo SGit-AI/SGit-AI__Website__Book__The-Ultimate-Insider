@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Brief 22 verbatim (both messages: a second writer, then four); WR2 in book.json; staffing drafts for writer2 (10-15), writer3 (16-19), writer4 (2*, 9*), each a copy of the writer's policy with its own name and chapters (same not_wanted, never and endpoint); runs entries at :50, :05, :35, session null; ONBOARDING 1f; writer 030 (narrow its policy) and a WR2 note to ten members, with outbox copies; status; vault_check clean. Changed from the reviewed plan at his next message: three new writers, not one, the same pattern.",
    "at": "2026-11-04T03:18:21Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "finding",
+   "comment": "Reviewer agent: in scope; validate clean; the three policies copy the writer's not_wanted, never and endpoint exactly; no overlap; every rc2/150 file has one owner; no key, token or session link. Finding: the runs entries' active and idle fields kept the writer's :28 and the prompts said every two hours; fixed before the push (each its own minute, every hour). Minor: ROLE.md step 3's comms paths and ONBOARDING 1f's tense, fixed.",
+   "at": "2026-11-04T03:20:35Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "as-planned",
+   "comment": "Reviewer agent: everything planned done; three new writers, not one, at his next message, same pattern, recorded; the sessions start after the push.",
+   "at": "2026-11-04T03:20:35Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T03:20:35Z",
+ "outcome": "ok"
 }

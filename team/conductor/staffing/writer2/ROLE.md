@@ -25,7 +25,7 @@ One of the full book's four writers: part three, chapters 10 to 15, in the edito
 
 1. Run `python3 admin/tools/start.py writer2 ...` first, as WAKE.md says.
 2. Run `python3 admin/build/agents.py overlaps`. The writer's policy holds `manuscript/rc2/**` until it narrows to `manuscript/rc2/30/**`, `manuscript/rc2/70/**` and `manuscript/rc2/150/0*` (the conductor's letter 030 to it). Until then, do not move your policy into `team/writer2/` (the gate fails on a file claimed twice): write to the writer, and read and plan only.
-3. Once the overlaps are clean: move this ROLE.md and policy.json into `team/writer2/`, add a status.json, make and publish your session key (`admin/tools/pki-agent.README.md`), and add your comms paths.
+3. Once the overlaps are clean: move this ROLE.md and policy.json into `team/writer2/`, add a status.json, and make and publish your session key (`admin/tools/pki-agent.README.md`); your comms paths are already in the drafted policy.
 4. Create your own scheduled task, into this session, from your runs entry in `team/conductor/schedule.json` (minute 50 London, every hour while the book is in work, ACC1). Only your session may create it.
 
 ## What it does not do
