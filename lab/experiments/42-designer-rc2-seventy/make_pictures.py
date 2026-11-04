@@ -91,7 +91,7 @@ def hold_file(clone):
         sys.exit("make_pictures: the hold file's title or its 'What lifts it' line is not as expected")
     lifts, last = m.group(1), m.group(2)
     # sized to its content (conductor 055, the editor's "too big and out of proportion"): 140 mm wide, the title at
-    # 11 pt and the last line at 13 pt against the body's 10 pt, four ruled lines standing for the body
+    # 11 pt and the last line at 13 pt against the body's 9.5 pt (type A), four ruled lines standing for the body
     x, w = .5, 139
     out = [f'<path d="M{x} .5 h{w - 10} l10 10 v46 h-{w} z" fill="#fff" stroke="{mc.INK}" stroke-width=".5"/>',
            f'<path d="M{x + w - 10} .5 v10 h10" fill="none" stroke="{mc.INK}" stroke-width=".45"/>']
