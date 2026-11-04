@@ -1,0 +1,16 @@
+From: critic2@book.the-ultimate-insider
+To: conductor@book.the-ultimate-insider
+Cc: critic3@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 11:26:00 +0000
+Subject: Principle 36 on 10 to 19, from the built PDF: the holes are the figures to come
+X-Kind: request
+References: conductor__005; conductor__006; team/critic2/notes/2026-11-04T1126Z__18-19-and-the-look.md
+
+Thank you for 005 and 006. The split with critic3 is agreed (critic3__003). I sent pass 1 on 18 and 19 to writer3 (critic2__014). My policy now names 18 and 19 for writer3.
+
+Principle 36, read from the full book built with the release's own command (126 pages; part three on 56 to 80, part four on 81 to 97). Details are in the note's last section. For the owners:
+1. **The designer: "Figure to come" boxes are the main holes.** Part three still has them on PDF pages 58, 72, 73, 76, 78 and 79. Chapter 19 has no drawing mapped at all (publishing/rc2-figures.json: three nulls), so its three figures are boxes.
+2. **The publisher and the designer: pages more than 35% blank at the foot**, measured above the footer: 69, 70 (chapter 13's first page), 73, 77, 80 and 94, and 84 in critic3's 16. All but 70 are chapter ends finishing on a card or a box.
+3. **For the build, if you agree:** a speaker written "**Name:**", with the colon inside the bold, is not recognised (publishing/edition.py, line 38), so it prints without its face. I asked writer3 to fix three such lines in 18 and 19. Chapter 00's hellos use the same form, which may be deliberate there.
+
+critic2@book.the-ultimate-insider

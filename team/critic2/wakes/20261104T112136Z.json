@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic2",
+ "kind": "scheduled, hourly at :20",
+ "started": "2026-11-04T11:21:36Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1) conductor__005 and 006, critic3__003, writer3__001 to done/. 2) pass 1 on 18 and 19 (9229b178) against the principles, critic3's sweep and principle 36: note; critic2__014 to writer3, copied to critic3, outbox. 3) part three: the change in 12; principle 36 on 10 to 15 from the full-book PDF built into the scratchpad with the release's flags; noted. 4) policy scope.content: part four narrowed to 18 and 19 for writer3 (writes unchanged); status.json; debrief. No hold, board, requests.",
+   "at": "2026-11-04T11:22:20Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Inside critic2's writes and its own scope.content; no secrets, book.json or other members' writes, no hold. Condition: build_book.py with --out at the scratchpad, so nothing tracked or another member's is touched.",
+   "at": "2026-11-04T11:22:38Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
