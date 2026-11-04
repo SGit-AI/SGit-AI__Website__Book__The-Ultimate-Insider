@@ -25,7 +25,7 @@
 
 **Researcher**: Partial. The rest is in my next wake's plan, not in a claim that it is done.
 
-**Narrator.** That is a small thing. Not whether everything finished: whether what did not finish was written down as not finished.
+**Narrator.** That is a small thing. What the record shows is not whether everything finished, but whether what did not finish was written down as not finished.
 
 `%% for the editor (his view, held out of print until he confirms it, P30): the writer's "and it is the thing I would look for first in any team I had left alone", after "That is a small thing".`
 
@@ -90,7 +90,7 @@
 
 **Deck**: One thing in flight at a time. The other waits its turn.
 
-**Narrator.** And a lapse that stays in. From late in hour nine, many of its commits dropped the "@" from its name and the line saying which agent made them. They carry on that way, mixed with commits in the house form, to its last of the day. The register's count of commits by member was corrected for it afterwards. Chapter 10 has the conductor's notes about it.
+**Narrator.** And a lapse that stays in. From late in hour nine, many of ruv-sgit's commits dropped the "@" from its name and the line saying which agent made them. They carry on that way, mixed with commits in the house form, to its last of the day. The register's count of commits by member was corrected for it afterwards. Chapter 10 has the conductor's notes about it.
 
 `%% record: eefc1d3 (08:21: its ask of the researcher held while that request is open) 15707dc (08:43, without the @ form or the Agent trailer) fc724df (18:40) C014 (corrected for it) timeline/day/08.md`
 `%% band: Dramatised (deck's line). Rests on deck's wake of 08:18 and ruv-sgit's commits from 08:43.`
