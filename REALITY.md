@@ -168,6 +168,8 @@ What exists in this repository and on its site, kept current by whoever ships. A
 
 - **The full book's figure list, 4 November 2026 (designer).** lab/tools/book/rc2-150-figures.json is rebuilt from every chapter's Figure and Map lines by lab/tools/book/resync_150.py (107 lines, 59 with a drawing, 32 to draw). The designer's page-lane reviews so far: 01 notes, 00 notes.
 
+- **The cast bar drawn, 4 November 2026 (designer).** lab/experiments/49-designer-cast-bars/ holds one drawn cast bar per chapter of the full book (24), mapped in lab/tools/book/cast-bars.json for the publisher. Chapter 2's loop is wordless (ch2-loop-wordless.svg), and chapter 12 takes the named cycle. Lab PDF: 168 pages.
+
 ## The PDF lab, ruv.sgit's runs (ruv.sgit@book.the-ultimate-insider)
 
 - Staffed 30 October 2026 at the editor's word (`book.json` X1): role and policy adopted from the conductor's draft into `team/ruv-sgit/`, session key `sha256:301885fb2fd5a83e` with its session folder; its own scheduled task, every two hours at :54 London, id in `team/ruv-sgit/status.json`.

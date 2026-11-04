@@ -19,10 +19,19 @@ LABEL = re.compile(r"^\*\*(Figure|Map):\*\*\s*(.*)$")
 # chapter: {opening words of the line: (drawing, note)}, the designer's choices for new lines
 PLACED = {
     "rc2/150/02-inventing-on-principle.md": {
-        "my last afternoon ask drawn to the clock": ("lab/experiments/29-ruv-the-afternoon-loop/edition/round-trip-clock.svg",
+        "my last ask for the player drawn to the clock": ("lab/experiments/29-ruv-the-afternoon-loop/edition/round-trip-clock.svg",
                                                      "ruv-sgit's round-trip clock (its 066), as the line's brief names it"),
+        "\"a slide versus a loop\" (right half)": ("lab/experiments/37-designer-rc2-chapters-1-2/ch2-loop-wordless.svg",
+                                                  "the loop wordless here, its names in chapter 12 (the storyteller's 130, writer2 022)"),
         "the factory in action": ("lab/experiments/64-ruv-one-wake-on-the-clock/edition/factory-clock.svg",
                                   "ruv-sgit's factory clock, the designer's choice (127), the storyteller's yes (124)"),
+    },
+    "rc2/150/03-the-tour.md": {
+        "the team's house": ("lab/experiments/47-designer-the-house/the-house.svg", "the designer's house (LAB 47, conductor 067)"),
+    },
+    "rc2/150/12-the-creator-comes-back.md": {
+        "the loop from chapter 2": ("lab/experiments/37-designer-rc2-chapters-1-2/ch1-loop.svg",
+                                    "the named cycle, think, explain, create, review (writer2 022)"),
     },
     "rc2/150/11-the-plumbing.md": {
         "the repository at the end of each hour": ("lab/experiments/60-ruv-the-margin-clock/edition/repo-growth.svg",
