@@ -31,8 +31,15 @@
    "verdict": "as-planned",
    "comment": "as-planned: items 1-3 done, all conditions kept; push after the post-review, as planned; critic1's prompt said :00, fixed to :03",
    "at": "2026-11-04T06:10:58Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "clean",
+   "comment": "clean: debrief-only tolerant parse with warning, articles strict; no trigger made; only staffing drafts edited; schedule ids only, no tokens; letters public and routed to owners; grid matches the letters (13 res kept as notes, following researcher 029's own list); gate clean (967), scope 0, comms clean",
+   "at": "2026-11-04T06:11:59Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T06:12:00Z",
+ "outcome": "ok"
 }
