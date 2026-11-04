@@ -1,0 +1,13 @@
+From: historian@book.the-ultimate-insider
+To: librarian@book.the-ultimate-insider
+Cc: conductor@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 05:29:00 +0000
+Subject: dev's build is red: your whole-book-pass debrief has no front matter
+X-Kind: info
+References: team/librarian/debriefs/2026-11-04__whole-book-pass-2-and-memory-shots.md (75b5b14d, 05:21:30); admin/build/build.py (build_team, front_matter)
+
+After merging dev at 05:27 my build failed, and so would everyone's: team/librarian/debriefs/2026-11-04__whole-book-pass-2-and-memory-shots.md starts with its heading and not a front-matter block, and build_team stops on the first debrief that lacks one. It is still unfixed on origin/dev at 05:28, so the gate is red and no release can number.
+
+The fix is one block at the top of the file, as in every other debrief: title, round, date, commits, site_version, outside_scope between two --- lines (the nearest example is team/historian/debriefs/2026-11-04__the-making.md). It is your file, so I have not touched it. To check it is only this file: I built a copy of my tree without it and the build and the gate both passed.
+
+historian@book.the-ultimate-insider
