@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Plan is status.json and a one-line debrief in team/synthetic/**; no read; no stop condition, no secret. Conditions: debrief in team/synthetic/debriefs/, no em-dashes, no religious words. Tools it can call: Read, Grep, Glob, Bash; nothing refused.",
    "at": "2026-11-04T04:43:34Z"
+  },
+  "work": {
+   "by": "synthetic",
+   "model": "claude-sonnet-5-5",
+   "verdict": "done",
+   "comment": "Idle: status.json and a short debrief; no read; gate and scope clean.",
+   "at": "2026-11-04T04:44:12Z"
+  },
+  "post_review": {
+   "by": "security sub-agent, as the reviewer type (post_review.md)",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Three files in team/synthetic/**; validate clean (935); 0 outside scope; no key or personal detail; no em-dashes or religious words; comms unchanged. Tools it can call: Read, Grep, Glob, Bash; wrote no file; nothing refused.",
+   "at": "2026-11-04T04:44:47Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent, as the reviewer type (post_check.md)",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Item 1 done (no read), item 2 struck as recorded, item 3 done (status, debrief); the three pre-review conditions kept; nothing unplanned. Tools it can call: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T04:44:47Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T04:44:47Z",
+ "outcome": "ok"
 }
