@@ -70,6 +70,12 @@ PLACED = {
         "this book's team arriving": ("lab/experiments/51-designer-book-team-arriving/book-team-arriving.svg",
                                       "the designer's twelve arriving (LAB 51), from C131"),
     },
+    "rc2/150/05-hour-two-the-rules-written.md": {
+        "the publishing flow": ("lab/experiments/56-designer-rule-and-flow/publishing-flow.svg", "the callout's picture (LAB 56), 56 mm"),
+    },
+    "rc2/150/07-hour-three-the-five-steps.md": {
+        "one rule's journey in an hour": ("lab/experiments/56-designer-rule-and-flow/rule-journey.svg", "the designer's line of the hour (LAB 56)"),
+    },
     "rc2/150/08-hours-four-and-five-before-dawn.md": {
         "a card, the researcher's two findings": ("lab/experiments/55-designer-findings-cards/ch8-two-findings.svg", "LAB 55, C025 under the rail"),
     },
