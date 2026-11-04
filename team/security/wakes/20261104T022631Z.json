@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T02:26:31Z",
+ "steps": {
+  "plan": {
+   "by": "security, amended at the pre-review's change",
+   "model": "",
+   "verdict": "go",
+   "comment": "Amended: decoded QR contents and any key value stay in the scratchpad only, never in a page, letter, register or commit; the letter names images and reasons only (what kind of thing each shows, never its value). Otherwise as before.",
+   "at": "2026-11-04T02:30:02Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent, as the reviewer agent (callable: Read, Grep, Glob, Bash, SubagentHandback); second pass",
+   "model": "haiku",
+   "verdict": "go",
+   "comment": "Amended plan meets the change: decoded values stay in the scratchpad; letter names images only; in scope.",
+   "at": "2026-11-04T02:30:21Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. The four admin shots opened and QR-decoded (contents in the scratchpad only): cleared by name within AD1; the full-page test set (evidence vault read key held for D12). 2. 150/01's figure, the covers, Appendix A's C068 hold: clear. 3. Letter security__048; C8 evidence; board; status; debrief.",
+   "at": "2026-11-04T02:34:34Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
