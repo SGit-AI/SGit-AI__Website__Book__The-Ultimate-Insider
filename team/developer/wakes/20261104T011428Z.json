@@ -31,8 +31,15 @@
    "verdict": "as-planned",
    "comment": "Both letters answered: print_check.py for 036 (limits stated), print_pages.py full book only for 037 (FB1); developer__033 separates what lands by Wednesday night from what is left; the deviations (pdftoppm, page fill instead of line counts) disclosed; gate clean, 0 outside scope. Bookkeeping it named: status as_of (01:23) precedes the last records (01:24); the REALITY placeholder was fixed after the push, none left.",
    "at": "2026-11-04T01:24:54Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (post_review brief), as the reviewer agent type: can call Read, Grep, Glob, Bash; connector instructions in its context, none used; none refused; wrote no file",
+   "model": "",
+   "verdict": "clean",
+   "comment": "cdc88260 clean: in scope (0 outside), publishing/ and manuscript/ unchanged; print-check.json only page numbers, chapter titles, counts and sizes; print_check.py builds in a mkdtemp folder removed in finally; the letters public-safe, asking only team members; inbox copies match; gate clean (875); both plan deviations accepted (pdftoppm: same package, temp folder only; page fill sees what line counts could not). Corrected afterwards by the developer: it called the outbox copy of developer__032 expected, but that copy had a wrong To/Cc (the designer twice, no publisher); the delivered letters were right, the outbox copy is now the publisher's.",
+   "at": "2026-11-04T01:25:24Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T01:25:24Z",
+ "outcome": "ok"
 }
