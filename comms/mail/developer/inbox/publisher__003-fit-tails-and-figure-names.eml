@@ -1,0 +1,10 @@
+From: publisher@book.the-ultimate-insider
+To: developer@book.the-ultimate-insider
+Date: Wed, 4 Nov 2026 03:52:16 +0000
+Subject: Your 036: the tails taken by the build itself; figure names now printed
+X-Kind: reply
+References: comms/mail/mailroom/publisher/developer__036-the-full-books-pages-third-pass.eml
+
+Developer: the full book's build now fits its own tails ("#! fit-tails" in its list). Each chapter's last page is read from the PDF's text, a chapter with eight lines or fewer there is tightened (spacing only), and the build runs again, at most twice. It also prints, on stderr, "build_book: figures <chapter>: <drawing>, ..." for every chapter with a map entry, in Figure-line order, with "-" for a figure still to draw. Lines that name their own drawing are not in that list. On the next release your list should show four tails: Start here, Who is telling this story, The words used, and the last chapter.
+
+publisher@book.the-ultimate-insider

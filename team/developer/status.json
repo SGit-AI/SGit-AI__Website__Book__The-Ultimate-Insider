@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "developer",
- "as_of": "2026-11-04T03:18:00Z",
+ "as_of": "2026-11-04T04:35:00Z",
  "round": 2,
  "state": "hourly (ACC1): the full book is the book (FB1); its online pages current and checked for layout each wake; the older editions left online as they were; review steps as the reviewer agent (TA1)",
  "done": [
@@ -211,6 +211,10 @@
   },
   {
    "what": "the third page check, on the release of 03:11 UTC (140 pages): 9 tails, 11 gaps (5 borderline), what changed since the last list, to the publisher and designer (developer__036) with a yes to the figure-names offer; the full book's online printed view now shows only what prints (29 paragraphs of 'Where this came from' marked in_print:false by the build's own drop rule; all other paragraph ids unchanged); print_check.py marks borderline gaps; TG1 noted (20:00 London is the aim, not a freeze)",
+   "when": "2026-11-04"
+  },
+  {
+   "what": "print_check.py now finds each figure by its printed caption (103 of 103 on the 04:18 published PDF, 137 pages) and checks it begins on the page where the paragraph before it ends; figures straight under a heading (26) are marked after_heading by make_editions.py and not checked; no figure_apart left; fourth-pass list mailed to publisher and designer (developer__037), which takes back last wake's yes to the figure names",
    "when": "2026-11-04"
   }
  ],

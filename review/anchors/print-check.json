@@ -1,9 +1,9 @@
 {
  "about": "The full book's printed pages checked for pages that may not look right (conductor__036). Written by review/tools/print_check.py: page numbers, chapter titles, counts and sizes only.",
  "edition": "rc2-150",
- "source": "a PDF given by hand (full.pdf, created Wed Nov  4 03:11:49 2026 UTC); its chapters are taken to be today's",
- "pdf_pages": 140,
- "chapters_hash": "72bcc4f6b33380b6",
+ "source": "a PDF given by hand (full.pdf, created Wed Nov  4 04:18:11 2026 UTC); its chapters are taken to be today's",
+ "pdf_pages": 137,
+ "chapters_hash": "6c65d111522cc65d",
  "thresholds": {
   "spill_fill_below": 0.25,
   "gap_fill_below": 0.7,
@@ -13,31 +13,30 @@
  "chapters_found": 29,
  "chapters": 29,
  "counts": {
-  "chapter_end_spill": 9,
-  "gap_page": 11,
-  "figure_apart": 3
+  "chapter_end_spill": 7,
+  "gap_page": 10
  },
  "flags": [
   {
    "kind": "chapter_end_spill",
-   "page": 116,
+   "page": 113,
    "chapter": "Principles, and build your own",
    "lines": 1,
    "fill": 0.02
   },
   {
    "kind": "chapter_end_spill",
-   "page": 134,
-   "chapter": "The words used",
-   "lines": 4,
+   "page": 62,
+   "chapter": "The plumbing",
+   "lines": 3,
    "fill": 0.08
   },
   {
    "kind": "chapter_end_spill",
-   "page": 59,
-   "chapter": "Talking through git",
-   "lines": 3,
-   "fill": 0.14
+   "page": 131,
+   "chapter": "The words used",
+   "lines": 4,
+   "fill": 0.08
   },
   {
    "kind": "chapter_end_spill",
@@ -55,40 +54,17 @@
   },
   {
    "kind": "chapter_end_spill",
-   "page": 96,
+   "page": 93,
    "chapter": "How do we contain this",
    "lines": 4,
    "fill": 0.16
   },
   {
    "kind": "chapter_end_spill",
-   "page": 16,
-   "chapter": "Inventing on principle",
-   "lines": 8,
-   "fill": 0.22
-  },
-  {
-   "kind": "chapter_end_spill",
-   "page": 100,
-   "chapter": "A second team, reading cold",
-   "lines": 5,
-   "fill": 0.22
-  },
-  {
-   "kind": "chapter_end_spill",
-   "page": 137,
+   "page": 134,
    "chapter": "Appendix B: the control register",
    "lines": 12,
    "fill": 0.24
-  },
-  {
-   "kind": "gap_page",
-   "page": 63,
-   "chapter": "The plumbing",
-   "fill": 0.29,
-   "lines": 11,
-   "raster_figure_here": false,
-   "borderline": false
   },
   {
    "kind": "gap_page",
@@ -101,7 +77,7 @@
   },
   {
    "kind": "gap_page",
-   "page": 102,
+   "page": 99,
    "chapter": "Sessions end",
    "fill": 0.56,
    "lines": 21,
@@ -110,7 +86,7 @@
   },
   {
    "kind": "gap_page",
-   "page": 131,
+   "page": 128,
    "chapter": "The tour, at length",
    "fill": 0.58,
    "lines": 14,
@@ -137,7 +113,7 @@
   },
   {
    "kind": "gap_page",
-   "page": 92,
+   "page": 89,
    "chapter": "How do we contain this",
    "fill": 0.67,
    "lines": 24,
@@ -146,25 +122,25 @@
   },
   {
    "kind": "gap_page",
-   "page": 124,
-   "chapter": "The tour, at length",
-   "fill": 0.68,
-   "lines": 7,
-   "raster_figure_here": true,
-   "borderline": true
-  },
-  {
-   "kind": "gap_page",
-   "page": 125,
-   "chapter": "The tour, at length",
-   "fill": 0.68,
-   "lines": 7,
-   "raster_figure_here": true,
-   "borderline": true
-  },
-  {
-   "kind": "gap_page",
    "page": 121,
+   "chapter": "The tour, at length",
+   "fill": 0.68,
+   "lines": 7,
+   "raster_figure_here": true,
+   "borderline": true
+  },
+  {
+   "kind": "gap_page",
+   "page": 122,
+   "chapter": "The tour, at length",
+   "fill": 0.68,
+   "lines": 7,
+   "raster_figure_here": true,
+   "borderline": true
+  },
+  {
+   "kind": "gap_page",
+   "page": 118,
    "chapter": "The tour, at length",
    "fill": 0.69,
    "lines": 24,
@@ -173,44 +149,43 @@
   },
   {
    "kind": "gap_page",
-   "page": 129,
+   "page": 126,
    "chapter": "The tour, at length",
    "fill": 0.69,
    "lines": 7,
    "raster_figure_here": true,
    "borderline": true
-  },
-  {
-   "kind": "figure_apart",
-   "page": 10,
-   "chapter": "Slides as a compromise",
-   "intro_page": 9,
-   "pages_apart": 1
-  },
-  {
-   "kind": "figure_apart",
-   "page": 11,
-   "chapter": "Slides as a compromise",
-   "intro_page": 9,
-   "pages_apart": 2
-  },
-  {
-   "kind": "figure_apart",
-   "page": 12,
-   "chapter": "Slides as a compromise",
-   "intro_page": 10,
-   "pages_apart": 2
   }
  ],
  "raster_figures_over_45_percent_on_pages": [],
+ "figures": {
+  "figure_lines": 103,
+  "introduced_by_a_heading_not_checked": 26,
+  "with_a_paragraph_before_them_in_the_section": 77,
+  "not_found": 0,
+  "begin_on_a_later_page_than_that_paragraph_ends": 0
+ },
  "since_last": {
-  "previous_pdf_pages": 140,
+  "previous_pdf_pages": 137,
   "previous_counts": {
-   "chapter_end_spill": 9,
-   "gap_page": 11,
-   "figure_apart": 3
+   "chapter_end_spill": 7,
+   "gap_page": 10,
+   "figure_apart": 2
   },
-  "fixed": [],
+  "fixed": [
+   {
+    "kind": "figure_apart",
+    "chapter": "The tour: what a factory made in a day",
+    "before": 1,
+    "now": 0
+   },
+   {
+    "kind": "figure_apart",
+    "chapter": "A second team, reading cold",
+    "before": 1,
+    "now": 0
+   }
+  ],
   "new": [],
   "remaining": [
    {
@@ -221,13 +196,13 @@
    },
    {
     "kind": "chapter_end_spill",
-    "chapter": "The words used",
+    "chapter": "The plumbing",
     "before": 1,
     "now": 1
    },
    {
     "kind": "chapter_end_spill",
-    "chapter": "Talking through git",
+    "chapter": "The words used",
     "before": 1,
     "now": 1
    },
@@ -251,25 +226,7 @@
    },
    {
     "kind": "chapter_end_spill",
-    "chapter": "Inventing on principle",
-    "before": 1,
-    "now": 1
-   },
-   {
-    "kind": "chapter_end_spill",
-    "chapter": "A second team, reading cold",
-    "before": 1,
-    "now": 1
-   },
-   {
-    "kind": "chapter_end_spill",
     "chapter": "Appendix B: the control register",
-    "before": 1,
-    "now": 1
-   },
-   {
-    "kind": "gap_page",
-    "chapter": "The plumbing",
     "before": 1,
     "now": 1
    },
@@ -308,23 +265,16 @@
     "chapter": "How do we contain this",
     "before": 1,
     "now": 1
-   },
-   {
-    "kind": "figure_apart",
-    "chapter": "Slides as a compromise",
-    "before": 3,
-    "now": 3
    }
   ]
  },
  "cannot_tell": [
-  "25 chapters have a different number of figure lines and large images, so their figures are not paired: \"Start here\" (3 lines, 0 images); \"Who is telling this story\" (2 lines, 1 images); \"Inventing on principle\" (3 lines, 0 images); \"The tour: what a factory made in a day\" (5 lines, 1 images); \"Hour one: the empty project\" (2 lines, 0 images); \"Hour two: the rules written\" (1 lines, 0 images); \"Roles as a cast you can read\" (4 lines, 0 images); \"Hour three: the five steps, and the first to be caught\" (3 lines, 0 images); \"Hours four and five: before dawn\" (7 lines, 0 images); \"Nine hours with nobody starting work\" (4 lines, 0 images); \"Talking through git\" (3 lines, 0 images); \"The plumbing\" (7 lines, 0 images); \"The creator comes back\" (4 lines, 1 images); \"The story before the slides, and the objection kept\" (3 lines, 0 images); \"Port, not rebuild\" (3 lines, 0 images); \"Hour eighteen: faster than the clock\" (3 lines, 0 images); \"Hour nineteen, minute by minute\" (5 lines, 0 images); \"What did not work\" (3 lines, 0 images); \"How do we contain this\" (4 lines, 0 images); \"A second team, reading cold\" (3 lines, 0 images); \"Sessions end\" (3 lines, 0 images); \"The second factory\" (2 lines, 0 images); \"The third, planned\" (1 lines, 0 images); \"Principles, and build your own\" (2 lines, 0 images); \"The tour, at length\" (18 lines, 10 images)",
   "whether a gap or a short page is meant (a divider, an opener, a page left to a drawing): it measures how far the content reaches",
-  "which figure is which in the chapters it could not pair, and the figures drawn as vectors, which pdfimages cannot see: those are judged only by the gaps they leave",
+  "0 of 103 figure lines could not be found by their printed caption; 26 sit straight under a heading and are not checked; for the rest it finds where the caption begins, not whether the drawing under it is on the same page",
   "how a page looks beyond how far its content reaches"
  ],
  "paragraphs_found_on_a_page": {
-  "found": 821,
-  "of": 821
+  "found": 807,
+  "of": 807
  }
 }

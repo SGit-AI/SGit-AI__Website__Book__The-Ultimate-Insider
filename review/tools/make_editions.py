@@ -227,6 +227,7 @@ def chapter_page(path, i, files, book, talk, claims, edition_title, foot=None, d
     ch = f'r{i + 1:02d}'
     used, blocks, scene, linked, seen, recs, first = {}, [], 0, 0, {}, [], ''
     kept, kept_n = printed_ids(raw, drop, ch, path.name) if drop else (None, 0)             # which paragraphs print (build_book.py's drop-section rule)
+    after_heading = False                                           # set by a heading, taken by the next block (a figure under a heading is introduced by it)
     scenes, paras = [], []                                          # the chapter as data: the same filtered text as the page, never a writers' note                # seen: one per chapter, so a repeated line gets -2, not a twin id
     for part in re.split(r'(^`?%%[^\n]*$)', raw.split('\n', 1)[1], flags=re.M):
         if re.match(r'^`?%%\s*record:', part):
@@ -245,7 +246,14 @@ def chapter_page(path, i, files, book, talk, claims, edition_title, foot=None, d
             part = re.sub(r'\s*`%%[^`]*`', '', part)                   # a writers' note inside a paragraph: also not for readers
             done = anchored(Markdown().to_html(part), ch, seen, [], path.name)
             blocks.append(done)
-            paras += [{'id': a, 'text': plain(t), **({'in_print': False} if kept is not None and a not in kept else {})} for a, t in re.findall(r' id="([^"]+)" data-a="[^"]+" tabindex="0">(.*?)</(?:p|li|blockquote|div)>', done)]
+            for m in re.finditer(r'<h[1-6] id="[^"]*">|<(?:p|li|blockquote|div)[^>]* id="([^"]+)" data-a="[^"]+" tabindex="0">(.*?)</(?:p|li|blockquote|div)>', done):
+                if m.group(1) is None:                                  # a heading: the next block opens a section
+                    after_heading = True
+                    continue
+                a, t = m.group(1), m.group(2)
+                paras.append({'id': a, 'text': plain(t), **({'after_heading': True} if after_heading else {}),
+                              **({'in_print': False} if kept is not None and a not in kept else {})})
+                after_heading = False
             first = first or ' '.join(plain(done).split()[:14])
     claims_list = ''.join(f'<li id="claim-{c}"><b>{c}</b> {html.escape(claims[c]["claim"])}: {value_html(claims[c].get("value", ""))} '
                           f'<span class="pv-state pv-{html.escape(claims[c].get("state", ""))}">{html.escape(claims[c].get("state", ""))}</span></li>'
