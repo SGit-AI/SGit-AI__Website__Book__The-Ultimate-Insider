@@ -31,8 +31,15 @@
    "verdict": "as-planned",
    "comment": "as-planned; fixed before the push: the status filter had dropped synthetic 022's 'who lifts the hold when its owner is away' ask (restored); status and letter dates set to the commit's 16:37; the address check in build.py noted as a small narrow addition",
    "at": "2026-11-04T16:38:39Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "finding",
+   "comment": "finding, fixed before the push: WAKE.md's Stopping line pointed 'below' to a section above it (now 'above'). Recorded: deleting team/writer/HOLD.md (343ae69a) was outside the conductor's scope, an exception directed by the editor ('can you delete that file', brief 29). Otherwise clean: all six conditions hold, gate clean (1100), scope 0, comms clean",
+   "at": "2026-11-04T16:39:16Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T16:39:16Z",
+ "outcome": "ok"
 }
