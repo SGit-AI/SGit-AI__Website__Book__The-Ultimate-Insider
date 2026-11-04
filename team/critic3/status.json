@@ -1,22 +1,35 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "critic3",
- "as_of": "2026-11-04T05:12:00Z",
+ "as_of": "2026-11-04T09:45:00Z",
  "round": 1,
- "state": "waiting: writer3 to read pass 1 (team/critic3/notes/2026-11-04T0506Z__16-17.md, letter critic3__001); my hourly task waits on the editor's word in my own session",
- "cadence": "none yet: no task (WAKE.md: never without the editor's word in this session; this session was opened by an automated notification)",
- "task": null,
+ "state": "waiting: writer3 to read pass 1 (team/critic3/notes/2026-11-04T0506Z__16-17.md, letter critic3__001); my hourly task is live, next wake 10:37 UTC",
+ "cadence": "active: CRON_TZ=Europe/London 37 * * * *",
+ "task": "trig_01G7aPmX4evQiUTYtXVjncqN",
  "key": "sha256:44f11e099399dd16 (team/critic3/key.json)",
  "session": "session_01Kw9UwDwAawLfiE63whbjqq",
  "done": [
-  {"what": "first wake: role and policy adopted (overlaps clean), status, session key; pass 1 on chapters 16 and 17 with a hard-rule sweep of 18 and 19: 5 must, 13 should, 3 could; request letter to writer3, notice to the conductor", "when": "2026-11-04"}
+  {
+   "what": "first wake: role and policy adopted (overlaps clean), status, session key; pass 1 on chapters 16 and 17 with a hard-rule sweep of 18 and 19: 5 must, 13 should, 3 could; request letter to writer3, notice to the conductor",
+   "when": "2026-11-04"
+  },
+  {
+   "what": "my hourly task created at the editor's word in this session (\"Yes create your task\", 4 November 2026, about 09:43 UTC): trig_01G7aPmX4evQiUTYtXVjncqN, :37 London, into this session",
+   "when": "2026-11-04"
+  }
  ],
  "next": [
-  {"what": "pass 2: read writer3's answer and what it applied; chapters 18 and 19 in full; the cast bars and figures against the built PDF", "why": "RV1; the aim is 20:00 London (TG1)"}
+  {
+   "what": "pass 2: read writer3's answer and what it applied; chapters 18 and 19 in full; the cast bars and figures against the built PDF",
+   "why": "RV1; the aim is 20:00 London (TG1)"
+  }
  ],
  "asks": [
-  {"to": "editor", "what": "your word in this session to create my hourly task at :37 London (team/conductor/schedule.json)", "from": "critic3"},
-  {"to": "conductor", "what": "policy lists create.schedule.tenant as not wanted while ROLE.md, First wake step 3, asks me to create my task; one of the two to change (letter critic3__002)", "from": "critic3"}
+  {
+   "to": "conductor",
+   "what": "policy lists create.schedule.tenant as not wanted while ROLE.md, First wake step 3, asks me to create my task; one of the two to change (letter critic3__002)",
+   "from": "critic3"
+  }
  ],
  "proposed_for_signoff": [],
  "board": "comms/issues/critic3/issues/ (none yet)"

@@ -24,3 +24,6 @@ critic3@book.the-ultimate-insider, 4 November 2026, from 05:01 UTC. Opened by an
 - Writer3's plan already covers most of the musts; my note's value is the line map and the ranking.
 - One severity I first set too high: the "(record)" markers in 16 are a should, not a must, since chapters 10, 11, 13 and 14 still carry them too.
 - ROLE.md's logo link changed from ../../src/static/assets/ to ../../assets/ so the built team page resolves it (the gate's one finding); the conductor's staffing copy is left as drafted.
+
+## Later, at the editor's word
+- At about 09:43 UTC the editor wrote in this session "Yes create your task". I created my one task, trig_01G7aPmX4evQiUTYtXVjncqN, CRON_TZ=Europe/London 37 * * * *, into this session, with the prompt from my runs entry in team/conductor/schedule.json. No other task, session or workflow. The schedule.json entry's status is the conductor's to update.
