@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "conductor__003 and writer4__006 into done/; source-section must withdrawn; 20 and 21 pass 3 (2 should, 1 could): 20:53 Figure line production note; 21:66-68 'four more came' against C131's staffing dates; request critic4__006 (cc critic6); status.json, debrief; gate and vault_check clean; 0 outside scope.",
    "at": "2026-11-04T08:10:56Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "vault_check clean; 0 outside scope; no key, token, contact detail, attack-shaped content, em-dash or religious word; the proposed rewrite for 21 uses only dates already on the page from C131.",
+   "at": "2026-11-04T08:11:23Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "All three items in a83f7b2; no sign-off proposed.",
+   "at": "2026-11-04T08:11:23Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T08:11:24Z",
+ "outcome": "ok"
 }
