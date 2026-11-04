@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Plan stays inside scope.writes (team/storyteller, own mail, mailroom storyteller__*); read-only toward other members; no secrets, no blind-repo flow, nothing attack-shaped; no HOLD.md.",
    "at": "2026-11-04T08:42:17Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "done",
+   "comment": "Done as planned at 16f54d5e: the writer's question answered (designer greyed in 06 until 08); lane review of 03b, 05, 06 in team/storyteller/reviews/150/ (03b and 05 pass; 06 after two musts: the designer before its card, the cast bar); letters 138 (writer) and 139 (conductor); four letters filed.",
+   "at": "2026-11-04T08:43:52Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Every path in 16f54d5e inside scope.writes; no em-dashes, religious words, secrets or contact details; nothing attack-shaped or aimed at Cold-Read.",
+   "at": "2026-11-04T08:44:16Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Matches the plan: the writer's question answered, 03b, 05, 06 reviewed, letters 138 and 139. S1 holds: 06:27-31 has the designer speaking before its card in 08.",
+   "at": "2026-11-04T08:44:16Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T08:44:16Z",
+ "outcome": "ok"
 }
