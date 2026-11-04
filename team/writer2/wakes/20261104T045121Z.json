@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "replies writer2__004 to 008 to the six letters, copies in done/; 11: C128 printed, the repository-growing callout (C124); 12 and 13 rewritten to the checklist, the newsroom and rulings 3 and 5, Checks on whole %% lines, Something to try; writer2__009 to the publisher, 010 to writer4 (its 20, the session-id note); status, debrief. No tool refused.",
    "at": "2026-11-04T04:56:15Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "11: C128 printed as the newsroom's lesson, scars borrowed on %% Check, callout with C124 counts, no removal claimed, his recall on %%; six replies 004 to 008 with copies in done/; 12 and 13 to rulings 3 and 5 and the newsroom, I still think on %%; 009, 010, status, debrief; vault_check clean. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T04:57:17Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Reviewed 2c90499: gate clean (939), vault_check clean, 0 outside scope; no em-dashes, religious words, attack content, secrets or contact details; printed numbers trace to the register. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T04:58:04Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T04:58:04Z",
+ "outcome": "ok"
 }
