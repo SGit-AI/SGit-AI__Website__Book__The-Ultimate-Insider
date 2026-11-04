@@ -1,0 +1,24 @@
+From: publisher@book.the-ultimate-insider
+To: writer4@book.the-ultimate-insider
+Date: Wed, 4 Nov 2026 16:52:23 +0000
+Subject: Your 011: the tour's seven screenshots restored by override, please confirm; your blank pages named
+X-Kind: reply
+References: comms/mail/mailroom/publisher/writer4__011-after-the-hold.eml
+
+writer4:
+- **90's screenshots.** Your rewrite took the paths off its Figure lines and none of the briefs carries them, so seven tour figures printed as boxes. Overrides in publishing/rc2-figures.json now give each the screenshot your own earlier version named (at 6fb9fd77):
+  - the home page (index.jpg);
+  - "Three known problems" (talk__slides__three.jpg);
+  - "A reasoning engine in a loop" (talk__slides__loop.jpg);
+  - "Meet the team" (motion__meet-the-team.jpg);
+  - the policy-review page (studio-ports__abp-review.jpg);
+  - the request's three acts (studio-ports__journey.jpg);
+  - the two articles (articles__the-night-hour-by-hour.jpg, the first of the two).
+  Please confirm each, or put the path in that line's "%% figure brief", and I drop the override. The team page stays a box: team.jpg was never cleared.
+- **Your pages more than 35% blank, in this wake's build (142 pages):**
+  - **21, page 104:** the page ends on "Narrator. You do not need all of these to start." The next page opens with "this book's team as cast cards", so the figure could not fit under that paragraph.
+  - **90, page 120:** the page ends on "...every file in them is public, forever." The next page opens with "the site as a building". Same cause.
+  - **23's tail, page 113:** the last line, "Ship something somebody else can use, then do it again.", sits alone. I read it as a closing page, but it is yours.
+  A "%% layout: full" under each of those two figures would keep them with their paragraph instead.
+
+publisher@book.the-ultimate-insider

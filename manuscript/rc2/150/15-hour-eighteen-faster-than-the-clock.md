@@ -4,11 +4,11 @@
 
 **Clock:** Hour eighteen.
 
-`%% clock record: 17:00 to 17:59 on 29 October: my run of chat wakes in the conductor's session from 17:16 to 17:48, part one complete at 17:25 and final at 17:52, the lock tool at 17:54; clock hours of 29 October (C110; the conductor's CK1).`
+`%% clock record: the talk doubled to ninety minutes at 16:32 (62c6b99; C026, chapter 14); 17:00 to 17:59 on 29 October: my run of chat wakes in the conductor's session from 17:16 to 17:48, part one complete at 17:25 and final at 17:52, the lock tool at 17:54; clock hours of 29 October (C110; the conductor's CK1).`
 
 ## Faster than the schedule
 
-**Narrator.** By five o'clock the schedule had carried the team all day. In hour eighteen I outran it.
+**Narrator.** By five o'clock the schedule had carried the team all day, and the talk had just doubled to ninety minutes. In hour eighteen I outran it.
 
 `%% for the editor: the hour's opening line, kept as the newsroom advised; it is the chapter's line for the hour (the storyteller's convention 4), inside "the acceleration" of hours fourteen to eighteen.`
 
@@ -30,10 +30,10 @@
 
 `%% figure brief: The three sent back in the conductor's sessions of 17:21, 17:30 and 17:45 (the first a follow-up under that evening's rule); the fourth, at 17:37, changed in its work when I agreed the remaining policies. For the designer, from C023 (pre_review_change_then_amended: 11 in all, 7 recorded as a verdict; the conductor's free-text entries at 17:21, 17:30, 17:45; the 17:37 entry not counted, being the editor changing course). The counts on the card only.`
 
-**Narrator.** Every one of those sessions still closed with all five stages. Plans were sent back to be changed, but no step, all day, halted the team. I used to think of checks as the thing that slows you down. That hour taught me the opposite: the brakes are what let you go fast.
+**Narrator.** Every one of those sessions still closed with all five stages. Plans were sent back to be changed, but no step, all day, halted the team.
 
 `%% Hold (P30: a reading of his view, not in the record or his briefs; prints once he confirms; storyteller__147): "This is the hour I would point to if someone asked whether the checks only work when nobody is in a hurry."`
-`%% for the editor: "I used to think of checks as the thing that slows you down ... the brakes are what let you go fast" is the newsroom journalist's (part three, chapter 15); yours to keep or drop.`
+`%% Hold (P30: an opinion in his voice, the newsroom's; prints once he confirms; storyteller__150): "I used to think of checks as the thing that slows you down. That hour taught me the opposite: the brakes are what let you go fast."`
 `%% Check (the newsroom, part three, chapter 15, its question 3: Rania Khalaf's keel image, quoted in the newsroom's WSO2 article of 3 November; his to borrow or leave): "... the same way a keel lets a boat go fast without capsizing."`
 
 `%% record: C100 (the talk due at 19:00 London) C023 (and its note: "No step said stop all day") team/conductor/wakes/ (history: "pre-review said change: adopted" at 17:21, 17:30, 17:45) timeline/day/17.md ("The brakes held under that pressure")`
@@ -45,7 +45,7 @@
 
 **Designer**: Checked on a projector. Ready.
 
-**Deck**: Complete. Timed. Final. Motion's two pieces are in. Now it only wants its lock.
+**Deck**: Complete. Timed. Final. Motion's pieces are in. Now it only wants its lock.
 
 **Narrator.** Then the tool to lock a part shipped: it freezes a part of the talk so the player plays a locked copy. It came in under no member's name, and the session it came from, dev's, opened and never recorded its close in the team's shared copy of the work. Part four shows where that session went.
 
@@ -59,13 +59,13 @@
 
 **Studio**: Another agent passed on what the editor had said. My session would not take a relayed word for his, so I asked him myself.
 
-**Narrator.** Studio's last debrief of the day still has my confirmation open. It is a small scene, and it is the whole of my talk in miniature: the insider problem is about someone inside acting on a word that did not really come from the person it claims to come from.
+**Narrator.** Studio's last debrief of the day still has my confirmation open. It is a small scene.
 
 `%% Check (the newsroom, part three, chapter 15, its question 1; only one scene can be his favourite, against chapter 8's): "and it may be my favourite in the book"`
 
 **Figure:** one request, relayed from one agent to another, stopped at studio's door; in its place, a question going straight to me.
 
-`%% for the editor: "the whole of my talk in miniature" (studio's refusal now told once, in its own line: synthetic__003) is the newsroom journalist's reading of your view (part three, chapter 15); yours to keep or drop.`
+`%% Hold (P30: an opinion in his voice, the newsroom's; prints once he confirms; storyteller__150): "... and it is the whole of my talk in miniature: the insider problem is about someone inside acting on a word that did not really come from the person it claims to come from."`
 
 `%% record: bd3cdad team/studio/wakes/20261029T174115Z.json (17:41 to 17:48) 8f0c080 (17:48, its close) timeline/quotes.md`
 `%% band: Dramatised. Rests on studio's wake from 17:41 to 17:48: the session's own check refused a member marking its own policy agreed on a word relayed by another agent, and I was asked in the session. Kept from the 70-page edition's chapter 9.`
@@ -73,7 +73,7 @@
 
 ## Where part three ends
 
-**Narrator.** By the end of hour eighteen the factory was running faster than its own clock, with me inside it, and its brakes were holding. Part one was final but not yet locked, the lock tool existed, one session was open that would never close in the team's shared copy, and the talk was an hour away. Chapter 2's clock of when each agent fired shows the whole day just before it stopped.
+**Narrator.** By the end of hour eighteen the factory was running faster than its own clock, with me inside it, and its brakes were holding. Part one was final but not yet locked, the lock tool existed, and the talk was an hour away. Chapter 2's clock of when each agent fired shows the whole day just before it stopped. Hour nineteen is next, and chapter 16 tells it.
 
 **Figure:** the day by who started each session, the schedule's and mine, hours one to nineteen, with part three's hours lit.
 

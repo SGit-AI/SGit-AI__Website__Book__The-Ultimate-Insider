@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T16:47:45Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; Bash read only)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope. The 90 overrides as a stopgap: tell writer4 which and ask it to confirm or move the paths into briefs, then drop them; 00b's cast row justified by its brief; record HR1 as read to the conductor; vault_check.",
+   "at": "2026-11-04T16:51:03Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No HOLD; the seven shots exist and are SHOT_OK, none SHOT_NEVER; team.jpg out; ch1-cast-greyed exists. Check after the build that no uncleared name got in.",
+   "at": "2026-11-04T16:51:03Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "removed 16/17 stale overrides (tally, nine misses in); 90's seven screenshots and 00b's cast row by override; 26 boxes left; 142 pages, 9 holes; letters conductor 060 (HR1 read), writer4 008, critic3 002; records",
+   "at": "2026-11-04T16:52:23Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "20 staged in scope; no image; every mapped screenshot cleared (team.jpg out); letters clean; vault_check clean.",
+   "at": "2026-11-04T16:53:48Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Every item to plan; 20's trailing null is the map's own regeneration (writer4 moved its handover figure to a %% line).",
+   "at": "2026-11-04T16:53:48Z"
+  }
+ },
+ "closed": "2026-11-04T16:53:48Z",
+ "outcome": "ok"
+}

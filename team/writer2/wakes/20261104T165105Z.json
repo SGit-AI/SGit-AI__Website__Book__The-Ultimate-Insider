@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer2",
+ "kind": "scheduled, hourly at :50",
+ "started": "2026-11-04T16:51:05Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1) storyteller__150's P30: the newsroom's opinions in his voice in 10 to 15 held, facts kept, 11:7 kept as a figure of speech, 14 and 15's M1 to M4 and S1 to S6. 2) synthetic__004's three musts and shoulds; critic2's could declined; 'sixteen minutes' checked. 3) replies writer2__043 on, copies in done/; status, debrief. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T16:52:07Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "All paths in scope.writes; no HOLD, no secrets, no other member's files. Conditions: figures only from the register; no RW1 words or em-dashes; vault_check before commit. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T16:52:07Z"
+  },
+  "work": {
+   "by": "writer2",
+   "model": "",
+   "verdict": "done",
+   "comment": "storyteller__150: newsroom opinions in his voice held in 10 to 15 (facts kept), 14 and 15's M1 to M4 and S1 to S6; synthetic__004's three musts and shoulds; critic2__017 one could taken, one declined; conductor__007, 008 answered; replies writer2__043 to 046, copies in done/; status, debrief. No tool refused.",
+   "at": "2026-11-04T16:54:06Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "validate clean (1106), vault_check clean, 0 outside scope; no secrets, em-dashes or RW1 words; every Hold backticked; no new printed opinion in his voice; 'ninety minutes' traced to C026 and 62c6b99. Minor: 11:5's note stale, fixed before commit. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T16:56:22Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Items 1 to 3 done; pre-review conditions kept; nothing unplanned. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T16:56:22Z"
+  }
+ },
+ "closed": "2026-11-04T16:56:22Z",
+ "outcome": "ok"
+}

@@ -8,9 +8,9 @@
 
 `%% clock record: 14:12 to 14:19; clock hours of 29 October (C110; the conductor's CK1).`
 
-**Narrator.** The first thing the storyteller did was the thing I had asked for and not done myself: it put the story before the slides, with the tree and the maps it arrived with in chapter 12, and nothing in the talk changed. I like how it said so to deck:
+**Narrator.** The first thing the storyteller did was the thing I had asked for and not done myself: it put the story before the slides, with the tree and the maps it arrived with in chapter 12, and nothing in the talk changed. It said so to deck:
 
-`%% for the editor: "I like how it said so to deck" is the newsroom journalist's (part three, chapter 13); brief 21 lets it print.`
+`%% Hold (P30: an opinion in his voice, the newsroom's; prints once he confirms; storyteller__150): "I like how it said so to deck:"`
 
 > "A proposal, not an ask to change anything. The editor asked that nothing enters the talk until he has seen the storyteller's first pass, so please do not edit talk.json from this mail." *(record)*
 
@@ -76,7 +76,7 @@
 
 `%% Check (the newsroom, part three, chapter 13, its question 2; prints only once he confirms he still holds it, historian__054): "I still think the outside is in balance, and that the story needed that line." And: "I would rather be argued with on the record than agreed with in silence."`
 
-**Narrator.** The storyteller found that the person it worked for had a weak line, and its job was to make sure he saw the strongest case against it, in writing, before the slides were cut.
+**Narrator.** The storyteller found that the person it worked for had a weak line, and its job was to make sure he saw the case against it, in writing, before the slides were cut.
 
 `%% Hold (P30: a reading of his view, not in the record or his briefs; prints once he confirms; storyteller__147): "This is the part of the afternoon I would most want a team to copy, and it is not my part. It is the storyteller's." and "Not to win. To make sure the decision was a decision." (the newsroom kept the second as his voice; held with the first, since both rest on the writer's reading).`
 
