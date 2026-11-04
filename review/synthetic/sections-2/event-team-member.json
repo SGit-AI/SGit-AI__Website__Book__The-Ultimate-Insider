@@ -1,0 +1,139 @@
+{
+ "schema": "the-ultimate-insider/synthetic-section-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "event-team-member",
+ "read_at": "9c11acda",
+ "would_read_on": {
+  "05-hour-two-the-rules-written": "yes",
+  "14-port-not-rebuild": "maybe",
+  "22-the-third-planned": "yes"
+ },
+ "findings": [
+  {
+   "file": "05-hour-two-the-rules-written.md",
+   "line": 11,
+   "quote": "almost all of the team's rules were written by one member, in about a quarter of an hour",
+   "principle": "1",
+   "severity": "should",
+   "why": "The narrator reports with no I and no hindsight, so a busy reader gets a record line rather than the editor telling them what he now thinks of it."
+  },
+  {
+   "file": "05-hour-two-the-rules-written.md",
+   "line": 19,
+   "quote": "A clock: each member wakes at its own minute. A hold anyone can pull.",
+   "principle": "reader",
+   "severity": "should",
+   "why": "The practical pattern I would copy is delivered as a one-line aside; I would want it spelled out once in plain words (what the clock and the hold are) before the figure."
+  },
+  {
+   "file": "05-hour-two-the-rules-written.md",
+   "line": 13,
+   "quote": "Nothing ran on the clock until there was a way to stop it.",
+   "principle": "7",
+   "severity": "could",
+   "why": "A strong line, but it sits in a run of short flat sentences with line 12 and the quoted Conductor lines, so the chapter's best takeaway reads as one beat among many."
+  },
+  {
+   "file": "05-hour-two-the-rules-written.md",
+   "line": 33,
+   "quote": "None of the three had run. I pasted a short prompt into each member's own session, and each made its own.",
+   "principle": "7",
+   "severity": "could",
+   "why": "Short sentences stack here and the 'short prompt' is never shown, so I cannot copy what he pasted."
+  },
+  {
+   "file": "05-hour-two-the-rules-written.md",
+   "line": 35,
+   "quote": "I made their tasks for them. That was a reach too far.",
+   "principle": "21",
+   "severity": "should",
+   "why": "The Conductor's line retells the correction the narrator just told in line 33 and again summarises in line 37, so it is said three times."
+  },
+  {
+   "file": "05-hour-two-the-rules-written.md",
+   "line": 51,
+   "quote": "The check said no. It was right. The lines went in, and it said yes.",
+   "principle": "21",
+   "severity": "should",
+   "why": "Dev's line repeats the narrator's line 47 almost beat for beat, and 'the check' and 'the banner rule' are not explained to someone who has not read earlier chapters."
+  },
+  {
+   "file": "05-hour-two-the-rules-written.md",
+   "line": 88,
+   "quote": "It is worth writing before the first scheduled run, not after.",
+   "principle": "6",
+   "severity": "could",
+   "why": "Reads as an instruction from above rather than from the editor's own experience; 'Something to try' is the one takeaway I wanted and it is only two sentences, with no first step I could do tomorrow."
+  },
+  {
+   "file": "14-port-not-rebuild.md",
+   "line": 11,
+   "quote": "Three decisions, close together, and the historian's record of the hour agrees.",
+   "principle": "21",
+   "severity": "should",
+   "why": "Announces three decisions, then the next three paragraphs list them again, and the Figure line 32 draws them a third time."
+  },
+  {
+   "file": "14-port-not-rebuild.md",
+   "line": 99,
+   "quote": "Here is the thing I most want you to take from the afternoon.",
+   "principle": "6",
+   "severity": "could",
+   "why": "Tells the reader what to take away; the following lines 100 to 103 are good and need no signpost."
+  },
+  {
+   "file": "14-port-not-rebuild.md",
+   "line": 103,
+   "quote": "That is the factory's economics in one afternoon.",
+   "principle": "7",
+   "severity": "should",
+   "why": "A 'That is the point' style opener after three short sentences, and the story is about reuse of the editor's own earlier sites, which my team cannot copy unless I have earlier sites; no takeaway for me except in the closing card."
+  },
+  {
+   "file": "14-port-not-rebuild.md",
+   "line": 46,
+   "quote": "the slide, its source commit and its data, copied unchanged and pinned to where they came from",
+   "principle": "reader",
+   "severity": "should",
+   "why": "'Pinned', 'source commit' and 'the player' are used before anything explains them, and I read this on a phone between meetings."
+  },
+  {
+   "file": "14-port-not-rebuild.md",
+   "line": 101,
+   "quote": "The player was not new; chapter 12 has where it came from.",
+   "principle": "21",
+   "severity": "could",
+   "why": "Points away to another chapter for the port, while the rest of the paragraph retells the studio and motion cards from earlier in this same chapter."
+  },
+  {
+   "file": "22-the-third-planned.md",
+   "line": 15,
+   "quote": "Same clock. Same hold. More hands on it.",
+   "principle": "7",
+   "severity": "could",
+   "why": "Three clipped fragments in a stage-direction voice; a good slogan but it opens the very section that needs plain explanation."
+  },
+  {
+   "file": "22-the-third-planned.md",
+   "line": 25,
+   "quote": "the owner of the brief, and one named person when the owner is away.",
+   "principle": "reader",
+   "severity": "must",
+   "why": "My deal-breaker is a method that needs one central person: one brief owner who writes it and alone may lift the hold reads as exactly that, and the chapter does not say how a team of peers would avoid it."
+  },
+  {
+   "file": "22-the-third-planned.md",
+   "line": 39,
+   "quote": "came from the evening this book's team lost to the usage limit",
+   "principle": "reader",
+   "severity": "should",
+   "why": "A paragraph of four 'came from' links to events I have not read, so I cannot check any of them; the lesson for my team is buried in references."
+  }
+ ],
+ "what_holds": [
+  "05-hour-two-the-rules-written.md: the hold existing before the first scheduled session is a clear, copyable pattern, and the correction of the conductor's own reach is honest and concrete.",
+  "14-port-not-rebuild.md: 'pull again before every push' as the price of longer sessions is a real, usable lesson about overlapping agents.",
+  "22-the-third-planned.md: brief, board and hold as the three shared things, with a stated wake-at-own-minute rule, is the nearest thing to a pattern my team could adopt tomorrow, and being labelled as a plan is honest."
+ ],
+ "notes": "Answers to the persona questions: I get the factory (members, a clock, a hold anyone can pull) from 05, but who is in it and how it stops is spread across chapters. I would start with the hold and the pull-first rule. My team would need a worked example of the brief, the board and the hold as actual files, and a version without a single brief owner. Cast cards and clock lines are fine on a phone but long run-on record material is not visible, which is correct."
+}

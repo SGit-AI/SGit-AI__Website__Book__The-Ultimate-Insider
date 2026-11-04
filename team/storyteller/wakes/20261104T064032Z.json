@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "storyteller",
+ "kind": "scheduled, every two hours at :39 London",
+ "started": "2026-11-04T06:40:32Z",
+ "steps": {
+  "plan": {
+   "by": "storyteller (member-written plan, UL1)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Requests first: the last wake's reviewed work released to dev at 80d2be1f (the build is green again). designer 133 (the concept callout as CSS, my convention 5): file it, no answer needed. Work: RV2 lane review of the full book's 01 and 02 (the writer's), with a reviewer step for line checks, each finding verified against page and register; findings in team/storyteller/reviews/150/; a request letter to the writer; the result to the conductor. Writes only team/storyteller/, comms/mail/storyteller/ and mailroom storyteller__* letters.",
+   "at": "2026-11-04T06:44:06Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "",
+   "verdict": "go",
+   "comment": "The plan fits the policy (team/storyteller/, comms/mail/storyteller/, mailroom storyteller__* letters); no secrets, nothing attack-shaped, no cross-member writes; no HOLD.md under team/*/.",
+   "at": "2026-11-04T06:45:26Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "done",
+   "comment": "Done as planned at d5feb352; last wake's work released to dev at 80d2be1f. 01 and 02 lane review in team/storyteller/reviews/150/: 01 passes, 02 after one must (the clock caption's 'last afternoon ask' against 01's later 18:26 change). Letters 133 (writer) and 134 (conductor); designer 133 filed.",
+   "at": "2026-11-04T06:47:16Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "All 9 files in d5feb352 sit inside scope.writes; no em-dashes, religious words, keys, tokens or personal details; nothing attack-shaped; nothing aimed at Cold-Read.",
+   "at": "2026-11-04T06:47:44Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Matches the plan: review in reviews/150, letter 133 to the writer, 134 to the conductor, designer 133 filed. S1 holds: 01 has the 18:26 ask, 02:23 says 'my last afternoon ask' (18:25).",
+   "at": "2026-11-04T06:47:44Z"
+  }
+ },
+ "closed": "2026-11-04T06:47:44Z",
+ "outcome": "ok"
+}

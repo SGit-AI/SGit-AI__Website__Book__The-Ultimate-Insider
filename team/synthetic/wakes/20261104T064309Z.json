@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "In scope.writes; pushes only to dev after the gate; no secret, no stop condition. Conditions: vault_check on comms; findings labelled synthetic, never readership; requests to the writers' own chapters. Tools: Read, Grep, Glob, Bash; nothing refused.",
    "at": "2026-11-04T06:44:51Z"
+  },
+  "work": {
+   "by": "synthetic",
+   "model": "claude-sonnet-5-5",
+   "verdict": "done",
+   "comment": "The held first batch pushed to dev (green, 982); RV2 second batch: 05, 14, 22 read by the three named readers, findings.md merged, all 44 cites matched (one table corrected); requests to the three writers; synthetic__019 to the conductor; 008, status, debrief; vault_check, gate, scope clean.",
+   "at": "2026-11-04T06:48:16Z"
+  },
+  "post_review": {
+   "by": "security sub-agent, as the reviewer type (post_review.md)",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Three synthetic commits in scope; validate clean (983); 0 outside scope; vault_check clean; no key, token or personal detail; the one 'password' hit is a persona's confusion about the word key. Tools: Read, Grep, Glob, Bash; nothing refused; wrote no file.",
+   "at": "2026-11-04T06:49:04Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent, as the reviewer type (post_check.md)",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Held push done (982), second RV2 batch with findings, requests to three writers and synthetic__019 done, 008 status debrief done; two cites spot-checked (22 L25, 14 L99). Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T06:49:04Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T06:49:04Z",
+ "outcome": "ok"
 }
