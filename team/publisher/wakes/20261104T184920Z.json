@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T18:49:20Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; Bash read only)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; the refusal in one place for edition.py and rc2_map.py; show chapter 1 keeps a drawing through the masked copy; answer the designer, developer and conductor.",
+   "at": "2026-11-04T18:51:15Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "An exact-name refusal checked first is right; only studio-ports__abp-review.jpg is refused among the mapped shots. Conditions: confirm the unmasked name is gone from the map and the built book; the masked copy not listed by pattern. No HOLD.",
+   "at": "2026-11-04T18:51:15Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "SHOT_REFUSED + shot_allowed() shared by build and map; chapter 1 masked copy; holding overrides dropped after the designer's resync (three kept, with reasons); 141 pages, 16 boxes, 8 holes; letters conductor 062, writer 037, writer4 010; records",
+   "at": "2026-11-04T18:52:42Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "19 staged in scope; no image; both compile; shot_allowed refuses / and .., applies SHOT_NEVER, SHOT_REFUSED wins; the unmasked name not in the map; letters clean; vault_check clean.",
+   "at": "2026-11-04T18:54:11Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Every item to plan.",
+   "at": "2026-11-04T18:54:11Z"
+  }
+ },
+ "closed": "2026-11-04T18:54:11Z",
+ "outcome": "ok"
+}
