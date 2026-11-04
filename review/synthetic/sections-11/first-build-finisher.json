@@ -1,0 +1,36 @@
+{
+ "schema": "the-ultimate-insider/synthetic-section-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "first-build-finisher",
+ "read_at": "7dc69de7",
+ "would_read_on": {
+  "09-nine-hours-with-nobody-starting-work": "maybe",
+  "90-the-tour-at-length": "no",
+  "91-the-words-used": "yes"
+ },
+ "findings": [
+  {"file": "09-nine-hours-with-nobody-starting-work.md", "line": 3, "quote": "the conductor, dev, deck, ruv-sgit, the researcher and the designer", "principle": "reader", "severity": "should", "why": "A newcomer meets six names, two of them odd (deck, ruv-sgit), with no hint of what each does before the hours begin."},
+  {"file": "09-nine-hours-with-nobody-starting-work.md", "line": 24, "quote": "the conductor set the pace and wrote the third edition of its night log, deck sent ruv-sgit its second experiment", "principle": "7", "severity": "should", "why": "One sentence stacks four members' jobs with 'and', and I lose who did what and why it matters."},
+  {"file": "09-nine-hours-with-nobody-starting-work.md", "line": 30, "quote": "What the record shows is not whether everything finished", "principle": "1", "severity": "could", "why": "This reads as a reporter describing the record, with no 'I' and no hindsight on why the editor cares."},
+  {"file": "09-nine-hours-with-nobody-starting-work.md", "line": 56, "quote": "Part four keeps all three, and asks what that order should have been.", "principle": "reader", "severity": "could", "why": "A pointer to a later part that a first-build reader cannot yet value, and it interrupts the scene."},
+  {"file": "09-nine-hours-with-nobody-starting-work.md", "line": 48, "quote": "a vault key (the key that opens one of the team's shared stores of files)", "principle": "reader", "severity": "could", "why": "The aside helps, but 'redacted' and 'captured pages' are never explained, so the failure itself stays vague to a non-coder."},
+  {"file": "09-nine-hours-with-nobody-starting-work.md", "line": 71, "quote": "Three rounds, one picture, and I started none of them.", "principle": "21", "severity": "should", "why": "It restates the three rounds just told in lines 63-71 and then the figure at line 73 shows them a third time."},
+  {"file": "09-nine-hours-with-nobody-starting-work.md", "line": 151, "quote": "A piece marked ready for me, then another. A list of what waits on me", "principle": "7", "severity": "should", "why": "A run of fragments and short sentences (lines 151-153) where one running thought would carry the idea of the queue at one door."},
+  {"file": "09-nine-hours-with-nobody-starting-work.md", "line": 99, "quote": "Nobody told it to this time. The members were pacing each other.", "principle": "7", "severity": "could", "why": "Two short sentences after a short one; they could join into the thought about members pacing themselves."},
+  {"file": "09-nine-hours-with-nobody-starting-work.md", "line": 191, "quote": "If you try reading what they did first, before you ask for anything new", "principle": "6", "severity": "could", "why": "It tells me how to behave, and the 'temptation' line above assumes I am the sort who would rush."},
+  {"file": "09-nine-hours-with-nobody-starting-work.md", "line": 103, "quote": "dropped the \"@\" from its name and the line saying which agent made them", "principle": "reader", "severity": "should", "why": "A first-build reader has no idea what the '@' or the agent trailer is for, so the lapse means nothing to me."},
+  {"file": "90-the-tour-at-length.md", "line": 9, "quote": "*How to read the scenes:* they are dramatised.", "principle": "6", "severity": "should", "why": "It is an instruction on how to read, and it comes after the stops are already announced as 'the record'."},
+  {"file": "90-the-tour-at-length.md", "line": 7, "quote": "Chapter 3 walked four of these pages", "principle": "21", "severity": "should", "why": "Line 2 already says chapter 3 has the first four stops, so the same pointer is told twice in a few lines."},
+  {"file": "90-the-tour-at-length.md", "line": 20, "quote": "If a fresh copy of me cannot rebuild it from the explainer and the data, it is not finished.", "principle": "reader", "severity": "could", "why": "'A fresh copy of me' is the first moment I stall on what an agent is, and the glossary is a long way off."},
+  {"file": "90-the-tour-at-length.md", "line": 147, "quote": "The point is the receipt at the end of each", "principle": "7", "severity": "could", "why": "A 'the point is' opening, and the line below repeats it as 'Never silent'."},
+  {"file": "90-the-tour-at-length.md", "line": 198, "quote": "The vaults page prints the vaults' read keys, so the book names it here once", "principle": "reader", "severity": "should", "why": "Vaults and read keys are never explained here, and this is the paragraph that tells me what I am not shown."},
+  {"file": "91-the-words-used.md", "line": 20, "quote": "like one agent's that was still open when the hold came", "principle": "reader", "severity": "should", "why": "The one example leans on 'hold' and a particular agent I may not remember, so the definition stays unclear."}
+ ],
+ "what_holds": [
+  "09-nine-hours-with-nobody-starting-work.md: the opening at lines 5 in the editor's own voice (my last word at 04:03, my next at ten to two) and the honest partial wakes make the nine hours feel human and believable.",
+  "09-nine-hours-with-nobody-starting-work.md: the designer owning its mistake (lines 129-131) and ruv-sgit's idle bench (line 168) are the moments I would tell someone about.",
+  "90-the-tour-at-length.md: each stop is short, with a picture and one line from its maker, so I can stop anywhere without losing the thread.",
+  "91-the-words-used.md: plain one-line definitions with the chapter named; this is the page I would use, especially agent, repository, commit and the check."
+ ],
+ "notes": "As a first-build finisher I want the next step, and chapter 9 mostly shows a team that already works rather than how I would start; the closing 'Something to try' is the only handle and it is thin. The tour reads as a catalogue for readers who already know the factory. Most stops carry a repeated pattern of 'Narrator then one line', which becomes skimmable by stop 6."
+}

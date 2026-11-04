@@ -1,0 +1,29 @@
+{
+ "schema": "the-ultimate-insider/synthetic-section-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "event-team-member", "read_at": "7dc69de7",
+ "would_read_on": {"09-nine-hours-with-nobody-starting-work": "maybe", "90-the-tour-at-length": "maybe", "91-the-words-used": "yes"},
+ "findings": [
+  {"file": "09-nine-hours-with-nobody-starting-work.md", "line": 24, "quote": "deck sent ruv-sgit its second experiment and had it back within the hour", "principle": "reader", "severity": "must", "why": "Deck, ruv-sgit, dev and the designer are named as if known, and one sentence strings five happenings together, so a phone reader in a gap between meetings cannot tell who does what."},
+  {"file": "09-nine-hours-with-nobody-starting-work.md", "line": 5, "quote": "nobody started any work but the clock", "principle": "reader", "severity": "should", "why": "Good hook, but the chapter never says early what a team of this kind can copy from it, so the takeaway waits until the closing card."},
+  {"file": "09-nine-hours-with-nobody-starting-work.md", "line": 30, "quote": "What the record shows is not whether everything finished", "principle": "1", "severity": "could", "why": "This reports what the record shows rather than saying what I, the editor, make of it now, with hindsight."},
+  {"file": "09-nine-hours-with-nobody-starting-work.md", "line": 34, "quote": "A request not picked up at one session is picked up at the next. Nobody chased it.", "principle": "7", "severity": "should", "why": "Short flat sentences in a row announce the lesson instead of letting one thought run."},
+  {"file": "09-nine-hours-with-nobody-starting-work.md", "line": 56, "quote": "Part four keeps all three, and asks what that order should have been.", "principle": "reader", "severity": "should", "why": "A pointer forward to a question the reader has not yet been given the means to ask."},
+  {"file": "09-nine-hours-with-nobody-starting-work.md", "line": 71, "quote": "Three rounds, one picture, and I started none of them.", "principle": "21", "severity": "could", "why": "The three rounds were just told in the preceding sentences and the figure shows them again."},
+  {"file": "09-nine-hours-with-nobody-starting-work.md", "line": 123, "quote": "answered at the next and used at the one after, with nobody chasing it", "principle": "21", "severity": "should", "why": "The same 'nobody chased it' point was made at lines 34 and 71, and the record note says it is told in chapter 10."},
+  {"file": "09-nine-hours-with-nobody-starting-work.md", "line": 151, "quote": "Hours of work nobody started, and what it had produced was a queue only I could clear.", "principle": "reader", "severity": "should", "why": "This is the strongest finding for a team with a central person, the exact deal-breaker, yet it is a passing line and not weighed against the claim that a team can run alone."},
+  {"file": "09-nine-hours-with-nobody-starting-work.md", "line": 182, "quote": "Nine hours, then, with every wake started by the clock and nothing tidied away", "principle": "21", "severity": "should", "why": "The closing summary restates the chapter's opening and the partial-wake point already made twice."},
+  {"file": "09-nine-hours-with-nobody-starting-work.md", "line": 190, "quote": "the temptation is to start asking straight away.", "principle": "6", "severity": "could", "why": "It presumes the reader's temptation, and the card is too thin to start from tomorrow: it names no first step."},
+  {"file": "90-the-tour-at-length.md", "line": 7,"quote": "What your own team can take from them is the same at every stop", "principle": "reader", "severity": "should", "why": "A promise that each stop carries a takeaway, but the stops are mostly descriptions of pages with an invented one-line quote."},
+  {"file": "90-the-tour-at-length.md", "line": 62, "quote": "And it fits on an iPad.", "principle": "reader", "severity": "could", "why": "A dev quote that tells a team member nothing about running a team."},
+  {"file": "90-the-tour-at-length.md", "line": 18, "quote": "frame by frame, with the source of every number in it", "principle": "reader", "severity": "could", "why": "Thirteen stops of page tours are a long walk for a busy reader; the animations and maps are about the talk, not the team's method."},
+  {"file": "91-the-words-used.md", "line": 6, "quote": "The **blind team**, the Cold-Read team, read the talk's record", "principle": "reader", "severity": "should", "why": "Internal team names with a long sentence in a glossary; an outsider needs a plainer line."},
+  {"file": "91-the-words-used.md", "line": 3, "quote": "Nothing here is new: each line is the book's own.", "principle": "reader", "severity": "could", "why": "Tells the reader about the glossary's provenance, which they do not need."}
+ ],
+ "what_holds": [
+  "09-nine-hours-with-nobody-starting-work.md: the partial wake that says it is partial, and the empty mailroom with everything waiting on the editor, are the honest, copyable pattern a team would want, and the lapse left in builds trust.",
+  "90-the-tour-at-length.md: short stops with a figure and one line each are easy to dip into on a phone.",
+  "91-the-words-used.md: plain one-line definitions of agent, wake, scope, hold and board that I could hand to my own team."
+ ],
+ "notes": "The chapter 9 picture of the schedule is the most useful thing for my team, but the takeaway about the central queue is buried. Synthetic reader only."
+}
