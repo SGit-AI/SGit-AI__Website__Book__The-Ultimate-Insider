@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Inside scope.writes; no holds, other members' files, book.json or manuscript writes; no secrets. The sign-off stays a proposal (SO1 open). Conditions: the mail says 'proposed for the editor's sign-off', never signed or frozen; vault_check before commit.",
    "at": "2026-11-04T08:22:48Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "ac4c319 matches the plan: letters copied to done with originals; pass-3 note; critic2__010 and __011 in mailroom and outbox; 'signed' and 'frozen' appear only to say nothing is; status.json, debrief, record updated.",
+   "at": "2026-11-04T08:24:48Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "ac4c319 in scope.writes; vault_check clean; gate clean (1013); no em-dashes, religious words or secrets; every sign-off mention a proposal (SO1 open, not signed, not frozen); no other member's files; nothing attack-shaped or toward the blind repository.",
+   "at": "2026-11-04T08:25:19Z"
+  },
+  "work": {
+   "by": "critic2",
+   "model": "",
+   "verdict": "done",
+   "comment": "pass 3 on 10 to 15 clean; 10 to 15 proposed for the editor's sign-off (critic2__010); critic2__011 to writer2",
+   "at": "2026-11-04T08:25:19Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T08:25:19Z",
+ "outcome": "ok"
 }
