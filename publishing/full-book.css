@@ -49,3 +49,12 @@ section.fit2 .words-box { margin: 6pt 0 6pt; padding: 4pt 7pt; }
 section.fit2 h2 { margin-top: 11pt; }
 section.fit2 .speaker p { margin-bottom: 2pt; }
 section.fit2 p { orphans: 2; widows: 2; margin-bottom: 0.5em; }
+
+/* the Try this card (the designer's lab/tools/book/try-this.css, loaded by the list) stays with the text before it */
+.try-this { break-before: avoid; }
+/* screenshots at about two thirds of the column (the designer's RV2 read of chapter 1, 131): in proportion, and printed
+   at about 315 dots per inch instead of 210 */
+figure img[src^="data:image/jpeg"], figure img[src^="data:image/png"] { max-width: 66%; }
+/* the card's paragraphs in its own sans, upright, even where the writer set the whole paragraph in italics */
+.try-this .tt-try p, .try-this .tt-idea p, .try-this .tt-gives p { font-family: var(--sans, Inter, Helvetica, Arial, sans-serif); }
+.try-this p > em:only-child { font-style: normal; }

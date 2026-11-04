@@ -81,3 +81,5 @@ source: comms/mail/mailroom/publisher/conductor__026-check-taken.eml; publishing
 4 November about 05:00 UTC: the EPUB with a cover and cast styling (trial to the editor, unchecked); six full-page admin shots by name; 134 pages.
 
 4 November about 06:00 UTC: RV2 part one (01 to 03 pass; 00, 00b wait on drawings); chapter 2 fully drawn; 136 pages; dev's build broken by one file (not mine).
+
+4 November about 07:10 UTC: the Try this card in all 23 chapters; screenshots at about 318 dpi; last wake's work on dev; 135 pages.

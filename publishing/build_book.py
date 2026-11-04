@@ -59,6 +59,9 @@ def directives(book=None):
             if re.match(r"\s*#!\s*fit-tails\s*$", line):
                 FIT["on"] = True
                 continue
+            if re.match(r"\s*#!\s*try-this-card\s*$", line):
+                FIT["card"] = True
+                continue
             m = re.match(r"\s*#!\s*(drop-section|extra-css):\s*(.+?)\s*$", line)
             if not m:
                 continue
@@ -66,11 +69,37 @@ def directives(book=None):
                 drop.append(m.group(2))
                 continue
             path = os.path.realpath(os.path.join(ROOT, m.group(2)))
-            if not path.startswith(os.path.join(os.path.realpath(ROOT), "publishing") + os.sep) or not path.endswith(".css") \
-                    or not os.path.isfile(path):
-                sys.exit(f"build_book: {os.path.relpath(book, ROOT)}: extra-css must be a .css file under publishing/: {m.group(2)}")
+            root = os.path.realpath(ROOT)
+            mine = path.startswith(os.path.join(root, "publishing") + os.sep)
+            designers = os.path.dirname(path) == os.path.join(root, "lab", "tools", "book")  # the designer's book styles, directly
+            if not (mine or designers) or not path.endswith(".css") or not os.path.isfile(path):
+                sys.exit(f"build_book: {os.path.relpath(book, ROOT)}: extra-css must be a .css file under publishing/ or "
+                         f"directly in lab/tools/book/: {m.group(2)}")
+            if designers:
+                why = unsafe_css(open(path, encoding="utf-8").read())
+                if why:
+                    sys.exit(f"build_book: refused {m.group(2)}: {why}")
             css.append(path)
     return drop, css
+
+
+def unsafe_css(text):
+    """Why a stylesheet from lab/tools/book/ is refused, or None (security, 4 November 2026): no @import, expression(),
+    behavior, -moz-binding or backslash escape; a url() only #id or data:image/svg+xml;utf8 whose SVG passes the
+    drawings' own check and holds no href."""
+    from urllib.parse import unquote
+    if re.search(r"@import|@font-face|expression\s*\(|\bbehavior\s*:|-moz-binding|image-set\s*\(|cross-fade\s*\(|\bsrc\s*\(|\\", text, re.I):
+        return "an @import, @font-face, expression(), behavior, -moz-binding, image-set(), cross-fade(), src() or a backslash escape"
+    for m in re.finditer(r"url\(\s*(['\"]?)(.*?)\1\s*\)", text, re.I | re.S):
+        u = m.group(2).strip()
+        if u.startswith("#"):
+            continue
+        if not u.lower().startswith("data:image/svg+xml;utf8,"):
+            return "a url() that is not #id or data:image/svg+xml;utf8"
+        svg = unquote(u.split(",", 1)[1])
+        if edition.unsafe_svg(svg) or re.search(r"\bhref\b", svg, re.I):
+            return "an embedded SVG that fails the drawings' check or holds an href"
+    return None
 
 
 FIT = {"on": False}  # "#! fit-tails": chapters whose last page holds only a few lines are set a little tighter
@@ -105,6 +134,27 @@ def tail_chapters(pdf, titles, most=8):
         if len(body) <= most:
             tails.append(k)
     return tails
+
+
+CARD_PARTS = (("tt-idea", "The idea"), ("tt-try", "What I would try first"), ("tt-gives", "What it gives you"))
+
+
+def try_this_cards(text):
+    """"#! try-this-card": a chapter's "## Something to try", "## Try this" or "## Do this now" section set as the
+    designer's card (lab/tools/book/try-this.css; conductor 072, brief 10): the label "Try this" in every chapter, then
+    three paragraphs as the idea, the try and what it gives, or one paragraph as the try alone."""
+    def card(m):
+        paras = [p.strip() for p in re.split(r"\n\s*\n", m.group(1).strip())
+                 if p.strip() and not p.strip().startswith(("%%", "`%%", "---"))]
+        out = ["", "::: try-this", "::: tt-label", "Try this", ":::", ""]
+        if len(paras) == 3:
+            for (cls, label), p in zip(CARD_PARTS, paras):
+                out += [f"::: {cls}", f"[{label}]{{.tt-part}} " + p, ":::", ""]
+        else:
+            for p in paras:
+                out += ["::: tt-try", p, ":::", ""]
+        return "\n".join(out + [":::", "", ""])
+    return re.sub(r"(?ms)^## (?:Something to try|Try this|Do this now)[ \t]*\n(.*?)(?=^#{1,2} |\Z)", card, text)
 
 
 def drop_sections(text, headings):
@@ -286,6 +336,8 @@ def main():
             raw = f.read()
             if drop:
                 raw = drop_sections(raw, drop)
+            if FIT.get("card"):
+                raw = try_this_cards(raw)
             if a.cast:  # the writer's chapters use the editions' conventions (publisher__003 to the writer)
                 key = os.path.relpath(os.path.abspath(src), MANUSCRIPT)
                 drawings = figure_map.get(key)

@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T06:49:31Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; Bash read only)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In lane; brief 10 and WC1 (072 item 2) cover the card. Conditions: the label fixed as 'Try this' in all 23; the designer's markup order and labels (the idea, what I would try first, what it gives you); one paragraph as the try alone.",
+   "at": "2026-11-04T06:54:46Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Conditions: lab/tools/book/*.css directly (realpath, .css, no subfolders); refuse @import, expression(, behavior, -moz-binding, backslash escapes; url() only #id or data:image/svg+xml;utf8 whose SVG passes unsafe_svg with no href; base64 SVG refused. The nine memory names exact, the two to crop left out. Security to read diffs of lab/tools/book/*.css. No HOLD.",
+   "at": "2026-11-04T06:54:46Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Last wake's commit to dev once the gate was clean; Try this card in all 23 (try-this-card line; try-this.css loaded from lab/tools/book with checks); screenshots at two thirds (318 dpi); nine memory shots; letters conductor 054, designer 046, ruv-sgit 019, writer2 003, writer4 003; records",
+   "at": "2026-11-04T06:57:14Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Scope clean; no PDF or PNG; unsafe_css refuses uppercase URL(, unquoted url, base64 SVG, scripts, hrefs, @IMPORT; realpath resolves .. and symlinks. One gap (image-set with a bare string) closed by the publisher before the commit, with @font-face, cross-fade() and src(); try-this.css still passes. Letters clean; vault_check clean.",
+   "at": "2026-11-04T06:59:13Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Every item to plan.",
+   "at": "2026-11-04T06:59:13Z"
+  }
+ },
+ "closed": "2026-11-04T06:59:13Z",
+ "outcome": "ok"
+}
