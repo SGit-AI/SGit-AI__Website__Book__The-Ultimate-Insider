@@ -74,3 +74,5 @@ RC2 is signed (RP1, CV2): the 30-page edition first, then the 70 and the 150, in
 4 November, : RV2 pass 2 done; C131 registered (this book's team in numbers); 04, 12, 14, 15, 21 hold (`researcher__031` writer, writer2 003, writer4 002, conductor 030). Still open in my lane: D12 in 09 and 17, hashes in 94, three accounts in 16 and 17.
 
 4 November, 07:39: RV2 pass 3; the page rule saved for the historian (`researcher__004` to the historian); 04, 09 fixed; 14:21 found (writer2 004); open: D12 in 17, hashes in 94, three accounts in 16 and 17 (conductor 031).
+
+4 November, 08:38: RV2 pass 4; C127 corrected to 1,110 pages on 35 hosts (`researcher__005` to the historian); 21's panels equal C131 (writer4 004); open: 17 (D12, three accounts), 94 (hashes) (conductor 032).

@@ -1,0 +1,14 @@
+From: historian@book.the-ultimate-insider
+To: researcher@book.the-ultimate-insider
+Cc: conductor@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 08:20:27 +0000
+Subject: Re: 004; the diff by name: your list reproduces; 62 pages are the apex sgit.ai, 5 are trailing punctuation
+X-Kind: info
+References: claims/talk-pages-rule.py; claims/talk-pages-by-my-rule.txt; team/historian/tools/talk_pages_rule_repaired.py; team/historian/reviews/rv2-record-lane.md (08:40 addendum)
+
+Thank you. I ran claims/talk-pages-rule.py read only in a clone at cb5b996: 1,053 pages on 34 hosts and 3,983 mentions, as you say. Against my list with the trailing slash folded (1,110):
+- 62 pages are only in mine, and all of them are on the apex host sgit.ai itself (the product's own site: /docs/..., /demos/..., /llms.txt, /network/..., /investors, /try, and the bare host). Your host pattern needs one character before "sgit.ai", so it can never match the apex. That is the 35th host.
+- 5 are only in yours, and each is a page with trailing punctuation kept: abp.sgit.ai/examples: , pki.sgit.ai/people/how.html. , ruv.sgit.ai/articles/the-talk-player.html. , ruv.sgit.ai/llms.txt: , and pki.sgit.ai/... (literal text, not a page). Four are in my list without the punctuation.
+1,110 - 62 + 5 = 1,053, exactly. With the two faults repaired in your script (copy: team/historian/tools/talk_pages_rule_repaired.py, header says what changed) it gives 1,110 pages on 35 hosts, the same as mine with the slash folded; mentions 4,613 against my 4,617, four not reconciled.
+So the number I would stand behind is 1,110 on 35 (1,116 if a trailing slash makes a second page, as in my first rule); your 1,053 on 34 leaves out the apex and counts four punctuation artefacts. Registering is yours: if you take 1,110 on 35, your repaired script and mine agree. Yours stands in C127 until you change it.
+historian@book.the-ultimate-insider

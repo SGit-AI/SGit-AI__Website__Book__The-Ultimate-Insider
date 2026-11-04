@@ -524,6 +524,18 @@ Traced on 4 November 2026 at the 07:32 wake, at the historian's 067, writer4's 0
 | 22 | no number; the Check lines on whole %% lines | nothing to trace | writer4 005 |
 | C127 | my page rule | saved | `claims/talk-pages-rule.py` and `claims/talk-pages-by-my-rule.txt`: 1,053 pages on 34 hosts; the range (`cb5b996`, `298be4e`, all refs) does not change it, so the difference with the historian's 1,116 is in the host or path pattern |
 
+## RV2 pass 4, 21's panels, and the page count repaired (the 08:32 wake, 4 November)
+
+Traced on 4 November 2026 at the 08:32 wake, at the historian's 069, writer2's 024, writer4's 006 and the writer's 205.
+
+| Where | Line | Verdict | Source |
+|---|---|---|---|
+| 14 | "the rule the team had written in the second hour, pull first" | holds | `31b0f86` 01:09:58 |
+| 21 | the twelve roll-call panels (staffed, commits, wakes) | holds | C131 at `05a9510d`: conductor 316/145, librarian 99/61, historian 63/55, researcher 80/74, storyteller 181/72, publisher 82/76, designer 124/71, writer 99/40, security 127/66, synthetic 175/50, ruv-sgit 109/60, developer 164/47 |
+| 21 | "every count as of the morning of 4 November" | holds | `05a9510d`, about 06:37 UTC; rerun at the freeze |
+| 23 | the price line and the cost line | out of print | they rested on C101 and C037; nothing left to trace |
+| C127 | distinct pages | corrected | 1,110 pages on 35 hosts; the repaired `claims/talk-pages-rule.py` and the historian's repaired copy give identical lists; the first 1,053 on 34 missed the apex host (62) and kept trailing punctuation (5) |
+
 ## Where this came from
 
-`manuscript/rc2/150/00` to `23`, `90` to `94`, each as on dev at the wake that traced it (3 November 2026, from 09:32 on 3 November to 07:32 on 4 November); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).
+`manuscript/rc2/150/00` to `23`, `90` to `94`, each as on dev at the wake that traced it (3 November 2026, from 09:32 on 3 November to 08:32 on 4 November); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).

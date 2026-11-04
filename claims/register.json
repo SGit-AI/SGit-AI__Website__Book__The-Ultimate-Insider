@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider-book/claims-register/v1",
  "kept_by": "researcher@book.the-ultimate-insider",
- "as_of": "2026-11-04T07:39Z",
+ "as_of": "2026-11-04T08:38Z",
  "source_default": {
   "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
   "at": "298be4e",
@@ -4509,7 +4509,7 @@
      "top_hosts": "newsroom.sgit.ai 70, sgit.ai 42, refs.php.oct.2026.newsroom.sgit.ai 33, pki.sgit.ai 32, php.oct.2026.newsroom.sgit.ai 29, abp.sgit.ai 24",
      "first_batch": "79 sources captured from 01:50:05 to 01:50:41 (36 seconds), 20 of them articles on newsroom.sgit.ai, tagged newsroom-ideas, 'ultimate-insider-three-collisions.md' at 01:50:09; the researcher's first commit is at 01:52:10 (C011)"
     },
-    "distinct_pages_by_my_rule": "1,053 distinct pages on 34 hosts in the lines added by the day's commits (host and path, fragment and query dropped, trailing slash dropped, a bare host counts); the historian's 1,116 on 35 differ by rule and are not registered The rule is the script claims/talk-pages-rule.py and its list claims/talk-pages-by-my-rule.txt (saved 4 November at the 07:32 wake); the revision range does not change the count.",
+    "distinct_pages_by_my_rule": "1,110 distinct pages on 35 hosts in the lines added by the day's commits at cb5b996 (host and path; query and fragment dropped; the trailing slash and trailing . , : ; * ) dropped; a bare host counts; the apex host sgit.ai counts), by claims/talk-pages-rule.py as repaired on 4 November 2026 at the historian's diff (069): the first version, 1,053 on 34, could not match the apex host (62 pages) and kept trailing punctuation (5 artefacts). The repaired script and the historian's own agree on all 1,110 pages (identical lists). The list is claims/talk-pages-by-my-rule.txt, with one public key-file path redacted.",
     "carried_over": [
      {
       "at": "00:40:50",
@@ -4547,9 +4547,10 @@
       "what": "studio's first two ports from ruv.sgit.ai"
      }
     ],
-    "not_registered_note": "Corrected 4 November at the historian's 055: the 52 newsroom captures was a substring match that also took three PHP October sub-site articles; the right figure on newsroom.sgit.ai itself is 49. His 1,116 pages on 35 hosts is by his rule (the whole path, scheme, fragment and query dropped, trailing slash and case not folded) and I have not matched it; his script is team/historian/tools/past_projects_scan.py. Mine gives 1,053 on 34 by a different rule."
+    "not_registered_note": "The historian's 1,116 (trailing slash as a second page) is the same pages with the slash kept; 1,110 is the figure to print. The 52 newsroom captures was a substring match that also took three PHP October articles: 49 on newsroom.sgit.ai itself. The 63 pages used in the team's own files are the historian's (team/historian/tools/past_projects_scan.py --used) and are not rerun here.",
+    "mentions_note": "Mentions added by the day's commits: the repaired script counts 4,613; the historian's own script counts 4,617; the four are not reconciled, so no mention count is registered."
    },
-   "not_registered": "the historian's 63 pages used in the team's own files (not rerun); 52 newsroom article captures (I find 49 on newsroom.sgit.ai under /articles/, 20 in the first batch); the 4,617 and 3,765 mentions added (my rule gives other numbers); 1,116 pages on 35 hosts",
+   "not_registered": "the historian's 63 pages used in the team's own files (his script, not rerun); the mentions added (4,613 against his 4,617, not reconciled); 1,116 (the same pages with the trailing slash kept)",
    "state": "checked",
    "source": {
     "repository": "SGit-AI__Website__Presentation__The-Ultimate-Insider",
@@ -4558,7 +4559,7 @@
    },
    "method": "manifest read; commits read with git show; distinct pages by a regex over git log -p, stated in the value",
    "command": "# in a clone of the talk's repository:\ngit show cb5b996:evidence/sources/manifest.json | python3 -c \"import json,sys,re,collections;s=json.load(sys.stdin)['sources'];g=[x for x in s if re.match(r'https?://[^/]*sgit\\.ai',x.get('url') or '')];print(len(s),len(g),collections.Counter(x.get('http_status') for x in g))\"; for c in 1f7c633 97b98d9 20ab1a3 a3a4807 ecc048e 3314ffe c3ce566; do git log -1 --format='%h %ad %s' --date=format:%H:%M:%S $c | cut -c1-110; done",
-   "note": "Say 'captured', not 'read': git shows the capture and what was written, not reading that left no trace. The historian's file (timeline/past-projects-memory.md) is a proposal; this entry holds the parts the researcher reproduced, and names the rest. Registered at historian 053 and conductor 038, the 04:32 wake, 4 November 2026."
+   "note": "Say 'captured', not 'read': git shows the capture and what was written, not reading that left no trace. The historian's file (timeline/past-projects-memory.md) is a proposal; this entry holds the parts the researcher reproduced, and names the rest. Registered at historian 053 and conductor 038, the 04:32 wake, 4 November 2026. Corrected 4 November (08:32 wake): 1,110 pages on 35 hosts, the repaired rule."
   },
   {
    "id": "C128",

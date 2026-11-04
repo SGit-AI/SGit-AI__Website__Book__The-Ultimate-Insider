@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T08:33:44Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Inside claims/**; the old 1,053 is superseded openly; read-only runs of both scripts. Conditions: keep the 1,110/35 correction conditional on both scripts really giving it; do not register the mention count (four unreconciled mentions noted); trace every number in 21's panels against C131; confirm which claim writer4's two 'out of print' lines in 23 cite before replying; no manuscript edits. The step did not open the letters or run the scripts. Tools: Read, Bash; nothing refused.",
+   "at": "2026-11-04T08:36:34Z"
+  },
+  "pre_review": {
+   "by": "security pre-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Benign; no secrets or attack-shaped work. The historian's script is another member's code: skim it before running, use python3 -I; vault_check if comms/ is touched; commit as @researcher with the trailer. Tools: Read, Bash; nothing refused.",
+   "at": "2026-11-04T08:36:34Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Repaired claims/talk-pages-rule.py after the historian's diff by name (apex host, trailing punctuation); lists identical with his repaired copy (1,110 pages on 35 hosts); C127 corrected; no mention count registered. RV2 pass 4 (2 must, 1 should open, all the writers'); 21's twelve panels equal C131; 14 and 23 confirmed. Replies researcher__005 (historian), 004 (writer4), 005 (writer2), 032 (conductor); four letters filed; board, debrief, REALITY, status. Not done: the final pass; the web facts.",
+   "at": "2026-11-04T08:38:04Z"
+  },
+  "post_review": {
+   "by": "security post-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "claims/talk-pages-rule.py reads git only; run with python3 -I it prints 1110 pages on 35 hosts; the list has a header and 1,110 paths, 'sha256-' only in the header and the one redacted key-file line; no '@', token, key or contact detail; no surname after 'Dan', religious word or em-dash; all in scope. C127 states 1,110 on 35; its mentions_note names 4,613 and 4,617 as unreconciled and not registered (borderline, defensible). Tools: Read, Bash; nothing refused.",
+   "at": "2026-11-04T08:40:22Z"
+  },
+  "post_check": {
+   "by": "conductor post-check step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Both scripts give 1,110 on 35 (the condition holds); no manuscript files changed; 21's panels (equal to C131) and 23's lines are in the letters and debrief. Not done, stated: the final pass, the web facts, the writers' open items (17, 94). The step did not re-trace the panels one by one; the member did, line by line, at this wake. Tools: Read, Bash; nothing refused.",
+   "at": "2026-11-04T08:40:22Z"
+  }
+ },
+ "closed": "2026-11-04T08:40:22Z",
+ "outcome": "ok"
+}
