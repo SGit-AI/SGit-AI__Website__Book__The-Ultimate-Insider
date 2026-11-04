@@ -4,9 +4,11 @@
    elements ("this will make the book bigger, but that's okay"), and a figure kept with what introduces it. The type
    stays 9.5 pt (TS1). */
 
-/* the measure: inside 0.75 in, outside 0.6 in (were 0.625 and 0.375): the text block 6.09 in, was 6.44 */
-@page :right { margin-left: 0.75in; margin-right: 0.6in; }
-@page :left { margin-left: 0.6in; margin-right: 0.75in; }
+/* the measure (LY1, the editor, 4 November 2026, about 10:35 UTC: "on the width, I think you went a bit too much"):
+   inside 0.65 in, outside 0.5 in, the text block 6.29 in, about 84.5% of the page (was 6.09 in from 01:55 UTC, 6.44 in
+   before); the spacing gains stay */
+@page :right { margin-left: 0.65in; margin-right: 0.5in; }
+@page :left { margin-left: 0.5in; margin-right: 0.65in; }
 
 /* more room between the vertical elements; a band closes its scene, so more space after it than before */
 figure, figure:has(img.edition-figure) { margin: 14pt 0 16pt; }
@@ -19,7 +21,9 @@ h2 { margin-top: 22pt; }
 
 /* the flow: no line left alone at a page's foot or head; a figure stays with the paragraph before it */
 p { orphans: 3; widows: 3; }
-figure, .figure-todo { break-before: avoid; }
+/* LY1 (4 November 2026): a drawn figure may start a page after its paragraph rather than drag the paragraph with it
+   and leave a hole (blank pages inside chapters from 13 to 7); its caption stays with it, above */
+.figure-todo { break-before: avoid; }
 .figure-todo { break-inside: avoid; }
 
 /* a chapter's "Do this now" stays with the text before it, so a chapter does not end on a page holding only that line */
@@ -52,9 +56,13 @@ section.fit2 p { orphans: 2; widows: 2; margin-bottom: 0.5em; }
 
 /* the Try this card (the designer's lab/tools/book/try-this.css, loaded by the list) stays with the text before it */
 .try-this { break-before: avoid; }
-/* screenshots at about two thirds of the column (the designer's RV2 read of chapter 1, 131): in proportion, and printed
-   at about 315 dots per inch instead of 210 */
-figure img[src^="data:image/jpeg"], figure img[src^="data:image/png"] { max-width: 66%; }
+/* screenshots paired with their text (LY1: "pad means pair it with text"; principle 36): each floats beside its
+   paragraph at about 55% of the column, caption above, the text wrapping round it, so it leaves no hole (about 366 dpi
+   in print); headings and the book's blocks start below it */
+figure:has(img[src^="data:image/jpeg"]), figure:has(img[src^="data:image/png"]) {
+  float: right; clear: right; width: 55%; margin: 3pt 0 8pt 12pt; }
+figure img[src^="data:image/jpeg"], figure img[src^="data:image/png"] { width: 100%; max-width: 100%; }
+h1, h2, h3, .band, .try-this, .cast-card, .concept, .tear-out, .words-box { clear: both; }
 /* the card's paragraphs in its own sans, upright, even where the writer set the whole paragraph in italics */
 .try-this .tt-try p, .try-this .tt-idea p, .try-this .tt-gives p { font-family: var(--sans, Inter, Helvetica, Arial, sans-serif); }
 .try-this p > em:only-child { font-style: normal; }

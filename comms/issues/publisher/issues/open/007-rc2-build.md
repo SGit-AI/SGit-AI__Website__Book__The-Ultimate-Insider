@@ -89,3 +89,5 @@ source: comms/mail/mailroom/publisher/conductor__026-check-taken.eml; publishing
 4 November about 09:05 UTC: drawn cast bars in all 24 chapters; seven placements restored from figure briefs; 03b in; 92 held; 136 pages.
 
 4 November about 10:05 UTC: the three keys in 03; RV2 part two (05 passes); 132 pages.
+
+4 November about 11:15 UTC: LY1 in the build (measure 84.5%; screenshots beside their text; holes inside chapters 13 to 7); 16 and 17 re-mapped; 127 pages.
