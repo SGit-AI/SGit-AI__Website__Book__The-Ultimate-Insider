@@ -1,9 +1,9 @@
 {
  "about": "The full book's printed pages checked for pages that may not look right (conductor__036). Written by review/tools/print_check.py: page numbers, chapter titles, counts and sizes only.",
  "edition": "rc2-150",
- "source": "a PDF given by hand (full.pdf, created Wed Nov  4 09:14:41 2026 UTC); its chapters are taken to be today's",
- "pdf_pages": 138,
- "chapters_hash": "84f2978b0f4cb1dc",
+ "source": "a PDF given by hand (full.pdf, created Wed Nov  4 10:13:40 2026 UTC); its chapters are taken to be today's",
+ "pdf_pages": 133,
+ "chapters_hash": "8da15343617e1b83",
  "thresholds": {
   "spill_fill_below": 0.25,
   "gap_fill_below": 0.7,
@@ -13,31 +13,23 @@
  "chapters_found": 30,
  "chapters": 30,
  "counts": {
-  "chapter_end_spill": 9,
-  "gap_page": 11,
-  "figure_apart": 1
+  "chapter_end_spill": 8,
+  "gap_page": 8
  },
  "flags": [
   {
    "kind": "chapter_end_spill",
-   "page": 119,
+   "page": 120,
    "chapter": "Principles, and build your own",
    "lines": 3,
    "fill": 0.07
   },
   {
    "kind": "chapter_end_spill",
-   "page": 134,
+   "page": 129,
    "chapter": "The words used",
    "lines": 4,
    "fill": 0.08
-  },
-  {
-   "kind": "chapter_end_spill",
-   "page": 40,
-   "chapter": "Roles as a cast you can read",
-   "lines": 4,
-   "fill": 0.14
   },
   {
    "kind": "chapter_end_spill",
@@ -48,7 +40,7 @@
   },
   {
    "kind": "chapter_end_spill",
-   "page": 99,
+   "page": 100,
    "chapter": "How do we contain this",
    "lines": 4,
    "fill": 0.14
@@ -76,45 +68,27 @@
   },
   {
    "kind": "chapter_end_spill",
-   "page": 137,
+   "page": 132,
    "chapter": "Appendix B: the control register",
    "lines": 12,
    "fill": 0.24
   },
   {
    "kind": "gap_page",
-   "page": 79,
-   "chapter": "Port, not rebuild",
-   "fill": 0.38,
+   "page": 71,
+   "chapter": "The creator comes back",
+   "fill": 0.25,
    "lines": 10,
    "raster_figure_here": false,
    "borderline": false
   },
   {
    "kind": "gap_page",
-   "page": 34,
-   "chapter": "Roles as a cast you can read",
-   "fill": 0.53,
-   "lines": 20,
-   "raster_figure_here": false,
-   "borderline": false
-  },
-  {
-   "kind": "gap_page",
-   "page": 21,
+   "page": 18,
    "chapter": "The tour: what a factory made in a day",
-   "fill": 0.55,
-   "lines": 6,
+   "fill": 0.53,
+   "lines": 8,
    "raster_figure_here": true,
-   "borderline": false
-  },
-  {
-   "kind": "gap_page",
-   "page": 131,
-   "chapter": "The tour, at length",
-   "fill": 0.58,
-   "lines": 14,
-   "raster_figure_here": false,
    "borderline": false
   },
   {
@@ -128,10 +102,19 @@
   },
   {
    "kind": "gap_page",
-   "page": 26,
+   "page": 27,
    "chapter": "Hour one: the empty project",
    "fill": 0.62,
    "lines": 20,
+   "raster_figure_here": false,
+   "borderline": false
+  },
+  {
+   "kind": "gap_page",
+   "page": 80,
+   "chapter": "Port, not rebuild",
+   "fill": 0.62,
+   "lines": 21,
    "raster_figure_here": false,
    "borderline": false
   },
@@ -146,7 +129,7 @@
   },
   {
    "kind": "gap_page",
-   "page": 105,
+   "page": 106,
    "chapter": "Sessions end",
    "fill": 0.64,
    "lines": 20,
@@ -155,109 +138,34 @@
   },
   {
    "kind": "gap_page",
-   "page": 128,
-   "chapter": "The tour, at length",
-   "fill": 0.64,
-   "lines": 9,
-   "raster_figure_here": true,
-   "borderline": false
-  },
-  {
-   "kind": "gap_page",
-   "page": 109,
+   "page": 110,
    "chapter": "The second factory",
    "fill": 0.67,
    "lines": 25,
    "raster_figure_here": false,
    "borderline": true
-  },
-  {
-   "kind": "gap_page",
-   "page": 123,
-   "chapter": "The tour, at length",
-   "fill": 0.69,
-   "lines": 24,
-   "raster_figure_here": false,
-   "borderline": true
-  },
-  {
-   "kind": "figure_apart",
-   "page": 112,
-   "chapter": "The second factory",
-   "intro_page": 111,
-   "pages_apart": 1
   }
  ],
  "raster_figures_over_45_percent_on_pages": [],
  "figures": {
-  "figure_lines": 110,
-  "introduced_by_a_heading": 26,
-  "heading_checked": 26,
+  "figure_lines": 106,
+  "introduced_by_a_heading": 22,
+  "heading_checked": 22,
   "heading_page_not_found": 0,
+  "introduced_by_the_dramatised_note": 1,
   "begin_on_a_later_page_than_their_heading": 0,
   "with_a_paragraph_before_them_in_the_section": 84,
   "not_found": 0,
-  "begin_on_a_later_page_than_that_paragraph_ends": 1
+  "begin_on_a_later_page_than_that_paragraph_ends": 0
  },
  "since_last": {
-  "previous_pdf_pages": 137,
+  "previous_pdf_pages": 133,
   "previous_counts": {
-   "chapter_end_spill": 6,
-   "gap_page": 14,
-   "figure_apart": 1
+   "chapter_end_spill": 8,
+   "gap_page": 8
   },
-  "fixed": [
-   {
-    "kind": "gap_page",
-    "chapter": "Hour three: the five steps, and the first to be caught",
-    "before": 1,
-    "now": 0
-   },
-   {
-    "kind": "gap_page",
-    "chapter": "Hours four and five: before dawn",
-    "before": 2,
-    "now": 1
-   },
-   {
-    "kind": "gap_page",
-    "chapter": "How do we contain this",
-    "before": 1,
-    "now": 0
-   },
-   {
-    "kind": "gap_page",
-    "chapter": "Inventing on principle",
-    "before": 1,
-    "now": 0
-   }
-  ],
-  "new": [
-   {
-    "kind": "chapter_end_spill",
-    "chapter": "Slides as a compromise",
-    "before": 0,
-    "now": 1
-   },
-   {
-    "kind": "chapter_end_spill",
-    "chapter": "Inventing on principle",
-    "before": 0,
-    "now": 1
-   },
-   {
-    "kind": "chapter_end_spill",
-    "chapter": "Hour three: the five steps, and the first to be caught",
-    "before": 0,
-    "now": 1
-   },
-   {
-    "kind": "gap_page",
-    "chapter": "Hour one: the empty project",
-    "before": 0,
-    "now": 1
-   }
-  ],
+  "fixed": [],
+  "new": [],
   "remaining": [
    {
     "kind": "chapter_end_spill",
@@ -273,12 +181,6 @@
    },
    {
     "kind": "chapter_end_spill",
-    "chapter": "Roles as a cast you can read",
-    "before": 1,
-    "now": 1
-   },
-   {
-    "kind": "chapter_end_spill",
     "chapter": "The plumbing",
     "before": 1,
     "now": 1
@@ -291,19 +193,31 @@
    },
    {
     "kind": "chapter_end_spill",
+    "chapter": "Slides as a compromise",
+    "before": 1,
+    "now": 1
+   },
+   {
+    "kind": "chapter_end_spill",
+    "chapter": "Inventing on principle",
+    "before": 1,
+    "now": 1
+   },
+   {
+    "kind": "chapter_end_spill",
+    "chapter": "Hour three: the five steps, and the first to be caught",
+    "before": 1,
+    "now": 1
+   },
+   {
+    "kind": "chapter_end_spill",
     "chapter": "Appendix B: the control register",
     "before": 1,
     "now": 1
    },
    {
     "kind": "gap_page",
-    "chapter": "Port, not rebuild",
-    "before": 1,
-    "now": 1
-   },
-   {
-    "kind": "gap_page",
-    "chapter": "Roles as a cast you can read",
+    "chapter": "The creator comes back",
     "before": 1,
     "now": 1
    },
@@ -315,13 +229,25 @@
    },
    {
     "kind": "gap_page",
-    "chapter": "The tour, at length",
-    "before": 3,
-    "now": 3
+    "chapter": "The plumbing",
+    "before": 1,
+    "now": 1
    },
    {
     "kind": "gap_page",
-    "chapter": "The plumbing",
+    "chapter": "Hour one: the empty project",
+    "before": 1,
+    "now": 1
+   },
+   {
+    "kind": "gap_page",
+    "chapter": "Port, not rebuild",
+    "before": 1,
+    "now": 1
+   },
+   {
+    "kind": "gap_page",
+    "chapter": "Hours four and five: before dawn",
     "before": 1,
     "now": 1
    },
@@ -336,22 +262,16 @@
     "chapter": "The second factory",
     "before": 1,
     "now": 1
-   },
-   {
-    "kind": "figure_apart",
-    "chapter": "The second factory",
-    "before": 1,
-    "now": 1
    }
   ]
  },
  "cannot_tell": [
   "whether a gap or a short page is meant (a divider, an opener, a page left to a drawing): it measures how far the content reaches",
-  "0 of 110 figure lines could not be found by their printed caption; 26 sit straight under a heading (0 of them with the page of the heading not found, not checked), which counts as what introduces them; for the rest it finds where the caption begins, not whether the drawing under it is on the same page",
+  "0 of 106 figure lines could not be found by their printed caption; 22 sit straight under a heading (0 of them with the page of the heading not found, not checked), which counts as what introduces them; for the rest it finds where the caption begins, not whether the drawing under it is on the same page",
   "how a page looks beyond how far its content reaches"
  ],
  "paragraphs_found_on_a_page": {
-  "found": 819,
-  "of": 831
+  "found": 811,
+  "of": 823
  }
 }
