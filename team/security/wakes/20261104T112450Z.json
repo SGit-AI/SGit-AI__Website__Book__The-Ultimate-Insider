@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "04:73 may stand; C115 row moved to the permission-check row in controls/appendix-b.md; critic4's first-person line declined; 18, 19, 91, 93 and twelve drawings clear; security__058 to critic1, writer4, writer3, ruv-sgit, designer, conductor.",
    "at": "2026-11-04T11:29:42Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "Gate, vault check and scope clean; C115 row matches the trace (17:47:28, bd3cdad, the session's own check); no key, link, em-dash or Cold-Read content; status.json churn is whitespace. Callable: Read, Grep, Glob, Bash (it saw deferred MCP names, used none).",
+   "at": "2026-11-04T11:31:13Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "as-planned",
+   "comment": "Plan matched: C115 row moved, 04:73 kept, critic4's line declined, chapters and drawings clear, letters, board and debrief written. Its note on the trailer is mistaken: the session's model is the trailer's.",
+   "at": "2026-11-04T11:31:13Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T11:31:13Z",
+ "outcome": "ok"
 }
