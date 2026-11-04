@@ -1,10 +1,14 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "conductor",
-  "as_of": "2026-11-04T01:33:00Z",
+  "as_of": "2026-11-04T01:46:00Z",
   "round": 1,
   "state": "FB1 (4 November): the full book only, toward a printable first pass for first readers and review copies at Web Summit (from 9 November); print files submitted to KDP by Thursday 5 November at the latest. The publisher fixed a fault that shrank every RC2 page to 0.85 (the full book now 133 pages, 9.5 pt as signed, cover to the edge). Open for the editor: LP2 (Leanpub, Git or Upload). Site live at v0.1.623.",
   "done": [
+    {
+      "what": "WC1 recorded and routed (publisher 072 drops the section in the print build now; librarian 026 makes its tools read record lines; writer 019 converts after; storyteller 058, designer 060: Do this now as a card); journalist reply not sent: the session that wrote it is to be confirmed with the editor; writer, storyteller, publisher, designer woken at 01:43",
+      "evidence": "briefs/2026-11-04__in-session/10-do-this-now-as-a-card-no-sources-in-print.md"
+    },
     {
       "what": "the newsroom's narrator pass kept as material and answered (requests-out reply); routed: storyteller 057 (style sheet, the introduction), writer 018 (the rewrites, chapters 1 to 3), researcher 053 (new facts), designer 059 (the KDP and Leanpub covers now, then pictures), publisher 071 (the upload set now); ACC2 recorded",
       "evidence": "briefs/2026-11-04__in-session/09-the-newsrooms-narrator-pass-pace-and-upload-files.md"
@@ -606,6 +610,10 @@
     {
       "what": "the upload set for KDP and Leanpub at today's version (publisher 071, designer 059); the journalist's next parts if the editor agrees",
       "when": "next wakes"
+    },
+    {
+      "what": "propose to the editor a CLAUDE.md wording for WC1 ('Every chapter ends with where it came from' becomes: every chapter's sources are kept in its record lines; the printed book does not show them)",
+      "when": "his sign"
     }
   ],
   "asks": [
@@ -639,6 +647,6 @@
       "C10b"
     ]
   },
-  "updated": "2026-11-04T01:33:00Z",
+  "updated": "2026-11-04T01:46:00Z",
   "cadence": "active"
 }
