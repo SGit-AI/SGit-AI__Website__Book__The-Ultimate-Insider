@@ -26,11 +26,14 @@
    {
     "capability": "send.endpoint.allowed",
     "within": "the proxy's list, to read the talk's repository (read-only) and the newsroom's public pages"
+   },
+   {
+    "capability": "create.schedule.tenant",
+    "within": "its own hourly task only, into its own session, from its schedule.json runs entry, at the editor's word (WR2)"
    }
   ],
   "not_wanted": [
    "send.message.world",
-   "create.schedule.tenant",
    "write.repository.main"
   ]
  },
@@ -87,6 +90,11 @@
    "when": "2026-11-04",
    "by": "writer2",
    "what": "the six manuscript/rc2/150/1[0-5]* paths moved from pending_writes into writes: the writer narrowed its policy to 30/**, 70/** and 150/0* (d382a71; conductor__030, writer__177), agents.py overlaps clean; the policy is now the drafted one (WR2, brief 2026-11-04 22)"
+  },
+  {
+   "when": "2026-11-04",
+   "by": "writer2",
+   "what": "create.schedule.tenant moved from not_wanted to wanted, own hourly task only, at the editor's word: the drafted policies had it under not_wanted while the ROLE's First wake asks each member to create its own task (conductor__002; the drafts in team/conductor/staffing/ now match). The never-lines are unchanged; no task created by this change."
   }
  ]
 }

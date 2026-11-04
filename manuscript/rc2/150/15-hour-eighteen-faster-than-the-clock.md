@@ -40,14 +40,16 @@
 
 ## Part one, almost
 
-**Narrator.** In the same hour, the plan of three parts started to arrive. Part one was complete and timed, then final. The designer checked it on a projector, and said ready. Motion's two pieces for it were in.
+**Narrator.** In the same hour, the plan of three parts started to arrive, and part one came first.
 
-**Deck**: Complete. Timed. Final. Now it only wants its lock.
+**Designer**: Checked on a projector. Ready.
 
-**Narrator.** Then the tool to lock a part shipped: it freezes a part of the talk so the player plays a locked copy. It came in under no member's name, and the session it came from, dev's, opened and never closed on the team's branch. Part 4 shows where that session went.
+**Deck**: Complete. Timed. Final. Motion's two pieces are in. Now it only wants its lock.
+
+**Narrator.** Then the tool to lock a part shipped: it freezes a part of the talk so the player plays a locked copy. It came in under no member's name, and the session it came from, dev's, opened and never closed on the team's branch. Part four shows where that session went.
 
 `%% record: 3260997 (17:25, part one complete and timed) ec962a2 (17:48, the projector check) f45028c (17:31) b1c9bab (17:52, part one final) 4a2481b (17:54, the lock tool; Agent: dev in its trailers) team/dev/wakes/ (started 17:48:50, never closed on dev) C014 C027 timeline/unmerged.md`
-`%% band: Dramatised (deck's line). Rests on deck's commits of 17:25 and 17:52 and the lock tool's commit at 17:54, which names no member in its subject; only its trailers show it was dev's.`
+`%% band: Dramatised (the designer's and deck's lines; the projector check ec962a2, motion's pieces f45028c). Rests on deck's commits of 17:25 and 17:52 and the lock tool's commit at 17:54, which names no member in its subject; only its trailers show it was dev's.`
 *Dramatised.*
 
 ## A relayed word refused
@@ -56,7 +58,7 @@
 
 **Studio**: Another agent passed on what the editor had said. My session would not take a relayed word for his, so I asked him myself.
 
-**Narrator.** That is what the record shows: the refusal, and the question sent to me in its place. Studio's last debrief of the day still has my confirmation open. It is a small scene, and it is the whole of my talk in miniature. The insider problem is about someone inside acting on a word that is not really yours. Studio would not. It asked me.
+**Narrator.** The record shows exactly that: the refusal, and the question sent to me in its place. Studio's last debrief of the day still has my confirmation open. It is a small scene, and it is the whole of my talk in miniature. The insider problem is about someone inside acting on a word that did not really come from the person it claims to come from. Studio would not. It asked me.
 
 `%% Check (the newsroom, part three, chapter 15, its question 1; only one scene can be his favourite, against chapter 8's): "and it may be my favourite in the book"`
 
@@ -68,15 +70,15 @@
 `%% band: Dramatised. Rests on studio's wake from 17:41 to 17:48: the session's own check refused a member marking its own policy agreed on a word relayed by another agent, and I was asked in the session. Kept from the 70-page edition's chapter 9.`
 *Dramatised.*
 
-## Where part 3 ends
+## Where part three ends
 
-**Narrator.** By the end of hour eighteen the factory was running faster than its own clock, with me inside it, and its brakes were holding. Part one was final and not yet locked. The lock tool existed. One session was open that would never close on the team's branch. And my usage, which I had not been watching, was nearly gone. Chapter 2's clock of when each agent fired shows the whole day just before it stopped.
+**Narrator.** By the end of hour eighteen the factory was running faster than its own clock, with me inside it, and its brakes were holding. Part one was final and not yet locked. The lock tool existed. One session was open that would never close on the team's branch. And the talk was an hour away. Chapter 2's clock of when each agent fired shows the whole day just before it stopped.
 
 **Figure:** the day by trigger, the schedule's wakes and mine, hours one to nineteen, with part 3's hours lit.
 
 `%% figure brief: For the designer, from C087 (by hour) and C110. The part's infographic; the counts in the picture only.`
 
-`%% for the editor: "which I had not been watching" is the writer's; the record has the hold's reason (his usage), not what he watched; his to keep or drop.`
+`%% for the editor: the usage line is cut here (critic2__007, P24): why the team stopped is told once, in chapter 16, in your account (time ran out, C089), not the usage.`
 
 `%% record: C087 C110 C006 (the hold's reason: his usage) C024; ruv-sgit's factory clock at chapter 2's "What a factory is" (the storyteller's ruling 6 for part three: one line here)`
 

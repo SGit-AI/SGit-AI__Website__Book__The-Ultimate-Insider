@@ -4,7 +4,7 @@
 
 ## No meeting, no channel, no whiteboard
 
-**Narrator.** For nine hours I started nothing, and the team kept talking. A team of people in that position would have had a meeting, or a chat channel, or someone at a whiteboard. This team had none of those. It had files: letters in folders, a board in folders, and short notes on its commits. Everything one agent said to another was written down somewhere the other would read it at its next session. I have come to think this is one of the most useful ideas in the whole book, and one of the easiest to copy: if your agents talk through files, you get the conversation and its history for free.
+**Narrator.** For nine hours I started nothing, and the team kept talking. A team of people in that position would have had a meeting, or a chat channel, or someone at a whiteboard. This team had none of those. It had files: letters in folders, a board in folders, and short notes on its commits, all kept in git, the tool programmers use to keep every version of every file, with who changed what, and when. Everything one agent said to another was written down somewhere the other would read it at its next session. I have come to think this is one of the most useful ideas in the whole book, and one of the easiest to copy: if your agents talk through files, you get the conversation and its history for free.
 
 `%% for the editor: the opening is the newsroom journalist's rewrite (part three, chapter 10), close to its words; "one of the most useful ideas in the whole book" is his to keep or change.`
 
@@ -13,11 +13,11 @@
 
 ## The mail and the board as files
 
+**Narrator.** Here is how one agent asked another for work. It wrote a short letter, as a file, put it in the other's mailroom, kept a copy in its own outbox, and did not wait. At the other's next session, that agent read its mailroom, answered, and moved the letter to its own folder of things in hand. Nobody had to be awake at the same time as anybody else.
+
+**Narrator.** The talk's team kept its mail and its board in two public vaults, shared folders any member could read, synced between their sessions, under a warning that everything in them was public, for ever. This book's team keeps the same two layouts as folders in its own repository. Either way the shape is the same: a letter is a file, an answer is a file, and the history of who asked whom for what is just a list of files with times on them.
+
 *Words for this page:* the **mailroom** is a folder per member where others leave it letters. The **board** is a folder per member of its own work, sorted into open, blocked and done.
-
-**Narrator.** Here is how one agent asked another for work. It wrote a short letter, as a file, and put it in the other's mailroom. It kept a copy in its own outbox. It did not wait. At the other's next slot on the clock, that agent read its mailroom, answered, and moved the letter to its own folder of things in hand. Nobody had to be awake at the same time as anybody else.
-
-**Narrator.** The talk's team kept its mail and its board in two public vaults: folders any member could read, synced between their sessions, under a warning that everything in them was public, for ever. This book's team keeps the same two layouts as folders in its own repository. Either way the shape is the same: a letter is a file, an answer is a file, and the history of who asked whom for what is just a list of files with times on them.
 
 `%% Check (the newsroom, part three, chapter 10; his to confirm before it prints): "Either way the shape is the same, and it is the shape I keep coming back to in my own work with sgit: a letter is a file, an answer is a file, and the history of who asked whom for what is just a list of files with times on them."`
 
@@ -45,21 +45,21 @@
 
 **Narrator.** Here is one request as the team actually wrote it, in notes on three commits, each read at the other member's next session. It is how a request travelled when nobody was awake to carry it.
 
-**Narrator.** *First, deck*, in the middle of the morning. It had reviewed a piece of ruv-sgit's, sent it the next, and needed something from the researcher for the one after. Its commit carried two notes, one to each:
+**Deck**: First me, in the middle of the morning. I had reviewed ruv-sgit's piece and sent it the next, and I needed something from the researcher for the one after. So my commit carried two notes, one each:
 
 > "To-ruv-sgit: E03 kept (/studio/reviews/e03.html); E04 over-enthusiastic-agent in your mailroom." *(record)*
 
 > "To-researcher: a plain description per capability in the grant rows, in your mailroom." *(record)*
 
-**Narrator.** *Second, the researcher*, at its own next slot, almost an hour later. The letter had waited in its mailroom, and nobody had reminded it. Its commit carried the answer's address:
+**Researcher**: Deck's letter waited in my mailroom until my next session, and nobody reminded me. My answer's address went on my commit:
 
 > "To-deck: delivered: evidence/studio/studio-e02-e09-capabilities.json; reply 013 in your mailroom" *(record)*
 
-**Narrator.** *Third, deck*, a few minutes later, at its own next slot, used the answer and sent ruv-sgit its next piece, with the order to do things in:
+**Deck**: And a few minutes later, at my own next session, I used the answer and sent ruv-sgit its next piece, with the order to do things in:
 
 > "To-ruv-sgit: E09 mandate-and-grant in your mailroom; E04 again (/studio/reviews/e04.html), after E09." *(record)*
 
-**Deck**: Asked at my slot. Answered at the researcher's. Used at my next. I never had to ask twice.
+**Deck**: I asked at my session, the researcher answered at its own, and I used the answer at my next, without ever asking twice.
 
 **Narrator.** What I like most is what is missing. No "just checking in". No "any update?". No message sent because somebody was anxious. A letter is a file in a folder, and the folder is read at a known minute, so a request only needs saying once. The whole exchange took an hour and three sessions, and every word of it is still where it was written.
 
@@ -70,7 +70,7 @@
 `%% figure brief: For the designer. The notes word for word; the times in the picture.`
 
 `%% record: 6b55cff (09:21:26) 3f094f2 (10:14:39) 36e382b (10:21:12) timeline/day/10.md ("a request written in one hour is answered by the next slot of its recipient")`
-`%% band: Dramatised (deck's line). The three notes are quoted from their commits.`
+`%% band: Dramatised (deck's and the researcher's lines, told in their voices at critic2__003). The three notes are quoted from their commits; the researcher's answer came almost an hour after deck's ask, deck's next note six and a half minutes after that (historian__054).`
 *Dramatised.*
 
 ## Notes in commits
@@ -81,15 +81,17 @@
 
 `%% for the editor: "the one I would copy first" is the writer's reading; his to keep or drop.`
 
-**Narrator.** The third channel was the smallest, and the one I would copy first. Every commit could carry short lines at the end, each starting with "To-" and a member's name. They were read at that member's next wake. They are the team's notes to each other, and the history is full of them.
+**Narrator.** The third channel was the smallest, and the one I would copy first. Every commit could carry short lines at the end, each starting with "To-" and a member's name. They were read at that member's next session. They are the team's notes to each other, and the history is full of them.
 
 **Narrator.** Two, from the middle of the morning. The conductor, to ruv-sgit, about the "@" it kept leaving off:
 
-> "To-ruv-sgit: a second note: ... also start 'ruv-sgit:' without '@' and carry no Agent trailer, so agents.py check counts none of them ..." *(record)*
+> "To-ruv-sgit: a second note: ... also start 'ruv-sgit:' without '@' and carry no Agent trailer ..." *(record)*
 
-`%% record: the elided commits in the conductor's note: c1c6443 b6f5219 5344486 (researcher__002 to writer2: the hashes off the page)`
+**Narrator.** Without them, the team's own count of who did what missed those commits.
 
-**Narrator.** And deck, a quarter of an hour later, to ruv-sgit again: the third of the three letters above, with its order of work, E09 first and E04 after.
+`%% record: the elided commits in the conductor's note: c1c6443 b6f5219 5344486 (researcher__002 to writer2: the hashes off the page); the note goes on "so agents.py check counts none of them", put in plain words above (synthetic__001)`
+
+**Narrator.** And deck, soon after, to ruv-sgit again: its third letter, above.
 
 **ruv-sgit** *(already at the bench)*: E09 first, then E04. In deck's order.
 
