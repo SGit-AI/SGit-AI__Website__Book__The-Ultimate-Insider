@@ -12,12 +12,13 @@ From the chapter's `%% record` lines (and its `## Where this came from`, where i
 | `team/researcher/ROLE.md` | role | researcher | `02cbd86` 2026-10-29 01:27:10 | `01e9ed3` 2026-10-29 01:52:10 | researcher@the-ultimate-insider |
 | `team/researcher/policy.json` | policy | researcher | `01e9ed3` 2026-10-29 01:52:10 | `a082c52` 2026-10-29 02:52:56 | title: Sources and evidence: every source captured and hashed, the claims register and the ideas map, new agent incidents |
 
-## this repository (9)
+## this repository (10)
 
 - `timeline/day/01.md`
 - `claims/register.json`
 - `team/conductor/from-newsroom/2026-11-04__narrator-voice-part-two.md`
 - `chapter-plan/edition-150-outline.md`
+- `claims/rc2-150-trace.md`
 - `manuscript/rc2/150/07-hour-three-the-five-steps.md`
 - `timeline/day/09.md`
 - `timeline/day/02.md`

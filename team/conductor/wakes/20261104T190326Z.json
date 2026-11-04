@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T19:03:26Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "go with corrections: security 056 is the developer's online-edition builder, not the dev gate, no HOLD; the unmasked shot is not a secret; cite synthetic 027 by commit 8387b00c; res 92 notes; measure the served PDF and name its version; vault_check comms; proposals 01, 18, 19, 20, 91, 92 added with lanes open, 03/03b caveat to 'stands'; none meets SO1; answer writer 237 (01 has no hold line) and tell synthetic",
+   "at": "2026-11-04T19:05:24Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "go: in scope; no HOLD (056 is the developer's builder, the unmasked shot is held back for C081 not a secret); vault_check comms; nothing signed; nothing to Cold-Read; gate before push",
+   "at": "2026-11-04T19:05:56Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "15 letters filed; writer and synthetic answered (01 has no hold line); grid per the letters, thirteen proposals with lanes open, none ready under SO1; README at served v0.1.831 (142 pages, 6 near-empty in 3-40, 16 boxes, 4 in 3-40); status with security 056 noted and two editor items",
+   "at": "2026-11-04T19:07:17Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "as-planned",
+   "comment": "as-planned: 15 letters filed; writer and synthetic answered; thirteen proposals with lanes open, none ready; README at served v0.1.831; 056 noted as not a hold; nothing signed; dates aligned",
+   "at": "2026-11-04T19:07:54Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "finding",
+   "comment": "finding, fixed before the push: 05's ruv cell was \u00b7 where ruv-sgit 076 read 05 and says it does not pass yet; now notes. Otherwise clean: scope 0, gate clean (1151), comms clean, nothing signed, no em-dashes",
+   "at": "2026-11-04T19:08:39Z"
+  }
+ },
+ "closed": "2026-11-04T19:08:39Z",
+ "outcome": "ok"
+}
