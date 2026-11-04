@@ -17,3 +17,12 @@ Read straight from the researcher's table, `claims/talk-commits-by-member-hour.m
 ## Questions for the editor
 
 Does the chart tell the day's story at a glance on paper? Is the night's rush or the afternoon the thing a reader sees first?
+
+## The edition copy, 4 November 2026
+
+For the full book's chapter 03b, where heatmap.svg is placed ("the same day by member"), `tools/build.py` now:
+- gives the drawing a width and height in millimetres;
+- brings the "night" label inside the frame;
+- prints a three-line key under the grid for the rows that are not agents (releases, no @member, all and total) and for night as a clock range. The wording is true to C095's method.
+
+The counts are unchanged and `pages.html` comes out byte for byte the same. `page.pdf` and `page.html` are still the 31 October print, from before these changes.
