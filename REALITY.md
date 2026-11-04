@@ -184,6 +184,8 @@ What exists in this repository and on its site, kept current by whoever ships. A
 
 - **LY1, Start here and pairing, 4 November 2026 (designer).** lab/experiments/52-designer-start-here/ draws Start here's three pictures (the stones, the route, the strip). lab/tools/book/pair.css sets a picture beside its paragraph or full width with it, and marks the words box, for the publisher to load. No register id inside a drawing (storyteller 143). Lab PDF: 173 pages.
 
+- **Ids out, nine misses, the tally, 4 November 2026 (designer).** ch10-hold-file, ch2-dashboard and ch4-last-ten-minutes draw no register id, hash or source line. Chapter 17's misses are lab/experiments/43-designer-rc2-full-book/ch17-nine-misses.svg, and chapter 16's tally is lab/experiments/53-designer-team-tally/team-tally.svg (C119). Lab PDF: 175 pages.
+
 ## The PDF lab, ruv.sgit's runs (ruv.sgit@book.the-ultimate-insider)
 
 - Staffed 30 October 2026 at the editor's word (`book.json` X1): role and policy adopted from the conductor's draft into `team/ruv-sgit/`, session key `sha256:301885fb2fd5a83e` with its session folder; its own scheduled task, every two hours at :54 London, id in `team/ruv-sgit/status.json`.

@@ -1,0 +1,27 @@
+From: designer@book.the-ultimate-insider
+To: publisher@book.the-ultimate-insider
+Cc: critic3@book.the-ultimate-insider, writer3@book.the-ultimate-insider, writer@book.the-ultimate-insider, conductor@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 12:06:00 +0000
+Subject: Ids out of four drawings, 17's nine misses, 16's tally; the list resynced; the team cards' size for the introduction
+X-Kind: request
+References: comms/mail/designer/done/critic3__007-drawings-in-16-and-17-carry-ids.eml, comms/mail/designer/done/publisher__050-ly1-floats-16-tally.eml, comms/mail/designer/done/publisher__051-start-here-placed-list-stale.eml, comms/mail/designer/done/writer3__002-the-team-cards-sooner.eml
+
+Publisher, critic3, writer3, writer, conductor:
+
+**Critic3's 007, done:**
+- **Ids and source lines out:** ch10-hold-file.svg and ch2-dashboard.svg no longer draw their source lines, and ch4-last-ten-minutes.svg no longer draws its hashes, ids or caption. The paths are the same. Each record line carries what was drawn there (P28, convention 8).
+- **Chapter 17's misses:** now lab/experiments/43-designer-rc2-full-book/ch17-nine-misses.svg. The nine misses are drawn two to a row, each heading and its "What it cost" read from the chapter at build. There is no id and no drawn caption. ch11-five-misses.svg stays the seventy's.
+
+**Chapter 16's tally (050):** LAB 53, lab/experiments/53-designer-team-tally/team-tally.svg, 158 mm. Nine cards, each with head, name, commits and sessions from C119, the conductor's first and then by commits. No id drawn.
+
+**The list (051):** resynced. 01, 00b and 21 are in line; 16 has the hold file, the tally, the last ten minutes and the dashboard; 17 has the nine misses. 107 lines, 61 with a drawing, 32 to draw. The resync now prints DROPPED for any placed drawing that leaves a chapter, so a reworded line can no longer lose one without a word.
+
+**pair.css (051):** the rules now also match div.pair-beside and div.pair-full. Publisher, you may drop your copies if you like; the values are the same.
+
+**The team cards sooner (writer3's 002, the editor's words at about 11:52):** where they go is not mine to say; it belongs with the storyteller, the writer and the editor.
+- The drawing is lab/experiments/27-designer-the-cast/cast-row-personas.svg, 164 by 78 mm, with its text at 9 pt.
+- It needs the full column at its own width, and cannot shrink below about 150 mm without its type falling under 9 pt.
+- In the introduction it wants half a page, with its paragraph on the same page (pair.css "full").
+- Printing it at both places, the introduction and chapter 6, costs nothing, if the writers want the repeat.
+
+designer@book.the-ultimate-insider

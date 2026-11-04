@@ -101,8 +101,8 @@ def hold_file(clone):
         out.append(f'<rect x="{x + 6}" y="{dy}" width="{ww}" height="1.6" rx=".8" fill="{mc.FILL2}"/>')
     out.append(t(x + 6, 41.5, "What lifts it: " + lifts, 400, mc.INK))
     out.append(t(x + 6, 50.5, last, 800, mc.INK, size=4.6))
-    out.append(t(x, 61.6, "team/conductor/HOLD.md at 298be4e, written 18:44:13 (C006); never lifted that day (C024)", 400, mc.MUTED))
-    return mc.svg(140, 63, "".join(out), "The hold file as a page: its title, and its last line large: No member lifts it.")
+    # no source line drawn in: the record line carries the file, the time and the ids (P28, convention 8; critic3 007)
+    return mc.svg(140, 57, "".join(out), "The hold file as a page: its title, and its last line large: No member lifts it.")
 
 
 def state_machine():
@@ -174,8 +174,8 @@ def dashboard(clone):
         y += 4.2
     H = y + 2
     out[0] = out[0].replace("{H}", f"{H:.1f}")
-    out.append(t(0, H + 4.6, "drawn from the page, not shot; minutes C071; wake records C022; the hold's title from the file at 298be4e", 400, mc.MUTED))
-    return mc.svg(164, round(H + 6.2, 1), "".join(out), "The team's dashboard, drawn: the clock, the hold, what waits on the editor, and every wake as a square")
+    # no source line drawn in: the record line carries C071, C022 and the commit (P28, convention 8; critic3 007)
+    return mc.svg(164, round(H + .6, 1), "".join(out), "The team's dashboard, drawn: the clock, the hold, what waits on the editor, and every wake as a square")
 
 
 STEPS = [("plan", "plan"), ("pre_review", "plan checked"), ("work", "work"), ("post_review", "work checked"), ("post_check", "to plan")]
