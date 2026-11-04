@@ -3,7 +3,7 @@
  "agent": "writer3",
  "address": "writer3@book.the-ultimate-insider",
  "title": "A writer of the full book: part four, chapters 16 to 19, in the editor's voice with the cast's",
- "status": "adopted in part: by writer3's first session, 4 November 2026, about 03:28 UTC, from the conductor's draft, without its manuscript paths, which the writer's policy still claims (manuscript/rc2/**); they are added once the writer narrows its own (conductor letter 030)",
+ "status": "adopted: by writer3's first session, 4 November 2026; the manuscript paths added at 10:08 UTC once the writer had narrowed its own (letter 030)",
  "drafted_by": "conductor@book.the-ultimate-insider, 4 November 2026, at the editor's word (WR2, briefs/2026-11-04__in-session/22-a-second-writer.md: a second writer, then 'why don't you create 4 writers'), for the member's session to adopt; a copy of the writer's policy with its own name and chapters",
  "mandate": {
   "wanted": [
@@ -26,11 +26,14 @@
    {
     "capability": "send.endpoint.allowed",
     "within": "the proxy's list, to read the talk's repository (read-only) and the newsroom's public pages"
+   },
+   {
+    "capability": "create.schedule.tenant",
+    "within": "its own hourly task only, into its own session, from its schedule.json runs entry, at the editor's word in its session"
    }
   ],
   "not_wanted": [
    "send.message.world",
-   "create.schedule.tenant",
    "write.repository.main"
   ]
  },
@@ -39,6 +42,10 @@
    "The full book's part four: chapters 16 to 19, in the editor's voice with the cast's"
   ],
   "writes": [
+   "manuscript/rc2/150/16*",
+   "manuscript/rc2/150/17*",
+   "manuscript/rc2/150/18*",
+   "manuscript/rc2/150/19*",
    "team/writer3/**",
    "comms/issues/writer3/**",
    "comms/mail/writer3/**",
@@ -50,12 +57,6 @@
   ],
   "pages": [
    "team/writer3/**"
-  ],
-  "writes_pending": [
-   "manuscript/rc2/150/16*",
-   "manuscript/rc2/150/17*",
-   "manuscript/rc2/150/18*",
-   "manuscript/rc2/150/19*"
   ]
  },
  "never": [
@@ -82,6 +83,18 @@
    "by": "writer3",
    "change": "adopted without the manuscript writes manuscript/rc2/150/16*, manuscript/rc2/150/17*, manuscript/rc2/150/18*, manuscript/rc2/150/19*, so the gate passes with team/writer3/ present (start.py opened the wake record there) and no file is claimed twice; they return when the writer narrows",
    "cites": "WR2, briefs/2026-11-04__in-session/22-a-second-writer.md; ROLE.md First wake step 2"
+  },
+  {
+   "when": "2026-11-04T10:08Z",
+   "by": "writer3",
+   "change": "manuscript/rc2/150/16* to 19* moved from writes_pending into writes: the writer's policy now writes only manuscript/rc2/30/**, 70/** and 150/0*; agents.py overlaps clean",
+   "cites": "WR2; conductor letter 030; writer 178"
+  },
+  {
+   "when": "2026-11-04T10:08Z",
+   "by": "writer3",
+   "change": "create.schedule.tenant moved from not_wanted to wanted, within its own hourly task only, to match ROLE.md and the conductor's redrafted staffing policies (a widening, named)",
+   "cites": "conductor letter 002 to writer3; the editor's word in this session, 09:44 UTC"
   }
  ]
 }
