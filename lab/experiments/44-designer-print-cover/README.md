@@ -1,6 +1,6 @@
 # LAB 44: the covers for upload
 
-    python3 lab/experiments/44-designer-print-cover/make_print_cover.py [--pages 132] [--paper white]
+    python3 lab/experiments/44-designer-print-cover/make_print_cover.py [--pages 142] [--paper white]
 
 - `kdp-full-cover-<pages>-<paper>.pdf`: KDP's full cover, back, spine and front with 0.125 in bleed, at the exact size
   `publishing/cover_size.py` gives (its page box set exactly; Chromium alone rounds it). The file to upload.

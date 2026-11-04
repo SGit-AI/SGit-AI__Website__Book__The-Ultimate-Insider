@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """LAB 44: the covers for upload (the conductor's 059, the editor's brief 2026-11-04 09).
 
-    python3 lab/experiments/44-designer-print-cover/make_print_cover.py [--pages 132] [--paper white]
+    python3 lab/experiments/44-designer-print-cover/make_print_cover.py [--pages 142] [--paper white]
 
 KDP's full cover: back, spine and front as one PDF with 0.125 in bleed on every outside edge, its size worked out from
 the page count with the publisher's own rule (publishing/cover_size.py, read only: KDP's spine per page, the bleed, spine
@@ -13,7 +13,7 @@ the foot) empty: KDP prints its own white box there. No price, no contact detail
 
 Leanpub's cover: one 1800 x 2700 px image (2:3), cover A drawn taller (cover_signed(height)), nothing else changed.
 
-The page count is today's (publishing/SETUP-SHEET.md: 132 printed pages at 4 November, 01:10 UTC; not final). At the
+The page count is today's (publishing/SETUP-SHEET.md: 141 interior pages, 142 printed, at 4 November, about 02:50 UTC; not final). At the
 final count, run it again with --pages: only the spine's width and the cover's width move.
 """
 import argparse, re, sys, textwrap
@@ -206,7 +206,7 @@ def exact_box(pdf, w_in, h_in):
 
 def main():
     a = argparse.ArgumentParser(description=__doc__.splitlines()[0])
-    a.add_argument("--pages", type=int, default=132)
+    a.add_argument("--pages", type=int, default=142)
     a.add_argument("--paper", choices=sorted(cover_size.PER_PAGE), default="white")
     o = a.parse_args()
     svg, pages, sw, TW, TH, size = full_cover(o.pages, o.paper)

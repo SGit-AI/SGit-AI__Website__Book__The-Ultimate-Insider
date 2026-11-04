@@ -1,0 +1,26 @@
+/* The "Try this" card (conductor 060, the storyteller's 118 and the cast guide's page conventions, item 1), by the
+   designer, 4 November 2026: one card per chapter, the same design in all of them. The publisher places it (its 072).
+   A sibling of the words box and the callouts: the lab look's tokens (publishing/lab-look.css), sans, 9.5 pt; told apart
+   by the accent band at its head, the label with its small mark, and three labelled lines. No checklist on it.
+
+   Markup the build gives it (from the chapter's "## Try this" section; one paragraph per part, in this order):
+     <aside class="try-this">
+       <p class="tt-label">Try this</p>
+       <p class="tt-idea"><span>The idea</span> the chapter's one idea, in a line</p>
+       <p class="tt-try"><span>What I would try first</span> his invitation, in his voice</p>
+       <p class="tt-gives"><span>What it gives you</span> one line</p>
+     </aside>
+*/
+.try-this { background: #fff; border: .6pt solid var(--fill-2, #d5dce4); border-top: 3pt solid var(--accent, #b0481a);
+  border-radius: 2pt; padding: 6pt 10pt 7pt; margin: 12pt 0 10pt; break-inside: avoid; page-break-inside: avoid; }
+.try-this p { font-family: var(--sans, Inter, Helvetica, Arial, sans-serif); font-size: 9.5pt; line-height: 1.38; margin: 0 0 4pt; }
+.try-this p:last-child { margin-bottom: 0; }
+.try-this .tt-label { font-weight: 800; font-size: 9pt; letter-spacing: .14em; text-transform: uppercase;
+  color: var(--accent, #b0481a); margin-bottom: 5pt; padding-left: 15pt; position: relative; }
+/* the mark: an arrow stepping out of a box, "your turn", drawn inline, accent ink */
+.try-this .tt-label::before { content: ""; position: absolute; left: 0; top: 50%; width: 11pt; height: 11pt; margin-top: -5.5pt;
+  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'><rect x='.6' y='3' width='7.4' height='8.4' rx='1' fill='none' stroke='%23b0481a' stroke-width='1.2'/><path d='M4.6 7.4 L10.6 1.4 M7 1.4 H10.6 V5' fill='none' stroke='%23b0481a' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'/></svg>") no-repeat center / contain; }
+.try-this p span { display: block; font-weight: 700; font-size: 9pt; color: var(--muted, #5b6670); margin-bottom: .5pt; }
+.try-this .tt-idea { font-weight: 700; font-size: 10.5pt; color: var(--ink, #1f2933); }
+.try-this .tt-idea span { font-size: 9pt; }
+.try-this .tt-gives { border-top: .5pt solid var(--fill-2, #d5dce4); padding-top: 4pt; }

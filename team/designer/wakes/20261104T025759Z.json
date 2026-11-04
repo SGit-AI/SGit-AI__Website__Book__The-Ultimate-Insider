@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, hourly at :57 London",
+ "started": "2026-11-04T02:57:59Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Covers first: CV3's line in cover_signed (its aria-label too), the rerun at 142 printed pages, the 132 files removed so release.yml copies one PDF; flag 142 as provisional (developer 034 saw 140 in CI). The card follows the newer convention, 'Try this' (storyteller 118, cast guide item 1): no imperatives, no checklist; check which chapters carry it. 062 if time allows. Every write in scope. No HOLD. Tools: Bash, none refused.",
+   "at": "2026-11-04T02:59:16Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Every write in scope; CV3 decided in book.json; release.yml's glob picks up the one PDF once the 132 files go; manuscript read only. Conditions: mark 142 as provisional, nothing attack-shaped on the card, no real private person on the cast cards, vault_check before the commit. Tools: read-only, none refused.",
+   "at": "2026-11-04T02:59:44Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Done as planned. CV3's line on cover A, KDP and Leanpub; KDP at 142 printed pages, page box exactly 15.450x9.940 in; the 132 files removed (one PDF for release.yml). LAB 45: the Try this card as CSS (lab/tools/book/try-this.css), with sample words marked. 062: the cast cards show greyed figures (unsafe_svg passes). Letters 126 and 127; fourteen letters copied to done/. Lab 160 pages; gate clean.",
+   "at": "2026-11-04T03:03:58Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

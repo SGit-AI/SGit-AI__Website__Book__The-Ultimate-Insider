@@ -139,7 +139,7 @@ def cover_signed(height=H):
     """The book's official cover (the editor, 3 November 2026, about 00:40 UTC: "great, can you make this the official
     cover design"), after two rounds on CV1 A in his chat: GEN ZX FOUNDERS small on the left margin with the ZX larger;
     the signed title (NS1) and subtitle; six cast cards, each with its temperament abridged from the cast guide
-    (every piece checked here); RC2, November 2026 and the text's licence (CC BY 4.0, Q5); the four stripes drawn from his description."""
+    (every piece checked here); RC2, NOV 2026 (the editor, CV3, 4 November) and the text's licence (CC BY 4.0, Q5); the four stripes drawn from his description."""
     guide = (Path(__file__).resolve().parents[2].parent / "chapter-plan" / "cast" / "cast-guide.md").read_text()
     low = guide.lower()
     for m, a, b in COVER_SIX:  # abridged from the member's temperament: every piece must be in the guide's words
@@ -176,9 +176,9 @@ def cover_signed(height=H):
     b += [f'<path d="M{W - 46 + i * 7} {Hc} L{W - 40.5 + i * 7} {Hc} L{W} {Hc - (40.5 - i * 7)} L{W} {Hc - (46 - i * 7)} z" fill="{c}"/>'
           for i, c in enumerate(SPECTRUM)]
     b += [tt(14, Hc - 15, "DINIS CRUZ", 8, 700, spacing=2.2),
-          tt(14, Hc - 8, "RC2  \u00b7  NOVEMBER 2026  \u00b7  CC BY 4.0", 4.4, 500, MUTED_D, spacing=1)]
+          tt(14, Hc - 8, "RC2  \u00b7  NOV 2026  \u00b7  CC BY 4.0", 4.4, 500, MUTED_D, spacing=1)]
     return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}mm" height="{Hc:g}mm" viewBox="0 0 {W} {Hc:g}" role="img" '
-            f'aria-label="Cover: Gen ZX Founders. One Human, Nine Agents, Nineteen Hours. How a factory of AI agents built a presentation in a day, and how to build yours. Six of the cast: dev, conductor, deck, ruv-sgit, researcher, designer. Dinis Cruz. RC2, November 2026, CC BY 4.0.">'
+            f'aria-label="Cover: Gen ZX Founders. One Human, Nine Agents, Nineteen Hours. How a factory of AI agents built a presentation in a day, and how to build yours. Six of the cast: dev, conductor, deck, ruv-sgit, researcher, designer. Dinis Cruz. RC2, Nov 2026, CC BY 4.0.">'
             f'<rect width="{W}" height="{Hc:g}" fill="{GROUND}"/>' + "".join(b) + "</svg>\n")
 
 
