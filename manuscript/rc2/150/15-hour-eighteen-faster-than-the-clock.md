@@ -8,7 +8,7 @@
 
 ## Faster than the schedule
 
-**Narrator.** By five o'clock the schedule had carried the team all day, and the talk had just doubled to ninety minutes. In hour eighteen I outran it.
+**Narrator.** By five o'clock the schedule had carried the team all day, and the talk had just more than doubled, to ninety minutes. In hour eighteen I outran it.
 
 `%% for the editor: the hour's opening line, kept as the newsroom advised; it is the chapter's line for the hour (the storyteller's convention 4), inside "the acceleration" of hours fourteen to eighteen.`
 
@@ -59,7 +59,7 @@
 
 **Studio**: Another agent passed on what the editor had said. My session would not take a relayed word for his, so I asked him myself.
 
-**Narrator.** Studio's last debrief of the day still has my confirmation open. It is a small scene.
+**Narrator.** Studio's last debrief of the day still has my confirmation open.
 
 `%% Check (the newsroom, part three, chapter 15, its question 1; only one scene can be his favourite, against chapter 8's): "and it may be my favourite in the book"`
 
