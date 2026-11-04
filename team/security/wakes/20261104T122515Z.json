@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "93 confirmed as ruled; hold figure left to conductor and writer; 12 to 23, 90 to 93 and changed drawings clear; security__059 to writer4, cc conductor.",
    "at": "2026-11-04T12:27:53Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "Security's own debrief, status, wake record, board note and three copies of security__059; no key, link, QR, attack content, em-dash, religious word or Cold-Read item; validate, vault check and scope clean.",
+   "at": "2026-11-04T12:28:39Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "as-planned",
+   "comment": "Commit matches the plan: 93 confirmed, hold figure left to conductor and writer, security__059, board, debrief, status.",
+   "at": "2026-11-04T12:29:17Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T12:29:17Z",
+ "outcome": "ok"
 }
