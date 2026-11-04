@@ -12,15 +12,15 @@
 
 **Narrator.** For this talk it worked. I had been working with agentic workflows for a while, and the moment lined up. It was one of those loops I would have stopped before. This time I saw it working, and I kept going.
 
-**Narrator.** It did not come from nowhere. The talk before this one, built for ruv.sgit.ai, had come out well and given me the confidence to try. And a lot of the technology this talk ran on was first built there: the player I pressed play on, and the first pieces the team ported into this talk, came from ruv.sgit.ai. This is a continuum, not a lucky day.
+**Narrator.** The talk before this one, built for ruv.sgit.ai, had come out well and given me the confidence to try. And a lot of the technology this talk ran on was first built there: the player I pressed play on, and the first pieces the team ported into this talk, came from ruv.sgit.ai.
 
-`%% for the editor: the four paragraphs above tell his account of 4 November (brief 04) in his voice, with the continuum from the record; "It did not come from nowhere" and "This is a continuum, not a lucky day" are the writer's; his to keep or drop.`
+`%% for the editor: the four paragraphs above tell his account of 4 November (brief 04) in his voice, with the continuum from the record.`
+
+`%% for the editor (his view, held out of print until he confirms it, P30): the writer's "It did not come from nowhere." to open the paragraph, and "This is a continuum, not a lucky day." to close it.`
 
 `%% record: team/conductor/from-newsroom/2026-11-04__narrator-voice-part-one-delta-01.md (section 2, his correction of the opening line) C116 ("I usually read my talks, with the slides behind me") briefs/2026-11-04__in-session/04-introduce-the-narrator-and-chapter-1.md (his account, given after the day); index/talk-site/crawl.json (the player's debrief, "The player, ported from ruv.sgit.ai"; studio's first debrief, "the first two ports from ruv.sgit.ai"); timeline/day/01.md (ruv-sgit joining at 01:08); briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md (his voice note of 1 November on talking over the slides)`
 
-**Narrator.** It sounds small. It is not. Every minute I spend narrating an arrow is a minute the room is listening to me describe a picture instead of thinking about the idea. And the harder the idea, the more of it lives in the movement: how something spreads, where it stops, what changes when you add more of it. Those were exactly the ideas I wanted to get across.
-
-`%% for the editor: the paragraph above is the writer's reading of his view, beyond the voice note; his to keep or drop.`
+`%% for the editor (his view, held out of print until he confirms it, P30): the writer's paragraph, beyond the voice note: "It sounds small. It is not. Every minute I spend narrating an arrow is a minute the room is listening to me describe a picture instead of thinking about the idea. And the harder the idea, the more of it lives in the movement: how something spreads, where it stops, what changes when you add more of it. Those were exactly the ideas I wanted to get across."`
 
 **Figure:** "A slide versus a loop" (left half): a speaker beside a still slide with an arrow from A to B, three speech bubbles explaining the arrow.
 

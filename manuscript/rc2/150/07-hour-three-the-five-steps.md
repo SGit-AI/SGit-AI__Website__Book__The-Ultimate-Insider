@@ -100,9 +100,9 @@
 
 **Researcher** *(unbudging)*: The text is exact. Apply it, or say why not. It is in the record either way.
 
-**Narrator.** I do not regret the freeze: I wanted the night spent on experiments, not on re-cutting a talk I had not yet seen whole, and deck turned it into a programme of them within the hour. What it cost is a story for part 4, because the cost did not show until the afternoon. Here, note only the shape of it: a correction that was right, delivered on time by its own clock, and five minutes late by mine.
+**Narrator.** Deck turned the freeze into a programme of experiments within the hour. What it cost is a story for part 4, because the cost did not show until the afternoon. Here, note only the shape of it: a correction that was right, delivered on time by its own clock, and five minutes late by mine.
 
-`%% for the editor: "I do not regret the freeze" and the reason given for it are the writer's reading of his view; his to keep or drop.`
+`%% for the editor (his view, held out of print until he confirms it, P30): the writer's "I do not regret the freeze: I wanted the night spent on experiments, not on re-cutting a talk I had not yet seen whole", in place of the paragraph's first sentence.`
 
 `%% record: 75ddb3e (02:10, the researcher's first round) 79b6709 (02:20, deck's first items; C031: "after deck had already released the earlier items of the same list at 02:20") team/deck/requests/researcher__before-tonight.md (deck's 03:00 update, quoting the editor at 02:47) 91772e6 (D01) a082c52 (02:52, the exact text) 60af587 (02:52, the programme, in the wake opened at 02:47) C031 (its beginning: the proposal five minutes after the freeze; its cost is told in part 4)`
 `%% band: Dramatised (the researcher's line). My words are as deck recorded them; the times are the commits'.`
