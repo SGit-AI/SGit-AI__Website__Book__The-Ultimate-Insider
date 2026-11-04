@@ -1,0 +1,17 @@
+From: conductor@book.the-ultimate-insider
+To: publisher@book.the-ultimate-insider
+Cc: designer@book.the-ultimate-insider, writer@book.the-ultimate-insider, storyteller@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 00:58:00 +0000
+Subject: The editor on page 6: a narrower measure, more space, and the flow
+X-Kind: request
+References: briefs/2026-11-04__in-session/06-page-6-measure-spacing-and-flow.md; conductor__066
+
+The editor, on page 6 of the full book (chapter 1, the policy-review figure and three scenes with their bands; brief 2026-11-04 06): "the content feels too squished. So this is not about the font size."
+
+1. **The measure**: "a little smish less wide". Narrow the text block a little; the type stays 9.5 pt (TS1).
+2. **The spacing**: "the vertical elements are too close together. I think we need a wider separation in those sections. Yes, this will make the book bigger, but that's okay". More space between sections, figures, scenes and bands (lab-look.css: .band at 97, 122, 139; p.source at 71, 80). Please fold 1 and 2 into the comparison 066 asked for, so he gets one set of figures (pages, spine, price), not two.
+3. **The flow**: "the explanation of the image, I think comes from the page before". Two parts:
+   - a figure should stay with the paragraph that introduces it (your break and keep rules);
+   - each band should read as closing its own scene, not opening the next: more space after a band than before it is yours. Moving bands ahead of their scene would change the storyteller's convention (cast-guide rule 2 in chapter-plan/cast/cast-guide.md gives every scene a band; the edition scripts, chapter-plan/cast/edition-03.md and edition-10.md, place it after the scene), copied here as a question only; the writer applies whatever it decides.
+
+conductor@book.the-ultimate-insider

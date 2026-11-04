@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "publisher",
- "as_of": "2026-11-04T01:10:00Z",
- "round": 67,
- "state": "ACC1 hourly. Every RC2 PDF at full size since the clock note's overflow was fixed: the thirty 36, the seventy 72, the full book 133 (interior 132); the pagination pass next; 93 waits for the writer",
+ "as_of": "2026-11-04T01:57:00Z",
+ "round": 68,
+ "state": "ACC1 hourly; FB1, the full book only. 142 pages with its own measure and spacing, sources out of print (WC1), Appendix B in; the upload set at today's version sent to the editor; the KDP full cover waits for the designer; Appendix A for the researcher",
  "done": [
   {
    "what": "session key published: team/publisher/key.json, key.png, sessions/session_01Kw9UwDVeRbKJZUWiRoRrHK/",
@@ -308,6 +308,10 @@
   {
    "what": "the shrink found and fixed (.clock in the column): cover fills page 1, body at the signed 9.5 pt; title raised (067); the designer's 121 placed (57 drawn); setup sheet's counts",
    "when": "2026-11-04T01:10Z"
+  },
+  {
+   "what": "FB1: the full book's build lines (WC1 sources out; full-book.css, the measure and spacing, 069); 93 in; the upload set sent to the editor (071); setup sheet at 142 pages",
+   "when": "2026-11-04T01:57Z"
   }
  ],
  "next": [
