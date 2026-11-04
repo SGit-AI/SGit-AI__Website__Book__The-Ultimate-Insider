@@ -1,0 +1,29 @@
+{
+ "schema": "the-ultimate-insider/synthetic-section-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "newsroom-builder", "read_at": "2d460f26",
+ "would_read_on": {"03b-the-day-at-a-glance": "maybe", "03-the-tour": "yes", "94-the-making-of-this-book": "maybe"},
+ "findings": [
+  {"file": "03b-the-day-at-a-glance.md", "line": 3, "quote": "so you can see how far into it each chapter is", "principle": "reader", "severity": "should", "why": "Chapters are promised before any chapter has been named, so the sentence points at structure the reader cannot yet use."},
+  {"file": "03b-the-day-at-a-glance.md", "line": 5, "quote": "The setup, hours one to five: the empty project", "principle": "1", "severity": "should", "why": "The four phases are listed like a report of the record, with no 'I' and no hindsight on what each phase felt like or why it matters."},
+  {"file": "03b-the-day-at-a-glance.md", "line": 5, "quote": "the team alone, steady, every wake started by the clock", "principle": "reader", "severity": "should", "why": "'Wake' is used here before it is explained, and the explanation only arrives in the tour's Stop 2."},
+  {"file": "03b-the-day-at-a-glance.md", "line": 7, "quote": "nineteen hours in a row, grouped into the setup", "principle": "21", "severity": "could", "why": "The figure line repeats the four phases and hour count that the paragraph above has just given."},
+  {"file": "03-the-tour.md", "line": 5, "quote": "Four stops. At each, one picture, a few lines from me, and one line from the agent", "principle": "7", "severity": "could", "why": "Run of short sentences announcing the format; one longer sentence would carry it."},
+  {"file": "03-the-tour.md", "line": 21, "quote": "The deck is a website. Every one of its 58 beats is a page that moves", "principle": "7", "severity": "could", "why": "Short declaratives in a row; also 58 beats is stated with no hint of where a reader could check it."},
+  {"file": "03-the-tour.md", "line": 35, "quote": "built from the members' status files and wake records, not typed by anyone", "principle": "21", "severity": "could", "why": "The Conductor's line two lines later says the same thing (the page shows what the files say), so the point is told twice."},
+  {"file": "03-the-tour.md", "line": 41, "quote": "a **wake** is one turn of work by one agent", "principle": "reader", "severity": "should", "why": "Key terms are defined after Stop 2 has already used wake, conductor and hold, and Stop 1 and 'five steps' at line 53 are never explained."},
+  {"file": "03-the-tour.md", "line": 53, "quote": "most of them read the same way: plan, go, done, clean, as planned", "principle": "reader", "severity": "should", "why": "As a source-minded reader I want to know who judged 'clean', and whether the editor ever refused a plan; the signature as control is not shown here."},
+  {"file": "03-the-tour.md", "line": 59, "quote": "Read in order, they are the team talking.", "principle": "6", "severity": "should", "why": "It instructs the reader how to read; the thought could be offered as what the narrator found when reading them."},
+  {"file": "03-the-tour.md", "line": 109, "quote": "That list is often shorter than you expect", "principle": "6", "severity": "could", "why": "Predicts the reader's expectation and ranks it as wrong."},
+  {"file": "94-the-making-of-this-book.md", "line": 7, "quote": "you met them, and the ones who came after, in chapter 21", "principle": "reader", "severity": "should", "why": "A cross-reference to a chapter I have not reached is offered as something already done; a first reader has met no one yet."},
+  {"file": "94-the-making-of-this-book.md", "line": 11, "quote": "And the historian made an error, and caught it itself.", "principle": "reader", "severity": "must", "why": "For a reader who prizes sources this is the most interesting failure, and it is given one clause with no what, which claim, or who signed the correction."},
+  {"file": "94-the-making-of-this-book.md", "line": 13, "quote": "I left the times out of this page on purpose.", "principle": "reader", "severity": "should", "why": "The page asks to be checked and then withholds the evidence it points to; I cannot tell whether the repository is public or where the record lives."},
+  {"file": "94-the-making-of-this-book.md", "line": 9, "quote": "I gave them the plan that same morning, and before noon the first draft", "principle": "1", "severity": "could", "why": "This is a chronicle of events with no hindsight from the editor on what signing the plan meant or whether he rubber-stamped it."}
+ ],
+ "what_holds": [
+  "03-the-tour.md: each stop pairs a concrete page with one agent line, and the 162 versus 163 wake count is surfaced and resolved in favour of the register, which is exactly the source discipline I want.",
+  "03-the-tour.md: the 'Dramatised' marking is honest about which words are invented and which pages are the record.",
+  "94-the-making-of-this-book.md: it names real failures (a hold written on a member's own judgement, the usage-limit evening, the historian's error) and says only the editor lifted the hold, which answers my worry about a rubber-stamping editor."
+ ],
+ "notes": "Only the printed lines were judged; the team's notes were skipped. As a would-be newsroom builder I finish the tour wanting to know which role I would start with, and the making-of lists the members without saying what each does."
+}
