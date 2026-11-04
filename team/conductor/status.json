@@ -1,9 +1,9 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "conductor",
-  "as_of": "2026-11-04T09:55:00Z",
+  "as_of": "2026-11-04T10:08:00Z",
   "round": 1,
-  "state": "FB1: the full book only; KDP by Thursday 5 November; aim Wednesday 20:00 London (TG1). Four writers (WR2): writer narrowed (176); writer2 adopted with its key, session_01Kw9UwFgN9qNFUP7nELjaRj; writer3 adopted without its manuscript paths, no key or task yet; writer4 not adopted yet. The upload set's KDP interior builds without the stamp; CI writes its even-rounded count to rc2/upload/kdp-interior-count.txt for the cover. Site live at v0.1.669. RV1 (04:44 UTC): the review desk, four critics (critic1 to critic4) at :00, :20, :37, :07, one per writer; the principles in team/conductor/guides/the-principles.md and principles.html; SO1 (section sign-off) open with the editor. The four critics' sessions started 05:01 UTC: critic1 session_01Kw9UwFdgvDexRAuPLGqNZg, critic2 session_01Kw9UwBQud2LPVdMukik7M8, critic3 session_01Kw9UwDwAawLfiE63whbjqq, critic4 session_01Kw9UwEQg43JXepeJu9LCBD; each adopts its role and creates its own task at its first wake. RV2 (05:03 UTC): every member reviews the sections in its lane (team/conductor/guides/the-section-review-matrix.md, kept by the conductor); two mirror critics, critic5 (:45, with critic1) and critic6 (:52, with critic4), to start after this push. The mirrors' sessions started 05:15 UTC: critic5 session_01Kw9UwBxLjcmZyJoeievpFP, critic6 session_01Kw9UwD4c333cnFjKXTDW1e. 06:02 wake: dev was red from 05:27 (a debrief without its block); the build now warns instead of stopping. The section grid has its first marks. 07:02 wake: dev green at v0.1.709; 21 letters filed; the grid has a dev column and marks from 14 members' letters. 08:02 wake: v0.1.727 live; the RC2 page is now the full book's (developer 039). 09:02 wake: v0.1.742 live; your held views compiled as one tick-list; the first section proposal (part three, critic2). NF1 (09:40 UTC): /newsroom/, feedback to the newsroom journalist, rebuilt at every release; the conductor keeps team/conductor/for-the-newsroom/README.md current at its wakes.",
+  "state": "FB1: the full book only; KDP by Thursday 5 November; aim Wednesday 20:00 London (TG1). Four writers (WR2): writer narrowed (176); writer2 adopted with its key, session_01Kw9UwFgN9qNFUP7nELjaRj; writer3 adopted without its manuscript paths, no key or task yet; writer4 not adopted yet. The upload set's KDP interior builds without the stamp; CI writes its even-rounded count to rc2/upload/kdp-interior-count.txt for the cover. Site live at v0.1.669. RV1 (04:44 UTC): the review desk, four critics (critic1 to critic4) at :00, :20, :37, :07, one per writer; the principles in team/conductor/guides/the-principles.md and principles.html; SO1 (section sign-off) open with the editor. The four critics' sessions started 05:01 UTC: critic1 session_01Kw9UwFdgvDexRAuPLGqNZg, critic2 session_01Kw9UwBQud2LPVdMukik7M8, critic3 session_01Kw9UwDwAawLfiE63whbjqq, critic4 session_01Kw9UwEQg43JXepeJu9LCBD; each adopts its role and creates its own task at its first wake. RV2 (05:03 UTC): every member reviews the sections in its lane (team/conductor/guides/the-section-review-matrix.md, kept by the conductor); two mirror critics, critic5 (:45, with critic1) and critic6 (:52, with critic4), to start after this push. The mirrors' sessions started 05:15 UTC: critic5 session_01Kw9UwBxLjcmZyJoeievpFP, critic6 session_01Kw9UwD4c333cnFjKXTDW1e. 06:02 wake: dev was red from 05:27 (a debrief without its block); the build now warns instead of stopping. The section grid has its first marks. 07:02 wake: dev green at v0.1.709; 21 letters filed; the grid has a dev column and marks from 14 members' letters. 08:02 wake: v0.1.727 live; the RC2 page is now the full book's (developer 039). 09:02 wake: v0.1.742 live; your held views compiled as one tick-list; the first section proposal (part three, critic2). NF1 (09:40 UTC): /newsroom/, feedback to the newsroom journalist, rebuilt at every release; the conductor keeps team/conductor/for-the-newsroom/README.md current at its wakes. 10:02 wake: PW1, part four to writer2 and critic2; LY1 (the look) open for your go; critic1 proposes 04.",
   "done": [
     {
       "what": "WR2: four writers on the full book; writer2, writer3 and writer4 drafted in team/conductor/staffing/, runs entries at :50, :05, :35; writer 030 (narrow its policy), a note to every member; their sessions started after the push",
@@ -752,6 +752,22 @@
     {
       "to": "editor",
       "what": "writer4 007: the newsroom's question 4, chapter 94 as a narrated page (the log stays in the file's history)"
+    },
+    {
+      "to": "editor",
+      "what": "LY1: the look of the book (width, a visual on every spread, no empty pages, icons and callouts); the comparison is in team/conductor/research/2026-11-04__the-look-before-and-after/; nothing changes until your go; and what 'pad' a screenshot means"
+    },
+    {
+      "to": "editor",
+      "what": "synthetic 022 (795643a2): who lifts the hold when its owner is away, in 01, 22 and 23 (the same answer as for 22 and 23 step 5)"
+    },
+    {
+      "to": "editor",
+      "what": "writer4 008: chapter 90, print it at all (the newsroom's question 3); publisher 057: on the proof, scan chapter 3's three codes with a phone"
+    },
+    {
+      "to": "editor",
+      "what": "PW1 done at your word: part four to writer2 and critic2 while writer3 and critic3 have no task; say wait to undo"
     }
   ],
   "task": {
@@ -779,6 +795,6 @@
       "C10b"
     ]
   },
-  "updated": "2026-11-04T09:55:00Z",
+  "updated": "2026-11-04T10:08:00Z",
   "cadence": "active"
 }
