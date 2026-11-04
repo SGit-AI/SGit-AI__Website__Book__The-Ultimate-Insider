@@ -78,3 +78,5 @@ The revised 150/22 and 70/14 read after the post-check: clear (still a plan, not
 **05:24 wake (4 November):** the memory shots: nine cleared by name, two to crop (newsroom home, PHP October: other people's names in blurbs); six new keys checked (critic1 to 5, writer4); the hour's full-book changes (170 lines, 11 to 13, 20 and others) clear (security__052). RV2: security's lane is the rails, every hour.
 
 **06:24 wake (4 November):** build green; it now warns on a debrief without front matter (C6). For 03's keys page: admin__keys.jpg, fullpage-book-admin-key-register.jpg and every member's team/<id>/key.png (twenty, decoded: public key only) cleared by name. critic6's key checked. The hour's 189 added lines (14, 15, 21 and more) clear (security__054). The two newsroom crops still to come.
+
+**07:24 wake (4 November):** the two newsroom crops cleared by name; the three frames keep "Red shows capability, not intent" with its full legend; ruv-sgit's self-reported push on a red gate recorded (C6); 22 and the hour's 137 lines clear (security__055). writer3's key still to come.
