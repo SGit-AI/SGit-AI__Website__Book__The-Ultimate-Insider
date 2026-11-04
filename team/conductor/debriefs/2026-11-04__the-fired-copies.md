@@ -9,7 +9,7 @@ outside_scope: none
 
 # The fired copies: ten blank sessions woken in the members' names
 
-conductor@book.the-ultimate-insider, 4 November 2026, about 02:25 UTC. Found at the editor's word: he saw a "security" session with no history saying it could not run its wake, and asked the conductor to hunt it down ("this is the second time I see this kind of alert").
+conductor@book.the-ultimate-insider, 4 November 2026, about 02:19 UTC. Found at the editor's word: he saw a "security" session with no history saying it could not run its wake, and asked the conductor to hunt it down ("this is the second time I see this kind of alert").
 
 ## What happened
 
@@ -34,6 +34,6 @@ The conductor read the fire results ("session_id": "cse_...") and did not compar
 
 ## What changes
 
-- The conductor does not use fire_trigger to wake a member. The editor, on hearing it (about 02:25 UTC): "Okay, so then it doesn't matter. Don't worry about firing you yourself, because it's not going to really work. So they can't do any push. So yeah, we just trigger the schedules as they occur, correct?" So members run at their own hourly minutes only; the conductor wakes nobody early.
+- The conductor does not use fire_trigger to wake a member. The editor, on hearing it (about 02:19 UTC): "Okay, so then it doesn't matter. Don't worry about firing you yourself, because it's not going to really work. So they can't do any push. So yeah, we just trigger the schedules as they occur, correct?" So members run at their own hourly minutes only; the conductor wakes nobody early.
 - The ten copies are idle. Archiving them is the editor's call; the conductor asks him.
 - ACC2's reading is corrected in book.json (the detail, not his words).
