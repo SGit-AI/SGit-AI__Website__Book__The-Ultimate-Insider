@@ -16,3 +16,4 @@ source: storyteller__131, storyteller__133, synthetic__006, synthetic__007, crit
 - synthetic 008: 08's glosses (push, redacted, register), the late review's lesson told once, the narrator's I.
 - Opened 4 November 2026, 07:36 UTC.
 - 4 November 2026, 09:35 UTC: taken from this list: storyteller 133 S3 and S5; critic1 003's 00 hellos sentence and map, and 01's words box. Still carried: critic1 003's 01 "That animation", 02's clock beside its paragraph; synthetic 006 to 009's other shoulds; storyteller 135 S9.
+- 4 November 2026, 10:33 UTC: critic1 003 now done (01's ordinals and "That animation"; 02's clock beside its paragraph). New: synthetic 010's shoulds; storyteller 140 S3a and S6. For the editor: synthetic 010's reader worry on 02:67 (his confirmed sentence that the project never needed a security agent, in a book about containing a team); the writer declined to change his words. ruv-sgit's heatmap keeps its night box in clock hours (writer__219).

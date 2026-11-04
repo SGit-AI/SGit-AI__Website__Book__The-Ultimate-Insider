@@ -102,7 +102,7 @@
 
 `%% clock record: 04:00 to 04:59 on 29 October: the researcher's wake at 04:10, its dispute at 04:11, deck holding its next request in its wake of 04:18, committed at 04:22; clock hours of 29 October (C110; the conductor's CK1).`
 
-**Narrator.** Hour five was the schedule alone. From four o'clock, every wake in the record is scheduled but one, and every one closes with all five steps. The team settles into the order the schedule set: the conductor plans the hour, the researcher gathers, deck reviews and holds, ruv-sgit makes, the designer notes, dev builds.
+**Narrator.** Hour five was the schedule alone. From four o'clock, every wake in the record is scheduled but one, and every one closes with all five stages. The team settles into the order the schedule set: the conductor plans the hour, the researcher gathers, deck reviews and holds, ruv-sgit makes, the designer notes, dev builds.
 
 **Figure:** a card, hour five's wakes by trigger: almost all the schedule's.
 
@@ -172,8 +172,6 @@
 
 **Map:** the factory as a value chain: what I wanted at the top; the slides, the site and the player; the agents; and at the bottom the agent tool, the build, the check and the brief at the ordinary end, and the hold at the new end.
 
-*Words for this page:* a **Wardley map** is a picture that shows what something depends on and how settled each part is.
-
 `%% figure brief: Named here: this kind of picture is a Wardley map. The hold at the new end, the build and the check at the ordinary end.`
 
 **Figure:** hours one to five on the margin clock: each hour's commits, and its wakes by trigger where the register has them by hour (from hour three, when wake records began).
@@ -182,6 +180,10 @@
 
 `%% record: C011 C087 C095 C110 timeline/day/00.md to 04.md manuscript/rc2/30/02-the-factory-is-assembled.md ("So by four in the morning there were six agents, a clock and a brake.")`
 `%% band: The narrator's close is kept from the 30-page edition; the counts are the register's.`
+
+**Narrator.** What came next were nine hours in which nobody started the work, and part three begins with them.
+
+`%% record: storyteller__140 S3 (a line after the map that hands to part three); the Wardley map's words box is in chapter 1, at its first use, not repeated here`
 
 ## Something to try
 

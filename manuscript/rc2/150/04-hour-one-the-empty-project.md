@@ -31,7 +31,7 @@
 
 `%% clock record: 00:40; clock hours of 29 October (C110; the conductor's CK1).`
 
-**Narrator.** Then dev's first commit put in everything else at once: the site, the talk as data, the build, the check, and four short files that every agent after it would read before doing anything. The first is the page of rules, short enough to show nearly whole, and here it is as the agents received it.
+**Narrator.** Then dev's first commit put in everything else at once: the site; the talk itself, written as data the site reads; the build, which turns that into pages; the check every change must pass before it goes out; and four short files that every agent after it would read before doing anything. The first is the page of rules, short enough to show nearly whole, and here it is as the agents received it.
 
 `%% held out of print (the register does not hold it: C121's "not shown"): the newsroom's "None of the four was invented that night. They came from the agent team that runs my newsroom, which the brief pointed at, and which had already learned most of these lessons the hard way." The first page of rules does not say where it came from; print only what C121 holds.`
 
@@ -70,7 +70,7 @@
 
 *Words for this page:* the **gate** is the check every change must pass before it goes out.
 
-**Narrator.** Dev's page of rules says what stands between the agent and each thing it must not do, and how strong that is. Pushing to the main branch: an expectation. Writing another member's files: a setting, which a check catches. Its own words for that check: it "catches mistakes, not a steered agent".
+**Narrator.** Dev's page of rules says what stands between the agent and each thing it must not do, and how strong that is. Sending work to the main branch, the copy of the project that only I merge into: an expectation, which only the agent's own care upholds. Writing another member's files: a setting, which a check catches. Its own words for that check: it "catches mistakes, not a steered agent".
 
 `%% for the editor (his view, held out of print until he confirms it, P30): the writer's "does something I wish every page did:" after "Dev's page of rules".`
 
@@ -100,7 +100,7 @@
 
 `%% figure brief: For the designer, the weight of the documents (the cast guide's convention 9; his brief 19). Sizes from C125 (BRIEF.md 646 words, 43 lines; REALITY.md 2,508 words, 92 lines, at the end of the day). Pages from the talk's repository at 298be4e; no admin or team page.`
 
-**Important concept: the past projects as the team's memory.** This team did not start from nothing, and neither did I. The brief pointed it at sites I had built before, the newsroom above all. By the end of the day the talk's repository mentions newsroom.sgit.ai 2,666 times, and twenty-three other sgit.ai sites besides. I had a lot of power on the day because I was benefiting from all those past projects. That is the weight I want you to see.
+**Important concept: the past projects as the team's memory.** This team did not start from nothing, and neither did I. The brief pointed it at sites I had built before, the newsroom above all. By the end of the day the talk's repository mentions newsroom.sgit.ai 2,666 times, and twenty-three other sgit.ai sites besides. I had a lot of power on the day because I was benefiting from all those past projects.
 
 **Figure:** the sgit.ai sites the talk's repository names, newsroom.sgit.ai largest, each sized by how often it is named.
 
