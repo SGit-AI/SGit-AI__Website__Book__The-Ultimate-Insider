@@ -14,6 +14,8 @@
 
 **Figure:** a card, hour four's wakes by trigger: those the schedule started and those I started.
 
+`%% layout: full`
+
 `%% figure brief: For the designer, from C087 (hour 03 UTC, which is hour four on the margin clock: 5 scheduled, 10 the editor's). The counts on the card only.`
 
 **Conductor** *(on the minute)*: Backlog, then schedule, then work. For everyone. A new ask goes into the schedule, not straight into somebody's hands.
@@ -64,6 +66,8 @@
 
 **Figure:** the night log's first edition, drawn as a page: the hour, each member's line, what waits on the editor.
 
+`%% layout: full`
+
 `%% figure brief: For the designer. A drawing from the page, not a screenshot: the log sat among the admin pages, which the book never shows.`
 
 `%% record: 794008c 3616efc (03:27 to 03:29) team/conductor/night/20261029T0327.json timeline/README.md (the timeline cites the wakes and commits beneath the log)`
@@ -106,6 +110,8 @@
 
 **Figure:** a card, hour five's wakes by trigger: almost all the schedule's.
 
+`%% layout: full`
+
 `%% figure brief: For the designer, from C087 (hour 04 UTC, which is hour five on the margin clock: 6 scheduled, 1 the editor's). The counts on the card only.`
 
 `%% record: C087 C110 timeline/day/04.md ("What the hour shows")`
@@ -138,6 +144,8 @@
 
 **Figure:** ruv-sgit's two-panel reviewer card.
 
+`%% layout: full`
+
 `%% figure brief: the image: lab/experiments/30-ruv-the-reviewer-card/card.svg (moved out of the caption, which prints: conductor__033).`
 
 `%% record: C107 af0010b team/researcher/wakes/20261029T041003Z.json`
@@ -151,6 +159,8 @@
 `%% for the editor (his view, held out of print until he confirms it, P30): the writer's "is the one I would put in front of anyone building a team like this", of the second scene.`
 
 **Figure:** a card, the researcher's two findings of the small hours side by side: the first found after the push; the second found before the close, the values counted, the files redacted in the same wake, none left.
+
+`%% layout: full`
 
 `%% figure brief: For the designer, from C025 (04:10: 28 values; 30 files redacted in the same wake, 0 left). The counts on the card only. Rail: nothing of what was captured, how, or from where; no value, site or field shown.`
 
@@ -170,11 +180,17 @@
 
 **Figure:** the cast bar at four in the morning: six cards lit, three greyed, one empty chair.
 
+`%% layout: full`
+
 **Map:** the factory as a value chain: what I wanted at the top; the slides, the site and the player; the agents; and at the bottom the agent tool, the build, the check and the brief at the ordinary end, and the hold at the new end.
+
+`%% layout: full`
 
 `%% figure brief: Named here: this kind of picture is a Wardley map. The hold at the new end, the build and the check at the ordinary end.`
 
 **Figure:** hours one to five on the margin clock: each hour's commits, and its wakes by trigger where the register has them by hour (from hour three, when wake records began).
+
+`%% layout: full`
 
 `%% figure brief: For the designer, from C095 (commits by hour, claims/talk-commits-by-member-hour.md) and C087 (wakes by trigger, by hour). The part's infographic; the counts in the picture only; each box its hour's commits, not counting merges (C095's "all" row); wakes for hours three to five only, and hours one and two left without a wake mark, said in the caption (ruv-sgit__056, designer__111).`
 

@@ -6,11 +6,11 @@
 
 `%% record: C001 (the first commit, 00:16:23) C011 (nine staffed) C100 (the talk in London)`
 
-**Figure:** the cast row: the nine of the talk's team, greyed until each arrives, and one empty chair.
+**Figure:** the whole team on one page: the nine of the talk's team as their cards, and one empty chair.
 
 `%% layout: full`
 
-`%% figure brief: the designer's ch1-cast-greyed.svg, in its list (designer__134); LY1, "Who is telling this story" broken with the cast row (conductor__034).`
+`%% figure brief: the designer's lab/experiments/27-designer-the-cast/cast-row-personas.svg, 164 by 78 mm, at full width with this paragraph on its page (designer__140): the editor's word that the team's cards come much sooner, even in the introduction (briefs/2026-11-04__in-session/28-the-team-cards-sooner.md; conductor__036). It moves here from chapter 6, which points back (storyteller__149); chapter 2's greyed row is cut (critic1__014).`
 
 **Narrator.** But a record is not a story. So the book has two kinds of voice. The agents tell the day as it happened, in the present tense, each one as the character the record shows: dev, fast and practical; the conductor on the minute; the researcher who will not move without a source. Their scenes are dramatised, and they say so. I tell it from now, looking back. I know how the day ended, which parts worked, and which only looked as if they did. So when I speak, I will tell you what I think it meant, where it came from, and what I would do with it if I were you.
 

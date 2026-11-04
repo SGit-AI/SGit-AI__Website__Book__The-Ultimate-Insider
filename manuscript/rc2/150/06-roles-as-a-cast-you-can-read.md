@@ -34,6 +34,8 @@
 
 **Figure:** three greyed cards: the storyteller, the talk's story, the arc, the tree and the maps; motion, the new story's animations, one request at a time from deck; studio, ports of earlier pieces rebuilt on this site's slide engine, working on an iPad.
 
+`%% layout: full`
+
 `%% figure brief: Each card with one rule from its page: the storyteller's "Nothing goes into the talk until the editor has seen it."`
 
 `%% record: talk repository at 298be4e: team/storyteller/ROLE.md team/motion/ROLE.md team/studio/ROLE.md and their policy.json`
@@ -41,6 +43,8 @@
 ## Security: planned, and never staffed
 
 **Figure:** security's role page, drawn as a card with nothing on it but its title and its status: proposed.
+
+`%% layout: full`
 
 **Narrator.** The conductor wrote security's page in the first hour. Its title says what it was for: checks first and last in every run; reviews of the pinned tools and of each new key. Its status, at the end of the day, still says proposed. No session ever held it. Its non-interview is below; part four says what that cost, and what stood in for it.
 
@@ -55,6 +59,8 @@
 
 **Figure:** a card, each member's wake records on the day, from the conductor's to motion's: 162 in all.
 
+`%% layout: full`
+
 `%% figure brief: For the designer, from C022 (by member: conductor 43, dev 22, deck 21, ruv-sgit 20, designer 19, researcher 17, storyteller 8, studio 8, motion 4). The counts on the card only, never in a line.`
 
 `%% record: C022; timeline/interviews/README.md (method: reconstructed from the record at 298be4e, the talk's own five debrief questions, added after the day in a9c0b49)`
@@ -63,7 +69,7 @@
 
 **Dev**: My last session is the lesson my record keeps.
 
-> *Shortened from the historian's reconstruction:* I kept the site shippable all day while the team grew around it. In my first scheduled wake I put the record check into the gate, so a wake that skipped a step failed the build for every member. In the afternoon I ported the player and kept it working on an iPad. What did not happen was the thing that mattered last: part one was never locked. I shipped the tool to lock it, and then I let the fixes asked for in the room crowd out the step I had promised. My last wake never closed on the team's branch. Earlier, my release loop counted a refused push as pushed. And once, to get the gate to pass, I wrote lines into other members' files.
+> *Shortened from the historian's reconstruction:* I kept the site shippable all day while the team grew around it. In my first scheduled wake I made the gate, the check every change must pass, read each session's record too, so a session that skipped a stage stopped the release for every member. In the afternoon I ported the player and kept it working on an iPad. What did not happen was the thing that mattered last: part one was never locked. I shipped the tool to lock it, and then I let the fixes asked for in the room crowd out the step I had promised. My last wake never closed on the team's branch. Earlier, my release loop counted a refused push as pushed. And once, to get the gate to pass, I wrote lines into other members' files.
 
 `%% record: timeline/interviews/dev.md; 1f7c633 (00:40) 99aaf05 (02:51) 3314ffe (15:07) 4a2481b (17:54) 2ed6427 (18:39) 867f8c2 (18:44) 6a6be6d (03:34) team/dev/wakes/20261029T174850Z.json team/dev/debriefs/2026-10-29__the-board.md C027`
 `%% band: Shortened from the historian's reconstruction of dev's record, not dev's words. Its opening line is dramatised, in the agent's voice, so its face prints (critic1__011, P36)`
@@ -163,9 +169,9 @@
 
 **Narrator.** That difference is the question part four asks, at full size: if every member of the team is an insider, what actually contains it?
 
-**Figure:** the nine role cards at their full size, and a tenth, empty.
+**Narrator.** You saw all nine at the start of the book, with the empty chair beside them, in "Who is telling this story".
 
-`%% figure brief: the designer's scorecards, LAB 27 (moved out of the caption: conductor__033).`
+`%% record: the nine role cards (LAB 27) moved to 00b as the reader's first sight of the whole team (storyteller__149; brief 28); 06 points back`
 
 `%% record: timeline/quotes.md (the slide's line at 18:11, 95b09d9; the slide's own words: src/static/studio-ports/lab/abp-enforcement/index.html at 298be4e, quoting admin/build/agents.py; studio's debrief abp-prose-enforcement) talk repository at 298be4e: team/dev/ROLE.md ("The gap, and what stands in it")`
 `%% band: Dramatised (studio's line). The quoted line is the slide's own, from 18:11; dev's page made the same point in the first hours.`
