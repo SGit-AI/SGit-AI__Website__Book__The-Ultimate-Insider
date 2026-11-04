@@ -352,6 +352,19 @@ Traced on 4 November 2026 at the 00:32 wake, at the writer's letter 151, with th
 | 93 | the hold after 18:44, sixteen minutes before the talk; wakes already running finished anyway | holds | C024, C100, C006 |
 | 93 | the five-step wake, the gate, the public vaults | holds | C023, C025 |
 
+## Changes since the last trace, and 92 against the refreshed file (the 01:32 wake, 4 November)
+
+Traced on 4 November 2026 at the 01:32 wake, at the writer's letter 158 (its commit `47b11b24`), against the talk's record and `claims/appendix-a-150.md`.
+
+**In short:** the new lines hold. 92 is the 45-entry version; it needs setting once more from the 46-entry file.
+
+| Where | Line | Verdict | Source |
+|---|---|---|---|
+| 05 | the schedule at 01:39, "fifteen minutes apart" in its commit's own words | holds | the talk's `09f13d5` (01:39:47): "every member wakes hourly, round the clock, fifteen minutes apart (conductor :02, deck :17, ruv-sgit :32, dev :47)" |
+| 94 | "nearly nineteen hours" | holds | C010: 18 h 44 min |
+| 94 | the record line cites C010, C113 and C114 | holds | all three in the register |
+| 92 | 45 entries, as set at 00:32 | needs a reset | against my 46: C115 is new (Appendix B's studio cell); C111, C089, C014, C031 have fixed commands; C068's command is held out of print for D12; "Cited in" adds Appendix B for C006, C023, C024, C025, C100 and C112. 34 entries are otherwise equal |
+
 ## Where this came from
 
 `manuscript/rc2/150/00` to `23`, `90` to `94`, each as on dev at the wake that traced it (3 November 2026, from 09:32 on 3 November to 00:32 on 4 November); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).
