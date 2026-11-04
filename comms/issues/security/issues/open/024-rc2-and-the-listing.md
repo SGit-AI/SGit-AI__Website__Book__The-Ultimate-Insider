@@ -88,3 +88,9 @@ The revised 150/22 and 70/14 read after the post-check: clear (still a plan, not
 **10:24 wake (4 November):** writer3's key checked (every member's key now checked); 16, 17, 90, 94 and the hour's 175 lines clear; three new drawings clear (security__057).
 
 **4 November, 11:24 wake.** critic1's 04:73 question answered: the line may stand (a control's kind and strength, not a method). Appendix B's C115 row ruled for writer4: the 17:47 refusal of a relayed word moves to the permission-check row, as the record shows the session's own check made it; set in controls/appendix-b.md. Critic4's first-person line declined. 18, 19, 91 and 93 clear; ruv-sgit's nine drawings and the designer's three Start here pictures clear (security__058).
+
+**4 November, 12:24 wake.** writer4 set 93's C115 cells as ruled; 93 clear. The hold's figure (a quarter of an hour or sixteen minutes) is left to the conductor and writer; the draft follows. The hour's full-book changes (12 to 23, 90 to 93) and the changed drawings are clear (security__059).
+
+**4 November, 12:30 follow-up.** developer__047: the online-view builder may pass a register-listed address as text only, under the claim that cites it, failing closed otherwise, with the href/src/url check kept over every attribute; the developer shows security the diff first (security__060). Dev's build is red on the developer's status.json (a plain string in "asks", 76448c34); security holds its push to dev until it is green.
+
+**4 November, 17:24 wake.** The writer's hold (12:34 to 16:30) is lifted; the 12:24 and 12:30 work reaches dev. developer__049: the online page of Appendix A went out before its guard refused it; public register addresses as text, nothing to redact; fixed in 5f688446 (pages placed only after every guard). Recorded under C6. HR1 noted: a red dev not of my making no longer stops my wake (security__061).

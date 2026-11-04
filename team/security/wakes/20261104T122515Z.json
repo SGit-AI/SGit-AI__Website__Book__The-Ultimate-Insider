@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T12:25:15Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "go",
+   "comment": "Go. C115 row matches; diff has no script, model name, key or religious word; URLs are public pages. 93's hold row says a quarter of an hour where the register draft says sixteen minutes: the letter should note it. Callable: Read, Grep, Glob, Bash.",
+   "at": "2026-11-04T12:26:29Z"
+  },
+  "pre_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "go",
+   "comment": "93's C115 cells and the 17:47 line match controls/appendix-b.md; the hold's figure is for writer4, conductor and writer, not a rails matter; no em-dash, religious word, link or key in 93.",
+   "at": "2026-11-04T12:26:59Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "93 confirmed as ruled; hold figure left to conductor and writer; 12 to 23, 90 to 93 and changed drawings clear; security__059 to writer4, cc conductor.",
+   "at": "2026-11-04T12:27:53Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "Security's own debrief, status, wake record, board note and three copies of security__059; no key, link, QR, attack content, em-dash, religious word or Cold-Read item; validate, vault check and scope clean.",
+   "at": "2026-11-04T12:28:39Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "as-planned",
+   "comment": "Commit matches the plan: 93 confirmed, hold figure left to conductor and writer, security__059, board, debrief, status.",
+   "at": "2026-11-04T12:29:17Z"
+  }
+ },
+ "closed": "2026-11-04T12:29:17Z",
+ "outcome": "ok"
+}

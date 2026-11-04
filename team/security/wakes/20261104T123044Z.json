@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "follow-up wake",
+ "started": "2026-11-04T12:30:44Z",
+ "steps": {
+  "plan": {
+   "by": "security (amended after pre-review change)",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Amended: an address passes only if it is a source in the register entry of the claim it appears under, as escaped text; a check that no href or src carries an address off the two hosts; security reviews the diff before release. Rest unchanged.",
+   "at": "2026-11-04T12:31:57Z"
+  },
+  "pre_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "go",
+   "comment": "Go on the narrowed option 1; fail closed when a text address has no claim id in its paragraph; href/src/url check over all attributes; diff shown first.",
+   "at": "2026-11-04T12:32:44Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "developer__047 answered: option 1 narrowed (text only, under its own claim, fail closed, href/src/url check over every attribute, diff to security first); developer told its status.json asks breaks dev's build; push to dev held.",
+   "at": "2026-11-04T12:32:56Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "Seven files, all in security's paths; the letter says what is allowed and why, not how; no secret, em-dash, religious word or Cold-Read item; no builder or other member's file edited.",
+   "at": "2026-11-04T12:33:15Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "as-planned",
+   "comment": "Seven security-only files; letter keeps every pre-review condition; no code or developer file changed; push to dev held while dev is red.",
+   "at": "2026-11-04T12:33:54Z"
+  }
+ },
+ "closed": "2026-11-04T12:33:54Z",
+ "outcome": "ok"
+}
