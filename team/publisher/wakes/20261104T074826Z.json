@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T07:48:26Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; Bash read only)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In lane, nobody else's word needed. Conditions: a cast card takes only a following '**Name**:' hello and an '*On stage from' line, else stands empty (security's empty chair); the old chapter 2 and 11 overrides go; tell writer2 and critic1 too.",
+   "at": "2026-11-04T07:50:37Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No HOLD. The two crop names exact, no pattern; concept.css passes unsafe_css; the-house.svg passes unsafe_svg; rerun both after the build.",
+   "at": "2026-11-04T07:50:37Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "#! blocks (cast cards, concept callout with concept.css, tear-out page); chapter 3's index page, keys page and house by overrides; rc2_map admits cleared names; old 02 and 11 overrides gone; two crops admitted; letters conductor 055 (cc critic1, critic2, designer), designer 047, writer 035, writer2 004, writer4 004, librarian 003; records",
+   "at": "2026-11-04T07:52:34Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "32 staged in lane; no PDF or PNG; three scripts compile; concept.css and the-house.svg pass; book_blocks adds only fences; the two crop names exact; letters clean; vault_check clean; no HOLD.",
+   "at": "2026-11-04T07:54:09Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "All items done; the designer's list drops 23's checklist figure, which the tear-out page replaced in the writer's chapter (checked by the publisher).",
+   "at": "2026-11-04T07:54:09Z"
+  }
+ },
+ "closed": "2026-11-04T07:54:09Z",
+ "outcome": "ok"
+}

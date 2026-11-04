@@ -18,7 +18,7 @@
 
 **Narrator.** *How long a member may work.* I told the conductor to let each member work for much longer in a single session. My reasoning was simple: if the next agent did not pick something up in the same hour, it would pick it up in the next.
 
-**Narrator.** The morning in chapter 9 had already shown that was true. But it had a price, and I did not see it at the time. From then on sessions could overlap, so every member had to pull again before every push, that is, fetch everyone else's latest work just before sending its own, or it would be working from a stale copy. The rule the team had written in the first hour, pull first, stopped being a habit and became a live risk.
+**Narrator.** The morning in chapter 9 had already shown that was true. But it had a price, and I did not see it at the time. From then on sessions could overlap, so every member had to pull again before every push, that is, fetch everyone else's latest work just before sending its own, or it would be working from a stale copy. The rule the team had written in the second hour, pull first, stopped being a habit and became a live risk.
 
 `%% for the editor: "and I did not see it at the time" is the newsroom journalist's reading of your view (part three, chapter 14); yours to keep or drop.`
 `%% Check (the newsroom, part three, chapter 14; his to confirm before it prints): "Every change that makes a team faster changes what can go wrong, and that one is worth remembering."`

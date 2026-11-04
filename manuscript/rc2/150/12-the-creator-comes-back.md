@@ -24,7 +24,7 @@
 `%% band: Dramatised (the conductor's line). Rests on the brief's first line and the commit that routed it.`
 *Dramatised.*
 
-**Narrator.** Then the record keeps something I would rather it did not. Within minutes of that round I changed the order myself. A feedback pane on every page, so I could send notes from the browser, went first, and the player went second. My reasoning was that there was still time before seven, and I could wake the agents when I needed them.
+**Narrator.** Then the record keeps something I would rather it did not. Within a quarter of an hour of that round I changed the order myself. A feedback pane on every page, so I could send notes from the browser, went first, and the player went second. My reasoning was that there was still time before seven, and I could wake the agents when I needed them.
 
 **Narrator.** Both things were true. The pane did let me send notes from the page I was reading. And the main priority came second, landed in the middle of the afternoon, and was still being fixed in the last hour. This book keeps its failures, and that one is mine.
 
@@ -77,7 +77,7 @@
 
 ## The storyteller arrives
 
-**Narrator.** Soon after, the first new member of the afternoon joined, at my request: the storyteller, with its role, a draft policy, its key and its own slot. Within minutes it had a story tree and its maps on the team's branch, and had changed nothing in the talk. Chapter 13 has what it did next, and the objection it would not bury.
+**Narrator.** Soon after, the first new member of the afternoon joined, at my request: the storyteller, with its role, a draft policy, its key and its own place on the schedule. Within minutes it had a story tree and its maps on the team's branch, and had changed nothing in the talk. Chapter 13 has what it did next, and the objection it would not bury.
 
 **Cast card: the storyteller.**
 
