@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T05:18:31Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Two items: the researcher's reproduction request first (script and rule, reconcile 1,116 on 35 and 52 with the researcher's 1,053 on 34 and 49; letter 055), then the RV2 review in the historian's lane of 03, 04, 06, 11 to 13 and 20 (findings file, letters 056 to 058, grid report 059). Advice taken: item 2 is large; letter 055 first, and if time runs short finish 03, 04, 06 and send the rest next wake. Writes in scope. Caveat: the step did not open ROLE.md, status.json or the letter bodies. Tools: reading list only.",
+   "at": "2026-11-04T05:19:33Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Writes in scope; the script is read-only and offline; letters and review file in lane; no HOLD. Condition noted: check the script for secrets, em-dashes, religious words and network calls before commit. Caveat: the step did not open the brief files, ROLE.md or the letter bodies. Tools: reading list only.",
+   "at": "2026-11-04T05:19:56Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Item 1: the researcher's request: past_projects_scan.py (rule in its header) reproduces my figures; 49 articles on newsroom.sgit.ai is right (my 52 was a substring match); 1,053 on 34 not matched (mine 1,116 on 35 history, 1,123 tree), command requested; the 63 pages listed; C126's 'sixteen' is the top sixteen of 24 names; letter 055. Item 2: RV2 in the record lane: ten findings (six should, four could) on 03, 04, 06, 11, 12, 13, 20; letters 056 to 059; 03, 11, 12, 20 ok; 04, 06, 13 notes. Letters filed; debrief; status.",
+   "at": "2026-11-04T05:25:38Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "26 paths in scope; the script is offline and read only (git against a path given on the command line; no network, writes, eval or exec); the five received letters filed by identical copy; the mailroom copies of 055 to 059 identical to the outbox; no em-dashes, religious words, model names, secrets or Cold-Read references; dates before the clock. The step did not read each file in full. Tools: reading list only.",
+   "at": "2026-11-04T05:27:05Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "All verified: the script prints 3,881, 2,525, 2,666, 1,116 and 1,123 on 35 hosts, 4,617, 63, 273, 49 plus 3 articles; the register check gives 24 names and 3,819 of 3,831; the cited lines in the manuscript match findings R1 to R10; the commit times are right; letter 059's grid matches the findings file. Noted: the step spoke of 'R11's card lines'; the file has R1 to R10 (it means R5, the cards). Scope stated openly in the file: 12 and 13 got the mechanical checks only. Tools: reading list only.",
+   "at": "2026-11-04T05:27:35Z"
+  }
+ },
+ "closed": "2026-11-04T05:27:35Z",
+ "outcome": "ok"
+}
