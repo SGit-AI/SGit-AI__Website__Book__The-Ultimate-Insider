@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "synthetic",
- "as_of": "2026-11-04T07:49:26Z",
+ "as_of": "2026-11-04T08:47:29Z",
  "round": 0,
- "state": "scheduled wake 07:42: the writers' replies to batches one and two taken and their must fixes checked in the files; RV2 third batch (08, 15, 23) read by the three named readers, none passes yet",
+ "state": "scheduled wake 08:42: writer__211 and writer4__007 taken (their fixes checked in the files); RV2 fourth batch (03b, 03, 94) read by the three named readers, none passes yet; twelve sections read in this lane",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/synthetic/ into team/synthetic/ (drafts left in place); ROLE.md names start.py and banner.py",
@@ -199,6 +199,10 @@
   },
   {
    "what": "writer__201, writer2__018, writer4__006 taken; the claimed must fixes checked in the files (00, 00b, 05, 10, 14); RV2 third batch: 08, 15 and 23 of the full book read by the three named readers (review/synthetic/sections-3/findings.md, all 43 cites checked); requests synthetic__008, synthetic__003 and writer4 __002; the grid and the fixes told to the conductor (synthetic__020)",
+   "when": "2026-11-04"
+  },
+  {
+   "what": "writer__211 and writer4__007 taken (08's opening and 23's 'my nine' checked in the files; writer4's decline of the 23 'Rests on' must accepted, not pressed); RV2 fourth batch: 03b, 03 and 94 of the full book read by the three named readers (review/synthetic/sections-4/findings.md, all 45 cites checked); requests synthetic__009 and writer4 __003; the grid told to the conductor (synthetic__021)",
    "when": "2026-11-04"
   }
  ],
