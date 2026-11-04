@@ -26,6 +26,7 @@ BAD_TAGS += ['<script>alert(1)</script>', '<script src="https://cdn.example/x.js
 BAD_TAGS += ['<iframe srcdoc="<script>x</script>"></iframe>', '<iframe src="{{root}}x.html"></iframe>', '<base href="https://github.com/SGit-AI/">', '<object data="a.svg"></object>',
              '<embed src="a.svg">', '<script src="{{root}}review/pages.js?v=2"></script>', '<script src="{{root}}review/pages.js#x"></script>',
              '<script src="{{root}}review/pages.js" src="//h/x.js"></script>']
+BAD_TAGS += ['<li><b>Sealed.</b> Try it: <a href="https://pki.sgit.ai/" rel="noopener noreferrer">make a key of your own</a></li>']   # the persona pages' old key-tool link (security__009)
 CLAIMS = {'C001': {'source': 'web https://example.org/a'}, 'C002': {'source': 'nothing'}}
 
 
