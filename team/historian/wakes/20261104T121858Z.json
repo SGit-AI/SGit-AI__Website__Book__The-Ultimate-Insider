@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T12:18:58Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Plan fits ROLE and policy; check 19 against the comparison and 21's table against 05a9510d; give evidence on the hold figure but leave the wording to the editor and conductor. Tools: read-only Bash.",
+   "at": "2026-11-04T12:20:10Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Writes confined to historian, timeline and comms; no Cold-Read flow; hold-figure evidence only, wording left to the editor. Tool: Read only.",
+   "at": "2026-11-04T12:20:36Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "No secrets, keys, model names, em-dashes, religious words or Cold-Read flow; writes in scope. Two oddities: letter 075 is dated from the clock (12:20:36), earlier than the 12:25 date on the writer's 003, which is ahead of the clock; and the Cc to writer4 had no mailroom copy, now added. Tool: Bash.",
+   "at": "2026-11-04T12:21:13Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "19 and 21 checks, R30, letter 075, two letters filed, debrief and status present.",
+   "at": "2026-11-04T12:21:13Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "claude-sonnet-5-5",
+   "verdict": "done",
+   "comment": "19's paragraph and 21's table checked; letter 075; two letters filed",
+   "at": "2026-11-04T12:21:13Z"
+  }
+ },
+ "closed": "2026-11-04T12:21:13Z",
+ "outcome": "ok"
+}
