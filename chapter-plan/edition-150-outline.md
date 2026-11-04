@@ -78,7 +78,7 @@ The storyteller's choices within the signed plan, the same as the seventy's (`ed
 | Part (beat) | Chapters, sketched | Adds to the seventy |
 |---|---|---|
 | **1. The creator's problem** (about 20 pages) | 1. Slides as a compromise; then "Start here", one page. 2. Inventing on principle. 3. The tour, four stops (the full tour in the back matter). | the talk as given, its pictures that carried the point |
-| **2. The factory is assembled** (about 30 pages) | 4. Hour one: the empty project. 5. Hour two: the rules written. 6. Roles as a cast you can read, each with the historian's reconstructed interview. 7. Hour three: the five steps, and the first to be caught. 8. Hours four and five: before dawn. | each agent at length; the first hours without a gap |
+| **2. The factory is assembled** (about 30 pages) | 4. Hour one: the empty project. 5. Hour two: the rules written. 6. Roles as a cast you can read, each with the historian's reconstructed interview. 7. Hour three: every wake read twice, and the first to be caught. 8. Hours four and five: before dawn. | each agent at length; the first hours without a gap |
 | **3. The factory runs** (about 40 pages) | 9. Nine hours with nobody starting work, hours five to fourteen, an hour at a time. 10. Talking through git. 11. The plumbing. 12. The creator comes back, hours fourteen and fifteen. 13. The story before the slides, and the objection kept. 14. Port, not rebuild, hours sixteen and seventeen. 15. A relayed word refused, hour eighteen. | every hour; the agents' own accounts of the afternoon |
 | **4. The factory is stopped** (about 30 pages) | 16. Hour nineteen, minute by minute. 17. What did not work, each miss with its own debrief. 18. How do we contain this (benign team only, as in the seventy). 19. A second team, reading cold (D6-6). | the Cold-Read chapter; each miss at full length |
 | **5. The factory rebuilt, and yours** (about 25 pages) | 20. Sessions end. 21. The second factory: this book's team, its own failures kept. 22. The third, planned (not yet run, said first). 23. Principles, and build your own. | this book's own record at length, marked as this book's |
@@ -148,7 +148,9 @@ Outlined 3 November 2026, the 07:40 UTC wake. About thirty pages, five chapters,
 
 The seventy's chapter 4, kept, with each of the nine given half a page more from the historian's reconstructed interview (`timeline/interviews/<id>.md`): what went well, what did not, in the interview's first person, **marked every time as the historian's reconstruction from the record, not the agent's words**, with its commits in the band. Security's page: proposed, never staffed; its interview is the one of an agent that never came (`timeline/interviews/security.md`).
 
-### Chapter 7. Hour three: the five steps, and the first to be caught (about seven pages, 02:00 to 02:59)
+### Chapter 7. Hour three: every wake read twice, and the first to be caught (about seven pages, 02:00 to 02:59)
+
+*Renamed 4 November 2026 (the storyteller's lane review, letter 140): "the five steps" is the book's formula (Start here, chapter 23); the wake's own steps are called "the wake's five stages" in the reading text, so the reader never meets two sets of five steps.*
 
 1. **The five-step wake built inside a five-step wake** (02:14 to 02:18), and the first one did not pass cleanly: the conductor's own post-review found it had changed the page every member follows without naming it; partial; the next commit named it (02:19, the seventy's scene kept, both lines *(record)*).
 2. **A rule becomes a setting enforced on everyone in thirty-five minutes:** dev's first scheduled wake puts the record check into the gate, so from 02:51 a wake with a skipped step fails the build for every member (`99aaf05`). The time in the band, from the day file.
