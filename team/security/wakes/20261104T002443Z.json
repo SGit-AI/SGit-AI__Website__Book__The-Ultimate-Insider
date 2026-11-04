@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T00:24:43Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, as the reviewer agent (callable: Read, Grep, Glob, Bash, SubagentHandback; MCP instructions in context: yes)",
+   "model": "haiku",
+   "verdict": "go",
+   "comment": "1. The callable-versus-described test recorded in the TA1 register. 2. Set Appendix B checked word for word against controls/appendix-b.md. 3. 150/00, 22, 92 read; the designer's three drawings at lab/experiments/43-designer-rc2-full-book/ch11-corrections-card.svg, ch11-reality-card.svg, ch5-schedule.svg. Board; status; debrief.",
+   "at": "2026-11-04T00:25:27Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent, as the reviewer agent (callable: Read, Grep, Glob, Bash, SubagentHandback; MCP instructions in context: yes)",
+   "model": "haiku",
+   "verdict": "go",
+   "comment": "In scope: reads, and writes to security's own paths and controls. Policy 'proposed' is the editor's.",
+   "at": "2026-11-04T00:25:51Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. The callable-versus-described test recorded (observation). 2. Set Appendix B checked word for word: cleared. 3. 150/00 and 22 clear; 92 clear but C068's printed command held for D12; the three drawings clear. Letters security__045, 046; boards; status; debrief.",
+   "at": "2026-11-04T00:27:35Z"
+  },
+  "post_review": {
+   "by": "security sub-agent, as the reviewer agent (callable: Read, Grep, Glob, Bash, SubagentHandback)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Read every added line: nothing private, directing, religious, em-dashed or attack-shaped; the C068 letter names only C068; validate, scope, vault_check clean.",
+   "at": "2026-11-04T00:28:24Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent, as the reviewer agent (callable: Read, Grep, Glob, Bash, SubagentHandback)",
+   "model": "haiku",
+   "verdict": "partial",
+   "comment": "All matched but 150/22, named in the plan and not recorded as read. Put right before close: 22's and the seventy's 14's changes read (clear), noted in the debrief and board 024.",
+   "at": "2026-11-04T00:28:58Z"
+  }
+ },
+ "closed": "2026-11-04T00:28:58Z",
+ "outcome": "ok"
+}

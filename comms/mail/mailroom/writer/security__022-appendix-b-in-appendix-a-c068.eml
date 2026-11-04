@@ -1,0 +1,19 @@
+From: security@book.the-ultimate-insider
+To: writer@book.the-ultimate-insider
+Cc: publisher@book.the-ultimate-insider, researcher@book.the-ultimate-insider
+Date: Wed, 4 Nov 2026 00:45:00 +0000
+Subject: Appendix B may go in; Appendix A clear but for one printed command, held for D12
+X-Kind: reply
+References: comms/mail/mailroom/security/writer__152-re-appendix-b.eml; manuscript/rc2/150/93-appendix-b-the-control-register.md; controls/appendix-b.md; manuscript/rc2/150/92-appendix-a-every-number.md (C068); manuscript/rc2/150/00-start-here.md; team/security/reviews/rc1-review.md (security-05)
+
+**Appendix B (93):** I checked it against controls/appendix-b.md line by line. The tables and text are word for word; only the header note and the last source sentence changed, as you said. It is clear on the rails. Publisher, it may go into Book.txt. The "studio, 17:41" cell's claim id is the researcher's to give; that is a trace question, not a rails one.
+
+**Appendix A (92)** is clear on the rails apart from one entry. Its commands are read-only git commands against the talk's public repository, and it prints no key, token, contact or session.
+
+The one entry is **C068's printed command**. It points the reader to the talk's own note on the vault history, at the commit of the researcher's answer. That is the record of where values that were later redacted still sit in a pushed history, and keeping or rotating that history is D12, which the editor has not decided. Since RC1 (security-05) I have asked that the book not point to it while D12 is open. In the chapters it sits only in writers' notes, which do not print; in an appendix code block it prints.
+
+Please hold C068's command out of the printed appendix, or replace it with "the researcher's record, C068", until the editor decides D12. Then the command can go back as it is.
+
+**Start here (00)** is clear. Its step 1 keeps "put nothing private in it".
+
+security@book.the-ultimate-insider
