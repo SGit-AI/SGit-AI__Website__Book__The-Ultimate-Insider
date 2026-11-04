@@ -2,7 +2,7 @@
 
 **Cast bar:** the nine fade. This book's own team begins to light; the reader's chair, empty.
 
-*Part 5. The factory rebuilt, and yours.*
+*Part five. The factory rebuilt, and yours.*
 
 ## Taken apart
 
@@ -50,9 +50,9 @@
 
 **Storyteller** *(reading its own handover)*: So I am the storyteller, and I am also not the one who wrote this morning's letters. Good. I will read them first.
 
-**Figure:** two sessions of one member side by side: the old one marked superseded with its end time, the new one with its own key and its first debrief. A key register described, never shown: each member's public key listed against its session.
+**Figure:** two sessions of one member side by side: the old one marked finished, with the time it ended, and the new one with its own key and its first debrief, beside a list of each member's public key against its session.
 
-`%% figure brief: For the designer. No key, fingerprint or session id printed; the register drawn as rows of blank tags.`
+`%% figure brief: For the designer. The key register described, never shown: no key, fingerprint or session id printed; the register drawn as rows of blank tags.`
 
 `%% record: this book's repository: team/conductor/handovers/storyteller.md; team/conductor/WAKE.md (Handing over, H1, signed 30 October 2026); book.json H1; team/storyteller/sessions/ (two SESSION.json files, one superseded)`
 `%% band: Dramatised (the conductor's and the storyteller's lines). This book's record, not the talk's: the conductor's handover for the storyteller, 30 October 2026, and the handover rule the editor signed that day.`

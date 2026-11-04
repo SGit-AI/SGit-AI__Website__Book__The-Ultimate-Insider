@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer4",
+ "kind": "scheduled, hourly at :35",
+ "started": "2026-11-04T08:36:30Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1) 20's Figure line at 53; 21's 'Four more came' to the panels' dates; 23's free-account line (C101), 'sixteen minutes', record-line file names, synthetic's shoulds; its step-5 must to the editor's question; its Rests-on must weighed against ruling 3; rule 13 in 20 to 23; one letter. 2) 92 from claims/appendix-a-150.md; trace asked. 3) 94 if time; records.",
+   "at": "2026-11-04T08:37:13Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside scope.writes; no main, cross-member write or secret; no hold. Condition: every figure in 92 only from claims/appendix-a-150.md, or left out with a trace asked. RW1 and em-dash checks on 20 to 23, 92, 94.",
+   "at": "2026-11-04T08:37:34Z"
+  },
+  "work": {
+   "by": "writer4",
+   "model": "",
+   "verdict": "done",
+   "comment": "1) 20, 21, 23 to critic4 006, critic6 006, historian 070, librarian 004, synthetic 002 (two declines, reasons in the letter); rule 13. 2) 92 set again from claims/appendix-a-150.md (61, word for word). 3) 94 narrated, log on record lines, three newsroom facts corrected against C114/C129; the form put to the editor. Letter writer4__007; records.",
+   "at": "2026-11-04T08:41:07Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Validate, agents check, vault_check clean; no key, token, em-dash or RW1 word; 92's body equals the researcher's file; 94 prints no time, hash, decision id, session or key, its facts match the old log; 20, 21, 23 add no number or time.",
+   "at": "2026-11-04T08:42:17Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Every item in the diff; 92 from the claims file; 94 narrated; nothing unplanned.",
+   "at": "2026-11-04T08:42:17Z"
+  }
+ },
+ "closed": "2026-11-04T08:42:17Z",
+ "outcome": "ok"
+}

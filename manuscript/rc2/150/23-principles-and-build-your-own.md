@@ -8,13 +8,13 @@
 
 `%% figure brief: The chapter's map, the value chain from chapter 8 carried forward.`
 
-**Narrator.** Your factory starts on the right of that map. Everything I had to invent, or carry over by hand, is already there for you: a tool, a page of rules, a brief and a hold. You do not need my nine. You need one.
+**Narrator.** Your factory starts on the right of that map. Everything I had to invent, or carry over by hand, is already there for you: a tool, a page of rules, a brief and a hold. You do not need my nine agents. You need one.
 
 `%% Check (the newsroom, part five, chapter 23; his to confirm before it prints): "That is the Wardley map's whole point, and it is the reason I am optimistic: what was custom on the talk's day is ordinary now." (between "a brief and a hold." and "You do not need my nine.")`
 
 **Conductor** *(to the reader)*: Start with one of me.
 
-**Narrator.** Here are the steps in full, the ones Start here gave you as a formula: four for when you are on your own, and a fifth for when you are not. Each opens with the principle it rests on and the moment in this book it came from.
+**Narrator.** Here are the steps in full, the ones the book's first pages gave you in a line each: four for when you are on your own, and a fifth for when you are not. Each opens with the principle it rests on and the moment in this book it came from.
 
 1. *Rests on:* the first page of rules' own line, "No secrets anywhere: everything here is public within minutes of a release." *The moment:* dev's first commit (chapter 4).
    **You: one tool and one empty project.** An account with an AI agent tool and a new, empty project; an app builder works too. Put nothing private in it: no password, no key, no personal detail. Give your agent only the access it needs.
@@ -28,13 +28,13 @@
 4. *Rests on:* a check every change passes, and the failures kept in the record. *The moment:* the check stopping dev's own release in the second hour (chapter 11), and the misses kept at full size (chapter 17).
    **Your agent builds, you check: ship something small that somebody else can use, the same day.** Then do it again.
    *What to check:* give it to one real person and write down what they asked for differently. That is your next round.
-5. *Rests on:* a hold anyone can pull and only the owner lifts, and nobody speaks for the owner. *The moment:* the hold, a quarter of an hour before the talk (chapter 16), and studio refusing a relayed word (chapter 15).
-   **Add a second agent only when the first is busy.** Working with others? Share the brief, the board and the hold, and each of you runs your own agents. It helps to write down, before the first day, who may lift the hold when its owner is away.
+5. *Rests on:* a hold anyone can pull and only the owner lifts, and nobody speaks for the owner. *The moment:* the hold, sixteen minutes before the talk (chapter 16), and studio refusing a relayed word (chapter 15).
+   **Add a second agent only when the first is busy.** Working with others? Share the brief (what you are making), the board (where everyone's work is written down) and the hold (the one file that stops everything), and each of you runs your own agents. It helps to write down, before the first day, who may lift the hold when its owner is away.
    *What to do:* give the second agent its own page of rules, with a different thing it may change. Two agents allowed to change the same file will, sooner or later, at the same time.
 
 *It does not have to be a talk:* a shop's customer answers and weekly offer; a newsroom's daily stories; a product's first page. Same brief, same rules, same hold.
 
-*To start:* a free account is enough to try the first step.
+*To start:* a free account with an app builder is enough to try the first step.
 
 `%% for the editor: the price line ("paid plans of the kind the team used start at $20 a month", C101) and "The record of my own day holds no figure for what it cost" are out of print, at your brief 20 ("We don't have to put costs on this"; critic6, pass 1). The newsroom's Check "my attention was what the day really cost" is left out with them.`
 
@@ -44,7 +44,7 @@
 
 `%% for the editor: the "What to do / What to check" lines, the newsroom's page of rules and the "Rests on" lines under each step are the writer's, worked from the steps as the editions give them; his to keep or change.`
 
-`%% record: C101 (a free account to start) chapter-plan/cast/edition-10.md (the five steps, word for word); chapter-plan/edition-150-outline.md (rulings 2 and 3: the steps once, here; the Rests on lines without clock stamps); briefs/2026-11-04__in-session/20-the-open-items-answered.md (no costs)`
+`%% record: C101 (a free account to start: Claude's free plan has no Claude Code; an app builder's free plan builds, critic6 pass 2) chapter-plan/cast/edition-10.md (the five steps, word for word); chapter-plan/edition-150-outline.md (rulings 2 and 3: the steps once, here; the Rests on lines without clock stamps); briefs/2026-11-04__in-session/20-the-open-items-answered.md (no costs)`
 `%% band: Dramatised (the conductor's line).`
 *Dramatised.*
 
@@ -77,7 +77,7 @@
 - [ ] *21.* Built again from its record
 - [ ] *22.* Who lifts the hold
 
-`%% record: manuscript/rc2/150/01 to 22 (each chapter's Something to try); team/conductor/from-newsroom/2026-11-04__do-this-now-as-invitations.md (the base for every card); chapter-plan/edition-150-outline.md (ruling 1: the book's last page, to tear out, a box per chapter with the card's title, not a list of commands). The titles are the writer's, one per card; when a chapter's card changes, its title here is checked against it.`
+`%% record: manuscript/rc2/150/01-slides-as-a-compromise.md to manuscript/rc2/150/22-the-third-planned.md (each chapter's Something to try); team/conductor/from-newsroom/2026-11-04__do-this-now-as-invitations.md (the base for every card); chapter-plan/edition-150-outline.md (ruling 1: the book's last page, to tear out, a box per chapter with the card's title, not a list of commands). The titles are the writer's, one per card; when a chapter's card changes, its title here is checked against it.`
 
 ## The last word
 
