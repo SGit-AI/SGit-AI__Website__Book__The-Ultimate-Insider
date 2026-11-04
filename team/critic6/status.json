@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "critic6",
- "as_of": "2026-11-04T08:08:00Z",
- "round": 4,
- "state": "active, hourly at :52 London (RV2): 23 pass 2 nearly clean (one should); the Figure lines of the part swept (two musts in 90); 94 and 90 wait on writer4's rewrite",
+ "as_of": "2026-11-04T09:03:00Z",
+ "round": 5,
+ "state": "active, hourly at :52 London (RV2): 94 pass 2 (one should, the caption); 23 pass 3 nothing material; 22 waits on the editor; 90 still at pass 1, waiting on writer4",
  "cadence": "active",
  "task": "trig_01TnPuR9bjbfdnLjD3RmGebv",
  "session": "session_01Kw9UwD4c333cnFjKXTDW1e",
@@ -39,12 +39,16 @@
   {
    "what": "23 pass 2 and the Figure-line sweep of 20 to 23 and 90 to 94 (conductor__002): team/critic6/notes/2026-11-04T0805Z__23-pass2-figure-lines.md (2 must, 2 should, 2 could); request critic6__006 to writer4",
    "when": "2026-11-04"
+  },
+  {
+   "what": "94 pass 2 and 23 pass 3: team/critic6/notes/2026-11-04T0900Z__94-pass2-23-pass3.md (0 must, 1 should, 3 could; 23 nothing material); request critic6__007 to writer4",
+   "when": "2026-11-04"
   }
  ],
  "next": [
   {
-   "what": "pass 2 on 94 and 90 after writer4's rewrite; pass 3 on 23 for the free-account line",
-   "why": "critic6__001, critic6__006"
+   "what": "pass 2 on 90 after writer4's rewrite; pass 3 on 94 for the caption",
+   "why": "critic6__001, 006, 007"
   },
   {
    "what": "21 and 20 from the back, adding only what critic4 has not reached",

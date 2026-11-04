@@ -36,6 +36,23 @@ FRAMES = "lab/experiments/01-ruv-the-building-three-frames/edition/three-frames.
 META = ("about", "overrides")
 
 
+def briefs(chapter):
+    """For each Figure and Map line, the first drawing path named on a "%% figure brief" line after it and before the
+    next Figure line (the writers moved the paths there, conductor__033), or None."""
+    with open(os.path.join(MANUSCRIPT, chapter), encoding="utf-8") as f:
+        rows = [x.strip() for x in f.read().split("\n")]
+    out, cur = [], None
+    for x in rows:
+        if x.startswith(("**Figure:**", "**Map:**")):
+            out.append(None)
+            cur = len(out) - 1
+        elif cur is not None and out[cur] is None and re.match(r"`?%%\s*figure brief", x):
+            m = edition.LAB_SVG.search(x)
+            if m:
+                out[cur] = m.group(0)
+    return out
+
+
 def lines(chapter):
     """A chapter's Figure and Map lines, their words only."""
     with open(os.path.join(MANUSCRIPT, chapter), encoding="utf-8") as f:
@@ -93,6 +110,15 @@ def main():
         d[k] = [b or (FRAMES if "three frames of the animation" in line.lower() else known.get(line[:40]))
                 for b, line in zip(base, ls)]
     a2 = apply_overrides(d, [k for k in d["overrides"] if k.startswith("rc2/150/")])
+    b = 0
+    for path in sorted(glob.glob(os.path.join(MANUSCRIPT, "rc2", "150", "*.md"))):  # a blank slot takes its brief's path
+        k = os.path.relpath(path, MANUSCRIPT)
+        bs = briefs(k)
+        for i, named in enumerate(bs):  # never a drawing the chapter already places, or one another line's brief names
+            if i < len(d[k]) and not d[k][i] and named and named not in d[k] \
+                    and sum(1 for x in bs if x == named) == 1:
+                d[k][i] = named
+                b += 1
     for k in list(d):
         if k not in META and not exists(k):
             del d[k]
@@ -124,7 +150,7 @@ def main():
         json.dump(d, f, indent=1)
         f.write("\n")
     drawn = {ed: sum(1 for k, v in d.items() if k.startswith(f"rc2/{ed}/") for x in v if x) for ed in ("30", "70", "150")}
-    print(f"rc2_map: full-book chapters from the designer's list {from_designer}; overrides applied {a1} + {a2}; lines with a drawing: thirty {drawn['30']}, seventy {drawn['70']}, "
+    print(f"rc2_map: full-book chapters from the designer's list {from_designer}; overrides applied {a1} + {a2}; from briefs {b}; lines with a drawing: thirty {drawn['30']}, seventy {drawn['70']}, "
           f"full book {drawn['150']}")
 
 
