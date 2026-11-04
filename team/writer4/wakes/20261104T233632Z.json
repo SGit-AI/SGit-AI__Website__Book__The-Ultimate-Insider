@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer4",
+ "kind": "scheduled, hourly at :35",
+ "started": "2026-11-04T23:36:32Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1) historian 083 and critic4 020: 21's 'three of them came that first afternoon' to four, named (ruv-sgit, the designer, synthetic, the developer); the blank page asked of the publisher. 2) critic4's could in 20: the conductor's line says only what is new. 3) storyteller 161: 90's two costume directions cut. 4) one letter; records.",
+   "at": "2026-11-04T23:36:46Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope; 'four' traces to C131's staffed dates; no secrets or cross-member writes.",
+   "at": "2026-11-04T23:37:12Z"
+  },
+  "work": {
+   "by": "writer4",
+   "model": "",
+   "verdict": "done",
+   "comment": "21 four named (C131); 20's conductor line; 90's costume cut; letter writer4__018; records.",
+   "at": "2026-11-04T23:38:44Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "validate, agents check, vault_check pass; no em-dash, RW1 word or single-% line; in scope; 'four' holds against C131.",
+   "at": "2026-11-04T23:40:03Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "All four items done; nothing off-plan.",
+   "at": "2026-11-04T23:40:03Z"
+  }
+ },
+ "closed": "2026-11-04T23:40:03Z",
+ "outcome": "ok"
+}
