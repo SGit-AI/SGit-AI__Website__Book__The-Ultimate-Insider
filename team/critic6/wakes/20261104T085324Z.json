@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic6",
+ "kind": "scheduled, hourly at :52",
+ "started": "2026-11-04T08:53:24Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "1. pass 2 on the rewritten 94 against critic6__001 and the principles, and pass 3 on 23's free-account line; 92 is not in the full book's build list, so read for print only if it is added; note team/critic6/notes/<date>T<HHMM>Z__94-pass2.md, not repeating critic4's 0820Z note. 2. request critic6__007 to writer4, outbox copy. 3. status.json and the debrief.",
+   "at": "2026-11-04T08:54:11Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "In scope; reads 94 and 23, writes no manuscript; no secrets, vaults, main or blind repository; no stop condition. Conditions: vault_check on comms; no religious words.",
+   "at": "2026-11-04T08:54:29Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
