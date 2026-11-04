@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T10:19:15Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "In scope; 16 and 17 first, chapter 90 only if time allows; vault_check; no HOLD. Tools: Read, Grep, Glob, Bash.",
+   "at": "2026-11-04T10:19:58Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Inside historian writes; read-only on the talk clone; nothing to Cold-Read; no HOLD. Tools: Read, Bash.",
+   "at": "2026-11-04T10:20:09Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "Files in scope; no em-dashes, secrets, keys or model names; religious-word hits only in old filed letters and the cast-guide rule; nothing toward Cold-Read; vault_check clean; copies of 072 identical. Tool: Bash.",
+   "at": "2026-11-04T10:24:43Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "R22 to R26, letter 072, two letters filed, debrief and status present; chapter 90 deliberately unread.",
+   "at": "2026-11-04T10:24:43Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "claude-sonnet-5-5",
+   "verdict": "partial",
+   "comment": "16 and 17 checked, letter 072, two letters filed; chapter 90 carried over",
+   "at": "2026-11-04T10:24:43Z"
+  }
+ },
+ "closed": "2026-11-04T10:24:43Z",
+ "outcome": "ok"
+}
