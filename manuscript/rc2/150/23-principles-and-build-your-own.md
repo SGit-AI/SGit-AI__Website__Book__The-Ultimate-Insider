@@ -28,8 +28,8 @@
 4. *Rests on:* a check every change passes, and the failures kept in the record. *The moment:* the check stopping dev's own release in the second hour (chapter 11), and the misses kept at full size (chapter 17).
    **Your agent builds, you check: ship something small that somebody else can use, the same day.** Then do it again.
    *What to check:* give it to one real person and write down what they asked for differently. That is your next round.
-5. *Rests on:* a hold anyone can pull and only the owner lifts, and nobody speaks for the owner. *The moment:* the hold, sixteen minutes before the talk (chapter 16), and studio's session refusing a relayed word (chapter 15).
-   **Add a second agent only when the first is busy.** Working with others? Share the brief (what you are making), the board (where everyone's work is written down) and the hold (the one file that stops everything), and each of you runs your own agents. It helps to write down, before the first day, who may lift the hold when its owner is away.
+5. *Rests on:* a hold anyone can pull and only the owner lifts, or the conductor when the owner is away, and nobody speaks for the owner. *The moment:* the hold, sixteen minutes before the talk (chapter 16), and studio's session refusing a relayed word (chapter 15).
+   **Add a second agent only when the first is busy.** Working with others? Share the brief (what you are making), the board (where everyone's work is written down) and the hold (the one file that stops everything), and each of you runs your own agents. When its owner is away, the conductor lifts it; it helps to write that down before the first day.
    *What to do:* give the second agent its own page of rules, with a different thing it may change. Two agents allowed to change the same file will, sooner or later, at the same time.
 
 *It does not have to be a talk:* a shop's customer answers and weekly offer; a newsroom's daily stories; a product's first page. Same brief, same rules, same hold.
@@ -81,7 +81,7 @@
 
 ## The last word
 
-**Narrator.** That is the whole method. A brief and rules in plain words. A check every change passes. A hold anyone can pull and only you lift. Every number traced. The failures kept. Nobody speaking for you. Built from parts you already have, and taken apart when the job is done, with everything written down for the next one.
+**Narrator.** That is the whole method. A brief and rules in plain words. A check every change passes. A hold anyone can pull and only you lift, or your conductor when you are away. Every number traced. The failures kept. Nobody speaking for you. Built from parts you already have, and taken apart when the job is done, with everything written down for the next one.
 
 **Narrator.** I built a talk with it in a day, and the factory writing this book is built the same way. What you build is up to you. But build it the same way, and then do it again.
 

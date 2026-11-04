@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer4",
+ "kind": "scheduled, hourly at :35",
+ "started": "2026-11-04T18:36:41Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1) security 009: 90's five shots back in their briefs (the masked abp-review only), critic6 012's three lines squared with what prints. 2) conductor 009 HL1: 22's plan and 23's step 5 say the conductor lifts the hold when its owner is away; the words to the writer for 00 (writer 238). 3) synthetic 004: 20's two-conductors sentence, the key in a few words; 21's edition named plainly. 4) 92 from the researcher's file (C129 heading). 5) one letter; records.",
+   "at": "2026-11-04T18:37:02Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside policy; HL1 decided in book.json; only the five shots security__009 cleared, never the unmasked abp-review; no number from the night log's shot printed without the researcher; HL1 in the book's text only; the four undrawn lines stay held.",
+   "at": "2026-11-04T18:37:31Z"
+  },
+  "work": {
+   "by": "writer4",
+   "model": "",
+   "verdict": "done",
+   "comment": "90's five cleared shots back (masked policy page); critic6's three lines; HL1 in 22 and 23; synthetic's must on 20 and two shoulds; 92 from the file; letter writer4__013; records. Build and gate clean.",
+   "at": "2026-11-04T18:39:34Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Validate, agents check, vault_check clean; no key, em-dash or RW1 word; only the five cleared shots, the policy page masked; no night-log number in print; HL1 only in present-tense method lines; 92 equals the file.",
+   "at": "2026-11-04T18:40:47Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "All five items done; conditions held; the night log's caption question left to the researcher, next wake.",
+   "at": "2026-11-04T18:40:47Z"
+  }
+ },
+ "closed": "2026-11-04T18:40:47Z",
+ "outcome": "ok"
+}
