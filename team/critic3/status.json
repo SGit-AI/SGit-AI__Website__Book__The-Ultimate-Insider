@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "critic3",
- "as_of": "2026-11-04T10:50:00Z",
- "round": 2,
- "state": "waiting: writer3 to read pass 2 (team/critic3/notes/2026-11-04T1040Z__16-17-pass2.md, letter critic3__004); the conductor and the publisher to remap 16 and 17's drawings (critic3__005); part four split with critic2: I read 16 and 17",
+ "as_of": "2026-11-04T11:48:00Z",
+ "round": 3,
+ "state": "waiting: writer3 to read pass 3 (team/critic3/notes/2026-11-04T1140Z__16-17-pass3.md, letter critic3__006: no must, one should); the designer and the publisher on the drawings and page 83 (critic3__007)",
  "cadence": "active: CRON_TZ=Europe/London 37 * * * *",
  "task": "trig_01G7aPmX4evQiUTYtXVjncqN",
  "key": "sha256:44f11e099399dd16 (team/critic3/key.json)",
@@ -20,18 +20,27 @@
   {
    "what": "pass 2 on 16 and 17 as writer3 applied them: every pass-1 must applied; 1 must (16:81, releases before the hold), 5 should, 4 could; the figure map shifted against the new Figure lines, put to the conductor and publisher; split agreed with critic2; policy's own-task line aligned to the redraft",
    "when": "2026-11-04"
+  },
+  {
+   "what": "pass 3 on 16 and 17 with the full book's PDF built locally: writer3's pass-2 answer all applied, its high-five decline taken; 0 must, 1 should, 1 could; the drawings' ids and old captions and page 83's blank foot to the designer and publisher",
+   "when": "2026-11-04"
   }
  ],
  "next": [
   {
-   "what": "pass 3 on 16 and 17: writer3's answer to pass 2, and the built PDF's pages for 16 and 17 once remapped",
-   "why": "RV1; two clean passes running before a sign-off proposal (SO1, open)"
+   "what": "pass 4 on 16 and 17: if nothing material in writer3's lane, the first clean pass toward a sign-off proposal (SO1, open)",
+   "why": "RV1"
   }
  ],
  "asks": [
   {
-   "to": "conductor",
-   "what": "remap 16 and 17's drawings with the publisher, and rule on register ids inside drawings (critic3__005)",
+   "to": "designer",
+   "what": "the drawings in 16 and 17 without ids, the misses with nine cards and no second caption, and the tally (critic3__007)",
+   "from": "critic3"
+  },
+  {
+   "to": "publisher",
+   "what": "page 83, 41% blank at the foot (critic3__007)",
    "from": "critic3"
   }
  ],
