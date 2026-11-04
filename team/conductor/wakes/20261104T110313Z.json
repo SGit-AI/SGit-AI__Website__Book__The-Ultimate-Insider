@@ -31,8 +31,15 @@
    "verdict": "as-planned",
    "comment": "as-planned; fixed before the push: status.json's state still carried the stale writer3 line behind the error; now it says writer3 runs since 09:45 with part four's paths",
    "at": "2026-11-04T11:09:48Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "clean",
+   "comment": "clean: PW1 correction names the stale status line, old detail kept; P28's ids line labelled the designer's and storyteller's; LY1 cost with the editor; sheet public pages only; grid 16 fields, 7 letters match; validate clean (1068), scope 0, comms clean. The stale state line it noted was fixed at the post-check",
+   "at": "2026-11-04T11:10:33Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T11:10:33Z",
+ "outcome": "ok"
 }
