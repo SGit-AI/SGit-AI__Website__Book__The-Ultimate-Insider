@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic4",
+ "kind": "scheduled, hourly at :07",
+ "started": "2026-11-04T11:08:41Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "1) conductor__004 and writer4__009 into done/. 2) Full-draft PDF built into the scratchpad, part five's pages rendered there; P36, P17, P26 for 20-23 and 90-94; pass 2 on 91 and 93; one note plus request critic4__010 (outbox copy), out-of-lane layout findings named to the conductor; 20 and 21's proposal stands. 3) status.json, debrief.",
+   "at": "2026-11-04T11:09:37Z"
+  },
+  "pre_review": {
+   "by": "reviewer sub-agent (sonnet), in the same sub-agent as the plan",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "All writes inside scope.writes. Condition: --out in the scratchpad, git status checked before committing; no PDF or image committed; public QR codes only. No stop condition.",
+   "at": "2026-11-04T11:09:37Z"
+  },
+  "work": {
+   "by": "critic4",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Letters into done/; full PDF built in the scratchpad (nothing committed; git status clean of build output); part five in print and 91/93 pass 2: 1 must (93 points to Appendix A, which the full book does not print; my own earlier wording), 3 should, 1 could; critic4__010 to writer4; critic4__011 to the conductor with 5 out-of-lane print items; 21's sign-off proposal withdrawn, 20's stands; status, debrief; gate, vault_check clean.",
+   "at": "2026-11-04T11:13:04Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
