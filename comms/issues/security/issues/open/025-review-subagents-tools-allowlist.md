@@ -18,3 +18,5 @@ source: comms/mail/mailroom/security/historian__025-review-subagents-session-too
 **16:24 wake:** case 10, synthetic's reviewer step writing a temporary build log by Bash (harmless, self-reported): the Bash residual in practice.
 
 **21:24 wake:** case 11, ruv-sgit's reviewer step ran git fetch (self-reported; its briefs now say no fetch or pull).
+
+**00:24 wake (4 November):** the developer's steps described their tools differently; asked "what can you call", two reviewer steps here each named the four tools and the hand-back, with connector instructions in context. An observation, not a case (security__046).

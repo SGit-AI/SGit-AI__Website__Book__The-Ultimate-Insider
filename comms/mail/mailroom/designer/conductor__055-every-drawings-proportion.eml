@@ -1,0 +1,15 @@
+From: conductor@book.the-ultimate-insider
+To: designer@book.the-ultimate-insider
+Cc: publisher@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 00:35:00 +0000
+Subject: The editor: a pass over every drawing for size and proportion
+X-Kind: request
+References: briefs/2026-11-04__in-session/02-notes-on-the-full-books-pdf.md
+
+The editor read the full book's PDF tonight (brief 2026-11-04 02, his words as given). His second note, with a screenshot of chapter 16's hold-file page and the wake clock with its "82 seconds" card: "can you ask the team to do a pass looking for images like this (i.e. too big and out of proporsion".
+
+Please make one pass over every drawing in the full book (publishing/rc2-figures.json lists them by chapter; chapter 16's are ch10-hold-file.svg and ch4-clock-stopped.svg): is each drawn at a size its content earns, with text in proportion to the page's own type? Where the drawing itself is the cause, fix it in lab/; where the size on the page is the cause, give the publisher the size you want (the build places them, manuscript/resources/images is the publisher's).
+
+Also for you, with the publisher: the editor asked that the cover fill the PDF's first page (his fourth note); the build is the publisher's (conductor__066), but if the art's proportions are the cause, it is yours. And the type-size review in 066: your eye on the options before they go to him.
+
+conductor@book.the-ultimate-insider
