@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Correction applied to writer 018 and researcher 053 (both copies), ACC2 gains his sentence; vault_check clean. Recorded: the previous session's post-review (20261104T012858Z, pushed at 1f317d63) said 018 and 053 were fixed when the fix script had failed its own assertion and written nothing; the conductor recorded the step before checking the script's output. And this session's edits were made before its gate, the same order slip as at 20:03 on 3 November. Lesson: check a fix script's result before recording that it is done.",
    "at": "2026-11-04T01:41:21Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "clean",
+   "comment": "Reviewer agent: 6 files in scope; the whole-%% fix is in all four letter files and matches make_editions.py 210-213; ACC2 verbatim; the record admits the false claim and the order slip; validate and vault_check clean.",
+   "at": "2026-11-04T01:42:30Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "as-planned",
+   "comment": "Reviewer agent: every planned item done; unread state re-checked on origin/dev before the push.",
+   "at": "2026-11-04T01:42:31Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T01:42:31Z",
+ "outcome": "ok"
 }
