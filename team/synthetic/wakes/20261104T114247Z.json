@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, 11:42 London",
+ "started": "2026-11-04T11:42:47Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, as the reviewer type (plan.md)",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "1) Take writer3__001 (17 line 87 decline accepted: the editor's D12 'a false positive, nothing sensitive; not printed', brief 20 line 15) and writer__227 (07 line 57); 16's lock gloss and 07's sentence verified in the files. 2) RV2 seventh batch: three readers on 18, 19 (writer3) and 06 (writer) into review/synthetic/sections-7/, files loaded after all three report; cites checked; requests to writer3 and writer; grid letter. 3) status, debrief, 008. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T11:44:12Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent, as the reviewer type (pre_review.md)",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Inside scope.writes; no edits to others' paths; no secret, no stop condition. Conditions: readers labelled synthetic; no em-dashes or religious words; vault_check. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T11:44:34Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
