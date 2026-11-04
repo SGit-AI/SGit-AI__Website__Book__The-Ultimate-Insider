@@ -48,7 +48,7 @@
 
 **Narrator.** That is the building, an animation the team made for the talk. Ordinary users come in, go where they are supposed to go, and now and then one finds the gold that is not supposed to be there. But they tend to stop. Agents come in far greater numbers, and they keep going until they find it. As I said in the talk, that is the big difference: the agent does not stop. I did not have to explain the movement. I let it run, and talked about what it meant.
 
-**Narrator.** And later in the talk, not an animation at all: a page I had used for real, the one where I reviewed each agent's policy before it could work. When I onboarded the team that built the talk, each agent asked for what it wanted, and I approved it, changed it or questioned it, and what I agreed became its mandate. I put that page on the screen and said what it was. The room saw a real policy page, not my description of one.
+**Narrator.** And later in the talk, not an animation at all: a page I had used for real, the one where I reviewed each agent's policy before it could work. When I onboarded the team that built the talk, each agent asked for what it wanted, and I approved it, changed it or questioned it, and what I agreed became its mandate. I put that page on the screen and said what it was. The room saw a real policy page, not my description of one. Those were the team's Agent Behaviour Policies, the format RiskMandate uses to write down what an agent is for and what it can reach; with SHarness, they are a lot of what I do.
 
 **Figure:** the policy review page as it was on the screen: one agent's policy, item by item, with a verdict beside each. One line on the page says I had agreed all ten policies; the files say eight of ten by the end of the day.
 
@@ -56,7 +56,7 @@
 
 `%% figure brief: the image: index/talk-site/shots/studio-ports__abp-review__masked.jpg (moved out of the caption, which prints: conductor__033).`
 
-`%% record: C072 (eight of ten agreed) C081 (the page's "all ten" contradicted by the files); security__006 (the QR opens a public page of the talk's site)`
+`%% record: PN1 (signed, brief 33: name Agent Behaviour Policies, RiskMandate and SHarness); C061 (SHarness, from 24 October 2026); manuscript/11b (RiskMandate's Agent Behaviour Policy); C072 (eight of ten agreed) C081 (the page's "all ten" contradicted by the files); security__006 (the QR opens a public page of the talk's site)`
 
 `%% figure brief: The talk's own page, from the librarian's screenshot index/talk-site/shots/studio-ports__abp-review__masked.jpg, if the build's rule for screenshots allows it.`
 

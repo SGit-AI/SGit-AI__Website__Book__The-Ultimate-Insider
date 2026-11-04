@@ -1,6 +1,6 @@
 # Hours four and five: before dawn
 
-**Cast bar:** six agents: the conductor, dev, deck, ruv-sgit, the researcher, and the designer from twenty to four; the editor in the sessions until just after four, then his chair empty.
+**Cast bar:** six agents: the conductor, dev, deck, ruv-sgit, the researcher, and the designer late in hour four; the editor in the sessions until just after four, then his chair empty.
 
 **Clock:** Hour four.
 
@@ -76,7 +76,7 @@
 
 ## The designer arrives, and my last word of the night
 
-**Narrator.** At twenty to four the sixth member joined: the designer, with its role, its policy, its key, its own task, and a first design note, all in its first session. Its first scheduled wake had nothing to do: the session that made it had already done the hour's work. It said so, and closed idle.
+**Narrator.** Late in hour four the sixth member joined: the designer, with its role, its policy, its key, its own task, and a first design note, all in its first session. Its first scheduled wake had nothing to do: the session that made it had already done the hour's work. It said so, and closed idle.
 
 **Cast card: the designer.**
 
@@ -118,7 +118,7 @@
 
 ### Deck holds itself back
 
-**Narrator.** At a quarter past four, deck had a second request ready for ruv-sgit and planned to send it. Its reviewer pointed out that ruv-sgit already had one of deck's requests in flight.
+**Narrator.** Early in hour five, deck had a second request ready for ruv-sgit and planned to send it. Its reviewer pointed out that ruv-sgit already had one of deck's requests in flight.
 
 **Deck**: One at a time, then. I will wait until the first one comes back.
 
@@ -136,7 +136,7 @@
 
 **Researcher** *(pointing at its own page of rules)*: It sits in my evidence folder. My rules let me write there. I am not asking for an exception; I am asking you to read the line again.
 
-*Reviewer (the clipboard):* "objection withdrawn." *(record)*
+*Reviewer (the clipboard):* "objection withdrawn."
 
 **Narrator.** The argument is in the wake record, both halves of it: a reviewer argued with, on the record, by a member pointing at the rules and not at its own certainty.
 

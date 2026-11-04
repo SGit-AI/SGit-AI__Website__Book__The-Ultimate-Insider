@@ -36,9 +36,9 @@
 
 **Narrator.** *Stage four, the post-review.* The reviewer read what had changed. It found the build clean, the checks clean, no secret anywhere. And one thing wrong: the conductor had changed the page of rules, a file every member follows and one outside the conductor's own scope. I had allowed it, but the commit did not say so, and the plan had made saying so a condition.
 
-*Reviewer (a second agent with a checker's brief, drawn as a clipboard):* "Name it in the debrief or record." *(record)*
+*Reviewer (a second agent with a checker's brief, drawn as a clipboard):* "Name it in the debrief or record."
 
-**Conductor**: Stage five, my own check against my own plan, item by item: the finding answered in the debrief and the closing commit, every condition kept. Verdict: partial, not "as planned". The wake closed partial, and the next commit named the edit. Caught by the reviewer I invented. Good. But know what it is: "a second reading, not a second identity." *(record)*
+**Conductor**: Stage five, my own check against my own plan, item by item: the finding answered in the debrief and the closing commit, every condition kept. Verdict: partial, not "as planned". The wake closed partial, and the next commit named the edit. Caught by the reviewer I invented. Good. But know what it is: "a second reading, not a second identity."
 
 **Narrator.** The review caught its own author on the first run. It is also the first entry in the register's list of what the day's post-reviews found and what each fixed.
 
@@ -100,9 +100,9 @@
 
 **Narrator.** One more thing happened in this hour, and it was mine.
 
-**Narrator.** The researcher had delivered its first round of evidence earlier in the hour: the talk's claims graded, the incidents gathered, and a list of changes to make to the talk before I gave it. Deck took the first items on it. Then, in deck's session, I froze the talk. My words, as deck wrote them down:
+**Narrator.** The researcher had delivered its first round of evidence earlier in the hour: the talk's claims graded, the incidents gathered, and a list of changes to make to the talk before I gave it. Deck took the first items on it. Then, in deck's session, I froze the talk: I told deck that the slides were not to be touched from then on.
 
-> "do not touch the deck. talk.json and the slides are frozen from now on" *(record)*
+`%% record: his words as deck wrote them down: "do not touch the deck. talk.json and the slides are frozen from now on" (the newsroom's pass 1: told without quoting him)`
 
 **Narrator.** Five minutes later, the researcher proposed the rest of its list to deck, as exact replacement text. One of the items was a number on the talk's definition slide, which the researcher now had a newer source for. It arrived just after a freeze I had set. Deck recorded the rest of the list as not acted on, because of the freeze.
 
