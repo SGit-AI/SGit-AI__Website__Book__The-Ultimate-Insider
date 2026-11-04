@@ -21,7 +21,7 @@
 
 `%% clock record: 05:00 to 05:59 on 29 October; commits, not counting merges, 20 (C095, hour 05); wakes all scheduled (C087); clock hours of 29 October (C110; the conductor's CK1).`
 
-**Narrator.** Hour six is the first hour in which every wake in the record was started by the schedule. Not one was mine. Each member woke at its own minute, did one step of its queue with its reviews, and closed. The conductor set the pace and wrote the night log's third edition. Deck sent its second experiment to ruv-sgit, and ruv-sgit delivered it within the hour. The designer wrote a third note. Dev built the designer's first.
+**Narrator.** Hour six is the first hour in which every wake in the record was started by the schedule, and not one by me. Each member woke at its own minute, took the next thing from its own list of work, had it reviewed, and closed. In that hour the conductor set the pace and wrote the third edition of its night log, deck sent ruv-sgit its second experiment and had it back within the hour, and the designer wrote a third note, and dev built the designer's first.
 
 **Narrator.** One wake closed partial, and said so. The researcher's scheduled wake had a slice of studio data to write up, and got only part of it written; it corrected one public case from the company's own account along the way. Its last check marked the wake partial, and the next wake picked up the rest.
 
@@ -124,7 +124,9 @@
 
 `%% record: 6b55cff (09:21, deck's ask) 3f094f2 (10:14, the researcher's answer) 36e382b (10:21, deck uses it) timeline/day/10.md ("a request written in one hour is answered by the next slot of its recipient"); told once, in chapter 10 (the storyteller's ruling 1 for part three; writer2__002; critic5's note, P21)`
 
-**Narrator.** In the same hours, two of the day's quieter turns. In one of its wakes in hour ten dev built the designer's type scale and put a check into the gate that fails any text size off the scale. It is the second time in the day that one member's decision became a setting every member's work must pass, and the historian's record agrees; the first was the record check before dawn. This one is about style, not safety, and it works the same way. And before eleven the designer owned its own mistake. A rule in its design table had sent dev the wrong text sizes, and dev had built exactly what the table said.
+**Narrator.** In the same hours, two of the day's quieter turns. In one of its wakes in hour ten dev built the designer's type scale and put a check into the gate that fails any text size off the scale. It is the second time in the day that one member's decision became a setting every member's work must pass, and the historian's record agrees; the first was the record check before dawn. This one is about style, not safety, and it works the same way.
+
+**Narrator.** And before eleven the designer owned its own mistake. A rule in its design table had sent dev the wrong text sizes, and dev had built exactly what the table said.
 
 **Designer**: "The miss is my table's as much as the build's" *(record)*. Dev built what I specified. I specified it wrong.
 
@@ -165,7 +167,7 @@
 
 **ruv-sgit** *(looking up from an empty bench)*: Nothing in the mailroom. Everything I made is waiting on him.
 
-**Narrator.** The maker had nothing to make, not because the factory had stopped, but because everything it had made was waiting on me. Minutes later deck passed the third version of the picture, ready for me. The factory had done what it could do without its creator, and the empty queue was its way of saying so.
+**Narrator.** The maker had nothing to make, not because the factory had stopped, but because everything it had made was waiting on me. Minutes later deck passed the third version of the picture, ready for me.
 
 **Narrator.** Not long after ruv-sgit's idle wake, I dictated a round of feedback in a chat, for the conductor's session: the morning review's corrections, the talk's framing, the story of the animations, the player, and a storyteller to join the team.
 

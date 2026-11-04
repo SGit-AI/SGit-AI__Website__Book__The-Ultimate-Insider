@@ -54,11 +54,11 @@
 
 `%% layout: beside`
 
-`%% figure brief: the image: index/talk-site/shots/studio-ports__abp-review.jpg (moved out of the caption, which prints: conductor__033).`
+`%% figure brief: the image: index/talk-site/shots/studio-ports__abp-review__masked.jpg (moved out of the caption, which prints: conductor__033).`
 
 `%% record: C072 (eight of ten agreed) C081 (the page's "all ten" contradicted by the files); security__006 (the QR opens a public page of the talk's site)`
 
-`%% figure brief: The talk's own page, from the librarian's screenshot index/talk-site/shots/studio-ports__abp-review.jpg, if the build's rule for screenshots allows it.`
+`%% figure brief: The talk's own page, from the librarian's screenshot index/talk-site/shots/studio-ports__abp-review__masked.jpg, if the build's rule for screenshots allows it.`
 
 `%% record: C102 (the building, at 15:50 on the recording) C109 (the policy page, at 58:53; the passage goes on to say every agent's scope was defined, and by the end of the day 8 of 10 policies were agreed, C072) a9c0b49 (the talk as given, its transcript added after the day) studio-ports/abp-review/`
 `%% band: Dramatised from the talk as I gave it.`

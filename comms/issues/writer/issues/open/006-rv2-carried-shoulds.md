@@ -21,3 +21,4 @@ source: storyteller__131, storyteller__133, synthetic__006, synthetic__007, crit
 - LY1 (conductor 034) items not done this wake: the cast cards early, and (4) the icons, callouts and words boxes in 02 to 09; on board 006.
 - 4 November 2026, 17:34 UTC: after the hold, the held work released; synthetic 012's shoulds carried (06's scope passage, chapter 18 owns it; the conductor's limit quoted once).
 - 4 November 2026, 18:33 UTC: synthetic 013 carried: 09:24 (the two lists), 09:127 (the long paragraph), 09:149 and 166 (the queue). HL1: 00:13 follows writer4's 23 when set (writer__238).
+- 4 November 2026, 19:31 UTC: synthetic 013's 09 shoulds taken. Carried: ruv-sgit 076's could (05: "fifteen minutes apart" in the caption against the drawing's wording; both in 09f13d5).

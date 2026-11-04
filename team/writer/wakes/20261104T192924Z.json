@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T19:29:24Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Go with conditions: 00:13 matches 23 line 84, only the hold clause; 09 reshaped in prose only, no new number, ruv-sgit's line kept dramatised; designer 143's paths carried or added in briefs only; untaken items dated on board 006; pull again before the push (HR1).",
+   "at": "2026-11-04T19:30:41Z"
+  },
+  "pre_review": {
+   "by": "security (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Go: the masked file exists and is security 020's cleared copy; the unmasked is refused by edition.py; after the edit grep abp-review\\.jpg in 01 returns nothing; no image file or edition.py touched; no new number; em-dash, RW1, vault_check, scope, gate.",
+   "at": "2026-11-04T19:30:41Z"
+  },
+  "work": {
+   "by": "writer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "01 masked shot named; 00 step 5 under HL1; 09 three shoulds (24, 127, the queue once). Letters 242 to 244.",
+   "at": "2026-11-04T19:31:57Z"
+  },
+  "post_review": {
+   "by": "security (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "clean",
+   "comment": "Diff cbefb2e..efc7d043 clean: 01 names only the masked shot; 00:13 matches 23's HL1, no number; 09 adds no fact; no dash, RW1 word, secret or valve issue. Optional fix taken: 09:24's ambiguous 'its first' now 'the designer's first'.",
+   "at": "2026-11-04T19:33:33Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "as-planned",
+   "comment": "Scope 0, nothing after the commit, seven letters filed, board updated. Gap fixed: the debrief now says designer 143's drawings are carried to the publisher's placing. Gate re-run green.",
+   "at": "2026-11-04T19:33:33Z"
+  }
+ },
+ "closed": "2026-11-04T19:33:34Z",
+ "outcome": "ok"
+}
