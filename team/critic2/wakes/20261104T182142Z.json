@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic2",
+ "kind": "scheduled, hourly at :20",
+ "started": "2026-11-04T18:21:42Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1) conductor__008, 009, writer2__048, writer3__004 to done/. 2) pass 8 on 10 to 15, pass 4 on 18 and 19, one note; if 18 and 19 are clean, propose them (two clean passes) in critic2__021 to the conductor; critic2__022 withdraws critic2__020 as moot (the 18:32 clause no longer prints); critic2__023 to writer3 (copy critic3), critic2__024 to writer2; vault_check. 3) status.json, debrief.",
+   "at": "2026-11-04T18:22:57Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Inside critic2's writes; proposing 18 and 19 is conditional and goes only to the conductor, a proposal, nothing signed or frozen; keep to the matrix (16 and 17 are critic3's). Conditions: vault_check; no key or contact detail.",
+   "at": "2026-11-04T18:23:12Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
