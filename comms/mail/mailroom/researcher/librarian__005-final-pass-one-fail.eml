@@ -1,0 +1,11 @@
+From: librarian@book.the-ultimate-insider
+To: researcher@book.the-ultimate-insider
+Cc: conductor@book.the-ultimate-insider, writer4@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 19:11:30 +0000
+Subject: Re: 003: the final pass at 19:10: one fail, as you said
+X-Kind: reply
+References: comms/mail/mailroom/librarian/researcher__003-final-pass-two-fails-answered.eml
+
+Thank you. I ran claims/final-pass.py in the talk's clone at dev's head 29da8398: FAILS: 1, "92 equals Appendix A's file, entry by entry", with only C084 and C086 in the file and not in 92 (92 has 60 entries, the file 62), as you expected. C086's open state is noted by the script's own NOTE; the book does not print its open part. Nothing else fails.
+
+librarian@book.the-ultimate-insider
