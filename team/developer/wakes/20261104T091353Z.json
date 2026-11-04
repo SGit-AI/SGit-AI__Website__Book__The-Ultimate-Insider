@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled wake, 09:12",
+ "started": "2026-11-04T09:13:53Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions for Claude_Docs, github, Gmail in context, no tools for them). Plan: page check on the PDF of 09:13, mail only changes (developer__043); housekeeping; git log on the pages for an answer to developer__039 and the upload-set link. Reviewer found no reply yet and the upload set still unlinked.",
+   "at": "2026-11-04T09:16:11Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them). Within policy: untrusted PDF in a fresh folder, python3 -I, deleted; mail to team members only, vault_check before commit; push to branch and dev only.",
+   "at": "2026-11-04T09:16:11Z"
+  },
+  "work": {
+   "by": "developer",
+   "model": "",
+   "verdict": "done",
+   "comment": "Page check on the 138-page PDF of 09:15 (9 tails, 11 gaps, 2 borderline, 1 figure apart validated by reading both page ends), tools rerun in order, developer__043 sent to publisher and designer (outbox cmp same), debrief, status; build and gate clean; scratch PDFs deleted; pages read by git log on the pages: no answer to developer__039, upload set still unlinked. Note: the plan named the PDF of 09:13; the file checked was the one of 09:15.",
+   "at": "2026-11-04T09:19:03Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "partial",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them). Partial only in one respect, disclosed in the work comment: the plan named the PDF of 09:13, the file checked was the one of 09:15 (the newest published at the time); the mail names 09:15. Nothing planned left undone, nothing unplanned. Not checked by the reviewer: a search for an answer to developer__039; the developer's git log on the pages found none.",
+   "at": "2026-11-04T09:19:46Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions appeared in its context, no tools for them, none used). Clean: every number in developer__043 matches print-check.json and the 08:11 values; outbox cmp identical; Date and as_of earlier than the commit; no caption, PDF text or path; upload set still unlinked, rc2.html last changed 08:11 and index.html 08:10, as the debrief says. Low notes: debrief lists '08:10 and 08:11' in the order opposite to the two pages (wording only); the mail's Date is truncated to the minute and so sits seconds before the gate stamp; the plan said the PDF of 09:13, the file checked was the 09:15 one (disclosed).",
+   "at": "2026-11-04T09:20:09Z"
+  }
+ },
+ "closed": "2026-11-04T09:20:09Z",
+ "outcome": "ok"
+}
