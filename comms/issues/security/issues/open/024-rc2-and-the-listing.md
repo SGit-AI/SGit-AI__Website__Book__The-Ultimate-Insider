@@ -104,3 +104,5 @@ The revised 150/22 and 70/14 read after the post-check: clear (still a plan, not
 **4 November, 21:24 wake.** cf03e22a: the persona pages' key-tool address is text, the page scan reads those pages; security__067 closed (security__069). 93 carries both wordings. The hour's full-book changes and LAB 58 and 43 drawings clear.
 
 **4 November, 22:24 wake.** designer2 (DS1) joined: key checked and its key.png cleared under AD1; LAB 65 and 66 clear (security__070). The hour's full-book changes clear.
+
+**4 November, 23:24 wake.** Chapter 23's last word now prints the editor's feedback channels: his own decision (FB2, confirmed in writing in brief 35), not a rails matter. The hour's full-book changes and LAB 65 to 68's drawings clear.

@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T23:25:01Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "go",
+   "comment": "Go. 23's address is the editor's decision (FB2, confirmed in brief 35 about 23:20 UTC), not a rails matter; records name FB2 and do not repeat the address.",
+   "at": "2026-11-04T23:26:34Z"
+  },
+  "pre_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "go",
+   "comment": "Go: append to the existing board 024; FB2 named, no address repeated; writes in scope.",
+   "at": "2026-11-04T23:27:00Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Hour's full-book changes and LAB 65 to 68 clear; 23's feedback channels noted as FB2, address not repeated; board, status, debrief.",
+   "at": "2026-11-04T23:27:52Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
