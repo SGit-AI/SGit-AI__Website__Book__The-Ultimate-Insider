@@ -135,7 +135,7 @@ COVER_SIX = [("dev", "the builder in the hard hat:", "fast, practical"),
              ("designer", "the beret and the pencil:", "precise, polite")]
 
 
-def cover_signed():
+def cover_signed(height=H):
     """The book's official cover (the editor, 3 November 2026, about 00:40 UTC: "great, can you make this the official
     cover design"), after two rounds on CV1 A in his chat: GEN ZX FOUNDERS small on the left margin with the ZX larger;
     the signed title (NS1) and subtitle; six cast cards, each with its temperament abridged from the cast guide
@@ -167,13 +167,19 @@ def cover_signed():
          tt(14, 109, "and how to build yours", 7.6, 400)]
     for i, (m, l1, l2) in enumerate(COVER_SIX):
         b.append(card(m, l1, l2, 14 + (i % 3) * 54.5, 117 + (i // 3) * 50))
-    b += [f'<path d="M{W - 46 + i * 7} {H} L{W - 40.5 + i * 7} {H} L{W} {H - (40.5 - i * 7)} L{W} {H - (46 - i * 7)} z" fill="{c}"/>'
+    # a taller cover (Leanpub's 2:3, LAB 44) keeps the series line at the top and the author at the foot, and centres
+    # the title and the cards in the extra height; at the default height nothing moves
+    dy = (height - H) / 2
+    if dy:
+        b = b[:3] + [f'<g transform="translate(0 {dy:.2f})">'] + b[3:] + ["</g>"]
+    Hc = height
+    b += [f'<path d="M{W - 46 + i * 7} {Hc} L{W - 40.5 + i * 7} {Hc} L{W} {Hc - (40.5 - i * 7)} L{W} {Hc - (46 - i * 7)} z" fill="{c}"/>'
           for i, c in enumerate(SPECTRUM)]
-    b += [tt(14, H - 15, "DINIS CRUZ", 8, 700, spacing=2.2),
-          tt(14, H - 8, "RC2  \u00b7  NOVEMBER 2026  \u00b7  CC BY 4.0", 4.4, 500, MUTED_D, spacing=1)]
-    return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}mm" height="{H}mm" viewBox="0 0 {W} {H}" role="img" '
+    b += [tt(14, Hc - 15, "DINIS CRUZ", 8, 700, spacing=2.2),
+          tt(14, Hc - 8, "RC2  \u00b7  NOVEMBER 2026  \u00b7  CC BY 4.0", 4.4, 500, MUTED_D, spacing=1)]
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}mm" height="{Hc:g}mm" viewBox="0 0 {W} {Hc:g}" role="img" '
             f'aria-label="Cover: Gen ZX Founders. One Human, Nine Agents, Nineteen Hours. How a factory of AI agents built a presentation in a day, and how to build yours. Six of the cast: dev, conductor, deck, ruv-sgit, researcher, designer. Dinis Cruz. RC2, November 2026, CC BY 4.0.">'
-            f'<rect width="{W}" height="{H}" fill="{GROUND}"/>' + "".join(b) + "</svg>\n")
+            f'<rect width="{W}" height="{Hc:g}" fill="{GROUND}"/>' + "".join(b) + "</svg>\n")
 
 
 def ladder(current, unit=4.0, label=True):

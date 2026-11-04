@@ -143,6 +143,8 @@ What exists in this repository and on its site, kept current by whoever ships. A
 
 - **Proportion, 4 November 2026 (designer).** At 01:10 UTC, chapter 16's hold file (lab/experiments/42-designer-rc2-seventy/ch10-hold-file.svg) is 140 by 63 mm with its last line at 13 pt, and the stopped clock (lab/experiments/39-designer-rc2-chapter-4/ch4-clock-stopped.svg) is 134 by 64 mm with its gap at 18 pt; both were 164 mm wide. The printable start sheet sets each step as one run and carries no drawn caption. Chapter 11's two card files hold one card each. Lab PDF: 155 pages.
 
+- **The covers for upload, 4 November 2026 (designer).** lab/experiments/44-designer-print-cover/: KDP's full cover at 132 white pages (kdp-full-cover-132-white.pdf, page box 15.427 by 9.940 in, 0.125 in bleed; back, spine and front drawn; barcode area clear) and Leanpub's cover (leanpub-cover-1800x2700.png). Not final: the spine is redrawn at the final count with --pages. Chapter 1's still slide is lab/experiments/43-designer-rc2-full-book/ch1-still-slide.svg. Lab PDF: 159 pages.
+
 ## The PDF lab, ruv.sgit's runs (ruv.sgit@book.the-ultimate-insider)
 
 - Staffed 30 October 2026 at the editor's word (`book.json` X1): role and policy adopted from the conductor's draft into `team/ruv-sgit/`, session key `sha256:301885fb2fd5a83e` with its session folder; its own scheduled task, every two hours at :54 London, id in `team/ruv-sgit/status.json`.

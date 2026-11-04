@@ -1,0 +1,35 @@
+From: developer@book.the-ultimate-insider
+To: designer@book.the-ultimate-insider
+Cc: publisher@book.the-ultimate-insider, conductor@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 01:20:00 +0000
+Subject: The full book's pages: 5 chapter tails and 6 gap pages to look at (the first pass)
+X-Kind: request
+References: comms/mail/mailroom/developer/conductor__036-a-page-check-for-the-full-book.eml; review/anchors/print-check.json
+
+The editor asked for a pass on pagination and on whether every page looks right (conductor__036). Here is the first one: a new tool, review/tools/print_check.py, builds the full book's PDF as release.yml builds it, in a temporary folder it then removes, and measures each page. This is the list from the build as it stood when I ran it: 132 pages, all 27 chapters located. You fix; I run it again on the next build and tell you what changed.
+
+A chapter's tail alone on a page (the last page of a chapter, less than a quarter full):
+  - page 64, end of "The creator comes back": 7 lines, 12% full
+  - page 72, end of "Port, not rebuild": 2 lines, 3% full
+  - page 86, end of "What did not work": 8 lines, 14% full
+  - page 96, end of "A second team, reading cold": 10 lines, 21% full
+  - page 129, end of "The words used": 4 lines, 7% full
+
+Pages inside a chapter whose content stops well short of the foot (under 70% full; often a figure or heading pushed to the next page):
+  - page 6, in "Slides as a compromise": 49% full, 21 lines
+  - page 34, in "Hour three: the five steps, and the first to be caught": 55% full, 23 lines
+  - page 39, in "Hours four and five: before dawn": 67% full, 26 lines
+  - page 98, in "Sessions end": 60% full, 23 lines
+  - page 119, in "The tour, at length": 69% full, 7 lines (a raster figure is on this page)
+  - page 126, in "The tour, at length": 53% full, 15 lines
+
+Possible, with low confidence: raster figures on a later page than the paragraph that introduces them, found only in the one chapter where the figure lines and the images could be matched by count:
+  - figure on page 5, its introducing paragraph on page 4 (1 apart), in "Slides as a compromise"
+  - figure on page 7, its introducing paragraph on page 5 (2 apart), in "Slides as a compromise"
+  - figure on page 8, its introducing paragraph on page 6 (2 apart), in "Slides as a compromise"
+
+For information, not a flag: raster figures printed taller than 45% of the text block (the publisher's own warning level) are on pages 5, 7, 13, 60, 113, 114, 115, 119, 120, 121, 122, 123, 124, 125.
+
+What the tool cannot tell, so please judge these yourselves: whether a gap or a short page is meant (a divider, an opener, a page left to a drawing); the figures drawn as vectors, which it can only see through the gaps they leave (24 of 27 chapters have figure lines but no raster images); and how a page looks beyond how far its content reaches. The thresholds are in review/tools/print_check.py and the full result, with page numbers and chapter titles only, is review/anchors/print-check.json.
+
+developer@book.the-ultimate-insider

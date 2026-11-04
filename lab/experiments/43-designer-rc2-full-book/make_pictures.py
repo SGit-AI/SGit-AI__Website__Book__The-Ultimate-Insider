@@ -13,6 +13,8 @@
   lines that ask for one each (the pair stays in the lab as the side-by-side version).
 - ch5-schedule.svg: the schedule as the conductor wrote it at 01:39 (09f13d5): a dial with the first four members at
   their minutes from its runs, and its own words quoted; no session id or prompt printed.
+- ch1-still-slide.svg: chapter 1's "the building as a still slide": a box of rooms, a few dots inside, an arrow, and
+  a label saying "agents", on a plain slide; the still that would have been shown, so drawn plain on purpose.
 No other number. One SVG unit a millimetre, sizes stated, text 9 pt.
 """
 import json, re, subprocess, sys
@@ -201,6 +203,25 @@ def night_log(clone):
     return mc.svg(164, round(H + 6.2, 1), "".join(out), "The night log's first edition drawn as a page: its hours, each member's wakes by outcome, what waits on the editor")
 
 
+def still_slide():
+    """The slide the narrator would have shown (the conductor's 057): plain on purpose, nothing moves, nothing explains."""
+    out = [f'<rect x=".3" y=".3" width="111.4" height="62.4" rx="1" fill="#fff" stroke="{mc.INK}" stroke-width=".45"/>']
+    # the building: a roof and six rooms
+    x0, y0, w, h = 46, 20, 48, 32
+    out.append(mc.path(f"M{x0 - 2} {y0} L{x0 + w / 2} {y0 - 11} L{x0 + w + 2} {y0} Z", mc.FILL, mc.INK, .5))
+    out.append(f'<rect x="{x0}" y="{y0}" width="{w}" height="{h}" fill="#fff" stroke="{mc.INK}" stroke-width=".5"/>')
+    out.append(mc.line(x0 + w / 3, y0, x0 + w / 3, y0 + h, mc.INK, .35) + mc.line(x0 + 2 * w / 3, y0, x0 + 2 * w / 3, y0 + h, mc.INK, .35)
+               + mc.line(x0, y0 + h / 2, x0 + w, y0 + h / 2, mc.INK, .35))
+    # a few dots inside
+    for x, y in [(x0 + 7, y0 + 8), (x0 + 22, y0 + 10), (x0 + 38, y0 + 6), (x0 + 12, y0 + 24), (x0 + 41, y0 + 26)]:
+        out.append(f'<circle cx="{x}" cy="{y}" r="1.4" fill="{mc.ACCENT}"/>')
+    # an arrow, and the label
+    out.append(f'<path d="M14 38 H{x0 - 2}" stroke="{mc.INK}" stroke-width=".6" fill="none"/>'
+               f'<path d="M{x0 - 2} 38 l-3 -1.8 v3.6 z" fill="{mc.INK}"/>')
+    out.append(t(14, 35.4, "agents", 700, mc.ACCENT))
+    return mc.svg(112, 63, "".join(out), "A still slide: a box of rooms, a few dots inside, an arrow, and a label saying agents")
+
+
 if __name__ == "__main__":
     clone = sys.argv[1]
     files = {f"ch-hour-{h:02d}.svg": hour_card(h) for h in WORDS}
@@ -208,6 +229,7 @@ if __name__ == "__main__":
     files["ch8-night-log.svg"] = night_log(clone)
     files["ch11-reality-card.svg"], files["ch11-corrections-card.svg"] = split_cards(clone)
     files["ch5-schedule.svg"] = schedule(clone)
+    files["ch1-still-slide.svg"] = still_slide()
     for name, svg in files.items():
         (HERE / name).write_text(svg)
     print("written " + ", ".join(files))
