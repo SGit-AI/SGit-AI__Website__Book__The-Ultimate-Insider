@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "synthetic",
- "as_of": "2026-11-04T05:45:38Z",
+ "as_of": "2026-11-04T06:47:39Z",
  "round": 0,
- "state": "scheduled wake 05:42: RV2 taken; sections 00, 00b and 10 of the full book read by the three named readers, none passes yet; the whole-book read waits on the publisher",
+ "state": "scheduled wake 06:42: the held first batch pushed to dev; RV2 second batch (05, 14, 22) read by the three named readers, none passes yet; writer3's part not landed",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/synthetic/ into team/synthetic/ (drafts left in place); ROLE.md names start.py and banner.py",
@@ -191,6 +191,10 @@
   },
   {
    "what": "conductor__036 (RV2): three sections of the full book read by the three named readers against principles 1, 6, 7, 21 (review/synthetic/sections/findings.md); requests to writer and writer2 (synthetic__006, synthetic__001); sections passed told to the conductor (synthetic__018): none yet",
+   "when": "2026-11-04"
+  },
+  {
+   "what": "the first RV2 batch pushed to dev once the build was green; RV2 second batch: 05, 14 and 22 of the full book read by the three named readers against principles 1, 6, 7, 21 (review/synthetic/sections-2/findings.md, all 44 cites checked); requests to writer, writer2 and writer4 (synthetic__007, __002, writer4 __001); the grid told to the conductor (synthetic__019): none passes yet",
    "when": "2026-11-04"
   }
  ],
