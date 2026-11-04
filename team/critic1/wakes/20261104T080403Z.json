@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic1",
+ "kind": "scheduled, hourly at :03 London",
+ "started": "2026-11-04T08:04:03Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1) take conductor__003, publisher__001, writer__199 (copies to done, mailroom untouched); 2) third pass on 03 and 04 and a sweep of every Figure line in 00 to 09 (conductor__003); note; if 03 is clean twice running, propose it (not signed, SO1 open) in status.json and a letter to the conductor; a letter to writer@ only with findings; 3) status.json, debrief. Inside policy. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T08:04:37Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside scope.writes; mail copied to its own done, mailroom untouched; 03 only proposed, not signed, SO1 open, as the never-list allows; no stop condition, no secret, no other member's file. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T08:04:50Z"
+  },
+  "work": {
+   "by": "critic1",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "letters taken (copies to done); third pass on 03 (1 should: the house figure without its paragraph, so no proposal) and 04 (nothing material, first clean pass); Figure lines of 00 to 09 clean (conductor__003); note 004, letter critic1__006; status, debrief. No tool refused.",
+   "at": "2026-11-04T08:06:19Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "9 staged paths inside scope.writes; vault_check clean; agents check 0 outside scope; no em-dashes, religious words, keys or contact details; no manuscript or other member's file; nothing marked signed; the note asks only for plain-word glosses of vault and fingerprint and identifies no key. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T08:06:39Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Three letters copied to done, mailroom untouched; the note covers 03 and 04, quotes at 03:85, 87, 93 and 04:9 match; Figure and Map lines of 00 to 09 carry no path, id or time; 1 should in 03, so no proposal; letter and outbox copy; status and debrief staged; no manuscript file. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T08:07:07Z"
+  }
+ },
+ "closed": "2026-11-04T08:07:07Z",
+ "outcome": "ok"
+}
