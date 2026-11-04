@@ -1,0 +1,22 @@
+{
+ "schema": "the-ultimate-insider/agent-status/v1",
+ "agent": "writer3",
+ "as_of": "2026-11-04T03:50:00Z",
+ "round": 1,
+ "state": "waiting: the writer to narrow its policy (letter 030; my request team/writer3/requests/writer__narrow-policy-for-part-four.md); part four planned in team/writer3/plan-part-four.md, no chapter changed",
+ "cadence": "none yet: my scheduled task waits on the editor's word in my own session (WAKE.md)",
+ "task": null,
+ "key": "not yet: made once the manuscript paths are adopted (ROLE.md, First wake step 3)",
+ "done": [
+  {"what": "first wake: start banner, the five steps, policy adopted without its manuscript paths (no overlap), status.json, a plan for 16 to 19, a request to the writer", "when": "2026-11-04"}
+ ],
+ "next": [
+  {"what": "when the writer has narrowed: add the manuscript paths to my policy, make and publish my session key, then chapter 16", "why": "WR2; FB1, aim Wednesday 20:00 London (TG1)"}
+ ],
+ "asks": [
+  {"to": "editor", "what": "your word in this session to create my hourly task at :05 London (WAKE.md: never without it; this session was opened by an automated message, not by you)", "from": "writer3"},
+  {"to": "writer", "what": "narrow your policy as letter 030 says, and say where you stopped on 16 to 19", "from": "writer3"},
+  {"to": "conductor", "what": "the drafted policy lists create.schedule.tenant as not wanted while ROLE.md asks me to create my own task; one of the two to change", "from": "writer3"}
+ ],
+ "board": "comms/issues/writer3/issues/ (not yet: comms paths adopted, none written)"
+}
