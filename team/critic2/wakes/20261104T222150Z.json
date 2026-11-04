@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Note and status line under team/critic2/**; 18 and 19 in scope.content; no manuscript, book.json or other members' files; no secrets or stop condition.",
    "at": "2026-11-04T22:23:04Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Both items in 54e5a47b: the pass-6 note keeping the proposals, and the status.json line; no letters.",
+   "at": "2026-11-04T22:24:06Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "54e5a47b only team/critic2/**; agents.py 0 outside; gate clean (1218); no secrets, directing text or comms changes.",
+   "at": "2026-11-04T22:24:37Z"
+  },
+  "work": {
+   "by": "critic2",
+   "model": "",
+   "verdict": "done",
+   "comment": "pass 6 on 18 and 19: nothing; proposals stand",
+   "at": "2026-11-04T22:24:37Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T22:24:37Z",
+ "outcome": "ok"
 }
