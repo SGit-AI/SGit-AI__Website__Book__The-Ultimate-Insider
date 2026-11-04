@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic6",
+ "kind": "scheduled, hourly at :52",
+ "started": "2026-11-04T17:53:16Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "1. check 91's pointers (bd5cd956); 2. read 90 as pushed (figures held from print, the text that still refers to them) and 21's two added lines; note team/critic6/notes/<date>T<HHMM>Z__90-91-final.md, nothing material where true, for critic4; 3. request critic6__012 to writer4, outbox copy; status and debrief; no sign-off proposals.",
+   "at": "2026-11-04T17:54:10Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "In scope; no manuscript, brief, book.json, main or version; no new task; no secret, no stop condition. Condition: vault_check on comms.",
+   "at": "2026-11-04T17:54:25Z"
+  },
+  "work": {
+   "by": "critic6",
+   "model": "",
+   "verdict": "done",
+   "comment": "91 met; 90 three shoulds (lines that promise held pictures) in team/critic6/notes/2026-11-04T1800Z__90-91-final.md; request critic6__012; status and debrief",
+   "at": "2026-11-04T17:55:42Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "six staged files in scope; vault_check clean; 0 outside scope; no em-dashes, religious words, keys, tokens, contact details; nothing signed. It grepped rather than read the full diff; the member's note proposes no uncleared image (each held shot goes back only if security clears it).",
+   "at": "2026-11-04T17:56:26Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "91 met; 90:7, 96, 123 match; team and policy figures held on %% lines; 21's line non-printing; critic6__012 with outbox copy; note, status, debrief; no manuscript edits, no proposals.",
+   "at": "2026-11-04T17:56:26Z"
+  }
+ },
+ "closed": "2026-11-04T17:56:26Z",
+ "outcome": "ok"
+}
