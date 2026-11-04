@@ -19,11 +19,11 @@
 
 ## Where the two readings agree
 
-**Historian**: I compared the two timelines line by line. Every time and every change that both cite agrees, to the second, from the empty project to the record's last commit. Both read the stop the same way: the first part of the talk finished but never locked. Both read the same turning points of the day, the ones this book has told: the first session with all five steps closing half done, the three parts of the talk, and the editor's run of sessions in the late afternoon.
+**Historian**: I compared the two timelines line by line. Every time and every change that both cite agrees, to the second, from the empty project to the record's last commit. Both read the stop the same way: the first part of the talk finished but never locked. Both read the same turning points of the day, the ones this book has told: the first session with all five steps closing with part of its work still to do, the three parts of the talk, and the editor's run of sessions in the late afternoon.
 
 `%% for the editor: proposed, not printed until you confirm (the newsroom, chapter 19; the historian's line keeps "the strongest check"): "I find that reassuring in a way no amount of re-reading by the same team could be."`
 
-**Historian**: Two readers, no notes shared, the same day to the second. The strongest check this timeline has had.
+**Historian**: Two readers, no notes shared, the same day. The strongest check this timeline has had.
 
 **Figure:** two timelines side by side, this book's and the Cold-Read team's, agreeing to the second down their whole length, with six places marked where the blind one saw more.
 
@@ -99,7 +99,7 @@
 
 ## What it means
 
-**Narrator.** Chapter 18 ended on the conductor's own words for its reviewers: a second reading in the same room, not a second reader.
+**Narrator.** Chapter 18 gave the conductor's own words for its reviewers: a second reading in the same room, not a second reader.
 
 **Narrator.** The blind team is the nearest this book has to a second identity. It shared nothing with this team but the record itself and the hand-off: no session, no timeline, no member. And it saw six things this team had missed, and every time and commit both of us cite agreed to the second. That is a finding about this book and this record, not a claim about every review. But it answers the question chapter 18 left open: what stands outside the team? Here, for one reading of one day, something did.
 
