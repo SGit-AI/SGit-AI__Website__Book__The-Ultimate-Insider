@@ -219,6 +219,7 @@ def printed_ids(raw, drop, ch, name):
     return ids, n
 
 
+SCRIPTS_OK = ('{{root}}review/pages.js', '{{root}}review/pen.js')   # the only scripts a review page may load (the site's own, by the page templates in make_review.py)
 URL_ATTRS = ('href', 'src', 'srcset', 'action', 'formaction', 'poster', 'data', 'cite', 'background', 'ping', 'xlink:href', 'longdesc', 'manifest')
 
 
@@ -269,8 +270,7 @@ def page_attribute_problem(page):
     """The first thing on the page that breaks the rule, or None if the page is clean. Tags are read with a parser, so quoting does not
     matter (security__007): a url attribute the allow-list refuses; any attribute value, or the tag's own raw text, carrying an address
     off the two hosts (a '//host', or one in other letters, included); a css url() the allow-list refuses, or css with @import, image-set or
-    escapes; a tag the parser cannot read. The scan is about addresses: scripts and on* handlers belong to the page templates (make_review.py)
-    and are not read here."""
+    escapes; a script other than the site's own two (SCRIPTS_OK), an inline script, or an on* attribute; a tag the parser cannot read."""
     t = _Tags()
     try:
         t.feed(page)
@@ -278,9 +278,15 @@ def page_attribute_problem(page):
     except Exception as e:                                           # a page the parser cannot read is refused, not guessed at
         return f'unreadable markup: {e}'
     for tag, attrs, raw in t.tags:
+        if tag.lower() == 'script':                                  # security__008: only the site's own two scripts, by their source; no inline script
+            src = next((v for n, v in attrs if n.lower() == 'src'), None)
+            if src not in SCRIPTS_OK:
+                return f'<script> that is not one of the site\'s own: {(src or "inline")[:80]}'
         for name, v in attrs:
             n = name.lower()
             v = v or ''
+            if n.startswith('on'):                                   # an event handler, in any letters
+                return f'<{tag} {name}=...>: an event handler'
             urls = [x.split()[0] for x in v.split(',') if x.strip()] if n == 'srcset' else [v]
             if n in URL_ATTRS and not all(url_ok(x) for x in urls):
                 return f'<{tag} {name}="{v[:80]}">'
