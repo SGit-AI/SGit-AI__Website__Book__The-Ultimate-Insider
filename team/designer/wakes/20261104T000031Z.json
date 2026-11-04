@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, hourly at :57 London",
+ "started": "2026-11-04T00:00:31Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, as the reviewer agent; no tool refused",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. LAB 43: ch11-reality-card and ch11-corrections-card (half width each, the pair's words and checks; the pair kept in the lab) and ch5-schedule (a dial with the first four minutes from schedule.json at 09f13d5, read in the talk's clone; the file's own words quoted; no session ids or prompts). 2. Slots 11/6, 11/7, 05/1 in the designer's own rc2-150-figures.json, which the publisher copies (its 'slot 7 is the publisher's' noted: it came from this list; nothing of the publisher's edited). 3. Letter 121 to the publisher and the writer (the file never says 'fifteen minutes apart'); lab PDF, letter to done/, debrief, status, REALITY.md, gate, push.",
+   "at": "2026-11-04T00:01:28Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent, as the reviewer agent; no tool refused",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside scope.writes; no other member's files, no secrets or vault keys. Conditions: the schedule drawing prints only the file's own words and the first four minutes, no session ids or task prompts; the output and the letter checked for them before the push; nothing of the publisher's edited.",
+   "at": "2026-11-04T00:02:22Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "",
+   "verdict": "done",
+   "comment": "LAB 43: ch11-reality-card and ch11-corrections-card (the pair cut in two, slots 11/6 and 11/7) and ch5-schedule (09f13d5's first four minutes checked against C071, the file's own words; no session id or prompt, grep clean); 05/1 in rc2-150-figures.json (56 of 100 drawn, 26 to draw); LAB 43 three pages; lab PDF 155 pages; letter 121 (publisher, writer: the quote); 039 to done/; debrief, status, REALITY.md; gate clean.",
+   "at": "2026-11-04T00:05:43Z"
+  },
+  "post_review": {
+   "by": "security sub-agent, as the reviewer agent; no tool refused",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "All staged paths in scope plus the REALITY.md append. ch5-schedule prints only the four minutes (matching 09f13d5) and the file's own words, both quotes in schedule.json; no session id, trigger id, prompt, key or em-dash in added lines. Letter 121 clean.",
+   "at": "2026-11-04T00:06:29Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent, as the reviewer agent; no tool refused",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "The two cards and the schedule in LAB 43 (svgs, script, pages.html); rc2-150-figures.json changed, the publisher's files untouched; letter 121 in three copies, 039 to done/, debrief, status, REALITY.md, lab PDF and SHA256SUMS; pre-review conditions kept; nothing unplanned.",
+   "at": "2026-11-04T00:06:46Z"
+  }
+ },
+ "closed": "2026-11-04T00:06:46Z",
+ "outcome": "ok"
+}

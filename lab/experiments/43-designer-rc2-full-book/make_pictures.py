@@ -9,6 +9,10 @@
   reality file's day as ticks (its commits that day), the corrections file's one entry unchanged since 1f7c633.
 - ch8-night-log.svg: the night log's first edition (794008c) drawn as a page: its hour, each member's wakes as outcome
   chips from its own table, what waits on the editor as lines (no item text).
+- ch11-reality-card.svg and ch11-corrections-card.svg: the same two cards, one each, half the text width, for the two
+  lines that ask for one each (the pair stays in the lab as the side-by-side version).
+- ch5-schedule.svg: the schedule as the conductor wrote it at 01:39 (09f13d5): a dial with the first four members at
+  their minutes from its runs, and its own words quoted; no session id or prompt printed.
 No other number. One SVG unit a millimetre, sizes stated, text 9 pt.
 """
 import json, re, subprocess, sys
@@ -117,6 +121,49 @@ def two_files(clone):
     return mc.svg(164, 63.4, "".join(out), "Two cards: the reality file crowded with the day's changes, the corrections file with its one entry, None yet")
 
 
+def split_cards(clone):
+    pair = two_files(clone)
+    inner = pair[pair.index(">") + 1:pair.rindex("</svg>")]
+    left = mc.svg(81.2, 63.4, f'<svg viewBox="0 0 81.2 63.4" width="81.2" height="63.4">{inner}</svg>',
+                  "A card: the reality file, crowded with the day's changes")
+    right = mc.svg(81.2, 63.4, f'<svg viewBox="83.1 0 81.2 63.4" width="81.2" height="63.4">{inner}</svg>',
+                   "A card: the corrections file, with its one entry, None yet")
+    return left, right
+
+
+def schedule(clone):
+    import math
+    sched = json.loads(git(clone, "show", "09f13d5:team/conductor/schedule.json"))
+    about, hours = sched["about"], sched["hours"]
+    q1, q2 = "fifteen minutes after the one before", "every hour, round the clock"
+    if q1 not in about or q2 not in hours:
+        sys.exit("make_pictures: the schedule's own words are not as the drawing quotes them")
+    runs = [(r["agent"], r["minute"]) for r in sched["runs"]][:4]
+    slots = REG["C071"]["value"]
+    for m, mm in runs:
+        if slots[m].strip(":") != mm:
+            sys.exit(f"make_pictures: {m}'s minute at 09f13d5 is not C071's")
+    cx, cy, R = 46, 38, 22
+    out = [f'<circle cx="{cx}" cy="{cy}" r="{R}" fill="#fff" stroke="{mc.INK}" stroke-width=".6"/>']
+    for q in range(4):
+        a = math.radians(q * 90 - 90)
+        out.append(t(cx + (R - 4) * math.cos(a), cy + (R - 4) * math.sin(a) + 1.1, f":{q * 15:02d}", 400, mc.MUTED, "middle"))
+    for m, mm in runs:
+        a = math.radians(int(mm) * 6 - 90)
+        hx, hy = cx + (R + 6) * math.cos(a), cy + (R + 6) * math.sin(a)
+        out.append(mc.line(cx, cy, cx + (R - 9) * math.cos(a), cy + (R - 9) * math.sin(a), mc.CAST[m][0], .9)
+                   + g(mc.head(m), hx - 4.6, hy - 4.4, .24))
+        if abs(math.cos(a)) > .5:
+            out.append(t(hx + (6 if math.cos(a) > 0 else -6), hy + 1, f"{m} :{mm}", 700, mc.INK, "start" if math.cos(a) > 0 else "end"))
+        else:
+            out.append(t(hx, hy + (-5.6 if math.sin(a) < 0 else 7.4), f"{m} :{mm}", 700, mc.INK, "middle"))
+    out.append(f'<circle cx="{cx}" cy="{cy}" r="1" fill="{mc.INK}"/>')
+    out.append(t(98, 30, "\u201c" + q1 + "\u201d", 700) + t(98, 37, "\u201c" + q2 + "\u201d", 700)
+               + t(98, 45, "the schedule as the conductor", 400, mc.MUTED) + t(98, 49.1, "wrote it at 01:39 (09f13d5)", 400, mc.MUTED))
+    out.append(t(0, 80, "the first four members at their minutes; the others joined their slots later (C071)", 400, mc.MUTED))
+    return mc.svg(164, 82, "".join(out), "The schedule at 01:39: four members on a dial at their own minutes, a quarter of an hour apart")
+
+
 def night_log(clone):
     page = git(clone, "show", "794008c:content/articles/the-night-hour-by-hour.md")
     edition = re.search(r"Last edition (\d\d:\d\d) UTC", page).group(1)
@@ -158,6 +205,8 @@ if __name__ == "__main__":
     files = {f"ch-hour-{h:02d}.svg": hour_card(h) for h in WORDS}
     files["ch11-two-files.svg"] = two_files(clone)
     files["ch8-night-log.svg"] = night_log(clone)
+    files["ch11-reality-card.svg"], files["ch11-corrections-card.svg"] = split_cards(clone)
+    files["ch5-schedule.svg"] = schedule(clone)
     for name, svg in files.items():
         (HERE / name).write_text(svg)
     print("written " + ", ".join(files))
