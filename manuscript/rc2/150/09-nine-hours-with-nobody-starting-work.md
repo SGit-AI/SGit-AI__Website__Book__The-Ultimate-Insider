@@ -49,7 +49,7 @@
 
 `%% figure brief: For the designer, from C025 (entries 2 to 4) and C068. The counts on the card only. Rail: nothing of what was captured, how, or from where; no value, site, field or pattern shown.`
 
-**Narrator.** Three findings of one kind, each found because the last redaction prompted a wider look. The check that caught them ran after the push every time; what got better was what the member looked for, not the order of the steps. Part 4 keeps all three, and asks what that order should have been.
+**Narrator.** Three findings of one kind, each found because the last redaction prompted a wider look. The check that caught them ran after the push every time; what got better was what the member looked for, not the order of the steps. Part four keeps all three, and asks what that order should have been.
 
 `%% record: team/researcher/wakes/20261029T061456Z.json (post_review: finding) C025 (its fourth entry, 06:14: found after the push, redacted in the same wake) C068 ("none a key, an account credential, a vault key or a personal detail") timeline/day/06.md ("what improved was the pattern, not the order of the steps")`
 `%% band: The register's account of the finding, told as the team's finding only.`
@@ -169,7 +169,7 @@
 
 **Narrator.** Nine hours. Every wake started by the clock. Every wake with its five steps. The ones that closed partial said so. One failure of the night came round a third time, and was found, and is kept. Requests answered at the next session with nobody chasing. Work sent back and redone, three times for one picture. A mistake owned by the member that made it. And at the end, a queue that only one person could clear, and a maker with nothing to make.
 
-**Narrator.** Part 3 now turns to how the team did it: the channels it talked through, the rhythm it kept, the plumbing under every scene.
+**Narrator.** Part three now turns to how the team did it: the channels it talked through, the rhythm it kept, the plumbing under every scene.
 
 `%% for the editor (his view, held out of print until he confirms it, P30): the writer's "That is the part of the record I find hardest to believe, and easiest to check." to open the paragraph; kept from the 70-page edition's chapter 7, where it is flagged as the writer's reading of his view; his to keep or drop.`
 
