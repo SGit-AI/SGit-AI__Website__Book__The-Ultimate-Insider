@@ -14,7 +14,3 @@ From the chapter's `%% record` lines (and its `## Where this came from`, where i
 - `chapter-plan/cast/edition-10.md`
 - `briefs/2026-11-04__in-session/20-the-open-items-answered.md`
 - `team/conductor/from-newsroom/2026-11-04__do-this-now-as-invitations.md`
-
-## Not in any index
-
-Paths the tool could not place (outside the three repositories, or a web address): `manuscript/rc2/150/01`

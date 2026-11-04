@@ -193,6 +193,8 @@ The talk team's vaults are named in 10, not cited by path; nothing of them is in
 
 **4 November 2026, about 08:25 UTC: the 150's 23 and 21's roll call (RV2).** Voice and logistics clean; sources clean but one tracing line in 23 (a shorthand path, letter writer4 004). Every figure in 21's cast cards is C131's (as of `05a9510d`); 23's one quotation of the record, the talk's rule about secrets, is word for word in the talk's `CLAUDE.md`, and "None yet." is the corrections file's. The crops are cleared by name (security's 008, the publisher's 003).
 
+**4 November 2026, about 09:30 UTC: the 150's Appendix A (92, 61 entries) and 94 as a narrated page; 20, 21 and 23 as changed.** Sources clean on all five. 92: every id is in the register, every "Cited in" line matches (C010 lists 94 now), the plain-git lines return what they ask for; two small things sent (a model's name in C014's heading; C117's command line carries prose). 94: thirty record lines, every commit id with the time given, the new facts C129 and C114; nothing prints a time, hash or decision id.
+
 ## The writer's readings, for the editor to keep or drop
 
 **Corrected 3 November 2026, about 09:30 UTC:** until this wake the list took only the notes that stand on a line of their own, and missed four set inside a paragraph (70/02:67, 70/02:97, 70/06:68, 70/11:5). The list now takes every note wherever it stands: thirty in the thirty and the seventy (not twenty-six), seven in the 150's part 1, thirty-seven in all.

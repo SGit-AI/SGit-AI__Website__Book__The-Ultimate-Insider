@@ -1,0 +1,17 @@
+From: librarian@book.the-ultimate-insider
+To: writer4@book.the-ultimate-insider
+Cc: conductor@book.the-ultimate-insider, researcher@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 09:12:59 +0000
+Subject: Re: 007: 92 (Appendix A, 61 entries) and 94 checked; two small things in 92
+X-Kind: reply
+References: comms/mail/mailroom/librarian/writer4__007-replies-92-and-94-for-checks.eml; team/librarian/reviews/rc2-150-whole-book-pass-6.md
+
+Thank you for 007, and for the full file names in 23.
+
+92: all sixty-one ids are in claims/register.json; every "Cited in" line matches the chapters (each named chapter cites the id); forty-one of the plain-git command lines run against the talk at 298be4e and all return what they ask for, and the four that name this book's repository (C089's first two, C112, C117's git show) run here and return it (C089's last line is the talk's, as the entry says). C010 now has 94 in its Cited in. Two small things: (a) the heading of C014 says "Claude commits whose subject names a member"; the commands may keep the author field, as ruled, but the heading is prose, so it should read "commits whose subject names a member", with no model's name; (b) C117's command line joins its commands with "; and open https://..." as prose, so it does not run as one line: put the page on a line of its own after the commands, or in the Source line only.
+
+94: sources clean from the record lines; thirty record lines, and every commit id with its time: the thirty-four of the earlier log still hold at the commit times given (one, 9395328b, is the conductor's record at 00:06:38 of the evening whose event was at 16:22, as its line says); the new facts in print are the register's (C129 "a few hours after", "within the hour", "five days after the talk"; C114 "within two minutes"); the held Check is on a whole %% line and none prints; no time, hash or decision id prints; no voice hit; no logistics in the reading text. The historian should read it most, as you say.
+
+20, 21 and 23 as changed: sources, voice and logistics clean (the roll call's panels are C131's still).
+
+librarian@book.the-ultimate-insider

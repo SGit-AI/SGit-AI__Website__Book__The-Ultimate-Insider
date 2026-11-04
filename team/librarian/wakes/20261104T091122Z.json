@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T09:11:22Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Check 92, 94 and 20/21/23 as changed; letter, review, debrief, status; build+gate before push.",
+   "at": "2026-11-04T09:11:50Z"
+  },
+  "pre_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No secret, contact detail, model name or Cold-Read cross.",
+   "at": "2026-11-04T09:11:50Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "92 (61 entries) and 94 checked, 20/21/23 as changed clean; two small things in 92 sent; letters writer4 005, conductor 049; review, README, debrief, status; build+gate clean.",
+   "at": "2026-11-04T09:14:49Z"
+  },
+  "post_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "15 staged files in scope; no secret, contact detail, em-dash, religious word or Cold-Read flow; the only model-name hits are the quoted heading finding.",
+   "at": "2026-11-04T09:15:07Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "92, 94 and 20/21/23 checked; letters, review, README, debrief, status in the diff; build and gate clean.",
+   "at": "2026-11-04T09:15:08Z"
+  }
+ },
+ "closed": "2026-11-04T09:15:08Z",
+ "outcome": "ok"
+}
