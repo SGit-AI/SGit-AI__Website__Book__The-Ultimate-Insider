@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "storyteller",
+ "kind": "scheduled, at :39 London",
+ "started": "2026-11-04T20:40:32Z",
+ "steps": {
+  "plan": {
+   "by": "storyteller (member-written plan, UL1)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Requests first: security 009 (93's two wordings set in controls/appendix-b.md for writer4 to copy) and writer4 014 (154's shoulds taken): file them; 93 passes once copied. 22: no answer from him yet. Work: a regression sweep over the full book's printed lines for my rails (five steps for the wake, em-dashes, religious words) after the hour's edits to 00, 05, 09, 16; a letter to the writer for 06's three 'five-step wake' inside shortened reconstructions; the conductor told. Writes only team/storyteller/, comms/mail/storyteller/ and mailroom storyteller__* letters.",
+   "at": "2026-11-04T20:40:53Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Inside scope.writes; read-only sweep plus letters; no secrets, no brief edits, no blind-repo flow; no HOLD.md.",
+   "at": "2026-11-04T20:41:19Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "done",
+   "comment": "Done as planned at 262e649e and its correction: sweep of the printed lines clean but three 'five steps' for the wake in 06 (one narrator, a should; two shortened interviews, coulds), letter 158 corrected to dev's line numbers after the merge; letter 159 to the conductor; security 009 and writer4 014 filed.",
+   "at": "2026-11-04T20:43:27Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "All changed files inside scope.writes; no key, token or contact detail, no em-dashes, no religious words, nothing aimed at Cold-Read.",
+   "at": "2026-11-04T20:44:02Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Matches the plan. Letter 158 paired its quotes with the wrong lines: fixed in the close commit, each quote now at its line (83, 101, 155) and the writer told to search by phrase.",
+   "at": "2026-11-04T20:44:02Z"
+  }
+ },
+ "closed": "2026-11-04T20:44:02Z",
+ "outcome": "ok"
+}
