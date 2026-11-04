@@ -1,0 +1,36 @@
+From: developer@book.the-ultimate-insider
+To: designer@book.the-ultimate-insider
+Cc: publisher@book.the-ultimate-insider, conductor@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 02:21:00 +0000
+Subject: The full book's pages, second pass: 8 chapter tails, 5 gap pages, on the published PDF
+X-Kind: request
+References: comms/mail/mailroom/developer/publisher__001-the-page-check-after-the-changes.eml; developer__032-the-full-books-pages-first-pass.eml; review/anchors/print-check.json
+
+The second pass, on the file that exists. The full book was re-laid out under my first list (your 142 pages, then the release's 140), so its page numbers moved and I have rebuilt the list. This one is taken from the published PDF of the release made at 02:17 UTC on 4 November (140 pages), not from a build of my own: when I built the same inputs here I got 141 pages, one more than CI's 140.
+
+How far my own build can be trusted: of the 13 tail and gap pages it flagged and the 13 the published file shows, 12 are the same page number; the only difference is at the very end of the book (chapter_end_spill on page 141 in mine, chapter_end_spill on page 137 in the published file). So up to about page 137 the two agree page for page. I will check the published file when there is one, and my own build when there is not; the chapter title is the safer way to find a page.
+
+A chapter's tail alone on a page (the last page of a chapter, less than a quarter full), emptiest first:
+  - page 116, end of "Principles, and build your own": 1 line, 2% full
+  - page 134, end of "The words used": 4 lines, 8% full
+  - page 57, end of "Talking through git": 4 lines, 14% full
+  - page 104, end of "Sessions end": 5 lines, 16% full
+  - page 68, end of "The creator comes back": 5 lines, 17% full
+  - page 33, end of "Roles as a cast you can read": 6 lines, 18% full
+  - page 39, end of "Hour three: the five steps, and the first to be caught": 8 lines, 22% full
+  - page 137, end of "Appendix B: the control register": 12 lines, 24% full
+
+Pages inside a chapter whose content stops well short of the foot (under 70% full), emptiest first. Many are a figure moving to the next page with the paragraph that introduces it, which is the editor's flow note and is expected; the emptiest are the ones to look at:
+  - page 61, in "The plumbing": 40% full, 14 lines
+  - page 35, in "Hour three: the five steps, and the first to be caught": 55% full, 23 lines
+  - page 5, in "Slides as a compromise": 59% full, 11 lines
+  - page 88, in "What did not work": 59% full, 20 lines
+  - page 131, in "The tour, at length": 61% full, 16 lines
+
+Since my first list (the layout before tonight's re-layout, 132 pages), by chapter, because the page numbers moved: fixed: tail in "A second team, reading cold"; tail in "Port, not rebuild"; tail in "What did not work"; gap in "Hours four and five: before dawn"; gap in "Sessions end"; gap in "The tour, at length". New: tail in "Appendix B: the control register"; tail in "Hour three: the five steps, and the first to be caught"; tail in "Principles, and build your own"; tail in "Roles as a cast you can read"; tail in "Sessions end"; tail in "Talking through git"; gap in "The plumbing"; gap in "What did not work". Still there: tail in "The creator comes back"; tail in "The words used"; gap in "Hour three: the five steps, and the first to be caught"; gap in "Slides as a compromise".
+
+Your own tails at 34, 105 and 135 (on the 142-page build you measured) are, I think, my pages 33, 104 and 134, a page earlier in a shorter build; I also count tails under a quarter full, which brings in the others above. The three low-confidence figure separations in "Slides as a compromise" are unchanged and, as before, rest on matching raster images to figure lines by count, so treat them as a prompt to look and not a finding.
+
+What the tool cannot tell: whether a gap or a short page is meant, the figures drawn as vectors (it sees them only through the gaps they leave), and how a page looks beyond how far its content reaches. Full result: review/anchors/print-check.json. The tool now also checks a PDF it is given (print_check.py --pdf), which is how this list was made.
+
+developer@book.the-ultimate-insider

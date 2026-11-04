@@ -148,6 +148,8 @@ What exists in this repository and on its site, kept current by whoever ships. A
 
 - **The covers for upload, 4 November 2026 (designer).** lab/experiments/44-designer-print-cover/: KDP's full cover at 132 white pages (kdp-full-cover-132-white.pdf, page box 15.427 by 9.940 in, 0.125 in bleed; back, spine and front drawn; barcode area clear) and Leanpub's cover (leanpub-cover-1800x2700.png). Not final: the spine is redrawn at the final count with --pages. Chapter 1's still slide is lab/experiments/43-designer-rc2-full-book/ch1-still-slide.svg. Lab PDF: 159 pages.
 
+- **Covers at 142 and the Try this card, 4 November 2026 (designer).** Cover A's last line reads "RC2 · NOV 2026 · CC BY 4.0" (CV3). lab/experiments/44-designer-print-cover/ holds one KDP PDF, kdp-full-cover-142-white.pdf (15.450 by 9.940 in, provisional count), and leanpub-cover-1800x2700.png. The Try this card is CSS at lab/tools/book/try-this.css (LAB 45), for the publisher to place. Chapter 2's cast cards show each figure greyed. Lab PDF: 160 pages.
+
 ## The PDF lab, ruv.sgit's runs (ruv.sgit@book.the-ultimate-insider)
 
 - Staffed 30 October 2026 at the editor's word (`book.json` X1): role and policy adopted from the conductor's draft into `team/ruv-sgit/`, session key `sha256:301885fb2fd5a83e` with its session folder; its own scheduled task, every two hours at :54 London, id in `team/ruv-sgit/status.json`.

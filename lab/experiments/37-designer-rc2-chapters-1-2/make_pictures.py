@@ -3,7 +3,7 @@
 
     python3 lab/experiments/37-designer-rc2-chapters-1-2/make_pictures.py <read-only clone of the talk's repository>
 - ch1-slide.svg and ch1-loop.svg: "A slide versus a loop", its two halves.
-- ch1-cast-greyed.svg: the nine cards greyed and the empty chair, each with its arrival from C011 (read at build).
+- ch1-cast-greyed.svg: the nine cards, each with its own drawing greyed, and the empty chair, each with its arrival from C011 (read at build).
 - ch2-first-wake.svg: the first five-step wake as a card, its verdicts read from the talk's own record at 298be4e
   (team/conductor/wakes/20261029T021416Z.json, with git, read only), beside C022's count of the day's wake records.
 - ch2-cast-bar-0400.svg: the cast bar at four in the morning, the members whose first commit (C011) came before 04:00.
@@ -90,7 +90,10 @@ def cast_greyed():
         if m == "security":
             out.append(chair(x + 8, y + 1.6, .62) + t(x + 3, y + 16.6, "security", 700, mc.MUTED) + t(x + 3, y + 20.4, "an empty chair", 400, mc.MUTED))
         else:
-            out.append(g(mc.head(m, False), x + 1.6, y - .4, .3) + t(x + 3, y + 16.6, m, 700, mc.MUTED) + t(x + 3, y + 20.4, f"arrives {firsts[m]}", 400, mc.MUTED))
+            # the role's own drawing, greyed (the editor, brief 2026-11-04 12: "show the actual drawings ... grayed out")
+            out.append(f'<g filter="url(#cg-grey)" opacity=".5">{g(mc.figure(m), x + (w - 10.8) / 2, y + 1.1, .27)}</g>'
+                       + t(x + 3, y + 16.6, m, 700, mc.MUTED) + t(x + 3, y + 20.4, f"arrives {firsts[m]}", 400, mc.MUTED))
+    out.insert(0, '<defs><filter id="cg-grey"><feColorMatrix type="saturate" values="0"/></filter></defs>')
     return mc.svg(164, 2 * h + 3, "".join(out), "The nine cards greyed, in the order they arrive, and an empty chair for security")
 
 
