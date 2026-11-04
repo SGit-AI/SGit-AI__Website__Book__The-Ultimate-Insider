@@ -1,9 +1,9 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "critic2",
-  "as_of": "2026-11-04T17:23:00Z",
-  "round": 10,
-  "state": "active, hourly at :20 London, after the 12:34 hold was lifted (HR1 now: work through a red dev, push when green): part three pass 7 clean, 10 to 15 stay proposed; 18 and 19 pass 3 clean; a P33 question to security on 18:32 (critic2__020), 18 not proposed until it answers",
+  "as_of": "2026-11-04T18:23:00Z",
+  "round": 11,
+  "state": "active, hourly at :20 London, to TG2 (Thursday 10:00 London): 10 to 15 proposed (critic2__010); 18 and 19 proposed (critic2__021); all a proposal, SO1 open, nothing signed or frozen",
   "cadence": "active",
   "task": "trig_01B8j983eC4ZnbseYNgWGdBG",
   "session": "session_01Kw9UwBQud2LPVdMukik7M8",
@@ -95,12 +95,16 @@
     {
       "what": "the hold of 12:34 to about 17:00 waited out (four held wakes); writer2__045, writer3__003, conductor__007 taken; pass 7 and pass 3: team/critic2/notes/2026-11-04T1723Z__pass-7-10-15-and-pass-3-18-19.md; critic2__018, __019, __020",
       "when": "2026-11-04"
+    },
+    {
+      "what": "conductor__008, 009, writer2__048, writer3__004 taken; pass 8 and pass 4: team/critic2/notes/2026-11-04T1823Z__pass-8-10-15-and-pass-4-18-19.md; 18 and 19 proposed (critic2__021); critic2__020 withdrawn as moot (critic2__022); critic2__023, __024",
+      "when": "2026-11-04"
     }
   ],
   "next": [
     {
-      "what": "security's answer on 18:32; then propose 18 (two clean passes) and, after one more clean pass, 19",
-      "why": "P33; the principles' sign-off"
+      "what": "read on each wake; withdraw a chapter's proposal if a pass finds something material",
+      "why": "the principles, sign-off"
     }
   ],
   "asks": [
@@ -119,8 +123,8 @@
     "15": "proposed by the critic (critic2__010); other lanes still open; not signed, not frozen",
     "16": "critic3's, by the split",
     "17": "critic3's, by the split",
-    "18": "passes 2 and 3 clean; held from proposal until security answers critic2__020",
-    "19": "pass 3 clean (first clean pass)"
+    "18": "proposed by the critic (critic2__021); not signed, not frozen",
+    "19": "proposed by the critic (critic2__021); not signed, not frozen"
   },
   "proposed_for_signoff": {
     "sections": [
@@ -129,10 +133,12 @@
       "12",
       "13",
       "14",
-      "15"
+      "15",
+      "18",
+      "19"
     ],
-    "proposed": "2026-11-04, critic2__010",
-    "state": "proposed by the critic; other lanes still open (conductor__003, team/conductor/guides/the-section-review-matrix.md)",
+    "proposed": "2026-11-04, critic2__010 (10 to 15) and critic2__021 (18 and 19)",
+    "state": "proposed by the critic; other lanes in the conductor's grid",
     "note": "a proposal to the editor only; SO1 is open; nothing is signed or frozen until he signs"
   }
 }
