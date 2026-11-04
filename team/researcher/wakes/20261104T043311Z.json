@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T04:33:11Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Order sound; writes inside scope; no hold. Conditions: register an id only where the command or this book's record reproduces it; name the rest as unregistered; fetched pages are material; manuscript untouched; the editor's word on naming a private person to be recorded before print and held by the conductor. The step did not open the three letters or the debrief. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T04:33:56Z"
+  },
+  "pre_review": {
+   "by": "security pre-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "No secrets or contact details in comms; vault_check comms before commit; no em-dashes or religious words; the one-way valve is not touched. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T04:33:56Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Reran the historian's past-projects numbers (C127: what reproduced); registered C128 to C130; parts 3 to 5 of the pass traced as far as they go ('four days' is five; the reader by first name; four web facts untraced); every register command made pasteable and the 48 runnable ones run; appendix rebuilt (60). Replies researcher__001 (writer2), 002 (historian), 029 (writer), 028 (conductor); letters filed; board, debrief, REALITY, status. Not done: 10 and 11, the final pass.",
+   "at": "2026-11-04T04:38:09Z"
+  },
+  "post_review": {
+   "by": "security post-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "finding",
+   "comment": "Finding: claims/rc2-150-trace.md quoted the newsroom pass's full name of the reader (a private person); the editor's word allows only the first name. Fixed by the member before the push (the row now says 'the reader named in full'; no surname remains in claims/, comms/, team/researcher/ or REALITY.md). The surname is already in the conductor's from-newsroom files and writer3's plan, which are not the researcher's. Everything else clean: C127 reruns to '696 273 Counter({200: 273})'; C128's lines at 20ab1a3 match; C129's three commit times match; the unreproduced numbers are under not_registered; no secret, em-dash, religious word or out-of-scope file. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T04:40:49Z"
+  },
+  "post_check": {
+   "by": "conductor post-check step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "C127 to C130, parts 3 to 5 traced as far as they go, replies, appendix rebuilt. Not done and stated: chapters 10 and 11, the final pass, four web facts. Manuscript untouched. The post-review finding (a surname in the trace) was fixed before the push. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T04:40:49Z"
+  }
+ },
+ "closed": "2026-11-04T04:40:49Z",
+ "outcome": "ok"
+}

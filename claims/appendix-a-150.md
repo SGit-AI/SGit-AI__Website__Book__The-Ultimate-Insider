@@ -36,7 +36,7 @@ git log 298be4e --until=2026-10-29T19:00:00Z --format='%h %ci %an %s' | head -3
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapters 03, 15, 16, 17, 18, 90 and Appendix B.
+- **Cited in:** chapters 02, 03, 15, 16, 17, 18, 90 and Appendix B.
 
 ```
 git log 298be4e --since=2026-10-29T18:44:00Z --until=2026-10-29T19:00:00Z --format='%h %ci %an %s'
@@ -178,7 +178,7 @@ git show 298be4e:team/conductor/HOLD.md; git ls-tree -r --name-only 298be4e | gr
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapters 00b, 12.
+- **Cited in:** chapters 00b, 02, 12.
 
 ```
 git log 298be4e --format='%h %ci %s' -- src/static/talk/player.html | sed -n '1p;$p'; git log 298be4e --format=%h --since=2026-10-29T15:07:00Z --until=2026-10-29T18:37:03Z -- src/static/talk/player.html | wc -l
@@ -477,7 +477,7 @@ git show 298be4e:team/studio/wakes/20261029T174115Z.json | python3 -c "import js
 
 - **State:** checked.
 - **Source:** web pages read on 2026-11-04: https://newsroom.sgit.ai/articles/the-scripted-talk.html.
-- **Cited in:** the introduction page (to cite).
+- **Cited in:** chapters 00b, 01.
 
 ```
 open https://newsroom.sgit.ai/articles/the-scripted-talk.html and find '26 slides', 'three-minute countdown', 'The first timeline is a real one', 'with the slides behind me'
@@ -487,7 +487,7 @@ open https://newsroom.sgit.ai/articles/the-scripted-talk.html and find '26 slide
 
 - **State:** checked.
 - **Source:** web pages read on 2026-11-04: https://newsroom.sgit.ai/articles/a-book-told-by-its-cast.html.
-- **Cited in:** the introduction page (to cite).
+- **Cited in:** chapter 00b.
 
 ```
 git show -s --format='%h %ad %s' --date=format:'%d %H:%M' 2d2672a3; ls lab/experiments/27-designer-the-cast; and open https://newsroom.sgit.ai/articles/a-book-told-by-its-cast.html and find 'Four moods each'
@@ -497,7 +497,7 @@ git show -s --format='%h %ad %s' --date=format:'%d %H:%M' 2d2672a3; ls lab/exper
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapter 2 (to cite).
+- **Cited in:** chapter 02.
 
 ```
 for h in b1c9bab bd3cdad 95b09d9 511606d d7df71a 040233f 7323986 23739cc 12e93db 013d97e dbd75ad 9a51c28 3314ffe; do git log -1 --format='%h %ad' --date=format:%H:%M:%S $h; git show --numstat --format= $h | grep -v -e $'\tteam/' -e $'\tREALITY.md' | awk -F'\t' '{a+=$1;r+=$2} END {print "+"a" -"r}'; done
@@ -510,7 +510,8 @@ for h in b1c9bab bd3cdad 95b09d9 511606d d7df71a 040233f 7323986 23739cc 12e93db
 - **Cited in:** the cast cards and the dashboard (to cite).
 
 ```
-in a clone of the talk's repository: python3 claims/talk-stats.py  # the script is in this repository, claims/talk-stats.py; prints members, wakes and team as JSON
+# in a clone of the talk's repository:
+python3 claims/talk-stats.py  # the script is in this repository, claims/talk-stats.py; prints members, wakes and team as JSON
 ```
 
 ## C120: The talk team as a whole, in numbers, from the talk's record at 298be4e: commits, merges, releases, wakes, files, lines, and the repository's size at the end
@@ -520,7 +521,9 @@ in a clone of the talk's repository: python3 claims/talk-stats.py  # the script 
 - **Cited in:** the dashboard (to cite).
 
 ```
-in a clone of the talk's repository: python3 claims/talk-stats.py  # team and wakes; and git ls-tree -r -l 298be4e | awk '{n++; s+=$4} END {print n, s}'
+# in a clone of the talk's repository:
+python3 claims/talk-stats.py  # team and wakes
+git ls-tree -r -l 298be4e | awk '{n++; s+=$4} END {print n, s}'
 ```
 
 ## C121: How the newsroom's agent team figures in the talk's first minutes: the brief points to it, and the banners are its shape
@@ -560,7 +563,8 @@ open https://newsroom.sgit.ai/articles/who-owns-the-stop-button.html and read th
 - **Cited in:** the repository-by-the-hour card (to cite).
 
 ```
-in a clone of the talk's repository: python3 claims/talk-repo-by-hour.py  # the script is in this repository, claims/talk-repo-by-hour.py
+# in a clone of the talk's repository:
+python3 claims/talk-repo-by-hour.py  # the script is in this repository, claims/talk-repo-by-hour.py
 ```
 
 ## C125: The weight of the talk team's documents at the end of the day: the brief, the reality file, the articles the team wrote, and the largest files, in bytes, words and lines
@@ -570,7 +574,8 @@ in a clone of the talk's repository: python3 claims/talk-repo-by-hour.py  # the 
 - **Cited in:** the weight card (to cite).
 
 ```
-in a clone of the talk's repository: python3 claims/talk-weight.py  # the script is in this repository, claims/talk-weight.py
+# in a clone of the talk's repository:
+python3 claims/talk-weight.py  # the script is in this repository, claims/talk-weight.py
 ```
 
 ## C126: How often the repository mentions each sgit.ai site at the end of the day: occurrences, and the lines they sit on
@@ -580,9 +585,52 @@ in a clone of the talk's repository: python3 claims/talk-weight.py  # the script
 - **Cited in:** the references card (to cite).
 
 ```
-in a clone of the talk's repository: git grep -h -o -E '[A-Za-z0-9-]+\.sgit\.ai' cb5b996 | sort | uniq -c | sort -rn | head -16; and python3 claims/talk-weight.py for both counts
+# in a clone of the talk's repository:
+git grep -h -o -E '[A-Za-z0-9-]+\.sgit\.ai' cb5b996 | sort | uniq -c | sort -rn | head -16
+python3 claims/talk-weight.py  # both counts
+```
+
+## C127: The editor's earlier projects as the team's memory, in the talk's record: the pages he named, the 273 sgit.ai pages the researcher captured, and what the team carried over, dated
+
+- **State:** checked.
+- **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `cb5b996`.
+- **Cited in:** the past-projects callout (to cite).
+
+```
+# in a clone of the talk's repository:
+git show cb5b996:evidence/sources/manifest.json | python3 -c "import json,sys,re,collections;s=json.load(sys.stdin)['sources'];g=[x for x in s if re.match(r'https?://[^/]*sgit\.ai',x.get('url') or '')];print(len(s),len(g),collections.Counter(x.get('http_status') for x in g))"; for c in 1f7c633 97b98d9 20ab1a3 a3a4807 ecc048e 3314ffe c3ce566; do git log -1 --format='%h %ad %s' --date=format:%H:%M:%S $c | cut -c1-110; done
+```
+
+## C128: Why the talk team never typed a version number: the newsroom lost releases to agents racing for numbers on 27 October, and the pipeline owns the version
+
+- **State:** checked.
+- **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `cb5b996`.
+- **Cited in:** chapter 11 (to cite).
+
+```
+git grep -n -i 'racing for release' 20ab1a3 -- team; git show 1f7c633:.github/workflows/release.yml | head -3
+```
+
+## C129: The making-of dates in the narrator pass, part five: how long after the talk, and the book's first hour
+
+- **State:** checked.
+- **Source:** SGit-AI__Website__Book__The-Ultimate-Insider (this book's record), at `04b227e0` (this book's own record, after the day).
+- **Cited in:** the narrator pass part five (to cite).
+
+```
+for c in f3cea028 3b403fb0 04b227e0; do git show -s --format='%h %ad' --date=iso $c; done
+```
+
+## C130: The newsroom's article 'The grant, not the prompt': what it is and when it was published
+
+- **State:** checked.
+- **Source:** web pages read on 2026-11-04: https://newsroom.sgit.ai/articles/the-grant-not-the-prompt.html.
+- **Cited in:** the narrator pass part four (to cite).
+
+```
+open https://newsroom.sgit.ai/articles/the-grant-not-the-prompt.html and read the title, the date and the abstract
 ```
 
 ## Where this came from
 
-`claims/register.json` as on dev at the 03:32 wake, 4 November 2026; every C-id found in `manuscript/rc2/150/` (not 92 itself) at that wake, and C115 to C126, registered for chapters and pages to cite. Rebuilt by the researcher on 4 November 2026, about 03:38 UTC; first built at the 22:32 wake on 3 November.
+`claims/register.json` as on dev at the 04:32 wake, 4 November 2026; every C-id found in `manuscript/rc2/150/` (not 92 itself) at that wake, and C115 to C130, registered for chapters and pages to cite. Rebuilt by the researcher on 4 November 2026, about 04:39 UTC; first built at the 22:32 wake on 3 November.

@@ -49,6 +49,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - 4 November, 01:35: FB1 (the full book only, printable): the researcher's plan sent to the conductor (`researcher__025`): every changed chapter traced within one wake, Appendix A kept in step (46 ids), a final all-numbers pass at the freeze; the 3, 10, 30 and 70 deferred, not withdrawn.
 - 4 November, 02:40: C116 to C120 registered: the newsroom's lineage facts (`The scripted talk`, `A book told by its cast`), the afternoon asks' rows rerun, and per-agent and team stats from the talk's record (`claims/talk-stats.py`). Chapter 1 as rewritten, 92 and 93 as set: traced. `claims/appendix-a-150.md` now has 51 entries.
 - 4 November, 03:38: the editor's answers (brief 20) applied to the register: C089, C011, C037 and C081 are `settled` (a new state, in `claims/README.md`); C068 is out of the printed Appendix A. C121 to C126 registered (scripts `claims/talk-repo-by-hour.py`, `claims/talk-weight.py`). Appendix A file: 50 entries.
+- 4 November, 04:38: C127 to C130 registered (the editor's earlier projects in the record, the newsroom's lost releases and the rule, the making-of dates, `The grant, not the prompt`); `claims/appendix-a-150.md` rebuilt, 60 entries; every runnable command in it was run.
 
 ## The storyteller's chapter plan (storyteller@book.the-ultimate-insider)
 
