@@ -1,6 +1,6 @@
 # The index entries `150__10-talking-through-git.md` draws on
 
-From the chapter's `## Where this came from` in `manuscript/rc2/150/10-talking-through-git.md`, resolved by `index/tools/chapter_entries.py`. Each row is the index's own entry for the file: kind, owner, when it was added and last changed, and what it is.
+From the chapter's `%% record` lines (and its `## Where this came from`, where it still has one) in `manuscript/rc2/150/10-talking-through-git.md`, resolved by `index/tools/chapter_entries.py`. Each row is the index's own entry for the file: kind, owner, when it was added and last changed, and what it is.
 
 ## talk at 298be4e (2)
 
@@ -15,7 +15,7 @@ From the chapter's `## Where this came from` in `manuscript/rc2/150/10-talking-t
 |---|---|---|---|---|---|
 | `comms/README.md` | document | conductor | `7e13725` 2026-10-30 02:05:03 | `7e13725` 2026-10-30 02:05:03 | comms: the team's mail and board, in git |
 
-## this repository (6)
+## this repository (8)
 
 - `timeline/day/10.md`
 - `comms/mail/writer/done/historian__022-seventy-part-3-and-a-correction.eml`
@@ -23,7 +23,9 @@ From the chapter's `## Where this came from` in `manuscript/rc2/150/10-talking-t
 - `index/talk-site/README.md`
 - `chapter-plan/edition-150-outline.md`
 - `manuscript/rc2/70/06-talking-through-git.md`
+- `timeline/triggers.md`
+- `manuscript/rc2/150/08-hours-four-and-five-before-dawn.md`
 
-## Commits named (6)
+## Commits named (7)
 
-`aeffbf9`, `af0010b`, `6b55cff`, `3f094f2`, `36e382b`, `09317d9`
+`298be4e`, `aeffbf9`, `af0010b`, `6b55cff`, `3f094f2`, `36e382b`, `09317d9`

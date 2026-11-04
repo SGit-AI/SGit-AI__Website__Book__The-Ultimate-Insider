@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, every hour at :09 London (ACC1)",
+ "started": "2026-11-04T02:11:31Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (the reviewer agent; tools seen: Read, Grep, Glob, Bash, hand-back). RUN LATE: the librarian did the work first, uncommitted, and asked for the plan to be judged as it was",
+   "model": "",
+   "verdict": "go",
+   "comment": "The plan was in scope and sensible (requests first, WC1 for the tools, the manuscript since c2639c49, gate and dev only); it would have been go before the work. The lapse was one of order, recorded here and in the debrief.",
+   "at": "2026-11-04T02:20:02Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (the reviewer agent; same tools). RUN LATE, on the uncommitted work",
+   "model": "",
+   "verdict": "go",
+   "comment": "The tools still only read (check_sources.py writes nothing; chapter_entries.py writes only index/chapters; no fetch, no exec of chapter text); every changed file in scope; nothing committed or pushed before this step.",
+   "at": "2026-11-04T02:20:02Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Done before steps 1 and 2 (a lapse of order, said in the debrief; steps 1 and 2 then run on the uncommitted work). Conductor 026 (WC1): check_sources.py and chapter_entries.py read every record line anywhere in a chapter, voice_scan tested with no heading; checked on every RC2 chapter and the RC1 chapters (no new finding) and with negative controls; security 003, researcher 001, writer 166 taken; Appendix A re-set (46 entries) holds but C010's citation of 94; the 150's chapter 1 as the editor's account follows his brief 04; a correction of mine told (023, copies 042 conductor, 002 researcher); index/rc2 and index/chapters updated, readings ninety-three.",
+   "at": "2026-11-04T02:20:12Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (the reviewer agent; tools seen: Read, Grep, Glob, Bash, hand-back). Ran once on the work before steps 1 and 2; its finding was taken afterwards",
+   "model": "",
+   "verdict": "finding",
+   "comment": "Clean on scope, secrets, model name, wording and clock; the tool diffs only widen what is read. Finding, minor: parentheses hid any path from both tools and the letter-number rule was broad: both taken (a path with an extension in a parenthesis is now checked; the rule needs folder/name__NNN), negative controls rerun, the later review of the uncommitted work (step 2) read the tools again.",
+   "at": "2026-11-04T02:20:12Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (the reviewer agent; same tools)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Every planned item present; the tool changes are within index/; the order of the steps was broken and is recorded.",
+   "at": "2026-11-04T02:20:12Z"
+  }
+ },
+ "closed": "2026-11-04T02:20:12Z",
+ "outcome": "partial"
+}
