@@ -66,3 +66,5 @@ The hour's revisions to 150/04 to 08 and 70/03, 04, 06, 08 read after the post-c
 
 **00:24 wake (4 November):** Appendix B checked word for word: may go into Book.txt. Appendix A clear but for C068's printed command, held while D12 is open (security__045). Start here clear; the designer's three new drawings clear.
 The revised 150/22 and 70/14 read after the post-check: clear (still a plan, not yet run; no one named).
+
+**01:24 wake (4 November):** FB1, the full book only for print by Thursday: security reads every full-book change within the hour; nothing blocks print but C068's command. book-site-front.jpg cleared by name. Appendix A re-set clear but for C068 (security__047).

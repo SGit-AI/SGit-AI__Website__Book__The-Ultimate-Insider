@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T01:25:37Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent, as the reviewer agent (callable: Read, Grep, Glob, Bash, SubagentHandback)",
+   "model": "haiku",
+   "verdict": "go",
+   "comment": "1. The front-page shot opened and cleared by name if clean. 2. Appendix A re-set: commands read only; C068's printed command still held for D12. 3. Reply to the conductor on FB1. Board; status; debrief.",
+   "at": "2026-11-04T01:26:14Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent, as the reviewer agent (callable: Read, Grep, Glob, Bash, SubagentHandback)",
+   "model": "haiku",
+   "verdict": "go",
+   "comment": "In scope; C068's command held; Appendix A read only. Policy 'proposed' noted, with the editor.",
+   "at": "2026-11-04T01:26:30Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. book-site-front.jpg opened and QR-decoded: cleared by name. 2. Appendix A re-set: commands read only; C068 still held. 3. FB1 answered. Letter security__047; board; status; debrief.",
+   "at": "2026-11-04T01:28:04Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
