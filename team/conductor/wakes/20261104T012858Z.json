@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Brief 09 verbatim (three messages); the newsroom doc kept unchanged; reply written (no session id); letters storyteller 057, writer 018, researcher 053, designer 059 (now also the upload covers, his third message), publisher 071 (added: the upload set, his third message, within the plan's letter scope); ACC2; status; vault_check clean. The send and the firings follow the push.",
    "at": "2026-11-04T01:34:00Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "finding",
+   "comment": "Reviewer agent: scope, privacy, reply and ACC2 clean; validate and vault_check clean. Finding: writer 018 and researcher 053 told the writer to mark unconfirmed Checks and unregistered facts with an inline %% note, which the build strips leaving the sentence printed (edition.py 159-160). Fixed before the push: such sentences stay out of the prose on whole %% lines. ACC2 now also cites his direct 'wake up the agent sessions directly'.",
+   "at": "2026-11-04T01:36:53Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "as-planned",
+   "comment": "Reviewer agent: all planned items in the commit; publisher 071 fits the plan's firing of the publisher; the send and the firings follow the push and are recorded in the status.",
+   "at": "2026-11-04T01:36:53Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T01:36:53Z",
+ "outcome": "ok"
 }
