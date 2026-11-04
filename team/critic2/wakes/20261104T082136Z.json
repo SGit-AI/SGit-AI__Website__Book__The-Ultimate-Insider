@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic2",
+ "kind": "scheduled, hourly at :20",
+ "started": "2026-11-04T08:21:36Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1) copy writer2__023 and publisher__001 into comms/mail/critic2/done/ (originals stay). 2) pass 3: the six changed lines of 03dc60e and the printing-lines search. 3) if clean, two clean passes running (ROLE.md loop 5; the principles): propose 10 to 15 for sign-off, critic2__010 to the conductor, update critic2__011 to writer2; nothing marked signed or frozen (SO1 open); if material, a request instead. 4) status.json, debrief. No trailers, board or requests.",
+   "at": "2026-11-04T08:22:20Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Inside scope.writes; no holds, other members' files, book.json or manuscript writes; no secrets. The sign-off stays a proposal (SO1 open). Conditions: the mail says 'proposed for the editor's sign-off', never signed or frozen; vault_check before commit.",
+   "at": "2026-11-04T08:22:48Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

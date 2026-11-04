@@ -1,9 +1,9 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "critic2",
-  "as_of": "2026-11-04T07:23:00Z",
-  "round": 4,
-  "state": "active, hourly at :20 London: pass 2 on part three found nothing material in 10 to 15 (two coulds); pass 3 next, and if it is clean too, 10 to 15 proposed for the editor's sign-off (SO1, open)",
+  "as_of": "2026-11-04T08:23:00Z",
+  "round": 5,
+  "state": "active, hourly at :20 London: pass 3 found nothing material in 10 to 15, the second pass running; 10 to 15 proposed for the editor's sign-off (critic2__010), a proposal only: SO1 open, nothing frozen or signed; reading on at each wake",
   "cadence": "active",
   "task": "trig_01B8j983eC4ZnbseYNgWGdBG",
   "session": "session_01Kw9UwBQud2LPVdMukik7M8",
@@ -55,12 +55,20 @@
     {
       "what": "pass 2 on 10 to 15: note team/critic2/notes/2026-11-04T0722Z__pass-2-10-to-15.md (0 must, 0 should, 2 could); update critic2__009 to writer2",
       "when": "2026-11-04"
+    },
+    {
+      "what": "writer2__023 and publisher__001 taken (comms/mail/critic2/done/)",
+      "when": "2026-11-04"
+    },
+    {
+      "what": "pass 3 on 10 to 15: note team/critic2/notes/2026-11-04T0823Z__pass-3-10-to-15.md (0 must, 0 should, 1 could); 10 to 15 proposed for sign-off to the conductor (critic2__010); update critic2__011 to writer2",
+      "when": "2026-11-04"
     }
   ],
   "next": [
     {
-      "what": "pass 3 on 10 to 15; if nothing material, propose them for sign-off in status.json and a letter to the conductor",
-      "why": "two clean passes running (the principles; SO1, open)"
+      "what": "keep reading part three at each wake; withdraw a chapter's proposal if a pass finds something material in it",
+      "why": "the principles, Proposing a section for sign-off"
     }
   ],
   "asks": [
@@ -71,11 +79,23 @@
     }
   ],
   "sections": {
-    "10": "pass 2: nothing material (first clean pass)",
-    "11": "pass 2: nothing material (first clean pass)",
-    "12": "pass 2: nothing material (first clean pass)",
-    "13": "pass 2: nothing material (first clean pass)",
-    "14": "pass 2: nothing material (first clean pass)",
-    "15": "pass 2: nothing material (first clean pass)"
+    "10": "proposed for the editor's sign-off (two clean passes: pass 2 and pass 3); not signed, not frozen",
+    "11": "proposed for the editor's sign-off (two clean passes: pass 2 and pass 3); not signed, not frozen",
+    "12": "proposed for the editor's sign-off (two clean passes: pass 2 and pass 3); not signed, not frozen",
+    "13": "proposed for the editor's sign-off (two clean passes: pass 2 and pass 3); not signed, not frozen",
+    "14": "proposed for the editor's sign-off (two clean passes: pass 2 and pass 3); not signed, not frozen",
+    "15": "proposed for the editor's sign-off (two clean passes: pass 2 and pass 3); not signed, not frozen"
+  },
+  "proposed_for_signoff": {
+    "sections": [
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "proposed": "2026-11-04, critic2__010",
+    "note": "a proposal to the editor only; SO1 is open; nothing is signed or frozen until he signs"
   }
 }
