@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer2",
+ "kind": "scheduled, hourly at :50",
+ "started": "2026-11-04T20:50:48Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "ruv-sgit__077's must on 10's line-of-time figure: keep it (LY1), ask the designer (writer2__050, cc ruv-sgit), reply 051 (cut at the wake before TG2 if not drawn); copies; status, debrief; no chapter change. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T20:51:25Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside scope.writes; no chapter, book.json, designer file or map touched. Letters public facts only; 'cut' conditional; vault_check before commit. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T20:51:25Z"
+  },
+  "work": {
+   "by": "writer2",
+   "model": "",
+   "verdict": "done",
+   "comment": "ruv-sgit__077: chapter 10's figure kept; writer2__050 to the designer (cc ruv-sgit), 051 to ruv-sgit (cut before TG2 if not drawn); copy in done/; status, debrief; no chapter change. No tool refused.",
+   "at": "2026-11-04T20:51:46Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Gate clean (1187); vault_check clean; all paths within policy; no secrets, em-dashes, religious words; public facts only; no chapter or other member's file touched. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T20:53:24Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "050 and 051 with copies, 077 into done/, status, debrief, no chapter change. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T20:53:24Z"
+  }
+ },
+ "closed": "2026-11-04T20:53:24Z",
+ "outcome": "ok"
+}
