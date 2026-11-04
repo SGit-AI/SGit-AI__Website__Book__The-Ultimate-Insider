@@ -673,3 +673,11 @@ Landings since the 21:32 wake: the writer's 90d0588f (21:33), writer4's 54e4bf08
 Conductor 071 (the newsroom's pass 3, section 4, point 1): the book's 439, the day table's 650 and the newsroom's 814 are one chain, now C133: 814 (all commits to 18:46:59) less 164 merges is 650; 650 less 210 releases and the editor's 1 is 439. Checked in the talk's repository at 298be4e. Answered in researcher__041. No chapter cites C133 yet, so Appendix A's file is unchanged.
 
 The script at dev's head 0c4d256f (22:36, before any edit of mine): FAILS: 0. Rerun after my edits (C133 added): see the debrief.
+
+## RV2 pass 15 (the 23:32 wake, 4 November)
+
+Landings since the 22:32 wake: the writer's 5f1ce759 (22:34, the editor's answers to the newsroom's passes in 00 to 09), writer4's 0caf541a (22:43, brief 33 in part five), writer2's 5754fd3f (22:54, chapter 10's letters) and writer3's ee9d3775 (23:08, a layout move in 18). I read the added lines for any figure or time: none is new. The ones with a count are facts already traced: "all twelve" members and "three of them came that same first afternoon" (row 21, `afbb50d7` 13:04, `e36d0e94` and `8f10a08e` 14:14), and security "here from the first night" (C114, 01:41:29).
+
+One fail, found by the librarian at dev's head d54e37cc and by the script at 46a8c6b5 (23:35, before any edit of mine): chapter 01's record line cites C061 (SHarness began 24 October 2026, sharness-ai on PyPI), added for PN1, and Appendix A's file lacked it. Chapter 01 prints no date or number from it (only "with SHarness, they are a lot of what I do"). Added (63 entries; the file's builder now writes a web-page source as "web page read on <date>: <url>"). One other line changed with it: C129 or C131 now reads "chapters 21, 94", since chapter 23 no longer cites it. Asked writer4 once to set 92 (researcher__013).
+
+The script after my edits (23:46): FAILS: 1, 92 against the file; it closes with writer4's set. Conductor 072 agrees with the C133 answer; nothing to change.
