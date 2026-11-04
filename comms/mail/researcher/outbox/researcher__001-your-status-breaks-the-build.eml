@@ -1,0 +1,10 @@
+From: researcher@book.the-ultimate-insider
+To: developer@book.the-ultimate-insider
+Cc: conductor@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 12:36:00 +0000
+Subject: The gate is red on dev: an item in your status.json "asks" is a plain string
+X-Kind: request
+References: team/developer/status.json (commit 76448c34, 12:25); admin/build/build.py (build_team, items())
+
+Your status.json (76448c34, 12:25) has, in its "asks" list, the item "security: may the online view print register-listed source addresses as text (developer__047); until then the online full book is not rebuilt" as a plain string. admin/build/build.py (build_team, items()) reads each item of "done", "next" and "asks" as an object with a "what" key (and "from" or "why" or "evidence"), so it stops with "'str' object has no attribute 'get'", and the gate reports 10,620 findings for every member. Fix: make that item an object, like your others: {"to": "security", "what": "may the online view print register-listed source addresses as text (developer__047); until then the online full book is not rebuilt", "from": "developer"}. Your "issues" lists hold plain strings too (comms/issues/.../*.md paths); build.py does not read "issues", so they are fine.
+It is your folder, so I cannot fix it. I will push my own work meanwhile (it adds nothing to the fault) and say so; the conductor is copied in case the gate has to be held.

@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T12:33:38Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "All items in scope.writes plus REALITY appends; no hold; letters are mail to read; the request to the developer is within the role. Condition adopted: confirm 18:44:13 to 19:00 = 15 min 47 s against C100 and C115 before stating it. Tools: Bash; nothing refused.",
+   "at": "2026-11-04T12:36:04Z"
+  },
+  "pre_review": {
+   "by": "security pre-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Write nothing in team/developer/, manuscript/ or the blind repository; no secrets in the developer request; vault_check comms before commit; a push with only the developer's file red is acceptable, said in the debrief and the commit, after re-pulling. Tools: Bash; nothing refused.",
+   "at": "2026-11-04T12:36:04Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Plan and pre-review first. RV2 pass 8: nothing open in the numbers lane (92 equals the appendix file; 21's table equals C131; 91, 93 hold). The dev gate is red for the developer's status.json (a plain string in 'asks'); the developer and conductor told (researcher__001, 036); my push adds nothing to the fault. Replies researcher__008 (writer4); letters filed; board, debrief, REALITY, status. Not done: the final pass; the web facts.",
+   "at": "2026-11-04T12:36:47Z"
+  },
+  "post_review": {
+   "by": "security post-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Nothing in team/developer/ or manuscript/ touched; 18:44:13 to 19:00:00 is 0:15:47; no secret, contact, private full name, religious word or em-dash; the developer letter quotes the public status item and gives the fix, nothing private. Pushing with the gate red only for the developer's file is acceptable: the debrief and the commit say so and the conductor is copied. The step did not check C100/C115 line by line. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T12:38:42Z"
+  },
+  "post_check": {
+   "by": "conductor post-check step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Pass 8, the developer told, replies and records done; the final pass and the web facts stated as not done. Plan and pre-review ran first. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T12:38:42Z"
+  }
+ },
+ "closed": "2026-11-04T12:38:42Z",
+ "outcome": "ok"
+}

@@ -82,3 +82,5 @@ RC2 is signed (RP1, CV2): the 30-page edition first, then the 70 and the 150, in
 4 November, 10:38: RV2 pass 6: 17, 94, 92, 14, 23 closed; 16's "two hundred and ten before the hold" is 208 (C009; writer3 002, writer2 copied); the appendix file fixed (60 entries); open: 21:67 (conductor 034).
 
 4 November, 11:37: RV2 pass 7: nothing open in the numbers lane; 16, 18, 19, 21, 91, 93 hold; C132 (the empty-chair line) registered as open: the newsroom's record, the conductor's call (`researcher__003` writer3, 007 writer4, 035 conductor).
+
+4 November, 12:36: RV2 pass 8: nothing open; 92 equals the appendix file; 21's table equals C131; the dev gate is red for the developer's status.json (developer 001, conductor 036; writer4 008).

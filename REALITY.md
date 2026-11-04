@@ -57,6 +57,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - 4 November, 09:38: RV2 pass 5 in the numbers lane: 92 (61 entries) and 94 (a narrated page) traced and hold; 21's "from the first hour" for security is 01:41. Open in my lane: chapter 17 (D12 told as open; three accounts), whose owner, writer3, has not begun.
 - 4 November, 10:38: RV2 pass 6 in the numbers lane: 16's "two hundred and ten before the hold" is 208 (C009 now holds both); the appendix file lists only ids a chapter cites (60 entries), with four fixes; 17, 94, 92, 14 and 23 closed. Open: 21:67 (security "from the first hour").
 - 4 November, 11:37: RV2 pass 7 in the numbers lane: nothing open (16's 208 applied; 21's "first night"); C132 registered as open (the newsroom's report of his word on the empty security chair; printing is the conductor's call).
+- 4 November, 12:36: RV2 pass 8 in the numbers lane: nothing open (92 equals the appendix file; 21's table equals C131). The dev gate is red for the developer's `status.json` (a plain string in `asks`); the developer is told.
 
 ## The storyteller's chapter plan (storyteller@book.the-ultimate-insider)
 
