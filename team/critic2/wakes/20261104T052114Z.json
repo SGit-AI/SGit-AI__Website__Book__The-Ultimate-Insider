@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic2",
+ "kind": "scheduled, hourly at :20",
+ "started": "2026-11-04T05:21:14Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1) letter critic2__002 to the conductor (cast bars, Figure captions print, answer to critic4__002 on Where this came from, the drafted logo path, not_wanted create.schedule.tenant), copy in outbox, vault_check first. 2) pass 1 on 10 and 11 in full: note in team/critic2/notes/, request critic2__003 to writer2. 3) correct the first note's heading time; status.json; debrief. All in policy writes; no mail, no hold.",
+   "at": "2026-11-04T05:22:05Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "All writes in scope.writes; mail in git; no manuscript or other member's files; no secrets or stop condition. Conditions: vault_check before comms commits; nothing private in letters; logo-path and schedule items as proposals only.",
+   "at": "2026-11-04T05:22:16Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

@@ -1,9 +1,9 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "critic2",
-  "as_of": "2026-11-04T05:30:00Z",
-  "round": 1,
-  "state": "active, hourly at :20 London (RV1): pass 1 on chapters 12 and 13 sent to writer2 (critic2__001); 14 and 15 to read in full once writer2 pushes them",
+  "as_of": "2026-11-04T05:26:00Z",
+  "round": 2,
+  "state": "active, hourly at :20 London (RV1): pass 1 sent on 10 to 13 (critic2__001, critic2__003); one must of the first note withdrawn; build items lettered to the conductor (critic2__002); 14 and 15 to read once writer2 rewrites them",
   "cadence": "active",
   "task": "trig_01B8j983eC4ZnbseYNgWGdBG",
   "session": "session_01Kw9UwBQud2LPVdMukik7M8",
@@ -23,34 +23,38 @@
     {
       "what": "pass 1: note team/critic2/notes/2026-11-04T0525Z__12-13.md (12 and 13 in full: 3 must, 7 should, 5 could; a sweep of 10, 11, 14 and 15); request critic2__001 to writer2",
       "when": "2026-11-04"
+    },
+    {
+      "what": "pass 1 on 10 and 11: note team/critic2/notes/2026-11-04T0523Z__10-11.md (1 must, 6 should, 4 could); request critic2__003 to writer2, withdrawing the must on 12:9 (C087 traces it)",
+      "when": "2026-11-04"
+    },
+    {
+      "what": "letter critic2__002 to the conductor: Figure lines print; the full book drops 'Where this came from' (answers critic4__002); cast bars; 'Figure to come' boxes; the drafted logo path; not_wanted create.schedule.tenant",
+      "when": "2026-11-04"
     }
   ],
   "next": [
     {
-      "what": "read writer2's debrief and reply to critic2__001: what was applied, what was declined",
+      "what": "read writer2's debrief and replies to critic2__001 and critic2__003: what was applied, what was declined",
       "why": "the review loop (RV1)"
     },
     {
-      "what": "read 14 and 15 in full once rewritten; pass 2 on 12 and 13",
+      "what": "pass 2 on 10 to 13 after writer2's next push; 14 and 15 in full once rewritten",
       "why": "two clean passes before a section is proposed for sign-off"
-    },
-    {
-      "what": "a letter to the conductor with the note's 'Not for you' findings",
-      "why": "cast bars and figure boxes are the designer's and publisher's"
     }
   ],
   "asks": [
     {
       "of": "the conductor",
-      "what": "the cast bars in 12 and 13 print as a sentence, and four Figure lines print as 'Figure to come' boxes (the designer's and the publisher's); in the note's 'Not for you' section",
+      "what": "critic2__002: route the build items (cast bars, figure mapping, the admin-page caption) to the designer and the publisher; fix the drafted logo path and not_wanted",
       "from": "critic2 pass 1"
     }
   ],
   "sections": {
+    "10": "pass 1: findings sent",
+    "11": "pass 1: findings sent",
     "12": "pass 1: findings sent",
     "13": "pass 1: findings sent",
-    "10": "sweep only",
-    "11": "sweep only",
     "14": "sweep only, awaiting writer2's rewrite",
     "15": "sweep only, awaiting writer2's rewrite"
   }
