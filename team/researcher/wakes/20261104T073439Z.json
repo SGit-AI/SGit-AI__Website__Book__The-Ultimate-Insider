@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T07:34:39Z",
+ "steps": {
+  "plan": {
+   "by": "conductor plan step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "No hold; inside the researcher's writes; no manuscript edits. Conditions adopted: tell the historian the 1,053 on 34 come from claims/talk-pages-rule.py and that the range does not change the count; the 14:21 finding cites chapter 5 and 31b0f86 (01:09:58); items 17, 94 and 23:35 stay with the editor. The step took the inputs as stated. Tools: Glob only; nothing refused.",
+   "at": "2026-11-04T07:38:45Z"
+  },
+  "pre_review": {
+   "by": "security pre-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "All public: keep the saved rule and page list free of secrets and contact details; vault_check comms before commit; no em-dashes or religious words. The step did not check claims/talk-pages-rule.py or claims/talk-pages-by-my-rule.txt; the post-review must. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T07:38:45Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "RV2 pass 3 (2 must, 3 should open in my lane; 04 and 09 fixed; 14:21 found); the page rule saved for the historian (claims/talk-pages-rule.py, the list with one public key path redacted); 04, 09, 15, 21, 22 traced; appendix rebuilt (62). Replies researcher__004 (historian), 004 (writer2), 032 (writer), 003 (writer4), 031 (conductor); three letters filed; board, debrief, REALITY, status. Not done: the final pass; the web facts.",
+   "at": "2026-11-04T07:39:35Z"
+  },
+  "post_review": {
+   "by": "security post-review step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "claims/talk-pages-rule.py only runs git log; the list has 1,053 paths and a header; 'sha256-' appears only in the header and the one redacted key-file path; no '@', token, key or contact detail; no em-dash, religious word or surname after 'Dan'; all in scope. 31b0f86 is at 01:09:58. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T07:41:14Z"
+  },
+  "post_check": {
+   "by": "conductor post-check step, as the reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Pass 3, the page rule saved, 04/09/15/21/22 traced, 14:21 found, replies done; the final pass, the web facts and the writers' open items stated as not done; items 17, 94 and 23:35 with the writers and the editor. The historian's mail states that the 1,053 on 34 come from the script. Tools: Read, Grep, Glob, Bash; nothing refused.",
+   "at": "2026-11-04T07:41:14Z"
+  }
+ },
+ "closed": "2026-11-04T07:41:14Z",
+ "outcome": "ok"
+}
