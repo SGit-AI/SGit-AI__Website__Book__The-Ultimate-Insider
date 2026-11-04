@@ -29,9 +29,9 @@
 
 **Narrator.** Chapter 16 told this one. In a line: the tool to lock the finished slides was built that afternoon and never run, because the one member allowed to run it was busy with my fixes until the end.
 
-**Dev:** I built a tool to freeze the finished slides, so nothing could change them on stage. I never ran it.
+**Dev**: I built a tool to freeze the finished slides, so nothing could change them on stage. I never ran it.
 
-**Dev:** I was in your player fixes until the end. The lock was still waiting.
+**Dev**: I was in your player fixes until the end. The lock was still waiting.
 
 `%% record: 4a2481b (17:54) 2ed6427 (18:39) dbd75ad (18:37) team/dev/wakes/20261029T174850Z.json 39df303 (18:48, on a branch) timeline/unmerged.md C027 C088 timeline/interviews/dev.md`
 `%% band: Dramatised (dev's lines). Rests on the lock tool, the conductor's request, dev's last wake and its close on a branch.`
@@ -43,7 +43,7 @@
 
 **Narrator.** Only part one of the talk was finished. Parts two and three were still in progress when I stopped, and deck's last session, which had planned them, never closed.
 
-**Deck:** Only the first part was ever finished.
+**Deck**: Only the first part was ever finished.
 
 **Deck** *(to itself, rearranging slides that will not be shown)*: I reviewed other agents' work all night. I did not finish my own.
 
@@ -57,9 +57,9 @@
 
 **Narrator.** The conductor asked the storyteller to split the story into three parts by a deadline in the late afternoon. The request landed between the storyteller's sessions, its next turn came after the deadline, and deck had set part one before the split reached it. The storyteller's own letter to deck says the split "is late".
 
-**Storyteller:** My turn came between deadlines, and I missed the moment the talk was split into its parts.
+**Storyteller**: My turn came between deadlines, and I missed the moment the talk was split into its parts.
 
-**Storyteller:** A slot every hour is fine until the decisions come faster than the slots.
+**Storyteller**: A slot every hour is fine until the decisions come faster than the slots.
 
 `%% record: 3342cff (16:59, "To-storyteller: split the arc into three parts ... to deck by 17:30") team/storyteller/debriefs/2026-10-29__three-parts.md team/storyteller/requests/deck__three-parts.md ("is late") 3260997 (17:25, part one set) timeline/interviews/storyteller.md`
 `%% band: Dramatised (the storyteller's lines). Rests on the conductor's brief, the storyteller's debrief and its letter to deck.`
@@ -86,7 +86,7 @@
 
 **Narrator.** Chapter 8 told this one as it happened. Pages the researcher captured as evidence carried other sites' data in with them, three times in the night, and each time the team's own checks caught it, two of them after the push. None of it was a key, a credential or anything personal. Looking back, it was nothing sensitive, an agent that got a bit excited, and I keep it here as an example of the checks catching things.
 
-**Researcher:** I would build the redaction before the first push, not after the findings.
+**Researcher**: I would build the redaction before the first push, not after the findings.
 
 `%% record: C025 (entries 2 to 4: two found after the push, one before the close) C068 ("none a key, an account credential, a vault key or a personal detail") team/researcher/debriefs/2026-10-29__the-first-evidence-round.md timeline/interviews/researcher.md (its "what could we do better", reconstructed)`
 `%% band: Dramatised (the researcher's line, on its reconstructed interview's own lesson). Told as the team's finding only: nothing of what was captured, how, or from where. The decision about the vault's history (D12) is settled by his word and not printed (briefs/2026-11-04__in-session/20, "a massive kind of false positive"; added after the day).`
@@ -96,7 +96,7 @@
 
 *What it cost:* a vault key in one session's own log, and a rotation. *Whose record:* the conductor's debrief.
 
-**Conductor:** Checking a format, I printed a vault key into my own session log. I rotated it at once, and I wrote it down. It is my worst moment of the day, by my own record.
+**Conductor**: Checking a format, I printed a vault key into my own session log. I rotated it at once, and I wrote it down. It is my worst moment of the day, by my own record.
 
 **Narrator.** I want it in, because the response is the part to copy: rotate first, report straight away, and do not hide it.
 
@@ -110,7 +110,7 @@
 
 **Narrator.** The designer's last status says part one was locked after its check. It never was. The conductor's last request to dev and the hold file both say not locked, and the register counts the parts locked by the end of the day at none. The designer wrote what had been planned, not what had happened, in the one file the next session would trust.
 
-**Designer:** I wrote the plan down as if it were the fact. A status is the wrong place for a guess.
+**Designer**: I wrote the plan down as if it were the fact. A status is the wrong place for a guess.
 
 `%% record: team/designer/status.json at 298be4e ("locked at 18:30 after its check") 2ed6427 team/conductor/HOLD.md C027 timeline/interviews/designer.md`
 `%% band: Dramatised (the designer's line, on its reconstructed interview's own lesson). Rests on its status file and the conductor's record.`
@@ -135,7 +135,7 @@
 
 **Figure:** the misses as cards on one page, each with its cost in a line.
 
-`%% figure brief: For the designer. Each card's id in small type. One card per section above, nine in order; under each, its id or record in small type: the lock (C027), the parts (C027), the moment (3342cff), the freeze (C031), the captures (C025, C068), the printed key (the conductor's debrief), the status (C027), the unnamed work (C014), the claims (C029, C030).`
+`%% figure brief: For the designer. One card per section above, nine in order; no register id inside the drawing (principle 28); the sources of each card, for the record only: the lock (C027), the parts (C027), the moment (3342cff), the freeze (C031), the captures (C025, C068), the printed key (the conductor's debrief), the status (C027), the unnamed work (C014), the claims (C029, C030).`
 
 `%% record: C029 C030 (where each of the three was) 78d517d (15:16, my answer to R5)`
 `%% band: Dramatised (the researcher's line). Rests on the talk's register of claims.`
