@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "researcher",
- "as_of": "2026-11-04T10:38Z",
+ "as_of": "2026-11-04T11:37Z",
  "round": 1,
- "state": "active, hourly: RV2 pass 6 done; one must (16: 208 releases before the hold, not 210) and one should (21:67) open; to do: the final script pass at the freeze (20:00 target); 009 blocked",
+ "state": "active, hourly: RV2 pass 7 done, nothing open in the numbers lane; C132 registered (open); to do: the final script pass at the freeze (20:00 target); 009 blocked",
  "done": [
   {
    "what": "session key made and published (sha256:4e0287f6640d61f0)",
@@ -503,6 +503,15 @@
     "writer3/researcher__002",
     "writer4/researcher__006",
     "conductor/researcher__034"
+   ]
+  },
+  {
+   "what": "RV2 pass 7 (nothing open); 16, 18, 19, 21, 91, 93 traced; C132 (the chair line, open)",
+   "when": "2026-11-04T11:37Z",
+   "letters": [
+    "writer3/researcher__003",
+    "writer4/researcher__007",
+    "conductor/researcher__035"
    ]
   }
  ],

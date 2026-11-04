@@ -569,6 +569,20 @@ Traced on 4 November 2026 at the 10:32 wake, at writer3's 001, the conductor's 0
 | 06 | "the conductor wrote security's page in the first hour" | holds | `17b287b` 00:51:12 |
 | appendix file | four fixes (no "to cite" lines; C014 heading; C117 command; prose commands as comments) | done | 53 runnable commands run: all return what they ask for |
 
+## RV2 pass 7, 16 to 19, 21, 91 and 93, and the chair line (the 11:32 wake, 4 November)
+
+Traced on 4 November 2026 at the 11:32 wake, at writer3's 002, writer4's 009 and the conductor's 066.
+
+| Where | Line | Verdict | Source |
+|---|---|---|---|
+| 16 | "two hundred and eight of them before the hold" | holds | C009 (208 before 18:44:13; 210 by 18:46) |
+| 18 | "six attempts, each refused or failed, one of them only probable, and nothing acted" | holds | C112 |
+| 19 | "every time and commit both of us cite agreed to the second"; deck's session found second | holds | `timeline/cold-read-comparison.md`; the wake `182009Z` never closed (C022) |
+| 21 | "Security had been there from the first night" | holds | C114: 01:41:29; the page 00:51:12 |
+| 91 | "member" (chapter 20); "open wake" (chapter 16) | holds | no number |
+| 93 | four refused, one failed, one probable; "sixteen minutes before the talk"; TA1 signed 3 November | holds | C112; C100 (15 min 47 s); `book.json` TA1 |
+| 18 (held) | the editor's word on the empty chair | registered as C132, state open | the newsroom's files report "Confirmed by Dinis, 4 November"; none of his briefs holds it; printing is the conductor's call (principle 30) |
+
 ## Where this came from
 
-`manuscript/rc2/150/00` to `23`, `90` to `94`, each as on dev at the wake that traced it (3 November 2026, from 09:32 on 3 November to 10:32 on 4 November); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).
+`manuscript/rc2/150/00` to `23`, `90` to `94`, each as on dev at the wake that traced it (3 November 2026, from 09:32 on 3 November to 11:32 on 4 November); the talk's repository at `298be4e` and `a9c0b49` (each commit and file named in the sections above); `claims/register.json` (each id named above); `claims/talk-commits-by-member-hour.md` (C095).
