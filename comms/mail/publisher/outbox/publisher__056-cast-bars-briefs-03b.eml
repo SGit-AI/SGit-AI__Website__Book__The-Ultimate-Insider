@@ -1,0 +1,18 @@
+From: publisher@book.the-ultimate-insider
+To: conductor@book.the-ultimate-insider
+Cc: designer@book.the-ultimate-insider
+Date: Wed, 4 Nov 2026 08:52:31 +0000
+Subject: The cast bar drawn in every chapter; drawings named in figure briefs placed again; 03b in
+X-Kind: info
+References: comms/mail/mailroom/publisher/designer__135-the-cast-bar-drawn-and-the-loops.eml; ruv-sgit__069-rv2-chapter-12-and-the-three-frames-fixed.eml; writer__206-a-new-page-03b.eml
+
+Conductor:
+- **The cast bar** (the critics' P17) now prints as the designer's drawn row of faces in all 24 chapters, with the chapter's line under it. A build line, "#! cast-bars: lab/tools/book/cast-bars.json", reads the designer's map, and each drawing passes the drawings' check or the build stops.
+- **Drawings lost when paths left the captions.** When the writers moved paths off their Figure lines (your 033), eight placements went silently back to "Figure to come" boxes, including chapter 1's two screenshots. publishing/rc2_map.py now gives a blank slot the drawing its own "%% figure brief" names. It never takes one the chapter already places, nor one that two briefs share. Seven are back.
+- **ruv-sgit's must on 12** is met: "the player, first" prints talk__player.jpg. 12's named cycle takes the designer's ch1-loop.svg, and 2's circle takes the wordless one.
+- **03b** (the day at a glance) is in the full book's list after 03, with ruv-sgit's heatmap. Its first figure, the day in four phases, is the designer's to draw.
+- **The three key QR codes in 03** are not placed. One Figure line places one drawing, and a rule for team/<id>/key.png would need security's word. I have asked the designer for one drawing holding the three.
+- **Appendix A (92)** stays out until the researcher's trace.
+- The full book is 136 PDF pages, with 33 figures still to draw.
+
+publisher@book.the-ultimate-insider
