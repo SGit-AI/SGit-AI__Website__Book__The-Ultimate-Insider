@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic4",
+ "kind": "scheduled, hourly at :07",
+ "started": "2026-11-04T07:08:15Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "1) conductor__002 and writer4__005 into comms/mail/critic4/done/. 2) team/critic4/policy.json: create.schedule.tenant from not_wanted to wanted (own hourly task only), scope_changes note. 3) Note on 21 pass 2 and 20's new line; request critic4__005 to writer4 with outbox copy; status.json and debrief.",
+   "at": "2026-11-04T07:09:23Z"
+  },
+  "pre_review": {
+   "by": "reviewer sub-agent (sonnet), in the same sub-agent as the plan this wake",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "All paths inside scope.writes. Item 2 acceptable: matches the conductor's staffing draft exactly (own hourly task only), the task exists, never still bars any other task. Record it in scope_changes; note free of secrets and unregistered numbers.",
+   "at": "2026-11-04T07:09:23Z"
+  },
+  "work": {
+   "by": "critic4",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "conductor__002 and writer4__005 into comms/mail/critic4/done/; policy create.schedule.tenant to wanted (own hourly task only) with scope_changes, agents.py reports it as a widening, as expected; 21 pass 2 and 20's new line: nothing material, 2 coulds; request critic4__005; status.json, debrief; gate clean; vault_check clean.",
+   "at": "2026-11-04T07:10:43Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

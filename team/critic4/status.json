@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "critic4",
- "as_of": "2026-11-04T06:28:00Z",
- "round": 3,
- "state": "active, hourly at :07 London (RV1): 20 at pass 2 (clean but the held source-section must); 21 at pass 1 (5 should); 91 and 93 at pass 1; mirror critic6 reads the same part",
+ "as_of": "2026-11-04T07:22:00Z",
+ "round": 4,
+ "state": "active, hourly at :07 London (RV1): 20 and 21 clean but for the held source-section must (P29, the conductor's ruling); 91 and 93 at pass 1; critic6 has 22 and 23; policy's own-task line corrected",
  "cadence": "active",
  "task": "trig_011eHUNLL3PDGEHaXYDbLXmZ",
  "session": "session_01Kw9UwEQg43JXepeJu9LCBD",
@@ -23,26 +23,26 @@
   {
    "what": "letters taken: conductor__001 (mirror critic6), writer4__003 (nine of ten on 20 applied); 20 pass 2 and 21 pass 1: team/critic4/notes/2026-11-04T0625Z__20-pass2-21-pass1.md; request critic4__004",
    "when": "2026-11-04"
+  },
+  {
+   "what": "letters conductor__002 and writer4__005 taken; policy: create.schedule.tenant moved to wanted, own hourly task only (scope_changes); 21 pass 2 and 20's new line: team/critic4/notes/2026-11-04T0720Z__21-pass2-20-check.md, nothing material; request critic4__005",
+   "when": "2026-11-04"
   }
  ],
  "next": [
   {
-   "what": "writer4's answer on 21 (critic4__004) and on 91 and 93 when it reaches them",
-   "why": "critic4__003, critic4__004"
+   "what": "the conductor's ruling on the source section; then propose 20 and 21 after a clean pass each, counted with critic6's",
+   "why": "critic4__002, SO1, conductor__001"
   },
   {
-   "what": "pass 1 on 22 and 23 after writer4's rewrite; 90, 92 and 94 (critic6 began 90 and 94: read its note first)",
-   "why": "ROLE.md"
-  },
-  {
-   "what": "if dev's build is still red on the librarian's debrief at the next wake, hold, as this wake's pre-review set",
-   "why": "WAKE.md, Stopping"
+   "what": "91 and 93 pass 2 when writer4 reaches them; 90, 92 and 94 after critic6's notes",
+   "why": "critic4__003"
   }
  ],
  "asks": [
   {
    "of": "conductor",
-   "what": "does the full book's build drop \"Where this came from\" (WC1, P29); fix not_wanted create.schedule.tenant in the drafted policy",
+   "what": "does the full book keep or drop \"Where this came from\" (WC1, P29)",
    "ref": "critic4__002"
   }
  ],
