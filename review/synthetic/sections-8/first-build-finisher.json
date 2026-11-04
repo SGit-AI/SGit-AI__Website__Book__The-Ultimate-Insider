@@ -1,0 +1,36 @@
+{
+ "schema": "the-ultimate-insider/synthetic-section-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "first-build-finisher",
+ "read_at": "c23c60e4",
+ "would_read_on": {
+  "11-the-plumbing": "yes",
+  "12-the-creator-comes-back": "maybe",
+  "13-the-story-before-the-slides": "maybe"
+ },
+ "findings": [
+  {"file": "11-the-plumbing.md", "line": 7, "quote": "a register for every number, a check every change passes, a site to work on, and a brief with a file beside it", "principle": "reader", "severity": "should", "why": "As someone with one finished app and no coding background, I meet register, check, site and brief as four unexplained terms before any of them is shown."},
+  {"file": "11-the-plumbing.md", "line": 15, "quote": "Most held, some only in part, some had not been checked yet, and three did not hold.", "principle": "21", "severity": "should", "why": "The sentence reads out the figure that the stacked bar at line 28 then draws again."},
+  {"file": "11-the-plumbing.md", "line": 17, "quote": "A claim without a captured source is a gap, and the register says so rather than leaving it out. Gaps are allowed. Hiding them is not.", "principle": "7", "severity": "could", "why": "Three short sentences in a row, ending on a tidy contrast, where one longer sentence would carry the thought."},
+  {"file": "11-the-plumbing.md", "line": 40, "quote": "no code loaded from elsewhere; every script parses; every beat has a slide", "principle": "reader", "severity": "should", "why": "I cannot tell what 'parses' or 'beat' means, and the list is the first place I need to see what a check actually is."},
+  {"file": "11-the-plumbing.md", "line": 42, "quote": "Put the two side by side and half of the page is the check said in words.", "principle": "reader", "severity": "should", "why": "It sends me to chapter 4's page of rules, which I have not read here, so I cannot do the comparison it asks for."},
+  {"file": "11-the-plumbing.md", "line": 48, "quote": "A member that is certain its work is fine still has to pass the same test as one that is not.", "principle": "reader", "severity": "could", "why": "'Member' is the team's word for an agent and is not explained on this page."},
+  {"file": "11-the-plumbing.md", "line": 50, "quote": "Chapter 5 has the example I like best", "principle": "21", "severity": "should", "why": "The refused release is mentioned here only to point away, which leaves the claim without its scene."},
+  {"file": "11-the-plumbing.md", "line": 126, "quote": "One check that every change has to pass is where all of this begins.", "principle": "reader", "severity": "must", "why": "This is the step I came for, and it gives me no concrete first check I could set up after my one app, nor what to type or ask for."},
+  {"file": "12-the-creator-comes-back.md", "line": 20, "quote": "the player, from ruv.sgit.ai, working on an iPad", "principle": "reader", "severity": "should", "why": "The player and ruv.sgit.ai are used as known things, so I am not sure what is being built or where it lives."},
+  {"file": "12-the-creator-comes-back.md", "line": 69, "quote": "ruv-sgit went from one run an hour to several at once", "principle": "reader", "severity": "should", "why": "ruv-sgit appears without an introduction, and I cannot tell whether it is a person, an agent or a site."},
+  {"file": "12-the-creator-comes-back.md", "line": 118, "quote": "I looked, I asked, they changed it, and I looked again.", "principle": "21", "severity": "could", "why": "The loop is told here and then named again at line 124 as think, explain, create, review."},
+  {"file": "12-the-creator-comes-back.md", "line": 124, "quote": "It looks a lot like an OODA loop, and maybe it is a variation on it", "principle": "reader", "severity": "should", "why": "OODA is not explained, and as a non-coder I skim past it."},
+  {"file": "12-the-creator-comes-back.md", "line": 139, "quote": "write your list with the most important thing first, and note each time you reorder it", "principle": "reader", "severity": "could", "why": "It is a gentle, doable step, but it is about to-do lists and not about my app, so it feels distant from the next step I wanted."},
+  {"file": "13-the-story-before-the-slides.md", "line": 11, "quote": "I like how it said so to deck:", "principle": "1", "severity": "could", "why": "Deck is not yet introduced to a reader who skipped earlier chapters, and the 'I like' is a gloss on the quote, not a thought."},
+  {"file": "13-the-story-before-the-slides.md", "line": 29, "quote": "The line is the honest heart of a map like that", "principle": "6", "severity": "could", "why": "It tells me how to rate the line and not what the map does, which is a small steer on the reader's judgement."},
+  {"file": "13-the-story-before-the-slides.md", "line": 63, "quote": "Then it goes to the editor, as the strongest objection to his own part one. Not buried.", "principle": "21", "severity": "should", "why": "The same decision is stated again at line 79 and in the closing card at line 94, three tellings of one idea."},
+  {"file": "13-the-story-before-the-slides.md", "line": 94, "quote": "ask one of your agents to argue against your plan, in writing", "principle": "reader", "severity": "could", "why": "This is the most usable idea for me, but it does not say which tool or how to ask, and I have only built one app."}
+ ],
+ "what_holds": [
+  "11-the-plumbing.md: the four-pipe opening promises something I can build, and keeping the failure of the empty corrections file in is honest and memorable.",
+  "12-the-creator-comes-back.md: the conductor turning down the plan at the moment of most pressure is a clear scene about checks that I can picture.",
+  "13-the-story-before-the-slides.md: the researcher saying a line does not hold, and the editor keeping it anyway with the objection on the record, is a strong example of deciding with the argument in front of you."
+ ],
+ "notes": "As a first-build finisher I am looking for my next step, and these chapters describe a nine-hour team of named agents with a vocabulary (member, wake, register, brief) I only half follow. The Something to try cards are the part I could act on, but they are thin next to the chapters. I would read on to find the first concrete start, and I would be put off if the cards stay this general."
+}

@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, 16:42 London",
+ "started": "2026-11-04T16:44:23Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "take waiting mail and check fixes; RV2 read of an unread section; board, debrief, status. Tools Read, Bash; none refused.",
+   "at": "2026-11-04T16:45:02Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "inside scope.writes; conditions: synthetic__* mail, vault_check, persona reviews not counted as readership. Tools Read, Grep; none refused.",
+   "at": "2026-11-04T16:45:20Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
