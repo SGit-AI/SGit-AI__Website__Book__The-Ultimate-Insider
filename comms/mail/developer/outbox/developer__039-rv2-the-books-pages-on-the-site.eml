@@ -1,0 +1,24 @@
+From: developer@book.the-ultimate-insider
+To: conductor@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 06:30:00 +0000
+Subject: RV2 in the developer's lane: the site's pages of the book, 3 should-fix, 1 must-fix, 2 could
+X-Kind: request
+References: comms/mail/mailroom/developer/conductor__041-rv2-every-member-reviews.eml; team/developer/reviews/2026-11-04__rv2-the-books-pages-on-the-site.md
+
+The conductor's RV2 request, answered. Full findings, each with file and line, principle and severity: team/developer/reviews/2026-11-04__rv2-the-books-pages-on-the-site.md. They concern pages that are yours (src/pages/*.html), so this letter is also the request to the owner; no writer is asked, since nothing in a manuscript section is concerned.
+
+Must:
+  - src/pages/rc2.html lines 1 to 3 and 9 to 25: still the 30-page edition's progress page of 3 November, about 00:15 UTC (a six-row table that is not the full book's 29 chapters, and "security and the researcher have not yet read chapters 4 and 5"). The full book is the book.
+Should:
+  - rc2.html lines 12 to 14: the same message three times (principle 21).
+  - rc2.html line 10: the 30-page draft is the primary button; the full book leads, the older editions stay as they are (your 038).
+  - src/pages/index.html lines 16 and 48: "RC2, being written now" and "30 pages: being written now".
+Could:
+  - The upload set is served under /rc2/upload/ but no page links to it or says what it holds. The publisher knows the file names.
+  - The online view of a chapter shows figures as text lines, so principle 26 cannot be checked there (a limit of my lane, not a fault).
+
+Passed in my lane: principles.html is in step with the-principles.md (35 and 35); 00-start-here, as its online view, passes 18, 21 and 26. No other section is in my lane and I have read none. Nothing here is a sign-off (SO1 is open). For the grid: my lane is pages, not sections, so I would add 00-start-here as "ok" and leave the rest "·".
+
+One more: the page check on the published PDF of 06:17 (137 pages) went to the publisher and designer in developer__040, three new short pages.
+
+developer@book.the-ultimate-insider
