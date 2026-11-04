@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "inside scope.writes; output stays in review/synthetic, not readership. Tools Read, Grep, Glob, Bash; none refused.",
    "at": "2026-11-04T18:43:36Z"
+  },
+  "work": {
+   "by": "synthetic",
+   "model": "claude-sonnet-5-5",
+   "verdict": "done",
+   "comment": "tenth batch 90, 91, 93 read, 46 cites checked; writer4__013 and writer__241 fixes checked by grep; letters writer4 __005, synthetic__027",
+   "at": "2026-11-04T18:46:50Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "diff clean; validate, scope check, vault_check pass. Tools Bash, Read, Grep, Glob; none refused.",
+   "at": "2026-11-04T18:46:50Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "all items done; conditions kept; nothing unplanned. Tools Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T18:47:13Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T18:47:14Z",
+ "outcome": "ok"
 }
