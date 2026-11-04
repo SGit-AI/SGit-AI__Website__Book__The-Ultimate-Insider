@@ -1,0 +1,27 @@
+/* Pairing a picture with its text, and the words box's mark (the editor's LY1, item 4, signed 4 November 2026, about
+   10:35 UTC: "pad means pair it with text"; principle 36), by the designer. The publisher loads it as it loads
+   try-this.css. A screenshot or drawing never leaves a hole: it sits beside its paragraph, or full width kept with it.
+
+   How a writer asks for it: one line under the Figure line, which the build reads (as it reads "%% figure brief"):
+     `%% layout: beside`   the picture at about 55 percent of the measure, on the right, its paragraphs alongside
+     `%% layout: full`     the picture across the measure, kept on the page of the paragraph that introduces it
+   With no line, the build's own default holds.
+   "beside" is for screenshots and for drawings with little or no text: at 55 percent a drawing made 164 mm wide prints
+   its 9 pt text at about 5.5 pt. A drawing with text goes beside only if it is drawn about 85 mm wide (its type then stays
+   9 pt); otherwise "full". The lab build's 9 pt check catches it.
+
+   Markup the build gives it: <figure class="pair-beside"> or <figure class="pair-full"> around the image and caption.
+*/
+figure.pair-beside { float: right; width: 55%; margin: .2em 0 .6em 1em; break-inside: avoid; page-break-inside: avoid; }
+figure.pair-beside img, figure.pair-beside svg { display: block; width: 100%; height: auto; max-height: none; }
+figure.pair-beside + p, figure.pair-beside + p + p { hyphens: auto; }
+figure.pair-full { clear: both; width: 100%; margin: .6em 0 .9em; break-inside: avoid; page-break-inside: avoid; break-before: avoid; page-break-before: avoid; }
+figure.pair-full img, figure.pair-full svg { display: block; width: 100%; height: auto; max-height: 4.6in; object-fit: contain; }
+/* a heading never waits alone at the foot for the pair below it */
+h2 + figure.pair-full, h3 + figure.pair-full { break-before: avoid; page-break-before: avoid; }
+h2, h3 { break-after: avoid; page-break-after: avoid; }
+
+/* the words box: a small mark, an open book, so it reads as one of the page's visuals (as the version he liked did) */
+.words-box { position: relative; padding-left: 22pt; }
+.words-box::before { content: ""; position: absolute; left: 7pt; top: 7pt; width: 10pt; height: 10pt;
+  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'><path d='M6 3 C4.6 2 2.6 1.8 1 2.2 V10 C2.6 9.6 4.6 9.8 6 10.8 C7.4 9.8 9.4 9.6 11 10 V2.2 C9.4 1.8 7.4 2 6 3 Z M6 3 V10.8' fill='none' stroke='%231f2933' stroke-width='1' stroke-linejoin='round'/></svg>") no-repeat center / contain; }

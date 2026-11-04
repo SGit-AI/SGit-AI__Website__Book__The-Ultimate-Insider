@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, hourly at :57 London",
+ "started": "2026-11-04T10:58:12Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "LY1 (signed) first: pair.css and the words box's mark, the layout line a proposal for the publisher's build; Start here's three figures in LAB 52 (numbers-only stones; the route; the strip with 'nearly nineteen hours', fair under C010, not paired with the 23:19 merge); no register ids in drawings; the ruv-sgit ask by mail only. If time is short, ship the CSS and the figures and leave the resync. All in scope; no HOLD. Tools: Bash, none refused.",
+   "at": "2026-11-04T10:59:42Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "All in scope (pair.css, resync and its list, LAB 52, the lab PDF, the designer's letters and done/, a REALITY append); no HOLD. Conditions: copy letters to done/, never edit the mailroom; no register ids in drawings; the one number from claims/ (C010); the inline SVG with no script or external href; the gate before the push. Tools: Bash, none refused.",
+   "at": "2026-11-04T11:00:21Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Done as planned. pair.css (beside or full, headings kept with what follows, the words box's mark; 'beside' limited to pictures with little text, as the 9 pt check showed). LAB 52: Start here's three pictures, checked against the page at build, no drawn register id, one number from C010; placed for 00; the list resynced for writer3 (106 lines, 59 drawn). Letter 139; nine letters copied to done/. Lab 173 pages; gate clean.",
+   "at": "2026-11-04T11:04:46Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "d721e79b: 0 files out of scope; vault_check and validate clean (1068); mail only added (no mailroom file edited); unsafe_svg passes all three LAB 52 SVGs; no register id drawn (the C100 and S128 matches are path commands); the one number is C010's; pair.css's inline SVG is a path only. No secrets, em-dashes or religious words. Tools: Bash, none refused.",
+   "at": "2026-11-04T11:06:13Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "d721e79b: pair.css done (beside or full, headings kept, the words box's mark, the layout line put to the publisher in 139); LAB 52 done (three SVGs placed for 00: numbers-only stones, the route checked against the page, the strip's one number from C010, no 23:19, no drawn id); resync done (16, 17). Conditions kept. Nit fixed at close: 139's Cc now names ruv-sgit. Tools: Bash, none refused.",
+   "at": "2026-11-04T11:07:04Z"
+  }
+ },
+ "closed": "2026-11-04T11:07:04Z",
+ "outcome": "ok"
+}
