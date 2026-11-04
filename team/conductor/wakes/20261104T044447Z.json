@@ -31,8 +31,15 @@
    "verdict": "as-planned",
    "comment": "as-planned: items 1-6, 8 done; 7 (sessions) after the push, as expected; no member list to extend; storyteller copied by Cc header only, as every Cc letter; build and validate run by the conductor (clean, 936 html files)",
    "at": "2026-11-04T04:58:39Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "finding",
+   "comment": "finding, fixed before the push: the critics' never-lists dropped the writers' 'put a number in the book that is not in the researcher's register', though letter security 051 says they copy it; restored in all four. Otherwise clean: RV1 matches brief 23, SO1 open, prompts own-task only, logo original, 42 of 43 quotes verbatim (the other labelled the conductor's illustration), no new ids, gate clean",
+   "at": "2026-11-04T05:00:08Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T05:00:08Z",
+ "outcome": "ok"
 }
