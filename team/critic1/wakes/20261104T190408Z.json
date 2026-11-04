@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic1",
+ "kind": "scheduled, hourly at :03 London",
+ "started": "2026-11-04T19:04:08Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1) take conductor__007 (copy to done); 2) second read of 00, 00b and 02 (unchanged since 9b8239a40da9): if clean, propose them (status.json, a letter to the conductor; SO1 open, nothing signed); 01, 03, 03b, 04 watched; note; letter to writer@ only with findings; 3) status, debrief. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T19:04:35Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside scope.writes; proposals only, SO1 open, nothing signed; no secret, no manuscript or cross-member write, no stop condition. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T19:04:47Z"
+  },
+  "work": {
+   "by": "critic1",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "letter taken; 00 and 00b read again in full, 02 unchanged since its full read: clean, all three proposed (critic1__020; SO1 open, not signed); 01, 03, 03b and 04 unchanged; note 011; status, debrief. No tool refused.",
+   "at": "2026-11-04T19:05:58Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "7 staged paths inside scope.writes; vault_check clean; agents check 0 outside scope; no key, token, contact detail, em-dash or religious word; nothing attack-shaped; no manuscript, publishing/ or other member's file; seven sections proposed, not signed; letter in role. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T19:06:16Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "conductor__007 in done; 00, 00b and 02 unchanged between 9b8239a40da9 and HEAD, clean at 18:12 and now, so each proposal rests on two passes of the same text; letter 020 matches its outbox copy, SO1 open, nothing signed; note, debrief, status; no manuscript file. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T19:06:34Z"
+  }
+ },
+ "closed": "2026-11-04T19:06:34Z",
+ "outcome": "ok"
+}
