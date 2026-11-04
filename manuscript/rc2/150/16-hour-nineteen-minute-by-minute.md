@@ -130,8 +130,6 @@
 
 **Figure:** the dashboard after the stop: the hold on it, and the day's work around it.
 
-`%% layout: full`
-
 `%% figure brief: Drawn, as the page was last built after the stop. A drawing from the page, not a screenshot: the build never shows an admin page. The reason the page shows is the hold file's (the 95%), as the record has it.`
 
 **Narrator.** The rule of the hold had been there since hour two. It was used once. Anyone on the team could stop everything, and only I could start it again.
