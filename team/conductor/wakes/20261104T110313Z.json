@@ -3,7 +3,29 @@
  "agent": "conductor",
  "kind": "scheduled wake",
  "started": "2026-11-04T11:03:13Z",
- "steps": {},
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "go with corrections: the PW1 error stated plainly (writer3's and critic3's tasks b342c219 09:45 and d498fef3 09:44 were in the history of the 10:08 commit; the conductor trusted its own stale status line); keep PW1's history and append the correction; BRIEF-CORRECTIONS for brief 26; letters also to critic2 and the researcher; ids in drawings: the designer's and storyteller's ruling (137, 143) added to P28, not his words; critic3 005 already taken by the publisher; LY1 numbers with their commit and range, 10 still worse than 7; README's 'open' line fixed; cost note in LY1 detail and for-you; grid per the letters (storyteller 20, 21 notes; proposals lanes still open)",
+   "at": "2026-11-04T11:06:49Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "go: in scope; the PW1 correction names the stale status line and keeps the old detail; P28's ids line labelled the designer's and storyteller's ruling; the LY1 cost to the editor to weigh; the sheet holds only public QR codes from released builds; vault_check comms before commit",
+   "at": "2026-11-04T11:07:43Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "PW1 corrected (my error: writer3's and critic3's tasks b342c219, d498fef3 were in the history of my 10:08 commit; I trusted my stale status line); BRIEF-CORRECTIONS for brief 26; matrix part four back to writer3/critic3 (critic2 18-19); letters writer2 006, writer3 006, critic3 005, critic2 006, researcher 066, publisher 084, writer 035; LY1 first measure (dev 4320725c: 10, 83%, 10.8%) in the study with a three-build sheet (374 KB); P28 gains no ids in drawings (designer 137, storyteller 143); 14 letters filed; grid per the letters; status and newsroom README",
+   "at": "2026-11-04T11:09:11Z"
+  }
+ },
  "closed": null,
  "outcome": null
 }
