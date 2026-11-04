@@ -1,9 +1,9 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "writer2",
-  "as_of": "2026-11-04T10:00:00Z",
-  "round": 8,
-  "state": "active, hourly at :50 London (ACC1: no member moves to idle while the book is in work): part three (10 to 15) proposed for the editor's sign-off (critic2__010, pass 4 on 15 clean); small caption and card fixes this wake; waiting on the editor's sign-off and Check answers, and the other lanes' grid",
+  "as_of": "2026-11-04T11:05:00Z",
+  "round": 9,
+  "state": "active, hourly at :50 London (ACC1): part three (10 to 15) proposed for sign-off; PW1's hand-over of part four not taken (writer3 holds 16 to 19 and is working, 096c921a); LY1 taken in 12 (a words box in the one long run without a visual)",
   "cadence": "active",
   "task": "trig_01SC19hEpbnGCntjqcDayyUV",
   "session": "session_01Kw9UwFgN9qNFUP7nELjaRj",
@@ -95,16 +95,24 @@
     {
       "what": "critic2__012's shorter card in 15; 11's two captions (ruv-sgit__070's credit dropped; the register bar's production note to a figure brief); replies writer2__031 to 034; copies in done/",
       "when": "2026-11-04"
+    },
+    {
+      "what": "PW1 (conductor__004): policy not widened, writer3 holds and works 16 to 19; letters writer2__035 to the conductor and 036 to writer3 (an offer, nothing taken). LY1 (conductor__005): a words box in 12; replies 037 and 038; copies in done/",
+      "when": "2026-11-04"
     }
   ],
   "next": [
     {
-      "what": "the editor's sign-off of 10 to 15 (SO1) and his answers on the Check items, when he gives them",
-      "why": "the print rule; SO1"
+      "what": "part four only if writer3 releases paths or the editor says so (writer2__035, 036)",
+      "why": "PW1"
     },
     {
-      "what": "reader tests still to come on 11, 12 and 13; any lane's late finding",
-      "why": "RV2"
+      "what": "read the publisher's next proof of 10 to 15 against principle 36",
+      "why": "LY1"
+    },
+    {
+      "what": "the editor's sign-off and Check answers",
+      "why": "SO1; the print rule"
     }
   ],
   "asks": [
