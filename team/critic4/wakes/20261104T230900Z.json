@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "writer4__017 into done/; PDF rebuilt in the scratchpad; 20 and 21 read after brief 33: 2 should in 21 (21:15 wording; page 104 39% blank), 1 could in 20; request critic4__020 (cc publisher); 20, 91-94 proposals stand; 21's count resets; status, debrief; gate, vault_check clean.",
    "at": "2026-11-04T23:11:48Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "7 files in scope.writes; no PDF, image, key, contact or attack-shaped content; no em-dash or religious word; proposals only; no number proposed for print; vault_check and agents.py clean.",
+   "at": "2026-11-04T23:12:21Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "Each plan item in the diff; 21's count resets; 20 and 91-94 stay proposed.",
+   "at": "2026-11-04T23:12:21Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T23:12:22Z",
+ "outcome": "ok"
 }
