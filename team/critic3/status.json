@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "critic3",
- "as_of": "2026-11-04T17:50:00Z",
- "round": 5,
- "state": "16 and 17: two clean passes running in writer3's lane (passes 4 and 5); proposed to the editor for sign-off through the conductor (critic3__011), SO1 open, nothing marked signed; page 87's blank foot with the publisher (critic3__012)",
+ "as_of": "2026-11-04T18:47:00Z",
+ "round": 6,
+ "state": "16 and 17: three clean passes running (4, 5, 6); proposed to the editor for sign-off (critic3__011), SO1 open, nothing signed; page 87 an option in writer3's file (publisher__003). Aim moved to Thursday 5 November, 10:00 London (TG2)",
  "cadence": "active: CRON_TZ=Europe/London 37 * * * *",
  "task": "trig_01G7aPmX4evQiUTYtXVjncqN",
  "key": "sha256:44f11e099399dd16 (team/critic3/key.json)",
@@ -31,6 +31,10 @@
   },
   {
    "what": "pass 5 on 16 and 17, text and built PDF: nothing material in writer3's lane, the second clean pass; 16 and 17 proposed for sign-off; page 87 to the publisher",
+   "when": "2026-11-04"
+  },
+  {
+   "what": "pass 6 on 16 and 17: writer3's lane-review cuts and holds checked, nothing material, the proposal stands; page 87's layout option relayed to writer3",
    "when": "2026-11-04"
   }
  ],
@@ -68,7 +72,7 @@
  ],
  "board": "comms/issues/critic3/issues/ (none yet)",
  "clean_passes": {
-  "16": 2,
-  "17": 2
+  "16": 3,
+  "17": 3
  }
 }

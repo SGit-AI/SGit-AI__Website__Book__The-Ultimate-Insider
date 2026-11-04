@@ -170,7 +170,7 @@ git log 298be4e --diff-filter=A --format='%h %ci %s' -- 'team/*/HOLD.md'; git lo
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapter 14.
+- **Cited in:** chapters 14, 15.
 
 ```
 git show 298be4e:src/static/talk/talk.json | python3 -c "import json,sys,collections;b=json.load(sys.stdin)['beats'];t=collections.Counter();[t.update({x['part']:x['dur']}) for x in b];print(sum(t.values())/60,{k:v/60 for k,v in t.items()})"
@@ -273,7 +273,7 @@ git show a9c0b49:team/conductor/talk-record/transcript.json | python3 -c "import
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapter 05.
+- **Cited in:** chapters 02, 05.
 
 ```
 git show 298be4e:team/conductor/schedule.json | python3 -c "import json,sys;[print(r['agent'],r['cron']) for r in json.load(sys.stdin)['runs']]"
@@ -283,7 +283,7 @@ git show 298be4e:team/conductor/schedule.json | python3 -c "import json,sys;[pri
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapters 01, 90.
+- **Cited in:** chapters 01, 07, 90.
 
 ```
 for f in $(git ls-tree -r --name-only 298be4e team | grep '/policy.json$'); do echo $f $(git show 298be4e:$f | python3 -c 'import json,sys;print(json.load(sys.stdin).get("status"))'); done
@@ -304,7 +304,7 @@ for c in bd3cdad 298be4e; do for f in $(git ls-tree -r --name-only $c team | gre
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapters 03, 03b, 07, 08, 09, 10, 12, 15.
+- **Cited in:** chapters 03, 03b, 07, 08, 09, 10, 11, 12, 15.
 
 ```
 for f in $(git ls-tree -r --name-only 298be4e team | grep -E '^team/[^/]+/wakes/[^/]+\.json$'); do git show 298be4e:$f | python3 -c 'import json,sys;d=json.load(sys.stdin);print(d["started"][11:13],d["kind"])'; done | python3 -c "import sys,collections;c=collections.Counter();[c.update([(l[:2],'scheduled' if l[3:].lower().startswith('scheduled') else 'follow-up' if ('follow' in l.lower() or 'tonight' in l.lower()) else 'editor')]) for l in sys.stdin];[print(k,v) for k,v in sorted(c.items())]"
@@ -429,7 +429,7 @@ git show a9c0b49:content/articles/the-talk-as-given.md | grep -n 'id="s-port-abp
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapters 01, 02, 04, 05, 07, 08, 09, 10, 12, 13, 14, 15, 16, 91.
+- **Cited in:** chapters 01, 02, 04, 05, 07, 08, 09, 10, 11, 12, 13, 14, 15, 16, 91.
 
 ```
 # see claims/the-clock.md, 'How to rerun' (clock-hour bounds)
@@ -613,7 +613,7 @@ python3 claims/talk-weight.py  # both counts
 git grep -n -i 'racing for release' 20ab1a3 -- team; git show 1f7c633:.github/workflows/release.yml | head -3
 ```
 
-## C129: The making-of dates in the narrator pass, part five: how long after the talk, and the book's first hour
+## C129: The making-of dates: how long after the talk the book began, and its first hour
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Book__The-Ultimate-Insider (this book's record), at `04b227e0` (this book's own record, after the day).
