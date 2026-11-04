@@ -54,6 +54,7 @@ Taken close to its words from the newsroom journalist's pass on the narrator (`t
 10. **Hand over cleanly.** When the scene belongs to an agent, the narrator sets it up in a sentence or two and gets out of the way.
 11. **Never pass judgement on the reader.** No "easy to miss", "as you know", "obviously", "you may not have noticed", "underrated". Say the thing, and let the reader decide whether it was new to them.
 12. **Speak as me, not about me** (his own guidance, brief 07). The narrator is already him: say the point in the present, not "as I said in the talk" with a quotation to justify it. "As I put it in the talk" is fine once; quoting him "left, right and center" is not.
+13. **The parts in words, the chapters in digits** (the conductor's 070, from critic2; 4 November 2026). In the reading text a part is "part one" to "part five", in words, lower case mid-sentence, and "Part one" at the start of a sentence, in a heading or in Start here's map. A chapter is always a digit, "chapter 13", as there are 23 of them. Never "part 3" or "Part 4".
 
 What stays from the rules above: every fact about him still rests on the record or his briefs (rule 1), and a view of his not in either is flagged for him (`%% for the editor:`) until he keeps or drops it.
 

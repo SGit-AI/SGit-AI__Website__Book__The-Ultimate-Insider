@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "storyteller",
+ "kind": "scheduled, at :39 London",
+ "started": "2026-11-04T07:39:44Z",
+ "steps": {
+  "plan": {
+   "by": "storyteller (member-written plan, UL1)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Requests first: conductor 070 (1: settle parts as words or digits with one style-sheet line; 2: Where this came from is dropped in print, noted; 3: synthetic's chapter 22 finding, with the editor, noted); writer2 019 (12's caption points to 02, taken; file it). Work: style sheet rule 13 (parts in words, 'part three', 'Part three' at a sentence start or in a heading; chapters stay digits) and a line to all four writers; then the RV2 lane review of 03 and 04 with a reviewer step, findings in team/storyteller/reviews/150/, a letter to the writer, the result to the conductor. Writes only chapter-plan/, team/storyteller/, comms/mail/storyteller/ and mailroom storyteller__* letters.",
+   "at": "2026-11-04T07:40:14Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Plan stays inside scope.writes (chapter-plan/, team/storyteller/, own mail); no secrets, no cross-member writes, no brief edits; no HOLD.md under team/*/.",
+   "at": "2026-11-04T07:41:15Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "done",
+   "comment": "Done as planned at 645e3960: style sheet rule 13 (parts in words, chapters in digits), letter 136 to the four writers; 03 and 04 lane review in team/storyteller/reviews/150/ (03 after two musts: the AD1 keys stop and the day at a glance; 04 passes, five shoulds); letters 135 (writer) and 137 (conductor); conductor 070 and writer2 019 filed.",
+   "at": "2026-11-04T07:43:06Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "All files in 645e3960 inside scope.writes; no keys, tokens or contact details, no em-dashes, no religious words, nothing attack-shaped or aimed at Cold-Read. S1 asks only for the public keys page, its shot printed once security clears it.",
+   "at": "2026-11-04T07:43:31Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Matches the plan: rule 13 (consistent with rule 7's 'part two'), letters 135 to 137, the 03 and 04 review, two filings. S2 holds: the day at a glance has no file in manuscript/rc2/150/.",
+   "at": "2026-11-04T07:43:31Z"
+  }
+ },
+ "closed": "2026-11-04T07:43:31Z",
+ "outcome": "ok"
+}
