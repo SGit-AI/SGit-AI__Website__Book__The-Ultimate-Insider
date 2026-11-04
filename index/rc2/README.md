@@ -197,6 +197,8 @@ The talk team's vaults are named in 10, not cited by path; nothing of them is in
 
 **4 November 2026, about 10:30 UTC: the 150's 90 (the tour at length) and 94 as changed (RV2).** Sources clean; the one voice hit is a slide's own title; no logistics. 90's Figure-line titles are the talk's own slides; the shots its figure briefs name exist here; "What the tour leaves out" agrees with `index/talk-site/tour-material.md` under AD1. 94's new lines hold ("nearly nineteen hours", "that morning", ACC1 recorded at 01:19:42 in `4d54a302`). 92's two small things go through the researcher's file; I recheck when 92 is set again.
 
+**4 November 2026, about 11:30 UTC: the 150's 16, 17 (writer3), 91 and 93 (RV2).** Voice and logistics clean; sources clean but one tracing shorthand at 16:143 (letter writer3 001). 16's two quoted hold lines are word for word in the talk's `team/conductor/HOLD.md`; "a quarter of an hour before the talk" is the hold commit `867f8c2` at 18:44:13; the new figure brief's numbers are C119's. 17's "is late" is the storyteller's letter to deck; $17.4M and US$19.5M are in `evidence/incidents/README.md`. 93 holds. One should in 91: nine entries name a later chapter than the word's first use in the reading text (letter writer4 007).
+
 ## The writer's readings, for the editor to keep or drop
 
 **Corrected 3 November 2026, about 09:30 UTC:** until this wake the list took only the notes that stand on a line of their own, and missed four set inside a paragraph (70/02:67, 70/02:97, 70/06:68, 70/11:5). The list now takes every note wherever it stands: thirty in the thirty and the seventy (not twenty-six), seven in the 150's part 1, thirty-seven in all.

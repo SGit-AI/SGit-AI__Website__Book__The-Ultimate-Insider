@@ -40,8 +40,8 @@ One file per chapter of the manuscript, built by `index/tools/chapter_entries.py
 | [`150__13-the-story-before-the-slides.md`](150__13-the-story-before-the-slides.md) | 4 | 0 | 9 | 0 | 7 | 0 |
 | [`150__14-port-not-rebuild.md`](150__14-port-not-rebuild.md) | 4 | 0 | 10 | 0 | 12 | 0 |
 | [`150__15-hour-eighteen-faster-than-the-clock.md`](150__15-hour-eighteen-faster-than-the-clock.md) | 3 | 0 | 9 | 0 | 13 | 0 |
-| [`150__16-hour-nineteen-minute-by-minute.md`](150__16-hour-nineteen-minute-by-minute.md) | 3 | 0 | 6 | 0 | 18 | 0 |
-| [`150__17-what-did-not-work.md`](150__17-what-did-not-work.md) | 12 | 0 | 15 | 0 | 20 | 0 |
+| [`150__16-hour-nineteen-minute-by-minute.md`](150__16-hour-nineteen-minute-by-minute.md) | 3 | 0 | 8 | 0 | 18 | 1 |
+| [`150__17-what-did-not-work.md`](150__17-what-did-not-work.md) | 11 | 0 | 15 | 0 | 17 | 0 |
 | [`150__18-how-do-we-contain-this.md`](150__18-how-do-we-contain-this.md) | 10 | 1 | 13 | 0 | 7 | 0 |
 | [`150__19-a-second-team-reading-cold.md`](150__19-a-second-team-reading-cold.md) | 7 | 0 | 14 | 0 | 17 | 0 |
 | [`150__20-sessions-end.md`](150__20-sessions-end.md) | 2 | 0 | 10 | 0 | 3 | 0 |
@@ -51,7 +51,7 @@ One file per chapter of the manuscript, built by `index/tools/chapter_entries.py
 | [`150__90-the-tour-at-length.md`](150__90-the-tour-at-length.md) | 14 | 0 | 11 | 1 | 5 | 0 |
 | [`150__91-the-words-used.md`](150__91-the-words-used.md) | 0 | 0 | 5 | 0 | 0 | 0 |
 | [`150__92-appendix-a-every-number.md`](150__92-appendix-a-every-number.md) | 0 | 0 | 2 | 0 | 0 | 0 |
-| [`150__93-appendix-b-the-control-register.md`](150__93-appendix-b-the-control-register.md) | 0 | 0 | 5 | 0 | 0 | 0 |
+| [`150__93-appendix-b-the-control-register.md`](150__93-appendix-b-the-control-register.md) | 0 | 0 | 4 | 0 | 2 | 0 |
 | [`150__94-the-making-of-this-book.md`](150__94-the-making-of-this-book.md) | 0 | 0 | 4 | 0 | 1 | 0 |
 | [`01-the-creators-problem.md`](01-the-creators-problem.md) | 0 | 0 | 7 | 1 | 5 | 0 |
 | [`02-the-factory-is-assembled.md`](02-the-factory-is-assembled.md) | 2 | 0 | 7 | 0 | 13 | 0 |

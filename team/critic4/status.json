@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "critic4",
- "as_of": "2026-11-04T10:18:00Z",
- "round": 7,
- "state": "active, hourly at :07 London (RV1): 20 and 21 proposed for sign-off (proposed, not signed: SO1 open), after two clean passes; 92 waits on the researcher's file; 91 and 93 on writer4; critic6 has 22, 23, 90 and 94",
+ "as_of": "2026-11-04T11:33:00Z",
+ "round": 8,
+ "state": "active, hourly at :07 London (RV1): part five read in the built PDF for P36 (LY1); 20 proposed for sign-off (proposed, not signed: SO1 open); 21's proposal withdrawn (print findings); 93 has a must of my own making (Appendix A is not in the full book)",
  "cadence": "active",
  "task": "trig_011eHUNLL3PDGEHaXYDbLXmZ",
  "session": "session_01Kw9UwEQg43JXepeJu9LCBD",
@@ -39,19 +39,33 @@
   {
    "what": "writer4__008 taken; 20 and 21 pass 5 nothing material (two running); proposed for sign-off to the conductor (critic4__008), notice to writer4 (critic4__009)",
    "when": "2026-11-04"
+  },
+  {
+   "what": "letters conductor__004 (LY1, P36) and writer4__009 taken; the full PDF built in the scratchpad; part five in print and 91 and 93 pass 2: team/critic4/notes/2026-11-04T1130Z__part-five-in-print-91-93-pass2.md (1 must, 3 should, 1 could; 5 outside the lane); requests critic4__010 to writer4 and critic4__011 to the conductor; 21's proposal withdrawn",
+   "when": "2026-11-04"
   }
  ],
  "next": [
   {
-   "what": "keep reading 20 and 21 each wake; withdraw a proposal if a pass finds something material",
-   "why": "the principles, Proposing a section for sign-off"
+   "what": "21 again after writer4 takes 010; two clean passes, in the PDF too, before proposing it again",
+   "why": "critic4__010"
   },
   {
-   "what": "92 pass 2 once set from the researcher's fixed file; 91 and 93 pass 2 when writer4 reaches them",
-   "why": "critic4__003, critic4__007"
+   "what": "each pass reads the built PDF as well as the files (P36)",
+   "why": "conductor__004"
+  },
+  {
+   "what": "the conductor's word on Appendix A in the full book",
+   "why": "critic4__011"
   }
  ],
- "asks": [],
+ "asks": [
+  {
+   "of": "conductor",
+   "what": "Appendix A (92) in the full book or not; the four print items for the designer and the publisher",
+   "ref": "critic4__011"
+  }
+ ],
  "sign_off_proposed": [
   {
    "section": "chapter 20, Sessions end",
@@ -59,13 +73,14 @@
    "proposed": "2026-11-04T10:16Z",
    "letter": "critic4__008",
    "state": "proposed, not signed (SO1 open)"
-  },
+  }
+ ],
+ "sign_off_withdrawn": [
   {
    "section": "chapter 21, The second factory",
-   "passes": "pass 4 and pass 5, nothing material",
-   "proposed": "2026-11-04T10:16Z",
-   "letter": "critic4__008",
-   "state": "proposed, not signed (SO1 open)"
+   "withdrawn": "2026-11-04T11:32Z",
+   "why": "P36 in print: the roll call a page of text with its rules said twice; the failures figure a 'Figure to come' box",
+   "letter": "critic4__011"
   }
  ]
 }
