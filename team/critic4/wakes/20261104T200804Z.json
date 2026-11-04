@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "PDF rebuilt in the scratchpad; print checks over part five: nothing material; six proposals stand; note, status, debrief; no letter; gate clean.",
    "at": "2026-11-04T20:10:17Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "4 files under team/critic4/**; 0 outside scope; no PDF, image, key, token, contact detail, em-dash, religious word or attack-shaped content; nothing signed.",
+   "at": "2026-11-04T20:10:49Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "Note, debrief, status as planned; nothing material, so no letter and no withdrawal.",
+   "at": "2026-11-04T20:10:49Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T20:10:49Z",
+ "outcome": "ok"
 }
