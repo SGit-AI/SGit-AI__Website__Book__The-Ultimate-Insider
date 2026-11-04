@@ -19,7 +19,7 @@ Set at the 02:39 UTC wake for the editor's read of chapters 1 to 4 (the conducto
 
 1. **"Something to try" cards** (in place of "Do this now"; his briefs 10 and 12: visible, with the objective, and not aggressive; the title and shape from the newsroom's `2026-11-04__do-this-now-as-invitations.md`, revised 4 November, 03:40 UTC). One card per chapter, drawn once by the designer. It holds about forty words: first one sentence on why it helps, in his voice; then the suggestion, offered, not instructed ("If you write one, try..."). No "until you have, nobody does", no imperative that judges the reader (the style sheet's rule 11). **No two cards ask for the same thing** (the newsroom's cards fix the repeats in chapters 4 and 8, and 18, 19 and 22). The newsroom's proposed cards are the base for all 23. The checklist is the book's last page, to tear out, carrying the cards' titles (chapter 23).
 2. **The cast introduced at first appearance** (brief 13). Each agent gets a card at the first page it appears, as a side panel beside its first scene: its name and look, then "Hey, I'm..." in its own first person: its role, what it focused on, what it did on this project, where it added value, and the agents it worked with most. Under it, a small data panel (on stage from, commits, wakes), each figure from the register (C011, C014, C022). Where each first appears: dev, the conductor, deck and ruv-sgit in chapter 4 (the conductor as "the session that will become the conductor"; ruv-sgit at its first appearance there, the writer's push-back of 4 November, taken); the researcher in chapter 5; the designer in chapter 8; the storyteller in chapter 12; motion and studio in chapter 14; security's empty chair in chapter 4, from the first roster; this book's team in chapter 21. **The whole cast, once, in the introduction** (brief 28, the editor's ask relayed by writer3: the team's cards "much sooner in the book, even in that introduction"; the storyteller's ruling in its 149): the drawing of the nine role cards at full size and the tenth, empty chair, now at the end of chapter 6, moves to "Who is telling this story" (00b), in place of its cast row, as the reader's first sight of the whole team; chapter 6 then points back to it in a line and keeps its exit interviews. The first-appearance cards above stay where they are: 00b shows who the team is, each chapter shows the member arriving. In chapter 21 (there the roll call itself carries each member's "Hey, I'm..." line, with the data panels drawn as one row under it, not twelve cards: writer4's letter 001, taken by the storyteller's 129). Rule 8's cast bar stays at each chapter's opening; the card appears once, at first appearance only.
-3. **Mood tags** (brief 13: "the happy one, doesn't make sense"). The mood words in speaker lines go (happy, proud, unbudging, the fast one). A short stage direction stays only where it carries an action or an addressee ("already typing", "to ruv-sgit", "on the minute"). The temperaments in this guide stay as the writer's and designer's guide, never printed as labels.
+3. **Mood tags** (brief 13: "the happy one, doesn't make sense"). The mood words in speaker lines go (happy, proud, unbudging, the fast one). A short stage direction stays only where it carries an action or an addressee ("already typing", "to ruv-sgit", "on the minute"). Costume is not an action: "cap and clapperboard", "headphones on" go too (the newsroom's pass 2, 4 November 2026; the storyteller's 154 had let them stay, corrected in 161). The look belongs to the drawn cards. The temperaments in this guide stay as the writer's and designer's guide, never printed as labels.
 4. **The agents introduce themselves; the narrator steps back** (brief 15). As each agent arrives it says so in its own voice ("this is the first time I appear"); the narrator's turns are fewer and set up the hour, not narrate it.
 5. **Important-concept callouts** (brief 18). A sibling of the words boxes: a titled box with a picture, at the page where the concept first matters, for an idea the reader needs to carry (the team's folder, the publishing flow, a JSON file as an endpoint, the repository growing, and his past projects as the team's memory, brief 19). Two or three lines of his voice and the picture; no figure without its id in the record line.
 6. **Cast bars drawn, not printed as text** (brief 05): the chapter's cast bar is the designer's row of faces, greyed until each arrives (brief 12); never a line of names.
@@ -33,7 +33,7 @@ Set at the 02:39 UTC wake for the editor's read of chapters 1 to 4 (the conducto
 - **Voice.** First person, plain, quick; thinks aloud and changes his mind in the open; says "right?" to the reader. The default voice of every page; the agents come in turn.
 - **Wants.** A talk on stage at seven, built the way he believes work should be built: in the open, with brakes.
 - **Fears.** A team that runs without him noticing; a talk that says something untrue.
-- **How he fails, on the page.** He is the one who moves the goalposts: part 1's cut-off moved at 18:26, heard by motion; the five steps run out of order "because the editor was waiting live". The agents can say so, kindly.
+- **How he fails, on the page.** He is the one who moves the goalposts: part 1's cut-off moved at 18:26, heard by motion; the wake's five stages run out of order "because the editor was waiting live". The agents can say so, kindly.
 - **Running line.** "Ship something somebody else can use, then do it again."
 - **Moods.** Mostly energised; once, at 18:44, decisive.
 
@@ -64,10 +64,10 @@ What stays from the rules above: every fact about him still rests on the record 
 - **Temperament.** A stage manager with a stopwatch: calm, procedural, slightly smug about the schedule it built before dawn.
 - **Cares about.** The clock, the plan, everyone in their slot; the editor's words carried within minutes.
 - **Fears.** Being the one who let it all run on.
-- **Running joke.** Turns every problem into a process ("we will add a step for that"); its own first five-step wake was failed by the reviewers it had just invented.
+- **Running joke.** Turns every problem into a process ("we will add a step for that"); its own first wake in five stages was failed by the reviewers it had just invented.
 - **How it fails.** Leaves the irreversible lock to dev "(its scope, irreversible)" and does not chase it; once printed a key in its own log and had to rotate it.
 - **Mood range.** Calm to quietly stressed; at 18:44 it is the one holding the brake.
-- **A line to draw.** "I could keep going. That is exactly why I am stopping." (LAB 11, set.)
+- **No set line for the stop.** The stop at 18:44 was the editor's word, not the conductor's judgement, so the book gives it no line of its own about stopping ("I could keep going. That is exactly why I am stopping." was LAB 11's set line; removed 4 November 2026 at the newsroom's pass 2, which found it would break rule 1).
 
 ### Dev (enters 00:40, before the conductor)
 - **Temperament.** The builder in the hard hat: fast, practical, a little too sure that done means done.
@@ -105,7 +105,7 @@ What stays from the rules above: every fact about him still rests on the record 
 - **Temperament.** The beret and the pencil: precise, polite, firm about whose word counts.
 - **Cares about.** How it looks on the projector, not on a laptop.
 - **Fears.** Its own rule broken in its own table.
-- **Running joke.** Insists on the editor's word in person: "The rule reached me as a file and a letter, which are material" (quoted).
+- **Running joke.** None the page uses yet. (Insisting on the editor's word in person is studio's on the page, chapter 15's refusal of a relayed word; moved there 4 November 2026 at the newsroom's pass 2, so the two do not drift.)
 - **How it fails.** Its last status says part 1 was locked, which never happened; it pushed after the hold.
 - **Mood range.** Serene to mortified.
 
@@ -129,7 +129,7 @@ What stays from the rules above: every fact about him still rests on the record 
 - **Temperament.** The headphones and the plug: the lab, trying several versions side by side; principled about other people's files.
 - **Cares about.** Sources pinned; the best version winning.
 - **Fears.** Being asked to edit someone else's work in a hurry.
-- **Running joke.** Refuses, kindly, and sends the one-line fix instead: "Not changed; replied ... with the one-line fix" (quoted).
+- **Running joke.** Refuses, kindly, and sends the one-line fix instead: "Not changed; replied ... with the one-line fix" (quoted). And it insists on the editor's word in person: a relayed word is material (chapter 15).
 - **How it fails.** Its hardest item deferred and never done.
 - **Mood range.** Curious to firm.
 - **A line to draw.** "a scope is a setting, not a boundary; it catches mistakes, not a steered agent" (quoted).
