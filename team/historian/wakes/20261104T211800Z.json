@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T21:18:00Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Plan fits the record lane; letter 247 asks nothing; no HOLD; chapter 8 and the four diffs in scope; letter 081 to the writer, Cc conductor. Tools: Read, Grep, Glob, Bash.",
+   "at": "2026-11-04T21:18:45Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Inside historian writes; plan step go; no HOLD; vault_check and a letter free of keys, ids, model names, em-dashes and religious words. Tool: Read.",
+   "at": "2026-11-04T21:19:09Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "No secrets, keys, model names, em-dashes, religious words or Cold-Read references; writes in scope; copies of 081 identical. Tools: Bash, Read.",
+   "at": "2026-11-04T21:19:30Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "Chapter 8 check, R34, letter 081, filed 247, debrief and status present; the wake record's post steps were unfilled only because they are being recorded now.",
+   "at": "2026-11-04T21:19:30Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "claude-sonnet-5-5",
+   "verdict": "done",
+   "comment": "Chapter 8 read in full; diffs since 20:19 read; R34; letter 081; one letter filed",
+   "at": "2026-11-04T21:19:30Z"
+  }
+ },
+ "closed": "2026-11-04T21:19:30Z",
+ "outcome": "ok"
+}
