@@ -56,6 +56,9 @@ def directives(book=None):
     drop, css = [], []
     with open(book, encoding="utf-8") as f:
         for line in f:
+            if re.match(r"\s*#!\s*fit-tails\s*$", line):
+                FIT["on"] = True
+                continue
             m = re.match(r"\s*#!\s*(drop-section|extra-css):\s*(.+?)\s*$", line)
             if not m:
                 continue
@@ -68,6 +71,40 @@ def directives(book=None):
                 sys.exit(f"build_book: {os.path.relpath(book, ROOT)}: extra-css must be a .css file under publishing/: {m.group(2)}")
             css.append(path)
     return drop, css
+
+
+FIT = {"on": False}  # "#! fit-tails": chapters whose last page holds only a few lines are set a little tighter
+
+
+def tail_chapters(pdf, titles, most=8):
+    """The chapters (by index) whose last page holds `most` lines or fewer, read from the PDF's text: a chapter starts on
+    the first page, after the one before it, whose first few lines include its title."""
+    out = subprocess.run(["pdftotext", "-layout", pdf, "-"], capture_output=True, text=True).stdout
+    pages = [[l.strip() for l in pg.split("\n") if l.strip()] for pg in out.split("\f")]
+    norm = lambda t: re.sub(r"\W+", " ", t).strip().lower()
+    at = next((i + 1 for i, pg in enumerate(pages) if any(l == "Contents" for l in pg[:3])), 0)  # after the contents
+    starts = []
+    for t in titles:
+        found = None
+        for i in range(at, len(pages)):
+            if norm(t) and norm(" ".join(pages[i][:5])).find(norm(t)) != -1:
+                found = i
+                break
+        starts.append(found)
+        if found is not None:
+            at = found + 1
+    tails = []
+    for k, st in enumerate(starts):
+        if st is None:
+            continue
+        nxt = next((x for x in starts[k + 1:] if x is not None), len(pages))
+        last = nxt - 1
+        if last <= st:
+            continue
+        body = [l for l in pages[last] if not re.fullmatch(r"\d+", l) and not l.startswith("One Human, Nine Agents, Nineteen Hours:")]
+        if len(body) <= most:
+            tails.append(k)
+    return tails
 
 
 def drop_sections(text, headings):
@@ -257,6 +294,8 @@ def main():
                           f"{edition.figure_count(raw)} Figure line(s): its figures print as boxes until the map is "
                           f"brought up to date", file=sys.stderr)
                     drawings = None
+                if drawings:  # for the developer's page check (developer__036): each chapter's drawings, in order
+                    print(f"build_book: figures {key}: " + ", ".join(d or "-" for d in drawings), file=sys.stderr)
                 raw = edition.cast_lines(raw, figures=drawings if drawings is not None else [])
             text = figure_kinds(markua.translate(raw))
         files.append(os.path.join(marked, os.path.basename(src)))
@@ -278,57 +317,82 @@ def main():
         chrome = find_chrome(a.chrome)
         if not chrome:
             sys.exit("build_book: no Chromium or Chrome found for the PDF (give --chrome PATH)")
-        work = tempfile.mkdtemp(prefix="build_book_")  # the HTML stays out of _site/: the site gate would read it as a page
-        html = os.path.join(work, f"{a.name}.html")
-        css = ""
-        for sheet in ("book.css", "lab-look.css"):  # the lab's look after the book's own rules (LK1, signed 31 October 2026)
-            with open(os.path.join(HERE, sheet), encoding="utf-8") as f:
-                css += f.read() + "\n"
-        for sheet in list(a.extra_css) + book_css:  # read as data: the designer's drawings for the speakers' heads, say
-            with open(sheet, encoding="utf-8") as f:
-                css += f"/* {os.path.relpath(os.path.abspath(sheet), ROOT)} */\n" + f.read() + "\n"
-        if a.type:
-            css += f"/* type set {a.type} */\n{TYPE_SETS[a.type]}\n"
-        with tempfile.NamedTemporaryFile("w", suffix=".html", delete=False) as head:
-            if a.stamp:  # on every page, the title page too: a sample must say what it is wherever it is printed
-                quoted = " ".join(a.stamp.split()).replace("<", "").replace("\\", "\\\\").replace('"', '\\"')
-                css += ('@page { @top-center { content: "%s"; font-family: Georgia, serif; font-size: 7.5pt; color: #999; } }\n'
-                        % quoted)  # lighter since ED1 round 2 (synthetic__003, 2)
-            if a.cover:  # a page of its own, no margins, no running head, no number; the title page then opens lower
-                css += ("@page cover { margin: 0; @top-center { content: none; } @bottom-left { content: none; }"
-                        " @bottom-right { content: none; } }\n@page cover:first { margin: 0; }\n"
-                        ".cover { page: cover; break-after: page; margin: 0; }\n"
-                        ".cover img { display: block; width: 7.44in; height: 9.69in; max-width: none; max-height: none; }\n"
-                        "header#title-block-header { padding-top: 0.4in; }\n")  # raised (the editor, 4 November 2026: "feels quite low")
-            head.write(f"<style>\n{css}</style>\n")
-        cover = []
-        if a.cover:
-            before = os.path.join(work, "cover.html")
-            with open(before, "w", encoding="utf-8") as f:
-                f.write(f'<div class="cover"><img src="{os.path.abspath(a.cover)}" alt="The front cover"></div>\n')
-            cover = ["--include-before-body", before]
-        args = ["--to", "html5", "--standalone"] + cover + ([] if a.no_toc else ["--toc", "--toc-depth=1", "--variable", "toc-title=Contents"]) + ["--section-divs", "--reference-location=section",
-                "--include-in-header", head.name, "--variable", "document-css=false", "--output", html]
-        try:  # images inside the HTML: it is written to a temporary folder, where manuscript/'s relative paths break
-            try:
-                pandoc(args + ["--embed-resources"] + files)
-            except subprocess.CalledProcessError:  # pandoc before 2.19 has --self-contained instead
-                pandoc(args + ["--self-contained"] + files)
-        finally:
-            os.unlink(head.name)
-        pdf = os.path.join(a.out, f"{a.name}.pdf")
-        if os.path.exists(pdf):
-            os.unlink(pdf)
-        with tempfile.TemporaryDirectory() as profile:
-            try:  # a full Chrome can write the PDF and then not exit in a container: the file is what counts
-                subprocess.run([chrome, "--headless", "--no-sandbox", "--disable-gpu", f"--user-data-dir={profile}",
-                                "--no-pdf-header-footer", f"--print-to-pdf={pdf}", "file://" + html],
-                               timeout=90, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-            except subprocess.TimeoutExpired:
-                pass
-        shutil.rmtree(work, ignore_errors=True)
-        if not os.path.isfile(pdf) or os.path.getsize(pdf) < 1000:
-            sys.exit("build_book: Chromium wrote no PDF")
+        titles = []
+        for f in files:
+            with open(f, encoding="utf-8") as fh:
+                m = re.search(r"^# (.+?)\s*(?:\{[^}]*\})?\s*$", fh.read(), re.M)
+            titles.append(m.group(1).strip() if m else None)
+        fit = {}  # chapter index: level (1, then 2), set on its heading as a class for full-book.css
+        for rnd in range(3 if FIT["on"] else 1):  # at most two rebuilds; a tail left after that is reported
+            for k, f in enumerate(files):
+                with open(f, encoding="utf-8") as fh:
+                    text = fh.read()
+                text = re.sub(r"^(# .+?)\s*\{\.fit\d\}\s*$", r"\1", text, count=1, flags=re.M)
+                if k in fit:
+                    text = re.sub(r"^(# .+?)\s*$", r"\1 {.fit%d}" % fit[k], text, count=1, flags=re.M)
+                with open(f, "w", encoding="utf-8") as fh:
+                    fh.write(text)
+            work = tempfile.mkdtemp(prefix="build_book_")  # the HTML stays out of _site/: the site gate would read it as a page
+            html = os.path.join(work, f"{a.name}.html")
+            css = ""
+            for sheet in ("book.css", "lab-look.css"):  # the lab's look after the book's own rules (LK1, signed 31 October 2026)
+                with open(os.path.join(HERE, sheet), encoding="utf-8") as f:
+                    css += f.read() + "\n"
+            for sheet in list(a.extra_css) + book_css:  # read as data: the designer's drawings for the speakers' heads, say
+                with open(sheet, encoding="utf-8") as f:
+                    css += f"/* {os.path.relpath(os.path.abspath(sheet), ROOT)} */\n" + f.read() + "\n"
+            if a.type:
+                css += f"/* type set {a.type} */\n{TYPE_SETS[a.type]}\n"
+            with tempfile.NamedTemporaryFile("w", suffix=".html", delete=False) as head:
+                if a.stamp:  # on every page, the title page too: a sample must say what it is wherever it is printed
+                    quoted = " ".join(a.stamp.split()).replace("<", "").replace("\\", "\\\\").replace('"', '\\"')
+                    css += ('@page { @top-center { content: "%s"; font-family: Georgia, serif; font-size: 7.5pt; color: #999; } }\n'
+                            % quoted)  # lighter since ED1 round 2 (synthetic__003, 2)
+                if a.cover:  # a page of its own, no margins, no running head, no number; the title page then opens lower
+                    css += ("@page cover { margin: 0; @top-center { content: none; } @bottom-left { content: none; }"
+                            " @bottom-right { content: none; } }\n@page cover:first { margin: 0; }\n"
+                            ".cover { page: cover; break-after: page; margin: 0; }\n"
+                            ".cover img { display: block; width: 7.44in; height: 9.69in; max-width: none; max-height: none; }\n"
+                            "header#title-block-header { padding-top: 0.4in; }\n")  # raised (the editor, 4 November 2026: "feels quite low")
+                head.write(f"<style>\n{css}</style>\n")
+            cover = []
+            if a.cover:
+                before = os.path.join(work, "cover.html")
+                with open(before, "w", encoding="utf-8") as f:
+                    f.write(f'<div class="cover"><img src="{os.path.abspath(a.cover)}" alt="The front cover"></div>\n')
+                cover = ["--include-before-body", before]
+            args = ["--to", "html5", "--standalone"] + cover + ([] if a.no_toc else ["--toc", "--toc-depth=1", "--variable", "toc-title=Contents"]) + ["--section-divs", "--reference-location=section",
+                    "--include-in-header", head.name, "--variable", "document-css=false", "--output", html]
+            try:  # images inside the HTML: it is written to a temporary folder, where manuscript/'s relative paths break
+                try:
+                    pandoc(args + ["--embed-resources"] + files)
+                except subprocess.CalledProcessError:  # pandoc before 2.19 has --self-contained instead
+                    pandoc(args + ["--self-contained"] + files)
+            finally:
+                os.unlink(head.name)
+            pdf = os.path.join(a.out, f"{a.name}.pdf")
+            if os.path.exists(pdf):
+                os.unlink(pdf)
+            with tempfile.TemporaryDirectory() as profile:
+                try:  # a full Chrome can write the PDF and then not exit in a container: the file is what counts
+                    subprocess.run([chrome, "--headless", "--no-sandbox", "--disable-gpu", f"--user-data-dir={profile}",
+                                    "--no-pdf-header-footer", f"--print-to-pdf={pdf}", "file://" + html],
+                                   timeout=90, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+                except subprocess.TimeoutExpired:
+                    pass
+            shutil.rmtree(work, ignore_errors=True)
+            if not os.path.isfile(pdf) or os.path.getsize(pdf) < 1000:
+                sys.exit("build_book: Chromium wrote no PDF")
+            if not FIT["on"]:
+                break
+            tails = [k for k in tail_chapters(pdf, [t or "" for t in titles]) if titles[k]]
+            if not tails or rnd == 2:
+                for k in tails:
+                    print(f"build_book: a short last page left in \"{titles[k]}\" (fit level {fit.get(k, 0)})", file=sys.stderr)
+                break
+            for k in tails:
+                fit[k] = min(fit.get(k, 0) + 1, 2)
+            print(f"build_book: fit-tails pass {rnd + 1}: " + "; ".join(f'"{titles[k]}" to {fit[k]}' for k in tails), file=sys.stderr)
         made.append(pdf)
     shutil.rmtree(marked, ignore_errors=True)
 
