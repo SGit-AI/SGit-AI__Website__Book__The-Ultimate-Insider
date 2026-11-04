@@ -31,8 +31,15 @@
    "verdict": "finding",
    "comment": "Scope, rails and conditions met: files inside policy, no secret/id/hash/URL/vault/em-dash/religious word in drawings or new prose, ch9 card adds only 'found after the push; it stays in the history', LAB 57 SVG text carries no ids, three letters copied to done/ with mailroom originals untouched. One fault: letter 145 (outbox and both mailroom copies) is dated 20:08:00, later than the commit at 20:05:36; re-date it to not after the commit time in the next wake. Tools: Bash/Read only, nothing refused.",
    "at": "2026-11-04T20:06:16Z"
+  },
+  "post_check": {
+   "by": "conductor-reviewer",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "The work matches the plan: LAB 57 day-at-a-glance and by-member, PLACED for 03b, card 09's third finding, letter 145, three done/ copies; only C071 out of ch5-schedule was left, as the plan allowed. The post-review's finding is fixed: all three copies of designer__145 now read Date 20:05:00, before the 20:05:36 commit. Status, the new debrief and the REALITY.md append match the work (101 lines, 71 drawn, 22 to draw, PDF 183 pages). One small note: status.json as_of is 20:10:00Z, later than the commits; same kind of slip, to set not after the commit in the next wake. Tools: Bash/Read only, nothing refused.",
+   "at": "2026-11-04T20:06:57Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T20:07:08Z",
+ "outcome": "ok"
 }
