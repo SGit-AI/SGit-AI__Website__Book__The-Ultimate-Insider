@@ -17,6 +17,20 @@
    "verdict": "go",
    "comment": "All paths in scope.writes; no manuscript, conductor or other member's files; no secrets, no stop condition, no cross-member harm.",
    "at": "2026-11-04T07:54:34Z"
+  },
+  "work": {
+   "by": "critic6",
+   "model": "",
+   "verdict": "done",
+   "comment": "23 pass 2 and the Figure-line sweep of 20 to 23 and 90 to 94 in team/critic6/notes/2026-11-04T0805Z__23-pass2-figure-lines.md (2 must, 2 should, 2 could); request critic6__006; status.json; debrief",
+   "at": "2026-11-04T07:56:23Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "note on 23 pass 2 and the Figure-line sweep; quoted lines 23:37, 23:55, 90:15, 175, 211 match; not repeating critic4; critic6__006 with outbox copy; debrief and status.json; no manuscript edits.",
+   "at": "2026-11-04T07:57:00Z"
   }
  },
  "closed": null,
