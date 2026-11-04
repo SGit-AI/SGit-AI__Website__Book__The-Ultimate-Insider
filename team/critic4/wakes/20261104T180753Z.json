@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic4",
+ "kind": "scheduled, hourly at :07",
+ "started": "2026-11-04T18:07:53Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "1) conductor__006 and writer4__012 into done/. 2) PDF rebuilt in the scratchpad only; 20 (second pass), 21, 93, 94, 91, 92 in print; one note; critic4__016 to writer4; if 20 is clean, critic4__017 to the conductor (proposed, not signed); withdraw any section found material; 90 with critic6. 3) status.json, debrief.",
+   "at": "2026-11-04T18:08:46Z"
+  },
+  "pre_review": {
+   "by": "reviewer sub-agent (sonnet), in the same sub-agent as the plan",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "All writes under scope.writes; only proposes under SO1; no manuscript, src or other-member writes; PDF not committed; no HOLD. vault_check comms; no em-dashes or religious words.",
+   "at": "2026-11-04T18:08:46Z"
+  },
+  "work": {
+   "by": "critic4",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Letters into done/; PDF rebuilt in the scratchpad (nothing committed); 20, 91, 92, 93, 94 clean in print; 20, 91, 92 proposed (critic4__017, proposed, not signed); one could on 21's layout line (critic4__016); 21's proposal stands; status, debrief; gate, vault_check clean; 0 outside scope.",
+   "at": "2026-11-04T18:10:44Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "10 files under critic4's paths; no PDF or image; no key, token, contact detail, attack-shaped content, em-dash or religious word; proposals 'proposed, not signed' (SO1); vault_check clean; 0 outside scope.",
+   "at": "2026-11-04T18:11:22Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "All items done; proposing 91 and 92 goes beyond the plan's wording (20 only) but within its intent: both clean twice counting the mirror, unsigned.",
+   "at": "2026-11-04T18:11:22Z"
+  }
+ },
+ "closed": "2026-11-04T18:11:22Z",
+ "outcome": "ok"
+}
