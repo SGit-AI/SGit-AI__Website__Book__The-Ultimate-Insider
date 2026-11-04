@@ -1,0 +1,131 @@
+{
+ "schema": "the-ultimate-insider/synthetic-section-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "first-build-finisher",
+ "read_at": "9c11acda",
+ "would_read_on": {
+  "05-hour-two-the-rules-written": "maybe",
+  "14-port-not-rebuild": "maybe",
+  "22-the-third-planned": "yes"
+ },
+ "findings": [
+  {
+   "file": "05-hour-two-the-rules-written.md",
+   "line": 11,
+   "quote": "how every session starts (pull first, then the banner)",
+   "principle": "reader",
+   "severity": "must",
+   "why": "As someone new to the words I do not know what pulling or a banner is, and the opening paragraph stacks five unexplained terms (checklist, commit message, schedule, hold)."
+  },
+  {
+   "file": "14-port-not-rebuild.md",
+   "line": 21,
+   "quote": "every member had to pull again before every push, or work from a stale copy",
+   "principle": "reader",
+   "severity": "must",
+   "why": "This is programmer language with no gloss, and it carries the whole point of the paragraph, so a no-code reader loses the price being described."
+  },
+  {
+   "file": "05-hour-two-the-rules-written.md",
+   "line": 37,
+   "quote": "the team pulled it back within three minutes by changing a rule",
+   "principle": "21",
+   "severity": "should",
+   "why": "The previous narrator paragraph and the conductor's line have already told me the tasks were switched off and the rule rewritten, so this repeats it."
+  },
+  {
+   "file": "05-hour-two-the-rules-written.md",
+   "line": 59,
+   "quote": "with its own key, its role, its policy for the evidence it would keep",
+   "principle": "reader",
+   "severity": "should",
+   "why": "Key and policy are used as if I know what they are; I cannot tell whether they are passwords, documents or settings."
+  },
+  {
+   "file": "05-hour-two-the-rules-written.md",
+   "line": 79,
+   "quote": "the member's name with an \"@\", then what changed and why",
+   "principle": "reader",
+   "severity": "should",
+   "why": "Commit message and subject form are never explained, so a first-time builder cannot tell this is about saved versions of work and may feel the book is for programmers."
+  },
+  {
+   "file": "14-port-not-rebuild.md",
+   "line": 17,
+   "quote": "My answer to the researcher's objection, in the last chapter, is one line of that file.",
+   "principle": "reader",
+   "severity": "should",
+   "why": "It points to an objection and a file I have not met in this section, so I stall on what is being referred to."
+  },
+  {
+   "file": "14-port-not-rebuild.md",
+   "line": 63,
+   "quote": "it sent deck a proposed picture with its stages",
+   "principle": "21",
+   "severity": "should",
+   "why": "The motion card two paragraphs earlier already says it sends deck a proposed picture first, so the scene tells the card's line again."
+  },
+  {
+   "file": "14-port-not-rebuild.md",
+   "line": 99,
+   "quote": "Here is the thing I most want you to take from the afternoon.",
+   "principle": "6",
+   "severity": "should",
+   "why": "It tells me how to take the passage instead of letting the passage carry it."
+  },
+  {
+   "file": "22-the-third-planned.md",
+   "line": 17,
+   "quote": "written as a plan, because that is what it is",
+   "principle": "21",
+   "severity": "should",
+   "why": "The chapter has already said three times, in the opening and the first paragraph, that it is only a plan and has not run."
+  },
+  {
+   "file": "22-the-third-planned.md",
+   "line": 39,
+   "quote": "came from the evening this book's team lost to the usage limit",
+   "principle": "reader",
+   "severity": "should",
+   "why": "Usage limit and the reader's question are named as if I remember them, and I would not if I started here, which is the step-to-take chapter I most wanted."
+  },
+  {
+   "file": "05-hour-two-the-rules-written.md",
+   "line": 47,
+   "quote": "The check held its line in this hour too, against the member who built it.",
+   "principle": "reader",
+   "severity": "could",
+   "why": "The check has not been introduced in this section, and Dev's line then says the same again in different words (21)."
+  },
+  {
+   "file": "14-port-not-rebuild.md",
+   "line": 87,
+   "quote": "part 4 is what happened in between",
+   "principle": "reader",
+   "severity": "could",
+   "why": "Part 4 has not been named in this section, so I do not know what it refers to."
+  },
+  {
+   "file": "22-the-third-planned.md",
+   "line": 15,
+   "quote": "Same clock. Same hold. More hands on it.",
+   "principle": "7",
+   "severity": "could",
+   "why": "Three short fragments in a row, and the chapter has used clock and hold without saying what they are."
+  },
+  {
+   "file": "22-the-third-planned.md",
+   "line": 11,
+   "quote": "The parts are the same as the first factory's.",
+   "principle": "reader",
+   "severity": "could",
+   "why": "As a first-build person I follow a factory loosely, but I cannot say what the parts are, so I cannot judge whether I could start tomorrow."
+  }
+ ],
+ "what_holds": [
+  "05-hour-two-the-rules-written.md: the hold existing before the first scheduled run (line 13) is a clear idea I can follow, and the Something to try card is a step I could take.",
+  "14-port-not-rebuild.md: studio and motion introducing themselves as characters is easy to follow, and the closing Something to try about reusing my own last builds is exactly the next step I wanted.",
+  "22-the-third-planned.md: short, honest that it has not run, and the one-brief, one-board, one-hold idea is plain enough to picture."
+ ],
+ "notes": "As a first-build finisher I like the characters and the honesty but the vocabulary (pull, push, commit, key, policy, hold, banner) is the main risk, and nothing in these three sections defines it. Test instrument only."
+}

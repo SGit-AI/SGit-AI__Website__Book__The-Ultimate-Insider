@@ -1,0 +1,139 @@
+{
+ "schema": "the-ultimate-insider/synthetic-section-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "newsroom-builder",
+ "read_at": "9c11acda",
+ "would_read_on": {
+  "05-hour-two-the-rules-written": "yes",
+  "14-port-not-rebuild": "maybe",
+  "22-the-third-planned": "yes"
+ },
+ "findings": [
+  {
+   "file": "05-hour-two-the-rules-written.md",
+   "line": 11,
+   "quote": "how every session starts (pull first, then the banner)",
+   "principle": "reader",
+   "severity": "should",
+   "why": "The banner is used here before anything says what it is, and the opening report of the hour has no 'I' and no hindsight."
+  },
+  {
+   "file": "05-hour-two-the-rules-written.md",
+   "line": 13,
+   "quote": "The hold existed before the first scheduled session did. Nothing ran on the clock until there was a way to stop it.",
+   "principle": "7",
+   "severity": "should",
+   "why": "Two short declaratives sit between more short ones, and the best idea in the chapter (the stop came first) is reported flatly rather than owned by the editor."
+  },
+  {
+   "file": "05-hour-two-the-rules-written.md",
+   "line": 31,
+   "quote": "This hour also holds the first time the team corrected its own way of working.",
+   "principle": "21",
+   "severity": "should",
+   "why": "The same point is made again at line 37 ('An agent reached further than the team meant, and the team pulled it back'), so the section says its conclusion twice."
+  },
+  {
+   "file": "05-hour-two-the-rules-written.md",
+   "line": 33,
+   "quote": "None of the three had run. I pasted a short prompt into each member's own session",
+   "principle": "7",
+   "severity": "could",
+   "why": "A run of short sentences breaks the thought; the pasting is also the editor's act and deserves one longer sentence with its reason."
+  },
+  {
+   "file": "05-hour-two-the-rules-written.md",
+   "line": 47,
+   "quote": "until two pages of rules carried the banner rule I had just asked for",
+   "principle": "reader",
+   "severity": "should",
+   "why": "As the one place the check stops its own author, this is what I would test as a newsroom builder, but 'the banner rule' and the gate are never explained, so I cannot tell what was checked."
+  },
+  {
+   "file": "05-hour-two-the-rules-written.md",
+   "line": 51,
+   "quote": "The check said no. It was right. The lines went in, and it said yes.",
+   "principle": "7",
+   "severity": "could",
+   "why": "Three clipped sentences in a row read as a staged beat rather than a record."
+  },
+  {
+   "file": "05-hour-two-the-rules-written.md",
+   "line": 88,
+   "quote": "One line is enough. It is worth writing before the first scheduled run, not after.",
+   "principle": "7",
+   "severity": "could",
+   "why": "The advice breaks into three short sentences, and 'one line' of what is not said."
+  },
+  {
+   "file": "14-port-not-rebuild.md",
+   "line": 99,
+   "quote": "Here is the thing I most want you to take from the afternoon.",
+   "principle": "6",
+   "severity": "should",
+   "why": "It tells the reader what to take away, which is an instruction on how to read."
+  },
+  {
+   "file": "14-port-not-rebuild.md",
+   "line": 101,
+   "quote": "The player was not new; chapter 12 has where it came from.",
+   "principle": "21",
+   "severity": "should",
+   "why": "The section restates what the studio and motion cards (lines 46 and 59) already said about pieces pinned to their sources, and then line 103 states the moral a third time."
+  },
+  {
+   "file": "14-port-not-rebuild.md",
+   "line": 59,
+   "quote": "Not new. Ported, tested, and pinned to where it came from.",
+   "principle": "7",
+   "severity": "could",
+   "why": "Fragments and a triad, and 'pinned' repeats the card above it."
+  },
+  {
+   "file": "14-port-not-rebuild.md",
+   "line": 21,
+   "quote": "The morning had already shown that was true.",
+   "principle": "reader",
+   "severity": "should",
+   "why": "As a sourcing-minded reader I want to know which part of the morning showed it, and the sentence points at no evidence."
+  },
+  {
+   "file": "14-port-not-rebuild.md",
+   "line": 75,
+   "quote": "Even then, the conductor's own reviewer sent its plan back once before it routed anything.",
+   "principle": "reader",
+   "severity": "should",
+   "why": "'Even then' implies a contrast I cannot see and the reviewer step has not been explained here; I stall on who reviewed what."
+  },
+  {
+   "file": "22-the-third-planned.md",
+   "line": 5,
+   "quote": "Nothing in it is a result, and nothing in it should be read as one.",
+   "principle": "6",
+   "severity": "could",
+   "why": "It instructs how to read; with line 17 ('written as a plan, because that is what it is') and line 39 it says the same caution three times."
+  },
+  {
+   "file": "22-the-third-planned.md",
+   "line": 15,
+   "quote": "Same clock. Same hold. More hands on it.",
+   "principle": "7",
+   "severity": "could",
+   "why": "A triad of fragments in the conductor's voice, after the narrator has already said the parts are the same."
+  },
+  {
+   "file": "22-the-third-planned.md",
+   "line": 25,
+   "quote": "the owner of the brief, and one named person when the owner is away.",
+   "principle": "reader",
+   "severity": "should",
+   "why": "My deal-breaker is an editor who only rubber-stamps, and the plan never says who signs the work, only who lifts the hold."
+  }
+ ],
+ "what_holds": [
+  "05-hour-two-the-rules-written.md: the hold written before the first scheduled run, and the task rule changed within minutes, are exactly the controls a newsroom builder wants to see.",
+  "14-port-not-rebuild.md: the editor owning the cost of longer sessions (the stale copy risk) reads as honest, and 'Not one of those gates closed' keeps the failure in.",
+  "22-the-third-planned.md: it is labelled a plan from the first line and each part is traced to where it was learned."
+ ],
+ "notes": "Persona read: exacting about sources. Many claims rest on commit and register references that sit in notes the reader never sees, so on the page the numbers (fifteen minutes, 45 minutes) look unsourced. Chapter 22 says it is short and holds to it."
+}
