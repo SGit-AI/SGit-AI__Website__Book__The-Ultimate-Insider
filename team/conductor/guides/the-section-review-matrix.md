@@ -50,7 +50,7 @@ As of 4 November 2026, 19:07 UTC (adding critic1 018, critic2 021 and critic4 01
 | `03-the-tour` | writer | critic1, critic5 | notes | · | ok | ok | · | · | ok | · | notes | · | not yet: proposed again by critic1 016 (stands: its later changes are layout lines only); lanes still open |
 | `03b-the-day-at-a-glance` | writer | critic1, critic5 | ok | · | ok | ok | · | · | · | ok | notes | · | not yet: proposed again by critic1 016 (stands: its later changes are layout lines only); lanes still open |
 | `04-hour-one-the-empty-project` | writer | critic1, critic5 | notes | notes | ok | ok | · | · | notes | · | notes | · | not yet: proposed by critic1 007, read clean by critic5 007; lanes still open |
-| `05-hour-two-the-rules-written` | writer | critic1, critic5 | notes | · | ok | ok | · | · | ok | · | notes | · | not yet |
+| `05-hour-two-the-rules-written` | writer | critic1, critic5 | notes | · | ok | ok | · | · | ok | notes | notes | · | not yet |
 | `06-roles-as-a-cast-you-can-read` | writer | critic1, critic5 | notes | · | ok | ok | · | · | notes | ok | notes | · | not yet |
 | `07-hour-three-the-five-steps` | writer | critic1, critic5 | notes | · | ok | ok | · | · | notes | notes | notes | · | not yet |
 | `08-hours-four-and-five-before-dawn` | writer | critic1, critic5 | notes | · | ok | ok | · | · | notes | notes | notes | · | not yet |
