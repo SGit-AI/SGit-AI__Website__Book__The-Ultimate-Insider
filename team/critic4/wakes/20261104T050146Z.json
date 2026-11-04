@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic4",
+ "kind": "editor's request: first wake",
+ "started": "2026-11-04T05:01:46Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "1) Request letter to writer4@ in comms/mail/mailroom/writer4/critic4__001-review-part-five.eml (X-Kind: request), copy in comms/mail/critic4/outbox/, vault_check comms. 2) Adopt: COPY (not move) ROLE.md and policy.json into team/critic4/, leaving the conductor's draft as writer4 did; status.json, key.json, key.png, session folder (public halves only); create only the :07 London task from schedule.json. 3) First review pass of manuscript/rc2/150/ 20-23 and 90-94 as a note in team/critic4/notes/, then debrief. No mail, board, requests or To-critic4 notes; no HOLD.",
+   "at": "2026-11-04T05:02:26Z"
+  },
+  "pre_review": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "Inside scope.writes; no manuscript, book.json, conductor or other members' files; copy leaving the draft is fine; request to writer4 within role. Conditions: vault_check; only public key halves; only its own :07 task. That task conflicts with policy not_wanted create.schedule.tenant while never allows its own at the editor's word in session: record the conflict for the conductor to fix in the policy.",
+   "at": "2026-11-04T05:02:53Z"
+  },
+  "work": {
+   "by": "critic4",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Role copied into team/critic4/ (draft left; ROLE.md logo link fixed for the built page); key published, public halves only; own task trig_011eHUNLL3PDGEHaXYDbLXmZ at :07 London; pass 1 on chapter 20 (1 must, 5 should, 4 could); request critic4__001 to writer4; notice critic4__002 to the conductor (WC1 in the build; policy's not_wanted schedule line), outside the plan's one letter but inside scope; status.json and debrief; gate clean.",
+   "at": "2026-11-04T05:07:55Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "15 files, all in critic4 scope or its comms folders (agents.py: 0 outside scope). vault_check comms clean; build and validate clean, no tracked changes. No private key, token, em-dash or religious word; public halves only. Nothing attack-shaped, no other member's files touched.",
+   "at": "2026-11-04T05:08:51Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "partial",
+   "comment": "Done: letter to writer4 (named critic4__001-chapter-20-pass-1), role and policy copied, key, session, own task, status, debrief, plus the extra notice to the conductor (in scope). Short of plan: the first pass covered chapter 20 only, not 20-23 and 90-94 (ROLE.md: a chapter or two per wake; 21 and 22 wait on writer4's rewrite).",
+   "at": "2026-11-04T05:08:51Z"
+  }
+ },
+ "closed": "2026-11-04T05:08:51Z",
+ "outcome": "partial"
+}
