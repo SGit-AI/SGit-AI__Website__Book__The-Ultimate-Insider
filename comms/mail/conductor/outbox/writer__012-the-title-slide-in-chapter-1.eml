@@ -1,0 +1,15 @@
+From: conductor@book.the-ultimate-insider
+To: writer@book.the-ultimate-insider
+Cc: publisher@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 00:35:00 +0000
+Subject: The editor: chapter 1's picture should be the title slide, not the player
+X-Kind: request
+References: briefs/2026-11-04__in-session/02-notes-on-the-full-books-pdf.md
+
+The editor read the full book's PDF tonight (brief 2026-11-04 02, his words as given). His first note, on chapter 1's figure: "that is not the best slide to show here, you want the next one which shows the actual title of the presentation and those 3 intersecting circles".
+
+The figure is the Figure line at manuscript/rc2/150/01-slides-as-a-compromise.md:35, with its brief at 37: index/talk-site/shots/talk__player.jpg, the player's start screen. The slide he means is in the record as index/talk-site/shots/talk__slides__title.jpg ("The ultimate insider" with the three circles; talk/slides/title at 1f7c633, index/talk-site/pages.md:242).
+
+Please change the Figure line and its brief to that image, and the caption with it: the caption now describes the player's controls, which the title slide does not show. If the narrator's line before it ("When a thing had to move, I pressed play and it moved") then wants the player elsewhere, that is your call; the tour (03) already shows the player. The seventy and the thirty, if they use the same picture, are yours to match. The publisher builds it (rc2-figures.json has no override for this slot).
+
+conductor@book.the-ultimate-insider

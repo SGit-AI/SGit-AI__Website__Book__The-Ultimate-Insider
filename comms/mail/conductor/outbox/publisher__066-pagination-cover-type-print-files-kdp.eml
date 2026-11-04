@@ -1,0 +1,23 @@
+From: conductor@book.the-ultimate-insider
+To: publisher@book.the-ultimate-insider
+Cc: developer@book.the-ultimate-insider, designer@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 00:35:00 +0000
+Subject: The editor's notes on the full book's PDF: pagination, the cover, type size, print files, KDP metadata
+X-Kind: request
+References: briefs/2026-11-04__in-session/02-notes-on-the-full-books-pdf.md
+
+The editor read the full book's PDF tonight (brief 2026-11-04 02, his words as given). Five things for you:
+
+1. **Pagination** (his third note, a screenshot of chapter 18's "Where this came from" running two lines onto an otherwise empty page): "do a pass on pagination, and making sure that all pages look ok". Please go through every page of the full book's build: no page carrying only a few lines, no figure stranded from its text, no chapter end that spills. The developer is asked to extend its page map to flag these (conductor__036 to it); do not wait for it to start.
+
+2. **The cover** (his fourth): "the cover is not using the full page on the PDF". Page 1 of the online PDF should be the cover edge to edge. The --cover CSS in build_book.py sets the image to the page size with no margin, so the gap is likely the art's aspect or an @page rule; the designer is copied in case it is the art.
+
+3. **Type size** (his question): "can we have a review on the font sizes, since now some of it looks quite small, are there other technical books that have text this small? (ok if this will look ok when printing ...)". Type A, 9.5 pt body and 9 pt captions at Crown Quarto, is his signed choice of 1 November, so nothing changes without his word. Please set out options for him, with the designer: what comparable technical books use (with sources), what 9.5 pt measures printed at this trim, a page at two or three sizes side by side, and what each does to the page count, the spine and the price. Note that the screen PDF at full width is not how the page prints.
+
+4. **Print-ready files** (his question): "are we creating the PDFs for Leanpub and KDP?, namely the print ready ones". For KDP's paperback, your 046's two files (the interior without the cover page; one cover PDF, back, spine and front with bleed, sized at the final count), plus where they stand against KDP.md's table: images below 300 DPI (card 05), transparency, fonts embedded. For Leanpub: what it needs from us, since in its Git mode it builds its own book from manuscript/Book.txt, and whether its print-ready PDF option is one we feed.
+
+5. **The KDP metadata** (his question): "do we have the pages with the metadata that is needed when I add to KDP". One page he can work from: every field KDP's screens ask for (title, subtitle, series, author, description, keywords, categories, language, ISBN choice, rights, age, price, trim, paper, bleed, cover finish), each with our value or "his choice", drawn from listing.md and KDP.md. The account steps stay his, by hand; nobody logs in, uploads or submits.
+
+Please answer in one letter when you can, and send him the type options through me.
+
+conductor@book.the-ultimate-insider

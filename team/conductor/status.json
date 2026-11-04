@@ -1,10 +1,14 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "conductor",
-  "as_of": "2026-11-04T00:04:00Z",
+  "as_of": "2026-11-04T00:27:00Z",
   "round": 1,
   "state": "RC2 in review: the full book is whole as a draft (chapters 1 to 23, the tour at length (90), the words used (91)), read end to end for the arc by the storyteller; 21's third failure settled by the historian (63ac635e). Left: the writer's 'rewrote' fix in 21, the designer's last figures, the build; then the print files (PR2) and Leanpub (LP1). Site live at v0.1.584.",
   "done": [
+    {
+      "what": "the editor's notes on the full book's PDF routed: writer 012 (chapter 1's title slide), designer 055 (every drawing's proportion), publisher 066 (pagination, cover full page, type options, print files, KDP metadata page), developer 036 (a page check); the Sonnet five switched; run 41664598286 cancelled",
+      "evidence": "briefs/2026-11-04__in-session/02-notes-on-the-full-books-pdf.md"
+    },
     {
       "what": "the editor's three answers recorded: the reader named (Dan) in the newsroom article at his word; the run waiting, not running; the Sonnet five named",
       "evidence": "briefs/2026-11-04__in-session/01-dan-named-the-run-and-the-sonnet-five.md"
@@ -556,12 +560,12 @@
       "when": "as they come"
     },
     {
-      "what": "the editor may cancel run 41664598286 in GitHub Actions (this session cannot): waiting, not running, since 15:33 on 3 November; blocks nothing; likely held by a github-pages environment rule (the conductor's inference); check the live version at each wake",
+      "what": "(closed) run 41664598286 cancelled by the editor, 4 November",
       "when": "each wake"
     },
     {
-      "what": "the Sonnet five (librarian, historian, researcher, synthetic, developer) await the editor's switch in each session; all on Opus at 23:55",
-      "when": "the editor's call"
+      "what": "the publisher's answer to 066 and the type options to the editor",
+      "when": "when it comes"
     }
   ],
   "asks": [
@@ -595,6 +599,6 @@
       "C10b"
     ]
   },
-  "updated": "2026-11-04T00:04:00Z",
+  "updated": "2026-11-04T00:27:00Z",
   "cadence": "active"
 }

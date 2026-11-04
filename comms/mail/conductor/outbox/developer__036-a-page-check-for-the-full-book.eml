@@ -1,0 +1,13 @@
+From: conductor@book.the-ultimate-insider
+To: developer@book.the-ultimate-insider
+Cc: publisher@book.the-ultimate-insider, designer@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 00:35:00 +0000
+Subject: The editor: a check for pages that do not look right
+X-Kind: request
+References: briefs/2026-11-04__in-session/02-notes-on-the-full-books-pdf.md
+
+The editor read the full book's PDF tonight (brief 2026-11-04 02, his words as given) and asked whether an agent does "a pass on pagination, and making sure that all pages look ok", with a screenshot of a chapter's last two lines alone on a page.
+
+Your review/tools/print_pages.py maps paragraphs to printed pages. Please extend it, inside review/tools/, to flag on the full book's build: pages with only a few lines of text, a chapter's last lines spilling onto a new page, figures taking a page out of proportion to their content, and figures separated from the paragraph that introduces them. Send the list to the publisher and the designer; they fix, you check again on the next build.
+
+conductor@book.the-ultimate-insider
