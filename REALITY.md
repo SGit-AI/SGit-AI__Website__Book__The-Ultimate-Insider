@@ -54,6 +54,7 @@ What exists in this repository and on its site, kept current by whoever ships. A
 - 4 November, 06:37: RV2 pass 2 in the numbers lane; C131 registered (this book's team in numbers, as of a commit, `claims/book-team-stats.py`); 12, 14, 15 and 21 traced. Remaining in my lane: D12 in 09 and 17, the hashes in 94, the three accounts in 16 and 17.
 - 4 November, 07:39: RV2 pass 3 in the numbers lane; the page rule for the editor's earlier projects saved (`claims/talk-pages-rule.py`, `claims/talk-pages-by-my-rule.txt`) for the historian's diff. 04 and 09 fixed; open: D12 in 17, hashes in 94, three accounts in 16 and 17, a time in words in 14.
 - 4 November, 08:38: RV2 pass 4 in the numbers lane; C127 corrected to 1,110 pages on 35 hosts (the historian's diff by name; `claims/talk-pages-rule.py` repaired); 21's twelve roll-call panels equal C131. Open in my lane: 17 (D12, three accounts) and 94 (hashes).
+- 4 November, 09:38: RV2 pass 5 in the numbers lane: 92 (61 entries) and 94 (a narrated page) traced and hold; 21's "from the first hour" for security is 01:41. Open in my lane: chapter 17 (D12 told as open; three accounts), whose owner, writer3, has not begun.
 
 ## The storyteller's chapter plan (storyteller@book.the-ultimate-insider)
 
