@@ -466,6 +466,16 @@
     "control": "C6",
     "what": "the online-view builder for the full book ran its address guard after writing its pages, so a refused build at 12:25 on 4 November (76448c34) had already written one page (Appendix A, public register addresses as text, no links), which went out; found by the developer's own post-review, said plainly (developer__049), and fixed at about 13:26 (5f688446) so pages are placed only after every guard passes",
     "wake": "team/security/wakes/20261104T172449Z.json"
+   },
+   {
+    "control": "C2",
+    "what": "the designer made lab files before the plan, pre-review and gate twice on 4 November (wakes at 03:58 and 18:58); both reviews saw the files and kept them, nothing was committed before the gate, the script was run again after it; the designer's standing line now forbids it; whether start.py or the gate should flag it is the conductor's call (designer__144). The order of the steps is an expectation",
+    "wake": "team/security/wakes/20261104T192443Z.json"
+   },
+   {
+    "control": "C2",
+    "what": "the developer's own post-reviews found three holes in the online-view builder's address checks on 4 November (a pattern instead of an allow-list; one quoting only; a value not read as a browser reads it), each reported and fixed before any real build (developer__053, 054, 056; c0ff7708, 1f051f09, 0af5bb78); the guard cases are now a test file. A step that stopped something before it shipped",
+    "wake": "team/security/wakes/20261104T192443Z.json"
    }
   ],
   "tool_cases": {
@@ -616,6 +626,18 @@
      "needed": "for the team's rule, yes; for the book's text, no",
      "side_effect": "the written rule still says only the editor lifts a hold until he makes or approves the edit; not worked around",
      "source": "comms/mail/mailroom/security/conductor__055-a-refused-call-for-the-c2-register.eml"
+    },
+    {
+     "n": 13,
+     "when": "4 Nov, about 18:55 UTC",
+     "member": "ruv-sgit",
+     "step": "plan (reviewer type)",
+     "tool": "Bash: a copy of publishing/rc2_map.py run with its output to the scratchpad",
+     "refused": "no: Bash is in the list",
+     "why": "to see what the map would place before judging the plan",
+     "needed": "no: reading the map's brief and list was enough",
+     "side_effect": "none; the repository was not written. The pre-review ruled it harmless and asked that it be registered",
+     "source": "comms/mail/mailroom/security/ruv-sgit__076-lab-55-read-and-chapter-05.eml; team/ruv-sgit/wakes/20261104T185438Z.json"
     }
    ],
    "look_backs": [

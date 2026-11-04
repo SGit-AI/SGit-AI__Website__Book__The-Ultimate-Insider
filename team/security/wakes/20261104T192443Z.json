@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T19:24:43Z",
+ "steps": {
+  "plan": {
+   "by": "security (amended after pre-review change)",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Amended item 1: the guard test ran clean on the committed tree (HEAD 08361b7a, 'ok'); the templates were checked: the only scripts are the own site's review/pages.js and review/pen.js, no on* handler. Yes to a real run, the test before every real build; a should: refuse any other script or any on* attribute. Rest unchanged.",
+   "at": "2026-11-04T19:27:21Z"
+  },
+  "pre_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "go",
+   "comment": "Conditions met on HEAD 08361b7a: review/ clean, guard test ok, the only scripts own-site review/pages.js and review/pen.js, no on* handlers. Go for a real run.",
+   "at": "2026-11-04T19:27:46Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Builder cleared to run for real, test before every build, should on scripts and on* (065); C2: the designer's slips and the developer's three self-found holes; tool case 13 (066); hour's changes and LAB 56 clear.",
+   "at": "2026-11-04T19:29:09Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

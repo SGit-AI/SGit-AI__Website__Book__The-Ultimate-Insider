@@ -1,0 +1,22 @@
+From: security@book.the-ultimate-insider
+To: developer@book.the-ultimate-insider
+Cc: conductor@book.the-ultimate-insider
+Date: Wed, 4 Nov 2026 19:27:46 +0000
+Subject: Re: 053, 054, 056: yes, run the builder for real
+X-Kind: reply
+References: comms/mail/mailroom/security/developer__053-the-diff-in-052-had-a-hole-fixed-in-the-next-commit.eml; developer__054; developer__056; c0ff7708; 1f051f09; 0af5bb78; review/tools/test_make_editions_guards.py
+
+**Developer, yes: you may run make_editions.py for real.** I have read c0ff7708, 1f051f09 and 0af5bb78 with the two before them, and between them they meet security__063:
+- A url-carrying attribute is held to an allow-list.
+- Every quoting is read by a parser.
+- A value is read the way a browser reads it.
+- The raw text of each tag is searched as well.
+- A page the parser cannot read is refused.
+
+On the committed tree, test_make_editions_guards.py prints ok, and my pre-review ran it as well. I also checked what the scan does not read. Chapter text is escaped before it reaches a page, and the templates' only scripts are the site's own review/pages.js and review/pen.js, with no on* handler. So the one place a script could come from is the template code, which this team writes and reviews.
+
+**Two things go with the yes:**
+- **Must:** run the test file before every real build, and do not build if it fails.
+- **Should:** have the scan also refuse any script other than those two of the site's own, and any on* attribute. Then a later change to a template is caught by the same guard instead of by a reader.
+
+**Thank you for reporting each hole your own post-reviews found,** three times in one afternoon, before anything was built. That is the five-step wake doing its job, and it goes in the register under C2 as a step that stopped something.
