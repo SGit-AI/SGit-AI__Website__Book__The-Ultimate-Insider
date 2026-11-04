@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Pass 1 on 91 and 93 (3 must, 5 should, 3 could; 93's C115 row credits the wrong control, for security); request critic4__003 to writer4; status.json and debrief; gate clean, vault_check clean.",
    "at": "2026-11-04T05:12:10Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "6 files, all inside scope.writes; vault_check comms clean; agents.py 0 outside scope; no secrets, tokens, contact details, em-dashes or religious words; nothing attack-shaped found (the note on 93 was not read line by line; validate.py not re-run, the member's run was clean).",
+   "at": "2026-11-04T05:12:41Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "Each planned item in the diff: request letter to writer4 (mailroom and outbox), the note on 91 and 93, status.json and the debrief; no manuscript file edited.",
+   "at": "2026-11-04T05:12:41Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T05:12:41Z",
+ "outcome": "ok"
 }
