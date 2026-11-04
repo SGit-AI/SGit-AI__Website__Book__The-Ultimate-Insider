@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "designer",
- "as_of": "2026-11-04T06:22:00Z",
+ "as_of": "2026-11-04T07:03:00Z",
  "round": 0,
- "state": "hourly (ACC1), FB1 and RV2: chapter 1 reviewed in the page lane (notes: four shoulds); the concept callout as CSS (LAB 48, lab/tools/book/concept.css); letters 131 to 133; lab PDF 165 pages",
+ "state": "hourly (ACC1), FB1 and RV2: the full book's figure list resynced to every chapter's Figure lines (107 lines, 59 drawn, 32 to draw); 00-start-here reviewed in the page lane (notes, all mine); letter 134",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/designer/ into team/designer/ (drafts left in place)",
@@ -324,12 +324,20 @@
   {
    "what": "RV2 review of 01 (team/designer/reviews/); LAB 48 concept callout (concept.css); letters 131, 132, 133",
    "when": "2026-11-04"
+  },
+  {
+   "what": "resync_150.py and rc2-150-figures.json in line (chapters 2 and 11 as asked); RV2 review of 00; letter 134",
+   "when": "2026-11-04"
   }
  ],
  "next": [
   {
    "what": "RV2: one full-book section a wake in the page lane, 00 to 09 first",
    "why": "conductor 074"
+  },
+  {
+   "what": "Start here's three figures: the five steps as numbered stones, the five parts as a route, the strip to nearly nineteen hours",
+   "why": "RV2 00, publisher 045"
   },
   {
    "what": "the callout's three drawings: a member's folder, the publishing flow, a JSON file as an endpoint",
