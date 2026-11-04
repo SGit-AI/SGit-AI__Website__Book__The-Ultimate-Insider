@@ -4,14 +4,14 @@
 
 ## How to read it
 
-A **setting** is enforced by a tool: the check refuses, the file stops the wakes. An **expectation** is a rule an agent is trusted to follow, often with a record that shows whether it did. The difference is the book's point. Most of what kept the first factory in line was expectation, and it held because nothing pushed on it.
+A **setting** is enforced by a tool: the check refuses, the file stops the wakes. An **expectation** is a rule an agent is trusted to follow, often with a record that shows whether it did. The difference is the book's point. In security's reading, most of what kept the first factory in line was expectation, and it held because nothing pushed on it.
 
 ## The first factory's controls (the talk's team, 29 October 2026)
 
 | Control | Kind | What it stopped | What it missed |
 |---|---|---|---|
 | A page of rules and a scope for each member, with a check | expectation, with a checker the member runs | members writing in the wrong place by mistake; a plan that would have written in other members' folders was sent back | it reports and does not refuse; it catches mistakes, not a steered agent, as the team's own slide said |
-| The five-step wake | expectation, with a record | captured values that should not have gone public were found and redacted; plans were sent back before work began | no step said stop all day; a finding came after a push, not before it |
+| The wake's five stages | expectation, with a record | captured values that should not have gone public were found and redacted; plans were sent back before work began | no step said stop all day; a finding came after a push, not before it |
 | The hold | setting | every wake after the hold, sixteen minutes before the talk | wakes already running when it was written finished anyway |
 | Session keys | expectation, with a published record | each member's key published from its own session, checked against the register | the check is of consistency, not proof |
 | The pinned key tool | setting | a changed tool would fail its pin | a pin proves which tool it is, not that the tool is sound; the tool's own review is a separate matter |
