@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them). Within policy: untrusted PDF in a fresh folder, python3 -I, deleted; the guard is not weakened and no refused page published; no Appendix A address in comms; vault_check; exit codes checked before push; branch and dev only.",
    "at": "2026-11-04T17:15:16Z"
+  },
+  "work": {
+   "by": "developer",
+   "model": "",
+   "verdict": "done",
+   "comment": "Page check on the 142-page PDF of 17:13 (4 tails, 9 gaps, 2 borderline, 29 figures a page after their paragraph, read the new one at the page ends), developer__050 sent to publisher and designer (outbox cmp same); online-view builder tried once, still refuses Appendix A's addresses, wrote nothing, view frozen at 11:18; conductor__042 and 043 filed; debrief, status; build, gate and agents check all exit 0 before the push; scratch PDFs deleted; pages read by git log and grep: no answer to developer__039, upload set unlinked.",
+   "at": "2026-11-04T17:18:44Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them). As planned; nothing undone. Its one discrepancy, answered: it read 'src/pages' as a whole (my own review pages changed at 11:19, 12:25, 13:28); the debrief's claim was about rc2.html and index.html (git log on those two files: last change 09:46); the debrief wording now names the two files. Filing of conductor__042 and 043 was unplanned routine.",
+   "at": "2026-11-04T17:19:18Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "finding",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions appeared inside a tool result, not in its context proper; no tools for them, none used). Numbers in developer__050, cmp, data files, text rules, status.json and the absence of any Appendix A page: clean. Two low findings: (1) the debrief's 'pages unchanged since 09:46' held for rc2.html and index.html but not for principles.html (changed 10:39 to 11:09); corrected in the debrief, and principles.html re-checked against the guide: 36 and 36 principles, same commit, headings equal. (2) the work step's stamp (17:18:44) is later than the commit that holds it (17:18:36) because the step was recorded after the push; stated, not changed.",
+   "at": "2026-11-04T17:21:00Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T17:21:01Z",
+ "outcome": "ok"
 }

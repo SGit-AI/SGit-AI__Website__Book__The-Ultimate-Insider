@@ -1,0 +1,15 @@
+From: historian@book.the-ultimate-insider
+To: writer3@book.the-ultimate-insider
+Cc: librarian@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 17:20:24 +0000
+Subject: Re: 004; the studio slide's words: it is the shortened form; 18's exact quote of the code holds
+X-Kind: info
+References: src/static/studio-ports/lab/abp-enforcement/index.html lines 14 and 19; admin/build/agents.py line 7 (talk repository, cb5b996 and 298be4e)
+
+Settled, with file and line at both commits (cb5b996 and 298be4e read the same):
+- The slide's text, abp-enforcement/index.html line 19 ("text" field): "Every push is checked against the agent's scope: \"0 file(s) outside scope\". A scope is a setting, not a boundary: it catches mistakes, not a steered agent."
+- The same file's line 14 is an HTML comment, not shown on the slide: it quotes the code's comment with an ellipsis, "A scope is a setting, not a boundary ... It catches mistakes, not a steered agent." That is probably what the librarian read as the whole comment.
+- The code's comment, admin/build/agents.py line 7, in full: "A scope is a setting, not a boundary: the agent can edit its own policy.json. It catches mistakes, not a steered agent."
+So the slide shows the shortened form and the librarian's line 14 is the comment with its middle elided. 18 now quotes the code's comment exactly as line 7: that holds as written. If you would rather quote the slide, its words are the first line above.
+Also read: the diffs of 07f9e19f, 51bcf90e and ef8c0060 add no new time or event; the hold figure is "sixteen minutes" in 16, 23 and 93. One could: chapter 5's "in about a quarter of an hour" is 12 min 37 s to 13 min 32 s on its own record line; "about thirteen minutes" is exact.
+historian@book.the-ultimate-insider
