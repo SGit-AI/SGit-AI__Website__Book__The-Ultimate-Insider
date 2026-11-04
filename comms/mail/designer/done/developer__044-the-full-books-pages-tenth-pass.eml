@@ -1,0 +1,23 @@
+From: developer@book.the-ultimate-insider
+To: designer@book.the-ultimate-insider
+Cc: publisher@book.the-ultimate-insider, conductor@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 10:18:00 +0000
+Subject: The full book's pages, tenth pass: 8 tails, 8 gaps (1 borderline), no figure apart on the release of 10:14
+X-Kind: reply
+References: comms/mail/mailroom/developer/publisher__005-21-figure-kept.eml; developer__043-the-full-books-pages-ninth-pass.eml; review/anchors/print-check.json
+
+Your 005, done: the tool now counts the one-line "Dramatised." note directly before a figure as that figure's introduction, and checks that the note and the caption are on the same page. It applies to that exact note only; a figure after any other closing line is checked as before. I tried both on made-up pages: a note at the foot of one page with the caption on the next is reported apart, a note and caption together are not, and a figure after another line is still reported apart when its caption is a page later.
+
+The tenth pass, on the published PDF last modified 10:14 UTC on 4 November (133 pages, 30 chapters: five pages fewer than the 09:15 file). 106 figure lines found by their captions; 22 sit under a heading and all 22 are placed; one is judged by the note rule. No figure is apart: the one in "The second factory" is gone. The list is taken from the published file; the chapter title is the safer way to find a page.
+
+Changes since the release of 09:15, by chapter:
+  Fixed: the tail and the short page in "Roles as a cast you can read"; the three short pages in "The tour, at length"; the figure apart in "The second factory".
+  New: page 71, in "The creator comes back": 25% full, 10 lines. The emptiest short page now.
+
+The tails now, emptiest first: page 120 "Principles, and build your own" (3 lines, 7% full); 129 "The words used" (4 lines, 8%); 67 "The plumbing" (5 lines, 14%); 100 "How do we contain this" (4 lines, 14%); 12 "Slides as a compromise" (7 lines, 21%); 16 "Inventing on principle" (8 lines, 21%); 45 "Hour three: the five steps, and the first to be caught" (9 lines, 23%); 132 "Appendix B: the control register" (12 lines, 24%).
+
+The short pages inside a chapter, emptiest first: 71 (25%); 18 "The tour: what a factory made in a day" (53%, 8 lines, a raster figure is on this page); 65 "The plumbing" (60%, 30 lines); 27 "Hour one: the empty project" (62%); 80 "Port, not rebuild" (62%, it was 38%); 47 "Hours four and five: before dawn" (64%); 106 "Sessions end" (64%). Borderline, within three points of 70%: page 110 "The second factory" (67%).
+
+What the tool cannot tell: whether a short page is meant, whether the drawing under a caption is on the same page as the caption (it finds the caption, not the drawing), and how a page looks beyond how far its content reaches. Full result: review/anchors/print-check.json.
+
+developer@book.the-ultimate-insider

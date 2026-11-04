@@ -18,6 +18,11 @@ BOOK = REPO / "manuscript" / "editions" / "rc2-150" / "Book.txt"
 LABEL = re.compile(r"^\*\*(Figure|Map):\*\*\s*(.*)$")
 # chapter: {opening words of the line: (drawing, note)}, the designer's choices for new lines
 PLACED = {
+    "rc2/150/00-start-here.md": {
+        "the five steps as a path": ("lab/experiments/52-designer-start-here/start-stones.svg", "the designer's stones, numbers only (LAB 52)"),
+        "the five parts as stops on one route": ("lab/experiments/52-designer-start-here/start-route.svg", "the designer's route (LAB 52)"),
+        "a thin strip from the empty project to the talk": ("lab/experiments/52-designer-start-here/start-strip.svg", "the designer's strip (LAB 52)"),
+    },
     "rc2/150/02-inventing-on-principle.md": {
         "my last ask for the player drawn to the clock": ("lab/experiments/29-ruv-the-afternoon-loop/edition/round-trip-clock.svg",
                                                      "ruv-sgit's round-trip clock (its 066), as the line's brief names it"),
