@@ -44,6 +44,8 @@
 
 **Figure:** the wake record as a page: five boxes in a column, each with its stage, who ran it, its verdict and its sentence, the finding in stage four highlighted; the verdicts of this hour's first wake filled in: go, go, partial, finding, partial.
 
+`%% layout: full`
+
 `%% figure brief: For the designer, from the record word for word. The chapter's picture, as the seventy's chapter 5 drew it. ruv-sgit's wake-page drawing rests on C072 (ruv-sgit__072: no register id inside a drawing).`
 
 `%% record: C072`
@@ -64,6 +66,8 @@
 
 **Figure:** one rule's journey in an hour: written in the conductor's wake rules, asked of dev by mail, in the gate within the hour, and from then on a red mark on any member's release whose wake skipped a step.
 
+`%% layout: full`
+
 `%% figure brief: For the designer. A line of time across hour three, with the rule moving from a page to a setting. The times in the picture, not in any line.`
 
 `%% record: team/dev/wakes/20261029T024849Z.json (started 02:48:49; pre_review condition: "wake.py check in validate.py changes the gate for every member: say so in the debrief and commit, run the full gate before pushing"; post_check partial) 99aaf05 (02:51: "a closed wake record that skipped a step, or recorded work without two go verdicts before it, fails the gate for every member (negative control ...)") cf4ca8b timeline/day/02.md ("What the hour shows")`
@@ -83,6 +87,8 @@
 **Narrator.** But the clock was not in charge yet. I was still awake and in the sessions, asking, and most of the hour's work was started by me. The schedule ran beside me, not instead of me. That changes in hour five.
 
 **Figure:** a card, hour three's wakes by trigger: those the schedule started and those I started.
+
+`%% layout: full`
 
 `%% figure brief: For the designer, from C087 (hour 02 UTC, which is hour three on the margin clock: 2 scheduled, 5 the editor's). The counts on the card only.`
 

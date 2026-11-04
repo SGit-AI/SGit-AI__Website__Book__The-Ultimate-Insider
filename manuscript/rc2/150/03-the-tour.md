@@ -20,6 +20,8 @@
 
 **Figure:** the talk's index page, and its player open on a slide: the timer, the step controls, the notes.
 
+`%% layout: beside`
+
 `%% figure brief: the image: index/talk-site/shots/talk.jpg, talk__player.jpg (moved out of the caption, which prints: conductor__033).`
 
 `%% figure brief: The librarian's screenshots (index/talk-site/shots/talk.jpg, talk__player.jpg).`
@@ -35,6 +37,8 @@
 ## Stop 2. The dashboard and the hold
 
 **Figure:** the team's dashboard, drawn: a clock, the hold, what waits on the editor, and every wake as a grid.
+
+`%% layout: full`
 
 `%% figure brief: A drawing from the page, not a screenshot: the build never shows an admin page.`
 
@@ -52,6 +56,8 @@
 ## Stop 3. Every wake and every note
 
 **Figure:** the wakes page: each member's wakes, newest first, with the wake's five stages, each stage's verdict and its comment.
+
+`%% layout: full`
 
 `%% figure brief: Beside it, the commits page with its notes between agents. Described from the librarian's study; no screenshot yet.`
 
@@ -72,6 +78,8 @@
 ## Stop 4. A member's page
 
 **Figure:** one member's page, deck's: its role, its policy in prose, its rules with the mistake behind each one, its status, its wakes and its debriefs; its key lines cropped out.
+
+`%% layout: full`
 
 `%% figure brief: Shown without the section that prints its key, which the tour never shows.`
 
@@ -95,9 +103,13 @@
 
 **Figure:** the talk team's keys page: each member's key listed with its fingerprint, every one public and made for one session.
 
+`%% layout: beside`
+
 `%% figure brief: the image: index/talk-site/shots/admin__keys.jpg, cleared by security by that name (security__024; AD1; critic1 001, P25). The talk team's register: fingerprints and session folder ids, no QR codes; nothing of it typed into the text. The vaults page stays described, not shown.`
 
 **Figure:** the same kind of key as a QR code: a few of this book's own team, each code holding one member's public key and nothing else.
+
+`%% layout: full`
 
 `%% figure brief: the images: team/conductor/key.png, team/researcher/key.png and team/writer/key.png, each cleared by security by name (comms/mail/mailroom/writer/security__024-keys-page-and-keys.eml, 4 November 06:27 UTC: each decoded, public half only, fingerprint matching its key.json), at the versions of 68ffc780 (2 November) or earlier; any later change goes back to security first. Nothing of any key or code is typed into the text (storyteller__135 S1; AD1).`
 
@@ -106,6 +118,8 @@
 **Narrator.** And the house they live in: the whole team on one page, a room for each member, each room drawn from what that member was allowed to change.
 
 **Figure:** the team's house: a room for each member, and security's room, proposed and never staffed.
+
+`%% layout: full`
 
 `%% figure brief: For the designer, its house (LAB 47, designer__130; publisher__034): rooms from team/*/policy.json scope.writes at 298be4e; the storyteller and the designer by their work; where each stands is the designer's reading of the record. It replaces "the site as a building, one floor per kind of page". Where each stands is the designer's reading of the record (critic1__006: in the brief, not the caption).`
 
