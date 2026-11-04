@@ -24,6 +24,13 @@
    "verdict": "done",
    "comment": "brief 29; HR1 decided; build.py read_member_json at the four status/policy sites (parse and shape errors only, stderr naming the file; tested on the 12:25 failure); WAKE.md 'When dev is red' (keep working, commit locally, no push while red, one letter, hold at the third red wake or at once for a secret) and the Stopping line changed; CLAUDE.md exception line; letters to 20 members; status. Earlier at his word: HOLD.md deleted (343ae69a, his words dated 16:10 there, an estimate) and the writer's task re-enabled (the conductor's reading of a full lift)",
    "at": "2026-11-04T16:37:57Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "as-planned",
+   "comment": "as-planned; fixed before the push: the status filter had dropped synthetic 022's 'who lifts the hold when its owner is away' ask (restored); status and letter dates set to the commit's 16:37; the address check in build.py noted as a small narrow addition",
+   "at": "2026-11-04T16:38:39Z"
   }
  },
  "closed": null,
