@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T10:25:20Z",
+ "steps": {
+  "plan": {
+   "by": "security, amended at the pre-review's change",
+   "model": "",
+   "verdict": "go",
+   "comment": "Clarified: items 1 to 3 only READ other members' files (team/writer3/key.json; manuscript/rc2/150/16, 17, 90, 94; lab/experiments/51-designer-book-team-arriving/book-team-arriving.svg, 49-designer-cast-bars/cast-bar-06-roles-as-a-cast-you-can-read.svg, 24-ruv-the-day-by-member-and-hour/heatmap.svg); security writes nothing there. Findings go by letter (comms/mail/mailroom/*/security__*), and the rest to team/security/** and comms/issues/security/**.",
+   "at": "2026-11-04T10:26:43Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent, as the reviewer agent (callable: Read, Grep, Glob, Bash, SubagentHandback); second pass",
+   "model": "haiku",
+   "verdict": "go",
+   "comment": "Clarified plan in scope: reads only of others' files; writes to security's paths; vault_check before commit; no key printed.",
+   "at": "2026-11-04T10:27:02Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "",
+   "verdict": "done",
+   "comment": "1. writer3's key consistent; its key.png public key alone. 2. 150/16, 17, 90, 94 read: clear. 3. Three drawings: no link, script, image, key or id. Letter security__057; C4; board; status; debrief.",
+   "at": "2026-11-04T10:28:14Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
