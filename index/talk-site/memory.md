@@ -38,3 +38,7 @@ The pages themselves, read on 4 November 2026; `timeline/past-projects-memory.md
 ## Names to clear (added after the security post-review)
 
 The newsroom pages carry more names than the one I listed. Besides Dinis Cruz (byline and footers) and the journalist in the newsroom front page's headline, the small article blurbs on the newsroom front page and the PHP October page show several other names, partly small at display size, and a persona label ("Jordan, board member or executive") on the PHP page. Security should clear each image by the names it shows, or have me crop the blurbs.
+
+## Crops (4 November, 07:20 UTC, at security's letter 006)
+
+Security cleared nine of the eleven by name and asked for two crops. New files: `memory-crop-newsroom-sgit-ai-home.jpg` (masthead and lead story, cut above the article blurbs) and `memory-crop-php-october-newsroom.jpg` (masthead, role bar and the 24h panel, cut above the headline and the persona box). The two uncropped originals are removed from the tree and must not be placed. Both crops were looked at: no address, key, QR, login or other person's name.

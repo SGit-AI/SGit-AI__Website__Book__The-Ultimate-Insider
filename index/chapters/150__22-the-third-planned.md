@@ -8,7 +8,7 @@ From the chapter's `%% record` lines (and its `## Where this came from`, where i
 |---|---|---|---|---|---|
 | `team/conductor/WAKE.md` | document | conductor | `ecc048e` 2026-10-29 01:35:33 | `3342cff` 2026-10-29 16:59:22 | the wake protocol every member followed: the five steps, the checklist, when and how to stop; ported to the book unchanged in substance |
 
-## this repository (9)
+## this repository (11)
 
 - `briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md`
 - `chapter-plan/cast/edition-10.md`
@@ -19,3 +19,5 @@ From the chapter's `%% record` lines (and its `## Where this came from`, where i
 - `manuscript/rc2/150/18-how-do-we-contain-this.md`
 - `manuscript/rc2/150/09-nine-hours-with-nobody-starting-work.md`
 - `manuscript/rc2/150/11-the-plumbing.md`
+- `team/conductor/from-newsroom/2026-11-04__do-this-now-as-invitations.md`
+- `chapter-plan/cast/cast-guide.md`

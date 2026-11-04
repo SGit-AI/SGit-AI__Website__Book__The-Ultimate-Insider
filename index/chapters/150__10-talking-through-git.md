@@ -32,3 +32,7 @@ From the chapter's `%% record` lines (and its `## Where this came from`, where i
 ## Commits named (9)
 
 `298be4e`, `aeffbf9`, `af0010b`, `6b55cff`, `3f094f2`, `36e382b`, `09317d9`, `c1c6443`, `b6f5219`
+
+## Not in any index
+
+Paths the tool could not place (outside the three repositories, or a web address): `agents.py`

@@ -17,7 +17,7 @@ From the chapter's `%% record` lines (and its `## Where this came from`, where i
 | `team/conductor/wakes` | folder |  | ``  | ``  |  |
 | `team/ruv-sgit/wakes/20261029T134005Z.json` | wake record | ruv-sgit | `41d4757` 2026-10-29 13:41:29 | `c6ff2e4` 2026-10-29 13:41:51 | scheduled wake, hourly at :32; outcome idle; work none: idle: no request arrived; |
 
-## this repository (13)
+## this repository (15)
 
 - `timeline/day/05.md`
 - `timeline/day/13.md`
@@ -32,6 +32,8 @@ From the chapter's `%% record` lines (and its `## Where this came from`, where i
 - `timeline/day/10.md`
 - `timeline/day/11.md`
 - `timeline/day/12.md`
+- `team/conductor/from-newsroom/2026-11-04__do-this-now-as-invitations.md`
+- `chapter-plan/cast/cast-guide.md`
 
 ## Commits named (38)
 
