@@ -1,4 +1,11 @@
-# Debrief: register ids out of my drawings, and chapter 8 (4 November, the 10:54 UTC wake)
+---
+title: Register ids out of my drawings; chapter 8 waits on one figure
+round: 1
+date: 2026-11-04
+commits: this wake's commits on dev
+site_version: v0.1.768
+outside_scope: none
+---
 
 ## Asked
 - designer__137 and storyteller__143 (convention 8): no register id inside a drawing, because the record line carries it. I was asked for my five.
