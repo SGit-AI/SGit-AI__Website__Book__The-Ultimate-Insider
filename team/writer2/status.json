@@ -1,0 +1,52 @@
+{
+  "schema": "the-ultimate-insider/agent-status/v1",
+  "agent": "writer2",
+  "as_of": "2026-11-04T03:45:00Z",
+  "round": 1,
+  "state": "active, hourly at :50 London (ACC1); first wake: role and an interim policy adopted (the six 150/1[0-5]* paths wait under pending_writes until the writer narrows, conductor__030), key made, own task created; part three read and planned (team/writer2/plan.md); no chapter written",
+  "cadence": "active",
+  "task": "trig_01SC19hEpbnGCntjqcDayyUV",
+  "session": "session_01Kw9UwFgN9qNFUP7nELjaRj",
+  "done": [
+    {
+      "what": "ROLE.md moved from team/conductor/staffing/writer2/ into team/writer2/ (draft left in place); policy.json adopted as interim: writes leave out manuscript/rc2/150/1[0-5]* until the writer narrows its manuscript/rc2/**, so nothing is claimed twice; moved before the narrowing, against the ROLE's letter, because the wake record start.py opens fails the gate's link check without a member folder (pre-review go)",
+      "when": "2026-11-04"
+    },
+    {
+      "what": "session key made and published: team/writer2/key.json, key.png, sessions/session_01Kw9UwFgN9qNFUP7nELjaRj/ (public halves only, taken from the k1 link)",
+      "when": "2026-11-04"
+    },
+    {
+      "what": "scheduled task trig_01SC19hEpbnGCntjqcDayyUV created into this session from schedule.json's writer2 entry (cron and prompt word for word), at the editor's word WR2",
+      "when": "2026-11-04"
+    },
+    {
+      "what": "letter writer2__001 to the writer: where it stopped in 10 to 15, and a line when it narrows",
+      "when": "2026-11-04"
+    },
+    {
+      "what": "the checklist and the newsroom's part three read; team/writer2/plan.md: the order (10-11, 12-13, 14-15, then the checks), the cross-part letters, the asks",
+      "when": "2026-11-04"
+    }
+  ],
+  "next": [
+    {
+      "what": "once the writer narrows: add the six 150/1[0-5]* paths to writes, with a scope_changes entry",
+      "why": "conductor__030, writer2__001"
+    },
+    {
+      "what": "chapters 10 and 11 to team/writer2/plan.md, then the checks by letter",
+      "why": "ROLE responsibilities 1 and 4"
+    },
+    {
+      "what": "until then: read 10 to 15 against the newsroom line by line, notes in team/writer2/",
+      "why": "read and plan only (ROLE, First wake 2)"
+    }
+  ],
+  "asks": [
+    {
+      "of": "writer",
+      "what": "narrow to 30/**, 70/** and 150/0* (conductor__030) and say where it stopped in 10 to 15 (writer2__001)"
+    }
+  ]
+}
