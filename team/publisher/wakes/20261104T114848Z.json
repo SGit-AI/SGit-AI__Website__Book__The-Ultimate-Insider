@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T11:48:48Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; Bash read only)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; 92's trace enough (researcher 006, writer4 010), in. Add: tell writer4 92 is in; pair.css styles figure.pair-*, so either emit those or say so to the designer.",
+   "at": "2026-11-04T11:51:16Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No HOLD; 92's changes since security 019 hold no key, session or model name, C068 only as 'out'; pair.css passes unsafe_css. Gate and vault_check before push.",
+   "at": "2026-11-04T11:51:16Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "92 in; layout lines read (div.pair-beside/full) and pair.css loaded; 01 still-slide override; measured 141 pages, 8 holes; letters conductor 059 (cc critic4, designer, developer), designer 051, writer4 007; records",
+   "at": "2026-11-04T11:53:12Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; Bash read only, none refused)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "23 staged in scope; no image; build_book.py compiles; the layout wrap adds only fences; pair.css and full-book.css pass unsafe_css; every mapped path exists; letters clean; vault_check clean.",
+   "at": "2026-11-04T11:55:00Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Every item to plan, with its conditions.",
+   "at": "2026-11-04T11:55:00Z"
+  }
+ },
+ "closed": "2026-11-04T11:55:00Z",
+ "outcome": "ok"
+}
