@@ -1,9 +1,9 @@
 {
  "about": "The full book's printed pages checked for pages that may not look right (conductor__036). Written by review/tools/print_check.py: page numbers, chapter titles, counts and sizes only.",
  "edition": "rc2-150",
- "source": "a PDF given by hand (full.pdf, created Wed Nov  4 05:13:28 2026 UTC); its chapters are taken to be today's",
- "pdf_pages": 136,
- "chapters_hash": "fc0d71afb4606573",
+ "source": "a PDF given by hand (full.pdf, created Wed Nov  4 06:17:08 2026 UTC); its chapters are taken to be today's",
+ "pdf_pages": 137,
+ "chapters_hash": "b30241cb1334c2a4",
  "thresholds": {
   "spill_fill_below": 0.25,
   "gap_fill_below": 0.7,
@@ -14,19 +14,19 @@
  "chapters": 29,
  "counts": {
   "chapter_end_spill": 6,
-  "gap_page": 9
+  "gap_page": 12
  },
  "flags": [
   {
    "kind": "chapter_end_spill",
-   "page": 112,
+   "page": 113,
    "chapter": "Principles, and build your own",
    "lines": 1,
    "fill": 0.02
   },
   {
    "kind": "chapter_end_spill",
-   "page": 130,
+   "page": 131,
    "chapter": "The words used",
    "lines": 4,
    "fill": 0.08
@@ -40,28 +40,37 @@
   },
   {
    "kind": "chapter_end_spill",
-   "page": 29,
+   "page": 28,
    "chapter": "Hour two: the rules written",
    "lines": 5,
    "fill": 0.16
   },
   {
    "kind": "chapter_end_spill",
-   "page": 92,
+   "page": 93,
    "chapter": "How do we contain this",
    "lines": 4,
    "fill": 0.16
   },
   {
    "kind": "chapter_end_spill",
-   "page": 133,
+   "page": 134,
    "chapter": "Appendix B: the control register",
    "lines": 12,
    "fill": 0.24
   },
   {
    "kind": "gap_page",
-   "page": 38,
+   "page": 73,
+   "chapter": "Port, not rebuild",
+   "fill": 0.27,
+   "lines": 5,
+   "raster_figure_here": false,
+   "borderline": false
+  },
+  {
+   "kind": "gap_page",
+   "page": 37,
    "chapter": "Hour three: the five steps, and the first to be caught",
    "fill": 0.55,
    "lines": 23,
@@ -70,7 +79,16 @@
   },
   {
    "kind": "gap_page",
-   "page": 127,
+   "page": 9,
+   "chapter": "Slides as a compromise",
+   "fill": 0.57,
+   "lines": 10,
+   "raster_figure_here": false,
+   "borderline": false
+  },
+  {
+   "kind": "gap_page",
+   "page": 128,
    "chapter": "The tour, at length",
    "fill": 0.58,
    "lines": 14,
@@ -79,38 +97,38 @@
   },
   {
    "kind": "gap_page",
-   "page": 9,
-   "chapter": "Slides as a compromise",
-   "fill": 0.59,
-   "lines": 11,
-   "raster_figure_here": false,
-   "borderline": false
-  },
-  {
-   "kind": "gap_page",
-   "page": 43,
+   "page": 42,
    "chapter": "Hours four and five: before dawn",
-   "fill": 0.65,
-   "lines": 22,
+   "fill": 0.6,
+   "lines": 21,
    "raster_figure_here": false,
    "borderline": false
   },
   {
    "kind": "gap_page",
-   "page": 88,
-   "chapter": "How do we contain this",
+   "page": 64,
+   "chapter": "The creator comes back",
+   "fill": 0.64,
+   "lines": 25,
+   "raster_figure_here": false,
+   "borderline": false
+  },
+  {
+   "kind": "gap_page",
+   "page": 46,
+   "chapter": "Hours four and five: before dawn",
    "fill": 0.67,
-   "lines": 24,
+   "lines": 16,
    "raster_figure_here": false,
    "borderline": true
   },
   {
    "kind": "gap_page",
-   "page": 120,
-   "chapter": "The tour, at length",
-   "fill": 0.68,
-   "lines": 7,
-   "raster_figure_here": true,
+   "page": 89,
+   "chapter": "How do we contain this",
+   "fill": 0.67,
+   "lines": 24,
+   "raster_figure_here": false,
    "borderline": true
   },
   {
@@ -124,7 +142,16 @@
   },
   {
    "kind": "gap_page",
-   "page": 117,
+   "page": 122,
+   "chapter": "The tour, at length",
+   "fill": 0.68,
+   "lines": 7,
+   "raster_figure_here": true,
+   "borderline": true
+  },
+  {
+   "kind": "gap_page",
+   "page": 118,
    "chapter": "The tour, at length",
    "fill": 0.69,
    "lines": 24,
@@ -133,7 +160,7 @@
   },
   {
    "kind": "gap_page",
-   "page": 125,
+   "page": 126,
    "chapter": "The tour, at length",
    "fill": 0.69,
    "lines": 7,
@@ -153,10 +180,10 @@
   "begin_on_a_later_page_than_that_paragraph_ends": 0
  },
  "since_last": {
-  "previous_pdf_pages": 136,
+  "previous_pdf_pages": 137,
   "previous_counts": {
    "chapter_end_spill": 6,
-   "gap_page": 9
+   "gap_page": 12
   },
   "fixed": [],
   "new": [],
@@ -199,7 +226,19 @@
    },
    {
     "kind": "gap_page",
+    "chapter": "Port, not rebuild",
+    "before": 1,
+    "now": 1
+   },
+   {
+    "kind": "gap_page",
     "chapter": "Hour three: the five steps, and the first to be caught",
+    "before": 1,
+    "now": 1
+   },
+   {
+    "kind": "gap_page",
+    "chapter": "Slides as a compromise",
     "before": 1,
     "now": 1
    },
@@ -211,13 +250,13 @@
    },
    {
     "kind": "gap_page",
-    "chapter": "Slides as a compromise",
-    "before": 1,
-    "now": 1
+    "chapter": "Hours four and five: before dawn",
+    "before": 2,
+    "now": 2
    },
    {
     "kind": "gap_page",
-    "chapter": "Hours four and five: before dawn",
+    "chapter": "The creator comes back",
     "before": 1,
     "now": 1
    },

@@ -89,7 +89,7 @@
 
 **Narrator.** The brief was my request, published in full and never edited. Beside it sat two files, one card each.
 
-**Figure:** a card, the reality file: kept current by whoever shipped; what exists now and nothing else; changed all day, last at 17:42. Its second sentence across the top: "A thing not listed here does not exist, whatever a brief or an article says."
+**Figure:** a card, the reality file: kept current by whoever shipped; what exists now and nothing else; changed all day, last in the evening. Its second sentence across the top: "A thing not listed here does not exist, whatever a brief or an article says."
 
 **Figure:** a card, the corrections file: for when the brief turns out to be wrong. Under its heading and a line of purpose, one entry, unchanged from the first half hour to the end of the day.
 

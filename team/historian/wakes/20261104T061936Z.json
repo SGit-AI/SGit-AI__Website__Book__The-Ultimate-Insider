@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T06:19:36Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Three items: writer4 004 (chapter 21's three failures against the record, the relative times, a second look at 20; letter 061), writer2 013 plus the RV2 promise (14 and 15, and 12 and 13 line by line; letter 062; the grid 063), the researcher's offered diff (letter 064). Writes in scope; no HOLD. Advice: 45 minutes is tight for items 1 and 2 plus 3; do 3 last and carry it over if short. Caveat: the step did not read ROLE.md, status.json or the letters. Tools: reading list only.",
+   "at": "2026-11-04T06:21:15Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Plan stays inside historian writes, no HOLD, nothing attack-shaped or toward Cold-Read. Keep the counting-rule rerun read-only, no em-dashes or religious words in letters, vault_check before commit. It did not read CLAUDE.md in full or the brief bodies. No tool call outside the list.",
+   "at": "2026-11-04T06:22:30Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "Diff touches only historian files; no em-dashes, religious words, model names, keys or private material; nothing toward Cold-Read; vault_check clean. No tool outside the list.",
+   "at": "2026-11-04T06:26:10Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "Letters 061 to 064, six filed letters, debrief, findings and status present. Item 3 carried over on purpose and said so in 064 and status. It did not check the debrief dates.",
+   "at": "2026-11-04T06:26:11Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "claude-sonnet-5-5",
+   "verdict": "partial",
+   "comment": "Chapter 21 and 20 checked; 14 and 15 times; findings R11 to R16; letters 061 to 064; six letters filed; item 3 (researcher's diff) carried over",
+   "at": "2026-11-04T06:27:00Z"
+  }
+ },
+ "closed": "2026-11-04T06:27:00Z",
+ "outcome": "ok"
+}

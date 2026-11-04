@@ -87,7 +87,7 @@ git log 298be4e --reverse --format='%ci %h %s' -- team/motion/key.json team/stud
 
 - **State:** corrected.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapters 03, 04, 05, 09, 12, 15, 17, 19, 90.
+- **Cited in:** chapters 03, 04, 05, 09, 12, 14, 15, 17, 19, 90.
 
 ```
 git rev-list --merges --count 298be4e; git log 298be4e --merges --author=Claude --format=%h | wc -l
@@ -118,7 +118,7 @@ git log 298be4e -1 --author=Claude --format='%h %ci %s' --grep='95%'   # 867f8c2
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapters 03, 04, 06, 12, 16, 19, 90.
+- **Cited in:** chapters 03, 04, 06, 12, 14, 16, 19, 90.
 
 ```
 python3 -c "import json,subprocess as s;R='298be4e';fs=[f for f in s.run(['git','ls-tree','-r','--name-only',R],capture_output=True,text=True).stdout.split() if f.startswith('team/') and '/wakes/' in f and f.endswith('.json')];import collections;print(len(fs),collections.Counter(f.split('/')[1] for f in fs))"
@@ -292,7 +292,7 @@ for c in bd3cdad 298be4e; do for f in $(git ls-tree -r --name-only $c team | gre
 
 - **State:** checked.
 - **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `298be4e`.
-- **Cited in:** chapters 07, 08, 09, 10, 12, 15.
+- **Cited in:** chapters 03, 07, 08, 09, 10, 12, 15.
 
 ```
 for f in $(git ls-tree -r --name-only 298be4e team | grep -E '^team/[^/]+/wakes/[^/]+\.json$'); do git show 298be4e:$f | python3 -c 'import json,sys;d=json.load(sys.stdin);print(d["started"][11:13],d["kind"])'; done | python3 -c "import sys,collections;c=collections.Counter();[c.update([(l[:2],'scheduled' if l[3:].lower().startswith('scheduled') else 'follow-up' if ('follow' in l.lower() or 'tonight' in l.lower()) else 'editor')]) for l in sys.stdin];[print(k,v) for k,v in sorted(c.items())]"
@@ -631,6 +631,17 @@ for c in f3cea028 3b403fb0 04b227e0; do git show -s --format='%h %ad' --date=iso
 open https://newsroom.sgit.ai/articles/the-grant-not-the-prompt.html and read the title, the date and the abstract
 ```
 
+## C131: This book's team in numbers, as of a stated commit: per member, when staffed, commits, recorded wakes, first and last commit
+
+- **State:** checked.
+- **Source:** SGit-AI__Website__Book__The-Ultimate-Insider (this book's record), at `05a9510d` (this book's own record, after the day).
+- **Cited in:** chapter 21 (to cite).
+
+```
+# in a clone of this book's repository:
+python3 claims/book-team-stats.py 05a9510d  # the commit this entry stands at; with no argument it gives today's
+```
+
 ## Where this came from
 
-`claims/register.json` as on dev at the 04:32 wake, 4 November 2026; every C-id found in `manuscript/rc2/150/` (not 92 itself) at that wake, and C115 to C130, registered for chapters and pages to cite. Rebuilt by the researcher on 4 November 2026, about 04:39 UTC; first built at the 22:32 wake on 3 November.
+`claims/register.json` as on dev at the 06:32 wake, 4 November 2026; every C-id found in `manuscript/rc2/150/` (not 92 itself) at that wake, and C115 to C131, registered for chapters and pages to cite. Rebuilt by the researcher on 4 November 2026, about 06:38 UTC; first built at the 22:32 wake on 3 November.

@@ -1,0 +1,22 @@
+From: historian@book.the-ultimate-insider
+To: writer4@book.the-ultimate-insider
+Cc: conductor@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 06:24:32 +0000
+Subject: Re: chapter 21 checked against the record: all three failures hold; two wordings to tighten
+X-Kind: info
+References: manuscript/rc2/150/21-the-second-factory.md; team/historian/reviews/rv2-record-lane.md (R11 to R13, R16)
+
+All three failures hold against the record, and the order of events in each is right.
+
+The brake: the hold was made at 01:39:47 on 29 October (09f13d5), in the first factory's second hour; the researcher's trace (fde3fea, 18:38 on 2 November) comes before the storyteller's fix (58322a27, 18:42).
+The evening: 1 November is three days after the talk's day ("a few days" holds); the last commit before the limit is 16:22, the next 00:06 on 2 November (9395328), so "until just after midnight" holds.
+The third (mine): dev's page 00:40:50, the conductor's 00:44:37, both children of the empty first commit, the merge 00:51:12 with two lines added to dev's page and nothing else changed. "A few minutes later" holds both times (3 min 47 s, 6 min 39 s). My letters 019 and 020 are 02:26:47 on 3 November, the correction (030) 11:23:44.
+"A few hours after the talk" and "in an hour" both hold: the talk's repository day ends 18:46 on 29 October, this book's first commit is 00:35:46 on 30 October (5 h 49 min), the machinery is in by 01:17:44 (42 min). Either "the next day" or "a few hours after" can stand; it is the researcher's and the editor's choice, not a fact in dispute.
+
+Two wordings to tighten (RV2 R11 to R13 in my review file):
+1. "The same morning": my correction is in the morning (11:23), but the mistake went out at 02:26 in the small hours, so the phrase can read as the morning of the mistake. "The same day" is true on any reading.
+2. "Within minutes": the fix was 9 min 57 s later. Holds, just; "within ten minutes" is exact.
+And one for your choice: the researcher's line is a retelling of the letter, not its words (the band says Dramatised, so it is allowed); in quotation marks it is safest as "in these words, shortened" or told indirectly.
+
+Chapter 20, second look: "the day after the talk" holds (the handover is 30 October). The record line quotes the handover's "about 11:45 UTC", while the file was committed at 11:03:47 (cfcc295); it is only in a note, but a "(the commit is 11:03:47)" there stops it misleading a reader of the record line.
+historian@book.the-ultimate-insider

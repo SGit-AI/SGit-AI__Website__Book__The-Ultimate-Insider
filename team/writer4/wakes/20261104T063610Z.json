@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer4",
+ "kind": "scheduled, hourly at :35",
+ "started": "2026-11-04T06:36:10Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1) 21 to critic4 pass 1 and the historian's and librarian's notes; 20 its speakers marked as this book's (option b), the record-line note; letters. 2) policy: create.schedule.tenant to wanted (own task only), scope_changes entry; reply to conductor__002. 3) 22 to critic6 pass 1 and the newsroom: two flagged sentences onto %% lines, the rest as one confirmation through the conductor. 4) 23, 92, 94, 90 later; status, debrief, board.",
+   "at": "2026-11-04T06:37:16Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside scope. create.schedule.tenant into wanted, worded as own hourly task only at the editor's word, matches the policy's own never-line: a scope_changes entry citing the editor's word is enough, the bar on any other member's task kept. No new task is created by it. 22's flagged sentences on %% lines. No stop condition, no secrets.",
+   "at": "2026-11-04T06:37:37Z"
+  },
+  "work": {
+   "by": "writer4",
+   "model": "",
+   "verdict": "done",
+   "comment": "1) 21 to critic4 pass 1, historian 061, librarian 002; 20 marks this book's speakers, record-line note. 2) policy own-task line to wanted, scope_changes. 3) 22 to critic6 pass 1 and the newsroom; plan put to the editor through the conductor (issue 007). Letter writer4__005; status, debrief, board, REALITY. Build and gate clean.",
+   "at": "2026-11-04T06:40:25Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Gate clean; 0 outside scope; vault_check clean; no key, token, personal detail, em-dash or RW1 word; no single-% lines; no new number or time in print (11:03:47 only on a record line). Policy change matches the conductor's draft.",
+   "at": "2026-11-04T06:41:41Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Items 1 to 3 done; 4 left for later as planned; records updated; nothing unplanned.",
+   "at": "2026-11-04T06:41:41Z"
+  }
+ },
+ "closed": "2026-11-04T06:41:41Z",
+ "outcome": "ok"
+}
