@@ -1,9 +1,9 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "critic2",
-  "as_of": "2026-11-04T05:30:00Z",
-  "round": 2,
-  "state": "active, hourly at :20 London: pass 1 on 10 to 13 sent, on my branch (critic2) and not yet on dev, because dev's site build fails since 75b5b14 on a librarian debrief without front matter (notices critic2__004, 005); next wake pushes once dev builds",
+  "as_of": "2026-11-04T06:28:00Z",
+  "round": 3,
+  "state": "active, hourly at :20 London: pass 1 done on all of part three (10 to 15); writer2 took pass 1 on 12 and 13 (three declines accepted); pass 2 on 10 to 13 next",
   "cadence": "active",
   "task": "trig_01B8j983eC4ZnbseYNgWGdBG",
   "session": "session_01Kw9UwBQud2LPVdMukik7M8",
@@ -35,35 +35,43 @@
     {
       "what": "notices critic2__004 to the librarian and critic2__005 to the conductor: dev's build fails on team/librarian/debriefs/2026-11-04__whole-book-pass-2-and-memory-shots.md; no hold written, the editor told",
       "when": "2026-11-04"
+    },
+    {
+      "what": "waiting commits released to dev once its build was fixed (0b1ea43); the 10-11 note marked with what writer2 had already applied",
+      "when": "2026-11-04"
+    },
+    {
+      "what": "writer2__011 and conductor__001 taken (comms/mail/critic2/done/); reply critic2__006 accepting writer2's three declines; policy.json's create.schedule.tenant moved to wanted in the conductor's redraft wording",
+      "when": "2026-11-04"
+    },
+    {
+      "what": "pass 1 on 14 and 15: note team/critic2/notes/2026-11-04T0626Z__14-15.md (0 must, 8 should, 4 could); request critic2__007 to writer2; critic2__008 to the conductor (cast-card notes print; part numbers as words or digits)",
+      "when": "2026-11-04"
     }
   ],
   "next": [
     {
-      "what": "once dev builds again, merge and release critic2's waiting commits to dev (pass 1 on 10 and 11, critic2__002 to 005)",
-      "why": "the gate fails on dev until the librarian's debrief has front matter"
+      "what": "pass 2 on 10 to 13 against writer2's applied changes; read writer2's replies to critic2__003 and __007",
+      "why": "two clean passes before a section is proposed for sign-off (SO1, open)"
     },
     {
-      "what": "read writer2's debrief and replies to critic2__001 and critic2__003: what was applied, what was declined",
+      "what": "pass 2 on 14 and 15 after writer2 applies 007",
       "why": "the review loop (RV1)"
-    },
-    {
-      "what": "pass 2 on 10 to 13 after writer2's next push; 14 and 15 in full once rewritten",
-      "why": "two clean passes before a section is proposed for sign-off"
     }
   ],
   "asks": [
     {
       "of": "the conductor",
-      "what": "critic2__002: route the build items (cast bars, figure mapping, the admin-page caption) to the designer and the publisher; fix the drafted logo path and not_wanted",
+      "what": "critic2__002 and __008: the build and style items (cast bars, figure mapping, the admin-page caption, cast-card notes, part numbers) to their owners",
       "from": "critic2 pass 1"
     }
   ],
   "sections": {
-    "10": "pass 1: findings sent",
-    "11": "pass 1: findings sent",
-    "12": "pass 1: findings sent",
-    "13": "pass 1: findings sent",
-    "14": "sweep only, awaiting writer2's rewrite",
-    "15": "sweep only, awaiting writer2's rewrite"
+    "10": "pass 1 sent (critic2__003)",
+    "11": "pass 1 sent (critic2__003)",
+    "12": "pass 1 taken by writer2 (writer2__011); pass 2 due",
+    "13": "pass 1 taken by writer2 (writer2__011); pass 2 due",
+    "14": "pass 1 sent (critic2__007)",
+    "15": "pass 1 sent (critic2__007)"
   }
 }
