@@ -1,9 +1,9 @@
 {
  "about": "The full book's printed pages checked for pages that may not look right (conductor__036). Written by review/tools/print_check.py: page numbers, chapter titles, counts and sizes only.",
  "edition": "rc2-150",
- "source": "a PDF given by hand (full.pdf, created Wed Nov  4 07:12:54 2026 UTC); its chapters are taken to be today's",
+ "source": "a PDF given by hand (full.pdf, created Wed Nov  4 08:11:06 2026 UTC); its chapters are taken to be today's",
  "pdf_pages": 137,
- "chapters_hash": "14d49201fcd1e630",
+ "chapters_hash": "04d253e8fc432e01",
  "thresholds": {
   "spill_fill_below": 0.25,
   "gap_fill_below": 0.7,
@@ -13,16 +13,17 @@
  "chapters_found": 29,
  "chapters": 29,
  "counts": {
-  "chapter_end_spill": 8,
-  "gap_page": 12
+  "chapter_end_spill": 6,
+  "gap_page": 14,
+  "figure_apart": 1
  },
  "flags": [
   {
    "kind": "chapter_end_spill",
    "page": 116,
    "chapter": "Principles, and build your own",
-   "lines": 1,
-   "fill": 0.02
+   "lines": 3,
+   "fill": 0.07
   },
   {
    "kind": "chapter_end_spill",
@@ -54,20 +55,6 @@
   },
   {
    "kind": "chapter_end_spill",
-   "page": 5,
-   "chapter": "Start here",
-   "lines": 4,
-   "fill": 0.16
-  },
-  {
-   "kind": "chapter_end_spill",
-   "page": 12,
-   "chapter": "Slides as a compromise",
-   "lines": 7,
-   "fill": 0.21
-  },
-  {
-   "kind": "chapter_end_spill",
    "page": 134,
    "chapter": "Appendix B: the control register",
    "lines": 12,
@@ -77,9 +64,18 @@
    "kind": "gap_page",
    "page": 76,
    "chapter": "Port, not rebuild",
-   "fill": 0.33,
-   "lines": 8,
+   "fill": 0.27,
+   "lines": 5,
    "raster_figure_here": false,
+   "borderline": false
+  },
+  {
+   "kind": "gap_page",
+   "page": 20,
+   "chapter": "The tour: what a factory made in a day",
+   "fill": 0.42,
+   "lines": 4,
+   "raster_figure_here": true,
    "borderline": false
   },
   {
@@ -97,6 +93,24 @@
    "chapter": "Hour three: the five steps, and the first to be caught",
    "fill": 0.55,
    "lines": 23,
+   "raster_figure_here": false,
+   "borderline": false
+  },
+  {
+   "kind": "gap_page",
+   "page": 106,
+   "chapter": "The second factory",
+   "fill": 0.56,
+   "lines": 21,
+   "raster_figure_here": false,
+   "borderline": false
+  },
+  {
+   "kind": "gap_page",
+   "page": 44,
+   "chapter": "Hours four and five: before dawn",
+   "fill": 0.58,
+   "lines": 20,
    "raster_figure_here": false,
    "borderline": false
   },
@@ -120,19 +134,19 @@
   },
   {
    "kind": "gap_page",
-   "page": 44,
-   "chapter": "Hours four and five: before dawn",
+   "page": 62,
+   "chapter": "The plumbing",
    "fill": 0.6,
-   "lines": 21,
+   "lines": 30,
    "raster_figure_here": false,
    "borderline": false
   },
   {
    "kind": "gap_page",
-   "page": 67,
-   "chapter": "The creator comes back",
-   "fill": 0.64,
-   "lines": 25,
+   "page": 48,
+   "chapter": "Hours four and five: before dawn",
+   "fill": 0.61,
+   "lines": 14,
    "raster_figure_here": false,
    "borderline": false
   },
@@ -147,15 +161,6 @@
   },
   {
    "kind": "gap_page",
-   "page": 48,
-   "chapter": "Hours four and five: before dawn",
-   "fill": 0.67,
-   "lines": 16,
-   "raster_figure_here": false,
-   "borderline": true
-  },
-  {
-   "kind": "gap_page",
    "page": 92,
    "chapter": "How do we contain this",
    "fill": 0.67,
@@ -165,7 +170,7 @@
   },
   {
    "kind": "gap_page",
-   "page": 14,
+   "page": 13,
    "chapter": "Inventing on principle",
    "fill": 0.69,
    "lines": 15,
@@ -180,79 +185,74 @@
    "lines": 24,
    "raster_figure_here": false,
    "borderline": true
+  },
+  {
+   "kind": "figure_apart",
+   "page": 109,
+   "chapter": "The second factory",
+   "intro_page": 108,
+   "pages_apart": 1
   }
  ],
  "raster_figures_over_45_percent_on_pages": [],
  "figures": {
   "figure_lines": 105,
   "introduced_by_a_heading": 26,
-  "heading_checked": 25,
-  "heading_page_not_found": 1,
+  "heading_checked": 26,
+  "heading_page_not_found": 0,
   "begin_on_a_later_page_than_their_heading": 0,
   "with_a_paragraph_before_them_in_the_section": 79,
   "not_found": 0,
-  "begin_on_a_later_page_than_that_paragraph_ends": 0
+  "begin_on_a_later_page_than_that_paragraph_ends": 1
  },
  "since_last": {
   "previous_pdf_pages": 137,
   "previous_counts": {
-   "chapter_end_spill": 6,
+   "chapter_end_spill": 8,
    "gap_page": 12
   },
   "fixed": [
    {
     "kind": "chapter_end_spill",
-    "chapter": "Hour two: the rules written",
+    "chapter": "Start here",
     "before": 1,
     "now": 0
    },
    {
-    "kind": "gap_page",
+    "kind": "chapter_end_spill",
     "chapter": "Slides as a compromise",
     "before": 1,
     "now": 0
    },
    {
     "kind": "gap_page",
-    "chapter": "The tour, at length",
-    "before": 5,
-    "now": 3
+    "chapter": "The creator comes back",
+    "before": 1,
+    "now": 0
    }
   ],
   "new": [
    {
-    "kind": "chapter_end_spill",
-    "chapter": "Roles as a cast you can read",
+    "kind": "gap_page",
+    "chapter": "The tour: what a factory made in a day",
     "before": 0,
     "now": 1
    },
    {
-    "kind": "chapter_end_spill",
+    "kind": "gap_page",
+    "chapter": "The second factory",
+    "before": 0,
+    "now": 1
+   },
+   {
+    "kind": "gap_page",
     "chapter": "The plumbing",
     "before": 0,
     "now": 1
    },
    {
-    "kind": "chapter_end_spill",
-    "chapter": "Slides as a compromise",
-    "before": 0,
-    "now": 1
-   },
-   {
-    "kind": "gap_page",
-    "chapter": "Roles as a cast you can read",
-    "before": 0,
-    "now": 1
-   },
-   {
-    "kind": "gap_page",
-    "chapter": "Sessions end",
-    "before": 0,
-    "now": 1
-   },
-   {
-    "kind": "gap_page",
-    "chapter": "Inventing on principle",
+    "kind": "figure_apart",
+    "chapter": "The second factory",
     "before": 0,
     "now": 1
    }
@@ -272,13 +272,19 @@
    },
    {
     "kind": "chapter_end_spill",
-    "chapter": "How do we contain this",
+    "chapter": "Roles as a cast you can read",
     "before": 1,
     "now": 1
    },
    {
     "kind": "chapter_end_spill",
-    "chapter": "Start here",
+    "chapter": "The plumbing",
+    "before": 1,
+    "now": 1
+   },
+   {
+    "kind": "chapter_end_spill",
+    "chapter": "How do we contain this",
     "before": 1,
     "now": 1
    },
@@ -296,6 +302,12 @@
    },
    {
     "kind": "gap_page",
+    "chapter": "Roles as a cast you can read",
+    "before": 1,
+    "now": 1
+   },
+   {
+    "kind": "gap_page",
     "chapter": "Hour three: the five steps, and the first to be caught",
     "before": 1,
     "now": 1
@@ -308,7 +320,13 @@
    },
    {
     "kind": "gap_page",
-    "chapter": "The creator comes back",
+    "chapter": "The tour, at length",
+    "before": 3,
+    "now": 3
+   },
+   {
+    "kind": "gap_page",
+    "chapter": "Sessions end",
     "before": 1,
     "now": 1
    },
@@ -317,16 +335,22 @@
     "chapter": "How do we contain this",
     "before": 1,
     "now": 1
+   },
+   {
+    "kind": "gap_page",
+    "chapter": "Inventing on principle",
+    "before": 1,
+    "now": 1
    }
   ]
  },
  "cannot_tell": [
   "whether a gap or a short page is meant (a divider, an opener, a page left to a drawing): it measures how far the content reaches",
-  "0 of 105 figure lines could not be found by their printed caption; 26 sit straight under a heading (1 of them with the page of the heading not found, not checked), which counts as what introduces them; for the rest it finds where the caption begins, not whether the drawing under it is on the same page",
+  "0 of 105 figure lines could not be found by their printed caption; 26 sit straight under a heading (0 of them with the page of the heading not found, not checked), which counts as what introduces them; for the rest it finds where the caption begins, not whether the drawing under it is on the same page",
   "how a page looks beyond how far its content reaches"
  ],
  "paragraphs_found_on_a_page": {
-  "found": 813,
-  "of": 813
+  "found": 820,
+  "of": 830
  }
 }
