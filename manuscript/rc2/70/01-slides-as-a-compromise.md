@@ -50,11 +50,11 @@
 
 **Narrator.** The page did the explaining there too. The room saw a real policy page, not my description of one.
 
-**Figure:** the policy review page as it was on the screen: one agent's policy, item by item, with a verdict beside each (`index/talk-site/shots/studio-ports__abp-review.jpg`). One line on the page says I had agreed all ten policies by 17:40; the files say eight of ten by the end of the day.
+**Figure:** the policy review page as it was on the screen: one agent's policy, item by item, with a verdict beside each (`index/talk-site/shots/studio-ports__abp-review__masked.jpg`). One line on the page says I had agreed all ten policies by 17:40; the files say eight of ten by the end of the day.
 
 `%% record: C072 (eight of ten agreed) C081 (the page's "all ten" contradicted by the files); security__006 (the QR opens a public page of the talk's site)`
 
-`%% figure brief: The talk's own page, from the librarian's screenshot index/talk-site/shots/studio-ports__abp-review.jpg, if the build's rule for screenshots allows it.`
+`%% figure brief: The talk's own page, from the librarian's screenshot index/talk-site/shots/studio-ports__abp-review__masked.jpg, if the build's rule for screenshots allows it.`
 
 `%% record: C109 (58:53 on the recording; quoted to "mandate.": the passage goes on to say every agent's scope was defined, and by the end of the day 8 of 10 policies were agreed, C072) a9c0b49 studio-ports/abp-review/`
 Band: *My own words, from the transcript of the talk at 58:53 on the recording's clock (added after the day).*

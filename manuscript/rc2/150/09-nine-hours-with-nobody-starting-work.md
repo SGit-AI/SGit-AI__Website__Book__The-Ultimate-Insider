@@ -21,7 +21,7 @@
 
 `%% clock record: 05:00 to 05:59 on 29 October; commits, not counting merges, 20 (C095, hour 05); wakes all scheduled (C087); clock hours of 29 October (C110; the conductor's CK1).`
 
-**Narrator.** Hour six is the first hour in which every wake in the record was started by the schedule, and not one by me. Each member woke at its own minute, took the next thing from its own list of work, had it reviewed, and closed. In that hour the conductor set the pace and wrote the third edition of its night log, deck sent ruv-sgit its second experiment and had it back within the hour, and the designer wrote a third note, and dev built the designer's first.
+**Narrator.** Hour six is the first hour in which every wake in the record was started by the schedule, and not one by me. Each member woke at its own minute, took the next thing from its own list of work, had it reviewed, and closed. In that hour the conductor, which keeps the team's time, set the pace and wrote the third edition of its night log. Deck, which keeps the talk's slides, sent its second experiment to ruv-sgit, the workshop that makes the animations, and had it back within the hour. The designer, which writes notes on how the pages look, wrote a third, and dev, which builds them, built the designer's first.
 
 **Narrator.** One wake closed partial, and said so. The researcher's scheduled wake had a slice of studio data to write up, and got only part of it written; it corrected one public case from the company's own account along the way. Its last check marked the wake partial, and the next wake picked up the rest.
 
@@ -31,7 +31,7 @@
 
 `%% for the editor (his view, held out of print until he confirms it, P30): the writer's "and it is the thing I would look for first in any team I had left alone", after "That is a small thing".`
 
-**Narrator.** The hour holds one more sign of the schedule working. The designer's first note, written before dawn, was built by dev through the conductor's schedule: set for dev's session in hour five, it landed in the one in hour six. A request not picked up at one session is picked up at the next. Nobody chased it.
+**Narrator.** The hour holds one more sign of the schedule working. The designer's first note, written before dawn, was built by dev through the conductor's schedule: set for dev's session in hour five, it landed in the one in hour six. A request not picked up at one session is picked up at the next.
 
 `%% record: the designer's note at 03:41, built at 05:51; timeline/day/05.md (and "What the hour shows") 65482b3 team/researcher/wakes/20261029T051108Z.json (post_check: partial) c7d0ef8 7e5fd3b 130d6c3 23fde17 39a0e20 95d1f66 C087`
 `%% band: Dramatised (the researcher's line). Rests on its wake of 05:11 and the hour's commits.`
@@ -106,7 +106,7 @@
 `%% band: Dramatised (deck's line). Rests on deck's wake of 08:18 and ruv-sgit's commits from 08:43.`
 *Dramatised.*
 
-## Hours ten and eleven: a promise kept with nobody chasing it
+## Hours ten and eleven: a promise kept
 
 **Clock:** Hours ten and eleven.
 
@@ -163,7 +163,7 @@
 
 **Narrator.** Hour fourteen began like the others. Dev drew the conductor's pace file as a flow and said its own work step was partial. The conductor's brief for every pre-review now named the files a member holds, not only the files it may write.
 
-**Narrator.** Then, late in the hour, the first idle wake of its kind. ruv-sgit woke at its minute, looked in its mailroom, and found nothing. No request. It closed idle and said so.
+**Narrator.** Then, late in the hour, the first idle wake caused by an empty queue. ruv-sgit woke at its minute, looked in its mailroom, and found nothing. No request. It closed idle and said so.
 
 **ruv-sgit** *(looking up from an empty bench)*: Nothing in the mailroom. Everything I made is waiting on him.
 
