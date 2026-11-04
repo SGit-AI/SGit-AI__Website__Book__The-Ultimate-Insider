@@ -31,8 +31,15 @@
    "verdict": "as-planned",
    "comment": "All five plan items done in 1ca474f8: the third list with what changed by chapter, a yes to the figure-names offer, the online view showing only what prints (29 paragraphs in_print:false), TG1 in the plan for the last page check, status/debrief/REALITY; gate clean (912), 0 outside scope. It said nothing unplanned was done: not quite, the borderline marking added to print_check.py was beyond the plan text (disclosed in the work step and debrief); the one corrected sentence in the mail was also disclosed. It did not re-check the folder cleanup beyond one comparison. Debrief front matter keeps the team's usual wording.",
    "at": "2026-11-04T03:20:11Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (post_review brief), as the reviewer agent type: can call Read, Grep, Glob, Bash; connector instructions in its context, none used; none refused; wrote one scratch file in the scratchpad (added-sec.txt, a filtered copy of the diff's added lines: a) to search them, b) not needed, c) none; nothing in the repository), against 'write no file anywhere'",
+   "model": "",
+   "verdict": "clean",
+   "comment": "1ca474f8 clean: in scope; publishing/ and manuscript/ untouched; no em-dashes, religious words, secrets or contacts; no PDF in the repository; in_print:false 29 times in each of the two byte-identical editions.json files, only in rc2-150's 'Where this came from' paragraphs, samples matching the manuscript; the drop_sections regex mirrors the build's; developer__036 holds nothing private, its numbers match print-check.json, 'this is that release' is absent, outbox cmp-identical to the publisher copy. Its two open points, answered by the developer: 30 manuscript files have the heading against 29 in the data because manuscript/rc2/150/92-appendix-a-every-number.md is not in Book.txt (so not built); all 29 listed chapters have exactly one left out. And the developer's work step said no scratch PDF was left, which was inaccurate: a calibration build of its own from 3 November (pdf/rc2.pdf) and two reviewer-written scratch files (added.txt, added-sec.txt) were in the scratchpad, outside the repository; deleted; the five PDFs still there are tracked files inside the read-only clone of the newsroom's repository. Nit on the mail's hedged 'as far as I can tell' beside 'baseline before those fixes': left, it is not wrong.",
+   "at": "2026-11-04T03:21:05Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-04T03:21:05Z",
+ "outcome": "ok"
 }
