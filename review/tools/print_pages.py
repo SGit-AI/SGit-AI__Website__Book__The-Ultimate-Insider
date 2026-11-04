@@ -21,6 +21,7 @@ BUILDS = {   # as release.yml: its book list, its name and its stamp
     'rc2-70': (None, 'one-human-nine-agents-rc2-70-draft', 'One Human, Nine Agents, Nineteen Hours: RC2, the 70-page edition, DRAFT IN REVIEW'),
     'rc2-150': (None, 'one-human-nine-agents-rc2-full-draft', 'One Human, Nine Agents, Nineteen Hours: RC2, the full book, DRAFT IN REVIEW'),
 }
+MIN_FOUND = 0.6                                                       # share of findable paragraphs that must be found for a map to be written
 norm = lambda t: re.sub(r'[^a-z0-9]+', ' ', t.lower()).strip()
 
 
@@ -59,10 +60,13 @@ def read_pdf(pdf):
     return n, [norm(subprocess.run(['pdftotext', '-f', str(i), '-l', str(i), str(pdf), '-'], capture_output=True, text=True).stdout) for i in range(1, n + 1)]
 
 
-def map_paragraphs(chapters, pages):
+def map_paragraphs(chapters, pages, window=8):
     """Each anchored paragraph's printed page (by six words from its start, or a little further in); a figure or clock line, a
-    rule or a paragraph not found takes the page before. -> ({anchor: page}, found, carried)"""
-    n, where, last, found, carried = len(pages), {}, 1, 0, 0
+    rule or a paragraph not found takes the page before. The search runs on from the last page found but only `window` pages
+    ahead: paragraphs run in order, so a phrase repeated far ahead (the tour at length repeats the tour) must not carry the search
+    off and strand every paragraph after it (found on 4 November: 81 of 1019 found, then 871 once bounded).
+    -> ({anchor: page}, found, carried, findable) where findable counts the paragraphs that have words a page could hold."""
+    n, where, last, found, carried, findable = len(pages), {}, 1, 0, 0, 0
     for c in chapters:
         for sc in c['scenes']:
             for p in sc['paragraphs']:
@@ -71,13 +75,14 @@ def map_paragraphs(chapters, pages):
                 if not re.match(r'(Figure|Clock):', t) and norm(t):
                     w = norm(re.sub(r'^[\w-]+(\s\([^)]*\))?[.:]\s+', '', t)).split()    # without a speaker's label
                     keys = [' '.join(w[i:i + 6]) for i in (0, 6, 12) if len(w) >= i + 6] or [' '.join(w)]
-                    hit = next((i + 1 for i in range(last - 1, n) if any(k and k in pages[i] for k in keys)), None)
+                    findable += 1
+                    hit = next((i + 1 for i in range(last - 1, min(n, last + window)) if any(k and k in pages[i] for k in keys)), None)
                 if hit:
                     found, last = found + 1, hit
                 else:
                     carried += 1
                 where[p['id']] = hit or last
-    return where, found, carried
+    return where, found, carried, findable
 
 
 def main(only):
@@ -96,7 +101,10 @@ def main(only):
                 print(f'{slug}: the PDF did not build; its page view stays by scene', file=sys.stderr)
                 continue
             n, pages = read_pdf(pdf)
-            where, found, carried = map_paragraphs(data[slug]['chapters'], pages)
+            where, found, carried, findable = map_paragraphs(data[slug]['chapters'], pages)
+            if findable and found < MIN_FOUND * findable:                # a map this poor would put most paragraphs on the wrong page: keep the old one (or none), so the view falls back to scenes
+                print(f'{slug}: only {found} of {findable} paragraphs found on a page; the map is NOT written and its page view stays by scene', file=sys.stderr)
+                continue
             out['editions'][slug] = {'pdf_pages': n, 'chapters_hash': chapters_hash(files), 'found': found, 'carried': carried, 'pages': where}
             print(f'{slug}: {n} printed pages; {found} paragraphs found on their page, {carried} take the page before')
     finally:

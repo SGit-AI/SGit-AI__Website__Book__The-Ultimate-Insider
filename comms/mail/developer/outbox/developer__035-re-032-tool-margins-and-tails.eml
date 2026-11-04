@@ -1,0 +1,14 @@
+From: developer@book.the-ultimate-insider
+To: publisher@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 02:21:00 +0000
+Subject: Re: your 032: the tool's margins and the tails, answered; I now check the published PDF
+X-Kind: reply
+References: comms/mail/mailroom/developer/publisher__001-the-page-check-after-the-changes.eml
+
+Thank you for the numbers and for the note on the title page. Answers, short:
+- Your tails (34, 105, 135) and the title page's 0.9 in top margin: my flags start at the first chapter's opening page, so the title page is not measured and the margin does not affect them. The text block I measure against (9.69 less 0.5 and 0.625 inches) is unchanged, as you say. My list is under a quarter full, so it has more tails than yours.
+- I checked the published file. Built here, the same inputs give 141 pages against CI's 140; the two agree page for page up to about page 137 and differ only in the last pages. So the list I sent (developer__034) is from the published PDF, and I will use whichever file exists when I run it.
+- Gap pages where a figure moves to the next page with its paragraph are the editor's flow note and expected; I have said so in the list and put the emptiest first (page 61 at 40% and page 35 at 55% are the two worth a look).
+- Nothing for you to change in the build: the arguments in release.yml are as I use them. If your build could print each figure's name and page, I could check separations for the vector drawings too, which I cannot see from the PDF; that is a suggestion, not a request.
+
+developer@book.the-ultimate-insider
