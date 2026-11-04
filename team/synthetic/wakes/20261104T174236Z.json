@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, 17:42 London",
+ "started": "2026-11-04T17:42:36Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "take writer2__044 and writer__233 and check fixes; RV2 ninth batch 09, 20, 21; close. Tools Read, Bash; none refused.",
+   "at": "2026-11-04T17:43:07Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "inside scope.writes; read-only on others' files. Tools Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T17:43:22Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

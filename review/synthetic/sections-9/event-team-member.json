@@ -1,0 +1,36 @@
+{
+ "schema": "the-ultimate-insider/synthetic-section-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "event-team-member",
+ "read_at": "45049878",
+ "would_read_on": {
+  "09-nine-hours-with-nobody-starting-work": "maybe",
+  "20-sessions-end": "yes",
+  "21-the-second-factory": "yes"
+ },
+ "findings": [
+  {"file": "09-nine-hours-with-nobody-starting-work.md", "line": 24, "quote": "The designer wrote a third note. Dev built the designer's first.", "principle": "7", "severity": "should", "why": "A run of short sentences naming six agents and their hand-offs reads as a list, and I cannot tell who is who yet."},
+  {"file": "09-nine-hours-with-nobody-starting-work.md", "line": 24, "quote": "Each member woke at its own minute, did one step of its queue with its reviews, and closed.", "principle": "reader", "severity": "should", "why": "'Wake', 'queue', 'reviews' and 'its minute' are used as known terms; as a team member skimming on a phone I need one plain line on what a wake is."},
+  {"file": "09-nine-hours-with-nobody-starting-work.md", "line": 34, "quote": "A request not picked up at one session is picked up at the next. Nobody chasing it.", "principle": "21", "severity": "should", "why": "The same 'asked at one session, answered at the next, nobody chased it' point is made again at lines 123 and 180."},
+  {"file": "09-nine-hours-with-nobody-starting-work.md", "line": 71, "quote": "Three rounds, one picture, and I started none of them.", "principle": "21", "severity": "could", "why": "The three rounds are told in the paragraph, drawn in the figure and summed up again at line 180."},
+  {"file": "09-nine-hours-with-nobody-starting-work.md", "line": 149, "quote": "Hours of work nobody started, and what it had produced was a queue only I could clear.", "principle": "21", "severity": "should", "why": "The queue at one door is said here, in the hour-fourteen scene, and again in the closing summary at line 180."},
+  {"file": "09-nine-hours-with-nobody-starting-work.md", "line": 180, "quote": "Every wake started by the clock. Every wake with its five stages.", "principle": "7", "severity": "should", "why": "The closing paragraph is a run of fragments that recaps the whole chapter in a list, which a hurried reader will skip."},
+  {"file": "09-nine-hours-with-nobody-starting-work.md", "line": 164, "quote": "looked in its mailroom, and found nothing", "principle": "reader", "severity": "could", "why": "The mailroom is not explained here, and for my own team it is the thing I most want to understand (how requests reach an agent)."},
+  {"file": "20-sessions-end.md", "line": 13, "quote": "The team is temporary. The record is not.", "principle": "7", "severity": "could", "why": "Two short declaratives in the manner of a slogan; the thought could run as one sentence."},
+  {"file": "20-sessions-end.md", "line": 39, "quote": "This is this book's conductor, not the talk's, and this book's storyteller and researcher too", "principle": "reader", "severity": "should", "why": "I stall on whose conductor is whose, with three teams in play; and it then says I meet the team 'properly in the next chapter', which sends me away mid-scene."},
+  {"file": "20-sessions-end.md", "line": 65, "quote": "Then a line about the old session, which I leave out here.", "principle": "21", "severity": "could", "why": "The omitted line is announced at line 63 and again here."},
+  {"file": "20-sessions-end.md", "line": 45, "quote": "It tells the new session who it was, where its files are, what it was in the middle of", "principle": "21", "severity": "should", "why": "This summary of the handover's contents is then walked through section by section from line 65, so the content is told twice."},
+  {"file": "20-sessions-end.md", "line": 101, "quote": "Writing the handover you would want today is a good test of yours.", "principle": "6", "severity": "could", "why": "It is an instruction to the reader that also grades their own handover; an invitation would sit better."},
+  {"file": "21-the-second-factory.md", "line": 17, "quote": "Hey, I'm this book's conductor.", "principle": "21", "severity": "should", "why": "Twelve self-introductions open the same way, and a table of the same members follows, so the cast is told in three forms."},
+  {"file": "21-the-second-factory.md", "line": 62, "quote": "You do not need all of these to start.", "principle": "6", "severity": "could", "why": "It tells me what I need, and is the sentence my team most wants answered (how many agents to begin with), but it gives no answer in the printed text."},
+  {"file": "21-the-second-factory.md", "line": 116, "quote": "The order of the times was right. The order of the work was not.", "principle": "reader", "severity": "should", "why": "The historian's paragraph on dev's page of rules and parent commits is dense with repository detail I cannot follow without knowing what a merge or parent is; the lesson at line 118 repeats it."}
+ ],
+ "what_holds": [
+  "09-nine-hours-with-nobody-starting-work.md: the partial wake that says it is partial (lines 26-30) is exactly the habit I would want from my own agent, and it is concrete.",
+  "09-nine-hours-with-nobody-starting-work.md: the empty queue and the maker with nothing to make (lines 164-168) is a clear picture of a bottleneck on the person.",
+  "20-sessions-end.md: a session is not a member, and the role lives in files not in the run (lines 24-30), answers my question about agents that forget.",
+  "20-sessions-end.md: the walk through a real handover's headings (lines 65-73) is something I could copy on Monday.",
+  "21-the-second-factory.md: the failures kept, especially the usage limit evening (lines 96-102), are honest and show a rule failing and being reported."
+ ],
+ "notes": "As a conference team member the question I carry is whether each of us could run with our own agent before the event; the three sections give me the handover shape and the failure habits, but chapter 9 asks me to follow nine hours of agents I have not yet met, and I would skim it on a phone."
+}
