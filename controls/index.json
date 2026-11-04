@@ -461,6 +461,11 @@
     "control": "C4",
     "what": "writer3's key (published at 096c921a, 4 November): public halves only, consistent with its session and publishing commit; its key.png holds that public key alone. Every member now on the team has a checked key",
     "wake": "team/security/wakes/20261104T102520Z.json"
+   },
+   {
+    "control": "C6",
+    "what": "the online-view builder for the full book ran its address guard after writing its pages, so a refused build at 12:25 on 4 November (76448c34) had already written one page (Appendix A, public register addresses as text, no links), which went out; found by the developer's own post-review, said plainly (developer__049), and fixed at about 13:26 (5f688446) so pages are placed only after every guard passes",
+    "wake": "team/security/wakes/20261104T172449Z.json"
    }
   ],
   "tool_cases": {
