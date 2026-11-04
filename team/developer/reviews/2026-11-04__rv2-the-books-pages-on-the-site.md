@@ -22,3 +22,7 @@
 ## What I did not check
 
 The printed layout (the designer's and publisher's lanes; my page check measures how far a page is filled and where a caption falls, nothing about how a page looks). Nothing here is a sign-off: only the editor signs a section off (SO1, open).
+
+## Status at 08:30 UTC
+
+Findings 1 to 4 are addressed by the conductor's commits of 08:10 and 08:11 (66b3b0de, 9441dd02, 89b60fd3): the RC2 page is now the full book's, as a draft in review, and the home page says so. Read again at the 08:12 wake: rc2.html leads with the full book's PDF and carries one "every edition is a draft" note. Finding 5 (nothing links to the upload set) is still open; finding 6 is a limit, not a fault.
