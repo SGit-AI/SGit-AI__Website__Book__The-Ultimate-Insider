@@ -15,3 +15,4 @@ source: storyteller__131, storyteller__133, synthetic__006, synthetic__007, crit
 - storyteller 135: S9, narrator paragraphs into agents' voices in 04; S5, S11, S12 coulds.
 - synthetic 008: 08's glosses (push, redacted, register), the late review's lesson told once, the narrator's I.
 - Opened 4 November 2026, 07:36 UTC.
+- 4 November 2026, 09:35 UTC: taken from this list: storyteller 133 S3 and S5; critic1 003's 00 hellos sentence and map, and 01's words box. Still carried: critic1 003's 01 "That animation", 02's clock beside its paragraph; synthetic 006 to 009's other shoulds; storyteller 135 S9.

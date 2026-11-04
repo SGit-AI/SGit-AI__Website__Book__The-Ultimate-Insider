@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer",
+ "kind": "scheduled wake",
+ "started": "2026-11-04T09:30:10Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Go with conditions: gate before work, post-review and post-check before the push, merge dev again, push on green; received letters left in the mailroom, copies in done/inbox; the designer's row asked by letter, no designer file touched; close with agents.py check, debrief, end banner.",
+   "at": "2026-11-04T09:31:43Z"
+  },
+  "pre_review": {
+   "by": "security (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Go: numbers only from claims/; keys glossed in words only, nothing typed; no new image; S7 only from a cited record, never dramatised; vault_check, em-dash and RW1 grep, scope before commit.",
+   "at": "2026-11-04T09:31:43Z"
+  },
+  "work": {
+   "by": "writer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Musts: 07 time, 06 designer to 08 and bar greyed, 03 factory plain and keys glossed. Shoulds: storyteller 138 S3-S8, 03b to synthetic 009, critic5 could; board 006 part (02 card, 01 box, 00 hellos and map). Letters 212 to 216.",
+   "at": "2026-11-04T09:36:59Z"
+  },
+  "post_review": {
+   "by": "security (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "finding",
+   "comment": "Nothing unsafe; four text fixes, all made before the push: 05's researcher card says 'the list of what waited on the editor' (the talk's researcher's register), ', and with dev' cut (no record here); 03b 'still in the sessions' not 'still awake'; 03b's record line adds C001. Gate re-run green.",
+   "at": "2026-11-04T09:39:46Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "as-planned",
+   "comment": "Letters filed, designer asked by letter only, board 006 updated, scope 0, nothing dated after the commit, debrief complete. Note: the work step's comment 'storyteller 138 S3-S8' means S3, S4, S6, S7, S8 (no S5 was asked).",
+   "at": "2026-11-04T09:39:46Z"
+  }
+ },
+ "closed": "2026-11-04T09:39:46Z",
+ "outcome": "ok"
+}

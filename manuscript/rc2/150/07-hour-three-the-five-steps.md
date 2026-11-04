@@ -92,7 +92,7 @@
 
 **Narrator.** One more thing happened in this hour, and it was mine.
 
-**Narrator.** The researcher had delivered its first round of evidence at ten past two: the talk's claims graded, the incidents gathered, and a list of changes to make to the talk before I gave it. Deck took the first items on it. Then, in deck's session, I froze the talk. My words, as deck wrote them down:
+**Narrator.** The researcher had delivered its first round of evidence earlier in the hour: the talk's claims graded, the incidents gathered, and a list of changes to make to the talk before I gave it. Deck took the first items on it. Then, in deck's session, I froze the talk. My words, as deck wrote them down:
 
 > "do not touch the deck. talk.json and the slides are frozen from now on" *(record)*
 

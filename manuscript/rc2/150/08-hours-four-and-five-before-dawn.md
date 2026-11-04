@@ -82,6 +82,12 @@
 
 *On stage from 03:41. Commits: 19. Wakes: 19.*
 
+**Designer**: One folder, mine. I prefer it that way: every line I draw has a second pair of eyes. At my next wake I check what was built: as designed, or what to fix.
+
+**Narrator.** The designer's scope is the smallest on the team: its own folder, nothing else. Every change it wanted went through someone else's hands. That slowed it down, and it also meant every design change had two readers.
+
+`%% record: talk repository at 298be4e: team/designer/ROLE.md team/designer/policy.json (moved here from chapter 6, storyteller__138 S1)`
+
 **Narrator.** Just after four I asked for one more wake, in the designer's session, and agreed its policy. That commit is my last word of the night. The next is early in the afternoon. The record does not say where I went. What matters is what happened while I was gone.
 
 `%% for the editor (his view, held out of print until he confirms it, P30): the writer's "and I am not going to tell you either: it does not matter" after "where I went". The thirty says only "The record does not say where I went."`

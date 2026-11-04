@@ -4,8 +4,6 @@
 
 ## The old way
 
-*Words on this page:* an **agent**, here, is an AI that works in a loop: it reads, decides, acts with tools, and checks the result. The **player** is the part of the talk's site that let me press play on stage.
-
 **Narrator.** I have been trying to present better for a long time. My slides were always a compromise. I usually read my talks, with the slides behind me as a backdrop, and I knew they could not do what I needed. They do not move, and they do not answer back. So I spent my talks explaining what the slides could not show: this goes from here to there, this grows, this breaks. The room had to imagine the movement in their heads while I described it. I talked over my own pictures.
 
 **Narrator.** And I always wrote my slides in the last hours or days before a talk, because that is when my thinking came together and my flow arrived. So for years I kept building tools to present with, chasing one thing: a feedback loop while I was still creating, so I could see the idea move, fix it, and see it again before I stood up.
@@ -13,6 +11,8 @@
 **Narrator.** For this talk it worked. I had been working with agentic workflows for a while, and the moment lined up. It was one of those loops I would have stopped before. This time I saw it working, and I kept going.
 
 **Narrator.** The talk before this one, built for ruv.sgit.ai, had come out well and given me the confidence to try. And a lot of the technology this talk ran on was first built there: the player I pressed play on, and the first pieces the team ported into this talk, came from ruv.sgit.ai.
+
+*Words on this page:* an **agent**, here, is an AI that works in a loop: it reads, decides, acts with tools, and checks the result. The **player** is the part of the talk's site that let me press play on stage.
 
 `%% for the editor: the four paragraphs above tell his account of 4 November (brief 04) in his voice, with the continuum from the record.`
 
