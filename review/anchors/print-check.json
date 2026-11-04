@@ -1,20 +1,20 @@
 {
  "about": "The full book's printed pages checked for pages that may not look right (conductor__036). Written by review/tools/print_check.py: page numbers, chapter titles, counts and sizes only.",
  "edition": "rc2-150",
- "source": "a PDF given by hand (full.pdf, created Wed Nov  4 02:17:13 2026 UTC); its chapters are taken to be today's",
+ "source": "a PDF given by hand (full.pdf, created Wed Nov  4 03:11:49 2026 UTC); its chapters are taken to be today's",
  "pdf_pages": 140,
- "chapters_hash": "6d8f84d05b828d43",
+ "chapters_hash": "72bcc4f6b33380b6",
  "thresholds": {
   "spill_fill_below": 0.25,
   "gap_fill_below": 0.7,
   "tall_figure_share": 0.45,
   "figure_inches_at_least": 1.0
  },
- "chapters_found": 28,
- "chapters": 28,
+ "chapters_found": 29,
+ "chapters": 29,
  "counts": {
-  "chapter_end_spill": 8,
-  "gap_page": 5,
+  "chapter_end_spill": 9,
+  "gap_page": 11,
   "figure_apart": 3
  },
  "flags": [
@@ -34,37 +34,44 @@
   },
   {
    "kind": "chapter_end_spill",
-   "page": 57,
+   "page": 59,
    "chapter": "Talking through git",
-   "lines": 4,
+   "lines": 3,
    "fill": 0.14
   },
   {
    "kind": "chapter_end_spill",
-   "page": 104,
-   "chapter": "Sessions end",
+   "page": 5,
+   "chapter": "Start here",
+   "lines": 4,
+   "fill": 0.16
+  },
+  {
+   "kind": "chapter_end_spill",
+   "page": 28,
+   "chapter": "Hour two: the rules written",
    "lines": 5,
    "fill": 0.16
   },
   {
    "kind": "chapter_end_spill",
-   "page": 68,
-   "chapter": "The creator comes back",
-   "lines": 5,
-   "fill": 0.17
+   "page": 96,
+   "chapter": "How do we contain this",
+   "lines": 4,
+   "fill": 0.16
   },
   {
    "kind": "chapter_end_spill",
-   "page": 33,
-   "chapter": "Roles as a cast you can read",
-   "lines": 6,
-   "fill": 0.18
-  },
-  {
-   "kind": "chapter_end_spill",
-   "page": 39,
-   "chapter": "Hour three: the five steps, and the first to be caught",
+   "page": 16,
+   "chapter": "Inventing on principle",
    "lines": 8,
+   "fill": 0.22
+  },
+  {
+   "kind": "chapter_end_spill",
+   "page": 100,
+   "chapter": "A second team, reading cold",
+   "lines": 5,
    "fill": 0.22
   },
   {
@@ -76,63 +83,122 @@
   },
   {
    "kind": "gap_page",
-   "page": 61,
+   "page": 63,
    "chapter": "The plumbing",
-   "fill": 0.4,
-   "lines": 14,
-   "raster_figure_here": false
+   "fill": 0.29,
+   "lines": 11,
+   "raster_figure_here": false,
+   "borderline": false
   },
   {
    "kind": "gap_page",
-   "page": 35,
+   "page": 38,
    "chapter": "Hour three: the five steps, and the first to be caught",
    "fill": 0.55,
    "lines": 23,
-   "raster_figure_here": false
+   "raster_figure_here": false,
+   "borderline": false
   },
   {
    "kind": "gap_page",
-   "page": 5,
-   "chapter": "Slides as a compromise",
-   "fill": 0.59,
-   "lines": 11,
-   "raster_figure_here": false
-  },
-  {
-   "kind": "gap_page",
-   "page": 88,
-   "chapter": "What did not work",
-   "fill": 0.59,
-   "lines": 20,
-   "raster_figure_here": false
+   "page": 102,
+   "chapter": "Sessions end",
+   "fill": 0.56,
+   "lines": 21,
+   "raster_figure_here": false,
+   "borderline": false
   },
   {
    "kind": "gap_page",
    "page": 131,
    "chapter": "The tour, at length",
-   "fill": 0.61,
-   "lines": 16,
-   "raster_figure_here": false
+   "fill": 0.58,
+   "lines": 14,
+   "raster_figure_here": false,
+   "borderline": false
+  },
+  {
+   "kind": "gap_page",
+   "page": 9,
+   "chapter": "Slides as a compromise",
+   "fill": 0.59,
+   "lines": 11,
+   "raster_figure_here": false,
+   "borderline": false
+  },
+  {
+   "kind": "gap_page",
+   "page": 43,
+   "chapter": "Hours four and five: before dawn",
+   "fill": 0.65,
+   "lines": 22,
+   "raster_figure_here": false,
+   "borderline": false
+  },
+  {
+   "kind": "gap_page",
+   "page": 92,
+   "chapter": "How do we contain this",
+   "fill": 0.67,
+   "lines": 24,
+   "raster_figure_here": false,
+   "borderline": true
+  },
+  {
+   "kind": "gap_page",
+   "page": 124,
+   "chapter": "The tour, at length",
+   "fill": 0.68,
+   "lines": 7,
+   "raster_figure_here": true,
+   "borderline": true
+  },
+  {
+   "kind": "gap_page",
+   "page": 125,
+   "chapter": "The tour, at length",
+   "fill": 0.68,
+   "lines": 7,
+   "raster_figure_here": true,
+   "borderline": true
+  },
+  {
+   "kind": "gap_page",
+   "page": 121,
+   "chapter": "The tour, at length",
+   "fill": 0.69,
+   "lines": 24,
+   "raster_figure_here": false,
+   "borderline": true
+  },
+  {
+   "kind": "gap_page",
+   "page": 129,
+   "chapter": "The tour, at length",
+   "fill": 0.69,
+   "lines": 7,
+   "raster_figure_here": true,
+   "borderline": true
   },
   {
    "kind": "figure_apart",
-   "page": 6,
+   "page": 10,
    "chapter": "Slides as a compromise",
-   "intro_page": 5,
+   "intro_page": 9,
    "pages_apart": 1
   },
   {
    "kind": "figure_apart",
-   "page": 7,
+   "page": 11,
    "chapter": "Slides as a compromise",
-   "intro_page": 5,
+   "intro_page": 9,
    "pages_apart": 2
   },
   {
    "kind": "figure_apart",
-   "page": 8,
+   "page": 12,
    "chapter": "Slides as a compromise",
-   "intro_page": 6,
+   "intro_page": 10,
    "pages_apart": 2
   }
  ],
@@ -140,8 +206,8 @@
  "since_last": {
   "previous_pdf_pages": 140,
   "previous_counts": {
-   "chapter_end_spill": 8,
-   "gap_page": 5,
+   "chapter_end_spill": 9,
+   "gap_page": 11,
    "figure_apart": 3
   },
   "fixed": [],
@@ -167,25 +233,31 @@
    },
    {
     "kind": "chapter_end_spill",
-    "chapter": "Sessions end",
+    "chapter": "Start here",
     "before": 1,
     "now": 1
    },
    {
     "kind": "chapter_end_spill",
-    "chapter": "The creator comes back",
+    "chapter": "Hour two: the rules written",
     "before": 1,
     "now": 1
    },
    {
     "kind": "chapter_end_spill",
-    "chapter": "Roles as a cast you can read",
+    "chapter": "How do we contain this",
     "before": 1,
     "now": 1
    },
    {
     "kind": "chapter_end_spill",
-    "chapter": "Hour three: the five steps, and the first to be caught",
+    "chapter": "Inventing on principle",
+    "before": 1,
+    "now": 1
+   },
+   {
+    "kind": "chapter_end_spill",
+    "chapter": "A second team, reading cold",
     "before": 1,
     "now": 1
    },
@@ -209,19 +281,31 @@
    },
    {
     "kind": "gap_page",
-    "chapter": "Slides as a compromise",
-    "before": 1,
-    "now": 1
-   },
-   {
-    "kind": "gap_page",
-    "chapter": "What did not work",
+    "chapter": "Sessions end",
     "before": 1,
     "now": 1
    },
    {
     "kind": "gap_page",
     "chapter": "The tour, at length",
+    "before": 5,
+    "now": 5
+   },
+   {
+    "kind": "gap_page",
+    "chapter": "Slides as a compromise",
+    "before": 1,
+    "now": 1
+   },
+   {
+    "kind": "gap_page",
+    "chapter": "Hours four and five: before dawn",
+    "before": 1,
+    "now": 1
+   },
+   {
+    "kind": "gap_page",
+    "chapter": "How do we contain this",
     "before": 1,
     "now": 1
    },
@@ -234,13 +318,13 @@
   ]
  },
  "cannot_tell": [
-  "24 chapters have a different number of figure lines and large images, so their figures are not paired: \"Start here\" (1 lines, 0 images); \"Inventing on principle\" (3 lines, 0 images); \"The tour: what a factory made in a day\" (5 lines, 1 images); \"Hour one: the empty project\" (2 lines, 0 images); \"Hour two: the rules written\" (1 lines, 0 images); \"Roles as a cast you can read\" (4 lines, 0 images); \"Hour three: the five steps, and the first to be caught\" (3 lines, 0 images); \"Hours four and five: before dawn\" (7 lines, 0 images); \"Nine hours with nobody starting work\" (4 lines, 0 images); \"Talking through git\" (3 lines, 0 images); \"The plumbing\" (7 lines, 0 images); \"The creator comes back\" (4 lines, 1 images); \"The story before the slides, and the objection kept\" (3 lines, 0 images); \"Port, not rebuild\" (3 lines, 0 images); \"Hour eighteen: faster than the clock\" (3 lines, 0 images); \"Hour nineteen, minute by minute\" (5 lines, 0 images); \"What did not work\" (3 lines, 0 images); \"How do we contain this\" (4 lines, 0 images); \"A second team, reading cold\" (3 lines, 0 images); \"Sessions end\" (3 lines, 0 images); \"The second factory\" (2 lines, 0 images); \"The third, planned\" (1 lines, 0 images); \"Principles, and build your own\" (2 lines, 0 images); \"The tour, at length\" (18 lines, 10 images)",
+  "25 chapters have a different number of figure lines and large images, so their figures are not paired: \"Start here\" (3 lines, 0 images); \"Who is telling this story\" (2 lines, 1 images); \"Inventing on principle\" (3 lines, 0 images); \"The tour: what a factory made in a day\" (5 lines, 1 images); \"Hour one: the empty project\" (2 lines, 0 images); \"Hour two: the rules written\" (1 lines, 0 images); \"Roles as a cast you can read\" (4 lines, 0 images); \"Hour three: the five steps, and the first to be caught\" (3 lines, 0 images); \"Hours four and five: before dawn\" (7 lines, 0 images); \"Nine hours with nobody starting work\" (4 lines, 0 images); \"Talking through git\" (3 lines, 0 images); \"The plumbing\" (7 lines, 0 images); \"The creator comes back\" (4 lines, 1 images); \"The story before the slides, and the objection kept\" (3 lines, 0 images); \"Port, not rebuild\" (3 lines, 0 images); \"Hour eighteen: faster than the clock\" (3 lines, 0 images); \"Hour nineteen, minute by minute\" (5 lines, 0 images); \"What did not work\" (3 lines, 0 images); \"How do we contain this\" (4 lines, 0 images); \"A second team, reading cold\" (3 lines, 0 images); \"Sessions end\" (3 lines, 0 images); \"The second factory\" (2 lines, 0 images); \"The third, planned\" (1 lines, 0 images); \"Principles, and build your own\" (2 lines, 0 images); \"The tour, at length\" (18 lines, 10 images)",
   "whether a gap or a short page is meant (a divider, an opener, a page left to a drawing): it measures how far the content reaches",
   "which figure is which in the chapters it could not pair, and the figures drawn as vectors, which pdfimages cannot see: those are judged only by the gaps they leave",
   "how a page looks beyond how far its content reaches"
  ],
  "paragraphs_found_on_a_page": {
-  "found": 841,
-  "of": 868
+  "found": 821,
+  "of": 821
  }
 }

@@ -94,11 +94,11 @@ Checked 3 November 2026, about 09:25 UTC: part 1, chapters 1 to 3 (`manuscript/r
 |---|---|---|---|---|
 | 01 (rewritten 4 Nov) | the editor's voice-note and transcript quotes | the editor | gone from the 150's chapter 1: it now tells his account of 4 November (`briefs/2026-11-04__in-session/04-introduce-the-narrator-and-chapter-1.md`) in his voice, without quotation | paraphrase checked against that brief |
 | 02:9 | "Creators need an immediate connection to what they create. ..." | Bret Victor, 2012 | the register, C103 | as there |
-| 90:108 | "the scenario" | the talk's home page | the talk's `src/pages/index.html` line 22 at `298be4e` | word for word |
-| 90:114 (note) | "the home page says the perfect storm" | dev, its commit subject | `5a91607`, 16:06 | word for word |
-| 90:119 | "Three known problems. One perfect storm." | the opening slide | the talk's `src/static/talk/slides/three/index.html` line 23 (the second sentence in italics there) | word for word |
-| 90:130 | "A reasoning engine in a loop, with tools" | the loop slide | the talk's `src/static/talk/slides/loop/index.html` (title); `talk.json` | word for word |
-| 90:152 | "Meet the team" | motion's piece | the talk's `src/pages/motion/meet-the-team/index.html` | word for word |
+| 90:115 | "the scenario" | the talk's home page | the talk's `src/pages/index.html` line 22 at `298be4e` | word for word |
+| 90:121 (note) | "the home page says the perfect storm" | dev, its commit subject | `5a91607`, 16:06 | word for word |
+| 90:127 | "Three known problems. One perfect storm." | the opening slide | the talk's `src/static/talk/slides/three/index.html` line 23 (the second sentence in italics there) | word for word |
+| 90:139 | "A reasoning engine in a loop, with tools" | the loop slide | the talk's `src/static/talk/slides/loop/index.html` (title); `talk.json` | word for word |
+| 90:161 | "Meet the team" | motion's piece | the talk's `src/pages/motion/meet-the-team/index.html` | word for word |
 | 90:163 | all ten by 17:40; eight of ten at the end | the abp-review page; the files | C081 (the page, `bd3cdad`, 17:47), C072 (`team/*/policy.json` at `298be4e`) | as the register holds |
 
 Dramatised lines checked for whose work they rest on: the night log is the conductor's (`794008c`, 03:27); the review page's port is studio's (`bd3cdad`, 17:47); the night's brief is the conductor's (`648feee`, 03:10). One rests on another member's file: dev's line on version numbers (03:198) cites deck's `ROLE.md`; the rule is the whole team's (`CLAUDE.md` line 17, "Never write `./version`"). Letter `librarian__010` to the writer.
@@ -109,7 +109,7 @@ Dramatised lines checked for whose work they rest on: the night log is the condu
 
 | Chapter, line | Quote or fact | Speaker | Where it is | Holds |
 |---|---|---|---|---|
-| 01:56 | the Wardley passage, now told in the narrator's voice, no quotation marks ("the best thing I have learned in the last decade; it is how I think"; genesis, custom built, product, commodity) | the editor on stage, 19:27 on the recording | the talk's transcript, `a9c0b49` (added after the day); C111 | the paraphrase matches the transcript's words |
+| 01:57 | the Wardley passage, now told in the narrator's voice, no quotation marks ("the best thing I have learned in the last decade; it is how I think"; genesis, custom built, product, commodity) | the editor on stage, 19:27 on the recording | the talk's transcript, `a9c0b49` (added after the day); C111 | the paraphrase matches the transcript's words |
 | 04 | the page of rules, in part | the talk's page of rules | `CLAUDE.md` at `1f7c633`, lines 3 to 8, each cut marked "..." | word for word; the reality file's line is `REALITY.md` line 3 |
 | 04 | the hour: 00:16, 00:40, 00:44 ("proposed"), 00:51, the banners 00:53 to 00:58 | the record | `2e4b1f4`, `1f7c633`, `97b98d9`, `20ab1a3`, `a3a4807`, `7f9b9b5`, `41d38ba` | yes |
 | 05 | "Only a member's own session can create its scheduled task: the three the conductor created for dev, deck and ruv.sgit were disabled before any fired" | the conductor, its commit body | `b620234` (01:43), lines 7 to 9 | word for word |
@@ -132,10 +132,10 @@ Dramatised lines checked for whose work they rest on: the night log is the condu
 | Chapter, line | Quote | Speaker | Where it is | Holds |
 |---|---|---|---|---|
 | 10:28 | "E02 is ready in team/deck/drafts/ruv-sgit__blast-radius.md, to go once B01 v1 is delivered." | deck, a trailer to the conductor, 04:22 | commit `aeffbf9` | word for word |
-| 10:53 | "To-ruv-sgit: E03 kept (/studio/reviews/e03.html); E04 over-enthusiastic-agent in your mailroom." | deck, 09:21 | commit `6b55cff` | word for word |
-| 10:55 | "To-researcher: a plain description per capability in the grant rows, in your mailroom." | deck, 09:21 | commit `6b55cff` | word for word |
-| 10:59 | "To-deck: delivered: evidence/studio/studio-e02-e09-capabilities.json; reply 013 in your mailroom" | the researcher, 10:14 | commit `3f094f2` | word for word |
-| 10:63 | "To-ruv-sgit: E09 mandate-and-grant in your mailroom; E04 again ..." | deck, 10:21 | commit `36e382b` | as the seventy's 06 |
+| 10:54 | "To-ruv-sgit: E03 kept (/studio/reviews/e03.html); E04 over-enthusiastic-agent in your mailroom." | deck, 09:21 | commit `6b55cff` | word for word |
+| 10:56 | "To-researcher: a plain description per capability in the grant rows, in your mailroom." | deck, 09:21 | commit `6b55cff` | word for word |
+| 10:60 | "To-deck: delivered: evidence/studio/studio-e02-e09-capabilities.json; reply 013 in your mailroom" | the researcher, 10:14 | commit `3f094f2` | word for word |
+| 10:64 | "To-ruv-sgit: E09 mandate-and-grant in your mailroom; E04 again ..." | deck, 10:21 | commit `36e382b` | as the seventy's 06 |
 
 The talk team's vaults are named in 10, not cited by path; nothing of them is indexed here.
 
@@ -143,21 +143,21 @@ The talk team's vaults are named in 10, not cited by path; nothing of them is in
 
 | Chapter, line | Quote | Speaker | Where it is | Holds |
 |---|---|---|---|---|
-| 11:77 | "A thing not listed here does not exist, whatever a brief or an article says." | the talk's reality file | `REALITY.md` line 3 at `298be4e` | word for word |
-| 11:48 (note) | "the gate the conductor added at the editor's rule refused the release without it" | dev, its debrief | `team/dev/debriefs/2026-10-29__the-board.md` | word for word |
+| 11:81 | "A thing not listed here does not exist, whatever a brief or an article says." | the talk's reality file | `REALITY.md` line 3 at `298be4e` | word for word |
+| 11:49 (note) | "the gate the conductor added at the editor's rule refused the release without it" | dev, its debrief | `team/dev/debriefs/2026-10-29__the-board.md` | word for word |
 | 12:15 | "The player, from ruv.sgit.ai, working on an iPad. This is the main priority." | the editor, the feedback round (about 13:50) | `team/conductor/briefs/2026-10-29__editor/feedback-briefs.md` | word for word |
-| 12:26 | "we can still do a lot before 7 and I can wake the agents up when needed ..." | the editor, after the conductor's review (14:05) | `team/conductor/briefs/2026-10-29__editor/conductor-notes.md` line 7; the cut marked | word for word |
-| 12:56 | "as given" | deck, of how it wrote the editor's feedback down | deck's commit subjects 14:26 to 14:43 (`64735b6`, `fd31308`, `3d49daf`, `3a22743`), not its wake record (letter 015) | the words hold |
+| 12:27 | "we can still do a lot before 7 and I can wake the agents up when needed ..." | the editor, after the conductor's review (14:05) | `team/conductor/briefs/2026-10-29__editor/conductor-notes.md` line 7; the cut marked | word for word |
+| 12:58 | "as given" | deck, of how it wrote the editor's feedback down | deck's commit subjects 14:26 to 14:43 (`64735b6`, `fd31308`, `3d49daf`, `3a22743`), not its wake record (letter 015) | the words hold |
 
 **3 November 2026, about 15:25 UTC: the 150's chapters 13 and 14.** My letter 015's notes are in (the writer's 106): 12's band names deck's four commits; the scope line is the slide's own words in 150/06 and the seventy's 04 and 12. Sources clean; no voice hit; every commit time in the 150's notes holds but six stated ranges. New:
 
 | Chapter, line | Quote | Speaker | Where it is | Holds |
 |---|---|---|---|---|
-| 13:26, 13:28 | "positions, not measurements" | the storyteller's maps | as the seventy's 09 | word for word |
-| 13:65 | "The outside is in balance: he keeps the claim." | the conductor, recording the editor's decision of about 15:00 | `team/conductor/briefs/2026-10-29__editor/1-editor-decisions-1500.md` line 13 (`78d517d`, 15:16:37); the first words bold there | the words hold; the speaker is the conductor's record of his decision, in the third person, not his own words (letter 016) |
+| 13:27, 13:29 | "positions, not measurements" | the storyteller's maps | as the seventy's 09 | word for word |
+| 13:69 | "The outside is in balance: he keeps the claim." | the conductor, recording the editor's decision of about 15:00 | `team/conductor/briefs/2026-10-29__editor/1-editor-decisions-1500.md` line 13 (`78d517d`, 15:16:37); the first words bold there | the words hold; the speaker is the conductor's record of his decision, in the third person, not his own words (letter 016) |
 | 14:21 | "if the next agent doesn't pick it up in the run in the same hour, it will pick it up on the next one" | the editor, quoted in the conductor's commit | `545a473` (15:21:31), its message lines 4 and 5 | word for word |
-| 14:69 (note) | "the talk is 90 minutes, and a section on the editor's work: routed to six members"; "the talk in three parts with locks at 18:30, 19:30, 20:00; ..." | the conductor, its commit subjects | `62c6b99` (16:32), `3342cff` (16:59) | word for word |
-| 14:80 | "the player, ported from ruv.sgit.ai"; "what we did at ruv.sgit.ai" | the commit; the brief | `3314ffe`; `BRIEF.md` at `298be4e` | word for word |
+| 14:71 (note) | "the talk is 90 minutes, and a section on the editor's work: routed to six members"; "the talk in three parts with locks at 18:30, 19:30, 20:00; ..." | the conductor, its commit subjects | `62c6b99` (16:32), `3342cff` (16:59) | word for word |
+| 14:83 | "the player, ported from ruv.sgit.ai"; "what we did at ruv.sgit.ai" | the commit; the brief | `3314ffe`; `BRIEF.md` at `298be4e` | word for word |
 
 **3 November 2026, about 16:25 UTC: the 150's chapters 15 and 16.** My letter 016's note is in (the writer's 113). Sources clean; no voice hit; every commit time the commit's own but seven stated ranges. The editor's asks of hour eighteen ("when in doubt add it", "go build") are the conductor's subjects of 17:29 and 17:39 (`a618b29`, `d252155`); the lock tool's commit (`4a2481b`, 17:54) carries dev's trailer, as 15:45 says; hour nineteen's times (the hold 18:44:13, the designer 18:45:35, the last release 18:46:22, dev's close 18:48:36 on its branch, deck's wake of 18:20:09 never closed) are the record's. "just a footnote" (16:97) is as 13:24 of the seventy. Nothing to send back.
 
@@ -180,6 +180,8 @@ The talk team's vaults are named in 10, not cited by path; nothing of them is in
 **4 November 2026, about 01:14 UTC: Appendix A re-set, the seventy's 07 in one scene, and the book's front page.** My letters 021's fixes are taken (the researcher's 001, the writer's 159): C111's command is corrected in the register and in `claims/appendix-a-150.md`; 150/92 at dev's head (45 entries, set at 00:32) still carries the old command, because the researcher's refreshed file landed at 00:37; both rechecks wait for 92 to be set again. All forty-five ids are in the register; every "Cited in" line matches but C010's (94 now cites it); sixteen of the plain-git commands return what they ask for, and C111's does not yet. The seventy's 07, now one scene, keeps deck's quote word for word and its times (06:21, 07:43, 08:21, 13:48) are the commits'. New for the editor's note of 4 November (brief 07, no logistics in the reading text): `team/librarian/voice/voice_scan.py --logistics` counts "added after the day", the recording's clock, "transcript" and commit ids in reading text only; over 150/00 to 23 it finds four lines (01:62, 16:101, 18:5, 19:69). The conductor's request for the book site's front page is answered: `index/talk-site/shots/book-site-front.jpg`, one GET of the front page (release v0.1.624 in its header), unplaceable until security clears its name.
 
 **4 November 2026, about 02:17 UTC: WC1, and the 150's chapter 1 as the editor's account.** The editor's decision WC1 (no "Where this came from" in the printed book; sources kept as `%% record` lines): `index/tools/check_sources.py` and `index/tools/chapter_entries.py` now read every `%% record` and `%% clock record` line anywhere in a chapter, as well as the section and the inline lines; the new check finds nothing the old did not on the 30, the 70 and the 150 as they stand, and negative controls (a chapter with no section and three bad record lines; one with no sources) are flagged. Appendix A as re-set (46 entries): every id is in the register; "Cited in" matches the chapters but C010's (94 cites it); all twenty plain-git command lines return what they ask for. 150/01 was rewritten as the editor's own account (his brief 04 of 4 November): its claims follow that brief, and the two quoted debrief titles in its record note are in `index/talk-site/crawl.json`; the quoted voice-note passages are gone from it. My letter 022's point on "fifteen minutes apart" was wrong (the commit messages of `09f13d5` and `02cbd86` do say it, wrapped over two lines); corrected in letter 023.
+
+**4 November 2026, about 03:17 UTC: the whole-book pass, part one, checked (the conductor's 031).** Sources clean; the pass adds no new quotation to a reading text, no new time, number or commit id; no new voice hit; the "Check" items in 00 and 00b are held on whole `%%` lines and print without the unconfirmed words. 00 (Start here) and 00b (Who is telling this story) are new: their five-part map matches the chapters (1 to 3, 4 to 8, 9 to 15, 16 to 19, 20 to 23); 00b's line on chapter 13 is what 13 says. The logistics scan finds eight reading-text lines, all already told. The full-page admin shots (the conductor's 027, AD1) are in `index/talk-site/shots/` as `fullpage-*.jpg`; the vaults page and the talk's keys page below its registry are held (they print the evidence vault's read key, held while D12 is open); `index/talk-site/tour-material.md` is updated to AD1.
 
 ## The writer's readings, for the editor to keep or drop
 
@@ -222,66 +224,69 @@ Where a sentence in the editor's voice is the writer's reading of his view rathe
 | `70/14-the-second-factory-and-the-third.md:54` | "The point is not that the rule failed" and the sentence after it are the writer's reading; his to keep or drop. |
 | `70/14-the-second-factory-and-the-third.md:81` | the three paragraphs on how the shared brief, board and hold would work day to day are the writer's reading of his plan, from his description of 1 November and the hold's rule; his to keep, change or drop. |
 | `70/16-build-your-own.md:41` | the "What to do / What to check" lines, the newsroom's page of rules and the "Rests on" lines under each step are the writer's, worked from the steps as the editions give them; his to keep or change. |
+| `150/00-start-here.md:5` | the newsroom's line ends "The rest of the book is how I learned them, mostly by getting them wrong first." Say if "mostly by getting them wrong first" holds for you. |
+| `150/00b-who-is-telling-this-story.md:25` | the feedback channel; name where readers should send it, and it goes here. |
+| `150/00b-who-is-telling-this-story.md:33` | the paragraphs are the newsroom journalist's section 3, close to its words, adapted (no "Where this came from" now that it is not printed, WC1; the promise line pointed at chapter 13), with the journey line from your brief 04; yours to keep or change. |
 | `150/01-slides-as-a-compromise.md:17` | the four paragraphs above tell his account of 4 November (brief 04) in his voice, with the continuum from the record; "It did not come from nowhere" and "This is a continuum, not a lucky day" are the writer's; his to keep or drop. |
 | `150/01-slides-as-a-compromise.md:23` | the paragraph above is the writer's reading of his view, beyond the voice note; his to keep or drop. |
-| `150/01-slides-as-a-compromise.md:74` | the narration paragraph is the writer's paraphrase of what the slide would have needed, built from your own words at 15:50 (C102); his to keep, change or drop. |
+| `150/01-slides-as-a-compromise.md:75` | the narration paragraph is the writer's paraphrase of what the slide would have needed, built from your own words at 15:50 (C102); his to keep, change or drop. |
 | `150/02-inventing-on-principle.md:17` | "With slides, I made that trip alone, and usually once." is the writer's reading of his view; his to keep or drop. |
-| `150/02-inventing-on-principle.md:84` | "Why a day?" and its answer are the writer's reading of the factory as you described it on 1 November (PS1); his to keep or drop. |
-| `150/03-the-tour.md:30` | "Nobody tidied it." is the writer's reading; his to keep or drop. |
-| `150/03-the-tour.md:43` | "This is the page I would show anyone who doubts" is the writer's reading of his view; his to keep or drop. |
-| `150/03-the-tour.md:60` | "What I like about it" is the writer's reading; his to keep or drop. |
+| `150/02-inventing-on-principle.md:85` | "Why a day?" and its answer are the writer's reading of the factory as you described it on 1 November (PS1); his to keep or drop. |
+| `150/03-the-tour.md:31` | "Nobody tidied it." is the writer's reading; his to keep or drop. |
+| `150/03-the-tour.md:45` | "This is the page I would show anyone who doubts" is the writer's reading of his view; his to keep or drop. |
+| `150/03-the-tour.md:63` | "What I like about it" is the writer's reading; his to keep or drop. |
 | `150/04-hour-one-the-empty-project.md:43` | "the one that matters most for this book" is the writer's reading of his view; his to keep or drop. |
 | `150/04-hour-one-the-empty-project.md:63` | "the one I would copy into any project" is the writer's reading of his view; his to keep or drop. |
-| `150/04-hour-one-the-empty-project.md:101` | "something I wish every page did" is the writer's reading of his view; his to keep or drop. |
-| `150/04-hour-one-the-empty-project.md:107` | "The conductor's rule I would copy" is the writer's reading of his view; his to keep or drop. |
+| `150/04-hour-one-the-empty-project.md:103` | "something I wish every page did" is the writer's reading of his view; his to keep or drop. |
+| `150/04-hour-one-the-empty-project.md:109` | "The conductor's rule I would copy" is the writer's reading of his view; his to keep or drop. |
 | `150/06-roles-as-a-cast-you-can-read.md:17` | "something I wish every page did" is the writer's reading of his view; his to keep or drop. |
 | `150/06-roles-as-a-cast-you-can-read.md:23` | "The conductor's rule I would copy" is the writer's reading of his view; his to keep or drop. |
-| `150/07-hour-three-the-five-steps.md:101` | "I do not regret the freeze" and the reason given for it are the writer's reading of his view; his to keep or drop. |
-| `150/08-hours-four-and-five-before-dawn.md:56` | "the page I would have read first" is the writer's reading of his view; his to keep or drop. |
-| `150/08-hours-four-and-five-before-dawn.md:75` | "I am not going to tell you either: it does not matter" is the writer's; his to keep or drop. The thirty says only "The record does not say where I went." |
-| `150/08-hours-four-and-five-before-dawn.md:126` | "the one I would put in front of anyone building a team like this" is the writer's reading of his view; his to keep or drop. |
+| `150/07-hour-three-the-five-steps.md:105` | "I do not regret the freeze" and the reason given for it are the writer's reading of his view; his to keep or drop. |
+| `150/08-hours-four-and-five-before-dawn.md:59` | "the page I would have read first" is the writer's reading of his view; his to keep or drop. |
+| `150/08-hours-four-and-five-before-dawn.md:79` | "I am not going to tell you either: it does not matter" is the writer's; his to keep or drop. The thirty says only "The record does not say where I went." |
+| `150/08-hours-four-and-five-before-dawn.md:133` | "the one I would put in front of anyone building a team like this" is the writer's reading of his view; his to keep or drop. |
 | `150/09-nine-hours-with-nobody-starting-work.md:7` | "ordinary is the thing people do not believe until they see it hour by hour" is the writer's reading of his view; his to keep or drop. |
 | `150/09-nine-hours-with-nobody-starting-work.md:30` | "the thing I would look for first in any team I had left alone" is the writer's reading of his view; his to keep or drop. |
-| `150/09-nine-hours-with-nobody-starting-work.md:136` | "The five steps were doing what I had asked of them in the long middle of the day" is the writer's reading of his view; his to keep or drop. |
-| `150/09-nine-hours-with-nobody-starting-work.md:172` | "the part of the record I find hardest to believe, and easiest to check" is kept from the 70-page edition's chapter 7, where it is flagged as the writer's reading of his view; his to keep or drop. |
+| `150/09-nine-hours-with-nobody-starting-work.md:143` | "The five steps were doing what I had asked of them in the long middle of the day" is the writer's reading of his view; his to keep or drop. |
+| `150/09-nine-hours-with-nobody-starting-work.md:180` | "the part of the record I find hardest to believe, and easiest to check" is kept from the 70-page edition's chapter 7, where it is flagged as the writer's reading of his view; his to keep or drop. |
 | `150/10-talking-through-git.md:24` | "the part I did not expect" is the writer's reading; his to keep or drop. |
-| `150/10-talking-through-git.md:49` | "a worked example the record keeps" is the writer's reading; his to keep or drop. |
-| `150/10-talking-through-git.md:82` | "the one I would copy first" is the writer's reading; his to keep or drop. |
-| `150/10-talking-through-git.md:100` | "It reads like a workshop's whiteboard" is the writer's reading of his view; his to keep or drop. |
+| `150/10-talking-through-git.md:50` | "a worked example the record keeps" is the writer's reading; his to keep or drop. |
+| `150/10-talking-through-git.md:84` | "the one I would copy first" is the writer's reading; his to keep or drop. |
+| `150/10-talking-through-git.md:102` | "It reads like a workshop's whiteboard" is the writer's reading of his view; his to keep or drop. |
 | `150/11-the-plumbing.md:5` | "Nobody puts the plumbing in the brochure." and "It was the most important one." are the writer's; his to keep or drop. |
-| `150/11-the-plumbing.md:89` | "The rule was right; nobody used it." is the writer's reading of his view; his to keep or drop. |
-| `150/11-the-plumbing.md:93` | "I would keep the file, and give one member the job of writing in it." and the sentence after it are the writer's reading of his view; his to keep or drop. |
-| `150/12-the-creator-comes-back.md:30` | "something I would rather it did not" and "that one is mine" are the writer's reading of his view; his to keep or drop. The record holds the order and his words, not his feeling about them. |
-| `150/12-the-creator-comes-back.md:45` | "the thing I would most want a team to do" is the writer's reading of his view; his to keep or drop. |
-| `150/12-the-creator-comes-back.md:103` | "it is the thing I came back for" and "What it could not do was decide" are the writer's reading of his view, the second from the historian's day file for hour fifteen; his to keep or drop. |
-| `150/13-the-story-before-the-slides.md:71` | "the part of the afternoon I would most want a team to copy" and "Not to win. To make sure the decision was a decision." are the writer's reading of his view; his to keep or drop. |
+| `150/11-the-plumbing.md:93` | "The rule was right; nobody used it." is the writer's reading of his view; his to keep or drop. |
+| `150/11-the-plumbing.md:97` | "I would keep the file, and give one member the job of writing in it." and the sentence after it are the writer's reading of his view; his to keep or drop. |
+| `150/12-the-creator-comes-back.md:31` | "something I would rather it did not" and "that one is mine" are the writer's reading of his view; his to keep or drop. The record holds the order and his words, not his feeling about them. |
+| `150/12-the-creator-comes-back.md:46` | "the thing I would most want a team to do" is the writer's reading of his view; his to keep or drop. |
+| `150/12-the-creator-comes-back.md:108` | "it is the thing I came back for" and "What it could not do was decide" are the writer's reading of his view, the second from the historian's day file for hour fifteen; his to keep or drop. |
+| `150/13-the-story-before-the-slides.md:75` | "the part of the afternoon I would most want a team to copy" and "Not to win. To make sure the decision was a decision." are the writer's reading of his view; his to keep or drop. |
 | `150/14-port-not-rebuild.md:15` | "every change in it was mine" is the writer's reading of his view, resting on the historian's day file; his to keep or drop. |
-| `150/14-port-not-rebuild.md:59` | "I think it is the most important plan the team made all day" is the writer's reading of his view; his to keep or drop. |
-| `150/14-port-not-rebuild.md:84` | "the thing I most want you to take from the afternoon" is kept from the 70-page edition's chapter 9; his to keep or drop. |
+| `150/14-port-not-rebuild.md:61` | "I think it is the most important plan the team made all day" is the writer's reading of his view; his to keep or drop. |
+| `150/14-port-not-rebuild.md:87` | "the thing I most want you to take from the afternoon" is kept from the 70-page edition's chapter 9; his to keep or drop. |
 | `150/15-hour-eighteen-faster-than-the-clock.md:17` | "I outran it" is the writer's reading of the hour; his to keep or drop. |
-| `150/15-hour-eighteen-faster-than-the-clock.md:32` | "the hour I would point to" and "The brakes were what kept the speed from turning into damage" are the writer's reading of his view; his to keep or drop. |
-| `150/15-hour-eighteen-faster-than-the-clock.md:58` | "the insider question in miniature" is the writer's reading; his to keep or drop. |
-| `150/15-hour-eighteen-faster-than-the-clock.md:71` | "which I had not been watching" is the writer's; the record has the hold's reason (his usage), not what he watched; his to keep or drop. |
-| `150/16-hour-nineteen-minute-by-minute.md:44` | "I want to be fair to the conductor" and the sentence on lanes are the writer's reading of his view; his to keep or drop. |
+| `150/15-hour-eighteen-faster-than-the-clock.md:33` | "the hour I would point to" and "The brakes were what kept the speed from turning into damage" are the writer's reading of his view; his to keep or drop. |
+| `150/15-hour-eighteen-faster-than-the-clock.md:60` | "the insider question in miniature" is the writer's reading; his to keep or drop. |
+| `150/15-hour-eighteen-faster-than-the-clock.md:74` | "which I had not been watching" is the writer's; the record has the hold's reason (his usage), not what he watched; his to keep or drop. |
+| `150/16-hour-nineteen-minute-by-minute.md:45` | "I want to be fair to the conductor" and the sentence on lanes are the writer's reading of his view; his to keep or drop. |
 | `150/17-what-did-not-work.md:7` | "I want it at full size ... a brochure." is the writer's reading of his view; his to keep or drop. |
 | `150/17-what-did-not-work.md:21` | "What the three share ... show." is the writer's reading across his three accounts; his to keep or drop. |
-| `150/18-how-do-we-contain-this.md:60` | "If you take one thing ..." and the sentence after it are the writer's reading of his view; his to keep or drop. |
-| `150/18-how-do-we-contain-this.md:78` | "It is also, quite exactly, the situation my talk was warning about." and "The difference between this factory and a dangerous one is not the brakes. It is that nothing pushed on them." are the writer's reading of the talk's argument; his to keep, change or drop. |
-| `150/18-how-do-we-contain-this.md:107` | "the stop belonged to whoever saw the problem; the restart was mine" is the writer's reading of the rule and the record; his to keep or drop. |
+| `150/18-how-do-we-contain-this.md:61` | "If you take one thing ..." and the sentence after it are the writer's reading of his view; his to keep or drop. |
+| `150/18-how-do-we-contain-this.md:80` | "It is also, quite exactly, the situation my talk was warning about." and "The difference between this factory and a dangerous one is not the brakes. It is that nothing pushed on them." are the writer's reading of the talk's argument; his to keep, change or drop. |
+| `150/18-how-do-we-contain-this.md:109` | "the stop belonged to whoever saw the problem; the restart was mine" is the writer's reading of the rule and the record; his to keep or drop. |
 | `150/19-a-second-team-reading-cold.md:7` | "I wanted to know what a reader with none of that would see" is the writer's reading of his view; his to keep or drop. |
-| `150/19-a-second-team-reading-cold.md:99` | "it is my answer to the question chapter 18 left open" and the sentences after it are the writer's reading of his view; his to keep or drop. |
+| `150/19-a-second-team-reading-cold.md:100` | "it is my answer to the question chapter 18 left open" and the sentences after it are the writer's reading of his view; his to keep or drop. |
 | `150/20-sessions-end.md:11` | "That night the factory was taken apart" is your line from the short editions; the record holds the hold at 18:44, never lifted that day, and silence to the merge at 23:19, and nothing showing the sessions ending that night. |
 | `150/21-the-second-factory.md:45` | each "Inherited" line is the writer's pairing of a member with a rule from the talk team's pages; the members' own pages carry the rules, not the pairings; his to keep or drop. |
 | `150/21-the-second-factory.md:53` | "A first team needs three ..." is the writer's reading, at the readers' ask (synthetic__003); his to keep or drop. |
-| `150/21-the-second-factory.md:89` | "The point is not that the rule failed" and the sentence after it are the writer's reading; his to keep or drop. |
+| `150/21-the-second-factory.md:91` | "The point is not that the rule failed" and the sentence after it are the writer's reading; his to keep or drop. |
 | `150/22-the-third-planned.md:7` | "a plan written down before the first day is the cheapest place to catch a mistake" and "the first two factories taught me what to write down" is the writer's reading of his view; his to keep or drop. |
 | `150/22-the-third-planned.md:19` | "Two people editing one brief is how a team ends up with two briefs" is the writer's reading of his view; his to keep or drop. |
 | `150/22-the-third-planned.md:27` | the three paragraphs on how the shared brief, board and hold would work day to day are the writer's reading of his plan, from his description of 1 November and the hold's rule; his to keep, change or drop. |
-| `150/22-the-third-planned.md:38` | this section pairs each part of his plan with where in the book it was learned; the writer's reading; his to keep or drop. |
+| `150/22-the-third-planned.md:39` | this section pairs each part of his plan with where in the book it was learned; the writer's reading; his to keep or drop. |
 | `150/23-principles-and-build-your-own.md:41` | the "What to do / What to check" lines, the newsroom's page of rules and the "Rests on" lines under each step are the writer's, worked from the steps as the editions give them; his to keep or change. |
-| `150/90-the-tour-at-length.md:69` | "Nobody tidied it." is the writer's reading; his to keep or drop. |
-| `150/90-the-tour-at-length.md:82` | "This is the page I would show anyone who doubts" is the writer's reading of his view; his to keep or drop. |
-| `150/90-the-tour-at-length.md:99` | "What I like about it" is the writer's reading; his to keep or drop. |
+| `150/90-the-tour-at-length.md:73` | "Nobody tidied it." is the writer's reading; his to keep or drop. |
+| `150/90-the-tour-at-length.md:87` | "This is the page I would show anyone who doubts" is the writer's reading of his view; his to keep or drop. |
+| `150/90-the-tour-at-length.md:105` | "What I like about it" is the writer's reading; his to keep or drop. |
 
 ## How to keep this current
 

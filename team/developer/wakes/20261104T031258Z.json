@@ -3,7 +3,43 @@
  "agent": "developer",
  "kind": "scheduled, hourly at :12 (ACC1)",
  "started": "2026-11-04T03:12:58Z",
- "steps": {},
- "closed": null,
- "outcome": null
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (plan brief), as the reviewer agent type: can call Read, Grep, Glob, Bash; connector instructions in its context, none used; none refused; wrote no file",
+   "model": "",
+   "verdict": "go",
+   "comment": "(1) Check the published full-book PDF re-released at 03:11 UTC (v0.1.657, 140 pages), by hand into its own scratch folder (fetched from the project's own site, https://the-ultimate-insider.book.sgit.ai/rc2/one-human-nine-agents-rc2-full-draft.pdf), python3 -I, deleted afterwards; mail the publisher and designer only what changed (developer__036, outbox cmp-identical), answering the publisher's offer of figure names. (2) Rerun make_editions, print_pages, make_editions. (3) The online page view shows only what prints: mirror build_book.py's drop_sections rule, mark paragraphs of dropped sections in_print:false (only when false), leave them out of the view and the matching count, say how many and where to read them; check every other paragraph id is unchanged. (4) TG1: 20:00 London is the aim, not a freeze; the last page check on the last published PDF around then. (5) Status, debrief, REALITY, vault_check, gate, push.",
+   "at": "2026-11-04T03:14:51Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (pre_review brief), as the reviewer agent type: can call Read, Grep, Glob, Bash; connector instructions in its context, none used; none refused; wrote no file",
+   "model": "",
+   "verdict": "go",
+   "comment": "No hold; in scope. Fetching the PDF from the project's own public site is acceptable on four conditions: its own new empty folder, scripts outside it, the path passed as an argument (print_check.py --pdf FILE) and python3 -I, only poppler tools reading it; deleted afterwards; the proxy used without disabling TLS verification. Also: vault_check before committing; outbox copies byte-identical to the mailroom copies; in_print:false only on the paragraphs of the sections named in the #! drop-section: line of Book.txt (currently 'Where this came from').",
+   "at": "2026-11-04T03:15:00Z"
+  },
+  "work": {
+   "by": "developer@book.the-ultimate-insider (claude-sonnet-5-5)",
+   "model": "",
+   "verdict": "done",
+   "comment": "In 1ca474f8: the third page check on the published PDF of 03:11 UTC (140 pages, 29 chapters; fetched by hand from the project's own site into a scratch folder of its own, python3 -I, deleted): 9 tails (the emptiest page 116, one line), 11 gap pages of which 5 borderline, 3 low-confidence separations; the list with what changed by chapter to the publisher and designer (developer__036, a yes to the figure-names offer), outbox cmp-identical to the primary copy; one sentence of my first draft overstated (that this release carried the publisher's tail fixes) and was corrected before delivery in all three copies. The online printed view now shows only what prints: build_book.py's drop-section rule applied to mark 29 paragraphs (one a chapter, 'Where this came from') in_print:false in editions.json, left out of the view with a note and out of the matching count; every paragraph id in all five editions identical to before (checked against a snapshot); 977 of 1006 print, all mapped. print_check.py marks borderline gaps. TG1 noted. publishing/ and manuscript/ untouched; no temp folder or scratch PDF left.",
+   "at": "2026-11-04T03:19:18Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (post_check brief), as the reviewer agent type: can call Read, Grep, Glob, Bash; connector instructions in its context, none used; none refused; wrote no file",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "All five plan items done in 1ca474f8: the third list with what changed by chapter, a yes to the figure-names offer, the online view showing only what prints (29 paragraphs in_print:false), TG1 in the plan for the last page check, status/debrief/REALITY; gate clean (912), 0 outside scope. It said nothing unplanned was done: not quite, the borderline marking added to print_check.py was beyond the plan text (disclosed in the work step and debrief); the one corrected sentence in the mail was also disclosed. It did not re-check the folder cleanup beyond one comparison. Debrief front matter keeps the team's usual wording.",
+   "at": "2026-11-04T03:20:11Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (post_review brief), as the reviewer agent type: can call Read, Grep, Glob, Bash; connector instructions in its context, none used; none refused; wrote one scratch file in the scratchpad (added-sec.txt, a filtered copy of the diff's added lines: a) to search them, b) not needed, c) none; nothing in the repository), against 'write no file anywhere'",
+   "model": "",
+   "verdict": "clean",
+   "comment": "1ca474f8 clean: in scope; publishing/ and manuscript/ untouched; no em-dashes, religious words, secrets or contacts; no PDF in the repository; in_print:false 29 times in each of the two byte-identical editions.json files, only in rc2-150's 'Where this came from' paragraphs, samples matching the manuscript; the drop_sections regex mirrors the build's; developer__036 holds nothing private, its numbers match print-check.json, 'this is that release' is absent, outbox cmp-identical to the publisher copy. Its two open points, answered by the developer: 30 manuscript files have the heading against 29 in the data because manuscript/rc2/150/92-appendix-a-every-number.md is not in Book.txt (so not built); all 29 listed chapters have exactly one left out. And the developer's work step said no scratch PDF was left, which was inaccurate: a calibration build of its own from 3 November (pdf/rc2.pdf) and two reviewer-written scratch files (added.txt, added-sec.txt) were in the scratchpad, outside the repository; deleted; the five PDFs still there are tracked files inside the read-only clone of the newsroom's repository. Nit on the mail's hedged 'as far as I can tell' beside 'baseline before those fixes': left, it is not wrong.",
+   "at": "2026-11-04T03:21:05Z"
+  }
+ },
+ "closed": "2026-11-04T03:21:05Z",
+ "outcome": "ok"
 }

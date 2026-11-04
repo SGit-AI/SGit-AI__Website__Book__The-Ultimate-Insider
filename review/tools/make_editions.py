@@ -108,10 +108,13 @@ def qr(slug, f, rid, words):
 
 def printed_view(ed, name, pp):  # run print_pages.py after make_editions.py has written editions.json, then this again
     """The long editions by printed page (print_pages.py): each page its paragraphs, and the record of each scene ending on it."""
-    pages, last = {}, 1                                              # a paragraph the map does not know takes the page before, across scenes
+    pages, last, left_out = {}, 1, 0                                              # a paragraph the map does not know takes the page before, across scenes
     for c in ed['chapters']:
         for sc in c['scenes']:
             for p in sc['paragraphs']:
+                if p.get('in_print') is False:                      # a section the print leaves out: not shown on a printed page
+                    left_out += 1
+                    continue
                 last = pp['pages'].get(p['id'], last)
                 pages.setdefault(last, {'chapters': [], 'paras': [], 'recs': []})
                 if c['title'] not in pages[last]['chapters']:
@@ -127,6 +130,9 @@ def printed_view(ed, name, pp):  # run print_pages.py after make_editions.py has
         secs.append(f'<section class="pg" id="p-{n}" data-pg aria-label="Printed page {n}"><h2>{html.escape(" · ".join(pg["chapters"]))} · printed page {n}</h2>{body}{recs}</section>')
     what = (f'Each page here is a printed page of the PDF ({pp["pdf_pages"]} pages, built here as the release builds it; on 4 November this build was a page longer than the published file, so near the end a page number may sit one off). {pp["found"]} paragraphs were found on their page; '
             f'{pp["carried"]} (figures, clock lines, rules) take the page of the one before. Pages with only a cover or a picture are not shown.')
+    if left_out:
+        heads = ' and '.join(f'"{h}"' for h in ed.get('left_out_of_print', []))
+        what += f' {left_out} paragraphs in sections the print leaves out ({heads}) are not shown here: they are on the edition\'s chapter pages online.'
     write_pages(ed, name, secs, what)
     print(f'{ed["edition"]}/pages.html: {len(secs)} printed pages')
 
@@ -188,13 +194,39 @@ def pages_view(ed):
     print(f'{ed["edition"]}/pages.html: {n} pages')
 
 
-def chapter_page(path, i, files, book, talk, claims, edition_title, foot=None):
+def drop_headings(booktxt):
+    """The headings the build leaves out of the print: the "#! drop-section:" lines of the edition's list (publishing/build_book.py)."""
+    return [m.group(1) for l in booktxt.read_text().splitlines() for m in [re.match(r'\s*#!\s*drop-section:\s*(.+?)\s*$', l)] if m]
+
+
+def drop_sections(text, headings):
+    """As publishing/build_book.py does: each named "## " section goes, from its heading to the next "# " or "## " heading, or the end."""
+    for h in headings:
+        text = re.sub(r"(?ms)^## " + re.escape(h) + r"[ \t]*\n.*?(?=^#{1,2} |\Z)", "", text)
+    return text
+
+
+def printed_ids(raw, drop, ch, name):
+    """The anchors of the paragraphs that print: the chapter with the build's rule applied, run through the same anchoring.
+    -> (set of ids, how many paragraphs that is)"""
+    text, ids, seen, n = drop_sections(raw, drop), set(), {}, 0
+    for part in re.split(r'(^`?%%[^\n]*$)', text.split('\n', 1)[1], flags=re.M):
+        if re.match(r'^`?%%', part) or not part.strip():
+            continue
+        done = anchored(Markdown().to_html(re.sub(r'\s*`%%[^`]*`', '', part)), ch, seen, [], name)
+        found = re.findall(r' id="([^"]+)" data-a="[^"]+" tabindex="0">', done)
+        ids, n = ids | set(found), n + len(found)
+    return ids, n
+
+
+def chapter_page(path, i, files, book, talk, claims, edition_title, foot=None, drop=()):
     raw = path.read_text()
     if foot is not None:                                            # a short edition: the publisher's text, its page's record at the foot
         raw = web_text(raw, path) + '\n' + '\n'.join(foot)
     title = re.match(r'# (.*)', raw).group(1)
     ch = f'r{i + 1:02d}'
     used, blocks, scene, linked, seen, recs, first = {}, [], 0, 0, {}, [], ''
+    kept, kept_n = printed_ids(raw, drop, ch, path.name) if drop else (None, 0)             # which paragraphs print (build_book.py's drop-section rule)
     scenes, paras = [], []                                          # the chapter as data: the same filtered text as the page, never a writers' note                # seen: one per chapter, so a repeated line gets -2, not a twin id
     for part in re.split(r'(^`?%%[^\n]*$)', raw.split('\n', 1)[1], flags=re.M):
         if re.match(r'^`?%%\s*record:', part):
@@ -213,7 +245,7 @@ def chapter_page(path, i, files, book, talk, claims, edition_title, foot=None):
             part = re.sub(r'\s*`%%[^`]*`', '', part)                   # a writers' note inside a paragraph: also not for readers
             done = anchored(Markdown().to_html(part), ch, seen, [], path.name)
             blocks.append(done)
-            paras += [{'id': a, 'text': plain(t)} for a, t in re.findall(r' id="([^"]+)" data-a="[^"]+" tabindex="0">(.*?)</(?:p|li|blockquote|div)>', done)]
+            paras += [{'id': a, 'text': plain(t), **({'in_print': False} if kept is not None and a not in kept else {})} for a, t in re.findall(r' id="([^"]+)" data-a="[^"]+" tabindex="0">(.*?)</(?:p|li|blockquote|div)>', done)]
             first = first or ' '.join(plain(done).split()[:14])
     claims_list = ''.join(f'<li id="claim-{c}"><b>{c}</b> {html.escape(claims[c]["claim"])}: {value_html(claims[c].get("value", ""))} '
                           f'<span class="pv-state pv-{html.escape(claims[c].get("state", ""))}">{html.escape(claims[c].get("state", ""))}</span></li>'
@@ -228,6 +260,10 @@ def chapter_page(path, i, files, book, talk, claims, edition_title, foot=None):
             f'{nav}\n<article class="rv-ch pv-ch"><h1>{html.escape(title)}</h1>\n' + '\n'.join(blocks) +
             (f'\n<section class="pv-claims"><h2>The numbers in this chapter</h2><p class="note">From the researcher\'s register (<code>claims/register.json</code>).</p><ol>{claims_list}</ol></section>' if used else '') +
             f'\n</article>\n{nav}\n</div>\n')
+    if kept is not None:                                              # a duplicate whose first copy is in a dropped section would be numbered differently: say so
+        every = [p for sc in scenes for p in sc['paragraphs']] + paras
+        if sum(1 for p in every if p.get('in_print') is False) != len(every) - kept_n:
+            print(f'warning: {path.name}: the paragraphs that print do not add up ({len(every) - kept_n} expected left out, {sum(1 for p in every if p.get("in_print") is False)} marked)', file=sys.stderr)
     if paras:
         scenes.append({'record_id': None, 'paragraphs': paras, 'record': None, 'tokens': []})
     return title, scene, linked, body, recs, {'file': str(path.relative_to(ROOT)), 'title': title, 'page': f'{ch}', 'scenes': scenes}
@@ -245,11 +281,11 @@ def main(talk_path):
         OUT.mkdir(parents=True, exist_ok=True)
         files = [(booktxt.parent / l.strip()).resolve() for l in booktxt.read_text().splitlines() if l.strip() and not l.startswith('#')]
         files = [f for f in files if f.exists()]
-        chapters = []
-        editions.append({'edition': slug, 'title': edition_title, 'online': f'{SITE}/review/{slug}/index.html', 'chapters': chapters})
+        chapters, dropped = [], drop_headings(booktxt)
+        editions.append({'edition': slug, 'title': edition_title, 'online': f'{SITE}/review/{slug}/index.html', **({'left_out_of_print': dropped} if dropped else {}), 'chapters': chapters})
         toc, scenes, links = [], 0, 0
         for i, f in enumerate(files):
-            title, n, k, body, recs, data = chapter_page(f, i, files, book, talk, claims, edition_title)
+            title, n, k, body, recs, data = chapter_page(f, i, files, book, talk, claims, edition_title, drop=dropped)
             chapters.append(data)
             targets += [qr(slug, f, rid, words) for rid, words in recs]
             (OUT / f'{f.stem}.html').write_text(body)

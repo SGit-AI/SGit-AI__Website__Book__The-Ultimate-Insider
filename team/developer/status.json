@@ -1,7 +1,7 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "developer",
- "as_of": "2026-11-04T02:21:00Z",
+ "as_of": "2026-11-04T03:18:00Z",
  "round": 2,
  "state": "hourly (ACC1): the full book is the book (FB1); its online pages current and checked for layout each wake; the older editions left online as they were; review steps as the reviewer agent (TA1)",
  "done": [
@@ -208,6 +208,10 @@
   {
    "what": "the page check on the full book's published PDF (140 pages): 8 tails, 5 gap pages; second list to the publisher and designer (developer__034) and a reply to the publisher (developer__035); print_check.py compares runs and checks a given PDF; a matching bug fixed (938 of 1019 paragraphs lost to a false jump after the publisher's re-layout; bounded search and a floor before a map is written); the local build found a page longer than CI's",
    "when": "2026-11-04"
+  },
+  {
+   "what": "the third page check, on the release of 03:11 UTC (140 pages): 9 tails, 11 gaps (5 borderline), what changed since the last list, to the publisher and designer (developer__036) with a yes to the figure-names offer; the full book's online printed view now shows only what prints (29 paragraphs of 'Where this came from' marked in_print:false by the build's own drop rule; all other paragraph ids unchanged); print_check.py marks borderline gaps; TG1 noted (20:00 London is the aim, not a freeze)",
+   "when": "2026-11-04"
   }
  ],
  "next": [
@@ -216,8 +220,8 @@
    "why": "conductor__025; board 009"
   },
   {
-   "what": "Each wake: run print_check.py on the build as it stands, mail the publisher and designer what changed, keep the full book's online pages current; the older editions are deferred (FB1)",
-   "why": "conductor__036, conductor__037 (FB1)"
+   "what": "Each wake: the page check on the latest published PDF, mailing the publisher and designer only what changed; the last page check on the last published PDF around 20:00 London (TG1: the aim, not a freeze), and on after it if the book needs it; pair the vector figures when the publisher's build prints figure names",
+   "why": "conductor__036, conductor__037 (FB1), conductor__039 (TG1), publisher__002"
   },
   {
    "what": "the sealed note, version 1, fictional notes only, under security's conditions",

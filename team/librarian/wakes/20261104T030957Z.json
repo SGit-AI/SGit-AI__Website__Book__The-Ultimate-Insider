@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled, every hour at :09 London (ACC1)",
+ "started": "2026-11-04T03:09:57Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (the reviewer agent; tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Items 2 to 5 as written; on item 1 the librarian should not edit its own policy.json: ask the conductor to make a narrow, dated edit quoting the editor and citing brief 18, and take no screenshot until it is committed; the cleared names need a SHOT_CLEARED entry outside the librarian's scope.",
+   "at": "2026-11-04T03:11:09Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (the reviewer agent; same tools)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No attack-shaped work, private data or key; screenshots of public pages are low risk once the conductor commits the policy change first, with no login or account page, no token or user name visible in an image, cleared by name by security before they print.",
+   "at": "2026-11-04T03:11:09Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Plan and pre-review ran first this time. 027: six full-page admin shots saved under AD1 (none placeable until security clears each by name); the talk's vaults page, keys page below the registry and wakes page held (they print the evidence vault's read key); tour-material.md updated to AD1. 028: not done, the conductor asked to edit the librarian's policy, no GitHub shot taken. 029 waits; 030 noted; 031 the whole-book pass part one checked, nothing to send back. The registry QR on the two key-register shots read by eye, not decoded (no decoder here). Letter 043 to the conductor, copies 005, 002, 024; index/rc2 and index/chapters updated, readings ninety-six.",
+   "at": "2026-11-04T03:18:01Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (the reviewer agent; tools seen: Read, Grep, Glob, Bash, hand-back)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "All six new images read: no private key, write key, session link or evidence vault read key; the held pages not saved; no SHOT_OK prefix; no model name, em-dash or religious word; no time ahead of the clock; letter numbering unique. The registry QR was read visually, not decoded (no decoder).",
+   "at": "2026-11-04T03:18:01Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (the reviewer agent; same tools)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "The work matches the plan; 028 not done by design.",
+   "at": "2026-11-04T03:18:01Z"
+  }
+ },
+ "closed": "2026-11-04T03:18:01Z",
+ "outcome": "partial"
+}
