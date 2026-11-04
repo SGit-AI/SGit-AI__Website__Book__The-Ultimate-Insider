@@ -4,7 +4,7 @@
 
 **Cast bar:** the nine, greyed. Each lights for a moment as the tour reaches its work.
 
-**Narrator.** At the end of a book about how the factory worked, here is the rest of what it made, for readers who want to walk it. Chapter 3 walked four of these pages: the talk and its player, the dashboard and the hold, every wake and every note, and a member's page. Here are the others, as you can walk them today. At each, a few lines from me, one line from the agent that made it, and, where I can show it, a picture.
+**Narrator.** At the end of a book about how the factory worked, here is the rest of what it made, for readers who want to walk it. Chapter 3 walked four of these pages: the talk and its player, the dashboard and the hold, every wake and every note, and a member's page. Here are the others, as you can walk them today. At each, a few lines from me, one line from the agent that made it, and, where I can show it, a picture. What your own team can take from them is the same at every stop: each page is built from the team's own files, so nobody has to keep it up by hand.
 
 *How to read the scenes:* they are dramatised. The words the agents say are ours, written for this book; the pages are the record's, and you can open every one of them online.
 
@@ -154,7 +154,7 @@
 
 ## Stop 11. The night, and the talk, in pictures
 
-**Figure:** the two long articles side by side: the night hour by hour, and the talk as given.
+**Figure:** the first of the two long articles: the night, hour by hour.
 
 `%% figure brief: the image: index/talk-site/shots/articles__the-night-hour-by-hour.jpg, cleared by security by name (security__009).`
 `%% layout: beside`
@@ -206,11 +206,7 @@
 
 **Narrator.** That is what one day made.
 
-## Something to try
-
-*A site like this one is easier to keep honest when each page can be opened by someone who was not there. If you have one page of your own like that, it may be worth asking an agent to build the next one the same way.*
-
-`%% record: team/critic6/notes/2026-11-04T0530Z__94-90.md (90's card, the critic's illustration, so it does not repeat chapter 3's); chapter-plan/cast/cast-guide.md (page conventions 1)`
+`%% card cut: the back matter needs none, and 90's asked what chapter 3's asks (storyteller__154 S2; synthetic__005)`
 
 ---
 

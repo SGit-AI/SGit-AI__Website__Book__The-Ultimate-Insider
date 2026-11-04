@@ -17,7 +17,7 @@
 - To **lock** a part, or **freeze** it, is to mark it final, so that no agent may change it again. *(chapter 16)*
 - The **mailroom** is a folder per member where others leave it letters. *(chapter 10)*
 - A **member** is a role on the team: a page of rules, a folder and a place on the clock, held by one session at a time. *(chapter 6)*
-- An **open wake** is one that started and never closed on the team's branch, like deck's, still open when the hold came. *(chapter 16)*
+- An **open wake** is one that started and never closed on the team's branch, like one agent's that was still open when the hold came. *(chapter 16)*
 - The **player** is the part of the talk's site that let me press play on stage. *(chapter 1)*
 - A **repository** is the project's folder, with its whole history kept. *(chapter 4)*
 - A **reviewer** is a second agent that reads the plan before the work and the result after it. *(chapter 7)*
@@ -25,7 +25,7 @@
 - A **session** is one agent's working life: the conversation it runs in, from its first instruction to its last. *(chapter 20)*
 - A **wake** is one turn of work by one agent. *(chapter 3)*
 - A **wake record** is the file each wake leaves behind, with every step's verdict and a sentence on why. *(chapter 7)*
-- A **Wardley map** is a picture that shows what something depends on and how settled each part is. *(chapter 8)*
+- A **Wardley map** is a picture that shows what something depends on and how settled each part is. *(chapter 1)*
 
 ---
 

@@ -300,6 +300,27 @@ for f in $(git ls-tree -r --name-only 298be4e team | grep '/policy.json$'); do e
 for c in bd3cdad 298be4e; do for f in $(git ls-tree -r --name-only $c team | grep '/policy.json$'); do git show $c:$f | python3 -c 'import json,sys;print(json.load(sys.stdin).get("status"))'; done | sort | uniq -c; done
 ```
 
+## C084: The talk's E02, E07 and E13 pieces: grant, mandate and excess for abp.sgit.ai's five published examples
+
+- **State:** checked.
+- **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `0ffa9c8 (E02), eaf914f (E07), 842a8bd (E13)`.
+- **Cited in:** chapter 09.
+
+```
+git show 842a8bd:src/static/studio/data/abp-examples.json | python3 -c "import json,sys;[print(e['name'],e['grant'],e['mandate'],e['aligned'],e['excess'],e['unbounded_excess'],e['rows_measured']) for e in json.load(sys.stdin)['examples']]"
+```
+
+## C086: The talk's E12 piece: the coding agent's excess by kind, and what the probes held
+
+- **State:** open.
+- **Source:** SGit-AI__Website__Presentation__The-Ultimate-Insider, at `842a8bd`.
+- **Cited in:** chapter 09.
+- **Open:** only for the piece's '8 of 12', a projection of what the designed parts would bound, which no data file states and which the book does not print; every other number of the piece is checked.
+
+```
+git show 842a8bd:src/static/studio/data/abp-examples.json | python3 -c "import json,sys,collections;e=json.load(sys.stdin)['examples'][0];x=[r for r in e['rows'] if not r['in_mandate']];print(len(x),collections.Counter(r['mandate_stance'] for r in x),[r['capability'] for r in x])"
+```
+
 ## C087: Wakes by trigger: scheduled, started by the editor, and follow-ups, by hour
 
 - **State:** checked.
@@ -640,4 +661,4 @@ python3 claims/book-team-stats.py 05a9510d  # the commit this entry stands at; w
 
 The researcher's register, as it stood on the morning of 4 November 2026, and every id the full book cites, each in the register with a command. Set from the researcher's appendix file, refreshed that morning.
 
-`%% record: claims/appendix-a-150.md (researcher__001, 003 and 006 to writer4: refreshed 4 November, 60 entries, C120 C127 C130 out until cited, C068 out, C011 C037 C081 C089 settled, C113 to C131 added, C126 corrected); claims/register.json`
+`%% record: claims/appendix-a-150.md (researcher__001, 003 and 006 to writer4: refreshed 4 November, 62 entries, rebuilt 18:36 after the four writers' last landings (researcher__010), C068 out, C011 C037 C081 C089 settled, C113 to C131 added, C126 corrected); claims/register.json`
