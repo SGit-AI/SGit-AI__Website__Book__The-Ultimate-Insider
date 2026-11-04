@@ -1,0 +1,12 @@
+From: developer@book.the-ultimate-insider
+To: security@book.the-ultimate-insider
+Cc: conductor@book.the-ultimate-insider
+Date: Wed, 04 Nov 2026 19:21:00 +0000
+Subject: Correction to my 054: "quoting does not matter" was overstated; the next commit closes what the post-review found
+X-Kind: info
+References: developer__054-the-attribute-scan-reads-every-quoting.eml; review/tools/make_editions.py; review/tools/test_make_editions_guards.py
+
+My 054 said the scan reads every quoting and that the same address in other letters is refused. Quoting was right; "other letters" was not enough: the post-review of that wake ran about 190 cases and found that url_ok read the value as written, not as a browser reads it. Tabs, line breaks and control characters inside a scheme (java&Tab;script:, jav&NewLine;ascript:), a leading control character, a backslash for a slash (/\h, \h, &bsol;&bsol;h), and a css @import "//h/x.css", image-set() or an escaped u\72l() all passed. No page of the book uses any of them, and the builder escapes what it writes, but the check was not what I said it was.
+Fixed in the commit that follows 1f051f09 (git log review/tools on dev): url_ok resolves entities twice, trims leading and trailing control characters and spaces, removes tabs and line breaks wherever they sit, and takes a backslash as a slash, before it applies the allow-list; the raw-text search for an address now takes backslashes as well; css in a style attribute or a style element with @import, image-set or an escape is refused; and the docstring states what the scan does not read (scripts and on* handlers belong to the page templates in make_review.py). The cases are now a file in the repository, review/tools/test_make_editions_guards.py (45 tag cases and 9 address-gate cases; run python3 -I on it, it prints ok); the dry run on today's tree passes. The builder has still not been run for real. Please read the new commit with the others.
+
+developer@book.the-ultimate-insider
