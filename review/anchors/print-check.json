@@ -1,9 +1,9 @@
 {
  "about": "The full book's printed pages checked for pages that may not look right (conductor__036). Written by review/tools/print_check.py: page numbers, chapter titles, counts and sizes only.",
  "edition": "rc2-150",
- "source": "a PDF given by hand (full.pdf, created Wed Nov  4 04:18:11 2026 UTC); its chapters are taken to be today's",
- "pdf_pages": 137,
- "chapters_hash": "6c65d111522cc65d",
+ "source": "a PDF given by hand (full.pdf, created Wed Nov  4 05:13:28 2026 UTC); its chapters are taken to be today's",
+ "pdf_pages": 136,
+ "chapters_hash": "fc0d71afb4606573",
  "thresholds": {
   "spill_fill_below": 0.25,
   "gap_fill_below": 0.7,
@@ -13,27 +13,20 @@
  "chapters_found": 29,
  "chapters": 29,
  "counts": {
-  "chapter_end_spill": 7,
-  "gap_page": 10
+  "chapter_end_spill": 6,
+  "gap_page": 9
  },
  "flags": [
   {
    "kind": "chapter_end_spill",
-   "page": 113,
+   "page": 112,
    "chapter": "Principles, and build your own",
    "lines": 1,
    "fill": 0.02
   },
   {
    "kind": "chapter_end_spill",
-   "page": 62,
-   "chapter": "The plumbing",
-   "lines": 3,
-   "fill": 0.08
-  },
-  {
-   "kind": "chapter_end_spill",
-   "page": 131,
+   "page": 130,
    "chapter": "The words used",
    "lines": 4,
    "fill": 0.08
@@ -47,21 +40,21 @@
   },
   {
    "kind": "chapter_end_spill",
-   "page": 28,
+   "page": 29,
    "chapter": "Hour two: the rules written",
    "lines": 5,
    "fill": 0.16
   },
   {
    "kind": "chapter_end_spill",
-   "page": 93,
+   "page": 92,
    "chapter": "How do we contain this",
    "lines": 4,
    "fill": 0.16
   },
   {
    "kind": "chapter_end_spill",
-   "page": 134,
+   "page": 133,
    "chapter": "Appendix B: the control register",
    "lines": 12,
    "fill": 0.24
@@ -77,16 +70,7 @@
   },
   {
    "kind": "gap_page",
-   "page": 99,
-   "chapter": "Sessions end",
-   "fill": 0.56,
-   "lines": 21,
-   "raster_figure_here": false,
-   "borderline": false
-  },
-  {
-   "kind": "gap_page",
-   "page": 128,
+   "page": 127,
    "chapter": "The tour, at length",
    "fill": 0.58,
    "lines": 14,
@@ -113,11 +97,20 @@
   },
   {
    "kind": "gap_page",
-   "page": 89,
+   "page": 88,
    "chapter": "How do we contain this",
    "fill": 0.67,
    "lines": 24,
    "raster_figure_here": false,
+   "borderline": true
+  },
+  {
+   "kind": "gap_page",
+   "page": 120,
+   "chapter": "The tour, at length",
+   "fill": 0.68,
+   "lines": 7,
+   "raster_figure_here": true,
    "borderline": true
   },
   {
@@ -131,16 +124,7 @@
   },
   {
    "kind": "gap_page",
-   "page": 122,
-   "chapter": "The tour, at length",
-   "fill": 0.68,
-   "lines": 7,
-   "raster_figure_here": true,
-   "borderline": true
-  },
-  {
-   "kind": "gap_page",
-   "page": 118,
+   "page": 117,
    "chapter": "The tour, at length",
    "fill": 0.69,
    "lines": 24,
@@ -149,7 +133,7 @@
   },
   {
    "kind": "gap_page",
-   "page": 126,
+   "page": 125,
    "chapter": "The tour, at length",
    "fill": 0.69,
    "lines": 7,
@@ -159,44 +143,27 @@
  ],
  "raster_figures_over_45_percent_on_pages": [],
  "figures": {
-  "figure_lines": 103,
-  "introduced_by_a_heading_not_checked": 26,
-  "with_a_paragraph_before_them_in_the_section": 77,
+  "figure_lines": 106,
+  "introduced_by_a_heading": 26,
+  "heading_checked": 25,
+  "heading_page_not_found": 1,
+  "begin_on_a_later_page_than_their_heading": 0,
+  "with_a_paragraph_before_them_in_the_section": 80,
   "not_found": 0,
   "begin_on_a_later_page_than_that_paragraph_ends": 0
  },
  "since_last": {
-  "previous_pdf_pages": 137,
+  "previous_pdf_pages": 136,
   "previous_counts": {
-   "chapter_end_spill": 7,
-   "gap_page": 10,
-   "figure_apart": 2
+   "chapter_end_spill": 6,
+   "gap_page": 9
   },
-  "fixed": [
-   {
-    "kind": "figure_apart",
-    "chapter": "The tour: what a factory made in a day",
-    "before": 1,
-    "now": 0
-   },
-   {
-    "kind": "figure_apart",
-    "chapter": "A second team, reading cold",
-    "before": 1,
-    "now": 0
-   }
-  ],
+  "fixed": [],
   "new": [],
   "remaining": [
    {
     "kind": "chapter_end_spill",
     "chapter": "Principles, and build your own",
-    "before": 1,
-    "now": 1
-   },
-   {
-    "kind": "chapter_end_spill",
-    "chapter": "The plumbing",
     "before": 1,
     "now": 1
    },
@@ -238,12 +205,6 @@
    },
    {
     "kind": "gap_page",
-    "chapter": "Sessions end",
-    "before": 1,
-    "now": 1
-   },
-   {
-    "kind": "gap_page",
     "chapter": "The tour, at length",
     "before": 5,
     "now": 5
@@ -270,11 +231,11 @@
  },
  "cannot_tell": [
   "whether a gap or a short page is meant (a divider, an opener, a page left to a drawing): it measures how far the content reaches",
-  "0 of 103 figure lines could not be found by their printed caption; 26 sit straight under a heading and are not checked; for the rest it finds where the caption begins, not whether the drawing under it is on the same page",
+  "0 of 106 figure lines could not be found by their printed caption; 26 sit straight under a heading (1 of them with the page of the heading not found, not checked), which counts as what introduces them; for the rest it finds where the caption begins, not whether the drawing under it is on the same page",
   "how a page looks beyond how far its content reaches"
  ],
  "paragraphs_found_on_a_page": {
-  "found": 807,
-  "of": 807
+  "found": 809,
+  "of": 809
  }
 }

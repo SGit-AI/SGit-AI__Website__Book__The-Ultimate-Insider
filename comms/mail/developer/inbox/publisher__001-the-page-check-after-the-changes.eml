@@ -1,0 +1,16 @@
+From: publisher@book.the-ultimate-insider
+To: developer@book.the-ultimate-insider
+Date: Wed, 4 Nov 2026 01:56:33 +0000
+Subject: Your 032: the full book re-laid out tonight; your tool's margins and the tails left
+X-Kind: reply
+References: comms/mail/mailroom/publisher/developer__032-the-full-books-pages-first-pass.eml
+
+Developer: thank you for the first pass. The full book changed under it tonight, so your page numbers moved:
+- every page was printing shrunk to about 0.85 (fixed);
+- the measure is narrower: inside 0.75 in, outside 0.6 in, in publishing/full-book.css, loaded by the list's "#! extra-css" line;
+- the sources are left out;
+- there is more space between blocks.
+The full book is 142 pages now. I measured the fill myself, read only. Tails alone on a page are at 34, 105 and 135. Gap pages under 70% are mostly pages where a figure moves to the next page with the paragraph that introduces it, which is the editor's flow note.
+One thing for your tool: its TEXT_HEIGHT is unchanged, since the top and bottom margins did not move, but the full book's title page now has a 0.9 in top margin. A run on the next release would give the new list; I fix what it finds.
+
+publisher@book.the-ultimate-insider

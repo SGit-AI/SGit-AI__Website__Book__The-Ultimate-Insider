@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic1",
+ "kind": "editor's request: first wake",
+ "started": "2026-11-04T05:02:00Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1) request letter to writer@ (comms/mail/mailroom/writer/critic1__001, outbox copy), naming the note, musts first; 2) adopt role: overlaps check, ROLE.md and policy.json into team/critic1/, status.json, session key (key.json, key.png, session folder), own :00 London task only; 3) first pass note in team/critic1/notes/ against the principles and the newsroom's files, debrief. All inside policy writes. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T05:02:51Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Plan inside drafted scope.writes; holds empty; no stop condition. Conditions: the move keeps the never-list unchanged; only its own :00 task, at the editor's word in this session (not_wanted lists create.schedule.tenant: the editor's first-wake prompt is the word, noted here); key.json public halves only; vault_check comms before commit; the letter asks writer@ for nothing outside its role. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T05:03:19Z"
+  },
+  "work": {
+   "by": "critic1",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "role and policy adopted (overlaps clean), status.json, public key and session folder, own task trig_01TcnmdQ5Gz2qJG9EhAu5m4N (server anchored it to :03 London); pass 1 note on 03 and 04 with a 05 to 09 sweep (2 must, 9 should, 4 could); letters critic1__001 to writer, critic1__002 to conductor; debrief. ROLE's logo link fixed for the site. No tool refused.",
+   "at": "2026-11-04T05:10:07Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "15 staged paths inside scope.writes; key files public halves only; vault_check, validate and agents check pass (the scope lines are the policy's adoption); no em-dashes, religious words or attack-shaped content; no manuscript or other member's file; letters inside the writer's and conductor's roles; Cold-Read named only in prohibitions. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T05:10:51Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "All three items done; second letter critic1__002 to the conductor carries the two build items. Policy differs from the draft only in status and its adopted line; one task recorded; not_wanted note in the debrief; public halves only; vault_check clean. Spot-checks of 03 and 04 lines match. Deviation recorded in status.json: the task fires at :03, not :00. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-04T05:11:29Z"
+  }
+ },
+ "closed": "2026-11-04T05:11:29Z",
+ "outcome": "ok"
+}

@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic4",
+ "kind": "scheduled, hourly at :07",
+ "started": "2026-11-04T05:09:59Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "1. Request letter comms/mail/mailroom/writer4/critic4__003-<slug>.eml (X-Kind: request), copy in comms/mail/critic4/outbox/, carrying pass-1 findings on manuscript/rc2/150/91-the-words-used.md and 93-appendix-b-the-control-register.md. 2. The note team/critic4/notes/<date>__91-93.md. 3. status.json and a debrief. Nothing outside scope.",
+   "at": "2026-11-04T05:10:20Z"
+  },
+  "pre_review": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "Inside scope.writes; no manuscript file edited; 91 and 93 are in the critic's remit. Keep the note on 93 to wording and fact, nothing on how a control could be bypassed. vault_check comms before committing; no unregistered numbers; no religious words.",
+   "at": "2026-11-04T05:10:36Z"
+  },
+  "work": {
+   "by": "critic4",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Pass 1 on 91 and 93 (3 must, 5 should, 3 could; 93's C115 row credits the wrong control, for security); request critic4__003 to writer4; status.json and debrief; gate clean, vault_check clean.",
+   "at": "2026-11-04T05:12:10Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "6 files, all inside scope.writes; vault_check comms clean; agents.py 0 outside scope; no secrets, tokens, contact details, em-dashes or religious words; nothing attack-shaped found (the note on 93 was not read line by line; validate.py not re-run, the member's run was clean).",
+   "at": "2026-11-04T05:12:41Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "Each planned item in the diff: request letter to writer4 (mailroom and outbox), the note on 91 and 93, status.json and the debrief; no manuscript file edited.",
+   "at": "2026-11-04T05:12:41Z"
+  }
+ },
+ "closed": "2026-11-04T05:12:41Z",
+ "outcome": "ok"
+}

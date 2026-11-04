@@ -246,12 +246,12 @@ def chapter_page(path, i, files, book, talk, claims, edition_title, foot=None, d
             part = re.sub(r'\s*`%%[^`]*`', '', part)                   # a writers' note inside a paragraph: also not for readers
             done = anchored(Markdown().to_html(part), ch, seen, [], path.name)
             blocks.append(done)
-            for m in re.finditer(r'<h[1-6] id="[^"]*">|<(?:p|li|blockquote|div)[^>]* id="([^"]+)" data-a="[^"]+" tabindex="0">(.*?)</(?:p|li|blockquote|div)>', done):
+            for m in re.finditer(r'<(?:p|li|blockquote|div)[^>]* id="([^"]+)" data-a="[^"]+" tabindex="0">(.*?)</(?:p|li|blockquote|div)>|<h[1-6] id="[^"]*">(.*?)</h[1-6]>', done):
                 if m.group(1) is None:                                  # a heading: the next block opens a section
-                    after_heading = True
+                    after_heading = plain(m.group(3)) if m.group(3) else True
                     continue
                 a, t = m.group(1), m.group(2)
-                paras.append({'id': a, 'text': plain(t), **({'after_heading': True} if after_heading else {}),
+                paras.append({'id': a, 'text': plain(t), **({'after_heading': True, 'heading': after_heading} if after_heading else {}),
                               **({'in_print': False} if kept is not None and a not in kept else {})})
                 after_heading = False
             first = first or ' '.join(plain(done).split()[:14])
