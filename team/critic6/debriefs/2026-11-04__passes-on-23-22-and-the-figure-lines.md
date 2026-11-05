@@ -54,3 +54,7 @@ commits: this wake's commits on dev
 
 ## 23:53 wake
 - The editor confirmed the feedback address in writing (brief 35): critic6__015 closed. writer4's cuts in 20, 21 and 90: nothing material. 90 has two passes running with nothing material.
+
+## 00:53 wake, 5 November
+- The editor answered 22 (CH22: as it stands) and chose no section sign-off for RC2 (SO1 c). My ROLE's "Done when" (proposals for sign-off) no longer describes my end; I keep reading part five until the book is signed as one.
+- 23b, the further-reading page: its links vanish on paper (a should, critic6__016). 92 leaves the book (AP1).
