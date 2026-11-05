@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled wake, 00:12",
+ "started": "2026-11-05T00:15:19Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions for Claude_Docs, github, Gmail in context, no tools for them). Plan run before any file was touched: page check on the PDF of 00:06, online view rebuilt for real because the chapters changed (writer3 28723fca), after the guard test, mail only changes counted from 063 (developer__064); housekeeping with exit codes; the conductor's pages read only. Note: TG2 is defined in conductor__044 (comms/mail/mailroom/developer/), not in WAKE.md.",
+   "at": "2026-11-05T00:16:00Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them). Within policy: untrusted PDF handling; writes inside the developer's paths; vault_check; exit codes; branch and dev only.",
+   "at": "2026-11-05T00:16:00Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
