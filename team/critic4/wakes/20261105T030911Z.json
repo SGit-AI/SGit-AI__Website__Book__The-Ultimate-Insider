@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "writer4__021 into done/; PDF rebuilt in the scratchpad; 93 closed; nothing new; 21's first page still the publisher's; note, status, debrief; no letter; gate clean.",
    "at": "2026-11-05T03:11:15Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "5 files in scope.writes; 0 outside scope; no PDF, image, key, token, contact detail, em-dash, religious word, attack-shaped content or signed mark.",
+   "at": "2026-11-05T03:11:44Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "Mail in done/, note, debrief, status as planned; no letter.",
+   "at": "2026-11-05T03:11:44Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-05T03:11:44Z",
+ "outcome": "ok"
 }
