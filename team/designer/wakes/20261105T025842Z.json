@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Done in order: the full book built in the scratchpad only and 00 read (five pages not two; page 4 nearly empty; the house caption a page before the house), three layout points to the publisher in 158; cast-row-personas gains security empty chair as a tenth greyed card (a fix to my own figure, as item 1 allowed); LAB 42 rerun: ch12-book-table seats all twenty-two named at one long table (the round one could not name them at 9 pt) and ch13-two-sessions, every other LAB 42 drawing byte-identical, no session id or key in either; kdp-full-cover-130-white at 129 interior pages, the 142 files removed so one cover ships, Leanpub byte-identical; lab PDF 194 pages; letters 158, 159; four letters to done/; vault_check, agents check, build and gate clean.",
    "at": "2026-11-05T03:06:37Z"
+  },
+  "post_review": {
+   "by": "security-reviewer",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Diff holds to plan and scope. The 142 cover files are gone and only kdp-full-cover-130-white.* remain; the cover SVG text has no price, address, link or contact (only the XML namespace URL). ch12-book-table and ch13-two-sessions print only team folder names and the stated no key or session id note; cast-row-personas adds only the greyed dashed security card; publishing/ is untouched. No em-dashes or religious words in new prose, and letters 158 and 159 and status as_of are all 03:04Z, before the 03:06:37Z commit.",
+   "at": "2026-11-05T03:07:18Z"
+  },
+  "post_check": {
+   "by": "conductor-reviewer",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "The work went to plan: the book was built in the scratchpad only, LAB 42 changed only ch12-book-table and ch13-two-sessions, the 142 cover files are gone and the 130 cover ships alone, and letter 158 states that 129 pages print as 130. The REALITY.md append, the debrief and status.json match the commit, and as_of and all letter Dates are 03:04Z, before the 03:06:37Z commit. One extra, within scope and declared: cast-row-personas in LAB 27 gained the empty chair card.",
+   "at": "2026-11-05T03:07:42Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-05T03:07:57Z",
+ "outcome": "ok"
 }
