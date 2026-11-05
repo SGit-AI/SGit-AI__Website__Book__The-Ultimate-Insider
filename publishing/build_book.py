@@ -144,6 +144,13 @@ def directives(book=None):
             if re.match(r"\s*#!\s*speaker-tags\s*$", line):
                 FIT["speaker_tags"] = True
                 continue
+            m = re.match(r"\s*#!\s*title-page:\s*(.+?)\s*$", line)
+            if m:  # the editor, 5 November 2026 (brief 51): the title page as a designed full page, in place of pandoc's
+                tp = os.path.realpath(os.path.join(ROOT, m.group(1).strip()))
+                if not tp.startswith(os.path.join(ROOT, "lab", "experiments") + os.sep) or not os.path.isfile(tp):
+                    sys.exit(f"build_book: title-page must be a file in lab/experiments/: {m.group(1)}")
+                FIT["title_page"] = tp
+                continue
             m = re.match(r"\s*#!\s*placed-spread:\s*(.+?)\s*$", line)
             if m:  # OS3: a chapter printed as the designer's two placed pages (designer 160)
                 parts = [x.strip() for x in m.group(1).split("|")]
@@ -647,6 +654,12 @@ def main():
                             ".cover { page: cover; break-after: page; margin: 0; }\n"
                             ".cover img { display: block; width: 7.44in; height: 9.69in; max-width: none; max-height: none; }\n"
                             "header#title-block-header { padding-top: 0.4in; }\n")  # raised (the editor, 4 November 2026: "feels quite low")
+                if FIT.get("title_page"):  # brief 51: a full page of its own, no margins, no running head, no number
+                    css += ("@page titlepage { margin: 0; @top-center { content: none; } @bottom-left { content: none; }"
+                            " @bottom-right { content: none; } @bottom-center { content: none; } }\n"
+                            ".titlepage { page: titlepage; break-after: page; margin: 0; }\n"
+                            ".titlepage img { display: block; width: 7.44in; height: 9.69in; max-width: none; max-height: none; }\n"
+                            "header#title-block-header { display: none; }\n")
                 head.write(f"<style>\n{css}</style>\n")
             cover = []
             if a.cover:
@@ -654,6 +667,12 @@ def main():
                 with open(before, "w", encoding="utf-8") as f:
                     f.write(f'<div class="cover"><img src="{os.path.abspath(a.cover)}" alt="The front cover"></div>\n')
                 cover = ["--include-before-body", before]
+            if FIT.get("title_page"):
+                tpage = os.path.join(work, "title-page.html")
+                with open(tpage, "w", encoding="utf-8") as f:
+                    f.write(f'<div class="titlepage"><img src="{FIT["title_page"]}" alt="The title page: '
+                            f'One Human, Nine Agents, Nineteen Hours, by Dinis Cruz, with the day and who arrived when"></div>\n')
+                cover += ["--include-before-body", tpage]
             args = ["--to", "html5", "--standalone"] + cover + ([] if a.no_toc else ["--toc", "--toc-depth=1", "--variable", "toc-title=Contents"]) + ["--section-divs", "--reference-location=section",
                     "--include-in-header", head.name, "--variable", "document-css=false", "--output", html]
             try:  # images inside the HTML: it is written to a temporary folder, where manuscript/'s relative paths break
