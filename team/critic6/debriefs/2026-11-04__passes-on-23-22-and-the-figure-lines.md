@@ -61,3 +61,8 @@ commits: this wake's commits on dev
 
 ## 01:52 wake, 5 November
 - 23b names its site (met). 93 is Appendix A, opened in the editor's words (AP2): nothing material, one could ("in that shape" promises a per-agent layout). 92 still in Book.txt; AP1 already routed to the publisher.
+
+## 02:53 to 11:54, 5 November
+- 02:53: 93's opening met; 92 out of the build list. 03:53 and 04:53 idle.
+- 05:53 to 10:54: six wakes found security's hold (a screenshot printed by pattern, not cleared by name, AD1) and did no work. The editor lifted it (brief 49).
+- 11:54: part five unchanged since 04:53; nothing outstanding from me.

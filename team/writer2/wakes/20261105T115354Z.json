@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer2",
+ "kind": "scheduled, hourly at :50",
+ "started": "2026-11-05T11:53:54Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Idle: status.json only; no mail, no hold (security's lifted); task hourly. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-05T11:54:54Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Only team/writer2/**; trailers; no em-dashes. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-05T11:54:54Z"
+  },
+  "work": {
+   "by": "writer2",
+   "model": "",
+   "verdict": "none",
+   "comment": "idle: no mail, no finding; status updated.",
+   "at": "2026-11-05T11:54:55Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Gate clean (1354); 0 outside scope; only status.json and the record; nothing private. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-05T11:57:13Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Idle, status only, as planned. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-05T11:57:13Z"
+  }
+ },
+ "closed": "2026-11-05T11:57:13Z",
+ "outcome": "idle"
+}
