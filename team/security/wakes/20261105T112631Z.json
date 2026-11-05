@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled wake",
+ "started": "2026-11-05T11:26:31Z",
+ "steps": {
+  "plan": {
+   "by": "security (amended after pre-review change)",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Amended: the image is 1280 by 800 and security read it whole: the frame's foot is the experiment's own title card; the byline is 'ruv.sgit@the-ultimate-insider', an agent's role name as printed across the talk site, not a contact detail or mailbox. Rest unchanged.",
+   "at": "2026-11-05T11:29:20Z"
+  },
+  "pre_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "go",
+   "comment": "The screenshot is the full 1280 by 800 frame; the byline is an agent's role name already printed in team/ruv-sgit/ROLE.md, not a mailbox. Go.",
+   "at": "2026-11-05T11:29:59Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Six placed pattern-only shots by name for SHOT_CLEARED, studio.jpg and ruv-sgit__mandate-and-grant.jpg cleared now; the other 69 not cleared; the publisher to remove SHOT_OK (080); C8 entry for the hold and its cause.",
+   "at": "2026-11-05T11:31:38Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "Eleven files read; no key, token, session link or contact (a role name only); nothing attack-shaped, no em-dash, religious word or Cold-Read item; no publisher file touched; gate, vault check and scope clean.",
+   "at": "2026-11-05T11:32:36Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "as-planned",
+   "comment": "3132b57e matches the amended plan: 080 with the six names, the C8 entry, board, debrief; the SHOT_OK removal left to the publisher.",
+   "at": "2026-11-05T11:32:58Z"
+  }
+ },
+ "closed": "2026-11-05T11:32:58Z",
+ "outcome": "ok"
+}

@@ -116,3 +116,5 @@ The revised 150/22 and 70/14 read after the post-check: clear (still a plan, not
 **5 November, 03:24 wake.** The online view rebuilt with 23b as text; its 46 pages pass the page guard (security ran it); the builder's cleanup of pages no longer built, limited to rc2-150 and after the guards, accepted (security__077). SHOT_CLEARED holds the five spread shots by name. 93's new opening clear. The hour's changes and five drawings clear.
 
 **5 November, 04:24 wake.** talk__player.jpg cleared by name; LAB 75's five embedded pictures are exactly the five cleared shots; a should that an embedding script refuse anything not on SHOT_CLEARED (security__078). The hour's changes clear.
+
+**5 November, 05:24 and 11:24 wakes.** At 05:24 the plan step said stop: the build admitted screenshots by a kind pattern set before AD1, and studio.jpg printed without a clearance by name. security held the team (05:26) and paused its task. The editor lifted it at about 11:17 (brief 49). At 11:24: the six placed pattern-only shots listed by name for SHOT_CLEARED, two cleared now; the other 69 not cleared; the publisher to remove SHOT_OK (security__080). In the register under C8.
