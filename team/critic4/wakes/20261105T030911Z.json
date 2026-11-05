@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic4",
+ "kind": "scheduled, hourly at :07",
+ "started": "2026-11-05T03:09:11Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "Light wake: writer4__021 into done/; PDF rebuilt in the scratchpad; print checks over part five (page 105 first); one short note; letter only if material; status.json, debrief.",
+   "at": "2026-11-05T03:09:44Z"
+  },
+  "pre_review": {
+   "by": "reviewer sub-agent (sonnet), in the same sub-agent as the plan",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "Writes under scope.writes; no HOLD; no sign-off, manuscript edit or main push; PDF in the scratchpad. vault_check comms.",
+   "at": "2026-11-05T03:09:44Z"
+  },
+  "work": {
+   "by": "critic4",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "writer4__021 into done/; PDF rebuilt in the scratchpad; 93 closed; nothing new; 21's first page still the publisher's; note, status, debrief; no letter; gate clean.",
+   "at": "2026-11-05T03:11:15Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "5 files in scope.writes; 0 outside scope; no PDF, image, key, token, contact detail, em-dash, religious word, attack-shaped content or signed mark.",
+   "at": "2026-11-05T03:11:44Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "Mail in done/, note, debrief, status as planned; no letter.",
+   "at": "2026-11-05T03:11:44Z"
+  }
+ },
+ "closed": "2026-11-05T03:11:44Z",
+ "outcome": "ok"
+}
