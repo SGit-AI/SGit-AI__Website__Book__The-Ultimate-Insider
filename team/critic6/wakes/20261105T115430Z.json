@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic6",
+ "kind": "scheduled, hourly at :52",
+ "started": "2026-11-05T11:54:30Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "hold lifted (160be749); since 0550bac8 only a Book.txt line for chapter 00's spread, nothing in part five; no mail or trailers: idle wake, status and debrief.",
+   "at": "2026-11-05T11:55:32Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "idle wake, status and debrief in team/critic6/**; no secrets, no other member's files, no stop condition.",
+   "at": "2026-11-05T11:55:49Z"
+  },
+  "work": {
+   "by": "critic6",
+   "model": "",
+   "verdict": "none",
+   "comment": "idle after the hold: part five unchanged since 04:53; status and debrief",
+   "at": "2026-11-05T11:55:49Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "only team/critic6 files; 0 outside scope; nothing sensitive; nothing signed.",
+   "at": "2026-11-05T11:56:50Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "part five unchanged since 0550bac8; debrief, status, wake record; idle as planned.",
+   "at": "2026-11-05T11:56:50Z"
+  }
+ },
+ "closed": "2026-11-05T11:56:50Z",
+ "outcome": "idle"
+}
