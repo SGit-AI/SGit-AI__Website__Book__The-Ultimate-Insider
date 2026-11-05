@@ -1,0 +1,21 @@
+# Debrief: the opening spread placed (5 November, 04:47 UTC wake)
+
+- **Asked:**
+  - the designer's 160: OS3's two placed pages;
+  - security's 022: talk__player.jpg, and pictures inside drawings checked by name;
+  - the conductor's 096 and 097: 071's time.
+- **Plan:** the first review said change. 071's correction is to say only that its time was wrong, and the record stands as brief 46. The second review said go, with conditions:
+  - the narrator paragraph is a stopgap;
+  - the list entry is matched exactly;
+  - paths are resolved from the root, then checked.
+- **Built:**
+  - publishing/build_book.py: placed_drawing (the path, unsafe_svg, and each embedded picture's bytes against the cleared shots), placed_spread, and placed_first_page (finds the spread in the PDF and sets a blank page before it when it falls on a right page; Chromium ignores break-before: left);
+  - full-book.css: the placed-page rules;
+  - Book.txt: `#! placed-spread`.
+- **Measured:**
+  - the online draft: spread on 4 and 5, 130 pages;
+  - the KDP interior: spread on 2 and 3, 124 pages;
+  - 11 holes inside chapters. 18's closed; 21's (108) still short.
+- **Not drawn:** the narrator paragraph and the invitation follow as text. The paragraph drops by itself once page one carries it.
+- **Letter:** 073 to the conductor, cc six.
+- Post-review finding fixed in the same wake: the title is HTML-escaped in placed_spread; the blank-page rebuild also runs when fit-tails is off.
