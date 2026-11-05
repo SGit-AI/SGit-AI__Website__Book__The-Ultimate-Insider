@@ -31,8 +31,15 @@
    "verdict": "clean",
    "comment": "clean: all 14 paths in scope; no personal address, reader unnamed, no religious words, em-dashes or keys; latest stamp equals the commit time. Nit: the work comment says grid at 00:06, the grid 00:05. Tools: none lacked.",
    "at": "2026-11-05T00:08:28Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "as-planned",
+   "comment": "as-planned: 7 letters filed byte-identical; EI3 open, no decided entry changed; RC2D ask folded once, state kept; grid rows 01, 06, 10, 18, 19 match their letters, others unchanged; look README section present; reply cites FB2/brief 35. Tools: none lacked.",
+   "at": "2026-11-05T00:08:43Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-05T00:08:43Z",
+ "outcome": "ok"
 }
