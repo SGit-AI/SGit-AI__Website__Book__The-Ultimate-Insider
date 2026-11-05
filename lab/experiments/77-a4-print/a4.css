@@ -9,3 +9,30 @@ html { zoom: 1.1111; }
 .titlepage { height: 267.3mm; background: #fbfaf6; display: flex; align-items: center; justify-content: center; overflow: hidden; }
 .titlepage img { width: 7.44in !important; height: 9.69in !important; }
 @page titlepage { margin: 0; }
+/* brief 53: the A4 edition's own fit. A chapter whose last page holds only a few lines (14 or fewer at A4: a line or two
+   and its "Try this" card) is set a little tighter, in up to four steps, until its end comes back onto the page before.
+   The build is run with --fit-most 14 --fit-max 4 for this edition only. */
+section.fit1 p { line-height: 1.38; }
+section.fit1 .try-this { margin: 8pt 0 6pt; }
+section.fit2 p { line-height: 1.34; }
+section.fit2 .try-this { margin: 6pt 0 4pt; padding: 5pt 9pt 6pt; }
+section.fit2 .try-this p { line-height: 1.32; margin-bottom: 3pt; }
+section.fit3 figure, section.fit3 .figure-todo { margin: 5pt 0 6pt; }
+section.fit3 h2 { margin-top: 9pt; }
+section.fit3 p { line-height: 1.3; orphans: 2; widows: 2; margin-bottom: 0.4em; }
+section.fit3 .speaker p { margin-bottom: 1.5pt; }
+section.fit3 .try-this { margin: 5pt 0 3pt; padding: 4pt 8pt 5pt; }
+section.fit3 .try-this p { line-height: 1.28; margin-bottom: 2pt; }
+section.fit3 table td, section.fit3 table th { padding-top: 1pt; padding-bottom: 1pt; }
+/* the fourth step, for an end that three could not bring back: the chapter set 4% smaller (still 7% larger than Crown Quarto) */
+section.fit4 { zoom: .96; }
+section.fit4 figure, section.fit4 .figure-todo { margin: 5pt 0 6pt; }
+section.fit4 h2 { margin-top: 9pt; }
+section.fit4 p { line-height: 1.3; orphans: 2; widows: 2; margin-bottom: 0.4em; }
+section.fit4 .speaker p { margin-bottom: 1.5pt; }
+section.fit4 .try-this { margin: 5pt 0 3pt; padding: 4pt 8pt 5pt; }
+section.fit4 .try-this p { line-height: 1.28; margin-bottom: 2pt; }
+section.fit4 table td, section.fit4 table th { padding-top: 1pt; padding-bottom: 1pt; }
+/* the control register's table: a size smaller at A4, so its last rows stay on its last full page */
+#appendix-a-the-control-register table { font-size: 8.4pt; }
+#appendix-a-the-control-register table td, #appendix-a-the-control-register table th { padding-top: 1.5pt; padding-bottom: 1.5pt; }

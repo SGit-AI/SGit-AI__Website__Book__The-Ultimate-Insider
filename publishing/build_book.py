@@ -514,6 +514,8 @@ def main():
     p.add_argument("--book", help="another list of files instead of manuscript/Book.txt (a sample's, say)")
     p.add_argument("--name", default=NAME, help=f"the output files' name (default {NAME})")
     p.add_argument("--subtitle", help="the title page's subtitle for this build only (a sample's), in place of metadata.yaml's")
+    p.add_argument("--fit-most", type=int, default=8, help="fit-tails: a chapter whose last page holds this many lines or fewer is set tighter (the A4 edition, brief 53: 14)")
+    p.add_argument("--fit-max", type=int, default=2, help="fit-tails: the tightest level (the A4 edition, brief 53: 3, with a4.css's .fit3)")
     p.add_argument("--type", choices=sorted(TYPE_SETS), default="A",
                    help="the type size: A, 9.5 pt body, the editor's choice (TS1, 1 November 2026), by default; B, 9 pt, kept to compare")
     p.add_argument("--stamp", help="a line printed at the top of every page, such as a sample's name and date")
@@ -623,7 +625,8 @@ def main():
                 m = re.search(r"^# (.+?)\s*(?:\{[^}]*\})?\s*$", fh.read(), re.M)
             titles.append(m.group(1).strip() if m else None)
         fit = {}  # chapter index: level (1, then 2), set on its heading as a class for full-book.css
-        for rnd in range(3 if FIT["on"] or FIT.get("placed") else 1):  # at most two rebuilds; a tail left after that is reported
+        rounds = a.fit_max + 2 if FIT["on"] or FIT.get("placed") else 1  # a rebuild per level, and one for the spread's pad
+        for rnd in range(rounds):  # a tail left after the last is reported
             for k, f in enumerate(files):
                 with open(f, encoding="utf-8") as fh:
                     text = fh.read()
@@ -713,13 +716,14 @@ def main():
                     continue
             if not FIT["on"]:
                 break
-            tails = [k for k in tail_chapters(pdf, [t or "" for t in titles]) if titles[k]]
-            if not tails or rnd == 2:
+            tails = [k for k in tail_chapters(pdf, [t or "" for t in titles], most=a.fit_most) if titles[k]]
+            tails = [k for k in tails if fit.get(k, 0) < a.fit_max] + [k for k in tails if fit.get(k, 0) >= a.fit_max]
+            if not tails or rnd == rounds - 1 or all(fit.get(k, 0) >= a.fit_max for k in tails):
                 for k in tails:
                     print(f"build_book: a short last page left in \"{titles[k]}\" (fit level {fit.get(k, 0)})", file=sys.stderr)
                 break
             for k in tails:
-                fit[k] = min(fit.get(k, 0) + 1, 2)
+                fit[k] = min(fit.get(k, 0) + 1, a.fit_max)
             print(f"build_book: fit-tails pass {rnd + 1}: " + "; ".join(f'"{titles[k]}" to {fit[k]}' for k in tails), file=sys.stderr)
         made.append(pdf)
     shutil.rmtree(marked, ignore_errors=True)
