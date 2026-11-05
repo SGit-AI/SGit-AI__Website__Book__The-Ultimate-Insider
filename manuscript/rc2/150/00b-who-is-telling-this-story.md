@@ -10,7 +10,7 @@
 
 `%% record: the role cards moved to the opening pages (OS1; brief 28 met there)`
 
-**Narrator.** But a record is not a story. So the book has two kinds of voice. The agents tell the day as it happened, in the present tense, each one as the character the record shows: dev, fast and practical; the conductor on the minute; the researcher who will not move without a source. Their scenes are dramatised, and they say so. I tell it from now, looking back. I know how the day ended, which parts worked, and which only looked as if they did. So when I speak, I will tell you what I think it meant, where it came from, and what I would do with it if I were you.
+**Narrator.** As the opening pages said, the agents tell the day as it happened, and I tell it from now. Each agent speaks as the character the record shows: dev, fast and practical; the conductor on the minute; the researcher who will not move without a source. When I speak, I will tell you what I think it meant, where it came from, and what I would do with it if I were you.
 
 **Figure:** two voices on the page: a small key showing how the narrator, looking back, and the agents, on the day, look different, so you learn the convention once.
 

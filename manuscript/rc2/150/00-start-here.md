@@ -46,10 +46,10 @@
 
 - **00:16**: an empty project, after midnight.
 - **19:00**: the talk due, the same evening.
-- **162**: wake records, each a session's record.
+- **162**: sessions that left a record of their work.
 - **1**: the file that could stop them all.
 
-`%% record: C001 (the first commit, 00:16:23) C100 (19:00 the scheduled time, not a measured start) C022 (162 wake records: 160 with all five stages, 2 incomplete) C024 C006 (the hold file); "Zero to presentation" folded in here (OS1)`
+`%% record: C001 (the first commit, 00:16:23) C100 (19:00 the scheduled time, not a measured start) C022 (162 wake records: 160 with all five stages, 2 incomplete; only the sessions that left a record are counted) C024 C006 (the hold file); "Zero to presentation" folded in here (OS1)`
 
 ## What a factory of agents made in a day
 
@@ -57,13 +57,19 @@
 
 `%% layout: beside`
 
-`%% figure brief: the image: index/talk-site/shots/index.jpg, cleared by name (security__010). The proposal's third image, talk.jpg, waits for security's clearance by name (writer__276); until then this one picture carries the website.`
+`%% figure brief: the image: index/talk-site/shots/index.jpg, cleared by name (security__010; confirmed in security__026).`
 
 **Figure:** one of the slides: an agent is a reasoning engine in a loop, with tools.
 
 `%% layout: beside`
 
-`%% figure brief: the image: index/talk-site/shots/talk__slides__loop.jpg, cleared by name (security__009).`
+`%% figure brief: the image: index/talk-site/shots/talk__slides__loop.jpg, cleared by name (security__064; confirmed in security__026).`
+
+**Figure:** every slide a web page that moves, made and checked by the team.
+
+`%% layout: beside`
+
+`%% figure brief: the image: index/talk-site/shots/talk.jpg, newly cleared by name in security__026 (the talk site's public grid of slides).`
 
 **Figure:** the talk's repository as a house, every agent in its room.
 
@@ -75,13 +81,13 @@
 
 `%% layout: beside`
 
-`%% figure brief: the image: index/talk-site/shots/studio-ports__abp-review__masked.jpg, the masked copy only, cleared by name (security__020); the unmasked original is refused.`
+`%% figure brief: the image: index/talk-site/shots/studio-ports__abp-review__masked.jpg, the masked copy only, cleared by name (security__064; confirmed in security__026); the unmasked studio-ports__abp-review.jpg cannot be placed.`
 
 **Figure:** the night, hour by hour, written by the team from its own records.
 
 `%% layout: beside`
 
-`%% figure brief: the image: index/talk-site/shots/articles__the-night-hour-by-hour.jpg, cleared by name (security__009); no count from the page printed in the caption.`
+`%% figure brief: the image: index/talk-site/shots/articles__the-night-hour-by-hour.jpg, cleared by name (security__064; confirmed in security__026); no count from the page printed in the caption.`
 
 ## The story, in five parts
 
