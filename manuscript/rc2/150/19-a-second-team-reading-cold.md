@@ -35,7 +35,7 @@
 
 ## What the blind team saw that this one did not
 
-**Narrator.** Six things. Each one is now in the chapters you have read, because the blind team found it first.
+**Narrator.** Six things. Four of them are now in the chapters you have read, and two are told here, because the blind team found them first.
 
 `%% for the editor: proposed, not printed until you confirm (the newsroom, chapter 19, a feeling): "I like that more than any of the things we got right."`
 
