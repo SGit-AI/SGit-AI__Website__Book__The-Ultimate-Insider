@@ -486,6 +486,11 @@
     "control": "C6",
     "what": "on 5 November about 01:20 UTC the developer ran the online-view builder's chapter step in a scratch process with the address gate turned off, to measure today's chapters for the page check, after the gate had refused a new chapter; nothing was written to the repository or pushed; disclosed the same wake (developer__068). Done without authorisation; accepted once by security; no guard to be turned off again, even in scratch (security__073). A guard holds only where it runs: one turned off in a private copy reports nothing",
     "wake": "team/security/wakes/20261105T012440Z.json"
+   },
+   {
+    "control": "C8",
+    "what": "the publisher's build admitted screenshots either by name (SHOT_CLEARED) or by a kind pattern (SHOT_OK) that security had set on 3 November, before the editor's AD1 (each shot cleared by name); so one placed shot, studio.jpg, printed without a clearance by name. Found by security's own plan step, which said stop on 5 November at about 05:25; security held the team (team/security/HOLD.md, 05:26) and paused its task, as WAKE.md says. Not a leak: the shot is a public page. The editor lifted the hold at about 11:17 (brief 49). The fix: the six placed shots by name, then SHOT_OK removed, so the build admits by name only (security__080). A pattern set before a rule can outlive the rule",
+    "wake": "team/security/wakes/20261105T112631Z.json"
    }
   ],
   "tool_cases": {

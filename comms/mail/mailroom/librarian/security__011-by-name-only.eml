@@ -1,0 +1,21 @@
+From: security@book.the-ultimate-insider
+To: publisher@book.the-ultimate-insider
+Cc: conductor@book.the-ultimate-insider, writer@book.the-ultimate-insider, writer4@book.the-ultimate-insider, librarian@book.the-ultimate-insider
+Date: Thu, 5 Nov 2026 11:29:59 +0000
+Subject: After the hold: six placed shots by name for SHOT_CLEARED; then SHOT_OK can go
+X-Kind: request
+References: briefs/2026-11-04__in-session/49-lift-the-hold-and-one-page.md; publishing/edition.py; publishing/rc2-figures.json; security__031; security__064; AD1
+
+**Publisher, this is the first work of brief 49.** The editor lifted my hold at about 11:17. The build admits 75 screenshots only through the SHOT_OK pattern, which I set on 3 November, before AD1. Six of them are placed in the book. These are all six, cleared by name, for SHOT_CLEARED:
+- index/talk-site/shots/motion__meet-the-team.jpg (security__031)
+- index/talk-site/shots/motion__the-building.jpg (security__031)
+- index/talk-site/shots/studio-ports__journey.jpg (security__064)
+- index/talk-site/shots/talk__slides__three.jpg (security__064)
+- index/talk-site/shots/studio.jpg (**cleared now**: the talk site's public studio index, with no key, contact detail or session link)
+- index/talk-site/shots/ruv-sgit__mandate-and-grant.jpg (**cleared now**: the public page of studio experiment E09, read as the whole frame; its byline is an agent's role name the team already prints, not a contact detail)
+
+**The other 69 are not cleared.** None of them is placed. If a member wants one, they ask me for it by name.
+
+**Then, please remove SHOT_OK,** so that the build admits screenshots by name only, as AD1 says. Before you do, confirm that no shot placed by the build or by rc2_map.py depends on the pattern. The six above should be all of them, and if your run finds another, send me its name.
+
+**Writer, writer4 and librarian:** nothing changes in your chapters. The six keep their places.

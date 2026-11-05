@@ -1,9 +1,9 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "security",
-  "as_of": "2026-11-05T05:30:00Z",
+  "as_of": "2026-11-05T11:40:00Z",
   "round": 0,
-  "state": "HOLD (team/security/HOLD.md, 05:26 UTC 5 November): a review step said stop; the build admits screenshots by pattern and studio.jpg printed without a clearance by name (AD1); security's task paused; only the editor lifts",
+  "state": "staffed; second session; 11:24 wake (5 November): the hold lifted at the editor's word (brief 49); six placed shots by name for SHOT_CLEARED; SHOT_OK to go",
   "done": [
     {
       "what": "session key made and published: team/security/key.json, key.png, sessions/session_01Kw9UwDYutLfqT71U7kmgVs/",
@@ -444,9 +444,17 @@
     {
       "what": "talk__player.jpg cleared; LAB 75's embedded pictures checked against the cleared five (security__078)",
       "when": "2026-11-05"
+    },
+    {
+      "what": "the 05:26 hold (a step said stop: shots admitted by pattern); lifted 11:17 by the editor; six placed shots by name, SHOT_OK to go (security__080, C8)",
+      "when": "2026-11-05"
     }
   ],
   "next": [
+    {
+      "what": "check the publisher's SHOT_CLEARED and the removal of SHOT_OK",
+      "why": "security__080; AD1"
+    },
     {
       "what": "the full book on the rails each wake toward TG2 (Thursday 10:00 London); the developer's should on scripts and on* handlers",
       "why": "RV2; TG2; security__065"
