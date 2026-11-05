@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Inside critic2's writes; no secrets, other members' files or stop condition. Condition: vault_check before commit.",
    "at": "2026-11-05T00:22:15Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "c14a6be9 matches the plan: writer2__059 to done/; pass-11 note; critic2__027 with outbox copy; status.json.",
+   "at": "2026-11-05T00:23:11Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "c14a6be9: 6 files inside critic2's writes; vault_check clean; no keys, tokens, personal detail or directing text. (Gate run by the member: clean, 1258.)",
+   "at": "2026-11-05T00:23:24Z"
+  },
+  "work": {
+   "by": "critic2",
+   "model": "",
+   "verdict": "done",
+   "comment": "pass 11 on chapter 10: clean; critic2__027",
+   "at": "2026-11-05T00:23:24Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-05T00:23:24Z",
+ "outcome": "ok"
 }
