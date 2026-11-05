@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "storyteller",
+ "kind": "scheduled, at :39 London",
+ "started": "2026-11-05T04:40:55Z",
+ "steps": {
+  "plan": {
+   "by": "storyteller (member-written plan, UL1)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No mail; no answer on 22. Work: the sweep of the full book's printed lines after the hour's edits; clean, so an idle close with only the wake record committed; review steps 2, 4 and 5 as the reviewer agent (TA1). Writes only team/storyteller/.",
+   "at": "2026-11-05T04:41:09Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No HOLD.md; a sweep and an idle close, writing only team/storyteller/; no Stopping condition.",
+   "at": "2026-11-05T04:41:24Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "none",
+   "comment": "Sweep of the printed lines after the hour's edits: clean. Nothing to change; no letter.",
+   "at": "2026-11-05T04:41:24Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Only the new wake record changed; no em-dash prints in the full book.",
+   "at": "2026-11-05T04:41:40Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "A clean sweep with no change and no letter; idle close as planned.",
+   "at": "2026-11-05T04:41:40Z"
+  }
+ },
+ "closed": "2026-11-05T04:41:40Z",
+ "outcome": "idle"
+}
