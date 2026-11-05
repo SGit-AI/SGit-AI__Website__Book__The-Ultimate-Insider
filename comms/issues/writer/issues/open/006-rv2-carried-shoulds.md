@@ -25,3 +25,4 @@ source: storyteller__131, storyteller__133, synthetic__006, synthetic__007, crit
 - 4 November 2026, 20:33 UTC: critic1 021's coulds on 05 (35 to 39, 83) carried; synthetic 014's 09:3 declined (the cast bar is drawn).
 - 4 November 2026, 22:34 UTC: conductor 044 (the newsroom's passes): FB2, TH1, the event, PN1, EI2 and the narrator's items taken. Carried: pass 2's agents' lines in 00 to 09 (p17, 29, 30, 32, 35, 40, 45, 47; "Hey, I'm" openers varied; scope lists into the data panels). Open, his word: the Check lines in his voice, motion's line at p10, the interviews after chapter 17.
 - 5 November 2026, 01:08 UTC: synthetic 015 carried: 06:5, 06:23.
+- 5 November 2026, 04:34 UTC: ruv-sgit 085's two shoulds closed: the player kept (security 028), the wakes caption a member's.

@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer",
+ "kind": "scheduled wake",
+ "started": "2026-11-05T04:30:02Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer agent)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Change then go: 03's line 58 to a member's wakes; 00 unchanged, conductor 050 superseded by designer 160's LAB 75; 295 keeps the invitation on page two as text (OS3, FB2), else straight after; 296 makes the player depend on SHOT_CLEARED and keeps the shot's untraced numbers out; critic letters copied, not moved.",
+   "at": "2026-11-05T04:32:31Z"
+  },
+  "pre_review": {
+   "by": "security (reviewer agent)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; player cleared by name (security 028) but not yet in SHOT_CLEARED, left to the publisher; letters name only the feedback address, never print it; untraced numbers stay out of the manuscript; vault_check and the gate before commit.",
+   "at": "2026-11-05T04:32:31Z"
+  },
+  "work": {
+   "by": "writer",
+   "model": "",
+   "verdict": "done",
+   "comment": "03's wakes caption a member's; letters 295 (OS3: the invitation on page two as text, the Narrator line on page one, 00 held still) and 296 (the player kept, the caption fixed); seven letters to done; gate clean at 1333 html.",
+   "at": "2026-11-05T04:34:49Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer agent)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "All six points of the amended plan in 8ef8ca6f, nothing else: 03's caption only, 00 untouched, 295 and 296 as planned, seven letters copied with originals left, records current; the debrief records the plan's first misstep.",
+   "at": "2026-11-05T04:35:44Z"
+  },
+  "post_review": {
+   "by": "security (reviewer agent)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "No secret, key or contact detail; the feedback address named, never printed; no image added; nothing to the blind or the talk's repository; no dashes or RW1 words; the shot's untraced numbers not in the manuscript; all in scope; the writer's mailroom untouched.",
+   "at": "2026-11-05T04:35:49Z"
+  }
+ },
+ "closed": "2026-11-05T04:35:49Z",
+ "outcome": "ok"
+}
