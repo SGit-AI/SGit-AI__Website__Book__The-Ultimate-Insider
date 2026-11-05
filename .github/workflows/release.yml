@@ -115,6 +115,8 @@ jobs:
             --name one-human-nine-agents-rc2-kdp-interior --out _site/rc2/upload \
             || echo "::warning::the KDP interior did not build: the site is released without it"
           cp lab/experiments/44-designer-print-cover/kdp-full-cover-*.pdf _site/rc2/upload/ 2>/dev/null || echo "::warning::no KDP cover PDF in lab/experiments/44-designer-print-cover"
+          # one stable name for the full cover, for the print-request page (the editor, 5 November 2026, brief 47)
+          cp "$(ls lab/experiments/44-designer-print-cover/kdp-full-cover-*-white.pdf 2>/dev/null | head -1)" _site/rc2/upload/one-human-nine-agents-rc2-full-cover.pdf 2>/dev/null || echo "::warning::no full cover for the print-request page"
           cp lab/experiments/44-designer-print-cover/leanpub-cover-1800x2700.png _site/rc2/upload/ 2>/dev/null || echo "::warning::no Leanpub cover in lab/experiments/44-designer-print-cover"
       - name: the interior's printed page count, for the cover (publisher 051; written to the site so every member can read it; warns, never stops the release)
         continue-on-error: true
