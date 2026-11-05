@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer",
+ "kind": "chat wake, at the editor's word",
+ "started": "2026-11-05T01:03:31Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Change first, then go: the spread's cast row is cast-row-personas.svg (brief 28), pointers at 06 and 02 updated, storyteller told; 162 wake records, each a session's record (C022); the hold file C024 with C006; 19:00 due (C100); 58 slides cut; letters to the storyteller and the researcher; P30 is principle 30.",
+   "at": "2026-11-05T01:06:08Z"
+  },
+  "pre_review": {
+   "by": "security (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Change first, then go: talk.jpg not cleared by name, so a figure brief only until security clears it (or index.jpg's crop); the masked policy shot only; the FB2 address moves into 00's print only; em-dash, RW1, vault_check on the diff.",
+   "at": "2026-11-05T01:06:08Z"
+  },
+  "work": {
+   "by": "writer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "OS1/OS2: 00 the opening spread, adapted (numbers per the register, talk.jpg held); 00b shorter; FB2 in 00 only; critic5 020 (07); synthetic 015 (06). Letters 275 to 283.",
+   "at": "2026-11-05T01:08:41Z"
+  },
+  "post_review": {
+   "by": "security (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "clean",
+   "comment": "Diff d749986..2cdac4ad clean: images cleared by name, talk.jpg held; FB2 address only in 00 and 23; NM1 holds; numbers trace. Small fix taken: C010 for the headline's nineteen hours, and in the letter to the researcher.",
+   "at": "2026-11-05T01:11:57Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "as-planned",
+   "comment": "Every condition met; scope 0; nothing after the commit; letters 275 to 283; 00b coherent. Optional fix taken: 00b's sources no longer credit the feedback. Gate re-run green.",
+   "at": "2026-11-05T01:11:57Z"
+  }
+ },
+ "closed": "2026-11-05T01:11:57Z",
+ "outcome": "ok"
+}
