@@ -65,6 +65,9 @@ def directives(book=None):
             if re.match(r"\s*#!\s*blocks\s*$", line):
                 FIT["blocks"] = True
                 continue
+            if re.match(r"\s*#!\s*dramatised:\s*tag\s*$", line):
+                FIT["dramatised"] = True
+                continue
             m = re.match(r"\s*#!\s*cast-bars:\s*(.+?)\s*$", line)
             if m:  # the designer's map of a drawn cast bar per chapter (designer 135): a .json directly in lab/tools/book/
                 path = os.path.realpath(os.path.join(ROOT, m.group(1)))
@@ -167,6 +170,41 @@ def try_this_cards(text):
                 out += ["::: tt-try", p, ":::", ""]
         return "\n".join(out + [":::", "", ""])
     return re.sub(r"(?ms)^## (?:Something to try|Try this|Do this now)[ \t]*\n(.*?)(?=^#{1,2} |\Z)", card, text)
+
+
+DRAM = {"marks": 0, "tags": 0, "dropped": 0}
+
+
+def dramatised_tags(text):
+    """"#! dramatised: tag" (DM1, the editor, 4 November 2026, option (c)): a "*Dramatised.*" line closes its scene,
+    the lines since the last mark or heading. If an agent speaks in the scene (a speaker line whose name is not the
+    narrator), a small fixed tag goes after the first agent speaker's name and mood, and the mark's own line goes; if
+    only the narrator speaks (or a concept box), the mark goes. A concept box in a scene with an agent speaker does not
+    change that: the agent is tagged. The files are unchanged. (The 22 of letter 066 could not be reproduced: letter 067.)"""
+    lines, first = text.split("\n"), None
+    for i, line in enumerate(lines):
+        s = line.strip()
+        if s.startswith("#"):
+            first = None
+            continue
+        if s == "*Dramatised.*":
+            DRAM["marks"] += 1
+            if first is not None:
+                m = re.match(r"(\s*\*\*[A-Za-z][A-Za-z-]*\.?\*\*(?:\s*\*\([^)]*\)\*)?\s*:?)", lines[first])
+                if m:
+                    lines[first] = m.group(1) + " [Dramatised]{.dram-tag} " + lines[first][m.end():].lstrip()
+                    DRAM["tags"] += 1
+                else:
+                    DRAM["dropped"] += 1
+            else:
+                DRAM["dropped"] += 1
+            lines[i] = ""
+            first = None
+            continue
+        m = edition.SPEAKER.match(s)
+        if m and first is None and m.group(1).lower() != "narrator":
+            first = i
+    return "\n".join(lines)
 
 
 def book_blocks(text):
@@ -412,6 +450,8 @@ def main():
             raw = f.read()
             if drop:
                 raw = drop_sections(raw, drop)
+            if FIT.get("dramatised"):
+                raw = dramatised_tags(raw)
             if FIT.get("card"):
                 raw = try_this_cards(raw)
             if FIT.get("blocks"):
@@ -539,6 +579,9 @@ def main():
         made.append(pdf)
     shutil.rmtree(marked, ignore_errors=True)
 
+    if FIT.get("dramatised"):
+        print(f"build_book: Dramatised marks {DRAM['marks']}: {DRAM['tags']} set as a tag beside the scene's first speaker, "
+              f"{DRAM['dropped']} dropped after narrator-only passages (DM1)", file=sys.stderr)
     for m in made:
         print(f"build_book: {os.path.relpath(m, ROOT)} ({os.path.getsize(m)} bytes) from {len(files)} file(s) in {os.path.basename(a.book or 'Book.txt')}")
         if m.endswith(".epub"):  # KDP, 70% royalty: US $0.15 a megabyte on every Amazon.com sale (publishing/KDP.md)
