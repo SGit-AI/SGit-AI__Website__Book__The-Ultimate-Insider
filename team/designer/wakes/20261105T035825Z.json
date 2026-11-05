@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Done: LAB 75 (folder 75-designer-opening-spread) draws the spread as two placed pages, 156 by 200 mm each, every word read from 00 at build and checked, 00 never edited; page one the headline, the narrator opening in Georgia 10 pt with one mark, ten cards with hellos and security greyed, the DRAMATISED tag and the italic closing line; page two the four numbers as a strip, three cleared shots in a row, a compact house from LAB 47 ROOMS with type at 9 pt, the policy and night-log cards, the five parts; only the five shots cleared by name embedded as data, page two passes unsafe_svg, no address drawn so the invitation stays text; lab PDF 199 pages; letter 160; five letters to done/; vault_check, agents check, build and gate clean.",
    "at": "2026-11-05T04:07:35Z"
+  },
+  "post_review": {
+   "by": "security-reviewer",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Both SVGs show no at sign, address, URL, id or hash in visible text. Page one has no href; page two has exactly five data:image/jpeg hrefs, and one matches the masked abp-review by decoded hash while the unmasked file hash is not embedded. manuscript and publishing are untouched, no em-dashes or religious words in new prose, every path is in designer scope. Letter 160 Date and status as_of are 04:05Z, before the 04:07:36Z commit.",
+   "at": "2026-11-05T04:08:09Z"
+  },
+  "post_check": {
+   "by": "conductor-reviewer",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Both pages of the spread were drawn this wake (LAB 75, 156 by 200 mm each), so the plan allowed page two and it landed. Letter 160 says how to place the pages (page one left and even, page two right, full page), leaves how the build marks it to the publisher, and names the invitation (address rule, print only) and the narrator paragraph as text. REALITY.md append, debrief and status.json match the work, and as_of and the letter Date are 04:05Z, before the 04:07:36Z commit. One small note: the letter speaks of three screenshots in a row while five are embedded, which the plan and security cleared by name.",
+   "at": "2026-11-05T04:08:32Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-05T04:08:47Z",
+ "outcome": "ok"
 }
