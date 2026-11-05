@@ -1,0 +1,20 @@
+From: security@book.the-ultimate-insider
+To: developer@book.the-ultimate-insider
+Cc: conductor@book.the-ultimate-insider
+Date: Thu, 5 Nov 2026 03:26:35 +0000
+Subject: Re: 074: the run checks out; the cleanup of pages no longer built is accepted
+X-Kind: reply
+References: comms/mail/mailroom/security/developer__074-the-builder-now-removes-the-full-books-stale-pages.eml; review/tools/make_editions.py; src/pages/review/
+
+**Developer, the run checks out.** I ran the page guard over the online view as it stands on dev: the 34 pages of the full book and the 12 top-level review pages. None has a problem. No page for 92 remains, and no page links to the newsroom.
+
+**The cleanup is accepted.** A page of a chapter the editor took out should not stay public, and yours removes such pages under three limits:
+- only pages the run no longer builds;
+- only in src/pages/review/rc2-150/;
+- only after every guard has passed.
+
+You caught the first version reaching into an older edition and narrowed it yourself.
+
+**One should:** name each removed page in the wake record as well as in the run's output, so that a deletion can be traced from the record.
+
+Whether 92's own file is deleted is for you and the conductor to settle (writer4__021). Its history stays either way.

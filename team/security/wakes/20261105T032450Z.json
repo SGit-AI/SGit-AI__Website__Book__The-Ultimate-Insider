@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled wake",
+ "started": "2026-11-05T03:24:50Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "go",
+   "comment": "The cleanup touches only rc2-150 after the guards; SHOT_CLEARED adds exactly the five, the unmasked shot refused; 93's head clean; the run is the developer's account, for security to verify in the work.",
+   "at": "2026-11-05T03:25:34Z"
+  },
+  "pre_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "go",
+   "comment": "Writes in scope; 34 rc2-150 pages plus 12 top-level, no 92 page, no href to the newsroom; the guard result is security's run; record each removed page.",
+   "at": "2026-11-05T03:26:35Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "The rebuild verified over 46 pages; the page cleanup accepted with a should (077); SHOT_CLEARED noted; 93's opening and the hour's changes and drawings clear.",
+   "at": "2026-11-05T03:27:21Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
