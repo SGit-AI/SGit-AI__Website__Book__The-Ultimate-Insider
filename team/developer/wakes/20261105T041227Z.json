@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled wake, 04:12",
+ "started": "2026-11-05T04:12:27Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions for Claude_Docs, github, Gmail in context, no tools for them). Plan run before any file was touched. (1) name every page the builder removes in this wake's record (last wake's 92 page: src/pages/review/rc2-150/92-appendix-a-every-number.html; any this wake); (2) a letter to writer4 naming the paragraphs on part five's short pages, no manuscript touched; (3) page check on the PDF of 04:10 against the rebuilt chapters (the chapters changed, writer3 f042e9f0), the real run after both tests print ok, mail only changes; (4) housekeeping with exit codes. Conditions: do not delete 92's file; quote only short openings; pull before push.",
+   "at": "2026-11-05T04:13:12Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them). Within policy; no manuscript touched; short openings only in the letter; untrusted PDF handling; the real run only after both tests print ok; vault_check; exit codes; branch and dev only.",
+   "at": "2026-11-05T04:13:12Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

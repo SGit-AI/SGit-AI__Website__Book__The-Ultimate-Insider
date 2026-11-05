@@ -1,9 +1,9 @@
 {
  "about": "The full book's printed pages checked for pages that may not look right (conductor__036). Written by review/tools/print_check.py: page numbers, chapter titles, counts and sizes only.",
  "edition": "rc2-150",
- "source": "a PDF given by hand (full.pdf, created Thu Nov  5 03:15:30 2026 UTC); its chapters are those of the online view, review/anchors/editions.json, as last built",
+ "source": "a PDF given by hand (full.pdf, created Thu Nov  5 04:13:43 2026 UTC); its chapters are those of the online view, review/anchors/editions.json, as last built",
  "pdf_pages": 131,
- "chapters_hash": "ca48ea63400da3ad",
+ "chapters_hash": "672b6c880936b89a",
  "thresholds": {
   "spill_fill_below": 0.25,
   "gap_fill_below": 0.7,
@@ -13,9 +13,9 @@
  "chapters_found": 32,
  "chapters": 32,
  "counts": {
-  "chapter_end_spill": 6,
-  "gap_page": 8,
-  "figure_apart": 26
+  "chapter_end_spill": 7,
+  "gap_page": 7,
+  "figure_apart": 27
  },
  "flags": [
   {
@@ -31,6 +31,13 @@
    "chapter": "Hour nineteen, minute by minute",
    "lines": 5,
    "fill": 0.14
+  },
+  {
+   "kind": "chapter_end_spill",
+   "page": 100,
+   "chapter": "How do we contain this",
+   "lines": 6,
+   "fill": 0.16
   },
   {
    "kind": "chapter_end_spill",
@@ -64,8 +71,8 @@
    "kind": "gap_page",
    "page": 49,
    "chapter": "Hours four and five: before dawn",
-   "fill": 0.2,
-   "lines": 6,
+   "fill": 0.14,
+   "lines": 3,
    "raster_figure_here": false,
    "borderline": false
   },
@@ -73,17 +80,8 @@
    "kind": "gap_page",
    "page": 4,
    "chapter": "Before you start",
-   "fill": 0.35,
-   "lines": 12,
-   "raster_figure_here": false,
-   "borderline": false
-  },
-  {
-   "kind": "gap_page",
-   "page": 99,
-   "chapter": "How do we contain this",
    "fill": 0.48,
-   "lines": 19,
+   "lines": 16,
    "raster_figure_here": false,
    "borderline": false
   },
@@ -107,6 +105,15 @@
   },
   {
    "kind": "gap_page",
+   "page": 45,
+   "chapter": "Hours four and five: before dawn",
+   "fill": 0.64,
+   "lines": 25,
+   "raster_figure_here": false,
+   "borderline": false
+  },
+  {
+   "kind": "gap_page",
    "page": 117,
    "chapter": "Principles, and build your own",
    "fill": 0.66,
@@ -124,13 +131,12 @@
    "borderline": true
   },
   {
-   "kind": "gap_page",
-   "page": 45,
-   "chapter": "Hours four and five: before dawn",
-   "fill": 0.69,
-   "lines": 26,
-   "raster_figure_here": false,
-   "borderline": true
+   "kind": "figure_apart",
+   "page": 6,
+   "chapter": "Before you start",
+   "intro_page": 5,
+   "pages_apart": 1,
+   "introduced_by": "a heading"
   },
   {
    "kind": "figure_apart",
@@ -270,9 +276,9 @@
   },
   {
    "kind": "figure_apart",
-   "page": 100,
+   "page": 99,
    "chapter": "How do we contain this",
-   "intro_page": 99,
+   "intro_page": 98,
    "pages_apart": 1
   },
   {
@@ -328,20 +334,40 @@
   "heading_checked": 23,
   "heading_page_not_found": 0,
   "introduced_by_the_dramatised_note": 0,
-  "begin_on_a_later_page_than_their_heading": 6,
+  "begin_on_a_later_page_than_their_heading": 7,
   "with_a_paragraph_before_them_in_the_section": 79,
   "not_found": 0,
   "begin_on_a_later_page_than_that_paragraph_ends": 20
  },
  "since_last": {
-  "previous_pdf_pages": 130,
+  "previous_pdf_pages": 131,
   "previous_counts": {
    "chapter_end_spill": 6,
    "gap_page": 8,
    "figure_apart": 26
   },
-  "fixed": [],
-  "new": [],
+  "fixed": [
+   {
+    "kind": "gap_page",
+    "chapter": "How do we contain this",
+    "before": 1,
+    "now": 0
+   }
+  ],
+  "new": [
+   {
+    "kind": "chapter_end_spill",
+    "chapter": "How do we contain this",
+    "before": 0,
+    "now": 1
+   },
+   {
+    "kind": "figure_apart",
+    "chapter": "Before you start",
+    "before": 2,
+    "now": 3
+   }
+  ],
   "remaining": [
    {
     "kind": "chapter_end_spill",
@@ -393,12 +419,6 @@
    },
    {
     "kind": "gap_page",
-    "chapter": "How do we contain this",
-    "before": 1,
-    "now": 1
-   },
-   {
-    "kind": "gap_page",
     "chapter": "Hour three: every wake read twice, and the first to be caught",
     "before": 1,
     "now": 1
@@ -425,7 +445,7 @@
     "kind": "figure_apart",
     "chapter": "Before you start",
     "before": 2,
-    "now": 2
+    "now": 3
    },
    {
     "kind": "figure_apart",
@@ -513,7 +533,7 @@
   "how a page looks beyond how far its content reaches"
  ],
  "paragraphs_found_on_a_page": {
-  "found": 801,
-  "of": 819
+  "found": 799,
+  "of": 817
  }
 }
