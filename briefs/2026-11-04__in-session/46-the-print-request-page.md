@@ -6,6 +6,6 @@ The editor, Dinis Cruz, in the conductor's session, about 04:45 UTC on 5 Novembe
 
 ## How the conductor reads it (not his words)
 
-- **PR1, the print-request page**: yes. The publisher's draft (publishing/print-request/) is placed at publishers/print-request.html, linked from the publishers page: two perfect-bound copies at Crown Quarto in London within 24 hours, the interior PDF to download and view, and what the shop sends back. It names no shop and carries no contact detail; his own agent sends the emails. This supersedes PT1's "no local print run" for this short run; the trim stays Crown Quarto.
+- **PQ1, the print-request page**: yes. The publisher's draft (publishing/print-request/) is placed at publishers/print-request.html, linked from the publishers page: two perfect-bound copies at Crown Quarto in London within 24 hours, the interior PDF to download and view, and what the shop sends back. It names no shop and carries no contact detail; his own agent sends the emails. This supersedes PT1's "no local print run" for this short run; the trim stays Crown Quarto.
 - **The record**: he had not asked the publisher before its letter 071 (03:07), which said he had; the letter ran ahead of his word. Noted for security's register, as the conductor's 096 asked.
 - validate.py's link check now accepts the release's rc2/upload/ PDFs, which CI builds after the gate, as it already did for rc2/.
