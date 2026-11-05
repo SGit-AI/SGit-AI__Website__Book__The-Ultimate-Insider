@@ -87,6 +87,10 @@ SHOT_CLEARED = {  # cleared by name by security, admitted before SHOT_NEVER and 
     "memory-newsroom-three-collisions.jpg", "memory-talk-doc-reality.jpg", "memory-talk-doc-rules.jpg",
     "memory-talk-doc-corrections.jpg", "memory-talk-doc-the-next-hours.jpg", "memory-talk-article-night-log.jpg",
     "memory-crop-newsroom-sgit-ai-home.jpg", "memory-crop-php-october-newsroom.jpg",  # security__018
+    "index.jpg",  # security__010; the opening spread's five (OS1), named in security__021 to the publisher
+    "talk.jpg",  # security__072
+    "talk__slides__loop.jpg", "studio-ports__abp-review__masked.jpg",  # security__064 (the masked copy only)
+    "articles__the-night-hour-by-hour.jpg",  # security__064
 }  # conductor__074: by name only, never by pattern
 SHOT_REFUSED = {"studio-ports__abp-review.jpg"}  # security__020: the unmasked original stays unplaceable; checked first
 

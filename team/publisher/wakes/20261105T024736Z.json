@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake",
+ "started": "2026-11-05T02:47:36Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; matches 095, 021, 156, AP1, OS1. Notes: the names make clearance by name, the change in the map comes from lifting the holds; tell writer4 92's only trace is a generated empty key, as information; check the unmasked shot is nowhere.",
+   "at": "2026-11-05T02:48:42Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Five names match security__021 and exist; LAB 74 passes unsafe_svg; SHOT_REFUSED unchanged; no HOLD.",
+   "at": "2026-11-05T02:48:42Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Five names in SHOT_CLEARED (security 021); holds lifted; 00's seven and 04's LAB 74 mapped; 129 pages, 0 boxes, 11 holes; letter 070.",
+   "at": "2026-11-05T02:50:52Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Exactly the five names; SHOT_REFUSED unchanged; the unmasked shot nowhere; vault_check clean.",
+   "at": "2026-11-05T02:50:52Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Holds lifted, LAB 74 mapped, writer4 answered as information, unmasked shot checked; counts agree across records.",
+   "at": "2026-11-05T02:50:52Z"
+  }
+ },
+ "closed": "2026-11-05T02:50:52Z",
+ "outcome": "ok"
+}
