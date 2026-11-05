@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake 01:02",
+ "started": "2026-11-05T01:02:46Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "go with corrections: file 14; publisher reply DM1 by scene (89 tags, 3 dropped; book.json DM1 reading marked superseded, the editor told), AP1 points to writer4__013 cc researcher/writer4/librarian/critic4/critic6, Leanpub cover image missing noted; writer3 EI3 (b) crossed, point to 014; writer 274 as open decision ST2; grid: SO1 (c) text corrected, marks (06 restart, 20 withdrawn, ruv 14 ok, ruv 16 notes, des 15 notes, hist 17 ok, 17b row, 23b row, 92 out); README with caveat. Tools: none lacked.",
+   "at": "2026-11-05T01:05:40Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "go: all writes in conductor scope; DM1 only marks the conductor's own 22 reading superseded, the editor's words stay and he is told; ST2 open, nobody acts on it; post-review to check addresses, the reader, RW1, Cold-Read, main. Tools: none lacked.",
+   "at": "2026-11-05T01:06:35Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "14 letters filed; publisher 094 (DM1 by scene 89/3, AP1: 92 out, Leanpub cover image missing); writer3 016 (EI3 b decided); DM1 22 reading marked superseded (editor's words unchanged); ST2 opened; grid at 01:07: SO1 (c) text, 06 restart, 20 withdrawn, ruv 14 ok, ruv 16 notes, des 15 notes, hist 17 ok, rows 17b and 23b, 92 out; look at v0.1.921: 147 pp, 1 box (p28), 7 near-empty pp3-40, width 84%, cover edge fixed.",
+   "at": "2026-11-05T01:08:47Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "as-planned",
+   "comment": "as-planned: 14 letters filed; publisher 094 and writer3 016 as corrected; DM1 superseded note appended, editor's words unchanged (he was told in the session report at 01:09); ST2 open; grid SO1 (c) text, marks, 17b and 23b rows, 92 out, no other row changed; look README with caveat. Tools: none lacked.",
+   "at": "2026-11-05T01:09:39Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "clean",
+   "comment": "clean: no contacts, reader unnamed, no RW1 words, em-dashes or keys; all paths in scope; DM1 only appended, editor's quote, status and by unchanged; ST2 open. synthetic 029's own header (01:10) runs ahead of the commit, cited by commit as practice. Tools: none lacked.",
+   "at": "2026-11-05T01:09:53Z"
+  }
+ },
+ "closed": "2026-11-05T01:09:54Z",
+ "outcome": "ok"
+}

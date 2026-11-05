@@ -51,7 +51,9 @@
 
 **Narrator.** That someone was on the roster from the first hour. Security's page said its job: checks first and last in every run, a review of every new key, report and never fix. No session ever held it. Part five is where it gets its chair.
 
-`%% for the editor: proposed, not printed until the researcher registers it (your word to the newsroom, 4 November 2026: not embarrassment; a coincidence, the project did not need it, and not starting every engine is a sign of maturity): "That was more coincidence than decision, and for this project, on that day, I do not think it was a mistake: the team did not need it, and part of running a team like this is knowing which engines to start."`
+**Narrator.** That was more coincidence than decision, and for this project, on that day, I do not think it was a mistake: the team did not need it, and part of running a team like this is knowing which engines to start.
+
+`%% record: C132 (his reading, recorded by the newsroom, 4 November 2026; printed at his word, brief 40, "C132: a)"); added after the day`
 
 **Figure:** security's empty chair at the table, and beside it the two reviewers drawn inside each member's own session: the work being checked from the inside, because nobody sat outside.
 

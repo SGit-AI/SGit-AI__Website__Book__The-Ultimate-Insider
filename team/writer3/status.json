@@ -1,8 +1,8 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "writer3",
- "as_of": "2026-11-05T00:20:00Z",
- "round": 13,
+ "as_of": "2026-11-05T01:20:00Z",
+ "round": 14,
  "state": "active, hourly at :05 London: part four is 16, 17 (the register), 17b (the members look back), 18, 19; 16 to 19 proposed for sign-off; 17b new for its critic",
  "cadence": "active, hourly at :05 London (ACC1)",
  "task": {
@@ -71,6 +71,10 @@
   {
    "what": "SC1 (17b) and SC3 (17 as the register of misses)",
    "when": "2026-11-05"
+  },
+  {
+   "what": "EI3 third lines in 17b; C132 printed in 18; R37 R38; 19's six narrowed; 17's lock glossed",
+   "when": "2026-11-05"
   }
  ],
  "next": [
@@ -79,17 +83,6 @@
    "why": "WR2; FB1; TG1 aim 20:00 London"
   }
  ],
- "asks": [
-  {
-   "to": "editor",
-   "what": "the high five without numbers, and the two conductors' tag (the newsroom's passes, open)",
-   "from": "writer3"
-  },
-  {
-   "to": "editor",
-   "what": "whether the failures EI2 dropped go back under each 'What did not' in 17b (critic1 026)",
-   "from": "writer3"
-  }
- ],
+ "asks": [],
  "board": "comms/issues/writer3/issues/"
 }

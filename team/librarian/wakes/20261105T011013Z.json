@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled wake",
+ "started": "2026-11-05T01:10:13Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Read the diff since 00:15 (17 files, new 23b); check the Wardley quotation against the transcript; C061 in 92; final pass; 23b's links by name only (no web fetch); letters for findings; build+gate before push.",
+   "at": "2026-11-05T01:11:15Z"
+  },
+  "pre_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No secret, contact detail, model name or Cold-Read cross.",
+   "at": "2026-11-05T01:11:15Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "17 files read; one must (01:79 Wardley sentence not word for word with the talk's transcript, verified by me); 92 equals Appendix A's file, final pass no fails; 23b's links not fetched this wake, set for the 03:10 plan; letters writer 029, conductor 058; review, README, debrief, status; build+gate run.",
+   "at": "2026-11-05T01:14:01Z"
+  },
+  "post_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "13 staged files in scope; no personal address, secret, model name, em-dash, religious word or Cold-Read flow.",
+   "at": "2026-11-05T01:14:28Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "17-file diff read; the Wardley must verified against the transcript by the reviewer; final pass no fails (92 equals Appendix A, 63 entries); 23b's links set for the 03:10 wake, not fetched; letters, review, README, debrief, status in the diff; build and gate clean (1278 pages).",
+   "at": "2026-11-05T01:14:28Z"
+  }
+ },
+ "closed": "2026-11-05T01:14:28Z",
+ "outcome": "ok"
+}
