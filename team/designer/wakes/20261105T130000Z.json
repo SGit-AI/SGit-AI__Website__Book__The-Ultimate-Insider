@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Done: kdp-full-cover-124-white at 123 interior pages (124 printed, 15.409 by 9.940 in, spine 0.279 in); the four 130 files removed so one cover ships, no other file names them; pages.html and README give the new size; Leanpub byte-identical; back unchanged pending listing.md; lab PDF 199 pages; letter 164; five letters to done/; vault_check, agents check, build and gate clean.",
    "at": "2026-11-05T13:07:03Z"
+  },
+  "post_review": {
+   "by": "security-reviewer",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "The four 130 cover files are gone and only the kdp-full-cover-124-white files remain; the cover SVG text holds no price, address, link or contact (the only http and www hits are the xmlns line), and publishing/ is untouched. No em-dashes or religious words in new prose, all 21 files sit in scope, and letter 164 Date and as_of (13:04Z) are before the commit (13:07Z). No tool call was refused.",
+   "at": "2026-11-05T13:07:36Z"
+  },
+  "post_check": {
+   "by": "conductor-reviewer",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "The cover went to plan: kdp-full-cover-124-white (pdf, svg, guides svg, preview) is in LAB 44, the four 130 files are gone, and pages.html and the README say 124 and 123 pages. The REALITY.md append, the debrief and status.json agree with the work and with each other (15.409 by 9.940 in, spine 0.279 in, back unchanged pending the listing), and as_of 13:04Z and the letter Date are not later than the commit at 13:07Z. Remaining 130 mentions are only history in old wake records and status. No tool call was refused.",
+   "at": "2026-11-05T13:08:04Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-05T13:08:18Z",
+ "outcome": "ok"
 }
