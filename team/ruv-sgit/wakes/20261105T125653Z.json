@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (ACC1)",
+ "started": "2026-11-05T12:56:53Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go. 17b (writer3) has no Figure lines and maps to [], so check only that it promises no picture. 20 (begun by the writer, last touched by writer4): check its two Figure lines and line 74's cut figure, and whether the prose still promises it; copy writer4. 00's re-read after OS4 only if time allows (f1a024f6). Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-05T12:57:41Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go: everything in scope, no HOLD, nothing attack-shaped, no Cold-Read route. Conditions: the 20 review describes the key figure and its brief only, copying no key, fingerprint, session or task id; the 17b review quotes nothing about the printed key; vault_check before the commit; push on green (HR1). Note: the plan's letter and closing routine came from the member's summary, not the plan comment. Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-05T12:58:06Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "RV2 on the 150's 17b (no figures, none promised) and 20 (both drawings pass; no key copied; the cut handover figure is not promised): both pass, with two coulds for the designer. Letter 088. 00's re-read after OS4 is left for the next wake.",
+   "at": "2026-11-05T12:58:43Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Clean: everything in scope, no key, fingerprint, session or task id, nothing attack-shaped, no em-dash or RW1 word, no date after the clock. The facts on 17b and 20 hold, the writers are named right from git log, and the copies are identical. Tools: Bash read-only; no script; no file written; the brief's python checks were left to the member's gate. Nothing was refused.",
+   "at": "2026-11-05T12:59:36Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "The reviewer agent's verdict, run before this entry. 17b and 20 are reviewed as planned, and 00's re-read is deferred as allowed. The conditions are kept, the copies are identical, and status and debrief are right. Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-05T13:00:09Z"
+  }
+ },
+ "closed": "2026-11-05T13:00:09Z",
+ "outcome": "ok"
+}
