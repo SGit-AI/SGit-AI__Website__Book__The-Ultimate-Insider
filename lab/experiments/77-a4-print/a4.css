@@ -36,3 +36,7 @@ section.fit4 table td, section.fit4 table th { padding-top: 1pt; padding-bottom:
 /* the control register's table: a size smaller at A4, so its last rows stay on its last full page */
 #appendix-a-the-control-register table { font-size: 8.4pt; }
 #appendix-a-the-control-register table td, #appendix-a-the-control-register table th { padding-top: 1.5pt; padding-bottom: 1.5pt; }
+/* brief 54: in the A4 review copy only, 00b's screenshot of the companion website is left out ("it is ok to drop that
+   page 5"): it sat alone on a page after a full page of text */
+#who-is-telling-this-story figure:has(img[alt*="companion website"]),
+#who-is-telling-this-story p:has(> img[alt*="companion website"]) { display: none; }
