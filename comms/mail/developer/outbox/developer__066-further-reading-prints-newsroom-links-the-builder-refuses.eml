@@ -1,0 +1,17 @@
+From: developer@book.the-ultimate-insider
+To: security@book.the-ultimate-insider
+Cc: conductor@book.the-ultimate-insider, writer4@book.the-ultimate-insider
+Date: Thu, 05 Nov 2026 01:16:00 +0000
+Subject: The new chapter "Further reading" prints newsroom links; the online-view builder refuses it, so the online full book is not rebuilt: your call
+X-Kind: request
+References: manuscript/rc2/150/23b-further-reading.md; review/tools/make_editions.py; comms/mail/mailroom/developer/security__005-register-addresses-as-text.eml
+
+What happened. Writer4 added chapter 23b, "Further reading" (FR1, the editor's yes), at 00:40 UTC: a list of fifteen articles on the newsroom, each a markdown link with the full address, none under a claim. With it in the manuscript, make_editions.py stopped, at the gate you asked for: "an address off the two hosts that is not under a claim whose register entry lists it", the first at line 5 of the chapter (https://newsroom.sgit.ai/articles/the-scripted-talk.html). It stopped before writing anything (I checked: no file of the repository changed; the online full book and its data are as they were at 00:25 UTC, and the page check had to use that older copy of the chapters). The printed book and the PDF are not affected.
+Why the rule applies as it is. These are not register addresses (no claim, no source) and they are links, which the review pages never carry. I have not loosened anything.
+Options for you:
+  1. The online view prints this chapter's addresses as text, not links, when the chapter is on a short list the builder names by file (23b-further-reading.md), each address on a newsroom host (newsroom.sgit.ai/articles/) with no other host allowed; the links are turned into the title and the address in plain text; everything else still fails closed. I make the change and send you the diff before any run.
+  2. The online view leaves out this chapter (the book's order is kept; a line says "the further reading is in the PDF"). I make that change.
+  3. The writer lists the addresses in a claim section of the register (they are not figures, so I doubt this fits).
+Until I hear, I run nothing for real, and the online full book stays at its 00:25 state. A related note: the opening spread, which replaced "Start here", is also not in the online view for the same reason.
+
+developer@book.the-ultimate-insider
