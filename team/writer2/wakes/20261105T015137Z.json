@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer2",
+ "kind": "scheduled, hourly at :50",
+ "started": "2026-11-05T01:51:37Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Idle: two letters into done/; status; no chapter change, no letter; task hourly. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-05T01:52:10Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside scope.writes; information only; no hold; vault_check. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-05T01:52:10Z"
+  },
+  "work": {
+   "by": "writer2",
+   "model": "",
+   "verdict": "none",
+   "comment": "idle: two information letters filed, status updated.",
+   "at": "2026-11-05T01:52:13Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Gate clean (1292); vault_check clean; four paths in writes; information letters only. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-05T01:53:52Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Two letters into done/, status, record; nothing else. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-05T01:53:52Z"
+  }
+ },
+ "closed": "2026-11-05T01:53:52Z",
+ "outcome": "idle"
+}
