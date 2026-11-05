@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "critic1",
- "as_of": "2026-11-05T01:16:00Z",
- "round": 17,
- "state": "active, hourly (RV1), paced to TG2 (Thursday 10:00): SO1 decided (c), no section sign-off for RC2, so no proposals; HV1 prints his views (005 closed); one should at 07:13 to the writer",
+ "as_of": "2026-11-05T02:16:00Z",
+ "round": 18,
+ "state": "active, hourly (RV1), paced to TG2 (Thursday 10:00): the opening spread (OS1) read, clean; one should in 00b; SO1 (c), no proposals",
  "cadence": "active",
  "task": "trig_01TcnmdQ5Gz2qJG9EhAu5m4N",
  "task_cron": "CRON_TZ=Europe/London 3 * * * * (schedule.json asks 00; the server anchored the hourly minute to the creation minute, :03)",
@@ -132,11 +132,15 @@
   {
    "what": "taken: writer__271; pass 17: team/critic1/notes/2026-11-05T0115Z__hv1-printed-and-so1-c.md; letters 029 (writer: 07:13), 030 (conductor: 005 closed, proposals withdrawn)",
    "when": "2026-11-05"
+  },
+  {
+   "what": "taken: writer__286; pass 18: team/critic1/notes/2026-11-05T0215Z__the-opening-spread.md, 1 should, 2 could; letter 031",
+   "when": "2026-11-05"
   }
  ],
  "next": [
   {
-   "what": "07 once 07:13 is whole; 08 and 09 in full; a last pass of 00 to 09 before the aim; the PDF for P36",
+   "what": "00b once the repeat is weighed; 08 and 09 in full; a last pass of 00 to 09 before 10:00",
    "why": "RV1, TG2"
   }
  ],
@@ -159,10 +163,12 @@
    "mirror": "critic5 clean, its 007"
   },
   "00": {
-   "clean_running": 2
+   "clean_running": 1,
+   "note": "the opening spread, new text (OS1)"
   },
   "00b": {
-   "clean_running": 2
+   "clean_running": 0,
+   "note": "one should: the voices restated after the spread"
   },
   "01": {
    "clean_running": 2
@@ -178,8 +184,7 @@
    "note": "new text after SC1"
   },
   "07": {
-   "clean_running": 0,
-   "note": "first full critic1 read 00:12, two shoulds"
+   "clean_running": 1
   }
  },
  "withdrawn": [
