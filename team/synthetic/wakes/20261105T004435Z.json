@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, 00:42 London",
+ "started": "2026-11-05T00:44:35Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "read 06, 17, 17b with the three named readers; letters only if musts or shared shoulds; debrief, status. Tools Read, Grep, Glob, Bash; none refused. Its claim that 17b and 23b are missing from this checkout is wrong: both are present at 2e26f79d (checked).",
+   "at": "2026-11-05T00:45:10Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "inside scope.writes; letters as request mail only; readers not presented as real readership. Tools Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-05T00:45:22Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

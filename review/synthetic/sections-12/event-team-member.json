@@ -1,0 +1,38 @@
+{
+ "schema": "the-ultimate-insider/synthetic-section-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "event-team-member",
+ "read_at": "2e26f79d",
+ "would_read_on": {
+  "06-roles-as-a-cast-you-can-read": "maybe",
+  "17-what-did-not-work": "yes",
+  "17b-the-members-look-back": "maybe"
+ },
+ "findings": [
+  {"file": "06-roles-as-a-cast-you-can-read.md", "line": 5, "quote": "You can read both. That is the point:", "principle": "7", "severity": "should", "why": "A 'That is the point' opening, and the narrator states the moral instead of speaking as the editor with hindsight."},
+  {"file": "06-roles-as-a-cast-you-can-read.md", "line": 5, "quote": "a team of agents you cannot read is a team you cannot trust.", "principle": "1", "severity": "could", "why": "A general maxim reported from nowhere, with no 'I' and no moment in the editor's day."},
+  {"file": "06-roles-as-a-cast-you-can-read.md", "line": 21, "quote": "That is a strong position precisely because it is a narrow one", "principle": "1", "severity": "should", "why": "The narrator reports and assesses the role without saying what the editor thought or did at the time."},
+  {"file": "06-roles-as-a-cast-you-can-read.md", "line": 35, "quote": "three greyed cards: the storyteller, the talk's story", "principle": "reader", "severity": "should", "why": "As a busy reader I get three roles in one clause-run with no sense of what each did; the figure carries what the text skips, and the text then says 'you will meet them properly'."},
+  {"file": "06-roles-as-a-cast-you-can-read.md", "line": 49, "quote": "checks first and last in every run; reviews of the pinned tools", "principle": "reader", "severity": "should", "why": "'Pinned tools' and 'run' are used before being explained, and security is the role I most want to copy."},
+  {"file": "06-roles-as-a-cast-you-can-read.md", "line": 74, "quote": "A scope is a list in a file. A check reads the list and flags any change outside it.", "principle": "21", "severity": "should", "why": "The scope is defined at line 25 and again here, and the quoted slide line says the same a third time."},
+  {"file": "06-roles-as-a-cast-you-can-read.md", "line": 90, "quote": "something you expect, something that checks, or something that locks.", "principle": "7", "severity": "could", "why": "A triad closing the exercise, and 'look at ... and note' is an instruction on how to read; the three terms are not set up earlier in the chapter."},
+  {"file": "17-what-did-not-work.md", "line": 24, "quote": "each with what it cost and whose own record says so.", "principle": "reader", "severity": "could", "why": "Good promise, but nine entries each with two italic labels and a cost line make the chapter feel like a form on a phone."},
+  {"file": "17-what-did-not-work.md", "line": 30, "quote": "Told in chapter 16.", "principle": "21", "severity": "should", "why": "Two entries (lock, parts) are a pointer plus a one-line quote, restating the cost line just above them; a reader on a phone gets a stub."},
+  {"file": "17-what-did-not-work.md", "line": 54, "quote": "The request landed between the storyteller's sessions, its next turn came after the deadline", "principle": "1", "severity": "could", "why": "Reads as a report of the record with no 'I'; the storyteller's own line at 56 then says it again."},
+  {"file": "17-what-did-not-work.md", "line": 83, "quote": "it was nothing sensitive, an agent that got a bit excited", "principle": "reader", "severity": "should", "why": "Reassures rather than explains, and for a team about to copy the pattern, what the redaction check was is exactly the missing takeaway."},
+  {"file": "17-what-did-not-work.md", "line": 66, "quote": "nobody carried the correction back in", "principle": "1", "severity": "could", "why": "Strong story and a usable lesson for my team, but told as the record's account; the editor's own 'I' only appears for the freeze, not for what he felt or would change."},
+  {"file": "17-what-did-not-work.md", "line": 109, "quote": "The designer wrote what had been planned, not what had happened", "principle": "21", "severity": "should", "why": "Said by the narrator and then again by the designer in the next line ('I wrote the plan down as if it were the fact')."},
+  {"file": "17-what-did-not-work.md", "line": 146, "quote": "If you keep one, keep it where your agents will read it.", "principle": "6", "severity": "could", "why": "An instruction to the reader; it is the one concrete takeaway in the chapter and deserves more than a closing line."},
+  {"file": "17b-the-members-look-back.md", "line": 5, "quote": "You met all nine at the start of the book.", "principle": "6", "severity": "could", "why": "Presumes I remember nine roles from earlier; a phone reader dipping in cannot, and a one-line reminder of who is who would help."},
+  {"file": "17b-the-members-look-back.md", "line": 14, "quote": "made the gate read every session's record", "principle": "reader", "severity": "should", "why": "'Gate' is used without explanation here, and each answer leans on terms (wake, hold, lock, gate) I would have to have kept from earlier chapters."},
+  {"file": "17b-the-members-look-back.md", "line": 27, "quote": "a second reading, not a second identity", "principle": "21", "severity": "could", "why": "The same phrase is repeated at line 113; it is a good line used twice, the second time as the chapter's close."}
+ ],
+ "what_holds": [
+  "06-roles-as-a-cast-you-can-read.md: the contrast between a scope as a setting and a boundary is the most copyable idea in the three sections, and the slide's own quoted line makes it stick.",
+  "06-roles-as-a-cast-you-can-read.md: security shown as a card with nothing on it but 'proposed' is an honest and memorable way to say a control was planned and never staffed.",
+  "17-what-did-not-work.md: the correction lost in the freeze, with its small-error framing and 'write down what is waiting to go in when it is unfrozen', is a rule I could use tomorrow.",
+  "17-what-did-not-work.md: the 'what it cost / whose record' pairing gives each failure a consequence, which is what my team would need to judge the risk.",
+  "17b-the-members-look-back.md: the two-answer format per member is quick to scan between meetings, and security having no interview because the historian would not invent one is a trust-builder."
+ ],
+ "notes": "As a busy team member with agents of my own, the takeaway I want is a short pattern I could copy: a page of rules and a checkable policy per agent, a hold anyone can pull, a list of misses. It is there but scattered across sections and the reader has to assemble it. A method that leans on one central conductor is my deal-breaker: the conductor carries a great deal here, and 17b admits its reviewers shared its reach, so the sections do not yet answer whether a team without a conductor could do this."
+}
