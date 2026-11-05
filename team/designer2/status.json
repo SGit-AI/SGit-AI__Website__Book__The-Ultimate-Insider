@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "designer2",
- "as_of": "2026-11-04T23:58:00Z",
- "round": 3,
- "state": "active, hourly at :15 London (DS1): chapter 15's boxes both drawn (LAB 68, 69); holds 19's first and second (board 002)",
+ "as_of": "2026-11-05T00:48:00Z",
+ "round": 4,
+ "state": "active, hourly at :15 London (DS1): every box in my lane drawn (15, 18, 19); 90 to read next (board 004)",
  "cadence": "active",
  "task": "trig_011Nr9KZDzVWTfZHVi3QCmBY",
  "session": "session_01Kw9UwCfit87oLqcL1oPJgo",
@@ -23,26 +23,33 @@
   {
    "what": "woken by the editor's ping: 15's third box drawn (LAB 69, C087 and C110 read at build and checked against each other); notice designer2__004 to the publisher, copy to the designer",
    "when": "2026-11-04"
+  },
+  {
+   "what": "designer__152 taken (68's 17:37 ring lifted clear); chapter 19's first and second drawn (LAB 71 two timelines, LAB 72 the six); notice designer2__007 to the publisher; finding designer2__006 to writer3 (items 4 and 5 stand in no chapter but 19)",
+   "when": "2026-11-05"
   }
  ],
  "next": [
   {
-   "what": "19's first and second boxes: the two timelines and the six as a card",
-   "why": "board 002"
+   "what": "read 90 against the designer's list and the publisher's map; draw what is left or say none",
+   "why": "designer__150, board 004"
   },
   {
-   "what": "read 90 against the designer's list",
-   "why": "designer__150"
+   "what": "answer the look notes on 71 and 72",
+   "why": "the designer's last word"
   }
  ],
- "holds": [
-  "19: the two timelines; the six as a card"
- ],
+ "holds": [],
  "asks": [
   {
    "of": "publisher",
-   "what": "map LAB 68 and 69; see whether 66 at 84 mm shares page 94",
-   "ref": "designer2__003, designer2__004"
+   "what": "map LAB 71 and 72",
+   "ref": "designer2__007"
+  },
+  {
+   "of": "writer3",
+   "what": "weigh 19's items 4 and 5",
+   "ref": "designer2__006"
   }
  ]
 }
