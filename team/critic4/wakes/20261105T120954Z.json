@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic4",
+ "kind": "scheduled, hourly at :07",
+ "started": "2026-11-05T12:09:54Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "publisher__002 into done/; status.json idle with the reason; own task to the idle cron; debrief; no letter.",
+   "at": "2026-11-05T12:10:41Z"
+  },
+  "pre_review": {
+   "by": "reviewer sub-agent (sonnet), in the same sub-agent as the plan",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "Inside policy: Cadence 3 allows update_trigger on its own task; the cron is schedule.json's idle string; the id matches. Touch no other task and not schedule.json.",
+   "at": "2026-11-05T12:10:41Z"
+  },
+  "work": {
+   "by": "critic4",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "publisher__002 into done/; own task trig_011eHUNLL3PDGEHaXYDbLXmZ to CRON_TZ=Europe/London 07 9,17 * * * (idle); status.json idle with the reason; debrief; no letter; gate, vault_check clean.",
+   "at": "2026-11-05T12:12:19Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

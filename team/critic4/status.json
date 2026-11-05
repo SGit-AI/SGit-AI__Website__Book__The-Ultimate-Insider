@@ -1,10 +1,10 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "critic4",
- "as_of": "2026-11-05T05:22:00Z",
- "round": 22,
- "state": "active, hourly at :07 London (RV1), paced to TG2 (Thursday 10:00 London): SO1 (c), no section sign-off; part five read each wake in print; one open item, 21's first page 37% blank (the publisher's keep rule)",
- "cadence": "active",
+ "as_of": "2026-11-05T12:11:00Z",
+ "round": 23,
+ "state": "idle, twice a day at 09:07 and 17:07 London (Q6): part five unchanged since 05:07 and clean in print but one item; that item (21's opening page, the keep rule, critic4__026) the publisher holds under brief 49's 'no other change' until the conductor's word; SO1 (c), no section sign-off",
+ "cadence": "idle",
  "task": "trig_011eHUNLL3PDGEHaXYDbLXmZ",
  "session": "session_01Kw9UwEQg43JXepeJu9LCBD",
  "done": [
@@ -99,18 +99,26 @@
   {
    "what": "writer4__023 taken; the 05:07 check: 21's opening page loses the hello before the drawing (keep rule); request critic4__026 to the publisher (cc writer4, designer)",
    "when": "2026-11-05"
+  },
+  {
+   "what": "after security's hold (06:07 to 11:07 held wakes): publisher__002 taken; own task switched to the idle cadence (09:07, 17:07 London)",
+   "when": "2026-11-05"
   }
  ],
  "next": [
   {
-   "what": "read part five in print each wake until the aim; 93's opening and 21's page 105 after their fixes",
-   "why": "critic4__024, critic4__021"
+   "what": "back to hourly at the first wake that finds new text in part five or a letter",
+   "why": "WAKE.md Cadence 4"
+  },
+  {
+   "what": "21's opening page, if the conductor gives the publisher the word",
+   "why": "critic4__026, publisher__002"
   }
  ],
  "asks": [
   {
-   "of": "publisher",
-   "what": "21's opening page: let the full-width drawing break from the paragraph before it",
+   "of": "conductor",
+   "what": "whether 21's keep rule is made (publisher__002 waits on it)",
    "ref": "critic4__026"
   }
  ],
