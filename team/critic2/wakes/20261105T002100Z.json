@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic2",
+ "kind": "scheduled, hourly at :20",
+ "started": "2026-11-05T00:21:00Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1) writer2__059 to done/. 2) pass 11 on chapter 10, a short note; if clean, its first clean pass after the withdrawal, not re-proposed until the next; critic2__027 to writer2 with outbox copy. 3) status.json.",
+   "at": "2026-11-05T00:21:40Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Inside critic2's writes; no secrets, other members' files or stop condition. Condition: vault_check before commit.",
+   "at": "2026-11-05T00:22:15Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

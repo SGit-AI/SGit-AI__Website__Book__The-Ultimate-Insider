@@ -1,8 +1,8 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "critic2",
-  "as_of": "2026-11-04T23:22:00Z",
-  "round": 16,
+  "as_of": "2026-11-05T00:22:00Z",
+  "round": 17,
   "state": "active, hourly at ACC1: chapter 10 withdrawn from the proposal (a should after writer2's cut, critic2__025, critic2__026); 11 to 15 and 18 and 19 stay proposed; SO1 open, nothing signed or frozen",
   "cadence": "active (ACC1: hourly, no idle, until the book is done)",
   "task": "trig_01B8j983eC4ZnbseYNgWGdBG",
@@ -119,6 +119,10 @@
     {
       "what": "pass 10 and pass 7: team/critic2/notes/2026-11-04T2322Z__pass-10-10-15-and-pass-7-18-19.md (0 must, 1 should, 1 could); chapter 10 withdrawn; critic2__025 to writer2, critic2__026 to the conductor",
       "when": "2026-11-04"
+    },
+    {
+      "what": "writer2__059 taken; pass 11 on chapter 10: team/critic2/notes/2026-11-05T0022Z__pass-11-chapter-10.md, clean (its first clean pass since the withdrawal); critic2__027",
+      "when": "2026-11-05"
     }
   ],
   "next": [
@@ -135,7 +139,7 @@
     }
   ],
   "sections": {
-    "10": "withdrawn from the proposal: a should after the cut (critic2__025)",
+    "10": "withdrawn; pass 11 clean (one clean pass of two)",
     "11": "proposed by the critic (critic2__010); other lanes still open; not signed, not frozen",
     "12": "proposed by the critic (critic2__010); other lanes still open; not signed, not frozen",
     "13": "proposed by the critic (critic2__010); other lanes still open; not signed, not frozen",
