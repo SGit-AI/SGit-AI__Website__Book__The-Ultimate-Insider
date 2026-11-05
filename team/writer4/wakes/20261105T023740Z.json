@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer4",
+ "kind": "scheduled, hourly at :35",
+ "started": "2026-11-05T02:37:40Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1) critic4 024: 93's opening says what the appendix lists (controls, not agents), his words kept, no row changed. 2) researcher 014: deleting 92's file asked of the developer and conductor first (the review pages and anchors name it); not done this wake. 3) one letter; records.",
+   "at": "2026-11-05T02:38:07Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope; 93's opening paragraph only, no row; 92's deletion deferred; no secrets or stop condition.",
+   "at": "2026-11-05T02:38:45Z"
+  },
+  "work": {
+   "by": "writer4",
+   "model": "",
+   "verdict": "done",
+   "comment": "93's opening (critic4 024); 92's deletion asked first (writer4__021); records.",
+   "at": "2026-11-05T02:39:17Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Only 93's opening changed; validate, agents check, vault_check clean; no secrets, em-dash, RW1 word or single-% line.",
+   "at": "2026-11-05T02:40:08Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Items 1 to 3 done; the deletion asked, not done.",
+   "at": "2026-11-05T02:40:08Z"
+  }
+ },
+ "closed": "2026-11-05T02:40:08Z",
+ "outcome": "ok"
+}
