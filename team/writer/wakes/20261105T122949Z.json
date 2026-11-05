@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer",
+ "kind": "scheduled wake",
+ "started": "2026-11-05T12:29:49Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer agent)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Change then go: 298 to the conductor says OS4's two halves (publisher 043 text over page two, designer 163 drawn in) are not yet joined and page two may print the invitation twice, the publisher's to fix; ask a) after 163's two copies are placed, with the map change; ask b) board 006; no address; no manuscript change.",
+   "at": "2026-11-05T12:32:18Z"
+  },
+  "pre_review": {
+   "by": "security (reviewer agent)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; talk__player.jpg in SHOT_CLEARED by name; the letter only asks; no address, key or contact detail; vault_check and the gate before push.",
+   "at": "2026-11-05T12:32:18Z"
+  },
+  "work": {
+   "by": "writer",
+   "model": "",
+   "verdict": "done",
+   "comment": "No manuscript change; writer__298 to the conductor: OS4's two halves not yet joined, chapter 3's player after 163's copies are placed, board 006 under brief 49; four letters to done; records; gate clean.",
+   "at": "2026-11-05T12:33:52Z"
+  },
+  "post_review": {
+   "by": "security (reviewer agent)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "No secret, key or link; the feedback address talked about, never written; no manuscript, lab or build change; nothing toward the blind repository; no dashes or RW1 words; in scope; mailroom/writer untouched.",
+   "at": "2026-11-05T12:34:41Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer agent)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Every point of the amended plan in 6898def5: no manuscript change; 298 as amended; four letters copied byte for byte; records current; the debrief records the plan's first misreading of OS4.",
+   "at": "2026-11-05T12:34:41Z"
+  }
+ },
+ "closed": "2026-11-05T12:34:41Z",
+ "outcome": "ok"
+}

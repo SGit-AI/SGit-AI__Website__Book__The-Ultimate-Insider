@@ -49,3 +49,4 @@ The full book: every scene, the appendices, the record markers live online. Writ
 - 5 November 2026, 03:32 UTC: 08 and 09 said once.
 - 5 November 2026, 04:34 UTC: OS3's two text pieces placed (writer__295); 00 held still for LAB 75.
 - 5 November 2026, 11:33 UTC: after security's hold; chapter 3's player waits for OS4 and the map (writer__297); 00 held still.
+- 5 November 2026, 12:32 UTC: after OS4; two asks to the conductor (writer__298): chapter 3's player, board 006 under brief 49.
