@@ -1,8 +1,8 @@
 # Start here
 
-**Narrator.** If you only read one page, read this one. These five steps are what I would tell a friend who wanted to try this tomorrow. The rest of the book is how I learned them.
+**Narrator.** If you only read one page, read this one. These five steps are what I would tell a friend who wanted to try this tomorrow. The rest of the book is how I learned them, mostly by getting them wrong first.
 
-`%% for the editor (a Check item, held out of print until you confirm it): the newsroom's line ends "The rest of the book is how I learned them, mostly by getting them wrong first." Say if "mostly by getting them wrong first" holds for you.`
+`%% record: HV1 (signed, brief 38: "can you add them all?"), printed: the newsroom's "mostly by getting them wrong first" (a Check item, Part B)`
 
 ## The formula
 

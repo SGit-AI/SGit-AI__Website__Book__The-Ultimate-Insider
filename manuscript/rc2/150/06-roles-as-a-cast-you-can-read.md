@@ -80,8 +80,7 @@
 `%% record: the nine role cards (LAB 27) moved to 00b as the reader's first sight of the whole team (storyteller__149; brief 28); 06 points back`
 
 `%% record: timeline/quotes.md (the slide's line at 18:11, 95b09d9; the slide's own words: src/static/studio-ports/lab/abp-enforcement/index.html at 298be4e, quoting admin/build/agents.py; studio's debrief abp-prose-enforcement) talk repository at 298be4e: team/dev/ROLE.md ("The gap, and what stands in it")`
-`%% band: Dramatised (studio's line). The quoted line is the slide's own, from 18:11; dev's page made the same point in the first hours.`
-*Dramatised.*
+`%% band: The quoted line is the slide's own, from 18:11; dev's page made the same point in the first hours. Studio's spoken line is cut, so no scene is dramatised here.`
 
 ## Something to try
 
@@ -89,7 +88,9 @@
 
 *If you have a second agent, look at each of its "must not" lines and note what actually stops it: something you expect, something that checks, or something that locks.*
 
-`%% for the editor (his view, held out of print until he confirms it, P30): the newsroom's "Most of mine, on the day, were expectations, and seeing that was useful." (unregistered too).`
+*Most of mine, on the day, were expectations, and seeing that was useful.*
+
+`%% record: HV1 (signed, brief 38: "can you add them all?"), printed: the newsroom's "Most of mine, on the day, were expectations" (his view; no figure)`
 
 `%% record: team/conductor/from-newsroom/2026-11-04__do-this-now-as-invitations.md (chapter 6, the proposed card); chapter-plan/cast/cast-guide.md (page conventions 1)`
 

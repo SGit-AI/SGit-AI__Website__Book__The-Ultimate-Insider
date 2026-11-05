@@ -22,15 +22,15 @@
 
 `%% layout: full`
 
-**Narrator.** A lot of it came from somewhere. This was not the first time I tried to make a talk behave differently. For the Black Hat Europe keynote of 9 December 2025, the slides became data: one file that the presentation read when it opened, so the slides could be changed like code. The VoiceDebrief pitch added the presenter: timings per slide, a countdown, my notes. And for a short demo for ruv.sgit.ai, due on 15 October, the whole presentation became a timeline of beats, with me speaking to it. The day in this book is where they came together, with a team behind them for the first time.
+**Narrator.** A lot of it came from somewhere. This was not the first time I tried to make a talk behave differently. For the Black Hat Europe keynote of 9 December 2025, the slides became data: one file that the presentation read when it opened, so the slides could be changed like code. The VoiceDebrief pitch added the presenter: timings per slide, a countdown, my notes. And for a short demo for ruv.sgit.ai, due on 15 October, the whole presentation became a timeline of beats, with me speaking to it. Each earlier experiment fixed one thing and showed me the next. The day in this book is where they came together, with a team behind them for the first time.
 
 `%% record: C116 (the scripted talk: Black Hat Europe, 9 December 2025, one JSON file; VoiceDebrief, the presenter; the first talk.json, a five-minute demo for ruv.sgit.ai, built on 14 October for 15 October) C028 (the player ported from ruv.sgit.ai) briefs/2026-11-04__in-session/04-introduce-the-narrator-and-chapter-1.md`
 
-`%% held out of print until he confirms it (a Check item): the newsroom's 'Each earlier experiment fixed one thing and showed me the next'.`
+`%% record: HV1 (signed, brief 38: "can you add them all?"), printed: the newsroom's "Each earlier experiment fixed one thing and showed me the next" (a Check item, Part B)`
 
-**Narrator.** There is one more thing I want you to see as you read. This book is being made the same way the talk was. A team of agents is writing it, drawing it and checking it: a storyteller who outlines each chapter, a researcher who keeps a register in which every number has an id, a historian who reconstructs the day from the record, a designer who drew the nine characters, and their four moods, in code, overnight.
+**Narrator.** There is one more thing I want you to see as you read. This book is being made the same way the talk was. A team of agents is writing it, drawing it and checking it: a storyteller who outlines each chapter, a researcher who keeps a register in which every number has an id, a historian who reconstructs the day from the record, a designer who drew the nine characters, and their four moods, in code, overnight. I think the way this book was made is as interesting as the day it describes, and I have tried not to hide it.
 
-`%% for the editor (his view, held out of print until he confirms it, P30): the newsroom's "I think the way this book was made is as interesting as the day it describes, and I have tried not to hide it." to close the paragraph.`
+`%% record: HV1 (signed, brief 38: "can you add them all?"), printed: the newsroom's "I think the way this book was made is as interesting as the day it describes"`
 
 `%% record: C122 (the book team's roles, as their own pages of rules state them; this book's record) C117 (the nine, four moods each, drawn by a script overnight, about three and three-quarter hours; this book's record)`
 

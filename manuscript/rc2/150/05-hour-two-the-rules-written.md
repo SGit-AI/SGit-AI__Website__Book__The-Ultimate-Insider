@@ -10,9 +10,9 @@
 
 **Narrator.** The second hour was the rules, and I was in the sessions for it, asking for some of them as they were written. Almost all of them were written by one member, in about thirteen minutes: how every session starts (fetch the team's latest work first, then print a banner saying who is working and on what), the checklist every turn of work follows, the form of the short message saved with every change, the schedule that wakes each agent at its own minute, and the hold, one file that stops them all.
 
-**Narrator.** The hold existed before the first scheduled session did. Nothing ran on the clock until there was a way to stop it.
+**Narrator.** The order of that list is the part I would point at. The hold existed before the first scheduled session did. Nothing ran on the clock until there was a way to stop it. I have since written about who should own that stop, because it turned out to matter more than anything else on the list, but on the night it was simply there first, and I am glad it was.
 
-`%% for the editor (his view, held out of print until he confirms it, P30): the newsroom's "The order of that list is the part I would point at." to open the paragraph, and "I have since written about who should own that stop, because it turned out to matter more than anything else on the list, but on the night it was simply there first, and I am glad it was." to close it (also a Check item: it rests on the newsroom's "Who owns the stop button", C123).`
+`%% record: HV1 (signed, brief 38: "can you add them all?"), printed: the newsroom's "The order of that list" and "I have since written about who should own that stop" (C123, the newsroom's "Who owns the stop button")`
 
 `%% record: in the sessions: 24da366 (the banner rule I had just asked for) b620234 (the prompts I pasted into each member's session); storyteller__138 S7; 02cbd86 (01:27:10) to 09f13d5 (01:39) and d8f3300 (01:40:42): 13 min 32 s to d8f3300 by R31 and historian__077; claims/rc2-150-trace.md line 37 for "thirteen" (12 min 37 s to the hold): thirteen minutes; timeline/day/01.md`
 
@@ -36,9 +36,9 @@
 
 **Conductor**: I made their tasks for them. That was a reach too far. Each of you makes your own; I write down how.
 
-**Narrator.** An agent reached further than the team meant, and the team pulled it back within three minutes by changing a rule, not by hoping it would not happen again. The team writing this book still follows that rule: each of its members made its own task in its own session.
+**Narrator.** Looking back, this is the moment I would show anyone who asks whether agents can be trusted with each other. An agent reached further than the team meant, which will always happen, and the team pulled it back within three minutes by changing a rule, not by hoping it would not happen again. The team writing this book still follows that rule: each of its members made its own task in its own session.
 
-`%% for the editor (his view, held out of print until he confirms it, P30): the newsroom's "Looking back, this is the moment I would show anyone who asks whether agents can be trusted with each other." to open the paragraph, and "which will always happen" after "further than the team meant".`
+`%% record: HV1 (signed, brief 38: "can you add them all?"), printed: the newsroom's "Looking back, this is the moment" and "which will always happen"`
 
 `%% record: the historian's reading, timeline/day/01.md ("What the hour shows"), for "the first place in the record where an agent's reach went past what the team meant"; d8f3300 (01:40) b620234 (01:43: "Only a member's own session can create its scheduled task: the three the conductor created for dev, deck and ruv.sgit were disabled before any fired") team/conductor/schedule.json ("how_each_task_is_made", this book's)`
 `%% band: Dramatised (the conductor's line). Rests on the conductor's commits of 01:40 and 01:43; that it is the first place an agent's reach went past what the team meant is the historian's reading of the hour; the rule is this book's team's still.`
@@ -46,9 +46,9 @@
 
 ## One build, one check
 
-**Narrator.** The check held its line in this hour too, against the member who built it. It stopped dev's own release until two pages of rules carried the banner rule I had just asked for. Dev added the lines, and the release went out.
+**Narrator.** The check held its line in this hour too, against the member who built it. It stopped dev's own release until two pages of rules carried the banner rule I had just asked for. Dev added the lines, and the release went out. A check that its own author cannot get past is the only kind worth having.
 
-`%% for the editor (his view, held out of print until he confirms it, P30): the newsroom's "A check that its own author cannot get past is the only kind worth having." to close the paragraph.`
+`%% record: HV1 (signed, brief 38: "can you add them all?"), printed: the newsroom's "A check that its own author cannot get past"`
 
 **Dev**: The check said no. It was right. The lines went in, and it said yes.
 
@@ -66,9 +66,9 @@
 
 ## The researcher arrives, and dev goes first
 
-**Narrator.** Just before two, the researcher arrived, with its own key, its role, its policy for the evidence it would keep, and a request for a slot.
+**Narrator.** Just before two, the researcher arrived, with its own key, its role, its policy for the evidence it would keep, and a request for a slot. Of all the members, it is the one I would hire first for any team, because everything else rests on its work.
 
-`%% for the editor (his view, held out of print until he confirms it, P30): the newsroom's "Of all the members, it is the one I would hire first for any team, because everything else rests on its work." (also a Check item).`
+`%% record: HV1 (signed, brief 38: "can you add them all?"), printed: the newsroom's "Of all the members, it is the one I would hire first"`
 
 **Cast card: the researcher.**
 
