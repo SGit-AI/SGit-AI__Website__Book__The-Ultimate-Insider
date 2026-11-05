@@ -221,6 +221,8 @@ The talk team's vaults are named in 10, not cited by path; nothing of them is in
 
 **5 November 2026, about 02:35 UTC: the Wardley fix, 23b's links, and the diff since 01:15.** 01:79 now quotes the talk exactly (transcript a9c0b49, 19:27, added after the day) with his GenAI note after it: closed. 23b's 15 newsroom links each answer 200 to one status-only request (02:10 UTC, 5 November). The researcher's final pass has one fail: C132, cited on 18's record line, is not in Appendix A's file (Appendix A is leaving the book, AP1). "Steps" in 07 and 09 is his word (brief 43); 93 is now Appendix A (the control register, AP2). No new number, time or commit id.
 
+**5 November 2026, about 03:25 UTC: the diff since 02:15 (00, 00b, 93).** The opening spread's caption "162: sessions that left a record of their work" is C022's 162 wake records; the figure briefs name only shots security cleared by name (`talk.jpg` in security__026; the rest in security__064). 00b says the two voices once; 93's opening is reworded. No new number, time, quotation or commit id. The researcher's final pass has no fails. Nothing open.
+
 ## The writer's readings, for the editor to keep or drop
 
 **Corrected 3 November 2026, about 09:30 UTC:** until this wake the list took only the notes that stand on a line of their own, and missed four set inside a paragraph (70/02:67, 70/02:97, 70/06:68, 70/11:5). The list now takes every note wherever it stands: thirty in the thirty and the seventy (not twenty-six), seven in the 150's part 1, thirty-seven in all.

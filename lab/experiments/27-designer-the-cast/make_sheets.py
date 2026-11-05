@@ -145,7 +145,16 @@ def cast_row_personas():
         out.append(fig(m, "happy", x + 1.2, y + 1.6, .45))
         out.append(t(x + 20.5, y + 11.4, m, 800, fill=mc.ACCENT if lead else mc.INK))
         out.append(t(x + 20.5, y + 15.8, jobs[m], fill=mc.MUTED))
-    return mc.svg(164, 3 * ch, "".join(out), "The talk's nine agents as personas, each with its one-line job in the talk's own words: the conductor first")
+    # the empty chair (OS1, the opening spread; the caption's "and one empty chair"): security, planned in the first
+    # hour and never staffed (C011), drawn greyed in the middle of a fourth row, its card dashed, as in the house
+    x, y = cw, 3 * ch
+    src = (REPO / "lab" / "characters" / "cast" / "security-worried.svg").read_text()
+    inner = src[src.index(">", src.index("<svg")) + 1: src.rindex("</svg>")]
+    out.append(f'<rect x="{x + .5:.2f}" y="{y + .5:.2f}" width="{cw - 1:.2f}" height="{ch - 1:.2f}" rx="1.6" fill="{mc.FILL}" stroke="{mc.MUTED}" stroke-width=".35" stroke-dasharray="1.6 1"/>')
+    out.append(f'<g transform="translate({x + 1.2:.2f} {y + 1.6:.2f}) scale(.9)" opacity=".38">{inner}</g>')
+    out.append(t(x + 20.5, y + 11.4, "security", 800, fill=mc.MUTED))
+    out.append(t(x + 20.5, y + 15.8, "the empty chair", fill=mc.MUTED))
+    return mc.svg(164, 4 * ch, "".join(out), "The talk's nine agents as personas, each with its one-line job in the talk's own words, the conductor first; and security's empty chair, planned and never staffed")
 
 
 def first_commits():

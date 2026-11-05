@@ -828,11 +828,28 @@ def book_table():
             seats.append(("head", m, None))
         else:
             seats.append(("blank", m, m))
-    out = [table([(k if k != "figure" else "head", m, l) for k, m, l in seats], cx=54, cy=36, rx=36, ry=18)]
-    out.append(t(116, 20, "this book's team", 800) + t(116, 25, "security's seat filled", 700, mc.COLOUR["security"])
-               + t(116, 31, "a dashed seat: a member", 400, mc.MUTED) + t(116, 35.1, "not drawn yet", 400, mc.MUTED))
-    out.append(t(0, 74, "the members as this book's team/ folders hold them; the same table as the talk's", 400, mc.MUTED))
-    return mc.svg(164, 76, "".join(out), "This book's team at the table, the same drawing as the talk's, with security's seat filled")
+    # a long table, half the seats along each side, every seat named (ruv-sgit 083: the round table could not name
+    # twenty-two at 9 pt); names staggered on two lines so neighbours never touch
+    n = len(seats)
+    top, bottom = seats[: (n + 1) // 2], seats[(n + 1) // 2:]
+    x0, x1, ty, by = 8.0, 156.0, 22.0, 38.0
+    out = [f'<rect x="{x0 - 2}" y="{ty + 4}" width="{x1 - x0 + 4}" height="{by - ty - 6}" rx="3" fill="{mc.FILL}" stroke="{mc.INK}" stroke-width=".5"/>']
+    for row, side in ((top, -1), (bottom, 1)):
+        step = (x1 - x0) / max(1, len(row))
+        for i, (kind, m, _) in enumerate(row):
+            cx = x0 + step * (i + .5)
+            y = ty - 4 if side < 0 else by + 1.4
+            if kind == "blank":
+                out.append(f'<rect x="{cx - 5:.2f}" y="{y:.2f}" width="10" height="7" rx="1.4" fill="#fff" stroke="{mc.FILL2}" stroke-width=".4" stroke-dasharray="1 .7"/>')
+            else:
+                out.append(g(mc.head(m), cx - 5.2, y - 2.6, .26))
+            lift = 4.2 * (i % 2)
+            ly = (y - 2.6 - lift) if side < 0 else (y + 11.2 + lift)
+            col = mc.COLOUR["security"] if m == "security" else (mc.INK if kind != "blank" else mc.MUTED)
+            out.append(t(cx, ly, m, 700 if kind != "blank" else 400, col, "middle"))
+    out.append(t(0, 66, "this book's team at its table, every member as its team/ folder names it;", 400, mc.MUTED)
+               + t(0, 70.2, "security's seat filled; a dashed seat: a member not drawn yet", 400, mc.MUTED))
+    return mc.svg(164, 72, "".join(out), "This book's team at one table, every member named, with security's seat filled")
 
 
 def two_sessions():
