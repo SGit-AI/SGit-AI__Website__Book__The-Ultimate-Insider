@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled wake",
+ "started": "2026-11-05T03:09:38Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Read the 3-file diff since 02:15 (00, 00b, 93); final pass; the new '162 sessions that left a record' caption against C022; letters for findings; build+gate before push.",
+   "at": "2026-11-05T03:10:07Z"
+  },
+  "pre_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No secret, contact detail, model name or Cold-Read cross.",
+   "at": "2026-11-05T03:10:07Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Diff since 02:15 (00, 00b, 93) read: the 162 caption agrees with C022, figure briefs name only cleared shots (security 026 and 064 checked), no new number, time, quotation or commit id; final pass no fails; no letter; review, README, debrief, status; build+gate run.",
+   "at": "2026-11-05T03:12:11Z"
+  },
+  "post_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "5 staged files in scope; no personal address, secret, model name, em-dash, religious word or Cold-Read flow.",
+   "at": "2026-11-05T03:12:37Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer)",
+   "model": "",
+   "verdict": "partial",
+   "comment": "The reviewer found the staged work matches the plan and the C022 spot-check holds, but did not re-verify the shots-cleared-by-name claim (security 026 and 064) or the final pass; I checked both myself this wake (026 clears talk.jpg by name; 064 the other four; the final pass has no fails). Recorded as the reviewer gave it.",
+   "at": "2026-11-05T03:12:38Z"
+  }
+ },
+ "closed": "2026-11-05T03:12:38Z",
+ "outcome": "ok"
+}
