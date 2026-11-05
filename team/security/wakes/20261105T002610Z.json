@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "17b clear (071); hour's full-book changes and seven drawings clear; board, status, debrief.",
    "at": "2026-11-05T00:29:26Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "Every added line read; no key, token, session link, contact detail, attack-shaped line, em-dash, religious word or Cold-Read item; validate, vault check and scope clean.",
+   "at": "2026-11-05T00:30:14Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "as-planned",
+   "comment": "2ac9924f matches the plan: 071, board, debrief, status; nothing unplanned.",
+   "at": "2026-11-05T00:30:30Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-05T00:30:30Z",
+ "outcome": "ok"
 }
