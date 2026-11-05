@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, hourly at :57 London",
+ "started": "2026-11-05T00:59:41Z",
+ "steps": {
+  "plan": {
+   "by": "conductor-planner",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Plan sits inside scope.writes (lab/experiments/*-designer-*, lab/tools/**, comms/mail, team/designer) and answers ruv-sgit 081's one must, conductor 088 and 089, and publisher 055 (the .dram-tag rule lives in publishing/full-book.css, which you leave to the publisher). Conditions: (1) numbers 71 and 72 are already taken by 71-figures-two-timelines and 72-figures-the-six (other members, not designer-named), so check the next free LAB number and use it, or say in the debrief that the number is shared. (2) The talk clone is not on this host, so clone it read-only into the scratchpad, read commits with git, and draw no id or hash. Check dev's session end by ancestry, not by guess. (3) Put the 71 swap in PLACED in resync_150.py only after the SVG draws, and keep tags.css to the one rule for both tags with no edit to publishing/. OS1 is optional: if LAB 72 is not reached, say so in next and in letter 155. No tool refused.",
+   "at": "2026-11-05T01:00:47Z"
+  },
+  "pre_review": {
+   "by": "security-reviewer",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Go, with folders 73-designer-chapter-16 and 74-designer-opening-spread (inside lab/experiments/*-designer-*; tags.css in lab/tools/** is in scope; no edit to publishing/). Talk clone is read-only and 298be4e descends from cb5b996 (18:46:22, the release); hold is 867f8c2 at 18:44:13; 18:45:35 is a designer commit; but 18:48:36 is a dev commit (17:47 wake closed, lock moved to 19:00), after the release, so read it from git and do not call it a stop unchecked. Draw no commit hash or id on a bar. OS1 images are not yet cleared (security 058 pending): use as lab drafts only, clearance stays with security post-review. By content index.jpg and talk.jpg show no contact, key or person; the masked shot keeps only a QR to the talk site public page, the all-ten sentence is covered, so no redaction leak, and the unmasked original must stay out. loop.jpg is mid-animation (retake or say so); night-hour shows 159 wakes, so never caption it as the day total (C120 says 162). Chapter 9 rail not touched: it never cites the 17:40 all-ten claim. One-way valve respected, no cold-read material. No tool refused.",
+   "at": "2026-11-05T01:02:11Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "claude-opus-5-5",
+   "verdict": "partial",
+   "comment": "Done in order: LAB 73 three-sessions (folder 73, since 71 and 72 are designer2's; every main-line commit 18:40 to 18:50 a dot; hold from C006 and C065; designer's end at its commit and its release, dev's checked off the main line, deck's checked open; no id or hash drawn), placed for chapter 16 replacing ch4-last-ten-minutes; lab/tools/book/tags.css one rule for both tags (TC1, DM1), publishing/ untouched; lab PDF 193 pages; letters 154, 155; eight letters to done/; vault_check, agents check, build and gate clean. Not done (item 3, optional): OS1, first in next with security's image conditions.",
+   "at": "2026-11-05T01:07:05Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

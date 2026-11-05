@@ -73,8 +73,8 @@ PLACED = {
     },
     "rc2/150/16-hour-nineteen-minute-by-minute.md": {
         "the hold file as a page": ("lab/experiments/42-designer-rc2-seventy/ch10-hold-file.svg", "the designer's hold file"),
-        "the last ten minutes as a line": ("lab/experiments/39-designer-rc2-chapter-4/ch4-last-ten-minutes.svg",
-                                           "the designer's last ten minutes (the publisher's 050, critic3's proposal)"),
+        "the last ten minutes as a line": ("lab/experiments/73-designer-chapter-16/three-sessions.svg",
+                                           "the designer's three sessions past the hold (LAB 73; replaces LAB 39's dots, ruv-sgit 081)"),
         "the team's tally": ("lab/experiments/53-designer-team-tally/team-tally.svg", "the designer's tally (LAB 53), from C119"),
         "the dashboard after the stop": ("lab/experiments/42-designer-rc2-seventy/ch2-dashboard.svg", "the designer's dashboard"),
     },
