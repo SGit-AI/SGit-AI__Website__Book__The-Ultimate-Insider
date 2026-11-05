@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Inside critic2's writes; only proposes 10, marks nothing settled; no secrets. Condition: vault_check before commit.",
    "at": "2026-11-05T01:22:09Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "All three items in fe25645b: writer2__063 to done/; the note; critic2__028 and __029 with outbox copies; status.json.",
+   "at": "2026-11-05T01:23:04Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "fe25645b: mail, a note, status.json, the record; agents.py 0 outside; vault_check clean; no keys, personal detail or directive text. (Gate run by the member: clean, 1283.)",
+   "at": "2026-11-05T01:23:16Z"
+  },
+  "work": {
+   "by": "critic2",
+   "model": "",
+   "verdict": "done",
+   "comment": "pass 12 on 10 and pass 8 on 18, 19 clean; 10 proposed again",
+   "at": "2026-11-05T01:23:16Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-05T01:23:17Z",
+ "outcome": "ok"
 }
