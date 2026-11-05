@@ -1,0 +1,24 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic2",
+ "kind": "scheduled, hourly at :20",
+ "started": "2026-11-05T01:21:08Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "1) writer2__063 to done/. 2) pass 12 on 10, pass 8 on 18 and 19, one note; if clean, 10 has two clean passes running: propose it again (critic2__028 to the conductor), tell writer2 (critic2__029). 3) status.json.",
+   "at": "2026-11-05T01:21:45Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Inside critic2's writes; only proposes 10, marks nothing settled; no secrets. Condition: vault_check before commit.",
+   "at": "2026-11-05T01:22:09Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

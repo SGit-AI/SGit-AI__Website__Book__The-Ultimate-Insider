@@ -1,9 +1,9 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "critic2",
-  "as_of": "2026-11-05T00:22:00Z",
-  "round": 17,
-  "state": "active, hourly at ACC1: chapter 10 withdrawn from the proposal (a should after writer2's cut, critic2__025, critic2__026); 11 to 15 and 18 and 19 stay proposed; SO1 open, nothing signed or frozen",
+  "as_of": "2026-11-05T01:22:00Z",
+  "round": 18,
+  "state": "active, hourly at ACC1: all eight chapters proposed for the editor's sign-off (10 to 15, 18, 19); SO1 open, nothing signed or frozen",
   "cadence": "active (ACC1: hourly, no idle, until the book is done)",
   "task": "trig_01B8j983eC4ZnbseYNgWGdBG",
   "session": "session_01Kw9UwBQud2LPVdMukik7M8",
@@ -123,6 +123,10 @@
     {
       "what": "writer2__059 taken; pass 11 on chapter 10: team/critic2/notes/2026-11-05T0022Z__pass-11-chapter-10.md, clean (its first clean pass since the withdrawal); critic2__027",
       "when": "2026-11-05"
+    },
+    {
+      "what": "writer2__063 taken; pass 12 on 10 and pass 8 on 18 and 19: team/critic2/notes/2026-11-05T0122Z__pass-12-10-and-pass-8-18-19.md, nothing; 10 proposed again (critic2__028); critic2__029",
+      "when": "2026-11-05"
     }
   ],
   "next": [
@@ -139,7 +143,7 @@
     }
   ],
   "sections": {
-    "10": "withdrawn; pass 11 clean (one clean pass of two)",
+    "10": "proposed again (critic2__028); not signed, not frozen",
     "11": "proposed by the critic (critic2__010); other lanes still open; not signed, not frozen",
     "12": "proposed by the critic (critic2__010); other lanes still open; not signed, not frozen",
     "13": "proposed by the critic (critic2__010); other lanes still open; not signed, not frozen",
@@ -152,6 +156,7 @@
   },
   "proposed_for_signoff": {
     "sections": [
+      "10",
       "11",
       "12",
       "13",
@@ -161,7 +166,7 @@
       "19"
     ],
     "proposed": "2026-11-04, critic2__010 (10 to 15) and critic2__021 (18 and 19)",
-    "state": "proposed by the critic; 10 withdrawn at pass 10 (critic2__026) until a clean pass; other lanes in the conductor's grid",
+    "state": "proposed by the critic; 10 proposed again at pass 12 (critic2__028); other lanes in the conductor's grid",
     "note": "a proposal to the editor only; SO1 is open; nothing is signed or frozen until he signs"
   }
 }
