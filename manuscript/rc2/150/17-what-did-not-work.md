@@ -25,7 +25,7 @@
 
 ### The lock never turned
 
-*What it cost:* the first part was never locked; nothing stopped it changing on stage but the hold. *Whose record:* dev's last wake, and the conductor's request.
+*What it cost:* the first part was never locked, that is, marked final so that no agent could change it; nothing stopped it changing on stage but the hold, the file that stops every member's next session. *Whose record:* dev's last wake, and the conductor's request.
 
 **Narrator.** Told in chapter 16.
 

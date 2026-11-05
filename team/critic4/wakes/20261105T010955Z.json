@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic4",
+ "kind": "scheduled, hourly at :07",
+ "started": "2026-11-05T01:09:55Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "writer4__019 into done/; PDF rebuilt in the scratchpad; 20, 21, 23b, 91/92 read in print with print checks on part five; critic4__023 only if material; status.json, debrief.",
+   "at": "2026-11-05T01:10:38Z"
+  },
+  "pre_review": {
+   "by": "reviewer sub-agent (sonnet), in the same sub-agent as the plan",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "Writes under scope.writes; PDF in the scratchpad; nothing to the blind repository; no HOLD; proposals only. vault_check comms.",
+   "at": "2026-11-05T01:10:38Z"
+  },
+  "work": {
+   "by": "critic4",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "writer4__019 into done/; PDF rebuilt in the scratchpad; 20 clean in print; 21's 105 still the publisher's; 23b should (links lose addresses on paper); 21:17 could; critic4__023 cc publisher; 91-94 stand; status, debrief; gate, vault_check clean.",
+   "at": "2026-11-05T01:12:18Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "0 outside scope; vault_check clean; no PDF, image, key or token; no em-dash or religious word; proposed, not signed; newsroom.sgit.ai is the editor's public site, already in the book, not a contact detail.",
+   "at": "2026-11-05T01:13:18Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "Plan items done; critic4__023 sent as material; 91-94 stand.",
+   "at": "2026-11-05T01:13:18Z"
+  }
+ },
+ "closed": "2026-11-05T01:13:18Z",
+ "outcome": "ok"
+}
