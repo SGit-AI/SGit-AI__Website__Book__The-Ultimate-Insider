@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them). Within policy: untrusted PDF handling; writes inside the developer's paths; vault_check; exit codes; branch and dev only.",
    "at": "2026-11-05T00:16:00Z"
+  },
+  "work": {
+   "by": "developer",
+   "model": "",
+   "verdict": "done",
+   "comment": "Plan and pre-review ran before any file was touched. No new mail. The chapters had changed (writer3, chapter 17): the guard test file printed ok, then the documented sequence for real (make_editions, print_pages, make_editions): 31 chapters, 275 scenes. Page check on the 141-page PDF of 00:17 (plan said 00:06) against them: 6 tails, 10 short pages; figure counts less firm (11 of 99 captions not found, about 330 paragraphs falling back to the previous page, one caption missing from the whole PDF text): said so in developer__064 to publisher and designer (cmp same). Build, gate and agents check exit 0 before the push. Pages: rc2.html and index.html unchanged since 09:46, upload set unlinked.",
+   "at": "2026-11-05T00:21:22Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them). As planned; nothing undone. The plan step ran before any file was touched (plan and pre-review 00:16:00, first commit 00:21:16). The PDF checked was 00:17, the plan named 00:06 (disclosed); the figure counts are called less firm in the mail as planned; guard-test order and exit codes are the developer's own record.",
+   "at": "2026-11-05T00:22:11Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "finding",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them, none used). Pages, data, guards, mail counts against print-check.json, cmp, dates and hygiene clean. One minor finding: the mail's 'about 780 placed, 330 falling back vs about 990 and 165' came from print-pages.json, which describes the local 138-page build, not the 141-page PDF the check read, and the earlier values were 980 and 174. Corrected in this close in all three mail copies and the debrief to the check's own count (861 of 962 against 979 of 993) and the 138-against-141 lead named. The claim of one caption missing from the whole PDF text the reviewer could not check (no PDF on its machine); it is the developer's own check, run on the downloaded file.",
+   "at": "2026-11-05T00:23:58Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-05T00:23:58Z",
+ "outcome": "ok"
 }
