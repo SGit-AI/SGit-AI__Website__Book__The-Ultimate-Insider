@@ -118,3 +118,5 @@ The revised 150/22 and 70/14 read after the post-check: clear (still a plan, not
 **5 November, 04:24 wake.** talk__player.jpg cleared by name; LAB 75's five embedded pictures are exactly the five cleared shots; a should that an embedding script refuse anything not on SHOT_CLEARED (security__078). The hour's changes clear.
 
 **5 November, 05:24 and 11:24 wakes.** At 05:24 the plan step said stop: the build admitted screenshots by a kind pattern set before AD1, and studio.jpg printed without a clearance by name. security held the team (05:26) and paused its task. The editor lifted it at about 11:17 (brief 49). At 11:24: the six placed pattern-only shots listed by name for SHOT_CLEARED, two cleared now; the other 69 not cleared; the publisher to remove SHOT_OK (security__080). In the register under C8.
+
+**5 November, 12:24 wake.** The fix landed (bccc493b): SHOT_OK and SHOT_NEVER removed, screenshots admitted by name only (AD1); all 14 placed shots on SHOT_CLEARED; the spread's page two, both copies, embed only the cleared five. The hold's item is closed (security__081).
