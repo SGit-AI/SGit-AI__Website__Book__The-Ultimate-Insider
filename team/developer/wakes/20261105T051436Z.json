@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled wake, 05:12",
+ "started": "2026-11-05T05:14:36Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions for Claude_Docs, github, Gmail in context, no tools for them). Plan run before any file was touched: page check on the PDF of 05:13, the real run after both tests print ok (every removed page named in the work comment), mail changes counted from 075 with the answer on chapter 21's figure order from the actual build (developer__077), housekeeping with clock times and exit codes, conductor's pages read only.",
+   "at": "2026-11-05T05:15:45Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them). Within policy; writes inside the developer's paths; untrusted PDF handling; the real run only after both tests print ok; vault_check; exit codes; branch and dev only.",
+   "at": "2026-11-05T05:15:45Z"
+  },
+  "work": {
+   "by": "developer",
+   "model": "",
+   "verdict": "done",
+   "comment": "Both test files ok; real sequence exit 0,0,0 (32 chapters, 344 scenes); no page removed; PDF of 05:17 checked in a fresh scratch folder (python3 -I), deleted; developer__077 mailed (publisher, designer, Cc conductor); no deviations.",
+   "at": "2026-11-05T05:19:53Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none called). Only github.com and newsroom.sgit.ai addresses, no keys, no em-dashes, no religious words, writes inside the developer's paths, 077 copies identical apart from To/Cc, no page removed.",
+   "at": "2026-11-05T05:21:40Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none called). Every planned item done. Small points: the plan comment says 05:13 where the file was 05:17 (typo); the 077 Date was ahead of the clock, now set from the clock in all three copies; the conductor is on Cc only, as with 075.",
+   "at": "2026-11-05T05:21:46Z"
+  }
+ },
+ "closed": "2026-11-05T05:21:50Z",
+ "outcome": "ok"
+}
