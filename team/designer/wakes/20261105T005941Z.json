@@ -24,8 +24,22 @@
    "verdict": "partial",
    "comment": "Done in order: LAB 73 three-sessions (folder 73, since 71 and 72 are designer2's; every main-line commit 18:40 to 18:50 a dot; hold from C006 and C065; designer's end at its commit and its release, dev's checked off the main line, deck's checked open; no id or hash drawn), placed for chapter 16 replacing ch4-last-ten-minutes; lab/tools/book/tags.css one rule for both tags (TC1, DM1), publishing/ untouched; lab PDF 193 pages; letters 154, 155; eight letters to done/; vault_check, agents check, build and gate clean. Not done (item 3, optional): OS1, first in next with security's image conditions.",
    "at": "2026-11-05T01:07:05Z"
+  },
+  "post_review": {
+   "by": "security-reviewer",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Commit 01dc75b is in scope: lab/experiments/73, lab/tools, comms/mail, team/designer and REALITY.md, with publishing/ and designer2 folders untouched. The SVG shows only clock times and plain labels, with no register id, hash or version (the digit runs are coordinate float noise), and the drawings and letters hold no key, token, session id, contact detail or URL. tags.css is CSS only, with no em-dashes or religious words in new prose. Letters 154 and 155 are dated 01:04:00Z and status as_of is 01:04:00Z, both before the commit at 01:07:06Z. No tool refused.",
+   "at": "2026-11-05T01:07:40Z"
+  },
+  "post_check": {
+   "by": "conductor-reviewer",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Work went to plan in order: LAB 73 in folder 73 as the plan allowed, tags.css as one rule with publishing untouched, letters 154 and 155, and OS1 left unstarted as the plan said it could be. OS1 is named first in status next, in the debrief and in letter 155, with security image conditions. The REALITY.md append matches what was done (LAB 73, tags.css, OS1 not started, 193 pages), and as_of and both letter Dates are 01:04:00Z, before the 01:07:06Z commit. No tool refused.",
+   "at": "2026-11-05T01:08:05Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-05T01:08:16Z",
+ "outcome": "ok"
 }
