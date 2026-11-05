@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (ACC1)",
+ "started": "2026-11-05T01:55:17Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go with four changes. (a) The old line is also in page.html and page.pdf (in SHA256SUMS): rebuild them too, or say so. (b) Fix README line 39's description and note the change at the storyteller's word. (c) Tell the publisher the strip changed: it is placed in editions/10/07, rc2/30/04, rc2/70/11 and rc2/150/17, and their caption still fits. (d) The map still has ch4-last-ten-minutes in 16 slot 3 (4e1d25f0 at 01:00, before LAB 73 at 01:07); check the designer's list and record the remap as the publisher's. Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-05T01:57:13Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go: everything in scope; print.js opens only a local file; no secrets; no Cold-Read route; no HOLD. Conditions: placements and the map remap are the publisher's, and I only tell them; the 18 review stays on figures and how things are shown; vault_check, then push on green. Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-05T01:57:47Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "Strip-10-07's third panel reworded at the storyteller's and writer3's yes: the script, edition SVG (edition.py rules passed), pages.html (order kept), page.html, page.pdf (print.js), README and SHA256SUMS. check_top is clean and I looked at the render. 16 re-read: LAB 73 is right and passes once mapped (the publisher's). RV2 on the 150's 18: passes, one should (the book table names 12 of 22) and one could. Letter 083; five letters copied to done.",
+   "at": "2026-11-05T01:59:17Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Clean: everything in scope, no secrets, no em-dash or RW1 word, nothing attack-shaped, no date after the clock. The strip change is only the agreed line; the SVG and PDF have no script, link or action; SHA256SUMS verifies; the facts on 16 and 18 hold; the copies are identical. A note: README line 39 still describes the storyteller's original script; the change is recorded in a new paragraph at line 41, which keeps the history true. Tools: Bash read-only; no script; no file written; the brief's python checks were left to the member's gate. Nothing was refused.",
+   "at": "2026-11-05T02:00:39Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "The reviewer agent's verdict, run before this entry. All four changes, (a) to (d), are met. On (b), keeping line 39 as the dated record and correcting it in a new paragraph meets the plan in substance, and the debrief discloses it. The copies are identical; status and debrief are right. Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-05T02:01:31Z"
+  }
+ },
+ "closed": "2026-11-05T02:01:31Z",
+ "outcome": "ok"
+}
