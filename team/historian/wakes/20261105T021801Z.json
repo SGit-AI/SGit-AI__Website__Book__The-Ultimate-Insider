@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-05T02:18:01Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Short and in scope; letter 287 asks nothing; do the verification against the talk transcript at a9c0b49 before sending 086 (I did it before this step was recorded, by reading only, no file written). Tools: Read, Grep, Glob, Bash.",
+   "at": "2026-11-05T02:18:40Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Plan fits the historian's writes; talk repo read-only; nothing to Cold-Read; keep the letter and debrief free of keys, ids, model names, em-dashes, religious words; vault_check before commit. Tools: Read, Grep, Glob, Bash.",
+   "at": "2026-11-05T02:19:02Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "No secrets, keys, model names, em-dashes or religious words; nothing toward Cold-Read; the three copies of letter 086 identical; writes in scope. Tool: Bash.",
+   "at": "2026-11-05T02:19:29Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "Quote check, letter 086, R39 closed, filed letter, debrief and status done; the debrief states the read-only check ran before the plan step was recorded.",
+   "at": "2026-11-05T02:19:29Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "claude-sonnet-5-5",
+   "verdict": "done",
+   "comment": "Wardley quote verified; R39 closed; letter 086; one letter filed",
+   "at": "2026-11-05T02:19:29Z"
+  }
+ },
+ "closed": "2026-11-05T02:19:29Z",
+ "outcome": "ok"
+}
