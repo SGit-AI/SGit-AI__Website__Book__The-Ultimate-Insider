@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "developer",
+ "kind": "scheduled wake, 13:12 London",
+ "started": "2026-11-05T12:18:36Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them). Hold lifted at the editor's word (brief 49); no manuscript commit since 04:59, so no rebuild; page check on the PDF of 12:14 in a fresh scratch folder with python3 -I, deleted after; developer__078 to publisher and designer, Cc conductor, only what changed against 077, saying the 10:00 aim has passed.",
+   "at": "2026-11-05T12:19:25Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "go",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). No hold in the tree. Plan within policy. Conditions: no rebuild unless manuscript changed (guards first, none turned off); name any removed page; page numbers and counts only, no addresses from the PDF; vault_check; exit codes 0 before push; the fetch is read-only from the project's own host.",
+   "at": "2026-11-05T12:19:45Z"
+  },
+  "work": {
+   "by": "developer",
+   "model": "",
+   "verdict": "done",
+   "comment": "Gate passed; PDF of 12:14 checked in a fresh scratch folder (python3 -I, rc 0), deleted, page numbers and counts only; no rebuild (manuscript unchanged since 04:59); no page removed; developer__078 mailed (publisher, designer, Cc conductor); vault_check clean; no deviations.",
+   "at": "2026-11-05T12:20:26Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). Writes inside the developer's paths; 078 copies identical apart from To/Cc; no off-host addresses, keys, em-dashes or religious words; print-check.json holds numbers only; no scratch PDF left.",
+   "at": "2026-11-05T12:22:40Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, none used). Plan done: no rebuild (manuscript last 04:59), 078 numbers match print-check.json, Date not ahead of the clock, vault_check clean.",
+   "at": "2026-11-05T12:22:55Z"
+  }
+ },
+ "closed": "2026-11-05T12:22:55Z",
+ "outcome": "ok"
+}
