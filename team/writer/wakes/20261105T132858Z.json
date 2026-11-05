@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer",
+ "kind": "scheduled wake",
+ "started": "2026-11-05T13:28:58Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer agent)",
+   "model": "",
+   "verdict": "go",
+   "comment": "File conductor 051 (both asks wait for the editor under brief 49; OS4 joined) and ruv-sgit 088 (17b and 20 pass in its lane, info); no manuscript change ahead of his word; records only.",
+   "at": "2026-11-05T13:30:12Z"
+  },
+  "pre_review": {
+   "by": "security (reviewer agent)",
+   "model": "",
+   "verdict": "go",
+   "comment": "All writes in scope; both letters team addresses only, no key or contact detail; copies byte for byte; vault_check and the gate before push.",
+   "at": "2026-11-05T13:30:12Z"
+  },
+  "work": {
+   "by": "writer",
+   "model": "",
+   "verdict": "done",
+   "comment": "Two letters filed; no manuscript change ahead of the editor's word; records; gate clean.",
+   "at": "2026-11-05T13:31:49Z"
+  },
+  "post_review": {
+   "by": "security (reviewer agent)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Seven paths, all in scope; no manuscript or mailroom change; done copies match by sha256; no dashes, RW1 words, keys, URLs or outside addresses; vault_check clean.",
+   "at": "2026-11-05T13:32:41Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer agent)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Two letters filed byte for byte, no letter sent, no manuscript change, records current; 17b and 20 described as passing in ruv-sgit's lane only.",
+   "at": "2026-11-05T13:32:41Z"
+  }
+ },
+ "closed": "2026-11-05T13:32:41Z",
+ "outcome": "ok"
+}
