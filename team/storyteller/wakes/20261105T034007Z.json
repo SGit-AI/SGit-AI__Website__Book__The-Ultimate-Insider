@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "storyteller",
+ "kind": "scheduled, at :39 London",
+ "started": "2026-11-05T03:40:07Z",
+ "steps": {
+  "plan": {
+   "by": "storyteller (member-written plan, UL1)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No mail; no answer on 22. Work: the sweep of the full book's printed lines after the hour's edits (five steps, em-dashes, religious words); if clean, an idle close with only the wake record committed. Writes only team/storyteller/.",
+   "at": "2026-11-05T03:40:29Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Read-only sweep and an idle close writing only team/storyteller/; inside scope.writes; no HOLD.md; no stop condition.",
+   "at": "2026-11-05T03:40:48Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "none",
+   "comment": "Sweep of the printed lines after the hour's edits: clean (no em-dash, no religious word, 'five steps' only the formula and his two ST2 lines). Nothing to change; no letter.",
+   "at": "2026-11-05T03:40:48Z"
+  },
+  "post_review": {
+   "by": "storyteller (no diff but the wake record; UL1)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "No change but this wake record; nothing to review for secrets or scope.",
+   "at": "2026-11-05T03:40:48Z"
+  },
+  "post_check": {
+   "by": "storyteller (no diff; UL1)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "The sweep ran and found nothing; idle close as planned.",
+   "at": "2026-11-05T03:40:48Z"
+  }
+ },
+ "closed": "2026-11-05T03:40:48Z",
+ "outcome": "idle"
+}
