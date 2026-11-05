@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, hourly at :57 London",
+ "started": "2026-11-05T11:59:57Z",
+ "steps": {
+  "plan": {
+   "by": "conductor-planner",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Plan fits the designer ROLE and scope.writes (lab/experiments/*-designer-*, comms, team/designer). Two files for OS4 is acceptable under FB2 if security pre-review agrees: the address stays out of spread-page-2.svg and out of pages.html and the lab PDF; if security says no, no address is drawn and 163 asks the conductor to put the conflict to the editor and security. Conditions: the book copy is for the KDP print interior only, and the online draft PDF is also a published file, so 163 must tell the publisher to place spread-page-2.svg there; the invitation text is read from 00 word for word and the check that stops the script on a change stays; 00 is untouched. The cover rerun waits for the publisher adopting the storyteller 168 blurb in listing.md, and incoming letters 093, 060, 168, 086 and 077 are copied to done/ with the usual vault_check, gate and lab build.",
+   "at": "2026-11-05T12:01:02Z"
+  },
+  "pre_review": {
+   "by": "security-reviewer",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Go with conditions. The KDP interior is built from the same rc2-150 Book.txt and is published on the site under rc2/upload/, as are the online full draft PDFs, and 00-start-here.md already carries the address in text that both PDFs print, so the book copy adds no exposure the editor FB2 decision has not already accepted; it does mean print only is not a wall, and the address is public in the draft PDFs too. Conditions: the address appears only in spread-page-2-book.svg, in text read word for word from 00 at build and not typed again, no new address or contact detail anywhere; spread-page-2.svg and the lab pages.html and lab PDF stay without it, as my 03:58 ruling said; the book copy is referenced only by the KDP interior build, never the lab pages; vault_check on comms before the commit, and 00 is not edited. If the editor wants the address kept out of the online draft PDFs, that is a new decision for him, not for the designer.",
+   "at": "2026-11-05T12:01:39Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Done: OS4, the invitation drawn into page two foot word for word from 00 in two copies per security pre-review of 11:59: spread-page-2-book.svg with the address read from 00 (KDP interior only) and spread-page-2.svg with the address as the address in the printed book (lab and online draft); the script stops unless the book copy carries exactly 00 one address and if pages.html names it; the lab PDF page has no address; 00 untouched; lab PDF 199 pages; letter 163; five letters to done/; vault_check, agents check, build and gate clean.",
+   "at": "2026-11-05T12:07:06Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
