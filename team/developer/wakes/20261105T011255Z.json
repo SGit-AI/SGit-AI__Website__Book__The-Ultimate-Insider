@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them). Within policy: untrusted PDF handling; no PDF text or path into print-check.json; writes inside the developer's paths; vault_check; exit codes; branch and dev only.",
    "at": "2026-11-05T01:13:30Z"
+  },
+  "work": {
+   "by": "developer",
+   "model": "",
+   "verdict": "done",
+   "comment": "Plan and pre-review ran before any file was touched. No new mail. The chapters had changed (opening spread; new chapter 23b Further reading): the guard test printed ok, then the real sequence: make_editions.py refused 23b (fifteen newsroom links outside any claim) and wrote nothing, twice; print_pages.py had written a page map from a local build, put back with git checkout; nothing loosened; letter developer__066 to security with three options. Page check on the 147-page PDF of 01:14 against the 00:25 chapters (plan named 01:09): 5 tails, 9 short pages, 22 figures a page after their paragraph, labels near the two new chapters off and figure counts less firm, said so in developer__065 to publisher and designer (cmp same). The placement-drop investigation is not done: the rebuild stopped first. Build, gate and agents check exit 0 before the push. Pages: rc2.html and index.html unchanged since 09:46, upload set unlinked.",
+   "at": "2026-11-05T01:18:24Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "partial",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them). Partial: item 1 (why the check places fewer paragraphs) was planned and not done at the time: the work comment said the rebuild stopped first, but the investigation needed only the PDF and the chapter data; the reviewer is right. The developer does it in this close (below). Items 2 and 3 as planned; the PDF checked was 01:14, not 01:09 (disclosed); letter 066 and the print_pages map put back were unplanned and disclosed. The plan step ran before any file was touched (plan and pre-review 01:13:30, first commit 01:18:18).",
+   "at": "2026-11-05T01:19:20Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "finding",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them, none used; it reproduced the refusal on a copy: it names 23b-further-reading.md line 5 and writes nothing). Clean: nothing regenerated in the diff, the refusal real and nothing loosened, the facts and options in developer__066 true, mail 065's numbers match print-check.json. Four minor findings, answered in this close: (1) the rebuild time '00:25' was wrong, the last rebuild is the 00:21 commit: corrected in REALITY, status and the debrief, and said in developer__067 and 068; (2) print-check.json's source string said the chapters were 'today's' when they were an older copy: the tool now names where the chapters came from; (3) the 'changes since 064' paragraph of 065 was imprecise: 065 is replaced by developer__067, measured against today's chapters; (4) 066's phrase about the opening spread was loose: corrected in developer__068. The developer also did the investigation the post-check found missing: the placement drop was the matcher's fault (fixed, with a test), see developer__067 and 068.",
+   "at": "2026-11-05T01:22:13Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-05T01:22:13Z",
+ "outcome": "ok"
 }

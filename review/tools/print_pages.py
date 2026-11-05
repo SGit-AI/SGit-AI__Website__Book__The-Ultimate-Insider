@@ -60,6 +60,9 @@ def read_pdf(pdf):
     return n, [norm(subprocess.run(['pdftotext', '-f', str(i), '-l', str(i), str(pdf), '-'], capture_output=True, text=True).stdout) for i in range(1, n + 1)]
 
 
+BACK = 12                                                          # how many pages back a paragraph is looked for when it is not ahead
+
+
 def map_paragraphs(chapters, pages, window=8):
     """Each anchored paragraph's printed page (by six words from its start, or a little further in); a figure or clock line, a
     rule or a paragraph not found takes the page before. The search runs on from the last page found but only `window` pages
@@ -80,6 +83,8 @@ def map_paragraphs(chapters, pages, window=8):
                     keys = [' '.join(w[i:i + 6]) for i in (0, 6, 12) if len(w) >= i + 6] or [' '.join(w)]
                     findable += 1
                     hit = next((i + 1 for i in range(last - 1, min(n, last + window)) if any(k and k in pages[i] for k in keys)), None)
+                    if hit is None:                                 # not ahead: the pointer may have jumped past its place on a repeated phrase (found 5 November:
+                        hit = next((i + 1 for i in range(last - 2, max(-1, last - 1 - BACK), -1) if any(k and k in pages[i] for k in keys)), None)   # a chapter stranded 4 pages behind it): look back, nearest first
                 if hit:
                     found, last = found + 1, hit
                 else:
