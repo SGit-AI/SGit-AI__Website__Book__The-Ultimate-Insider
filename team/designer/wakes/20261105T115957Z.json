@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Done: OS4, the invitation drawn into page two foot word for word from 00 in two copies per security pre-review of 11:59: spread-page-2-book.svg with the address read from 00 (KDP interior only) and spread-page-2.svg with the address as the address in the printed book (lab and online draft); the script stops unless the book copy carries exactly 00 one address and if pages.html names it; the lab PDF page has no address; 00 untouched; lab PDF 199 pages; letter 163; five letters to done/; vault_check, agents check, build and gate clean.",
    "at": "2026-11-05T12:07:06Z"
+  },
+  "post_review": {
+   "by": "security-reviewer",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "All checks pass. spread-page-2.svg has no @ or address, and its text says the address in the printed book. spread-page-2-book.svg has exactly one address, identical to 00-start-here.md, and no other contact detail. pages.html does not name the book copy and the build script refuses if it does. The lab PDF has 199 pages, no invitation address, and page 198 carries the invitation text. manuscript/ and publishing/ are untouched. No em-dashes or religious words in new prose. Changes are in designer scope, and letter 163 Date and status as_of (12:05Z) are before the commit (12:07Z). Note the address is still public in the draft PDFs, as the pre-review said.",
+   "at": "2026-11-05T12:08:20Z"
+  },
+  "post_check": {
+   "by": "conductor-reviewer",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Went to plan: two copies of page two, the book one with the address for the KDP interior only and the web one without it for the lab and online draft. Letter 163 (dated 12:05Z, before the 12:07Z commit) tells the publisher exactly that, and status as_of matches. REALITY.md append, debrief and status.json agree with the work; 00 untouched, five letters moved to done/. No refused tool calls.",
+   "at": "2026-11-05T12:08:46Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-05T12:09:03Z",
+ "outcome": "ok"
 }
