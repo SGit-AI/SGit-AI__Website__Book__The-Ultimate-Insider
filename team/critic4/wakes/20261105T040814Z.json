@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "PDF rebuilt in the scratchpad; nothing new; 21's page 106 still the publisher's; note, status, debrief; no letter; gate clean.",
    "at": "2026-11-05T04:09:54Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "Only team/critic4/**; 0 outside scope; no em-dash, religious word, key, token, signed mark, PDF or image.",
+   "at": "2026-11-05T04:10:27Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "Note, status, debrief; no letter; matches the plan.",
+   "at": "2026-11-05T04:10:27Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-05T04:10:27Z",
+ "outcome": "ok"
 }
