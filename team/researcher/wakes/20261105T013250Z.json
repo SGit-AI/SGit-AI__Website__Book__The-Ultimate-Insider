@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-05T01:32:50Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Plan in scope; guard the script for a missing chapter 92; the 58 is cut (C015 says beats); reviewer used Read, Grep, Bash; none refused",
+   "at": "2026-11-05T01:34:49Z"
+  },
+  "pre_review": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "In scope; retirement conditional, a NOTE not a PASS; keep the register check and C068; reviewer used Read and Bash, none refused",
+   "at": "2026-11-05T01:35:11Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Opening spread traced; C132 settled; final-pass.py AP1-aware; script FAILS 1 (C132 vs the file until 92 is cut); records and letters written",
+   "at": "2026-11-05T01:37:40Z"
+  },
+  "post_review": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Commit in scope, manuscript and briefs untouched; C132 quote holds; script AP1-aware and compiles; FAILS 1 expected (C132 vs the file until 92 is cut); reviewer used Bash, none refused",
+   "at": "2026-11-05T01:39:42Z"
+  },
+  "post_check": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Chapter 00 traced, 042 and 033 answered, C132 settled, script AP1-aware, 014 and 008 sent, records",
+   "at": "2026-11-05T01:39:42Z"
+  }
+ },
+ "closed": "2026-11-05T01:39:42Z",
+ "outcome": "ok"
+}

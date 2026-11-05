@@ -102,3 +102,5 @@ RC2 is signed (RP1, CV2): the 30-page edition first, then the 70 and the 150, in
 4 November, 23:36: pass 15: C061 added to Appendix A's file (63 entries; chapter 01 cites it on its record line); writer4 asked to set 92 (`researcher__013`); script FAILS 1 (92) after my edits; no new figure in the landings.
 
 5 November, 00:36: pass 16: landings traced (21's 'Four came that same first afternoon' holds); script FAILS 1 (92 against the file), writer4's set still pending (`researcher__013`).
+
+5 November, 01:37: pass 17: the opening spread's numbers traced (all hold; 58 slides cut); C132 settled; AP1: 92 leaves the book, final-pass.py retires its Appendix A checks once 92 is gone; script FAILS 1 until the cut.

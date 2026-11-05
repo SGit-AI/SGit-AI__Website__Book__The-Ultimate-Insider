@@ -62,20 +62,25 @@ for f in chap:
         for i in set(re.findall(r'\bC\d{3}\b',l)): cited[i].append(os.path.basename(f))
 app=open('claims/appendix-a-150.md').read()
 inapp=set(re.findall(r'^## (C\d{3}):',app,re.M))
+import glob
+AP1=not glob.glob('manuscript/rc2/150/92-*.md')  # the editor, 5 November 2026, brief 40: Appendix A leaves the book (the register in claims/ stays the source)
 report('every cited id is in the register',[f'{i} (cited in {cited[i][:2]})' for i in cited if i not in R])
-report("every cited id is in Appendix A's file (C068 is held out of print by the editor's word)",[f'{i} (cited in {cited[i][:2]})' for i in cited if i in R and i not in inapp and i!='C068'])
+if AP1: print("NOTE Appendix A (chapter 92) is out of the book (AP1, brief 40): the check that every cited id is in its file is retired; every cited id must still be in the register (checked above)")
+else: report("every cited id is in Appendix A's file (C068 is held out of print by the editor's word)",[f'{i} (cited in {cited[i][:2]})' for i in cited if i in R and i not in inapp and i!='C068'])
 open_ids=[i for i in cited if i in R and R[i]['state']=='open']
 print('NOTE ids cited in the chapters whose state is still "open" (the book must say so):',sorted(open_ids))
 # 3. 92 equals Appendix A's file, and its commands equal the register's
-def entries(t):
-    parts=re.split(r'\n(?=## C\d{3}:)',t); return {re.match(r'## (C\d{3})',x).group(1):x.split('\n## Where')[0].split('\n---')[0].strip() for x in parts[1:]}
-a=entries(app); b=entries(open('manuscript/rc2/150/92-appendix-a-every-number.md').read())
-report("92 equals Appendix A's file, entry by entry",[f'only in the file: {sorted(set(a)-set(b))}' for _ in [0] if set(a)-set(b)]+[f'only in 92: {sorted(set(b)-set(a))}' for _ in [0] if set(b)-set(a)]+[f'differs: {k}' for k in sorted(set(a)&set(b)) if a[k]!=b[k]])
-bad=[]
-for k,t in b.items():
-    m=re.search(r'```\n(.*?)\n```',t,re.S)
-    if m and k in R and m.group(1).strip()!=R[k]['command'].strip() and k!='C068': bad.append(f'{k}: the command in 92 differs from the register')
-report("92's commands equal the register's",bad)
+if AP1: print("NOTE chapter 92 is out of the book (AP1): the checks that it equals Appendix A's file and carries the register's commands are retired")
+else:
+    def entries(t):
+        parts=re.split(r'\n(?=## C\d{3}:)',t); return {re.match(r'## (C\d{3})',x).group(1):x.split('\n## Where')[0].split('\n---')[0].strip() for x in parts[1:]}
+    a=entries(app); b=entries(open('manuscript/rc2/150/92-appendix-a-every-number.md').read())
+    report("92 equals Appendix A's file, entry by entry",[f'only in the file: {sorted(set(a)-set(b))}' for _ in [0] if set(a)-set(b)]+[f'only in 92: {sorted(set(b)-set(a))}' for _ in [0] if set(b)-set(a)]+[f'differs: {k}' for k in sorted(set(a)&set(b)) if a[k]!=b[k]])
+    bad=[]
+    for k,t in b.items():
+        m=re.search(r'```\n(.*?)\n```',t,re.S)
+        if m and k in R and m.group(1).strip()!=R[k]['command'].strip() and k!='C068': bad.append(f'{k}: the command in 92 differs from the register')
+    report("92's commands equal the register's",bad)
 # 4. chapter 21's team table against C131 (as stored) and against today's script
 def table():
     t=open(glob.glob('manuscript/rc2/150/21-*.md')[0]).read(); rows={}
