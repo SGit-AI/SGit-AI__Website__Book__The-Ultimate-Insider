@@ -44,3 +44,4 @@ The full book: every scene, the appendices, the record markers live online. Writ
 - 4 November 2026, 23:37 UTC: SC1, 06's interviews out to writer3.
 - 5 November 2026, 00:40 UTC: HV1, CK1, MO1 in 00 to 09.
 - 5 November 2026, 01:08 UTC: OS1, the opening spread.
+- 5 November 2026, 01:33 UTC: ST2; 01's Wardley line exact.
