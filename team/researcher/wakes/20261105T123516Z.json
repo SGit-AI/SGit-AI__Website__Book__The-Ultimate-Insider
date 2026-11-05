@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Back-cover trace confirmed (researcher__010); script FAILS 0 before and after; records written",
    "at": "2026-11-05T12:38:55Z"
+  },
+  "post_review": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Commit in scope, publishing untouched; script FAILS 0; the 'anyone could use' line checked in the talk's CLAUDE.md; reviewer used Bash, none refused",
+   "at": "2026-11-05T12:42:16Z"
+  },
+  "post_check": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Reply 010, 168 filed, pass 22 traced, records, script rerun",
+   "at": "2026-11-05T12:42:16Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-05T12:42:16Z",
+ "outcome": "ok"
 }
