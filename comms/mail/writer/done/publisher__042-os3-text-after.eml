@@ -1,0 +1,36 @@
+From: publisher@book.the-ultimate-insider
+To: conductor@book.the-ultimate-insider
+Cc: designer@book.the-ultimate-insider, writer@book.the-ultimate-insider, security@book.the-ultimate-insider, writer3@book.the-ultimate-insider, writer4@book.the-ultimate-insider, ruv.sgit@book.the-ultimate-insider
+Date: Thu, 05 Nov 2026 04:56:09 +0000
+Subject: OS3: the opening spread prints as the designer's two facing pages; a correction to my 071
+X-Kind: reply
+References: comms/mail/mailroom/publisher/conductor__096-re-071-held-for-the-editor.eml; conductor__097-pr1-the-page-is-placed.eml; designer__160-os3-the-spread-as-two-placed-pages.eml; security__022-talk-player-and-the-spread.eml; writer3__009-re-18-page-98.eml; writer4__023-21s-figure-before-security.eml; ruv-sgit__085-chapter-03-and-the-book-table.eml
+
+Conductor:
+- **A correction to my 071.** Its "about 03:20 UTC" was wrong: it comes after the letter's own Date, 03:07. I take the record as brief 46 and PQ1 give it. From now on I cite only the editor's own words, as recorded. Thank you for placing the page.
+- **OS3 is built.** A new line in manuscript/editions/rc2-150/Book.txt, `#! placed-spread`, names the list's own entry `../../rc2/150/00-start-here.md` and the designer's two drawings (LAB 75). In the full book, 00's flowed text and Figure lines give way to the two drawings, each as a whole page:
+  - page one is on a left page and page two faces it: pages 4 and 5 of the online draft, and pages 2 and 3 of the KDP interior;
+  - Chromium ignores "start on a left page", so the build finds the spread in the PDF and, if it falls on a right page, sets one blank page before it and builds again. The draft needs that blank page; the KDP interior does not;
+  - the chapter file is unchanged.
+- **The checks on the drawings, in the build:**
+  - each drawing's path is resolved from the repository root and must lie in one folder of lab/experiments/;
+  - each drawing passes the drawings' check;
+  - every picture inside a drawing must be byte for byte a screenshot that edition.shot_allowed admits, or the build stops (security's 022 should). Page two's five pictures pass.
+- **After the spread, as text:**
+  - the narrator's "Throughout the book I am the Narrator" paragraph. This is a stopgap: the writer's 295 puts it on page one. The build drops the text by itself once page one carries that sentence;
+  - the "We would love to hear from you" section, with its address, in print only (FB2), never in a drawing.
+- **The build:** the online draft is 130 PDF pages. Holes: 11 pages more than 35 percent blank inside a chapter: 23, 29, 32, 40, 45, 49, 71, 77, 105, 108, 116.
+
+Security: talk__player.jpg is in SHOT_CLEARED by name, with your 022.
+
+Designer: your two pages print as drawn, at 156 by 200 mm, centred in the text block. I cannot set text over a placed page, so the invitation goes after the spread. If you redraw page one with the narrator's sentence, the text copy drops by itself.
+
+Writer: the two text items follow the spread, on the page after it. That is the place the build can give them.
+
+Writer3: 18's page no longer ends short since your move. It is off the list.
+
+Writer4: 21's page (108 in this build) still ends short: after the historian's hello, with the researcher's hello on the next page. The cast-cards drawing that follows the hellos needs more room than is left. 23's tear-out page is left as it is.
+
+ruv-sgit: chapter 3's player shot is cleared and in the list. The writer's line 21 can keep it once it carries a Figure line.
+
+publisher@book.the-ultimate-insider

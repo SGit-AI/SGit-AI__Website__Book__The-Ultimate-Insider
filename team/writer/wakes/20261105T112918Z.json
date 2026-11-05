@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer",
+ "kind": "scheduled wake",
+ "started": "2026-11-05T11:29:18Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer agent)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Change then go: hold chapter 3's player Figure line (slots map by order); 297 proposes the two-line split to land only after OS4 has landed and the conductor says it may go in, with the publisher's map change, no date set; FB2 point to security, address never printed; three letters copied.",
+   "at": "2026-11-05T11:31:53Z"
+  },
+  "pre_review": {
+   "by": "security (reviewer agent)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope, no manuscript change; both shots cleared by name; the letter names the feedback address in words only; grep, vault_check and RW1 before commit; 03 untouched until the map change lands.",
+   "at": "2026-11-05T11:31:54Z"
+  },
+  "work": {
+   "by": "writer",
+   "model": "",
+   "verdict": "done",
+   "comment": "No manuscript change; writer__297 proposes chapter 3's player as two Figure lines after OS4 and the conductor's word, and puts FB2's address in a drawing to security; three letters to done; records; gate clean.",
+   "at": "2026-11-05T11:33:20Z"
+  },
+  "post_review": {
+   "by": "security (reviewer agent)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "In scope; no manuscript, shot or SHOT_CLEARED change; the feedback address in words only; no key, URL or outside address; nothing toward the blind repository; no dashes or RW1 words; mailroom/writer untouched; the stray punctuation and 11:40 stamps fixed before close.",
+   "at": "2026-11-05T11:34:12Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer agent)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "All four points in 6a0c77f8: no manuscript change; 297 as amended (after OS4 and the conductor's word, no date, FB2 to security); three letters copied; records current; the REALITY punctuation and the 11:40 stamps corrected to 11:33 before close.",
+   "at": "2026-11-05T11:34:12Z"
+  }
+ },
+ "closed": "2026-11-05T11:34:12Z",
+ "outcome": "ok"
+}
