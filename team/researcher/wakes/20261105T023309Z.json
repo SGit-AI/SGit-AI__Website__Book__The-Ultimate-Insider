@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-05T02:33:09Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Plan matches the repo; AP1 to read the full book's list with a stated fallback, the retirement printed as a NOTE; reviewer used Read, Grep, Bash, none refused",
+   "at": "2026-11-05T02:34:43Z"
+  },
+  "pre_review": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "In scope; test the list on non-comment lines by basename 92-; the incoming letters writer4 020 and publisher 010 are filed, not sent; reviewer used Read, Grep, Bash, none refused",
+   "at": "2026-11-05T02:35:23Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Script now tests the full book's list for AP1; FAILS 0 after, 1 before (old file test); records written",
+   "at": "2026-11-05T02:36:15Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

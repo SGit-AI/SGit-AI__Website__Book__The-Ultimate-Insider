@@ -63,14 +63,21 @@ for f in chap:
 app=open('claims/appendix-a-150.md').read()
 inapp=set(re.findall(r'^## (C\d{3}):',app,re.M))
 import glob
-AP1=not glob.glob('manuscript/rc2/150/92-*.md')  # the editor, 5 November 2026, brief 40: Appendix A leaves the book (the register in claims/ stays the source)
+# the editor, 5 November 2026, brief 40 (AP1): Appendix A leaves the book (the file 92 may stay in the repository; the register in claims/ stays the source)
+LIST='manuscript/editions/rc2-150/Book.txt'
+if os.path.exists(LIST):
+    AP1=not any(os.path.basename(l.strip()).startswith('92-') for l in open(LIST).read().splitlines() if l.strip() and not l.lstrip().startswith('#'))
+    print('NOTE Appendix A test: chapter 92 is %s the full book\'s list (%s)'%('NOT in' if AP1 else 'in',LIST))
+else:
+    AP1=not glob.glob('manuscript/rc2/150/92-*.md')
+    print('NOTE Appendix A test: the list %s is missing; fell back to whether the file 92 exists'%LIST)
 report('every cited id is in the register',[f'{i} (cited in {cited[i][:2]})' for i in cited if i not in R])
-if AP1: print("NOTE Appendix A (chapter 92) is out of the book (AP1, brief 40): the check that every cited id is in its file is retired; every cited id must still be in the register (checked above)")
+if AP1: print("NOTE Appendix A (chapter 92) is out of the full book's list (AP1, brief 40): the check that every cited id is in its file is retired; every cited id must still be in the register (checked above)")
 else: report("every cited id is in Appendix A's file (C068 is held out of print by the editor's word)",[f'{i} (cited in {cited[i][:2]})' for i in cited if i in R and i not in inapp and i!='C068'])
 open_ids=[i for i in cited if i in R and R[i]['state']=='open']
 print('NOTE ids cited in the chapters whose state is still "open" (the book must say so):',sorted(open_ids))
 # 3. 92 equals Appendix A's file, and its commands equal the register's
-if AP1: print("NOTE chapter 92 is out of the book (AP1): the checks that it equals Appendix A's file and carries the register's commands are retired")
+if AP1: print("NOTE chapter 92 is out of the full book's list (AP1; the file may stay as a source): the checks that it equals Appendix A's file and carries the register's commands are retired")
 else:
     def entries(t):
         parts=re.split(r'\n(?=## C\d{3}:)',t); return {re.match(r'## (C\d{3})',x).group(1):x.split('\n## Where')[0].split('\n---')[0].strip() for x in parts[1:]}
