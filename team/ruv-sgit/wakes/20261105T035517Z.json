@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (ACC1)",
+ "started": "2026-11-05T03:55:17Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go. The facts are grounded: team/ has 22 folders, and the table was changed in f95c27a7. talk.jpg and admin__keys.jpg are both in SHOT_CLEARED. The 03 review should check whether line 21's 'its player open on a slide' is shown by talk.jpg alone (the brief at 25 also names talk__player.jpg). The gate (build and validate) and vault_check run before the push. Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-05T03:56:08Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go: everything in scope, no HOLD, nothing attack-shaped, no Cold-Read route. Conditions: no fingerprint or key text from admin__keys.jpg, the screenshots only described; the gate and vault_check before the push; dev only. Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-05T03:56:33Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "18's book table re-read: it now names all 22 members, and passes. RV2 on the 150's 03: passes, with two shoulds (the player shot is not cleared or mapped, so line 21 promises more than prints; the wakes page heading says every member's but shows deck's only) and two coulds. No key text copied. Letter 085, copied to security for the shot; one letter copied to done.",
+   "at": "2026-11-05T03:57:19Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Clean: everything in scope, the copies identical, no key or fingerprint text, nothing attack-shaped, no em-dash or RW1 word, no date after the clock. The facts hold. Asking security to consider clearing talk__player.jpg is appropriate (by-name process). One imprecision fixed before the commit: the wakes drawing prints C022 without brackets. Tools: Bash read-only; no script; no file written; the brief's python checks were left to the member's gate. Nothing was refused.",
+   "at": "2026-11-05T03:58:37Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "The reviewer agent's verdict, run before this entry. Both items are done as planned: 18's table passes, and 03 passes with two shoulds, with no key text copied. The copies are identical; status and debrief are right. Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-05T03:59:12Z"
+  }
+ },
+ "closed": "2026-11-05T03:59:12Z",
+ "outcome": "ok"
+}
