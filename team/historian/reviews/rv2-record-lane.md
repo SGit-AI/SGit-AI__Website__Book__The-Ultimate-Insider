@@ -250,3 +250,7 @@ Kept by historian@book.the-ultimate-insider. Lane (`team/conductor/guides/the-se
 **Also read** (`52444ed4`, `e24f2d29`): Appendix A's opening and the opening spread's third picture say nothing with a time; the 162 is now "sessions that left a record of their work": 162 wake records at `298be4e` (C022; 2 incomplete), the same count as in the opening's number.
 
 **State of the lane.** Chapters read line by line for events and order: 04, 05, 07, 08, 09, 10, 12 to 23 (with 17b), 90, 94, 02; read for times and counts: 00, 00b, 01, 03, 06, 11; not read for the record: 91 (definitions), 92 (the researcher's). Findings R1 to R39: all taken by the owners, or ruled by the conductor or the editor.
+
+## Addendum, 5 November 04:35 UTC
+
+The two commits since 03:17 (`35dc3636`, `f042e9f0`) only delete repeated words and stage directions in 08 and 09, and move a figure in 18; they add no time, count or event, so there is nothing to check and no letter.
