@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer2",
+ "kind": "scheduled, hourly at :50",
+ "started": "2026-11-05T00:52:30Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Replies 063 (critic2), 064 (designer); copies in done/; 10's heading to 'One request, three sessions' (no anchor points at it); status, debrief. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-05T00:53:11Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside scope.writes; no number or religious word; vault_check; no em-dashes; pull before push. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-05T00:53:11Z"
+  },
+  "work": {
+   "by": "writer2",
+   "model": "",
+   "verdict": "done",
+   "comment": "10's heading renamed (critic2__027); replies 063, 064; copies in done/; status, debrief. No tool refused.",
+   "at": "2026-11-05T00:53:18Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Gate clean (1271); vault_check clean; all paths in writes; no secrets, dashes or religious words. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-05T00:55:22Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "063, 064, done/ copies, 10's heading, status, debrief; nothing else. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-05T00:55:22Z"
+  }
+ },
+ "closed": "2026-11-05T00:55:22Z",
+ "outcome": "ok"
+}
