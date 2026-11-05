@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, hourly at :57 London",
+ "started": "2026-11-05T03:58:25Z",
+ "steps": {
+  "plan": {
+   "by": "conductor-planner",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "The plan is inside designer scope: lab/experiments/75-designer-opening-spread matches the writes glob and 75 is free (74 is the last). It answers the urgent OS3 letter conductor 091 first, as asked, and the plan to read every word at build from 00-start-here.md without editing it keeps the writer words as they are. Conditions: use only the five screenshots security cleared by name, draw no id or hash, keep the cards at ten with security greyed, and send the page-one drawing and the build check even if page two slips to the next wake. The row layout in publisher 059 is the publisher and writer call, so the letter should place the pages and not decide that. Copy incoming letters to done only after the answers are written, set status as_of no later than the commit, and run vault_check on comms before the commit.",
+   "at": "2026-11-05T03:59:20Z"
+  },
+  "pre_review": {
+   "by": "security-reviewer",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "All five shots are in SHOT_CLEARED by name (index, talk, talk__slides__loop, studio-ports__abp-review__masked, articles__the-night-hour-by-hour) and the unmasked abp-review is in SHOT_REFUSED; embed only those as data:image jpeg, passing unsafe_svg, no other href. The feedback address is NOT the same exposure: FB2 signs it in print only, and a lab SVG is a web page, so keep the address out of the drawing and draw only the GitHub issues and LinkedIn lines, or a line saying the address is in the printed text. Scope fits lab/experiments/*-designer-*/** only if the folder is named 75-designer-opening-spread, which the glob needs; I found no chapter 9 rail path in the plan, and none may be touched, with 00 read only and not edited. Run vault_check on comms before the commit.",
+   "at": "2026-11-05T03:59:47Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Done: LAB 75 (folder 75-designer-opening-spread) draws the spread as two placed pages, 156 by 200 mm each, every word read from 00 at build and checked, 00 never edited; page one the headline, the narrator opening in Georgia 10 pt with one mark, ten cards with hellos and security greyed, the DRAMATISED tag and the italic closing line; page two the four numbers as a strip, three cleared shots in a row, a compact house from LAB 47 ROOMS with type at 9 pt, the policy and night-log cards, the five parts; only the five shots cleared by name embedded as data, page two passes unsafe_svg, no address drawn so the invitation stays text; lab PDF 199 pages; letter 160; five letters to done/; vault_check, agents check, build and gate clean.",
+   "at": "2026-11-05T04:07:35Z"
+  },
+  "post_review": {
+   "by": "security-reviewer",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Both SVGs show no at sign, address, URL, id or hash in visible text. Page one has no href; page two has exactly five data:image/jpeg hrefs, and one matches the masked abp-review by decoded hash while the unmasked file hash is not embedded. manuscript and publishing are untouched, no em-dashes or religious words in new prose, every path is in designer scope. Letter 160 Date and status as_of are 04:05Z, before the 04:07:36Z commit.",
+   "at": "2026-11-05T04:08:09Z"
+  },
+  "post_check": {
+   "by": "conductor-reviewer",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Both pages of the spread were drawn this wake (LAB 75, 156 by 200 mm each), so the plan allowed page two and it landed. Letter 160 says how to place the pages (page one left and even, page two right, full page), leaves how the build marks it to the publisher, and names the invitation (address rule, print only) and the narrator paragraph as text. REALITY.md append, debrief and status.json match the work, and as_of and the letter Date are 04:05Z, before the 04:07:36Z commit. One small note: the letter speaks of three screenshots in a row while five are embedded, which the plan and security cleared by name.",
+   "at": "2026-11-05T04:08:32Z"
+  }
+ },
+ "closed": "2026-11-05T04:08:47Z",
+ "outcome": "ok"
+}
