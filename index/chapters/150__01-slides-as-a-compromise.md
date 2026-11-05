@@ -8,7 +8,7 @@ From the chapter's `%% record` lines (and its `## Where this came from`, where i
 |---|---|---|---|---|---|
 | `src/pages/studio-ports/abp-review` | folder |  | ``  | ``  |  |
 
-## this repository (12)
+## this repository (13)
 
 - `briefs/2026-11-04__in-session/04-introduce-the-narrator-and-chapter-1.md`
 - `briefs/2026-11-04__in-session/07-speak-as-me-no-logistics.md`
@@ -19,6 +19,7 @@ From the chapter's `%% record` lines (and its `## Where this came from`, where i
 - `chapter-plan/edition-150-outline.md`
 - `manuscript/rc2/70/01-slides-as-a-compromise.md`
 - `team/conductor/from-newsroom/2026-11-04__narrator-voice-part-one-delta-01.md`
+- `manuscript/11b-what-was-already-there.md`
 - `index/talk-site/shots/motion__the-building.jpg`
 - `team/conductor/from-newsroom/2026-11-04__do-this-now-as-invitations.md`
 - `chapter-plan/cast/cast-guide.md`
@@ -30,7 +31,3 @@ From the chapter's `%% record` lines (and its `## Where this came from`, where i
 ## Commits named (2)
 
 `a9c0b49`, `5d13d72`
-
-## Not in any index
-
-Paths the tool could not place (outside the three repositories, or a web address): `manuscript/11b`

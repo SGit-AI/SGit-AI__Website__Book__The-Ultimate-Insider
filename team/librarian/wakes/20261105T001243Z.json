@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled wake",
+ "started": "2026-11-05T00:12:43Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Read the diff since 23:15 (17b new, 06, 10, 17, 20, 21, 90); check 17b against the interviews and the talk; final pass; letters only for findings; build+gate before push.",
+   "at": "2026-11-05T00:13:40Z"
+  },
+  "pre_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No secret, contact detail, model name or Cold-Read cross; the feedback address is confirmed by reference only.",
+   "at": "2026-11-05T00:13:40Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Read the diff since 23:15 (new 17b, 06, 10, 17, 20, 21, 90): holds; final pass one expected fail (92 against the file until writer4 sets it); address confirmed by the editor, not copied; no letter needed; review, README, debrief, status; build+gate run.",
+   "at": "2026-11-05T00:16:47Z"
+  },
+  "post_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "12 staged files in scope; no personal address copied; no em-dash, religious word, model name or Cold-Read flow.",
+   "at": "2026-11-05T00:17:06Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Diff since 23:15 read incl. new 17b; the 99aaf05 interview line confirmed; one expected final-pass fail (92 vs the file until writer4 sets it); no letter needed; build and gate clean (1257 pages).",
+   "at": "2026-11-05T00:17:06Z"
+  }
+ },
+ "closed": "2026-11-05T00:17:06Z",
+ "outcome": "ok"
+}
