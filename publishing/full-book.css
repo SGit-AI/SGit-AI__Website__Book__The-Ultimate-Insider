@@ -97,3 +97,8 @@ div.pair-full { clear: both; width: 100%; margin: .6em 0 .9em; break-inside: avo
 div.pair-full figure { float: none; width: 100%; margin: 0; }
 div.pair-full figure img { width: auto; max-width: 100%; max-height: 4.6in; }
 h2 + div.pair-full, h3 + div.pair-full { break-before: avoid; }
+
+/* the Dramatised tag (DM1, the editor's option (c)): small, grey, beside the scene's first speaker, in place of the
+   line of its own after the scene; the designer may tune its size and grey */
+.dram-tag { font-family: var(--sans, Inter, Helvetica, Arial, sans-serif); font-size: 7pt; font-style: normal;
+  font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: #8a9099; margin: 0 3pt 0 1pt; }

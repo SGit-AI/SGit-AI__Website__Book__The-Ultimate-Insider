@@ -107,3 +107,4 @@ source: comms/mail/mailroom/publisher/conductor__026-check-taken.eml; publishing
 4 November about 22:00 UTC: 16 and 21 gaps closed; 140 pages, 12 boxes.
 
 4 November about 23:00 UTC: designer2 mapped; 142 pages, 8 boxes.
+- 4 November 23:55 UTC: DM1 built (92 marks: 88 tags, 4 dropped); 14 and 15 mapped; 139 pages, 4 boxes, 11 holes inside chapters.

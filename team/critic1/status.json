@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "critic1",
- "as_of": "2026-11-04T23:16:00Z",
- "round": 15,
- "state": "active, hourly (RV1), paced to TG2: 00, 00b, 01, 02, 03, 03b, 04 and 05 proposed (SO1 open, none signed); 06 withdrawn on a question for the editor (EI2's short interviews dropped failures, critic1__026)",
+ "as_of": "2026-11-05T00:13:00Z",
+ "round": 16,
+ "state": "active, hourly (RV1), paced to TG2 (Thursday 10:00): 00, 00b, 01, 02, 03, 03b, 04 and 05 proposed (SO1 open, none signed); 06 restructured under SC1, one clean pass; 07 two shoulds; 026 moved with the interviews to writer3's part",
  "cadence": "active",
  "task": "trig_01TcnmdQ5Gz2qJG9EhAu5m4N",
  "task_cron": "CRON_TZ=Europe/London 3 * * * * (schedule.json asks 00; the server anchored the hourly minute to the creation minute, :03)",
@@ -124,18 +124,22 @@
   {
    "what": "pass 15: team/critic1/notes/2026-11-04T2315Z__his-answers-and-06.md; 00b and 01 stand with his signed answers; 06 withdrawn, a question to the editor via the conductor (026); letter 025 to the writer",
    "when": "2026-11-04"
+  },
+  {
+   "what": "taken: conductor__008, writer__264; pass 16: team/critic1/notes/2026-11-05T0012Z__06-restructured-and-07.md; letters 027 (writer), 028 (conductor)",
+   "when": "2026-11-05"
   }
  ],
  "next": [
   {
-   "what": "06 once he answers; 07, 08 and 09 in full toward proposal; the eight proposed watched",
+   "what": "06 and 07 again; 08 and 09 in full; the eight proposed watched",
    "why": "RV1, SO1, TG2"
   }
  ],
  "asks": [
   {
    "of": "the editor, via the conductor",
-   "what": "06: EI2's short interviews against the failures they dropped (critic1__026)"
+   "what": "026, now on the interviews in writer3's part after SC1"
   }
  ],
  "proposed_for_signoff": [
@@ -225,8 +229,12 @@
    "clean_running": 2
   },
   "06": {
+   "clean_running": 1,
+   "note": "new text after SC1"
+  },
+  "07": {
    "clean_running": 0,
-   "note": "withdrawn: EI2 against P32, a question for the editor"
+   "note": "first full critic1 read 00:12, two shoulds"
   }
  },
  "withdrawn": [
