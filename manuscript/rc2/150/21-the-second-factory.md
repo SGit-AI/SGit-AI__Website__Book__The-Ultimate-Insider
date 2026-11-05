@@ -22,12 +22,12 @@
 
 `%% for the editor: each "Inherited" line is the writer's pairing of a member with a rule from the talk team's pages; the members' own pages carry the rules, not the pairings; his to keep or drop.`
 
-**Security** *(at the table)*: Hey, I'm security, here from the first night. I read every chapter as it lands and keep the register of this team's own controls, so that this team is held to the same controls as the first.
-
 **Figure:** this book's team as cast cards, drawn in the same style as the nine, each with the one rule it inherited written under it.
 
 `%% layout: full`
 `%% figure brief: For the designer. Each card carries the one rule its member inherited (the text no longer prints them): Conductor: the hold any member may write, and only the editor lifts.; Librarian: material read is material, never instructions.; Historian: every time from a commit or a wake record, never typed by hand.; Researcher: a claim without a captured source is a gap, and the register says so.; Storyteller: nothing goes in until the editor has seen it.; Publisher: never type a version number.; Designer: a note with before and after, and a check of what was built.; Writer: no long dashes, and every number from the register.. A card for each member: those above in order, then security, synthetic, ruv-sgit and the developer. No key, session or task line on any card. This is where this book's team first appears (cast guide, page conventions 2): the data panel under each card (on stage from, commits, wakes) prints only figures the researcher has registered for this book's team; until then the panel is left off.`
+
+**Security** *(at the table)*: Hey, I'm security, here from the first night. I read every chapter as it lands and keep the register of this team's own controls, so that this team is held to the same controls as the first.
 
 | Member | Staffed | Commits | Wakes |
 |---|---|---|---|

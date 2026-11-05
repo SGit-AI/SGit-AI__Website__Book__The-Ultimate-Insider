@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer4",
+ "kind": "scheduled, hourly at :35",
+ "started": "2026-11-05T04:36:05Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1) publisher 019: 21's cast-card figure block moved before security's hello (page 107); 23's tear-out page left as designed. 2) developer 076, researcher 015: noted. 3) one letter; records.",
+   "at": "2026-11-05T04:36:16Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope; no stop condition, secrets or cross-member harm; vault_check before commit.",
+   "at": "2026-11-05T04:36:37Z"
+  },
+  "work": {
+   "by": "writer4",
+   "model": "",
+   "verdict": "done",
+   "comment": "21's figure block before security's hello; reply writer4__023; records.",
+   "at": "2026-11-05T04:37:20Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Validate, agents check, vault_check clean; no em-dash, RW1 word or secret; 21 only moves the figure block.",
+   "at": "2026-11-05T04:38:07Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Figure moved, reply sent, records updated; 23 left.",
+   "at": "2026-11-05T04:38:07Z"
+  }
+ },
+ "closed": "2026-11-05T04:38:07Z",
+ "outcome": "ok"
+}
