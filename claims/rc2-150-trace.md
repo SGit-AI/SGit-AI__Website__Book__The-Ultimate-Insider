@@ -719,3 +719,11 @@ The script at dev's head 9f0b723f (03:36, before any edit of mine): FAILS 0. Aft
 One landing since the 03:32 wake: writer3's f042e9f0 (04:08), which moves chapter 18's team-at-the-table figure one paragraph earlier (no word changed; a pure move, checked by the diff). Security's line that follows it, "I read what the others write, and I report. I do not fix. That is the job the first factory left empty." (chapter 18, line 137, not chapter 21 as I first wrote in the plan), carries no figure; its one claim, that security's chair was empty in the first factory, is C011 (never staffed). Nothing new to register.
 
 Writer4's 022 confirms 92's file stays (AP1 takes it out of print only; four other members' files name it). The script at dev's head 7d69fe6b (04:35, before any edit of mine): FAILS 0. After my records: see the debrief.
+
+## RV2 pass 21 (the 11:32 wake, 5 November), the first after security's hold
+
+The Thursday run "before 10:00" did not happen. Security's hold (team/security/HOLD.md, 05:26 UTC: screenshots admitted by pattern rather than by name, not a leak) stopped my 06:32, 07:32, 08:32, 09:32 and 10:32 wakes; the editor lifted it (brief 49, about 11:17 UTC; the file deleted, security's task re-enabled). The last run before the hold was 04:35 at dev's head 7d69fe6b (FAILS 0).
+
+Landings since my last released work (659cd0c5, 04:36): writer4's 11a29148 (04:38: the cast-card figure moved before security's hello; the hello is one line removed and added, no word new: "here from the first night" is C114/C011, already traced), the publisher's 7a7cc12d (04:59: the opening spread printed as the designer's two facing pages, OS3), the writer's 873bfbf3 (11:33: chapter 3's player line waits for OS4; chapter 00 held) and security's 3132b57e (the six placed screenshots by name). By grep of the added lines in manuscript/rc2/150: no new figure or time. OS3 and OS4 and the clearances are layout and controls, not numbers.
+
+The script, in order: at dev's head ce04e429 (11:36, before any edit of mine): FAILS 0. After my records (below): see the debrief.

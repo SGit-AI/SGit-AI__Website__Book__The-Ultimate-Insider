@@ -110,3 +110,5 @@ RC2 is signed (RP1, CV2): the 30-page edition first, then the 70 and the 150, in
 5 November, 03:35: pass 19: one landing (93's opening, no figure); script FAILS 0; writer4 told nothing needs deleting for my check (`researcher__015`).
 
 5 November, 04:34: pass 20: one landing (18's figure moved, no word changed); script FAILS 0. Next: Thursday before 10:00.
+
+5 November, 11:37: pass 21, the first after security's hold (05:26 to about 11:20 UTC; it stopped five wakes, so the Thursday-before-10:00 run did not happen): script FAILS 0 at ce04e429; no new figure in the landings.
