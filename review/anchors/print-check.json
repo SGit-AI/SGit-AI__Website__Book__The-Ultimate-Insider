@@ -1,7 +1,7 @@
 {
  "about": "The full book's printed pages checked for pages that may not look right (conductor__036). Written by review/tools/print_check.py: page numbers, chapter titles, counts and sizes only.",
  "edition": "rc2-150",
- "source": "a PDF given by hand (full.pdf, created Thu Nov  5 12:13:21 2026 UTC); its chapters are those of the online view, review/anchors/editions.json, as last built",
+ "source": "a PDF given by hand (full.pdf, created Thu Nov  5 13:14:17 2026 UTC); its chapters are those of the online view, review/anchors/editions.json, as last built",
  "pdf_pages": 128,
  "chapters_hash": "fad96e9bc4ebfa18",
  "thresholds": {
@@ -307,20 +307,13 @@
   "begin_on_a_later_page_than_that_paragraph_ends": 20
  },
  "since_last": {
-  "previous_pdf_pages": 129,
+  "previous_pdf_pages": 128,
   "previous_counts": {
-   "chapter_end_spill": 8,
+   "chapter_end_spill": 7,
    "gap_page": 6,
    "figure_apart": 24
   },
-  "fixed": [
-   {
-    "kind": "chapter_end_spill",
-    "chapter": "Before you start",
-    "before": 1,
-    "now": 0
-   }
-  ],
+  "fixed": [],
   "new": [],
   "remaining": [
    {
@@ -481,7 +474,7 @@
   "how a page looks beyond how far its content reaches"
  ],
  "paragraphs_found_on_a_page": {
-  "found": 796,
+  "found": 797,
   "of": 817
  }
 }
