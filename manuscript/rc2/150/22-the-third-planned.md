@@ -28,7 +28,7 @@ The hold can be pulled by anyone, human or agent. Who may lift it is written dow
 
 **Figure:** three people, each with their own small factory, joined in the middle by one brief, one board and one hold.
 
-`%% for the editor: the three paragraphs on how the shared brief, board and hold would work day to day, and the next section's pairing of each part with where it was learned, are the writer's reading of your plan, from your description of 1 November and the hold's rule. They print today; writer4 has asked the conductor to put them to you as one confirmation ("chapter 22 as my plan, yes or no"; critic6, pass 1).`
+`%% CH22 (the editor, brief 40): chapter 22 prints as it stands; its plan paragraphs are his.`
 
 `%% record: briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md (the Web Summit team as he described it) chapter-plan/cast/edition-10.md (the team box)`
 `%% band: Dramatised (the conductor's line). The Web Summit team as I described it on 1 November: a plan, not yet run.`

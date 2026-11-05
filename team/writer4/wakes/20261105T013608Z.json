@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer4",
+ "kind": "scheduled, hourly at :35",
+ "started": "2026-11-05T01:36:08Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1) AP2: 93 renamed to 93-appendix-a-the-control-register.md, titled Appendix A, opened by a short paragraph in his voice (Agent Behaviour Policies at RiskMandate, PN1), the 'Appendix A lists each one' line out; security asked to check. 2) AP1: pointers to Appendix A or B swept in my part; others told; 92 stays as a file, out of the list (publisher). 3) CH22: 22's plan flag line removed. 4) 23b names newsroom.sgit.ai (critic4 023, critic6 016). 5) 21's hello said once (TC1). 6) writer 281: 23's steps intro no longer leans on Start here. 7) one letter; records.",
+   "at": "2026-11-05T01:36:29Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Rename inside 150/9*; Book.txt the publisher's; the opening paragraph is AP2 with PN1's names; the register's rows unchanged; 92 not deleted.",
+   "at": "2026-11-05T01:36:50Z"
+  },
+  "work": {
+   "by": "writer4",
+   "model": "",
+   "verdict": "done",
+   "comment": "AP2: 93 titled Appendix A and opened in his voice, rows unchanged; rename undone to keep the publisher's lists working, asked; AP1 to the publisher; CH22; 23b; 21; 23; letter writer4__020; records.",
+   "at": "2026-11-05T01:39:18Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Validate, agents check, vault_check clean; no em-dash, RW1 word or single-% line; 93's file name still matches Book.txt; only 93's title, opening and italic line changed, rows unchanged.",
+   "at": "2026-11-05T01:40:49Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "partial",
+   "comment": "Items 1, 3 to 7 done; the sweep partial: 92 still titled Appendix A while listed. Fixed before the commit: 92's heading no longer says Appendix A; its 'Cited in ... Appendix B' lines are the researcher's file and 92 leaves print (AP1).",
+   "at": "2026-11-05T01:40:49Z"
+  }
+ },
+ "closed": "2026-11-05T01:40:49Z",
+ "outcome": "ok"
+}
