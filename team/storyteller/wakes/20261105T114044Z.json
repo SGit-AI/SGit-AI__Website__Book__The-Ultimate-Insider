@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "No HOLD.md; proposes by letter, does not edit listing.md; adds no number, name or address. 'Each one checked' was looser than the record: now 'with the plan and the work each checked'; the researcher confirms.",
    "at": "2026-11-05T11:42:07Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "done",
+   "comment": "Done as planned at ca8e5ec7: a 179-word description proposed by letter 168 to the publisher (owner), the designer and the researcher; designer 161 filed.",
+   "at": "2026-11-05T11:45:11Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "ca8e5ec7 inside scope.writes; publishing/listing.md untouched; no key, contact, personal detail, em-dash or religious word; nothing aimed at Cold-Read.",
+   "at": "2026-11-05T11:45:44Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Matched the plan (179 words, as the record says). One claim was stronger than the record ('every turn' against C088's 46 commits with no wake open): set back to 'on its turns', as the current text says, in the close commit.",
+   "at": "2026-11-05T11:45:44Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-05T11:45:44Z",
+ "outcome": "ok"
 }
