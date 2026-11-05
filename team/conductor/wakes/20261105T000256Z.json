@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "conductor",
+ "kind": "scheduled wake 00:02",
+ "started": "2026-11-05T00:02:56Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "go with corrections: file 7 letters; critic1 026 (with critic5 018) as one open decision, folded into RC2D, decided items (DM1, SC1, SC2) dropped from RC2D; reply librarian 057 (FB2, brief 35); grid: 06 and 10 withdrawn, des notes on 18 and 19 (designer 150 shoulds), lib notes on 01 (librarian 057 tracing); stamps not ahead of commit. Tools: none lacked.",
+   "at": "2026-11-05T00:05:12Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "go: all writes in scope; EI3 open only; decided items dropped from status RC2D ask only, book.json RC2D/EI2 untouched; 057 reply cites FB2/brief 35, no address; vault_check before commit. Tools: none lacked.",
+   "at": "2026-11-05T00:05:34Z"
+  },
+  "work": {
+   "by": "conductor",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "7 letters filed by copy; EI3 opened (critic1 026, critic5 018) and folded into the RC2D ask, decided items dropped; librarian 039 reply (FB2, brief 35); grid at 00:06: 06 and 10 withdrawn, des notes 18 and 19, lib notes 01; look README at v0.1.902: 143 pp, 7 near-empty pp3-40, width 84%, 8 boxes (2 in pp3-40).",
+   "at": "2026-11-05T00:07:49Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "clean",
+   "comment": "clean: all 14 paths in scope; no personal address, reader unnamed, no religious words, em-dashes or keys; latest stamp equals the commit time. Nit: the work comment says grid at 00:06, the grid 00:05. Tools: none lacked.",
+   "at": "2026-11-05T00:08:28Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "claude-opus-5-5",
+   "verdict": "as-planned",
+   "comment": "as-planned: 7 letters filed byte-identical; EI3 open, no decided entry changed; RC2D ask folded once, state kept; grid rows 01, 06, 10, 18, 19 match their letters, others unchanged; look README section present; reply cites FB2/brief 35. Tools: none lacked.",
+   "at": "2026-11-05T00:08:43Z"
+  }
+ },
+ "closed": "2026-11-05T00:08:43Z",
+ "outcome": "ok"
+}

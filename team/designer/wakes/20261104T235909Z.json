@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, hourly at :57 London",
+ "started": "2026-11-04T23:59:09Z",
+ "steps": {
+  "plan": {
+   "by": "conductor-planner",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Plan sits inside policy.json: LAB 38, 42, 53 and the new LAB 70 match lab/experiments/*-designer-*/** (name the new folder 70-designer-...; no 70 exists yet), the letters go to comms/mail/mailroom/*/designer__*, status, debrief and the REALITY.md append are allowed. LAB 68 and 69 are designer2's: look verdict only, no edit, which is right under DS1. Both text fixes exist as found (make_pictures.py line 142 in LAB 38, line 653 in LAB 42); regenerate and diff so every other drawing is byte-identical. Conditions: LAB 70 reads the talk's files at 298be4e read only, every size checked at build, no id or hash drawn; mc.head comes from lab/characters/make_cast.py, which is imported and not edited. Hold no HOLD.md found; drop 70 to next if time runs short.",
+   "at": "2026-11-04T23:59:51Z"
+  },
+  "pre_review": {
+   "by": "security-reviewer",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Go. Scope and DS1 hold: LAB 38/42/53/70 match *-designer-*, 68/69 are designer2's (*-figures-*) so look verdict only, no edit; no HOLD.md; no 70 exists yet. LAB 70 conditions: read the talk's files at 298be4e only through git show, write nothing there, no attack-shaped content. Safe to set: BRIEF.md (645 words; the request, event text and abstract, already public; the ioactive and newsroom.sgit.ai URLs are public but prefer no URLs) and REALITY.md (2506 words) headings and Site/Talk/Studio lines. Keep out of the drawing: sha256 key fingerprints (7047871c97407e2b, 956934e47063ceaa, dfb0c81ce7ce63d4), vault ids (h9fh2apf, lotalm0w, f9d5r3dp), the trigger/task id trig_01Wg..., the lane token and passphrase mechanics, the ruv.sgit token/key-store lines, and the key-printed-in-a-log incident (the chapter 9 detail); also any pii or session ids. Count words by script at build, show a few pages as plain text only, mark the drawing as quoted from 298be4e. mc.head imported from make_cast.py, not edited; byte-diff regenerated 38/42/53 so only the intended drawings change. No tool refused; I used Read, Grep, Glob, Bash only.",
+   "at": "2026-11-05T00:00:29Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Done in order: designer2's 68 and 69 read, both pass, one should on 68 (letter 152); ch3-relayed-word says chapter 15 and ch6-two-commits 'shortened where marked' (ruv-sgit 080), only those two SVGs changed (ch12-book-table and ch13-two-sessions redrew with designer2 in team/ and were restored, in next); team-tally gives deck its bow tie and the researcher its glasses, only those two heads changed; LAB 70 brief-and-reality (C125, line counts by git, headings only, no address or key detail), placed (101 lines, 77 drawn); lab PDF 192 pages; letter 153; six letters to done/; vault_check, agents check, build and gate clean.",
+   "at": "2026-11-05T00:06:28Z"
+  },
+  "post_review": {
+   "by": "security-reviewer",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Clean. The visible text of brief-and-reality.svg is only headings, 'Status: accepted, first session.', word and line counts (646/43, 2,508/92); no id, hash, version, address or key detail. Only the intended files changed: LAB 38 ch3-relayed-word, LAB 42 ch6-two-commits and LAB 53 team-tally (one line each, with their generators), new LAB 70, and the LAB 150 resync/ids helpers. lab/characters and designer2 are untouched, all paths are in designer's scope, and the diff has no em-dashes, religious words, URLs or session ids beyond the standard trailers. Letter Dates (152, 153: 05 Nov 00:04Z) and status as_of 2026-11-05T00:04:00Z are not later than the commit (00:06:29Z). Note only: the pre-review comment in the wake record repeats key fingerprints, vault ids and a trigger-id prefix, which are already public in index/areas/team-designer.md; no new exposure. No tool refused.",
+   "at": "2026-11-05T00:07:09Z"
+  },
+  "post_check": {
+   "by": "conductor-reviewer",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Work went to plan: designer2's 68 and 69 read (letter 152), the two text fixes in LAB 38 and 42, the tally faces, LAB 70, the lab PDF and letter 153, with only the intended SVGs changed. ch12-book-table and ch13-two-sessions are absent from the commit (restored), explained under 'Caught on the way' in the debrief and named in status.json next. The REALITY.md append matches the work (LAB 70, tally faces, relayed word, two commits, 101/77/16, 192 pages). as_of 00:04:00Z and the letter Dates are before the commit at 00:06:29Z.",
+   "at": "2026-11-05T00:07:34Z"
+  }
+ },
+ "closed": "2026-11-05T00:07:46Z",
+ "outcome": "ok"
+}
