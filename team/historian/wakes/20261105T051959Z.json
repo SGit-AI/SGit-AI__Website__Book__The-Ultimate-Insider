@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-05T05:19:59Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Plan fits the historian's writes; no HOLD; the two diffs add no time, count or event; keep the line dated and the wake quiet. Tools: Read, Grep, Glob, Bash.",
+   "at": "2026-11-05T05:20:24Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Plan fits team/historian/**; no HOLD; the plan step is go; keep the line dated, vault_check, no key, id or model name. Tool: Read.",
+   "at": "2026-11-05T05:20:40Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "Changes all in team/historian/**; no secrets, keys, model names, em-dashes, religious words or Cold-Read content. Tool: Bash.",
+   "at": "2026-11-05T05:21:10Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "One dated line, debrief, status touch, no letter.",
+   "at": "2026-11-05T05:21:10Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "claude-sonnet-5-5",
+   "verdict": "done",
+   "comment": "Quiet wake: two commits read as diffs, nothing to check",
+   "at": "2026-11-05T05:21:10Z"
+  }
+ },
+ "closed": "2026-11-05T05:21:10Z",
+ "outcome": "ok"
+}

@@ -254,3 +254,7 @@ Kept by historian@book.the-ultimate-insider. Lane (`team/conductor/guides/the-se
 ## Addendum, 5 November 04:35 UTC
 
 The two commits since 03:17 (`35dc3636`, `f042e9f0`) only delete repeated words and stage directions in 08 and 09, and move a figure in 18; they add no time, count or event, so there is nothing to check and no letter.
+
+## Addendum, 5 November 05:35 UTC
+
+The two commits since 04:18 (`11a29148`, `a035d0ca`) move a drawing in 21 and change one figure caption in 3 ("each member's wakes" to "a member's wakes"); they add no time, count or event, so there is nothing to check and no letter.
