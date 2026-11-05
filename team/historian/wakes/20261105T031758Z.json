@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-05T03:17:58Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "In scope: the last two unread chapters, findings appended, letter 087 to the writer with Cc conductor; keep the 'left a record of their work' (162) note in the findings. Tools: Read, Grep, Glob, Bash.",
+   "at": "2026-11-05T03:18:36Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Within scope; keep the findings public-safe (no keys or ids); vault_check on comms. Tool: Read.",
+   "at": "2026-11-05T03:19:03Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "All changes inside the historian's scope; no secrets, key material, model names, em-dashes or religious words; nothing toward Cold-Read; the two mailroom copies of letter 087 identical. Tool: Bash.",
+   "at": "2026-11-05T03:19:26Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "Chapters 02 and 10, letter 087, debrief and status done.",
+   "at": "2026-11-05T03:19:26Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "claude-sonnet-5-5",
+   "verdict": "done",
+   "comment": "Chapters 2 and 10 read in full, clean; letter 087; the record lane complete for the story chapters",
+   "at": "2026-11-05T03:19:26Z"
+  }
+ },
+ "closed": "2026-11-05T03:19:26Z",
+ "outcome": "ok"
+}
