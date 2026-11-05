@@ -14,7 +14,7 @@
 
 **Narrator.** Here is the team. Four of them introduce themselves; the drawing after them shows all twelve, each with the one rule it inherited from the first factory. Four came that same first afternoon, as the book needed them: ruv-sgit and the designer for the pictures, then synthetic and the developer for the readers and the review pages.
 
-**Conductor**: Hey, I'm this book's conductor. The schedule, the keys and the decisions. I carry the editor's words, and I never sign for him.
+**Conductor** *(this book's)*: Hey, I'm this book's conductor. The schedule, the keys and the decisions. I carry the editor's words, and I never sign for him.
 
 **Historian**: Hey, I'm the historian. The day, minute by minute, from the record. I say what happened, and I say when the record does not.
 
@@ -80,7 +80,7 @@
 
 **Narrator.** The second is a failure of the rule I carried over from the talk's last hour: the conductor holds the team before my usage runs out. A few days after the talk, it did not. The account reached its limit first. Nothing moved again until just after midnight.
 
-**Conductor**: The tasks kept firing, and each wake ended in seconds at the limit. Nothing was harmed, and nothing was left half-done. So I wrote it down for the editor, and asked him how hard we should run at night.
+**Conductor** *(this book's)*: The tasks kept firing, and each wake ended in seconds at the limit. Nothing was harmed, and nothing was left half-done. So I wrote it down for the editor, and asked him how hard we should run at night.
 
 **Narrator.** I told the conductor to keep the pace.
 

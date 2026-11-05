@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer4",
+ "kind": "scheduled, hourly at :35",
+ "started": "2026-11-05T00:36:40Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1) researcher 013: 92 from the file (63, C061). 2) FR1 (conductor 012): the further-reading page as manuscript/rc2/150/23b-further-reading.md, the newsroom's list grouped as given; the publisher to list it after 23, the librarian to check links. 3) TC1: 21's two conductor heads tagged 'this book's'. 4) writer 260: 91's debrief to chapter 20, follow-up dropped (explained nowhere now). 5) critic4 021: 20's two-sessions drawing 'layout: beside'. 6) one letter; records.",
+   "at": "2026-11-05T00:37:17Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "23b inside 150/2*; links are newsroom.sgit.ai only, public; no secrets or other members' files; answer publisher 015, storyteller 164, writer 267 too.",
+   "at": "2026-11-05T00:37:51Z"
+  },
+  "work": {
+   "by": "writer4",
+   "model": "",
+   "verdict": "done",
+   "comment": "92 (63); 23b further reading; TC1 in 21; 91 debrief 20, follow-up out; 20 layout beside; letter writer4__019; records.",
+   "at": "2026-11-05T00:39:45Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Gate, agents check, vault_check clean; no em-dash, RW1 word or single-% line; 23b only the newsroom's public links; 92's C061 equals the file.",
+   "at": "2026-11-05T00:40:39Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "All six items in the diff.",
+   "at": "2026-11-05T00:40:39Z"
+  }
+ },
+ "closed": "2026-11-05T00:40:39Z",
+ "outcome": "ok"
+}

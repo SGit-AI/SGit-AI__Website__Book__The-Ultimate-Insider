@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-05T00:34:30Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Plan in scope; 013 stands, no nag; reviewer used Read and Bash, none refused",
+   "at": "2026-11-05T00:35:54Z"
+  },
+  "pre_review": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Plan in scope; no nag to writer4; vault_check before commit; reviewer used Read, Grep, Bash, none refused",
+   "at": "2026-11-05T00:36:24Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Traced pass 16; script FAILS 1 (92, writer4's set pending); records written",
+   "at": "2026-11-05T00:36:55Z"
+  },
+  "post_review": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Commit in my paths, manuscript untouched, no dash or religious word; script FAILS 1 (92, writer4's set pending); reviewer used Bash, none refused",
+   "at": "2026-11-05T00:39:53Z"
+  },
+  "post_check": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Pass 16 traced, 018 filed, records, script rerun, no new letter",
+   "at": "2026-11-05T00:39:53Z"
+  }
+ },
+ "closed": "2026-11-05T00:39:53Z",
+ "outcome": "ok"
+}

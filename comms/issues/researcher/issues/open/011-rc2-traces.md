@@ -100,3 +100,5 @@ RC2 is signed (RP1, CV2): the 30-page edition first, then the 70 and the 150, in
 4 November, 22:36: pass 14: landings traced (no new number); C133 registered (the three commit counts are one chain; conductor 071 answered, researcher__041); script FAILS 0 at 0c4d256f.
 
 4 November, 23:36: pass 15: C061 added to Appendix A's file (63 entries; chapter 01 cites it on its record line); writer4 asked to set 92 (`researcher__013`); script FAILS 1 (92) after my edits; no new figure in the landings.
+
+5 November, 00:36: pass 16: landings traced (21's 'Four came that same first afternoon' holds); script FAILS 1 (92 against the file), writer4's set still pending (`researcher__013`).
