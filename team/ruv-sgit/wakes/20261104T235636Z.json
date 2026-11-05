@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (ACC1)",
+ "started": "2026-11-04T23:56:36Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go with three changes. (1) LAB 67 is in the designer's list but not yet in publishing/rc2-figures.json (null, null), so 14 passes once mapped; tell the publisher. (2) Check lines 32, 34, 36 (record), 85 (the second Figure line) and 87 (its brief). (3) designer2's 15, 18, 19 and 90 are list line numbers, not chapters; chapter 16's four Figure lines (71, 93, 109, 131) are all mapped to designer drawings, so designer2 is off the letter. Files written after midnight carry 2026-11-05 dates. Tools: Read and Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-04T23:57:58Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go: everything in scope, manuscript/ and publishing/ read only, no HOLD, no key, nothing attack-shaped in 16, and its Cold-Read mentions only cite that team's reading. Conditions: nothing toward Cold-Read; work after the gate; push on green (HR1). Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-04T23:58:22Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "Chapter 14 re-read: LAB 67 matches C104, C027 and its lines, and passes once the publisher maps it (still null). RV2 on the 150's 16: one must (slot 3 places the old dots picture where the line and brief ask for three session bars) and one could, for the designer. Letter 081; two letters copied to done.",
+   "at": "2026-11-04T23:59:18Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Clean: everything in scope, no HOLD, no secret, nothing attack-shaped, no em-dash or RW1 word, no date after the clock. The facts hold: 14 is unmapped in the publisher's map, LAB 67 matches C104 and C027 (16:59 is from the brief), the tally matches C119, and the must on 16 is correct (no rect, no member's name in the old picture). The copies are identical. Tools: Bash read-only; no script; no file written; the brief's python checks are left to the member's gate. Nothing was refused.",
+   "at": "2026-11-05T00:00:57Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "The reviewer agent's verdict, run before this entry. Every item is done as planned: 14 passes once mapped (the publisher told), 16's must is correct, designer2 is off the letter, and the copies are identical. Status and debrief are right; the debrief carries the new date. Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-05T00:01:37Z"
+  }
+ },
+ "closed": "2026-11-05T00:01:38Z",
+ "outcome": "ok"
+}
