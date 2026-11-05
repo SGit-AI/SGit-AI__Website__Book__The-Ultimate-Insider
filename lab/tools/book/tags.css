@@ -1,0 +1,11 @@
+/* The book's small speaker tags, one look for both (the designer, 5 November 2026; DM1 publisher 055, TC1 conductor 088).
+   .dram-tag: "Dramatised", after the first speaker of a dramatised scene.
+   .speaker-tag: "this book's", after the conductor's name where both conductors speak (21).
+   Small capitals of the sans at 7.5 pt read as a tag beside the 10 pt speaker name and stay legible in print;
+   the grey is darker than #8a9099 so it holds on paper (about 5:1 on white). Not a label of its own line: inline only. */
+.dram-tag, .speaker-tag {
+  font-family: var(--sans, Inter, Helvetica, Arial, sans-serif);
+  font-size: 7.5pt; font-style: normal; font-weight: 600;
+  letter-spacing: .06em; text-transform: uppercase;
+  color: #6b7280; margin: 0 3pt 0 2pt; vertical-align: .05em;
+}
