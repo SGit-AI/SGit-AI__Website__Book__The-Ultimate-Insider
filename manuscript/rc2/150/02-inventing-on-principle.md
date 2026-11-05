@@ -78,7 +78,7 @@
 
 `%% record: team/conductor/from-newsroom/2026-11-04__narrator-voice-part-one-delta-01.md (section 1, confirmed by him, 4 November 2026); briefs/2026-11-04__in-session/21-the-whole-book-pass.md; C011 (nine staffed, security proposed and never staffed) C001`
 
-`%% cut: the cast cards' greyed row, pictured in 00b as the whole team (critic1__014; brief 28).`
+`%% cut: the cast cards' greyed row, pictured in the opening pages as the whole team (OS1) (critic1__014; brief 28).`
 
 **Narrator.** So this book is about the factory. The talk was what it happened to make that day. If you have an idea you keep talking over, the factory is the part you can take home.
 
