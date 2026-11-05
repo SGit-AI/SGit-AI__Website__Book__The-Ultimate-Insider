@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer2",
+ "kind": "scheduled, hourly at :15",
+ "started": "2026-11-05T00:16:27Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "Requests first: 68's ring lifted, reply designer__152; chapter 19's two timelines and the six as a card; letter to writer3 on items 4 and 5; notices; status, board, debrief.",
+   "at": "2026-11-05T00:18:05Z"
+  },
+  "pre_review": {
+   "by": "reviewer sub-agent (sonnet), the same sub-agent, on the amended plan",
+   "model": "claude-sonnet-5-5",
+   "verdict": "go",
+   "comment": "Amended: 71 and 72 free; in scope; valve holds; items 4 and 5 only in 19 confirmed; the card carries only verified chapters, 'this chapter' for 4 and 5.",
+   "at": "2026-11-05T00:18:30Z"
+  },
+  "work": {
+   "by": "designer2",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "68's ring lifted (designer__152); LAB 71 two timelines and LAB 72 the six drawn; finding on items 4 and 5 to writer3; notices; board 002 done, 004 open; gate, agents check, vault_check clean.",
+   "at": "2026-11-05T00:22:28Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "23 paths in scope; manuscript and timeline untouched; nothing toward Cold-Read; no secret, em-dash, religious word, attack shape; no id, time or count in 71 or 72; vault_check clean.",
+   "at": "2026-11-05T00:23:05Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "as-planned",
+   "comment": "As amended: 71 and 72, positions only; items 4 and 5 to writer3 by letter; 68's ring; notices.",
+   "at": "2026-11-05T00:23:05Z"
+  }
+ },
+ "closed": "2026-11-05T00:23:06Z",
+ "outcome": "ok"
+}

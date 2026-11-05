@@ -73,10 +73,12 @@ o.append(f'<rect x="{kx:.2f}" y="43.1" width="2.6" height="2.6" fill="{INK}"/>')
 o.append(t(kx + 4.0, 45.5, "in the conductor\u2019s own words", fill=GREY))
 # the editor's change of course, apart and not counted
 ex = X(mins(editor))
-o.append(f'<circle cx="{ex:.2f}" cy="16" r="1.4" fill="#fff" stroke="{GREY}" stroke-width=".45" stroke-dasharray=".8 .6"/>')
-o.append(f'<line x1="{ex:.2f}" y1="17.4" x2="{ex:.2f}" y2="20.6" stroke="{GREY}" stroke-width=".25"/>')
-o.append(t(ex - 2.4, 11.4, f"{editor}: I changed course,", fill=GREY, a="end"))
-o.append(t(ex - 2.4, 15.4, "not a review, not counted", fill=GREY, a="end"))
+# lifted clear of hour eighteen's stack (designer__152): the ring left of the band, its words beside it
+ey = 12.0
+o.append(f'<circle cx="{X(17*60) - 3.2:.2f}" cy="{ey}" r="1.4" fill="#fff" stroke="{GREY}" stroke-width=".45" stroke-dasharray=".8 .6"/>')
+o.append(f'<path d="M{X(17*60) - 1.8:.2f} {ey} H{ex:.2f} V{29.5 - 3 * 4.6 - 2.2:.2f}" fill="none" stroke="{GREY}" stroke-width=".25"/>')
+o.append(t(X(17*60) - 5.8, ey - 1.0, f"{editor}: I changed course,", fill=GREY, a="end"))
+o.append(t(X(17*60) - 5.8, ey + 3.0, "not a review, not counted", fill=GREY, a="end"))
 
 label = (f"A card: {total} pre-reviews said change across the day and each plan was amended, {as_verdict} recorded as a verdict "
          f"and {free} in the conductor's own words; on the day's clock, hour eighteen's three marked; at {editor} the editor's "
