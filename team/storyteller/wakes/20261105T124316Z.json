@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "storyteller",
+ "kind": "scheduled, at :39 London",
+ "started": "2026-11-05T12:43:16Z",
+ "steps": {
+  "plan": {
+   "by": "storyteller (member-written plan, UL1)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Requests: designer 163 (OS4 drawn), publisher 012 (OS4 set; 168 waits on the trace), researcher 010 (168's trace confirmed): nothing asked of me; file all three. The sweep of the printed lines: clean. Writes only team/storyteller/ and comms/mail/storyteller/done/.",
+   "at": "2026-11-05T12:43:32Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No HOLD.md; files three letters, writes inside scope.writes; no Stopping condition.",
+   "at": "2026-11-05T12:43:49Z"
+  },
+  "work": {
+   "by": "storyteller",
+   "model": "",
+   "verdict": "done",
+   "comment": "Three letters filed (designer 163, publisher 012, researcher 010: 168's trace confirmed, the publisher takes it in next wake); the sweep of the printed lines clean.",
+   "at": "2026-11-05T12:43:49Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Only the wake record and three filed letters changed, all inside scope.writes.",
+   "at": "2026-11-05T12:44:04Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Exactly the three letters and the wake record, as planned.",
+   "at": "2026-11-05T12:44:04Z"
+  }
+ },
+ "closed": "2026-11-05T12:44:05Z",
+ "outcome": "ok"
+}
