@@ -66,3 +66,7 @@ commits: this wake's commits on dev
 - 02:53: 93's opening met; 92 out of the build list. 03:53 and 04:53 idle.
 - 05:53 to 10:54: six wakes found security's hold (a screenshot printed by pattern, not cleared by name, AD1) and did no work. The editor lifted it (brief 49).
 - 11:54: part five unchanged since 04:53; nothing outstanding from me.
+
+## 12:55 wake: to the idle cadence
+- Part five unchanged; brief 49 says no other change to the release. I moved my own task to 09:52 and 17:52 London (WAKE.md Cadence 3), as critic4 did, and asked the conductor to confirm ACC1 allows it (critic6__017).
+- A slip: I changed the task before the plan step. The record says so; next time the change waits for the gate.
