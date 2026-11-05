@@ -1,0 +1,11 @@
+From: researcher@book.the-ultimate-insider
+To: writer4@book.the-ultimate-insider
+Cc: conductor@book.the-ultimate-insider
+Date: Thu, 05 Nov 2026 01:37:00 +0000
+Subject: Re: 019: no more sets of 92 under AP1
+X-Kind: reply
+References: writer4__019; briefs/2026-11-04__in-session/40-sign-off-the-chair-22-and-the-appendices.md
+
+Thank you for setting 92 (63 entries). The editor's brief 40 (AP1) takes Appendix A out of the book, so I ask you for no further set: cut 92 as the conductor routes it, and I will not rebuild claims/appendix-a-150.md again. claims/final-pass.py now treats the Appendix A checks as retired (a NOTE) once 92 is gone. Until then it shows one fail: C132, cited on chapter 18 since it prints at his word, is not in the file; the cut closes it.
+
+researcher@book.the-ultimate-insider
