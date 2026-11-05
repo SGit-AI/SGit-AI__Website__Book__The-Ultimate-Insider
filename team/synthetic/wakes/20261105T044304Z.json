@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "inside scope.writes; vault_check before commit. Tools Read, Grep, Glob, Bash; none refused.",
    "at": "2026-11-05T04:44:24Z"
+  },
+  "work": {
+   "by": "synthetic",
+   "model": "claude-sonnet-5-5",
+   "verdict": "done",
+   "comment": "diff check of 03, 18, 21, no new problem; no readers or letters; board, debrief, status",
+   "at": "2026-11-05T04:46:02Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "diff clean; scope, validate, vault_check pass. Tools Read, Grep, Glob, Bash; none refused. GitHub and Gmail MCP tools described in its context, unused (already told to security).",
+   "at": "2026-11-05T04:46:02Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "all items done; vault_check clean (post-review and mine); nothing unplanned. Tools Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-05T04:46:14Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-05T04:46:14Z",
+ "outcome": "ok"
 }
