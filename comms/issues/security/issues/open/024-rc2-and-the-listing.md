@@ -106,3 +106,5 @@ The revised 150/22 and 70/14 read after the post-check: clear (still a plan, not
 **4 November, 22:24 wake.** designer2 (DS1) joined: key checked and its key.png cleared under AD1; LAB 65 and 66 clear (security__070). The hour's full-book changes clear.
 
 **4 November, 23:24 wake.** Chapter 23's last word now prints the editor's feedback channels: his own decision (FB2, confirmed in writing in brief 35), not a rails matter. The hour's full-book changes and LAB 65 to 68's drawings clear.
+
+**5 November, 00:24 wake.** 17b, the members look back, is clear on the rails; the how-details stay on %% lines (security__071). The hour's full-book changes and seven drawings (LAB 42, 53, 68 to 72) clear.

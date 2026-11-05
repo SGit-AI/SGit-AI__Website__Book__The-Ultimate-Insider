@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled wake",
+ "started": "2026-11-05T00:26:10Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "go",
+   "comment": "17b clears: captures as the team's finding only (C025), ruv-sgit's first run only as the session's check, how-details on non-printing %% lines; security's note matches the record. Hour's files taken from security's scan.",
+   "at": "2026-11-05T00:28:16Z"
+  },
+  "pre_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "go",
+   "comment": "Writes inside policy scope; no key, token, vault or other member's path; 17b judged in the plan step.",
+   "at": "2026-11-05T00:28:43Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "17b clear (071); hour's full-book changes and seven drawings clear; board, status, debrief.",
+   "at": "2026-11-05T00:29:26Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
