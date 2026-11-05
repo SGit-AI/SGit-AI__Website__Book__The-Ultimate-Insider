@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them). Within policy; no manuscript touched; short openings only in the letter; untrusted PDF handling; the real run only after both tests print ok; vault_check; exit codes; branch and dev only.",
    "at": "2026-11-05T04:13:12Z"
+  },
+  "work": {
+   "by": "developer",
+   "model": "",
+   "verdict": "done",
+   "comment": "Plan and pre-review ran before any file was touched. Pages removed by the builder: this run none; last wake's run removed src/pages/review/rc2-150/92-appendix-a-every-number.html (security__013's should). Both test files printed ok, then the documented sequence for real (make_editions, print_pages, make_editions): 32 chapters, 344 scenes; the page scan passed before anything went in place. Page check on the 131-page PDF of 04:14 (plan named 04:10) against the rebuilt chapters: 7 tails, 7 gaps, 27 figures a page after their paragraph, all 102 captions found; developer__075 to publisher and designer (cmp same). Part five's short pages named by paragraph from a scratch script in the scratchpad (developer__076 to writer4); no manuscript file touched. security__013 and writer4__022 filed. Build, gate and agents check exit 0 before the push. Pages: rc2.html and index.html changed by the conductor at 03:57 (home page offers only RC2), upload set unlinked, no letter answers developer__039.",
+   "at": "2026-11-05T04:17:57Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them). As planned; nothing undone, nothing unplanned. The plan step ran before any file was touched (plan and pre-review 04:13:12, the mails 04:15 and 04:16, the commit 04:17:51). The PDF checked was 04:14, the plan named 04:10 (newer, disclosed). Small notes: the letter to writer4 does not map writer4's old page numbers (98, 107, 115) to the new ones; the guard-test order and the exit codes are the developer's own record.",
+   "at": "2026-11-05T04:18:38Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "finding",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them, none used; it scanned all 115 pages and the data itself). Pages and data clean (attributes only on github.com, outside addresses only as text, 23b without addresses in attributes, only the two scripts, no on* attribute, editions.json copies identical, make_editions.py unchanged); both tests ok; mail numbers match print-check.json. Three small findings in the mails, corrected in this close in every copy: (1) 075 gave page 77 as 57%, it is 58%; (2) 075's 'the rest is as in 073' left out the caption that moved from page 100 to 99 and page 45 going from 69% to 64%: added; (3) 076 said the page after 108 starts with 'Dramatised.' as if it belonged to the next chapter, which the chapter data does not show: reworded to say the map starts that page with that italic note and that the scene it labels is not known from the map; the quote 'then do it' made whole ('then do it again.'). Page numbers in 076 rest on the developer's page map (not checkable by the reviewer without the PDF).",
+   "at": "2026-11-05T04:21:36Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-05T04:21:36Z",
+ "outcome": "ok"
 }
