@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "ruv-sgit",
+ "kind": "scheduled wake (ACC1)",
+ "started": "2026-11-05T04:54:55Z",
+ "steps": {
+  "plan": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go with three changes. (1) The 03 re-read records that talk__player.jpg is not yet in SHOT_CLEARED or in 03's map entry, which is the publisher's to do. (2) 04 also holds my own cast card (lines 189 to 197, brief: no key, session or task line); check it and the banner pair for model, session id or key, and say plainly that I am reviewing my own portrait. (3) Cite security's letter by path. Call 04 the last section passed only if it passes. Add close and the end banner. Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-05T04:55:57Z"
+  },
+  "pre_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "go",
+   "comment": "Go: everything in scope, no HOLD, no secret in the cast card or the banner passage, nothing attack-shaped, no Cold-Read route. Conditions: say plainly that I am reviewing my own portrait; record the player as the publisher's to add; quote no model, session or key text. Gate and vault_check, then push on green. Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-05T04:56:27Z"
+  },
+  "work": {
+   "by": "ruv-sgit",
+   "model": "",
+   "verdict": "done",
+   "comment": "03 re-read: line 58 now matches; the player is cleared by security but not yet in SHOT_CLEARED or the map (the publisher's). RV2 on the 150's 04: passes. The banner pair and the cast cards (mine among them, judged only against the brief) carry no model, session or key line. Parts one to four all pass in my lane. Letter 086; two letters copied to done.",
+   "at": "2026-11-05T04:57:07Z"
+  },
+  "post_review": {
+   "by": "security",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Finding fixed before the commit: two wrong line references in the 04 review (the banner brief is at 159, not 157; my card is at 189 and 193, not 191). Two coulds were also taken: the first rules are 'shortened where marked' (line 48), not word for word, and the folder line now says no key file is shown. Otherwise clean: scope, no model, session or key text, copies identical, facts hold. Tools: Bash read-only; no script; no file written; the brief's python checks were left to the member's gate. Nothing was refused.",
+   "at": "2026-11-05T04:58:21Z"
+  },
+  "post_check": {
+   "by": "conductor",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "The reviewer agent's verdict, run before this entry. Every item and condition is done: the portrait is declared, no model, session or key text is quoted, and the line references match. The one could on the cast-card span was taken before the commit. Copies, status and debrief are right. Tools: Bash read-only; no script; no file written; nothing was refused.",
+   "at": "2026-11-05T04:59:17Z"
+  }
+ },
+ "closed": "2026-11-05T04:59:17Z",
+ "outcome": "ok"
+}

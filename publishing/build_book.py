@@ -12,7 +12,10 @@ after admin/build/build.py).
     python3 publishing/build_book.py [--out DIR] [--chrome PATH] [--no-pdf] [--no-epub]
 """
 import argparse
+import base64
 import glob
+import hashlib
+import html as htmllib
 import json
 import os
 import re
@@ -47,6 +50,71 @@ def chapters(book=None):
     return [os.path.join(here, n) for n in names]
 
 
+def placed_drawing(rel):
+    """One page of a placed spread: an .svg inside one folder of lab/experiments/ (resolved from the repository root,
+    then checked by realpath), passing the drawings' check; every picture inside it must be byte for byte a screenshot
+    cleared by name or kind (edition.shot_allowed), or the build stops (security 022)."""
+    path = os.path.realpath(os.path.join(ROOT, rel))
+    lab = os.path.join(os.path.realpath(ROOT), "lab", "experiments")
+    if ".." in rel.split("/") or os.path.dirname(os.path.dirname(path)) != lab or not path.endswith(".svg") \
+            or not os.path.isfile(path):
+        sys.exit(f"build_book: a placed page must be an .svg in one folder of lab/experiments/: {rel}")
+    with open(path, encoding="utf-8") as f:
+        svg = f.read()
+    if edition.unsafe_svg(svg):
+        sys.exit(f"build_book: the placed page {rel} fails the drawings' check: {edition.unsafe_svg(svg)}")
+    shots = os.path.join(ROOT, edition.SHOTS)
+    cleared = set()
+    for name in os.listdir(shots):
+        if edition.shot_allowed(name):
+            with open(os.path.join(shots, name), "rb") as fh:
+                cleared.add(hashlib.sha256(fh.read()).hexdigest())
+    for ref in re.findall(r"""href\s*=\s*["']([^"']*)["']""", svg):
+        m = re.fullmatch(r"data:image/[a-z+.-]+;base64,([A-Za-z0-9+/=\s]+)", ref)
+        if not m or hashlib.sha256(base64.b64decode(m.group(1))).hexdigest() not in cleared:
+            sys.exit(f"build_book: the placed page {rel} carries a picture that is not a cleared screenshot")
+    return path, svg
+
+
+def placed_first_page(pdf, svgs):
+    """The PDF page that prints the first placed page: the first page whose text holds the drawing's first text line."""
+    first_line = None
+    for svg in svgs:
+        m = re.search(r"<text[^>]*>([^<]{12,})</text>", svg)
+        if m:
+            first_line = htmllib.unescape(m.group(1)).strip()[:30]
+            break
+    if not first_line:
+        return None
+    pages = subprocess.run(["pdftotext", "-layout", pdf, "-"], capture_output=True, text=True).stdout.split("\f")
+    for n, page in enumerate(pages, 1):
+        if first_line in " ".join(page.split()):
+            return n
+    return None
+
+
+def placed_spread(raw, pages):
+    """OS3: the chapter's flowed text and Figure lines give way to the two placed pages (the first on a left page, the
+    second facing it). What the drawings do not carry stays text after them: the narrator's "Throughout the book I am
+    the Narrator" paragraph until page one carries it (a stopgap, writer 295), and the "We would love to hear from you"
+    section, whose address is print only (FB2) and never drawn."""
+    lines = raw.split("\n")
+    title = htmllib.escape(next((l[2:].strip() for l in lines if l.startswith("# ")), ""), quote=True)
+    keep = []
+    if "Throughout the book I am" not in pages[0][1]:
+        keep += [l for l in lines if l.startswith("**Narrator.** Throughout the book I am")]
+    start = next((i for i, l in enumerate(lines) if l.startswith("## We would love to hear from you")), None)
+    if start is not None:
+        end = next((j for j in range(start + 1, len(lines)) if re.match(r"#{1,2} ", lines[j])), len(lines))
+        keep += [""] + lines[start:end]
+    out = [f'<h1 class="placed-title">{title}</h1>', ""]
+    for k, (path, _) in enumerate(pages):
+        side = "placed-left" if k == 0 else "placed-right"
+        out += [f"::: {{.placed-page .{side}}}", f'<img src="{path}" alt="{title}: page {k + 1} of the opening spread">',
+                ":::", ""]
+    return "\n".join(out + keep) + "\n"
+
+
 def directives(book=None):
     """A list's own build lines (the full book's, FB1 and WC1, 4 November 2026), so the release follows the list:
     "#! drop-section: <heading>" leaves out that "## " section of each chapter, from its heading to the next heading of
@@ -70,6 +138,14 @@ def directives(book=None):
                 continue
             if re.match(r"\s*#!\s*speaker-tags\s*$", line):
                 FIT["speaker_tags"] = True
+                continue
+            m = re.match(r"\s*#!\s*placed-spread:\s*(.+?)\s*$", line)
+            if m:  # OS3: a chapter printed as the designer's two placed pages (designer 160)
+                parts = [x.strip() for x in m.group(1).split("|")]
+                if len(parts) != 3:
+                    sys.exit(f"build_book: placed-spread takes a chapter and two drawings: {m.group(1)}")
+                chapter = os.path.realpath(os.path.join(os.path.dirname(book), parts[0]))
+                FIT.setdefault("placed", {})[chapter] = [placed_drawing(x) for x in parts[1:]]
                 continue
             m = re.match(r"\s*#!\s*cast-bars:\s*(.+?)\s*$", line)
             if m:  # the designer's map of a drawn cast bar per chapter (designer 135): a .json directly in lab/tools/book/
@@ -462,6 +538,9 @@ def main():
     for src in sources:
         with open(src, encoding="utf-8") as f:
             raw = f.read()
+            placed = FIT.get("placed", {}).get(os.path.realpath(src))
+            if placed:
+                raw = placed_spread(raw, placed)
             if drop:
                 raw = drop_sections(raw, drop)
             if FIT.get("dramatised"):
@@ -474,7 +553,7 @@ def main():
                 raw = book_blocks(raw)
             if a.cast:  # the writer's chapters use the editions' conventions (publisher__003 to the writer)
                 key = os.path.relpath(os.path.abspath(src), MANUSCRIPT)
-                drawings = figure_map.get(key)
+                drawings = [] if placed else figure_map.get(key)
                 if drawings is not None and len(drawings) != edition.figure_count(raw):
                     # a warning, not a stop: the site's draft must always build; that chapter's figures print as boxes
                     print(f"build_book: WARNING {a.figures} gives {len(drawings)} drawing(s) for {key}, which has "
@@ -522,7 +601,7 @@ def main():
                 m = re.search(r"^# (.+?)\s*(?:\{[^}]*\})?\s*$", fh.read(), re.M)
             titles.append(m.group(1).strip() if m else None)
         fit = {}  # chapter index: level (1, then 2), set on its heading as a class for full-book.css
-        for rnd in range(3 if FIT["on"] else 1):  # at most two rebuilds; a tail left after that is reported
+        for rnd in range(3 if FIT["on"] or FIT.get("placed") else 1):  # at most two rebuilds; a tail left after that is reported
             for k, f in enumerate(files):
                 with open(f, encoding="utf-8") as fh:
                     text = fh.read()
@@ -582,6 +661,22 @@ def main():
             shutil.rmtree(work, ignore_errors=True)
             if not os.path.isfile(pdf) or os.path.getsize(pdf) < 1000:
                 sys.exit("build_book: Chromium wrote no PDF")
+            if FIT.get("placed") and not FIT.get("placed_checked"):
+                # OS3: Chromium does not honour "break-before: left", so the spread's first page is found in the PDF;
+                # on an odd (right) page, one blank page goes before it and the book is built again
+                FIT["placed_checked"] = True
+                first = placed_first_page(pdf, [svg for pages in FIT["placed"].values() for _, svg in pages[:1]])
+                if first and first % 2 == 1:
+                    for f in files:
+                        with open(f, encoding="utf-8") as fh:
+                            text = fh.read()
+                        if "::: {.placed-page .placed-left}" in text:
+                            with open(f, "w", encoding="utf-8") as fh:
+                                fh.write(text.replace("::: {.placed-page .placed-left}",
+                                                      '<div class="placed-pad"></div>\n\n::: {.placed-page .placed-left}', 1))
+                    print(f"build_book: the opening spread fell on page {first}, a right page: one blank page set before it",
+                          file=sys.stderr)
+                    continue
             if not FIT["on"]:
                 break
             tails = [k for k in tail_chapters(pdf, [t or "" for t in titles]) if titles[k]]

@@ -112,3 +112,4 @@ source: comms/mail/mailroom/publisher/conductor__026-check-taken.eml; publishing
 - 5 November 02:05 UTC: 92 out (AP1); tags (TC1, DM1) in the designer's look; 128 pages, 5 boxes (4 held), 11 holes.
 - 5 November 03:00 UTC: 0 figure boxes; 129 pages; 11 holes.
 - 5 November 04:05 UTC: full-width figures kept whole; 129 pages, 11 holes.
+- 5 November 05:15 UTC: OS3 spread placed; 130 pages online, 11 holes.
