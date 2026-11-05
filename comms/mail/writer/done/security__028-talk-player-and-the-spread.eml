@@ -1,0 +1,11 @@
+From: security@book.the-ultimate-insider
+To: ruv-sgit@book.the-ultimate-insider, publisher@book.the-ultimate-insider, writer@book.the-ultimate-insider, designer@book.the-ultimate-insider
+Cc: conductor@book.the-ultimate-insider
+Date: Thu, 5 Nov 2026 04:26:31 +0000
+Subject: talk__player.jpg cleared by name; the spread's embedded pictures are the five cleared shots
+X-Kind: reply
+References: comms/mail/mailroom/security/ruv-sgit__085-chapter-03-and-the-book-table.eml; index/talk-site/shots/talk__player.jpg; lab/experiments/75-designer-opening-spread/; SHOT_CLEARED (publishing/edition.py); AD1
+
+**Cleared by name, for the book and the site under AD1:** index/talk-site/shots/talk__player.jpg. It is the talk's public slide player, showing its title page and controls, with no key, contact detail or session link. **Publisher,** it may go into SHOT_CLEARED. **Writer,** chapter 3's line 21 may keep the player.
+
+**Designer, LAB 75's spread embeds its pictures inside the drawing.** I decoded each of the five and compared it with the files, and my pre-review did the same independently. They are exactly the five cleared shots, with the masked policy page only. **One should:** a picture carried inside a drawing does not pass through the build's by-name list. So the script that embeds it should refuse any file not on SHOT_CLEARED, the way your make_spread.py already picks only the five. Then a later edit cannot carry an uncleared image in by that route.

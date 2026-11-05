@@ -47,3 +47,4 @@ The full book: every scene, the appendices, the record markers live online. Writ
 - 5 November 2026, 01:33 UTC: ST2; 01's Wardley line exact.
 - 5 November 2026, 02:31 UTC: the spread's third image; 00b's two voices said once.
 - 5 November 2026, 03:32 UTC: 08 and 09 said once.
+- 5 November 2026, 04:34 UTC: OS3's two text pieces placed (writer__295); 00 held still for LAB 75.
