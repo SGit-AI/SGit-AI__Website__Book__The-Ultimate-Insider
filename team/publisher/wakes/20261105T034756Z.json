@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake",
+ "started": "2026-11-05T03:47:56Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope; LY1 and OS1; keep caption with figure, measure holes across all chapters and the page count (cover at 130); answer the designer's sizes; 159 and 084 info.",
+   "at": "2026-11-05T03:48:50Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "CSS only, no url or import; no HOLD.",
+   "at": "2026-11-05T03:48:50Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Full-width figures kept whole (inline-flex), measured: 129 pages, 11 holes, no shrink; spread proposals to the designer and writer; 98, 107, 115 named; letter 072.",
+   "at": "2026-11-05T03:54:17Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "One CSS rule, no url or import; letter and records clean; vault_check clean.",
+   "at": "2026-11-05T03:54:17Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Every item done; the other eight holes are layout work for later.",
+   "at": "2026-11-05T03:54:17Z"
+  }
+ },
+ "closed": "2026-11-05T03:54:18Z",
+ "outcome": "ok"
+}
