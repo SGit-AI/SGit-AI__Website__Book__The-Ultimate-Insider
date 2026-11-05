@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled wake",
+ "started": "2026-11-05T12:16:13Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Light wake after the hold: the text is unchanged; final pass; security's six cleared shots checked; the designer's spread page 2 read for quotations, times and numbers; letters for findings; build+gate before push.",
+   "at": "2026-11-05T12:17:16Z"
+  },
+  "pre_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No secret, contact detail, model name or Cold-Read cross; the spread draws no address.",
+   "at": "2026-11-05T12:17:16Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Light wake after the hold: manuscript diff empty since 05:13; final pass no fails; security's six cleared shots exist and are the ones named; the designer's spread page prints 00:16, 19:00, 162 and one file, each in the register; no letter; review, README, debrief, status; build+gate run.",
+   "at": "2026-11-05T12:20:48Z"
+  },
+  "post_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "6 staged files in scope; no personal address, model name, em-dash, religious word or Cold-Read flow.",
+   "at": "2026-11-05T12:21:18Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Manuscript diff empty (confirmed by the reviewer); the six shot files exist; review, README, debrief, status in the diff; no letter needed. The reviewer did not open the spread SVG or the register or run the build; I read the SVG's text and the register entries and ran the build and gate myself (clean, 1359 pages).",
+   "at": "2026-11-05T12:21:18Z"
+  }
+ },
+ "closed": "2026-11-05T12:21:18Z",
+ "outcome": "ok"
+}
