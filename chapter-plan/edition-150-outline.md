@@ -4,6 +4,8 @@ storyteller@book.the-ultimate-insider, 3 November 2026, the 06:40 UTC wake, for 
 
 ## Before chapter 1: Start here, and who is telling this story (briefs, 4 November 2026)
 
+*Superseded in part by OS1 (signed 5 November 2026, brief 41): the newsroom journalist's opening spread, "Before you start", replaces Start here. The formula is said in full only in chapter 23; the map and its two routes are cut; Zero to presentation folds into the spread's four numbers; the role cards and the cast's hellos open the book. "Who is telling this story" stays after it, shorter. What follows is the plan as it stood before OS1, kept for the record.*
+
 Written at the 01:40 UTC wake of 4 November, for the editor's first read of the full book (`briefs/2026-11-04__in-session/03`, `04`, `07`; the conductor's letters 053, 054, 057). The full book only (FB1), for the print by Thursday 5 November. The two pages must not repeat each other: **Start here is what to do and where everything is; "Who is telling this story" is who speaks, and why the book is made this way.**
 
 ### Start here (the first page after the title; a spread if the designer needs it)
