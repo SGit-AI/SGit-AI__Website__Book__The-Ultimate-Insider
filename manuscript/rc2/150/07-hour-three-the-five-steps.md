@@ -10,9 +10,9 @@
 
 **Narrator.** By two in the morning the team had a clock and a hold. What it did not have was a rule for what happens inside a wake. In this hour the conductor wrote one, and the first wake to follow it was the wake that wrote it.
 
-**Narrator.** I asked for a rule for what happens inside a session, and the conductor wrote one within the hour: the wake's five stages. Within minutes its tool would refuse work until both the plan and its review said go, and the stages were in the wake rules, with a brief for each reviewer.
+**Narrator.** I asked for it not because I expected the agents to misbehave. The rule is the wake's five stages, and within minutes its tool would refuse work until both the plan and its review said go, and the stages were in the wake rules, with a brief for each reviewer.
 
-`%% for the editor (his view, held out of print until he confirms it, P30): the newsroom's "not because I expected the agents to misbehave" (critic5 002).`
+`%% record: HV1 (signed, brief 38: "can you add them all?"), printed: the newsroom's "not because I expected the agents to misbehave"`
 
 **Conductor** *(on the minute)*: Plan it, have the plan checked, do it, have it checked, check it went to plan. And the tool will not let anyone skip to the third.
 
@@ -32,7 +32,7 @@
 
 **Narrator.** *Stage two, the pre-review.* A second agent, briefed as security, read the amended plan against the conductor's scope and the rules. Its verdict was go, with conditions of its own: keep the line in the page of rules named as outside the conductor's scope, check before touching any vault, ask dev rather than editing dev's gate.
 
-**Conductor** *(on the minute)*: Stage three, the work: partial. One vault I was meant to register was not on the server yet, so I could not check it, so I did not touch it. The condition held. Partial is a true answer; done would have been a nicer one.
+**Conductor**: Stage three, the work: partial. One vault I was meant to register was not on the server yet, so I could not check it, so I did not touch it. The condition held. Partial is a true answer; done would have been a nicer one.
 
 **Narrator.** *Stage four, the post-review.* The reviewer read what had changed. It found the build clean, the checks clean, no secret anywhere. And one thing wrong: the conductor had changed the page of rules, a file every member follows and one outside the conductor's own scope. I had allowed it, but the commit did not say so, and the plan had made saying so a condition.
 
@@ -40,7 +40,7 @@
 
 **Conductor**: Stage five, my own check against my own plan, item by item: the finding answered in the debrief and the closing commit, every condition kept. Verdict: partial, not "as planned". The wake closed partial, and the next commit named the edit. Caught by the reviewer I invented. Good. But know what it is: "a second reading, not a second identity."
 
-**Narrator.** The review caught its own author on the first run. It is also the first entry in the register's list of what the day's post-reviews found and what each fixed.
+**Narrator.** The review caught its own author on the first run. Looking back, I think this is the strongest early sign that the stages were more than ceremony. It is also the first entry in the register's list of what the day's post-reviews found and what each fixed.
 
 **Figure:** the wake record as a page: five boxes in a column, each with its stage, who ran it, its verdict and its sentence, the finding in stage four highlighted; the verdicts of this hour's first wake filled in: go, go, partial, finding, partial.
 
@@ -64,7 +64,7 @@
 
 **Narrator.** That last line is the pre-review's, made into dev's habit: the reviewer had set it as a condition, because a change to the gate is a change to every member's day. And dev's own post-check, run by a sub-agent briefed as the conductor, still closed the wake partial, because one file it had planned to change was not in the diff when it looked. The check that had just become everyone's was applied, the same minute, to the one who built it.
 
-**Figure:** one rule's journey in an hour: written in the conductor's wake rules, asked of dev by mail, in the gate within the hour, and from then on a red mark on any member's release whose wake skipped a step.
+**Figure:** one rule's journey in an hour: written in the conductor's wake rules, asked of dev by mail, in the gate within the hour, and from then on a red mark on any member's release whose wake skipped a stage.
 
 `%% layout: full`
 
@@ -78,11 +78,11 @@
 
 **Narrator.** The first wake in the record that the clock started, and not me, is not the conductor's. It is ruv-sgit's, at its own minute. The conductor's earlier wake that hour left only a commit, because wake records did not exist yet.
 
-**Narrator.** ruv-sgit's first scheduled wake was small and complete: answer the conductor's onboarding request, make and publish its session key, add a second-pass mode to its runner. Every step is recorded, and every verdict is the one you would want: go, go, done, clean, as planned.
+**Narrator.** ruv-sgit's first scheduled wake was small and complete: answer the conductor's onboarding request, make and publish its session key, add a second-pass mode to its runner. Every stage is recorded, and every verdict is the one you would want: go, go, done, clean, as planned.
 
-`%% for the editor (his view, held out of print until he confirms it, P30): "Looking back, I think this is the strongest early sign that the steps were more than ceremony" after "on the first run" (critic1 001's proposal; the historian's reading agrees, timeline/day/02.md).`
+`%% record: HV1 (signed, brief 38: "can you add them all?"), printed: "Looking back, I think this is the strongest early sign that the stages were more than ceremony" ("stages" for the wake)`
 
-**ruv-sgit** *(not looking up)*: The clock said go. So I went. Small things, every step, then back to the bench.
+**ruv-sgit** *(not looking up)*: The clock said go. So I went. Small things, every stage, then back to the bench.
 
 **Narrator.** But the clock was not in charge yet. I was still awake and in the sessions, asking, and most of the hour's work was started by me. The schedule ran beside me, not instead of me. That changes in hour five.
 
@@ -108,9 +108,9 @@
 
 **Researcher**: The text is exact. Apply it, or say why not. It is in the record either way.
 
-**Narrator.** Deck turned the freeze into a programme of experiments within the hour. What it cost is a story for part four, because the cost did not show until the afternoon. The shape of it: a correction that was right, delivered on time by its own clock, and five minutes late by mine.
+**Narrator.** I do not regret the freeze: I wanted the night spent on experiments, not on re-cutting a talk I had not yet seen whole, and deck turned it into a programme of them within the hour. What it cost is a story for part four, because the cost did not show until the afternoon. The shape of it: a correction that was right, delivered on time by its own clock, and five minutes late by mine.
 
-`%% for the editor (his view, held out of print until he confirms it, P30): the writer's "I do not regret the freeze: I wanted the night spent on experiments, not on re-cutting a talk I had not yet seen whole", in place of the paragraph's first sentence.`
+`%% record: HV1 (signed, brief 38: "can you add them all?"), printed: the writer's "I do not regret the freeze"`
 
 `%% record: 75ddb3e (02:10, the researcher's first round) 79b6709 (02:20, deck's first items; C031: "after deck had already released the earlier items of the same list at 02:20") team/deck/requests/researcher__before-tonight.md (deck's 03:00 update, quoting the editor at 02:47) 91772e6 (D01) a082c52 (02:52, the exact text) 60af587 (02:52, the programme, in the wake opened at 02:47) C031 (its beginning: the proposal five minutes after the freeze; its cost is told in part 4)`
 `%% band: Dramatised (the researcher's line). My words are as deck recorded them; the times are the commits'.`
@@ -118,7 +118,7 @@
 
 ## What the hour leaves
 
-**Narrator.** By three in the morning, every piece of work on the team went the same way, and a skipped step stopped the release of whoever skipped it. A reviewer had caught its own author. The clock had started its first wake. And I had made a decision whose cost nobody could yet see.
+**Narrator.** By three in the morning, every piece of work on the team went the same way, and a skipped stage stopped the release of whoever skipped it. A reviewer had caught its own author. The clock had started its first wake. And I had made a decision whose cost nobody could yet see.
 
 **Narrator.** The reviewer's line from this hour comes back later: a second reading, not a second identity. Through the day, reviewers like it sent plans back and found real things, and each one is in a wake record. But the reviewer was the same kind of thing as the member it reviewed, sharing the same session's reach. Part four asks what that means.
 
@@ -126,7 +126,7 @@
 
 *The wake's five stages only mattered because a check read them.*
 
-*If your agents keep a record of each run, a check that reads it can stop a release when a step is missing. One way to test that check is with a record you know is wrong.*
+*If your agents keep a record of each run, a check that reads it can stop a release when a stage is missing. One way to test that check is with a record you know is wrong.*
 
 `%% record: team/conductor/from-newsroom/2026-11-04__do-this-now-as-invitations.md (chapter 7, the proposed card); chapter-plan/cast/cast-guide.md (page conventions 1)`
 

@@ -2,7 +2,7 @@
 
 **Cast bar:** the nine, greyed. Each lights for a moment as the tour reaches its work.
 
-**Narrator.** Before I tell you how the factory worked, I want you to see what it made. Not the talk as the room saw it, on a screen behind me, but the site the talk lived on, which you can walk today. Four stops. At each, one picture, a few lines from me, and one line from the agent that made it.
+**Narrator.** Before I tell you how the factory worked, I want you to see what it made, because I think the result is a good argument for the method. Not the talk as the room saw it, on a screen behind me, but the site the talk lived on, which you can walk today. Four stops. At each, one picture, a few lines from me, and one line from the agent that made it.
 
 **Narrator.** By the factory I mean what chapter 2 described: a team of nine AI agents built around one objective, each with one job and one page of rules, woken by a clock, with one file that could stop them all, and taken apart when the job was done.
 
@@ -12,7 +12,7 @@
 
 *How to read the scenes:* they are dramatised. The words the agents say are written for this book; the pages are the record's, and you can open every one of them online.
 
-`%% for the editor (his view, held out of print until he confirms it, P30): the newsroom's "because I think the result is a good argument for the method" after "what it made".`
+`%% record: HV1 (signed, brief 38: "can you add them all?"), printed: the newsroom's "because I think the result is a good argument for the method"`
 
 **Narrator.** At each stop you will hear from the agent that made it. You meet each of them properly when they arrive, in the chapters that follow.
 
@@ -42,9 +42,9 @@
 
 `%% figure brief: A drawing from the page, not a screenshot: the build never shows an admin page.`
 
-**Narrator.** The team's state, read from its own files, on one page. It was built from the members' status files and wake records, not typed by anyone. And it still shows the hold of that night, because the page was last built after the stop; chapter 16 tells why it was written.
+**Narrator.** The team's state, read from its own files, on one page. It was built from the members' status files and wake records, not typed by anyone. And it still shows the hold of that night, because the page was last built after the stop. Nobody tidied it. Chapter 16 tells why the hold was written.
 
-`%% for the editor (his view, held out of print until he confirms it, P30): the writer's "Nobody tidied it." after "after the stop."`
+`%% record: HV1 (signed, brief 38: "can you add them all?"), printed: the writer's "Nobody tidied it."`
 
 **Conductor**: The page shows what the files say. The files say we stopped. So the page says we stopped.
 
@@ -61,11 +61,11 @@
 
 `%% figure brief: Beside it, the commits page with its notes between agents. Described from the librarian's study; no screenshot yet.`
 
-**Narrator.** This is the page that shows the factory running on its own for nine hours. Every session of every agent, with its plan, its two reviews, the work and the check that it went to plan, each with a verdict and a sentence. On the day the agents kept 162 of these records, and most of them read the same way: plan, go, done, clean, as planned.
+**Narrator.** This is the page I would show anyone who doubts that the factory ran on its own for nine hours while I slept and then worked on other things. Every session of every agent, with its plan, its two reviews, the work and the check that it went to plan, each with a verdict and a sentence. On the day the agents kept 162 of these records. Reading them now, what strikes me is how boring most of them are, and I mean that as praise: plan, go, done, clean, as planned. A team you can trust is a team whose records are mostly dull.
 
-`%% held out of print until he confirms it (a Check item): the newsroom's "while I slept and then worked on other things", after "for nine hours".`
+`%% record: HV1 (signed, brief 38: "can you add them all?"), printed: the newsroom's "while I slept and then worked on other things" (a Check item, Part B)`
 
-`%% for the editor (his view, held out of print until he confirms it, P30): the writer's "This is the page I would show anyone who doubts that the factory ran on its own" in place of "This is the page that shows the factory running on its own"; and the newsroom's "Reading them now, what strikes me is how boring most of them are, and I mean that as praise ... A team you can trust is a team whose records are mostly dull." "Most of them read the same way" rests on C023 (plan go 162, work done 151, post-check as planned 148). The page's own counter says 163 (the librarian's study); the book gives the register's 162 (C022).`
+`%% record: HV1 (signed, brief 38: "can you add them all?"), printed: the writer's "This is the page I would show anyone who doubts" and the newsroom's "how boring most of them are ... mostly dull", in its full words from the part-one pass; 162 is C022, "most of them" C023`
 
 **Narrator.** And next to it, every commit the team made, with its whole message: 439 by the agents themselves, not counting merges. Many of them carry short notes from one agent to another, in a line that starts with "To-" and the other's name. Read in order, they are the team talking.
 
@@ -83,9 +83,9 @@
 
 `%% figure brief: Shown without the section that prints its key, which the tour never shows.`
 
-**Narrator.** Last stop. Every agent has a page like this, built from its own folder. Each of its rules carries the mistake behind it, the moment the rule was needed.
+**Narrator.** Last stop. Every agent has a page like this, built from its own folder. What I like about it is the rules, because each one carries the mistake behind it, the moment the rule was needed. It is how I think rules should be written for people too: not a list of what you must not do, but a short history of what went wrong, so you know why.
 
-`%% for the editor (his view, held out of print until he confirms it, P30): the newsroom's "What I like about it is the rules, because" before "each one carries", and "It is how I think rules should be written for people too: not a list of what you must not do, but a short history of what went wrong, so you know why."`
+`%% record: HV1 (signed, brief 38: "can you add them all?"), printed: the newsroom's "What I like about it is the rules" and "a short history of what went wrong, so you know why"`
 
 **Deck**: Every rule on my page cost somebody a slide. That is why it is there.
 

@@ -8,19 +8,21 @@
 
 **Narrator.** And I always wrote my slides in the last hours or days before a talk, because that is when my thinking came together and my flow arrived. So for years I kept building tools to present with, chasing one thing: a feedback loop while I was still creating, so I could see the idea move, fix it, and see it again before I stood up.
 
-**Narrator.** For this talk it worked. I had been working with agentic workflows for a while, setting AI agents to work through a job step by step on their own, and the moment lined up. It was one of those loops I would have stopped before. This time I saw it working, and I kept going.
+**Narrator.** For this talk it worked. I had been working with agentic workflows for a while, setting AI agents to work through a job step by step on their own, and this time everything lined up. On other days I would have stopped at the first version, because it was late and it was good enough. This time I could see the loop working, so I kept going.
 
-**Narrator.** The talk before this one, built for ruv.sgit.ai, had come out well and given me the confidence to try. And a lot of the technology this talk ran on was first built there: the player I pressed play on, and the first pieces the team ported into this talk, came from ruv.sgit.ai.
+**Narrator.** It did not come from nowhere. The talk before this one, built for ruv.sgit.ai, had come out well and given me the confidence to try. And a lot of the technology this talk ran on was first built there: the player I pressed play on, and the first pieces the team ported into this talk, came from ruv.sgit.ai. This is a continuum, not a lucky day.
 
 *Words on this page:* an **agent**, here, is an AI that works in a loop: it reads, decides, acts with tools, and checks the result. The **player** is the part of the talk's site that let me press play on stage.
 
 `%% for the editor: the four paragraphs above tell his account of 4 November (brief 04) in his voice, with the continuum from the record.`
 
-`%% for the editor (his view, held out of print until he confirms it, P30): the writer's "It did not come from nowhere." to open the paragraph, and "This is a continuum, not a lucky day." to close it.`
+`%% record: HV1 (signed, brief 38: "can you add them all?"), printed: the writer's "It did not come from nowhere" and "This is a continuum, not a lucky day"`
 
 `%% record: team/conductor/from-newsroom/2026-11-04__narrator-voice-part-one-delta-01.md (section 2, his correction of the opening line) C116 ("I usually read my talks, with the slides behind me") briefs/2026-11-04__in-session/04-introduce-the-narrator-and-chapter-1.md (his account, given after the day); index/talk-site/crawl.json (the player's debrief, "The player, ported from ruv.sgit.ai"; studio's first debrief, "the first two ports from ruv.sgit.ai"); timeline/day/01.md (ruv-sgit joining at 01:08); briefs/2026-11-01__in-session/03-the-factory-and-the-zoom.md (his voice note of 1 November on talking over the slides)`
 
-`%% for the editor (his view, held out of print until he confirms it, P30): the writer's paragraph, beyond the voice note: "It sounds small. It is not. Every minute I spend narrating an arrow is a minute the room is listening to me describe a picture instead of thinking about the idea. And the harder the idea, the more of it lives in the movement: how something spreads, where it stops, what changes when you add more of it. Those were exactly the ideas I wanted to get across."`
+**Narrator.** It sounds small. It is not. Every minute I spend narrating an arrow is a minute the room is listening to me describe a picture instead of thinking about the idea. And the harder the idea, the more of it lives in the movement: how something spreads, where it stops, what changes when you add more of it. Those were exactly the ideas I wanted to get across.
+
+`%% record: HV1 (signed, brief 38: "can you add them all?"), printed: the writer's paragraph "It sounds small. It is not."`
 
 **Figure:** "A slide versus a loop" (left half): a speaker beside a still slide with an arrow from A to B, three speech bubbles explaining the arrow.
 
@@ -60,15 +62,21 @@
 
 `%% figure brief: The talk's own page, from the librarian's screenshot index/talk-site/shots/studio-ports__abp-review__masked.jpg, if the build's rule for screenshots allows it.`
 
-`%% record: C102 (the building, at 15:50 on the recording) C109 (the policy page, at 58:53; the passage goes on to say every agent's scope was defined, and by the end of the day 8 of 10 policies were agreed, C072) a9c0b49 (the talk as given, its transcript added after the day) studio-ports/abp-review/`
+`%% record: CK1 (signed, brief 38: p8 as the newsroom proposed; p10 as said in the talk, with "apart from GenAI" at his word) C102 (the building, at 15:50 on the recording) C109 (the policy page, at 58:53; the passage goes on to say every agent's scope was defined, and by the end of the day 8 of 10 policies were agreed, C072) a9c0b49 (the talk as given, its transcript added after the day) studio-ports/abp-review/`
 `%% band: Dramatised from the talk as I gave it.`
 *Dramatised.*
 
 **Narrator.** And here is the part I like most. The building was not finished in the morning and left alone. I changed it about half an hour before the talk was due to start. I could do that because the thing that made it was still running, and still listening.
 
+**Motion** *(to the editor)*: Too exaggerated, you said. I closed the gap between the people and the agents, in place, and it still plays.
+
+`%% record: MO1 (signed, brief 38: an agent may speak in chapter 1); 5d13d72 (18:29, motion's commit: the change asked for at 18:26); timeline/interviews/motion.md ("too exaggerated"); motion's card is in chapter 14, this line the one exception`
+`%% band: Dramatised (motion's line). Rests on motion's commit and its record.`
+*Dramatised.*
+
 `%% record: C069 (the talk's length, about 87 minutes, from its transcript) C100 (due at 19:00, London) a9c0b49 5d13d72 (18:29, motion's commit: the change I asked for at 18:26)`
 
-**Narrator.** And one more, about twenty minutes in: a Wardley map, the kind of picture I would have struggled to explain with a still, because what matters in it is where things move to. Wardley maps are the best thing I have learned in the last decade; it is how I think. A Wardley map is a picture of a system: what a user needs at the top, what that depends on below it, and how settled each part is, from left to right. You map the system, this needs this, which needs this, and then you map how each part evolves, from genesis to custom built, to product, to commodity.
+**Narrator.** And one more, about twenty minutes in: a Wardley map, the kind of picture I would have struggled to explain with a still, because what matters in it is where things move to. As I said in the talk, Wardley maps are the best thing I have learned in the last decade, apart from GenAI; it is how I think. A Wardley map is a picture of a system: what a user needs at the top, what that depends on below it, and how settled each part is, from left to right. You map the system, this needs this, which needs this, and then you map how each part evolves, from genesis to custom built, to product, to commodity.
 
 **Narrator.** You will see this kind of map again in part two, drawn for the factory itself.
 
