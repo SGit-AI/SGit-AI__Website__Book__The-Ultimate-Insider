@@ -66,6 +66,8 @@ He agreed the storyteller's three choices from the newsroom's third pass (letter
 
 None of the three changes a number.
 
+And after his answers of 5 November (brief 38): **23b, Further reading** (FR1), straight after chapter 23 and its last word, the newsroom's list with one narrator line; its links checked before print. Owner: writer4; the publisher lists it in Book.txt.
+
 ## How the full book grows from the seventy
 
 The same five beats, in the same order, with the same cast bar, running line and margin clock (hour one to hour nineteen, CK1). Each of the seventy's parts roughly doubles. What the full book adds is the whole record, not new argument:

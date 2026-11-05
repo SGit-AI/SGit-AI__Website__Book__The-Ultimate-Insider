@@ -32,9 +32,9 @@
 
 **Researcher**: My own review found it. After the push. A review that runs after the push is a review that runs late.
 
-**Narrator.** That is the lesson the register draws: redaction does not reach a commit already pushed. The review worked; it worked at the wrong end. Hour five, below, shows what changed.
+**Narrator.** That is the lesson the register draws, and it is the right one: redaction does not reach a commit already pushed. The review worked; it worked at the wrong end. Hour five, below, shows what changed.
 
-`%% for the editor (his view, held out of print until he confirms it, P30): the writer's "and it is the right one" after "the lesson the register draws".`
+`%% record: HV1 (signed, brief 38: "can you add them all?"), printed: the writer's "and it is the right one"`
 
 `%% record: team/researcher/wakes/20261029T030550Z.json (opened 03:05; post_review: finding, stamped 03:17, after the redaction at 03:16) 59ac8ab C025 (its second entry, and its note: "a story of the controls catching a leak late, not preventing it")`
 `%% band: Dramatised (the researcher's line). Rests on its wake of 03:05 and the register's account of the finding; told as the team's finding and its rule only.`
@@ -48,9 +48,9 @@
 `%% band: Dramatised (dev's line). Rests on dev's commit of 03:34 and the rule in its page.`
 *Dramatised.*
 
-**Narrator.** And a third, smaller, the conductor's own: it closed a wake with a correction whose time it had typed by hand, and the time was wrong. From then on, its times came from the clock.
+**Narrator.** And a third, smaller, the conductor's own: it closed a wake with a correction whose time it had typed by hand, and the time was wrong. From then on, its times came from the clock. Small failures with small rules are the ones most teams never write down.
 
-`%% for the editor (his view, held out of print until he confirms it, P30): the newsroom's and the writer's "Small failures with small rules are the ones most teams never write down." to close the paragraph.`
+`%% record: HV1 (signed, brief 38: "can you add them all?"), printed: "Small failures with small rules are the ones most teams never write down"`
 
 `%% record: cabcd57 (03:07)`
 
@@ -60,7 +60,9 @@
 
 **Conductor**: Every round, the team as its files say it is. If the files are wrong, the log is wrong, and somebody will see it.
 
-`%% for the editor (his view, held out of print until he confirms it, P30): the writer's "It is the page I would have read first."`
+**Narrator.** It is the page I would have read first.
+
+`%% record: HV1 (signed, brief 38: "can you add them all?"), printed: the writer's "It is the page I would have read first."`
 
 **Narrator.** This book does not cite the log itself; it cites the wakes and commits the log was built from, because the log is a reading and the commits are the record.
 
@@ -92,9 +94,9 @@
 
 `%% record: talk repository at 298be4e: team/designer/ROLE.md team/designer/policy.json (moved here from chapter 6, storyteller__138 S1)`
 
-**Narrator.** Just after four I asked for one more wake, in the designer's session, and agreed its policy. That commit is my last word of the night. The next is early in the afternoon. The record does not say where I went. What matters is what happened while I was gone.
+**Narrator.** Just after four I asked for one more wake, in the designer's session, and agreed its policy. That commit is my last word of the night. The next is early in the afternoon. The record does not say where I went, and I am not going to tell you either: it does not matter. What matters is what happened while I was gone.
 
-`%% for the editor (his view, held out of print until he confirms it, P30): the writer's "and I am not going to tell you either: it does not matter" after "where I went". The thirty says only "The record does not say where I went."`
+`%% record: HV1 (signed, brief 38: "can you add them all?"), printed: the writer's "and I am not going to tell you either: it does not matter"`
 
 `%% record: c6dcf89 (03:41) C014 C022 C119 talk repository at 298be4e: team/designer/ROLE.md team/designer/policy.json; 09c02ff (03:43, the 03:39 wake, idle) f448345 (04:03, the editor agrees the designer's policy) team/designer/wakes/ (started 04:02:56) C011`
 `%% band: Dramatised (the designer's lines). Rest on its first commit, its page of rules and its idle first wake; my last word of the night is the commit of 04:03.`
@@ -138,9 +140,9 @@
 
 *Reviewer (the clipboard):* "objection withdrawn."
 
-**Narrator.** The argument is in the wake record, both halves of it: a reviewer argued with, on the record, by a member pointing at the rules and not at its own certainty.
+**Narrator.** The argument is in the wake record, both halves of it. A reviewer that can be argued with, on the record, by pointing at the rules, is a reviewer doing its job. So is a member that argues by pointing at the rules and not at its own certainty.
 
-`%% for the editor (his view, held out of print until he confirms it, P30): the writer's "A reviewer that can be argued with, on the record, by pointing at the rules, is a reviewer doing its job. So is a member that argues by pointing at the rules and not at its own certainty."`
+`%% record: HV1 (signed, brief 38: "can you add them all?"), printed: the writer's "A reviewer that can be argued with ... is a reviewer doing its job", in its full words`
 
 **Figure:** ruv-sgit's two-panel reviewer card.
 
@@ -154,9 +156,9 @@
 
 ### The same failure, caught in time
 
-**Narrator.** The second scene is in the same wake. The researcher's review after the work returned a finding of the same kind as the first: more of other sites' data, captured along with a page.
+**Narrator.** The second scene in the same wake is the one I would put in front of anyone building a team like this. The researcher's review after the work returned a finding of the same kind as the first: more of other sites' data, captured along with a page.
 
-`%% for the editor (his view, held out of print until he confirms it, P30): the writer's "is the one I would put in front of anyone building a team like this", of the second scene.`
+`%% record: HV1 (signed, brief 38: "can you add them all?"), printed: the writer's "is the one I would put in front of anyone building a team like this"`
 
 **Figure:** a card, the researcher's two findings of the small hours side by side: the first found after the push; the second found before the close, the values counted, the files redacted in the same wake, none left.
 

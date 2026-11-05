@@ -2,9 +2,9 @@
 
 **Cast bar:** six agents: the conductor, dev, deck, ruv-sgit, the researcher and the designer; the editor's chair empty from just after four until about ten to two, in hour fourteen.
 
-**Narrator.** My last word of the night was just after four, and my next was at about ten to two in the afternoon. In between, nobody started any work but the clock. This chapter goes through those hours one at a time, because what happened in them was ordinary.
+**Narrator.** My last word of the night was just after four, and my next was at about ten to two in the afternoon. In between, nobody started any work but the clock. This chapter goes through those hours one at a time, because the point of them is that they are ordinary, and ordinary is the thing people do not believe until they see it hour by hour.
 
-`%% for the editor (his view, held out of print until he confirms it, P30): the writer's "because the point of them is that they are ordinary, and ordinary is the thing people do not believe until they see it hour by hour", in place of "because what happened in them was ordinary".`
+`%% record: HV1 (signed, brief 38: "can you add them all?"), printed: the writer's "ordinary is the thing people do not believe until they see it hour by hour"`
 
 **Figure:** the nine hours as one strip, hour six to hour fourteen, each hour a box with its commits and its wakes by trigger: the margin clock's boxes laid side by side.
 
@@ -27,9 +27,9 @@
 
 **Researcher**: Partial. The rest is in my next wake's plan, not in a claim that it is done.
 
-**Narrator.** That is a small thing. What the record shows is not whether everything finished, but whether what did not finish was written down as not finished.
+**Narrator.** That is a small thing, and it is the thing I would look for first in any team I had left alone. What the record shows is not whether everything finished, but whether what did not finish was written down as not finished.
 
-`%% for the editor (his view, held out of print until he confirms it, P30): the writer's "and it is the thing I would look for first in any team I had left alone", after "That is a small thing".`
+`%% record: HV1 (signed, brief 38: "can you add them all?"), printed: the writer's "the thing I would look for first in any team I had left alone"`
 
 **Narrator.** The hour holds one more sign of the schedule working. The designer's first note, written before dawn, was built by dev through the conductor's schedule: set for dev's session in hour five, it landed in the one in hour six. A request not picked up at one session is picked up at the next.
 
@@ -86,9 +86,9 @@
 
 **Conductor** *(on the minute, handing over a page)*: What was done, what is ordered, and what only you can decide. In that order.
 
-**Narrator.** It is the first thing the team wrote in order to hand itself back to a person. A team that runs on its own still has to know what it may not decide on its own, and say so in writing, at the top of the page.
+**Narrator.** It is the first thing the team wrote in order to hand itself back to a person, and its last part is the one I value most: what only you can decide. A team that runs on its own still has to know what it may not decide on its own, and say so in writing, at the top of the page.
 
-`%% for the editor (his view, held out of print until he confirms it, P30): the newsroom's "and its last part is the one I value most: what only you can decide" after "to a person".`
+`%% record: HV1 (signed, brief 38: "can you add them all?"), printed: the newsroom's "its last part is the one I value most"`
 
 `%% record: 3d94be9 (07:07, the morning review) aa7a3eb (07:18, the researcher's answer; "a decision put to the editor") team/conductor/debriefs/2026-10-29__the-morning-review.md C068 (the values in the vault's pushed history) timeline/day/07.md`
 `%% band: Dramatised (the conductor's line). Rests on the morning review and the researcher's answer; the vaults are named, never shown.`
@@ -144,9 +144,9 @@
 
 **Narrator.** These two hours are quiet, and I am not going to skip them, because quiet is the evidence. Deck kept a second piece and marked it ready for me. The researcher captured an analyst firm's own release for a claim in the talk, graded the claim, and kept the list of what waited on me current. The designer closed its first design pass, every note built and checked. Dev built the home page's title and figure.
 
-**Narrator.** One wake closed partial, the first since hour six to close as anything but ok, and for the same reason: the work ran out of its time, and the record says so. The designer's re-scan for a new rule stalled with a few pages unchecked, and its last check called that reported honestly and carried to the next wake.
+**Narrator.** One wake closed partial, the first since hour six to close as anything but ok, and for the same reason: the work ran out of its time, and the record says so. The designer's re-scan for a new rule stalled with a few pages unchecked, and its last check called that reported honestly and carried to the next wake. The five stages were doing what I had asked of them in the long middle of the day. Not catching harm. Keeping the account straight.
 
-`%% for the editor (his view, held out of print until he confirms it, P30): the newsroom's and the writer's "The five steps were doing what I had asked of them in the long middle of the day. Not catching harm. Keeping the account straight." to close the paragraph.`
+`%% record: HV1 (signed, brief 38: "can you add them all?"), printed: "The five stages were doing what I had asked of them" ("stages" for the wake)`
 
 **Narrator.** And the work piled up at one door. A piece marked ready for me, then another. A list of what waits on me, refreshed every hour. Hours of work nobody started, and what it had produced was a queue only I could clear.
 
@@ -181,17 +181,17 @@
 
 **Narrator.** Nine hours, then, with every wake started by the clock and nothing tidied away: what did not finish said so, and the night's failure, found a third time, is kept.
 
-**Narrator.** Part three now turns to how the team did it: the channels it talked through, the rhythm it kept, the plumbing under every scene.
+**Narrator.** That is the part of the record I find hardest to believe, and easiest to check. Part three now turns to how the team did it: the channels it talked through, the rhythm it kept, the plumbing under every scene.
 
-`%% for the editor (his view, held out of print until he confirms it, P30): the writer's "That is the part of the record I find hardest to believe, and easiest to check." to open the paragraph; kept from the 70-page edition's chapter 7, where it is flagged as the writer's reading of his view; his to keep or drop.`
+`%% record: HV1 (signed, brief 38: "can you add them all?"), printed: the writer's "the part of the record I find hardest to believe, and easiest to check"`
 
 ## Something to try
 
-*Coming back to a team that worked without you, the temptation is to start asking straight away.*
+*Coming back to a team that worked without you is a strange feeling, and the temptation is to start asking straight away. Reading what they did first, before asking for anything new, changed what I asked for.*
 
 *If you try reading what they did first, before you ask for anything new, your first ask can build on their work.*
 
-`%% for the editor (his view, held out of print until he confirms it, P30): the newsroom's "is a strange feeling", and its "Reading what they did first, before asking for anything new, changed what I asked for." (critic5's note).`
+`%% record: HV1 (signed, brief 38: "can you add them all?"), printed: the newsroom's "is a strange feeling" and "changed what I asked for"`
 
 `%% record: team/conductor/from-newsroom/2026-11-04__do-this-now-as-invitations.md (chapter 9, the proposed card, its views held); chapter-plan/cast/cast-guide.md (page conventions 1)`
 

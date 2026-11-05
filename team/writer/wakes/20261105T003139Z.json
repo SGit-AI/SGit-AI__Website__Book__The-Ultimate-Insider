@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer",
+ "kind": "scheduled wake",
+ "started": "2026-11-05T00:31:39Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Go with conditions: HV1, CK1, MO1 signed (brief 38); take critic1's 'on the minute' could; MO1 a one-line exception, noted on the record line and told to the storyteller, resting on 5d13d72, dramatised; CK1 p10's note added at 01:71 not duplicated; any unprinted held line named and kept on its %% line; storyteller 163 acknowledged.",
+   "at": "2026-11-05T00:33:44Z"
+  },
+  "pre_review": {
+   "by": "security (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Go: Part C (02:31, 02:61, 04:36, 05:83) stays held; elided lines not printed with '...' and not filled with new words; 03:57's 162 is C022; 04:44 only his reading; motion's line no figure and no method; RW1 and em-dash grep; vault_check, gate, scope.",
+   "at": "2026-11-05T00:33:44Z"
+  },
+  "work": {
+   "by": "writer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "HV1: 42 Part A and 7 Part B held views printed in 00 to 09, Part C held; CK1 in 01; MO1 motion's line in 01; critic1 027 in 07; 06's leftover band. Letters 269 to 273.",
+   "at": "2026-11-05T00:40:35Z"
+  },
+  "post_review": {
+   "by": "security (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "finding",
+   "comment": "Clean on secrets, dashes, RW1, valve; Part C held; 48 of 49 views word for word, elisions in the newsroom's own words. Findings handled before the push: 04's memory-callout view printed; the 'steps' to 'stages' change in two of his lines put to him through the conductor (writer__274). Gate re-run green (1264).",
+   "at": "2026-11-05T00:45:54Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "as-planned",
+   "comment": "Partial at first (41 of 42 Part A); 04:109 printed before the push, so 42 and 7. CK1, MO1, critic1 027 done; scope 0; nothing after the commit; debrief and letter corrected (writer__274).",
+   "at": "2026-11-05T00:45:54Z"
+  }
+ },
+ "closed": "2026-11-05T00:45:54Z",
+ "outcome": "ok"
+}
