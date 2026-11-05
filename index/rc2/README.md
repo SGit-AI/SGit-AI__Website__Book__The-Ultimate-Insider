@@ -229,6 +229,8 @@ The talk team's vaults are named in 10, not cited by path; nothing of them is in
 
 **5 November 2026, about 12:30 UTC: after security's hold (lifted about 11:17).** The full book's text has not changed since 05:13. The final pass has no fails. Security cleared six placed shots by name (`motion__meet-the-team`, `motion__the-building`, `studio-ports__journey`, `talk__slides__three`, `studio`, `ruv-sgit__mandate-and-grant`); all exist here and are the ones the chapters name; the other 69 are not cleared and none is placed. The designer's new spread page prints 00:16, 19:00, 162 and one file, each in the register (C001, C100, C022). Nothing open.
 
+**5 November 2026, about 13:30 UTC: the spread's page two placed in the book list.** The only change to the manuscript since 12:16 is one line of `Book.txt` (the page-two drawing added to the placed spread); all 32 chapter lines exist; the final pass has no fails. The drawing prints 00:16, 19:00 and 162 (C001, C100, C022) and the editor's confirmed feedback contact line (FB2, brief 35), identical to 00 and 23. Nothing open.
+
 ## The writer's readings, for the editor to keep or drop
 
 **Corrected 3 November 2026, about 09:30 UTC:** until this wake the list took only the notes that stand on a line of their own, and missed four set inside a paragraph (70/02:67, 70/02:97, 70/06:68, 70/11:5). The list now takes every note wherever it stands: thirty in the thirty and the seventy (not twenty-six), seven in the 150's part 1, thirty-seven in all.

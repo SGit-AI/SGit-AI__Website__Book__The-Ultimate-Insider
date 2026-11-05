@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "librarian",
+ "kind": "scheduled wake",
+ "started": "2026-11-05T13:12:59Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Light wake: the one-line Book.txt change (the spread's page two placed); chapter existence against manuscript/rc2/150; final pass; the spread page's numbers against the register; the contact line on page two is the editor's confirmed FB2 feedback address, noted by reference, not copied.",
+   "at": "2026-11-05T13:14:06Z"
+  },
+  "pre_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "go",
+   "comment": "No secret or model name in the plan; the contact line on page two is FB2 (editor confirmed, brief 35), noted for security and not copied into librarian files.",
+   "at": "2026-11-05T13:14:06Z"
+  },
+  "work": {
+   "by": "librarian",
+   "model": "",
+   "verdict": "done",
+   "comment": "Light wake: the only manuscript change is one Book.txt line (the spread's page two); all 32 chapter lines exist; final pass no fails; the drawing's numbers are in the register and its contact line is the editor's confirmed FB2, by reference, not copied; no letter; review, README, debrief, status; build+gate run.",
+   "at": "2026-11-05T13:17:11Z"
+  },
+  "post_review": {
+   "by": "reviewer (security view)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "5 staged files in scope; no personal address copied (the contact line is referenced by FB2 and brief 35 only); no em-dash, religious word, model name or Cold-Read flow.",
+   "at": "2026-11-05T13:17:31Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "The manuscript diff lists only Book.txt; 32 chapter lines; review, README, debrief, status in the diff; no letter needed. The reviewer did not run the build or the final pass; I did (build and gate clean, 1369 pages; final pass no fails).",
+   "at": "2026-11-05T13:17:32Z"
+  }
+ },
+ "closed": "2026-11-05T13:17:32Z",
+ "outcome": "ok"
+}
