@@ -111,3 +111,4 @@ source: comms/mail/mailroom/publisher/conductor__026-check-taken.eml; publishing
 - 5 November 01:10 UTC: cover edge fixed (page shrink from a 2 px overflow); 17b, 23b listed; 145 pages, 1 box, 10 holes.
 - 5 November 02:05 UTC: 92 out (AP1); tags (TC1, DM1) in the designer's look; 128 pages, 5 boxes (4 held), 11 holes.
 - 5 November 03:00 UTC: 0 figure boxes; 129 pages; 11 holes.
+- 5 November 04:05 UTC: full-width figures kept whole; 129 pages, 11 holes.

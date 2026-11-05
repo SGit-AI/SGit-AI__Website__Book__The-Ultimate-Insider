@@ -111,3 +111,7 @@ h2 + div.pair-full, h3 + div.pair-full { break-before: avoid; }
    then shrank every page to fit, about 0.5 percent, leaving a white line down the cover's right edge and foot. The border now
    counts inside the image's width. */
 img.edition-figure, figure img { box-sizing: border-box; }
+/* a figure's caption stays with its drawing (the designer 158, OS1: the house's caption at a page's foot, its drawing on
+   the next). Chromium broke between the caption (set above by flex order) and the drawing despite break-inside: avoid;
+   a full-width figure is now an inline flex box, which Chromium never splits across pages. */
+div.pair-full figure { display: inline-flex; width: 100%; vertical-align: top; }
