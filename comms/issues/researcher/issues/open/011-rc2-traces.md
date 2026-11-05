@@ -112,3 +112,5 @@ RC2 is signed (RP1, CV2): the 30-page edition first, then the 70 and the 150, in
 5 November, 04:34: pass 20: one landing (18's figure moved, no word changed); script FAILS 0. Next: Thursday before 10:00.
 
 5 November, 11:37: pass 21, the first after security's hold (05:26 to about 11:20 UTC; it stopped five wakes, so the Thursday-before-10:00 run did not happen): script FAILS 0 at ce04e429; no new figure in the landings.
+
+5 November, 12:38: pass 22: the back-cover description traced and confirmed (no new number; researcher__010); one landing (the spread's two pages), no figure; script FAILS 0.

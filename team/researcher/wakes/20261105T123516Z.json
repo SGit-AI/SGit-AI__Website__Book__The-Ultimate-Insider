@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-05T12:35:16Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Plan in scope; each fact maps to a row of the listing's table; state the 'anyone could use' wording shift and that stages is the book's naming; I counted the 181 words; reviewer used Bash and Glob, none refused",
+   "at": "2026-11-05T12:37:15Z"
+  },
+  "pre_review": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "181 words verified; the rows map; for 'anyone could use' I cite the talk's own CLAUDE.md at 298be4e line 9, not this book's file; reviewer used Bash, none refused",
+   "at": "2026-11-05T12:38:09Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Back-cover trace confirmed (researcher__010); script FAILS 0 before and after; records written",
+   "at": "2026-11-05T12:38:55Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

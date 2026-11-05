@@ -727,3 +727,11 @@ The Thursday run "before 10:00" did not happen. Security's hold (team/security/H
 Landings since my last released work (659cd0c5, 04:36): writer4's 11a29148 (04:38: the cast-card figure moved before security's hello; the hello is one line removed and added, no word new: "here from the first night" is C114/C011, already traced), the publisher's 7a7cc12d (04:59: the opening spread printed as the designer's two facing pages, OS3), the writer's 873bfbf3 (11:33: chapter 3's player line waits for OS4; chapter 00 held) and security's 3132b57e (the six placed screenshots by name). By grep of the added lines in manuscript/rc2/150: no new figure or time. OS3 and OS4 and the clearances are layout and controls, not numbers.
 
 The script, in order: at dev's head ce04e429 (11:36, before any edit of mine): FAILS 0. After my records (below): see the debrief.
+
+## RV2 pass 22 (the 12:32 wake, 5 November)
+
+One landing since my last released work (3a4b55ff): the publisher's bccc493b (12:04: the opening is exactly two pages, OS4; screenshots admitted by name only, AD1). No figure or time in the added lines of manuscript/rc2/150 (grep).
+
+The storyteller's 168 asks me to confirm the trace of a trimmed back-cover description (181 words, counted; the old one was 234). It adds no number, name or claim; each fact is a row of publishing/listing.md's numbers table: C001 (29 October 2026), C011 (nine agents), C010 and C100 (nineteen hours after the first commit: 18 h 44 min to the due time, fair in prose), C024 (the one short file anyone could use and only he could lift: the talk's own CLAUDE.md at 298be4e, line 9, says "Anyone may stop the schedule ... Only the editor lifts a hold"), C088 (the five-step wake from 02:16; 46 of the agents' 439 commits with no wake open: "its turns"). "Stages" for the wake is the book's own naming, not a register number. Confirmed in researcher__010.
+
+The script, in order: at dev's head 5bf8f7c9 (12:38, before any edit of mine): FAILS 0. After my records: see the debrief.
