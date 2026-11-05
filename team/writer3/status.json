@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "writer3",
- "as_of": "2026-11-04T23:12:00Z",
- "round": 12,
- "state": "active, hourly at :05 London: all of part four (16 to 19) proposed to the editor for sign-off (critic3 for 16 and 17, critic2 for 18 and 19); security clear on 18; waiting on his sign-off and his held views",
+ "as_of": "2026-11-05T00:20:00Z",
+ "round": 13,
+ "state": "active, hourly at :05 London: part four is 16, 17 (the register), 17b (the members look back), 18, 19; 16 to 19 proposed for sign-off; 17b new for its critic",
  "cadence": "active, hourly at :05 London (ACC1)",
  "task": {
   "id": "trig_01YSqKR8dS9zcrFYrYA1yS5S",
@@ -67,6 +67,10 @@
   {
    "what": "18's brakes figure moved after the next paragraph (page 94)",
    "when": "2026-11-04"
+  },
+  {
+   "what": "SC1 (17b) and SC3 (17 as the register of misses)",
+   "when": "2026-11-05"
   }
  ],
  "next": [
@@ -79,6 +83,11 @@
   {
    "to": "editor",
    "what": "the high five without numbers, and the two conductors' tag (the newsroom's passes, open)",
+   "from": "writer3"
+  },
+  {
+   "to": "editor",
+   "what": "whether the failures EI2 dropped go back under each 'What did not' in 17b (critic1 026)",
    "from": "writer3"
   }
  ],

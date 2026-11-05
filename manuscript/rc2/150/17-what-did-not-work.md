@@ -21,7 +21,7 @@
 
 `%% figure brief: lab/experiments/25-ruv-the-cast-strips/edition/strip-10-07.svg`
 
-**Narrator.** Each miss has its own card: what happened, what it cost, and whose own record says so. Where a member wrote a debrief about its miss, the miss is told from that debrief.
+**Narrator.** This is the register of the day's misses: each with what it cost and whose own record says so. Where a miss is told in full elsewhere, it has a line here and the chapter that tells it; the ones told nowhere else are told here in full.
 
 ### The lock never turned
 
@@ -39,14 +39,12 @@
 
 *What it cost:* two parts of the talk never reached their finished state. *Whose record:* deck's status and its last wake.
 
-**Narrator.** Only part one of the talk was finished. Parts two and three were still in progress when I stopped, and deck's last session, which had planned them, never closed.
-
-**Deck**: Only the first part was ever finished.
+**Narrator.** Told in chapter 16: only part one was finished, and deck's last session, which had planned the other two, never closed.
 
 **Deck** *(to itself, rearranging slides that will not be shown)*: I reviewed other agents' work all night. I did not finish my own.
 
 `%% record: team/deck/status.json at 298be4e ("next": parts 2 and 3) team/deck/wakes/20261029T182009Z.json (never closed) 89afb77 (18:21) C027 timeline/interviews/deck.md`
-`%% band: Dramatised (deck's lines). Rests on deck's status and its last wake.`
+`%% band: Dramatised (deck's line). Rests on deck's status and its last wake.`
 *Dramatised.*
 
 ### The moment missed
@@ -82,7 +80,7 @@
 
 *What it cost:* values from other sites' pages went out in a public push, and the history keeps what was pushed. *Whose record:* the researcher's debrief and the post-reviews.
 
-**Narrator.** Told in chapter 8. Pages the researcher captured as evidence carried other sites' data in with them, three times in the night, and each time the team's own checks caught it, two of them after the push. None of it was a key, a credential or anything personal. Looking back, it was nothing sensitive, an agent that got a bit excited, and I keep it here as an example of the checks catching things.
+**Narrator.** Told in chapter 8: pages captured as evidence carried other sites' data in with them, and each time the team's own checks caught it. Looking back, it was nothing sensitive, an agent that got a bit excited, and I keep it here as an example of the checks catching things.
 
 **Researcher**: I would build the redaction before the first push, not after the findings.
 
@@ -129,7 +127,7 @@
 
 *What it cost:* nothing on stage: no beat of the talk carries any of them. *Whose record:* the talk's own register of claims.
 
-**Narrator.** The talk's own register, built that evening, graded every claim it made, and three did not hold. One was in the article only, one on no beat or slide at all, one in the story tree only. No beat of the talk carries any of the three. The one in the story tree was the objection chapter 13 told, and I kept my line.
+**Narrator.** The talk's own register graded every claim it made, and three did not hold; no beat of the talk carried any of them. The one in the story tree is the objection chapter 13 told, and I kept my line.
 
 **Researcher** *(ticking a list)*: I marked each one that did not hold. The day's checks worked, and they also missed. Saying where is part of the method.
 

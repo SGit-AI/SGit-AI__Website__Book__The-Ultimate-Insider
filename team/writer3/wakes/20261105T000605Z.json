@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer3",
+ "kind": "scheduled, hourly at :05",
+ "started": "2026-11-05T00:06:05Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. SC3: 17 as a register (pointers to 16, 8, 13; unique misses in full; lock card and dev's line); 2. SC1: new 17b from writer 259 (EI2) with 268's method line, nine banded openings, security's non-interview, no dropped failures restored; publisher lists it; 3. replies, letters to done, hand-offs to critic3 and security, build, gate, check_manuscript, debrief, status. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-05T00:07:17Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "In scope; mail 259 clean; captures as the team's finding (C025); ruv-sgit's run only as the check stopping it; security's non-interview not invented; keep both bands. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-05T00:07:48Z"
+  },
+  "work": {
+   "by": "writer3",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "1 done: 17 as the register (pointers to 16 and 8; full where told nowhere else; a claim-13 overstatement fixed). 2 done: 17b from writer 259 and 268, four new banded openings, pointers moved, dropped failures left for the editor. 3 done: replies to writer, storyteller, conductor; requests to publisher, critic3, security; letters to done; build, gate, debrief, status.",
+   "at": "2026-11-05T00:10:32Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "validate, agents check, vault_check pass; no em-dash, religious word, key or personal detail; 17b keeps captures as the team's finding, ruv-sgit's run as the check, security's note uninvented. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-05T00:11:35Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "All three items in the diff; conditions kept. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-05T00:11:35Z"
+  }
+ },
+ "closed": "2026-11-05T00:11:35Z",
+ "outcome": "ok"
+}
