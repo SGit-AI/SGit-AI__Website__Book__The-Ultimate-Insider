@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "AD1 by name only checked in publishing/edition.py; the spread's two page-two copies checked; the hold's item closed (081).",
    "at": "2026-11-05T12:28:35Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "Eight files read; no key, link, contact detail (the address not repeated), attack content, em-dash, religious word or Cold-Read item; gate, vault check and scope clean.",
+   "at": "2026-11-05T12:29:30Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "as-planned",
+   "comment": "a63dc480 is board, mail, debrief, status and the wake record only; no controls file touched, as planned.",
+   "at": "2026-11-05T12:29:51Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-05T12:29:51Z",
+ "outcome": "ok"
 }
