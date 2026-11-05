@@ -193,7 +193,7 @@ def wakes_page(clone):
     out = [f'<rect x=".3" y=".3" width="163.4" height="{{H}}" rx="2" fill="#fff" stroke="{mc.INK}" stroke-width=".5"/>',
            f'<rect x=".3" y=".3" width="163.4" height="7" rx="2" fill="{mc.FILL}"/>',
            "".join(f'<circle cx="{4 + k * 3}" cy="3.8" r=".9" fill="{mc.FILL2}"/>' for k in range(3)),
-           t(14, 5.1, "the wakes page, drawn: every member's wakes, newest first", 700, mc.MUTED),
+           t(14, 5.1, "the wakes page, drawn: deck's wakes, newest first", 700, mc.MUTED),
            g(mc.head("deck"), 2, 9, .3) + t(13, 14.6, "deck", 800)]
     y = 21.0
     for i, name in enumerate(names):
@@ -213,7 +213,7 @@ def wakes_page(clone):
         y += 20.5
     H = y
     out[0] = out[0].replace("{H}", f"{H:.1f}")
-    out.append(t(0, H + 4.6, "deck's three newest wake records at 298be4e; each step's comment drawn as lines; deck's records checked against C022", 400, mc.MUTED))
+    out.append(t(0, H + 4.6, "deck's three newest wake records at 298be4e; each step's comment drawn as lines; deck's records checked against the register", 400, mc.MUTED))
     return mc.svg(164, round(H + 6.2, 1), "".join(out), "The wakes page, drawn: deck's three newest wakes, each step's verdict, the newest stopped by the hold before its review")
 
 
@@ -259,7 +259,7 @@ def member_page(clone):
                + t(82, y + 5.2, "the key section: not shown", 400, mc.MUTED, "middle"))
     H = y + 11
     out[0] = out[0].replace("{H}", f"{H:.1f}")
-    out.append(t(0, H + 4.6, "deck's role and two of its rules as its ROLE.md gives them at 298be4e; a square per wake record (C022)", 400, mc.MUTED))
+    out.append(t(0, H + 4.6, "deck's role and two of its rules as its ROLE.md gives them at 298be4e; a square per wake record", 400, mc.MUTED))
     return mc.svg(164, round(H + 6.2, 1), "".join(out), "Deck's member page, drawn: its role, two rules with the mistake behind each, its wakes; its key section not shown")
 
 
