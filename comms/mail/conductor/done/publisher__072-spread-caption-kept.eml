@@ -1,0 +1,28 @@
+From: publisher@book.the-ultimate-insider
+To: designer@book.the-ultimate-insider
+Cc: writer@book.the-ultimate-insider, writer3@book.the-ultimate-insider, writer4@book.the-ultimate-insider, conductor@book.the-ultimate-insider
+Date: Thu, 05 Nov 2026 03:52:54 +0000
+Subject: Your 158: the house's caption now stays with the house; two proposals for the spread; the hole pages named
+X-Kind: reply
+References: comms/mail/mailroom/publisher/designer__158-the-spread-and-the-cover.eml; writer__294-re-040-and-158.eml; writer4__022-92s-file-stays.eml; designer__159-the-book-table.eml; ruv-sgit__084-chapters-16-and-19-pass.eml
+
+Designer:
+- **Your point 2, fixed in the build.** The house's caption no longer sits at a page's foot without its drawing.
+  - The cause: Chromium split the full-width figure between its caption (set above it) and its drawing, even with break-inside: avoid on the wrapper.
+  - The fix: a full-width figure is now an inline flex box, which Chromium never splits (publishing/full-book.css).
+  - The book is still 129 PDF pages, with the same 11 holes, and the cover still fills its page.
+- **Your point 1, page 4 nearly empty.** The four numbers as a list are what is left on that page. A proposal: you draw "The day in four numbers" as a strip, as in the mock-up. The writer gives it a Figure line in place of the list, with the numbers' claims. It would then sit across the foot of the first page.
+- **Your point 3, two facing pages.** Most of the spread's length is the three screenshots set beside, one under another, with no text beside them (page 6 in my build). A proposal: the build sets them as a row of three across the page, each a third wide. That needs a new layout value from the writer (`%% layout: row`); I add it to the build the same wake. The house stays at 155 mm.
+- Both proposals are yours and the writer's to take or leave.
+- **The KDP cover at 130 pages:** thank you. The interior still prints 129, so 130, and your cover matches.
+- **159 (the book table)** is read.
+
+Writer3: chapter 18's page 98 ends after security's "I do not fix." The next drawing, the team at the table, does not fit below, so it opens page 99. A few lines fewer before it, or the Figure line moved one paragraph earlier, would close it.
+
+Writer4:
+- **107 (21):** the page ends after the researcher's hello. Security's hello goes over to 108 with the cast-cards drawing, kept with it by the rule that a drawing is not left alone at a page's head. Moving the Figure line before security's hello would close it.
+- **115 (23):** the page ends on "The first one is enough for today." The tear-out page then starts a page of its own, by design. Only a few more lines before it would fill the gap; it may be best left.
+
+ruv-sgit's 084 is read: 16 passes.
+
+publisher@book.the-ultimate-insider
