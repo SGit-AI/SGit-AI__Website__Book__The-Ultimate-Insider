@@ -1,8 +1,8 @@
 {
  "about": "The full book's printed pages checked for pages that may not look right (conductor__036). Written by review/tools/print_check.py: page numbers, chapter titles, counts and sizes only.",
  "edition": "rc2-150",
- "source": "a PDF given by hand (full.pdf, created Thu Nov  5 05:17:25 2026 UTC); its chapters are those of the online view, review/anchors/editions.json, as last built",
- "pdf_pages": 129,
+ "source": "a PDF given by hand (full.pdf, created Thu Nov  5 12:13:21 2026 UTC); its chapters are those of the online view, review/anchors/editions.json, as last built",
+ "pdf_pages": 128,
  "chapters_hash": "fad96e9bc4ebfa18",
  "thresholds": {
   "spill_fill_below": 0.25,
@@ -13,70 +13,63 @@
  "chapters_found": 32,
  "chapters": 32,
  "counts": {
-  "chapter_end_spill": 8,
+  "chapter_end_spill": 7,
   "gap_page": 6,
   "figure_apart": 24
  },
  "flags": [
   {
    "kind": "chapter_end_spill",
-   "page": 92,
+   "page": 91,
    "chapter": "The members look back",
    "lines": 4,
    "fill": 0.08
   },
   {
    "kind": "chapter_end_spill",
-   "page": 84,
+   "page": 83,
    "chapter": "Hour nineteen, minute by minute",
    "lines": 5,
    "fill": 0.14
   },
   {
    "kind": "chapter_end_spill",
-   "page": 5,
-   "chapter": "Before you start",
-   "lines": 5,
-   "fill": 0.16
-  },
-  {
-   "kind": "chapter_end_spill",
-   "page": 98,
+   "page": 97,
    "chapter": "How do we contain this",
    "lines": 6,
    "fill": 0.16
   },
   {
    "kind": "chapter_end_spill",
-   "page": 49,
+   "page": 48,
    "chapter": "Hours four and five: before dawn",
    "lines": 6,
    "fill": 0.17
   },
   {
    "kind": "chapter_end_spill",
-   "page": 106,
+   "page": 105,
    "chapter": "Sessions end",
    "lines": 7,
    "fill": 0.19
   },
   {
    "kind": "chapter_end_spill",
-   "page": 117,
+   "page": 116,
    "chapter": "Principles, and build your own",
    "lines": 8,
    "fill": 0.19
   },
   {
    "kind": "chapter_end_spill",
-   "page": 15,
+   "page": 14,
    "chapter": "Inventing on principle",
    "lines": 8,
    "fill": 0.21
   },
   {
    "kind": "gap_page",
-   "page": 47,
+   "page": 46,
    "chapter": "Hours four and five: before dawn",
    "fill": 0.14,
    "lines": 3,
@@ -85,7 +78,7 @@
   },
   {
    "kind": "gap_page",
-   "page": 38,
+   "page": 37,
    "chapter": "Hour three: every wake read twice, and the first to be caught",
    "fill": 0.52,
    "lines": 22,
@@ -94,7 +87,7 @@
   },
   {
    "kind": "gap_page",
-   "page": 75,
+   "page": 74,
    "chapter": "Port, not rebuild",
    "fill": 0.58,
    "lines": 18,
@@ -103,7 +96,7 @@
   },
   {
    "kind": "gap_page",
-   "page": 43,
+   "page": 42,
    "chapter": "Hours four and five: before dawn",
    "fill": 0.64,
    "lines": 25,
@@ -112,7 +105,7 @@
   },
   {
    "kind": "gap_page",
-   "page": 115,
+   "page": 114,
    "chapter": "Principles, and build your own",
    "fill": 0.66,
    "lines": 19,
@@ -121,12 +114,26 @@
   },
   {
    "kind": "gap_page",
-   "page": 20,
+   "page": 19,
    "chapter": "The tour: what a factory made in a day",
    "fill": 0.69,
    "lines": 8,
    "raster_figure_here": true,
    "borderline": true
+  },
+  {
+   "kind": "figure_apart",
+   "page": 8,
+   "chapter": "Slides as a compromise",
+   "intro_page": 7,
+   "pages_apart": 1
+  },
+  {
+   "kind": "figure_apart",
+   "page": 9,
+   "chapter": "Slides as a compromise",
+   "intro_page": 8,
+   "pages_apart": 1
   },
   {
    "kind": "figure_apart",
@@ -144,31 +151,24 @@
   },
   {
    "kind": "figure_apart",
-   "page": 10,
-   "chapter": "Slides as a compromise",
-   "intro_page": 9,
-   "pages_apart": 1
-  },
-  {
-   "kind": "figure_apart",
-   "page": 11,
-   "chapter": "Slides as a compromise",
-   "intro_page": 10,
-   "pages_apart": 1
-  },
-  {
-   "kind": "figure_apart",
-   "page": 17,
+   "page": 16,
    "chapter": "The tour: what a factory made in a day",
-   "intro_page": 16,
+   "intro_page": 15,
    "pages_apart": 1,
    "introduced_by": "a heading"
   },
   {
    "kind": "figure_apart",
-   "page": 56,
+   "page": 55,
    "chapter": "Talking through git",
-   "intro_page": 55,
+   "intro_page": 54,
+   "pages_apart": 1
+  },
+  {
+   "kind": "figure_apart",
+   "page": 65,
+   "chapter": "The creator comes back",
+   "intro_page": 64,
    "pages_apart": 1
   },
   {
@@ -187,9 +187,9 @@
   },
   {
    "kind": "figure_apart",
-   "page": 68,
-   "chapter": "The creator comes back",
-   "intro_page": 67,
+   "page": 69,
+   "chapter": "The story before the slides, and the objection kept",
+   "intro_page": 68,
    "pages_apart": 1
   },
   {
@@ -201,16 +201,16 @@
   },
   {
    "kind": "figure_apart",
-   "page": 71,
-   "chapter": "The story before the slides, and the objection kept",
-   "intro_page": 70,
+   "page": 75,
+   "chapter": "Port, not rebuild",
+   "intro_page": 74,
    "pages_apart": 1
   },
   {
    "kind": "figure_apart",
-   "page": 76,
-   "chapter": "Port, not rebuild",
-   "intro_page": 75,
+   "page": 77,
+   "chapter": "Hour eighteen: faster than the clock",
+   "intro_page": 76,
    "pages_apart": 1
   },
   {
@@ -222,59 +222,60 @@
   },
   {
    "kind": "figure_apart",
-   "page": 79,
-   "chapter": "Hour eighteen: faster than the clock",
-   "intro_page": 78,
-   "pages_apart": 1
-  },
-  {
-   "kind": "figure_apart",
-   "page": 83,
+   "page": 82,
    "chapter": "Hour nineteen, minute by minute",
-   "intro_page": 82,
+   "intro_page": 81,
    "pages_apart": 1
   },
   {
    "kind": "figure_apart",
-   "page": 95,
+   "page": 94,
    "chapter": "How do we contain this",
-   "intro_page": 94,
+   "intro_page": 93,
    "pages_apart": 1
   },
   {
    "kind": "figure_apart",
-   "page": 97,
+   "page": 96,
    "chapter": "How do we contain this",
-   "intro_page": 96,
+   "intro_page": 95,
    "pages_apart": 1
   },
   {
    "kind": "figure_apart",
-   "page": 97,
+   "page": 96,
    "chapter": "How do we contain this",
-   "intro_page": 96,
+   "intro_page": 95,
    "pages_apart": 1
   },
   {
    "kind": "figure_apart",
-   "page": 100,
+   "page": 99,
    "chapter": "A second team, reading cold",
-   "intro_page": 99,
+   "intro_page": 98,
    "pages_apart": 1
   },
   {
    "kind": "figure_apart",
-   "page": 105,
+   "page": 104,
    "chapter": "Sessions end",
-   "intro_page": 104,
+   "intro_page": 103,
    "pages_apart": 1
   },
   {
    "kind": "figure_apart",
-   "page": 115,
+   "page": 114,
    "chapter": "Principles, and build your own",
-   "intro_page": 114,
+   "intro_page": 113,
    "pages_apart": 1
+  },
+  {
+   "kind": "figure_apart",
+   "page": 120,
+   "chapter": "The tour, at length",
+   "intro_page": 119,
+   "pages_apart": 1,
+   "introduced_by": "a heading"
   },
   {
    "kind": "figure_apart",
@@ -289,14 +290,6 @@
    "page": 122,
    "chapter": "The tour, at length",
    "intro_page": 121,
-   "pages_apart": 1,
-   "introduced_by": "a heading"
-  },
-  {
-   "kind": "figure_apart",
-   "page": 123,
-   "chapter": "The tour, at length",
-   "intro_page": 122,
    "pages_apart": 1,
    "introduced_by": "a heading"
   }
@@ -314,34 +307,21 @@
   "begin_on_a_later_page_than_that_paragraph_ends": 20
  },
  "since_last": {
-  "previous_pdf_pages": 131,
+  "previous_pdf_pages": 129,
   "previous_counts": {
-   "chapter_end_spill": 7,
-   "gap_page": 7,
-   "figure_apart": 27
+   "chapter_end_spill": 8,
+   "gap_page": 6,
+   "figure_apart": 24
   },
   "fixed": [
    {
-    "kind": "gap_page",
+    "kind": "chapter_end_spill",
     "chapter": "Before you start",
     "before": 1,
     "now": 0
-   },
-   {
-    "kind": "figure_apart",
-    "chapter": "Before you start",
-    "before": 3,
-    "now": 0
    }
   ],
-  "new": [
-   {
-    "kind": "chapter_end_spill",
-    "chapter": "Before you start",
-    "before": 0,
-    "now": 1
-   }
-  ],
+  "new": [],
   "remaining": [
    {
     "kind": "chapter_end_spill",
@@ -501,7 +481,7 @@
   "how a page looks beyond how far its content reaches"
  ],
  "paragraphs_found_on_a_page": {
-  "found": 797,
+  "found": 796,
   "of": 817
  }
 }
