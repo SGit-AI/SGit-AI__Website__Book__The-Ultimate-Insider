@@ -104,3 +104,5 @@ RC2 is signed (RP1, CV2): the 30-page edition first, then the 70 and the 150, in
 5 November, 00:36: pass 16: landings traced (21's 'Four came that same first afternoon' holds); script FAILS 1 (92 against the file), writer4's set still pending (`researcher__013`).
 
 5 November, 01:37: pass 17: the opening spread's numbers traced (all hold; 58 slides cut); C132 settled; AP1: 92 leaves the book, final-pass.py retires its Appendix A checks once 92 is gone; script FAILS 1 until the cut.
+
+5 November, 02:35: pass 18: the Wardley quote exact (C111); AP1 now tested on the full book's list (92 is out of it); script FAILS 0, the Appendix A checks retired as notes. Next: Thursday before 10:00.

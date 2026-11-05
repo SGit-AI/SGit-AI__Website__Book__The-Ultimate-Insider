@@ -697,3 +697,11 @@ Chapter 00's new numbers, each traced (conductor 073, writer 280; answered in re
 C132: settled on the editor's "C132: a)" (brief 40). AP1: claims/final-pass.py now retires its two Appendix A checks as a NOTE when no chapter 92 exists (a throwaway copy without 92 confirmed it; its other failures were only the copy not being a git repository); every cited id must still be in the register.
 
 The script at dev's head ee13ce64 (01:36, before any edit of mine): FAILS 1, C132 cited on chapter 18 and not in Appendix A's file (92 equals the file, 63 entries). After my edits (01:5x): FAILS 1, the same, because chapter 92 is still in the book; it closes when 92 is cut (AP1). I do not rebuild the file for a chapter that is leaving.
+
+## RV2 pass 18 (the 02:32 wake, 5 November)
+
+Landings since the 01:32 wake: the writer's 48b2980e (01:33: the Wardley line quoted from the talk, "his word steps back" in his two lines) and writer4's a16fec51 (01:40: the control register retitled Appendix A and opened in his voice, 22 as it stands, 23b). I read the added lines for any figure by grep (no new number or time) and did not read every changed line in full. The one quoted line, "Wardley maps are the best thing I have learned in the last decade. This is absolutely how I think.", is exact against C111 and the talk's transcript at a9c0b49 (19:27 on the recording).
+
+AP1 as built: the publisher took chapter 92 out of the full book's list (manuscript/editions/rc2-150/Book.txt now lists 90, 91, 93, 94) and the file stays in the repository as a source (writer4 020, publisher 010). The script now tests the list, not the file: chapter 92 absent from the list (non-comment lines, by file name) means the Appendix A checks print a NOTE; if the list is missing, it falls back to the file test and says so. The three Appendix A checks (every cited id is in Appendix A's file; 92 equals the file; 92's commands equal the register's) are therefore not run now. Still run: every cited id is in the register; the 55 runnable commands of the register's file run.
+
+The script at dev's head 3dd0c1f0 (02:36, before any edit of mine): FAILS 1, C132 not in Appendix A's file (the old test, which looked for the file). After the change (02:5x): FAILS 0, with the retirement printed as two NOTEs. The two counts differ because of the change of test, not because of a change in the book.
