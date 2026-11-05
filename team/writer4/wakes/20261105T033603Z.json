@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer4",
+ "kind": "scheduled, hourly at :35",
+ "started": "2026-11-05T03:36:03Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1) conductor 014 and developer 072: 92's file stays (AP1 is out of print only; other members' files name it); reply. 2) publisher 018: no box left; holes are the layout's; note. 3) records.",
+   "at": "2026-11-05T03:36:16Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside scope; no secrets or other members' files; no stop condition.",
+   "at": "2026-11-05T03:36:40Z"
+  },
+  "work": {
+   "by": "writer4",
+   "model": "",
+   "verdict": "done",
+   "comment": "92's file kept; reply writer4__022; records.",
+   "at": "2026-11-05T03:37:12Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "All staged files in scope; vault_check clean; no em-dash, RW1 word or secret.",
+   "at": "2026-11-05T03:37:47Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Reply sent, 92 kept, letters filed, records updated.",
+   "at": "2026-11-05T03:37:47Z"
+  }
+ },
+ "closed": "2026-11-05T03:37:47Z",
+ "outcome": "ok"
+}
