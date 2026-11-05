@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "critic1",
- "as_of": "2026-11-05T00:13:00Z",
- "round": 16,
- "state": "active, hourly (RV1), paced to TG2 (Thursday 10:00): 00, 00b, 01, 02, 03, 03b, 04 and 05 proposed (SO1 open, none signed); 06 restructured under SC1, one clean pass; 07 two shoulds; 026 moved with the interviews to writer3's part",
+ "as_of": "2026-11-05T01:16:00Z",
+ "round": 17,
+ "state": "active, hourly (RV1), paced to TG2 (Thursday 10:00): SO1 decided (c), no section sign-off for RC2, so no proposals; HV1 prints his views (005 closed); one should at 07:13 to the writer",
  "cadence": "active",
  "task": "trig_01TcnmdQ5Gz2qJG9EhAu5m4N",
  "task_cron": "CRON_TZ=Europe/London 3 * * * * (schedule.json asks 00; the server anchored the hourly minute to the creation minute, :03)",
@@ -128,80 +128,25 @@
   {
    "what": "taken: conductor__008, writer__264; pass 16: team/critic1/notes/2026-11-05T0012Z__06-restructured-and-07.md; letters 027 (writer), 028 (conductor)",
    "when": "2026-11-05"
+  },
+  {
+   "what": "taken: writer__271; pass 17: team/critic1/notes/2026-11-05T0115Z__hv1-printed-and-so1-c.md; letters 029 (writer: 07:13), 030 (conductor: 005 closed, proposals withdrawn)",
+   "when": "2026-11-05"
   }
  ],
  "next": [
   {
-   "what": "06 and 07 again; 08 and 09 in full; the eight proposed watched",
-   "why": "RV1, SO1, TG2"
+   "what": "07 once 07:13 is whole; 08 and 09 in full; a last pass of 00 to 09 before the aim; the PDF for P36",
+   "why": "RV1, TG2"
   }
  ],
  "asks": [
   {
    "of": "the editor, via the conductor",
-   "what": "026, now on the interviews in writer3's part after SC1"
+   "what": "026, the dropped failures, now on the interviews after chapter 17 (writer3's part)"
   }
  ],
- "proposed_for_signoff": [
-  {
-   "section": "manuscript/rc2/150/04-hour-one-the-empty-project.md",
-   "proposed": "2026-11-04T09:16:00Z",
-   "passes": "07:15 two shoulds applied; 08:15 and 09:15 clean",
-   "to": "conductor, critic1__007",
-   "state": "proposed, not signed (SO1 open)",
-   "mirror": "critic5 read it in full, nothing material (critic5__007)",
-   "pending": "none: security__001, 04:73 may stand"
-  },
-  {
-   "section": "manuscript/rc2/150/03-the-tour.md",
-   "proposed": "2026-11-04T17:12:00Z",
-   "passes": "12:15 and 17:12 clean (re-proposed after the 11:20 withdrawal)",
-   "to": "conductor, critic1__016",
-   "state": "proposed, not signed (SO1 open)"
-  },
-  {
-   "section": "manuscript/rc2/150/03b-the-day-at-a-glance.md",
-   "proposed": "2026-11-04T17:12:00Z",
-   "passes": "12:15 and 17:12 clean (re-proposed after the 11:20 withdrawal)",
-   "to": "conductor, critic1__016",
-   "state": "proposed, not signed (SO1 open)"
-  },
-  {
-   "section": "manuscript/rc2/150/01-slides-as-a-compromise.md",
-   "proposed": "2026-11-04T18:12:00Z",
-   "passes": "17:12 and 18:12 clean, full reads, same text",
-   "to": "conductor, critic1__018",
-   "state": "proposed, not signed (SO1 open)"
-  },
-  {
-   "section": "manuscript/rc2/150/00b-who-is-telling-this-story.md",
-   "proposed": "2026-11-04T19:10:00Z",
-   "passes": "18:12 and 19:10 clean, same text",
-   "to": "conductor, critic1__020",
-   "state": "proposed, not signed (SO1 open)"
-  },
-  {
-   "section": "manuscript/rc2/150/02-inventing-on-principle.md",
-   "proposed": "2026-11-04T19:10:00Z",
-   "passes": "18:12 and 19:10 clean, same text",
-   "to": "conductor, critic1__020",
-   "state": "proposed, not signed (SO1 open)"
-  },
-  {
-   "section": "manuscript/rc2/150/00-start-here.md",
-   "proposed": "2026-11-04T22:10:00Z",
-   "passes": "21:12 and 22:10 clean",
-   "to": "conductor, critic1__024",
-   "state": "proposed, not signed (SO1 open)"
-  },
-  {
-   "section": "manuscript/rc2/150/05-hour-two-the-rules-written.md",
-   "proposed": "2026-11-04T22:10:00Z",
-   "passes": "21:12 and 22:10 clean",
-   "to": "conductor, critic1__024",
-   "state": "proposed, not signed (SO1 open)"
-  }
- ],
+ "proposed_for_signoff": [],
  "passes": {
   "03": {
    "clean_running": 2
@@ -247,6 +192,47 @@
    "section": "manuscript/rc2/150/06-roles-as-a-cast-you-can-read.md",
    "withdrawn": "2026-11-04T23:15:00Z",
    "why": "EI2's two short answers dropped failures now nowhere in the book; a question for the editor (critic1__026)"
+  },
+  {
+   "section": "manuscript/rc2/150/04-hour-one-the-empty-project.md",
+   "withdrawn": "2026-11-05T01:15:00Z",
+   "why": "SO1 decided (c): no section-by-section sign-off for RC2"
+  },
+  {
+   "section": "manuscript/rc2/150/03-the-tour.md",
+   "withdrawn": "2026-11-05T01:15:00Z",
+   "why": "SO1 decided (c): no section-by-section sign-off for RC2"
+  },
+  {
+   "section": "manuscript/rc2/150/03b-the-day-at-a-glance.md",
+   "withdrawn": "2026-11-05T01:15:00Z",
+   "why": "SO1 decided (c): no section-by-section sign-off for RC2"
+  },
+  {
+   "section": "manuscript/rc2/150/01-slides-as-a-compromise.md",
+   "withdrawn": "2026-11-05T01:15:00Z",
+   "why": "SO1 decided (c): no section-by-section sign-off for RC2"
+  },
+  {
+   "section": "manuscript/rc2/150/00b-who-is-telling-this-story.md",
+   "withdrawn": "2026-11-05T01:15:00Z",
+   "why": "SO1 decided (c): no section-by-section sign-off for RC2"
+  },
+  {
+   "section": "manuscript/rc2/150/02-inventing-on-principle.md",
+   "withdrawn": "2026-11-05T01:15:00Z",
+   "why": "SO1 decided (c): no section-by-section sign-off for RC2"
+  },
+  {
+   "section": "manuscript/rc2/150/00-start-here.md",
+   "withdrawn": "2026-11-05T01:15:00Z",
+   "why": "SO1 decided (c): no section-by-section sign-off for RC2"
+  },
+  {
+   "section": "manuscript/rc2/150/05-hour-two-the-rules-written.md",
+   "withdrawn": "2026-11-05T01:15:00Z",
+   "why": "SO1 decided (c): no section-by-section sign-off for RC2"
   }
- ]
+ ],
+ "signoff_rule": "SO1 decided (c), brief 40, 5 November 00:35 UTC: no section sign-off for RC2; the whole book is signed as one at the aim; clean passes kept only as a measure"
 }
