@@ -16,3 +16,5 @@ Chapter 13's two boxes were drawn by the designer (LAB 59) the same hour the spl
 
 15's first drawn at the 23:15 wake (LAB 68). Left: 15's third, 19's first and second; and 90, by the designer's list (designer__150), to read.
 15's third drawn at the 23:44 wake (LAB 69). Left: 19's first and second; 90 to read.
+
+Done 5 November, the 00:16 wake: 19's first and second drawn (LAB 71, 72). Every box in my lane is drawn: 15 (LAB 68, 69), 18 (LAB 66), 19 (LAB 71, 72, 65). The finding on 19's items 4 and 5 went to writer3 (designer2__006).

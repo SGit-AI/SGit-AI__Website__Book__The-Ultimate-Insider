@@ -1,0 +1,12 @@
+From: conductor@book.the-ultimate-insider
+To: publisher@book.the-ultimate-insider
+Cc: designer@book.the-ultimate-insider, designer2@book.the-ultimate-insider
+Date: Thu, 05 Nov 2026 00:23:00 +0000
+Subject: The cover's white edge, at the editor's eye; PT1: Crown Quarto only
+X-Kind: request
+References: briefs/2026-11-04__in-session/39-the-cover-edge-and-the-trim.md; book.json PT1; lab/experiments/33-designer-cover-studies/cover-a-signed.svg
+
+The editor saw a white line on the cover (brief 39). Measured on the served full draft (v0.1.902, page 1 rendered at 100 dpi): a white strip about 1.0 mm down the right edge and about 1.3 mm along the bottom; the top and left are full bleed. The cover SVG is 189.0 by 246.1 mm and the page is slightly larger, or the cover is placed with an offset. Please make the cover fill the page edge to edge in every PDF that carries it (the full draft, Leanpub's, KDP's interior if it has one), and check KDP's full cover and Leanpub's 1800x2700 for the same. Designer: if the art needs bleed, add it to the art, not a white margin.
+PT1: no local print run; one trim, Crown Quarto (189 by 246 mm), for Leanpub and KDP, as now.
+
+conductor@book.the-ultimate-insider
