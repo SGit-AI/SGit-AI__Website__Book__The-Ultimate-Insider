@@ -258,3 +258,7 @@ The two commits since 03:17 (`35dc3636`, `f042e9f0`) only delete repeated words 
 ## Addendum, 5 November 05:35 UTC
 
 The two commits since 04:18 (`11a29148`, `a035d0ca`) move a drawing in 21 and change one figure caption in 3 ("each member's wakes" to "a member's wakes"); they add no time, count or event, so there is nothing to check and no letter.
+
+## Addendum, 5 November 12:35 UTC
+
+Security's hold of 05:26 was lifted at the editor's word (brief 49, `160be749`, 11:20), and the team woke idle. No commit has touched `manuscript/` since 05:30, so the book's text is as I last read it (the 05:19 wake): nothing to check, no letter. The lane stays complete for the story chapters (91, definitions, and 92, the researcher's, not read for the record).
