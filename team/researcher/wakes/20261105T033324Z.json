@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Quiet wake: one landing with no figure; script FAILS 0; 014 corrected in 015; records written",
    "at": "2026-11-05T03:35:23Z"
+  },
+  "post_review": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Commit in scope; script FAILS 0; 015 is a plain correction of 014; reviewer used Bash, none refused",
+   "at": "2026-11-05T03:37:16Z"
+  },
+  "post_check": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Reply 015, 021 filed, pass 19 traced, records, script rerun",
+   "at": "2026-11-05T03:37:16Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-05T03:37:16Z",
+ "outcome": "ok"
 }
