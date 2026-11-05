@@ -60,3 +60,7 @@ The same way, on the PDF the site serves (144 pages, built 22:53 UTC): pages 3 t
 ## At v0.1.902 (5 November, 00:06 UTC), the site's live full draft
 
 The same way, on the PDF the site serves (143 pages, built 23:59 UTC): pages 3 to 40, 7 pages more than 35% blank at the foot, the folio excluded (pages 5, 8, 22, 30, 33, 37 and 39; 7 in the version he liked); width 84%; "Figure to come" boxes 8 in all (12 at 23:07), 2 in pages 3 to 40; "Dramatised" printed 92 times (DM1 not yet in this build). Page 37 is new to the list since SC1 took the interviews out of 06.
+
+## At v0.1.921 (5 November, 01:07 UTC), the site's live full draft
+
+The same way, on the PDF the site serves (147 pages, built 01:06 UTC, after the publisher's 4e1d25f0: the cover fix, 17b and 23b listed, DM1 as tags; Appendix A still in, AP1 not yet applied): pages 3 to 40, 7 pages more than 35% blank at the foot, the folio excluded (pages 5, 8, 16, 23, 34, 38 and 40); width 84%; "Figure to come" boxes 1 in all (8 at 00:06), on page 28 in pages 3 to 40; the cover's white edge at most 1 pixel at 100 dpi on the right and foot (it was 1.0 and 1.3 mm). The publisher's own whole-book build (068, its local count, not this measure): 145 pages, 1 box, 10 pages more than 35% blank inside a chapter.
