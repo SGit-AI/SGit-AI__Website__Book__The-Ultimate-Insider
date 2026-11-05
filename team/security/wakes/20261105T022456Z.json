@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled wake",
+ "started": "2026-11-05T02:24:56Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "go",
+   "comment": "93 changed only title and opening (a16fec51); the 23b exception is exact path and shape, uppercase refused. 076 names only the masked abp-review shot.",
+   "at": "2026-11-05T02:26:05Z"
+  },
+  "pre_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "go",
+   "comment": "A real run is safe on the reviewed tree (8fb23384): exact path and lowercase shape, uppercase and lookalikes refused. Conditions: the guard test before the run; push only after the page scan passes.",
+   "at": "2026-11-05T02:26:38Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "23b exception cleared to run (075); OS1 shot names for SHOT_CLEARED (076); 93's title checked; hour's changes, LAB 74 and strip-10-07 clear.",
+   "at": "2026-11-05T02:27:34Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

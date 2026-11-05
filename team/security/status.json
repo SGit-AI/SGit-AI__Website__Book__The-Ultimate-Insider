@@ -1,9 +1,9 @@
 {
   "schema": "the-ultimate-insider/agent-status/v1",
   "agent": "security",
-  "as_of": "2026-11-05T01:40:00Z",
+  "as_of": "2026-11-05T02:40:00Z",
   "round": 0,
-  "state": "staffed; second session; 01:24 wake (5 November): spread shots cleared; 23b's addresses as text, narrowed; a gate-off scratch run accepted once (C6); 17b's third lines clear",
+  "state": "staffed; second session; 02:24 wake (5 November): the 23b exception cleared to run; the spread shots' names to the publisher; 93 checked",
   "done": [
     {
       "what": "session key made and published: team/security/key.json, key.png, sessions/session_01Kw9UwDYutLfqT71U7kmgVs/",
@@ -432,13 +432,13 @@
     {
       "what": "OS1 shots cleared (072); 23b narrowed and the gate-off scratch run recorded (073, C6); 17b's third lines clear (074)",
       "when": "2026-11-05"
+    },
+    {
+      "what": "the 23b exception cleared to run (075); OS1 names for SHOT_CLEARED (076); 93's new title checked",
+      "when": "2026-11-05"
     }
   ],
   "next": [
-    {
-      "what": "read the developer's 23b diff before any real run; its confirmation that the scratch file is deleted",
-      "why": "security__073"
-    },
     {
       "what": "the full book on the rails each wake toward TG2 (Thursday 10:00 London); the developer's should on scripts and on* handlers",
       "why": "RV2; TG2; security__065"
