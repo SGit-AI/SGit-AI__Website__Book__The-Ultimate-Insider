@@ -114,3 +114,5 @@ The revised 150/22 and 70/14 read after the post-check: clear (still a plan, not
 **5 November, 02:24 wake.** The developer may run the builder with the 23b exception (exact path and shape; links to text; tests ok; scratch files deleted) (security__075). The publisher has the five spread shots' exact names for SHOT_CLEARED (security__076). 93's new title and opening checked: rows unchanged. The hour's changes and LAB 74, ruv-sgit's strip clear.
 
 **5 November, 03:24 wake.** The online view rebuilt with 23b as text; its 46 pages pass the page guard (security ran it); the builder's cleanup of pages no longer built, limited to rc2-150 and after the guards, accepted (security__077). SHOT_CLEARED holds the five spread shots by name. 93's new opening clear. The hour's changes and five drawings clear.
+
+**5 November, 04:24 wake.** talk__player.jpg cleared by name; LAB 75's five embedded pictures are exactly the five cleared shots; a should that an embedding script refuse anything not on SHOT_CLEARED (security__078). The hour's changes clear.

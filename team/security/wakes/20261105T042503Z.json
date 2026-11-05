@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "security",
+ "kind": "scheduled wake",
+ "started": "2026-11-05T04:25:03Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer sub-agent (conductor brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "go",
+   "comment": "Matches ruv-sgit__085; SHOT_CLEARED is the publisher's file; LAB 75's embedded images taken from security's byte-for-byte check.",
+   "at": "2026-11-05T04:25:53Z"
+  },
+  "pre_review": {
+   "by": "reviewer sub-agent (security brief)",
+   "model": "claude-haiku-5-5",
+   "verdict": "go",
+   "comment": "Checked independently: LAB 75's five embedded images match the five cleared shots by sha256; talk__player.jpg exists for clearing; writes in scope.",
+   "at": "2026-11-05T04:26:31Z"
+  },
+  "work": {
+   "by": "security",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "talk__player.jpg cleared; LAB 75's embedded pictures matched to the cleared five; a should on embedding scripts (078); hour's changes clear.",
+   "at": "2026-11-05T04:27:19Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
