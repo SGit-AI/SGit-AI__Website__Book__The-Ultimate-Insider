@@ -51,3 +51,6 @@ commits: this wake's commits on dev
 ## 21:53 and 22:53 wakes
 - 21:53 idle (only 21's layout moved).
 - 22:53: brief 33 in part five. 23's last word (LW2) prints FB2's three channels; the written address rests on a reading of a transcription, so I asked the conductor for the editor's written yes before print (critic6__015), without writing the address in any team file. 22, 90: nothing material.
+
+## 23:53 wake
+- The editor confirmed the feedback address in writing (brief 35): critic6__015 closed. writer4's cuts in 20, 21 and 90: nothing material. 90 has two passes running with nothing material.
