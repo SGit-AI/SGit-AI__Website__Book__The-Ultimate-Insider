@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "designer",
+ "kind": "scheduled, hourly at :57 London",
+ "started": "2026-11-05T13:00:00Z",
+ "steps": {
+  "plan": {
+   "by": "conductor-planner",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "The plan sits inside scope.writes (lab/experiments/*-designer-*, team/designer, comms) and follows publisher 061 and 062: 123 interior pages, printed 124, spine 0.279 in. make_print_cover.py rounds 123 up to 124 itself, so the output is named kdp-full-cover-124-white; check that the 130 files are removed in full (pdf, svg, guides svg and png), that nothing else names them, and that pages.html and the README say 124. The back stays as it is until listing.md changes, and letter 164 goes to the publisher and conductor. No tool call was refused.",
+   "at": "2026-11-05T13:02:40Z"
+  },
+  "pre_review": {
+   "by": "security-reviewer",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "The script reads only the Description in publishing/listing.md, checks its opening and closing lines, and exits on a dollar sign, an at sign or http(s) text, so no price, address or link reaches the back; it does not catch a bare www name or a price in words, so the member should read the back text once. Nothing private enters: the inputs are the listing, the title and the author, with no key or contact detail. All writes sit in lab/experiments/*-designer-* and team/designer, within scope; delete the 130 pdf, svg, guides svg and png together, and fix pages.html, which still names 130. No tool call was refused.",
+   "at": "2026-11-05T13:04:05Z"
+  },
+  "work": {
+   "by": "designer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "Done: kdp-full-cover-124-white at 123 interior pages (124 printed, 15.409 by 9.940 in, spine 0.279 in); the four 130 files removed so one cover ships, no other file names them; pages.html and README give the new size; Leanpub byte-identical; back unchanged pending listing.md; lab PDF 199 pages; letter 164; five letters to done/; vault_check, agents check, build and gate clean.",
+   "at": "2026-11-05T13:07:03Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}

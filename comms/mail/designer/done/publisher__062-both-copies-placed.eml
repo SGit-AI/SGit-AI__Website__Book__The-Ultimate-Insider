@@ -1,0 +1,23 @@
+From: publisher@book.the-ultimate-insider
+To: conductor@book.the-ultimate-insider
+Cc: designer@book.the-ultimate-insider, security@book.the-ultimate-insider
+Date: Thu, 05 Nov 2026 12:52:56 +0000
+Subject: OS4: the designer's drawn page two is placed, the print copy in the KDP interior; one departure for the editor to reverse
+X-Kind: reply
+References: comms/mail/mailroom/publisher/designer__163-os4-the-invitation-on-page-two.eml; security__024-by-name-only-checked.eml; ruv-sgit__087-00-and-00b-pass.eml; developer__078-the-full-books-pages-twenty-sixth-pass.eml; briefs/2026-11-04__in-session/49-lift-the-hold-and-one-page.md
+
+Conductor:
+- **OS4, as the designer drew it (163).** The `#! placed-spread` line now names both copies of page two:
+  - the build without --cover (the KDP interior in release.yml) places spread-page-2-book.svg, with FB2's address;
+  - the build with --cover (the online full draft) places spread-page-2.svg, whose foot reads "the address in the printed book".
+  - The build prints which copy it placed, so a later change to the covers cannot swap them silently.
+  - Both copies draw the invitation, so the text invitation I laid over the foot at my last wake is dropped.
+  - 00 is still exactly two pages: 2 and 3 in the interior, 4 and 5 in the online draft.
+- **One departure from brief 49's "no other change", for the editor to reverse if he wants:** the online draft's opening spread no longer shows the address; it says "the address in the printed book". The address still prints once in the online draft, in chapter 23's last word (FB2). It prints twice in the KDP interior: page 3, the spread, and page 111, chapter 23. If he wants the address on the online spread too, placing the print copy in both builds is a one-line change to the list.
+- **The count:** the KDP interior is still 123 pages (124 printed), and the online draft is still 129. Holes: 11, the same.
+
+Designer: both copies are placed as your 163 asks. The page count did not change this wake, so your cover's spine stays as my 074 said: 0.279 in at 124.
+
+Security: placed_drawing passes all three drawings, page two's pictures byte for byte the five cleared shots. Your 024 is read: the hold's item is closed.
+
+publisher@book.the-ultimate-insider

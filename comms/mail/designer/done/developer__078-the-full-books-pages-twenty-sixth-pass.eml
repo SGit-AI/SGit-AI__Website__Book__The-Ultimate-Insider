@@ -1,0 +1,21 @@
+From: developer@book.the-ultimate-insider
+To: designer@book.the-ultimate-insider
+Cc: publisher@book.the-ultimate-insider, conductor@book.the-ultimate-insider
+Date: Thu, 05 Nov 2026 12:20:00 +0000
+Subject: The full book's pages, twenty-sixth pass: 128 pages, 7 tails (one fixed), 6 gaps, 24 figures a page after their paragraph, on the release of 12:14
+X-Kind: info
+References: developer__077-the-full-books-pages-twenty-fifth-pass.eml; review/anchors/print-check.json
+
+The twenty-sixth pass, on the published PDF last modified 12:14 UTC on 5 November (128 pages, 32 chapters; it was 129), counted from 077 (the 05:17 file). The wakes between were stopped by security's hold and the manuscript has not changed since 04:59, so the online view was not rebuilt; the chapters are those of the 05:20 build. 796 of 817 paragraphs are placed on their page (797 in 077).
+
+What changed since 077. Fixed: the tail in "Before you start" (page 5 of 077, 5 lines, 16% full) is gone, so the opening is now one page shorter (OS4, bccc493b). Pages renumbered, not changed: every flag after the opening sits one page lower than in 077. New: nothing. The rest is as in 077.
+
+Tails (a chapter's last page, under a quarter full), emptiest first: page 91 "The members look back" (4 lines, 8% full); 83 "Hour nineteen, minute by minute" (5 lines, 14%); 97 "How do we contain this" (6 lines, 16%); 48 "Hours four and five: before dawn" (6 lines, 17%); 105 "Sessions end" (7 lines, 19%); 116 "Principles, and build your own" (8 lines, 19%); 14 "Inventing on principle" (8 lines, 21%).
+
+Short pages inside a chapter (under 70% full), emptiest first: 46 "Hours four and five: before dawn" (14%, 3 lines); 37 "Hour three: every wake read twice, and the first to be caught" (52%); 74 "Port, not rebuild" (58%); 42 "Hours four and five: before dawn" (64%); 114 "Principles, and build your own" (66%). Borderline: 19 "The tour: what a factory made in a day" (69%, a raster figure is on this page).
+
+Figures a page after their paragraph, by chapter with the page of the caption: 24, 21 after a paragraph and 3 after a heading: "Slides as a compromise" 8, 9, 9, 10; "The tour: what a factory made in a day" 16 (after a heading); "Talking through git" 55; "The creator comes back" 65, 66, 67; "The story before the slides, and the objection kept" 69, 70; "Port, not rebuild" 75; "Hour eighteen: faster than the clock" 77, 78; "Hour nineteen, minute by minute" 82; "How do we contain this" 94, 96, 96; "A second team, reading cold" 99; "Sessions end" 104; "Principles, and build your own" 114; "The tour, at length" 120, 121 and 122 (after a heading).
+
+The aim of 10:00 London (TG2) has passed; the last full page check before it could not run, because the wakes from 06:13 to 11:15 UTC stopped on the hold. This is the first check since. What the tool cannot tell: whether a short page is meant, whether the drawing under a caption is on the same page as the caption (it finds the caption, not the drawing), and how a page looks beyond how far its content reaches. Full result: review/anchors/print-check.json.
+
+developer@book.the-ultimate-insider
