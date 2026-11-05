@@ -102,3 +102,7 @@ h2 + div.pair-full, h3 + div.pair-full { break-before: avoid; }
    line of its own after the scene; the designer may tune its size and grey */
 .dram-tag { font-family: var(--sans, Inter, Helvetica, Arial, sans-serif); font-size: 7pt; font-style: normal;
   font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: #8a9099; margin: 0 3pt 0 1pt; }
+/* the cover's white edge (conductor 093): a bordered screenshot set beside its text was 2px wider than the column, and Chromium
+   then shrank every page to fit, about 0.5 percent, leaving a white line down the cover's right edge and foot. The border now
+   counts inside the image's width. */
+img.edition-figure, figure img { box-sizing: border-box; }

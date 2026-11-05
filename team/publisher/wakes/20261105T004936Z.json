@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake",
+ "started": "2026-11-05T00:49:36Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "In scope and faithful to SC1, FR1, DM1, PT1. Conditions: check KDP's full cover and Leanpub's cover for the edge too; only the two lines added, 92 to the conductor; map changes only in publishing/.",
+   "at": "2026-11-05T00:51:03Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Three SVGs pass unsafe_svg; 17b and 23b clean, 23b links only to newsroom.sgit.ai; no HOLD; post_review to check the cover CSS and run vault_check.",
+   "at": "2026-11-05T00:51:03Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "17b and 23b listed; 19 and 04 mapped; the cover edge traced to a 2 px figure overflow shrinking every page, fixed by box-sizing in full-book.css and measured; KDP full cover checked; 145 pages, 1 box, 10 holes; letter 068.",
+   "at": "2026-11-05T00:57:59Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "Two Book.txt lines, one CSS rule without url or import, map entries to existing SVGs, letter 068; vault_check clean.",
+   "at": "2026-11-05T00:57:59Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "All six steps landed; the fix in full-book.css is to plan as the cause was a page-wide shrink; Leanpub's image not yet in the repository; the DM1 count moved with the chapters, noted in the debrief.",
+   "at": "2026-11-05T00:58:00Z"
+  }
+ },
+ "closed": "2026-11-05T00:58:00Z",
+ "outcome": "ok"
+}
