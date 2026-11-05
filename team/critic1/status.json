@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "critic1",
- "as_of": "2026-11-05T02:16:00Z",
- "round": 18,
- "state": "active, hourly (RV1), paced to TG2 (Thursday 10:00): the opening spread (OS1) read, clean; one should in 00b; SO1 (c), no proposals",
+ "as_of": "2026-11-05T03:16:00Z",
+ "round": 19,
+ "state": "active, hourly (RV1), paced to TG2 (10:00): every chapter of 00 to 09 now read in full at least once; 08 and 09 one should each; no proposals (SO1 c)",
  "cadence": "active",
  "task": "trig_01TcnmdQ5Gz2qJG9EhAu5m4N",
  "task_cron": "CRON_TZ=Europe/London 3 * * * * (schedule.json asks 00; the server anchored the hourly minute to the creation minute, :03)",
@@ -136,11 +136,15 @@
   {
    "what": "taken: writer__286; pass 18: team/critic1/notes/2026-11-05T0215Z__the-opening-spread.md, 1 should, 2 could; letter 031",
    "when": "2026-11-05"
+  },
+  {
+   "what": "taken: conductor__009, writer__290; pass 19: team/critic1/notes/2026-11-05T0315Z__08-and-09.md, 2 should, 3 could; letter 032",
+   "when": "2026-11-05"
   }
  ],
  "next": [
   {
-   "what": "00b once the repeat is weighed; 08 and 09 in full; a last pass of 00 to 09 before 10:00",
+   "what": "08 and 09 once weighed; a last pass of 00 to 09 before 10:00 (TG2), the PDF for P36 once more",
    "why": "RV1, TG2"
   }
  ],
@@ -163,12 +167,10 @@
    "mirror": "critic5 clean, its 007"
   },
   "00": {
-   "clean_running": 1,
-   "note": "the opening spread, new text (OS1)"
+   "clean_running": 2
   },
   "00b": {
-   "clean_running": 0,
-   "note": "one should: the voices restated after the spread"
+   "clean_running": 1
   },
   "01": {
    "clean_running": 2
@@ -185,6 +187,14 @@
   },
   "07": {
    "clean_running": 1
+  },
+  "08": {
+   "clean_running": 0,
+   "note": "first full critic1 read 03:15, one should"
+  },
+  "09": {
+   "clean_running": 0,
+   "note": "first full critic1 read 03:15, one should"
   }
  },
  "withdrawn": [

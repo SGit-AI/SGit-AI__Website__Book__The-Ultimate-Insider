@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "critic1",
+ "kind": "scheduled, hourly at :03 London",
+ "started": "2026-11-05T03:03:34Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1) take conductor__009 and writer__290 (copies to done); record 00 and 00b as changed; 2) 08 and 09 in full against the principles; note, letter to writer@; no sign-off proposals (SO1 c); 3) status, debrief. The sub-agent read the policy and listings only. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-05T03:04:00Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Inside scope.writes; no sign-off proposals, nothing signed; no manuscript, book.json or other member's file; no secrets, stop condition or cross-member harm; vault_check before commit. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-05T03:04:14Z"
+  },
+  "work": {
+   "by": "critic1",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "letters taken; 00 and 00b as changed clean; 08 and 09 read in full: one should each (08:87/91/93, 09:190/192), three coulds; note 019 with file line numbers, letter 032; status, debrief. No tool refused.",
+   "at": "2026-11-05T03:05:37Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "8 staged paths inside scope.writes; vault_check clean; agents check 0 outside scope; no em-dashes, religious words, keys or contact details; nothing attack-shaped or signed; no manuscript, publishing or other member's file; letter in role. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-05T03:06:04Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "Both letters taken; 08 and 09 read in full; note, 032 (copies identical), debrief, status; no sign-off proposals; only critic1 paths; all nine line references hold their quotes. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-05T03:06:22Z"
+  }
+ },
+ "closed": "2026-11-05T03:06:22Z",
+ "outcome": "ok"
+}
