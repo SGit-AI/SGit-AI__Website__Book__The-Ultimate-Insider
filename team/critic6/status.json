@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "critic6",
- "as_of": "2026-11-05T00:01:00Z",
- "round": 15,
- "state": "active, hourly at :52 London (RV2, ACC1): FB2 confirmed by the editor (critic6__015 closed); every page of part five at two or more mirror passes with nothing material, bar 22, which waits on the editor",
+ "as_of": "2026-11-05T01:02:00Z",
+ "round": 16,
+ "state": "active, hourly at :52 London (RV2, ACC1): 22 settled by the editor (CH22); SO1 (c), no section sign-off for RC2; 23b (new) one should (links vanish in print, critic6__016); the rest of part five at two or more mirror passes with nothing material",
  "cadence": "active",
  "task": "trig_01TnPuR9bjbfdnLjD3RmGebv",
  "session": "session_01Kw9UwD4c333cnFjKXTDW1e",
@@ -83,20 +83,18 @@
   {
    "what": "FB2 confirmed (brief 35), critic6__015 closed; writer4's cuts in 20, 21, 90 nothing material: team/critic6/notes/2026-11-05T0000Z__fb2-confirmed-and-cuts.md; no letter",
    "when": "2026-11-05"
+  },
+  {
+   "what": "23b read (one should, critic6__016); 22 closed by CH22; 92 out of the book (AP1): team/critic6/notes/2026-11-05T0100Z__23b-and-22.md",
+   "when": "2026-11-05"
   }
  ],
  "next": [
   {
-   "what": "23 after writer4 meets the must; 91 and 93 a second clean pass; 22 when the editor answers",
-   "why": "ROLE.md, the loop; SO1 open"
+   "what": "23b after writer4's fix; 93 when it becomes Appendix A (AP2); any change in part five until the book is signed as one (TG2)",
+   "why": "ROLE.md, the loop; SO1 (c)"
   }
  ],
- "asks": [
-  {
-   "of": "conductor",
-   "what": "chapter 22 as the editor's plan, yes or no",
-   "ref": "writer4__005"
-  }
- ],
+ "asks": [],
  "sign_off_proposed": []
 }

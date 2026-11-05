@@ -43,7 +43,7 @@
 
 `%% record: C107 af0010b team/researcher/wakes/20261029T041003Z.json manuscript/rc2/150/08-hours-four-and-five-before-dawn.md ("The argument with a reviewer")`
 
-## Three letters in a row
+## One request, three sessions
 
 **Clock:** Hours ten and eleven.
 
