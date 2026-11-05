@@ -1,6 +1,6 @@
 # Appendix A: the control register
 
-**Narrator.** These are Agent Behaviour Policies in practice, the kind we are building at RiskMandate: for each agent, what it is for, what it can reach and what stops it. This appendix gives the two teams' controls in that shape, with what each one stopped and what it missed.
+**Narrator.** These are Agent Behaviour Policies in practice, the kind we are building at RiskMandate: the rules that say, for each agent, what it is for, what it can reach and what stops it. This appendix lists the controls that carried those rules for the two teams, with what each one stopped and what it missed.
 
 `%% record: book.json AP2 (the editor, brief 40: the control register becomes Appendix A, opened by what these are, the Agent Behaviour Policies at RiskMandate) PN1 (the names, as chapter 1 gives them)`
 
