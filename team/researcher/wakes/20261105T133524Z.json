@@ -1,0 +1,31 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "researcher",
+ "kind": "scheduled wake",
+ "started": "2026-11-05T13:35:24Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "Plan in scope; page-two numbers read from chapter 00 by the generator, checked from the script; reviewer used Bash, none refused",
+   "at": "2026-11-05T13:36:49Z"
+  },
+  "pre_review": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "go",
+   "comment": "In scope; corrected my premise: make_spread.py checks the count and shape of the four numbers, not their values, so I traced the four values in chapter 00 myself; reviewer used Grep and Read, none refused",
+   "at": "2026-11-05T13:37:53Z"
+  },
+  "work": {
+   "by": "researcher",
+   "model": "",
+   "verdict": "done",
+   "comment": "Chapter 00's four numbers traced directly (the generator checks only their count); a late catch: the 02:31 landing was untraced until now, both lines hold; script FAILS 0 before and after; records written",
+   "at": "2026-11-05T13:38:13Z"
+  }
+ },
+ "closed": null,
+ "outcome": null
+}
