@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "historian",
+ "kind": "scheduled wake",
+ "started": "2026-11-05T00:19:47Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "In scope; no HOLD; read 17b against timeline/interviews and the talk clone; Cc conductor on the writer3 letter; cite sources for the chapter 17 rewrite. Tool: Bash.",
+   "at": "2026-11-05T00:20:13Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "go",
+   "comment": "Planned writes inside the historian's scope; no HOLD; Cold-Read untouched; vault_check before commit. It did not verify the chapter times. Tool: Bash.",
+   "at": "2026-11-05T00:20:30Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "clean",
+   "comment": "No secrets, keys, model names, em-dashes or religious words; nothing toward Cold-Read; writes in scope; copies of letter 084 identical; vault_check clean. Tool: Bash.",
+   "at": "2026-11-05T00:22:34Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent, TA1)",
+   "model": "a smaller model",
+   "verdict": "as-planned",
+   "comment": "R37, R38, letter 084 (Cc conductor; the conductor's copy added), the filed letter, debrief and status present; the closed field is set by close.",
+   "at": "2026-11-05T00:22:35Z"
+  },
+  "work": {
+   "by": "historian",
+   "model": "claude-sonnet-5-5",
+   "verdict": "done",
+   "comment": "17b and 17's rewrite checked; R37 and R38; letter 084; one letter filed",
+   "at": "2026-11-05T00:22:35Z"
+  }
+ },
+ "closed": "2026-11-05T00:22:35Z",
+ "outcome": "ok"
+}
