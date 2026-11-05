@@ -563,6 +563,11 @@ def main(talk_path):
                                        'for a QR code in print. Written by review/tools/make_editions.py; an id holds while the chapter keeps its place and scenes.',
                               'site': SITE, 'targets': targets}, indent=1, ensure_ascii=False) + '\n')
     print(f'qr targets: {len(targets)} -> {QR.relative_to(ROOT)}')
+    for d in sorted(x for x in PAGES.iterdir() if x.is_dir() and x.name == 'rc2-150'):   # a page of the full book this run no longer builds (a chapter taken out) must not stay on the site; the older editions stay as they are (conductor__038)
+        for old in (REAL_PAGES / d.name).glob('*.html') if (REAL_PAGES / d.name).is_dir() else []:
+            if not (d / old.name).exists():
+                print(f'removed the page {old.relative_to(ROOT)}: no longer in the edition')
+                old.unlink()
     shutil.copytree(PAGES, REAL_PAGES, dirs_exist_ok=True)           # every guard has passed
     shutil.rmtree(PAGES)
     PAGES, OUT = REAL_PAGES, REAL_PAGES / OUT.name
