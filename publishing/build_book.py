@@ -68,6 +68,9 @@ def directives(book=None):
             if re.match(r"\s*#!\s*dramatised:\s*tag\s*$", line):
                 FIT["dramatised"] = True
                 continue
+            if re.match(r"\s*#!\s*speaker-tags\s*$", line):
+                FIT["speaker_tags"] = True
+                continue
             m = re.match(r"\s*#!\s*cast-bars:\s*(.+?)\s*$", line)
             if m:  # the designer's map of a drawn cast bar per chapter (designer 135): a .json directly in lab/tools/book/
                 path = os.path.realpath(os.path.join(ROOT, m.group(1)))
@@ -173,6 +176,17 @@ def try_this_cards(text):
 
 
 DRAM = {"marks": 0, "tags": 0, "dropped": 0}
+
+
+SPEAKER_TAG = re.compile(r"^(\s*\*\*[A-Za-z][A-Za-z-]*\.?\*\*)\s*\*\(this book's\)\*", re.M)
+
+
+def speaker_tags(text):
+    """"#! speaker-tags" (TC1, the editor, 5 November 2026): a speaker line's italic "*(this book's)*" right after the
+    name, at the line's start, prints as a small fixed tag (.speaker-tag), as the designer's tags.css draws it. Run after
+    the dramatised step, which reads the parenthesis as the speaker's mood and sets its own tag after it. The files are
+    unchanged."""
+    return SPEAKER_TAG.sub(r"\1 [this book's]{.speaker-tag}", text)
 
 
 def dramatised_tags(text):
@@ -452,6 +466,8 @@ def main():
                 raw = drop_sections(raw, drop)
             if FIT.get("dramatised"):
                 raw = dramatised_tags(raw)
+            if FIT.get("speaker_tags"):
+                raw = speaker_tags(raw)
             if FIT.get("card"):
                 raw = try_this_cards(raw)
             if FIT.get("blocks"):
