@@ -46,6 +46,7 @@ PLACED = {
     "rc2/150/04-hour-one-the-empty-project.md": {
         "one banner, as a session prints it": ("lab/experiments/55-designer-findings-cards/ch4-banner-pair.svg",
                                                "the writer's own banners (its debrief of 4 November), drawn (LAB 55)"),
+        "the brief and the reality file as they stood": ("lab/experiments/70-designer-brief-and-reality/brief-and-reality.svg", "the designer's weight (LAB 70), C125"),
         "one member's folder, opened": ("lab/experiments/54-designer-first-pages/member-folder.svg", "the designer's folder (LAB 54)"),
     },
     "rc2/150/06-roles-as-a-cast-you-can-read.md": {

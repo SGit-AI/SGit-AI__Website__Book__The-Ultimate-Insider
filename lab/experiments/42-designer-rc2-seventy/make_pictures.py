@@ -650,7 +650,7 @@ def two_commits(clone):
         out.append(("H", y + 9))
     H = max(v for _, v in [o for o in out if isinstance(o, tuple)])
     out = [o.replace("{H}", f"{H:.1f}") for o in out if isinstance(o, str)]
-    out.append(t(0, H + 5, "each note as chapter 10 quotes it, checked against its commit; times from git at 298be4e", 400, mc.MUTED))
+    out.append(t(0, H + 5, "each note checked against its commit, shortened where marked; times from git at 298be4e", 400, mc.MUTED))
     return mc.svg(164, round(H + 6.8, 1), "".join(out), "Two commits as cards, each with its To- line highlighted, both read at one wake; one note followed, one not")
 
 

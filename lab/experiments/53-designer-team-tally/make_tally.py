@@ -39,7 +39,7 @@ def main():
         col = mc.CAST[k][0]
         out.append(f'<rect x="{x:.1f}" y="{y:.1f}" width="{w}" height="{h}" rx="1.8" fill="#fff" stroke="{mc.FILL2}" stroke-width=".45"/>'
                    f'<rect x="{x:.1f}" y="{y:.1f}" width="2.2" height="{h}" rx="1" fill="{col}"/>'
-                   f'<g transform="translate({x + 1.6:.2f} {y + 1.2:.2f}) scale(.42)">{mc.head(k)}</g>'
+                   f'<g transform="translate({x + 1.6:.2f} {y + 1.2:.2f}) scale(.42)">{mc.head(k)}{mc.over_face(k, col)}{mc.neckwear(k, col) if k == "deck" else ""}</g>'
                    + t(x + 20, y + 8.4, k, 800)
                    + t(x + 20, y + 19.6, m[k]["commits"], 800, mc.INK, size=7.2)
                    + t(x + 20, y + 24.4, "commits", 400, mc.MUTED)

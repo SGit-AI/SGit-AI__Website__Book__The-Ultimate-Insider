@@ -139,7 +139,7 @@ def relayed_word():
            f'<path d="M88 20 C100 6 116 4 128 10" fill="none" stroke="{mc.ACCENT}" stroke-width=".9" marker-end="url(#r2)"/>',
            t(108, 5, "a question, straight to him", 700, mc.ACCENT, "middle"),
            g(mc.editor_figure("A"), 128, 6, .5),
-           t(0, 48, frags[0], 400, mc.MUTED), t(0, 52.4, "Studio: “...so I asked him myself.” (chapter 3)", 400, mc.MUTED)]
+           t(0, 48, frags[0], 400, mc.MUTED), t(0, 52.4, "Studio: “...so I asked him myself.” (chapter 15)", 400, mc.MUTED)]
     defs = (f'<defs><marker id="r" viewBox="0 0 6 6" refX="5" refY="3" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0 L6 3 L0 6 z" fill="{mc.MUTED}"/></marker>'
             f'<marker id="r2" viewBox="0 0 6 6" refX="5" refY="3" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0 L6 3 L0 6 z" fill="{mc.ACCENT}"/></marker></defs>')
     return mc.svg(164, 54, defs + "".join(out), "A word relayed from one agent stops at studio's door; studio asks the editor himself")
