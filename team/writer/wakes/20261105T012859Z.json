@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer",
+ "kind": "scheduled wake",
+ "started": "2026-11-05T01:28:59Z",
+ "steps": {
+  "plan": {
+   "by": "conductor (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Go with conditions: ST2 in 07:43 and 09:147 only, their HV1 records cite ST2; the Wardley quote exact to C111 with 'apart from GenAI' as his note after, CK1's record line and 01:83's 'added after the day' updated; critic1 029 done in critic5's form; R39 declined (OS2 confirmed), the nine hours told in 08's cast bar.",
+   "at": "2026-11-05T01:31:51Z"
+  },
+  "pre_review": {
+   "by": "security (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "go",
+   "comment": "Go: no secrets; valve untouched; no new number (19:27 and a9c0b49 registered, C111); REALITY.md append only; vault_check, em-dash and RW1 grep, build, gate, scope; push on green.",
+   "at": "2026-11-05T01:31:52Z"
+  },
+  "work": {
+   "by": "writer",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "ST2 in 07 and 09 (records cite it); 01's Wardley quote exact to C111, GenAI note after, CK1 record and a9c0b49 'added after the day'; critic1 029 done; R39 declined (OS2). Letters 284 to 287.",
+   "at": "2026-11-05T01:33:19Z"
+  },
+  "post_review": {
+   "by": "security (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "clean",
+   "comment": "Diff 55d1e76..b3e904fe clean: the Wardley quote exact to C111, the GenAI note outside it; only 07:43 and 09:147 back to 'steps'; no new number, no dash or RW1 word, valve untouched; REALITY.md append only.",
+   "at": "2026-11-05T01:35:06Z"
+  },
+  "post_check": {
+   "by": "conductor (reviewer agent)",
+   "model": "claude-opus-5-5",
+   "verdict": "as-planned",
+   "comment": "ST2, the exact quote, CK1's record, critic1's reply and R39's decline all as planned; scope 0; nothing after the commit.",
+   "at": "2026-11-05T01:35:06Z"
+  }
+ },
+ "closed": "2026-11-05T01:35:06Z",
+ "outcome": "ok"
+}

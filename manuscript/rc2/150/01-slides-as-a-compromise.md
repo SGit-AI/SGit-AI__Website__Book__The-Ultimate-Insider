@@ -62,7 +62,7 @@
 
 `%% figure brief: The talk's own page, from the librarian's screenshot index/talk-site/shots/studio-ports__abp-review__masked.jpg, if the build's rule for screenshots allows it.`
 
-`%% record: CK1 (signed, brief 38: p8 as the newsroom proposed; p10 as said in the talk, with "apart from GenAI" at his word) C102 (the building, at 15:50 on the recording) C109 (the policy page, at 58:53; the passage goes on to say every agent's scope was defined, and by the end of the day 8 of 10 policies were agreed, C072) a9c0b49 (the talk as given, its transcript added after the day) studio-ports/abp-review/`
+`%% record: CK1 (signed, brief 38: p8 as the newsroom proposed; p10 quoted exactly from the talk's transcript, C111, with "apart from GenAI" as his note after the talk; librarian__029) C102 (the building, at 15:50 on the recording) C109 (the policy page, at 58:53; the passage goes on to say every agent's scope was defined, and by the end of the day 8 of 10 policies were agreed, C072) a9c0b49 (the talk as given, its transcript added after the day) studio-ports/abp-review/`
 `%% band: Dramatised from the talk as I gave it.`
 *Dramatised.*
 
@@ -76,11 +76,11 @@
 
 `%% record: C069 (the talk's length, about 87 minutes, from its transcript) C100 (due at 19:00, London) a9c0b49 5d13d72 (18:29, motion's commit: the change I asked for at 18:26)`
 
-**Narrator.** And one more, about twenty minutes in: a Wardley map, the kind of picture I would have struggled to explain with a still, because what matters in it is where things move to. As I said in the talk, Wardley maps are the best thing I have learned in the last decade, apart from GenAI; it is how I think. A Wardley map is a picture of a system: what a user needs at the top, what that depends on below it, and how settled each part is, from left to right. You map the system, this needs this, which needs this, and then you map how each part evolves, from genesis to custom built, to product, to commodity.
+**Narrator.** And one more, about twenty minutes in: a Wardley map, the kind of picture I would have struggled to explain with a still, because what matters in it is where things move to. As I said in the talk, "Wardley maps are the best thing I have learned in the last decade. This is absolutely how I think." I would add now: apart from GenAI. A Wardley map is a picture of a system: what a user needs at the top, what that depends on below it, and how settled each part is, from left to right. You map the system, this needs this, which needs this, and then you map how each part evolves, from genesis to custom built, to product, to commodity.
 
 **Narrator.** You will see this kind of map again in part two, drawn for the factory itself.
 
-`%% record: C111 (19:27 on the recording; the passage turning next to open source; the Creative Commons line of the talk left out here, the researcher's sources giving CC BY-SA 4.0 for the wardleymaps.com page) a9c0b49`
+`%% record: C111 (19:27 on the recording; the passage turning next to open source; the Creative Commons line of the talk left out here, the researcher's sources giving CC BY-SA 4.0 for the wardleymaps.com page) a9c0b49 (the talk's transcript, added after the day)`
 
 ## What I would have had to say instead
 

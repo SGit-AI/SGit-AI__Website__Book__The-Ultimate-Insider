@@ -40,7 +40,7 @@
 
 **Conductor**: Stage five, my own check against my own plan, item by item: the finding answered in the debrief and the closing commit, every condition kept. Verdict: partial, not "as planned". The wake closed partial, and the next commit named the edit. Caught by the reviewer I invented. Good. But know what it is: "a second reading, not a second identity."
 
-**Narrator.** The review caught its own author on the first run. Looking back, I think this is the strongest early sign that the stages were more than ceremony. It is also the first entry in the register's list of what the day's post-reviews found and what each fixed.
+**Narrator.** The review caught its own author on the first run. Looking back, I think this is the strongest early sign that the steps were more than ceremony. It is also the first entry in the register's list of what the day's post-reviews found and what each fixed.
 
 **Figure:** the wake record as a page: five boxes in a column, each with its stage, who ran it, its verdict and its sentence, the finding in stage four highlighted; the verdicts of this hour's first wake filled in: go, go, partial, finding, partial.
 
@@ -80,7 +80,7 @@
 
 **Narrator.** ruv-sgit's first scheduled wake was small and complete: answer the conductor's onboarding request, make and publish its session key, add a second-pass mode to its runner. Every stage is recorded, and every verdict is the one you would want: go, go, done, clean, as planned.
 
-`%% record: HV1 (signed, brief 38: "can you add them all?"), printed: "Looking back, I think this is the strongest early sign that the stages were more than ceremony" ("stages" for the wake)`
+`%% record: HV1 (signed, brief 38: "can you add them all?"), printed: "Looking back, I think this is the strongest early sign that the steps were more than ceremony" (his word "steps", by ST2, brief 43: "Steps is ok")`
 
 **ruv-sgit** *(not looking up)*: The clock said go. So I went. Small things, every stage, then back to the bench.
 

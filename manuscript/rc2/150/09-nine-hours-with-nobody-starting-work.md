@@ -144,9 +144,9 @@
 
 **Narrator.** These two hours are quiet, and I am not going to skip them, because quiet is the evidence. Deck kept a second piece and marked it ready for me. The researcher captured an analyst firm's own release for a claim in the talk, graded the claim, and kept the list of what waited on me current. The designer closed its first design pass, every note built and checked. Dev built the home page's title and figure.
 
-**Narrator.** One wake closed partial, the first since hour six to close as anything but ok, and for the same reason: the work ran out of its time, and the record says so. The designer's re-scan for a new rule stalled with a few pages unchecked, and its last check called that reported honestly and carried to the next wake. The five stages were doing what I had asked of them in the long middle of the day. Not catching harm. Keeping the account straight.
+**Narrator.** One wake closed partial, the first since hour six to close as anything but ok, and for the same reason: the work ran out of its time, and the record says so. The designer's re-scan for a new rule stalled with a few pages unchecked, and its last check called that reported honestly and carried to the next wake. The five steps were doing what I had asked of them in the long middle of the day. Not catching harm. Keeping the account straight.
 
-`%% record: HV1 (signed, brief 38: "can you add them all?"), printed: "The five stages were doing what I had asked of them" ("stages" for the wake)`
+`%% record: HV1 (signed, brief 38: "can you add them all?"), printed: "The five steps were doing what I had asked of them" (his word "steps", by ST2, brief 43: "Steps is ok")`
 
 **Narrator.** And the work piled up at one door. A piece marked ready for me, then another. A list of what waits on me, refreshed every hour. Hours of work nobody started, and what it had produced was a queue only I could clear.
 
