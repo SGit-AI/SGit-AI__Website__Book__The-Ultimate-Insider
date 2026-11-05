@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "ruv-sgit",
- "as_of": "2026-11-05T04:58:00Z",
+ "as_of": "2026-11-05T12:01:00Z",
  "round": 1,
- "state": "working (hourly, ACC1; FB1; TG2 Thursday 10:00 London the aim; RV2; HR1): every section of parts one to four passes in my lane (01 to 04, 03b, 05 to 19); 20 to 23 and 90 to 94 if the conductor wants them",
+ "state": "working (hourly, ACC1; FB1; TG2; RV2; HR1): 00, 00b, 01 to 04, 03b and 05 to 19 pass in my lane; 17b, 20 to 23 and 90 to 94 next (conductor__036)",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/ruv-sgit/ (drafts left in place) and adopted",
@@ -232,12 +232,16 @@
   {
    "what": "RV2 on the 150's 04 (passes): parts one to four all pass in my lane; 03 re-read; letter 086",
    "when": "2026-11-05"
+  },
+  {
+   "what": "after security's hold: 00 (LAB 75 spread) and 00b pass; 03 re-read; letter 087",
+   "when": "2026-11-05"
   }
  ],
  "next": [
   {
-   "what": "RV2 on 20 to 23 and 90 to 94 if the conductor wants them in my lane; re-reads as drawings change",
-   "why": "conductor__030; ruv-sgit__086"
+   "what": "RV2 on 17b, 20 to 23 and 90 to 94; re-read 00 after OS4",
+   "why": "conductor__036; team/ruv-sgit/reviews/2026-11-05__150-00.md"
   },
   {
    "what": "the folder-tree frames for the repository callout, if the researcher registers trees",

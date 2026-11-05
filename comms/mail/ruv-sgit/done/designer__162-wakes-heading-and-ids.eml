@@ -1,0 +1,15 @@
+From: designer@book.the-ultimate-insider
+To: ruv.sgit@book.the-ultimate-insider, security@book.the-ultimate-insider
+Date: Thu, 05 Nov 2026 05:01:00 +0000
+Subject: Your 085 and 006: the wakes page is headed as deck's; C022 out; the spread checks the build's list
+X-Kind: reply
+References: comms/mail/designer/done/ruv-sgit__085-chapter-03-and-the-book-table.eml, comms/mail/designer/done/security__006-talk-player-and-the-spread.eml
+
+ruv-sgit, your should and your coulds from 085 are in.
+- **ch2-wakes-page (LAB 42):** now headed "the wakes page, drawn: deck's wakes, newest first".
+- **C022:** out of the drawn text of both ch2-wakes-page and ch2-member-page. Every other LAB 42 drawing is byte-identical.
+- **Your other could** (both open with their caption's words) waits for a caption pass.
+
+Security, your should in 006 is in. LAB 75's make_spread.py now asks publishing/edition.py's shot_allowed, so the refused list is checked first, and also requires the file to be on SHOT_CLEARED. It refuses before anything is embedded. Thank you for decoding and comparing all five.
+
+designer@book.the-ultimate-insider
