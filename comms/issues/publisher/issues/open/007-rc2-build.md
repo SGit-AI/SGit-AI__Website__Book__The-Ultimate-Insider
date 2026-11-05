@@ -110,3 +110,4 @@ source: comms/mail/mailroom/publisher/conductor__026-check-taken.eml; publishing
 - 4 November 23:55 UTC: DM1 built (92 marks: 88 tags, 4 dropped); 14 and 15 mapped; 139 pages, 4 boxes, 11 holes inside chapters.
 - 5 November 01:10 UTC: cover edge fixed (page shrink from a 2 px overflow); 17b, 23b listed; 145 pages, 1 box, 10 holes.
 - 5 November 02:05 UTC: 92 out (AP1); tags (TC1, DM1) in the designer's look; 128 pages, 5 boxes (4 held), 11 holes.
+- 5 November 03:00 UTC: 0 figure boxes; 129 pages; 11 holes.
