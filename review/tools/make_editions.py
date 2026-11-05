@@ -25,7 +25,7 @@ DATA = [ROOT / 'review' / 'anchors' / 'editions.json', ROOT / 'src' / 'static' /
 SHORT = [('ed-03', 'the 3-page edition', ROOT / 'manuscript' / 'editions' / '03' / 'Book.txt', ROOT / 'chapter-plan' / 'cast' / 'edition-03.md'),
          ('ed-10', 'the 10-page edition', ROOT / 'manuscript' / 'editions' / '10' / 'Book.txt', ROOT / 'chapter-plan' / 'cast' / 'edition-10.md')]
 NO_RECORD = {('ed-03', 'A book about you doing it')}            # pages the script gives no section: named here, so any other miss stops the build
-ADDR = re.compile(r'https?://[^\s"<>\'`()\\]+')                  # an address, as the guards read it on both sides
+ADDR = re.compile(r'https?://[^\s"<>\'`()\\]+', re.I)                  # an address, as the guards read it on both sides
 HOSTS = re.compile(r'https://(github\.com/SGit-AI/|the-ultimate-insider\.book\.sgit\.ai/)')
 
 
@@ -310,9 +310,16 @@ def page_attribute_problem(page):
     return None
 
 
+FURTHER_PATH = 'manuscript/rc2/150/23b-further-reading.md'         # the exception is for this path, not for any file of that name
 FURTHER_FILE = '23b-further-reading.md'                           # security__011: in this one file of the online view ...
 FURTHER_ADDR = re.compile(r'https://newsroom\.sgit\.ai/articles/[a-z0-9-]+\.html')   # ... an address of exactly this shape may print as text, never as a link
 FURTHER_LINK = re.compile(r'\[([^\]]+)\]\((https://newsroom\.sgit\.ai/articles/[a-z0-9-]+\.html)\)')
+
+
+def is_further(path):
+    p = Path(path)
+    rel = p.relative_to(ROOT).as_posix() if p.is_absolute() else p.as_posix()
+    return rel == FURTHER_PATH
 
 
 def further_text(raw):
@@ -344,7 +351,7 @@ def text_address_gate(raw, claims, path):
         for a in sorted(addresses(line)):
             if a == SITE or HOSTS.match(a):
                 continue
-            if path.name == FURTHER_FILE and FURTHER_ADDR.fullmatch(a):   # the one exception, by file and by shape together; text only (further_text turns the links into text)
+            if is_further(path) and FURTHER_ADDR.fullmatch(a):   # the one exception, by file and by shape together; text only (further_text turns the links into text)
                 if {'address': a, 'claim': 'FR1'} not in found:
                     found.append({'address': a, 'claim': 'FR1'})
                 continue
@@ -362,7 +369,7 @@ def chapter_page(path, i, files, book, talk, claims, edition_title, foot=None, d
     title = re.match(r'# (.*)', raw).group(1)
     ch = f'r{i + 1:02d}'
     text_addresses = text_address_gate(raw, claims, path)          # security's answer to developer__047: a register address may print as text under its own claim, nothing else off the two hosts
-    if path.name == FURTHER_FILE:
+    if is_further(path):
         raw = further_text(raw)                                    # links to text, after the gate has read the original
     used, blocks, scene, linked, seen, recs, first = {}, [], 0, 0, {}, [], ''
     kept, kept_n = printed_ids(raw, drop, ch, path.name) if drop else (None, 0)             # which paragraphs print (build_book.py's drop-section rule)

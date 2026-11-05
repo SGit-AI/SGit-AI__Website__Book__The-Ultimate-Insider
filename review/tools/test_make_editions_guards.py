@@ -67,15 +67,17 @@ def gate_in(name, raw):
 
 GOOD_ADDR = 'https://newsroom.sgit.ai/articles/the-scripted-talk.html'
 for name, raw, want, why in [
-        (m.FURTHER_FILE, '# F\n\n- [x](' + GOOD_ADDR + ')\n', 'pass', 'the right address in the right file'),
-        (m.FURTHER_FILE, '# F\n\n- [x](https://newsroom.sgit.ai/blog/the-scripted-talk.html)\n', 'refused', 'the right host with a different path'),
+        (m.FURTHER_PATH, '# F\n\n- [x](' + GOOD_ADDR + ')\n', 'pass', 'the right address in the right file'),
+        (m.FURTHER_PATH, '# F\n\n- [x](https://newsroom.sgit.ai/blog/the-scripted-talk.html)\n', 'refused', 'the right host with a different path'),
+        ('sub/' + m.FURTHER_PATH, '# F\n\n- [x](' + GOOD_ADDR + ')\n', 'refused', 'the right address in a file of that name in another folder'),
+        (m.FURTHER_PATH, '# F\n\n- [x](HTTPS://NEWSROOM.SGIT.AI/articles/x.html)\n', 'refused', 'the right address in capital letters'),
         ('92-appendix-a-every-number.md', '# F\n\n- [x](' + GOOD_ADDR + ')\n', 'refused', 'the right address in a different file'),
-        (m.FURTHER_FILE, '# F\n\n- [x](https://newsroom.sgit.ai.evil.example/articles/x.html)\n', 'refused', 'a lookalike host'),
-        (m.FURTHER_FILE, '# F\n\n- [x](https://newsroom.sgit.ai/articles-x/y.html)\n', 'refused', 'a lookalike path'),
-        (m.FURTHER_FILE, '# F\n\n- [x](https://newsroom.sgit.ai/articles/x@evil.example)\n', 'refused', 'user information in the address'),
-        (m.FURTHER_FILE, '# F\n\n- [x](https://newsroom.sgit.ai/articles/../admin.html)\n', 'refused', 'a dot-dot path'),
-        (m.FURTHER_FILE, '# F\n\n- [x](https://example.org/a)\n', 'refused', 'another host in the same file'),
-        (m.FURTHER_FILE, '# F\n\n- [x](' + GOOD_ADDR + ')\n- [y](https://example.org/a)\n', 'refused', 'a good address and a bad one in the same file')]:
+        (m.FURTHER_PATH, '# F\n\n- [x](https://newsroom.sgit.ai.evil.example/articles/x.html)\n', 'refused', 'a lookalike host'),
+        (m.FURTHER_PATH, '# F\n\n- [x](https://newsroom.sgit.ai/articles-x/y.html)\n', 'refused', 'a lookalike path'),
+        (m.FURTHER_PATH, '# F\n\n- [x](https://newsroom.sgit.ai/articles/x@evil.example)\n', 'refused', 'user information in the address'),
+        (m.FURTHER_PATH, '# F\n\n- [x](https://newsroom.sgit.ai/articles/../admin.html)\n', 'refused', 'a dot-dot path'),
+        (m.FURTHER_PATH, '# F\n\n- [x](https://example.org/a)\n', 'refused', 'another host in the same file'),
+        (m.FURTHER_PATH, '# F\n\n- [x](' + GOOD_ADDR + ')\n- [y](https://example.org/a)\n', 'refused', 'a good address and a bad one in the same file')]:
     got = gate_in(name, raw)
     if (want == 'refused') != (got == 'refused'):
         failed.append(f'further reading: {why}: wanted {want}, got {got!r}')

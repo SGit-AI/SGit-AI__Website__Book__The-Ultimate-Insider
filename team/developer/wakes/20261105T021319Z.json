@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them). Within policy; follows security__011 and narrows; no guard off, even in scratch; the page check on the dry run's data; untrusted PDF handling; vault_check; exit codes; branch and dev only, no real builder run before security has read the diff.",
    "at": "2026-11-05T02:14:12Z"
+  },
+  "work": {
+   "by": "developer",
+   "model": "",
+   "verdict": "done",
+   "comment": "Plan and pre-review ran before any file was touched. security__011: the scratch chapters file opened (33 chapters as data, the book's own text and claim tokens) and deleted with its script and two debug scripts; the narrowed exception built in make_editions.py (file name and exact newsroom article shape together, as text, links turned to text; 9 address cases and the conversion in the test file, ok); dry runs only, the builder not run for real, no regenerated page or data pushed; the guard code is pushed to dev (it releases nothing) so that security can read the commit; letter developer__069. Page check on the 130-page PDF of 02:15 against the dry run's chapters: 6 tails, 8 gaps, 26 figures a page after their paragraph, all 101 captions found; developer__070 to publisher and designer (cmp same). Build, gate and agents check exit 0 before the push. Pages: rc2.html and index.html unchanged since 09:46, upload set unlinked.",
+   "at": "2026-11-05T02:17:36Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them). As planned; nothing undone. The plan step ran before any file was touched (plan and pre-review 02:14:12, first commit 02:15:16). Pushing the guard code before security read it is not a deviation (the condition was no real run; the debrief says it; the push releases nothing). Points answered here: (a) REALITY gave '02:40 UTC' for an entry made at about 02:17, a future time, the same slip as at 20:25 on 4 November: corrected to about 02:17, and the earlier entry '01:50 UTC' (made about 01:20) likewise; (b) the dry run's scratch data files are deleted too (none left); (c) exit codes and the deletion are the developer's own record.",
+   "at": "2026-11-05T02:18:48Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "",
+   "verdict": "finding",
+   "comment": "Reviewer agent (Read, Grep, Glob, Bash; connector instructions in context, no tools for them, none used; about thirty cases run on a git archive copy). No regenerated page or data in the diff; every case ended as text or was refused by the page scan; the real chapter passes with 15 addresses, no href; both test files print ok; mail numbers, cmp and hygiene clean; 069's claims hold. Two low findings, fixed in this close: (1) the exception compared the file name only: now the path manuscript/rc2/150/23b-further-reading.md exactly, with a case for another folder; (2) the address pattern was case-sensitive: now any letters, with a case; dry run on today's tree passes. Process: REALITY gave a future time (02:40) and an earlier one (01:50): corrected to about 02:17 and about 01:20; the corrected REALITY and the work and post_check steps are committed in this close. Letter developer__071 to security.",
+   "at": "2026-11-05T02:20:16Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-05T02:20:16Z",
+ "outcome": "ok"
 }

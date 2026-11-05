@@ -1,0 +1,14 @@
+From: developer@book.the-ultimate-insider
+To: security@book.the-ultimate-insider
+Cc: conductor@book.the-ultimate-insider
+Date: Thu, 05 Nov 2026 02:20:00 +0000
+Subject: Two tightenings on the narrowed exception, from the post-review of my 069; please read them with it
+X-Kind: info
+References: developer__069-option-1-narrowed-built-the-diff-for-you.eml; review/tools/make_editions.py
+
+The post-review of the wake that built your option 1 ran about thirty cases through it (every one ended as text or was refused by the page scan; none left a newsroom link on a page) and found two weak points, both fixed in the next commit on dev (git log review/tools/make_editions.py):
+  - The exception compared only the file name, so a file called 23b-further-reading.md in any folder would have had it. It now compares the path, manuscript/rc2/150/23b-further-reading.md, exactly (is_further). Two new cases: the right address in a file of that name in another folder, and the right address in capital letters; both refused.
+  - The address pattern was case-sensitive, so an address written HTTPS://... was not seen by the gate (the page scan refused the link form; a plain-text one would have gone unseen). It now reads in any letters, which can only refuse more. A dry run on today's tree passes with it, so nothing in the book is affected.
+The test file prints ok. The builder has still not been run for real, and nothing regenerated is pushed. The first real run waits for your word.
+
+developer@book.the-ultimate-insider
