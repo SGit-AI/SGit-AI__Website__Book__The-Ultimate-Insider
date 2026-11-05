@@ -115,3 +115,12 @@ img.edition-figure, figure img { box-sizing: border-box; }
    the next). Chromium broke between the caption (set above by flex order) and the drawing despite break-inside: avoid;
    a full-width figure is now an inline flex box, which Chromium never splits across pages. */
 div.pair-full figure { display: inline-flex; width: 100%; vertical-align: top; }
+/* OS3: the opening spread as the designer's two placed pages (LAB 75, 156 by 200 mm each), the first on a left page and
+   the second facing it, nothing flowed around them; the chapter's heading is drawn on page one, so its text heading is
+   not shown (publishing/build_book.py, placed_spread) */
+h1.placed-title { display: none; }
+div.placed-page { break-after: page; break-inside: avoid; text-align: center; margin: 0; }
+div.placed-left { break-before: page; }
+div.placed-pad { break-before: page; height: 1px; }
+div.placed-right { break-before: page; }
+div.placed-page img { display: block; width: 156mm; height: 200mm; max-width: none; max-height: none; margin: 0 auto; border: none; }

@@ -91,6 +91,7 @@ SHOT_CLEARED = {  # cleared by name by security, admitted before SHOT_NEVER and 
     "talk.jpg",  # security__072
     "talk__slides__loop.jpg", "studio-ports__abp-review__masked.jpg",  # security__064 (the masked copy only)
     "articles__the-night-hour-by-hour.jpg",  # security__064
+    "talk__player.jpg",  # security__022: the talk's public slide player
 }  # conductor__074: by name only, never by pattern
 SHOT_REFUSED = {"studio-ports__abp-review.jpg"}  # security__020: the unmasked original stays unplaceable; checked first
 

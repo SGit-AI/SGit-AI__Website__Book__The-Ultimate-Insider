@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "publisher",
+ "kind": "scheduled wake",
+ "started": "2026-11-05T04:47:56Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent; second pass after a change; none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Revised plan in scope. Conditions: the Narrator paragraph as text is a stopgap, dropped by the build once page 1 carries it (writer 295); the 071 correction says the time was wrong and the record stands as brief 46; name the list entry exactly; paths resolved from the root, then the realpath check.",
+   "at": "2026-11-05T04:51:54Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "go",
+   "comment": "Both LAB 75 drawings pass unsafe_svg; page 2's five embedded JPEGs are byte-identical to the five cleared shots (masked policy page only); talk__player.jpg cleared by name; no HOLD.",
+   "at": "2026-11-05T04:51:54Z"
+  },
+  "work": {
+   "by": "publisher",
+   "model": "",
+   "verdict": "done",
+   "comment": "OS3 spread placed as two facing pages with the picture checks; talk__player.jpg cleared; 071 corrected to the time only; 130 pages, 11 holes; letter 073; the post-review finding (title escape) fixed and the rebuild edge closed.",
+   "at": "2026-11-05T04:58:11Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "finding",
+   "comment": "The chapter title was not escaped in the placed img and h1 (harmless today); fixed in the wake: htmllib.escape. All else passes; vault_check clean.",
+   "at": "2026-11-05T04:58:11Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent; none refused)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Every condition kept: stopgap auto-drops, 071 corrected to the time with brief 46's record, list entry matched, address never drawn, holes to writer3 and writer4.",
+   "at": "2026-11-05T04:58:11Z"
+  }
+ },
+ "closed": "2026-11-05T04:58:11Z",
+ "outcome": "ok"
+}
