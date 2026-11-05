@@ -2,12 +2,14 @@
  "about": "A proposal for the full book's slots in publishing/rc2-figures.json (the publisher's file), by the designer, 3 November 2026, in the seventy's list's shape: for every Figure and Map line of manuscript/rc2/150/<chapter> in Book.txt's order, the drawing placed today (the publisher's), the designer's additions, or null; 'notes' says which, and who draws the rest. Each chapter's list matched its line count when written. Resynced 4 November 2026, 07:03 UTC and again at 08:02 UTC (chapter 2's wordless loop, chapter 3's house, chapter 12's named cycle), by lab/tools/book/resync_150.py against the chapters' Figure and Map lines as they stood (publisher 045, ruv-sgit 067, conductor 075): each line keeps the drawing of its closest old line (difflib, 0.6 or more), new lines are 'to draw', and the script's PLACED sets chapter 2's round-trip clock and factory clock and chapter 11's repository by the hour.",
  "slots": {
   "rc2/150/00-start-here.md": [
-   "lab/experiments/52-designer-start-here/start-stones.svg",
-   "lab/experiments/52-designer-start-here/start-route.svg",
-   "lab/experiments/52-designer-start-here/start-strip.svg"
+   "lab/experiments/27-designer-the-cast/cast-row-personas.svg",
+   null,
+   null,
+   "lab/experiments/47-designer-the-house/the-house.svg",
+   null,
+   null
   ],
   "rc2/150/00b-who-is-telling-this-story.md": [
-   "lab/experiments/27-designer-the-cast/cast-row-personas.svg",
    "lab/experiments/54-designer-first-pages/two-voices.svg",
    null
   ],
@@ -41,7 +43,7 @@
    "lab/experiments/42-designer-rc2-seventy/ch3-first-rules.svg",
    "lab/experiments/54-designer-first-pages/member-folder.svg",
    "lab/experiments/70-designer-brief-and-reality/brief-and-reality.svg",
-   null,
+   "lab/experiments/74-designer-sgit-sites/sgit-sites.svg",
    "lab/experiments/55-designer-findings-cards/ch4-banner-pair.svg"
   ],
   "rc2/150/05-hour-two-the-rules-written.md": [
@@ -118,6 +120,7 @@
    null,
    "lab/experiments/43-designer-rc2-full-book/ch17-nine-misses.svg"
   ],
+  "rc2/150/17b-the-members-look-back.md": [],
   "rc2/150/18-how-do-we-contain-this.md": [
    "lab/experiments/42-designer-rc2-seventy/ch12-state-machine.svg",
    "lab/experiments/42-designer-rc2-seventy/ch12-empty-chair.svg",
@@ -143,6 +146,7 @@
    "lab/experiments/62-ruv-your-factory/map.svg",
    "lab/experiments/40-designer-rc2-chapter-5/ch5-five-steps.svg"
   ],
+  "rc2/150/23b-further-reading.md": [],
   "rc2/150/90-the-tour-at-length.md": [
    null,
    null,
@@ -156,7 +160,6 @@
    "lab/experiments/42-designer-rc2-seventy/ch2-site-building.svg"
   ],
   "rc2/150/91-the-words-used.md": [],
-  "rc2/150/92-appendix-a-every-number.md": [],
   "rc2/150/93-appendix-b-the-control-register.md": [],
   "rc2/150/94-the-making-of-this-book.md": [
    "lab/experiments/51-designer-book-team-arriving/book-team-arriving.svg"
@@ -164,14 +167,16 @@
  },
  "notes": {
   "rc2/150/00-start-here.md": [
-   "1. the designer's stones, numbers only (LAB 52) | **Figure:** the five steps as a path, from an empty project to a second ",
-   "2. the designer's route (LAB 52) | **Figure:** the five parts as stops on one route, the chapters beneath e",
-   "3. the designer's strip (LAB 52) | **Figure:** a thin strip from the empty project to the talk: the empty p"
+   "1. LAB 27's role cards, moved here from 00b (OS1, writer 277) | **Figure:** the whole team on one page: the nine of the talk's team as t",
+   "2. to draw | **Figure:** the talk, built in a day: its own website and its own player",
+   "3. to draw | **Figure:** one of the slides: an agent is a reasoning engine in a loop,",
+   "4. the designer's house (LAB 47), OS1 | **Figure:** the talk's repository as a house, every agent in its room.",
+   "5. to draw | **Figure:** I approved each agent's policy, item by item, before it coul",
+   "6. to draw | **Figure:** the night, hour by hour, written by the team from its own re"
   ],
   "rc2/150/00b-who-is-telling-this-story.md": [
-   "1. LAB 27's role cards, moved here from 06 (storyteller 149, writer 228) | **Figure:** the whole team on one page: the nine of the talk's team as t",
-   "2. the designer's two voices (LAB 54) | **Figure:** two voices on the page: a small key showing how the narrator",
-   "3. to draw | **Figure:** the companion website as it looks now, its front page."
+   "1. the designer's two voices (LAB 54) | **Figure:** two voices on the page: a small key showing how the narrator",
+   "2. to draw | **Figure:** the companion website as it looks now, its front page."
   ],
   "rc2/150/01-slides-as-a-compromise.md": [
    "1. placed (the publisher's) | **Figure:** \"A slide versus a loop\" (left half): a speaker beside a stil",
@@ -203,7 +208,7 @@
    "1. placed (the publisher's) | **Figure:** the first page of rules as a card, each line with a small ta",
    "2. the designer's folder (LAB 54) | **Figure:** one member's folder, opened: its page of rules, its policy, ",
    "3. the designer's weight (LAB 70), C125 | **Figure:** the brief and the reality file as they stood at the end of t",
-   "4. to draw | **Figure:** the sgit.ai sites the talk's repository names, newsroom.sgit",
+   "4. the designer's sites (LAB 74), C126 | **Figure:** the sgit.ai sites the talk's repository names, newsroom.sgit",
    "5. the writer's own banners (its debrief of 4 November), drawn (LAB 55) | **Figure:** one banner, as a session prints it: a box with who, when, wh"
   ],
   "rc2/150/05-hour-two-the-rules-written.md": [
@@ -211,7 +216,7 @@
    "2. the callout's picture (LAB 56), 56 mm | **Figure:** the publishing flow: a commit, the build, the gate, the rele"
   ],
   "rc2/150/06-roles-as-a-cast-you-can-read.md": [
-   "1. placed (the publisher's) | **Figure:** three greyed cards: the storyteller, the talk's story, the a",
+   "1. placed (the publisher's) | **Figure:** three greyed cards: the storyteller, the talk's story: its a",
    "2. placed (the publisher's) | **Figure:** security's role page, drawn as a card with nothing on it but",
    "3. the designer's card (LAB 54), C022 | **Figure:** a card, each member's wake records on the day, from the cond"
   ],
@@ -280,6 +285,7 @@
    "1. names its own path | **Figure:** ruv-sgit's strip, the researcher interviewing deck about the",
    "2. the designer's nine misses, read from chapter 17 at build (critic3 007) | **Figure:** the misses as cards on one page, each with its cost in a lin"
   ],
+  "rc2/150/17b-the-members-look-back.md": [],
   "rc2/150/18-how-do-we-contain-this.md": [
    "1. placed (the publisher's) | **Figure:** the day as a small state machine: running, held, released. O",
    "2. placed (the publisher's) | **Figure:** security's empty chair at the table, and beside it the two r",
@@ -305,6 +311,7 @@
    "1. placed (the publisher's) | **Figure:** one project's parts becoming the next one's: the talk team's",
    "2. placed (the publisher's) | **Figure:** the five steps as a path, from an empty project to a second "
   ],
+  "rc2/150/23b-further-reading.md": [],
   "rc2/150/90-the-tour-at-length.md": [
    "1. names its own path | **Figure:** one of ruv-sgit's animations, \"mandate and grant\", beside it",
    "2. names its own path | **Figure:** the studio's index and its lab: several versions of one slid",
@@ -318,7 +325,6 @@
    "10. placed (the publisher's) | **Figure:** the site as a building, one floor per kind of page: the talk"
   ],
   "rc2/150/91-the-words-used.md": [],
-  "rc2/150/92-appendix-a-every-number.md": [],
   "rc2/150/93-appendix-b-the-control-register.md": [],
   "rc2/150/94-the-making-of-this-book.md": [
    "1. the designer's twelve arriving (LAB 51), from C131 | **Figure:** this book's team arriving, drawn like the talk's cast bar bu"

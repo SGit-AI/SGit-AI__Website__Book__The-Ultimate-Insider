@@ -19,9 +19,11 @@ LABEL = re.compile(r"^\*\*(Figure|Map):\*\*\s*(.*)$")
 # chapter: {opening words of the line: (drawing, note)}, the designer's choices for new lines
 PLACED = {
     "rc2/150/00-start-here.md": {
-        "the five steps as a path": ("lab/experiments/52-designer-start-here/start-stones.svg", "the designer's stones, numbers only (LAB 52)"),
-        "the five parts as stops on one route": ("lab/experiments/52-designer-start-here/start-route.svg", "the designer's route (LAB 52)"),
-        "a thin strip from the empty project to the talk": ("lab/experiments/52-designer-start-here/start-strip.svg", "the designer's strip (LAB 52)"),
+        # OS1 (the opening spread, writer 277): the role cards move here from 00b and the house joins them; the four
+        # screenshots are the publisher's, held until security clears them by name
+        "the whole team on one page": ("lab/experiments/27-designer-the-cast/cast-row-personas.svg",
+                                       "LAB 27's role cards, moved here from 00b (OS1, writer 277)"),
+        "the talk's repository as a house": ("lab/experiments/47-designer-the-house/the-house.svg", "the designer's house (LAB 47), OS1"),
     },
     "rc2/150/00b-who-is-telling-this-story.md": {
         "the whole team on one page": ("lab/experiments/27-designer-the-cast/cast-row-personas.svg",
@@ -47,6 +49,7 @@ PLACED = {
         "one banner, as a session prints it": ("lab/experiments/55-designer-findings-cards/ch4-banner-pair.svg",
                                                "the writer's own banners (its debrief of 4 November), drawn (LAB 55)"),
         "the brief and the reality file as they stood": ("lab/experiments/70-designer-brief-and-reality/brief-and-reality.svg", "the designer's weight (LAB 70), C125"),
+        "the sgit.ai sites the talk's repository names": ("lab/experiments/74-designer-sgit-sites/sgit-sites.svg", "the designer's sites (LAB 74), C126"),
         "one member's folder, opened": ("lab/experiments/54-designer-first-pages/member-folder.svg", "the designer's folder (LAB 54)"),
     },
     "rc2/150/06-roles-as-a-cast-you-can-read.md": {
