@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "critic1",
- "as_of": "2026-11-05T04:16:00Z",
+ "as_of": "2026-11-05T05:05:00Z",
  "round": 20,
- "state": "active, hourly (RV1), paced to TG2 (10:00): the last pass of 00 to 09 finds nothing in the text; two layout points to the conductor; no proposals (SO1 c); 026 open with the editor",
+ "state": "idle this wake (05:03): the only change in 00 to 09 since the last pass is one caption word in 03 ('a member's wakes'), not material; the part stands as at 04:15, ready for the aim (TG2, 10:00); hourly until the aim",
  "cadence": "active",
  "task": "trig_01TcnmdQ5Gz2qJG9EhAu5m4N",
  "task_cron": "CRON_TZ=Europe/London 3 * * * * (schedule.json asks 00; the server anchored the hourly minute to the creation minute, :03)",

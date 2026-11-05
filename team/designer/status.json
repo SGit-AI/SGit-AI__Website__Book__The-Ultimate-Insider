@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "designer",
- "as_of": "2026-11-05T04:05:00Z",
+ "as_of": "2026-11-05T05:01:00Z",
  "round": 0,
- "state": "hourly (ACC1), OS3: the opening spread drawn as two placed pages (LAB 75), waiting on the publisher's placing; lab PDF 199 pages",
+ "state": "hourly (ACC1), OS3 and PQ2: the spread's two pages complete with the invitation's room; the cover read as a buyer; lab PDF 199 pages",
  "done": [
   {
    "what": "ROLE.md and policy.json moved from team/conductor/staffing/designer/ into team/designer/ (drafts left in place)",
@@ -396,12 +396,16 @@
   {
    "what": "LAB 75 spread-page-1 and spread-page-2 (OS3), every word from 00 at build, the five cleared shots embedded, no address drawn; letter 160",
    "when": "2026-11-05"
+  },
+  {
+   "what": "LAB 75: the narrator's note on page one, the invitation's room on page two, images checked against edition.py; ch2-wakes-page headed as deck's, C022 out of two drawings; PQ2 buyer-read; letters 161, 162",
+   "when": "2026-11-05"
   }
  ],
  "next": [
   {
-   "what": "OS3: rerun LAB 75 if 00 changes; fit the narrator paragraph or the invitation's room if the writer or publisher asks; the KDP cover if the count moves; the state machine's ids",
-   "why": "conductor 091, publisher 059, writer 293"
+   "what": "OS3: rerun LAB 75 if 00 changes or the publisher asks another size; PQ2: the cover at a shop's spine width, and the blurb or author line if the storyteller and editor change them; captions that repeat a drawing's heading",
+   "why": "conductor 091, 092, publisher, ruv-sgit 085"
   },
   {
    "what": "my DS1 boxes: 00b's site front page, 01's player and building, 03's keys page, 04's sgit.ai sites; ch5-team-cards' caption (writer4 016); hashes out of LAB 42 and 43; ch12-book-table and ch13-two-sessions now redraw with designer2 in the team (left as they were this wake: decide); the dashboard's heading repeats its caption (ruv-sgit 081, a could)",

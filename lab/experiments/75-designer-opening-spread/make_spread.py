@@ -24,6 +24,7 @@ SERIF = 'font-family="Georgia, \'DejaVu Serif\', serif"'
 SRC = (REPO / "manuscript" / "rc2" / "150" / "00-start-here.md").read_text()
 W, H = 156.0, 200.0
 PT = 0.3528  # mm per point
+ROOM = 24.0  # page two: kept clear at the foot for the invitation, set as text by the build (FB2: the address is print only)
 
 
 def t(x, y, s, weight=400, fill=mc.INK, anchor="start", size=3.18, fam=SANS, italic=False):
@@ -64,7 +65,7 @@ def page_one():
             y += lead
         y += 1.6
     # ten cards in two rows of five: the nine with their hellos, and security's empty chair
-    cw, ch, gap = 30.0, 40.0, 1.5
+    cw, ch, gap = 30.0, 35.0, 1.4
     y0 = y + 2.6
     cards = [(n, h) for n, h in hellos] + [("security", None)]
     if "*Dramatised.*" not in SRC.split("**Narrator.** Throughout")[0]:
@@ -82,24 +83,28 @@ def page_one():
         if empty:
             src = (REPO / "lab" / "characters" / "cast" / "security-worried.svg").read_text()
             inner = src[src.index(">", src.index("<svg")) + 1: src.rindex("</svg>")]
-            out.append(f'<g transform="translate({x + cw / 2 - 7.2:.2f} {cy + 1.4:.2f}) scale(.72)" opacity=".38">{inner}</g>')
+            out.append(f'<g transform="translate({x + cw / 2 - 6:.2f} {cy + 1.2:.2f}) scale(.6)" opacity=".38">{inner}</g>')
         else:
-            out.append(f'<g transform="translate({x + cw / 2 - 7.2:.2f} {cy + 1.4:.2f}) scale(.36)">{mc.figure(m, "happy")}</g>')
-        out.append(t(x + cw / 2, cy + 22.4, m, 800, mc.MUTED if empty else (mc.ACCENT if lead_c else mc.INK), "middle"))
+            out.append(f'<g transform="translate({x + cw / 2 - 6:.2f} {cy + 1.2:.2f}) scale(.3)">{mc.figure(m, "happy")}</g>')
+        out.append(t(x + cw / 2, cy + 18.6, m, 800, mc.MUTED if empty else (mc.ACCENT if lead_c else mc.INK), "middle"))
         words = hello if hello else "the empty chair"
         for j, r in enumerate(textwrap.wrap(words, 17)):
-            out.append(t(x + cw / 2, cy + 26.8 + j * 3.9, r, 400, mc.MUTED, "middle", italic=empty))
+            out.append(t(x + cw / 2, cy + 22.8 + j * 3.7, r, 400, mc.MUTED, "middle", italic=empty))
     y = y0 + 2 * ch + gap + 6
     for j, r in enumerate(textwrap.wrap(closing, 73)):
         out.append(t(0, y + j * lead, r, 400, mc.INK, size=size, fam=SERIF, italic=True))
-    end = y + lead * len(textwrap.wrap(closing, 73))
+    y += lead * len(textwrap.wrap(closing, 73)) + 2.4
+    # the narrator's note on how the book is told: after the closing line, its place in 00 (writer 295)
+    told = next(strip_md(l.replace("**Narrator.**", "")) for l in SRC.splitlines() if l.startswith("**Narrator.** Throughout the book"))
+    for j, r in enumerate(textwrap.wrap(told, 80)):
+        out.append(t(0, y + j * lead, r, 400, mc.INK, size=size, fam=SERIF))
+    end = y + lead * (len(textwrap.wrap(told, 80)) - 1) + 1.5
     if end > H:
         sys.exit(f"make_spread: page one runs to {end:.1f} mm, past the {H} mm text block")
     return mc.svg(W, H, "".join(out), f"{title}: {head} The narrator's opening, the nine members' cards with their hellos, security's empty chair, and the closing line")
 
 
 SHOTS = REPO / "index" / "talk-site" / "shots"
-CLEARED = ["index.jpg", "talk__slides__loop.jpg", "talk.jpg", "studio-ports__abp-review__masked.jpg", "articles__the-night-hour-by-hour.jpg"]
 
 
 def figures():
@@ -115,12 +120,14 @@ def figures():
 
 def shot(name, x, y, w, aspect=1.6):
     import base64
-    if name not in CLEARED:
-        sys.exit(f"make_spread: {name} is not one of the five cleared by name")
+    sys.path.insert(0, str(REPO / "publishing"))
+    import edition  # read only: its lists, the same the build uses
+    if not (edition.shot_allowed(name) and name in edition.SHOT_CLEARED):
+        sys.exit(f"make_spread: {name} is not cleared by name in publishing/edition.py; it is not embedded")
     h = w / aspect
     data = base64.b64encode((SHOTS / name).read_bytes()).decode()
     return (f'<rect x="{x - .2:.2f}" y="{y - .2:.2f}" width="{w + .4:.2f}" height="{h + .4:.2f}" rx=".8" fill="none" stroke="{mc.FILL2}" stroke-width=".4"/>'
-            f'<image x="{x:.2f}" y="{y:.2f}" width="{w:.2f}" height="{h:.2f}" preserveAspectRatio="xMidYMid slice" href="data:image/jpeg;base64,{data}"/>'), h
+            f'<image x="{x:.2f}" y="{y:.2f}" width="{w:.2f}" height="{h:.2f}" preserveAspectRatio="xMidYMin slice" href="data:image/jpeg;base64,{data}"/>'), h
 
 
 def g_head(m, x, y):
@@ -149,17 +156,17 @@ def page_two():
     bw = (W - 3 * 2) / 4
     for i, (n, label) in enumerate(nums):
         x = i * (bw + 2)
-        out.append(f'<rect x="{x:.2f}" y="{y:.2f}" width="{bw:.2f}" height="18" rx="1.6" fill="{mc.FILL}"/>'
-                   + t(x + 3, y + 8.4, n, 800, mc.ACCENT if i == 3 else mc.INK, size=7.4))
+        out.append(f'<rect x="{x:.2f}" y="{y:.2f}" width="{bw:.2f}" height="15.6" rx="1.6" fill="{mc.FILL}"/>'
+                   + t(x + 3, y + 7.6, n, 800, mc.ACCENT if i == 3 else mc.INK, size=7.4))
         for j, r in enumerate(textwrap.wrap(label, 21)):
-            out.append(t(x + 3, y + 12.6 + j * 3.6, r, 400, mc.MUTED))
-    y += 18 + 8
+            out.append(t(x + 3, y + 11.4 + j * 3.3, r, 400, mc.MUTED))
+    y += 15.6 + 7
     # what a factory of agents made in a day: three shots in a row, captions under
     out.append(t(0, y, heads[2], 800, mc.INK, size=12 * PT)); y += 3
     sw, hmax = (W - 2 * 3) / 3, 0
     for i, (cap, img) in enumerate(figs[1:4]):
         x = i * (sw + 3)
-        s_, h = shot(img, x, y, sw, 1.9)
+        s_, h = shot(img, x, y, sw, 2.3)
         c, ch = caption(x, y + h + 4.2, cap, 30)
         out.append(s_ + c); hmax = max(hmax, h + 4.2 + ch)
     y += hmax + 2
@@ -192,7 +199,7 @@ def page_two():
                 yy = Y + (7.4 if len(members) > 1 and k % 2 == 0 else 10.2) if len(members) > 1 else Y + 8.6
                 out.append(t(cx, yy, label, 400 if m == "security" else 700, mc.MUTED if m == "security" else mc.INK, "middle"))
     hh = acc - y
-    c, ch = caption(0, y + hh + 4.2, figs[4][0], 52)
+    c, ch = caption(0, y + hh + 4.2, figs[4][0], 64)
     out.append(c)
     rx, rw, yy = hw + 4, W - hw - 4, y
     for cap, img in figs[5:7]:  # a small card each: the shot, its caption beside it
@@ -205,7 +212,7 @@ def page_two():
     out.append(t(0, y, heads[3], 800, mc.INK, size=12 * PT)); y += 6
     for n, lead, rest in parts:
         out.append(f'<circle cx="2.6" cy="{y - 1.1:.2f}" r="2.5" fill="{mc.ACCENT}"/>' + t(2.6, y, n, 800, "#fff", "middle"))
-        rows = textwrap.wrap(f"{lead} {rest}", 94)
+        rows = textwrap.wrap(f"{lead} {rest}", 92)
         first = rows[0][len(lead):]
         out.append(f'<text x="7" y="{y:.2f}" {SANS} font-size="3.18" fill="{mc.INK}"><tspan font-weight="800">{escape(lead, quote=False)}</tspan>{escape(first, quote=False)}</text>')
         for j, r in enumerate(rows[1:], 1):
@@ -213,6 +220,10 @@ def page_two():
         y += 3.9 * len(rows) + .8
     out.append(t(0, y + 2.6, read, 400, mc.INK, size=10 * PT, fam=SERIF))
     end = y + 4
+    room_top = end + 3
+    if H - room_top < ROOM:
+        sys.exit(f"make_spread: page two leaves {H - room_top:.1f} mm for the invitation, {ROOM} needed")
+    print(f"page two: the invitation's room is {room_top:.1f} to {H} mm from the top of the drawing")
     if end > H:
         sys.exit(f"make_spread: page two runs to {end:.1f} mm, past the {H} mm text block")
     return mc.svg(W, H, "".join(out), "The opening spread, page two: the day in four numbers, what a factory of agents made in a day, the house, and the story in five parts")
