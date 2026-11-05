@@ -1,0 +1,37 @@
+{
+ "schema": "the-ultimate-insider/synthetic-section-read/v1",
+ "label": "SYNTHETIC READER: a test instrument, never a reader. Fictional; not evidence about the book; not readership.",
+ "persona": "newsroom-builder",
+ "read_at": "2e26f79d",
+ "would_read_on": {
+  "06-roles-as-a-cast-you-can-read": "yes",
+  "17-what-did-not-work": "yes",
+  "17b-the-members-look-back": "maybe"
+ },
+ "findings": [
+  {"file": "06-roles-as-a-cast-you-can-read.md", "line": 5, "quote": "You can read both. That is the point: a team of agents you cannot read is a team you cannot trust.", "principle": "7", "severity": "should", "why": "A 'That is the point' opening, and it tells the reader what to conclude from two files they have only just met."},
+  {"file": "06-roles-as-a-cast-you-can-read.md", "line": 23, "quote": "the designer, with the smallest scope on the team", "principle": "reader", "severity": "should", "why": "'Scope' is used here but only defined at line 25, after the reader has already had to guess it."},
+  {"file": "06-roles-as-a-cast-you-can-read.md", "line": 35, "quote": "Three more came after I was back, and you will meet them properly in part three.", "principle": "reader", "severity": "should", "why": "Back from where? A first reader has no idea the editor left, and it is the one 'I' line in a passage otherwise told from outside."},
+  {"file": "06-roles-as-a-cast-you-can-read.md", "line": 21, "quote": "The researcher could not change a slide. It could only say that a number on one did not hold.", "principle": "1", "severity": "should", "why": "Reports the researcher's limits with no 'I' and no hindsight; as the editor I would want to say what that narrowness bought me."},
+  {"file": "06-roles-as-a-cast-you-can-read.md", "line": 74, "quote": "A scope is a list in a file. A check reads the list and flags any change outside it.", "principle": "21", "severity": "should", "why": "Defines scope a second time after the line 25 definition, then adds a run of short sentences."},
+  {"file": "06-roles-as-a-cast-you-can-read.md", "line": 3, "quote": "the three within the hour lit, and ruv-sgit just after; ... one empty chair.", "principle": "reader", "severity": "could", "why": "Reads as stage directions for a figure I cannot see; 'lit', 'greyed' and 'empty chair' are unexplained on a first read."},
+  {"file": "06-roles-as-a-cast-you-can-read.md", "line": 90, "quote": "look at each of its \"must not\" lines and note what actually stops it", "principle": "6", "severity": "could", "why": "An instruction on how to read; the three-way split (expect, check, lock) is also named nowhere before, so it lands unexplained."},
+  {"file": "17-what-did-not-work.md", "line": 24, "quote": "This is the register of the day's misses: each with what it cost and whose own record says so.", "principle": "reader", "severity": "could", "why": "'Register' means a particular thing in this book and is not explained here; a newcomer may take it as a generic list."},
+  {"file": "17-what-did-not-work.md", "line": 54, "quote": "The storyteller's own letter to deck says the split \"is late\".", "principle": "1", "severity": "should", "why": "Pure reporting of the record; the editor was there and could say what it felt like to ask for this and not get it."},
+  {"file": "17-what-did-not-work.md", "line": 66, "quote": "the researcher sent a correction to a figure on one of them: the average annual cost of insider risk", "principle": "21", "severity": "should", "why": "The figure and its freeze are told, then line 70 starts 'The figure:' and tells the same thing again with numbers."},
+  {"file": "17-what-did-not-work.md", "line": 83, "quote": "it was nothing sensitive, an agent that got a bit excited", "principle": "reader", "severity": "must", "why": "As someone who would run this, I cannot judge the lesson: what was captured, and why was a push public at all? The reassurance comes before the facts."},
+  {"file": "17-what-did-not-work.md", "line": 95, "quote": "I printed a vault key into my own session log. I rotated it at once", "principle": "reader", "severity": "should", "why": "'Vault' and 'rotated' are not explained in this chapter and the book says no vaults for now; a newsroom reader cannot tell how bad it was."},
+  {"file": "17-what-did-not-work.md", "line": 121, "quote": "only the trailers show they were dev's. And from the morning, many of ruv-sgit's commits left off the \"@\"", "principle": "reader", "severity": "should", "why": "Trailers, commits and the '@' are git detail never explained here, and this miss has the thinnest takeaway for a non-engineer."},
+  {"file": "17-what-did-not-work.md", "line": 130, "quote": "The one in the story tree is the objection chapter 13 told, and I kept my line.", "principle": "reader", "severity": "could", "why": "Points to a chapter I may not hold in mind; 'story tree' and 'my line' mean nothing yet."},
+  {"file": "17b-the-members-look-back.md", "line": 16, "quote": "part one was never locked. I shipped the tool to lock it, then let the room's fixes crowd out the step I had promised", "principle": "21", "severity": "should", "why": "Dev's lock, deck's unfinished parts, the storyteller's deadline and the designer's status are all told in full in chapter 17; this chapter replays four of the nine."},
+  {"file": "17b-the-members-look-back.md", "line": 71, "quote": "my last status says part one was locked after its check, and it never was; I wrote what was planned, not what had happened.", "principle": "21", "severity": "should", "why": "Near word for word with chapter 17 lines 109 and 111; the reader hears the designer's lesson three times in one chapter pair."},
+  {"file": "17b-the-members-look-back.md", "line": 14, "quote": "*Shortened from the historian's reconstruction.*", "principle": "21", "severity": "could", "why": "The same label opens all nine boxes after line 5 already said it; once at the top would do."},
+  {"file": "17b-the-members-look-back.md", "line": 113, "quote": "the interviews above are full of what those reviews caught", "principle": "reader", "severity": "could", "why": "The shortened answers show few review catches, so the claim is not borne out on the page."}
+ ],
+ "what_holds": [
+  "06-roles-as-a-cast-you-can-read.md: the two-files idea (rules in words, policy a program checks) and the scope-is-a-setting-not-a-boundary line are exactly what a newsroom editor can copy tomorrow.",
+  "17-what-did-not-work.md: each miss carries a cost and a source, and the 'something to try' list of last misses is a usable habit; the key response (rotate, report, hide nothing) is the part to copy.",
+  "17b-the-members-look-back.md: the security no-interview note is honest and strong, 'a second reading, not a second identity' is a clear limit I would worry about in my own newsroom."
+ ],
+ "notes": "Some counted findings are for the structure: 17b mostly repeats 17, so a reader short of time (my budget is five minutes) would skip it. The 'must' is about 17 line 83, which asks me to trust a reassurance I cannot check."
+}

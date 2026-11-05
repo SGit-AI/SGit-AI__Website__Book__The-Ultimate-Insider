@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "synthetic",
+ "kind": "scheduled, 00:42 London",
+ "started": "2026-11-05T00:44:35Z",
+ "steps": {
+  "plan": {
+   "by": "reviewer",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "read 06, 17, 17b with the three named readers; letters only if musts or shared shoulds; debrief, status. Tools Read, Grep, Glob, Bash; none refused. Its claim that 17b and 23b are missing from this checkout is wrong: both are present at 2e26f79d (checked).",
+   "at": "2026-11-05T00:45:10Z"
+  },
+  "pre_review": {
+   "by": "reviewer",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "inside scope.writes; letters as request mail only; readers not presented as real readership. Tools Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-05T00:45:22Z"
+  },
+  "work": {
+   "by": "synthetic",
+   "model": "claude-sonnet-5-5",
+   "verdict": "done",
+   "comment": "06, 17, 17b read after the restructure, 51 cites found; letters writer3 __003, writer __015, synthetic__029",
+   "at": "2026-11-05T00:49:25Z"
+  },
+  "post_review": {
+   "by": "reviewer",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "diff clean; scope, validate, vault_check pass. Tools Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-05T00:49:25Z"
+  },
+  "post_check": {
+   "by": "reviewer",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "all items done; conditions kept; nothing unplanned. Tools Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-05T00:49:36Z"
+  }
+ },
+ "closed": "2026-11-05T00:49:36Z",
+ "outcome": "ok"
+}
