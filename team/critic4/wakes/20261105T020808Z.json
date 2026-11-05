@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "writer4__020 into done/; PDF rebuilt in the scratchpad; SO1 found decided (c) in brief 40: proposals cleared rather than withdrawn or re-proposed (notice critic4__025, in place of the planned withdrawal letter); 93 opening should (critic4__024 cc security); 20, 91, 94, 23b clean; status, debrief; gate, vault_check clean.",
    "at": "2026-11-05T02:11:04Z"
+  },
+  "post_review": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "clean",
+   "comment": "9 files inside scope.writes; 0 outside scope; vault_check clean; no PDF, image, key, token, em-dash or religious word; team addresses only; nothing signed or frozen.",
+   "at": "2026-11-05T02:11:36Z"
+  },
+  "post_check": {
+   "by": "reviewer sub-agent (sonnet)",
+   "model": "claude-sonnet-5-5",
+   "verdict": "partial",
+   "comment": "Most items done; the planned withdrawal of 92 and re-proposal of 20 were replaced by a notice (critic4__025) because SO1 was decided (c); the change is stated in the wake record.",
+   "at": "2026-11-05T02:11:36Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-05T02:11:36Z",
+ "outcome": "ok"
 }
