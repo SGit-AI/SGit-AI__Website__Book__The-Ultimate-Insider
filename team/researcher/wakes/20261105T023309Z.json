@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Script now tests the full book's list for AP1; FAILS 0 after, 1 before (old file test); records written",
    "at": "2026-11-05T02:36:15Z"
+  },
+  "post_review": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Commit in scope; script FAILS 0 with the two Appendix A NOTEs; the Wardley quote is verbatim from C111; reviewer used Bash, none refused",
+   "at": "2026-11-05T02:38:13Z"
+  },
+  "post_check": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "AP1 test on the full book's list, trace pass 18, records, two letters filed, no new letter",
+   "at": "2026-11-05T02:38:13Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-05T02:38:13Z",
+ "outcome": "ok"
 }
