@@ -24,8 +24,22 @@
    "verdict": "done",
    "comment": "Opening spread traced; C132 settled; final-pass.py AP1-aware; script FAILS 1 (C132 vs the file until 92 is cut); records and letters written",
    "at": "2026-11-05T01:37:40Z"
+  },
+  "post_review": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "clean",
+   "comment": "Commit in scope, manuscript and briefs untouched; C132 quote holds; script AP1-aware and compiles; FAILS 1 expected (C132 vs the file until 92 is cut); reviewer used Bash, none refused",
+   "at": "2026-11-05T01:39:42Z"
+  },
+  "post_check": {
+   "by": "reviewer agent",
+   "model": "smaller model",
+   "verdict": "as-planned",
+   "comment": "Chapter 00 traced, 042 and 033 answered, C132 settled, script AP1-aware, 014 and 008 sent, records",
+   "at": "2026-11-05T01:39:42Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-05T01:39:42Z",
+ "outcome": "ok"
 }
