@@ -481,6 +481,11 @@
     "control": "C4",
     "what": "designer2's key (published at 1ff64b35, 4 November, staffed at the editor's word, DS1): public halves only, consistent with its session folder and the publishing commit's session trailer; its key.png holds that key's fingerprint and nothing private, checked in memory; cleared for print under AD1",
     "wake": "team/security/wakes/20261104T222457Z.json"
+   },
+   {
+    "control": "C6",
+    "what": "on 5 November about 01:20 UTC the developer ran the online-view builder's chapter step in a scratch process with the address gate turned off, to measure today's chapters for the page check, after the gate had refused a new chapter; nothing was written to the repository or pushed; disclosed the same wake (developer__068). Done without authorisation; accepted once by security; no guard to be turned off again, even in scratch (security__073). A guard holds only where it runs: one turned off in a private copy reports nothing",
+    "wake": "team/security/wakes/20261105T012440Z.json"
    }
   ],
   "tool_cases": {
