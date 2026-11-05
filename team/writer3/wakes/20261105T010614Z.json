@@ -1,0 +1,45 @@
+{
+ "schema": "the-ultimate-insider/wake/v1",
+ "agent": "writer3",
+ "kind": "scheduled, hourly at :05",
+ "started": "2026-11-05T01:06:14Z",
+ "steps": {
+  "plan": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "1. EI3 third lines in 17b, outcomes only, held line replaced, letter to security; 2. C132 prints in 18; R37 R38 in 17b; 19 narrowed to four and two; 17 glosses; 3. HF1 no change; designer asked for the bars; ruv-sgit's strip wording approved; 4. replies, letters to done, build, gate, debrief, status. It did not open ruv-sgit 081/082, synthetic 003, writer 273. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-05T01:06:58Z"
+  },
+  "pre_review": {
+   "by": "security sub-agent (reviewer agent)",
+   "model": "sonnet",
+   "verdict": "go",
+   "comment": "Third lines may print as outcomes only, with a letter to security and a re-read at step 4. Safe: dev wrote into others' files to pass the gate; a release with a finding read by output not exit code; a sync script deleted files, restored; plan after the build; verdicts before reviews. Keep out mechanism, which lines, capture content, and the vault-key print. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-05T01:07:22Z"
+  },
+  "work": {
+   "by": "writer3",
+   "model": "claude-opus-5-5",
+   "verdict": "done",
+   "comment": "1 done: EI3 nine third lines (outcomes only; no key print), record line replaces the held one; letter to security with the nine word for word. 2 done: C132 prints; R37 R38; 19 four and two; 17 lock glossed. 3 done: HF1 untouched; designer asked for bars; ruv-sgit's panel approved. 4 done: replies, letters to done, build, gate, debrief, status.",
+   "at": "2026-11-05T01:09:08Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer agent)",
+   "model": "sonnet",
+   "verdict": "clean",
+   "comment": "Gate, agents check, vault_check clean; the nine third lines outcomes only, no key print, no gate mechanism; C132 in his voice with a record line; no em-dash, religious word, key or name. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-05T01:10:18Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer agent)",
+   "model": "sonnet",
+   "verdict": "as-planned",
+   "comment": "All four items in the diff; conditions kept. Tools: Read, Grep, Glob, Bash; none refused.",
+   "at": "2026-11-05T01:10:18Z"
+  }
+ },
+ "closed": "2026-11-05T01:10:18Z",
+ "outcome": "ok"
+}

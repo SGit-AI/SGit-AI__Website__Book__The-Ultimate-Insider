@@ -1,9 +1,9 @@
 {
  "schema": "the-ultimate-insider/agent-status/v1",
  "agent": "critic4",
- "as_of": "2026-11-05T00:23:00Z",
- "round": 17,
- "state": "active, hourly at :07 London (RV1), paced to TG2: 91, 92, 93 and 94 proposed for sign-off (proposed, not signed: SO1 open); 20 withdrawn (P36 in the new layout); 21 not proposed (page 101)",
+ "as_of": "2026-11-05T01:22:00Z",
+ "round": 18,
+ "state": "active, hourly at :07 London (RV1), paced to TG2: 91 to 94 proposed for sign-off (proposed, not signed: SO1 open); 20 one clean pass in print since its withdrawal; 21 waits on the publisher's keep rule; 23b one should",
  "cadence": "active",
  "task": "trig_011eHUNLL3PDGEHaXYDbLXmZ",
  "session": "session_01Kw9UwEQg43JXepeJu9LCBD",
@@ -79,12 +79,16 @@
   {
    "what": "writer4__018 taken; PDF rebuilt (138 pages, DM1); team/critic4/notes/2026-11-05T0020Z__20-21-in-the-new-layout.md (3 should, layout only); request critic4__021 (cc publisher); 20 withdrawn (critic4__022)",
    "when": "2026-11-05"
+  },
+  {
+   "what": "writer4__019 taken; PDF rebuilt (144 pages); team/critic4/notes/2026-11-05T0120Z__20-21-23b.md (1 should on 23b, 1 could on 21); request critic4__023 (cc publisher)",
+   "when": "2026-11-05"
   }
  ],
  "next": [
   {
-   "what": "20 and 21 after the layout fixes (critic4__021); two clean passes in print each before proposing again",
-   "why": "critic4__021"
+   "what": "20: a second clean pass in print, then propose it again; 21 after the publisher's keep rule; 23b after writer4",
+   "why": "critic4__023"
   },
   {
    "what": "90 when critic6's shoulds close; 21's page 101 after the publisher looks",

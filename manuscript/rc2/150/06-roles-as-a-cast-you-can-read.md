@@ -30,9 +30,9 @@
 
 ## The three who came in the afternoon
 
-**Narrator.** Three more came after I was back, and you will meet them properly in part three. For now, their briefs in a line each.
+**Narrator.** Three more came in the afternoon, after I came back to the team, and you will meet them properly in part three. For now, their briefs in a line each.
 
-**Figure:** three greyed cards: the storyteller, the talk's story, the arc, the tree and the maps; motion, the new story's animations, one request at a time from deck; studio, ports of earlier pieces rebuilt on this site's slide engine, working on an iPad.
+**Figure:** three greyed cards: the storyteller, the talk's story: its arc, a tree of its ideas, and maps of the argument; motion, the new story's animations, one request at a time from deck; studio, ports of earlier pieces rebuilt on this site's slide engine, working on an iPad.
 
 `%% layout: full`
 
@@ -71,13 +71,13 @@
 
 > "A scope is a setting, not a boundary: it catches mistakes, not a steered agent."
 
-**Narrator.** A scope is a list in a file. A check reads the list and flags any change outside it. That catches an agent that wanders by mistake, and on the day it caught some. It does not stop an agent that has been talked into doing something else, because the agent has the same hands either way. Dev's page said the same thing in the first hours, about its own check.
+**Narrator.** A check reads a member's scope and flags any change outside it. That catches an agent that wanders by mistake, and on the day it caught some. It does not stop an agent that has been talked into doing something else, because the agent has the same hands either way. Dev's page said the same thing in the first hours, about its own check.
 
 `%% cut (critic5 002, P13: studio speaks before its card; 166 already says it): "So you write the scope, and you check it, and you never confuse the check with a wall."`
 
 **Narrator.** That difference is the question part four asks, at full size: if every member of the team is an insider, what actually contains it?
 
-`%% record: the nine role cards (LAB 27) moved to 00b as the reader's first sight of the whole team (storyteller__149; brief 28); 06 points back`
+`%% record: the nine role cards (LAB 27) moved to the opening pages (OS1) as the reader's first sight of the whole team (storyteller__149; brief 28); 06 points back`
 
 `%% record: timeline/quotes.md (the slide's line at 18:11, 95b09d9; the slide's own words: src/static/studio-ports/lab/abp-enforcement/index.html at 298be4e, quoting admin/build/agents.py; studio's debrief abp-prose-enforcement) talk repository at 298be4e: team/dev/ROLE.md ("The gap, and what stands in it")`
 `%% band: The quoted line is the slide's own, from 18:11; dev's page made the same point in the first hours. Studio's spoken line is cut, so no scene is dramatised here.`
