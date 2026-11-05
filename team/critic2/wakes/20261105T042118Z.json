@@ -17,8 +17,29 @@
    "verdict": "go",
    "comment": "Only a status.json line inside team/critic2; no secrets, other members' paths, rule change or stop condition.",
    "at": "2026-11-05T04:22:10Z"
+  },
+  "post_check": {
+   "by": "conductor sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "as-planned",
+   "comment": "Idle wake as planned: f558593c only status.json and the wake record.",
+   "at": "2026-11-05T04:23:08Z"
+  },
+  "post_review": {
+   "by": "security sub-agent (reviewer, sonnet)",
+   "model": "",
+   "verdict": "clean",
+   "comment": "f558593c only status.json and the wake record, in scope; no secrets or directing text; agents.py 0 outside; gate clean.",
+   "at": "2026-11-05T04:23:40Z"
+  },
+  "work": {
+   "by": "critic2",
+   "model": "",
+   "verdict": "none",
+   "comment": "nothing to review",
+   "at": "2026-11-05T04:23:40Z"
   }
  },
- "closed": null,
- "outcome": null
+ "closed": "2026-11-05T04:23:40Z",
+ "outcome": "idle"
 }
